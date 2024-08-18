@@ -3,18 +3,13 @@ title: "Nextjs 14에서 커서기반 Pagination 구현하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-03-Cursor-BasedPagination_0.png"
 date: 2024-08-03 20:37
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-03-Cursor-BasedPagination_0.png
 tag: Tech
 originalTitle: "Cursor-Based Pagination"
 link: "https://medium.com/@chidanandan/cursor-based-pagination-601b64d1a415"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![이미지](/assets/img/2024-08-03-Cursor-BasedPagination_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 응용 프로그램의 사용 사례에 따라 페이지네이션 기술은 다양하게 활용될 수 있습니다. 우리가 모두 관찰한 일반적인 사용 사례 중 하나는:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 페이지 번호 옆에 "이전" 또는 "다음" 버튼을 제공합니다.
 - 사용자가 화면을 무한으로 스크롤할 수 있는 인피니트 스크롤링을 제공합니다. 사용자가 뷰포트의 하단에 도달하면 새로운 콘텐츠가 지속적으로 추가됩니다. (소셜 미디어 피드, 전자상거래 검색 결과...)
@@ -37,9 +42,20 @@ isUpdated: true
 
 오프셋 기반 접근 방식은 간단하고 쉽게 구현할 수 있으며 빈도가 낮게 업데이트되는 정적 데이터 세트에 적합합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-클라이언트 측 매개변수로 레코드 수를 나타내는 Limit 및 데이터 검색을 시작할 위치를 나타내는 Offset 또는 PageNumber가 필요합니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+클라이언트 측 매개변수로 레코드 수를 나타내는 Limit 및 데이터 검색을 시작할 위치를 나타내는 Offset 또는 PageNumber가 필요합니다.
 
 예를 들어, 1 페이지의 레코드를 가져오려면 Offset = 0, Limit = 10으로 설정합니다.
 
@@ -49,7 +65,18 @@ SELECT * FROM records LIMIT 10 OFFSET 0;
 
 10 페이지의 레코드를 가져오려면 Offset = 90, Limit = 10으로 설정하면 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 SELECT * FROM records LIMIT 10 OFFSET 90;
@@ -63,7 +90,18 @@ Offset 기반 접근 방식의 단점:
 
 이제 페이지네이션에 대해 이해했으며 다양한 접근 방법, 특히 Offset 기반 접근 방식의 이점 및 단점을 알게 되었습니다. 이제 Cursor-Based 페이지네이션에 대해 더 깊이 파고들어보고 사용 사례와 장점을 이해해보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 커서 기반 페이징은 데이터 세트의 특정 레코드에 대한 고유 식별자(커서)를 사용합니다. "11번부터 20번까지의 레코드를 제공해줘"라는 식으로 말하는 대신 "특정 아이템 다음부터 10개의 아이템을 제공해줘"라고 요청합니다.
 
@@ -75,7 +113,18 @@ Offset 기반 접근 방식의 단점:
 
 소셜 미디어 피드의 예시를 들어보겠습니다. 데이터베이스에 수백만 개의 게시물이 존재하고 각 게시물에는 고유한 ID가 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 초기 호출 시에는 limit만 보내요!
 
@@ -91,7 +140,18 @@ LIMIT 10;
 
 이렇게 하면 처음 10개의 게시물과 함께 커서 값(마지막 게시물의 id)을 받아요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```json
 /* API 응답 */
@@ -131,7 +191,18 @@ ORDER BY post_id
 LIMIT 10;
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 post_10이후에 나타나는 포스트 10개를 우리에게 반환하며, 그에 따라 커서 값(마지막 포스트의 id)도 표시됩니다:
 
@@ -171,7 +242,18 @@ ORDER BY post_id
 LIMIT 10;
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 에지 케이스 처리:
 
@@ -181,7 +263,18 @@ API를 호출하지 않고 데이터가 없는 경우를 확인하기 위해 cur
 
 Cursor 기반 접근법의 단점:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 커서 기반 페이징은 사용자가 임의의 페이지로 직접 이동하는 것을 허용하지 않습니다 (예: "페이지 5로 이동"). 이는 사용자가 특정 페이지로 직접 이동할 것으로 기대하는 애플리케이션에서 제한이 될 수 있습니다.
 - 커서 기반 페이징은 오프셋 기반 페이징에 비해 더 복잡하게 구현됩니다. 요청 사이의 커서를 처리하고 상태를 관리하는 추가적인 로직이 필요합니다.
@@ -194,7 +287,18 @@ Cursor 기반 접근법의 단점:
 
 오프셋 기반 페이징을 사용하는 경우:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 성능이 중요하지 않은 작은 데이터셋의 경우 오프셋 기반 페이징은 간단하고 구현하기 쉽습니다.
 - 데이터가 자주 변경되지 않는 경우 오프셋 기반 페이징은 충분하며 일관성 문제를 걱정할 필요 없이 더 간단하게 사용할 수 있습니다.

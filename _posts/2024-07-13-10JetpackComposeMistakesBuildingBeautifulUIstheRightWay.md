@@ -3,7 +3,7 @@ title: "Jetpack Compose 실수 10가지 아름다운 UI를 올바르게 만드�
 description: ""
 coverImage: "/assets/img/2024-07-13-10JetpackComposeMistakesBuildingBeautifulUIstheRightWay_0.png"
 date: 2024-07-13 00:31
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-10JetpackComposeMistakesBuildingBeautifulUIstheRightWay_0.png
 tag: Tech
 originalTitle: "10 Jetpack Compose Mistakes🤥: Building Beautiful UIs the Right Way"
@@ -11,17 +11,24 @@ link: "https://medium.com/@niranjanky14/10-jetpack-compose-mistakes-building-bea
 isUpdated: true
 ---
 
-
-
-
-
 **아래는 Compose 개발을 더 부드럽고 효율적으로 만들기 위해 피해야 할 10가지 흔한 함정이 있습니다:**
 
 1. **과도한 재구성:**
 
 리스트에 사용자 이름과 아바타를 표시하는 항목이 있다고 상상해보세요. 리스트 내에서 발생하는 작은 변경이 모든 항목의 전체 재구성을 유발한다면 성능 문제로 이어질 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 💁🏻‍♂️ 피하세요! 효율적인 스크롤링 리스트를 위해 LazyColumn이나 LazyRow와 같은 기술을 활용해보세요. 특정 데이터 변경에 따라 다시 구성을 최적화하기 위해 remember나 derivedStateOf와 같은 기술도 고려해볼 가치가 있어요. 아래 예시를 확인해보세요:
 
@@ -31,7 +38,18 @@ isUpdated: true
 
 Jetpack Compose은 UI 상태를 관리하기 위한 다양한 방법을 제공해요 (예: mutableStateOf, viewModel). 적절하지 않은 방식을 선택하면 복잡성과 예상치 못한 동작을 야기할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 💁🏻‍♂️Dodge it: 간단한 로컬 상태에는 mutableStateOf를 사용하세요. UI 전체에 걸쳐 복잡한 상태 관리를 위해서는 ViewModel이나 MutableStateFlow 기반의 라이브러리와 같은 상태 관리 솔루션을 고려해보세요. 아래는 예시입니다:
 
@@ -41,7 +59,18 @@ Jetpack Compose은 UI 상태를 관리하기 위한 다양한 방법을 제공�
 
 Composable은 부모 레이아웃으로부터 받은 제약을 고려해야 합니다. 이를 무시하면 예상치 못한 크기 조정이나 레이아웃 문제가 발생할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 💁🏻‍♂️Dodge it: Your composables should pay attention to the constraints given and utilize modifiers like size or fillMaxSize to establish their size within the layout. Let me show you an example:
 
@@ -51,7 +80,18 @@ Even though modifiers are effective for styling UIs, excessive use can lead to c
 
 💁🏻‍♂️Dodge it: Strive for clarity and brevity. Think about creating custom composables to encompass common styling patterns. Here’s an example:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 5. 컴포저블 함수에서의 부작용:
 
@@ -61,7 +101,18 @@ Even though modifiers are effective for styling UIs, excessive use can lead to c
 
 ![image](/assets/img/2024-07-13-10JetpackComposeMistakesBuildingBeautifulUIstheRightWay_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 6. 접근성을 무시합니다:
 
@@ -71,7 +122,18 @@ Even though modifiers are effective for styling UIs, excessive use can lead to c
 
 [이미지](/assets/img/2024-07-13-10JetpackComposeMistakesBuildingBeautifulUIstheRightWay_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 7. 리스트에 대한 키 사용을 잊지 마세요:
 
@@ -81,7 +143,18 @@ Compose에서 리스트를 작업할 때 각 항목에 고유한 키를 사용�
 
 ![Compose Example](/assets/img/2024-07-13-10JetpackComposeMistakesBuildingBeautifulUIstheRightWay_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 8. 레이아웃 구성을 위해 수식어를 오용하는 것:
 
@@ -91,7 +164,18 @@ Compose에서 리스트를 작업할 때 각 항목에 고유한 키를 사용�
 
 ![이미지](/assets/img/2024-07-13-10JetpackComposeMistakesBuildingBeautifulUIstheRightWay_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 9. 사전에 구축된 Composables 활용하지 않기:
 
@@ -101,7 +185,18 @@ Jetpack Compose는 공통 UI 요소(버튼, 텍스트 필드 등)를 위한 풍�
 
 ### 10. 문서화 및 테스트 소홀히 하기:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 적절한 문서화와 테스트는 Compose 코드베이스를 유지하고 개선하는 데 중요합니다.
 

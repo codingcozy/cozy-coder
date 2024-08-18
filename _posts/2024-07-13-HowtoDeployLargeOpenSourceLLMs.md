@@ -3,18 +3,13 @@ title: "대형 오픈 소스 LLM 배포하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-13-HowtoDeployLargeOpenSourceLLMs_0.png"
 date: 2024-07-13 03:47
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-HowtoDeployLargeOpenSourceLLMs_0.png
 tag: Tech
 originalTitle: "How to Deploy (Large) Open Source LLMs"
 link: "https://medium.com/ai-mind-labs/how-to-deploy-large-open-source-llms-3c62d216383b"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![Open Source LLMs](/assets/img/2024-07-13-HowtoDeployLargeOpenSourceLLMs_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 본 자습서에서는 애플리케이션 내에서 통합하기 위해 가장 큰 오픈 소스 LLMs를 신속히 배포하는 방법을 보여드리겠습니다. 배포에는 AutoGen을 사용할 것입니다. 하지만 우리가 생성하는 API 엔드포인트가 OpenAI 엔드포인트를 흉내내기 때문에 현재 OpenAI 모델을 사용하고 있는 프레임워크에 대체제로 제공되어야 할 것입니다. 단, 일부 구문 수정이 필요할 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 작업을 수행하는 데 몇 가지를 사용하게 될 거예요.
 
@@ -37,7 +42,18 @@ isUpdated: true
 
 시작하기 전에 다음 사전 요구 사항을 숙지해야 해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - **Hugging Face**, **Runpod**, 그리고 **Postman**과 계정을 설정해야 합니다.
 - **Runpod** 크레딧을 위해 약 25달러의 예산을 투자할 의사가 있어야 합니다.
@@ -53,7 +69,18 @@ isUpdated: true
 4. Postman으로 엔드포인트를 테스트합니다.
 5. 엔드포인트를 애플리케이션에 삽입합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 1) 컴퓨팅 요구 사항 결정하기
 
@@ -63,7 +90,18 @@ Llama-2–70B 모델의 경우 추론을 위해 153.78GB의 VRAM이 필요합니
 
 ![Link image](/assets/img/2024-07-13-HowtoDeployLargeOpenSourceLLMs_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 The next step is to head to Runpod to figure out how many GPUs we need to hire. Visit the Secure Cloud page where you will be presented with a range of GPU options.
 
@@ -73,7 +111,18 @@ We need to calculate how many of these GPUs we require to host the model. We can
 
 It’s essential to recognise that the deployment of multiple GPUs must be aligned with your model’s architecture, particularly when using vLLM’s tensor parallelism approach to support multi-gpu inference.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 멀티-GPU 추론에서는 모델과 입력이 모든 GPU 작업자에 '분할(sharded)'되어 고르게 분산됩니다. 예를 들어, 68개의 어텐션 헤드를 가진 LLaMA-2-70b 모델은 네 개의 GPU 설정과 잘 맞습니다. 이 호환성을 통해 각 GPU가 모델 작업 부하의 동등한 부분을 처리하므로 효율적인 작업이 가능합니다. 모델 구성 요소의 고르게 분배가 매우 중요하며, vLLM을 사용할 때 멀티-GPU 환경에서 sharding 및 작업 효율성을 위해 필요합니다.
 
@@ -83,7 +132,18 @@ It’s essential to recognise that the deployment of multiple GPUs must be align
 
 이제 Runpod에 템플릿을 만들어야 합니다. 템플릿은 Runpod에게 컨테이너를 빌드하는 방법을 알려주는 지침일 뿐이며, 이후 GPU에 배포할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특정 템플릿 생성을 원하실 때는 사용자 정의 템플릿으로 이동해주세요. 거기서 vLLM의 공식 도커 이미지를 사용하여 새 컨테이너를 빌드할 거에요.
 
@@ -95,7 +155,18 @@ It’s essential to recognise that the deployment of multiple GPUs must be align
 vllm/vllm-openai:latest
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **도커 명령어** 창에 다음과 같이 입력해주세요:
 
@@ -107,7 +178,18 @@ vllm/vllm-openai:latest
 
 **HTTP 포트 노출** 창에서는 포트 8000을 노출하도록 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 컨테이너 및 볼륨 마운트
 
@@ -119,7 +201,18 @@ vllm/vllm-openai:latest
 /root/.cache/huggingface:/root/.cache/huggingface
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 환경 변수
 
@@ -130,25 +223,58 @@ vllm/vllm-openai:latest
 
 오픈소스 라이브러리인 vLLM과 같은 것들은 계속해서 업데이트되고 있습니다. 여기에 있는 내용이 적용할 때까지 변경되었을 수 있기 때문에, 변경 사항이 있는지 확인하려면 vLLM 도커 배포 문서를 살펴봐주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 함께 가실 때 L4 인스턴스 4개를 선택해야 합니다. 선택이 완료되었고 서비스 요금도 확인하셨다면 배포를 진행해 주세요.
 
 컨테이너를 배포하고 나면 다음과 같은 화면이 보일 것입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 '연결' 버튼을 눌러 HTTP 엔드포인트에 연결하세요. 그러면 아래 스크린샷에 나와있는 메뉴가 표시됩니다. 몇 분 동안 엔드포인트가 준비될 때까지 기다리세요.
 
 준비가 되면 'HTTP 서비스에 연결하기 [포트 8000]'를 클릭하면 다음 메시지가 표시된 브라우저로 이동합니다.
 
 ```json
-{"detail":"Not Found"}
+{ "detail": "Not Found" }
 ```
 
 ## 4) Postman으로 엔드포인트를 테스트하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 포스트맨에 들어가서 API 요청을 보내는 방법을 알아보세요. API 요청을 생성할 수 있는 몇 가지 옵션이 제시됩니다. 먼저 요청 유형을 POST로 변경하세요. 그 다음, 연결 화면에서 URL을 복사하고 보내기 창에 붙여넣으세요.
 
@@ -158,7 +284,18 @@ vllm/vllm-openai:latest
 
 이제 엔드포인트를 애플리케이션에 추가할 수 있습니다. 시작 부분에서 언급했듯이, 우리의 엔드포인트는 OpenAI 엔드포인트를 모방하도록 설계되어, 그들의 API를 대신할 수 있습니다. 아래 코드는 어떻게 엔드포인트를 AutoGen 애플리케이션에 추가하는지를 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ⚠️프로젝트를 완료했다면 크레딧이 모두 소진되지 않도록 Runpod 인스턴스를 중지하는 것을 잊지 마세요!
 
@@ -168,9 +305,20 @@ vllm/vllm-openai:latest
 
 인공 지능 기술을 향상시키고 싶다면, 내 코스를 위한 대기 목록에 가입하세요. 거기서 영어 문장 생성에 사용되는 대형 언어 모델을 활용하는 애플리케이션 개발 과정을 안내해 드립니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-금연 상담을 받아보시려면 당신의 비즈니스에 AI 전환을 찾고 계시다면, 오늘 바로 발견 전화를 예약하세요. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+금연 상담을 받아보시려면 당신의 비즈니스에 AI 전환을 찾고 계시다면, 오늘 바로 발견 전화를 예약하세요.
 
 인공지능, 데이터 과학, 그리고 대형 언어 모델에 대한 더 많은 통찰력을 얻으시려면 YouTube 채널을 구독하세요.
 
@@ -178,7 +326,18 @@ vllm/vllm-openai:latest
 
 ![AI Mind](https://miro.medium.com/v2/resize:fit:500/0*5Wm7sOfTpe5DEbhg.gif)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 커뮤니티에 참여해 주셔서 감사합니다! 떠나시기 전에:
 

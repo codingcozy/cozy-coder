@@ -3,17 +3,13 @@ title: "라즈베리 파이로 홈 네트워크를 안전하게 보호하세요,
 description: ""
 coverImage: "/assets/img/2024-06-20-GetyourHomeNetworkSecuredwithRaspberryPiWazuh2023Edition_0.png"
 date: 2024-06-20 17:29
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-GetyourHomeNetworkSecuredwithRaspberryPiWazuh2023Edition_0.png
 tag: Tech
 originalTitle: "Get your Home Network Secured with Raspberry Pi , Wazuh — 2023 Edition"
 link: "https://medium.com/@henrion.frn/get-your-home-network-secured-with-raspberry-pi-wazuh-2023-edition-c7ac2044df3e"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-20-GetyourHomeNetworkSecuredwithRaspberryPiWazuh2023Edition_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이 튜토리얼을 완료하면 네트워크 보안을 모니터링하고 실시간 알림을 통해 정보를 파악할 수 있는 신뢰할 수 있고 예산을 절감할 수 있는 솔루션이 준비될 것입니다. 소규모 비즈니스 소유자, 홈 네트워크 애호가 또는 개인 정보와 안심을 중요시하는 분이든 상관없이 모두를 위해 준비되어 있습니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 단계별 가이드는 디지털 방어 체계를 강화하기 위해 필요한 지식과 도구를 제공할 것입니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 본 튜토리얼을 실행하는 데 주요 캐릭터 없이는 꽤 어려울 것입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 라즈베리 파이 4 모델 B — 8GB 램
 - 마이크로 SD 카드 — 이상적으로 125G이지만 32G으로 충분
@@ -45,19 +63,41 @@ isUpdated: true
 
 - 라즈베리용으로 Ubuntu Server 22.04.5 LTS (64-bit)를 선택할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지를 설치하려면 Raspberry Pi Imager를 추천합니다. 이 도구를 사용하면 설치 프로세스가 훨씬 쉬워지며 온라인에서 찾아야할 이미지를 찾을 필요가 없습니다. 이미지 목록을 제공합니다.
 
 이 옵션을 선택하면:
 
-- OS 선택 ` 기타 일반 용도 OS ` Ubuntu ` Ubuntu Server 22.04.5 LTS (64비트)
+- OS 선택 `기타 일반 용도 OS` Ubuntu ` Ubuntu Server 22.04.5 LTS (64비트)
 - 저장소 선택 ` SD 카드 선택
 - Write 버튼 클릭하기 전에 — 오른쪽 하단의 설정을 클릭하여 확인해주세요. 후에 감사할 겁니다:
 
 `<img src="/assets/img/2024-06-20-GetyourHomeNetworkSecuredwithRaspberryPiWazuh2023Edition_1.png" />`
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서는 SSH 액세스 및 라스피에 대한 Wifi 액세스를 미리 설정할 수 있으며, 기본적으로 openssh-server와 같은 것을 수동으로 만들 필요가 없습니다.
 
@@ -67,7 +107,18 @@ isUpdated: true
 
 마지막으로 쓰기 버튼을 눌러주세요, 이제 일이 정말 뜨겁게 될 것입니다 🔥!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 내 파이는 어디에 있나요?
 
@@ -75,11 +126,22 @@ isUpdated: true
 
 네트워킹에 대해 아직 초보인 경우, 내 네트워크에서 Raspi를 찾을 수 있는 방법을 궁금해 할 수 있습니다. 음, 간단한 방법을 알려드릴게요:
 
-```js 
+```js
 nmap 192.168.1.1-254
-```  
+```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신의 로컬 네트워크에서 호스트 이름 "wazuh"을 찾을 수있는 모든 장치를 나열해야합니다.
 
@@ -89,19 +151,39 @@ Raspberry용 Wazuh 설치에 대해 알아야 할 몇 가지 사항이 있습니
 
 우선, Wazuh는 몇 분 안에 완전한 Wazuh 팩을 설치할 수 있도록하는 사용 준비 스크립트를 제공하여 AMD 아키텍처에 대해 기본적으로 적용되는데, Raspberry는 실제로 arm을 사용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 표 태그를 Markdown 형식으로 바꾸세요.
 
-
 Create a Markdown table:
 
-| Header 1 | Header 2 |
-|----------|----------|
-| Content 1| Content 2|
+| Header 1  | Header 2  |
+| --------- | --------- |
+| Content 1 | Content 2 |
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제시되는 다음 단계는 Wazuh 4.4 버전에 유효하며 다음 섹션으로 구분됩니다:
 
@@ -111,7 +193,18 @@ Create a Markdown table:
 
 3. Wazuh Server 설치하기 - Wazuh 서버는 배포된 에이전트로부터 데이터를 수집하고 분석합니다. Wazuh 매니저, Wazuh API 및 Filebeat을 실행합니다. Wazuh를 설정하는 첫 번째 단계는 Wazuh 리포지토리를 서버에 추가한 다음 매니저 자체를 설치하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. Filebeat 설치 - Filebeat는 Wazuh 서버에서 경고 및 보관된 이벤트를 안전하게 Elasticsearch로 전달하는 도구입니다.
 
@@ -121,7 +214,18 @@ Create a Markdown table:
 
 우리 경우에는 Ubuntu Server를 사용하고 있으므로 `apt` 및 `systemctl`을 사용할 것입니다. 💻👌
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 스파이를 배치하세요 — 개인 스파이들을
 
@@ -131,7 +235,18 @@ Create a Markdown table:
 
 하지만 이제 첫 번째 에이전트를 설치할 시간입니다 🔍🕵️!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 일반 시민이라면, 집에서는 MacOs 또는 Windows를 실행해야 합니다. (👋 안녕하세요 Linux 사용자 🐧). 다행히도, 모든 운영 체제에 대해 GUI 설치가 가능한 에이전트가 있습니다:
 
@@ -142,7 +257,18 @@ Create a Markdown table:
 
 에이전트를 등록하는 방법은 두 가지가 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 대리인 구성을 통한 등록
 - 매니저 API를 통한 등록
@@ -153,23 +279,45 @@ MacOS & Linux
 
 1. 루트 사용자로 터미널을 열어서 Wazuh 에이전트 구성 파일인 /Library/Ossec/etc/ossec.conf을 편집하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-2. ``client``server``address`` 섹션에 Wazuh 매니저 IP 주소를 추가하십시오:
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+2. `client`server`address` 섹션에 Wazuh 매니저 IP 주소를 추가하십시오:
 
 ```js
 <client>
-    <server>
-      <address>MANAGER_IP</address> (여기에는 192.168.1.43을 입력)
-    </server>
- </client>
+  <server>
+    <address>MANAGER_IP</address> (여기에는 192.168.1.43을 입력)
+  </server>
+</client>
 ```
 
 Windows
 
 동일한 로직이지만, 차이점은 에이전트의 위치가 다르다는 것입니다. Wazuh 에이전트 설치 디렉토리는 호스트의 아키텍처에 따라 다릅니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 64비트 시스템용 \ossec-agent\Program Files (x86)\C: 폴더에서 사용합니다.
 - 32비트 시스템용 \ossec-agent\Program Files\C: 폴더에서 사용합니다.
@@ -180,7 +328,18 @@ Wazuh에 데이터를 가져오도록 몇 분 정도 기다리시고, 여기서 
 
 # 텔레그램 — 개인 알림 센터 🌟
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 SIEM을 갖고 있으셨으니, 이제 실시간 알림 시스템을 제공해 드릴 시간입니다. Wazuh는 Slack, Jira 또는 이메일로 통합을 제공하지만 솔직히 말해서, 집에서 보안 이벤트 알림을 받는 가장 편한 방법은 아닙니다.
 
@@ -190,8 +349,18 @@ Wazuh에 데이터를 가져오도록 몇 분 정도 기다리시고, 여기서 
 
 봇을 관리하는 데 도움이 될 쉬운 명령어를 확인할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Get your Home Network Secured with Raspberry Pi Wazuh 2023 Edition](/assets/img/2024-06-20-GetyourHomeNetworkSecuredwithRaspberryPiWazuh2023Edition_4.png)
 
@@ -201,8 +370,18 @@ Then create your bot, and fetch your HTTP API Token:
 
 ## 텔레그램과의 사용자 정의 통합 관리 방법
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 작업을 이해하는 데 중요한 두 군데가 있습니다:
 
@@ -213,7 +392,18 @@ Then create your bot, and fetch your HTTP API Token:
 
 ## 스크립트 요구 사항
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스크립트가 작동하려면 두 가지 요구 사항이 있어요:
 
@@ -225,7 +415,18 @@ pip3 install requests
 
 - 텔레그램 CHATID가 필요해요. id를 찾기 전에 봇에 작은 "안녕" 메시지를 보내 채팅을 만들어두세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 https://api.telegram.org/bot<YOUR-BOT-TOKEN>/getUpdates
@@ -239,7 +440,18 @@ https://api.telegram.org/bot<YOUR-BOT-TOKEN>/getUpdates
 
 ## 커스텀 통합용 스크립트
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 이상 설명하지 않고, /var/ossec/integrations/로 이동하여 다음 명령을 실행해주세요:
 
@@ -315,7 +527,18 @@ with open('/var/ossec/logs/integrations.log', 'a') as f:
 sys.exit(0)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 (더 많은 정보가 필요하시다면 @jesusjimsa 님의 훌륭한 노력으로 스크립트를 제공하고 세부적으로 설명한 다음 기사를 확인해보세요.)
 
@@ -328,7 +551,18 @@ chown root:wazuh /var/ossec/integrations/custom-telegram
 
 ⚠️ 엄청난 경고 — 통합 이름은 반드시 "custom-"으로 시작해야 합니다. 그렇지 않으면 우리 친애하는 Wazuh가 여러분이 무엇을 기대하는지 이해하지 못할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로 해야 할 일은 다음과 같이 /var/ossec/etc/ossec.conf를 업데이트하는 것입니다:
 
@@ -344,8 +578,18 @@ Wazuh 관리자를 재시작하려면 systemctl restart wazuh-manager를 실행�
 
 재시작 후 첫 번째 알림을 볼 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Raspberry Pi Wazuh Edition](/assets/img/2024-06-20-GetyourHomeNetworkSecuredwithRaspberryPiWazuh2023Edition_6.png)
 

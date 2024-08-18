@@ -3,17 +3,13 @@ title: "노트북에서 리눅스가 너무 잘 돌아가서 지겨울 정도야
 description: ""
 coverImage: "/assets/img/2024-06-19-LinuxOnTheLaptopWorksSoDamnWellThatItsBoring_0.png"
 date: 2024-06-19 08:37
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-LinuxOnTheLaptopWorksSoDamnWellThatItsBoring_0.png
 tag: Tech
 originalTitle: "Linux On The Laptop Works So Damn Well That It’s Boring"
 link: "https://medium.com/@clivethompson/linux-on-the-laptop-works-so-damn-well-that-its-boring-29014b347941"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-19-LinuxOnTheLaptopWorksSoDamnWellThatItsBoring_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이메일과 연구를 위한 일을 열심히 하면서 잘 되고 있었어요. 그런데 오후 1시 전에 비디오 콜에 참여해야 한다는 걸 기억했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제가 발생했나요? 비디오 통화를 하려면 Microsoft Teams가 필요했는데... 제 립넥스 컴퓨터에는 설치되어 있지 않았어요. "이런, Microsoft가 Linux용 Teams 버전을 가지고 있는 건가요?" 라고 생각했죠. 또 이 오래된 노트북에는 별로 좋지 않은 웹캠이 달려 있었고(보통 비디오를 위해 이 기기를 사용하지 않아요), 그리고 제 섹시한 고해상도 Logictech 카메라가 Linux에서 작동할지도 확신할 수 없었어요. 오 이런, 정말 문제군요.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 그래서 회의에 참여했고,... 모든 게 잘되었어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 너드들에게는 당연한 사실이지만, 다른 사람들에게는 여전히 새로운 소식일 수 있는 점을 강조하기 위해 이 일화를 전합니다:
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 하지만 2010년대 초기에는 이 문제들이 급속히 사라지기 시작했어요. 2020년대 초기에 이제는 이러한 문제들이 상당히 해소되었습니다. 여러 이유로 인해 상황이 크게 개선되었죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1) 컴퓨터에 Linux 설치가 지금은 꽤 간단해졌어요
 
@@ -51,7 +80,18 @@ Ubuntu를 발행하는 캐노니컬(제가 선호하는 리눅스 변형 중 하
 
 그리고 Linux가 설치되면 대부분의 것들이 정말 간단해요. Linux UI의 마무리와 광택은 상당히 멋져요. Ubuntu와 같은 것을 사용하면 Windows나 Mac에서 하는 것과 정확히 같이 작동하는 거에요. Ubuntu에는 자동 업데이트 기능과 “소프트웨어 센터”가 있어요. 그래서 다른 프로프리트리 앱 스토어를 사용하는 것처럼 앱을 추가하는 것이 클릭 한 번으로 쉬워요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 사랑하는 모든 앱들은 어떻게 될까요? Linux에서 사용할 수 있을까요?
 
@@ -61,7 +101,18 @@ Ubuntu를 발행하는 캐노니컬(제가 선호하는 리눅스 변형 중 하
 
 90년대와 2000년 초반에는 Linux용으로 사용할 수 있는 소프트웨어가 대부분 없었던 것은 확실해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 지난 10년 사이에, 일상적인 컴퓨팅의 상당 부분이 브라우저로 이동했습니다. 사람들은 브라우저에서 워드 처리 및 스프레드시트 작업을 하며, 메시징 및 채팅 앱도 사용합니다. 브라우저에서 파워포인트 스타일의 프레젠테이션을 만들고, 게임을 플레이하기도 합니다. 음악이나 팟캐스트를 녹음하거나 사진을 편집하거나 소프트웨어를 개발하고 수많은 다른 일을 브라우저에서 할 수 있습니다. 심지어 브라우저에서 전체 Microsoft Office 스위트를 사용할 수 있어서 Linux에서도 사용할 수 있습니다. 너처럼 90년대의 마이크로소프트/리눅스 전쟁의 노련한 노파라면, 이것이 상당히 이상한 일이라고 생각할 수도 있습니다.
 
@@ -71,7 +122,18 @@ Ubuntu를 발행하는 캐노니컬(제가 선호하는 리눅스 변형 중 하
 
 ## 3) Linux는 낡은 오래된 컴퓨터들도 아름답게 운영시킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 2011년 제가 리눅스를 운영하는 컴퓨터로 사용하는 것은 씽크패드입니다. 물리적으로는 정말 단단한 기계로, 키보드가 두껍고 아름답습니다 (솔직히 말하자면 저는 내 고가의 맥북 프로보다 훨씬 좋아합니다). 하지만 계산적인 면에서 씽크패드의 프로세서는 정말 오래되고 약합니다. 최신 버전의 Windows를 실행하려고 한다면 아마 느릴 것입니다.
 
@@ -81,7 +143,18 @@ Ubuntu를 발행하는 캐노니컬(제가 선호하는 리눅스 변형 중 하
 
 하지만 이것은 사소한 문제입니다. 대부분, 리눅스는 완전히 평범한 것으로 변해갔습니다. 주변에 구식 컴퓨터가 있다면, 이 아름답고 재미있는 운영 체제를 설치하여 새로운 생명을 불어넣어보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 (이 글을 즐겼나요? 그렇다면 "박수" 버튼을 눌러보세요! 대부분의 사람들은 한 번만 누를 수 있다고 생각하지만 — 퀴즈! — 여러분은 최대 50번까지 누를 수 있어요.)
 

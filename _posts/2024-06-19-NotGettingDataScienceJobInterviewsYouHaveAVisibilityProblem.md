@@ -3,17 +3,13 @@ title: "데이터 과학 채용 면접이 오지 않나요 시각성 문제가 �
 description: ""
 coverImage: "/assets/img/2024-06-19-NotGettingDataScienceJobInterviewsYouHaveAVisibilityProblem_0.png"
 date: 2024-06-19 16:19
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-NotGettingDataScienceJobInterviewsYouHaveAVisibilityProblem_0.png
 tag: Tech
 originalTitle: "Not Getting Data Science Job Interviews? You Have A Visibility Problem"
 link: "https://medium.com/pipeline-a-data-engineering-resource/not-getting-data-science-job-interviews-you-have-a-visibility-problem-1e1b67a74555"
 isUpdated: true
 ---
-
-
-
-
 
 취업중이신가요? 무료 5페이지 프로젝트 아이디어 안내서를 활용하여 개인 프로젝트를 개발하여 경쟁력을 확보하세요.
 
@@ -23,17 +19,39 @@ isUpdated: true
 
 2014년 다니엘 래드클리프가 쇼에서 이 노래를 부르는 모습을 봤었기 때문에 이 노래를 선택한 게 아니었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 물론, 예기치 못한 일이 있었습니다. 제이크는 쇼 직원들의 일에 관심을 갖고 가사를 재작성했습니다.
 
-그가 관례적인 인터뷰 요청을 기다리는 동안, 예상치 못한 반응을 받았습니다; 주인공 지미 팰런이 직접 그를 고용했습니다.*
+그가 관례적인 인터뷰 요청을 기다리는 동안, 예상치 못한 반응을 받았습니다; 주인공 지미 팰런이 직접 그를 고용했습니다.\*
 
 이 이야기를 비관적으로 해석하면: 그가 극단적인 조치를 취하지 않았다면 그 직업을 얻지 못했을 것이라는 겁니다.
 
 저는 보다 낙천적인 태도를 취하여, 그가 목적을 가지고 창의적이고, 무엇보다 중요한 점은 그가 노력했다는 것을 생각합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 과학 직무에 지원하는 모든 사람은 Jake의 예를 통해 자신만의 독특한 명함을 활용해 볼 수 있고, 당신을 뒷받침하는 업무가 없는 상태에서 어떤 대담한 내기도 무례하게 들릴 수 있다는 것을 깨닫게 될 거예요.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 만약 10,000명의 지원자 풀이 당신에게 와 닿는다면, 아마도 LinkedIn에서 많은 시간을 취업 지원에 사용했고 아마도 이 프롬프트를 본 적이 있을 거예요: "다른 지원자 100명 (또는 1,000명 또는 10,000명)과 어떻게 비교되는지 확인해 보세요."
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 거의 모든 삶의 측면에서 경쟁 분석에 대한 자리가 있지만, 구직자가 너무 많은 정보(TMI)를 제공하는 것도 있습니다.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 특히 데이터 과학 시장이 점점 더 빡빡해지고 있는 상황에서, 혼자서도 존중받을만한 지원자로 자리잡기 위해서는 자기 인식과 균형이 필요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 근무자 유리한 채용 주기에서는, 단지 무슨 일을 잘하거나 하고자하는 데 있어 개인적으로 뛰어나다는 것만으로 충분하지 않습니다.
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 그것은 모두의 시간을 낭비하는 일이 될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 졸업 후 하루만에 링크드인에 먼저 자리를 구할 것을 의미하지는 않아요. 데이터 과학 분야의 적임자로서 인식받기 위한 다음 단계는 다음과 같아요:
 
@@ -76,7 +127,18 @@ isUpdated: true
 
 ## 가장 이상적인 상황
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ML 모델이 마음에 들지 않지만 대시보드 디자인에 큰 만족을 느끼는군요. 그러나 모든 사람들이 대시보드를 만들고 싶어하며 또 다른 Titanic 생존자의 막대 플롯을 보고 싶어하지 않는다고요.
 
@@ -86,7 +148,18 @@ ML 모델이 마음에 들지 않지만 대시보드 디자인에 큰 만족을 
 
 수업에 지루해지자, 그 시대의 오클랜드 에스를 위한 스카우팅 대시보드를 만들어 사이드 프로젝트를 시작하기로 결심했습니다. 몇 주 동안 노력하여 대시보드를 만들어 자랑스러워하며 LinkedIn에 공유하기로 결정했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Reddit의 r/dataisbeautiful(2000만 명 이상의 데이터 시각화 커뮤니티) 커뮤니티와 공유하도록 권장하는 연결 메시지가 도착했어요. 초기 대시보드에 대해 게시하는 것 외에도 Medium에서 접근 방법과 얻은 교훈에 대해 설명한 두 부분으로 된 시리즈를 작성했어요. 이 모든 것을 r/dataisbeautiful 게시물에 링크해놓았어요.
 
@@ -96,7 +169,18 @@ Reddit의 r/dataisbeautiful(2000만 명 이상의 데이터 시각화 커뮤니�
 
 먼저, 우리 가정의 후보는 MLB 게임을 100시간 이상 지켜가며 데이터를 세심하게 기록하고 분석했어요. 그들은 인상적인 도메인 지식을 발전시키는데 그치지 않고 동시에 주도적으로 자신만의 데이터를 확보했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그들은 수업 외에도 관련성 있는 (하지만 재미있는) 데이터 과학 독해 자료를 읽으며 '머니볼'을 읽었습니다.
 
@@ -106,7 +190,18 @@ Looker와 같은 기본 도구 대신 프로그래밍 방식으로 대시보드�
 
 그리고 Medium에 '비하인드 더 신스'를 게시함으로써, 후보자는 채용 공고에서 자주 볼 수 있는 기술을 갖추고 있다는 것을 보여줍니다: "비기술 관객을 위해 복잡한 기술 개념을 단순화할 수 있는 능력이 필요합니다."
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이건 누군가가 "나를 봐"라고 하는 경우가 아니라, 누군가가 자신의 기술을 개발하는 이야기입니다.
 
@@ -116,7 +211,18 @@ Looker와 같은 기본 도구 대신 프로그래밍 방식으로 대시보드�
 
 제이크가 비디오를 게시한 직후, NBCU의 엄격한 고용 절차 우회를 위한 빠른 길을 드러냈습니다. (디즈니 용어에 대해 죄송합니다)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "투나잇 쇼 랩"을 검색하면 이제 제이크가 출었던 영상 뿐만 아니라 똑같은 것을 하는 다른 수백 개의 영상도 나옵니다. 하지만 그들은 제작 품질이 낮은 나쁜 작품들이었습니다.
 
@@ -126,7 +232,18 @@ Looker와 같은 기본 도구 대신 프로그래밍 방식으로 대시보드�
 
 그래서 프로필을 끌어올리는 마지막 구성 요소는 일관성입니다."
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 고등학교 선생님 중 한 분이 계속 반복하던 주제를 가져왔어요. "일관성이 최고야."
 
@@ -136,7 +253,18 @@ Looker와 같은 기본 도구 대신 프로그래밍 방식으로 대시보드�
 
 다시 말해, 그들이 감동받은 것은 결과물이 아니라 작품을 홍보하기 위한 용기와 노력(제품을 만드는 기술에 더해)이었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제이크의 원본 비디오는 30만 회 조회되었고, 그가 고용된 세그먼트는 수백만 회 조회를 기록했습니다. 때때로 좋은 어플리케이션은 그 자체로 이력서에 올라갈 만한 가치가 있는 것을 증명했죠.
 

@@ -3,17 +3,13 @@ title: "자연어 처리NLP에 대한 오해와 진실"
 description: ""
 coverImage: "/assets/img/2024-07-14-NLPisNotWhatYouThink_0.png"
 date: 2024-07-14 02:02
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-14-NLPisNotWhatYouThink_0.png
 tag: Tech
 originalTitle: "NLP is Not What You Think"
 link: "https://medium.com/@KimWitten/nlp-is-not-what-you-think-21ed3d031c71"
 isUpdated: true
 ---
-
-
-
-
 
 ![2024-07-14-NLPisNotWhatYouThink_0.png](/assets/img/2024-07-14-NLPisNotWhatYouThink_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 혹시 상대방이 미국 사투리인 것을 알아채고 단어를 맞추어, "감자통막" 즉 후렌치 프라이를 제안하는 걸까요? 아니면 음식이 내 앞에 놓여질 때까지 의미 모호함을 인지하지 못해 깜짝 놀라는 경우도 있죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 혼동은 언제나 발생합니다. 관련 의미가 많은 단어에 대한 언어학적 용어도 있을 정도죠: 다의성.
 
@@ -33,7 +40,18 @@ NLP 이야기에 오신 걸 환영합니다 — 이는 인간 언어를 흉내 �
 
 # NLP의 상승, NLP의 하락
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2008년 UC 버클리에서 언어학을 공부하던 시기에 **NLP(자연어 처리)** 라는 개념을 처음 배웠어요. 그 후 2020년 **NLP(신경언어프로그래밍)** 의 다른 의미를 알게 되었는데, 그때는 변화의 코치가 되기 위해 훈련을 받고 있었죠.
 
@@ -43,7 +61,18 @@ NLP의 이후 의미를 알게 되었을 때, '언어'란 단어를 포함하고
 
 저는 두 학문의 천천히 움직이는 충돌을 발견했어요. 하나는 세상을 혁신하려고 하고, 다른 하나는 아직 약속을 이루려는 중이랍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 가지 NLP 분야 모두 윤리적인 고려 사항과 위험을 안고 있습니다. 그래서 저는 이 기사를 쓰기로 했어요. 이 기사는 것들을 명확히 하고, NLP가 무엇인지 (아니라고 말하기도 함)에 대해 인식을 높이며, 언어에 대해 더 의식적으로 행동하기 위한 작은 프로세스를 시작할 수 있도록 돕기 위한 시도입니다. 거기서 의미 있는 변화가 시작될 수 있거든요.
 
@@ -53,7 +82,18 @@ NLP의 이후 의미를 알게 되었을 때, '언어'란 단어를 포함하고
 
 LinkedIn에서 비공식적인 설문조사를 진행했어요. 사람들이 NLP를 알고 있었는지, 그리고 알고 있다면 그것에 대한 이해가 무엇인지 물어봤어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 정말로 이것은 비과학적이며 극히 소수의 편향된 사람들의 샘플에 불과합니다. 그래도 흥미로운 결과이며 이 기사가 다양한 사람들과 장소로부터 더 많은 관점과 통찰을 도출해내길 바랍니다.
 
@@ -63,7 +103,18 @@ LinkedIn에서 비공식적인 설문조사를 진행했어요. 사람들이 NLP
 
 그래서, NLP가 의미하는 바에 대해 알아봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 두 가지 NLP의 간단한 역사
 
@@ -73,7 +124,18 @@ LinkedIn에서 비공식적인 설문조사를 진행했어요. 사람들이 NLP
 
 인간의 언어를 컴퓨터가 이해할 수 있는지에 대한 의문으로 시작된 자연어 처리는 1950년대 튜링 테스트, 간단한 언어 번역, 초기 챗봇들과 함께 시작되었습니다. 수십 년 동안, 언어의 규칙 기반 표현에서 통계 모델, 심층 학습 알고리즘 등으로 진화해 왔습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오늘날 우리 일상 속에서 이미 통합된 자연어 처리(NLP) 혁신들을 간단히 소개해 드렸습니다. 다양한 앱들을 통해 대화를 나누고 콘텐츠를 생성할 수 있는 ChatGPT와 같은 대화형 AI 및 콘텐츠 생성, Siri, Alexa, Google 어시스턴트와 같은 음성 비서, 제품 웹사이트에서 고객 지원을 위해 점점 더 많이 사용되는 챗봇 및 가상 에이전트, Google 번역과 같은 기계 번역 도구, 사회 미디어 게시물, 제품 리뷰, 고객 조사 등의 데이터를 분석하는 비즈니스용 감정 분석, 스마트폰 및 기타 장치에서의 자동 교정 및 예측 텍스트, 장애인들을 돕는 스크린 리더 및 기타 보조 도구와 같은 접근성 도구, 넷플릭스, 스포티파이와 같은 스트리밍 플랫폼에서 사용되는 콘텐츠 추천, Google, DuckDuckGo, Bing 등의 검색 엔진이 관련 검색 결과를 제공하는 데 사용하는 NLP, 스팸 식별 및 이메일 분류를 위한 이메일 필터링, 의학, 법률, 금융 등 다양한 산업에서 기록 및 대량의 데이터를 분석하고 연구를 수행하며 통찰을 제공하는 NLP, 또한 언어 학습, 시장 조사, 위기 대응 및 관리, 콘텐츠 관리 등에 활용되는 정보가 포함되어 있습니다.
 
@@ -81,7 +143,18 @@ LinkedIn에서 비공식적인 설문조사를 진행했어요. 사람들이 NLP
 
 ## 신경언어프로그래밍(NLP)의 진화
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1970년대에 리처드 밴들러(Richard Bandler)와 존 그린더(John Grinder) 두 학자가 협력하여 심리언어프로그래밍(Neuro-Linguistic Programming, NLP)을 개발했습니다. 이는 개인 발전, 커뮤니케이션 및 심리 요법에 접근하는 방법론입니다. 위키피디아에 따르면:
 
@@ -91,7 +164,18 @@ LinkedIn에서 비공식적인 설문조사를 진행했어요. 사람들이 NLP
 
 그럼에도 불구하고, 최근 몇 년간 NLP는 코칭 산업과 기타 건강 유행의 번창과 함께 인기를 끌고 있습니다. 조나단 패스모어(Jonathan Passmore)와 타티아나 로슨 박사(Dr. Tatiana Rowson)와 같은 신뢰할 만한 목소리들도 그들의 논문(“Neuro-linguistic programming: A critical review of NLP research and the application of NLP in coaching”의 초록문)에서 이야기한 대로...
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## NLP의 타임라인 요약:
 
@@ -105,7 +189,18 @@ LinkedIn에서 비공식적인 설문조사를 진행했어요. 사람들이 NLP
 - 이러한 시스템이 더욱 발전함에 따라 윤리적 감시가 확장에 맞지 않으면 책임, 책임 및 책임 문제.
 - 이러한 시스템이 불평등을 유지할 수 있기 때문에 의문을 제기할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 윤리적 고찰은 자연어 처리(Natural Language Processing)의 윤리 문제를 더 자세히 탐구합니다:
 
@@ -115,7 +210,18 @@ LinkedIn에서 비공식적인 설문조사를 진행했어요. 사람들이 NLP
 
 자연어 처리(Natural Language Processing)를 위한 것: 사실 복잡하고 세계적 속도와 규모로 움직이고 있어요. 하지만 그런 것에 압도 당하지 마세요. 인식을 높이는 작은 단계는 모든 사람이 이 여정에 함께할 수 있도록 하는 데 큰 도움이 될 거예요. 모든 목소리가 들리도록 하는 데 기여할 거예요. 당신의 목소리도요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 경우에 있어서, 이해로 시작됩니다.
 
@@ -125,16 +231,38 @@ LinkedIn에서 비공식적인 설문조사를 진행했어요. 사람들이 NLP
 
 어떤 문제에 대해 의미 있게 대응하기 위해서는 무엇에 대해 이야기하는지와 이야기하지 않는 것을 이해하기 전에는 시작조차 할 수 없습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-우리는 먼저 단어를 음미하고 이해해야 할 시간을 갖는 것이 중요합니다. 그래야만 앞으로 나아가는 방법에 대해 의미 있는 토론을 시작할 수 있습니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-그렇지 않으면 우리는 순전히 표현을 이해하지 못해, 마지못해 상황을 안겨지게 될지도 모릅니다. 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+우리는 먼저 단어를 음미하고 이해해야 할 시간을 갖는 것이 중요합니다. 그래야만 앞으로 나아가는 방법에 대해 의미 있는 토론을 시작할 수 있습니다.
+
+그렇지 않으면 우리는 순전히 표현을 이해하지 못해, 마지못해 상황을 안겨지게 될지도 모릅니다.
 
 ## 참고 자료:
 
 Passmore, J., & Rowson, T. (2019). Neuro-linguistic programming: A critical review of NLP research and the application of NLP in coaching. International Coaching Psychology Review, 14(1), 57–69.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Kim씨는 평생 과잉 사육자였으나 많은 도전을 극복하며 자신의 정신적 에너지를 활용하여 일을 해내고 기쁘게 느낄 수 있는 탁월한 기술로 발전시켰습니다. 그녀는 다른 이들이 동일한 일을 이룰 수 있도록 돕기 위해 노력하고 있습니다. 매주 제공되는 Insight 를 통해 명확성 및 집중력을 높이는 전문가들의 행보에 참여해보세요.

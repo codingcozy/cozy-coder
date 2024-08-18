@@ -3,17 +3,13 @@ title: "멀티모달 학습을 통한 혐오 밈 탐지 강화 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-EnhancedDetectionofHatefulMemesUsingMultimodalLearning_0.png"
 date: 2024-07-09 23:50
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-EnhancedDetectionofHatefulMemesUsingMultimodalLearning_0.png
 tag: Tech
 originalTitle: "Enhanced Detection of Hateful Memes Using Multimodal Learning"
 link: "https://medium.com/@abhishekbose550/enhanced-detection-of-hateful-memes-using-multimodal-learning-70c3a1dab74a"
 isUpdated: true
 ---
-
-
-
-
 
 ## 소개
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## 도전
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Hateful memes combine nuanced, context-heavy text with imagery, posing a significant technical challenge. Traditional machine learning techniques lack the sophistication needed to accurately analyze this multimodal data. These methods often fail to effectively integrate textual and visual features, resulting in poor performance and a high rate of false positives. Furthermore, the reliance on extensive computational resources for running and deploying these large-scale transformer-based models is a challenge in real-world scenarios.
 
@@ -33,7 +40,18 @@ To address these challenges, we introduced a novel concatenated image + text enc
 
 ConcatNet is designed to be extremely easy to set up and allows experimentation with different combinations of text and image encoder models. In our ablation study, we demonstrated how pre-training our model on a dataset catered to a similar task in the same domain significantly improves classification performance.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 데이터셋
 
@@ -44,7 +62,18 @@ ConcatNet is designed to be extremely easy to set up and allows experimentation 
 
 ## 실험 설정
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 프로젝트에서 두 가지 주요 실험 설정을 탐색했어요:
 
@@ -54,7 +83,18 @@ ConcatNet is designed to be extremely easy to set up and allows experimentation 
 
 2. 사전 훈련 설정: Memotion 데이터셋에서 사전 훈련된 연결 아키텍처를 사용했어요. 이는 Hateful Memes 데이터셋에서의 하류 분류 작업에 더 나은 초기 가중치 설정을 제공했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Model Architectures](/assets/img/2024-07-09-EnhancedDetectionofHatefulMemesUsingMultimodalLearning_2.png)
 
@@ -66,7 +106,18 @@ ConcatNet is designed to be extremely easy to set up and allows experimentation 
 - ClipBertLarge 및 ClipBertUnfrozen: 이미지 인코딩에 CLIP를 사용하고 텍스트 인코딩에 BERT를 사용하는데, "Unfrozen" 모델은 두 인코더를 모두 학습 가능하게 합니다.
 - Clip+RoBERTa with Projection: RoBERTa를 텍스트 인코딩에 사용하고 선형 투영 레이어와 함께 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 주요 발견
 
@@ -84,7 +135,18 @@ ConcatNet is designed to be extremely easy to set up and allows experimentation 
 - 어근 추출: 단어를 기본 형태나 사전형으로 축소합니다.
 - 단어 토크나이저: 텍스트를 단어(토큰) 목록으로 분할합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지에 대해서는, 우리는 모델의 견고성을 향상시키기 위해 크기 조정, 무작위 수평 뒤집기, 무작위 흑백 변환 및 텐서 변환과 같은 보강을 도입했습니다.
 
@@ -94,9 +156,21 @@ ConcatNet is designed to be extremely easy to set up and allows experimentation 
 
 ## 실험 결과
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 언프로즌 CLIP 및 BERT 인코더: 훈련 정확도가 높았지만 검증 및 테스트 성능이 낮아져 심각한 과적합을 나타냈습니다 (약 60%).
+
 2. 프로즌 듀얼 CLIP 인코더: 테스트 정확도가 약간 향상되었으며, 더 유연한 적응 전략이 필요함을 시사했습니다. (62.23%)
 3. 프로즌 CLIP 및 RoBERTa 인코더: 검증 및 테스트 시나리오에서 약간의 성능 향상이 있었으며, 일반화를 위해 다양한 훈련 배경의 혜택을 강조했습니다.
 4. 프로즌 CLIP 및 BERT 인코더: 높은 훈련 정확도를 보였지만 검증 및 테스트 성능이 크게 저하되어, 훈련 가능한 유연성이 필요함을 강조했습니다. (92.34%)
@@ -108,6 +182,17 @@ ConcatNet is designed to be extremely easy to set up and allows experimentation 
 
 우리의 실험은 사전 훈련된 모델을 활용하고, 악플 미디어 탐지와 같은 세밀한 작업을 위해 적응 가능성을 활성화하는 것이 중요함을 강조했습니다. 관련 데이터셋 (Memotion)에서 사전 훈련을 하고 대상 데이터셋 (악플 미디어)에서 파인 튜닝을 하면 모델 성능이 크게 향상되는 것으로 입증되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리의 연구는 견고하고 효율적인 감지 메커니즘을 개발함으로써 더 나은 콘텐츠 모니터링에 기여하고 더 안전한 온라인 환경을 조성합니다. 이 방법은 혐오적 인 이념의 전파를 줄일 수있는 잠재력이 있으며 건설적인 대화를 촉진하고 온라인 괴롭힘과 차별로부터 향후 억압 된 공동체를 보호 할 수 있습니다.

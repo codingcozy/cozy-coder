@@ -3,18 +3,13 @@ title: "당신도 몰랐던 아이폰의 놀라운 14가지 트릭"
 description: ""
 coverImage: "/assets/img/2024-07-26-14BadassiPhoneTricksYouProbablyNeverThoughtExisted_0.png"
 date: 2024-07-26 11:52
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-26-14BadassiPhoneTricksYouProbablyNeverThoughtExisted_0.png
 tag: Tech
 originalTitle: "14 Badass iPhone Tricks You Probably Never Thought Existed"
 link: "https://medium.com/macoclock/14-badass-iphone-tricks-you-probably-never-thought-existed-151f65ff2245"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![iPhone](/assets/img/2024-07-26-14BadassiPhoneTricksYouProbablyNeverThoughtExisted_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 저는 2.5년 이상 동안 애플에 대해 글을 썼고, 이 기사를 쓰기 전까지는 모든 숨겨진 아이폰 트릭을 알고 있다고 생각했어요. 하지만 조사를 시작하자, 더닝-크루거 효과에 휩싸인 걸 깨닫게 되었어요.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 아래 쓴 14가지 노하우가 비밀 노하우가 아닌 거의 아무도 모르는 초비밀 노하우입니다. 그리고 여러분도 그 노하우를 모를지도 모릅니다!
 

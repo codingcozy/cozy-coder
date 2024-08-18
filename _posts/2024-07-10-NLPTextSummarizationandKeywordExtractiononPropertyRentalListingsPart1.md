@@ -3,17 +3,13 @@ title: "부동산 임대 목록에서 NLP를 활용한 텍스트 요약 및 키�
 description: ""
 coverImage: "/assets/img/2024-07-10-NLPTextSummarizationandKeywordExtractiononPropertyRentalListingsPart1_0.png"
 date: 2024-07-10 04:25
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-10-NLPTextSummarizationandKeywordExtractiononPropertyRentalListingsPart1_0.png
 tag: Tech
 originalTitle: "NLP: Text Summarization and Keyword Extraction on Property Rental Listings — Part 1"
 link: "https://medium.com/towards-data-science/nlp-text-summarization-and-keyword-extraction-on-property-rental-listings-part-1-f1b760cc7bbb"
 isUpdated: true
 ---
-
-
-
-
 
 ## NLP 기술의 실용적 적용: 텍스트 요약, NER, 주제 모델링 및 텍스트 분류
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 부분 1(이 기사)은 기본 사항을 다룹니다: 목표, 데이터 및 준비 절차, 그리고 명명된 엔티티 인식 (NER), TF-IDF/문장 점수화, Google의 T5 (텍스트 대 텍스트 변환기)와 같은 다양한 기술을 사용하여 키워드와 텍스트 개요를 추출하는 방법을 다룹니다. 사용자 경험을 향상시키기 위해 이러한 통찰력을 활용하는 방법도 살펴봅니다 — 제안 사항이 포함되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파트 2 (곧 공개 예정)는 토픽 모델링과 텍스트 예측을 다룹니다: 파트 2에서는 레이블이 없는 데이터에 대해 토픽 모델링을 수행하는 방법을 보여줍니다. 이 다가오는 글에서는 클러스터링과 같은 기술을 사용하여 숨겨진 주제를 발견하고, 카테고리와 주제에 따라 부동산 임대물을 분류하는 예측 모델을 구축하는 방법에 대해 논의할 것입니다.
 
@@ -33,26 +40,48 @@ isUpdated: true
 
 주어진 예시 입력: 임대 설명
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 키워드: “상업 거리”, “가게”, 또는 “역 근처”
-키워드는 데이터 시각화를 도와주며 테마를 발견하고 유사성을 식별하며 프론트엔드의 검색 기능을 개선하는 데 도움이 됩니다. 이 기사의 아래에는 이러한 키워드를 제공하고 있습니다.
+  키워드는 데이터 시각화를 도와주며 테마를 발견하고 유사성을 식별하며 프론트엔드의 검색 기능을 개선하는 데 도움이 됩니다. 이 기사의 아래에는 이러한 키워드를 제공하고 있습니다.
 - 요약: 1~2 문장 정도, 대략 80자 안팎
-요약은 요약된 정보를 제공하여 사용자 경험을 향상시키며 리스트의 가장 중요한 측면을 빠르게 전달합니다.
+  요약은 요약된 정보를 제공하여 사용자 경험을 향상시키며 리스트의 가장 중요한 측면을 빠르게 전달합니다.
 - 주제/토픽: “훌륭한 접근성”, “가족 친화적”
-같은 주제를 가진 목록을 분류하는 것은 사용자가 선호하는 속성과 일치하는 속성을 찾는 데 도움이 되는 추천 시스템으로 작용할 수 있습니다. 개별 키워드와 달리 이러한 주제는 여러 키워드 그룹(kitchen, desk, queen bed, long-term = “디지털 노매드 친화적”)을 다룰 수 있습니다. 이에 대해 더 자세히 살펴보겠습니다. (오는 글에서) 
+  같은 주제를 가진 목록을 분류하는 것은 사용자가 선호하는 속성과 일치하는 속성을 찾는 데 도움이 되는 추천 시스템으로 작용할 수 있습니다. 개별 키워드와 달리 이러한 주제는 여러 키워드 그룹(kitchen, desk, queen bed, long-term = “디지털 노매드 친화적”)을 다룰 수 있습니다. 이에 대해 더 자세히 살펴보겠습니다. (오는 글에서)
 
 챕터:
 
 - 데이터 및 준비
-데이터 수집, 정제, 사용자 지정 레마
+  데이터 수집, 정제, 사용자 지정 레마
 - 텍스트 요약
-TFIDF/문장 점수매기기, 딥 러닝, LLM (T5), 평가
+  TFIDF/문장 점수매기기, 딥 러닝, LLM (T5), 평가
 - NER을 사용한 키워드 추출
-정규식, Matcher, 딥 러닝
+  정규식, Matcher, 딥 러닝
 - 제안 서비스 방법
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 1. 데이터 및 준비
 
@@ -62,7 +91,18 @@ TFIDF/문장 점수매기기, 딥 러닝, LLM (T5), 평가
 
 데이터가 정리되면 spaCy 파이프라인을 구축할 수 있습니다. 우리는 새로운 출발점에서 시작하거나 en_core_web_sm과 같은 미리 훈련된 모델을 사용하여 영어 문서를 처리할 수 있습니다. 이 모델에는 견고한 파이프라인이 포함돼 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 토큰화(Tokenization): 텍스트를 단어, 구두점 등으로 나누는 것.
 - 품사 태깅(Part-of-Speech Tagging): 명사, 동사 등으로 단어를 태깅하는 것.
@@ -74,11 +114,22 @@ TFIDF/문장 점수매기기, 딥 러닝, LLM (T5), 평가
 
 ## 1b. 사용자 지정 귀결화
 
-en_core_web_sm과 같은 검증된 파이프라인을 사용하더라도, 특정 사용 사례를 다루기 위해 종종 조정이 필요합니다. 예를 들어, 임대업계에서 일반적으로 사용되는 약어(br은 침실, apt은 아파트, st는 거리 등)는 사용자 정의 귀결화를 통해 파이프라인에 도입될 수 있습니다. 이를 평가하기 위해 사용자 정의 귀결화를 적용한 파이프라인과 그렇지 않은 파이프라인 간의 토큰.lemma_ 수를 세어볼 수 있습니다. 필요시, en_core_web_md(중간) 또는 en_core_web_lg(대규모)와 같은 더 견고한 미리 제작된 파이프라인도 사용할 수 있습니다.
+en*core_web_sm과 같은 검증된 파이프라인을 사용하더라도, 특정 사용 사례를 다루기 위해 종종 조정이 필요합니다. 예를 들어, 임대업계에서 일반적으로 사용되는 약어(br은 침실, apt은 아파트, st는 거리 등)는 사용자 정의 귀결화를 통해 파이프라인에 도입될 수 있습니다. 이를 평가하기 위해 사용자 정의 귀결화를 적용한 파이프라인과 그렇지 않은 파이프라인 간의 토큰.lemma* 수를 세어볼 수 있습니다. 필요시, en_core_web_md(중간) 또는 en_core_web_lg(대규모)와 같은 더 견고한 미리 제작된 파이프라인도 사용할 수 있습니다.
 
 생산 수준의 프로젝트에서는 더 철저한 목록이 필요하며, 더 엄격한 데이터 정리가 필요할 수 있습니다. 예를 들어, 이모티콘과 이모티콘과 비슷한 기호가 일본 사용자들에 의해 쓰이는 문화적으로 영향을 받은 글에 자주 포함됩니다. 이러한 기호들은 노이즈를 도입하며 제거 또는 변환과 같은 특정 처리가 필요할 수 있습니다. 문장 구분이 누락된 문장을 처리하기 위해 더 견고한 적절한 문장 경계 탐지기를 사용하는 등 다른 데이터 전처리가 필요할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2. 텍스트 요약
 
@@ -88,7 +139,18 @@ en_core_web_sm과 같은 검증된 파이프라인을 사용하더라도, 특정
 
 텍스트 요약에 대한 한 가지 전형적인 방법은 TF-IDF (단어 빈도-역문서 빈도)라는 기술을 활용하는 것입니다. TF-IDF는 단어가 특정 문서(임대 리스트)에서 얼마나 자주 나타나는지와 전체 데이터 집합 또는 코퍼스 전체에서 얼마나 드물게 나타나는지를 모두 고려합니다. 이 기술은 또한 인덱싱, 유사성 감지 및 클러스터링과 같은 다양한 텍스트 분석 작업에도 도움이 됩니다 (Part 2에서 탐구할 것입니다).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다른 기법의 한 변형은 단어 공기로 점수 매기기입니다. TF-IDF와 같이, 이 방법은 문서 내에서 단어 발생을 비교하여 점수를 계산합니다. 이 방법은 빠르고 쉽고 추가적인 도구나 다른 문서의 인식이 필요하지 않습니다. 심지어 typescript를 사용하여 프론트 엔드에서 즉석에서도 할 수 있지만 권장되지는 않습니다.
 
@@ -98,7 +160,18 @@ en_core_web_sm과 같은 검증된 파이프라인을 사용하더라도, 특정
 
 빈도 기반 방법 이상으로, 우리는 텍스트 요약을 위해 딥 러닝의 힘을 활용할 수 있습니다. Sequence-to-sequence (Seq2Seq) 모델은 한 형태에서 다른 형태로의 시퀀스 번역을 위해 설계된 신경망 구조입니다. 텍스트 요약 작업에서, 이러한 모델은 복잡한 번역기처럼 작용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Seq2Seq 모델은 일반적으로 두 부분으로 구성되어 있어요: 인코더와 디코더랍니다. 인코더는 전체 입력 텍스트를 처리하며, 그 의미와 구조를 파악해요. 이 정보는 숨겨진 표현으로 압축돼요. 그런 다음, 디코더는 인코더에서 받은 이 숨겨진 표현을 활용해 새로운 시퀀스, 즉 텍스트 요약을 생성하죠. 훈련 중에 디코더는 원본 텍스트의 주요 포인트를 잡아내는 인코딩된 표현을 번역하는 법을 배워요. 추출적 방법과는 달리 이러한 모델은 추상적 요약을 수행해요: 텍스트에서 직접 문장을 추출하는 대신, 자신의 말로 요약을 생성해요.
 
@@ -108,7 +181,18 @@ T5(TexT-To-Text Transfer Transformer)나 BERT(Bidirectional Encoder Representati
 
 ### 2.d 텍스트 요약 평가
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 그림에서 볼 수 있듯이, TFIDF를 사용한 "단순" 모델과 LLM을 사용한 복잡한 모델을 비교할 때 승자가 항상 명확하지는 않습니다. 텍스트 요약 시스템의 품질을 평가하는 것은 복잡한 도전 과제입니다. 단일하고 명확한 답변이 있는 작업과 달리 주어진 텍스트에 대한 단일 완벽한 요약이 없기 때문입니다. 사람들은 원본 콘텐츠의 다양한 측면에 우선순위를 두기 때문에 자동 측정 항목을 완벽하게 인간 판단과 일치시키기가 어려워집니다.
 
@@ -118,7 +202,18 @@ ROUGE (Recall-Oriented Understudy for Gisting Evaluation)와 같은 평가 지�
 
 요약은 유용하지만, 키워드에는 다른 목적이 있습니다. 키워드는 잠재적 임차인이 찾을 수 있는 가장 중요한 측면을 포착합니다. 키워드를 추출하기 위해 NER과 같은 NLP 기술을 사용할 수 있습니다. 이 프로세스는 빈도가 높은 단어를 식별하는 것을 넘어서 요소들인 단어 공존 및 임대 목록 도메인과의 관련성을 고려함으로써 중요한 정보를 추출할 수 있습니다. 이 정보는 '고급한'(형용사), '긴자'(위치)와 같은 단어, 또는 '조용한 환경'(명사구) 또는 '신주쿠 인근'(근접성)과 같은 구문이 될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![NLP Text Summarization and Keyword Extraction on Property Rental Listings Part 1](/assets/img/2024-07-10-NLPTextSummarizationandKeywordExtractiononPropertyRentalListingsPart1_0.png)
 
@@ -128,36 +223,62 @@ When it comes to finding keywords, the 'find' function in string operations comb
 
 ### 3b. Level: Intermediate — The Matcher
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 정규 표현식은 간단한 키워드 추출에 사용될 수 있지만, 광범위한 규칙 목록이 필요하다보니 모든 경우를 다루기 어렵습니다. 다행히 대부분의 자연어 처리 도구는 이 명명된 개체 인식(NER) 기능을 기본으로 제공하고 있습니다. 예를 들어, Natural Language Toolkit(NLTK)에는 Named Entity Chunkers가 있고, spaCy에는 Matcher가 있습니다.
 
 Matcher를 사용하면 품사 태그나 특정 키워드와 같은 언어적 특성을 기반으로 패턴을 정의할 수 있습니다. 이러한 패턴은 전세 설명과 일치하여 관련 키워드와 구를 식별할 수 있습니다. 이 접근 방식은 부동산의 장점을 더 잘 대표하는 단어(예: Tokyo)와 의미 있는 구(예: 아름다운 집)를 포함합니다.
 
-
 noun_phrases_patterns = [
-      [{'POS': 'NUM'}, {'POS': 'NOUN'}], #예: 2 bedrooms
-      [{'POS': 'ADJ', 'OP': '*'}, {'POS': 'NOUN'}], #예: 아름다운 집
-      [{'POS': 'NOUN', 'OP': '+'}], #예: 집
-  ]
-
-# 지리정치적 엔티티
-gpe_patterns = [
-      [{'ENT_TYPE': 'GPE'}], #예: Tokyo
-  ]
-
-# 근접성
-proximity_patterns = [
-# 예: 공항 근처
-[{'POS': 'ADJ'}, {'POS': 'ADP'}, {'POS': 'NOUN', 'ENT_TYPE': 'FAC', 'OP': '?'}], 
-# 예: 나리타 근처
-[{'POS': 'ADJ'}, {'POS': 'ADP'}, {'POS': 'PROPN', 'ENT_TYPE': 'FAC', 'OP': '?'}] 
+[{'POS': 'NUM'}, {'POS': 'NOUN'}], #예: 2 bedrooms
+[{'POS': 'ADJ', 'OP': '*'}, {'POS': 'NOUN'}], #예: 아름다운 집
+[{'POS': 'NOUN', 'OP': '+'}], #예: 집
 ]
 
+# 지리정치적 엔티티
+
+gpe_patterns = [
+[{'ENT_TYPE': 'GPE'}], #예: Tokyo
+]
+
+# 근접성
+
+proximity_patterns = [
+
+# 예: 공항 근처
+
+[{'POS': 'ADJ'}, {'POS': 'ADP'}, {'POS': 'NOUN', 'ENT_TYPE': 'FAC', 'OP': '?'}],
+
+# 예: 나리타 근처
+
+[{'POS': 'ADJ'}, {'POS': 'ADP'}, {'POS': 'PROPN', 'ENT_TYPE': 'FAC', 'OP': '?'}]
+]
 
 ## 3c. 레벨: 고급 — 딥러닝 기반 Matcher
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Matcher를 사용해도 문장 속 단어의 맥락 때문에 일부 용어가 규칙 기반 매칭에 포착되지 않을 수 있습니다. 예를 들어 "우에노 공원에서 돌아서 바로"와 같은 용어는 미리 정의된 패턴을 통과하지 못할 수 있고, "신주쿠 가부키초"가 사람으로 오인될 수 있습니다(이는 지역 또는 LOC입니다).
 
@@ -167,7 +288,18 @@ spaCy를 사용하면 딥러닝 기반 개체명 인식(NER)을 간편하게 수
 
 이 기사의 두 번째 부분에서는 군집화, 부트스트래핑 및 기타 방법을 사용하여 토픽 모델링을 위해 데이터로부터 주제 또는 레이블을 발견하는 이 기술에 대해 논의할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4. 제공 제안
 
@@ -177,7 +309,18 @@ spaCy를 사용하면 딥러닝 기반 개체명 인식(NER)을 간편하게 수
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/1*CyhKFXuJ-sEp2RK2q7Lwqg.gif)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 앞으로 나아가기
 
@@ -185,11 +328,23 @@ spaCy를 사용하면 딥러닝 기반 개체명 인식(NER)을 간편하게 수
 
 차기 글(제2부)에서는 클러스터링과 같은 방법을 사용하여 숨겨진 주제와 레이블을 발견할 것입니다. 이를 통해 추천 엔진 역할을 할 수 있는 견고한 모델을 구축할 것입니다. 또한 임대 매물 설명의 분석과 사용성을 향상시키기 위해 토픽 모델링 및 텍스트 분류와 같은 고급 NLP 기술들을 더욱 탐구할 것입니다.
 
-以上です★これからもうよろしくおねがいします☆また今度｡
+以上です ★ これからもうよろしくおねがいします ☆ また今度｡
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 노트:
-1) Github 저장소: [여기](https://github.com/kristiyanto/nlp_on_airbnb_dataset)
-2) 데이터 (크리에이티브 커먼즈 저작자표시 4.0 국제 라이센스): [여기](https://insideairbnb.com/get-the-data/)
-3) 본 글의 모든 이미지는 저자가 제작했습니다.
+
+1. Github 저장소: [여기](https://github.com/kristiyanto/nlp_on_airbnb_dataset)
+2. 데이터 (크리에이티브 커먼즈 저작자표시 4.0 국제 라이센스): [여기](https://insideairbnb.com/get-the-data/)
+3. 본 글의 모든 이미지는 저자가 제작했습니다.

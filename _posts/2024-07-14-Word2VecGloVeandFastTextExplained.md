@@ -3,17 +3,13 @@ title: "Word2Vec, GloVe, FastText 단어 임베딩 기법 완벽 설명"
 description: ""
 coverImage: "/assets/img/2024-07-14-Word2VecGloVeandFastTextExplained_0.png"
 date: 2024-07-14 02:20
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-14-Word2VecGloVeandFastTextExplained_0.png
 tag: Tech
 originalTitle: "Word2Vec, GloVe, and FastText, Explained"
 link: "https://medium.com/towards-data-science/word2vec-glove-and-fasttext-explained-215a5cd4c06f"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-07-14-Word2VecGloVeandFastTextExplained_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 단어 임베딩을 학습하는 한 가지 탁월한 방법은 Word2Vec입니다. 이 글에서는 Word2Vec의 복잡성을 탐구하고 그 다양한 구조와 변형을 살펴볼 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 워드투벡
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 그 후 2003년에는 감탄할 만한 발전이 있었습니다. 신경 확률 언어 모델이 등장했고 이 모델은 어떻게 단어를 나타내는지를 완전히 바꿔 놓았습니다. 이 모델은 연속적이고 밀집된 벡터를 사용하여 단어를 표현했습니다. n-gram 벡터와는 달리, 이 밀집된 벡터는 연속적인 표현을 제공했습니다. 이러한 벡터에 작은 변화가 가해져도 의미 있는 표현이 생성되었으며 이들은 특정한 영어 단어와 직접적으로 대응되지 않을 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 놀라운 진전을 토대로 2013년에 Word2Vec 프레임워크가 등장했습니다. 이 프레임워크는 단어 의미를 연속적이고 밀집된 벡터로 인코딩하는 강력한 방법을 제시했습니다. Word2Vec 내에서는 Continuous Bag of Words (CBoW)와 Skip-gram이라는 두 가지 주요 아키텍처가 소개되었습니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 ![CBoW](/assets/img/2024-07-14-Word2VecGloVeandFastTextExplained_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이번 섹션과 다음 섹션에서는 다섯 단어의 작은 어휘를 사용하여 CBoW 및 스킵-그램 모델이 어떻게 훈련되는지 이해해봅시다: biggest, ever, lie, told 그리고 the. 그리고 우리가 예시 문장 "The biggest lie ever told"를 가지고 있습니다. 이것을 CBoW 아키텍처로 어떻게 전달할까요? 이것은 위의 그림 2에서 보여졌지만, 우리는 이 과정을 묘사할 것입니다.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 이 최종 벡터는 중간 단어 "lie"를 대표합니다. 진정한 원핫 벡터와 실제 출력 벡터를 계산함으로써, 우리는 네트워크의 가중치를 업데이트하기 위해 역전파를 통해 사용되는 손실을 얻을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 프로세스를 반복하여 문맥 창을 슬라이드하고 수천 개의 문장에 적용합니다. 훈련이 완료되면, 모델의 첫 번째 레이어는 차원이 5x3 (어휘 크기 x 투영 크기)인 학습된 매개변수를 포함합니다. 이러한 매개변수는 각 단어를 해당하는 벡터 표현으로 매핑하는 룩업 테이블로 사용됩니다.
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 스킵-그램 모델에서는 연속 가방 단어 (CBOW) 케이스와 유사한 아키텍처를 사용합니다. 그러나, 주변 단어를 기반으로 대상 단어를 예측하는 대신, 그림 3에 나와 있는 것처럼 시나리오를 뒤집습니다. 이제 단어 "lie"가 입력이 되고, 우리는 해당 문맥 단어를 예측하는 것을 목표로 합니다. "스킵-그램"이라는 이름은 이 접근을 반영하는데, 몇 개의 단어를 "건너띌" 수있는 문맥 단어를 예측합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이를 설명하기 위해 몇 가지 예를 살펴보겠습니다:
 
@@ -76,7 +127,18 @@ isUpdated: true
 
 # 장점
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 단순함으로 차원의 저주를 극복: Word2Vec은 단어를 밀집 벡터로 표현함으로써 차원의 저주와 관련된 희소성과 계산 복잡성을 감소시켜줍니다.
 - 의미가 유사한 단어가 가까운 벡터 값을 갖도록 벡터를 생성: Word2Vec의 임베딩은 유사한 의미를 가진 단어가 숫자 값이 가까운 벡터로 표현되는 가치 있는 특성을 나타냅니다. 이는 의미론적 관계를 포착하고 단어 유사성 및 유추 감지와 같은 작업을 수행하는 데 도움이 됩니다.
@@ -91,7 +153,18 @@ isUpdated: true
 
 다음 섹션에서는 이러한 단점을 해결하는 몇 가지 단어 임베딩 아키텍처를 살펴볼 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # GloVe: Global Vectors
 
@@ -101,7 +174,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-07-14-Word2VecGloVeandFastTextExplained_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Word2Vec이 확률과 함께 작동하는 반면, Glove는 공동발생 확률의 비율부터 시작합니다. Figure 4의 맥락에서 P(k | ice)는 단어 "ice"의 맥락에서 단어 k가 발생할 확률을 나타내며, P(k | steam)은 단어 "steam"의 맥락에서 단어 k가 발생할 확률을 나타냅니다. P(k | ice) / P(k | steam) 비율을 비교함으로써 단어 k와 얼음 또는 증기의 관련성을 결정할 수 있습니다. 비율이 1보다 훨씬 크면, 얼음과 더 강한 관련성이 있음을 나타냅니다. 반면, 0에 가까울수록 증기와 더 강한 관련성을 시사합니다. 1에 가까운 비율은 어느 쪽과도 명확한 관련이 없음을 시사합니다.
 
@@ -111,7 +195,18 @@ Word2Vec이 확률과 함께 작동하는 반면, Glove는 공동발생 확률�
 
 # FastText
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전통적인 word2vec 아키텍처는 전역 정보 활용 부족 외에 형태론적으로 풍부한 언어를 효과적으로 다루지 못합니다.
 
@@ -121,7 +216,18 @@ Word2Vec이 확률과 함께 작동하는 반면, Glove는 공동발생 확률�
 
 이 문제를 해결하기 위해 FastText는 단어 벡터 생성 시 하위 단어 정보를 고려하는 솔루션을 제공합니다. 단어를 전체로 처리하는 대신 FastText는 단어를 문자 n-그램으로 분해합니다. 이러한 n-그램은 삼음음절부터 육음음절까지 변화하며, 이들은 벡터로 매핑되어 이후 전체 단어를 나타내는 데 집계됩니다. 그러한 집계된 벡터는 skip-gram 아키텍처로 전달됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 방식은 언어 내 다양한 단어 형태 사이의 공통 특성을 인식할 수 있게 해줍니다. 말뭉치(corpus)에서 단어의 모든 형태를 보지 않았더라도 학습된 벡터는 이러한 형태들 사이의 공통점과 유사성을 포착합니다. 아랍어, 터키어, 핀란드어, 그리고 다양한 인도어들과 같이 형태론적으로 풍부한 언어들은 FastText의 다양한 형태와 변형을 고려한 단어 벡터를 생성할 수 있는 능력에서 혜택을 받을 수 있습니다.
 
@@ -131,7 +237,18 @@ Word2Vec이 확률과 함께 작동하는 반면, Glove는 공동발생 확률�
 
 이 점을 설명하기 위해 다음 두 문장을 살펴보겠습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "그 드래그 퀸은 멋있어요."
 "그녀는 완벽한 패에 ace와 퀸을 가지고 있어요."
@@ -142,7 +259,18 @@ Word2Vec이 확률과 함께 작동하는 반면, Glove는 공동발생 확률�
 
 이러한 고급 아키텍처들은 맥락을 고려함으로써 더 섬세하고 의미 있는 단어 벡터의 생성을 가능케 하며, 동일한 단어가 특정 맥락에 따라 다른 벡터 표현을 갖도록 보장해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -152,7 +280,18 @@ Word2Vec이 확률과 함께 작동하는 반면, Glove는 공동발생 확률�
 
 그럼에도 불구하고, word2vec 프레임워크는 여전히 중요하다는 점을 인정해야 합니다. 이 프레임워크는 자연어 처리 분야에서 다양한 응용 프로그램을 지속적으로 지원하고 있습니다. 그 간단함과 유의미한 단어 임베딩을 생성하는 능력은 맥락 변화에 따른 단어 의미의 변형이라는 어려움에도 불구하고 가치가 증명되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 언어 모델에 대한 더 많은 정보는 이 YouTube 재생 목록을 확인해보세요.
 

@@ -3,17 +3,13 @@ title: "OpenAI Assistant API와 Streamlit을 사용하여 도우미 만들기"
 description: ""
 coverImage: "/assets/img/2024-06-19-CreatinganAssistantwithOpenAIAssistantAPIandStreamlit_0.png"
 date: 2024-06-19 19:58
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-CreatinganAssistantwithOpenAIAssistantAPIandStreamlit_0.png
 tag: Tech
 originalTitle: "Creating an Assistant with OpenAI Assistant API and Streamlit"
 link: "https://medium.com/towards-data-science/creating-an-assistant-with-openai-assistant-api-and-streamlit-282d9be9f03e"
 isUpdated: true
 ---
-
-
-
-
 
 ## 단계별 가이드
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 최근 OpenAI가 새로운 기능을 소개했습니다. 이들은 Assistant API와 같이 에이전트와 같은 아키텍처를 보여줍니다. OpenAI에 따르면:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 발전은 희망적이지만, 아직 LangChain을 따라가지 못합니다. LangChain은 자연어 입력을 처리하고 문맥 기반 액션을 실행하는 더 유연한 LLM을 활용하여 에이전트 형태의 시스템을 만들 수 있습니다.
 
@@ -36,8 +43,18 @@ isUpdated: true
 - 만약 행동이 새로운 관찰로 이어진다면, 이 관찰은 프롬프트에 포함되고 LLM이 다시 호출됩니다.
 - 그런 다음 루프가 다시 시작됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-CreatinganAssistantwithOpenAIAssistantAPIandStreamlit_0.png)
 
@@ -47,8 +64,18 @@ isUpdated: true
 
 # 사용 사례: 세금 계산 어시스턴트
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 블로그 포스트에서는 간단한 예제를 보여드리겠습니다: 주어진 수익에 기반한 세금을 계산할 수 있는 AI 어시스턴트입니다. Langchain 사용자들은 "세금 계산" 도구를 가진 에이전트를 생성함으로써 이를 쉽게 이해할 수 있습니다.
 
@@ -58,14 +85,26 @@ isUpdated: true
 
 ```js
 assistant = client.beta.assistants.create(
-  name="데이터 시각화자",
-  description="당신은 아름다운 데이터 시각화를 만드는 데 뛰어나십니다. .csv 파일에 있는 데이터를 분석하며 트렌드를 이해하고 해당 트렌드에 관련된 데이터 시각화를 제시합니다. 또한 관찰된 트렌드에 대한 간단한 텍스트 요약을 공유합니다.",
-  model="gpt-4o",
-  tools=[{"type": "code_interpreter"}],
-)
+  (name = "데이터 시각화자"),
+  (description =
+    "당신은 아름다운 데이터 시각화를 만드는 데 뛰어나십니다. .csv 파일에 있는 데이터를 분석하며 트렌드를 이해하고 해당 트렌드에 관련된 데이터 시각화를 제시합니다. 또한 관찰된 트렌드에 대한 간단한 텍스트 요약을 공유합니다."),
+  (model = "gpt-4o"),
+  (tools = [{ type: "code_interpreter" }])
+);
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 단계씩 세부 내용을 살펴보겠습니다. 다음을 목표로 합니다:
 
@@ -77,7 +116,18 @@ assistant = client.beta.assistants.create(
 
 다음 단락에서 설명하는 세금 계산 도구는 이 글에서 논의된 API를 사용하는 방법을 보여주기 위한 예시로 설계되었음을 유념해 주세요. 실제 세금 계산에 사용해서는 안 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음과 같이 조각별 함수를 고려해 보세요. 이 함수는 주어진 매출에 대한 세금 값을 반환합니다. 입력이 간단한 구문 분석을 위해 문자열로 설정되어 있음을 유의하세요:
 
@@ -134,7 +184,18 @@ assistant = client.beta.assistants.create(
 )
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제, 주요한 포인트에 대해서 얘기해볼게요:
 
@@ -162,7 +223,18 @@ assistant = client.beta.assistants.create(
 
 위 코드는 다음과 같이 동작해요: 동작이 필요한 각 도구 호출에 대해:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - "calculate_tax" 함수 이름을 확인합니다.
 - 툴 매개변수에서 수익 값을 추출합니다.
@@ -177,7 +249,18 @@ assistant = client.beta.assistants.create(
 - 사용자 메시지 추가: 이는 스레드에 추가되는 텍스트 및 파일을 포함할 수 있습니다.
 - 실행 생성: 보조 인공지능과 연관된 모델 및 도구를 활용하여 응답 생성합니다. 이 응답은 다시 스레드에 추가됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 코드 조각은 특정 사용 사례에서 어시스턴트를 실행하는 방법을 보여줍니다: 코드는 스레드 ID 및 어시스턴트 ID를 사용하는 특정 매개변수를 설정하여 어시스턴트와의 스트리밍 상호작용을 설정합니다. EventHandler 인스턴스는 스트림 중 이벤트를 관리합니다. stream.until_done() 메서드는 모든 상호작용이 완료될 때까지 스트림을 유지합니다. with 문은 스트림이 적절히 닫히도록 보장합니다.
 
@@ -193,7 +276,18 @@ assistant = client.beta.assistants.create(
 
 여기서 내 게시물을 마칠 수 있지만, Streamlit 포럼(예: 이 포스트)에서 사용자들이 터미널에서는 정상 작동하지만 인터페이스에서 스트리밍이 작동하지 않는다는 수많은 문의를 발견했습니다. 이것이 나로 하여금 더 깊이 파고들도록 유도했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스트리밍을 앱에 성공적으로 통합하려면, 앞서 언급한 EventHandler 클래스의 기능을 확장해야 합니다. 특히 텍스트 생성, 텍스트 델타 처리 및 텍스트 완료를 중점적으로 다루어야 합니다. 채팅 히스토리를 관리하면서 Streamlit 인터페이스에 텍스트를 표시하기 위해 필요한 세 가지 주요 단계는 다음과 같습니다:
 
@@ -210,16 +304,27 @@ def on_text_delta(self, delta: TextDelta, snapshot: Text):
     """
     # 최신 텍스트 상자를 지웁니다.
     st.session_state.text_boxes[-1].empty()
-    
+
     # 새로운 텍스트가 있으면, 어시스턴트 텍스트 목록의 마지막 요소에 추가합니다.
     if delta.value:
         st.session_state.assistant_text[-1] += delta.value
-    
+
     # 업데이트된 어시스턴트 텍스트를 최신 텍스트 상자에 다시 표시합니다.
     st.session_state.text_boxes[-1].info("".join(st.session_state["assistant_text"][-1]))
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드는 세 가지 주요 작업을 수행합니다:
 
@@ -231,7 +336,18 @@ def on_text_delta(self, delta: TextDelta, snapshot: Text):
 
 이 블로그 포스트에서는 OpenAI Assistant API와 Streamlit을 사용하여 세금을 계산할 수 있는 AI 도우미를 만드는 방법을 보여주었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 Assistant API의 능력을 강조하기 위해 이 간단한 프로젝트를 수행했어요. 문서가 다소 불명확하더라도, 목표는 모호한 부분을 명확하게 하고 Assistant API를 사용하고자 하는 분들에게 일부 지침을 제공하는 것이었습니다. 이 게시물이 도움이 되었으면 좋겠고, 이 강력한 도구로 더 많은 가능성을 탐험하도록 격려하길 바랍니다.
 

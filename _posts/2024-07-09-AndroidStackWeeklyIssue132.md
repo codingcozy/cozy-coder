@@ -3,7 +3,7 @@ title: "안드로이드 스택 주간 뉴스  132호"
 description: ""
 coverImage: "/assets/img/2024-07-09-AndroidStackWeeklyIssue132_0.png"
 date: 2024-07-09 10:40
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-AndroidStackWeeklyIssue132_0.png
 tag: Tech
 originalTitle: "Android Stack Weekly — Issue#132"
@@ -11,12 +11,7 @@ link: "https://medium.com/canopas/android-stack-weekly-issue-132-37f9fcc42e23"
 isUpdated: true
 ---
 
-
-
-
-
 이미지를 Markdown 형식으로 바꿔보세요.
-
 
 ![Image](/assets/img/2024-07-09-AndroidStackWeeklyIssue132_0.png)
 
@@ -26,8 +21,18 @@ isUpdated: true
 
 앱의 인지 성능을 향상시키는 방법을 배우세요. 로딩 표시기에 지연 가시성 수정자를 추가하여 불필요한 깜빡임을 최소화하세요.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 클라우드-인젝트 업데이트: 코틀린 멀티플랫폼(KMP) 호환성
 
@@ -37,7 +42,18 @@ isUpdated: true
 
 오늘날 안드로이드 개발에서 흔히 있는 오해들에 대해 다루고 있습니다. 아키텍처 컴포넌트, 의존성 주입, 그리고 현대적인 최상의 실천 방법과 같은 주제를 다루고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 제로에서 수억으로: 고성능 코틀린 앱 만들기
 
@@ -47,7 +63,18 @@ isUpdated: true
 
 코틀린 코루틴 디스패처를 효율적으로 활용하여 응용 프로그램에서 스레딩을 관리하는 방법을 배워보세요. 성능과 확장성을 높일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Kotlin에서의 해체 선언
 
@@ -57,7 +84,18 @@ isUpdated: true
 
 # 라이브러리 및 자원
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## dependency-guard
 
@@ -67,7 +105,18 @@ isUpdated: true
 
 Kotlin Multiplatform과 Compose Multiplatform을 사용한 날씨 앱이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 비디오
 
@@ -77,7 +126,18 @@ Kotlin Multiplatform과 Compose Multiplatform을 사용한 날씨 앱이에요.
 
 ## 초급자를 위한 Compose Multiplatform으로 단위 및 UI 테스팅하기 — KMP
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 구글 시트를 이용한 원격 구성이 미친 것 같아! 🤯
 

@@ -3,17 +3,13 @@ title: "파이썬을 사용한 탐색적 데이터 분석 EDA 방법"
 description: ""
 coverImage: "/assets/img/2024-06-22-ExploratoryDataAnalysisEDAUsingPython_0.png"
 date: 2024-06-22 16:56
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-ExploratoryDataAnalysisEDAUsingPython_0.png
 tag: Tech
 originalTitle: "Exploratory Data Analysis (EDA) Using Python"
 link: "https://medium.com/@teppan_noodle/exploratory-data-analysis-eda-using-python-f85938cb1810"
 isUpdated: true
 ---
-
-
-
-
 
 ## Python에서 탐색적 데이터 분석 및 데이터 시각화에 대한 기본 예제
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 탐색적 데이터 분석(EDA)는 데이터 분석 과정에서 중요한 단계로, 데이터셋을 더 잘 이해하기 위한 작업입니다. EDA를 통해 데이터의 주요 특징, 변수 간의 관계, 문제에 관련이 있는 변수들을 이해할 수 있습니다. 또한 EDA를 통해 데이터에서 누락된 값, 중복된 값, 이상값 및 오류를 식별하고 처리할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 게시물에서는 Pandas, Numpy, Matplotlib 및 Seaborn과 같은 다양한 라이브러리를 사용하여 EDA(탐색적 데이터 분석)를 수행할 때 Python을 사용합니다. Pandas는 데이터 조작 및 분석을 위한 라이브러리입니다. Numpy는 숫자 계산을 위한 라이브러리입니다. Matplotlib 및 Seaborn은 데이터 시각화를 위한 라이브러리입니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 분석을 수행하고 연습을 시작하려면 Kaggle에서 이 데이터셋을 찾을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 데이터 이해하기
 
@@ -49,7 +67,18 @@ warnings.filterwarnings('ignore')
 
 ## 데이터셋을 판다스 데이터프레임에 불러오기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 # CSV 파일에 데이터가 저장되어 있으므로, Pandas 함수를 사용하여 CSV 파일을 읽을 것입니다.
@@ -68,31 +97,64 @@ df.sample(5) # 데이터 샘플을 표시합니다
 df.drop(['source_URL','Book Description','About the Author'], axis=1, inplace=True)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 데이터프레임 확인하기
 
 이제 각 열의 데이터 유형을 확인하고 숫자 열의 요약을 확인하여 다음 단계를 결정할 수 있습니다.
 
 ```js
-df.info()
+df.info();
 ```
 
 ![이미지](/assets/img/2024-06-22-ExploratoryDataAnalysisEDAUsingPython_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 .info()를 통해 데이터 세트는 누락된 값이 없는 상태로 괜찮아 보입니다. 또한 데이터 세트의 형태(컬럼 수: 12, 행 수: 299) 및 각 컬럼의 데이터 유형과 같은 정보를 제공해줍니다.
 
 ```js
-df.describe()
+df.describe();
 ```
 
 ![이미지](/assets/img/2024-06-22-ExploratoryDataAnalysisEDAUsingPython_4.png)
 
 .describe() 메서드는 DataFrame의 숫자형 열에 대한 요약 통계를 제공합니다. 각 숫자형 열의 평균값, 중간값, 표준 편차, 최솟값 및 최댓값을 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Int/Float 크기를 축소하고 데이터 유형 할당하기
 
@@ -108,7 +170,18 @@ for column in numeric_columns:
     df[column] = df[column].replace(',', '', regex=True).astype('int32')
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 방법은 위의 열에서 모든 쉼표를 제거할 것입니다. .astype(`int32`) 이 부분은 남겨두셔도 좋습니다. 왜냐하면 판다스가 자동으로 데이터 유형을 int64로 할당해줄 것이기 때문입니다. 여기서 64와 32는 각 행당 메모리 양이나 비트 수를 나타냅니다.
 
@@ -118,7 +191,18 @@ for column in numeric_columns:
 
 각 숫자형 열의 가장 작은 값과 가장 큰 값을 보여줍니다. 예를 들어 'Readers Choice Votes' 열에서, 가장 작은 값은 935이고 가장 큰 값은 397565입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 값의 범위를 알면 해당 값을 저장하는 데 필요한 비트를 결정할 수 있습니다. 참고로:
 
@@ -131,7 +215,18 @@ Int32가 값 범위에 딱 맞는 옵션입니다. Int64를 사용할 수도 있
 
 실수의 경우에는 약간 다릅니다. 실수는 데이터가 저장할 수 있는 소수 자릿수에 실제로 영향을 줍니다. Float16는 4자리 소수를 저장하고, Float32는 8자리 소수를 저장하며, Float64는 16자리 소수를 저장할 수 있습니다. DataFrame에서 많은 소수 자릿수를 사용할 필요는 없지만 원래 값과 동일하게 유지하고 싶은 경우 Float16을 사용하는 것이 가장 좋은 선택입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 각 열의 값을 범위로 알고 있으므로 해당 열을 올바른 데이터 유형으로 할당할 것입니다.
 
@@ -153,7 +248,18 @@ df = df.astype(convert_dict)
 
 'Kindle Version and Price' 열의 경우 이미 가격 데이터를 저장하는 'Kindle Price'라는 다른 열이 있으므로 가격을 제거할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```jsx
 #텍스트에서 통화를 분리하여 새 열에 넣습니다
@@ -169,27 +275,48 @@ df = df.drop('Kindle Version and Price', axis=1)
 이제 데이터프레임을 다시 확인해보겠습니다:
 
 ```jsx
-df.info()
+df.info();
 ```
 
 ![이미지](/assets/img/2024-06-22-ExploratoryDataAnalysisEDAUsingPython_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-df.describe()
+df.describe();
 ```
 
 ![Exploratory Data Analysis using Python](/assets/img/2024-06-22-ExploratoryDataAnalysisEDAUsingPython_7.png)
 
 ```js
-df.sample(10)
+df.sample(10);
 ```
 
 ![Exploratory Data Analysis using Python](/assets/img/2024-06-22-ExploratoryDataAnalysisEDAUsingPython_8.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최근 결과에서 보듯이 데이터프레임의 메모리 크기를 크게 줄일 수 있습니다. 데이터 유형을 변경하고 정수 및 부동 소수점을 다운캐스팅하여 메모리 크기를 줄이는 방법입니다. 이 단계는 선택 사항이지만 대규모 데이터셋을 다룰 때 매우 유용할 수 있습니다.
 
@@ -199,19 +326,30 @@ df.sample(10)
 
 첫 번째 분석은 데이터셋 내의 다양한 카테고리별 책 분포를 찾는 것입니다. 그런 다음 seaborn 모듈을 사용하여 시각화할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-cat_counts = df['독자 선호 카테고리'].value_counts()
-print(cat_counts)
+cat_counts = df["독자 선호 카테고리"].value_counts();
+print(cat_counts);
 
-plt.figure(figsize=(12, 6))
-sns.barplot(x=cat_counts.index, y=cat_counts.values, palette='Blues_d')
-plt.title('카테고리별 분포')
-plt.xlabel('카테고리')
-plt.ylabel('책 수')
-plt.xticks(rotation=30, ha='right')
-plt.show()
+plt.figure((figsize = (12, 6)));
+sns.barplot((x = cat_counts.index), (y = cat_counts.values), (palette = "Blues_d"));
+plt.title("카테고리별 분포");
+plt.xlabel("카테고리");
+plt.ylabel("책 수");
+plt.xticks((rotation = 30), (ha = "right"));
+plt.show();
 ```
 
 <img src="/assets/img/2024-06-22-ExploratoryDataAnalysisEDAUsingPython_9.png" />
@@ -220,7 +358,18 @@ plt.show()
 
 우리 데이터는 모든 카테고리에 고르게 분포되어 있습니다. 다만, 데뷔 소설 카테고리만 19권의 책이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 각 카테고리별 투표, 평점, 리뷰, 페이지 및 가격 분포를 분석할 것입니다. 이 분포를 시각화하기 위해 상자 그림을 사용할 것입니다.
 
@@ -259,7 +408,7 @@ axes[2, 1].set_ylabel('킨들 가격')
 
 for ax in axes[2, :]:
     ax.set_xticklabels(ax.get_xticklabels(), rotation=30, ha='right')
-    
+
 fig.tight_layout()
 plt.show()
 ```
@@ -268,7 +417,18 @@ plt.show()
 
 대부분의 분포가 편향되어 있으며, 몇몇 카테고리에서 극단값이 있습니다. 평균 평점 분포는 데이터가 정규 분포되어 있습니다. 편향된 데이터의 중심 경향성을 측정하는 가장 좋은 방법은 중앙값을 사용하는 것입니다. 중앙값은 극단값(이상치)에 민감하지 않기 때문에 적합합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 카테고리별 분석
 
@@ -276,7 +436,7 @@ plt.show()
 
 ```js
 # 집계할 열을 결정합니다.
-aggregations = {'Readers Choice Votes': 'sum', 
+aggregations = {'Readers Choice Votes': 'sum',
                 'Total Avg Rating': 'mean',
                'Number of Ratings': 'sum',
                'Number of Reviews': 'sum',
@@ -297,8 +457,8 @@ percent_of_total_reviews = (category_vote['Number of Reviews'] / total_reviews) 
 
 # 새로운 Votes, Ratings 및 Reviews의 데이터프레임을 생성합니다.
 result_df = pd.DataFrame({
-    'Votes (합산)': category_vote['Readers Choice Votes'], 
-    '% 투표': percent_of_total_votes, 
+    'Votes (합산)': category_vote['Readers Choice Votes'],
+    '% 투표': percent_of_total_votes,
     '평균 평점': category_vote['Total Avg Rating'].round(2),
     'Number of Ratings': category_vote['Number of Ratings'],
     '% 총 평점': percent_of_total_ratings.round(2),
@@ -333,8 +493,18 @@ result_df
 
 ![이미지](/assets/img/2024-06-22-ExploratoryDataAnalysisEDAUsingPython_12.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로는 데이터를 시각화하여 더 나은 이해와 시각화를 하려고 합니다.
 
@@ -390,7 +560,18 @@ plt.show()
 
 그럼 여기까지입니다. 평균 평점이 가장 높지 않은에도 불구하고, Romance이 2023년에 가장 인기 있는 책 카테고리로 선정되었습니다. 다른 카테고리보다 투표, 평점 및 리뷰에서 우위를 차지했습니다. Ratings와 Reviews에서 두 번째로 높은 등수를 차지하며 숫자가 두 배 더 많습니다. 한편, Humor와 History & Biography는 2023년에 가장 인기 없는 두 가지 책 카테고리로 순위했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 카테고리의 가격은 매우 유사한 편이지만, Romance과 Romantasy는 모든 카테고리 중에서 가장 낮은 중간 가격을 가지고 있습니다. 이에도 불구하고 투표 수, 평점 및 리뷰 수가 많습니다.
 
@@ -413,8 +594,18 @@ plt.xticks(rotation=30, ha='right')
 plt.show()
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-ExploratoryDataAnalysisEDAUsingPython_14.png" />
 
@@ -424,21 +615,48 @@ plt.show()
 
 2023년 가장 투표를 많이 받은 책이 무엇인지 확인해 보는 시간입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-most_voted_books = df[['Title', 'Readers Choice Category', 'Readers Choice Votes', 'Total Avg Rating', 'Number of Ratings', 'Number of Reviews', 'Number of Pages']].sort_values(by=['Readers Choice Votes', 'Number of Ratings', 'Number of Reviews'], ascending=False).head(20)
+most_voted_books = df[
+  [
+    "Title",
+    "Readers Choice Category",
+    "Readers Choice Votes",
+    "Total Avg Rating",
+    "Number of Ratings",
+    "Number of Reviews",
+    "Number of Pages",
+  ]
+]
+  .sort_values((by = ["Readers Choice Votes", "Number of Ratings", "Number of Reviews"]), (ascending = False))
+  .head(20);
 
-plt.figure(figsize=(14, 6))
-sns.barplot(x=most_voted_books['Title'], y=most_voted_books['Readers Choice Votes'], data=most_voted_books, palette='Blues_d')
-plt.title('2023년 가장 많이 투표된 책')
-plt.xlabel('책 제목')
-plt.ylabel('투표 수')
-plt.xticks(rotation=30, ha='right')
-plt.show()
+plt.figure((figsize = (14, 6)));
+sns.barplot(
+  (x = most_voted_books["Title"]),
+  (y = most_voted_books["Readers Choice Votes"]),
+  (data = most_voted_books),
+  (palette = "Blues_d")
+);
+plt.title("2023년 가장 많이 투표된 책");
+plt.xlabel("책 제목");
+plt.ylabel("투표 수");
+plt.xticks((rotation = 30), (ha = "right"));
+plt.show();
 
-most_voted_books
+most_voted_books;
 ```
 
 <img src="/assets/img/2024-06-22-ExploratoryDataAnalysisEDAUsingPython_15.png" />
@@ -447,21 +665,52 @@ most_voted_books
 
 그래서 이겨낸 책이 결정되었습니다. Fourth Wing은 2023 독자 선호 투표에서 가장 인기 있는 책으로 우승을 차지했습니다. 2위인 Yellowface보다 거의 2배 많은 표를 받아 거의 백만 개의 평가를 받았습니다. 로맨티지 카테고리에 해당하는 투표 중 절반 이상을 차지했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 모든 카테고리에서 수상자들을 살펴보겠습니다.
 
 ```js
-max_votes_index = df.groupby('Readers Choice Category')['Readers Choice Votes'].idxmax()
-titles_with_max_votes = df.loc[max_votes_index, ['Readers Choice Category', 'Title', 'Readers Choice Votes', 'Total Avg Rating', 'Number of Ratings', 'Number of Reviews', 'Number of Pages']].sort_values('Readers Choice Votes', ascending=False)
-titles_with_max_votes
+max_votes_index = df.groupby("Readers Choice Category")["Readers Choice Votes"].idxmax();
+titles_with_max_votes = df.loc[
+  (max_votes_index,
+  [
+    "Readers Choice Category",
+    "Title",
+    "Readers Choice Votes",
+    "Total Avg Rating",
+    "Number of Ratings",
+    "Number of Reviews",
+    "Number of Pages",
+  ])
+].sort_values("Readers Choice Votes", (ascending = False));
+titles_with_max_votes;
 ```
 
 <img src="/assets/img/2024-06-22-ExploratoryDataAnalysisEDAUsingPython_18.png" />
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로, 2023년에 각 월별로 발행된 책의 수를 알아내기 위해 barplot을 사용하여 분석할 예정입니다.
 
@@ -490,7 +739,18 @@ books_per_month[['Month','Title']]
 
 <img src="/assets/img/2024-06-22-ExploratoryDataAnalysisEDAUsingPython_20.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 그래프를 통해 우리는 11월에 가장 적은 책이 출간되었음을 발견했습니다. 반면에 9월과 1월은 가장 많은 책이 출간된 달이었습니다.
 
@@ -500,7 +760,18 @@ books_per_month[['Month','Title']]
 
 내가 방금 보여준 것은 Python을 데이터 분석과 시각화 도구로 사용하는 놀라운 방법의 일감입니다. 이 기사에서는 데이터 집합을 더 깊게 이해할 수 있도록 중요한 기본 단계를 다루었는데, 이를 위해 분석을 위한 pandas와 시각화를 위한 matplotlib/seaborn과 같은 라이브러리를 사용했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제 글을 읽어 주셔서 감사합니다. 읽으시는 데 즐거움을 느끼셨기를 바라고 파이썬에서의 탐색적 데이터 분석을 이해하는 데 도움이 되었기를 바랍니다.
 

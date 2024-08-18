@@ -3,17 +3,13 @@ title: "라즈베리 파이 완벽한 헤드리스 설정 안내"
 description: ""
 coverImage: "/assets/img/2024-06-19-RaspberryPiFullHeadlessSetupGuide_0.png"
 date: 2024-06-19 18:26
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-RaspberryPiFullHeadlessSetupGuide_0.png
 tag: Tech
 originalTitle: "Raspberry Pi Full Headless Setup Guide"
 link: "https://medium.com/@imthedanger/raspberry-pi-full-headless-setup-guide-6e3c9ebed710"
 isUpdated: true
 ---
-
-
-
-
 
 안녕하세요 여러분! 며칠 전에 처음으로 라즈베리 파이 4를 구입했고, 설정하는 방법을 여러분과 나누고 싶어서 기쁩니다. 함께 따라와서 오류가 발생하면 언제든지 연락해 주세요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 필요한 것들
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 라즈베리 파이 4
 - MicroSD 카드 (16GB 이상)
@@ -37,7 +44,18 @@ isUpdated: true
 
 https://www.raspberrypi.com/software/
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 라즈베리 파이 OS를 MicroSD 카드에 설치하세요. SSH를 활성화하고 사용자 정의 설정에서 SSID 및 Wi-Fi 비밀번호를 입력하는 것을 잊지 마세요!
 
@@ -47,7 +65,18 @@ MicroSD 카드를 라즈베리 파이에 삽입하고 전원을 켜세요(5W/3A)
 
 # 초기 설정
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그의 IP 주소를 찾아봅시다.
 
@@ -57,7 +86,18 @@ MicroSD 카드를 라즈베리 파이에 삽입하고 전원을 켜세요(5W/3A)
 
 이제 IP 주소를 찾았으니 SSH를 통해 로그인해 봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-RaspberryPiFullHeadlessSetupGuide_3.png" />
 
@@ -67,7 +107,18 @@ MicroSD 카드를 라즈베리 파이에 삽입하고 전원을 켜세요(5W/3A)
 
 # 그래픽 액세스
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 라즈베리 파이에 그래픽 액세스를 원하시면, 라즈베리 파이에 VNC 서버를 설치해야 해요.
 
@@ -77,7 +128,18 @@ MicroSD 카드를 라즈베리 파이에 삽입하고 전원을 켜세요(5W/3A)
 
 나가기하고 재부팅하기.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 VNC 뷰어를 노트북에 설치하세요:
 
@@ -87,7 +149,18 @@ VNC 뷰어를 노트북에 설치하세요:
 
 ![이미지](/assets/img/2024-06-19-RaspberryPiFullHeadlessSetupGuide_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-RaspberryPiFullHeadlessSetupGuide_5.png" />
 
@@ -97,7 +170,18 @@ VNC 뷰어를 노트북에 설치하세요:
 
 그리고 들어왔습니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="https://miro.medium.com/v2/resize:fit:960/1*DlPOOFxupci14OKPJn5OVw.gif" />
 

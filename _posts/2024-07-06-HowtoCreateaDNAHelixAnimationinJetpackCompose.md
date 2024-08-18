@@ -3,7 +3,7 @@ title: "Jetpack Compose로 DNA 이중나선 애니메이션 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-06-HowtoCreateaDNAHelixAnimationinJetpackCompose_0.png"
 date: 2024-07-06 11:13
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-06-HowtoCreateaDNAHelixAnimationinJetpackCompose_0.png
 tag: Tech
 originalTitle: "How to Create a DNA Helix Animation in Jetpack Compose"
@@ -11,11 +11,7 @@ link: "https://medium.com/@kappdev/how-to-create-a-dna-helix-animation-in-jetpac
 isUpdated: true
 ---
 
-
-
-
-
-환영합니다! 
+환영합니다!
 
 이번 글에서는 Jetpack Compose를 사용하여 5분 만에 동적 DNA 나선 애니메이션을 만들어 보겠습니다 ⌚️
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![2024-07-06-HowtoCreateaDNAHelixAnimationinJetpackCompose_0](/assets/img/2024-07-06-HowtoCreateaDNAHelixAnimationinJetpackCompose_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 기능
 
@@ -53,7 +60,18 @@ fun DNAHelix(
 
 ## 매개변수:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🧬 modifier 👉 캔버스에 적용할 수정자.
 
@@ -63,7 +81,18 @@ fun DNAHelix(
 
 🧬 pointSize 👉 점의 지름.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🧬 **lineWidth** 👉 점들을 연결하는 선의 너비입니다.
 
@@ -73,7 +102,18 @@ fun DNAHelix(
 
 🧬 **curvature** 👉 나선의 곡률입니다. 곡선이 얼마나 자주 반복되는지에 영향을 줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🧬 cycleDuration 👉 한 애니메이션 주기의 지속 시간(밀리초).
 
@@ -83,7 +123,18 @@ fun DNAHelix(
 
 ## 좌표 유틸리티
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로직을 구현하기 전에, 현재 각도와 점의 위치를 기반으로 좌표를 계산하는 유틸리티 함수를 정의해 봅시다.
 
@@ -98,7 +149,18 @@ private fun calculateCoordinates(angle: Float, radius: Float, centerX: Float, ce
 
 무한 애니메이션을 생성하려면, `rememberInfiniteTransition()`과 `animateFloat()`를 함께 사용하여 각도를 0부터 360도까지 애니메이션화할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 val helixTransition = rememberInfiniteTransition()
@@ -163,7 +225,18 @@ Canvas(modifier) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 축하해요 🥳! 성공적으로 만들어냈어요 👏. 전체 코드 구현은 GitHub Gist에서 확인할 수 있어요 🧑‍💻. 이제 어떻게 활용할 수 있는지 살펴봐요.
 
@@ -171,7 +244,18 @@ Canvas(modifier) {
 
 그렇다면, 여행을 쉽고 편리하게 만들어줄 이 어플리케이션을 꼭 확인해보시길 강력히 추천해요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 사용 방법 💁‍♂️
 
@@ -179,9 +263,20 @@ DNAHelix 함수를 사용하는 다양한 방법을 살펴봅시다:
 
 ## 간단한 나선
 
-기본 설정으로 간단한 나선을 생성하세요: 
+기본 설정으로 간단한 나선을 생성하세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 DNAHelix(
@@ -199,7 +294,18 @@ DNAHelix(
 
 백색 대신 선을 그라디언트로 사용자 정의하세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 DNAHelix(
@@ -220,20 +326,29 @@ DNAHelix(
 
 수평 이동을 적용하고 왜곡된 나선 구조를 위해 곡률을 조정하세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 DNAHelix(
-    firstColor = Color.Red,
-    secondColor = Color.Blue,
-    shifting = 10.dp,
-    curvature = 12f,
-    modifier = Modifier
-        .fillMaxWidth()
-        .height(50.dp)
-        .rotate(-15f)
+firstColor = Color.Red,
+secondColor = Color.Blue,
+shifting = 10.dp,
+curvature = 12f,
+modifier = Modifier
+.fillMaxWidth()
+.height(50.dp)
+.rotate(-15f)
 )
-
 
 ![Animation of a DNA helix](https://miro.medium.com/v2/resize:fit:1400/1*JA8o47XdCa246_C-mXtBpQ.gif)
 
@@ -241,8 +356,18 @@ DNAHelix(
 
 이 글을 읽어주셔서 감사합니다! ❤️ 즐거우시고 가치 있게 느꼈으면 👏 손뼉을 치거나 Kappdev를 팔로우하여 더 매력적인 글들을 읽어보세요 😊
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제 최신 컨텐츠를 받아보려면 이메일 알림 🔔을 구독해보세요.
 

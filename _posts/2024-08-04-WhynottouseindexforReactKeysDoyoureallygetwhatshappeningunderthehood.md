@@ -3,18 +3,13 @@ title: "React에서 인덱스를 Key로 사용하면 안되는 이유"
 description: ""
 coverImage: "/assets/img/2024-08-04-WhynottouseindexforReactKeysDoyoureallygetwhatshappeningunderthehood_0.png"
 date: 2024-08-04 18:43
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-04-WhynottouseindexforReactKeysDoyoureallygetwhatshappeningunderthehood_0.png
 tag: Tech
 originalTitle: "Why not to use index for React Keys Do you really get whats happening under the hood"
 link: "https://medium.com/@deshwaljaivardhan/why-not-to-use-index-for-react-keys%EF%B8%8F-do-you-really-get-whats-happening-under-the-hood-3d9da500192c"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![이미지](/assets/img/2024-08-04-WhynottouseindexforReactKeysDoyoureallygetwhatshappeningunderthehood_0.png)
 
@@ -24,8 +19,18 @@ eslint이 왜 index를 키로 사용하는 것에 이렇게 고집을 부리는 
 
 책장에 진열된 장난감 목록이 있다고 상상해보세요. 장난감의 순서를 변경하거나 일부를 제거하려면, 어떤 장난감을 어떻게 움직여야 하는지 몰라도 혼란스러울 것입니다. 라벨(또는 키)은 선반 전체를 망치지 않고 정확히 어떤 장난감을 이동하거나 제거해야 하는지 쉽게 알 수 있게 해줍니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 인덱스가 문제가 될 수 있는 이유❗
 
@@ -35,7 +40,18 @@ eslint이 왜 index를 키로 사용하는 것에 이렇게 고집을 부리는 
 
 예를 들어, 좋아하는 색상 목록이 있다고 가정해 봅시다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const items = ["Apple", "Banana", "Cherry"];
@@ -49,7 +65,18 @@ const items = ["Apple", "Banana", "Cherry"];
 
 만약 “Banana”와 “Cherry”를 교체하면:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 인덱스 0 - ` "사과" (키=0)
 - 인덱스 1 - ` "체리" (키=1)
@@ -61,17 +88,24 @@ React는 "바나나"와 "체리"가 자리를 바꾼 것으로 인식하여 키�
 
 리스트에 항목을 추가하거나 제거할 때 인덱스를 키로 사용하면 React가 어떤 항목이 변경되었는지 잘못 해석할 수 있습니다. 목록에서 항목이 제거되면 그 이후의 모든 항목이 인덱스를 변경하므로 React는 제거된 항목 이후의 모든 항목이 변경되었다고 생각합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 function TodoList() {
-  const [tasks, setTasks] = useState([
-    "장보기",
-    "개 산책시키기",
-    "책 읽기"
-  ]);
+  const [tasks, setTasks] = useState(["장보기", "개 산책시키기", "책 읽기"]);
 
   return (
     <ul>
@@ -87,7 +121,7 @@ function addTask() {
     "장보기",
     "개 산책시키기",
     "이메일 쓰기", // 새로운 작업을 중간에 삽입
-    "책 읽기"
+    "책 읽기",
   ]);
 }
 ```
@@ -100,7 +134,18 @@ Initial Render:
 
 새로운 작업 추가 후:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - "식료품 사기" (key=0)
 - "개 산책 시키기" (key=1)
@@ -115,7 +160,18 @@ Initial Render:
 
 사실상, React는 "이메일 쓰기"를 삽입하는 것만이 실제 변경 사항이지만, 변경된 인덱스(2)부터 리스트 끝까지의 아이템을 제거하고 다시 삽입해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트는 삽입 지점 다음의 모든 항목을 다시 렌더링하며 새 항목뿐만 아니라 모두 렌더링합니다. 특히 각 항목이 복잡한 렌더링 로직이나 부작용을 가지고 있는 경우에는 비효율적일 수 있습니다.
 
@@ -125,7 +181,18 @@ Initial Render:
 
 # 인덱스 사용이 적절할 때 ✅
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일부 시나리오에서는 색인을 키로 사용하는 것이 수용될 수 있습니다. 특히 다음 경우에 해당됩니다:
 

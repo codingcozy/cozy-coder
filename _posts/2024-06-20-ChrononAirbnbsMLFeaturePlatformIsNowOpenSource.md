@@ -3,17 +3,13 @@ title: "Chronon, 에어비앤비의 기계 학습 피처 플랫폼, 이제 오�
 description: ""
 coverImage: "/assets/img/2024-06-20-ChrononAirbnbsMLFeaturePlatformIsNowOpenSource_0.png"
 date: 2024-06-20 15:22
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-ChrononAirbnbsMLFeaturePlatformIsNowOpenSource_0.png
 tag: Tech
 originalTitle: "Chronon, Airbnb’s ML Feature Platform, Is Now Open Source"
 link: "https://medium.com/airbnb-engineering/chronon-airbnbs-ml-feature-platform-is-now-open-source-d9c4dba859e8"
 isUpdated: true
 ---
-
-
-
-
 
 테이블 태그를 Markdown 형식으로 변경해주세요.
 
@@ -25,7 +21,18 @@ By: Varant Zanoyan, Nikhil Simha Raprolu
 
 ![ChrononAirbnbsMLFeaturePlatformIsNowOpenSource_1](/assets/img/2024-06-20-ChrononAirbnbsMLFeaturePlatformIsNowOpenSource_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Airbnb에서는 우리의 ML Feature Platform 인 Chronon을 오픈 소스로 공개하게 된 것을 기쁘게 생각합니다. 우리 커뮤니티 Discord 채널에 참여하여 함께 대화해보세요.
 
@@ -35,7 +42,18 @@ Airbnb에서는 우리의 ML Feature Platform 인 Chronon을 오픈 소스로 �
 
 # 배경
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Chronon은 ML 실무자들의 공통된 고민을 해소하고자 만들어졌어요: 모델링에 대부분의 시간을 쏟는 대신 모델을 구축하는 데 필요한 데이터를 관리하는 일에 시간을 많이 써야 했기 때문이죠.
 
@@ -46,7 +64,18 @@ Chronon 이전에는, 실무자들은 일반적으로 다음 두 가지 방법 �
 
 Chronon 접근 방식은 양쪽을 모두 최대한 활용할 수 있게 해줘요. Chronon을 사용하면 ML 실무자들은 특징을 한 번 정의하면 됩니다. 이를 통해 오프라인 흐름은 모델 학습을 위한 것뿐만 아니라 온라인 흐름에서 모델 추론에도 사용됩니다. 또한, Chronon은 특징 연결, 가시성 및 데이터 품질을 위한 강력한 도구, 특징 공유 및 관리도 제공해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 작동 방식
 
@@ -56,7 +85,18 @@ Chronon 접근 방식은 양쪽을 모두 최대한 활용할 수 있게 해줘�
 
 ## 기능 정의
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 구매 데이터: 구매 로그 데이터를 사용자 수준으로 집계하여이 사용자가 플랫폼에서 이전에 수행한 활동을 볼 수 있습니다. 구체적으로 다양한 시간 창을 통해 이전 구매 금액의 SUM, COUNT 및 AVERAGE를 계산할 수 있습니다.
 
@@ -103,7 +143,18 @@ v1 = GroupBy(
 
 이는 사용자 수준에서 구매 기록 데이터를 유용한 기능으로 변환합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 유저 데이터: 유저 데이터를 피처로 변환하는 것은 조금 더 간단합니다. 주로 집계를 수행할 필요가 없기 때문입니다. 이 경우, 원본 데이터의 주요 키와 피처의 주요 키가 동일하므로 행을 대상으로 집계를 수행하는 대신 단순히 열 값을 추출할 수 있습니다:
 
@@ -121,14 +172,25 @@ v1 = GroupBy(
     keys=["user_id"], # 주요 키는 소스 테이블의 주요 키와 동일함
     aggregations=None, # 이 경우 집계나 윈도우를 정의할 필요가 없음
     online=True,
-) 
+)
 ```
 
 이를 통해 `user_id`를 주요 키로 사용하여 `data.users` 테이블로부터 차원을 추출하는 `GroupBy`가 생성됩니다.
 
 피처를 결합하기: 다음으로, 이전에 정의된 피처를 백필링되어 모델 훈련에 사용되고 모델 추론을 위해 온라인으로 제공될 수 있는 단일 뷰로 결합해야 합니다. Join API를 사용하여 이를 달성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리의 사용 사례에서 피처가 올바른 타임스탬프로 계산되는 것이 매우 중요합니다. 모델이 체크아웃 플로우를 시작할 때 실행되기 때문에, 온라인 추론에서 모델이 볼 것과 일치하는 피처 값이 모델 훈련을 위해 논리적으로 일치하도록 백필에 해당 타임스탬프를 사용하고 싶습니다.
 
@@ -152,7 +214,18 @@ v1 = Join(
 
 # 백필/오프라인 계산
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에 나와 있는 Join 정의로 사용자가 할 수 있는 첫 번째 작업은 역사적인 피쳐 값들을 모델 훈련을 위해 생성하기 위해 백필을 실행하는 것입니다. Chronon은 몇 가지 주요 이점을 갖고 이 백필을 수행합니다:
 
@@ -164,7 +237,18 @@ v1 = Join(
 
 Chronon은 온라인 피쳐 계산을 위한 많은 복잡성을 추상화합니다. 위의 예에서 해당 피쳐가 일괄 피쳐인지 또는 스트리밍 피쳐인지에 따라 피쳐를 계산할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일괄 기능 (예: 위의 사용자 기능)
 
@@ -174,7 +258,18 @@ Chronon은 온라인 피쳐 계산을 위한 많은 복잡성을 추상화합니
 
 구매 기능은 소스에 스트리밍 구성 요소를 포함한 소스에 기초로 구축되어 있습니다. 이는 소스에 "주제"가 포함되어 있음으로 나타납니다. 이 경우 Chronon은 실시간 업데이트를 위해 배치 업로드와 함께 스트리밍 작업도 실행합니다. 배치 작업은 다음을 담당합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 값 시딩하기: 긴 윈도우의 경우, 스트림을 되감아서 모든 원시 이벤트를 재생하는 것은 실용적이지 않을 수 있습니다.
 - "윈도우의 중간"을 압축하고 꼬리 정확도 제공하기: 정확한 윈도우 정확도를 위해서는, 윈도우의 머리와 꼬리에서 원시 이벤트가 필요합니다.
@@ -185,7 +280,18 @@ Chronon은 온라인 피쳐 계산을 위한 많은 복잡성을 추상화합니
 
 Chronon은 낮은 대기 시간으로 특성을 추출하기 위한 API를 제공합니다. 우리는 개별 GroupBys(즉, 위에서 정의한 사용자 또는 구매 특성)에 대한 값이나 Join에 대한 값 중 하나를 가져올 수 있습니다. 다음은 Join에 대한 하나의 해당 요청과 응답의 예시입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 사용자=123에 대한 모든 기능을 검색 중
@@ -206,7 +312,18 @@ run.py --mode=fetch -k '{"user_id":123}' -n quickstart/training_set -t join
 > {"purchase_price_avg_3d":14.2341, "purchase_price_avg_14d":11.89352, ...}
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 run.py CLI 도구를 활용하여 상단의 Java 코드와 동일한 가져오기 요청을 수행할 수 있어요. run.py는 Chronon 워크플로우를 빠르게 테스트하는 편리한 방법이에요.
 
@@ -216,7 +333,18 @@ run.py CLI 도구를 활용하여 상단의 Java 코드와 동일한 가져오�
 
 Chronon은 온라인-오프라인 정확도에 도움을 주는 것뿐만 아니라 이를 측정하는 방법도 제공해요. 측정 파이프라인은 온라인 가져오기 요청의 로그에서 시작돼요. 이 로그에는 요청의 기본 키와 타임스탬프가 포함되어 있습니다. 그리고 가져온 기능 값도 포함돼요. 그런 다음, Chronon은 키와 타임스탬프를 왼쪽 측으로 하는 Join backfill로 전달하고, 계산 엔진에게 기능 값을 backfill하도록 요청해요. 그런 다음 backfill된 값을 실제 가져온 값과 비교하여 일관성을 측정해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 다음은 무엇인가요?
 
@@ -226,7 +354,18 @@ Chronon은 온라인-오프라인 정확도에 도움을 주는 것뿐만 아니
 
 반복과 계산 비용을 얼마나 더 낮출 수 있을까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 크로논은 이미 Airbnb 및 Stripe와 같은 대기업이 처리하는 데이터 규모에 적합하게 구축되어 있습니다. 그러나 우리의 컴퓨트 엔진을 최적화하여 컴퓨트 비용을 줄이고 새로운 기능을 만들고 실험하는 "시간 비용"을 줄일 수 있는 방법이 항상 있습니다.
 
@@ -236,7 +375,18 @@ Chronon은 온라인-오프라인 정확도에 도움을 주는 것뿐만 아니
 
 기술적 장벽을 낮추어 기능 생성을 보다 쉽게 하는 것은 결과적으로 ML 전문가들과 가치 있는 도메인 전문 지식을 보유한 파트너들 간의 새로운 협력을 열 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모델 유지 관리 방식을 개선할 수 있을까요?
 
@@ -246,7 +396,18 @@ Chronon은 온라인-오프라인 정확도에 도움을 주는 것뿐만 아니
 
 플랫폼 레이어로 수집하는 메타데이터가 많아지면, 일반적인 ML 어시스턴트로서 플랫폼이 더욱 강력해질 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로운 데이터로 실험을 자동으로 실행하여 모델을 개선하는 방법을 식별하는 플랫폼을 만드는 목표를 언급했습니다. 이러한 플랫폼은 ML 전문가들이 "이 사용 사례를 모델링할 때 가장 유용한 특성은 무엇인가요?" 또는 "이 목표에 관한 신호를 캡처하는 특성을 만들 수 있는 어떤 데이터 소스가 있을까요?"와 같은 질문을 할 수 있도록하여 데이터 관리에도 도움이 될 수 있습니다. 이러한 종류의 질문에 답변할 수 있는 플랫폼은 지능적 자동화의 다음 수준을 나타냅니다.
 
@@ -257,7 +418,18 @@ Chronon은 온라인-오프라인 정확도에 도움을 주는 것뿐만 아니
 - Github 프로젝트, Chronon 웹 사이트 및 특히 빠른 시작 가이드를 확인해보세요.
 - 커뮤니티 디스코드 채널에 들러보세요. 에어비앤비 및 Stripe 팀은 Chronon이 여러분의 스택에 어떻게 맞을지에 대해 여러분과 채팅하는 데 열정적입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이런 종류의 작업에 관심이 있으세요? 여기에서 열려 있는 역할을 확인해보세요 — 채용 중입니다.
 

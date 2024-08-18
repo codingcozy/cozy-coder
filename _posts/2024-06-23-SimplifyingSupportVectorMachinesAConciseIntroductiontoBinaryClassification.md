@@ -3,17 +3,13 @@ title: "서포트 벡터 머신 간단 정리  이진 분류 쉽게 이해하기
 description: ""
 coverImage: "/assets/img/2024-06-23-SimplifyingSupportVectorMachinesAConciseIntroductiontoBinaryClassification_0.png"
 date: 2024-06-23 19:35
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-SimplifyingSupportVectorMachinesAConciseIntroductiontoBinaryClassification_0.png
 tag: Tech
 originalTitle: "Simplifying Support Vector Machines — A Concise Introduction to Binary Classification"
 link: "https://medium.com/towards-data-science/support-vector-machines-svm-ml-basics-machine-learning-data-science-getting-started-1683fc99cd45"
 isUpdated: true
 ---
-
-
-
-
 
 데이터와 컴퓨터 프로그램의 세계에서 머신 러닝이라는 개념은 어려운 문제 같을 수도 있어요. 복잡한 수학과 이해하기 어려운 개념이 가득한 것 같죠.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이 강력한 도구는 데이터를 명확한 범주로 분류하는 데 도움이 되지만...
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떻게 동작하는 건가요?
 
@@ -33,7 +40,18 @@ Support Vector Machines 모델을 간단히 설명해 보겠습니다👇🏻
 
 Support Vector Machine (SVM)은 두 가지 다른 클래스로 데이터 포인트를 가장 잘 분리하는 초평면을 찾으려는 지도 학습 알고리즘입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문제는 이를 수행할 수 있는 무한한 수의 초평면이 존재한다는 점이 어렵습니다. 그래서 SVM의 목표는 클래스를 최대 여백으로 가장 잘 분리하는 초평면을 식별하는 것입니다.
 
@@ -43,7 +61,18 @@ Support Vector Machine (SVM)은 두 가지 다른 클래스로 데이터 포인�
 
 더 깊이 파고들기 전에, 몇 가지 핵심 용어를 이해해 보겠습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Support Vectors(서포트 벡터): 이들은 초평면에 가장 가까운 데이터 포인트로, 초평면의 위치와 방향에 큰 영향을 미칩니다.
 - 여백(Margin): 여백은 초평면과 각 클래스에서 가장 가까운 데이터 포인트 사이의 거리입니다. 더 큰 여백은 분류기의 일반화를 더 잘 시킬 것입니다.
@@ -55,7 +84,18 @@ Support Vector Machine (SVM)은 두 가지 다른 클래스로 데이터 포인�
 
 두 종류의 데이터 포인트가 있는 데이터셋을 상상해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 파란색 🔵
 - 노란색 🟨
@@ -66,7 +106,18 @@ Support Vector Machine (SVM)은 두 가지 다른 클래스로 데이터 포인�
 
 ![이미지](/assets/img/2024-06-23-SimplifyingSupportVectorMachinesAConciseIntroductiontoBinaryClassification_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가장 좋은 초평면은 두 클래스로부터 최대 거리를 가지는 것입니다. 이는 가능한 다양한 초평면을 찾고 두 클래스로부터 최대 거리를 가지는 것을 선택함으로써 수행됩니다.
 
@@ -76,7 +127,18 @@ Support Vector Machine (SVM)은 두 가지 다른 클래스로 데이터 포인�
 
 점곱은 하나의 벡터를 다른 벡터에 따라 투영하는 것을 말합니다. 그래서 우리는 한 쪽의 점과 다른 쪽의 초평면이 어디에 있는지 결정하는 데 활용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 임의의 점 X를 고려해 보면:
 
@@ -88,7 +150,18 @@ Support Vector Machine (SVM)은 두 가지 다른 클래스로 데이터 포인�
 
 그러니까 조금 되감아보고 이 방정식들이 어디에서 왔는지 이해해 봅시다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## #1. 하이퍼플레인을 찾는 방법 결정
 
@@ -98,7 +171,18 @@ Support Vector Machine (SVM)은 두 가지 다른 클래스로 데이터 포인�
 
 거리 d는 두 서포트 벡터 사이의 차이를 하이퍼플레인의 법선 벡터 w의 방향으로 투영하면 얻을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-23-SimplifyingSupportVectorMachinesAConciseIntroductiontoBinaryClassification_3.png)
 
@@ -108,7 +192,18 @@ A와 B라는 두 벡터가 있다고 상상해봅시다. 그들 사이에 θ도�
 
 즉, A의 B에 대한 투영을 찾을 수 있어요. A와 B 벡터를 알면 다음 수식에서도 확인할 수 있듯이요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서 이제 우리가 이 기본 원리를 이해했으니, SVM 모델로 돌아가 봅시다. SVM에 동일한 수학적 개념을 적용할 수 있습니다. 여기서 A는 지원 벡터 머신으로 정의된 벡터이고 B는 우리가 분할 초평면의 법선 벡터입니다.
 
@@ -118,7 +213,18 @@ A와 B라는 두 벡터가 있다고 상상해봅시다. 그들 사이에 θ도�
 
 이것은 초평면에 놓인 것은 양수 값을 가질 것이며(양쪽 초평면에 해당), 그 아래에 있는 것은 음수 값을 가질 것입니다(음쪽 초평면에 해당).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 두 초평면 사이의 간격을 "마진"이라고 합니다.
 
@@ -128,7 +234,18 @@ A와 B라는 두 벡터가 있다고 상상해봅시다. 그들 사이에 θ도�
 
 양수 또는 음수로 점을 분류하기 위해 초평면과의 상대적 위치를 기반으로 결정 규칙을 설정합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 한 쪽에 있는 점들은 한 범주로 분류됩니다 (파란색 🔵)
 - 다른 한 쪽에 있는 점들은 반대 범주에 속합니다 (노란색 🟨).
@@ -139,7 +256,18 @@ A와 B라는 두 벡터가 있다고 상상해봅시다. 그들 사이에 θ도�
 
 # 최적화와 제약 사항
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SVM은 여백을 최대화하기 위한 최적화 문제를 해결하는 것을 포함합니다. 이는 선택한 초평면이 각 클래스의 가장 가까운 데이터 포인트에서 충분한 거리를 유지하도록 하는 것을 의미합니다. 이를 서포트 벡터라고 합니다.
 
@@ -150,7 +278,18 @@ SVM은 여백을 최대화하기 위한 최적화 문제를 해결하는 것을 
 
 ![이미지](/assets/img/2024-06-23-SimplifyingSupportVectorMachinesAConciseIntroductiontoBinaryClassification_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 여전히 w 벡터와 b 매개변수를 찾아야 합니다.
 
@@ -160,7 +299,18 @@ SVM은 여백을 최대화하기 위한 최적화 문제를 해결하는 것을 
 
 그래서 이를 쉽게 일반화할 수 있어요...
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 일반 제약 조건 방정식
 
@@ -170,7 +320,18 @@ SVM은 여백을 최대화하기 위한 최적화 문제를 해결하는 것을 
 
 그리고 수행할 단계가 하나 더 남았습니다...
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 최적화 목표
 
@@ -180,7 +341,18 @@ SVM은 여백을 최대화하기 위한 최적화 문제를 해결하는 것을 
 
 ![equation](/assets/img/2024-06-23-SimplifyingSupportVectorMachinesAConciseIntroductiontoBinaryClassification_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 최적화 문제를 해결함으로써, 클래스 간의 최상의 분리를 보장하는 최대 마진을 가지는 초평면을 정의하는 벡터 w와 b의 최적값을 찾을 수 있습니다.
 
@@ -190,7 +362,18 @@ SVM은 여백을 최대화하기 위한 최적화 문제를 해결하는 것을 
 
 클래스 간의 간격을 최대화하는 데 초점을 맞추면, SVM은 새로운 데이터에 대해 잘 일반화되는 견고한 분류기를 생성하여, 오버피팅의 위험을 줄입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SVM의 수학적 기반은 최적 초평면의 식별을 보장하여 다양한 분류 작업에 신뢰할 수 있는 선택지로 만듭니다.
 
@@ -200,7 +383,18 @@ MLBasics 이슈를 좋아하셨나요? 그렇다면 DataBites 뉴스레터를 �
 
 내용을 메일로 받아보실 수 있습니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-06-23-SimplifyingSupportVectorMachinesAConciseIntroductiontoBinaryClassification_7.png](/assets/img/2024-06-23-SimplifyingSupportVectorMachinesAConciseIntroductiontoBinaryClassification_7.png)
 

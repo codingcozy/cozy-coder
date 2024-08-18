@@ -3,17 +3,13 @@ title: "Angular에서 BehaviorSubject를 사용하는 방법 배우기"
 description: ""
 coverImage: "/issue-truck.github.io/assets/no-image.jpg"
 date: 2024-07-10 00:51
-ogImage: 
+ogImage:
   url: /issue-truck.github.io/assets/no-image.jpg
 tag: Tech
 originalTitle: "I am stuck with BehaviorSubject in angular"
 link: "https://medium.com/@fixitblog/solved-i-am-stuck-with-behaviorsubject-in-angular-4a089342d2e3"
 isUpdated: true
 ---
-
-
-
-
 
 Angular v17에서 BehaviorSubject를 사용하여 중앙 오류 처리 서비스를 생성했어요. 하지만 예상한 대로 작동하지 않아요!
 
@@ -23,43 +19,54 @@ Angular v17에서 BehaviorSubject를 사용하여 중앙 오류 처리 서비스
 
 NotificationService:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import { Injectable } from '@angular/core';
-import { BehaviorSubject } from 'rxjs';
+import { Injectable } from "@angular/core";
+import { BehaviorSubject } from "rxjs";
 
 @Injectable({
-    providedIn: 'root'
+  providedIn: "root",
 })
 export class NotificationService {
-    successMessageSubject = new BehaviorSubject<string | null>(null);
-    errorMessageSubject = new BehaviorSubject<string | null>(null);
+  successMessageSubject = (new BehaviorSubject() < string) | (null > null);
+  errorMessageSubject = (new BehaviorSubject() < string) | (null > null);
 
-    successMessageAction$ = this.successMessageSubject.asObservable();
-    errorMessageAction$ = this.errorMessageSubject.asObservable();
+  successMessageAction$ = this.successMessageSubject.asObservable();
+  errorMessageAction$ = this.errorMessageSubject.asObservable();
 
-    setSuccessMessage(message: string) {
-        this.successMessageSubject.next(message);
-    }
+  setSuccessMessage(message: string) {
+    this.successMessageSubject.next(message);
+  }
 
-    setErrorMessage(message: string) {
-        this.errorMessageSubject.next(message);
-        console.log(this.errorMessageSubject.getValue());
-    }
+  setErrorMessage(message: string) {
+    this.errorMessageSubject.next(message);
+    console.log(this.errorMessageSubject.getValue());
+  }
 
-    clearSuccessMessage() {
-        this.successMessageSubject.next(null);
-    }
+  clearSuccessMessage() {
+    this.successMessageSubject.next(null);
+  }
 
-    clearErrorMessage() {
-        this.errorMessageSubject.next(null);
-    }
+  clearErrorMessage() {
+    this.errorMessageSubject.next(null);
+  }
 
-    clearAllMessages() {
-        this.clearSuccessMessage();
-        this.clearErrorMessage();
-    }
+  clearAllMessages() {
+    this.clearSuccessMessage();
+    this.clearErrorMessage();
+  }
 }
 ```
 
@@ -111,7 +118,18 @@ export class NotificationComponent implements OnInit {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
@@ -162,7 +180,7 @@ export class SurrenderPetComponent {
           next:(data)=>{
          console.log(data);
         }
-         
+
         }
        )
       }
@@ -210,8 +228,18 @@ Notification Component html template:
 
 The PetsAdopteService where I called the setMessages functions!
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { HttpClient } from '@angular/common/http';
@@ -250,11 +278,22 @@ sendPetSurrender_Request(payload:SurrenderPet):Observable<SurrenderPet>{
 해결 방법  
 알겠어요. 마침내 해결책을 찾았어요. 이 이상한 동작은 standalone components의 providers 배열에 서비스를 추가했기 때문에 발생했던 겁니다. 이미 루트 레벨에서 제공되었었어요. 제가 그것들을 제거한 후에 로직이 정상 작동했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 문구를 친근하게 번역해 드리겠습니다.
 
 답변 - 베를린 존스(M)  
-답변 확인 - 세나이다 (수정자원 봉사자)  
+답변 확인 - 세나이다 (수정자원 봉사자)
 
 이 답변은 스택 오버플로우에서 가져온 것으로, cc by-sa 2.5, cc by-sa 3.0, cc by-sa 4.0의 라이센스를 따릅니다.

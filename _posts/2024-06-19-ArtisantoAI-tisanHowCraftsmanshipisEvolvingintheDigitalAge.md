@@ -3,17 +3,13 @@ title: "예술가에서 인공지능 예술가로 디지털 시대에서 변화�
 description: ""
 coverImage: "/assets/img/2024-06-19-ArtisantoAI-tisanHowCraftsmanshipisEvolvingintheDigitalAge_0.png"
 date: 2024-06-19 17:22
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-ArtisantoAI-tisanHowCraftsmanshipisEvolvingintheDigitalAge_0.png
 tag: Tech
 originalTitle: "Artisan to AI-tisan: How Craftsmanship is Evolving in the Digital Age"
 link: "https://medium.com/design-bootcamp/artisan-to-ai-tisan-how-craftsmanship-is-evolving-in-the-digital-age-a3288937f489"
 isUpdated: true
 ---
-
-
-
-
 
 인공지능 (AI)과 3D 프린팅은 전통적인 장인 정신에 신선한 변화를 가져오고 있어요. 이러한 새로운 기술들은 속도와 정밀성을 향상시키는 것뿐만 아니라 예술가들이 창의력을 다양한 방법으로 탐험할 수 있는 날개를 달아줘요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## 3D 프린팅: 장인 정신을 더욱 발전시켜요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3D 프린팅이 재능을 무시할 수 없다. 이 기술은 장인들에게 빠르게 프로토타입을 만들고, 디자인을 개선하며, 기존 방법으로는 어려운 복잡한 물건을 생산할 수 있는 능력을 제공합니다. 이 기술은 보석업자와 도자기 예술가들에게 중요한 역할을 합니다. 이제 이들은 자신의 작품에서 지속 가능성을 증진하기 위해 생물 플라스틱이나 재활용된 금속과 같은 새로운 소재를 시도할 수 있습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 # 예술 분야를 넘나드는 혁신
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AI는 주얼리 디자인을 위한 독특한 패턴을 만드는 데 도전받았습니다. 이후 3D 프린팅의 정확성을 통해 현실로 구현됩니다. 이를 통해 생산 기간을 단축하고 맞춤형 디자인을 실현할 수 있게 됩니다.
 
@@ -43,7 +61,18 @@ AI는 주얼리 디자인을 위한 독특한 패턴을 만드는 데 도전받�
 
 ![이미지](/assets/img/2024-06-19-ArtisantoAI-tisanHowCraftsmanshipisEvolvingintheDigitalAge_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 기술과 전통이 깃든 미래
 
@@ -53,7 +82,18 @@ AI는 주얼리 디자인을 위한 독특한 패턴을 만드는 데 도전받�
 
 인공지능과 3D 프린팅이 장인 정신에 미치는 영향은 정말로 변화적입니다. 이들은 제품 생산성을 향상시키면서 장인 정신을 보존하며 예술가의 성격과 손재주의 오래된 가치를 유지합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 중요 사항
 
@@ -65,7 +105,18 @@ AI는 대규모 데이터 세트를 연구하여 새로운 패턴을 제안하�
 
 # 도전과 고려사항
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AI와 3D 프린팅이 장인 정신과 결합하면 많은 가능성이 있지만 극복해야 할 장애물들이 있습니다. 중요한 문제 중 하나는 장인들이 이러한 기술을 잘 활용하기 위해 필요한 기술과 지식을 보유하고 있는지 확인하는 것입니다. 또한, 장인 정신을 실천하는 모든 사람들에게 고품질 3D 프린팅 장소가 얼마나 저렴하고 이용 가능한지 생각해 봐야 합니다. 아마도 가장 중요한 어려움은 전통을 지키는 것과 새로운 방법을 수용하는 것 사이의 균형을 찾는 것입니다.
 
@@ -74,26 +125,37 @@ AI와 3D 프린팅이 장인 정신과 결합하면 많은 가능성이 있지�
 ## AI와 3D 프린팅은 다양한 이점을 제공합니다:
 
 - 향상된 창의성
-AI는 혁신적인 디자인을 더욱 강화시키고, 3D 프린팅은 복잡한 기하학을 가능하게 합니다.
+  AI는 혁신적인 디자인을 더욱 강화시키고, 3D 프린팅은 복잡한 기하학을 가능하게 합니다.
 - 증진된 효율성
-프로토타이핑 및 생산이 빨라져 시장 출시 시간을 줄입니다.
+  프로토타이핑 및 생산이 빨라져 시장 출시 시간을 줄입니다.
 - 폐기물 절감
-AI와 3D 프린팅은 재료 사용을 최적화할 수 있습니다.
+  AI와 3D 프린팅은 재료 사용을 최적화할 수 있습니다.
 - 맞춤화
-맞춤형 제품은 고객의 선호에 맞게 맞춤형으로 제작될 수 있습니다.
+  맞춤형 제품은 고객의 선호에 맞게 맞춤형으로 제작될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 그러나 고려해야 할 단점들이 있습니다:
 
 - 높은 비용
-AI 및 3D 프린팅 기술에 대한 초기 투자가 상당할 수 있습니다.
+  AI 및 3D 프린팅 기술에 대한 초기 투자가 상당할 수 있습니다.
 - 학습 곡선
-기술을 최대한 활용하기 위해 장인들은 새로운 기술을 습득해야 합니다.
+  기술을 최대한 활용하기 위해 장인들은 새로운 기술을 습득해야 합니다.
 - 직업 대체
-기술이 몇몇 전통적인 장인 직업을 대체할 수 있다는 두려움이 있습니다.
+  기술이 몇몇 전통적인 장인 직업을 대체할 수 있다는 두려움이 있습니다.
 - 기술 손실
-기술에 과도하게 의존하는 것은 전통적인 기술의 감소로 이어질 수 있습니다.
+  기술에 과도하게 의존하는 것은 전통적인 기술의 감소로 이어질 수 있습니다.
 
 ![이미지](/assets/img/2024-06-19-ArtisantoAI-tisanHowCraftsmanshipisEvolvingintheDigitalAge_1.png)
 

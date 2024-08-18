@@ -3,16 +3,13 @@ title: "중간여행 매거진이 여러분의 감각을 기쁘게 해줄 수 �
 description: ""
 coverImage: "/assets/img/2024-05-27-CanMidjourneyMagazineDelightYourSenses_0.png"
 date: 2024-05-27 15:23
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-CanMidjourneyMagazineDelightYourSenses_0.png
 tag: Tech
 originalTitle: "Can Midjourney Magazine Delight Your Senses?"
 link: "https://medium.com/generative-ai/can-midjourney-magazine-delight-your-senses-bf0a0b83352"
 isUpdated: true
 ---
-
-
-
 
 ![CanMidjourneyMagazineDelightYourSenses](/assets/img/2024-05-27-CanMidjourneyMagazineDelightYourSenses_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 며칠 전 나의 우편함에 오랜만에 매거진 구독이 도착했어요. 심푸른 눈동자 한 쌍이 신비한 창백한 도자 인형 얼굴 뒤에서 나를 뚫고 들어왔어요. 파란, 노란, 카민 점들이 튀어나온 이 권돌이 얼굴 상단에서 길게 펼쳐진 시선이 풍만하게 그려진 입술로 슬쩍 떨어졌고, 밤의 마스카라로 강조된 아몬드 족자 눈에 어울리는 붉은색 입술이 돋보였어요. 간단한 제목 아래에는 발행일과 비전 선언이 표시된 백색 정보 줄이 있었어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전체 패키지는 손에 잘 들어와요. 프리미엄 뉴스 스탠드 잡지에서 기대할 수 있는 두께와 무게를 갖췄고, 벨벳 에그셸 커버까지 있어 손가락에서 척척 소름이 끼치는 느낌을 줍니다. 다채롭게 꾸며진 페이지를 넘기는 것은 맛있게 신나는 경험이에요. 하지만 이게 얼마나 오래 지속될까요?
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 미드저니 매거진은 색과 모양의 심포니예요. 단순한 출판물 이상의 경험이죠. 앰비셔스한 디지털 부모에게만 이용 가능한 디스코드 앱을 통해 접속할 수 있는 미드저니 매거진은 인공지능 생성 시각적 효과와 매일 라떼 가격을 견줄만한 값을 지닌다는 점에서 의문을 던지죠: 구독 출판물의 미래일까요, 아니면 지나가는 유행일까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 빛나는 이미지 속으로 들어가보면, 철저하고도 기이하게 익숙한 영역에 자신을 발견할 수 있을 겁니다. 사이버네틱 여성들의 강렬한 시선, 판타지 풍경, 켄터키 더비 모자를 쓴 오리들, 워해머와 같은 괴물들까지. 이 잡지는 마치 인간과 기계 사이에 대사를 초대하며, 아야와스카 정신의 본질을 들어내는 것 없이 여러분을 초대하는 것 같아요.
 
@@ -42,7 +61,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-05-27-CanMidjourneyMagazineDelightYourSenses_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 많은 사람들이 전통 매거진이 매력적인 이유는 인간 전문가들 - 작가, 사진작가 및 디자이너들 -이 의미 있는 것을 만들기 위해 애쓰는 노고 때문이라고 주장합니다. 그들은 Midjourney의 AI-주도적인 과정을 영혼을 효율성을 위해 희생하는 단축으로 비난합니다.
 
@@ -52,7 +82,18 @@ AI는 인쇄 산업을 되살릴 수 있는 빠진 재료가 될 수 있습니�
 
 # 완벽의 역섬포터도스
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-27-CanMidjourneyMagazineDelightYourSenses_3.png)
 
@@ -62,7 +103,18 @@ Midjourney Magazine의 한 가지 큰 단점은 심도의 부족입니다. 시�
 
 그래서 Midjourney는 영혼이 없는가? 아마도 그럴지도 모릅니다. 그러나 굉장히 빨리 변화하는 글로벌 미디어 환경의 맥락에서 "영혼"이란 무엇인지에 대해 의문을 제기하게 만듭니다. 우리의 기대를 재정의하며, 아직 작성 중인 규칙들이 쓰인 미발표 영역으로 우리를 이끌어 줍니다. 논란이 될 수 있습니까? 예, 그러나 감각을 들뜨게 하는 맛있는 놀라움이기도 합니다. 그리고 누가 알겠습니까? 혹시 그것이 우리의 인쇄물과의 사랑 관계를 다시 끌어 올릴 필요가 있는 것은 아닌가요? 이것은 옥수수 우유 라떼값을 지불할 가치가 있지 않을까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 아래의 인용구를 즐기지만 구독해서 전윕감을 느껴보세요 ;-).
 
@@ -72,7 +124,18 @@ Midjourney Magazine의 한 가지 큰 단점은 심도의 부족입니다. 시�
 
 ![이미지3](/assets/img/2024-05-27-CanMidjourneyMagazineDelightYourSenses_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![link](/assets/img/2024-05-27-CanMidjourneyMagazineDelightYourSenses_7.png)
 
@@ -82,8 +145,18 @@ Midjourney Magazine의 한 가지 큰 단점은 심도의 부족입니다. 시�
 
 ![link](/assets/img/2024-05-27-CanMidjourneyMagazineDelightYourSenses_10.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image 1](/assets/img/2024-05-27-CanMidjourneyMagazineDelightYourSenses_11.png)
 
@@ -93,11 +166,19 @@ Midjourney Magazine의 한 가지 큰 단점은 심도의 부족입니다. 시�
 
 ![Image 4](/assets/img/2024-05-27-CanMidjourneyMagazineDelightYourSenses_14.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 이야기는 Generative AI에서 발행되었습니다. LinkedIn에서 저희와 연결하여 피드에서 최신 AI 이야기와 인사이트를 받아보세요. 함께 AI의 미래를 함께 만들어봅시다!
 
-
 ![image](/assets/img/2024-05-27-CanMidjourneyMagazineDelightYourSenses_15.png)
-

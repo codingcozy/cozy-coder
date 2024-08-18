@@ -3,17 +3,13 @@ title: "베이지안 추론 인지, 추론, 의사결정을 위한 통합 프레
 description: ""
 coverImage: "/assets/img/2024-07-13-BayesianInferenceAUnifiedFrameworkforPerceptionReasoningandDecision-making_0.png"
 date: 2024-07-13 22:53
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-BayesianInferenceAUnifiedFrameworkforPerceptionReasoningandDecision-making_0.png
 tag: Tech
 originalTitle: "Bayesian Inference: A Unified Framework for Perception, Reasoning, and Decision-making"
 link: "https://medium.com/towards-data-science/bayesian-inference-a-unified-framework-for-perception-reasoning-and-decision-making-bb9c47448f8f"
 isUpdated: true
 ---
-
-
-
-
 
 ![Bayesian Inference](/assets/img/2024-07-13-BayesianInferenceAUnifiedFrameworkforPerceptionReasoningandDecision-making_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 게다가, 베이지안 추론은 예측 모델 구축 및 모델 선택을 위한 강력한 기술이 되었으며, 과학 연구 및 데이터 과학 분야에서 광범위하게 적용되고 있습니다. 딥러닝에서 베이지안 통계 활용 또한 활발히 연구되고 있는 주요 분야 중 하나입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사에서는 먼저 베이즈 이론의 기본을 살펴보고 베이지안 추론과 통계에서의 응용을 살펴볼 것입니다. 다음으로, 베이지안 프레임워크가 지각, 인간 인식 및 의사 결정에 대한 우리의 이해를 통합하는 방법을 탐구할 것입니다. 마지막으로, 베이지안 인텔리전스의 현재 상태와 과제, 그리고 인간과 인공 지능 사이의 상호 작용에 대한 통찰을 얻게 될 것입니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ![Bayesian Inference Formula](/assets/img/2024-07-13-BayesianInferenceAUnifiedFrameworkforPerceptionReasoningandDecision-making_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 식은 영어로 다시 쓸 때 다음과 같습니다:
 
@@ -45,7 +63,18 @@ isUpdated: true
 - 우도(Likelihood): 가설이 주어졌을 때 데이터의 확률, p(데이터 | 가설). 일반적으로, 우도는 가설이 데이터와 얼마나 일치하는지를 표현합니다.
 - 사전 확률(Prior probability): 가설의 사전 확률, p(가설). 이는 데이터가 관측되기 전 가설에 대한 믿음의 정도를 반영합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이론의 핵심 부분은 이전 믿음이 새 데이터로부터 도출된 현재 믿음에 영향을 미친다는 것입니다. 최종 결과는 사전 확률과 데이터의 우도로부터 계산된 사후 확률입니다.
 
@@ -55,7 +84,18 @@ isUpdated: true
 
 ![Bayes' theorem](/assets/img/2024-07-13-BayesianInferenceAUnifiedFrameworkforPerceptionReasoningandDecision-making_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 방정식은 p(양성 반응)이 참 양성과 거짓 양성을 모두 포함하기 때문에 다음과 같이 확장됩니다:
 
@@ -63,19 +103,41 @@ isUpdated: true
 
 여기서:
 
-p(참 양성) = p(암) * 참 양성율
+p(참 양성) = p(암) \* 참 양성율
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-p(거짓 양성) = p(암이 아님) * 거짓 양성 비율
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+p(거짓 양성) = p(암이 아님) \* 거짓 양성 비율
 
 이제 숫자를 대입해 봅시다:
 
 ![Bayesian Inference](/assets/img/2024-07-13-BayesianInferenceAUnifiedFrameworkforPerceptionReasoningandDecision-making_5.png)
 
-결과는 여성이 암에 걸릴 가능성이 9%에 불과하다는 것을 보여줍니다. 실제로 테스트는 90%의 민감도를 가지고 있지만, 결과는 대부분의 사람들과 의사들을 비롯한 많은 사람들에게 직관에 반하는 것입니다. 주요 원인은 전체 여성 인구를 기준으로 암 발병률의 1%인 p(암)입니다. 90%의 가능성은 1%의 발병률 위에 적용되어야 합니다. 게다가, 암이 아닌 사람이 99%이므로, 9%의 거짓 양성 비율은 상당히 높습니다(0.99 * 0.09), 이로 인해 등분의 분모가 분자에 비해 상대적으로 높아집니다. 가정적으로, 암 발병률이 10%인 경우 결과는 크게 달라질 것입니다(53%로). 우리는 선험이 후속 확률에 어떻게 영향을 미치는지 볼 수 있습니다.
+결과는 여성이 암에 걸릴 가능성이 9%에 불과하다는 것을 보여줍니다. 실제로 테스트는 90%의 민감도를 가지고 있지만, 결과는 대부분의 사람들과 의사들을 비롯한 많은 사람들에게 직관에 반하는 것입니다. 주요 원인은 전체 여성 인구를 기준으로 암 발병률의 1%인 p(암)입니다. 90%의 가능성은 1%의 발병률 위에 적용되어야 합니다. 게다가, 암이 아닌 사람이 99%이므로, 9%의 거짓 양성 비율은 상당히 높습니다(0.99 \* 0.09), 이로 인해 등분의 분모가 분자에 비해 상대적으로 높아집니다. 가정적으로, 암 발병률이 10%인 경우 결과는 크게 달라질 것입니다(53%로). 우리는 선험이 후속 확률에 어떻게 영향을 미치는지 볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 가지 더 알아보겠습니다. COVID-19 감염을 검출하는 검사는 감염자가 바이러스를 정확히 감지할 수 있는 100%의 실제 양성율과 바이러스가 없는 사람을 99.9% 정확도로 식별할 수 있는 정확도를 가지고 있습니다(즉, 0.1%의 거짓 양성률을 가짐). 대유행의 정도에 따른 바이러스의 유행률을 2%로 전제하면, 양성을 받은 사람이 COVID-19 바이러스를 가질 확률은 얼마일까요? 동일한 공식을 사용하여 숫자를 대입하면 다음과 같습니다:
 
@@ -85,7 +147,18 @@ p(거짓 양성) = p(암이 아님) * 거짓 양성 비율
 
 사후 확률이 95%라는 것은 양성인 경우 해당 사람이 가장 그 바이러스를 가지고 있을 가능성이 높다는 뜻입니다. 만약 대유행 이후에 유행률이 0.2%로 훨씬 낮아진다면, 사후율은 67%가 되어 양성 결과가 나와도 해당 사람이 바이러스를 가지고 있지 않을 가능성이 약 1/3 정도 있다는 뜻입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 넓게 말하자면, 베이즈의 정리는 확률을 사용하여 믿음이나 가설을 측정합니다. 확률은 우리의 지식 상태를 특성화하며, 어떤 명제에도 적용하여 우리가 그것을 얼마나 강하게 믿는지를 양적으로 나타낼 수 있습니다. 더 나아가, 이는 사전 지식을 포함하고 관측된 데이터를 기반으로 업데이트하여 사후 확률을 생성합니다.
 
@@ -95,7 +168,18 @@ p(거짓 양성) = p(암이 아님) * 거짓 양성 비율
 
 여기서 p(매개변수)는 매개변수 값에 대한 사전 추정을 나타내며, p(매개변수 | 데이터)는 새로운 관측된 데이터가 주어졌을 때 매개변수 확률을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다수의 경쟁 모델이 존재하는 상황에서 베이지안 통계는 매개변수를 추정하는 데 그치지 않고 최적 모델을 선택하는 데도 중요한 역할을 합니다. 매개변수의 수와 모델의 복잡성이 상승함에 따라 사전분포와 가능도의 공식화에서 후방분포를 계산하는 것은 확률 적분을 다룰 때 특히 수학적 도전을 제기할 수 있습니다. 확률분포에서 샘플링을 포함하는 마르코프 연쇄 몬테카를로(MCMC)와 같은 새로운 기술이 이러한 도전에 대처하기 위해 개발되었습니다.
 
@@ -105,7 +189,18 @@ p(거짓 양성) = p(암이 아님) * 거짓 양성 비율
 
 우리의 감각기관은 주변 세계에서 물리적 신호를 등록하고 이를 전기 자극으로 변환하지만, 이러한 자극은 우리 두뇌가 해석하기 위한 신경 모스 부호가 됩니다. 이러한 감각 신호는 일반적으로 여러 가능한 해석을 허용합니다. 게다가 제공된 정보는 품질이 낮을 수 있으며, 예를 들어, 관심 대상이 충분히 밝지 않거나 멀리서 흐릴 수 있거나 빠르게 움직일 수 있습니다. 심지어 고품질 감각 정보라도 단일 해석을 보장하지 않으며, 예를 들어, 2차원 망막 이미지는 무한히 많은 3차원 물체와 호환됩니다. 이러한 모든 어려움을 고려할 때, 우리 두뇌는 어떻게 순식간에 물체를 쉽게 알아낼까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한, 역사적으로 세계를 얼마나 객관적으로 볼 수 있는지와 우리의 지각이 얼마나 자체의 착시에서 비롯되었는지에 대한 긴 논쟁이 있었습니다. 철학자 르네 데카르트는 유명한 발언인 "나는 생각한다, 고로 나는 존재한다"를 했었는데, 이는 우리의 뇌가 보고 있는 것을 기억을 토대로 해 도출하고 때로는 외부 세계가 우리의 기대와 다르게 제시될 때 헷갈릴 수 있다는 많은 심리학적 증거가 있기 때문에 완전히 틀린 것은 아닙니다.
 
@@ -115,7 +210,18 @@ p(거짓 양성) = p(암이 아님) * 거짓 양성 비율
 
 예를 들어 창가에 꽃이 있는 연회. 햇빛이 아름다운 꽃잎에 반사돼 눈에 닿습니다. 눈은 690 나노미터의 파장을 코딩하는 신호를 뇌로 보냅니다. 이제 꽃의 색을 찾는 일은 뇌에게 주어진 작업입니다. 두 가지 가설이 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 꽃은 주황색이며 흰 빛에 빛나고 있습니다.
 - 꽃은 흰색이며 주황 빛으로 비춰지고 있습니다.
@@ -126,7 +232,18 @@ p(거짓 양성) = p(암이 아님) * 거짓 양성 비율
 
 베이지안 추론은 시간적 또는 공간적 제약이 있는 지각에서 특히 중요합니다. 어두운 방으로 들어갈 때, 눈이 어둔 빛에 적응하기 전에는 내지식을 의존하고 다른 감각(예: 소리와 촉감)을 사용하여 정보를 수집하려고 합니다. 이 과정에서 자신감이 부족하여 천천히 움직입니다만 여전히 의자에 부딪힙니다. 눈이 빛에 적응하면 방안의 장애물 주변을 신속하게 움직일 수 있습니다. 동시에 내부지도는 넘어져 있는 의자로 업데이트됩니다. 몇 초 내에 뇌는 여러 감각 채널로부터 정보를 획득하고 이전 지식을 기반으로 무의식적 추론을 만들어내어 행동을 안내합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 베이지안 추론
 
@@ -136,7 +253,18 @@ p(거짓 양성) = p(암이 아님) * 거짓 양성 비율
 
 변화무쌍하고 복잡한 세계에서 우리는 한 번에 모든 관련 정보를 거의 얻지 못합니다. 언론은 종종 충분한 맥락 없이 부분 정보를 제공하여 특정 사건에 초점을 맞춥니다. 베이지안 이론은 확고한 결론을 도출하기 전에 사전 신념과 현재 가능성을 고려하도록 만듭니다. 이러한 사고과정이 단순히 손에 있는 사실을 믿거나 (또는 믿지 않는다는 것) 보다 합리적임이 입증되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다니엘 카네먼의 "생각, 빠르고 느리게"에서 가장 유명한 리인다 질문을 약간 변형해서 한 번 살펴보겠습니다:
 
@@ -147,7 +275,18 @@ p(거짓 양성) = p(암이 아님) * 거짓 양성 비율
 
 심리학자 아모스 투버스키와 다니엘 카네먼은 참가자들 중 80% 이상이 여성주의 선입견에 부합하기 때문에 순서 2를 선택하게 된다는 사실을 발견했습니다. 그러나 베이지안 사고는 올바른 답을 선택하도록 돕습니다. 리인다에 대한 진술은 두 번째 답변의 가능성이 첫 번째보다 더 높다는 증거를 제공합니다. 우리가 두 번째 답변(리인다는 아마 여성주의 은행 직원일 것이다)의 가능성을 60%로 추정하고 첫 번째 답변(리인다는 은행 직원만이다)의 가능성을 40%로 가정해 봅시다. 반면, 이 문제에 대해 고민하기 전에 은행 직원일 가능성이 여성주의 은행 직원일 가능성보다 훨씬 높다고 가정할 수 있습니다. 선입견과 가능성의 곱으로, 리인다가 은행 직원일 확률은 여성주의 은행 직원보다 훨씬 더 높아질 것입니다. 이를 통해 올바른 답변으로 1번을 선택하게 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예는 베이지안 추론의 과정을 보여줍니다. 현재 제시된 증거로만 결론을 내리지 말고 이전 지식을 고려해야 한다는 점을 강조합니다. 베이지안으로서 생각한다면 이전 정보를 무시하는 일이 어디에서나 발생합니다. 제 친구 중 한 명은 전 세계를 혼자 여행한 후 YouTube 동영상을 보고 앞으로 혼자 여행을 피하고 집에 머물기를 선호합니다. 또 다른 친구는 가족이 함께 비행기로 여행하는 것을 금지시키는데, 한 번에 여러 가족 구성원을 잃을까 두려워하기 때문입니다. 제 어머니는 혈액검사 중 하나가 정상 범위를 약간 벗어날 때마다 특정 질병의 결과에 대해 패닉에 빠집니다. 이러한 예들은 이전 지식을 무시하지만 반응은 특정 사실에 노출된 것만을 기반으로 합니다.
 
@@ -157,7 +296,18 @@ p(거짓 양성) = p(암이 아님) * 거짓 양성 비율
 
 ![Bayesian Inference](/assets/img/2024-07-13-BayesianInferenceAUnifiedFrameworkforPerceptionReasoningandDecision-making_9.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 의사 결정을 위한 베이지안 사후 확률
 
@@ -167,8 +317,18 @@ p(거짓 양성) = p(암이 아님) * 거짓 양성 비율
 
 의사 결정의 근본적인 부분은 미래의 불확실성을 다루는 것입니다. 베이지안 추론의 사후 확률은 불확실성과 따라서 가설의 신뢰 수준을 반영합니다. 위에서 논의한대로 이러한 불확실성은 환경을 지각할 때 우리 두뇌에서 무의식적으로 발생합니다. 반면에 전통적인 인공 신경망(ANNs)은 신뢰의 내장된 측정 장치가 없습니다. 일반적으로 사전 지식 없이 대규모 데이터셋으로 훈련된 이 모델들은 데이터에 가장 적합한 매개변수 집합을 선택합니다. 결과적으로 예측을 할 때 이 모델은 예측과 관련된 신뢰 수준을 제시할 수 없습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상기 내용을 고려할 때, 베이지안 추론과 딥 러닝을 결합하는 것이 이상적입니다. 이는 신경망의 각 연결 가중치에 여러 값을 할당하고 베이지안 추론을 통해 추정된 확률을 사용하는 것을 의미합니다. 또한 사전 지식을 통합함으로써 전체 학습 효율성을 향상시킬 수 있으며, 상품 개발에 필요한 엄청난 양의 학습 데이터에 대한 의존도를 줄일 수 있습니다. 그러나 매개변수의 고차원성과 사후 분포 계산의 계산적으로 요구되는 성격이 딥 뉴럴 네트워크에서 베이지안 추론을 구현하는 데 주요 장애물이 되었습니다.
 
@@ -178,6 +338,17 @@ p(거짓 양성) = p(암이 아님) * 거짓 양성 비율
 
 베이즈의 정리는 합리적인 인간 추론의 프레임워크로 널리 받아들여져 왔습니다. 그 힘은 이전 지식을 업데이트하는 방법을 설명하고, 수집된 데이터가 가설을 얼마나 지지하는지에 대한 분명함, 불확실성에 대한 확률적 기반이자 인간 인지 프로세스와의 일관성에서 나옵니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최근 몇십 년 동안 베이지안 전문가들은 특정 문제를 해결하기 위한 모델을 설계하고 구현하는데 필요한 지식, 기술 및 도구를 쌓아 왔습니다. 베이지안 통계를 심층 학습에 적용하는 데 적극적인 관심이 있었지만, 후방 확률 분포와 차원이 증가하는 복잡한 모델에 대한 계산적 도전이 주요 장애물이었습니다. 이는 인간과 인공 지능 간에 상호 영감이 서로 유익할 수 있는 분야입니다. 알고리즘과 기술은 계속 발전할 것이지만, 우리는 다양한 분야에 걸쳐 베이지안 지능의 더 많은 발전을 기대하며 인간의 의사 결정을 이해하고 강화하는 데 기여할 것입니다.

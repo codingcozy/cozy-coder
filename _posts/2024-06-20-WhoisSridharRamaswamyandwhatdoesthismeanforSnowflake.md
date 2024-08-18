@@ -3,17 +3,13 @@ title: "Sridhar Ramaswamy가 누구이며, 이것이 Snowflake에 미치는 의�
 description: ""
 coverImage: "/assets/img/2024-06-20-WhoisSridharRamaswamyandwhatdoesthismeanforSnowflake_0.png"
 date: 2024-06-20 15:34
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-WhoisSridharRamaswamyandwhatdoesthismeanforSnowflake_0.png
 tag: Tech
 originalTitle: "Who is Sridhar Ramaswamy and what does this mean for Snowflake?"
 link: "https://medium.com/@hugolu87/who-is-sridhar-ramaswamy-and-what-does-this-mean-for-snowflake-33d52785198f"
 isUpdated: true
 ---
-
-
-
-
 
 ## 서문
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 스리다르 라마스와미는 매력적인 인물이고, 나가는 CEO인 프랭크 슬룻먼과 완전히 다릅니다. CEO의 역할 외에도, 그들이 가진 공통점은 가치 창출 머신이라는 점이에요. 우리는 상당히 심각한 추세와 매우 심각한 사람들과 마주하고 있어요. 이 글은 가벼운 마음으로 쓰인 것이 아니에요. 그러나 데이터 산업이 빠르게 변화하는 시대에, 누가 진군을 이끌고 있는지 이해하는 것이 공평하다고 생각해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 소개
 
@@ -33,7 +40,18 @@ Sridhar Ramaswamy는 상대적으로 데이터 분야에 새로 온 신입사원
 
 Snowflake에 대한 이러한 변화가 의미하는 것을 이해하기 위해선, Snowflake의 놀라운 여정을 살펴보는 것이 필요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 데이터 창고 트렌드의 등장
 
@@ -43,7 +61,18 @@ Snowflake에 대한 이러한 변화가 의미하는 것을 이해하기 위해�
 
 이것이 첫 번째 중요한 트렌드로 이어집니다 — 클라우드 서비스의 증가 및 '일상적인 비즈니스' 애플리케이션이 클라우드(크기가 큰 "C")에서 존재하게 되는 전환입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한, 현재 “데이터 레이크”로 알려진 것이나 S3와 같은 오브젝트 스토어는 이미 존재했지만, 데이터 저장소로 사용하기에는 기능이 제한되어 있었습니다. 또는, 그렇게 생각했지요. Snowflake의 최초 버전은 S3 위에 구축되었지만, 현재는 다른 클라우드 제공 업체에서 호스팅할 수 있으며 따라서 오브젝트 스토어를 지원합니다. 클라우드 버전의 Oracle을 위한 원천 자재는 이미 존재했습니다. 우리가 놓친 것은 기술과 노력이었습니다.
 
@@ -53,7 +82,18 @@ Snowflake에 대한 이러한 변화가 의미하는 것을 이해하기 위해�
 
 2014년 6월, Snowflake은 CEO로 Bob Muglia를 영입했습니다. Bob의 배경은 당시 마이크로소프트의 부사장이었으며 20년 이상 근무한 경험이 있었습니다. Snowflake에 합류하기 전에 Muglia는 스티브 발머에 직접 보고하는 네 명 중 한 명이었으며 "서버 및 도구" 부문을 담당했습니다. 그는 결국 현재 Microsoft의 CEO 인 Satya Nadella에 의해 대체되었으며 Muglia의 작업을 기반으로 Microsoft Azure를 본질적으로 구축했습니다. 위키피디아에서:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Bob의 임무 기간 동안 데이터 웨어하우징 분야에서 엄청난 기술 혁신이 일어났어요. 예전에는 대규모 기업 데이터 웨어하우스를 지원하기 위해 존재했던 기술이 이제는 더 작은 응용 프로그램으로도 도입되었어요.
 
@@ -63,7 +103,18 @@ Bob의 임무 기간 동안 데이터 웨어하우징 분야에서 엄청난 기
 
 동시에, 데이터브릭스는 우연히도 같은 방향으로 나아갔어요. 이 회사는 처음에는 클라우드에서 효율적으로 Spark를 실행할 수 있는 장소를 제공하기 위해 설립되었지만, .delta(그들의 "오픈" 테이블 형식)을 통해 스노우플레이크에 이어 클라우드 데이터 웨어하우징 대안으로 성장하였어요. 데이터브릭스의 진화에 대해서는 다른 별도의 작품으로 충분히 써볼만한 매력적인 이야기라 해도 과언이 아닐 거예요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2018년까지 Snowflake는 IPO를 준비 중이었습니다. [ ]와 같은 투자자들과 데이터 회사 기준에선 거대한 설치 베이스로, 완벽한 스톰이 몰고 있었습니다.
 
@@ -73,7 +124,18 @@ Bob의 임무 기간 동안 데이터 웨어하우징 분야에서 엄청난 기
 
 Slootman의 첫 번째 경영직은 1995년 Compuware에서 이루어졌습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프랭크는 2007년 Data Domain의 성공적인 IPO 이후 기업 세계에서 가치 창출자로서의 명성을 이미 확립했지만, 실제로 ServiceNow 이후 전설적인 존재로 변모했습니다. ServiceNow IPO는 블록버스터이자 성공이었으며, Google에 따르면 지난 5년간 220% 상승했습니다.
 
@@ -81,8 +143,18 @@ Slootman의 첫 번째 경영직은 1995년 Compuware에서 이루어졌습니�
 
 Snowflake IPO는 미친 짓이었습니다. 주식은 240USD 정도에 상장되었고, 몇 주 만에 400USD까지 상승하여 시가총액이 1000억 달러 이상이 되었습니다 (기억해두어야 할 것은 Databricks의 마지막 비공개 가치가 500억 달러 정도였다는 것입니다).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-20-WhoisSridharRamaswamyandwhatdoesthismeanforSnowflake_1.png)
 
@@ -92,8 +164,18 @@ Snowflake IPO는 미친 짓이었습니다. 주식은 240USD 정도에 상장되
 
 여러 면에서, 이것이 슬룻만이 고용된 이유였습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 러시아가 우크라이나를 침공하자, 그들의 주가는 급격히 하락하여 몇 달 동안 거의 60%의 가치를 잃었습니다. 다가오는 해에는 AI를 둘러싼 경쟁이 가열될 것이며, Frank은 은퇴할 예정입니다. 이어서 우리는 Sridhar Ramaswamy에 대해 이야기할 것입니다.
 
@@ -103,7 +185,18 @@ Snowflake IPO는 미친 짓이었습니다. 주식은 240USD 정도에 상장되
 
 ![이미지](/assets/img/2024-06-20-WhoisSridharRamaswamyandwhatdoesthismeanforSnowflake_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 획득 배경은 LLM-Powered Search를 통해 스노우플레이크 사용자가 영어만 사용하여 데이터베이스의 데이터를 더 쉽게 쿼리할 수 있다는 것이었습니다. 정말 멋지죠, 하지만 정말 혁명적인 변화는 아니었습니다.
 
@@ -113,7 +206,18 @@ Snowflake IPO는 미친 짓이었습니다. 주식은 240USD 정도에 상장되
 
 # 스리다르 라마스외미가 스노우플레이크에게 뜻하는 바
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Snowflake은 2024년 2월 Sridhar가 책임을 맡은 후 몇 달 동안 매우 대담한 몇 가지 움직임을 해 왔습니다.
 
@@ -123,7 +227,18 @@ Snowflake은 2024년 2월 Sridhar가 책임을 맡은 후 몇 달 동안 매우 
 
 "데이터 플레인"은 Orchestra에서 데이터와 직접 상호작용하는 응용 프로그램 계층으로 지칭하는 영역입니다. 예를 들어, 데이터를 이동하거나 정리하는 응용 프로그램입니다. Snowflake에는 이미 모든 데이터가 포함되어 있기 때문에 많은 기능을 그 안에 구축하는 것이 합리적입니다. 예를 들어,
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Snowflake Cortex를 사용한 이상 탐지
 - ACCESS_HISTORY 뷰를 사용한 완전한 엔드 투 엔드 선조 트래킹
@@ -136,7 +251,18 @@ Snowflake은 2024년 2월 Sridhar가 책임을 맡은 후 몇 달 동안 매우 
 
 ## AI 생성과 민주화
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스노플레이크는 Snowpark 컨테이너 서비스를 제공하고 Snowflake Cortex를 통해 거의 모든 LLM에 액세스할 수 있습니다. 이를 통해 데이터 전문가들은 Snowflake에 있는 데이터를 활용하여 LLM을 구동하는 애플리케이션을 쉽게 배포할 수 있게 됩니다.
 
@@ -146,7 +272,18 @@ Snowflake은 2024년 2월 Sridhar가 책임을 맡은 후 몇 달 동안 매우 
 
 예를 들어, 기본 분석에 대한 "좋은"것이란 작동하는 데이터 파이프라인과 대시보드일 수 있습니다. 그러나 더 성숙한 기업에 대한 좋은 사용 사례는 실시간 스트리밍 데이터 파이프라인을 통해 실시간으로 학습하고 예측을 제공하는 기계 학습 모델을 용이하게 하는 것일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스노우플레이크를 처음 사용하는 경우에 사용할 수 있는 곳은 미묘한 차이가 있을 수 있습니다. 사실 두 번째로 사용할 때는 사용하지 않을 수도 있어요. 실제로 제가 알기로는 그렇게 사용하는 사람이 많지 않아요. 코텍스에서 모든 모델을 제공할 수 있는 것은 그냥 "스노우플레이크를 사용하면 된다"는 말로 이어지지 않는다는 걸 명심해주세요. 하지만 AI 관련 작업 중에 어떤 일이 벌어지고 있는지에 대해서는 스노우플레이크를 통해 이 컴퓨팅을 수행할 것이라고 확신할 수 있어요.
 
@@ -156,7 +293,18 @@ Snowflake은 2024년 2월 Sridhar가 책임을 맡은 후 몇 달 동안 매우 
 
 데이터가 스노우플레이크에 들어간 다음에는 데이터를 효과적으로 사용할 수 있다는 약속에 비해, 데이터의 진입 및 이탈 비용은 전 세계의 데이터 아키텍트들, 제 자신을 포함해 괴롭히고 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 물론, 스노우플레이크는 저장소와 컴퓨팅을 분리하여 이를 기능으로 성공적으로 홍보했지만, 이 개념 자체는 새로운 것이 아닙니다.
 
@@ -166,7 +314,18 @@ Snowflake은 2024년 2월 Sridhar가 책임을 맡은 후 몇 달 동안 매우 
 
 ## 계속되는 사용자 경험에 대한 집중력
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Snowflake가 Snowflake 대 Databricks 논쟁에서 중요한 이유 중 하나는 그들의 사용자 인터페이스와 사용자 경험이 최고라는 것입니다.
 
@@ -176,7 +335,18 @@ Snowflake가 Snowflake 대 Databricks 논쟁에서 중요한 이유 중 하나�
 
 비전문가들도 이제까지 본 적이 없는 수준으로 데이터 플랫폼에 찾아올 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이는 접근성이 높고 사용하기 쉬운 UI가 이제 언제보다 더 중요해질 것을 의미합니다. 따라서, 우리는 Snowflake가 UI와 Anomaly Detection과 같은 시스템에 계속 투자할 것으로 예상됩니다. 이러한 시스템은 높은 복잡성을 단 한 줄의 코드로 추상화하여 누구나 이해할 수 있게 해줍니다.
 
@@ -186,7 +356,18 @@ Snowflake가 Snowflake 대 Databricks 논쟁에서 중요한 이유 중 하나�
 
 Snowflake는 초기 몇 년 동안 AWS에서 운영되었으며 Redshift의 인기를 크게 앞서갔습니다. 잘 알려진 사실은 Amazon 세일즈 대표들이 Redshift 대신 Snowflake를 홍보하는 것을 선호했다는 것입니다. 물론, Snowflake를 통한 간접적인 사용에 대한 이익이 Redshift보다 낮았지만, Sales 및 Marketing에 Snowflake가 지출한 비용으로 인해 거대한 양의 거래가 이루어졌습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결과적으로 Redshift의 기능을 받아들여 기존의 인프라 레이어 이상으로 발전했습니다. 카탈로그, 계보, 알림 및 데이터 품질과 같은 기능은 데이터 창고에 항상 포함되어야 했고, 벤처 투자가 2021년 대비 줄어들고 있는 상황에서 Snowflake는 데이터 영역의 다양한 스타트업을 겨냥하고 있습니다.
 
@@ -196,7 +377,18 @@ Snowflake는 초기 몇 년 동안 AWS에서 운영되었으며 Redshift의 인�
 
 이러한 기능 세트를 확장하는 것이 Snowflake의 앞으로 몇 년 동안 가장 큰 우선 순위입니다. 이 점에는 매우 직관적인 장점이 있습니다. 데이터를 이동시킨 후 정제하고 제공하며 탐색한 다음, 만족할 때까지 — 그것을 기반으로 머신 러닝과 인공 지능을 활용하기 시작하면 됩니다. 이것에는 매력이 있습니다. 데이터 전문가로서의 우리 여정 중 많은 부분과 유사합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 방식의 단점은 공통 분모에 맞춰진다는 것입니다. 데이브릭스는 실시간 머신러닝을 위해 낮은 지연 시간으로 대용량 데이터를 다루던 사람들로부터 시작되었습니다. 여기에는 a fortiori 요소가 있는데, 현대적인 형태로 표현하면 "만약 당신이 렌치를 잡을 수 있다면, 당신은 닷지볼도 잡을 수 있다"라는 문구가 있습니다.
 

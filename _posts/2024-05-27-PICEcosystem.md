@@ -3,16 +3,13 @@ title: "PIC 생태계"
 description: ""
 coverImage: "/assets/img/2024-05-27-PICEcosystem_0.png"
 date: 2024-05-27 13:11
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-PICEcosystem_0.png
 tag: Tech
 originalTitle: "PIC Ecosystem"
 link: "https://medium.com/@lfoster.se.be/pic-ecosystem-f8268a6c3d72"
 isUpdated: true
 ---
-
-
-
 
 # PIC16LF18324 코딩을 시작하는 방법
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 만약 여전히 관심이 있다면, 개발 보드를 넘어서거나 다른 사전에 납땜된 방법을 넘어서고 싶다면, 계속해서 읽어보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 왜 PIC를 선택해야 하는가?
 
@@ -38,7 +46,18 @@ PIC의 흥미로운 측면 중 하나는 그 가족 중 특별한 저전력 칩�
 - 아날로그/디지털 변환기 및 디지털/아날로그 변환기
 - 물론: 핀을 읽거나 핀에 디지털 값을 쓸 수 있는 능력(1은 LED 켜기; 0은 LED 끄기)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 18324에서 특히 좋은 기능 중 하나는 PPS입니다. 이 "주변 핀 선택" 기능을 사용하면 대부분의 핀을 어떤 주변 장치에도 사용할 수 있습니다. 다양한 마이크로컨트롤러의 핀 배치도를 보신 적이 있을 수도 있습니다. 18324는 핀에 대한 일부 기본 설정이 있을 수 있지만, 상당한 유연성으로 라우팅할 수 있습니다. 이에는 일부 제한 사항이 있을 수 있지만(클럭 속도 등을 기반으로 한 PPS 매핑이 불가능한 특정 핀 등), 예를 들어 EUSART TX 핀을 RC4로 라우팅할 수 있습니다.
 
@@ -48,7 +67,18 @@ PIC의 흥미로운 측면 중 하나는 그 가족 중 특별한 저전력 칩�
 
 # 사전 준비 조건
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 이 글을 그냥 흥미로이 읽고 싶다면 맘껏 읽어보세요. 하지만 이 글과 함께 코딩하길 원한다면, 다음 사항을 준비해야 하거나 받아야 할 수도 있습니다.
 
@@ -68,7 +98,18 @@ PIC의 흥미로운 측면 중 하나는 그 가족 중 특별한 저전력 칩�
 
 이들은 DigiKey 또는 Mouser에서 주문할 수 있습니다. 둘 다 각각 2달러 미만입니다 (2024년 5월에 각각 1.29달러에서 1.56달러로 확인되었습니다). 대량 구매할 경우 할인이 적용되어 가격이 더욱 내려갈 수 있습니다. 필요한 패키징을 획득하기 위해 주의해야 합니다. 이 칩을 브레드보드에 꽂으려면 "PDIP"와 같은 스루홀 패키지가 필요합니다. 이는 "14 PDIP" 또는 "PDIP-14"로 불릴 수 있습니다. 또한 배송 비용을 주의하세요. 이 비용이 여러 칩의 가격보다 비쌀 수 있습니다. 세 개 이상을 그룹으로 구매하면 배송비를 절감할 수도 있습니다. 아마존에서는 (이 지침과 호환되지 않지만 보통 사용하기 쉬운) PIC 보드를 20달러 미만으로 구매할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 가장 큰 비용: 프로그래머
 
@@ -78,7 +119,18 @@ PIC16 패밀리 칩에 노출되기 위해 인-시스템 프로그래밍용 개�
 
 MPLAB PICKit4에는 한쪽 끝에 연결 커넥터 구멍이 있습니다(또는 참조로 사용하는 레이블링에 따라서 '밑면'입니다). 매우 특정한 핀배열을 갖추고 있습니다. 이 구멍을 브레드보드에 연결해야 합니다. Dupont 케이블이나 일반 와이어로도 잘 작동합니다. 이 칩에 대한 다양한 프로젝트를 수행한다면, 더 편리한 것이 필요할 수 있음을 발견할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 PICKit4의 다른 쪽에는 작은 USB 2 커넥터가 있습니다. 이를 PC에 연결할 수 있습니다 (사람들은 포럼 게시물에 따르면 MAC 및 Linux도 사용합니다). 연결하고 나면 IDE에서 프로그램을 할 수 있습니다.
 
@@ -88,7 +140,18 @@ PICKit4의 다른 쪽에는 작은 USB 2 커넥터가 있습니다. 이를 PC에
 
 ![이미지](/assets/img/2024-05-27-PICEcosystem_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래에 전체 지침이 있지만, 대체로 Microchip의 개발자 도움 페이지인 Install MPLAB® X IDE Version 6.00 Walkthrough에서도 확인할 수 있습니다. MPLAB X는 다른 IDE와 유사하게 설치됩니다(실제로, 설치 파일을 기반으로 하면 Apache의 NetBeans IDE를 기반으로 한 것으로 보이며, 마이크로컨트롤러와 함께 사용하기 위해 많은 사용자 정의가 있습니다).
 
@@ -98,7 +161,18 @@ PICKit4의 다른 쪽에는 작은 USB 2 커넥터가 있습니다. 이를 PC에
 
 프로젝트를 만든 후에는 프로퍼티 페이지를 살펴보는 것이 매우 유용합니다. 왼쪽에 설명된 대로, "마우스 클릭"(Windows에서 좌 클릭하거나 기타 OS에서는 일반적으로 OS와 같은 방식으로 메뉴를 띄워주십시오)하고 나서 "Properties" 메뉴 항목을 가장 아래에서 클릭합니다. IDE의 나중/이전 버전은 이것을 다르게 배치할 수 있지만, "Properties"는 매우 가능성이 높은 이름입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-27-PICEcosystem_1.png" />
 
@@ -108,8 +182,18 @@ PICKit4의 다른 쪽에는 작은 USB 2 커넥터가 있습니다. 이를 PC에
 
 왼쪽에 트리 구조를 주목해주세요. 이것은 오른쪽 창의 모드를 변경합니다. "PICKit4" 노드를 클릭하면 아래 모드로 변경됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![PICEcosystem Image 3](/assets/img/2024-05-27-PICEcosystem_3.png)
 
@@ -119,8 +203,18 @@ PICKit4의 다른 쪽에는 작은 USB 2 커넥터가 있습니다. 이를 PC에
 
 "Power target circuit from the PICkit 4"를 선택해야 합니다. 이 설정은 컴퓨터의 USB 드라이브를 통해 PICkit 4와 PIC 칩을 연결한 경우에 사용됩니다. 디버깅 및 플래시 드라이브에 코드를 업로드하는 데 필요합니다. 이 값은 USB 전원을 보드로 공급합니다. 이를 사용하지 않으면 보드 자체의 전원이 사용됩니다. 그림에서와 같이 단순한 브레드보드에 칩을 연결한 경우, PICkit으로부터 전원을 공급하는 것이 올바른 선택입니다. 이 값은 기본적으로 선택되지 않습니다. 아마도 소프트웨어가 모든 하드웨어를 보호하려고 하기 때문일 것입니다. 대상 보드에 백업 전원 공급이 사용 중인 경우 이 설정은 좋은 선택이 아닙니다. 실제로 이 설정을 "Power target circuit from PICkit 4"로 변경하지 말아야 할 때까지 변경하지 않으려다고 말할 정도입니다. 필요한 경우 팝업 메시지가 표시될 때까지 변경하지 마세요. 이 설정이 필요하지만 설정되지 않은 경우 PICkit / IDE 조합은 팝업 오류 대화상자로 경고합니다. 설정을 저장하려면 "확인" 버튼을 클릭해야 합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 구성 비트
 
@@ -130,13 +224,35 @@ PICKit4의 다른 쪽에는 작은 USB 2 커넥터가 있습니다. 이를 PC에
 
 ![PICEcosystem_6](/assets/img/2024-05-27-PICEcosystem_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에서 구성할 수 있는 설정 사항입니다. 이 작은 칩이 실제로 수행할 수 있는 몇 가지 흥미로운 작업의 아이디어를 제공할 수 있습니다 (브라운 아웃 감지, 위에서 언급한 PPS(주변 핀 선택), 그리고 와치독 타이머까지 모두 여기서 암시됩니다). 이 토론과 가장 관련된 것은 아마 위쪽에 있는 "FEXTOSC"/"RSTOSC" 설정 쌍일 것입니다. 이 PIC 칩은 클럭 구동에 있어 유연합니다. 외부 오실레이터를 사용할 수 있지만, 사용 중이 아닌 경우 여기서 비트를 설정하지 않아야 합니다. 이 토론 목적상 FEXTOSC(외부 오실레이터)를 off로 설정하고, RSTOSC(리셋 기본 오실레이터)를 NFINT32(내부 32,000,000 Hz로 읽음) 설정으로 설정하세요. 이것은 1 MHz로도 설정할 수 있습니다. 그러나 외부 설정은 칩을 구동하는 오실레이터를 배선해야 하며, 이 토론의 범위를 벗어납니다. 또한 핀을 사용하고 더 많은 비용이 소요되며 더 많은 하드웨어 조작이 필요합니다.
 
 이 문서의 다른 곳에서 제시된 코드에 관해: 작업 부분 외에도 실제로 운영 부분에 대한 추가 코드가 상단의 “Generate Source Code to Output” 버튼을 클릭하여 생성되었습니다. 이것은 다음과 같은 코드를 생성합니다: 코드 값 시작부)을 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 XC8 컴파일러를 설치할 겁니다. 다운로드할 수 있는 링크는 아래와 같아요: https://www.microchip.com/en-us/tools-resources/develop/mplab-xc-compilers .
 
@@ -146,8 +262,18 @@ XC8 컴파일러를 설치할 겁니다. 다운로드할 수 있는 링크는 �
 
 해당 버튼을 클릭하면 라이선스를 보여주는 큰 페이지로 이어지는데, 이는 이 소프트웨어를 기반으로 한 프로젝트를 배포할 계획이 있다면 중요한 고려 사항이에요. 또한 다운로드 컨트롤이 나와 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![PICEcosystem_8](/assets/img/2024-05-27-PICEcosystem_8.png)
 
@@ -157,9 +283,18 @@ XC8 컴파일러를 설치할 겁니다. 다운로드할 수 있는 링크는 �
 
 ![PICEcosystem_9](/assets/img/2024-05-27-PICEcosystem_9.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![PICEcosystem_10](/assets/img/2024-05-27-PICEcosystem_10.png)
 
@@ -169,9 +304,18 @@ XC8 컴파일러를 설치할 겁니다. 다운로드할 수 있는 링크는 �
 
 ![PICEcosystem_13](/assets/img/2024-05-27-PICEcosystem_13.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-27-PICEcosystem_14.png)
 
@@ -181,8 +325,18 @@ XC8 컴파일러를 설치할 겁니다. 다운로드할 수 있는 링크는 �
 
 MPLAB X IDE는 빌드를 수행하기 위해 "툴 체인" (컴파일러 및 기타 관련 코드를 포함하는 도구)을 사용합니다. "도구/옵션"을 이용하여 관리할 수 있으며, 이어지는 대화 상자에서 임베디드 아이콘을 클릭하세요.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-27-PICEcosystem_16.png)
 
@@ -192,7 +346,18 @@ MPLAB X IDE는 빌드를 수행하기 위해 "툴 체인" (컴파일러 및 기�
 
 이것이 여러분이 처음으로 만드는 PIC16LF18324 프로젝트일 수도 있습니다. 혹시 그보다 더 큰 프로젝트라면 환영합니다! 여기서는 간단한 LED 프로젝트를 만들어 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 "파일 / 새 프로젝트"로 시작합니다.
 
@@ -202,7 +367,18 @@ MPLAB X IDE는 빌드를 수행하기 위해 "툴 체인" (컴파일러 및 기�
 
 ![Wizard Dialog](/assets/img/2024-05-27-PICEcosystem_19.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 Microchip 임베디드 독립 프로젝트를 진행할 것입니다. "샘플" 서브트리가 상당히 유혹적이지만, 우리가 선택한 칩과 관련이 없습니다. 독립 프로젝트는 실제로 다루기 매우 간단합니다.
 
@@ -212,7 +388,18 @@ MPLAB X IDE는 빌드를 수행하기 위해 "툴 체인" (컴파일러 및 기�
 
 ![image](/assets/img/2024-05-27-PICEcosystem_22.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 화면에서는 컴파일러를 선택할 수 있어요. 이 IDE에서는 이에 대한 유연성을 제공합니다.
 
@@ -222,7 +409,18 @@ MPLAB X IDE는 빌드를 수행하기 위해 "툴 체인" (컴파일러 및 기�
 
 ![이미지](/assets/img/2024-05-27-PICEcosystem_24.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "Set as main project"를 선택한 채로 두면 여러 제어에서 이것을 기본 선택으로 지정할 수 있습니다. 아래에서 LED를 깜빡이는 코드가 간단하게 포함될 것입니다.
 
@@ -232,10 +430,20 @@ MPLAB X IDE는 빌드를 수행하기 위해 "툴 체인" (컴파일러 및 기�
 
 지금까지 진행한 내용으로 코드를 추가하는 시작점을 얻었습니다. 이를 위해 IDE의 projects 탭을 사용하여 Projects 창을 표시하고 싶을 것입니다. 아래 이미지에서 소스 파일 트리 노드가 비어 있는 것을 볼 수 있습니다 ('+' 표시가 없는 상태로 확장해도 파일이 없습니다).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 표 형식을 Markdown 포맷으로 바꾸는 방법입니다:
-
 
 <img src="/assets/img/2024-05-27-PICEcosystem_26.png" />
 
@@ -245,20 +453,39 @@ We will remedy that.
 
 Using this control, we can add a “main.c” file. ‘C’ is the language we will use for this program.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-27-PICEcosystem_28.png)
 
 이미지를 삽입한 코드는 아래와 같습니다.
 
-/*
+/\*
 
-* File: blinker.c
+- File: blinker.c
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 작성자: you
 
@@ -268,7 +495,18 @@ Using this control, we can add a “main.c” file. ‘C’ is the language we w
 
 \*/
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```c
 #include `xc.h`
@@ -280,10 +518,20 @@ return;
 '
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 그렇게 많은 것을 하지 않아. 하지만 완전한 프로그램인 건 맞아. 이제 하는 일은 세부 사항을 채우는 거야. 자세히 구성하면 요런 느낌이 될 거야.
-
 
 // PIC16LF18324 Configuration Bit Settings
 
@@ -291,18 +539,36 @@ return;
 
 // CONFIG1
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - FEXTOSC = LP: 외부 오실레이터 모드 선택 비트 (32.768 kHz에 최적화된 LP(크리스탈 오실레이터))
 - RSTOSC = HFINT32: COSC 비트의 전원 업 기본 값 (2x PLL과 함께 HFINTOSC(32MHz)가 기본값)
 - CLKOUTEN = ON: 클록 출력 활성화 비트 (CLKOUT 기능이 활성화되어 OSC2에서 FOSC/4 클록이 나타남)
 - CSWEN = OFF: 클록 전환 활성화 비트 (사용자 소프트웨어로 NOSC 및 NDIV 비트를 변경할 수 없음)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 #pragma config FCMEN = OFF // 실패 안전 클럭 모니터 활성화 (실패 안전 클럭 모니터가 비활성화됨)
 
@@ -312,22 +578,40 @@ return;
 
 #pragma config PWRTE = ON // 파워업 타이머 활성화 비트 (PWRT 활성화됨)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Markdown 형식으로 테이블 태그를 변경해주세요:
 
+| Configuration | Setting |
+| ------------- | ------- |
+| WDTE          | OFF     |
+| LPBOREN       | ON      |
+| BOREN         | OFF     |
+| BORV          | HIGH    |
 
-| Configuration | Setting  |
-|---------------|----------|
-| WDTE          | OFF      |
-| LPBOREN       | ON       |
-| BOREN         | OFF      |
-| BORV          | HIGH     |
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
-
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 #pragma config PPS1WAY = OFF // PPSLOCK bit One-Way Set Enable bit (The PPSLOCK bit can be set and cleared repeatedly (subject to the unlock sequence))
 
@@ -337,9 +621,18 @@ Markdown 형식으로 테이블 태그를 변경해주세요:
 
 // CONFIG3
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 #pragma config WRT = ALL // User NVM self-write protection bits (0000h to 0FFFh write protected, no addresses may be modified)
 
@@ -349,9 +642,18 @@ Markdown 형식으로 테이블 태그를 변경해주세요:
 
 #pragma config CP = ON // User NVM Program Memory Code Protection bit (User NVM code protection enabled)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 #pragma config CPD = ON // 데이터 NVM 메모리 코드 보호 비트 (데이터 NVM 코드 보호 활성화)
 
@@ -361,8 +663,18 @@ Markdown 형식으로 테이블 태그를 변경해주세요:
 
 #include `xc.h`
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```c
 #define _XTAL_FREQ 32000000 // 20MHz 크리스탈 주파수로 정의
@@ -374,7 +686,18 @@ TRISC0 = 0; // RC0 핀을 디지턀 출력 핀으로 설정
 while (1) '
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```c
 RC0 = 1; // RC0 핀을 논리 High로 설정하고 켭니다
@@ -386,11 +709,33 @@ RC0 = 0; // RC0 핀을 논리 Low로 설정하고 끕니다
 __delay_ms(1000); // 1초의 지연을 추가합니다
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 MCU(칩)의 핀이 올바르게 배선되면 이것이 칩에 적재되어 LED가 아래에 연결한 상태로 깜박이게 만들 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드의 시작 부분부터 (대부분을 포함하여) 이전에 언급한 'bit' 설정이 있습니다. 이러한 설정을 제거하면 'C' pragma 설정으로 주로 구성되어 있지만 실제로 다른 동작을 일으킬 수 있습니다. 이 설정은 실제로 자동으로 생성되므로 특별히 이해할 필요는 없습니다.
 
@@ -400,7 +745,18 @@ MCU(칩)의 핀이 올바르게 배선되면 이것이 칩에 적재되어 LED�
 
 # 코드 번쩍이기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제공되는 우수한 도구 세트를 이용하여, 우리는 MCU에 코드를 'burn'하거나 'flash'할 수 있습니다. MCU에 프로그래밍을 하려면, 위에서 언급한 특별한 하드웨어를 통해 해야 합니다. 왜냐하면 MCU는 일반용 컴퓨터와는 달리 매우 독립적이기 때문입니다. 이 간단한 MCU의 연결성은 그 핀에 연결하는 모듈에 달려 있습니다. 인터넷 연결기나 무선 기능은 없지만, 자체 메모리(여러 유형)를 갖고 있으며, 프로그램을 플래시에 넣기 위해서는 (리셋이나 전원 차단 후에도 동일하게 유지될) 칩에 PICkit 4와 같은 장치를 사용하여 프로그램을 넣어주어야 합니다. 이러한 장치는 종종 특별한 전압 수준을 사용합니다. 이를 통해 칩이 실수로 재프로그램되지 않고 정상적으로 실행되도록 할 수 있습니다(그리고 'brick'이나 쓸모없어지는 것을 막을 수 있습니다).
 
@@ -410,7 +766,18 @@ MCU(칩)의 핀이 올바르게 배선되면 이것이 칩에 적재되어 LED�
 
 ![PIC16LF18324 Pinout](/assets/img/2024-05-27-PICEcosystem_29.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 PIC16(L)F183XX 제품 브리프에서 확인할 수 있어요.
 
@@ -420,7 +787,18 @@ PIC16(L)F183XX 제품 브리프에서 확인할 수 있어요.
 
 MPLAB PICkit 4 인-서킷 디버거 사용자 가이드에 이 자세한 내용이 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에는 특별히 중요한 핀이 있습니다. 핀 1은 MCLR 핀으로 "액티브 로우"입니다. 이 핀은 칩의 일부이기 때문에 정상 작동 시에는 이 핀을 "풀드 하이"로 유지해야 합니다. 우리는 PIC 칩의 해당 핀에서 브레드보드의 전원 레일로 이어지는 상당히 큰(5.1kΩ) 저항을 사용하여 이를 수행할 것입니다. 왼쪽에 있는 핀들의 중간에 있는 이 핀으로부터 실행되는 와이어는 위와 같이 정렬된 칩의 왼쪽 측 핀 중간에 있습니다. 그렇지 않으면, 프로그래머의 핀 1로 동일하게 연결해야 합니다. 그렇지 않으면, 다섯 개의 핀을 연결해야 합니다.
 
@@ -430,8 +808,18 @@ MPLAB PICkit 4 인-서킷 디버거 사용자 가이드에 이 자세한 내용�
 
 ![PICEcosystem_31.png](/assets/img/2024-05-27-PICEcosystem_31.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-05-27-PICEcosystem_32](/assets/img/2024-05-27-PICEcosystem_32.png)
 
@@ -441,8 +829,18 @@ MPLAB PICkit 4 인-서킷 디버거 사용자 가이드에 이 자세한 내용�
 
 PICkit 쪽에서, 노란 와이어는 핀 1에, 빨간 와이어는 핀 2에, 검정 와이어는 핀 3에, 파란 와이어는 핀 4에, 하얀 와이어는 핀 5에 연결되어 있습니다. 확인을 위해, 화살표 표식으로부터 가장 먼 PICkit 상에 3개의 빈 구멍이 보여야 합니다. 다시 말씀드리면 노란-빨간-검정-파란-하얀 순입니다."
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 플래시 데모
 
@@ -452,7 +850,18 @@ PICkit 쪽에서, 노란 와이어는 핀 1에, 빨간 와이어는 핀 2에, �
 
 ![이미지](/assets/img/2024-05-27-PICEcosystem_35.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 콘트롤은 그림을 쓸 수 있도록 하는 것입니다.
 
@@ -462,7 +871,18 @@ PICkit 쪽에서, 노란 와이어는 핀 1에, 빨간 와이어는 핀 2에, �
 
 ![image](/assets/img/2024-05-27-PICEcosystem_37.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 PIC16LF18324는 3.3 볼트 장치입니다. 다른 장치에 대해 이 경고에 주의하십시오.
 
@@ -472,7 +892,18 @@ PIC16LF18324는 3.3 볼트 장치입니다. 다른 장치에 대해 이 경고�
 
 ![PICEcosystem_38](/assets/img/2024-05-27-PICEcosystem_38.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 …기본 설정은 "장치 전원이 켜짐"임을 알려줍니다. 이것은 PICkit 4의 중요한 기능입니다. 장치에 전원을 공급하거나 자체 전원이 있는 장치에 프로그램을 할 수 있습니다. 그러나 설정은 안전을 우선시합니다.
 
@@ -482,8 +913,18 @@ PIC16LF18324는 3.3 볼트 장치입니다. 다른 장치에 대해 이 경고�
 
 ![이미지](/assets/img/2024-05-27-PICEcosystem_40.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image 1](/assets/img/2024-05-27-PICEcosystem_41.png)
 
@@ -493,8 +934,18 @@ To be safe, after completing this step, check if the setting is still there. It 
 
 If things don't go well, please double-check the wiring. If the wires are incorrect, you may encounter this situation.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![PICEcosystem_43](/assets/img/2024-05-27-PICEcosystem_43.png)
 
@@ -504,7 +955,18 @@ If things don't go well, please double-check the wiring. If the wires are incorr
 
 여기서 이것을 실현하기 위해 다른 배선이 필요합니다. 왼쪽 측면의 전원 레일에 3.3V 전원을 연결하고, 공급의 접지를 지시된 대로 접지 레일에 연결해야 합니다. 그런 다음, RC0는 18324의 오른쪽 하단에서부터 세 번째 핀입니다. 이것은 100에서 330옴 저항체에 연결되어야 합니다. 저항체의 다른 끝은 LED의 전방 편향 핀(또는 전원 수신 핀)에 연결돼야하며, 다른 핀은 다시 지지에 연결돼야 합니다. 0.1µF 커패시터의 두 리드를 빵판의 "전원 레일"에 눌러 넣으세요. 또한 두 지지 레일을 연결하는 선이 있는지 확인해야 합니다. 이것은 이를 연결하는 한 가지 가능한 방법일 뿐입니다. 중요한 것은 칩과 LED의 전원 및 접지, 핀이 LED에 연결되도록하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 전선 관련 이야기
 
@@ -514,7 +976,18 @@ If things don't go well, please double-check the wiring. If the wires are incorr
 
 ![이미지2](/assets/img/2024-05-27-PICEcosystem_45.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드와 배선이 올바르고 칩이 올바르게 프로그램되었다면 LED가 1초에 한 번씩 깜박일 것이며, 각 켜진 시간은 ¼초여야 합니다.
 

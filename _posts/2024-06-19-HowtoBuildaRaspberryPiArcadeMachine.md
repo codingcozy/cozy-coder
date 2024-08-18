@@ -3,18 +3,13 @@ title: "라즈베리 파이 아케이드 머신을 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-19-HowtoBuildaRaspberryPiArcadeMachine_0.png"
 date: 2024-06-19 17:56
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-HowtoBuildaRaspberryPiArcadeMachine_0.png
 tag: Tech
 originalTitle: "How to Build a Raspberry Pi Arcade Machine"
 link: "https://medium.com/swlh/how-to-build-a-raspberry-pi-arcade-machine-3de4df2894c6"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![Arcade Machine](/assets/img/2024-06-19-HowtoBuildaRaspberryPiArcadeMachine_0.png)
 
@@ -24,9 +19,18 @@ isUpdated: true
 
 저희가 그렇게 만든 방법은 다음과 같아요.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![How to Build a Raspberry Pi Arcade Machine - Image 1](/assets/img/2024-06-19-HowtoBuildaRaspberryPiArcadeMachine_1.png)
 
@@ -36,8 +40,18 @@ For our design, we chose to build a full-size arcade machine with two sets of co
 
 To streamline our project, we followed a premade plan available at TheGeekPub.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 계획들은 여기에서 확인하실 수 있어요.
 
@@ -47,8 +61,18 @@ To streamline our project, we followed a premade plan available at TheGeekPub.
 
 우리는 설정이 쉽도록 앞쪽에 키보드 트레이를 두고자 했으며, 추가 재료와 도구를 보관할 수 있는 트렁크 문도 설치했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Arcade Machine](/assets/img/2024-06-19-HowtoBuildaRaspberryPiArcadeMachine_3.png)
 
@@ -58,8 +82,18 @@ To streamline our project, we followed a premade plan available at TheGeekPub.
 
 여기 우리가 아케이드를 만들기 위해 사용한 모든 하드웨어 목록과 사용된 도구가 있습니다. 부품의 상세 비용 분석 및 구입 링크는 이 스프레드시트에서 확인하실 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 전자제품
 
@@ -87,7 +121,18 @@ To streamline our project, we followed a premade plan available at TheGeekPub.
 - 핑크 스프레이 페인트 3캔
 - 형광 노랑 스프레이 페인트 1캔
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 사용된 도구
 
@@ -104,7 +149,18 @@ To streamline our project, we followed a premade plan available at TheGeekPub.
 
 ![이미지 2](/assets/img/2024-06-19-HowtoBuildaRaspberryPiArcadeMachine_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 초기 계획
 
@@ -114,7 +170,18 @@ To streamline our project, we followed a premade plan available at TheGeekPub.
 
 # 측면 자르기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아케이드 한 쪽을 MDF 시트에 나선 그리기로 윤곽을 잡았어요. 그 후 천막톱으로 그 부분을 잘라내고, 또 다른 부분 위에 올려서 그 선을 옮겼어요. 두 번째 부분을 잘라낸 후 양쪽을 맞추기 위해 모두 세웠어요.
 
@@ -124,8 +191,18 @@ To streamline our project, we followed a premade plan available at TheGeekPub.
 
 조립을 위해 스크랩 우드를 사용하여 다른 부분이 올려질 1x1인치 백어 블록을 잘라내기로 준비했어요. 블록의 크기/길이는 중요하지 않지만, 두 번 다른 부분에 맞추는 데 주의를 기울이는 것이 중요해요. 저희의 경우 약간 차이가 있어서 문제가 많았어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![HowtoBuildaRaspberryPiArcadeMachine_8](/assets/img/2024-06-19-HowtoBuildaRaspberryPiArcadeMachine_8.png)
 
@@ -135,18 +212,39 @@ To streamline our project, we followed a premade plan available at TheGeekPub.
 
 ![HowtoBuildaRaspberryPiArcadeMachine_9](/assets/img/2024-06-19-HowtoBuildaRaspberryPiArcadeMachine_9.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-# ... 시도 3 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+# ... 시도 3
 
 이전 도료를 깎아내고 다시 바르고 다시 도색하는 과정을 여러 차례 반복해야 했지만, 결국 깔끔한 마무리를 이룰 수 있었어요.
 
 스프레이 캔을 각도로 사용하는 것이 많은 도움이 되었어요.
 
-과정을 마치고 나니 우리는 도료에 거의 $100을 썼어요. 그래도 적어도 예쁘다고 할 수 있지 않을까요? ¯\_(ツ)_/¯
+과정을 마치고 나니 우리는 도료에 거의 $100을 썼어요. 그래도 적어도 예쁘다고 할 수 있지 않을까요? ¯\_(ツ)\_/¯
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-HowtoBuildaRaspberryPiArcadeMachine_10.png" />
 
@@ -156,7 +254,18 @@ To streamline our project, we followed a premade plan available at TheGeekPub.
 
 아..에..에스..테~틱~
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-HowtoBuildaRaspberryPiArcadeMachine_11.png" />
 
@@ -166,7 +275,18 @@ To streamline our project, we followed a premade plan available at TheGeekPub.
 
 우리의 아케이드를 쉽게 이동할 수 있도록 하기 위해, 바닥 패널에 몇 개의 캐스터를 설치했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 팁: 이 단계를 먼저 완료하면 다른 부분을 전송하는 데 사용할 수 있어요.
 
@@ -176,7 +296,18 @@ To streamline our project, we followed a premade plan available at TheGeekPub.
 
 스피커를 만들기 위해 우리는 드릴링 템플릿을 사용했고 일반 핸드 드릴을 사용하여 진행했어요. 그리고 나서 달러 스토어에서 $5 스피커를 고무 줄과 못을 사용하여 고정했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-HowtoBuildaRaspberryPiArcadeMachine_14.png" />
 
@@ -186,8 +317,18 @@ To streamline our project, we followed a premade plan available at TheGeekPub.
 
 자물쇠 메커니즘은 캐비닛 오른쪽 쪽면에 장착된 L자 모양 지지대에 고정되어 작동합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-19-HowtoBuildaRaspberryPiArcadeMachine_15.png)
 
@@ -197,8 +338,18 @@ We installed a keyboard tray by attaching a pair of rollers to a piece of wood. 
 
 ![image](/assets/img/2024-06-19-HowtoBuildaRaspberryPiArcadeMachine_16.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 마퀴
 
@@ -208,7 +359,18 @@ We installed a keyboard tray by attaching a pair of rollers to a piece of wood. 
 
 # 컨트롤 패널
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컨트롤 패널을 만들기 위해 MDF 나무 조각에 드릴링 템플릿을 테이프로 고정한 뒤, 1 1/8인치 포스터 비트를 장착한 드릴 프레스를 사용하여 버튼을 위한 구멍을 뚫었어요.
 
@@ -218,7 +380,18 @@ We installed a keyboard tray by attaching a pair of rollers to a piece of wood. 
 
 # 연결하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 과정은 상당히 간단합니다: 버튼을 제어 패널에 나사로 고정하고, 각 버튼을 USB 인코더에 연결한 후 USB 출력을 라즈베리 파이에 연결하면 됩니다.
 
@@ -228,7 +401,18 @@ We installed a keyboard tray by attaching a pair of rollers to a piece of wood. 
 
 ![Raspberry Pi 아케이드 머신 만들기](/assets/img/2024-06-19-HowtoBuildaRaspberryPiArcadeMachine_19.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 모든 것을 함께 조립하기
 
@@ -238,7 +422,18 @@ We installed a keyboard tray by attaching a pair of rollers to a piece of wood. 
 
 그런 다음, 다른 쪽 패널을 위에 올려두고 다시 못을 사용해 모든 것을 제자리에 고정합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 다음은 인셋 클립 힌지를 사용하여 현관문을 설치할 수 있습니다.
 
@@ -248,7 +443,18 @@ We installed a keyboard tray by attaching a pair of rollers to a piece of wood. 
 
 마지막 단계는 모니터를 설치하는 것입니다. 가장 좋은 방법은 먼저 모니터를 구입하고 아케이드의 너비를 계획하여 적당한 폭을 남기는 것입니다. 각 측면에 3/4인치 백어 블록을 위한 여유 공간을 1인치 정도 남기면 좋습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 혹은 모니터의 형태가 허용된다면, 전체 너비에 걸쳐 설치할 수 있는 패널을 선택할 수도 있어요.
 
@@ -258,7 +464,18 @@ We installed a keyboard tray by attaching a pair of rollers to a piece of wood. 
 
 여기까지입니다! 조립한 아케이드 모습이에요, 완성했습니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-HowtoBuildaRaspberryPiArcadeMachine_21.png)
 
@@ -271,7 +488,18 @@ We installed a keyboard tray by attaching a pair of rollers to a piece of wood. 
 케빈 장
 프랭크 첸
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Sure! Here is the translation of your text into Korean:
 

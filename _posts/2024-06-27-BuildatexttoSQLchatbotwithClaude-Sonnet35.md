@@ -3,17 +3,13 @@ title: "Claude-Sonnet 35로 텍스트를 SQL로 변환하는 챗봇 만드는 �
 description: ""
 coverImage: "/assets/img/2024-06-27-BuildatexttoSQLchatbotwithClaude-Sonnet35_0.png"
 date: 2024-06-27 18:48
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-27-BuildatexttoSQLchatbotwithClaude-Sonnet35_0.png
 tag: Tech
 originalTitle: "Build a text to SQL chatbot with Claude-Sonnet 3.5."
 link: "https://medium.com/@arslanshahid-1997/build-a-text-to-sql-chatbot-with-claude-sonnet-3-5-621a5bf9f922"
 isUpdated: true
 ---
-
-
-
-
 
 ## Claude Sonnet 3.5을 사용한 텍스트-SQL 및 GPT 모델과의 벤치마킹
 
@@ -23,8 +19,18 @@ Anthropic은 최신 주력 모델인 Claude 3.5를 공개했습니다. 이 광�
 
 마지막으로, Claude의 SQL 작업 성능을 OpenAI 모델과 비교한 결과를 보여드렸습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-27-BuildatexttoSQLchatbotwithClaude-Sonnet35_1.png)
 
@@ -52,10 +58,20 @@ config = {'api_key':api_key, 'model':model}
 
 # 설정을 MyVanna 객체에 전달합니다
 vn = MyVanna(config=config)
-``` 
+```
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 데이터베이스 연결하기
 
@@ -72,7 +88,18 @@ Vanna에는 이러한 8개의 데이터베이스에 대한 내장 커넥터가 �
 
 문서를 확인하면 특정 데이터베이스에 연결하는 방법을 이해할 수 있습니다. 이 게시물의 목적을 위해, 저는 DuckDB StackOverFlow 데이터베이스에 연결할 것입니다. 데이터베이스는 여기에서 찾을 수 있습니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # DuckDB 데이터베이스에 연결하는 방법입니다
@@ -85,8 +112,18 @@ vn.connect_to_duckdb(url='motherduck:[<데이터베이스_이름>]?motherduck_to
 
 # 플랜(정보 스키마)에 대한 교육
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 데이터베이스에 따라 정보 스키마 조회 쿼리를 조정해야 할 수도 있습니다. 이것은 좋은 시작점입니다.
@@ -106,7 +143,18 @@ vn.train(plan=plan)
 
 # DDL 학습하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # DuckDB에서 describe 문을 사용하여 모든 테이블의 DDL을 가져올 수 있어요
@@ -127,7 +175,7 @@ LIMIT 10
 """)
 # 또 다른 예시
 vn.train(
-question="가장 많은 답변을 낸 사용자와 가장 작은 질문을 낸 사용자 간의 총 답변 차이는 무엇인가요?", 
+question="가장 많은 답변을 낸 사용자와 가장 작은 질문을 낸 사용자 간의 총 답변 차이는 무엇인가요?",
 ,sql="SELECT MAX(answer_count) - MIN(answer_count) AS difference
 FROM (
     SELECT OwnerUserId, COUNT(*) AS answer_count
@@ -140,7 +188,18 @@ FROM (
 
 # 문서에 대한 학습
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # vn.train(documentation="We call the user with the highest answers in a year the Grand master")을 사용하여 맥락 정보를 제공할 수 있습니다.
@@ -161,7 +220,18 @@ vn.get_training_data()를 사용하여 훈련 데이터를 확인할 수 있습�
 vn.ask('가장 많은 배지를 보유한 상위 10명의 사용자를 찾아주세요?')
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-27-BuildatexttoSQLchatbotwithClaude-Sonnet35_4.png" />
 
@@ -175,8 +245,18 @@ app = VannaFlaskApp(vn)
 app.run()
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-27-BuildatexttoSQLchatbotwithClaude-Sonnet35_5.png)
 
@@ -186,9 +266,18 @@ app.run()
 
 ## 스키마 전용
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-27-BuildatexttoSQLchatbotwithClaude-Sonnet35_6.png" />
 
@@ -198,8 +287,18 @@ Claude sonnet 3.5 performs rather poorly compared with other LLMs when only trai
 
 <img src="/assets/img/2024-06-27-BuildatexttoSQLchatbotwithClaude-Sonnet35_7.png" />
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상당히 놀라운 사실인데, 레퍼런스 SQL과 SQL 질문 쌍을 사용하여 훈련시킨 Claude-3.5가 모든 다른 LLM들보다 우수한 성능을 보이고 있습니다.
 
@@ -209,6 +308,17 @@ Claude sonnet 3.5 performs rather poorly compared with other LLMs when only trai
 
 따라서, 두 점수의 평균을 내면, Claude-Sonnet 3.5는 GPT-4o와 비슷한 범위의 성능을 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 읽어 주셔서 감사합니다!

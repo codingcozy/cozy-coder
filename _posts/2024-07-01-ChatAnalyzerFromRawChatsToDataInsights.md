@@ -3,17 +3,13 @@ title: "채팅 분석기  원시 채팅 데이터를 인사이트로 변환하�
 description: ""
 coverImage: "/assets/img/2024-07-01-ChatAnalyzerFromRawChatsToDataInsights_0.png"
 date: 2024-07-01 00:38
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-01-ChatAnalyzerFromRawChatsToDataInsights_0.png
 tag: Tech
 originalTitle: "Chat Analyzer — From Raw Chats To Data Insights"
 link: "https://medium.com/towards-artificial-intelligence/chat-analyzer-from-raw-chats-to-data-insights-d6dcbb2db1fa"
 isUpdated: true
 ---
-
-
-
-
 
 ## 데이터 앱 개발 리뷰
 
@@ -34,7 +30,18 @@ isUpdated: true
 - D 섹션: 지리적 정보
 - 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Why Did I Write This Article?
 
@@ -44,7 +51,18 @@ Flask & Dash와의 긴 싸움 끝에, 더 간단한 프레임워크를 찾기로
 
 본문의 목적은 다른 사람들에게 Streamlit 데이터 앱 개발을 소개하는 것입니다. 전반적으로 앱 섹션에 대해 알려주며, 앱의 흐름, NLP 방법론 및 시각화 기법 등 다양한 측면을 논의하기 위해 선택된 위젯에 초점을 맞출 거예요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Before we dive into the details, let me share a couple of notes with you:
 
@@ -57,7 +75,18 @@ Before we dive into the details, let me share a couple of notes with you:
 
 Anyone can easily export their chat data (check out the instructions for WhatsApp & Telegram). The Chat Analyzer is a powerful tool that takes these exports, standardizes them into a unified format, and creates insightful widgets based on the processed data.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 데이터 정규화
 
@@ -72,16 +101,16 @@ import tempfile
 import os
 
 def normalize_whatsapp_data(chat_export):
-  
+
   # 데이터를 로컬로 쓰기
   tempdir = tempfile.mkdtemp(prefix='chat_exports')
   with open(os.path.join(tempdir, 'chat_export.txt'), mode='wb') as f:
       f.write(chat_export.read())
-  
+
   # whatsapp txt 파일 파싱
   parser = WhatsAppParser(os.path.join(tempdir, 'chat_export.txt'))
   parser.parse_file()
-  
+
   # 메타데이터 추가
   df = parser.parsed_messages.get_df(as_pandas=True).rename(columns={'author':'username'})
   df['date'] = df['timestamp'].dt.date
@@ -100,7 +129,18 @@ if uploaded_file:
   df
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*ypVKOYKO8RYUifmv3cVtYg.gif)
 
@@ -114,7 +154,18 @@ st.sidebar를 사용하여 모든 섹션에서 데이터에 기간 간격 또는
 
 Streamlit은 Plotly 시각화를 지원하며, 우리는 여기서 그것을 사용할 것입니다. 다음 스크립트는 다양한 단위 (메시지/사용자) 및 다양한 시간 단위 (월별/주별/일별)를 지원하면서 추세선 그래프를 생성합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 import streamlit as st
@@ -144,8 +195,18 @@ sub2.plotly_chart(generate_activity_overtime(df, unit, 'date"))
 
 ![Chat Analyzer Image](/assets/img/2024-07-01-ChatAnalyzerFromRawChatsToDataInsights_1.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자 레벨 섹션은 그룹 참여자들에 관한 이야기를 전할 수 있게 해줍니다. 전체 메시지 중 일부 기본 채팅 사용자 수치와 N 단어 같은 숫자를 보여줍니다만, "최고 이모지" 같은 좀 더 복잡한 아이디어도 포함하고 있습니다.
 
@@ -164,7 +225,18 @@ emoji_df.head()
 
 ![ChatAnalyzerFromRawChatsToDataInsights_2](/assets/img/2024-07-01-ChatAnalyzerFromRawChatsToDataInsights_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로는 각 채팅 참가자를 위한 최고 이모티콘을 선택할 방법론을 고안해야 합니다. 저는 두 가지를 생각해 냈습니다 — 가장 빈도 높은 이모티콘과 가장 연관된 이모티콘.
 
@@ -174,7 +246,18 @@ emoji_df.head()
 
 **가장 연관된 이모티콘 (클래스 기반 TF-IDF)**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 접근 방식은 다소 복잡합니다. 일반적으로 여러 클래스(우리 경우 사용자들)에 적용되는 TF-IDF 공식을 사용하며, 이는 사용자들의 이모티콘 발생 빈도를 모든 다른 사용자의 이모티콘 발생 빈도에 대비하여 고려합니다. c-TF-IDF에 대해 더 알고 싶다면 여기를 확인해보세요.
 
@@ -208,9 +291,18 @@ top_ctfidf_emoji.merge(top_freq_emoji, on='username')
 
 ![ChatAnalyzerFromRawChatsToDataInsights_3](/assets/img/2024-07-01-ChatAnalyzerFromRawChatsToDataInsights_3.png)
 
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 섹션 C: 텍스트 분석
 
@@ -220,7 +312,18 @@ top_ctfidf_emoji.merge(top_freq_emoji, on='username')
 
 ## 채팅 탐색기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![tarot](https://miro.medium.com/v2/resize:fit:1400/1*2vXesyHuYhOQt0z20DQwrw.gif)
 
@@ -242,7 +345,18 @@ with col1:
     st.plotly_chart(generate_activity_overtime(filtered_df, "메시지", "월"))
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Conversations Summarizer](/assets/img/2024-07-01-ChatAnalyzerFromRawChatsToDataInsights_5.png)
 
@@ -253,7 +367,18 @@ with col1:
 대화를 대화로 나누기
 대화를 분할하는 일반적인 방법론을 찾는 것은 채팅 그룹 간에 채팅 행동이 변하기 때문에 어려운 과제입니다. 여기서는 메시지의 시간 차이를 분할 매개변수로 사용하는 소박한 방법론을 제안했습니다. 이제 인접 메시지 간 시간 차이에 대한 간단한 분석을 해보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 import streamlit as st
@@ -304,10 +429,20 @@ df.loc[(df['time_diff_minutes'] >= df['time_diff_minutes'].quantile(threshold)),
 start_period = '2020-01-28'
 end_period = '2020-01-30'
 viz_conversations(df, start_period, end_period)
-``` 
+```
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요약된 채팅 대화
 이제 대화의 텍스트를 대화 ID로 분리했으니, 요약으로 넘어가 보겠습니다. 자연어 처리(NLP)의 텍스트 요약은 주어진 텍스트를 자동으로 요약하여 중요한 정보를 추출하거나 생성하는 것을 목표로 합니다. 특정 유형의 텍스트(채팅)를 다루고 있기 때문에, 텍스트의 성격에 맞는 모델을 신중히 선택하는 것이 좋습니다.
@@ -315,14 +450,36 @@ viz_conversations(df, start_period, end_period)
 Hugging Face의 이상적인 텍스트 요약 모델을 찾는 여정은 philschmid/bart-large-cnn-samsum을 선택하게 되었어요. 이 모델은 BART 기반 모델(facebook/bart-large-cnn)로, SAMSum 데이터 세트를 사용해 미세 조정되었고, 대화를 요약한 약 16,000개의 메신저 스타일 대화를 포함하고 있습니다. 선택된 대화를 가져와서 요약 모델에 입력한 후 결과를 제시해주는 위젯을 만들어봅시다.
 모델 실행은 컴퓨팅 자원을 많이 사용하므로,st.cache_data 데코레이터를 사용하여 입력과 출력을 pickle 형식으로 저장하고, 모델의 중복 실행을 방지할 거에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 구역 D: 지리정보
 
 이번에 다룰 마지막 섹션은 지리정보입니다. 이 섹션은 대화 텍스트에서 모든 위치를 추출하고 몇 가지 메타데이터와 함께 멋진 지도를 제시합니다.
 위치는 주로 Google 지도 링크를 공유할 때 보내집니다. 텍스트를 올바르게 필터링하면 대화 위치가 위도 및 경도로 출력됩니다. 다행히 Streamlit은 강력한 지도 시각화 기능을 제공하는 Folium을 지원합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 import streamlit as st
@@ -355,17 +512,26 @@ st_folium(m)
 
 채팅 분석기는 누구든지 쉽게 채팅 그룹 데이터를 분석할 수 있도록 만들어졌어요. 이 글에서는 도구의 기능과 몇 가지 코드 예제를 소개했어요. Streamlit을 활용하여 채팅 분석기를 빠르고 간편하게 개발할 수 있었고, 상당한 가치가 있어요. 하지만 이 도구에는 몇 가지 제한사항이 있어요.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **통합 및 커버리지** — 현재 챗 분석기를 사용하려면 채팅을 적극적으로 내보내어 로컬로 다운로드한 다음 도구에 업로드해야 합니다. 이 점이 불편하며 고민하는 사용자들을 막을 수 있습니다. 또한, 현재 이 도구는 WhatsApp과 Telegram을 지원하고 있지만 많은 다른 채팅 플랫폼이 있습니다.
-  
+
 **누락된 기능** — 이 도구는 섹션과 위젯으로 풍부하지만, NLP 방법론 측면에서 아직 완전한 잠재력에 도달하지 못했습니다. 더 구체적으로 말하면, LLM(Large Language Models)은 도구에 올바르게 구현된다면 많은 가치를 만들어낼 수 있습니다. 예를 들어, 채팅 전체를 벡터화하고 사용자가 자연어로 질문할 수 있는 LLM 기반 위젯을 상상해 보세요.
 
 **Streamlit의 한계:**
 
 - **확장성** — 채팅 분석기는 Streamlit의 커뮤니티 클라우드 플랫폼에 배포되었습니다. 이 플랫폼은 무료이며 Github와 쉽게 연결할 수 있지만 자원이 제한되어 있어 고용량 사용에 준비가 되어 있지 않습니다.
-  
 - **프론트엔드 유연성** — Streamlit을 사용하면 프론트엔드 개발이 용이해집니다. 반면에, Streamlit 사용자들은 패키지가 제공하는 바에 얽매여 있습니다.
 
 이 글을 즐겁게 읽으셨기를 바랍니다!

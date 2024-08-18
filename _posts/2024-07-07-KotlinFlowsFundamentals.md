@@ -3,17 +3,13 @@ title: "Kotlin Flows  기초 개념 완벽 정리"
 description: ""
 coverImage: "/milky-road.github.io/assets/no-image.jpg"
 date: 2024-07-07 03:11
-ogImage: 
+ogImage:
   url: /milky-road.github.io/assets/no-image.jpg
 tag: Tech
 originalTitle: "Kotlin Flows — Fundamentals"
 link: "https://medium.com/@anitaa_1990/kotlin-flows-fundamentals-7d9b984f12bb"
 isUpdated: true
 ---
-
-
-
-
 
 지난 주에는 Kotlin 코루틴에 대해 더 알아보았어요. 이전 글에서는 CoroutineContext, CoroutineScope, Coroutine Builder 등과 같은 코루틴의 기본 사항에 초점을 맞췄었죠. 약속했던 대로, 오늘의 주제는 Flows입니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Flow를 생성하려면 먼저 프로듀서(생산자)를 만들어야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 랜덤 플로우 값 수집을 위해 먼저 코루틴을 실행해야 합니다. 플로우는 백그라운드에서 코루틴을 활용하므로 collect 연산자를 사용하여 이틀리는 값들을 수집합니다.
 
@@ -37,7 +44,18 @@ lifecycleScope.launch {
 
 플로우에는 두 가지 다른 유형이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **Cold Flow** - 값이 생성되기 시작하려면 수집이 시작되어야 합니다. 하나의 구독자만 가질 수 있으며 데이터를 저장하지 않습니다.
 
@@ -101,7 +119,18 @@ SharedFlow collector 1이 수신함: [0, 1, 2, 3, 4]
 SharedFlow collector 2가 수신함: [2, 3, 4]
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 stateIn() 및 shareIn() 연산자를 사용하여 어떤 차가 흐르던 것을 각각 뜨거운 차로 변환할 수 있어요.
 
@@ -152,13 +181,24 @@ fun HomeScreen() {
  // 지정된 상태에 있는 생명주기에서 값을 수집 시작하고
  // 해당 상태보다 아래일 때 중지해요.
   val someFlow by viewModel.flow.collectAsStateWithLifecycle()
-  
+
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
--  **SharedFlow(공유 플로우)** - SharedFlow는 여러 수집기를 가질 수 있는 HotFlow로, 수집기와 독립적으로 값을 발생할 수 있습니다. 여러 수집기가 동일한 값들을 플로우로부터 수집할 수 있습니다. 여러 수집기에 값을 브로드캐스트하거나 동일한 데이터 스트림에 여러 구독자를 가질 때 유용합니다. 초기값이 없으며, 새로운 수집기를 위해 이전에 발생한 값을 일정 숫자만큼 재생성 캐시에 저장할 수 있습니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+- **SharedFlow(공유 플로우)** - SharedFlow는 여러 수집기를 가질 수 있는 HotFlow로, 수집기와 독립적으로 값을 발생할 수 있습니다. 여러 수집기가 동일한 값들을 플로우로부터 수집할 수 있습니다. 여러 수집기에 값을 브로드캐스트하거나 동일한 데이터 스트림에 여러 구독자를 가질 때 유용합니다. 초기값이 없으며, 새로운 수집기를 위해 이전에 발생한 값을 일정 숫자만큼 재생성 캐시에 저장할 수 있습니다.
 
 ```kotlin
 class HomeViewModel : ViewModel() {
@@ -180,9 +220,9 @@ class HomeFragment : Fragment() {
         lifecycleScope.launchWhenStarted {
             // 플로우를 트리거하고 값 수신을 시작함
 
-            // collectLatest()는 Kotlin의 Flow API에서 사용되는 고차 함수로, 
-            // Flow에서 발생한 값을 수집하고 최신 값에 대한 변환을 수행하는 함수입니다. 
-            // collect()와 유사하지만, collectLatest는 최신으로 발생한 값만 처리하며 
+            // collectLatest()는 Kotlin의 Flow API에서 사용되는 고차 함수로,
+            // Flow에서 발생한 값을 수집하고 최신 값에 대한 변환을 수행하는 함수입니다.
+            // collect()와 유사하지만, collectLatest는 최신으로 발생한 값만 처리하며
             // 아직 처리되지 않은 이전 값은 무시합니다.
             viewModel.events.collectLatest {
                 binding.eventFlowButton.text = it
@@ -194,10 +234,10 @@ class HomeFragment : Fragment() {
 // Compose에서 StateFlow 수집
 @Compose
 fun HomeScreen() {
-    // Compose는 collectAsStateWithLifecycle 함수를 제공하며, 
-    // 플로우에서 값을 수집하고 필요한 곳에 최신 값을 제공합니다. 
-    // 새로운 플로우 값이 발생하면 업데이트된 값을 얻고 상태 값을 업데이트하기 위해 재 구성이 수행됩니다. 
-    // 기본적으로 LifeCycle.State.Started를 사용하여 지정된 상태에서 값 수집을 시작하고 
+    // Compose는 collectAsStateWithLifecycle 함수를 제공하며,
+    // 플로우에서 값을 수집하고 필요한 곳에 최신 값을 제공합니다.
+    // 새로운 플로우 값이 발생하면 업데이트된 값을 얻고 상태 값을 업데이트하기 위해 재 구성이 수행됩니다.
+    // 기본적으로 LifeCycle.State.Started를 사용하여 지정된 상태에서 값 수집을 시작하고
     // 그것보다 아래로 떨어질 때 중지합니다.
     val someFlow by viewModel.events.collectAsStateWithLifecycle()
 }
@@ -207,7 +247,18 @@ fun HomeScreen() {
 
 Kotlin Flow는 예외와 오류를 처리하기 위한 여러 메커니즘을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **- try-catch 블록 -** 예외를 처리하는 기본적인 방법 중 하나는 플로우 내에서 try-catch 블록을 사용하는 것입니다.
 
@@ -231,7 +282,18 @@ flow {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - **onCompletion Operator** - 플로우가 성공적으로 완료되거나 예외와 함께 완료될 때 실행 코드를 실행하는 데 사용됩니다.
 
@@ -257,7 +319,18 @@ fun <T> Flow<T>.sampleErrorHandler(): Flow<Result<T>> = transform { value ->
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Flows vs LiveData
 

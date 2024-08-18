@@ -3,17 +3,13 @@ title: "아두이노에서 머신 러닝 시작하기  아두이노 나노 33 BL
 description: ""
 coverImage: "/assets/img/2024-06-19-GetStartedwithMachineLearningonArduinoArduinoNano33BLESense_0.png"
 date: 2024-06-19 05:54
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-GetStartedwithMachineLearningonArduinoArduinoNano33BLESense_0.png
 tag: Tech
 originalTitle: "Get Started with Machine Learning on Arduino | Arduino Nano 33 BLE Sense"
 link: "https://medium.com/@techworldthink/get-started-with-machine-learning-on-arduino-arduino-nano-33-ble-sense-9fa38dfb9563"
 isUpdated: true
 ---
-
-
-
-
 
 ![image](/assets/img/2024-06-19-GetStartedwithMachineLearningonArduinoArduinoNano33BLESense_0.png)
 
@@ -29,7 +25,18 @@ isUpdated: true
 - Arduino 헤더 파일에 모델 인코딩
 - Arduino에 ML 모델 배포
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-GetStartedwithMachineLearningonArduinoArduinoNano33BLESense_1.png)
 
@@ -39,7 +46,18 @@ isUpdated: true
 
 2. 나노 보드용 Mbed OS 코어 설치
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아두이노로 이동해서 Tools → Board → Board Manager로 이동해 주세요.
 
@@ -49,7 +67,18 @@ isUpdated: true
 
 3. Harvard_TinyMLx 라이브러리 설치
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Tools -> Manage Libraries 로 이동해주세요.
 
@@ -59,7 +88,18 @@ Tools -> Manage Libraries 로 이동해주세요.
 
 4. Google Colab에서 TensorFlow를 사용하여 머신러닝 모델을 생성하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서는 TensorFlow에서 선형 회귀를 사용하여 간단한 날씨 예측 기계 학습 모델을 만들고 있어요. 입력 특성은 온도와 습도이며, 날씨 요약은 예상 출력입니다. 이 모델은 IoT에서 기계 학습 통합을 보여주기 위한 것이며, 정확한 날씨 예측을 최적화한 것이 아니라는 점을 유의해 주세요.
 
@@ -121,7 +161,18 @@ print("Root Mean Squared Error (RMSE):", rmse)
 
 5. 훈련된 모델을 TensorFlow Lite로 변환하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 """# 훈련된 모델을 텐서 플로 Lite로 변환하기"""
@@ -146,8 +197,18 @@ print("모델 크기는 %d바이트입니다" % basic_model_size)
 
 이 헤더 파일은 아두이노 스케치가 외부 종속성이나 별도의 모델 파일 없이 추론에 사용할 수 있도록 모델 데이터를 포함하도록 되어 있습니다. 이 형식으로 모델을 인코딩함으로써 자원 제한적인 기기인 아두이노 같은 장치에 머신 러닝 모델을 배포할 때 아두이노 프로젝트가 외부 자원에 의존하지 않고 아두이노 보드에서 머신 러닝 모델을 직접 사용하여 예측하거나 작업을 수행할 수 있도록 할 수 있습니다. 아두이노와 같은 자원에 제한된 기기에 머신 러닝 모델을 배포할 때 중요한 단계입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 """# 아두이노 헤더 파일에 모델 인코딩하기"""
@@ -267,7 +328,18 @@ void loop() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GitHub - Machine_Learning_Weather_Prediction
 

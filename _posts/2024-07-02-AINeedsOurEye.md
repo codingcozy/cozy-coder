@@ -3,17 +3,13 @@ title: "AI는 우리의 눈을 필요로 한다 2024년 최신 AI 비전 기술 
 description: ""
 coverImage: "/assets/img/2024-07-02-AINeedsOurEye_0.png"
 date: 2024-07-02 22:58
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-02-AINeedsOurEye_0.png
 tag: Tech
 originalTitle: "AI Needs Our Eye"
 link: "https://medium.com/brain-labs/ai-needs-our-eye-581c699bdfa6"
 isUpdated: true
 ---
-
-
-
-
 
 ## 우리 스스로 생각하는 법을 잊지 말자
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 걱정하지 마세요, 멸망의 의심자들은 말합니다, 오늘날의 AI는 실제로 생각하지 않습니다 — 강력한 대화 봇은 단어를 추측하느라 쿼리를 기반으로 다음 단어를 맞추고 답변을 점진적으로 작성합니다. 내일의 AI는 이를 더 잘 수행할 수 있겠지만, 본질적으로 다르지는 않을 것입니다. 당신의 마음을 읽을 수 있더라도, 그것은 입력을 반응적으로 처리하기만 할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래, 불에 손대는 거야 아니다 아무것도 없는 거야? 아마 둘 다일 것이다. HAL 9000처럼 감성적이고 살인적인 인공 지능을 만들 수 있는 여부는 의문이지만, 생존을 소중히 여기는 인간들이 AI를 통해 스스로의 멸종을 일으키지는 않을 것이라고 합리적으로 가정해 보겠습니다. 하지만 우리가 컴퓨터로부터 스스로를 지킬 수는 있어도, 우리로부터 안전한 것일까요?
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 AI는 특정 유형의 작업을 처리하기에 가장 적합하며, — LLM을 제외하고는 — 일반적으로 특정 유형의 작업을 처리하도록 개발됩니다. 모든 AI는 이미 어려운 문제로 인간 창조자들에게 인정된 문제군으로 인한 존재를 갚습니다. "딥러닝"은 복잡한 입력에서 패턴을 감지하고 특징을 추출하기 위해 뇌와 유사한 다층 구조를 사용합니다. 이것은 음성을 인식하고 언어 간에 번역하며, 사진에서 고양이를 찾고, 질병을 진단하는 다양한 응용 분야로 이어졌습니다. 이 모든 것은 물건을 분류하기 위해 제2차 세계 대전 중에 나타난 "퍼셉트론"이라는 공통 조상 패러다임에 기인합니다. 초기때부터 몇십 년에 걸쳐, 누구도 퍼셉트론의 학습 능력을 그것이 분류할 수 있는 물건들을 이해하는 능력으로 혼동하지 않았습니다. 오늘날의 신경망은 단일 뉴런 퍼셉트론의 극도로 복잡한 후속자로서, 매우 섬세한 패턴을 감지할 수 있습니다 — 때로는 인간의 인식을 속일 정도로 미묘한 패턴까지 감지할 정도이며, 컴퓨터가 인간 전문가와 경쟁하거나 그들을 앞지르도록 만들 수 있습니다. AI가 전문 기술과 지식을 지닌 사람들에게 맡겨진 작업들을 수행함에 따라 살아있는 "기계 속의 유령" 분위기를 뿜어냅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AI 관련 전문가가 아니라 AI는 전문가 수준의 패턴을 인식할 뿐입니다. 저는 의료 이미지를 분석하여 암의 징후를 찾는 일을 하고 있습니다. 아내는 미술 역사가이며, 우리는 그림과 드로잉에서 진품과 작가를 확인하기 위해 AI를 활용합니다. 두 분야는 비슷한 AI 설계와 이미지 전처리 전략을 사용합니다. AI는 관련 도메인에 대해 아무것도 "알지" 못합니다. AI가 암과 양성을 구분하거나 렘브란트와 위조 작품을 구별하는 방법에 대해 우리도 알지 못합니다. AI가 판단의 근거인 이미지 영역을 식별할 수는 있지만 판단의 근거는 알 수 없습니다. "설명 가능한" AI를 개발하려는 노력은 AI 모델의 복잡성으로 인해 실패했습니다.
 
@@ -43,6 +61,17 @@ AI는 우리가 볼 수 없는 패턴을 인식하는 데 매우 뛰어나지만
 
 만약 AI를 정말 이해하지 못한다면, 낮은 수준의 구성은 완전히 이해하지만 특정한 고수준 출력의 근거를 모른다면 우리는 인간의 능력을 버리지 말아야 합니다. 경험과 도메인 이해에 기반한 인간의 능력을 통해 스스로 생각하고 더 나아가야 합니다. 물론, 우리가 복잡한 챗봇을 이해하지 못한다면, 그들이 어떤 면에서 우리처럼 조금이라도 사고하는지 확신할 수 없을 것입니다. AI가 성급한 결론을 내릴 것이 아니라고 이전에 말했지만, 챗봇이 엿장수가 되는 다른 예시에서, 변호사가 스스로 작업한 사례의 사실을 잘못 표현하고 있는 챗봇을 발견했습니다. 이 변호사는 기자에게 다음과 같이 말했습니다: "그것에게 '넌 틀렸어. 나는 이 사례를 주장했어.'라고 했고, AI는 '넌 여기 앉아서 네가 일한 사례에 대해 자랑할 수 있지만, 나는 맞아. 직접 증명이야.' 하고 URL 주소를 준 다음 아무 것도 안 내놨습니다." 파괴된 상황을 조망하는 분노한 부모처럼 들리는 변호사는 "그것은 조금 사이코패스"라고 덧붙였습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Tarot Card](/assets/img/2024-07-02-AINeedsOurEye_1.png)

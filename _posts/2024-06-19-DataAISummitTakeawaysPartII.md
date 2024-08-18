@@ -3,17 +3,13 @@ title: "데이터, AI 서밋에서 얻은 교훈 파트 II"
 description: ""
 coverImage: "/assets/img/2024-06-19-DataAISummitTakeawaysPartII_0.png"
 date: 2024-06-19 09:50
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-DataAISummitTakeawaysPartII_0.png
 tag: Tech
 originalTitle: "Data , AI Summit Takeaways: Part II"
 link: "https://medium.com/@matt_weingarten/data-ai-summit-takeaways-part-ii-32df7e6070f3"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-19-DataAISummitTakeawaysPartII_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # Spark 업그레이드/마이그레이션
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대량 업그레이드와 마이그레이션은 플랫폼 팀에게 언제나 쉬운 작업이 아닙니다. 넷플릭스는 이 세션에서 모든 Spark 작업에 대한 인벤토리를 작성하고 마이그레이션 제어 및 자동화 플레인을 호스팅하며, 심지어 마이그레이션 프로세스에 유효성 검사 및 관측 기능을 통합하는 방법을 설명했습니다. 넷플릭스가 운영하는 규모를 고려하면, 그것은 매우 인상적입니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 이전 게시물에서, 저는 Databricks 사용을 관리하는 데 중요한 컴퓨팅 정책의 중요성에 대해 썼습니다. 프로비던스는 Unity 마이그레이션 동안 훌륭한 일련의 가드레일을 소개했습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 클러스터 유형 제한
 - 대화식 클러스터 예약 불가
@@ -46,7 +64,18 @@ isUpdated: true
 
 # 차원 모델링
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래, 당신은 아마 데이터 및 AI 서밋에서 차원 모델링 세션을 듣기 위해 참석하지 않았을 것 같지만, 컬럼형 데이터베이스를 적절히 설계할 때 장점이 있어요. 사실 테이블, 차원 테이블 및 다양한 유형의 천천히 변화하는 차원들 사이의 차이를 알아두면 정말 유용할 거예요. (여기서 네 가지만 있다고 생각했는데...)
 

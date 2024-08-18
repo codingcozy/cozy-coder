@@ -3,17 +3,13 @@ title: "안의 미스터리 4부"
 description: ""
 coverImage: "/assets/img/2024-06-22-MysteriesofAnPart4_0.png"
 date: 2024-06-22 18:40
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-MysteriesofAnPart4_0.png
 tag: Tech
 originalTitle: "Mysteries of An: Part 4"
 link: "https://medium.com/@anomalitism/mysteries-of-an-part-4-ff4629bd9000"
 isUpdated: true
 ---
-
-
-
-
 
 시리즈 "Mysteries of An"에 오신 걸 환영합니다. 각각의 디지털 아트 작품은 알 수 없는 신비한 세계를 엿보게 해주는 창을 엽니다. 신비한 대기와 매혹적인 풍경을 가진 행성 An은 이 시리즈의 영감의 원천으로서의 역할을 합니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이 지도 상의 가이드 마크를 따라가면 여행자들은 행성 An의 숨겨진 구석을 탐험할 수 있고, 놀라운 발견과 마법적인 모험으로 가득한 곳을 발견할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에 들러주셔서 너무 고마워요! 제 작품 세상에 대해 알아가셨군요!
 

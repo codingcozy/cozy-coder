@@ -3,17 +3,13 @@ title: "맥북 프로 2012에서 소노마 업데이트 후 안드로이드 스�
 description: ""
 coverImage: "/assets/img/2024-06-19-AndroidStudiocrashesonMacBookPro2012afterSonomaUpdateSOLVED_0.png"
 date: 2024-06-19 08:44
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-AndroidStudiocrashesonMacBookPro2012afterSonomaUpdateSOLVED_0.png
 tag: Tech
 originalTitle: "Android Studio crashes on MacBook Pro 2012 after Sonoma Update [SOLVED]"
 link: "https://medium.com/@xabaras/android-studio-crashes-on-macbook-pro-2012-after-sonoma-update-solved-3fa7c42998fb"
 isUpdated: true
 ---
-
-
-
-
 
 2012년식 맥북 프로를 사용 중입니다. 일상적인 사용 및 모바일 개발에 아주 좋은 성능을 발휘하고 있어요. 이렇게 오래된 기기를 여전히 잘 사용할 수 있는 것은 바로 OpenCore Legacy Patcher 프로젝트 덕분이에요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 문제를 해결하기 위해 몇 차례 시도를 거쳐 시스템 로그를 확인하고 인터넷 검색을 했지만 결국 해결책을 찾을 수 있었어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 맥북 프로의 금속 GPU로 인한 충돌 문제를 해결하려고 Android Studio를 명령줄을 통해 시작해야 했고 다음 JVM 매개변수를 추가해야 했습니다: -Dsun.java2d.metal=false
 
@@ -31,11 +38,20 @@ Android Studio를 사용할 때마다 명령줄에서 시작해야 한다는 것
 
 당신의 Android Studio 버전을 위한 studio.vmoptions 파일을 찾아보세요. 제 버전은 다음 경로에 있었습니다
 
-
 /Users/[내_사용자_이름]/Library/Application Support/Google/AndroidStudio2024.1/
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음과 같은 JVM 매개변수를 파일 상단에 추가하십시오:
 

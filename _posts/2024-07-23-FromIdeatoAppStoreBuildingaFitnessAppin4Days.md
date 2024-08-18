@@ -3,17 +3,13 @@ title: "아이디어에서 앱스토어까지 4일 만에 피트니스 앱 만�
 description: ""
 coverImage: "/assets/img/2024-07-23-FromIdeatoAppStoreBuildingaFitnessAppin4Days_0.png"
 date: 2024-07-23 21:23
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-23-FromIdeatoAppStoreBuildingaFitnessAppin4Days_0.png
 tag: Tech
 originalTitle: "From Idea to App Store Building a Fitness App in 4 Days"
 link: "https://medium.com/the-entrepreneur-diaries/from-idea-to-app-store-building-a-fitness-app-in-4-days-3e01073dc4c0"
 isUpdated: true
 ---
-
-
-
-
 
 # 소개
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 오늘은 1주일 만에 앱을 개발한 제 이야기와, 다음 앱을 개발할 때 다르게 할 점을 공유하려고 해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 스파크: 30일 스트레칭 챌린지
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 많은 사람들이 이 여정을 따르고 도전에 참여하고 있다는 것을 알게 되었습니다. 그때 나는 깨달았어요: 이건 어플이어야 해요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 왜 앱으로 만들어야 할까요?
 
@@ -45,7 +63,18 @@ isUpdated: true
 
 # 앱 스토어에 대한 심층 분석
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우선, 꼼꼼한 앱 스토어 검색을 시작했어요. 찾을 수 있는 모든 스트레칭 앱을 다운로드했어요. 계획은 무엇일까요? 좋은 부분은 유지하고 나쁜 부분을 고치는 거죠. 제가 발견한 것은 다음과 같아요:
 
@@ -57,7 +86,18 @@ isUpdated: true
 
 ## 와이어프레임제작
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-23-FromIdeatoAppStoreBuildingaFitnessAppin4Days_1.png)
 
@@ -67,7 +107,18 @@ isUpdated: true
 
 ## AI로 생성된 에셋?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앞뒤 스플릿 이미지를 찾을 때, 우리의 AI 오버로드인 Midjourney를 찾아냈어요. 첫 번째 일은 꽤 괜찮았지만, 같은 스타일의 추가적인 이미지들을 요청했을 때, AI는 인체 해부학에 대해 독특한 해석을 제공했어요. 이 새로운 그림은 덜 유연해 보이고 즉각적인 의료 관리가 필요해 보였답니다!
 
@@ -77,7 +128,18 @@ isUpdated: true
 
 도전 화면: 현재, 두 가지 도전 과제로 구성된 소박한 메뉴입니다. 저희는 스플릿부터 시작하지만, 앞으로는 매일 셀카나 전신 변화와 같은 것들을 추가할 예정입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 화면 녹화: 주인공인 프로트랙터 UI가 특징이며 여러분의 스플릿을 측정합니다. 현재는 수동 입력만 가능합니다.
 
@@ -87,21 +149,39 @@ isUpdated: true
 
 # 코딩 프로세스
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 대략 2년 전 코딩을 시작했어요. 그때 챗GPT가 유명해지기 전이었죠. 생성적 AI 덕분에 코딩이 누구에게나 더 쉬워졌죠. 단 몇 일 동안에 전체 앱을 만들어내다니요? 그전에는 꿈에 그리던 일이었죠.
 
-
 ![이미지](/assets/img/2024-07-23-FromIdeatoAppStoreBuildingaFitnessAppin4Days_2.png)
-
 
 제 방법은 먼저 UI를 설계하고 기능과 데이터베이스 통합을 추가하는 것이었어요. iOS 느낌을 느끼기 위해 Cupertino Elements와 Flutter를 사용했는데, 내 생각에 괜찮은 외관을 만드는 가장 효율적인 방법이에요.
 
-
 ![이미지](/assets/img/2024-07-23-FromIdeatoAppStoreBuildingaFitnessAppin4Days_3.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 카메라 기능
 
@@ -111,7 +191,18 @@ isUpdated: true
 
 카페인으로 가득 찼던 일주일 동안 코딩하고, 의문 스러운 디자인 선택들을 하고, 수익 모델과 관객 연구와 같은 작은 세부사항들에 대한 완전한 무시로, 마침내 완성된 제품을 보게 되었습니다. 그리고 완성뿐만 아니라, 앱 스토어에도 출시했습니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 배운 교훈과 앞으로의 계획
 
@@ -121,7 +212,18 @@ isUpdated: true
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서 요즘은 딱 4일만에 피트니스 애플리케이션을 만들고 출시하는 여정을 함께했어요. 코딩, 디자인, 문제 해결로 정신없이 바쁜 시간이었죠. 완벽하지 않을지라도, 결의와 명확한 목표, 그리고 시한에 어떤 것이 이루어질 수 있는지를 보여주는 증명이에요.
 

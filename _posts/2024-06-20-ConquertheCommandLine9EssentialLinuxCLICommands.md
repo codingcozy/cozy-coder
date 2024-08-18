@@ -3,17 +3,13 @@ title: "명령 줄 정복하기 필수 리눅스 CLI 명령어 9가지"
 description: ""
 coverImage: "/assets/img/2024-06-20-ConquertheCommandLine9EssentialLinuxCLICommands_0.png"
 date: 2024-06-20 14:22
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-ConquertheCommandLine9EssentialLinuxCLICommands_0.png
 tag: Tech
 originalTitle: "Conquer the Command Line: 9 Essential Linux CLI Commands"
 link: "https://medium.com/nerdytest/conquer-the-command-line-20-essential-linux-cli-commands-4729186616e0"
 isUpdated: true
 ---
-
-
-
-
 
 리눅스 명령줄 인터페이스(CLI)는 처음 보는 사람에게는 어렵게 보일 수 있습니다. 암호화된 텍스트와 깜박이는 커서가 기술 마법사들을 위해 예약된 것처럼 보입니다. 그러나 걱정하지 마세요! 이 복잡해 보이는 외부 아래에는 잠재력 가득한 강력한 도구가 숨어 있습니다. 필수 명령어 몇 가지만 습득하면 시스템을 쉽게 탐색하고 파일을 효율적으로 관리하며 작업을 자동화할 수 있습니다. 이 안내서는 여러분을 당혹스러운 초보자에서 숙련된 CLI 닌자로 변몽해주는 20가지 기본 리눅스 CLI 명령어로 여러분을 장비시킵니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 - cd: 정확히 이동하는 디렉토리 미로
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 복잡한 디렉터리 미로를 탐험하는 것은 cd(디렉터리 변경)로 간단합니다. 이 명령어와 목표 디렉터리 경로를 가지고 있으면 파일 시스템의 계층 구조를 순찰하며 원하는 위치로 정확하게 이동할 수 있습니다. 마치 마법의 순간이동 장치 같은 느낌이죠 – cd Documents를 입력하여 즉시 Documents 폴더로 전환하거나, /usr/local/bin을 입력하여 실행 가능한 프로그램을 포함한 시스템 디렉토리로 이동할 수 있습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 - mkdir: 새 디렉터리 생성 — 디지털 요새 구축
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파일 시스템의 조직적 경계를 확장하는 것은 mkdir (make directory)를 사용하면 간단합니다. 이 명령어를 사용하면 새 디렉토리를 만들어 파일과 프로젝트를 보관할 구조적인 계층을 만들 수 있습니다. 디지털 요새를 건설하는 것과 같습니다. mkdir projects를 사용하여 작업용 새 폴더를 만든 다음 mkdir projects/webdev를 사용하여 웹 개발 프로젝트를 위한 하위 폴더를 만들어보세요.
 
@@ -43,7 +61,18 @@ touch를 사용하면 빈 파일을 손쉽게 생성할 수 있습니다. 이 �
 
 - cp: 복제 마법 — 파일 복제의 기술
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파일 복제는 cp (복사)로 아주 간단합니다. 이 명령은 복제의 마스터로 파일 또는 전체 디렉토리를 매끄럽게 복제하여 백업, 배포 또는 여러분의 편의를 위해 복사본을 만들 수 있습니다. 다른 채용 지원을 위해 이력서 복사본이 필요하다고 상상해보세요. cp resume.docx backup_resume.docx를 사용하여 다른 이름으로 복제본을 만들어보세요.
 
@@ -53,7 +82,18 @@ touch를 사용하면 빈 파일을 손쉽게 생성할 수 있습니다. 이 �
 
 - cat: 파일 내용 공개 - 텍스트 보관소 내부 엿보기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 텍스트 파일 내용을 별도의 편집기를 열지 않고 엿보고 싶나요? cat (concatenate)이 여러분의 동반자가 될 거예요. 이 명령은 열고자 하는 파일의 텍스트 보관고를 열고 해당 내용을 원시 상태 그대로 터미널 화면에 표시해줍니다. important_message.txt라는 파일의 내용을 읽고 싶다면 cat important_message.txt를 사용하세요.
 

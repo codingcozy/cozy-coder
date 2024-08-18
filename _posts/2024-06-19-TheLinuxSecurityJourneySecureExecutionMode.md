@@ -3,17 +3,13 @@ title: "리눅스 보안 여정 - 안전한 실행 모드"
 description: ""
 coverImage: "/assets/img/2024-06-19-TheLinuxSecurityJourneySecureExecutionMode_0.png"
 date: 2024-06-19 14:57
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-TheLinuxSecurityJourneySecureExecutionMode_0.png
 tag: Tech
 originalTitle: "The Linux Security Journey — Secure Execution Mode"
 link: "https://medium.com/@boutnaru/the-linux-security-journey-secure-execution-mode-325137c3c76a"
 isUpdated: true
 ---
-
-
-
-
 
 일반적으로 "Secure Execution Mode"에서는 보조 벡터의 "AT_SECURE" 항목에 0이 아닌 값이 포함되어 있는 경우 이진 파일이 실행됩니다. LSM(https://medium.com/@boutnaru/linux-security-lsm-linux-security-modules-907bbcf8c8b4)이 값을 설정한 경우, 작업/프로세스의 "실제 UID"(https://medium.com/@boutnaru/the-linux-security-journey-ruid-real-user-id-b23abcbca9c6) 및 "유효 UID"(https://medium.com/@boutnaru/the-linux-security-journey-euid-effective-user-id-65f351532b79)가 다른 경우(그룹 값도 동일)에도 이 값을 0이 아닌 값으로 만들 수 있습니다. 또한, 일반 사용자가 실행한 이진 파일이 프로세스에 권한을 부여했을 경우에도 이 값이 0이 아닌 값이 됩니다(https://man7.org/linux/man-pages/man8/ld.so.8.html).
 
@@ -23,7 +19,17 @@ isUpdated: true
 
 다음 글에서 만나요 ;-) 트위터에서 제 소식을 확인하려면 @boutnaru(https://twitter.com/boutnaru)를 팔로우해주세요. 또한, 미디엄(https://medium.com/@boutnaru)에서 다른 글도 읽어볼 수 있습니다. 무료 eBook은 https://TheLearningJourneyEbooks.com에서 찾아볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-![2024-06-19-TheLinuxSecurityJourneySecureExecutionMode](/assets/img/2024-06-19-TheLinuxSecurityJourneySecureExecutionMode_0.png) 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+![2024-06-19-TheLinuxSecurityJourneySecureExecutionMode](/assets/img/2024-06-19-TheLinuxSecurityJourneySecureExecutionMode_0.png)

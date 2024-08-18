@@ -3,7 +3,7 @@ title: "유닉스 리눅스 wc 도구 만들기 최종 파트 표준 입력 지�
 description: ""
 coverImage: "/assets/img/2024-06-20-BuildingUnixLinuxwcToolFinalPartAddingSupportforStandardInput_0.png"
 date: 2024-06-20 14:20
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-BuildingUnixLinuxwcToolFinalPartAddingSupportforStandardInput_0.png
 tag: Tech
 originalTitle: "Building Unix Linux wc Tool Final Part: Adding Support for Standard Input"
@@ -11,19 +11,25 @@ link: "https://medium.com/@jonathanzihindula95/building-unix-linux-wc-tool-final
 isUpdated: true
 ---
 
-
-
-
-
 <img src="/assets/img/2024-06-20-BuildingUnixLinuxwcToolFinalPartAddingSupportforStandardInput_0.png" />
 
 지금까지 시리즈의 이전 부분을 읽지 않으셨다면, 먼저 읽어보시는 것을 권장합니다 :)
 
 1. Part I: 이 부분에서는 wccommand의 기본 구성, 파일 크기 계산만을 지원하는 데 중점을 뒀습니다.
-   
 2. Part II: Part II에서는 라인 카운터 플래그를 지원하도록 추가하는 데 중점을 뒀습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. Part III: 이번 글은 최신 글로, 단어 카운터 플래그를 지원하는 데 초점을 맞추었습니다.
 
@@ -36,7 +42,18 @@ go run main test.txt
 // 결과: 7145   58164  342190 test.txt
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 입력 파일 이름이 지정되지 않은 경우 표준 입력에서 읽어 들일 수 있는 지원 추가
 
@@ -49,7 +66,18 @@ cat test.txt | go run main.go -l
 
 파일 내 라인 수, 단어 수 등을 얻는 서로 다른 로직을 처리하는 함수가 이미 있었습니다. 이 목표를 달성하기 위한 접근 방법은 ProcessFile 함수에 콜백 함수를 전달하여 파일의 바이트 수, 파일 내 라인 수 및 파일 내 단어 수를 얻는 데 책임이 있는 세 가지 함수를 호출하고 그 결과를 출력하는 것이었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ProcessFile(args[0], func(s string) {
@@ -67,7 +95,18 @@ ProcessFile(args[0], func(s string) {
 
 다음 코드를 고려해보겠습니다. 이 코드는 파일의 바이트 수를 얻는 데 사용되는 c 플래그를 생성합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 byteNumber := flag.String(byteNumberFlag, "", "파일 바이트 수를 얻는 플래그")
@@ -83,7 +122,18 @@ byteNumber := flag.String(byteNumberFlag, "", "파일 바이트 수를 얻는 �
 - 길이가 하나인 경우, 다른 플래그와 비교합니다.
 - 각 플래그에 대해 해당 함수를 실행합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```go
 // 명령줄 인수 가져오기

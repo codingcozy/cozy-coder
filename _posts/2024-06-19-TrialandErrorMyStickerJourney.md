@@ -3,17 +3,13 @@ title: "시행 착오 내 스티커 여행"
 description: ""
 coverImage: "/assets/img/2024-06-19-TrialandErrorMyStickerJourney_0.png"
 date: 2024-06-19 06:02
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-TrialandErrorMyStickerJourney_0.png
 tag: Tech
 originalTitle: "Trial and Error: My Sticker Journey"
 link: "https://medium.com/the-diy-diaries/trial-and-error-my-sticker-journey-37d7aac92e56"
 isUpdated: true
 ---
-
-
-
-
 
 ## DIY
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 그런 다포이스 스티커를 만들어보려고 디지털로 실험하기 시작했어요. 종이에 그린 내용을 컴퓨터 화면으로 옮기는 것이 쉽지 않았지만, 결국 성공했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 물론, 디지턈 제품만큼 어려움이 많았죠. 스티커 커팅 기계와 프린터, 스티커 용지와 함께 다뤄야 했는데, 모두가 조심스럽게 다뤄야 하는 것들이었죠. 배우는 유일한 방법은 다양한 것을 시도해보고 실험하는 것입니다. 적지 몇 장을 망치거나 여러 번 잉크를 낭비하더라도 돼요.
 
@@ -37,7 +44,18 @@ isUpdated: true
 
 이것이 제 최근 창작물인 Dopis와 그와 관련된 다른 일러스트입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사랑하는 일을 하는 것은 만족감과 성취감을 느끼게 해줘요. 현재는 취미에 불과할지 몰라도, 언젠가는 작은 사업으로 성장할 수도 있고 그렇지 않을 수도 있어요. 하지만, 지금 당장이 중요한 거죠.
 

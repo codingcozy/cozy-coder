@@ -3,17 +3,13 @@ title: "3D 프린팅을 이용한 잘못된 혁신의 위험"
 description: ""
 coverImage: "/assets/img/2024-06-19-TheRiskofFalseInnovationusing3DPrinting_0.png"
 date: 2024-06-19 05:45
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-TheRiskofFalseInnovationusing3DPrinting_0.png
 tag: Tech
 originalTitle: "The Risk of False Innovation using 3D Printing"
 link: "https://medium.com/@hashim.alzain/the-risk-of-false-innovation-using-3d-printing-8cbac9e0e40b"
 isUpdated: true
 ---
-
-
-
-
 
 ![테이블 이미지](/assets/img/2024-06-19-TheRiskofFalseInnovationusing3DPrinting_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 산업 혁명은 대량 생산의 시대를 열었으며 제조업의 지형을 영원히 바꾸었습니다. 오늘날, 새로운 혁신의 파도가 다시 한번 산업을 재편하려고 합니다: 부가 제조 (AM), 보다 일반적으로는 3D 프린팅으로 더 잘 알려져 있습니다. 신속한 프로토타입 제작, 디자인 유연성 및 주문형 생산의 약속을 가지고 있는 AM은 전 세계적으로 기업들의 상상력을 사로잡았습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 많은 기업들에게 있어서 Additive Manufacturing 구현의 성공적인 길은 오해로 가득합니다. 이 케이스 스터디는 Additive Manufacturing 세계에서 "가짜 혁신"의 환상을 탐구합니다. 여기서 기술 획득에 집중함으로써 사우디 아라비아 왕국에서 3D 프린팅이 유기적으로 채택되도록 보장해야 하는 문화적 및 운영적 변화의 중요성이 간과되는 문제를 살펴봅니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 회사: 위젯코프, 원더랜드 국가에 입성한 중소 규모의 3D 프린팅 제조 회사.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도전 과제: 위젯회사는 원더랜드 정부로부터 저렴한 비용으로 복잡한 소량의 기계 부품에 대한 리드 타임을 개선해야 한다는 압력을 받았습니다. 이들은 3D 프린팅이 전통적인 공구 없이 정교한 기하학을 만들 수 있는 능력 때문에 잠재적인 해결책으로 보았습니다. 그에 따라, 그들은 원더랜드 지역 산업의 필요를 충족시키기 위해 3D 프린팅 서비스에 특화된 새로운 회사를 설립했습니다.
 
@@ -47,13 +65,24 @@ isUpdated: true
 
 ## 불가피한 함정
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 기술적인 장애: WidgetCorp의 엔지니어들은 3D 프린팅의 복잡성으로 인해 고민할 것입니다. 재료 선택, 부가 제조용 부품 설계 및 후속 가공 기술에 대한 도전에 직면할 것입니다.
 - 통합 문제: 3D 프린팅된 구성 요소를 기존 워크플로에 통합하는 것은 어려워질 것입니다. 팀은 부가 접근 방식을 보완하기 위해 기존 감산 공정을 최적화하는 전문 지식이 부족합니다.
 - 비용에 대한 환멍: 비용 절감에 대한 초기 흥분이 3D 프린터의 재료, 교육 및 지속적인 유지 보수의 높은 비용을 고려할 때 식을 것입니다.
 - 엔지니어의 좌절: 상위에서의 압박과 현장 엔지니어들의 참여 부족으로 인해 3D 프린팅에 대한 좌절감과 저항감이 생길 것입니다.
-- 놓친 기회: WidgetCorp은 지역 감산 제조 전문가, 역공학 회사 및 금속학 분석 전문가와의 잠재적인 파트너십을 탐색하지 않았기 때문에 전통적인 제조 방식과 부가 제조 사이의 간극을 좁히는 데 도움을 줄 수 있었던 기회를 놓쳤습니다.	
+- 놓친 기회: WidgetCorp은 지역 감산 제조 전문가, 역공학 회사 및 금속학 분석 전문가와의 잠재적인 파트너십을 탐색하지 않았기 때문에 전통적인 제조 방식과 부가 제조 사이의 간극을 좁히는 데 도움을 줄 수 있었던 기회를 놓쳤습니다.
 
 # 오인되기 쉬운 혁신의 위험
 
@@ -61,7 +90,18 @@ isUpdated: true
 
 # 1. 기술적 제약들
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 원더랜드에서 종단 사용자에 의한 3D 프린팅 부품에 대한 철저하고 실제 세계 테스트가 부족합니다. 이는 원더랜드의 높은 열, 진공 및 습도와 같은 가혹한 환경에서 장기적으로 이러한 부품이 어떻게 성능을 발휘하는지에 대한 확고한 데이터가 없다는 것을 의미하며 다음과 같은 몇 가지 우려사항을 던집니다:
 
@@ -71,12 +111,23 @@ isUpdated: true
 - 재료 동등성: 선택된 3D 프린팅 재료가 전통적으로 가공된 재료와 같은 속성과 성능을 가지고 있는지는 어떤가요?
 - 구조적 제약: 3D 프린팅은 복잡한 기하학에서 뛰어나지만 일부 산업 부품은 현재의 프린팅 방법으로 어렵게 달성할 수 있는 높은 스트레스, 압력, 온도를 경험하거나 특정 결정 구조가 필요할 수 있습니다. 이러한 엄격한 응용 분야에는 전통적인 제조 기술이 더 적합할 수 있습니다.
 - 제한된 공학 전문 지식: 부가 제조를 위해 특별히 설계된 부품을 위한 공학 상점 도면을 개발하기 위해 기계 설계를 이해하는 경험있는 인력의 부족이 있습니다. 부가 제조를 채택하려는 경우 제조 생태계에서의 경험의 한정성으로 인해 공학 상점 도면은 높은 부정 소홀로 취급되며 기계 디자이너가 운영 조건을 부품 설계로 통합하는 방법으로 설계 자체에 통합합니다.일치시키는 공학 요소는 필드에 설치될 때 잘 맞도록,
-  
+
 # 2. 비용 고려 사항
 
 이러한 부품에 대한 3D 프린팅이 실제로 전통적인 치솟형 제조(가공 및 주조)보다 저렴한지 여부는 분명하지 않습니다. 고려해야 할 요소는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 부가비용 대비 차감비용: 3D 프린팅 공정 및 소재 비용이 가공과 비교하여 줄어든 폐기물로 인해 상쇄되는가요?
 - 물류 비용: 현재 소재와 기계 모두 수입품인데, 비용에 추가로 부가되는 운송 및 통관 수수료가 있나요?
@@ -87,7 +138,18 @@ isUpdated: true
 
 간단히 말해, 원더랜드에서의 기계 부품용 3D 프린팅 기술은 아직 초기 단계에 있습니다. 대중적인 채택이 일어나기 전에 이러한 문제를 해결하기 위해 더 많은 연구, 시험 및 개발이 필요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 표를 Markdown 형식으로 변경해 주세요.
 
@@ -100,7 +162,18 @@ isUpdated: true
 
 기계 부품으로 3D 프린팅을 신뢰할 수 있고 실용적인 옵션으로 만드는 비결은 적절한 해법을 찾는 것입니다. 전통적인 제조와 부가 제조 모두 장단점이 있습니다. 이상적인 접근 방식은 종종 둘을 결합하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3D 프린팅 부품의 성능을 특정 응용 프로그램에 대해 유효성을 검증하는 것은 필드 테스트가 중요한 역할을 합니다. 기술이 성숙해지고 다양한 재료가 이용 가능해지면, 3D 프린팅 부품에 대한 유효한 응용 프로그램 범위가 계속 확대될 것입니다.
 
@@ -112,7 +185,18 @@ isUpdated: true
 
 ![image](/assets/img/2024-06-19-TheRiskofFalseInnovationusing3DPrinting_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위젯 회사의 경험은 3D 프린팅에 대한 "놀라운 해결책" 태도의 위험을 강조합니다. 진정한 혁신을 이루기 위해서는 전체 생태계를 고려한 종합적인 접근이 필요합니다.
 
@@ -125,7 +209,18 @@ isUpdated: true
 
 위젯 회사가 자신들의 실수를 인식한다면, 아직 소멸되지 않은 희망이 있으므로 수정 조치를 취할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 교육 및 교육: 3D 프린팅의 기능과 한계에 대해 최종 사용자 엔지니어 및 기술자들에 대해 인식을 높이고 교육을 제공해야 합니다. 왜냐하면 그들은 부가 제조 부품을 채택한 결과를 직접 경험해야 하며, 그것이 안전하다고 믿어야 하기 때문입니다.
 - 협업: 부가 제조, 역공학, 및 금속학 전문가와 협업하여 3D 프린팅에 적합한 부품을 식별하고 추가 과정에 디자인을 최적화합니다.
@@ -138,10 +233,20 @@ isUpdated: true
 
 위젯사의 사례는 부가 제조 분야로 진입하려는 기업들에게 주의를 줄 필요가 있음을 알려줍니다. 3D 프린팅은 훌륭한 잠재력을 제공하지만, 진정한 혁신은 단순히 프린터를 확보하는 것이 아니라 종합적인 접근을 육성하는 데 있습니다. 이는 부가적인 플레이어부터 공급망 전문가까지 제조 생태계 전반에 파트너십을 구축하는 것을 포함합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가장 중요한 것은 성공적인 부가 제조 채택이 기술 팀의 찬성에 달려 있습니다. 이 팀은 기술의 복잡성을 탐색할 것입니다. "만들면 사람들이 올 것이다"라는 태도를 버리고 협력적이고 사용자 중심적인 접근을 채택함으로써 기업은 부가 제조의 참된 잠재력을 발휘하고 지속 가능하고 민첩한 제조의 미래로 전진할 수 있습니다.
-
 
 ![2024-06-19-TheRiskofFalseInnovationusing3DPrinting_4.png]("https://path_to_your_image_file")
 
@@ -149,7 +254,18 @@ isUpdated: true
 
 ![2024-06-19-TheRiskofFalseInnovationusing3DPrinting_5.png]("https://path_to_your_image_file")
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 은박 어린 총알의 환상
 
@@ -165,7 +281,18 @@ isUpdated: true
 - 현지화가 중요합니다: 지역의 Bed를 잘 아는 현지 역공학 회사와의 협력이 효율적인 적용에 중요합니다.
 - 공급망 통합: 기존 공급망에 3D 프린팅을 매끄럽게 통합하여 중단을 최소화하고 워크플로우를 최적화합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 경영진을 넘어서
 
@@ -181,7 +308,18 @@ isUpdated: true
 - 가짜 혁신은 위험 회피를 증가시킵니다 : 너무 많은 약속과 실망은 기업이 새로운 기술에 대해 계산된 위험을 감수하려는 것을 억제할 수 있습니다.
 - 산업에 해를 끼치는 것 : 가짜 혁신은 3D 프린팅에 대한 부정적인 인식을 만들어내어 보다 넓은 도입을 저해할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 믿음과 장기적인 성공을 구축하기
 
@@ -192,7 +330,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-19-TheRiskofFalseInnovationusing3DPrinting_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해시 댄서 로그인 이메일: hashim@dartec.com.sa
 

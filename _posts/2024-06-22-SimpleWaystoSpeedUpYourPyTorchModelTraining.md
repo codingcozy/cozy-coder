@@ -3,17 +3,13 @@ title: "PyTorch 모델 학습 속도를 높이는 간단한 방법들"
 description: ""
 coverImage: "/assets/img/2024-06-22-SimpleWaystoSpeedUpYourPyTorchModelTraining_0.png"
 date: 2024-06-22 21:04
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-SimpleWaystoSpeedUpYourPyTorchModelTraining_0.png
 tag: Tech
 originalTitle: "Simple Ways to Speed Up Your PyTorch Model Training"
 link: "https://medium.com/towards-data-science/simple-ways-to-speed-up-your-pytorch-model-training-9c9d4899313d"
 isUpdated: true
 ---
-
-
-
-
 
 ## 만약 머신 러닝 엔지니어들이 원하는 것이 하나 있다면, 더 빠른 모델 학습일 것입니다 — 아마도 좋은 테스트 지표 이후에
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 머신 러닝 모델 학습을 가속화하는 것은 모든 머신 러닝 엔지니어가 원하는 한 가지입니다. 빠른 학습은 더 빠른 실험, 제품에 대한 더 빠른 반복을 의미합니다. 또한, 한 모델 학습에 필요한 리소스를 줄여줍니다. 그러니, 본론으로 넘어가요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 컨테이너화
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 출발점으로서, NVIDIA로부터 사전 빌드된 이미지를 사용할 수 있습니다. 이미 CUDA, PyTorch 및 기타 인기 있는 라이브러리가 설치되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # PyTorch 프로파일러에 익숙해져보세요
 
@@ -45,7 +63,18 @@ isUpdated: true
 
 이게 다죠. 그리고 활성화하는 것도 쉽습니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이벤트를 기록하기 위해서는 다음과 같이 프로파일러 컨텍스트에 교육을 포함시키면 됩니다:
 
@@ -63,7 +92,18 @@ with profiler.profile(
 
 프로파일러에는 다양한 옵션이 있지만, 가장 중요한 것은 activities와 profile_memory입니다. 다른 옵션을 실험해 볼 수 있지만, 간단한 규칙을 기억하세요: 가능한 옵션이 적을수록 오버헤드가 적습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서, 만약 CUDA 커널 실행 시간을 프로파일링하고 싶다면, CPU 프로파일링 및 다른 기능을 끄는 것이 좋은 아이디어입니다. 이 모드에서는 프로파일링이 실제 실행과 가능한 가까워집니다.
 
@@ -79,8 +119,18 @@ with profiler.record_function("train_step"):
 
 이렇게 하면 사용하는 레이블이 추적에서 볼 수 있게 됩니다. 그래서 코드 블록을 식별하기가 더 쉬워집니다. 심지어 forward 모드 내에서 더 세부적으로:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 with profiler.record_function("transformer_layer:self_attention"):
@@ -98,8 +148,18 @@ with profiler.record_function("transformer_layer:encoder_attention"):
 
 바로 학습의 핵심 부분을 찾아보세요:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 데이터 로딩
 - 순전파
@@ -111,7 +171,18 @@ with profiler.record_function("transformer_layer:encoder_attention"):
 
 데이터 로딩 시, 실행 시간을 거의 없애고 싶습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 물탱크를
 변경하려면
@@ -119,8 +190,18 @@ with profiler.record_function("transformer_layer:encoder_attention"):
 태그를
 바꾸십시오.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 백그라운드 프로세스에서 데이터 처리하기 (GIL이 없음)
 - 데이터 증강 및 변환을 병렬 프로세스에서 처리하기
@@ -131,7 +212,18 @@ with profiler.record_function("transformer_layer:encoder_attention"):
 
 # 메모리 할당자와 친구 되기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이토치의 CUDA 캐싱 할당자와 친구가 되고 싶다면, 반가워요!
 
@@ -141,7 +233,18 @@ CUDA 장치에서 PyTorch로 텐서를 할당할 때, PyTorch는 캐싱 할당�
 
 이후, 할당자는 다시 캐시를 구축하기 시작하며, 비용이 많이 드는 cudaMalloc을 계속 수행하게 되요. 이 문제를 확인하려면 텐서보드 프로파일러 뷰어의 메모리 프로파일러 섹션을 살펴보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 볼때와 같이 할당자의 예약된 메모리에 해당하는 빨간 선이 계속 변하는 걸 보실 수 있습니다. 이는 PyTorch 할당자가 할당 요청을 효율적으로 처리하지 못한다는 것을 의미합니다.
 
@@ -151,19 +254,41 @@ CUDA 장치에서 PyTorch로 텐서를 할당할 때, PyTorch는 캐싱 할당�
 
 ## 확장 가능 세그먼트
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 PyTorch의 비교적 새로운 할당자 모드인 'expandable_segments:True'로 설정해보는 것이 가치 있는 첫 번째 시도입니다:
 
 ```js
-PYTORCH_CUDA_ALLOC_CONF="expandable_segments:True"
+PYTORCH_CUDA_ALLOC_CONF = "expandable_segments:True";
 ```
 
 이렇게 하면 PyTorch 할당자가 앞으로 확장될 수 있는 블록을 할당하도록 지시합니다. 우리 상황에 딱 맞는 조치입니다. 그러나 크기 변동이 너무 크면 문제를 해결하지 못할 수도 있습니다. 이 경우에는 다음 옵션으로 넘어가세요.
 
 ## 할당 크기 변동 줄이기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다른 가능한 해결책은 데이터 모양을 일관되게 만드는 것입니다. 그러면 할당기가 재사용할 데이터 블록을 더 쉽게 찾을 수 있게 됩니다.
 
@@ -173,20 +298,41 @@ PYTORCH_CUDA_ALLOC_CONF="expandable_segments:True"
 
 # 할당 기록 정리하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 사용 가능한 GPU 메모리를 활용하려 합니다. 이렇게 하면 큰 배치를 실행하고 데이터를 빠르게 처리할 수 있습니다. 그러나 배치 크기를 늘릴 때 CUDA 메모리 부족 오류가 발생할 수 있습니다. 이 오류가 발생하는 이유는 무엇인가요?
 
 이를 해결하기 위해 할 수 있는 방법 중 하나는 할당자의 메모리 이력을 확인하는 것입니다. PyTorch로 이를 기록하고 있으면 https://pytorch.org/memory_viz에서 시각화할 수 있습니다.
 
-- 시작: torch.cuda.memory._record_memory_history(max_entries=100000)
-- 저장: torch.cuda.memory._dump_snapshot(file_name)
-- 중지: torch.cuda.memory._record_memory_history(enabled=None)
+- 시작: torch.cuda.memory.\_record_memory_history(max_entries=100000)
+- 저장: torch.cuda.memory.\_dump_snapshot(file_name)
+- 중지: torch.cuda.memory.\_record_memory_history(enabled=None)
 
 시각화 결과는 이렇게 그려집니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-22-SimpleWaystoSpeedUpYourPyTorchModelTraining_1.png)
 
@@ -196,10 +342,18 @@ x축은 시간을, y축은 총 사용된 메모리를 나타내며, 다채로운
 
 스파이크 외에도 메모리 누수를 간편하게 감지할 수 있습니다:
 
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
-
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Training Data Issue](/assets/img/2024-06-22-SimpleWaystoSpeedUpYourPyTorchModelTraining_2.png)
 
@@ -209,8 +363,18 @@ As you see, some data after the first forward is not cleared. By clicking on blo
 
 이보다 더 좋은 것이 있을까요? 점곱 주의를 계산하는 FlashAttention 커널을 사용하여 이를 달성할 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 이에 대해 들어보지 못했다면, 주의를 기울여야 할 계산 정확도를 갖는 dot product attention을 구축하지 않고도 실행하는 방법이 있습니다. 이는 GPU의 io 작업을 최적화하여 속도를 향상시키고 메모리 소비를 격차적으로 줄입니다. 사용하지 않을 이유가 단순히 없습니다.
 
@@ -220,7 +384,18 @@ As you see, some data after the first forward is not cleared. By clicking on blo
 
 ## Transformer Engine
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 파이토치 그 자체!
 
@@ -230,7 +405,18 @@ As you see, some data after the first forward is not cleared. By clicking on blo
 
 훈련을 실행하기 위해 여러 GPU를 사용하는 경우, 기본적인 해결책은 DistributedDataParallel 클래스를 사용하는 것입니다. 이렇게 하면 여러 개의 동일한 프로세스가 생성되고, 그라디언트가 역전파 단계에서 집계됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만, 그것은 최적이 아닙니다!
 
@@ -240,7 +426,18 @@ As you see, some data after the first forward is not cleared. By clicking on blo
 
 언급한 대로, 여러 GPU에서 훈련할 때 DDP로 훈련할 때 각 프로세스는 동일한 데이터의 정확한 사본을 갖게 됩니다. 몇 가지 개선을 구현함으로써 최적화할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 샤드 최적화 상태 (ZeRO 1)
 
@@ -250,7 +447,18 @@ DDP로 학습할 때 각 프로세스가 최적화 상태의 완전한 복사본
 
 우리는 최적화 상태를 샤딩합니다. 이제 우리는 최적화 단계에서 그래디언트를 또한 샤딩할 것입니다. 하나의 랭크가 매개변수의 일부분에 대한 최적화 상태를 보유하고 있다면, 이제 우리는:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 랭크가 보유한 상태와 관련된 모든 그래디언트를 집계합니다.
 - 최적화 단계를 계산합니다.
@@ -262,7 +470,18 @@ DDP로 학습할 때 각 프로세스가 최적화 상태의 완전한 복사본
 
 이 일이 엄청날 것 같네요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 랭크마다 모델의 전체 복사본을 저장해야 하는 이유가 무엇일까요? 모델 매개변수를 모든 랭크 사이에서 샤딩할 것입니다. 그럼, 순방향 및 역방향 중에 필요한 매개변수를 필요할 때 가져올 것입니다.
 
@@ -286,7 +505,18 @@ optimizer = optim.Adam(model.parameters())
 train(model, optimizer)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 FSDP의 샤딩 전략을 지정할 수도 있어요. 예를 들어, SHARD_GRAD_OP 전략을 선택해서 ZeRO2와 유사한 동작을 얻을 수 있어요. 다른 전략에 대해 자세히 알고 싶다면 여기를 확인해 보세요:
 
@@ -296,11 +526,22 @@ FSDP의 샤딩 전략을 지정할 수도 있어요. 예를 들어, SHARD_GRAD_O
 
 # torch.compile으로 마법처럼 속도 향상
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-그러니까, torch compile을 활성화하면 코드 실행 속도가 몇 퍼센트나 빨라질 수 있어요. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-Torch는 실행 그래프를 추적하고 효율적인 형식으로 변환하여 모델을 거의 Python 호출 없이 실행할 수 있도록 합니다. 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+그러니까, torch compile을 활성화하면 코드 실행 속도가 몇 퍼센트나 빨라질 수 있어요.
+
+Torch는 실행 그래프를 추적하고 효율적인 형식으로 변환하여 모델을 거의 Python 호출 없이 실행할 수 있도록 합니다.
 
 기본적인 사용법은 모델을 compile로 감싸는 것입니다:
 
@@ -310,7 +551,18 @@ import torch
 model = torch.compile(model)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 작업은 거의 즉시 실행됩니다. 실제 추적은 첫 번째 전진 중에만 발생합니다.
 
@@ -320,7 +572,18 @@ model = torch.compile(model)
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 게시물은 설명이 완전하지 않습니다. 대신, 즉시 시도해볼 가치가 있는 속도 향상 목록입니다. 도움이 되었기를 바랍니다. 댓글을 자유롭게 남겨주세요!
 

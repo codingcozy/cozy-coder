@@ -3,17 +3,13 @@ title: "파이썬에서 OBJ 파일에서 3D 모양 불러오기 load_shape_from_
 description: ""
 coverImage: "/assets/img/2024-06-20-Loading3DShapesfromOBJFilesinPythonAGuidetotheload_shape_from_objMethod_0.png"
 date: 2024-06-20 16:36
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-Loading3DShapesfromOBJFilesinPythonAGuidetotheload_shape_from_objMethod_0.png
 tag: Tech
 originalTitle: "Loading 3D Shapes from OBJ Files in Python: A Guide to the load_shape_from_obj Method"
 link: "https://medium.com/@harunijaz/the-code-above-is-a-python-function-that-reads-and-loads-data-from-a-obj-e6f6e5c3dfb9"
 isUpdated: true
 ---
-
-
-
-
 
 아래는 .obj 파일에서 데이터를 읽어 딕셔너리에 로드하는 Python 함수 코드입니다. .obj 파일은 3D 모델의 형태에 대한 정보를 저장하는 3D 모델 파일 형식으로, 3D 모델의 꼭지점과 면과 같은 정보를 저장합니다. 이 함수는 file_path라는 매개변수를 하나 가져오는데, 이는 .obj 파일의 경로입니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 파일의 모든 줄을 처리한 후 함수는 두 개의 키, "vertices"와 "faces"를 갖는 shape_data라는 딕셔너리를 생성하여 형태의 꼭지점과 면 데이터를 저장합니다. 그리고 이 딕셔너리가 함수에 의해 반환됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기능에는 try-except 블록을 사용하여 오류 처리도 포함되어 있습니다. .obj 파일을 찾을 수 없는 경우, 함수는 FileNotFoundError를 잡고 파일을 찾을 수 없다는 메시지를 인쇄합니다. 다른 오류가 발생하면 해당 오류를 잡고 모양을로드하는 동안 오류가 발생했다는 메시지를 출력합니다.
 

@@ -3,17 +3,13 @@ title: "AI 예술은 진짜 예술인가"
 description: ""
 coverImage: "/assets/img/2024-06-22-IsAIArtRealArt_0.png"
 date: 2024-06-22 21:58
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-IsAIArtRealArt_0.png
 tag: Tech
 originalTitle: "Is AI Art Real Art?"
 link: "https://medium.com/one-zero/is-ai-art-real-art-92ab815b73d6"
 isUpdated: true
 ---
-
-
-
-
 
 ## 코드로 생성된 수백만 장의 이미지가 새로운 경제 엔진을 가속화시켰습니다. 그러나 현대 예술은 여러 해 동안 여러 물꼬를 일으켜 온 것으로 알려져 있습니다. AI 예술은 새 시대의 도래일까요, 아니면 예술 세계의 최신 장난일까요?
 
@@ -23,24 +19,42 @@ isUpdated: true
 
 저에게는 답이 명확합니다: AI 생성 예술은 예술입니다. 물론 그렇습니다. 그것은 레시피를 따르고 입력과 출력이 있습니다. 레시피를 개발하는 것도 예술이고, 레시피를 사용하여 새로운 것을 세상에 내놓는 것도 예술입니다. 둘 다 예술입니다. 이게 왜 논란이 되는 걸까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 온라인 리소스와 문서를 공유하려면 가장 흔하게 사용되는 **Markdown** 양식을 사용하는 것이 좋습니다. 간단하고 사용하기 쉬우며 거의 모든 플랫폼에서 지원됩니다. Markdown으로 테이블을 변경해 보겠습니다:
 
-
-| Topic          | Translation                                    |
-|----------------|------------------------------------------------|
-| Language       | 언어                                           |
-| Translation    | 번역                                           |
-| Developer      | 개발자                                         |
-| Friendly       | 친절한                                        |
-
+| Topic       | Translation |
+| ----------- | ----------- |
+| Language    | 언어        |
+| Translation | 번역        |
+| Developer   | 개발자      |
+| Friendly    | 친절한      |
 
 위와 같이 Markdown 형식으로 테이블을 작성할 수 있습니다. 종이와 필기구 없이도 코드를 깔끔하게 구성할 수 있어서 편리합니다. 어떤 테이블 형식이 필요한지 주시면 도와드리겠습니다!
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Artwork](/assets/img/2024-06-22-IsAIArtRealArt_1.png)
 
@@ -50,7 +64,17 @@ AI로 생성된 예술에서 컴퓨터가 모든 결정을 내리는 것처럼 �
 
 언뜻 보기에 이러한 종류의 작업을 만들기 위해 사용하는 도구는 "모든 일을 한다"는 반대 의겢입니다. 그들의 출력물은 예측하기 어렵고 자체적인 마음을 지니는 것처럼 보입니다. 이러한 도구를 통해 흥미로운 결정을 내리기 전에 아티스트는 새로운 기술에서 수년간의 공부와 숙련도를 쌓아야 합니다. 비평가, 큐레이터, 예술을 감상하는 대중 등이 작품과 상호작용하는 새로운 방식을 개발하고 그것을 찾기 위한 새로운 기준을 정립해야 할 것입니다. 새로운 예술 형태가 새로운 예술을 형성할 것입니다. 그런 상황이 언제나 다를 수 있었겠습니까?
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 많은 창조적인 '아트'를 보려면 https://studioamelia.com에 있는 포트폴리오나 메타버스에서 https:/oncyber.io/studioamelia를 확인해보세요!

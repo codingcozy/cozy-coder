@@ -3,18 +3,13 @@ title: "애플 인텔리전스가 나에게 아이폰으로 다시 돌아오게 
 description: ""
 coverImage: "/assets/img/2024-06-19-WillAppleIntelligenceBringMeBacktotheiPhone_0.png"
 date: 2024-06-19 04:48
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-WillAppleIntelligenceBringMeBacktotheiPhone_0.png
 tag: Tech
 originalTitle: "Will Apple Intelligence Bring Me Back to the iPhone?"
 link: "https://medium.com/macoclock/will-apple-intelligence-bring-me-back-to-the-iphone-b40603bb3679"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![image](/assets/img/2024-06-19-WillAppleIntelligenceBringMeBacktotheiPhone_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 네, iPad용 계산기가 포함되어 있습니다. 드디어.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 Apple은 카드 속에 엄청난 것을 가지고 있었습니다 — Apple Intelligence. 한 번에, 그들은 테크 분야를 지배해온 이 약자를 건방지게 독차지하며, 올해 그들의 운영 체제의 진정한 업데이트를 공개했습니다.
 
@@ -36,7 +41,18 @@ isUpdated: true
 최근 몇 년간 가장 보수적인 iOS 업데이트 중 하나입니다.
 Apple Intelligence를 빼면, 홈 화면의 어디에나 앱 아이콘을 배치할 수 있게 되었고, 여러 컨트롤 센터, 앱을 잠그고 '숨길' 수 있는 기능, RCS 지원 및 새로운 사진 앱이 추가되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 물론 다른 것들도 있어요. Apple Cash를 이용할 수 있는 곳에 사시면 다른 사람의 폰에 터치해서 개인 정보를 교환하지 않고 돈을 보낼 수 있어요. 메일은 메시지의 장치 내 분류가 가능한 Gmail로 변모했고, 게임 모드가 있어서 게임을 진지하게 즐기는 분들에게 유용할 거에요.
 
@@ -46,7 +62,18 @@ iOS 18은 환상적인 운영 체제가 될 것 같아요. 그리고 일부 매�
 
 그렇게 하는데에는 다시 전환할 매력적인 이유가 더 필요해요. 어제는 두 가지 잠재적인 이유가 있었고, 솔직히 말해서 그 두 가지는 상당히 크긴 했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 이유 1: Mac 통합 기능이 깊이 있다
 
@@ -56,7 +83,18 @@ iOS 18은 환상적인 운영 체제가 될 것 같아요. 그리고 일부 매�
 
 네, S24 Ultra에서도 해결책이 있지만, 그것들은 해결책일 뿐입니다. 해결책이라는 것을 정말로 싫어합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상상해보세요. 어제 Apple이 macOS Sequoia에서 iPhone Mirroring을 소개했을 때 얼마나 기뻤는지요. 이 기능을 통해 iPhone을 Mac 디스플레이에 띄울 수 있고 마치 손에 들고 있는 것처럼 사용할 수 있습니다. 홈 화면을 스와이프하고 앱을 열고 사용할 수 있습니다. 이 과정에서 iPhone은 잠겨 있어 다른 사람에 의해 액세스할 수 없으며, 전원이 꺼진 상태에서도 작동합니다.
 
@@ -66,7 +104,18 @@ iOS 18은 환상적인 운영 체제가 될 것 같아요. 그리고 일부 매�
 
 이게 정말 흥미로워지고 있네요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 이유 2: Apple Intelligence
 
@@ -74,7 +123,18 @@ iOS 18은 환상적인 운영 체제가 될 것 같아요. 그리고 일부 매�
 
 여기에서 다룰 내용이 정말 많으며, 오늘은 너무 깊게 파고들기에 충분한 시간 (또는 수면)이 없지만, iPhone의 Siri에 대한 Apple Intelligence가 의미하는 바에 대해 매우 흥미를 느낍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 바로 본 뜻으로 가자면 — 현재의 Siri는 정말 별로에요. 여러 해 동안 우리는 기능과 유용성을 업데이트해 달라고 요구해 왔지만, 아무런 변화가 없었죠. Apple Intelligence가 나왔을 때 우리가 기다려온 이유를 밝혀줄지도 몰라요 — WWDC 키노트가 이전에 예측한 대로 진행되었다면, 이것이 Siri에 대한 가장 큰 업그레이드라고 할 수 있겠네요. Apple은 모든 조각이 맞물려야만 자사의 개인 비서에 어떠한 변화도 주려 하지 않았고, 이제 모든 게 드디어 맞춰진 것으로 보입니다.
 
@@ -84,7 +144,18 @@ Apple은 자사의 인지 시스템을 강력하고 직관적이며 통합적이
 
 이 결과로 우리는 믿을 수 있는 Siri와 매우 자연스럽고 유용한 대화를 나눌 수 있게 될 것입니다. 제 동의는 이에 대해 전적으로 찬성합니다. Siri를 잘 사용해본 적이 없었는데도 그 이유는 해당 기능이 형편없기 때문이지만, 내 전화기에서 어떤 것을 찾거나 다른 것과 어떻게 연관되는지 살펴보는 데 있어서 전통적인 사고방식을 지키기 때문이기도 해요; 근본적으로 나는 오래된 방법을 사용하고 있기 때문에, Apple Intelligence가 마침내 유혹적으로 사용하게끔 하는 최초의 AI 플랫폼인 것으로 보입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것이 제가 iPhone으로 다시 전환하고 싶어하는 주요 이유일 것입니다. 아마요.
 
@@ -94,7 +165,18 @@ Apple은 자사의 인지 시스템을 강력하고 직관적이며 통합적이
 
 iPhone으로 다시 돌아가려면 이번 WWDC에서 본 새로운 기회들에 완전히 헌신해야 해요. 저는 그 중반까지 왔으나, 이 상황을 곧바로 받아들이기보다는 관심을 가지며 지켜볼 거에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 애플 인텔리전스가 나를 iOS 세계로 다시 끌어들이려면, 기대치가 정말 낮았던 Siri에 의해 매우 낮아졌지만, 이 AI 중심의 세계에서의 기대는 매우 높습니다.
 

@@ -3,17 +3,13 @@ title: "Swift에서 Custom Optionals 구현하기 나만의 Optional 타입 만�
 description: ""
 coverImage: "/milky-road.github.io/assets/no-image.jpg"
 date: 2024-07-13 01:14
-ogImage: 
+ogImage:
   url: /milky-road.github.io/assets/no-image.jpg
 tag: Tech
 originalTitle: "Custom Optionals in Swift: Implementing Your Own Optional Type"
 link: "https://medium.com/@duruldalkanat/custom-optionals-in-swift-implementing-your-own-optional-type-7b44468deca4"
 isUpdated: true
 ---
-
-
-
-
 
 스위프트의 Optional 타입은 값의 존재 여부를 명시적으로 처리하여 더 안전한 코드를 작성하도록 도와주는 강력한 기능입니다. 스위프트는 Optionals에 대한 내장 지원을 제공합니다. 하지만 라이브러리나 프레임워크가 옵셔널에 대한 구문적 설탕(?)을 지원하지 않는 경우는 어떻게 해야 할까요?
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 기본: 사용자 정의 Optional 타입 정의하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 우리는 enum을 사용하여 사용자 정의 Optional 타입을 정의해야 합니다:
 
@@ -38,7 +45,18 @@ enum CustomOptional<Wrapped> {
 
 # 값에 액세스하고 언래핑하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 다음으로 값에 액세스하고 언래핑하는 메소드를 추가해 보겠습니다:
 
@@ -73,7 +91,18 @@ extension CustomOptional {
 
 # Optional Chaining 구현하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단한 Optional Chaining을 지원하기 위해 map와 flatMap의 간소화된 버전을 구현할 수 있습니다.
 
@@ -100,10 +129,22 @@ extension CustomOptional {
 ```
 
 map과 flatMap: 이 두 메서드는 옵셔널 체이닝의 간소화된 버전을 제공합니다:
+
 - map: 제공된 변환 클로저를 사용하여 포장된 값을 변환합니다.
 - flatMap: map과 유사하지만, 다른 CustomOptional을 반환하는 변환에 대해 특별히 설계되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 우리의 사용자 정의 Optional 사용하기
 

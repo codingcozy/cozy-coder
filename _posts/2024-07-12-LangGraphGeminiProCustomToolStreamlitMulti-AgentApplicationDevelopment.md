@@ -3,17 +3,13 @@ title: "LangGraph  Gemini Pro  Custom Tool  Streamlit  다중 에이전트 애�
 description: ""
 coverImage: "/assets/img/2024-07-12-LangGraphGeminiProCustomToolStreamlitMulti-AgentApplicationDevelopment_0.png"
 date: 2024-07-12 23:52
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-LangGraphGeminiProCustomToolStreamlitMulti-AgentApplicationDevelopment_0.png
 tag: Tech
 originalTitle: "LangGraph + Gemini Pro + Custom Tool + Streamlit = Multi-Agent Application Development"
 link: "https://medium.com/gitconnected/langgraph-gemini-pro-custom-tool-streamlit-multi-agent-application-development-79c1473086b8"
 isUpdated: true
 ---
-
-
-
-
 
 ![Chatbot Creation](/assets/img/2024-07-12-LangGraphGeminiProCustomToolStreamlitMulti-AgentApplicationDevelopment_0.png)
 
@@ -24,7 +20,18 @@ LangGraph는 LLM을 이용해 상태가 있는 "다중 액터 응용프로그램
 
 우리는 이를 위한 함수로 LangChain 표현 언어를 제공했지만, 순환을 도입하는 것은 쉽지 않았어요. LangGraph는 순환을 LLM 응용프로그램에 손쉽게 도입할 수 있도록 도와줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LangChain Expression 언어는 순환이나 루프를 설명하기에 적합하지 않지만, LangGraph를 사용하면 요소에 필요한 순환을 설명하고 소개할 수 있습니다.
 
@@ -37,10 +44,20 @@ LangChain Expression 언어는 순환이나 루프를 설명하기에 적합하�
 - 제 YouTube 채널을 팔로우해주세요.
 - 저의 Discord에서 더 많은 정보를 얻을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리의 애플리케이션을 시작하기 전에, 코드가 작동할 수 있는 이상적인 환경을 만들 것입니다. 이를 위해 필요한 Python 라이브러리를 설치해야 합니다. 먼저, 모델을 지원하는 라이브러리를 설치하는 것으로 시작하겠습니다. 아래 라이브러리들을 pip를 이용해 설치할 겁니다.
-
 
 pip install streamlit
 pip install langchainhub
@@ -48,9 +65,7 @@ pip install langgraph
 pip install langchain_google_genai
 pip install -U langchain-openai langchain
 
-
 설치가 완료되면 Langchain, Langchain Google, Langchain Community, os, typing, Langchain Core, operator, Langchain Prebuilt, LangGraph, 그리고 Streamlit을 import할 것입니다.
-
 
 from langchain import hub
 from langchain.agents import Tool, create_react_agent
@@ -69,8 +84,18 @@ from langgraph.graph import END, StateGraph
 from langchain_core.agents import AgentActionMessageLog
 import streamlit as st
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 st.set_page_config(page_title="LangChain Agent", layout="wide")
@@ -85,15 +110,37 @@ def main():
 
     # Input from user
     input_text = st.text_area("Enter your text:")
-    
+
     if st.button("Run Agent"):
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오랫동안 타로 카드에 대한 전문 지식을 쌓아오시면서 온라인에서 다른 나라의 토론에 참여하시는 것이 어때요? 시간을 찾아 카드의 의미와 해석에 대해 나누어 보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로 함수들을 만들어보겠습니다:
 
@@ -117,7 +164,18 @@ def sort_string(string):
     return ''.join(sorted(string))
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금까지 우리는 모든 사용자 정의 도구들을 정의했고 이제 그것들을 에이전트에 추가할 시간입니다.
 
@@ -146,7 +204,18 @@ tools = [
 
 - ChatGoogleGenerativeAI는 Gemini LLM을 사용하기 위해 사용되는 클래스입니다. 그런 다음 ChatGoogleGenerativeAI 클래스에 작업할 Gemini 모델을 전달하여 LLM 클래스를 생성합니다. 그 다음에는 ReAct 접근 방식을 사용하여 도구와 상호 작용할 수 있는 AI 시스템인 에이전트를 만듭니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 에이전트 내에서 상태를 유지하기 위한 클래스를 정의합니다. 에이전트 처리 중의 내부 상태는 이 클래스의 인스턴스에 유지됩니다. 나중에 LangGraph 내에서 이 클래스가 사용될 것입니다.
 
@@ -157,7 +226,18 @@ tools = [
 - intermediate_steps: 에이전트 처리 중 중간 실행 세부사항 및 결과
 - agent_outcome: 에이전트 응답 결과, AgentAction 또는 AgentFinish의 인스턴스가 저장됩니다. 응답 결과가 AgentFinish인 경우, 프로세스를 종료해야 하며, 그렇지 않은 경우에는 도구를 실행해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 에이전트 상태 클래스를 정의합니다.
 
@@ -176,8 +256,18 @@ class AgentState(TypedDict):
 
 - run_agent: 단계 4에서 정의된 에이전트 체인을 실행하는 프로세스
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
  tool_executor = ToolExecutor(tools)
@@ -212,7 +302,7 @@ def execute_tools(state):
     tool_name = last_message.tool
     arguments = last_message
     if tool_name == "Search" or tool_name == "Sort" or tool_name == "Toggle_Case":
-        
+
         if "return_direct" in arguments:
             del arguments["return_direct"]
     action = ToolInvocation(
@@ -221,9 +311,20 @@ def execute_tools(state):
     )
     response = tool_executor.invoke(action)
     return {"intermediate_steps": [(state['agent_outcome'], response)]}
-```  
+```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 이제 전에 받은 응답 결과를 확인하여 에이전트 처리를 계속 할지 종료할지 결정하는 함수에 대해 이야기해볼게요.
 
@@ -256,7 +357,18 @@ def first_agent(inputs):
 
 이렇게 하면 모델이 도구를 더 잘 활용할 수 있게 될 거예요. 혹시 궁금한 점이 있거나 더 도와드릴 게 있으면 언제든지 물어보세요! 🌟
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 에이전트 처리의 그래프를 정의했습니다. 그래프는 대략적으로 노드와 엣지로 구성됩니다. 위키백과의 그래프 이론을 살펴보면 더 잘 이해할 수 있습니다.
 
@@ -298,7 +410,18 @@ work
 
 그럼 실행해 봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 inputs = {"input": input_text, "chat_history": [], "return_direct": False}
@@ -320,8 +443,18 @@ print(result["agent_outcome"].return_values["output"])
 
 어쩌면 코드 결과를 확인하고 싶다면 제 비디오를 확인해보세요.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론 :
 

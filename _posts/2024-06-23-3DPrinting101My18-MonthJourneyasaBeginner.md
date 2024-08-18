@@ -3,17 +3,13 @@ title: "입문자를 위한 3D 프린팅 101 18개월 여정의 경험담"
 description: ""
 coverImage: "/assets/img/2024-06-23-3DPrinting101My18-MonthJourneyasaBeginner_0.png"
 date: 2024-06-23 17:18
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-3DPrinting101My18-MonthJourneyasaBeginner_0.png
 tag: Tech
 originalTitle: "3D Printing 101: My 18-Month Journey as a Beginner"
 link: "https://medium.com/illumination/3d-printing-101-my-18-month-journey-as-a-beginner-11b1d0e4abbc"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-23-3DPrinting101My18-MonthJourneyasaBeginner_0.png" />
 
@@ -32,7 +28,18 @@ isUpdated: true
 
 # 1. 3D 프린팅 간략 소개
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3D 프린팅? 디지턼 디자인에서 손으로 만지며 볼 수 있는 물건들을 만드는 멋진 방법이에요, 예를 들어 게임 캐릭터들도요. 프린터를 상상해 보세요. 하지만 잉크 대신 플라스틱 같은 물질을 쌓아서 컴퓨터에서 디자인한 것을 만들어냅니다.
 
@@ -42,7 +49,18 @@ isUpdated: true
 
 # 2. 프린터 선택
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대부분의 경우, 제품을 선택할 때는 가격과 브랜드 평판(품질과 서비스를 포함한) 등 여러 요인을 고려합니다. 이는 품질을 미리 테스트할 수 없기 때문에 사람들의 의견이 중요하기 때문입니다. 게다가 제품의 목적(즐거움을 위한 것인지 생산을 위한 것인지 등)과 색상 선택과 같은 개인 취향도 중요한 고려 요소입니다.
 
@@ -50,8 +68,18 @@ isUpdated: true
 
 가격이 문제가 되지 않는다면, 가격이 약 2000 호주 달러인 Prusa i3을 고려해보세요. 그러나 초보자로서는 이 제품이 제 예산을 벗어납니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-23-3DPrinting101My18-MonthJourneyasaBeginner_2.png)
 
@@ -61,8 +89,18 @@ isUpdated: true
 
 # 3. 조립 및 설정
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 Ultimaker와 비슷한 프린터를 가지고 있다면 조립 작업이 필요하지 않습니다. 예를 들어, 제 Flashforge Adventure 4는 박스에서 꺼내자마자 사용할 준비가 되어 있었습니다. 그러나 실제로 저는 Ender3의 조립 과정을 즐겼어요. 제 경험에 따르면, 조립하는 것이 꽤 만족스러웠어요(2시간이 걸렸지만요). 걱정하지 마세요, YouTube에는 많은 튜토리얼이 있습니다.
 
@@ -72,8 +110,18 @@ isUpdated: true
 
 예산 제한으로 주로 PLA 필라멘트를 사용하고 있어요. 이것은 약 30달러 정도에 구입할 수 있어요. 주로 eSun, Overture 및 Polymaker 필라멘트를 사용하고 있습니다. 제 개인적인 취향은 기능보다는 색상과 질감에 중점을 두는데, 대부분의 출력물이 장난감이기 때문입니다. 하지만 금속부터 나일론까지 더 다양한 종류를 살펴볼 수도 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-23-3DPrinting101My18-MonthJourneyasaBeginner_4.png)
 
@@ -83,8 +131,18 @@ isUpdated: true
 
 ![image](/assets/img/2024-06-23-3DPrinting101My18-MonthJourneyasaBeginner_5.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 6. 모델 생성 및 조정
 
@@ -94,7 +152,18 @@ isUpdated: true
 
 # 7. 슬라이싱 소프트웨어
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특정 형식으로 모델을 획득한 후에는 프린터가 인식할 수 있는 형식으로 변환하는 것이 필요합니다. 이는 프로그래밍에서 코드를 컴파일하는 것과 유사합니다. 프린터는 프로젝트를 층층히 구축하므로 프린터용 궤적을 생성하기 위해 슬라이싱 소프트웨어라고 불리는 전문 소프트웨어를 사용합니다. 이 목적으로 주로 사용되는 슬라이싱 소프트웨어는 Ultimaker-Cura입니다.
 
@@ -104,7 +173,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-23-3DPrinting101My18-MonthJourneyasaBeginner_8.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 8. 인쇄: 팁 및 소규모 디버깅
 
@@ -116,7 +196,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-23-3DPrinting101My18-MonthJourneyasaBeginner_9.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 9. 프린터 부품: 고장, 업그레이드 및 유지 보수
 
@@ -124,7 +215,18 @@ isUpdated: true
 
 아직 그에 대해 쓸 시간이 없었지만, 학위 논문을 마치고 그 미친 논문을 쓰기 시작할 수 있는지 승인을 받으면 반드시 쓸 것입니다...
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 10. 나만의 인쇄물을 판매하기(Etsy)
 
@@ -134,7 +236,18 @@ isUpdated: true
 
 조사를 하고 Etsy에서 판매를 시작했어요. 작은 사업이지만 수익이 나고, 적어도 이 취미 비용은 지원이 되고 있어요. 하지만 이는 결코 의미있는 사업이 될 수 없을 거예요. 왜냐하면 많은 3D 프린터를 운영하고 맞춤 인쇄물을 원하는 기업들에게 판매하기 위해 많은 노동자를 고용해야 하는 경우를 제외하고는 규모를 키우기가 어렵거든요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-23-3DPrinting101My18-MonthJourneyasaBeginner_12.png" />
 
@@ -144,7 +257,18 @@ isUpdated: true
 
 # 3D 프린팅과 Etsy 샵
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 내 비디오 게임 캐릭터를 3D 프린트하기 위해 필요한 것
 - 내 첫 번째 3D 프린터 설정 방법 — Creality Ender 3 V2
@@ -153,7 +277,7 @@ isUpdated: true
 - 3D 모델링을 배우기 위한 최고의 Blender 튜토리얼 (초보자용)
 - 3D 프린트를 위한 Blender에서 3D 파일 조정하는 방법 — BMO 닌텐도 스위치 스탠드
 - 3D 프린팅을 돕기 위한 서포트 구조 추가 — 횡단/다리 구역
-- 내 3D 프린팅 여정 문서 
+- 내 3D 프린팅 여정 문서
 - 3D 레진 프린팅을 위한 안전 준비
 - 내 첫 번째 레진 3D 프린터 — ELEGOO MARS 2 PRO
 - 3D 프린팅 문제 해결 — 매개변수 조정

@@ -3,17 +3,13 @@ title: "차동 구동 로봇을 위한 Wheel Odometry 모델 분석"
 description: ""
 coverImage: "/assets/img/2024-06-23-WheelOdometryModelforDifferentialDriveRobotics_0.png"
 date: 2024-06-23 18:35
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-WheelOdometryModelforDifferentialDriveRobotics_0.png
 tag: Tech
 originalTitle: "Wheel Odometry Model for Differential Drive Robotics"
 link: "https://medium.com/@nahmed3536/wheel-odometry-model-for-differential-drive-robotics-91b85a012299"
 isUpdated: true
 ---
-
-
-
-
 
 휠 오도메트리란 바퀴의 움직임과 위치를 추정하는 것을 의미합니다. 이는 회전 엔코더(즉, 바퀴의 모터에 부착되어 회전을 측정하는 센서)를 사용하여 이루어집니다. 바퀴로봇이나 자율 주행 차량의 위치 추정에 유용한 기술입니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 바퀴로봇 기술의 세계는 복잡하고 광활합니다. 마찬가지로, 회전 엔코더 센서에는 다양한 옵션이 있습니다. 따라서 휠 오도메트리 모델을 만들기 전에 우리가 모델링할 시나리오를 정의해 봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사에서는 두 개의 바퀴로 이루어진 로봇에 초점을 맞출 것입니다. 우리의 모델에서 로봇의 모양과 실루엣은 중요하지 않습니다. 로봇을 공간에서 한 점으로 취급할 것이기 때문에 이렇게 간단히 모델링할 수 있습니다. 다이어그램에서 우리는 로봇을 간단히 사각형으로 표현할 것입니다. 우리의 로봇에 강제할 유일한 물리적 제약은 두 바퀴가 평행하다는 것입니다. 두 바퀴 사이에 동일한 거리에 위치한 기준점을 정의할 것입니다. 이는 모델의 동력을 간단하게 만들어 줄 것입니다. 또한, 시각화를 위해 로봇의 전방 방향은 삼각형 모양으로 나타낼 것입니다. 따라서, 우리 다이어그램에서 로봇은 다음과 같이 보일 것입니다:
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 <img src="/assets/img/2024-06-23-WheelOdometryModelforDifferentialDriveRobotics_1.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로봇이 앞으로도 뒤로도 움직일 수 있고, 좌우 방향은 로봇의 방향에 따라 반전될 수 있으므로 로봇의 방향 움직임을 논의하는 것이 혼란스러울 수 있습니다. 이 잠재적인 혼동을 해소하기 위해 우리는 컴퍼스가 참 북쪽을 가지고 있는 것처럼, 방향을 절대적인 용어로 정의할 것입니다. 이 글에서는 로봇과의 방향을 상대로 설명할 때 고정된 기준 프레임으로 설정해, 로봇의 전방이 항상 앞쪽을 가리키도록 합니다. 이렇게 설정하면 로봇의 방향에 상관없이 앞, 뒤, 좌, 우가 항상 로봇의 전면을 기준으로 동일하게 유지됩니다. 위 다이어그램에서 보듯, 로봇의 방향이 어디를 향하고 있건, 방향은 항상 전방이 향하고 있는 곳을 기준으로 조정됩니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 ![다이어그램](/assets/img/2024-06-23-WheelOdometryModelforDifferentialDriveRobotics_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 회전 데이터와 함께 엔코더의 정보, 예를 들어 반지름이나 둘레와 같은 정보를 함께 사용하여 바퀴가 이동한 거리를 추정할 수 있습니다. 각 홈은 회전 각도를 나타내며, 특정 시간 간격 사이의 회전량을 알 수 있도록 통과한 홈의 수를 알면 됩니다. 광학 엔코더의 경우, 모든 홈이 동일한 간격으로 배치되어 있으므로, 통과한 홈의 수를 단일 홈이 나타내는 회전량으로 곱하면 시간 간격 사이의 총 회전 각도를 얻을 수 있습니다. 회전 각도를 결정한 후에는 엔코더의 둘레와 곱하여 바퀴가 이동한 거리를 구할 수 있습니다.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 # 바퀴 측정 모델
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희 오도메트리 모델의 목표는 로봇의 위치와 방향을 추정하는 것입니다. 이를 달성하기 위해 회전 엔코더에서 얻는 데이터, 로봇의 치수, 그리고 기하학을 활용할 것입니다. 이전에 설명한대로, 엔코더는 각 바퀴가 각 시간 단계에서 이동한 거리에 대한 정보를 제공할 것입니다. 로봇의 치수를 사용할 때, 로봇을 한 점으로 표현하기 때문에 많이 필요하지 않습니다. 필요한 유일한 치수는 좌우 바퀴로부터 점까지의 거리입니다. 두 바퀴 사이의 거리를 절반으로 나누어 점이 두 바퀴로부터 동일한 거리에 위치하도록 하였으므로, 하나의 숫자만 추적하면 됩니다.
 
@@ -63,8 +103,18 @@ isUpdated: true
 
 첫 두 변수는 특정 시간 단계에서 각 바퀴가 이동한 거리를 대응합니다. 이 정보는 회전 엔코더에서 얻을 것입니다. 세 번째 변수는 두 바퀴 사이의 거리를 측정하고, 점이 두 바퀴로부터 동일한 거리에 위치하므로 해당 거리를 반으로 나누어 파생될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-06-23-WheelOdometryModelforDifferentialDriveRobotics_4](/assets/img/2024-06-23-WheelOdometryModelforDifferentialDriveRobotics_4.png)
 
@@ -74,8 +124,18 @@ isUpdated: true
 
 원 위의 곡선으로 운동을 모델링하는 동기는 거리와 방향 각도를 해결하기 위해 다양한 기하학적 속성을 사용할 수 있기 때문입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 다이어그램에서 모델은 왼쪽으로 전진하는 모습을 보여줍니다. 그럼 직진, 오른쪽, 그리고 후진은 어떨까요? 다행히도, 우리 모델은 여전히 유효합니다 - 그 이유를 살펴봅시다.
 
@@ -85,16 +145,37 @@ isUpdated: true
 
 후진 운동을 포함하는 논의는 비슷한 형태입니다. 후진 운동은 단순히 음의 방향으로 이동하는 거리입니다. 따라서 우리는 음의 거리값을 통해 후진 운동을 포괄할 수 있을 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-지금 이렇게 곡선/호를 사용하여 로봇 움직임을 포착하는 것이 합리적임을 확인했으니, 이제 모델 뒤에 있는 기하학을 살펴봅시다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+지금 이렇게 곡선/호를 사용하여 로봇 움직임을 포착하는 것이 합리적임을 확인했으니, 이제 모델 뒤에 있는 기하학을 살펴봅시다.
 
 첫 번째 기하학적 개념은 각도에 대한 단위입니다. 각도는 일반적으로 도(degrees) 또는 래디언(radians)으로 측정됩니다. 도의 경우, 원을 360개의 동일한 부분으로 나누고 각 잘린 부분의 각도가 1도의 크기입니다. 래디언의 경우, 호의 길이로 정의되며, 단위 원(반지름이 1인 원)의 곡선에 대한 호의 길이와 각도를 관계짓는다 - 바로 호의 길이에 해당하는 각도를 나타내는 1 래디안입니다.
 
 래디언과 각도 간 변환하는 공식과 표가 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-23-WheelOdometryModelforDifferentialDriveRobotics_6.png)
 
@@ -104,9 +185,18 @@ isUpdated: true
 
 ![image](/assets/img/2024-06-23-WheelOdometryModelforDifferentialDriveRobotics_7.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-06-23-WheelOdometryModelforDifferentialDriveRobotics_8.png)
 
@@ -116,8 +206,18 @@ The last few geometric ideas we’ll state are:
 
 ![Image](/assets/img/2024-06-23-WheelOdometryModelforDifferentialDriveRobotics_9.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 삼각형의 모든 각의 합은 180°입니다
 
@@ -127,7 +227,18 @@ The last few geometric ideas we’ll state are:
 
 ![Circle](/assets/img/2024-06-23-WheelOdometryModelforDifferentialDriveRobotics_11.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금은 우리의 오도메트리 모델을 알려진 변수와 관심 변수로 주석 달기를 시작해 봅시다. 혼잡을 피하기 위해 현재 시간 아래 첨자를 삭제하고 오도메트리 모델의 핵심 관계를 찾아가는 동안 작업해 보겠습니다. 나중에는 흐름 분석에 중요해지는 변수들로 알아봅시다.
 
@@ -137,7 +248,18 @@ The last few geometric ideas we’ll state are:
 
 첫 세 가지 변수는 직접 측정할 수 있습니다(첫 두 변수는 엔코더를 사용하고 세 번째 변수는 자를 이용할 수 있습니다). 마지막 세 변수는 직접 측정할 수 없지만, 대신 이러한 변수들을 측정 가능한 양과 관련시키기 위해 기하학을 사용해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 호 길이 공식을 사용하여 시작해 보겠습니다. 왼쪽 바퀴, 오른쪽 바퀴 및 참조점의 경로는 호입니다. 이들은 모두 같은 각도를 공유하며, 각각의 반지름은 참조점을 포함하는 곡선의 반지름과 참조점과 바퀴 사이의 거리와 관련하여 표현할 수 있습니다.
 
@@ -147,7 +269,18 @@ The last few geometric ideas we’ll state are:
 
 - 곱셈 분배
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <table>
 <tr>
@@ -165,7 +298,18 @@ The last few geometric ideas we’ll state are:
 
 - 변수 소거와 대수학
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-23-WheelOdometryModelforDifferentialDriveRobotics_17.png" />
 
@@ -175,7 +319,18 @@ The last few geometric ideas we’ll state are:
 
 이제 방정식을 재배열하고 우리가 알고 있는 것을 대입하여 참조점을 포함하는 곡선의 반지름을 구해 봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 참조점을 포함하는 곡선의 반지름이 한 쪽에 있는 방정식을 재배열하세요
 
@@ -185,7 +340,18 @@ The last few geometric ideas we’ll state are:
 
 ![그림](/assets/img/2024-06-23-WheelOdometryModelforDifferentialDriveRobotics_20.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 곡선의 반지름을 측정 가능한 양의 관점에서 구했습니다. 이제 참조점이 이동한 거리로 넘어가봅시다. 우리가 한 결과를 대입하고 간단히 정리하기만 하면 됩니다.
 
@@ -195,7 +361,18 @@ The last few geometric ideas we’ll state are:
 
 ![이미지](/assets/img/2024-06-23-WheelOdometryModelforDifferentialDriveRobotics_22.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금까지의 결과를 통해 한 시간 단계에서 다음 시간 단계로의 거리 및 방향 변화를 결정할 수 있습니다. 결과는 시간 간의 상대적인 운동을 설명합니다.
 
@@ -205,7 +382,18 @@ The last few geometric ideas we’ll state are:
 
 <img src="/assets/img/2024-06-23-WheelOdometryModelforDifferentialDriveRobotics_23.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반적으로 휠 엔코더를 사용한 휠 오도미터에서 데이터 샘플링이 매우 높기 때문에 이러한 단순화를 할 수 있습니다. 이는 엔코더가 데이터를 매우 자주 수집할 수 있어 측정 간의 시간 창이 매우 작다는 것을 의미합니다. 시간 창이 매우 작기 때문에 각 시간 단계에서 캡처된 운동량도 매우 작을 것입니다. 모델링할 때 이는 호의 곡률이 매우 작아져 직선과 유사하다는 것을 의미합니다. 따라서 거리를 이제 직선으로 나타내는 것은 안전한 가정이며 단순화입니다.
 
@@ -215,7 +403,18 @@ The last few geometric ideas we’ll state are:
 
 ![image 2](/assets/img/2024-06-23-WheelOdometryModelforDifferentialDriveRobotics_25.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 각도는 삼각형의 속성, 즉 삼각형의 각이 180°가 되고, 원에 대한 접선의 성질, 즉 선분과 원이 직교하기 때문에 접하는 지점에서 각이 90°가 된다는 것을 활용하여 구할 수 있어요. 참고: 로봇 몸체를 제거하여 혼란을 줄였어요.
 
@@ -225,7 +424,18 @@ The last few geometric ideas we’ll state are:
 
 ![image](/assets/img/2024-06-23-WheelOdometryModelforDifferentialDriveRobotics_27.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 좋아요 — 이제 거리의 각도를 이전에 해결한 변수로 풀었어요.
 
@@ -235,12 +445,33 @@ The last few geometric ideas we’ll state are:
 
 이전과 마찬가지로 기하학 원리를 사용해서 새로운 방향의 각도를 풀어볼거에요. 이것이 바로 우리 다이어그램이에요 (로봇 본문은 제거해서 혼란을 줄였어요):
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Markdown 형식으로 테이블 태그를 변경하십시오.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-23-WheelOdometryModelforDifferentialDriveRobotics_31.png)
 
@@ -250,9 +481,18 @@ Markdown 형식으로 테이블 태그를 변경하십시오.
 
 따라서, 우리의 현재 오도메트리 모델은 다음과 같이 보입니다 (덜 중요하거나 중간 변수들을 걸러냄):
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-23-WheelOdometryModelforDifferentialDriveRobotics_33.png)
 
@@ -262,8 +502,18 @@ Markdown 형식으로 테이블 태그를 변경하십시오.
 
 이전 섹션의 결과를 토대로 상대 운동(즉, 한 시간 단계에서 다음으로 이동하는 것)을 추정할 수 있습니다. 그러나 절대 운동을 설명하는 오도메트리 모델을 확장할 수 있습니다. 절대 운동에서는 로봇이 탐색하는 환경을 좌표 평면 시스템(일반적으로 x 및 y 방향으로)으로 정의할 것입니다. 이 좌표 시스템에서 로봇의 운동은 로봇의 절대 위치를 나타내는 좌표에 의해 포착될 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 방위에 대해 정의할 수 있는 것은 x-축에서의 각도입니다. 로봇이 양의 x-축 방향을 향할 때, 방위 각도는 0°입니다. 로봇이 돌아서 제1 사분면 어딘가를 향할 때 방위 각도는 0°에서 90°까지입니다. 로봇이 제2 사분면 어딘가를 향할 때 방위 각도는 90°에서 180°까지입니다. 로봇이 제3 사분면 어딘가를 향할 때 방위 각도는 180°에서 270°까지입니다. 그리고 로봇이 제4 사분면 어딘가를 향할 때 방위 각도는 270°에서 360°까지입니다. 이는 주변에 도(도 및 라디안을 가지고 있고 중앙에 사분면 레이블이 있는)을 가진 그래픽을 통해 시각화할 수 있습니다:
 
@@ -273,7 +523,18 @@ Markdown 형식으로 테이블 태그를 변경하십시오.
 
 지금까지 저희의 오도메트리 모델은 초기 위치가 왼쪽을 향하도록 그려져 있었습니다. 이는 현재까지 저희의 오도메트리 모델에서 로봇이 항상 제로 라디안의 절대 방위로 시작했다는 의미입니다(기존 방향을 고려할 필요가 없었습니다).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로봇이 다른 방향에서 시작할 때 어떻게 되는지 궁금하셨군요? 상대 운동에 대한 모든 작업은 그대로 유지되지만, 초기 방향을 고려하여 완전한 위치와 방향을 올바르게 계산할 수 있도록 조정해야 합니다.
 
@@ -283,7 +544,18 @@ Markdown 형식으로 테이블 태그를 변경하십시오.
 
 사실, 절대 운동 모델을 얻는 한 가지 전략은 회전하고 다시 원래 좌표계로 변환하는 등 각각의 새로운 좌표계를 계속 생성하는 것입니다. 이러한 좌표 변환 방법은 좌표계를 회전시키는 (회전) 행렬을 사용하여 더 복잡하며 고급 기술입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 이것은 기하학에 대한 멋진 관점을 제공합니다. 우리의 로봇은 일부 절대 방향으로 시작합니다. 로봇이 방향이 0 라디안이되도록 좌표계를 수정하기로 결정하면, 기존 좌표 평면을 절대 방향 각도만큼 회전해야 합니다. 이는 우리가 절대 방향을 양의 x축에서의 각도로 정의했기 때문입니다. 기본적으로 우리는 절대 방향 각도로 좌표 평면을 조정하고 있습니다. 전체 좌표 평면을 이동하는 대신, 아래에서 설명하는 대로 상대적 방향 계산에 이를 추가할 수 있습니다:
 
@@ -293,7 +565,18 @@ Markdown 형식으로 테이블 태그를 변경하십시오.
 
 ![image](/assets/img/2024-06-23-WheelOdometryModelforDifferentialDriveRobotics_37.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 절대 운동을 다룰 때, 로봇이 각 시간 단계마다 좌표점을 가지게 됩니다. 좌표 위치가 업데이트되는 방법은 삼각함수의 특성을 사용하는 것인데, 즉 각의 코싸인이 이웃변을 가각변으로 나눈 값이고 사인이 이웃변을 빗변으로 나눈 값이라는 것입니다. 참조점이 이동한 거리를 빗변으로 하고 이전 시간 단계의 방향 각도 및 이동으로 인한 각도를 더하여 x와 y 방향으로 이동한 거리를 계산할 수 있습니다.
 
@@ -303,7 +586,18 @@ Markdown 형식으로 테이블 태그를 변경하십시오.
 
 ![image](/assets/img/2024-06-23-WheelOdometryModelforDifferentialDriveRobotics_39.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 시간의 위치는 이전 시간 단계의 위치와 각도에 따라 결정되며 현재 시간 단계에서 회전 각도의 변화에 기반합니다. 하나의 방정식에서 두 가지 다른 시간 단계의 양을 사용하는 것을 감안하면 차이를 명확히 하기 위해 다시 시간 첨자를 사용하는 것이 좋습니다.
 
@@ -313,13 +607,35 @@ Markdown 형식으로 테이블 태그를 변경하십시오.
 
 ![image](/assets/img/2024-06-23-WheelOdometryModelforDifferentialDriveRobotics_40.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 휠 인코더로 데이터를 빈번하게 수집하기 때문에 우리의 이동 거리를 호선 대신 선으로 나타낼 수 있다는 것을 깨달았어요. 높은 데이터 수집 빈도로 인해 곡선이 더 직선처럼 동작하고 보이게 됩니다. 그런 다음, 각도의 기하학을 사용하여 우리는 움직임에 의해 발생하는 방향 각도(라디안 단위)와 최종적인 상대적 방향을 찾았어요.
 
 그 후에, 우리는 절대 위치 및 방향에 대한 모델을 확장했어요. 여기서 우리는 정의된 좌표 평면이 있는 절대 시스템에서 우리의 오도메트리 모델을 조정해야 해요. 절대 시스템에서는 이전 시간 단계의 절대 방향 각도를 고려하여 오도메트리 모델을 조정해야 해요. 그런 다음, 우리는 삼각함수 관계식을 사용하여 새로운 절대 방향 각도(라디안)와 좌표 위치를 결정할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 절대 운동에 대해, x 및 y 구성 요소로 이뤄진 좌표 위치와 절대 방향 각도(라디안 단위)가 있습니다. 절대 운동에 대한 오도메트리 모델을 정의하는 세 가지 방정식은 다음과 같습니다:
 
@@ -329,6 +645,17 @@ Markdown 형식으로 테이블 태그를 변경하십시오.
 
 ![equation 2](/assets/img/2024-06-23-WheelOdometryModelforDifferentialDriveRobotics_44.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글에서 우리는 두 바퀴 차동 구동 로봇을 위한 오도메트리 모델을 개발했습니다. 이 모델을 사용하면 로터리 엔코더에서 수집한 데이터를 사용하여 위치와 방향을 추적할 수 있습니다. 로터리 엔코더는 매우 저렴하고 데이터 샘플링이 높기 때문에 휠 로보틱스에서 센서로 자주 사용됩니다. 그러나 엔코더를 사용하는 데 있어서의 한 가지 어려움은 잡음과 측정 오차입니다. 우리 모델을 계속 개발하려면 다음 단계로 우리의 측정 값과 함께 통계적 불확실성과 오차를 고려하는 것이 좋은 방향입니다.

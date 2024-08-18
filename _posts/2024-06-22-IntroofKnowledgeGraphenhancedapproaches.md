@@ -3,17 +3,13 @@ title: "지식 그래프 향상된 접근 방식 소개"
 description: ""
 coverImage: "/assets/img/2024-06-22-IntroofKnowledgeGraphenhancedapproaches_0.png"
 date: 2024-06-22 21:24
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-IntroofKnowledgeGraphenhancedapproaches_0.png
 tag: Tech
 originalTitle: "Intro of Knowledge Graph enhanced approaches"
 link: "https://medium.com/@henryhengluo/intro-of-knowledge-graph-enhanced-approaches-bbf88aa23102"
 isUpdated: true
 ---
-
-
-
-
 
 # 지식 그래프 백그라운드 리뷰
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 지식 그래프를 구축하려면 지식 모델링, 지식 획득, 지식 퓨전, 지식 저장 및 지식 응용과 같은 다양한 작업이 필요합니다. 지식 모델링은 다수준 지식 시스템을 구축하고 데이터베이스를 공고히 정의, 조직 및 관리하기 위해 추상적인 지식, 엔티티, 관계, 속성을 정의하는 것입니다. 지식 획득은 다양한 소스와 구조에서 데이터를 그래프 데이터로 변환하고 구조화된 데이터, 반구조화된 데이터, 비구조화된 데이터, 지식 인덱싱, 지식 추론 등을 처리하여 데이터의 유효성과 무결성을 보장하는 것입니다. 지식 퓨전은 다중 소스에서 반복된 지식 정보를 퓨전하는 것으로, 퓨전 컴퓨팅, 수동 작업 퓨전 등이 포함됩니다. 지식 저장은 비즈니스 시나리오에 따라 합리적인 지식 저장 솔루션을 제공하는 것입니다. 지식 저장 솔루션은 유연하고 다양하며 확장 가능해야 합니다. 지식 응용은 그래프 검색, 지식 계산, 그래프 시각화와 같은 분석 및 응용 기능을 제공하는 것뿐만 아니라 그래프 기본 애플리케이션, 그래프 구조 분석, 그래프 의미론적 애플리케이션, 자연어 처리, 그래프 데이터 획득, 그래프 통계, 데이터 집합 획득, 데이터 집합 통계 등을 포함한 다양한 종류의 지식 계산 SDK를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지식 그래프 구축이나 컴퓨팅에 초점을 맞추는 대신, 이 보고서는 다양한 자연어 처리 작업에 대한 지식 그래프 적용에 집중할 것입니다. 적절한 지식 그래프가 있다고 가정하면, 지식 그래프는 의미 수준과 지식 수준의 추가 정보를 제공할 수 있기 때문에 다양한 NLP 작업을 보다 효과적으로 해결할 수 있습니다. 지식 그래프는 물건 추천, 기계 읽기, 기계 이해, 자동 추출, 텍스트 분류, 단어 임베딩, 질문 응답, 대화 관리, 순차 생성 등과 같은 이러한 작업에서 능력을 보여줍니다. 제 개인적인 흥미로 인해, 유명한 방법, 클래식 모델 및 관련 기본 아이디어에 대해 깊게 파고들고 싶었습니다. 여기서 지식 기반 이미지 캡션, 지식 기반 질문 응답, 지식 기반 추천 시스템과 관련된 세 가지 논문[1–3]을 선택했습니다. 기본 아이디어는 질문을 임베딩 공간으로 매핑하고, 지식 그래프 표현을 위한 적절한 임베딩 공간을 찾아 두 임베딩 공간에서 정보를 통합하여 의미 수준과 상식 수준에서 더 나은 성능을 달성하는 것입니다.
 
@@ -33,8 +40,18 @@ isUpdated: true
 
 또한, 동적 지식 베이스를 활용하여 후속 추론, 텍스트 질문 응답[4–9], 시각적 질문 응답[10–17], 이미지 생성[18–20], 시각적 기초[21–25], 퓨-샷 분류[26–29]에 사용할 수 있습니다. [2]에서는 동적 지식 사전과 그래프 합성망을 채택하여, 인간의 자연어에 대한 환율성 표현을 가져와서 결과적인 캡션을 유창하고 다양하게 만드는 데 도움이 되도록 하였습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지1](/assets/img/2024-06-22-IntroofKnowledgeGraphenhancedapproaches_0.png)
 
@@ -44,8 +61,18 @@ isUpdated: true
 
 ![이미지3](/assets/img/2024-06-22-IntroofKnowledgeGraphenhancedapproaches_2.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Knowledge Graph Enhanced Approaches](/assets/img/2024-06-22-IntroofKnowledgeGraphenhancedapproaches_3.png)
 
@@ -55,7 +82,18 @@ isUpdated: true
 
 두 번째 토론은 지식 기반 질문 응답에 관한 것입니다. 질문 응답 문제는 오랫동안 연구되어 왔습니다. 미리 학습된 언어 모델에서 직접 응답을 생성하는 것은 그다지 만족스럽지 않습니다. 그럼에도 불구하고, 지식 베이스 또는 지식 그래프는 더 많은 선험적 정보를 가져올 수 있다고 여겨지며, 따라서 지식 베이스 질문 응답 방법론은 더 많은 연구의 주목을 끌고 있습니다. [3, 30] 작업이 소개되기 전에는, 구조화된 지식 베이스 질문 응답이 연구되어 왔습니다. 이는 복잡한 질문에 대한 기계의 응답을 두 가지 방법으로 더 정확하게 개선하기 위해 필요한 질문을 표준 쿼리로 변환하고, 쿼리 일치를 사용하여 지식 베이스의 API를 활용하는 정보 검색 기반의 방법입니다. 또 다른 방법은 의미 분석 기반으로, 의미 분석 시스템을 사용하여 질문의 의미를 변환하고, 후보 응답을 사용하여 거리를 측정하고, 상위 N 순위 점수로 적합한 답변을 찾는 방법입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [3]은 기본 아이디어에 대한 클래식한 방법입니다: 먼저 질문 내의 엔티티를 기반으로 지식 베이스에서 후보 답변을 찾아내는 것(빔 서치), 그런 다음 질문과 후보 답변을 저차원 공간에 매핑하여 분산 표현, 즉 분산 임베딩을 얻는 과정을 거칩니다. 이후 분산 임베딩에 대한 판별자를 훈련시켜 질문 임베딩과 해당 올바른 답변 임베딩 간의 상관 점수를 높게 유지합니다. 모델 훈련이 완료되면 잠재적인 후보 답변을 상관 점수에 따라 순위를 매기고 최상위 답변을 선택할 수 있습니다.
 
@@ -65,8 +103,18 @@ isUpdated: true
 
 여기서 m은 마진으로 0.1이며, Ã는 부정적인 샘플 (다른 후보 경로)의 50% 및 무작위 답변의 50%로 구성된 부정 후보 답변 세트입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Intro of Knowledge Graph Enhanced Approaches 6](/assets/img/2024-06-22-IntroofKnowledgeGraphenhancedapproaches_6.png)
 
@@ -76,8 +124,18 @@ isUpdated: true
 
 # 지식 기반 추천 시스템 소개
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 세 번째 토론은 지식 기반 추천 시스템에 관한 것입니다. 추천 시스템은 전자 상거래, 온라인 영화, 온라인 게임, 레스토랑, 여가 활동 등 다양한 분야에서 널리 사용됩니다. 또한, 지식 그래프는 기계 판독, 자동 추출, 텍스트 분류, 단어 임베딩, 질의 응답 등 다양한 응용 프로그램에서 성공적으로 활용되고 있습니다. 따라서 추천 시스템과 지식 그래프를 결합하여 추천의 정확도와 설명 가능성을 향상시키는 것이 합리적입니다. 특히 사용 가능한 지식 그래프에서 엔티티와 관계 정보의 장점을 살리는 데 중요합니다 [1, 31, 32]. 여기서 추천 임베딩 공간과 지식 그래프 임베딩 공간을 통합하는 한 가지 방법을 찾는 것이 중요합니다.
 
@@ -85,8 +143,18 @@ isUpdated: true
 
 [1]은 깊은 지식 지능 네트워크(DKN)를 제안했는데, 뉴스 제목에 대한 더 나은 표현을 만들기 위해 제목 단어 임베딩, 제목 엔티티 임베딩, 엔티티 컨텍스트 임베딩을 포함하는 아이디어를 기반으로 하고 있습니다. 여기서 마지막 두 임베딩은 지식 그래프에서 추출된 것이며, 사용자가 클릭한 과거 제목에 후보 뉴스 제목을 주의 네트워크를 통해 일치시켜서 후보 뉴스를 클릭할 확률을 생성합니다. 단어 임베딩은 널리 사용되지만, 지식 그래프 임베딩에는 TransE, TransH, TransR, TransD와 같은 다양한 접근 방식이 있습니다. 이를 통해 제목 단어 시퀀스가 지식 그래프의 엔티티로 매핑되고, 엔티티 임베딩은 해당 엔티티 하위 그래프를 벡터화하여 얻습니다. 또한, 엔티티의 컨텍스트, 즉 지식 그래프에서 한 번의 점프 이내에 있는 엔티티,도 추출되어 벡터화되는 방식과 동일합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-22-IntroofKnowledgeGraphenhancedapproaches_9.png)
 
@@ -96,9 +164,18 @@ isUpdated: true
 
 실험을 거친 결과, 이 방법이 효과적이며 SOTA 성과를 보였습니다. 게다가, 제외 연구를 수행한 결과, 엔티티 임베딩, 컨텍스트 임베딩, DKN+TransD, 매핑된 DKN, 주의 네트워크가 모두 AUC에 기여할 수 있다는 것을 명확히 입증했습니다. 또한, 사례 연구를 통해 모델이 지식 그래프를 활용한 후에 잠재적 정보 연결을 찾아낼 수 있다는 것을 명백히 보여줍니다. [31] 또한 사용자 선호도가 지식 그래프를 따라 한 단계씩 전파된다는 것을 연구하였습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![IntroofKnowledgeGraphenhancedapproaches_11](/assets/img/2024-06-22-IntroofKnowledgeGraphenhancedapproaches_11.png)
 
@@ -108,8 +185,18 @@ isUpdated: true
 
 [1] H. Wang, F. Zhang, X. Xie, and M. Guo, “DKN: Deep knowledge-aware network for news recommendation,” in Proceedings of the 2018 world wide web conference, 2018, pp. 1835–1844.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [2] X. 양, K. 탕, H. 장, J. 최, “이미지 캡션을 위한 씬 그래프 자동 인코딩,” IEEE/CVF 컴퓨터 비전 및 패턴인식 콘퍼런스 논문집, 2019, pp. 10685–10694.
 
@@ -119,7 +206,18 @@ isUpdated: true
 
 [5] W. 첸, M.-W. 창, E. 슐링거, W. 왕, W. W. 코엔, “테이블 및 텍스트를 활용한 오픈 질문 응답,” arXiv 프리프린트 arXiv:2010.10439, 2020.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [6] W. Chen, H. Zha, Z. Chen, W. Xiong, H. Wang, and W. Wang, "Hybridqa: A dataset of multi-hop question answering over tabular and textual data," arXiv preprint arXiv:2004.07347, 2020.
 
@@ -129,7 +227,18 @@ isUpdated: true
 
 [9] H. Iida, D. Thai, V. Manjunatha, and M. Iyyer, "Tabbie: Pretrained representations of tabular data," arXiv preprint arXiv:2105.02584, 2021.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [10] H. A. Pandya and B. S. Bhatt, “Question answering survey: Directions, challenges, datasets, evaluation matrices,” arXiv preprint arXiv:2112.03572, 2021.
 
@@ -139,18 +248,40 @@ isUpdated: true
 
 [13] R. Tanaka, K. Nishida, and S. Yoshida, “Visualmrc: Machine reading comprehension on document images,” in Proceedings of the AAAI Conference on Artificial Intelligence, 2021, vol. 35, no. 15, pp. 13878–13888.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Table of Research Papers
 
-| 번호 | 작가 | 년도 | 제목 |
-|-----|------|------|------|
-| 14 | Q. Zhu, C. Gao, P. Wang, and Q. Wu | 2021 | "Simple is not easy: A simple strong baseline for textvqa and textcaps" in Proceedings of the AAAI Conference on Artificial Intelligence, vol. 35, no. 4, pp. 3608–3615. |
-| 15 | Y. Kant et al. | 2020 | "Spatially aware multimodal transformers for textvqa" in European Conference on Computer Vision, pp. 715–732. |
-| 16 | X. Wang et al. | 2020 | "On the general value of evidence, and bilingual scene-text visual question answering" in Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 10126–10135. |
-| 17 | R. Hu, A. Singh, T. Darrell, and M. Rohrbach | 2020 | "Iterative answer prediction with pointer-augmented multimodal transformers for textvqa" in Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 9992–10002. |
+| 번호 | 작가                                         | 년도 | 제목                                                                                                                                                                                           |
+| ---- | -------------------------------------------- | ---- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 14   | Q. Zhu, C. Gao, P. Wang, and Q. Wu           | 2021 | "Simple is not easy: A simple strong baseline for textvqa and textcaps" in Proceedings of the AAAI Conference on Artificial Intelligence, vol. 35, no. 4, pp. 3608–3615.                       |
+| 15   | Y. Kant et al.                               | 2020 | "Spatially aware multimodal transformers for textvqa" in European Conference on Computer Vision, pp. 715–732.                                                                                  |
+| 16   | X. Wang et al.                               | 2020 | "On the general value of evidence, and bilingual scene-text visual question answering" in Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 10126–10135.  |
+| 17   | R. Hu, A. Singh, T. Darrell, and M. Rohrbach | 2020 | "Iterative answer prediction with pointer-augmented multimodal transformers for textvqa" in Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 9992–10002. |
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [18] J. Park and Y. Kim, “Styleformer: Transformer를 기반으로 한 스타일 벡터를 활용한 생성적 적대 신경망,” IEEE/CVF 컴퓨터 비전 및 패턴 인식 학회 논문집, 2022, pp. 8983–8992.
 
@@ -160,7 +291,18 @@ isUpdated: true
 
 [21] G. Luo 외, “주시어 표현 이해 및 분할을 위한 다중 작업 협력 네트워크,” IEEE/CVF 컴퓨터 비전 및 패턴 인식 학회 논문집, 2020, pp. 10034–10043.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [22] H. Liu, A. Lin, X. Han, L. Yang, Y. Yu, and S. Cui, “Refer-it-in-rgbd: A bottom-up approach for 3D visual grounding in RGBD images,” in Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2021, pp. 6032–6041.
 
@@ -170,7 +312,18 @@ isUpdated: true
 
 [25] J. Wang and L. Specia, “Phrase localization without paired training examples,” in Proceedings of the IEEE/CVF International Conference on Computer Vision, 2019, pp. 4663–4672.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [26] S. Chen et al., "Hsva: Hierarchical semantic-visual adaptation for zero-shot learning," Advances in Neural Information Processing Systems, vol. 34, pp. 16622–16634, 2021.
 
@@ -180,7 +333,18 @@ isUpdated: true
 
 [29] Y. Wang, Q. Yao, J. T. Kwok, and L. M. Ni, "Generalizing from a few examples: A survey on few-shot learning," ACM computing surveys (csur), vol. 53, no. 3, pp. 1–34, 2020.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [30] A. Bordes, J. Weston, and N. Usunier, “Open question answering with weakly supervised embedding models,” in Joint European conference on machine learning and knowledge discovery in databases, 2014: Springer, pp. 165–180.
 

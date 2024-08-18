@@ -3,17 +3,13 @@ title: "SQL 윈도우 함수 완벽 정복 종합 튜토리얼"
 description: ""
 coverImage: "/assets/img/2024-06-23-MasteringSQLWindowFunctionsAComprehensiveTutorial_0.png"
 date: 2024-06-23 16:48
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-MasteringSQLWindowFunctionsAComprehensiveTutorial_0.png
 tag: Tech
 originalTitle: "Mastering SQL Window Functions: A Comprehensive Tutorial"
 link: "https://medium.com/@manutej/mastering-sql-window-functions-guide-e6dc17eb1995"
 isUpdated: true
 ---
-
-
-
-
 
 # SQL 창 함수의 전체 잠재력을 발휘하세요. 기본적인 이해부터 고급 기술까지, 데이터 분석 및 쿼리 기술을 높이는 방법을 알아봅니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 데이터베이스 관리와 데이터 분석의 복잡한 영역을 탐험하는 것은 종종 미개척된 영토에서 탐험하는 것과 같은 기분일 수 있습니다. 숨겨진 패턴을 발견하고 원시 데이터에서 의미 있는 통찰력을 얻는 것에는 특별한 즐거움이 있습니다. SQL은 강력한 도구 세트로 이 여정에서 우리의 나침반 역할을 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 길을 따라 가다 보면 기존 도구나 기술로 해결하기 어려운 도전이나 장애물에 부딪히곤 합니다. GROUP BY 작업에서 사용되는 "집계 함수"의 한계가 그 중 하나인 것이죠. 데이터 각 행에 대한 새로운 필드를 계산해야 하는 경우가 있을텐데, 이 경우에는 집계 함수 작업이 불가능합니다. 또한, 들어오는 데이터의 량이 지속적으로 변하는(즉, 정적이지 않은 데이터) 경우에 러닝 토탈, 평균 또는 다른 통계 측정치를 찾아야 하는 상황일 수도 있습니다.
 
@@ -33,8 +40,18 @@ isUpdated: true
 
 # 언제 창 함수를 사용해야 할까요? (ELI5)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-23-MasteringSQLWindowFunctionsAComprehensiveTutorial_1.png)
 
@@ -44,8 +61,18 @@ isUpdated: true
 
 한 블록이 옆에 있는 블록들보다 더 큰지 확인하고 싶다고 상상해보세요. 윈도우 함수를 사용하면 모든 블록들을 섞지 않고 각 블록과 그 이웃들을 쉽게 비교할 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2. 한 행의 블록을 세거나 더하려고 합니다
 
@@ -55,7 +82,18 @@ isUpdated: true
 
 예를 들어, 색으로 정렬된 블록이 행별로 있고, 각 행에서 가장 큰 블록을 찾고 싶다고 가정해 봅시다. 창 함수를 사용하면 각 행을 개별적으로 살펴보고 각 행에서 가장 큰 블록을 선택할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 4. 블록에 점수 또는 순위를 부여하고 싶다면
 
@@ -65,7 +103,18 @@ isUpdated: true
 
 어떤 블록이 주변 블록들의 평균 높이보다 크다면 어떨지 보고 싶을 수 있습니다. 창 함수는 특정 블록과 그 주변 블록들을 살펴보고, 평균 높이를 계산한 다음 해당 블록이 어떻게 비교되는지 알려줄 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 윈도우 함수는 현재 행과 관련된 일련의 행을 기반으로 계산을 수행하는 SQL 작업입니다. 집계 함수와 달리 행을 단일 출력 행으로 그룹화하지 않으며, 행은 각각 별도로 유지됩니다. 윈도우 함수는 현재 행과 관련된 일련의 행을 기반으로 계산을 수행할 수 있습니다. 이러한 함수는 행들의 “윈도우”를 통해 계산을 수행하므로 윈도우 함수라고 불립니다. 예를 들어, 매출의 누적 합계를 계산하거나 그룹에서 가장 높은 점수를 찾을 수 있습니다.
 
@@ -75,7 +124,18 @@ isUpdated: true
 
 # 윈도우 함수의 구조
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Window Functions을 설명하는 것은 많은 사람들이 매우 복잡한 방법을 사용하는데, 저의 목표는 여러분을 위해 정말 쉽게 설명하는 것입니다!
 
@@ -88,25 +148,47 @@ Window Functions을 설명하는 것은 많은 사람들이 매우 복잡한 방
 - PARTITION BY: (선택 사항) 데이터의 특정 청크(그룹)에 대해 계산을 수행하려면 SQL에 나눌 방법을 알려주는 것입니다. PARTITION BY가 지정되지 않으면 함수는 쿼리 결과 세트의 모든 행을 단일 파티션으로 처리해요. GROUP BY 절과 유사하게 작동하지만 GROUP BY는 데이터를 집계하지만 PARTITION BY는 데이터를 그룹화하지만 창 함수의 목적을 위해 데이터를 그룹화하지 않아요.
 - ORDER BY: (선택 사항) 각 파티션 내의 행을 순서대로 정렬합니다. ORDER BY가 지정되지 않으면 함수는 파티션의 모든 행을 단일 그룹으로 처리해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-23-MasteringSQLWindowFunctionsAComprehensiveTutorial_4.png" />
 
 이제 SQL 코드에서 이를 실제로 확인해 봅시다:
 
 ```js
-SELECT column_name, 
+SELECT column_name,
        WINDOW_FUNCTION(column_name) OVER (
-           PARTITION BY column_name 
-           ORDER BY column_name 
+           PARTITION BY column_name
+           ORDER BY column_name
            RANGE/ROWS BETWEEN ... AND ...
-       ) 
+       )
 FROM table_name;
 ```
 
 그렇습니다! 이제 윈도우 함수가 어떻게 작동하는지 간단히 살펴보았습니다. 물론 이를 연결시키기 위해 몇 가지 기본적인 예제를 살펴보고 싶으실 것입니다. 그러므로 다음에 그것을 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 기억에 남는 예시
 
@@ -115,16 +197,27 @@ FROM table_name;
 # 1. 러닝 토탈
 
 ```js
-SELECT 
-  SaleID, 
-  Salesperson, 
-  SaleAmount, 
-  SaleDate, 
+SELECT
+  SaleID,
+  Salesperson,
+  SaleAmount,
+  SaleDate,
   SUM(SaleAmount) OVER (ORDER BY SaleDate) AS RunningTotal
 FROM Sales;
-``` 
+```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드는 SaleDate 기준으로 각 행의 SaleAmount 누적 총액을 계산합니다. 아래 결과를 확인해보세요. 새로운 RunningTotal이라는 열을 주목해주세요! 여기서 새로운 열을 만들었습니다! 다른 곳에서 "계산된 필드"로 본 적이 있을 수도 있어요.
 
@@ -134,14 +227,25 @@ FROM Sales;
 
 먼저 코드와 결과를 확인해보고, 모든 것이 더 분명해질 것입니다. 그런데 먼저 이 코드에서 지난 예제와 비교했을 때 어떤 변경 사항이 있는지 찾아보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-SELECT 
-  SaleID, 
-  Salesperson, 
-  SaleAmount, 
-  SaleDate, 
+SELECT
+  SaleID,
+  Salesperson,
+  SaleAmount,
+  SaleDate,
   SUM(SaleAmount) OVER (PARTITION BY Salesperson ORDER BY SaleDate) AS CumulativeSalePerPerson
 FROM Sales;
 ```
@@ -152,8 +256,18 @@ FROM Sales;
 
 # 3. 판매 금액에 따른 판매 순위 매기기
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 상상해 봐주세요. 우리가 가장 큰 승리(가장 큰 물고기를 낚는)가 성공적인 판매 대회가 진행 중이라면 어떨까요?
 
@@ -162,16 +276,27 @@ FROM Sales;
 당연히 우리는 순위를 쉽게 매길 방법을 원할 것입니다. 일반 쿼리로는 SaleAmount를 기준으로 ORDER BY SaleAmount DESC로 간단히 정렬하고 싶을 수 있지만, 다른 데이터의 기존 순서를 잃어버릴 수 있습니다. 이때 RANK() 함수가 필요합니다!
 
 ```js
-SELECT 
-  SaleID, 
-  Salesperson, 
-  SaleAmount, 
-  SaleDate, 
+SELECT
+  SaleID,
+  Salesperson,
+  SaleAmount,
+  SaleDate,
   RANK() OVER (ORDER BY SaleAmount DESC) AS SaleRank
 FROM Sales;
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 9번째 행으로 내려갔을 때, Alice가 "450"의 가장 큰 어핻을 잡아 1위에 올랐음을 확인할 수 있어요! 그녀는 또한 3번째, 5번째, 10번째, 12번째, 14번째 "순위" 어핻을 잡았습니다.
 
@@ -181,14 +306,25 @@ FROM Sales;
 
 ![image](/assets/img/2024-06-23-MasteringSQLWindowFunctionsAComprehensiveTutorial_7.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예제는 간단화를 위해 3일 창으로 설정하였지만, 7일 (주간 이동평균), 30일 (월간), 또는 어떤 기간을 살펴볼지 결정하셔도 됩니다! (참고: 이러한 창 함수는 한 줄에 굉장히 길어져서 코드 스타일링을 위해 적절한 공백으로 구분하셔야 합니다).
 
 ```js
-SELECT SaleID, SaleDate, Salesperson, SaleAmount, 
+SELECT SaleID, SaleDate, Salesperson, SaleAmount,
        AVG(SaleAmount) OVER (
-                    ORDER BY SaleDate 
+                    ORDER BY SaleDate
                     ROWS BETWEEN 1 PRECEDING AND 1 FOLLOWING
                             ) AS MovingAverage
 FROM Sales;
@@ -198,7 +334,18 @@ FROM Sales;
 
 이제 창 함수를 이용한 몇 가지 시행을 끝냈으니, 여러분이 스스로 묻고 있는 굉장히 중요한 질문이 있을 수 있습니다...
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 창 함수의 중요성
 
@@ -208,7 +355,18 @@ SQL 창 함수를 마스터하는 것은 데이터 조작 도구 상자에 강�
 
 창 함수의 복잡성에 더 깊이 파고들기 전에, SQL은 데이터 조작 기술을 향상시키기 위한 다양한 도구와 기능을 제공한다는 점을 어떻게든 눈여겨보는 것이 가치가 있습니다. 저희의 SQL 마스터리 시리즈를 따라오고 계시다면, 과거에 해당 주제에 대해 자세히 다룬 SQL 서브쿼리 마스터리 가이드를 기억하실 수도 있습니다. 서브쿼리를 이해하는 것은 더 고급 SQL 주제인 창 함수를 포함한 강력한 기초를 다지는 중요한 단계입니다. 아직 이 주제를 탐험해보지 못하셨다면, 읽어 보는 것을 강력히 추천합니다(또는 날씨가 구름낀 날을 위해 독서 목록에 저장하는 것도 좋습니다). 이를 통해 이해를 확고히 하고 복잡한 SQL 쿼리 작성 능력을 향상시킬 수 있을 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실은 때로는 동일한 작업을 수행하기 위해 창 함수 또는 하위 쿼리를 모두 사용할 수 있는 경우도 있습니다. 진정한 SQL 숙련도를 갖추려면 답을 찾는 데 여러 가지 방법에 능숙해지고 가장 효율적인 경로를 선택하는 능력이 필요합니다. 이는 Query Optimization 측면에서 가장 효율적인 것을 고려하기도 하며, 이에 대한 자세한 내용은 Mastering SQL 시리즈 다른 부분에서 다룰 예정입니다.
 
@@ -218,7 +376,18 @@ SQL 창 함수를 마스터하는 것은 데이터 조작 도구 상자에 강�
 
 이제 창 함수에 대한 탄탄한 소개가 있으니, 사용 가능한 창 함수의 다양한 종류를 알아보는 시간을 갖도록 하겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 집계 윈도우 함수
 
@@ -232,7 +401,18 @@ SQL 창 함수를 마스터하는 것은 데이터 조작 도구 상자에 강�
 
 ## 순위 윈도우 함수:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 함수들은 결과 집합의 파티션 내 각 행에 고유한 순위를 할당합니다(또는 전체 데이터 집합). 예시로는 ROW_NUMBER(), RANK(), DENSE_RANK(), NTILE()이 있습니다.
 
@@ -245,38 +425,49 @@ SQL 창 함수를 마스터하는 것은 데이터 조작 도구 상자에 강�
 
 아래에서 각각의 순위 함수들을 코드로 어떻게 작성할 수 있는지 살펴보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 -- RANK() 예시
-SELECT 
-  SaleID, 
-  Salesperson, 
-  SaleAmount, 
+SELECT
+  SaleID,
+  Salesperson,
+  SaleAmount,
   RANK() OVER (ORDER BY SaleAmount DESC) AS RankByAmount
 FROM Sales;
 
 -- DENSE_RANK() 예시
-SELECT 
-  SaleID, 
-  Salesperson, 
-  SaleAmount, 
+SELECT
+  SaleID,
+  Salesperson,
+  SaleAmount,
   DENSE_RANK() OVER (ORDER BY SaleAmount DESC) AS DenseRankByAmount
 FROM Sales;
 
 -- ROW_NUMBER() 예시
-SELECT 
-  SaleID, 
-  Salesperson, 
-  SaleAmount, 
+SELECT
+  SaleID,
+  Salesperson,
+  SaleAmount,
   ROW_NUMBER() OVER (ORDER BY SaleAmount DESC) AS RowNumByAmount
 FROM Sales;
 
 -- NTILE() 예시
-SELECT 
-  SaleID, 
-  Salesperson, 
-  SaleAmount, 
+SELECT
+  SaleID,
+  Salesperson,
+  SaleAmount,
   NTILE(4) OVER (ORDER BY SaleAmount DESC) AS Quartile
 FROM Sales;
 ```
@@ -287,8 +478,18 @@ FROM Sales;
 
 ![이미지](/assets/img/2024-06-23-MasteringSQLWindowFunctionsAComprehensiveTutorial_10.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시로는 FIRST_VALUE(), LAST_VALUE(), LEAD(), LAG() 함수가 있습니다.
 
@@ -299,22 +500,22 @@ FROM Sales;
 
 ```js
 -- FIRST_VALUE()와 LAST_VALUE() 예제
-SELECT 
-  SaleID, 
-  Salesperson, 
-  SaleAmount, 
+SELECT
+  SaleID,
+  Salesperson,
+  SaleAmount,
   FIRST_VALUE(SaleAmount) OVER (ORDER BY SaleDate) AS FirstSaleAmount,
-  LAST_VALUE(SaleAmount)  OVER (ORDER BY SaleDate 
-                               RANGE BETWEEN UNBOUNDED PRECEDING AND 
+  LAST_VALUE(SaleAmount)  OVER (ORDER BY SaleDate
+                               RANGE BETWEEN UNBOUNDED PRECEDING AND
                                UNBOUNDED FOLLOWING
                                ) AS LastSaleAmount
 FROM Sales;
 
 -- LEAD()와 LAG() 예제
-SELECT 
-  SaleID, 
-  Salesperson, 
-  SaleAmount, 
+SELECT
+  SaleID,
+  Salesperson,
+  SaleAmount,
   LAG(SaleAmount) OVER (ORDER BY SaleDate) AS PreviousSaleAmount,
   LEAD(SaleAmount) OVER (ORDER BY SaleDate) AS NextSaleAmount
 FROM Sales;
@@ -322,7 +523,18 @@ FROM Sales;
 
 # 윈도우 프레임 명시화
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 개념은 특정 행에 대한 계산을 수행하는 subset을 의미합니다. 창 프레임은 ROWS 또는 RANGE 절을 사용하여 지정할 수 있으며, 모든 행을 고려하는 비바운드(unbounded)일 수도 있고 특정 범위로 제한될 수도 있습니다.
 
@@ -332,23 +544,34 @@ RANGE: 논리적 행 그룹을 기준으로 창 프레임을 정의합니다. RO
 
 ```js
 -- ROWS 창 프레임 명세
-SELECT 
-  SaleID, 
-  Salesperson, 
-  SaleAmount, 
+SELECT
+  SaleID,
+  Salesperson,
+  SaleAmount,
   AVG(SaleAmount) OVER (ORDER BY SaleDate ROWS BETWEEN 1 PRECEDING AND 1 FOLLOWING) AS MovingAvg
 FROM Sales;
 
 -- RANGE 창 프레임 명세
-SELECT 
-  SaleID, 
-  Salesperson, 
-  SaleAmount, 
+SELECT
+  SaleID,
+  Salesperson,
+  SaleAmount,
   SUM(SaleAmount) OVER (ORDER BY SaleAmount RANGE BETWEEN 50 PRECEDING AND 50 FOLLOWING) AS CumulativeSum
 FROM Sales;
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 창 프레임 명세는 현재 행과 전체 파티션 대신 일부 행 집합에 걸쳐 계산을 수행하려는 경우 중요합니다.
 
@@ -360,7 +583,18 @@ FROM Sales;
 - 함수 구문을 검토하세요: 각 창 함수마다 고유한 구문이 있습니다. 사용 중인 함수의 구문을 확인하여 올바른지 확인하세요.
 - 데이터 유형을 검토하세요: 사용 중인 함수의 데이터 유형이 호환되는지 확인하세요. 예를 들어, 텍스트 필드(또는 숨겨진 문자열 값이 있는 열)에서 SUM 작업을 수행할 수 없습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 창 함수 최적화
 
@@ -373,7 +607,18 @@ FROM Sales;
 
 이러한 고급 창 함수 및 컨셉을 활용하면 데이터에 복잡한 변환 및 계산을 수행하여 SQL 쿼리를 더 강력하고 통찰력 있게 만들 수 있습니다. 결과를 순위 매기거나 누적 합계를 계산하거나 파티션 내 특정 값에 액세스하는 경우, 창 함수는 고급 데이터 분석에 필요한 유연성과 기능성을 제공합니다. 이제 이를 깊이 이해한 후 항상 참고할 수 있는 편리한 치트 시트 (출처: learnsql.com)가 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-23-MasteringSQLWindowFunctionsAComprehensiveTutorial_11.png" />
 
@@ -383,6 +628,17 @@ SQL 윈도우 함수의 복잡한 기능을 탐험하면서, 복잡한 데이터
 
 이 내용을 즐겼다면? 최신 프로그래밍 및 데이터 과학 안내서와 자습서를 Medium 피드로 바로 받아보려면 팔로우 버튼을 클릭하세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 읽어 주셔서 감사합니다.

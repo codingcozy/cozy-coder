@@ -3,17 +3,13 @@ title: "높은 영향력을 가진 데이터 거버넌스 팀"
 description: ""
 coverImage: "/assets/img/2024-06-19-High-impactdatagovernanceteams_0.png"
 date: 2024-06-19 09:40
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-High-impactdatagovernanceteams_0.png
 tag: Tech
 originalTitle: "High-impact data governance teams"
 link: "https://medium.com/@mikldd/high-impact-data-governance-teams-0a90a3deefd1"
 isUpdated: true
 ---
-
-
-
-
 
 ## 영향을 주는 방법, 초점을 맞출 곳, 최고의 데이터 관리 팀에서 성공하기 위해 필요한 기술
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 하지만 데이터 관리 팀은 선을 넘지 않아야 합니다. 조심하지 않으면 이들의 노력은 추가 부담처럼 보일 수 있고, 사업에 미미한 영향을 가져올 수 있는 정책과 프로세스를 도입할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사에서는 고영향 데이터 거버넌스 팀이 주로 초점을 맞춰야 할 영역 및 취해야 할 구체적인 단계를 살펴봅니다.
 
@@ -36,7 +43,18 @@ isUpdated: true
 - 소유권 모델을 통해 책임이 명확하게 보장
 - 리스크, 개인 정보 보호 및 규정 준수 관리
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 조직 전체에서 데이터를 활용할 수 있도록
 
@@ -46,7 +64,18 @@ isUpdated: true
 
 팀 간의 간헐적인 노력으로는 이 문제를 해결하기 어렵습니다. 데이터 거버넌스 팀은 이를 표준화하고 촉진하는 데 도움을 줄 수 있는 독특한 위치에 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 중요한 데이터 자산 문서화
 
@@ -58,7 +87,18 @@ isUpdated: true
 
 ## 핵심 지표가 일관된 방식으로 정의되도록 보장하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떤 규모에 도달하면, 동일한 지표에 대한 서로 다른 정의를 반드시 마주하게 됩니다. 기본 데이터가 잘못되었다고 할지라도, 이는 의사 결정이 더뎌지고, 미팅에서는 지표가 올바른지 논의하는 데 시간을 보내게 만듭니다. 그 대신에 이에 대해 어떻게 대처할지에 대해 논의할 시간이 생깁니다.
 
@@ -68,7 +108,18 @@ isUpdated: true
 
 ## 데이터 검색 가능하게 하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 데이터 이용자들이 — 데이터 팀 내에서든 외부에서든 — 자신의 데이터를 찾지 못한다면, 그 데이터는 사실상 존재하지 않는 것과 다름없습니다. 필요한 데이터를 찾는 것이 마치 건초더미 속에서 바늘을 찾는 것처럼 느껴진다면, 문제의 일부 해결책은 툴셋을 업데이트하고 데이터 카탈로그를 도입하여 모든 데이터 자산을 발견할 수 있게 하는 것일 수 있습니다. 하지만 기본을 올바르게 설정하지 않는다면 어떤 도구도 도움이 되지 않을 것입니다.
 
@@ -76,7 +127,18 @@ isUpdated: true
 
 사용 중인 데이터가 있는 곳에 가능한 가까이 위치시키는 것이 좋습니다. Looker와 같은 BI 툴을 사용하면 대부분의 데이터 이용자가 데이터를 소비할 수 있습니다. 각 도메인으로 진입할 수 있는 잘 구조화된 '홈페이지'를 만들어서 가장 중요한 대시보드에 대한 링크를 제공하는 것은 대시보드를 조직화하고 모든 사람이 쉽게 찾을 수 있도록 하는 좋은 방법입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 대시보드의 사용성 강화
 
@@ -86,7 +148,18 @@ Typeform은 Looker의 개선 사항을 정리하면서 추가 단계를 거쳤�
 
 ![이미지](/assets/img/2024-06-19-High-impactdatagovernanceteams_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 불필요한 데이터 자산 제거
 
@@ -99,7 +172,18 @@ Typeform은 Looker의 개선 사항을 정리하면서 추가 단계를 거쳤�
 
 불필요한 데이터 스택을 정리하는 것은 쉬운 작업이 아니며, 가능하다면 사용되지 않는 테이블, 데이터 모델, 열 및 대시보드를 계속해서 제거하는 것에 투자해야 합니다. 그러나 많은 확장 중인 기업은 천 개 이상의 데이터 모델과 대시보드가 생기기 전까지는 뒷걸음치기를 하다가 이 문제에 대처해야 하는 경우가 많습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요번에 전해드릴 이야기는 Looker 대시보드의 수를 급격히 줄이고 자가 서비스를 거의 불가능하게 만들었던 회사의 이야기입니다.
 
@@ -110,7 +194,18 @@ Typeform은 Looker의 개선 사항을 정리하면서 추가 단계를 거쳤�
 
 이와 비슷한 단계를 데이터 모델을 정리하는 데 사용할 수 있습니다. 특히 dbt에서 잘 구성된 열 수준의 계보가 있는 경우 팀이 크게 혜택을 입었습니다. 이는 dbt에서 비즈니스 인텔리전스 도구까지 연장되는 정확하고 빠른 후속 영향을 평가하는 데 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 중요한 데이터를 정의하세요
 
@@ -120,7 +215,18 @@ Typeform은 Looker의 개선 사항을 정리하면서 추가 단계를 거쳤�
 
 ![Image](/assets/img/2024-06-19-High-impactdatagovernanceteams_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신의 비즈니스 중요 데이터를 식별하는 방법을 안내하는 가이드를 읽어보세요. 비즈니스 중요 데이터 모델과 대시보드를 식별하는 실용적인 단계와 데이터에 대한 신뢰를 증진하는 방법을 알려드립니다.
 
@@ -130,7 +236,18 @@ Typeform은 Looker의 개선 사항을 정리하면서 추가 단계를 거쳤�
 
 이에는 좋은 이유가 있습니다. 낮은 데이터 품질은 부정확한 결정, 시스템 장애 및 데이터에 대한 신뢰 손실로 이어질 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다행히 대부분의 데이터 전문가들은 검증된 데이터가 데이터 자산을 개발하는 일부분이라는 것에 익숙해졌습니다. 개별 자산에 적합하지만 개인의 해석에 많은 부분을 맡길 수 있습니다. 우리는 데이터 거버넌스 팀이 소유자 도메인 및 중요성과 같은 주요 차원을 횡단하여 데이터 품질을 체계적으로 평가하는 것을 권장합니다.
 
@@ -141,9 +258,20 @@ Typeform은 Looker의 개선 사항을 정리하면서 추가 단계를 거쳤�
 - 가동 시간 — 각 실행에서 성공적으로 통과하는 설치된 제어의 %는 무엇인가요?
 - 커버리지 — 필요한 제어가 설치된 데이터 자산의 %는 얼마나 되나요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-**품질 지표를 의미론적으로 유사한 영역으로 그룹화하면 비즈니스 사용 사례에 더 가까운 방식으로 데이터 품질에 대해 이야기할 수 있습니다. (1) 시기 적절성-데이터가 비즈니스와 합의된 SLA에 따라 신선하고 최신한가, (2) 정확성-모든 데이터가 사용 가능한가, (3) 완전성-데이터가 의미론적으로 올바른가, 그리고 (4) 일관성-가용 데이터가 시스템 전반에서 일관성이 있는가  우리는 또한 "나쁨", "양호", 또는 "좋음"이라고 하는 것을 명확히 정의하는 것을 제안합니다. 예를 들어, 50% 미만의 점수는 "나쁨"으로 표시되어 조치가 필요함을 의미합니다.**
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+**품질 지표를 의미론적으로 유사한 영역으로 그룹화하면 비즈니스 사용 사례에 더 가까운 방식으로 데이터 품질에 대해 이야기할 수 있습니다. (1) 시기 적절성-데이터가 비즈니스와 합의된 SLA에 따라 신선하고 최신한가, (2) 정확성-모든 데이터가 사용 가능한가, (3) 완전성-데이터가 의미론적으로 올바른가, 그리고 (4) 일관성-가용 데이터가 시스템 전반에서 일관성이 있는가 우리는 또한 "나쁨", "양호", 또는 "좋음"이라고 하는 것을 명확히 정의하는 것을 제안합니다. 예를 들어, 50% 미만의 점수는 "나쁨"으로 표시되어 조치가 필요함을 의미합니다.**
 
 ![이미지](/assets/img/2024-06-19-High-impactdatagovernanceteams_6.png)
 
@@ -151,7 +279,18 @@ Typeform은 Looker의 개선 사항을 정리하면서 추가 단계를 거쳤�
 
 **널 값 확인에 대한 좋은 커버리지를 가졌지만, 어떤 것이 실패하는지 조사하고, 고칠 수 있는지, 그리고 제거해야 하는지를 고려해야 합니다.**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리의 어설션 테스트의 가동 시간이 크게 감소한 이유는 무엇일까요?
 
@@ -161,7 +300,18 @@ Typeform은 Looker의 개선 사항을 정리하면서 추가 단계를 거쳤�
 
 ## 데이터 품질 기대치를 위한 가이드라인 설정
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대부분의 상황에서는 데이터 사용 방식에 따라 기대 값을 명시하는 것이 좋습니다. 모든 자산에 동일한 기준을 적용하길 원하지 않을 수 있으므로 이를 권장합니다. 마찬가지로 ‘gold’ 자산에만 문서화를 강제할 수 있듯이, 데이터 거버넌스 팀은 데이터 테스트에 대한 기대 사항을 설정하는 역할을 해야 합니다. 비즈니스에 중요한 데이터, 노출되는 데이터 (예: 대시보드에 표시되는 데이터) 및 SLA(데이터가 제 시간에 도착하지 않으면 하류 영향이 있는 경우)를 고려하여 필요한 체크 항목을 평가하고 중요한 것을 측정할 수 있도록 돕습니다.
 
@@ -171,7 +321,18 @@ dbt yml 파일은 이 메타데이터를 정의하기에 좋은 장소입니다.
 
 # 수행 책임이 분명한 소유권 모델을 통해 책임을 보장하세요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 스택이 복잡해지면 한 사람이 모든 것을 머릿속에 간직하기 어려워집니다. 또한 문제를 발견한 사람이 그 문제를 해결할 적절한 사람이 아닌 경우가 더 많아집니다. 동시에 상하위 종속성의 수는 급증하여 적절한 상위 소유자를 찾거나 영향을받는 이해관계자에게 알릴 때 어려움을 겪게 됩니다.
 
@@ -181,8 +342,18 @@ dbt yml 파일은 이 메타데이터를 정의하기에 좋은 장소입니다.
 
 데이터 거버넌스 팀은 명확히 정의된 역할과 책임을 갖는 일관된 소유권 모델을 구축하는 데 궁극적으로 책임이 있습니다. 단계별로 나누어서 누락된 부분을 파악하기 쉽게 만들어봅시다: (1) 메타데이터를 통합하고, (2) 관련 테스트로 문제를 감지하며, (3) 소유권을 할당하고, (4) 관련 인물에게 문제를 통지하여 그들이 대처할 수 있는 방법으로 행동을 취하도록 합시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![High impact data governance teams](/assets/img/2024-06-19-High-impactdatagovernanceteams_8.png)
 
@@ -194,8 +365,18 @@ dbt yml 파일은 이 메타데이터를 정의하기에 좋은 장소입니다.
 
 ![High impact data governance teams](/assets/img/2024-06-19-High-impactdatagovernanceteams_9.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. 문화 소유권 도전 극복하기 — 소유자로 할당받는 것과 책임을 져야 하는 것은 다릅니다. 소유권을 성공적으로 이행하는 것은 기술적인 도전만큼 문화적인 도전입니다. 사람들에게 영향을 미치고 책임을 지게 하는 것은 데이터 관리 팀에 대한 큰 이득입니다. 소유권에 대한 행동을 촉진하고 적절한 분야를 찾아 소유권을 정의함으로써 초기 승리를 증명하는 것은 기술적 구현만큼 중요합니다.
 
@@ -203,9 +384,20 @@ dbt yml 파일은 이 메타데이터를 정의하기에 좋은 장소입니다.
 
 # 리스크, 개인정보 보호 및 규정 준수 관리
 
-회사의 수명주기에서 특정 시점, 일반적으로 데이터 관리 팀이 참여될 때, 관리해야 할 중요한 리스크가 있습니다. 이는 핀테크를 위한 규정 데이터, 곧 예정된 IPO를 위한 금융 데이터의 정확성, 또는 회사가 개인 식별 정보 데이터를 책임적으로 처리해야 한다는 일반적인 인식과 관련이 있을 수 있습니다.  
+회사의 수명주기에서 특정 시점, 일반적으로 데이터 관리 팀이 참여될 때, 관리해야 할 중요한 리스크가 있습니다. 이는 핀테크를 위한 규정 데이터, 곧 예정된 IPO를 위한 금융 데이터의 정확성, 또는 회사가 개인 식별 정보 데이터를 책임적으로 처리해야 한다는 일반적인 인식과 관련이 있을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신의 역할은 데이터 거버넌스 전문가로 명확합니다: 회사가 의무를 준수하고 리스크를 최소화하면서도 데이터 팀의 업무를 느리게 만들지 않도록 보장하는 것입니다.
 
@@ -215,7 +407,18 @@ PII 관련 데이터 – 대부분의 회사에서 사용자 이메일과 같은
 
 사용자 데이터 삭제 요청 – 사용자 데이터를 처리하면 결국 사용자 데이터 삭제 요청을 만나게 될 것입니다. 이에 대해 조속히 생각할수록 처음 요청이 들어왔을 때 모든 사용자 데이터를 삭제하는 것이 더 쉬워집니다. 이러한 사고방식이 발생하기 전에 열어둔 적절한 도구, 예를 들어 열 수준의 계보,는 걸어두면 소요 시간이 크게 줄어듭니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인시던트 관리 프로세스 및 SLA 정의 - 어떤 소유권 모델이나 데이터 품질 점검을 하더라도 데이터 문제는 발생할 수 있습니다. 잘 정의된 인시던트 관리 프로세스에는 여러 가지 이점이 있습니다: 모두가 중요한 것에 대해 공유된 이해를 구축하는 데 도움이 되며, 문제에 대한 어떤 맥락도 없는 사람들을 쉽게 참여시킬 수 있습니다. 또한 지난 인시던트를 쉽게 되돌아보고 중요한 위반 사항에 대해 보고할 수 있습니다.
 
@@ -225,7 +428,18 @@ PII 관련 데이터 – 대부분의 회사에서 사용자 이메일과 같은
 
 데이터를 사용 가능하게 만들기, 품질을 보장하기, 소유권 구축하기, PII 및 리스크를 속도와 균형있게 조절하기 - 이것은 데이터 가버넌스 팀에게는 작은 일이 아닙니다! 데이터 가버넌스 전문가가 성공하기 위해 필요한 필수 기술은 아래와 같습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기술적 이해력 - 코드 기반에 기여하지 않고 직접 dbt 모델을 작성하지는 않더라도 데이터 팀이 사용하는 도구 및 제한 사항을 고수준으로 이해하면 유익합니다. 이렇게 하면 다른 팀의 고민을 더 잘 이해할 수 있으며 데이터 거버넌스 프로세스가 기존 워크플로에 어떻게 맞는지의 장단점을 파악할 수 있습니다.
 
@@ -235,7 +449,18 @@ PII 관련 데이터 – 대부분의 회사에서 사용자 이메일과 같은
 
 조직적 지원 확보 - 누구도 즐거움을 위해 데이터 품질, 문서화 또는 소유권에 관심을 갖지 않습니다. 데이터 거버넌스 팀으로서 문서화, 데이터 품질 및 소유권이 왜 중요한지에 대한 꿈을 판매해야 합니다. 리더십 팀과 정기적으로 인사이트를 공유하는 것은 그들이 이에 투자해야 할 가치를 파악하고 게임에 참여하도록 하는 좋은 방법일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 모두 모아보기
 
@@ -245,7 +470,18 @@ PII 관련 데이터 – 대부분의 회사에서 사용자 이메일과 같은
 
 요약:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 조직 전반에 걸쳐 데이터를 사용할 수 있도록 합니다 — 데이터가 잘 문서화되어 있고 주요 지표가 일관되게 정의되어 있으며 주요 데이터 자산이 발견 가능하며 대시보드가 잘 보이고 느껴지고 잘 수행될 수 있도록 합니다.
 - 데이터 품질을 계속해서 확인하여 가장 중요한 부분을 체계적으로 개선하도록 지원합니다 — 데이터 거버넌스 팀이 데이터 테스트를 작성하지는 않겠지만, 데이터 품질을 개선하도록 기대치를 강조하고 보고할 수 있습니다.

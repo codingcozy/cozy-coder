@@ -3,7 +3,7 @@ title: "잘 알려지지 않았지만 큰 변화를 가져올 iOS17의 새로운
 description: ""
 coverImage: "/assets/img/2024-07-13-NewiOS17featuresyoumaynothaveheardaboutbutwillmakeabigdifference_0.png"
 date: 2024-07-13 23:48
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-NewiOS17featuresyoumaynothaveheardaboutbutwillmakeabigdifference_0.png
 tag: Tech
 originalTitle: "New iOS17 features you may not have heard about but will make a big difference"
@@ -11,17 +11,24 @@ link: "https://medium.com/macoclock/new-ios17-features-you-may-not-have-heard-ab
 isUpdated: true
 ---
 
-
-
-
-
 iOS 17이 드디어 나왔어요! 인터랙티브 위젯과 새로운 스탠바이 모드와 같은 주요 기능에 대한 큰 환호가 일어나고 있어요.
 
 하지만, 이번 소프트웨어 업데이트는 작은 기능들의 목록도 가져와요. 이러한 작은 기능들은 일반적으로 같은 주목을 받지 못하지만, 실제로는 더 흥미로울 수 있어요!
 
 이 기사는 아마도 iOS17 릴리스에 포함되어 있다는 것을 아직 깨닫지 못했을 지도 모르는 그런 기능들에 대해 빛을 비춰보려고 해요. 이 기능들은 여러분이 핸드폰을 사용하는 방식에 큰 영향을 줄 거예요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 애플 지도:
 
@@ -31,7 +38,18 @@ iOS 17이 드디어 나왔어요! 인터랙티브 위젯과 새로운 스탠바�
 
 ## 사진:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사진 앱 내의 시각적 검색 기능이 징후와 연락처 정보를 넘어 더 확장되었습니다. 이제 사진 앱은 특정 종류의 음식을 인식하므로, 찍은 요리 사진을 통해 해당 요리의 레시피를 찾을 수 있습니다. 또한, 심볼도 인식하기 시작했으니,
 
@@ -41,16 +59,38 @@ iOS 17이 드디어 나왔어요! 인터랙티브 위젯과 새로운 스탠바�
 
 핸드폰에서 가장 많이 사용되는 앱 중 하나인 메시지 앱에 여러 가지 작은 업데이트가 이루어졌다는 소식이 기쁩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 큰 변화가 오디오 메시지에 가해졌어요. 이제 오디오 메시지를 스크럽할 수 있게 되어, 재생을 일시 중지하고 메시지의 속도를 변경할 수 있게 되었어요. 가장 흥미로운 부분은 이제 이 오디오 메시지가 자막이 되었다는 거예요. 그러니 누군가가 혼자서 이야기하는 것을 듣기 싫다면 대신 그들이 말한 내용을 읽을 수 있어요.
 
-메시지에 대한 다른 변화로는 
+메시지에 대한 다른 변화로는
 
 - 특정 사람의 메시지나 특정 키워드가 포함된 메시지를 찾기 위한 검색 필터 개선
 - 메시지에 회신을 걸고 싶을 때, 메시지를 오른쪽으로 스와이프하기만 하면 되요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 스티커
 
@@ -63,7 +103,18 @@ iOS 17이 드디어 나왔어요! 인터랙티브 위젯과 새로운 스탠바�
 
 ## 체크인
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 iOS17에서 데뷔하는 새로운 기능 'Check-In'은 당신이 어디에 있고 어떤 여정을 떠나는지 다른 사람이 추적할 수 있게 해줍니다.
 
@@ -73,7 +124,18 @@ iOS17에서 데뷔하는 새로운 기능 'Check-In'은 당신이 어디에 있�
 
 전통적인 키보드는 뒷단에서 몇 가지 중요한 변화를 보았습니다. iOS 17에서는 개선된 자동 수정 기능과 더 잘 예측된 타이핑이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Improved dictation capabilities have been upgraded. Speaking into the phone now transcribes words with better speed and accuracy. It’s not flawless yet, but it's a significant enhancement compared to last year.
 
@@ -83,7 +145,18 @@ A novel feature allows you to create a calling card that appears on another user
 
 If you're already familiar with setting up lock screens, setting up these Contact Posters will feel natural. You can select a photo, emoji, or plain gradient as the background for the poster. Additionally, you can customize the text, font weight, and color that will be displayed.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 번에 여러 개의 포스터를 디자인할 수 있지만 한 번에 하나의 포스터만 사용할 수 있습니다. 선택한 포스터는 모든 연락처에게 표시되므로 직장 동료를 위한 하나의 포스터와 친구들을 위한 "덜 전문적인" 이미지가 따로 있을 수 있는 방법은 현재 없습니다.
 
@@ -93,13 +166,35 @@ iOS17에서는 전화 앱의 음성 사서함 기능에 큰 변화가 있습니�
 
 전화가 중요한 전화인 경우, 새로운 업데이트로 메시지를 남길 동안 전화를 받을 수 있게 됩니다. 따라서 전화가 걸려오는 사람과 그들이 원하는 것을 정확히 알고 나서 전화에 받을지 여부를 결정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 마음을 전하는 타로
 
 파사마이오즈는 시각적으로도 가공되고, 그 이미지를 전달해주는 건 마음의 암호를 전달받아 내면을 깨달을 겁니다. 이번 주에는 친절하게 손을 펼치고 마음의 안도를 느껴보세요. 만약에 검지로 위로 하거나 아래로 내려가 보세요. 이제는 이모지를 통해 손짓에 반응하고, 나만의 메시지를 남길 수 있게 됩니다. 아이폰은 이제 더 이상 제 방 바깥으로 이동해가지 않습니다. 혹시 가족에게 전화하거나, 메시지를 남기고 싶다면 이제 집 안의 편안한 곳에서 손짓으로 마음을 전해보세요. 신비한 타로의 세계가 당신을 기다리고 있습니다. 함께 메시지를 남기며 새로운 경험을 시작해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 에어드랍
 
@@ -107,7 +202,18 @@ iOS 17을 통해, 이제 만난 지인에게 잠금 해제된 전화를 건네�
 
 두 대의 전화기를 함께 가져가면, 각 사용자의 연락처 카드가 나타납니다. 상대방과 어떤 정보를 공유할지 선택하고, 관련 정보가 새로운 연락처로 전달됩니다. 에어드랍을 통해 파일이나 사진도 알려진 연락처 사이에서 공유할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 기타 이야기
 
@@ -119,12 +225,23 @@ iOS 17을 통해, 이제 만난 지인에게 잠금 해제된 전화를 건네�
 
 위의 글이 유용하게 느껴진다면, 저의 글을 지원하는 세 가지 방법이 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **타로 전문가로서 안녕하세요!** 🌟
 
-다른 관심사를 가진 사람들이 이 글을 발견할 수 있도록 **박수**를 좀 더 두드리시길 바랍니다. 혹시 유용하게 활용하실 수도 있을 거예요. 
+다른 관심사를 가진 사람들이 이 글을 발견할 수 있도록 **박수**를 좀 더 두드리시길 바랍니다. 혹시 유용하게 활용하실 수도 있을 거예요.
 
-저를 **Medium**에서 팔로우해주세요. 그렇게 하면 유사한 콘텐츠가 게시될 때 가장 먼저 알게 될 수 있습니다. 
+저를 **Medium**에서 팔로우해주세요. 그렇게 하면 유사한 콘텐츠가 게시될 때 가장 먼저 알게 될 수 있습니다.
 
 대화를 이어나가 주세요. 여기서 메시지를 남겨주시거나 **트위터/X**나 **마스토돈**에서 연락해주세요. 곧 답변 드리겠습니다! 🌺

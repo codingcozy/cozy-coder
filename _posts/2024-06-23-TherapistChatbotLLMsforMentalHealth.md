@@ -3,17 +3,13 @@ title: "심리 상담 챗봇  정신 건강을 위한 LLMs 사용 방법"
 description: ""
 coverImage: "/assets/img/2024-06-23-TherapistChatbotLLMsforMentalHealth_0.png"
 date: 2024-06-23 19:51
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-TherapistChatbotLLMsforMentalHealth_0.png
 tag: Tech
 originalTitle: "Therapist Chatbot — LLMs for Mental Health"
 link: "https://medium.com/@dev.pandey.0302/therapist-chatbot-llms-for-mental-health-55ff5769a878"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-23-TherapistChatbotLLMsforMentalHealth_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 인공 지능(AI)과 자연어 처리(NLP)를 활용하여, 이 챗봇들은 실제 치료 대화를 시뮬레이션할 수 있어요. 이들은 공감, 지도, 그리고 개인의 필요에 맞게 맞춤형 대처 전략을 제공할 수 있어요. 이러한 접근 방식은 특히 사회적 편견이나 물리적인 장벽 때문에 전통적인 치료를 받기 주저하는 분들에게 접근하는 데 매우 중요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 중요한 점은 심리상담사 챗봇은 정신 건강 관리를 보완할 수 있지만 전문 상담의 대체품이 아니라는 것입니다. 훈련받은 심리상담사들의 세밀한 이해력과 공감적인 대응을 갖추지 못합니다. 그들은 교육과 경험에 기초한 맞춤형 치료를 제공할 수 있는 훈련받은 상담사들의 심리 마음을 나타내지 못합니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 전체 프로젝트와 함께 제 GitHub는 다음에서 확인할 수 있습니다 — https://github.com/Dev-Pandey-0302/Therapist-Chatbot
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 유튜브의 Nicholas Renotte에 대한 큰 찬사를 드립니다 (Nicholas Renotte를 검색해보세요, 놀라운 데이터 과학자!)
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 먼저, 우리는 ~특정 부분이 누락되었습니다~
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 git clone https://github.com/ggerganov/llama.cpp
@@ -56,8 +85,18 @@ git clone https://github.com/ggerganov/llama.cpp
 - Mac: cd llama.cpp && make
 - Windows (from here):
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 최신 Fortran 버전의 w64devkit을 다운로드하세요.
 - PC에 w64devkit을 압축 해제하세요.
@@ -66,7 +105,7 @@ git clone https://github.com/ggerganov/llama.cpp
 - 여기서
 
 ```js
-make
+make;
 ```
 
 위 명령어를 실행하세요. 그 후에는 의존성을 설치합니다. 가능하다면 의존성을 설치하기 전 가상 환경을 만들어도 좋습니다. 가상 환경을 만드는 방법을 모르신다면 아래 링크를 확인해보세요- https://www.freecodecamp.org/news/how-to-setup-virtual-environments-in-python/
@@ -75,7 +114,18 @@ make
 pip install openai 'llama-cpp-python[server]' pydantic instructor streamlit gtts
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # GGUF 모델 다운로드
 
@@ -85,7 +135,18 @@ GGUF가 무엇인가요?
 
 이 애플리케이션에서는 다음을 사용할 것입니다-
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 WesselvanGils/MentaLLaMA-chat-7b-GGUF-q8
 
@@ -95,7 +156,18 @@ WesselvanGils/MentaLLaMA-chat-7b-GGUF-q8
 
 더 자세한 정보를 알고 싶다면 자유롭게 이 글을 읽어보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모델 다운로드로 돌아가기
 
@@ -105,7 +177,18 @@ WesselvanGils/MentaLLaMA-chat-7b-GGUF-q8
 
 # app.py 파일 만들기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 app.py 파일을 만들어 봅시다.
 
@@ -157,7 +240,7 @@ if uploaded_file is not None:
     stringio = StringIO(uploaded_file.getvalue().decode("utf-8"))
     doc_data = stringio.read()
     doc_data = "This is my medical record - " + doc_data + " Please answer the following question based on the earlier medical record- "
-    
+
 # 사용자 입력 받기
 prompt = st.chat_input('채팅을 시작하거나 의료 기록을 업로드하십시오. 어떻게 도와드릴까요?')
 ...
@@ -165,7 +248,18 @@ prompt = st.chat_input('채팅을 시작하거나 의료 기록을 업로드하�
 
 이 특정 app.py 파일은 구글의 gtts 라이브러리를 사용한 텍스트 음성 변환 기능도 제공합니다. 이를 위해서는 인터넷 연결이 필요하지만, 오프라인으로 완전히 실행하려면 gtts를 import하지 않고 마지막 4줄을 주석 처리하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 파일을 저장한 후 로컬 서버를 실행해 보겠습니다.
 
@@ -177,7 +271,18 @@ prompt = st.chat_input('채팅을 시작하거나 의료 기록을 업로드하�
 python -m llama_cpp.server --model D:\CHATBOT_PROJ_NEW\MentaLLaMA-chat-7b-GGUF-q8\MentaLLaMA-chat-7b-GGUF-q8.gguf --n_gpu -1
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # App.py 실행
 
@@ -189,7 +294,18 @@ streamlit run app.py
 
 축하합니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지역 컴퓨터에서 실행 중인 자체 치료사 AI를 만들었습니다. .txt 파일을 제공하든 일반적인 질문을 하든 자유롭게 진행해주세요!
 

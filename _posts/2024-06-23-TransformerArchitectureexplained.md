@@ -3,17 +3,13 @@ title: "Transformer 아키텍처 완벽 설명"
 description: ""
 coverImage: "/assets/img/2024-06-23-TransformerArchitectureexplained_0.png"
 date: 2024-06-23 19:57
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-TransformerArchitectureexplained_0.png
 tag: Tech
 originalTitle: "Transformer Architecture explained"
 link: "https://medium.com/@amanatulla1606/transformer-architecture-explained-2c49e2257b4c"
 isUpdated: true
 ---
-
-
-
-
 
 Transfomers은 최근에 많은 소음을 일으키고 있는 머신 러닝의 새로운 개발입니다. 그들은 맥락을 잘 추적하는 데 놀라울 정도로 뛰어납니다. 그래서 그들이 쓰는 텍스트가 이치에 맞는 것입니다. 이 장에서는 변압기의 아키텍처와 작동 방식에 대해 알아볼 것입니다.
 
@@ -23,7 +19,18 @@ Transfomers은 최근에 많은 소음을 일으키고 있는 머신 러닝의 �
 
 요약하면, 변압기는 무엇을 하는 걸까요? 핸드폰에서 텍스트 메시지를 작성하고 있다고 상상해 보세요. 각 단어 뒤에는 세 개의 단어가 제안될 수 있습니다. 예를 들어, "안녕, 어떻게"를 입력하면 핸드폰은 "당신"이나 "당신의"와 같은 단어를 다음 단어로 제안할 수 있습니다. 물론, 핸드폰에서 제안된 단어를 계속 선택하면 이러한 단어로 이루어진 메시지가 이치에 맞지 않음을 빨리 알 수 있습니다. 각각 3개 또는 4개의 연속된 단어 집합을 살펴보면 이치가 맞을 수 있지만, 이러한 단어들은 의미 있는 내용으로 이어지지 않습니다. 이는 핸드폰에서 사용된 모델이 메시지의 전반적인 맥락을 가지고 있지 않기 때문에 발생합니다. 그 모델은 단순히 최근 몇 단어 뒤에 어떤 단어가 더 자주 나올지 예측하는 것입니다. 반면에 변압기는 쓰여지는 내용의 맥락을 추적하고, 그래서 그들이 쓰는 텍스트가 의미가 있는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 휴대폰은 텍스트 메시지에서 사용할 다음 단어를 제안할 수 있지만, 일관된 텍스트를 생성할 수 있는 능력은 없습니다.
 
@@ -33,7 +40,18 @@ Transfomers은 최근에 많은 소음을 일으키고 있는 머신 러닝의 �
 
 그러면 트랜스포머는 어떻게 훈련되는 걸까요? 많은 양의 데이터로, 사실상 인터넷의 모든 데이터로 말이죠. 그래서 "안녕, 어떻게"라는 문장을 트랜스포머에 입력하면, 인터넷의 모든 텍스트를 기반으로 "당신"이라는 다음 단어가 가장 좋다는 것을 단순히 알고 있습니다. 좀 더 복잡한 명령을 주면, 예를 들어, "이야기를 써봐." 라고 주면, 좋은 다음 단어로 "한 번"을 사용할 수 있음을 알아낼 수도 있습니다. 그러면 이 단어를 명령에 추가하고, 좋은 다음 단어가 "있던", 이어갈 다음 단어가 무엇인지 찾아나갑니다. 그리고 한 단어씩, 이렇게 이어가면서 이야기를 써 나갈 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 명령: 이야기를 쓰세요
 응답: 한 번에
@@ -47,7 +65,18 @@ Transfomers은 최근에 많은 소음을 일으키고 있는 머신 러닝의 �
 다음 명령: 이야기를 쓰세요. 한 번에 옛날에 한
 응답: 시간
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한때 가족들이 모여 있던 어느 편안한 마을에서 다섯 형제가 살았어요. 그들의 이름은 래리, 루이스, 레오나르도, 루이라, 그리고 루카스였죠. 모두가 가난한 환경에서 자라났지만, 그들은 서로를 깊이 사랑하는 특별한 유대 관계를 형성했어요.
 
@@ -57,8 +86,18 @@ Transfomers은 최근에 많은 소음을 일으키고 있는 머신 러닝의 �
 
 그들은 이 경험을 통해 서로의 용기, 협력, 그리고 신뢰를 배웠어요. 이들은 함께한 경험이 더 이상 그들을 나눌 수 없는 특별한 유대 관계를 형성하는 데 도움이 되었죠. 이제 형제들은 당신의 도움이 주변에 필요한 이웃을 발견하고 노인처럼 따뜻한 마음으로 도와줄 준비가 되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-23-TransformerArchitectureexplained_2.png)
 
@@ -68,8 +107,18 @@ Transfomers은 최근에 많은 소음을 일으키고 있는 머신 러닝의 �
 
 ![이미지](/assets/img/2024-06-23-TransformerArchitectureexplained_3.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 포함
 
@@ -79,7 +128,18 @@ Transfomers은 최근에 많은 소음을 일으키고 있는 머신 러닝의 �
 
 # 위치 인코딩
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문장의 각 토큰에 해당하는 벡터를 가지고 나면, 다음 단계는 이 모든 것을 하나의 벡터로 결합하는 것입니다. 여러 벡터를 하나의 벡터로 변환하는 가장 일반적인 방법은 각 요소를 더하는 것입니다. 즉, 각 좌표를 따로 더합니다. 예를 들어, 길이가 2인 벡터 [1,2]와 [3,4]가 있다면, 이에 해당하는 합은 [1+3, 2+4]로 [4, 6]이 됩니다. 이 방법은 작동할 수 있지만 한 가지 주의할 점이 있습니다. 덧셈은 교환법칙이 성립하므로, 숫자를 다른 순서로 더하더라도 동일한 결과를 얻을 수 있습니다. 이 경우 "I'm not sad, I'm happy"와 "I'm not happy, I'm sad"는 같은 결과 벡터를 얻게 됩니다. 이러한 경우는 바람직하지 않습니다. 그래서 두 문장에 대해 서로 다른 벡터를 얻기 위한 방법을 고안해야 합니다. 여러 방법이 있지만, 우리는 그 중 하나를 선택할 것입니다: 위치 인코딩(Positional Encoding). 위치 인코딩은 단어의 임베딩 벡터에 미리 정의된 벡터 시퀀스를 추가하는 것으로, 이를 통해 각 문장에 대해 고유한 벡터를 얻고 같은 단어가 다른 순서로 나타난 문장에는 서로 다른 벡터가 할당됩니다. 아래 예시에서 단어 "Write", "a", "story", "."에 해당하는 벡터가 각 단어의 위치 정보를 담고 있는 수정된 벡터로 변환됩니다. "Write (1)", "a (2)", "story (3)", ". (4)"으로 레이블이 지정됩니다.
 
@@ -89,7 +149,18 @@ Transfomers은 최근에 많은 소음을 일으키고 있는 머신 러닝의 �
 
 지금까지의 내용을 요약해보겠습니다. 단어가 들어오면 토큰으로 변환되고(tokenization), 토큰화된 단어들은 숫자로 변환됩니다(임베딩), 그리고 순서가 고려됩니다(위치 인코딩). 이렇게 모델에 입력되는 각 토큰에 대해 하나의 벡터가 생성됩니다. 이제 다음 단계는 이 문장에서 다음 단어를 예측하는 것입니다. 이 작업은 실제로 매우 큰 신경망으로 수행되며, 해당 목표에 정확하게 훈련된 모델을 사용하여 이 문장에서 다음 단어를 예측합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 큰 신경망을 교육할 수는 있지만, 주요 단계인 주의 메커니즘을 추가함으로써 크게 개선할 수 있습니다. Attention is All you Need 논문에서 소개된 이 주의 메커니즘은 트랜스포머 모델의 주요 구성 요소 중 하나로, 그들이 잘 동작하는 이유 중 하나입니다. 주의는 이전 섹션에서 설명되었지만, 지금은 이것을 텍스트의 각 단어에 맥락을 추가하는 방법으로 상상해 보세요.
 
@@ -100,18 +171,40 @@ Transfomers은 최근에 많은 소음을 일으키고 있는 머신 러닝의 �
 
 ![image](/assets/img/2024-06-23-TransformerArchitectureexplained_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 주의
 
-다음 단계는 주의입니다.  어텐션 메커니즘은 매우 중요한 문제, 즉 문맥의 문제를 다룹니다. 가끔은 동일한 단어라고 하더라도 다른 의미로 사용될 수 있습니다. 이것은 임베딩이 단어를 벡터로 보내기만 하고 사용 중인 단어의 정의가 무엇인지 알지 못하기 때문에 언어 모델을 혼란스럽게 만듭니다.
+다음 단계는 주의입니다. 어텐션 메커니즘은 매우 중요한 문제, 즉 문맥의 문제를 다룹니다. 가끔은 동일한 단어라고 하더라도 다른 의미로 사용될 수 있습니다. 이것은 임베딩이 단어를 벡터로 보내기만 하고 사용 중인 단어의 정의가 무엇인지 알지 못하기 때문에 언어 모델을 혼란스럽게 만듭니다.
 
 어텐션이라는 기술은 언어 모델이 문맥을 이해하는 데 도움이 되는 매우 유용한 기술입니다. 어텐션이 어떻게 작동하는지 이해하기 위해 다음 두 문장을 살펴보겠습니다:
 
 - 문장 1: 강의 둑.
 - 문장 2: 은행에 있는 돈.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! '은행'이라는 단어가 두 번 나오지만 다른 의미를 갖고 있음을 알 수 있습니다. 제1문장에서는 강가의 땅을 가리키고, 두 번째 문장에서는 돈을 보관하는 기관을 가리키고 있죠. 컴퓨터는 이를 모르기 때문에 이 지식을 주입해야 합니다. 그럼 무엇이 도움이 될까요? 문장 안의 다른 단어들이 우리 구조에 도움이 될 수 있습니다. 첫 번째 문장에서는 'the'나 'of'는 도움이 되지 않지만, 'river'라는 단어는 강가의 땅을 언급하고 있음을 알려줍니다. 마찬가지로, 두 번째 문장에서는 'money'라는 단어가 우리에게 돈을 보관하는 기관을 가리킨다는 것을 이해할 수 있게 해줍니다.
 
@@ -119,7 +212,18 @@ Transfomers은 최근에 많은 소음을 일으키고 있는 머신 러닝의 �
 
 트랜스포머 모델에서 사용되는 어텐션 단계는 실제로 훨씬 강력하며, 멀티헤드 어텐션이라고 불립니다. 멀티헤드 어텐션에서는 여러 다른 임베딩이 사용되어 벡터를 수정하고 맥락을 추가합니다. 멀티헤드 어텐션은 언어 모델이 텍스트를 처리하고 생성할 때 효과적인 수준으로 도달하도록 도와주었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 소프트맥스 레이어
 
@@ -127,7 +231,18 @@ Transfomers은 최근에 많은 소음을 일으키고 있는 머신 러닝의 �
 
 변압기의 마지막 단계는 소프트맥스 레이어로, 이 점수를 확률로 변환(합이 1이 되는)하여 가장 높은 점수가 가장 높은 확률에 해당하도록 합니다. 그런 다음 이러한 확률 중에서 다음 단어를 샘플링할 수 있습니다. 아래 예시에서 변압기는 "Once"에 0.5의 가장 높은 확률을 부여하고 "Somewhere"에는 0.3, "There"에는 0.2의 확률을 부여합니다. 한 번 샘플링하면 단어 "once"가 선택되어 변압기의 출력이 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자 이제 뭐 할까요? 우리는 단계를 반복해요. 이제 텍스트 "한 이야기를 써보세요. 한 번"을 모델에 입력하면, 아마도 출력은 "upon"이 될 거에요. 이 단계를 계속 반복하면, 변환기는 "한 번에 어느 날, ... 이었어요."와 같은 이야기를 쓰게 될 거에요.
 
@@ -137,6 +252,17 @@ Transfomers은 최근에 많은 소음을 일으키고 있는 머신 러닝의 �
 
 답은 후훈련(post-training)에 있어요. 사람에게 특정 작업을 가르치듯이, 변환기에게도 작업을 수행하도록 시킬 수 있어요. 변환기가 전체 인터넷에 훈련을 받은 후, 많은 질문과 그에 해당하는 답변의 대형 데이터셋으로 다시 훈련받아요. 변환기(사람과도 같이)는 학습한 마지막 것에 편향을 가지기 때문에 후훈련은 변환기가 요청받은 작업들에 성공하는 데 매우 유용한 단계로 입증되었어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 포스트 트레이닝은 많은 다른 작업에도 도움이 됩니다. 예를 들어, 대화 데이터셋을 사용하여 트랜스포머를 포스트 트레이닝하면 챗봇으로 잘 작동하도록 돕거나, 이야기, 시, 코드를 작성하는 데 도움을 줄 수 있습니다.

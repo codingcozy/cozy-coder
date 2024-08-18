@@ -3,17 +3,13 @@ title: "몰입형 연극의 진화 과거, 현재, 그리고 미래"
 description: ""
 coverImage: "/assets/img/2024-07-07-TheEvolutionofImmersiveTheaterPastPresentandFuture_0.png"
 date: 2024-07-07 13:27
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-TheEvolutionofImmersiveTheaterPastPresentandFuture_0.png
 tag: Tech
 originalTitle: "The Evolution of Immersive Theater: Past, Present, and Future"
 link: "https://medium.com/@monicapquinn/the-evolution-of-immersive-theater-past-present-and-future-4ab556747056"
 isUpdated: true
 ---
-
-
-
-
 
 ## 멧등극장이 이야기 전달을 어떻게 변화시켰는지와 다음에 대해
 
@@ -23,7 +19,18 @@ UCLA에서의 내 가장 좋아하는 연극 경험 중 하나는 앵상블 기�
 
 ![이미지](/assets/img/2024-07-07-TheEvolutionofImmersiveTheaterPastPresentandFuture_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 깊은 해석극의 기원을 이해하는 것은 제게 열정이 되었지만, 종종 복잡하고 어수선한 역사적 길로 인도했습니다. 이 기사는 짧은 해석극 역사를 조립하려고 노력했습니다. 이 흥미로운 세계를 자세히 탐구하고 파고들 것을 당신에게 권합니다.
 
@@ -33,7 +40,18 @@ UCLA에서의 내 가장 좋아하는 연극 경험 중 하나는 앵상블 기�
 
 ## 뿌리: 일찍 시작된 것들
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사로잡히는 연극은 현대적인 발명이 아니며, 그 기원은 고대 의식과 의식이 흐려지는 공연과 현실 사이의 경계에서 비롯됩니다. "사로잡히는 연극"이라는 용어는 20세기에 공식적으로 만들어졌으며, 그 중에서도 초기 사례 중 하나가 안토넹 아르토의 "잔혹한 연극"입니다.
 
@@ -43,7 +61,18 @@ UCLA에서의 내 가장 좋아하는 연극 경험 중 하나는 앵상블 기�
 
 ## 돌파구를 열다: 1960년대-1980년대
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 베이비 붐 세대는 반문화 및 정치적 운동으로 유명한데, 면밀한 엔터테인먼트의 선구자였습니다. 1960년부터 1980년까지는 관객 상호작용과 실험적인 극장 형식이 크게 증가했습니다. "The Living Theater"나 "The Performance Group"과 같은 극단은 관객과 배우를 통합한 공연을 선보였습니다. 이러한 공연은 공동체 의식을 키우고, 정치적으로 화두가 되며, 참가자들에게 변화를 주장하도록 격려했습니다.
 
@@ -53,7 +82,18 @@ UCLA에서의 내 가장 좋아하는 연극 경험 중 하나는 앵상블 기�
 
 2000년에는 몰입형 극장이 "Punchdrunk"라는 회사의 등장으로 크게 발전했습니다. 펠릭스 바렛이 설립한 Punchdrunk는 아이코닉하며 종종 몰입형 극장과 동의어로 사용됩니다. 그들의 공연은 탐험을 강조하며, 관객들이 정교한 극장 공간을 자유롭게 돌아다닐 수 있도록 하면서 배우들은 관객 참여에 영향을 받지 않고 계속해서 연기합니다. 관객이 선택하는 내용과 무관하게 공연은 일정합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![The Evolution of Immersive Theater](/assets/img/2024-07-07-TheEvolutionofImmersiveTheaterPastPresentandFuture_2.png)
 
@@ -63,7 +103,18 @@ UCLA에서의 내 가장 좋아하는 연극 경험 중 하나는 앵상블 기�
 
 2000년대의 기술적 발전은 몰입형 극장을 새로운 영역으로 이끌었습니다. 프로젝션, 가상 현실(VR), 증강 현실(AR)과 같은 멀티미디어 요소의 통합은 창작자들이 더욱 복잡하고 매혹적인 환경을 만들 수 있게 했습니다. "Sleep No More"와 같은 작품들은 이러한 기술들을 활용하여 몰입감을 높였으며, 청중들이 이야기 속의 일부가 된 듯한 느낌을 줬습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현실과 픽션 사이의 경계를 흐리게 만든 또 다른 주목할 만한 몰입형 경험은 "The Games of Nonchalance," 또는 Jejune Institute으로 알려져 있습니다. 이 멀티미디어 경험은 명확한 "참여 방법"을 제시하지 않아 참여자들이 무엇이 현실인지 픽션인지 헷갈리게 만들어 종종 남겼습니다. 몇 년에 걸쳐, 이 경험은 참여자들을 긴 여정으로 안내했습니다. 일부는 이것을 종교적인 것처럼 비난했지만, 많은 몰입형 크리에이터들은 이 경험을 몰입형 세계를 만드는 사례 연구로 삼습니다. 제프 헐(Jeff Hull)이 만들고 소규모 프로듀서 팀이 실행한 The Jejune Institute은 몰입형 극장의 세계에서 중요한 이정표로 남아 있습니다.
 
@@ -73,9 +124,18 @@ UCLA에서의 내 가장 좋아하는 연극 경험 중 하나는 앵상블 기�
 
 코로나바이러스 대유행 이후 극장이 무엇을 의미하는 방향 변화를 언급하지 않을 수 없습니다. 우리 모두가 봉쇄를 경험한 그 시기에, 우리는 가정 밖과 가족 이외의 공동체가 필요했습니다. 몰입형 극장은 창의적으로 대처해야 했습니다. 크리에이터들은 AR 및 VR 세계에 더 깊이 파고들었습니다. 그리고 Zoom을 통한 극장 발견과 1:1 몰입형 전화 통화 경험도 발견했습니다.
 
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내게 최초로 몰입형 전화 통화 경험에 대해 얘기해 준 때를 기억해요. 당시에는 농담인 줄 알았는데, 정말 그런 극단이 있는 걸 알게 됐어요. 이제 몇 번의 경험을 해봤는데, 경험할수록 이 예술 형태에 더욱 호기심이 생기는군요. 그들이 꽤 규모가 크고 지속 가능한 것은 부인할 수 없는 사실이에요. Candle House Collective라는 이러한 작업에만 전념하는 극단을 찾았어요. 이 극단은 관객을 이야기의 중심에 두어 참여자들을 고도의 상호작용에 뛰어들게 해요. 현실에서 관객들을 속지 않고 그들의 상상력을 자극하기 위해 창의적인 프로그램을 기획한 이 극단은 찬사를 받고 있어요.
 
@@ -85,7 +145,18 @@ UCLA에서의 내 가장 좋아하는 연극 경험 중 하나는 앵상블 기�
 
 2022년 코로나 팬데믹 이후 가장 혁신적인 몰입형 극장의 대표적 예로 디즈니의 "스타 워즈 갤럭틱 스타크루저"가 등장했어요. Galactic Rockstar Alien Gaya와 활기찬 크루즈 디렉터 Lenka Mok 두 가지 주요 역할을 가장한 저에게는 특히 소중한 경험이죠. 가격에 대한 초기 논란에도 불구하고, 스타크루저는 몰입형 극장 세계에서 유리 천장을 깨는 역할을 해냈답니다. Ann Morrow Johnson, Sarah Thatcher, Wendy Anderson, Scott Trowbridge, Anisha Deshmane, Cory Rouse, Marc Rothschild와 같은 창작자들은 몇 년 동안 꿈꾸던 이 프로젝트를 성공적으로 이끌어 냈어요. 몰입형 분야의 베테랑인 Mikhael Tara Garver와 Jake Lockwood 감독은 그들의 오랜 소망이 유일무이한 성취로 이어진 것을 보게 되었어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **별선박**은 손님들이 **스타워즈 우주**의 한 부분이 되는 것을 완전히 몰입할 수 있는 2일간의 서사적 여정을 제공했습니다. 그들은 캐릭터와 상호작용하며, 스토리 중심의 미션에 참여하며, 서사의 결과에 영향을 주었습니다. 이 경험은 라이브 액션 롤플레이, 테마 환경 및 상호 작용적 서사를 절묘하게 결합하여 깊게 매료시키고 변화시키는 경험의 새로운 기준을 제시했습니다. 이는 적절한 서사, 기술 및 관객 참여의 조합으로, 몰입형 극장이 지속적인 기억과 감정적 연결을 만들어낼 수 있다는 것을 입증했습니다.
 
@@ -95,7 +166,18 @@ UCLA에서의 내 가장 좋아하는 연극 경험 중 하나는 앵상블 기�
 
 미래의 몰입형 극장은 놀라울만큼 흥미롭습니다. 기술이 계속 발전함에 따라, 디지털 및 물리적 경험의 통합이 더욱 더 완벽해질 것으로 기대됩니다. 미래의 몰입형 극장을 형성할 가능성이 있는 몇 가지 트렌드는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **1. 첨단 기술 통합:**
 
@@ -105,17 +187,39 @@ UCLA에서의 내 가장 좋아하는 연극 경험 중 하나는 앵상블 기�
 
 데이터 분석과 인공지능을 통해 미래의 몰입형 경험은 개별 관객에게 맞춰질 것입니다. 개인 맞춤형 이야기와 상호작용은 각 참가자를 위한 독특한 경험을 만들어내어 서술을 더욱 매력적이고 강렬하게 만들 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-# 3. 사회 및 환경 주제: 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+# 3. 사회 및 환경 주제:
 
 인공적 극장은 사회 및 환경 문제를 탐구하는 플랫폼으로 계속될 것입니다. 제작물은 기후 변화, 정신 건강 및 사회 정의와 같은 주제에 대처하여, 몰입형 이야기를 통해 인식을 높이고 행동을 일으킬 것입니다.
 
-# 4. 혼합형 경험: 
+# 4. 혼합형 경험:
 
 실시간과 디지털 경험의 결합이 더 일반적으로 될 것입니다. 대면 및 가상 요소를 결합한 혼합형 제작물은 관객이 서로 다른 방식으로 참여할 수 있게 하여, 인공적 극장의 영향력과 접근성을 확장할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 5. Global Collaboration:
 
@@ -125,7 +229,18 @@ UCLA에서의 내 가장 좋아하는 연극 경험 중 하나는 앵상블 기�
 
 초기부터 현재까지 감상적 연극의 진화는 혁신과 창의력의 힘을 증명하는 것입니다. 미래를 내다보면, 감상적 연극의 가능성은 한계가 없습니다. 새로운 기술을 수용하고 중요한 사회적 주제를 탐구하며 맞춤 경험을 창조함으로써, 감상적 연극은 계속해서 전 세계 관객들을 사로잡고 영감을 주게 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작가이든 이야기꾼이든 예술을 사랑하는 사람이든, 몰입형 극장의 미래는 발견과 경이로운 여정으로 가득 차 있습니다. 우리는 계속해서 경계를 넓히고 오롯이 즐겁게 뿐만 아니라 깨닫고 변모시키는 경험을 창조해 나갈 수 있습니다.
 
@@ -135,6 +250,17 @@ UCLA에서의 내 가장 좋아하는 연극 경험 중 하나는 앵상블 기�
 
 ![이미지](/assets/img/2024-07-07-TheEvolutionofImmersiveTheaterPastPresentandFuture_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 현재 월트 디즈니 월드와 유니버설 오를란도에서 활약 중인 헌신적인 퍼포머인 Monica Quinn입니다. 디즈니의 스타워즈 갤럭틱 스타크루저에서 역할을 맡아왔고, 디즈니 임징니어링과 루카스 필름과 협업을 했습니다. Chrysalis Productions 501c3을 이끌었고, 다섯 년 동안 'Moving Parts Film Festival'을 연출했습니다. 현재는 Theatre South Playhouse의 이사장을 맡고 있으며, 'One Spark Entertainment'를 출범하고 있습니다. 최초의 몰입형/인터랙티브 체험을 준비 중입니다. 또한 'The Association for Interactive Performance Professionals'의 창립 멤버 중 한 명입니다.

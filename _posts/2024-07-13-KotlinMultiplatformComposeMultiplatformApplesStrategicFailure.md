@@ -3,17 +3,13 @@ title: "애플 전략 실패 Kotlin Multiplatform과 Compose Multiplatform의 �
 description: ""
 coverImage: "/assets/img/2024-07-13-KotlinMultiplatformComposeMultiplatformApplesStrategicFailure_0.png"
 date: 2024-07-13 00:39
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-KotlinMultiplatformComposeMultiplatformApplesStrategicFailure_0.png
 tag: Tech
 originalTitle: "Kotlin Multiplatform, Compose Multiplatform: Apple’s Strategic Failure"
 link: "https://medium.com/better-programming/kmp-cm-apples-strategic-failure-cb758c24f824"
 isUpdated: true
 ---
-
-
-
-
 
 ![Kotlin Multiplatform](/assets/img/2024-07-13-KotlinMultiplatformComposeMultiplatformApplesStrategicFailure_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 한 번 코드를 작성하고, 어떤 플랫폼에서라도 실행할 수 있는 능력.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 There are a few reasons for wanting this:
 
@@ -36,7 +43,18 @@ However, the most crucial point is probably the last one.
 
 In reality, mobile app development can be quite costly. Hiring iOS and Android developers doesn't come cheap, and management and executives have always been hesitant about investing money in developing the same app twice.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 번은 iOS 용으로, 한 번은 Android 용으로.
 
@@ -46,7 +64,18 @@ Kotlin Multiplatform (KMP)과 Compose Multiplatform (CM)은 이러한 문제들�
 
 하지만 먼저, 성배부터. 🌟
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 성배를 찾는 여정
 
@@ -56,7 +85,18 @@ Kotlin Multiplatform (KMP)과 Compose Multiplatform (CM)은 이러한 문제들�
 
 초창기의 Java와 Flash부터 Cordova와 Ionic, JavaScript/React에 이르기까지, 그리고 Xamarin과 Flutter와 같은 최근 기술들까지.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 것이 왕인 자리를 주장했습니다. 우리가 당신입니다. 한 번 작성하고 어디서나 실행해보세요.
 
@@ -66,7 +106,18 @@ Kotlin Multiplatform (KMP)과 Compose Multiplatform (CM)은 이러한 문제들�
 
 # 외관과 느낌
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 후반부 내용은 이해하기 쉽고, 사용자 애플리케이션을 바라볼 때 가장 중요한 부분입니다.
 
@@ -76,7 +127,18 @@ Kotlin Multiplatform (KMP)과 Compose Multiplatform (CM)은 이러한 문제들�
 
 이전에 언급한 대로, 대부분 플랫폼의 컨트롤과 사용자 인터페이스 요소를 모방하고 Skia를 사용해 자체 버전을 렌더링하는 Flutter와 같은 솔루션의 주요 문제입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 Compose Multiplatform도 문제가 있습니다. CM은 Skiko를 사용하는데, Skiko는 다시 Skia를 그래픽 렌더링 API로 사용합니다.
 
@@ -86,7 +148,18 @@ Kotlin Multiplatform (KMP)과 Compose Multiplatform (CM)은 이러한 문제들�
 
 # Kotlin Multiplatform
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 인용한 웹사이트 내용을 보면요:
 
@@ -96,7 +169,18 @@ Kotlin Multiplatform (KMP)과 Compose Multiplatform (CM)은 이러한 문제들�
 
 양 플랫폼은 각각 Compose(Android)와 SwiftUI(iOS)와 같은 자체 인터페이스 라이브러리를 사용하여 해당 코드를 사용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 회사와 사용자 양쪽에게 최상의 이점을 제공한다고 알려져 있어요. 특정 플랫폼에서 일관된 사용자 인터페이스 동작과 여러 플랫폼에서 일관된 논리적 동작이 있어요.
 
@@ -106,7 +190,18 @@ Kotlin Multiplatform (KMP)과 Compose Multiplatform (CM)은 이러한 문제들�
 
 이것은 강력하고 은밀한 개념이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 말했듯이, 이는 애플 및 iOS 소프트웨어 개발 미래 비전에 대한 중대한 전략적 실패를 대표하는 것이기도 합니다.
 
@@ -116,7 +211,18 @@ Kotlin Multiplatform (KMP)과 Compose Multiplatform (CM)은 이러한 문제들�
 
 당연한 일이지만 최대의 문제는 Android 우선 개발이라고 부르는 상황으로 이어진다는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 All of the core business logic, validation, and networking tasks are handled in Kotlin within Android Studio. Given that converting the library for use in Xcode on iOS involves a time-consuming process, it's more efficient to focus on development and testing primarily on the Android platform.
 
@@ -126,7 +232,18 @@ Once the functionality is confirmed on Android, the library is exported for inte
 
 This approach results in an application structure and code optimized for Android, with interfaces, services, and APIs written in Kotlin and tailored for a Compose environment.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 라이브러리가 iOS에 도착하면 어떻게 되는지 궁금하신가요?
 
@@ -136,7 +253,18 @@ This approach results in an application structure and code optimized for Android
 
 그래서 경영진은 iOS 팀에게 어떤 메시지를 전달할까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "이건 해결해야 할 문제야."
 
@@ -146,7 +274,18 @@ This approach results in an application structure and code optimized for Android
 
 무슨소용이 없다는 이유는 그 변화나 기능이 안드로이드에 존재하지 않기 때문에 iOS 개발자들은 그걸 사용할 수 없기 때문이지.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Swift에 async/await를 추가하고 싶나요? Kotlin에서는 그 형태로 존재하지 않기 때문에 completion callbacks으로 사용해야 합니다.
 
@@ -156,9 +295,20 @@ Swift에 macro나 model 지원을 추가하고 싶나요? 좋아요. 그러나 �
 
 더 얘기할 수 있지만, 아이디어를 받아들였을 거라 믿습니다. Android First Development 세계에서, iOS는 2급 시민이며, 최소 공통 분모 애플리케이션이 규칙입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-안녕하세요! 오늘은 타로 카드 전문가가 여러분을 찾아왔어요! 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+안녕하세요! 오늘은 타로 카드 전문가가 여러분을 찾아왔어요!
 
 안드로이드가 먼저 나왔죠. 📱👾
 
@@ -168,7 +318,18 @@ Swift에 macro나 model 지원을 추가하고 싶나요? 좋아요. 그러나 �
 
 그럼 이 상황에 애플은 어떤 대책을 내놨을까요? 🍏🤔
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 카드를 뒤집어보니, 현재 상황에 대해 자세히 말씀드릴게요.
 
@@ -178,9 +339,20 @@ Swift 및 SwiftUI에 새로운 추가 기능이 있었나요? 물론이죠. 두 
 
 제가 "애플은 또 다시 그랬다"라고 썼던 것처럼, 애플은 Swift와 SwiftUI에 새로운 기술을 추가했고... 그런 다음 그 기술을 iOS 17과 최신 버전의 iPadOS, macOS 등에서만 실행되도록 제한했어요. (그들이 "일치하는 플랫폼"이라고 애정을 담아 부르는 것과 비슷하게요.)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-애플은 자신들의 플랫폼에서도 사용자 인터페이스 코드를 역호환성 있게 구현하지 못하는데, 여러 플랫폼은 걱정하지 않으셔도 됩니다! 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+애플은 자신들의 플랫폼에서도 사용자 인터페이스 코드를 역호환성 있게 구현하지 못하는데, 여러 플랫폼은 걱정하지 않으셔도 됩니다!
 
 그런데, 혹시 Compose는 어떨까요? SwiftUI vs. Jetpack Compose: 안드로이드가 확실히 이기는 이유에 대해 이야기를 했습니다.
 
@@ -188,7 +360,18 @@ Swift 및 SwiftUI에 새로운 추가 기능이 있었나요? 물론이죠. 두 
 
 사실, 경쟁사 플랫폼도 지원할 수 있는 방법이 있다니까요... 애플만이 이것을 못하는 게 이상하지 않나요? ✨
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 질문에는 간단한 대답이 있어요.
 
@@ -198,7 +381,18 @@ Swift 및 SwiftUI에 새로운 추가 기능이 있었나요? 물론이죠. 두 
 
 애플의 세계에서, 크로스 플랫폼 개발은 여러분의 iOS 앱과 코드를 iPad에서 실행하는 것을 의미해요. 아니면 애플 워치에서도 실행되거나, 애플의 생태계에서 다른 장치에서 실행되는 것을 말해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 안드로이드에 대해서는 언급이 아예 없었던 것 같아요. 전체 WWDC 키노트 중 Android 플랫폼에 대한 언급이 단 한 번도 없었을 정도입니다.
 
@@ -208,7 +402,18 @@ VR에 대해서 언급되었나요? 아니요.
 
 AI에 대해서도요? 아니요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 애플의 세계에서는 다른 기술과 플랫폼이 단순히 존재하지 않는다.
 
@@ -218,7 +423,18 @@ AI에 대해서도요? 아니요.
 
 ![2024-07-13-KotlinMultiplatformComposeMultiplatformApplesStrategicFailure_4.png](/assets/img/2024-07-13-KotlinMultiplatformComposeMultiplatformApplesStrategicFailure_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 애플은 자사의 생태계를 자랑하기를 좋아합니다.
 
@@ -228,7 +444,18 @@ AI에 대해서도요? 아니요.
 
 하지만 만약 다른 생태계에서 허용하는 것에 구애받는다면 어떻게 될까요? 다른 플랫폼의 도구와 기능 제한 때문에 어려움을 겪는다면 어떻게 될까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### iOS-First 세상에서 개발자들이 개발을 중단하면 어떻게 될까요?
 
@@ -238,7 +465,18 @@ AI에 대해서도요? 아니요.
 
 저는 이런 식으로 제 글에 댓글을 남기는 것을 읽었습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 넷플릭스가 코틀린 멀티플랫폼을 공식으로 도입했다는 큰 소식도 있죠.
 
@@ -248,7 +486,18 @@ AI에 대해서도요? 아니요.
 
 개발자들은 모든 통합 문제에 불평할 거예요. 그들은 대부분의 초기 시간을 절약할 수 있다고 설명할 차단된 특정 버그의 위치를 찾기 위해 시스템을 추적하려 하면서 나중에 소진될 것이라고 시도할 거예요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 시스템에는 더 많은 주요 종속성이 있다는 점을 지적할 겁니다. 이는 도구 체인을 더욱 취약하게 만들죠. 새로운 iOS 및 iPadOS 버전으로 이동하기를 억제하는데, 도구 체인이 애플의 출시 일정에 따라 따라잡을 때까지.
 
@@ -256,7 +505,18 @@ AI에 대해서도요? 아니요.
 
 하지만 중요한 건, 성배의 매력이 강하다는 것이죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 애플이 선두에 서지 않는다면, 누군가 다른가에서 이끌 것입니다.
 
@@ -266,9 +526,20 @@ AI에 대해서도요? 아니요.
 
 기업이 iOS 장치를 만들고 고객을 두류 시민으로 취급해 비용을 절약할 수 있다고 생각한다면, 그것이 이루어질 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-만약 CIO에게 모바일 예산을 30%나 40% 또는 심지어 50%까지 줄일 수 있다고 말한다면, 그들이 진지하게 고려하지 않을까요? 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+만약 CIO에게 모바일 예산을 30%나 40% 또는 심지어 50%까지 줄일 수 있다고 말한다면, 그들이 진지하게 고려하지 않을까요?
 
 물론 그 정도로는 아닐 것이지만...
 
@@ -276,7 +547,18 @@ AI에 대해서도요? 아니요.
 
 Swift는 다른 플랫폼에서도 실행되며, 그 고유한 디자인 덕분에 SwiftUI도 진정한 크로스 플랫폼 툴킷이 될 수 있었을 텐데요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 iOS 선도 세계에서 살았을 수도 있었습니다.
 
@@ -286,7 +568,18 @@ Swift는 다른 플랫폼에서도 실행되며, 그 고유한 디자인 덕분�
 
 # 완료된 블록
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 This is a message that signals a deep contemplation.
 
@@ -296,7 +589,18 @@ However, recurrent obstacles placed by Apple have muddled the path for developer
 
 The current situation is a reflection of the choices and policies adopted by Apple. If you delve deeper into the matter, you may find clarity and insight.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더구나 그들이 그것이 여기 있다는 걸 알고 있는지조차 잘 모르겠어.
 
@@ -306,7 +610,18 @@ The current situation is a reflection of the choices and policies adopted by App
 
 그렇다면, 어떻게 생각하시나요? 적중한가요? 불일치인가요? 제가 놓친 부분이 있나요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 언제나 댓글로 알려주세요.
 

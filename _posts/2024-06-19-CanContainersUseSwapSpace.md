@@ -3,18 +3,13 @@ title: "컨테이너가 스왑 공간을 사용할 수 있을까요"
 description: ""
 coverImage: "/assets/img/2024-06-19-CanContainersUseSwapSpace_0.png"
 date: 2024-06-19 14:53
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-CanContainersUseSwapSpace_0.png
 tag: Tech
 originalTitle: "Can Containers Use Swap Space?"
 link: "https://medium.com/@cstoppgmr/can-containers-use-swap-space-cdf9d73d8db5"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![image](/assets/img/2024-06-19-CanContainersUseSwapSpace_0.png)
 
@@ -24,8 +19,18 @@ Linux을 잘 아시는 분이라면 스왑 공간에 익숙할 것입니다. 간
 
 특히 Memory Cgroups(제어 그룹)로 관리되는 컨테이너의 경우, 다음과 같은 의문이 생깁니다. 그들은 여전히 스왑 공간을 사용할 수 있을까? 그렇다면, 어떠한 잠재적인 문제가 있을까요?
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 문제 현상
 
@@ -35,7 +40,18 @@ Linux을 잘 아시는 분이라면 스왑 공간에 익숙할 것입니다. 간
 
 이 예시에서 스왑 공간 크기는 20G로 설정되어 있지만, 사용 가능한 디스크 공간에 따라 조정할 수 있습니다. 이러한 명령어를 실행한 후 free 명령어를 실행하면 스왑 공간이 지금 20G임을 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 스크린샷을 참고하면 출력 예시를 확인할 수 있어요.
 
@@ -45,7 +61,18 @@ Linux을 잘 아시는 분이라면 스왑 공간에 익숙할 것입니다. 간
 
 OOM 문서에서 설명한 상황과 달리, 이번에는 OOM 이벤트로 인해 컨테이너가 종료되지 않아요. 대신, 컨테이너는 계속해서 원활하게 실행됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 출력에서 우리는 mem_alloc 프로세스의 RSS (Resident Set Size) 메모리가 약 512MB(RES: 515596)로 유지되는 것을 관찰할 수 있습니다.
 
@@ -55,7 +82,18 @@ OOM 문서에서 설명한 상황과 달리, 이번에는 OOM 이벤트로 인�
 
 ![이미지](/assets/img/2024-06-19-CanContainersUseSwapSpace_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 방금 토론한 예시를 기반으로 하면, 스왑 공간이 있는 경우 OOM-킬 당할 수 있던 컨테이너가 원활하게 실행될 것이라고 생각할 수 있습니다. 처음에는 유익해 보일 수 있지만, 좀 더 심층적으로 생각해보면, 이는 메모리 Cgroup 제한의 목적을 약화시킬 수 있다는 점을 생각해보셨나요?
 
@@ -65,7 +103,18 @@ OOM 문서에서 설명한 상황과 달리, 이번에는 OOM 이벤트로 인�
 
 예를 들어 일부 종류의 프로그램은 가끔 메모리가 급증하여 OOM 킬러에 의해 종료되지 않도록하기 위해 스왑 공간이 필요할 수 있습니다. 이러한 프로그램을 재시작하는 것은 초기화 시간이 길기 때문에 비용이 들 수 있습니다. 이러한 프로그램들에 대해서는 스왑을 활성화하는 것이 의미가 있을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 프로그램들이 컨테이너에서 실행될 때, 같은 호스트 머신을 다른 컨테이너와 함께 공유하게 될 거예요. 하나의 컨테이너가 스왑이 필요없고 엄격한 Memory Cgroup 제한을 의존하는 경우, 두 컨테이너 간에 호스트 머신에서 충돌이 발생할 수 있어요. 그래서, 이 충돌을 어떻게 해결할 수 있을까요?
 
@@ -75,7 +124,18 @@ OOM 문서에서 설명한 상황과 달리, 이번에는 OOM 이벤트로 인�
 
 일반적인 Linux 시스템에서 스왑 공간을 사용한 경우, proc 파일 시스템 (/proc/sys/vm/swappiness)에서 찾을 수 있는 swappiness 매개변수를 구성했을 수 있어요. swappiness의 정의는 Linux 커널 문서에 나와 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 고 значение은 kernel이 swap 하는 경향을 늘리고, 낮은 값은 그 경향을 줄입니다. swappiness 매개변수는 kernel이 런타임 메모리를 swap out 하는 선호도를 정의하며, 값이 100이면 kernel이 적극적으로 swap하고, 값이 0이면 kernel은 가능한 경우에는 swap을 피합니다. 기본 값은 60입니다.
 
@@ -85,7 +145,18 @@ OOM 문서에서 설명한 상황과 달리, 이번에는 OOM 이벤트로 인�
 
 Linux에서 디스크 파일 접근할 때, 시스템은 파일 I/O 성능을 향상시키기 위해 쉬는 메모리를 페이지 캐시로 사용하려고 노력합니다. swap 공간이 없는 경우, 메모리가 부족해지면 페이지 캐시가 해제되지만 Resident Set Size (RSS) 메모리는 해제되지 않는다는 것을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대부분의 RSS 메모리는 malloc()에 의해 할당된 메모리와 같이 특정 디스크 파일과 연관시킬 수 없는 익명 메모리입니다. 스왑 공간이 활성화되어 있는 경우, 이 익명 메모리는 스왑 공간에 기록될 수 있습니다.
 
@@ -96,7 +167,18 @@ Linux에서 디스크 파일 접근할 때, 시스템은 파일 I/O 성능을 �
 - 시스템이 모든 페이지 캐시를 먼저 해제하는 경우, 자주 파일 읽기/쓰기 작업이 필요한 경우에 성능이 저하될 수 있습니다.
 - 시스템이 먼저 모든 익명 메모리를 해제하고 스왑 공간에 기록하면, 그리고 즉시 해당 해제된 익명 메모리를 사용해야 할 때, 이를 스왑 공간에서 다시 읽어들여야 하므로 자주 디스크 I/O와 성능 저하가 발생할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 명확하게, Page Cache 및 익명 메모리의 릴리스를 균형 있게 유지해야 합니다. swappiness는 이 균형을 정의하는 매개변수입니다.
 
@@ -106,25 +188,47 @@ swappiness 값의 범위는 0부터 100까지입니다. 하지만 이 값은 비
 
 커널 코드에서 이 비율은 anon_prio:file_prio로 표현됩니다. 여기서 anon_prio는 swappiness와 동일합니다. 세 가지 시나리오에 대해 논의해 봅시다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 스왑니스가 100 일 때, 익명 메모리를 해제하는 비율과 페이지 캐시 메모리를 해제하는 비율은 100 : 100이며, 동일한 비율로 해제됩니다.
 - 기본 스왑니스 값이 60 일 때, 익명 메모리를 해제하는 비율과 페이지 캐시 메모리를 해제하는 비율은 60 : 140으로, 페이지 캐시 메모리가 익명 메모리보다 더 적극적으로 해제됨을 나타냅니다.
 
 ```js
-        /*
-         * 스왑니스가 100 인 경우, 익명 및 파일에 동일한 우선 순위가 부여됩니다.
-         * 이 스캔 우선 순위는 사실 IO 비용의 역입니다.
-         */
-        anon_prio = swappiness;
-        file_prio = 200 - anon_prio;
+/*
+ * 스왑니스가 100 인 경우, 익명 및 파일에 동일한 우선 순위가 부여됩니다.
+ * 이 스캔 우선 순위는 사실 IO 비용의 역입니다.
+ */
+anon_prio = swappiness;
+file_prio = 200 - anon_prio;
 ```
 
 한 가지 더 고려해야 할 시나리오가 있습니다: 스왑니스가 0으로 설정된 경우 무엇이 발생합니까? 이것은 Linux 가 익명 메모리를 스왑 공간에 쓰지 않도록 허용하지 않는다는 의미입니까?
 
 스왑니스의 정의를 다시 살펴보고 스왑니스가 0 인 경우에 특히 주의 깊게 살펴봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 메모리(zone)의 "high water mark" 아래로 떨어질 때 swappiness가 0으로 설정되어 있어도 Linux는 여전히 메모리 스와핑을 수행합니다. 이는 메모리를 해제하기 위해 익명 메모리를 스왑 공간에 기록한다는 것을 의미합니다.
 
@@ -134,8 +238,18 @@ swappiness 값의 범위는 0부터 100까지입니다. 하지만 이 값은 비
 
 mem_alloc을 실행하기 전에 스왑 공간 사용량을 확인하세요. 사용량은 used=0로 표시되어야 합니다. mem_alloc을 실행한 후에는 일부 메모리가 스왑 공간에 기록되었음을 나타내는 출력이 표시되어야 합니다. 이것은 swappiness가 0으로 설정되어 있더라도 Linux가 필요할 때 여전히 메모리를 스왑 공간으로 스왑한다는 것을 확인합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-CanContainersUseSwapSpace_4.png)
 
@@ -145,8 +259,18 @@ mem_alloc를 호출한 후에는 교체 공간이 실제로 사용 중입니다.
 
 mem_alloc가 노드에서 사용 가능한 최대 메모리(12GB)를 거의 요청했기 때문에 cat /proc/zoneinfo를 확인하면 normal 존의 높은 값이 free 값과 근접함을 알 수 있습니다. 이 상황에서 free가 high보다 작을 때 시스템은 익명 메모리 페이지를 회수하고 교체 공간에 기록합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 리눅스 시스템에서 swappiness 개념을 소개한 내용입니다. 이는 메모리가 부족할 때 익명 메모리와 페이지 캐시 메모리 간 재할당 비율을 결정합니다.
 
@@ -154,7 +278,18 @@ swappiness 값은 0부터 100까지이며, 100은 익명 메모리와 페이지 
 
 # 문제 해결 방법
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컨테이너를 Memory Cgroup으로 실행할 때 swappiness는 어떻게 작동하나요?
 
@@ -164,7 +299,18 @@ memory.swappiness는 이 Memory Cgroup 제어 그룹 아래의 익명 메모리 
 
 하지만 여기서 주의해야 할 차이점이 있습니다: memory.swappiness = 0으로 설정하면 익명 페이지 회수가 항상 비활성화되어 Swap 공간을 사용하지 않게 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 시점에서 Linux 시스템은 더 이상 영역의 높은 기준 마크와 빈 메모리를 비교하여 메모리 Cgroup의 익명 메모리를 회수해야 하는지 여부를 결정하지 않습니다.
 
@@ -174,7 +320,18 @@ memory.swappiness는 이 Memory Cgroup 제어 그룹 아래의 익명 메모리 
 
 ![이미지](/assets/img/2024-06-19-CanContainersUseSwapSpace_7.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이번에는 컨테이너에 메모리를 할당한 후 스왑 공간이 사용되지 않았으며, 컨테이너가 할당된 메모리가 memory.limit_in_bytes를 초과하면 OOM Kill이 발생했습니다.
 
@@ -184,7 +341,18 @@ memory.swappiness는 이 Memory Cgroup 제어 그룹 아래의 익명 메모리 
 
 이 경우에는 호스트 노드에서 스왑 공간을 활성화하고, 다른 컨테이너에 해당하는 Memory Cgroups 제어 그룹에서 memory.swappiness 매개변수를 0으로 설정할 수 있습니다. 이렇게 함으로써 우리는 컨테이너 A의 요구 사항을 충족시키고, 다른 컨테이너가 영향을 받지 않고 여전히 Memory Cgroups의 memory.limit_in_bytes에 따라 메모리 사용량을 엄격하게 제한할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결론적으로, memory.swappiness 매개변수는 매우 유용합니다. 이를 통해 Swap 공간을 사용해야 하는 컨테이너와 Swap 공간을 필요로 하지 않는 컨테이너가 동시에 동일한 호스트에서 실행될 수 있습니다.
 
@@ -194,7 +362,18 @@ memory.swappiness는 이 Memory Cgroup 제어 그룹 아래의 익명 메모리 
 
 이 문제를 해결하기 위해 Linux의 swappiness 매개변수에 대해 알아보았습니다. swappiness 매개변수는 시스템에 Swap 공간이 있고 시스템이 메모리를 회수해야 할 때 페이지 캐시에서 메모리 해제를 우선시할지 익명 메모리(즉, Swap에 기록)에서 메모리 해제를 우선시할지 결정합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 swappiness 값은 0부터 100까지의 범위를 가지며, 다음 세 가지 값을 기억할 수 있습니다:
 

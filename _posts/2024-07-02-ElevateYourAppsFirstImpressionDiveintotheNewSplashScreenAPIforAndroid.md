@@ -3,17 +3,13 @@ title: "앱 첫인상을 살려라 안드로이드 최신 스플래시 스크린
 description: ""
 coverImage: "/assets/img/2024-07-02-ElevateYourAppsFirstImpressionDiveintotheNewSplashScreenAPIforAndroid_0.png"
 date: 2024-07-02 23:07
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-02-ElevateYourAppsFirstImpressionDiveintotheNewSplashScreenAPIforAndroid_0.png
 tag: Tech
 originalTitle: "Elevate Your App’s First Impression: Dive into the New Splash Screen API for Android"
 link: "https://medium.com/@aadithyabalaji/elevate-your-apps-first-impression-dive-into-the-new-splash-screen-api-for-android-0d63b4667270"
 isUpdated: true
 ---
-
-
-
-
 
 이미지 태그를 Markdown 형식으로 변경해주세요.
 
@@ -23,9 +19,18 @@ In this blog, we'll explore how you can leverage this new API to give your app t
 
 # Why Switch to the New Splash Screen API?
 
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **물결 화면 API**는 Android 장치에서 사용자 정의 구현으로 인해 발생하는 불일치를 제거하여 균일한 경험을 제공합니다.
 
@@ -35,7 +40,18 @@ In this blog, we'll explore how you can leverage this new API to give your app t
 
 앱이 완전히 준비될 때까지 화면을 유지하여 지각된 로딩 시간을 줄이고 더 부드러운 전환을 제공하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 시작할 준비가 되셨나요?
 
@@ -49,7 +65,18 @@ dependencies {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 2: 테마 설정하기
 
@@ -67,24 +94,31 @@ dependencies {
 
 ## 단계 3: 매니페스트 업데이트하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 오늘은 안드로이드 앱의 스플래시 화면 테마를 설정하는 방법에 대해 이야기해볼게요.
 
 먼저 AndroidManifest.xml 파일에서 splash screen 테마를 설정해보세요. 아래의 코드를 참고해주세요:
 
 ```js
-<application
-    android:theme="@style/AppTheme">
-    <activity
-        android:name=".MainActivity"
-        android:exported="true"
-        android:theme="@style/AppTheme">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-    </activity>
+<application android:theme="@style/AppTheme">
+  <activity android:name=".MainActivity" android:exported="true" android:theme="@style/AppTheme">
+    <intent-filter>
+      <action android:name="android.intent.action.MAIN" />
+      <category android:name="android.intent.category.LAUNCHER" />
+    </intent-filter>
+  </activity>
 </application>
 ```
 
@@ -92,8 +126,18 @@ dependencies {
 
 화면이 보기 좋고 기능도 잘 작동하도록 설정해보세요! 이렇게 하면 사용자들이 앱을 더 즐겁게 이용할 수 있을 거예요. 궁금한 점이 있으면 언제든지 물어봐주세요. 함께 응원할게요!✨
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 여기는 타로 전문가에요.
 
@@ -107,8 +151,18 @@ dependencies {
 
 앱에 창의적인 요소를 더해주고 싶다면, 위의 코드를 참고해 보세요!
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 결론
 

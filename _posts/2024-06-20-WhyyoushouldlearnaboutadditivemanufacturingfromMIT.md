@@ -3,17 +3,13 @@ title: "MIT에서 첨가 제조에 대해 배워야 하는 이유"
 description: ""
 coverImage: "/assets/img/2024-06-20-WhyyoushouldlearnaboutadditivemanufacturingfromMIT_0.png"
 date: 2024-06-20 16:31
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-WhyyoushouldlearnaboutadditivemanufacturingfromMIT_0.png
 tag: Tech
 originalTitle: "Why you should learn about additive manufacturing from MIT"
 link: "https://medium.com/open-learning/why-you-should-learn-about-additive-manufacturing-from-mit-487aebb182ac"
 isUpdated: true
 ---
-
-
-
-
 
 ![MIT xPRO](/assets/img/2024-06-20-WhyyoushouldlearnaboutadditivemanufacturingfromMIT_0.png)
 
@@ -23,7 +19,18 @@ MIT xPRO에서
 
 MIT xPRO의 부가 제조 기술 과정을 이끄는 존 하트 교수는 "제조에 관여하는 대부분의 대기업은 조직에 부가 제조 기술의 영향에 대해 고려하고 있으며, 그들이 이미 이에 전념한 팀을 보유하고 있지 않은 이상"이라고 말했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 산업 리더들은 변화에 앞서 나가기 위해 혁신 기술의 힘을 활용하는 계획을 가져야 합니다. 이런 부가 제조 기술에 대해 배우기에 더 나은 곳은 MIT가 없습니다.
 
@@ -33,7 +40,18 @@ MIT는 부가 제조와 3D 프린팅에 관한 토론에서 먼저 떠오르는 
 
 MIT 뉴스에 따르면 "기계 공학 교수인 Emanuel Sachs는 봉인잉크 프린팅이라는 공정을 발명했습니다. 이 프린팅 방식에서 잉크젯 프린트 헤드는 액체 봉인제를 분말 침대에 선택적으로 떨어뜨려 층층이 3차원 물체를 만들어냅니다. Sachs는 이 프로세스에 새로운 이름을 지어 '3D 프린팅'이라고 했습니다."
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최근 몇 10년 동안 선택적 레이저 소결 (SLS), 융착 적층 모델링 (FDM), 스테레오리소그래피 (SLA) 등을 포함한 다른 3D 프린팅 기술들이 등장했습니다. 하트 교수는 초기에는 3D 프린팅이 맞춤형 프로토타입 기술이었지만, 최근 몇 년간 실제 제조 기술로 입증되었다고 말합니다.
 
@@ -43,7 +61,18 @@ MIT 뉴스에 따르면 "기계 공학 교수인 Emanuel Sachs는 봉인잉크 �
 
 하트 교수는 3D 프린팅의 보급화에 따른 속도, 비용, 품질과 같은 장벽을 극복하기 위해, 압출이라는 3D 프린팅 공정을 조사하는 연구 그룹을 이끌었습니다. 그들은 이후 비슷한 프린터보다 10배 빠른 속도로 인쇄하는 새로운 프린터를 설계했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하트 교수님의 팀은 섬유소와 탄소 나노튜브를 포함한 새로운 소재를 인쇄하고, 금속 3D 프린팅의 품질을 향상시키고 모니터하는 실험도 하였습니다. 이는 다양한 산업에 엄청난 잠재력을 제공합니다. 현재 그는 에너지부에서 자금을 지원받아 다음 세대 터빈 날개를 위한 프린터를 개발 중에 있습니다.
 
@@ -53,7 +82,18 @@ MIT 뉴스에 따르면 "기계 공학 교수인 Emanuel Sachs는 봉인잉크 �
 
 물론 하트 교수님은 MIT에서 3D 프린팅을 통해 가능한 것의 한계를 넓히고 있는 많은 사람들 중 하나일 뿐입니다. MIT 뉴스 웹 사이트에서 "부가 제조"라는 용어로 검색하면, MIT에서의 놀라운 개발에 관한 이야기를 연달아 볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 빠른 3D 프린팅과 액체 금속을 사용하여 약 분 만에 가구 크기의 알루미늄 부품 제작
 - 휴대용 질량 분석계를 위한 3D 프린팅 부품 제작, 원격 설정에서 알 수 없는 화학 물질 식별을 위한 휴대용 질량 분석계로 나아가는 중요한 단계
@@ -65,7 +105,18 @@ MIT 뉴스에 따르면 "기계 공학 교수인 Emanuel Sachs는 봉인잉크 �
 
 부가 제조업 과정을 수강하고 싶다면, 이 기술에 대해 배울 수 있는 곳보다 더 좋은 곳은 없습니다. 게다가 MIT xPRO의 온라인 부가 제조업 과정을 통해 가장 우수한 산업 인들로부터 집에서 편안하게 배울 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보잉, 포드, 테슬라, 애플 등의 기관에서 5,000명 이상의 전문가가 MIT xPRO의 금속 가공 공학 과정에 참여했습니다. 학습자들을 대상으로 한 설문조사에 따르면, 수강 후 3개월 이내에 지식과 기술을 활용한 사람은 51%이며, 수강 후 역할에서 새로운 책임을 맡은 사람은 41%입니다. 또한, 수강 후 해당 과정을 향후 취직 면접에서 언급할 의사가 있는 사람은 91%입니다.
 

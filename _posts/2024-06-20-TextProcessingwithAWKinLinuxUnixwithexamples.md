@@ -3,18 +3,13 @@ title: "리눅스 Unix에서 예제를 활용한 AWK를 이용한 텍스트 처�
 description: ""
 coverImage: "/assets/img/2024-06-20-TextProcessingwithAWKinLinuxUnixwithexamples_0.png"
 date: 2024-06-20 14:11
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-TextProcessingwithAWKinLinuxUnixwithexamples_0.png
 tag: Tech
 originalTitle: "Text Processing with AWK in Linux Unix with examples"
 link: "https://medium.com/@ahmedmansouri/text-processing-with-awk-in-linux-unix-with-examples-26b7b1f1f5d3"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![Image](/assets/img/2024-06-20-TextProcessingwithAWKinLinuxUnixwithexamples_0.png)
 
@@ -24,21 +19,40 @@ awk은 패턴 스캔 및 처리를 위한 강력한 프로그래밍 언어이자
 
 awk은 창안자 Alfred Aho, Peter Weinberger, Brian Kernighan의 이름에서 따왔습니다. 사용자가 지정한 패턴과 작업을 적용하여 텍스트를 한 줄씩 처리합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 기본 구문
 
 awk의 기본 구문은 다음과 같습니다:
 
-
 awk '패턴 { 동작 }' 파일
-
 
 - 패턴: 일치시킬 조건을 지정합니다.
 - 동작: 패턴이 일치할 때 무엇을 할지 지정합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 Markdown 형식으로 변경할 수도 있어요.
 
@@ -50,7 +64,18 @@ echo "text" | awk 'pattern { action }'
 
 data.txt라는 파일을 고려해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 John Doe 30 180
@@ -66,7 +91,18 @@ Charlie White 32 160
 
 To print the first names (1st field) and ages (3rd field) separated by space:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 awk '{ print $1, $3 }' data.txt
@@ -98,7 +134,18 @@ Bob;28
 Charlie;32
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3. 조건에 따라 행 필터링하기
 
@@ -117,7 +164,18 @@ Bob Brown 28 175
 
 ## 4. 특정 단어를 포함하는 행 출력
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "John"이라는 단어를 포함하는 줄을 출력합니다.
 
@@ -135,7 +193,18 @@ Alice Johnson 35 170
 
 ## 5. 열을 합산하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 줄의 3번째와 4번째 열의 합계를 출력합니다.
 
@@ -158,7 +227,18 @@ awk '{ print $3 + $4 }' data.txt
 awk '{ sum=$3+$4 ; print sum }' data.txt
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 6. 합계 값
 
@@ -175,7 +255,18 @@ awk '{ sum+=$3 } END { print sum }' data.txt
 
 ## 7. 평균 계산
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 평균 연령을 계산하려면 (세 번째 필드):
 
@@ -187,7 +278,16 @@ awk '{ sum += $3; count++ } END { print sum / count }' data.txt
 
 각 라인에 라인 번호를 추가하고 출력합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 awk '{print NR, $0}' data.txt
 
@@ -213,7 +313,16 @@ Number of fields: 4
 Number of fields: 4
 Number of fields: 4
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 10. 첫 번째 및 마지막 필드 인쇄
 
@@ -232,7 +341,16 @@ Charlie 160
 
 첫 번째 필드를 대문자로 출력
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 awk '{ print toupper($1) }' data.txt
 
@@ -260,7 +378,16 @@ Joh
 Bro
 Whi
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 13. 각 줄의 필드 길이 출력
 
@@ -279,7 +406,16 @@ awk '{ print length($2) }' data.txt
 
 ## 14. 사용자 정의 함수
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보다 복잡한 작업을 위해 awk 스크립트 내에서 함수를 정의할 수 있어요:
 
@@ -301,6 +437,16 @@ function square(x) { return x * x }
 
 awk는 여러 가지 방식으로 텍스트 파일을 조작하고 분석하는 데 도움이 되는 다재다능한 도구입니다. 데이터 추출, 계산 수행, 또는 텍스트 변환 등이 목적이라면 awk가 작업을 간소화하는 강력한 기능 세트를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 awk 명령어를 실험해보세요! 이를 통해 Linux/Unix에서 더 효율적인 텍스트 처리를 위한 워크플로에 효과적으로 통합할 수 있습니다.
+```

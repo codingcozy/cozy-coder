@@ -3,17 +3,13 @@ title: "윈도우 11에서 Microsoft Defender로 전체 바이러스 검사를 �
 description: ""
 coverImage: "/assets/img/2024-06-22-HowtoRunMicrosoftDefenderFullVirusScanonWindows11_0.png"
 date: 2024-06-22 16:33
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-HowtoRunMicrosoftDefenderFullVirusScanonWindows11_0.png
 tag: Tech
 originalTitle: "How to Run Microsoft Defender Full Virus Scan on Windows 11"
 link: "https://medium.com/@khalilullah1/how-to-run-microsoft-defender-full-virus-scan-on-windows-11-dbe4cd1f2cfa"
 isUpdated: true
 ---
-
-
-
-
 
 Microsoft Defender의 전체 바이러스 스캔을 PC에서 실행하는 세 가지 쉬운 방법을 알아보세요. Windows Security 앱, Powershell 및 명령 프롬프트를 사용하는 방법이 포함되어 있습니다.
 
@@ -23,7 +19,18 @@ Microsoft Defender의 전체 바이러스 스캔을 PC에서 실행하는 세 �
 
 다행히 Windows 11의 내장 안티바이러스 프로그램인 Microsoft Defender를 사용하여 제3자 앱이 필요하지 않은 PC에서 효과적인 전체 바이러스 스캔을 실행할 수 있습니다. 또한 Windows Security 앱, Powershell 및 명령 프롬프트를 사용하여 다양한 방법으로 스캔을 시작할 수 있습니다. 자세한 방법을 알아보려면 계속 읽어보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 윈도우 보안 앱에서 전체 바이러스 검사 실행하는 방법
 
@@ -33,7 +40,18 @@ Microsoft Defender의 전체 바이러스 스캔을 PC에서 실행하는 세 �
 
 ![이미지](/assets/img/2024-06-22-HowtoRunMicrosoftDefenderFullVirusScanonWindows11_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. "Windows Security"을 검색하여 앱을 엽니다.
 
@@ -43,7 +61,18 @@ Microsoft Defender의 전체 바이러스 스캔을 PC에서 실행하는 세 �
 
 ![Virus & threat protection](/assets/img/2024-06-22-HowtoRunMicrosoftDefenderFullVirusScanonWindows11_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. "Current threats" 섹션 아래에 있는 "Scan options"를 클릭하세요.
 
@@ -53,7 +82,18 @@ Microsoft Defender의 전체 바이러스 스캔을 PC에서 실행하는 세 �
 
 ![Full Scan](/assets/img/2024-06-22-HowtoRunMicrosoftDefenderFullVirusScanonWindows11_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스캔 프로세스가 시작됩니다. 마이크로소프트 디펜더가 악성 소프트웨어를 스캔하고 감지되면 수행 중인 것을 격리하거나 제거합니다. 스캔 프로세스가 완료되면 특정 앱이나 파일을 수동으로 격리, 제거 또는 허용할 수 있습니다.
 
@@ -63,7 +103,18 @@ Microsoft Defender의 전체 바이러스 스캔을 PC에서 실행하는 세 �
 
 다음 단계를 따라 마이크로소프트 디펜더 전체 바이러스 스캔을 명령 프롬프트를 통해 실행하는 방법을 알아보세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 시작 메뉴를 열고 "명령 프롬프트"를 검색한 후 "관리자로 실행"을 선택하세요.
 
@@ -71,12 +122,20 @@ Microsoft Defender의 전체 바이러스 스캔을 PC에서 실행하는 세 �
 
 2. 명령 프롬프트에서 다음 명령어를 입력하고 "Enter"를 눌러 Microsoft Defender 바이러스 백신에 액세스하세요:
 
+cd C:\ProgramData\Microsoft\Windows Defender\Platform\4\*
 
-cd C:\ProgramData\Microsoft\Windows Defender\Platform\4*
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
-
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-HowtoRunMicrosoftDefenderFullVirusScanonWindows11_7.png" />
 
@@ -86,8 +145,18 @@ mpcmdrun -scan -scantype 2
 
 <img src="/assets/img/2024-06-22-HowtoRunMicrosoftDefenderFullVirusScanonWindows11_8.png" />
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 명령들을 실행하면 Microsoft Defender가 바이러스를 스캔하고 감지된 악성 코드를 제거할 것입니다. 스캔이 완료되면 화면에 "스캔 완료" 메시지가 표시됩니다.
 
@@ -97,8 +166,18 @@ mpcmdrun -scan -scantype 2
 
 - 시작 메뉴를 열고 "PowerShell"을 검색한 후 "관리자 권한으로 실행"을 클릭하십시오.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-HowtoRunMicrosoftDefenderFullVirusScanonWindows11_9.png" />
 
@@ -108,8 +187,18 @@ start-mpscan -scantype fullscan
 
 <img src="/assets/img/2024-06-22-HowtoRunMicrosoftDefenderFullVirusScanonWindows11_10.png" />
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 명령을 실행하면 전체 바이러스 스캔이 시작됩니다. PowerShell 화면에서 스캔 진행 상황을 백분율 바로 알려줄 거에요.
 
@@ -119,10 +208,20 @@ start-mpscan -scantype fullscan
 
 - 시작 메뉴를 열고 설정 아이콘을 클릭하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 Markdown 형식으로 변환된 내용입니다.
-
 
 ![이미지1](/assets/img/2024-06-22-HowtoRunMicrosoftDefenderFullVirusScanonWindows11_11.png)
 
@@ -132,9 +231,18 @@ start-mpscan -scantype fullscan
 
 3. 그 다음, Virus & Threat protection을 클릭하고 Scan options 아래의 Customized scan을 클릭하세요.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-22-HowtoRunMicrosoftDefenderFullVirusScanonWindows11_13.png)
 
@@ -144,7 +252,17 @@ start-mpscan -scantype fullscan
 
 # 데이터를 잃기 전에 데이터를 보호하세요!
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 귀하의 PC에서 정기 바이러스 스캔을 수행하여 파일을 훼손하고 문제를 일으킬 수 있는 악성 소프트웨어를 발견하고 제거하는 것이 매우 중요합니다. 이 가이드에서는 Windows Security 앱, 명령 프롬프트 및 PowerShell을 사용하여 Microsoft Defender 전체 바이러스 스캔을 실행하는 세 가지 간단한 방법을 소개했습니다. 전체 바이러스 스캔이 완료될 때까지 몇 시간을 기다리기 싫다면 대신 특정 파일 및 폴더를 확인하여 시간을 적게 들이고 실용적인 검사용 옵션을 고려해보세요.

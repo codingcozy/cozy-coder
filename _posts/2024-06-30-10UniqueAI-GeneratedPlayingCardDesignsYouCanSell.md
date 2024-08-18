@@ -3,17 +3,13 @@ title: "판매 가능한 독특한 AI 생성 카드 디자인 10가지"
 description: ""
 coverImage: "/assets/img/2024-06-30-10UniqueAI-GeneratedPlayingCardDesignsYouCanSell_0.png"
 date: 2024-06-30 19:14
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-30-10UniqueAI-GeneratedPlayingCardDesignsYouCanSell_0.png
 tag: Tech
 originalTitle: "10 Unique AI-Generated Playing Card Designs You Can Sell!"
 link: "https://medium.com/@mericreativAI/10-unique-ai-generated-playing-card-designs-you-can-sell-315392ecc40c"
 isUpdated: true
 ---
-
-
-
-
 
 ![Unique AI-Generated Playing Card Designs](/assets/img/2024-06-30-10UniqueAI-GeneratedPlayingCardDesignsYouCanSell_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 플레잉 카드의 역사는 중국의 탕 시대(9세기)로 거슬러 올라가며, 이후 14세기에 유럽에 소개되었습니다. 이 카드들은 타로 덱과 많은 유사점을 공유하며, 4가지 문양과 숫자 카드를 포함합니다. 시간이 흘러서 많은 게임이 플레잉 카드 덱을 활용해 만들어지고 즐겨지며, 포커, 블랙잭, 브릿지, 하트 등이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 카드 게임이 여전히 인기 있는 제품임에 놀랄 것이 없죠! 이 기사에서는 10가지 AI 프롬프트와 이미지를 살펴볼텐데, 여러분에게 자신만의 카드를 디자인하거나 독특한 컨셉을 고안하는데 영감을 줄 것입니다. 따라서 창의적인 아이디어를 얻으려면 계속 읽어보세요!
 
@@ -33,8 +40,18 @@ isUpdated: true
 
 ## 판매할 수 있는 고유한 AI 생성 카드 디자인 10가지
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [2024-06-30-10UniqueAI-GeneratedPlayingCardDesignsYouCanSell_1.png](/assets/img/2024-06-30-10UniqueAI-GeneratedPlayingCardDesignsYouCanSell_1.png)
 

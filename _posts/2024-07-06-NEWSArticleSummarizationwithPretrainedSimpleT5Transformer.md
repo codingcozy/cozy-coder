@@ -3,17 +3,13 @@ title: "Pretrained SimpleT5 Transformer을 사용한 뉴스 기사 요약 방법
 description: ""
 coverImage: "/assets/img/2024-07-06-NEWSArticleSummarizationwithPretrainedSimpleT5Transformer_0.png"
 date: 2024-07-06 10:57
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-06-NEWSArticleSummarizationwithPretrainedSimpleT5Transformer_0.png
 tag: Tech
 originalTitle: "NEWS Article Summarization with Pretrained SimpleT5 Transformer"
 link: "https://medium.com/dev-genius/news-article-summarization-with-pretrained-simplet5-transformer-84acebfae774"
 isUpdated: true
 ---
-
-
-
-
 
 오늘날의 빠른 세상에서는 뉴스 기사가 넘쳐나고, 그 모든 것을 읽기에는 압도적일 수 있습니다. 이 블로그 포스트에서는 최첨단 모델의 능력을 활용하여 전체 기사의 간결하고 유익한 요약을 생성하는 방법을 안내해 드릴 것입니다. 소중한 시간을 희생하지 않으면서도 잘 알고 있는 상태를 유지하는 것이 더 쉬워집니다. T5 모델로 시작해 봅시다!!
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 T5는 텍스트 대 텍스트 작업용으로 설계된 인코더-디코더 모델입니다. 지도 및 자기 지도된 사전 훈련의 조합을 사용하며 손상된 입력을 처리하여 누락된 부분을 생성합니다. T5는 작업별 접두사를 사용하여 다양한 작업에 뛰어납니다. 상대적 스칼라 임베딩 및 입력 패딩 옵션은 효율성과 적응성에 기여합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SimpleT5은 T5 모델의 간소화된 버전으로, 더 효율적이고 사용하기 쉬운 것을 목표로 합니다. T5의 핵심 기능을 유지하면서 더 작고 빠른 NLP 모델입니다. 다양한 자연어 처리 작업에 적합합니다. 이 블로그에서는 simpleT5를 사용하여 뉴스를 요약해 보겠습니다.
 
@@ -33,8 +40,18 @@ SimpleT5은 T5 모델의 간소화된 버전으로, 더 효율적이고 사용�
 
 이 코드 블록은 자연어 처리와 미세 조정된 사전 훈련 모델을 사용한 요약을 위한 여러 작업을 수행합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! Tarot 전문가님 🌟
 
@@ -51,9 +68,18 @@ SimpleT5은 T5 모델의 간소화된 버전으로, 더 효율적이고 사용�
 
 ![2024-07-06-NEWSArticleSummarizationwithPretrainedSimpleT5Transformer_3](/assets/img/2024-07-06-NEWSArticleSummarizationwithPretrainedSimpleT5Transformer_3.png)
 
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-06-NEWSArticleSummarizationwithPretrainedSimpleT5Transformer_4.png)
 
@@ -63,7 +89,18 @@ SimpleT5은 T5 모델의 간소화된 버전으로, 더 효율적이고 사용�
 
 8. 제공된 훈련 데이터로 모델을 학습하는 데 train() 함수를 사용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **9.** 훈련된 모델은 로컬 'outputs' 폴더에 저장됩니다.
 
@@ -73,9 +110,20 @@ SimpleT5은 T5 모델의 간소화된 버전으로, 더 효율적이고 사용�
 
 코드는 데이터 전처리를 수행하고, 데이터를 훈련 및 테스트 세트로 분할하며, 사전 훈련된 모델을 훈련하고, 모델을 저장한 다음 주어진 텍스트를 요약하는 작업을 수행합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-- **뉴스 데이터에서 사용된 데이터셋은 다음 링크에서 확인할 수 있어요:** 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+- **뉴스 데이터에서 사용된 데이터셋은 다음 링크에서 확인할 수 있어요:**
 
 ![News Article Summarization with Pretrained Simple T5 Transformer](/assets/img/2024-07-06-NEWSArticleSummarizationwithPretrainedSimpleT5Transformer_5.png)
 
@@ -83,6 +131,17 @@ SimpleT5은 T5 모델의 간소화된 버전으로, 더 효율적이고 사용�
 
 만약 마음에 드셨다면 추천 부탁드려요! 감사합니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LinkedIn, YouTube, Kaggle 및 GitHub에서 더 많은 관련 콘텐츨르 확인하실 수 있습니다. 감사합니다!!

@@ -3,17 +3,13 @@ title: "Jetpack Compose에서 BottomSheet 상태 변경을 신뢰성 있게 감�
 description: ""
 coverImage: "/assets/img/2024-07-25-HowtoReliablyDetectBottomSheetStateChangesinJetpackCompose_0.png"
 date: 2024-07-25 11:51
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-25-HowtoReliablyDetectBottomSheetStateChangesinJetpackCompose_0.png
 tag: Tech
 originalTitle: "How to Reliably Detect BottomSheet State Changes in Jetpack Compose"
 link: "https://medium.com/@efebu/how-to-reliably-detect-bottomsheet-state-changes-in-jetpack-compose-76a91524e9a2"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-07-25-HowtoReliablyDetectBottomSheetStateChangesinJetpackCompose_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 아래에서 Hidden 상태에 대한 해결책을 공유할 텐데, Expanded 및 PartiallyExpanded 상태에 대해서도 적용할 수 있습니다. 제스처 및 하단 시트 상태 추적을 실험했지만 어느 접근 방법도 완벽히 작동하지 않았습니다. (쉽게 할 수 있는 방법이 있으면 댓글에서 공유해 주세요!)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 우리가 갖고 있는 것
 
@@ -47,7 +54,18 @@ BottomSheetScaffold(
 
 # 해결책
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 private const val DELAY_DRAGGING = 200L // 이 값은 조정 가능합니다
@@ -78,8 +96,18 @@ LaunchedEffect(bottomSheetScaffoldState.bottomSheetState.currentValue) {
 
 <img src="https://miro.medium.com/v2/resize:fit:1200/1*1pyNukvljjPczGLT9DXyZA.gif" />
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전에 언급했던 대로, 이 솔루션을 다른 원하는 최종 상태에 쉽게 맞출 수 있습니다. 코드에서 SheetValue.Hidden을 SheetValue.Expanded 또는 SheetValue.PartiallyExpanded로 바꿔서 해당 상태를 감지하도록 하면 됩니다.
 

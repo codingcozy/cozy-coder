@@ -3,17 +3,13 @@ title: "영화 제목이 점점 길어지고 있는 걸까요 통계 분석 해�
 description: ""
 coverImage: "/assets/img/2024-06-19-AreMovieTitlesGettingLongerAStatisticalAnalysis_0.png"
 date: 2024-06-19 20:09
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-AreMovieTitlesGettingLongerAStatisticalAnalysis_0.png
 tag: Tech
 originalTitle: "Are Movie Titles Getting Longer? A Statistical Analysis"
 link: "https://medium.com/fan-fare/are-movie-titles-getting-longer-a-statistical-analysis-5d1e49a1340a"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-06-19-AreMovieTitlesGettingLongerAStatisticalAnalysis_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 2024년 여름은 긴 영화 제목의 해입니다. 대형 흥행 영화의 계절이 시작되었으며 Godzilla x Kong: The New Empire로 시작해 세계 제국의 왕국이 박스 오피스 막대를 넘겨준 후 Fury Road: A Mad Max Saga로 아이가 가장 많이 벌어들인 영화로 자리를 내줬습니다. 이전에는 단순한 명명 체계 - Fear, The Fugitive, The Firm, Dave -가 있었지만 지금은 겉으로는 역동적인 단어들이 깔린 알파벳 수프로 대체되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼에도 불구하고, 이러한 장황한 제목들은 신형 할리우드 광고의 산물 이상의 것이다. 오히려, 이러한 명명 체계들은 박스 오피스 수익의 축소에 대응하고 고품질 가정 엔터테인먼트 옵션들로부터의 경쟁에 적응하는 영화 산업을 반영한다. 듣기로는, 영화 관객들은 집을 나와야만 하는데 길고 감정적인 제목들이 필요하다고 한다.
 
@@ -33,8 +40,18 @@ isUpdated: true
 
 2006년의 'Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan'는 예산이 $20백만 이상인 프로젝트들 중에서 가장 긴 영화 제목의 기록을 보유하고 있다(인플레이션 조정 포함) — 비록 이 영화가 대부분의 장황한 이름과는 뚜렷한 차이를 보이고 있다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-AreMovieTitlesGettingLongerAStatisticalAnalysis_1.png)
 
@@ -44,8 +61,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-19-AreMovieTitlesGettingLongerAStatisticalAnalysis_2.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 할리우드의 시리즈 엔터테인먼트에 대한 열광은 2000년대 초반, 스파이더맨 2, 반지의 제왕 시리즈 및 해리포터 시리즈의 대성공을 통해 시작되었습니다. 2010년대와 2020년대에 이 추세가 계속되며 할리우드는 시리즈 스토리텔링을 더욱 받아들이면서 제목의 길이가 점점 더 길어졌습니다.
 
@@ -55,7 +82,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-19-AreMovieTitlesGettingLongerAStatisticalAnalysis_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 데이터 포인트는 사실과 같이 더 많은 내용을 제공해요:
 
@@ -69,7 +107,18 @@ isUpdated: true
 
 우리는 이러한 사고방식을 계속할 수 있어요(무기한으로), 냉소적인 태도에 빠지며 Flubber, The Game, Titanic, Scream 2 같은 간결한 제목들의 시대를 그리워할 수 있지만, 만약 우리가 그렇지 않았다면 어떨까요? 불평 대신에 이 계속해서 늘어나는 제목들의 힘을 주는 구문과 문구를 탐험하며 긴 제목체계의 황당함을 받아들였다면 어떨까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 긴 영화 제목의 구성 요소: 흔한 단어 및 문장 부호
 
@@ -79,12 +128,33 @@ Ringer의 "Big Picture" 팟캐스트는 영화 산업의 예술적 및 상업적
 
 이 쇼 몇 주 동안 들은 후, 페너시의 섬세한 항의 행위가 집에 닿기 시작했습니다: 왜 많은 영화들(일부는 심지어 시퀄도 아닌 것들)이 콜론을 사용하는 걸까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 영화 제목의 단어와 문장부호 사용을 검토할 때, 콜론의 압도적인 숫자를 볼 수 있습니다. 다른 긴 제목에서 나오는 용어는 영화가 시리즈 내에 있는 위치를 나타내거나 새로운 장을 강조합니다. 그러나 현대 할리우드의 주인공은 콜론입니다. 영화 산업은 항상 시퀄에 의존해 왔지만, 이 구두점의 증가된 사용은 영화 마케팅의 새로운 방향을 강조하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-06-19-AreMovieTitlesGettingLongerAStatisticalAnalysis_7.png](/assets/img/2024-06-19-AreMovieTitlesGettingLongerAStatisticalAnalysis_7.png)
 
@@ -94,8 +164,18 @@ Ringer의 "Big Picture" 팟캐스트는 영화 산업의 예술적 및 상업적
 
 ![2024-06-19-AreMovieTitlesGettingLongerAStatisticalAnalysis_8.png](/assets/img/2024-06-19-AreMovieTitlesGettingLongerAStatisticalAnalysis_8.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 계속 확장되는 영화 제목들의 근본적인 질문이 존재합니다: 스튜디오들은 이러한 제목들로 어떤 것을 이루려고 하는 걸까요? 왜 할리우드는 이러한 메시지를 채택하는 걸까요?
 
@@ -107,7 +187,18 @@ Ringer의 "Big Picture" 팟캐스트는 영화 산업의 예술적 및 상업적
 
 이러한 명명 선택은 영화 산업의 결과로, 극장으로 사람들을 유혹할 수 있는 것은 이벤트로 만드는 경우에 한정됩니다. 스트리밍과의 경쟁에서, 영화는 일련화로 향하고 동시에 이러한 부분들을 놓칠 수 없는 이벤트로 구성하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 너무 크게 자란 도마뱀과 거대한 원숭이가 "새로운 제국"(무엇을 의미하는지는 모르지만) 배경 속에서 싸운다고 주장하는 것은 영화를 스펙터클로 변신시킵니다. 이 영화는 시퀄에 그치는 것이 아니라, 여러분이 좋아했던 이전 시리즈와 너무 다르지도 않습니다. 이 마케팅 전략이 사람들을 유인하여 집을 떠나 1인당 $22를 내고 이 원숭이와 도마뱀의 결투를 집에서 $3.99(또는 무료!)에 보는 대신 극장에서 관람하도록 만드는 것 같아요!
 
@@ -117,7 +208,18 @@ Ringer의 "Big Picture" 팟캐스트는 영화 산업의 예술적 및 상업적
 
 우리도 이 말을 채택해야 할지 모르겠습니다. 하지만 우리만의 특별한 변화와 함께: "25년까지 버텨라: 상황은 나아진다: 새로운 제국(희망적으로)"
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만화, 음악 및 TV에 대한 더 많은 데이터 중심 에세이를 읽고 싶다면, 내 뉴스레터 Stat Significant를 확인해보세요.
 

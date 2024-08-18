@@ -3,7 +3,7 @@ title: "실전 예제로 배우는 Kotlin의 객체 지향 프로그래밍OOP �
 description: ""
 coverImage: "/milky-road.github.io/assets/no-image.jpg"
 date: 2024-07-07 23:31
-ogImage: 
+ogImage:
   url: /milky-road.github.io/assets/no-image.jpg
 tag: Tech
 originalTitle: "Mastering OOP and SOLID Principles in Kotlin: Comprehensive Guide with Real-World Examples"
@@ -11,11 +11,7 @@ link: "https://medium.com/@jaidwivedi20/mastering-oop-and-solid-principles-in-ko
 isUpdated: true
 ---
 
-
-
-
-
-안녕하세요, 타로 친구들🔮! 
+안녕하세요, 타로 친구들🔮!
 
 안드로이드 개발자로서 객체지향 프로그래밍(OOP)과 SOLID 원칙을 이해하고 구현하는 것은 견고하고 유지보수 가능하며 확장 가능한 애플리케이션을 구축하는 데 중요합니다. 이 포괄적인 가이드에서는 OOP와 SOLID 원칙의 핵심 개념을 탐구하며, Kotlin을 사용하여 실제 예시와 구현 팁을 제공할 것입니다. 또한 전문성을 효과적으로 나타낼 수 있는 인터뷰 팁도 공유할 예정이에요.
 
@@ -25,7 +21,18 @@ isUpdated: true
 
 # 캡슐화
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **캡슐화**는 데이터(속성)와 데이터를 조작하는 메서드(기능)를 달합하여 한 단위 또는 클래스로 묶는 것을 말합니다. 이는 객체의 몇몇 구성 요소에 대한 직접적인 접근을 제한하여 데이터의 우발적인 수정을 방지할 수 있습니다.
 
@@ -62,7 +69,18 @@ fun main() {
 
 # 상속
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상속은 한 클래스가 다른 클래스로부터 속성과 메서드를 상속받는 것을 의미합니다. 이는 코드 재사용을 촉진하고 클래스간의 관계를 확립합니다.
 
@@ -95,7 +113,18 @@ fun main() {
 
 # 다형성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다형성은 서로 다른 클래스의 객체가 공통 상위 클래스의 객체로 취급될 수 있도록 합니다. 이를 통해 한 인터페이스를 통해 일반적인 작업 클래스로 사용할 수 있게 됩니다.
 
@@ -131,7 +160,18 @@ fun main() {
 
 # 추상화
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 추상화는 복잡한 구현 세부사항을 숨기고 객체의 필수 기능만을 보여주는 개념입니다.
 
@@ -175,13 +215,23 @@ fun main() {
 
 # 합성, 집약, 연관
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-네, 그렇습니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+네, 그렇습니다.
 여기 한국어로 번역해 주신 내용입니다.
 
 이미지 태그를 Markdown 형식으로 변경해 주시겠어요?
-
 
 In addition to the four primary OOP principles, understanding the relationships between objects is crucial. These relationships are defined as composition, aggregation, and association.
 
@@ -191,8 +241,18 @@ Composition is a strong relationship where the child object cannot exist without
 
 ## Example in Kotlin:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 클래스 Engine(val type: String)
@@ -240,7 +300,18 @@ Composition is a strong relationship where the child object cannot exist without
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 연관
 
@@ -276,7 +347,18 @@ fun main() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Kotlin에서 연관된 양방향 관계 예제:
 
@@ -313,7 +395,18 @@ fun main() {
 
 SOLID 원칙은 개발자가 이해하기 쉽고 유연하며 유지보수 가능한 소프트웨어를 만들 수 있도록 도와주는 설계 원칙의 모음입니다. 이 원칙들은:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **Single Responsibility Principle (SRP)**
 
@@ -321,7 +414,18 @@ SOLID 원칙은 개발자가 이해하기 쉽고 유연하며 유지보수 가�
 
 ## Kotlin 예시:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 class InvoicePrinter {
@@ -353,7 +457,18 @@ class Invoice(private val printer: InvoicePrinter, private val saver: InvoiceSav
 
 ## Kotlin에서의 예제:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 abstract class Shape {
@@ -385,10 +500,20 @@ fun main() {
 
 서브타입은 기본 타입으로 대체 가능해야 합니다. 슈퍼클래스의 객체는 서브클래스의 객체로 교체하여 프로그램의 정확성을 영향을 주지 않아야합니다.
 
-## Kotlin에서의 예시: 
+## Kotlin에서의 예시:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 open class Bird {
@@ -424,8 +549,18 @@ fun main() {
 
 ## 코틀린에서의 예시:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 interface Printer {
@@ -468,8 +603,18 @@ fun main() {
 
 ## Kotlin 예시:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 안드로이드 개발자를 위한 면접 팁
 
@@ -480,7 +625,18 @@ fun main() {
 - 코드 조각: 각 원칙을 보여주는 코드 조각을 연습해보세요. 익숙한 언어를 사용하고, 안드로이드 직무에 지원 중이라면 Kotlin을 사용하는 것이 좋습니다.
 - 흔한 패턴: 싱글톤, 팩토리, 옵저버 등의 일반적인 디자인 패턴을 익히고, 이들이 객체지향 프로그래밍과 SOLID 원칙과 어떻게 관련되는지 이해해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 일반 면접 팁
 

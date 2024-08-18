@@ -3,7 +3,7 @@ title: "팩토리 패턴으로 여러 모듈 등록하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-23-FactoryMultipleModuleRegistration_0.png"
 date: 2024-07-23 21:24
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-23-FactoryMultipleModuleRegistration_0.png
 tag: Tech
 originalTitle: "Factory Multiple Module Registration"
@@ -11,20 +11,24 @@ link: "https://medium.com/better-programming/factory-multiple-module-registratio
 isUpdated: true
 ---
 
-
-
-
-
-
 ![Factory with multiple modules](/assets/img/2024-07-23-FactoryMultipleModuleRegistration_0.png)
 
 팩토리와 같은 다중 모듈을 사용하는 의존성 주입 시스템을 사용하려면 종종 "누가 먼저인가"의 딜레마에 직면하게 됩니다.
 
 ModuleP가 abstractAccountLoading 프로토콜을 지정했다고 가정해 봅시다.
 
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 다음은 회계 모듈인 ModuleA가 있습니다. 회계 모듈은 계정을 표시하지만 그것들을 불러오기 위해 로더 중 하나가 필요합니다.
 
@@ -34,7 +38,18 @@ ModuleA와 ModuleB는 독립적입니다. 둘 다 서로에 대해 알지 못하
 
 이것은 클래식한 모듈 계약 패턴입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 우리는 만들어야 할 애플리케이션이 있어요. ModuleA가 ModuleB에 대해 아무것도 모른 채로 계정 로더의 인스턴스를 어떻게 얻을 수 있나요?
 
@@ -44,7 +59,18 @@ ModuleA와 ModuleB는 독립적입니다. 둘 다 서로에 대해 알지 못하
 
 이전 의존성 주입 시스템인 Resolver에서는 이런 문제가 실제로는 문제가 되지 않았어요. 두 모듈 모두 Resolver를 import하고, ModuleA의 어딘가에서 필요할 때 AccountLoading의 인스턴스를 요청하면 되었거든요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에 Injected 프로퍼티 래퍼를 사용한 예제가 있습니다.
 
@@ -62,7 +88,18 @@ public class ViewModel: ObservableObject {
 
 만약 그런게 없다면... 음... 크래시 하게 될 거예요. 이것은 분명한 단점이지만, 대체로 코드를 실행하고 테스트해 보는 첫 번째 시도 때 등록을 잊는 것은 상당히 명백하기 때문에 문제는 없을 거예요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 더 나은 방법을 찾기 위해 Factory를 만들었어요.
 
@@ -72,7 +109,18 @@ Factory는 컴파일 시 안전성을 보장합니다.
 
 어떻게요? Factory는 원하는 것을 제공하기 위한 Factory가 존재함을 보증함으로써 이를 달성합니다. 이를 위해 요청한 것의 인스턴스를 제공하는 팩토리 클로저를 제공해야 하는 컨테이너에 적절한 Factory 객체를 추가합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반 애플리케이션에서 Factory 등록은 보통 다음과 같이 보입니다.
 
@@ -86,7 +134,18 @@ Container가 존재합니다. AccountLoading 타입의 Factory가 존재합니�
 
 이러한 등록 방식은 모듈 애플리케이션에서도 동작할 수 있습니다. 모듈에서 프로토콜을 정의하고 구현하는 경우에도 해당됩니다. 프로토콜 유형과 Factory가 모두 공개되고, 구현 유형인 AccountLoader는 모듈 내부에서 정의되어 안전하게 숨겨집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 우리의 교차 모듈 애플리케이션에서는 그렇게 할 수 없어요.
 
@@ -96,7 +155,18 @@ Container가 존재합니다. AccountLoading 타입의 Factory가 존재합니�
 
 첫 번째는 누구일까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 선택적 등록
 
@@ -110,7 +180,18 @@ extension Container {
 
 그리고 해당 모듈의 코드에서는 계정 로더를 요청하기 위해 이 인스턴스를 사용하게 됩니다. 이는 즉, Factory 기반의 뷰 모델 코드가 이제 다음과 같이 보일 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```javascript
 class ViewModel: ObservableObject {
@@ -129,8 +210,18 @@ class ViewModel: ObservableObject {
 
 해결 방법은 비교적 간단합니다. 주 애플리케이션 어디선가 두 모듈을 연결하는 코드를 조금 작성해야 합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import ModuleA
@@ -164,7 +255,18 @@ struct AccountingApp: App {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 여기까지입니다!
 
@@ -174,7 +276,18 @@ struct AccountingApp: App {
 
 끝났나요? 정말로요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 몇 가지 잠재적인 문제가 더 있습니다.
 
@@ -201,7 +314,18 @@ struct AccountingApp: App {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ModuleA의 view model을 환경에 넣어야 할 때, 그냥 하나를 속성으로 생성하면 됩니다.
 
@@ -211,7 +335,18 @@ ModuleA의 view model을 환경에 넣어야 할 때, 그냥 하나를 속성으
 
 그래서 우리는 아무것도 얻지 못합니다. 정말 아무것도요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예시는 다소 인위적이지만, 다중 모듈 환경에서 실제로는 생각하는 것보다 훨씬 더 자주 발생합니다.
 
@@ -221,7 +356,18 @@ Resolver는 첫 해결이 발생하기 전에 자동으로 설정 함수를 호�
 
 여기에 우리가 수정한 설정 함수가 있습니다. 함수 이름이 registerAllServices로 변경되었으며, 이제 확장이 AutoRegistering을 준수함에 유의하십시오.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import ModuleA
@@ -254,7 +400,18 @@ struct AccountingApp: App {
 
 팩토리는 이제 Factory 인스턴스가 처음 생성되기 전에 한 번만 registerAllServices를 자동으로 호출합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 내부 동작
 
@@ -268,7 +425,18 @@ public protocol AutoRegistering {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 이전에 어떻게 사용하는지 보았습니다. 그러나 어떻게 Container 클래스가 해당 프로토콜을 준수하는지 확인할까요? 그리고 함수가 한 번만 호출되도록 어떻게 보장할까요?
 
@@ -284,7 +452,18 @@ extension Container {
 
 그래서 autoRegistrationCheck를 만들었습니다. 그리고 약속한 대로, Swift 자체가 정적 변수 이니셜라이저가 한 번만 호출되도록 보장합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 함수 내부의 `(Container.self as? AutoRegistering.Type)` 코드는 약간 이상해 보일 수 있지만, 기본적으로는 단지 누군가가 Container 타입을 AutoRegistering 타입으로 확장했는지 확인하는 것입니다.
 
@@ -299,7 +478,18 @@ func resolve(_ params: P) -> T {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 Container가 AutoRegistering을 준수한다면, registerAllServices가 부작용으로 호출되며 반환된 Void가 폐기됩니다. 다음 호출에서는 무조건 폐기할 Void를 요청하고 있죠... 결과적으로 아주 적은 코드가 실행됩니다. (이 부분의 SIL 코드는 흥미로울 것 같아요.)
 
@@ -309,7 +499,18 @@ Resolver의 내부 확인 작업은 이것보다 훨씬 깔끔하지 않았지�
 
 여기까지입니다. Factory와 함께 사용할 수 있는 여러 모듈 등록 및 해결 전략 그리고 마법이 일어나는 과정에 대한 간략한 살펴보기가 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신도 알고 있겠지요. 질문이나 의견이 있으시면 아래에 적어주시고, 더 많은 내용을 보고 싶으시면 좋아요 버튼을 한참 눌러주세요.
 

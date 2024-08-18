@@ -3,17 +3,13 @@ title: "Windows에서 글꼴을 더 선명하게 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-19-HowtoMakeFontsCleareronWindows_0.png"
 date: 2024-06-19 04:59
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-HowtoMakeFontsCleareronWindows_0.png
 tag: Tech
 originalTitle: "How to Make Fonts Clearer on Windows"
 link: "https://medium.com/@kjavaman12/how-to-make-fonts-clearer-on-windows-35fdeb13d05c"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-06-19-HowtoMakeFontsCleareronWindows_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 - 성능 옵션 열기:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 시작 메뉴를 클릭하세요.
 - 검색 창에 "Windows의 모양 및 성능 조정"을 입력하고 결과에서 선택하세요.
@@ -36,7 +43,18 @@ isUpdated: true
 
 3. 변경 사항 적용:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 변경 사항을 저장하려면 '적용'을 클릭한 다음 '확인'을 누르세요.
 
@@ -46,7 +64,18 @@ isUpdated: true
 
 - ClearType 텍스트 튜너를 엽니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 시작 메뉴를 클릭하세요.
 - 검색 상자에 "ClearType"을 입력하세요. "Adjust ClearType Text"을 보면 클릭하거나 Enter를 누르세요.
@@ -58,7 +87,18 @@ isUpdated: true
 
 3. 텍스트 조정:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 화면 안내에 따라 ClearType 설정을 조정하세요. 여러 텍스트 샘플이 나타날 것이며, 가장 마음에 드는 것을 선택하세요.
 
@@ -68,7 +108,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-19-HowtoMakeFontsCleareronWindows_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

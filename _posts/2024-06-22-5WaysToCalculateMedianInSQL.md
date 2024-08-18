@@ -3,17 +3,13 @@ title: "SQL에서 중앙값 계산하는 5가지 방법"
 description: ""
 coverImage: "/assets/img/2024-06-22-5WaysToCalculateMedianInSQL_0.png"
 date: 2024-06-22 17:50
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-5WaysToCalculateMedianInSQL_0.png
 tag: Tech
 originalTitle: "5 Ways To Calculate Median In SQL"
 link: "https://medium.com/@subhralina/5-ways-to-calculate-median-in-sql-cffba38aa945"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-06-22-5WaysToCalculateMedianInSQL_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 평균: "평균치"라고도 불리며, 모든 데이터 점수를 더하고 데이터 점수의 수로 나누어 찾을 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 중앙값: 중간 숫자; 모든 데이터 포인트를 정렬하고 중간에 있는 숫자를 선택하여 찾음 (또는 두 개의 중간 숫자가 있는 경우, 그 두 숫자의 평균을 취함).
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 Measure of Central Tendency에 대한 마이크로블로그를 보유하고 있습니다. 여기에서 그들의 필요성과 사용 사례가 더 자세히 설명되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 https://www.linkedin.com/posts/subhralina-nayak_data-statistics-datascience-activity-6977655040274522112-bvR6?utm_source=share&utm_medium=member_desktop
 
@@ -43,7 +61,18 @@ https://www.linkedin.com/posts/subhralina-nayak_data-statistics-datascience-acti
 
 데이터 분석에 필수인 최고의 도구가 SQL이죠. SQL을 사용하면 가능한 모든 분석을 수행할 수 있습니다. 하지만 중심 경향성 측정은 할 수 있나요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 네, 당연히 가능해요!
 
@@ -53,7 +82,18 @@ https://www.linkedin.com/posts/subhralina-nayak_data-statistics-datascience-acti
 
 하지만, 중앙값을 계산하는 것은 약간 까다로울 수 있어요. 그렇지만 중앙값을 SQL에서 계산하는 것은 여전히 가능해요. 한 가지 방법이 아니라, 5가지 방법으로 가능해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # SQL을 사용하여 중앙값 계산해보기
 
@@ -63,7 +103,18 @@ N개의 요소를 가진 데이터셋이 있을 때, 작은 순서대로 정렬�
 
 중앙값 = (N+1)/2번째 요소, 만약 N이 홀수인 경우
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 중앙값 = (N/2번째 요소 + (N/2 + 1)번째 요소)/2, 단, N이 짝수인 경우
 
@@ -84,7 +135,18 @@ FROM (
 ) data
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 변수 @c는 sales.order_items 테이블의 전체 행 수로 할당됩니다. 내부 서브쿼리는 목록 가격을 오름차순으로 정렬합니다. OFFSET (@c - 1)/2 ROWS 절은 첫 번째 절반의 행 (단 @c가 홀수인 경우) 또는 정확히 중간 행 (단 @c가 짝수인 경우)을 건너뜁니다. FETCH NEXT 1 + (1 - @c%2) ROWS ONLY 절은 @c가 홀수인 경우 다음 행을 가져오거나 @c가 짝수인 경우 추가 행을 가져오지 않습니다. 마지막으로 외부 쿼리는 검색된 행의 평균을 계산하여 중앙값을 구합니다.
 
@@ -105,7 +167,18 @@ WHERE
 
 위 쿼리는 먼저 각 행에 대해 목록 가격과 주문 ID에 따라 오름차순 및 내림차순으로 순서를 지정합니다. 서브쿼리는 목록 가격 및 해당하는 오름차순 및 내림차순 순서의 행 번호를 검색합니다. 외부 쿼리는 오름차순 순서의 행 번호가 내림차순 순서의 행 번호와 동일하거나 하나 차이 나는 경우의 목록 가격의 평균을 계산합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## ORDER BY, MIN() 및 MAX() 함수 사용
 
@@ -134,13 +207,24 @@ FROM (
 
 ## NTILE() 윈도우 함수 사용
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 SELECT MAX(list_price) AS "중앙값"
 FROM (
  SELECT list_price,
- NTILE(4) OVER(ORDER BY list_price) AS Quartile 
+ NTILE(4) OVER(ORDER BY list_price) AS Quartile
  FROM sales.order_items
 ) X
 WHERE Quartile = 2
@@ -151,12 +235,23 @@ NTILE 함수는 결과 집합을 4개의 동일한 부분(사분위수)으로 �
 ## PERCENTILE_CONT() 윈도우 함수 사용하기
 
 ```js
-SELECT DISTINCT PERCENTILE_CONT(0.5) 
+SELECT DISTINCT PERCENTILE_CONT(0.5)
   WITHIN GROUP (ORDER BY list_price) OVER() AS "중앙값"
 FROM sales.order_items
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 PERCENTILE_CONT 함수는 그룹 내에서 주어진 열의 특정 백분위수를 계산합니다. 0.5 인수는 우리가 50번째 백분위수인 중앙값을 찾고 싶다는 것을 나타냅니다. ORDER BY list_price 절은 중앙값을 계산하기 전에 목록 가격이 오름차순으로 정렬되도록 합니다. DISTINCT 키워드는 중앙값이 동일한 값이 여러 개 있는 경우에도 전체 중앙값에 대해 한 결과만 얻도록 합니다. OVER() 함수는 어떤 분할도 없이 사용되므로 PERCENTILE_CONT가 전체 결과 집합에 적용됩니다.
 

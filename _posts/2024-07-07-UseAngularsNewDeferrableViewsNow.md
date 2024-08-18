@@ -3,17 +3,13 @@ title: "Angular의 새로운 Deferrable Views 사용 방법 바로 알아보기"
 description: ""
 coverImage: "/assets/img/2024-07-07-UseAngularsNewDeferrableViewsNow_0.png"
 date: 2024-07-07 19:58
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-UseAngularsNewDeferrableViewsNow_0.png
 tag: Tech
 originalTitle: "Use Angular’s New Deferrable Views Now"
 link: "https://medium.com/angular-blog/use-angulars-new-deferrable-views-now-20ca9f64f1e5"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-07-07-UseAngularsNewDeferrableViewsNow_0.png" />
 
@@ -23,7 +19,18 @@ Deferrable views를 사용하면 초기 번들 크기를 최적화하고 애플�
 
 지연 로드된 라우트는 이전과 같이 작동합니다. 라우트 수준에서의 지연 로딩은 라우트별로 애플리케이션 청크를 분할하는 훌륭한 방법을 제공합니다. 라우트를 지연 로드하여 애플리케이션을 위해 청크 최적화를 극대화하는 방법을 deferrable views와 결합할 수 있습니다. 이것이 최적화된 앱을 위한 최적의 방법입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 빠른 하이라이트
 
@@ -40,7 +47,18 @@ Deferrable views를 사용하면 초기 번들 크기를 최적화하고 애플�
 
 이 예제에서는 내장된 플레이스홀더 블록을 사용하여 지연 로드가 발생하기 전에 표시되는 내용을 사용자 정의합니다. 로딩 및 에러 블록을 사용하여 표시되는 내용을 더욱 자유롭게 사용자 정의할 수 있으며, 응용 프로그램에서 최상의 사용자 경험을 제공할 수 있는 유연성을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 미리 가져오기
 
@@ -57,7 +75,18 @@ Deferrable views를 사용하면 초기 번들 크기를 최적화하고 애플�
 
 댓글 컴포넌트는 뷰포트에 진입하는 즉시 렌더링됩니다. 먼저 가져오기를 기다리지 않습니다. 멋지지 않나요? 우리는 그렇게 생각합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 불필요한 코드 줄이기
 
@@ -67,7 +96,18 @@ Deferrable views를 사용하면 초기 번들 크기를 최적화하고 애플�
 
 데퍼러블 뷰는 우리가 발전시킬 수 있는 견고한 기반이 됩니다. 우리가 탐험 중인 첫 번째 과제는 defer 블록을 컴포넌트 비동기 초기화를 기다릴 수 있도록 가르치는 방법입니다. 커뮤니티가 표현한 관심사는 데퍼러블 뷰를 데이터 가져오기 이야기와 더 통합시킬 수 있는 방법입니다. 구체적으로 말하면 defer 블록이 데이터 가져오기가 완료됐을 때 트리거되게 하는 것입니다. 우리는 이 문제에 대한 최상의 해결책을 현재 논의 중입니다. 추가로, 데퍼러블 뷰는 점진적 유수화에 좋은 기반 요소입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데펀더블 뷰는 현재 개발자 미리 보기 상태에 있습니다. 개발자들이 이 새로운 기능을 채택함에 따라 피드백을 수집하고 향후 릴리스에서 개발자 미리 보기를 종료할 계획으로 지속적으로 개선할 것입니다.
 

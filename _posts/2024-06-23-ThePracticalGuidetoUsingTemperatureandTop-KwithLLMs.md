@@ -3,17 +3,13 @@ title: "LLMs에서 Temperature와 Top-K를 사용하는 실용 가이드"
 description: ""
 coverImage: "/assets/img/2024-06-23-ThePracticalGuidetoUsingTemperatureandTop-KwithLLMs_0.png"
 date: 2024-06-23 19:01
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-ThePracticalGuidetoUsingTemperatureandTop-KwithLLMs_0.png
 tag: Tech
 originalTitle: "The Practical Guide to Using Temperature and Top-K with LLMs"
 link: "https://medium.com/ai-advances/the-practical-guide-to-using-temperature-and-top-k-with-llms-21d3e5031fb6"
 isUpdated: true
 ---
-
-
-
-
 
 대형 언어 모델(LLMs)은 자연 언어 처리를 혁신적으로 바꿨지만, 그들의 전체 잠재력을 이용하기 위해서는 주요 파라미터를 이해하는 것이 필요합니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 온도는 LLM의 출력의 무작위성을 제어합니다. 일반적으로 0과 1 사이로 설정됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 낮은 온도(0에 가까운): 더 예측 가능하고 집중된 응답을 생성합니다.
 - 높은 온도(1에 가까운): 더 다양하고 창의적이며 때로는 예측할 수 없는 출력물을 생성합니다.
@@ -34,7 +41,18 @@ isUpdated: true
 
 위와 같습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - i는 우리가 확률을 계산하고 있는 특정 토큰을 나타냅니다.
 - j는 어휘 중 모든 토큰을 반복하는 합산에 사용됩니다.
@@ -50,7 +68,18 @@ T가 0에 가까워질수록, 분포는 좀 더 뾰족해지며 높은 확률을
 
 # Top-K란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Top-k 샘플링은 언어 모델에서 텍스트를 생성하는 데 사용되는 전략입니다. 여기에는 모든 가능한 단어를 고려하는 대신 상위 K개 가장 확률이 높은 단어에서 다음 단어를 선택하는 과정이 포함됩니다. 이 방법은 무작위성과 의미 있는 출력 사이의 균형을 도와줍니다. 아래는 이 방법이 작동하는 방식입니다:
 
@@ -62,7 +91,18 @@ Top-k 샘플링은 언어 모델에서 텍스트를 생성하는 데 사용되�
 
 Top-K는 샘플링 풀의 크기를 제어하는 직접적인 방법을 제공합니다. K가 작을수록 보다 집중된 결과를 얻게 되지만, K가 클수록 더 다양성을 허용하지만 덜 관련성 있는 토큰을 포함할 위험이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 방법은 모델이 매우 불가능하거나 터무니없는 토큰을 선택하는 것을 방지하는 데 특히 효과적일 수 있습니다, 특히 K값이 비교적 낮게 설정된 경우. 그러나 이 방법은 상황에 따라 어휘 크기에 어려움을 겪을 수 있으며, 경우에 따라 너무 제한적일 수도 있고 다른 경우에는 너무 허용될 수 있습니다.
 
@@ -72,7 +112,18 @@ Top-K는 샘플링 풀의 크기를 제어하는 직접적인 방법을 제공�
 
 ## 온도
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 사실적 정확성이 필요한 작업(예: 질의응답 또는 데이터 추출)에는 낮은 온도(0.1-0.3)를 사용하세요.
 - 창의성과 일관성이 균형있는 일반 대화 또는 콘텐츠 생성에는 중간 온도(0.4-0.7)를 사용하세요.
@@ -86,7 +137,18 @@ Top-K는 샘플링 풀의 크기를 제어하는 직접적인 방법을 제공�
 
 ## 온도와 상위-K 결합
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이러한 방법들을 조합하면 생성된 텍스트의 다양성과 품질을 세밀하게 조절할 수 있어요.
 - 확률적으로 발생할 가능성이 낮은 토큰을 걸러내기 위해 중간 K 값 (예: 50–100)을 사용한 후, 해당 하위 집합 내에서 무작위성을 조절하기 위해 온도를 적용해주세요.
@@ -101,7 +163,18 @@ Top-K는 샘플링 풀의 크기를 제어하는 직접적인 방법을 제공�
 
 기억해주세요, 이상적인 설정은 작업, 모델 및 원하는 결과에 따라 다릅니다. 실험을 통해 응용 프로그램에 최적의 균형을 찾는 것이 중요해요. 결과를 모니터링하고 적절하게 조정하여 LLM 출력물에서 일관성, 관련성 및 창의성의 최적 조합을 달성해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

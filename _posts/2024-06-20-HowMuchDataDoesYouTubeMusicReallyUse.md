@@ -3,17 +3,13 @@ title: "유튜브 뮤직이 실제로 얼마나 많은 데이터를 사용할까
 description: ""
 coverImage: "/assets/img/2024-06-20-HowMuchDataDoesYouTubeMusicReallyUse_0.png"
 date: 2024-06-20 16:07
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-HowMuchDataDoesYouTubeMusicReallyUse_0.png
 tag: Tech
 originalTitle: "How Much Data Does YouTube Music Really Use?"
 link: "https://medium.com/@crayborn40/how-much-data-does-youtube-music-really-use-221a1b435556"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-20-HowMuchDataDoesYouTubeMusicReallyUse_0.png" />
 
@@ -23,7 +19,18 @@ YouTube Music의 데이터 사용량은 스트림의 품질과 직접적으로 �
 
 휴대폰 또는 가정 무선 요금제의 데이터 사용량을 살펴보면 일반적으로 기가바이트 또는 Gb의 형태로 제한됩니다. 각각 1000 메가바이트 또는 Mb에 1 기가바이트가 있습니다. 그렇다면 YouTube Music을 사용할 때 한 시간에 얼마만큼의 데이터가 사용될까요? 이는 앱의 오디오 또는 비디오 기능을 사용하는지에 따라 다릅니다. 사용 중인 서비스에 따라 대략적인 데이터 사용량과 계산 방법을 살펴봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 오디오 데이터 속도 및 사용량
 
@@ -33,7 +40,18 @@ YouTube Music의 데이터 사용량은 스트림의 품질과 직접적으로 �
 
 속도 이외에도 데이터 사용량에는 다른 요소들이 영향을 줍니다. 비트 깊이, 코덱 및 파일 유형도 데이터 사용량에 영향을 미치는 요소입니다. 모든 스트리밍 서비스는 소비자들에게 음악이나 비디오를 제공하는 데 다른 파일과 유형을 사용합니다. 일부 서비스는 YouTube Music보다 더 높은 비트레이트로 오디오를 제공하며 더 많은 데이터를 소비할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 비디오 데이터 속도와 사용량
 
@@ -41,7 +59,18 @@ YouTube Music에서 비디오를 재생하면 기기에서 사용되는 데이�
 
 YouTube는 비디오 품질을 표시하기 위해 초당 프레임(fps)를 사용하며, 초당 프레임이 더 높을수록 품질도 더 높습니다. YouTube는 시장에서 다른 스트리밍 비디오 서비스보다 훨씬 높은 fps를 사용합니다. 비디오 옵션을 선택한 경우 예상되는 데이터 사용량을 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 유튜브 뮤직을 스트리밍할 때 유용한 팁
 

@@ -3,17 +3,13 @@ title: "프록시목스Proxmox LXC에 포토프리즘Photoprism 설치하기"
 description: ""
 coverImage: "/assets/img/2024-06-20-ProxmoxInstallingPhotoprisminLXC_0.png"
 date: 2024-06-20 17:14
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-ProxmoxInstallingPhotoprisminLXC_0.png
 tag: Tech
 originalTitle: "Proxmox: Installing Photoprism in LXC"
 link: "https://medium.com/@rar1871/proxmox-installing-photoprism-in-lxc-5c9d71c25b43"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-06-20-ProxmoxInstallingPhotoprisminLXC_0.png)
 
@@ -27,7 +23,18 @@ Photoprism은 AI 기반의 멋진 사진 관리 서비스로, 여러분의 사�
 - 터미널에 대한 기본 지식이 필요합니다. (파일을 열고 저장하는 등)
 - Proxmox 컨테이너에 대한 기본 지식이 필요합니다. (LXC 템플릿 다운로드, 컨테이너 설정 등)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 컨테이너 생성:
 
@@ -37,9 +44,20 @@ Photoprism은 AI 기반의 멋진 사진 관리 서비스로, 여러분의 사�
 
 ![이미지](/assets/img/2024-06-20-ProxmoxInstallingPhotoprisminLXC_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
--  당신이 좋아하는 리눅스 플레이버는 무엇인가요? 저는 여기서 Debian 11을 사용했어요.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+- 당신이 좋아하는 리눅스 플레이버는 무엇인가요? 저는 여기서 Debian 11을 사용했어요.
 - ~16GB의 루트 저장공간입니다. (사진을 저장하기에는 절대 충분하지 않아요. 외부 저장공간을 꼭 사용하시길 강력히 추천드려요. 제 개인 NAS에서 저장 공간을 사용하겠습니다.)
 
 ![첨부된 이미지](/assets/img/2024-06-20-ProxmoxInstallingPhotoprisminLXC_2.png)
@@ -48,7 +66,18 @@ Photoprism은 AI 기반의 멋진 사진 관리 서비스로, 여러분의 사�
 
 ![첨부된 이미지](/assets/img/2024-06-20-ProxmoxInstallingPhotoprisminLXC_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 8GB RAM 이상, 4GB 스왑 이상이 필요합니다.
 
@@ -58,7 +87,18 @@ Photoprism은 AI 기반의 멋진 사진 관리 서비스로, 여러분의 사�
 
 ![이미지](/assets/img/2024-06-20-ProxmoxInstallingPhotoprisminLXC_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 나머지는 기본값으로 둔 채로 컨테이너를 시작하지 마세요.
 - 컨테이너 측면 표시줄의 옵션으로 이동하여 다음을 활성화하세요:
@@ -72,7 +112,18 @@ SMB/CIFS=1 # 외부 공유를 사용하는 경우에만 선택적으로 필요
 
 - 이제 컨테이너를 시작하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## IP 주소 설정하기:
 
@@ -82,7 +133,18 @@ SMB/CIFS=1 # 외부 공유를 사용하는 경우에만 선택적으로 필요
 
 참고: 만약 컨테이너가 라우터 장치 목록에 나타나지 않으면, 컨테이너로 돌아가 apt update를 실행하고 라우터 화면을 새로고침하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대부분 인기있는 라우터에 대해 이 작업을 하는 방법을 다루는 YouTube 동영상이 많이 있습니다. 이 작업을 완료한 후 컨테이너를 다시 부팅하십시오. Proxmox를 다시 부팅할 필요는 없습니다.
 
@@ -92,7 +154,18 @@ SMB/CIFS=1 # 외부 공유를 사용하는 경우에만 선택적으로 필요
 
 저는 컨테이너 부팅 디스크에 파일을 저장하는 것을 좋아하지 않으며 가능한 한 작게 유지합니다. Proxmox 호스트 디스크가 가득 차는 경우... 복구는 가능하지만 절대로 처지고 싶지 않은 상황입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 경우에는 NAS가 있어서 192.168.xxx.yy에 위치한 appdata라는 SMB 공유 폴더를 노출시킵니다.
 
@@ -104,7 +177,18 @@ apt install cifs-utils
 
 마운트 폴더를 생성하세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /media/appdata를 만들기
@@ -118,7 +202,18 @@ SMB 자격 증명 파일을 만들기:
 
 다음과 같이 자격 증명을 파일에 추가하세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 사용자 이름=당신의_사용자_이름
@@ -128,13 +223,24 @@ SMB 자격 증명 파일을 만들기:
 fstab 설정하기:
 
 ```js
-nano /etc/fstab
+nano / etc / fstab;
 ```
 
 다음 줄을 추가하십시오:
 설정에 맞게 192.168.xxx.yy/appdata를 변경하십시오.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 //192.168.xxx.yy/appdata /media/appdata cifs credentials=/root/.smb,uid=0,gid=0,dir_mode=0777,file_mode=0777,users,rw,iocharset=utf8,noperm 0 0
@@ -146,7 +252,18 @@ nano /etc/fstab
 
 이제 컨테이너와 저장소가 설정되었으므로 Photoprism을 설치할 준비가 되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기존 패키지를 업데이트하세요:
 
@@ -160,7 +277,18 @@ apt update && apt upgrade
 apt install -y gcc g++ git gnupg make zip unzip ffmpeg exiftool darktable libpng-dev libjpeg-dev libtiff-dev imagemagick libheif-examples
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Node.js 설치하기:
 
@@ -183,7 +311,18 @@ ln -s /usr/local/go/bin/go /usr/local/bin/go
 rm go1.20.6.linux-amd64.tar.gz
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 텐서플로우 설치:
 이 버전은 AVX2 호환 CPU용입니다 (현대적인 CPU 대부분이 해당됩니다). Photoprism 웹사이트에서 단순히 AVX 용이나 AVX를 지원하지 않는 CPU 용 버전을 찾을 수 있습니다.
@@ -208,7 +347,18 @@ make all
 cp -a assets/ /opt/photoprism/assets/
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 구성:
 
@@ -223,7 +373,18 @@ nano /var/lib/photoprism/.env
 다음을 구성 파일에 추가하세요:
 기본 SQLite 데이터베이스를 작은 컬렉션 이외의 것에는 권장하지 않습니다. 이를 위해 MariaDB를 사용하는 것을 고려해보세요. MariaDB를 설치하는 방법에 대한 별도 가이드가 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저장 요소를 변경하려면 Photoprism 저장 경로를 마운트된 폴더로 변경해야 합니다. 저의 경우에는 /media/appdata가 될 것입니다.
 
@@ -250,10 +411,21 @@ Photoprism이 부팅될 때 시작되도록 설정합니다.
 
 서비스 정의 파일 생성:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-nano /etc/systemd/system/photoprism.service
+nano / etc / systemd / system / photoprism.service;
 ```
 
 서비스 파일에 다음을 추가하세요:
@@ -280,7 +452,18 @@ WantedBy=multi-user.target
 
 이제 데몬을 다시로드하고 서비스를 시작하세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 systemctl daemon-reload
@@ -296,8 +479,18 @@ systemctl status photoprism
 
 모든 것이 잘 실행됐다면 (활성화된 상태는 녹색으로 표시됩니다):
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-20-ProxmoxInstallingPhotoprisminLXC_7.png)
 
@@ -309,8 +502,18 @@ http://YOUR-IP:2342
 
 ## 크레딧:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 포토프리즘 설치는 아래 안내서를 기반으로 진행되었고, 제게는 너무나 귀중한 정보입니다. 문제 해결이 필요할 때 대비하여 읽어보는 것을 고려해보세요.
 
@@ -320,6 +523,17 @@ http://YOUR-IP:2342
 
 저는 IT 전문가가 아닙니다. 기술 지원도 제공하지 않습니다. 서버를 가진 대학생입니다. 시스템에서 실행하는 모든 명령어에 대한 최종 책임은 여러분에게 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 질문이 있으면 댓글을 남겨주세요. 즐거운 시간 보내세요!

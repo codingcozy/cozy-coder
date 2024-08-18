@@ -3,17 +3,13 @@ title: "iOS와 SwiftUI에서 스택 막대 차트 만들기"
 description: ""
 coverImage: "/assets/img/2024-07-23-SwiftChartsHowtoMakeStackedBarChartsiniOSandSwiftUI_0.png"
 date: 2024-07-23 21:41
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-23-SwiftChartsHowtoMakeStackedBarChartsiniOSandSwiftUI_0.png
 tag: Tech
 originalTitle: "Swift Charts How to Make Stacked Bar Charts in iOS and SwiftUI"
 link: "https://medium.com/better-ios-development/swift-charts-how-to-make-stacked-bar-charts-in-ios-and-swiftui-f4cd5b08a081"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-07-23-SwiftChartsHowtoMakeStackedBarChartsiniOSandSwiftUI_0.png" />
 
@@ -23,7 +19,18 @@ Swift Charts와 관련된 경험이 있으면 더 좋지만, 수직 막대 차�
 
 목차:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 쌓인 막대 차트 데이터 모델
 - 언제 쌓인 막대 차트를 선택해야 할까요?
@@ -38,7 +45,18 @@ Swift Charts와 관련된 경험이 있으면 더 좋지만, 수직 막대 차�
 
 ![이미지](/assets/img/2024-07-23-SwiftChartsHowtoMakeStackedBarChartsiniOSandSwiftUI_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실제 앱을 개발한다면 데이터 모델을 별도의 파일로 분리해야 하지만, 편의를 위해 우리는 모든 것을 여기에 작성할 거에요.
 
@@ -48,7 +66,18 @@ Swift Charts와 관련된 경험이 있으면 더 좋지만, 수직 막대 차�
 
 ![image](/assets/img/2024-07-23-SwiftChartsHowtoMakeStackedBarChartsiniOSandSwiftUI_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 모델이 처리되었으니, 이제 좋은 부분에 몰두해 봅시다.
 
@@ -58,7 +87,18 @@ Swift Charts와 관련된 경험이 있으면 더 좋지만, 수직 막대 차�
 
 우리의 데이터 배열은 부서별 분기별 수익을 보여 주므로, 이는 총 3개의 정보 조각이 됩니다. 세 번째 데이터 차원을 일반 수평 또는 수직 막대 차트에 쑤셔 넣을 수 없습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 예시가 있습니다 - 아래 코드 스니펫을 보면 X 축에 시간 기간을, Y 축에 수익 금액을 보여주는 수직 막대 차트를 만드는 방법을 보여줍니다:
 
@@ -68,7 +108,18 @@ Swift Charts와 관련된 경험이 있으면 더 좋지만, 수직 막대 차�
 
 BarMark()에 다른 변수를 표시할 수 있는 추가적인 매개변수가 없으므로 우리의 사용 사례에 너무 제한적인 일반적인 수직 막대 차트를 선언할 수는 없습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 테이블 태그를 Markdown 형식으로 바꾼 예시입니다.
 
@@ -80,7 +131,18 @@ BarMark()에 다른 변수를 표시할 수 있는 추가적인 매개변수가 
 
 다음은 코드 예시입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래에 표가 있습니다:
 
@@ -90,7 +152,18 @@ BarMark()에 다른 변수를 표시할 수 있는 추가적인 매개변수가 
 
 # 스타일링 101: 데이터 시각화를 새로운 수준으로 완성하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Swift 및 SwiftUI에서 쌓인 막대 차트를 스타일링하는 것은 처음에 생각한 것보다 더 어려울 수 있습니다. 전체 차트나 개별 막대에 일부 스타일을 적용할 수 없기 때문에 더 많은 작업이 필요합니다. 바 세그먼트와 작업해야 합니다.
 
@@ -100,7 +173,18 @@ Swift 및 SwiftUI에서 쌓인 막대 차트를 스타일링하는 것은 처음
 
 가장 먼저 해야 할 일은 색상 배열을 가져와야 합니다. 아래 예시는 아름다운 단색 파란색 팔레트를 사용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 색상을 변경하려면 전체 Chart 요소에 chartForegroundStyleScale 수정자를 적용해야 합니다. 이 수정자는 도메인 - 독립적인 범주의 비-선택 사항 값 배열 및 range - 색상 배열에 대한 값을 예상합니다.
 
@@ -110,7 +194,18 @@ Swift 및 SwiftUI에서 쌓인 막대 차트를 스타일링하는 것은 처음
 
 색상은 놀라울 정도로 멋지지만 이제 범례에 문제가 있는 것으로 보입니다. 어떻게 해결하는지 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 사용자 정의 범례: 사용자 정의 색상을 제공할 때 범례 문제 해결하기
 
@@ -120,7 +215,18 @@ LegendItem 구조체는 단일 범례 항목을 만드는 데 사용됩니다. �
 
 간단한 해결책은 아니지만 최종적으로 차트 범례를 완전히 제어할 수 있게 해줍니다. 원 대신 직사각형을 표시하거나 텍스트 크기를 조정하고 싶을 수도 있습니다. 그렇다면, 이제 가능합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 전체 코드 스니펫이에요:
 
@@ -130,7 +236,18 @@ LegendItem 구조체는 단일 범례 항목을 만드는 데 사용됩니다. �
 
 다른 조정할 수 있는 사항들을 진행해봐요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 막대의 모서리 반지름 추가하기
 
@@ -140,7 +257,18 @@ LegendItem 구조체는 단일 범례 항목을 만드는 데 사용됩니다. �
 
 ![이미지](/assets/img/2024-07-23-SwiftChartsHowtoMakeStackedBarChartsiniOSandSwiftUI_7.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 시각화를 더욱 발전시키고 싶다면 꼭 주석을 추가해야 합니다. 다음에는 이에 대해 다뤄보겠습니다.
 
@@ -150,11 +278,33 @@ LegendItem 구조체는 단일 범례 항목을 만드는 데 사용됩니다. �
 
 하지만, 스택된 막대 차트에서 가장 좋은 방법은 주석 텍스트를 막대 세그먼트 안에 넣는 것입니다. 이는 주석 수정자 호출 내부에서 오버레이 위치를 지정하여 수행됩니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 표 태그를 Markdown 형식으로 변경해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 텍스트는 다음과 같이 보입니다:
 
@@ -164,7 +314,18 @@ LegendItem 구조체는 단일 범례 항목을 만드는 데 사용됩니다. �
 
 ## 차트 크기 변경
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SwiftUI 요소처럼 Chart에 프레임 수정자를 지정할 수 있습니다. 모바일 장치에 가장 적합한 전체 폭 데이터 시각화를 위해 높이에만 신경 쓰면 됩니다.
 
@@ -172,11 +333,20 @@ SwiftUI 요소처럼 Chart에 프레임 수정자를 지정할 수 있습니다.
 
 차트가 더 이상 그렇게 키지 않습니다:
 
-
 ![Chart](/assets/img/2024-07-23-SwiftChartsHowtoMakeStackedBarChartsiniOSandSwiftUI_10.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 마지막으로, 누락된 유일한 것을 추가해 봅시다 — 제목입니다.
 
@@ -186,7 +356,18 @@ SwiftUI 요소처럼 Chart에 프레임 수정자를 지정할 수 있습니다.
 
 이렇게 하면 제목이 중앙에 정렬되지만, 감싸고 있는 VStack의 정렬 속성을 수정하여 위치를 변경할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 우리가 완성한 차트입니다:
 
@@ -196,7 +377,18 @@ SwiftUI 요소처럼 Chart에 프레임 수정자를 지정할 수 있습니다.
 
 # 보너스: 수직에서 수평으로 스택된 막대 차트로 전환하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상상하겠지만, 쌓인 막대 차트를 수평으로 만드는 데 방해할 누군가는 없습니다. 많은 막대를 표시해야 하고 작은 수평 공간에 막대를 촘촘히 배치하고 싶지 않은 경우가 가장 좋은 방법이지요.
 
@@ -206,17 +398,39 @@ SwiftUI 요소처럼 Chart에 프레임 수정자를 지정할 수 있습니다.
 
 다음은 코드입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보여드린 표입니다:
 
 ![표](/assets/img/2024-07-23-SwiftChartsHowtoMakeStackedBarChartsiniOSandSwiftUI_12.png)
 
-주석을 읽기 쉽게 표시했지만, 막대가 네 개뿐이므로 수평 레이아웃이 필요하지는 않습니다. 어느 쪽이 더 좋은지는 개인 취향에 따라 다를 수 있습니다. 
+주석을 읽기 쉽게 표시했지만, 막대가 네 개뿐이므로 수평 레이아웃이 필요하지는 않습니다. 어느 쪽이 더 좋은지는 개인 취향에 따라 다를 수 있습니다.
 
 # 요약
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사를 통해 Swift Charts 라이브러리의 막대 차트 부분을 마무리합니다. 몇 가지 다른 변형이 가능하지만, 그 사용 사례가 상당히 특정하여 전체 기사를 할애하는 가치가 없습니다. 이제 iOS 앱에 포함하고 싶은 대부분의 데이터 시각화를 위해 수평, 수직 및 쌓인 막대 차트를 만드는 방법을 알게 되었습니다.
 
@@ -226,6 +440,17 @@ Swift Charts에 대한 의견은 어떠신가요? iOS 앱에서 사용하고 계
 
 이 기사를 좋아하셨나요? 제한 없이 계속 학습하려면 Medium 회원이 되어주십시오. 아래 링크를 사용하시면 회원 자격을 획득하며, 추가 비용은 없습니다. 제게 회원비의 일부가 지급됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2022년 11월 13일에 https://betteriosdevelopment.com에서 원래 게시된 내용입니다.

@@ -3,18 +3,13 @@ title: "R에서 Caret 패키지로 분류 모델 생성하기"
 description: ""
 coverImage: "/assets/img/2024-06-20-ClassificationModelinRwithCaretPackage_0.png"
 date: 2024-06-20 15:59
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-ClassificationModelinRwithCaretPackage_0.png
 tag: Tech
 originalTitle: "Classification Model in R with Caret Package"
 link: "https://medium.com/@andiyudha/classification-model-in-r-with-caret-package-373f20e31dd"
 isUpdated: true
 ---
-
-
-
-
-
 
 Classification And Regression Training, 또는 caret으로 줄여서 부르는 것은 R 프로그래밍 패키지로, 예측 모델을 만드는 과정을 간소화하려는 함수를 포함하고 있어요. 이 패키지에는 다음과 같은 기능들이 포함되어 있어요:
 
@@ -28,7 +23,18 @@ Classification And Regression Training, 또는 caret으로 줄여서 부르는 �
 
 ![image](/assets/img/2024-06-20-ClassificationModelinRwithCaretPackage_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예시에서는 R 프로그래밍 언어를 사용하여 https://www.kaggle.com/datasets/deepcontractor/smoke-detection-dataset 사이트에서 제공하는 데이터셋을 사용하여 Smoke detection을 예측합니다.
 
@@ -37,14 +43,25 @@ Classification And Regression Training, 또는 caret으로 줄여서 부르는 �
 이 모델에서 사용할 라이브러리는 다음과 같습니다:
 
 ```js
-library(tidyverse)
-library(caret)
-library(rpart.plot)
-library(corrplot)
-library(ggcorrplot)
+library(tidyverse);
+library(caret);
+library(rpart.plot);
+library(corrplot);
+library(ggcorrplot);
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Tidyverse 패키지를 사용하여 데이터 세트를 수정하고 조작하며, 변수들 간의 상관 관계를 찾기 위해 corrplot을 사용할 수 있어요.
 
@@ -52,20 +69,31 @@ Tidyverse 패키지를 사용하여 데이터 세트를 수정하고 조작하�
 
 데이터 세트는 다음과 같이 구성되어 있어요:
 
-| 변수명          | 데이터 형태                | 예시                          |
-|----------------|-------------------------|-------------------------------|
-| UTC            | 날짜 및 시간 형식(dttm)    | 2022-06-09 00:08:51, 2022-06-09 00:08:52, 2022-06-09... |
-| Temperature[C] | 실수형(double)             | 20.000, 20.015, 20.029, 20.044, 20.059, 20.073...         |
-| Humidity[%]    | 실수형(double)             | 57.36, 56.67, 55.96, 55.28, 54.69, 54.12...            |
-| TVOC[ppb]      | 실수형(double)             | 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0...               |
-| eCO2[ppm]      | 실수형(double)             | 400, 400, 400, 400, 400, 400, 400, 400, 400, 400...      |
-| Raw H2         | 실수형(double)             | 12306, 12345, 12374, 12390, 12403, 12419...           |
-| Raw Ethanol    | 실수형(double)             | 18520, 18651, 18764, 18849, 18921, 18998...           |
-| Pressure[hPa]  | 실수형(double)             | 939.735, 939.744, 939.738, 939.736, 939.744...        |
-| PM1.0          | 실수형(double)             | 0.00, 0.00, 0.00, 0.00, 0.00, 0.00...              |
-| 그 외 변수들     | ...                       | ...                           |
+| 변수명         | 데이터 형태             | 예시                                                    |
+| -------------- | ----------------------- | ------------------------------------------------------- |
+| UTC            | 날짜 및 시간 형식(dttm) | 2022-06-09 00:08:51, 2022-06-09 00:08:52, 2022-06-09... |
+| Temperature[C] | 실수형(double)          | 20.000, 20.015, 20.029, 20.044, 20.059, 20.073...       |
+| Humidity[%]    | 실수형(double)          | 57.36, 56.67, 55.96, 55.28, 54.69, 54.12...             |
+| TVOC[ppb]      | 실수형(double)          | 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0...                   |
+| eCO2[ppm]      | 실수형(double)          | 400, 400, 400, 400, 400, 400, 400, 400, 400, 400...     |
+| Raw H2         | 실수형(double)          | 12306, 12345, 12374, 12390, 12403, 12419...             |
+| Raw Ethanol    | 실수형(double)          | 18520, 18651, 18764, 18849, 18921, 18998...             |
+| Pressure[hPa]  | 실수형(double)          | 939.735, 939.744, 939.738, 939.736, 939.744...          |
+| PM1.0          | 실수형(double)          | 0.00, 0.00, 0.00, 0.00, 0.00, 0.00...                   |
+| 그 외 변수들   | ...                     | ...                                                     |
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지시하신 데이터셋에 결측 데이터가 없는지 확인하시고 이 데이터셋에 대해 데이터 처리를 수행할 수 있습니다. 데이터셋은 다음과 같은 변수로 구성되어 있습니다:
 
@@ -89,7 +117,18 @@ Tidyverse 패키지를 사용하여 데이터 세트를 수정하고 조작하�
 
 모델링을 수행하기 전 데이터셋 처리. 필요한 변수 선택하고 CNT, Sample Count 변수는 선택하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 raw_data %>%
@@ -130,7 +169,18 @@ $ fire_alarm <fct> no, no, no, no, no, no, no, no, no, no, no, no, no, n…
 
 <img src="/assets/img/2024-06-20-ClassificationModelinRwithCaretPackage_1.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상관 행렬을 기반으로 통찰력을 얻을 수 있습니다:
 
@@ -141,7 +191,18 @@ $ fire_alarm <fct> no, no, no, no, no, no, no, no, no, no, no, no, no, n…
 
 데이터를 학습 및 테스트 데이터셋으로 8:2의 비율로 분할합니다. 일반적으로 더 큰 데이터셋에서 학습하는 모델이 더 정확해지지만, 더 많은 학습 데이터는 모델을 학습하는 데 더 많은 시간이 걸릴 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리의 데이터를 나누기 위해 caret 패키지의 createDataPartition()를 사용할 거에요. 이 함수는 넘겨주는 벡터의 인덱스들을 비례에 따라 랜덤하게 샘플링합니다. 그런 다음 이러한 인덱스를 사용하여 전체 데이터셋을 테스트 및 트레이닝 데이터셋으로 나눌 수 있어요.
 
@@ -162,18 +223,42 @@ test_data <- df_data[-train_index, ] %>% glimpse
 
 # 모델 개발
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희가 데이터에 어떤 알고리즘이 잘 동작할지 미리 알 수 없어요. 다양한 방법을 시험해보고 어떤 것이 잘되는지 보고, 그런 방법을 두드려야 해요.
 
 ## 선형 알고리즘:
+
 1. 로지스틱 회귀 (LG),
 2. 선형 판별 분석 (LDA)
 3. 정규화된 로지스틱 회귀 (GLMNET)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 비선형 알고리즘:
+
 1. k-최근접 이웃 알고리즘(KNN),
 
 2. 분류 및 회귀 트리(CART),
@@ -182,7 +267,18 @@ test_data <- df_data[-train_index, ] %>% glimpse
 
 4. 방사 기저 함수를 사용한 서포트 벡터 머신(SVM).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터가 많으므로 10-fold 교차 검증과 3회 반복을 사용할 것입니다. 이는 표준 테스트 하네스 구성입니다. 여러분의 이진 분류 문제에 대해 간단하게 정확도와 Kappa 지표를 사용할 것입니다. AUC(ROC 곡선 아래 영역)를 선택하고 민감도 및 특이도를 살펴 최적의 알고리즘을 선택할 수도 있었습니다.
 
@@ -226,17 +322,17 @@ set.seed(7)
 fit.glmnet <- train(fire_alarm~., data = train_data, method="glmnet",
                  metric=metric,trControl=trainControl)
 
-# KNN - k-Nearest Neighbors 
+# KNN - k-Nearest Neighbors
 set.seed(7)
 fit.knn <- train(fire_alarm~., data = train_data, method="knn",
                  metric=metric,trControl=trainControl)
 
-# CART - Classification and Regression Trees (CART), 
+# CART - Classification and Regression Trees (CART),
 set.seed(7)
 fit.cart <- train(fire_alarm~., data = train_data, method="rpart",
                  metric=metric,trControl=trainControl)
 
-# NB - Naive Bayes (NB) 
+# NB - Naive Bayes (NB)
 set.seed(7)
 Grid = expand.grid(usekernel=TRUE,adjust=1,fL=c(0.2,0.5,0.8))
 fit.nb <- train(fire_alarm~., data = train_data, method="nb",
@@ -244,7 +340,18 @@ fit.nb <- train(fire_alarm~., data = train_data, method="nb",
                 tuneGrid=Grid)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모델을 구축한 후에는 모델을 비교하여 더 나은 정확도를 찾을 수 있어요! 😊
 
@@ -252,10 +359,10 @@ fit.nb <- train(fire_alarm~., data = train_data, method="nb",
 Call:
 summary.resamples(object = ensembleResults)
 
-Models: BAG, RF, GBM, C50, LG, KNN, NB, CART, GLMNET 
-Number of resamples: 30 
+Models: BAG, RF, GBM, C50, LG, KNN, NB, CART, GLMNET
+Number of resamples: 30
 
-정확도 
+정확도
             Min.   1st Qu.    Median      Mean   3rd Qu.      Max. NA's
 BAG    0.9994013 0.9998004 0.9998004 0.9998337 1.0000000 1.0000000    0
 RF     0.9996008 0.9998004 1.0000000 0.9999202 1.0000000 1.0000000    0
@@ -267,7 +374,7 @@ NB     0.9417282 0.9443613 0.9463074 0.9470978 0.9505089 0.9527041    0
 CART   0.9590900 0.9654244 0.9809419 0.9754183 0.9829849 0.9896208    0
 GLMNET 0.8848303 0.8931245 0.8957294 0.8954128 0.8985681 0.9026142    0
 
-카파 
+카파
             Min.   1st Qu.    Median      Mean   3rd Qu.      Max. NA's
 BAG    0.9985319 0.9995105 0.9995106 0.9995922 1.0000000 1.0000000    0
 RF     0.9990214 0.9995107 1.0000000 0.9998043 1.0000000 1.0000000    0
@@ -284,7 +391,18 @@ GLMNET 0.7052235 0.7262274 0.7346055 0.7332479 0.7403128 0.7496404    0
 
 랜덤 포레스트가 가장 높은 정확도(99.99%)를 보이며, 그 다음으로 BAG (Bagged CART) (99.98%)와 C5.0 (99.93%)이 뒤를 이어요! 🚀🌟
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 모델 완성
 
@@ -307,36 +425,47 @@ cf_c50 <- confusionMatrix(predict_c50, test_data$fire_alarm)
 cf_c50
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-예   아니요 
-8950 3575 
+예   아니요
+8950 3575
 혼동 행렬 및 통계
 
           참조
 예측     예    아니요
        예 8949    1
        아니요     2 3573
-                                     
-              정확도 : 0.9998     
+
+              정확도 : 0.9998
                  95% 신뢰구간 : (0.9993, 1)
-    정보 부재율 : 0.7147     
-    P-값 [정확도 > 정보 부재율] : <2e-16     
-                                     
-                  카파 : 0.9994     
-                                     
- 맥네마의 검정 P-값 : 1          
-                                      
-            민감도 : 0.9998     
-            특이도 : 0.9997     
-         양성 예측치 : 0.9999     
-         음성 예측치 : 0.9994     
-             유병률 : 0.7147     
-         발견 비율 : 0.7145     
-   발견 유병률 : 0.7146     
-      균형 정확도 : 0.9997     
-                                     
+    정보 부재율 : 0.7147
+    P-값 [정확도 > 정보 부재율] : <2e-16
+
+                  카파 : 0.9994
+
+ 맥네마의 검정 P-값 : 1
+
+            민감도 : 0.9998
+            특이도 : 0.9997
+         양성 예측치 : 0.9999
+         음성 예측치 : 0.9994
+             유병률 : 0.7147
+         발견 비율 : 0.7145
+   발견 유병률 : 0.7146
+      균형 정확도 : 0.9997
+
      '양성' 클래스 : 예
 ```
 
@@ -349,18 +478,18 @@ print(model_rf)
 ```
 
 ```js
-랜덤 포레스트 
+랜덤 포레스트
 
 50105 개 샘플
     9 예측 변수
-    2 클래스: '예', '아니요' 
+    2 클래스: '예', '아니요'
 
 사전 처리 없음
-샘플링: 교차 검증 (10-fold, 3회 반복) 
-샘플 크기 요약: 45095, 45094, 45094, 45094, 45095, 45094, ... 
+샘플링: 교차 검증 (10-fold, 3회 반복)
+샘플 크기 요약: 45095, 45094, 45094, 45094, 45095, 45094, ...
 튜닝 매개변수에 따른 샘플링 결과:
 
-  mtry  정확도   카파    
+  mtry  정확도   카파
   2     0.9999202  0.9998043
   5     0.9999202  0.9998043
   9     0.9998736  0.9996901
@@ -369,7 +498,18 @@ print(model_rf)
 모델에 사용된 최종 값은 mtry = 2입니다.
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 predict_rf <- predict(model_rf, test_data)
@@ -382,33 +522,33 @@ cf_rf
 ```
 
 ```js
-yes   no 
-8952 3573 
+yes   no
+8952 3573
 Confusion Matrix and Statistics
 
           Reference
 Prediction  yes   no
        yes 8951    1
        no     0 3573
-                                     
-               Accuracy : 0.9999     
+
+               Accuracy : 0.9999
                  95% CI : (0.9996, 1)
-    No Information Rate : 0.7147     
-    P-Value [Acc > NIR] : <2e-16     
-                                     
-                  Kappa : 0.9998     
-                                     
- Mcnemar's Test P-Value : 1          
-                                     
-            Sensitivity : 1.0000     
-            Specificity : 0.9997     
-         Pos Pred Value : 0.9999     
-         Neg Pred Value : 1.0000     
-             Prevalence : 0.7147     
-         Detection Rate : 0.7147     
-   Detection Prevalence : 0.7147     
-      Balanced Accuracy : 0.9999     
-                                     
+    No Information Rate : 0.7147
+    P-Value [Acc > NIR] : <2e-16
+
+                  Kappa : 0.9998
+
+ Mcnemar's Test P-Value : 1
+
+            Sensitivity : 1.0000
+            Specificity : 0.9997
+         Pos Pred Value : 0.9999
+         Neg Pred Value : 1.0000
+             Prevalence : 0.7147
+         Detection Rate : 0.7147
+   Detection Prevalence : 0.7147
+      Balanced Accuracy : 0.9999
+
        'Positive' Class : yes
 ```
 
@@ -421,21 +561,32 @@ model_treebag <- readRDS(here::here("finalModel_treebag.rds"))
 print(model_treebag)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-Bagged CART 
+Bagged CART
 
 50105 개의 샘플
     9 개의 예측 변수
-    2 개의 클래스: 'yes', 'no' 
+    2 개의 클래스: 'yes', 'no'
 
 사전 처리 없음
-리샘플링: 교차 확인(10 폴드, 3회 반복) 
-샘플 크기 요약: 45095, 45094, 45094, 45094, 45095, 45094, ... 
+리샘플링: 교차 확인(10 폴드, 3회 반복)
+샘플 크기 요약: 45095, 45094, 45094, 45094, 45095, 45094, ...
 리샘플링 결과:
 
-  정확도   카파    
+  정확도   카파
   0.9998337  0.9995922
 ```
 
@@ -456,25 +607,25 @@ Confusion Matrix and Statistics
 예측값   yes   no
        yes 8951    2
        no     0 3572
-                                     
-               정확도 : 0.9998     
+
+               정확도 : 0.9998
                  95% 신뢰 구간 : (0.9994, 1)
-    정보 없는 비율 : 0.7147     
-    P-값 [정확도 > 정보 없는 비율] : <2e-16     
-                                     
-                  카파 : 0.9996     
-                                     
- 맥네머의 테스트 P-값 : 0.4795     
-                                     
-            민감도 : 1.0000     
-            특이도 : 0.9994     
-         양성 예측 값 : 0.9998     
-         음성 예측 값 : 1.0000     
-             유병률 : 0.7147     
-         감지율 : 0.7147     
-   감지 유병률 : 0.7148     
-      균형 정확도 : 0.9997     
-                                     
+    정보 없는 비율 : 0.7147
+    P-값 [정확도 > 정보 없는 비율] : <2e-16
+
+                  카파 : 0.9996
+
+ 맥네머의 테스트 P-값 : 0.4795
+
+            민감도 : 1.0000
+            특이도 : 0.9994
+         양성 예측 값 : 0.9998
+         음성 예측 값 : 1.0000
+             유병률 : 0.7147
+         감지율 : 0.7147
+   감지 유병률 : 0.7148
+      균형 정확도 : 0.9997
+
        '양성' 클래스 : yes
 ```
 

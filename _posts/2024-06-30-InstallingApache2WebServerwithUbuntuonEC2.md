@@ -3,17 +3,13 @@ title: "EC2에 Ubuntu로 Apache 2 웹 서버 설치하는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-30-InstallingApache2WebServerwithUbuntuonEC2_0.png"
 date: 2024-06-30 23:07
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-30-InstallingApache2WebServerwithUbuntuonEC2_0.png
 tag: Tech
 originalTitle: "Installing Apache 2 Web Server with Ubuntu on EC2"
 link: "https://medium.com/@brettidykes/installing-apache-2-web-server-with-ubuntu-on-ec2-80e18964943d"
 isUpdated: true
 ---
-
-
-
-
 
 # 시나리오:
 
@@ -23,7 +19,18 @@ Level Up Bank의 클라우드 엔지니어로서, 저희 팀은 Amazon Linux 2�
 
 현재 우리의 AWS EC2 인스턴스에는 웹 서버가 실행되고 있지 않습니다. 우리 팀은 해당 웹 서버를 설치해야 하며, 올바른 보안 권한을 확인하고 웹 서버에 읽기/쓰기할 수 있는 능력을 검증하며, 공개적으로 읽을 수 있는지 확인하고, 웹 서버가 회사가 원하는대로 작동하는지 문제 해결해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 작업:
 
@@ -35,7 +42,18 @@ Level Up Bank의 클라우드 엔지니어로서, 저희 팀은 Amazon Linux 2�
 sudo apt update
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-30-InstallingApache2WebServerwithUbuntuonEC2_0.png" />
 
@@ -45,7 +63,18 @@ sudo apt update
 
 이제 Apache를 설치해야 합니다. 이를 위해 다음 명령을 실행하겠습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 sudo apt install apache2
@@ -57,7 +86,18 @@ sudo apt install apache2
 
 ## 3. Enable Apache Web Server
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Apache 웹 서버를 설치했습니다. 이제 이를 활성화하고 실행 중인지 확인해야 합니다. 아래 명령어를 실행하여 확인할 수 있어요:
 
@@ -72,21 +112,39 @@ sudo systemctl status apache2
 
 ![이미지2](/assets/img/2024-06-30-InstallingApache2WebServerwithUbuntuonEC2_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-06-30-InstallingApache2WebServerwithUbuntuonEC2_6.png](/assets/img/2024-06-30-InstallingApache2WebServerwithUbuntuonEC2_6.png)
 
-
-
 ![2024-06-30-InstallingApache2WebServerwithUbuntuonEC2_7.png](/assets/img/2024-06-30-InstallingApache2WebServerwithUbuntuonEC2_7.png)
-
 
 ## 4. 웹 서버의 IP 주소 확인 및 공개 읽기 가능 여부 확인
 
 이제 웹 브라우저를 통해 웹 서버에 액세스할 수 있는지 확인해보겠습니다. 웹 서버의 IP를 가져와서 웹 브라우저에서 연결을 시도해 봅시다. 이를 위해서 다음 명령을 실행하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 curl -4 icanhazip.com
@@ -98,9 +156,18 @@ curl -4 icanhazip.com
 
 ![Image 3](/assets/img/2024-06-30-InstallingApache2WebServerwithUbuntuonEC2_10.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Apache Web Server](/assets/img/2024-06-30-InstallingApache2WebServerwithUbuntuonEC2_11.png)
 
@@ -110,8 +177,18 @@ curl -4 icanhazip.com
 
 Ubuntu 머신을 EC2 인스턴스에 설정할 때 이미 보안 그룹을 통해 HTTP 연결을 활성화했습니다. 연결할 때 오류가 발생하는 경우 HTTP 액세스가 활성화되지 않았을 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-30-InstallingApache2WebServerwithUbuntuonEC2_12.png)
 
@@ -121,7 +198,18 @@ Ubuntu 머신을 EC2 인스턴스에 설정할 때 이미 보안 그룹을 통�
 
 기본 인덱스 파일의 위치: /var/www/html
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 디렉토리에 액세스하려면 다음 명령을 실행합니다:
 
@@ -134,7 +222,18 @@ cd /var/www/html
 
 이제 파일을 편집하는 동안 실수를 했을 경우에 대비하여 먼저 백업 복사본을 만들어봅시다. 다음 명령을 실행하세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```shell
 sudo cp index.html indexbackup.html
@@ -146,7 +245,18 @@ Now that we have our backup, let's access the original, erase it, and input our 
 
 To access the file, run the command:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 sudo nano /var/www/html/index.html
@@ -158,8 +268,18 @@ sudo nano /var/www/html/index.html
 
 ![Image 2](/assets/img/2024-06-30-InstallingApache2WebServerwithUbuntuonEC2_16.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제가 만든 간단한 .html 문서에는 일부 css가 포함되어 있어서 시험 페이지가 더 매력적으로 보이도록 되어 있어요:
 
@@ -194,7 +314,18 @@ sudo nano /var/www/html/index.html
 </html>
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 새로운 .html/css가 파일 안에 들어 있으니 웹 페이지를 새로고침해서 변경 내용이 표시되는지 확인해 봅시다:
 
@@ -204,7 +335,18 @@ sudo nano /var/www/html/index.html
 
 모든 웹사이트나 애플리케이션은 오류를 가지고 있습니다. 사용자가 오류를 보고할 때 문제를 파악하기 위해 로그에 접근해야 합니다. 우선 로그를 찾아야 합니다. Ubuntu에서는 로그가 /var/log/apache2/access.log에 위치한다고 빠른 구글 검색 결과에 나옵니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-30-InstallingApache2WebServerwithUbuntuonEC2_20.png" />
 
@@ -217,7 +359,18 @@ cat access.log
 cat error.log
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 8. 최신 15개 항목만 포함하도록 로그 파일을 새 파일로 리디렉션합니다.
 
@@ -227,7 +380,18 @@ cat error.log
 
 여기서 최신 15개 항목을 새 파일 AccessLogsJune29.txt로 리디렉션하기 위해 `tail -n 15 access.log > AccessLogsJune29.txt` 명령어를 사용했습니다. 그러나 권한 문제가 발생했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반적으로 'sudo' 명령어는 작동하지만, 저희 터미널 내의 구문은 sudo가 전체 명령어에 적용되도록 만들어야 합니다. 다음 줄에 어떻게 하는지 확인해보세요.
 
@@ -241,8 +405,18 @@ sudo sh -c 'tail -n 15 /path/to/source_log.txt > /path/to/new_log.txt'
 - `tail -n 15 /path/to/source_log.txt`: 지정된 로그 파일의 마지막 15줄을 가져옵니다.
 - `` /path/to/new_log.txt`: 이 출력 결과를 `new_log.txt`로 리다이렉트하여 해당 내용을 덮어씁니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-30-InstallingApache2WebServerwithUbuntuonEC2_23.png)
 
@@ -252,7 +426,17 @@ Now we have two new txt files which report the latest 15 entries for both our ac
 
 # Result:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희는 작동 중인 Apache 2 웹 서버를 소유하고 있습니다. 이 서버는 비공개로 쓰기가 가능하고 공개적으로 읽을 수 있습니다. 웹 사이트의 랜딩 페이지를 우리만의 코드로 편집할 수 있었습니다. 또한 에러 및 접근 로그에 액세스할 수 있었고, 이를 우리 자신의 파일로 리다이렉트할 수도 있었습니다.

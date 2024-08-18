@@ -3,17 +3,13 @@ title: "로봇은 더 똑똑해지고 있을까 로봇 공학에서 인식에 �
 description: ""
 coverImage: "/assets/img/2024-06-22-AretherobotsgettingsmarterAconversationaboutperceptioninrobotics_0.png"
 date: 2024-06-22 19:41
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-AretherobotsgettingsmarterAconversationaboutperceptioninrobotics_0.png
 tag: Tech
 originalTitle: "Are the robots getting smarter? A conversation about perception in robotics"
 link: "https://medium.com/@mathiasmantelli/are-the-robots-getting-smarter-a-conversation-about-perception-in-robotics-255f32ac3fb9"
 isUpdated: true
 ---
-
-
-
-
 
 이 기사는 보통 여기서 하는 시리즈와는 별도로 됩니다. 이젠 대화를 나누는 것처럼 얘기하는 걸 좋아합니다 (하지만 전 며칠 동안 계속 말을 할 거에요 ㅋㅋ). 그래서 당신이 좋아하는 음료를 준비하고 로봇과 그들이 얼마나 "똑똑"해졌는지에 대해 이야기해봐요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 여기서 잠깐 멈추고 로봇의 인식 관점에서 관련 두 가지 문제, 동시 위치 추정 및 지도 작성(SLAM) 그리고 빈 피킹(bin picking)을 바라봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 로봇의 과거와 현재의 인식
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 2016년에 Cadena와 다른 저자들은 "동시 위치 및 지도 작성의 과거, 현재 및 미래: 견고한 인식 시대를 향하여"라는 과학 논문을 발표했습니다. 그들의 연구에서는 SLAM 분야에서 30년 이상의 작업을 검토하고, 이를 고전적 시대(1986-2004), 알고리즘 분석 시대(2004-2015), 그리고 견고한 인식 시대(2015-현재)로 그룹화했습니다. 각 시대를 간단히 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 고전 시대:
 이것은 Extended Kalman Filters, Rao-Blackwellized Particle Filters 및 최대 우도 추정을 사용하여 SLAM이 불확실성을 처리하는 주요 방법을 소개합니다. 또한 모든 것이 원활하게 작동하고 올바른 데이터 조각을 연결하는 데 필요한 기본 도전에 대해 이야기합니다.이 시대의 SLAM의 두 가지 예는 아래에 나와 있습니다.
@@ -45,7 +63,18 @@ isUpdated: true
 알고리즘 분석 시대:
 연구자들은 SLAM의 기본 기능인 시간이 지남에 따른 위치 추적이 얼마나 잘되는지, 신뢰할 수 있는지, 그리고 대량의 데이터를 어떻게 처리하는지 등을 조사했습니다. 드문 데이터가 SLAM이 더 빠르고 더 잘 작동하게 하는 것을 발견했습니다. 이때 무료로 사용할 수 있는 주요 SLAM 소프트웨어인 Gmapping 및 ORB-SLAM을 만들기 시작했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![그림](/assets/img/2024-06-22-AretherobotsgettingsmarterAconversationaboutperceptioninrobotics_2.png)
 
@@ -56,7 +85,18 @@ SLAM 시스템은 단순히 형상을 매핑하는 것을 넘어, 환경에 대�
 
 이 애니메이션 이미지를 자세히 살펴보면 많은 세부 사항을 알 수 있습니다. 장면 속 물체는 환경의 일부로 이해되며, 같은 클래스의 물체는 경계 상자에서 동일한 색으로 레이블이 지정되며, LiDAR 및 레이더의 3D 데이터는 카메라의 2D 이미지와 결합됩니다. 게다가 다양한 물체가 결합되어 장면으로부터 더 많은 정보를 추출하는데 활용됩니다. 마지막 애니메이션 이미지에서와 같이 흰색 차량과 그의 깜박임등, 후방등, 브레이크 라이트 등이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 빈 피킹에서의 인식
 
@@ -66,7 +106,18 @@ SLAM 시스템은 단순히 형상을 매핑하는 것을 넘어, 환경에 대�
 
 이 접근 방식이 그 당시에 작동했지만, 그 한계를 쉽게 이해할 수 있습니다. 예를 들어, 빈당 하나의 아이템 유형만 있어야 한다면, 그렇지 않은 경우에는 빈의 PC와 여러 섭취 아이템을 매칭하는 계산 비용이 막대할 수 있습니다. 게다가, 이러한 접근 방식은 빠르게 확장되지 않으며, 새로운 아이템을 위해서는 항상 아이템을 스캔하여 3D 형태 표현을 생성해야 합니다(또는 제조사에게 CAD 파일을 요청해야 합니다).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이들은 여러 종류의 항목이 들어있는 소스 바구니를 비울 수 있습니다. 게다가, 그들의 시스템은 새로운 (시스템이 이전에 본 적이 없는 항목) 항목을 즉시 선택할 수 있을 정도로 광범위한 수준의 일반화를 달성했습니다.
 
@@ -76,7 +127,18 @@ SLAM 시스템은 단순히 형상을 매핑하는 것을 넘어, 환경에 대�
 
 ## 로봇의 지각 발전의 영향과 속도
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제가 각 시대의 주요 작품에서 몇 장의 이미지를 넣었는데, 그냥 이 기사를 읽기 쉽게 만들기 위해서 하는 게 아니에요. 고대 시대의 이미지를 보면 환경으로부터의 장애물을 거의 표현하지 못했음을 알 수 있어요. 대부분의 구축된 지도는 2D였고, 환경에서의 3D 장애물을 평평하게 만들었어요. 환경 내의 다양한 물체들은 모두 "장애물"로 라벨링되었고, 로봇이 그것들을 피한다면 괜찮았어요.
 
@@ -86,7 +148,18 @@ SLAM 시스템은 단순히 형상을 매핑하는 것을 넘어, 환경에 대�
 
 생각해보면, 이야기가 너무 맞죠. 2015년까지의 로봇 지각은 방법론과 기술적인 측면에서 견고한 기반을 구축하고 개선하는 데 초점을 맞췄어요. 그 부분이 충분히 견고해지면, 연구 커뮤니티와 산업계는 환경을 "자유로운(free)", "점유된(occupied)", 혹은 "알 수 없는(unknown)"로만 라벨링하는 것이 충분하지 않다는 것을 깨달았어요. 그 때들이 생김새를 가볍게 생각하면, 환경에서 고수준 정보를 추론하는 의미론을 추구하기로 결정했어요. 이 정보는 다양한 물체, 방, 위치의 이름과 범주를 포함하지만 이에 한정되지 않아요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2015년부터 2020년까지 Zoox와 Sereact가 환경에 대한 그 수준의 이해를 달성했다는 사실이 놀라운 것 같아요. 그들로부터 일부 세부 정보를 논의해보고, 이미지를 다시 여기에 포함해서 위로 스크롤할 필요 없도록 할게요.
 
@@ -96,7 +169,18 @@ SLAM 시스템은 단순히 형상을 매핑하는 것을 넘어, 환경에 대�
 
 마지막으로, 주차된 차량에 문이 열려 있는 것을 이해한 자동차는 그곳에서 사람이 나올 수 있다는 것을 의미해요. 이 상황에서 Zoox 차는 어떤 사고도 예방하기 위해 더 주의 깊게 운전합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 bin picking 분야의 지각 개선 사항도 다룰 예정이라고 언급했던 것 같아요. 이곳에서 Sereact에서의 좋은 예시를 소개하고 있습니다. 이 경우에는 사람이 로봇에게 상품 존 폐기품을 선택하도록 요청하고 있습니다. 출처 창고에는 6개의 프링글스 캔이 들어 있고 이 중 하나가 부서졌습니다. 시스템의 인식 부분은 이를 이해할 수 있고, 부서진 캔을 선택합니다.
 
@@ -106,7 +190,18 @@ SLAM 시스템은 단순히 형상을 매핑하는 것을 넘어, 환경에 대�
 
 실제로 이러한 의미론적 이해는 LLM과 VLM에서 출발하며, 텍스트 및 시각적 정보를 결합합니다. 로봇이 사람의 옷이 그들이 본 상황에서 다른 역할을 함을 이해할 때야 (길 공사 작업자와 같이 보여진 것처럼) 이 사람에 적절히 반응할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 물론, 로봇학의 하드웨어 부분에서도 상당한 발전이 있었습니다. 예를 들어, Boston Dynamics와 그 Atlas 로봇을 생각해 볼 수 있습니다. 수압식 버전은 폐지되고 새로운 완전 전기식 버전이 출시되었습니다. 그러나 저는 고수준 작업을 수행하는 로봇들에게 있어서 인식 소프트웨어의 개선이 더욱 중요하다고 느낍니다.
 
@@ -116,7 +211,18 @@ SLAM 시스템은 단순히 형상을 매핑하는 것을 넘어, 환경에 대�
 
 지금은 여기까지입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 참고 자료
 

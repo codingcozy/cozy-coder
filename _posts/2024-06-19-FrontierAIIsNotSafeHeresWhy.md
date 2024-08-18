@@ -3,17 +3,13 @@ title: "프론티어 AI는 안전하지 않아요 그 이유를 알려드릴게�
 description: ""
 coverImage: "/assets/img/2024-06-19-FrontierAIIsNotSafeHeresWhy_0.png"
 date: 2024-06-19 06:53
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-FrontierAIIsNotSafeHeresWhy_0.png
 tag: Tech
 originalTitle: "Frontier AI Is Not Safe. Here’s Why"
 link: "https://medium.com/@ignacio.de.gregorio.noblejas/frontier-ai-is-not-safe-heres-why-ef4fff7388c1"
 isUpdated: true
 ---
-
-
-
-
 
 AI 혁명의 리더들이 더 이상 자신들의 의도를 숨기지 않고 있습니다. 그들은 AI가 어디에나 존재하는 세상을 만들고 싶어합니다.
 
@@ -23,7 +19,18 @@ AI 혁명의 리더들이 더 이상 자신들의 의도를 숨기지 않고 있
 
 또한 실체화된 AI가 매우 멀리 떨어져 있는 것처럼 보일지라도, 심각한 피해를 줄 수 있는 로그 모델을 만들 위험이 우리에게 더 가까이 존재한다는 점을 잊지 마세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # AI 모델 트레이닝
 
@@ -33,12 +40,21 @@ AI 혁명의 리더들이 더 이상 자신들의 의도를 숨기지 않고 있
 
 완전한 LLM 프로세스는 지능 생성, 행동 모델링 및 인간 선호도와의 조정을 포함합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 사전 훈련: 우리는 찾을 수있는 모든 데이터를 그들에게 공급합니다 (안타깝게도 인종차별적인 텍스트, 동성애에 대한 적개심, 그리고 온라인에서 우연히 발견하는 모든 것을 포함합니다). 여기서 모델은 우리의 세계에 대해 배우고 단어가 어떻게 따르는지 배우지만 지시를 따르지는 못합니다.
-  
 - 행동 복제: 사용자와 대화하는 방법을 모델에 가르치는 '지시: 답변' 데이터 세트를 공급합니다. 하지만 모델은 안전장치가 없고 모든 요청에 응답합니다.
-  
 - 조정: 여기서 모델은 1단계에서 축적된 지식과 2단계에서의 지시 따르기 능력을 유지하면서 '사람들의 선호도' 데이터 세트를 사용하여 무엇을 할 수 있고 할 수 없는지 '인식'하게 합니다.
 
 특정 오픈 소스 모델에 액세스하지 않았다면, 상호작용한 모든 모델은 이 세 단계를 거친 것입니다.
@@ -47,7 +63,18 @@ AI 혁명의 리더들이 더 이상 자신들의 의도를 숨기지 않고 있
 
 그러나 안타깝게도, 3단계는 되돌릴 수 있습니다. 실제로 조정되지 않은 데이터로 간단한 미세 조정을 수행하면 모범적인 모델이 '나쁜 놈 삽입'의 환생으로 변할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 이 주제에 대한 최신 흥미로운 연구에서 밝혀졌듯이, 우리의 정렬 방법, 안전을 위해 이러한 모델을 훈련하는 방식은 매우 제한적이며 쉽게 탈옥할 수 있습니다. 이는 언젠가 우리가 컨트롤할 수 없는 정말 강력한 것을 만들게 될 위험성을 증가시킵니다.
 
@@ -57,7 +84,18 @@ AI 혁명의 리더들이 더 이상 자신들의 의도를 숨기지 않고 있
 
 이렇게 하면 그들은 주위 맥락 속에서 각 단어의 의미를 업데이트할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 우리가 네트워크 안으로 더 깊이 들어가면, 모델은 입력 데이터의 더 높은 수준의 표현을 구축합니다. 예를 들어, '폭탄'이라는 단어를 고려해보면, 모델은 먼저 이것이 무기임을 인지하고, 더 깊이 들어갈수록 '위험한'으로 분류할 것입니다.
 
@@ -67,17 +105,39 @@ AI 혁명의 리더들이 더 이상 자신들의 의도를 숨기지 않고 있
 
 ## 수술적인 절단이 충분합니다
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-정렬의 주요 포인트는 입력 시퀀스에 포함된 주요 위험한 단어가 무엇인지에 관계없이, 모델이 답변을 거부하기 위해 식별해야 하는 단어가 모두 결국 동일한 거부 기능으로 발전한다는 것입니다.  
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-다시 말해, 모델이 답변을 거부하기 위해 '거부해야 할' 기능이 나타나야 한다는 것... 그렇지 않으면 거부하지 않습니다.  
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
-하지만 그게 무슨 말이냐구요?  
+정렬의 주요 포인트는 입력 시퀀스에 포함된 주요 위험한 단어가 무엇인지에 관계없이, 모델이 답변을 거부하기 위해 식별해야 하는 단어가 모두 결국 동일한 거부 기능으로 발전한다는 것입니다.
+
+다시 말해, 모델이 답변을 거부하기 위해 '거부해야 할' 기능이 나타나야 한다는 것... 그렇지 않으면 거부하지 않습니다.
+
+하지만 그게 무슨 말이냐구요?
 
 Anthropic의 중요성을 강조한 내 기사를 상기해보면, 우리는 이러한 모델을 기능 지도로 '해부'할 수 있게 된 것에서 최종적으로 이러한 모델을 '해부'하는 능력을 갖게 된 것을 설명했습니다. 모델의 지식에 대한 주제 요약을 포함하며, 'Golden Gate Bridge'나 '에이브러햄 링컨'과 같은 다른 요소로 분해되는 과정을 밟고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그런 다음 네트워크 내의 뉴런이 활성화되는 방식에 따라 모델은 한 주제 또는 다른 주제를 유발합니다.
 
@@ -85,7 +145,18 @@ Anthropic의 중요성을 강조한 내 기사를 상기해보면, 우리는 이
 
 아래에서 보다시피, 모델은 개별 토큰 임베딩으로 시작하지만, Nanda 등의 연구에 따르면 네트워크를 더 깊게 파고들수록 단어들이 정보를 공유하면서 더 복잡한 '다중 토큰' 임베딩을 개발한다는 것을 알 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-FrontierAIIsNotSafeHeresWhy_0.png)
 
@@ -95,7 +166,18 @@ Anthropic의 중요성을 강조한 내 기사를 상기해보면, 우리는 이
 
 Anthropic의 기사에서 논의된 대로, 우리는 특징을 낮추거나 제한하여 모델이 그 지식을 끌어내지 못하게 할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, Golden Gate Bridge 기능이 잘 조절되면, 모델은 그 자체로 기념물이 "되었습니다."
 
@@ -105,7 +187,18 @@ Anthropic의 기사에서 논의된 대로, 우리는 특징을 낮추거나 제
 
 ![Image 2](/assets/img/2024-06-19-FrontierAIIsNotSafeHeresWhy_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에서 시각적으로 보여진 것처럼, 거부 기능을 활성화시킬 수없는 상태에서 그 모델은 완전히 종복되어서 모든 요청에 응답했어요, 어떤 것이든 얼마나 해로운 요청이든 말이에요.
 
@@ -115,7 +208,18 @@ Anthropic의 기사에서 논의된 대로, 우리는 특징을 낮추거나 제
 
 이를 위해, 그들은 그 기능을 생성한 뉴런 활성화 조합을 식별했어요. "Anthropic" 기사에서 논의된 것처럼, 이러한 기능들은 모델이 세계를 이해하는 특성 공간에서 방향을 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 입력 시퀀스의 단어(및 그 조합)가 함께하여 여러 기능의 합이되며 이러한 결합은 우리에게 임베딩(개념)을 제공합니다.
 
@@ -125,8 +229,18 @@ Anthropic의 기사에서 논의된 대로, 우리는 특징을 낮추거나 제
 
 모든 개념은 임베딩으로 표현될 수 있기 때문에 실생활에서 다른 개념을 결합하는 아이디어를 수학적인 과정으로 변환하여 '남자' 벡터 임베딩을 '왕'에서 뺀 다음 '여자'를 더하여 '여왕'을 얻을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Embedding](/assets/img/2024-06-19-FrontierAIIsNotSafeHeresWhy_3.png)
 
@@ -136,8 +250,18 @@ Anthropic의 기사에서 논의된 대로, 우리는 특징을 낮추거나 제
 
 간단히 말하면, 앞서 왕실 예시를 들었듯이 '여왕' 벡터를 가져와 '여자'와 같은 다른 요소들로 분해한 다음 해당 기능을 '지우기' 위해 그 기능으로의 프로젝션을 계산하고 빼면, 사실상 해당 개념을 제거하고 모델이 그 개념을 나타내는 능력을 상실하며 '왕'이 됩니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그냥 그렇게하면 수백만 달러짜리 모델들이 쉽게 사라진다... 너무 쉽게. 그러나 걱정되는 것은 우리가 해야 하는 것보다 빨리 움직이고 있다는 것입니다.
 
@@ -147,7 +271,18 @@ Anthropic의 기사에서 논의된 대로, 우리는 특징을 낮추거나 제
 
 이는 모델이 제공할 수 있는 가장 위험한 반응이 열린 구글 검색에서 세 번 클릭 만에 얻을 수 있다는 것이라는 말이 전혀 아닙니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위험한 모델을 만들기 전에 반드시 이러한 명확한 안전 문제를 해결해야 한다는 것이 제 고민입니다.
 

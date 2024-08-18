@@ -3,17 +3,13 @@ title: "모든 규모의 시스템을 구축하기 위한 Swift 코딩 방법 �
 description: ""
 coverImage: "/assets/img/2024-07-19-AxiomaticandBrain-sizedCodinginSwiftforCreatingSystemsofAnyScale_0.png"
 date: 2024-07-19 11:26
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-19-AxiomaticandBrain-sizedCodinginSwiftforCreatingSystemsofAnyScale_0.png
 tag: Tech
 originalTitle: "Axiomatic and Brain-sized Coding in Swift for Creating Systems of Any Scale"
 link: "https://medium.com/better-programming/axiomatic-and-brain-sized-coding-in-swift-for-creating-systems-of-any-scale-ec352e7d87a9"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-07-19-AxiomaticandBrain-sizedCodinginSwiftforCreatingSystemsofAnyScale_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # “Axiomatic”이란 무엇을 의미합니까?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 수학과 논리에서, 공리는 더 이상 증명하지 않고도 참으로 간주할 수 있는 명제입니다. 2 + 2 = 4가 그러한 공리입니다. 또한 모든 자연수 n에는 다음 자연수 n+1이 있음도 공리입니다.
 
@@ -33,25 +40,36 @@ isUpdated: true
 
 Facing enum은 주어진 순간 어떤 방향을 향하고 있는지를 정의합니다. 북쪽, 남쪽, 동쪽, 서쪽
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 구조체 Snake {
     init (head:Coordinate) { self.init(head, [], .north) }
-    
+
     enum Change {
-        case move(Move); enum Move { 
-            case forward, right, left 
+        case move(Move); enum Move {
+            case forward, right, left
         }
         case grow
     }
-    
+
     enum Facing { case north, east, south, west }
-    
+
     let head  : Coordinate
     let tail  : [Coordinate]
     let facing: Facing
-    
+
     func body() -> [Coordinate] {  return [head] + tail }
 
     func alter(_ c:Change) -> Self {
@@ -70,10 +88,10 @@ The axiomatic statements are usually found in the alter method. Here I use helpe
 ```js
 확장 프로퍼티는 개인적으로 Snake {
     init(_ h:Coordinate,_ t:[Coordinate],_ f:Facing) { head = h; tail = t; facing = f }
-    
+
     func move(_ move:Change.Move) -> Self {
         var newTail: [Coordinate] { Array(body().prefix(tail.count)) }
-        
+
         switch (facing, move) {
         case (.north,.forward): return Self(Coordinate(x:head.x    ,y:head.y - 1),newTail,.north)
         case (.east ,.forward): return Self(Coordinate(x:head.x + 1,y:head.y    ),newTail,.east )
@@ -89,7 +107,7 @@ The axiomatic statements are usually found in the alter method. Here I use helpe
         case (.west ,  .right): return Self(Coordinate(x:head.x    ,y:head.y - 1),newTail,.north)
         }
     }
-    
+
     func grow() -> Self {
         //  |head|<----------------- tail ----------------->|facing|
         Self(head,!tail.isEmpty ? tail+[tail.last!] : [head],facing)
@@ -97,7 +115,18 @@ The axiomatic statements are usually found in the alter method. Here I use helpe
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 In move() 함수에서는 switch 문을 사용하여 뱀이 향하는 방향과 여기서 어느 방향으로 회전할지 패턴 매칭을 통해 평가합니다.
 예를 들어:
@@ -112,7 +141,18 @@ case (.north, .left): return Self(Coordinate(x: head.x-1, y: head.y), newTail, .
 case (.east, .right): return Self(Coordinate(x: head.x, y: head.y+1), newTail, .south)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 뱀은 동쪽을 향하고 오른쪽으로 회전합니다. 물론, 이제 남쪽을 향하게 되어 머리가 한 칸 아래로 이동합니다 (head.y +1).
 
@@ -122,17 +162,28 @@ case (.east, .right): return Self(Coordinate(x: head.x, y: head.y+1), newTail, .
 
 다음은 스마트 조명 시스템을 위한 Light를 모델링한 것입니다. Change enum은 조명과 상호 작용하는 여러 명령을 정의합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이름을 변경합니다: .renaming(.it(to:”kitchen”))
 - 켜고 끕니다: .turning(.it(.on)) .turning(.it(.off))
 - 조명 모드를 추가합니다: .adding(.mode(.hsb))
 - 디스플레이를 전환합니다: .toggling(.display(to:.slider))
 - 설정
-색조: .setting(.hue(to:0.8))
-채도: .setting(0.7)
-밝기: .setting(.brightness(to:0.6))
-온도: .setting(.temperature(to:.mirek(166))) — 조명의 색상 값.
+  색조: .setting(.hue(to:0.8))
+  채도: .setting(0.7)
+  밝기: .setting(.brightness(to:0.6))
+  온도: .setting(.temperature(to:.mirek(166))) — 조명의 색상 값.
 
 ```js
 구조체 Light:Codable, Equatable, Identifiable {
@@ -149,23 +200,23 @@ case (.east, .right): return Self(Coordinate(x: head.x, y: head.y+1), newTail, .
         }
     }
     init(id:String, name:String) { self.init(id, name, .off, 0, 0, 0, 0, .slider, [], .unset) }
-    
+
     열거형 Mode:Codable { case unset, hsb, ct }
     열거형 Temperature { case mirek(Int) }
-    
+
     let id        : String
     let name      : String
     let isOn      : Turn
-    
+
     let hue       : Double
     let saturation: Double
     let brightness: Double
     let ct        : Int
-    
+
     let modes       : [Mode]
     let selectedMode: Mode
     let display     : Interface
-    
+
     func alter(by changes:Change...) -> Self { changes.reduce(self) { $0.alter($1) } }
 }
 ```
@@ -192,7 +243,18 @@ case (.east, .right): return Self(Coordinate(x: head.x, y: head.y+1), newTail, .
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 패턴 매칭을 통해 Change 명령에서 새 값 대신 이전 값에 새 값을 덮어씌워 새 빛 인스턴스를 생성합니다. 여기서는 밝기 값을 사용합니다:
 
@@ -214,7 +276,18 @@ light.alter(
     )
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 음, 이번엔 Table 태그를 Markdown 형식으로 변환해보죠.
 
@@ -224,8 +297,18 @@ light.alter(
 
 우리는 제로부터 시작하는 것이 아니라, 로버트 C. 마틴이 제안한 "Clean Architecture"를 구현합니다. 마틴의 말처럼, 우리는 UseCases를 주요 구성 요소로 사용하지만, 이를 Feature로 그룹화하기도 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 Markdown 형식으로 변경하겠습니다.
 
@@ -237,20 +320,20 @@ UseCase 프로토콜의 구현은 조명 앱에서 가져온 이 예제와 비�
 struct LightValueSetter: UseCase {
     typealias RequestType  = Request
     typealias ResponseType = Response
-    
+
     enum Request  { case apply   (Apply, on: Light)          }
     enum Response { case applying(Apply, on: Light, Outcome) }
-    
+
     private let lightsStack : LightsStack
     private let store       : AppStore
     private let respond     : (Response) -> ()
-    
+
     init(lightsStack:LightsStack, store:AppStore, responder:@escaping (Response) -> ()) {
         self.lightsStack = lightsStack
         self.store       = store
         self.respond     = responder
     }
-    
+
     func request(_ request: Request) {
         switch request {
         case let .apply(.values(v),on:l): lightsStack.set(values:v,on:l) {
@@ -267,17 +350,28 @@ extension Light  {
     enum Value {
         case hue, saturation, brightness, colortemp
     }
-    enum Values { 
-        case hsb(Double, Double, Double), 
-             ct(Int, Double), 
-             bri(Double) 
+    enum Values {
+        case hsb(Double, Double, Double),
+             ct(Int, Double),
+             bri(Double)
     }
 }
 enum Apply { case values(Light.Values) }
 enum Outcome { case succeeded, failed(Error?) }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LightValueSetter는 LightStack 종속성을 갖고 생성되었습니다. 이는 네트워킹을 수행하고 조명에 연결할 것이며, 변경 사항을 저장할 AppStore, 호출자에게 UseCases 응답을 전달할 콜백 메서드가 포함되어 있습니다.
 
@@ -290,7 +384,18 @@ setter.request(.apply(.values(.bri(0.75)), on: light1))    // 밝기 설정
 
 콜백을 통해 반환되는 응답은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .applying(.values(.ct(220, 0.5)), on: light0, .succeeded)
@@ -303,7 +408,18 @@ setter.request(.apply(.values(.bri(0.75)), on: light1))    // 밝기 설정
 
 Dimmer UseCase는 다음과 같을 수 있습니다. 이를 통해 주어진 값에 따라 색조, 채도, 밝기 또는 색온도를 감소시키거나 증가시킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .dimming(.increase(.brightness, by: 10.pt, on: light0, .failed(e)))
@@ -314,16 +430,16 @@ Dimmer UseCase는 다음과 같을 수 있습니다. 이를 통해 주어진 값
 struct Dimmer: UseCase {
     typealias RequestType = Request
     typealias ResponseType = Response
-    
+
     private let lightsStack: LightsStack
     private let store      : AppStore
     private let respond    : (Response) -> ()
-    
-    enum Request  { 
+
+    enum Request  {
         case increase(Light.Value, by: Light.Value.Increment, on: Light)
-        case decrease(Light.Value, by: Light.Value.Increment, on: Light) 
+        case decrease(Light.Value, by: Light.Value.Increment, on: Light)
     }
-    enum Response { 
+    enum Response {
         case increase(Light.Value, by: Light.Value.Increment, on: Light, Outcome)
         case decrease(Light.Value, by: Light.Value.Increment, on: Light, Outcome)
     }
@@ -374,9 +490,20 @@ extension Light {
     }
     enum Values { case hsb(Double, Double, Double), ct(Int, Double), bri(Double) }
 }
-```  
+```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 각 사용 사례가 요청 및 응답 DSL을 가지고 있는 것을 볼 수 있습니다. DSL은 각 UseCase마다 고유하며 "관심사의 분리"를 효과적으로 구현합니다.
 
@@ -421,30 +548,52 @@ extension Message {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 The Message enum에는 Lighting, Dashboard 및 Logging 기능을 나타내는 세 가지 상위 케이스가 있습니다.
 
 이 문서에서는 후자를 무시하고 Lighting만 살펴보겠습니다.
 
-Message._Lighting은 다음 명령어를 허용합니다:
+Message.\_Lighting은 다음 명령어를 허용합니다:
 
 - 조명 및 객실을 로드(load)하는 방법
-.lighting(.load(.lights))
-.lighting(.load(.rooms))
+  .lighting(.load(.lights))
+  .lighting(.load(.rooms))
 - 조명을 켜고 끄는 방법
-.lighting(.turn(aLight, .on))
-.lighting(.turn(aLight, .off))
+  .lighting(.turn(aLight, .on))
+  .lighting(.turn(aLight, .off))
 - 조명 이름 변경하는 방법
-.lighting(.change(.name(newValue), on:aLight))
+  .lighting(.change(.name(newValue), on:aLight))
 - 주어진 증가 비율로 색조, 채도, 밝기 및 색온도를 증가 및 감소시키는 방법
-.lighting(.increase(.brightness, by: .pt(10), on:aLight))
-.lighting(.decrease(.brightness, by: .pt(10), on:aLight))
-.lighting(.increase(.saturation, by: .pt(10), on:aLight))
-.lighting(.decrease(.saturation, by: .pt(10), on:aLight))
-...
+  .lighting(.increase(.brightness, by: .pt(10), on:aLight))
+  .lighting(.decrease(.brightness, by: .pt(10), on:aLight))
+  .lighting(.increase(.saturation, by: .pt(10), on:aLight))
+  .lighting(.decrease(.saturation, by: .pt(10), on:aLight))
+  ...
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 메시지는 기능이 청취하는 전역 이벤트입니다. 메시지가 특정 기능에 관심이 있으면 해당 기능은 패턴 일치를 통해 명령을 해독하고 사용 사례를 위해 번역할 것입니다.
 
@@ -454,7 +603,18 @@ Message._Lighting은 다음 명령어를 허용합니다:
 
 앱 도메인에는 다양한 기능이 포함될 수 있으며 각 기능에는 임의의 개수의 사용 사례가 포함될 수 있습니다. 따라서 풍부한 앱을 구축하는 것이 가능합니다. 그러나 모든 표면 영역이 항상 함수일 뿐이므로 이를 통해 앱 도메인은 더 큰 프로젝트 내에서도 라이브러리로서 작동할 수 있습니다. 이는 전체 앱을 정의하는 데 적합하며 기존 코드에서 라이브러리로도 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앱 도메인은 다시 말해서 참조를 통해 유지하는 일부 적용된 함수일 뿐입니다. 기능과 같은 방식으로 말이죠.
 
@@ -490,7 +650,18 @@ fileprivate func stack(of kind:StackKind) -> LightsStack {
 
 두뇌 사이즈로 유지하기 위해 한 기능에는 10개 이상의 사용 사례가 없어야하며 앱 도메인에는 10개 이상의 기능이 없어야 합니다. 이는 최대 100개의 사용 사례를 갖는 대규모 앱을 구축할 수 있음을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떤 프로젝트를 한 적이 없지만 실제로 도움이 되지 않았던 프로젝트는 없었어요. 하지만 이것이 끝이 아닙니다.
 
@@ -500,7 +671,18 @@ fileprivate func stack(of kind:StackKind) -> LightsStack {
 
 내게만큼이나 이러한 종류의 코딩이 지난 2십년 동안 접해 온 다른 스타일보다 몇 배 빠르다는 사실이 증명되었어요. 간단한 게임을 만드는 데 몇 분이면 충분해요. Lighting 앱은 하루만에 완료되었어요. 이러한 종류의 코딩을 배우는 데 코더들이 매우 짧은 시간이 걸렸다는 피드백을 받았어요 — 딱 한 두 시간이면 충분했대요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이렇게 작성된 코드는 거의 불변형입니다. 이는 좋은 점이죠: 그 목적대로 변경할 수 없다면 우연히 변경되지도 않습니다. 오류의 크기는 더 이상 발생할 수 없습니다.
 

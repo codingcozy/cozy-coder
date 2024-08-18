@@ -3,17 +3,13 @@ title: "쿠버네티스 네트워킹 완벽 가이드 로드 밸런스, BGP, IPV
 description: ""
 coverImage: "/assets/img/2024-06-22-DecipheringtheKubernetesNetworkingMazeNavigatingLoad-BalanceBGPIPVSandBeyond_0.png"
 date: 2024-06-22 00:02
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-DecipheringtheKubernetesNetworkingMazeNavigatingLoad-BalanceBGPIPVSandBeyond_0.png
 tag: Tech
 originalTitle: "Deciphering the Kubernetes Networking Maze: Navigating Load-Balance, BGP, IPVS and Beyond"
 link: "https://medium.com/itnext/deciphering-the-kubernetes-networking-maze-navigating-load-balance-bgp-ipvs-and-beyond-7123ef428572"
 isUpdated: true
 ---
-
-
-
-
 
 쿠버네티스 세계에서는 매일 ipvs 대 iptables || pureLB 대 metalLB || overlay 대 underlay || Nodeport 대 Loadbalance와 같은 용어가 자주 들려옵니다. 이런 정보들을 다양한 소스에서 얻어서 하나로 묶는 것은 정말 어렵습니다. 그래서 저는 여기서 그것을 해냈습니다.
 
@@ -27,7 +23,18 @@ Nodeport를 사용했을 때 netstat으로 열린 포트를 볼 수 없는 이�
 
 저는 머릿 속에 20개의 웹사이트와 기사를 모두 정리해서 쿠버네티스 네트워킹을 이해하는 것이 어려웠지만, 그걸 해냈고, 여러분에게 더 쉽게 이해시킬 수 있기를 바랍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제가 말씀드릴 주제는 이러한 주제들이 Kubernetes와 어떻게 연결되어 있는지 보고 통합되어 있는지를 알아보겠습니다.
 로드 밸런싱, ipvs, iptables, BGP, 브릿지, CNI, PureLB, 엔드포인트, 서비스, 오버레이, 언더레이, ipip, kube-proxy, 인그레스 컨트롤러.
@@ -38,10 +45,21 @@ Nodeport를 사용했을 때 netstat으로 열린 포트를 볼 수 없는 이�
 
 CNI: 각 컨테이너에 대한 네트워크 인터페이스를 생성하고 구성하여 Kubernetes 네트워킹을 구성합니다. Kubelet은 CNI를 호출하여 네트워크 인터페이스를 설정하고 IP 주소를 할당합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CNI는 2가지 모델에서 작동합니다:
+
 - 캡슐화(overlay)
 - 비캡슐화(underlay)
 
@@ -51,8 +69,18 @@ CNI는 2가지 모델에서 작동합니다:
 
 - 비캡슐화(underlay): 컨테이너 간에 패킷을 라우팅하기 위한 L3 네트워크를 제공합니다. BGP를 사용하여 라우팅 정보를 분배하기 위해 워커가 필요합니다. 이 모델은 워커 사이에 네트워크 라우터를 확장하는 것을 포함합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-22-DecipheringtheKubernetesNetworkingMazeNavigatingLoad-BalanceBGPIPVSandBeyond_1.png)
 
@@ -63,8 +91,18 @@ LB-controller: MetalLB, PureLB,...은 Kubernetes의 LoadBalancer 서비스 유�
 
 ![이미지](/assets/img/2024-06-22-DecipheringtheKubernetesNetworkingMazeNavigatingLoad-BalanceBGPIPVSandBeyond_2.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Kube-proxy: iptables, ipvs 등에서 네트워크 규칙을 유지합니다.
 네트워크 정책, NAT, 전방규칙을 추가합니다.
@@ -78,7 +116,18 @@ svc를 생성하면 kube-proxy가 iptables에 규칙을 추가합니다.
 - CNI: 기본 네트워크에 대한 공통 인터페이스를 제공하고, 트래픽을 원하는 대상으로 라우팅하며, 관련 기능을 수행합니다.
 - LB-controller: 부하 분산 기능을 제공하고, 호스트 인터페이스를 업데이트하여 보조 IP 주소를 추가합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2-POD to POD / Container to Container — 단일 노드 (IP 주소 기반)
 
@@ -88,7 +137,18 @@ Custom Bridge (CBR), Veth (가상 이더넷), Ethernet (eth) 및 전체 네트�
 
 Pod 내의 모든 컨테이너는 동일한 네트워크를 공유합니다. 왜냐하면 그들은 동일한 네트워크 네임스페이스 내에 있기 때문이죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "일시 정지(pause) 컨테이너는 Kubernetes에서 네트워킹 및 프로세스간 통신(IPC)을 책임집니다.
 
@@ -98,9 +158,21 @@ Pod 내의 모든 컨테이너는 동일한 네트워크를 공유합니다. 왜
 
 ![이미지](/assets/img/2024-06-22-DecipheringtheKubernetesNetworkingMazeNavigatingLoad-BalanceBGPIPVSandBeyond_4.png)"
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 노드가 동일한 네트워크에 있기 때문에 팟의 IP 주소가 노드 네트워크 전체에서 라우팅됩니다.
+
 - 두 노드 모두 동일한 네트워크에 있습니다. (서로를 볼 수 있음)
 - CNI는 각 노드의 각 팟에 대한 라우트를 생성합니다.
 
@@ -110,8 +182,18 @@ Kubernetes의 각 노드는 자체 CIDR을 갖고 있어 올바른 노드로 트
 
 # 4- POD to POD / Container to Container — multi node (Service IP addr based)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-06-22-DecipheringtheKubernetesNetworkingMazeNavigatingLoad-BalanceBGPIPVSandBeyond_5.png)
 
@@ -121,8 +203,18 @@ Kubernetes의 각 노드는 자체 CIDR을 갖고 있어 올바른 노드로 트
 
 그렇다면, 그 과정이 어떻게 이루어지는 걸까요?
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 서비스는 서비스 선택기에 지정된 파드 레이블과 일치하여 엔드포인트 슬라이스를 업데이트합니다. 선택기가 파드의 레이블과 일치하면 IP 주소, 포트, 프로토콜 등과 같은 관련 정보가 검색되어 서비스와 관련된 엔드포인트 슬라이스에 주입됩니다.
 
@@ -130,7 +222,18 @@ Kubernetes의 각 노드는 자체 CIDR을 갖고 있어 올바른 노드로 트
 
 <img src="/assets/img/2024-06-22-DecipheringtheKubernetesNetworkingMazeNavigatingLoad-BalanceBGPIPVSandBeyond_7.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 그림에는 CNI (Calico), IPVS, PURELB, IPIP (overlay) 및 인그레스 컨트롤러가 모두 함께 구현되어 있으며 각각의 역할이 있습니다.
 
@@ -145,7 +248,18 @@ Calico: Calico에 의해 모든 네트워킹이 처리됩니다. 오버레이 (I
 
 지금까지, 파드-1에서 다른 노드의 파드-5에 도달하려는 패킷이 있을 때, kube-ipvs가 알지 못하는 것에 대한 답변을 할 수 없어서, 다음 단계는 BGP에 의해 업데이트된 라우팅 테이블입니다. 오버레이 네트워크 아키텍처를 갖고 있기 때문에, 원하는 대상으로 라우팅될 것입니다. 서비스를 호출하면 ipvs 규칙이 작동합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제는 IPVS에서 Endpoints, 서비스, NodePort 및 LB가 유일한 규칙임을 알고 있습니다. 그것을 염두에 두고:
 
@@ -155,7 +269,18 @@ Calico: Calico에 의해 모든 네트워킹이 처리됩니다. 오버레이 (I
 
 그 후에, NodePort는 ClusterIP와 연관되는데, 이는 인그레스 컨트롤러 팟의 IP 주소를 알고 있습니다. 이 설정은 유용한데, 인그레스 컨트롤러가 패킷을 받는 즉시 정의된 규칙을 기반으로 원하는 서비스로 경로를 설정하고, 그 후 목적지 팟으로 이동하기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사의 목표는 각 구성 요소에 대한 철저한 설명을 제공하는 것이 아니었습니다. 대신, 이미 각 개념에 익숙한 사람들을 위해 정보를 통합하여 한 곳에서 포괄적인 개요를 제공하는 데 초점을 맞추었습니다.
 
@@ -165,7 +290,18 @@ https://medium.com/thermokline/comparing-k8s-load-balancers-2f5c76ea8f31
 
 https://medium.com/@seifeddinerajhi/kube-proxy-and-cni-the-hidden-components-of-kubernetes-networking-eb30000bf87a
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [Calico Networking](https://docs.tigera.io/calico/latest/networking/)
 

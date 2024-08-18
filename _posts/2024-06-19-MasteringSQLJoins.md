@@ -3,17 +3,13 @@ title: " SQL 조인 마스터하기"
 description: ""
 coverImage: "/assets/img/2024-06-19-MasteringSQLJoins_0.png"
 date: 2024-06-19 16:31
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-MasteringSQLJoins_0.png
 tag: Tech
 originalTitle: "🐼 Mastering SQL Joins"
 link: "https://medium.com/gitconnected/mastering-sql-joins-eb786ad7a7c7"
 isUpdated: true
 ---
-
-
-
-
 
 ![SQL Join](/assets/img/2024-06-19-MasteringSQLJoins_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 본 문서에서는 단일 테이블 작업을 넘어서서 다중 테이블 조인에 대한 이해와 적용을 다룰 것입니다. 조인 작업은 SQL에서 중요한데, 서로 다른 테이블에서 데이터를 통합하고 교차 참조하여 정보를 종합적으로 파악할 수 있게 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 조인 연산의 기본 개념을 다룰 것이며, 다양한 종류의 조인과 그 응용에 대해 다룰 것입니다. 이 글을 마칠 때쯤이면, 현실 세계의 데이터 과학적 도전의 복잡성을 반영하는 정교한 데이터 조작을 수행하는 데 필요한 실용적인 노하우를 갖추게 될 것입니다. 데이터 과학을 위해 관계형 데이터베이스의 전체 잠재력을 탐색하고 활용하기 위한 전략을 발견하는 다중 테이블 관련의 복잡성에 대해 파고들어 봅시다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 거의 모든 제품을 판매하는 거의 모든 비즈니스에서 흔히 볼 수 있는 기본적인 예제를 고려해 보겠습니다 — 제품 카탈로그 테이블입니다. 이 테이블은 회사 데이터베이스의 중요한 구성 요소로, 판매 가능한 제품들의 구조화된 개요를 제공합니다. 일반적으로 제품 코드, 제품 이름, 판매 가격, 제품 카테고리와 같은 필드가 포함되어 있습니다. 이러한 각 필드는 특정 목적을 제공합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 제품 코드: 각 제품에 대한 고유 식별자입니다.
 - 제품 이름: 제품의 이름으로, 사용자들이 식별하는 데 도움이 됩니다.
@@ -46,7 +64,18 @@ isUpdated: true
 
 다음 섹션에서는 테이블 조인의 메커니즘에 대해 깊이 있게 다룰 것인데, 이 기술은 이러한 관계를 활용하여 두 개 이상의 테이블에서 데이터를 병합하여 데이터를 질의하고 분석할 수 있는 능력을 향상시키는 데 활용됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 관계의 기본 개념을 이해하면 데이터 과학에서 SQL의 강력함을 더욱 실감할 수 있어요.
 
@@ -56,11 +85,22 @@ isUpdated: true
 
 PRODUCTS 테이블에서 카테고리가 특히 `가정용 가전제품`인 제품 이름을 검색하려면 다음과 같은 SQL 쿼리를 실행할 수 있어요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```sql
-SELECT product_name 
-FROM PRODUCTS 
+SELECT product_name
+FROM PRODUCTS
 WHERE category = 'Home Appliances'
 ```
 
@@ -70,7 +110,18 @@ WHERE category = 'Home Appliances'
 
 이러한 작업을 위해서는 AVG 함수를 사용하여 평균 제품 가치를 계산합니다. SQL 명령을 구조화하는 방법은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 SELECT category, AVG(product_value)
@@ -85,7 +136,18 @@ GROUP BY category;
 
 GROUP BY category를 사용하여 각 고유 카테고리에 대한 평균 값을 PRODUCTS 테이블 내에서 계산합니다. 이러한 집계는 데이터 분석에서 핵심 역할을 합니다. 다른 제품 세그먼트 내에서의 패턴과 트렌드를 식별하는 데 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 더 자세히 살펴보면, 카테고리 열에서 비효율성이 드러납니다: 용어 '가전제품'이 여러 번 반복됩니다. 처음에는 각 제품의 카테고리를 나타내는 것이 필요해 보일 수 있지만, 이 중복은 몇 가지 문제로 이어질 수 있습니다:
 
@@ -97,7 +159,18 @@ GROUP BY category를 사용하여 각 고유 카테고리에 대한 평균 값�
 
 이러한 도전에 대처하려면, 데이터베이스를 재구성하여 중복을 줄이고 데이터 무결성을 개선하는 정규화(Normalization)이라는 해결책이 필요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문제를 해결하는 일반적인 방법 중 하나는 고유한 카테고리 이름과 해당 식별자를 보유하는 별도의 CATEGORIES 테이블을 생성하는 것입니다.
 
@@ -107,7 +180,18 @@ GROUP BY category를 사용하여 각 고유 카테고리에 대한 평균 값�
 
 다음은 이러한 비효율성을 해결하기 위해 데이터베이스를 구조화하는 예시입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 -- 카테고리에 대한 새 테이블 생성
@@ -132,7 +216,18 @@ ADD FOREIGN KEY (category_id) REFERENCES CATEGORIES(category_id);
 
 CATEGORIES 테이블을 자주로드할 필요가 없으므로로딩 시간이 줄어들 확률이 높습니다. 이 테이블은 한 번 생성되고 시간이 지남에 따라 거의 변경되지 않습니다. PRODUCTS 테이블은 카테고리 관련 텍스트를 반복할 필요가 없으므로 로드 및 업데이트 속도가 빨라집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 쿼리를 실행하는 과정은 두 테이블을 조인해야 하므로 약간 복잡할 수 있습니다. 그러나 이런 교체는 쿼리가 텍스트 기반의 카테고리 열이 아닌 ID를 참조하고, 해당 카테고리가 반복되지 않는 CATEGORIES 테이블에 조인하여 성능이 더 우수해질 수 있도록 도와줍니다.
 
@@ -147,7 +242,18 @@ WHERE c.category_name = 'Home Appliances';
 
 이 SQL 문은 PRODUCTS 테이블과 CATEGORIES 테이블을 공유된 category_id를 기준으로 조인합니다. 이렇게 함으로써 'Home Appliances' 카테고리와 연관된 제품 이름과 값을 효율적으로 검색합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - p 및 c는 각각 PRODUCTS 및 CATEGORIES의 별칭으로, 쿼리를 간단하게 만듭니다.
 - ON 절은 category_id를 일치시켜 두 테이블을 연결합니다.
@@ -159,7 +265,18 @@ WHERE c.category_name = 'Home Appliances';
 
 # SQL 조인 이해하기: 개념적 접근
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SQL 영역에서 테이블을 결합하는 능력은 복잡한 데이터 검색을 가능하게 하는 강력한 기능입니다.
 
@@ -169,13 +286,35 @@ SQL 영역에서 테이블을 결합하는 능력은 복잡한 데이터 검색�
 
 조인을 마스터하는 핵심은 원하는 결과에 초점을 맞추는 것입니다: 어떤 데이터가 필요한가요? 얼마나 많은 데이터가 필요한가요? 어떤 테이블에서요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 질문들이 있습니다. 해당 조인 유형을 결정하는 데 도움이 됩니다. 조인이란 본질적으로 세트 이론 규칙의 적용이며, 이 개념을 이해하는 것은 단순 외움보다 전략적입니다.
 
 그럼에도 불구하고 이는 하나의 관점에 불과합니다. 우리가 다가올 수업에서 INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL OUTER JOIN 등을 포함한 다양한 조인 유형을 탐색하면서 직접 결론을 도출하는 것을 장려합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SQL 조인은 본질적으로 집합 이론의 실용적 적용입니다. 이 개념은 대부분 사람들이 초등 교육을 받을 때 소개 받는 개념입니다. 이 아이디어는 간단합니다: 조인을 통해 하나의 세트, 다른 세트 또는 둘 다에 속하는 데이터를 검색할 수 있습니다. SQL에서 이러한 세트는 우리의 데이터를 포함하는 테이블입니다.
 
@@ -185,7 +324,18 @@ SQL 조인은 본질적으로 집합 이론의 실용적 적용입니다. 이 �
 
 "조인"에 대해 들으면, 그것은 일반적으로 사용되는 조인 유형 중 하나인 내부 조인을 가리키는 것입니다. 이는 두 테이블에서 일치하는 값을 가진 레코드를 반환합니다. 아래 다이어그램은 이해를 돕습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Left Join (또는 Left Outer Join)
 
@@ -195,7 +345,18 @@ SQL 조인은 본질적으로 집합 이론의 실용적 적용입니다. 이 �
 
 이 조인은 오른쪽 테이블의 모든 레코드와 왼쪽 테이블의 일치하는 레코드를 반환합니다. 아래 다이어그램은 이 개념을 시각적으로 설명합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Full Join (또는 Full Outer Join)
 
@@ -205,7 +366,18 @@ SQL 조인은 본질적으로 집합 이론의 실용적 적용입니다. 이 �
 
 성능 이슈로 인해 덜 사용되지만, 두 테이블의 모든 레코드의 카테시안 곱을 반환합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 예시는 단순성을 위해 두 개의 테이블을 사용했지만, 실제로는 몇 개의 테이블이든 상관없이 동일한 원칙이 적용됨을 알아두는 것이 중요합니다. 3개, 4개, 5개 또는 100만 개의 테이블을 조인하든 상관없이 논리는 일관적으로 유지됩니다.
 
@@ -215,7 +387,18 @@ SQL 조인은 본질적으로 집합 이론의 실용적 적용입니다. 이 �
 
 다음 다이어그램은 제공된 설명을 요약하였습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-MasteringSQLJoins_4.png" />
 
@@ -225,7 +408,18 @@ SQL 조인은 본질적으로 집합 이론의 실용적 적용입니다. 이 �
 
 조인을 구성하는 방식은 적용하는 필터에 따라 완전히 변경될 수 있습니다. 그래서 이러한 조인 및 약간의 변형을 소개했지만, 개인적으로는 조인의 이름을 기억하는 데 신경 쓰지 않습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 대신, 제가 집중하는 것은 필요한 것을 이해하는 데 있어요:
 
@@ -237,7 +431,18 @@ SQL 조인은 본질적으로 집합 이론의 실용적 적용입니다. 이 �
 
 나는 다가오는 세션에서 여러 예시들을 제공하여 여러분이 이러한 개념을 이해하고 적용할 수 있도록 강화할 거에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # SQL에서 Table Joins 탐색하기
 
@@ -247,7 +452,18 @@ SQL에서 Table Joins에 대해 자세히 살펴보겠습니다. 이 섹션은 �
 
 가상 데이터셋을 활용하여 SQL Joins를 마스터하는 여정을 수월하게 진행해 보겠습니다. 시작해 봅시다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```sql
 CREATE SCHEMA `chapter04`;
@@ -259,8 +475,18 @@ CREATE SCHEMA `chapter04`;
 
 그런 다음 좌측 사이드바에서 마우스 오른쪽 버튼을 클릭하고 새로 고침을 누르면 "Chapter 04" 스키마가 나타납니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 고객 테이블 생성하기
 
@@ -277,7 +503,18 @@ CREATE TABLE `chapter04`.`CUSTOMERS` (
 
 이 섹션의 최종 목표는 데이터베이스 내에서 객체를 생성하는 것입니다. 따라서 CUSTOMERS 테이블을 만드는 것은 DDL (데이터 정의 언어) 명령입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 DDL은 데이터베이스에 무언가를 생성할 때 사용됩니다. 예를 들어, 테이블을 만들 때 사용됩니다. 이 경우에는 chapter04 스키마에 CUSTOMERS 테이블을 만들 예정이며, 이 테이블에는 고객 ID, 고객 이름, 고객 주소, 도시 및 주(지역)를 위한 열이 포함될 것입니다.
 
@@ -287,36 +524,47 @@ DDL은 데이터베이스에 무언가를 생성할 때 사용됩니다. 예를 
 
 CUSTOMERS 테이블에 데이터를 추가하기 위해 INSERT INTO 문을 사용합니다. 이 문은 테이블에 새 레코드를 추가하는 데이터 조작 언어(DML)의 중요한 구성 요소입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가상 고객 데이터를 시스템적으로 삽입하는 방법은 다음과 같습니다:
 
 ```js
 -- CUSTOMERS 테이블에 데이터 삽입
 
-INSERT INTO `chapter04`.`CUSTOMERS` 
+INSERT INTO `chapter04`.`CUSTOMERS`
 (`customer_id`, `customer_name`, `customer_address`, `customer_city`, `customer_state`)
-VALUES 
+VALUES
 (1, 'John Smith', '123 Maple Street', 'Orlando', 'FL');
 
-INSERT INTO `chapter04`.`CUSTOMERS` 
+INSERT INTO `chapter04`.`CUSTOMERS`
 (`customer_id`, `customer_name`, `customer_address`, `customer_city`, `customer_state`)
-VALUES 
+VALUES
 (2, 'Susan Johnson', '456 Oak Avenue', 'Austin', 'TX');
 
-INSERT INTO `chapter04`.`CUSTOMERS` 
+INSERT INTO `chapter04`.`CUSTOMERS`
 (`customer_id`, `customer_name`, `customer_address`, `customer_city`, `customer_state`)
-VALUES 
+VALUES
 (3, 'Robert Brown', '789 Pine Lane', 'Phoenix', 'AZ');
 
-INSERT INTO `chapter04`.`CUSTOMERS` 
+INSERT INTO `chapter04`.`CUSTOMERS`
 (`customer_id`, `customer_name`, `customer_address`, `customer_city`, `customer_state`)
-VALUES 
+VALUES
 (4, 'Linda Davis', '321 Birch Blvd', 'Raleigh', 'NC');
 
-INSERT INTO `chapter04`.`CUSTOMERS` 
+INSERT INTO `chapter04`.`CUSTOMERS`
 (`customer_id`, `customer_name`, `customer_address`, `customer_city`, `customer_state`)
-VALUES 
+VALUES
 (5, 'Michael Miller', '654 Cedar Place', 'Atlanta', 'GA');
 ```
 
@@ -324,7 +572,18 @@ VALUES
 
 이 방법을 사용하면 각기 다른 항목을 가진 다양한 항목으로 테이블이 체계적으로 채워지며, SQL 쿼리 및 작업을 위한 기반을 마련할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 명령을 실행한 후에는 샘플 레코드가 채워진 CUSTOMERS 테이블이 생성되어서, 이후 레슨에서 SQL 함수 및 테이블 조인을 탐색하는 데 도움이 될 것입니다.
 
@@ -334,7 +593,18 @@ CUSTOMERS 테이블을 설정한 후, 다음 단계는 동일한 chapter04 스�
 
 이 테이블은 고객 주문에 관한 다양한 세부 정보를 기록하며, 관련된 영업 직원 및 배송 정보가 포함됩니다. ORDERS 테이블을 생성하는 방법은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 CREATE TABLE `chapter04`.`ORDERS` (
@@ -355,7 +625,18 @@ CREATE TABLE `chapter04`.`ORDERS` (
 
 ORDERS 테이블을 만들기 위해 이 명령을 실행한 후, MySQL Workbench(또는 선택한 SQL 관리 도구)에서 스키마 view를 새로 고침하여 chapter04 스키마 아래에 새로 생성된 테이블을 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로, 이 ORDERS 테이블에 데이터를 채워넣을 것입니다. 레코드를 삽입할 때 order_date 열의 DATETIME 형식에 유의해주세요.
 
@@ -365,7 +646,18 @@ ORDERS 테이블을 채우기 위해 INSERT INTO 문을 사용하여 레코드�
 
 각 주문의 고유 ID, 고객 ID, 판매자 ID, 주문의 현재 날짜 및 시간, 배송 ID를 지정하는 것을 포함합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요거교과 자료에있는 DATETIME 유형의 order_date 컬럼에 정확한 현재 날짜와 시간을 캡처하는 SQL NOW() 함수 사용 방법을 확인해보세요:
 
@@ -384,7 +676,18 @@ NOW() 함수는 SQL에서 현재 날짜와 시간을 데이터베이스 서버�
 
 이 명령을 실행한 후, 각 레코드가 삽입 순간의 정확한 시간으로 타임스탬프가 찍히며, 현재 날짜와 시간 입력에 대한 NOW() 함수의 유용성을 잘 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SQL 기능은 각기 다른 데이터베이스 관리 시스템(DBMS)마다 약간 다를 수 있습니다. 사용 중인 SQL 방언(MYSQL, PostgreSQL 등)에 대한 고유한 기능과 구문을 이해하기 위해 해당 문서를 참고하는 것이 중요합니다.
 
@@ -394,7 +697,18 @@ SQL 기능은 각기 다른 데이터베이스 관리 시스템(DBMS)마다 약�
 
 # SALESPERSON 테이블 생성 및 채우기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SQL 여행을 계속하면서, 이제는 SALESPERSON 테이블 설정에 초점을 맞춥니다. 이 테이블은 영업 직원에 관한 정보를 저장하는 데 사용됩니다. 그들의 ID 및 이름을 포함합니다. 아래는 SALESPERSON 테이블을 생성하는 SQL 명령문입니다:
 
@@ -408,7 +722,18 @@ CREATE TABLE `chapter04`.`SALESPERSON` (
 
 # SALESPERSON 테이블 채우기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "SALESPERSON" 테이블에 데이터를 입력하려면 각 판매원 레코드에 대해 INSERT INTO문을 사용합니다.
 
@@ -439,7 +764,18 @@ VALUES (7, "판매원 7");
 
 # 주문 ID 및 고객 이름 가져오기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 고객 이름은 CUSTOMERS 테이블에 있고 주문 ID는 ORDERS 테이블에 있습니다. 이 두 가지 다른 테이블에서 데이터를 추출해야 하는 상황입니다.
 
@@ -449,7 +785,18 @@ VALUES (7, "판매원 7");
 
 이 연결은 무작위가 아니라, 데이터베이스 설계의 의도적인 측면으로, 주문이 고객과 연관이 있는 것을 나타냅니다. 실제적으로 주문은 관련된 고객이 없이는 존재할 수 없다는 논리적인 규칙이 데이터베이스 모델링 단계에서 설정되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 손님 ID가 일반적으로 기본 키로 작용하는 이유는 각 손님을 고유하게 식별하여 동일한 ID를 가진 두 명의 손님이 없도록 하는 것입니다. 이는 개인이 고유한 식별 번호를 갖는 것과 유사합니다.
 
@@ -458,7 +805,7 @@ VALUES (7, "판매원 7");
 ```js
 SELECT o.order_id, c.customer_name
 FROM `chapter04`.`ORDERS` o
-INNER JOIN `chapter04`.`CUSTOMERS` c 
+INNER JOIN `chapter04`.`CUSTOMERS` c
 ON o.customer_id = c.customer_id;
 ```
 
@@ -466,7 +813,18 @@ ON o.customer_id = c.customer_id;
 - SELECT 문은 주문 테이블(o)에서 order_id 및 고객 테이블(c)에서 customer_name을 가져 오겠다고 지정합니다.
 - INNER JOIN 절은 두 테이블을 공통 customer_id 열에 연결하여 해당 고객 레코드가있는 주문 만 검색됨을 보장합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 접근 방식은 SQL에서 Inner Join의 강점을 보여줍니다. 이는 공통 관계에 따라 여러 테이블에서 데이터를 결합하여 분석이나 보고 목적으로 포괄적인 데이터 집합을 편집하는 데 도움이 됩니다.
 
@@ -480,7 +838,18 @@ INNER JOIN chapter04.CUSTOMERS c ON o.customer_id = c.customer_id;
 
 SQL 쿼리에서 'o'를 ORDERS 테이블과 'c'를 CUSTOMERS 테이블에 대한 별칭으로 사용하면 구문을 간소화할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 주문 ID와 고객 이름을 검색하려면 INNER JOIN을 사용하여 customer_id와 같은 공통 열을 기준으로 이러한 테이블을 연결할 수 있습니다.
 
@@ -494,7 +863,18 @@ INNER JOIN CUSTOMERS c ON p.customer_id = c.customer_id;
 
 INNER JOIN의 사용법을 보여드린 것은, 명확한 관계가 존재하는 데이터를 가져오는 능력 때문에 널 값이 발생하지 않습니다. INNER JOIN 대신 WHERE 절을 사용하여 직접 열을 비교할 수 있어 이와 동일한 결과를 얻을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 개의 쿼리를 옆으로 배치하면 차이가 명확해집니다. 두 쿼리를 실행하면 동일한 결과가 나옵니다. INNER JOIN이 교집합 집합 이론에서의 역할을 강조합니다 — 이는 초등 교육에서 소개된 개념입니다.
 
@@ -512,7 +892,18 @@ INNER JOIN chapter04.SALESPERSON AS S ON O.salesperson_id = S.salesperson_id;
 
 이 쿼리는 ORDERS, CUSTOMERS, SALESPERSONS 세 개의 테이블에서 INNER JOIN을 실행하여 각 주문의 주문 ID, 고객 이름 및 영업 담당자 이름을 검색합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ORDERS 테이블에서 시작하여 customer_id를 매칭하여 CUSTOMERS와 조인한 다음, salesperson_id를 기준으로 SALESPERSONS와 또 다른 조인을 수행합니다.
 
@@ -522,14 +913,25 @@ ORDERS 테이블에서 시작하여 customer_id를 매칭하여 CUSTOMERS와 조
 
 ```js
 SELECT O.order_id, C.customer_name, S.salesperson_name
-FROM chapter04.ORDERS AS O, 
-chapter04.CUSTOMERS AS C, 
+FROM chapter04.ORDERS AS O,
+chapter04.CUSTOMERS AS C,
 chapter04.SALESPERSONS AS S
 WHERE O.customer_id = C.customer_id
 AND O.salesperson_id = S.salesperson_id;
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 쿼리는 WHERE 절을 사용하여 customer_id와 salesperson_id를 일치시켜 ORDERS, CUSTOMERS, 그리고 SALESPERSON 테이블을 조인하고, 괄호 없이 주문 ID, 고객 이름, 그리고 영업 직원 이름을 검색합니다.
 
@@ -539,7 +941,18 @@ AND O.salesperson_id = S.salesperson_id;
 
 # INNER JOIN 사용 및 구문에 대한 심층적 탐색
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 INNER JOIN에 대해 더 깊이 들어가 봅시다. INNER JOIN은 WHERE, ORDER BY, GROUP BY 등의 SQL 절과 결합할 수 있는 가장 일반적인 조인 유형입니다.
 
@@ -554,7 +967,18 @@ JOIN chapter04.CUSTOMERS AS C ON O.customer_id = C.customer_id;
 
 거의 모든 최신 DBMS가 이 표준을 지원하여 호환성을 확보합니다. 흥미로운 점은 INNER를 생략하고 JOIN만 사용하면 동일한 결과를 얻는다는 것이며, 이는 JOIN 만으로도 기본적으로 INNER JOIN으로 간주됨을 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 LEFT JOIN 또는 RIGHT JOIN의 경우 "left" 또는 "right" 특정 키워드를 명시적으로 사용해야합니다.
 
@@ -564,7 +988,18 @@ JOIN chapter04.CUSTOMERS AS C ON O.customer_id = C.customer_id;
 
 다음은 테이블 간에 동일한 이름을 갖는 열에 대해 USING을 사용하여 INNER JOIN을 적용하고, 결과를 필터링하고 정렬하는 방법입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```sql
 # INNER JOIN과 WHERE, ORDER BY 사용한 쿼리
@@ -581,7 +1016,18 @@ ORDER BY O.order_id DESC;
 
 이 체계적인 방법은 SQL의 INNER JOIN의 적응성과 깊이를 강조하며, 다른 절과 결합될 때 데이터 분석의 범위를 크게 확장시킵니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 쿼리가 여러 테이블을 조인하고 필터를 적용하거나 정렬 또는 그룹화를 실행하는 등 보다 정교한 데이터 조작 기술로 진화하는 방식을 보여줍니다. 이어지는 장에서는 더 복잡한 데이터 조작 기법을 약속합니다.
 
@@ -591,7 +1037,18 @@ INNER JOIN을 탐색한 후에 이제 LEFT JOIN에 주목해 보겠습니다.
 
 이 유형의 조인은 오른쪽 테이블에 일치하는 항목이 있는지 여부와 관계없이 왼쪽 테이블의 모든 레코드를 포함하여 테이블 간 관계를 보다 폭넓게 이해할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 방법을 사용하면 이론에서 실제 SQL 코드 구현으로 원활하게 전환하여 개념을 포괄적으로 이해할 수 있습니다.
 
@@ -609,7 +1066,18 @@ ORDER BY O.order_id DESC;
 
 MySQL Workbench에서 INNER JOIN을 활용한 주문 ID와 고객명을 가져오는 시나리오입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 일부 고객이 아직 주문을하지 않았을 수 있다는 점을 인식하여, 주문 상태에 관계없이 모든 고객을 포함하는 쿼리를 찾고 있습니다. 이 경우 INNER JOIN은 목적에 부합하지 않습니다. 왜냐하면 주문이 있는 고객만 반환하기 때문입니다.
 
@@ -624,7 +1092,18 @@ LEFT JOIN chapter04.ORDERS AS O ON C.customer_id = O.customer_id;
 
 # LEFT JOIN으로 쿼리 순서에 미치는 영향
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 쿼리에서 테이블의 순서는 결과에 큰 영향을 미칩니다.
 
@@ -634,12 +1113,23 @@ LEFT JOIN을 실행하여, 모든 주문과 관련이 있는지 없는지와 상
 
 NULL을 설명적인 값으로 대체하기 위해 CASE 문을 사용하는 등의 조정을 통해 출력을 더 정제할 수 있습니다. 궁극적으로 LEFT JOIN(또는 LEFT OUTER JOIN으로 교차 사용 가능)을 사용하면 왼쪽 테이블의 모든 항목이 반환되어 오른쪽 테이블에서 일치하는 레코드 여부에 관계없이 데이터 무결성을 유지할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```sql
 SELECT C.customer_name, O.order_id
 FROM chapter04.CUSTOMERS AS C
-LEFT OUTER JOIN chapter04.ORDERS AS O 
+LEFT OUTER JOIN chapter04.ORDERS AS O
 ON C.customer_id = O.customer_id;
 ```
 
@@ -649,7 +1139,18 @@ LEFT OUTER JOIN을 사용하면 LEFT JOIN과 동일한 결과가 나오며 SQL�
 
 이 차이점은 "LEFT"를 명시하여 왼쪽 테이블의 모든 레코드를 포함시킬 중요성을 강조합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 OUTER 옵션을 사용하는 것은 주로 간소화를 위해 생략되는 경우가 많습니다. 쿼리에서 테이블 순서를 변경해 보는 것은 더 많은 통찰력을 제공할 수 있으며, 해당 조정이 쿼리 결과에 미치는 영향을 완전히 이해하기 위해 실험하는 것을 촉구합니다.
 
@@ -657,7 +1158,7 @@ OUTER 옵션을 사용하는 것은 주로 간소화를 위해 생략되는 경�
 # 테이블 순서를 바꾸면 결과가 달라집니다
 SELECT C.customer_name, O.order_id
 FROM chapter04.ORDERS AS P
-LEFT JOIN chapter04.CUSTOMERS AS C 
+LEFT JOIN chapter04.CUSTOMERS AS C
 ON C.customer_id = P.customer_id;
 ```
 
@@ -665,7 +1166,18 @@ ON C.customer_id = P.customer_id;
 
 위에 표시된 LEFT JOIN 쿼리를 실행하면, 모든 고객이 올바르게 반환되며, 그들이 주문을 한 여부에 상관없이 모두 포함됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 순서를 반전하여 LEFT JOIN을 유지하더라도 결과가 크게 바뀐다는 것을 알 수 있습니다. 이는 INNER JOIN의 동작과 유사한 모습을 보여줍니다.
 
@@ -675,7 +1187,18 @@ LEFT 또는 RIGHT JOIN을 사용할 때 테이블의 순서가 중요하며, 방
 
 # RIGHT JOIN을 사용하여 테이블 순서 문제 해결하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전 비디오에서는 주문이 있는 경우에도 고객을 모두 포함하는 LEFT JOIN을 탐색했어요. 표의 순서를 바꾸면 INNER JOIN과 유사한 동작을 나타냈죠.
 
@@ -685,13 +1208,24 @@ LEFT 또는 RIGHT JOIN을 사용할 때 테이블의 순서가 중요하며, 방
 # Right Join – 왼쪽 테이블에서 일치하는 값이 없어도 오른쪽 테이블의 모든 데이터를 가져오고 싶다는 것을 나타냅니다
 SELECT C.customer_name, O.order_id
 FROM chapter04.ORDERS AS P
-RIGHT JOIN chapter04.CUSTOMERS AS C 
+RIGHT JOIN chapter04.CUSTOMERS AS C
 ON C.customer_id = P.customer_id;
 ```
 
 # 표준 접근법을 이용한 JOIN 전략 최적화
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 순서를 변경하는 것은 번거로울 수 있습니다. 따라서 포괄적인 보고서를 위해 항상 LEFT JOIN을 사용하는 선호도가 있습니다.
 
@@ -701,7 +1235,18 @@ ON C.customer_id = P.customer_id;
 
 # 포괄적 데이터 분석을 위한 쿼리 작성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 작업은 주문 날짜, 고객 이름 및 모든 판매원을 반환하는 쿼리를 작성하는 것입니다. 주문과 연관이 있는 여부에 관계 없이 모든 판매원을 고객 이름순으로 정렬하여야 합니다.
 
@@ -718,7 +1263,18 @@ ORDER BY C.customer_name;
 
 이 해결책은 모든 관련 데이터를 포함해야 하는 요구사항에 따라 적절한 JOIN 유형을 선택해야 함을 보여줍니다. 여기서는 주문과 관련이 있는지 여부에 관계 없이 모든 판매원이 나열되고 결과를 고객 이름으로 정렬합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 쿼리는 정확한 데이터 쿼리 기술을 통해 비즈니스 요구 사항을 해결하는 SQL의 전략적 측면을 강조합니다.
 
@@ -744,7 +1300,18 @@ ORDER BY C.customer_name;
 
 # 조건부 서식을 사용하여 결과 향상하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CASE 문을 사용하여 조건부 논리를 실행함으로써 보고서에는 널 값이 표시되지 않도록 보장합니다.
 
@@ -769,7 +1336,18 @@ RIGHT JOIN chapter04.SALESPERSON AS S ON O.salesperson_id = S.salesperson_id
 ORDER BY C.customer_name;
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 방식은 철저한 데이터 수집의 즉각적인 요구 사항 뿐만 아니라 널 값(null values)을 의미 있는 자리 표시자로 대체함으로써 보고서의 표현을 개선하여, 경영 총괄 또는 분석 처리에 대비한 완전히 형식화된 뷰를 제공합니다.
 
@@ -779,7 +1357,18 @@ ORDERS 테이블에 “고아(orphans)” 레코드를 추가하는 것 — 해�
 
 이 개념은 데이터베이스의 모든 레코드가 적절하게 연결되어 있어 고아 데이터의 존재를 방지하는 것을 보장합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 이 예제는 이러한 제약 조건을 우회하여 SQL이 이러한 불일치를 식별하는 데 어떻게 사용될 수 있는지 보여주기 위해 일부러 만들어졌습니다.
 
@@ -792,7 +1381,18 @@ VALUES (1004, 10, 6, NOW(), 23);
 
 이 시나리오는 성능 저하와 데이터 불일치로 이어질 수 있는 일반적인 데이터베이스 문제를 나타냅니다. 성능 문제를 해결하기 위해 일시적으로 참조 무결성을 비활성화하는 경우도 있지만, 속도를 위해 데이터 무결성이 더 손상될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오늘은 주체 없는 레코드를 식별하는 SQL 전략에 대해 살펴보겠습니다. 데이터 신뢰성과 시스템 무결성을 보장하기 위해 견고한 데이터베이스 관리 관행의 중요성을 강조할 것입니다.
 
@@ -802,7 +1402,18 @@ VALUES (1004, 10, 6, NOW(), 23);
 
 이러한 문제를 생성하고 해결하는 일련의 과정은 SQL 지식을 실제 시나리오에서 실용적으로 적용하는 가치 있는 학습 도구로 작용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LEFT JOIN을 사용하여 고객 및 해당 주문 ID를 모두 검색하여 주문이 존재하지 않는 경우에는 주문이 없는 상태인 NULL 값을 사용하여 고아 레코드를 감지하려고 시도했습니다:
 
@@ -817,7 +1428,18 @@ LEFT OUTER JOIN chapter04.ORDERS AS O ON C.customer_id = O.customer_id;
 
 모든 불일치 사항을 종합적으로 식별하기 위한 논리적 단계는 LEFT 및 RIGHT JOIN의 통찰을 결합하려고 하는 FULL OUTER JOIN을 사용하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 FULL OUTER JOIN은 모든 SQL 데이터베이스 관리 시스템에서 일반적으로 지원되지 않으므로 MySQL을 포함한 SQL에서 모든 고아 레코드를 식별하는 포괄적인 솔루션을 제공하기 위해 분리된 LEFT 및 RIGHT JOIN 쿼리의 결과를 병합하기 위해 UNION을 사용하는 것이 논리적인 다음 단계입니다. 이 방법은 다음 레슨에서 자세히 다룰 예정입니다.
 
@@ -827,7 +1449,18 @@ FULL OUTER JOIN은 모든 SQL 데이터베이스 관리 시스템에서 일반�
 
 - LEFT OUTER JOIN: 주문이 없는 모든 고객을 검색하며, NULL로 표시된 미배치 주문을 포함합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 SELECT C.customer_name, O.order_id
@@ -846,7 +1479,18 @@ SELECT C.customer_name, O.order_id
 - UNION ALL: 위의 조인 결과를 결합하여 중복을 허용합니다.
 - UNION: UNION ALL과 유사하지만 중복 레코드를 제거하여 고유한 결과만 반환합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 UNION과 UNION ALL의 주요 차이점은 중복 핸들링에 있습니다: UNION ALL은 중복을 포함하여 모든 레코드를 포함하고, UNION은 중복을 필터링하여 고유한 결과만 표시합니다.
 
@@ -856,7 +1500,18 @@ UNION 명령을 사용할 때 중요한 고려 사항은 결합된 쿼리 전체
 
 UNION 작업은 성능에 영향을 미칠 수 있지만, FULL OUTER JOIN을 지원하지 않는 환경에서 원하는 데이터 컴파일을 달성하는 유일한 해결책일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 테이블 조인 요약
 
@@ -864,7 +1519,18 @@ UNION 작업은 성능에 영향을 미칠 수 있지만, FULL OUTER JOIN을 지
 
 Stedman의 블로그는 데이터베이스 지식을 널리 보급해 왔으며 SQL Server의 미묘한 점들을 강의 및 참고 자료를 통해 제공하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 기본 선택 및 조인: 두 테이블에서 데이터를 선택하는 것으로 시작하여 INNER JOIN(교차), LEFT 및 RIGHT OUTER JOINS를 다루며 'OUTER' 키워드 없이도 동등성을 강조합니다.
 - 고급 조인 개념: SEMI-JOIN 및 ANTI-SEMI-JOIN을 소개하며 SQL의 EXISTS 연산자를 사용하여 데이터를 고유하게 필터링하고, 한 테이블에서 부분 또는 배타적 데이터 집합을 검색하는 방법을 보여줍니다.
@@ -874,11 +1540,22 @@ Stedman의 블로그는 데이터베이스 지식을 널리 보급해 왔으며 
 
 이 차트는 기본부터 복잡한 시나리오까지 SQL 조인을 적용하는 실용적인 가이드로, SQL에서 테이블 조인 기술을 숙달하기 위해 실습을 장려합니다.
 
-# *SQL 테이블 조인에 대한 결론
+# \*SQL 테이블 조인에 대한 결론
 
 이 글을 통해 SQL에서 테이블 조인의 세계로 들어가 보았습니다. 관계형 데이터베이스를 다루는 데 중요한 측면 중 하나입니다. Steve Stedman의 블로그와 MySQL Workbench와 같은 도구에서의 실습을 통해, 다양한 조인 유형을 통해 효과적인 데이터 조작을 둘러싼 복잡성의 층을 해제해 나갔습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 INNER JOIN과 LEFT 및 RIGHT OUTER JOIN의 적응성부터 직접적인 지원이 없는 시스템에서 FULL OUTER JOIN을 구현하는 도전에 대처하는 기본 조작부터, 조인 유형의 선택이 쿼리 결과와 성능에 직접적 영향을 미친다는 것을 배웠습니다. 우리는 참조 무결성의 가치를 강조했고 고아 레코드를 감지하고 해결하는 방법을 강조하여 데이터 일관성과 신뢰성을 보장했습니다.
 
@@ -888,6 +1565,17 @@ UNION 및 UNION ALL을 결합하여 완전한 조인을 시뮬레이트하고 CR
 
 요약하자면, 테이블 조인은 단순히 기술적 도구가 아니라, 원시 데이터를 가치 있는 통찰로 변환하는 의미 있는 쿼리를 만드는 기본입니다. 우리가 향향할 미래 챕터로 나아가면서, 자신감과 전문지식을 갖춘 방대한 데이터베이스 세계를 탐색하는 데 필요한 견고한 지식 기반과 실무 경험을 지속적으로 가지고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 감사합니다! 🐼❤️

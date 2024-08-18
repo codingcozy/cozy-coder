@@ -3,17 +3,13 @@ title: "Mac에서 NVM과 Nodejs 설치하는 방법  영구적인 솔루션"
 description: ""
 coverImage: "/assets/img/2024-06-23-HowtoinstallNVMNodeJsinMacOsPermanentSolution_0.png"
 date: 2024-06-23 15:41
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-HowtoinstallNVMNodeJsinMacOsPermanentSolution_0.png
 tag: Tech
 originalTitle: "How to install NVM , Node Js in MacOs | Permanent Solution"
 link: "https://medium.com/@rohanbhatotiya/how-to-install-nvm-node-js-in-macos-permanent-solution-dc3b24616ecb"
 isUpdated: true
 ---
-
-
-
-
 
 참고: 생각 많이 하지 마세요, 그냥 복사해서 붙여 넣으세요.
 
@@ -26,7 +22,18 @@ isUpdated: true
 이 명령어가 작동하지 않으면 네트워크를 변경해보세요.
 이미 Homebrew가 설치되어있는 경우에는 위의 명령어를 무시하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 다음 명령어를 실행해주세요 :
 
@@ -40,7 +47,18 @@ brew install nvm
 mkdir ~/.nvm
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 디렉터리를 생성한 후에는 다음의 라인을 셸 구성 파일에 추가해주세요 (nano ~/.zshrc 또는 nano ~/.bashrc) :
 
@@ -53,7 +71,18 @@ export NVM_DIR="$HOME/.nvm"
 
 오류 없이 작업하기 위해서 usr/local/opt/nvm 으로 이동한 후, 특정 버전이 있는지 확인하고 VERSION을 실제 버전으로 교체하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 버전이 없고 nvm.sh가 nvm 폴더 안에 있으면 상단 명령어에서 VERSION을 제거하세요.
 
@@ -63,7 +92,18 @@ export NVM_DIR="$HOME/.nvm"
 
 Node Js를 설치하려면 이렇게 입력하세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 nvm 20 설치
@@ -77,7 +117,18 @@ nvm install <version>
 
 이제 노드 JS 및 NVM 버전 또는 설치를 확인하려면 다음을 사용하세요 :
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 nvm ls

@@ -3,17 +3,13 @@ title: "ChatGPT를 사용해 인생을 더 쉽게 만들고 스트레스를 줄�
 description: ""
 coverImage: "/assets/img/2024-07-13-14waysIveusedChatGPTtomakelifeeasierandreducestress_0.png"
 date: 2024-07-13 00:05
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-14waysIveusedChatGPTtomakelifeeasierandreducestress_0.png
 tag: Tech
 originalTitle: "14 ways I’ve used ChatGPT to make life easier and reduce stress"
 link: "https://medium.com/@iamalexmathers/14-ways-ive-used-chatgpt-to-make-life-easier-and-reduce-stress-c57b9dfd1315"
 isUpdated: true
 ---
-
-
-
-
 
 ![image](/assets/img/2024-07-13-14waysIveusedChatGPTtomakelifeeasierandreducestress_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 그건 도구에 불과해요. 좋고 나쁨에 사용될 수 있어요. 일자리를 빼앗을 거에요, 그건 확실해요. 그러나 우리가 올바르게 사용할 때 우리의 삶을 개선하고 보충할 수도 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오너라이프다! 나는 챗지피티를 쓰기 대체재로 사용하지는 않지만, 올해 동안 그 가치에 놀라워했다. 가끔 정확하지 않더라도 말이야.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 내게는 주로 동유럽에 여러 살 거처를 마련해 장소별 유동성과 안보를 확보할 계획이 있어.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AI가 다양한 기준에 따라 살 곳을 고르는 데 도움을 줬어요. 지도와 인터넷을 몇 시간 동안 찾아다녔다가, AI가 즉각적으로 옵션 목록을 설명과 함께 보내줬어요.
 
@@ -43,7 +61,18 @@ AI가 다양한 기준에 따라 살 곳을 고르는 데 도움을 줬어요. �
 
 ## 개인 취향에 따른 영화 제안.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 챗GPT를 사용해서 새로운 책, 영화, 그리고 다른 미디어에 대한 제안을 받는 것을 좋아해요.
 
@@ -53,7 +82,18 @@ AI가 다양한 기준에 따라 살 곳을 고르는 데 도움을 줬어요. �
 
 ## 유럽 도시 중 치과 의료비를 절약할 수 있는 최적의 선택은 어디일까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 내 현재 YouTube 채널에서 할 일에 대한 개인 코칭 지원
 
@@ -63,7 +103,18 @@ AI가 다양한 기준에 따라 살 곳을 고르는 데 도움을 줬어요. �
 
 내가 선택한 제안은 기존 채널을 활용해 새로운 채널로 관련 구독자를 유도하는 것이었어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 중간 여정 일러스트 제작을 위한 아이디어
 
@@ -73,7 +124,18 @@ AI가 다양한 기준에 따라 살 곳을 고르는 데 도움을 줬어요. �
 
 이를 통해 사용할 이미지에 대한 창의적인 아이디어를 얻고, 그 후 MJ에서 이미지를 가공하는 과정을 거쳐요. 함께 창의적인 작업을 해보아요! ✨
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **내 BMI를 기반으로 한 매월 소비해야 할 소고기 간 양에 대한 충고, 중독이나 비타민 A 과다 복용 위험성 없이.**
 
@@ -83,7 +145,18 @@ AI가 다양한 기준에 따라 살 곳을 고르는 데 도움을 줬어요. �
 
 **ChatGPT는 내 비즈니스 성장에 도움이 되는 훌륭한 동반자임이 입증되었습니다.**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내게는 아직 모든 것을 해결해줄 수는 없지만, 내 비즈니스에 적용할 새로운 아이디어를 제공해 주어 수익을 증가시키고, 간소화시키고, 스트레스를 줄이는 데 큰 도움이 되었습니다.
 
@@ -93,7 +166,18 @@ AI가 다양한 기준에 따라 살 곳을 고르는 데 도움을 줬어요. �
 
 해당 장의 내용과 메시지를 간략히 설명하고, ChatGPT가 제안한 목록을 받았습니다. 그 중에서 최고의 것을 선택했죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글이 상당한 시간을 절약해주었어.
 
@@ -103,7 +187,18 @@ AI가 다양한 기준에 따라 살 곳을 고르는 데 도움을 줬어요. �
 
 가능한 많은 아이디어를 나열하도록 요청하면, 때때로 내가 사용할 수 있는 개념이 한 두 가지가 있다고 해.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ChatGPT의 도움으로 새로운 연구 분야를 탐험하며 이전에 접할 기회가 없었던 증거들을 확보하는 것이 가능해졌어요.
 
@@ -113,17 +208,39 @@ ChatGPT의 도움으로 새로운 연구 분야를 탐험하며 이전에 접할
 
 ChatGPT의 표지 아이디어 제안 덕분에 프로세스가 빨라졌어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 <Art of Self Respect> 책을 위해 표지 아이디어를 필요로 했었는데, 제시된 목록 중에서 연lightenment의 새로운 수준을 상징하는 연꽃 이미지를 사용해보는 것이 좋을 것 같았어요.
 
 ## 세제 공제를 위해 최적의 거주 조합을 찾아보기.
 
-여러 곳에 거주지를 설정하는 것 중 하나는 세금을 최대한 줄이는 것입니다. 
+여러 곳에 거주지를 설정하는 것 중 하나는 세금을 최대한 줄이는 것입니다.
 
 어디에 살 것인지에 따라 세금이 어떻게 영향을 받는지를 ChatGPT가 해석하는 것이 매우 도움이 되었어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 불가리아에 거주하며 두바이에서의 제로 법인세 혜택을 누리기 위해 거주자로서의 거주가 필요하지 않다는 것을 알게 되었습니다.
 
@@ -133,7 +250,18 @@ ChatGPT의 표지 아이디어 제안 덕분에 프로세스가 빨라졌어요.
 
 시간이 제한되어 있어 시내에서 30분 이내 거리의 숲 속 하이킹 코스를 찾았습니다. ChatGPT가 여러 제안을 해줘서 그 중 하나를 선택했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이는 도시 바깥으로 너무 멀리 여행하지 않고도 비슷한 경험을 즐길 수 있는 멋진 외출을 이끌었어요.
 
@@ -143,7 +271,18 @@ ChatGPT의 표지 아이디어 제안 덕분에 프로세스가 빨라졌어요.
 
 여기를 클릭해서 Mastery Den 뉴스레터에 가입하면 즉시 무료 북렛을 받아보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 '온라인 작가 중 상위 1%에 들기 위한 16가지 독특한 글쓰기 팁'
 

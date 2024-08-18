@@ -3,17 +3,13 @@ title: "인공지능 생성 보컬의 유별난 윤리 문제"
 description: ""
 coverImage: "/assets/img/2024-06-19-TheWeirdEthicsofAI-GeneratedVocals_0.png"
 date: 2024-06-19 20:51
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-TheWeirdEthicsofAI-GeneratedVocals_0.png
 tag: Tech
 originalTitle: "The Weird Ethics of AI-Generated Vocals"
 link: "https://medium.com/the-generator/the-weird-ethics-of-ai-generated-vocals-bd54a827ebcc"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-19-TheWeirdEthicsofAI-GeneratedVocals_0.png" />
 
@@ -23,7 +19,18 @@ AI로 생성된 드레이크와 더 위켄드 보컬이 특집된 노래가 스�
 
 아이스 큐브는 AI를 "악마적"이라고 지적하면서 음악에는 그 자리가 없다고 말했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스테파니 선은 2017년 이후 휴식을 취했던 싱가포르 가수인데, 자신의 컴백을 목도하게 되었지만, 사실상 그녀가 아닌 그녀의 AI 복제품이었습니다. 그녀의 AI가 생성한 보컬이 담긴 노래들이 이전 노래보다 더 인기를 끌자, 어떤 인간 아티스트도 AI와 경쟁할 수 없다고 말했습니다. "어떻게 하류에 누군가와 경쟁하나요? 몇 분 단위로 새로운 앨범을 내놓는 사람과 어떻게 싸우나요?"
 
@@ -33,13 +40,35 @@ AI로 생성된 드레이크와 더 위켄드 보컬이 특집된 노래가 스�
 
 # 그라임즈의 AI 음악 혁명에서의 역할
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 클레어는 2003년 4월 23일에 트윗해 "내 목소리를 사용한 성공적인 AI 생성 곡에 대해서는 50% 저작권료를 쪼개드릴게요. 협업하는 아티스트와의 계약과 동일한 조건이에요. 벌금 없이 내 목소리 자유롭게 사용해도 돼요. 레이블도 없고 법적 제약도 없어요."라며 음악에 AI 클론을 특징으로 한 미래를 공개적으로 받아들였어요.
 
 클레어의 제안은 더욱 현실로 다가왔습니다. 딱 일주일 후에는 Elf.Tech를 선보였는데, 이는 CreateSafe와의 파트너십을 통해 탄생한 AI 보컬 생성기로, CreateSafe는 다양한 도구를 활용하여 아티스트들을 지원하는 기업입니다. Elf.Tech 앱을 사용하기 위해 등록하는 사용자들은 미리 녹음된 노래를 업로드하거나 앱에 직접 보컬을 녹음할 수 있어요. 그리고 해당 보컬은 GrimesAI 음성 프린트로 변환됩니다. CreateSafe의 사이트에는 "GrimesAI 녹음을 만드는 크리에이터들은 이 새로운 녹음물들을 소유하게 될 거예요. GrimesAI-1은 이 음원 녹음이나 기반이 되는 작품에 대한 소유권을 주장하지 않아요 (Grimes 노래의 커버인 경우 제외)." 라고 나와 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 맞아요, 클레어는 다른 창작자들이 그라임스의 보컬을 사용하길 원합니다. 그녀가 클론된 목소리를 사용하는 다른 창작자들의 시나리오를 법적이나 도덕적으로 부당하다고 생각하지 않는다는 것은 몇몇 다른 예술가들이 그렇게 생각하지 않는 것과는 다르다. 그녀는 심지어 자신의 목소리를 특징으로 한 노래를 만드는 과정을 단순화하는 필수 도구를 예술가들과 팬들에게 제공했습니다.
 
@@ -49,7 +78,18 @@ Elf.Tech는 몇몇 사람들이 생각할 수 있는 클레어의 완전한 허�
 
 이 프로젝트의 핵심은 AI가 세상에 미칠 긍정적인 영향과 AI 혁명의 중심에 서기를 원하는 그녀의 신념에 관한 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지난 국제 음악 정상 회의에서 클레어는 Elf.Tech을 창립하기 전에 AI 기술을 활용하는 기업들에 전화를 걸어 그들의 발전 상황을 살펴볼 수 있는지 여쭸었던 경험에 대해 이야기했습니다. 이 경험이 그녀를 "연구 심층 탐구"에 이끄는데 큰 역할을 했고, 그 결과 음악적으로 하는 일을 "재조정"하게 되었을 것으로 보입니다. 이로써 Elf.Tech를 창립하게 된 것으로 예상됩니다.
 
@@ -59,7 +99,18 @@ Elf.Tech는 음악의 민주화를 목표로 하는 고귀한 야망의 결과�
 
 저작권 제약으로 인해 발생하는 문제뿐만 아니라 AI가 해결할 수 있는 가능성이 많을 뿐만 아니라, AI가 창조할 수 있는 팬과의 상호 작용 가능성도 무수히 존재합니다. 클레어는 지적 재산권을 사용하는 팬덤들을 처벌하지 않는 실제 기업들의 사례에 근거해 이런 주장을 합니다. 그러한 팬덤들이 많은 멋진 예술 작품을 만들어내느라는 점을 생각해보세요. 음악에서 AI의 광범위한 활용을 가능하게 함으로써, 클레어와 그녀의 팀이 "공동창작물"로 틀어놓은 놀라운 팬 아트가 탄생할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 물론 그녀는 복제된 AI 생성 보컬의 잠재적 위험을 인지하고 있습니다.
 
@@ -69,7 +120,18 @@ Elf.Tech는 음악의 민주화를 목표로 하는 고귀한 야망의 결과�
 
 음악 써밋에서 인터뷰어가 클레어에게 물었습니다. “만약 누군가가 당신의 목소리를 사용해 끔찍하고 싫어하는 무언가를 만들었다면 어떻게 하시겠어요?” 클레어는 “나는 그들이 그렇게 만들었으면 하는데”라고 대답했습니다. 인간들은 AI에 의해 가져다줄 위험에 대해 개방해야 하며 그 결과를 지켜봐야 한다고 말했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 키노트 인터뷰에서 클레어가 AI로 생성된 보컬이 인간 보컬리스트를 앞으로 가려지게 할 수 있는 가능성에 대해 이야기하지는 않았지만, 클레어는 인간들이 AI의 한계를 집단적으로 이해하지 못하고 있다고 말했으며, 그녀는 AI가 우리의 모든 일에서 우리보다 우수해져서 우리를 이기게 될 것이라고 믿는다.
 
@@ -79,7 +141,18 @@ Elf.Tech의 출시 이후, YouTube와 스트리밍 사이트에서 여러 개의
 
 ![이미지](/assets/img/2024-06-19-TheWeirdEthicsofAI-GeneratedVocals_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 국제 음악 정상회의 중에 클레어는 스트리밍 서비스가 "AI"로 명확하게 표시된 AI 음악 하위 섹션이 생성될 것을 상상한다고 언급했습니다. 아마 그녀의 팀의 주요 목표 중 하나는 플랫폼에서 AI 음악을 위한 지정된 공간을 마련하는 것입니다. 국제 음악 정상회의에서 그녀가 한 말을 요약한 것이 여기 있습니다: "우리 팀과 저는 정말 스포티파이에게 AI 섹션을 만들 것을 촉구하고 싶어합니다. 그 플랫폼에서 가수들은 최고의 트랙, 앨범 및 신작을 가지고 있죠; 스포티파이가 AI 섹션도 만든다면, 청취자들이 음악을 구분하고 'AI'로 표시된 음악이 아티스트의 창작물이 아님을 이해하기가 더 쉬울 것입니다. 그렇게 하면 품질 관리가 좀 더 쉬워질 거에요. 이 AI가 정말 새로운데 음악 산업이 이를 대비하도록 구성되어 있지 않아요, 그래서 필요한 변경을 해야 해요."
 
@@ -89,8 +162,18 @@ Elf.Tech의 출시 이후, YouTube와 스트리밍 사이트에서 여러 개의
 
 자립 발매 아티스트를 위한 음악 유통업체인 TuneCore가 CreateSafe와 Grimes와 협력하여 스트리밍 플랫폼에 AI 음악을 선보이는 데 기여했습니다. 그들의 주요 역할은 이러한 일에 관련된 모든 법적 및 기술적 사항들을 처리하는 것인 것 같습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-06-19-TheWeirdEthicsofAI-GeneratedVocals_4](/assets/img/2024-06-19-TheWeirdEthicsofAI-GeneratedVocals_4.png)
 
@@ -100,8 +183,18 @@ Tunecore의 CEO에 따르면,
 
 2023년 6월 6일의 트윗에서, 클레어는 미래에 더 많은 변화가 있을 것이라 시사했으며, 이는 더 큰 스트리밍 서비스인 Spotify와 같은 곳도 곧 자신들의 플랫폼에서 AI 생성 보컬을 허용할지도 모른다는 것을 의미할 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-TheWeirdEthicsofAI-GeneratedVocals_5.png" />
 
@@ -111,8 +204,18 @@ Tunecore의 CEO에 따르면,
 
 시간은 이 기술을 사실로 어떻게 사용할지를 말해줄 것이지만, Grimes는 음악계의 실험대로 나서고 있습니다. 우연한 결과의 법칙이 승리할 것이라는 것을 그녀도 알지만, 그녀는 이를 실험하려고 준비가 되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-TheWeirdEthicsofAI-GeneratedVocals_6.png)
 
@@ -122,8 +225,18 @@ Tunecore의 CEO에 따르면,
 
 그리고 떠오르는 잠재적 무명의 미래를 조금 맛 본 것으로 보입니다. 2023년 5월 8일 트윗에서 "사실, 사람들이 나보다 경쟁적으로(아니면 더 나은가요??) 퀄리티 좋게 그라임스 같은 노래를 만들기 시작한 것이 약간 스트레스 받게 만드네요. 그러나 또한 이게 또 다른 커리어에서 죽고 다시 부활할 가장 아름다운 시적인 방법일지도 몰라요."라고 썼어요.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-TheWeirdEthicsofAI-GeneratedVocals_8.png)
 
@@ -133,8 +246,19 @@ Tunecore의 CEO에 따르면,
 
 작가들도 AI 생성 보컬을 둘러싼 논쟁의 부작용을 볼 것입니다. 모든 이러한 생성적 AI에 관한 논쟁은 교차되기 때문입니다. 예를 들어, 사망한 작가들이 AI "쓰기 클론"을 통해 그들이 완결하지 못한 시리즈를 마무리해야 하는가? 오디오북을 만드는 작가들은 어떻게 AI 생성 보컬에 접근해야 하는가 - 그러한 윤리적 고민을 어떻게 해결해야 하는가? 작가들은 대형 언어 모델이나 유사한 AI들에 의해 자신의 저자 "목소리"가 복제된 것에 대해 어떻게 생각하는가?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 낯선, 탁한 물속에 있어요. 그리고 깊이에 기다리는 것은 알 수 없지만, 가능성은 두려울 만큼 두렵고 흥미롭습니다.
 
-(*저스틴 콕스의 Medium 기사 덕분에 Stefanie Sun 사건에 대해 알게 되었어요!)
+(\*저스틴 콕스의 Medium 기사 덕분에 Stefanie Sun 사건에 대해 알게 되었어요!)

@@ -3,16 +3,13 @@ title: "RAG 자동화를 위한 건축 설계도 Vertex AI 검색을 활용한 �
 description: ""
 coverImage: "/assets/img/2024-05-27-ArchitecturalBlueprintsforRAGAutomationAdvancedDocumentUnderstandingusingVertexAISearch_0.png"
 date: 2024-05-27 15:10
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-ArchitecturalBlueprintsforRAGAutomationAdvancedDocumentUnderstandingusingVertexAISearch_0.png
 tag: Tech
 originalTitle: "Architectural Blueprints for RAG Automation: Advanced Document Understanding using Vertex AI Search"
 link: "https://medium.com/google-cloud/architectural-blueprints-for-rag-automation-advanced-document-understanding-using-vertex-ai-search-537ee9376847"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-05-27-ArchitecturalBlueprintsforRAGAutomationAdvancedDocumentUnderstandingusingVertexAISearch_0.png" />
 
@@ -24,7 +21,18 @@ isUpdated: true
 
 # Vertex AI Search 이해하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Vertex AI Search은 구글 클라우드 내에서 제공되는 포괄적인 플랫폼으로, 조직이 직원 및 고객을 위한 맞춤형 검색 솔루션을 만들 수 있도록 설계되었습니다. 이 플랫폼은 웹사이트, 구조화된 데이터(예: BigQuery 테이블, JSON 라인) 및 비정형 데이터(예: PDF, HTML, 텍스트)를 포함한 다양한 데이터 원본에 대해 구글 검색과 유사한 경험을 제공합니다.
 
@@ -34,7 +42,18 @@ Vertex AI Search은 구글 클라우드 내에서 제공되는 포괄적인 플�
 
 주로, Vertex AI Search는 GCP의 완전 관리형 플랫폼으로, 구글 검색 품질 기능을 기업 데이터에 통합하여 두 가지 주요 이점을 제공합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 향상된 검색 경험: 기존의 키워드 기반 검색을 모던한 대화형 경험으로 변환시켜 주는 기능입니다. 구글의 혁신적인 생성 검색과 비슷한 방식으로 작동합니다. 이 기능은 내부 및 고객 상대 애플리케이션의 효율성을 크게 향상시킵니다.
 - 강화된 생성 AI 애플리케이션: 생성 AI 애플리케이션 내 답변 생성을 지원합니다. 기업 데이터를 기반으로 하는 생성 AI는 Vertex AI 검색을 통해 실제 비즈니스 사용 사례에 중요한 정확성, 신뢰성 및 적합성을 보장합니다. 이는 검색 기능의 통합을 간편하게 하는 준비된 RAG 시스템 역할을 하며, 검색 기능을 획기적으로 향상해 줍니다.
@@ -45,7 +64,18 @@ Vertex AI Search은 구글 클라우드 내에서 제공되는 포괄적인 플�
 
 Vertex AI 검색은 다양한 API 세트를 통해 이를 실현합니다. 이러한 API를 통해 Vertex AI 검색의 RAG 시스템의 기본 구성 요소를 노출시켜 개발자가 맞춤형 사용 사례에 대응하거나 자세한 제어를 필요로 하는 고객을 지원할 수 있습니다. 이는 Document AI Layout Parser API, Ranking API, Grounded Generation API, Check Grounding API 등을 포함합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시작해 봅시다! 먼저 데이터셋을 이해하는 데 집중할 차례입니다. 이는 저희 RAG 파이프라인의 기반이 되는 것이죠. 그런 다음에는 이 데이터를 Vertex AI Search에 효과적으로 수집하여 신속하게 검색할 수 있도록 구성하는 방법을 배우게 될 거에요. Vertex AI Search 내에서 색인 전략에 중점을 두어야 하는데, 이는 인공지능이 필요할 때 가장 관련성 높은 정보에 접근할 수 있도록 하는 데 중요합니다. 우리는 색인된 문서를 쿼리하는 기술에 대해 자세히 살펴보고, 다양한 파이프라인 접근 방식을 실험할 겁니다. 마지막으로 결과물을 수집하고, 검색 정확도 및 생성된 답변의 품질을 평가하는 방법을 배우게 될 거에요. 이 여정을 통해 여러분은 RAG와 Vertex AI Search의 힘을 활용하여 더 스마트하고 정보에 기반한 AI 파이프라인을 구축하는 데 필요한 지식을 습득하게 될 거에요.
 
@@ -55,7 +85,18 @@ Vertex AI 검색은 다양한 API 세트를 통해 이를 실현합니다. 이�
 
 실험을 용이하게 하기 위해, 이 문서들에서 100개의 질문-답변 쌍을 유도했어요. 각 쌍은 한 문서에 직접 연결되어 있어, 단일 통로 질문-답변 시나리오를 구축합니다. 세심하게 만들어진 질문과 답변은 테이블과 복잡한 단락에서 정보를 추출하는 데 초점을 맞추었으며, RAG 시스템에 상당한 도전을 제공합니다. 이 100개의 질문-답변 쌍은 저희가 다룰 다양한 RAG 파이프라인 설계의 성능을 평가하기 위한 참 값 역할을 합니다. PDF 금융 분기 보고서 데이터셋은 여기에서 찾을 수 있으며, 질문-답변 쌍 데이터셋은 ground_truth.csv라는 CSV 파일에 있습니다. 이 파일에는 다음 메타 정보가 포함되어 있습니다 - i)매핑 문서, ii) 기업 이름, iii) 시기. 이 메타 정보는 CSV 파일의 document 열 하나에 포함되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Alphabet의 2020년 1분기 보고서에서 주로 영업 소득과 마진에 관련된 재무 결과를 요약한 샘플 테이블이 아래에 표시됩니다.
 
@@ -67,7 +108,18 @@ Alphabet의 2020년 1분기 보고서에서 주로 영업 소득과 마진에 �
 Google의 2021년 3월 말 영업 소득은 얼마이며 (십억으로), 이전 연도 동기 대비 어떻게 비교되었습니까?
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 Google의 영업 이익은 2021년 제1사분기에 164.37억 달러였습니다. 이는 2020년 제1사분기의 79.77억 달러에서 증가한 금액입니다.
@@ -79,9 +131,18 @@ Google의 영업 이익은 2021년 제1사분기에 164.37억 달러였습니다
 
 # 문서 수용 및 색인화
 
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이낸셜 문서를 이해하고 질문에 답하는 데 효과적으로 Vertex AI Search를 활용하려면 먼저 데이터를 준비하고 가져와야 합니다. 이를 위해 Vertex AI Search에서 전용 데이터 저장소를 생성하고 Google Cloud Storage (GCS)에서 파이낸셜 문서를 이 저장소로 가져와야 합니다. 다행히도, Vertex AI Search는 정보의 구문 분석, 조각화 및 색인 작업을 자동으로 처리해줍니다.
 
@@ -91,7 +152,18 @@ I. 데이터 저장소 생성:
 
 Vertex AI Search의 데이터 저장소는 처리된 문서가 저장되는 컨테이너입니다. 처리된 조각을 포함하도록 데이터 저장소를 생성하려면 Vertex AI Search 프로젝트 내에서 쉽게 인식할 수 있도록 데이터 저장소에 고유한 식별자와 표시 이름을 할당해야 합니다. 현재 데이터 저장소에는 아무 문서도 포함되어 있지 않습니다. 다음 단계로 문서를 이 데이터 저장소에 푸시(입력)할 것입니다. 여기서 강조할 사항은 원본 PDF 문서가 실제로 GCS에 저장된다는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 코드 스니펫은 REST API를 사용하여 Vertex AI Search를 구현하는 방법을 간단히 보여줍니다. 또한 Vertex AI Python SDK를 사용할 수도 있습니다. 여기서 Discovery Engine Vertex AI에 대한 문서를 참조하실 수 있습니다. 데이터 저장소를 생성하는 전체 코드는 여기에서 확인하실 수 있습니다.
 
@@ -122,7 +194,18 @@ II. GCS에서 문서 입력:
 
 데이터 저장소가 생성되면 지정된 GCS 버킷에서 귀사의 금융 문서를 입력하기 시작합니다. 이 프로세스에는 데이터 집합의 원본 PDF 문서가 저장된 GCS 버킷의 URI를 지정해야 합니다. 이전에는 manifest 파일을 생성해야 합니다. 이것은 Vertex AI 검색에 입력할 문서들의 모든 메타데이터를 포착하는 JSON 파일입니다. 이 파일의 샘플 행인 metadata.json은 아래에서 표시됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```json
 {
@@ -156,7 +239,18 @@ response = requests.post(url, headers=headers, json=data)
 
 III. 문서 검색 애플리케이션 만들기:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 문서들의 성공적인 소화 후 마지막 단계는 문서 검색 애플리케이션을 생성하는 것입니다. 이 애플리케이션은 색인된 데이터와 상호 작용하여 재무 문서를 검색, 검색하고 분석하는 데 필요한 도구와 기능을 제공할 것입니다.
 
@@ -186,7 +280,18 @@ response = requests.post(url, headers=headers, json=data)
 
 위에서 설명한 전체 프로세스를 용이하게 만들기 위해 여기에 제공된 스크립트를 활용할 수 있습니다. 데이터 흡수와 애플리케이션 설정에 관련된 모든 필요한 단계를 처리합니다. 구조화된 방식으로 이 접근 방법을 따르면 Vertex AI Search의 강력함을 활용하여 재무 문서를 가치 있는 지식 베이스로 변환할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # RAG 자동화를 위한 아키텍처 패턴
 
@@ -243,7 +348,18 @@ response = client.search(request)
 
 이를 기반으로, 우리는 이제 여러 가지 방법으로 Vertex AI Search API를 사용하여 쉽게 RAG 파이프라인을 구축할 수 있습니다. 다음으로, 이를 실행하는 네 가지 일반적인 패턴을 살펴보며, 이러한 파이프라인이 구현될 수 있는 유연성과 쉬움을 보여드릴 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Vertex AI Search에서 검색 요청을 구성할 때 유용한 정보를 추출하기 위한 사양을 설정하는 것이 중요합니다. 스니펫, 세그먼트 및 답변 옵션을 활성화하여 관련 콘텐츠를 포괄적으로 검색할 수 있습니다. 또한 LLM 파워를 활용한 요약 기능을 활성화하면 검색 결과의 간단한 요약(답변)을 생성하여 사용자 경험을 향상시킬 수 있습니다. 결과적으로 생성되는 JSON 응답에는 요약된 답변과 추출된 세그먼트 및 답변이 모두 포함됩니다.
 
@@ -255,7 +371,18 @@ Vertex AI Search는 텍스트 데이터를 세그먼트화하고 추출하는 �
 
 또한 스펠 수정 및 쿼리 확장을 위한 설정을 구성하여 검색 정확도를 높이고 잠재적 결과를 확장할 수도 있습니다. 우리의 사용 사례에서는 스니펫을 무시합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 패턴 I: 기본 설정(out-of-the-box, OOB) 답변 생성을 통한 검색
 
@@ -265,7 +392,18 @@ Vertex AI Search는 텍스트 데이터를 세그먼트화하고 추출하는 �
 
 위 다이어그램은 Vertex AI Search를 구동하는 간단한 RAG 파이프라인을 보여줍니다. 워크플로는 클라우드 스토리지에 저장된 원시 PDF 문서들의 컬렉션으로 시작합니다. 이러한 문서들은 이미 Vertex AI Search에 의해 흡수되고 처리되어 구조화된 인덱스가 생성되어 효율적인 검색 및 검색이 이루어집니다. 사용자가 쿼리를 제출하면 Vertex AI Search는 이러한 인덱스를 활용하여 가장 관련성 높은 문서를 신속하게 식별합니다. 그런 다음 이 문서들에서 적절한 정보를 추출하고 정보의 출처를 나타내는 인용을 포함하여 사용자에게 답변을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Pattern I의 주목할 만한 장점은 그 간결함과 독립성입니다. 외부 LLM 호출이 필요하지 않고 전체 프로세스를 단일 API 요청으로 통합하여 필요를 제거합니다. 그러나 이러한 간소화된 방법은 유연성에 제한을 가져올 수 있습니다. 이는 최종 요약에서 관련성이 적은 문서에서 불필요한 정보를 포함시킬 수도 있습니다. 단일 소스에서 파생된 답변에 중점을 둔 단방향 질문 응답에 초점을 맞추어 검색 결과로부터 답변을 생성하는 것이 중요합니다.
 
@@ -275,7 +413,18 @@ Pattern I의 주목할 만한 장점은 그 간결함과 독립성입니다. 외
 
 Pattern II는 필터링을 통한 쿼리 이해에 초점을 맞춘 사전 검색 단계를 포함하여 검색을 향상시키는 것입니다. 이는 사용자가 자연어 쿼리를 선호하는 상황을 다루며, 수동 필터링이 필요 없도록 하거나 원하는 필터가 즉시 제공되지 않는 상황을 수용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이프라인은 Gemini를 사용하여 사용자의 자연어 쿼리를 처리하여 시작합니다. Gemini는 기업 이름 및 기간과 같은 주요 정보를 추출하기 위해 명명된 엔티티 인식(NER)을 수행합니다. 이 추출된 메타데이터는 JSON 형식으로 출력되며 사용자의 의도와 더 일치하도록 검색 결과를 필터링하는 데 활용됩니다. 이 과정은 노이즈를 줄이는 뿐만 아니라 검색 메트릭을 크게 향상시킵니다.
 
@@ -285,7 +434,18 @@ Pattern II는 필터링을 통한 쿼리 이해에 초점을 맞춘 사전 검�
 
 상단의 아키텍처 다이어그램에 나타난 대로, 워크플로는 사용자가 특정 필터의 제약 없이 정보 요구를 표현하는 자연어를 사용하여 검색을 시작하는 것으로 시작됩니다. 그런 다음 쿼리가 Gemini에 전달되어 명명된 엔티티 인식(NER)을 수행하여 기업 이름 및 기간과 같은 관련 메타데이터를 추출합니다. 이 추출된 메타데이터는 JSON 형식으로 구조화되어 쉽게 필터링되며 이후 Vertex AI Search에서 사용되어 문서 색인을 필터링하여 추출된 기업 및 기간 정보와 일치하는 결과만을 좁혀서 제공합니다. 마지막으로, 필터링된 결과이기 때문에 더 관련성이 높은 문서들이 사용자에게 제공되며 정보의 출처를 나타내는 인용을 포함합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에서 설명한 pipeline의 코드 구현은 여기서 참조할 수 있습니다. 이 구현에서의 Entity 인식은 프롬프트를 사용하여 회사 이름 추출에는 zero-shot 방식을 활용하고 시기 추출에는 양성 및 음성 예시를 이용한 few-shot 방식을 사용합니다.
 
@@ -318,7 +478,18 @@ Pattern II는 필터링을 통한 쿼리 이해에 초점을 맞춘 사전 검�
 
 # Pattern III: Extractive Segments 및 Gemini Pro를 활용한 필터링 검색 및 응답 생성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전에는 Vertex AI Search에서 관련 콘텍스트를 가져오는 세 가지 다른 정밀도 수준에 대해 학습했습니다: 스니펫, 추출 세그먼트 및 추출된 답변. 이 패턴인 Pattern III에서는 검색 결과에서 추출된 세그먼트를 활용하여 기존 (OOB) 답변 생성 단계 (Pattern I 및 II)를 대체합니다. 생성된 답변에 특정한 스타일, 뉘앙스, 형식, 길이 또는 구조가 필요한 경우 특히 중요합니다. 이러한 시나리오에서 추출된 세그먼트를 외부 LLM인 Gemini와 함께 질의와 함께 명시적으로 전달할 수 있습니다. 우리는 요구 사항에 더 가까운 답변 생성을 위해 다양한 방법으로 프롬프트를 유연하게 설계할 수 있습니다. Pattern III는 이러한 방식을 포괄합니다.
 
@@ -334,7 +505,18 @@ Pattern II는 필터링을 통한 쿼리 이해에 초점을 맞춘 사전 검�
 질문: {질문}
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 패턴 IV: Gemini Pro를 활용한 추출적 답변을 통한 필터링된 검색과 답변 생성
 
@@ -347,7 +529,18 @@ Pattern II는 필터링을 통한 쿼리 이해에 초점을 맞춘 사전 검�
 일정한 화폐단위 조정을 고려했을 때 성장률은 어떻게 되는가?
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2021년 제1분기에는 링크드인의 매출이 전년대비 25% 증가했습니다. 환율 변동을 조정한 경우 성장률은 23%였습니다.
 
@@ -382,9 +575,18 @@ Pattern II는 필터링을 통한 쿼리 이해에 초점을 맞춘 사전 검�
 
 마이크로소프트 (나스닥 "MSFT" @microsoft)는 지능형 클라우드와 지능형 엣지 시대에 대한 디지털 전환을 실현합니다. 그 사명은 지구상의 모든 사람과 기관에 더 높은 성공을 이루도록 자율화하는 것입니다.
 
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Revenue in Intelligent Cloud는 $ 15.1 억으로 23% 증가했습니다 (일정 환율로 20% 상승), 다음 비즈니스 하이라이트가 있습니다:
 • 서버 제품 및 클라우드 서비스 수익은 26%(일정 환율에서 23% 증가) 성장했으며, Azure 수익은 50%(일정 환율에서 46% 상승) 증가했습니다.
@@ -409,7 +611,18 @@ Microsoft는 직원의 안전을 보장하고 영역 사회의 건강과 안녕�
 환경, 사회 및 지배 (ESG)
 Microsoft의 미션을 더욱 잘 실현하기 위해 우리는 양질의 영향을 미칠 수 있는 곳에만 환경, 사회 및 지배 (ESG) 노력에 중점을 둡니다. 최신 노력과 우선 사항에 대해 자세히 알아보려면 투자자 관계 ESG 웹사이트를 방문하십시오.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 흥미롭게도, 우리가 궁금한 질문에 대한 답을 얻기 위해 필요한 정보는 마지막(세 번째) 추출한 답변에만 포함되어 있는 것을 알 수 있습니다. 최종 답변을 생성하기 위해 세 개의 추출한 답변을 모두 한 문맥으로 연결하여 Gemini에게 제공하고, 원래의 질문과 함께 제출하여 답변을 생성합니다.
 
@@ -459,7 +672,18 @@ Surface 12% (5)% 7%
 Microsoft에 대해 Microsoft(Nasdaq "MSFT" @microsoft)는 지능적인 클라우드와 지능형 엣지 시대의 디지털 변형을 가능케 합니다.
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희가 확인한 바로는 Gemini가 생성한 최종 응답이 추출 세그먼트를 사용한 이전 응답보다 더 짧고 간결하다는 것을 알 수 있습니다.
 
@@ -471,7 +695,18 @@ Microsoft에 대해 Microsoft(Nasdaq "MSFT" @microsoft)는 지능적인 클라�
 
 # 대안적 패턴
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이전에 설명한 표준 워크플로우를 넘어서 PDF 문서로부터 답변 생성을 혁신적으로 개선할 수 있는 여러 고급 기술들이 있습니다. 그 중 하나는 질의 확장인데, 이는 초기 검색 질의를 관련 용어나 동의어로 확장시킵니다. 이 기능은 Vertex AI Search를 사용하여 매개변수를 AUTO로 설정함으로써 쉽게 활성화할 수 있습니다. 또는 DIY 사전 검색 단계를 설계하여 LLM을 사용하여 질의 변형을 생성한 후 Vertex AI Search에 병렬 호출을 할 수도 있습니다. 질의 확장은 질의 응답 시스템에서 정보 검색의 품질을 향상시키는 중요한 기술입니다. 다양한 질의 변형을 생성하여 검색의 관련성을 향상시키는 것뿐만 아니라 정확한 답변을 생성하는 데 필수적인 최상위 검색 문서의 대표성을 확보하는 데 핵심적인 역할을 합니다.
 - 문서 내 키워드 부스팅은 관련성을 향상시키는 또 다른 강력한 기술입니다. 이는 Vertex AI Search를 사용하여 즉시 지원됩니다. 특정 용어에 우선 순위를 부여함으로써 검색 결과의 관련성을 향상시킬 수 있습니다.
@@ -485,7 +720,18 @@ Microsoft에 대해 Microsoft(Nasdaq "MSFT" @microsoft)는 지능적인 클라�
 
 다음으로, 검색 성능 및 생성된 답변 품질을 평가하는 방법에 대해 알아보겠습니다. 우리는 검색 시스템을 평가하는 데 적합한 다양한 지표를 실험해보고, RAG 파이프라인에서 답변 품질을 평가하는 지표를 살펴볼 것입니다. 이 평가 과정을 통해 RAG 시스템을 개선하고 최적화하며 어떤 접근 방식이 더 효과적인지 이해하는 데 도움이 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # I. 정보 검색 평가
 
@@ -495,7 +741,18 @@ K에서의 정밀도는 상위 K개의 검색 문서에서 관련 결과의 비�
 
 예를 들어, YouTube에서 "종이 비행기를 만드는 방법"에 대한 상위 5개의 교육 비디오를 요청했다고 가정해보겠습니다. 이 중 5개 중 3개의 비디오가 목적에 맞게 지시를 제공한다면, K=5에서의 정밀도는 5개 중 3개 또는 60%가 됩니다. 이 지표는 초기 검색 결과의 관련성을 측정하는 방법을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단일 점프 질문 응답 사용 사례에서는 각 쿼리 당 관련 항목(문서) 하나를 획득하는 것이 목표입니다. 따라서 K = 1일 때의 정밀도(Precision)를 계산하는 것이 논리적입니다. 이 경우 결과는 이진형입니다: Vertex AI Search에 의해 반환된 검색된 항목 중에서 원하는 문서를 가장 위에 위치시키는지 여부입니다.
 
@@ -505,7 +762,18 @@ K에서의 정밀도는 상위 K개의 검색 문서에서 관련 결과의 비�
 
 정보 검색 분야에서, K에 대한 Recall 메트릭은 검색 결과 중 상위 K 결과 내에서 검색된 모든 관련 문서의 비율을 측정하는 데 사용됩니다. 이는 정밀도와 다르게 Recall은 모든 잠재적으로 관련 있는 문서를 식별하는 시스템의 능력에 중점을 둡니다. 이러한 측정은 법적이나 학술 연구와 같은 분야에서 주요 문서의 누락이 심각한 결과로 이어질 수 있는 경우에 중요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 종이 비행기 제작에 관한 10가지 중요한 비디오가 있다는 시나리오를 가정해 보겠습니다. 상위 5개 결과에 관심이 있습니다. 이 중 상위 5개 결과 중에서 10개 비디오 중 4개가 포함되어 있다면, 5개 중 재현율(Recall)은 10개 중 4개로 40%가 됩니다. 이 백분율은 상위 K개 결과 내에서 모든 가능한 관련 결과를 포착하는 검색 시스템의 효과성을 나타냅니다.
 
@@ -515,7 +783,18 @@ K에서의 정밀도는 상위 K개의 검색 문서에서 관련 결과의 비�
 
 참고: 우리의 사용 사례에서는 단일-홉 질문 응답이고, 답변이 항상 하나의 문서에 매핑된다는 것을 의미합니다. 여러 문서에서 유도된 답변인 다중-홉의 경우, 검색 @ k와 정밀도 @ k가 모두 1로 설정됩니다. 다중-홉 시나리오인 경우, k @ 3 및 k @ 5와 같은 더 높은 값이 더 유용하고 이로운 결과를 얻을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희 사용 사례에서는 필터를 적용하지 않은 표준 검색에서 k=1에서 정밀도와 리콜이 각각 51% (패턴 I)입니다. 그러나 명명된 엔티티 인식(Named Entity Recognition, NER)을 사용하고 필터를 적용하면 이러한 지표가 90%까지 증가합니다 (패턴 II).
 
@@ -525,7 +804,18 @@ K에서의 정밀도는 상위 K개의 검색 문서에서 관련 결과의 비�
 
 마카다미아 쿠키에 대한 완벽한 레시피를 찾기 위해 검색 엔진을 사용한다고 상상해보세요. 만일 맨 처음 클릭한 레시피가 바로 필요한 것이라면, 그 검색 엔진은 완벽한 평균 역순 순위(MRR) 1점을 획득합니다. 즉, 바로 최적의 결과를 제공했다는 것을 의미합니다. 그러나 이상적인 레시피가 처음 확인한 것이 아니라 세 번째로 발견하는 것이 매력적이라면, 해당 검색에 대한 MRR은 1/3으로 낮아집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 MRR(Mean Reciprocal Rank)의 공식은 다음과 같습니다:
 
@@ -535,7 +825,18 @@ MRR(Mean Reciprocal Rank)의 공식은 다음과 같습니다:
 
 우리의 사용 사례에서는 Pattern I(필터없는 문서 검색)에서 MRR이 64%입니다. 그러나 Pattern II에서 필터를 적용하면 이 숫자가 91%로 증가합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## d) DCG (Discounted Cumulative Gain)
 
@@ -545,7 +846,18 @@ DCG는 결과 목록에서의 위치를 기반으로 문서의 유용성 또는 
 
 여기서 p는 순위 위치, relᵢ는 𝑖 위치의 결과의 관련성 점수이며 log⁡₂(𝑖+1)은 (𝑖+1)의 이진 로그를 나타내는 할인 요소입니다. relᵢ를 계산하기 위해 우리는 단순히 관련 문서에 대해 이진 관련성 1을 사용하고 관련 없는 문서에 대해 0을 사용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 MRR과 비교할 때, DCG는 최상위 결과물 하나만 고려하는 대신 여러 결과물의 관련성을 고려하여 검색 품질을 보다 포괄적으로 판단합니다. MRR과 DCG는 검색 성능에 대해 다른 시각을 제공하며, MRR은 최상위 결과물의 정확성에 초점을 두는 반면 DCG는 전체 결과 목록의 관련성을 고려합니다. 두 지표를 모두 모니터링하여, 회수 전략의 효과를 자세히 이해할 수 있습니다.
 
@@ -555,20 +867,40 @@ DCG는 순위가 매겨진 목록의 총 관련성을 측정하는 반면, NDCG�
 
 ![이미지](/assets/img/2024-05-27-ArchitecturalBlueprintsforRAGAutomationAdvancedDocumentUnderstandingusingVertexAISearch_8.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에서:
 
 - DCG𝑝은 원래 공식을 사용하여 위치 𝑝에서의 DCG값을 의미합니다.
 - IDCG𝑝는 이상적인 DCG로, 모든 결과가 관련성에 따라 완벽하게 정렬된 경우 위치 𝑝에서의 최대 가능한 DCG값입니다. IDCG𝑝의 공식은 아래에 나와 있습니다:
 
-
 ![IDCG formula](/assets/img/2024-05-27-ArchitecturalBlueprintsforRAGAutomationAdvancedDocumentUnderstandingusingVertexAISearch_9.png)
-
 
 여기서는 관련성 점수를 내림차순으로 정렬합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리의 사용 사례에서는 패턴 I 및 II에 대한 NDCG를 측정합니다. 패턴 I에 대해서는 평균 NDCG가 약 64% 정도입니다. 필터를 적용하면 이 수치가 약 91%로 증가합니다.
 
@@ -582,7 +914,18 @@ AP는 검색 엔진과 같은 시스템이 관련 항목을 어떻게 순위를 
 - 동영상 D: 다른 관련 없는 동영상 (관련 없음)
 - 동영상 E: 훌륭한 지침 (관련 있음)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AP를 계산하기 위해서는 관련 동영상이 발견된 각 지점에서의 정밀도를 살펴봅니다:
 
@@ -594,8 +937,18 @@ AP를 계산하기 위해서는 관련 동영상이 발견된 각 지점에서�
 
 따라서이 검색 결과의 AP는 75.6%입니다. 이는 평균적으로 검색 중에 관련 결과를 상당히 빨리 얻게 된다는 것을 의미합니다. Precision @ 5는 처음 5개 결과의 관련성에만 초점을 맞추지만 (이 경우 60%), AP는 관련 동영상이 발견된 순서도 고려하여 상위 위치를 보상합니다. 이는 검색 엔진이 귀하를 위해 관련 결과를 찾는 데 얼마나 잘 수행되고 있는지에 대해 보다 세밀한 그림을 제공합니다. AP를 계산하는 공식은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-05-27-ArchitecturalBlueprintsforRAGAutomationAdvancedDocumentUnderstandingusingVertexAISearch_10.png)
 
@@ -607,8 +960,18 @@ where
 
 ## g) Mean Average Precision (MAP)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 MAP은 여러 검색 또는 질의를 평가하기 위해 평균 정밀도 (AP)의 개념을 확장한 것입니다. AP는 하나의 검색이 관련 항목을 어떻게 순위 지정하는지를 측정하는 반면, MAP는 여러 검색에서 AP 점수를 평균하여 여러 질의에 대한 시스템의 전반적인 성능 측정을 제공합니다. 이는 단지 하나가 아닌 여러 테스트에서 평균 성적을 받는 것과 같습니다.
 
@@ -620,7 +983,18 @@ MAP는 복수의 관련 문서가 각 질의에 대해 다루는 복잡한 시�
 
 패턴 I 및 II에 대한 실험에서, MAP은 본질적으로 MRR과 같습니다. 패턴 I에서 64%이며, 패턴 II에서 약 91%로 증가합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상기 평가를 복제하는 데 필요한 모든 지원 코드는 여기에서 찾을 수 있습니다.
 
@@ -630,7 +1004,18 @@ MAP는 복수의 관련 문서가 각 질의에 대해 다루는 복잡한 시�
 
 이를 위해 두 가지 서로 다른 메트릭을 적용할 수 있습니다. 첫 번째 메트릭은 cosine similarity를 활용하여 의미론적 유사성을 양적으로 평가합니다. 두 번째 메트릭은 LLM의 역할로, 생성된 답변과 인간이 생성한 답변을 동시에 LLM에 제시하여 모델의 출력이 인간의 기대와 얼마나 일치하는지를 평가할 수 있습니다. 이 접근 방식을 통해 생성된 답변의 사실적 정확성 및 전반적 일관성을 평가하여 인간이 작성한 응답과 구별할 수 없도록 보장할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 가) 의미 유사성
 
@@ -640,12 +1025,22 @@ MAP는 복수의 관련 문서가 각 질의에 대해 다루는 복잡한 시�
 
 ## 나) 사실적 정확성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전 RAG 파이프라인에서 생성된 답변의 정확성을 평가하기 위해 우리는 Gemini를 활용합니다. 질문, 기대 답변(실제 답변), 그리고 생성된 답변이 Gemini에 전달됩니다. 프롬프트 템플릿을 사용하여 Gemini가 생성된 답변을 "정확"(기대 답변과 완전히 부합), "부분적으로 정확"(정보 일부를 포함하지만 불완전하거나 일부 오류가 있는 것), 또는 "부정확"(기대 답변과 부합하지 않는 것)으로 분류하도록 안내합니다. 이 분류는 답변 품질을 세분화하여 평가하게 해주며, 답변 생성 모델이 개선이 필요한 부분을 식별하는 데 도움이 됩니다. 이 평가 프로세스의 구현 세부사항은 여기에서 확인할 수 있습니다.
 
 아래 표는 이전에 실험한 네 가지 패턴(RAG 파이프라인)을 비교한 전반적인 답변 정확도를 보여줍니다. 정확도를 계산하기 위해 완전히 정확한 답변에는 1.0의 점수를 할당하고, 부분적으로 정확한 답변에는 0.5의 점수를, 그리고 LLM 사실적 정확성 출력에 따라 부정확하게 분류된 답변에는 0의 점수를 부여합니다. 그림에서는 외부 LLM 패스를 활용하여 추출방식을 사용하여 답변을 생성하는 패턴 IV가 다른 모든 접근 방법을 능가하여 정확도가 거의 70%에 달한다는 것을 보여줍니다.
-
 
 지정된 질문과 아래 표시된 기대 및 생성된 답변을 제공하고,
 답변을 비교하여 `correct`, `partially correct`, 또는 `incorrect` 중 하나의 클래스로 분류하세요.
@@ -674,11 +1069,20 @@ MAP는 복수의 관련 문서가 각 질의에 대해 다루는 복잡한 시�
 다음 형식에 따라 응답을 제공하세요:
 {format_instructions}
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 네, 해당 테이블 태그를 마크다운 형식으로 변경해 볼게요.
-
 
 We can also break down the distribution of classes across the four different approaches (pipelines) to gain a better understanding of how improvements gradually occur with enhancements.
 
@@ -688,8 +1092,18 @@ The box plots below show the distribution of semantic similarity scores across d
 
 ![Box Plots](/assets/img/2024-05-27-ArchitecturalBlueprintsforRAGAutomationAdvancedDocumentUnderstandingusingVertexAISearch_13.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 분포를 통해 다양한 패턴이 나타납니다:
 
@@ -702,7 +1116,18 @@ The box plots below show the distribution of semantic similarity scores across d
 
 답변 품질의 경우, Ragas와 같은 다른 오픈 소스 대안 프레임워크를 사용하거나 해당하는 경우 Vertex AI의 Rapid Evaluation API를 활용할 수도 있습니다. Rapid Evaluation 서비스를 사용하면 점별 및 쌍별로 여러 메트릭을 통해 LLM을 평가할 수 있습니다. 추론 시간 입력, LLM 응답 및 추가 매개변수를 제공하면 서비스가 평가 작업과 관련된 특정 메트릭을 반환합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -712,7 +1137,18 @@ The box plots below show the distribution of semantic similarity scores across d
 
 우리의 주요 발견은 Vertex AI Search가 표준 및 완전히 사용자 정의 가능한 RAG 솔루션을 구축하기 위한 포괄적인 기능 세트를 제공한다는 것입니다. 이 플랫폼은 어떠한 선택한 도메인 내에서 정보 검색 및 질문 답변 작업을 혁신적으로 간소화합니다. 앞으로의 게시물에서는 Vertex AI의 미개척 기능을 활용한 다른 패턴을 탐색할 예정입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 가이드의 내용을 완전히 이해하려면 공유 코드 리포지토리를 설정하는 것을 권장합니다. 작업 환경에서 지침을 따라 실험과 결과를 복제하세요. 이렇게 하면 여러분이 손쉽게 자신의 사용 사례에 적응하고 확장할 수 있습니다!
 

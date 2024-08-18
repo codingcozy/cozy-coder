@@ -3,17 +3,13 @@ title: "언어 에이전트 트리 검색 - LATS"
 description: ""
 coverImage: "/assets/img/2024-06-20-LanguageAgentTreeSearchLATS_0.png"
 date: 2024-06-20 19:02
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-LanguageAgentTreeSearchLATS_0.png
 tag: Tech
 originalTitle: "Language Agent Tree Search — LATS"
 link: "https://medium.com/@cobusgreyling/language-agent-tree-search-lats-837de73d0672"
 isUpdated: true
 ---
-
-
-
-
 
 # 소개
 
@@ -23,7 +19,18 @@ LLMs는 외부 도구로 더 많은 기능을 제공받아야 하며, 주체적�
 
 외부 도구에는 웹 검색, 특정 API 접근, 문서 검색 등과 같은 기능이 포함될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 연구에 의하면 대부분의 대화형 UI는 인간 수준의 신중하고 사려 깊은 의사 결정에 부족함을 자주 겪습니다. 게다가 이러한 방법들 중 많은 방법들은 여러 추론 경로를 고려하거나 앞선 계획을 실패하는 면에서 부족합니다.
 
@@ -33,7 +40,18 @@ LLMs는 외부 도구로 더 많은 기능을 제공받아야 하며, 주체적�
 
 LATS와 같은 프레임워크는 처음에는 알아보기 어려울 수 있지만, 이 기사에서 나중에 이 프레임워크의 LlamaIndex 구현을 하나씩 살펴볼 것입니다. 이를 통해 실제로 동작 중인 프레임워크를 보면 프레임워크의 신비로움을 제거하는 데 큰 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # LATS로 돌아가기
 
@@ -51,7 +69,18 @@ LATS와 같은 프레임워크는 처음에는 알아보기 어려울 수 있지
 
 # 실용적인 LATS 구현
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## LlamaIndex 구현
 
@@ -67,7 +96,18 @@ LATS와 같은 프레임워크는 처음에는 알아보기 어려울 수 있지
 %pip install llama-index-core llama-index-readers-file
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오픈AI API 키를 정의하세요:
 
@@ -96,10 +136,20 @@ Settings.llm = llm
 Settings.embed_model = embed_model
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래의 표를 Markdown 형식으로 변경하세요:
-
 
 Download the relevant data:
 
@@ -149,20 +199,42 @@ else:
     uber_index = load_index_from_storage(storage_context)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 두 개의 도구 또는 엔진을 설정하십시오:
 
 ```js
-lyft_engine = lyft_index.as_query_engine(similarity_top_k=3)
-uber_engine = uber_index.as_query_engine(similarity_top_k=3)
+lyft_engine = lyft_index.as_query_engine((similarity_top_k = 3));
+uber_engine = uber_index.as_query_engine((similarity_top_k = 3));
 ```
 
 전형적인 에이전트 스타일로, 두 에이전트 도구에는 설명이 제공됩니다. 이 설명은 에이전트가 도구를 언제, 어떻게 사용해야 하는지 결정하는 데 중요합니다.
 
 물론 에이전트는 여러 도구에 액세스할 수 있으며, 에이전트가 보유한 도구가 많을수록 에이전트가 강력해집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 from llama_index.core.tools import QueryEngineTool, ToolMetadata
@@ -202,7 +274,18 @@ query_engine_tools = [
 - max_rollouts는 탐색 공간의 각 탐사가 얼마나 깊게 이어지는지를 나타냅니다.
 - max_rollouts=5는 트리에서 최대 깊이 5까지 탐사됨을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 할 수 있습니다. LLM과 도구에 대한 참조도 볼 수 있어요.
 
@@ -228,7 +311,18 @@ task = agent.create_task(
 )
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LlamaIndex의 노트북은 여러 가지 다양한 순열을 거칩니다...
 
@@ -238,8 +332,18 @@ LlamaIndex의 노트북은 여러 가지 다양한 순열을 거칩니다...
 
 저는 현재 Kore AI의 최고 전도사입니다. 인공 지능과 언어가 교차하는 모든 것에 대해 탐구하고 쓰고 있습니다. 대형 언어 모델(LLMs), 챗봇, 음성봇, 개발 프레임워크, 데이터 중심의 잠재 공간 등을 다루고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Language Agent Tree Search - Image 1](/assets/img/2024-06-20-LanguageAgentTreeSearchLATS_1.png)
 

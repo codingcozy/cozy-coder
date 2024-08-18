@@ -3,17 +3,13 @@ title: "리눅스 프로세스 분석"
 description: ""
 coverImage: "/assets/img/2024-06-19-LinuxProcessAnalysis_0.png"
 date: 2024-06-19 14:58
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-LinuxProcessAnalysis_0.png
 tag: Tech
 originalTitle: "Linux Process Analysis"
 link: "https://medium.com/@sukarn001/linux-process-analysis-34582bed68e8"
 isUpdated: true
 ---
-
-
-
-
 
 리눅스 시스템의 내부 작동을 이해하는 데에는 프로세스, 서비스, 그리고 cron 작업에 대한 이해가 필수적입니다. 각 구성 요소는 시스템 전반적인 기능에서 고유한 역할을 갖고 있으며, 정해진 작업을 실행하거나 루틴한 작업을 자동화하고 사용자 상호 작용을 가능하게 함으로써 서비스를 제공합니다. 그러나 이러한 중요한 역할로 인해 시스템에 침투한 악의적인 사용자들에 의해 악용될 수 있습니다. 공격자들은 취약점이나 잘못된 구성으로 특권을 상승시키고 측면으로 이동하거나 영구적인 손목들을 수립하거나 백도어를 설치하여 시스템의 무결성과 보안을 더욱 훼손할 수 있습니다. 이에 따라, 이러한 구성 요소에 대한 위협을 효과적으로 탐지하고 완화하기 위해 검증 분석 기술의 견고한 아카데미를 구축하는 것이 점점 더 중요해지고 있습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 시스템에서 실행 중인 프로세스를 검사하는 데에 다양한 도구와 유틸리티를 사용할 수 있습니다. 이 열거를 통해 악성 활동이나 의심스러운 부모-자식 프로세스 관계를 식별할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # ps
 
@@ -33,7 +40,18 @@ ps 명령어는 UNIX류 운영 체제에서 활성 프로세스에 대한 스냅
 
 위에서 볼 수 있듯이 해당 명령어는 다음 열을 포함하는 테이블 형식으로 출력을 제공합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 PID: 각 프로세스에 대한 고유 식별자 (프로세스 ID)입니다.
 TTY: 프로세스와 연결된 터미널입니다.
@@ -44,7 +62,18 @@ CMD: 프로세스와 관련된 명령어입니다.
 
 ps 명령어와 함께 제공할 수 있는 유용한 옵션 세트는 -eFH입니다. 이 옵션 세트는 시스템에서 실행 중인 모든 프로세스에 대한 전체 개요를 계층적 형식으로 반환하므로, 그들이 연결되어 있는 터미널이나 세션과 관계없이 사용 가능합니다. 이 옵션 세트는 시스템 모니터링 및 포렌식 분석에 유용한 도구로 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-LinuxProcessAnalysis_1.png)
 
@@ -54,8 +83,18 @@ ps 명령어와 함께 제공할 수 있는 유용한 옵션 세트는 -eFH입�
 
 실행 중인 시스템 내에서 모든 열려있는 파일과 해당 프로세스 목록을 보고하는 더 강력한 방법을 살펴봅시다. lsof (List Open Files)는 시스템에서 프로세스에 의해 열린 파일에 대한 정보를 나열하는 유틸리티입니다. 이 경우, 앞서 식별한 Netcat 프로세스가 열어둔 파일을 보려면 lsof를 실행하고 PID를 제공하면 됩니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-LinuxProcessAnalysis_2.png" />
 
@@ -65,8 +104,18 @@ ps 명령어와 함께 제공할 수 있는 유용한 옵션 세트는 -eFH입�
 
 - Explains how to filter network connections by protocol (TCP/UDP).
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 특정 포트로 네트워크 파일:
 
@@ -76,7 +125,18 @@ ps 명령어와 함께 제공할 수 있는 유용한 옵션 세트는 -eFH입�
 
 - 특정 명령어로 열린 파일을 나열하는 방법을 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앞으로 pstree를 사용하여 부모-자식 관계 프로세스의 과정을 더 자세히 분석해보는 것이 좋을 것 같아요. 그렇게 하면 프로세스의 발원지를 파악하고 잠재적인 공격 경로에 대한 통찰을 얻을 수 있을 거에요.
 
@@ -86,7 +146,18 @@ pstree는 프로세스를 트리 형식으로 시각적으로 표시하는 명�
 
 ![LinuxProcessAnalysis_3](/assets/img/2024-06-19-LinuxProcessAnalysis_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 pstree를 사용하여 식별한 부모 프로세스의 심층적인 프로세스 분석을 수행할 수 있으며, 이를 위해 해당 부모 프로세스의 부모 프로세스(-s)와 해당 프로세스의 PID(-p)를 나열하는 옵션을 제공할 수 있습니다:
 
@@ -96,7 +167,18 @@ pstree는 프로세스를 트리 형식으로 시각적으로 표시하는 명�
 
 # cron 작업
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Cronjobs은 미리 정의된 간격으로 자동으로 실행되는 예약된 작업입니다. Cron 데몬은 이러한 작업을 관리하는 백그라운드 프로세스로, crontab이라는 설정 파일을 기반으로 합니다. 사용자는 /var/spool/cron/crontabs 디렉토리에 crontab 파일을 저장할 수 있습니다. 시스템 전역 cronjob을 관리하는 주요 crontab 파일은 /etc/crontab에 있습니다.
 
@@ -108,22 +190,44 @@ Cron 항목은 공백으로 구분된 필드로 구성된 특정 형식을 따�
 10 05 * * * /home/bob/backup_tmp.sh
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 cron 스케줄은 실행할 명령어가 뒤를 따라오는 다섯 가지 필드로 구성되어 있습니다:
 
 - 분(10): 첫 번째 필드는 명령어가 실행될 분을 지정합니다. 이 경우 10으로, 시간의 10분에 명령어가 실행됨을 나타냅니다.
 - 시(05): 두 번째 필드는 명령어가 실행될 시간을 지정합니다. 05로, 새벽 5시 10분에 명령어가 실행됩니다.
-- 요일(*): 세 번째 필드는 명령어가 실행될 달의 일을 지정합니다. 여기서는 ****로, 와일드카드 값으로 매 달 모든 날에 실행됩니다. 날짜를 구체적으로 지정하려면 1에서 31까지의 숫자를 사용할 수 있습니다. 예를 들어 매월 15일에 명령을 실행하려면 15를 사용합니다.
-- 월(*): 네 번째 필드는 명령어가 실행될 달을 지정합니다. 또한 ****로, 매달 명령어가 실행됨을 나타냅니다. 숫자(1은 1월, 2는 2월 등)나 약어(Jan은 1월, Feb은 2월 등)로 월을 지정할 수 있습니다. 예를 들어 2나 Feb를 사용하여 명령어를 2월에만 실행할 수 있습니다.
-- 요일(*): 다섯 번째 필드는 명령어가 실행될 요일을 지정합니다. 여기서는 ****로, 매주 모든 요일에 실행됩니다. 0부터 7까지 숫자로 요일을 지정할 수 있으며, 0과 7은 일요일, 1은 월요일 등으로 대응됩니다. 또는 약어(Sun, Mon, Tue 등)를 사용할 수도 있습니다. 예를 들어 1이나 Mon을 사용할 수 있습니다.
+- 요일(\*): 세 번째 필드는 명령어가 실행될 달의 일을 지정합니다. 여기서는 \*\*\*\*로, 와일드카드 값으로 매 달 모든 날에 실행됩니다. 날짜를 구체적으로 지정하려면 1에서 31까지의 숫자를 사용할 수 있습니다. 예를 들어 매월 15일에 명령을 실행하려면 15를 사용합니다.
+- 월(\*): 네 번째 필드는 명령어가 실행될 달을 지정합니다. 또한 \*\*\*\*로, 매달 명령어가 실행됨을 나타냅니다. 숫자(1은 1월, 2는 2월 등)나 약어(Jan은 1월, Feb은 2월 등)로 월을 지정할 수 있습니다. 예를 들어 2나 Feb를 사용하여 명령어를 2월에만 실행할 수 있습니다.
+- 요일(\*): 다섯 번째 필드는 명령어가 실행될 요일을 지정합니다. 여기서는 \*\*\*\*로, 매주 모든 요일에 실행됩니다. 0부터 7까지 숫자로 요일을 지정할 수 있으며, 0과 7은 일요일, 1은 월요일 등으로 대응됩니다. 또는 약어(Sun, Mon, Tue 등)를 사용할 수도 있습니다. 예를 들어 1이나 Mon을 사용할 수 있습니다.
 - 명령어(/home/bob/backup_tmp.sh): 마지막 필드에는 실행할 명령어가 포함됩니다.
 
 또한 시스템 레벨의 /etc/crontab은 사용자 레벨의 crontab과 다릅니다. 시스템 전역 crontab에는 명령이 실행될 사용자(root 또는 www-data 등)를 지정하는 추가 필드가 포함됩니다.
 
 모두 합쳐서 이 cron 스케줄은 매일 새벽 5시 10분에 명령어 /home/bob/backup_tmp.sh가 실행되도록 구성되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로, 철저한 분석에 중요한 추가 시스템 cron 작업 디렉토리가 있습니다. 이러한 디렉토리는 /etc/ 디렉토리 아래에서 다음과 같은 네이밍 컨벤션으로 찾을 수 있습니다:
 
@@ -137,7 +241,18 @@ Cron 항목은 공백으로 구분된 필드로 구성된 특정 형식을 따�
 
 이 정보를 나열하는 여러 가지 방법이 있습니다. 가장 쉬운 방법은 관리자 권한으로 디렉토리 내용을 나열하는 것입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-LinuxProcessAnalysis_5.png" />
 
@@ -147,7 +262,18 @@ Cron 항목은 공백으로 구분된 필드로 구성된 특정 형식을 따�
 
 위 출력에서 여러 사용자의 crontab 항목 값들을 빠르게 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Cron Execution Logs
 
@@ -157,7 +283,18 @@ Debian 기반 시스템에서는 cron 실행 로그가 일반적으로 /var/log/
 
 조사 중인 시스템이 syslog 파일에 cron 로그를 저장하기 때문에 우리는 내용을 grep하여 cron과 관련된 로그를 필터링할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 명령은 많은 양의 출력물을 생성할 수 있습니다. 특정 기준에 따라 결과를 더 필터링하여 관련 정보에 집중하는 것이 좋습니다. 필터링 아이디어로는 다음과 같은 예시가 있습니다:
 
@@ -167,7 +304,18 @@ Pspy는 루트 권한이 필요하지 않고 리눅스 프로세스를 모니터
 
 열거 목적에 용이하지만 사건 대응자들은 실행 아티팩트를 수집하고 단기간 실행되는 프로세스를 포착하는 능력을 활용할 수 있습니다. 실시간 모니터링 덕분에 시스템을 통해 생성된 다양한 cron 작업에 의해 생성된 프로세스를 감지할 수 있어 cron 작업이 실행될 때 어떤 프로세스가 발생하는지에 대한 더 많은 통찰력을 제공할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 시스템에서는 Pspy가 이미 사전 설치되어 있으며 사용 중인 바이너리와 함께 마운트되어 있습니다. 따라서 경로에 있으며 pspy64를 실행하여 간단히 호출할 수 있습니다. 실시간 모니터링을 시작하고 몇 분 동안 실행하여 이벤트를 캡처해야 합니다. Ctrl + C를 눌러 중지할 수 있습니다:
 
@@ -178,7 +326,18 @@ Pspy는 루트 권한이 필요하지 않고 리눅스 프로세스를 모니터
 - 인내심을 갖고 철저히 작업하세요. 어떤 프로세스는 가끔만 나타나거나 특정 시스템 이벤트 중에만 나타날 수 있습니다.
 - 특정 프로세스나 사용자를 필터링하기 위해 pspy와 함께 grep 명령을 사용하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 요약
 

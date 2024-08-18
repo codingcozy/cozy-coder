@@ -3,17 +3,13 @@ title: "가이드 Nuclei 사용법"
 description: ""
 coverImage: "/assets/img/2024-06-19-GuidetoUsingNuclei_0.png"
 date: 2024-06-19 14:51
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-GuidetoUsingNuclei_0.png
 tag: Tech
 originalTitle: "Guide to Using Nuclei"
 link: "https://medium.com/@learntheshell/guide-to-using-nuclei-9c37869be30e"
 isUpdated: true
 ---
-
-
-
-
 
 Nuclei라는 강력한 취약점 스캐너 사용 방법을 배우세요.
 
@@ -23,7 +19,18 @@ Nuclei는 보안 연구원과 전문가를 위해 설계된 강력하고 유연�
 
 ![Nuclei 사용 가이드](/assets/img/2024-06-19-GuidetoUsingNuclei_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## TL;DR
 
@@ -33,7 +40,18 @@ Nuclei는 보안 연구원과 전문가를 위해 설계된 강력하고 유연�
 
 Nuclei는 단일 대상물을 스캔하거나 파일에서 여러 대상물을 스캔하고 다른 도구들과의 워크플로에 통합할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단일 대상 스캔
 
@@ -45,7 +63,18 @@ nuclei -u http://example.com
 
 다른 방법으로는 아래와 같이 사용할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 nuclei -target http://example.com
@@ -57,7 +86,18 @@ nuclei -target http://example.com
 
 대상 목록이 있는 경우 파일에 저장하고 각 대상을 스캔할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 nuclei -l targets.txt
@@ -69,7 +109,18 @@ nuclei -l targets.txt
 
 Nuclei를 다른 보안 도구와 통합하여 포괄적인 워크플로우를 만들 수 있습니다. 예를 들어 `subfinder`와 `httpx`를 Nuclei와 결합하여 하위 도메인을 찾은 다음 노출에 대해 스캔할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 subfinder -d targetdomain.site -silent | httpx | nuclei -t http/exposures/
@@ -81,7 +132,18 @@ subfinder -d targetdomain.site -silent | httpx | nuclei -t http/exposures/
 
 템플릿은 Nuclei가 스캔 중에 무엇을 찾을지를 정의합니다. 특정 유형의 취약점에 대한 것이거나 보다 일반적인 내용일 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 템플릿 폴더 사용하기
 
@@ -93,7 +155,18 @@ nuclei -t http/exposures/
 
 이 명령은 지정된 디렉토리의 모든 템플릿을 사용하여 대상을 스캔하며 다양한 유형의 노출을 확인합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 특정 템플릿 사용하기
 
@@ -105,7 +178,18 @@ nuclei -t http/technologies/tech-detect.yaml -t http/technologies/nginx/nginx-ve
 
 위 예시는 특정 기술을 스캔하고 사용 중인 Nginx 버전을 체크하는데, 지정된 템플릿을 활용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 템플릿 태그 사용하기
 
@@ -117,7 +201,18 @@ nuclei -u https://jira.targetdomain.site -tags jira,generic
 
 이 명령은 `jira`와 `generic` 태그가 달린 템플릿을 사용하여 대상 URL을 스캔하여 관련 있는 취약점을 확인합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 심각도별 필터링
 
@@ -129,7 +224,18 @@ nuclei -u https://targetdomain.site -s critical,high,medium
 
 이 명령은 심각하거나 높거나 중간 심각도로 분류된 템플릿을 사용하여 대상을 검사하며, 중요한 취약점을 우선적으로 처리합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 템플릿 제외하기
 
@@ -141,7 +247,18 @@ nuclei -et http/fuzzing/
 
 이 명령은 스캔에서 `http/fuzzing/` 디렉토리의 모든 템플릿을 제외합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 헤더 설정
 
@@ -151,7 +268,18 @@ nuclei -et http/fuzzing/
 
 `-H` 플래그를 사용하여 사용자 지정 헤더를 설정할 수 있습니다. 예를 들어, User-Agent 헤더를 설정하는 방법은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 nuclei -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36' -l targets.txt
@@ -163,7 +291,18 @@ nuclei -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebK
 
 대상 서버를 과부하시키지 않도록 요청률과 동시 스레드 수를 제한할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 요청 및 쓰레드 제한
 
@@ -175,7 +314,18 @@ nuclei -l targets.txt -rl 20 -c 5
 
 이 명령은 Nuclei를 초당 20개의 요청으로 제한하고 최대 5개의 동시 쓰레드를 사용하여 속도와 서버 부하를 균형있게 유지합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 최적화
 
@@ -185,7 +335,18 @@ Nuclei는 스캔 성능을 최적화하고 오류를 효율적으로 처리하�
 
 스캔 속도를 높이기 위해 요청의 타임아웃을 줄일 수 있습니다. 기본 타임아웃은 10초이지만 필요에 따라 더 낮출 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 nuclei -l targets.txt -timeout 3
@@ -197,7 +358,18 @@ nuclei -l targets.txt -timeout 3
 
 Nuclei가 오류를 처리하고 재시도하는 방법을 구성하세요. 일정 횟수의 오류 후 호스트를 건너뛰거나 실패한 요청에 대한 재시도 횟수를 설정하세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 nuclei -l targets.txt --max-host-errors 5
@@ -211,7 +383,18 @@ nuclei -l targets.txt --retries 3
 
 ## 스캔 전략
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로드와 효율성을 균형 있게 유지할 스캔 전략을 선택하세요. `host-spray`는 다음 대상으로 이동하기 전에 모든 템플릿을 단일 대상에 적용하고, `template-spray`는 여러 대상에 걸쳐 템플릿을 실행합니다:
 
@@ -223,7 +406,18 @@ nuclei -l targets.txt -ss host-spray
 
 # 결과
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **저장 결과**
 
@@ -233,7 +427,18 @@ nuclei -l targets.txt -ss host-spray
 nuclei -l targets.txt -o nuclei.log
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 명령어는 스캔 결과를 `nuclei.log`에 기록합니다.
 
@@ -245,7 +450,18 @@ nuclei -l targets.txt -o nuclei.log
 nuclei -l targets.txt -jsonl
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 프린팅 통계
 
@@ -257,7 +473,18 @@ nuclei -l targets.txt -stats
 
 ## 마크다운 출력
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 Markdown 형식으로 결과를 저장하세요:
 
@@ -269,7 +496,18 @@ nuclei -l targets.txt -me results/
 
 # 외부 밴드 테스팅
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 외부 밴드 (OOB) 테스트는 일반적인 HTTP 요청/응답 주기 외에 발생하는 상호 작용을 테스트하는 것을 의미합니다.
 
@@ -281,7 +519,18 @@ OOB 테스트가 필요하지 않은 경우 비활성화할 수 있습니다:
 nuclei -l targets.txt -ni
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 인터랙트 서버 사용하기
 
@@ -293,7 +542,18 @@ nuclei -l targets.txt -iserver <server-addr> -itoken <server-token>
 
 상호 작용 유출 시간:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 nuclei -l targets.txt -interactions-eviction 120
@@ -307,7 +567,18 @@ nuclei -l targets.txt -interactions-poll-duration 10
 
 이 명령어들은 Nuclei를 특정 Interactsh 서버를 사용하도록 구성하고 상호 작용을 기다릴 시간을 조절합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 설정
 
@@ -317,7 +588,18 @@ nuclei -l targets.txt -interactions-poll-duration 10
 
 `-config` 플래그를 사용하여 구성을 로드할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 nuclei -config nuclei.yaml -l targets.txt
@@ -354,7 +636,18 @@ bulk-size: 20
 concurrency: 20
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 구성은 스캔 프로세스를 최적화하기 위해 사용자 지정 헤더를 설정하고 템플릿을 지정하며 속도 제한 및 기타 설정을 정의합니다.
 
@@ -364,7 +657,18 @@ Nuclei 및 해당 템플릿을 최신 상태로 유지하여 최신 취약점을
 
 ## 업데이트 확인 비활성화
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자동 업데이트 확인을 비활성화하여 스캔 중단을 방지하세요:
 
@@ -376,21 +680,43 @@ nuclei -l targets.txt -duc
 
 Nuclei 설치를 최신 버전으로 업데이트하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-nuclei -up
+nuclei - up;
 ```
 
 템플릿을 업데이트하려면:
 
 ```js
-nuclei -ut
+nuclei - ut;
 ```
 
 이 명령어들은 최신 기능 및 취약점 검사를 보장하여 템플릿과 Nuclei 도구 자체를 업데이트합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

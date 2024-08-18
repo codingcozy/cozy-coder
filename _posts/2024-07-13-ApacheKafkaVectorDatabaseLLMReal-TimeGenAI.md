@@ -3,17 +3,13 @@ title: "Apache Kafka  Vector Database  대규모 언어 모델LLM  실시간 생
 description: ""
 coverImage: "/assets/img/2024-07-13-ApacheKafkaVectorDatabaseLLMReal-TimeGenAI_0.png"
 date: 2024-07-13 02:43
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-ApacheKafkaVectorDatabaseLLMReal-TimeGenAI_0.png
 tag: Tech
 originalTitle: "Apache Kafka + Vector Database + LLM = Real-Time GenAI"
 link: "https://medium.com/@kai-waehner/apache-kafka-vector-database-llm-real-time-genai-4b5b6e687d85"
 isUpdated: true
 ---
-
-
-
-
 
 **GenAI(Generative AI)**는 고급 AI 사례와 혁신을 가능하게 하지만 기업 아키텍처가 어떻게 변화하는지를 바꿉니다. **Large Language Models (LLM)**, 벡터 데이터베이스, Retrial Augmentation Generation (RAG)은 새로운 데이터 통합 패턴과 데이터 엔지니어링 Best Practice를 필요로 합니다. **Apache Kafka**와 **Apache Flink**를 활용한 데이터 스트리밍은 대규모 실시간 데이터의 수집과 정제에 핵심적인 역할을 합니다. 이를 통해 다양한 데이터베이스와 분석 플랫폼을 연결하고 독립적인 비즈니스 부서와 데이터 제품을 분리하는데 도움을 줍니다. 이 블로그 게시물은 이벤트 스트리밍과 전통적인 요청-응답 API 및 데이터베이스 사이의 가능한 아키텍처, 예시, 그리고 trade-offs에 대해 탐구합니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # Apache Kafka와 GenAI를 활용한 사용 사례
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Generative AI (GenAI)은 자연 언어 처리(NLP), 이미지 생성, 코드 최적화 및 기타 작업을 위한 차세대 AI 엔진입니다. 실제 세계에서 많은 프로젝트들을 돕는데, 서비스 데스크 자동화, 챗봇을 통한 고객 대화, 소셜 네트워크에서의 콘텐츠 관리 등에 사용됩니다.
 
@@ -36,7 +43,18 @@ Generative AI (GenAI)은 자연 언어 처리(NLP), 이미지 생성, 코드 최
 - 입력 텍스트, 음성 또는 이미지로 구성된 스트리밍 데이터 파이프라인 생성
 - 대형 언어 모델의 실시간 온라인 훈련
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 사용 사례를 탐색했습니다. Expedia, BMW 및 Tinder와 같은 실제 예시를 포함하여 "GenAI를 위한 미션 크리티컬 데이터 퍼브릭으로 Apache Kafka"라는 블로그 게시물에서 다루었습니다.
 
@@ -46,7 +64,18 @@ Generative AI (GenAI)은 자연 언어 처리(NLP), 이미지 생성, 코드 최
 
 기계 학습 (ML)은 컴퓨터가 숨겨진 통찰을 찾도록 허용하며 어디를 살펴볼지 프로그래밍되지 않았습니다. 이를 모델 교육이라고하며, 대용량 데이터 세트를 분석하는 일괄 처리 과정입니다. 결과는 이진 파일이며, 분석 모델입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로 들어오는 이벤트에 이러한 모델을 적용하여 예측을 하는 것을 말합니다. 이를 모델 스코어링이라고 하며, 실시간으로 발생할 수도 있고 모델을 애플리케이션에 삽입하거나 모델 서버로 요청-응답 API 호출을 통해 배치로도 실행될 수 있습니다.
 
@@ -56,7 +85,18 @@ Generative AI (GenAI)은 자연 언어 처리(NLP), 이미지 생성, 코드 최
 
 예측 인공지능은 예측을 수행합니다. 목적에 맞게 설계된 모델. 오프라인 훈련. 이것이 지난 10년 동안 우리가 머신러닝을 수행한 방식입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전통적인 ML에서는 데이터 엔지니어링 작업의 대부분이 모델 생성 시간에 발생합니다. 특성 엔지니어링과 모델 훈련에는 많은 전문 지식과 노력이 필요합니다.
 
@@ -66,7 +106,18 @@ Generative AI (GenAI)은 자연 언어 처리(NLP), 이미지 생성, 코드 최
 
 ## 대형 언어 모델 (LLM)을 활용한 생성적 AI로 AI의 민주화
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Generative Artificial Intelligence (GenAI)는 콘텐츠를 생성합니다. 재사용 가능한 모델들이에요. 문맥을 파악하며 학습하는 거죠.
 
@@ -76,7 +127,18 @@ Generative Artificial Intelligence (GenAI)는 콘텐츠를 생성합니다. 재�
 
 # GenAI 사용 사례에서의 대규모 언어 모델의 과제들
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Large Language Models (LLMs)는 재사용이 가능합니다. 이는 AI의 민주화를 가능하게 합니다. 왜냐하면 모든 팀이 AI 전문 지식을 요구하지 않기 때문이죠. 대신, 낮은 AI 전문 지식만 있어도 기존 LLM을 사용할 수 있습니다.
 
@@ -89,7 +151,18 @@ Large Language Models (LLMs)는 재사용이 가능합니다. 이는 AI의 민�
 
 이러한 도전은 이른바 환각을 일으킵니다...
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 환각을 피하고 신뢰할 만한 답변 얻기
 
@@ -99,7 +172,18 @@ Large Language Models (LLMs)는 재사용이 가능합니다. 이는 AI의 민�
 
 이러한 이유로 새로운 디자인 패턴이 생성 적 인공지능을 위해 등장했습니다: 검색 증강 생성(RAG). 이 새로운 모법을 먼저 살펴보고, 그런 다음 Apache Kafka, Flink와 같은 기술로 데이터 스트리밍을 수행하는 것이 GenAI 엔터프라이즈 아키텍처에 대한 기본 요구 사항인 이유를 살펴봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Semantic Search and Retrieval Augmented Generation (RAG)
 
@@ -111,7 +195,18 @@ GenAI를 활용하는 많은 애플리케이션들이 내용이 정확하고 최
 
 출처: Pinecone
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 높은 수준에서, RAG는 일반적으로 두 단계로 구성됩니다. 첫 번째는 데이터 증강 단계로, 종종 구조화되지 않은 운영 데이터를 청크로 나눈 다음 임베딩 모델을 사용하여 임베딩을 생성합니다. 이 임베딩은 벡터 데이터베이스에 색인화됩니다. 벡터 데이터베이스는 정확한 키워드 일치가 필요하지 않은 프롬프트에 관련 컨텍스트를 찾기 위한 의미론적 검색을 가능하게 하는 도구입니다.
 
@@ -121,7 +216,18 @@ GenAI를 활용하는 많은 애플리케이션들이 내용이 정확하고 최
 
 벡터 데이터베이스, 또는 벡터 저장소 또는 벡터 인덱스로도 알려진 것은 벡터 데이터를 효율적으로 저장하고 검색하기 위해 특별히 설계된 데이터베이스 유형입니다. 이 맥락에서 벡터 데이터란 숫자 벡터의 모음을 의미하며, 텍스트, 이미지, 오디오 또는 기타 구조화되지 않은 데이터의 임베딩과 같은 다양한 데이터 유형을 표현할 수 있습니다. 벡터 데이터베이스는 기계 학습, 데이터 검색, 추천 시스템, 유사성 검색 등과 관련된 응용 프로그램에서 유용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 벡터 데이터베이스는 유사도 검색, 종종 의미 검색이라고도 불리는 작업에서 우수한 성과를 보여줍니다. 코사인 유사도나 유클리드 거리와 같은 다양한 유사성 측정 기준을 기반으로 주어진 쿼리 벡터와 유사하거나 가까운 벡터를 빠르게 찾아낼 수 있습니다.
 
@@ -131,7 +237,18 @@ GenAI를 활용하는 많은 애플리케이션들이 내용이 정확하고 최
 
 또 다른 구체적인 예로, MongoDB의 "Atlas Vector Search 및 오픈 소스 모델의 파워 활용: MongoDB를 활용한 생성적 AI 애플리케이션 구축" 튜토리얼을 살펴보세요. Apache Kafka와 벡터 데이터베이스를 결합하는 다양한 옵션이 있습니다. 다음은 이벤트 중심 환경에서 가능한 아키텍처입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 이벤트 주도 아키텍처: 데이터 스트리밍 + 벡터 데이터베이스 + LLM
 
@@ -141,7 +258,18 @@ GenAI를 활용하는 많은 애플리케이션들이 내용이 정확하고 최
 
 \[ ![다이어그램](/assets/img/2024-07-13-ApacheKafkaVectorDatabaseLLMReal-TimeGenAI_4.png) \]
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예시는 실시간으로 항공편 예약 및 변경 정보를 Kafka의 이벤트 스토어에 실시간으로 수집하여 GenAI 기술을 사용하여 후속 처리를 위해 데이터를 처리합니다. Flink는 데이터를 사전 처리한 후 벡터 데이터베이스를 위한 임베딩 모델을 호출합니다. 동시에 Python으로 구축된 실시간 고객 서비스 응용 프로그램은 모든 관련 문맥 데이터(예: 항공편 데이터, 고객 데이터, 임베딩 등)를 사용하여 대규모 언어 모델을 유도합니다. LLM은 신뢰할 수 있는 예측을 생성하며, 예를 들어 승객을 다른 항공편으로 재예약할 것을 권장합니다.
 
@@ -151,7 +279,18 @@ GenAI를 활용하는 많은 애플리케이션들이 내용이 정확하고 최
 
 이상적인 세계에서는 모든 것이 이벤트 기반 및 데이터 스트리밍됩니다. 현실세계는 다릅니다. 따라서 기업 아키텍처의 일부에서는 요청-응답 형식의 API 호출 (HTTP/REST 또는 SQL)이 완전히 적합합니다. Kafka가 시스템을 완전히 분리하기 때문에 각 응용 프로그램은 자체 통신 패러다임과 처리 속도를 선택합니다. 따라서 HTTP/REST API와 Apache Kafka 사이의 Trade-offs를 이해하는 것이 중요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아파치 카프카에서 Request-Response를 사용해야 하는 시기는 언제일까요? 이 결정은 주로 대기 시간, 결합도, 또는 보안과 같은 트레이드오프에 따라 내려집니다. 그러나 대규모 LLM(Large Language Models)의 경우 상황은 달라집니다. LLM을 훈련하는 데 매우 비용이 많이 드는만큼 기존 LLM의 재사용성이 중요합니다. 그리고 LLM을 Kafka Streams나 Flink 애플리케이션에 포함하는 것은 의사결정 트리, 클러스터링 또는 작은 신경망과 같은 다른 모델과는 다르게 별로 타당하지 않습니다.
 
@@ -161,7 +300,18 @@ LLM 및 보강 모델을 호스팅하는 솔루션은 일반적으로 HTTP와 �
 
 # LLM과 기업 전체의 직접적 통합?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사를 쓰는 동안 OpenAI가 GPTs를 발표했습니다. 이제 사용자 정의 버전의 ChatGPT를 만들 수 있게 되었는데, 이는 지침, 추가 지식, 그리고 다양한 스킬을 결합할 수 있습니다. 기업용으로 가장 흥미로운 기능은 개발자들이 OpenAI의 GPT를 실제 세계, 즉 다른 소프트웨어 응용프로그램, 데이터베이스 및 클라우드 서비스에 연결할 수 있다는 것입니다.
 
@@ -171,18 +321,40 @@ LLM 및 보강 모델을 호스팅하는 솔루션은 일반적으로 HTTP와 �
 
 ![Apache Kafka Vector Database](/assets/img/2024-07-13-ApacheKafkaVectorDatabaseLLMReal-TimeGenAI_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 To learn more about the importance and value of true decoupling in a microservice or data mesh architecture, take a look at these insightful articles:
 
-- *Apache Kafka vs. Enterprise Service Bus (ESB) — Friends, Enemies or Frenemies?*
-- *Why Data Streaming differs from Data Integration with integration Platform as a Service (iPaaS) Solutions*
+- _Apache Kafka vs. Enterprise Service Bus (ESB) — Friends, Enemies or Frenemies?_
+- _Why Data Streaming differs from Data Integration with integration Platform as a Service (iPaaS) Solutions_
 
 And don't forget, when it comes to Public GenAI APIs and LLMs, it's important to note that they may have a weak security and governance strategy. As AI data needs grow and the number of integrations increase, challenges related to data access, lineage, and security can become more complex.
 
-Exciting times ahead as we delve into the world of *Data Streaming with Kafka, Flink and GenAI in Practice*! Let's embrace the journey together.
+Exciting times ahead as we delve into the world of _Data Streaming with Kafka, Flink and GenAI in Practice_! Let's embrace the journey together.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이론을 많이 살펴본 후 실제 예제, 데모 및 GenAI와 데이터 스트리밍을 결합한 실제 사례를 살펴보겠습니다.
 
@@ -194,15 +366,37 @@ Exciting times ahead as we delve into the world of *Data Streaming with Kafka, F
 
 카프카와 Flink를 사용한 스트림 처리는 실시간 및 과거 데이터의 데이터 상관관계 분석을 가능하게 합니다. 특히 생성적 AI에 대해 우수한 예시는 맥락별 고객 서비스입니다. 여기서는 항공사 예제와 항공편 취소에 머무릅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-한 가지 주목해야 할 점은 상태 유지 형 스트림 프로세서가 CRM, 충성도 플랫폼 및 기타 응용 프로그램에서 기존 고객 정보를 가져와 고객이 채팅 봇에서 쿼리한 정보와 연관 지어 LLM에 RPC 호출을 수행한다는 것입니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+한 가지 주목해야 할 점은 상태 유지 형 스트림 프로세서가 CRM, 충성도 플랫폼 및 기타 응용 프로그램에서 기존 고객 정보를 가져와 고객이 채팅 봇에서 쿼리한 정보와 연관 지어 LLM에 RPC 호출을 수행한다는 것입니다.
 
 아래 다이어그램은 Apache Flink와 Flink SQL 사용자 정의 함수(UDF)를 사용합니다. SQL 쿼리가 전처리된 데이터를 OpenAI API로 전달하여 신뢰할 수 있는 답변을 받습니다. 이 답변은 다른 Kafka 주제로 전송되어 하위 응용 프로그램이 해당 정보를 활용할 수 있으며, 예를 들어 티켓 재예약, 충성도 플랫폼 업데이트, 데이터를 데이터 레이크에 저장하여 나중에 일괄 처리 및 분석에 활용합니다.
 
 **데모: ChatGPT 4 + Confluent Cloud + MongoDB Atlas를 사용한 RAG 및 벡터 검색**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 동료인 브릿튼 라로치는 카프카를 사용한 데이터 통합 및 처리, 몽고디비를 사용한 저장 및 의미 벡터 검색의 조합을 보여주는 환상적인 소매 데모를 구축했습니다. D-ID는 AI 비디오 생성 플랫폼으로서 명령 줄 인터페이스 대신 시각적 AI 아바타로 더 아름답게 만들어줍니다.
 
@@ -212,7 +406,18 @@ Confluent Cloud와 MongoDB Atlas와 같은 완전 관리되고 깊게 통합된 
 
 이 아키텍처는 내가 위에서 소개한 이벤트 기반 스트리밍 예제와 다릅니다. 여전히 응용 프로그램을 완전히 분리하기 위해 핵심은 카프카입니다. 대부분의 서비스는 요청-응답 API를 통합합니다. 이 방법은 간단하며 이해하기 쉬우며 종종 충분합니다. 그리고 나중에 Python Kafka API, Kafka의 변경 데이터 캡처 (CDC), LangChain Python UDF를 Apache Flink에 삽입하거나 AsyncAPI와 같은 비동기 인터페이스를 사용하여 이벤트 기반 패턴으로 쉽게 마이그레이션할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 MongoDB Atlas를 사용하여 RAG 및 의미 검색을 통해 실시간 GenAI 플랫폼인 Elemental Cognition의 데모를 안내하는 짧은 다섯 분 데모입니다. 이 데모에서는 통합 허브로서 Confluent 및 최종 사용자와의 통신 인터페이스로 D-ID를 활용합니다.
 
@@ -222,7 +427,18 @@ Confluent Cloud와 MongoDB Atlas와 같은 완전 관리되고 깊게 통합된 
 
 Elemental Cognition 기술은 다양한 산업 및 사용 사례에 활용될 수 있습니다. 주요 대상은 의료 / 생명 과학, 투자 관리, 정보 수집, 물류 및 일정 관리, 그리고 고객 센터 등입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AI 플랫폼은 문제 해결을 돕고 이해하고 신뢰할 수 있는 전문 지식을 제공하는 책임 있는 투명한 AI를 개발합니다.
 
@@ -232,7 +448,18 @@ Confluent Cloud는 AI 플랫폼을 지원하여 확장 가능한 실시간 데�
 
 ![Kafka](/assets/img/2024-07-13-ApacheKafkaVectorDatabaseLLMReal-TimeGenAI_8.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 아파치 카프카: 젠AI 기업 아키텍처의 중추신경계
 
@@ -242,7 +469,18 @@ Confluent Cloud는 AI 플랫폼을 지원하여 확장 가능한 실시간 데�
 
 아파치 카프카와 아파치 플링크를 활용한 데이터 스트리밍은 서로 다른 도메인을 완전히 분리함으로써 개발자와 데이터 엔지니어가 비즈니스 문제에 집중할 수 있게 도와줍니다. HTTP, 카프카 API, AsyncAPI, 데이터베이스로부터의 CDC, SaaS 인터페이스 및 기타 다양한 옵션을 통해 카프카와의 통합이 가능합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 카프카는 어떤 통신 패러다임으로도 시스템을 연결하는 것을 가능케 합니다. 이벤트 저장소는 데이터를 밀리초 단위로 공유하지만 데이터를 천천히 처리해야 하는 하위 응용 프로그램과 과거 데이터를 다시 재생하는 데도 데이터를 영속화합니다. 데이터 메시의 핵심은 실시간으로 운용되어야 합니다. 어떠한 훌륭한 기업 아키텍처에도 해당하는 내용이죠. GenAI도 마찬가지입니다.
 

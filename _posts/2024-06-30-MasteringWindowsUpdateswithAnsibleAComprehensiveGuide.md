@@ -3,17 +3,13 @@ title: "Ansible로 윈도우 업데이트 마스터하기 종합 가이드"
 description: ""
 coverImage: "/assets/img/2024-06-30-MasteringWindowsUpdateswithAnsibleAComprehensiveGuide_0.png"
 date: 2024-06-30 23:20
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-30-MasteringWindowsUpdateswithAnsibleAComprehensiveGuide_0.png
 tag: Tech
 originalTitle: "Mastering Windows Updates with Ansible: A Comprehensive Guide"
 link: "https://medium.com/@krishnendubhowmick/mastering-windows-updates-with-ansible-a-comprehensive-guide-6272bc13d58b"
 isUpdated: true
 ---
-
-
-
-
 
 윈도우 시스템에서 업데이트를 관리하는 것은 여러 대의 서버가 있는 환경에서 특히 어려울 수 있습니다. 일반적으로 윈도우 업데이트는 GUI를 통해 관리되어왔는데, 이는 시간이 많이 소요되고 오류가 발생하기 쉽습니다. 그러나 Ansible을 사용하면 전체 프로세스를 자동화하여 최소한의 노력으로 시스템이 최신 상태를 유지할 수 있습니다. 이 블로그에서는 Ansible을 사용하여 윈도우 업데이트를 설정하고 관리하는 과정을 안내해 드리겠습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Ansible 구성으로 진입하기 전에 필요한 사전 준비 사항이 갖춰져 있는지 확인해 보겠습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Ansible 제어 머신: 제어 머신에 Ansible이 설치되어 있는지 확인해주세요. 그렇지 않은 경우, 다음 명령을 사용하여 설치할 수 있습니다:
 
@@ -35,7 +42,18 @@ pip install ansible
 
 3. Ansible Windows Collection: Windows 업데이트를 관리하기 위한 필요한 모듈이 있는지 확인하기 위해 ansible.windows 컬렉션을 설치해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ansible-galaxy collection install ansible.windows
@@ -72,7 +90,18 @@ winrm create winrm/config/Listener?Address=*+Transport=HTTPS “@{Hostname=`”l
 Restart-Service -Name “WinRM"
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Ansible 인벤토리 설정
 
@@ -92,7 +121,18 @@ ansible_winrm_transport=basic
 ansible_winrm_server_cert_validation=ignore
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 Windows 호스트에서 업데이트를 확인하고 설치하는 Ansible 플레이북을 만들어봅시다. win_updates.yaml이라는 파일을 생성하고 다음 내용을 추가하세요:
 
@@ -140,7 +180,18 @@ ansible_winrm_server_cert_validation=ignore
 - 대기 중인 업데이트 확인: win_updates 모듈을 사용하여 대기 중인 업데이트를 검색합니다.
 - 대기 중인 업데이트 출력: 대기 중인 업데이트 목록을 출력합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Playbook 실행 방법
 
@@ -152,7 +203,18 @@ ansible-playbook -i inventory.ini win_updates.yaml -l win_host1
 
 이 명령어는 지정된 호스트(win_host1)에서 플레이북을 실행합니다. -l 옵션을 생략하여 모든 Windows 호스트에서 실행할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 문제 해결
 
@@ -164,7 +226,18 @@ ansible-playbook -i inventory.ini win_updates.yaml -l win_host1 -vvv
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 가이드를 따라하면 Ansible을 사용하여 Windows 시스템에서 업데이트를 확인하고 설치하는 프로세스를 자동화할 수 있습니다. 이는 시간을 절약하는 뿐만 아니라 환경 전반에 걸쳐 일관성을 보장합니다. Ansible의 강력한 자동화 기능은 혼합된 환경을 관리하는 시스템 관리자 및 DevOps 엔지니어에게 귀중한 도구가 됩니다.
 

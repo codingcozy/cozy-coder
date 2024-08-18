@@ -3,7 +3,7 @@ title: "안드로이드에서 KtLint 통합하는 방법"
 description: ""
 coverImage: "/milky-road.github.io/assets/no-image.jpg"
 date: 2024-07-10 01:50
-ogImage: 
+ogImage:
   url: /milky-road.github.io/assets/no-image.jpg
 tag: Tech
 originalTitle: "KtLint Integration in Android"
@@ -11,17 +11,24 @@ link: "https://medium.com/@amitdogra70512/ktlint-integration-in-android-952049b9
 isUpdated: true
 ---
 
-
-
-
-
 **KtLint을 안드로이드 프로젝트에 통합하고 필요에 맞게 구성하는 과정에 대해 안내해 드리겠습니다.**
 
 **KtLint이란?**
 
 **KtLint은 코틀린을 위한 정적 코드 분석 도구로, 코틀린 코딩 스타일을 강화하는 데 도움을 주는 도구입니다. 사용자 또는 커뮤니티에서 정의한 규칙 세트에 따라 코틀린 코드를 검사하며, 해당 규칙에서 벗어난 내용을 식별합니다. 코드 스타일 강제 적용을 자동화함으로써, KtLint는 코드베이스 전반에 일관성을 유지하고 최선의 실천 방법을 장려합니다.**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 스텝 1: 빌드 구성에 KtLint 플러그인 추가하기
 
@@ -36,7 +43,18 @@ plugins {
 
 이 플러그인은 KtLint를 사용하여 Kotlin 코드를 확인하고 포맷팅하는 작업을 프로젝트에 추가합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Step 2: KtLint 설정 구성하기
 
@@ -57,7 +75,18 @@ ktlint {
 
 이 구성에서:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **친구들아, 안드로이드 전용 린트 규칙을 준수하도록 하는 android = true 설정이 있어요.**
 
@@ -73,10 +102,21 @@ ktlint {
 
 ```js
 //build.gradle
-tasks.getByPath("preBuild").dependsOn("ktlintFormat") 
+tasks.getByPath("preBuild").dependsOn("ktlintFormat");
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 줄을 추가하신 후에는 Gradle을 사용하여 ktlint 작업을 실행할 수 있습니다:
 
@@ -89,9 +129,20 @@ tasks.getByPath("preBuild").dependsOn("ktlintFormat")
 
 # 코드 확인
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-**ktlint** 명령어는 Kotlin 파일을 수정하지 않고 스타일 문제를 분석합니다.  
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+**ktlint** 명령어는 Kotlin 파일을 수정하지 않고 스타일 문제를 분석합니다.
 
 이 명령어는 현재 디렉토리와 그 하위 디렉토리에 있는 모든 Kotlin 파일을 확인합니다. 특정 파일 또는 디렉토리를 확인하려면 경로를 지정할 수 있어요:
 
@@ -99,50 +150,74 @@ tasks.getByPath("preBuild").dependsOn("ktlintFormat")
 ktlint path/to/your/file/or/directory
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 코드 형식 지정
 
 Ktlint format 명령은 Kotlin 파일의 스타일 문제를 자동으로 수정합니다.
 
 ```js
-ktlint -F
+ktlint - F;
 ```
 
 체크 명령과 마찬가지로 특정 파일이나 디렉토리를 지정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ktlint -F path/to/your/file/or/directory
-
 
 # CI/CD에 Ktlint 통합
 
 귀하의 코드가 CI/CD 파이프라인에서 스타일 가이드에 준수하는지 확인하기 위해 ktlint 검사를 통합할 수 있습니다. GitHub Actions 워크플로에 ktlint를 추가하는 예시는 아래와 같습니다:
-
 
 name: Kotlin Lint
 
 on: [push, pull_request]
 
 jobs:
-  lint:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - name: Set up JDK 11
-        uses: actions/setup-java@v1
-        with:
-          java-version: 11
-      - name: Install ktlint
-        run: curl -sSLO https://github.com/pinterest/ktlint/releases/download/0.41.0/ktlint && chmod a+x ktlint
-      - name: Run ktlint
-        run: ./ktlint
+lint:
+runs-on: ubuntu-latest
+steps: - uses: actions/checkout@v2 - name: Set up JDK 11
+uses: actions/setup-java@v1
+with:
+java-version: 11 - name: Install ktlint
+run: curl -sSLO https://github.com/pinterest/ktlint/releases/download/0.41.0/ktlint && chmod a+x ktlint - name: Run ktlint
+run: ./ktlint
 
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 워크플로우는 코드가 저장소에 푸시되거나 풀 리퀘스트가 생성될 때마다 ktlint를 실행하여 모든 코드가 스타일 가이드에 준수되도록 보장합니다.
 

@@ -3,17 +3,13 @@ title: "위에서 바라본 Transformer 구조"
 description: ""
 coverImage: "/assets/img/2024-06-19-TheTransformerArchitectureFromaTopView_0.png"
 date: 2024-06-19 20:35
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-TheTransformerArchitectureFromaTopView_0.png
 tag: Tech
 originalTitle: "The Transformer Architecture From a Top View"
 link: "https://medium.com/towards-artificial-intelligence/the-transformer-architecture-from-a-top-view-e8079c96b473"
 isUpdated: true
 ---
-
-
-
-
 
 지금까지 사용되던 최신 언어 처리(NLP) 모델은 다른 모델들 중에서 순환 신경망(RNN)이었습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 2017년 Vaswani 등이 발표한 논문 "Attention is All You Need"에서 개발된 트랜스포머는 자가 주의 메커니즘을 활용하여 문장 내 모든 단어의 관련성과 문맥을 학습할 수 있게 되어 NLP를 혁신했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 RNN(Recurrent Neural Networks)이 데이터를 순차적으로 처리하는 것과는 달리, Transformer는 문장의 모든 부분을 동시에 분석합니다. 이 병렬 처리 능력 덕분에 Transformer는 문장이나 문서에서 각 단어의 맥락과 관련성을 모든 다른 단어에 대해 학습할 수 있습니다. 이는 RNN에서 발견되는 장기 의존성과 계산 효율성과 관련된 한계를 극복하는 데 도움이 됩니다.
 
@@ -36,7 +43,18 @@ RNN(Recurrent Neural Networks)이 데이터를 순차적으로 처리하는 것�
 - 인코더: 토큰 시퀀스의 입력을 각 토큰의 맥락을 포착하는 풍부하고 연속적인 표현으로 변환합니다. 그 출력은 임베딩 벡터의 시퀀스이며, 종종 숨겨진 상태 또는 컨텍스트로 불립니다.
 - 디코더: 인코더의 숨겨진 상태를 사용하여 반복적으로 한 번에 하나씩 토큰의 출력 시퀀스를 생성합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Transformer 아키텍처에는 Encoder와 Decoder 두 가지가 모두 존재하지만, Encoder만 사용하는 경우, Decoder만 사용하는 경우, 또는 둘 다 사용하는 경우 등 3가지 유형의 트랜스포머가 있습니다.
 
@@ -49,7 +67,18 @@ Transformer 아키텍처에는 Encoder와 Decoder 두 가지가 모두 존재하
 
 ## Decoder-only Transformers
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 여기서 모델들을 느슨하게 번역의 역할을 수행하는 창의적인 이야기꾼으로 상상해봅시다.
 - "트랜스포머를 학습하는 것은..."과 같은 텍스트 자극이 주어지면, 이러한 모델들은 가장 가능성 있는 다음 단어를 예측하며 시퀀스를 자동으로 완성합니다 (바람직하게는 "즐겁다").
@@ -65,8 +94,18 @@ Transformer 아키텍처에는 Encoder와 Decoder 두 가지가 모두 존재하
 
 # 1. 토크나이저
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-TheTransformerArchitectureFromaTopView_1.png" />
 
@@ -79,8 +118,18 @@ Transformer 아키텍처에는 Encoder와 Decoder 두 가지가 모두 존재하
 
 <img src="/assets/img/2024-06-19-TheTransformerArchitectureFromaTopView_2.png" />
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 이미지를 참고하면 내부에는 하나의 임베딩 레이어를 엿볼 수 있지만 두 레이어가 동일합니다.
 
@@ -94,7 +143,18 @@ Transformer 아키텍처에는 Encoder와 Decoder 두 가지가 모두 존재하
 - 모델은 각 입력 토큰을 병렬로 처리합니다.
 - 포지셔널 임베딩을 통해 모델은 단어 순서에 대한 정보를 얻으며, 텍스트를 이해하려고 할 때 매우 중요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3. 인코더
 
@@ -106,7 +166,18 @@ Transformer 아키텍처에는 Encoder와 Decoder 두 가지가 모두 존재하
 
 ## 멀티 헤드 셀프 어텐션
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 인코더 내부의 이 레이어는 특정 작업을 수행합니다: 문장 속 각 단어를 그 자체로 이해하는 것뿐만 아니라 다른 모든 단어와도 함께 이해하는 것입니다.
 
@@ -118,7 +189,18 @@ Transformer 아키텍처에는 Encoder와 Decoder 두 가지가 모두 존재하
 
 ## 전방향
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이는 두 층으로 구성된 완전 연결 (밀집) 신경망 구조입니다.
 - 임베딩 시퀀스 전체를 하나의 벡터로 처리하지 않습니다.
@@ -134,7 +216,18 @@ Transformer 아키텍처에는 Encoder와 Decoder 두 가지가 모두 존재하
 
 인코더와 유사하게 디코더도 많은 디코더들의 스택으로 구성되어 있으며(인코더-디코더 모델의 인코더 수와 동일), 서로 동일합니다. 예를 들어 (디코더 전용인) GPT-2 Extra Large 모델은 48개의 디코더 레이어 스택을 가지고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 👋 디코더와 인코더의 주요 차이점은 디코더에는 두 가지 어텐션 서브레이어가 있다는 것입니다:
 
@@ -146,7 +239,18 @@ Transformer 아키텍처에는 Encoder와 Decoder 두 가지가 모두 존재하
 
 ### 인코더-디코더 어텐션
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이 레이어는 각 출력 시퀀스 토큰을 생성하는 동안 입력 시퀀스의 서로 다른 부분(두 가지 다른 언어 같은)에 초점을 맞출 수 있도록 디코더에 가능하게 합니다.
 - 디코더는 출력 시퀀스에서 다음 토큰을 생성하면서 현재 문맥과 지금까지 생성한 내용을 고려합니다.
@@ -160,7 +264,18 @@ Transformer 아키텍처에는 Encoder와 Decoder 두 가지가 모두 존재하
 ➥LinkedIn이나 𝕏에서 연결합시다.
 ➥제 GitHub을 확인하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 다음에 무엇을 읽을지 고민이세요? 여기 두 가지 추천이 있어요:
 

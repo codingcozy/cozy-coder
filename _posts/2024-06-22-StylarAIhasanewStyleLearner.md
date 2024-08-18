@@ -3,17 +3,13 @@ title: "Stylar AI의 새로운 스타일 학습기 소개"
 description: ""
 coverImage: "/assets/img/2024-06-22-StylarAIhasanewStyleLearner_0.png"
 date: 2024-06-22 21:57
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-StylarAIhasanewStyleLearner_0.png
 tag: Tech
 originalTitle: "Stylar AI has a new Style Learner"
 link: "https://medium.com/let-there-be-prompt/stylar-ai-has-a-new-style-learner-337b341a7722"
 isUpdated: true
 ---
-
-
-
-
 
 저는 생성적 AI 앱 내 스타일 프리셋의 열렬한 팬입니다. 이에는 좋은 이유가 있죠.
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 스타일은 생성적 예술에서 다른 어떤 예술 형태에서나 중요합니다. 네, 프롬프트 자체에서 스타일을 설명하는 것이 가능하고 흔합니다. 대다수 생성적 AI 사용자들이 그렇게 하죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![StylarAI new Style Learner](/assets/img/2024-06-22-StylarAIhasanewStyleLearner_0.png)
 
@@ -34,8 +40,18 @@ It becomes an even more complex task if the creator wants to remain consistent i
 
 That is where style presets and style references come in. Giving AI a reference to the style and leaving a prompt to describe your scene, subjects, and composition is the most effective way to work.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Stylar AI는 이미 멋진 스타일 프리셋을 제공하고 있어요. 하지만 프리셋은 각 개별 창작자의 스타일과는 조금 다를 수 있죠.
 
@@ -45,7 +61,18 @@ Stylar AI는 이미 멋진 스타일 프리셋을 제공하고 있어요. 하지
 
 이 새로운 도구는 텍스트에서 이미지로 또는 이미지에서 이미지로 도구 중 스타일 옵션 창 옆의 “+” 기호를 클릭하여 액세스할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-StylarAIhasanewStyleLearner_1.png" />
 
@@ -55,7 +82,18 @@ Stylar AI는 이미 멋진 스타일 프리셋을 제공하고 있어요. 하지
 
 사용 과정은 직관적이고 간단해요: “스타일 학습” 버튼을 클릭하면 새 창이 열려 이미지를 업로드하고 새 스타일에 이름을 지정할 수 있어요. 필요한 정보가 모두 담긴 “학습 가이드” 링크도 있어요. 읽어보는 걸 추천해요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-06-22-StylarAIhasanewStyleLearner_2](/assets/img/2024-06-22-StylarAIhasanewStyleLearner_2.png)
 
@@ -65,7 +103,18 @@ Stylar AI는 이미 멋진 스타일 프리셋을 제공하고 있어요. 하지
 
 제가 생성한 이미지를 "텍스트-이미지" 및 "이미지-이미지" 도구로 테스트했고 결과가 인상적이었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여러 이미지 스타일 프리셋에서 훈련을 받은 것은 단일 이미지 스타일 참조와 비교하여 훨씬 다양한 경우에 더 잘 작동합니다.
 
@@ -75,7 +124,18 @@ Stylar AI는 이미 멋진 스타일 프리셋을 제공하고 있어요. 하지
 
 ![이미지](/assets/img/2024-06-22-StylarAIhasanewStyleLearner_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Stylar AI](/assets/img/2024-06-22-StylarAIhasanewStyleLearner_5.png)
 
@@ -85,6 +145,17 @@ Stylar AI는 이미 멋진 스타일 프리셋을 제공하고 있어요. 하지
 
 Stylar AI는 이미 높은 품질의 작업을 위한 도구로 잘 갖추어져 있어요. 이 새로운 애드온은 그 철학을 더욱 발전시키고 있답니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아이바라스 그라우지니스

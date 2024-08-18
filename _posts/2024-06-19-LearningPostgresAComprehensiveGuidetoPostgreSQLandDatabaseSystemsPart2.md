@@ -3,17 +3,13 @@ title: "PostgreSQL 및 데이터베이스 시스템을 포괄적으로 다루는
 description: ""
 coverImage: "/assets/img/2024-06-19-LearningPostgresAComprehensiveGuidetoPostgreSQLandDatabaseSystemsPart2_0.png"
 date: 2024-06-19 16:26
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-LearningPostgresAComprehensiveGuidetoPostgreSQLandDatabaseSystemsPart2_0.png
 tag: Tech
 originalTitle: "Learning Postgres: A Comprehensive Guide to PostgreSQL and Database Systems (Part 2)"
 link: "https://medium.com/@tomas-svojanovsky/learning-postgres-a-comprehensive-guide-to-postgresql-and-database-systems-part-2-dc7e63510385"
 isUpdated: true
 ---
-
-
-
-
 
 ![그림을 표시할 수 없습니다](/assets/img/2024-06-19-LearningPostgresAComprehensiveGuidetoPostgreSQLandDatabaseSystemsPart2_0.png)
 
@@ -23,7 +19,18 @@ PostgreSQL(줄여서 Postgres)는 신뢰성, 견고함, 다양한 기능으로 �
 
 Codd 박사는 관계형 테이블에서 데이터를 조작하기 위한 DSL/Alpha라는 언어를 제안했습니다. Codd의 논문이 발표된 후, IBM은 그의 아이디어를 기반으로 한 프로토타입을 구축하기 위해 그룹을 위임했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 그룹은 DSL/Alpha의 간소화된 버전인 SQUARE를 개발했습니다. SQUARE의 추가 세부 조정으로 SEQUEL이라는 언어가 만들어졌고, 이 언어는 결국 SQL로 줄여졌습니다.
 
@@ -33,7 +40,18 @@ SQL은 처음에 관계형 데이터베이스에서 데이터를 조작하는 �
 
 PostgreSQL은 선조인 Ingres에서 이름을 따왔습니다. Ingres는 Michael Stonebraker 교수가 개발한 관계형 데이터베이스였습니다. 1986년에 Stonebraker 교수는 Ingres 이후의 새로운 기능을 개발하기 위한 프로젝트를 시작했고, 이 프로젝트를 POSTGRES (Post-Ingres의 약어)라고 명명했습니다. 목표는 객체-관계형 데이터베이스를 만들어 사용자가 자신의 객체(데이터 유형 및 함수와 같은)로 데이터베이스를 확장할 수 있게 하는 것이었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1994년에 MIT 라이선스 하에 POSTGRES 버전 4.2가 출시되어 전 세계 개발자들과의 협업이 가능해 졌습니다. 그 당시 POSTGRES는 QUEL이라는 내부 쿼리 언어를 사용했습니다. 버클리 대학의 두 학생 Andrew Yu와 Jolly Chen은 QUEL을 더 현대적인 SQL 언어로 대체했습니다. 이 혁신으로 프로젝트는 중요한 업데이트를 강조하기 위해 Postgre95로 이름이 변경되었습니다.
 
@@ -43,7 +61,18 @@ PostgreSQL은 선조인 Ingres에서 이름을 따왔습니다. Ingres는 Michae
 
 ## 관계형 데이터베이스
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 데이터를 쿼리하고 관리하기 위해 SQL을 사용하세요.
 - MySQL, PostgreSQL, Oracle, Microsoft SQL Server
@@ -58,7 +87,18 @@ PostgreSQL은 선조인 Ingres에서 이름을 따왔습니다. Ingres는 Michae
 
 ### 객체 지향 데이터베이스
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 객체 지향 프로그래밍과 유사하게 객체로 데이터 저장
 - db4o, ObjectDB
@@ -70,7 +110,18 @@ PostgreSQL은 선조인 Ingres에서 이름을 따왔습니다. Ingres는 Michae
 
 ## 네트워크 데이터베이스
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 계층적 데이터베이스와 유사하지만 여러 부모 노드와의 복잡한 관계를 허용합니다.
 - 통합 데이터 저장소 (IDS)
@@ -82,7 +133,18 @@ PostgreSQL은 선조인 Ingres에서 이름을 따왔습니다. Ingres는 Michae
 
 ## 공간 데이터베이스
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 지리적 위치와 같은 공간 데이터를 저장하고 쿼리하는 데 사용됨
 - PostGIS (PostgreSQL의 확장), Oracle Spatial
@@ -94,7 +156,18 @@ PostgreSQL은 선조인 Ingres에서 이름을 따왔습니다. Ingres는 Michae
 
 ## NewSQL 데이터베이스
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - NoSQL 시스템의 확장성과 전통적인 RDBMS의 ACID 보장을 결합해 보세요!
 - Google Spanner, CockroachDB
@@ -106,7 +179,18 @@ PostgreSQL은 선조인 Ingres에서 이름을 따왔습니다. Ingres는 Michae
 
 ## 클라우드 데이터베이스
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 클라우드 플랫폼에서 호스팅되며 확장성, 고가용성 및 관리 서비스를 제공합니다
 - Amazon RDS, Google Cloud SQL, Microsoft Azure SQL Database
@@ -118,7 +202,18 @@ PostgreSQL은 선조인 Ingres에서 이름을 따왔습니다. Ingres는 Michae
 
 ## 포스트그레스 기능
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 오픈 소스: PostgreSQL은 PostgreSQL 라이선스에 따라 배포되어 무료로 사용, 수정, 및 배포가 가능합니다.
 - SQL 표준 지원: PostgreSQL은 SQL 표준과 완전히 호환되며 기본 SQL을 넘어서 많은 확장 기능을 제공합니다.
@@ -138,7 +233,18 @@ PostgreSQL은 선조인 Ingres에서 이름을 따왔습니다. Ingres는 Michae
 
 ## 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 포스트그레SQL에 대한 소개로 시작했습니다. 이를 통해 캘리포니아 대학 버클리 캠퍼스의 post-Ingres 프로젝트에서 발전한 객체-관계형 데이터베이스 시스템의 기원을 강조했어요.
 
@@ -148,7 +254,18 @@ PostgreSQL은 선조인 Ingres에서 이름을 따왔습니다. Ingres는 Michae
 
 우리는 MySQL, PostgreSQL, Oracle과 같은 전통적인 관계형 데이터베이스에서부터 MongoDB, Redis, Cassandra, Neo4j와 같은 비구조화 데이터용 NoSQL 데이터베이스, 그리고 객체지향, 계층형, 네트워크, 시계열, 공간, 다중모델, NewSQL, 인메모리, 클라우드, 열 지향 데이터베이스 등을 포괄하는 다양한 데이터베이스 시스템의 풍요로운 풍경도 살펴보았습니다. 각각은 서로 다른 사용 사례와 데이터 요구 사항에 적합합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그런 다음 PostgreSQL의 강력한 기능을 강조했습니다. 이는 오픈 소스 성격, SQL 표준 준수, 객체-관계 기능, 확장성, 트랜잭션 지원 및 JSON, XML, 복제, 및 고 가용성을 처리하기 위한 고급 기능을 강조했습니다.
 

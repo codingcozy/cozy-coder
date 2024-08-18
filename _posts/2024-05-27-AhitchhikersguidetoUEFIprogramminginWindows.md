@@ -3,16 +3,13 @@ title: "윈도우에서 UEFI 프로그래밍을 위한 히치하이커 안내서
 description: ""
 coverImage: "/assets/img/2024-05-27-AhitchhikersguidetoUEFIprogramminginWindows_0.png"
 date: 2024-05-27 12:32
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-AhitchhikersguidetoUEFIprogramminginWindows_0.png
 tag: Tech
 originalTitle: "A hitchhiker’s guide to UEFI programming in Windows"
 link: "https://medium.com/d-classified/a-hitchhikers-guide-to-uefi-programming-in-windows-7449994a0486"
 isUpdated: true
 ---
-
-
-
 
 ## 왕밍재는 Secure Boot가 활성화된 실제 시스템에 개발한 UEFI 프로그램의 전체 과정을 설명합니다. 그의 안내로 엔지니어들은 UEFI 환경의 다양한 요소를 이해하고 UEFI 프로그램의 실행과 배포에 미치는 영향을 파악할 수 있습니다. 민재는 다양한 실용적 고려 사항을 포함하여 독자들이 다양한 배포 옵션을 평가하는 데 도움을 줍니다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 UEFI (통합 확장 펌웨어 인터페이스) 개발은 대부분 EDK II (EFI 개발 키트 II) 리포를 사용하여 수행됩니다. EFI는 원래 BIOS를 대체하기 위해 Intel 내에서 시작된 프로젝트였습니다. 노력은 1998년 Tiano 프로젝트 내에서 시작되었으며 규격과 이를 구현하는 펌웨어로 이루어져 있습니다. 2004년, Intel은 EFI 펌웨어의 기본 코드를 오픈 소스로 공개했습니다. 2005년, 컴퓨터 산업의 주요 업체들이 UEFI 포럼을 결성하여 특정 규격을 소유하게 되었으며 2006년에 UEFI 2.0 규격을 발표했습니다. 이후 오픈 소스 코드는 EDK로 발전하고 마침내 오늘날의 EDK II로 이어졌습니다. 개발자 커뮤니티인 TianoCore는 GitHub에서 소스 코드를 유지보수합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Windows에서 UEFI 개발은 예전에는 복잡한 프로세스였습니다. 많은 수동 단계가 필요했죠. UEFI는 사용자 지정 빌드 도구 체인을 구현하며 IDE를 통한 개발을 지원하지 않습니다. 온라인에서 다양한 안내서를 찾을 수 있고 컨테이너를 사용하여 빌드 프로세스가 개선되었지만, 여전히 IDE의 편리함에는 미치지 못합니다. 게다가 UEFI 실행 파일을 설치/배포하는 방법에 대한 충분한 자료가 없으며, Secure Boot를 활성화한 상태에서 실행시키는 방법에 대한 정보는 더 드물죠.
 
@@ -34,7 +42,18 @@ Windows에서 UEFI 개발은 예전에는 복잡한 프로세스였습니다. �
 - C 프로그래밍 언어
 - Visual Studio IDE
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 설치 및 빌드
 
@@ -44,7 +63,18 @@ VisualUefi 저장소의 지침에 따라 진행하세요.
 
 ## 실행
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 UEFI 실행 파일은 OS에서 직접 실행되지 않고 OS 부팅 전에 있는 UEFI 환경에서만 실행될 수 있습니다. 따라서 VisualUEFI는 QEMU와 EDK II의 OVMF (Open Virtual Machine Firmware) 모듈을 사용하여 펌웨어 실행 환경을 에뮬레이트합니다. VisualUEFI는 UEFI 실행 파일이 일반적인 명령행 실행 파일과 거의 동일하게 실행될 수 있도록 QEMU와 OVMF를 통합합니다.
 
@@ -54,8 +84,18 @@ UEFI 실행 파일은 OS에서 직접 실행되지 않고 OS 부팅 전에 있�
 
 샘플 솔루션에서 Ctrl+F5를 눌러 QEMU를 실행하세요. 이렇게 하면 EFI 셸로 직접 부팅되며 여기서 샘플 UEFI 실행 파일을 실행할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Screenshot 1](/assets/img/2024-05-27-AhitchhikersguidetoUEFIprogramminginWindows_1.png)
 
@@ -65,8 +105,18 @@ F5를 사용해도 되지만, 이 방법은 Visual Studio 디버거를 시작하
 
 ![Screenshot 2](/assets/img/2024-05-27-AhitchhikersguidetoUEFIprogramminginWindows_2.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫째로, UefiDriver.efi를 로드해주세요:
 
@@ -76,7 +126,18 @@ F5를 사용해도 되지만, 이 방법은 Visual Studio 디버거를 시작하
 
 동일한 방식으로 drivers 명령어를 사용할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어플리케이션을 실행하세요:
 
@@ -86,16 +147,35 @@ F5를 사용해도 되지만, 이 방법은 Visual Studio 디버거를 시작하
 
 큐뮤를 실행한 후, 펌웨어 메뉴로 진입할 때까지 Esc 키를 누른 채로 유지하세요. 또는 EFI 셸에서 exit 명령을 입력하여 펌웨어 메뉴로 나갈 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Boot Maintenance Manager](/assets/img/2024-05-27-AhitchhikersguidetoUEFIprogramminginWindows_5.png)
 
 Select Boot Options.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-05-27-AhitchhikersguidetoUEFIprogramminginWindows_7.png)
 
@@ -105,9 +185,18 @@ Select Add Boot Option.
 
 Select the first option.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image 1](/assets/img/2024-05-27-AhitchhikersguidetoUEFIprogramminginWindows_9.png)
 
@@ -117,8 +206,18 @@ Select UefiApplication.efi.
 
 Enter any description; this will be the display name of the new boot option. The Optional Data field specifies the arguments that are passed to the UEFI executable. Leave it blank as the sample application does not use it.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 변경 사항을 저장하고 펌웨어 메뉴 페이지로 돌아가세요. 부트 매니저 옵션을 선택하세요:
 
@@ -128,48 +227,64 @@ Enter any description; this will be the display name of the new boot option. The
 
 사용자가 키를 눌러야 응용 프로그램이 돌아올 때까지 기다리도록 하는 방법이 있습니다. 이는 edk2\MdeModulePkg\Library\CustomizedDisplayLib\CustomizedDisplayLibInternal.c의 WaitForKeyStroke 함수를 사용하여 달성할 수 있습니다. 그러나 EDK-II 솔루션에 이 라이브러리가 포함되어 있지 않아 사용할 수 없습니다. Visual Studio 프로젝트를 만들어 새 라이브러리를 빌드하는 것은 본 안내서의 범위를 넘어서므로 지금은 응용 프로그램에 코드를 복제하는 것만으로 충분합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 EFI_STATUS
 WaitForKeyStroke(
-    OUT  EFI_INPUT_KEY* Key
+OUT EFI_INPUT_KEY\* Key
 )
 {
-    EFI_STATUS  Status;
-    UINTN       Index;
-    while (TRUE) {
-        Status = gST->ConIn->ReadKeyStroke(gST->ConIn, Key);
-        if (!EFI_ERROR(Status)) {
-            break;
-        }
-        if (Status != EFI_NOT_READY) {
-            continue;
-        }
-        gBS->WaitForEvent(1, &gST->ConIn->WaitForKey, &Index);
-    }
-    return Status;
+EFI_STATUS Status;
+UINTN Index;
+while (TRUE) {
+Status = gST->ConIn->ReadKeyStroke(gST->ConIn, Key);
+if (!EFI_ERROR(Status)) {
+break;
+}
+if (Status != EFI_NOT_READY) {
+continue;
+}
+gBS->WaitForEvent(1, &gST->ConIn->WaitForKey, &Index);
+}
+return Status;
 }
 
-
 호출하는 코드:
-
 
 Print(L"Press any key to continue...\n");
 EFI_INPUT_KEY keyInput;
 efiStatus = WaitForKeyStroke(&keyInput);
 if (EFI_ERROR(efiStatus))
 {
-    Print(L"Failed to get keystroke: %lx\n", efiStatus);
-    goto Exit;
+Print(L"Failed to get keystroke: %lx\n", efiStatus);
+goto Exit;
 }
-
 
 주의할 점: 샘플 응용 프로그램의 코드에 3가지 문제가 있습니다:
 
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 94번 라인:
 
@@ -181,8 +296,18 @@ efiStatus = ShellInitialize();
 
 - 104번 라인:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 efiStatus = ShellOpenFileByName(L"fs1:\\UefiApplication.efi",
@@ -196,19 +321,39 @@ efiStatus = ShellOpenFileByName(L"fs1:\\UefiApplication.efi",
 efiStatus = gBS->LocateProtocol(&gEfiSampleDriverProtocolGuid, NULL, &sampleProtocol);
 ```
 
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 샘플 드라이버에 액세스하려고 시도되었지만, 아직 드라이버를 설치하지 않았기 때문에 이 작업도 실패합니다.
 
 코드는 항상 실패 시에 항상 "Exit;"으로 이동하므로 사용자의 키 입력을 읽는 코드를 제일 위에 삽입해야 실행이 보장됩니다.
 
-부트 매니저 UI를 항상 입력해야 하는 것을 피하기 위해 부팅 순서를 EFI 셸 대신 새로운 옵션을 먼저 부팅하도록 변경할 수 있습니다. 그러려면, Boot Maintenance Manager ` Boot Options ` Change Boot Order로 이동하십시오:
+부트 매니저 UI를 항상 입력해야 하는 것을 피하기 위해 부팅 순서를 EFI 셸 대신 새로운 옵션을 먼저 부팅하도록 변경할 수 있습니다. 그러려면, Boot Maintenance Manager `Boot Options` Change Boot Order로 이동하십시오:
 
 ![이미지](/assets/img/2024-05-27-AhitchhikersguidetoUEFIprogramminginWindows_12.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 경우에는 애플리케이션이 펌웨어 메뉴 대신 EFI 셸로 종료됩니다. 부팅할 때 부팅 옵션이 EFI_SUCCESS를 반환하면 제어가 펌웨어 메뉴로 돌아가고, 그렇지 않으면 다음 부팅 옵션이 실행되며, 모든 부팅 옵션이 시도될 때까지 EFI_SUCCESS를 반환하거나 모든 부팅 옵션이 소진됩니다(UFI 사양서 섹션 3.1.1 참조). 위에서 언급한 3가지 문제로 인해 애플리케이션은 EFI_SUCCESS를 반환하지 않으므로 펌웨어는 다음 옵션인 UEFI 셸을 실행합니다.
 
@@ -218,7 +363,18 @@ efiStatus = gBS->LocateProtocol(&gEfiSampleDriverProtocolGuid, NULL, &sampleProt
 
 부팅 유지 관리자 페이지에서 드라이버 옵션을 선택하세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-27-AhitchhikersguidetoUEFIprogramminginWindows_13.png)
 
@@ -228,9 +384,18 @@ Add Driver 옵션을 선택하세요.
 
 파일을 사용하여 Add Driver 옵션을 선택하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-05-27-AhitchhikersguidetoUEFIprogramminginWindows_15.png)
 
@@ -240,11 +405,18 @@ Select the first option.
 
 Select UefiDriver.efi.
 
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
-
-
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-27-AhitchhikersguidetoUEFIprogramminginWindows_17.png)
 
@@ -254,10 +426,18 @@ Select UefiDriver.efi.
 
 펌웨어 부팅 관리자는 부팅 시 부트와 드라이버 옵션을 자동으로 실행하는 펌웨어 구성 요소를 가리킵니다; 사용자가 수동으로 실행할 부트 옵션을 선택하는 부팅 관리자 UI와 혼동하면 안 됩니다. 또한 드라이버 오버라이드를 적용하려면 마지막 드라이버 옵션이 처리된 후 모든 UEFI 드라이버가 시스템에서 연결 해제되고 다시 연결되어야 합니다.
 
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 펌웨어 부트 매니저는 부팅 옵션을 처리하기 전에 모든 드라이버 옵션을 자동으로 처리합니다. 그러므로 부팅 옵션과는 달리 펌웨어 메뉴는 명시적으로 특정 드라이버 옵션을 로드할 수 있는 방법을 제공하지 않습니다. 또한 필요하지 않습니다. 설치된 모든 드라이버 옵션이 로드됩니다.
 
@@ -267,7 +447,18 @@ Select UefiDriver.efi.
 
 펌웨어가 새로운 부팅 옵션 및/또는 드라이버 옵션을 추가할 수 있는 능력을 제공하지 않는 시스템에서 유용합니다. 이는 UEFI 사양 섹션 3에서 정의된 메커니즘 (NVRAM 변수, UEFI 변수로도 불리는)에 따라 옵션이 구현된 방식 때문입니다. 즉, 모든 UEFI 호환 펌웨어는 설명된 방식으로 옵션을 구현하고 처리해야합니다. bcfg는 동일한 메커니즘으로 작동하기 때문에, 펌웨어가 명시적으로 이를 지원하지 않더라도 옵션을 수정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사실 NVRAM 변수를 직접 수정하여 부팅 및 드라이버 옵션을 설치하거나 수정할 수 있습니다. 그러나 이것은 이 안내서의 범위를 벗어납니다.
 
@@ -277,14 +468,35 @@ Select UefiDriver.efi.
 
 ![이미지](/assets/img/2024-05-27-AhitchhikersguidetoUEFIprogramminginWindows_18.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 옵션의 Device Path(UEFI 셸에서 fs0: 볼륨 레이블로 할당)로 가리키는 파티션 내용을 나열하면 EnrollDefaultKeys.efi라는 유일한 UEFI 실행 파일만 있는 것을 알 수 있습니다. 이것이 EFI 셸처럼 들리지 않는 것이 분명합니다.
 
 이것이 일어나는 것은 펌웨어 부트 관리자가 모든 탈착 가능 미디어 및 고정 미디어 장치를 열거하고, 각 장치에 대한 부팅 옵션을 만드는 것입니다(UEFI 사양 섹션 13.3에 자세히 설명된 것처럼, 파일 시스템이 FAT인 경우). 이러한 항목을 부팅할 때 펌웨어가 장치 경로에 다음을 추가합니다: \EFI\BOOT\BOOT'machine type short-name'.EFI 여기서 machine type short-name은 PE32+ 이미지 형식 아키텍처를 정의합니다. 가능한 값은:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 PE(Portable Executable) 실행 파일 머신 유형은 Microsoft Portable Executable and Common Object File Format Specification, Revision 6.0에서 정의된 COFF 파일 헤더의 machine 필드에 지정됩니다.
 
@@ -294,7 +506,18 @@ PE(Portable Executable) 실행 파일 머신 유형은 Microsoft Portable Execut
 
 ![EFI Shell](/assets/img/2024-05-27-AhitchhikersguidetoUEFIprogramminginWindows_21.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 따라서 샘플 애플리케이션에 대해 동일한 방법을 적용할 수 있습니다. VisualUefi\samples\x64\Release\ 하위에 \EFI\BOOT\ 하위 디렉토리를 만들고 샘플 애플리케이션을 복사하여 BOOTx64.efi로 이름을 바꿉니다. 실행하려면 부트 매니저 UI에서 기존 UEFI Misc 장치 옵션을 선택하면 됩니다. 또는 부팅 옵션을 재정렬하여 QEMU가 먼저 부팅하도록 할 수도 있습니다.
 
@@ -304,7 +527,18 @@ PE(Portable Executable) 실행 파일 머신 유형은 Microsoft Portable Execut
 
 셸은 본질적으로 UEFI 펌웨어의 명령 프롬프트 / bash 셸 버전입니다. bash와 동일한 명령어를 지원하며 모든 지원되는 명령을 나열하려면 help 명령을 사용하면 됩니다. 이를 통해 사용자는 OS에 부팅하지 않고 시스템의 파일에 접근하거나 수정할 수 있습니다. UEFI 펌웨어는 기본적으로 FAT 파일 시스템만 지원하므로 셸이 액세스할 수 있는 파일 시스템도 FAT 파일 시스템뿐입니다. 다른 파일 시스템의 지원은 관련 UEFI 드라이버가 설치되고 로드되어 있는지에 따라 달라집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 startup.nsh
 쉘을 실행하면 다음과 같은 프롬프트가 나타납니다:
@@ -317,11 +551,20 @@ Press ESC in 5 seconds to skip startup.nsh, any other key to continue.
 
 기본적으로 스크립트 파일이 없지만 ESP(EFI 시스템 파티션)의 루트 디렉터리에 직접 만들 수 있습니다. 시험해보려면 셸에서 다음 명령을 입력하세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 echo "@echo test startup script" > fs0:\startup.nsh
-
 
 여기서 ESP의 볼륨 라벨인 fs0:에 스크립트 파일을 만들었어요.
 
@@ -329,9 +572,18 @@ exit 명령어로 셸을 종료하고 다시 실행하세요:
 
 ![이미지](/assets/img/2024-05-27-AhitchhikersguidetoUEFIprogramminginWindows_22.png)
 
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## EFI 시스템 파티션 (ESP)
 
@@ -341,7 +593,18 @@ ESP에는 일반적으로 OS 부트로더 및 / 또는 부트 매니저가 위�
 
 ![파티션 예시](/assets/img/2024-05-27-AhitchhikersguidetoUEFIprogramminginWindows_23.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 접근하려면 고정된 명령 프롬프트를 열고 명령 mountvol X: /S를 사용하여 드라이브 문자를 할당하십시오. 여기서 X는 사용되지 않는 드라이브 문자입니다.
 
@@ -358,7 +621,18 @@ X:\EFI\Boot\bootx64.efi
 
 bootmgfw.efi가 Windows 부팅 매니저입니다. 또한 EFI\Boot\bootx64.efi 항목에 주목하세요. 이것은 bootmgfw.efi의 사본이며, bootmgfw.efi가 없거나 손상된 경우 대비 용도로 제공됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Secure Boot
 
@@ -377,7 +651,18 @@ bootmgfw.efi가 Windows 부팅 매니저입니다. 또한 EFI\Boot\bootx64.efi �
 
 Authenticode 해시가 어떻게 계산되는지에 대한 정보는 Windows Authenticode Portable Executable Signature Format에서 "PE 이미지 해시 계산" 섹션을 참조하십시오. X.509 인증서의 경우에는 UEFI 사양 섹션 8.2.6 및 32.6.3.3에 따라 실행 파일의 서명 인증서가 X.509 인증서 체인의 모든 수준에 존재하는 한 일치가 발견됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 따라서 샘플 실행 파일이 안전 부팅이 활성화된 상태에서 실행되도록 하려면 이 중 하나의 서명을 안전 부팅 승인된 데이터베이스로 가져와야 합니다. 인증서를 사용하는 것이 더 유연한 옵션이며 해당 개인 키로 서명된 모든 실행 파일을 실행할 수 있습니다. 이로 인해 개발 및 테스트 중에 유용한 반복적인 수정 및 실행 파일 재구축이 가능해집니다. 그러나 해시를 사용하는 것보다 안전하지 않습니다. 왜냐하면 개인 키 침해의 위험이 있기 때문입니다.
 
@@ -387,8 +672,18 @@ Authenticode 해시가 어떻게 계산되는지에 대한 정보는 Windows Aut
 
 장치 관리자를 선택하십시오.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-05-27-AhitchhikersguidetoUEFIprogramminginWindows_25.png)
 
@@ -398,8 +693,18 @@ Select Secure Boot Configuration.
 
 The Current Secure Boot State is set to Disabled. This entry is not configurable and is only meant to display the current state. The Attempt Secure Boot option itself is disabled (explained later), and the only option that can be changed is Secure Boot Mode. Change this from Standard Mode and Custom Mode which is the only other option available:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <table>
   <tr>
@@ -417,7 +722,18 @@ The Current Secure Boot State is set to Disabled. This entry is not configurable
 
 다섯 가지 옵션 각각이 안전 부팅 키 유형에 해당합니다. DB는 승인된 서명 데이터베이스이며 DBX는 금지된 서명 데이터베이스입니다. UEFI 명세서에서 "키"라는 용어를 사용하고 있지만, 각 유형의 "키"에 저장된 항목은 실제로 앞서 언급한 유형의 서명 중 하나입니다. 명세서를 따라서 "키"를 일반적인 서명을 가리키는 용어로 사용하겠습니다. 각 항목을 살펴보면:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새 키를 등록하거나 기존 키를 삭제할 수 있는 옵션을 볼 수 있습니다. 기존 키 목록을 표시할 옵션은 없지만 삭제 옵션을 사용하여 삭제할 수 있습니다. 이렇게 하면 모든 키가 비어 있는 것을 확인할 수 있습니다. 이것이 안전 부팅을 활성화할 수 없는 이유입니다 — 안전 부팅을 활성화하려면 PK(플랫폼 키)가 있어야 합니다. 우리는 직접 하나 만들 수 있지만, 앞서 EnrollDefaultKeys.efi를 본 것을 기억해보세요.
 
@@ -427,7 +743,18 @@ The Current Secure Boot State is set to Disabled. This entry is not configurable
 
 ![이미지](/assets/img/2024-05-27-AhitchhikersguidetoUEFIprogramminginWindows_29.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Secure Boot은 PK가 없는 경우 설정 모드에 있습니다. PK를 설치하면 자동으로 Secure Boot가 사용자 모드로 전환됩니다 (UEFI 사양 섹션 32.3 참조, 이에 대해 나중에 자세히 논의할 예정입니다).
 
@@ -437,7 +764,18 @@ Secure Boot은 PK가 없는 경우 설정 모드에 있습니다. PK를 설치�
 
 이제 Secure Boot가 활성화되고 "Attempt Secure Boot" 옵션이 활성화되어 설정되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 다시 Secure Boot Mode를 Custom으로 변경하고 키를 나열해 보겠습니다:
 
@@ -452,7 +790,18 @@ Secure Boot은 PK가 없는 경우 설정 모드에 있습니다. PK를 설치�
 
   KEK에 있는 알 수 없는 GUID와 같은 GUID가 나오며, 해시 E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855는 비어 있는 파일의 해시입니다. 이는 아마도 예제로 제공된 것일 것입니다. 최신 시스템에서는 DBX에 알려진 취약한 UEFI 실행 파일의 항목이 포함됩니다. 이러한 실행 파일 및 DBX를 업데이트하기 위한 이진 blob의 목록은 UEFI Forum에서 관리됩니다. Microsoft는 GitHub repo에서 이 목록의 미러를 유지합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - DBT: 여전히 비어 있습니다.
 
@@ -462,7 +811,18 @@ Secure Boot은 PK가 없는 경우 설정 모드에 있습니다. PK를 설치�
 
 EFI 쉘 또는 샘플 응용 프로그램은 서명되지 않았으며, 그 서명 또한 DB에 없기 때문에 이는 예상대로입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # EFI 서명 인증서 생성
 
@@ -474,7 +834,18 @@ EFI 쉘 또는 샘플 응용 프로그램은 서명되지 않았으며, 그 서�
 MakeCert.exe -a sha256 -n "CN=SampleEfiSigner" -r -sv SampleEfiSigner.pvk SampleEfiSigner.cer
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 출력 파일은 DER 인코딩된 X.509 형식으로 제공되며, 이는 지원되는 DB 서명 유형 중 하나입니다.
 
@@ -487,8 +858,18 @@ MakeCert.exe -a sha256 -n "CN=SampleEfiSigner" -r -sv SampleEfiSigner.pvk Sample
 
 이 명령은 비공개 키 파일을 사용할 비밀번호를 요청하는 팝업 프롬프트를 생성합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-27-AhitchhikersguidetoUEFIprogramminginWindows_33.png)
 
@@ -498,8 +879,18 @@ MakeCert.exe -a sha256 -n "CN=SampleEfiSigner" -r -sv SampleEfiSigner.pvk Sample
 
 ![이미지](/assets/img/2024-05-27-AhitchhikersguidetoUEFIprogramminginWindows_34.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 MakeCert 명령어의 결과는 다음과 같아야 합니다:
 
@@ -513,7 +904,18 @@ Succeeded;
 pvk2pfx.exe -pvk SampleEfiSigner.pvk -pi <password> -spc SampleEfiSigner.cer -pfx SampleEfiSigner.pfx
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `password`를 개인 키 파일의 비밀번호로 바꾸세요. 이 명령은 출력물이 없습니다.
 
@@ -526,7 +928,18 @@ pvk2pfx.exe -pvk SampleEfiSigner.pvk -pi <password> -spc SampleEfiSigner.cer -pf
 
 ## UEFI 실행 파일에 서명하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전 도구와 동일한 디렉토리에 있는 signtool을 사용해보세요:
 
@@ -541,7 +954,18 @@ Done Adding Additional Store
 Successfully signed: <efiToSign>
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 옵션 설명:
 
@@ -554,7 +978,18 @@ Successfully signed: <efiToSign>
 
 ![서명 확인](/assets/img/2024-05-27-AhitchhikersguidetoUEFIprogramminginWindows_35.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## DB에 인증서 설치하기
 
@@ -564,7 +999,18 @@ SampleEfiSigner.cer 파일을 VisualUefi\samples\x64\Release\ 폴더로 이동�
 
 Select Enroll Signature Using File.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-27-AhitchhikersguidetoUEFIprogramminginWindows_37.png" />
 
@@ -574,7 +1020,18 @@ Select Enroll Signature Using File.
 
 SampleEfiSigner.cer를 선택하세요. 여기서 펌웨어는 DER로 인코딩된 X.509 인증서와 UEFI 실행 파일만 지원합니다. 후자의 경우 실행 파일의 SHA-256 Authenticode 해시를 계산하여 서명으로 저장할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 UI가 등록 서명 페이지로 돌아갑니다. 서명 GUID 필드는 서명 소유자의 서명과 일치합니다. 임의의 값 입력하거나 기본값으로 모든 0의 GUID로 남겨 둡니다:
 
@@ -584,7 +1041,18 @@ UI가 등록 서명 페이지로 돌아갑니다. 서명 GUID 필드는 서명 �
 
 ![Delete Signature](/assets/img/2024-05-27-AhitchhikersguidetoUEFIprogramminginWindows_40.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 UEFI 실행 파일 자체를 선택했을 경우, 항목 설명은 PKCS7_GUID가 아니라 SHA256_GUID가 됩니다.
 
@@ -592,7 +1060,18 @@ UEFI 실행 파일 자체를 선택했을 경우, 항목 설명은 PKCS7_GUID가
 
 ![부팅 시도 이미지](/assets/img/2024-05-27-AhitchhikersguidetoUEFIprogramminginWindows_42.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 안전한 부팅 보안
 
@@ -603,7 +1082,18 @@ Secure Boot가 설정 모드인 경우 (즉, PK가 없는 경우), 사용자는 
 - DB, DBX: PK 또는 KEK에 해당하는 개인 키로 서명
 - PK, KEK: PK에 해당하는 개인 키로 서명
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단일 유형의 키로 DB 및 DBX를 안전하게 보호하는 것이 충분했겠지만, Secure Boot 키의 소유권 수준을 구분하기 위해 PK와 KEK 사이에 차이를 두었습니다. PK는 컴퓨터 하드웨어의 OEM이 소유하며 컴퓨터 당 하나뿐입니다. HP 및 Dell의 경우:
 
@@ -613,7 +1103,18 @@ PK의 역할은 KEK의 설치를 제어하는 것입니다. 컴퓨터 당 여러
 
 ![Image](/assets/img/2024-05-27-AhitchhikersguidetoUEFIprogramminginWindows_44.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Windows 시스템의 경우, Microsoft의 KEK는 다음과 같습니다:
 
@@ -624,7 +1125,18 @@ Windows 시스템의 경우, Microsoft의 KEK는 다음과 같습니다:
 
 2023 CA는 2026에 만료되는 2011 CA를 대체하기 위해 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Secure Boot에 대한 자세한 내용은 UEFI 명세서 32장과 Microsoft의 Secure Boot 키 생성 및 관리 문서를 참조하세요.
 
@@ -634,7 +1146,18 @@ Secure Boot에 대한 자세한 내용은 UEFI 명세서 32장과 Microsoft의 S
 
 그러나 Secure Boot와 호환되는 UEFI 실행 파일을 배포하고 싶다면, 서명 인증서를 얻기 위해 찾아갈 수 있는 CA도 없고 실행 파일에 서명할 수 있는 CA도 없습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Windows의 부팅 관리자(UEFI 애플리케이션)는 기본적으로 세계 제조사들과 협력하여 제품을 제조하는 모든 소매용 PC와 마더보드에 Microsoft의 KEK 및 DB 키가 설치되어 있기 때문에 Secure Boot가 활성화된 상태에서 즉시 실행될 수 있습니다. 모든 사람이 마찬가지로 할 수 있는 능력을 갖고 있는 것은 아니지만, 다행히도 Microsoft는 Windows 드라이버 서명 서비스와 유사한 UEFI 서명 서비스를 제공합니다. 서명된 후에 UEFI 실행 파일은 Windows와 동일한 하드웨어 범위와 호환되는 Secure Boot가 가능해집니다.
 
@@ -645,7 +1168,18 @@ Windows의 부팅 관리자(UEFI 애플리케이션)는 기본적으로 세계 �
 
 ![image](/assets/img/2024-05-27-AhitchhikersguidetoUEFIprogramminginWindows_46.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 두 개의 키 중 하나로 Windows 부팅 관리자가 서명되었습니다.
 
@@ -655,7 +1189,18 @@ Windows의 부팅 관리자(UEFI 애플리케이션)는 기본적으로 세계 �
 ![이미지](/assets/img/2024-05-27-AhitchhikersguidetoUEFIprogramminginWindows_47.png)
 모든 타사 UEFI 실행 파일은 위의 두 키 중 하나로 서명됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 EnrollDefaultKeys.efi를 실행한 후 DB에는 2011년 인증서인 두 개의 항목이 생성되었습니다. 2026년에 만료되는 2011년 인증서를 대체할 2023년 인증서가 있습니다.
 
@@ -666,7 +1211,18 @@ UEFI 실행 파일을 직접 서명하는 것 외에도 Microsoft가 할 수 있
 
 그러나 이러한 옵션들은 악의적인 사용자들이 부팅 킷을 모든 Windows 시스템에 배포하는 더 많은 길을 제공할 수 있습니다 (Microsoft에 요청을 제출할 때 합법적인 개발자로 위장하거나 신뢰할 수 있는 개발자들의 서명 키를 도난당할 수 있음). Microsoft는 분명히 제출자들을 심사하는 책임을 지기를 원하지 않으며, 시스템의 보안과 안정성에서 부팅 모듈의 중요성을 고려할 때 Microsoft에게 중요한 것은 다음을 보증하는 것입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 해로운 저작물이 아니며 Secure Boot를 우회하는 수단을 제공하지 않습니다 (즉, 서명되지 않은 코드를 실행하지 않음)
 - Microsoft의 부팅 모듈과의 호환성 문제를 일으키지 않습니다.
@@ -677,7 +1233,18 @@ UEFI 실행 파일을 직접 서명하는 것 외에도 Microsoft가 할 수 있
 
 ## 키 사용자 정의하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 많은 통제와 보안을 위해, 필요없는 기본 키를 제거하거나 사용자 정의 키를 설치하고 싶을 수 있습니다. UEFI 실행 파일을 Microsoft에 제출하지 않고 싶을 수도 있거나, 단순히 제출할 수 없을 수도 있습니다:
 
@@ -687,7 +1254,18 @@ UEFI 실행 파일을 직접 서명하는 것 외에도 Microsoft가 할 수 있
 
 마지막으로, 기본 PK 또는 KEK를 사용자 정의로 대체한다면, 이후 OEM/Microsoft에 의한 KEK 또는 DB/DBX의 모든 업데이트는 실패할 것입니다. 따라서 해당 업데이트를 원한다면, 영향을 받는 컴퓨터에 배포되기 전에 해당 사용자 정의 PK/KEK에 해당하는 개인 키로 서명해야 합니다. 업데이트의 서명 및 설치는 앞서 언급한 signtool.exe 및 PowerShell 명령 Format-SecureBootUEFI 및 Set-SecureBootUEFI를 사용하여 수행할 수 있습니다. 이를 수행하는 방법에 대한 세부 내용은 이 가이드의 범위를 벗어납니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 실제 시스템에서 실행
 
@@ -700,7 +1278,18 @@ QEMU에서 UEFI 실행 파일을 실행하는 데 사용한 모든 방법은 실
 
 ## 기타 주의 사항
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - VisualUefi 저장소는 더 이상 활발하게 유지되지 않으며 심각하게 오래되었습니다 — 동기화된 edk2 커밋은 2019년이며 openssl의 경우 2018년입니다. 누군가는 수동으로 서브모듈을 원격 최신 커밋으로 업데이트해야 하며, 그런 다음 서브모듈 소스 트리의 변경으로 인해 Visual Studio 프로젝트를 업데이트해야 합니다.
 - VisualUefi는 선택된 edk2 라이브러리만 빌드하며 모든 edk2 소스 코드를 포함하지 않습니다. 추가 라이브러리를 포함하려면 새 Visual Studio 프로젝트를 만들어야 합니다.

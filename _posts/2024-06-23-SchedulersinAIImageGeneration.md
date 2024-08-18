@@ -3,17 +3,13 @@ title: "AI 이미지 생성에서 사용하는 스케줄러 5가지"
 description: ""
 coverImage: "/assets/img/2024-06-23-SchedulersinAIImageGeneration_0.png"
 date: 2024-06-23 20:20
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-SchedulersinAIImageGeneration_0.png
 tag: Tech
 originalTitle: "Schedulers in AI Image Generation"
 link: "https://medium.com/invokeai/schedulers-in-ai-image-generation-2ca6d7458f17"
 isUpdated: true
 ---
-
-
-
-
 
 # 스케줄러란 무엇인가요?
 
@@ -25,7 +21,18 @@ isUpdated: true
 - 단계가 무작위인지(확률적) 또는 예측 가능한지(결정론적) 여부
 - 노이즈 제거에 사용되는 특정 방법(알고리즘)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AI 이미지 생성에 익숙하지 않다면 HuggingFace의 이 기사를 읽어보거나 Invoke YouTube 채널의 Creating with AI 비디오를 시청해보세요.
 
@@ -35,7 +42,18 @@ AI 이미지 생성에 익숙하지 않다면 HuggingFace의 이 기사를 읽�
 
 다양한 종류의 스케줄러가 있으며, 각각은 사용되는 알고리즘에 따라 특정 범주에 속합니다. 여기에는 가장 흔히 사용되는 몇 가지 유형이 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Euler 및 Euler 계통: Euler는 Invoke의 기본 스케줄러입니다. 속도가 빠른 것으로 알려져 있으며, 이러한 스케줄러들은 일반적으로 고품질 출력물을 생성하는 데 필요한 단계가 적습니다.
 - Denoising Diffusion Implicit Models (DDIM): Stable Diffusion과 함께 사용되는 최초의 스케줄러 중 하나로, 효율성을 위해 설계된 DDIM은 처리 시간을 상당히 단축시켜줍니다.
@@ -52,7 +70,18 @@ AI 이미지 생성에 익숙하지 않다면 HuggingFace의 이 기사를 읽�
 
 이미지 생성을 위한 적절한 스케줄러 선택은 이미지 생성의 목표에 따라 달라집니다. 각 스케줄러는 독특한 강점과 트레이드오프를 가지고 있으므로, 이를 이해하면 여러분의 요구에 가장 적합한 스케줄러를 선택하는 데 도움이 될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가장 인기있는 스케줄러 중 일부가 이미지 생성에 미치는 영향에 대한 예제를 제공합니다. 프롬프트, 시드 및 기타 설정은 동일합니다:
 
@@ -62,7 +91,18 @@ AI 이미지 생성에 익숙하지 않다면 HuggingFace의 이 기사를 읽�
 
 # 더 알아보기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 깊이 들어가서 이미지 생성 및 Invoke에 대해 알아보고 싶나요? 여기 몇 가지 자료가 있어요:
 

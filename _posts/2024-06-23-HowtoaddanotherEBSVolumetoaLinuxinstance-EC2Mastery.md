@@ -3,17 +3,13 @@ title: "EC2 마스터 리눅스 인스턴스에 다른 EBS 볼륨 추가하는 �
 description: ""
 coverImage: "/assets/img/2024-06-23-HowtoaddanotherEBSVolumetoaLinuxinstance-EC2Mastery_0.png"
 date: 2024-06-23 15:22
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-HowtoaddanotherEBSVolumetoaLinuxinstance-EC2Mastery_0.png
 tag: Tech
 originalTitle: "How to add another EBS Volume to a Linux instance - EC2 Mastery"
 link: "https://medium.com/@galazkaryan/how-to-add-another-ebs-volume-to-a-linux-instance-ec2-mastery-6b8e20a7ea6e"
 isUpdated: true
 ---
-
-
-
-
 
 AWS의 핵심은 EC2에 있습니다. 클라우드 서비스 제공업체를 사용하기 시작할 때 대부분 처음 배우는 서비스 중 하나입니다. 이를 염두에 둔다면, 배울 것이 많고 현재 사용 중인 use case에 다른 서비스를 통합하는 다양한 방법이 있습니다.
 
@@ -23,7 +19,18 @@ AWS의 핵심은 EC2에 있습니다. 클라우드 서비스 제공업체를 사
 
 'EC2 마스터리'의 이번 에피소드에서는 EC2 Linux 인스턴스에 추가 EBS 볼륨을 추가하는 방법을 살펴볼 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 1. 명령 줄 및 fstab 파일(Linux)을 통해 추가적인 EBS 볼륨 추가하기
 
@@ -33,7 +40,18 @@ CloudShell 탭을 열거나 AWS 계정에 명령 줄을 통해 상호 작용합�
 
 EBS 볼륨 생성:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
  aws ec2 create-volume --availability-zone <your-az> --size <size-in-gb>
@@ -51,7 +69,18 @@ EBS 볼륨 생성:
 
 EC2 인스턴스에 EBS 볼륨을 연결하기:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 aws ec2 attach-volume --volume-id <볼륨-id> --instance-id <인스턴스-id> --device /dev/xvdf
@@ -63,7 +92,18 @@ aws ec2 attach-volume --volume-id <볼륨-id> --instance-id <인스턴스-id> --
 
 이제 AWS 측에서의 작업이 완료되었으니, 우리의 인스턴스 내부에서 작업을 완료해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 2: EBS 볼륨을 마운트합니다
 
@@ -75,7 +115,18 @@ aws ec2 attach-volume --volume-id <볼륨-id> --instance-id <인스턴스-id> --
 sudo mkfs -t ext4 /dev/xvdf
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마운트 지점 생성하기:
 
@@ -89,13 +140,35 @@ sudo mkdir /mnt/data
 sudo mount /dev/xvdf /mnt/data
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래에서 우리는 인스턴스에 10gb EBS 볼륨을 성공적으로 추가했음을 확인할 수 있습니다.
 
 <img src="/assets/img/2024-06-23-HowtoaddanotherEBSVolumetoaLinuxinstance-EC2Mastery_2.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3. fstab 파일에 추가하여 마운트 영구화하기:
 
@@ -105,7 +178,18 @@ sudo mount /dev/xvdf /mnt/data
 sudo bash -c 'echo "/dev/xvdf /mnt/data ext4 defaults,nofail 0 2" >> /etc/fstab'
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

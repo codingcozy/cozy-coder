@@ -3,17 +3,13 @@ title: "리눅스 보안 여정  EGID 유효 그룹 ID 이해하기"
 description: ""
 coverImage: "/assets/img/2024-06-22-TheLinuxSecurityJourneyEGIDEffectiveGroupID_0.png"
 date: 2024-06-22 00:26
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-TheLinuxSecurityJourneyEGIDEffectiveGroupID_0.png
 tag: Tech
 originalTitle: "The Linux Security Journey — EGID (Effective Group ID)"
 link: "https://medium.com/@boutnaru/the-linux-security-journey-egid-effective-group-id-bda1c56b4995"
 isUpdated: true
 ---
-
-
-
-
 
 EUID(Effective User ID)와 마찬가지로 EGID(Effective Group ID)도 있어요. 리눅스 시스템에서 특정 작업(프로세스/쓰레드)의 권한을 결정하는 데 주로 사용되며 그룹 소속을 의미합니다.
 
@@ -23,6 +19,17 @@ EUID(Effective User ID)와 마찬가지로 EGID(Effective Group ID)도 있어요
 
 다음 글에서 뵐게요 ;-) 트위터에서 저를 팔로우할 수도 있습니다 - @boutnaru. 미디엄에서 다른 글도 읽어보세요 - https://medium.com/@boutnaru. 무료 eBook은 https://TheLearningJourneyEbooks.com에서 다운로드할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Linux Screenshot](/assets/img/2024-06-22-TheLinuxSecurityJourneyEGIDEffectiveGroupID_0.png)

@@ -3,7 +3,7 @@ title: "React 저장소에 리포지토리 및 어댑터 디자인 패턴 적용
 description: ""
 coverImage: "/assets/img/2024-08-13-BuildingaBetterReactApplicationwithRepositoryandAdapterDesignPatterns_0.png"
 date: 2024-08-13 11:12
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-13-BuildingaBetterReactApplicationwithRepositoryandAdapterDesignPatterns_0.png
 tag: Tech
 originalTitle: "Building a Better React Application with Repository and Adapter Design Patterns "
@@ -11,7 +11,6 @@ link: "https://medium.com/javascript-in-plain-english/building-a-better-react-ap
 isUpdated: true
 updatedAt: 1723863072096
 ---
-
 
 이 기사에서는 함수형 컴포넌트와 훅을 사용하여 React 애플리케이션에 이러한 디자인 패턴을 구현하는 방법을 살펴볼 것입니다. 끝날 때쯤에는 React 코드베이스를 청결하고 유지보수 가능하게 유지하는 방법에 대해 더 많은 이해를 갖게 될 것입니다.
 
@@ -21,7 +20,18 @@ updatedAt: 1723863072096
 
 # 디자인 패턴 이해하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 1. Repository Pattern
 
@@ -31,9 +41,20 @@ Repository Pattern은 데이터 레이어를 추상화하여 도메인 객체에
 
 # 2. Adapter Pattern
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-어댑터 패턴은 호환되지 않는 인터페이스를 함께 작동하도록 허용합니다. 클래스의 인터페이스를 다른 인터페이스로 변환하여 클라이언트가 기대하는 인터페이스로 작동합니다. 이 패턴은 기존 클래스를 소스 코드를 수정하지 않고 다른 클래스와 함께 작동하도록 만드는 데 자주 사용됩니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+어댑터 패턴은 호환되지 않는 인터페이스를 함께 작동하도록 허용합니다. 클래스의 인터페이스를 다른 인터페이스로 변환하여 클라이언트가 기대하는 인터페이스로 작동합니다. 이 패턴은 기존 클래스를 소스 코드를 수정하지 않고 다른 클래스와 함께 작동하도록 만드는 데 자주 사용됩니다.
 
 ![이미지](/assets/img/2024-08-13-BuildingaBetterReactApplicationwithRepositoryandAdapterDesignPatterns_2.png)
 
@@ -41,7 +62,18 @@ Repository Pattern은 데이터 레이어를 추상화하여 도메인 객체에
 
 먼저 새로운 React 프로젝트를 생성해 봅시다. 이미 설치되어 있지 않다면 Create React App을 설치하고 프로젝트를 설정하세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npx create-react-app react-repo-adapter
@@ -66,7 +98,18 @@ src/
 └── index.js
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 리포지토리 구현
 
@@ -76,31 +119,42 @@ src/repositories/dataRepository.js
 
 ```js
 const DataRepository = (apiAdapter) => ({
-    getAllItems: async () => {
-        return await apiAdapter.get('/items');
-    },
+  getAllItems: async () => {
+    return await apiAdapter.get("/items");
+  },
 
-    getItemById: async (id) => {
-        return await apiAdapter.get(`/items/${id}`);
-    },
+  getItemById: async (id) => {
+    return await apiAdapter.get(`/items/${id}`);
+  },
 
-    createItem: async (data) => {
-        return await apiAdapter.post('/items', data);
-    },
+  createItem: async (data) => {
+    return await apiAdapter.post("/items", data);
+  },
 
-    updateItem: async (id, data) => {
-        return await apiAdapter.put(`/items/${id}`, data);
-    },
+  updateItem: async (id, data) => {
+    return await apiAdapter.put(`/items/${id}`, data);
+  },
 
-    deleteItem: async (id) => {
-        return await apiAdapter.delete(`/items/${id}`);
-    }
+  deleteItem: async (id) => {
+    return await apiAdapter.delete(`/items/${id}`);
+  },
 });
 
 export default DataRepository;
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 어댑터 구현하기
 
@@ -109,40 +163,51 @@ HTTP 요청을 처리하기 위한 API 어댑터를 만들어보세요.
 src/adapters/apiAdapter.js
 
 ```javascript
-import axios from 'axios';
+import axios from "axios";
 
 const ApiAdapter = (baseURL) => {
-    const client = axios.create({
-        baseURL: baseURL
-    });
+  const client = axios.create({
+    baseURL: baseURL,
+  });
 
-    return {
-        get: async (url) => {
-            const response = await client.get(url);
-            return response.data;
-        },
+  return {
+    get: async (url) => {
+      const response = await client.get(url);
+      return response.data;
+    },
 
-        post: async (url, data) => {
-            const response = await client.post(url, data);
-            return response.data;
-        },
+    post: async (url, data) => {
+      const response = await client.post(url, data);
+      return response.data;
+    },
 
-        put: async (url, data) => {
-            const response = await client.put(url, data);
-            return response.data;
-        },
+    put: async (url, data) => {
+      const response = await client.put(url, data);
+      return response.data;
+    },
 
-        delete: async (url) => {
-            const response = await client.delete(url);
-            return response.data;
-        }
-    };
+    delete: async (url) => {
+      const response = await client.delete(url);
+      return response.data;
+    },
+  };
 };
 
 export default ApiAdapter;
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 컴포넌트에서 저장소와 어댑터 사용하기
 
@@ -151,40 +216,51 @@ export default ApiAdapter;
 src/components/ItemsComponent.js
 
 ```js
-import React, { useEffect, useState } from 'react';
-import DataRepository from '../repositories/dataRepository';
-import ApiAdapter from '../adapters/apiAdapter';
+import React, { useEffect, useState } from "react";
+import DataRepository from "../repositories/dataRepository";
+import ApiAdapter from "../adapters/apiAdapter";
 
-const apiAdapter = ApiAdapter('https://api.example.com');
+const apiAdapter = ApiAdapter("https://api.example.com");
 const dataRepository = DataRepository(apiAdapter);
 
 const ItemsComponent = () => {
-    const [items, setItems] = useState([]);
+  const [items, setItems] = useState([]);
 
-    useEffect(() => {
-        const fetchItems = async () => {
-            const data = await dataRepository.getAllItems();
-            setItems(data);
-        };
-        fetchItems();
-    }, []);
+  useEffect(() => {
+    const fetchItems = async () => {
+      const data = await dataRepository.getAllItems();
+      setItems(data);
+    };
+    fetchItems();
+  }, []);
 
-    return (
-        <div>
-            <h1>Items</h1>
-            <ul>
-                {items.map(item => (
-                    <li key={item.id}>{item.name}</li>
-                ))}
-            </ul>
-        </div>
-    );
+  return (
+    <div>
+      <h1>Items</h1>
+      <ul>
+        {items.map((item) => (
+          <li key={item.id}>{item.name}</li>
+        ))}
+      </ul>
+    </div>
+  );
 };
 
 export default ItemsComponent;
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 모두 함께 적용해 보기
 
@@ -193,20 +269,31 @@ export default ItemsComponent;
 src/App.js
 
 ```js
-import React from 'react';
-import ItemsComponent from './components/ItemsComponent';
+import React from "react";
+import ItemsComponent from "./components/ItemsComponent";
 
 const App = () => (
-    <div>
-        <h1>리파지토리와 어댑터 패턴을 활용한 리액트</h1>
-        <ItemsComponent />
-    </div>
+  <div>
+    <h1>리파지토리와 어댑터 패턴을 활용한 리액트</h1>
+    <ItemsComponent />
+  </div>
 );
 
 export default App;
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-08-13-BuildingaBetterReactApplicationwithRepositoryandAdapterDesignPatterns_3.png)
 

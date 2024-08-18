@@ -3,17 +3,13 @@ title: "PyTorch로 GPT-2 구축하기 2부"
 description: ""
 coverImage: "/assets/img/2024-07-13-BuildingGPT-2withPyTorchPart2_0.png"
 date: 2024-07-13 23:18
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-BuildingGPT-2withPyTorchPart2_0.png
 tag: Tech
 originalTitle: "Building GPT-2 with PyTorch (Part 2)"
 link: "https://medium.com/towards-artificial-intelligence/heres-how-you-can-build-and-train-gpt-2-from-scratch-using-pytorch-part-2-9b41d15baf62"
 isUpdated: true
 ---
-
-
-
-
 
 이것은 GPT-2를 처음부터 만드는 프로젝트의 두 번째 부분입니다. 아직 첫 번째 부분을 읽지 않으셨다면, 계속하기 전에 언어 모델의 기본 사항에 익숙해지는 것을 권장합니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-07-13-BuildingGPT-2withPyTorchPart2_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4. GPT-2 아키텍처 구현하기
 
@@ -33,7 +40,18 @@ a. 위치 인코딩 + 완전 연결층 (NN)
 
 b. (가리킨) 셀프 어텐션 + 정규화
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 c. (가려진) 멀티 헤드 어텐션
 
@@ -43,7 +61,18 @@ e. 토크나이저 개선
 
 f. 최종 GPT-2 훈련
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전 부분을 기억해 보겠습니다. 모델은 아래와 같습니다:
 
@@ -62,7 +91,7 @@ class GPT(nn.Module):
     def __init__(self, vocab_size, d_model):
         super().__init__()
         self.wte = nn.Embedding(vocab_size, d_model)  # 단어 토큰 임베딩
-    
+
     def forward(self, inputs, targets=None):
         logits = self.wte(inputs)  # 차원 -> 배치 크기, 시퀀스 길이, d_model
         loss = None
@@ -73,7 +102,7 @@ class GPT(nn.Module):
             targets = targets.view(batch_size * sequence_length)
             loss = F.cross_entropy(logits, targets)
         return logits, loss
-    
+
     def generate(self, inputs, max_new_tokens):
         # 이곳에 모델 출력을 초기 입력 시퀀스와 함께 저장할 것입니다
         # 모델과 간섭하지 않도록 복사본을 생성합니다
@@ -85,7 +114,7 @@ class GPT(nn.Module):
             probs = F.softmax(logits, dim=1)
             # 입력 확률에 기반하여 가능성 있는 토큰을 가져옵니다
             idx_next = torch.multinomial(probs, num_samples=1)
-            
+
             inputs = torch.cat([inputs, idx_next], dim=1)
         # 초기 입력 + 모델 출력이 모두 포함된 inputs를 최종 출력으로 사용할 수 있습니다
         return [decode(out.tolist()) for out in inputs]
@@ -93,7 +122,18 @@ class GPT(nn.Module):
 m = GPT(vocab_size=vocab_size, d_model=d_model).to(device)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## a. 위치 부호 인코딩 (PE) + 신경망 (NN) 추가
 
@@ -103,7 +143,18 @@ m = GPT(vocab_size=vocab_size, d_model=d_model).to(device)
 
 출력 임베딩(우리의 경우 입력 임베딩인 wte)에 위치 부호 인코딩을 추가하고 나서 더 나아가는 신경망으로 전달됩니다. PE가 무엇인지 이해하려면 토큰 임베딩을 상기해 봅시다. 토큰 임베딩은 우리 어휘에서 각 문자에 대해 d_model 차원의 벡터를 저장합니다. 이는 문자의 다른 특성을 훈련 시 어떻게 나타났는지와 어디에 나타났는지에 기반하여 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이와 유사하게 위치 인코딩은 `context_length`에서 각 문자의 순서/위치 신호를 저장합니다. 코사인 및 사인 함수를 사용하여 한 번만 계산되며 훈련이 필요하지 않습니다. 이는 시퀀스의 각 문자의 위치 벡터가 교육 세트의 모든 데이터에 대해 동일할 것을 의미합니다.
 
@@ -118,32 +169,32 @@ class PositionalEncoding(nn.Module):
         super().__init__()
         # positional encodings을 저장할 (context_length, d_model) 모양의 행렬 생성
         pe = torch.zeros(context_length, d_model)
-        
+
         # (context_length, 1) 모양의 위치 [0, 1, 2, ..., context_length-1]을 가진 벡터 생성
         position = torch.arange(0, context_length, dtype=torch.float).unsqueeze(1)
-        
+
         # 차원에 따라 기본 자 기준 벡터 생성
         div_term = torch.exp(torch.arange(0, d_model, 2).float() * (-math.log(10000.0) / d_model))
-        
+
         # 삼각함수를 사용하여 positional encodings 계산
         pe[:, 0::2] = torch.sin(position * div_term)
         pe[:, 1::2] = torch.cos(position * div_term)
-        
+
         pe = pe.unsqueeze(0)  # 모양: (1, context_length, d_model)
-        
+
         # pe를 버퍼로 등록하여 파라미터가 아닌 모듈 상태의 일부로 취급
         self.register_buffer('pe', pe)
 
     def forward(self, x: torch.Tensor) -> torch.Tensor:
         # 입력 임베딩에 positional encodings 추가
-        return x + self.pe[:,:x.size(1), :] 
+        return x + self.pe[:,:x.size(1), :]
 
 class GPT(nn.Module):
     def __init__(self, vocab_size, d_model):
         ...
        # positional encodings 초기화
        self.wpe = PositionalEncoding(context_length, d_model)
-    
+
     def forward(self, inputs, targets = None):
         logits = self.wte(inputs)
         # 로짓을 PE에 전달
@@ -152,20 +203,39 @@ class GPT(nn.Module):
         return logits, loss
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Now, if you try to train the model and generate a sequence, you might encounter an error similar to the one below:
 
-
 ![Error Message](/assets/img/2024-07-13-BuildingGPT-2withPyTorchPart2_3.png)
 
-
-This error indicates that we attempted to generate 1000 tokens one by one, passing the previous *n* tokens to the model to predict the next token. However, with the addition of the PositionalEmbedding layer, it now only accepts tokens of a size less than or equal to the context_length, which is set at 256 in our case.
+This error indicates that we attempted to generate 1000 tokens one by one, passing the previous _n_ tokens to the model to predict the next token. However, with the addition of the PositionalEmbedding layer, it now only accepts tokens of a size less than or equal to the context_length, which is set at 256 in our case.
 
 Let's adjust our generate function to accommodate the context_length:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 def generate(self, inputs, max_new_tokens):
@@ -188,8 +258,18 @@ def generate(self, inputs, max_new_tokens):
 
 ![2024-07-13-BuildingGPT-2withPyTorchPart2_4](/assets/img/2024-07-13-BuildingGPT-2withPyTorchPart2_4.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드:
 
@@ -214,7 +294,18 @@ class GPT(nn.Module):
 
 ![이미지](/assets/img/2024-07-13-BuildingGPT-2withPyTorchPart2_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 사진은 b. (가려진) 셀프 어텐션 + 정규화의 과정을 나타냅니다. 이 부분도 열심히 공부하시는군요! 계속해서 함께 알아보도록 하죠.
 
@@ -222,7 +313,18 @@ class GPT(nn.Module):
 
 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 트랜스포머 모델에서 가장 흥미로운 부분은 Self-Attention입니다. 이 개념을 더 잘 이해하기 위해 Jay Alammar의 시각 자료를 참조하세요. 간단히 말해서, Self-Attention은 현재 및 이전 n 토큰이 주어졌을 때 모델이 다음 토큰에 더 많은 관심을 기울어야 하는지를 정의합니다.
 
@@ -232,41 +334,52 @@ class GPT(nn.Module):
 
 다음은 모델에 Self-Attention을 추가하는 방법입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 class SelfAttention(nn.Module):
     def __init__(self, d_model: int):
         super().__init__()
-        
+
         self.query = nn.Linear(d_model, d_model)
         self.key = nn.Linear(d_model, d_model)
         self.value = nn.Linear(d_model, d_model)
         self.fc_out = nn.Linear(d_model, d_model)
         self.dropout = nn.Dropout(0.2)
-    
+
     def forward(self, inputs: torch.Tensor):
         B, seq_length, d_model = inputs.shape
-        
+
         # Project the input embeddings into Q, K, and V
         Q = self.query(inputs)
         K = self.key(inputs)
         V = self.value(inputs)
-        
+
         # Compute attention scores
         attention_scores = torch.matmul(Q, K.transpose(-2, -1))
-        
+
         # Apply mask to prevent attention to future tokens
         mask = torch.triu(torch.ones(seq_length, seq_length), diagonal=1).bool().to(inputs.device)
         attention_scores = attention_scores.masked_fill(mask, float('-inf'))
-        
+
         attention_weights = torch.softmax(attention_scores, dim=-1)
         # Compute the weighted sum of the values
         attention_output = torch.matmul(attention_weights, V)
 
         # Apply the final linear transformation
         out = self.fc_out(attention_output)
-        
+
         return out
 
 class GPT(nn.Module):
@@ -288,7 +401,18 @@ Just like that, we have our code ready. Let's embark on the training journey and
 
 😍Oh, wow! Do you feel the same way as I do? It seems like the model is grasping the essence of word representations and their harmonious arrangement in a piece of music, doesn't it? Truly remarkable! Imagine the magic when this layer evolves into Multi-Head.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 정규화(Normalization)
 
@@ -298,7 +422,18 @@ Just like that, we have our code ready. Let's embark on the training journey and
 
 ![image](/assets/img/2024-07-13-BuildingGPT-2withPyTorchPart2_8.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드:
 
@@ -329,7 +464,18 @@ class GPT(nn.Module):
 
 빠른 변화
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 그 작업을 마쳤으니, d_model=vocab_size로 설정한 점을 기억해주세요. 왜냐하면 우리는 단 하나의 레이어인 Embedding 레이어만 가졌기 때문이죠.
 
@@ -337,7 +483,7 @@ class GPT(nn.Module):
 
 ```python
 # 임베딩 크기를 정의하는 데 사용됨
-d_model = 512 
+d_model = 512
 
 # embedding 차원(d_model)을 vocab_size로 변환하는 linear 레이어를 추가하는 것을 잊지 마세요
 class GPT(nn.Module):
@@ -351,13 +497,24 @@ class GPT(nn.Module):
         logits = self.linear1(logits)
         ...
         return logits, loss
-    
+
     ...
 ```
 
 딱 이것만 바꾸면, 우리의 GPT-2 Transformer 디코더 아키텍처의 전체 모델을 완성했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아직 끝나지 않았어요. 모델을 계속 향상시켜봅시다..
 
@@ -365,7 +522,18 @@ class GPT(nn.Module):
 
 이미 셀프-어텐션 메커니즘의 강력함과 모델이 텍스트 내의 문맥적 관계를 일반화하는 능력을 알고 있을 수도 있어요. 하지만 만약에 모델이 텍스트 내에서 단어나 문자들이 어떻게 서로 연결되어 있고 그들의 시간적 사용 등과 같은 다양한 언어적 특성을 이해할 수 있는 방법이 있다면 어떨까요? 자음과 모음 사이의 차이, 그리고 어떤 상황에서 어떻게 사용해야 하는지를 학습하는 모델을 상상해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 흥미로운 내용이죠? Self-Attention에서 d_model에 대한 전체적인 시퀀스 문맥을 나타내는 동안, 이제 d_model을 여러 개의 헤드로 나눌 수 있습니다. 각 헤드는 Query, Key 및 Value를 위한 별도의 표현을 갖고 있어 모델이 시퀀스 내에서 여러 문맥적 뉘앙스를 학습할 수 있게 됩니다. 다중 헤드를 통합하여 우리의 어텐션 레이어를 강화해 봅시다.
 
@@ -379,7 +547,7 @@ n_heads = 4  # self-attention 헤드의 수. d_model로 나눌 수 있어야 합
 class MultiHeadAttention(nn.Module):
     def __init__(self, d_model: int, n_heads: int):
         super().__init__()
-        
+
         self.n_heads = n_heads
         self.head_dim = d_model // n_heads
 
@@ -393,19 +561,19 @@ class MultiHeadAttention(nn.Module):
 
     def forward(self, inputs: torch.Tensor):
         B, seq_length, d_model = inputs.shape
-        
+
         # 입력 임베딩을 Q, K 및 V로 프로젝션
         Q = self.query(inputs).view(B, seq_length, self.n_heads, self.head_dim).permute(0, 2, 1, 3)
         K = self.key(inputs).view(B, seq_length, self.n_heads, self.head_dim).permute(0, 2, 1, 3)
         V = self.value(inputs).view(B, seq_length, self.n_heads, self.head_dim).permute(0, 2, 1, 3)
-        
+
         # 어텐션 스코어 계산
         attention_scores = torch.matmul(Q, K.transpose(-2, -1)) / math.sqrt(self.head_dim)
-        
+
         # 미래 토큰에 대한 어텐션 방지를 위한 마스크 적용
         mask = torch.triu(torch.ones(seq_length, seq_length), diagonal=1).bool().to(inputs.device)
         attention_scores = attention_scores.masked_fill(mask, float('-inf'))
-        
+
         attention_weights = torch.softmax(attention_scores, dim=-1)
         # 값들의 가중합 계산
         attention_output = torch.matmul(self.dropout(attention_weights), V)
@@ -416,7 +584,7 @@ class MultiHeadAttention(nn.Module):
 
         # 최종 선형 변환 적용
         out = self.fc_out(attention_output)
-        
+
         return out
 
 class GPT(nn.Module):
@@ -430,7 +598,18 @@ class GPT(nn.Module):
 m = GPT(vocab_size=vocab_size, d_model=d_model, n_heads=n_heads).to(device)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제, 편안히 앉아 계속해서 모델을 훈련시키고 마법을 보세요...
 
@@ -440,14 +619,25 @@ m = GPT(vocab_size=vocab_size, d_model=d_model, n_heads=n_heads).to(device)
 
 ## d. GPT 디코더 블록들
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마음에 드셨으면 좋겠네요!🔮
 
 프로젝트를 통해 제시된 모델 다이어그램을 주의 깊게 살펴보시면, 직사각형 블록 안에 몇 개의 레이어가 추가된 것을 알 수 있습니다. 이것들을 '디코더 블록'이라고 합니다. 하지만 여러 개의 선형 네트워크 레이어를 추가할 수 있는 것처럼, 이 그룹 모델의 여러 블록도 추가할 수 있습니다. 어떻게 할지 알아보겠습니다:
 
 먼저, 우리의 어텐션, 레이어 노름 및 피드 포워드 네트워크를 GPTBlock이라는 별도 모듈로 꺼내보겠습니다.
-  
+
 ```python
 class GPTBlock(nn.Module):
     def __init__(self, d_model, n_heads):
@@ -471,7 +661,18 @@ class GPTBlock(nn.Module):
         return logits
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 여기서 내부의 모든 레이어들을 블록으로 대체하는 GPT 클래스를 수정해봅시다. 추가로 생성자 매개변수 n_layer를 사용하여 디코더 블록/레이어의 개수를 정의합니다.
 
@@ -503,7 +704,18 @@ m = GPT(vocab_size=vocab_size, d_model=d_model, n_heads=n_heads, n_layers=n_laye
 
 이제 코드에서 한 가지 더 수정을 해야합니다. 토크나이저입니다. 네, 모델을 유용한 정보를 많이 얻을 수 있는데도 불구하고 많은 토큰으로 모델의 부하를 증가시키고 있는 문자 레벨 토크나이저를 개선해보겠습니다. GPT 토크나이저를 위한 공식 파이썬 라이브러리인 tiktoken 라이브러리를 사용하여 토크나이저를 개선해봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 라이브러리는 Byte Pair Encoding(BPE) 알고리즘을 사용합니다. 이 알고리즘은 토크나이저를 훈련할 때 단어나 단어의 여러 부분이 얼마나 자주 나타나는지를 기반으로 단어를 병합합니다.
 
@@ -515,7 +727,18 @@ pip install tiktoken
 
 코드:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 import tiktoken
@@ -530,8 +753,18 @@ We have now expanded our vocabulary size to 50257, allowing the model to encount
 
 Next, we will encode our data using the updated tokenizer. Let's adjust our data initialization as follows:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 import torch
@@ -555,8 +788,18 @@ data = torch.tensor(tokenizer.encode(text), dtype=torch.long, device=device)
 
 🥳 마침내 프로젝트의 끝에 다다랐고 새로운 학습 경험을 얻었습니다. 몇 가지 조정을 해서 모델이 더 빨리 더 잘 훈련되도록 할 수 있습니다. 그러면 모든 준비가 끝납니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 以下是您请求的更改：
 
@@ -572,7 +815,7 @@ class GPT(nn.Module):
         self.wpe = PositionalEncoding(context_length, d_model)  # 단어 위치 인코딩
         self.blocks = nn.ModuleList([GPTBlock(d_model, n_heads) for _ in range(n_layers)])
         self.linear1 = nn.Linear(d_model, vocab_size)
-        
+
         # 매개변수 공유
         self.wte.weight = self.linear1.weight
 ```
@@ -581,20 +824,42 @@ GPT-2에서 매개변수 공유에 대해 더 자세히 알아보려면 여기�
 
 현재 모델 구조를 시각화하려면 모델 변수 자체를 출력해주세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 이렇게 해서 우리만의 29M GPT-2 모델을 만들었습니다. 이건 우리의 사용 목적에 충분할 거에요.
 
 모델을 훈련하기 전에 torch.compile을 사용해 모델을 컴파일해야 해요. 이렇게 하면 모델 내에서 발생하는 거의 모든 행렬 곱셈과 다른 작업들이 미리 매핑되어요. 간단히 말해서, 모델은 각 연산을 한 줄씩 또는 레이어별로 진행하는 대신 모든 작업을 합쳐 최종 단계를 직접 계산할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제가 학습률과 훈련 루프를 아래와 같이 수정했습니다:
 
 ```js
-lr = 1e-3
-optim = torch.optim.AdamW(m.parameters(), lr=lr, weight_decay=0.1)
-scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optim, T_max=3000, eta_min=lr*0.1)
+lr = 1e-3;
+optim = torch.optim.AdamW(m.parameters(), (lr = lr), (weight_decay = 0.1));
+scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optim, (T_max = 3000), (eta_min = lr * 0.1));
 ```
 
 ```js
@@ -632,7 +897,18 @@ for e in range(epochs):
 
 모델 크기가 매우 커져서 이제 GoogleColab을 사용하여 모델을 훈련하고 있습니다. 이 링크를 클릭하여 Colab에서 열어볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 After training for approximately 3500 epochs, here is the training loss curve I obtained:
 
@@ -642,7 +918,18 @@ And here is a snippet of a song generated by the model 🎶🎶:
 
 ![Song Output](/assets/img/2024-07-13-BuildingGPT-2withPyTorchPart2_16.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그곳에 있었습니다. 사용자 데이터로 사용자 정의 GPT-2 모델을 구축하고 훈련하는 단계별 안내서입니다. 데이터 요구 사항에 따라 하이퍼파라미터 및 레이어를 수정해 보세요.
 

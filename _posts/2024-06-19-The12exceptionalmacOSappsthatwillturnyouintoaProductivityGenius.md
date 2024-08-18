@@ -3,18 +3,13 @@ title: "당신을 생산성 천재로 변신시킬 12가지 탁월한 macOS 앱"
 description: ""
 coverImage: "/assets/img/2024-06-19-The12exceptionalmacOSappsthatwillturnyouintoaProductivityGenius_0.png"
 date: 2024-06-19 01:07
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-The12exceptionalmacOSappsthatwillturnyouintoaProductivityGenius_0.png
 tag: Tech
 originalTitle: "The 12 exceptional macOS apps that will turn you into a Productivity Genius"
 link: "https://medium.com/macoclock/the-12-exceptional-macos-apps-that-will-turn-you-into-a-productivity-genius-f3766462937a"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![](/assets/img/2024-06-19-The12exceptionalmacOSappsthatwillturnyouintoaProductivityGenius_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 아직 macOS의 기본 기능에 의존하고 있다면, 시간과 정신적 에너지, 생산성을 낭비하고 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글에는 macOS 기반에 올릴 앱들이 12가지 포함되어 있어요. 저는 실제로 이 중 몇 가지를 매일 사용하고 있어요 - 그래서 확실해요.
 
@@ -52,7 +57,18 @@ X — Ready to Send: 초안 이메일 답장 생성
 
 # #1. superwhisper
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## ($8.49/월 또는 $249.99 영구 | Setapp에서 이용 가능)
 
@@ -63,11 +79,33 @@ superwhisper는 놀라운 AI 모델인 Whisper 위에 더욱 놀라운 UI를 제
 그런데 Whisper는 무엇일까요?
 이는 웹에서 수집한 680,000시간의 다국어 데이터로 훈련된 OpenAI의 자동 음성 인식 모델입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 Markdown 형식으로 변경하면 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 슈퍼위스퍼를 설치하면 모델의 다섯 가지 변형 중 하나를 선택하라는 메시지가 표시됩니다: Fast, Nano, Standard, Pro, Ultra — (정확도와 크기를 기준으로 오름차순, 속도를 기준으로 내림차순). 컴퓨팅 성능과 인내심이 충분하다면 Ultra를 추천해요.
 
@@ -80,7 +118,18 @@ superwhisper는 놀라운 AI 모델인 Whisper 위에 더욱 놀라운 UI를 제
 
 ## 2. BoltAI
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## (시작 가격 $22 | Setapp에서 이용 가능)
 
@@ -96,7 +145,18 @@ Setapp에서 BoltAI를 이용하면 됩니다 (이것은 정보 전달 목적으
 • Whisper를 이용하여 250분
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 먼저 'BoltAI'가 뭔가요?
 이것은 여러 AI 모델에 대한 단일 UI입니다.
@@ -107,7 +167,18 @@ Setapp에서 BoltAI를 이용하면 됩니다 (이것은 정보 전달 목적으
 
 그리고 AI 모델 사이를 전환하기 위해 브라우저 탭을 바꾸는 걸 싫어해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인기있는 모델인 GPT, Gemini, Claude, Stable Diffusion 및 Mistral을 위한 단일 UI가 필요했습니다. 그리고 그때 BoltAI를 발견했습니다.
 
@@ -122,9 +193,20 @@ Setapp에서 BoltAI를 이용하면 됩니다 (이것은 정보 전달 목적으
 
 BoltAI는 UI 없이도 동일하게 효과적입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-그냥 gpt: `prompt`를 입력하고 ⇧⌘⏎를 눌러 인공지능을 인라인으로 사용하세요. 또는 /ask_`AI 역할` `프롬프트`를 사용하여 역할을 호출하세요. 설명서, 이메일, 메모 또는 입력할 곳이면 어디에서든 이렇게 해보세요.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+그냥 gpt: `prompt`를 입력하고 ⇧⌘⏎를 눌러 인공지능을 인라인으로 사용하세요. 또는 /ask\_`AI 역할` `프롬프트`를 사용하여 역할을 호출하세요. 설명서, 이메일, 메모 또는 입력할 곳이면 어디에서든 이렇게 해보세요.
 
 ## #X. 발송 준비 완료
 
@@ -132,7 +214,18 @@ BoltAI는 UI 없이도 동일하게 효과적입니다.
 
 "왜 #X를 넣었을까요? 이것은 앱이 아닌 내가 사용하는 Gmail 확장 프로그램입니다. 이 기사의 보너스로 생각해주세요."
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내가 말했듯이, 나는 9시부터 5시까지는 개발자이고 5시부터 9시까지는 블로거이다. 둘 다 성공을 위해 "네트워킹"이 필요하다고.
 
@@ -142,7 +235,18 @@ BoltAI는 UI 없이도 동일하게 효과적입니다.
 
 어쨌든, 그것은 슬픈 옛 이야기야.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최근에 이 신의 보낸 이메일 확장 프로그램 — Ready to Send — 를 설치하면서 내 삶이 훨씬 쉬워졌어요. 이 확장 프로그램은 내 수신 이메일에 자동으로 초안 답장을 생성해줘요.
 
@@ -152,12 +256,23 @@ BoltAI는 UI 없이도 동일하게 효과적입니다.
 
 또한
 
-| 좋은 점  | 추가 기능 |
-|----------|------------|
+| 좋은 점        | 추가 기능      |
+| -------------- | -------------- |
 | 전체 대화 고려 | 좋은 맥락 제공 |
-| 자동 초안 | 편리함 제공 |
+| 자동 초안      | 편리함 제공    |
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 내 스타일, 비즈니스 및 초안 길이에 맞는 AI 프롬프트로 사용자 정의하세요.
 - 자동으로 회신할 이메일 유형을 선택하세요 (AI 크레딧이 회신하지 않는 뉴스레터에 소비되지 않도록).
@@ -168,7 +283,18 @@ BoltAI는 UI 없이도 동일하게 효과적입니다.
 
 하루에 8시간 동안 코딩을 합니다. 종종 그것은 지치게 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 친구야, 내 눈을 돌봐주거나 코딩을 더 쉽게 만들어 주거나 상사를 몰디브로 1년간 휴가 보내게 해주는 거라면, 나는 심지어 $9650을 들이겠어.
 
@@ -178,7 +304,18 @@ BoltAI는 UI 없이도 동일하게 효과적입니다.
 
 얘기해볼까? 스위프트를 입력할 때 두 때 사용법을 알아봐.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 'bar'를 얻으려면
 
@@ -196,9 +333,20 @@ guard let foo = foo else {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-- _"Hello World" 메시지를 가져오려면
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+- \_"Hello World" 메시지를 가져오려면
 
 ```js
 NSLocalizedString("Hello World", comment: "Message")
@@ -223,7 +371,18 @@ class HelloWorldView: NSView {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 이렇게 보세요? 코드에 HelloWorld가 세 번 등장하는데, 한 번만 입력했어요 — TeaCode 덕분에 시간을 절약하고 있네요.
 
@@ -235,7 +394,18 @@ class HelloWorldView: NSView {
 - 이 앱은 모든 macOS 네이티브 텍스트 편집기와 함께 작동하며, VS Code나 IntelliJ와 같은 편집기용 플러그인도 제공돼요.
 - ⌘+⇧+공백키를 사용하여 Spotlight와 비슷한 인터페이스에서 어떤 확장기능이든 빠르게 찾을 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-19-The12exceptionalmacOSappsthatwillturnyouintoaProductivityGenius_4.png)
 
@@ -245,7 +415,18 @@ class HelloWorldView: NSView {
 
 ## (무료 | Pro 버전 $9.99 | Setapp에서 이용 가능)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 사무실 공간에는 3,000대 이상의 PC 및 맥이 있습니다. 모두 SSH로 연결할 수 있어요.
 
@@ -255,7 +436,18 @@ CompTIA A+인증을 받은 제가, 상사가 기술 문제로 달려와서 도�
 
 어떤 사람들은 매주 두 번씩이나 자주 오게 됩니다. 이유를 모르지만 자주 문제가 발생하는 것 같아요. 그래도 좋아요 - 그래서 "안녕하세요-안녕히 가세요 친구" 몇 명을 사귀었거든요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그런 사람들을 위해, 그들의 SSH 세부 정보를 ssh_config 파일에 보관하면 편리할 것 같았어요. 그렇게 하면 매번 설정을 물어보지 않아도 돼요.
 
@@ -265,11 +457,33 @@ CompTIA A+인증을 받은 제가, 상사가 기술 문제로 달려와서 도�
 
 그는 무제한 SSH 구성을 저장하여 클릭 한 번으로 연결할 수 있는 제3자 터미널인 Core Shell을 사용하는 것을 제안했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아, 그리고 Core Shell은 터미널과 달리 Safari와 유사한 다운로드/업로드 진행 막대를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-The12exceptionalmacOSappsthatwillturnyouintoaProductivityGenius_6.png" />
 
@@ -280,7 +494,18 @@ CompTIA A+인증을 받은 제가, 상사가 기술 문제로 달려와서 도�
 정말 그렇죠.
 시간을 추적하기 시작한 이후로 제 삶이 많이 변했어요. 미루고 있는 시간이 줄었답니다. 그리고 저는 어떻게 추적하고 있을까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아무 복잡한 앱이 아니라 Moment라는 작은 앱으로 이를 할 수 있어요.
 
@@ -290,7 +515,18 @@ CompTIA A+인증을 받은 제가, 상사가 기술 문제로 달려와서 도�
 
 Moment를 사용하면, 이렇게 할 수 있어요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 프로젝트 마감일, 생일 또는 결혼 기념일까지 카운트 다운 타이머를 만들어보세요.
 
@@ -300,7 +536,18 @@ Moment를 사용하면, 이렇게 할 수 있어요:
 
 ![이미지](/assets/img/2024-06-19-The12exceptionalmacOSappsthatwillturnyouintoaProductivityGenius_9.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 가족들의 나이를 세어보세요 — 그들과 더 많은 시간을 보내기 위한 격려로요.
 
@@ -310,7 +557,18 @@ Moment를 사용하면, 이렇게 할 수 있어요:
 
 ## #6. Noizio
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## ($2.99 | Setapp에서 이용 가능)
 
@@ -321,7 +579,18 @@ Moment를 사용하면, 이렇게 할 수 있어요:
 
 아이들은 아직 여기 있어요 — 그들의 크고 시끄러운 목소리가 집 안 곳곳에서 울려 퍼지고 있어요. 사실 방투가 방금 내 키보드에서 피아노를 연주하고 도망쳤어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 이상한 단어들을 정리해야 하는 껄끄러운 일이 있었어요.
 
@@ -331,7 +600,18 @@ Moment를 사용하면, 이렇게 할 수 있어요:
 
 그래서 Noizio 앱을 설치했어요 — 집중을 돕기 위해 환경음을 재생해 주는 매우 간단한 앱이에요. 가장 좋은 점은 다양한 볼륨의 소리를 섞어 다른 경험을 즐길 수 있다는 거예요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-The12exceptionalmacOSappsthatwillturnyouintoaProductivityGenius_11.png" />
 
@@ -362,7 +642,18 @@ Noizio가 제공하는 모든 소리들을 여기에서 확인해보세요:
 
 # #7. Commander One
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## (무료 | 전문가는 $29.99 | Setapp에서 이용 가능)
 
@@ -372,7 +663,18 @@ Noizio가 제공하는 모든 소리들을 여기에서 확인해보세요:
 
 매일 그는 보통 2~3개의 장편 YouTube 비디오 프로젝트를 받아요. 그의 클라이언트들은 대체로 그에게 30~40개의 기본 클립을 보내고 각 비디오에 10~15개의 스톡 풋리지를 추가해 달라고 해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 말 그대로 그는 클라이언트의 입력을 안전하게 보관하고 최상의 품질의 산출물을 적어도 3GB 크기로 다시 보내기 위해 충분한 클라우드 공간이 필요합니다.
 
@@ -383,7 +685,18 @@ Noizio가 제공하는 모든 소리들을 여기에서 확인해보세요:
 
 ![Commander One](/assets/img/2024-06-19-The12exceptionalmacOSappsthatwillturnyouintoaProductivityGenius_12.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그는 그것이 그의 일에 대한 거의 필수적이라고 말했어요.
 내가 물었을 때, 그는 대답했어요, "그것은 파일을 폴더 간에 편리하게 이동할 수 있도록 해주는 듀얼 패널 파일 관리자 앱이에요. 이것을 통해 저는
@@ -398,7 +711,18 @@ Noizio가 제공하는 모든 소리들을 여기에서 확인해보세요:
 - 더 정확한 결과를 얻기 위해 RegEx를 사용하세요.
 - 어떤 폴더에서든지 빠르게 터미널 창을 열 수 있어요."
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # #8. 포크리프트
 
@@ -408,7 +732,18 @@ Commander One의 UI에 있는 버튼이 너무 많아 당황스러우신가요? 
 
 이렇게 PRO한 맥 앱을 쓰는 것이 익숙하지 않아요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제 동생과 달리 간단하게 보이지만 더 강력한 듀얼-패널 파일 관리자인 Forklift를 설치했어요.
 
@@ -422,7 +757,18 @@ Commander One처럼 Forklift도 다음과 같은 기능을 제공해요:
 - 같은 패널에 여러 폴더 탭을 만들 수 있어요.
 - 현재 폴더 경로에서 터미널을 열 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 Forklift로 할 수 있는 것을 Commander One으로는 할 수 없는 것은 다음과 같습니다:
 
@@ -438,7 +784,18 @@ Commander One처럼 Forklift도 다음과 같은 기능을 제공해요:
 
 ## #9. Trickster
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## ($29.99 | Setapp에서 이용 가능)
 
@@ -448,8 +805,18 @@ Commander One처럼 Forklift도 다음과 같은 기능을 제공해요:
 
 시간이나 정신 에너지를 아껴주는 모든 것을 좋아해요. Trickster가 바로 거기에 속하는데, 제게 꼭 필요한 생산성 앱이랍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-The12exceptionalmacOSappsthatwillturnyouintoaProductivityGenius_14.png)
 
@@ -459,8 +826,18 @@ Commander One처럼 Forklift도 다음과 같은 기능을 제공해요:
 
 가장 좋은 점은, 추가되거나 열거나 수정된 모든 파일을 추적하여 CPU를 과부하시키지 않습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특정 폴더를 모니터링하도록 지정할 수 있어요. 원하면 모니터링을 일시 중지할 수도 있어요.
 
@@ -474,7 +851,18 @@ Commander One처럼 Forklift도 다음과 같은 기능을 제공해요:
 어플이 저를 가장 도와준 부분을 아시나요?
 내가 실수로 잘못된 파일 창을 닫았을 때, 그리고 방금 다운로드한 파일에 액세스하는 것을 도와줄 때 말이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # #10. FilePane
 
@@ -484,8 +872,18 @@ FilePane은 필수적이지는 않지만 한 번 사용하면 필요한 앱입�
 
 파일을 끌 때 빠르게 파일 작업을 제공하는 편리한 앱입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-The12exceptionalmacOSappsthatwillturnyouintoaProductivityGenius_15.png)
 
@@ -495,9 +893,18 @@ FilePane은 필수적이지는 않지만 한 번 사용하면 필요한 앱입�
 
 이미지를 끌어다 놓는다고 가정해 보면, 다음과 같은 작업이 표시됩니다:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-19-The12exceptionalmacOSappsthatwillturnyouintoaProductivityGenius_16.png)
 
@@ -509,8 +916,18 @@ FilePane은 필수적이지는 않지만 한 번 사용하면 필요한 앱입�
 
 PDF 파일을 끌어다 놓으면 다음 옵션이 나타납니다: 여러 이미지로 분할하기 및 인쇄하기.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 사항들은 모든 파일 유형에 적용됩니다:
 
@@ -525,7 +942,18 @@ PDF 파일을 끌어다 놓으면 다음 옵션이 나타납니다: 여러 이�
 
 # #11. 유클리드
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## ($2.99 | Setapp에서 이용 가능)
 
@@ -536,7 +964,18 @@ PDF 파일을 끌어다 놓으면 다음 옵션이 나타납니다: 여러 이�
 
 -더 큰 계산을 수용할 수 있도록 매우 큰 화면 공간을 가지고 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-The12exceptionalmacOSappsthatwillturnyouintoaProductivityGenius_17.png" />
 
@@ -546,39 +985,58 @@ PDF 파일을 끌어다 놓으면 다음 옵션이 나타납니다: 여러 이�
 - Euclid는 많은 Excel 수식을 알고 있습니다. 익숙하다면 시도해보세요.
 - 단위를 변환할 수 있습니다.
 
-
 면적
 길이
 부피
 각도
---------
-통화
---------
+
+---
+
+## 통화
+
 질량
 압력
---------
+
+---
+
 가속도
 소요 시간
 주파수
 속도
---------
+
+---
+
 에너지
 전력
 온도
---------
+
+---
+
 전하량
 전류
 전압
 저항
---------
-농도
---------
-연료 효율성
 
+---
+
+## 농도
+
+연료 효율성
 
 <img src="/assets/img/2024-06-19-The12exceptionalmacOSappsthatwillturnyouintoaProductivityGenius_18.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 60개의 이전 결과를 기억하니까 AC를 실수로 누르더라도 걱정할 필요 없어요.
 
@@ -588,7 +1046,18 @@ PDF 파일을 끌어다 놓으면 다음 옵션이 나타납니다: 여러 이�
 
 2018년에 입학한 대학 1학년 때 공부한 과목 중 하나인 "공학용 미적분학" 강의를 떠올려봐요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희 교수님은 상상할 수 있는 가장 이상한 수학 함수를 주고는 했어요. 그리고 Matlab을 사용해서 그래프를 그리라고 했죠.
 
@@ -598,7 +1067,18 @@ PDF 파일을 끌어다 놓으면 다음 옵션이 나타납니다: 여러 이�
 
 당시에 Mac과 PocketCAS 앱이 있었으면 더 빨리 과제를 끝낼 수 있었을 텐데 하고 후회했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 PocketCAS는 macOS용으로 주장되는 가장 진보된 계산기 앱입니다. 5학년 학생부터 박사 교수까지 모두를 수학에서 도와줄 수 있어요.
 
@@ -611,7 +1091,18 @@ PocketCAS는 macOS용으로 주장되는 가장 진보된 계산기 앱입니다
 
 ![이미지](/assets/img/2024-06-19-The12exceptionalmacOSappsthatwillturnyouintoaProductivityGenius_20.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 2D 및 3D 플롯을 생성합니다.
 
@@ -621,7 +1112,18 @@ PocketCAS는 macOS용으로 주장되는 가장 진보된 계산기 앱입니다
 
 총평하면, 수학 애호가들을 위한 만능 앱입니다. 이제 더 이상 여러 수학 작업을 위해 여러 앱이나 탭을 사용할 필요가 없습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 더 맥오에스니꼬 어플을 찾고 계신다면, 이 글 읽어보세요
 
@@ -632,7 +1134,18 @@ PocketCAS는 macOS용으로 주장되는 가장 진보된 계산기 앱입니다
 - Setapp 여정을 시작하려면 제 제휴 링크를 사용해보세요! (30일간 무료로 이용 가능)
 - Setapp에서 제가 만든 100가지 최고의 macOS 어플 목록을 무료로 받아보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새 이야기를 발행할 때마다 알림을 받으려면 475명 이상의 사람들을 참여하세요!
 

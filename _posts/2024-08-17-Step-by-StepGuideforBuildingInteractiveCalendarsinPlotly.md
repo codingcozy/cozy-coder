@@ -3,7 +3,7 @@ title: "Plotly로 인터랙티브 캘린더 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-17-Step-by-StepGuideforBuildingInteractiveCalendarsinPlotly_0.png"
 date: 2024-08-17 00:16
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-17-Step-by-StepGuideforBuildingInteractiveCalendarsinPlotly_0.png
 tag: Tech
 originalTitle: "Step-by-Step Guide for Building Interactive Calendars in Plotly"
@@ -11,7 +11,6 @@ link: "https://medium.com/towards-data-science/step-by-step-guide-for-building-i
 isUpdated: true
 updatedAt: 1723863809294
 ---
-
 
 ![Step-by-StepGuideforBuildingInteractiveCalendarsinPlotly](/assets/img/2024-08-17-Step-by-StepGuideforBuildingInteractiveCalendarsinPlotly_0.png)
 
@@ -21,7 +20,18 @@ Plotly는 시각화를 만들기 위한 가장 포괄적인 Python 라이브러�
 
 Plotly의 캘린더는 미리 정의된 도구로 생성된 것보다 더 많은 사용자 정의화가 가능합니다. 또한 가장 큰 장점 중 하나는 주피터 노트북과 통합이 가능하다는 점입니다. 예를 들어 이러한 노트북 내에서 시간적 분석을 수행할 수 있습니다. 또한 호버 오버를 우리의 분석 요구에 맞게 사용자 정의할 수 있습니다. 미리 정의된 도구와 비교했을 때 또 다른 큰 장점은 Plotly가 완전히 무료이며 구독이 필요하지 않다는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 달력을 만드는 방법을 알고 싶나요? 시작해 봅시다!
 
@@ -31,7 +41,18 @@ Plotly의 캘린더는 미리 정의된 도구로 생성된 것보다 더 많은
 
 이 문서에서 사용된 파일은 바르셀로나 시의 공개 데이터 페이지에서 얻었으며 다음 링크에서 다운로드할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파일을 다운로드한 후, 문서 편집기로 열어서 파일의 구조를 확인할 수 있습니다. 속성인 BEGIN:VEVENT와 END:VEVENT는 파일에서 추출하려는 이벤트를 구분합니다. 각 이벤트에는 시작 날짜(DTSTART), 종료 날짜(DTEND), 요약(SUMMARY), 설명(DESCRIPTION)에 대한 정보가 포함되어 있습니다. 이 정보만 있으면 우리 캘린더를 만드는 데 충분합니다.
 
@@ -41,7 +62,18 @@ Plotly의 캘린더는 미리 정의된 도구로 생성된 것보다 더 많은
 
 ICS 파일의 내용을 추출하여 데이터 프레임에 저장하기 위해 convert_ics_to_dataframe 함수를 정의했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 기능은 파일의 내용을 읽고 ics 라이브러리에서 Calendar 객체를 생성합니다. 캘린더의 이벤트는 events 속성을 통해 액세스할 수 있습니다. 그런 다음 각 이벤트에 대해 시작 날짜 (event.begin), 종료 날짜 (event.end), 요약 (event.name) 및 설명 (event.description)을 추출하여 데이터 프레임에 저장합니다.
 
@@ -51,7 +83,18 @@ ICS 파일의 내용을 추출하여 데이터 프레임에 저장하기 위해 
 
 ![이미지](/assets/img/2024-08-17-Step-by-StepGuideforBuildingInteractiveCalendarsinPlotly_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2024 캘린더를 위한 기본 DataFrame 생성
 
@@ -61,7 +104,18 @@ ICS 파일의 내용을 추출하여 데이터 프레임에 저장하기 위해 
 
 이 DataFrame은 나중에 Plotly에서 캘린더를 만드는 데 사용될 것입니다. Date Type 열은 날짜 유형을 나타냅니다: 평일인 경우 (1), 주말인 경우 (2). 그리고 나중에 공휴일의 존재를 나타내기 위해 다른 유형의 날짜 (3)가 추가될 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2024 기본 DataFrame에 휴일 정보 통합하기
 
@@ -71,7 +125,18 @@ ICS 파일의 내용을 추출하여 데이터 프레임에 저장하기 위해 
 
 결과 DataFrame은 달력을 시각화하는 데 사용할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2024 바르셀로나 휴일 달력 시각화
 
@@ -81,7 +146,18 @@ ICS 파일의 내용을 추출하여 데이터 프레임에 저장하기 위해 
 
 이전에 정의된 DataFrame을 사용하여 create_all_month_heatmaps 함수를 통해 달력을 생성합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 거기, 이제 우리는 인터랙티브 달력을 가지고 있어요. 평일, 주말, 그리고 공휴일이 각기 다른 색상으로 표시되어 있습니다.
 
@@ -91,7 +167,18 @@ ICS 파일의 내용을 추출하여 데이터 프레임에 저장하기 위해 
 
 ![인터랙티브 달력 확인](/assets/img/2024-08-17-Step-by-StepGuideforBuildingInteractiveCalendarsinPlotly_7.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 창의적으로 시도해보세요 - 다양한 레이아웃, 예를 들어 한 행에 3개월씩 배치하거나 요일을 표시할 주석 추가와 같은 다양한 색상 팔레트를 사용해 보세요!
 
@@ -101,7 +188,18 @@ ICS 파일의 내용을 추출하여 데이터 프레임에 저장하기 위해 
 
 시각화를 만들 때 가장 중요한 측면 중 하나는 올바른 디자인입니다. 타이포그래피, 제목이나 부제목과 같은 시각화에 표시될 구성 요소, 선택한 색상과 같은 요소들이 결정적인 역할을 합니다. 종종 우리는 시각화를 어떻게 디자인할지 모르며 영감의 원천이 필요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 드리블은 시각화나 대시보드를 만들 때 영감을 얻을 수 있는 내가 가장 좋아하는 웹사이트 중 하나야. 모바일 기기와 웹사이트에 대한 시각화를 위한 수천 개의 디자인 예시가 이 사이트에 있다구.
 
@@ -109,7 +207,18 @@ ICS 파일의 내용을 추출하여 데이터 프레임에 저장하기 위해 
 
 나는 캘린더의 가능한 디자인과 색상 팔레트에 대한 영감을 위해 이 두 웹사이트를 참고했어. 아래에 보여지는 것처럼, 시각화에 미니멀한 터치를 주고 싶을 때나 빈티지한 느낌을 원할 때 등 다양한 스타일을 평가하고 실험했어. Plotly 시각화는 매우 사용자 정의 가능해서 디자인과 창의성에 실험할 수 있게 해줘.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Plotly에는 달력을 만들기 위한 미리 정의된 시각화가 없지만, 이것은 우리가 사용자 정의 디자인의 동적 달력을 만들기 위한 해결책을 사용할 수 없다는 것을 의미하지 않습니다. 히트맵 시각화를 사용하면 Plotly에서 달력 및 다양한 시각화 형식을 만들 수 있습니다. 우리는 그들을 사용하는 데 창의적일 필요가 있습니다. 이 기사에서는 발레아리드 시티의 휴일을 시각화하기 위해 달력을 작성하는 방법을 단계별로 설명했습니다. 또한, Plotly가 제공하는 모든 사용자 정의 옵션을 사용함으로써 달력에 부여하고자 하는 스타일에 따라 다양한 디자인을 탐색했습니다.
 

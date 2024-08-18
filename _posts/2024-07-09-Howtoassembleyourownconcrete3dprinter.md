@@ -3,17 +3,13 @@ title: "자체 제작한 콘크리트 3D 프린터 조립 가이드"
 description: ""
 coverImage: "/assets/img/2024-07-09-Howtoassembleyourownconcrete3dprinter_0.png"
 date: 2024-07-09 23:09
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-Howtoassembleyourownconcrete3dprinter_0.png
 tag: Tech
 originalTitle: "How to assemble your own concrete 3d printer."
 link: "https://medium.com/@Nik_chen/how-to-assemble-your-own-concrete-3d-printer-4e6da490b6e6"
 isUpdated: true
 ---
-
-
-
-
 
 자신만의 콘크리트 3D 프린터를 만들기 위해서는, 게시된 가이드를 참고하시거나, 다리, 카테시안 또는 직교 좌표계 시스템을 사용하면 쉽다는 것을 알아두세요. 다리, 카테시안 또는 직교 로봇은 X-Y-Z 카테시안 좌표계에서 작동하는 세 개의 선형 관절으로 설계됩니다. 현재 시장의 콘크리트 3D 프린터 중 95%가 다리, 카테시안 또는 직교 로봇입니다. 그 이유가 있습니다.
 
@@ -23,20 +19,42 @@ isUpdated: true
 
 왜 CNC 라우터를 만드는 것이 쉽고 저렴한지 이해해 봅시다.
 여기에 몇 가지 이유가 있습니다:
+
 - 유튜브에 공개 도메인에서 어떻게 CNC 라우터를 만드는 비디오가 수천 개가 있습니다.
 - 거의 모든 크기의 CNC 라우터를 만들기 위한 하드웨어 키트가 수백 개 이상 구매할 수 있습니다.
 - 무료 또는 저렴한 CNC 라우터 제어 소프트웨어를 다운로드할 수 있습니다.
 - 아두이노 또는 라즈베리 파이에 대한 수백 개의 오픈 소스 소프트웨어 프로젝트를 찾을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 시작해 봅시다. 필요한 준비물은 다음과 같아요:
 
 - 모터와 리니어 가이드가 달린 프레임이 준비되어 있어야 해요
 - CNC 제어 보드
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image 1](/assets/img/2024-07-09-Howtoassembleyourownconcrete3dprinter_1.png)
 
@@ -46,16 +64,35 @@ Software
 
 Motor drivers — 4pc
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Power supply for motors 48VDC](/assets/img/2024-07-09-Howtoassembleyourownconcrete3dprinter_3.png)
 
 ![Power supply for logic (controller) 24VDC; 5A](/assets/img/2024-07-09-Howtoassembleyourownconcrete3dprinter_4.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-09-Howtoassembleyourownconcrete3dprinter_5.png)
 
@@ -70,8 +107,18 @@ Motor drivers — 4pc
 
 CNC 라우터 부분은 CNC 라우터를 콘크리트 3D 프린터로 바꾸기 위한 종료 부분입니다. 조절 가능한 속도의 석회고 펌프를 구입하고 펌프에서 나오는 호스를 스핀들이 있어야 할 위치 뒤쪽에 연결해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![A concrete 3D printer](/assets/img/2024-07-09-Howtoassembleyourownconcrete3dprinter_6.png)
 
@@ -81,8 +128,18 @@ The progressive cavity pump is the best type for material feed.
 
 This pump does not pulsate like a piston pump and handles very viscous materials well.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로그레시브 캐빈티 펌프에 대해 더 알고 싶다면, 이 비디오를 꼭 시청하세요.
 
@@ -92,7 +149,18 @@ This pump does not pulsate like a piston pump and handles very viscous materials
 
 내장된 VFD(가변 주파수 드라이브)가 이미 탑재돼 있어서 작은 3D 프린터를 제작하는 데 완벽합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그로 인해, 소재의 압출 속도를 수동으로 조절할 수 있습니다.
 

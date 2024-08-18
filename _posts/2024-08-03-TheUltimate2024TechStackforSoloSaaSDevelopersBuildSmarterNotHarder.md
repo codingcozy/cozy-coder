@@ -3,17 +3,13 @@ title: "솔로 SaaS를 스마트하고 더 쉽게 구축하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-03-TheUltimate2024TechStackforSoloSaaSDevelopersBuildSmarterNotHarder_0.png"
 date: 2024-08-03 18:40
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-03-TheUltimate2024TechStackforSoloSaaSDevelopersBuildSmarterNotHarder_0.png
 tag: Tech
 originalTitle: "The Ultimate 2024 Tech Stack for Solo SaaS Developers Build Smarter, Not Harder"
 link: "https://medium.com/@ixartz/the-ultimate-2024-tech-stack-for-solo-saas-developers-build-smarter-not-harder-011d08292bd1"
 isUpdated: true
 ---
-
-
-
-
 
 SaaS를 혼자 개발자로 만드는 것은 도전적인 과제입니다. 여러 역할을 맡고 다양한 기술에 능숙해야 하며, 기술 스택에 대한 전략적인 결정이 필요합니다. 이는 프런트엔드와 백엔드 모두에 익숙한 풀스택 개발자여야 한다는 것을 의미합니다.
 
@@ -23,7 +19,18 @@ SaaS를 혼자 개발자로 만드는 것은 도전적인 과제입니다. 여�
 
 실시간 데모를 확인해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 게시물이 여러분의 SaaS 여정에 영감을 주고 도움이 되기를 바랍니다.
 
@@ -33,7 +40,18 @@ SaaS를 혼자 개발자로 만드는 것은 도전적인 과제입니다. 여�
 
 ![이미지](/assets/img/2024-08-03-TheUltimate2024TechStackforSoloSaaSDevelopersBuildSmarterNotHarder_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Next.js를 사용하여 사용자 대시보드와 마케팅 사이트를 만들고 있어요. 프론트엔드는 React로 작성되었고, 백엔드는 Next.js Route Handlers를 사용하고 있어요. Route Handlers는 RESTful API를 생성해서 React 컴포넌트 및 모바일 애플리케이션과 같은 다른 클라이언트에서 사용할 수 있어요.
 
@@ -43,7 +61,18 @@ Next.js를 사용하여 사용자 대시보드와 마케팅 사이트를 만들�
 
 <img src="/assets/img/2024-08-03-TheUltimate2024TechStackforSoloSaaSDevelopersBuildSmarterNotHarder_2.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최대한 생산성을 높이기 위해 저는 TypeScript라는 언어만 사용합니다. Next.js와 결합하여 TypeScript를 사용하면 프론트엔드와 백엔드 코드를 하나의 프레임워크와 언어로 작성할 수 있어 개발 프로세스를 간소화하고 문맥 전환이 줄어듭니다.
 
@@ -53,7 +82,18 @@ Next.js를 사용하여 사용자 대시보드와 마케팅 사이트를 만들�
 
 ![이미지](/assets/img/2024-08-03-TheUltimate2024TechStackforSoloSaaSDevelopersBuildSmarterNotHarder_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 UI로는 Shadcn UI를 선택했어요. Shadcn UI는 Radix UI 위에 구축된 컴포넌트 모음으로, React 컴포넌트를 스타일링하지 않고 제공해요. Shadcn UI는 Tailwind CSS를 사용하여 Radix UI 컴포넌트를 스타일링하여 SaaS에 아름다운 UI를 제공해요. 더 좋은 소식은, 이 컴포넌트를 마케팅 사이트와 사용자 대시보드 사이에서 원활하게 공유할 수 있다는 거예요.
 
@@ -63,7 +103,18 @@ UI로는 Shadcn UI를 선택했어요. Shadcn UI는 Radix UI 위에 구축된 �
 
 그러나 여러분의 애플리케이션이 더 고급 기능을 필요로 하는 경우, Clerk는 탁월한 선택이에요. Clerk는 다중 요소 인증, 사용자 표시 권한 부여, 다중 세션 지원(한 사용자가 여러 계정에 연결할 수 있음), 일회용 이메일 차단, 브루트포스 방어, 봇 방어 등을 처리할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 점원은 사용자 정의가 가능한 React에서 완벽한 UI를 제공하여 인증을 제공합니다. 이것은 귀하의 브랜드에 맞추어 사용자 지정할 수 있습니다. 인증을 처음부터 개발하는 수고와 시간을 절약할 수 있습니다. Clerk가 제공하는 내장 UI 중 일부에는 등록, 로그인, 비밀번호 재설정, 비밀번호 초기화 및 사용자 프로필이 포함되어 있습니다.
 
@@ -73,8 +124,18 @@ UI로는 Shadcn UI를 선택했어요. Shadcn UI는 Radix UI 위에 구축된 �
 
 강력한 SaaS는 팀 또는 조직 내에서의 협업을 지원해야 합니다. Clerk는 포괄적인 다중 테넌시 및 팀 관리 시스템을 제공하며, 팀을 관리하고 사용자를 초대하는 완벽한 UI를 포함합니다. 이는 Clerk가 초대 이메일을 보내거나 사용자가 팀 간에 신속하게 전환할 수 있도록 하는 것을 포함하여 백엔드 로직이나 팀 관리를 위한 UI를 구현할 필요가 없음을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Role and Permission Image](/assets/img/2024-08-03-TheUltimate2024TechStackforSoloSaaSDevelopersBuildSmarterNotHarder_6.png)
 
@@ -84,8 +145,18 @@ UI로는 Shadcn UI를 선택했어요. Shadcn UI는 Radix UI 위에 구축된 �
 
 ![Another Image](/assets/img/2024-08-03-TheUltimate2024TechStackforSoloSaaSDevelopersBuildSmarterNotHarder_7.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 데이터베이스
 
@@ -95,7 +166,18 @@ UI로는 Shadcn UI를 선택했어요. Shadcn UI는 Radix UI 위에 구축된 �
 
 또한 Drizzle는 마이그레이션 프로세스를 간소화하는 CLI 도구인 Drizzle Kit을 제공합니다. Drizzle Kit을 사용하면 데이터베이스 스키마를 쉽게 업데이트할 수 있는 마이그레이션 폴더를 생성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한, 데이터베이스를 관리하는 시각적 인터페이스로 Drizzle Studio를 사용할 수 있습니다. Drizzle Studio를 통해 데이터베이스 스키마를 확인하고 쿼리를 실행하며 데이터를 살펴볼 수 있습니다.
 
@@ -105,7 +187,18 @@ UI로는 Shadcn UI를 선택했어요. Shadcn UI는 Radix UI 위에 구축된 �
 
 ![이미지](/assets/img/2024-08-03-TheUltimate2024TechStackforSoloSaaSDevelopersBuildSmarterNotHarder_10.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Stripe는 결제 및 구독을 원활하게 처리합니다. Stripe SDK를 사용하면 Next.js 애플리케이션에 결제 처리를 쉽게 통합할 수 있습니다. Stripe는 사용자를 리디렉션할 수 있는 결제 페이지를 제공합니다. 이 페이지는 사용자가 구독하려는 요금제를 상기시키는 것뿐만 아니라 매달 또는 매년 청구되는 금액도 보여줍니다. 마지막으로 사용자는 선택한 요금제에 가입하기 위해 신용카드 정보를 입력할 수 있습니다.
 
@@ -115,7 +208,18 @@ Stripe는 결제 및 구독을 원활하게 처리합니다. Stripe SDK를 사�
 
 Stripe는 사용자가 구독을 관리할 수 있는 자체 서비스 포털을 제공합니다. 이 포털에서 사용자는 요금제를 변경하거나 결제 방법을 업데이트하고 구독을 취소하며 송장을 볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-08-03-TheUltimate2024TechStackforSoloSaaSDevelopersBuildSmarterNotHarder_12.png" />
 
@@ -125,8 +229,18 @@ Stripe는 사용자가 구독을 관리할 수 있는 자체 서비스 포털을
 
 글로벌 시장에 다가가기 위해 저는 Next.js에서 여러 언어를 지원하기 위해 Next-Intl 라이브러리를 사용합니다. Next-Intl은 타입 안전한 번역을 제공하여 올바른 번역 키가 사용되었는지 확인합니다. 이를 통해 누락된 또는 잘못된 번역으로 인한 런타임 오류를 방지합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-08-03-TheUltimate2024TechStackforSoloSaaSDevelopersBuildSmarterNotHarder_14.png)
 
@@ -136,8 +250,18 @@ Stripe는 사용자가 구독을 관리할 수 있는 자체 서비스 포털을
 
 # 양식 관리
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-08-03-TheUltimate2024TechStackforSoloSaaSDevelopersBuildSmarterNotHarder_16.png" />
 
@@ -147,8 +271,18 @@ React-Hook-Form과 Zod을 결합하여 양식 관리 및 유효성 검사를 합
 
 SaaS 빌더로서, 응용 프로그램이 예상대로 작동하는지 확인하는 것이 중요합니다. 응용 프로그램을 테스트할 팀이 없으므로 자동화된 테스트에 의존해야 합니다. 이렇게 함으로써 새로운 기능이 추가될 때 응용 프로그램에 재귀적인 문제가 발생하지 않음을 확신할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-08-03-TheUltimate2024TechStackforSoloSaaSDevelopersBuildSmarterNotHarder_17.png)
 
@@ -158,8 +292,18 @@ SaaS 빌더로서, 응용 프로그램이 예상대로 작동하는지 확인하
 
 최종 사용자 테스트(E2E) 및 통합 테스트에는 Playwright를 사용합니다. Playwright는 브라우저 상호작용을 자동화할 수 있는 강력한 도구로, 애플리케이션의 모든 기능을 테스트하는 데 이상적입니다. Playwright를 사용하면 다양한 브라우저에서 사용자 상호작용을 시뮬레이션하여 앱이 일관되게 작동하는지 확인할 수 있습니다. 또한, Playwright는 Next.js Route Handlers를 테스트하는 데 우수하며, HTTP 요청을 쉽게 보내고 응답을 확인할 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # GitHub Actions
 
@@ -169,7 +313,18 @@ GitHub Actions은 지속적 통합(CI)을 위해 사용하는 강력한 도구�
 
 새로운 커밋을 푸시하거나 풀 리퀘스트를 생성할 때마다 나의 GitHub Actions는 미리 정의한 워크플로우를 자동으로 실행합니다. 이 워크플로우는 Vitest로 단위 테스트를 실행하고, Playwright로 엔드 투 엔드 테스트를 실행하며, 린트 및 코드 서식 맞춤 검사를 수행합니다. 문제가 발생하면 GitHub Actions가 알려주어 잘못된 코드를 병합하는 것을 방지합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 코드는 지속적으로 테스트되고 검증되어 안전망을 제공하여 새로운 기능을 구축하는 데 집중할 수 있게 도와줍니다. 특히 솔로 개발자로서 여러 역할을 수행하고 응용 프로그램의 모든 측면을 수동으로 테스트할 시간이 제한적인 상황에서 특히 필요합니다.
 
@@ -179,7 +334,18 @@ GitHub Actions은 지속적 통합(CI)을 위해 사용하는 강력한 도구�
 
 저는 Node.js용 빠르고 가벼운 로깅 라이브러리인 Pino를 사용합니다. Pino는 메시지를 기록하고 구조화된 로깅을 지원하여 로그를 쉽게 검색하고 분석할 수 있는 간단한 API를 제공합니다. 제품에서는 로깅을 더 나아가 Better Stack으로 로그를 전송하여 실시간 로그 모니터링, 경보 및 시각화를 제공하는 강력한 로깅 플랫폼을 활용합니다. Pino를 Better Stack과 통합함으로써 모든 로그 데이터가 효율적으로 캡처되고 저장되며 접근 가능하게 되어 실시간 환경에서 문제를 신속하게 식별하고 해결할 수 있도록 지원합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 에러 모니터링
 
@@ -189,7 +355,18 @@ GitHub Actions은 지속적 통합(CI)을 위해 사용하는 강력한 도구�
 
 로컬 개발 시에는 Spotlight를 사용하여 Sentry 이벤트를 캡처하여, 제품 환경을 압도하지 않고 Sentry의 텔레메트리를 활용하고 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-08-03-TheUltimate2024TechStackforSoloSaaSDevelopersBuildSmarterNotHarder_22.png" />
 
@@ -199,7 +376,18 @@ GitHub Actions은 지속적 통합(CI)을 위해 사용하는 강력한 도구�
 
 T3 Env은 Zod를 사용하여 환경 변수를 유효성 검사하고 변환하는 라이브러리입니다. 이를 통해 모든 환경 변수가 올바르게 정의되고 유효성이 검증됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 린터 및 코드 포매터
 
@@ -209,7 +397,18 @@ T3 Env은 Zod를 사용하여 환경 변수를 유효성 검사하고 변환하�
 
 저는 ESLint의 기본 구성으로 Airbnb 스타일 가이드를 추천합니다. 그것은 가장 인기 있는 JavaScript 스타일 가이드 중 하나입니다. 게다가, Playwright 테스트가 최상의 관행을 따르도록 보장하기 위해 eslint-plugin-playwright를 사용하고, Tailwind CSS에 대한 최상의 관행을 강제하기 위해 eslint-plugin-tailwind를 사용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # VSCode
 
@@ -222,7 +421,18 @@ T3 Env은 Zod를 사용하여 환경 변수를 유효성 검사하고 변환하�
 - vscode-github-actions, GitHub Actions 워크플로우를 VSCode에서 직접 관리
 - i18n-ally, 국제화를 지원하며 다국어 작업을 보다 쉽게 만드는 번역 키 관리를 제공합니다
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -232,7 +442,18 @@ T3 Env은 Zod를 사용하여 환경 변수를 유효성 검사하고 변환하�
 
 최종 결과물을 확인하고 싶다면 라이브 데모에서 찾을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 Next.js SaaS 보일러플레이트를 만들었어요. 이 보일러플레이트는 이 글에서 소개한 기술 스택을 사용하여 여러분의 SaaS 제품을 구축하기 위한 포괄적인 시작점이에요.
 

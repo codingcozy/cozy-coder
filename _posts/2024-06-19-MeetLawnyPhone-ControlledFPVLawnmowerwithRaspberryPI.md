@@ -3,17 +3,13 @@ title: "만나요, Lawny 라즈베리 파이로 제어하는 FPV 잔디깎이"
 description: ""
 coverImage: "/assets/img/2024-06-19-MeetLawnyPhone-ControlledFPVLawnmowerwithRaspberryPI_0.png"
 date: 2024-06-19 18:21
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-MeetLawnyPhone-ControlledFPVLawnmowerwithRaspberryPI_0.png
 tag: Tech
 originalTitle: "Meet Lawny: Phone-Controlled FPV Lawnmower with Raspberry PI"
 link: "https://medium.com/@gektor650/meet-lawny-phone-controlled-fpv-lawnmower-with-raspberry-pi-100fd48f0488"
 isUpdated: true
 ---
-
-
-
-
 
 가정에서 편안한 의자에 앉아 레이싱 시뮬레이터를 즐기고, 동시에 잔디를 풀어낼 수 있는 상상을 해보세요. 멋져 보이나요? 이게 실제로 가능해요.
 
@@ -23,7 +19,18 @@ Lawny를 만나보세요! 이 잔디 깎는 기계는 앞면 카메라가 장착
 
 라즈베리 파이, H-브리지, 전동 모터, 그리고 카메라를 사용해서 만들었어요. 모바일폰이나 데스크톱에서 제어할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트의 주요 아이디어는 휴대폰을 사용하여 잔디깎이를 제어하고, 같은 그림을 볼 수 있는 것입니다.
 
@@ -33,8 +40,18 @@ Lawny를 만나보세요! 이 잔디 깎는 기계는 앞면 카메라가 장착
 
 저는 Steel Razors 트리머 헤드를 가지고 있습니다. 전기 모터를 추가하면 잔디깎기가 될 것입니다. 모터가 칼날을 회전시키고, 그것들이 잔디를 베어낼 것입니다. 간단하죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-MeetLawnyPhone-ControlledFPVLawnmowerwithRaspberryPI_1.png)
 
@@ -44,8 +61,18 @@ Lawny를 만나보세요! 이 잔디 깎는 기계는 앞면 카메라가 장착
 
 그것은 정적 잔디깎이가 될 거예요. 하지만 저는 한 곳뿐만 아니라 어디든 잔디를 자르고, 잔디깎이를 왼쪽과 오른쪽으로 회전시키고 싶어요.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 따라서 전기 모터를 두 대 더 추가하려고 합니다.
 
@@ -55,7 +82,18 @@ Lawny를 만나보세요! 이 잔디 깎는 기계는 앞면 카메라가 장착
 
 이제 속도와 회전 방향을 제어해야 하므로 여러 개의 H-브릿지를 추가할 계획입니다. H-브릿지로 모터를 제어하는 방법에 대한 설명이 있는 별도의 영상이 있어요. 궁금하시면 확인해 보세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째 제한 사항은 단일 모터를 제어하기 위해 두 개의 펄스 폭 조절 채널이 필요하다는 것입니다. 그러나 저는 두 개의 모터를 가지고 있으므로 네 개의 채널이 필요합니다. 이 문제를 해결하기 위해 두 개의 릴레이를 추가하여 핀 사이의 신호를 전환하고 있습니다.
 
@@ -65,7 +103,18 @@ Lawny를 만나보세요! 이 잔디 깎는 기계는 앞면 카메라가 장착
 
 게다가, 전원 공급원이 필요합니다. 많은 전류를 소비하는 요소에 의한 전원 감소를 방지하기 위해, 모터용 별도의 배터리와 라즈베리 파이 및 전자 장치용 파워 뱅크를 사용할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로, 이 시스템을 Wi-Fi를 통해 크로스 플랫폼 애플리케이션을 통해 모바일 폰에서 제어할 거에요.
 
@@ -75,7 +124,18 @@ Lawny를 만나보세요! 이 잔디 깎는 기계는 앞면 카메라가 장착
 
 ## Cutter box
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 커터 상자부터 시작할게요.
 
@@ -85,7 +145,18 @@ Lawny를 만나보세요! 이 잔디 깎는 기계는 앞면 카메라가 장착
 
 다음으로, 벽을 판에 부착할 거에요. 목재 브라켓 커넥터를 사용하고 다시 많이 드릴링할 거에요. 게다가, 커터 모터를 수용할 몇 개의 구멍을 더 만들어야 해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-MeetLawnyPhone-ControlledFPVLawnmowerwithRaspberryPI_7.png" />
 
@@ -95,7 +166,18 @@ Lawny를 만나보세요! 이 잔디 깎는 기계는 앞면 카메라가 장착
 
 그리고 모터를 설치할 거에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-19-MeetLawnyPhone-ControlledFPVLawnmowerwithRaspberryPI_9.png)
 
@@ -105,7 +187,18 @@ Lawny를 만나보세요! 이 잔디 깎는 기계는 앞면 카메라가 장착
 
 세 개의 바퀴 설정을 사용할 거에요 - 두 개의 전방 바퀴와 하나의 후방 바퀴로, 피벗 상에 회전합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만일 왼쪽 바퀴가 더 빠르다면, 잔디 깎기는 오른쪽으로 이동하고, 후방 바퀴는 몸체의 힘으로 회전될 것입니다.
 
@@ -115,7 +208,18 @@ Lawny를 만나보세요! 이 잔디 깎는 기계는 앞면 카메라가 장착
 
 <img src="/assets/img/2024-06-19-MeetLawnyPhone-ControlledFPVLawnmowerwithRaspberryPI_11.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로, 속도가 같으면 직진합니다.
 
@@ -125,8 +229,18 @@ Lawny를 만나보세요! 이 잔디 깎는 기계는 앞면 카메라가 장착
 
 나는 몸의 측면을 형성하며 시작합니다. 이를 판자로 잘라야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지1](/assets/img/2024-06-19-MeetLawnyPhone-ControlledFPVLawnmowerwithRaspberryPI_13.png)
 
@@ -136,8 +250,18 @@ Lawny를 만나보세요! 이 잔디 깎는 기계는 앞면 카메라가 장착
 
 다음으로, 전자 부품을 위한 앞쪽 상자를 만들어야 합니다. 이 상자는 밀폐되어 있어야 하며 부품이 습기와 풀로부터 안전하게 보호되도록 도와줍니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한, 후면을 추가하고 있습니다. 세 번째 바퀴가 들어갈 부분입니다.
 
@@ -147,7 +271,18 @@ Lawny를 만나보세요! 이 잔디 깎는 기계는 앞면 카메라가 장착
 
 ![Image2](/assets/img/2024-06-19-MeetLawnyPhone-ControlledFPVLawnmowerwithRaspberryPI_16.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 프로젝트에서는 여러 종류의 바퀴를 사용했어요. 가장 저렴한 옵션부터 시작해서 안에 커플링 너트를 망치로 박기로 결정했어요. 바퀴가 깨졌지만, 그게 제가 가진 최고의 바퀴였어요 :)
 
@@ -157,7 +292,18 @@ Lawny를 만나보세요! 이 잔디 깎는 기계는 앞면 카메라가 장착
 
 <img src="/assets/img/2024-06-19-MeetLawnyPhone-ControlledFPVLawnmowerwithRaspberryPI_18.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 수직 조절
 
@@ -167,7 +313,18 @@ Lawny를 만나보세요! 이 잔디 깎는 기계는 앞면 카메라가 장착
 
 ![이미지](/assets/img/2024-06-19-MeetLawnyPhone-ControlledFPVLawnmowerwithRaspberryPI_20.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-MeetLawnyPhone-ControlledFPVLawnmowerwithRaspberryPI_21.png" />
 
@@ -177,13 +334,22 @@ Lawny를 만나보세요! 이 잔디 깎는 기계는 앞면 카메라가 장착
 
 <img src="/assets/img/2024-06-19-MeetLawnyPhone-ControlledFPVLawnmowerwithRaspberryPI_22.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지 태그를 다음과 같이 변경하겠습니다.
 
-
 ![이미지](/assets/img/2024-06-19-MeetLawnyPhone-ControlledFPVLawnmowerwithRaspberryPI_23.png)
-
 
 # 하나의 PWM 신호, 하나의 릴레이, 두 가지 방향
 
@@ -191,8 +357,18 @@ Lawny를 만나보세요! 이 잔디 깎는 기계는 앞면 카메라가 장착
 
 Input 1에 신호를 보내면 모터가 회전합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-MeetLawnyPhone-ControlledFPVLawnmowerwithRaspberryPI_24.png)
 
@@ -202,9 +378,18 @@ Input 2로 신호를 보내면 H-Bridge는 전류 극성을 변경하고 모터�
 
 Raspberry PI의 두 핀 간에 입력을 전환하기 위해 간단한 릴레이를 추가할 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-06-19-MeetLawnyPhone-ControlledFPVLawnmowerwithRaspberryPI_26.png)
 
@@ -214,8 +399,18 @@ I will have two electric circuits. The first one is a 5V circuit with controller
 
 We have :
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 라즈베리 파이: 시스템의 두뇌 역할을 합니다.
 - Lawny 이동을 제어하기 위해 두 개의 H-브릿지.
@@ -231,8 +426,18 @@ We have :
 
 이제 우리가 구상한 스키마를 실현해 볼 차례입니다. 전자 부품을 상자에 배치하기 시작하겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-19-MeetLawnyPhone-ControlledFPVLawnmowerwithRaspberryPI_28.png)
 
@@ -242,8 +447,18 @@ Further, I am adding both windshield wiper motors and connecting their black and
 
 ![image](/assets/img/2024-06-19-MeetLawnyPhone-ControlledFPVLawnmowerwithRaspberryPI_30.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로 물리적 스위처를 추가하고 있어요. 한 번에 하나의 버튼으로 모든 모터를 비활성화할 수 있다면 매우 도움이 될 거예요.
 
@@ -253,7 +468,18 @@ Further, I am adding both windshield wiper motors and connecting their black and
 
 ![image](/assets/img/2024-06-19-MeetLawnyPhone-ControlledFPVLawnmowerwithRaspberryPI_32.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 또 한 번 대실패야. 이 바퀴들은 잔디 깎이를 움직이고 조향하기에 충분한 그립이 없어.
 
@@ -263,7 +489,18 @@ Further, I am adding both windshield wiper motors and connecting their black and
 
 게다가 각 바퀴의 금이 새어도 내구성을 높여주지 않아.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 업그레이드
 
@@ -273,7 +510,18 @@ Further, I am adding both windshield wiper motors and connecting their black and
 
 ![image](/assets/img/2024-06-19-MeetLawnyPhone-ControlledFPVLawnmowerwithRaspberryPI_34.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제는 내부에서 커플링 너트를 박아 넣지 않을 거예요. 대신에 가열하고 내부에서 가압할 거에요. 보세요, 배우고 있어요!
 
@@ -283,7 +531,18 @@ Further, I am adding both windshield wiper motors and connecting their black and
 
 ![이미지](/assets/img/2024-06-19-MeetLawnyPhone-ControlledFPVLawnmowerwithRaspberryPI_36.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 이제 우리 얘기하고 있어요!
 
@@ -293,7 +552,18 @@ Further, I am adding both windshield wiper motors and connecting their black and
 
 # 카메라 설치
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제 아내가 두 번째로 나를 구해주었어요. 그녀가 너무 멋진 얼굴을 만들었어요!
 
@@ -303,8 +573,18 @@ Further, I am adding both windshield wiper motors and connecting their black and
 
 ![Adding Camera](/assets/img/2024-06-19-MeetLawnyPhone-ControlledFPVLawnmowerwithRaspberryPI_39.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-06-19-MeetLawnyPhone-ControlledFPVLawnmowerwithRaspberryPI_40.png)
 
@@ -314,8 +594,18 @@ Finally, I can do another Lawny test!
 
 On the second test, Lawny didn’t manage to go on top of the tall grass.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-MeetLawnyPhone-ControlledFPVLawnmowerwithRaspberryPI_41.png)
 
@@ -325,17 +615,39 @@ On the second test, Lawny didn’t manage to go on top of the tall grass.
 
 ![이미지](/assets/img/2024-06-19-MeetLawnyPhone-ControlledFPVLawnmowerwithRaspberryPI_42.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-비싼 바퀴에 돈을 털어서 사지 않아도, 우리가 매드 맥스 모드로 가서 현재 바퀴를 튜닝할 수 있다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-이 비디오의 마지막 개선은 블레이드입니다. 솔직히 전기 모터가 풀잎을 잘라내기에는 너무 약합니다. 멈추고 열이 나고 의도한 대로 작동하지 않습니다. 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+비싼 바퀴에 돈을 털어서 사지 않아도, 우리가 매드 맥스 모드로 가서 현재 바퀴를 튜닝할 수 있다.
+
+이 비디오의 마지막 개선은 블레이드입니다. 솔직히 전기 모터가 풀잎을 잘라내기에는 너무 약합니다. 멈추고 열이 나고 의도한 대로 작동하지 않습니다.
 
 다행히 이전 블레이드를 튼튼한 옵션으로 대체할 수 있고, 최대한 날카롭게 갈아내고 있어요.
 
 ![이미지](/assets/img/2024-06-19-MeetLawnyPhone-ControlledFPVLawnmowerwithRaspberryPI_43.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결과가 공격적으로 보이고, 그것이 멋지네요.
 
@@ -345,7 +657,18 @@ On the second test, Lawny didn’t manage to go on top of the tall grass.
 
 실제 작동 중:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 댓글이나 비디오에서 소프트웨어 부분을 알고 싶거나 일반적으로 생각을 공유하고 싶다면 알려주세요!
 

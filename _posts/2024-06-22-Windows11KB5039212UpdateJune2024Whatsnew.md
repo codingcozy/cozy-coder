@@ -3,17 +3,13 @@ title: "Windows 11 KB5039212 업데이트  2024년 6월, 새로운 기능은 무
 description: ""
 coverImage: "/assets/img/2024-06-22-Windows11KB5039212UpdateJune2024Whatsnew_0.png"
 date: 2024-06-22 16:29
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-Windows11KB5039212UpdateJune2024Whatsnew_0.png
 tag: Tech
 originalTitle: "Windows 11 KB5039212 Update | June 2024, What’s new"
 link: "https://medium.com/@windows101tricks/windows-11-kb5039212-update-june-2024-whats-new-ffcfad5adc2e"
 isUpdated: true
 ---
-
-
-
-
 
 마이크로소프트가 Windows 11용 KB5039212를 발표했어요. 2024년 6월 패치 화요일 업데이트입니다. 이제 알아야 할 모든 것이 여기 있어요!
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Windows 11 KB5039212 직접 다운로드 링크: 64비트 및 32비트 (x86) | 마이크로소프트 업데이트 카탈로그.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Windows 11 빌드 22631.3737의 새로운 기능
 

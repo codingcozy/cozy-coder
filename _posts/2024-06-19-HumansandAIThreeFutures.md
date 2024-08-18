@@ -3,17 +3,13 @@ title: "인간과 인공지능 세 가지 미래"
 description: ""
 coverImage: "/assets/img/2024-06-19-HumansandAIThreeFutures_0.png"
 date: 2024-06-19 21:03
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-HumansandAIThreeFutures_0.png
 tag: Tech
 originalTitle: "Humans and AI: Three Futures"
 link: "https://medium.com/predict/humans-and-ai-three-futures-7928f3863ace"
 isUpdated: true
 ---
-
-
-
-
 
 ![2024-06-19-HumansandAIThreeFutures_0.png](/assets/img/2024-06-19-HumansandAIThreeFutures_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## 과거
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1800년대 사진술이 처음 소개될 당시에 우리는 레코드된 이미지에 대한 첫 경험이 오리지널 손으로 만들어진 매체에서 왔습니다. 사진에 대한 반응은 흥분부터 분개, 심지어 이 장치들이 우리 영혼을 훔치고 있다는 두려움까지 다양했습니다. 그것은 불가능한 것 같지만, 우리는 과도한 미디어 노출이 실제로 인간들이 고통을 겪을 수 있다는 것을 관찰합니다(예: 프라이버시 상실, 틴 아이돌, 인스타그램 등). 우리는 누구든 무단으로 사진을 찍고 공유하는 것이 괜찮다고 생각하는 세상에서 살고 있습니다. 그래서 우리는 최소한 개인적인 권력의 일부를 잃은 것 같습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ## 현재
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 생성 AI 회사들은 수백만 장의 이미지와 문서(많은 경우 저작권이 있는)를 긁어와서 새로운 이미지를 만드는 자동화를 더 잘할 수 있도록 합니다. OpenAI의 DALL-E2나 GPT3, 그리고 Stable Diffusion과 같은 시스템들은 대량의 인간의 창의적 결과물을 효과적으로 소화하여 우리가 보고 싶은 다음 것을 설명하는 "프롬프트"를 섞고 매칭할 수 있는 모델을 만들어 냅니다. 결과물이 진실하거나 공정하거나 합법적이라는 뜻은 아니지만, 외관상으로는 놀랍게도 "인간적"입니다. 이제 이 법적 문제는 여러 소송의 주제가 되었습니다 (변호사가 아님을 밝힙니다):
 
@@ -43,9 +61,20 @@ Stable Diffusion은 아티스트들이 적어도 선택적으로 거부할 수 �
 
 이제, AI 회사를 대표하는 변호사들은 이 콘텐츠의 혼합이 "합리적 사용"이며 결과물이 "변형적"이라는 주장을 할 것으로 예상됩니다 — 직접적인 복사본이 아니며 이전 작품들의 혼합물에서 새로운 아이디어를 대표한다는 것입니다. 합리적 사용은 우리가 비평이나 학습과 같은 특정 목적을 위해 저작권이 있는 작품을 재생산할 수 있게 합니다. 그러나 AI 모델이 소스 이미지를 문자 그대로 저장하지 않는다는 아이디어는 나의 견해로는 약하다고 생각합니다, 왜냐하면 압축된 JPEG는 결코 그 이미지의 비트를 문자 그대로 저장하지 않으면서도 원본 이미지를 절차적으로 근사할 수 있기 때문입니다. 파일 크기를 줄이는 것이 목적입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-하지만 더 깊은 것이 벌어지고 있어요. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+하지만 더 깊은 것이 벌어지고 있어요.
 
 많은 사람들의 작업을 가져와 그를 기반으로 새로운 작품을 출력하는 것은 마치 창조자들 자체가 섞이는 것과 같아요. 적어도 그들의 기술이 그대로 옮겨지는 것이죠. 이는 단순한 사람들과 몇 줄의 코드로 이루어진 새로운 초인간 엔티티를 형성하는 것과 같아요. 어느 의미에서는 기업, 스포츠 팀 또는 음악 앙상블도 개개인이 그들의 부분을 수행하여 (그들의 허락과 종종 보상과 함께) 혼자서는 할 수 없는 일을 넘어서는 단순한 인간으로 이루어진 초인간 엔티티인 것이기도 합니다.
 
@@ -53,7 +82,18 @@ Stable Diffusion은 아티스트들이 적어도 선택적으로 거부할 수 �
 
 그래서 여기서의 집단적 이익은 무엇일까요? 생성적 AI는 모든 사람에게 자신의 기술을 훨씬 초월한 예술을 만들 수 있는 능력을 부여할 수 있어요. 기본적으로, 우리는 저렴한 비용으로 여러 예술가들의 결합된 능력을 이용할 수 있답니다. 그래서 우리는 그들을 지원해야 한답니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 미래 (근시일 내)
 
@@ -63,7 +103,18 @@ Stable Diffusion은 아티스트들이 적어도 선택적으로 거부할 수 �
 
 심지어 ChatGPT도 코드를 작성할 수 있어요, 하지만 신뢰성은 보장 못 해요 (디버깅할 때 더 잘 도와줘). 신기하게도, 프로그래머들 중 일자리 자동화를 두려워하지 않는 사람들이 있어요. 이유가 뭘까요? 이미 우리는 하고 싶지 않은 일을 자동화하기 위해 코드를 작성하고 있기 때문이에요, 이는 종종 우리의 자리를 자체적으로 불필요하게 만드는 방법일 뿐이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컴퓨터에게 원하는 것을 솔직하게 영어로 말하는 것이 정말 기쁠 거예요. 저의 능력은 코드를 작성하는 것뿐만 아니라 문제를 이해하고 효과적인 해결책을 시험하고 평가하는 데 있어요. 안타깝게도, 그 뛰어난 능력도 언젠가는 자동화될 거예요. 하지만 그것은 얼마 지나지 않고 일어나지 않을 거예요. 왜냐하면 우리가 어떻게 생각하고 세상이 어떻게 작용하는지에 대한 더 깊은 지식이 필요하기 때문이에요. 그리고 그때도 저는 적응할 거예요.
 
@@ -73,7 +124,18 @@ Stable Diffusion은 아티스트들이 적어도 선택적으로 거부할 수 �
 
 ## (멀리 있는) 미래
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5, 10, 심지어 50년 후, AI가 일부 공상과학 영화처럼 인간을 대신할까요?
 
@@ -83,7 +145,18 @@ Stable Diffusion은 아티스트들이 적어도 선택적으로 거부할 수 �
 
 우리가 기술에 통제를 양보하는 방법으로 GPS를 생각해보세요. 처음에는 가끔 좌우되는 도움으로 사용했었죠. 그런 다음 우리는 의심하지 않는 입력으로 사용했고요. 독일 한 남자가 나쁜 내비게이션 데이터 덕분에 여자친구의 항의에도 불구하고 강을 헤엄쳐 가던 일도 있었습니다. 이제 GPS는 매우 훌륭해졌고 우리는 그것에 매우 의존하기 때문에 그 없이는 모두 길을 잃을 것입니다. (제가 개인적으로 GPS에 도전을 즐깁니다)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AI도 마찬가지입니다. 우리는 천천히 그것을 너무 많이 사용해서 의존하게 될 것입니다. 그리고 그러고 나면 여기저기에서 AI에게 책임을 맡기고 무엇을 해야 하는지 말할 것입니다. 변화의 속도를 늦추는 것은 전반적으로 좋은 일이며, 우리에게 조절하고 사고를 재편할 시간을 제공합니다.
 
@@ -93,7 +166,18 @@ AI도 마찬가지입니다. 우리는 천천히 그것을 너무 많이 사용�
 
 그래서 'A 그룹'을 계속해서 점점 더 나은 기술 + AI를 활용하여 더 높은 목표를 달성하는 '개별주의자'로 레이블링해보겠습니다. 이런 사람들을 상징적인 산을 영원히 오르는 사람들로 상상해볼 수 있습니다. 이들은 매 툴을 사용하여 꼭대기에 머무르고 자신들이 똑똑하고 책임 있는지 말해주는 모델입니다. 오늘날 기업 내부에서 크게 퍼져있는 모델이죠: 사업을 오르락내리락하며 당신의 관리 능력과 지지자를 얼마나 잘 확장할 수 있는지에 따라사다리를 올라가세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그룹 B는 인간들이 자원을 모아 기업, 스포츠 팀 및 오케스트라와 같이 더 복잡한 조직을 만드는 오랜 전통을 따릅니다. 이들은 "집단주의자"입니다. 각자 조직 내에서 개인이지만, 다른 역할이 있습니다. 또한 조직에는 일정한 내부 구조가 있습니다. 그러나 외부에서 보면 하나의 단일 단위로 보입니다.
 
@@ -103,7 +187,18 @@ AI도 마찬가지입니다. 우리는 천천히 그것을 너무 많이 사용�
 
 물론 그룹 C는 "퇴보주의자"입니다. 우리는 역사의 유명한 류딧과 파괴자들을 회상합니다. 그리고 우리는 오늘날 일하는 다양한 종교-파시스트들을 올바르게 두렵게 여깁니다. 이들은 지식을 다시 판도라의 상자 안에 넣으려고 혼란과 고통을 일으킬 수 있습니다. 하지만 이것은 우리의 집단 기억과 사유하는 자유를 지우는 것으로만 참을 수 있습니다. 퇴보주의자들이 일시적으로 승리할 수는 있지만 역시 매우 불가능합니다. 또한 퇴보주의자들은 매우 쉽게 조종될 수 있습니다. 그래서 어떠한 강력한 인공지능도 이들을 자기 고립이나 자멸로 이끌 수 있을 것으로 생각됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 모든 것이 완전히 새로운 것은 아닙니다. 트렌드는 수 천 년 동안 천천히 진행되어 왔고, 이제는 더 빠르게 발전하고 있습니다. 인공 지능은 우리 자신을 위해 구축한 도구일 뿐입니다. 하지만 사람들은 이 선택지들이 그들 앞에 다가오고 있음을 드디어 알게 되고 있습니다.
 

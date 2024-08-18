@@ -3,7 +3,7 @@ title: "이것이 바로 WhatsApp 앱을 삭제할 때 일어나는 일 정확�
 description: ""
 coverImage: "/assets/img/2024-07-10-ThisHappenWhenyouuninstallWhatsAppAppexactly_0.png"
 date: 2024-07-10 01:27
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-10-ThisHappenWhenyouuninstallWhatsAppAppexactly_0.png
 tag: Tech
 originalTitle: "This Happen When you uninstall WhatsApp App (exactly)"
@@ -11,12 +11,7 @@ link: "https://medium.com/@thekunalkashyap/this-happen-when-you-uninstall-whatsa
 isUpdated: true
 ---
 
-
-
-
-
-Sure thing, here's the translation in a friendly Tarot style:
----
+## Sure thing, here's the translation in a friendly Tarot style:
 
 안녕하세요, WhatsApp 애찬들! WhatsApp 앱을 스마트폰에서 삭제하면 어떻게 될까요? 여기에서 당신이 알아야 할 모든 것을 소개해드릴게요.
 
@@ -26,7 +21,18 @@ Sure thing, here's the translation in a friendly Tarot style:
 
 # WhatsApp을 삭제하면 무엇이 일어날까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 WhatsApp을 스마트폰에서 삭제하기로 결정했군요. 이제 무엇을 해야 할까요? 먼저 집 화면에서 앱 아이콘이 사라진 것을 알게 될 겁니다.
 
@@ -36,7 +42,18 @@ WhatsApp을 스마트폰에서 삭제하기로 결정했군요. 이제 무엇을
 
 ## WhatsApp 삭제 vs. 앱 제거
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, WhatsApp을 삭제하고 제거하는 차이점을 명확히해 보겠습니다. WhatsApp 계정을 삭제하면 아무도 당신의 WhatsApp 프로필이나 소개를 볼 수 없으며 메시지를 보낼 수도 없습니다.
 
@@ -46,7 +63,18 @@ WhatsApp 계정을 사용하는 동안 받은 모든 미디어 파일(오디오,
 
 그러나 앱을 삭제(제거)만 하는 경우에는 프로필 사진과 WhatsApp 소개는 여전히 모든 연락처에게 표시되며, 그들은 여전히 메시지를 보낼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](https://miro.medium.com/v2/resize:fit:700/0*H3kj8ruicOo_ZvVG.gif)
 
@@ -56,7 +84,18 @@ WhatsApp 앱을 삭제하면 먼저 기기에서 어플리케이션이 제거됩
 
 WhatsApp 폴더로 이동하여 파일 관리자로 WhatsApp 백업 파일을 여전히 찾을 수 있습니다. 따라서 앱을 다시 설치하면 앱 내에서 빠르게 백업 복원을 시작하여 모든 대화와 채팅을 다시 가져올 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # WhatsApp 앱을 삭제한 후 채팅 메시지는 어떻게 되나요?
 
@@ -66,7 +105,18 @@ WhatsApp 폴더로 이동하여 파일 관리자로 WhatsApp 백업 파일을 �
 
 # 그룹 대화는 어떻게 되나요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Beloved group chat! 🌟 What fate awaits it when WhatsApp is uninstalled or deleted? Don't fret, dear Tarot enthusiast, for the group remains intact even if you bid farewell to the app. However, your chats will vanish into the digital realm unless protected by a backup spell! 🧙‍♂️
 
@@ -74,7 +124,18 @@ But lo and behold! With the mystical WhatsApp backup in hand, those precious con
 
 And fear not, for your dazzling WhatsApp presence shall linger among those who cherish your contact. Your profile and bio shall hold court within their screens. Yet beware, for WhatsApp may wield its mighty scythe, banishing dormant accounts after six moons of neglect. 🌙✨
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![This happens when you uninstall WhatsApp exactly](/assets/img/2024-07-10-ThisHappenWhenyouuninstallWhatsAppAppexactly_1.png)
 
@@ -84,7 +145,18 @@ When you're considering uninstalling WhatsApp, remember that if you reinstall th
 
 If you're curious about whether someone has uninstalled WhatsApp, there are a few signs to look out for.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 누군가가 WhatsApp 앱을 삭제했다면 특별한 알림이 오지 않지만, 메시지를 보내면 단 하나의 확인이 표시되어 오는 걸 알 수 있어요. 이는 WhatsApp 메시지가 전달되지 않았거나 읽히지 않았다는 것을 의미합니다.
 
@@ -94,7 +166,18 @@ If you're curious about whether someone has uninstalled WhatsApp, there are a fe
 
 ![WhatsApp App Uninstallation Example](/assets/img/2024-07-10-ThisHappenWhenyouuninstallWhatsAppAppexactly_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # WhatsApp을 삭제할 때의 잠재적인 결과:
 
@@ -104,7 +187,18 @@ WhatsApp을 삭제하면 고려하지 못했을 수 있는 일부 결과가 발�
 
 # WhatsApp 삭제하는 이유
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 친구들과 연락을 유지할 수 있는 방법이 많은데, 왜 누군가는 WhatsApp을 삭제하기를 선택할 수 있을까요? 사생활에 대한 우려, 소셜 미디어 사용량을 줄이고 싶은 마음, 혹은 지나치게 많은 알람 때문에 지친 것일 수도 있습니다.
 
@@ -114,7 +208,18 @@ WhatsApp을 삭제하면 고려하지 못했을 수 있는 일부 결과가 발�
 
 # WhatsApp 삭제에 대한 나만의 실험
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신은 왓츠앱을 삭제할 때 어떤 일이 일어나는지 궁금하신가요? 제가 열정적인 왓츠앱 사용자로서 직접 실험을 해보았고 그 결과를 공유하려고 합니다.
 
@@ -124,7 +229,18 @@ WhatsApp을 삭제하면 고려하지 못했을 수 있는 일부 결과가 발�
 
 # 앱 다시 설치했을 때
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 I reinstalled WhatsApp to see what happens to chats and backups and to check for any new messages I might have received when I didn’t have the app.
 
@@ -134,7 +250,18 @@ Surprisingly, I could still send messages to that WhatsApp account. It would sho
 
 ## Here’s what happened after reinstalling WhatsApp without backup:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 휴대폰 번호를 입력하고 OTP를 받은 후 WhatsApp은 이름을 입력하고 모든 권한을 허용하는 것으로 앱에 다시 참여하라고 요청했어요. 그런데 깜짝 놀랐어요. 세 명의 연락처가 메시지를 보냈는데 처음에는 그 메시지가 표시되지 않았거든요.
 
@@ -144,7 +271,18 @@ WhatsApp은 당신이 최근에 그룹에 참여했음을 알리는 메시지가
 
 그리고 누군가가 앱이 없는 동안 메시지를 보내면, 앱을 다시 설치할 때 "메시지 대기 중"으로 표시된 메시지가 있을 거예요. 몇 분 후에 그 메시지는 보일 텐데, 만약 그들이 15일 또는 28일 이전의 이미지를 보내주었다면 다운로드할 수 없게 될 거예요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **전반적으로, 제 실험 결과는 WhatsApp을 삭제해도 프로필과 대화를 완전히 삭제하지 않는다는 것을 보여 주었습니다. 그러나 삭제하기 전에 백업을 하지 않으면 일부 메시지와 이미지가 손실될 수 있습니다. 따라서, 다음에 WhatsApp을 삭제하기로 결정하면 삭제하기 전에 백업을 해 두는 것이 좋습니다!**
 
@@ -152,7 +290,18 @@ WhatsApp은 당신이 최근에 그룹에 참여했음을 알리는 메시지가
 
 그래서, WhatsApp을 삭제해야 할까요? 개인적인 선호도와 필요에 따라 다릅니다. 개인정보 보호에 관심이 있다거나 소셜 미디어에서 쉬어야 한다면, WhatsApp을 삭제하는 것이 좋은 아이디어일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 만약 업무나 가족, 친구들과 소통을 위해 WhatsApp을 활용한다면, 앱을 제거하기 전에 한번 더 생각해 보시는 것이 좋습니다.
 

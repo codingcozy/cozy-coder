@@ -3,17 +3,13 @@ title: "초보자를 위한 Kubernetes와 Docker 비교 가이드"
 description: ""
 coverImage: "/assets/img/2024-06-22-KubernetesvsDockerABeginnersGuide_0.png"
 date: 2024-06-22 00:35
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-KubernetesvsDockerABeginnersGuide_0.png
 tag: Tech
 originalTitle: "Kubernetes vs Docker: A Beginner’s Guide"
 link: "https://medium.com/@ayushdotpro/kubernetes-vs-docker-a-beginners-guide-97156b842a4e"
 isUpdated: true
 ---
-
-
-
-
 
 ![Docker vs Kubernetes](/assets/img/2024-06-22-KubernetesvsDockerABeginnersGuide_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 도커는 컨테이너를 사용하여 응용 프로그램을 구축, 배포 및 실행하는 프로세스를 간소화하는 상용 플랫폼입니다. 컨테이너는 코드, 런타임, 시스템 도구, 라이브러리 및 설정을 포함하여 소프트웨어를 실행하는 데 필요한 모든 것을 포함하는 가볍고 휴대 가능하며 일관된 환경입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-KubernetesvsDockerABeginnersGuide_1.png" />
 
@@ -35,7 +42,18 @@ isUpdated: true
 
 # Kubernetes란?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 쿠버네티스(자주 K8s로 불립니다)는 컨테이너화된 애플리케이션의 배포, 확장 및 관리를 자동화하기 위해 설계된 오픈 소스 플랫폼입니다. 처음에는 구글에서 개발되었으며, 지금은 쿠버네티스가 컨테이너 오케스트레이션의 산업 표준이 되었습니다.
 
@@ -49,7 +67,18 @@ isUpdated: true
 - 자동화된 롤아웃 및 롤백: 쿠버네티스는 업데이트를 자동으로 배포하고, 문제가 발생할 경우 변경 사항을 롤백할 수 있습니다.
 - 구성 관리: 쿠버네티스는 구성 및 비밀 관리를 도와 원활하게 애플리케이션을 구성할 수 있도록 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Kubernetes와 Docker 비교
 
@@ -61,7 +90,18 @@ isUpdated: true
 - 간편한 배포: Docker는 컨테이너 오케스트레이션이 주요 고려사항이 아닌 소규모 배포에 적합합니다.
 - CI/CD 파이프라인: Docker는 지속적 통합 및 지속적 배포 (CI/CD) 파이프라인과 매끄럽게 통합됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Kubernetes를 사용하는 사례
 
@@ -74,7 +114,18 @@ isUpdated: true
 
 Docker Swarm 또는 Kubernetes를 사용할지 결정할 때 다음 사항을 고려해 보세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 도커 스웜
 
@@ -86,8 +137,18 @@ Docker Swarm 또는 Kubernetes를 사용할지 결정할 때 다음 사항을 �
 
 # 쿠버네티스
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-KubernetesvsDockerABeginnersGuide_5.png" />
 
@@ -99,8 +160,18 @@ Docker Swarm 또는 Kubernetes를 사용할지 결정할 때 다음 사항을 �
 
 <img src="/assets/img/2024-06-22-KubernetesvsDockerABeginnersGuide_6.png" />
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도커는 컨테이너화된 애플리케이션을 빌드, 패키징 및 배포하는 데 탁월한 플랫폼입니다. 반면에 쿠버네티스는 대규모로 컨테이너화된 애플리케이션을 관리하는 강력한 오케스트레이션 도구입니다.
 

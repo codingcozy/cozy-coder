@@ -3,7 +3,7 @@ title: "인공지능의 잠재력을 열어라 트랜스퍼 러닝 필수 가이
 description: ""
 coverImage: "/assets/img/2024-07-09-UnlockAIPotentialTransferLearningEssentials_0.png"
 date: 2024-07-09 10:21
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-UnlockAIPotentialTransferLearningEssentials_0.png
 tag: Tech
 originalTitle: "Unlock AI Potential: Transfer Learning Essentials"
@@ -11,17 +11,24 @@ link: "https://medium.com/@paravisionlab/unlock-ai-potential-transfer-learning-e
 isUpdated: true
 ---
 
-
-
-
-
 # 개요
 
 아주 적은 양의 데이터 샘플을 사용하여 딥러닝 모델을 훈련해야 한다고 상상해보세요. 그런 작은 데이터셋으로 만족스러운 성능을 발휘하는 딥러닝 모델을 훈련할 수 있을까요? 아마도, 적은 데이터로는 좋은 결과를 얻기 힘들다고 생각할 것입니다. 해결책이 있을까요? 다행히도, 그렇습니다. 그 해결책은 전이 학습입니다.
 
 전이 학습은 한 문제를 해결하는 데 얻은 지식을 다른, 그러나 관련된 문제를 해결하는 데 사용하는 기계 학습 기술입니다. 예를 들어, 음식이 포함되어 있는 이미지를 인식하는 분류기를 훈련 중이라면 훈련에서 배운 정보를 활용하여 음료를 식별하는 데도 사용할 수 있습니다. 여기에 흥미로운 부분이 있습니다: 전이 학습을 사용하면 제한된 데이터와 제한된 계산 능력으로도 개별 요구 사항에 맞는 새로운 모델을 개발할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글에서는 전이 학습의 이점, 사전 훈련된 모델을 선택하는 방법, 전이 학습이 작동하는 원리에 대해 깊게 파고들고 전이 학습을 구현하는 방법에 대해 알아볼 것입니다. 이 글이 여러분에게 도움이 되기를 바라겠습니다.
 
@@ -31,7 +38,18 @@ AI 잠재력 해제: 전이 학습 핵심
 
 # 전이 학습이란?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 유사성을 통해 전이 학습을 이해해보겠습니다.
 
@@ -41,7 +59,18 @@ AI 잠재력 해제: 전이 학습 핵심
 
 전이 학습에도 유사한 개념이 적용됩니다. 한 작업을 위해 기계 학습 모델이 얻은 지식이 다른 작업에 활용될 수 있습니다. 예를 들어, 사진으로부터 자동차의 바퀴, 창문, 모양과 같은 여러 기능에 대해 신경망을 훈련시켰다고 가정해봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 특정 유형의 자동차를 인식하는 다른 모델을 훈련시키고 싶다면 처음부터 다시 시작할 필요가 없어요. 차량 인식 모델을 가져와서 자동차 식별과 같이 특정한 필요에 맞게 세밀하게 조정할 수 있어요.
 
@@ -51,7 +80,18 @@ AI 잠재력 해제: 전이 학습 핵심
 
 전이 학습을 사용하는 여러 이점이 있어요. 대표적으로 훈련 시간을 절약할 수 있고, 신경망의 우수한 성능(대부분의 경우) 그리고 더 적은 데이터가 필요해요. 여기에서 전이 학습의 혜택을 좀 더 자세히 설명하겠어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **훈련 시간 단축**: 전이 학습을 사용하면 모델을 훈련하는 데 많은 시간을 절약할 수 있어요. 처음부터 시작할 필요가 없어요. 대신 사전에 훈련된 모델이 학습한 패턴과 지식을 새로운 모델 구축에 전이할 수 있어요.
 
@@ -61,7 +101,18 @@ AI 잠재력 해제: 전이 학습 핵심
 
 **적응성**: 전이 학습은 매우 적응력이 강하며 컴퓨터 비전 및 자연어 처리와 같은 다양한 작업에 성공적으로 사용할 수 있어요. 이는 전이 학습을 다양한 분야에서 귀중한 도구로 만들어 줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반화: 관련 작업에서 지식을 전이함으로써, 모델은 새로운 작업에 대해 더 잘 일반화할 수 있습니다. 이는 이전에 학습한 추상적 표현을 활용할 수 있기 때문입니다.
 
@@ -71,7 +122,18 @@ AI 잠재력 해제: 전이 학습 핵심
 
 컴퓨터 비전 작업용 모델을 개발하려면 VGG, ResNet, Inception, 그리고 EfficientNet과 같은 사전 훈련된 모델을 선택할 수 있습니다. NLP 작업용 인기 있는 사전 훈련된 모델에는 BERT, GPT, RoBERTa, T5 등이 있습니다. 아래 표에서는 다양한 도메인에 인기 있는 사전 훈련된 모델을 나열해 두었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Unlock AI Potential](/assets/img/2024-07-09-UnlockAIPotentialTransferLearningEssentials_1.png)
 
@@ -81,7 +143,18 @@ Model Size and Complexity: Model size refers to the number of parameters in a ne
 
 When selecting a pre-trained model, weigh the trade-off between model size and performance. Ultimately, opt for a model that suits your computational capabilities while delivering the desired results.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **미세 조정 능력:** 모듈식 아키텍처와 수정이나 미세 조정된 매개변수를 손실 없이 변경할 수 있는 사용 가능한 리소스를 갖춘 사전 훈련된 모델을 선택하세요. 모듈식 아키텍처나 레이어를 갖춘 모델은 쉽게 추가, 제거 또는 수정할 수 있어 미세 조정에 더 큰 유연성을 제공합니다.
 
@@ -91,7 +164,18 @@ When selecting a pre-trained model, weigh the trade-off between model size and p
 
 이 그림은 전이 학습이 작동하는 방식에 대한 고수준 개요를 제공합니다. 그림에는 소스 모델(사전 훈련된 네트워크)과 타겟 모델이 있습니다. 그림에서 보듯이, 소스 모델에서 타겟 모델로 지식이 전달되는 것을 보여 전이 학습이 작동하는 방식을 설명합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-09-UnlockAIPotentialTransferLearningEssentials_2.png" />
 
@@ -101,7 +185,18 @@ When selecting a pre-trained model, weigh the trade-off between model size and p
 
 타겟 모델:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 그림과 같이, 타겟 모델은 소스 모델에서 두 개의 합성곱 레이어를 재사용하지만 이를 고정하여, 타겟 모델의 훈련 중에 이들의 weights이 업데이트되지 않습니다. 두 개의 새로운 밀도 레이어가 타겟 모델에 추가됩니다. 두 밀도 레이어 모두 trainable하며, 이는 그들의 weights가 새로운 작업을 위해 모델을 특화하기 위해 훈련 중에 업데이트될 것을 의미합니다. 출력 레이어는 이진 클래스 분류를 위해 설계되었으며, 작업을 예/아니오로 단순화시킵니다.
 
@@ -111,7 +206,18 @@ When selecting a pre-trained model, weigh the trade-off between model size and p
 
 새 작업을 위해 사전 훈련된 머신러닝 모델을 세밀하게 조정하는 단계는 다음과 같습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 사전 학습된 모델 선택:
 
@@ -129,7 +235,18 @@ When selecting a pre-trained model, weigh the trade-off between model size and p
 model.add(Dense(10, activation='softmax'))
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **레이어 동결하기:** 적합한 레이어를 식별한 후 훈련 중 가중치가 업데이트되지 않도록 동결합니다. 이렇게 하면 세밀 조정 프로세스 동안 이러한 레이어에서 추출된 특징을 보전하는 데 도움이 됩니다. TensorFlow/Keras에서는 다음과 같이 각 레이어에 대해 layer.trainable = False로 설정하여 수행할 수 있습니다:
 
@@ -145,31 +262,51 @@ model.add(Dense(128, activation='relu'))
 model.add(Dropout(0.5)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-## 모델 컴파일:   
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+## 모델 컴파일:
+
 이제 적절한 손실 함수, 옵티마이저 및 평가 지표를 사용하여 모델을 컴파일하세요. 데이터 및 해결하려는 작업(예: 분류, 회귀)의 성격을 고려하여 매개변수를 설정하세요. 분류 작업의 경우 다음과 같이 설정할 수 있습니다:
 
-
 model.compile(optimizer='adam',
-              loss='categorical_crossentropy',
-              metrics=['accuracy'])
+loss='categorical_crossentropy',
+metrics=['accuracy'])
 
+## 모델 세밀 조정:
 
-## 모델 세밀 조정:   
 데이터셋에서 수정된 모델을 훈련하세요. 새 레이어와 함께 이전에 동결된 일부 레이어를 세밀하게 조정하려면 필요하다면 동결 해제하세요. 사전 훈련된 가중치에 급격한 변경을 피하려면 작은 학습률을 사용하세요. 예를들어,
-
 
 from tensorflow.keras.callbacks import ReduceLROnPlateau
 reduce_lr = ReduceLROnPlateau(monitor='val_loss', factor=0.2, patience=5, min_lr=0.001)
 
 model.fit(train_data, train_labels,
-          epochs=10,
-          validation_data=(val_data, val_labels),
-          callbacks=[reduce_lr])
+epochs=10,
+validation_data=(val_data, val_labels),
+callbacks=[reduce_lr])
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -179,7 +316,18 @@ model.fit(train_data, train_labels,
 
 전이 학습은 매우 유연하고 효율적이며, 현대 AI 및 머신 러닝 워크플로우에서 귀중한 도구로 자리매김하고 있습니다. 전이 학습에 대해 더 많이 배우고 적용할수록, 전이 학습의 잠재적인 응용 분야가 무궁무진하다는 것을 알게 될 것입니다. 보다 쉽고 정확하게 특정 요구 사항에 맞춘 정교한 모델을 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 희망하시는 이 내용이 유익하게 느껴지시길 바랍니다. 호기심을 가지고 계속 실험을 해보며, 전이 학습의 변형 능력을 받아들여 모델이 달성할 수 있는 영역을 확장해보세요.
 
@@ -191,7 +339,18 @@ model.fit(train_data, train_labels,
 
 ## 저자 소개
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **Dr. Partha Majumder**는 딥 러닝, 인공 지능 및 AI 기반 지하수 모델링에 특화된 우수한 연구자입니다. 그의 뛰어난 기록을 가진 연구는 다양한 명성있는 국제 저널과 학회에서 소개되었습니다. 그의 연구에 대한 자세한 정보는 ResearchGate 프로필에서 확인할 수 있습니다. 학술적 성취뿐만 아니라 Dr. Majumder는 AI 혁신의 선두에 있는 파이오니어 스타트업, Paravision Lab의 설립자입니다.
 

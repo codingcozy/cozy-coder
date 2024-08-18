@@ -3,17 +3,13 @@ title: "Spark 심화 학습 Delta 테이블에서 Z-Ordering과 Data Skipping �
 description: ""
 coverImage: "/assets/img/2024-06-22-Spark-BeyondBasicsZ-OrderingandDataSkippinginDeltaTables_0.png"
 date: 2024-06-22 17:20
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-Spark-BeyondBasicsZ-OrderingandDataSkippinginDeltaTables_0.png
 tag: Tech
 originalTitle: "Spark-Beyond Basics: Z-Ordering and Data Skipping in Delta Tables"
 link: "https://medium.com/@kohaleavin/spark-beyond-basics-z-ordering-and-data-skipping-in-delta-tables-44102282585c"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-22-Spark-BeyondBasicsZ-OrderingandDataSkippinginDeltaTables_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 하지만 스파크는 실제로 문제를 해결해 주거든요! 그 중 하나는 Z-Ordering을 적용하여 쿼리 실행 속도를 10-12배 빠르게 하는 문제를 해결하는 거에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Z-Ordering
 
@@ -33,7 +40,18 @@ Spark은 이미 적절한 파티션 수를 얻기 위해 적응형 쿼리 최적
 
 하지만 스파크는 여전히 최고 조절에 이르지 않았습니다! 우리는 스파크가 자신의 능력을 발휘할 수 있도록 도와주어야 합니다😤! 특정 열에 필터를 적용할 것이라는 점은 이미 알고 있기 때문에, 해당 열에 Z-Ordering을 활성화할 수 있습니다 🤨
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컬럼에서 Z-Ordering을 활성화하면 다음과 같은 효과가 있습니다:
 
@@ -44,7 +62,18 @@ Spark은 이미 적절한 파티션 수를 얻기 위해 적응형 쿼리 최적
 
 ## 시나리오
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 가지 흥미로운 "이름" 열을 제외한 몇 가지 흥미없는 열을 포함한 델타 테이블을 생각해보세요. 이미 Spark의 AQE 이후 최적화된 파티션이 4개 있습니다.
 
@@ -55,7 +84,18 @@ Spark은 이미 적절한 파티션 수를 얻기 위해 적응형 쿼리 최적
 
 ![이미지](/assets/img/2024-06-22-Spark-BeyondBasicsZ-OrderingandDataSkippinginDeltaTables_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 그러나 이러한 종류의 데이터 스킵은 'Name' 열에 대해 최적화되지 않았기 때문에 불규칙한 데이터 스킵이라고 할 수 있습니다.
 - 'Name' 열에 Z-Order를 적용해보고 무슨 일이 일어나는지 확인해 봅시다! ✨
@@ -66,7 +106,18 @@ Spark은 이미 적절한 파티션 수를 얻기 위해 적응형 쿼리 최적
 
 - 이제 위의 쿼리를 실행하면 Spark는 첫 번째 파티션만 확인하므로 데이터 스킵을 완벽하게 수행합니다. 😉
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Z-Ordering 구문:
 
@@ -78,7 +129,18 @@ OPTIMIZE table_name ZORDER BY column_name
 
 ## Z-Ordering의 이점:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Z-ordering은 상당한 속도 향상을 가져올 수 있으며, 쿼리 실행 시간을 분 단위에서 초 단위로 줄일 수 있어요🤯
 - 작업 태스크를 실행하는 스파크 워커 노드의 코어에서 균형을 유지하는 적절한 파티션 수⚖️
@@ -91,7 +153,18 @@ OPTIMIZE table_name ZORDER BY column_name
 
 혜택과 도전을 따져보시면, 사용할지 말지 고민이 될 거예요. 😵‍💫
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이타브릭스도 이러한 딜레마를 느꼈고, 그들은 최첨단 솔루션을 개발했어요: 리퀴드 클러스터링 🥂
 

@@ -3,17 +3,13 @@ title: "다중 헤드 어텐션  공식적으로 설명하고 정의하기"
 description: ""
 coverImage: "/assets/img/2024-06-19-Multi-HeadAttentionFormallyExplainedandDefined_0.png"
 date: 2024-06-19 19:01
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-Multi-HeadAttentionFormallyExplainedandDefined_0.png
 tag: Tech
 originalTitle: "Multi-Head Attention — Formally Explained and Defined"
 link: "https://medium.com/towards-data-science/multi-head-attention-formally-explained-and-defined-89dc70ce84bd"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-06-19-Multi-HeadAttentionFormallyExplainedandDefined_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이 기사에서는 다중 헤드 어텐션의 포관적이고 모호하지 않은 형식화를 제시하여 이 메커니즘을 쉽게 이해할 수 있도록하는 것이 목표입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로운 개념을 더 잘 이해하기 위해서는 스스로 사용하는 것이 중요합니다. 이 기사에는 다중 헤드 어텐션에 대해 정확히 이해하기 위한 여러 연습 문제/질문과 해결책이 함께 제시됩니다.
 
@@ -33,9 +40,20 @@ isUpdated: true
 
 먼저, 다중 헤드 어텐션 메커니즘의 입력이 무엇인지 명확히 합시다. 우리는 다중 헤드 어텐션 레이어의 입력을 다음과 같이 정의합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-이곳이 있어요! 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+이곳이 있어요!
 
 X는 n개의 행과 d개의 열로 이루어진 행렬이에요. 그 두 차원은 다음과 같이 대응되어요:
 
@@ -44,7 +62,18 @@ X는 n개의 행과 d개의 열로 이루어진 행렬이에요. 그 두 차원�
 
 ## 시퀀스 길이
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반적으로 모든 시퀀스에 대해 기본 고정 길이 n을 설정합니다. 일반적으로 "Attention Is All You Need" (Vaswani et al., 2017에서 사용된 값과 같은) 256 또는 512와 같은 값이 사용됩니다. 그런 다음, 모든 입력 시퀀스는 정확히 n개의 토큰을 가지도록 패딩되거나 자르게됩니다.
 
@@ -54,7 +83,18 @@ X는 n개의 행과 d개의 열로 이루어진 행렬이에요. 그 두 차원�
 
 ## 토큰 차원
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 텍스트를 토큰화하면 각각의 토큰이 특성 벡터로 표현된 시퀀스로 변환됩니다.
 
@@ -64,7 +104,18 @@ X는 n개의 행과 d개의 열로 이루어진 행렬이에요. 그 두 차원�
 
 ## 연습문제 1 — 입력 시퀀스 모델링
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래의 가정에 따라 문장 "attention is all you need"을 모델링하고자 합니다:
 
@@ -77,7 +128,18 @@ Q1: 여기서 토큰 벡터의 차원 d는 무엇인가요?
 
 Q2: 방금 전에 한 가정에 따라 "attention is all you need"의 입력 행렬 X를 제시해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 요약
 
@@ -85,7 +147,18 @@ Q2: 방금 전에 한 가정에 따라 "attention is all you need"의 입력 행
 
 Q1: 여기서 가능한 토큰 집합 T에는 일곱 개의 토큰이 있고, 토큰을 원핫 인코딩으로 모델링한다고 가정했습니다. 따라서 d = 7 (T에있는 토큰 수).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Q2: 먼저, n = 8이고 d = 7인 것을 알았기 때문에, 여덟 개의 행과 일곱 개의 열을 가진 행렬 X를 얻어야 한다는 것을 알 수 있습니다.
 
@@ -95,7 +168,18 @@ Q2: 먼저, n = 8이고 d = 7인 것을 알았기 때문에, 여덟 개의 행�
 
 참고: 또 다른 접근 방식은 빈 토큰을 가능한 토큰 집합에 포함하는 것입니다. 즉, T = '“all”, “attention”, “cat”, “is”, need”, “transformer”, “you”, ∅'와 같이 ∅가 빈 토큰을 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-Multi-HeadAttentionFormallyExplainedandDefined_2.png" />
 
@@ -105,7 +189,18 @@ Q2: 먼저, n = 8이고 d = 7인 것을 알았기 때문에, 여덟 개의 행�
 
 # Query, Key, Value
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "다중 헤드 어텐션”에서는 “다중 헤드”가 있습니다. 이는 이러한 메커니즘을 사용하는 레이어가 여러 개의 헤드를 사용한다는 것을 의미합니다.
 
@@ -115,8 +210,18 @@ h를 다중 헤드 어텐션 레이어에서 사용될 어텐션 헤드의 수�
 
 이제 쿼리(질의), 키(검색어), 값에 대해 정의해보겠습니다."
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-19-Multi-HeadAttentionFormallyExplainedandDefined_4.png)
 
@@ -126,8 +231,18 @@ h를 다중 헤드 어텐션 레이어에서 사용될 어텐션 헤드의 수�
 
 ![image](/assets/img/2024-06-19-Multi-HeadAttentionFormallyExplainedandDefined_5.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가중 행렬은 h 개의 헤드 간에 다릅니다. 따라서 아래 첨자는 i이며, i는 1에서 h까지 범위입니다.
 
@@ -137,7 +252,18 @@ h를 다중 헤드 어텐션 레이어에서 사용될 어텐션 헤드의 수�
 
 ## 문제 2 — 쿼리, 키 및 값
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 쿼리 Q의 차원은 무엇인가요? 키 K의 차원은 무엇인가요? 값 V의 차원은 무엇인가요?
 
@@ -145,7 +271,18 @@ h를 다중 헤드 어텐션 레이어에서 사용될 어텐션 헤드의 수�
 
 ## 요약
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 해결책 — 연습문제 2
 
@@ -155,7 +292,18 @@ h를 다중 헤드 어텐션 레이어에서 사용될 어텐션 헤드의 수�
 
 # 어텐션
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주의는 다음 매핑으로 정의될 수 있습니다:
 
@@ -165,7 +313,18 @@ h를 다중 헤드 어텐션 레이어에서 사용될 어텐션 헤드의 수�
 
 ![softmax](/assets/img/2024-06-19-Multi-HeadAttentionFormallyExplainedandDefined_8.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 알림으로써, 소프트맥스 함수는 벡터의 값을 정규화하는 방법입니다. 이 함수를 사용하면 합이 1이 되도록 벡터를 변환하여 소프트맥스의 출력이 확률 분포를 나타낼 수 있게 합니다.
 
@@ -175,7 +334,18 @@ h를 다중 헤드 어텐션 레이어에서 사용될 어텐션 헤드의 수�
 
 ![행렬 이미지](/assets/img/2024-06-19-Multi-HeadAttentionFormallyExplainedandDefined_9.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Exercise 4 — 주의 집중 해석
 
@@ -185,7 +355,18 @@ h를 다중 헤드 어텐션 레이어에서 사용될 어텐션 헤드의 수�
 
 ## Exercise 5 — 행렬 해석
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Q1: 주어진 쿼리 Q에 대해,
 
@@ -196,8 +377,18 @@ Q1: 주어진 쿼리 Q에 대해,
 
 Q2: 주어진 쿼리 Q와 주어진 키 K, 행 i, 열 j에 대해, 아래와 같은 계수가 나타내는 것은 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-06-19-Multi-HeadAttentionFormallyExplainedandDefined_11.png)
 
@@ -207,8 +398,18 @@ Q3: 특정 쿼리 Q와 주어진 키 K에 대해 다음 매트릭스의 한 행�
 
 (아래 "Recap" 이후에 해답이 있습니다.)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 요약
 
@@ -218,8 +419,18 @@ Q3: 특정 쿼리 Q와 주어진 키 K에 대해 다음 매트릭스의 한 행�
 
 아래 행렬들에 대한 차원을 순차적으로 얻습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-06-19-Multi-HeadAttentionFormallyExplainedandDefined_14.png)
 
@@ -229,8 +440,18 @@ Q3: 특정 쿼리 Q와 주어진 키 K에 대해 다음 매트릭스의 한 행�
 
 The (scaled) attention scores are the dot products between the projections of the input tokens both in the query space and the key space. They provide a raw score of “how much each input token attends to each input token”.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 균도 가중치는 이전에 언급한 주의 점수에서 확률 분포를 만듭니다.
 
@@ -240,7 +461,18 @@ The (scaled) attention scores are the dot products between the projections of th
 
 질문 1: 쿼리 Q가 쿼리 공간에서 입력 X의 투영이며, Q의 치수에 기초하여 추론할 수 있는 내용은 무엇입니까?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Q의 한 행은 질의 공간에서 표현된 입력 토큰 벡터를 나타냅니다.
 - Q의 한 열은 질의 공간의 잠재적 차원을 나타냅니다.
@@ -251,7 +483,18 @@ Q2: Q와 K의 전치(Transpose)의 곱셈에서 i번째 행과 j번째 열의 �
 
 Q3: 먼저, 어텐션 가중치 행렬의 각 행에 대한 합이 1과 같아집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 행렬의 i행은 입력 시퀀스 토큰이 시퀀스 의미에 기여하는 정도를 모델링한 확률 분포로 해석할 수 있습니다. 토큰 i를 살펴보는 경우 시퀀스 의미에 어떤 기여를 하는지를 나타냅니다.
 
@@ -261,7 +504,18 @@ Q3: 먼저, 어텐션 가중치 행렬의 각 행에 대한 합이 1과 같아�
 
 ## 연결
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 서로 다른 헤드의 출력은 행을 따라 연결되고 출력 가중치 행렬과 곱해집니다:
 
@@ -271,7 +525,18 @@ Q3: 먼저, 어텐션 가중치 행렬의 각 행에 대한 합이 1과 같아�
 
 ## Exercise 6 — Multi-head dimensions
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 행렬의 차원은 무엇입니까?
 
@@ -281,7 +546,18 @@ Q3: 먼저, 어텐션 가중치 행렬의 각 행에 대한 합이 1과 같아�
 
 여러 헤드 어텐션은 처음에 기계 번역에 적용되어 영어와 독일어 간의 문장을 번역했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 입력 X와 출력 Y = MultiHead(X)의 차원을 주석으로 남겨주세요.
 
@@ -291,7 +567,18 @@ Q3: 먼저, 어텐션 가중치 행렬의 각 행에 대한 합이 1과 같아�
 
 (아래의 "요약" 이후 답안이 제시됩니다.)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 요약
 
@@ -301,7 +588,18 @@ Q3: 먼저, 어텐션 가중치 행렬의 각 행에 대한 합이 1과 같아�
 
 ![이미지](/assets/img/2024-06-19-Multi-HeadAttentionFormallyExplainedandDefined_18.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 해결 방법 — 연습문제 7
 
@@ -311,7 +609,18 @@ Q3: 먼저, 어텐션 가중치 행렬의 각 행에 대한 합이 1과 같아�
 
 다중 헤드 어텐션이 머신 번역을 위해 처음에 소개되었기 때문에, 출력은 다음과 같이 해석할 수 있습니다: 영어로 모델링된 입력 시퀀스에 대한 입력이 주어지면, 다중 헤드 어텐션 레이어는 독일어(또는 다른 어떤 언어든)로의 입력 시퀀스 번역을 모델링하는 행렬 Y를 출력합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 해결책 — 연습문제 8
 
@@ -321,7 +630,18 @@ Q3: 먼저, 어텐션 가중치 행렬의 각 행에 대한 합이 1과 같아�
 
 ![다중 헤드 어텐션](/assets/img/2024-06-19-Multi-HeadAttentionFormallyExplainedandDefined_19.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 토큰에 대해 모든 헤드의 출력 값을 합산합니다. 이는 서로 다른 헤드가 상호 작용하는 곳입니다.
 
@@ -332,6 +652,17 @@ Q3: 먼저, 어텐션 가중치 행렬의 각 행에 대한 합이 1과 같아�
 - 어텐션 메커니즘
 - 여러 어텐션 헤드의 연결
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 메커니즘을 올바르게 이해하기 위해서는 계산 중 사용된 모든 행렬의 차원을 명확히 확인하는 것이 가장 중요합니다.

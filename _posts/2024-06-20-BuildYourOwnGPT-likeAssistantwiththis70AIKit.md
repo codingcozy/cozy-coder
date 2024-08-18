@@ -3,17 +3,13 @@ title: "70달러 AI 키트로 나만의 GPT와 비슷한 어시스턴트를 만�
 description: ""
 coverImage: "/assets/img/2024-06-20-BuildYourOwnGPT-likeAssistantwiththis70AIKit_0.png"
 date: 2024-06-20 17:35
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-BuildYourOwnGPT-likeAssistantwiththis70AIKit_0.png
 tag: Tech
 originalTitle: "Build Your Own GPT-like Assistant with this $70 AI Kit"
 link: "https://medium.com/@johndilan/build-your-own-gpt-like-assistant-with-this-70-ai-kit-276963f458ac"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-20-BuildYourOwnGPT-likeAssistantwiththis70AIKit_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 <img src="/assets/img/2024-06-20-BuildYourOwnGPT-likeAssistantwiththis70AIKit_1.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Raspberry Pi AI Kit은 고성능 AI 프로세서로 유명한 선도적인 AI 하드웨어 업체인 Hailo와의 협업 제품입니다. Hailo의 칩은 신경망 연산을 최적화하여 우수한 처리 성능을 제공하면서도 에너지 효율성을 유지합니다. Hailo의 고급 AI 기술을 통합함으로써, Raspberry Pi AI Kit은 사용자가 Raspberry Pi 5에서 복잡한 AI 모델을 원활하게 실행할 수 있도록 보장합니다.
 
@@ -33,7 +40,18 @@ Hailo의 미션은 엣지 장치가 효율적이고 효과적으로 딥러닝 �
 
 Raspberry Pi AI Kit을 손에 넣으면 General AI (GenAI) 프로젝트의 세계가 펼쳐집니다. 아래는 시작할 수 있는 몇 가지 흥미로운 프로젝트입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 스마트 홈 자동화: 인공지능을 활용하여 스마트 홈 설정을 강화하세요. 얼굴을 인식하고 감정을 감지하며 목소리 명령에 반응할 수 있는 시스템을 만들어, 집을 더 직관적이고 안전하게 만드세요.
 - 인공지능 보안 카메라: 이상 활동을 감지하고 경고하는 보안 카메라를 구축하세요. 실시간 물체 감지와 인식을 통해 소유물을 더 정확하게 감시할 수 있습니다.
@@ -50,7 +68,18 @@ Raspberry Pi AI Kit을 손에 넣으면 General AI (GenAI) 프로젝트의 세�
 
 또한 라즈베리 파이 제품에 대한 커뮤니티 지원과 상세한 문서가 제공되어 프로젝트에 대해 충분한 지속적인 지원과 영감을 받을 수 있습니다. 이 AI 키트는 도구뿐만 아니라 AI로 가능한 가능성을 넓히는 메이커와 혁신가들의 글로벌 커뮤니티에 초대하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요약하자면, Hailo의 고급 AI 기술을 통해 구동되는 라즈베리 파이 AI 키트는 가격이 저렴하고 접근성이 좋은 AI 실험을 위한 게임 체인저입니다. 이 제품 출시로 AI 개발에 대한 진입 장벽이 크게 낮아져 더 많은 사람들이 이 흥미로운 분야에 참여하고 기여할 수 있게 되었습니다. 지금 당장 키트를 예약하고 라즈베리 파이 5에서 AI의 끝없는 가능성을 탐험해 보세요.
 
@@ -60,7 +89,18 @@ Coral M.2 Accelerator with Dual Edge TPU는 M.2 E-key 슬롯이있는 기기의 
 
 # Coral M.2 Accelerator Dual Edge TPU로 할 수 있는 일:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 실시간 객체 감지: 보안 카메라, 로봇 및 스마트 홈 기기에 대한 고속 객체 감지 및 인식 구현
 - 이미지 분류: 제조업에서의 자동화된 품질 검사 또는 의료 분석 등 이미지 처리 응용 프로그램 강화

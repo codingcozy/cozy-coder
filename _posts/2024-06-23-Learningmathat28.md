@@ -3,17 +3,13 @@ title: "28살에 수학 배우기"
 description: ""
 coverImage: "/assets/img/2024-06-23-Learningmathat28_0.png"
 date: 2024-06-23 18:25
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-Learningmathat28_0.png
 tag: Tech
 originalTitle: "Learning math at 28."
 link: "https://medium.com/blueinsight/learning-math-at-28-43a03922759d"
 isUpdated: true
 ---
-
-
-
-
 
 3학년 수학부터 시작하면 되겠네요. 두려워하고 흥분되는 일에 도전하는 건 시기를 놓친 일이 아닙니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 5월에 소프트웨어 회사의 기술 컨설팅 직을 그만 두고 인생을 돌아보는 시간을 가졌어요. 지금 28살이고 한 가지 삶의 목표를 완수한 것 같아요. 저는 항상 컨설턴트가 되길 원했고 기술적으로 말하자면 그렇게 된 적이 있어요. 저는 기술 컨설턴트로 일하며 병원이 전자 건강 기록 소프트웨어를 도입하는 데 도움을 주었습니다. 그런데 그것이 제가 생각했던 컨설턴트의 이미지와는 조금 달랐어요. 저는 경영 컨설턴트가 되길 원했었죠. 그래서 어떻게 된 걸까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 지난 10년 동안의 경력 발전 소개.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 지난 10년을 돌아보면, 다양한 산업과 직업에 흥미를 가졌지만 그 어느 것도 할 수 없었던 이유를 생각해봐요. 대학 시절에는 경영 컨설턴트가 되길 희망했고 졸업 한 해 뒤에는 소프트웨어 엔지니어가 되고 나중에는 데이터 과학자가 되길 원했어요. 졸업 6년 후에는 항공우주 공학을 시도하고 생명공학과 로보틱스를 거쳐했어요. 추세를 보이죠? 모든 분야에서 좋은 수학 실력이 도움이 되는 것 같아요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 이제 어떻게 하면 좋을까요?
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 왜 3학년 수학부터 시작하느냐구요? 저는 쿠바에서 미국으로 이사와서 5학년 때 ESOL 수업을 받았어요. 그 당시에 배운 내용은 기억도 안나요. 해야 할 일이 참 많아졌네요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로봇 공학과 전자에 대한 관심이 여전히 많아요. 우주 과학과 여성 건강을 위한 웨어러블 기기 내의 전자기기에 관심이 많아합니다. 수학에 자신감을 갖게 되면, 이러한 분야를 깊게 탐구할 수 있을 것 같아요.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 행복한 하루 보내세요 🌙,
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 dataprincess
 

@@ -3,7 +3,7 @@ title: "가챠 게임 리뷰 시 알아야 할 주요 사항들"
 description: ""
 coverImage: "/assets/img/2024-08-03-TheConcernsofCoveringGachaGames_0.png"
 date: 2024-08-03 20:03
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-03-TheConcernsofCoveringGachaGames_0.png
 tag: Tech
 originalTitle: "The Concerns of Covering Gacha Games"
@@ -11,17 +11,24 @@ link: "https://medium.com/@GWBycer/the-concerns-of-covering-gacha-games-22b1e9bf
 isUpdated: true
 ---
 
-
-
-
-
 <img src="/assets/img/2024-08-03-TheConcernsofCoveringGachaGames_0.png" />
 
 저는 소수의 사람 중 하나로, 가장 핫하고 독창적인 인디 게임들을 찾아보고 다루는 날을 보내다가, Arknights나 Limbus Company와 같은 모바일 게임을 플레이하기도 해요. 많은 사람들에게 모바일 게임은 Candy Crush Saga나 Angry Birds로 끝났다고 생각됩니다. 하지만 시장 자체는 2017년 이후로 크게 성장하고 변화했는데, AAA 게임 못지 않은 멋진 그래픽과 심층적인 게임성을 보여주며 성장했죠. MihoYo는 그들의 타이틀들의 성공으로 Valve이나 Blizzard의 정점에 거둔 것으로 알려진 알 수 없던 회사에서 멀지 않은 곳으로 발전했습니다. 하지만 이러한 게임들이 얼마나 크고 성공적이든, 늘 논쟁거리인 불법적 모네타이제이션은 이러한 게임에 대한 논의를 어렵게 만듭니다.
 
 # 가차 게임의 성장
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2010년대에는 모바일/가챠 시장이 급속히 확대되었고, 매년 ESA 조사에서 모바일이 모든 게임 중에서 가장 많이 플레이되는 플랫폼임을 언급하고 있습니다. 이전에는 모바일을 할머니나 할아버지가 지루할 때나 시간을 때우는 용도로 사용하는 것으로 간주되었습니다. 오늘날에는 인상적인 스토리, 아름다운 그래픽, 그리고 계속해서 월 별로 확장되는 고급 게임플레이를 제공하는 타이틀들이 있습니다.
 
@@ -31,7 +38,18 @@ isUpdated: true
 
 모바일 산업은 이상한 캐치22 상황에 처해 있습니다. 이러한 게임들은 대부분의 스튜디오가 절대로 이해할 수 없는 정도의 지원을 받으면서 수 년간 지원되지만, 이러한 지원은 매달 상당한 수입을 얻어야 한다는 것을 의미합니다. PC 사용자들은 모두 Diablo Immortal에 대한 증오를 표명했지만, 이것이 5억 달러 이상의 수익을 창출하는 데 방해되지 않았습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 가챠를 연민합니다
 
@@ -39,7 +57,18 @@ isUpdated: true
 
 내가 플레이한 모든 가챠 게임은 의도적이건 아니건 새로운 플레이어나 강화되지 않은 계정을 위한 내재적인 고통 요인과 난이도 상승점을 가지고 있습니다. Limbus Company에서, 게임이 말 그대로 시작될 때 거기에 있었기 때문에 지금 내 계정은 게임 안의 모든 콘텐츠에 액세스 할 수 있고, 시즌 패스에 대해 약 40달러 정도를 썼을 뿐입니다. 게임 안에는 새로운이나 운이 나쁜 계정이 이길 방법을 상상할 수 없는 싸움이 있습니다. Arknights도 초기 챕터에서 고통스러울 수 있어요, 제가 좋은 궁수 캐릭터나 6성 캐릭터가 없어서 5장과 6장에서 문제가 발생했던 걸 기억해요. 또 다른 방어적인 의견을 좀 제가 제한하고 싶은데, 많은 캐릭터 수집 모바일 게임에서 흔한 "친구 추가 및 캐릭터 요청" 기능이에요. 저는 이 기능을 좋아하지 않아요, 이것은 내재적인 난이도 상승 문제에 대한 미용 밴드 같은 역할을 하기 때문이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 게임의 진행과 흐름을 디자인할 때는 매우 까다로운 작업입니다. 여섯성 캐릭터를 추구하도록 유도하고 싶다면, 그들을 사용하는 것이 흥미롭도록 만드는 콘텐츠를 설계해야 합니다. 그러나 그들을 중심으로 콘텐츠를 디자인하는 것은 그들에게 접근할 수 없는 사람들에게는 더 나쁜 결과를 낼 수도 있습니다.
 
@@ -49,7 +78,18 @@ Nikke이라는 게임을 시도해 보았을 때, 개발자가 설정한 계정 
 
 물론, 계정을 확장하고 늦은 게임 초월적인 도전 과제를 즐길 수 있도록 컨텐츠가 필요하지만, 돈과 운이 문제로 인해 이야기 컨텐츠 중간에 차단되는 사람이 있다면 그 도전에 도달할 수 없을 것입니다. Arknights와 같은 게임에서 늦은 게임 도전 과제에서 연료를 다 소진해 가고 있다는 것을 깨닫고 있습니다. 많은 좋은 캐릭터를 보유하고 있지만, 그들을 모두 레벨업 하려면 꽤 많은 시간을 투자해야 하며, 그럼에도 불구하고 이미 해야 할 다른 모든 것들로 인해 시간이 제한되어 있는 게임에 더 많은 시간을 투자해야 할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떤 게임이 얼마나 훌륭하던, 저는 “메인 게임” 라이브 서비스 제목을 플레이할 소비자는 결코 될 수 없다고 생각해요. 그것은 매일 진행하기 위해 시간을 쏟아붓는 게임이거나 새 콘텐츠가 아닌 외부 모바일 게임에 매일 이상 10분 이상을 할애해야 하는 경우 종료하게 될 것입니다. 또한, 강제로 플레이를 하도록 요구하는 일일 플레이 리소스 수집 요구사항을 제거하는 것을 찬성합니다. 강제 플레이는 윤리적인 디자인이 아니기 때문이에요.
 
@@ -59,7 +99,18 @@ Nikke이라는 게임을 시도해 보았을 때, 개발자가 설정한 계정 
 
 제가 연구한 모든 라이브 서비스 게임들에서 본 것은 사람들이 그것들을 “영원한 게임”이라고 부르기를 원할지라도, 콘텐츠와 배너와 배틀 패스 및 FOMO가 많아지면서 실제로는 이러한 게임들이 결코 변하지 않는다는 것이었습니다. 그 이유는 매우 단순합니다. 모든 것은 수익 모형에 맞춰 고정되어 있기 때문입니다. 게임플레이가 수익을 움직이는 것이 아니라 수익이 게임플레이를 움직이는 것입니다. 그 결과, 1년 동안의 게임 플레이 루프는 3년, 5년, 7년에도 동일합니다. 라이브 서비스 게임에서 확장팩이나 시퀄과 비슷한 수준의 콘텐츠를 소개할 수 없는 이유는 모든 것이 수익 모형에 묶여 있기 때문입니다. 워프레임에서 소개된 새로운 모드와 시스템의 양은 예외이며, 개발자들이 동일한 게임플레이 루프에서 많은 발전을 이뤄냈다는 점입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![게임](/assets/img/2024-08-03-TheConcernsofCoveringGachaGames_3.png)
 
@@ -69,7 +120,18 @@ Nikke이라는 게임을 시도해 보았을 때, 개발자가 설정한 계정 
 
 어느 순간, 모든 라이브 서비스 게임은 정석을 찍고 평평해집니다. 새로운 콘텐츠를 내놓거나 멋진 협동이 오든, 사람들은 가입하거나 돌아오지 않습니다. 대형 게임들에게는 여전히 돈을 벌어들이는 허가증이지만...이전보다 적은 돈이죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 이 게임들은 어디에 끝날까요?
 
@@ -79,7 +141,18 @@ Nikke이라는 게임을 시도해 보았을 때, 개발자가 설정한 계정 
 
 이 글을 읽는 독자 중 일부는 "누가 그런 걸 신경 쓰겠어?" 라고 생각할 수 있지만, 게임 보존의 목적은 모든 게임을 보존하는 것입니다 - 당신이 좋아하든 싫어하든 관계없이. 스튜디오의 몇 달, 몇 년 동안의 개발 작업이 아랑곳없이 사라져 버린다는 사실에 대해 생각하면 참을 수가 없습니다. 당신이 이러한 게임을 단순하다고 생각하든 고급스럽다고 생각하든, 그것들은 여전히 개발되고 출시되었으며 기억되어야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일부 우수하고 독특한 모바일 게임에서는 환상적인 UI/UX 작업을 볼 수 있습니다. 이러한 게임들은 시간 낭비만 하는 간단한 게임이라는 편견을 깨는데 기여합니다.
 
@@ -89,6 +162,17 @@ Nikke이라는 게임을 시도해 보았을 때, 개발자가 설정한 계정 
 
 F2P/모바일 디자인에 대해 더 알고 싶다면, Game Design Deep Dive: F2P를 꼭 읽어보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제가 하는 일을 지원하고 더 많은 일일 스트리밍을 할 수 있도록 도와주고 싶다면, 꼭 제 Patreon을 확인해보세요. 지금은 모든 사람을 위해 열린 Discord로 게임과 게임 디자인에 대해 이야기할 수 있어요.

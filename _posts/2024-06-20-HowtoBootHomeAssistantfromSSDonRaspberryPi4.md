@@ -3,17 +3,13 @@ title: "라즈베리 파이 4에서 SSD로 홈 어시스턴트 부팅하는 방�
 description: ""
 coverImage: "/assets/img/2024-06-20-HowtoBootHomeAssistantfromSSDonRaspberryPi4_0.png"
 date: 2024-06-20 16:16
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-HowtoBootHomeAssistantfromSSDonRaspberryPi4_0.png
 tag: Tech
 originalTitle: "How to Boot Home Assistant from SSD on Raspberry Pi 4"
 link: "https://medium.com/@uliandim/how-to-boot-home-assistant-from-ssd-on-raspberry-pi-4-ede6fbf0c721"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-20-HowtoBootHomeAssistantfromSSDonRaspberryPi4_0.png" />
 
@@ -23,20 +19,42 @@ isUpdated: true
 
 # 백업 만들기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 라즈베리 파이 4에 어떠한 변경을 가하기 전에, 현재 홈 어시스턴트 설정의 백업을 만드는 것이 중요합니다. 아래 단계를 따라주세요:
 
-- 홈 어시스턴트 대시보드에서 설정 ` 시스템 ` 백업으로 이동합니다.
+- 홈 어시스턴트 대시보드에서 설정 `시스템` 백업으로 이동합니다.
 - 시스템의 완전한 백업을 생성하기 위해 "전체 백업"을 선택합니다.
 
 ![이미지](/assets/img/2024-06-20-HowtoBootHomeAssistantfromSSDonRaspberryPi4_1.png)
 
 백업 프로세스가 완료되면 백업 파일을 컴퓨터로 다운로드하여 안전하게 보관하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-알림: 홈 어시스턴트에서는 "설정 ` 시스템 ` 저장소" 메뉴와 "데이터 디스크 이동" 버튼을 사용하여 데이터를 다른 저장 위치로 이동할 수 있는 옵션이 있습니다. 그러나 이 방법은 데이터만 전송되고 부팅 및 운영 체제는 마이크로SD 카드에 남아 있게 됩니다. 원하는 결과가 아닌 경우 이 옵션을 피하는 것이 좋습니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+알림: 홈 어시스턴트에서는 "설정 `시스템` 저장소" 메뉴와 "데이터 디스크 이동" 버튼을 사용하여 데이터를 다른 저장 위치로 이동할 수 있는 옵션이 있습니다. 그러나 이 방법은 데이터만 전송되고 부팅 및 운영 체제는 마이크로SD 카드에 남아 있게 됩니다. 원하는 결과가 아닌 경우 이 옵션을 피하는 것이 좋습니다.
 
 본 게시물에는 제휴 링크가 포함되어 있어 링크를 통해 구매를 하신다면 추가 비용 없이 작은 커미션이 전달될 수 있음을 알려드립니다.
 
@@ -44,7 +62,18 @@ isUpdated: true
 
 백업을 만든 후에는 문제가 발생할 경우 대비하여 홈 어시스턴트 마이크로SD 카드를 따로 보관해 두세요. SSD에 홈 어시스턴트를 설치하려면 SSD M.2 SATA 어댑터가 필요합니다. 저는 ORICO M.2 NVMe SATA SSD 엔클로저 어댑터를 선택했습니다. 선택한 어댑터가 M.2 NGFF SATA B+M 키를 지원하는지 확인하세요. 아래는 진행 방법입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - GeeekPi Mini Tower NAS Kit 케이스의 하단 부분을 분해하여 SSD에 접근하고 분리합니다.
 - SSD를 어댑터에 설치합니다.
@@ -57,7 +86,18 @@ Home Assistant OS를 SSD에 설치하려면 Raspberry Pi Imager를 사용해야 
 - SATA 어댑터를 사용하여 SSD를 컴퓨터에 연결합니다.
 - Raspberry Pi Imager를 엽니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 \<img src="/assets/img/2024-06-20-HowtoBootHomeAssistantfromSSDonRaspberryPi4_2.png" />
 
@@ -65,9 +105,20 @@ Home Assistant OS를 SSD에 설치하려면 Raspberry Pi Imager를 사용해야 
 
 \<img src="/assets/img/2024-06-20-HowtoBootHomeAssistantfromSSDonRaspberryPi4_3.png" />
 
-4. "운영체제 선택"에서 "기타 특정용도 OS" ` "홈 어시스턴트 및 홈 자동화" ` "Home Assistant"를 선택하세요.
+4. "운영체제 선택"에서 "기타 특정용도 OS" `"홈 어시스턴트 및 홈 자동화"` "Home Assistant"를 선택하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-HowtoBootHomeAssistantfromSSDonRaspberryPi4_4.png" />
 
@@ -77,7 +128,18 @@ Home Assistant OS를 SSD에 설치하려면 Raspberry Pi Imager를 사용해야 
 
 7. SSD를 컴퓨터와 SATA 어댑터에서 분리하고 GeeekPi 미니 타워 NAS 킷 케이스에 다시 넣어주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 라즈베리 파이 4 부팅 순서 변경
 
@@ -90,7 +152,18 @@ Home Assistant OS를 SSD에 설치하려면 Raspberry Pi Imager를 사용해야 
 - 장치로 "Raspberry Pi 4"를 선택합니다.
 - 'OS 선택' 버튼을 클릭한 후 "Misc utility images" → "Bootloader (Pi 4 family)" → "USB Boot"으로 이동합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-HowtoBootHomeAssistantfromSSDonRaspberryPi4_5.png" />
 
@@ -100,7 +173,18 @@ Home Assistant OS를 SSD에 설치하려면 Raspberry Pi Imager를 사용해야 
 
 부트로더를 microSD 카드에 설치한 후에 라즈베리 파이에 삽입하고 전원을 연결하고 30초를 기다린 다음에 장치의 전원을 끕니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 참고: 안타깝게도 저는 microHDMI 케이블이 없어서 연결된 모니터에 그린 스크린이 있는지 확인할 수 없었습니다. 그러나 몇 가지 온라인 가이드에서 언급한 LED가 고정 녹색으로 변해야 한다는 것을 관찰했고, 이 행동을 보이지 않았습니다. 그럼에도 불구하고 프로세스가 완료된 것으로 가정했습니다. 마이크로SD 카드의 부트로더가 마법을 부리기에 충분한 30초가 일반적으로 적당하다고 생각했기 때문이죠.
 
@@ -110,7 +194,18 @@ Raspberry Pi 4를 다시 시작하고 Home Assistant의 로컬 IP 주소와 포�
 
 설치 후 두 가지 옵션인 새로운 스마트 홈 설정을 만들어야 할지, 아니면 백업에서 복원할지 선택하게 됩니다. 저는 백업에서 복원하기를 선택했습니다. 인터페이스는 다음과 같이 보였습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-HowtoBootHomeAssistantfromSSDonRaspberryPi4_6.png" />
 
@@ -120,7 +215,18 @@ Raspberry Pi 4를 다시 시작하고 Home Assistant의 로컬 IP 주소와 포�
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 좋은 소식은 모든 것이 잘 진행되어 원래의 홈 어시스턴트 설정에서 데이터 손실이나 구성 문제가 없었습니다.이 같은 방법론을 라즈베리 파이의 다른 운영 체제에도 적용할 수 있습니다.
 

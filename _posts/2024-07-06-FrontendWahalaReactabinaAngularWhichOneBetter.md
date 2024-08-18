@@ -3,17 +3,13 @@ title: "프론트엔드 고민 React vs Angular  어떤 것이 더 나을까"
 description: ""
 coverImage: "/issue-truck.github.io/assets/no-image.jpg"
 date: 2024-07-06 11:02
-ogImage: 
+ogImage:
   url: /issue-truck.github.io/assets/no-image.jpg
 tag: Tech
 originalTitle: "Frontend Wahala: React abi na Angular — Which One Better??"
 link: "https://medium.com/@odiliodili3/frontend-wahala-react-abi-na-angular-which-one-better-d4f60838a9d4"
 isUpdated: true
 ---
-
-
-
-
 
 우리야, 진지하게 말씀드리겠습니다...
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 아몬드은 어떨지?? 한마디로, 요리를 못 하면 칠 줄은 아는 법. 부엌에서 이것저것 만들어 보러 와요, 코드만 작성하는 것만이 전부가 아니에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트: 앱에 대한 자신만의 주먹밥을 요리하는 것처럼요
 
@@ -33,17 +40,39 @@ isUpdated: true
 
 - 다양성: 리액트를 통해 내가 원하는 대로 앱을 젠장(jejely)히 만들 수 있어요(조각 단위로), 마치 레고 블록을 쌓듯이.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-*속도: React는 가상 DOM 매직으로 내 앱을 빠르게 업데이트할 수 있어.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-*커뮤니티: React는 많은 지지자들과 배우는 데 도움이 되는 많은 리소스들을 얻을 수 있어. 리소스가 정말 많아.
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+\*속도: React는 가상 DOM 매직으로 내 앱을 빠르게 업데이트할 수 있어.
+
+\*커뮤니티: React는 많은 지지자들과 배우는 데 도움이 되는 많은 리소스들을 얻을 수 있어. 리소스가 정말 많아.
 
 Angular: 마마푸트에서 완전한 아말라를 주문하는 것 같아.
 
 Angular는 앱에 필요한 모든 것을 갖춘 완전한 아말라를 주문하는 것과 같아. 주문하면 아말라, 에웨듀 수프, 그베기리, 그리고 다양한 고기(라우팅, 폼, 상태 관리)가 다 들어있는 하나의 패키지로 제공돼. 그 모든 것이 함께 제공되지만, 조로프 라이스처럼 각 요리를 많이 바꿀 수는 없어.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나는 Angular를 좋아하는 이유:
 
@@ -51,7 +80,18 @@ Angular는 앱에 필요한 모든 것을 갖춘 완전한 아말라를 주문�
 - 내장: Angular 안에 모든 문제에 대한 해결책이 내장돼 있어서 추가적으로 찾을 필요가 없어.
 - 안정적: Angular은 대규모 프로젝트를 구축하는 일관된 방법을 제공해서 변화가 많지 않아.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React for HNG 인턴십
 
@@ -61,7 +101,18 @@ HNG 인턴십에 참여하면서 React를 잘 배우기를 기대하고 있어�
 
 React와 Angular 중 어떤 것을 선택할지는 자신만의 졸로프 라이스를 직접 요리할지 아니면 저녁에 아말라를 즐길지 고르는 것과 같아요. React는 유연성과 사용자 정의를 제공하고, Angular는 대규모 프로젝트에 구조와 완성도를 제공해요. 프로젝트의 요구 사항과 코딩 스타일을 고려해서 선택하는 게 중요해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HNG 인턴십에 대해 더 알고 어떻게 참여할 수 있는지 알고 싶다면 [HNG Internship](https://hng.tech/internship)과 [HNG Premium](https://hng.tech/premium)를 확인해보세요.
 

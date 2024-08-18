@@ -3,17 +3,13 @@ title: "컨슈머를 위한 최고의 리눅스 폰 안내"
 description: ""
 coverImage: "/assets/img/2024-06-19-TheultimateLinuxphoneguideforconsumers_0.png"
 date: 2024-06-19 15:05
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-TheultimateLinuxphoneguideforconsumers_0.png
 tag: Tech
 originalTitle: "The ultimate Linux phone guide for consumers"
 link: "https://medium.com/@camden.o.b/the-ultimate-linux-phone-guide-28d0cce9929"
 isUpdated: true
 ---
-
-
-
-
 
 # 소개
 
@@ -23,7 +19,18 @@ Graphene, Calyx, /e/과 같은 프로젝트들이 떠오르며, 이들은 모두
 
 본 기사에서는 리눅스 폰을 구매하거나 리눅스 운영 체제를 설치할 수 있는 Android 폰을 구매하는 데 조언을 제공할 것이니, 시작해 봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 소프트웨어
 
@@ -35,7 +42,18 @@ Graphene, Calyx, /e/과 같은 프로젝트들이 떠오르며, 이들은 모두
 - SailfishOS
 - PostmarketOS
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우분투 터치와 세일피시는 둘 다 매우 성숙한 모바일 리눅스 프로젝트이며 활성 포트 수가 적은 상태에서 매일 사용할 수 있는 수준입니다. 포스트마켓OS는 폰용 "진정한 리눅스 배포판"으로 지원되는 장치와 테스트된 장치에 대한 대규모 데이터베이스를 보유하고 있습니다. 나중에 이 두 그룹 간의 차이에 대해 자세히 설명 드리겠습니다.
 
@@ -45,7 +63,18 @@ Libhybris
 
 우분투 터치와 세일피시는 둘 다 libhybris라는 호환성 레이어를 사용하여 안드로이드 라이브러리들을 일반 리눅스 설치에 사용되는 라이브러리와 함께 빌드된 애플리케이션이 로드할 수 있도록 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자가 libhybris를 사용하는 장점은 Android 커널에서 드라이버를 실행하여 안드로이드 부분을 포함하는 컨테이너 내에서 작동하는 많은 기능을 쉽게 사용할 수 있다는 것입니다.
 
@@ -55,7 +84,18 @@ Libhybris
 
 # PostmarketOS는 메인라인 포트를 홍보하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 PostmarketOS는 스마트폰의 수명을 늘리기 위해 메인라인화를 통해 가끔 조정된 하향식 Android 커널을 사용하는 대체 모바일 운영 체제입니다.
 
@@ -65,7 +105,18 @@ PostmarketOS는 스마트폰의 수명을 늘리기 위해 메인라인화를 �
 
 먼저, 스마트폰 또는 어떤 전화기든 전화를 하는 것처럼 작동해야 합니다. 전화를 걸 수 있고, 문자 메시지를 보내고(받기도), Wi-Fi 및 이동통신망을 통해 인터넷에 접속하여 전화를 재부팅하지 않고도 오랜 시간 안정적으로 사용할 수 있는 전화가 필요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 소비자로서 여러분은 보고된 핸드폰의 모든 기능이 작동할 것으로 기대할 것입니다. 이에는 카메라, GPS, NFC, 지문 센서, 그리고 핸드폰 소프트웨어가 원활히 작동하는 것이 포함됩니다.
 
@@ -75,7 +126,18 @@ PostmarketOS는 스마트폰의 수명을 늘리기 위해 메인라인화를 �
 
 현재 Linux 최초 핸드폰으로 사용할 수 있는 몇 가지 옵션이 있습니다. 주요한 것은 Purism Librem 5와 Pine64 PinePhone/Pro입니다. 둘 다 Linux 핸드폰을 찾는 소비자들에게 추천할 수 없습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Purism Librem 5
 
@@ -85,7 +147,18 @@ PostmarketOS는 스마트폰의 수명을 늘리기 위해 메인라인화를 �
 
 요약하자면, 미국에서만 14일의 선배송 기간이 있고, 미국 버전의 전화기의 경우 배송 전 6주가 아닌 6일이 소요됩니다. 하드웨어와 소프트웨어는 모두 문제가 없지만, 대기 시간이 그렇게 가치가 있는지는 의문입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## PinePhone/Pro
 
@@ -95,7 +168,18 @@ PinePhone 내부의 GPU는 2008년에 거슬러 올라가는데, 많은 현대 �
 
 세일피쉬를 사용하면 Nokia 시대 폰의 사양에 더 가깝고 오래되어 약간 도움이 되지만, 일상적인 운전기를 찾고 있다면 여전히 PinePhone을 구입하지 않을 것입니다. 반면 PinePhone Pro는 보다 강력하며 새로운 Rockchip SOC 및 더 많은 RAM이 탑재되어 있습니다. 소프트웨어가 더 성숙해지면 일상적으로 사용할 수 있는 폰입니다. 배터리 수명은 현재 별로 좋지 않습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 두 핸드폰의 배터리 수명은 저를 가장 꺼려하게 만들었고, 원래의 PinePhone을 일상적으로 사용하거나 권장하지 않습니다. 배터리 및 성능 문제가 있기 때문입니다. 열렬한 애호가들을 위한 작업 도구로는 아주 좋지만, 보편 소비자에게는 충분하지 않습니다.
 
@@ -105,7 +189,18 @@ PinePhone 내부의 GPU는 2008년에 거슬러 올라가는데, 많은 현대 �
 
 그래서 마침내, 더 이상 미루지 않고, 소비자 친화적인 리눅스 핸드폰을 위해 몇 가지 추천을 소개하겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Pixel 3a/3a XL, Xiaomi Poco X3, 및 Volla Phone(s) (Ubuntu Touch 지원)
 
@@ -115,7 +210,18 @@ Pixel 3a와 Xiaomi Poco X3는 Ubuntu Touch 기기 목록에서 가장 잘 지원
 
 Volla Phone 시리즈도 좋은 선택지입니다. Ubuntu Touch는 제조업체 Volla에 의해 후원되고 그들의 전화기는 Ubports에 의해 홍보되고 있어, 이 기기에 대해 많은 Ubuntu Touch 업데이트를 받을 수 있다는 것을 확신할 수 있습니다. 지원이 100%가 아니지만 시간이 흐름에 따라 더욱 완성될 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Sony Xperia 10 II/III/XA2 and Xperia X (with Sailfish)
 
@@ -125,7 +231,18 @@ Volla Phone 시리즈도 좋은 선택지입니다. Ubuntu Touch는 제조업체
 
 전체적으로, 이 제품은 "진정으로 개방적인" 운영 체제에 대해 추가 비용을 지불해야 한다는 사실을 제외하면 일반 소비자를 대상으로 한 훌륭한 제품이라고 말할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

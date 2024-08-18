@@ -3,17 +3,13 @@ title: "Kolmogorov-Arnold 네트워크KAN로 그래프 딥러닝 성능 향상 �
 description: ""
 coverImage: "/code-tower.github.io/assets/no-image.jpg"
 date: 2024-07-08 00:05
-ogImage: 
+ogImage:
   url: /code-tower.github.io/assets/no-image.jpg
 tag: Tech
 originalTitle: "Kolmogorov-Arnold Networks (KANs) Are Being Used To Boost Graph Deep Learning Like Never Before"
 link: "https://medium.com/gitconnected/kolmogorov-arnold-networks-kans-are-being-used-to-boost-graph-deep-learning-like-never-before-2d39fec7dfc3"
 isUpdated: true
 ---
-
-
-
-
 
 *KANs*는 2024년 4월에 발표된 이후 많은 관심을 받고 있어요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 그들은 이 새로운 신경망 구조를 — Graph Kolmogorov-Arnold Networks (GKANs)라고 부르고 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 And, how was it — you’d inquire?
 
@@ -33,6 +40,17 @@ This marks a significant advancement for KANs!
 
 Here is a tale where we explore GKANs thoroughly, understand their application with graph-structured data, and explore how they outperform traditional methods in Graph Deep Learning.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 그러나 먼저, 그래프란 무엇인가요...

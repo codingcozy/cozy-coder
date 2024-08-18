@@ -3,17 +3,13 @@ title: "고전부터 현금까지 Midjourney 또는 Stylar AI로 돈 버는 확�
 description: ""
 coverImage: "/assets/img/2024-06-23-FromClassicstoCashASureWaytoEarnMoneywithMidjourneyorStylarAI_0.png"
 date: 2024-06-23 20:20
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-FromClassicstoCashASureWaytoEarnMoneywithMidjourneyorStylarAI_0.png
 tag: Tech
 originalTitle: "From Classics to Cash: A Sure Way to Earn Money with Midjourney or Stylar AI"
 link: "https://medium.com/let-there-be-prompt/from-classics-to-cash-a-sure-way-to-earn-money-with-midjourney-or-stylar-ai-fc156265ac41"
 isUpdated: true
 ---
-
-
-
-
 
 사이드 일은 좋은 것이지만 작동하는 것을 찾는 것은 큰 도전입니다.
 
@@ -23,11 +19,33 @@ isUpdated: true
 
 만약 Midjourney, Stylart AI 또는 유사한 고품질 AI 이미지 생성 도구를 숙달했다면, 이 일은 여러분에게 맞을지도 모릅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 조용히 웹 페이지에서 카피하고 연습을 해본다는 게 중요합니다. 인상적인 내용을 찾아내실 때 유용한 웹사이트와 도구를 소개요, 함께 사용해봐요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그런 책들을 이제는 거의 찾기 힘듭니다. 확실한 것은 그런 오래된 판본들은 천문학적인 가격에만 구할 수 있고, 일부는 살짝 채색이 바뀐 나중 판본도 반 천문학적인 가격에 구할 수 있습니다.
 
@@ -37,7 +55,18 @@ isUpdated: true
 
 이 손고책들에 가치를 더해 고품질이며 매력적인 일러스트와 표지를 만들어서 멋지게 포맷하여 다시 출판하면, 높은 순위에 올라가 요청이 많은 제품을 만들 수 있을 거예요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Screenshot 1](/assets/img/2024-06-23-FromClassicstoCashASureWaytoEarnMoneywithMidjourneyorStylarAI_1.png)
 
@@ -47,7 +76,18 @@ Midjourney 또는 Stylar AI는 훌륭한 일러스트를 만들 수 있습니다
 
 ![Screenshot 2](/assets/img/2024-06-23-FromClassicstoCashASureWaytoEarnMoneywithMidjourneyorStylarAI_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 그림을 함께 수록한 원고를 작성하고, 표지를 디자인하여 KDP에서 하드커버 프린트 온 디맨드로 출판하면 판매할 수 있는 책이 완성됩니다.
 
@@ -57,7 +97,18 @@ Midjourney 또는 Stylar AI는 훌륭한 일러스트를 만들 수 있습니다
 
 <img src="/assets/img/2024-06-23-FromClassicstoCashASureWaytoEarnMoneywithMidjourneyorStylarAI_3.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 고전 작품은 항상 수요가 있답니다. 그리고 공개 도메인에 있는 한, 여러분도 사용할 수 있죠.
 
@@ -67,7 +118,18 @@ Midjourney 또는 Stylar AI는 훌륭한 일러스트를 만들 수 있습니다
 
 ![이미지](/assets/img/2024-06-23-FromClassicstoCashASureWaytoEarnMoneywithMidjourneyorStylarAI_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 아이디어 한 번 시도해 보시길 바랍니다. 재미로든 돈을 벌기 위해든 상관없이요. 그리고 시간을 쏟아 부어도 후회하지 않으실 거라고 확신합니다.
 

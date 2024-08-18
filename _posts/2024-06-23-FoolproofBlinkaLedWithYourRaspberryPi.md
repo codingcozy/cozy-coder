@@ -3,17 +3,13 @@ title: "라즈베리 파이로 LED 깜빡이기 초보자용 간단 가이드"
 description: ""
 coverImage: "/assets/img/2024-06-23-FoolproofBlinkaLedWithYourRaspberryPi_0.png"
 date: 2024-06-23 18:14
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-FoolproofBlinkaLedWithYourRaspberryPi_0.png
 tag: Tech
 originalTitle: "Foolproof: Blink a Led With Your Raspberry Pi"
 link: "https://medium.com/nerd-for-tech/blink-led-with-raspberry-pi-foolproof-7f2584fd552a"
 isUpdated: true
 ---
-
-
-
-
 
 ## 스텝별 가이드
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 IT 학생으로써, 시스템이 튜링 완전한지 여부를 감지하는 것과 같은 유용한 것들을 배웠어요. 하지만 라즈베리 파이를 제어하는 것? 그건 정말 너무 복잡해 보였어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-23-FoolproofBlinkaLedWithYourRaspberryPi_0.png" />
 
@@ -33,7 +40,18 @@ IT 학생으로써, 시스템이 튜링 완전한지 여부를 감지하는 것�
 
 # 요구 사항
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 라즈베리 파이 설정이 완료된 상태
 - 솔더가 필요 없는 브레드보드
@@ -48,7 +66,18 @@ IT 학생으로써, 시스템이 튜링 완전한지 여부를 감지하는 것�
 
 아직 라즈베리 파이를 설정하지 않았다면, 머릿속 작은 컴퓨터를 사용하는 방법에 대한 내 튜토리얼을 읽어보세요. 모니터로 시작하려면 공식 문서를 확인해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 자극으로 바쁜 손들을 준비하고 회로를 설치하는 방법
 
@@ -58,7 +87,18 @@ IT 학생으로써, 시스템이 튜링 완전한지 여부를 감지하는 것�
 
 <img src="/assets/img/2024-06-23-FoolproofBlinkaLedWithYourRaspberryPi_2.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GPIO는 General-Purpose Input/Output의 약자입니다. 이 핀들을 사용하면 Raspberry Pi와 전기 구성 요소를 연결하여 소프트웨어를 통해 상호 작용할 수 있습니다. 그림에서 보듯이, 모든 40개의 핀은 특정한 역할을 합니다.
 
@@ -68,8 +108,18 @@ GPIO는 General-Purpose Input/Output의 약자입니다. 이 핀들을 사용하
 
 마지막으로, 회로를 살펴보겠습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-23-FoolproofBlinkaLedWithYourRaspberryPi_3.png)
 
@@ -79,8 +129,18 @@ GPIO는 General-Purpose Input/Output의 약자입니다. 이 핀들을 사용하
 
 그렇지만, 330Ω로 저항을 선택하면 안전합니다. LED에 필요한 적절한 저항값을 계산하는 방법에 대해 더 알아보려면 다음 비디오를 확인해보세요:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 잘 했어요, 회로는 여기까지입니다!
 
@@ -90,7 +150,18 @@ LED가 1초 간격으로 깜박이는 리듬을 만들어주는 것이 이번 �
 
 우선, 라즈베리 파이에 연결하고 터미널을 엽니다. 코딩을 시작하기 전에 라즈베리 파이의 핀과 상호작용할 수 있게 해주는 라이브러리를 설치해요. 항상처럼, 패키지를 업데이트해주어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 $ sudo apt update && sudo apt upgrade
@@ -105,7 +176,18 @@ $ vim partyLED.py
 
 이제 실제 프로그램으로 넘어갑니다. GPIO 핀의 초기화 및 LED 구성으로 나뉘어집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 초기화를 살펴봅시다. 필요한 라이브러리를 스크립트에 가져온 후, GPIO 핀을 위한 변수를 만듭니다.
 
@@ -115,7 +197,7 @@ $ vim partyLED.py
 
 ```js
 import RPi.GPIO as GPIO         # 라즈베리파이 GPIO 라이브러리 가져오기
-from time import sleep          # sleep 함수 가져오기 
+from time import sleep          # sleep 함수 가져오기
 
 pinLED = 4                      # LED GPIO 핀 번호
 
@@ -124,7 +206,18 @@ GPIO.setwarnings(False)         # 경고 무시
 GPIO.setup(pinLED, GPIO.OUT)    # GPIO 핀을 출력 핀으로 설정
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LED가 실제로 깜박이도록 하려면 GPIO 핀을 HIGH(전압이 켜짐)으로 설정한 후 LOW(전압이 꺼짐)으로 설정하는 루프를 만듭니다. while 루프로 인해 우리의 프로그램은 콘솔을 통해 중지할 때까지 실행됩니다.
 
@@ -159,7 +252,18 @@ while True:                          # 무한 루프
     sleep(1)                         # 1초 동안 일시정지
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 다 됐어요! 이 몇 줄이 모든 마법을 부릅니다.
 
@@ -171,7 +275,18 @@ $ python partyLED.py
 
 <img src="https://miro.medium.com/v2/resize:fit:800/1*t3lO_bC7qHuqHf5sYxsXiA.gif" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로그램을 중지하려면 터미널에서 CTRL+C를 눌러주세요.
 
@@ -183,7 +298,18 @@ $ python partyLED.py
 
 만약 멀티미터가 없다면, LED가 제대로 작동하는지 확인하려면 플러스극을 GPIO 핀 대신 3.3V에 연결해보세요. 그러면 LED가 계속 켜질 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -193,7 +319,18 @@ $ python partyLED.py
 
 또한, 처음에 잘 되지 않았다고 걱정하지 마세요. 믿으시든지 말든지 저는 저도 내 저항이 너무 강하다는 걸 알지 못해서 모든 것을 작동시키기 위해 1시간 이상이 걸렸어요(... 알겠어요). 고난을 겪는 것도 괜찮아요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어쨌든, LED 깜박임을 마스터해서 기뻐요. 라즈베리 파이를 시작하는 방법을 알아내고 나니, 더 멋진 프로젝트에 더 흥분하고 있어요.
 

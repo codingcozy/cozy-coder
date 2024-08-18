@@ -3,17 +3,13 @@ title: "내 남편이 내 위치를 더 이상 공유하지 않아"
 description: ""
 coverImage: "/assets/img/2024-06-19-MyHusbandStoppedSharingHisLocationWithMe_0.png"
 date: 2024-06-19 21:36
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-MyHusbandStoppedSharingHisLocationWithMe_0.png
 tag: Tech
 originalTitle: "My Husband Stopped Sharing His Location With Me"
 link: "https://medium.com/follower-booster-hub/my-husband-stopped-sharing-his-location-with-me-dba0d899b004"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-06-19-MyHusbandStoppedSharingHisLocationWithMe_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 새 핸드폰을 샀는데 설정하는 것이 두려웠어요. 프로세스에 충분한 시간을 확보하기 위해 저녁 일정을 전부 취소했습니다. 마침내 설정을 끝내자, 의외로 이전 iPhone과 똑같이 느껴졌어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제 남편 위치 말고.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 "그래, 말야," 그는 말했어요. "우리가 정말로 위치를 공유해야 할까?"
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그의 대답에 놀랐어요. 감정적인 반응은 했지만 입을 다물었어요. 그가 한 말에 대해 생각할 시간이 필요했죠. 아마 우리가 더 이상 위치를 공유할 필요가 없을지도 모르겠다고 했던게 맞을지도 모르죠. 그래도 마음이 걸렸어요.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 저는 남편과 위치를 주로 안전을 위해 공유하지만 편의를 위해서도 공유해요. 혼자 여행하다가 무언가 일어났을 때 남편이 내 위치를 추적할 수 있어 안심돼요. 남편의 위치를 볼 수 있는 것이 편리해요. 그가 회사를 떠나거나 식료품점을 나왔을 때 알 수 있어요. 이미 나가 있다는 걸 보면서 상점에서 사오라고 문자를 보내지 않게 됐어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나만이 위치 공유를 유용하게 느끼는 것은 아닙니다. 2022년 해리스 폴이 실시한 조사에 따르면:
 
@@ -55,7 +84,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-19-MyHusbandStoppedSharingHisLocationWithMe_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 추적할 때
 
@@ -65,7 +105,18 @@ isUpdated: true
 
 전문가들이 위치 공유에 대해 어떻게 생각하는지 궁금했어.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 전문가들의 의견
 
@@ -75,7 +126,18 @@ isUpdated: true
 
 보비 박사는 "만약 [부부가] 자신들의 위치 추적을 켜 놓았다면, 이는 대화의 주제가 되거나 사람들이 심각하게 생각하는 것이 아니다"라고 Inverse에 전했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컬러라도 보울더에 위치한 인티마시 인스티튜트의 제니 스카일러 박사는 인벌스에 말했습니다. "만약 최근에 신뢰 위반이 없는 관계라면, 이것은 과도하다고 볼 수 있습니다."
 
@@ -83,7 +145,18 @@ isUpdated: true
 
 모든 커플에게 한 가지 해결책이 되지 않기 때문에, 나는 중도를 선택했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 내 결정
 
@@ -93,9 +166,20 @@ isUpdated: true
 
 원래의 "그가 뭔가를 숨기고 있는가?" 또는 "나는 과도하게 반응하고 있는가?"라는 질문에 대한 대답은 아마도 "아니요, 그가 뭔가를 숨기고 있는 것은 아니고 네, 나는 과도하게 반응하고 있습니다."일 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-반대로 말하자면, 위치 공유는 어차피 나를 심장이 아픈 상황으로부터 구해주지 않을 거에요. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+반대로 말하자면, 위치 공유는 어차피 나를 심장이 아픈 상황으로부터 구해주지 않을 거에요.
 
 내 남편과 거의 이혼직전이었던 경험에 대해 계속 읽어보세요:
 

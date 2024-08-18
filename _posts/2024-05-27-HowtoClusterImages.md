@@ -3,17 +3,13 @@ title: "이미지를 클러스터링하는 방법"
 description: ""
 coverImage: "/assets/img/2024-05-27-HowtoClusterImages_0.png"
 date: 2024-05-27 12:46
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-HowtoClusterImages_0.png
 tag: Tech
 originalTitle: "How to Cluster Images"
 link: "https://medium.com/voxel51/how-to-cluster-images-6e09bdff7361"
 isUpdated: true
 ---
-
-
-
-
 
 ![FiftyOne](https://miro.medium.com/v2/resize:fit:1400/1*b6uzxatq8ELEOu-1SjMmGg.gif)
 
@@ -24,9 +20,18 @@ isUpdated: true
 
 그런데 더 나은 모델을 구축하려고 할 때 더 중요할 수 있는 다른 유형의 클러스터가 있는데요. 저는 CPU나 TPU, 또는 다른 어떤 종류의 하드웨어에 대해 언급하는 게 아닙니다. 심지어 모델 훈련 과정에 대해서도 말하는 게 아닙니다. 저는 데이터를 깊이 이해하는 데 도움이 되는 옛날의 비지도 학습 작업인 클러스터링을 말하는 것입니다. 끝내 우리에게 예측력이 흐르는 원천이기 때문이죠.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-05-27-HowtoClusterImages_0.png)
 
@@ -36,8 +41,18 @@ In this blog, we’ll cover the basics of clustering and show you how to structu
 
 ![Image](/assets/img/2024-05-27-HowtoClusterImages_1.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 클러스터링의 기본 요소
 
@@ -47,7 +62,18 @@ In this blog, we’ll cover the basics of clustering and show you how to structu
 
 보다 형식적으로 말하면, 클러스터링 또는 군집 분석은 데이터 포인트를 그룹화하기 위한 기술입니다. 클러스터링 알고리즘은 다수의 개체를 입력 받아 각 개체에 대한 할당을 출력합니다. 그러나 분류와 달리 클러스터링은 개체를 사전 설정된 버킷으로 강제로 분류하는 클래스 목록으로 시작하지 않습니다. 오히려 데이터를 통해 주어진 버킷을 발견하려고 시도합니다. 다시 말해, 클러스터링은 데이터에서 구조를 발견하는 데 관한 것이며, 이미 존재하는 구조에서 레이블을 예측하는 것이 아닙니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로 강조해야 할 점은 클러스터링이 레이블을 예측하는 것과는 관련이 없다는 점입니다. 분류, 탐지 및 분할 작업과는 달리 클러스터링 작업에 대한 'ground truth' 레이블이 없습니다. 이러한 알고리즘을 비지도학습이라고 하며, 지도학습과 자기지도학습과 대비됩니다.
 
@@ -57,7 +83,18 @@ In this blog, we’ll cover the basics of clustering and show you how to structu
 
 ## 클러스터링은 어떻게 작동합니까?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주의 깊게 살펴보셨다면 클러스터링과 클러스터링 알고리즘 사이에 섬세한 차이를 발견할 수 있을 겁니다. 이는 클러스터링이 여러 기법을 포괄하는 더 큰 범주이기 때문이에요!
 
@@ -67,7 +104,18 @@ In this blog, we’ll cover the basics of clustering and show you how to structu
 
 2. 밀도 기반 클러스터링: DBSCAN, HDBSCAN 및 OPTICS와 같은 기법은 특징 공간이 얼마나 희소하거나 밀집되어 있는지에 기반하여 클러스터를 선택합니다. 개념적으로, 이 알고리즘은 고밀도 영역을 클러스터로 취급하고, 특징 공간에서 포인트가 충분히 퍼져있을 때 클러스터를 분리합니다. DBSCAN과 같이 간단한 밀도 기반 기법은 데이터가 밀접하게 위치하지 않을 수 있는 고차원 데이터에서 작업하는 데 어려움을 겪을 수 있습니다. 그러나 HDBSCAN과 같은 더 정교한 기법은 이러한 한계를 극복하고 고차원 특징에서 탁월한 구조를 발견할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 계층적 군집화: 이러한 기술은 다음 중 하나를 추구합니다:
 
@@ -78,7 +126,18 @@ In this blog, we’ll cover the basics of clustering and show you how to structu
 
 📚 가장 일반적으로 사용되는 10가지 이상의 군집화 알고리즘에 대한 포괄적인 논의를 원한다면, Scikit-learn의 직관적이고 잘 쓰여진 가이드를 확인해보세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 어떤 기능에 클러스터링 해야 할까요?
 
@@ -90,7 +149,18 @@ In this blog, we’ll cover the basics of clustering and show you how to structu
 - 원시 픽셀 값은 매우 노이즈가 있을 수 있습니다.
 - 픽셀 간의 상관 관계는 매우 비선형 일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 모든 이미지 크기를 재정렬하고 표준화하며, 픽셀 값 정규화를 하고, 노이즈 제거를 하고, 다차원 배열을 "특성 벡터"로 평평하게 만들면, 이러한 처리된 픽셀 배열을 특성으로 다루는 것은 비지도 클러스터링 알고리즘에 많은 양의 스트레스를 줄 수 있습니다. 이는 MNIST와 같은 간단한 데이터 세트에 대해서는 작동할 수 있지만, 실제로는 종종 선택사항이 아닙니다.
 
@@ -98,7 +168,18 @@ In this blog, we’ll cover the basics of clustering and show you how to structu
 
 💡다양한 모델에는 서로 다른 아키텍처가 있으며, 서로 다른 데이터 세트에서 훈련되었으며 서로 다른 작업을 향해 훈련되었습니다. 이러한 모든 요소는 모델이 학습하는 특성의 유형에 영향을 줍니다. 당신의 과제를 해보세요 📚:)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 설정 및 설치
 
@@ -110,8 +191,18 @@ pip install -U scikit-learn fiftyone
 
 FiftyOne Clustering Plugin은 우리의 일상을 더욱 쉽게 만들어줍니다. 이 플러그인은 scikit-learn의 클러스터링 알고리즘과 이미지 사이의 연결 조직 역할을 하며, FiftyOne App 내에서 간단한 UI로 이러한 작업을 모두 래핑합니다. 플러그인을 CLI에서 설치할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 fiftyone 플러그인을 https://github.com/jacobmarks/clustering-plugin 에서 다운로드하세요.
 
@@ -123,9 +214,18 @@ pip install umap-learn git+https://github.com/openai/CLIP.git
 
 이 두 라이브러리가 꼭 필요한 것은 아닙니다. FiftyOne Model Zoo에서 임베딩을 노출하는 임의의 모델로 피처를 생성하고, PCA나 tSNE와 같은 대체 기술로 차원 축소를 수행할 수도 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 필요한 모든 라이브러리를 설치한 후에, Python 프로세스에서 관련 FiftyOne 모듈을 가져와 FiftyOne Dataset Zoo에서 데이터셋을 로드하세요 (또는 원하는 데이터를 사용하세요!). 이 가이드에서는 MS COCO 데이터셋의 검증 분할 (5,000 샘플)을 사용할 것입니다:
 
@@ -153,7 +253,18 @@ session = fo.launch_app(dataset)
 
 <img src="/assets/img/2024-05-27-HowtoClusterImages_2.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 기능 생성하기
 
@@ -173,7 +284,18 @@ res = fob.compute_visualization(
 dataset.set_values("clip_umap", res.current_points);
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 brain_key 인자를 사용하면 이러한 결과에 이름으로 프로그래밍적으로 또는 FiftyOne 앱에서 앞으로 액세스할 수 있습니다. 마지막 줄은 생성된 2D 벡터의 배열을 가져와 데이터셋의 새 필드 "clip_umap"에 저장합니다.
 
@@ -183,7 +305,18 @@ brain_key 인자를 사용하면 이러한 결과에 이름으로 프로그래�
 
 ## 클러스터 계산 및 시각화
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희의 특징 벡터를 사용하면 FiftyOne 클러스터링 플러그인을 사용하여 데이터에 구조를 부여할 수 있습니다. FiftyOne 앱에서 키보드의 역따옴표 키를 누른 후 compute_clusters를 입력하십시오. 드롭다운 목록에서 항목을 클릭하여 클러스터링 모달을 엽니다.
 
@@ -193,7 +326,18 @@ brain_key 인자를 사용하면 이러한 결과에 이름으로 프로그래�
 
 클러스터링 방법으로 "kmeans"를 선택하고 특징 벡터로 "clip_umap"을 선택하십시오. 클러스터 수를 20으로 설정하고 다른 모든 매개변수는 기본값을 사용하십시오. 엔터 키를 눌러 클러스터링 알고리즘을 실행하십시오. 몇 초만 기다리면 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컴퓨팅이 완료되면 샘플에 새로운 필드가 추가된 것을 알 수 있습니다. 이 필드에는 정수의 문자열 표현이 포함되어 있고, 해당 샘플이 할당된 클러스터를 나타냅니다. 이 값들을 직접 필터링하고 샘플 그리드에서 한 클러스터씩 볼 수 있습니다:
 
@@ -203,7 +347,18 @@ brain_key 인자를 사용하면 이러한 결과에 이름으로 프로그래�
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/1*-vJwIeVRsfFs2y4_DPbzqA.gif)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 클러스터링된 데이터를 이런 식으로 시각화하면 클러스터링 루틴을 간단히 점검할 수 있고 데이터의 구조에 대한 직관적인 시각을 제공할 수 있습니다. 이 예시에서는 테디 베어들의 클러스터가 다른 데이터와 꽤나 잘 분리된 것을 볼 수 있습니다. 또한, 이 클러스터링 루틴은 농장 동물과 코끼리, 얼룩말과 같은 더 이국적인 동물들 사이의 경계를 찾아냈습니다.
 
@@ -213,8 +368,18 @@ brain_key 인자를 사용하면 이러한 결과에 이름으로 프로그래�
 
 만약 대신 CLIP 임베딩을 직접 클러스터링 계산에 동일한 하이퍼파라미터로 전달한다면, 이러한 축구 이미지들은 다른 축구 이미지와 함께 피리스비나 야구와 같은 다른 필드 스포츠들과 함께 같은 클러스터에 할당됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*2cjbVS8JBKe8CNyyTzBQRQ.gif)
 
@@ -224,9 +389,18 @@ brain_key 인자를 사용하면 이러한 결과에 이름으로 프로그래�
 
 클러스터 레이블에 따라 색을 입히면 결과가 조금 어수선해 보입니다. 그러나 각 클러스터에 대한 이미지를 개별적으로 살펴보면 데이터셋에서 매우 흥미로운 샘플 집합을 식별한 것을 확인할 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/1*hKcCc7r-OCrFsgfwMT-WYA.gif)
 
@@ -236,8 +410,18 @@ brain_key 인자를 사용하면 이러한 결과에 이름으로 프로그래�
 
 다양한 피처 조합, 클러스터링 기술 및 하이퍼파라미터를 테스트하면서 특정 군집 세트를 생성하는 데 사용한 "구성"을 추적하고 싶을 수 있습니다. 다행히도 FiftyOne Clustering 플러그인은 사용자 지정 실행을 사용하여 이 모든 작업을 처리합니다. 플러그인은 run_key로 실행을 선택하고 모든 실행 매개변수를 앱에서 멋지게 서식이 있는 출력으로 볼 수 있는 get_clustering_run_info 연산자를 노출합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-27-HowtoClusterImages_3.png)
 
@@ -247,7 +431,18 @@ brain_key 인자를 사용하면 이러한 결과에 이름으로 프로그래�
 
 지금까지 우리의 클러스터는 단지 번호만 있었는데, 이는 우리가 사용한 일종의 정리 수단이에요. 그러나 만약 우리가 데이터셋에서 특정 특성에 따라 클러스터를 형성한다면, 그 특성을 식별하고 샘플을 대강 레이블로 사용해야 할 거에요. 단순하게 우리는 각각의 클러스터를 개별적으로 살펴보고 주어진 클러스터 내의 이미지만 선택하고 시각화해서 클러스터를 직접 태그해 볼 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 혹시… 우리가 모두가 함께 할 수 있는 멀티모달 대형 언어 모델을 사용해보는 건 어떨까요? FiftyOne Clustering 플러그인은 GPT-4V의 멀티모달 이해 능력을 활용하여 각 클러스터에 개념적 레이블을 제공합니다.
 
@@ -259,7 +454,18 @@ export OPENAI_API_KEY=sk-...
 
 이 기능은 label_clusters_with_gpt4v 연산자를 통해 제공되며, 각 클러스터에서 이미지 다섯 개를 무작위로 선택하여 GPT-4V에 과제별 프롬프트와 함께 공급하고 결과를 처리합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 클러스터의 개수에 따라 (GPT-4V는 느릴 수 있으며, 이는 클러스터 수의 선형적인 비례로 확장됩니다) 작업 실행을 위임하고 싶을 수 있습니다. 이를 위해 운영자 모달에서 상자를 선택하고 다음 명령어를 사용하여 작업을 시작할 수 있습니다:
 
@@ -271,7 +477,18 @@ fiftyone delegated launch
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 워크스루에서는 scikit-learn과 FiftyOne을 사용하여 인기있는 클러스터링 알고리즘과 심층 신경망을 결합하여 비구조화된 데이터에 구조를 부여하는 방법을 다뤘어요. 그 과정에서 특징 벡터, 알고리즘 및 선택하는 하이퍼파라미터가 클러스터링 계산의 최종 결과에 큰 영향을 미칠 수 있다는 점을 알 수 있었어요. 클러스터가 무엇을 선택하고 데이터의 구조를 얼마나 잘 식별하는지에 대해서도 그의 결과가 영향을 줄 수 있어요.
 
@@ -283,7 +500,18 @@ fiftyone delegated launch
 
 이러한 질문에 답하면 클러스터링의 장점을 누리는 데 도움이 될 거예요. 만약 이 게시물을 즐겼고 이러한 후속 주제를 다루길 원한다면 알려주세요 👋!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 다음에는 무엇을 해야 할까요
 
@@ -295,7 +523,18 @@ fiftyone delegated launch
 
 이 글이 마음에 들었고 FiftyOne의 활기찬 오픈 소스 커뮤니티와 소통하고 싶다면:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 🎉 FiftyOne Slack 커뮤니티에 거의 3,000명의 AI 애호가 및 실무자들과 함께 참여해보세요!
 - 🎉 AI 모임 네트워크의 12,000명 이상에 가입하여 다가오는 이벤트에 대한 소식을 받아보세요!

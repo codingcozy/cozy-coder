@@ -3,17 +3,13 @@ title: "Grammarly를 처음부터 만드는 방법 한글로 상세하게 알아
 description: ""
 coverImage: "/assets/img/2024-06-22-CreatingGrammarlyfromScratch_0.png"
 date: 2024-06-22 21:20
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-CreatingGrammarlyfromScratch_0.png
 tag: Tech
 originalTitle: "Creating Grammarly from Scratch"
 link: "https://medium.com/ai-advances/creating-grammarly-from-scratch-f3a12f140bd1"
 isUpdated: true
 ---
-
-
-
-
 
 LLM (Language Model)의 완전한 구현과 API, 프런트 엔드, 그리고 간편한 모니터링을 통해.
 
@@ -23,7 +19,18 @@ LLM (Language Model)의 완전한 구현과 API, 프런트 엔드, 그리고 간
 
 내 지식상, 다른 언어를 위한 Grammarly의 완전한 복제본을 만들어 다른 사람들이 배울 수 있도록 그 과정을 문서화한 사람은 없는 것 같아요. 적어도 제가 찾은 바로는요. 그래서 제가 직접 시도해 보기로 결정했어요. 쉽지는 않지만 안정적이고 가치 있는 상태로 이끌어낼 수 있을 거라고 생각해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글은 좀 길 거에요. 최대한 장을 나눠서 구성했어요. 필요한 부분을 읽고, 흥미 없는 부분은 건너뛰셔도 돼요. 시작해볼까요?
 
@@ -33,7 +40,18 @@ LLM (Language Model)의 완전한 구현과 API, 프런트 엔드, 그리고 간
 
 Grammarly의 완벽한 복제품을 만드는 것은 불가능하고 목표도 아니에요. 제가 흥미를 느끼는 건 핵심 기능을 재구축해보고 그 작동 방식을 파악하는 거에요. 그래서 여기서의 주요 목표는 다음을 이해하는 것이에요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 철자 교정, 간단한 문법 규칙, 그리고 문장부호에 도움이 되는 간단한 체커를 만들기
 - 더 많은 문제를 더 나은 방식으로 해결하기 위해 큰 모델 구축하기 (철자 교정, 문장부호, 또는 다른 것)
@@ -46,7 +64,18 @@ Grammarly의 완벽한 복제품을 만드는 것은 불가능하고 목표도 �
 
 실시간으로, 실수를 했던 것은 구조, 아키텍처 등에 대한 고려 없이 이 프로젝트를 완성했었다는 것입니다. 이는 큰 실수였습니다! 그래서 그 문제를 가장 먼저 해결하고, 전체 코드베이스를 2~3번 완전히 다시 작성하는 것을 줄이겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 올바른 항목을 모듈로 만들어 추가, 수정 또는 삭제하기 쉽도록 구성하는 것이 아이디어입니다. 그러나 어떤 모듈이 가치를 제공할까요? 이 주제에 대해 조사한 후, 한 보고서가 주요 문제들(덴마크어)은 다음과 같습니다(특정 순서 없음):
 
@@ -64,7 +93,18 @@ Grammarly의 완벽한 복제품을 만드는 것은 불가능하고 목표도 �
 - 중복 단어
 - 명확성?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 쉬운 내용부터 시작해봐요...
 
@@ -76,7 +116,18 @@ Grammarly의 완벽한 복제품을 만드는 것은 불가능하고 목표도 �
 - 과도한 공백
 - 두 번 반복되는 단어
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아직 모듈을 개발하기에 앞서, 외부 구조를 먼저 만들어봅시다. 모듈은 찾은 오류 목록을 반환할 것이므로, 이를 위한 클래스를 만들어보겠습니다. Error와 ErrorList 클래스가 만들어졌으며, 각 오류에 대한 기능과 오류 목록을 함께 추가해야 할 필요가 있습니다(utils/error_handling.py에서 확인 가능). Error 클래스는 다음과 같은 main 메서드로 요약됩니다:
 
@@ -96,12 +147,12 @@ def to_list(self, include_type=False):
 
 ```js
     [
-        ",", "", [18,19], 
+        ",", "", [18,19],
         "'that' 앞에 쉼표가 있어서는 안 됩니다", "del_punc"
     ]
     +
     [
-        "paul walker", "Paul Walker", [8,19], 
+        "paul walker", "Paul Walker", [8,19],
         "'Paul Walker'는 대문자로 시작해야 합니다", "add_cap"
     ]
 
@@ -109,13 +160,24 @@ def to_list(self, include_type=False):
 
     [
         "paul walker,", "Paul Walker",
-        [8,19], 
-        "'that' 앞에 쉼표가 있어서는 안 됩니다. 'Paul Walker'는 대문자로 시작해야 합니다", 
+        [8,19],
+        "'that' 앞에 쉼표가 있어서는 안 됩니다. 'Paul Walker'는 대문자로 시작해야 합니다",
         "add_cap"
     ]
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 색인에 대해 이야기해 봅시다. 일부 모듈은 문자에 대해 작동해야 하고, 일부는 단어에 대해 작동해야 합니다. 또 다른 문제는 일부 모듈이 예측을 하기 전에 다른 모듈에 종속될 수 있다는 것입니다. 그래서 우리는 앞단에서 오류를 쉽게 강조하기 위해 단어 인덱스를 캐릭터 인덱스로 변환하는 방법이 필요합니다. 그리고 이러한 인덱스는 각 모듈이 수정하는 입력 문장과 다를 수 있는 입력 문장을 가리켜야 합니다.
 
@@ -135,7 +197,18 @@ def index():
     return jsonify(output)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 올바른 입력 함수를 사용하면 우리가 원하는 대로 문장을 수정할 수 있습니다. CORS는 프론트엔드가 백엔드에 연결할 수 있도록 하는 데 필요합니다. Flask는 완전한 프로덕션 환경에는 적합하지 않을 수 있지만, 지금은 작동해야 합니다. 만약 이를 배포하고 적절한 트래픽을 받는다면, 이 부분은 개선되어야 할 것입니다.
 
@@ -145,7 +218,18 @@ def index():
 
 다음은 복합어입니다. 문장에서 "I really really like a a cake"와 같이 적용할 수 있습니다. 이겢 수 있는 단순한 오류들 중에는 발견하기 어려운 경우도 있습니다. 또한 같은 단어가 두 번 연속으로 나타나야 하는 경우도 있을 수 있습니다. 이를 찾으려면 대량의 텍스트를 조사해야 합니다. 덴마크어에서는 Gigaword를 사용했지만, 영어에서는 Wikipedia, nltk 및 Spacy를 포함한 다양한 옵션이 있습니다. 대량의 텍스트를 여러 번 조사해야하니 적절한 것을 찾으시길 바랍니다. 신문, 연구 보고서 등과 같이 이상적인 고품질로부터 가져오는 것이 좋습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 이를 살펴보고, 한 단어가 두 번 연속으로 나타나는 모든 이벤트를 저장하고 확인에서 제외하세요. 또한, 이름을 수정하고 싶지 않은 경우가 있으니 명명된 entity 목록을 가져와서 제외하세요. 이 모듈로는 여기까지입니다.
 
@@ -155,7 +239,18 @@ def index():
 
 이제, 앞에서 언급한대로, 명명된 entity가 무엇인지 파악해야 합니다. 또한, 각 단어의 품사를 알아내야 합니다. 다행히도, 이것은 새로운 것이 아니며 이미 여러 NLP 라이브러리에서 구현되어 있으므로 빠르게 가져와서 사용하면 충분할 것입니다. 영어 모델은 Huggingface, nltk 및 Spacy에서 사용 가능하니 선호도에 따라 선택하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 메인 함수의 시작 부분에 NER 및 POS 태거(각각 다를 수 있습니다)를 실행하여 나중에 사용할 수 있도록 해보세요. 대문자 및 복합 단어 모듈에서 NER가 예상대로 작동하는지 확인해보세요.
 
@@ -165,7 +260,18 @@ def index():
 
 우리가 만드는 데이터셋은 선택한 모델에 적합해야 합니다. 처음 해결해야 할 문제는 구두점입니다. 따라서 무엇을 하기 전에 사용할 적절한 모델을 결정해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 1.5 적합한 모델 선택
 
@@ -176,7 +282,18 @@ def index():
 
 Sep-2-sep를 통해 결과가 불충분하고 학습 시간이 지나치게 소요되어 덴마크어 미리 훈련된 BERT로 이동하기로 결정했습니다. 이후 데이터셋은 비교적 간단하게 생성할 수 있었습니다. (2024년 2월 현재, GPT의 성장이 엄청나기 때문에 실제로 seq-2-seq가 적합한 해결책이 될 수 있으므로 꼭 Huggingface를 확인해보세요!)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터셋을 생성하기 전에, 스코프를 결정해 보겠습니다. 여기서 스코프란 입력 문장의 크기를 의미합니다. 좌측에 x개 단어, 우측에 y개 단어를 제공합니다. 중간 단어 뒤쪽에서 문장부호를 예측합니다. 실시간으로 올바른 스코프를 알아내는 방법은 하나뿐인데, 그것은 '테스트'입니다! 하지만 그것은 저렴하지 않습니다. 제가 작은 실험을 통해 무슨 일이 일어나는지 확인해 보았습니다. 스코프가 작을수록 추론이 빠르고 훈련도 빠릅니다만, 정확도는 낮아집니다. 그렇기에 그것은 선이 아주 섬세합니다.
 
@@ -186,7 +303,18 @@ Sep-2-sep를 통해 결과가 불충분하고 학습 시간이 지나치게 소�
 
 ![그림](/assets/img/2024-06-22-CreatingGrammarlyfromScratch_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 표 태그를 Markdown 형식으로 변경해보세요.
 
@@ -198,7 +326,18 @@ Sep-2-sep를 통해 결과가 불충분하고 학습 시간이 지나치게 소�
 
 <img src="/assets/img/2024-06-22-CreatingGrammarlyfromScratch_2.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 distilBERT은 Jarvislabs에서 6개의 A100을 대여하여 약 10시간 동안 합쳐서 약 120달러를 지불하고 학습되었습니다. 학습에 사용된 스크립트는 FineTuneModels/FineTuneBert에서 찾을 수 있습니다. 이것은 확실히 가장 저렴하거나 최선의 방법은 아니었지만 (2024년 2월 기준으로, 더 작은 규모의 학습 크기로 이러한 모델을 세밀하게 조정할 수 있는 더 저렴한 방법이 있어야 하므로 사용 가능한 옵션을 탐색할 시간을 갖는 것이 좋습니다), 작업을 완료하는 데 성공했습니다.
 
@@ -216,9 +355,20 @@ def get_predictions(self, data : string):
     return maxed_predictions
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-1) 입력문에서 데이터셋을 생성합니다, 2) 토큰화합니다, 3) 텐서 데이터셋으로 형식을 맞춥니다 (올바르게 구현하는 것이 어려울 수 있습니다. Utilities/model_utils.py 상단을 살펴보세요), 4) 모델을 실행하고, 5) 예측값을 최대화합니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+1. 입력문에서 데이터셋을 생성합니다, 2) 토큰화합니다, 3) 텐서 데이터셋으로 형식을 맞춥니다 (올바르게 구현하는 것이 어려울 수 있습니다. Utilities/model_utils.py 상단을 살펴보세요), 4) 모델을 실행하고, 5) 예측값을 최대화합니다.
 
 # 1.8 추가 모듈
 
@@ -226,8 +376,18 @@ def get_predictions(self, data : string):
 
 잘못된 동사형: 이 접근 방식은 구두점과 완전히 동일했습니다. 덴마크어에서 현재형 동사의 주요 문제는 현재형 동사가 끝에 무성자음 "r"이 있어서 듣기 어려울 수 있다는 점입니다. 이를 해결하기 위해 동사가 알려지지 않은 상태에서 새 데이터셋이 생성되었습니다. 따라서 이번에는 데이터셋이 다음과 같이 보일 것입니다 (여기에 표시된 것 보다 더 많은 범위로)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Grammarly from scratch](/assets/img/2024-06-22-CreatingGrammarlyfromScratch_3.png)
 
@@ -237,8 +397,18 @@ def get_predictions(self, data : string):
 
 이 경우, 잘못된 예측의 비율은 약 1%로 저한테는 조금 높았어요. 그래서 저는 신뢰 수준이 95% 이상인 경우에만 예측을 사용했어요 (이 모델들에 대한 확신은 아니지만 어느 정도의 추정이라고 할 수 있어요). 이렇게 하니 잘못된 예측의 비율을 약 0.4%로 줄일 수 있었고, 정확도는 2 pp만큼 감소했어요 (와우)! 🎉
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 맞춤법 검사는 각자 큰 프로젝트이며 이곳에서 다루기에는 너무 많습니다. 나중에 이에 관해 다른 게시물을 작성할 계획이 있습니다. 여러 가지 방법을 시도해 봤어요: 간단한 맞춤법 검사기, n-gram, 단어 임베딩 및 GPTs 등을 사용했습니다. 결국 Peter Norvig의 간단한 맞춤법 검사기 공식과 덴마크어 철자 관련 특정 문제를 혼합하여 철자 문제의 위치를 잘 추측할 수 있었습니다. 참고로 이 공식은 놀라울 만큼 훌륭하니 꼭 읽어보시기를 추천드립니다.
 
@@ -248,7 +418,18 @@ def get_predictions(self, data : string):
 
 # 2. 프론트엔드
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 휴, 그것은 힘들었죠. 이제 사용자들이 모듈을 직접 시도하고 데이터를 얻을 수 있는 곳이 필요합니다. 이것은 웹 사이트나 플러그인 중 어딘가에 배포되어야 합니다. 이것은 백엔드와 함께 어딘가에 배포되어야 합니다.
 
@@ -258,7 +439,18 @@ def get_predictions(self, data : string):
 
 ![웹페이지 이미지](/assets/img/2024-06-22-CreatingGrammarlyfromScratch_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-22-CreatingGrammarlyfromScratch_6.png)
 
@@ -268,20 +460,40 @@ def get_predictions(self, data : string):
 
 # 2.2 전부 함께 모으기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서 이를 호스팅할 곳이 필요합니다. 프론트 엔드는 무료로 Github 페이지에 호스팅되어 있습니다. 백엔드에는 몇 가지 옵션이 있습니다. 문제는 Azure, AWS 또는 GCP를 사용하는 경우 함수 앱 / 람다 함수 / 클라우드 함수가 될 수 없다는 것입니다. 모델 및 큰 사전이 작동하려면 이러한 모듈을로드해야 하기 때문입니다. 이는 약 15초 정도 소요되므로 각 요청마다 일어날 수 없습니다.
 
 VM을 임대하는 것이 저의 선택이었습니다. 구글이 가장 낮은 가격을 제공했기 때문에 그 과정이 전부 구글에 달렸습니다(월 200달러). 이에 대한 더 나은 해결책이 있을 것이라고 생각되므로 여기에는 개선할 공간이 분명히 있습니다. Google VM에 간단한 Flask 앱을 설정하는 것은 비교적 쉽지만, 새 코드를 업로드하고 프로덕션 환경에 배포하기 위해 일부 gcp cli 명령어를 찾고 있을 수 있습니다. 그래서 다음 사항을 염두에 두세요:
 
-
         gcloud builds submit --tag _bucket_or_vm_name_
         gcloud run deploy --image _bucket_or_vm_name_ --platform managed
 
+*bucket_or_vm_name*라는 부분은 'gcr.io/grammatiktakbackend/index'와 같이 나타나야 합니다. 프론트 엔드가 요청을 보낼 수 있도록 Python 스크립트에서 `CORS(app)`를 사용하여 Cors를 활성화해야 합니다. 보안상의 이유로 요청의 경우 프론트 엔드만 화이트리스트에 추가하는 것이 좋습니다. GCP를 사용할 때 이는 그들의 플랫폼에서 수행할 수 있습니다.
 
-_bucket_or_vm_name_라는 부분은 'gcr.io/grammatiktakbackend/index'와 같이 나타나야 합니다. 프론트 엔드가 요청을 보낼 수 있도록 Python 스크립트에서 `CORS(app)`를 사용하여 Cors를 활성화해야 합니다. 보안상의 이유로 요청의 경우 프론트 엔드만 화이트리스트에 추가하는 것이 좋습니다. GCP를 사용할 때 이는 그들의 플랫폼에서 수행할 수 있습니다.
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2.3 프로덕션에서의 드리프트와 정확성에 대해 얘기해 볼까요?
 
@@ -291,7 +503,18 @@ _bucket_or_vm_name_라는 부분은 'gcr.io/grammatiktakbackend/index'와 같이
 
 마지막으로, 마지막 수정이 처리될 때 수락되거나 거부된 수정사항에 대한 정보를 전송할 수 있습니다. 이제 이 모든 준비가 끝났으니, 어떤 모듈이 가치를 제공하고 수용 가능한 시간 내에 그것을 수행하는지 측정하기 위해 데이터를 쉽게 추출할 수 있습니다. 이제 분석하고, 그리고 모듈을 개선하거나 삭제하거나 추가하여 서비스를 향상시킵니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3.1 Word 추가 기능
 
@@ -301,7 +524,18 @@ _bucket_or_vm_name_라는 부분은 'gcr.io/grammatiktakbackend/index'와 같이
 
 고품질의 덴마크어 데이터셋이 많지 않기 때문에 제가 직접 텍스트를 리뷰하여 모듈 테스트에 사용하기 위한 데이터를 만들었습니다. 훈련 데이터셋은 /DataProcessing 폴더에서 파일을 실행하여 생성할 수 있습니다. 모듈의 오류 수정에 사용되는 데이터셋 및 사전은 /GrammatiktakBackend/Datasets에서 찾을 수 있습니다. 테스트 데이터셋은 GrammatiktakDatasets 리포지토리에서 찾을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4. 마무리
 

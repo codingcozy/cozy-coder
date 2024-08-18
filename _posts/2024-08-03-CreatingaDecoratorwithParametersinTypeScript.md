@@ -3,17 +3,13 @@ title: "TypeScript로 매개변수가 있는 데코레이터 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-03-CreatingaDecoratorwithParametersinTypeScript_0.png"
 date: 2024-08-03 18:29
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-03-CreatingaDecoratorwithParametersinTypeScript_0.png
 tag: Tech
 originalTitle: "Creating a Decorator with Parameters in TypeScript"
 link: "https://medium.com/@dlyusko/creating-a-decorator-with-parameters-in-typescript-db78873242dd"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-08-03-CreatingaDecoratorwithParametersinTypeScript_0.png" />
 
@@ -23,7 +19,18 @@ TypeScript의 데코레이터는 클래스와 메서드에 추가 기능을 제�
 
 # 데코레이터를 사용하는 이유?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데코레이터는 다양한 시나리오에서 유용할 수 있어요:
 
@@ -35,19 +42,30 @@ TypeScript의 데코레이터는 클래스와 메서드에 추가 기능을 제�
 
 # 데코레이터 정의
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 우리 데코레이터의 모습입니다:
 
 ```js
 // Class method decorator context type
 export type ClassMethodDecoratorContextType = {
-  kind: 'method';
-  name: string | symbol;
-  access: { get(): unknown };
-  static: boolean;
-  private: boolean;
-  addInitializer(initializer: () => void): void;
+  kind: "method",
+  name: string | symbol,
+  access: { get(): unknown },
+  static: boolean,
+  private: boolean,
+  addInitializer(initializer: () => void): void,
 };
 ```
 
@@ -61,21 +79,21 @@ export const replaceArgs = (strValue: string, ...params: Array<string | number>)
 ```
 
 ```js
-import { ClassMethodDecoratorContextType } from '@interfaces/decorators/decorator';
-import { report } from '@services/reporter';
-import { replaceArgs } from '@helpers/string.helper';
+import { ClassMethodDecoratorContextType } from "@interfaces/decorators/decorator";
+import { report } from "@services/reporter";
+import { replaceArgs } from "@helpers/string.helper";
 
 // 데코레이터
 export function step(wording: string, logReturnValue: boolean = false): any {
   return (target: Function, context: ClassMethodDecoratorContextType) => {
-    if (context.kind !== 'method') {
+    if (context.kind !== "method") {
       throw new Error('The "step" decorator can only be applied to method');
     }
     return function (...args: Array<any>) {
       return report.step(replaceArgs(wording, ...args), async () => {
         const res = await target.apply(this, args);
         if (logReturnValue) {
-          await report.attach(res, 'Attachment');
+          await report.attach(res, "Attachment");
         }
         return res;
       });
@@ -84,7 +102,18 @@ export function step(wording: string, logReturnValue: boolean = false): any {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 데코레이터 매개변수
 
@@ -95,7 +124,18 @@ export function step(wording: string, logReturnValue: boolean = false): any {
 
 컨텍스트 객체는 데코레이터가 적용된 메소드에 대한 정보를 제공합니다. 우리의 경우에는 context.kind가 `method`와 동일한지 확인하여 데코레이터가 메소드에만 적용되도록 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Core Logic
 
@@ -107,7 +147,18 @@ export function step(wording: string, logReturnValue: boolean = false): any {
 
 # 데코레이터 사용 예시
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 우리의 데코레이터를 클래스에서 어떻게 사용하는지 살펴보겠습니다:
 
@@ -116,14 +167,14 @@ class UserService {
   @step('Create user with name = "{0}"', true)
   async createUser(name: string) {
     // 사용자 생성을 나타내는 비동기 호출 모의
-    const user = await service.createUser(name)
+    const user = await service.createUser(name);
     return user;
   }
 }
 
 // 메소드를 호출하는 예제
 const userService = new UserService();
-await userService.createUser("Jack")
+await userService.createUser("Jack");
 ```
 
 # 예제 설명
@@ -132,7 +183,18 @@ await userService.createUser("Jack")
 - createUser("Jack")을 호출할 때, 데코레이터는 먼저 실행을 로깅한 후 메소드를 수행하고 리턴 값을 보고서에 첨부합니다.
 - 마지막으로 다음 단계 문구가 생성됩니다: Create user with name = "Jack"
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

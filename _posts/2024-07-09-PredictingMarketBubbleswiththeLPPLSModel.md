@@ -3,17 +3,13 @@ title: "LPPLS 모델을 사용한 시장 버블 예측 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-PredictingMarketBubbleswiththeLPPLSModel_0.png"
 date: 2024-07-09 11:30
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-PredictingMarketBubbleswiththeLPPLSModel_0.png
 tag: Tech
 originalTitle: "Predicting Market Bubbles with the LPPLS Model"
 link: "https://medium.com/@bullishbantersociety/predicting-market-bubbles-with-the-lppls-model-20fd0e5fdec3"
 isUpdated: true
 ---
-
-
-
-
 
 ![Predicting Market Bubbles with the LPPLS Model](/assets/img/2024-07-09-PredictingMarketBubbleswiththeLPPLSModel_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 LPPLS 모델은 주식 시장을 비롯한 금융 시장에서 주요한 순간을 발견하고 예측하기 위해 설계되었습니다, 특히 버블 단계 중에는 더욱 중요한 역할을 합니다. 이 모델은 버블이 커짐에 따라 시장이 특정한 반복되는 패턴과 증가하는 변동성을 보여준다는 아이디어에서 작동합니다. 이러한 패턴을 살펴봄으로써 LPPLS 모델은 버블이 언제 붕괴될지 예측하는 데 도움을 줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 어떻게 작동할까요?
 
@@ -35,7 +42,18 @@ LPPLS 모델은 주식 시장을 비롯한 금융 시장에서 주요한 순간�
 
 이 모델에 시장 데이터를 적합시킴으로써, 분석가들은 정점이 언제 올지 추정하고 하락을 대비할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 왜 이게 중요한가요?
 
@@ -45,7 +63,18 @@ LPPLS 모델은 주식 시장을 비롯한 금융 시장에서 주요한 순간�
 
 최근 LPPLS 모델을 현재 시장 데이터에 적용하여 S&P 500 지수 및 비트코인(BTC)을 특히 분석하여 잠재적 시장 버블과 수정을 예측하였습니다. 제 분석에서, 임박한 버블의 확률은 빨간색으로 표시되고, 잠재적 상승 추세 시작점(버블의 반대)은 초록색으로 표시됩니다. 이 고급 예측 방법을 사용함으로써 매주 수요일마다 BullishBanterSociety 관객과 잠재적인 통찰을 공유할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-07-09-PredictingMarketBubbleswiththeLPPLSModel_1.png](/assets/img/2024-07-09-PredictingMarketBubbleswiththeLPPLSModel_1.png)
 
@@ -55,12 +84,27 @@ For more detailed results and to stay updated on potential market movements, che
 
 While the LPPLS model is useful for predicting market bubbles, it has some limitations:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 데이터 민감도: 모델의 예측은 입력 데이터의 변화에 따라 다를 수 있습니다.
+
 ### 복잡한 시장 영향: 시장을 영향하는 모든 외부 요인을 고려하지 못할 수 있습니다.
+
 ### 패턴 가정: 모든 거품이 가정된 패턴을 따르지 않을 수 있으며, 이는 정확도를 감소시킬 수 있습니다.
+
 ### 오버핏팅 리스크: 모델을 과도하게 과거 데이터에 맞추는 것이 미래 예측에 영향을 줄 수 있습니다.
+
 ### 전문 지식 필요: 적절한 사용과 해석에는 재정 시장에 대한 견고한 이해가 필요합니다. 이 모델을 금융 자문이나 진실의 근거로 사용하지 마세요.
 
 하지만 이러한 제약사항에도 불구하고, LPPLS 모델은 더 광범위한 분석 접근의 일환으로 사용할 때 가치 있는 도구입니다.

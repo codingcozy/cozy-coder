@@ -3,18 +3,13 @@ title: "AI 래퍼 기회의 오해와 이해"
 description: ""
 coverImage: "/assets/img/2024-06-19-ThemisunderstoodAIWrapperOpportunity_0.png"
 date: 2024-06-19 06:51
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-ThemisunderstoodAIWrapperOpportunity_0.png
 tag: Tech
 originalTitle: "The misunderstood AI Wrapper Opportunity"
 link: "https://medium.com/@alvaro_72265/the-misunderstood-ai-wrapper-opportunity-afabb3c74f31"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![AI Wrapper Image](/assets/img/2024-06-19-ThemisunderstoodAIWrapperOpportunity_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 모든 인기 있는 영역에서 일어나는 현상처럼(예: 암호화폐), 빠른 이익을 얻으려는 많은 기업가들이 기회를 즉각적으로 잡아, 장기적인 방어 능력과 비전이 부족한 AI 제품으로 시장을 침략하면서, 오픈AI와 같은 주요 플레이어들에게 하루능 린 보급 초기 보여주자 취약 해졌습니다. 기회 주의적인 창업가들이 빠르게 다음 핫한 분야로 넘어갈 때 "AI Wrappers" 또는 올바른 용어로 말하면, 응용 프로그램 계층에서 작성되는 스타트업들은 AI 공간에서 2급 시민이 되었습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-ThemisunderstoodAIWrapperOpportunity_1.png" />
 
@@ -35,7 +40,18 @@ isUpdated: true
 
 저는 이것에 대한 더 나은 비유는 Aircall이나 Talkdesk와 같은 SaaS 회사들을 Twilio Wrapper로 보려는 것을 거부하는 것입니다. 이 회사들은 핵심 역량인 전화 및 통신을 Twilio에 아웃소싱하여 몇 십억 달러 규모의 비즈니스를 구축했어요. 왜냐하면 이 비즈니스가 2010년대 초에 탄생할 때 VoIP가 이미 고도로 상용화되었기 때문이에요. 수백만 달러를 투자하여 VoIP 인프라를 다시 구축하면 그들의 비즈니스에 가치나 차별화를 더할 수 없기 때문이죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대신, 그들은 WebRTC, IVR, 통화 녹음, 대기열 등과 같은 주요 VoIP 기능을 오프로드하기 위해 Twilio와 같은 새 플랫폼을 활용했고, 워크플로우 및 애플리케이션 레이어에 가치를 창출하는 전략에 집중했습니다. 이로써 Aircall과 Talkdesk는 독특한 장점을 가졌습니다: 인프라 대신 제품 혁신에 민첩하게 대응할 수 있는 능력을 부여받았으며, 이는 최종 사용자에 더 큰 가치를 제공하기 위해 연구 및 개발 투자에 집중할 수 있도록 했습니다:
 
@@ -47,7 +63,18 @@ isUpdated: true
 
 # AI 생태계의 다른 레이어 이해하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-ThemisunderstoodAIWrapperOpportunity_2.png" />
 
@@ -59,7 +86,18 @@ isUpdated: true
 
 저는 1번과 2번 레이어가 대부분 대기업들에 의해 주도될 것으로 예상합니다. 이들은 서로 경쟁하기 위해 이 두 레이어에 대략적으로 수조 달러를 투자할 것이며, 그 결과로 새로운 기초 모델, API 등을 활용하여 응용 레이어에서 (B2B 및 B2C 모두) 특정 범주를 혁신적으로 뒤바꿀 수 있는 스타트업들에게 혁명적인 파도를 일으킬 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 어플리케이션 레이어에서 스타트업에 대한 거대한 기회
 
@@ -69,7 +107,18 @@ ChatGPT의 론칭은 매우 흥미로웠어요. 제품적인 측면에서 보면
 
 AI 채택은 빠르게 증가하고 더욱 가속화될 것입니다. Apple Intelligence의 도입, AI가 Android, Google Workspace, Microsoft Office 및 기타 플랫폼에 깊게 통합되면서 수백만 명의 사람들이 매일 AI 사용자가 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 두 가지를 함께 결합하면 번개처럼 성장하는 시장에서 파란 바다 기회를 얻을 수 있습니다. 응용 프로그램 레이어에서 건설 중인 새로운 스타트업은 레거시 기술을 사용하여 여러 해 동안 건설해온 기업들을 앞지르기 위해 레이어 1과 2의 새로운 혁신을 활용할 수 있습니다. 게다가 기존 업체들은 기존 제품 및 플랫폼 유지, 활성 고객 기반 및 잠재적인 카니발리제이션을 다뤄야 합니다. 이로써 그들은 보다 느리고 순수하며 민첩한 스타트업에 취약해지며, 그들은 그 짐을 짊어져야 할 필요가 없습니다. 선장 입력에 즉각 반응하지 않을 수 있는 화물선과 매우 가볍게 움직일 수 있는 스피드 보트를 생각해보세요.
 
@@ -83,7 +132,18 @@ AI 채택은 빠르게 증가하고 더욱 가속화될 것입니다. Apple Inte
 - 프로덕션에 배포: AI 에이전트는 지속적인 개선을 위해 모니터링 및 감사되어야 하며, 고객들은 통화 녹음, 전사, 실시간 경보 및 대화 분석이 필요합니다.
 - 업그레이드: GPT-3.5와 같은 기초 모델을 GPT-4로 변경하는 것은 에이전트 출력에 큰 영향을 줄 수 있습니다. 이러한 변경 사항을 테스트하고 배포할 수 있는 적절한 플랫폼이 중요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 세로 특화 통합을 추가하여 고객이 글로벌로 전화번호를 몇 초 안에 구매할 수 있도록 하고, SIP 통합을 통해 기존 전화 시스템에 연결할 수 있도록 합니다. 이 스타트업은 OpenAI, Anthropic 및 주요 플레이어들의 새로운 롤아웃으로부터 보호해주는 중요한 장벽을 구축했습니다. 사실, 혁신적인 창출과 론칭이 많은 기대를 부르고 있습니다. OpenAI가 그들의 회사를 강화할 것으로 예상됩니다. 새로운 음성 기능인 GPT-4o의 좋은 예시가 있습니다.
 

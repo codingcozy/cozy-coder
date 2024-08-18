@@ -3,17 +3,13 @@ title: "대부분 모르는 iPhone 15의 USB-C 포트 활용법"
 description: ""
 coverImage: "/assets/img/2024-07-28-YoureProbablyUnderutilizingYouriPhone15sUSB-CPort_0.png"
 date: 2024-07-28 13:49
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-28-YoureProbablyUnderutilizingYouriPhone15sUSB-CPort_0.png
 tag: Tech
 originalTitle: "Youre Probably Underutilizing Your iPhone 15s USB-C Port"
 link: "https://medium.com/macoclock/youre-probably-underutilizing-your-iphone-15-s-usb-c-port-fa094b71ba9d"
 isUpdated: true
 ---
-
-
-
-
 
 ![image](/assets/img/2024-07-28-YoureProbablyUnderutilizingYouriPhone15sUSB-CPort_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 만약 5개월만 더 참았다면, 다이나믹 아일랜드와 USB-C 포트를 갖춘 아이폰 두 대를 각각 $950, $1050에 구입할 수 있었을 거에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 응, 정확히 생각한 대로에요 — iPhone 15 및 iPhone 15 Plus에요.
 
@@ -34,7 +41,18 @@ isUpdated: true
 
 아, 이 iPhone 14 Pros와 교환해서 iPhone 15 non-Pros를 살 돈은 더 이상 낭비하지 않을 거예요. 14 Pros는 충분히 좋아요 — USB-C 포트만 그립네요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 iPhone 15 시리즈가 출시된 지 여섯 달이 되었습니다. 지금에야 내가 왜 내 결정을 후회하고 있는지 궁금할 것입니다. 왜냐하면 내 친구 Dheeraj가 ASU에서 석사과정을 밟는 중인데, 그가 새 iPhone 15 Plus와 함께 인도로 돌아왔기 때문입니다.
 

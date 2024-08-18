@@ -3,18 +3,13 @@ title: "웹 개발자를 위한 꼭 필요한  편리한 VS Code 확장 프로�
 description: ""
 coverImage: "/assets/img/2024-07-28-10Must-HaveVSCodeExtensionsForWebDevelopment_0.png"
 date: 2024-07-28 14:06
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-28-10Must-HaveVSCodeExtensionsForWebDevelopment_0.png
 tag: Tech
 originalTitle: "10 Must-Have VS Code Extensions For Web Development"
 link: "https://medium.com/coding-beauty/vscode-extensions-web-dev-55116dd64b2c"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![VSCode Extensions](/assets/img/2024-07-28-10Must-HaveVSCodeExtensionsForWebDevelopment_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 웹 개발 경험을 크게 향상시키는 강력한 10가지 확장 프로그램을 자세히 살펴보겠습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 1. Prettier
 
@@ -35,7 +40,18 @@ Prettier은 당신의 코드를 의견이 분분하고 사용자 정의 가능�
 
 <img src="/assets/img/2024-07-28-10Must-HaveVSCodeExtensionsForWebDevelopment_1.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비주얼 스튜디오 코드용 Prettier 확장 프로그램은 코드 편집기와 Prettier 간의 원활한 통합을 제공합니다. 이를 통해 키보드 단축키를 사용하여 코드를 쉽게 서식 지정하거나 파일 저장 후 바로 서식을 지정할 수 있습니다.
 

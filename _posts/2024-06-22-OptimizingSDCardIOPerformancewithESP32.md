@@ -3,17 +3,13 @@ title: "ESP32로 SD 카드 IO 성능 최적화하는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-22-OptimizingSDCardIOPerformancewithESP32_0.png"
 date: 2024-06-22 18:42
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-OptimizingSDCardIOPerformancewithESP32_0.png
 tag: Tech
 originalTitle: "Optimizing SD Card I O Performance with ESP32"
 link: "https://medium.com/@qiweimao/optimizing-sd-card-i-o-performance-with-esp32-b32419c60647"
 isUpdated: true
 ---
-
-
-
-
 
 # 저에 대해
 
@@ -23,7 +19,18 @@ LinkedIn | Github | Reddit | X
 
 # 많은 파일로 인해 SD 카드 I/O 속도가 느려지는 이유
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SD 카드의 단일 폴더에 대량의 파일을 축적하면 파일 시스템(FAT32 또는 exFAT과 같은 SD 카드용)이 파일을 찾거나 열기 위해 디렉터리 항목을 검색해야 합니다. 파일이 증가함에 따라 이 디렉터리 검색 프로세스는 느려질 수 있습니다. 그 이유는 다음과 같습니다:
 
@@ -35,7 +42,18 @@ SD 카드의 단일 폴더에 대량의 파일을 축적하면 파일 시스템(
 
 다음은 단일 디렉터리의 모든 파일을 기록하는 것과 하위 폴더 전략을 사용하는 것 사이의 속도 차이를 비교하는 두 테스트 프로그램에 대한 개요입니다. 이 프로그램은 각 쓰기 동작에 걸리는 시간을 기록하고 이 정보를 로그 파일에 저장할 것입니다. ESP32는 500ms마다 파일 쓰기 동작을 시작할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Optimizing SD Card I/O Performance with ESP32](/assets/img/2024-06-22-OptimizingSDCardIOPerformancewithESP32_0.png)
 
@@ -45,7 +63,18 @@ ESP32에서 SD 카드 I/O의 성능 분석 결과, 파일을 하나의 폴더에
 
 이 현상은 파일을 작은 시간 기반 클러스터로 조직화하는 것이 단일 폴더 저장 과정에서 관찰된 성능 하락을 완화하는 것을 나타냅니다. 이러한 조직 전략은 액세스 속도를 최적화할 뿐만 아니라 저장 부하를 관리 가능한 하위 집합에 분산하여 전체 시스템 효율성을 향상시킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 프로그램 1: 단일 디렉토리 로깅
 
@@ -137,7 +166,7 @@ if (!SD.exists(path)) {
 }
 void logData() {
  unsigned long start = millis();
- 
+
  // 현재 밀리초 단위 시간을 기준으로 서브폴더 생성
  unsigned long totalMinutes = start / 60000;
  unsigned long totalHours = totalMinutes / 60;
@@ -148,7 +177,7 @@ String day = String(totalDays);
 String subFolder = dataFolder + "/" + day + "/" + hour + "/" + minute;
  createDirectories(subFolder);
 String fileName = subFolder + "/data_" + String(start) + ".txt";
- 
+
  start = millis();
  File dataFile = SD.open(fileName, FILE_WRITE);
  if (dataFile) {
@@ -156,7 +185,7 @@ String fileName = subFolder + "/data_" + String(start) + ".txt";
  dataFile.close();
  }
  unsigned long end = millis();
- 
+
  File logFile = SD.open(logFileName, FILE_APPEND);
  if (logFile) {
  logFile.println(String(start) + "," + String(end - start));
@@ -172,7 +201,18 @@ void loop() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

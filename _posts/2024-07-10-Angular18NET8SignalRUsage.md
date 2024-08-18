@@ -3,17 +3,13 @@ title: "Angular 18과 NET 8 SignalR 사용법 실시간 웹 앱 개발 가이드
 description: ""
 coverImage: "/assets/img/2024-07-10-Angular18NET8SignalRUsage_0.png"
 date: 2024-07-10 00:38
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-10-Angular18NET8SignalRUsage_0.png
 tag: Tech
 originalTitle: "Angular 18   .NET 8 SignalR Usage"
 link: "https://medium.com/@ferhatblnk/angular-18-net-8-signalr-usage-6d0186906946"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-07-10-Angular18NET8SignalRUsage_0.png" />
 
@@ -30,7 +26,18 @@ public class ChatHub : Hub
     }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 클래스는 SignalR 허브의 기본 기능을 포함하고 있어요. SendMessage 메서드는 받은 메시지를 모든 연결된 클라이언트에게 보냅니다. 다음으로, 이 허브를 사용하는 엔드포인트를 생성하기 위해 Program.cs 파일을 업데이트합니다:
 
@@ -79,13 +86,24 @@ app.Run();
 npm install @microsoft/signalr
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로, 우리는 SignalR 연결을 관리하는 서비스를 생성합니다. chat.service.ts 파일에서 연결을 설정하고 메시지를 보내는 함수들을 정의합니다:
 
 ```js
-import { Injectable } from '@angular/core';
-import * as signalR from '@microsoft/signalr';
+import { Injectable } from "@angular/core";
+import * as signalR from "@microsoft/signalr";
 ```
 
 ```js
@@ -113,11 +131,22 @@ export class ChatService {
 
 이 서비스는 SignalR 연결을 설정하고 들어오는 메시지를 수신합니다. 또한 sendMessage 메서드를 제공하여 메시지를 전송합니다. 이제 Angular 컴포넌트에서 이 서비스를 사용하여 사용자 인터페이스에서 메시지를 보내고 수신 메시지를 표시할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import { Component } from '@angular/core';
-import { ChatService } from './chat.service';
+import { Component } from "@angular/core";
+import { ChatService } from "./chat.service";
 ```
 
 ```js
@@ -151,7 +180,18 @@ export class ChatComponent {
 
 # 장점
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 실시간 통신: SignalR은 클라이언트와 서버 간의 저레이턴시가 낮은 실시간 통신을 제공합니다. 채팅 애플리케이션, 게임 및 실시간 데이터 피드와 같이 실시간 업데이트가 필요한 애플리케이션에 중요합니다.
 - 쉬운 통합: .NET 및 Angular과 쉽게 통합될 수 있습니다. SignalR은 .NET 플랫폼에서 네이티브 솔루션을 제공하면서 Angular용 강력한 SignalR 클라이언트 라이브러리도 제공합니다.
@@ -168,6 +208,17 @@ export class ChatComponent {
 
 # 요약
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SignalR은 실시간 통신이 필요한 애플리케이션에 강력하고 유연한 솔루션을 제공합니다. 그러나 요청 수와 서버 부하 증가 등 단점을 고려하면 적절한 구성 및 확장 전략을 도입해야 합니다. 이렇게 하면 SignalR의 장점을 최대한 활용하면서 단점의 영향을 최소화할 수 있습니다.

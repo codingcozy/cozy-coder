@@ -3,17 +3,13 @@ title: "선형 회귀 이해하기 기초부터 실전 응용까지"
 description: ""
 coverImage: "/assets/img/2024-06-20-UnderstandingLinearRegressionFromBasicstoPracticalApplications_0.png"
 date: 2024-06-20 15:15
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-UnderstandingLinearRegressionFromBasicstoPracticalApplications_0.png
 tag: Tech
 originalTitle: "Understanding Linear Regression: From Basics to Practical Applications"
 link: "https://medium.com/@raufpokemon00/understanding-linear-regression-from-basics-to-practical-applications-5d141386ea02"
 isUpdated: true
 ---
-
-
-
-
 
 안녕하세요 여러분! 오랜만에 이야기를 나누게 되어 기쁩니다. 머신 러닝의 기초에 대한 여정을 떠나기로 했고, 오늘은 선형 회귀에 대해 자세히 살펴볼 예정입니다. 선형 회귀는 결과를 예측할 뿐만 아니라 변수 간의 관계를 직관적으로 이해하는 강력한 도구입니다.
 
@@ -23,11 +19,23 @@ isUpdated: true
 
 선형 회귀는 예측 모델링의 근간이며, 금융, 마케팅에서부터 의료 및 사회과학까지 여러 분야에서 폭넓게 활용됩니다. 그 이유를 살펴보겠습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 선형 회귀의 중요성
 
 선형 회귀는 우리에게 다음을 가능하게 합니다:
+
 - 추세 예측: 데이터 포인트에 직선을 맞춤으로써, 과거 데이터를 기반으로 미래 결과를 예측할 수 있습니다.
 - 관계 이해: 변수 간의 관계를 정량화하는 데 도움이 되며, 한 변수의 변화가 다른 변수에 어떻게 영향을 미치는지 파악할 수 있습니다.
 - 정보에 기반한 결정: 비즈니스는 판매를 예측하기 위해, 경제학자는 추세를 분석하기 위해, 과학자는 실험 데이터를 모델링하기 위해 선형 회귀를 사용합니다.
@@ -35,10 +43,22 @@ isUpdated: true
 ## 언제 선형 회귀를 사용해야 하는가
 
 선형 회귀를 적용할 수 있는 경우:
+
 - 입력 (독립) 변수와 출력 (종속) 변수 간에 명확한 관계가 있는 경우.
 - 데이터에 대한 통찰을 제공하는 간단하고 해석 가능한 모델이 필요한 경우.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 예시: 주택 가격 예측
 
@@ -49,10 +69,22 @@ isUpdated: true
 ```
 
 여기서:
+
 - \( b_0 \)은 절편(기본 가격)입니다.
 - \( b_1 \) 및 \( b_2 \)는 각 변수가 가격에 어떻게 영향을 미치는지를 정량화하는 계수입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 선형 회귀 시각화
 
@@ -62,7 +94,18 @@ isUpdated: true
 
 이 예시에서 각 점은 주택의 평방 피트와 침실 수를 나타냅니다. 선은 데이터를 가장 잘 맞추어 주택 가격을 예측하는 데 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 선형 회귀의 작동 방식
 
@@ -72,7 +115,18 @@ isUpdated: true
 
 ## 선형 회귀를 위한 라이브러리 사용
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실제로는 Python의 `scikit-learn`과 같은 라이브러리를 사용하여 선형 회귀를 쉽게 구현할 수 있습니다. 간단한 예제를 살펴보겠습니다:
 
@@ -97,7 +151,18 @@ print(f"절편: {model.intercept_}")
 - 의료: 생활 양식이 건강 결과에 미치는 영향 분석.
 - 교육: 학습 시간을 기반으로 한 학생 성적 예측.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

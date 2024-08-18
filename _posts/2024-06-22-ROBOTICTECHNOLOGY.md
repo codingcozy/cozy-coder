@@ -3,17 +3,13 @@ title: "로봇 공학 기술 2024년에 주목해야 할 10가지 혁신"
 description: ""
 coverImage: "/assets/img/2024-06-22-ROBOTICTECHNOLOGY_0.png"
 date: 2024-06-22 19:40
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-ROBOTICTECHNOLOGY_0.png
 tag: Tech
 originalTitle: "ROBOTIC TECHNOLOGY ?"
 link: "https://medium.com/@mirzazafeer54/robotic-technology-917b7ea7b952"
 isUpdated: true
 ---
-
-
-
-
 
 ![로봇 기술](/assets/img/2024-06-22-ROBOTICTECHNOLOGY_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 - 기계 설계:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로봇공학은 로봇이 움직이고 환경과 상호작용할 수 있도록 물리적인 구조, 관절 및 메커니즘을 만드는 것을 포함합니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ![로봇공학](/assets/img/2024-06-22-로봇공학_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 제어 시스템:
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 인공 지능은 현대 로봇에서 매우 중요한 역할을 합니다. 경험으로부터 학습하고 패턴을 인식하며 결정을 내리고 심지어 인간 지능과 닮은 행동을 보일 수 있게 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5. 인간-로봇 상호 작용:
 

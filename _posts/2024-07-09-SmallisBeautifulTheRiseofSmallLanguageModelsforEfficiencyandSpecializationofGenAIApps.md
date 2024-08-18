@@ -3,17 +3,13 @@ title: "작고 아름답다 효율성과 특화된 GenAI 앱을 위한 소형 �
 description: ""
 coverImage: "/assets/img/2024-07-09-SmallisBeautifulTheRiseofSmallLanguageModelsforEfficiencyandSpecializationofGenAIApps_0.png"
 date: 2024-07-09 23:27
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-SmallisBeautifulTheRiseofSmallLanguageModelsforEfficiencyandSpecializationofGenAIApps_0.png
 tag: Tech
 originalTitle: "Small is Beautiful: The Rise of Small Language Models for Efficiency and Specialization of GenAI Apps"
 link: "https://medium.com/ai-in-plain-english/small-is-beautiful-the-rise-of-small-language-models-for-efficiency-and-specialization-of-genai-67fa1794f58a"
 isUpdated: true
 ---
-
-
-
-
 
 인공지능 소프트웨어가 이 기사의 텍스트를 문법, 흐름, 가독성 면에서 개선하기 위해 사용되었습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 작은 언어 모델은 이러한 비용, 지연 시간, 효과 삼각관계에 대한 타당한 해법을 제공합니다. SLMs를 LLMs와 통합함으로써, 조직은 두 모델의 상호 보완적인 강점을 활용하여 이 세 가지 중요한 요소 사이의 조화로운 균형을 달성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 원가 효율성: SLM은 조밀한 아키텍처와 적은 매개변수 수를 가지고 있어서, 대형 모델과 비교해 훨씬 적은 계산 성능과 에너지 소비를 필요로 합니다. 이로 인해 상당한 비용 절감 효과를 가져와, 자원이 제한된 기관들도 최신 언어 기술을 활용할 수 있는 가능성을 제공합니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 SLM과 LLM의 상호 작용적 통합을 통해, 기관들은 비용, 지연 시간 및 효과성 사이의 균형을 맞출 수 있습니다. 이를 통해 기관들은 자원 제약을 최소화하면서 최대의 영향을 위해 발전적 AI 애플리케이션을 최적화할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 개념 변화는 미래의 문을 열어줍니다. 고급 언어 기술이 리소스가 풍부한 기관들뿐만 아니라 소규모 기업, 연구자, 기업가들에게도 접근 가능하며 혁신을 촉진하고 창조적 AI 응용 프로그램의 민주화를 추진합니다.
 
@@ -43,7 +61,18 @@ SLM과 LLM의 상호 작용적 통합을 통해, 기관들은 비용, 지연 시
 
 대형 언어 모델은 넓은 언어 패턴과 일반 지식을 잘 포착하는 반면, 거대한 개방 도메인 데이터를 이용해 훈련된 일반적인 모델의 본질로 인해 한정적일 수도 있습니다. 도메인 특정 작업이나 전문 지식이 필요한 지식집약적 응용 프로그램과 마주하면, 이러한 대형 언어 모델은 종종 최고 수준에서의 성과를 낼 수 없는 어려움을 겪습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작은 언어 모델이 핵심적이고 보완적인 역할을 하는 곳입니다. 특정 도메인에 맞춘 전문 데이터셋에 중점을 둔 훈련을 통해 SLMs는 LLMs에 부족한 심층적이고 미묘한 지식을 습득할 수 있습니다. LLMs와 통합되면 이 간결한 모델들이 필요한 도메인 전문 지식을 제공하여 대규모 모델들이 법률, 의료 또는 기술 분야와 같은 특수분야에서 높은 실적을 낼 수 있습니다.
 
@@ -55,7 +84,18 @@ BLADE 프레임워크는 세 가지 주요 단계로 구성됩니다.
 - 지식 지시 튜닝(KIT): 사전 훈련 이후, SLM은 지식 지시 데이터를 사용하여 세밀 조정됩니다. 이 단계는 모델이 주어진 지시에 따라 도메인별 지식을 생성하는 능력을 향상시키는 것을 목표로 하며, 모델이 대상 도메인 내의 프롬프트 및 쿼리에 어떻게 대답해야 하는지 효과적으로 가르치는 것입니다.
 - 베이지안 프롬프트 최적화(BPO): 마지막 단계에서, 일반 LLM과 작은 도메인 특화 모델이 함께 최적화됩니다. 이 과정은 두 모델 간의 더 나은 일치를 도와 SLM이 효과적으로 협업하고 LLM을 이끄는 것을 가능하게 하며, 결과적으로 도메인별 작업에서 그들의 결합된 성능을 향상시킵니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **칼날 프레임워크의 힘은 LLM과 SLM의 강점을 매끄럽게 통합하는 데 있습니다. LLM은 일반적인 언어 이해와 추론 능력의 튼튼한 기초를 제공하는 반면, SLM은 과제에 맞게 맞춘 특화된 지식 기반으로 타깃 도메인 전문성을 제공합니다.**
 
@@ -65,7 +105,18 @@ BLADE 프레임워크는 세 가지 주요 단계로 구성됩니다.
 
 **대규모 언어 모델과 소규모 언어 모델의 통합은 도메인 전문화와 성능 향상 측면에서 상당한 혜택을 제공하는 반면, 또 다른 중요한 이점은 효율성 분야에 있습니다. 거대한 언어 모델의 직접적인 세밀 조정은 종종 계산 비용이 많이 들며 리소스 집중적인 노력이 필요하며, 전문 하드웨어에 접근하고 방대한 컴퓨팅 파워가 필요합니다.**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프록시 튜닝은 가볍고 효율적인 디코딩 시간 알고리즘으로, 새로운 작업이나 도메인에 대해 LLM(Language Model)을 비용이 많이 드는 파인튜닝이나 전체 모델 재교육 없이 효율적으로 적응시키는 매력적인 솔루션을 제공합니다. 이 방법은 블랙박스 LLM 위에서 작동하여 내부 가중치에 액세스하지 않고 광범위한 계산 리소스도 필요로 하지 않으면서 직접 튜닝의 효과를 달성합니다.
 
@@ -77,7 +128,18 @@ BLADE 프레임워크는 세 가지 주요 단계로 구성됩니다.
 
 프록시 튜닝의 아름다움은 가벼운 성격과 블랙박스 LLM 위에서 작동할 수 있는 능력에 있습니다. 이는 기본 모델의 가중치에 접근할 수 없거나 독점적인 경우에도 적용 가능합니다. 작은 튜닝된 모델의 전문 지식을 활용하여 프록시 튜닝은 직접 파인튜닝과 비슷한 성능 향상을 달성할 수 있으며, 훨씬 적은 계산 리소스만 필요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지식, 추론, 그리고 안전 기준에 대한 실험에서는 프록시 튜닝의 효과가 입증되었습니다. 다양한 크기의 LLAMA 모델에 적용할 때, 이 방법은 종종 큰 모델 규모에서 튜닝 갭의 88% 이상을 달성하는 것으로 나타났습니다.
 
@@ -87,7 +149,18 @@ BLADE 프레임워크는 세 가지 주요 단계로 구성됩니다.
 
 대규모 언어 모델은 다양한 자연어 작업에서 놀라운 성능을 발휘했지만, 추론 - 정보를 논리적으로 처리하고 추론을 하며 결론에 도달하는 능력 - 는 여전히 중요한 과제로 남아 있습니다. 방대한 양의 데이터를 기반으로 한 훈련과 놀라운 규모에도 불구하고, 대규모 언어 모델은 복잡하거나 특화된 도메인에서 특히 인간 수준의 추론 능력에 미치기 어려운 경우가 많습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마이크로소프트 연구소의 오르카 2 프로젝트는 작은 언어 모델의 능력과 특화된 교육 기술을 활용하여 이러한 도전에 독창적으로 대응하는 혁신적인 방법을 대표합니다. 오르카 2의 주요 혁신은 신중한 추론이라는 과정에 있으며, 이는 작은 모델에 고급 추론 행동과 전략을 가르치는 것을 목표로 합니다.
 
@@ -100,7 +173,18 @@ BLADE 프레임워크는 세 가지 주요 단계로 구성됩니다.
 - 노출과 스스로 선택: 작은 언어 모델은 이 다양한 추론 전략에 노출되어 학습하며, 각 작업과 자신의 능력을 기반으로 언제 어떤 전략을 효과적으로 적용해야 하는지 학습합니다. 이 과정은 모델이 가장 적합한 전략을 신중하게 선택하도록 학습하는 신중한 추론 과정으로 알려져 있습니다.
 - 평가와 개선: 다양한 추론 벤치마크에서 철저한 평가를 통해, 연구진은 교육 과정을 개선하고, 전략과 데이터 생성 기술을 조정하여 모델의 성능을 최적화합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Orca 2 프로젝트의 결과는 감히 놀라울 정도로 탁월합니다. 신중한 추론의 힘과 맞춤형 교육 방법을 활용하여, 이러한 소형 언어 모델은 다양한 추론 벤치마크에서 대형 기준선보다 뛰어난 성과를 거두었으며 논리적 추론, 언어 이해 및 문제 해결과 같은 영역에서 소형 모델의 성능 기준을 새롭게 세우고 있습니다.
 
@@ -110,7 +194,18 @@ Orca 2의 성공은 소형 언어 모델의 잠재력뿐만 아니라, 이러한
 
 검색 보완 생성(RAG) 시스템은 대형 언어 모델의 능력을 향상시키는 강력한 방법으로 부상했습니다. 이러한 시스템은 외부 지식 원천(데이터베이스 또는 말뭉치와 같은)과 LLMs의 강점을 결합하여 관련 정보를 검색하고 생성 과정에 통합합니다. 이 방법은 질문 응답 및 맞춤형 콘텐츠 생성과 같은 지식 집약적 작업에서 유망한 결과를 보여주고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 그들의 성공에도 불구하고, RAG 시스템은 종종 검색 시스템과 LLM(언어모델) 간의 "선호 차이"라는 근본적인 도전에 직면합니다. 이 차이는 이 두 구성 요소가 작동하는 방식과 그들이 우선시하는 것들 사이의 본질적인 차이에서 나타납니다.
 
@@ -120,7 +215,18 @@ Orca 2의 성공은 소형 언어 모델의 잠재력뿐만 아니라, 이러한
 
 이 도전에 대처하기 위해, 연구자들은 검색 시스템과 LLM 간의 간극을 메꾸기 위한 Bridging the Gap between retrievers and LLMs (BGM) 프레임워크를 소개했습니다. BGM은 검색 시스템과 LLM 사이에 중계자 역할을 하는 강화 학습으로 훈련된 시퀀스-투-시퀀스 브릿지 모델을 도입합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 The bridge model's key role is to convert the retrieved passages into a format that aligns better with the LLM's preferences. This transformation can involve a range of strategies, including:
 
@@ -133,7 +239,18 @@ Through the process of reinforcement learning training, the bridge model becomes
 
 Numerous experiments have verified the efficacy of the BGM framework in bridging the gap in preferences between retrieval systems and LLMs. By customizing the retrieved material to better match the LLM's requirements and preferences, the BGM framework has resulted in notable performance enhancements across various standards, illustrating the strength of pairing retrieval systems with the generative capabilities of large language models.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 효율성의 이점
 
@@ -143,13 +260,24 @@ Numerous experiments have verified the efficacy of the BGM framework in bridging
 
 이 오프로딩 프로세스는 다양한 형태로 진행될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-**도메인 특화: LLM의 일반 지식에만 의존하는 것이 아닌, 특정 도메인 작업은 관련 데이터에 대해 특화된 훈련을 받은 전문적인 SLM으로 처리할 수 있습니다. 예를 들어, 작은 의료 언어 모델은 건강 관련 쿼리에 대해 특정 전문지식을 제공할 수 있으며, 법적 SLM은 도메인 특화된 법적 질문을 처리할 수 있습니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-**작업 적응: 특정 작업을 위해 전체 LLM을 세밀하게 조정하는 대신, 작은 모델을 적응시키고 최적화할 수 있습니다. 이 접근 방식은 튜닝 된 SLM이보다 큰 LLM의 예측을 안내함으로써 비용이 비싼 모델 재교육 없이 성능 향상을 이룰 수 있는 프록시 튜닝과 같은 기법의 힘을 활용합니다.
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
-**모듈식 특화: 여러 전문영역이 필요한 복합적인 응용 프로그램의 경우, 특정 작업의 특정 측면에 중점을 둔 각각의 전문화 된 SLM 세트를 활용할 수 있습니다. 이 모듈식 접근 방식은 계산 자원의 효율적 분배를 허용하여 LLM이 일반화된 능력이 정말 필요한 작업에만 참여하도록 보장합니다. 
+\*\*도메인 특화: LLM의 일반 지식에만 의존하는 것이 아닌, 특정 도메인 작업은 관련 데이터에 대해 특화된 훈련을 받은 전문적인 SLM으로 처리할 수 있습니다. 예를 들어, 작은 의료 언어 모델은 건강 관련 쿼리에 대해 특정 전문지식을 제공할 수 있으며, 법적 SLM은 도메인 특화된 법적 질문을 처리할 수 있습니다.
+
+\*\*작업 적응: 특정 작업을 위해 전체 LLM을 세밀하게 조정하는 대신, 작은 모델을 적응시키고 최적화할 수 있습니다. 이 접근 방식은 튜닝 된 SLM이보다 큰 LLM의 예측을 안내함으로써 비용이 비싼 모델 재교육 없이 성능 향상을 이룰 수 있는 프록시 튜닝과 같은 기법의 힘을 활용합니다.
+
+\*\*모듈식 특화: 여러 전문영역이 필요한 복합적인 응용 프로그램의 경우, 특정 작업의 특정 측면에 중점을 둔 각각의 전문화 된 SLM 세트를 활용할 수 있습니다. 이 모듈식 접근 방식은 계산 자원의 효율적 분배를 허용하여 LLM이 일반화된 능력이 정말 필요한 작업에만 참여하도록 보장합니다.
 
 이러한 전문화된 작업을 더 작고 효율적인 모델로 전담함으로써 LLM에 대한 계산 요구 사항이 크게 줄어들어추론 시간이 빨라지고 자원 요구 사항이 줄어듭니다. 이 효율성 장점은 실시간 또는 저지연 성능이 중요한 경우, 대화형 AI 시스템, 모바일 애플리케이션 또는 엣지 컴퓨팅 환경과 같은 시나리오에서 특히 관련성이 높아집니다.
 
@@ -157,7 +285,18 @@ Numerous experiments have verified the efficacy of the BGM framework in bridging
 
 SLM과 LLM의 상호 보완적인 장점을 활용하여 개발자들이 성능과 효율성 사이의 균형을 맞출 수 있으며, 고성능 언어 모델을 정확도나 기능성을 희생하지 않고 자원이 제한된 환경에 배포할 수 있습니다. 이 페러다임의 변화는 최신 언어 기술이 방대한 계산 자원을 갖춘 조직뿐만 아니라 자원이 제한된 환경에서 작업하는 소규모 기업, 연구자 및 개발자들에게도 접근 가능해지는 미래의 문을 엽니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 언어 모델 통합의 미래
 
@@ -167,7 +306,18 @@ SLM과 LLM의 상호 보완적인 장점을 활용하여 개발자들이 성능�
 
 요약하자면, 소규모 언어 모델의 등장은 자연어 처리 발전에서 중요한 발전입니다. 대규모 언어 모델의 일반화된 능력을 특화된 지식과 효율적인 적응력으로 보완함으로써, SLM은 특정 도메인 및 응용 프로그램에 보다 강력하고 효율적이며 맞춤화된 새로운 언어 기술 시대를 열어주고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # In Plain English 🚀
 

@@ -3,18 +3,13 @@ title: "프레디를 살려내기 웨어러블 프레디 파즈베어 헤드 3D 
 description: ""
 coverImage: "/assets/img/2024-06-19-BringingFreddytoLife3dPrintingaWearableFreddyFazbearHead_0.png"
 date: 2024-06-19 17:24
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-BringingFreddytoLife3dPrintingaWearableFreddyFazbearHead_0.png
 tag: Tech
 originalTitle: "Bringing Freddy to Life: 3d Printing a Wearable Freddy Fazbear Head"
 link: "https://medium.com/@zeph456/bringing-freddy-to-life-3d-printing-a-wearable-freddy-fazbear-head-4b036137128e"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![Freddy Fazbear Head](/assets/img/2024-06-19-BringingFreddytoLife3dPrintingaWearableFreddyFazbearHead_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 Glamrock Freddy의 머리는 방대한 작업이 될 것이다. 머리만 20개 정도의 조각으로 구성되어 있을 뿐만 아니라, 제 3D 프린터는 작은 인쇄 베드를 사용하고 있으며, 20개의 대부분의 조각은 더 작은 조각으로 나눠져야 했다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 조각들은 조립되어 접착되어야 했습니다. 때로는 짜증이 나는 프로젝트가 되었지만, 이를 하면서 많은 것을 배우게 되었고, 사람들이 이 과정을 흥미롭게 여길 수 있을 것 같아요.
 
@@ -35,7 +40,18 @@ Glamrock Freddy의 머리는 방대한 작업이 될 것이다. 머리만 20개 
 
 게임 초반의 이유는 알려져 있지 않지만, 피자가게는 왜 폐쇄되었고, 어린이들을 기쁘게 했던 애니메이트로닉스는 버려지고 파손된 상태로 남았습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 애니매트로닉스는 밤에 살아나서 피자 가게 안을 배회하며 보안 근무자의 방에 들어가려고 합니다. 왜 그런지는 모르지만, 그들은 플레이어인 여러분이 거기에 있기를 정말 싫어합니다. 그들은 보안 방에 침입하려는 욕망에서 끝없이 힘을 뺍니다. 게임은 제한된 전기 자원을 관리하고 보안 카메라를 통해 애니매트로닉스의 위치를 모니터링하며 소리를 듣는 것을 중심으로 합니다.
 
@@ -45,7 +61,18 @@ Glamrock Freddy의 머리는 방대한 작업이 될 것이다. 머리만 20개 
 
 첫 번째 게임은 상당히 간단합니다. 애니매트로닉스는 실제로 움직이지 않고, 주로 여러 카메라 화면을 왔다갔다 하면서 자리를 바꿉니다. 오싹한 분위기와 유령 같은 소리와 속삭이는 소리가 결합되어 진정한 공포 팬이라면 꼭 경험해야 할 무서운 게임이 만들어졌습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 게임은 다수의 시퀄, 프리퀄, 그리고 팬메이드 게임뿐만 아니라 책과 최근에는 영화도 있는 현상으로 발전했습니다. 이 게임은 직접적으로 전달되지 않는 일련의 이야기를 조합하려고 애쓰는 많은 팬들이 있는 대규모의 팬층을 보유하고 있습니다. 이 이야기의 많은 부분이 해석의 여지가 있습니다.
 
@@ -55,7 +82,18 @@ Glamrock Freddy의 머리는 방대한 작업이 될 것이다. 머리만 20개 
 
 저는 이 프린트를 디자인했다고 말씀드리고 싶지만, 실제로는 그렇지 않습니다. 이 3D 프린트 파일은 매우 재능 있는 코스플레이어이자 예술가인 Littlegem이 만들었으며, 이 파일을 사용하여 자신만의 글램락 프레디 머리를 만들 수 있게 아주 관대하게 허용합니다. 다만 만들어서 판매는 하지 마세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3D 디자인은 내가 시작한 지 얼마 안돼서, 언젠가는 직접 만들 수 있을 거에요. 하지만 지금은 나를 위해 3D 디자인을 만들어주는 다른 아티스트들에게 의지해야 해요.
 
@@ -65,7 +103,18 @@ Glamrock Freddy의 머리는 방대한 작업이 될 것이다. 머리만 20개 
 
 이 디자인을 만드는 데 Flashforge Creator Pro를 사용했어요. 이 프린터는 대부분 초보자에게 적합하지만, 더 큰 빌드 플레이트를 가진 새로운 모델을 구매하여 파일을 잘 맞게 조각내지 않아도 되도록 하고 싶어요. 3D 프린터를 찾고 있다면, 자동 레벨링 빌드 플레이트가 있는 것을 추천해요. 이렇게 하면 많은 답답함을 피하고 프로젝트에 집중할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나는 3D 프린팅 매체로 PLA를 사용했어요. 이건 매우 넉넉하고 유해한 증기가 없어서, 다른 종류들이 가지고 있는 그런 걱정은 없어요. 비유해요도, 무해하고 어떤 것을 엎어놓는 것에 대해 걱정할 필요가 없어요.
 
@@ -75,7 +124,18 @@ Glamrock Freddy의 머리는 방대한 작업이 될 것이다. 머리만 20개 
 
 나는 나의 프린터를 살펴보고 왜 실패한 출력물이 계속되는지 해결하려고 시간을 많이 보냈어요. 그리고 내가 가장 큰 문제로 겪었던 것은 빌드 플레이트를 프린트 노즐에 적절하게 맞추지 않은 것이었어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제 Creator Pro에서 문제가 발생해서 원인을 알 수 없을 때 여러 모순 내지에 빠졌었어요. 답답한 마음에 더 큰 프린트 베드를 가진 중고 Ender3을 구입했는데, 그것이 내가 한 최악의 결정이었습니다. 저렴한 중고 Ender3를 발견하자마자 구입했어요.
 
@@ -85,7 +145,18 @@ Glamrock Freddy의 머리는 방대한 작업이 될 것이다. 머리만 20개 
 
 베드를 정확하게 수평 조절하지 않았고 노즐이 프린트 베드에 너무 근접해 있어서 필라멘트가 프린트 노즐에 차단되었던 것이었어요. Creator Pro를 분해해서 노즐을 교환하고 녹아든 필라멘트를 청소하는 일에 능숙해졌어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요 추천 사항은 자동 레벨링 프린트 베드입니다.
 
@@ -95,7 +166,18 @@ Glamrock Freddy의 머리는 방대한 작업이 될 것이다. 머리만 20개 
 
 적절한 베드 레벨링으로 이 문제를 해결하고 나서, 나는 높은 성공률로 조각들을 출력할 수 있었습니다. 또한 출력 속도를 약간 느리게 조정했는데, 그것도 도움이 되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일부 출력물 중에서 마지막으로 좀 답답한 부분이 있었어요. 머리 부분의 몇 조각이 다른 조각들보다 훨씬 더 두꺼운 서포트를 가지고 있었고, 이를 제거할 때 일반적인 기술로는 출력물을 손상시키지 않고 떼어낼 수가 없었어요.
 
@@ -103,7 +185,18 @@ Glamrock Freddy의 머리는 방대한 작업이 될 것이다. 머리만 20개 
 
 그 과정에서 발생한 열 문제는 PLA를 녹일 정도로 뜨거웠고, 실수로 출력물 벽을 통과해 구멍을 남겨버리지 않도록 하는 게 어려웠어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 작은 지원 구조로 출력할 수도 있었지만, 각 부분마다 약 14시간이 걸렸기 때문에 더 많은 출력 실패를 걱정했기 때문에 그 시간을 낭비하고 싶지 않았어요.
 
@@ -113,7 +206,18 @@ Glamrock Freddy의 머리는 방대한 작업이 될 것이다. 머리만 20개 
 
 머리를 조립하기 시작할 때, 먼저 턱부터 시작했어요. 나머지 머리 부위로 넘어가기 전에 턱을 완성해 크기를 맞추고 적절히 맞는지 확인했어요. 너무 작으면 제 분할 프로그램(제조사 프로그램인 Flashprint를 사용합니다)에서 더 크게 만들고, 나머지 모든 부분의 크기를 동일한 비율로 증가시킬 수 있었어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 피스를 접합하는 데 2부 실란트를 사용했어요. 이는 피스가 제대로 결합되기 위해 몇 분 동안 피스를 함께 잡고 있어야 했다는 뜻이에요.
 
@@ -123,7 +227,18 @@ Glamrock Freddy의 머리는 방대한 작업이 될 것이다. 머리만 20개 
 
 시계방향으로 조립했다면 더 쉬웠을 것 같아요. 두 반쪽이 완벽하게 일치하지 않아서 눈에 띌 정도로 선이 보이지 않도록 맞추기 위해 많이 압력을 주어야 했어요. 너무 세게 눌러야 해서 무언가를 부술 것 같은 걱정이 들었어요. 다행히도 피스는 부서지지 않았고 실란트로 잘 고정되었어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대부분의 조각들은 제 작은 프린터에 너무 크기가 커서, 반으로 잘라서 프린트한 뒤에 붙였어요. 작동은 했지만, 더 많은 조각을 붙여야 했어요. 또한, 프린트 실패 가능성도 높아졌고, 조각들이 정확히 일치하지 않을 수도 있었어요.
 
@@ -133,7 +248,18 @@ Glamrock Freddy의 머리는 방대한 작업이 될 것이다. 머리만 20개 
 
 머리를 다 갈고 난 후에, 이제 그림을 그릴 시간이에요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 프레디의 머리 색칠하기
 
@@ -143,7 +269,18 @@ Glamrock Freddy의 머리는 방대한 작업이 될 것이다. 머리만 20개 
 
 가장 큰 부분부터 시작해서 작은 부분으로 넘어가기 전에 칠할 부분을 정했어요. 큰 부분이라서 오버스프레이가 일어나지 않을 것이라 생각했지만, 제 생각은 틀렸어요. 오버스프레이가 여기저기로 날아가서 몇 군데 다시 해야했죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작품의 일부를 가리는 것이 반드시 필요합니다! 오버스프레이로부터 보호해야 하는 넓은 영역에는 오래된 신문을 사용했어요. 팁 - 마스킹 테이프를 사용할 때는 저점착 테이프를 사용하세요. 그렇지 않으면 페인트가 바로 벗겨질 거에요.
 
@@ -153,7 +290,18 @@ Glamrock Freddy의 머리는 방대한 작업이 될 것이다. 머리만 20개 
 
 ## 프레디의 머리 적합성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 머리 부분을 맞추는 것이 생각했던 것보다 어렵지 않았습니다. 모기장으로 1인치 폭의 줄을 만들어 머리에 측정하는 용도로 사용했습니다. 핫 접착제를 선택해서 사용했습니다.
 
@@ -163,7 +311,18 @@ Glamrock Freddy의 머리는 방대한 작업이 될 것이다. 머리만 20개 
 
 이 프로젝트에 얼마나 많은 시간을 썼는지 시도조차 하고 싶지 않습니다. 인쇄 과정에서 많은 어려움을 겪었지만, 배운 점에서 긍정적인 면을 바라보고 싶습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 Creator Pro를 분해하고 노즐에서 막힘을 깨끗이 제거하는 것에 매우 익숙해졌어요. 인쇄 프로그램의 설정을 쉽게 조작할 수 있게 되었어요. 내 손가락을 3번이나 접착제로 붙인 적이 있지만요. 캔의 뚜껑 안에 스프레이 페인트를 뿌려 작은 붓으로 세부 사항을 처리할 수 있다는 것을 알게 되었어요.
 
@@ -173,7 +332,18 @@ Glamrock Freddy의 머리는 방대한 작업이 될 것이다. 머리만 20개 
 
 이번 글에서 제가 'Glamrock Freddy Head'를 만든 경험을 좋아해주셨으면 좋겠어요. 이 프로젝트를 즐기며 만들었고, 앞으로 제가 하는 프로젝트에 대해 더 쓰게 될 것 같아요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 이 기사가 마음에 드셨다면 아래에 박수나 댓글을 남겨주시고, 이 빌드에 대해 궁금한 점이 있으면 언제든지 질문해주세요!
 

@@ -3,7 +3,7 @@ title: "데이터 수집 - 파트 1 아키텍처 패턴"
 description: ""
 coverImage: "/assets/img/2024-06-20-DataIngestionPart1ArchitecturalPatterns_0.png"
 date: 2024-06-20 15:30
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-DataIngestionPart1ArchitecturalPatterns_0.png
 tag: Tech
 originalTitle: "Data Ingestion — Part 1: Architectural Patterns"
@@ -11,15 +11,22 @@ link: "https://medium.com/the-modern-scientist/the-art-of-data-ingestion-powerin
 isUpdated: true
 ---
 
-
-
-
-
 두 편의 기사를 통해 데이터 수집에 대해 철저히 탐구해 보겠습니다. 데이터 수집은 운영 및 분석 세계를 연결하는 기본적인 프로세스입니다. 다양한 출처에서 데이터를 수집하여 원래의 운영 환경인 '운영 평면'에서 분석 평면 또는 '분석 평면'으로 운송하는 것이 중요합니다. 이 전환이 분석 권한의 완전한 잠재력을 발휘하는 데 필수적입니다.
 
 이 권한의 본질은 다양한 데이터 소스를 기반으로 데이터 기반 통찰력을 생성하고 인공 지능 모델을 구현하는 능력입니다. 조직의 분석 능력은 종종 효과적으로 분석할 수 있는 데이터 소스의 수와 직접적으로 관련이 있습니다. 따라서 올바른 데이터 수집 전략을 선택하는 것이 중요합니다. 이러한 전략은 CRM, ERP, 금융 시스템과 같은 표준 운영 응용 프로그램부터 IoT 센서, API, 스크래핑된 문서, 이미지, 비디오와 같은 다양한 형식까지의 관련 데이터 소스를 처리할 수 있는 견고함이 있어야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보다 넓은 시야를 가지고 보면, 데이터 수집은 하나의 요소에 불과하지만, 조직 내에서 더 큰 데이터 플랫폼 퍼즐의 중요한 구성 요소인 것이 분명해집니다. 일반적으로 이 데이터 플랫폼은 디지털 변혁 이니셔티브의 중심 역할을 하며, 조직이 비즈니스 목표를 달성하는 데 도움을 줍니다. 데이터 플랫폼은 다양한 아키텍처 패턴과 다양한 도구로 구성되어 있으며, 각각이 그 기능성과 효율성에 중요한 역할을 합니다.
 
@@ -29,8 +36,18 @@ isUpdated: true
 
 저희가 살펴볼 첫 번째 아키텍처 접근 방식은 통합된 데이터 저장소 패턴입니다. 이곳에서 단일 저장 시스템이 운영 응용 프로그램 요구 사항과 분석 처리를 모두 처리합니다. 일반적으로 이 시스템은 관계형 데이터베이스 관리 시스템(RDBMS)입니다. 이러한 설정에서는 같은 데이터베이스가 일상적인 운영 및 데이터 분석에 모두 사용되어, 서로 다른 저장 솔루션 간의 데이터 전송이 필요 없어집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-20-DataIngestionPart1ArchitecturalPatterns_2.png)
 
@@ -41,8 +58,18 @@ isUpdated: true
 
 이 모델은 데이터 관리의 간소화와 원시 데이터의 가용성을 제공하지만, 상당한 제한 사항이 있습니다:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 데이터 통합 도전 과제 — 이 모델은 복수의 물리적 데이터베이스로부터 데이터를 통합하는 데 어려움을 겪는데, 단일 저장 시스템에 의존하기 때문입니다. 이를 극복하기 위해 연결된 서버나 크로스 데이터베이스 쿼리와 같은 기술을 활용할 수 있지만, 추가 복잡성을 도입하기 쉽고 일반적으로 선호되지 않습니다.
 - 시스템 간 간섭 가능성 — 동시에 운영 및 분석 프로세스가 동작 중인 동일한 데이터베이스는 상호 간섭을 일으켜 부하를 증가시키고 운영 응용프로그램과 분석 처리의 성능을 저하시킬 수 있습니다.
@@ -55,11 +82,20 @@ isUpdated: true
 
 초기 패턴을 기반으로, 데이터 가상화 접근 방식은 특수화된 소프트웨어를 활용하여 다수의 기존 데이터 소스 위에 가상 데이터 레이어를 구축합니다. 이 중간 계층을 통해 원본 데이터 소스에 부분적으로 처리되는 쿼리를 실행하여 결과를 통합하여 분석을 위한 일관된 데이터 집합을 생성합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Table](/assets/img/2024-06-20-DataIngestionPart1ArchitecturalPatterns_3.png)
-
 
 이 방식의 주요 이점은 다음과 같습니다:
 
@@ -68,7 +104,18 @@ isUpdated: true
 
 그러나 이 방식은 몇 가지 우려 사항도 도입합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 소스 시스템 제한 사항 - 소스 데이터베이스가 특정 쿼리 유형에 최적화되지 않은 경우에는 성능 병목 현상이 발생할 수 있습니다. 특히 쿼리 실행에 소스 응답에 의존하는 경우 가상 레이어로 확장될 수 있습니다.
 - 네트워크 오버헤드 - 다양한 네트워크 존에 분산된 데이터 소스와 인터페이스하는 가상화 레이어는 지연을 겪을 수 있어 전반적인 성능에 영향을 줄 수 있습니다.
@@ -80,7 +127,18 @@ isUpdated: true
 
 ETL은 Extract, Transform, Load의 약어로 데이터 처리에서 잘 알려진 패러다임을 나타냅니다. 먼저 데이터를 원본에서 수집하여 (추출), 이후 ETL 서버에서 정제하고 (변환) 마지막으로 정제된 결과를 분석 중심 데이터베이스에 넣는 과정을 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-DataIngestionPart1ArchitecturalPatterns_4.png" />
 
@@ -91,7 +149,18 @@ ETL의 주요 이점은 다음과 같습니다:
 - 중앙 집중식 논리 — ETL 프로세스는 전체 변환 논리를 단일하고 관리 가능한 환경에서 통합할 수 있어 데이터 수집 뿐만 아니라 데이터를 분석 요구에 맞게 가공하는 데 도움이 됩니다.
 - 사용자 친화적 디자인 — ETL 도구의 비주얼적 성격은 데이터 변환 프로세스를 민주화하여 다양한 기술 수준의 사용자가 데이터 파이프라인 작성에 참여할 수 있도록 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 ETL에는 단점이 있습니다. 이러한 단점으로 대체 모델이 등장했습니다:
 
@@ -105,7 +174,18 @@ ETL 패턴의 이러한 일반적인 제한사항은 특정 ETL 공급업체에 
 
 # 패턴 4: ELT
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ELT은 ETL의 기본 단계를 공유하면서 이러한 프로세스를 재구성하고 재정의합니다. ELT에서는 다음과 같은 과정이 수행됩니다:
 
@@ -116,7 +196,18 @@ ELT은 ETL의 기본 단계를 공유하면서 이러한 프로세스를 재구�
 
 이 재구성된 프로세스는 여러 ETL 제약 사항을 해결합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 더 많은 유연성 - 추출/로딩과 변환 도구를 분리함으로써 다양한 데이터 유형 및 변환 표준에 알맞은 도구를 선택할 수 있는 능력이 높아집니다.
 - 성능 일치 - 변환은 데이터 플랫폼 내에서 이루어지며, 완전한 컴퓨팅 능력을 활용하여 대규모 데이터 세트를 분산 컴퓨팅 엔진으로 처리하기에 특히 효과적입니다.
@@ -129,7 +220,18 @@ ELT은 ETL의 기본 단계를 공유하면서 이러한 프로세스를 재구�
 
 ELT 패턴은 그 유연성 때문에 개인적으로 좋아하지만, 다양한 도구 환경을 관리하고 복잡한 조율 전략을 수립할 의지가 필요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 새로운 패턴 등장
 
@@ -139,7 +241,18 @@ ELT 패턴은 그 유연성 때문에 개인적으로 좋아하지만, 다양한
 
 이전에 언급된 전통적인 패턴들은 주로 "Pull" 유형으로, 여기서는 분석 평면이 운영 평면에서 데이터를 적극적으로 검색합니다. 그에 반해, "Push" 방법론은 흐름을 뒤집습니다: 운영 평면이 변경이 발생하는 즉시 데이터를 분석 평면으로 '밀어넣는' 방식으로 작동합니다. 이러한 변경은 생성(Create), 검색(Read), 업데이트(Update), 삭제(Delete) (CRUD) 작업과 같습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Data Ingestion](/assets/img/2024-06-20-DataIngestionPart1ArchitecturalPatterns_6.png)
 
@@ -150,7 +263,18 @@ ELT 패턴은 그 유연성 때문에 개인적으로 좋아하지만, 다양한
 - 전용 애플리케이션 개발팀이 필요함 - 사전 패키지 소프트웨어, 소프트웨어 서비스(SaaS) 제공물 또는 IoT 장치와 같은 외부 하드웨어 때문에 이러한 팀이 존재하지 않거나 쉽게 사용할 수 없는 경우 문제가 될 수 있습니다. 이러한 상황에서는 분석 환경으로의 푸시를 용이하게 하는 전문화된 '데이터 통합 팀'을 설립하는 것이 필요할 수 있지만, 이는 신속하게 병목현상으로 변할 수 있습니다.
 - 푸시 실패 처리 - 풀 방식 아키텍처는 일반적으로 푸시 아키텍처보다 파이프라인 중단에 대한 강한 내성을 나타냅니다. 풀 실패의 경우 분석 플랫폼이 프로세스를 다시 시작할 수 있습니다. 그러나 푸시가 실패하는 경우 분석 플랫폼은 누락된 푸시 메시지에 대해 알지 못할 수 있습니다. 이러한 단점을 극복하기 위해 푸시 기반 파이프라인은 주로 고가용성 스트리밍 아키텍처에 통합되어 있으며 동시 운영 및 강력한 가용성을 위해 설계되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 푸시 패턴은 고도의 소프트웨어 개발 성숙도를 갖춘 조직이나 상용 솔루션을 구매할 때 데이터 푸시 기능을 협상할 수 있는 조직에 가장 적합합니다. 이것이 불가능한 상황에서는 푸시를 다른 데이터 수집 패턴과 결합하여 데이터 통합이 원할하고 효율적으로 이루어지도록 하는 것이 바람직할 수 있습니다.
 
@@ -160,7 +284,18 @@ ELT 패턴은 그 유연성 때문에 개인적으로 좋아하지만, 다양한
 
 ![이미지](/assets/img/2024-06-20-DataIngestionPart1ArchitecturalPatterns_7.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스트림 처리와 분석을 결합할 때 두 가지 접근법이 엿보입니다:
 
@@ -171,7 +306,18 @@ ELT 패턴은 그 유연성 때문에 개인적으로 좋아하지만, 다양한
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 수집 방법의 전략적 통합은 데이터 분석 분야의 발전하는 풍경에서 중추적인 위치를 차지하고 있습니다. 이 글은 통합 데이터 저장소, 데이터 가상화, ETL 및 ELT라는 네 가지 주요 데이터 수집 패턴을 강조했습니다. 각각은 각기 독특한 장점과 제약이 있습니다. 이러한 패턴을 분석하면서, 통합 데이터 저장소의 간결함과 제한된 확장 가능성, 데이터 가상화의 거의 실시간 기능과 성능에 대한 잠정적인 비용, ETL의 중앙 집중 제어와 잠재적인 병목 현상 및 강제성, 그리고 ELT의 유연성과 확장 가능성이 균형을 이루면서 조정 문제에 직면하는 것을 볼 수 있습니다.
 
@@ -181,6 +327,17 @@ ELT 패턴은 그 유연성 때문에 개인적으로 좋아하지만, 다양한
 
 질문이 있으신가요? 피드백이 필요하신가요? LinkedIn에서 저와 연결하거나 직접 Jan@Sievax.be로 연락해 주세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사는 데이터 우수성을 향한 당신을 안내하는 컨설팅 기업 Sievax에서 자랑스럽게 제공합니다. 더 알고 싶으신가요? 저희 웹사이트를 방문해보세요! 데이터 전략 마스터 클래스를 제공하여 데이터 전략의 세계를 깊게 이해할 수 있습니다.

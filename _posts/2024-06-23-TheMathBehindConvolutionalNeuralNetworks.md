@@ -3,18 +3,13 @@ title: "컨볼루션 신경망CNN의 수학적 원리 분석"
 description: ""
 coverImage: "/assets/img/2024-06-23-TheMathBehindConvolutionalNeuralNetworks_0.png"
 date: 2024-06-23 18:50
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-TheMathBehindConvolutionalNeuralNetworks_0.png
 tag: Tech
 originalTitle: "The Math Behind Convolutional Neural Networks"
 link: "https://medium.com/towards-data-science/the-math-behind-convolutional-neural-networks-6aed775df076"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![이미지](/assets/img/2024-06-23-TheMathBehindConvolutionalNeuralNetworks_0.png)
 
@@ -31,10 +26,21 @@ isUpdated: true
   - 2.7: 풀링층
   - 2.8: 완전 연결층
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 3: CNN 구축을 위한 단계별 안내
+
   - 3.1: 환경 설정
   - 3.2: 데이터 준비
   - 3.3: CNN 모델 설계
@@ -42,6 +48,7 @@ isUpdated: true
   - 3.5: CNN 훈련
 
 - 4: 모델 성능 향상
+
   - 4.1: 데이터 증강
   - 4.2: 드롭아웃
   - 4.3: 배치 정규화
@@ -51,7 +58,18 @@ isUpdated: true
 
 - 추가 자료
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 1: 소개
 
@@ -61,7 +79,18 @@ CNN의 멋진 점은 이미지 데이터를 단순히 한 덩어리로 뭉치는
 
 CNN의 중요한 부분 중 하나는 합성곱 레이어라는 것입니다. 이 레이어는 이미지 위를 이동하면서 선, 질감, 형태와 같은 다양한 시각적 특징을 발견할 수 있습니다. 이는 사람이 그러한 특징들을 수동으로 찾아야 했던 예전 방식을 능가합니다. 이는 작업 처리를 느리게 하고 처리 과정에서 병목현상을 야기시켰던 것과 대조됩니다. 네트워크가 스스로 이러한 특징을 찾아내도록 함으로써 CNN은 더 정확해지고, 더 단순해지며, 그리고 더 큰 범위의 이미지 관련 작업에 수월하게 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2: CNN 아키텍처 뒤의 수학
 
@@ -71,7 +100,18 @@ CNN의 중요한 부분 중 하나는 합성곱 레이어라는 것입니다. �
 
 CNN은 여러 유형의 레이어로 구성되어 있으며, 각 레이어는 이미지 인식 과정에서 특정 기능을 제공합니다. 주요 레이어에는 합성곱 레이어, 활성화 함수, 풀링 레이어 및 완전 연결 레이어가 포함됩니다. 이 레이어들이 함께 작동하여 CNN이 특징을 감지하고 복잡성을 줄이며 예측을 수행할 수 있게 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2.1: 합성곱층
 
@@ -81,7 +121,18 @@ CNN은 여러 유형의 레이어로 구성되어 있으며, 각 레이어는 �
 
 ![image](/assets/img/2024-06-23-TheMathBehindConvolutionalNeuralNetworks_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 합성 곱 연산의 본질은 입력 이미지 위를 필터(또는 커널)가 슬라이딩하면서 각 위치에서 필터 값과 원래 픽셀 값의 내적을 계산하는 것입니다. 필터는 일반적으로 3x3 또는 5x5 크기의 작은 가중치 행렬로, 이미지에서 특정 피쳐를 감지하기 위해 훈련됩니다.
 
@@ -91,7 +142,18 @@ CNN은 여러 유형의 레이어로 구성되어 있으며, 각 레이어는 �
 
 여기서:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - S(i,j)은 출력 피처 맵입니다.
 - I는 입력 이미지입니다.
@@ -106,7 +168,18 @@ CNN은 여러 유형의 레이어로 구성되어 있으며, 각 레이어는 �
 
 합성곱 연산은 행렬에 커널(필터)을 적용합니다. 여기서 커널은 입력 이미지보다 작은 다차원 행렬이며 사전에 정의된 차원 (예: 3x3)을 가지고 있습니다. 이 행렬의 값은 훈련 과정 중에 학습되는 가중치입니다. 커널은 입력 이미지 전체를 걸어다니면서 요소별 곱셈을 수행하고 합을 구합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컨볼류션 연산에서는 출력 특성 맵을 얻게 됩니다. 이는 커널이 입력 이미지의 특정 위치에서 감지한 특징의 존재와 강도를 나타내는 새로운 행렬입니다.
 
@@ -116,7 +189,18 @@ CNN은 여러 유형의 레이어로 구성되어 있으며, 각 레이어는 �
 
 스트라이드는 CNN 아키텍처에서 중요한 개념입니다. 특히 컨볼루션 레이어 내에서 핵심적으로 작용합니다. 이는 커널이 입력 이미지나 특성 맵을 횡단하는 방식에 근본적인 영향을 미칩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Stride는 필터가 입력 이미지나 피쳐 맵을 한 단계씩 이동하는 픽셀 수를 나타냅니다. 수평 및 수직으로 모두 적용됩니다. Stride가 1이면 필터가 한 번에 한 픽셀씩 이동하여 입력을 자세하고 밀도 있게 스캔합니다. 더 큰 Stride는 필터가 픽셀을 건너뛰며 입력을 스캔하므로 더 넓고 밀도가 낮은 범위로 이어집니다.
 
@@ -128,7 +212,18 @@ Stride는 출력 피쳐 맵의 차원을 결정하는 데 직접적인 역할을
 수학적 표현
 출력 피쳐 맵의 크기 (W_out, H_out)는 입력 크기 (W_in, H_in), 필터 크기 (F), Stride (S), 패딩 (P)을 사용하여 다음 공식을 사용하여 계산할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-23-TheMathBehindConvolutionalNeuralNetworks_4.png" />
 
@@ -142,7 +237,18 @@ Stride는 출력 피쳐 맵의 차원을 결정하는 데 직접적인 역할을
 
 더 큰 스트라이드는 필터의 각 응용 영역의 시야를 증가시켜 네트워크가 더 적은 매개변수로 입력의 더 많은 전역적인 특성을 포착할 수 있게 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용하는 스트라이드를 크게 하면 출력 특성 맵의 크기를 줄이기 때문에 계산 부하와 메모리 사용량이 감소하며, 따라서 필요한 합성 곱 연산 수도 줄어듭니다.
 
@@ -153,7 +259,18 @@ Stride는 출력 피쳐 맵의 차원을 결정하는 데 직접적인 역할을
 패딩은 출력 특성 맵의 공간적 차원을 조절하여 네트워크의 아키텍처를 형성하는 데 중요한 역할을 합니다.
 합성 곱 연산을 적용하기 전에 입력 이미지나 특성 맵의 가장자리 주위에 제로(또는 다른 값들이지만 일반적으로 제로입니다)의 레이어를 추가하는 것을 포함합니다. 이 기법은 다양한 이유로 적용될 수 있으며, 가장 중요한 이유는 출력 특성 맵의 크기를 제어하고 합성 곱 필터가 입력의 가장자리 픽셀에 접근할 수 있도록 하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서, 이제 우리의 입력 이미지는 다음과 같이 보일 것입니다:
 
@@ -163,7 +280,18 @@ Stride는 출력 피쳐 맵의 차원을 결정하는 데 직접적인 역할을
 
 패딩이 없으면 각 합성곱 연산이 피처 맵의 크기를 줄입니다. 패딩을 사용하면 입력에 필터를 적용하여 공간적 차원을 줄이지 않고 더 많은 정보를 보존할 수 있습니다. 특히 많은 합성곱 계층이 순차적으로 적용되는 심층 네트워크에서 더 많은 정보를 보존할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 입력을 패딩함으로써 필터가 이미지의 가장자리 픽셀을 적절하게 처리하여 네트워크의 학습 과정에서 경계에 위치한 특징을 충분히 캡처하고 활용할 수 있습니다.
 
@@ -175,14 +303,23 @@ Stride는 출력 피쳐 맵의 차원을 결정하는 데 직접적인 역할을
 **Same Padding (동일 패딩)**
 동일 패딩의 경우 입력 가장자리에 충분한 수의 제로(0)가 추가되어 출력 피처 맵이 입력과 동일한 차원을 갖도록 합니다(스트라이드가 1인 경우). 이는 입력과 출력 크기가 일관성 있게 유지되어야 하는 네트워크를 설계하는 데 특히 유용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가장자리에 패딩을 추가하는 것이 출력 특성 맵 크기에 미치는 영향은 출력 특성 맵의 차원을 계산하는 데 사용되는 공식을 조정함으로써 파악할 수 있습니다:
 
-
 W_out = (W_in - F + 2P) / S + 1
 H_out = (H_in - F + 2P) / S + 1
-
 
 여기서:
 
@@ -192,7 +329,18 @@ H_out = (H_in - F + 2P) / S + 1
 - S는 스트라이드입니다.
 - P는 입력의 각 측면에 추가된 패딩의 양입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 패딩은 층을 통해 입력의 공간 차원을 유지하는 데 도움이 됩니다. 그러나 과도한 패딩은 계산의 비효율성을 야기하고 모델의 복잡성이 증가할 수 있습니다. 비의미 있는 입력(제로)을 계산에 추가함으로써 비효율성을 가져올 수 있습니다.
 
@@ -202,7 +350,18 @@ H_out = (H_in - F + 2P) / S + 1
 
 CNN은 각 합성곱 층에서 여러 필터를 사용하여 입력 이미지나 특징 맵에서 다양한 특징을 캡처합니다. 이 다양성과 깊이는 네트워크가 시각 정보를 포괄적이고 세심하게 처리할 수 있는 능력에 중요한 역할을 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컨볼루션 레이어의 각 필터는 입력에서 엣지, 색상, 질감 또는 더 깊은 레이어에서는 더 복잡한 모양과 같은 다양한 특징이나 패턴을 감지하도록 설계되어 있습니다. 여러 필터를 사용함으로써 CNN은 각 레이어에서 동시에 다양한 특징을 찾아 입력 데이터의 표현을 보다 풍부하게 만들 수 있습니다.
 
@@ -213,7 +372,18 @@ CNN은 각 합성곱 층에서 여러 필터를 사용하여 입력 이미지나
 
 각 필터가 생성한 개별 특징 맵은 깊이 차원을 따라 쌓이며, 3D 볼륨을 형성합니다. 이 볼륨은 필터에 의해 감지된 다양한 특징을 포용하여 입력의 풍부하고 다면적인 표현을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 합성곱 레이어의 깊이는 필터의 수에 의해 결정되며, 네트워크가 넓은 특징 스펙트럼을 포착할 수 있게 합니다. 초기 레이어는 가장자리와 질감과 같은 기본적인 특징을 포착할 수 있지만, 더 깊은 레이어는 이러한 기본적인 특징을 결합하여 복잡한 패턴을 해석할 수 있게 되며, 이는 네트워크의 깊이 덕분입니다.
 
@@ -224,7 +394,18 @@ CNN은 각 합성곱 층에서 여러 필터를 사용하여 입력 이미지나
 
 레이어 간 필터 할당은 전략적입니다. 입력에 가까운 레이어는 더 적고 일반적인 필터를 가질 수 있지만, 더 깊은 레이어는 데이터 내에서 고차원 특징의 복잡성과 변이를 포착하기 위해 더 많은 필터를 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2.5: Weight Sharing
 
@@ -234,7 +415,18 @@ CNN의 맥락에서, 가중치 공유란 동일한 필터(즉, 동일한 가중�
 
 입력 이미지의 서로 다른 부분에서 동일한 가중치 세트를 재사용함으로써, 가중치 공유는 모델의 매개변수 수를 급격하게 줄입니다. 이로 인해 CNN은 특히 큰 입력 크기를 다룰 때 완전히 연결된 네트워크에 비해 매개변수 효율성이 훨씬 뛰어납니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Weight sharing은 네트워크가 입력 이미지의 위치에 관계없이 특징을 감지할 수 있도록 합니다. 필터가 에지나 특정 패턴을 인식하는 방법을 학습하면 이미지의 어느 곳에서든 해당 특징을 감지할 수 있으므로 CNN은 기본적으로 변환 불변성을 갖습니다.
 
@@ -245,7 +437,18 @@ Weight Sharing 작동 방식
 
 공간적 영역 전체에 걸쳐 가중치를 광범위하게 재사용하지만, 각각의 가중치는 적용된 위치의 모든 위치에서의 총 그래디언트를 기반으로 업데이트됩니다. 이를 통해 필터 가중치가 작업에 가장 관련성 있는 특징을 감지하도록 최적화되어, 전체 데이터셋을 기반으로 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2.6: 피처 맵 생성
 
@@ -255,7 +458,18 @@ Weight Sharing 작동 방식
 
 필터의 가중치는 엣지, 질감 또는 더 깊은 레이어에서 더 복잡한 패턴과 같은 피처 유형을 감지합니다. 훈련 중에 이 가중치는 역전파를 통해 조정되어 네트워크가 주어진 작업에 가장 중요한 피처를 학습할 수 있게 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스트라이드의 크기와 패딩의 사용은 특징 맵의 공간적 차원에 직접적인 영향을 미칩니다. 더 큰 스트라이드는 필터 적용 사이의 중첩을 줄이는 보다 넓은 범위의 적용을 유도하여 특징 맵의 크기를 줄입니다. 패딩은 입력의 공간적 차원을 보존하기 위해 사용되며 이미지의 가장자리에 있는 특징이 손실되지 않도록 보장합니다.
 
@@ -265,7 +479,18 @@ Weight Sharing 작동 방식
 
 ReLU와 다른 활성화 함수에 대해 더 알고 싶다면, 이 기사를 확인해보세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 활성화된 피처 맵은 다음 계층 또는 풀링 작업으로 진행됩니다.
 
@@ -275,7 +500,18 @@ ReLU와 다른 활성화 함수에 대해 더 알고 싶다면, 이 기사를 �
 
 풀링 레이어는 피처 맵의 크기를 줄여 망에 필요한 매개변수 및 계산을 줄입니다. 이 간소화는 가장 중요한 특성에 집중하는 데 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특징 맵의 패치에서 특징의 존재를 요약함으로써, 풀링은 네트워크가 입력 이미지의 작은 변동 및 변환에 강건함을 유지하는 데 도움이 됩니다.
 
@@ -286,7 +522,18 @@ CNN을 다룰 때 알아야 할 몇 가지 종류의 풀링 기술이 있습니�
 
 우리는 특징 맵을 F로, 풀링 작업을 P_max로 표시하며, 크기가 n×n인 창으로 위치 (i,j)에서의 최대 풀링 결과는 다음과 같이 표현될 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-23-TheMathBehindConvolutionalNeuralNetworks_6.png)
 
@@ -297,8 +544,18 @@ CNN을 다룰 때 알아야 할 몇 가지 종류의 풀링 기술이 있습니�
 
 특성 맵 F와 n×n 풀링 윈도우에 대해 위치 (i,j)에서의 평균 풀링 연산은 수학적으로 다음과 같이 표현될 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-23-TheMathBehindConvolutionalNeuralNetworks_7.png)
 
@@ -309,9 +566,18 @@ CNN을 다룰 때 알아야 할 몇 가지 종류의 풀링 기술이 있습니�
 
 크기가 M×N인 피처 맵 F에 대해, 글로벌 맥스 풀링 (P_gmax) 및 글로벌 평균 풀링 (P_gavg)은 다음과 같이 정의될 수 있습니다:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Global pooling operations](/assets/img/2024-06-23-TheMathBehindConvolutionalNeuralNetworks_8.png)
 
@@ -322,8 +588,18 @@ CNN을 다룰 때 알아야 할 몇 가지 종류의 풀링 기술이 있습니�
 
 창의 크기와 스트라이드(창이 한 번에 이동하는 거리)는 피쳐 맵이 얼마나 줄어드는지를 결정합니다. 흔히 선택하는 것은 2x2 창과 스트라이드 2인 경우인데, 이는 피쳐 맵의 크기를 절반으로 줄입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2.8: 완전 연결층
 
@@ -333,7 +609,18 @@ CNN을 다룰 때 알아야 할 몇 가지 종류의 풀링 기술이 있습니�
 
 완전 연결층에서는 각 뉴런이 이전 층의 모든 활성화에 연결됩니다. 이 밀집된 연결은 층이 추출된 특징들의 전체 맥락을 갖게 해주어, 특징 맵 전체에 분산된 복잡한 패턴을 학습할 수 있게 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 완전 연결 계층은 합성곱 및 풀링 계층에서 식별된 공간적으로 분산된 특징을 전체 입력의 전역 표현으로 통합합니다. 이 통합은 분류와 같은 전체 입력을 이해해야 하는 작업에 중요합니다.
 
@@ -345,7 +632,18 @@ CNN을 다룰 때 알아야 할 몇 가지 종류의 풀링 기술이 있습니�
 CNN에서의 역할
 많은 CNN 아키텍처에서 최종 완전 연결 계층은 분류 계층으로 기능하며, 각 뉴런은 특정 클래스를 나타냅니다. 네트워크의 예측은 일반적으로 이러한 뉴런들의 활성화에 의해 결정되며, 활성화를 확률로 변환하는 소프트맥스 함수를 통해 수행됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 합성곱 레이어에 의해 추출된 지역화된 추상적인 특징을 완전 연결 레이어가 입력 데이터의 일관된 이해로 합성합니다. 이러한 합성은 네트워크가 입력에 대해 전체적으로 추론하고 판단을 내릴 수 있도록 중요합니다.
 
@@ -355,7 +653,18 @@ CNN에서의 역할
 
 오늘 다룰 모든 코드가 포함된 Jupyter Notebook을 참고하시기 바랍니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3.1: 환경 설정하기
 
@@ -369,11 +678,22 @@ from torch import nn, optim
 from torch.nn import functional as F
 from torch.utils.data import DataLoader
 from torchvision import datasets, transforms
-``` 
+```
 
 ## 3.2: 데이터 준비하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 MNIST 데이터셋은 이미지를 텐서 형식으로 변환한 후 픽셀 값을 정규화하는 변환 파이프라인으로 로드됩니다. 정규화 매개변수(평균=0.1307, 표준편차=0.3081)는 MNIST 데이터셋에 특별히 선택되어 그레이스케일 이미지를 표준화하여 신경망의 성능을 최적화합니다.
 
@@ -394,7 +714,18 @@ plt.title(f'Label: {label}')
 plt.show()
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 이미지가 표시됩니다:
 
@@ -403,18 +734,29 @@ plt.show()
 데이터셋은 모델 훈련 중에 효율적인 처리를 위해 배치 처리, 셔플링, 데이터셋 준비를 다루는 DataLoader 인스턴스에 의해 훈련 및 검증 세트로 나누어집니다.
 
 ```js
-train_size = int(0.8 * len(mnist_dataset))
-val_size = len(mnist_dataset) - train_size
-train_dataset, val_dataset = random_split(mnist_dataset, [train_size, val_size])
+train_size = int(0.8 * len(mnist_dataset));
+val_size = len(mnist_dataset) - train_size;
+train_dataset, (val_dataset = random_split(mnist_dataset, [train_size, val_size]));
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3.3: CNN 모델 설계
 
 데이터 전처리를 한 후에 모델을 만들어 보겠습니다. 따라서 nn.Module에서 상속된 MyCNN 클래스를 초기화합니다. 이 상속은 PyTorch에서 모델을 정의하는 방법입니다. 이 상속을 통해 MyCNN은 PyTorch 모델의 모든 기능을 갖추게 되며, 훈련, 예측 등이 가능해집니다.
 
-__init__ 함수는 MyCNN 클래스의 생성자입니다. 이 함수에서 신경망의 층들이 정의됩니다. super(MyCNN, self).__init__() 라인은 기본 nn.Module 클래스의 생성자를 호출하는데, 이는 PyTorch가 모든 것을 올바르게 초기화하기 위해 필요합니다.
+**init** 함수는 MyCNN 클래스의 생성자입니다. 이 함수에서 신경망의 층들이 정의됩니다. super(MyCNN, self).**init**() 라인은 기본 nn.Module 클래스의 생성자를 호출하는데, 이는 PyTorch가 모든 것을 올바르게 초기화하기 위해 필요합니다.
 
 ```python
 class MyCNN(nn.Module):
@@ -426,7 +768,18 @@ class MyCNN(nn.Module):
         self.fc2 = nn.Linear(128, 10)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 코드에서 볼 수 있듯이, 이 네트워크에는 conv1과 conv2 두 개의 합성곱 레이어가 포함되어 있습니다.
 
@@ -436,7 +789,18 @@ conv2는 conv1에서 32개의 특성 맵을 입력으로 받아 3x3 커널, 1의
 
 합성곱 레이어 이후에는 두 개의 완전 연결(fc) 레이어가 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 fc1은 합성곱 레이어의 출력을 크기 128의 벡터로 변환하는 첫 번째 완전 연결 레이어입니다. 입력 크기는 7*7*64이며, 이는 이 레이어에 도달하기 전에 특성 맵이 단일 벡터로 펼쳐지며, 평탄화되기 전의 특성 맵의 차원이 7x7이고 64개 채널임을 의미합니다. 이 단계는 공간 특성 추출에서 해당 특성을 기반으로 결정(분류)을 내리는 것으로 전환하는 데 중요합니다.
 
@@ -457,7 +821,18 @@ def _initialize_weights(self):
 
 가중치 초기화는 네트워크가 경사도를 사라지게 하거나 폭발시키지 않는 범위의 가중치로 시작하도록 보장하기 위해 적용됩니다. 합성곱 레이어는 정규 분포로 초기화되고, 완전 연결 레이어는 Xavier 균일 분포 초기화를 사용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제 이전 글에서 자비에 초기화 및 다른 유형의 초기화에 대해 더 알아보고 싶다면 확인해보세요:
 
@@ -477,23 +852,44 @@ def forward(self, x):
 
 이 메서드를 단계별로 살펴보며, 각 작업에 중점을 두고 입력 이미지가 출력 예측으로 어떻게 변환되는지 이해해봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째 합성곱 레이어
 
 ```js
-x = F.relu(self.conv1(x))
+x = F.relu(self.conv1(x));
 ```
 
 이 합성곱 레이어 (conv1)를 통과하는 입력 텐서 x은 이미지의 일괄 처리를 나타냅니다. 이 레이어는 입력에 학습된 필터를 적용하여 가장자리와 질감 같은 기본 시각적 특징을 캡처합니다. 합성곱 연산 다음에 바로 인플레이스로 ReLU 활성화 함수가 적용됩니다. ReLU는 출력 텐서의 모든 음의 값을 제로로 설정하여 네트워크가 특징을 구별하는 능력을 향상시킵니다.
 
 첫 번째 풀링 연산
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-x = F.max_pool2d(x, 2, 2)
+x = F.max_pool2d(x, 2, 2);
 ```
 
 첫 번째 합성곱 및 활성화를 거친 후 최대 풀링 작업이 적용됩니다. 이 작업은 풀 크기와 스트라이드로 인해 피쳐 맵의 공간 차원을 절반으로 줄입니다. 이는 피쳐 맵의 2x2 패치 내에서 가장 중요한 피쳐를 요약하는 역할을 합니다. 최대 풀링은 표현을 작은 이동 및 왜곡에 대해 다소 불변하게 만들어줍니다.
@@ -501,38 +897,70 @@ x = F.max_pool2d(x, 2, 2)
 두 번째 합성곱 층
 
 ```js
-x = F.relu(self.conv2(x))
-```    
+x = F.relu(self.conv2(x));
+```
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 번째 합성곱층(conv2)으로 반복 과정이 진행됩니다. 여기서는 이제 축소된 특징 맵에 새로운 필터 세트를 적용합니다. 이 층은 일반적으로 첫 번째 층에서 식별된 기본 패턴을 기반으로 한 더 복잡한 특징을 포착합니다. 다시 한 번 ReLU 활성화가 이어져 비선형성을 유지합니다.
 
 두 번째 풀링 작업
 
 ```js
-x = F.max_pool2d(x, 2, 2)
+x = F.max_pool2d(x, 2, 2);
 ```
 
 다른 최대 풀링 단계를 통해 결과 특징 맵의 공간적 차원이 더욱 줄어들어 특징 표현을 간결화하고 후속 층의 계산 복잡성을 줄입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 펼치기
 
 ```js
-x = x.view(x.size(0), -1)
+x = x.view(x.size(0), -1);
 ```
 
 전체 연결 계층으로 넘어가기 전에 다차원 특징 맵을 배치 내 각 이미지에 대해 단일 벡터로 펼쳐야 합니다. 이 작업은 텐서를 다시 구성하여 각 이미지의 특징 맵이 텐서의 단일 행이 되도록 만들며, 완전 연결 처리에 적합한 형식으로 모든 특징 정보를 보존합니다.
 
 첫 번째 완전 연결 계층
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-x = F.relu(self.fc1(x))
+x = F.relu(self.fc1(x));
 ```
 
 평탄화된 텐서는 첫 번째 완전 연결 계층(fc1)을 통과하여 전체 특징 집합에서 복잡한 패턴을 학습할 수 있습니다. ReLU 함수가 한 번 더 적용되어 비선형성을 도입하고, 네트워크가 더 복잡한 함수를 학습하고 표현할 수 있도록 합니다.
@@ -540,10 +968,21 @@ x = F.relu(self.fc1(x))
 두 번째 완전 연결 계층 (출력 계층)
 
 ```js
-x = self.fc2(x)
+x = self.fc2(x);
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마침내, 텐서는 출력 레이어 역할을 하는 두 번째 완전 연결 레이어(FC2)를 통과합니다. 이 레이어에는 예측할 클래스 수와 동일한 수의 뉴런이 있습니다(MNIST 숫자의 경우 10개). 이 레이어의 출력은 네트워크가 각 클래스에 대해 예측한 값을 나타냅니다.
 
@@ -552,19 +991,35 @@ x = self.fc2(x)
 모델은 CrossEntropyLoss로 분류되어 있고 Adam 옵티마이저를 사용하여 가중치를 조정하며, 학습률 및 가중치 감소와 같은 특정 매개변수도 함께 사용하여 컴파일됩니다.
 
 ```js
-criterion = nn.CrossEntropyLoss()
-optimizer = optim.Adam(model.parameters(), lr=1e-3, weight_decay=1e-5, amsgrad=True, eps=1e-8, betas=(0.9, 0.999))
+criterion = nn.CrossEntropyLoss();
+optimizer = optim.Adam(
+  model.parameters(),
+  (lr = 1e-3),
+  (weight_decay = 1e-5),
+  (amsgrad = True),
+  (eps = 1e-8),
+  (betas = (0.9, 0.999))
+);
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Adam 옵티마이저는 딥러닝 모델을 훈련하는 인기 알고리즘으로, AdaGrad와 RMSProp 알고리즘의 최상의 특성을 결합하여 소음이 있는 문제에서 희소한 그래디언트를 효율적으로 처리합니다. 이는 매개변수별로 학습률을 조정하여 광범위한 작업과 모델에 매우 효과적이고 적합합니다. Adam에 대해 더 자세히 알고 싶다면, 수학적인 내용을 검토하고 처음부터 구축한 내 기사를 살펴보세요:
 
 ## 3.5: CNN 훈련
 
 제공된 로직의 Trainer 클래스는 CNN 모델을 훈련하는 데 필요한 필수 기능을 포함하고 있습니다. 이는 순방향 패스, 역방향 패스(그래디언트 계산 및 가중치 업데이트), 훈련 및 검증 손실 모니터링, 조기 중단 구현, 학습률 조정, 그리고 모델 성능 평가를 포함합니다. 이 클래스를 분석하여 구조와 기능을 깊이 이해해 봅시다.
-
-
 
 ```python
 class Trainer:
@@ -580,9 +1035,20 @@ class Trainer:
         self.gradient_norms = []
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-초기화 메서드인 __init__에서 Trainer 클래스는 CNN 모델, 손실 함수(criterion), 옵티마이저와 함께 CPU 또는 GPU에서 학습할 장치와 조기 종료를 위한 인자로 받습니다. EarlyStopping 인스턴스는 검증 손실을 모니터링하고 모델이 더 이상 개선되지 않을 경우 훈련을 중지하여 과적합을 방지합니다. 학습률 스케줄러(ReduceLROnPlateau)도 초기화되어 검증 손실을 기반으로 학습률을 동적으로 조정하여 훈련 중에 최적의 학습률을 찾도록 도와줍니다. 분석 및 디버깅 목적으로 학습 및 검증 손실 및 그레이디언트 노름을 추적하기 위한 리스트가 초기화됩니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+초기화 메서드인 **init**에서 Trainer 클래스는 CNN 모델, 손실 함수(criterion), 옵티마이저와 함께 CPU 또는 GPU에서 학습할 장치와 조기 종료를 위한 인자로 받습니다. EarlyStopping 인스턴스는 검증 손실을 모니터링하고 모델이 더 이상 개선되지 않을 경우 훈련을 중지하여 과적합을 방지합니다. 학습률 스케줄러(ReduceLROnPlateau)도 초기화되어 검증 손실을 기반으로 학습률을 동적으로 조정하여 훈련 중에 최적의 학습률을 찾도록 도와줍니다. 분석 및 디버깅 목적으로 학습 및 검증 손실 및 그레이디언트 노름을 추적하기 위한 리스트가 초기화됩니다.
 
 ```js
 def train(self, train_loader, val_loader, epochs):
@@ -601,13 +1067,24 @@ def train(self, train_loader, val_loader, epochs):
 train 메서드는 지정된 에폭 수에 대한 학습 프로세스를 조율합니다. 각 에폭마다 모델을 훈련 모드로 설정하고 train_loader를 사용하여 학습 데이터셋을 반복합니다. 입력 이미지와 레이블을 지정된 장치로 이동시킵니다. 옵티마이저의 그라디언트는 이전 반복에서의 누적을 방지하기 위해 각 순방향 패스 전에 0으로 초기화됩니다. 모델의 예측을 얻고, 지정된 criterion을 사용하여 손실을 계산합니다. 손실 값은 추적을 위해 train_losses 리스트에 추가됩니다. loss.backward()를 호출하여 역전파를 수행하고, 옵티마이저는 optimizer.step()로 모델 가중치를 업데이트합니다.
 
 ```js
-val_loss = self.evaluate(val_loader)
-self.val_losses.append(val_loss)
-self.scheduler.step(val_loss)
-self.early_stopping(val_loss)
+val_loss = self.evaluate(val_loader);
+self.val_losses.append(val_loss);
+self.scheduler.step(val_loss);
+self.early_stopping(val_loss);
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 훈련 데이터를 처리한 후 모델은 평가 메서드를 사용하여 검증 데이터셋에서 평가되며, 평균 검증 손실을 계산합니다. 이 손실은 학습률을 조정하고 조기 종료 조건이 충족되었는지 확인하는 데 사용됩니다. 검증 손실은 분석을 위해 추적됩니다.
 
@@ -632,7 +1109,18 @@ def evaluate(self, test_loader):
     return total_loss / len(test_loader)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 evaluate 메서드는 모델의 가중치를 업데이트하지 않고 유효성 검사 또는 테스트 데이터셋에서 평균 손실을 계산합니다. 이 메서드는 모델을 평가 모드로 설정하고 효율성을 위해 그래디언트 계산을 비활성화합니다.
 
@@ -642,7 +1130,18 @@ evaluate 메서드는 모델의 가중치를 업데이트하지 않고 유효성
 
 ## 4.1: 데이터 증가
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 증가는 기존 이미지에 임의의 변환(회전, 뒤집기, 크기 조정 등)을 적용하여 학습 데이터셋의 다양성을 인위적으로 증가시킵니다. 이 다양성은 모델이 더 많은 입력 변화 범위에서 학습함으로써 새로운 데이터에 대해 더 잘 일반화되도록 돕습니다.
 
@@ -659,7 +1158,18 @@ transform = transforms.Compose([
 
 랜덤 뒤집기와 회전을 추가함으로써 훈련 데이터를 다양하게 만들어 모델이 더 견고한 특징을 학습하도록 돕습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 4.2: Dropout
 
@@ -684,7 +1194,18 @@ class MyCNN(nn.Module):
         return x
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막 완전 연결 레이어 앞에 드롭아웃 레이어를 추가하면 모델이 학습된 표현을 여러 뉴런에 분배하도록 유도하여 오버피팅을 완화하는 데 도움이 됩니다.
 
@@ -694,7 +1215,18 @@ class MyCNN(nn.Module):
 
 모델에 배치 정규화를 포함하는 방법은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 class MyCNN(nn.Module):
@@ -703,7 +1235,7 @@ class MyCNN(nn.Module):
         # Covolutional layers
         self.conv1_bn = nn.BatchNorm2d(32)
         # Fully connected layers
-        
+
     def forward(self, x):
         x = F.relu(self.conv1_bn(self.conv1(x)))
         # Continue through model
@@ -715,7 +1247,18 @@ class MyCNN(nn.Module):
 
 전이 학습은 한 작업에서 훈련된 모델을 다른 관련 작업에서 훈련을 위한 출발점으로 사용하는 기술을 말합니다. 새 작업에 제한된 데이터셋이 있는 경우 특히 유용합니다. PyTorch는 ImageNet과 같은 대규모 데이터셋에서 사전 훈련된 모델을 쉽게 로드하고 조정할 수 있도록 지원하여 전이 학습을 용이하게 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프리 트레인 모델을 활용하는 방법은 아주 쉬워요!
 
@@ -736,7 +1279,18 @@ model.fc.requires_grad = True
 
 CNN 훈련 과정에 이러한 전략을 통합시키면, 오버피팅이 줄어들 뿐만 아니라 견고한 특징 학습을 보장하고 사전 훈련된 모델로부터 지식을 활용하여 모델 성능을 향상시킬 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 5: 결론
 
@@ -746,16 +1300,27 @@ AI 분야에서 CNN은 거의 모든 곳에서 사용되어 얼굴을 인식하�
 
 # 추가 자료
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - LeCun et al., “Gradient-Based Learning Applied to Document Recognition”
-Yann LeCun과 동료들이 쓴 이 주요 논문에서는 LeNet-5를 소개하며, 최초의 합성곱 신경망 중 하나로 문서 인식 작업에 적용된 결과를 보여줍니다.
-Research Gate 링크
+  Yann LeCun과 동료들이 쓴 이 주요 논문에서는 LeNet-5를 소개하며, 최초의 합성곱 신경망 중 하나로 문서 인식 작업에 적용된 결과를 보여줍니다.
+  Research Gate 링크
 - Simonyan과 Zisserman, “Very Deep Convolutional Networks for Large-Scale Image Recognition” (VGGNet)
-VGGNet을 소개한 이 연구는 CNN 아키텍처에서 깊이의 중요성을 강조하여 이미지 인식 성능을 향상시키는데 있습니다.
-arXiv 링크
+  VGGNet을 소개한 이 연구는 CNN 아키텍처에서 깊이의 중요성을 강조하여 이미지 인식 성능을 향상시키는데 있습니다.
+  arXiv 링크
 - He et al., “Deep Residual Learning for Image Recognition” (ResNet)
-ResNet은 잔차 학습 개념을 도입하여, 사그라들어 버리는 기울기 문제를 해결함으로써 훨씬 더 깊은 네트워크의 학습을 가능케 합니다.
-arXiv 링크
+  ResNet은 잔차 학습 개념을 도입하여, 사그라들어 버리는 기울기 문제를 해결함으로써 훨씬 더 깊은 네트워크의 학습을 가능케 합니다.
+  arXiv 링크
 
 만약 이 기사를 좋아하셨다면 좋아요를 눌러 주시고, 최신 게시물을 받아보려면 팔로우해주세요. 저의 목표는 인기 있는 모든 알고리즘을 처음부터 다시 만들어 기계 학습을 누구에게나 쉽게 접근할 수 있게 하는 것입니다.

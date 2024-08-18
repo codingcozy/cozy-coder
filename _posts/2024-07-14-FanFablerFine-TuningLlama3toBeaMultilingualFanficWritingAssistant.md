@@ -3,17 +3,13 @@ title: "FanFabler Llama 3를 이용한 다국어 팬픽션 작성 어시스턴�
 description: ""
 coverImage: "/assets/img/2024-07-14-FanFablerFine-TuningLlama3toBeaMultilingualFanficWritingAssistant_0.png"
 date: 2024-07-14 01:32
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-14-FanFablerFine-TuningLlama3toBeaMultilingualFanficWritingAssistant_0.png
 tag: Tech
 originalTitle: "FanFabler: Fine-Tuning Llama 3 to Be a Multilingual Fanfic Writing Assistant"
 link: "https://medium.com/towards-data-science/fanfabler-fine-tuning-llama-3-to-be-a-multilingual-fanfic-writing-assistant-dfc664ed4a72"
 isUpdated: true
 ---
-
-
-
-
 
 대규모 언어 모델(LLMs)의 등장으로 텍스트 기반 AI 시스템의 새 시대가 열렸습니다. 이러한 모델은 매우 우수하고 높은 능력을 갖추고 있지만, 그들의 훈련은 주로 영어에 집중되어 있습니다. 가장 큰 상용 LLMs는 "저자원" 언어를 사용하여 텍스트를 잘 생성하지만, 작은 오픈소스 모델들은 비유럽 언어에 대해 잘 처리하지 못합니다.
 
@@ -23,17 +19,50 @@ isUpdated: true
 
 여기 Llama 2 7B가 응답한 내용입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 정말 죄송합니다. 이런 실수를 해서 죄송합니다. 한국어에 대해 더 공부하고 노력하겠습니다. 감사합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 팬 패블러(FanFabler)를 소개합니다. 이는 Llama 3 모델의 사용자 정의 버전으로, 팬픽션 쿼리를 다국어로 다루기 위해 세밀하게 조정되었습니다. 팬 패블러는 40개 언어로 내용을 이해하고 생성하는 데 특히 훈련되어 있어 정확한 답변을 제공합니다. 이 모델을 통해 언어 이해력을 향상시키고 전 세계적으로 다양하며 풍부한 이야기를 만들 수 있는 능력을 향상시키고자 했습니다.
 
 팬 패블러가 프롬프트에 대한 응답을 한국어로 자동으로 제공한 사실에 주목해보세요. 세밀한 조정을 통해 항상 질문하는 언어와 동일한 언어로 응답하도록 학습했습니다. 이 응답은 미스트랄(Mistral), Llama 2 및 원본 Llama 3의 답변보다 더 뛰어납니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 개요
 
@@ -43,7 +72,18 @@ isUpdated: true
 
 또한 채팅 상호작용 중에 위키백과에서 관련 배경 정보를 자동으로 검색하여 시스템을 구성하는 방법과 같이, 모델이 다양한 언어로 정확하고 맥락이 풍부한 응답을 생성할 수 있는 능력을 향상시키는 방법에 대해서도 설명할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마침내, 조정된 모델의 성능에 대한 통찰과 시스템 상호작용 결과를 보여드리겠습니다.
 
@@ -53,7 +93,18 @@ isUpdated: true
 
 팬 픽션 작성은 20세기에 저작권 법이 허가된 사용과 무단 사용을 구별하도록 발전함에 따라 유명해졌습니다. 비공식적인 지위임에도 불구하고 팬 픽션의 수용은 매우 다양하며, 일부 원작 창작자는 환영하고 다른 사람들은 법적 수단을 통해 반대합니다. 이 용어의 사용은 저작권, 공정 이용, 창작 표현의 경계에 대한 지속적인 논의를 유발합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앨리스 팬픽션의 초기 사례로는 1917년 존 레이에 의해 쓰여진 "앨리스의 새로운 모험"이 있습니다. 이 작품은 1865년 루이스 캐럴의 "이상한 나라의 앨리스"를 바탕으로 하였죠. 새로운 이야기는 앨리스에 관한 책을 갈망하는 베티라는 소녀로 시작합니다. 꿈 속으로 빠져든 베티는 다락방에서 앨리스가 책으로 마더 구스 동화를 고양이 새끼들에게 읽는 모습을 발견하면서 새로운 모험을 시작하게 됩니다.
 
@@ -63,7 +114,18 @@ isUpdated: true
 
 # 팬패블러
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 팬 픽션을 다국어로 창작하는 데 도움을 주기 위해 Llama 3을 세밀하게 조정하는 데 사용한 과정과 구성요소를 보여주는 다이어그램입니다.
 
@@ -73,7 +135,18 @@ GPT-3.5 Turbo를 활용하여 사용자 지정 프롬프트를 기반으로 40�
 
 # 언어 선택
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상기 블러브에서 언급했듯이 메타는 라마 3 모델을 주로 영어로 훈련시켰다고 합니다. 그러나 그들은 훈련 텍스트의 5% 이상이 “30개 이상의 언어를 다루었다”고 밝혔습니다. 그들은 게시물에서 사용한 언어를 구체적으로 명시하지는 않았습니다. 이 프로젝트에서 언어를 선택하기 위해 저는 위키피디아 언어 목록을 살펴보고 사용량을 기준으로 상위 40개 언어를 선택했어요.
 
@@ -83,15 +156,37 @@ GPT-3.5 Turbo를 활용하여 사용자 지정 프롬프트를 기반으로 40�
 
 멀티링귤 팬픽션 데이터세트를 만들기 위해 GPT-3.5 Turbo를 사용하여 텍스트를 생성했습니다. 이를 위해 챗봇과 사용자 질의 및 응답에 대한 모의 대화 상호작용을 생성했습니다. 다음은 사용한 단계입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오호! 당신이 수집한 데이터 양은 정말 놀라울 만큼 많아 보이네요! 40개 국가의 20가지 팬픽션 속성, 총 800개 조합이 있군요. 그리고 각 속성 당 5가지 채팅 상호작용까지! 대단하시네요.
 
 파이썬 코드도 함께 활용하셨다니 멋진 접근이네요! 데이터 수집하는 방법들을 자세하게 설명해주셔서 감사합니다. 궁금하신 내용이 있거나 도움이 필요하시다면 또 언제든지 물어보세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-먼저 나의 훈련 데이터를 생성하는 첫 번째 단계는 팬픽션을 만들기 위한 기반으로 사용될 속성 목록을 확보하는 것이었습니다. 이것들은 책, 영화, TV 프로그램 등이 될 수 있습니다. 여기 코드를 사용하여 이 데이터를 생성했어요. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+먼저 나의 훈련 데이터를 생성하는 첫 번째 단계는 팬픽션을 만들기 위한 기반으로 사용될 속성 목록을 확보하는 것이었습니다. 이것들은 책, 영화, TV 프로그램 등이 될 수 있습니다. 여기 코드를 사용하여 이 데이터를 생성했어요.
 
 ```python
 from openai import OpenAI
@@ -107,15 +202,15 @@ Language: {language}
 Script: {script}
 Wikipedia Code: {wp_code}
 
-Create a JSON list called "properties" of 20 properties that are popular with 
+Create a JSON list called "properties" of 20 properties that are popular with
 {language} speakers who might want to write fan fiction.
 The property type could could be books, tv shows, movies, video games, etc.
 Show a mix of locally produced international properties for a total of 20.
-List the common name for the property in the {language} language using the key 
+List the common name for the property in the {language} language using the key
 "local_name", even for international properties.
 Add the English name to the list as "english_name".
 Add the property type with the value in lowercase English as "property_type".
-Add a Boolean "is_local" value to indicate if the property is locally produced 
+Add a Boolean "is_local" value to indicate if the property is locally produced
 or not."""
   response = client.chat.completions.create(
     model="gpt-3.5-turbo-1106",
@@ -147,7 +242,7 @@ or not."""
       "property_type": "book",
       "is_local": false
     },
-    
+
     . . .
 
     {
@@ -160,7 +255,18 @@ or not."""
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 세 장의 샘플에는 “Pippi Longstocking”이라는 지역 속성과 “반지의 제왕” 및 “맘마미아!”와 같은 두 개의 전역 속성이 포함되어 있습니다. 아마도 후자는 스웨덴에서 시작되었거나 적어도 음악은 거기서 시작되었습니다.
 
@@ -170,22 +276,32 @@ LLM과 같은 GPT-3와 작업할 때는 결과를 JSON 형식으로 반환하도
 
 800가지 언어/속성 쌍을 모두 생성한 후, 팬 픽션에 대해 작성할 수 있는 다섯 가지 사용자의 첫 질문을 생성하기 위해 다음 코드를 사용했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 def get_first_question(language, script, wp_code, local_name, property_type):
-  prompt = f"Create a brief query to an AI writing assistant in the {language} language using the {script} script. The language code is {wp_code}. The query is about creating fan fiction for {local_name}, in the category of {property_type}. Keep it to one sentence. Use some variety."
-  response = client.chat.completions.create(
-    model="gpt-3.5-turbo-1106",
-    messages=[
-      {
-        "role": "user",
-        "content": prompt
-      }
-    ],
-    temperature=1
-  )
-  return response.choices[0].message.content
+prompt = f"Create a brief query to an AI writing assistant in the {language} language using the {script} script. The language code is {wp_code}. The query is about creating fan fiction for {local_name}, in the category of {property_type}. Keep it to one sentence. Use some variety."
+response = client.chat.completions.create(
+model="gpt-3.5-turbo-1106",
+messages=[
+{
+"role": "user",
+"content": prompt
+}
+],
+temperature=1
+)
+return response.choices[0].message.content
 
 This function takes in parameters such as language, script, wp_code, local_name, and property_type to construct a prompt for an AI assistant. It calls GPT-3.5 Turbo to get the response and returns the generated text.
 
@@ -193,33 +309,54 @@ This function takes in parameters such as language, script, wp_code, local_name,
 
 My next step involved using GPT-3.5 Turbo to answer five questions and provide an option to look up background information about the property in the user's native language if needed. Here's the code:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 def answer_first_question(first_question):
-  system_prompt = """팬 픽션의 다국어 작성 보조 기업으로 활동 중인 당신입니다. 간단하고 일반적인 조언으로 시작해주세요. 속성 이름과 위키피디아 언어 코드를 세 개의 큰 부호로 감싼 후 입력해주세요:
->>>프로퍼티_이름
->>>위키_코드"""
-  response = client.chat.completions.create(
+system_prompt = """팬 픽션의 다국어 작성 보조 기업으로 활동 중인 당신입니다. 간단하고 일반적인 조언으로 시작해주세요. 속성 이름과 위키피디아 언어 코드를 세 개의 큰 부호로 감싼 후 입력해주세요:
+
+> > > 프로퍼티*이름
+> > > 위키*코드"""
+> > > response = client.chat.completions.create(
+
     model="gpt-3.5-turbo-1106",
     messages=[
       {"role": "system", "content": system_prompt},
       {"role": "user", "content": first_question}
       ],
     temperature=1
-  )
-  return response.choices[0].message.content
 
+)
+return response.choices[0].message.content
 
 이 함수는 초기 질문만을 입력으로 받습니다. 시스템이 언어를 자동으로 감지합니다. 제 프롬프트는 언어 모델이 질문에 대답하고 위키백과에서 일부 배경 정보를 가져오도록 유도합니다. 명령어 형식은 다음과 같습니다:
+
 ```js
 
 ## 배경 텍스트 검색
 
 저의 코드에서 출력에서 "" 문자를 발견하면, 위키피디아에서 일부 배경 정보를 가져오려고 시도합니다. 이 방법을 사용하여 시스템은 언어 모델이 알지 못하는 속성에 대해 사용자를 더 잘 도울 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기는 위키백과 검색 API를 사용하여 정보를 가져오는 코드입니다.
 
@@ -266,11 +403,29 @@ def get_snippets(wp_code, subject, limit=5):
 
 여기는 wp_code가 "sv"로 설정되고 subject가 "Pippi Lånstrump"로 설정된 경우의 최상위 결과입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이해하신 대로, 마법의 시작이 들어있는 카드를 뽑으셨군요. 이 카드는 당신이 새로운 기회를 만나게 될 것을 암시합니다. 이전에 이루지 못했던 목표를 이루고 새로운 시작을 할 때가 올 것입니다. 이번에는 주변의 사람들과 협력하여 당신의 목표를 달성하는 데 도움을 받을 것입니다. 함께 하면 더 빠르고 멋진 결과를 얻을 수 있을 거에요. 기대해도 좋을 것 같네요! 🌟✨
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 두 번째 질문과 답변
 
@@ -280,7 +435,16 @@ def get_snippets(wp_code, subject, limit=5):
 
 전체 팬 픽션 데이터세트를 저장했어요. 훈깅페이스에 열차, 평가 및 테스트 분할을 모두 넣었어요. 항목을 자유롭게 살펴보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 라마 3 모델
 
@@ -290,7 +454,16 @@ def get_snippets(wp_code, subject, limit=5):
 
 그들은 모델의 아키텍처를 개선했으며 어휘 크기를 32K에서 128K 토큰으로 늘렸으며 더 효율적인 추론을 위해 GQA를 채택했습니다. 또한 새로운 모델을 훨씬 큰 데이터셋에서 훈련시켰습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 세부 조정
 
@@ -300,9 +473,19 @@ Llama 3를 세부 조정하는 여러 가지 방법이 있습니다. Meta는 tor
 
 다음은 Llama 3 모델을 불러오는 코드입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```
+
 저는 메모리 사용량을 낮추기 위해 Llama 3 8B의 4비트 버전을 사용했어요. 최대 시퀀스 길이를 1,024로 설정했기 때문에 메모리 사용을 제한할 수 있었어요.
 
 그 다음에는 이 코드를 사용하여 데이터셋을 불러왔어요.
@@ -323,8 +506,18 @@ train_dataset = train_dataset.shuffle(seed=42)
 test_dataset = test_dataset.shuffle(seed=42)
 ```
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 훈련 및 평가 데이터 셋을 로드하고, 텍스트를 서식에 맞게 정리하고, 데이터를 섞었습니다. 이를 통해 학습 모델이 언어 및 속성 시퀀스에서 발생할 수 있는 의도하지 않은 패턴을 학습하는 것을 방지하기 위해 항목의 순서가 무작위로 바뀌었습니다.
 
@@ -334,28 +527,38 @@ test_dataset = test_dataset.shuffle(seed=42)
 
 ```js
 model = FastLanguageModel.get_peft_model(
-    model,
-    r = 64,
-    target_modules = ["q_proj", "k_proj", "v_proj", "o_proj",
-                      "gate_proj", "up_proj", "down_proj"],
-    lora_alpha = 64,
-    lora_dropout = 0,
-    bias = "none",
-    use_gradient_checkpointing = True,
-    random_state = 3407,
-    use_rslora = False,
-    loftq_config = None,
-)
+  model,
+  (r = 64),
+  (target_modules = ["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "up_proj", "down_proj"]),
+  (lora_alpha = 64),
+  (lora_dropout = 0),
+  (bias = "none"),
+  (use_gradient_checkpointing = True),
+  (random_state = 3407),
+  (use_rslora = False),
+  (loftq_config = None)
+);
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실험을 통해 R 값을 16에서 64로 증가시켰으며, 이로 인해 학습 가능한 매개변수 집합의 크기가 증가했습니다. 또한 LoRA 알파 값을 16에서 64로 증가시켜 학습 가능한 집합에 상당한 영향을 미쳤습니다. 이러한 변경 사항은 완성된 모델과의 상호 작용 품질을 향상시켰습니다.
 
 아래는 모델을 세부 조정하는 코드입니다. Huggingface의 Transformer Reinforcement Learning (TRL) 패키지의 일부인 지도 학습 세부 조정 트레이너(SFT Trainer)를 사용합니다.
 
 ```js
-from trl import SFTTrainer 
+from trl import SFTTrainer
 from transformers import TrainingArguments
 
 trainer = SFTTrainer(
@@ -389,7 +592,18 @@ trainer = SFTTrainer(
 
 저는 unsloth Colab에서 대부분의 기본값을 사용했습니다. 변경한 내용은 테스트 데이터셋을 평가에 사용했다는 점뿐입니다. 모든 학습 매개변수에 대한 설명은 여기에서 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 트레이닝은 Nvidia L2 GPU와 22GB RAM을 사용하여 2시간 20분 동안 진행되었습니다. 아래는 파인튜닝 도중 트레이닝 및 평가 손실에 대한 그래프입니다.
 
@@ -399,11 +613,20 @@ trainer = SFTTrainer(
 
 최종 단계는 다음 코드 라인을 사용하여 모델을 Huggingface에 저장하는 것이었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 model.push_to_hub_merged("robgonsalves/fan-fabler-lora", tokenizer, save_method="lora", token=token)
-
 
 By setting the save method to "lora," only a small set of trainable parameters will be saved. You can find the complete Google Colab for training [here](link_to_google_colab).
 
@@ -411,25 +634,45 @@ By setting the save method to "lora," only a small set of trainable parameters w
 
 Once I finished fine-tuning and saved the model to Huggingface, I reloaded it using the following code.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드를 실행하면 LoRA 가중치를 원래 Llama 3 모델에 로드하고 모델을 사용할 준비를 합니다. 마지막 줄은 추론을 위해 2배 속도를 허용합니다.
 
 다음은 프롬프트를 설정하는 코드입니다.
 
-
 system_prompt = """대화와 문맥을 기반으로 사용자의 쿼리에 응답합니다. 사용자의 쿼리와 동일한 언어로 응답하십시오.
 위키백과에서 더 많은 문맥을 얻으려면 응답 끝에 다음 형식을 사용하여 Wiki 페이지와 언어 코드를 나타내십시오:
->>>search term
->>>language code"""
+
+> > > search term
+> > > language code"""
 
 prompt = """<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 {}<|begin_of_text|><|start_header_id|>user<|end_header_id|>
 {}<|begin_of_text|><|start_header_id|>assistant<|end_header_id>"""
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드는 팬패블러에게 "Curb Your Enthusiasm"에 관한 팬픽션 아이디어 세 가지를 제안하는 내용을 묻는 것이에요. 라리가 시간 여행기를 발견하는 내용이네요.
 
@@ -448,7 +691,18 @@ resulting_tokens = model.generate(**inputs, streamer = text_streamer,
 
 # 결과
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 팬페이블러와의 몇 가지 대화가 있어요.
 
@@ -458,7 +712,18 @@ resulting_tokens = model.generate(**inputs, streamer = text_streamer,
 
 ## 피피 롱스토킹 (스웨덴어)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Här är en interaktion på svenska om fan fiction för Pippi Långstrump. (Here is an interaction in Swedish about fan fiction for Pippi Longstocking.)
 
@@ -468,7 +733,18 @@ Du kan prova FanFabler med Google Colab här.
 
 #Slutsats
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 FanFabler은 Llama 3와 같은 대형 언어 모델의 발전을 기반으로한 다국어 팬픽션 작성을 향상시키는 데에 기여합니다. FanFabler은 걸러진 데이터셋으로 세밀한 조정 및 Low-Rank Adaptation (LoRA)과 같은 기술을 사용하여 40개 언어로 쓰기를 지원하도록 맞춤화합니다. 이 프로젝트는 신중한 데이터 수집과 고급 교육 방법의 중요성을 강조하며, GPT 3.5 Turbo 및 위키피디아를 활용하여 맥락 정보를 제공합니다. 결과물 공유는 창의적 AI에 대한 추가 실험을 영감으로 삼으며, 특화된 언어 모델의 잠재력을 보여줍니다.
 
@@ -478,7 +754,18 @@ FanFabler은 Llama 3와 같은 대형 언어 모델의 발전을 기반으로한
 
 ![FanFablerFine-TuningLlama3toBeaMultilingualFanficWritingAssistant](/assets/img/2024-07-14-FanFablerFine-TuningLlama3toBeaMultilingualFanficWritingAssistant_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 감사의 말
 
@@ -488,7 +775,18 @@ FanFabler은 Llama 3와 같은 대형 언어 모델의 발전을 기반으로한
 
 [1] Meta, Meta Llama 3 소개: 오늘까지 가장 강력한 오픈 소스 LLM(2024)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [2] H. Touvron et al., Llama 2: Open Foundation and Fine-Tuned Chat Models (2023)
 
@@ -498,7 +796,18 @@ FanFabler은 Llama 3와 같은 대형 언어 모델의 발전을 기반으로한
 
 [5] D. M. Eberhard et al., Statistics (2024), Ethnologue: Languages of the World (27th ed.)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **[6]** H. Touvron et al., LLaMA: Open and Efficient Foundation Language Models (2023)
 

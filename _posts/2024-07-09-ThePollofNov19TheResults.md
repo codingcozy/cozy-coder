@@ -3,17 +3,13 @@ title: "2019년 11월 설문조사 결과"
 description: ""
 coverImage: "/assets/img/2024-07-09-ThePollofNov19TheResults_0.png"
 date: 2024-07-09 23:07
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-ThePollofNov19TheResults_0.png
 tag: Tech
 originalTitle: "The Poll of Nov’19: The Results!"
 link: "https://medium.com/@iamf/nov-poll-results-13bd129fdd6b"
 isUpdated: true
 ---
-
-
-
-
 
 안녕하세요 친근한 분들. 결과가 나왔어요! 인도 부가 제조 포럼에서 한 FFF 서비스 설문 조사의 분석 전체가 여기 있습니다. IAMF에 대해 더 알고 싶거나 함께하고 싶다면 www.iamf.in을 방문해 주세요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 응답자 중 최소 4개의 기업은 베테랑입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 응당하쇼, 다음이 응답자의 도시별 분포입니다:
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 뭄바이가 국가를 이끌어가고 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 히이더아바드가 두 번째로 예상됩니다.
 
@@ -43,14 +61,36 @@ isUpdated: true
 
 이 부분은 다소 주제에서 벗어난 것처럼 보이지만, 중요합니다. 커뮤니티에서 일어난 토론들을 바탕으로 이 내용이 필요했습니다. 자세한 내용은 여기를 참조하세요. (우리 중 없던 사람들만 투표권을 가졌다는 것을 알고 있습니다. 걱정하지 마세요. 여러분도 목소리를 낼 수 있을 것입니다. 그 동안은 어떻게 상황이 발전되고 있는지 확인하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image 1](/assets/img/2024-07-09-ThePollofNov19TheResults_1.png)
 ![Image 2](/assets/img/2024-07-09-ThePollofNov19TheResults_2.png)
 ![Image 3](/assets/img/2024-07-09-ThePollofNov19TheResults_3.png)
 ![Image 4](/assets/img/2024-07-09-ThePollofNov19TheResults_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 섹션에서는 조종실에서 우리에게 주어진 행동 항목들이 명확히 제시되어 있습니다.
 
@@ -60,7 +100,18 @@ IAMF가 어떻게 작동해야 하는지의 몇 가지 노트 - IAMF는 비영�
 
 IAMF를 위한 가치 있는 제안들이 많이 나왔습니다. 이 중 하나를 우리의 WhatsApp 그룹에 복사하여 논의를 시작하십시오. 우리는 귀 기울이고 있습니다. 이것들을 여기에 기록의 목적으로 같이 올리겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 3D 유그, 뭄바이: 플라스틱 재사용에 집중하거나 3D 프린팅 프로세스에서 플라스틱 폐기물을 재활용할 수 있는 프로세스를 만드세요. 최근 환경 변화를 고려하면 재활용과 재사용을 위한 건강한 생태계를 만들기 위해 고려해야 할 필수 단계입니다. 3D 프린팅은 확실히 혁명적입니다, 하지만 환경적으로도 생각해 봅시다! 😊
 - 타임 투 3D, 뭄바이: IAMF가 인증하는 표준 교육 프로그램이나 코스를 만드세요. 각 기업이 현재 서로 다른 것을 가르치고 있으며 각자의 방식으로 가르치고 있습니다.
@@ -78,7 +129,18 @@ IAMF를 위한 가치 있는 제안들이 많이 나왔습니다. 이 중 하나
 
 <img src="/assets/img/2024-07-09-ThePollofNov19TheResults_5.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 거기요. 대부분은 손님들에게 그램 단위로 과금하고 있어요.
 
@@ -88,7 +150,18 @@ IAMF를 위한 가치 있는 제안들이 많이 나왔습니다. 이 중 하나
 
 ![그래프](/assets/img/2024-07-09-ThePollofNov19TheResults_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음에 관심있는 값들이 있어요:
 
@@ -98,17 +171,39 @@ IAMF를 위한 가치 있는 제안들이 많이 나왔습니다. 이 중 하나
 
 또한 응답에서 한 가지 관찰: 사람들이 지나치게 낮거나 높은 가격을 요구하는 특정 장소는 없어요. 데이터에 따르면, 가격은 회사의 도시 등급에 영향을 받지 않는 것으로 나타났어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 분석 — 정규화 단위
 
 전반적인 추세를 이해하기 위해 모든 데이터의 단위를 INR/gm으로 표준화하려고 했습니다. 대부분의 사람들이 ABS 또는 PLA를 사용하며, 이들의 밀도의 평균은 1.15 gm/cc가 되어, x INR/cc는 대략 1.15x INR/gm이 됩니다.
 
-마찬가지로, INR/hr은 대략 1/12 * INR/gm으로 변환될 수 있습니다. 이는 일반적인 FFF 3D 프린터가 10에서 15 gm/hr을 출력하기 때문에 출신의 제한된 경험에서 나온 숫자입니다.
+마찬가지로, INR/hr은 대략 1/12 \* INR/gm으로 변환될 수 있습니다. 이는 일반적인 FFF 3D 프린터가 10에서 15 gm/hr을 출력하기 때문에 출신의 제한된 경험에서 나온 숫자입니다.
 
 모든 정규화된 데이터 지점을 그릴 때, 우리는 이를 보게 됩니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 INR/gm으로 정규화된 세상에서, 여기에 주목할 데이터 포인트들이 있습니다:
 
@@ -116,7 +211,18 @@ IAMF를 위한 가치 있는 제안들이 많이 나왔습니다. 이 중 하나
 
 설명: 정규화되었을 때라도, 누군가가 요구하는 최소 금액은 1그램 당 약 Rs. 6에 해당합니다. 그에 대비하여 요구되는 최대 금액은 1그램 당 Rs. 63입니다. 평균적으로, 사람들은 최소한 Rs. 13에 해당하는 가격을 요구하고, 최대 Rs. 29에 해당하는 가격을 요구합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 최소 주문 금액
 
@@ -126,8 +232,18 @@ IAMF를 위한 가치 있는 제안들이 많이 나왔습니다. 이 중 하나
 
 파이 차트 안의 숫자는 회사 수를 나타냅니다. 라벨에는 INR 금액이 표시되어 있습니다. 한 회사는 최소 주문으로 INR 2500을 요구하고 있습니다. 약 20%의 회사들이 최소 요금으로 500Rs를 부과하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-09-ThePollofNov19TheResults_11.png)
 
@@ -137,7 +253,18 @@ IAMF를 위한 가치 있는 제안들이 많이 나왔습니다. 이 중 하나
 
 현재 대부분의 사람들은 어떤 긴급 인쇄 요금도 부과하지 않고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "![Image](/assets/img/2024-07-09-ThePollofNov19TheResults_12.png)"
 
@@ -147,7 +274,18 @@ IAMF를 위한 가치 있는 제안들이 많이 나왔습니다. 이 중 하나
 
 "![Image](/assets/img/2024-07-09-ThePollofNov19TheResults_13.png)"
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 대부분의 원자재는 어디에서 왔는가요?
 
@@ -157,7 +295,18 @@ IAMF를 위한 가치 있는 제안들이 많이 나왔습니다. 이 중 하나
 
 # 그리고 기계들은 어디에서 왔을까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다시 한 번, 인도는 최고야! 두 분 동안 자부심에 취해봐!
 
@@ -167,7 +316,18 @@ FFF는 시장 점유율에 관계 없이 우리 사람들이 명백히 숙달했
 
 # 가장 인기 있는 소재는 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것이 결과들입니다:
 
@@ -177,7 +337,18 @@ FFF는 시장 점유율에 관계 없이 우리 사람들이 명백히 숙달했
 
 세 번째로 올라온 자리는 분명히 흥미를 자아냅니다. PETG(나일론이 아니라)가 그 자리에 있는 것은, 전반적으로 말해서, 우리는 우리가 저렴한 3D 프린터에서 향상된 결과를 얻는 물질에 훨씬 더 중점을 두고 있다는 것을 의미합니다. (PETG는 ABS보다 쉽게 인쇄되는 PLA 대체품으로, 최고의 장점을 모두 가지고 있습니다. 전문 프린터가 필요하지 않아요). 시장의 물질 선호도에 영향을 미치는 것은 기계의 저렴한 가격입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 저희가 제공하는 산업은 무엇인가요?
 
@@ -187,7 +358,18 @@ FFF는 시장 점유율에 관계 없이 우리 사람들이 명백히 숙달했
 
 **준우승**: 자동차 및 전자 제품 산업.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 서비스 업체가 일반적으로 제공하는 다른 서비스는 무엇인가요?
 
@@ -197,7 +379,18 @@ FFF는 시장 점유율에 관계 없이 우리 사람들이 명백히 숙달했
 
 많은 회사들은 다른 기술의 3D 프린팅 서비스도 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 서비스 업체들 중 약 절반은 역공학 및 제거형 제조 서비스를 제공합니다.
 
@@ -207,8 +400,18 @@ FFF는 시장 점유율에 관계 없이 우리 사람들이 명백히 숙달했
 
 사실, 후처리는 서비스 업체에서 일반적으로 제공되는 옵션입니다. 가격은 어떻게 되는 걸까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image 1](/assets/img/2024-07-09-ThePollofNov19TheResults_20.png)
 
@@ -218,8 +421,18 @@ Charging simply by manpower cost is the most popular method. Below we plot the p
 
 ![Image 2](/assets/img/2024-07-09-ThePollofNov19TheResults_21.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **가격은 로그 스케일입니다. 데이터가 선형 스케일로 맞지 않았습니다.**
 
@@ -229,7 +442,18 @@ Charging simply by manpower cost is the most popular method. Below we plot the p
 
 **답변자들은 이 질문에 관대하게 대답해 주셨지만, 이 데이터를 공개된 인터넷에 올리는 것은 그들에게 공평하지 않습니다. 우리는 이 블로그 글이 얼마나 멀리 널리 퍼져나갈지 알 수 없습니다.**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 응답자 중 하나이거나 기업 IAMF 회원 중 하나라면, PM을 남겨주시면 익명화된 데이터를 공유해 드릴게요.
 
@@ -239,7 +463,18 @@ Charging simply by manpower cost is the most popular method. Below we plot the p
 
 퇴역군인 여러분께: 더 많이 참여해 주세요. 매우 소중한 의견을 제공해 주세요. 의미 있는 데이터가 없다면, 우리는 그저 어둠 속에서 사냥하는 것과 다를바 없겠죠. 투표 참여 방해사항을 제거하고 싶은 사항이 있다면, 제게 DM 주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로, Formnext에서 활약하는 친구들에게 큰 성공을 빌어드립니다! 친구들, 멋진 일을 해내고 거기 있는 사람들이 우리가 얼마나 혁신적인 작은 집단인지 알 수 있도록 해주세요! 그리고 그 돈들을 국내로 가져와요!
 

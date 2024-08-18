@@ -3,17 +3,13 @@ title: "시계열 데이터에서 이상치를 찾는 궁극의 안내서 파트
 description: ""
 coverImage: "/assets/img/2024-05-27-TheUltimateGuidetoFindingOutliersinYourTime-SeriesDataPart1_0.png"
 date: 2024-05-27 14:58
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-TheUltimateGuidetoFindingOutliersinYourTime-SeriesDataPart1_0.png
 tag: Tech
 originalTitle: "The Ultimate Guide to Finding Outliers in Your Time-Series Data (Part 1)"
 link: "https://medium.com/towards-data-science/the-ultimate-guide-to-finding-outliers-in-your-time-series-data-part-1-1bf81e09ade4"
 isUpdated: true
 ---
-
-
-
-
 
 ![Outliers](/assets/img/2024-05-27-TheUltimateGuidetoFindingOutliersinYourTime-SeriesDataPart1_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 제 이름은 Sara이며, 물리학 석사 학위를 가지고 있습니다. 현재는 글로벌 에너지 회사에서 데이터 과학자로 일하고 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사는 시계열 데이터에서 이상치를 식별하고 관리하는데 전념한 세 개의 시리즈를 시작합니다. 만약 이 시리즈를 계속해서 따르고 싶다면, 저를 팔로우하고 다음 부분이 발행될 때 업데이트를 받을 수 있도록 구독하세요!
 
@@ -34,7 +40,18 @@ isUpdated: true
 
 그 후 세 번째 기사에서는 이상치를 관리하는 다양한 전략을 탐색할 것입니다. 우리는 변형 기술에 집중하여, 그 영향을 완화하는 실용적인 해결책을 제시할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시작해 봅시다!
 
@@ -48,7 +65,18 @@ Part I (이 기사):
 - 단변량 vs 다변량 시계열 데이터
 - 이상치 식별
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 시각 검사
 - 통계적 방법
@@ -59,7 +87,18 @@ Part II (다음):
 
 3. 이상값 식별
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 기계 학습 방법
 - 평가 지표
@@ -73,7 +112,18 @@ Part II (다음):
 - 대치
 - 상한 설정
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어째서 신경 써야 할까요?
 
@@ -86,7 +136,18 @@ Part II (다음):
 - 이상치는 시계열 데이터에서 진정한 추세와 주기적인 행동을 가리고 숨길 수 있습니다.
 - 이상치를 철저히 검토하지 않은 데이터에 기반한 결정은 부적절한 전략적 결정으로 이어질 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시계열 데이터에서 이상 값 처리가 효과적인 분석에 중요한 이유가 더 많이 있지만, 이것들은 우리가 시작하기를 원하는 충분한 이유일 것입니다.
 
@@ -96,8 +157,18 @@ Part II (다음):
 
 # 시계열 데이터에 적합한 이상 값 탐지 방법을 선택하는 방법?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![The Ultimate Guide to Finding Outliers in Your Time-Series Data Part 1](/assets/img/2024-05-27-TheUltimateGuidetoFindingOutliersinYourTime-SeriesDataPart1_1.png)
 
@@ -107,8 +178,18 @@ Part II (다음):
 
 해석 가능성이 중요한 데이터셋의 경우 Z-Score와 이동 평균과 같은 간단한 방법이 이상적일 수 있습니다. 그러나 섬세한 패턴을 감지해야 하는 복잡한 시나리오와 같은 경우에는 LSTM 네트워크와 같은 고급 기법이 유용할 수 있습니다(이에 대한 자세한 내용은 이 시리즈의 두 번째 부분에서 다룰 예정이며, 상당한 데이터와 계산 능력이 필요합니다).
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 기억하세요: 데이터셋 크기, 계산 자원, 해석 가능성, 그리고 작업의 성격은 적절한 이상점 탐지 방법을 선택하는 데 중요합니다.
 
@@ -118,7 +199,18 @@ Part II (다음):
 
 정밀도, 재현율, F1 점수와 같은 지표는 사기 활동을 포착하면서 거짓 양성을 줄이는 이러한 방법의 효과를 평가하는 데 중요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예측 유지보수와 같은 맥락에서 ROC 곡선과 AUC 지표는 잠재적인 기계 고장을 적시에 식별하는 데 매우 유용합니다.
 
@@ -128,7 +220,18 @@ Part II (다음):
 
 이상치 분석을 시작하기 전에 데이터가 단변량인지 다변량인지 고려하는 것이 중요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단변량 시계열 데이터는 시간에 따라 기록된 단일 관측값 순서로 구성됩니다. 전형적인 예시로는 일일 주식 가격, 월간 판매 수치 또는 연간 기상 데이터가 있습니다.
 
@@ -138,8 +241,18 @@ Part II (다음):
 
 이 유형의 데이터는 서로 다른 변수 간의 관계 및 상호작용을 포착하며 개별적인 추세 및 계절적 변동도 포함합니다. 예를 들어, 다변량 시계열에는 온도, 습도 및 풍속의 일일 측정치가 동시에 기록된 것이 포함될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-27-TheUltimateGuidetoFindingOutliersinYourTime-SeriesDataPart1_3.png)
 
@@ -149,8 +262,18 @@ Part II (다음):
 
 일변량 데이터에 대해 시계열 플롯 및 상자 그림과 같은 시각적 검사 방법이 일반적으로 사용되며 한 번에 한 변수에 초점을 맞춥니다. 또한 일변량 설정에서 STL 분해가 전통적으로 사용됩니다. Z-점수, 수정된 Z-점수 방법 및 Grubbs' 검정도 이 유형의 데이터에 사용됩니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기계 학습 방법 중 Isolation Forest, LOF 및 Autoencoders와 같은 방법들은 일반적으로 다변량 데이터에서 차원 축소와 이상 탐지에 사용되지만, 단일 시계열 데이터를 압축하고 복원하여 재구성 오류를 기반으로 이상을 식별하는 데도 사용됩니다.
 
@@ -160,7 +283,18 @@ Part II (다음):
 
 여러 변수가 포함된 데이터의 경우 산점도 분석이 일반적으로 여러 변수 간의 관계를 조사하는 데 사용됩니다. Isolation Forests, LOF 및 Autoencoders는 고차원 데이터를 처리하는 데 자연스럽게 적합합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다중 변수 데이터에도 여러 가지 일변량 방법을 적용할 수 있습니다. 예를 들어, Z-점수 방법은 각 변수에 대해 독립적으로 Z-점수를 계산하여 다중 변수 상황에서도 사용할 수 있습니다.
 
@@ -170,7 +304,18 @@ Part II (다음):
 
 # 시각적 방법
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시각 검사는 시계열 데이터에서 이상치를 식별하는 데 중요한 방법입니다. 데이터의 특성에 따라 시각적 검사를 어떻게 수행할지가 영향을 받습니다.
 
@@ -212,7 +357,18 @@ columns = df.columns.tolist()
 plot_temporal_trends(df, columns)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-27-TheUltimateGuidetoFindingOutliersinYourTime-SeriesDataPart1_5.png" />
 
@@ -222,7 +378,18 @@ plot_temporal_trends(df, columns)
 
 이상값을 계절별로 처리하는 것은 매우 중요할 수 있습니다, 특히 계절 변동을 나타내는 데이터를 다룰 때입니다. 많은 시계열 데이터 세트는 특정 시기에 명확한 패턴을 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사실 이상값으로 보였던 데이터 포인트가 계절에 따라 처리되면 이상값으로 간주되지 않을 수도 있습니다. 다시 말해 데이터와 문제의 성겁에 따라 다릅니다!
 
@@ -232,7 +399,18 @@ plot_temporal_trends(df, columns)
 
 게다가, 계절별 분석은 계절적 영향을 고려하여 예측 모델을 개선할 수 있습니다. 이것은 농업, 관광 및 소매업과 같은 계절적 변화에 크게 영향을 받는 산업에 중요할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 박스 플롯
 
@@ -253,7 +431,18 @@ plot_outliers(param_dfs)
 
 ![Boxplot image](/assets/img/2024-05-27-TheUltimateGuidetoFindingOutliersinYourTime-SeriesDataPart1_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상기 그림에서는 특정 매개변수를 다른 수심별로 분석하여 이들을 옆에 비교했습니다. 플롯 상의 작은 검은 원은 잠재적 이상점을 나타냅니다. 이러한 시각적 단서는 각 하위 집합 내에서 근본적으로 벗어난 데이터 포인트를 신속하게 식별하는 데 중요합니다.
 
@@ -274,8 +463,18 @@ plt.grid(True)
 plt.show()
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-27-TheUltimateGuidetoFindingOutliersinYourTime-SeriesDataPart1_7.png" />
 
@@ -285,8 +484,18 @@ plt.show()
 
 시계열 데이터는 추세, 계절성 및 잔류로 분할될 수 있다는 것을 이미 알고 계시다시피,
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 STL 분해는 LOESS(Locally Estimated Scatterplot Smoothing)를 사용하여 시계열 신호를 이 세 가지 구분된 구성 요소로 효과적으로 분리하는 데 유용합니다. 이를 통해 데이터의 기본적인 행동에 대한 명확한 통찰력을 얻어 분석하고 예측할 수 있는 능력이 향상됩니다.
 
@@ -296,7 +505,18 @@ STL 분해는 LOESS(Locally Estimated Scatterplot Smoothing)를 사용하여 시
 
 STL은 이상치를 식별하는 데 어떻게 도움을 줄까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 STL 분해의 잔여 구성 요소는 계절성 및 추이 구성 요소로 설명할 수 없는 데이터 부분을 나타냅니다.
 
@@ -306,7 +526,18 @@ STL 분해의 잔여 구성 요소는 계절성 및 추이 구성 요소로 설�
 
 추이 구성 요소는 단기 변동을 완화시키고 데이터 집합의 폭넓은 움직임을 강조합니다. 이상점은 추이에 예상치 못한 변동이나 대부분의 데이터가 설정한 부드러운 패턴과 어울리지 않는 급격한 변화를 일으킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 1: 잔차 플롯 검토
 
@@ -316,7 +547,18 @@ STL 분해의 잔여 구성 요소는 계절성 및 추이 구성 요소로 설�
 
 잔차의 평균과 표준 편차를 계산합니다. 이는 정규 분포된 잡음 패턴에서 기대하는 것과 유의미하게 다른 데이터 포인트를 결정하는 데 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 3: 이상치에 대한 임계값 정의
 
@@ -326,7 +568,18 @@ STL 분해의 잔여 구성 요소는 계절성 및 추이 구성 요소로 설�
 
 잔차 구성 요소에서 이 임계값을 초과하는 데이터 포인트를 식별합니다. 이것들이 당신의 잠재적인 이상치입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 5: 시각적 검사 및 상호 확인
 
@@ -353,21 +606,41 @@ outliers = residuals[np.abs(residuals - mean_resid) > threshold]
 print(outliers)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Z-점수와 수정된 Z-점수 방법
 
 Z-점수는 표준 점수로도 알려져 있으며, 데이터 포인트가 데이터 집합의 평균으로부터 몇 표준 편차 떨어져 있는지를 측정합니다. 이는 아래 공식을 사용하여 계산됩니다:
 
-
 Z = (X - μ) / σ
-
 
 - X는 개별 데이터 포인트를 나타냅니다.
 - μ는 데이터 집합의 평균을 나타냅니다.
 - σ는 데이터 집합의 표준 편차를 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일정 임계값(일반적으로 2 또는 3)보다 높은 Z-점수를 가진 데이터 포인트는 이상값으로 간주됩니다.
 
@@ -392,7 +665,18 @@ identify_outliers_with_z_score(df)
 
 데이터 세트에서 이상값을 식별하기 위해 Z-점수 임계값을 선택하는 것은 데이터 분석 결과에 상당한 영향을 줄 수 있는 중요한 결정임을 기억해 주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 일반 분포 하에서의 z-점수에 대한 설명입니다: z-점수 1은 곡선 아래 약 68%를, z-점수 2는 약 95%를, z-점수 3는 약 99.7%를 포함합니다.
 
@@ -442,8 +726,18 @@ for bar in bars:
 plt.show()
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-05-27-TheUltimateGuidetoFindingOutliersinYourTime-SeriesDataPart1_11.png)
 
@@ -476,9 +770,18 @@ plt.show()
 
 ![image](/assets/img/2024-05-27-TheUltimateGuidetoFindingOutliersinYourTime-SeriesDataPart1_12.png)
 
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 계절 당:
 
@@ -488,7 +791,18 @@ Robust Z-Score
 
 수정된 Z-점수 방법으로도 알려진 이 기술은 일반적인 Z-점수를 개선하기 위해 평균 대신 중앙값(M)을 사용합니다. 평균은 가장 신뢰할 수있는 통계적 측정 방법이 아니기 때문에 중앙값을 사용합니다. 또한 표준 편차 대신 중앙값의 절대 편차(MAD)를 사용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-27-TheUltimateGuidetoFindingOutliersinYourTime-SeriesDataPart1_14.png)
 
@@ -498,7 +812,18 @@ Robust Z-Score
 
 참고: 중앙값과 MAD는 평균과 표준 편차보다 이상값에 강인한 특성을 가집니다. 때로는, 이 강인성으로 인해 MAD 값이 작아질 수 있으며, 특히 이상값이 극단적인 경우에 그렇습니다. 따라서, 가장 극단적인 관측치만 이상값으로 표시되도록 하기 위해 약간 더 높은 임계값이 필요할 수 있습니다 (문맥에 따라 3.5, 4 또는 5).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 from scipy.stats import median_absolute_deviation
@@ -537,9 +862,18 @@ plt.show()
 
 Z-점수 방법(임계값 3)으로 감지된 이상값을 시계열 도표로 시각화합시다.
 
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 #여기서 이상치는 사전입니다.
@@ -585,7 +919,18 @@ Grubb의 Test
 
 Grubb의 테스트, 최대 또는 최소값을 데이터셋의 평균 및 표준편차와 비교하여 잠재적인 이상치를 식별하는 최대 표준화 잔차 테스트로 알려져 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 참고: 데이터가 1차원 정규 분포를 따르고 이상치는 평균과 표준편차에 비해 극단적인 값을 가질 것으로 가정합니다.
 
@@ -595,7 +940,18 @@ Grubb의 테스트, 최대 또는 최소값을 데이터셋의 평균 및 표준
 
 G는 그럽스 검정 통계량, X는 의심스러운 이상치 값(데이터 집합에서 최대값 또는 최소값), X(바로 위에 bar가 있는)는 데이터 집합의 평균이며, s는 데이터 집합의 표준 편차입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 의심되는 이상값이 유의한지 여부를 결정하기 위해 계산된 검정 통계량 G를 적절한 통계 분포(일반적으로 T-분포)의 임계값과 비교합니다.
 
@@ -615,7 +971,18 @@ print(outliers_grubbs)
 
 # 평가 메트릭
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 이에 대해 전체 블로그 글을 쓸 수도 있을 거예요.
 
@@ -625,7 +992,18 @@ print(outliers_grubbs)
 
 ## 최적의 지표는 데이터의 성격, 해당 이상값의 특성 및 거짓 긍정과 거짓 부정 사이에서 필요한 균형에 따라 다를 거예요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시: 사기 탐지
 
@@ -635,7 +1013,18 @@ print(outliers_grubbs)
 
 예측 유지보수에서는 이상을 적시에 식별하는 것이 중요합니다. 여기서 수신기 조작 특성 (ROC) 곡선과 곡선 아래 영역 (AUC)은 주요 지표입니다. 이러한 지표들은 참 양성 비율과 거짓 양성 비율 사이의 균형을 이해하는 데 도움을 줍니다. 이는 서로 다른 운영 요구 사항을 충족시키기 위해 감지 임계값을 최적화하는 데 중요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시: 의료
 
@@ -647,7 +1036,18 @@ print(outliers_grubbs)
 
 지금까지입니다! 이 글이 마음에 든다면 반드시 클랩을 눌러주세요 😋. 비슷한 기사를 원하신다면 제 팔로우도 환영합니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 시계열 분석에서 주로 사용하는 통계적 방법은 무엇인가요?
 
@@ -657,6 +1057,17 @@ print(outliers_grubbs)
 
 참고 문헌
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시계열 데이터에서 이상 감지를 어떻게 수행하나요?

@@ -3,17 +3,13 @@ title: "MLOps - PyTest를 사용한 데이터 검증"
 description: ""
 coverImage: "/assets/img/2024-06-19-MLOpsDataValidationwithPyTest_0.png"
 date: 2024-06-19 20:05
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-MLOpsDataValidationwithPyTest_0.png
 tag: Tech
 originalTitle: "MLOps — Data Validation with PyTest"
 link: "https://medium.com/towards-data-science/mlops-data-validation-with-pytest-749641874871"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-19-MLOpsDataValidationwithPyTest_0.png" />
 
@@ -23,7 +19,18 @@ MLOps 파이프라인에서는 가능한 한 많은 단계를 자동화하려고
 
 이 기사에서는 PyTest를 사용하여 데이터셋에 대한 자동 검증을 수행하는 방법을 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 Deepnote을 사용하여 이 기사의 스크립트를 실행하고 있어요. Deepnote은 협업형 데이터 과학 프로젝트와 프로토타이핑에 좋은 클라우드 노트북 서비스에요.
 
@@ -33,7 +40,18 @@ MLOps 파이프라인에서는 가능한 한 많은 단계를 자동화하려고
 
 실제 머신 러닝 제품을 개발할 때에는 데이터가 지속적으로 변할 수 있어요. 그 결과 데이터는 데이터 추출, 데이터 변환, 데이터 로딩의 초기 단계를 거쳐 얻어지게 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 세 단계는 일반적으로 ETL 이라는 약어로 요약됩니다. 간단히 말해서, 데이터 수집을 수행하여 모델 훈련을 진행할 충분한 데이터 양을 확보해야 한다고 상상해보세요. 데이터를 어딘가에서 추출해야 하는데, 예를 들어 스크래핑하거나 오픈 소스 데이터가 어떻게 도움이 될 수 있는지 분석해야 합니다(추출).
 
@@ -43,7 +61,18 @@ MLOps 파이프라인에서는 가능한 한 많은 단계를 자동화하려고
 
 ![이미지](/assets/img/2024-06-19-MLOpsDataValidationwithPyTest_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사에서는 ETL 최상의 실천 방법에 대해 읽을 수 있습니다.
 
@@ -55,7 +84,18 @@ MLOps 파이프라인에서는 가능한 한 많은 단계를 자동화하려고
 - 소스 데이터에 변경 사항이 있었지만 우리에게 알려지지 않았습니다. ETL 파이프라인을 담당하는 팀이 영화 평점 시스템을 변경하여 1에서 5점까지 범위로 구성된 시스템에서 10점까지의 시스템으로 전환했습니다.
 - ETL 중에 데이터 흡수에 버그가 있었을 수 있습니다. 실수가 있고 cm로 표현된 데이터에서 km로 표현된 데이터로 변경되었을 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 유효성 검사는 데이터를 분할한 후(splitting data into train and test)에 수행할 수도 있고 그 전에도 할 수 있습니다. 어디서 하는 것이 가장 좋은지 명확하지 않으며 두 가지 방법에 대한 장단점이 있습니다.
 
@@ -63,7 +103,18 @@ MLOps 파이프라인에서는 가능한 한 많은 단계를 자동화하려고
 
 PyTest는 다양한 종류의 테스트를 실행하는 데 널리 사용되는 파이썬 라이브러리입니다. 일반적으로 코드 베이스 내에 tests라는 폴더를 생성하고 여기에 실행하려는 여러 테스트 파일들을 수집합니다. 각 파일의 이름은 test_xx.py와 같이 지정됩니다. 따라서 tests 폴더 안에서 test_data.py 또는 test_model.py와 같은 파일들을 생성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테스트를 수행하는 데 주요한 Python 명령어는 assert입니다. 이 명령어는 특정 조건이 충족되었는지 확인하고, 그렇지 않으면 오류가 발생합니다. 조건 뒤에 문자열로 오류를 정의할 수 있습니다. 예시를 살펴보겠습니다.
 
@@ -73,7 +124,18 @@ PyTest는 파일 내에서 감지된 모든 테스트 함수를 실행하고, �
 
 ## PyTest의 픽스처(Fixtures)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 많은 경우 (위의 경우와 같이) 테스트에는 단언을 만들기 위한 입력 데이터(예: 데이터)가 필요합니다. 이 입력 데이터는 PyTest의 fixtures를 사용하여 제공할 수 있습니다. Fixtures를 사용하면 더 이상 할당할 필요 없이 테스트 내에서 사용될 변수를 선언할 수 있습니다. 그러나 fixtures를 정의하는 함수는 테스트 함수의 입력 변수와 동일한 이름을 가져야 합니다. 예를 살펴봅시다.
 
@@ -84,7 +146,18 @@ Fixture의 범위를 지정할 수 있으므로, fixture가 파괴될 때를 결
 
 대신 "function" 범위를 사용하면, 각 테스트가 fixture의 새로운 및 변경되지 않은 복사본을 입력으로 사용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 PyTest 문서에서는 다양한 범위에 대해 읽을 수 있어요.
 
@@ -94,7 +167,18 @@ PyTest 문서에서는 다양한 범위에 대해 읽을 수 있어요.
 
 그래서 데이터셋에서 할 수 있는 몇 가지 간단한 결정론적 테스트부터 시작해보고, 확정적이지 않은 테스트에 대해도 살펴보겠어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 결정론적 테스트
 
@@ -104,7 +188,18 @@ PyTest 문서에서는 다양한 범위에 대해 읽을 수 있어요.
 
 이러한 유형의 테스트를 위한 예제 파일을 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드에서는 다음과 같은 함수들을 찾을 수 있습니다:
 
@@ -117,7 +212,18 @@ PyTest 문서에서는 다양한 범위에 대해 읽을 수 있어요.
 
 확률론적 테스트에서 우리가 하고 싶은 것은 불확실성을 고려하여 값들을 측정하는 것입니다. 불확실성에 대해 이야기할 때 확률과 통계가 관련되며, 우리는 여기서도 그들을 활용할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 작업 중인 데이터셋의 값을 평가하기 위해 이전 버전과 비교하는 것이 일반적인 관행입니다.
 
@@ -130,7 +236,18 @@ PyTest 문서에서는 다양한 범위에 대해 읽을 수 있어요.
 
 이미 언급한 바와 같이, 결정론적 테스트에서는 통계가 사용되며 일반적으로 과거 데이터가 예시로 취해져 현재 데이터와 비교됩니다. 따라서 가설 검정이 어떻게 작동하는지 이해하고, 이러한 비교를 위해 어떻게 사용할 수 있는지 이해하는 것이 중요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글에서는 가설 검정의 기본 개념을 간단히 살펴볼 예정이에요. 더 깊이 알고 싶으시다면 이 영상을 보시는 걸 추천해요:
 
@@ -141,7 +258,18 @@ PyTest 문서에서는 다양한 범위에 대해 읽을 수 있어요.
 
 대표적인 예시는:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 영가설 (H_0): 두 개의 샘플은 동일한 평균을 가진 정규 분포에서 나온 것이다.
 - 대립가설: 두 개의 샘플은 서로 다른 평균을 가진 정규 분포에서 나왔다.
@@ -152,7 +280,18 @@ PyTest 문서에서는 다양한 범위에 대해 읽을 수 있어요.
 
 우리가 해야 할 일은, 샘플을 시작으로 알려진 공식을 사용하여 테스트 통계량이라는 값을 계산하는 것입니다. 테스트 통계량으로부터 곡선 아래 영역에 해당하는 p-값이라는 다른 값을 계산합니다 (나중에 자세히 살펴보겠습니다). p-값이 미리 선택한 임계값 (알파)보다 크면 우리는 영가설을 기각할 수 없으며 영가설은 여전히 진실이 유지됩니다. 그 대신에 p-값이 작으면 영가설을 기각할 수 있고 새로운 (대립) 가설을 주장할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당연히 이 거절에 대한 신뢰도는 미리 선택한 임계값에 의해 결정됩니다. 일반적인 임계값은 0.1, 0.5 및 0.001입니다. 이 값이 작을수록 더 확신이 있습니다.
 
@@ -162,7 +301,18 @@ PyTest 문서에서는 다양한 범위에 대해 읽을 수 있어요.
 
 기계 학습에서는 참조 데이터 세트를 보유하고 이를 새로 얻은 데이터 세트와 비교하여 데이터 분포가 동일한지 이해하는 것이 최적일 것입니다. 유감스럽게도 우리가 사용 가능한 데이터 세트가 그리 많지 않기 때문에 보통 테스트 데이터 세트를 훈련 데이터 세트와 비교하는 것이 일반적입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자주 수행하는 테스트 중 하나는 두 기능이 동일한 확률 분포에서 나왔는지 확인하는 것입니다. 물론, 테스트 데이터 세트에서 사용하는 열이 교육 데이터와 동일한 분포를 가져야 합니다. 그렇지 않으면 모델이 학습한 패턴은 테스트에서 완전히 쓸모 없게 될 것입니다!
 
@@ -172,7 +322,18 @@ PyTest 문서에서는 다양한 범위에 대해 읽을 수 있어요.
 
 사실 데이터 세트의 다른 열에 대해 여러 가설 검정을 실행할 때, 선택한 알파에 본페로니 교정이 필요합니다. 이에 대해 다음 기사에서 살펴볼 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

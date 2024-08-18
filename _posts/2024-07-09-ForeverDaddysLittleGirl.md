@@ -3,7 +3,7 @@ title: "언제나 아빠의 소중한 딸"
 description: ""
 coverImage: "/assets/img/2024-07-09-ForeverDaddysLittleGirl_0.png"
 date: 2024-07-09 23:19
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-ForeverDaddysLittleGirl_0.png
 tag: Tech
 originalTitle: "Forever Daddy’s Little Girl"
@@ -11,25 +11,54 @@ link: "https://medium.com/@wordsofheart/forever-daddys-little-girl-931ea4613041"
 isUpdated: true
 ---
 
-
-
-
-
 기억이 생생하게 남아있어요. 하늘이 너무 파랗고, 해가 너무 밝게 비쳐왔어요. 그날은 완벽한 일 시작처럼 느껴졌고, 낙관적이었죠.
 
 그날을 좋은 시작으로 생각했어요. 그런데 너무 행복해해서 안 됐던 것 같아요. 아픔이 여전히 기억나요, 마치 내 심장에 돌이 떨어지는 듯한 큰 돌 같아서요. 행복은 잠깐이었고, 부서지기 쉬운 환상이었어요. 갑자기 모든 것이 무너져내린 것 같았어요. 한 순간 나는 멍해졌어요. "진짜인가?" 내 자신에게 물었어요. 그를 보았어요, 아빠를 보았어요. 눈을 감은 채 누워 있던 그를 보았어요. 모두가 의식이 없다고 했지만, 아니에요, 그는 차가웠어요... 차가워서요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 것이 멈춘 것처럼 느껴졌어요. 세상이 멈추었죠. 아버지를 잃은 18살 소녀에 대해 세상은 무엇을 말할까요? 너무 일찍, 이에 대비하고 있지 않았는데도 왜 그런 일이 일어났을까요—죽음에 대한 슬픔에 잠겼죠.
 
 내 마음은 감정의 소용돌이와 믿기 힘든 충격에 휩싸였어요. 어떻게 이렇게 생동감 넘치고 존재적인 존재가 한 순간에 없어질 수가 있을까요? 하지만 가장 아프다고 느끼는 건 무엇일까요? 단 하루 전에 큰 기쁨을 느꼈던 순간이었어요—대학에 입학했다는 소식을 들은 것. 그 업적으로 느껴졌던 기쁨은 이제 텅 비어버렸어요. 그러나 그는 그것을 알지 못하고, 듣지 못하며, 대학생으로 성장하는 나를 볼 수 없게 될 거예요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **그의 부재로 인한 무거운 무게는 참을 수 없었다. 그와 함께 이 순간을 나눌 것을 상상했는데, 그의 눈 속에서 자랑스러운 표정을 보고, 격려의 말을 듣는 것을 상상했다. 그 대신 나에게는 깊은 공허감과 슬픔에 무겁게 눌린 마음만이 남았다. 그 뒤를 이어가는 날들은 애도와 조용한 눈물의 흐름이었다. 타인들로부터 오는 친절한 말 한 마디마다, 내가 잃어버린 것을 상기시키는 것 같았다. 미래는 불확실해 보이며, 그를 잃은 세상에서 의미를 찾는 데 고뇌했다.**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금 모든 게 나아지고 있어요. 아마도 이게 제게 가장 큰 전환점이었던 거죠. 두 해 전보다 더 나은 모습을 보일 거예요, 저를 위해 그리고 아버지를 위해서요. 아버지가 제게 자부심을 느끼게 해드리고 싶어하실 거예요. 혹시 모르지만, 제가 이제 어른이 되었고 대학생이 되었고, 한 때 두려워했던 모든 것을 이루어가면서 성숙해지고 세상을 이해하는 모습이 되었다는 것을. 하지만 분명히 제 마음 깊은 곳에서, 아버지는 저를 위에서 내려다보시며, 언제나 최선을 다해야 하고 제가 받을 만한 보상을 받게 해달라고 기도하시고 계실 거예요.
 
@@ -37,6 +66,17 @@ isUpdated: true
 
 슬픔 속에서도, 작은 힘과 회복력을 찾기 시작했어요. 아버지는 제게 앞으로 나아가기를 원하실 거라 깨달았고, 항상 격려해 주시던 그 열정으로 꿈을 쫓아 나가길 원하실 거라는 것을 깨달았어요. 제 아픔을 동기부여로 전환해, 그가 항상 응원하던 것을 자랑스럽게 이루기로 결심했어요. 여정은 쉽지 않았어요; 슬픔이 압도적으로 다가오는 날들도 있었지만, 그가 멀리서 나를 지켜보며 이끌고 계신다는 믿음에 모든 것을 버텼어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 63세에서 막혔을지언정, 언제나 나는 이 삶을 계속할 것이다. 세상은 여전히 도는 중이고, 산소는 여전히 내 폐를 채우고, 비는 여전히 쏟아지고, 태양은 여전히 빛나며, 나는 여전히 살아 있다. 매일은 그의 유산에 대한 증거이자, 나에게 부여한 사랑과 지혜를 반영한다. 나는 행동, 성취, 그리고 내가 되고 있는 사람을 통해 그의 추억을 존중하기 위해 노력한다. 우리는 언젠가 하늘에서 만날 것이며, 그 때까지 언제나 최선을 다하겠다. 항상 그리워, 아빠님.

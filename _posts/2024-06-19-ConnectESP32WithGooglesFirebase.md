@@ -3,17 +3,13 @@ title: "ESP32를 Google의 Firebase와 연결하기"
 description: ""
 coverImage: "/assets/img/2024-06-19-ConnectESP32WithGooglesFirebase_0.png"
 date: 2024-06-19 05:32
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-ConnectESP32WithGooglesFirebase_0.png
 tag: Tech
 originalTitle: "Connect ESP32 With Google’s Firebase"
 link: "https://medium.com/@zalamayank2005/connect-esp32-with-googles-firebase-efb98b7b8eaa"
 isUpdated: true
 ---
-
-
-
-
 
 ## 이 기사에서📜는 ESP32를 Google Firebase에 가장 빠르게⚡ 연결하는 방법을 보여드리겠습니다. 기대되시나요? 🤩
 
@@ -23,7 +19,18 @@ ESP32 개발 보드, LED💡, 브레드보드,
 
 습도 센서 (DHT11)⛅
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # ➡️ Firebase에서 백엔드 설정:
 
@@ -33,7 +40,18 @@ ESP32 개발 보드, LED💡, 브레드보드,
 
 ![이미지](/assets/img/2024-06-19-ConnectESP32WithGooglesFirebase_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 프로젝트에 대해 "Google Analytics 사용" 옵션을 비활성화하세요. 이 프로젝트에는 필요하지 않습니다.
 
@@ -43,8 +61,18 @@ ESP32 개발 보드, LED💡, 브레드보드,
 
 Firebase가 프로젝트 설정을 시작합니다. 설정이 완료되면 '계속'을 선택하고, Firebase 콘솔의 프로젝트 개요 페이지로 이동하게 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-ConnectESP32WithGooglesFirebase_2.png" />
 
@@ -54,8 +82,18 @@ Firebase가 프로젝트 설정을 시작합니다. 설정이 완료되면 '계�
 
 <img src="/assets/img/2024-06-19-ConnectESP32WithGooglesFirebase_3.png" />
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-ConnectESP32WithGooglesFirebase_4.png" />
 
@@ -65,7 +103,18 @@ Firebase가 프로젝트 설정을 시작합니다. 설정이 완료되면 '계�
 
 # ➡️실시간 데이터베이스 설정:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로는 모든 센서 데이터를 보유할 데이터베이스를 만들어야 합니다. 이를 위해 왼쪽 상단의 실시간 데이터베이스 메뉴 옵션을 선택하면 실시간 데이터베이스 페이지로 이동됩니다. 데이터베이스 생성 메뉴를 초기화하려면 데이터베이스 만들기 버튼을 선택하세요.
 
@@ -75,8 +124,18 @@ Firebase가 프로젝트 설정을 시작합니다. 설정이 완료되면 '계�
 
 데이터베이스 생성 메뉴에서 가장 가까운 위치를 선택하고 다음을 선택하세요. 데이터베이스를 잠긴 모드 또는 테스트 모드로 초기화할 수 있는 옵션이 표시됩니다. 일단 테스트 모드를 선택하세요. 주요 차이점은 테스트 모드에서는 30일 동안 데이터베이스에 대한 무단 액세스를 허용하는 데이터베이스 액세스 규칙이 적용된다는 것입니다. 프로젝트를 본격적으로 운용할 계획이라면 향후에 이 기능을 비활성화해야 합니다. 활성화 버튼을 선택하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-19-ConnectESP32WithGooglesFirebase_8.png)
 
@@ -86,8 +145,18 @@ Rule을 클릭하고 아래 그림에 표시된 대로 코드를 변경하세요
 
 ![image](/assets/img/2024-06-19-ConnectESP32WithGooglesFirebase_9.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # ➡️ C 언어로 Arduino IDE 설정 및 코드 설명:
 
@@ -97,7 +166,18 @@ Rule을 클릭하고 아래 그림에 표시된 대로 코드를 변경하세요
 
 우리가 해야 할 첫 번째 작업은 응용 프로그램에서 필요한 모든 라이브러리를 가져오는 것입니다. Arduino 라이브러리는 기본적으로 이미 설치되어 있어야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 #include <Arduino.h>
@@ -116,8 +196,18 @@ Rule을 클릭하고 아래 그림에 표시된 대로 코드를 변경하세요
 
 다음으로 Wi-Fi 자격 증명을 캡처해야 합니다. WIFI_AP를 Wi-Fi 식별자로, WIFI_PASSWORD를 Wi-Fi 암호로 대체하세요.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 참고: 임베디드 애플리케이션에 패스워드 정보를 하드코딩하는 것은 좋지 않은 아이디어입니다. 실제 제품 케이스의 경우 안전한 장치 등록 프로세스를 포함한 장치 프로비저닝 전략을 적용해야 합니다.
 
@@ -130,7 +220,18 @@ Rule을 클릭하고 아래 그림에 표시된 대로 코드를 변경하세요
 
 ![이미지](/assets/img/2024-06-19-ConnectESP32WithGooglesFirebase_10.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-ConnectESP32WithGooglesFirebase_11.png" />
 
@@ -149,7 +250,18 @@ FirebaseAuth auth;
 FirebaseConfig config;
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로 유용한 몇 가지 전역 변수를 정의합니다.
 
@@ -159,7 +271,7 @@ unsigned long sendDataPrevMillis = 0;
 bool ledStatus=false;
 float temp=0;
 float humidity=0;
-#define LED_PIN 22 // for led pin 
+#define LED_PIN 22 // for led pin
 
 #include <DHT.h>  // for humidity sensor
 DHT dht(26,DHT11);
@@ -169,7 +281,7 @@ DHT dht(26,DHT11);
 
 ```js
 void setup() {
-  
+
   Serial.begin(115200);
   dht.begin();
   pinMode(LED_PIN,OUTPUT);
@@ -202,11 +314,22 @@ if(!Firebase.RTDB.beginStream(&fbdo_s1,"/LED/digital")){
 
   Serial.println("실패: "+fbdo_s1.errorReason());
 }
- 
+
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 void loop() 함수 안에 아래 코드를 복사하여 붙여넣기 해주세요:
 
@@ -229,7 +352,7 @@ void loop() {
     else{
       Serial.println("실패 : "+fbdo.errorReason());
     }
-  
+
     if(Firebase.RTDB.setFloat(&fbdo,"Sensor/humidity_data",humidity)){
    Serial.println();
    Serial.print(humidity);
@@ -241,22 +364,22 @@ void loop() {
       Serial.println("실패 : "+fbdo.errorReason());
     }
     }
-// LED를 위한 스팀 빌더    
+// LED를 위한 스팀 빌더
 
 if(Firebase.ready() && signUpOK){
 
-    
+
   if(!Firebase.RTDB.readStream(&fbdo_s1)){
- 
+
     Serial.println("실패 : "+fbdo_s1.errorReason());
   }
-     
+
      if(fbdo_s1.streamAvailable()){
      if(fbdo_s1.dataType()== "boolean"){
     ledStatus=fbdo_s1.boolData();
 Serial.println("성공적으로 읽어왔습니다: "+fbdo_s1.dataPath()+ " - ("+fbdo_s1.dataType()+")");
       if(ledStatus==true){
-      digitalWrite(LED_PIN,HIGH);  
+      digitalWrite(LED_PIN,HIGH);
       }
       else{
         digitalWrite(LED_PIN,LOW);
@@ -268,7 +391,7 @@ Serial.println("성공적으로 읽어왔습니다: "+fbdo_s1.dataPath()+ " - ("
     }
     }
 
-    } 
+    }
 
 }
 ```
@@ -277,7 +400,18 @@ Serial.println("성공적으로 읽어왔습니다: "+fbdo_s1.dataPath()+ " - ("
 
 ESP32에 코드를 업로드하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # ➡️ 다음 부분:
 

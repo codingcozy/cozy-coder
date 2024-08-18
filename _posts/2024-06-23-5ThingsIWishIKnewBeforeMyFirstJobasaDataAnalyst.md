@@ -3,18 +3,13 @@ title: "처음 데이터 분석가로 일하기 전에 알았더라면 좋았을
 description: ""
 coverImage: "/assets/img/2024-06-23-5ThingsIWishIKnewBeforeMyFirstJobasaDataAnalyst_0.png"
 date: 2024-06-23 16:01
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-5ThingsIWishIKnewBeforeMyFirstJobasaDataAnalyst_0.png
 tag: Tech
 originalTitle: "5 Things I Wish I Knew Before My First Job as a Data Analyst"
 link: "https://medium.com/learning-data/5-things-i-wish-i-knew-before-my-first-job-as-a-data-analyst-3bdef1f2c6f"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![Image](/assets/img/2024-06-23-5ThingsIWishIKnewBeforeMyFirstJobasaDataAnalyst_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 # 1. 만약 팀에서 유일한 기술 직군인 경우, 동료들이 당신이 하는 일을 이해하지 못할 수도 있어요. 상황에 따라 괜찮을 수도 있지만, 비극적일 수도 있어요.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 면접 때, 팀 내에서 당신이 유일한 기술 담당자인 지 판단해 보세요. 만약 당신이 유일한 기술 담당자라면, 이게 괜찮을 수도 있어요 — 동료들이 당신이 학습 중이며 전문 분야를 벗어난 특정 작업이 있을 수 있다는 것을 이해하고, 당신을 지원하고 당신의 편에 서 있을 매니저도 존재한다면요. 하지만, 여전히 첫 번째 기술 직무에서 '독립 작업'을 권하지는 않을 거예요.
 
@@ -35,7 +40,18 @@ isUpdated: true
 
 반면에, 기술팀이나 데이터 팀의 일부가 되어 있다면, 더 경험이 많은 기술 인들로부터 배울 수 있고, 그들을 멘토로 활용할 수 있어요. 또한, 다른 직원이 기술 요청을할 때 당신이 속한 티켓 시스템을 통해 제출할 수 있어요. 이를 통해 당신과 팀원들이 과제를 나눠 수행할 수 있어요. 이는 데이터/기술 요청을 담당하는 사람이 한 명에게 모든 부담이 집중되지 않게 도와줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2. 많은 시간을 데이터 정리에 할애하게 될 거에요.
 
@@ -45,7 +61,18 @@ isUpdated: true
 
 준비를 위해: Excel 스프레드시트 데이터를 정리하는 연습을 하세요. 데이터 정리에 관련된 기사와 YouTube 영상을 살펴보세요. ChatGPT에게 오류가 있는 더미 Excel 스프레드시트를 생성하도록 요청하고, Excel 수식을 사용하여 데이터를 정리하는 연습을 해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3. 사람들은 항상 당신의 숫자들에 만족스러워 하지 않을 수 있어요.
 
@@ -53,7 +80,18 @@ isUpdated: true
 
 "메신저를 쏘지 말라" 상황을 미리 예방하기 위해 데이터 프로젝트를 수행하기 전에 상사와 명확한 명세를 확립하세요. 어떤 값을 계산할 것인지, 어떻게 계산할 것인지 등을 정하세요. 이러한 명세에 대해 상사나 관련 이해 관계자들로부터 승인을 받고, 정확한 연도 대비 분석을 위해 보고서 표준화의 중요성을 강조하세요. 예를 들어, 매년 서로 다르게 계산한 평균값을 보고하고 있다면 조직이 더 나아지고 있는지 아니면 나빠지고 있는지 알 수 없을 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4. 직무 설명은 매일 하는 일과 매우 다를 수 있습니다.
 
@@ -63,7 +101,18 @@ isUpdated: true
 
 이것은 괜찮을 수도 있습니다 - 여전히 학습 중이고, 자극적인 프로젝트를 수행하고, 이력서에 어떤 지표들을 기록하고 있다면요. 반면에, 특정 고급 기술을 습득할 것으로 생각했지만 매일 엑셀에서 작업하고 있다면 당황스러울 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 5. 팀에 다른 기술 인력이 있다고 해서 그들이 당신을 교육할 시간이나 전문 지식을 가지고 있다는 것은 아닙니다.
 
@@ -73,7 +122,18 @@ isUpdated: true
 
 만약 있다면:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - "그들의 일상 업무는 무엇인가요?"
 - "그들의 업무 범위가 제 업무와 중복되기도 하나요?"

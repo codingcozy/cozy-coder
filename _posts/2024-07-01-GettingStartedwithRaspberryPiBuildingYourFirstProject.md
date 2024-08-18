@@ -3,17 +3,13 @@ title: "라즈베리 파이 시작하기 첫 번째 프로젝트 만드는 방�
 description: ""
 coverImage: "/assets/img/2024-07-01-GettingStartedwithRaspberryPiBuildingYourFirstProject_0.png"
 date: 2024-07-01 17:45
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-01-GettingStartedwithRaspberryPiBuildingYourFirstProject_0.png
 tag: Tech
 originalTitle: "Getting Started with Raspberry Pi: Building Your First Project"
 link: "https://medium.com/@thisistamim/getting-started-with-raspberry-pi-building-your-first-project-fe2291f96ab3"
 isUpdated: true
 ---
-
-
-
-
 
 ![Getting Started with Raspberry Pi](/assets/img/2024-07-01-GettingStartedwithRaspberryPiBuildingYourFirstProject_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 시작하려면 다음 구성품이 필요합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Raspberry Pi (모델 3 이상 권장)
 - Raspberry Pi OS가 설치된 MicroSD 카드 (적어도 8GB)
@@ -44,7 +51,18 @@ isUpdated: true
 
 ## 단계 2: LED 깜박임 프로그램 작성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 터미널 열기: 작업 표시 줄에서 터미널 아이콘을 클릭하여 명령줄 인터페이스를 엽니다.
 - GPIO 라이브러리 설치: 다음 명령을 입력하여 GPIO 라이브러리가 설치되어 있는지 확인합니다:
@@ -77,7 +95,18 @@ finally:
     GPIO.cleanup()
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. 스크립트 저장: 스크립트를 blink.py로 저장해 주세요.
 
@@ -90,8 +119,18 @@ finally:
   - 라즈베리 파이의 GPIO 핀 18번에서 LED의 양극에 점퍼 와이어를 연결하세요.
   - 브레드보드의 그라운드 레일에서 라즈베리 파이의 GND 핀에 접지 핀용 점퍼 와이어를 연결하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-01-GettingStartedwithRaspberryPiBuildingYourFirstProject_1.png)
 
@@ -103,7 +142,18 @@ finally:
 python3 blink.py
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. LED 깜박임 확인: 만약 모든 것이 제대로 연결되어 있다면 LED가 1초마다 켜졌다가 꺼졌다가 할 것입니다.
 

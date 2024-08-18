@@ -3,17 +3,13 @@ title: "AI의 역사 파트 1 인공지능의 기원과 발전"
 description: ""
 coverImage: "/assets/img/2024-06-27-AHistoryofAIPart1_0.png"
 date: 2024-06-27 19:02
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-27-AHistoryofAIPart1_0.png
 tag: Tech
 originalTitle: "A History of AI (Part 1)"
 link: "https://medium.com/on-technology/a-history-of-ai-part-1-146aebb2388c"
 isUpdated: true
 ---
-
-
-
-
 
 ## 인공지능 연구 논문
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 퍼셉트론: 뇌 내 정보 저장 및 조직화를 위한 확률 모델, Frank Rosenblatt (1958)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 논문은 더 복잡한 신경망(예: 심층 신경망) 및 기계 학습 알고리즘의 개발을 위한 기초를 마련했습니다. 기계가 데이터로부터 학습할 수 있는 방법을 보여주었습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 오류를 역전파함으로써 표현을 학습하는 것, David E. Rumelhart, Geoffrey E. Hinton & Ronald J. Williams (1986)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 논문은 역전파 알고리즘을 소개함으로써 인공 신경망 분야를 혁신하였습니다. 이 알고리즘은 다층 신경망(다층 뉴런으로 이루어진 신경 네트워크)을 학습할 수 있도록 하여 딥 러닝의 발전을 이끌었습니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 효율적인 역전파 구현은 대게 미분법의 연쇄 법칙을 통해 가능하며, 네트워크의 가중치를 조정하는 데 필요한 그래디언트를 체계적으로 계산할 수 있게 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 의사 결정 트리
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 의사 결정 트리는 입력 데이터의 특징에서 유도된 규칙의 계층 구조에 기반하여 결정을 내리는 분류 및 회귀 작업에 사용되는 모델입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결정 트리를 효율적으로 합성하는 것은 정확도와 계산 자원을 최적화하는 방식으로 트리를 구성하는 것을 의미하며, 소음 및 불완전한 정보를 효과적으로 처리합니다.
 
@@ -63,7 +103,18 @@ ID3(반복 이분화기 3)는 정보 이득을 최대화하는 속성을 기반�
 
 # Hidden Markov Models
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 음성인식의 숨겨진 마르코프 모델 및 선택된 응용 프로그램에 대한 교재, L.R. 라비너 (1989)
 
@@ -73,7 +124,18 @@ ID3(반복 이분화기 3)는 정보 이득을 최대화하는 속성을 기반�
 
 숨겨진 마르코프 모델(HMM)은 모델링되는 시스템이 감지되지 않은(숨겨진) 상태로 마르코프 프로세스를 따른다고 가정하는 통계 모델로, 관찰된 데이터가 이러한 숨겨진 상태와 확률적으로 연결되어 있다는 직관을 가지고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HMM의 세 가지 기본 문제는 다음과 같습니다: 평가 문제(관측된 시퀀스의 확률 계산), 디코딩 문제(숨겨진 상태의 가장 가능성 있는 시퀀스 결정), 학습 문제(데이터로부터 모델 매개변수 추정).
 
@@ -83,7 +145,18 @@ Rabiner은 음성 신호를 숨겨진 상태의 시퀀스로 모델링하여 음
 
 다층 피드포워드 네트워크는 1989년 Kurt Hornik, Maxwell Stinchcombe, Halbert White에 의해 제안된 보편적 근사자입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 논문은 신경망의 범용 근사 능력에 대한 이론적 기반을 수립하여, 심지어 단순한 신경망 구조조차 복잡한 함수를 원하는 정확도로 근사할 수 있다는 것을 입증했습니다. 이로 인해 다양한 응용 프로그램에서 신경망의 광범위한 사용과 개발이 가능해졌습니다.
 
@@ -93,7 +166,18 @@ Rabiner은 음성 신호를 숨겨진 상태의 시퀀스로 모델링하여 음
 
 임의의 압축 함수는 신경망에서 사용되는 활성화 함수의 한 유형으로, 실수 값 입력을 유계 출력에 매핑하여 일반적으로 입력을 유한 범위로 압축합니다. 이 함수에는 시그모이드 또는 tanh 함수가 포함됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 유니버설 근사기는 충분한 자원(예: 신경망의 충분한 숨겨진 유닛과 같은)가 주어진 경우, 어떤 함수든 원하는 수준의 정확도로 근사할 수 있는 모델 또는 수학적인 함수입니다.
 
@@ -103,7 +187,18 @@ Bernhard E. Boser, Isabelle M. Guyon, 그리고 Vladimir N. Vapnik (1992)의 최
 
 본 논문은 서포트 벡터 머신(Support Vector Machines, SVMs)을 소개했는데, 이는 클래스 간의 여백을 최대화하고 모델 복잡성을 자동으로 조절하여 광범위한 응용 프로그램(예: 광학 문자 인식)에서 일반화 및 견고성을 향상시킬 수 있는 분류 작업의 기본 도구로 자리 잡았습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 서포트 벡터 머신(Support Vector Machine, SVM)은 분류 및 회귀에 사용되는 지도 학습 알고리즘으로, 서로 다른 클래스 간의 간격을 최대화하는 최적의 초평면을 찾습니다.
 
@@ -113,17 +208,39 @@ SVM 알고리즘은 지원 패턴을 이용해 클래스 간 간격을 최대화
 
 Leave-one-out 방법은 교차 검증 기술 중 하나로, 모델은 특정 훈련 패턴을 제외하고 학습되며, 이 프로세스는 각 패턴에 대해 반복되어 모델의 일반화 성능을 추정합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 VC-차원(밥닉-체르보넨키스 차원)은 일련의 함수 집합의 용량 또는 복잡성을 측정하는 것으로, 모델에 의해 완벽하게 분류된 포인트의 최대 개수를 나타냅니다.
 
-## Bagging 
+## Bagging
 
 백팩 예측자, 레오 브레이먼(1996)
 
 이 논문은 앙상블 방법론의 개념을 도입하여 예측 정확도를 향상시키는 여러 모델을 결합하는 방법에 영향을 주었으며, 부트스트랩 반복 및 예측자 불안정성의 중요성을 강조함으로써 기계 학습 분야에 상당한 영향을 미쳤습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기계 학습에서의 앙상블 방법은 단일 모델 사용보다 전체 예측 정확도와 견고성을 향상시키기 위해 여러 모델을 결합하는 기술입니다.
 
@@ -133,7 +250,18 @@ VC-차원(밥닉-체르보넨키스 차원)은 일련의 함수 집합의 용량
 
 부트스트래핑은 데이터 집합에서 대체 샘플링을 통해 여러 새로운 훈련 세트를 생성하는 통계적 방법이며, 부트스트랩 복제본은 이러한 새로운 훈련 세트 중 하나를 의미합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 합성곱 신경망
 
@@ -143,9 +271,20 @@ Yann LeCun, Léon Bottou, Yoshua Bengio, and P. Haffner이(가) 쓴 article인 "
 
 합성곱 연산은 입력(예: 이미지)에 필터를 적용하여 입력의 특정 측면(예: 이미지의 가장자리)을 강조하는 출력 feature map을 생성하는 수학적 과정입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-합성곱 신경망(CNNs)은 그리드 형태의 위상을 가진 데이터, 예를 들어 이미지와 같은 데이터를 처리하고 분석하기 위해 특별히 설계된 심층 신경망의 한 종류입니다. 합성 계층을 사용하여 공간적으로 계층화된 특징들을 자동적으로 적응적으로 학습합니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+합성곱 신경망(CNNs)은 그리드 형태의 위상을 가진 데이터, 예를 들어 이미지와 같은 데이터를 처리하고 분석하기 위해 특별히 설계된 심층 신경망의 한 종류입니다. 합성 계층을 사용하여 공간적으로 계층화된 특징들을 자동적으로 적응적으로 학습합니다.
 
 고차원 패턴이라는 용어는 많은 속성 또는 특징을 가진 데이터로, 이로 인해 분류나 분석이 복잡하고 어렵습니다. 예를 들어 손글씨 문자와 같은 것이 있습니다.
 
@@ -153,7 +292,18 @@ Yann LeCun, Léon Bottou, Yoshua Bengio, and P. Haffner이(가) 쓴 article인 "
 
 전역 훈련은 시스템의 여러 구성 요소 또는 모듈을 통합된 목표를 사용하여 동시에 훈련시키는 프로세스로, 시스템 전체를 단독 부분이 아닌 통합적으로 최적화할 수 있도록 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 읽어 주셔서 감사합니다! 피드백을 환영합니다! 특히 중요한 연구를 놓치지 않았는지 생각하신다면 더욱 감사하겠습니다.
 

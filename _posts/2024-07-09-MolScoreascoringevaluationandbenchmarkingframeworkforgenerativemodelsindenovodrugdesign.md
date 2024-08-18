@@ -3,17 +3,13 @@ title: "MolScore 신약 개발 최적화 위한 생성 모델 평가 및 벤치�
 description: ""
 coverImage: "/assets/img/2024-07-09-MolScoreascoringevaluationandbenchmarkingframeworkforgenerativemodelsindenovodrugdesign_0.png"
 date: 2024-07-09 11:29
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-MolScoreascoringevaluationandbenchmarkingframeworkforgenerativemodelsindenovodrugdesign_0.png
 tag: Tech
 originalTitle: "MolScore: a scoring, evaluation and benchmarking framework for generative models in de novo drug design"
 link: "https://medium.com/@mykola.protopopov/molscore-a-scoring-evaluation-and-benchmarking-framework-for-generative-models-in-de-novo-drug-bcdb8a41471e"
 isUpdated: true
 ---
-
-
-
-
 
 현대 유폴모델에 기반을 둔 생성 모델은 새로운 약품 디자인에 강력한 접근 방식을 제공하며, 특정 원하는 특성을 갖춘 소발의 약물 분자를 만드는 것을 가능하게 합니다. 몇 가지 도전 과제에도 불구하고, 모델 아키텍처와 교육 기술의 발전은 그들의 능력을 계속 향상시키고 있습니다.
 
@@ -23,7 +19,18 @@ MolScore와 기존 소프트웨어/벤치마킹 솔루션 비교
 
 MolScore는 데노보 분자 생성을 위해 가장 일반적으로 사용되는 일곱 가지 다른 소프트웨어 및 벤치마킹과 비교되었습니다. GuacaMol에서 사용된 방식은 최상의 생성 모델을 충분히 분리하지 못했습니다. MolOpt는 생성된 화학물질 유형에 적절한 평가가 없습니다. MOSES 벤치마크는 분자 최적화에 적용되지 않고 배포 학습에만 초점을 맞추고 있습니다. 도킹 벤치마크(smina-docking-benchmark, DOCKSTRING, 그리고 TDC)는 실제로 실용적인 분자가 아닌 정규화되지 않은 또는 도메인 밖의 분자를 생성할 수 있는 높은 성능의 생성 모델을 순위로 매길 수 있습니다. 또한, 도킹 벤치마크 중 어떤 것도 완전한 리간드 준비를 수행하지 않습니다. REINVENT의 주요 단점은 패키지가 해당 생성 모델과만 통합되어 있다는 것입니다. 이 모든 단점들은 MolScore에서 거의 모두 제거되었으며, 더불어 위에서 언급된 솔루션들의 최상의 요소들을 결합했습니다. 이 플랫폼은 기존의 벤치마크들을 통합하고, 새로운 벤치마크를 공유할 수 있는 플랫폼을 제공하고 있으며, 실무자들을 위한 맞춤화, 유연성, 사용 용이성을 향상시키는 중요한 발전을 이루고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **두 가지 MolScore 서브 패키지**
 
@@ -33,7 +40,18 @@ MolScore는 데노보 분자 생성을 위해 가장 일반적으로 사용되�
 
 **Molscore 사례 연구**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Molscore를 응용한 의약품 설계가 실제로 이루어졌는데, 이를 통해 심리증 및 약물 남용에서 나타나는 치료 대상인 5-HT 2A 수용체를 위한 새로운 리간드를 생성했습니다. 이를 위해 분자 최적화를 위한 반복 신경망 생성 모델을 사용했습니다.
 
@@ -43,7 +61,18 @@ Molscore를 응용한 의약품 설계가 실제로 이루어졌는데, 이를 �
 
 세 번째 목표 세트는 구조 기반 원칙을 활용하여 설계되었는데, 구조 기반 점수 기능이 새로운 분자 다양성과 생물활성화학 공간의 포용력을 향상시킨다는 것이 입증되었기 때문입니다. 연구를 위해, 신세계적 대학살안정신과제 약인 리스페리돈과 관련된 5-HT 2A 및 D2의 공결 구조가 사용되었습니다. 분자 도킹 점수 최적화가 새로운 디자인에 대한 훨씬 어려운 목표임이 입증되었지만, 리스페리돈의 결합 포켓과 결합 방식의 근접한 유사성 때문에 발생하는 것이었습니다. 그러나, 여전히 새로운 화학 및 그 결과물에 영향을 미치고, 실제 실무에서 여전히 유용성이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **Moleval 사례 연구**
 
@@ -53,7 +82,18 @@ Molscore를 응용한 의약품 설계가 실제로 이루어졌는데, 이를 �
 
 MolScore를 향상시킬 수 있는 많은 기회가 분명히 있습니다. 개발자들이 약속했듯이 최적화가 곧 계획되어 있으며 추가 점수 기능 및 성과 평가 기능의 도입, 3D 구조를 입력으로 받아들일 수 있는 기능, 그리고 최적화 중에 업데이트할 수 있는 동적 구성 파일을 통합하여 커리큘럼 학습에 사용하기 위해 준비 중에 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 게시물은 본문이 게재된 기사를 기반으로 합니다. 전체 버전은 여기에서 찾을 수 있어요.
 

@@ -3,18 +3,13 @@ title: "SearchGPT가 Google 검색을 대체하지 못하는 이유"
 description: ""
 coverImage: "/assets/img/2024-07-27-SearchGPTWillNotKillGoogleSearchHereisWhyIKnow_0.png"
 date: 2024-07-27 13:49
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-27-SearchGPTWillNotKillGoogleSearchHereisWhyIKnow_0.png
 tag: Tech
 originalTitle: "SearchGPT Will Not Kill Google Search Here is Why I Know"
 link: "https://medium.com/@tsecretdeveloper/searchgpt-will-not-kill-google-search-here-is-why-i-know-535b5a20c02e"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![image](/assets/img/2024-07-27-SearchGPTWillNotKillGoogleSearchHereisWhyIKnow_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 사용자로서, 우리는 더 나은 검색의 미래를 가지고 있습니다. 요약, 시각적 답변 및 후속 질문을 하기 위한 능력. 더 나은 검색 경험이 필요할 수도 있고, OpenAI는 이를 제공할 수 있다고 말합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 패닉
 
@@ -35,7 +40,18 @@ isUpdated: true
 
 구글은 아직 패닉할 필요가 없습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에 있어요.
 

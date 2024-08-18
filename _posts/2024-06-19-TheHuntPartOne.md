@@ -3,17 +3,13 @@ title: "사냥 첫 번째 이야기"
 description: ""
 coverImage: "/assets/img/2024-06-19-TheHuntPartOne_0.png"
 date: 2024-06-19 18:33
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-TheHuntPartOne_0.png
 tag: Tech
 originalTitle: "The Hunt : Part One"
 link: "https://medium.com/@chotinaakwali/the-hunt-part-one-a499df8b8a1f"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-19-TheHuntPartOne_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 더 나아가며, 그들은 외계인 하늘을 바라보며 자신들이 더 이상 지구에 있지 않음을 깨닫습니다. 이 곳은 사람들과 다른 동물들이 죽는 사냥터로 사용됩니다. 미겔은 살해되고, 그의 시체는 생존자들을 함정에 빠뜨리기 위해 사용됩니다. 그룹은 야수의 자취를 따라가 어느 캠프로 도착하게 되고, 거기서 프레데터가 잡혀 있는 것을 발견합니다. 그들의 사냥꾼인 트래커, 버서커, 그리고 팔코너라고 불리는 세 마리 큰 생물이 그룹을 공격하고, 코피를 죽입니다. 다른 이들은 탈출합니다. 레아의 고백한 '킬러'는 1987년 과테말라에서 특수 부대를 살해한 유사한 생물의 설명과 일치하지만 생존자에 의해 물리쳐지기도 했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![TheHuntPartOne_2.png](/assets/img/2024-06-19-TheHuntPartOne_2.png)
 
@@ -33,8 +40,18 @@ isUpdated: true
 
 그에 이어 발생한 추격전에서 이반은 트래커를 죽이고 이단을 구하기 위해 자신을 희생합니다. 생존자들은 버서커에게 공격을 받지만 라스가 버서커의 주의를 분산시키고 다른 이들이 도망칠 수 있게 해줍니다. 하오는 가브리엘로부터 숨어 두었던 카타나로 파울코너와 결투를 벌이며 그를 죽이고 자신의 상처로 인해 죽습니다. 이단이 드레이크의 계획을 이어가길 희망하지만 함정에 걸려 부상을 입습니다. 리아가 그를 떠나지 않겠다고 하자 드레이크는 그들을 남겨두고 떠납니다. 그들은 버서커들에게 잡혀 구멍 속에 갇히고 캠프를 향해 계속 나아갑니다. 드레이크는 지구로 이동하기 위해 포식자들을 해방합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-TheHuntPartOne_4.png)
 

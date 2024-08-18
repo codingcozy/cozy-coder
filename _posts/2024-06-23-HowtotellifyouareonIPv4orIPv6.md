@@ -3,17 +3,13 @@ title: "IPv4 또는 IPv6 사용 여부 확인하는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-23-HowtotellifyouareonIPv4orIPv6_0.png"
 date: 2024-06-23 17:04
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-HowtotellifyouareonIPv4orIPv6_0.png
 tag: Tech
 originalTitle: "How to tell if you are on IPv4 or IPv6"
 link: "https://medium.com/gitconnected/how-to-tell-if-you-are-on-ipv4-or-ipv6-1f33d8a1bf06"
 isUpdated: true
 ---
-
-
-
-
 
 웹이 다음 세대의 인터넷 주소 체계로 천천히 이동함에 따라, 사람들, 기업, 기술 관리자 및 서버 관리팀이 그들의 인터넷 연결 장치가 IPv4 또는 IPv6를 사용 중인지 쉽고 편리하게 확인할 수 있는 방법이 점점 더 중요해질 것입니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 요약;
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 브라우저, 명령 프롬프트, 터미널 또는 앱을 통해 IPv4 또는 IPv6를 확인할 수 있어요. 자세한 내용은 https://i-p.show/ 에서 확인할 수 있어요.
 
@@ -33,11 +40,33 @@ IP 주소는 인터넷에 연결된 각 컴퓨터에 할당된 고유한 숫자�
 
 이 모든 것이 복잡해 보일 수 있지만, 요약하면, 인터넷에 연결된 모든 컴퓨터는 자체 식별 번호를 가지고 있어요. 각 번호는 유일해야 하며 (IPv4가 완전히 중단되고 나면 걱정할 필요가 없는 NAT로 들어가면 더 기술적으로 들어가야 할 수도 있지만) 다음과 같은 모양을 하고 있어요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반적인 인터넷 사용에서는 이러한 숫자를 볼 수 없습니다. 보통 이러한 숫자들은 도메인 이름에 의해 숨겨지는데요. www.google.com 또는 www.twitter.com과 같은 도메인 이름으로 대체됩니다. 이 도메인 이름들이 IP 주소로 번역되긴 하지만, 인간에게는 도메인 이름을 기억하는 것이 훨씬 쉬운 작업입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작성 시점:
 
@@ -47,7 +76,18 @@ IP 주소는 인터넷에 연결된 각 컴퓨터에 할당된 고유한 숫자�
 
 # IPv4이란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 IPv4은 인터넷 프로토콜(IP)의 네 번째 버전으로, 인터넷에서 사용되는 주요 통신 프로토콜입니다. IPv4는 1980년대 초에 개발되었으며, 오늘날 가장 널리 사용되는 IP 버전입니다. 위에서 볼 수 있는 모든 IP 주소는 IPv4이며, 1~3개의 숫자로 나뉘어 소수점으로 구분된 4개 섹션을 가지는 것으로 알려져 있습니다. 이러한 것들은 32비트 주소라고 불립니다.
 
@@ -57,7 +97,18 @@ IPv6은 IPv4를 최종적으로 대체하도록 설계된 인터넷 프로토콜
 
 IPv6는 네트워크상의 컴퓨터에 대한 식별 및 위치 시스템을 제공하고 인터넷을 통해 트래픽을 라우팅하는 통신 프로토콜인 최신 버전의 인터넷 프로토콜(IP)입니다. IPv6는 IPv4가 제공하는 IP 주소보다 더 많은 IP 주소가 필요하다는 요구 때문에 1990년대 후반과 2000년대 초반에 개발되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 IPv6은 IPv4와 하위 호환성이 없다는 뜻입니다. 이는 IPv6를 사용하는 장치와 인프라는 IPv4를 사용하는 장치 및 인프라와 통신할 수 없다는 것을 의미합니다.
 
@@ -67,10 +118,20 @@ IPv6은 IPv4와 하위 호환성이 없다는 뜻입니다. 이는 IPv6를 사�
 
 2a00:1450:4009:817::200e
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 좋습니다. 아래는 Markdown 형식으로 변경한 것입니다.
-
 
 2606:4700:10::ac43:c22
 
@@ -80,8 +141,18 @@ IPv6 주소는 IPv4에 비해 더 복잡해 보입니다. 하지만 IPv4의 32�
 
 Google.com: 2a00:1450:4009:822::200e
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Twitter.com: 2022년 5월 기준으로 IPv6를 지원하지 않음
 
@@ -100,7 +171,18 @@ Twitter.com: 2022년 5월 기준으로 IPv6를 지원하지 않음
 - IPv4 주소는 점대점 통신에 사용될 수 있지만, IPv6 주소는 그렇지 않습니다.
 - IPv4 주소는 일반적으로 NAT를 사용하여 장치에 할당되지만, IPv6 주소는 그렇지 않습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # IPv6 성장률 확인하기
 
@@ -110,7 +192,18 @@ IPv6 성장률을 연간 기준으로 확인할 수 있습니다: [여기](https
 
 같은 컴퓨터나 기기에서 IPv4와 IPv6 둘 다 액세스할 수 있습니다. 그러나 한 번의 요청에서 둘 다 사용하는 일은 없습니다. IPv4 또는 IPv6 중 하나를 사용하게 됩니다. 인터넷 전체를 동시에 전환시키는 것이 불가능하기 때문에, ISP(Internet Service Provider)들이 하이브리드 솔루션을 구현하여 서버를 통해 한 프로토콜을 프록시로 전환하여 양쪽에 하이브리드 액세스를 허용하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 브라우저, 명령 프롬프트, 터미널 또는 앱에서 IPv4 또는 IPv6 상태를 확인할 수 있습니다. 여기서 확인해보세요: [https://i-p.show/](https://i-p.show/)
 
@@ -121,7 +214,18 @@ I-P.show를 사용하여 다음을 확인할 수 있습니다:
 - IPv4를 지원하는 장치인지 확인: [https://v4.i-p.show](https://v4.i-p.show)
 - IPv6를 지원하는 장치인지 확인: [https://v6.i-p.show](https://v6.i-p.show)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 연결이 둘 다 지원되면 웹 페이지에 연결하여 관련 있는 고유한 외부 IP 주소를 볼 수 있습니다. 둘 중 하나가 작동하지 않는다면, 아마도 v4 또는 v6을 지원하지 않는 기기에서 작동 중일 수 있습니다.
 
@@ -131,7 +235,18 @@ I-P.show를 사용하여 다음을 확인할 수 있습니다:
 
 curl을 사용하여:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```shell
 curl i-p.show
@@ -145,7 +260,18 @@ wget -qO - i-p.show
 
 또는 일반 텍스트로 방문: https://i-p.show/?plain=true
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상기 모든 사항은 각각의 버전을 통해서도 이용 가능합니다.
 
@@ -155,6 +281,17 @@ wget -qO - i-p.show
 
 이 도구가 도움이 되었다면, 혹은 피드백이나 제안이 있으시다면 여기에 알려주시면 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 감사합니다.

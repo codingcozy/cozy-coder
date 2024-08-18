@@ -3,17 +3,13 @@ title: "SwiftUI와 SceneKit을 사용하여 3D 에디터 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-23-Builda3DEditorinSwiftUIandSceneKit_0.png"
 date: 2024-07-23 21:45
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-23-Builda3DEditorinSwiftUIandSceneKit_0.png
 tag: Tech
 originalTitle: "Build a 3D Editor in SwiftUI and SceneKit"
 link: "https://medium.com/better-programming/build-a-3d-editor-in-swiftui-and-scenekit-7a680e95d8a"
 isUpdated: true
 ---
-
-
-
-
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*UcYgmZsPYcEV_imN4SM1RQ.gif)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 그래서 문제입니다. 목표는 이와 같은 사진을 만들 수 있는 3D 편집기를 구축하는 것이었어요. 하지만 그 당시 그것을 알지 못했지만, 일곱 가지 문제를 마주함과 동시에 해결해야 했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-23-Builda3DEditorinSwiftUIandSceneKit_0.png)
 
@@ -34,8 +40,18 @@ isUpdated: true
 
 # 도전 과제 1
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 잘 시작했어요, 적어도 폭발이 있었죠. 장면이 준비되어 있었고 터치 컨트롤도 준비되어 있었어요. 이게 첫 번째 도전 과제였죠. 제 장면에서 터치 이벤트가 발생한 위치를 감지할 수는 있었지만, 그것이 잘못된 좌표 공간에 있었어요. 둘 사이를 번역하는 루틴이 필요했는데, 말로 하기보다 실천하기가 쉽지 않았어요. SO에서 이 코드를 발견했어요.
 
@@ -45,7 +61,18 @@ isUpdated: true
 
 # 다음 도전 III
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 구조가 생기면서 새로운 문제가 발생했어요; 큐브를 서로 겹쳐 놓기가 너무 쉬웠어요. 서로 충돌하지 않도록 큐브가 피하도록 코드를 구현해야 했어요. 먼저 다른 Z 평면에 넣었지만, 카메라를 돌리면 평면이 바뀌어서 큐브 배치가 랜덤하게 보였어요. 그래서 worldPosition과 SO에서 또 다른 유용한 정보를 이용해 문제를 해결했어요.
 
@@ -55,7 +82,18 @@ isUpdated: true
 
 이제 큐브를 배치하고 생성된 모양을 회전시킬 수 있었지만, 잘못된 위치에 있는 것처럼 보이는 큐브를 이동시킬 수 있도록 하고 싶었어요. 그래서 팬 제스처를 도입했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 이 코드와 함께 즉시 나타난 두 가지 문제가 있었습니다. 먼저 팬 제스처가 작동 중이면 그림을 더 이상 회전시킬 수 없었습니다. 더 나빠진 것은 SwiftUI 제스처에서 너무 많은 간섭이 있을 것으로 의심했습니다. 때로는 작동하고 때로는 작동하지 않는 현상이 있었습니다.
 
@@ -65,7 +103,18 @@ isUpdated: true
 
 물론 모든 사람이 실수를 범하고, 실수로 큐브를 추가했다면 제거할 수 있는 방법이 필요했습니다. 이 코드로 긴 누름 제스처를 사용하여 그렇게 수행했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 거의 다 왔어요! 그러나 조정하는 방법이 드래그보다 조금 덜 자유로운 수단이 필요했어요.
 
@@ -75,7 +124,18 @@ isUpdated: true
 
 # 도전 과제 VII
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 해결책은 이전 것과 거의 동일하므로 지금은 코드를 건너뛰겠습니다. 문제는 카메라 확대 및 축소를 할 수 있기를 원했습니다. 제가 해결한 요구 사항은 두 개의 버튼을 사용하여 다시 한 번 worldPosition에 의존하여 카메라를 이동해야 할 방향을 알 수 있었습니다.
 

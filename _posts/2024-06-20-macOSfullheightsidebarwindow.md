@@ -3,17 +3,13 @@ title: "맥OS 풀 높이 사이드바 창"
 description: ""
 coverImage: "/assets/img/2024-06-20-macOSfullheightsidebarwindow_0.png"
 date: 2024-06-20 14:37
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-macOSfullheightsidebarwindow_0.png
 tag: Tech
 originalTitle: "macOS full height sidebar window"
 link: "https://medium.com/@bancarel.paul/macos-full-height-sidebar-window-62a214309a80"
 isUpdated: true
 ---
-
-
-
-
 
 요즘, macOS 앱에서 전체 높이 사이드바와 풍부한 툴바 및 타이틀바를 원했어요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 WindowGroup와 샘플 프로젝트에서 NavigationSplitView를 빠르게 경험했는데, 아주 쉽게 작동했어요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="https://miro.medium.com/v2/resize:fit:1200/1*H0R5oiWQVLVOyNl686y6RA.gif" />
 
@@ -33,7 +40,18 @@ WindowGroup와 샘플 프로젝트에서 NavigationSplitView를 빠르게 경험
 
 <img src="https://miro.medium.com/v2/resize:fit:1200/1*KeIibd3zjL-7Twq6vfFHtQ.gif" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 먼저 Xcode에서 창 보기 계층을 비교해 보려고 합니다:
 
@@ -42,10 +60,22 @@ WindowGroup와 샘플 프로젝트에서 NavigationSplitView를 빠르게 경험
 하지만 거의 비슷해 보입니다.
 
 많은 연구 끝에 다음을 발견하고 시청했습니다:
+
 - [SwiftUI 네비게이션 분할 보기에서 사이드바 버튼 사용하는 방법](https://stackoverflow.com/questions/78604429/using-sidebar-button-jump-in-swiftui-navigationsplitview-with-nshostingcontrolle/78615176#78615176)
 - [Apple 개발자 비디오](https://developer.apple.com/videos/play/wwdc2020/10104/)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저와 같이 프로젝트가 아직 SwiftUI 앱 라이프사이클로 전환되지 않았다면 다음과 같이 할 수 있습니다:
 
@@ -157,7 +187,18 @@ extension AppDelegate: NSToolbarDelegate {
 
 AppKit에서 NSSplitViewController를 사용하는 경우 코드가 조금 더 구체적이지만 윈도우의 styleMask에 .fullSizeContentView를 사용하고 sidebarTrackingSeparator를 사용하는 것이 주요 포인트입니다. AppKit은 sidebarTrackingSeparator를 이용하여 타이틀 바 내에 구분선을 배치하고 전체 높이의 바를 효과적으로 만듭니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼, 이제 yourNavigationSplitView가 WindowGroup를 사용했을 때와 동일한 스타일과 동작을 갖게 되었습니다.
 

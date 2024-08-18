@@ -3,17 +3,13 @@ title: "애니메이션 데이터셋으로 Gemma-2b-it 미세 조정하는 방�
 description: ""
 coverImage: "/assets/img/2024-06-22-FineTuningGemma-2b-itonAnimeDataset_0.png"
 date: 2024-06-22 20:45
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-FineTuningGemma-2b-itonAnimeDataset_0.png
 tag: Tech
 originalTitle: "Fine Tuning Gemma-2b-it on Anime Dataset"
 link: "https://medium.com/@sauravpattnaik2011/fine-tuning-gemma-2b-it-on-anime-dataset-a767e1bcdb96"
 isUpdated: true
 ---
-
-
-
-
 
 ![FineTuningGemma-2b-itonAnimeDataset](/assets/img/2024-06-22-FineTuningGemma-2b-itonAnimeDataset_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이 질문에 대답하기 위해 먼저 이 LLMs이(가) 인터넷에서 공개 데이터의 큰 말뭉치로 훈련되어 있으며 따라서 다양한 주제에 대한 아이디어를 가지고 있다는 것을 이해해야 합니다. 그러나 이들은 모든 주제에 대해 자세히 이해하거나 뱅킹이나 보험과 같은 개인 데이터에 대한 지식을 갖고 있지 않을 수도 있습니다. 특정 데이터에 대한 이해를 보완하기 위해, 우리는 그들을 이 특정 데이터에 대해 특별히 미세 조정합니다. 애니메이션 데이터는 공개적으로 이용 가능하지만, 이것들은 이 LLMs를 훈련하는 데 사용된 훈련 데이터의 매우 작은 조각일 수 있습니다. 따라서 LLMs가 애니메이션에 대한 개념을 가지고 있더라도, 그들의 정보 기반이 우리가 필요한 것만큼 풍부하지 않을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자원
 
@@ -34,7 +41,18 @@ isUpdated: true
 
 Colab을 사용하기를 강력히 권장드립니다. 로컬 머신에 강력한 GPU 기능이 없는 경우에 말이죠. 다음으로, 우리는 세밀 조정된 오픈 소스 LLM을 이해하는 데 도움이 되는 두 가지 중요한 개념을 먼저 이해할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LoRA & QLoRA
 
@@ -43,9 +61,20 @@ Gemma-2b 모델에는 20억 개의 매개변수가 있습니다(당연한 얘기
 - LoRA — 낮은 순위 적응
 - QLoRA — 양자화된 낮은 순위 적응
 
-LoRA — 이미 언급한 대로, 이러한 LLMs에는 수십억 개의 매개변수가 있습니다. 이러한 매개변수는 일반적으로 행렬로 표현됩니다. 이러한 고차원 행렬의 흥미로운 특성 중 하나는 완전 순위 행렬이 아니라는 것입니다. 즉, 행렬의 모든 열이 선형 독립이 아닙니다(한 열이 다른 열들의 선형 결합으로 표현될 수 있기 때문에 해당 열은 추가 정보를 제공하지 않고 차원만 늘려주는 것입니다). 그래서 LoRA는 이러한 거대한 가중치 행렬을 두 개의 작은 행렬인 A, B로 분해합니다. W = AB와 같이 W가 예를 들어 1000x1000 차원이라면, A는 1000xr 차원을 가지고 B는 r*1000 차원을 갖습니다. 그런 다음 세밀한 조정을 위해 이러한 작은 행렬의 매개변수를 조정하려고 시도합니다. r 하이퍼파라미터는 lora 구성을 정의할 때 선택하는 것입니다. r 값이 높을수록 우수한 결과를 얻을 수 있지만, 계산 능력이 필요하다는 대가가 따릅니다. 따라서 1000000 개의 매개변수를 조정해야 하는 대신, 대신 1000r + 1000r 개의 매개변수를 조정하게 됩니다. 일반적으로 r 값은 (8-64) 범위에 있으며 매우 높은 차원의 가중치 행렬을 다룰 때, 조정 가능한 매개변수 수가 상당히 줄어듭니다. 마지막으로 세밀한 조정 이후, 이러한 LoRA 가중치는 베이스 모델과 병합되어 세밀하게 조정된 단일 모델을 생성합니다.
+LoRA — 이미 언급한 대로, 이러한 LLMs에는 수십억 개의 매개변수가 있습니다. 이러한 매개변수는 일반적으로 행렬로 표현됩니다. 이러한 고차원 행렬의 흥미로운 특성 중 하나는 완전 순위 행렬이 아니라는 것입니다. 즉, 행렬의 모든 열이 선형 독립이 아닙니다(한 열이 다른 열들의 선형 결합으로 표현될 수 있기 때문에 해당 열은 추가 정보를 제공하지 않고 차원만 늘려주는 것입니다). 그래서 LoRA는 이러한 거대한 가중치 행렬을 두 개의 작은 행렬인 A, B로 분해합니다. W = AB와 같이 W가 예를 들어 1000x1000 차원이라면, A는 1000xr 차원을 가지고 B는 r\*1000 차원을 갖습니다. 그런 다음 세밀한 조정을 위해 이러한 작은 행렬의 매개변수를 조정하려고 시도합니다. r 하이퍼파라미터는 lora 구성을 정의할 때 선택하는 것입니다. r 값이 높을수록 우수한 결과를 얻을 수 있지만, 계산 능력이 필요하다는 대가가 따릅니다. 따라서 1000000 개의 매개변수를 조정해야 하는 대신, 대신 1000r + 1000r 개의 매개변수를 조정하게 됩니다. 일반적으로 r 값은 (8-64) 범위에 있으며 매우 높은 차원의 가중치 행렬을 다룰 때, 조정 가능한 매개변수 수가 상당히 줄어듭니다. 마지막으로 세밀한 조정 이후, 이러한 LoRA 가중치는 베이스 모델과 병합되어 세밀하게 조정된 단일 모델을 생성합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LoRA는 학습 매개변수의 수를 줄여주죠, 이제 모델을 파인 튜닝할 수 있을까요?
 
@@ -55,7 +84,18 @@ LoRA는 학습 매개변수의 수를 줄여주죠, 이제 모델을 파인 튜�
 
 필요한 이론을 모두 숙지한 후에 이제 코딩 섹션으로 넘어갈 차례입니다. 먼저 필요한 라이브러리를 설치하고 가져오는 것부터 시작하겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 !pip3 install -q -U bitsandbytes==0.42.0
@@ -80,31 +120,53 @@ from peft import LoraConfig, PeftModel, prepare_model_for_kbit_training, get_pef
 
 ```js
 bnb_config = BitsAndBytesConfig(
-    load_in_4bit=True,
-    bnb_4bit_use_double_quant=True,
-    bnb_4bit_quant_type="nf4",
-    bnb_4bit_compute_dtype=torch.bfloat16
-)
+  (load_in_4bit = True),
+  (bnb_4bit_use_double_quant = True),
+  (bnb_4bit_quant_type = "nf4"),
+  (bnb_4bit_compute_dtype = torch.bfloat16)
+);
 ```
 
 여기서 우리는 모델 웨이트를 4비트로 로드하고 싶다고 지정했습니다. "nf4"로 유형을 지정했는데, 이는 이전에 언급한 일반적인 부동 소수점을 의미합니다. 마지막 매개변수인 bnb_4bit_compute_dtype는 사용할 그래디언트의 데이터 유형을 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 모델을 다운로드하고 설정을 로드할 수 있습니다.
 
 ```js
-model_id = "google/gemma-2b-it"
+model_id = "google/gemma-2b-it";
 
-model = AutoModelForCausalLM.from_pretrained(model_id, quantization_config=bnb_config, device_map={"":0})
-tokenizer = AutoTokenizer.from_pretrained(model_id, add_eos_token=True)
+model = AutoModelForCausalLM.from_pretrained(model_id, (quantization_config = bnb_config), (device_map = { "": 0 }));
+tokenizer = AutoTokenizer.from_pretrained(model_id, (add_eos_token = True));
 ```
 
 참고로, Gemma를 사용하려면 먼저 액세스를 요청해야 합니다. 그리고 다운로드하려면 먼저 hugging face에 로그인하여 액세스 토큰을 제공해야 다운로드할 수 있습니다. 위의 코드 셀을 실행하기 전에 huggingface_hub의 notebook_login을 사용하고 액세스 토큰을 제공하는 것을 추천합니다.
 
 미세 조정을 시작하기 전에 모델의 현재 애니메이션에 대한 지식 베이스를 먼저 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 def generate_response(model, tokenizer, prompt, tokens=100):
@@ -125,8 +187,18 @@ print(generate_response(model,tokenizer,prompt))
 
 나쁘지 않네요! 나루토가 매우 인기 있는 애니메이션으로 여겨지기 때문에 모델이 그것에 관한 정보를 가지고 있다고 예상했습니다. 이제 모델이 애니메이션에 대해 가진 지식을 향상시키는 것이 목표입니다. 그러기 위해 먼저 데이터셋을 탐색하여 모델에 추가할 수 있는 어떤 정보가 있는지 살펴보아야 합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 anime_df = pd.read_csv("drive/My Drive/LLM/Data/anime_dataset.csv")
@@ -166,7 +238,18 @@ Image URL: 애니메이션의 이미지 또는 포스터 URL입니다.
 - 일반 정보 II — 애니메이션 이름 및 제작사, 애니메이션 스튜디오, 에피소드 수와 같은 세부 정보.
 - 일반 정보 III — 애니메이션 이름 및 등급, 인기도, 사용자 평가와 같은 메트릭스.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 def create_generic_information_1(df):
@@ -207,11 +290,22 @@ def create_generic_information_3(df):
   df['GI3_Question'] = questions
   df['GI3_Answer'] = answers
   return df
-``` 
+```
 
 이제부터 우리가 진행하기 전에 한 가지 알아야 할 사항이 있습니다. 각 LLM에는 명령을 입력하고 훈련하기 위한 특정 템플릿이 있습니다. 따라서 먼저 해당 템플릿에 기능을 로드한 다음 모델에 입력해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 def formatting_func(question, answer):
@@ -244,17 +338,28 @@ f”`start_of_turn`user\n'question'`end_of_turn` `start_of_turn`model\n'answer'`
 
 위 템플릿은 각 학습 레코드마다 질문과 준비된 답변을 넣어야 하는 두 가지 매개변수만 가지고 있습니다. 따라서 위의 코드는 각 특성에 대해 이 템플릿 내에 질문과 답변을 감싸는 것뿐입니다. 마지막에는 학습을 위해 판다스 데이터프레임을 Dataset 객체로 변환합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 학습 데이터가 이제 준비되었으므로, LoRA를 사용하여 모델을 세밀하게 튜닝하기 위해 모델을 설정할 수 있게 되었습니다.
 
 ```js
-#1 
+#1
 model.gradient_checkpointing_enable()
-#2 
+#2
 model = prepare_model_for_kbit_training(model)
 
-#3 
+#3
 def find_all_linear_names(model):
   cls = bnb.nn.Linear4bit #if args.bits == 4 else (bnb.nn.Linear8bitLt if args.bits == 8 else torch.nn.Linear)
   lora_module_names = set()
@@ -266,10 +371,10 @@ def find_all_linear_names(model):
       lora_module_names.remove('lm_head')
   return list(lora_module_names)
 
-#4 
+#4
 modules = find_all_linear_names(model)
 
-#5 
+#5
 lora_config = LoraConfig(
     r=64,
     lora_alpha=32,
@@ -297,7 +402,18 @@ print(f"Trainable: {trainable} | total: {total} | Percentage: {trainable/total*1
 - LoRA 구성이 추가된 peft 모델 객체를 가져옵니다.
 - LoRA 구성에 기반하여 몇 개의 매개변수를 훈련하고 있는지 확인합니다. (결과: Trainable: 78446592 | total: 2584619008 | Percentage: 3.0351%). 이는 모델의 총 매개변수 중 3%만을 세밀하게 튜닝하고 있다는 것을 의미합니다. 3%로도 몇 번의 colab 메모리 부족이 발생했는데, 이는 LSTM 세밀 튜닝이 얼마나 계산적으로 비싼지를 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 훈련 프로세스를 시작할 수 있습니다.
 
@@ -328,7 +444,18 @@ LLM을 훈련시키기 위해 허깅페이스의 SFTTrainer 클래스를 사용�
 
 <img src="/assets/img/2024-06-22-FineTuningGemma-2b-itonAnimeDataset_1.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 트레이닝 손실은 각 단계마다 여기에 표시됩니다. 실행이 완료되면 LoRA 레이어가 훈련됩니다. 이제 해야 할 일은 LoRA 레이어를 원래 모델로 병합하는 것입니다.
 
@@ -354,7 +481,18 @@ merged_model = merged_model.merge_and_unload()
 
 마지막 진행해야 할 단계는 세부 조정된 모델을 추론하는 것이며, 동일한 예시를 사용하겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 prompt = '''애니메이션 나루토에 대해 알려주세요.
@@ -369,8 +507,18 @@ print(generate_response(merged_model, tokenizer, prompt))
 
 맞습니다. 하지만 1번의 에포크조차 교육시키지 않았으므로 모델을 더 많은 단계나 에포크로 교육하면 모델 출력이 향상될 것입니다. 그러나 여기서 주목할 점은 출력에서 이제 우리가 특징으로 포함했던 애니메이션의 장르를 제공하고 있다는 것입니다. 그래서 세밀한 조정이 애니메이션에 대한 지식베이스를 변경했음을 생각해봅니다 :)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마침내 이 기사를 읽어주셔서 정말 감사합니다. 피드백이나 제안 사항이 있으시면 알려주세요. 다음 기사에 반영하여 더 나은 내용을 제공하도록 하겠습니다.
 

@@ -3,17 +3,13 @@ title: "게임 세계 마스터하기 강화 학습 심층 탐구"
 description: ""
 coverImage: "/assets/img/2024-07-01-MasteringGameWorldsADeepDiveintoReinforcementLearning_0.png"
 date: 2024-07-01 17:51
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-01-MasteringGameWorldsADeepDiveintoReinforcementLearning_0.png
 tag: Tech
 originalTitle: "Mastering Game Worlds: A Deep Dive into Reinforcement Learning"
 link: "https://medium.com/gitconnected/mastering-game-worlds-a-deep-dive-into-reinforcement-learning-5acccad89a18"
 isUpdated: true
 ---
-
-
-
-
 
 요즘 AI 기술은 바둑이나 체스와 같은 게임에서 놀라운 성과를 보여주며 세계 최고인 인간 선수들을 능가하는 모습을 보여주고 있습니다. 이런 업적들은 기술의 급속한 발전을 강조합니다.
 
@@ -23,7 +19,18 @@ ChatGPT는 대체로 transformer와 감독 학습 기술에 기반을 두고 있
 
 이 글은 두 부분으로 나뉘어질 예정입니다. 이 부분에서는 강화 학습의 기본 이론과 PyTorch에서 REINFORCE 방법을 사용하여 Flappy Bird 게임을 플레이하는 동안의 과정을 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 부분에서는 어드밴티지 액터-크리틱(A2C)과 현재 최신 알고리즘인 PPO와 같은 더 복잡한 강화 학습 알고리즘을 더 알아볼 거에요! 😃
 
@@ -45,7 +52,18 @@ ChatGPT는 대체로 transformer와 감독 학습 기술에 기반을 두고 있
 
 # 강화 학습
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 강화 학습은 특정 목표를 달성하거나 성능 메트릭을 최대화하기 위해 환경과 상호 작용을 통해 행동 전략을 학습하는 기계 학습 방법입니다. 이는 환경, 에이전트, 보상 세 가지 주요 요소로 구성되어 있습니다.
 
@@ -57,7 +75,18 @@ ChatGPT는 대체로 transformer와 감독 학습 기술에 기반을 두고 있
 
 # 환경
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 환경은 에이전트와 상호 작용하는 시스템입니다. 에이전트가 만날 수 있는 모든 가능한 상태, 해당 상태에서 취할 수 있는 행동 및 그러한 행동의 결과를 정의합니다.
 
@@ -70,7 +99,18 @@ ChatGPT는 대체로 transformer와 감독 학습 기술에 기반을 두고 있
 
 # 에이전트
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 강화학습에서 에이전트는 환경을 관찰하고 결정을 내리며 행동을 실행할 수 있는 엔티티를 가리킵니다. 에이전트의 목표는 장기적으로 얻는 보상을 극대화하기 위해 주어진 환경 상태에서 최적의 행동을 선택하는 방법인 전략(정책)을 학습하는 것입니다.
 
@@ -80,8 +120,18 @@ ChatGPT는 대체로 transformer와 감독 학습 기술에 기반을 두고 있
 
 에이전트의 주요 목표는 다양한 상태에서 최적의 행동을 선택하기 위한 전략(정책)을 학습하여 시간이 흐름에 따라 총 보상을 최대화하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image Description](/assets/img/2024-07-01-MasteringGameWorldsADeepDiveintoReinforcementLearning_1.png)
 
@@ -91,8 +141,18 @@ The discount rate γ ranges between 0 and 1. For instance, if we consider γ as 
 
 This adjustment is made because the likelihood of achieving a state far into the future is lower, making the corresponding reward less impactful and, therefore, subject to a reduction for a practical assessment.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-07-01-MasteringGameWorldsADeepDiveintoReinforcementLearning_2.png)
 
@@ -102,7 +162,18 @@ This adjustment is made because the likelihood of achieving a state far into the
 
 경로 2: 오른쪽으로 가서 위로 올라가서 목표로 이동
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 할인율 γ = 1일 때,
 
@@ -113,7 +184,18 @@ This adjustment is made because the likelihood of achieving a state far into the
 
 # 가치 함수
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리의 상태가 얼마나 잘 되어 있는지를 정의하려면 이를 결정하는 함수인 가치 함수가 필요합니다.
 
@@ -123,7 +205,18 @@ This adjustment is made because the likelihood of achieving a state far into the
 
 위에서 정의된 가치 함수는 재귀 형태로 재평가될 수 있으며, 이는 상태 값의 재귀적 계산을 가능하게 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-07-01-MasteringGameWorldsADeepDiveintoReinforcementLearning_4.png)
 
@@ -133,20 +226,43 @@ The symbol π represents the agent's policy, with π(a | s) indicating the proba
 
 Now, let's engage in some practice~~ 🍎
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 이미지
+
 ![Mastering Game Worlds: A Deep Dive into Reinforcement Learning](/assets/img/2024-07-01-MasteringGameWorldsADeepDiveintoReinforcementLearning_5.png)
 
 이 상황에서는 네 가지 상태가 있습니다. s1은 시작 상태이고 s2, s3 및 s4는 종료 상태입니다. 두 가지 동작, 'left' 또는 'right'를 선택할 수 있으며 각각의 상태 간의 전이 확률을 가집니다.
 
 ## 다른 정책 하에서 상태 1의 가치:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-- V(π = 항상 왼쪽) = 0.5 * 2 + 0.5 * 4 = 3
-- V(π = 항상 오른쪽) = 0.33 * 3 + 0.67 * 4 = 3.67
-- V(π = 50% 왼쪽, 50% 오른쪽) = 0.5 * V(왼쪽) + 0.5 * V(오른쪽) = 3.335
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+- V(π = 항상 왼쪽) = 0.5 _ 2 + 0.5 _ 4 = 3
+- V(π = 항상 오른쪽) = 0.33 _ 3 + 0.67 _ 4 = 3.67
+- V(π = 50% 왼쪽, 50% 오른쪽) = 0.5 _ V(왼쪽) + 0.5 _ V(오른쪽) = 3.335
 
 이 예제는 전이 확률을 고려하여 (예: 행동 = 오른쪽: s3로 33%, s4로 67%) 동일한 행동이 매번 동일한 결과를 보장하지 않는 확률적 전이를 강조합니다.
 
@@ -154,7 +270,18 @@ Now, let's engage in some practice~~ 🍎
 
 ![MasteringGameWorldsADeepDiveintoReinforcementLearning_6](/assets/img/2024-07-01-MasteringGameWorldsADeepDiveintoReinforcementLearning_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단히 말씀드리면 이 예에서는 전이 확률을 무시하고 에이전트가 처음에 '위' 또는 '아래' 작업을 선택할 수 있으며, 이후 상태에서는 에이전트가 항상 오른쪽으로 이동한다.
 
@@ -168,7 +295,18 @@ Now, let's engage in some practice~~ 🍎
 - V(s4) = 4 + γV(s5) = 14
 - V(s1) = 1 + γV(s2) = 13
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 For 이타 = (50% 상승, 50% 하락), 감마 = 1
 
@@ -176,13 +314,24 @@ For 이타 = (50% 상승, 50% 하락), 감마 = 1
 - V(s3) = V(s5) = 10 + 감마V(s6) = 10
 - V(s2) = 2 + 감마V(s3) = 12
 - V(s4) = 4 + 감마V(s5) = 14
-- V(s1) = (1 + 감마V(s2)) * 0.5 + (2 + 감마V(s4)) * 0.5 = 9.5
+- V(s1) = (1 + 감마V(s2)) _ 0.5 + (2 + 감마V(s4)) _ 0.5 = 9.5
 
 # Q 함수
 
 실제로, 모든 상태의 가치가 알려진 경우, 에이전트가 각 타임스텝마다 가장 높은 가치의 상태로 이동하도록하여 누적 보상을 최대화할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만, 상태값을 계산하기 위해서는 전이 확률에 대한 지식이 필요한데, 이는 대게 알 수 없습니다. 그러므로 상태-행동 함수(Q 함수)를 사용하는 것이 더 나은 선택이 됩니다.
 
@@ -192,8 +341,18 @@ Q 값은 경험을 통해 직접 학습할 수 있기 때문에 환경의 전이
 
 Q 함수, 또는 행동-가치 함수는 상태 s에서 정책 π에 따라 행동 a를 취하는 가치를 정의합니다. Q 함수와 가치 함수의 차이는 Q 함수는 결정론적 행동의 가치를 특정하며, 이로써 정책 π(a∣s)에서 행동의 확률을 계산할 필요가 없어집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image 8](/assets/img/2024-07-01-MasteringGameWorldsADeepDiveintoReinforcementLearning_8.png)
 
@@ -203,8 +362,18 @@ The value function could also be seen as the sum of the Q function for all possi
 
 In a value-based approach like Q-learning, a policy that always picks the action with the highest Q value for each state s ensures automatic maximisation of the total reward.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 행동 공간이 매우 크거나 연속적인 경우, 모든 가능한 Q값을 계산하여 각 상태에 대한 최상의 행동을 식별하는 것은 현실적이지 않습니다. 😢
 
@@ -214,11 +383,22 @@ Policy-Based Methods
 
 강화 학습의 정책 기반 방법은 가치 기반 방법(value-based methods)처럼 명시적으로 가치 함수를 계산하지 않고, 에이전트가 행동을 선택하는 정책을 직접 매개변수화하고 최적화합니다. 🌟
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **카드 읽기 전문가입니다!**
 
-폴리시는 π(a∣s;θ)로 표시되며, 상태를 액션에 대한 확률 분포로 매핑하는 함수입니다. 여기서 θ는 폴리시의 매개변수를 나타내며 (예: 신경망의 가중치), 
+폴리시는 π(a∣s;θ)로 표시되며, 상태를 액션에 대한 확률 분포로 매핑하는 함수입니다. 여기서 θ는 폴리시의 매개변수를 나타내며 (예: 신경망의 가중치),
 
 # REINFORCE
 
@@ -226,7 +406,18 @@ REINFORCE는 폴리시 그레디언트 방법 중 하나로, 폴리시를 최적
 
 ![이미지](/assets/img/2024-07-01-MasteringGameWorldsADeepDiveintoReinforcementLearning_11.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **리인포스 단계**
 
@@ -236,7 +427,18 @@ REINFORCE는 폴리시 그레디언트 방법 중 하나로, 폴리시를 최적
 
 REINFORCE 방법에서는 실제 샘플을 사용하여 반환을 계산해야 합니다. 또한 Monte-Carlo 방법으로 얻은 전체 경로가 실행에 필요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 무작위 가중치로 네트워크 초기화하기
 - N개의 전체 에피소드를 실행하여 궤적 (s, a, r, s') 수집하기
@@ -250,7 +452,18 @@ REINFORCE 방법에서는 실제 샘플을 사용하여 반환을 계산해야 �
 
 ![Mastering Game Worlds](/assets/img/2024-07-01-MasteringGameWorldsADeepDiveintoReinforcementLearning_12.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 게임을 시작하기 전에 환경의 세부 사항을 이해하는 것이 매우 중요합니다. 구현하기 전에 매번 문서를 꼼꼼히 읽어주십시오.
 
@@ -260,7 +473,18 @@ REINFORCE 방법에서는 실제 샘플을 사용하여 반환을 계산해야 �
 
 ![image](/assets/img/2024-07-01-MasteringGameWorldsADeepDiveintoReinforcementLearning_14.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 You're also welcome to consider the entire game screen as the observation for the model. Check [here](#) for more details.
 
@@ -270,7 +494,18 @@ The BirdAgent plays a key role in decision-making based on the environment's sta
 
 Hence, the agent's number of actions, known as n_action, is equal to the environment's action space, set at 2.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마침내, 훈련 루프가 여기 있어요~~ ✋
 
@@ -280,7 +515,18 @@ Hence, the agent's number of actions, known as n_action, is equal to the environ
 
 이 글에서는 보상 학습의 기본 원리인 가치 함수, Q 함수 등을 간단히 소개했습니다. 또한 정책 기울기 방법에서 REINFORCE 알고리즘을 소개하고 Flappy Bird 게임을 플레이하는 데 사용했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 다음으로, A2C와 PPO라는 두 가지 정책 그래디언트 방법을 소개하고, Car Racing과 Snake 게임 두 가지에서 이를 구현해 보겠습니다.
 
@@ -290,7 +536,18 @@ Hence, the agent's number of actions, known as n_action, is equal to the environ
 
 제 Medium: [link](link)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마이 리플 링크: [링크](link)
 

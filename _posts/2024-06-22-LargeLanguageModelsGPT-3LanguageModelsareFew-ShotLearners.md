@@ -3,17 +3,13 @@ title: "GPT-3 사용법 소수 샷 학습자를 위한 포괄적 가이드"
 description: ""
 coverImage: "/assets/img/2024-06-22-LargeLanguageModelsGPT-3LanguageModelsareFew-ShotLearners_0.png"
 date: 2024-06-22 21:29
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-LargeLanguageModelsGPT-3LanguageModelsareFew-ShotLearners_0.png
 tag: Tech
 originalTitle: "Large Language Models, GPT-3: Language Models are Few-Shot Learners"
 link: "https://medium.com/towards-data-science/large-language-models-gpt-3-language-models-are-few-shot-learners-6e1261a1b466"
 isUpdated: true
 ---
-
-
-
-
 
 ## 메타러닌 학습 프레임워크 내에서 대규모에서 타이타닉 규모로 GPT를 효율적으로 확장하는 방법
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 GPT는 최근 많은 인기를 얻고 있는 언어 모델 가족입니다. 데이터 과학 커뮤니티의 관심은 GPT-3가 2020년에 출시되면서 급속하게 집중되었습니다. GPT-2가 등장한 후, 거의 누구도 1년 안에 175B의 매개변수를 포함한 GPT의 타이타닉 버전이 출현할 것으로 상상하지 못했습니다! 이는 이전 버전과 비교했을 때 2차적으로 두 배 많은 양입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GPT-3의 엄청난 용량 덕분에 코드 완성, 글 작성, 콘텐츠 생성, 가상 어시스턴트 등 다양한 일상 시나리오에서 사용할 수 있었습니다. 이러한 작업의 품질이 항상 완벽하지는 않지만, GPT-3이 달성한 전반적인 진전은 정말 놀랍습니다!
 
@@ -33,7 +40,18 @@ GPT-3의 엄청난 용량 덕분에 코드 완성, 글 작성, 콘텐츠 생성,
 
 GPT-3 창조자들은 GPT-2에서 사용된 학습 방법에 대해 매우 관심을 가졌습니다: 일반적인 사전 훈련 + 미세 조정 프레임워크 대신, 저자들은 크고 다양한 데이터 세트를 수집하고 텍스트 입력에 작업 목표를 통합했습니다. 이 방법론은 여러 가지 이유로 편리했습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 미세 조정 단계를 제거함으로써 이제는 개별 하위 작업을 위해 여러 대규모 레이블된 데이터 세트가 더 이상 필요하지 않습니다.
 - 다른 작업에 대해 하나의 모델 버전을 여러 개 사용하는 대신 하나만 사용할 수 있습니다.
@@ -46,7 +64,18 @@ GPT-3 창조자들은 GPT-2에서 사용된 학습 방법에 대해 매우 관�
 
 훈련 과정 동안 모델은 다른 텍스트 예제에서 유사한 작업을 받을 수 있습니다. 예를 들어, 모델은 서로 다른 배치에서 다음과 같은 예제를 볼 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - "Good"은 "excellent"의 동의어입니다.
 - "Computer"은 "laptop"의 동의어입니다.
@@ -58,19 +87,41 @@ GPT-3 창조자들은 GPT-2에서 사용된 학습 방법에 대해 매우 관�
 
 ## n-shot 학습
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 추론 중에 수행되는 모델의 쿼리는 작업 예제를 추가로 포함할 수 있습니다. 작업 데모가 쿼리의 목적을 더 잘 이해하는 데 중요한 역할을 한다는 것을 알 수 있었습니다. 제공된 작업 예제의 수(샷)에 따라 아래 표에 요약된 세 가지 유형의 학습이 존재합니다:
 
 | 샷 수 | 학습 유형 |
-|-------|------------|
-| 0     | Zero-shot  |
-| 1     | One-shot   |
-| 2+    | Few-shot   |
+| ----- | --------- |
+| 0     | Zero-shot |
+| 1     | One-shot  |
+| 2+    | Few-shot  |
 
 대부분의 경우(항상은 아니지만) 제공된 예제의 수가 모델이 올바른 답변을 제공하는 능력과 긍정적으로 상관 관계가 있음을 알 수 있습니다. 저자들은 다른 크기의 모델을 세 가지 n-shot 설정 중 하나에 사용하여 연구를 완료했습니다. 결과에서 용량이 증가함에 따라 모델이 문맥 학습에 더 능숙해진다는 것을 보여줍니다. 성능 차이가 증가하는 선 그래프로 이를 시연합니다. 적은 수, 한 개, 영 샷 설정 간의 성능 차이가 모델 크기와 함께 더 커짐을 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 아키텍처
 
@@ -80,7 +131,18 @@ GPT-3 창조자들은 GPT-2에서 사용된 학습 방법에 대해 매우 관�
 
 초기에 저자들은 GPT-3를 훈련하기 위해 Common Crawl 데이터셋을 사용하고자 했습니다. 이 굉장히 큰 데이터셋은 다양한 주제의 데이터를 담고 있습니다. 그러나 초기의 원본 데이터셋은 데이터 품질에 문제가 있어 처음에는 필터링되고 중복이 제거되었습니다. 최종 데이터셋을 더욱 다양하게 만들기 위해 아래 다이어그램에 표시된 네 가지 다른 작은 데이터셋과 연결되었습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-LargeLanguageModelsGPT-3LanguageModelsareFew-ShotLearners_4.png" />
 
@@ -95,7 +157,18 @@ GPT-3 창조자들은 GPT-2에서 사용된 학습 방법에 대해 매우 관�
 
 ## 빔 탐색
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GPT-3는 자기회귀 모델입니다. 이것은 과거의 예측된 단어에 대한 정보를 사용하여 미래의 다음 단어를 예측하는 데 사용합니다.
 
@@ -105,8 +178,18 @@ GPT-3는 자기회귀 모델입니다. 이것은 과거의 예측된 단어에 �
 
 낮은 확률로 현재 단어를 선택하면 나머지 예측된 단어들의 확률이 높아질 수 있는 상황이 발생할 수 있습니다. 한편, 지역 단어를 가장 높은 확률로 선택하는 것은 그 다음 단어들도 높은 확률에 해당한다는 것을 보장하지는 않습니다. 탐욕 전략이 최적으로 작동하지 않는 경우를 보여주는 예시는 아래 다이어그램에 나와 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-06-22-LargeLanguageModelsGPT-3LanguageModelsareFew-ShotLearners_6.png)
 
@@ -116,8 +199,18 @@ GPT-3는 자기회귀 모델입니다. 이것은 과거의 예측된 단어에 �
 
 ![Image](/assets/img/2024-06-22-LargeLanguageModelsGPT-3LanguageModelsareFew-ShotLearners_7.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 빔 서치는 최상의 검색 전략을 보장하지는 않지만 실제로는 근사치가 매우 잘 동작합니다. 그 이유로 GPT-3에서 사용됩니다.
 
@@ -130,7 +223,18 @@ GPT-3는 인간과 유사한 긴 텍스트 조각을 생성하는 놀라운 능�
 - GPT-3는 학습 데이터 세트에 편향이 있어 때때로 공정성 측면에서 취약할 수 있습니다. 특히, 성별 평등, 종교 또는 인종과 같은 민감한 도메인에 관련된 경우입니다.
 - 이전의 GPT-2 보다 GPT-3는 훈련에 수십 배나 더 많은 에너지(수천 페타플랍 / 일)가 필요한데, 이는 친환경적이지 않습니다. 동시에, GPT-3 개발자들은 이 모델이 추론 중에 매우 효율적이기 때문에 평균 소비량이 여전히 낮다는 점으로 이 측면을 정당화합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -140,7 +244,18 @@ GPT-3의 몇 가지 단점과 제한사항에도 불구하고, 이는 연구자�
 
 # 자료들
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 언어 모델은 소수 샷 학습자들입니다.
 

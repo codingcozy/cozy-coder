@@ -3,7 +3,7 @@ title: "GA4 BigQuery Export 스키마와 구조 이해하기"
 description: ""
 coverImage: "/assets/img/2024-06-22-UnderstandingtheGA4BigQueryExportSchemaandStructure_0.png"
 date: 2024-06-22 17:28
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-UnderstandingtheGA4BigQueryExportSchemaandStructure_0.png
 tag: Tech
 originalTitle: "Understanding the GA4 BigQuery Export Schema and Structure"
@@ -11,23 +11,30 @@ link: "https://medium.com/towards-data-science/understanding-the-ga4-bigquery-ex
 isUpdated: true
 ---
 
-
-
-
-
 ![GA4 BigQuery Export Schema](/assets/img/2024-06-22-UnderstandingtheGA4BigQueryExportSchemaandStructure_0.png)
 
 # 소개
 
 현재 전 세계적으로 15.6 백만 개의 웹 사이트에서 사용 중인 Google Analytics 4는 글로벌 데이터 스키마 중 가장 널리 내보내어진 것 중 하나일 수 있습니다. Google Analytics 4 데이터는 웹 사용자 인터페이스를 통해 액세스하거나 Looker Studio로 API를 통해 직접 접근할 수 있지만, 데이터 소유권을 유지하고자 한다면:
-   
+
 - 구글의 데이터 보유 정책을 넘어서 데이터 소유권을 보유하려면
 - 데이터 손실 가능성을 방지하기 위해 데이터를 보관하려면
 - 다른 내부 데이터 소스와 데이터를 결합하려면
 - 외부 소스, API 또는 LLM에서 데이터를 확장하려면
 - 사용자 정의 자동화 워크플로우를 구축하려면
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러면 GA4 내보내기를 빅쿼리로 활성화하는 것이 권장되는 접근 방식입니다. 설정 및 구성하기 매우 간단합니다.
 
@@ -37,7 +44,18 @@ isUpdated: true
 
 # 조사
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 스키마 요약과 쿼리에서 events_YYYYMMDD는 BigQuery의 Date-Sharded GA4 Export Table을 나타냅니다. 아래와 같은 구문 변형을 사용하여 쿼리할 수 있습니다.
 
@@ -50,7 +68,18 @@ FROM [project_id].[ga4_dataset_name].events_*
 
 날짜 범위 선택
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 예: 지난 7일간의 데이터 선택
@@ -68,34 +97,45 @@ GA4 내보내기의 구조는 표준화되어 있으며 다음 상위 수준 스
 
 ```js
 events_YYYYMMDD
-    ├── event_date STRING   
-    ├── event_timestamp INTEGER 
-    ├── event_name STRING   
-    ├── event_params ARRAY<STRUCT>  
-    ├── event_previous_timestamp INTEGER    
-    ├── event_value_in_usd FLOAT    
-    ├── event_bundle_sequence_id INTEGER    
-    ├── event_server_timestamp_offset INTEGER   
-    ├── user_id STRING  
-    ├── user_pseudo_id STRING   
-    ├── privacy_info STRUCT 
-    ├── user_properties ARRAY<STRUCT>   
-    ├── user_first_touch_timestamp INTEGER  
-    ├── user_ltv STRUCT 
-    ├── device STRUCT   
-    ├── geo STRUCT  
-    ├── app_info STRUCT 
-    ├── traffic_source STRUCT   
-    ├── stream_id STRING    
-    ├── platform STRING 
-    ├── event_dimensions STRUCT 
-    ├── ecommerce STRUCT    
-    ├── items ARRAY<STRUCT> 
-    ├── collected_traffic_source STRUCT 
+    ├── event_date STRING
+    ├── event_timestamp INTEGER
+    ├── event_name STRING
+    ├── event_params ARRAY<STRUCT>
+    ├── event_previous_timestamp INTEGER
+    ├── event_value_in_usd FLOAT
+    ├── event_bundle_sequence_id INTEGER
+    ├── event_server_timestamp_offset INTEGER
+    ├── user_id STRING
+    ├── user_pseudo_id STRING
+    ├── privacy_info STRUCT
+    ├── user_properties ARRAY<STRUCT>
+    ├── user_first_touch_timestamp INTEGER
+    ├── user_ltv STRUCT
+    ├── device STRUCT
+    ├── geo STRUCT
+    ├── app_info STRUCT
+    ├── traffic_source STRUCT
+    ├── stream_id STRING
+    ├── platform STRING
+    ├── event_dimensions STRUCT
+    ├── ecommerce STRUCT
+    ├── items ARRAY<STRUCT>
+    ├── collected_traffic_source STRUCT
     └── is_active_user BOOLEAN
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일부 다른 열 데이터 유형이 있으므로 데이터 원본을 쿼리, 분석 및 후속 데이터 워크플로에 대비하도록 준비하는데 다른 처리가 필요합니다.
 
@@ -105,22 +145,33 @@ events_YYYYMMDD
 
 ```js
 events_YYYYMMDD
-    ├── event_date STRING   
-    ├── event_timestamp INTEGER 
-    ├── event_name STRING   
-    ├── event_previous_timestamp INTEGER    
-    ├── event_value_in_usd FLOAT    
-    ├── event_bundle_sequence_id INTEGER    
-    ├── event_server_timestamp_offset INTEGER   
-    ├── user_id STRING  
-    ├── user_pseudo_id STRING   
-    ├── user_first_touch_timestamp INTEGER  
-    ├── stream_id STRING    
-    ├── platform STRING 
+    ├── event_date STRING
+    ├── event_timestamp INTEGER
+    ├── event_name STRING
+    ├── event_previous_timestamp INTEGER
+    ├── event_value_in_usd FLOAT
+    ├── event_bundle_sequence_id INTEGER
+    ├── event_server_timestamp_offset INTEGER
+    ├── user_id STRING
+    ├── user_pseudo_id STRING
+    ├── user_first_touch_timestamp INTEGER
+    ├── stream_id STRING
+    ├── platform STRING
     └── is_active_user BOOLEAN
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 DATE 및 TIMESTAMP 필드 중 일부는 일부 유형 변환을 필요로 합니다. 이에 필요한 함수는 다음 기사에 포함되어 있습니다. 그러나 이러한 열은 SQL에서 쉽게 작업할 수 있습니다.
 
@@ -130,18 +181,29 @@ DATE 및 TIMESTAMP 필드 중 일부는 일부 유형 변환을 필요로 합니
 
 ```js
 events_YYYYMMDD
-    ├── privacy_info STRUCT 
-    ├── user_ltv STRUCT 
-    ├── device STRUCT   
-    ├── geo STRUCT  
-    ├── app_info STRUCT 
-    ├── traffic_source STRUCT   
-    ├── event_dimensions STRUCT 
-    ├── ecommerce STRUCT   
+    ├── privacy_info STRUCT
+    ├── user_ltv STRUCT
+    ├── device STRUCT
+    ├── geo STRUCT
+    ├── app_info STRUCT
+    ├── traffic_source STRUCT
+    ├── event_dimensions STRUCT
+    ├── ecommerce STRUCT
     └── collected_traffic_source STRUCT
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 빅쿼리에서 STRUCT 열은 하위 열의 컨테이너로 간주될 수 있으며, 쿼리 간결성 측면에서 일부 이점을 가지지만 몇 가지 추가적인 도전 과제를 도입하기도 합니다. 위에 나열된 STRUCT 열은 '간단한' 것으로 간주됩니다. 왜냐하면 '간단한' 데이터 유형(즉, ARRAY, STRUCT 또는 JSON 하위 열이 없는)만 포함하고 있기 때문입니다.
 
@@ -149,18 +211,29 @@ events_YYYYMMDD
 
 ```js
 events_YYYYMMDD
-└── geo STRUCT 
-    ├── city STRING 
-    ├── country STRING 
-    ├── continent STRING 
-    ├── region STRING 
-    ├── sub_continent STRING 
-    └── metro STRING 
+└── geo STRUCT
+    ├── city STRING
+    ├── country STRING
+    ├── continent STRING
+    ├── region STRING
+    ├── sub_continent STRING
+    └── metro STRING
 ```
 
 간단한 STRUCT 하위 열 값은 점 표기법을 사용하여 깔끔하게 액세스할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 -- events_YYYYMMDD 테이블에서 geo.city를 선택합니다.
@@ -174,7 +247,7 @@ FROM events_YYYYMMDD
 ```js
 -- events_YYYYMMDD 테이블에서 geo.country, geo.region, geo.city를 선택하며, geo라는 이름으로 결과를 반환합니다.
 
-SELECT 
+SELECT
 STRUCT (
 geo.country,
 geo.region,
@@ -184,7 +257,18 @@ FROM events_YYYYMMDD
 
 전체 STRUCT를 포함하거나 제외하는 것도 간단합니다. 전체 STRUCT를 포함하려면, 간단히 해당 STRUCT 열을 SQL 쿼리에서 다른 열처럼 선택하면 됩니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 SELECT geo
@@ -201,10 +285,21 @@ FROM events_YYYYMMDD
 
 STRUCT에서 특정 하위 열을 제외하는 구문은 조금 더 길고 직관적이지 않습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```sql
-SELECT 
+SELECT
 (SELECT AS STRUCT geo.* EXCEPT(continent, sub_continent, metro)) AS geo
 FROM events_YYYYMMDD
 ```
@@ -215,32 +310,49 @@ Looker Studio에서 STRUCT 데이터 유형을 지원하지만 다른 비즈니�
 
 이 데이터 구조는 각 배열의 STRUCT 데이터 유형을 저장하기 위해 사용되며, 배열에 포함된 각 STRUCT가 동일한 구조를 갖습니다. 데이터를 모델링하는 방법은 특정 컨텍스트에 따라 달라집니다. GA4 BigQuery 내보내기에서 다음 ARRAY`STRUCT` 열이 발견됩니다:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 events_YYYYMMDD
-    ├── event_params ARRAY<STRUCT>  
-    ├── user_properties ARRAY<STRUCT>     
-    └── items ARRAY<STRUCT>
-
+├── event_params ARRAY<STRUCT>  
+ ├── user_properties ARRAY<STRUCT>  
+ └── items ARRAY<STRUCT>
 
 event_params ARRAY`STRUCT`에는 GA4에서 설정한 표준 및 사용자 지정 이벤트 매개변수 배열이 포함되어 있습니다. user_properties ARRAY`STRUCT`에는 사용자 지정 사용자 속성 배열이 들어 있으며, items ARRAY`STRUCT`에는 사용자 정의 항목 및 메타데이터의 배열과 연결된 항목 매개변수의 다른 중첩 배열이 포함되어 있습니다.
 
 이전 예제보다 더 복잡하며, STRUCT 스키마를 살펴보면 현실이 더 복잡하다는 것이 빠르게 명확해집니다. 예를 들어, event_params ARRAY`STRUCT` 스키마는 다음과 같습니다:
 
-
 events_YYYYMMDD
 └── event_params STRUCT
-    ├── key STRING 
-    └── value STRUCT
-        ├── string_value STRING 
-        ├── int_value INTEGER 
-        ├── float_value FLOAT 
-        └── double_value FLOAT
+├── key STRING
+└── value STRUCT
+├── string_value STRING
+├── int_value INTEGER
+├── float_value FLOAT
+└── double_value FLOAT
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 구글 애널리틱스 4 속성에 이벤트 매개변수가 추가되면 이들은 BigQuery로 간단한 STRUCT 형식으로 들어오지 않습니다. 따라서 이들은 BigQuery Studio의 스키마 탭에서 보이지 않고 점 표기법을 통해서도 접근할 수 없습니다.
 
@@ -251,16 +363,27 @@ events_YYYYMMDD
 ```js
 events_YYYYMMDD
 └── event_params STRUCT
-    ├── ga_session_id INTEGER 
+    ├── ga_session_id INTEGER
     └── ...
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 실제 스키마를 고려할 때, session_engaged 값은 다음 SQL 구문을 사용하여 액세스됩니다:
 
 ```js
-SELECT 
+SELECT
 (SELECT value.int_value FROM UNNEST(event_params) WHERE key='session_engaged') AS `session_engaged`
 FROM events_YYYYMMDD
 ```
@@ -269,7 +392,18 @@ FROM events_YYYYMMDD
 
 이 복잡성을 이해하는 것은 이 데이터를 재구성하기 위한 전략을 개발할 때 중요합니다: 데이터의 특정 예상 특성을 알아야만 재구성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 지식을 얻기 위한 계획이 서로 다른 변형 및 자동화 전략으로 향하는 근본적인 동력입니다.
 
@@ -279,7 +413,18 @@ FROM events_YYYYMMDD
 
 데이터 형식 일관성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 예에서는 session_engaged가 정수 값일 것이라고 가정하고, 해당 값을 추출하는 쿼리는 정수 값을 추출합니다. 그러나 이전에 역사적 불일치가 있었고 관측된 값이 STRING에서 INTEGER로 변경되었을 경우, 위의 쿼리는 일부 데이터를 소실하지만 조용히 처리될 것입니다. 데이터를 기반으로 한 보고서는 부정확해질 것이지만 하류 사용자는 이를 알 수 없을 것입니다.
 
@@ -288,12 +433,23 @@ BigQuery의 GA4 데이터는 Google에서 설명한 이유로 GA4 사용자 인�
 session_engaged 이벤트 매개 변수는 때때로 STRING 값으로 관측되기도 하고, 때로는 INTEGER 값으로 관측되기도 합니다. 따라서 소스 데이터에서 신뢰할 수 있게 이를 추출하려면 아래 쿼리와 같이 보다 고급 전략이 필요합니다:
 
 ```js
-SELECT 
+SELECT
 (SELECT COALESCE(value.int_value, SAFE_CAST(value.int_value AS INT64) FROM UNNEST(event_params) WHERE key='session_engaged') AS `session_engaged`
 FROM events_YYYYMMDD
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주의하세요! COALESCE는 비용이 많이 소요되는 작업이기 때문에 이 방법을 많은 이벤트 매개변수에 적용하면 쿼리가 리소스 부족으로 실패할 수 있습니다.
 
@@ -303,7 +459,18 @@ FROM events_YYYYMMDD
 
 이는 미래에 한 행 내에서 이벤트 매개변수 키가 고유하지 않다는 것이 밝혀지면, 해당 값을 추출하는 데 사용된 서브쿼리는 단일 행 대신 여러 행을 반환하고 쿼리는 다음 오류와 함께 실패합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 쿼리 오류: Scalar subquery는 하나 이상의 요소를 생성함
@@ -315,7 +482,18 @@ single row event_param 내에서 중복 키의 존재가 관찰되지 않았지�
 문제는 당신이 아닌 데이터 구조입니다.
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 데이터 구조
 
@@ -325,7 +503,18 @@ single row event_param 내에서 중복 키의 존재가 관찰되지 않았지�
 
 그러나 배열`구조`열 내 여러 중첩 키-값 구조의 복잡한 구현으로 인해 데이터의 의미 구조를 메타데이터를 통해 이해하는 능력을 상실하므로 전형적인 관계 구조가 아닙니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본적으로 event_params, user_properties 및 item_params 데이터 구조는 이 데이터 원본이 전형적인 관계형 구조가 아니라 관계형, 반정형 및 키-값 저장소 특성이 혼합된 구조임을 의미합니다. 이것은 복잡하며, 데이터의 내용이 변경될 때 (시간이 지남에 따라 예상대로), 아래쪽 모델에서 이 데이터를 포착하기 위해 출력 데이터의 스키마를 변경해야 합니다.
 
@@ -335,7 +524,18 @@ single row event_param 내에서 중복 키의 존재가 관찰되지 않았지�
 
 이 복잡한 소스 데이터를 후속 사용을 위해 다시 구조화하는 몇 가지 접근 방식이 있습니다. 이 단계에서는 데이터 변환 로직을 고려하고 있으며, 데이터 변환을 트리거하거나 실행하는 데 사용된 접근 방식이 아닙니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 변환 코드는 다음과 같이 가능합니다:
 
@@ -349,7 +549,18 @@ single row event_param 내에서 중복 키의 존재가 관찰되지 않았지�
 
 ## 다음 단계
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제를 식별하고 상세히 탐색하는 것은 문제를 해결하는 것과 같지 않다는 것을 기억해주세요!
 
@@ -359,7 +570,18 @@ single row event_param 내에서 중복 키의 존재가 관찰되지 않았지�
 
 다음 내용을 받아보려면 저를 팔로우해주세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 스키마 참조
 
@@ -495,5 +717,5 @@ events_YYYYMMDD
 │   ├── gclid STRING
 │   ├── dclid STRING
 │   └── srsltid STRING
-└── is_active_user BOOLEAN 
+└── is_active_user BOOLEAN
 ```

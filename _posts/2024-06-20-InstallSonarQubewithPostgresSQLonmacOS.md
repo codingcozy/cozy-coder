@@ -3,17 +3,13 @@ title: "맥OS에서 PostgreSQL을 사용하여 SonarQube를 설치하기"
 description: ""
 coverImage: "/assets/img/2024-06-20-InstallSonarQubewithPostgresSQLonmacOS_0.png"
 date: 2024-06-20 14:29
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-InstallSonarQubewithPostgresSQLonmacOS_0.png
 tag: Tech
 originalTitle: "Install SonarQube with PostgresSQL on macOS"
 link: "https://medium.com/@adhiksubash/install-sonarqube-with-postgressql-on-macos-06e88dd6ecb5"
 isUpdated: true
 ---
-
-
-
-
 
 이 가이드에서는 macOS에서 SonarQube를 PostgreSQL과 함께 설치하고 구성하는 단계를 안내해 드리겠습니다. SonarQube는 코드 품질을 지속적으로 검사하는 인기 있는 도구이며 PostgreSQL은 강력한 오픈 소스 객체 관계형 데이터베이스 시스템입니다.
 
@@ -27,7 +23,18 @@ brew install sonarqube
 brew services start sonarqube
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 설치를 확인하려면 브라우저를 열고 localhost:9000으로 이동하십시오. SonarQube 인터페이스가 표시되어야 합니다.
 
@@ -37,7 +44,18 @@ brew services start sonarqube
 
 다음으로 PostgreSQL을 설치할 것입니다. Homebrew를 다시 사용하여 다음 명령을 실행하십시오:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 brew install postgresql@15
@@ -52,7 +70,18 @@ PostgreSQL 서비스를 시작합니다:
 brew services restart postgresql@15
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제가 발생하면 다음 명령어를 사용하여 PostgreSQL 사용자를 수동으로 생성하십시오:
 
@@ -64,7 +93,18 @@ brew services restart postgresql@15
 
 이제 SonarQube를 위해 PostgreSQL 데이터베이스와 사용자를 설정해야 합니다. PostgreSQL 명령줄 인터페이스로 이동하여 다음 명령을 실행하십시오:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 psql -U postgres
@@ -82,7 +122,18 @@ GRANT ALL PRIVILEGES ON DATABASE sonarqube TO sonar;
 
 # 단계 5: OpenJDK 11 설치하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SonarQube에서 Java가 필요합니다, 그래서 OpenJDK 11을 설치할 거에요:
 
@@ -94,7 +145,18 @@ brew install openjdk@11
 
 SonarQube 구성 파일을 열어주세요. 파일 위치는 /opt/homebrew/Cellar/sonarqube/10.5.0.89998/libexec/conf/sonar.properties입니다. 아래 라인들을 추가하거나 업데이트해서 SonarQube가 PostgreSQL 데이터베이스를 사용하도록 구성해주세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 sonar.jdbc.username=sonar
@@ -111,7 +173,18 @@ sonar.path.logs=/path/to/log
 brew services restart sonarqube
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 8: 잠재적인 문제 처리
 
@@ -125,7 +198,18 @@ alter user sonar with superuser;
 
 SonarQube 서비스를 한 번 더 재시작해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 brew services restart sonarqube
@@ -138,7 +222,18 @@ brew services restart sonarqube
 - 사용자 이름: admin
 - 비밀번호: admin
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 로그인 시 비밀번호를 변경하라는 안내를 받게 될 것입니다.
 

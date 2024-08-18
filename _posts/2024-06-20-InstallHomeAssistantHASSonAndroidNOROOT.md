@@ -3,17 +3,13 @@ title: "안드로이드 기기에 홈 어시스턴트 Home Assistant, HASS 설�
 description: ""
 coverImage: "/assets/img/2024-06-20-InstallHomeAssistantHASSonAndroidNOROOT_0.png"
 date: 2024-06-20 16:21
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-InstallHomeAssistantHASSonAndroidNOROOT_0.png
 tag: Tech
 originalTitle: "Install Home Assistant (HASS) on Android (NO ROOT)"
 link: "https://medium.com/@lucacesarano/install-home-assistant-hass-on-android-no-root-fb65b2341126"
 isUpdated: true
 ---
-
-
-
-
 
 이 구성은 루팅을 하지 않고 안드로이드폰에 Home Assistant (HASS)를 설치하는 데 매우 유용합니다. 중앙 서버로 가정 자동화를 제어하는 데 매우 유용하며 쉽게 이동하고 수정할 수 있습니다. 저는 예전 폰 (샤오미 Mi 4C, 적어도 안드로이드 7.0)을 백업으로 사용하고 원활하게 작동하고 있어요 :).
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 우선 제안드리는 것은 안드로이드폰을 전용으로 사용하는 것입니다. 따라서 언제나 충전 중이어야 하며 필요에 따라 화면을 켜 놔야 할 수도 있습니다 (저는 온도 데이터 등을 표시할 때 사용합니다). 이를 필요로 하지 않는다면, 충전만 하면 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 작업을 수행하는 방법은 전원이 항상 연결된 상태에서 (놀랍죠?) 안드로이드 개발자 옵션에서 "충전 중에 화면 켜짐 유지" 옵션을 활성화하는 것입니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 # 안드로이드에서 HASS 가이드
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음이 설치됩니다:
 
@@ -47,7 +65,18 @@ isUpdated: true
 - F-droid에서 Termux:API를 설치하세요
 - [선택 사항] F-droid에서 Hacker's Keyboard를 설치하세요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **노트:** 이 앱들은 Play Store에서도 사용 가능합니다. 다운로드할 위치는 당신의 선택입니다.
 
@@ -57,7 +86,18 @@ isUpdated: true
 
 ### 1. Termux 앱을 시작하세요;
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 2. 다음 명령어를 순서대로 입력하세요:
 
@@ -79,7 +119,18 @@ isUpdated: true
 
 - mosquitto
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 Mosquitto를 중지해야 한다면 ‘ctrl +c’ 또는 ‘볼륨 다운 +c’를 누릅니다.
 
@@ -89,7 +140,18 @@ isUpdated: true
 
 설치가 완료될 때까지 기다린 다음 HA를 중지할 때는 ctrl +c 또는 볼륨 다운 + c를 누르고 다시 실행하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 http://localhost:8123 웹 페이지에 접속할 수 있습니다.
 
@@ -97,7 +159,18 @@ http://localhost:8123 웹 페이지에 접속할 수 있습니다.
 
 ### EXTRA:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 #### 환경을 자동으로 부팅하려면:
 
@@ -107,7 +180,18 @@ http://localhost:8123 웹 페이지에 접속할 수 있습니다.
 
 가능한 빨리 가이드를 작성하겠습니다. Boyscout 약속할게요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 #### 휴대전화를 OPEN-SSH 하려면:
 
@@ -117,7 +201,18 @@ HASS 커뮤니티에 꼭 필요한 내용입니다:
 
 그리고 로컬과 원격 간 파일을 복사하기 위해 다음을 사용할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - scp -r -P 8022 /path/local/dir user@remotehost:/path/remote/dir
 
@@ -127,7 +222,18 @@ https://192.168.XXX.XXX와 같은 IP를 사용하여 액세스하는 대신, htt
 
 이를 위해 https://www.noip.com/에서 무료 동적 DNS 주소를 얻을 수 있는 웹 사이트인 도메인 이름 주소가 필요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 링크를 참고하여 주소를 생성해 보세요: [https://www.noip.com/support/knowledgebase/getting-started-with-no-ip-com/](https://www.noip.com/support/knowledgebase/getting-started-with-no-ip-com/)
 
@@ -137,7 +243,18 @@ https://192.168.XXX.XXX와 같은 IP를 사용하여 액세스하는 대신, htt
 
 제공업체 라우터를 구성하는 대안으로 핸드폰에 무료 DNS 동적 앱을 설치하여 직접 설정할 수도 있습니다. 이 방법으로 라우터 구성 과정을 우회할 수 있습니다. [https://play.google.com/store/search?q=dns+update](https://play.google.com/store/search?q=dns+update)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도움이 필요하면 언제든 연락해 주세요.
 

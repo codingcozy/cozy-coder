@@ -3,17 +3,13 @@ title: "중간 이미지를 써본적 없이 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-19-HowtoCreateMidjourneyImagesWithoutWritingaSinglePrompt_0.png"
 date: 2024-06-19 04:09
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-HowtoCreateMidjourneyImagesWithoutWritingaSinglePrompt_0.png
 tag: Tech
 originalTitle: "How to Create Midjourney Images Without Writing a Single Prompt"
 link: "https://medium.com/generative-ai/how-to-create-midjourney-images-without-writing-a-single-prompt-7ca4b9009617"
 isUpdated: true
 ---
-
-
-
-
 
 ## 자유로운 창의력
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 어찌되었든 몇 마디쯤은 써야 합니다. 이제 Midjourney는 텍스트를 이미지로 변환하는 생성기니까요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 실제로 한 마디도 쓰지 않고 이미지를 만들 수 있는 또 다른 방법이 있습니다.
 
@@ -34,7 +41,18 @@ Midjourney는 이미지를 설명하는 일련의 문구와 키워드를 제시�
 
 여기에 describe에 대해 더 쓴 글이 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🎯 그러나 이제는 프롬프팅없이 계속 진행해 봅시다.
 
@@ -44,7 +62,18 @@ Midjourney 블렌드 기능이 여러분의 새로운 친구입니다.
 
 할 일은 간단합니다. 웹 사이트에 이미지를 업로드하거나 자체 작품을 사용하기만 하면 됩니다. 최소 두 개를 업로드한 후에는 엔터 키를 누르기만 하면 Midjourney가 모든 마법을 다 해 줄 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 예제입니다:
 
@@ -52,7 +81,18 @@ Midjourney 블렌드 기능이 여러분의 새로운 친구입니다.
 
 Midjourney는 첫 번째 두 이미지를 세 번째 이미지로 잘 결합했고 전체적인 스타일과 캐릭터를 유지했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 잘 돌아가다가 갑자기 안 돌아갈 때가 있어요
 
@@ -62,7 +102,18 @@ Midjourney는 첫 번째 두 이미지를 세 번째 이미지로 잘 결합했�
 
 맞아요, 때로는 이상한 이미지가 나오기도 하지만, 다시 말하지만 그것도 재미의 일부에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 컴퓨터 소녀
 
@@ -72,7 +123,18 @@ Midjourney는 첫 번째 두 이미지를 세 번째 이미지로 잘 결합했�
 
 ## 알프스의 사무실
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 고급 팁
 
@@ -82,7 +144,18 @@ Midjourney는 첫 번째 두 이미지를 세 번째 이미지로 잘 결합했�
 
 그러므로 상세한 프롬프트를 작성하는 것이 중요합니다. 첫 번째부터 프롬프팅을 시작했다면 더 좋았을 텐데, 맞죠?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래에 표가 있습니다. 이미지를 혼합하면 어떤 프롬프트도 없이 완전히 새로운 이미지를 만들 수 있습니다.
 
@@ -90,7 +163,18 @@ Midjourney는 첫 번째 두 이미지를 세 번째 이미지로 잘 결합했�
 
 <img src="/assets/img/2024-06-19-HowtoCreateMidjourneyImagesWithoutWritingaSinglePrompt_2.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 이야기는 Generative AI에 발행되었습니다. 최신 AI 이야기를 함께 보려면 LinkedIn을 통해 저희와 연락하고 Zeniteq를 팔로우해주세요.
 

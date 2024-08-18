@@ -3,7 +3,7 @@ title: "자연어 처리NLP에서 텍스트 분류 머신러닝으로 텍스트 
 description: ""
 coverImage: "/assets/img/2024-06-22-TextClassificationinNLPCategorizingTextwithMachineLearningPart8_0.png"
 date: 2024-06-22 21:27
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-TextClassificationinNLPCategorizingTextwithMachineLearningPart8_0.png
 tag: Tech
 originalTitle: "Text Classification in NLP: Categorizing Text with Machine Learning (Part 8)"
@@ -11,13 +11,10 @@ link: "https://medium.com/ai-advances/text-classification-in-nlp-categorizing-te
 isUpdated: true
 ---
 
-
-
-
-
 ![image](/assets/img/2024-06-22-TextClassificationinNLPCategorizingTextwithMachineLearningPart8_0.png)
 
 ## 목차
+
 1. 텍스트 분류의 기본 개념 이해
 2. 텍스트 분류를 위한 데이터 준비
    2.1. 데이터 수집 및 주석
@@ -36,7 +33,18 @@ isUpdated: true
 
 42페이지 전자책인 "데이터 과학 | 포괄적 핸드북"을 무료로 받아보세요. 무료 구독하세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1. 텍스트 분류 기초 이해
 
@@ -49,7 +57,18 @@ isUpdated: true
 - 특성 추출
 - 모델 훈련 및 평가
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 강력한 텍스트 분류 시스템을 만드는 데 각 단계가 중요합니다. ML 워크플로에 어떻게 기여하는지 이해하기 위해 이러한 단계를 자세히 살펴봅시다.
 
@@ -59,7 +78,18 @@ isUpdated: true
 
 특성 추출은 텍스트를 ML 알고리즘이 이해할 수 있는 형식으로 변환합니다. Bag of Words, TF-IDF 또는 단어 임베딩과 같은 기법이 일반적으로 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마침내, 이 처리된 데이터에서 모델을 훈련합니다. Naive Bayes, Support Vector Machines 또는 Neural Networks와 같은 모델이 인기 있는 선택지입니다. 훈련 후, 정확도, 정밀도 및 재현율과 같은 메트릭을 사용하여 모델의 성능을 평가합니다.
 
@@ -69,7 +99,18 @@ isUpdated: true
 
 텍스트 분류를 위해 데이터를 준비하는 것은 기계 학습 과정에서 중요한 단계입니다. 이는 몇 가지 주요 단계를 포함합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 수집: 분류하려는 텍스트를 잘 대표하는 견고한 데이터 세트를 수집하세요. 편향을 피하려면 다양한 출처를 사용해보세요.
 
@@ -79,7 +120,18 @@ isUpdated: true
 
 데이터 전처리: 텍스트를 표준화하세요. 소문자로 변환하고, 토큰화하고, 불용어를 제거하며, 어간 추출 또는 표제어 추출을 수행하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단한 Python 코드 조각을 준비했습니다. 기본 텍스트 전처리에 대한 것이에요:
 
@@ -109,7 +161,18 @@ tokens = [lemmatizer.lemmatize(word) for word in tokens]
 
 ## 2.1. 데이터 수집 및 주석화
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 텍스트 분류에서 데이터 수집 및 주석 작업은 기본 단계입니다. 효과적으로 머신 러닝 모델을 훈련시키기 위해서는 견고한 데이터셋이 필요합니다. 아래는 시작하는 방법입니다:
 
@@ -119,7 +182,18 @@ tokens = [lemmatizer.lemmatize(word) for word in tokens]
 
 Amazon Mechanical Turk와 같은 도구를 활용해 대규모 주석 작업을 수행할 수도 있습니다. 또는 전문 소프트웨어를 사용해 이 프로세스 일부를 자동화할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터의 품질이 모델의 성능에 직접적인 영향을 미친다는 것을 기억해주세요. 따라서 데이터셋이 다음을 충족하는지 확인해보세요:
 
@@ -135,7 +209,18 @@ data = {"text": "제품이 좋고 배송도 빠릅니다!", "label": "긍정적"
 print(f'텍스트: {data["text"]}\n레이블: {data["label"]}')
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터가 준비되었으므로 다음 단계, 즉 전처리로 넘어갈 준비가 되었습니다.
 
@@ -145,7 +230,18 @@ print(f'텍스트: {data["text"]}\n레이블: {data["label"]}')
 
 먼저 데이터셋에서 노이즈를 제거해야 합니다. 이는 HTML 태그를 제거하고 오타를 교정하고 특수 문자를 제거하는 것을 포함합니다. 다음은 기본 텍스트 클리닝을 위한 Python 코드 조각입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import re
@@ -167,7 +263,18 @@ stop_words = set(stopwords.words('english'))
 filtered_sentence = [w for w in word_tokens if not w in stop_words]
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 단계를 따라가면 텍스트 분류에서 효율적인 기계 학습 모델 훈련을 위해 데이터를 준비할 수 있습니다.
 
@@ -177,7 +284,18 @@ filtered_sentence = [w for w in word_tokens if not w in stop_words]
 
 Bag of Words (BoW): 이 방법은 텍스트 내 모든 단어에서 어휘를 생성하고 그 발생 빈도를 계산합니다. 예를 들면:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 from sklearn.feature_extraction.text import CountVectorizer
@@ -195,7 +313,18 @@ X = vectorizer.fit_transform(corpus)
 
 Word Embeddings: 이 기술은 밀집된 벡터 형식으로 단어를 나타내며 의미를 캡처합니다. Gensim과 같은 라이브러리 또는 TensorFlow와 같은 프레임워크를 사용하여 단어 임베딩을 구현할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 방법은 각각의 강점을 가지고 있으며, 구체적인 텍스트 분류 작업 요구에 따라 선택됩니다.
 
@@ -205,7 +334,18 @@ Word Embeddings: 이 기술은 밀집된 벡터 형식으로 단어를 나타내
 
 나이브 베이즈 분류기는 베이즈 이론을 기반으로 하는 확률 모델입니다. 대규모 데이터셋에 특히 적합하며 구현하기 쉽습니다. 간단한 Python 예시는 아래와 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 from sklearn.naive_bayes import MultinomialNB
@@ -230,7 +370,18 @@ clf.fit(X, 라벨)
 
 적절한 모델을 선택하는 것은 데이터셋과 작업 중인 텍스트의 특징에 따라 다릅니다. 최적의 모델을 찾기 위해 실험이 중요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 4.1. 나이브 베이즈 분류기
 
@@ -259,7 +410,18 @@ clf = MultinomialNB()
 clf.fit(X_train, y_train)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 훈련 후 모델의 성능을 평가하고 예측할 수 있습니다. Naive Bayes 분류기는 텍스트 데이터와 잘 작동하여 이메일 필터링, 감성 분석 및 문서 분류에 인기가 있습니다.
 
@@ -269,7 +431,18 @@ clf.fit(X_train, y_train)
 
 먼저 TF-IDF와 같은 기술을 사용하여 텍스트 데이터를 숫자 벡터로 변환합니다. 그런 다음, SVM은 서로 다른 클래스를 가장 잘 분리하는 초평면을 찾습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 간단한 파이썬 예제가 있어요. scikit-learn 라이브러리를 사용합니다:
 
@@ -301,7 +474,18 @@ predictions = classifier.predict(X_test)
 
 SVM 및 해당 구현에 대한 자세한 내용은 scikit-learn 문서를 참조하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 4.3. 신경망과 딥러닝
 
@@ -313,20 +497,45 @@ SVM 및 해당 구현에 대한 자세한 내용은 scikit-learn 문서를 참�
 단계 2: 모델 선택
 신경망 아키텍처를 선택하세요. 합성곱 신경망 (CNN)은 지역 패턴을 이해해야 하는 텍스트에 좋습니다. 순환 신경망 (RNN), 특히 LSTM (Long Short-Term Memory) 네트워크는 순차 데이터에 더 적합합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 단계 3: 특성 추출
+
 텍스트를 숫자 형태로 변환합니다. 단어 임베딩과 같은 기술을 사용하여 단어와 그 의미를 밀집 표현으로 제공합니다.
 
 ### 단계 4: 모델 훈련
+
 준비된 특성을 사용하여 모델을 훈련합니다. 학습률 및 에폭 수와 같은 하이퍼파라미터를 조정하여 성능을 향상시킵니다.
 
 ### 단계 5: 평가
+
 정확도, 정밀도, 재현율, F1 점수와 같은 지표를 사용하여 모델을 평가합니다. 훈련 중에 모델이 보지 않았던 별도의 테스트 세트를 사용합니다.
 
 다음은 Keras를 사용한 간단한 파이썬 코드 스니펫이 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 keras.models에서 Sequential, Dense, LSTM, Embedding을 가져와주세요
@@ -344,8 +553,18 @@ model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy']
 
 이러한 단계를 따르고 신경망을 사용함으로써 효과적으로 텍스트 데이터를 이해하고 분류하는 강력한 텍스트 분류 시스템을 구축할 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 5. 모델 성능 평가
 
@@ -361,7 +580,18 @@ y_pred = [0, 0, 2, 2, 0, 2]
 confusion_matrix(y_true, y_pred)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 정밀도와 재현율: 정밀도는 양성 예측의 정확성을 측정합니다. 재현율 또는 민감도는 실제 양성 비율을 측정합니다.
 
@@ -376,7 +606,18 @@ F1 점수: F1 점수는 정밀도와 재현율의 조화 평균입니다. 두 �
 
 항상 새로운, 보지 못한 데이터로 모델을 테스트해야 합니다. 이렇게 하면 모델이 일반화되고 훈련 데이터에 오버피팅되지 않도록 보장할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "실세계 데이터에서 좋은 성능을 발휘하는 모델을 구축하는 것이 목표입니다. 이러한 지표를 사용하여 모델의 성능을 측정하고 만족스러운 결과를 얻을 때까지 반복하세요.
 
@@ -386,7 +627,18 @@ F1 점수: F1 점수는 정밀도와 재현율의 조화 평균입니다. 두 �
 
 불균형 클래스 처리: 불균형 데이터셋은 기계 학습 모델에 편향을 일으킬 수 있어 일반화 성능이 저하될 수 있습니다. 이를 해결하기 위해:"
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 클래스 분포를 균형있게 맞추기 위해 리샘플링 기술을 사용해보세요.
 - 클래스를 다르게 가중시키기 위해 비용 민감학습을 적용해보세요.
@@ -400,7 +652,18 @@ F1 점수: F1 점수는 정밀도와 재현율의 조화 평균입니다. 두 �
 
 이러한 전략들은 신중한 고려가 필요하지만, 기계 학습에서 텍스트 분류 결과를 크게 향상시킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 6.1. 불균형 클래스 다루기
 
@@ -415,7 +678,18 @@ ros = RandomOverSampler(random_state=42)
 X_resampled, y_resampled = ros.fit_resample(X, y)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 알고리즘 조정: Decision Trees나 앙상블 방법과 같은 알고리즘을 사용하여 클래스 불균형에 민감하지 않도록 조정하세요.
 
@@ -425,7 +699,18 @@ X_resampled, y_resampled = ros.fit_resample(X, y)
 
 ## 6.2. 전이 학습 활용하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전이 학습은 텍스트 분류 모델을 혁신적으로 개선할 수 있는 머신 러닝 기술입니다. 미리 훈련된 모델을 사용하고 해당 작업에 적응시키는 것이 핵심입니다. 여기에 이 기술을 활용하는 방법이 있습니다:
 
@@ -439,7 +724,18 @@ model = BertModel.from_pretrained('bert-base-uncased')
 
 다음으로, 데이터셋을 준비하세요. 텍스트 데이터가 깨끗하고 모델에 맞게 올바르게 포맷되어 있는지 확인하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼, 데이터셋에 맞게 모델을 세밀하게 튜닝해보세요. 이 단계에서는 모델의 가중치를 조정하여 분류 작업에 더 잘 맞춥니다.
 
@@ -453,7 +749,18 @@ optimizer = AdamW(model.parameters(), lr=1e-5)
 
 전이 학습을 활용함으로써, 효율적이고 정확한 강력한 텍스트 분류 시스템을 구축할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 완전한 튜토리얼 목록입니다:
 

@@ -3,17 +3,13 @@ title: "AWS EC2 Linux 인스턴스의 디스크 크기 늘리는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-23-HowtoIncreaseDiskSizeonYourAWSEC2LinuxInstance_0.png"
 date: 2024-06-23 15:16
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-HowtoIncreaseDiskSizeonYourAWSEC2LinuxInstance_0.png
 tag: Tech
 originalTitle: "How to Increase Disk Size on Your AWS EC2 Linux Instance"
 link: "https://medium.com/@bhuvi01/how-to-increase-disk-size-on-your-aws-ec2-linux-instance-6fcd064e8222"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-23-HowtoIncreaseDiskSizeonYourAWSEC2LinuxInstance_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 시작하기 전에 다음을 확인하십시오:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - AWS 콘솔 접속: AWS 콘솔에 로그인해야 합니다.
 - EC2 인스턴스: 우분투 또는 아마존 리눅스와 같은 Linux 기반 EC2 인스턴스가 실행 중인지 확인하세요.
@@ -37,7 +44,18 @@ isUpdated: true
 df -h
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-23-HowtoIncreaseDiskSizeonYourAWSEC2LinuxInstance_1.png)
 
@@ -48,7 +66,18 @@ df -h
 - AWS 콘솔로 이동: AWS 관리 콘솔로 이동하여 EC2 대시보드로 이동합니다.
 - 인스턴스 찾기: "인스턴스" 아래에서 인스턴스를 찾아 루트 EBS 볼륨의 볼륨 ID를 메모합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 볼륨 크기를 조정하세요:
 
@@ -59,7 +88,18 @@ df -h
 - 원하는 새 크기를 입력하십시오 (크기를 늘릴 수는 있지만 줄일 수는 없습니다).
 - 변경 사항을 적용하려면 "수정"을 클릭하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 3: Linux에서 파일 시스템 확장하기
 
@@ -71,7 +111,18 @@ df -h
 
 <img src="/assets/img/2024-06-23-HowtoIncreaseDiskSizeonYourAWSEC2LinuxInstance_3.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 명령어를 사용하면 업데이트된 디스크 크기가 표시됩니다.
 
@@ -83,7 +134,18 @@ df -h
 
 <img src="/assets/img/2024-06-23-HowtoIncreaseDiskSizeonYourAWSEC2LinuxInstance_4.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 디스크 식별자와 필요에 따라 파티션 번호를 조정해 /dev/xvda를 변경하세요.
 
@@ -95,7 +157,18 @@ df -h
 
 ![이미지](/assets/img/2024-06-23-HowtoIncreaseDiskSizeonYourAWSEC2LinuxInstance_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특정 파티션 (/dev/xvda4)으로 테이블 태그를 변경하십시오.
 
@@ -105,7 +178,18 @@ df -h
 
 ![이미지](/assets/img/2024-06-23-HowtoIncreaseDiskSizeonYourAWSEC2LinuxInstance_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 정리하기: 모든 것이 올바르게 작동하는 것에 만족하셨다면, 볼륨을 조정할 때 AWS가 자동으로 생성한 스냅샷을 삭제할 수 있습니다.
 

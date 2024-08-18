@@ -3,7 +3,7 @@ title: "LiveData와 MutableLiveData 최신 비교 어떤 것을 사용할까"
 description: ""
 coverImage: "/assets/img/2024-07-10-LiveDatavsMutableLiveData_0.png"
 date: 2024-07-10 01:28
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-10-LiveDatavsMutableLiveData_0.png
 tag: Tech
 originalTitle: "LiveData vs MutableLiveData"
@@ -11,18 +11,24 @@ link: "https://medium.com/@kaurparam.30jeet31/livedata-vs-mutablelivedata-df11d4
 isUpdated: true
 ---
 
-
-
-
-
 **What is LiveData?**
 
 LiveData is an Observable Data Holder class. It observes changes in its data and informs its observers about these changes.
 
 LiveData is a part of Jetpack components and is aware of the lifecycle. It notifies its observers about changes only when the lifecycle owner is active. If the lifecycle owner is not in memory, LiveData stops notifying about changes.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 라이브데이터에는 두 가지 유형이 있어요:
 
@@ -32,11 +38,22 @@ LiveData is a part of Jetpack components and is aware of the lifecycle. It notif
 
 ### LiveData 주요 포인트:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 코드는 LiveData의 새 인스턴스를 만들어내며, 제네릭 타입으로 String을 사용하고 MutableLiveData로 초기화됩니다.
 
-LiveData는 감시자들이 그 값을 수정하는 것을 허용하지 않습니다. 그저 값이 변했음을 알릴 뿐이며, 그에 따라 원하는 조치를 취할 수 있도록 합니다. 감시자들은 변경 사항을 관찰할 수만 있고 값을 수정할 수는 없습니다. 따라서 외부 감시자들에게는 항상 LiveData를 변경할 수 없는 형태로 사용해야 합니다. 
+LiveData는 감시자들이 그 값을 수정하는 것을 허용하지 않습니다. 그저 값이 변했음을 알릴 뿐이며, 그에 따라 원하는 조치를 취할 수 있도록 합니다. 감시자들은 변경 사항을 관찰할 수만 있고 값을 수정할 수는 없습니다. 따라서 외부 감시자들에게는 항상 LiveData를 변경할 수 없는 형태로 사용해야 합니다.
 
 이제 생각하고 계실 것입니다. LiveData가 알림을 보내는 변경 사항은 누가 가져올까요? 데이터의 실제 변경 사항은 다른 MutableLiveData 변수로 처리됩니다. MutableLiveData 변수는 데이터를 업데이트하는 리소스에게 노출되며, LiveData를 업데이트하는 데 사용됩니다. LiveData가 업데이트되면 감시자들에게 데이터가 변경되었음을 알리고 UI를 업데이트하거나 사용자 정의 로직을 실행할 수 있습니다.
 
@@ -48,7 +65,18 @@ LiveData는 스레드 안전성을 가지고 있어서, 메인 스레드에서 �
 private val _text = MutableLiveData<String>("초기값")
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **위 코드는 MutableLiveData의 제네릭 타입을 String으로 설정하고 값으로 "초기값"을 초기화하는 새로운 MutableLiveData 인스턴스를 생성합니다.**
 
@@ -66,20 +94,31 @@ private val _text = MutableLiveData<String>("초기값")
 
 ## LiveData에 관찰자(observer) 추가 방법
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 LiveData에 옵저버를 추가하는 샘플 구문입니다.
 
 ```kotlin
 /**
  * @param this is the Lifecycle owner. If the Lifecycle owner is not in memory, then LiveData will stop notifying changes in data.
- * 
- * @param observer is the lambda where you can write your custom logic that you want to get executed whenever there is any change in LiveData myViewModel.text 
- * 
+ *
+ * @param observer is the lambda where you can write your custom logic that you want to get executed whenever there is any change in LiveData myViewModel.text
+ *
  * @param updatedValue is the new value of LiveData.
  */
 
-liveData.observe(LifecycleOwner, Observer { updatedValue -> 
+liveData.observe(LifecycleOwner, Observer { updatedValue ->
     // Custom code to be executed when LiveData changes.
 })
 ```
@@ -88,8 +127,18 @@ liveData.observe(LifecycleOwner, Observer { updatedValue ->
 
 MyViewModel.kt
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 import androidx.lifecycle.LiveData
@@ -100,7 +149,7 @@ class MyViewModel : ViewModel() {
 
     /**
      * apply 함수는 MutableLiveData 인스턴스가 생성된 직후에 즉시 구성하는 데 사용됩니다.
-     * 
+     *
      * apply 블록 내에서 MutableLiveData 인스턴스의 초기 값이 "안녕, 세상!"으로 설정됩니다.
      */
     private val _text = MutableLiveData<String>().apply {
@@ -157,7 +206,17 @@ class MainActivity : AppCompatActivity() {
 
 만약 이 글이 유용하다고 느끼셨다면 팔로우해 주세요. LinkedIn과 GitHub에서도 저를 만날 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 건강하고 큰 꿈을 꾸며 계속 진행해보세요 :)

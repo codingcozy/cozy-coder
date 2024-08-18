@@ -3,17 +3,13 @@ title: "당신을 치유한 사람들에 의해 다시 상처받는 경험"
 description: ""
 coverImage: "/assets/img/2024-06-23-Beingbrokenbythepeoplethatalsohealedyou_0.png"
 date: 2024-06-23 18:54
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-Beingbrokenbythepeoplethatalsohealedyou_0.png
 tag: Tech
 originalTitle: "Being broken by the people that also healed you."
 link: "https://medium.com/@maryjouybaltazar/being-broken-by-the-people-that-also-healed-you-0e5978b74c17"
 isUpdated: true
 ---
-
-
-
-
 
 ![image](/assets/img/2024-06-23-Beingbrokenbythepeoplethatalsohealedyou_0.png)
 
@@ -23,9 +19,20 @@ isUpdated: true
 
 "그런 게 현실이야"가 널 위로해 줄 거지만, 동시에 네가 가장 싫어하는 말이 될 거야.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-열심히 노력할 것이에요. 자신을 달래기 위해 그들을 잊으려고 모든 사진을 삭제하고 그들이 선물한 모든 것을 버릴 거예요. 하지만 치유하는 여정 속에서 어딘가에 그 모든 것이 무너지는 순간들이 있을 거예요. 왜냐하면 당신이 깊은 곳에 그들을 담아두었기 때문이죠. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+열심히 노력할 것이에요. 자신을 달래기 위해 그들을 잊으려고 모든 사진을 삭제하고 그들이 선물한 모든 것을 버릴 거예요. 하지만 치유하는 여정 속에서 어딘가에 그 모든 것이 무너지는 순간들이 있을 거예요. 왜냐하면 당신이 깊은 곳에 그들을 담아두었기 때문이죠.
 
 같은 사람 속에서는 같은 사람을 찾을 수 없다는 것도 사실이에요. 노력해봐도 마찬가지일 거예요. 다른 사람들과 같은 종류의 관계를 찾을 거예요, 하지만 찾지 못할 거예요. 그냥 그렇다고.
 
@@ -37,7 +44,18 @@ isUpdated: true
 
 좋은 점은 몇몇 사람이 떠나면 새로운 사람들도 올 거라는 거에요. 다른 성격을 가진 다른 사람일 수도 있겠지만, 당신의 마음 속 어딘가에서 그들은 당신에게 위안이 될 거에요. 그들이 이전에 함께한 익숙한 사람들과 공유했던 행복과 웃음을 가져다 주지는 않겠지만, 당신이 정말 필요로 하는 안정감을 줄 거에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 수용은 부서에서 나오게 될 것입니다; 이를 어떻게 받아들이고 계속 헤엄치는 법을 배우게 될 거에요.
 
@@ -47,7 +65,18 @@ isUpdated: true
 
 이 글에는 제 생각과 경험이 담겨 있고, 이를 통해 여러분에게 "놓아주고, 평화롭게 살아가"라고 자랑스럽게 전할 수 있는 누군가의 따뜻함을 느끼게 해주기를 바랍니다. 왜냐하면 나도 어느 날 그것이 필요했었기 때문이죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두려워하는 모든 분들에게 포옹을 보내요. 언젠가는 모든 것이 이해될 거에요 :))
 

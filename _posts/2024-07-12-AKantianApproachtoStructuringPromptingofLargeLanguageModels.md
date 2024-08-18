@@ -3,17 +3,13 @@ title: "칸트 철학으로 대형 언어 모델 프롬프트 구조화하는 �
 description: ""
 coverImage: "/assets/img/2024-07-12-AKantianApproachtoStructuringPromptingofLargeLanguageModels_0.png"
 date: 2024-07-12 23:49
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-AKantianApproachtoStructuringPromptingofLargeLanguageModels_0.png
 tag: Tech
 originalTitle: "A Kantian Approach to Structuring Prompting of Large Language Models"
 link: "https://medium.com/ai-in-plain-english/a-kantian-approach-to-structuring-prompting-of-large-language-models-fc35e138e532"
 isUpdated: true
 ---
-
-
-
-
 
 인공 지능 소프트웨어가 이 기사의 텍스트의 문법, 흐름, 가독성을 향상시키는 데 사용되었습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 현명한 철학자 이머누엘 칸트의 인지 모델에서 영감을 받아, UPAR이라 불리는 LLM 프롬프팅 프레임워크가 소개되었습니다. 이는 대규모 신경망 내에서 타고난 인간의 추론 능력을 흉내 내기 위해 칸트의 철학적 원리를 통합합니다. (Geng et al. 2023)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 UPAR는 이해, 계획, 실행 및 반성 네 단계를 거쳐 추론을 구축합니다. 이 구조는 LLM 응답에 경험적 근거, 논리적 일관성 및 내적 정제를 심어줍니다.
 
@@ -33,7 +40,18 @@ UPAR는 이해, 계획, 실행 및 반성 네 단계를 거쳐 추론을 구축�
 
 반성 단계에서는 He CritiquingLLM 모델 [Wu et al. 2023]이 답변 품질을 평가하기 위해 설명적 비평을 자동으로 생성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 UPAR 운율의 추론 위상학은 복잡한 질문, 증거 집계 및 세밀한 결론 도출 사이의 상호 작용을 나타내기 위해 체인, 트리 또는 방향성 비순환 그래프와 같은 명시적 그래프 구조를 활용할 수 있습니다.
 
@@ -43,7 +61,18 @@ RAG는 지식 공백을 다루고, LLM 컴파일러는 증거 축적을 조정�
 
 ![이미지](/assets/img/2024-07-12-AKantianApproachtoStructuringPromptingofLargeLanguageModels_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 비구조화된 추론의 한계
 
@@ -53,7 +82,18 @@ RAG는 지식 공백을 다루고, LLM 컴파일러는 증거 축적을 조정�
 
 나는 대규모 신경망이 인간의 마음과 마찬가지로 형식적 추론 구조를 내재적으로 편입하여 신뢰할 수 있는, 검토 가능한 추론을 체계적으로 구축해야 한다고 주장합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 탄생적 철학자 이만귤 칸트의 인식 모델은 우리가 세계를 이해하기 위해 매일 무의식적으로 활용하는 특정 추론 계층을 규명합니다. 이들은 다음과 같습니다:
 
@@ -66,7 +106,18 @@ RAG는 지식 공백을 다루고, LLM 컴파일러는 증거 축적을 조정�
 
 칸트주의에서 영감을 받은 UPAR과 같은 건축적으로 안내된 프레임워크를 통합함으로써, 반복적인 인간의 추론을 반영하는 본질적인 골조를 새기는 것이 중요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이해 단계는 먼저 관찰에서 비롯된 구체적인 상황 모델을 구축합니다.
 
@@ -76,7 +127,18 @@ RAG는 지식 공백을 다루고, LLM 컴파일러는 증거 축적을 조정�
 
 반성은 제공된 맥락과 일치 여부를 확인합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문구는 공식 추론 층의 발현이 LLMs에게 세밀하게 구성 가능한 추론 체인을 조립할 명시적 뼈대를 제공하여, 비구조적인 통계 합회를 넘어 신뢰성을 향상시킵니다.
 
@@ -86,7 +148,18 @@ RAG는 지식 공백을 다루고, LLM 컴파일러는 증거 축적을 조정�
 
 UPAR (이해, 계획, 실행, 반성) 패러다임은 철학적 추론 층을 대형 언어 모델 내에 새겨 인간의 본능적 인식을 모방하고자 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 UPAR 구조는 네 가지 구분된 단계를 통해 추론을 진행합니다:
 
@@ -96,7 +169,18 @@ UPAR 구조는 네 가지 구분된 단계를 통해 추론을 진행합니다:
 
 행동은 이후에 이러한 계획된 대응 생성 프로세스를 계획된 이해와 일치하도록 실행하여 구조화되지 않은 서술이 아닌 근거 있는, 지지되는 결론을 실현합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마침내, Reflect는 총체적인 과정을 검토하고 판단하며 도출된 결론과 지지되는 추론을 정제합니다. 이를 통해 반복적인 개선을 위한 조정이 가능해집니다. 이 재귀적인 분석은 내성의 상징이 됩니다.
 
@@ -106,7 +190,18 @@ UPAR 구조는 네 가지 구분된 단계를 통해 추론을 진행합니다:
 
 UPAR는 칸트의 인식론으로부터 아키텍처적 계층을 새겨들어, LLM 추론 내에서 경험적 타당성, 논리적 일관성 및 내성적으로 정제를 강화합니다. 체계적인 궤적은 비단지 단지 마법처럼 생성된 서술보다 직관적인 인간적 추론 연쇄와 보다 밀접한 닮음을 지니고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 의도적 UPAR 통합은 LLMs을 구조적으로 안내된 추론을 통해 미구조적 추론의 진전을 이끕니다 - 신뢰와 떠오르는 지능에 대한 통찰력을 향상시킵니다.
 
@@ -116,7 +211,18 @@ UPAR는 칸트의 인식론으로부터 아키텍처적 계층을 새겨들어, 
 
 학습 시스템으로서, 그들의 이해 범위는 새로운 외부 지혜를 도입함으로써 확장될 수 있습니다 - 마치 인간의 이해가 지속적인 정보 소비를 통해 성장하는 것처럼요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지식 그래프를 통한 검색 보강 생성은 외부 개념을 맥락적으로 소화하여 생소한 쿼리를 해결하는 자동화된 방법론으로 작용합니다. 참고 말뭉치에서 구축된 지식 그래프에는 노드로 표현된 개체와 관련 데이터를 인코딩하는 연결적 엣지로 표현된 관계가 포함되어 있습니다.
 
@@ -126,7 +232,18 @@ UPAR는 칸트의 인식론으로부터 아키텍처적 계층을 새겨들어, 
 
 이를 모방하기 위해 LLM 컴파일러 프레임워크를 통합하여, 지식 서브그래프로부터 효율적으로 병렬 엔티티를 검색하고, 분산증거를 가져와 최종 컨텍스트 퓨전을 목표 추론에 조화롭게 조직함으로써, 쿼리 체인 간의 동시적 방해를 방지합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로그래머의 자동화된 스케줄러는 컴퓨터 부하, 지연 시간 목표 및 관련성에 기초하여 전문 그래프 모듈의 최적 쿼링을 할당합니다 — 검색 대역폭을 집중합니다. 동적 균형 조절은 그래프가 확장됨에 따라 흡수 효율을 지속적으로 극대화합니다.
 
@@ -136,7 +253,18 @@ UPAR는 칸트의 인식론으로부터 아키텍처적 계층을 새겨들어, 
 
 # UPAR에 평가를 통합하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 UPAR의 반성 단계는 끝에서 끝으로 이어지는 추론 과정의 자가평가를 포함하고 있지만, 비판 능력을 더 강화함으로써 투명성을 향상시키고 순환 개선을 가속화시킬 수 있습니다.
 
@@ -146,7 +274,18 @@ UPAR는 칸트의 인식론으로부터 아키텍처적 계층을 새겨들어, 
 
 이해 비판: 구축된 상황 모델의 완성도, 관련성 및 사실적 정확성을 평가하여 지식 결여나 관련 없는 연관성을 진단하여 추론의 순수성을 향상시키기 위해 개선이 필요한 부분을 파악합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 계획 검토: 타로는 계획의 전략적 최적성, 대비책 커버리지 및 논리적 일관성을 평가합니다. 잠재적 약점을 보완하기 위해 조정 사항을 권고합니다.
 
@@ -156,7 +295,18 @@ UPAR는 칸트의 인식론으로부터 아키텍처적 계층을 새겨들어, 
 
 또한 CritiquingLLM의 설명적 결과는 인간-인공지능 협업을 돕습니다. 체계적인 추론을 일치시키기 위해 UPAR 단계별로 재평가가 필요한 특정 요소를 명확히 설명해 줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단순한 숫자 평가보다 깊이 있는 평가는 이해, 계획 및 행동 향상을 촉진하여, 체계적 내성사상을 통해 점차적으로 자가비판적 지능의 발현을 촉발합니다.
 
@@ -166,7 +316,18 @@ UPAR의 추론 아키텍처와 CritiquingLLM의 평가 지원 구조의 융합�
 
 본 글은 칸트의 인식론에 영감을 받은 선의적인 아키텍처 통합을 통해 LLM 신뢰성을 향상시키는 잠재적인 방법을 논의했습니다. 구체적으로, UPAR 프레임워크는 이해, 계획, 행동 및 반성으로 추론 과정을 구조화하며, 생래적인 인간 사고를 흉내냅니다. 제어된 워크플로우에서의 맥락적 지식 소화 강화는透明성을 희생하지 않으면서 정확도를 최적화합니다. 자동 평가는 지속적인 조정을 위한 반복적 피드백을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 UPAR 초기 평가는 복잡한 과학적 추론 작업에서 원시 프롬프팅 방법에 비해 상당한 향상을 보여줍니다. 이 구조적 방법론은 대규모이면서도 해석 가능한 모델을 공학적으로 향상시키는 방향을 보여주며 경험적으로 기반을 다지고 검토 가능성을 향상시킵니다. UPAR 실행 확장 및 동적 지식 그래프, 추론 위상 및 비평 기술을 향상시키는 계속되는 노력이 앞날을 열어갑니다.
 
@@ -176,9 +337,20 @@ UPAR 초기 평가는 복잡한 과학적 추론 작업에서 원시 프롬프�
 
 In Plain English 커뮤니티의 일부가 되어 주셔서 감사합니다! 계속해서 부탁드릴 사항:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-- 반드시 작가를 박수로 격려해 주시고 구독해 주세요 🌟👏🌟  
-- 팔로우하기: X | LinkedIn | YouTube | Discord | Newsletter    
-- 다른 플랫폼에서도 만나보세요: Stackademic | CoFeed | Venture   
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+- 반드시 작가를 박수로 격려해 주시고 구독해 주세요 🌟👏🌟
+- 팔로우하기: X | LinkedIn | YouTube | Discord | Newsletter
+- 다른 플랫폼에서도 만나보세요: Stackademic | CoFeed | Venture
 - 다양한 컨텐츠는 PlainEnglish.io 에서 확인하세요 ✨

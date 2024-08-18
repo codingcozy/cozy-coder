@@ -3,18 +3,13 @@ title: "맥과 PC 중에서 선택하는 것이 바뀔 예정입니다"
 description: ""
 coverImage: "/assets/img/2024-06-19-ThechoicebetweenMacandaPCisabouttochange_0.png"
 date: 2024-06-19 01:16
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-ThechoicebetweenMacandaPCisabouttochange_0.png
 tag: Tech
 originalTitle: "The choice between Mac and a PC is about to change"
 link: "https://medium.com/@lewisjdoyle/the-choice-between-mac-and-a-pc-is-about-to-change-72492e31b8dd"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![Mac vs PC](/assets/img/2024-06-19-ThechoicebetweenMacandaPCisabouttochange_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 생각해 보세요: PC를 소유하고 있다면 게임을 할 수도 있고, 오피스 문서를 만들고 수정할 수 있고, 콘텐츠를 만들고 편집하며, 좋아하는 비디오를 보고 코딩할 수 있습니다. 맥에 대해서도 똑같이 말할 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신의 PC는 게임에 관해서 더 많은 것을 제공할 수 있지만, Mac은 콘텐츠 제작에 더 많은 것을 제공할 수 있습니다. 하지만 어느 플랫폼을 선택하던지 이러한 모든 것을 할 수 있다는 것을 명심해주세요.
 
@@ -35,7 +40,18 @@ isUpdated: true
 
 리뷰어들은 당신의 결정은 본질적으로 원하는 플랫폼을 선택하여 결정되어야 한다고 추측합니다: Windows 또는 MacOS. 그러나 사실은, 선택한 MacBook의 장점들은 운영 체제 선호도 이상의 것이었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2020년 11월에 M1이 출시된 이후로, MacBooks는 어떤 PC 대안보다 성능과 배터리 효율이 훨씬 우수했습니다. PC 배터리가 주방 싱크대처럼 빠르게 방전될 때, 여러분의 Mac은 계속해서 사용할 수 있었습니다. 사실, 내 M1 MacBook Pro가 한 번의 배터리 소모 시에 2021년 델 XPS를 세 번 충전해야만 했을 정도였죠.
 
@@ -45,7 +61,18 @@ isUpdated: true
 
 상황이 역전되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 새로운 CoPilot+ PC 노트북은 그 상황을 바꿀 것입니다. Microsoft가 드디어 Mac의 성능과 배터리 수명을 능가하는 PC를 시장에 선보였습니다.
 
@@ -55,7 +82,18 @@ isUpdated: true
 
 그러나 이제, 이 Snapdragon과 곧 발표될 새로운 Intel 칩을 장착한 새로운 노트북 시리즈가 등장하면, Apple로부터 그들의 강력함과 효율성 장점을 빼앗을 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 네, 지난 4년 만에 이번에는 차이가 단순히 운영 체제 선호도 때문인 것 같아요.
 

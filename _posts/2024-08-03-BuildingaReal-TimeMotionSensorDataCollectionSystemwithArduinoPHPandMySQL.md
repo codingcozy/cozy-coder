@@ -3,17 +3,13 @@ title: "Arduino, PHP, MySQL로 실시간 모션 센서 데이터 수집하는 �
 description: ""
 coverImage: "/assets/img/2024-08-03-BuildingaReal-TimeMotionSensorDataCollectionSystemwithArduinoPHPandMySQL_0.png"
 date: 2024-08-03 20:12
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-03-BuildingaReal-TimeMotionSensorDataCollectionSystemwithArduinoPHPandMySQL_0.png
 tag: Tech
 originalTitle: "Building a Real-Time Motion Sensor Data Collection System with Arduino, PHP, and MySQL"
 link: "https://medium.com/stackademic/building-a-real-time-motion-sensor-data-collection-system-with-arduino-php-and-mysql-feaf3c6d29d2"
 isUpdated: true
 ---
-
-
-
-
 
 # TL;DR
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 오늘날의 급속한 세상에서, 특히 홀로 사는 우리 노인 가족의 안전과 복지를 보장하는 것은 매우 중요합니다. 고령 인구가 계속 증가함에 따라 그들의 건강과 안전을 모니터링하기 위한 신뢰할 수 있고 효율적인 시스템에 대한 필요성도 증가합니다. 많은 모니터링 작업에 도움이되는 스마트 워치가 있지만 때때로 침실에서 사용하는 동안 사람들은 그것들을 착용하고 싶어하지 않습니다. 그들은 기기를 착용하는 느낌을 느끼고 싶지 않으며 이것이 우리 프로젝트가 중요한 역할을 하는 곳입니다.본문은 Arduino, PHP 및 MySQL을 사용하여 고령자가 홀로 살고 있는 침실에 거주하는 노인 개인을 모니터하는 데 도움이 되도록 고안된 실시간 모션 센서 데이터 수집 시스템을 구축하는 과정을 안내합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 사용 사례: 혼자 사는 노인 개인 모니터링
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ## 프로젝트 개요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 프로젝트는 Arduino의 움직임 감지 기능, ESP8266 Wi-Fi 모듈의 데이터 전송 기능, 서버 측 처리를 위한 PHP, 그리고 데이터 저장을 위한 MySQL을 활용합니다. 각 구성 요소가 함께 작동하여 원활한 모니터링 시스템을 구축하는 방법에 대한 간략한 개요를 제공합니다:
 
@@ -49,7 +67,18 @@ isUpdated: true
 - 데이터 분석: 과거 데이터를 분석하여 시간이 지남에 따른 움직임 감소 등의 경향을 식별할 수 있으며, 이는 건강 문제를 나타낼 수 있습니다.
 - 마음의 평화: 가족 및 간별꾼은 자신들이 담담히 사랑하는 이의 복지를 원격으로 모니터링할 수 있음을 알고 마음의 안정을 느낄 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 필요한 구성품 및 도구
 
@@ -62,7 +91,18 @@ isUpdated: true
 - ESP8266 Wi-Fi 모듈
 - 브레드보드 및 점퍼 와이어
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 소프트웨어 도구
 
@@ -76,8 +116,18 @@ isUpdated: true
 
 회로도
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음과 같이 PIR 센서와 ESP8266 모듈을 아두이노에 연결해보세요:
 
@@ -89,7 +139,18 @@ PIR 센서:
 
 ESP8266 Wi-Fi 모듈:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - VCC를 3.3V로 연결해 주세요.
 - GND를 GND에 연결해 주세요.
@@ -103,7 +164,18 @@ ESP8266 Wi-Fi 모듈:
 
 ## 동작 감지용 아두이노 코드
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 아두이노 코드는 PIR 센서를 사용하여 움직임을 감지하고 ESP8266 모듈을 통해 PHP 서버로 데이터를 전송합니다:
 
@@ -169,8 +241,18 @@ void sendToServer(String message, String sensor_id) {
 
 MySQL 데이터베이스를 생성하고 센서 데이터를 저장할 테이블을 만듭니다:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```sql
 CREATE DATABASE sensor_data_db;
@@ -191,7 +273,18 @@ CREATE TABLE sensor_data (
 
 PHP 스크립트 (save_data.php)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <?php
@@ -233,8 +326,18 @@ $conn->close();
 
 ## 테스트 및 문제 해결하기
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 설정 테스트 절차
 
@@ -249,7 +352,18 @@ $conn->close();
 - 데이터베이스에 데이터 없음: PHP 스크립트가 실행 중이고 데이터베이스 연결 세부 정보가 올바른지 확인합니다.
 - 센서가 움직임을 감지하지 않음: PIR 센서가 올바르게 연결되어 있는지 확인하고 작동하는지 확인합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 응용 및 추가 개선 사항
 
@@ -261,7 +375,18 @@ $conn->close();
 
 추가 기능 아이디어
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 추가 센서: 온도, 습도 등의 센서를 더 추가하여 모니터링 능력을 향상시킵니다.
 - 모바일 알림: 보호자나 가족 구성원에게 SMS나 앱 알림을 보낼 수 있는 시스템을 구현합니다.
@@ -273,7 +398,18 @@ $conn->close();
 
 실제 시나리오에서 시스템이 어떻게 작동하는지 살펴보기 위해 혼자 살고 있는 노인의 침실을 하루동안 모니터링하는 일상적인 상황을 고려해보겠습니다. 센서가 감지한 움직임과 비상 버튼 누름을 추적할 것입니다. 시스템이 하루 내내 데이터를 어떻게 캡처하고 저장할지 살펴봅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 현실적인 상황
 
@@ -284,7 +420,18 @@ $conn->close();
 
 오후 활동:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 2:00 PM부터 3:00 PM까지 침대에서 휴식을 취하며 중요한 움직임이 감지되지 않았습니다.
 - 휴식 후, 물을 가져 오고 가벼운 운동을 위해 움직입니다.
@@ -295,7 +442,18 @@ $conn->close();
 
 # 수집된 샘플 데이터
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가정해 봅시다. PIR 센서가 레코딩 사이의 최소 간격이 5초로 구성되어 움직임을 감지하도록 되어 있다고 가정해 봅시다. 이 날 수집된 데이터의 샘플 로그는 다음과 같습니다:
 
@@ -316,7 +474,18 @@ $conn->close();
 - 오후 8:05:00: 보다 편안한 자세를 취하거나 지원을 받기 위해 이동하는 것으로 추정되는 추가적인 움직임이 감지됩니다.
 - 오후 8:15:00: 계속된 활동은 개인이 여전히 활동 중이거나 침대에 준비 중임을 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 데이터 통합과 실생활 시나리오
 
@@ -328,7 +497,18 @@ $conn->close();
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 프로젝트는 혼자 사는 노인을 모니터링하고, 필요할 때 적시에 개입할 수 있는 효율적이고 신뢰할 수 있는 시스템을 만드는 방법을 보여줍니다. 이 안내를 따라 Arduino, PHP 및 MySQL을 사용하여 실시간 모션 센서 데이터 수집 시스템을 구축하여 가족과 간병인에게 안심감을 제공할 수 있습니다.
 
@@ -394,7 +574,18 @@ void sendToServer(String message, String sensor_id) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 PHP 스크립트 전체
 
@@ -447,12 +638,34 @@ CREATE TABLE sensor_data (
 );
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ข้อความสรุปคือการพัฒนาระบบตรวจจับการเคลื่อนไหวแบบเรียลไทม์สำหรับผู้สูงอายุโดยใช้ Arduino, PHP, และ MySQL
 Revision 1.0 / กรกฎาคม 2567 — ลอจิกเบเกอร์ และ Stackademic 🎓
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제공해주신 정보를 끝까지 읽어주셔서 감사합니다. 떠나시기 전에요:
 

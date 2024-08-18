@@ -3,17 +3,13 @@ title: "Jetpack Compose에서 공유 요소 전환 풍부한 사용자 경험 �
 description: ""
 coverImage: "/assets/img/2024-07-01-SharedElementTransitionInJetpackComposeProvideEnrichedUserExperiences_0.png"
 date: 2024-07-01 00:06
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-01-SharedElementTransitionInJetpackComposeProvideEnrichedUserExperiences_0.png
 tag: Tech
 originalTitle: "Shared Element Transition In Jetpack Compose: Provide Enriched User Experiences"
 link: "https://medium.com/proandroiddev/shared-element-transition-in-jetpack-compose-provide-enriched-user-experiences-163d4e435869"
 isUpdated: true
 ---
-
-
-
-
 
 ![image](https://miro.medium.com/v2/resize:fit:1200/1*XWziJJSgLGdw4aWm9vDCHA.gif)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Jetpack Compose에서는 LookaheadScope 또는 Orbital과 같은 라이브러리를 사용하여 공유 요소 전환을 구현할 수 있습니다. 그러나 이러한 애니메이션을 Compose Navigation 라이브러리와 통합하는 것에는 아직 일부 제한 사항이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 행운히도, Compose UI 버전 1.7.0-alpha07에서는 공유 요소 전환을 위한 새로운 API가 도입되었습니다. 이 글에서는 최신 버전의 Compose UI를 사용하여 다양한 상황에서 공유 요소 전환과 컨테이너 변형을 어떻게 원활하게 구현하는지 알아보겠습니다.
 
@@ -38,7 +45,18 @@ dependencies {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # SharedTransitionLayout 및 Modifier.sharedElement
 
@@ -49,7 +67,18 @@ Compose UI 및 애니메이션 버전 1.7.0-alpha07은 공유 요소 전환을 �
 
 이제 두 API를 어떻게 활용할 수 있는지 예제를 살펴보겠습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자세히 살펴봅시다. 이 예제를 자세히 살펴보겠습니다. Row에는 이미지와 텍스트가 가로로 표시됩니다. Row를 클릭하면 이미지와 텍스트가 세로로 배열된 Column으로 변환됩니다. SharedTransitionLayout 내에서 sharedElement 수정자가 사용된 것을 알 수 있습니다. 다음 세 가지 매개변수를 받습니다:
 
@@ -61,7 +90,18 @@ Compose UI 및 애니메이션 버전 1.7.0-alpha07은 공유 요소 전환을 �
 
 ![Click here](https://miro.medium.com/v2/resize:fit:752/1*YACtgRhSLW3hYGgfYHLgSw.gif)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 네비게이션과 공유 요소 전환이 함께하는 방법
 
@@ -71,7 +111,18 @@ Compose UI 및 애니메이션 버전 1.7.0-alpha07은 공유 요소 전환을 �
 
 먼저, 아래 예시처럼 빈 Composable 화면으로 NavHost를 설정해야 합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 네비게이션 라이브러리를 사용하여 공유 요소 전환을 구현하려면 NavHost를 SharedTransitionLayout 안에 넣는 것이 중요합니다. 이 설정을 통해 다양한 네비게이션 목적지 간에 공유 요소 전환을 제대로 처리할 수 있습니다.
 
@@ -81,7 +132,18 @@ Compose UI 및 애니메이션 버전 1.7.0-alpha07은 공유 요소 전환을 �
 
 본 예시에서는 이미지와 텍스트 컴포넌트의 수정자(modifiers)가 Modifier.sharedElement 함수를 사용한다는 것을 알 수 있습니다. 각 요소에는 고유한 키 값을 할당하여 목록의 여러 항목 중에서 구별할 수 있도록 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 공유된 요소 전환이 올바르게 작동하도록 하려면 출발 화면의 요소에 할당된 구체적인 키 값이 이동 흐름에서 대응되는 목적지 화면의 요소에 사용된 값과 일치해야 합니다. 다른 화면을 탐색하면서 다양한 컴포저블 간에 원활한 전환을 가능하게 하는 데 이 일치가 중요합니다.
 
@@ -91,7 +153,18 @@ Compose UI 및 애니메이션 버전 1.7.0-alpha07은 공유 요소 전환을 �
 
 예시 코드를 실행하면 다음 결과를 관찰할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](https://miro.medium.com/v2/resize:fit:866/1*vBg1PonRrhkP_hS5q0i8tw.gif)
 
@@ -101,17 +174,39 @@ If you want to see practical examples, check out the Pokedex-Compose open-source
 
 Now, let's dive into the container transform. Modifier.sharedBounds() is similar to Modifier.sharedElement(), but with a key difference. Modifier.sharedBounds() is best suited for content that looks different visually during transitions. On the other hand, Modifier.sharedElement() is used for content that remains visually consistent, like images. This difference is particularly helpful in scenarios like the container transform pattern.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전 예제를 활용하여 컨테이너 변환을 구현하는 것은 간단합니다. Composable 트리의 루트 계층에 Modifier.sharedBounds()를 추가하고 Modifier.sharedElement() 함수를 제거하면 됩니다. 이 수정을 통해 UI 구성 요소 간에 시각적으로 다른 요소들 간의 전환을 가능케 합니다.
 
-이전 섹션의 코드를 아래와 같이 수정해 보겠습니다: 
+이전 섹션의 코드를 아래와 같이 수정해 보겠습니다:
 
 세부사항을 살펴보면, 홈 컴포저블의 Row와 세부사항 컴포저블의 Column이 모두 위의 예제에서 보여주는 것처럼 Modifier.sharedBounds()를 활용하고 있음을 알 수 있습니다. 이게 전부입니다! 코드를 실행하면 다음과 같은 애니메이션의 결과를 확인할 수 있을 것입니다:
 
 ![animation](https://miro.medium.com/v2/resize:fit:926/1*VgYm12rOK7UdNWpM1C4rhQ.gif)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -121,7 +216,18 @@ Now, let's dive into the container transform. Modifier.sharedBounds() is similar
 
 이 글에 대한 질문이나 피드백이 있다면, 저자를 Twitter(@github_skydoves) 또는 GitHub에서 찾을 수 있습니다. 또한 Stream을 최신 상태로 유지하고 싶다면, 훌륭한 기술 콘텐츠를 더 보려면 Twitter(@getstream_io)를 팔로우하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 행복한 코딩하세요!
 

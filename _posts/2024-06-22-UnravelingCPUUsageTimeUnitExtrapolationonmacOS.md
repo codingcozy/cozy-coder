@@ -3,18 +3,13 @@ title: "맥OS에서 CPU 사용량 해부 시간 단위 외삽법 이해하기"
 description: ""
 coverImage: "/assets/img/2024-06-22-UnravelingCPUUsageTimeUnitExtrapolationonmacOS_0.png"
 date: 2024-06-22 16:22
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-UnravelingCPUUsageTimeUnitExtrapolationonmacOS_0.png
 tag: Tech
 originalTitle: "Unraveling CPU Usage: Time Unit Extrapolation on macOS"
 link: "https://medium.com/@federicosauter/unraveling-cpu-usage-time-unit-extrapolation-on-macos-7e0f53315464"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![이미지](/assets/img/2024-06-22-UnravelingCPUUsageTimeUnitExtrapolationonmacOS_0.png)
 
@@ -24,8 +19,18 @@ macOS에서 CPU 성능 지표를 이해하는 것은 복잡한 과제일 수 있
 
 사용자 공간에서 시간 단위(Mach 시간 및 틱)를 변환하는 것이 불가능할 때 대안적인 방법이 필요합니다. 커널 소스를 통해 한 가지 핵심 요소인 hz_tick_interval이 이 변환에 중요하다는 것을 알게 되었습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한편, 각 프로세스가 사용한 CPU 시간을 Ticks로 표현했습니다. 프로세스의 CPU 사용률을 백분율로 얻으려면 시스템이 수행한 총 CPU 시간(휴식 시간 포함)이 필요합니다. 이 총 CPU 시간이 우리가 본질적으로 찾고 있는 것입니다. 사용된 CPU 시간과 휴식 CPU 시간 사이의 비율은 사용된 단위에 관계없이 동일해야 하므로 변환 프로세스가 단순화됩니다.
 
@@ -35,7 +40,18 @@ macOS에서 CPU 성능 지표를 이해하는 것은 복잡한 과제일 수 있
 
 여기서 X는 Mach 시간으로 표현된 CPU 휴식 시간입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 이 방정식을 해결하면, totalMachTimeForAllProcesses와 X를 더하여 시스템이 전달한 총 CPU 시간을 쉽게 계산할 수 있습니다.
 
@@ -45,7 +61,18 @@ macOS에서 CPU 성능 지표를 이해하는 것은 복잡한 과제일 수 있
 
 어떤 다른 구현을 찾아서 나에게 방법을 보여줄 수 있을까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## ps 명령어를 활용한 탐사
 
@@ -55,7 +82,18 @@ macOS에서 CPU 성능 지표를 이해하는 것은 복잡한 과제일 수 있
 
 새로운 구현의 결과는 기대를 충족시켰습니다. 퍼즐의 빠진 조각을 추론함으로써, 서로 다른 시간 단위 간에 명시적으로 변환할 필요 없이 전체 시스템 CPU 부하를 얻을 수 있었습니다. 이 여정은 xnu 커널의 깊은 곳을 지나 예상치 못한 곳으로 이끌었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막 질문이 남았습니다: 커널에 왜 여러 시간 단위가 있는 것일까요? 내부적으로 일관되게 하나의 시간 단위를 사용하는 것이 더 간단하지 않을까요? 답은 xnu 커널이 초기에 어떻게 발전했는지와 가장 독특한 특성 중 하나를 보여주고 있습니다.
 
@@ -65,7 +103,18 @@ Mach 시간과 Ticks 간 변환에 사용되는 hz_tick_interval 상수의 정�
 
 ![이미지](/assets/img/2024-06-22-UnravelingCPUUsageTimeUnitExtrapolationonmacOS_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금은 Mach 커널의 Recount 하위 시스템이 Mach 시간을 사용하여 리소스 사용을 추적한다는 것을 알게 되었습니다. 그러나 BSD 커널은 다른 기대를 가지고 있습니다. 이를 설명한 주석에서 확인할 수 있으며, 이에 변환이 필요합니다.
 
@@ -75,7 +124,18 @@ Mach 시간과 Ticks 간 변환에 사용되는 hz_tick_interval 상수의 정�
 
 이제 xnu는 여기서 논의한 것보다 더 많은 하위 시스템으로 구성되어 있으며, 각각은 다른 시기에 다른 조직에 의해 작성되었습니다. macOS의 시스템 프로그래밍이 왜 도전적이면서 매력적인지 빠르게 이해하게 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 계층화된 아키텍처
 

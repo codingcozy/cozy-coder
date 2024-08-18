@@ -3,17 +3,13 @@ title: "기자들을 위한 프롬프팅 기술과 모범 사례"
 description: ""
 coverImage: "/assets/img/2024-06-19-PromptingTechniquesandBestPracticesforJournalists_0.png"
 date: 2024-06-19 19:35
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-PromptingTechniquesandBestPracticesforJournalists_0.png
 tag: Tech
 originalTitle: "Prompting Techniques and Best Practices for Journalists"
 link: "https://medium.com/generative-ai-in-the-newsroom/prompting-techniques-and-best-practices-for-journalists-6fa806cde8ec"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-19-PromptingTechniquesandBestPracticesforJournalists_0.png" />
 
@@ -23,7 +19,18 @@ Associated Press의 최근 조사에 따르면, 콘텐츠 제작과 관련된 �
 
 본 기사에서는 LLM이 언론에서의 작업에 대한 원하는 출력을 유도하는 데 다양한 프롬프팅 기술을 사용하여 제어하는 방법에 대한 몇 가지 모범 사례를 설명합니다. 우선 프롬프트 엔지니어링에 대한 배경 정보를 제공한 뒤, 뉴스 제작에서 몇 가지 다른 프롬프팅 기술에 대해 자세히 설명하고 관련 예시를 제시합니다. 마지막으로 프롬프트 검증 및 출력 품질 평가에 대한 몇 가지 아이디어를 제시합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 프롬프트 엔지니어링이란 무엇인가요?
 
@@ -33,9 +40,20 @@ Associated Press의 최근 조사에 따르면, 콘텐츠 제작과 관련된 �
 
 LLM으로부터 더 나은 결과를 얻기 위해서는 모든 프롬프트가 전체 문장으로 표현되어야 하며, 모델이 작업을 완료할 때 따라야 할(때로는 따라서는 안 될) 지침을 명확하게 표현해야 합니다. 게다가, 모델에게 자체 단계나 해결책을 찾도록 지시하여 결론에 이를 때까지 스스로 과정이나 해결책을 찾게 하는 것이, 특히 추론이 필요한 분석 작업에 대한 더 나은 결과 생성 능력을 향상시키는 데 도움이 된다는 것이 입증되었습니다. 또한, 좋은 프롬프트의 또 다른 중요한 특징은 특정 작업에 대한 프롬프트를 범위 설정하는 것입니다. 아주 포괄적이고 열린 작업에 대해 프롬프트하면(예: "온라인 뉴스 사이트 생성"), 해당 전체 목표의 작업 및 하위 작업을 개별적으로 다루기 위해 세분화하지 않는 한 효과적이지 않습니다. 모델이 주어진 지침에서 벗어나는 가능성을 최소화하기 위해서, OpenAI의 프롬프팅 안내서는 복잡한 작업을 서로 다른 프롬프트를 가진 하위 작업으로 분할하는 것을 권장합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-일반적으로 좋은 프롬프트는 프롬프트 텍스트와 컨텍스트를 포함한 구조로 구성됩니다 (Joe Amditis의 초보자용 프롬프트 핸드북 3장 참조). 그러나 작업에 따라 이 구조를 확장하여 생성된 텍스트의 길이와 같은 제약 조건, 외부 서비스나 데이터 소스에 액세스하는 도구 (예: Yahoo Finance API) 또는 추가 지시사항 (예: 어조나 글쓰기 스타일 지정)를 포함할 수도 있습니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+일반적으로 좋은 프롬프트는 프롬프트 텍스트와 컨텍스트를 포함한 구조로 구성됩니다 (Joe Amditis의 초보자용 프롬프트 핸드북 3장 참조). 그러나 작업에 따라 이 구조를 확장하여 생성된 텍스트의 길이와 같은 제약 조건, 외부 서비스나 데이터 소스에 액세스하는 도구 (예: Yahoo Finance API) 또는 추가 지시사항 (예: 어조나 글쓰기 스타일 지정)를 포함할 수도 있습니다.
 
 예를 들어 사실에 관한 정보가 필요한 작업의 경우, 프롬프트가 출력물을 근거로 하는 데 도움이 되도록 신뢰할 수 있는 참조 텍스트를 컨텍스트에 포함하는 것이 좋습니다.
 
@@ -45,7 +63,18 @@ LLM으로부터 더 나은 결과를 얻기 위해서는 모든 프롬프트가 
 
 다음으로, 이러한 특성들이 다른 프롬프팅 기술에 어떻게 적용될 수 있는지에 대해 논의하겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 주요 프롬프팅 기술 개요
 
@@ -55,8 +84,18 @@ LLM으로부터 더 나은 결과를 얻기 위해서는 모든 프롬프트가 
 
 최신 뉴스 요약 등 사실적인 답변이 필요한 사례에서는 제로샷 프롬프팅이, 다른 맥락 없이 사용되면 모델의 훈련 데이터만을 활용해 응답을 제공한다는 한계가 있습니다. 따라서, 최소한의 지시에 제로샷 프롬프팅을 사용할 때는, 모델이 생성한 출력물이 모델의 훈련 데이터에 포함된 지식만을 반영할 수 있으며 이는 과거의 것일 수 있기 때문에 기자들은 특히 모델의 생성물에 대해 조심해야 합니다. 모델이 생성한 텍스트가 작업과 관련이 있는지 확인하는 한 가지 방법은, 모델에게 해당 발췌문을 기반으로 재미있는 헤드라인을 생성하도록 요청할 때와 같이 프롬프트에 관련 맥락을 포함시키는 것입니다. 때로는 GPT-4o와 같은 최첨단 모델은 제로샷 프롬프팅을 수행하고 이후 인터넷을 둘러다니면서 최신 소스에 접근하여 맥락을 제공할 수도 있습니다(Figures 2A 및 2B).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Prompting Techniques and Best Practices for Journalists 1](/assets/img/2024-06-19-PromptingTechniquesandBestPracticesforJournalists_1.png)
 
@@ -66,8 +105,18 @@ LLM으로부터 더 나은 결과를 얻기 위해서는 모든 프롬프트가 
 
 ## Few-shot Prompting
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 추가적인 세부 정보, 구조, 및 서식화된 응답이 필요한 사용 사례에는 zero-shot prompting 대안으로 몇 가지 예시를 사용하는 것이 도움이 됩니다. Few-shot prompting은 zero-shot prompting을 기반으로 하여 prompt 문맥의 일부로 작업의 예시나 출력 서식을 포함함으로써 발전된 기술입니다 (Figure 3에 설명되어 있음). 이를 통해 모델은 생성된 텍스트에 반영해야 하는 원하는 패턴과 행동을 인식할 수 있습니다. 예를 들어, 기자들은 LLM에 부정적인 및 긍정적인 코멘트의 몇 가지 예시와 해당 레이블을 제공하여 뉴스 기사에 대한 사용자 코멘트를 분류하기 위해 few-shot prompt를 사용할 수 있습니다. 이는 기자들이 교두보 기사에 대한 청중의 반응을 이해하는 쉬운 방법을 갖도록 도울 수 있습니다. 비슷하게, few-shot prompting은 정보 추출(예: 사람이나 장소와 같은 명명된 엔티티 추출)이나 분류(예: 스키마에 따라 콘텐츠 레이블링) 사용 사례에 유용할 수 있습니다. 효과적인 few-shot prompting의 주요 도전 과제는 모델이 과업을 어떻게 완료해야 하는지를 보여주는 예시를 개발하는 것입니다.
 
@@ -75,7 +124,18 @@ LLM으로부터 더 나은 결과를 얻기 위해서는 모든 프롬프트가 
 
 Chain of Thought prompting 기술을 통해 모델은 중간 단계를 통해 복잡한 과제에 대해 "추론"할 수 있습니다. 그러나 이는 지금까지 설명한 다른 prompt 기술과 상호 배타적인 기술은 아닙니다. 가장 기본적인 형태에서는 zero-shot 및 few-shot prompt를 포함하여 어떤 prompt에도 "한 단계씩 생각해 봅시다"를 추가할 수 있습니다. 이 방법이 작동하는 이유는 과제에 대한 대응 결과를 도와줄 수 있는 문맥을 출력하기 전에 모델이 작업에 착수하기 때문입니다. 이 prompt 기술은 텍스트에서 양적 질문에 답하는 것과 같은 분석적 작업에 유용하며, 이전에 추론이 필요한 복잡한 작업에 대해 더 나은 결과를 얻기 위해 few-shot prompting과 조합될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Figure 4A와 4B에서 볼 수 있듯이, 제로샷 프롬프팅을 사용하여 모델에게 스텝바이스텝 사고하도록 지시하고 이를 CoT 결과와 결합하면, 동일한 작업에 대해 제로샷 프롬프팅만 사용하는 것보다 더 세밀한 답변이 나옵니다. 중간 출력은 모델이 최종 출력에 도달하는 과정을 이해하기 쉽도록 몇몇 정보를 제공하는 추가적인 이점이 있습니다. 다만, 제3자 모델에 프롬프트하는 API를 사용할 때 유의할 점은, CoT 프롬프팅이 더 많은 (중간) 출력 토큰을 생성하므로 비용이 더 발생할 수 있다는 점입니다.
 
@@ -85,7 +145,18 @@ Figure 4A와 4B에서 볼 수 있듯이, 제로샷 프롬프팅을 사용하여 
 
 ## 프롬프팅에서의 효과적인 품질 관리
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프롬프트 품질을 효과적으로 제어하는 데는 두 가지 기본적인 접근 방법이 있습니다: (1) 강건성을 확립하기 위해 미리 프롬프트를 유효성 검사하고, (2) 각종 품질 기준에 따라 작업별로 요구되는 출력을 평가하는 것입니다.
 
@@ -95,7 +166,18 @@ Figure 4A와 4B에서 볼 수 있듯이, 제로샷 프롬프팅을 사용하여 
 
 각 작업을 대상으로 하려는 경우 준비해야 할 두 개의 데이터 세트가 필요한 방식을 권장합니다: 개발 중인 프롬프트의 성능을 평가하기 위한 데이터 세트인 개발 세트와 개발 세트에서 가능한 한 최적화한 후에만 프롬프트를 평가하는 데 사용하는 별도의 테스트 세트입니다. 이상적인 경우 두 데이터 세트 모두 무작위 샘플이므로 어느 쪽에도 기저 선택 편향이 없어야 합니다. 두 세트를 가지고 있는 것은 개발 세트와 잘 작동하도록 개발 및 다듬은 프롬프트가 테스트 세트에도 일반화되어 여전히 잘 작동하는지 이해하는 데 도움이 됩니다. 개발 및 테스트 세트가 크고 다양할수록 프롬프트가 다양한 조건에서 잘 작동하고 있는지 더 자신할 수 있습니다. 다만 주의해야 할 점은 모델을 교체하거나 제공 업체가 모델을 업데이트할 때마다 이 유효성 검사를 다시 실행해야 한다는 것입니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프롬프트 유효성 검사 과정 중 LLMs의 통계적 변동성을 고려하는 것이 중요합니다. 이는 각 프롬프트 반복에 해당하는 텍스트를 생성할 때 고려해야 합니다. 이 블로그 글에 포함된 예시는 ChatGPT 사용자 인터페이스를 이용하여 생성되었지만, 프롬프트를 개발하고 검증할 때 OpenAI의 Playground를 사용할 것을 권장합니다. Playground를 사용하면 이 유효성 검증에 유용한 여러 매개변수를 제어할 수 있습니다.
 
@@ -105,7 +187,18 @@ Figure 4A와 4B에서 볼 수 있듯이, 제로샷 프롬프팅을 사용하여 
 
 ## AI 생성 콘텐츠의 품질 평가하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금쯤 LLM을 사용하는 많은 사람들은 그들이 환각에 빠질 가능성이 있다는 것을 알고 있을 것입니다. 즉, 그들이 출력물을 생성하는 방식의 통계적 특성 때문에 현실에 근거를 두지 않은 정보를 만들어 내는 것입니다. 이러한 점이 저널리즘에서 고려되지 않을 경우, 뉴스의 진실성과 신뢰에 영향을 미칠 수 있습니다.
 
@@ -115,7 +208,18 @@ LLM을 사용하는 작업에 따라 평가 기준이 다를 수 있지만, 일�
 
 # 프롬프트를 더욱 향상하는 방법
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LLM(Large Language Models)의 능력이 계속해서 발전함에 따라, 최신 프롬프팅 기술 및 응용 프로그램에 대해 최신 정보를 유지하기 위해 주기적으로 제3자 모델과 관련된 프롬프트 가이드 및 라이브러리를 확인하는 것을 권장합니다. 아래는 프롬프팅을 위한 추가 참고 자료들로 책갈피해두고 싶은 몇 가지 자원을 나열해봤습니다:
 

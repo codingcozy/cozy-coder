@@ -3,17 +3,13 @@ title: "데이터에서 시각화까지 OpenAI Assistants API 및 GPT-4o와 함�
 description: ""
 coverImage: "/assets/img/2024-06-19-FromDatatoVisualizationwiththeOpenAIAssistantsAPIandGPT-4o_0.png"
 date: 2024-06-19 01:28
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-FromDatatoVisualizationwiththeOpenAIAssistantsAPIandGPT-4o_0.png
 tag: Tech
 originalTitle: "From Data to Visualization with the OpenAI Assistants API and GPT-4o"
 link: "https://medium.com/towards-data-science/from-data-to-visualization-with-the-openai-assistants-api-and-gpt-4o-69af0cac5118"
 isUpdated: true
 ---
-
-
-
-
 
 GPT-4의 능력이 계속해서 확장되면서, OpenAI의 기술을 기반으로 한 도구들은 개발자들에게 점차적으로 강력한 자산으로 발전하고 있습니다.
 
@@ -23,7 +19,18 @@ GPT-4의 능력이 계속해서 확장되면서, OpenAI의 기술을 기반으�
 
 지금 당장 OpenAI Python 패키지(v1.30.0, 작성 시점 기준)에는 Assistants API 안에 File Search, Code Completion 및 Function Calling 도구가 포함되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기능 호출을 통해 개발자는 작업을 완료하기 위해 AI가 지능적으로 선택할 수 있는 함수를 정의할 수 있으며, 파일 검색을 통해 다양한 파일 유형을 업로드하고 벡터 데이터베이스에 RAG 스타일로 저장할 수 있습니다. 코드 완성은 보조 프로그램이 프로그래밍 및 수학 문제를 해결하기 위해 파이썬 프로그램을 작성하고 실행할 수 있는 격리된 환경에서 작동합니다.
 
@@ -33,7 +40,18 @@ GPT-4의 능력이 계속해서 확장되면서, OpenAI의 기술을 기반으�
 
 간단한 영어 프롬프트를 사용하여 원시 CSV 데이터에서 아래와 같은 차트를 쉽게 생성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # OpenAI Assistant
 
@@ -43,15 +61,37 @@ GPT-4의 능력이 계속해서 확장되면서, OpenAI의 기술을 기반으�
 
 # OpenAI
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 물론 OpenAI 계정이 필요하며 사용 시 요금이 부과될 것임을 알아야 합니다. 그러나 요금은 높지 않습니다: 여기서 설명할 코드를 실행하는 비용은 몇 센트만 들 것입니다. 파일 저장 등의 기타 요금이 부과될 수 있으나, 이는 해당 맥락에서는 관련성이 없을 수도 있지만 최신 요금을 확인해 보는 것이 좋습니다.
 
 그렇다면, OpenAI 대시보드를 정기적으로 사용하여 사용량을 확인하여 큰 청구서가 발생하지 않도록 해야합니다.
 
- OpenAI 어시스턴트의 모든 출력물과 업로드한 파일이 모두 저장되므로 사용중인 저장소도 확인해야 합니다. 대시보드에서 수동으로 삭제할 수 있으며, 여러분은 이렇게 해야 합니다. 왜냐하면 요금이 부과되지 않을 수 있지만, 시간이 지날수록 작업 공간에 불필요한 파일이 많이 축적될 수 있기 때문입니다.
+OpenAI 어시스턴트의 모든 출력물과 업로드한 파일이 모두 저장되므로 사용중인 저장소도 확인해야 합니다. 대시보드에서 수동으로 삭제할 수 있으며, 여러분은 이렇게 해야 합니다. 왜냐하면 요금이 부과되지 않을 수 있지만, 시간이 지날수록 작업 공간에 불필요한 파일이 많이 축적될 수 있기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 어시스턴트, 스레드, 그리고 런
 
@@ -63,7 +103,18 @@ GPT-4의 능력이 계속해서 확장되면서, OpenAI의 기술을 기반으�
 
 이 기본 객체들 외에도 스레드에서는 모델에 대한 지시와 해당 응답을 포함하는 메시지가 필요합니다. 또한 어시스턴트가 사용하는 분리된 객체인 파일을 사용하며, 업로드된 파일의 세부 정보를 저장합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 비서 코딩하기
 
@@ -79,7 +130,18 @@ GPT-4의 능력이 계속해서 확장되면서, OpenAI의 기술을 기반으�
 - 이제 스레드에 있는 사용자 및 AI가 생성한 메시지를 표시합니다(모델이 결과물을 생성하는 과정을 보여주어야 하며, 문제가 발생한 경우 무엇이 문제인지 확인할 수 있습니다).
 - 생성된 이미지를 검색하여 표시합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 각 항목을 Python으로 코드화하고 정확히 무슨 일이 일어나고 있는지 설명하겠습니다. 저는 Jupyter 노트북 형식으로 코드를 작성했으므로, 함께 따라해보고 싶으시다면 각 코드 부분을 새로운 노트북 셀에 복사하여 제 노트북을 복제할 수 있습니다.
 
@@ -89,7 +151,18 @@ GPT-4의 능력이 계속해서 확장되면서, OpenAI의 기술을 기반으�
 
 클라이언트는 OpenAI API에 접근할 수 있게 해줍니다. API 키를 제공해야 하는데, 아래 코드에서는 사용자가 키를 수동으로 입력해야 하도록 입력문을 포함시켰습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 from openai import OpenAI
@@ -108,7 +181,18 @@ client = OpenAI(api_key="여기에 키를 입력하세요")
 
 또는 키가 환경 변수로 저장된 경우에는 클라이언트가 자동으로 찾아내기 때문에 코딩할 필요가 없습니다...
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 from openai import OpenAI
@@ -122,20 +206,42 @@ client = OpenAI()
 
 먼저 파일이 필요합니다! 저는 Our World in Data(OWID) 웹사이트의 데이터를 기반으로 한 CSV 파일을 사용하고 있습니다. OWID는 정보와 데이터의 훌륭한 출처이며, 그들은 친절하게 모든 콘텐츠를 Creative Commons BY 라이센스 하에 자유롭게 사용할 수 있도록 허용하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파일은 1850년부터 2021년까지 전 세계 CO2 배출량을 기록한 것입니다 (원본 데이터에는 다른 항목의 데이터도 많이 포함되어 있지만, 여기에는 세계 데이터만 포함했습니다). 아래 스크린샷에서 파일이 어떻게 보이는지 확인할 수 있습니다.
 
 파일 이름은 world_df.csv로 지었고, 또한 보조 프로그램에 지정할 이름에 해당하는 변수를 설정하고 싶습니다. 따라서 두 값을 담은 변수를 두 번째 노트북 셀에 넣었습니다.
 
 ```js
-filename = "world_df.csv"
-assistant_name = "data-analyst-v0.1"
+filename = "world_df.csv";
+assistant_name = "data-analyst-v0.1";
 ```
 
 다른 파일을 읽거나 새 보조 프로그램을 만들기 위해 코드를 사용하려면 이 셀에서 값들을 변경할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 셀에 파일을 업로드합니다. 파일을 업로드하는 주요 작업은 client.files.create 메서드에 의해 수행됩니다. 아래 코드에서 이 메서드는 파일 자체와 파일의 목적을 나타내는 'assistants' 문자열 두 가지 매개변수를 사용합니다.
 
@@ -161,7 +267,18 @@ else:
 
 이미 업로드된 파일 목록을 다운로드하여 파일이 있는지 확인할 수 있습니다. client.files.list() 메서드는 서버에서 목록을 검색하며, parameterpurpose='assistants'를 전달하여 관심 있는 파일 유형을 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 관심 있는 파일 이름을 찾기 위해 목록을 스캔할 수 있어요. 없다면 업로드하고, 그렇지 않으면 클라이언트에서 파일 객체를 가져와요. 어느 쪽이든, 파일은 파일 객체로 설정됩니다.
 
@@ -171,7 +288,18 @@ else:
 
 ## 보조 만들기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 업로드한 파일과 마찬가지로 이미 존재하는지 확인합니다. 이 코드를 이전에 실행했다면, 도우미가 이미 만들어졌을 것이고, 중복으로 생성하고 싶지 않으므로 기존의 도우미 객체를 가져옵니다. 그렇지 않다면 새로운 객체를 생성합니다.
 
@@ -181,7 +309,18 @@ else:
 
 도우미의 이름, 일부 기본 지침(시스템 프롬프트가 될 것입니다), 사용할 모델(이 경우 GPT-4o), 요청하는 도구(코드 해석기) 및 리소스에 대한 매개변수를 설정합니다. 이 마지막 매개변수에서는 업로드한 파일의 파일 객체를 참조하고, 코드 해석기가 파일을 사용할 것임을 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 조수가 이미 존재하는지 확인합니다
@@ -214,32 +353,54 @@ else:
 
 스레드를 만들려면 단순히 client.beta.threads.create()를 호출하고, 이 스레드를 사용하여 조수가 실행될 때 조수에 전달되는 첫 번째 메시지를 지정하면 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 코드에서 볼 수 있듯이, 메시지에서는 역할을 설정하고 프롬프트를 설정하며 파일 ID를 첨부합니다.
 
 ```js
 thread = client.beta.threads.create(
-  messages=[
+  (messages = [
     {
-      "role": "user",
-      "content": "첨부된 csv 파일을 사용하여 'Year'에 대한 '연간 이산화탄소 배출' 그래프를 표시하십시오",
-      "attachments": [
+      role: "user",
+      content: "첨부된 csv 파일을 사용하여 'Year'에 대한 '연간 이산화탄소 배출' 그래프를 표시하십시오",
+      attachments: [
         {
-          "file_id": file.id,
-          "tools": [{"type": "code_interpreter"}]
-        }
-      ]
-    }
-  ]
-)
+          file_id: file.id,
+          tools: [{ type: "code_interpreter" }],
+        },
+      ],
+    },
+  ])
+);
 ```
 
 LLM으로 전송하는 프롬프트는 다음과 같습니다:
 
 “첨부된 csv 파일을 사용하여 'Year'에 대한 '연간 이산화탄소 배출' 그래프를 표시하십시오”.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그것은 상당히 간단한 요구 사항이에요. 코드 해석기가 데이터 파일을 분석하고 필요한 코드를 생성해야 해요.
 
@@ -249,7 +410,18 @@ LLM으로 전송하는 프롬프트는 다음과 같습니다:
 
 실행은 어시스턴트와 쓰레드를 가져와 LLM에 제출해요. 비동기로 실행되며 완료되기 전에 여러 단계를 거쳐 가요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결과를 기다리기 위해서는 두 가지 방법을 사용할 수 있는데요: 폴링 또는 스트리밍 방식이 있습니다. 폴링은 실행 상태가 완료될 때까지 반복적으로 확인하는 방식이에요. 반면에 스트리밍은 다양한 단계가 자동으로 감지되며 함수가 해당 이벤트에 매핑될 수 있는 이벤트 핸들러에 반응하는 방식입니다.
 
@@ -299,7 +471,18 @@ with client.beta.threads.runs.stream(
 
 이번 실행을 시작하는 함수는 client.bet.threads.run.stream()이며, 이 함수에는 이번 실행 및 이벤트 핸들러와 같은 특정 실행을 위한 지침을 포함하여 스레드와 어시스턴트의 ID가 전달됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이벤트 핸들러의 작동 방식에 대해서는 자세히 다루지 않겠습니다. 단순히 말하자면 텍스트가 생성되거나 도구가 출력되는 이벤트를 잡아내고 결과를 출력합니다. 이 기능은 실험적인 목적으로 충분하지만 실제 앱을 위해서는 이러한 출력물에 대해 더 정교한 작업을 원할 수도 있습니다.
 
@@ -342,7 +525,18 @@ assistant > 'Year' 대 'Annual CO₂ emissions'를 나타내는 그래프가 생
 [그래프 다운로드](sandbox:/mnt/data/year_vs_annual_co2_emissions.png)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 코드는 주피터 노트북에 포함되어서는 안 됩니다. GPT가 생성하고 실행한 것입니다.
 
@@ -352,7 +546,18 @@ assistant > 'Year' 대 'Annual CO₂ emissions'를 나타내는 그래프가 생
 
 이제 우리가해야 할 일은 어시스턴트가 생성한 파일을 찾아 내려받는 것뿐입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 노트북의 마지막 코드 셀이 표시됩니다.
 
@@ -374,19 +579,41 @@ with open("./my-image.png", "wb") as file:
 
 그래서 먼저 "assistants_output"로 레이블이 지정된 모든 파일의 목록을 가져온 다음, 이미지 목록(즉, 확장자가 '.png'인 파일)을 만들고 해당 목록에서 마지막 파일을 찾습니다. 그게 바로 생성된 마지막 파일입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 차트를 표시하기 위해 다음 내용을 포함한 마크다운 셀을 만들 수 있습니다.
 
 ```js
-![](my-image.png)
+![](my - image.png);
 ```
 
 아래 이미지에서 결과물을 확인할 수 있습니다:
 
 ![이미지](/assets/img/2024-06-19-FromDatatoVisualizationwiththeOpenAIAssistantsAPIandGPT-4o_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # **프롬프트 변경**
 
@@ -396,11 +623,33 @@ with open("./my-image.png", "wb") as file:
 
 결과는 아래 이미지와 같습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 내용을 읽고 다른 문서에서 이 내용을 인용하실 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 assistant > code_interpreter
@@ -455,7 +704,18 @@ assistant > 그래프가 성공적으로 생성되었고 저장되었습니다. 
 
 # 결론 및 앱 방향으로
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오픈AI의 Assistants API와 코드 인터프리터를 사용하면 일반 영어로 데이터 파일에서 차트를 생성할 수 있는 코드를 생성할 수 있습니다.
 
@@ -465,7 +725,18 @@ assistant > 그래프가 성공적으로 생성되었고 저장되었습니다. 
 
 GitHub 리포지토리(아래 참조)의 코드를 기반으로 한 Streamlit 앱 프로토타입인 'streamlit' 폴더가 있습니다. 이 앱을 사용하려면 API 키를 제공하고 Streamlit 비밀 파일에 넣어야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앱은 Streamlit 파일 업로드 컨트롤을 사용하여 CSV 파일을 업로드하고 작업하기 위해 프롬프트를 입력할 수 있는 입력 상자가 제공됩니다. 프롬프트가 실행 중일 때 상태 문자열이 표시됩니다. LLM가 프롬프트를 이해하지 못하거나 다른 오류가 발생하는 경우 간단한 오류 메시지가 표시됩니다.
 
@@ -475,6 +746,17 @@ GitHub 리포지토리(아래 참조)의 코드를 기반으로 한 Streamlit �
 
 모든 이미지와 스크린샷은 별도로 표시되지 않는 한 제가 작성한 저자에 의해 만들어졌습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 코드는 MIT 라이선스에 의해 보호받습니다 (저장소에서 확인하실 수 있습니다). 언급이 필수는 아니지만 언제나 감사히 받습니다.

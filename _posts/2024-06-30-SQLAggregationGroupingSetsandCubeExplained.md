@@ -3,18 +3,13 @@ title: "SQL 집계 Grouping Sets와 Cube 쉽게 이해하기"
 description: ""
 coverImage: "/assets/img/2024-06-30-SQLAggregationGroupingSetsandCubeExplained_0.png"
 date: 2024-06-30 23:24
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-30-SQLAggregationGroupingSetsandCubeExplained_0.png
 tag: Tech
 originalTitle: "SQL Aggregation: Grouping Sets and Cube Explained"
 link: "https://medium.com/@santosh_joshi_data/sql-aggregation-grouping-sets-and-cube-explained-1a59326ea96c"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![이미지](/assets/img/2024-06-30-SQLAggregationGroupingSetsandCubeExplained_0.png)
 
@@ -26,8 +21,18 @@ isUpdated: true
 - 서로 다른 열의 조합으로 그룹화해야 하는 경우 쿼리가 길고 반복적인 경우가 발생할 수 있습니다.
 - 성능이 떨어질 수 있습니다. 이는 테이블을 여러 번 스캔해야 하기 때문입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 섹션에서는 이러한 문제를 더 자세히 살펴볼 것입니다. 그러나 먼저 데이터를 준비해 봅시다.
 
@@ -45,7 +50,18 @@ CREATE TABLE product_sales (
  )
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 테이블에 더미 데이터를 삽입하는 코드가 있어요. 이것을 통해 개념을 더 잘 이해할 수 있을 거예요.
 
@@ -72,7 +88,18 @@ product_sales 테이블을 조회하면 아래와 같은 데이터가 나올 거
 
 <img src="/assets/img/2024-06-30-SQLAggregationGroupingSetsandCubeExplained_1.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 그룹화 세트 이해하기
 
@@ -116,7 +143,18 @@ WHERE country = 'USA';
 
 쿼리는 다음과 유사한 결과를 생성합니다 -
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-06-30-SQLAggregationGroupingSetsandCubeExplained_2.png](/assets/img/2024-06-30-SQLAggregationGroupingSetsandCubeExplained_2.png)
 
@@ -127,7 +165,18 @@ WHERE country = 'USA';
 
 ![2024-06-30-SQLAggregationGroupingSetsandCubeExplained_3.png](/assets/img/2024-06-30-SQLAggregationGroupingSetsandCubeExplained_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 Grouping Sets는 Group By 절의 하위 절로 해결책을 제공합니다. 이는 코드를 간소화할 뿐만 아니라 테이블을 한 번만 스캔하여 성능을 크게 향상시킵니다.
 
@@ -143,7 +192,7 @@ GROUP BY GROUPING SETS((state,city),(state), (city), ())
 아래와 같이 보여지는 Grouping Sets를 사용할 때, 쿼리는 테이블을 한 번만 스캔합니다.
 
 ```js
-EXPLAIN 
+EXPLAIN
 SELECT state
  ,city
  ,sum(sales_amount) AS total_sales
@@ -152,7 +201,18 @@ WHERE country = 'USA'
 GROUP BY GROUPING SETS((state,city),(state), (city), ())
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-30-SQLAggregationGroupingSetsandCubeExplained_4.png" />
 
@@ -164,13 +224,24 @@ SELECT state
  ,sum(sales_amount) AS total_sales
 FROM product_sales
 WHERE country = 'USA'
-GROUP BY GROUPING SETS((state,city,store),(state,city), (state, store), 
+GROUP BY GROUPING SETS((state,city,store),(state,city), (state, store),
 (city, store), (state), (city), (store), ())
 ```
 
 # CUBE 설명
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 예제에서 8가지 조합을 볼 수 있습니다. 그루핑 세트는 열의 수가 증가함에 따라 장황하고 오류가 발생할 수 있습니다. 이를 극복하기 위해 GROUP BY의 다른 하위 절인 CUBE가 있습니다. CUBE는 열의 모든 조합을 간결하게 제공합니다.
 
@@ -226,10 +297,21 @@ GROUP BY GROUPING SETS((state,city,store),(state,city), (state, store),
 |            |               | 225.00     |
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 요약
 
-여기서는 Grouping Sets 및 Cube와 같은 고급 Group By 하위 절이 코드의 간결성을 향상시키는 뿐만 아니라 성능을 향상시켜 고급 데이터 분석에 가치를 더하는 방법을 살펴보았습니다. 또한 탐색할 가치가 있는 다른 하위 절은 ROLLUP입니다. 
+여기서는 Grouping Sets 및 Cube와 같은 고급 Group By 하위 절이 코드의 간결성을 향상시키는 뿐만 아니라 성능을 향상시켜 고급 데이터 분석에 가치를 더하는 방법을 살펴보았습니다. 또한 탐색할 가치가 있는 다른 하위 절은 ROLLUP입니다.
 
 또한, 이러한 기능들은 PostgreSQL에서 테스트되었으며 SQL Server에서도 지원됩니다. 이러한 개념을 적용하기 전에 귀하의 관계형 데이터베이스 관리 시스템이 이를 지원하는지 확인하십시오.

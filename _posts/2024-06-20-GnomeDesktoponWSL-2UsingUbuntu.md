@@ -3,17 +3,13 @@ title: "WSL-2에서 Ubuntu를 사용하여 Gnome 데스크톱 설정하기"
 description: ""
 coverImage: "/assets/img/2024-06-20-GnomeDesktoponWSL-2UsingUbuntu_0.png"
 date: 2024-06-20 14:39
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-GnomeDesktoponWSL-2UsingUbuntu_0.png
 tag: Tech
 originalTitle: "Gnome Desktop on WSL-2 Using Ubuntu"
 link: "https://medium.com/@avivarma1/gnome-desktop-on-wsl-2-using-ubuntu-db77635ed2aa"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-20-GnomeDesktoponWSL-2UsingUbuntu_0.png" />
 
@@ -28,7 +24,18 @@ sudo apt-mark hold acpid acpi-support
 sudo apt upgrade
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이제 유용한 systemd 설정 스크립트를 실행하여 WSL 내에서 systemd 환경을 설정할 수 있습니다. 이 스크립트는 필요한 패키지를 설치하고 스크립트를 복사하여 sudoers를 구성하며 bash.bashrc를 수정하고 Windows에서 환경 변수를 설정하여 WSL 내에서 systemd를 사용할 수 있게 합니다. 이를 통해 WSL 내에서 서비스 및 기타 기능을 활성화할 수 있습니다. 기본 이닛 시스템에서는 사용할 수 없는 기능들을 사용할 수 있습니다.
 
@@ -46,7 +53,18 @@ wsl.exe -d ubuntu --shutdown
 wsl.exe -d ubuntu
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - WSL에서 Ubuntu 명령줄에 다시 돌아오면 다음 환경 변수를 내보냅니다:
 
@@ -71,7 +89,18 @@ sudo chmod 700 /run/user/1000
 sudo chown $(whoami): /run/user/1000
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 모든 설정이 완료되었으니 이제 GNOME 데스크톱을 설치해봅시다:
 
@@ -84,8 +113,18 @@ sudo apt install ubuntu-desktop gnome
 
 ![이미지](/assets/img/2024-06-20-GnomeDesktoponWSL-2UsingUbuntu_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-20-GnomeDesktoponWSL-2UsingUbuntu_2.png)
 

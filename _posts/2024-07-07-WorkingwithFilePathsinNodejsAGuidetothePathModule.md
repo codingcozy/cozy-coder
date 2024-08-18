@@ -3,18 +3,13 @@ title: "Nodejs에서 파일 경로 다루기 Path 모듈 가이드"
 description: ""
 coverImage: "/assets/img/2024-07-07-WorkingwithFilePathsinNodejsAGuidetothePathModule_0.png"
 date: 2024-07-07 23:12
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-WorkingwithFilePathsinNodejsAGuidetothePathModule_0.png
 tag: Tech
 originalTitle: "Working with File Paths in Node.js: A Guide to the Path Module"
 link: "https://medium.com/@louistrinh/working-with-file-paths-in-node-js-a-guide-to-the-path-module-829f384aac5f"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![이미지](/assets/img/2024-07-07-WorkingwithFilePathsinNodejsAGuidetothePathModule_0.png)
 
@@ -24,12 +19,22 @@ Path 모듈은 NodeJS에 내장된 모듈로, 파일 경로를 다루는 작업�
 
 1. 디렉토리 경로 가져오기:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-const path = require('path');
-const dirPath = path.dirname('/home/user/project/file.js');
+const path = require("path");
+const dirPath = path.dirname("/home/user/project/file.js");
 console.log(dirPath); // '/home/user/project'
 ```
 
@@ -39,11 +44,22 @@ console.log(dirPath); // '/home/user/project'
 
 JavaScript
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-const path = require('path');
-const ext = path.extname('/home/user/project/file.js');
+const path = require("path");
+const ext = path.extname("/home/user/project/file.js");
 console.log(ext); // '.js'
 ```
 
@@ -52,11 +68,22 @@ console.log(ext); // '.js'
 3. 절대 경로 확인:
 
 ```js
-const path = require('path');
-const isAbsolute = path.isAbsolute('/home/user/project/file.js');
+const path = require("path");
+const isAbsolute = path.isAbsolute("/home/user/project/file.js");
 console.log(isAbsolute); // true
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드는 경로가 절대 경로인지 확인합니다 (루트 디렉토리에서 시작되는 경우, 예: "/home/user/project/file.js"). 이 경우에는 true를 반환합니다.

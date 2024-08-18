@@ -3,17 +3,13 @@ title: "ChatGPT-4를 능가하는 Mixture-of-Agents의 비밀"
 description: ""
 coverImage: "/assets/img/2024-06-22-Mixture-of-AgentsBeatsChatGPT-4o_0.png"
 date: 2024-06-22 21:07
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-Mixture-of-AgentsBeatsChatGPT-4o_0.png
 tag: Tech
 originalTitle: "Mixture-of-Agents Beats ChatGPT-4o"
 link: "https://medium.com/@ignacio.de.gregorio.noblejas/mixture-of-agents-beats-chatgpt-4o-6470a74f1525"
 isUpdated: true
 ---
-
-
-
-
 
 만약 지금까지 저를 따라와 주셨다면, 제가 얼마나 오랜 추론 모델에 열정적인지 알아채셨을 것입니다. 저는 — 학계도 동의하는 바와 같이 — 이러한 모델이 추론 능력 측면에서 AI의 다음 육지일 것이라고 믿습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 하지만 그게 가능한 방법은 무엇일까요? 이것이 바로 오랜 추론의 힘입니다. 함께 알아보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 반복이 지름길
 
@@ -33,8 +40,18 @@ isUpdated: true
 
 아래에서 볼 수 있듯이, GPT-3.5는 GPT-4와 직접 비교했을 때 월등히 떨어지지만, 에이전트 워크플로에 적용되는 경우에는 그 위력을 크게 발휘합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Mixture of Agents Beats ChatGPT-4](/assets/img/2024-06-22-Mixture-of-AgentsBeatsChatGPT-4o_0.png)
 
@@ -45,8 +62,18 @@ isUpdated: true
 
 요컨데, 현재 LLMs는 시스템 1 사고자들이며, 마찬가지로 긴 추론 모델들은 시스템 2 사고를 흉내냅니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 긴 추론 프레임워크가 어떻게 작동하는지 알아봐요!
 
@@ -56,7 +83,18 @@ isUpdated: true
 
 1년 조금 넘은 시간 전에 MIT와 Google 연구원들이 Society of Minds를 선보이며 LLM을 위한 협업 프레임워크를 제시했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 때는 훨씬 덜 강력한 모델(바드와 ChatGPT-3.5 사용)이 사용되었음에도 불구하고, 이러한 프레임워크는 이미 초기 잘못된 답변을 내놓은 두 개의 LLM이 공유한 후에 올바른 답변을 얻는 등 매우 흥미로운 신생 행동을 보여주었습니다:
 
@@ -66,7 +104,18 @@ isUpdated: true
 
 ![그림2](/assets/img/2024-06-22-Mixture-of-AgentsBeatsChatGPT-4o_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떤 복잡한 작업들에 대해서는 ToT가 성능을 10배 올려놓은 경우도 있었어요. 이는 이들이 흥미로운 발견을 하였다는 업계에 대한 경고 신호였죠.
 
@@ -76,7 +125,18 @@ isUpdated: true
 
 그렇다면 혼합 에이전트는 이 그림 속에서 어떻게 등장할까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 여러 개의 LLM이 하나의 LLM보다 나아요
 
@@ -86,7 +146,18 @@ MoE에서는 LLM의 층 (단순히 피드포워드 층만 해당되지만, 그�
 
 여기서 LLM을 부분으로 나누는 대신, 더 작은 LLM으로 가득 찬 '큰 LLM'을 만듭니다. 아래에서 보듯이 우리는 에이전트라고 부르는 LLM으로 가득찬 'LLM 레이어'를 생성합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-Mixture-of-AgentsBeatsChatGPT-4o_3.png" />
 
@@ -96,7 +167,18 @@ MoE에서는 LLM의 층 (단순히 피드포워드 층만 해당되지만, 그�
 
 마지막으로, 다른 LLM 에이전트인 집계자는 이전 에이전트들이 제공한 모든 축적된 정보를 통합하고 사용자가 받는 응답을 작성합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고, 이 자가 정제 프로세스는 매우 인상적인 결과를 보여줍니다.
 
@@ -106,7 +188,18 @@ FLASK와 같은 다른 벤치마크에서도 MoA는 GPT-4o와 경쟁력을 유�
 
 ![이미지](/assets/img/2024-06-22-Mixture-of-AgentsBeatsChatGPT-4o_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 너무 흥미롭게도, 이 프레임워크는 예측 당 생성된 토큰의 수가 훨씬 더 많다는 것을 의미하지만, 실제 모델의 정확도를 고려할 때, 전방 모델보다 비용 효율적인 것으로 보입니다. 이는 원가 및 각 순방향 패스당 사용된 테라플롭에 관해서이기도 합니다.
 
@@ -116,7 +209,18 @@ FLASK와 같은 다른 벤치마크에서도 MoA는 GPT-4o와 경쟁력을 유�
 
 오늘날 GenAI 제품에 대한 수요는 꿈보다는 현실이 되기 어려운 상황이며, 이는 주된 이유로 미비한 추론 능력이 있다고 할 수 있습니다. 그리고 장기 추론 모델들이 이 상황을 곧 변경할 것으로 예상됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 이 연구에서 가장 놀라운 점은 전반적인 해결책이 평균적으로 더 많은 토큰을 생성하더라도, 협업에 사용된 평균 모델이 선두 모델보다 훨씬 작다는 점에서 더 저렴해 보인다는 것입니다.
 

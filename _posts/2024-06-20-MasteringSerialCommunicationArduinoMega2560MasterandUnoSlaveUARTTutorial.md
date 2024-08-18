@@ -3,18 +3,13 @@ title: "시리얼 통신 마스터하기 아두이노 메가 2560 마스터와 �
 description: ""
 coverImage: "/assets/img/2024-06-20-MasteringSerialCommunicationArduinoMega2560MasterandUnoSlaveUARTTutorial_0.png"
 date: 2024-06-20 16:52
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-MasteringSerialCommunicationArduinoMega2560MasterandUnoSlaveUARTTutorial_0.png
 tag: Tech
 originalTitle: "Mastering Serial Communication: Arduino Mega 2560 (Master) and Uno (Slave) UART Tutorial"
 link: "https://medium.com/@lekushlev/mastering-serial-communication-arduino-mega-2560-master-and-uno-slave-uart-tutorial-975ca9b165c6"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![이미지](/assets/img/2024-06-20-MasteringSerialCommunicationArduinoMega2560MasterandUnoSlaveUARTTutorial_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 # 필요한 것
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 1 x 아두이노 메가 2560
 - 1 x 아두이노 우노
@@ -38,7 +43,18 @@ isUpdated: true
 
 시리얼 포트 초기화: 우리의 메가 2560은 두 개의 시리얼 포트를 사용합니다. 디버깅용으로 Serial을 사용하고 Uno와 통신하기 위해 Serial1을 사용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 Serial.begin(9600);
@@ -54,8 +70,18 @@ digitalWrite(LED_BUILTIN, HIGH);
 
 # 루프
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 수신: Mega는 시리얼 포트에서 데이터를 기다립니다.
 
@@ -72,15 +98,26 @@ if (Serial.available() > 0) {
 Serial1.write(received);
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터에 따른 조치: 받은 데이터가 '1'이면 LED가 꺼지고, '2'이면 켜집니다.
 
 ```js
-if (received == '1') {
-   digitalWrite(LED_BUILTIN, LOW);
-} else if (received == '2') {
-   digitalWrite(LED_BUILTIN, HIGH);
+if (received == "1") {
+  digitalWrite(LED_BUILTIN, LOW);
+} else if (received == "2") {
+  digitalWrite(LED_BUILTIN, HIGH);
 }
 ```
 
@@ -88,7 +125,18 @@ if (received == '1') {
 
 # 설정
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 소프트웨어 시리얼: Uno는 하드웨어 시리얼 포트가 하나뿐이기 때문에, 우리는 SoftwareSerial을 사용하여 가상 시리얼 포트를 생성합니다.
 
@@ -103,7 +151,18 @@ Serial.begin(9600);
 Serial1.begin(9600);
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 루프
 
@@ -118,14 +177,24 @@ if (Serial1.available() > 0) {
 
 데이터 응답: Mega와 유사하게, Uno는 수신한 데이터를 사용하여 LED를 제어합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-if (received == '1') {
-   digitalWrite(LED_BUILTIN, LOW);
-} else if (received == '2') {
-   digitalWrite(LED_BUILTIN, HIGH);
+if (received == "1") {
+  digitalWrite(LED_BUILTIN, LOW);
+} else if (received == "2") {
+  digitalWrite(LED_BUILTIN, HIGH);
 }
 ```
 
@@ -157,8 +226,18 @@ void loop() {
 }
 ```
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 아두이노 Uno (슬레이브)
 
@@ -191,7 +270,18 @@ void loop() {
 
 5V to 5V 연결:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 아두이노 메가의 5V 핀을 아두이노 우노의 5V 핀에 연결하십시오. 이 단계에서 우노를 메가로부터 전원을 공급합니다.
 
@@ -201,7 +291,18 @@ void loop() {
 
 TX에서 RX로 연결:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 아두이노 메가의 TX1 (송신) 핀을 아두이노 우노의 10번 핀에 연결하세요. 코드에서 우노의 SoftwareSerial에서 10번 핀을 RX (수신) 핀으로 설정해주세요.
 

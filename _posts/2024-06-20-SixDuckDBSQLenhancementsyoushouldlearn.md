@@ -3,18 +3,13 @@ title: "여러분이 배워야 할 6가지 DuckDB SQL 향상 기능"
 description: ""
 coverImage: "/assets/img/2024-06-20-SixDuckDBSQLenhancementsyoushouldlearn_0.png"
 date: 2024-06-20 15:45
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-SixDuckDBSQLenhancementsyoushouldlearn_0.png
 tag: Tech
 originalTitle: "Six DuckDB SQL enhancements you should learn."
 link: "https://medium.com/gitconnected/six-duckdb-sql-enhancements-you-should-learn-6a229b3c2d3e"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![Image](/assets/img/2024-06-20-SixDuckDBSQLenhancementsyoushouldlearn_0.png)
 
@@ -24,8 +19,18 @@ DuckDB에 대해 들어보지 못한 분들을 위해, 이는 C++로 작성된 �
 
 아래 링크를 통해 DuckDB의 기능에 대해 깊이 있는 탐구를 해보세요.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 알겠어요. 이 기사에 나온 유용한 SQL 명령어 몇 가지를 살펴봐요.
 
@@ -35,16 +40,29 @@ DuckDB에 대해 들어보지 못한 분들을 위해, 이는 C++로 작성된 �
 
 대신, COLUMNS() 키워드를 사용하고 해당 키워드와 적합한 와일드카드를 함께 사용하여 열 이름에 와일드카드 표현식을 넣을 수 있어요. DuckDB는 COLUMNS() 표현식 내에서 와일드카드와 일치하는 열에 대한 데이터만 검색해 줄 거예요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래와 같이 테이블이 있다고 가정해 봅시다.
 
 ```js
-db.sql("CREATE TABLE departments (department varchar, exmployee_count INT, average_salary INT, max_salary INT, min_salary INT)")
+db.sql(
+  "CREATE TABLE departments (department varchar, exmployee_count INT, average_salary INT, max_salary INT, min_salary INT)"
+);
 
 db.sql("INSERT INTO departments VALUES ('영업', 300, 25000, 40000, 19000), ('인사', 50, 22000, 50000, 18500)");
 
-db.sql("SELECT * FROM departments")
+db.sql("SELECT * FROM departments");
 ```
 
 위와 같이, 예를 들어 부서와 최저/최고 급여만 가져오고 싶다면 다음과 같이 사용할 수 있습니다.
@@ -54,7 +72,18 @@ db.sql("SELECT * FROM departments")
 db.sql("SELECT department, COLUMNS('m.*salary') FROM departments")
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 WHERE 절에서 COLUMNS 식을 사용하여 DuckDB는 와일드카드에서 나온 각 식 사이에 암시적 AND를 넣을 것입니다. 예를 들어,
 
@@ -84,7 +113,18 @@ db.sql("SELECT MAX(COLUMNS('m.*salary')) FROM departments")
 |             50000            |             19000          |
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2. 피벗/언피벗
 
@@ -102,18 +142,27 @@ db.sql("INSERT INTO purchases VALUES (12345, 2019, 15000), (12345,2020, 19500), 
 db.sql("SELECT * FROM purchases")
 ```
 
+| productID | year | sales |
+| --------- | ---- | ----- |
+| 12345     | 2019 | 15000 |
+| 12345     | 2020 | 19500 |
+| 12345     | 2021 | 22000 |
+| 987654    | 2019 | 510   |
+| 987654    | 2020 | 1900  |
+| 987654    | 2021 | 2100  |
 
-| productID | year  | sales |
-|-----------|-------|-------|
-|     12345 |  2019 | 15000 |
-|     12345 |  2020 | 19500 |
-|     12345 |  2021 | 22000 |
-|    987654 |  2019 |   510 |
-|    987654 |  2020 |  1900 |
-|    987654 |  2021 |  2100 |
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요청하신 데이터가 아래와 같이 보이도록 하겠습니다.
 
@@ -136,7 +185,7 @@ import duckdb as db
 db.sql("create table pivoted_purchases as PIVOT purchases ON year USING SUM(sales)  GROUP BY productID")
 db.sql("SELECT * FROM pivoted_purchases")
 
-# PIVOT에 기반한 테이블을 생성하고 싶지 않을 경우 
+# PIVOT에 기반한 테이블을 생성하고 싶지 않을 경우
 # 단순히 값을 표시하고 싶으면 이렇게도 할 수 있습니다
 # db.sql("PIVOT purchases ON year USING SUM(sales)  GROUP BY productID")
 
@@ -149,7 +198,18 @@ db.sql("SELECT * FROM pivoted_purchases")
 └───────────┴────────┴────────┴────────┘
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 PIVOT 명령어에서 수행한 SUM(salary) 집계는 숫자 데이터를 전혀 변경하지 않았기 때문에 이 프로세스를 UNPIVOT 및 이미 이야기한 COLUMNS 기능을 사용하여 반대로도 수행할 수 있습니다.
 
@@ -171,7 +231,18 @@ db.sql("UNPIVOT pivoted_purchases ON COLUMNS(* EXCLUDE productID) INTO NAME year
 
 이제 서로 다른 데이터 유형을 유니언할 수 있습니다. 네, 들으신 대로, 제 SQL 고통 중 하나가 사라졌습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 db.sql("SELECT '나는 문자열입니다' as col1 union select 100 union select 42.0")
@@ -194,7 +265,18 @@ DuckDB는 서로 다른 데이터 유형을 가져오는 모든 유형을 지원
 
 전통적인 SQL에서는 select 문 내에서 점진적으로 계산된 표현식을 처리할 때 일반적으로 각 열에 대해 전체 표현식을 복제하거나 각 계산 단계를 공통 테이블 표현식(CTE)으로 캡슐화해야 합니다. 그러나 재사용 가능한 열 별칭을 사용하면 이제 열 별칭을 동일한 select 문 전체에서 사용할 수 있으며, where 및 order by 절에서도 사용할 수 있어 프로세스를 간소화하고 중복을 줄일 수 있습니다. 예를 들어,
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 db.sql("SELECT 'The quick brown fox jumped over the lazy dog' AS my_text,\
@@ -209,7 +291,18 @@ my_text_len * my_text_len AS my_text_calc")
 [1,2,3,4,5,6,7,8,9]
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이썬에서는 우리가 원한다면, 위의 리스트의 각 숫자를 제곱하여 두 번째 리스트를 출력하고 싶다면 다음과 같이 진행될 것입니다.
 
@@ -237,7 +330,18 @@ db.sql("SELECT [x*x for x in nums] as squares FROM (VALUES ([1,2,3,4,5,6,7,8,9])
 └───────────────────────────────────┘
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 쿼리를 분석해보면 무엇을 하는 지 이해할 수 있습니다:
 
@@ -251,7 +355,18 @@ db.sql("SELECT [x*x for x in nums] as squares FROM (VALUES ([1,2,3,4,5,6,7,8,9])
 
 SELECT [x*x for x in nums] as squares
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이것은 계산이 발생하는 쿼리의 주요 부분입니다.
 - 이 쿼리는 파이썬에서 일반적으로 볼 수 있는 작업인 리스트 내포 [x*x for x in nums]을 사용합니다. 이 문맥에서 nums 배열의 각 요소 x에 대해 x의 제곱을 계산합니다.
@@ -264,7 +379,18 @@ SELECT [x*x for x in nums] as squares
 
 DuckDB는 점 표기법(dot notation)을 사용하여 별도의 SQL 함수를 연결하는 것을 쉽게 만들어줍니다. 이렇게 하면 한 개의 SQL 문에서 함수 파이프라인을 구축할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 많은 데이터베이스 시스템에서 INITCAP과 같은 이름의 SQL 함수가 있습니다. 이 함수는 텍스트 문자열의 모든 단어를 대문자로 만듭니다. 안타깝게도 DuckDB에는 이 기능이 내장되어 있지 않으므로, 우리는 함수 체이닝 (그리고 리스트 내포)을 사용하여 이를 흉내 내볼 수 있는지 살펴볼까요?
 
@@ -286,7 +412,18 @@ db.sql("SELECT ([upper(x[1])||x[2:] for x in \
 
 string_split 함수는 문구를 구성하는 개별 단어로 나누어주며, Python 리스트와 유사한 단어 목록을 생성합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [the, quick, brown, fox, jumped, over, the, lazy, dog]
 
@@ -296,7 +433,18 @@ string_split 함수는 문구를 구성하는 개별 단어로 나누어주며, 
 
 [The, Quick, Brown, Fox, Jumped, Over, The, Lazy, Dog]
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 단어 목록에 대해 list_agg 함수를 실행합니다. 이 함수는 단어 목록을 다시 단어 문자열로 변환하고 각 단어를 공백 문자로 분리합니다.
 

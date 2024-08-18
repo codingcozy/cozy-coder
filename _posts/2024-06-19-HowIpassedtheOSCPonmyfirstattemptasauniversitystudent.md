@@ -3,17 +3,13 @@ title: "대학생으로서 OSCP 시험에 첫 도전에서 합격하는 법을 �
 description: ""
 coverImage: "/assets/img/2024-06-19-HowIpassedtheOSCPonmyfirstattemptasauniversitystudent_0.png"
 date: 2024-06-19 21:23
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-HowIpassedtheOSCPonmyfirstattemptasauniversitystudent_0.png
 tag: Tech
 originalTitle: "How I passed the OSCP on my first attempt as a university student."
 link: "https://medium.com/@lucas.rezaioff/how-i-passed-the-oscp-on-my-first-attempt-as-a-university-student-8a802c954c84"
 isUpdated: true
 ---
-
-
-
-
 
 안녕하세요,
 
@@ -23,7 +19,18 @@ OSCP에 대한 게시물이 이미 많지만, 전문 경험이 많지 않았기 
 
 ## 왜 이제 OSCP인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지난 세 해 동안 취미로 TryHackMe 룸을 하고 다양한 eLearnSecurity 인증도 취득한 후, 저는 자신을 도전하기 위해 OSCP에 도전하고자 했습니다. 시험에서 세 번, 네 번 또는 다섯 번이나 떨어진 사람들에 대한 많은 게시물을 읽었지만, 저는 시도하지 않으면 통과하지 못할 것이라고 믿었습니다. 만약 여러분이 이 글을 보고 스스로를 알아본다면, 아마도 OSCP를 시작해보는 것이 좋을지 모릅니다!
 
@@ -33,7 +40,18 @@ OSCP에 대한 게시물이 이미 많지만, 전문 경험이 많지 않았기 
 
 4월 초, 계획을 따라가면서 90일 동안 OSCP 랩에 액세스를 구매하고 6월 3일에 시험을 예약했습니다. 학생으로서 $1650 USD를 지불한 후, 어쩌다 하루에 한 챕터씩 진행하면서 이유 모를 이유로 더 많은 시간을 투자하게 되었습니다. 매주 매일 공부하고, 주말에는 대학 수업 때문에 휴식을 취하면서, 제 마지막 시험을 위해 14일 정도 휴식을 취했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5월 중순쯤에 교육 자료를 모두 마쳤고, 이제 10일 안에 도전 랩을 완료해야 했습니다. 그래서 최종 시험이 끝났으므로 주말에 쉬는 시간은 더 이상 없고, 고되게 달려보겠습니다.
 
@@ -48,7 +66,18 @@ OSCP에 대한 게시물이 이미 많지만, 전문 경험이 많지 않았기 
 
 저는 모든 도전 랩을 한 주 동안 열심히 마쳤고, 그 후에 월요일 시험 이전 주말에 자유 시간이 생겼습니다. 그래서 모든 메모를 다시 읽고 정리하며, 시험 중에 더 이상 무엇을 찾아야 할지 모를 때를 대비하여 비상 체크리스트를 준비했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마침내 시험 전날, 나는 완전히 쉬는 날을 갖기로 했습니다. 오후에 몇 명의 친구를 만나러 가고 일찍 잠들기로 했어요.
 
@@ -63,7 +92,18 @@ OSCP에 대한 게시물이 이미 많지만, 전문 경험이 많지 않았기 
 - 훈련 자료 Capstone 연습과 Challenge Labs에서 힌트를 찾는 것에 대해 두렵지 마세요 (솔직히 스스로 찾는 것에 대한 부끄러움은 없습니다). 그러나 OSCP A, B, C 훈련 중에는 힌트를 찾지 않는 것을 권장합니다. 이렇게 하면 사기, 자신감 및 문제 해결 능력을 키울 수 있습니다. (기억하세요, Try Harder).
 - 훈련 자료 80% 완료로 10 보너스 포인트 및 Challenge Labs에서 31개의 증명 깃발을 얻으세요 (시간이 있다면 모두 완료하세요).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 시험 날:
 
@@ -73,7 +113,18 @@ OSCP에 대한 게시물이 이미 많지만, 전문 경험이 많지 않았기 
 
 이후, 짧은 휴식을 취하고 다시 일에 들어갔습니다. 독립된 기계들을 전부 열거하고 첫 번째 기계로 시작했지만 초기에는 아무 것도 찾을 수 없었습니다. 다른 기계로 전환하여 초기 접근에 1시간, 권한 상승에 20분 정도가 걸렸습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 단계에서 시험을 시작한 지 4시간이 되었고 이미 70점을 획득했어요! 이 순간에는 정말 큰 안도감이 들었어요. 왜냐하면 이는 지난 몇 달간 노력한 결과를 인정받은 것이었거든요. 그래서 제대로 된 휴식을 취했어요.
 
@@ -83,7 +134,18 @@ OSCP에 대한 게시물이 이미 많지만, 전문 경험이 많지 않았기 
 
 거의 새벽 4시가 다 되어 90점을 획득해 만족하며 잠들기로 결정했어요. 다음 날 아침, 9시에 일어나 남은 기계에 2시간을 쓰기로 했어요. 만약 진전이 있다면 계속 진행할 것이고, 아니라면 보고서를 위해 노트와 스크린샷을 다듬을 것이었어요. 2시간이 지났을 때에도 진전이 없었지만, 포기하고 싶지 않았어요. 30분 후, 마지막 기계에서 초기 발판을 찾아 5분 이내에 권한을 획득했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2시간 정도 남았을 때 전체 시험 내용을 노트와 함께 검토했고, 누락된 스크린샷을 찍어 시험을 끝내고 보고서 작업에 임할 준비가 되었습니다.
 
@@ -93,7 +155,18 @@ OSCP에 대한 게시물이 이미 많지만, 전문 경험이 많지 않았기 
 
 ## 마지막 생각:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가장 어려운 도전이자 가장 보람찬 경험이었어요. 졸업하면서 이 마일스톤을 달성한 것이 정말 뿌듯했어요. 가족과 친구들께 지지해준 덕분에 이런 결과를 이뤄낼 수 있었어요. 여러분 모두에게 감사드립니다!
 

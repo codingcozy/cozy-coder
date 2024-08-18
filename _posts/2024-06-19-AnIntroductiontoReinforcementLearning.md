@@ -3,17 +3,13 @@ title: "강화 학습 소개"
 description: ""
 coverImage: "/assets/img/2024-06-19-AnIntroductiontoReinforcementLearning_0.png"
 date: 2024-06-19 06:29
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-AnIntroductiontoReinforcementLearning_0.png
 tag: Tech
 originalTitle: "An Introduction to Reinforcement Learning"
 link: "https://medium.com/towards-data-science/an-introduction-to-reinforcement-learning-995737d3f1d"
 isUpdated: true
 ---
-
-
-
-
 
 ## 강화 학습의 기초에 대한 심층 탐구, 모델 기반 및 모델 없는 방법 포함
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 공학 지능의 한 경로는 생물학적 생물체를 모방하는 것에 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 생물학적 생명체들은 환경으로부터 정보를 전도하고, 이를 처리(인지과학이 연구하는 바)하며, 생존에 유리한 행동을 출력합니다. 이러한 행동들은 가장 기본적인 수준에서 음식 수확, 번식, 위험 회피와 관련됩니다. 또한, 이는 놀이, 창의성, 문제 해결, 설계 및 공학, 사교, 로맨스, 지성 생활과 같은 다양한 인간 활동도 포함합니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 심리학에서, 두 가지 주요 학파인 행동주의와 인지과학은 인간 행동을 설명하기 위해 양립하고 있습니다. 행동주의자는 학습 메커니즘의 함수로써 행동을 이해하며, 학습은 행동적 출력에 귀속될 수 있다고 합니다. 반면에, 인지과학은 환경과의 상호작용을 정보 처리 접근법을 통해 모델링합니다. 이 접근법에서, 에이전트는 외부 자극을 처음에는 감각을 통해 내부 표현으로 변환하고, 그 후 사고와 추론 능력에 이르기까지 변형 및 통합 과정을 거쳐 행동적 출력을 반환합니다. 전자 접근법에서는, 학습은 주로 환경적 조건부로서 이해됩니다. 반면에 후자에서는, 정신적 표현이 행동을 예측하는 데 필수적이라고 여겨집니다. 강화 학습은 주로 행동주의 접근법에서 영향을 받아, 환경적 보상이 에이전트의 탐색 공간 내에서 진화를 결정한다고 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작업자 조건화, 1950년대-60년대에 유행했던 행동주의 심리학 학파로서, 학습을 보상과 처벌이라는 환경 메커니즘의 결과물로 정의했습니다. 조작적 조건화의 전제 조건으로는 에드워드 손다이크가 제안한 효과의 법칙이 포함되어 있습니다. 이 법칙은 만족스러운 효과를 일으키는 행동은 재발을 더 많이 유발하며, 불만족스러운 효과를 일으키는 행동은 재발을 덜 유발한다는 것을 제안합니다. B.F. 스키너는 효과를 강화와 처벌의 용어로 운용했습니다. 강화는 행동의 재발 발생 가능성을 증가시키며, 이것은 접근 또는 억제 요인의 제거를 말할 수 있습니다. 접근은 긍정적 강화, 회피의 역전인 부정적 강화로 표현됩니다. 긍정적 강화의 예로는 스포츠에서 뛰어나고 자주 이기는 것이 포함됩니다. 부정적 강화의 예는 억제적 자극을 제거하는 것인데, 이를 예로 들 수 있는 것은 경기 도중 당신을 조롱하는 학교 폭력가입니다. 작업자 조건화는 가장 큰 보상을 받는 행동을 반복할 가능성이 높다고 예측합니다. 반면 처벌은 행동 효과를 제어하기 위해 부정적 결과를 추가하거나 행동과 관련된 보상을 제거함으로써 구성됩니다. 파울링으로 게임에서 퇴장당했을 때의 경우는 긍정적 처벌을 보여줍니다. 성적이 좋지 않고 게임에서 패배한 경우는 부정적 처벌을 나타내며, 이는 미래에 더 이상 게임을 하지 않을 수 있습니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 불구하고, 강화 학습은 인공지능을 모델링하기 위해 에이전트, 환경 및 보상의 행동 온톨로지를 적응하는 다양한 수학적 기법으로 이루어져 있습니다. 아래에서 보게 되겠지만, 강화 학습의 측면 중 일부는 통제 이론에서 비롯되어 물리학과 공학으로 확장되는 전제 조건으로부터 나오며, 다른 측면은 심리학과 생물학으로부터 직접적으로 나오는 것입니다. 통제 이론의 대상과 생명체는 열역학적 균형으로부터 멀리 떨어진 최적 범위 내에 남아야 하는 동력학 시스템으로 구성되기 때문에, 기본 원리는 강화 학습과 인공지능의 목표에 부합됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다이내믹 프로그래밍은 주로 제어 이론에서 시작되어, 더 큰 문제를 하위 문제로 재귀적으로 분해하여 해결하는 수학적 최적화 방법으로 발전했습니다. 보통 재귀는 함수가 직접 또는 간접적으로 자기 자신을 파라미터로 전달하는 것을 말합니다.
 
@@ -53,7 +82,18 @@ DQN이 해결한 다른 약점에는 비선형 동역학을 캡처하는 유연�
 
 신경동적 프로그래밍은 순수히 행동주의 접근 방식의 약점을 해결하기 위해 심리학의 인지 패러다임을 활용하는 방향으로 발전하고 있습니다. 그러나 하위 수준 지각 정보의 계층적 구조와 처리에 대한 과학적 진전이 이루어지는 반면, 그 정보를 생각과 의식에 연결시키는 데는 더 많은 노력이 필요하며, 이는 과학적으로 약간 불가능한 것으로 남아 있습니다. 이러한 이유로 인공 신경망(ANNs)은 아직까지 사람의 지능의 복잡한 일반화 능력을 갖추고 있지 않습니다. 이는 ANNs보다 지수적으로 적은 샘플로 학습하는 인간의 지능과 대조적입니다. 본 글의 마지막 섹션에서 강화학습의 원칙을 인공 일반 지능(AGI) 쪽으로 채택하는 시사점을 논의하겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 의사 결정 이론 및 제어 이론
 
@@ -63,7 +103,18 @@ DQN이 해결한 다른 약점에는 비선형 동역학을 캡처하는 유연�
 
 제어 이론은 기계 및 전기 공학 분야에서 나타나며, 동적 시스템의 상태 및 성능을 원하는 매개변수에 대해 최적화하는 데 관심이 있습니다. 중요한 메커니즘은 희망 변수를 측정하고 설정점과 비교한 후 그 차이를 수정을 위한 피드백으로 전달하는 컨트롤러로 이루어져 있습니다. 제어 이론의 큰 그림은 생명체의 대사 과정과 유사하며, 외부 변수 조건에 대비해 내부 온도의 설정 점을 유지하는 생물들의 과정을 반영합니다. 제어 이론과 의사 결정 이론의 연결은 명백합니다: 둘 다 시스템의 상태를 최적화하거나 발전시키기 위해 환경으로부터의 피드백에 의존합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 수학적으로, 제어 및 의사 결정 문제의 부분 집합은 모두 동적 프로그래밍을 통해 해결할 수 있는 최적화 문제로 축소될 수 있습니다. 동적 프로그래밍은 상태 변수의 수가 지수적으로 증가함에 따라 계산 요구 사항이 지수적으로 증가하는 차원의 저주에 시달린 일반적인 확률적 최적 제어 문제를 해결하기 위해 그것을 더 작은 하위 문제로 분해하고 가치 함수를 계산함으로써 해결합니다. 저희는 강화 학습의 기본 원칙을 시연하면서, 동적 프로그래밍의 핵심인 에이전트의 상태 및 가치 함수 사이의 재귀적 관계에 대해 깊이 파헤쳐볼 것입니다.
 
@@ -73,7 +124,18 @@ DQN이 해결한 다른 약점에는 비선형 동역학을 캡처하는 유연�
 
 ## 상태, 동작 및 보상
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 강화 학습은 의사 결정 이론의 이론적 장치를 활용하여 에이전트, 환경 및 동적 진화 규칙을 포함하는 모델을 구성합니다. 진화 규칙은 에이전트가 환경 내에서 보상을 추구할 수 있게 허용하며, 이를 관찰이라고도 합니다.
 
@@ -83,7 +145,18 @@ DQN이 해결한 다른 약점에는 비선형 동역학을 캡처하는 유연�
 
 ![정책](https://yourwebsite.com/assets/img/2024-06-19-AnIntroductiontoReinforcementLearning_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전이 역학은 모든 가능한 상태 및 보상 값에 대한 확률 분포로 주어진 입력 보상에 따라 다음 상태를 정의합니다:
 
@@ -93,7 +166,18 @@ DQN이 해결한 다른 약점에는 비선형 동역학을 캡처하는 유연�
 
 행동은 보상을 누적하여 환경을 변경합니다. 그 결과로 보상은 에이전트 상태나 관측을 변경합니다. 보상 입력은 정책에 기반하여 미래의 행동 출력을 결정합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반적으로, 정책에는 두 가지 유형이 있습니다:
 
@@ -103,7 +187,18 @@ DQN이 해결한 다른 약점에는 비선형 동역학을 캡처하는 유연�
 
 이것은 탐색-이용 딜레마로 알려져 있습니다. 다시 말해, 전이 함수는 환경을 탐색하고 누적한 지식을 활용하여 최대 보상을 얻으며, 그 둘 사이의 균형을 최적화해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 탐색-활용 딜레마에 대한 최적의 해결책은 모델이 학습해야 하는 작업의 유형에 따라 달라집니다. 이 작업은 유한에서 무한(연속적 또는 이산적으로)로 범위가 있을 수 있습니다. 예를 들어 체스 게임은 에피소드 작업으로 형식화될 수 있습니다. 왜냐하면 유한한 구성 공간과 승, 패, 무승부 세 가지 가능한 결과를 가진 미리 정의된 종료 상태가 있기 때문입니다. 이는 현재 상태를 기준으로 최적의 후속 상태를 결정할 수 있는 것을 의미하며, 결정론적 전이 동역학을 통해 계산됩니다. 따라서 각 상태에 대해 단일 최적의 행동이 존재합니다.
 
@@ -113,7 +208,18 @@ DQN이 해결한 다른 약점에는 비선형 동역학을 캡처하는 유연�
 
 몬테 카를로 탐색과 반대로 시간차 학습은 시간 단계 간의 차이를 활용하여 가치 함수를 증분적으로 추정합니다. 시간차 방법의 접근 방식을 두면 몬테 카를로 방법에 비해 실제 예상 값과의 분산을 낮추는 특성이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요약하자면: 에이전트는 현재 상태와 액션 공간 쌍에서 상태 공간으로의 매핑을 통해 환경을 탐색합니다. 전이 동적은 미리 정의된 종단 상태를 가진 유한한 구성 공간에 대한 모든 가능한 매핑을 계산합니다. 미리 정의된 종단 상태와 유한한 상태 공간 대신에, 모델 무작위 접근법은 최상의 정책을 찾기 위해 환경에서 계속 샘플링합니다.
 
@@ -123,7 +229,18 @@ DQN이 해결한 다른 약점에는 비선형 동역학을 캡처하는 유연�
 
 ## 보상 평가
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 강화 학습에서 보상을 측정하는 방법은 에이전트가 행동을 취함으로써 환경으로부터 얻는 스칼라 값으로 계량화됩니다. 이 보상의 가치는 행동의 즉각적인 선호도를 나타냅니다.
 
@@ -133,7 +250,18 @@ DQN이 해결한 다른 약점에는 비선형 동역학을 캡처하는 유연�
 
 할인을 적용한 누적 보상 G는 아래 식으로 표현됩니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Reinforcement Learning Introduction](/assets/img/2024-06-19-AnIntroductiontoReinforcementLearning_3.png)
 
@@ -143,19 +271,39 @@ DQN이 해결한 다른 약점에는 비선형 동역학을 캡처하는 유연�
 
 대부분의 작업은 시간에 제한이 있기 때문에, 감마 할인은 값이 1 미만일 때 보상에 상한선을 부과합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 할인을 고려한 누적 보상의 압축된 방정식은 아래와 같습니다. 여기서 G는 보상 R의 예상 합을 나타내며, 이는 할인 요소 감마로 곱해집니다. 따라서 누적 보상은 보상과 할인 요소의 합으로 계산됩니다:
 
-
 ![cumulative reward equation](/assets/img/2024-06-19-AnIntroductiontoReinforcementLearning_4.png)
-
 
 ## 마르코프 의사결정 과정 (MDP)
 
 지금까지 정책을 상태에서 행동으로 매핑하는 확률적 정의, 보상이 주어졌을 때 한 상태에서 다른 상태로 움직일 확률인 전이 역학, 그리고 보상이 어떻게 계산되는지에 대한 공식에 대해 논의해 왔습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자, 이제 조금 물러나서 확률적 전이 체인을 정의하는 보충 이론을 제공하겠습니다. 먼저 마르코프 과정이라고 하는 것부터 시작해봅시다. 마르코프 과정은 마르코프 성질을 만족하는 확률 과정입니다. 확률 과정은 무작위로 변하는 과정입니다. 마르코프 성질은 모든 상태에 대해 후속 상태가 현재 상태에만 의존된다는 것을 말합니다.
 
@@ -165,8 +313,18 @@ DQN이 해결한 다른 약점에는 비선형 동역학을 캡처하는 유연�
 
 매우 그렇습니다. 그러나 우리는 환경 속 요소들의 수학적 형식론을 원하기 때문에 모델링하려는 작업 또는 환경 유형을 구별해야 합니다. 이를 위해 시간 단계와 상태 공간의 표현, 즉 모든 가능한 상태의 분포를 명시해야 합니다. 아래의 정사각 행렬은 상태 공간과 시간의 축을 기준으로 마르코프 체인의 정의를 제공합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-19-AnIntroductiontoReinforcementLearning_5.png)
 
@@ -176,8 +334,18 @@ DQN이 해결한 다른 약점에는 비선형 동역학을 캡처하는 유연�
 
 마찬가지로 시간 축은 이산 또는 연속적으로 정의될 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이산시간 프로세스는 이산적으로 상태 전이를 계산하지만, 가산 또는 비가산 상태 공간에서 모델링할 수 있습니다. 여기서 비가산이라 함은 실수의 무한한 10진 확장을 의미합니다. 실제로 컴퓨터가 시간을 세는 방식도 이와 같습니다. 이를 이산 단계로 처리합니다. 단계 사이의 간격은 아키텍처에 따라 다르지만, 주기는 보통 레지스터 상태를 변경하는 데 필요한 시간 단계의 길이로 측정됩니다.
 
@@ -187,7 +355,18 @@ DQN이 해결한 다른 약점에는 비선형 동역학을 캡처하는 유연�
 
 지금까지 우리의 마르코프 체인은 상태간 전이를 고정된 확률로 설명하는 매우 단순한 모델입니다. 행동과 보상이라는 모델링에 중요한 두 가지 요소가 빠져 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보상을 전이 확률로 할당하는 것이 마르코프 보상 과정입니다. 마르코프 보상 과정은 각 전이 상태에 보상을 할당합니다(양수 또는 음수 정수로 정의됨)으로써 시스템을 원하는 상태로 이끕니다. 누적 보상 공식을 상기해 보겠습니다. 기대 보상의 합에 일정한 할인 계수가 곱해진 값입니다. 마르코프 보상 과정을 사용하면 초기 상태 S가 주어졌을 때 상태 v(s)의 값과 누적 보상 G의 확률을 계산할 수 있습니다(여기서 G는 많은 반복 시행에서 평균화된 값입니다):
 
@@ -197,7 +376,18 @@ DQN이 해결한 다른 약점에는 비선형 동역학을 캡처하는 유연�
 
 ![이미지](/assets/img/2024-06-19-AnIntroductiontoReinforcementLearning_7.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 동적 계획법 및 벨만 최적성
 
@@ -207,7 +397,18 @@ DQN이 해결한 다른 약점에는 비선형 동역학을 캡처하는 유연�
 
 동적 프로그래밍이 최적의 에이전트 상태를 검색하고 찾는 핵심 아이디어는 상태 가치 함수와 행동 가치 함수 사이의 관계에 있습니다. 이들은 재귀적으로 관련되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 아이디어를 관련성 있는 예시로 확장해 봅시다. 예를 들어, 당신이 삶에서 최적 상태가 아니고 이를 바꾸고 싶다고 가정해 봅시다. 미래에 이루고 싶은 구체적인 목표나 위치가 있다고 해 봅시다. 이 큰 목표에 도달하기 위해 (더 좋은 직장을 얻는다던가, 가족을 꾸린다던가 등을 대체할 수 있습니다), 당신은 원하는 결과에 도움이 되는 일련의 작은 단계나 행동을 취해야 할 것입니다. 강화 학습의 언어로 번역하면, 현재 상태에는 특정 가치가 할당될 것입니다. 현재 상태와 가치를 고려하여 당신은 행동을 취할 것입니다. 이러한 행동은 전체 목표와 현재 상태에 따라 평가될 것입니다. 좋은 행동은 나쁜 행동보다 높은 가치를 받을 것입니다. 환경으로부터의 피드백은 행동의 가치를 결정할 것입니다 (이 값들이 어떻게 결정되는지는 작업마다 다릅니다). 상태의 평가는 사용 가능한 행동과 후속 상태의 가치에 영향을 미칠 것입니다. 그리고 행동의 평가는 현재 상태의 가치를 재귀적으로 영향을 줄 것입니다. 다시 말해, 행동과 상태는 재귀적으로 연결되어 있습니다.
 
@@ -217,7 +418,18 @@ DQN이 해결한 다른 약점에는 비선형 동역학을 캡처하는 유연�
 
 이제 우리가 결정론적 전이 역학에 대해 생각해 보면, 상태, 행동 및 보상의 집합이 유한하기 때문에, 특정 상태와 보상 쌍은 일정한 상태 및 행동 쌍이 주어졌을 때 그 값들이 발생할 확률을 갖게 될 것입니다. 이러한 확률은 상태 공간이 이산적이기 때문에 이산 확률 분포로 명시됩니다. 우리는 상태, 행동 및 보상으로 구성된 일련의 순서가 누적 보상을 최대화하려는 마르코프 결정 과정(MDPs)이라고 했습니다. 이때 보상을 스칼라 값으로 표현하며, 시간이 흐름에 따라 예상되는 누적 보상을 최대화하려고 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 다루어야 할 질문은 우리가 지정한 가정에 따라 마르코프 의사결정 프로세스가 누적 보상을 최대화하는 방법입니다. 이 답은 벨만 최적 방정식에 의해 제공되며 두 함수인 상태 가치 함수와 행동 가치 함수 사이의 관계를 설명합니다.
 
@@ -227,7 +439,18 @@ DQN이 해결한 다른 약점에는 비선형 동역학을 캡처하는 유연�
 
 보다 간단하게 말하자면, 상태 가치 함수는 특정 상태(s)에서 정책 𝝅을 따라 시작하여 에이전트가 얻을 수 있는 예상 누적 보상을 정의합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![equation_8](/assets/img/2024-06-19-AnIntroductiontoReinforcementLearning_8.png)
 
@@ -237,7 +460,18 @@ DQN이 해결한 다른 약점에는 비선형 동역학을 캡처하는 유연�
 
 ![equation_9](/assets/img/2024-06-19-AnIntroductiontoReinforcementLearning_9.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 공식은 다음 상태의 가치를 조건부 확률로 계산된 예상 반환 E𝝅로 정의합니다. 시간 t에서 상태 s가 주어졌을 때 시간 t에서 보상 R을 받을 조건부 확률로 계산됩니다. 보상 R은 후속 상태의 예상 반환의 곱의 합과 감마 감쇠를 고려하여 계산됩니다.
 
@@ -247,11 +481,33 @@ DQN이 해결한 다른 약점에는 비선형 동역학을 캡처하는 유연�
 
 우리는 상태 가치를 0으로 초기화하고, 상태 가치 함수에 대한 벨만 방정식을 사용하여 그리드 내의 보상 분포가 주어졌을 때 상태 가치를 최적화합니다. 우리는 (행, 열) 색인을 사용하여 그리드의 각 위치를 식별합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 테이블 태그를 마크다운 형식으로 변경해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Action-Value Function
 
@@ -259,7 +515,18 @@ DQN이 해결한 다른 약점에는 비선형 동역학을 캡처하는 유연�
 
 다시 말해, 행동 가치 함수는 상태 (s)에서 작업 (a)를 수행하는 것에 대한 누적 보상을 계산합니다. 여기서 기대 수익은 즉각적인 상태 전이 — R(s, a, s')로 표시됨 — 및 다음 상태 s'의 누적 보상의 할인 가치 —𝛾∑𝝅(a'|s')Q(s',a')​​로 표시됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 행동 가치 함수를 정하는 또 다른 방법은 최적 정책 𝝅을 따라 상태와 행동 쌍 (s, a)이 주어졌을 때 기대 반환값 E로 나타내는 것입니다:
 
@@ -269,17 +536,39 @@ DQN이 해결한 다른 약점에는 비선형 동역학을 캡처하는 유연�
 
 ![image](/assets/img/2024-06-19-AnIntroductiontoReinforcementLearning_15.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 따라서 행동-가치 함수와 상태-가치 함수는 재귀적으로 관련이 있습니다: 행동-상태 쌍의 가치가 상태의 가치를 결정하며, 상태는 반대로 행동의 가치를 결정합니다.
 
 상태-가치 함수는 상태를 우선으로 하고 기대값 E를 출력합니다. 행동 가치 함수는 상태와 행동 쌍을 우선으로 하여 보상을 계산하고 기대 누적 반환 E를 얻습니다.
 
-따라서 벨만 최적 방정식은 상태-가치와 행동-가치 함수의 재귀적 반복을 나타내며, 최적 값에 수렴할 때까지 반복됩니다. 상태-가치 함수를 위한 벨만 방정식은 아래와 같이 표현됩니다: 
+따라서 벨만 최적 방정식은 상태-가치와 행동-가치 함수의 재귀적 반복을 나타내며, 최적 값에 수렴할 때까지 반복됩니다. 상태-가치 함수를 위한 벨만 방정식은 아래와 같이 표현됩니다:
 
 ![image](https://yourwebsite.com/assets/img/2024-06-19-AnIntroductiontoReinforcementLearning_16.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 상태의 값은 가능한 모든 행동의 최대 보상으로 정의되며, 이는 (s) 상태에서 행동 a를 취할 때 얻는 보상과 다음 행동 s'의 값 및 할인 계수 감마의 곱으로 계산됩니다.
 
@@ -289,7 +578,18 @@ DQN이 해결한 다른 약점에는 비선형 동역학을 캡처하는 유연�
 
 ## 모델 프리 메소드: 몬테카를로 & 시간차학습
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 예시는 전환 동역학이 알려져 있어 따라서 완벽하게 계산될 수 있는 결정론적 모델을 설명합니다. 이것은 환경에 대한 완전한 지식을 가지고 있기 때문입니다.
 
@@ -299,7 +599,18 @@ Monte Carlo 방법론에서는 예상 수익을 샘플 수익의 평균으로 �
 
 MC 업데이트 규칙을 다음과 같이 작성할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-19-AnIntroductiontoReinforcementLearning_18.png)
 
@@ -309,7 +620,18 @@ V(s) n+1은 다음 에피소드의 가치를 나타내며, S(s)n은 상태의 �
 
 ![image](/assets/img/2024-06-19-AnIntroductiontoReinforcementLearning_19.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Monte Carlo 방법과는 달리 Temporal Difference (TD)에서는 각 에피소드가 끝난 후가 아니라 각 시간 단계나 증분마다 상태 가치 함수를 평가합니다. 환경에 대한 정보가 없는 초기 상태에서는 상태의 가치 V(s)를 0이나 다른 값으로 초기화해야 하며, 이후 매 시간 단계마다 업데이트됩니다.
 
@@ -319,7 +641,18 @@ TD에서는 상태의 가치를 계산하는 데 두 단계가 필요합니다. 
 
 여기서 𝜹t는 오차를 나타내며, R(t+1)은 행동에서 얻는 보상, V(S t+1)은 다음 상태의 추정 가치, V(S)는 현재 상태의 가치를 의미합니다. TD가 다음 상태의 추정 가치를 사용하여 현재 상태를 평가하는 것을 부트스트랩이라고 합니다. 이를 통해 현재 상태의 값에서 행동의 보상과 할인 계수와 다음 상태의 가치의 곱을 더하고 빼는 것으로 상태의 값이 즉시 시간 단계마다 업데이트됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예상 보상과 실제 관측 값 사이의 차이를 𝜹(탐색-백업 간격)을 𝛼(학습률)에 곱해주면 관측과 기대 사이의 차이를 줄일 수 있어요.
 
@@ -329,7 +662,18 @@ TD에서는 상태의 가치를 계산하는 데 두 단계가 필요합니다. 
 
 MC와 TD 방법은 환경에 대한 사전 지식 없이 진행되지만, Temporal Difference의 장점은 매 시간 단계에서 온라인 업데이트를 계산한다는 것이고, 몬테카를로 방법의 장점은 값 추정을 위해 샘플링에만 의존하여 편향이 없다는 것이에요. TD 방법의 단점은 높은 편향이고, MC 방법의 단점은 중요한 업데이트를 간과하여 높은 분산을 유발한다는 점이에요. 이것은 두 학습 전략 사이의 최적점이 어딘가에서 존재해야 한다는 것을 시사합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 TD 방법론은 단계 평가 전략을 n단계로 변경함으로써 최적화할 수 있습니다. 이렇게 함으로써, TD와 MC 사이에서 타협할 수 있는 기회를 얻게 됩니다. 우리가 n단계마다 상태 가치를 평가할 때, 우리는 매 단계 후가 아닌 미래 n단계를 추정함으로써 이를 수행합니다.
 
@@ -339,7 +683,18 @@ n단계 TD에 대한 수정된 접근 방식은 TD(𝝀)입니다. TD(𝝀) 방�
 
 여기서 람다(𝝀) 매개변수는 부트스트래핑의 정도를 제어합니다. 𝝀 = 1일 때, 부트스트래핑이 없어지고 업데이트 규칙은 Monte Carlo로 축소됩니다. 𝝀 = 0일 때는 부트스트래핑이 있는 TD(0)로 축소됩니다. TD(𝝀)는 TD와 MC를 연속체로 일반화한 것으로, 여기서 TD(0)는 단일 단계 TD를 의미하며, TD(1)은 TD를 ∞ 단계까지 확장한 극한값인 MC를 의미합니다. 수식에서 보듯이, 적격성 흔적 매개변수는 재귀적으로 계산됩니다. 다음 시간 단계의 적격성 흔적값은 이전 단계의 적격성 흔적 값을 입력으로 취합니다. E(s) = 0일 때, 부트스트랩이 없어집니다. TD(𝝀) 업데이트 규칙은 아래와 같이 TD 및 MC 업데이트 규칙과 동일하게 계산되지만, 애러에 적격성 흔적을 곱하는 것이 차이입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-06-19-AnIntroductiontoReinforcementLearning_23.png)
 
@@ -349,7 +704,18 @@ n단계 TD에 대한 수정된 접근 방식은 TD(𝝀)입니다. TD(𝝀) 방�
 
 인공 신경망(ANN)은 RL 아키텍처 내재한 일부 한계를 교정하는 강력한 방법을 제공합니다. 특히, ANNs는 샘플링 효율성, 환경 일반화, 차원의 저주로 인한 스케일링 문제를 개선합니다. 데이터로부터 일반 함수를 학습하기 때문에 우수한 일반화 능력을 통해 샘플 효율성을 줄이고 환경 일반화를 향상시킵니다. 이는 숨겨진 계층의 수와 각 숨겨진 계층 당 뉴런 수를 늘릴 수 있어 더 잘 스케일링할 수 있도록 합니다. 그러나 너무 많은 숨겨진 계층과 뉴런은 계산 스케일링 문제를 야기할 수도 있습니다(특정 범위를 벗어날 경우 차원의 저주를 피할 수 없습니다). 또한 전통적으로 ANNs가 사전에 목표 상태의 비정상성 문제에 시달리며, RL 알고리즘은 정책 상이든 오프-정책 상에 상관없이 업데이트 함수를 통해 최적 상태를 찾습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전통적인 강화 학습 알고리즘이 확률적 전이 규칙에 의존하는 데 반해, 강화 학습에 인공 신경망(ANNs)을 적용하면 함수 근사를 사용하여 상태 및 상태-행동 값들을 계산하게 됩니다. 선형 근사 및 타일 코딩과 같은 여러 함수 근사 방법을 적용할 수 있지만, 인공 신경망은 비선형 함수 근사를 활용한 일반화 능력으로 가장 강력한 기술을 구성합니다.
 
@@ -359,7 +725,18 @@ n단계 TD에 대한 수정된 접근 방식은 TD(𝝀)입니다. TD(𝝀) 방�
 
 ## 오프-폴리시 DQN
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 큐-러닝은 SARSA(State, Action, Reward, State', Action')의 오프-폴리시 버전으로, 다음 상태-액션 쌍 Q(s', a')은 다음 상태에서 이용 가능한 액션들 중에서 최대 예측 값으로 추정됩니다. 다시 말해, 큐-러닝은 다음 상태 s'에서 이용 가능한 액션들 사이에서 Q(s',a')의 최댓값을 선택합니다. 이는 정책(𝜋)을 사용하지 않고 Q(s',a')를 학습한다는 것을 의미합니다. 반면, SARSA는 이전 액션을 선택하고 다음 상태-액션 쌍인 Q(s',a')를 추정하는 온-폴리시 방법입니다. 이는 상태가 주어졌을 때 액션의 확률인 정책(𝜋)을 사용하여 Q-함수를 학습한다는 것을 의미합니다.
 
@@ -367,9 +744,20 @@ n단계 TD에 대한 수정된 접근 방식은 TD(𝝀)입니다. TD(𝝀) 방�
 
 인공신경망은 새로운 정보에 매우 민감하기 때문에, 새로운 정보가 이전에 작성된 정보를 덮어쓰는 치명적인 잊혀짐을 초래할 수 있습니다. 이러한 치명적인 잊혀짐을 다루는 방법 중 하나는 경험 재생을 적용하는 것입니다. 이 기법은 과거 경험을 저장하고 네트워크를 훈련하는 데 재사용합니다.
 
-## 온-폴리시 딥 TD(𝝀) 
+## 온-폴리시 딥 TD(𝝀)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ANNs는 TD(λ) 방법에도 적용할 수 있습니다. 여기서 상태 관찰은 ANN에 입력으로 공급되고, ANN은 그것을 통해 액션-가치 함수를 출력으로 근사화합니다. TD(λ)의 온-폴리시 성격 때문에 Deep TD(λ) 방법은 상태 간의 장기 의존성이 필요한 작업에 가장 적합합니다.
 
@@ -379,7 +767,18 @@ TD(λ)와 같은 온라인 학습 방법을 훈련하는 것은 도전적일 수
 
 Deep TD(λ) 알고리즘은 상태 공간이 연속적이고 대상이 알려지지 않거나 불분명한 연속 제어 작업에서 뛰어난 성과를 보여주었습니다. 이러한 작업에는 로봇 과제, 자율 주행 자동차, 금융 시장의 연속 제어 작업 등이 포함됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 강화 학습과 인공 일반 지능
 
@@ -389,7 +788,18 @@ Deep TD(λ) 알고리즘은 상태 공간이 연속적이고 대상이 알려지
 
 후자의 개념은 경쟁한다고 여겨지는 두 가지 모델로 구성되어 있는데, 하나는 절차를 따르는 지능으로 설명되고, 다른 하나는 최적의 예측을 위해 데이터로부터 일반화하는 지능으로 설명된다. 전자는 일반적으로 더 잘 이해되지만, 후자는 예측의 강도를 신뢰성 있게 향상시키는 기법 집합으로 이루어져 있다고 할 수 있다. 동물의 지능은 대부분 후자 모델에 기반한다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 번째 모델의 가장 성공적인 패러다임은 인공 신경망을 통한 딥 러닝입니다. 인공 신경망 구조의 주요 장점은 사전 정보나 개념 없이 데이터로부터 일반화를 가능하게 한다는 것입니다. 이는 비지도 학습과 혼동해서는 안됩니다. 인공 신경망은 먼저 훈련을 통해 모델을 구축한 다음 새로운 데이터에 대해 해당 모델을 기반으로 예측합니다. 따라서 두뇌도 (진화를 통한 사전 훈련을 고려하면) 비슷한 일을 한다고 생각됩니다. 그러나 현재 인공 신경망에서는 두 가지 약점이 있습니다. 첫 번째 약점은 목표나 결과가 인간 디자이너에 의해 설정되어야 한다는 것입니다. 인공 신경망은 스스로 목표를 설정할 수 없습니다. 또한, 스스로 진실과 거짓을 구별할 수 없습니다. 모델이 그 결과를 근사화하는 방법을 배우기 위해 참된 결과를 제공해야 합니다. 두 번째 약점은 강화 학습 없이 인공 신경망이 자체 상태를 최적화하기 위해 환경을 탐색할 수 없다는 것입니다. 이러한 이유로 인공 신경망의 일반화와 예측 능력을 강화 학습의 결정 최적화 능력과 결합하는 것이 엄청난 섞임을 만들어냅니다.
 
@@ -399,7 +809,18 @@ Deep TD(λ) 알고리즘은 상태 공간이 연속적이고 대상이 알려지
 
 그러나 강화 학습만으로는 인공 일반 지능을 충분히 표현할 수 있는지에 대한 의문이 있습니다. 이에 대한 이유로는 일반 지능의 정의에서 비롯한 것들이며 현재의 대부분의 AI 연구자들이 명시적인 내부 표현을 필수적인 요소로 간주하지 않고 있기 때문입니다. 이에 대한 상당한 이유가 있습니다. 딥 러닝의 성공 이전에 인공 일반지능의 희망을 걸고 있던 상징적 AI는 실패로 이어졌습니다. 상징적 AI는 주로 명시적으로 코딩된 논리 규칙과 최적 추론 생성을 위한 지식 저장소에 기초한 인공 지능 접근 방식을 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상징적 인공지능과 신경망 사이의 긴장은 그러나 근거 없을 수도 있습니다. 많은 연구자들은 인공 일반 지능을 얻기 위한 탐구가 이러한 접근 방식을 적절히 결합하는 데 있다고 믿습니다. 신경망이 뇌의 본질적 오네톨로지를 근사화한다고 생각하는 이유는 수학적 논리가 뇌가 추론하는 방식이 아니기 때문입니다. 즉, 그것은 필요충분 조건을 계산하지 않거나 정확한 멤버십을 계산하는 것보다는 점수 있는 멤버십에 중점을 두며, 이는 퍼지 논리와 같은 방식에 의해 근사화되며 ANN(인공신경망)이 뛰어납니다.
 
@@ -407,7 +828,18 @@ Deep TD(λ) 알고리즘은 상태 공간이 연속적이고 대상이 알려지
 
 언어적 능력은 대신 경험에 의해 강화된 의미 연결과 재생규칙으로 내장된 거대한 네트워크에 포함되어 있습니다. 다시 말해, 우리가 반영적으로 문장을 작성하고 말할 때 언어와 생각이 뇌의 본질적 오네톨로지와 문법 간 이쾌적 매핑이 아닌, 연결의 정도와 연결 강도에 의해 특징을 가진 신경 접속의 분산 네트워크에 내재되어 있다는것을 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 AI는 세계에서 자체적으로 추진되는 자율 시스템을 근사하지 않습니다. 또한 인간과 다른 동물들이 하는 방식으로 자체 환경적 환경을 생성하거나 자체 검색 공간을 재구성하지도 않습니다. 현재 이 제약이 없기 때문에 인간 디자이너는 AI의 정보적 중요성을 설정할 수 있습니다. 예를 들어 텍스트 생성, 환경 감지 등이 있습니다. 아키텍처가 진정한 문제 해결 기계로 진화하더라도 반성적 인식 능력이 없다면 일반적 지능을 보유하고 있다고 할 수 없습니다. 전통적으로 일반 지능의 정의에서는 인간 지능의 상징인 전체 인식의 변수를 생략합니다. 전통적인 지능 정의는 반사적이고 전체적 인식은 역공학 및 구성 요소의 분석에 대한 강한 저항을 가지고 있기 때문입니다. 그 이유로 반성적 인식은 지능의 구성 요소로서 배제됩니다. 그러나 현재의 과학적 설명에 대한 저항을 인정한다고 해도, 물리주의를 배제하거나 비자연론의 지지를 함축하지 않습니다. 오히려 이해력의 부재를 인정하는 신호일 뿐입니다. 이해력의 공방 속에, 반성적인 인식이 생명 유기체의 기본 속성인 감각의 확장임을 가설합니다. 이를 주장함으로써, 자연선택 이외의 방법을 통해 자율 시스템을 설계할 수 없다는 의미는 아니지만, 그들이 가까운 미래에도 과학적 분석에는 어려움을 줄 수 있다는 가능성은 여전히 열려 있습니다. 강화 학습이 일반적 지능으로 이어지길 바란다면, 에이전트는 세계의 복잡한 표현을 보유할 뿐만 아니라 그 표현의 내부에서 전반적인 관점을 유지할 수 있는 강력한 아키텍처를 사전으로 가져야 합니다. 이는 모델-세계 상호작용이 과제에 반드시 필수적이지만, 원조 아키텍처는 다중 모달 정보 처리와 통합 능력을 갖춘 복합적인 계층적 내부 구조를 요구할 것입니다.
 
@@ -417,7 +849,18 @@ Mnih, V., Kavukcuoglu, K., Silver, D., Rusu, A. A., Veness, J., Bellemare, M. G.
 
 Neftci, E. O., & Averbeck, B. B. (2019, March 4). 인공 및 생물학적 시스템에서 강화 학습. Nature News. https://www.nature.com/articles/s42256-019-0025-4
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Sharma, S. (2024, March 7). Learning to Mix 𝑛-Step Returns: Generalizing 𝜆-Returns for Deep Reinforcement Learning. Ar5iv. [Link](https://ar5iv.labs.arxiv.org/html/1705.07445)
 
@@ -427,7 +870,18 @@ Silver, D., Singh, S., Precup, D., & Sutton, R. S. (2021). Reward is enough. Art
 
 Spens, E., & Burgess, N. (2024, January 19). A generative model of memory construction and consolidation. Nature News. [Link](https://www.nature.com/articles/s41562-023-01799-z)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Sutton, Richard S. Introduction to Reinforcement Learning. MIT Press.
 

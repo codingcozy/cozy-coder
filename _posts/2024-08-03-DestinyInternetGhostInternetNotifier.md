@@ -3,7 +3,7 @@ title: "데스티니 인터넷 고스트 - 인터넷 알림 기능 소개"
 description: ""
 coverImage: "/assets/img/2024-08-03-DestinyInternetGhostInternetNotifier_0.png"
 date: 2024-08-03 20:10
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-03-DestinyInternetGhostInternetNotifier_0.png
 tag: Tech
 originalTitle: "Destiny Internet Ghost  Internet Notifier"
@@ -11,25 +11,32 @@ link: "https://medium.com/@diyfactory/destiny-internet-ghost-internet-notifier-4
 isUpdated: true
 ---
 
-
-
-
-
 # Destiny Internet Ghost — 인터넷 알림 프로그램
 
 안녕하세요!
 
-인터넷은 우리 삶을 살아가는 방식을 변화시켰어요. 소통, 교육, 은행, 오락 및 쇼핑 등 다양한 분야에서, 인터넷은 우리 세계에 엄청난 영향을 미쳤어요. 
-예전처럼 펜이 이 세상에서 가장 중요한 도구였던 시기는 지나고, 지금은 인터넷이 세상을 지배하고 있어요. 
+인터넷은 우리 삶을 살아가는 방식을 변화시켰어요. 소통, 교육, 은행, 오락 및 쇼핑 등 다양한 분야에서, 인터넷은 우리 세계에 엄청난 영향을 미쳤어요.
+예전처럼 펜이 이 세상에서 가장 중요한 도구였던 시기는 지나고, 지금은 인터넷이 세상을 지배하고 있어요.
 인터넷 없이 우리 세상을 상상하는 것은 정말 어려운 일이에요.
 
 2021년에는 NodeMCU를 사용하여 내 집 라우터를 재부팅하는 "인터넷 하드웨어 감시자"를 만들었어요. 이 장치는 내 라우터 옆에 있어서, 인터넷에 문제가 발생할 때마다 즐겁게 라우터를 관리해 줘요.
-올해는 "인터넷 상태 알림 프로그램"을 추가하여 현재 인터넷 상태를 RGB LED를 사용하여 표시하고 싶었어요. 
+올해는 "인터넷 상태 알림 프로그램"을 추가하여 현재 인터넷 상태를 RGB LED를 사용하여 표시하고 싶었어요.
 인터넷이 작동 중일 때는 파란 빛을 표시하고, 인터넷이 끊겼을 때에는 빨간 빛으로 변해요. 동영상: [https://youtu.be/mWDEx0khpWM](https://youtu.be/mWDEx0khpWM)
 
 참고하실 점: 120V 또는 240V AC 전원 배선과 같은 "교류 전원"을 다룰 때는 항상 적절한 장비와 안전 장비를 사용하고, 충분한 기술과 경험이 있는지 확인하거나 굴트역전기사와 상의해주세요. 이 프로젝트는 어린이가 사용하기 위한 것이 아닙니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 수상 내역
 
@@ -39,12 +46,23 @@ isUpdated: true
 
 # 필요한 구성품
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Destiny Internet Ghost Internet Notifier 1](/assets/img/2024-08-03-DestinyInternetGhostInternetNotifier_1.png)
 
 For this project, we will need:
+
 - 1 x RGB LED
 - 1 x 200 Ohm Resistor
 - 1 x WeMos-D1 Mini/NodeMCU
@@ -57,8 +75,18 @@ For this project, we will need:
 
 ![Destiny Internet Ghost Internet Notifier 2](/assets/img/2024-08-03-DestinyInternetGhostInternetNotifier_2.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 회로는 매우 간단합니다.
 D1-mini의 5V 핀과 GND 핀을 스텝다운 컨버터에 연결하세요.
@@ -74,7 +102,18 @@ D1-mini의 5V 핀과 GND 핀을 스텝다운 컨버터에 연결하세요.
 성공적인 핑을 받으면, 파란색 LED가 켜지고 점점 점멸합니다.
 핑이 끊기면 파란색 LED가 꺼지고, 빨간색 LED가 켜져 핑이 다시 성공적으로 받아질 때까지 점점 점멸합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보드를 몇 일 동안 브레드보드에서 실행한 후, D1-mini 보드가 가끔 멈추고 완전히 응답하지 않는 문제를 발견했어요. 이 상황을 피하기 위해, 매 시간 보드를 "재부팅"하는 로직을 추가했어요.
 
@@ -85,7 +124,18 @@ D1-mini의 5V 핀과 GND 핀을 스텝다운 컨버터에 연결하세요.
 인터넷을 둘러보는 중에 "Destiny Ghosts"를 우연히 발견했어요.
 Ghost는 게임 "Destiny"에서의 AI 동반자에요. 그것은 "여행자"가 우주를 지키도록 가디언들을 돕기 위해 죽는 날 동안 만든 지능체에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나는 Ghosts의 개념과 디자인에 바로 반해 버렸어. Ghost의 3D 모델을 만드느라 며칠을 보냈어. STL 파일은 www.cults3D.com에서 다운로드할 수 있어.
 
@@ -95,7 +145,18 @@ Ghost는 게임 "Destiny"에서의 AI 동반자에요. 그것은 "여행자"가 
 
 Ghosts는 인간 손보다 약간 큰 부유하는 기계 엔티티야. 하나의 빛나는 "눈"이 있는 구 형태의 코어와 "껍데기"로 이루어져 있어. 기본 Ghost 껍데기는 주황색 하이라이트가 있는 8개의 대략적으로 사체형의 하얀 세그먼트로 이루어져 있지만, Ghost들이 코스메틱 목적으로 채택할 수 있는 다양한 모양의 껍데기가 많이 있어.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 게임에서는 유령이 항해에 사용되며, 컴퓨터 시스템에 액세스하거나 어두운 지역을 비추는 데 사용되며, 스패로를 소환하거나 훨씬 더 많은 일을 할 수 있습니다.
 
@@ -105,7 +166,18 @@ Ghosts는 인간 손보다 약간 큰 부유하는 기계 엔티티야. 하나�
 
 ![이미지](/assets/img/2024-08-03-DestinyInternetGhostInternetNotifier_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 색칠
 
@@ -117,7 +189,18 @@ Ghosts는 인간 손보다 약간 큰 부유하는 기계 엔티티야. 하나�
 그 다음으로 전면 눈과 뒷면 뚜껑을 유령의 몸체에 슈퍼 접착제로 붙였습니다.
 그 후에는 유령의 뒷부분에 스탠드를 슈퍼 접착제로 붙였습니다. 이 스탠드는 책상에 놓을 때 장치를 수직으로 유지합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 전자기기 추가하기
 
@@ -127,7 +210,18 @@ Ghosts는 인간 손보다 약간 큰 부유하는 기계 엔티티야. 하나�
 
 다음으로, 2M 긴 전원 코드를 납땜한 뒤, 퍼프 보드를 유닛의 뒷부분에 핫 접착제로 붙였어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 코드
 
@@ -137,7 +231,18 @@ Ghosts는 인간 손보다 약간 큰 부유하는 기계 엔티티야. 하나�
 
 setup() 섹션에서는 먼저 모든 핀 모드를 정의한 후 WiFi 연결을 설정합니다. D1-mini 보드에 정적 IP 주소를 할당했습니다. DHCP를 사용하려면 코드에서 이 세 줄을 삭제하십시오.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 루프() 섹션에서는 8.8.8.8 또는 Google.com을 핑하고 성공한 경우 파란 LED를 서서히 켜고 끕니다. 핑이 실패하면 빨간 LED가 서서히 켜졌다가 꺼집니다.
 
@@ -147,12 +252,22 @@ BrightnessController() 및 pingTest() 함수 모두 코드 하단에 정의되�
 
 # 브레드보드 데모
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-08-03-DestinyInternetGhostInternetNotifier_9.png)
 
-3D 프린팅 부품에 전자 부품을 추가하기 전에 브레드보드에서 빠른 테스트를 수행하여 모든 것이 예상대로 작동하는지 확인했습니다. 전원을 켜면 녹색 LED가 깜박입니다. 라우터와 연결이 설정되면 장치가 8.8.8.8을 핑하기 시작합니다. 
+3D 프린팅 부품에 전자 부품을 추가하기 전에 브레드보드에서 빠른 테스트를 수행하여 모든 것이 예상대로 작동하는지 확인했습니다. 전원을 켜면 녹색 LED가 깜박입니다. 라우터와 연결이 설정되면 장치가 8.8.8.8을 핑하기 시작합니다.
 
 처음에는 핑 몇 개가 실패하고 빨간색 LED가 켜집니다. 성공적인 핑을 받으면 파란색 LED가 점점 사라지고 나타납니다. 완료!
 
@@ -160,12 +275,22 @@ BrightnessController() 및 pingTest() 함수 모두 코드 하단에 정의되�
 
 ![이미지](/assets/img/2024-08-03-DestinyInternetGhostInternetNotifier_10.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서, 제 최종 설정은 이렇게 생겼어요.
 
-장치를 켜면 녹색 LED가 라우터와 연결할 때까지 깜박입니다. 그 후에 블루 LED가 서서히 사라지면서 www.Google.com에서 성공적인 핑을 수신했음을 알려줍니다. 
+장치를 켜면 녹색 LED가 라우터와 연결할 때까지 깜박입니다. 그 후에 블루 LED가 서서히 사라지면서 www.Google.com에서 성공적인 핑을 수신했음을 알려줍니다.
 이 장치는 "인터넷 상태 알림기"로서 집 안 어디에나 설치하고 사용할 수 있어요.
 
 # 감사합니다
@@ -173,7 +298,18 @@ BrightnessController() 및 pingTest() 함수 모두 코드 하단에 정의되�
 제 글을 확인해 주셔서 다시 한 번 감사합니다. 도움이 되었으면 좋겣습니다.
 제 YouTube 채널을 구독하고 싶다면 여기로 가세요: https://www.youtube.com/user/tarantula3
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비디오: 보기
 전체 블로그 글: 보기
@@ -185,7 +321,18 @@ GitHub: 보기
 Stl 파일: 다운로드
 NodeMCU를 사용한 인터넷 하드웨어 감시 도구: 보기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 나의 작품 지원하기
 

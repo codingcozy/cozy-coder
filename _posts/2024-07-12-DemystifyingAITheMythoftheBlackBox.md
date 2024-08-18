@@ -3,7 +3,7 @@ title: "인공지능 해부 블랙 박스 신화의 진실"
 description: ""
 coverImage: "/assets/img/2024-07-12-DemystifyingAITheMythoftheBlackBox_0.png"
 date: 2024-07-12 23:57
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-DemystifyingAITheMythoftheBlackBox_0.png
 tag: Tech
 originalTitle: "Demystifying AI: The Myth of the Black Box"
@@ -11,12 +11,7 @@ link: "https://medium.com/@tristwolff/demystifying-ai-the-myth-of-the-black-box-
 isUpdated: true
 ---
 
-
-
-
-
 이미지를 Markdown 형식으로 바꿔볼까요?
-
 
 ![2024-07-12-DemystifyingAITheMythoftheBlackBox_0](/assets/img/2024-07-12-DemystifyingAITheMythoftheBlackBox_0.png)
 
@@ -26,8 +21,18 @@ AI에서 “블랙 박스”라는 용어는 신경망의 불투명한 성격을
 
 ![2024-07-12-DemystifyingAITheMythoftheBlackBox_1](/assets/img/2024-07-12-DemystifyingAITheMythoftheBlackBox_1.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 투명도는 항상 그랬던 것은 아닙니다. AI의 초기에는 연구자들이 그들의 의사결정 과정을 쉽게 추적할 수 있을 만큼 시스템이 단순했습니다. 그러나 사랑하는 독자들도 알다시피, 신경망은 수천 개부터 수백만 개, 그리고 수십억 개의 매개변수(매개변수란 신경망 내부의 데이터 처리의 가장 작은 단위인 "노드", "뉴런", 또는 "가중치"를 부르는 용어 중 하나입니다. 인간 두뇌에서 영감을 받은 것으로 유명합니다.)로 커져서 복잡성은 급격히 증가했고, 이에 신경망이 작동하는 방식을 해석하는 것이 더욱 어려워졌습니다.
 
@@ -37,7 +42,18 @@ AI에서 “블랙 박스”라는 용어는 신경망의 불투명한 성격을
 
 ## AI 해석을 위한 도구와 기법
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본적으로, 우리는 인조 뇌를 위한 MRI 기계를 개발한 것과 같은 것입니다. 뇌 이미징 기술을 연상시키는 시각화 방법을 통해 연구자들은 신경망의 다양한 부분이 다양한 입력에 대해 어떻게 반응하는지를 "보는" 것이 가능해졌습니다.
 
@@ -47,7 +63,18 @@ AI에서 “블랙 박스”라는 용어는 신경망의 불투명한 성격을
 
 인터프리터빌리티의 잠재적 이점은 윤리를 넘어 확장됩니다. 모델이 정보를 표현하고 처리하는 방식을 이해함으로써, 연구자들은 편향과 안전 위험을 식별하고 완화할 수 있습니다. 예를 들어, Anthropic과 OpenAI의 연구원들은 잠재적으로 문제가 될 수 있는 행동이나 개념에 해당하는 특징을 발견하여 더 목표적인 안전 조치의 문을 열었습니다. 그리고 더 발전한 AI를 사용하여 보다 간단한 AI 시스템을 해석하는 흥미로운 가능성도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 OpenAI 연구원인 Leo Gao가 언급한 대로, 발견된 기능 중 많은 부분은 여전히 해석하기 어려운 것들이며, 몇 가지는 명확하게 부호화된 개념과 관련이 없는 패턴으로 활성화됩니다. 게다가 현재 기술들은 원래 모델의 모든 행동을 포착하지 못합니다. 해석된 버전과 원본 간의 성능 차이가 여전히 존재합니다.
 

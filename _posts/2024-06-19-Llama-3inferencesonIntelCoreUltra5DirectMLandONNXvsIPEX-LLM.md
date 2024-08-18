@@ -3,17 +3,13 @@ title: "Llama-3 추론을 Intel Core Ultra 5에서 실행하기 DirectML 및 ONN
 description: ""
 coverImage: "/assets/img/2024-06-19-Llama-3inferencesonIntelCoreUltra5DirectMLandONNXvsIPEX-LLM_0.png"
 date: 2024-06-19 01:21
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-Llama-3inferencesonIntelCoreUltra5DirectMLandONNXvsIPEX-LLM_0.png
 tag: Tech
 originalTitle: "Llama-3 inferences on Intel® Core™ Ultra 5: DirectML and ONNX vs. IPEX-LLM"
 link: "https://medium.com/@GenerationAI/llama-3-inferences-on-intel-core-ultra-5-directml-and-onnx-vs-ipex-llm-418e7220817d"
 isUpdated: true
 ---
-
-
-
-
 
 이전 글에서 언급했듯이 Intel은 ONNX + DirectML을 위한 하드웨어 가속화를 제공합니다. 이에 대해 몇 가지 실험을 진행했습니다.
 
@@ -31,7 +27,18 @@ python app.py --precision float16 --model_repo "meta-llama/Meta-Llama-3-8B-Instr
 
 <img src="/assets/img/2024-06-19-Llama-3inferencesonIntelCoreUltra5DirectMLandONNXvsIPEX-LLM_0.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-Llama-3inferencesonIntelCoreUltra5DirectMLandONNXvsIPEX-LLM_1.png" />
 
@@ -158,7 +165,18 @@ if __name__ == '__main__':
         print(output_str)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 python ipex-llm-llama3.py --repo-id-or-model-path=meta-llama/Meta-Llama-3-8B-Instruct --bit=fp16
@@ -170,8 +188,18 @@ python ipex-llm-llama3.py --repo-id-or-model-path=meta-llama/Meta-Llama-3-8B-Ins
 
 DirectML은 낮은 비트 양자화를 지원하는 ONNX Runtime의 Execution Provider가 될 수도 있습니다. 우리의 테스트는 이 python API를 기반으로 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 pip install onnxruntime-genai --pre
@@ -188,7 +216,18 @@ conda install conda-forge::vs2015_runtime
 python -m onnxruntime_genai.models.builder -m meta-llama/Meta-Llama-3-8B-Instruct -o llama-3-8B-Instruct-int4-onnx-directml -p int4 -e dml -c ..\.cache\huggingface\hub\
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 변환된 모델이 🤗 허브에 업로드되었습니다.
 
@@ -215,7 +254,7 @@ if __name__ == '__main__':
 
     model = og.Model(args.model_path)
     tokenizer = og.Tokenizer(model)
-    
+
     # Set the max length to something sensible by default,
     # since otherwise it will be set to the entire context length
     search_options = {}
@@ -249,9 +288,18 @@ if __name__ == '__main__':
 
 <img src="/assets/img/2024-06-19-Llama-3inferencesonIntelCoreUltra5DirectMLandONNXvsIPEX-LLM_4.png" />
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-Llama-3inferencesonIntelCoreUltra5DirectMLandONNXvsIPEX-LLM_5.png)
 
@@ -263,9 +311,18 @@ python ipex-llm-llama3.py --repo-id-or-model-path=meta-llama/Meta-Llama-3-8B-Ins
 
 ![이미지](/assets/img/2024-06-19-Llama-3inferencesonIntelCoreUltra5DirectMLandONNXvsIPEX-LLM_6.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지1](/assets/img/2024-06-19-Llama-3inferencesonIntelCoreUltra5DirectMLandONNXvsIPEX-LLM_7.png)
 

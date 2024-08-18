@@ -3,17 +3,13 @@ title: "3D 프린팅의 현황 복잡성과 도전 과제 탐구하기"
 description: ""
 coverImage: "/assets/img/2024-06-30-TheStateof3DPrintingNavigatingtheComplexityandChallenges_0.png"
 date: 2024-06-30 23:34
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-30-TheStateof3DPrintingNavigatingtheComplexityandChallenges_0.png
 tag: Tech
 originalTitle: "The State of 3D Printing: Navigating the Complexity and Challenges"
 link: "https://medium.com/@jacobgoldman_3d/the-state-of-3d-printing-navigating-the-complexity-and-challenges-bdd7541ec0be"
 isUpdated: true
 ---
-
-
-
-
 
 지난 10년 동안 3D 프린팅 기술은 많이 발전해 왔습니다. 하지만 저처럼 산업에 오래 종사한 분들은 여전히 극복해야 할 중요한 과제들이 있다는 것을 아실 것입니다. 특히 제가 창업한 3D 프린팅 스타트업은 특정 응용 프로그램 요구 사항을 위한 센서 및 소프트웨어를 만드는 데 초점을 맞추고 있어, 현재 3D 프린팅 분야의 역동성과 복잡성을 직접 경험해왔습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 현재 3D 프린팅 기술을 되새겨보면서, 초창기 어셈블리 코드로 프로그래밍하는 것과 유사한 점을 느낍니다. 어셈블리 코드는 컴퓨터 아키텍처에 대한 상세한 지식이 요구되는 저수준 프로그래밍 언어입니다. 어셈블리 코드를 사용하여 프로그램을 작성하는 것은 세심한 작업이며, 모든 명령이 명시적으로 기술되어야 하기 때문에 실수할 여지가 거의 없습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 3D 프린터를 설정하고 유지하는 것도 복잡하고 요구가 높은 작업일 수 있습니다. 각 기계마다 독특한 특징과 조정이 필요한 설정이 있어서 최적의 결과를 얻으려면 세밀한 조정이 필요합니다. 표준화된 프로토콜의 부재로 인해 사용자들은 종종 기계의 펌웨어와 구성 설정에 심취해야 합니다, 마치 어셈블리 코드를 다루는 프로그래머처럼요.
 
@@ -76,7 +83,18 @@ G28 ; 모든 축 원점 복귀
 M84 ; 모터 비활성화
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 프린터 설정: 초기 2D 프린터의 메아리
 
@@ -86,7 +104,18 @@ M84 ; 모터 비활성화
 
 # 🤔 왜요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 코드의 높은 비용과 자동화에 미치는 영향
 
@@ -96,7 +125,18 @@ M84 ; 모터 비활성화
 
 # 앞으로 전망: 특화된 솔루션이 필요한 이유
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앞으로 나아가면서, 3D 프린팅 산업은 보다 특화된 응용 프로그램별 솔루션을 개발하는 것이 중요합니다. 2D 프린팅에서 표준 드라이버가 혁명을 일으킨 것처럼, 3D 프린팅 영역에서도 기술을 더 접근 가능하고 신뢰할 수 있게 만들기 위해 유사한 발전이 필요합니다.
 
@@ -106,7 +146,18 @@ M84 ; 모터 비활성화
 
 마지막으로 언급하고 싶은 것은 중국이 3D 프린팅 기술에서 미국 기업들을 완전히 압도하고 있다는 점에 대한 저의 답답함입니다. Bambu Labs와 같은 기업들이 소개하는 혁신들은 솔직히 미국 기업들이 여러 년 전에 개발하고 상용화했어야 했던 것들입니다. 만약 우리가 중국과 전쟁을 벌인다면, 빠르고 저렴하게 더 많은 제품을 만들어야 승리할 수 있습니다. 현재 그들은 그 측면에서 우리보다 더 뛰어나죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 미국에서 자동화 및 신뢰할 수 있는 기술에 투자가 부족하고 고비용 때문에 우리가 얼마나 뒤쳐져 있는지 보는 것은 마음이 아프다. 3D 프린팅 산업에서 우리의 선두지위를 되찾으려면 혁신, 비용 효율적인 개발, 전문가와 산업 사용자들의 특별한 요구를 해결하는 데 초점을 맞춰야 한다.
 

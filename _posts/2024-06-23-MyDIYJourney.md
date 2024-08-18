@@ -3,18 +3,13 @@ title: "내 DIY 여정 전자기기부터 가구까지 따라 하기 쉬운 10�
 description: ""
 coverImage: "/assets/img/2024-06-23-MyDIYJourney_0.png"
 date: 2024-06-23 18:00
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-MyDIYJourney_0.png
 tag: Tech
 originalTitle: "My DIY Journey"
 link: "https://medium.com/the-diy-diaries/my-diy-journey-3e07b58470a5"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![My DIY Journey](/assets/img/2024-06-23-MyDIYJourney_0.png)
 
@@ -24,8 +19,18 @@ DIY Diaries라는 출판물을 위해 쓰기 시작한 이후, 여러 해 동안
 
 그 후에 자수를 배워 Hope Chest를 위해 베개커버, 손님용 수건, 테이블보 등을 만들기 시작했어요. 그때 집안 사람들을 위해 스카프를 짜기도 배웠고, 고등학교에서 배운 패턴과 재단 기술을 이용해 옷을 만들기 시작했어요. 심지어 프롬 드레스도 만들었죠!
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나는 대학에 소잉 기계를 가져가서 인도에서 구한 멋진 침대 스프레드로 "히피" 옷장을 만들었는데 동시에 기숙사 방 장식물도 만들었어. (작은 사이드 노트로, 그 옷들을 입고 지미 헨드릭스와 자니스 조플린을 보러 간 적이 있었는데, 평생의 즐거운 경험이었어!)
 
@@ -35,7 +40,18 @@ DIY Diaries라는 출판물을 위해 쓰기 시작한 이후, 여러 해 동안
 
 ![2024-06-23-MyDIYJourney_1](/assets/img/2024-06-23-MyDIYJourney_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대학교 때 스카프와 매칭 되는 모자를 짜던 기억이 나요. 스카프는 지금도 코트 랙에 걸려 있어서 색감도 아직 생생하네요. 정말 멋진 양모였는데, 1968년에 만들었답니다!
 
@@ -45,7 +61,18 @@ DIY Diaries라는 출판물을 위해 쓰기 시작한 이후, 여러 해 동안
 
 다음으로 개인적으로 흥미를 느낀 것은 사진촬영이었어요. SLR 카메라 사용법을 스스로 익혀보았죠. 제 카메라는 Pentax K1000였는데 그 카메라를 정말 좋아했어요. 어디를 가든 사진을 찍어 기록했고, 사진을 확대해 프레임에 포장하여 방에서 쓰는 곳에 걸어둔 게 몇 장 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 부모님께서 정년퇴직 후 롱 비치 아일랜드로 이주하시면서 선물로 받으신 사진들이었어요. 그런데 부모님께서 별세하신 후에 집을 비워야 했을 때, 아들이 그 사진을 가져다가 집으로 가져왔답니다. 지금은 조금 바래지긴 했지만, 아들은 소중히 간직하고 있답니다. 저도 그 사진들을 소중히 생각해요.
 
@@ -55,7 +82,18 @@ DIY Diaries라는 출판물을 위해 쓰기 시작한 이후, 여러 해 동안
 
 아무도 몰랐던 한 가지는, 남편이 정원 가운데 마리화나를 심어 큰 식물이 자라났다는 것이었어요. 토마토 식물들에 가려져 잘 감춰져 있었죠. (물론, 건조시켜 미래를 위해 저장해 두었죠.)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 몇 년 후에 톨 페인팅 수업을 듣게 되었고, 그것을 매우 즐겼습니다. 스크롤 톱을 구매해서 스스로 나무 조각물을 잘라 눈사람과 같은 작품을 만들고, 그것들을 공예 전시회에서 판매하기도 했습니다. 이러한 그림 그리기 방법을 좋아하는 이유는 아름다운 작품을 만들기 위해 그림을 그릴 필요가 없다는 점이에요. 모두 브러시 기술로 이루어지기 때문이죠.
 
@@ -63,7 +101,18 @@ DIY Diaries라는 출판물을 위해 쓰기 시작한 이후, 여러 해 동안
 
 이것이 저의 DIY 여정을 통해 해 온 대부분의 활동이에요. 요즘은 크게 활동하지 않았지만요. 아마 발행 버튼을 누른 뒤 떠올린 것을 추가해야할지도 모르겠네요. 하지만 저의 삶 속에서 즐겨온 대부분의 작품들에 대해서 말씀드린 거예요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 (고등학교 때 목공예 수업을 듣게 된다면 좋았을 텐데요. 나무로 작업하는 것을 즐기기 때문에 가구를 만들고 싶었을 거예요.)
 

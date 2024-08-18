@@ -3,17 +3,13 @@ title: "Transformers에 대한 심층적인 탐구 "
 description: ""
 coverImage: "/assets/img/2024-06-20-DeepDiveintoTransformersbyHand_0.png"
 date: 2024-06-20 19:00
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-DeepDiveintoTransformersbyHand_0.png
 tag: Tech
 originalTitle: "Deep Dive into Transformers by Hand ✍︎"
 link: "https://medium.com/towards-data-science/deep-dive-into-transformers-by-hand-%EF%B8%8E-68b8be4bd813"
 isUpdated: true
 ---
-
-
-
-
 
 ## 트랜스포머의 힘에 대한 세부 정보 살펴보기
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이 트럭은 테슬라 사이버 트럭이고, 저는 아들에게 그 이름의 의미를 여러 번 설명해 주었지만 그는 여전히 로보 트럭이라고 부릅니다. 그래서 이제 로보 트럭을 보면 그 이름을 들으면 항상 로보트로 컨버트할 수 있는 로봇들이 나오는 영화 '트랜스포머'를 떠올립니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오늘 우리가 아는 대로, 트랜스포머가 이 로보트럭을 구동하는 데 사용될 수 있다니 이상하지 않나요? 이것은 거의 한 바퀴 도는 순간입니다. 그렇다면 이 모든 얘기를 하고 있는 나는 어디로 향하고 있을까요?
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ## 트랜스포머란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Transformer는 본질적으로 신경망입니다. 데이터에서 맥락을 학습하는 데 특화된 신경망입니다.
 
@@ -43,7 +61,18 @@ Transformer는 본질적으로 신경망입니다. 데이터에서 맥락을 학
 
 많은 메커니즘이 있지만, Transformer의 핵심인 어텐션 가중치와 피드포워드 네트워크(FFN)라는 두 가지 메커니즘이 진정으로 그들을 특별하게 만드는 힘입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 어텐션 가중치란 무엇인가요?
 
@@ -53,7 +82,18 @@ Transformer는 본질적으로 신경망입니다. 데이터에서 맥락을 학
 
 트랜스포머의 맥락에서, FFN은 주로 일관된 데이터 벡터 집단에 작용하는 일반적인 다층 퍼셉트론입니다. 어텐션과 결합되어 올바른 '위치-차원' 조합을 생성합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 어텐션과 FFN은 어떻게 작동할까요?
 
@@ -63,7 +103,18 @@ Transformer는 본질적으로 신경망입니다. 데이터에서 맥락을 학
 
 그럼 시작해봅시다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 중요한 아이디어는 주의 가중치와 피드포워드 네트워크(FFN)입니다.
 
@@ -73,17 +124,39 @@ Transformer는 본질적으로 신경망입니다. 데이터에서 맥락을 학
 
 ![이미지](/assets/img/2024-06-20-DeepDiveintoTransformersbyHand_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [1] 주의 집중 가중치 행렬 A 획득
 
-과정에서 첫 번째 단계는 주의 집중 가중치 행렬 A를 획득하는 것입니다. 이 부분은 자기 주의 메커니즘이 작용하는 곳입니다. 이 단계는 입력 시퀀스 중에서 가장 관련성 높은 부분을 찾는 데 사용됩니다. 
+과정에서 첫 번째 단계는 주의 집중 가중치 행렬 A를 획득하는 것입니다. 이 부분은 자기 주의 메커니즘이 작용하는 곳입니다. 이 단계는 입력 시퀀스 중에서 가장 관련성 높은 부분을 찾는 데 사용됩니다.
 
 입력 특성을 쿼리-키(QK) 모듈에 공급하여 수행합니다. 간편하게 말해, QK 모듈의 세부 사항은 여기에 포함되어 있지 않습니다.
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/1*DYNNNiaZac_ZNGFVUn4aag.gif)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [2] 주의 집중 가중치
 
@@ -93,7 +166,18 @@ Transformer는 본질적으로 신경망입니다. 데이터에서 맥락을 학
 
 여기서 중요한 점은 기능이 위치 P1, P2 및 P3에 따라 가로로 결합된다는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음과 같이 세분화된 계산을 행별로 수행해보세요:
 
@@ -103,7 +187,18 @@ P1 X A2 = Z2 → 위치 [1,2] = 6
 
 P1 X A3 = Z3 → 위치 [1,3] = 7
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 P1 X A4 = Z4 → Position [1,4] = 7
 
@@ -113,7 +208,18 @@ P1 X A5 = Z5 → Position [1,5] = 5
 
 .
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 변경된 내용은 다음과 같습니다:
 
@@ -123,7 +229,18 @@ P3 X A5 = Z5 → Position [3,5] = 1
 
 이것이 예시입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-20-DeepDiveintoTransformersbyHand_2.png)
 
@@ -133,7 +250,18 @@ P3 X A5 = Z5 → Position [3,5] = 1
 
 Z1 = X1 + X2
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Z2 = X2 + X3
 
@@ -143,7 +271,18 @@ Z4 = X4 + X5
 
 Z5 = X5 + X1
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 (힌트: 행렬 A에서 0과 1의 위치를 살펴보세요).
 
@@ -153,7 +292,18 @@ Z5 = X5 + X1
 
 그러나 이번에는 이전 단계에서의 위치가 아닌 차원을 가로지르는 값들을 결합하는 것이 차이점입니다. 아래처럼 수행됩니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래에 있는 링크를 사진으로 보여줄게요.
 
@@ -161,7 +311,18 @@ Z5 = X5 + X1
 
 - FFN 단계에서는 그들의 특성을 고려하여 새로운 행렬을 얻기 위해 특징을 세로로 결합해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 번 더 element-wise 행 연산이 도움이 됩니다. 여기서 새 행렬의 차원 수가 4로 증가했다는 점에 주목하세요.
 
@@ -171,7 +332,18 @@ Z5 = X5 + X1
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/1*FmroND2LsW91TrYXNh2UGQ.gif)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [5] FFN : 두 번째 레이어
 
@@ -181,7 +353,18 @@ Z5 = X5 + X1
 
 여기서의 출력은 다음 블록으로 공급할 준비가 되어 있습니다 (원본 매트릭스와 유사성을 확인하십시오) 및 전체 프로세스가 처음부터 반복됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 기억해야 할 두 가지 주요 사항은 다음과 같습니다:
 
@@ -192,7 +375,18 @@ Z5 = X5 + X1
 
 위의 아이디어를 요약하면 다음과 같은 주요 포인트가 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 트랜스포머 아키텍처는 어텐션 레이어와 피드-포워드 레이어의 조합으로 이해될 수 있습니다.
 - 어텐션 레이어는 특성을 결합하여 새로운 특성을 생성합니다. 예를 들어 두 로봇 Robo-Truck과 Optimus Prime을 결합하여 새로운 로봇인 Robtimus Prime을 얻는 것을 생각해보세요.
@@ -202,7 +396,18 @@ Z5 = X5 + X1
 
 신경망은 상당히 오랫동안 존재해왔습니다. 합성곱 신경망(CNN)과 순환 신경망(RNN)이 주류인 동안 2017년에 트랜스포머가 소개되면서 상황이 크게 바뀌었습니다. 그 이후로 인공지능 분야는 기하급수적으로 성장했고 매일 새로운 모델, 새로운 기준, 새로운 배움이 이어졌습니다. 그리고 언제가 미래에 더 큰 변화를 이끌어낼 수 있는 현상적인 아이디어로 발전할지에 대해 시간만이 알게 해줄 것입니다. 그러나 현재는 아이디어가 우리 삶을 어떻게 변화시킬 수 있는지를 생각해보는 것이 잘못된 말이 아닐 것입니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-DeepDiveintoTransformersbyHand_3.png" />
 

@@ -3,17 +3,13 @@ title: "Varclus 상세 설명"
 description: ""
 coverImage: "/assets/img/2024-07-09-VarclusDetailedExplanation_0.png"
 date: 2024-07-09 11:32
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-VarclusDetailedExplanation_0.png
 tag: Tech
 originalTitle: "Varclus Detailed Explanation"
 link: "https://medium.com/@venkatsaib/varclus-detailed-explanation-22d7d3c866e5"
 isUpdated: true
 ---
-
-
-
-
 
 안녕하세요 여러분,
 
@@ -22,12 +18,24 @@ isUpdated: true
 변수 클러스터링(Varclus)은 다변량 통계에서 사용되는 기술로, 변수들을 유사점에 기초하여 클러스터로 그룹화하는 것입니다. 이 기술은 주로 변수/특성 축소에 사용됩니다.
 
 Varclus를 계산하기 위한 기본 단계는 다음과 같아요. 각 단계를 예제와 함께 자세히 설명해 드릴 거에요.
+
 1. 상관 행렬 계산
 2. 초기 클러스터링
 3. 클러스터 수 결정
 4. Rsquare 계산
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Varclus를 더 잘 이해할 수 있도록 각 단계를 설명해 드리겠습니다. 따라 갈 수 있도록 6개 열과 6개 행으로 구성된 샘플 데이터 세트를 만들었습니다. 아래 링크를 통해 이 데이터에 액세스할 수 있습니다. 가능하다면, MS Excel을 사용하여 아래 스프레드시트를 여시기 바랍니다.
 
@@ -39,7 +47,18 @@ Varclus를 더 잘 이해할 수 있도록 각 단계를 설명해 드리겠습�
 단계 1: 상관 행렬 계산
 데이터 세트 내 변수 간 유사성을 평가하기 위해 상관 행렬을 계산할 수 있습니다. 이 행렬은 각 변수 쌍 사이의 상관 계수를 보여줍니다. 상관 계수가 1에 가까울수록 강한 양의 관골을 나타내며, -1에 가까울수록 강한 음의 관골을 나타냅니다. 이러한 계수를 계산하기 위해 Excel의 CORREL 함수를 사용할 수 있습니다. 예를 들어, Hours_of_Study(열 C)와 Student(열 B) 사이의 상관관계는 다음과 같은 공식을 사용하여 찾을 수 있습니다: =CORREL($B$2:$B$7,C2:C7)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Step 2: Initial Clustering
 
@@ -47,7 +66,18 @@ Clustering is a powerful machine-learning technique that groups similar data poi
 
 While Microsoft Excel doesn’t offer built-in functionality for Hierarchical Clustering, I’ve used the XLSTAT add-on to perform this analysis in the attached Excel sheet. The resulting dendrogram, which is a tree-like structure, visually represents the hierarchical relationships between the data points.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 A dendrogram plot is a visual representation of hierarchical clustering that shows the arrangement of clusters formed at each step of the algorithm. Here’s a brief interpretation of a dendrogram plot and what the height of the tree signifies:
 
@@ -59,12 +89,24 @@ A dendrogram plot is a visual representation of hierarchical clustering that sho
 **Step 3: Determine the number of clusters**
 XLSTAT provides an initial suggestion for the optimal number of clusters based on the structure of the dendrogram and the clusters themselves. Yet, we can also utilize the dendrogram to visually define our cluster boundaries. In this scenario, we will go along with XLSTAT's proposal for four clusters:
 Here are the four clusters
+
 - Cluster 1: GPA and Hours_of_Study
 - Cluster 2: SAT_score and ACT_score
 - Cluster 3: Extracurricular Activities
 - Cluster 4: Student
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 클러스터 내 변수 값들의 평균을 계산함으로써 각 클러스터 내의 값들을 요약하는 한 가지 방법이 있습니다. 이를 통해 각 클러스터에 대한 중심 경향 값을 얻을 수 있습니다. 아래는 클러스터 값들입니다.
 
@@ -75,20 +117,40 @@ Step 4: Rsquare 계산하기
 
 이러한 대표 변수를 식별하는 한 가지 방법은 R-제곱 값을 계산하는 것입니다. R-제곱은 한 변수로부터 다른 변수로의 설명되는 분산의 비율을 나타냅니다. 변수와 자기 자신 클러스터(중심) 사이의 R-제곱 값과 같은 변수와 가장 가까운 이웃 클러스터 사이의 R-제곱 값을 계산할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 If you want to identify the key variable that best represents its own cluster and stands out from the neighboring cluster, focus on the one with a high R-squared value internally and a low R-squared value externally. 🌟
 
 To calculate the R-squared value, you can use the following formula in your analysis:
 
-
 R-squared = 1 - (SSR/SST)
-
 
 ⭐ Step 4.1: Finding the Closest Cluster
 Before diving into the R-squared calculations, it's crucial to determine the closest cluster to each cluster in your dataset. The Euclidean distance method is a reliable approach to measure the similarity between different data points. 🔍
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Varclus의 맥락에서, 각 클러스터의 중심 (대표점) 사이의 유클리드 거리를 계산할 수 있습니다. 주어진 클러스터에 대해 가장 작은 유클리드 거리를 가진 클러스터가 해당 클러스터의 가장 가까운 이웃으로 간주됩니다.
 
@@ -99,7 +161,18 @@ Varclus의 맥락에서, 각 클러스터의 중심 (대표점) 사이의 유클
 
 ![이미지](/assets/img/2024-07-09-VarclusDetailedExplanation_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Step 4.3. 1-R 제곱 비율 계산하기
 
@@ -111,7 +184,18 @@ Step 4.3. 1-R 제곱 비율 계산하기
 
 ![이미지 설명](/assets/img/2024-07-09-VarclusDetailedExplanation_8.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1-R-Squared 비율을 분석함으로써, 클러스터 1 내에서 GPA가 다른 변수와의 상관 관계가 Hours_of_Study보다 더 강한 것을 볼 수 있습니다. 이는 GPA가 클러스터 1 내의 공통점을 더 잘 대표하며, 가장 가까운 이웃 클러스터의 변수들과의 관계가 상대적으로 약한 것을 시사합니다. 따라서 이 분석을 바탕으로 GPA를 클러스터 1의 대표 변수로 선택할 수 있으며, 이로써 변수의 수를 두 개에서 하나로 줄일 수 있습니다.
 

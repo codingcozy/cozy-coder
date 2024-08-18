@@ -3,17 +3,13 @@ title: "산불에 대해 자세히 알아보기"
 description: ""
 coverImage: "/assets/img/2024-06-20-DelvingintoWildfires_0.png"
 date: 2024-06-20 18:15
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-DelvingintoWildfires_0.png
 tag: Tech
 originalTitle: "Delving into Wildfires"
 link: "https://medium.com/ai-advances/delving-into-wildfires-327a05c397ac"
 isUpdated: true
 ---
-
-
-
-
 
 # 머신 러닝 및 데이터로부터의 통찰
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 지난 30년간의 역사적 산불 데이터로부터 얻은 일부 통찰을 시작으로, 2040년까지의 미래에 대해 ML 모델이 우리에게 말하는 내용에 대해 전환하겠습니다. 산불 이야기를 숫자와 차트 및 비디오 애니메이션 형식의 패턴을 사용하여 전달하고 앞으로 우리가 할 수 있는 일에 대해 언급할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 역사적 산불에서 배운 것들
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 자연적 원인은 2001년부터 2010년까지 미국 서부에서 발생한 모든 산불 중 36%를 차지하며, 태워진 면적의 68%를 차지했습니다. 그러나 그 다음 10년 동안(2011년부터 2020년)에는 자연적 원인이 산불의 23%와 면적의 57%만 차지했습니다. 인간적 원인은 현재 산불의 77%와 면적의 43%(각각 64%와 32%로부터 증가)를 책임지고 있습니다. 아래의 두 차트는 이를 설명하며, 중요한 추세를 강조하여 다시 한번 이 사실을 확인합니다: 인간 활동이 산불의 주요 원인으로 점점 더 강화되고 있다는 것을. 물론 이러한 사실은 우리에게 나아갈 방향을 제시합니다. 우리는 번개를 컨트롤할 수 없지만, 인간적 원인을 영향을 줄 수 있으며, 잠재적으로 미래 산불의 궤적을 수정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![DelvingintoWildfires_1](/assets/img/2024-06-20-DelvingintoWildfires_1.png)
 
@@ -43,9 +61,20 @@ isUpdated: true
 
 ![DelvingintoWildfires_3](/assets/img/2024-06-20-DelvingintoWildfires_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-인간 활동으로 인한 화재 중에서 가장 강도가 높으며 증가 추세에 있는 것은 전력 송전선 및 장비로 인한 화재입니다. 전력 송전선이 야생지대를 통과하기 때문에 대부분의 다른 인간 활동으로 인한 화재에 비해 접근이 어렵기 때문에 이러한 특징이 나타나는 것으로 생각됩니다. 그렇지만 전력 송전은 미디어에서 과대 보도되는 화재로써 2%의 화재 및 3%의 태우어진 면적을 차지하고 있습니다(이전에는 각각 1% 및 2%였음). 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+인간 활동으로 인한 화재 중에서 가장 강도가 높으며 증가 추세에 있는 것은 전력 송전선 및 장비로 인한 화재입니다. 전력 송전선이 야생지대를 통과하기 때문에 대부분의 다른 인간 활동으로 인한 화재에 비해 접근이 어렵기 때문에 이러한 특징이 나타나는 것으로 생각됩니다. 그렇지만 전력 송전은 미디어에서 과대 보도되는 화재로써 2%의 화재 및 3%의 태우어진 면적을 차지하고 있습니다(이전에는 각각 1% 및 2%였음).
 
 ![이미지](/assets/img/2024-06-20-DelvingintoWildfires_4.png)
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-20-DelvingintoWildfires_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 서부 주들을 가로지르는 역사적인 산불에는 공간 패턴이 있을까요? 산불은 항상 매우 낮은 확률의 사건입니다. 환경이 좋아져도 — 예를 들어 따뜻하고 건조한 기간에 땅 위에 연소 가능한 연료가 많아져도 — 산불이 발생하지 않을 수 있습니다. 따라서 역사적인 기록은 산불 위험을 반영하지 않으며 공간적으로는 비교적 희소합니다. 그러나 1992년부터 2020년까지 약 30년 동안의 데이터를 살펴보면 그 안에 주목할 만한 패턴이 있습니다.
 
@@ -61,8 +101,18 @@ FireVision Historical Maps의 아래 화재 크기 분포를 보면 대규모 �
 
 다음 화재 원인 분포는 어느 정도로 화재 크기를 따릅니다. 해변과 인구 집중 지역에서 떨어진 곳 및 보다 높은 고도에서 발생한 대규모 산불들이 자연적인 원인으로 발화될 가능성이 높습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-06-20-DelvingintoWildfires_8.png](/assets/img/2024-06-20-DelvingintoWildfires_8.png)
 
@@ -74,9 +124,18 @@ FireVision Historical Maps의 아래 화재 크기 분포를 보면 대규모 �
 
 ![2024-06-20-DelvingintoWildfires_9.png](/assets/img/2024-06-20-DelvingintoWildfires_9.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Delving into Wildfires 10](/assets/img/2024-06-20-DelvingintoWildfires_10.png)
 
@@ -86,8 +145,18 @@ FireVision Historical Maps의 아래 화재 크기 분포를 보면 대규모 �
 
 과거 산불 데이터를 살펴보고 직관을 개발하는 것은 유용하지만, 특정 장소에서 미래에 일어날 일을 예측하는 데 충분하지는 않습니다. 여기서 머신 러닝이 모델링 기술로 등장합니다. ML은 복잡한 상호작용에서 발생하는 패턴들이 있는 산불 특성과 같은 것들을 예측할 때 특히 유용할 수 있습니다. 이러한 패턴은 다양한 위치별 변수들의 복잡한 상호작용에서 발생합니다:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 지표면 연료
 - 수연 구조
@@ -101,7 +170,18 @@ FireVision Historical Maps의 아래 화재 크기 분포를 보면 대규모 �
 
 ## 산불 위험 지수
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 스크린샷은 2021년부터 2023년까지의 평균 산불 날씨 조건을 사용하여 7월에 서부 주에서 새로운 번개로 인한 산불 위험 지수(LFRI)를 20km 그리드로 보여줍니다. 이 지수는 특정 시기에 특정 위치의 산불 취약성(잠재적 산불 규모에 의한 측정, 다음 섹션 참조)과 번개 발생 밀도를 결합합니다. 더 높은 LFRI는 자연적인 원인에서 더 큰 산불이 발생할 확률이 높음을 나타냅니다.
 
@@ -109,7 +189,18 @@ FireVision Historical Maps의 아래 화재 크기 분포를 보면 대규모 �
 
 이것이 화재 시즌의 정점에서 위험 분포인 경우, 이 위험 지수는 연중 어떻게 변하는가요? 아래 비디오 클립에서는 산불 날씨 데이터의 2021년부터 2023년 평균 및 2010년부터 2023년까지의 평균 번개 기후를 사용하여 5월부터 11월까지 이를 보여줍니다. 일반적으로 화재 시즌 시작 직전인 5월에는 서부 주의 동부 및 남동부 지역에서 위험이 이미 상당히 높습니다. 11월에는 정점을 훌쩍 넘은 후로 위험이 극히 낮아 보입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ML 모델의 매력은 우리가 관심을 두는 공간의 각 위치에서 화재 위험을 평가할 뿐만 아니라 미래를 예측할 수 있다는 점입니다. 기후가 변화하고 여름이 더 더워지고 건조해짐에 따라 화재 위험이 증가할 것으로 예상됩니다. 이미 지난 10년 동안 이에 대한 미리보기를 볼 수 있었습니다.
 
@@ -119,7 +210,18 @@ ML 모델의 매력은 우리가 관심을 두는 공간의 각 위치에서 화
 
 LFRI와 같은 화재 위험 지수는 대형 화재에 대해 보험 청약서를 작성하거나 위험 담보를 제거하는 등의 다양한 분야에서 활용할 수 있습니다. 또한 숲 얇게 하는 등의 우선 순위가 매겨진 완화 노력을 위한 위치 식별 및 자연 기반 탄소 크레딧의 영구성을 평가하는 데 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 두 개의 비디오 클립은 서부 미국 지역의 5월과 7월 간의 위험 지수 값이 현재부터 2040년까지 어떻게 변화하는지를 보여줍니다.
 
@@ -129,7 +231,18 @@ LFRI와 같은 화재 위험 지수는 대형 화재에 대해 보험 청약서�
 
 우리는 특정 위치에서 발화 사건이 발생했을 때 발생할 화재의 잠재적 크기에 따라 해당 위치의 산불 취약성을 양적으로 정량화합니다. 이것은 발화 사건이 발생했을 때 조건부 확률에 기반합니다. 취약성은 지표면의 연료 조건, 지형의 특성 및 최근 또는 예상되는 화재 기상의 영향을 받는 함수입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 The susceptibility measure can be a powerful call to action. It is especially valuable information when it comes to human-caused fires, which as we’ve seen are becoming more dominant and largely in our control. If the fire susceptibility within a region is high, then it will require additional measures to proactively prevent ignition events such as faulty power lines, open burning or campfires in that region. Susceptibility numbers can also be used to drive targeted mitigation measures such as removal of forest debris and mechanical thinning of brush/forests.
 
@@ -139,7 +252,18 @@ Similar to the LFRI chart above, the chart below shows a systematic monthly view
 
 The two video clips below (generated using the FireVision Susceptibility Maps) animate the evolution of fire susceptibility between now and 2040 for the months of May and July.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 화재 발생 원인
 
@@ -149,7 +273,18 @@ The two video clips below (generated using the FireVision Susceptibility Maps) a
 
 이 차트에서 명확하지 않은 것은 있지만, 이전에 언급한 바와 같이, 인간 활동이 해안 부근 및 인구 집중 지역 근처의 특정 지리적 영역에서 우세할 것이고, 자연적인 원인은 더 범람 지역 및 고도가 더 높은 지역에서 우세할 것이란 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 핵심 포인트
 

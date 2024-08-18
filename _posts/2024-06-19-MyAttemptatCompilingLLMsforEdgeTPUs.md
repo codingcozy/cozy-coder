@@ -3,18 +3,13 @@ title: "엣지 TPU용 LLM 컴파일링 시도기"
 description: ""
 coverImage: "/assets/img/2024-06-19-MyAttemptatCompilingLLMsforEdgeTPUs_0.png"
 date: 2024-06-19 18:09
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-MyAttemptatCompilingLLMsforEdgeTPUs_0.png
 tag: Tech
 originalTitle: "My Attempt at Compiling LLMs for Edge TPUs"
 link: "https://medium.com/@johndilan/my-attempt-at-compiling-llms-for-edge-tpus-897a62b4ce11"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![2024-06-19-MyAttemptatCompilingLLMsforEdgeTPUs_0](/assets/img/2024-06-19-MyAttemptatCompilingLLMsforEdgeTPUs_0.png)
 
@@ -24,8 +19,18 @@ AI의 세계가 계속 발전함에 따라, Raspberry Pi 5 및 Coral AI Edge TPU
 
 최근, 나는 라즈베리 파이 5와 Coral AI Edge TPU를 이용하여 엣지에서 LLMs의 기능을 가져오는 임무를 시작했습니다. 익숙하지 않은 사람들을 위해, Edge TPU는 엣지에서 머신러닝 추론을 가속화하기 위해 설계되었으며, 탁월한 성능을 제공하면서 최소한의 전력을 소비합니다. 그러나 내 여정은 빠르게 번거로운 고난으로 변했습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 내가 직면한 어려움들
 
@@ -35,7 +40,18 @@ AI의 세계가 계속 발전함에 따라, Raspberry Pi 5 및 Coral AI Edge TPU
 
 ## 메모리 제한
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모델을 TensorFlow Lite (TFLite)로 변환해도, 라즈베리 파이 5와 같은 RAM 용량이 제한된 장치에서 실행하는 것은 또 다른 중요한 장벽으로 다가옵니다. 이러한 장치는 단순히 큰 모델을 효과적으로 로드하고 실행할만한 메모리 용량이 없습니다. 새로운 방법으로 이를 가능하게 할 수는 있지만, 그에 따르는 속도 저하는 모두가 감당할 의향이 있는 비용이 아닙니다. 엣지 TPU는 m.2. PCIe Gen 2 버스에서 동작하기 때문에, 약 500MB/s 정도의 이론적 제한에 묶이게 되는데, 이는 계산 시간이 아니라 파이와 엣지 TPU 간 데이터 이동에만 해당합니다.
 
@@ -45,7 +61,18 @@ Coral.ai 엣지 TPU는 특정 유형의 신경망 작업에 최적화되어 있�
 
 # 희망이 있는 새로운 프로젝트
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 도전에도 불구하고, 에지 장치에서 LLM(Large Language Model)을 실행하는 것을 더 쉽게 만들기 위해 노력하는 유망한 프로젝트들이 미래에 있습니다:
 
@@ -55,7 +82,18 @@ Large World Model (LWM) 프로젝트는 에지 배포를 위해 대형 모델을
 
 ## Jetstream for JAX Models
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Google Cloud의 Jetstream은 TPUs와 GPUs를 사용하여 AI 추론을 가속화하는 플랫폼을 제공합니다. Jetstream은 LLMs의 계산 요구를 처리하기 위한 필요한 인프라를 제공할 수 있어, 클라우드 및 엣지 배포 사이의 격차를 줄일 수 있을 것입니다.
 
@@ -65,7 +103,18 @@ Ollama와 AirLLM과 같은 새로운 이니셔티브들은 소비자 하드웨�
 
 # TensorFlow Lite로 모델 변환 및 TPU용 컴파일하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모델을 가장자리(Edge)로 배포하는 실험에 관심이 있다면, TensorFlow Lite로 모델을 변환하고 Edge TPU에 컴파일하는 기본 예제가 있습니다.
 
@@ -86,7 +135,18 @@ with open('model.tflite', 'wb') as f:
     f.write(tflite_model)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 2: 엣지 TPU용 TFLite 모델 컴파일하기
 
@@ -98,7 +158,18 @@ edgetpu_compiler model.tflite
 
 이 명령은 엣지 TPU에 최적화된 model_edgetpu.tflite 파일을 생성합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 3: 엣지 TPU에서 모델 실행
 
@@ -110,7 +181,7 @@ import platform
 
 EDGETPU_SHARED_LIB = 'libedgetpu.so.1'
 # 컴파일된 TFLite 모델 로드
-interpreter = tflite.Interpreter(model_path='model_edgetpu.tflite', 
+interpreter = tflite.Interpreter(model_path='model_edgetpu.tflite',
                                  experimental_delegates=[tflite.load_delegate(EDGETPU_SHARED_LIB)])
 interpreter.allocate_tensors()
 # 입력 및 출력 텐서 가져오기
@@ -129,7 +200,18 @@ print(output_data)
 
 # 실행 요청
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LLM(주변 머신)을 엣지에서 실행하는 잠재력은 엄청납니다. 똑똑한 IoT 기기 및 반응성 있는 AI 응용 프로그램을 통한 기회, 그리고 데이터를 로컬에 유지함으로써 개인 정보 보호도 향상됩니다. 그러나 현재 기술 상태는 아직 완전하지는 않습니다. 이를 실현하기 위해 더 많은 커뮤니티 주도 노력과 혁신이 필요합니다.
 
@@ -142,6 +224,17 @@ LLM(주변 머신)을 엣지에서 실행하는 잠재력은 엄청납니다. �
 
 함께하면 AI 엣지 기술의 가능성을 넓힐 수 있습니다. 함께 협력하여 엣지 컴퓨팅의 미래를 이끌어가요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 에지 디바이스에 AI를 배포하는 과정에서 어떤 어려움을 겪으셨나요? 아래 댓글로 귀하의 생각과 경험을 공유해주세요!

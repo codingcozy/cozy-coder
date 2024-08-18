@@ -3,17 +3,13 @@ title: "나의 미판매 프로젝트 1"
 description: ""
 coverImage: "/assets/img/2024-06-19-Myunsoldprojects1_0.png"
 date: 2024-06-19 18:06
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-Myunsoldprojects1_0.png
 tag: Tech
 originalTitle: "My unsold projects 1"
 link: "https://medium.com/@shashankts/my-unsold-projects-1-0e7693cdabcd"
 isUpdated: true
 ---
-
-
-
-
 
 과거 실험
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 로켓을 만들고 이를 목격하도록 이웃 친구를 초청했었어요. 그 친구는 좀 주저하는 모습을 보였지만 거절하지 않았어요. 아마 그 또한 호기심이 있었기 때문일 거예요. 하하. 난 너무 신나서 얇은 종이와 막대를 사용하여 발사대를 만들었는데, 정말 미친 짓이었죠. 만약 그때 카메라가 보급되어 있었다면, 그 순간들을 촬영할 수 있었을 텐데요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 진실의 순간이 도래했습니다. 나는 향을 사용하여 로켓을 발열시켰어. 로켓에서 노즐로 불길이 뿜어져 나오는 모습을 보았고, 잠시 후에 로켓은 내 집 옥상의 벽을 뛰어넘었어. 아마도 너무 무겁고 균형이 맞지 않았던 것 같아. 하지만 정말 재미있었어.
 

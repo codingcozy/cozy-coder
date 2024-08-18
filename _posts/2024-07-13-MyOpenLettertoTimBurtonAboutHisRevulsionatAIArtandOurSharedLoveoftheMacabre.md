@@ -3,17 +3,13 @@ title: "팀 버튼에게 보내는 공개 서한 AI 예술에 대한 혐오와 �
 description: ""
 coverImage: "/assets/img/2024-07-13-MyOpenLettertoTimBurtonAboutHisRevulsionatAIArtandOurSharedLoveoftheMacabre_0.png"
 date: 2024-07-13 03:11
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-MyOpenLettertoTimBurtonAboutHisRevulsionatAIArtandOurSharedLoveoftheMacabre_0.png
 tag: Tech
 originalTitle: "My Open Letter to Tim Burton About His Revulsion at AI Art, and Our Shared Love of the Macabre"
 link: "https://medium.com/the-generator/my-open-letter-to-tim-burton-about-his-revulsion-at-ai-art-and-our-shared-love-of-the-macabre-5ded392a51ca"
 isUpdated: true
 ---
-
-
-
-
 
 ## AI ART, CINEMA & POPULAR CULTURE
 
@@ -23,23 +19,56 @@ isUpdated: true
 
 2022년, 나는 중재매체(Medium)의 갤러리에서 앞서 본 적 없는 팀 버튼 영감을 받은 AI 생성 이미지를 소개하며 두 차례나 바이럴했습니다. 가장 먼저는 5만 회 이상 조회된 '프린세스 고딕' 시리즈로 유명한 팀 버튼 디즈니 프린세스 시리즈; 이어서는 조만간 공개된 '34명의 셀러브리티가 팀 버튼의 비틀쥬스 캐릭터로 변신' 갤러리가 뒤를 이었습니다. 두 번째 갤러리는 Screen Rant에서 소개되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전에 '디즈니 프린세스 팀 버튼'을 구글에서 검색하면 상위 이미지 검색 결과로 나오던 작품들이 있었습니다. 하지만 방글 베스트프렌드에서의 모방 기사로 대체되어 뒤로 밀렸죠. 복사본의 복사본에게 자리를 내주다니 참으로 유머러스한 일이었습니다. 그래도 불평할 것 없어요. 구글을 통해 18,000번의 클릭을 받았거든요. 그렇기에 당신의 의견을 듣고 나서, 혹시 내 작품들을 보셨을지 궁금해졌어요.
 
 '팀 버튼 이미지'들이 이른바 AI의 초기 단계에서 만들어졌다는 점을 알려드리고 싶어요. 제 서툴러 보이는 시도들에 좀 부끄러움을 느낄 정도였지만, 1년이 지난 지금에도 여전히 베스트프렌드의 후계자들에게 견줄만 하다고 생각해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 2022년에는 그것들이 놀라운 것으로 간주되었습니다 (Screen Rant가 "멋있는"이라고 발표), 동료들이 "어떻게 그런 걸 만들었지?"라고 물었는데, 이는 어느 정도의 기술이 개입되었다는 것을 보여 줍니다. 우리는 그 기술의 선구자였습니다.
 
 버튼 씨, 당신의 작품은 한 세대를 영감을 주었고, 나의 몬스터들은 영화에만 아니라 한 세대의 정신에도 깊은 영향을 주신 당신에게 경의를 표하는 의미였습니다. 자랑스럽게 쥐를 끌어들인 고양이처럼, 내가 사랑하는 사람들을 소모황광하게 만든 것 같습니다. AI 예술이 당신의 영혼에서 무언가를 가져간다고 말씀하실 때, 그 미묘함을 이해합니다. 실제로 기계가 인간을 모방할 때 개인적인 요소가 손상된다는 것을 느낄 수 있습니다. 그러나 예술적 모독에는 또 다른 아름다움이 있다고 믿습니다.
 
-당신도 그것을 해왔습니다. 모든 사람 중에서 당신이 이해하실 것으로 생각했습니다. 당신의 영화는 기이함과 어울리며, 우리의 상징과 문화적 상징을 파편화하여 새로운 프랑켄슈타인 예술작품을 만드는 것과 호흡이 맞아요. 
+당신도 그것을 해왔습니다. 모든 사람 중에서 당신이 이해하실 것으로 생각했습니다. 당신의 영화는 기이함과 어울리며, 우리의 상징과 문화적 상징을 파편화하여 새로운 프랑켄슈타인 예술작품을 만드는 것과 호흡이 맞아요.
 
 ![Link Text](/assets/img/2024-07-13-MyOpenLettertoTimBurtonAboutHisRevulsionatAIArtandOurSharedLoveoftheMacabre_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AI는 "리믹스 문화"에 완벽한 열정적인 장치이며, 여러분의 영화의 콘텐츠와 스타일과도 잘 어울립니다. 왜냐하면 그들은 같은 정신을 가지고 있기 때문이죠.
 
@@ -49,7 +78,18 @@ AI의 무수한 가능성 속에서는, 실제로 영화를 만들었다면 여�
 
 지금으로선 그러한 엿볼 수 있는 시간들이 완벽하지 않을 수 있고, 아마 항상 그렇기까지 합니다. AI 예술가들은 자신만의 비전을 개발해야 하며, 절대로 있지 않았던 이미지들은 '니더월드'에서 평화롭게 쉬게 두어야 합니다. 여러분의 작품은 제가 '이 스타일의' 작품을 마지막으로 만든 것이었죠; 그 이후로 제가 성장하면서 위대한 작품을 모방하는 것을 멈췄습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 틈 버튼(Tim Burton) 영감을 받은 디즈니 공주들에 대한 초기 스케치를 그렸더라면, 나는 그것들이 무엇을 의미하는지 알아차렸을 것입니다. 발전 중인 예술가가 입을 내밀며 장난스럽고 집중하는 초기 작품들일 뿐이었거든. 나는 대부분의 AI 아티스트처럼, 프롬프트에서 스타일적 영감을 참조할 때 스케치하기 시작했어 (우리가 무엇을 하고 있는지 모른 초창기에 말이야). 그러나 곧 내가 매혹을 느끼는 것을 풀어내는 데 집중했어. 이름 대신, 작가가 나를 이끌 때 조합할 수 있는 패턴, 질감, 형태를 나타내는 예술 용어를 사용하곤 했지. 나만의 개념과 스타일을 정제해왔어.
 
@@ -59,7 +99,18 @@ AI의 무수한 가능성 속에서는, 실제로 영화를 만들었다면 여�
 
 나는 단지 "이름"을 입력하며 앉아 있는 것이 아니야 — 그러나 우리가 했던 전부가 아니었던 것은 사실이야. 방금 누르기만 하면 모든 게 우리에게 제공되었다고 외부인들은 가정해. 생성적 예술에 대한 기술이나 발견, 노력을 고려하지 않고 편견을 품었거든. 그게 모든 것이 버튼을 누르는 것만으로 이루어졌다고 생각했었어.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 우리가 발표하지 않은 것들을 보았다면 어떨까요? 그리고 이 도구를 다루는 방법을 익히기 위해 수천 시간을 투자한 모습을. 말콤 글래드웰은 숙련되려면 1만 시간의 헌신적인 실력 향상이 필요하다고 말합니다.
 
@@ -69,7 +120,18 @@ AI의 무수한 가능성 속에서는, 실제로 영화를 만들었다면 여�
 
 아시다시피, 마치 미친 화가들처럼 말이죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![My Open Letter to Tim Burton About His Revulsion at AI Art and Our Shared Love of the Macabre](/assets/img/2024-07-13-MyOpenLettertoTimBurtonAboutHisRevulsionatAIArtandOurSharedLoveoftheMacabre_4.png)
 
@@ -79,7 +141,18 @@ AI의 무수한 가능성 속에서는, 실제로 영화를 만들었다면 여�
 
 하지만 저는 그걸 가장 큰 칭찬으로 말할 테니까요. 여러분의 영화들은 우리에게 가장 끔찍한 것에서도 아름다움, 기이함 속에서 매력, 그리고 무서운 것 속에서 인간성을 가르쳐 주었어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자크 스켈링턴을 보면 J. R. 닐의 잭 펌킨헤드가 떠오르지 않을 수 없어요. L. 프랭크 볼름의 오즈 책에서, F. W. 무르네우의 렌즈를 통과한 모습으로 말이에요.
 
@@ -89,7 +162,18 @@ AI의 무수한 가능성 속에서는, 실제로 영화를 만들었다면 여�
 
 이제 보편적인 감독들의 시대입니다. 스튜디오 없이도 우리의 머릿속에 있는 것을 사진과 같이 완벽하고 영화적인 디테일로 투영할 수 있어요. 심지어 '스타워즈' 창작자인 조지 루카스도 — 디지털 효과를 개척하기 위해 Industrial Light and Magic (ILM)를 설립한 분이라도 — 인공지능이 영화 제작의 미래라고 믿고 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인공지능은 당신에게는 "무형의" 일지 모르지만, 우리는 그것을 사랑합니다. 그것은 로봇 고트, 광선총, 날아다니는 접시의 SF 세계가 실현된 것입니다. 에드 우드는 이 기술을 이용해 어떤 부끄러운 경이로운 작품을 만들었을까요?
 
@@ -97,7 +181,18 @@ AI의 무수한 가능성 속에서는, 실제로 영화를 만들었다면 여�
 
 ![이미지](/assets/img/2024-07-13-MyOpenLettertoTimBurtonAboutHisRevulsionatAIArtandOurSharedLoveoftheMacabre_7.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 이제 모두 미친 드. 프랑켄슈타인이 되어, 새로운 창조물을 이어 붙이고 프로메테우스 번개의 충격으로 살아나게 합니다 - 금기된 기술을 사용하며 - 초자연적인 부활의 마법적인 말을 공기 속에 중얼거리며. 우리는 당신으로부터 그것을 배웠습니다. 우리는 트라디션을 약탈하는 도적 무리, 진정한 고딕 팬들입니다.
 
@@ -107,7 +202,18 @@ AI의 무수한 가능성 속에서는, 실제로 영화를 만들었다면 여�
 
 아마도 메리 셜리는 프랑켄슈타인의 적응에 불안해했을지도 모릅니다. 그녀의 캐릭터는 제임스 웨일에서 Frankenweenie로 넘어갔습니다. 요즘 사람들 대부분은 셜리의 책을 통해가 아닌 유니버설 스튜디오 몬스터(또는 시리얼 박스 캐릭터로!)로 프랑켄슈타인을 만납니다. 우리는 몬스터가 부분적으로 소비되고 조각마다 전해진다는 것을 배웠고, 음식을 즐겁게 놀이해야 한다고도 말해졌습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어둠 가득한 밤에 너는 이 장난감들을 파서 봤어. 아마도 그것들은 미트 미 인 세인트루이스에서 투티가 뒷마당에 묻은 죽은 인형들과 같았을지도 모르겠어. 사실 네게 완전히 속해 있던 상태는 아니었어. 이제 우리가 그들과 노는 모습을 보게 해줘.
 
@@ -117,17 +223,39 @@ AI의 무수한 가능성 속에서는, 실제로 영화를 만들었다면 여�
 
 금지된 것을 문화 무덤에서 가져오는 것도 마찬가지야. 네 영화와 그 스타일에 스며들어 있어. 친숙한 것을 다시 봉합하고, 실을 보여 놓는 거야. 언젠가 우리가 줄들을 잡을 줄은 예상하지 못했었니?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-육포 영화, 독일 표현주의 영화, 에드워드 고리 삽화, 유니버셜 몬스터, 빈센트 프라이스 자신, 또는 60년대 스톱 모션 애니메이션에서 영감을 받는 당신의 활력 넘치는 비주얼 문화.  
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-영화 속 그 모든 언급들이 우리에게 당신을 참조하는 것을 쉽게 만들었어요. 우리는 서로를 자극하는 용어로 사용하고, 특히 그것들이 흥미를 유발하기 때문에 더욱 그렇죠. 그것들은 기묘한 AI의 재결합, 리믹스 문화와 얽혀 있습니다.  
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
-당신의 천재성은 억압적이고 무서운 것의 사귀함을 잘 표현한다는 데에 있어요. 우리가 하는 것이 '불편할' 수 있지만, 우리는 그것을 배웠어요. 그 최고의 도움으로 우리가 창조되었기 때문에요.  
+육포 영화, 독일 표현주의 영화, 에드워드 고리 삽화, 유니버셜 몬스터, 빈센트 프라이스 자신, 또는 60년대 스톱 모션 애니메이션에서 영감을 받는 당신의 활력 넘치는 비주얼 문화.
+
+영화 속 그 모든 언급들이 우리에게 당신을 참조하는 것을 쉽게 만들었어요. 우리는 서로를 자극하는 용어로 사용하고, 특히 그것들이 흥미를 유발하기 때문에 더욱 그렇죠. 그것들은 기묘한 AI의 재결합, 리믹스 문화와 얽혀 있습니다.
+
+당신의 천재성은 억압적이고 무서운 것의 사귀함을 잘 표현한다는 데에 있어요. 우리가 하는 것이 '불편할' 수 있지만, 우리는 그것을 배웠어요. 그 최고의 도움으로 우리가 창조되었기 때문에요.
 
 AI 예술가들은 밤의 아이들이에요, 창가에서 똑딱똑딱 소리내며. 우리가 날아다니는 것을 지켜봐주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 👍 이 글을 즐겁게 읽으셨나요? 클랩(clap) 해주세요. Medium은 클랩 수에 따라 작가들을 보상합니다.
 
@@ -137,7 +265,18 @@ AI 예술가들은 밤의 아이들이에요, 창가에서 똑딱똑딱 소리�
 
 🤝 소셜 미디어나 LinkedIn에 이 기사 링크를 공유해도 좋습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Jim the AI Whisperer 는 누구일까요?
 
@@ -147,7 +286,18 @@ AI 예술가들은 밤의 아이들이에요, 창가에서 똑딱똑딱 소리�
 
 개인 코칭에 관심이 있거나 제 서비스를 고용하고 싶다면 언제든지 저에게 연락해 주세요. 또한 팟캐스트, 인터뷰 등에도 참여가 가능합니다. 그리고 제 작업을 지원하고 싶다면 제 Buy Me a Coffee 페이지도 확인해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![My Open Letter to Tim Burton About His Revulsion at AI Art and Our Shared Love of the Macabre](/assets/img/2024-07-13-MyOpenLettertoTimBurtonAboutHisRevulsionatAIArtandOurSharedLoveoftheMacabre_10.png)
 

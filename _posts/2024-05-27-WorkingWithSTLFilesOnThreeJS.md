@@ -3,17 +3,13 @@ title: "Working With STL Files On ThreeJSThreeJS에서 STL 파일 다루기제�
 description: ""
 coverImage: "/assets/img/2024-05-27-WorkingWithSTLFilesOnThreeJS_0.png"
 date: 2024-05-27 13:29
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-WorkingWithSTLFilesOnThreeJS_0.png
 tag: Tech
 originalTitle: "Working With .STL Files On Three.JS"
 link: "https://medium.com/@atakandonmez/working-with-stl-files-on-three-js-faf94988493b"
 isUpdated: true
 ---
-
-
-
-
 
 ![image](/assets/img/2024-05-27-WorkingWithSTLFilesOnThreeJS_0.png)
 
@@ -23,7 +19,18 @@ GitHub, Pioneer, Oculus, 심지어 NASA와 같은 거대 회사들이 3D 애니�
 
 문서가 라이브러리의 많은 부분을 다루고 있고, 인터넷에도 많은 정보가 공유되어 있지만, 일반적이지 않은 방법을 찾기 어려울 수 있어요. 그래서 개발 과정 중 필요한 것을 찾기 위해 많은 조사를 해야 했어요. 그래서 여기서 일부를 공유하기로 결정했어요. 시작해볼까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 설치
 
@@ -38,13 +45,23 @@ GitHub, Pioneer, Oculus, 심지어 NASA와 같은 거대 회사들이 3D 애니�
       "imports": {
         "nameOfImport": "location",
         "nameOfSecondImport": "secondLocation"
-        }      
+        }
     }
   </script>
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다양한 프로젝트에서 이 설치의 예시를 공식 웹사이트에서 찾아볼 수 있어요.
 
@@ -54,13 +71,24 @@ GitHub, Pioneer, Oculus, 심지어 NASA와 같은 거대 회사들이 3D 애니�
 
 ## WebGL
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Three.JS은 WebGL을 사용하기 때문에 귀하의 작업 환경도 이를 지원해야 합니다. 다음 코드로 브라우저와 장치가 해당 기능을 지원하는지 확인할 수 있습니다.
 
 ```js
 if (WebGL.isWebGLAvailable()) {
-    console.log("사용 가능함")
+  console.log("사용 가능함");
 }
 ```
 
@@ -68,7 +96,18 @@ if (WebGL.isWebGLAvailable()) {
 
 여기에서 공식 보일러 플레이트로 시작할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상면 , 카메라, 렌더러 및 애니메이션 된 개체가 포함되어 있습니다. 여기서 원하는 방향으로 나아가 카메라나 장면을 조정할 수 있습니다. 커서를 사용하여 대상 개체를 중심으로 회전하려면 프로젝트에 OrbitControls를 추가할 수 있습니다. 이러한 사용된 기능 및 클래스에 대한 자세한 내용은 해당 공식 문서에서 설명됩니다.
 
@@ -78,7 +117,18 @@ if (WebGL.isWebGLAvailable()) {
 
 그리고 이렇게 구현할 수 있습니다;
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 STL 파일의 경로를 변경해서, ./uploads/screw.stl로 설정하고, 이 loadObject 함수를 처음에 실행되는 init() 함수에 호출해주세요.
 
@@ -88,7 +138,18 @@ STL 파일의 경로를 변경해서, ./uploads/screw.stl로 설정하고, 이 l
 
 Three.JS에는 사용자 인터페이스를 만들고 해당 인터페이스 요소를 듣는 코드 핸들러를 만들 수 있는 GUI 모듈이 있습니다. 제 예제에서는 세 가지 가능한 축을 기준으로 물체를 회전하고 이동시킬 수 있는 버튼을 추가했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 “gui”: “./node_modules/three/examples/jsm/libs/lil-gui.module.min.js”
 
@@ -98,7 +159,18 @@ Three.JS에는 사용자 인터페이스를 만들고 해당 인터페이스 요
 
 여기서 그룹이 필요한 이유는 그룹과 연관되지 않고 메시를 회전시키는 것이 내가 원하는 방식으로 할 수 없었기 때문입니다. 그래서 온라인에서 검색하다가 이러한 해결책을 찾았습니다. GUI를 사용하여 그룹 없이 객체를 회전시키는 다른 방법이 있을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*QT2uHwTmjn9Pb760V3NZlQ.gif" />
 

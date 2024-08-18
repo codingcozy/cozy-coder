@@ -3,17 +3,13 @@ title: "시리와 OpenAI 통합 실험적 첫걸음"
 description: ""
 coverImage: "/assets/img/2024-06-22-SiriandOpenAIIntegrationAnExperimentalFirstStep_0.png"
 date: 2024-06-22 20:23
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-SiriandOpenAIIntegrationAnExperimentalFirstStep_0.png
 tag: Tech
 originalTitle: "Siri and OpenAI Integration: An Experimental First Step"
 link: "https://medium.com/@biohazerimperion/siriassistant-b720febd7a46"
 isUpdated: true
 ---
-
-
-
-
 
 내 맥북의 Siri와 OpenAI API를 통합하려고 생각 중이에요. 그 과정에서 API와 대화하는 방법을 상세히 설명한 옵션을 찾았는데, 대부분이 Mac에서 작업을 수행하는 것을 활용하지 않고 Siri를 통해 API와 대화에 대해만 논의했어요. 저는 Siri를 사용하여 컴퓨터를 제어하기 위해 한 발짝 더 나아가고 싶었어요. 이 블로그에서는 Siri와 OpenAI API를 결합한 도구를 만든 방법을 공유할 거예요. 이 도구를 사용하면 PyCharm 프로젝트를 열거나 음성 명령으로 브라우저를 열거나 코드를 생성하거나 생성된 코드를 직접 클립보드에 복사하거나 심지어 Siri로 Spotify에서 검색할 수 있어요. 이것은 첫 번째 버전이라 강력하고 최종적인 도구는 아니에요. 그러나 저는 저의 실수, 사용한 전략, 만난 발견, 그리고 이의 장단점에 대해 이야기할 거예요.
 
@@ -31,7 +27,18 @@ isUpdated: true
 
 ## 실행하는 방법
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저장소에는 서비스 실행 방법에 대한 지침이 있습니다.
 
@@ -43,7 +50,18 @@ Shortcuts 다운로드:
 
 OpenAI 대시보드에서 어시스턴트를 생성하세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 OpenAI 대시보드에서 도우미를 만들 수 있어요. 이 블로그에 보여진 프롬프트와 함수 정의를 복사할 수 있어요.
 
@@ -53,7 +71,18 @@ OpenAI 대시보드에서 도우미를 만들 수 있어요. 이 블로그에 �
 
 ## Siri 바로가기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요즘 채팅 흐름을 만드는 도중, Siri가 질문에 응답하고 요청을 처리하는 뿐만 아니라 사용자와 자연스러운 대화를 나눌 수 있는 것이 중요하다는 것을 알게 되었어요. 그래서 Siri 바로가기(Siri Shortcuts)를 발견하게 되었죠. Siri 바로가기는 사용자 지정 바로가기를 설정할 수 있는 멋진 도구에요. 맞아, 이걸로 Siri를 사용할 수도 있어요. 솔직히 말해서, 이 프로젝트를 시작하기 전에 Siri 바로가기를 사용해 본 적이 없었어요.
 
@@ -63,7 +92,18 @@ OpenAI 대시보드에서 도우미를 만들 수 있어요. 이 블로그에 �
 
 ![플로 차트](/assets/img/2024-06-22-SiriandOpenAIIntegrationAnExperimentalFirstStep_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 알고리즘은 'N' 번 반복하는 루프로 시작합니다. 이때 'N'은 질문 세션의 사전 정의된 반복 횟수입니다. 그러나, 'finish_loop' 변수를 평가함으로써 특정 조건이 충족되면 'N'에 도달하기 전에 사이클을 종료할 수 있는 전역 변수를 통해 흐름 제어 메커니즘을 구현했습니다.
 
@@ -79,7 +119,18 @@ OpenAI 대시보드에서 도우미를 만들 수 있어요. 이 블로그에 �
 
 안녕 Jarvis:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주요 단축키가 보조 단축키를 관리합니다. Siri를 통해 'Hey Jarvis'라고 말하여 활성화할 수 있습니다. 추가로, 원한다면 이 단축키를 좀 덜 혹한 이름으로 바꿀 수도 있어요 😅.
 
@@ -89,8 +140,18 @@ OpenAI 대시보드에서 도우미를 만들 수 있어요. 이 블로그에 �
 
 시스템은 사용자 메시지에 'clipboard'라는 단어가 있는지 확인하기 위해 정규식을 사용합니다. 해당 단어가 있다면, 시스템은 클립보드의 값을 검색하여 해당 값을 서비스에 전달합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Siri and OpenAI Integration - An Experimental First Step](/assets/img/2024-06-22-SiriandOpenAIIntegrationAnExperimentalFirstStep_3.png)
 
@@ -100,8 +161,18 @@ Jarvis Call:
 
 ## OpenAI API
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제가 바로 개발자에요. 위의 텍스트를 친근하게 번역해 드릴게요.
 
@@ -119,7 +190,18 @@ Jarvis Call:
 - 함수가 API 오류를 발생시키고 출력 함수가 run 객체에 전송되지 않았을 경우, 기능에서 응답을 기다리는 동안 새로운 메시지를 추가할 수 없으므로 다음 메시지는 추가되지 않을 거에요. 따라서 실행 프로세스를 취소하고 메시지를 다시 추가해야 할 수도 있어요.
 - 쓰레드는 모델이 지원할 수 있는 콘텍스트 길이만큼 크기가 됩니다. 메시지 수나 쓰레드가 활성화된 시간을 제어할 수 있는 시스템이 없다면 긴 쓰레드에 많은 비용을 지출할 수밖에 없을 거에요 (비용 부분에서 제 전략과 결과를 설명할게요)."
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시스템에 대해 설명해 드릴게요. 매우 간단해요: 주요 보조 기능을 사용하여 제 맥에서 동작을 실행합니다.
 
@@ -148,7 +230,16 @@ JSON으로만 올바른 응답이 됩니다.
 
 기억하세요: 사용자가 더 이상 도움이 필요하지 않을 때까지 대화를 종료하지 마세요. 이것이 비즈니스 어시스턴트로서 올바르게 업무를 수행하는 데 매우 중요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에서 볼 수 있듯이, 'clipboard_result'는 어시스턴트가 생성한 JSON에서의 출력 매개변수입니다. 사용자가 클립보드를 사용하려 한다는 것을 어시스턴트가 감지하면 이 매개변수는 생성된 텍스트를 식별하고 클립보드로 반환하는 데 사용됩니다. 그런 다음 사용자는 단순히 결과물을 붙여넣을 수 있습니다. 여기 함수 정의가 있습니다:
 
@@ -173,7 +264,16 @@ open_pycharm_projects
 
 search_web
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 {
   "name": "search_web",
@@ -231,7 +331,16 @@ play_spotify_music
   }
 }
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 서비스
 
@@ -284,7 +393,16 @@ async def open_pycharm_projects(func_params: FunctionPayload, **kwargs: dict) ->
         )
 
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 검색 시스템
 
@@ -304,7 +422,16 @@ def find_top_project_matches(input_str: str, folders_info: dict, top=3) -> dict:
 
 '검색 웹' 기능은 간단히 GPT로부터 전달된 URL을 엽니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "https://www.google.com/search?q={query}",
 "https://www.youtube.com/results?search_query={query}",
@@ -340,7 +467,18 @@ async def search_web(func_params: FunctionPayload, **kwargs: dict) -> FunctionRe
 마지막으로, 'Spotify' 함수는 Spotify에서만 트랙을 검색합니다. 시스템은 트랙을 인기순으로 반환합니다. 'artist_search' 매개변수가 GPT에서 전달되면 'specific_search'가 활성화될 때 가장 가까운 매칭 곡을 찾는 데에도 사용됩니다. 예를 들어 "Spotify에서 'Uprising' by Muse 열어"라고 말하면 특정 검색이 활성화됩니다. 그러나 "Muse의 노래 하나 틀어줘"라고 말하면 특정 검색 시스템이 활성화되지 않으며 해당 아티스트의 무작위 노래가 재생됩니다.
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 def spotify_search(client: spotipy.Spotify, query: str, limit: int = 10):
@@ -484,8 +622,18 @@ async def play_spotify_music(func_params: FunctionPayload, **kwargs: dict) -> Fu
 
 보시다시피 처음 응답은 '저는 디지털 어시스턴트이므로 감정이 없어요, 하지만 물어봐주셔서 감사합니다!'라는 메시지입니다. 그 후에 '오늘은 어떻게 도와드릴까요?'라는 질문이 사용자에게 계속 대화를 이어나가기 위해 제시됩니다. 또한 'clipboard_result' 매개변수를 볼 수 있는데, 이 경우에는 사용하지 않으므로 매개변수는 비어져 있는 상태입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 큰 문제
 
@@ -494,32 +642,41 @@ async def play_spotify_music(func_params: FunctionPayload, **kwargs: dict) -> Fu
 Docker를 사용하여 서비스를 사용하려면 Docker 구성 파일에서 애플리케이션 설명을 주석 처리해야 합니다. 더욱 중요한 것은 구성에서 호스트 값을 'siri_assistant_database'와 같은 서비스의 구체적인 이름으로 변경해야 합니다. 이 변경은 중요한데, Docker는 docker-compose.yml 파일에서 정의된 서비스 이름을 사용하여 컨테이너 간 통신을 용이하게 합니다. 호스트로 `siri_assistant_database`를 지정함으로써, 우리의 애플리케이션이 Docker의 내부 네트워크를 사용하여 데이터베이스 컨테이너와 통신하도록 지시합니다.
 
 ```js
-  database:
-    driver:
-    host: siri_assistant_database
-    port: 5432
-    database: siri_assistant
-    user: gg
-    password: 1234
+database: driver: host: siri_assistant_database;
+port: 5432;
+database: siri_assistant;
+user: gg;
+password: 1234;
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```yaml
-version: '3'
+version: "3"
 
 services:
-#  app:
-#    container_name: siri_assistant_app
-#    build:
-#      context: .
-#      dockerfile: Dockerfile
-#    volumes:
-#      - .:/app
-#    ports:
-#      - '8080:8080'
-#    depends_on:
-#      - siri_assistant_database
+  #  app:
+  #    container_name: siri_assistant_app
+  #    build:
+  #      context: .
+  #      dockerfile: Dockerfile
+  #    volumes:
+  #      - .:/app
+  #    ports:
+  #      - '8080:8080'
+  #    depends_on:
+  #      - siri_assistant_database
   siri_assistant_database:
     container_name: siri_assistant_db
     mem_limit: 100m
@@ -545,8 +702,18 @@ volumes:
 
 <img src="/assets/img/2024-06-22-SiriandOpenAIIntegrationAnExperimentalFirstStep_6.png" />
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이번 달에는 시간 만료 시스템 없이 Assistant API를 사용하여 몇 가지 테스트를 진행하여 프로젝트를 시작했습니다. 2월 14일에 비용이 매우 빨리 증가한 것을 보면, 이는 단지 테스트였습니다. 그래서 2월 15일 이후 시간 만료 시스템을 도입하여 만료 시간을 60분으로 설정했습니다. 이로써 비용이 크게 감소되었습니다. 그러나 이번 달 마지막 날에 Siri로 많은 테스트를 실시하여 가격이 다시 새로운 최고점을 기록했습니다.
 
@@ -554,7 +721,18 @@ volumes:
 
 이번 달에는 시스템에 광범위하게 작업을 하지 않고 간헐적으로 개발만을 수행했습니다. 그러나 3월 14일에 시스템을 완료한 후 몇 가지 테스트를 수행했습니다. 60분의 만료 시간 설정이 너무 길다는 것을 깨달았기 때문에 이를 10분으로 줄였습니다. 다음 날 동일한 수의 테스트를 수행한 결과, 비용이 크게 감소했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 데이터는 60분에서 10분으로 시간 만료 설정을 조정한 결과가 비용 효율성에 긍정적인 영향을 미쳤음을 나타냅니다.
 전략의 일환으로 메시지 수를 제한하는 것이 추가 개선을 이끌어낼 수 있습니다.

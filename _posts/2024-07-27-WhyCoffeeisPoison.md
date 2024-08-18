@@ -3,18 +3,13 @@ title: "커피가 독인 이유"
 description: ""
 coverImage: "/assets/img/2024-07-27-WhyCoffeeisPoison_0.png"
 date: 2024-07-27 13:50
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-27-WhyCoffeeisPoison_0.png
 tag: Tech
 originalTitle: "Why Coffee is Poison"
 link: "https://medium.com/@danielcracbusiness/breaking-coffee-is-poisoning-millions-of-drinkers-each-year-dfdf63d6768a"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![Coffee Image](/assets/img/2024-07-27-WhyCoffeeisPoison_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 게다가, 여러 가지 종류의 커피 중에서 당신이 선호하는 독극물을 고르고 있는 거죠.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 결코 마시지 말아야 할 세 가지 최악의 커피 종류 목록입니다:
 
@@ -35,7 +40,18 @@ isUpdated: true
 
 만약 이 음료가 하루에 에너지를 주는 줄 생각하고 있다면, 그것은 틀렸습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 차가운 샤워는 카푸치노 한 잔보다 2배 더 많은 에너지를 제공하고, 느낌이 훨씬 오래 지속됩니다 (차가운 샤워 전문가가 이야기했어요).
 

@@ -3,17 +3,13 @@ title: "구름 서비스, 홈 서버 및 네트워크 스토리지의 철저한 
 description: ""
 coverImage: "/assets/img/2024-07-02-Ahardlookatcloudshomeserversandnetworkstorages_0.png"
 date: 2024-07-02 22:54
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-02-Ahardlookatcloudshomeserversandnetworkstorages_0.png
 tag: Tech
 originalTitle: "A hard look at clouds, home servers and network storages"
 link: "https://medium.com/@raduzaharia/a-hard-look-at-clouds-home-servers-and-network-storages-731e9823db4b"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-07-02-Ahardlookatcloudshomeserversandnetworkstorages_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이 모두가 많은 장치이지만, 이러한 장치 각각이 고유한 운영 체제를 가질 수 있으므로 더 많이 추가할 수 있습니다. 이전 기사에서 본 것처럼, 이는 고려해야 할 또 다른 복잡성입니다. 여러 Windows 기기가 서로 공유하는 것은 하나이지만, Windows, Linux, Mac, Android 및 iOS가 모두 대화하는 것은 완전히 다릅니다. 과거에는 이것이 매우 명백한 가능성이었지만, 오늘날 우리는 어디에서나 그것을 볼 수 있습니다. iPad를 그림 기능으로 구입하지만 안드로이드를 사용하여 맞춤 설정이 쉽다. 게임 기계에 Windows를 사용하고 노트북에 Linux를 사용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다중 장치, 다중 운영 체제 시나리오를 고려하여 가능한 모든 공유 옵션을 살펴보겠습니다. 이 기사는 이 블로그에서 이전에 다룬 여러 기사들을 요약하여 독자들이 파일 공유 아키텍처를 선택하는 데 더욱 쉽게 도움이 될 것을 희망합니다. 그러니 시작해 봅시다!
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 만약 홈 서버에 대한 간단한 요약을 할 수 있다면 다음과 같을 것입니다: 중간 가격, 높은 난이도, 완전한 통제. 이 블로그에서 여러 차례 보여 드린 Raspberry PI 홈 서버로 가면 가격은 낮아지지만 외장 SSD, 케이스, 쿨러 등이 추가되어 여전히 200~300 달러대에 해당합니다. 홈 서버를 위해서는 합리적인 가격입니다. 설정하는 데는 약간의 시간이 소요될 것입니다. 전체 설정을 여러 차례 진행했으며, 시간이 흐를수록 쉽고 빨라집니다. 그러나 난이도는 여전히 높습니다. 통제력 측면에서는 우리가 가지고 있는 것이 최상입니다: 원하는 운영 체제, 필요한 공유 프로토콜, 게시하려는 네트워크 서비스 등을 자유롭게 선택할 수 있습니다. 우리는 컨테이너를 사용하거나 모든 것을 설치하거나, 사용할 VPN을 결정할 수 있으며, 개인 데이터의 완전한 프라이버시와 개인 정보 누설이 없다는 점을 언급하지 않을 수 없습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 불행히도, 우리는 뭘 놓칠지에 대해 이야기해야 합니다. 먼저, 다중 장치 및 다중 운영 체제에서 작동하는 것을 언급했습니다. Linux Raspberry PI 서버를 모든 사람과 대화하도록 설득하는 것은 그리 쉽지 않습니다. Windows 및 MacOS와의 대화는 거의 즉시 작동해야 하지만, Android나 iOS와 음악 컬렉션을 공유하는 것은 불가능합니다. 핸드폰에서 직접 파일 공유가 없습니다. 앱 중개 파일 공유만 있고, 우리 집 Linux 서버에는 이를 제공하는 앱이 없습니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 물론, Syncthing은 우리가 게시한 각 공유에 구성 파일과 폴더를 마구 추가하여 음악 라이브러리에 많은 원치 않는 추가물을 남겨줍니다. .stfolder 및 .stignore 파일과 같은 것이죠. Syncthing을 사용하는 것을 그만둘 때, 우리는 모든 공유 폴더를 스캔하고 이들을 삭제해야 합니다. 왜냐하면 이들은 우리의 공유 라이브러리에 아무 의미가 없기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 네트워크 연결 스토리지 장치 구성
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 모바일 상황도 점점 나아지고 있습니다. 모든 NAS 장치는 모든 것을 위한 모바일 앱을 제공합니다: 파일 액세스 및 동기화, 음악 플레이어, 비디오 플레이어, 이미지 브라우저 등 클라우드 저장소 솔루션에서 일반적으로 얻는 모든 것. 이는 우리가 폰에 미디어 파일을 로컬로 저장하지 못하거나 폰의 기본 미디어 플레이어 앱을 사용하여 재생할 수 없어도 라이브러리를 중복해서 저장할 필요가 없다는 것을 의미합니다. 전용 NAS 미디어 플레이어를 사용하여 재생할 수 있기 때문에, 집 NAS에 외부 네트워크에 있을 때도 미디어 파일에 완전하게 액세스할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 NAS에 설치된 모든 소프트웨어와 폰과 함께 작동하는 모바일 애플리케이션들은 프로프리테리(독점)입니다. 이 부분에서 조금은 제어 측면에서 손해를 보게 됩니다. 물론, NAS 공급 업체가 모아진 수백 명의 개발자들이 통합 및 세부 조정된 웹 인터페이스의 모든 단계를 단순화하고 간소화하기 위해 고용될 때 완벽한 홈 서버 구성 경험을 얻게 됩니다.
 
@@ -63,7 +103,18 @@ NAS에 설치된 모든 소프트웨어와 폰과 함께 작동하는 모바일 
 
 <img src="/assets/img/2024-07-02-Ahardlookatcloudshomeserversandnetworkstorages_3.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지난 기사에서 이미 이것에 대해 논의되었고, 이것은 실제 해결책보다는 부정행위에 가깝습니다. 비용은 제로이고, 난이도는 낮고, 제어권은 다시 완전합니다. 또한 네트워크에 추가 장치를 추가하지 않아도 되기 때문에 추가 혜택이 있습니다. 대량 저장 공간이 있는 컴퓨터에 음악 컬렉션을 저장하고, 모든 장치에 Syncthing을 구성하여 지역적으로 복제합니다.
 
@@ -73,7 +124,18 @@ NAS에 설치된 모든 소프트웨어와 폰과 함께 작동하는 모바일 
 
 단점은 iOS이며, 운영 체제 제한으로 인해 백그라운드 동기화를 허용하지 않습니다. Syncthing 클라이언트 앱이 열려 있을 때만 동기화를 시작할 수 있습니다. 또한 iOS용 공식 Syncthing 앱은 없지만 MobiusSync라는 써드파티 앱이 있습니다. Syncthing에 의해 생성된 설정 파일 및 폴더를 단점으로 언급하겠습니다. 우리의 라이브러리에 그런 파일이나 폴더가 필요하지 않고, 원하지도 않기 때문입니다. 그것들은 예를 들어 Syncthing 애플리케이션 폴더에 저장돼야 했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 클라우드 사용에 굴복하기
 
@@ -83,7 +145,18 @@ NAS에 설치된 모든 소프트웨어와 폰과 함께 작동하는 모바일 
 
 그러나 좋은 점은 모든 데스크톱과 완벽하게 통합된다는 것입니다. 운영 체제가 무엇이든지 상관없이요. 나쁜 점은 모바일 운영 체제와 통합할 수 없다는 점인데, 이는 그들의 보안 제한 때문입니다. 그래서 전형적인 경우가 발생합니다. 미디어 컬렉션이 OneDrive에 있는데도 기본 미디어 플레이어를 사용하여 폰에서 재생할 수 없다는 것입니다. 왜냐하면 OneDrive 저장소에 액세스할 수 없기 때문입니다. 폴더는 브라우저, 플레이어, 모든 것에서 완전히 차단됩니다. OneDrive 앱에서만 이용할 수 있습니다. 그리고 OneDrive는 미디어 플레이어가 아닙니다. 예를 들어, 폰 화면이 꺼지면 미디어 재생이 중지됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 솔루션이 비용이 많이 듭니다. NAS에 지불하는 것처럼 OneDrive 저장소에 1000 달러를 내지는 않지만, 구독료와 추가 결제가 있습니다. 매년 1000 달러를 벌어들이는 데 큰 노력이 필요하지는 않습니다. 거기서 그치지 않을 것입니다. 클라우드의 이용 가능성에 대한 불확실성을 고려한다면, 이 가격은 완전히 타당하지 않습니다. 끊임없이 변화하는 개인 정보 보호 정책 및 기타 관련 법규도 고려해야 합니다. 이는 항상 당신을 총구 반대쪽에 위치시키는 것 같습니다.
 

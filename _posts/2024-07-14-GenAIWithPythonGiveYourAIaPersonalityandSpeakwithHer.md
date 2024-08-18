@@ -3,7 +3,7 @@ title: "파이썬으로 만드는 GenAI AI에 인격을 부여하고 대화하�
 description: ""
 coverImage: "/assets/img/2024-07-14-GenAIWithPythonGiveYourAIaPersonalityandSpeakwithHer_0.png"
 date: 2024-07-14 02:11
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-14-GenAIWithPythonGiveYourAIaPersonalityandSpeakwithHer_0.png
 tag: Tech
 originalTitle: "GenAI With Python: Give Your AI a Personality and Speak with ”Her”"
@@ -11,17 +11,24 @@ link: "https://medium.com/towards-artificial-intelligence/genai-with-python-give
 isUpdated: true
 ---
 
-
-
-
-
 ![Link Name](https://miro.medium.com/v2/resize:fit:1400/1*BAkXlbE_qXSKeKpyyxiPTQ.gif)
 
 안녕하세요! 이번 글에서는 GPU 없이 노트북에서 특정 인공지능의 성격을 만들고 음성 대화를 할 수 있는 방법에 대해 알려드릴게요.
 
 ## 소개
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **챗봇(Chatbot)에 관한 튜토리얼**
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ## 언어 모델(Language Model)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **최신 LLM 풍경:**
 
@@ -56,7 +74,18 @@ isUpdated: true
 
 ![이미지 가리키는 링크](https://miro.medium.com/v2/resize:fit:1400/1*V27d3YBdK2TMEqQhq_SzNg.gif)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오픈 소스 LLM을 로컬 머신에서 실행할 수 있는 대안 라이브러리가 여러 가지 있습니다. 그 중 주요한 것들은 Ollama, HuggingFace, DSPy, LangChain입니다. 저는 강력하면서 사용자 친화적인 Ollama를 사용하려고 합니다.
 
@@ -66,7 +95,18 @@ isUpdated: true
 
 지금은 Phi3를 사용하고 있습니다. 그 이유는 현재 가장 효율적인 모델이기 때문입니다. 또한 스마트하고 가벼워서 좋습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **이미지 파일을 Markdown 형식으로 변환해보세요:**
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*nSN_VF1WVxDI-F26vOkCxg.gif)
@@ -77,7 +117,18 @@ isUpdated: true
 
 우리는 /set 시스템 'prompt' 명령을 사용하여 베이스 모델을 사용자 정의하고 AI에게 일을 수행할 작업을 쓸 수 있는 개성을 부여할 수 있어요. 이를 Prompt Engineering이라고 하죠 (AI가 수행해야 할 작업을 쓰는 과제에 주어진 멋진 이름이에요):
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로운 모델을 테스트해 봅시다:
 
@@ -85,8 +136,18 @@ isUpdated: true
 
 만족스러운 새로운 성격이라면, `/save '이름'` 명령어로 저장해 보세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![GenAIWithPythonGiveYourAIaPersonalityandSpeakwithHer](/assets/img/2024-07-14-GenAIWithPythonGiveYourAIaPersonalityandSpeakwithHer_4.png)
 
@@ -103,21 +164,29 @@ res = ollama.generate(model="maya", prompt="who are you?")
 print(res["response"])
 ```
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **이미지 태그를 Markdown 형식으로 변경해주세요:**
 
-
 ![이미지](/assets/img/2024-07-14-GenAIWithPythonGiveYourAIaPersonalityandSpeakwithHer_5.png)
-
 
 또는 채팅 기능을 사용하여 AI 채팅처럼 스트리밍 효과를 낼 수 있어요:
 
 ```python
-res = ollama.chat(model="maya", 
+res = ollama.chat(model="maya",
                   messages=[{"role":"system", "content":""},
-                            {"role":"user", 
+                            {"role":"user",
                              "content":"오늘 저녁에 뭐 먹을까요?"}],
                   stream=True)
 for chunk in res:
@@ -126,7 +195,18 @@ for chunk in res:
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/1*mvOSie6J3umZRgaX5PefNg.gif)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 음성 인식
 
@@ -141,7 +221,7 @@ import speech_recognition as sr
 
 recognizer = sr.Recognizer()
 with sr.Microphone() as mic:
-    recognizer.adjust_for_ambient_noise(mic, duration=1)            
+    recognizer.adjust_for_ambient_noise(mic, duration=1)
     print("listening...")
     audio = recognizer.listen(mic)
 
@@ -149,7 +229,18 @@ text = recognizer.recognize_google(audio)
 print(text)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![tarot-gif](https://miro.medium.com/v2/resize:fit:1400/1*ZaRptvj-diG1xRPgSEHNuQ.gif)
 
@@ -171,7 +262,18 @@ os.remove("res.mp3")
 
 ## 챗봇
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마침내, 이제 모든 것을 하나의 스크립트에 통합할 수 있게 되었어요.
 
@@ -220,7 +322,7 @@ class ChatBot():
         speaker.save("res.mp3")
         os.system("afplay res.mp3")  #맥->afplay | 윈도우->start
         os.remove("res.mp3")
-    
+
     ## 미리 지정된 명령어
     def wake_up(self, text):
         lst = ["wake up "+self.name, self.name+"wake up ", "hey "+self.name]
@@ -237,9 +339,9 @@ class ChatBot():
 
 # AI 실행하기
 if __name__ == "__main__":
-    
+
     ai = ChatBot(name="Maya")
-    
+
     while True:
         ai.speech_to_text()
 
@@ -254,13 +356,13 @@ if __name__ == "__main__":
         ## 시간 알려주기
         elif "time" in ai.text:
             res = ai.action_time()
-        
+
         ## 예의 바르게 대답하기
         elif any(i in ai.text for i in ["감사","고마워"]):
             res = np.random.choice(["천만에요!","언제든 물어보세요!","문제 없어!","멋져!","도와줄 준비가 되어 있어요!","조용히 하고 있을게요!"])
-        
+
         ## 대화하기
-        else:   
+        else:
             res = ollama.generate(model=model, prompt=ai.text)["response"]
             res = res.split("\n")[0]
 
@@ -269,10 +371,21 @@ if __name__ == "__main__":
 
 ![동적이미지](https://miro.medium.com/v2/resize:fit:1400/1*EHuq5hogJotp6ZYChphNrg.gif)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 결론
 
-이 기사는 Ollama와 Speech Recognition을 사용하여 직접 음성 비서를 구축하는 방법을 보여주는 튜토리얼이었습니다. 특히, 우리는 사용자 정의 LLM을 활용하여 대화 작업에 초점을 맞췄습니다. 
+이 기사는 Ollama와 Speech Recognition을 사용하여 직접 음성 비서를 구축하는 방법을 보여주는 튜토리얼이었습니다. 특히, 우리는 사용자 정의 LLM을 활용하여 대화 작업에 초점을 맞췄습니다.
 
 즐겁게 즐겼으면 좋겠어요! 궁금한 점이나 피드백, 흥미로운 프로젝트를 공유하고 싶다면 언제든지 연락해 주세요.

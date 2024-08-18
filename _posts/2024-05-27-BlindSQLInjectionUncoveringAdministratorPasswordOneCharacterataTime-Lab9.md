@@ -3,7 +3,7 @@ title: "블라인드 SQL Injection 관리자 패스워드 한 글자씩 알아�
 description: ""
 coverImage: "/assets/img/2024-05-27-BlindSQLInjectionUncoveringAdministratorPasswordOneCharacterataTime-Lab9_0.png"
 date: 2024-05-27 13:06
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-BlindSQLInjectionUncoveringAdministratorPasswordOneCharacterataTime-Lab9_0.png
 tag: Tech
 originalTitle: "Blind SQL Injection: Uncovering Administrator Password One Character at a Time-Lab9"
@@ -11,17 +11,24 @@ link: "https://medium.com/@callgh0st/blind-sql-injection-uncovering-administrato
 isUpdated: true
 ---
 
-
-
-
-
 안녕 친구. 다시 오신 걸 환영합니다. 이번에도 이전 글을 이번 글의 끝에 링크하겠습니다.
 
 # Lab9: 조건부 응답으로 인한 Blind SQL Injection
 
 이 랩에는 Blind SQL Injection 취약점이 포함되어 있습니다. 애플리케이션은 분석을 위해 추적 쿠키를 사용하고, 제출된 쿠키 값이 포함된 SQL 쿼리를 수행합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SQL 쿼리의 결과가 반환되지 않고 오류 메시지가 표시되지 않습니다. 그러나 쿼리가 어떤 행도 반환할 때 페이지에 "다시 오신 것을 환영합니다" 메시지가 표시됩니다.
 
@@ -31,7 +38,18 @@ SQL 쿼리의 결과가 반환되지 않고 오류 메시지가 표시되지 않
 
 해결책
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 시나리오는 이전에 다룬 문제와 비슷해 보입니다. 이전에 작성한 글에서는 카테고리를 클릭하면 인터페이스의 왼쪽 상단에 표시되는 웰컴 백 메시지가 나타납니다.
 
@@ -45,7 +63,18 @@ SQL 쿼리의 결과가 반환되지 않고 오류 메시지가 표시되지 않
 ' AND 1=2-- # 웰컴 백 메시지를 받지 못함.
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-27-BlindSQLInjectionUncoveringAdministratorPasswordOneCharacterataTime-Lab9_2.png" />
 
@@ -57,7 +86,18 @@ SQL 쿼리의 결과가 반환되지 않고 오류 메시지가 표시되지 않
 
 하지만 잘 되지 않았어. 심지어 시간 기반 페이로드도 작동하지 않았어.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 수업 실습을 검토하면, 데이터를 추출하기 위해 substring을 사용할 수 있다는 제안이 있었습니다. 따라서, username이 "administrator"인 것을 알면, 비밀번호만을 추출할 필요가 있습니다.
 
@@ -69,7 +109,18 @@ SQL 쿼리의 결과가 반환되지 않고 오류 메시지가 표시되지 않
 ' AND SUBSTRING((SELECT password FROM users WHERE username='administrator'), 1, 1) = 'a
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1 (시작 위치): 이는 부분 문자열 추출이 문자열(비밀번호)의 첫 번째 문자에서 시작해야 함을 지정합니다.
 1 (길이): 이는 하나의 문자만 추출해야 함을 나타냅니다.
@@ -78,7 +129,18 @@ SQL 쿼리의 결과가 반환되지 않고 오류 메시지가 표시되지 않
 
 ![이미지](/assets/img/2024-05-27-BlindSQLInjectionUncoveringAdministratorPasswordOneCharacterataTime-Lab9_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희의 페이로드가 작동 중이에요. 아래 스크린샷을 확인해주세요. 컨텐츠 길이의 차이를 주목해 주세요. A에 도달하면 "welcome back" 메시지가 반환돼요.
 
@@ -88,7 +150,18 @@ SQL 쿼리의 결과가 반환되지 않고 오류 메시지가 표시되지 않
 
 다음에 사용할 페이로드는 다음과 같을 거에요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ' AND SUBSTRING((SELECT password FROM users WHERE username='administrator'), 2, 1) = 'a
@@ -100,7 +173,18 @@ SQL 쿼리의 결과가 반환되지 않고 오류 메시지가 표시되지 않
 
 제가 'a7eb5rsh00a9n7jffq9v'라는 패스워드를 추출했어요. 하지만, Burp Suite Repeater를 사용하여 확인해보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 페이로드:
 

@@ -3,17 +3,13 @@ title: "락앤롤은 언제 죽었나 통계 분석으로 알아보기"
 description: ""
 coverImage: "/assets/img/2024-07-01-WhenDidRockRollDieAStatisticalAnalysis_0.png"
 date: 2024-07-01 00:27
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-01-WhenDidRockRollDieAStatisticalAnalysis_0.png
 tag: Tech
 originalTitle: "When Did Rock , Roll Die? A Statistical Analysis"
 link: "https://medium.com/fan-fare/when-did-rock-roll-die-a-statistical-analysis-87e429a0b0d8"
 isUpdated: true
 ---
-
-
-
-
 
 ![WhenDidRockRollDieAStatisticalAnalysis_0](/assets/img/2024-07-01-WhenDidRockRollDieAStatisticalAnalysis_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 지난 10년 동안 소리의 선물을 유지했다면 The Lumineers의 "Ho Hey"를 듣은 적이 있을 것입니다. 만약 어떤 이유로 이 노래를 잊어버렸다면, "Ho"와 "Hey"라는 단어를 50번 이상 반복하는 곡입니다. 2012년에 무척 대중적이었던 "Ho Hey"는 The Lumineers를 주류로 끌어올려 톱스타로 설립하며 Mumford & Sons와 The Head and the Heart와 같은 포크 록 서브 장르의 대표로 자리매김했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Alice Cooper, 1970년대의 충격을 주도한 록 가수로서 "School’s Out"와 "Poison" 같은 클래식을 부른 인물입니다. 항상 자신의 의견을 주장하는 Cooper는 특히 Mumford & Songs와 The Lumineers 같은 포크 록의 rising tide에 대해 예외를 두지 않습니다. 2013년, Cooper는 Fuse TV(무엇인가요)와의 인터뷰에서 이 밴드들을 향해 비판을 쏟아냈는데, 그는 이들이 "진정한 록 앤 롤" 을 연주하지 않는다고 주장하며, 아코디언과 플루트 같은 과도하게 선율적인 음악 스타일은 장르에 어울리지 않는다고 주장했습니다.
 
@@ -37,7 +44,18 @@ Cooper의 육식 지지와 Lumineer 비난은 록 앤 롤의 존재론적 펄스
 - 1994년: Nirvana 리드 보컬 커트 코베인의 사망.
 - 2012년: "Ho Hey"가 발매됨.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 록의 몰락을 단일 사건으로 설명하는 것이 편리할 수 있지만, 실제로는 더 복잡한 것일 것입니다. 록은 명확한 정점을 가지고 있을 수 있지만, 그 인기 하락은 다수의 문화적 힘의 결과입니다.
 
@@ -47,7 +65,18 @@ Cooper의 육식 지지와 Lumineer 비난은 록 앤 롤의 존재론적 펄스
 
 음악을 장르로 분류하는 것은 주관적인 예술 형태에 객관적인 분류를 적용하는 것을 포함하는데, 이는 끝없는 인터넷 논쟁만큼 가치가 있는 행동입니다. 노래가 팝인지 힙합인지는 어떻게 결정될까? 왜 힙합과 랩은 종종 동일한 장르로 분류될까? 하나의 노래는 동시에 여러 장르일 수 있을까?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 분석을 설명하는 버전 중에는 분류 기준을 논의하는 데 머무르는 것이 단어 놀이의 악몽으로 변해버리는 경우가 있습니다. 분류 체계의 굴레에 빠지지 않으려고 하겠습니다. 대신, The DataFace의 데이터 시각화 전문가들이 편성한 Spotify 장르 데이터셋을 활용할 것인데요, 이 데이터는 16가지 주요 장르로 27,000곡 이상의 빌보드 차트 곡을 분류합니다. 이 데이터셋이 완벽한가요? 물론 그렇지 않습니다. 완벽한 장르 분류 데이터셋이 존재할까요? 그 또한 아닙니다.
 
@@ -57,7 +86,18 @@ DataFace의 곡 태그를 활용하면 빌보드 TOP 100에서 다양한 장르�
 
 이 데이터에 따르면 장르 인기는 주기적으로 변동하며 새로운 스타일이 지속적으로 주류로 들어오고 빠져나갑니다. 록 앤 롤은 록으로 대체되고, 이후 팝, 랩/힙합, 컨트리의 조합으로 대체됩니다. 대중의 취향이 진화하고 장르가 유행에서 물러납니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 장르의 부상을 그래프로 보면(최고 100위에 차지한 비율이 증가한 시기), 록의 '모노 문화' 통치는 1960년대 초에 시작하여 20년의 기간 안에 요약되었음을 알 수 있습니다.
 
@@ -67,7 +107,18 @@ DataFace의 곡 태그를 활용하면 빌보드 TOP 100에서 다양한 장르�
 
 록은 20년 동안 밝게 빛나다가, 그 후로는 주류에서 격리되었습니다. 그 이후 이 독특한 장르는 '클래식 록'으로 재브랜딩되었거나 (더 나쁜 것은) '아빠 록'으로 불렸으며, 그 전신은 인디, 포크, 대체등과 같은 소장르들로 분화되어 왔습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 이 보편적 진리가 없었던 장르가 왜 쇠퇴했을까요? 록이 어떻게 왜 죽었을까요? 우리가 The Lumineers를 비난할 수밖에 없는데요?
 
@@ -77,7 +128,18 @@ DataFace의 곡 태그를 활용하면 빌보드 TOP 100에서 다양한 장르�
 
 음악 역사는 다양한 패러다임 변화의 연속으로 정의되며, 스타일적 변화의 집단이 새로운 장르나 운동을 시작시키는 팁 포인트다. 록(록앤롤이 아닌)은 이러한 스타일 변이 중 하나에서 탄생했고, 결국 사멸도 이러한 변태 중 하나로 역행할 수 있다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대표적인 연구에서 1957년부터 2010년까지 발표된 빌보드 차트에 올라간 작품을 분석한 기록적인 연구에서 영국 연구팀은 그래프에서 빨간색, 주황색, 노란색으로 표시된 세 가지 음악 작곡 변화를 발견했습니다. 예전부터 읽어 오던 독자라면 이 차트를 음악 장수성에 관한 이전 글에서 기억할 수 있을 겁니다.
 
@@ -89,7 +151,18 @@ DataFace의 곡 태그를 활용하면 빌보드 TOP 100에서 다양한 장르�
 - 1983년 — 신스 세대: 음악 기술의 진화, 특히 신디사이저와 드럼 머신의 등장이 이 변화를 일으켰습니다. 이 시대는 전자 음악으로의 전환을 특징으로 하며, 뉴 웨이브, 신스 팝, 그리고 힙합 초기 단계와 같은 장르에 영향을 끼치며 발전했습니다.
 - 1991년 — 랩 및 힙합의 부상: 이 해는 힙합과 랩의 주류화를 상징하는 시기였으며, 이 장르들은 1980년대를 통해 영향력을 키워왔습니다. 1991년에는 리듬에 중점을 둔, 가사가 복잡한 음악이 주도하며 차트를 지배했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 시기는 DataFace의 장르 데이터 세트에서 관찰된 새로운 스타일의 부상과 일치하며, 초기 1960년대 록의 부상과 팝, 힙합, 랩에 의한 형식의 소멸을 반영합니다.
 
@@ -99,7 +172,18 @@ DataFace의 곡 태그를 활용하면 빌보드 TOP 100에서 다양한 장르�
 
 ![그림](/assets/img/2024-07-01-WhenDidRockRollDieAStatisticalAnalysis_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그렇다고 해서 늦은 1970년대와 초기 1980년대의 위대한 록 밴드가 모두 일정한 틀에 갇혀 있는 것은 아닙니다. 이 기간은 상업적 과다 노출과 널리 흉내 내는 면이 혼재된 시기였죠. Poison, Mötley Crüe, Bon Jovi와 같은 글램 메탈 밴드들은 거들떠 보기 쉽고 예상할 수 있는 파워 발라드로 유명하며, 종종 이 장르의 쇠퇴를 예언하는 존재로 여겨집니다 (그들은 당대의 The Lumineers 였다고 할 수 있습니다). 화려한 외모와 상업적 성공에 집중한 그들은 음악적 스타일 다양성을 감소시키고 음향 실험을 줄여들게 했죠.
 
@@ -109,7 +193,18 @@ DataFace의 곡 태그를 활용하면 빌보드 TOP 100에서 다양한 장르�
 
 ![image](/assets/img/2024-07-01-WhenDidRockRollDieAStatisticalAnalysis_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1980년대 스타일 변화를 이끈 몇 년 동안, 비평가들의 찬사와 소비자 음악 취향 사이에는 상당한 이격이 있었습니다. 그러나 1980년대 중반 록이 메인스트림에서 사라짐에 따라, 비평가와 소비자 음악 취향 사이의 연결은 회복되어 그 이후 30년 동안 일치했습니다.
 
@@ -119,7 +214,18 @@ DataFace의 곡 태그를 활용하면 빌보드 TOP 100에서 다양한 장르�
 
 1990년대 그런지 운동은 저비로우파이(낮은 품질의 제작)와 반자본주의적 정서로 특징 지어졌으며, 종종 록의 주류 중요성으로 보입니다. 그런지 운동의 부상에는 내재적 모순이 있었습니다. Nirvana의 커트 코베인과 Pearl Jam의 에디 베더와 같은 아티스트들은 상업성과 록 스타성을 거부하는 자신들의 새로운 성공과 직면했습니다. 1994년 커트 코베인의 자살로 그런지 운동이 종결되었으며, 이는 이 부상 중인 서브장르와 록이 주류로 돌아오는 최선의 기회를 표시했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 21세기에는 글로벌 녹음 산업의 성장과 아이튠즈를 통한 디지턈 유통, 그리고 이후 스포티파이와 같은 스트리밍 서비스를 통한 도입이 있었습니다. 이러한 플랫폼들은 물리적 매체의 장애와 주요 음반 레이블의 관리를 제거했습니다. 음악가들은 예술적 통제력이 높아진 시장에서 작품들을 매끄럽게 보급할 수 있었고, 매달 $9.99를 지불하면 사용자들은 인류 역사상 모든 노래에 접근할 수 있었습니다. 1970년대에는 록이 음악 소비자들에게 제공된 소수의 장르 중 하나였지만, 이 세기는 끝없는 선택의 시대로 특징 지어졌습니다.
 
@@ -127,7 +233,18 @@ DataFace의 곡 태그를 활용하면 빌보드 TOP 100에서 다양한 장르�
 
 오늘날의 음악 환경에서는 선택할 음악이 그만큼 더 많기 때문에 어떤 단일 장르도 빌보드 탑 100의 60% 점유율을 달성하기는 어렵습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스포티파이의 검색 화면에 가면, 다양한 장르, 서브장르, 그리고 분위기 기반의 분류로 이루어진 끝없는 선택지가 환영합니다. 당신은 "팝", "케이팝", 또는 "앰비언트"를 듣고 싶으신가요? 아니면 "넷플릭스", "디즈니", "포커스"에서 작품을 샘플링하고 싶으신가요?
 
@@ -137,7 +254,18 @@ DataFace의 곡 태그를 활용하면 빌보드 TOP 100에서 다양한 장르�
 
 ![img](/assets/img/2024-07-01-WhenDidRockRollDieAStatisticalAnalysis_8.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사랑하는 밴드나 앨범이 잊혀지는 것은 재미없겠지만, 마무리에는 가치가 있을 수 있어요. 한 가지 상상해볼만한 주제는 록 음악의 쇠퇴에 대한 대안적 역사에 대해 생각해보는 거예요: 만약 이 장르가 사라지지 않았다면 어땠을까요? 만약 록이 시대정신에 영원히 유지됐다면 어땠을까요? 이 궁리의 해답을 '스타 워즈'에서 찾을 수 있어요.
 
@@ -148,7 +276,18 @@ DataFace의 곡 태그를 활용하면 빌보드 TOP 100에서 다양한 장르�
 - 단편적 추억으로 팬덤 보존: 스타 워즈에 대한 호감을 단독 기억으로 남겨두고, 미래 시리즈 출시에게로 마음을 닫아요.
 - 새로운 '스타 워즈' 시리즈와 영화에 참여: 디즈니가 만드는 것은 뭐든 보는 거예요. 그들은 당신의 팬덤을 사들였지만, 그런 대가로 이 사랑받는 영화 우주의 확장을 볼 수 있는 기회를 얻을 수 있어요. 일부 쇼와 영화는 좋을 수도 있고, 다른 것들은 답답할 수도 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 옵션 2에 문제가 있는 것은 아닌데, 많은 스타워즈 팬들이 이 거부할 뿐인 소울네게 주어진 과감한 계약에 조금은 짜증이 나는 것 같아요. 그들이 어릴 적에 영화 세계를 좋아하기로 선택한 이후로, 좋은 것이든 나쁜 것이든 디즈니+가 내놓는 것을 볼 수밖에 없죠. 스타워즈는 영원히 끝나지 않을 거에요. 어린 시절 팬덤의 순수성은 이제 디즈니의 기업 전략과 뒤섞였습니다. 조지 루카스의 1977년 클래식의 영화 혁신은 이제 먼 과거로 사라졌죠.
 
@@ -158,7 +297,18 @@ DataFace의 곡 태그를 활용하면 빌보드 TOP 100에서 다양한 장르�
 
 영화, 음악, TV에 관한 자세한 데이터 중심 에세이를 더 읽고 싶다면, 제 뉴스레터 'Stat Significant'를 살펴보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터와 통계에 대해 이야기하고 싶으신가요? 흥미로운 데이터 프로젝트가 있나요? 그냥 인사를 전하고 싶으신가요? daniel@statsignificant.com 으로 이메일 주세요.
 

@@ -3,18 +3,13 @@ title: "저항 밴드 색상 읽는 방법 쉽게 배우기"
 description: ""
 coverImage: "/assets/img/2024-06-23-HowToReadResistorBandColors_0.png"
 date: 2024-06-23 17:32
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-HowToReadResistorBandColors_0.png
 tag: Tech
 originalTitle: "How To Read Resistor Band Colors"
 link: "https://medium.com/@aryamansharda/how-to-read-resistor-band-colors-b65a9013d630"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![Resistor](/assets/img/2024-06-23-HowToReadResistorBandColors_0.png)
 
@@ -24,9 +19,18 @@ isUpdated: true
 
 저항기의 저항은 저항기 본체의 색 조각을 읽어서 식별할 수 있습니다. 이 기사에서는 4, 5, 6 밴드 저항에 대한 저항기 밴드 색상 읽는 방법에 대해 설명하겠습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](https://miro.medium.com/v2/resize:fit:1096/0*He1_5wkKjnFY2Qm5.gif)
 
@@ -36,8 +40,18 @@ isUpdated: true
 
 4밴드 저항기에서 첫 두 밴드는 저항 값의 첫 번째와 두 번째 숫자를 나타냅니다. 세 번째 밴드는 배율을 나타내고, 네 번째 밴드는 허용 편차를 나타냅니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4밴드 저항기 색 코드를 읽을 때 따라야 할 단계를 알려드리겠어요:
 
@@ -49,7 +63,18 @@ isUpdated: true
 
 그다음으로, 네 번째 밴드의 색을 식별하여 허용 편차를 결정하세요. 허용 편차는 지정된 저항 값에서 허용되는 저항기의 편차를 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 5-Band 저항기 색상 코드
 
@@ -61,7 +86,18 @@ isUpdated: true
 - 네 번째 밴드의 색상을 사용하여 배수기를 결정하십시오. 이는 첫 세 자리 숫자 뒤에 따라오는 0의 개수를 나타냅니다.
 - 다음 공식을 사용하여 저항값을 계산합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 저항 (Ω) = (첫 번째 숫자 값 x 100 + 두 번째 숫자 값 x 10 + 세 번째 숫자 값) x 배율
 
@@ -71,7 +107,18 @@ isUpdated: true
 
 6 밴드 저항기의 첫 세 밴드는 저항값의 첫 번째, 두 번째, 세 번째 숫자를 나타냅니다. 네 번째 밴드는 배율을, 다섯 번째 밴드는 공차를, 여섯 번째 밴드는 온도 계수를 나타냅니다. 6밴드 저항기 색코드를 읽을 때 따라야 할 단계는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 저항기 밴드 색상 차트를 사용하여 첫 번째 세 밴드의 색상과 해당 값 식별
 - 네 번째 밴드 색상을 사용하여 0을 뒤따르는 숫자를 나타내는 곱산자 결정
@@ -83,7 +130,18 @@ isUpdated: true
 
 저항기 밴드 색상을 읽는 것은 혼란스러울 수 있지만, 올바른 도구와 지식이 있다면 간단한 작업이 됩니다. 4, 5 또는 6 밴드 저항기를 사용하든, 저항값, 곱산자, 허용 편차 및 온도 계수를 정확히 결정하기 위해 저항기 색상코드 차트를 사용하는 것이 중요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사에 제시된 단계를 따라가면 저합리로 저항을 다루고 회로가 의도대로 작동하는지 확인할 수 있어요. 귀찮다면, 저처럼 온라인/모바일 계산기 중 하나를 자유롭게 사용하세요.
 
@@ -93,7 +151,18 @@ isUpdated: true
 
 소프트웨어가 작동하는 만족감을 경험할 뿐만 아니라, 하드웨어가 올바르게 작동하는 것을 볼 수 있는 추가적인 혜택도 얻을 수 있어요. 두 가지가 매끄럽게 동작할 때, 이 느낌은 전혀 다른 만족감을 줘요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 누가 알겠어요, 아마 나의 미래에는 직업 전환이 있을지도 몰라요...
 

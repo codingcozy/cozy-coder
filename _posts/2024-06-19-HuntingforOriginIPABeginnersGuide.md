@@ -3,17 +3,13 @@ title: "원본 IP 추적하기 초보자를 위한 안내"
 description: ""
 coverImage: "/assets/img/2024-06-19-HuntingforOriginIPABeginnersGuide_0.png"
 date: 2024-06-19 04:16
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-HuntingforOriginIPABeginnersGuide_0.png
 tag: Tech
 originalTitle: "Hunting for Origin IP: A Beginner’s Guide"
 link: "https://medium.com/@pruthu.raut/hunting-for-origin-ip-a-beginners-guide-70235f3dd415"
 isUpdated: true
 ---
-
-
-
-
 
 안녕하세요,
 
@@ -23,15 +19,35 @@ isUpdated: true
 
 먼저 도메인을 획득합니다. 도메인을 얻은 후 도메인 주소를 복사하고 웹 브라우저에서 엽니다. 웹 브라우저에서 열면 홈페이지가 나타납니다. 그런 다음 추가 단계를 위해 다시 도메인을 얻습니다. 웹사이트가 Cloudflare를 사용 중임을 명확히 알 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Step 2: Using Shodan](https://www.shodan.io/)
 
 ![Image 1](/assets/img/2024-06-19-HuntingforOriginIPABeginnersGuide_1.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리의 첫 번째 방법은 Shodan을 사용하는 것입니다. Shodan을 사용하면, 아래와 같은 shodan dork와 함께 도메인을 붙여넣습니다.
 
@@ -41,7 +57,18 @@ ssl:”redacted.com”
 
 # 단계 3: Censys 사용하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 https://search.censys.io/
 
@@ -51,7 +78,18 @@ https://search.censys.io/
 
 # 단계 4: 웹 애플리케이션 방화벽 (WAF) 확인
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![텍스트](/assets/img/2024-06-19-HuntingforOriginIPABeginnersGuide_3.png)
 
@@ -61,7 +99,18 @@ https://search.censys.io/
 
 [https://en.fofa.info/](https://en.fofa.info/)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 Shodan이나 Censys를 사용하여 원본 IP를 찾는 데 어려움을 겪는다면, Foofa라는 다른 검색 엔진이 있습니다. 도메인을 입력하면 Foofa가 관련된 IP 주소를 제공해줍니다.
 
@@ -71,7 +120,18 @@ https://search.censys.io/
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 테이블 태그를 마크다운 형식으로 바꿔보겠습니다.
 
@@ -83,7 +143,18 @@ https://search.censys.io/
 
 X: [https://x.com/techypruthu](https://x.com/techypruthu)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LinkedIn: [Pruthu Raut](https://www.linkedin.com/in/pruthu-raut-89260a26a/)
 
@@ -93,7 +164,18 @@ LinkedIn: [Pruthu Raut](https://www.linkedin.com/in/pruthu-raut-89260a26a/)
 
 웹 응용 프로그램 방화벽 (WAF)은 패턴 일치 및 트래픽 분석을 사용하여 교차 사이트 스크립팅 (XSS), SQL 삽입 및 악성 문자열과 같은 공격으로부터 응용 프로그램을 보호합니다. 일부 응용프로그램은 주요 방어 수단으로 WAF에 완전히 의존합니다. WAF를 우회하는 공격자는 특별히 만든 페이로드를 통해 응용 프로그램 서버에 직접 액세스할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 사업 영향
 
@@ -108,7 +190,18 @@ WAF 우회는 고객의 응용 프로그램 보안에 대한 신뢰에 영향을
 - 방화벽이 없음을 확인합니다.
 - 확장 프로그램 "Wappalyzer"를 사용하여 사이트가 Cloudflare WAF를 사용하고 있지 않은지 확인합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 권장 사항
 

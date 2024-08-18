@@ -3,17 +3,13 @@ title: "독보적인 데이터 사이언스 포트폴리오 만들기 종합 가
 description: ""
 coverImage: "/assets/img/2024-07-13-BuildingaStandoutDataSciencePortfolioAComprehensiveGuide_0.png"
 date: 2024-07-13 02:41
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-BuildingaStandoutDataSciencePortfolioAComprehensiveGuide_0.png
 tag: Tech
 originalTitle: "Building a Standout Data Science Portfolio: A Comprehensive Guide"
 link: "https://medium.com/towards-data-science/building-a-standout-data-science-portfolio-a-comprehensive-guide-6dabd0ec7059"
 isUpdated: true
 ---
-
-
-
-
 
 # 맥락
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이 기사에서는 데이터 과학 포트폴리오 구성 방법, 콘텐츠 전략 및 우수한 포트폴리오의 요소에 대해 논의할 것이다. 이 아이디어를 고려해 본 적이 있지만 어디서부터 시작해야 할지 모르는 경우, 이 기사가 도움이 될 것이다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `![portfolio](/assets/img/2024-07-13-BuildingaStandoutDataSciencePortfolioAComprehensiveGuide_0.png)`
 
@@ -33,20 +40,44 @@ isUpdated: true
 
 옵션 1: GitHub
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 명확히 말씀드리자면, 놀라운 데이터 과학 포트폴리오를 갖기 위해서 개인 웹 사이트가 꼭 필요한 것은 아닙니다. 웹 사이트를 구축하고 유지하는 데에는 상당한 시간이 소요됩니다. 이미 웹 사이트를 보유하고 있지 않고 취직 준비를 하고 계신다면 두 번 생각하고 비용 대비 분석을 해보세요. 최근 데이터 과학 인터뷰에서는 SQL, Python, 기계 학습, 심층 학습, 통계, 인과 추론, 제품 케이스, 행동 질문 등 다양한 주제를 다루니, 인터뷰 준비만으로도 이미 많은 시간을 소비하게 됩니다. 시간을 현명하게 우선순위를 정하고, 가장 필요한 기술을 향상시키는 데나 타겟 회사에서 요구하는 기술부터 시작해보세요.
 
 기술 프로젝트를 쇼케이스할 통합된 장소가 필요한 경우, GitHub가 가장 쉽고 아마도 가장 인기 있는 방법입니다. 학교에서 GitHub을 사용하기 시작하여 동료들과 협업하고 과제 프로젝트를 호스팅하는 데 사용했는데, 기술적 능력을 쇼케이스하는 훌륭한 방법이었습니다.
 
 장점:
+
 - 설정이 아주 쉽습니다! GitHub 계정만 있으면 되며, 각 프로젝트는 각각의 저장소(repo)가 될 수 있습니다.
 - 개발자와 데이터 과학자들 사이에서 널리 사용되므로 좋은 GitHub 포트폴리오 유지는 전문성을 보여줍니다.
 - GitHub의 특성 덕분에 코드를 보관하고 공유하기에도 적합하며, 이는 많은 데이터 과학 프로젝트에 필수적입니다. 각 저장소마다 깔끔하고 쉽게 따라갈 수 있는 readme 파일을 포함하여 작성해야 합니다. 마치 직장에서 이해관계자들에게 프로젝트 개요를 작성하는 것처럼요. 이렇게 함으로써 비즈니스 작성 스킬을 연마할 수 있고, 독자들도 빠르게 프로젝트 이해할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### Drawbacks:
+
 - **GitHub** is great for hosting code, but it can be more challenging to display content in other formats.
 - It lacks the customization options available with a traditional website.
 
@@ -54,11 +85,23 @@ isUpdated: true
 
 **Medium** can be a fantastic platform for showcasing your data science portfolio. It's an excellent opportunity to highlight your expertise in the field. Remember, you don’t have to be a seasoned pro to write on Medium; you can use it to chronicle your learning journey and share insights on data science.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최근 저는 Medium에 제 글을 올리기 시작했어요. 여기를 확인해 보세요! 그리고 어떤 콘텐츠를 더 보고 싶으신지 알려주세요 :)
 
 장점:
+
 - 시작하기 쉬워요. 계정이 있으면 언제든지 글을 쓸 수 있고, Medium의 UI도 글쓰기에 직관적이고 깔끔한 편이에요.
 - Medium은 글의 배포를 대신해주기 때문에 당신이 직접 웹사이트의 SEO를 하는 것보다 더 넓은 관중에게 도달할 수 있어요.
 - Medium은 독자들과 소통하기 쉽게 만들어져 있어요. 독자들의 피드백을 받고, 공유 관심사를 가진 사람들과 소통할 수 있어요.
@@ -66,7 +109,18 @@ isUpdated: true
 
 단점:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 블로깅 웹사이트인 만큼 코드가 많은 기술적 내용을 공유하는 것이 어려울 수 있습니다. 여전히 GitHub 리포지토리를 정리하고 기사에 링크를 유지해야 할 수도 있습니다.
 - 레이아웃과 디자인을 조절하는 유연성이 떨어집니다.
@@ -77,27 +131,62 @@ isUpdated: true
 
 저는 Minimal Mistakes Jekyll 템플릿을 사용하여 웹사이트를 기본 UI보다 조금 더 나은 모습으로 만들었으며, 설정 프로세스를 이 기사에 문서화했습니다. 최근에는 ChatGPT의 도움으로 디자인을 개선했는데, 이를 여기에서 읽을 수 있습니다. 아직 매우 기본적이며, 예를 들어 기사의 시각적 섬네일을 추가함으로써 나은 디자인을 계획하고 있습니다. 제안 사항이 있으시면 아래에 댓글을 달아주세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 장점:
+
 - 무료이며, 기본 코딩 기술을 가지고 상대적으로 쉽게 설정할 수 있으며, Jekyll 템플릿을 통해 다양한 사용자 정의가 가능합니다.
 - GitHub를 통해 버전 관리 및 로컬 테스트를 할 수 있습니다.
 
 단점:
+
 - 마크다운으로 모든 페이지를 작성할 수는 있지만, 웹사이트 디자인을 더 많이 사용자 정의하기 위해 프런트 엔드 지식이 필요합니다. 예를 들어, 두 이미지를 나란히 추가하기 위해 약간의 CSS와 HTML 코드를 추가해야 했는데요 (물론 ChatGPT에 도움을 요청할 수도 있습니다).
 - 다른 제한 사항들이 존재합니다. 예를 들어, SEO 및 분석을 위한 내장 도구가 없으므로 대상 독자층의 확대가 제한될 수 있습니다. 댓글이나 구독과 같은 상호 작용 요소를 추가하기 어려울 수 있습니다. 이는 백엔드 서버 없는 정적 사이트이기 때문입니다. 사용자 정의 도메인을 사용하는 것은 DNS 설정이 조금 복잡할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보너스 포인트:
 
-- GitHub Pages에 호스팅된 웹사이트에 Google Analytics를 쉽게 통합할 수 있습니다. 저는 사용한 Jekyll 템플릿에 몇 가지 매개변수를 _config.yml 파일에 추가하기만 했습니다. 이를 통해 사이트 트래픽과 관객 행동을 이해하고 웹 분석 기술을 연습할 수 있습니다. 또한 LinkedIn 및 Medium 글의 영향을 측정하는 데도 활용하고 있습니다 (네, 이 글로부터의 트래픽 또한 모니터링할 것입니다 😄 ). 이전에 작성한 LinkedIn 참여 분석 자료를 여기서 확인하세요.
+- GitHub Pages에 호스팅된 웹사이트에 Google Analytics를 쉽게 통합할 수 있습니다. 저는 사용한 Jekyll 템플릿에 몇 가지 매개변수를 \_config.yml 파일에 추가하기만 했습니다. 이를 통해 사이트 트래픽과 관객 행동을 이해하고 웹 분석 기술을 연습할 수 있습니다. 또한 LinkedIn 및 Medium 글의 영향을 측정하는 데도 활용하고 있습니다 (네, 이 글로부터의 트래픽 또한 모니터링할 것입니다 😄 ). 이전에 작성한 LinkedIn 참여 분석 자료를 여기서 확인하세요.
 
 ![Building a Standout Data Science Portfolio: A Comprehensive Guide](/assets/img/2024-07-13-BuildingaStandoutDataSciencePortfolioAComprehensiveGuide_1.png)
 
 옵션 4: Squarespace 및 Wix와 같은 웹사이트 빌더들
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다른 옵션으로 Squarespace나 Wix와 같은 웹사이트 빌더 도구를 사용하는 것도 좋은 방법이에요. 이 도구들은 코딩에 익숙치 않은 사람들이나 시각적인 방법으로 사이트를 구축하길 선호하는 사람들에게 이상적인 사용하기 쉬운 드래그 앤 드롭 인터페이스를 제공해요.
 
@@ -108,7 +197,18 @@ isUpdated: true
 - 다양한 미리 디자인된 템플릿을 제공하여, 전문적인 웹사이트를 쉽게 구축할 수 있어요.
 - 일반적으로 내장된 SEO 및 분석 도구를 제공하여 웹 트래픽을 이해하고 웹사이트를 검색 엔진 최적화할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **Drawbacks:**
 
@@ -118,7 +218,18 @@ isUpdated: true
 
 If you are well-versed in website development and crave complete control and customization, creating your website from scratch could be the perfect choice.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Portfolio Content](/assets/img/2024-07-13-BuildingaStandoutDataSciencePortfolioAComprehensiveGuide_2.png)
 
@@ -133,7 +244,18 @@ If you are well-versed in website development and crave complete control and cus
 - 학습 노트: 튜토리얼을 작성하기에는 전문가가 아니거나 편집하기에 충분히 편안한 경우가 있습니다. 대신 읽기, 수강, 자격증, 업무 프로젝트 등에서 학습한 내용을 정리한 학습 노트를 작성할 수 있습니다. 이는 여러분의 기억력을 강화해 주며, 지속적으로 새로운 지식을 습득하고 있으며, 이는 좋은 데이터 과학자가 되기 위한 중요한 요소라는 것을 보여줍니다. 예를 들어, 여기 DeepLearning.ai의 ChatGPT Prompt Engineering for Developers 코스에 대한 제 학습 노트가 있습니다.
 - 경력 이야기: 기술적인 콘텐츠 외에도 업무 경험, 경력에 대한 생각, 데이터 과학가가 되고자 하는 이들을 위한 조언을 포트폴리오에 문서화할 수 있습니다. 이 콘텐츠는 다른 사람들에게 도움이 되는 것뿐만 아니라 여러분 자신의 경력을 되돌아볼 수 있는 훌륭한 기회가 될 것입니다. 예를 들어, 여기에서 저 자신이 더 나은 데이터 과학가가 되기 위한 다섯 가지 핵심 교훈이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당연히 위에 쓴 모든 것을 다 해야만 하는 건 아니지만, 이런 아이디어들이 당신에게 영감을 줄 수 있기를 바랍니다.
 
@@ -143,7 +265,18 @@ If you are well-versed in website development and crave complete control and cus
 
 매력적인 데이터 과학 포트폴리오를 만드는 것은 기술적 역량을 과시하는 것 뿐만 아니라, 그것들을 고유한 성격과 전문성을 반영하는 방식으로 제시하는 것과도 관련이 있습니다. 내가 생각하기에 좋은 데이터 과학 포트폴리오를 만드는 세 가지 중요 요소는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 자신을 표현하세요: 자신의 개성을 포트폴리오에 반영해보세요. 데이터 과학에 대한 관심, 동기부여, 흥미로운 점을 공유해보세요. 이러한 개인적인 접근은 포트폴리오를 더 매력적이고 기억에 남도록 만들 수 있습니다. 사실, 개인적인 경험과 이야기가 담긴 Medium 기사들이 더 많은 독자들을 끌어들인다는 것을 발견했습니다.
 - 전문가 다운 태도: 언제나 기업 이해관계자들에게 발표할 것처럼 글을 써보세요. 각 프로젝트에는 문제에 대한 명확한 설명, 접근 방식, 사용된 도구와 방법, 결과가 포함되어야 합니다. 내용이 명확하고 따라가기 쉬우며, 자세하지만 너무 복잡하지 않고, 오타 없이 작성되도록 해보세요.

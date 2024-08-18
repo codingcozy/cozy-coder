@@ -3,18 +3,13 @@ title: "코로나19 데이터와 의료 시설 분석 인사이트와 추천 사
 description: ""
 coverImage: "/assets/img/2024-06-23-AnalysisofHealthcareFacilitiesandCOVID-19DataInsightsandRecommendations_0.png"
 date: 2024-06-23 16:52
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-AnalysisofHealthcareFacilitiesandCOVID-19DataInsightsandRecommendations_0.png
 tag: Tech
 originalTitle: "Analysis of Healthcare Facilities and COVID-19 Data: Insights and Recommendations"
 link: "https://medium.com/@Splendor001/analysis-of-healthcare-facilities-and-covid-19-data-insights-and-recommendations-391d82381db3"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![2024-06-23-AnalysisofHealthcareFacilitiesandCOVID-19DataInsightsandRecommendations](/assets/img/2024-06-23-AnalysisofHealthcareFacilitiesandCOVID-19DataInsightsandRecommendations_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 지속적인 COVID-19 유행으로 인해 의료 부문에 상당한 영향을 미쳤으며, 의료 시설은 환자 치료와 관리에서 중요한 역할을 합니다. COVID-19 사례 및 의료 시설과 관련된 데이터를 이해하는 것은 공공 보건 및 의료 관리에 관여하는 의료 관리자, 정책 결정자 및 기타 이해 관계자들에게 중요합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2020년부터 2023년까지 다수의 데이터셋을 결합하여 이 분석에 사용된 데이터를 작성했습니다. 이를 통해 상황이 어떻게 변화되고 있는지를 전체적으로 파악할 수 있었습니다. 이 데이터셋에는 사망자, COVID-19 사례, 및 병원의 점유율, 공급자 이름, 그리고 공급자 주소와 같은 다양한 병원 특성에 관한 세부 정보가 포함되어 있습니다.
 
@@ -35,7 +40,18 @@ isUpdated: true
 
 우리는 이 분석에서 파생된 결과 및 권고사항을 제시함으로써 의료관리자, 정책 결정자, 그리고 의료 데이터 분석 분야에 관심을 가지는 사람들에게 유용한 통찰을 제공하기를 희망합니다. 이 보고서는 의료 부문 대비 준비 상태, 자원 할당, 그리고 기술 개발을 개선하기 위한 조치 및 데이터 기반 의사 결정의 시작점 역할을 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 섹션에서는 의료 시설 및 COVID-19 데이터를 분석한 결과 도출된 주요 결론, 분석 방법론 및 제안 사항에 대해 다룹니다.
 
@@ -45,7 +61,18 @@ isUpdated: true
 
 데이터셋은 여기에서 찾을 수 있습니다. 데이터 사전은 여기에서 찾을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 데이터 정제
 
@@ -58,7 +85,18 @@ isUpdated: true
 
 이러한 데이터 정제 및 프로필링 단계를 수행함으로써 데이터 집합이 신뢰성 있고 일관성 있으며 추가 분석을 위해 준비되었습니다. 이는 데이터 집합에서 도출된 통찰력의 신뢰성과 정확성을 향상시킵니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 분석 및 결과
 
@@ -74,7 +112,18 @@ ORDER BY average_daily_cases DESC;
 
 ![Healthcare Facilities Data Analysis](/assets/img/2024-06-23-AnalysisofHealthcareFacilitiesandCOVID-19DataInsightsandRecommendations_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - NELLA'S AT AUTUMN LAKE HEALTHCARE은 평균 29건의 일일 COVID-19 케이스로 가장 높은 평균을 기록하며 돋보입니다. 이는 시설의 위치, 지역 커뮤니티 전파율, 검사 프로토콜, 감염 통제 조치, 환자 인구 통계 및 자원 배정과 같은 다양한 요인으로 인해 발생할 수 있습니다.
 - 일일 평균 7.5건의 케이스로 KENT COUNTY NURSING HOME이 뒤를 따르며, LAURELS OF HILLIARD THE는 평균 7건을 보고 있습니다. 이러한 시설들은 효과적인 예방 조치 또는 해당 지역의 COVID-19 유행률이 낮아 낮은 케이스 수를 경험할 수 있습니다.
@@ -85,17 +134,17 @@ ORDER BY average_daily_cases DESC;
 ```js
 --각 건강 시설의 COVID-19 케이스에 대한 7일 이동 평균 계산. 가장 높은 피크를 기록한 시설은 무엇입니까?
 WITH cte AS (
-  SELECT 
+  SELECT
     Provider_Name,
     [Week_Ending],
     [Residents_Weekly_Confirmed_COVID_19],
     AVG([Residents_Weekly_Confirmed_COVID_19]) OVER (
-      PARTITION BY [Provider_Name] 
-      ORDER BY CONVERT(DATE, [Week_Ending]) 
+      PARTITION BY [Provider_Name]
+      ORDER BY CONVERT(DATE, [Week_Ending])
       ROWS BETWEEN 6 PRECEDING AND CURRENT ROW
     ) AS moving_average
   FROM (
-    SELECT [Provider_Name], [Week_Ending], [Residents_Weekly_Confirmed_COVID_19] 
+    SELECT [Provider_Name], [Week_Ending], [Residents_Weekly_Confirmed_COVID_19]
     FROM [dbo].[faclevel_2020]
     UNION ALL
     SELECT [Provider_Name], [Week_Ending], [Residents_Weekly_Confirmed_COVID_19]
@@ -116,7 +165,18 @@ ORDER BY highest_peak DESC;
 
 <img src="/assets/img/2024-06-23-AnalysisofHealthcareFacilitiesandCOVID-19DataInsightsandRecommendations_2.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 분석 결과, 최고 일일 COVID-19 케이스를 기록한 의료 시설이 강조되었습니다. 이러한 시설들은 특정 기간 동안 COVID-19 감염 증가로 큰 위기를 겪었습니다. 최고 피크 케이스를 가진 상위 10개 시설은 다음과 같습니다:
 
@@ -135,7 +195,18 @@ ORDER BY highest_peak DESC;
 
 3. 각 주별 COVID-19 케이스, 사망자 및 회복자의 총 수를 결정하십시오. 결과에는 주 이름과 해당 수를 포함하십시오.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 -- 각 주별 COVID-19 총 환자 수, 사망자 수 및 회복자 수를 결정하세요. 결과에는 주 이름과 해당 수를 포함합니다.
@@ -172,7 +243,18 @@ FROM cte;
 - TotalDeaths: 각 주에서 COVID-19로 인한 사망한 사람들의 총 수.
 - TotalRecoveries: 각 주에서 COVID-19 완치한 사람들의 총 수.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 주목할 만한 관찰 내용입니다:
 
@@ -184,7 +266,18 @@ FROM cte;
 
 2022년에 사망률(COVID-19 사례당 사망자 수)이 가장 높은 상위 5개 주를 찾아보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 -- 2022년에 사망률이 가장 높은 상위 5개 주를 찾습니다.
@@ -213,7 +306,18 @@ ORDER BY MortalityRate DESC;
 - 북 다코타(ND)가 84.46%의 가장 높은 사망률을 보유하고 있으며, 남 다코타(SD)가 77.65%로 그 뒤를 이었으며, 네브래스카(NE)는 74.62%로 세 번째입니다.
 - 미네소타(MN)와 위스콘신(WI)도 각각 72.82%와 71.45%로 비교적 높은 사망률을 갖고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 COVID-19이 특정 주에 미친 영향의 심각성을 강조하며, 더 높은 사망률은 총 사례 대비 사망 비율이 높음을 나타냅니다.
 
@@ -244,7 +348,18 @@ ORDER BY PercentageIncrease DESC;
 
 <img src="/assets/img/2024-06-23-AnalysisofHealthcareFacilitiesandCOVID-19DataInsightsandRecommendations_5.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가장 높은 증가율을 기록한 상위 10개 시설은 다음과 같습니다:
 
@@ -263,7 +378,18 @@ ORDER BY PercentageIncrease DESC;
 
 6. 데이터셋에 기록된 COVID-19 사례, 사망자 수, 회복자 수의 총합은 무엇입니까?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```sql
 -- 데이터셋에 기록된 총 COVID-19 환자 수, 사망자 수 및 회복자 수는 얼마인가요?
@@ -294,8 +420,18 @@ FROM (
 - 총 COVID-19 사망자 수: 1,058,889
 - 총 COVID-19 회복자 수: 573,806
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 숫자들은 COVID-19 환자 수, 사망자 수 및 회복자 수를 누적한 것입니다. 새로운 사례가 보고되고 사람들이 바이러스로부터 회복됨에 따라 이 숫자들이 시간이 지남에 따라 변할 수 있다는 점을 주목하는 것이 중요합니다.
 
@@ -344,7 +480,18 @@ HAVING COUNT(*) >= 5;
 
 ![이미지](/assets/img/2024-06-23-AnalysisofHealthcareFacilitiesandCOVID-19DataInsightsandRecommendations_7.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 7. 각 의료 시설의 사망률(사망자 수 대비 COVID-19 사례)을 계산하세요.
 
@@ -391,7 +538,18 @@ ORDER BY MortalityRate DESC;
 
 다음은 각 요양원 및 관련 사망률 목록입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - WESTPARK A WATERS COMMUNITY — 1675.00
 - NASSAWADOX REHABILITATION AND NURSING — 1600.00
@@ -537,7 +695,18 @@ GROUP BY 시설_유형
 ORDER BY 총_사례 DESC;
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-23-AnalysisofHealthcareFacilitiesandCOVID-19DataInsightsandRecommendations_9.png" />
 
@@ -552,7 +721,18 @@ ORDER BY 총_사례 DESC;
 
 9. COVID-19 사례 수가 시간이 지남에 따라 어떻게 변화했습니까(월별 또는 분기별)?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```sql
 -- COVID-19 환자 수가 시간이 지남에 따라 어떻게 변화했습니까 (월별 또는 분기별)?
@@ -597,9 +777,20 @@ ORDER BY [Year], [Month];
 
 여기에 월별 및 연도별 총 환자 수에 대한 요약이 있습니다:
 
-2020:  
+2020:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 5월: 103,428
 - 6월: 30,173
@@ -627,7 +818,18 @@ ORDER BY [Year], [Month];
 
 2022:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 1월: 194,558
 - 2월: 58,284
@@ -652,7 +854,18 @@ ORDER BY [Year], [Month];
 
 이 수치들은 각 월과 연도별로 보고된 총 사례 수를 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 10. 주별 의료 시설 분포는 어떻게 되나요?
 
@@ -692,8 +905,18 @@ ORDER BY FacilityCount DESC;
 
 # 대시보드
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-23-AnalysisofHealthcareFacilitiesandCOVID-19DataInsightsandRecommendations_12.png" />
 
@@ -703,8 +926,18 @@ ORDER BY FacilityCount DESC;
 
 1. 예방 조치 강화: 마스크 착용, 적절한 손 위생 실천, 거리두기 등의 예방 조치를 계속 강화하고 시행해야 합니다. 대중에게 이러한 조치가 COVID-19 전파 감소에 어떠한 중요성을 가지는지 강조하는 공공 인식 캠페인이 실시되어야 합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 예방 접종 캠페인: COVID-19 백신을 홍보하고 모든 자격을 갖춘 사람들에게 백신을 제공할 수 있도록 노력을 강화하세요. 백신 망설임에 대처하고 접종률을 높이기 위해 대상 지역에 대한 열심히 홍보하고 교육을 실시하세요.
 
@@ -714,7 +947,18 @@ ORDER BY FacilityCount DESC;
 
 5. 데이터 모니터링 및 분석: 계속해서 데이터를 모니터링하고 분석하여 신흥되는 추세, 핫스팟 및 문제 지역을 식별하세요. 이 정보를 활용하여 의사 결정, 자원 할당 및 효과적인 공중보건 조치의 실행에 활용하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -724,7 +968,18 @@ ORDER BY FacilityCount DESC;
 
 COVID-19 대유행 대응은 정부 기관, 의료기관 및 대중의 협력과 집단적 노력이 필요합니다. 권고사항을 따르고 데이터 분석을 기반으로 전략을 계속적으로 적응시킴으로써 예방 조치의 효과를 향상시키고 접종률을 증가시키며 바이러스의 영향을 감소시킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상황이 발전함에 따라 COVID-19 팬데믹으로 인한 도전에 대응하기 위해 계속해서 모니터링, 평가 및 전략적 적응이 필요할 것입니다. 함께 노력하여 바이러스 전파를 통제하고 공중 보건을 보호하며 정상 상태로 돌아가는 데 일조할 수 있습니다.
 

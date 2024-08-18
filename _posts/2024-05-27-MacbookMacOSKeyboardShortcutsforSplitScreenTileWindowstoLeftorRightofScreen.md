@@ -3,16 +3,13 @@ title: "맥북 MacOS 키보드 단추로 스플릿 화면 창을 화면 왼쪽 �
 description: ""
 coverImage: "/assets/img/2024-05-27-MacbookMacOSKeyboardShortcutsforSplitScreenTileWindowstoLeftorRightofScreen_0.png"
 date: 2024-05-27 12:21
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-MacbookMacOSKeyboardShortcutsforSplitScreenTileWindowstoLeftorRightofScreen_0.png
 tag: Tech
 originalTitle: "Macbook   MacOS Keyboard Shortcuts for Split Screen (Tile Windows to Left or Right of Screen)"
 link: "https://medium.com/@brightskylogic/macbook-macos-keyboard-shortcuts-for-split-screen-tile-windows-left-and-right-d5ebb6342d37"
 isUpdated: true
 ---
-
-
-
 
 Windows 운영 체제는 창을 분할 화면으로 이동하는 단축키를 Windows 키 + 왼쪽/오른쪽 화살표를 사용하여 수행할 수 있습니다. MacOS에서는 어떤 창의 전체 화면(녹색) 버튼 위에 마우스 포인터를 가져다 놓고 옵션을 선택하여 이 작업을 수행할 수 있습니다.
 
@@ -22,7 +19,18 @@ Windows 운영 체제는 창을 분할 화면으로 이동하는 단축키를 Wi
 
 # 1. 키보드 설정으로 이동하기.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Mac에서는 Apple 메뉴를 선택한 후 `시스템 환경 설정`을 클릭하고, 키보드를 클릭한 다음 가운데에 있는 `키보드 단축키` 탭을 클릭하세요.
 
@@ -32,7 +40,18 @@ Mac에서는 Apple 메뉴를 선택한 후 `시스템 환경 설정`을 클릭�
 
 ## 2. 앱 단축키 추가
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 왼쪽의 앱 단축키를 선택한 다음, 추가 버튼 +을 클릭하세요.
 
@@ -44,8 +63,18 @@ Mac에서는 Apple 메뉴를 선택한 후 `시스템 환경 설정`을 클릭�
 메뉴 제목: "화면 왼쪽에 타일 창"을 입력합니다(모든 애플리케이션의 창 메뉴에있는 메뉴 항목 텍스트이기 때문에 정확히 그렇게 입력해야 합니다).
 키보드 단축키: Control, Command, 왼쪽 화살표 키 조합을 동시에 누릅니다. 아래 스크린샷을 참조하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![img](/assets/img/2024-05-27-MacbookMacOSKeyboardShortcutsforSplitScreenTileWindowstoLeftorRightofScreen_4.png)
 
@@ -55,8 +84,18 @@ Mac에서는 Apple 메뉴를 선택한 후 `시스템 환경 설정`을 클릭�
 
 ![img](/assets/img/2024-05-27-MacbookMacOSKeyboardShortcutsforSplitScreenTileWindowstoLeftorRightofScreen_5.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4. 화면 오른쪽에 타일 창 추가하기 바로 가기
 
@@ -69,7 +108,18 @@ Mac에서는 Apple 메뉴를 선택한 후 `시스템 환경 설정`을 클릭�
 
 (참고: 다른 바로 가기를 선택할 수 있지만, Command, 오른쪽 화살표 조합은 작동하지 않고 Chrome 애플리케이션에 대해서는 Option, Command, 오른쪽 화살표 조합도 작동하지 않는 것으로 확인되었습니다. 또한 Shift 사용을 피하십시오. 왜냐하면 Shift를 사용하면 타일 창 효과가 느리게 재생되기 때문입니다.)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이렇게 수정해 보세요:
 
@@ -79,7 +129,18 @@ Mac에서는 Apple 메뉴를 선택한 후 `시스템 환경 설정`을 클릭�
 
 Safari 또는 Chrome과 같은 응용 프로그램을 엽니다. 창 메뉴를 선택합니다. 메뉴 항목에 키보드 단축키가 추가되었는지 확인하면 ("Title Window to Left of Screen" 및 "Tile Window to Right of Screen"), 단축키가 성공적으로 추가된 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-05-27-MacbookMacOSKeyboardShortcutsforSplitScreenTileWindowstoLeftorRightofScreen_8.png)
 

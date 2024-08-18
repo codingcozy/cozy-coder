@@ -3,17 +3,13 @@ title: "데이터 스토리텔링이 당신의 새로운 슈퍼파워인 이유"
 description: ""
 coverImage: "/assets/img/2024-06-20-WhyDataStorytellingisYourNewSuperpower_0.png"
 date: 2024-06-20 14:59
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-WhyDataStorytellingisYourNewSuperpower_0.png
 tag: Tech
 originalTitle: "Why Data Storytelling is Your New Superpower"
 link: "https://medium.com/data-storytelling-corner/why-data-storytelling-is-your-new-superpower-9f76e62762ce"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-06-20-WhyDataStorytellingisYourNewSuperpower_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 그러나 데이터와 효과적으로 소통하는 방법을 학습하지 못하는 현대 교육 방법에 따르면, 데이터와 함께 이야기를 만드는 학습자들에게 가르치는 것은 없다고 Storytelling with Data의 저자이자 전문가인 Cole Nussbaumer-Knaflic이 말합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 중 많은 사람들이 숫자와 언어에 대해 형식 교육을 수 년 동안 받지만, 이를 결합하여 우리 언어 기술을 사용하여 숫자 세트에 대한 이야기를 전하는 방식은 거의 없습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 더 잘할 수 있는 방법은 무엇일까요? 우리는 숫자를 이야기와 결합하는 방법을 이해하는 것부터 시작할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 우리에게는 다양한 사고 방식이 있습니다
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 컴퓨터 과학, 토착 지식, 교육의 교차로에서의 제 박사 연구 동안, 저는 다양한 문화가 의사 결정을 위해 양적과 질적 사고를 어떻게 통합하는지 연구했습니다. 데이터와 서술의 혼합은 효과적인 데이터 스토리텔링을 보여주며, 다양한 사고 방식을 결합하는 모델을 제시합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 강력한 숫자는 우리가 절대적으로 다룰 때 잘 작동합니다. 이것들은 데이터 집합에 대한 정적이고 추상적인 관점을 제공합니다. 그러나 이는 흔히 추상적인 것들과 거의 다루지 않는 사람들의 현실로의 전환이 항상 이루어지지는 않습니다.
 
@@ -51,7 +80,18 @@ isUpdated: true
 
 날씨, 온도, 물 깊이, 연간 시기 및 이러한 변수들에 기반한 과거 결과에 대한 내부 지식 등을 고려합니다. 적응적 사고가 필수적입니다. 어제의 데이터는 오늘 내려야 할 결정과 아무런 관련이 없을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 베르켓과 그랜트(2007)의 연구에 따르면, 그레나다 어부들의 질적 사고는 의사 결정에 있어 적응적이고 실시간 질적 사고의 실용성을 강조합니다. 사실, 많은 지방주민들은 서구 과학자가 모든 것을 극도로 상세하게 양적화해야 한다는 필요성에 당혹스러워합니다. 이 서구적 방법론은 종종 데이터의 서로 다른 조각들 간의 근본적인 관계를 놓치곤 합니다.
 
@@ -61,7 +101,18 @@ isUpdated: true
 
 다양한 사고 방식을 통합하는 것을 이해하는 것은, 전통적인 방법과 현대적인 필요가 교차하는 양적 이야기의 도전에 직면할 수 있도록 준비시켜줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 양적 이야기의 도전
 
@@ -71,7 +122,18 @@ isUpdated: true
 
 이 전통은 가치에 이야기를 부착하려는 자연인의 성향을 강조하는데, 이는 현대 교육에서 충분히 적용되지 않아 데이터 시각화가 이야기 요소를 간과하는 결과를 낳게 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 많은 사람들은 가치에 이야기를 첨부하기 위해 선천적으로 프로그래밍되어 있습니다. 그러나 많은 학교 시스템은 이를 결합하지 않습니다. 따라서 많은 데이터 시각화에 이야기가 포함되지 않습니다 — 그런데 그것들이 포함되어야 합니다.
 
@@ -81,7 +143,18 @@ isUpdated: true
 
 # 복잡성을 접근하기 쉽게 만드는 것
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시청자들은 종종 단어가 제공하는 지원이 필요합니다. 그 반대로, 많은 시청자는 단어와 숫자를 설명하는 그래픽을 필요로 합니다.
 
@@ -91,7 +164,18 @@ isUpdated: true
 
 간단한 예시를 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## CO₂ 당 인구당 배출량의 글로벌 트렌드:
 
@@ -101,7 +185,18 @@ isUpdated: true
 
 선 그래프의 활용은 다년간의 데이터 트렌드를 해석하는 것을 단순화하여, 중요한 변화 또는 안정 기간을 강조할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-20-WhyDataStorytellingisYourNewSuperpower_2.png)
 
@@ -111,7 +206,18 @@ isUpdated: true
 
 이러한 질적 관찰은 순수한 데이터에서 양적 추상화와 세부 사항을 제거하여 필요한 사람들에게 더 관련성있는 맥락을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터를 시각화물로 변환하면 다음을 할 수 있어요:
 
@@ -119,11 +225,22 @@ isUpdated: true
 - 이해도 향상: 시각적 표현은 순수 데이터보다 해석하기 쉬울 수 있어요.
 - 소통 용이: 효과적인 시각화는 발표에서 정보를 전달하는데 사용돼요. 예를 들어, "하키 스틱" 차트는 데이터를 더 dramatic하고 관련성 있게 만들어줘요.
 
-A Markdown 형식으로 표를 변경할 수도 있어요. 
+A Markdown 형식으로 표를 변경할 수도 있어요.
 
 # 데이터에서 이야기 찾는 도구
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터에서 이야기를 찾을 수 있는 수많은 도구들이 있어요. 그 중에서도 인기 있는 몇 가지는 다음과 같아요:
 
@@ -135,10 +252,21 @@ A Markdown 형식으로 표를 변경할 수도 있어요.
 
 ## 비기술적 사용자를 위한 도구:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Google Charts: 웹사이트나 프레젠테이션에 삽입하기 쉬운 차트 및 그래프를 생성할 수 있습니다.
-- Canva: 인포그래픽 및 데이터 그래픽을 디자인하는 데 편리한 플랫폼입니다. 
+- Canva: 인포그래픽 및 데이터 그래픽을 디자인하는 데 편리한 플랫폼입니다.
 - Flourish: 코딩 없이 상호 작용하는 시각화물을 만들어 내는 데 적합하며, 어떤 대상에게나 적합합니다.
 
 # 요약하자면...
@@ -147,7 +275,18 @@ A Markdown 형식으로 표를 변경할 수도 있어요.
 
 데이터부터 시작해보세요. 어떤 이야기를 전달하나요? 이 이야기를 다른 사람이 이해하고 공감할 수 있도록 어떻게 공유할 수 있을까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터에서 이야기를 찾는 데 도움이 되는 많은 도구들이 있습니다: Tableau,
 
@@ -157,7 +296,18 @@ A Markdown 형식으로 표를 변경할 수도 있어요.
 
 만일 시각적인 표현이 명확하지 않다면 완전한 실패입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 글 읽어 주셔서 감사합니다.
 
@@ -167,7 +317,18 @@ Tufte, E. R. (2001). The visual display of quantitative information (2nd ed.). G
 
 Nussbaumer Knaflic, C. (2015). Storytelling with data: A data visualization guide for business professionals. Wiley.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Berkes, F., & Grant, S. (2007). Fisher knowledge as expert system: A case from the longline fishery of Grenada, the Eastern Caribbean. Fisheries Research, 84(2), 162–17.
 

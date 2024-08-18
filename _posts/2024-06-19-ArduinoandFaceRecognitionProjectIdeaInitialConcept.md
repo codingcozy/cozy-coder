@@ -3,17 +3,13 @@ title: "아두이노와 얼굴 인식 프로젝트 아이디어 초기 컨셉"
 description: ""
 coverImage: "/assets/img/2024-06-19-ArduinoandFaceRecognitionProjectIdeaInitialConcept_0.png"
 date: 2024-06-19 05:56
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-ArduinoandFaceRecognitionProjectIdeaInitialConcept_0.png
 tag: Tech
 originalTitle: "Arduino and Face Recognition Project Idea: Initial Concept"
 link: "https://medium.com/@unnathch/arduino-and-face-recognition-project-idea-initial-concept-872e37ca334b"
 isUpdated: true
 ---
-
-
-
-
 
 저자: [언젠가 밝히겠어요 :D]
 
@@ -28,7 +24,18 @@ isUpdated: true
 - GitHub에 올리기.
 - 나머지 휴가를 즐기기!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앞으로의 계획 —
 

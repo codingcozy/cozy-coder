@@ -3,17 +3,13 @@ title: "마이크로 머신러닝  합성곱 신경망 CNN"
 description: ""
 coverImage: "/assets/img/2024-06-20-TinyMLConvolutionalNeuralNetworksCNN_0.png"
 date: 2024-06-20 16:55
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-TinyMLConvolutionalNeuralNetworksCNN_0.png
 tag: Tech
 originalTitle: "TinyML — Convolutional Neural Networks (CNN)"
 link: "https://medium.com/@thommaskevin/tinyml-convolutional-neural-networks-cnn-3601b32c35f4"
 isUpdated: true
 ---
-
-
-
-
 
 수학적 기초부터 엣지 구현까지
 
@@ -26,7 +22,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-20-TinyMLConvolutionalNeuralNetworksCNN_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 요약
 
@@ -36,7 +43,18 @@ isUpdated: true
 
 <img src="/assets/img/2024-06-20-TinyMLConvolutionalNeuralNetworksCNN_1.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CNN의 현대 아키텍처는 얀 르쿤과 그의 동료들에 의해 1980년대 후반과 1990년대 초에 제안되었습니다. 그들은 MNIST 데이터셋에서 손으로 쓴 숫자를 인식하기 위해 설계된 컨볼루션 신경망인 LeNet-5를 개발했습니다. LeNet-5는 여러 개의 컨볼루션 레이어를 거친 후 pooling 레이어와 완전 연결 레이어로 이어지는 구조로, 오늘날 사용되는 CNN의 아키텍처의 기초를 구축했습니다.
 
@@ -46,7 +64,18 @@ CNN의 현대 아키텍처는 얀 르쿤과 그의 동료들에 의해 1980년�
 
 2012년에 Alex Krizhevsky, Ilya Sutskever, Geoffrey Hinton이 개발한 AlexNet이 ImageNet 대규모 시각 인식 챌린지(ILSVRC)에서 경쟁 상대들보다 큰 폭으로 우승하면서 전환점이 찾아왔습니다. AlexNet은 여러 컨볼루션 레이어, ReLU 활성화 함수, 그리고 dropout과 같은 정규화 기법을 활용하여 시각 인식 작업에 CNN의 성능을 입증했습니다. 이후로 CNN은 다양한 응용 분야에 대한 주요 도구가 되어 지속적인 혁신을 이끌어내는 데 이르렀습니다. VGGNet, GoogLeNet(Inception), ResNet과 같은 모델들은 네트워크의 깊이, 효율성, 정확도를 향상시키기 위한 새로운 아키텍처와 기법들을 소개했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-TinyMLConvolutionalNeuralNetworksCNN_3.png" />
 
@@ -56,7 +85,18 @@ CNN의 현대 아키텍처는 얀 르쿤과 그의 동료들에 의해 1980년�
 
 수학에서 "합성곱"은 한 함수가 다른 함수에 의해 변환되는 통합 연산을 나타냅니다. 그러나 신경망의 맥락에서는 이 개념이 전통적인 통계적 해석과 다릅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본적으로 우리는 입력 함수로 시작합니다. 우리의 경우에는 주로 이미지입니다. 또한, 필터(커널이라고도 함)를 소개합니다. 이미지는 점곱 연산을 통해 변환되는 함수로, 일반적으로 "합성곱(convolution)"이라고 합니다. 그 다음, 이러한 필터를 입력 이미지에 적용하면 "특성 맵(feature maps)"이라고 하는 출력 이미지를 얻게 됩니다.
 
@@ -66,7 +106,18 @@ CNN의 현대 아키텍처는 얀 르쿤과 그의 동료들에 의해 1980년�
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/0*4UZXfXs7eQ3TT02M.gif)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 입력 이미지를 나타내는 텐서 I의 차원이 m1 x m2 x mc인 경우를 가정해 봅시다. 이 텐서에서,
 
@@ -76,7 +127,18 @@ CNN의 현대 아키텍처는 얀 르쿤과 그의 동료들에 의해 1980년�
 
 ![image2](/assets/img/2024-06-20-TinyMLConvolutionalNeuralNetworksCNN_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요,
 
@@ -86,7 +148,18 @@ CNN의 현대 아키텍처는 얀 르쿤과 그의 동료들에 의해 1980년�
 
 <img src="/assets/img/2024-06-20-TinyMLConvolutionalNeuralNetworksCNN_7.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 예를 선택했습니다. 5x5x1 차원 이미지가 3x3x1 커널로 합성되고 s=1 스트라이드가 적용됩니다.
 
@@ -96,7 +169,18 @@ CNN의 현대 아키텍처는 얀 르쿤과 그의 동료들에 의해 1980년�
 
 ![formula](/assets/img/2024-06-20-TinyMLConvolutionalNeuralNetworksCNN_9.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 예에서 feature map의 (1, 1)번 째 항목을 계산해 봅시다:
 
@@ -106,8 +190,18 @@ CNN의 현대 아키텍처는 얀 르쿤과 그의 동료들에 의해 1980년�
 
 사용할 수 없는 항목은 0으로 대체되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-06-20-TinyMLConvolutionalNeuralNetworksCNN_12.png)
 
@@ -117,9 +211,18 @@ CNN의 현대 아키텍처는 얀 르쿤과 그의 동료들에 의해 1980년�
 
 기본 CNN은 (n x n) 크기의 흑백 이미지와 (f x f) 크기의 필터/커널을 사용하여 결과를 제공하며, 출력 크기는 (n - f + 1) x (n - f + 1)이 됩니다. 예를 들어, (8 x 8) 이미지와 (3 x 3) 필터를 사용한 어떤 합성 곱 작업의 경우, 출력 이미지 크기는 (6 x 6)이 됩니다. 이러한 크기의 감소는 이미지 처리 중 일관적으로 발생하며, 레이어의 출력이 일반적으로 입력보다 작습니다. 또한, 합성 곱 작업에서 사용되는 필터는 픽셀을 횡단하면서 항상 모서리에 초점을 두지 않습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![TinyML CNN](/assets/img/2024-06-20-TinyMLConvolutionalNeuralNetworksCNN_13.png)
 
@@ -132,8 +235,18 @@ CNN의 현대 아키텍처는 얀 르쿤과 그의 동료들에 의해 1980년�
 
 ## 2.3 —Pooling Layer
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 풀링 레이어에서는 컨볼루션된 특징의 공간 차원이 일반적으로 축소되어 입력 이미지에서 주요한 특징을 추출하는 데 도움이 됩니다. 이 크기의 축소는 컨볼루션 레이어에서 얻은 출력에 풀링 함수를 적용하여 달성됩니다. 이렇게 가정해 봅시다:
 
@@ -143,7 +256,18 @@ CNN의 현대 아키텍처는 얀 르쿤과 그의 동료들에 의해 1980년�
 
 ![그림 2](/assets/img/2024-06-20-TinyMLConvolutionalNeuralNetworksCNN_15.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 딥러닝에서는 3가지 종류의 풀링이 있어요:
 
@@ -153,7 +277,18 @@ CNN의 현대 아키텍처는 얀 르쿤과 그의 동료들에 의해 1980년�
 
 ![이미지](/assets/img/2024-06-20-TinyMLConvolutionalNeuralNetworksCNN_16.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전역 최대 풀링(Global Max Pooling) : 모든 입력 크기의 픽셀 값 중 가장 높은 값이 출력 행렬로 전달됩니다. 이 유형의 풀링에서 풀 크기는 입력 크기와 동일합니다.
 
@@ -163,7 +298,18 @@ sum pooling, average pooling, max pooling과 같은 다양한 유형의 풀링�
 
 ## 2.4 — 플래튼 레이어
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 플래튼 레이어는 신경망 아키텍처에서 중요한 구성 요소이며, 특히 합성곱 레이어에서 완전히 연결된 레이어로의 전환 시에 중요합니다. 이 레이어는 합성곱 및 풀링 레이어에서 생성된 다차원 피쳐 맵을 일차원 벡터로 변환하여, 분류 또는 회귀 작업을 위해 후속 완전히 연결된 레이어로 전달할 수 있습니다.
 
@@ -172,10 +318,21 @@ sum pooling, average pooling, max pooling과 같은 다양한 유형의 풀링�
 다음은 플래튼 레이어의 작동 방식입니다:
 
 - 입력: 플래튼 레이어의 입력은 일반적으로 이전 합성곱 또는 풀링 레이어에서 생성된 피쳐 맵을 나타내는 다차원 텐서입니다. 예를 들어, 마지막 합성곱 또는 풀링 레이어가 높이, 너비, 깊이의 피쳐 맵을 생성한다면 입력 텐서는 (배치 크기, 높이, 너비, 깊이) 형태를 가질 것입니다.
-- 플래팅: 플래팅 레이어는 단순히 피쳐 맵의 모든 요소를 하나의 차원을 따라 연결하여 입력 텐서를 일차원 벡터로 다시 형태화합니다. 예를 들어, 피쳐 맵이 높이, 너비, 깊이의 차원을 가진다면 플래팅 레이어는 이를 높이 * 너비 * 깊이의 길이를 가진 벡터로 변환합니다.
+- 플래팅: 플래팅 레이어는 단순히 피쳐 맵의 모든 요소를 하나의 차원을 따라 연결하여 입력 텐서를 일차원 벡터로 다시 형태화합니다. 예를 들어, 피쳐 맵이 높이, 너비, 깊이의 차원을 가진다면 플래팅 레이어는 이를 높이 _ 너비 _ 깊이의 길이를 가진 벡터로 변환합니다.
 - 출력: 플래팅 레이어의 출력은 피쳐 맵을 플래팅한 일차원 벡터입니다. 이 벡터는 이후의 완전히 연결된 레이어의 입력으로 전달될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 평탄화 레이어의 목적은 특성 맵에서 캡처된 공간 정보를 완전 연결 레이어에서 처리할 수 있는 형식으로 변환하는 것입니다. 완전 연결 레이어는 일차원 입력 벡터를 필요로하므로 특성 맵을 평탄화함으로써 신경망이 데이터의 다양한 공간 위치에 걸쳐 복잡한 패턴과 관계를 효과적으로 학습할 수 있습니다. 이를 통해 더 정확한 예측을 할 수 있습니다.
 
@@ -188,7 +345,18 @@ sum pooling, average pooling, max pooling과 같은 다양한 유형의 풀링�
 
 그러면 특성 맵 𝐹의 형태는 (B,H,W,D)가 됩니다. 여기서 𝐵은 배치 크기를 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 피처 맵을 일차원 벡터로 평탄화하기 위해, 단순히 이를 길이 𝐻×𝑊×𝐷의 벡터로 재구성합니다. 수학적으로 표현하면 다음과 같습니다:
 
@@ -198,7 +366,18 @@ Flatten(𝐹)=reshape(𝐹, (𝐵, 𝐻×𝑊×𝐷))
 
 예를 들어, 만약 𝐹가 차원이 (4,5,5,3)인 경우 (배치 크기가 4, 높이가 5, 너비가 5, 깊이가 3인 피처 맵), 그러면 평탄화된 출력은 (4,75) 차원을 갖게 되며, 각 행은 배치의 한 샘플에 대한 평탄화된 피처 맵을 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 평탄화된 벡터는 신경망의 후속 완전 연결 레이어에 입력으로 전달될 수 있습니다.
 
@@ -208,7 +387,18 @@ Flatten(𝐹)=reshape(𝐹, (𝐵, 𝐻×𝑊×𝐷))
 
 3.0 — requirements.txt 파일에 나열된 라이브러리를 설치합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 !pip install -r requirements.txt
@@ -231,8 +421,18 @@ import os
 
 3.2 — 데이터셋 불러오기
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 MNIST은 Modified National Institute of Standards and Technology database의 줄임말로, 기공 학습 및 컴퓨터 비전 분야에서 널리 사용되는 데이터셋입니다. 이 데이터셋은 0에서 9까지의 손으로 쓴 숫자들의 모음으로, 각 숫자는 28x28 픽셀 크기의 회색 음영 이미지로 표현됩니다. 이 데이터셋에는 총 70,000개의 이미지가 포함되어 있으며, 이 중 60,000개의 이미지는 훈련에 사용되고 10,000개의 이미지는 테스트에 사용됩니다.
 
@@ -256,10 +456,21 @@ def get_data():
 
 3.3 — 데이터 분할
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-X_train, X_test, X_validate, y_train, y_test, y_validate = get_data()
+X_train, X_test, X_validate, y_train, y_test, (y_validate = get_data());
 ```
 
 3.4 — 탐색적 데이터 분석
@@ -276,29 +487,50 @@ for i, ax in enumerate(axis.flat):
 
 ![이미지](/assets/img/2024-06-20-TinyMLConvolutionalNeuralNetworksCNN_19.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3.5— 모델 정의하기
 
 ```js
-model = tf.keras.Sequential()
-model.add(layers.Conv2D(8, (3, 3), activation='relu', input_shape=(8, 8, 1)))
-model.add(layers.MaxPooling2D((2, 2)))
-model.add(layers.Flatten())
-model.add(layers.Dense(len(np.unique(y_train))))
+model = tf.keras.Sequential();
+model.add(layers.Conv2D(8, (3, 3), (activation = "relu"), (input_shape = (8, 8, 1))));
+model.add(layers.MaxPooling2D((2, 2)));
+model.add(layers.Flatten());
+model.add(layers.Dense(len(np.unique(y_train))));
 ```
 
 ```js
-model.summary()
+model.summary();
 ```
 
 ![이미지](/assets/img/2024-06-20-TinyMLConvolutionalNeuralNetworksCNN_20.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-plot_model(model, to_file='./figures/model.png')
+plot_model(model, (to_file = "./figures/model.png"));
 ```
 
 ![Plot](/assets/img/2024-06-20-TinyMLConvolutionalNeuralNetworksCNN_21.png)
@@ -306,40 +538,63 @@ plot_model(model, to_file='./figures/model.png')
 3.6—모델 컴파일하기
 
 ```js
-model.compile(optimizer='adam', loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True), metrics=['accuracy'])
+model.compile(
+  (optimizer = "adam"),
+  (loss = tf.keras.losses.SparseCategoricalCrossentropy((from_logits = True))),
+  (metrics = ["accuracy"])
+);
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3.7 — 모델 훈련
 
 ```js
-history = model.fit(X_train, y_train,
-                    epochs=50,
-                    batch_size=16,
-                    validation_data=(X_validate, y_validate))
+history = model.fit(X_train, y_train, (epochs = 50), (batch_size = 16), (validation_data = (X_validate, y_validate)));
 ```
 
 ```js
-model.save('.\models\model.keras')
+model.save(".modelsmodel.keras");
 ```
 
 ```js
-loss = history.history['loss']
-val_loss = history.history['val_loss']
-epochs = range(1, len(loss) + 1)
-plt.plot(epochs, loss, 'r.', label='훈련 손실')
-plt.plot(epochs, val_loss, 'y', label='검증 손실')
-plt.title('훈련 및 검증 손실')
-plt.xlabel('에포크')
-plt.ylabel('손실')
-plt.grid()
-plt.legend()
-plt.savefig('.\\figures\\history_traing.png', dpi=300, bbox_inches='tight')
-plt.show()
+loss = history.history["loss"];
+val_loss = history.history["val_loss"];
+epochs = range(1, len(loss) + 1);
+plt.plot(epochs, loss, "r.", (label = "훈련 손실"));
+plt.plot(epochs, val_loss, "y", (label = "검증 손실"));
+plt.title("훈련 및 검증 손실");
+plt.xlabel("에포크");
+plt.ylabel("손실");
+plt.grid();
+plt.legend();
+plt.savefig(".\\figures\\history_traing.png", (dpi = 300), (bbox_inches = "tight"));
+plt.show();
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-TinyMLConvolutionalNeuralNetworksCNN_22.png" />
 
@@ -354,11 +609,21 @@ def test_model(model, x_test, y_test):
     print('정확도', ((y_pred == y_test).sum() / len(y_test))*100, "%")
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-test_model(model, X_test, y_test)
+test_model(model, X_test, y_test);
 ```
 
 ![Image](/assets/img/2024-06-20-TinyMLConvolutionalNeuralNetworksCNN_23.png)
@@ -373,8 +638,8 @@ Y_pred = np.argmax(y_pred, 1) # Decode Predicted labels
 mat = confusion_matrix(y_test, Y_pred) # Confusion matrix
 
 # Plot Confusion matrix
-sns.heatmap(mat.T, square=True, annot=True, cbar=False, cmap=plt.cm.Blues, fmt='.0f', 
-            xticklabels=np.unique(y_test), yticklabels=np.unique(y_test), 
+sns.heatmap(mat.T, square=True, annot=True, cbar=False, cmap=plt.cm.Blues, fmt='.0f',
+            xticklabels=np.unique(y_test), yticklabels=np.unique(y_test),
             annot_kws={"fontsize": 14}, linewidths=1, linecolor='white')
 
 plt.xlabel('Predicted Values', fontsize=14)
@@ -385,8 +650,18 @@ plt.savefig('.\\figures\\confusion_matrix.png', dpi=300, bbox_inches='tight')
 plt.show()
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-20-TinyMLConvolutionalNeuralNetworksCNN_24.png)
 
@@ -404,8 +679,18 @@ for i, ax in enumerate(axis.flat):
 
 ![이미지](/assets/img/2024-06-20-TinyMLConvolutionalNeuralNetworksCNN_25.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3.9 — 마이크로컨트롤러에 구현할 모델을 얻기
 
@@ -455,7 +740,18 @@ def hex_to_c_array(hex_data, var_name):
 
 3.9.2—모델을 Float32와 Int8형식으로 변환하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 def representative_dataset():
@@ -507,8 +803,8 @@ def converter_quantization_model(model, model_name):
 ```
 
 ```js
-model_name='.\models\model'
-converter_quantization_model(model, model_name)
+model_name = ".modelsmodel";
+converter_quantization_model(model, model_name);
 ```
 
 3.10 — Quantized Model Evaluation
@@ -525,9 +821,9 @@ def evaluate_quantization(model_path, X_test, y_test, quantization_type):
     processing_times = []
 
     X_test = np.array(X_test, dtype=np.float32)
-    
+
     for X in X_test:
-        interpreter.set_tensor(input_index, [X])       
+        interpreter.set_tensor(input_index, [X])
         start_time = time.time()
         interpreter.invoke()
         end_time = time.time()
@@ -537,7 +833,7 @@ def evaluate_quantization(model_path, X_test, y_test, quantization_type):
         predictions.append(output[0])
 
     acc = accuracy_score(y_test, predictions)
-   
+
     # Calculate the average and standard deviation of differences
     result = { "Accuracy (%): ":acc*100,
                 "Process time (s): ": np.mean(processing_times)
@@ -546,25 +842,47 @@ def evaluate_quantization(model_path, X_test, y_test, quantization_type):
     return result
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-model_name = '.\models\model'
+model_name = ".modelsmodel";
 ```
 
 ```js
-eval_quant_float32 = evaluate_quantization(model_name + '_quant_float32.tflite', X_test, y_test, 'float32')
-eval_quant_float32
+eval_quant_float32 = evaluate_quantization(model_name + "_quant_float32.tflite", X_test, y_test, "float32");
+eval_quant_float32;
 ```
 
 ![Image](/assets/img/2024-06-20-TinyMLConvolutionalNeuralNetworksCNN_26.png)
 
 ```js
-eval_quant_int8 = evaluate_quantization(model_name + '_quant_int8.tflite', X_test, y_test, 'int8')
-eval_quant_int8 
+eval_quant_int8 = evaluate_quantization(model_name + "_quant_int8.tflite", X_test, y_test, "int8");
+eval_quant_int8;
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-TinyMLConvolutionalNeuralNetworksCNN_27.png" />
 
@@ -574,7 +892,18 @@ eval_quant_int8
 
 3.11.1 — EloquentTinyML 라이브러리 설치
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도서관 폴더로 이동하여 EloquentTinyML-main을 설치해주세요.
 
@@ -584,10 +913,20 @@ model_quant_float32.h 또는 model_quant_int8.h 파일을 열어서 다음에서
 
 ![이미지](/assets/img/2024-06-20-TinyMLConvolutionalNeuralNetworksCNN_28.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래와 같이 변경해주세요:
-
 
 and model len
 
@@ -597,8 +936,18 @@ and cut in model.h:
 
 ![image](/assets/img/2024-06-20-TinyMLConvolutionalNeuralNetworksCNN_30.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 and
 
@@ -655,7 +1004,18 @@ void loop() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3.12 — 결과
 
@@ -665,8 +1025,18 @@ void loop() {
 
 3.12.1 — 양자화된 모델 Int8
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-20-TinyMLConvolutionalNeuralNetworksCNN_33.png)
 
@@ -676,7 +1046,17 @@ Full project in: [TinyML/13_CNN at main · thommaskevin/TinyML](https://github.c
 
 code: bc1qzydjy4m9yhmjjrkgtrzhsgmkq79qenvcvc7qzn
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `<img src="/assets/img/2024-06-20-TinyMLConvolutionalNeuralNetworksCNN_34.png" />`

@@ -3,7 +3,7 @@ title: "프로그래밍 필수 원칙 KISS Keep It Simple, Stupid 원칙의 모�
 description: ""
 coverImage: "/assets/no-image.jpg"
 date: 2024-07-18 11:38
-ogImage: 
+ogImage:
   url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "KISS, The Only Software Design Principle You Need"
@@ -11,20 +11,25 @@ link: "https://medium.com/gitconnected/kiss-the-only-software-design-principle-y
 isUpdated: true
 ---
 
-
-
-
-
 당신은 미리 예상하는 테이블태그 변경이 필요했나요? 좋아요, 아래와 같이 변경해 볼게요.
 
-
 | 본문 | 여기를 작성하세요 |
-|----|----|
-| 행 1 | 내용 1 |
-| 행 2 | 내용 2 |
+| ---- | ----------------- |
+| 행 1 | 내용 1            |
+| 행 2 | 내용 2            |
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 다른 원칙들이 완전히 맞지 않는 이유
 
@@ -34,7 +39,18 @@ isUpdated: true
 
 그러나 DRY은 우리가 Angular, Vue 또는 React와 같은 솔루션을 사용해 아주 기본적인 웹사이트를 구축하는 사람들이 있는 이유, 왜 우리가 너무 많은 일을 하는 슈퍼컴포넌트가 있고 우리가 그것을 손 대면 매번 망가뜨리는 이유, 그리고 '풀 수 없는' 종속성이나 누구도 알지 못하는 도움 함수들이 코드베이스 주변에 흩어져 있는 이유가 되기도 합니다. DRY는 간단함을 보장하지 않습니다. 오히려, 복잡성과 지나친 엔지니어링의 가능성을 더 높일 수도 있습니다. 믿거나 말거나, 중복은 지나친 추상화보다 더 나은 악이지요. 하지만 이에 대해서는 전용 섹션에서 다시 다뤄보겠습니다. 중복을 사용하면 IDE나 find-replace 문자열 검색 기능을 사용하여 문제를 해결할 수 있지만, 너무 DRY한 코드는 혼자서 해결해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SOLID은 인기가 있지만, 객체 지향 프로그래밍 때문에 그렇다고 생각합니다. 사실, SOLID가 번들로 묶는 모든 원칙은 객체 지향 프로그래밍에 특정 도전 과제를 해결하기 위한 것입니다. 좀 더 빈티감있는 사람은 마지막 문장에서 나타나는 두 가지 주요 문제에 대해 암시하고 있는 것을 알아차릴 것입니다: 그 기원과 원칙의 모음이라는 점입니다. 다음 소프트웨어 엔지니어링 모임에서 무작위로 사람들에게 SOLID가 무엇을 의미하는지 물어보면, 모두다 5가지 원칙을 모두 이야기하는 사람이 있더라도 10명 중 3명밖에 찾기 어려울 것입니다: 단일 책임, 개방 폐쇄, 리스코프 치환, 인터페이스 분리, 의존성 역전.
 
@@ -44,7 +60,18 @@ SOLID가 실제로 무엇을 의미하는지 기억하는 사람이 하드코어
 
 이제 PoLA로 넘어가 봅시다. "가장 놀랍지 않은 원칙"을 의미하는 PoLA는 60년대에 만들어진 것으로 알려져 있습니다. 이것은 소프트웨어 개발에서 훨씬 덜 알려진 원칙이며, 이것은 웹 접근성 전문가로서 조언을 하고 있는 UX 회의에서 발견한 마지막 것입니다 — 믿을 수 없겠지만요. 일부 장애를 가진 개인들이 UX 동작을 매우 예상치 못하게 느끼게 한다는 점에 대한 주장을 할 때, 한 명의 시니어 UX 디자이너가 "오! 가장 놀랍지 않은 원칙. 이해가 됩니다."라고 말했습니다. 이것은 궁극적으로 예상치 않는 일을 하지 않으려는 간단한 원칙입니다. 미리 설정된 패턴을 따르고, 시스템 외부로 나가지 말고, 기대를 깨지 말고, 사고 모델을 존중하세요. 상당히 자명한 것 같습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나는 유용한 원칙이라는 점에 동의할 것이다. 그러나 효과가 제한적이며 나쁜 패턴을 장려할 수 있는 점도 있을 거라고 생각해. frontend 애플리케이션의 대형 monorepo를 상상해봐. 여기서 각 애플리케이션이 API 통신에 Axios를 사용하고 있는 상황이야. 이러한 패턴을 보고 PoLA 원칙에 기반하여 단순한 네이티브 fetch만 필요하다고 해도, PR을 제출할 때, 리뷰어들이 "뭐야?!? Axios를 사용하는데 너는 fetch를 왜 사용하고 있어?" 라고 할 수도 있어. 전쟁처럼 소란이 벌어진 뒤에야 Axios가 정말로 필요하지 않았다는 것을 깨닫게 될 거야. Axios는 단지 처음에는 인기 있었기 때문에 사용되었고 "나중에 필요할지도 모르니까" 라는 이유로만 사용되었던 거지, 이제 그 패턴은 별 의미가 없는 패턴으로 남게 됐어. PoLA 원칙은 유용하고 쉽게 기억될 수 있지만, 전체적인 효과에 대해 의문을 품을 수도 있어.
 
@@ -54,7 +81,18 @@ SOLID가 실제로 무엇을 의미하는지 기억하는 사람이 하드코어
 
 덜 웃기지만 여전히 흥미로운 예로는 각 주요 기능이 별도의 앱인 마이크로 프론트엔드예요. 그것을 더 세분화하면 함수까지 들어갈 수 있어요. 대부분의 함수형 프로그래머들은 함수가 단일 책임을 가져야 한다는 것에 꽤 엄격할 거야 — 그게 SOLID의 S야 — 그리고 그것은 단일 파라미터를 갖는 함수로 변환될 거야. F# 또는 Haskell과 같은 특정 언어는 자동으로 이를 커링으로 처리할 거야. 하지만 나는 이 자리에서 멀어지고 있네. 이곳의 교훈은 관심사의 분리가 모듈화, 가독성 및 재사용성을 도와줌으로써, 소프트웨어 개발자의 삶을 훨씬 쉽게 만든다는 거지. 이상적으로는, 그렇지요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현실적으로 SoC를 염두에 두고 애플리케이션을 작성한 것을 아직은 보지 못했습니다. 마이크로프론트엔드 예시로 돌아와서, 주요 기능을 위한 구별된 앱이 있어도 그 앱의 핵심이 스파게티처럼 보이는 것은 아닙니다. 식재료로는 맛있게 들릴 수 있지만, 코드로는 훨씬 덜 바람직합니다. 안타깝게도, 여러 가지 이유(많은 것들이 합리적인 이유일 수 있음)로 우리 엔지니어들은 결국 포기하고 모든 것이 작동하도록 코드를 던져 넣기 시작하고 결과적으로는 스파게티 미트볼을 닮은 무언가와 같은 것을 얻게 됩니다.
 
@@ -64,7 +102,18 @@ StackOverflow에서 10분 이상을 보낼 필요가 없다고 생각합니다. 
 
 코드를 더 적게 사용하여 프로그래밍 과제를 해결하려는 선의의 의도로 추상화는 해결이 간단하지 않게 만들 수 있는 여러 문제를 만들어낼 수 있습니다. 이를 **추상화 과부하** 라고 합니다. 문제를 해결하는 대신 더 많은 문제를 만들어내게 됩니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 추가적인 인지적 부담. 고도로 추상적인 코드를 작성하는 것은 상대적으로 쉽습니다. 왜냐하면 코드가 위치할 맥락을 이미 알고 있기 때문에 가장 중점을 둘 부분은 한 줄밖에 없기 때문입니다. 그러나 수개월 혹은 몇 년 후에 코드를 읽을 때, 프로그램을 몇 분 내로 이해하는 대신, 다른 엔지니어는 여러분의 한 줄로 뭘 달성하려고 했는지 찾아야 합니다. 그 사람이 아마 여러분일 수도 있습니다.
 - 과도하게 부서지기 쉬운 코드. 우리 스스로를 속이지 말아요. 우리는 코드를 작성하고 10년간 방치하지 않는다구요. 근본적인 요구사항과 사용 사례가 변하기 때문에 유지 보수가 어려운 코드베이스에 자리 잡게 될 수 있습니다. 한 가지 요구사항을 변경하는 것이 예상치 못한 결과를 나타내기 때문입니다.
@@ -77,7 +126,18 @@ StackOverflow에서 10분 이상을 보낼 필요가 없다고 생각합니다. 
 
 모든 다른 유명한 소프트웨어 디자인 원리와 연관이 있는 모든 관련 맥락을 고려하면 단숨함의 가치를 매우 쉽게 이해할 수 있습니다. 일부 사람들이 생각하는 것과는 반대로, 코드, 소프트웨어 아키텍처, 심지어 제품에서의 단순함은 평범함을 의미하지 않습니다. Dieter Rams, Steve Jobs, Albert Einstein, Dr. Seuss 및 기타 많은 사람들이 복잡함 대신 단순함을 장려해 왔습니다. Antoine de Saint-Exupéry가 유명하게 말한 것처럼:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시인의 말 한 줄이라도 소프트웨어 엔지니어링을 정확하게 설명할 수 있다는 건 웃기죠. 주니어 소프트웨어 개발자가 하는 실수 중 하나는 코딩한 줄 수가 많을수록 해결책이 복잡해 보이고 더 좋은 엔지니어라고 착각하는 것입니다. 실제로 그렇지 않은 경우가 훨씬 많고, 맞는 경우라 해도 이전의 부주의나 설계 실수 때문이며, 모든 것을 리팩토링하지 않는 한 이미 복잡한 문제에 추가로 동작을 쌓아야 하는 상황은 드뭅니다. 우리 모두 다 경험이 있죠, 가장 중요한 건 그 사실을 인정하는 것이죠.
 
@@ -91,7 +151,18 @@ Agile Planning Poker에서 낮은 점수를 준 사람들의 의견에 항상 �
 
 이것은 정말 강력한 것 같습니다. 여러 해 동안 소프트웨어 설계 원칙이 적용되는 단계를 보여주는 다이어그램이 만들어졌습니다. 모든 것이 YAGNI로 시작해서 KISS로 이어지며 DRY로 마무리되는 경향이 있다고 알려져 있죠. 일반적인 관점 중 하나는 YAGNI가 제품 수준에서, KISS가 기능 수준에서, 그리고 DRY가 코드 수준에서 적용된다는 것입니다. 저는 그 관점에 도전하고 싶습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 KISS는 모든 수준에서 적용될 수 있다고 생각해요. 사실, 모든 소프트웨어 설계 원칙이 모든 수준에서 적용될 수 있어요. 다른 점은 KISS가 모두 대신하고 어떤 것을, 왜 적용해야 하는지와 언제 적용해야 하는지에 대한 학술적인 대화의 필요성을 제거할 수 있다는 것이에요. 우리는 그냥 KISS만으로도 충분한 현실적 프로그래밍 원칙이라고 부를까요?
 
@@ -101,7 +172,18 @@ KISS는 모든 수준에서 적용될 수 있다고 생각해요. 사실, 모든
 
 전반적인 엔지니어링 조직에서 볼 때, 복잡성을 줄이고 실제로 중요한 측면에 초점을 맞추며 수익을 창출하는 솔루션을 전달하려는 열망이 늘어나고 있다고 봐요. 그렇게 하려면 과거의 결정을 살펴보고 충분한 실용주의와 객관성을 가지고 그것들을 분석하여 어떤 선택이 단순함을 염두에 두지 않고 내렸는지 인정해야 하는 복잡한 도전이 될 겁니다. 아마도 그 선택들은 어떠한 원칙에도 따르지 않는다고 해도요. 그러나 현실은, 지금 당신은 그것을 해야 하고, 어제의 실수를 수정하거나 5년 전에 잘 작동했던 것이 더 이상 작동하지 않는다는 것을 인정하는 것은 쉽지 않지만, 효율적으로 운영되는 소프트웨어 조직을 위해 절대적으로 필수적인 요구 사항이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 진실은, 심지어 최고 수준의 엔지니어링팀도 간소화할 기회를 찾게 될 것입니다, 복잡성을 줄일 수 있는 기회를 찾을 것입니다. 아마도 유지하기 어려운 거대한 코드 덩어리와 작업 중이실지 모릅니다. 아니면, 마이크로서비스 또는 마이크로프론트엔드를 고려할 때가 됐을지도 모릅니다. 하지만 실제로 필요한 것은 간단함과 모듈성을 달성하기 위해 관심 분리가 조금 필요할 수도 있습니다. 유감스럽게도 많은 노력이 불편한 스택으로 인해 기인할 수 있다는 것을 발견할 수도 있습니다. 그런 경우 합치는 것이 좋을지도 모릅니다. 리액트 - 장고 - 스칼라 - SQL 몬스터를 계속 자라나는 여분의 머리를 가진 것에서 MERN이나 MEAN 스택으로 이동하는 것도 좋은 방법일 수 있습니다. 심지어 스택 중 일부는 직접 개발된 솔루션이 아니어야 할 수도 있습니다. 때로는 직접 만드는 것보다 구매하는 것이 더 나은 선택일 수 있습니다.
 

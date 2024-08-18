@@ -3,16 +3,13 @@ title: "이해할 수 있는 이상 탐지 Frequent Patterns Outlier Factor FPOF
 description: ""
 coverImage: "/assets/img/2024-05-27-InterpretableOutlierDetectionFrequentPatternsOutlierFactorFPOF_0.png"
 date: 2024-05-27 15:02
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-InterpretableOutlierDetectionFrequentPatternsOutlierFactorFPOF_0.png
 tag: Tech
 originalTitle: "Interpretable Outlier Detection: Frequent Patterns Outlier Factor (FPOF)"
 link: "https://medium.com/towards-data-science/interpretable-outlier-detection-frequent-patterns-outlier-factor-fpof-0d9cbf51b17a"
 isUpdated: true
 ---
-
-
-
 
 ## 범주형 데이터를 지원하며 이상치를 감지하고, 이상치에 대한 설명을 제공하는 감지 방법
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 다시 말하지만, 모든 이상치가 흥미로운 것은 아니지만, 오류와 사기는 아마도 이상치가 될 가능성이 있으므로 이를 찾을 때 이상치를 식별하는 것은 매우 실용적인 기술일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또는 데이터에는 신용 카드 거래, 센서 읽기, 기상 측정, 생물학적 데이터 또는 웹 사이트 로그가 포함될 수 있습니다. 모든 경우에, 오류나 다른 문제를 시사하는 레코드를 식별하는 것이 유용할 수 있으며, 가장 흥미로운 레코드를 찾는 것도 도움이 될 수 있습니다.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 분류 및 회귀 문제의 경우 해석 가능한 모델을 사용하는 것이 종종 바람직합니다. 이는 정확도가 낮아질 수 있지만(탭화면 데이터의 경우 가장 높은 정확도는 일반적으로 해석하기 어려운 부스트 모델에서 얻어집니다), 안전성이 높아집니다. 우리는 모델이 보지 못한 데이터를 어떻게 다루게 될지 알고 있습니다. 그러나 분류 및 회귀 문제의 경우에는 개별 예측이 이루어지는 이유를 이해할 필요가 없는 경우도 흔합니다. 모델이 상당히 정확하다면, 모델이 예측을 만들도록만 하는 것만으로 충분할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이상치 탐지를 수행하면 해석 가능성이 훨씬 더 높아집니다. 이상치 탐지기가 레코드를 매우 이상하다고 예측하는 경우, 왜 이렇게 예측되었는지 명확하지 않으면 해당 항목을 처리하는 방법을 알 수 없을 수도 있고, 그것이 이상할 수도 있는지 여부조차 알 수 없습니다.
 
@@ -42,7 +61,18 @@ isUpdated: true
 
 이 기사에서는 특히 표 형식의 데이터에 초점을 맞추지만, 이후의 기사에서 다른 형식을 살펴볼 것입니다. 오늘날 흔히 사용되는 탭 데이터를위한 이상치 검출 알고리즘 중에는 Isolation Forests, Local Outlier Factor (LOF), KNNs, One-Class SVM 등 여러 가지가 있습니다. 이들은 종종 매우 잘 작동하지만, 불행히도 대부분의 경우 이상치를 찾은 이유에 대한 설명을 제공하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대부분의 이상치 탐지 방법은 알고리즘 수준에서 이해하기 쉽지만, 그래도 어떤 레코드가 탐지기에 의해 높은 점수를 받았고 다른 레코드가 그렇지 않았는지를 결정하는 것은 어렵습니다. 예를 들어 금융 거래 데이터 세트를 Isolation Forest와 같은 방법으로 처리하면 가장 이롭은 레코드를 볼 수 있지만, 특히 테이블에 많은 특성이 있는 경우, 이상치가 드문 조합의 다중 특성을 포함하거나 이상치가 특성이 높지만 다중 특성이 다소 이상한 경우에는 왜 그런지 이해하는 것이 어려울 수 있습니다.
 
@@ -52,7 +82,18 @@ isUpdated: true
 
 FPOF(FP-outlier: Frequent pattern based outlier detection)은 이상치 탐지에 어느 정도의 해석 가능성을 제공할 수 있는 소수의 탐지기 중 하나이며, 이상치 탐지에서 더 많이 사용되어야 할 가치가 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 카테고리 데이터와 함께 작동하도록 설계된 매력적인 속성을 갖고 있습니다. 대부분의 현실 세계의 표 데이터는 숫자 및 범주형 열을 모두 포함하는 혼합된 형태입니다. 그러나 대부분의 검출기는 모든 열이 숫자인 것으로 가정하며, 모든 범주형 열을 숫자로 인코딩해야 합니다(원핫, 서수 또는 다른 인코딩을 사용하여).
 
@@ -62,7 +103,18 @@ FPOF와 같은 검출기가 데이터가 범주형이라고 가정하는 경우,
 
 ## FPOF 알고리즘
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 FPOF는 테이블에서 빈발 아이템 세트(Frequent Item Sets, FISs)를 식별하여 작동합니다. 이것들은 하나의 특성에서 매우 흔한 값이거나 함께 자주 나타나는 여러 열에 걸친 값의 세트일 수 있습니다.
 
@@ -72,7 +124,18 @@ FPOF는 데이터셋에 많은 빈발 아이템 세트를 포함하고 있다는
 
 ## 실제 데이터 예시
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실제로 FPOF를 사용하는 실제 예제를 살펴보면 OpenML의 SpeedDating 세트를 살펴봅니다 (https://www.openml.org/search?type=data&sort=nr_of_likes&status=active&id=40536, CC BY 4.0 DEED 라이선스).
 
@@ -82,7 +145,18 @@ FPOF를 실행하는 것은 먼저 데이터 집합에서 FIS를 채굴하는 �
 
 언급했듯이 FPOF는 숫자형 특성의 binning을 필요로 합니다. 일반적으로 각 숫자 열에 대해 작은 수의 (5에서 20개 정도) 폭이 동일한 bin을 사용합니다. 이를 위해 pandas의 cut() 메서드가 편리합니다. 이 예제는 더 간단합니다. 여기서는 범주형 열만 다룹니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 from mlxtend.frequent_patterns import apriori
@@ -128,9 +202,18 @@ data_df['FPOF_Score'] = [(max_score - x) / (max_score - min_score)
 
 FIS의 크기에 제한을 둘 수도 있고 때로는 그렇게합니다. 최소 및 최대 열 수 사이에 관련되도록 요구하는 여러 항목 집합의 크기에 제한을 둘 수 있으며 가장 관심 있는 이상값의 형태를 좁히는 데 도움이 될 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 빈도가 높은 항목 집합은 지원과 열 값을 나타내는 팬더 데이터프레임에서 반환됩니다. 이 값은 원-핫 인코딩된 열 형식으로 표시되며 원본 열과 값을 나타냅니다.
 
@@ -143,8 +226,18 @@ frequent_itemsets['length'] = \
 
 총 24개의 FIS가 발견되었으며, 가장 긴 것은 세 가지 특징을 포함하고 있습니다. 다음 표는 지원에 따라 정렬된 처음 열 개의 행을 표시합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-05-27-InterpretableOutlierDetectionFrequentPatternsOutlierFactorFPOF_0.png)
 
@@ -154,9 +247,18 @@ frequent_itemsets['length'] = \
 
 원래 데이터프레임에 점수 열을 추가하고 점수별로 정렬하면 가장 정상적인 행을 확인할 수 있습니다:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-27-InterpretableOutlierDetectionFrequentPatternsOutlierFactorFPOF_1.png)
 
@@ -166,8 +268,18 @@ frequent_itemsets['length'] = \
 
 ![이미지](/assets/img/2024-05-27-InterpretableOutlierDetectionFrequentPatternsOutlierFactorFPOF_2.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자주 나오는 항목 집합 자체가 꽤 이해하기 쉬우므로,이 방법은 상당히 해석 가능한 결과를 얻는 장점이 있습니다. 다만, 자주 나오는 항목 집합이 많이 사용되는 경우에는 이러한 장점이 적을 수 있습니다.
 
@@ -177,7 +289,18 @@ frequent_itemsets['length'] = \
 
 이 방법의 변형 중 하나는 자주 나오는 것이 아닌 드문 항목 집합을 사용하는 것인데, 각 행의 드문 항목 집합의 수와 희귀성에 따라 각 행을 점수 매깁니다. 이 방법도 유용한 결과를 얻을 수 있지만, 계산 비용이 상당히 많이 소요되며, 더 많은 항목 집합이 채굴되어야 하고, 각 행은 많은 항목 집합과 테스트되어야 합니다. 그러나 최종 점수는 각 행에 누락된 대신 발견된 항목 집합을 기반으로 하므로 더 해석하기 쉬울 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 결론
 
@@ -187,6 +310,17 @@ frequent_itemsets['length'] = \
 
 향후 기사에서는 이상 탐지를 위한 다른 해석 가능한 방법에 대해 알아볼 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 그림은 저자에 의해 생성되었습니다.

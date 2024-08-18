@@ -3,17 +3,13 @@ title: "어떻게 Apache Airflow에서 2000개 이상의 DBT 모델을 조율하
 description: ""
 coverImage: "/assets/img/2024-05-27-Howweorchestrate2000DBTmodelsinApacheAirflow_0.png"
 date: 2024-05-27 12:49
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-Howweorchestrate2000DBTmodelsinApacheAirflow_0.png
 tag: Tech
 originalTitle: "How we orchestrate 2000+ DBT models in Apache Airflow"
 link: "https://medium.com/@aleexmagno/how-we-orchestrate-2000-dbt-models-in-apache-airflow-90901504032d"
 isUpdated: true
 ---
-
-
-
-
 
 ![How we orchestrate 2000 DBT models in Apache Airflow](/assets/img/2024-05-27-Howweorchestrate2000DBTmodelsinApacheAirflow_0.png)
 
@@ -23,7 +19,18 @@ DBT Core는 모델 간의 계보를 다루지만, 프로덕션 환경에서 실�
 
 본 글에서는 Airflow를 활용하여 DBT Core 프로젝트를 오케스트레이션하는 방법을 살펴볼 수 있습니다. 이를 통해 데이터 분석가 및 심지어 제품 소유자도 자신만의 데이터 모델을 생성하고 유지할 수 있는 직관적인 파이프라인을 만들었습니다. SQL과 Git의 기본 지식만 있으면, 비즈니스의 다양한 사람들이 몇 분 만에 자신의 모델을 Airflow DAG로 전환하여 분산 및 확장 가능한 환경에서 실행할 수 있습니다. 이는 경보, 데이터 품질 테스트, 그리고 내장된 액세스 제어와 함께, Airflow DAG가 무엇인지 알 필요 없이 UI에서 상호 작용할 수 있습니다 😄
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주요 부분으로 나눠 보겠습니다:
 
@@ -37,7 +44,18 @@ DBT Core는 모델 간의 계보를 다루지만, 프로덕션 환경에서 실�
 
 이 문제에 대한 직관적인 방법은 전체 DBT 프로젝트를 "하나의 큰 DAG"로 모델링하는 것입니다. 이는 DBT 계보를 고려하여 작업을 연결하기 쉽게 만들어주며 Airflow에서 전체 DBT 프로젝트의 멋진 계보 뷰를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 Monon DAG 방식에는 이 프로젝트를 시작할 때 우리에게 중요한 몇 가지 단점이 있습니다:
 
@@ -50,7 +68,18 @@ DBT Core는 모델 간의 계보를 다루지만, 프로덕션 환경에서 실�
 
 ## DBT 프로젝트를 여러 DAG로 분리하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에서 언급한 문제를 해결하기 위해, 우리는 조직에 맞는 그룹화 규칙에 따라 프로젝트를 다른 DAG로 나누기로 결정했습니다. 이를 통해 프로젝트의 다른 부분에 대해 서로 다른 SLA를 가질 수 있고, DAG 수준에서 액세스 제어 및 콜백 함수에서 알림/알림 대상을 다르게 설정할 수 있습니다. 또한, 팀은 자신들의 DAG만 쉽게 필터링할 수 있으며, Airflow에서 모델을 더 잘 탐색할 수 있습니다.
 
@@ -60,7 +89,18 @@ DBT Core는 모델 간의 계보를 다루지만, 프로덕션 환경에서 실�
 
 # 프로젝트 구조 및 DAG 배치
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전에 언급된 질문들을 고려할 때, 우리는 모델 그룹 개념을 고안해냈습니다. 모델 그룹은 서로 깊게 관련된 데이터 변환의 집합입니다. 예를 들어 함께 새로 고쳐져야하고 단위로서만 의미가 있는 같은 데이터 마트의 테이블들입니다. 또한, 이러한 테이블들은 단일 팀에 의해 소유되고 유지보수됩니다. 모델 그룹은 비즈니스 목표를 달성하기 위해 고안되었습니다. 중간 변환 수행 및 테이블 그룹 준비, 데이터 마트 생성, KPI 계산 등을 수행합니다.
 
@@ -70,7 +110,18 @@ DBT Core는 모델 간의 계보를 다루지만, 프로덕션 환경에서 실�
 
 ![이미지](/assets/img/2024-05-27-Howweorchestrate2000DBTmodelsinApacheAirflow_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음과 같이 설명해보겠습니다:
 
@@ -96,7 +147,18 @@ model_groups:
 
 - model_group_a 및 model_group_b: SQL 모델(동일한 방식으로 DBT Python 모델도 작동합니다)이 포함된 폴더입니다. 이 예제에서는 model_group_a의 model2.sql이 종속성으로 model_group_a의 model1.sql을 참조한다고 가정합니다. 모델 그룹은 DBT 프로젝트의 폴더이며 모델을 포함합니다. 원하는 만큼 모델을 넣을 수 있으며 하위 폴더에 대한 DAG 생성도 허용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Airflow에서는 이 구조가 다음과 같이 보일 것입니다.
 
@@ -109,7 +171,18 @@ Airflow에서는 이 구조가 다음과 같이 보일 것입니다.
 
 # DAG 생성 파이프라인
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 팀원이 DBT 저장소에서 PR을 생성하는 순간부터 어떤 일이 발생하는지 살펴보겠습니다. 간단히 말해서, DBT 프로젝트의 배포 파이프라인은 다음과 같습니다.
 
@@ -120,7 +193,18 @@ Airflow에서는 이 구조가 다음과 같이 보일 것입니다.
 - 조직 거버넌스 요구 사항 확인: 각 모델은 소유자와 적절한 태그, 설명 등을 가져야 합니다. 이는 매우 중요한데, 데이터 카탈로그를 풍부하고 의미 있는 것으로 만들어주기 때문입니다.
 - 스테이징 환경에서 업데이트된 모델 실행: 이를 통해 도입되는 변경 사항이 업데이트된 모델 및 하위 종속성에 대한 성공적인 실행을 보장합니다. DBT CI 실행을 위한 우리의 스테이징 영역에는 생산 모델의 대표적인 샘플이 포함되어 있어 CI 테스트 실행 비용을 최소화합니다. DBT 모델을 CI에서 적절히 테스트하는 것은 별도의 포스트가 필요하며 이에 대해 별도의 글이 필요할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 PR이 병합되면 DAG 생성 프로세스가 시작됩니다. 이 프로세스는 DBT manifest.json 파일을 구문 분석하여 전체 그래프를 가져오는 방식으로 작동합니다. 그런 다음 deployment.yaml에 정의된 모델 그룹 규칙에 따라 다른 DAG가 생성됩니다.
 
@@ -131,7 +215,18 @@ PR이 병합되면 DAG 생성 프로세스가 시작됩니다. 이 프로세스�
 이미지 소스:
 ![How we orchestrate 2000 DBT models in Apache Airflow](/assets/img/2024-05-27-Howweorchestrate2000DBTmodelsinApacheAirflow_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 흐름그림(DAGs)을 생성하는 작업 자체는 Jinja를 사용한 템플릿화를 통해 이루어집니다. 결국 우리는 단지 Python 파일들을 생성하는 것이니까요 😃. 특정 DAG에 포함할 모델들, 그들의 "내부" 선조 및 "외부" 모델 의존성(센서)을 결정하면 됩니다.
 
@@ -141,7 +236,18 @@ PR이 병합되면 DAG 생성 프로세스가 시작됩니다. 이 프로세스�
 
 Airflow에서 DBT를 실행 중이라면 BashOperator를 사용하여 dbt 명령을 실행하거나, 그 작업을 처리할 DBTOperator를 생성할 수 있습니다. 후자의 옵션은 전자보다 많은 이점을 가지고 있으며, 왜 여러분이 자체 DBTOperator를 만들어야 하는지 설명하겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희는 airflow-dbt 프로젝트의 오픈 소스 구현을 사용하여 DBTOperator 여정을 시작했습니다. 몇 달 동안 잘 사용해 왔지만, 우리만의 Operator를 만드는 것이 가장 좋을 것이라는 것을 깨달았습니다.
 
@@ -151,7 +257,18 @@ Airflow에서 DBT를 실행 중이라면 BashOperator를 사용하여 dbt 명령
 
 ## 증분 모델의 스키마 변경
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 DBT에서 기본으로 제공하는 on_schema_change 옵션 중 우리 문제를 해결하는 데는 거의 모든 경우에서 부가 정보를 백필할 필요가 있기 때문에 문제 해결이 되지 않았습니다. 예를 들어 열이 추가될 때 정보를 백필해야 하는 경우가 대부분이었습니다. 그래서 스키마 변경 시 유일한 옵션은 전체 새로 고침을 트리거하는 것이었습니다. 우리는 예상된 소스 스키마 변경으로 인해 많은 모델이 실패했고, 그 당시 "트리거"를 하려면 Snowflake에서 테이블을 삭제해야 했습니다 😅.
 
@@ -161,7 +278,18 @@ DBT에서 기본으로 제공하는 on_schema_change 옵션 중 우리 문제를
 
 가끔 아주 큰 모델의 초기 처리를 할 때나 여러 이유로 수동으로 전체 새로 고침을 트리거할 때, Snowflake DBT Warehouse를 과부하시키는 경우가 있습니다. 그를 피하기 위해 DBTOperator에 기능을 만들어서 해당 모델을 실행하는 데 사용하는 웨어하우스를 동적으로 변경하고 크기(소형, 중형, 대형 등)를 설정하는 기능을 만들었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이렇게 함으로써, 모든 기본적인 작은 증분 모델을 동시에 동일한 DBT Warehouse에서 실행할 수 있으면서, 전용 리소스가 할당된 격리된 Warehouse에서 대규모 실행을 수행할 수 있습니다. 이는 Snowflake 쿼리 실행 대기열의 증가를 방지합니다.
 
@@ -171,7 +299,18 @@ DBT에서 기본으로 제공하는 on_schema_change 옵션 중 우리 문제를
 
 때로는 데이터 분석가들이 DAG의 모델 그룹에서 하나 또는 두 개의 모델만 실행하도록 트리거해야 할 필요가 있습니다. 가끔 이러한 실행은 지정된 모델의 전체 새로 고침이어야 할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 문제를 해결하기 위해, Airflow DAG의 매개변수로 사용 가능한 옵션을 만들어 선택한 분석가가 DAG에서 특정 모델만 트리거할 수 있도록 했습니다. 그 특정 DagRun에 선택되지 않은 다른 모든 모델은 건너뛰게 됩니다. 이 접근 방식은 한 두 개의 모델만 실행해야 할 때 모든 모델을 실행하여 리소스를 낭비하는 것을 방지합니다.
 
@@ -181,7 +320,18 @@ Airflow의 clear task 옵션을 사용하는 것도 해결책이지만, 사용�
 
 우리의 Airflow-DBT 구조에서 모델 그룹에 따라 많은 DAG가 있으며, 일부 모델은 4~5개의 DAG로 구성된 긴 종속성 체인을 가지고 있습니다. 그 체인의 첫 번째 DAG에서 모델 실행(실행 또는 테스트)이 실패하면 다른 DAG에서의 모든 하류 모델이 오류 전파를 방지하기 위해 건너뛰게 됩니다. 첫 번째 모델이 수정된 후에도 우리는 모든 하류 DAG를 다시 실행할 수 있도록 어떻게 보장할 수 있을까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전에는 이 작업을 수동으로 처리했었어요 😞. 데이터 분석가들은 모델 수정이 적용된 후 재시작해야 하는 하향 DAG들을 계속 추적해야 했어요. 이 과정은 시간이 많이 소요되고 오류가 발생하기 쉬웠어요.
 
@@ -191,7 +341,18 @@ Airflow의 clear task 옵션을 사용하는 것도 해결책이지만, 사용�
 
 더 중요한 것은, 이 프로세스가 "체인 반응"으로 자동으로 계속된다는 것이에요: 트리거된 DAG는 완료되면 하향 종속성도 트리거하도록 인수 플래그를 받아 이 프로세스는 체인에서 마지막 DAG가 완료될 때까지 계속됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## DAG 매개변수를 통한 DBT 실행 인터페이스
 
@@ -201,17 +362,39 @@ DBTOperator에 위에서 언급한 솔루션들을 구현한 후, 우리는 또�
 
 이로써 데이터 분석가들과 분석 엔지니어들의 일상에 큰 변화가 생겼습니다. 이제 필요할 때 수동 실행을 완전히 사용자 정의할 수 있게 되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 모든 매개변수는 이전에 설명한 대로 DAG를 자동으로 생성할 때 템플릿에 동적으로 추가됩니다. 따라서 예를 들어, 해당 모델 그룹의 사용 가능한 모델을 사용하여 Models 드롭다운을 채우게 됩니다.
 
-또한 DAG 생성 파이프라인에서 사용되는 "매개변수 주입" 방법은 매우 확장 가능하여 미래에 필요에 따라 더 많은 매개변수를 생성할 수 있습니다. 
+또한 DAG 생성 파이프라인에서 사용되는 "매개변수 주입" 방법은 매우 확장 가능하여 미래에 필요에 따라 더 많은 매개변수를 생성할 수 있습니다.
 
 # 결론과 앞으로의 방향
 
 저는 이 게시물이 Airflow에서 DBT 오케스트레이션에 대한 다른 관점을 제공할 수 있기를 바랍니다. 이 구현은 2년이 지난 후에도 여전히 우리의 요구를 충족시키지만, 완벽하거나 이상적이지는 않으며 개선할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비슷한 오픈 소스 구현으로는 뛰어난 Astronomer Cosmos 프로젝트를 찾을 수 있어요. 여기서 재미있는 기능은 각 모델에 대한 실행 및 테스트를 결합하기 위해 작업 그룹을 사용한다는 점이에요 (우리도 그랬죠 😍) 그리고 프로젝트 구성을 통해 매우 쉽고 깔끔하게 DbtDag를 선언하는 방식이에요.
 

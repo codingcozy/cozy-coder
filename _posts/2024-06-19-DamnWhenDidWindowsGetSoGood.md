@@ -3,17 +3,13 @@ title: "마치, 윈도우가 언제 이렇게 좋아졌지"
 description: ""
 coverImage: "/assets/img/2024-06-19-DamnWhenDidWindowsGetSoGood_0.png"
 date: 2024-06-19 01:19
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-DamnWhenDidWindowsGetSoGood_0.png
 tag: Tech
 originalTitle: "Damn, When Did Windows Get So Good?"
 link: "https://medium.com/@impure/damn-when-did-windows-get-so-good-7841a6744d2b"
 isUpdated: true
 ---
-
-
-
-
 
 최근 Microsoft가 새로운 X Elite 칩에 대해 많은 것을 공개했어요. 이전에 이야기했던 것처럼, 저는 그 칩에 굉장히 감명받았어요. Qualcomm의 이전 노트북 칩 시도들은 조금 실망스러웠는데요. X Elite도 비슷할 것으로 예상했지만, Qualcomm이 이번에는 Apple 실리콘과 경쟁할 만한 칩을 만들었어요.
 
@@ -23,15 +19,37 @@ isUpdated: true
 
 하지만 만약 MacBook Air의 배터리 수명이 절반 줄어든다면 분명히 느낄 것 같아요. 그래서 Microsoft가 X Elite로 배터리 수명을 크게 향상시킬 것이라고 주장하는 것이 정말 흥미롭습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-대략 10:08에 Surface Laptop 5, Copilot+PC Surface Laptop 및 MacBook Air M3 간의 배터리 수명 비교가 이루어졌어요. 어쩌면 회사들이 지난 제품 세대를 조롱하는 걸 보는 건 항상 재미있죠. 하지만 새로운 Surface 노트북이 Surface Laptop 5와 MacBook Air를 현저하게 능가한다는 점은 분명해요. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+대략 10:08에 Surface Laptop 5, Copilot+PC Surface Laptop 및 MacBook Air M3 간의 배터리 수명 비교가 이루어졌어요. 어쩌면 회사들이 지난 제품 세대를 조롱하는 걸 보는 건 항상 재미있죠. 하지만 새로운 Surface 노트북이 Surface Laptop 5와 MacBook Air를 현저하게 능가한다는 점은 분명해요.
 
 그리고 네, MacBook Air는 Safari로 작동 중이었어요. 아무래도 그 노치를 봐도 되겠네요.
 
 또한, 테스트가 편집되어 상당히 가속화되어 있기 때문에 노트북이 얼마나 오래 버텼는지는 정확히 알기 어렵습니다. 그러나 비디오에서 테스트가 10:09에 시작되었고, 구 차세대 Surface 노트북은 10:14 (5초), MacBook Air는 10:20 (11초), 그리고 새 Surface 노트북은 10:27 (18초)에 종료되었다는 점을 유의해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 발표자가 새 Surface 노트북이 이전 Surface와 거의 배터리 수명이 두 배로 증가했다고 말했는데, 이는 비디오가 테스트 전체를 다 보여주지 않았을 것으로 추측됩니다. 아마도 시작 부분 8초를 삭제했을 것으로 예상되어, 새 Surface 노트북은 26초, 이전 Surface 노트북은 13초, MacBook Air는 19초까지 지속될 것입니다. 이는 새 Surface 노트북이 MacBook Air보다 약 40% 더 긴 배터리 수명을 가진다는 것을 의미합니다. 와우, 정말 인상적이네요.
 
@@ -41,7 +59,18 @@ isUpdated: true
 
 일부 제3자 벤치마크는 더 겸손한 결과를 보여줍니다. Signal65는 0~20% 개선만 발견했지만 여전히 상당히 인상적입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 물론 윈도우 노트북의 문제는 항상 윈도우였죠. 이 부분에 대해서 마이크로소프트도 개선 중이거든요. 예를 들어, 윈도우 11은 이제 파일 탐색기에서 git을 지원합니다. 저는 git을 광범위하게 사용하고 있어요. 제가 프로프리터리 포맷을 사용하는 것을 그만둘 때라고 주장한 글에서 언급했던 것처럼요:
 
@@ -51,7 +80,18 @@ isUpdated: true
 
 그리고 더불어 AI 기능이 풍부하게 포함되어 있어요. 이 중 일부는 의문이 제기되지만, 리콜(Recall) 기능과 같은 일부 기능은 정말 흥미로워 보여요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 윈도우 기기를 사려는 유혹이 큽니다. 약간 오래된 M1 MacBook Air를 사용 중이었는데 업그레이드를 고려 중이에요. 새로운 M4 MacBook Pro를 구입하고 싶었는데, M4 iPad Pro의 업그레이드가 함께 되어 있다면 좋겠다고 희망했어요. 하지만 최근 소문에 의하면 M4 MacBook Pro에는 그런 개선 사항이 포함되지 않을 것 같아요.
 
@@ -61,7 +101,18 @@ isUpdated: true
 
 하지만, 알지요? 이 문제들을 극복할 수 있다면 윈도우도 나쁜 선택이 아닐 거예요. '진행하는 장소에서는 Surface 기기들을 많이 본 적이 있어요. 맥북만큼은 아니지만 그래도 꽤 많았어요. 그 기기들의 품질에 대해 무언가를 전달하고 있는 것 같아요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어쩌면 이 게시물의 제목이 잘못된 것 같아요. 한 번의 업데이트로 윈도우가 크게 개선됐다고 기대했는데, 사실 X Elite는 정말 많이 도와줬어요. 하지만 윈도우는 오랜 시간 동안 점진적으로 개선되어 왔어요.
 

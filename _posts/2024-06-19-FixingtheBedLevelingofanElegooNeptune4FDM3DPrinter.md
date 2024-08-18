@@ -3,17 +3,13 @@ title: "이글루 넵튠 4 FDM 3D 프린터의 침대 레벨 조절 문제 해�
 description: ""
 coverImage: "/assets/img/2024-06-19-FixingtheBedLevelingofanElegooNeptune4FDM3DPrinter_0.png"
 date: 2024-06-19 17:32
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-FixingtheBedLevelingofanElegooNeptune4FDM3DPrinter_0.png
 tag: Tech
 originalTitle: "Fixing the Bed Leveling of an Elegoo Neptune 4 FDM 3D Printer"
 link: "https://medium.com/the-unpopular-opinions-of-a-senior-developer/fixing-the-bed-leveling-of-an-elegoo-neptune-4-fdm-3d-printer-cd48b38ab2ff"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-19-FixingtheBedLevelingofanElegooNeptune4FDM3DPrinter_0.png" />
 
@@ -23,7 +19,18 @@ Elegoo Neptune 4는 중국에서 만들어진 FDM 3D 프린터입니다. 대부�
 
 나는 이러한 프린터들과 가지는 문제 그리고 Elegoo와 넵튠 4 소유주 커뮤니티에서 제공하는 다양한 해결책을 연구하는 데 많은 시간을 투자했습니다. 나는 이러한 프린터들의 가장 큰 문제인 침대 수동 레벨링의 빈번한 필요성에 대한 해결책을 찾았다고 믿습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 프린터들은 FDM 인쇄용 CoreXZ 디자인을 사용하며 Bedlsinger로도 알려집니다. 이 이름은 프린트 헤드가 X와 Z 축만 움직이고, Y 축 이동은 침대를 단일 평면에서 빠르게 움직여 처리한다는 사실에서 유래했습니다. 빌드할 단단한 표면을 제공하여 플라스틱 덩어리와 그 플라스틱을 인쇄가 완료될 때까지 가열하는 침대는 상당한 무게를 지지합니다. 이러한 침대의 빠른 가속 및 감속은 침대를 지지하는 하드웨어와 침대를 움직이는 하드웨어에 상당한 힘을 전달합니다. 이 침대는 침대를 격렬하게 흔들어서 (따라서 Bedslinger라는 용어가 나온 것) 프린터 전체와 프린터가 올려져 있는 표면을 교란시킬 수 있습니다.
 
@@ -33,7 +40,18 @@ Elegoo Neptune 4의 침대는 알루미늄 프레임을 통해 Y 축 구동 장�
 
 이 침대 수평 조정 스크류는 입력 형태의 가속도계가 추가되기 전부터 FDM 프린터의 기능이었습니다. 이 두 기능 모두 따로는 좋지만, 함께 사용하면 두 가지 기능의 약점을 악화시킵니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 문제점
 
@@ -43,7 +61,18 @@ Klipper가 프린터의 물리적 설계를 기반으로 한 상수 집합을 �
 
 또 다른 문제점이 있습니다: 그 탄성. 침대를 수평으로 맞추기 위해 스프링을 사용함으로써 프린터의 설계는 두 개의 별도 질량을 만듭니다. 프린터의 프레임은 침대가 이동하는 프레임에 견고하게 연결되어 있습니다. 이를 탄성이 없는 질량이라고 하며, 그 움직임은 쉽게 측정하고 예측할 수 있습니다. 앞서 설명한 대로, 가열 침대는 스프링에 떠서 프레임 위에 떠 있어서, 가열 침대에서 발생한 진동을 흡수하고, 삽을 통해 가열 침대로 진동을 전달할 수 있습니다. 이러한 감쇠 및 증폭 효과는 각 스프링의 정확한 장력에 대한 캘리브레이션을 실행할 때만 예측이 가능합니다. 스프링 중 하나라도 장력이 변하면, 조정 스크류를 의도적으로 돌리거나 인쇄 중에 스크류가 풀리는 것과 같은 이유로, 보정은 더 부정확해지며 입력 형태 기능은 프린터 부품의 움직임을 개입하는 데 과다하거나 부족하게 대응할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안타깝게도, Elegoo Neptune 4의 디자인은 침대를 수동으로 레벨링 한 후 스프링의 긴장을 물리적으로 잠그는 방법을 포함하지 않습니다. 이 디자인은 스프링의 긴장만으로도 몸통을 막을 수 있다고 단순하게 가정합니다. 이는 믿을 수 없을 만큼 나쁜 디자인 선택입니다. 잠금 기구 없이 프린터의 조절 다이얼이 종이 위에 프린트하는 중에 완전히 나사에서 벗어나 있는 상황이 자주 발생했습니다. 이런 일이 발생하면 침대판의 기하학적 형태와 프린터에 적용되는 주파수가 전부 변하게 되며, 프린팅 중인 내용물이 높이로 밀려 프린트 헤드의 방향으로 이동되거나, 노즐 아래의 간격이 너무 줄어 결과적으로 불안정한 상태로 인쇄물이 생성되는 일이 매우 자주 일어나게 됩니다. 이는 종종 프린트 헤드에 새로운 핫엔드를 설치해야 하는 상황으로 이어지는데(필라멘트가 핫엔드의 전선을 감싸기 때문에 모두 효과적으로 제거하기가 매우 어렵기 때문입니다).
 
@@ -53,11 +82,23 @@ Elegoo에게 인정할 만한 점은, 제거할 수 없는 플라스틱이 결�
 
 이 문제에 대한 일반적인 해결책은 스프링을 스페이서로 교체하는 것입니다. r/ElegooNeptune4의 Reddit에서 이에 대해 읽은 후, 먼저 스페이서를 출력하였으나 이러한 스프링과 같이 쉽게 변형되어 움직이는 것으로 나타났습니다. 그 후 알루미늄 스페이서를 구매했지만, 이러한 것으로 침대를 레벨링하려면 침대와 스페이서 사이에 워셔를 쌓아야 했는데, 각 코너를 작업할수록 점점 더 어려워졌습니다. 사용 가능한 워셔는 2mm 두께와 0.5mm 두께뿐이었습니다. 이것은 스프링이나 출력된 스페이서보다 정확도가 훨씬 떨어지는 0.5mm 주변으로 침대를 레벨링 할 수 있는 최상의 방법인 것으로 알려졌습니다. 더 얇은 워셔를 찾아 구매해야 한다는 것을 고려할 때 나는 깨달음을 얻었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 너는 개발자야. 위 텍스트를 친근한 어조로 한국어로 번역해주세요.
 
 스페이서를 제거하고 M4 볼트를 히트 베드에 안정하게 고정할 너트로 교체하고, 베드 프레임에 히트 베드를 안정하게 고정할 추가 너트를 달았어. 이로 인해 두 가지 문제의 해결책을 찾았어:
+
 - 네 모서리의 위치를 Z 축에 대해 고정시킬 수 있었어.
 - 히트 베드를 베드 프레임에 안전하게 연결하여 스프링 질량을 제거하고 스프링으로 인한 힘을 없앴어.
 
@@ -67,7 +108,18 @@ Elegoo에게 인정할 만한 점은, 제거할 수 없는 플라스틱이 결�
 
 이 변화를 적용하는 것은 간단하지만, 이후 침대를 레벨로 조정할 때 주의와 주의가 필요하다는 점을 명심해야 해.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계별
 
@@ -77,7 +129,18 @@ Elegoo에게 인정할 만한 점은, 제거할 수 없는 플라스틱이 결�
 
 단계 2: 히트 베드를 프레임에서 제거합니다. M4 볼트는 나중에 다시 사용할 것이므로 옆에 놓아 두세요. 침대를 원래의 어셈블리로 되돌리고 싶을 경우를 대비해 스프링을 컨테이너에 넣어 두세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3단계: M4 볼트를 침대에 다시 넣고 침대를 평평하고 수평한 표면 위로 뒤집어 놓으세요. 볼트들은 각 경사면에 딱 맞지 않을 것이므로 너무 걱정하지 마세요.
 
@@ -87,7 +150,18 @@ Elegoo에게 인정할 만한 점은, 제거할 수 없는 플라스틱이 결�
 
 5단계: 손 너트를 나사에 꽃아넣고 나사의 길이의 절반 정도로 내려놓습니다. 이는 각 코너의 침대 높이를 세밀하게 조절하는 데 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-FixingtheBedLevelingofanElegooNeptune4FDM3DPrinter_2.png" />
 
@@ -97,7 +171,18 @@ Elegoo에게 인정할 만한 점은, 제거할 수 없는 플라스틱이 결�
 
 <img src="/assets/img/2024-06-19-FixingtheBedLevelingofanElegooNeptune4FDM3DPrinter_3.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 왼쪽에서는 콘솔 아이콘을 선택하여 클리퍼 콘솔을 열 수 있습니다.
 
@@ -107,7 +192,18 @@ Elegoo에게 인정할 만한 점은, 제거할 수 없는 플라스틱이 결�
 
 ![Home Command](/assets/img/2024-06-19-FixingtheBedLevelingofanElegooNeptune4FDM3DPrinter_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로 프린트 헤드를 나사 #1의 위치로 이동시키세요. 이들을 수동으로 찾아 31mm x 31mm 뜨거운 베드의 각 모서리로부터 떨어져 있다는 것을 알고 있습니다. 아래 명령어를 입력하여 프린트 헤드를 해당 위치로 이동시킨 후, PROBE 명령을 사용하여 이 지점에서 베드의 높이를 측정하세요.
 
@@ -135,7 +231,18 @@ G1 X194 Y31 Z10
 PROBE
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-FixingtheBedLevelingofanElegooNeptune4FDM3DPrinter_7.png" />
 
@@ -148,7 +255,18 @@ G1 X31 Y31 Z10 ; X31은 가로 31mm를 의미하고, Y31은 세로 31mm를 의�
 PROBE
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지난 단계의 위치를 사용하십시오. 각 나사를 가능한 한 0에 가깝게 만드는 것이 목표입니다. 처음으로 잠글 나사부터 시계 방향으로 작업할 것입니다. 나사의 위치를 확정하면 베드프레임 아래의 M4 너트를 조여서 꽉 고정할 것입니다. 높이를 설정하기 위해 써냄깃고리를 사용하여 베드를 프레임에서 멀리 밀어낸 후, 베드프레임 아래의 M4 너트를 사용하여 히팅 베드를 베드프레임에 가깝게 당길 것입니다. 써냄꽃개와 M4 너트를 고정한 후, 두 명령을 한 번 더 실행하십시오. 베드프레임이 굽는 현상에 관한 이전 코멘트를 기억하세요? 이것이 정말 중요한 때입니다. 각 나사를 고정할 때마다 다른 세 개의 장착 포인트에 힘을 가하게 되며, 베드프레임의 모양이 바뀌게 됩니다. 모든 나사 위치를 시계 방향으로 이동하여 어떠한 조정도 필요하지 않고 베드 주위를 완전히 돌 수 있을 때까지 계속하셔야 합니다. 제 프린터의 경우, 주로 베드 주위를 세 번 돌게됩니다.
 
@@ -158,7 +276,18 @@ ELEGOO NEPTUNE 4/ PRO: 제일 레이어의 Z-축 오프셋을 정밀 조정하�
 
 다음으로, ALL3DP 기사에 따라 프린터의 입력 형태 주파수를 보정하는 단계를 따르십시오. 프린터의 이동 바디 구조를 근본적으로 변경했으므로, Elegoo에서 제공하는 기본 값과 극명하게 다른 보정 값을 가질 수 있음에 놀랍지 마십시오.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

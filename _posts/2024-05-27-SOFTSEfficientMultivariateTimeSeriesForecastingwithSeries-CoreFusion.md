@@ -3,16 +3,13 @@ title: "SOFTS 시리즈-코어 퓨전을 활용한 효율적인 다변수 시계
 description: ""
 coverImage: "/assets/img/2024-05-27-SOFTSEfficientMultivariateTimeSeriesForecastingwithSeries-CoreFusion_0.png"
 date: 2024-05-27 14:15
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-SOFTSEfficientMultivariateTimeSeriesForecastingwithSeries-CoreFusion_0.png
 tag: Tech
 originalTitle: "SOFTS: Efficient Multivariate Time Series Forecasting with Series-Core Fusion"
 link: "https://medium.com/towards-artificial-intelligence/softs-efficient-multivariate-time-series-forecasting-with-series-core-fusion-0ac40d2adcd2"
 isUpdated: true
 ---
-
-
-
 
 ## 새로운 MLP 기반 모델인 SOFTS는 혁신적인 STar Aggregate-Dispatch (STAD) 모듈을 활용하여 계산 복잡성을 이차 방정식에서 선형으로 줄여 놀라운 효율성과 확장성으로 다변량 시계열 예측에서 최첨단 성능을 달성합니다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 # 기여
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 논문의 주요 기여는 두 가지이며, "SOFT"와 "STAD"가 있습니다.
 
@@ -32,7 +40,18 @@ SOFT: Series-cOre Fused Time Series forecaster
 
 이는 다변량 시계열 예측을 위해 설계된 것으로, 채널 독립성과 상관관계를 균형있게 유지하기 위해 STAD 모듈을 사용합니다. 이는 채널 상호작용을 전역 중심 표현으로 집중시킴으로써 선형 복잡성으로 우수한 성능을 달성하는 데 도움이 되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## STAD
 
@@ -42,7 +61,18 @@ STAD는 SOFT의 기초가 되는 곳입니다. 여기서 SOFT는 간단한 MLP �
 
 ![이미지](/assets/img/2024-05-27-SOFTSEfficientMultivariateTimeSeriesForecastingwithSeries-CoreFusion_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Reversible Instance Normalization
 
@@ -52,7 +82,18 @@ iTransformer의 Reversible Instance Normalization은 단순히 역 치수에 대
 
 ## Series Embedding
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시리즈 임베딩은 패치 임베딩보다 덜 복잡합니다. 이를 전체 시리즈의 길이로 패치 길이를 설정하는 것과 같다고 말할 수 있습니다. 연구자들은 각 채널의 시리즈를 임베딩하기 위해 선형 투사를 사용했습니다:
 
@@ -62,8 +103,18 @@ iTransformer의 Reversible Instance Normalization은 단순히 역 치수에 대
 
 여러 STAD 모듈을 사용하여 시리즈 임베딩을 미세 조정합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image1](/assets/img/2024-05-27-SOFTSEfficientMultivariateTimeSeriesForecastingwithSeries-CoreFusion_2.png)
 
@@ -73,8 +124,18 @@ After N layer of STAD, there is a linear predictor for our task (forecasting), i
 
 ![image2](/assets/img/2024-05-27-SOFTSEfficientMultivariateTimeSeriesForecastingwithSeries-CoreFusion_3.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 별 집합 디스패치 모듈
 
@@ -84,7 +145,18 @@ STar Aggregate Dispatch (STAD) 모듘은 다변량 시계열 예측에서 채널
 
 ![이미지](/assets/img/2024-05-27-SOFTSEfficientMultivariateTimeSeriesForecastingwithSeries-CoreFusion_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 적용된 결과에 따르면 STAD 모듈은 기존의 최첨단 방법보다 우수한 성능을 보여주며, 그럼에도 불구하고 상당히 낮은 계산 요구량으로 그 성과를 이룹니다. 이는 많은 다른 트랜스포머 기반 모델들에 대한 도전이었던 채널 수가 많거나 긴 lookback 창을 가진 데이터셋에 대해 확장 가능하게 만듭니다. 게다가 STAD 모듈의 일반성 덕분에 다양한 트랜스포머 기반 모델들에서 어텐션 메커니즘을 대체로 사용할 수 있으며, 그 효율성과 효과를 한층 더 입증하고 있습니다.
 
@@ -94,8 +166,18 @@ STAD의 입력은 각 채널에 대한 시리즈 표현이며, MLP를 통해 처
 
 이제 우리는 코어 표현(O)을 계산했으며, 코어와 모든 시리즈의 표현을 퓨전합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-05-27-SOFTSEfficientMultivariateTimeSeriesForecastingwithSeries-CoreFusion_6.png)
 
@@ -105,8 +187,18 @@ The Repeat_Concat concatenates the core representation O to each series represen
 
 # Results
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 메소드가 간단해 보이지만, 복잡성이 크게 줄었어요 (이차 함수에서 선형 함수로) 그런데 대단하죠 😅😉
 
@@ -116,7 +208,18 @@ The Repeat_Concat concatenates the core representation O to each series represen
 
 ![이미지2](/assets/img/2024-05-27-SOFTSEfficientMultivariateTimeSeriesForecastingwithSeries-CoreFusion_8.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그들은 다른 실험도 수행했지만, 이 문서를 너무 길게 만들지 않기 위해 원래 연구 논문을 읽는 것을 추천합니다.
 

@@ -3,18 +3,13 @@ title: "리눅스 커널 리눅스 시스템의 심장과 두뇌"
 description: ""
 coverImage: "/assets/img/2024-06-23-TheLinuxKernelTheHeartandBrainofLinuxSystems_0.png"
 date: 2024-06-23 15:24
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-TheLinuxKernelTheHeartandBrainofLinuxSystems_0.png
 tag: Tech
 originalTitle: "The Linux Kernel: The Heart and Brain of Linux Systems"
 link: "https://medium.com/@moraneus/the-linux-kernel-the-heart-and-brain-of-your-computer-f94f91386912"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![Linux Kernel](/assets/img/2024-06-23-TheLinuxKernelTheHeartandBrainofLinuxSystems_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 리눅스 커널은 리눅스 운영 체제의 핵심 부분입니다. 커널은 컴퓨터의 하드웨어(예: CPU, 메모리, 디바이스)와 사용하는 소프트웨어 애플리케이션 사이의 다리 역할을 합니다. 커널이 없다면 소프트웨어가 하드웨어와 통신할 수 없어 아무 것도 작동하지 않을 것입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 역사 소개
 
@@ -35,7 +40,18 @@ isUpdated: true
 
 1991년 8월 26일, Torvalds는 comp.os.minix 뉴스 그룹에서 자신의 프로젝트를 발표했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 겸손한 발표는 컴퓨팅 역사상 가장 중요한 프로젝트 중 하나로 자리매김하게 될 시작을 알렸습니다.
 
@@ -45,7 +61,18 @@ isUpdated: true
 
 GPL의 채택으로 프로젝트에 기여하는 개발자 커뮤니티가 점점 더 커졌고, 새로운 기능을 추가하고 버그를 수정하며 성능을 개선했습니다. 1990년대 중반이 되자, 리눅스 커널은 상당히 성숙해지며 전 세계의 취미로, 연구자, 기업들에 의해 사용되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 주요 이정표
 
@@ -59,7 +86,18 @@ GPL의 채택으로 프로젝트에 기여하는 개발자 커뮤니티가 점�
 
 리눅스 커널은 지속적으로 발전하고 있으며 새로운 버전이 정기적으로 출시됩니다. 각 릴리스에는 성능, 보안 및 하드웨어 지원이 개선됩니다. 리눅스 커널은 이제 전 세계의 수천 명의 기여자들, 자원봉사자, 학술 연구원 및 주요 기술 기업 엔지니어들에 의해 개발되고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리눅스는 많은 현대 기술의 기반이 되었습니다. 웹 서버, 초고속 컴퓨터, 그리고 클라우드 인프라 대부분을 구동합니다. 또한, 세계에서 가장 인기 있는 모바일 운영 체제 안드로이드의 기초이기도 합니다.
 
@@ -74,7 +112,18 @@ GPL의 채택으로 프로젝트에 기여하는 개발자 커뮤니티가 점�
 
 # 리눅스 커널의 핵심 개념
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 커널 공간 대 커널 영역: 커널은 사용자 응용 프로그램이 실행되는 영역(user space)과 별도의 커널 공간(kernel space)이라는 특수한 메모리 영역에서 작동합니다. 이 분리로 시스템을 안정하고 안전하게 유지합니다.
 - 시스템 호출: 응용 프로그램이 커널에 파일 읽기 또는 새 프로세스 시작과 같은 작업을 수행하도록 요청하는 것입니다.
@@ -89,7 +138,18 @@ GPL의 채택으로 프로젝트에 기여하는 개발자 커뮤니티가 점�
 
 ## 모든 것이 원활하게 작동함을 보장
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 커널은 CPU 시간을 효율적으로 스케줄링하여 프로세스 간의 메모리 할당을 관리하고 시스템 리소스를 무단 접근으로부터 보호하며 기기 간 통신을 원활하게 하는 등 컴퓨터가 원할하게 작동하도록합니다.
 
@@ -102,7 +162,18 @@ Linux 커널은 새로운 기술을 통합하고 성능을 향상시키며 보�
 - 하드웨어 지원: 최신 하드웨어 장치 지원을 포함.
 - 버그 수정: 버그를 빈번히 수정하고 안정성을 향상시키기 위한 업데이트.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 커널 대 운영 체제 대 하드웨어
 
@@ -114,7 +185,18 @@ Linux 커널은 새로운 기술을 통합하고 성능을 향상시키며 보�
 
 커널을 업데이트하는 것은 시스템을 안전하고 안정적으로 유지하며 새 하드웨어와 소프트웨어와 호환되도록 하는 데 중요합니다. 아래는 그 방법입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 개발 및 유지 관리: 리눅스 커널은 리눅스 재단이 조정하는 글로벌 개발자 커뮤니티에 의해 개발됩니다. 리누스 토르발스(Linus Torvalds)는 리눅스를 만든 개발자로 프로젝트를 감독하지만, 수천 명의 기여자들이 이를 개선하는 데 도움을 줍니다.
 
@@ -128,7 +210,18 @@ Linux 커널은 새로운 기술을 통합하고 성능을 향상시키며 보�
 
 데이터가 강 같이 흐르고 코드의 고층 빌딩이 하늘을 대적하는 활기찬 디지털 도시 컴퓨토폴리스를 상상해보세요. 이 도시에서는 혼돈이 일상이었지만, 커널이라는 슈퍼히어로가 나타나 순서와 조화를 가져다주었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## CPU 구역: 커널의 지시 센터
 
@@ -138,7 +231,18 @@ Linux 커널은 새로운 기술을 통합하고 성능을 향상시키며 보�
 
 ## 메모리 공원: 커널의 질서 영역
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CPU 지구에서 멀지 않은 곳에는 메모리 공원이 있습니다. 시민들이 앉아서 작업할 수 있는 공간(메모리)이 필요한 넓은 지역입니다. 커널의 메모리 관리 능력이 여기서 빛을 발합니다. 각 벤치(메모리 공간)는 커널에 의해 꼼꼼하게 할당됩니다. 시민이 떠나면 커널은 신속하게 벤치를 필요로 하는 다른 사람에게 재할당합니다. 이 원활한 관리는 메모리 공원이 언제나 완벽한 순서로 유지되도록 하며 공간의 낭비가 없도록 합니다.
 
@@ -148,8 +252,18 @@ CPU 지구에서 멀지 않은 곳에는 메모리 공원이 있습니다. 시�
 
 컴퓨토폴리스의 교외에는 프린터, 키보드, 모니터 등 다양한 장치가 있는 장치 마을이 있습니다. 커널의 장치 통신 능력은 모든 시민이 이러한 장치와 손쉽게 상호 작용할 수 있도록 보장합니다. 누군가 문서를 인쇄하려고 하면 커널은 프린터와 통신하기 위한 적합한 드라이버가 있는지 확인합니다. 이 슈퍼파워는 장치 마을이 원활하게 연결되고 문제없이 작동하도록 유지합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image 1](/assets/img/2024-06-23-TheLinuxKernelTheHeartandBrainofLinuxSystems_3.png)
 
@@ -159,8 +273,18 @@ CPU 지구에서 멀지 않은 곳에는 메모리 공원이 있습니다. 시�
 
 ![Image 2](/assets/img/2024-06-23-TheLinuxKernelTheHeartandBrainofLinuxSystems_4.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 시스템 호출: 커널의 도움데스크
 
@@ -170,7 +294,18 @@ CPU 지구에서 멀지 않은 곳에는 메모리 공원이 있습니다. 시�
 
 ## 컴퓨토폴리스의 조화
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Kernel의 슈퍼파워 덕분에 Computopolis는 조화롭고 생산적인 도시로 번영하고 있어요. 자원을 효율적으로 관리하고 안전을 보장하며 원활한 통신 채널을 유지하는 Kernel의 능력 덕분에 도시가 원활히 운영됩니다. Kernel에게는 너무 작은 일도, 너무 큰 위협도 없죠. Kernel은 Computopolis의 슈퍼히어로랍니다!
 
@@ -180,7 +315,18 @@ Kernel의 슈퍼파워 덕분에 Computopolis는 조화롭고 생산적인 도�
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Linux 커널은 컴퓨터를 작동시키는 중요한 구성 요소입니다. 하드웨어, 자원 및 보안을 관리하여 모든 것이 원활하게 작동하도록 합니다. 커널의 역할과 작동 방식을 이해하면 현대 컴퓨팅의 복잡성에 대해 더 심층적으로 이해할 수 있습니다. 업데이트하거나 기능을 탐색하거나 컴퓨터를 사용하더라도 커널은 항상 작동하여 디지털 세계를 유지합니다.
 

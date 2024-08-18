@@ -3,17 +3,13 @@ title: "RTC 모듈 설계 방법"
 description: ""
 coverImage: "/assets/img/2024-07-12-DesigninganRTCmodule_0.png"
 date: 2024-07-12 23:03
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-DesigninganRTCmodule_0.png
 tag: Tech
 originalTitle: "Designing an RTC module"
 link: "https://medium.com/gitconnected/designing-an-rtc-module-25a6c6f2353f"
 isUpdated: true
 ---
-
-
-
-
 
 아두이노, ESP32, STM32 등을 사용한 많은 홈 자동화/DIY/교육 프로젝트는 실시간 시계(RTC)와 백업 전원원을 필요로 합니다. 그렇게 하면 매번 시간을 재설정할 필요가 없어요. 시장에서 DS3231과 DS1307 모듈과 같은 것들을 많이 찾을 수 있어요. 오늘은 그런 간단한 모듈을 언가-붕가하는 여행에 여러분을 초대하고 싶어합니다. 준비되셨나요? 함께 떠나요!
 
@@ -25,7 +21,18 @@ isUpdated: true
 - 이 모듈의 PCB 레이아웃
 - 제조 파일 (Gerber 파일)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내가 운동하고 싶은 것:
 
@@ -38,7 +45,18 @@ isUpdated: true
 
 분명히 하기 위해, 이것은 포괄적인 전문적인 안내서가 아닙니다 — 나는 완전한 초보자이다. PCB 디자인을 한 지 15년이 넘었거나 관련된 것을 만든 지 오랜 시간이 지났습니다. 그러니까 모든 것을 거리낌 없이 받아들이세요. 길을 가면서 배우고 있으며, 나와 같은 사람들에게 도움이 되고, 경험이 풍부한 사람들로부터 통찰력/권장 사항을 받을 수 있기를 희망합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 회로 설계
 
@@ -48,7 +66,18 @@ isUpdated: true
 
 이 모듈의 핵심으로 DS3231M SOP8을 선택했어요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 느슨한 핀이 없습니다.
 - I2C를 지원합니다.
@@ -63,7 +92,18 @@ isUpdated: true
 
 전형적인 배터리 전압을 고려하여, 3V을 공급하는 CR2032 코인 배터리를 사용하기로 결정했습니다. 이는 가장 작은 배터리는 아니지만, 널리 사용되며 매우 풍부합니다. 가격도 꽤 낮습니다. 6달러에 10개를 찾아, 배터리 당 60센트입니다. 물론 더 저렴한 옵션도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-12-DesigninganRTCmodule_1.png" />
 
@@ -74,7 +114,18 @@ DS3231M 데이터 시트에 따르면, 몇 가지 추가 수동 부품이 필요
 
 ## 회로
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 KiCad에서 깨끗한 새 프로젝트를 생성하고 회로도 편집기로 이동했어요.
 
@@ -90,7 +141,18 @@ KiCad에서 깨끗한 새 프로젝트를 생성하고 회로도 편집기로 �
 
 그 다음으로, 각 구성 요소에 값을 부여하러 나갔어요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 디커플링 캐패시터용으로 1uF
 - 배터리용으로 3V
@@ -103,7 +165,18 @@ KiCad에서 깨끗한 새 프로젝트를 생성하고 회로도 편집기로 �
 
 ![RTC 모듈 설계](/assets/img/2024-07-12-DesigninganRTCmodule_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전원 및 분리 커패시터를 처리한 후, 전원 LED를 설계하기로 했습니다. 전원 LED를 본 스키마와 분리하여 보다 가독성있게 만들었습니다. KiCad는 넷 이름으로 연결을 이해합니다.
 
@@ -113,7 +186,18 @@ KiCad에서 깨끗한 새 프로젝트를 생성하고 회로도 편집기로 �
 
 ![리셋 버튼](/assets/img/2024-07-12-DesigninganRTCmodule_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 남은 건 데이터 핀들 뿐이에요. 저는 LED와 같은 방식으로 통신 이름별로 나누어 놓았고, 다음에 커넥터 옆에 놓아서 다이어그램이 많은 겹침이 없게 했어요.
 
@@ -123,7 +207,18 @@ KiCad에서 깨끗한 새 프로젝트를 생성하고 회로도 편집기로 �
 
 당연히 PCB 설계 단계에서 여러 번 커넥터 핀을 섞었어요. 트레이스의 겹침을 줄이려고 하지만 일단 여기까지에요! 조금 손질하고 레이블을 붙이면 앞으로 나아갈 준비가 완료돼요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 그 전에, 이 스키마가 유효한지 확인하고 싶었어요. 그래서 KiCad에서 전기 규칙 확인을 제공해요. 첫 번째 실행 후 몇 가지 문제를 보았어요.
 
@@ -133,7 +228,18 @@ KiCad에서 깨끗한 새 프로젝트를 생성하고 회로도 편집기로 �
 
 # PCB 디자인
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 풋프린트 할당하기
 
@@ -143,7 +249,18 @@ KiCad에서 깨끗한 새 프로젝트를 생성하고 회로도 편집기로 �
 
 지금까지 지정한 유일한 풋프린트는 DS3231MZ입니다. 이는 8핀 패키지에 대해 사전 정의된 기본 풋프린트가 있었기 때문입니다. 따라서 콘덴서부터 시작하여 그것을 탐구하기 시작했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다양한 구성 요소에 사용할 패키지를 결정하기 위해 https://www.digikey.com/에 들어가서 원하는 구성 요소를 검색했어요. 제가 찾고 싶었던 1uF, SMD, 6.3V 캐패시터를 검색하고 인기 순으로 정렬했어요. 첫 번째 매치는 0201(0603 metric) 패키지의 GRM033R60J104KE19D 캐패시터였어요. 제게 좋아 보여요!
 
@@ -153,12 +270,23 @@ KiCad에서 깨끗한 새 프로젝트를 생성하고 회로도 편집기로 �
 
 ![이미지](/assets/img/2024-07-12-DesigninganRTCmodule_11.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다른 모든 부품에 대해도 같은 연습을 진행했어요:
 
 - 470 옴 저항: RC0402FR-07470RL, 0402 (1005 미터) 패키지
-- 4.7k 옴 저항 어레이, YC164-JR-074K7L, 1206 (3216 미터) - 0603 * 4
+- 4.7k 옴 저항 어레이, YC164-JR-074K7L, 1206 (3216 미터) - 0603 \* 4
 - 빨간색 LED, BND0603JKRS001, 0603 패키지
 - 리셋 버튼, PTS810 SJK 250 SMTR LFS
 - 배터리 홀더, 23-BHCC-1 또는 20mm 간격의 유사한 제품.
@@ -167,7 +295,18 @@ KiCad에서 깨끗한 새 프로젝트를 생성하고 회로도 편집기로 �
 
 ![RTC 모듈 설계](/assets/img/2024-07-12-DesigninganRTCmodule_12.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금 PCB 설계로 넘어갑시다.
 
@@ -177,7 +316,18 @@ PCB Editor 창으로 전환하여 회로도에서 PCB를 업데이트하니 발�
 
 ![PCB footprints](/assets/img/2024-07-12-DesigninganRTCmodule_13.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 PCB에 대한 내 생각은 레이어를 2개 만들어서, 상단 레이어는 신호/전원용으로, 하단은 그라운드 플레인으로 만드는 것이었습니다 (비아를 통해 신호가 필요한 경우를 위해 — 실제로 그랬죠).
 
@@ -187,7 +337,18 @@ PCB에 대한 내 생각은 레이어를 2개 만들어서, 상단 레이어는 
 
 ![이미지](/assets/img/2024-07-12-DesigninganRTCmodule_14.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그렇게 해서 나는 첫 번째 위치 설정을 마쳤어. 물론, 뭔가를 연결하기 시작하면서 바뀌기는 했지만, 전반적인 모양은 거의 그대로 유지됐어.
 
@@ -197,17 +358,39 @@ PCB에 대한 내 생각은 레이어를 2개 만들어서, 상단 레이어는 
 
 ![이미지](/assets/img/2024-07-12-DesigninganRTCmodule_15.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보드 설정 시 JLCPCB에서 몇 가지 제약 조건을 넣어보았어요.
 
 ![image](/assets/img/2024-07-12-DesigninganRTCmodule_16.png)
 
-그리고 미리 정의된 트레이스와 비아 크기를 추가했어요 (트레이스는 0.2mm와 0.3mm, 비아는 제약 사항) 그리고 넷 클래스들을 설정했어요 (신호의 경우 0.2mm 트레이스로 기본값, 전원은 살짝 큰  0.3mm 트레이스로).
+그리고 미리 정의된 트레이스와 비아 크기를 추가했어요 (트레이스는 0.2mm와 0.3mm, 비아는 제약 사항) 그리고 넷 클래스들을 설정했어요 (신호의 경우 0.2mm 트레이스로 기본값, 전원은 살짝 큰 0.3mm 트레이스로).
 
 이제 모든 것이 준비되어 첫 번째 트레이스를 넣을 준비가 되었어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 부품 연결하기
 
@@ -217,7 +400,18 @@ PCB에 대한 내 생각은 레이어를 2개 만들어서, 상단 레이어는 
 
 그리고 이미 조금은 작업을 재배치해야 했어요: 4.7k 어레이를 왼쪽으로 옮겨 VCC 핀과 정렬하고, C2 디커플링 캐패시터를 조금 이동했죠. 이렇게 모든 양전력 추적부가 (아마도) 완료되었어요. 그라운드는 뒷면 전원 플레인으로 연결된 후에 다시 연결할 거예요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 단계는 신호 핀을 연결하고 크게 엉망을 벌이지 않도록 하는 겁니다. 그래서 진행되었어요.
 
@@ -227,7 +421,18 @@ DS3231의 VCC 레인에 몇 가지 변경 사항이 있음을 알 수 있을 겁
 
 팁: 새로운 트레이스를 끌 때 V를 눌러 via를 놓을 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가장 최근에 연결된 넷은 그라운드였어요. 그러기 위해 바닥 부분에 채워진 존을 추가하고 GND 네트에 연결했어요.
 
@@ -237,7 +442,18 @@ DS3231의 VCC 레인에 몇 가지 변경 사항이 있음을 알 수 있을 겁
 
 설계 규칙을 점검한 후, 모든 Via에 오류가 있다는 걸 알았어요. 규칙에 따르면 최소 연핑지지 지름이 0.13이어야 하지만, via 제한에는 0.5/0.3 지름/홀 크기로 나와서 0.1이 돼요. 그래서 지름을 0.06 올려야 했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또 다른 오류는 다이오드의 최소 간격과 관련이 있었습니다. 그 간격을 1온스 구리 한도인 0.127mm로 낮춰야 했어요. 어쨌든 2온스는 필요 없을 것 같아요.
 
@@ -247,7 +463,18 @@ DS3231의 VCC 레인에 몇 가지 변경 사항이 있음을 알 수 있을 겁
 
 ![이미지](/assets/img/2024-07-12-DesigninganRTCmodule_19.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제가 마지막으로 한 일은 핀을 표시하기 위해 보드 뒷면에 일부 라벨을 추가했어요.
 
@@ -257,7 +484,18 @@ DS3231의 VCC 레인에 몇 가지 변경 사항이 있음을 알 수 있을 겁
 
 ![Image 2](/assets/img/2024-07-12-DesigninganRTCmodule_21.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -267,7 +505,18 @@ DS3231의 VCC 레인에 몇 가지 변경 사항이 있음을 알 수 있을 겁
 
 아마 언젠가는 이 보드를 제조해보고 실제로 폭발하는지 확인해볼지도 몰라요, 그건 정말 흥미로울 것 같아요. 그런데 지금은 — 끝났어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 자료
 
@@ -277,6 +526,17 @@ KiCad: [링크](https://www.kicad.org/)
 
 DS3231M 데이터시트: [링크](https://www.analog.com/media/en/technical-documentation/data-sheets/DS3231M.pdf)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 디지키: https://www.digikey.com/

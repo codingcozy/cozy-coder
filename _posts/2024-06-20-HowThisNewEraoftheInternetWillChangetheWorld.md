@@ -3,17 +3,13 @@ title: "인터넷 새 시대가 세상을 어떻게 바꿀 것인가"
 description: ""
 coverImage: "/assets/img/2024-06-20-HowThisNewEraoftheInternetWillChangetheWorld_0.png"
 date: 2024-06-20 16:09
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-HowThisNewEraoftheInternetWillChangetheWorld_0.png
 tag: Tech
 originalTitle: "How This New Era of the Internet Will Change the World"
 link: "https://medium.com/@Levente22/how-this-new-era-of-the-internet-will-change-the-world-89789933df7a"
 isUpdated: true
 ---
-
-
-
-
 
 ## 웹 3.0:
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 그 핵심은 블록체인 기술에 기반을 둔 탈중앙화된 인터넷 생태계를 만드는 데 있습니다. Google, Amazon, Facebook 등 대형 기술 기업들에 의해 데이터와 디지털 흔적이 소위 봉쇄되고 통제되는 것이 아니라, 웹 3.0은 그 소유권과 통제력을 개별 사용자들에게 부여하려고 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 탈중앙화 웹의 부상
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 이러한 구조는 블록체인을 해킹, 사기, 나쁜 행위자로부터의 조작에 극도로 저항력 있는 것으로 만듭니다. 그리고 이는 재정뿐만 아니라 기록 보관, 스마트 계약, 디지턈 자산 소유 등 다양한 분야에 새로운 가능성을 엽니다. 이러한 기초 위에 온라인 플랫폼과 앱을 구축하면 어느 단일 기관도 액세스 제한, 콘텐츠 검열, 또는 이를 통해 이윤을 창출하는 사용자 데이터 제한을 할 수 없는 인터넷이 형성됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 웹 3.0의 핵심 원칙과 예측된 영향 중 일부는 다음과 같습니다:
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 신뢰없는, 허가되지 않은 시스템: 참여하려면 중앙 집중식 승인이나 신원 확인이 필요하지 않습니다. 모든 사람이 상호 작용할 수 있는 코따이된 규칙을 갖는 공개 프로토콜입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 토큰 기반의 경제학: 광고 수익이나 VC 자금보다 이러한 플랫폼의 인센티브와 경제는 네이티브 암호화폐 토큰에 기반을 두고 있습니다. 사용자는 단순히 참여함으로써 수익을 올릴 수 있습니다.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 # 데이터 권리와 인터넷 비즈니스 모델의 혁명
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![HowThisNewEraoftheInternetWillChangetheWorld_1](/assets/img/2024-06-20-HowThisNewEraoftheInternetWillChangetheWorld_1.png)
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 개인 정보 침해 외에도, 다른 결과는 인터넷이 점점 더 통합되고 폐쇄된다는 것입니다. 이 거대 기업들은 사용자를 자사의 격리된 생태계에 가두어, 접근을 제한하고 신흥 경쟁사를 타파하기 위해 자신들만의 데이터 추출 사기를 확대시키는 동기부여되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "우리는 아주 오랫동안 이용 가능한 유일한 모델이었기 때문에, 이 중앙 집중식 모델에서 인류 문명의 매우 중요한 부분을 많이 재창조하고 있습니다," Venture Capital 회사 Andreessen Horowitz의 파트너인 Chris Dixon은 말합니다.
 
@@ -73,7 +124,18 @@ Google 드라이브에 개인 사진과 콘텐츠를 넣고 통제와 잠재적�
 
 그러면 액세스를 활용, 상업적 사용 라이선스를 부여하거나 제3자가 조건을 규제하지 않고 NFT 디지털 자산으로 파일을 판매할 수 있습니다. 이 모든 것은 자체 실행 코드와 블록체인을 통한 직접적인 사용자 간 거래로 구동됩니다."
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 유사한 프레임워크는 분산형 소셜 네트워크, 크리에이터 경제, 디지턈 세계, 그리고 모든 종류의 시장을 지배할 수 있습니다. 관리자가 없으면 사용자들은 더 자유롭게 연결하고, 경험과 디지턈 자산의 여러 측면을 더 많이 제어하며, 광고와 데이터 수집을 위한 인터넷의 확립된 플레이북을 넘어 새로운 경제 모델을 탐험할 수 있습니다.
 
@@ -83,7 +145,18 @@ Google 드라이브에 개인 사진과 콘텐츠를 넣고 통제와 잠재적�
 
 새로운 기술이나 웹 3.0 또한 해결해야 할 합리적인 위험과 불확실성이 따릅니다. 초기 블록체인 실험으로부터 에너지 소비, 자금 세탁, 오라클 조작, 그리고 DAO 거버넌스 실패에 대한 우려가 모두 나왔습니다. 그리고 기존 규제 및 사회적 규범에 도전하는 새로운 분산형 "와일드캣" 애플리케이션이 나타날 것이라고 기대됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 Web 3.0의 핵심 전제와 약속은 인터넷의 흥미로운 새로운 방향을 대표합니다. 여기서 사용자들이 어디에서나 더 열린, 투명하고 공정한 방식으로 디지털 생활과 경제를 다시 확보할 수 있는 곳입니다. 확실히 아직 확신을 얻지 못했지만, 이것은 인터넷의 진화의 다음 단계를 촉매하는 혁명적인 선도구역으로, 우리가 아는 현대의 데이터 군주들을 뒤집을 수도 있습니다.
 

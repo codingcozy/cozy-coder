@@ -3,17 +3,13 @@ title: "요청콘텐츠 스타일을 제한하는 50가지 두 단어 ChatGPT �
 description: ""
 coverImage: "/assets/img/2024-06-23-50Two-wordChatGPTpromptsthatdontsuggestcontentbutlimittheRequestStyleofContentPart-2_0.png"
 date: 2024-06-23 19:00
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-50Two-wordChatGPTpromptsthatdontsuggestcontentbutlimittheRequestStyleofContentPart-2_0.png
 tag: Tech
 originalTitle: "50 Two-word ChatGPT prompts that don’t suggest content but limit the Request + Style of Content (Part -2)"
 link: "https://medium.com/aimonks/50-two-word-chatgpt-prompts-that-dont-suggest-content-but-limit-the-request-style-of-content-3625ff22c795"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-06-23-50Two-wordChatGPTpromptsthatdontsuggestcontentbutlimittheRequestStyleofContentPart-2_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 우리는 "재미있는 이야기"와 같은 단순한 분위기를 넘어, 몇 가지 더 황당한 단계를 올려가고 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ChatGPT가 다양한 주제에 대해 다양한 답변을 제공할 수 있다는 걸 알고 계시나요?
 
@@ -33,7 +40,18 @@ ChatGPT가 다양한 주제에 대해 다양한 답변을 제공할 수 있다�
 
 이러한 프롬프트를 사용하면 ChatGPT가 자유자재로 코드를 전환하면서 자유스럽게 랩퍼처럼 라임을 맞춰주거나, 고대의 현자처럼 철학적으로 이야기하거나, 앤드루 다이스 클레이를 부끄러워하게 할만한 욕설로 가득한 욕설을 할 수 있어. 그건 시작에 불과해!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - “전략 개요”
 - “예측 제공”
@@ -86,7 +104,18 @@ ChatGPT가 다양한 주제에 대해 다양한 답변을 제공할 수 있다�
 - “단계 개요”
 - “지시 제공”
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 뭐 기다려? 이 살상적인 프롬프트들을 꽂아보면서 끊임없는 대화, 이야기, 그리고 AI 들어끼기의 새로운 세계를 즐겨보세요.
 
@@ -96,7 +125,18 @@ ChatGPT가 다양한 주제에 대해 다양한 답변을 제공할 수 있다�
 
 이 글을 즐겼다면 몇 번의 박수👏를 해주시고 주변에 공유해주세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹진이 팔로우해 주셔서 감사합니다!
 
@@ -106,7 +146,18 @@ ChatGPT가 다양한 주제에 대해 다양한 답변을 제공할 수 있다�
 
 건배! 🥂
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 웹진니(Webjinnee 창립자) Nitin입니다. 다음에 만나요! ✌️
 

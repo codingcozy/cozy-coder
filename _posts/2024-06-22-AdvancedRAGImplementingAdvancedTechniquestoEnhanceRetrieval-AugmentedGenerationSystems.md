@@ -3,17 +3,13 @@ title: "고급 RAG 정보 검색 강화 생성 시스템 향상시키는 고급 
 description: ""
 coverImage: "/assets/img/2024-06-22-AdvancedRAGImplementingAdvancedTechniquestoEnhanceRetrieval-AugmentedGenerationSystems_0.png"
 date: 2024-06-22 19:52
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-AdvancedRAGImplementingAdvancedTechniquestoEnhanceRetrieval-AugmentedGenerationSystems_0.png
 tag: Tech
 originalTitle: "Advanced RAG: Implementing Advanced Techniques to Enhance Retrieval-Augmented Generation Systems"
 link: "https://medium.com/@ndemir/advanced-rag-implementing-advanced-techniques-to-enhance-retrieval-augmented-generation-systems-0e07301e46f4"
 isUpdated: true
 ---
-
-
-
-
 
 이제 RAG (Retrieval Augmented Generation) 기술이 LLMs와 상호 작용 중에 사실로 잘 알려져 있는 것 같아요. 최근에 제가 쓴 하나의 기사에서는 코드 예제와 함께 단계별로 RAG 파이프라인을 구축했습니다. 이 기사에서 우리는 이 이니셔티브를 한 단계 더 나아가서 고급 RAG 파이프라인을 구현해볼 거에요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 고급 RAG 파이프라인은 새로운 단계(하위 단계)가 추가된 이 파이프라인의 향상된 버전입니다. 이 기사에서 논의될 개선 사항 목록은 다음과 같지만, 전반적인 목록은 이에 한정되지 않을 거에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 데이터 색인 최적화: 슬라이딩 윈도우를 사용하여 텍스트 청킹 및 효율적인 메타데이터 활용과 같은 기술을 사용하여 더 검색 가능하고 조직화된 색인을 생성합니다.
 - 쿼리 향상: 동의어 또는 보다 넓은 범위의 용어를 사용하여 초기 사용자 쿼리를 수정하거나 확장하여 관련 문서의 검색을 개선합니다.
@@ -38,7 +45,18 @@ isUpdated: true
 
 본 문서에서는 기본 RAG 파이프라인에 대한 이해를 전제로 하고, 개선 사항에만 초점을 맞출 것입니다. 이해가 되지 않는 경우, 이전 글인 "RAG와 함께하는 실전: LLMs에 검색 보강 생성 통합하기 - 단계별 가이드"를 읽어보시기를 권해 드립니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2. Pre-Retrieval Optimizations for Advanced Retrieval-Augmented Generation (RAG)
 
@@ -48,7 +66,18 @@ isUpdated: true
 
 다른 작업을 수행하기 전에 나중에 질의할 수 있는 데이터를 저장해야 합니다. 이를 인덱싱이라고 합니다. 이는 올바른 청크 크기 설정, 메타데이터 효과적인 사용 및 임베딩 모델 선택을 포함합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2.1.1. 텍스트 청킹을 위한 슬라이딩 윈도우
 
@@ -86,7 +115,18 @@ for chunk in chunks:
 
 2.1.2. 메타데이터 활용
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 메타데이터에는 문서 작성 날짜, 작성자 또는 관련 태그와 같은 정보가 포함될 수 있습니다. 이 정보는 검색 프로세스를 향상시켜 검색 중에 문서를 필터링하거나 우선 순위를 지정하는 데 사용될 수 있습니다.
 
@@ -138,7 +178,18 @@ matching_documents = search(query_embedding, '태그', '업데이트')
 print(matching_documents)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자가 질문을 명확하게 표현하지 못할 수도 있는 경우가 있습니다. 그런 경우에는 질문을 완전히 다시 작성하거나 확장하여 쿼리를 개선할 수 있습니다.
 
@@ -150,7 +201,18 @@ LLM 자체를 활용할 수 있습니다. 질문을 LLM에 보내서 더 명확�
 
 새로운 쿼리를 얻은 후, 새로운 쿼리를 임베딩 벡터로 변환하여 벡터 데이터베이스에서 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3. 고급 검색 증강 생성 (RAG)을 위한 검색 기술
 
@@ -160,7 +222,18 @@ LLM 자체를 활용할 수 있습니다. 질문을 LLM에 보내서 더 명확�
 
 지금까지 우리는 항상 임베딩 벡터를 저장하는 벡터 데이터베이스에서 쿼리를 검색하는 것을 논의해 왔습니다. 이를 한 걸음 더 나아가 전통적인 키워드 기반 검색과 결합해 봅시다. 이 접근 방식은 검색 시스템이 정확한 키워드 일치를 필요로하는 쿼리부터 컨텍스트 이해가 필요한 복잡한 쿼리까지 다양한 유형의 쿼리를 처리할 수 있도록 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하이브리드 검색 모델을 만들어 보겠습니다. 전통적인 검색 메커니즘에는 Elasticsearch를 사용하고 의미론적 검색을 위해 벡터 데이터베이스로 faiss를 사용할 것입니다.
 
@@ -170,7 +243,18 @@ LLM 자체를 활용할 수 있습니다. 질문을 LLM에 보내서 더 명확�
 
 우선, 모든 문서가 'documents' 딕셔너리에 있다고 가정하고 임베딩 벡터를 이미 가져와 딕셔너리에 저장했다고 가정해 봅시다. 다음 코드 블록은 Elasticsearch 8.13.4에 연결하고 주어진 샘플 문서를 위해 색인을 생성합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ES_NODES = "http://localhost:9200"
@@ -204,7 +288,18 @@ vectors = np.array([doc['vector'] for doc in documents])
 faiss_index.add(vectors)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3.1.3. 혼합 검색
 
@@ -245,7 +340,18 @@ print(results)
 
 hybrid_search 함수는 Elasticsearch를 사용하여 키워드 검색으로 시작합니다. 다음 단계에서; Faiss를 사용하여 벡터 검색을 수행하고, Faiss는 가장 가까운 상위 다섯 개 문서의 인덱스를 반환하며, 이러한 인덱스를 기반으로 문서의 순위에 따라 점수를 만듭니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 Elasticsearch와 Faiss에서 결과를 얻으면, 두 방법의 점수를 결합합니다. 각 문서의 최종 점수는 alpha 매개변수를 사용하여 계산된 가중 평균입니다. alpha=.5는 두 결과에 동등한 가중치를 부여합니다.
 
@@ -255,7 +361,18 @@ hybrid_search 함수는 Elasticsearch를 사용하여 키워드 검색으로 시
 
 세밀하게 모델을 조정하는 중요성은 다음 요점으로 요약할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 향상된 의미 이해: 세밀 조정은 모델이 원래 훈련 데이터에 잘 표현되지 않을 수 있는 도메인 특정 용어와 개념을 파악하는 데 도움이 됩니다.
 - 진화하는 콘텐츠에 대한 적응: 일부 분야(의학 또는 기술 분야 등)의 정보는 빠르게 변화하므로, 세밀 조정을 통해 임베딩을 최신 상태로 유지하면 시스템의 효과를 유지할 수 있습니다.
@@ -267,7 +384,18 @@ hybrid_search 함수는 Elasticsearch를 사용하여 키워드 검색으로 시
 
 다음 코드 블록은 모델을 세밀 조정하기 위한 첫 번째 단계입니다. 사전 훈련된 마스킹 언어 모델을 세밀 조정할 파이프라인을 초기화하고, 모델과 토크나이저를 로드하며, 장치 호환성에 맞게 조정합니다(GPU 또는 CPU).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 초기화 후 샘플 데이터셋을 토큰화하고 동적 토큰 마스킹을 통해 처리합니다. 이 설정은 모델을 자가 지도 학습을 위해 준비시켜주며, 모델은 가리킨 토큰을 예측하여 입력 데이터의 의미 이해를 향상시킵니다.
 
@@ -315,7 +443,18 @@ data_collator = DataCollatorForLanguageModeling(tokenizer=tokenizer, mlm=True, m
 
 데이터가 준비되면, 모델을 세밀 조정하는 단계로 넘어갈 수 있습니다. 이 단계에서는 모델의 기존 가중치를 사용하여 업데이트를 시작합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 코드 블록은 Hugging Face의 Trainer API를 사용하여 언어 모델의 훈련을 설정하고 실행하는 내용입니다. 먼저 훈련 매개변수(에포크, 배치 크기, 학습률 등)를 정의합니다. Trainer 객체는 미리 로드된 모델, 토큰화된 데이터 세트 및 가려진 언어 모델링용 데이터 콜렉터와 함께 이러한 설정을 사용합니다 (모델, 토큰화된 데이터 세트 및 데이터 콜렉터는 이전 단계에서 생성되었습니다). 훈련이 완료되면 새로 업데이트된 모델과 해당 토크나이저가 저장되어 다음 단계에서 사용됩니다.
 
@@ -354,7 +493,18 @@ tokenizer.save_pretrained(tokenizer_path)
 
 이제 저장된 모델과 토크나이저를 사용하여 임베딩 벡터를 생성하는 시간입니다. 아래 코드 블록이 해당 목적으로 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 코드 블록은 주어진 문장에 대한 임베딩을 생성하기 위해 모델과 토크나이저를로드하는 방법을 보여줍니다. 먼저, 모델과 토크나이저를 저장된 경로에서로드하고 GPU 또는 CPU에 할당됩니다. 문장(이 기사의 맥락에서는 쿼리입니다)이 토큰화됩니다. 모델은 이러한 입력을 처리하고 매개변수를 업데이트하지 않는 상태에서 작동합니다. 이를 추론 모드라고하며 torch.no_grad() 블록 아래에서 수행됩니다. 이 모델을 사용하여 다음 토큰을 예측하는 것은 아니며 대신 모델의 숨겨진 상태에서 임베딩 벡터를 추출하는 것이 목표입니다. 마지막 단계로, 이러한 임베딩 벡터를 CPU로 이동합니다.
 
@@ -403,7 +553,18 @@ for sentence, embedding in zip(sentences, embeddings):
 
 관련 정보를 검색하는 마법은 여기서 끝나지 않습니다. 가능한 개선 사항은 다음 단계에서 나타납니다: 검색 이후. 사용자는 정확한 결과뿐만 아니라 올바른 순서로 제공되는 결과를 필요로 합니다. 다음 2개 하위 섹션에서 RAG의 품질을 개선하기 위해 요약 및 재정렬을 사용하는 방법을 설명하겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 4.1. 응답 요약화
 
@@ -414,17 +575,17 @@ for sentence, embedding in zip(sentences, embeddings):
 ```js
 from transformers import pipeline
 def summarize_text(text, max_length=130):
-  
+
     # Hugging Face의 모델 허브에서 사전 학습된 요약 모델을 로드합니다.
     # 'facebook/bart-large-cnn'은 간결한 요약을 생성하는 데 뛰어난 능력을 가졌기 때문에 선택되었습니다.
     summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
-  
+
     # 요약기는 입력 텍스트를 BART 모델을 사용하여 압축합니다.
     # 'max_length'는 요약 출력의 최대 길이를 지정합니다.
     # 'min_length'는 요약이 너무 간결하지 않도록 하기 위해 최소 길이를 설정합니다.
     # 'do_sample'은 요약 생성에 결정론적 접근 방식을 사용하기 위해 False로 설정됩니다.
     summary = summarizer(text, max_length=max_length, min_length=30, do_sample=False)
-    
+
     # 요약기의 출력은 딕셔너리 목록입니다.
     # 우리는 목록의 첫 번째 딕셔너리에서 요약 텍스트를 추출합니다.
     return summary[0]['summary_text']
@@ -440,7 +601,18 @@ summarized_text = summarize_text(long_text)
 print("요약된 텍스트:", summarized_text)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 4.2. 다시 순위 매기기 및 필터링
 
@@ -450,7 +622,18 @@ print("요약된 텍스트:", summarized_text)
 
 제공된 코드 블록은 각각 ID, 텍스트, 그리고 관련 점수를 포함하는 딕셔너리로 표현된 문서 목록을 정의합니다. 그런 다음 두 가지 주요 함수인 re_rank_documents와 filter_documents를 구현합니다. re_rank_documents 함수는 관련 점수를 기준으로 문서를 내림차순으로 정렬하고, 다시 순위 매기기 후 filter_documents 함수가 적용되어 관련 점수가 0.75보다 낮은 문서를 제외합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 문서 목록 정의하기. 각 문서는 ID, 텍스트 및 관련도 점수로 표시된 딕셔너리 형태로 표현됩니다.
@@ -474,7 +657,7 @@ print("재랭킹된 문서:", ranked_documents)
 
 # 관련도 점수 임계값에 따라 문서를 필터링하는 함수 정의하기.
 def filter_documents(docs, relevance_threshold=0.75):
-  
+
     # 리스트 내포를 사용하여 'relevance_score'가 'relevance_threshold' 이상인 문서만 포함하는 새 리스트를 생성합니다.
     return [doc for doc in docs if doc['relevance_score'] >= relevance_threshold]
 
@@ -483,16 +666,28 @@ filtered_documents = filter_documents(ranked_documents)
 print("필터링된 문서:", filtered_documents)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 데이터가 다음과 같은 형식으로 데이터베이스에 저장되어 있다고 가정합니다.
+
 # query_text | response_text | user_clicked
 
-query_embeddings = get_embedding_vector(database.query_text) 
-response_embeddings = get_embedding_vector(database.response_text) 
+query_embeddings = get_embedding_vector(database.query_text)
+response_embeddings = get_embedding_vector(database.response_text)
 
 # 데이터셋 생성
+
 X = concat(query_embeddings, response_embeddings)
 y = database.user_clicked
 
@@ -508,9 +703,19 @@ model.predict_proba(...)
 
 # 5. 결론
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-간단한 검색 증강 생성(RAG) 시스템을 구현하면 문제를 해결할 수 있지만, 향상 사항을 추가하면 결과를 개선하고 시스템이 더 정확한 답변을 생성하는 데 도움이 됩니다. 이 글에서는 데이터 인덱싱 최적화, 쿼리 향상, 하이브리드 검색, 임베딩 모델의 세밀한 조정, 응답 요약, 다시 순위 매기기 및 필터링을 포함한 목표 달성을 위한 여러 가지 향상 사항을 논의했습니다. 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+간단한 검색 증강 생성(RAG) 시스템을 구현하면 문제를 해결할 수 있지만, 향상 사항을 추가하면 결과를 개선하고 시스템이 더 정확한 답변을 생성하는 데 도움이 됩니다. 이 글에서는 데이터 인덱싱 최적화, 쿼리 향상, 하이브리드 검색, 임베딩 모델의 세밀한 조정, 응답 요약, 다시 순위 매기기 및 필터링을 포함한 목표 달성을 위한 여러 가지 향상 사항을 논의했습니다.
 
 이러한 향상 사항을 통합함으로써 성능을 크게 향상시킬 수 있는 기회가 주어집니다. 계속해서 이러한 방법을 탐색하고 적용하여 여러분의 요구에 가장 적합한 방법을 찾도록 실험해 보세요.

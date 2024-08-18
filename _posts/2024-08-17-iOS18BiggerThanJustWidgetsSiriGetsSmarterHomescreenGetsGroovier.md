@@ -3,7 +3,7 @@ title: "iOS 18 위젯 기능 정리"
 description: ""
 coverImage: "/assets/img/2024-08-17-iOS18BiggerThanJustWidgetsSiriGetsSmarterHomescreenGetsGroovier_0.png"
 date: 2024-08-17 00:34
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-17-iOS18BiggerThanJustWidgetsSiriGetsSmarterHomescreenGetsGroovier_0.png
 tag: Tech
 originalTitle: "iOS 18 Bigger Than Just Widgets  Siri Gets Smarter, Homescreen Gets Groovier"
@@ -11,7 +11,6 @@ link: "https://medium.com/@yunusemreadas/ios-18-bigger-than-just-widgets-siri-ge
 isUpdated: true
 updatedAt: 1723863871435
 ---
-
 
 만약 회원이 아니라면, 전체 텍스트에 접근할 수 있습니다.
 
@@ -21,7 +20,18 @@ updatedAt: 1723863871435
 
 안녕, 커스터마이제이션! iOS 18은 마침내 당신을 엄격한 그리드에서 해방시켜줍니다. 홈 화면의 어디든 앱 아이콘을 배치할 수 있고, 사용자 정의 색상을 적용하며, 심지어 기본 잠금 화면 바로 가기를 좋아하는 컨트롤 센터 토글로 대체할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컨트롤 센터가 업그레이드되었어요! 이제는 올바른 토글을 찾아 헤매지 않아도 돼요! 여러 컨트롤 센터 페이지 사이를 스와이프하여 모든 필수 기능에 쉽게 액세스할 수 있어요. 게다가 이제 제3자 앱들이 통합돼 손끝으로 더 많은 제어가 가능해졌어요.
 
@@ -31,7 +41,18 @@ updatedAt: 1723863871435
 
 메시지가 새롭게 변화했어요! 지루한 텍스트와 이별할 시간이 왔어요! Tapback 응답에 어떤 이모티콘이든 넣어 대화를 활기차게 만들 수 있고, 볼드체, 이탤릭체, 밑줄로 텍스트를 서식 지정하거나, 심지어 메시지를 나중에 전송할 수 있어요 (드디어!). 가장 큰 소식은 무엇일까요? RCS 메시징이 도착했어요. 안드로이드 사용자들과의 원활한 고품질 사진 및 비디오 공유가 가능해졌어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Mail과 Photos의 새로운 변화: 이제 새로워진 메일함을 만나보세요. iOS 18의 메일 앱은 이제 Gmail과 같이 이메일을 자동으로 정리하여 거래, 업데이트 및 프로모션을 카테고리별로 분류하여 더 쉽게 관리할 수 있게 되었습니다. Photos는 큰 도약을 이루어, 우리가 쌓아온 대량의 라이브러리에 최적화되었습니다. 얼굴 인식, 개선된 그룹화, 그리고 새로운 카루셀 뷰를 통해 소중한 추억을 찾는 것이 쉬워졌습니다.
 
@@ -41,7 +62,18 @@ Mail과 Photos의 새로운 변화: 이제 새로워진 메일함을 만나보�
 
 보너스 기능: 음성 메모에 자동 전사 기능이 추가되었으며, 전화 앱에서는 이제 통화를 녹음하고 전사할 수 있습니다(물론 상대방에게 알림이 전달됩니다). 게다가, 애플 인텔리전스는 ChatGPT 통합과 함께 베타 버전으로 론칭되며, 이번 해 후반에 나중에 출시됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-08-17-iOS18BiggerThanJustWidgetsSiriGetsSmarterHomescreenGetsGroovier_3.png" />
 
@@ -51,7 +83,18 @@ iOS 18은 거대한 업데이트를 준비 중이며, 이것들은 그 중 일�
 
 iOS 18에서 가장 기대되는 점은 무엇인가요? 아래 댓글로 알려주세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 P.S. 안드로이드 사용자이신데 아이폰으로 변경을 고려 중이라면, iOS 18는 그 작업을 실행해야 하는 밑바탕의 좋은 이유입니다. 새로운 기능들은 정말 혁신적이며, 이전보다 iPhone을 더 다재다능하고 강력한 장비로 만들어줍니다.
 
@@ -61,7 +104,18 @@ P.P.S. 그리고 이미 iPhone 사용자라면, 재미난 일이 기다리고 �
 
 - 👏 이 이야기에 박수를 보내주실 수 있나요? 글을 더 많은 사람들에게 보급할 수 있게 도와주세요! (50 번의 박수)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 링크를 통해 저에게 연락할 수 있어요:
 

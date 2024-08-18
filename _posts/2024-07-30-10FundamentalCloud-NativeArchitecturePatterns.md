@@ -3,17 +3,13 @@ title: "클라우드 네이티브 아키텍처의 10가지 기본 패턴"
 description: ""
 coverImage: "/assets/img/2024-07-30-10FundamentalCloud-NativeArchitecturePatterns_0.png"
 date: 2024-07-30 16:49
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-30-10FundamentalCloud-NativeArchitecturePatterns_0.png
 tag: Tech
 originalTitle: "10 Fundamental Cloud-Native Architecture Patterns"
 link: "https://medium.com/@azeynalli1990/10-fundamental-cloud-native-architecture-patterns-8a4c4a34b721"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-07-30-10FundamentalCloud-NativeArchitecturePatterns_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 1. Sidecar/Sidekick...
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 패턴은 주요 응용 프로그램의 주변 부분을 다른 마이크로서비스로 추상화하고 싶을 때 도움이 됩니다. 이는 서비스 간에 독립성을 유지하고 서로 강하게 결합된 구성 요소를 분리하는 데 도움이 됩니다.
 
@@ -33,9 +40,18 @@ Sidecar / Sidekick 패턴은 같은 언어와 라이브러리를 사용하는 �
 
 2.대사…
 
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대사관 패턴은 특히 서비스가 오래되거나 수정하기에 충분히 복잡한 경우에 기존 서비스의 네트워크 기능을 확장하는 데 자주 사용됩니다.
 
@@ -45,7 +61,18 @@ Sidecar / Sidekick 패턴은 같은 언어와 라이브러리를 사용하는 �
 
 3. Scatter/Gather...
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 패턴은 레거시 응용 프로그램에서 중복 서비스를 사용하는 경우에 사용됩니다. 이 패턴의 주요 아이디어는 다른 서비스로부터의 응답을 요약하고 최상의 견적을 제공하는 집계자를 가지는 것입니다. 이 패턴은 모든 마이크로서비스로의 메시지 흐름을 효과적으로 제어하는 데 좋습니다.
 
@@ -55,7 +82,18 @@ Sidecar / Sidekick 패턴은 같은 언어와 라이브러리를 사용하는 �
 
 이 패턴의 주요 요지는 프론트엏으 백엔드 사이에 또 다른 백엔드 계층을 만드는 것입니다. 이를 백엔드 대 프론트엔드라고 부릅니다. 이것은 산업 전반에서 광범위하게 적용되는 가장 인기 있는 패턴 중 하나입니다. 이러한 추가 계층을 추가함으로써 다른 프론트엏 백엔드 서버 간의 오케스트레이션, 프론트엔드에서 온 응답을 유효성 검사하고 필터링하며, 백엔드에서 전달되는 데이터 모델을 매핑하고 변환할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-30-10FundamentalCloud-NativeArchitecturePatterns_4.png)
 
@@ -65,7 +103,18 @@ Sidecar / Sidekick 패턴은 같은 언어와 라이브러리를 사용하는 �
 
 이러한 형태의 조합은 레거시 시스템을 새 시스템으로 이관 중이거나 새 시스템이 레거시 시스템의 리소스나 기능을 사용하는 상황에서 매우 발생할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 단점과 부작용일 수 있습니다:
 
@@ -77,7 +126,18 @@ Sidecar / Sidekick 패턴은 같은 언어와 라이브러리를 사용하는 �
 
 6. 명령 및 쿼리 책임 분리...
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 패턴은 데이터베이스 읽기 및 업데이트에 대한 관심사 분리(SoC: Separation of Concerns)를 기반으로 합니다. 전통적인 아키텍쳐에서 데이터 복잡성 문제는 읽기가 많은 쿼리를 수행하고 쓰기가 매우 복잡한 유효성 검사 및 비즈니스 로직을 구현하는 경우에 나타납니다. 이러한 읽기 및 쓰기는 서로 비대칭이며 성능과 요구 사항이 다릅니다.
 
@@ -89,8 +149,18 @@ Sidecar / Sidekick 패턴은 같은 언어와 라이브러리를 사용하는 �
 
 이 패턴의 한 가지 단점은 읽기 및 쓰기 구성 요소를 동기화하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-30-10FundamentalCloud-NativeArchitecturePatterns_6.png)
 
@@ -100,8 +170,18 @@ Sidecar / Sidekick 패턴은 같은 언어와 라이브러리를 사용하는 �
 
 장점:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 강력한 데이터 일관성을 허용하여 성능을 향상시킵니다
 - 이벤트 스토어를 사용하여 데이터 편집을 간단하고 쉽게 구현 및 관리할 수 있습니다
@@ -116,7 +196,18 @@ Sidecar / Sidekick 패턴은 같은 언어와 라이브러리를 사용하는 �
 
 8. Service Mesh...
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주요 아이디어는 통신, 모니터링, 보안, 인증/인가 등과 같은 응용 프로그램 독립적인 교차 관심사를 핵심 비즈니스 로직에서 분리하는 것입니다. 이러한 전용 인프라 레이어는 낮은 대기 시간, 구성 가능성에 가치를 추가합니다.
 인증/권한 부여 외에도, 서비스 검색, 서비스 메시 패턴은 다음과 같은 다른 중요한 기능을 제공합니다:
@@ -128,7 +219,18 @@ Sidecar / Sidekick 패턴은 같은 언어와 라이브러리를 사용하는 �
 
 9. 멍청한-똑똑한 구성요소(프론트엔드 중심)...
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SoC가 시작한 다음 패턴입니다. 여기에는 프레젠테이션 전용인 덤 컴포넌트와 데이터 흐름을 담당하는 스마트 컴포넌트 두 가지 종류의 컴포넌트가 있습니다. 이러한 분리는 주로 덤 컴포넌트 내에서 @Input, @Output (EventEmitter<T>)를 기반으로 하는 양방향 데이터 바인딩을 통해 발생합니다. 이러한 주석으로 덤 컴포넌트는 스마트 컴포넌트로부터 관련 데이터를 받거나 스마트 컴포넌트로 데이터를 전송합니다. 스마트 컴포넌트는 일반적으로 서비스나 퍼사드를 주입하고 데이터 흐름을 다룹니다. 관련 gist를 보시면 됩니다.
 
@@ -138,7 +240,18 @@ SoC가 시작한 다음 패턴입니다. 여기에는 프레젠테이션 전용�
 
 여기에서 찾을 수 있는 다른 클라우드 네이티브 패턴이 많이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 소프트웨어 엔지니어링 주제에 더 관심이 있다면 다른 글도 살펴보세요.
 

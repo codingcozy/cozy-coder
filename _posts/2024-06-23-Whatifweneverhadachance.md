@@ -3,17 +3,13 @@ title: "기회가 없었다면 어떻게 되었을까"
 description: ""
 coverImage: "/assets/img/2024-06-23-Whatifweneverhadachance_0.png"
 date: 2024-06-23 17:22
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-Whatifweneverhadachance_0.png
 tag: Tech
 originalTitle: "What if we never had a chance?"
 link: "https://medium.com/@sxe3dp/what-if-we-never-had-a-chance-02a07cbee811"
 isUpdated: true
 ---
-
-
-
-
 
 ## PTS3D: 3D 프린팅 스트레스 장애
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 지난 몇 달 동안, AM 산업 위에 검은 구름이 두꺼워지고 가끔 번개가 하늘을 비추며 불가피한 폭풍을 예고했습니다. 마침내, 무거운 비의 첫 방울이 땅으로 떨어지기 시작했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우산을 열자마자 모두 비가 쏟아지는 것을 피해 그 아래 숨는 것은 온갖 사람들이 머리부터 발끝까지 젖을 것이라는 사실을 이미 알고 있습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 AM 산업계 커뮤니티에서는 이러한 이유와 상황이 왜 이정도로 악화되었는지에 대한 토론이 계속되고 있습니다. 저 또한 몇몇 세계 3D 프린팅 산업을 선도하는 기수들과 함께 몇 차례 토론에 참여했고, 갑자기 깨달음이 왔어요...
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금 일어나고 있는 일이 나에게 놀랄 일이 아니라는 걸로요? 나는 10년 전에 현재의 위기를 예측했었는데요…
 
@@ -43,11 +61,22 @@ AM 산업계 커뮤니티에서는 이러한 이유와 상황이 왜 이정도�
 
 네, 2014년 4월 10일, 나는 내 포털인 3D 프린팅 센터에 "만약 이게 아무 것도 이끌지 않는다면…?"이라는 제목의 기사를 게시했죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아직 그 시대를 기억하는 사람이 누구인지 모르겠어요? 그럼 내가 상기시키도록 할게요:
 
--  3D 프린팅 산업의 공식 얼굴은 Bre Pettis라는 남자였어요. 그는 주류 매체에 “스티브 잡스의 재림”이라 묘사되었죠.
+- 3D 프린팅 산업의 공식 얼굴은 Bre Pettis라는 남자였어요. 그는 주류 매체에 “스티브 잡스의 재림”이라 묘사되었죠.
 - Stratasys의 CEO는 David Reis였어요.
 - 3D Systems의 CEO는 Avi Reichental이었고, 그해 Popular Mechanics 잡지에선 “미국 꿈을 재탄생시키는 상위 25명의 제작자” 중 한 명으로 선정되었어요.
 - will.i.am은 3D Systems의 CCO로 일했죠.
@@ -61,8 +90,18 @@ AM 산업계 커뮤니티에서는 이러한 이유와 상황이 왜 이정도�
 
 # 하지만 내가 다르게 주장했어요...
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-23-Whatifweneverhadachance_2.png)
 
@@ -72,8 +111,18 @@ AM 산업계 커뮤니티에서는 이러한 이유와 상황이 왜 이정도�
 
 즉, 누구나 내가 전달하고자 하는 바를 이해했지만 3D 프린팅에 대한 열정이 너무 커서 텍스트는 몇 주 후에 잊혀졌어요.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제가 작성했습니다.
 
@@ -83,7 +132,18 @@ AM 산업계 커뮤니티에서는 이러한 이유와 상황이 왜 이정도�
 
 ![What If We Never Had a Chance](/assets/img/2024-06-23-Whatifweneverhadachance_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 만약 이게 어디로 이어지지 않는다면…?
 
@@ -93,7 +153,18 @@ AM 산업계 커뮤니티에서는 이러한 이유와 상황이 왜 이정도�
 
 스미스는 국내의 다른 모든 소형 항공기 딜러를 알고 있었고 결국 많지 않았지만, 또한 작은 초소형 항공기와 대형 여객기를 생산하는 세계의 대부분의 회사 대표들과 훌륭한 연락을 유지하고 있었다. 그의 삶은 단순하고 체계적했고 때로는 지루할 정도로 조용했다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어느 날, 주류 언론에서 세계 최초의… 연을 건설한 열정가들이 있는 특정 차고에 대해 선언적인 뉴스를 발표했다!
 
@@ -103,9 +174,20 @@ AM 산업계 커뮤니티에서는 이러한 이유와 상황이 왜 이정도�
 
 좋은 날씨와 호풍이 불 때마다 이 연은 날았다. 이 연의 디자인은 오픈 소스로, 건축 계획은 온라인에 게시되었고 누구나 무료로 다운로드하여 자신만의 버전을 만들 수 있었다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-세계 곳곳에서 곧 모방자들이 나타나, 더 나은 고고하고 높이 날아오르는 연. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+세계 곳곳에서 곧 모방자들이 나타나, 더 나은 고고하고 높이 날아오르는 연.
 
 동시에, 이른바 연 선교사들이 등장했습니다. 그들은 곧이곧대로 각자가 하늘을 나설 수 있을 것이라는 대담한 주장을 전했습니다. 바람을 이용해 우리 각자가 방대한 영역을 가로지를 수 있다고 주장했습니다. 그들의 도움으로, 교통, 연료, 운영 비용을 걱정할 필요 없이 광활한 영역을 이동할 수 있다는 것입니다. 그저 그런 연이 있고 바람이 잘 부는 것만 기다리면 된다는 것...
 
@@ -113,7 +195,18 @@ AM 산업계 커뮤니티에서는 이러한 이유와 상황이 왜 이정도�
 
 이 기사의 저자들은 자동차 및 항공 산업의 종말을 예측하며, 새로운 교통 혁명의 도래를 예고했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 평소와 같이 무료 오픈 소스 프로젝트로 시작했던 것이 곧 상업화되었습니다. 마치 잡초처럼 솟아나듯이 새로운 회사들이 나타나며 점점 더 현대적이고 복잡한 연을 제공하기 시작했습니다.
 
@@ -123,7 +216,18 @@ AM 산업계 커뮤니티에서는 이러한 이유와 상황이 왜 이정도�
 
 조 스미스는 이 모든 것을 놀랍게 지켜보며, 계속해서 "왜 그럴까?" 라는 질문을 반복해서 하였습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 여기에 무엇이 있을까요...?
 
@@ -133,7 +237,18 @@ AM 산업계 커뮤니티에서는 이러한 이유와 상황이 왜 이정도�
 
 그러던 중에 모든 것을 뒤집어놓을 일이 발생했어요. 어느 회사가 개발하고 제시했어요... 글라이더가 말이죠!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 세상이 미친 듯했다. 여기 있어! - 연을 전도하는 사람들이 이겼다. - 이것이 혁명을 일으킬 항공기다! 더 이상 냄새 나는, 기름을 많이 태우는 차에 타지 않을 것이고, 더 이상 엄청난 가격의 비행기 표를 살 사람도 없을 것이다! 사람들은 자신의 글라이더를 짓고 날 것이다. - 일하러, 아이들과 함께 학교에 가거나, 친구들을 만나러. 미래가 바로 지금이다! 그리고 이런 식으로...
 
@@ -143,7 +258,18 @@ AM 산업계 커뮤니티에서는 이러한 이유와 상황이 왜 이정도�
 
 판매량이 증가했다 - 최고이자 가장 잘 알려진 여러 회사들은 매달... 100대의 글라이더를 팔았느냐고?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그런데 한 가지 문제가 있었습니다... "스프에 머리카락 한 가닥".
 
@@ -153,11 +279,22 @@ AM 산업계 커뮤니티에서는 이러한 이유와 상황이 왜 이정도�
 
 그들이 그는 점점 고객들이 글라이더와 연애에 대해 묻는다는 것을 알고 있었기 때문에 울었을까요? 그들이 왜 비싸고 비생태적인 경량 비행기의 대신에 그들에게 제안을 도입하지 않는지 묻는지요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에서 이야기한 것에 답변을 준 Smith는 모든 다른 질문에도 대답을 가지고 있었다. 이는 기대한 판매 결과 부족 문제에 고생하는 건설업자들로부터 제기된 모든 다른 질문들에도 해당한다.
 
-- 글라이더와 연을 자동으로 비행할 수 없는 이유인 것과 같이, 자동차와 비행기를 대체할 수는 없다. 
+- 글라이더와 연을 자동으로 비행할 수 없는 이유인 것과 같이, 자동차와 비행기를 대체할 수는 없다.
 - 비행은 운전하는 것보다 엄청나게 더 어렵다.
 - 연이 인간을 이동시키지는 않을 것이다. 너무 원시적이다.
 - 글라이더는 이륙하기 위해 비행기가 필요하며, 스스로 이륙할 수 없다. 또한 착륙을 하기 위해 공항이 필요하다.
@@ -168,7 +305,18 @@ AM 산업계 커뮤니티에서는 이러한 이유와 상황이 왜 이정도�
 
 Joe Smith는 이 모든 것에 지쳤다. 사업은 여전히 잘 되고 있었지만, 그는 단단히 기가 죽어 있었다. 그는 새로운 것, 새로운 도전과 목표를 찾기 시작했다. 어느 날, 우주 기술과 우주선에 대해 듣게 되었고 이 주제를 탐구하기로 결심했다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다른 사람들이 일렇게 가볍고 비행기와 구조적으로 가까운 글라이더를 개발하려고 애를 쓸 때, 그는 어떤 우주 기관과 연락을 맺어 사업 협력을 시도했습니다.
 

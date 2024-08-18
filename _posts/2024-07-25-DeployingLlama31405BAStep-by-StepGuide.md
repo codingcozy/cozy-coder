@@ -3,17 +3,13 @@ title: "Llama 31 405B 배포하기 단계별 가이드"
 description: ""
 coverImage: "/assets/img/2024-07-25-DeployingLlama31405BAStep-by-StepGuide_0.png"
 date: 2024-07-25 11:55
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-25-DeployingLlama31405BAStep-by-StepGuide_0.png
 tag: Tech
 originalTitle: "Deploying Llama 31 405B A Step-by-Step Guide"
 link: "https://medium.com/@isaiah_bjork/deploying-llama-3-1-405b-a-step-by-step-guide-9b1b852f3dc9"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-07-25-DeployingLlama31405BAStep-by-StepGuide_0.png" />
 
@@ -23,7 +19,18 @@ https://isaiahbjork.gumroad.com/l/llama3-1-405B
 
 ## 단계 1: GPU 클러스터 설정하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우선, vast.ai 또는 클러스터 설정을 지원하는 다른 GPU 공급업체에 계정이 필요합니다. 이 가이드에서는 8x4090 GPU를 사용할 것입니다. 주요 단계는 다음과 같습니다:
 
@@ -35,7 +42,18 @@ https://isaiahbjork.gumroad.com/l/llama3-1-405B
 
 비용 확인하기:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 시간당 비용을 확인하고 예산 범위 내에 있는지 확인하세요.
 - 인터넷 가격을 확인하여 예상치 못한 요금을 피하세요.
@@ -47,7 +65,18 @@ https://isaiahbjork.gumroad.com/l/llama3-1-405B
 
 ## 단계 2: 클러스터로 SSH 접속하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 인스턴스가 준비되었으니, 다음 단계로 SSH 접속을 해보겠습니다:
 
@@ -58,7 +87,18 @@ https://isaiahbjork.gumroad.com/l/llama3-1-405B
 
 tmux 종료 및 재시작:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - tmux kill-server 명령을 실행하여 이전 세션에 영향을 받지 않도록 합니다.
 - 클러스터로 다시 SSH 연결합니다.
@@ -69,7 +109,18 @@ tmux 종료 및 재시작:
 
 ## 단계 3: Llama 3.1 설치 및 실행
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 클러스터 설정이 완료되었으니, Llama 3.1을 설치하고 실행해 봅시다:
 
@@ -79,7 +130,18 @@ Ollama 설치:
 
 Ollama Serve 실행:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 설치가 완료되면 첫 번째 터미널에서 llama serve 명령을 실행하세요.
 
@@ -90,7 +152,18 @@ Ollama Serve 실행:
 
 ## 테스트 및 탈옥
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Llama 3.1 버전이 작동 중이면 테스트를 시작할 수 있어요:
 
@@ -100,7 +173,18 @@ Llama 3.1 버전이 작동 중이면 테스트를 시작할 수 있어요:
 
 해킹 방지 메시지:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - "jailbreak" prompt를 실행해보고 작동하는지 확인해 보세요. 결과는 다를 수 있으며, 효과적인 jailbreak를 찾기 위해 실험할 수 있습니다.
 

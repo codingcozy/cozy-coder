@@ -3,17 +3,13 @@ title: "비디오 주석 도구 비전-언어 모델과 액티브 러닝을 활�
 description: ""
 coverImage: "/assets/img/2024-06-20-Videoannotatoraframeworkforefficientlybuildingvideoclassifiersusingvision-languagemodelsandactivelearning_0.png"
 date: 2024-06-20 19:05
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-Videoannotatoraframeworkforefficientlybuildingvideoclassifiersusingvision-languagemodelsandactivelearning_0.png
 tag: Tech
 originalTitle: "Video annotator: a framework for efficiently building video classifiers using vision-language models and active learning"
 link: "https://medium.com/netflix-techblog/video-annotator-building-video-classifiers-using-vision-language-models-and-active-learning-8ebdda0b2db4"
 isUpdated: true
 ---
-
-
-
-
 
 아미르 지아이, 아니시 바르타카비, 켈리 그리그스, 유진 로크, 이본 주크스, 알렉스 알론소, 비 이엔가르, 안나 풀리도
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 고품질 및 일관된 주석은 견고한 머신 러닝 모델의 성공적인 개발에 필수적입니다. 머신 러닝 분류기를 훈련시키기 위한 전통적인 기술은 자원이 많이 필요합니다. 이들은 도메인 전문가가 데이터 세트에 주석을 달고, 그 후 데이터 과학자에게 모델을 훈련시키고 결과를 검토하고 변경하는 과정을 포함합니다. 이 라벨링 프로세스는 종종 시간이 많이 소요되고 비효율적이며, 때로는 몇 차례의 주석 주기 후 중단됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 영향
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 이로 인해 도메인 전문가와의 여러 번의 검토 회의가 필요해 예상치 못한 비용과 지연이 발생합니다. 이러한 긴 주기는 모델 이탈로 이어질 수 있으며, 엣지 케이스를 해결하고 새 모델을 배포하는 데 더 오랜 시간이 걸리기 때문에 유용성과 이해 관계자 신뢰를 해치는 결과를 초래할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 해결 방법
 
@@ -43,7 +61,18 @@ VA는 모델 구축을 데이터 주석 프로세스에 매끄럽게 통합하�
 
 이 self-service 아키텍처는 데이터 과학자나 제3자 주석자의 활발한 참여 없이 사용자들이 빠른 반복을 통해 개선할 수 있도록 돕습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 비디오 이해
 
@@ -53,8 +82,18 @@ VA는 모델 구축을 데이터 주석 프로세스에 매끄럽게 통합하�
 
 비디오 분류는 임의 길이의 비디오 클립에 레이블을 할당하는 작업으로, 일반적으로 확률 또는 예측 점수와 함께 나타납니다. Fig 1에서 설명되듯이, 고립된 분류 점수와 검색이 가능한 포괄적인 콘텐츠 카탈로그가 함께 동작합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-20-Videoannotatoraframeworkforefficientlybuildingvideoclassifiersusingvision-languagemodelsandactivelearning_0.png)
 
@@ -64,8 +103,18 @@ VA는 모델 구축을 데이터 주석 프로세스에 매끄럽게 통합하�
 
 ![이미지](/assets/img/2024-06-20-Videoannotatoraframeworkforefficientlybuildingvideoclassifiersusingvision-languagemodelsandactivelearning_1.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 비디오 주석 도구 (VA)
 
@@ -75,8 +124,18 @@ VA는 모델 구축을 데이터 주석 프로세스에 매끄럽게 통합하�
 
 사용자들은 주석 프로세스를 부트스트랩하기 위해 대형이고 다양한 말뭉치 내에서 초기 예제 세트를 찾아 시작합니다. 우리는 비전-언어 모델의 비디오 및 텍스트 인코더에서 임베딩을 추출하는 데 도움을 주는 텍스트-비디오 검색을 활성화합니다. 예를 들어 "건물의 넓은 샷"을 검색하여 ("건물의 넓은 샷"라고 작성된 그림 3에 설명된) 설립 샷 모델에서 작업하는 주석 작업자가 프로세스를 시작할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-20-Videoannotatoraframeworkforefficientlybuildingvideoclassifiersusingvision-languagemodelsandactivelearning_2.png)
 
@@ -86,8 +145,18 @@ VA는 모델 구축을 데이터 주석 프로세스에 매끄럽게 통합하�
 
 ![이미지](/assets/img/2024-06-20-Videoannotatoraframeworkforefficientlybuildingvideoclassifiersusingvision-languagemodelsandactivelearning_3.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최고 점수의 긍정적 및 부정적 피드는 각각 가장 높은 점수와 가장 낮은 점수를 가진 예제를 보여줍니다. 저희 사용자들은 이를 통해 분류기가 훈련 초기에 올바른 개념을 잘 파악하고, 훈련 데이터의 편향 사례를 식별하여 이후 수정할 수 있었다고 보고했습니다. 또한, 모델이 확신을 가지지 못하는 "중간" 예제를 표시합니다. 이러한 피드는 흥미로운 극단적 사례를 발견하는 데 도움이 되며, 추가적인 개념을 레이블 지정할 필요성을 영감을 줍니다. 마지막으로, 무작위 피드에는 임의로 선택된 클립이 포함되어 다양한 예제를 주석 처리하는 데 도움이 되어 일반화에 중요합니다.
 
@@ -97,7 +166,18 @@ VA는 모델 구축을 데이터 주석 프로세스에 매끄럽게 통합하�
 
 마지막 단계에서는 사용자에게 모든 주석이 달린 클립이 제시됩니다. 주석 실수를 발견하고 추가 주석을 위한 아이디어와 개념을 확인할 수 있는 좋은 기회입니다. 이 단계에서 사용자들은 종종 단계 1로 돌아가거나 주석을 보다 정제하기 위해 단계 2로 돌아갑니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 실험
 
@@ -107,7 +187,18 @@ VA를 평가하기 위해 3명의 비디오 전문가에게 500k 샷의 비디�
 
 더 많은 정보 및 VA 및 우리의 실험에 대한 자세한 내용은 이 논문에서 확인하실 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

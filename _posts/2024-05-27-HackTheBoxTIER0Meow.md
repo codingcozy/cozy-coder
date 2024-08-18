@@ -3,16 +3,13 @@ title: "해킹 보안 대전  티어 0미야옹"
 description: ""
 coverImage: "/assets/img/2024-05-27-HackTheBoxTIER0Meow_0.png"
 date: 2024-05-27 12:18
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-HackTheBoxTIER0Meow_0.png
 tag: Tech
 originalTitle: "Hack The Box | TIER 0(Meow)"
 link: "https://medium.com/@sujanthebhujel/hack-the-box-meow-e9fa84e06de6"
 isUpdated: true
 ---
-
-
-
 
 ## 소개
 
@@ -22,7 +19,18 @@ VM 약자는 무엇을 나타내나요?
 
 답: 가상 머신
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 작업 2
 
@@ -32,7 +40,18 @@ VM 약자는 무엇을 나타내나요?
 
 ## 작업 3
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HTB 랩으로의 VPN 연결을 구성하는 데 어떤 서비스를 사용하나요?
 
@@ -42,7 +61,18 @@ HTB 랩으로의 VPN 연결을 구성하는 데 어떤 서비스를 사용하나
 
 대상에 대한 연결을 테스트하기 위해 ICMP echo 요청을 사용하는 도구는 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 표 태그를 Markdown 형식으로 변경해주세요.
 
@@ -54,7 +84,18 @@ Ans: ping
 
 Ans: nmap
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 작업 6
 
@@ -64,7 +105,18 @@ Ans: nmap
 
 ![이미지](/assets/img/2024-05-27-HackTheBoxTIER0Meow_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 작업 7
 
@@ -74,8 +126,18 @@ Ans: nmap
 
 ![이미지](/assets/img/2024-05-27-HackTheBoxTIER0Meow_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![HackTheBoxTIER0Meow_2](/assets/img/2024-05-27-HackTheBoxTIER0Meow_2.png)
 
@@ -85,7 +147,17 @@ Ans: b40abdfe23665f766f9c61ecba8a4c19
 
 ![HackTheBoxTIER0Meow_3](/assets/img/2024-05-27-HackTheBoxTIER0Meow_3.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로세스 요약

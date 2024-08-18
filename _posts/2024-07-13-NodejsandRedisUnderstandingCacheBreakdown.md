@@ -3,18 +3,13 @@ title: "Nodejs와 Redis 캐시 붕괴 이해하기"
 description: ""
 coverImage: "/assets/img/2024-07-13-NodejsandRedisUnderstandingCacheBreakdown_0.png"
 date: 2024-07-13 00:19
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-NodejsandRedisUnderstandingCacheBreakdown_0.png
 tag: Tech
 originalTitle: "Node.js and Redis: Understanding Cache Breakdown"
 link: "https://medium.com/@louistrinh/node-js-and-redis-understanding-cache-breakdown-6ce021e8ec2b"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![Cache breakdown](/assets/img/2024-07-13-NodejsandRedisUnderstandingCacheBreakdown_0.png)
 
@@ -26,8 +21,18 @@ isUpdated: true
 
 캐시 붕괴의 일반적인 원인은 다음과 같습니다:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 소프트웨어 버그: 애플리케이션 코드의 버그는 존재하지 않는 캐시 키에 접근할 수 있습니다.
 - 자주 변경되는 데이터: 데이터가 자주 변경되면 캐시가 시간 내에 업데이트되지 않아 키가 누락될 수 있습니다.
@@ -42,7 +47,18 @@ isUpdated: true
 
 서킷 브레이커 패턴:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 개념: 캐시 키에 대한 일정 수의 실패한 요청이 발생하면, 회로 차단기가 자동으로 캐시와의 연결을 차단하고 요청을 원본 데이터베이스로 직접 리디렉션합니다. 대기 기간 이후에는 회로 차단기가 캐시에 다시 연결을 시도합니다.
 - 이점: 캐시와 주 데이터베이스에 대한 부하를 줄이면서 에러 전파를 방지합니다.
@@ -54,7 +70,18 @@ isUpdated: true
 
 더 많은 자료:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Redis 캐시 붕괴에 대한 문서: (링크 제공 불가 — URL 제공 불가)
 - 회로 차단기 패턴: (링크 제공 불가 — URL 제공 불가)

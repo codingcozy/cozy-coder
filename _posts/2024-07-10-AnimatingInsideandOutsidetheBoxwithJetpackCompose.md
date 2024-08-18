@@ -3,17 +3,13 @@ title: "Jetpack Compose로 박스 안팎을 애니메이션 하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-10-AnimatingInsideandOutsidetheBoxwithJetpackCompose_0.png"
 date: 2024-07-10 01:37
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-10-AnimatingInsideandOutsidetheBoxwithJetpackCompose_0.png
 tag: Tech
 originalTitle: "Animating Inside and Outside the Box with Jetpack Compose"
 link: "https://medium.com/proandroiddev/animating-inside-and-outside-the-box-with-jetpack-compose-a56eba1b6af6"
 isUpdated: true
 ---
-
-
-
-
 
 ## 안드로이드에서 Compose를 활용한 창의적인 애니메이션 구축
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 애니메이션은 사용자 인터페이스가 생동감 있고 매력적으로 느껴지도록 하는 힘을 지니고 있습니다. 안드로이드에서 Jetpack Compose를 활용하면 이 힘을 손쉽게 경험할 수 있으며, 고급 도구를 통해 참으로 동적인 UI를 만들어낼 수 있습니다. 이 글에서는 기본적인 내용을 넘어 Jetpack Compose 내에서 애니메이션의 심화된 부분을 탐구해 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 유연한 물리학 기반 동작을 만들어 현실적인 감각을 더하는 기술부터, 서술적인 요소를 더하는 복잡한 안무 시퀀스까지 다룰 예정입니다. 당신이 기술을 세밀하게 다듬고 있는지 아니면 가능한 것에 대해 궁금해하는 중이던 중이든, 이 여정은 앱이 부드럽게 작동할 뿐만 아니라 모든 상호작용에서 사용자를 기쁘게 하는데 실용적인 통찰력을 제공할 것입니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ![Custom Animation Handlers in Jetpack Compose](https://miro.medium.com/v2/resize:fit:1400/1*C1_mzDHNHOfSZkIiULgRzw.gif)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 동적 상호작용을 포용하는 사용자 정의 애니메이션
 
@@ -43,15 +61,25 @@ isUpdated: true
 
 이 개념을 설명하기 위해 게임 캐릭터(얼굴 아이콘으로 표시됨)가 사용자가 드래그할 수 있는 제어 점으로 결정된 경로를 따라가는 예제를 통해 설명하겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 @Composable
 fun GameCharacterMovement() {
-    val startPosition = Offset(100f, 100f)
-    val endPosition = Offset(250f, 400f)
-    val controlPoint = remember { mutableStateOf(Offset(200f, 300f)) }
-    val position = remember { Animatable(startPosition, Offset.VectorConverter) }
+val startPosition = Offset(100f, 100f)
+val endPosition = Offset(250f, 400f)
+val controlPoint = remember { mutableStateOf(Offset(200f, 300f)) }
+val position = remember { Animatable(startPosition, Offset.VectorConverter) }
 
     LaunchedEffect(controlPoint.value) {
         position.animateTo(
@@ -77,8 +105,8 @@ fun GameCharacterMovement() {
 
         DraggableControlPoint(controlPoint.value, onControlPointChange)
     }
-}
 
+}
 
 ## 설명
 
@@ -89,35 +117,44 @@ fun GameCharacterMovement() {
 - keyframes는 애니메이션 중 특정 시점에서 값을 지정할 수 있게 해주며, 애니메이션의 중간 지점을 제어하는 데 유용합니다. 복잡하고 조정된 애니메이션을 만드는 데 특히 유용합니다.
 - keyframes 블록은 키프레임 시퀀스로 애니메이션을 정의합니다. 2500밀리초(중간 지점)에서 캐릭터는 제어점에 도달한 후 끝 위치로 이동합니다.
 
-
 Composable
 fun DraggableControlPoint(controlPoint: Offset, onControlPointChange: (Offset) -> Unit) {
-    var localPosition by remember { mutableStateOf(controlPoint) }
-    Box(
-        modifier = Modifier
-            .offset {
-                IntOffset(
-                    x = localPosition.x.roundToInt() - 15,
-                    y = localPosition.y.roundToInt() - 15
-                )
-            }
-            .size(30.dp)
-            .background(Color.Red, shape = CircleShape)
-            .pointerInput(Unit) {
-                detectDragGestures(onDragEnd = {
-                    onControlPointChange(localPosition)
-                }) { _, dragAmount ->
-                    // 화면 경계에 따라 조정
-                    val newX = (localPosition.x + dragAmount.x).coerceIn(0f, 600f)
-                    val newY = (localPosition.y + dragAmount.y).coerceIn(0f, 600f)
-                    localPosition = Offset(newX, newY)
-                }
-            }
-    )
+var localPosition by remember { mutableStateOf(controlPoint) }
+Box(
+modifier = Modifier
+.offset {
+IntOffset(
+x = localPosition.x.roundToInt() - 15,
+y = localPosition.y.roundToInt() - 15
+)
+}
+.size(30.dp)
+.background(Color.Red, shape = CircleShape)
+.pointerInput(Unit) {
+detectDragGestures(onDragEnd = {
+onControlPointChange(localPosition)
+}) { \_, dragAmount ->
+// 화면 경계에 따라 조정
+val newX = (localPosition.x + dragAmount.x).coerceIn(0f, 600f)
+val newY = (localPosition.y + dragAmount.y).coerceIn(0f, 600f)
+localPosition = Offset(newX, newY)
+}
+}
+)
 }
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 설명
 
@@ -129,7 +166,18 @@ fun DraggableControlPoint(controlPoint: Offset, onControlPointChange: (Offset) -
 - 대화형 교육 앱: 교육 앱에서 애니메이션을 사용하여 학습을 더 매력적으로 만들 수 있습니다. 예를 들어, 천문학 앱에서 행성을 궤도를 따라 끌어서 다양한 별자리를 볼 수 있습니다.
 - 대화형 스토리텔링과 게임: 디지털 스토리텔링이나 게임 앱에서 사용자가 이야기나 게임 환경에 끌어 요소를 통해 영향을 미칠 수 있게하면 더 몰입적인 경험을 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 섹션 2 — 젯팩 컴포즈에서 복잡한 애니메이션 조정하기
 
@@ -139,7 +187,18 @@ fun DraggableControlPoint(controlPoint: Offset, onControlPointChange: (Offset) -
 
 ## 가) 연쇄 반응 애니메이션 — 도미노 효과
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 UI에서 도미노 효과를 만드는 방법은 하나의 애니메이션이 끝나면 다음 것이 시작될 수 있도록 일련의 애니메이션을 설정하는 것입니다.
 
@@ -177,7 +236,18 @@ fun getRandomColor(seed: Int): Color {
 
 ## 설명
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **A) 애니메이션 그래픽 효과**
 
@@ -192,7 +262,18 @@ fun getRandomColor(seed: Int): Color {
 
 이 타임라인에서 각 요소는 사용자가 타임라인을 스크롤할 때 서서히 나타나고 위치로 이동합니다. 스크롤 가능한 목록에는 LazyColumn을 사용하고 애니메이션에는 Animatable을 사용할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 @Composable
@@ -254,8 +335,18 @@ fun TimelineItem(text: String, alpha: Float) {
 
 ### 사용 사례
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 상호작용적인 타임라인은 여러 이벤트나 단계를 시각적으로 매력적인 방식으로 제시하고 싶은 애플리케이션에 이상적입니다. 애니메이션은 항목들이 나타날 때 주목을 끌어 사용자 참여도를 높입니다.
 
@@ -265,7 +356,18 @@ fun TimelineItem(text: String, alpha: Float) {
 
 ## UI 역학 향상을 위한 물리 활용
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 섹션에서는 물리학 원리를 Jetpack Compose 애니메이션에 통합하는 방법을 탐색하며, UI에 현실성과 상호작용을 추가합니다. 우리는 탄성 드래그 상호작용 예제에 초점을 맞출 것입니다.
 
@@ -305,7 +407,18 @@ fun ElasticDraggableBox() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 설명
 
@@ -318,7 +431,18 @@ fun ElasticDraggableBox() {
 
 ## 응답형 제스처로 사용자 경험 향상하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 섹션에서는 사용자 제스처로 제어되는 애니메이션을 만드는 데 Jetpack Compose를 사용하는 방법을 살펴보겠습니다. 우리는 두 가지 예제에 초점을 맞출 것입니다 - 멀티 터치 가능한 이미지와 제스처 제어 오디오 파형.
 
@@ -328,7 +452,18 @@ fun ElasticDraggableBox() {
 
 ![멀티 터치 이미지](https://miro.medium.com/v2/resize:fit:1400/1*34WxcBivTWhiCY6KVSVelQ.gif)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 @Composable
@@ -370,8 +505,18 @@ fun TransformableImage(imageId: Int = R.drawable.android) {
 
 ## B) 제스처로 제어되는 Waveform
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떨까요? 위에 보여드린 웨이브폼 시각화는 사용자 제스처에 따라 모양이 변하죠. 그렇게 하면 진폭과 주파수 같은 측면을 제어할 수 있답니다.
 
@@ -388,7 +533,7 @@ fun GestureControlledWaveform() {
         .pointerInput(Unit) {
             detectDragGestures { _, dragAmount ->
                 amplitude += dragAmount.y
-                frequency += dragAmount.x / 500f 
+                frequency += dragAmount.x / 500f
                 // 드래그에 따라 주파수 조절
             }
         }
@@ -428,7 +573,18 @@ fun GestureControlledWaveform() {
 
 여기까지요! 이제 사용자 제스처로 진폭과 주파수를 제어할 수 있는 멋진 웨이브폼 시각화를 만들어 보세요. 만든 다음 저에게 댓글을 남겨 주세요! 🌟
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 진폭과 주파수는 각각 파형의 진폭과 주파수를 제어하는 상태 변수입니다.
 - Canvas composable은 파형을 그리는 데 사용됩니다. Canvas 내부의 그리기 로직은 사인 함수를 기반으로 각 X 위치에 대한 Y 위치를 계산하여 파동 효과를 만듭니다.
@@ -442,7 +598,18 @@ fun GestureControlledWaveform() {
 
 이 예시는 Compose에서 기본적인 상호작용 파형을 만드는 방법을 보여줍니다. 이를 확장하거나 변경하여 더 복잡한 사용 사례에 적용하거나 보다 정교한 제스처를 처리할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 섹션 5 — 제트팩 콤포즈(State-driven Animation Patterns in Jetpack Compose)
 
@@ -452,7 +619,18 @@ fun GestureControlledWaveform() {
 
 이 섹션에서는 데이터 또는 UI 상태 변경에 따라 움직이는 애니메이션을 생성하는 데 초점을 맞춥니다. 앱의 상호 작용성 및 응답성을 향상시킵니다. 데이터 그래프 애니메이션 및 다중 상태 UI에서 상태 전환 구현을 탐구해 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## A) 데이터 주도형 그래프 애니메이션
 
@@ -522,7 +700,18 @@ fun generateRandomDataPoints(size: Int): List<Float> {
 
 ## 설명
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - AnimatedGraphExample 코브 중에선 선 그래프의 데이터 포인트를 업데이트할 수 있는 환경을 만들어요.
 - 그래프는 Canvas에서 그려지는데, drawPath 메서드는 animatableDataPoints의 애니메이션 값들을 사용해요.
@@ -539,7 +728,18 @@ val x = (size.width / (dataPoints.size - 1)) * index
 val y = size.height - (animatable.value * size.height)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **A) 멀티스테이트 UI에서 상태 전이**
 
@@ -599,7 +799,18 @@ fun getNextState(currentState: UIState): UIState {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 설명
 
@@ -613,7 +824,18 @@ fun getNextState(currentState: UIState): UIState {
 ![Example GIF](https://miro.medium.com/v2/resize:fit:1400/1*q82EIocVzR8XBMuG_14mdg.gif)
 {% endraw %}
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도형 간 변환 애니메이션을 만드는 것은 이러한 도형들의 속성을 보간하는 것을 포함합니다.
 
@@ -668,7 +890,18 @@ fun lerp(start: Float, stop: Float, fraction: Float): Float {
 - interpolateShapes는 현재 애니메이션 진행 상황과 정사각형의 사각형을 가져와 원과 정사각형 사이를 보간합니다. 선형 보간(lerp)을 사용하여 반올림된 직사각형(cornerRadius)의 모서리 반경을 서서히 조정하여 우리의 형태를 변형합니다.
 - progress가 0일 때 cornerRadius는 직사각형 크기의 반으로 설정되어 원 모양을 만듭니다. progress가 1일 때 cornerRadius는 0으로 설정되어 정사각형을 만듭니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 현실 세계에서의 사용 사례
 
@@ -680,7 +913,18 @@ fun lerp(start: Float, stop: Float, fraction: Float): Float {
 
 간단한 입자 시스템을 사용하여 눈이 내리는 효과를 생성하는 방법을 시연하겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 오늘은 눈송이 애니메이션에 관한 코드를 살펴보겠습니다.
 
@@ -736,7 +980,18 @@ fun DrawScope.drawSnowflake(snowflake: Snowflake, offsetY: Float) {
 - Canvas 콤포저블을 사용하여 각 눈송이를 그립니다. drawSnowflake 함수는 각 눈송이의 새 위치를 계산하며, 이동 속도와 애니메이션된 offsetY를 기반으로 합니다.
 - 눈송이는 하단에 사라질 시 상단으로 재등장하여 반복되는 눈내리는 효과를 만듭니다. 여기까지가 오늘의 코드 설명이었습니다! 더 궁금한 점이 있거나 질문이 있다면 언제든지 물어주세요. 함께 즐겁게 코딩해봐요! 😊✨
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -746,7 +1001,18 @@ Jetpack Compose에서 애니메이션을 탐색하면서 애니메이션이 시�
 
 다이나믹한 게임 캐릭터 이동부터 상호작용하는 타임라인까지, 애니메이션을 통해 사용자 상호작용을 더욱 흥미롭고 정보 전달력있게 만들 수 있다는 것을 확인했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 현실적인 경험 구현하기
 
@@ -756,7 +1022,18 @@ Jetpack Compose에서 애니메이션을 탐색하면서 애니메이션이 시�
 
 여러 요소를 통합하거나 상태 전환을 애니메이션화하는 것, 모두 간단하게 수행할 수 있는 점이 두드러집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 마무리 말씀
 
@@ -766,7 +1043,18 @@ Jetpack Compose에서 애니메이션을 탐색하면서 애니메이션이 시�
 
 더 많은 글을 보고 싶으시다면 제 Medium 프로필을 팔로우해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마법 예술을 통해 새로운 창조성을 발현하는 것은 정말 흥미로운 일이죠! 저와 같은 영감을 주는 예술가와 소통하고 싶다면, LinkedIn과 Twitter에서 저와 연락하세요! 함께 창조적인 작업을 해보는 것도 좋을 것 같네요.
 

@@ -3,17 +3,13 @@ title: "ESP32의 UART 통신"
 description: ""
 coverImage: "/assets/img/2024-06-20-UARTCommunicationonESP32_0.png"
 date: 2024-06-20 16:13
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-UARTCommunicationonESP32_0.png
 tag: Tech
 originalTitle: "UART Communication on ESP32"
 link: "https://medium.com/@khantalha7367/uart-communication-on-esp32-28fd3df3b6eb"
 isUpdated: true
 ---
-
-
-
-
 
 ![UART 통신](/assets/img/2024-06-20-UARTCommunicationonESP32_0.png)
 
@@ -25,7 +21,18 @@ ESP32는 Espressif Systems에서 디자인한 인기 있는 보드입니다. 이
 - 점퍼 와이어
 - Arduino IDE
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 UART
 
@@ -35,7 +42,18 @@ ESP32의 UART
 
 ESP32에는 외부 두 개와 내부 한 개의 UART 채널이 있습니다. UART 핀은 UART0가 Rx 및 TX로 핀 3, 1이며 UART2는 Rx 및 Tx로 핀 16, 17으로 구성됩니다. 한편 UART1은 외부 GPIO가 할당되어 있지 않고 외부 핀을 할당하여 접근할 수 있습니다. 이에 대한 자세한 내용은 나중에 논의될 예정입니다. 저희 프로젝트에서는 두 개의 ESP32 보드를 사용하고 UART 통신을 이용하여 한 보드에서 다른 보드로 데이터를 전송하여, 결과적으로 이벤트를 트리거하도록 할 것입니다. 또한 ESP32 보드의 블루투스 기능을 활용하여, 다른 보드에 블루투스 기능을 제공할 때 ESP32를 HC-05 모듈의 대체품으로 사용할 수 있는지 확인할 것입니다. ESP32의 블루투스 기능을 설정하고 사용하는 방법에 대한 정보는 해당 기사를 참조해 주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드 마스터 모듈
 
@@ -76,7 +94,18 @@ delay(100);
 
 줄 별 설명에 대해요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 시리얼 통신 및 블루투스 연결에 필요한 라이브러리를 포함합니다.
 
@@ -91,7 +120,18 @@ delay(100);
 HardwareSerial SerialPort(2);
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 SerialBT 인스턴스를 만들고 Bluetooth 연결 오류 감지 코드를 포함시킵니다.
 
@@ -112,31 +152,50 @@ SerialPort.begin(15200, SERIAL_8N1, 16, 17);
 SerialBT.begin("ESP32");
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마침내 루프 블록에서는 Bluetooth 시리얼 포트 데이터 감지 코드를 포함하고, 그 후 Bluetooth 연결을 통해 받은 데이터에 따라 UART로 데이터를 전송하기 위한 조건문을 작성합니다. 시리얼 포트를 통해 데이터를 전송하기 위해 SerialPort.print(data); 함수를 사용합니다.
 
 ```js
-  if(SerialBT.available())
-  {
-    BTd=SerialBT.read();
-    Serial.write(BTd);
-  }
-  if(BTd=='1')
-  {
-    SerialPort.print(1);
-  }
-  if(BTd=='0')
-  {
-    SerialPort.print(0);
-  }
+if (SerialBT.available()) {
+  BTd = SerialBT.read();
+  Serial.write(BTd);
+}
+if (BTd == "1") {
+  SerialPort.print(1);
+}
+if (BTd == "0") {
+  SerialPort.print(0);
+}
 ```
 
 코드-슬레이브 모듈
 
 스레이브 ESP32의 코드는 다음과 같습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 #include <HardwareSerial.h>
@@ -146,7 +205,18 @@ SerialBT.begin("ESP32");
 
 그런 다음 사용할 포트를 선택하고 들어오는 데이터를 저장할 문자 변수를 정의합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 HardwareSerial SerialPort(0); // UART0을 사용합니다
@@ -156,13 +226,24 @@ char number  = ' ';
 void setup 블록에서는 UART 통신을 시작하기 위해 보레이트와 포트 핀을 설정합니다.
 
 ```js
-  Serial.begin(115200);
-  SerialPort.begin(15200, SERIAL_8N1, 3, 1);
+Serial.begin(115200);
+SerialPort.begin(15200, SERIAL_8N1, 3, 1);
 ```
 
 void loop 블록에서는 마스터로부터 데이터를 수신하고 시리얼 모니터에 표시합니다. SerialPort.available() 함수를 사용하여 시리얼 포트에서 데이터를 수신할 준비가 되어 있는지 확인한 후, SerialPort.read() 함수를 사용하여 데이터를 char 변수에 저장합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
  if (SerialPort.available())
@@ -178,4 +259,3 @@ void loop 블록에서는 마스터로부터 데이터를 수신하고 시리얼
 ESP32 모듈에 두 코드를 업로드한 후, 슬레이브 모듈의 시리얼 모니터를 열고 블루투스 통신을 통해 마스터 모듈로 '1' 또는 '0'을 전송합니다. 수신된 데이터는 시리얼 모니터에 표시됩니다. 또한 동일한 표시된 데이터를 사용하여 LED 제어와 같은 조건문을 사용하여 이벤트를 트리거할 수도 있습니다. 블루투스를 통해 수신한 데이터를 직접 전송할 수는 없으므로 조건문을 사용해야 하며 특정 데이터만 전송할 수 있습니다.
 
 참고로, 유료 콘텐츠 작성 및/또는 기사 작성 작업을 위해 ESP32 보드에 대한 무료 안내가 필요할 경우 khantalha7367@gmail.com로 연락하시거나 Fiverr 기가를 방문해주십시오. https://www.fiverr.com/s/rL3mWN, https://www.fiverr.com/s/7rj8Xy
-

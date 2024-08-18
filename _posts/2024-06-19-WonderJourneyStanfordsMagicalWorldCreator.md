@@ -3,17 +3,13 @@ title: "신기한 여행 스탠포드의 매직 월드 크리에이터"
 description: ""
 coverImage: "/assets/img/2024-06-19-WonderJourneyStanfordsMagicalWorldCreator_0.png"
 date: 2024-06-19 02:53
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-WonderJourneyStanfordsMagicalWorldCreator_0.png
 tag: Tech
 originalTitle: "WonderJourney: Stanford’s Magical World Creator"
 link: "https://medium.com/@ignacio.de.gregorio.noblejas/wonderjourney-stanfords-magical-world-creator-599b49e92add"
 isUpdated: true
 ---
-
-
-
-
 
 제 뉴스레터에서 최근 세계적인 Fei-Fei Li의 Stanford 연구소에서 만든 최신 모델에 대해 이야기했었죠. 그 모델은 명령으로 무한한 마법의 3D 세계를 만들어냈습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 마법 창조하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 WonderJourney는 텍스트 설명 또는 이미지를 기반으로 무한하지만 일관된 3D 장면을 생성하는 AI 모델입니다.
 
@@ -33,7 +40,18 @@ WonderJourney는 텍스트 설명 또는 이미지를 기반으로 무한하지�
 
 ## 모듈식 접근
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 WonderJourney는 세 가지 구성 요소로 나뉩니다:
 
@@ -45,7 +63,18 @@ WonderJourney는 세 가지 구성 요소로 나뉩니다:
 
 ![WonderJourney Model](/assets/img/2024-06-19-WonderJourneyStanfordsMagicalWorldCreator_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이해하기 어려운 내용이죠. 다양한 기술적 구성 요소에 대해 설명하기 전에 완전한 예시를 보는 것이 좋습니다:
 
@@ -58,7 +87,18 @@ WonderJourney는 세 가지 구성 요소로 나뉩니다:
 
 이제 전체적인 파이프라인을 이해했으니, 생각해볼 점은 이 모든 것이 어떻게 작동하는 걸까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 다양한 모델 집합
 
@@ -68,7 +108,18 @@ WonderJourney는 세 가지 구성 요소로 나뉩니다:
 
 ## 2D에서 3D로, 그리고 그 반대로
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3D 장면을 논의할 때, 화상의 경우를 제외하고는 여전히 2D 화면에 표시해야 합니다 (가상 헤드셋 제외, WonderJourney의 사용 사례가 아닙니다).
 
@@ -78,7 +129,18 @@ WonderJourney는 세 가지 구성 요소로 나뉩니다:
 
 이를 알고 나면 이제 WonderJourney가 어떻게 작동하는지 이해할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 깊이, 포인트 클라우드 및 투영
 
@@ -90,7 +152,18 @@ WonderJourney는 세 가지 구성 요소로 나뉩니다:
 - 이 입력을 사용하여, 먼저 이미지에서 각 요소의 깊이를 추정하며, 즉, 각 객체가 실제로 얼마나 먼지 가까운지를 추정합니다 (예: 하늘은 항상 '멀리있음'으로 추정되어야 합니다).
 - 다음 단계는 깊이 추정으로부터 포인트 클라우드를 생성하는 것이며, WonderJourney는 이를 정제하여 요소 사이의 '날카로운' 경계를 보장합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나, 저희는 여전히 현재 뷰를 작업 중이며 새로운 뷰가 필요합니다. 이를 위해 2D 화면(우리)에서 3D 장면을 볼 '카메라'는 뒤로 밀려서 이전 장면이 멀리 뒤쪽에 나타나도록 하여 '우리가 그것에서 멀어지고 있다'는 아이디어를 전달합니다. 이제 다음 장면에 나타날 현재 장면의 일부가 위치하고, 새 프레임의 그 부분이 렌더링됩니다.
 
@@ -100,7 +173,18 @@ WonderJourney는 세 가지 구성 요소로 나뉩니다:
 
 이 새로운 포인트 클라우드는 본질적으로 새로운 3D 뷰를 구축하며, VLM(시각 언어 모델)이 평가합니다. 품질 임계값을 충족하면, 해당 장면이 뷰어의 2D 화면에 투사되고, 프로세스가 반복됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 있어요, 끝없이 이어지고 항상 일관된 3D 여행이 마련되었습니다.
 
@@ -110,7 +194,18 @@ WonderJourney는 세 가지 구성 요소로 나뉩니다:
 
 마지막으로, Fei Fei Li의 생각을 빌리자면, 강력한 3D 생성 모델을 구축하는 것은 AI에게 우리 세상에 대한 큰 공간적 이해력을 제공할 수 있으며, 이는 그들의 지능을 향상시키는 방법으로 활용될 수 있고, 누가 알겠으나, 구체적 AI 모델, 즉 인간형 로봇의 등장을 용이하게 할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현실 세계와 상호 작용할 수 있는 능력을 기계에 부여하면, 시뮬레이션 환경을 통해라도 사람들과 격차를 줄일 수 있을 것입니다. 우리는 관찰과 세상과의 상호 작용을 통해 배우기 때문에, 오늘날의 최첨단 AI 모델들을 뛰어넘는 능력을 갖게 됩니다, 어떻게 ChatGPT나 Claude가 감탄을 자아내는지와 상관없이요.
 

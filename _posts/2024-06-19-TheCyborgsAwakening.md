@@ -3,17 +3,13 @@ title: "사이보그의 각성"
 description: ""
 coverImage: "/assets/img/2024-06-19-TheCyborgsAwakening_0.png"
 date: 2024-06-19 06:35
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-TheCyborgsAwakening_0.png
 tag: Tech
 originalTitle: "The Cyborg’s Awakening"
 link: "https://medium.com/@chotinaakwali/the-cyborgs-awakening-ed4a2332b1f9"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-19-TheCyborgsAwakening_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 그 후 Kai는 Luna를 로봇 글라디에이터가 하는 축구와 유사한 Hyperball이라는 게임에 소개합니다. Kai는 시민들의 주체인 Hyperball 토너먼트의 소유자 인 Victor를 위해 로봇 부품을 훔치며 성당의 '사실상' 지도자인 시타델의 결사 단체에 참여합니다. Marcus를 따라 가면 로봇 시리얼 킬러들의 단체인 Malakai가 주도하는 갱단에 습격당합니다. Marcus는 다쳐 Luna는 본능적으로 "판저-쿤스트"(a lost martial art)를 사용하여 싸웁니다. 그녀는 두 대의 안드로이드를 죽이고 Malakai를 상처입힙니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![The Cyborgs Awakening 2](/assets/img/2024-06-19-TheCyborgsAwakening_2.png)
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 넥서스 선술집에서 그와 카이는 말라카이를 물리치기 위해 다른 수호자를 찾지 못한다. 폭도 경비병인 제인은 루나가 싸욯 때 그를 때려서 화를 내고, 그로 인해 마커스가 개입할 때까지 싸움이 벌어진다. 갑자기 개숙한 말라카이가 나타나 루나를 도전하며, 루나가 엘리시움의 기술 지도자 오라이언에 의해 파괴하기 위해 보냈다는 사실을 밝힌다. 루나의 전투 능력에도 불구하고, 말라카이에 의해 그녀의 몸이 파괴되었지만, 마커스, 카이, 그리고 헌터-키퍼 마스터 맥켄지가 도착해 말라다이를 밀어냈다. 마커스는 루나를 베르서커로 만들고 사과한다. 루나와의 관계로 카이는 범죄 경력을 떠나기로 결정한다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![The Cyborg's Awakening](/assets/img/2024-06-19-TheCyborgsAwakening_4.png)
 

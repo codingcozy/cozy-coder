@@ -3,17 +3,13 @@ title: "대형 언어 모델LLM로 민감한 데이터 처리하는 방법 총�
 description: ""
 coverImage: "/assets/img/2024-06-23-AllYouNeedtoKnowaboutSensitiveDataHandlingUsingLargeLanguageModels_0.png"
 date: 2024-06-23 19:28
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-AllYouNeedtoKnowaboutSensitiveDataHandlingUsingLargeLanguageModels_0.png
 tag: Tech
 originalTitle: "All You Need to Know about Sensitive Data Handling Using Large Language Models"
 link: "https://medium.com/towards-artificial-intelligence/all-you-need-to-know-about-sensitive-data-handling-using-large-language-models-1a39b6752ced"
 isUpdated: true
 ---
-
-
-
-
 
 ## 목차
 
@@ -25,12 +21,24 @@ isUpdated: true
 
 실습 안내 — LLM 기반 데이터 프로파일러 구현
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로컬 LLM 설정
+
 1. 도커를 사용하여 모델 서버 설정하기
 2. 프롬프트 빌드하기
-Azure OpenAI 설정
+   Azure OpenAI 설정
 
 고수준 솔루션 아키텍처
 결론
@@ -40,7 +48,18 @@ Azure OpenAI 설정
 
 대규모 데이터를 처리하는 조직은 민감한 데이터 처리 요구 사항을 준수하는 데 어려움을 겪습니다. 이는 데이터 보안이나 데이터 법률 및 규정을 준수하는 것과 관련이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 민감한 데이터 침해의 직접적 및 간접적 영향은 특히 민감한 데이터가 관련될 때 기관에 중대한 재정적 결과를 초래할 수 있습니다. 이는 즉각적인 비용 영향을 넘어서 해당 기관의 고객 기반의 신뢰와 충성을 흔들어놓을 수 있습니다.
 
@@ -50,7 +69,18 @@ Azure OpenAI 설정
 
 민감한 데이터는 데이터 보호와 개인 정보 보호 맥락에서 중요한 개념입니다. 높은 수준에서 민감한 데이터는 비밀유지되고 무단 접근으로부터 보호되어야 하는 정보로 이루어져 있습니다. 민감한 데이터의 중요성은 그것을 보호하기 위해 마련된 법률 및 규정들에 의해 강조됩니다. 예를 들어, EU의 일반 데이터 보호 규정(GDPR)과 캘리포니아 소비자 개인 정보 보호 법(CCPA) 등 다양한 국가에서 적용되는 법률 및 규정이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 민감한 데이터에는 다음과 같은 다양한 정보 카테고리가 포함됩니다:
 
@@ -74,7 +104,18 @@ Azure OpenAI 설정
 - 건강 정보
 - 성생활이나 성적 취향
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 법적 프레임워크에 따라 민감한 데이터가 무엇인지에 대한 명확한 설명과 경계가 존재하지만, 기관이 운영중인 도메인이나 섹터에 따라 이러한 내용은 더 많은 민감한 기밀 정보를 포함할 수 있습니다. 이로써 기관은 자체 데이터 기밀성 분류를 정의하고 해당 분류를 데이터 민감도 도구에 통합하거나 사용자 정의 솔루션에 통합하는 것으로 나아갈 것입니다.
 
@@ -84,7 +125,18 @@ Azure OpenAI 설정
 
 추가 정보와 함께 특정 개인에게 속한다고 할 수 있는 데이터는 익명화된 것이라고 합니다. 이는 원본 데이터를 가짜 식별자로 대체하는 것만으로 달성될 수 있으며, 필요한 경우 되돌릴 수도 있습니다. 예를 들어, 암호화는 데이터 익명화의 한 방법입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 개인정보 의사화는 GDPR의 제 4조에 정의되어 있습니다:
 
@@ -94,7 +146,18 @@ Azure OpenAI 설정
 
 LLM은 데이터 익명화에서 일부 역할을 합니다. 텍스트 데이터에 마스크를 적용할 수 있지만 별도의 복잡성 없이는 모든 요구 사항, 특히 식별 해제와 관련된 요구 사항을 모두 충족시킬 수 없습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에 제시된 정의는 나중에 이 용어들을 참조할 때 충분한 간략한 개요를 제공합니다. 주제를 더 깊게 파헤치지 않아도 됩니다. 많은 기사들이 이것을 자세히 다루고 있고, 나는 다른 기사 중 하나에서 이를 더 깊이 설명합니다.
 
@@ -104,7 +167,18 @@ LLM은 데이터 익명화에서 일부 역할을 합니다. 텍스트 데이터
 
 대부분의 경우 중요한 민감한 데이터는 문장 안에서 미묘하게 제시되지 않습니다. 메시징 애플리케이션, 고객 지원 서비스, 이메일 등에서 생성된 데이터는 전체 텍스트의 맥락 안에 민감한 데이터가 포함될 수 있습니다. 이러한 복잡한 상황은 데이터 마스커들이 구문 분석된 텍스트를 기억하고 맥락을 이해해야 한다는 것을 요구합니다. 그러면 휴리스틱 기술의 사용이 방해되어 모든 개인정보 보호 요구 사항을 충족시키기에 부적합하다고 판단됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 실습 안내 — LLM-Powered 데이터 식별기 구현
 
@@ -114,7 +188,18 @@ LLM은 데이터 익명화에서 일부 역할을 합니다. 텍스트 데이터
 
 이를 위해 먼저 Python 3.8 이상이 설치되어 있는지 확인하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Local LLM Setup
 
@@ -124,7 +209,18 @@ LLM은 데이터 익명화에서 일부 역할을 합니다. 텍스트 데이터
 
 LangChain과 통신할 수 있는 모델 서버를 설정하기 위해 도커를 사용할 것입니다. 모델을 로컬로 설정하는 다른 방법도 있으며, 여기에서 더 많은 정보를 찾을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우선 도커가 설치되어 실행 중인지 확인한 후, 아래 명령을 실행하여 이미지를 다운로드하고 모델 서버를 설정하세요.
 
@@ -136,7 +232,18 @@ docker run -d -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
 
 컨테이너가 실행되면 모델을 설치하세요. 다양한 모델을 테스트하고 싶다면 여기서 확인할 수 있는 목록을 확인해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 도커 실행 -it 올라마 올라마 실행 llama2
@@ -151,7 +258,18 @@ pip install langchain
 pip install langchain-community
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스크립트에서 필요한 패키지를 가져오세요.
 
@@ -164,10 +282,21 @@ from langchain_community.llms import Ollama
 모델을 불러오세요.
 
 ```js
-llm = Ollama(model="llama2")
+llm = Ollama((model = "llama2"));
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2. 프롬프트 작성
 
@@ -176,17 +305,28 @@ LLM이 이미 문장의 내장된 맥락을 이해할 수 있는 기능을 갖�
 예를 들어, 다음 사항을 LLM이 보장해야 합니다:
 
 - 문맥을 이해하는 데 키워드 일치만 의존하지 않고 민감한 정보를 식별하는 능력
-- * 데이터 보호 법과 규정 (GDPR, CCPA 등)을 준수하는 감지
+- - 데이터 보호 법과 규정 (GDPR, CCPA 등)을 준수하는 감지
 - 모델이 정밀도와 재현율 사이의 균형을 유지
 - 문장 구조가 변경되지 않고 감지된 섹션이 처리되는 것을 보장
 - 추가적인 내용 없이 제공된 데이터만 반환되는 것을 보장
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 template = """
-민감한 데이터 식별자 및 마스킹 기능이 있습니다. 
-텍스트에서 민감한 정보를 식별하고 "****"를 사용하여 마스킹하는 기능이 가능합니다. 
+민감한 데이터 식별자 및 마스킹 기능이 있습니다.
+텍스트에서 민감한 정보를 식별하고 "****"를 사용하여 마스킹하는 기능이 가능합니다.
 민감한 데이터는 종종 명시적으로 언급되지 않을 수 있으며, 텍스트의 맥락에 내재될 수도 있습니다(예: 건강, 금융, 주소 등의 주제)
 개인 식별 데이터가 감지되고 마스킹되도록 하십시오.
 GDPR, CCPA 및 HIPA와 같은 데이터 보호 법률 및 규정을 고려하도록 하십시오.
@@ -215,8 +355,18 @@ chain = prompt | llm | output_parser
 
 첫 번째 예제를 실행해 봅시다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 sentence = """
@@ -239,18 +389,39 @@ Llama2 모델의 응답은 민감한 데이터를 식별하고 지시에 따라 
 
 참고사항
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-* 데이터 보호 법률과 규정이 정기적으로 업데이트되므로, 모델은 최신 버전에 액세스할 수 없습니다.
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
-** 응용 프로그램은 제공된 법률 및 규정 문서의 특정 버전에서 실행되도록 RAG (검색 증강 생성)을 활용하도록 조정될 수 있습니다.
+- 데이터 보호 법률과 규정이 정기적으로 업데이트되므로, 모델은 최신 버전에 액세스할 수 없습니다.
+
+\*\* 응용 프로그램은 제공된 법률 및 규정 문서의 특정 버전에서 실행되도록 RAG (검색 증강 생성)을 활용하도록 조정될 수 있습니다.
 
 # Azure OpenAI 설정
 
 Azure OpenAI의 GPT4 모델을 사용하려면 Azure OpenAI 서비스를 생성해야 합니다. Microsoft은 여기에서 리소스를 생성하는 단계에 대해 명확한 설명서를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리소스를 생성한 후에는 배포로 이동하여 기본 버전을 사용하여 gpt4 모델을 배포합니다.
 
@@ -260,7 +431,18 @@ Azure OpenAI의 GPT4 모델을 사용하려면 Azure OpenAI 서비스를 생성�
 
 Azure OpenAI와 작업하기 위해 필요한 LangChain 패키지를 설치해봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 pip install langchain-openai
@@ -305,7 +487,7 @@ llm = AzureChatOpenAI(
 chain = prompt | llm
 
 sentence = """
-지난주 여름 계획을 논의하던 중, 
+지난주 여름 계획을 논의하던 중,
 마이크가 발리로의 단독 여행을 드디어 가기로 하는 듯하다는 신호를 주었어요.
 보너스가 들어와서 이제 막 그 여행을 위해 돈 모았다고 하더라구요.
 그는 1만 달러 이상의 보너스를 받았어요.
@@ -319,8 +501,18 @@ print(response.content)
 
 <img src="/assets/img/2024-06-23-AllYouNeedtoKnowaboutSensitiveDataHandlingUsingLargeLanguageModels_4.png" />
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3번의 테스트를 거친 후에도 출력 결과로 나온 것은 모델이 민감한 정보를 식별하고 필요한 곳에서 이를 가려 주었지만 문장의 내용을 변경하지 않았다는 것을 보여줬어요.
 
@@ -334,7 +526,18 @@ sentence = """
 
 ![AllYouNeedtoKnowaboutSensitiveDataHandlingUsingLargeLanguageModels_5.png 이미지](/assets/img/2024-06-23-AllYouNeedtoKnowaboutSensitiveDataHandlingUsingLargeLanguageModels_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 모델 모두 제공된 예시에서 민감한 데이터를 정확하게 식별할 수 있었습니다. 그러나 이 예시에는 상대적으로 짧은 텍스트만 포함되어 있었습니다. 보다 긴 텍스트는 특히 민감한 데이터가 보다 나중에 노출되는 경우에 결과에 더 큰 영향을 줄 수 있습니다. 모델이 숫자와 해당 문맥 간의 연결을 놓칠 수 있기 때문입니다.
 
@@ -344,7 +547,18 @@ sentence = """
 
 효율적이고 신뢰할 수 있는 민감한 데이터 식별 LLM 애플리케이션을 개발하는 것은 이미 중요한 이정표입니다. 그러나 이러한 애플리케이션을 데이터 아키텍처에 배치하는 것은 신중히 고려되어야 합니다. 대량 및 속도가 빠른 텍스트 데이터를 보유한 기업은 해결책이 비효율적이 되어 큰 비용과 노력을 필요로 할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다이어그램은 각 단계에서 다양한 구성 요소에 의해 텍스트 데이터가 처리되는 방법을 단계별로 보여줍니다. 이를 통해 완전히 준수된 데이터 상태를 달성할 수 있습니다.
 
@@ -357,7 +571,18 @@ sentence = """
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기존 휴리스틱 접근 방식을 활용하면 민감한 데이터를 감지하는 데 도움이 될 수 있지만, 문장의 맥락 속에 간접적으로 나타나는 민감한 데이터를 표준 방법으로 감지하기 어려운 상황에서는 어려움이 있습니다. 큰 양의 텍스트를 이해하는 내재 기능을 갖춘 LLM(Large Language Models)은 민감한 데이터 감지 및 분류 문제에 대처하기 위한 차세대 도구로 기능할 수 있습니다.
 
@@ -371,7 +596,18 @@ sentence = """
 - 새 이야기를 게시할 때 알림을 받으려면 구독해주세요.
 - LinkedIn에서 언제든지 연락 주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 민감한 데이터 처리에 대한 보다 자세한 아키텍처에 관심이 있다면 — 내 다른 기사들을 여기에서 확인해보세요.
 
@@ -381,10 +617,21 @@ sentence = """
 
 데이터 침해 비용 2023 IBM. 다음 위치에서 확인 가능: https://www.ibm.com/security/data-breach (2024년 3월 1일 열람).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-| Source | Title | Date |
-|--------|-------|------|
-| LangChain | [Website](https://www.langchain.com) | - |
-| California Consumer Privacy Act (CCPA) | State of California — Department of Justice — Office of the Attorney General | March 13, 2024. [Link](https://oag.ca.gov/privacy/ccpa) |
-| Taylor, P. | Data Growth Worldwide 2010–2025 | November 16, 2023. Statista [Link](https://www.statista.com/statistics/871513/worldwide-data-created/) |
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+| Source                                 | Title                                                                        | Date                                                                                                   |
+| -------------------------------------- | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| LangChain                              | [Website](https://www.langchain.com)                                         | -                                                                                                      |
+| California Consumer Privacy Act (CCPA) | State of California — Department of Justice — Office of the Attorney General | March 13, 2024. [Link](https://oag.ca.gov/privacy/ccpa)                                                |
+| Taylor, P.                             | Data Growth Worldwide 2010–2025                                              | November 16, 2023. Statista [Link](https://www.statista.com/statistics/871513/worldwide-data-created/) |

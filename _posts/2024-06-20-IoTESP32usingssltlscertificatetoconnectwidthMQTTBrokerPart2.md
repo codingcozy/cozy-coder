@@ -3,17 +3,13 @@ title: "IoT ESP32가 MQTT Broker에 연결하기 위해 SSL TLS 인증서를 사
 description: ""
 coverImage: "/assets/img/2024-06-20-IoTESP32usingssltlscertificatetoconnectwidthMQTTBrokerPart2_0.png"
 date: 2024-06-20 17:06
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-IoTESP32usingssltlscertificatetoconnectwidthMQTTBrokerPart2_0.png
 tag: Tech
 originalTitle: "IoT ESP32 using ssl tls certificate to connect width MQTT Broker (Part 2 )"
 link: "https://medium.com/@rbeloncle/iot-esp32-using-ssl-tls-certificate-to-connect-width-mqtt-broker-part-2-fce78fae7310"
 isUpdated: true
 ---
-
-
-
-
 
 시작부터 따라오고 싶다면 다음 링크를 확인하세요 (Part 1)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이 기사에서는 ESP32를 사용하여 SSL/TLS 프로토콜에서 MQTT 통신을 하는 방법을 보여줍니다. 암호화된 메시지를 발행하고 주제를 구독하는 방법에 대해 설명합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 똑같은 Raspberry Pi 3에 설치된 Mosquitto 브로커를 사용할 것입니다. 이 브로커는 모든 메시지를 수신하고, 메시지를 필터링하며, 누가 관심이 있는지 결정하고 구독한 모든 클라이언트에게 메시지를 게시하는 역할을 합니다.
 
@@ -36,7 +43,18 @@ isUpdated: true
 
 여기가 전체 코드입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```json
 #include "WiFiClientSecure.h"
@@ -139,7 +157,18 @@ SSL 인증서를 설정하려면 credentials.h 파일을 작성해야 합니다.
     // 중략
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그런 다음 자격 증명 파일을 업로드하려는 메인 파일에 자격 증명.h 파일을 가져와서 사용할 수 있습니다.
 
@@ -149,6 +178,17 @@ SSL 인증서를 설정하려면 credentials.h 파일을 작성해야 합니다.
 
 # 정리
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요약하면, 저는 브로커 부분과 컨트롤러 부분을 포함한 가정용 IOT 시스템의 기본 개념을 보여드렸습니다.

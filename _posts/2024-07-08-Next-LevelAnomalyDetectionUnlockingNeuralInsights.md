@@ -3,17 +3,13 @@ title: "신경망 인사이트로 차세대 이상 탐지 방법 깨닫기"
 description: ""
 coverImage: "/assets/img/2024-07-08-Next-LevelAnomalyDetectionUnlockingNeuralInsights_0.png"
 date: 2024-07-08 00:04
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-08-Next-LevelAnomalyDetectionUnlockingNeuralInsights_0.png
 tag: Tech
 originalTitle: "Next-Level Anomaly Detection: Unlocking Neural Insights"
 link: "https://medium.com/towards-data-science/an-exploration-of-model-state-data-in-anomaly-detection-e6860cbca160"
 isUpdated: true
 ---
-
-
-
-
 
 ![Image](/assets/img/2024-07-08-Next-LevelAnomalyDetectionUnlockingNeuralInsights_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이 뉴런 상태들이 이상을 감지하는 데 새로운 시각을 제공하며, 우리가 이전에 놓쳤던 통찰을 제공할 수 있을까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한번 확인해 보세요!
 

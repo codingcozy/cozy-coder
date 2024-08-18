@@ -3,17 +3,13 @@ title: "맥OS에서 Python 가상 환경을 관리하는 궁극의 가이드"
 description: ""
 coverImage: "/assets/img/2024-06-19-TheultimateguidetomanagingPythonvirtualenvironmentsinMacOS_0.png"
 date: 2024-06-19 15:16
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-TheultimateguidetomanagingPythonvirtualenvironmentsinMacOS_0.png
 tag: Tech
 originalTitle: "The ultimate guide to managing Python virtual environments in MacOS"
 link: "https://medium.com/@miqui.ferrer/the-ultimate-guide-to-managing-python-virtual-environments-in-macos-c8cb49bf0a3c"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-19-TheultimateguidetomanagingPythonvirtualenvironmentsinMacOS_0.png" />
 
@@ -24,7 +20,18 @@ isUpdated: true
 이 글에서는 pyenv 및 pyenv-virtualenv의 설치 방법을 다루고 있습니다.
 간단히 말해, pyenv는 Python 버전을 관리하는 데 도움을 주고, pyenv-virtualenv는 pyenv의 플러그인으로 Python 가상 환경을 관리하는 데 도움이 되며, 예를 들어 virtualenvwrapper를 사용하는 것보다 훨씬 편리합니다 (pyenv를 사용하는 경우).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서, 지금부터 pyenv를 Mac에 설치해 보는 걸 시작해 봅시다!
 
@@ -34,7 +41,18 @@ isUpdated: true
 
 - Xcode Command Line Tools 설치:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 $ xcode-select --install
@@ -48,8 +66,18 @@ $ xcode-select --install
 
 - 패키지 설치하기:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 brew install openssl readline sqlite3 xz zlib tcl-tk
@@ -63,7 +91,18 @@ brew install openssl readline sqlite3 xz zlib tcl-tk
 curl https://pyenv.run | bash
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 유용한 몇 가지 플러그인과 함께 pyenv를 설치합니다:
 
@@ -82,7 +121,18 @@ echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.zshrc
 source ~/.zshrc
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 pyenv이 정상적으로 설치되었는지 확인해보세요
 
@@ -134,7 +184,18 @@ Usage: pyenv <command> [<args>]
 자세한 문서는 다음을 참조하세요: https://github.com/pyenv/pyenv#readme
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 pyenv를 사용할 준비가 됐어요!!
 
@@ -144,7 +205,18 @@ Usage: pyenv <command> [<args>]
 
 시스템에 설치된 Python 버전을 확인하려면 간단히 다음을 실행하세요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 pyenv versions
@@ -170,9 +242,20 @@ pyenv versions                                                                  
   3.11.5
 ```
 
-보시다시피, 버전 3.11.3 앞에 "*"가 있습니다. 이에 대해 자세히 설명하겠습니다.
+보시다시피, 버전 3.11.3 앞에 "\*"가 있습니다. 이에 대해 자세히 설명하겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 특정 Python 버전 설치하기
 
@@ -184,7 +267,18 @@ pyenv install x.y.z
 
 예를 들어, Python 3.12.0을 설치하려면 다음을 실행하면 됩니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 pyenv install 3.12.0
@@ -198,7 +292,18 @@ pyenv install 3.12.0
 pyenv virtualenv 3.9.18 new-venv
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 가상 환경 활성화하기
 
@@ -210,7 +315,18 @@ pyenv activate new-venv
 
 이제 파이썬은 해당 가상 환경 내에서 작동하게 됩니다. (예를 들어 제 프롬프트는 어떤 가상 환경에서 작업 중인지 표시해 줍니다.)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-TheultimateguidetomanagingPythonvirtualenvironmentsinMacOS_1.png)
 
@@ -222,7 +338,18 @@ pyenv activate new-venv
 pyenv deactivate
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 가상 환경 삭제
 
@@ -234,6 +361,17 @@ pyenv virtualenv-delete new-venv
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 맥OS에서 Python의 다양한 버전과 가상 환경을 설치하고 관리하는 것은 처음에는 다소 어려울 수 있습니다. 이 가이드가 pyenv를 사용하여 Python 버전과 가상 환경을 쉽게 관리하는 방법에 대해 명확한 가이드를 제공했으면 좋겠습니다.

@@ -3,17 +3,13 @@ title: "박스오피스에서 교실로 3D 프린팅으로 DIY 쥬라기 공원�
 description: ""
 coverImage: "/assets/img/2024-06-23-FromBlockbusterstoBlockbustersHow3DPrintingisTurningClassroomsintoDIYJurassicParks_0.png"
 date: 2024-06-23 17:19
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-FromBlockbusterstoBlockbustersHow3DPrintingisTurningClassroomsintoDIYJurassicParks_0.png
 tag: Tech
 originalTitle: "From Blockbusters to Blockbusters: How 3D Printing is Turning Classrooms into DIY Jurassic Parks"
 link: "https://medium.com/@sciencestyled/from-blockbusters-to-blockbusters-how-3d-printing-is-turning-classrooms-into-diy-jurassic-parks-2b0bfb3df55d"
 isUpdated: true
 ---
-
-
-
-
 
 좋아, 친구들아, 안전벨트를 매고 시끄럽게 웃으며 3D 프린팅 교육의 기술적인 세계로 뛰어들 준비를 하세요. 생명과 과학 수업 중에 낡은 인체 심장 다이어그램을 바라보는 대신에 갑자기 선생님이 책상 위에 3D 프린팅된 심장 모형을 올려 놓는다고 상상해보세요. 당신은 마치 "그레이 아나토미"에 최신 인턴이 되어버린 것처럼 느껴질 것입니다. 맥드림이, 너도 놀란 모습을 보여줘 — 그것을 완전히 의도한 말장난이지만.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이제 생물학으로 이동해보겠습니다. "쥬라기 공원"에서 DNA와 영화의 마법을 사용하여 공룡을 소환하는 장면을 기억하나요? 그렇죠, 3D 프린팅은 그것과 비슷하지만 벨로시랩터에 먹힐 위험이 적습니다. 개구리 소화관의 완벽하게 인쇄된 모델을 쥐고 있는 것을 상상해봐요. 이건 아침을 거르기로 했던 것 같은 냄새나 불쾌한 요소가 없이 실제 것을 해부하는 것처럼 가까운 느낌이 들 거예요. 학생들은 이 모델의 모든 꼬불꼬불한 부분을 탐구할 수 있어서 교과서가 제공하지 못하는 더 깊은 이해가 가능합니다. 이건 떡볶이와 화난 마을주민들보다 훨씬 밝은 빛과 노기가 적인 프랑켄슈타인 의사의 힘을 주는 느낌이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 교육 분야에서 3D 프린팅이 제공하는 것이 정말 놀랍죠. 이 기술은 전통적인 학습 방식의 장벽을 깨고 있는데요. 과거의 수동적인 필기와 졸린 강의는 이제 사라졌습니다. 이 시대는 창의력이 최우선이고, 학생들이 작은 다빈치로 변모하여 미켈란젤로처럼 정교하게 그들의 비전을 조각합니다 — 마치 미켈란젤로가 와이파이와 MakerBot에 접근할 수 있었던 것처럼 말이죠. 이는 미술과 과학의 최상의 결합이며, 바로 Bob Ross와 Bill Nye의 혼성 같아요. 순수한 상상력의 세계에서 행복한 작품들을 창조합니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 이제 약간의 어두운 유머로 분위기를 활기차게 만들어 보죠. 교육 분야에서 3D 프린팅이 없는 세계를 상상해보세요. 학생들이 지루한 교과서에 영원히 뒷걸음질하는 따분한 암산을 하는 디스토피아 속에서 어찌할 바를 알지 못하는 악몽 같은 장면이죠. 3D 프린팅이 없는 세상에서는 교실이 '워킹 데드'처럼 되어 창의력이 죽어가는 이기가 됩니다. 하지만 3D 프린팅이 있다면, '스트레인저 띵스'처럼, 평범한 것이 특별해지는 스릴 넘치는 모험이 되어, 모든 수업이 역그로 비딩 프로젝트로 전락하는 세계가 됩니다 — 물론 데모곤처럼, 이야기에는 없겠지만요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 방 안 코끼리처럼 뭐든 얘기해 봅시다 - 비용이요. 비판자들은 3D 프린터가 비싸다고 말할 수 있겠지만, 확실히 꼬마 사탕 한 봉지만큼 싸지 않아요. 하지만 생각해 봐요: 학생들이 처음 모델을 출력할 때 눈이 반짝이는 모습을 볼 때, 얼마를 주고도 그 경험을 바꾸고 싶지 않을까요? 이것은 미래를 위한 투자인데, 마치 그것이 동사가 되기 전 구글 주식을 사는 것과 같지 않나요? 게다가 재료 비용은 Six Flags 롤러코스터처럼 급격히 하락하고 있어, 접근성도 그 어느 때보다 좋아지고 있어요.
 

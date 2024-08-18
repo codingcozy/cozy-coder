@@ -3,17 +3,13 @@ title: "애플의 보안 시스템에서 발생하는 코드가 너무 많이 �
 description: ""
 coverImage: "/assets/img/2024-06-20-UnderstandingtheTooManyCodesSentandCannotverifyidentityErrorinApplesSecuritySystem_0.png"
 date: 2024-06-20 14:30
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-UnderstandingtheTooManyCodesSentandCannotverifyidentityErrorinApplesSecuritySystem_0.png
 tag: Tech
 originalTitle: "Understanding the “Too Many Codes Sent” and “Cannot verify identity” Error in Apple’s Security System"
 link: "https://medium.com/@arthuqa/understanding-the-too-many-codes-sent-and-cannot-verify-identity-error-in-apples-security-c86d2ed33e4f"
 isUpdated: true
 ---
-
-
-
-
 
 ![Understanding the Too Many Codes Sent and Cannot verify identity Error in Apple's Security System](/assets/img/2024-06-20-UnderstandingtheTooManyCodesSentandCannotverifyidentityErrorinApplesSecuritySystem_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이중 인증은 사용자의 비밀번호와 사용자 이름 뿐만 아니라, SMS로 전송되는 확인 코드나 신뢰할 수 있는 장치에 표시되는 확인 코드와 같이 사용자만 액세스할 수 있는 것을 요구함으로써 추가적인 보안 계층을 추가합니다. 애플 사용자들에게는, 새로운 장치에서 애플 계정에 로그인하려고 할 때 사용자의 전화번호나 MacBook과 같은 자신의 Apple ID에 연결된 장치 중 하나로 전송되는 확인 코드를 의미합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## "너무 많은 코드 전송" 오류 설명
 
@@ -34,7 +41,18 @@ isUpdated: true
 
 ## 잠금 해제를 피하는 중요한 단계
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 “신원을 확인할 수 없습니다. 너무 많은 확인 코드가 전송되었습니다. 마지막으로 받은 코드를 입력하거나 나중에 다시 시도하십시오.” 딜레마를 우회하려면 사용자들은 자신의 확인 코드를 다루는 데 주의 깊은 접근 방식을 채택해야 합니다:
 
@@ -46,7 +64,18 @@ isUpdated: true
 
 “너무 많은 코드가 전송되었습니다.” 메시지가 표시되면, 즉시 신뢰할 수 있는 장치에 받은 마지막 확인 코드를 입력하는 것이 해결책입니다. 이 코드를 기억하거나 찾을 수 없는 경우, 잠시 기다렸다가 다시 시도해야 할 수도 있습니다. Apple은 일반적으로 추가 보안 잠금을 방지하기 위해 쿨다운 기간을 제안합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 결론
 

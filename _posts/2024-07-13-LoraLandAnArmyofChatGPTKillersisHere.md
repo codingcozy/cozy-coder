@@ -3,17 +3,13 @@ title: "LoraLand ChatGPT 경쟁 AI들의 등장"
 description: ""
 coverImage: "/assets/img/2024-07-13-LoraLandAnArmyofChatGPTKillersisHere_0.png"
 date: 2024-07-13 23:07
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-LoraLandAnArmyofChatGPTKillersisHere_0.png
 tag: Tech
 originalTitle: "LoraLand, An Army of ChatGPT Killers is Here"
 link: "https://medium.com/@ignacio.de.gregorio.noblejas/loraland-an-army-of-chatgpt-killers-is-here-05630010b2c6"
 isUpdated: true
 ---
-
-
-
-
 
 오픈소스 세계가 기다려온 순간일까요? 기업들은 이에 주목해야 합니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 '로라랜드'라 불리는 이 작은 모델 세트는 다양한 하향 작업에서 ChatGPT(GPT-4 버전)보다 우수한 성과를 내며, 동시에 모든 모델을 동일 GPU에 배포할 수 있고, 평균 8달러만을 소비해 세밀한 조정을 할 수 있다고 하는데, 이는 매우 놀라운 소식입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로운 장이 열립니다. 개인과 공개 모델 사이의 생성적 AI 전쟁에서, 오늘 당신이 시도하고 있는 새로운 장입니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ## 고통스러운 여정
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전에는 AI 적용이 어려운 과제였고 매우 위험했죠.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 그러나 마지막으로, 결국은 Generative AI에서 가장 어려운 결정 중 하나인 올바른 LLM을 올바른 작업에 선택하는 데 모든 것이 달려 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 처음 시작하시는 분들에게는 결정이 상당히 명확해 보일 수 있습니다.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 또한, 이러한 자사 솔루션은 큰 자본력을 가지고 있어 저렴한 가격을 제공할 수 있습니다. 그러나 이러한 자사 솔루션을 사용하는 데는 비용이 드는데, 그 비용은 경제적인 것이 아닙니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 예기치 않게 모델이 업데이트되어 배포를 다시 설계하게 만들 수 있음을 의미할 수 있습니다.
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 또한, 오늘날 기업에게 가장 중요한 자산인 기밀 데이터가 절대 유출되지 않는다는 보장이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만, 다행히도 ChatGPT나 Gemini와 같은 앞선 개인 모델과의 품질 격차는 세밀 조정(모델을 특정 작업에 더 학습시키는 것)을 통해 좁힐 수 있습니다.
 
@@ -73,7 +124,18 @@ isUpdated: true
 
 그러나 이 작업에 전통적인 방식으로 접근할 때 발생하는 문제는 두 가지입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 파인튜닝의 절충안. 특정 하류 작업에 대한 파인튜닝은 지식 잊기로 인해 모델의 일반성을 희생시킵니다.
 
@@ -83,7 +145,18 @@ isUpdated: true
 
 하지만 Predibase의 발표로 상황이 변했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 전문가들의 군단
 
@@ -93,7 +166,18 @@ isUpdated: true
 
 구체적으로, Mistralx7B의 25가지 세심하게 조정된 버전을 출시했는데, 이 버전은 특정 작업에 있어 ChatGPT의 가장 고급 버전보다 우수한 성능을 보여주고 있어요. 그것도 수백 배나 작은 크기라는 점에서 말이죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-13-LoraLandAnArmyofChatGPTKillersisHere_0.png)
 
@@ -104,7 +188,18 @@ They have achieved success by focusing on two key aspects:
 
 ## QLoRA, Quantized low-ranking fine-tuning
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 QLoRA는 현재 모델을 세밀하게 조정하는 가장 핫한 방법 중 하나입니다. 여기에는 두 가지 측면이 관여됩니다:
 
@@ -114,7 +209,18 @@ QLoRA는 현재 모델을 세밀하게 조정하는 가장 핫한 방법 중 하
 
 후자에 대해서, 아이디어는 간단합니다: 세밀 조정에 대한 전통적인 접근 방식은 네트워크의 모든 매개변수를 업데이트하여 새 데이터 세트에서 모델을 훈련하는 것인데, 이는 수십억 개의 매개변수를 여러 번 업데이트하는 것을 고려하면 매우 비용이 많이 듭니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 그게 무슨 의미이고 왜 그렇게 중요한 걸까?
 
@@ -124,19 +230,39 @@ QLoRA는 현재 모델을 세밀하게 조정하는 가장 핫한 방법 중 하
 
 그렇다면 우리는 어떻게 해야 할까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 모델의 가중치 행렬을 가져와 그것을 낮은 순위의 등가물 형태로 표현하는 두 개의 행렬로 분해합니다.
 
 아래에서 보듯이, 우리는 5x5 행렬을 2x5와 5x2 행렬로 분해할 수 있습니다 (이 특정 행렬의 순위는 2입니다).
 
-
 ![image](/assets/img/2024-07-13-LoraLandAnArmyofChatGPTKillersisHere_1.png)
-
 
 결과적으로 우리는 전체 크기의 행렬을 업데이트하지 않고, 낮은 순위의 행렬을 업데이트하여 파라미터 업데이트 수를 25에서 10으로 줄입니다 (이 특정한 경우).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 대부분의 경우 LLM이 주어진 작업에 필요한 것보다 훨씬 더 많은 매개변수(가중치)를 가지고 있기 때문에 잘 작동하는 것입니다. 이는 동일한 결과를 얻기 위해 전체 행렬을 업데이트할 필요가 없고 중요한 가중치 부분만 업데이트하면 되기 때문입니다.
 
@@ -146,7 +272,18 @@ QLoRA는 현재 모델을 세밀하게 조정하는 가장 핫한 방법 중 하
 
 하지만 여전히 가장 큰 문제에 직면하고 있습니다: 모든 파인튜닝된 모델은 전용 GPU가 필요한 것이 맞나요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신이 그것을 성실히 따른다면, 그것은 세밀하게 조정된 모델의 목적을 무시하는것이 되버릴 것입니다.
 
@@ -156,7 +293,18 @@ QLoRA는 현재 모델을 세밀하게 조정하는 가장 핫한 방법 중 하
 
 LoRAX의 아이디어는 각 어댑터가 고유한 가중치를 기존의 변경되지 않은 모델에 추가할 때, 세밀하게 조정된 버전에 사용되는 한 해당 모델의 베이스 가중치가 변경되지 않는다는 것입니다. 모든 세밀하게 조정된 모델이 같은 기본 모델에서 나온다면. 여기서는 Mistralx7B이지만, (당신이 상상할 수 있듯이) 이는 LLM에 중립적입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LoRAX(로랙스)가 가능하게 하는 것은, 사용자가 보내는 요청의 종류에 따라 동적으로 로드되고 삭제되는 세트의 세밀하게 조정된 모델인 어댑터를 효율적으로 관리하는 것입니다:
 
@@ -166,7 +314,18 @@ LoRAX(로랙스)가 가능하게 하는 것은, 사용자가 보내는 요청의
 
 ![이미지](/assets/img/2024-07-13-LoraLandAnArmyofChatGPTKillersisHere_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비용 총합은 어떻게 되나요?
 
@@ -176,6 +335,17 @@ LoRAX(로랙스)가 가능하게 하는 것은, 사용자가 보내는 요청의
 
 이 모든 것은, 말 그대로, 고객과 기업 모두에게 꿈 같은 현실이 될 것입니다. 경제적으로 실용적이면서도 특정 작업의 최고 성능을 제공하는 LLM을 구현하여 두 마지막 동시에 달성하는 것이죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실제로, PrediBase는 우리에게 기업용 GenAI의 미래를 엿본 것일지도 모른다. 그냥 눈을 돌릴 수 없을 정도로 오픈 소스가 기업들이 GenAI 혁명을 받아들일 수 있는 주요 솔루션으로 갈수록 어려워지고 있기 때문입니다. PrediBase를 사용하든 다른 여러 LLM 플랫폼을 사용하든, 이제는 그들이 제공하고 있는 품질/가격 비율을 고려해야 합니다.

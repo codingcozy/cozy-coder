@@ -3,17 +3,13 @@ title: "아이폰 15 프로 맥스  ProRes 로그 촬영이 쉽지 않지만 할
 description: ""
 coverImage: "/assets/img/2024-07-13-iPhone15ProMaxshootingProReslogisnoteasybutSOworthit_0.png"
 date: 2024-07-13 01:04
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-iPhone15ProMaxshootingProReslogisnoteasybutSOworthit_0.png
 tag: Tech
 originalTitle: "iPhone 15 Pro Max — shooting ProRes log is not easy…but SO worth it!"
 link: "https://medium.com/macoclock/iphone-15-pro-max-shooting-prores-log-is-not-easy-but-so-worth-it-fbfa1647b8d0"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-07-13-iPhone15ProMaxshootingProReslogisnoteasybutSOworthit_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 출시 주말에 아이폰 15 Pro Max를 구매했고, 그 이후로 계속 사용해왔습니다. 이론적으로 나는 애플이 이벤트를 만들 때 사용한 것과 동일한 핸드폰을 가지고 있지만, 현실은 그렇게 쉬운 것이 아니에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 아트의 이름으로
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 거기다가 필요한 모든 프로세스를 차근차근 안내해 드릴게요. Apple 이벤트를 어느 정도 모방할 거기 때문에 통제된 환경에서 촬영할 거에요. 그러니, 소셜 미디어, 프로모션 비디오, 심지어 YouTube 비디오를 촬영하기 위해 반 프로페셔널한 방식으로 iPhone 15 Pro Max를 구입하려고 하는데 이전의 카메라 지식이 거의 없거나 전혀 없다면, 이 이야기가 도움이 될 거예요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 액세서리
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 내구성 있는 케이지가 필요할 겁니다 — 다양한 종류가 있지만 저는 Neewer의 제품을 선택했어요. 추가 마운팅 포인트와 마이크를 장착할 콜드슈 마운트가 충분히 있는데, 나중에 마이크를 사용하고 싶다면 좋은 선택이 될 겁니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-07-13-iPhone15ProMaxshootingProReslogisnoteasybutSOworthit_2.png)
 
@@ -53,8 +82,18 @@ isUpdated: true
 
 그리고 물론 가장 중요한 건 이 허브로 15 Pro Max에 전원을 공급할 수 있어요. 녹화 중간에 배터리가 바닥 나는 걱정은 없어져요. 아주 무겁게 구비된 모습은 아니지만 임무를 완수하는 데 충분한 모습이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 일할 시간이에요
 
@@ -62,8 +101,18 @@ isUpdated: true
 
 네이티브 카메라 앱은 기능이 매우 제한적인데, 블랙매직 앱을 사용하면 더 깊게 파고들어서 iPhone 15 Pro Max가 제공하는 완전한 잠재력을 발휘할 수 있습니다. 그래서 애플이 이벤트 촬영할 때 자사의 앱이 아닌 이 앱을 사용했던 것입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신의 드라이브를 연결하고 Blackmagic 앱을 여십시오. 많은 지식이 없다면 처음에는 약간 어려울 수 있지만, 제가 제 경험으로 발견한 설정을 모두 살펴보려고 노력하겠습니다.
 
@@ -73,7 +122,18 @@ isUpdated: true
 
 다음은 셔터 속도인데, 각도 또는 속도로 설정할 수 있습니다. 제가 설정한 값은 180도이며, 이렇게 하면 24 또는 60 FPS 사이를 전환할 때 셔터 속도를 바꿀 필요가 없어서 걱정 거리가 하나 줄어듭니다. 24mm 렌즈의 F 값은 변경할 수 없으므로 f1.8로 고정됩니다. 이제 ISO입니다. 이것은 몇 주 동안 저를 헷갈리게 했는데, 기본 앱을 사용하든 Blackmagic 앱을 사용하든 모두 동일한 설정을 지키는 것이 중요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 노출 - iPhone 15 Pro Max 센서 노출...
 
@@ -83,7 +143,18 @@ iPhone 15 Pro Max에서 같은 설정을 시작점으로 설정했지만 결과�
 
 ISO 값을 조정하거나 주요 조명에서 더 멀리 앉아보거나 해보았지만 원하는 결과를 얻지 못했습니다. 그런데 해답을 우연히 찾아냈습니다 - 주요 조명 및 모든 조명을 엄청나게 줄여야 했습니다. 예를 들어, Canon으로 촬영할 때 빛을 100%로 전부 킵니다. 그런데 iPhone으로 양호한 결과를 얻으려면 빛을 30% 또는 35%로 낮춰야 했습니다. 또한 채우는 조명과 헤어 조명도 줄이고, iPhone의 ISO를 약 160 정도로 설정한 후 갑자기 어딘가에 도착했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 녹화 세션 시작 시에는 하얀 색 카드를 사용하지만, 실제로 필요한 건 조금의 하얀 종이 뿐이에요. 그냥 참조 지점을 얻을 수 있어요. 앱에서 흰색 밸런스는 항상 자동 잠금 상태로 설정하고 틴트 밸런스에는 손 대지 않아요. 화면 중앙에 그리드가 표시되도록 항상 설정하고 그게 거의 다에요.
 
@@ -93,7 +164,18 @@ ISO 값을 조정하거나 주요 조명에서 더 멀리 앉아보거나 해보
 
 저는 디스플레이 LUT를 우연히 발견했어요. 뒤에서는 익숙한데 카메라에서는 처음 보는 거라 놀랐죠. 이게 정말 큰 도움이 됐어요. 앱에서 설정으로 이동해 `LUT`을 선택하고 디스플레이 LUT를 켜보세요. 갑자기 iPhone 15 Pro Max 화면에서 보는 것이 편집할 때 포스트에서 볼 것과 거의 같아졌어요. 저는 화면에서 로그로 보이는 것을 완성된 프로젝트로 어떻게 변환해야 하는지 경험이 충분치 않아요. 그래서 디스플레이 LUT는 정말 큰 도움이 되었어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아, 돈도 절약해 드릴 거라고 했었지요…
 
@@ -103,7 +185,18 @@ ISO 값을 조정하거나 주요 조명에서 더 멀리 앉아보거나 해보
 
 ![이미지](/assets/img/2024-07-13-iPhone15ProMaxshootingProReslogisnoteasybutSOworthit_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로 - 모니터링. 처음에는 케이지 위의 한 차갑고 신발 모양의 마운트 중 하나에 모니터를 설치했지만, 훨씬 나은 해결책은 Mac으로 백미러링하고 거기서 모니터를 보는 것이었습니다.
 
@@ -113,7 +206,18 @@ ISO 값을 조정하거나 주요 조명에서 더 멀리 앉아보거나 해보
 
 어떤 사람들은 그것이 공정하거나 옳지 않아 보인다고 말했지만, 저는 이해가 되지 않습니다. 동일한 장비와 셋업 그리고 동일한 크루가 일반 시네마 카메라로 촬영했을 때도 있었겠죠 - 그들이 한 일은 단지 유리를 바꾼 것 뿐이었습니다. 그들은 비싼 시네마 카메라가 일반적으로 위치하는 곳에 iPhone 15 Pro Max를 꽂아 놓은 것 뿐이었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그들은 타사 렌즈를 장착하거나 ND 필터를 사용하지 않았기 때문에 솔직히 iPhone으로 촬영했다고 생각해. 그러나 15 Pro Max에서 ProRes 로그로 촬영을 시도해본 결과, 카메라 스태프, 조명 기술자, 포스트 프로덕션 컬러리스트와 같이 카메라 뒤에서 노력하는 팀이 실제로 필요하다는 것을 더욱 깨달았어. 이들은 노래하지 않는 영웅들이야.
 
@@ -123,7 +227,18 @@ ISO 값을 조정하거나 주요 조명에서 더 멀리 앉아보거나 해보
 
 솔직히 말하자면 좋은 결과물을 얻기 위해 약간의 시행착오가 필요하긴 해. Plug-and-play 상황은 아닌 걸 확실히 알게 되었어.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 블랙매직 앱은 도움이 되긴 하지만, 여전히 조금의 인내심이 필요하죠. 좋은 결과물을 얻기 위해 애를 쓰는 사람이 많은 것 같아요. 애플 이벤트가 제 호기심을 자극했어요 — 가능한 것을 볼 수 있어서 도전을 받은 느낌이었죠.
 
@@ -133,7 +248,18 @@ ISO 값을 조정하거나 주요 조명에서 더 멀리 앉아보거나 해보
 
 블랙매직 앱과 iPhone 15 Pro Max의 24mm 렌즈에서 최상의 성능을 내기까지 시간이 걸렸지만, 정말 그만한 가치가 있었어요. 이제 그 앱을 너무 믿어서 이번 주의 주 영상을 그것으로 촬영하고 있답니다. 이 카메라는 캐논만큼의 피사계 심도나 배경 흐림은 아쉽지만, 다른 면에서는 우수하다고 생각해요. 색감은 물론 색의 깊이와 선명도가 정말 놀라울 정도예요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오래된 카메라인 Canon 90D를 iPhone 15 Pro Max로 바꿀 생각이 있을까요? 누가 알겠어요 — 하지만 제가 이제 드디어 iPhone의 잠재력을 발견하기 시작했다는 것만 말씀드릴 수 있어요 — 정말 신나요!
 

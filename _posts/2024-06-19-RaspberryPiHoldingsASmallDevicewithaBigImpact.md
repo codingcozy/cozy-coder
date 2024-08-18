@@ -3,18 +3,13 @@ title: "라즈베리 파이 홀딩스 작지만 큰 영향력을 지닌 장치"
 description: ""
 coverImage: "/assets/img/2024-06-19-RaspberryPiHoldingsASmallDevicewithaBigImpact_0.png"
 date: 2024-06-19 06:09
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-RaspberryPiHoldingsASmallDevicewithaBigImpact_0.png
 tag: Tech
 originalTitle: "Raspberry Pi Holdings: A Small Device with a Big Impact"
 link: "https://medium.com/@rahulmmulchandani/raspberry-pi-holdings-a-small-device-with-a-big-impact-fa68f88fbcc3"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![Raspberry Pi](/assets/img/2024-06-19-RaspberryPiHoldingsASmallDevicewithaBigImpact_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 60만 대 이상이 판매된 Raspberry Pi 컴퓨터는 회사의 기술에 대한 혁신적인 접근을 증명하는 것입니다. 이 소형 컴퓨터는 취미가 있는 사람, 교사 및 전문가들에게 다양한 프로젝트에 대한 다목적 플랫폼을 제공하여 교육용 도구부터 복잡한 인터넷 연결 장치까지 다양한 분야에서 활용되고 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 라즈베리 파이 재단인 회사의 자선 단체는 교육과 지원에서 중요한 역할을 합니다. 수백 가지의 무료 코딩 및 컴퓨팅 프로젝트를 제공하며, 다양한 경험 수준에 맞는 지침을 제공하고 여러 언어로 자료를 제공합니다. 이 재단은 원격 수업을 통해 교사를 지원하고, 자원봉사자가 가상 코딩 클럽을 운영하도록 돕고, 집에 컴퓨터가 없는 어린이들에게 컴퓨터를 제공하는 데 힘씁니다. 이러한 노력을 통해 라즈베리 파이 재단은 전 세계 사람들에게 컴퓨팅과 디지털 제작의 힘을 전달하는 미션을 성취하고 있습니다.
 

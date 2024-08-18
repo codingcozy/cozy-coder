@@ -3,17 +3,13 @@ title: "프로그래밍을 배울 때 매일 코딩해야 하는 이유"
 description: ""
 coverImage: "/assets/img/2024-06-23-WhyYouNeedToCodeEveryDayWhenYoureLearningToProgram_0.png"
 date: 2024-06-23 18:03
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-WhyYouNeedToCodeEveryDayWhenYoureLearningToProgram_0.png
 tag: Tech
 originalTitle: "Why You Need To Code Every Day When You’re Learning To Program"
 link: "https://medium.com/better-programming/why-you-need-to-code-every-day-when-youre-learning-to-pro-a4d022e70459"
 isUpdated: true
 ---
-
-
-
-
 
 ![image](/assets/img/2024-06-23-WhyYouNeedToCodeEveryDayWhenYoureLearningToProgram_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 그래서 저는 우울한 루프에 빠지기 시작했어요: 매주 첫 번째 절반 시간을 속도를 내기 위해 썼고, 일주일 전에 배운 내용을 다시 흡수하는 데에만 시간을 보내곤 했어요. 짜증이 났어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제쯤이면 아시겠지만, 프로그래밍을 배우는 올바른 방법은 아니에요.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 결국 일일 루틴이 주간 루틴보다 우세한 이유를 설명하는 멋진 과학적 근거가 있다고 하더라구요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것을 "망각의 에빙하우스 곡선"이라고합니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 에빙하우스는 우리가 것을 정말 빨리 잊는다는 것을 발견했습니다. 새로 외운 단어를 처음 암기한 지 20분 후에, 그는 그 중 약 40%를 잊어버렸습니다. 1시간 후에는 50% 이상을 잊어버렸습니다. 그리고 하루 뒤 자신을 테스트해보면, 그는 더 많은 것을 잊었습니다. 글자 조합의 약 3분의 2가 이제 그의 기억에서 사라져 있었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만, 그 이후로는 망각 속도가 느려졌습니다. 만약 6일 후에 시험을 보았다면, 그가 잊어버린 정도는 약 75%로 약간 더 상승했습니다. 한 달 후에는 약 80%로 증가했습니다.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-23-WhyYouNeedToCodeEveryDayWhenYoureLearningToProgram_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지난 몇 년 동안 인지 심리학자들은 대체로 에빙하우스의 연구 결과가 유효하다고 발견했습니다.
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 그에 비해 장기기억은 정말 머릿 속에 오래 유지되는 지식을 포함하고 있습니다. 그러나 무언가를 장기기억에 넣으려면 그 새로운 정보를 자주 만나야 합니다. 이상적으로는 그 정보를 사용해야 합니다 — 생각 과제나 실제 활동에서 사용해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저기요, 어떤 방향으로 향하는지 이미 감이 오시나요?
 
@@ -73,7 +124,18 @@ isUpdated: true
 
 저는 매일 코딩을 시작했을 때 정확히 이런 일이 일어났어요. 매일 몇 분씩 프로그래밍 과제에 매달리면서 (예를 들면 Glitch나 Codepen에서 누군가의 프로젝트를 리믹싱하거나 새 라이브러리를 만져보는 등), 배운 코딩 개념들이 모두 손에 익게 유지되었어요. 게다가 새로운 것을 배우는 것이 더 빨라졌어요, 왜냐하면 단 몇 일 전에 배운 것 위에 새로운 레고 조각을 끼워 넣었기 때문이죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 물론, 이것은 훌륭한 전진 동력을 만들어 냈습니다! 안장에 뛰어 들기가 더 쉬워지자, 거기에 머무르고 싶었어요. 짧은 코딩 폭발을 하려고 앉아 있는데 - 그러다가 그루브에 몰입하고 몇 시간을 툭 툭 거의 밤을 넘어갈 때쯤 눈을 떠보면서, 오메, 많은 시간을 보내고 있었다고 발견하게 되었어요 (이미 오래 전에 자러 가야했지만, ㅋㅋ).
 
@@ -83,7 +145,18 @@ isUpdated: true
 
 그래서, 그렇죠: 활용하지 않으면 잊게 되죠. 프로그래밍을 배우고 싶다면, 매일 조금씩 시간을 내어 실습해 보세요. 다른 기술도 마찬가지예요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아마도 이미 이 규칙을 알고 계셨을 거예요!
 
@@ -93,6 +166,17 @@ isUpdated: true
 
 또한 저의 월간 뉴스레터 “The Linkfest”를 즐기실 수도 있을 거예요. 웹에서 찾은 최고의 콘텐츠들을 정리한 뉴스레터입니다. “파멸 스크롤링과는 정반대.”
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 뉴욕 타임스 매거진에 기고하는 작가이자, Wired와 Smithsonian 매거진의 칼럼니스트이며, Mother Jones에 꾸준히 기고하는 작가입니다. 또한, "Coders: The Making of a New Tribe and the Remaking of the World”와 “Smarter Than You Think: How Technology is Changing our Minds for the Better"의 저자이기도 합니다. 트위터와 인스타그램에서 @pomeranian99를, Mastodon에서는 @clive@saturation.social을 사용하고 있어요.

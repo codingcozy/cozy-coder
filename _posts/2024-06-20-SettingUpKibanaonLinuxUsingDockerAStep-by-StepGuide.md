@@ -3,17 +3,13 @@ title: "리눅스에서 도커를 사용하여 키바나 설정하기 단계별 
 description: ""
 coverImage: "/assets/img/2024-06-20-SettingUpKibanaonLinuxUsingDockerAStep-by-StepGuide_0.png"
 date: 2024-06-20 15:20
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-SettingUpKibanaonLinuxUsingDockerAStep-by-StepGuide_0.png
 tag: Tech
 originalTitle: "Setting Up Kibana on Linux Using Docker: A Step-by-Step Guide"
 link: "https://medium.com/@rahulbpawar123/setting-up-kibana-on-linux-using-docker-a-step-by-step-guide-8b499e43975a"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-06-20-SettingUpKibanaonLinuxUsingDockerAStep-by-StepGuide_0.png)
 
@@ -23,7 +19,18 @@ Kibana은 Elasticsearch 데이터를 탐색하고 시각화할 수 있는 강력
 
 시작하기 전에 다음 사항을 확인하세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Linux 시스템 (Ubuntu, CentOS 등)
 - Docker가 설치되어 실행 중인 상태
@@ -37,7 +44,18 @@ Kibana은 Elasticsearch 데이터를 탐색하고 시각화할 수 있는 강력
 curl -X GET "localhost:9200"
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JSON 응답에서 version 필드를 찾아보세요. 예를 들어:
 
@@ -58,7 +76,18 @@ JSON 응답에서 version 필드를 찾아보세요. 예를 들어:
 
 찾은 Elasticsearch 버전을 기반으로 해당하는 Kibana 도커 이미지를 다운로드하세요. 이 안내서에서는 버전이 7.10.0인 것으로 가정합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 sudo docker pull docker.elastic.co/kibana/kibana:7.10.0
@@ -72,7 +101,18 @@ Elasticsearch가 실행 중이라면 이제 키바나 컨테이너를 실행하�
 sudo docker run -d --name kibana -p 5601:5601 --link elasticsearch:elasticsearch -e ELASTICSEARCH_HOSTS=http://elasticsearch:9200 docker.elastic.co/kibana/kibana:7.10.0
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 4: 키바나에 접속하기
 
@@ -84,7 +124,18 @@ http://localhost:5601
 
 ![이미지](/assets/img/2024-06-20-SettingUpKibanaonLinuxUsingDockerAStep-by-StepGuide_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Kibana 인터페이스가 준비된 것을 확인할 수 있을 거예요.
 

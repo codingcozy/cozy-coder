@@ -3,7 +3,7 @@ title: "이상한 선택과 큰 숫자 어제 애플이 무엇을 했는지"
 description: ""
 coverImage: "/assets/img/2024-05-27-WeirdChoicesandBigNumbersWhatAppleGotuptoYesterday_0.png"
 date: 2024-05-27 12:22
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-WeirdChoicesandBigNumbersWhatAppleGotuptoYesterday_0.png
 tag: Tech
 originalTitle: "Weird Choices and Big Numbers: What Apple Got up to Yesterday"
@@ -11,13 +11,20 @@ link: "https://medium.com/macoclock/weird-choices-and-big-numbers-what-apple-got
 isUpdated: true
 ---
 
-
-
-
-
 아래의 표 태그를 마크다운 형식으로 변경해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 애플이 하는 일입니다. 다음 이벤트에서 몇 개의 제품을 발표할지를 고민하며 앉아 있는 동안, 그들은 실제로 발표할 두 개나 세 개의 제품을 준비하고 있습니다.
 
@@ -27,7 +34,18 @@ isUpdated: true
 
 어제의 급속한 이벤트에서 이 방식은 새로운 세 개의 칩, 새로운 맥북 프로, 마침내 업데이트된 24인치 아이맥을 가져왔습니다. 아, 그리고 전체적으로 어젠트의 가장 인상적인 것 중 하나인 아이폰으로 촬영된 쇼도 있었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지난 몇 주 동안 풀어야 할 것이 많지만, 새로운 M3 칩과 그 안에 들어간 기계에 대한 내 초기 생각은 다음과 같아요.
 
@@ -37,7 +55,18 @@ isUpdated: true
 
 저는 이것을 좋아해요; 사람들이 가능한 한 오랫동안 자신의 맥을 유지하는 것을 좋아해요. 제가 이것을 직업으로 하고 있지 않았더라면, 제가도 똑같이 할 것 같아요. 맥은 끝이 다소 끝날 때까지 많이 지지 않을까요. 게다가 맥은 천문학적으로 비싸요. 그들은 또한 몇 년 동안 그대로 남아 있고, 일반적으로, 윈도우 기반 경쟁 상품을 훨씬 뛰어넘어요. 실제로 내 비디오의 댓글 섹션에 들어오는 대부분의 사람들은 그들의 인텔 맥을 애플의 자체 칩이 돌아가는 것으로 업그레이드해야 하는지 여부를 물었어요. 어젯밤의 라이브스트림에서 누군가가 2009년식 맥 프로를 아직 사용 중이라고 알려줬어요. 놀라워요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 애플은 이에 대해 과도하게 알고 있습니다; 공식 숫자는 찾을 수 없었지만 트위터에서는 설치된 맥의 50% 이상이 아직도 인텔 기계를 사용하고 있다는 이야기가 나왔습니다.
 
@@ -47,7 +76,18 @@ isUpdated: true
 
 애플이 직면한 과제는 인텔 맥이 여전히 그 사람들에게 유용하게 사용되고 있으며, 새 맥 하드웨어의 천문학적인 가격 때문에 업그레이드를 요청하는 것이 매우 어려운 부분입니다. (나중에 그것에 대해서 이야기하겠습니다.)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나는 당신이 인텔 Mac 사용자인 경우 M3에 유혹을 받나요? 아래에서 참여해주세요!
 
@@ -57,7 +97,18 @@ isUpdated: true
 
 더 이상 애플 웹사이트에 없어요. 없어져 버렸어요. 역사책에 넣었어요. 완전히 끝났어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 좋은 소식이 있어요.
 
@@ -67,7 +118,18 @@ isUpdated: true
 
 ## 이상한 선택들
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 팀과 사람들한테 정말 이상한 선택지 없이 Apple 이벤트는 없을거에요, 맞죠?
 
@@ -77,7 +139,18 @@ isUpdated: true
 
 그리고 더 크고 머리 아픈 일들도 있었죠. 우리는 새로운 MacBook Pro와 업그레이드된 24인치 iMac을 갖고 있지만, Mac mini, Mac Studio, MacBook Air, 그리고 Mac Pro는 여전히 M2 플랫폼을 사용하고 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 언제쯤 업데이트를 받을 거죠, Tim? 지금 그 기계 중 하나를 사는 건 정말 긴장되는 느낌이 들어요.
 
@@ -87,7 +160,18 @@ isUpdated: true
 
 ## 내가 산 것
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 애플 제품 출시 때 가장 짜증나는 일 중 하나는 새 제품이 얼마나 더 비싼지 알려고 할 때인데 (솔직히 말하면 요즘은 대게 그렇죠). 구 버전은 즉시 애플 스토어 웹사이트에서 제거되어, 옛 기억력이 우수하고 기록을 잘 보관한 소수만이 이전 가격을 기억할 수 있는 행운을 누릴 수 있게 됩니다.
 
@@ -97,9 +181,20 @@ isUpdated: true
 
 누군가 구급차를 불러주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-그리고, 네, 나는 지금 다른 ￡200을 쓰는 게 좋았을까 생각 중이에요 (결국 몬폴리 머니잖아요)그리고 통합 메모리의 64GB로 업그레이드해야 했을지도 모르겠네요.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+그리고, 네, 나는 지금 다른 ￡ 200을 쓰는 게 좋았을까 생각 중이에요 (결국 몬폴리 머니잖아요)그리고 통합 메모리의 64GB로 업그레이드해야 했을지도 모르겠네요.
 
 어쨌든, 새로운 MacBook Pro가 11월에 내게로 날아올 예정이에요. 제 전체적인 생각은 그 때에 밝히겠죠. 또한, 최신 올인원 iMac 24인치 기본 제원을 주문했어요, 애플의 최신 기술로 900일 이상 어느 정도 발전했는지 살펴볼 겁니다.
 
@@ -107,8 +202,18 @@ isUpdated: true
 
 음, 긍정적인 마무리를 지어보죠. 구매한 것에 대해 기분 좋아해야 해요. 솔직히요. 그 이유로 구입했고, 여전히 슈퍼 빠른 머신이잖아요. 누가 알아요, 아마도 10년 후에도 M2를 사용하고 있는 사람으로써 커피숍에서 발견되는 사람이 될 수도 있으니까요!
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 가기 전에
 

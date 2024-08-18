@@ -3,17 +3,13 @@ title: "KAN  콜모고로프-아놀드 네트워크 뒤에 숨은 수학"
 description: ""
 coverImage: "/assets/img/2024-06-19-TheMathBehindKANKolmogorov-ArnoldNetworks_0.png"
 date: 2024-06-19 03:45
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-TheMathBehindKANKolmogorov-ArnoldNetworks_0.png
 tag: Tech
 originalTitle: "The Math Behind KAN — Kolmogorov-Arnold Networks"
 link: "https://medium.com/towards-data-science/the-math-behind-kan-kolmogorov-arnold-networks-7c12a164ba95"
 isUpdated: true
 ---
-
-
-
-
 
 ## 클래식 다층 퍼셉트론 대안이 나왔어요. 왜 더 정확하고 해석 가능한 건가요? 수학과 코드 심층 탐구.
 
@@ -23,7 +19,18 @@ AI 세계에서 신경망은 끊임없는 혁신과 발전을 이끌어옵니다
 
 여기 Kolmogorov-Arnold Networks(KANs)가 나왔습니다. Kolmogorov-Arnold 표현 정리에서 영감을 받은 신경망에 대한 새로운 접근법입니다. 기존 MLP가 각 뉴런에서 고정 활성화 함수를 사용하는 반면, KANs는 네트워크의 가중치(엣지)에 학습 가능한 활성화 함수를 사용합니다. 이 간단한 변경은 정확성, 해석 가능성, 효율성에서 새로운 가능성을 열어줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사는 KAN이 신경망 설계에서 혁명적인 발전을 이루는 이유를 탐구합니다. 우리는 그들의 수학적 기초에 대해 자세히 살펴보고, MLP(Multi-Layer Perceptrons)와의 주요 차이점을 강조하며, KAN이 전통적인 방법을 능가할 수 있는 방법을 보여줄 것입니다.
 
@@ -33,7 +40,18 @@ AI 세계에서 신경망은 끊임없는 혁신과 발전을 이끌어옵니다
 
 다층 퍼셉트론(MLP)은 현대 신경망의 핵심 구성 요소입니다. 각각의 뉴런은 데이터로부터 학습하여 복잡한 비선형 함수를 근사하는 것을 목표로 설계된 상호 연결된 노드 레이어로 구성되어 있습니다. 각 뉴런은 입력의 가중 합에 고정된 활성화 함수를 사용하여 입력 데이터를 원하는 출력으로 변환함으로써 여러 계층의 추상화를 통해 동작합니다. MLP는 컴퓨터 비전에서부터 음성 인식까지 다양한 분야에서 앞도적인 성과를 이루어 왔습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 MLP에는 몇 가지 중요한 제한 사항이 있습니다:
 
@@ -44,7 +62,18 @@ AI 세계에서 신경망은 끊임없는 혁신과 발전을 이끌어옵니다
 
 # 2: Kolmogorov-Arnold Networks (KANs)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-TheMathBehindKANKolmogorov-ArnoldNetworks_2.png)
 
@@ -54,7 +83,18 @@ KAN(Kolmogorov-Arnold Networks)은 콜모고로프-아놀드 이론의 힘을 �
 
 이 변화는 네트워크의 유연성을 향상시키고 데이터의 복잡한 패턴을 포착할 수 있는 능력을 강화하여 전통적인 MLP에 대한 해석 가능하고 강력한 대안을 제공합니다. KAN은 가장 최적의 성능을 위해 엣지에 있는 학습 가능한 활성화 함수에 초점을 맞춘 결과, 다양한 AI 작업에서 성능이 향상됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3: 수학적 기초
 
@@ -64,7 +104,18 @@ KAN(Kolmogorov-Arnold Networks)은 콜모고로프-아놀드 이론의 힘을 �
 
 이 정리는 어떤 복잡한 레시피(고차원 함수)라도 보다 간단한 단계(일변량 함수)로 분해할 수 있다는 것을 명시합니다. KANs에서는 각 재료(입력 값)가 네트워크의 가장자리에 배치된 일련의 간단한 단계(일변량 함수)를 통해 변환됩니다. 이를 수학적으로 표현하면:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-19-TheMathBehindKANKolmogorov-ArnoldNetworks_3.png)
 
@@ -74,7 +125,18 @@ KAN의 각 층은 이러한 요리 기술을 사용하여 재료를 더 변형�
 
 ![image](/assets/img/2024-06-19-TheMathBehindKANKolmogorov-ArnoldNetworks_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 x(l)은 l번째 레이어에서 변환된 재료를 나타내고, ϕ_l,i,j는 l레이어와 l+1 레이어 사이의 학습 가능한 일변량 함수입니다. 이를 각 단계마다 재료에 다양한 조리 기술을 적용하여 중간 요리를 얻는 것으로 생각해보세요.
 
@@ -84,7 +146,18 @@ KAN의 출력은 이러한 레이어 변환의 합성입니다. 중간 요리를
 
 여기서 Φl은 l번째 레이어의 일변량 함수 행렬을 나타냅니다. KAN의 전체 함수는 이러한 레이어의 합성으로, 각각이 변환을 더욱 세밀하게 다듬습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 MLP 구조
 전통적인 MLP에서 각 노드는 입력에 고정된 활성화 함수 (예: ReLU 또는 sigmoid)를 적용합니다. 이를 생각해보면 각각의 성질에 관계없이 모든 재료에 동일한 조리 기술을 적용하는 것과 같습니다.
@@ -95,7 +168,18 @@ MLPs는 이러한 고정 비선형 활성화 함수에 이어서 선형 변환�
 
 여기서 W는 가중치 행렬을 나타내고, σ는 고정된 활성화 함수를 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 그리드 확장 기술
 
@@ -105,7 +189,18 @@ MLPs는 이러한 고정 비선형 활성화 함수에 이어서 선형 변환�
 
 이 B-스플라인은 부드러운 곡선을 형성하기 위해 결합된 일련의 다항 함수입니다. KANs에서는 가장자리의 단변량 함수를 나타내는 데 사용됩니다. 스플라인은 그리드 포인트라고 불리는 일련의 간격을 통해 정의됩니다. 그리드 포인트가 많을수록 스플라인이 캡처할 수 있는 세부 정보가 더욱 섬세해집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![KANKolmogorov-ArnoldNetworks_8](/assets/img/2024-06-19-TheMathBehindKANKolmogorov-ArnoldNetworks_8.png)
 
@@ -113,11 +208,22 @@ MLPs는 이러한 고정 비선형 활성화 함수에 이어서 선형 변환�
 
 학습이 진행됨에 따라 그리드 포인트의 수가 점진적으로 증가합니다. 이 과정을 그리드 세분화라고 합니다. 더 많은 그리드 포인트를 추가함으로써 스플라인이 더 자세해지고 데이터 내의 미세한 패턴을 잡을 수 있습니다. 이는 처음에 대략적인 스케치에 점차적으로 더 많은 세부 사항을 추가하여 자세한 그림으로 완성하는 것과 유사합니다.
 
-매 증가할 때마다 새로운 B-spline 기저 함수 B′_m(x)가 도입됩니다. 이러한 새로운 기저 함수에 대한 계수 c'_m은 새로운, 더 자세한 스플라인이 초기, 더 거친 스플라인과 밀접하게 일치하도록 조절됩니다.
+매 증가할 때마다 새로운 B-spline 기저 함수 B′\_m(x)가 도입됩니다. 이러한 새로운 기저 함수에 대한 계수 c'\_m은 새로운, 더 자세한 스플라인이 초기, 더 거친 스플라인과 밀접하게 일치하도록 조절됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-이 작업을 수행하기 위해서는 최소 제곱 최적화가 사용됩니다. 이 방법은 계수 c'_m을 조정하여 원본 스플라인과 개선된 스플라인 간의 차이를 최소화합니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+이 작업을 수행하기 위해서는 최소 제곱 최적화가 사용됩니다. 이 방법은 계수 c'\_m을 조정하여 원본 스플라인과 개선된 스플라인 간의 차이를 최소화합니다.
 
 ![image](/assets/img/2024-06-19-TheMathBehindKANKolmogorov-ArnoldNetworks_9.png)
 
@@ -125,7 +231,18 @@ MLPs는 이러한 고정 비선형 활성화 함수에 이어서 선형 변환�
 
 ## 간소화 기법
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 KANs의 해석 가능성을 향상시키기 위해, 네트워크를 이해하고 시각화하기 쉽게 만들기 위해 여러 간소화 기술이 사용될 수 있습니다.
 
@@ -136,7 +253,18 @@ KANs의 해석 가능성을 향상시키기 위해, 네트워크를 이해하고
 
 여기서 N_p는 입력 샘플 수이며, ϕ(x_s)는 입력 샘플 x_s에 대한 함수 ϕ의 값입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스파스파이케이션은 방을 정리하는 것과 같습니다. 불필요한 항목을 제거하거나 중요하지 않은 기능을 줄임으로써 공간(또는 네트워크)을 더 정리하고 쉽게 이동할 수 있게 만듭니다.
 
@@ -147,7 +275,18 @@ L1 규제를 적용한 후 활성화 함수의 L1 노름이 평가됩니다. 특
 상징화
 다른 방법은 배운 단변량 함수를 알려진 기호 형태로 대체하여 네트워크를 보다 해석하기 쉽게 만드는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 잠재적인 상징적 형식 (예: sin⁡, exp)을 식별하는 작업입니다. 이 단계는 학습된 함수를 분석하고 모양과 행동에 기초하여 상징적 후보를 제안하는 것을 포함합니다.
 
@@ -157,7 +296,18 @@ L1 규제를 적용한 후 활성화 함수의 L1 노름이 평가됩니다. 특
 
 Kolmogorov-Arnold Networks (KANs)와 전통적인 Multi-Layer Perceptrons (MLPs)의 능력을 시범하기 위해, PyTorch를 활용하여 함수를 생성한 데이터세트에 KAN 모델과 MLP 모델을 모두 적합시켜보겠습니다. 이들의 성능이 어떻게 보이는지 확인해봅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 사용할 함수는 KAN의 능력을 MLP(원본 논문 예제)과 비교하기 위해 논문 저자들이 사용한 것과 동일합니다. 그러나 코드는 다를 것입니다. 오늘 다룰 모든 코드는 이 노트북에서 찾을 수 있습니다:
 
@@ -174,7 +324,18 @@ import matplotlib.pyplot as plt
 
 여기서 우리가 사용하는 것입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - numpy: 숫자 연산에 사용됩니다.
 - torch: PyTorch 용으로, 신경망 구축 및 훈련에 사용됩니다.
@@ -192,7 +353,18 @@ f = lambda x: torch.exp(torch.sin(torch.pi * x[:, [0]]) + x[:, [1]] ** 2)
 
 <img src="/assets/img/2024-06-19-TheMathBehindKANKolmogorov-ArnoldNetworks_11.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 [-2, 2] 사이에서 균일하게 분포된 100개의 점의 텐서를 이 함수에 맞춰 보겠습니다.
 
@@ -205,9 +377,20 @@ dataset = create_dataset(f, n_var=2)
 
 create_dataset은 함수 f를 기반으로 데이터셋을 생성합니다. 이 데이터셋에는 신경망의 훈련 및 테스트에 사용될 입력-출력 쌍이 포함됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-자, 이제 데이터셋을 사용하여 KAN 모델을 구축하고 훈련시킬 차례입니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+자, 이제 데이터셋을 사용하여 KAN 모델을 구축하고 훈련시킬 차례입니다.
 우리는 먼저 더 넓은 격자 (5 포인트)로 시작하여 점진적으로 더 섬세한 세부 사항을 캡처하기 위해 그것을 미세 조정할 것입니다(최대 100 포인트까지).
 이것은 데이터의 세부 사항을 잡아내어 모델의 정확도를 향상시킵니다.
 
@@ -234,7 +417,18 @@ for i in range(grids.shape[0]):
 
 각 반복마다, k=3인 모델을 정의합니다. 여기서 k는 B-스플라인의 순서를 나타냅니다. 훈련 단계(또는 에포크) 수를 50으로 설정합니다. 모델의 아키텍처는 2개의 노드를 가진 입력 레이어, 1개의 노드를 가진 은닉 레이어 및 1개의 노드를 가진 출력 레이어로 구성됩니다. LFGBS 옵티마이저를 사용하여 훈련합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 훈련 과정 중의 훈련 및 테스트 손실입니다:
 
@@ -262,7 +456,18 @@ model = MLP()
 summary(model, input_size=(dataset['train_input'].shape[1],))
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 MLP는 입력 레이어, 64개의 뉴런을 가진 두 개의 히든 레이어 및 출력 레이어를 가지고 있습니다. 레이어 간에는 ReLU 활성화 함수가 사용됩니다.
 
@@ -295,7 +500,18 @@ for epoch in range(epochs):
 
 MLP에서 훈련 및 테스트 RMSE가 어떻게 나타나는지 보여드리겠습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 비교를 위해 손실 그래프를 나란히 두어 보겠습니다:
 
@@ -303,7 +519,18 @@ MLP에서 훈련 및 테스트 RMSE가 어떻게 나타나는지 보여드리겠
 
 이 그래프는 KAN 모델이 MLP 모델보다 더 낮은 훈련 RMSE를 달성하여 더 나은 함수 맞추기 능력을 나타낸다는 것을 보여줍니다. 마찬가지로, KAN 모델은 시험 세트에서 MLP를 능가하여 뛰어난 일반화 능력을 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예시는 KAN이 유연하고 적응적인 구조 덕분에 복잡한 함수들을 전통적인 MLP보다 더 정확하게 맞출 수 있다는 것을 보여줍니다. 격자를 세밀하게 조정하고 가장자리에 학습 가능한 일변량 함수를 사용함으로써, KAN은 MLP가 놓치는 데이터의 복잡한 패턴을 포착하여 함수 맞추기 작업에서 성능을 향상시킵니다.
 
@@ -313,7 +540,18 @@ MLP에서 훈련 및 테스트 RMSE가 어떻게 나타나는지 보여드리겠
 
 요약하자면, KAN은 분명히 매력적이고 많은 잠재력을 가지고 있지만, 실제로 효과적으로 작동하기 위해서는 다른 데이터셋 및 알고리즘 내부 동작에 대해 더 많은 연구가 필요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 5: KAN의 장점
 
@@ -323,7 +561,18 @@ Kolmogorov-Arnold Networks (KANs)의 두드러진 장점 중 하나는 전통적
 
 각 노드에 고정된 활성화 함수를 사용하는 MLP와 달리, KAN은 에지에서 단변량 함수를 사용하여 네트워크를 더 융통성 있게 만들고 학습 프로세스를 데이터에 더 잘 맞출 수 있도록 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 KANs은 층간 기능을 동적으로 조절할 수 있기 때문에 더 적은 매개변수로 비교적 높은 정확도를 얻을 수 있습니다. 이 효율성은 데이터나 계산 리소스가 제한된 작업에 특히 유용합니다.
 
@@ -333,7 +582,18 @@ KANs은 전통적인 MLPs에 비해 해석력을 크게 향상시킵니다. 이 
 
 KANs은 희소화(sparsification) 및 가지치기(pruning)와 같은 기술을 통해 단순화될 수 있습니다. 이러한 기술은 해석력을 향상시키는 뿐만 아니라 가장 관련성이 높은 구성 요소에 집중함으로써 네트워크의 성능을 향상시킵니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일부 함수의 경우 활성화 함수의 기호적 형태를 식별할 수 있으며, 이를 통해 네트워크 내에서 발생하는 수학적 변환을 이해하기 쉬워집니다.
 
@@ -343,7 +603,18 @@ KAN은 MLP와 비교했을 때 더 빠른 신경 확장 법칙을 나타내며, 
 
 KAN은 복잡한 함수를 더 단순한 단변량 함수로 분해할 수 있는 능력으로 인해 보다 유리한 확장 법칙을 갖게 되어, MLP보다 모델 복잡도가 증가함에 따라 더 효율적으로 낮은 오류율을 달성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 KANs는 훈련 중에 더 미세한 그리드까지 더욱 세분화된 그리드로 시작하여 계산 효율성과 정확도를 균형있게 유지하도록 합니다. 이 접근 방식은 MLPs보다 KANs가 보다 우아하게 확장될 수 있게 하며, 모델 크기를 증가시킬 때 완전히 재훈련이 필요한 MLPs보다 우수한 성능을 제공합니다.
 
@@ -355,7 +626,18 @@ Kolmogorov-Arnold Networks (KANs)는 전통적인 Multi-Layer Perceptrons (MLPs)
 - 향상된 해석력: KANs를 시각화하고 단순화할 수 있는 능력은 건강 관리, 금융 및 자율 시스템과 같은 중요한 응용 분야에서 의사 결정 과정을 이해하는 데 도움이 됩니다.
 - 더 나은 확장성: KANs는 더 빠른 신경 확장 법칙을 나타내며 MLPs보다 증가하는 복잡성을 우아하게 처리할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 콜모고로프-아놀드 네트워크 소개는 신경망 분야에서 흥미로운 발전을 의미합니다. 이는 AI 및 머신 러닝에 대한 새로운 가능성을 열어줍니다.
 

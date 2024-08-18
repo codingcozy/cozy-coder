@@ -3,17 +3,13 @@ title: "Windows 10에서 DMG를 USB에 불러 넣는 모든 가능한 방법"
 description: ""
 coverImage: "/assets/img/2024-06-19-AllPossibleWaystoBurnDMGtoUSBonWindows10_0.png"
 date: 2024-06-19 08:57
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-AllPossibleWaystoBurnDMGtoUSBonWindows10_0.png
 tag: Tech
 originalTitle: "All Possible Ways to Burn DMG to USB on Windows 10"
 link: "https://medium.com/@andersonbzk/all-possible-ways-to-burn-dmg-to-usb-on-windows-10-3614bc5e1f91"
 isUpdated: true
 ---
-
-
-
-
 
 만일 당신이 맥 사용자이라면, DMG에 익숙할 것입니다. 사실, 이는 소프트웨어 및 OS 설치에 사용할 수 있는 가장 인기 있는 macOS 파일 형식 중 하나입니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 참고로, DMG는 Apple의 독점 디스크 이미지 형식이며, 윈도우에서 기본적으로 지원되지 않습니다. 그래서 PC에서 DMG 파일을 USB에 복사하는 것이 어려운 이유입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 좌절하지 마세요. PC에서 작업을 완료할 수 있는 몇 가지 해결책이 아직도 있습니다. 이 튜토리얼에서는 macOS DMG 파일을 macOS 또는 Windows 10에 USB에 불러오는 단계를 안내해 드릴 거예요. 먼저 쉬운 해결책으로 시작해볼게요.
 
@@ -33,7 +40,18 @@ UUByte DMG Editor는 데이터를 손상시키지 않고 Windows와 macOS 모두
 
 이 도구는 기술적 전문 지식이 필요하지 않아요. Windows와 macOS를 동시에 사용하고 있는 입문자를 위해 특별히 설계되었어요. UUByte DMG Editor는 macOS 부팅 가능 USB 드라이브를 만들어 macOS를 어떤 Mac 기기에도 설치할 수 있게 해줘요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Win 다운로드: [다운로드 링크](https://www.uubyte.com/download/dmg-editor.exe)
 
@@ -43,7 +61,18 @@ Mac 다운로드: [다운로드 링크](https://www.uubyte.com/download/dmg-edit
 
 단계 2: 이제 USB 드라이브를 Windows 10 PC에 넣으세요. USB 드라이브의 저장 용량이 적어도 16GB 이상이어야 하며 도구를 실행하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스텝 3: 메인 메뉴에서 Burn 버튼을 선택한 후 USB 드라이브에 복사하려는 macOS DMG 파일을 선택합니다.
 
@@ -53,11 +82,23 @@ Mac 다운로드: [다운로드 링크](https://www.uubyte.com/download/dmg-edit
 
 ![이미지](/assets/img/2024-06-19-AllPossibleWaystoBurnDMGtoUSBonWindows10_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5단계: 이제 USB 드라이브에서 Mac을 부팅하고 해당 Mac에 macOS를 설치할 수 있습니다.
 
 ## 장점:
+
 - 훌륭한 UI 디자인을 갖춘 간단한 단계.
 - macOS Big Sur, Catalina, Mojave 및 High Sierra를 지원합니다.
 - 매우 빠른 속도로 빠르고 시간을 절약할 수 있습니다.
@@ -65,7 +106,18 @@ Mac 다운로드: [다운로드 링크](https://www.uubyte.com/download/dmg-edit
 
 ## 단점:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 유료 소프트웨어.
 
@@ -75,7 +127,18 @@ AnyBurn은 Mac과 Windows 모두에서 DMG 파일을 USB에 복사하는 데에 
 
 단계 1: 컴퓨터에서 AnyBurn을 실행하고 부팅 가능한 USB 드라이브 만들기를 클릭하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-AllPossibleWaystoBurnDMGtoUSBonWindows10_3.png)
 
@@ -85,7 +148,18 @@ AnyBurn은 Mac과 Windows 모두에서 DMG 파일을 USB에 복사하는 데에 
 
 단계 3: 'Burn' 버튼을 클릭하면 도구가 DMG 파일을 삽입된 USB 드라이브에 불를 붙이기 시작합니다. 과정 중에 진행률 표시 막대가 표시됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 장점:
 
@@ -98,7 +172,18 @@ AnyBurn은 Mac과 Windows 모두에서 DMG 파일을 USB에 복사하는 데에 
 - 실행하려면 관리자 권한이 필요합니다.
 - 사용자 인터페이스가 오래되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # TransMac: Windows 전용 프로그램으로 DMG 파일을 USB 드라이브에 복원 및 불러오기
 
@@ -108,7 +193,18 @@ TransMac는 무료가 아니에요. 현재 사용자 라이선스는 59달러로
 
 시작하기 전에, 이제 16GB 저장 공간을 가진 USB 드라이브가 있고 드라이브에 중요한 것이 없는지 확인하세요. 프로세스가 드라이브의 모든 것을 삭제할 거에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 TransMac을 설치하고 PC에서 실행하세요. 관리자 권한으로 실행하고 USB 드라이브를 컴퓨터에 삽입하세요.
 
@@ -118,7 +214,18 @@ TransMac을 설치하고 PC에서 실행하세요. 관리자 권한으로 실행
 
 ## 장점:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 무료 체험이 가능합니다.
 - dmg 파일을 열고 압축 해제할 수 있습니다.
@@ -132,7 +239,18 @@ TransMac을 설치하고 PC에서 실행하세요. 관리자 권한으로 실행
 
 # VMWare Workstation: macOS 가상 머신에서 DMG를 USB에 기록하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Windows 사용자라면 macOS 가상 머신을 생성한 후 내장 명령을 사용하여 DMG 파일을 USB 드라이브에 불 수 있습니다. Windows에서 macOS VM을 만드는 두 가지 방법이 있습니다. VMWare Workstation과 VirtualBox를 사용할 수 있는데, 아래 섹션에서는 VMWare 방법을 사용할 것입니다.
 
@@ -142,7 +260,18 @@ macOS Unlocker를 다운로드하고 나면 win-install.cmd를 마우스 오른�
 
 ## Windows 10 PC에서 macOS 가상 머신 만들기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단계 1: 이제 컴퓨터에서 VMWare를 실행하고 새 가상 머신 만들기를 클릭한 다음 Typical (권장) 옆에 있는 상자를 선택해주세요.
 
@@ -152,7 +281,18 @@ macOS Unlocker를 다운로드하고 나면 win-install.cmd를 마우스 오른�
 
 단계 4: 가상 머신의 디스크 크기를 지정하고 가상 디스크를 단일 파일로 저장하는 옵션 옆에 있는 상자를 선택한 후 다음을 클릭해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5단계: 다음 창에서 '하드웨어 사용자 정의'를 클릭한 후에 가상 머신의 메모리를 4GB에서 8GB로 조정해주세요. 윈도우에서 실행 중인 가상 머신에 대한 성능을 높일 수 있습니다.
 
@@ -162,18 +302,38 @@ macOS Unlocker를 다운로드하고 나면 win-install.cmd를 마우스 오른�
 
 7단계: 이제 macOS Big Sur ISO 파일을 선택하고 '열기'를 눌러주세요. 작업을 마치면, '닫기'를 클릭하여 하드웨어 창을 닫아주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **단계 8:** 새 가상 머신 마법사 창에서 완료를 클릭하세요. 그 후 macOS Big Sur VM 폴더를 찾아 macOS Big Sur.vmx를 클릭하고 메모장을 통해 열어주세요.
 
 **단계 9:** 이제 메모장 아래로 스크롤하여 다음 코드를 추가한 후 저장을 클릭하세요.
 
-
 smbios.reflectHost = “TRUE”
 hw.model = “MacBookPro14,3”
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 board-id = “Mac-551B86E5744E2388”
 
@@ -183,7 +343,18 @@ Step 10: 이제 VMWare를 열어 macOS VM에서 Windows에서 이 가상 머신�
 
 ![이미지](/assets/img/2024-06-19-AllPossibleWaystoBurnDMGtoUSBonWindows10_7.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **단계 11:** 초기 설정을 진행하여 디스크 유틸리티 옵션을 보게 될 때까지 이어주세요. 해당 옵션을 클릭하고 계속을 눌러주세요.
 
@@ -193,7 +364,18 @@ Step 10: 이제 VMWare를 열어 macOS VM에서 Windows에서 이 가상 머신�
 
 ## macOS 가상 머신에서 DMG를 USB에 불러오기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Step 1: macOS 가상 머신이 Windows에서 실행 중이라면, 이제 터미널을 사용하여 DMG 파일을 USB에 복사할 수 있어요.
 
@@ -203,7 +385,18 @@ sudo /Applications/Install\ macOS\ Big\ Sur.app/Contents/Resources/createinstall
 
 · MyVolume을 USB 드라이브의 이름으로 바꿔주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3단계: Return을 누르고 관리자 암호를 입력하세요. 그 후에 드라이브를 지우려면 y를 입력하고 OK를 클릭하세요.
 

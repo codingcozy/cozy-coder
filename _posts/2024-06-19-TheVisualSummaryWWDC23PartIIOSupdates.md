@@ -3,17 +3,13 @@ title: "시각적 요약 - WWDC23 파트 II OS 업데이트"
 description: ""
 coverImage: "/assets/img/2024-06-19-TheVisualSummaryWWDC23PartIIOSupdates_0.png"
 date: 2024-06-19 08:45
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-TheVisualSummaryWWDC23PartIIOSupdates_0.png
 tag: Tech
 originalTitle: "The Visual Summary — WWDC23 Part II: OS updates"
 link: "https://medium.com/thevisualsummary/the-visual-wwdc23-summary-part-ii-os-updates-113d6363cc6"
 isUpdated: true
 ---
-
-
-
-
 
 ## 애플의 WWDC23 OS 업데이트 스케치 노트 요약
 
@@ -24,7 +20,18 @@ isUpdated: true
 - Part I: Unveiling Apple Vision Pro
 - Part III: Mac Updates
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보통: 상호 작용하는 위젯, 기분 추적, Journal 앱 및 스티커!
 iOS 17: Stand By 기능을 사용하면 iPhone을 도킹하여 알람 시계, 책상 달력 또는 홈 컨트롤 장치로 사용할 수 있습니다. 메시지에 Check In이 추가되어 안전하게 집으로 돌아가는지 확인하고 스티커를 사용할 수 있습니다. 키보드 자동 수정이 AI 개선이 되었습니다. AirDrop가 사용자 친화적으로 개선되었습니다.
@@ -35,7 +42,18 @@ tvOS: Apple TV에서 FaceTime을 사용하세요!
 
 # iOS 17: Stand By, Journal, AirDrop & Stickers
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 iOS 17 버전의 주요 새로운 기능 중 하나는 "스탠드 바이(Stand By)"입니다. 이 기능은 iPhone을 알람 시계, 캘린더, 음악 컨트롤러, 홈 자동화 리모컨 등으로 변신시켜줍니다. 이 기능은 전화를 충전하고 잠금 상태로 만들어 기욁니다. 야간에는 작년 애플 워치 울트라에서 본 것과 같이 붉은 톤의 저조도 모드를 사용합니다.
 
@@ -45,7 +63,18 @@ AirDrop도 명심할 만한 개선 사항을 받았습니다. 이제 두 대의 
 
 마지막으로, "저널(Journal)"이라는 새로운 앱이 있습니다. 이 앱을 사용하면 특별한 순간을 기록하고 곰곰히 생각할 수 있습니다. 이 새로운 앱은 운동, 사진 또는 음악과 같은 다양한 소스에서 정보를 수집하여 저널링에 대한 맥락 인식 경험을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 여러 데이터 소스와 쉽게 통합할 수 있는 기능 덕분에 매우 흥미를 갖고 저널 앱을 탐험하고 싶어 합니다. 또한, iPhone XR이 아직 호환되는 것을 발견해서 특히 Stand By를 시도해보고 싶습니다!
 
@@ -55,7 +84,18 @@ AirDrop도 명심할 만한 개선 사항을 받았습니다. 이제 두 대의 
 
 새롭게 디자인된 잠금 화면은 이제 글꼴과 색상을 사용자 정의할 수 있으며, 실시간 사진, 새로운 배경 화면, 실시간 활동 및 ... 위젯을 특징으로 합니다! 라이브 사진으로 만들 수있는 새로운 배경 화면은 락 화면을 해제할 때 추가된 슬로우 모션 효과와 함께 특히 멋집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아이패드 (그리고 다른 OS들) 위젯은 이제 상호작용이 가능해요. 이는 위젯 요소를 터치하여 동작을 트리거할 수 있으며 앱을 다시 여는 것 대신에 직접 작용이 가능합니다. 이는 훨씬 직관적인 사용자 경험을 제공하기 때문에 매우 환영받는 변화입니다! 동시에, 일부 앱에서는 사용자가 덜 시간을 소비할 것으로 예상되며, 이는 모든 개발자가 기쁘지 않을 수도 있겠지요.
 
@@ -65,7 +105,18 @@ PDF 문서에 주석을 달기 위해 아이패드를 사용하는 사용자들�
 
 이번 업데이트의 특히 기쁜 점 중 하나는 오래된 기기를 계속해서 지원한다는 것이에요. 2017년에 출시된 10.5인치 아이패드도 호환되어 사용자들에게 많은 새로운 기능을 제공하고 있어요. 저는 주로 헬스 앱을 사용하고 상호작용 위젯을 사용하는 걸 기대하고 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 워치OS 10
 
@@ -75,7 +126,18 @@ PDF 문서에 주석을 달기 위해 아이패드를 사용하는 사용자들�
 
 사이클 애호가들은 새롭게 추가된 기능을 감사히 여길 것입니다. 자전거 센서를 연결하여 더 "프로" 수준의 사이클링을 지원합니다. 이제 자전거 센서를 연결하면 새로운 지표인 회전수와 파워에 액세스할 수 있으며 "파워 존"을 활성화할 수 있습니다. 또한 iPhone도 소중한 동료가 되어 자전거를 탈 때 손목을 들지 않고도 자전거용 스티어링 휠에 iPhone을 장착하여 모든 사이클링 지표를 표시합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 등산 애호가들을 대상으로 한 새로운 기능들이 추가되었습니다. 등산 워크아웃을 통해 해발 뷰에서 웨이포인트에 액세스할 수 있으며, 예를 들어 마지막으로 휴대 전화 연결이 있었던 위치를 보여줍니다. 또한 WatchOS 17에서는 지형 지도도 제공되어 지형을 더 쉽게 탐험할 수 있게 됩니다.
 
@@ -85,7 +147,18 @@ PDF 문서에 주석을 달기 위해 아이패드를 사용하는 사용자들�
 
 WatchOS 10의 전체적인 리디자인은 미감 있고 OS에 신선함을 더했습니다. 지난 세 해 동안 다소 느린 성능을 보인 Series 2를 업데이트할 때가 되었기 때문에 이번 업데이트를 기대할 만 합니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # MacOS Sonoma
 
@@ -95,7 +168,18 @@ Sonoma에서는 위젯이 더 중요한 역할을 하게 되었어요. 이제 �
 
 비디오 회의에서 애플은 한 단계 더 나아졌어요. 발표자는 이제 발표 창 위에 자신을 오버레이할 수 있는 옵션을 가지게 되었어요. 뒤에 나타나거나 앞에 동그랗게 나타남으로써 추가적인 효과를 줄 수 있어요. 또한, 손으로 하트 모양을 만드는 등의 특정 동작은 비디오에 창의적인 터치를 더해주는 특별한 효과를 촉발해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사파리는 여러 개인 정보 보호 업데이트를 받아서 이제 더 많은 사생활 보호 기능을 가지게 되었습니다. 이제 사용자들은 PassKeys를 가족과 공유할 수 있게 되었습니다. 웹 앱은 이제 사파리에서 지원되며 알림 지원과 독에 추가하는 옵션을 갖추고 있습니다. 또 다른 큰 기능은 프로필인데요, 프로필을 사용하여 작업 및 개인 브라우징을 분리하여 서로 다른 즐겨찾기, 쿠키, 히스토리, 탭 그룹 및 확장 프로그램을 유지할 수 있습니다.
 
@@ -105,7 +189,18 @@ Sonoma에서는 위젯이 더 중요한 역할을 하게 되었어요. 이제 �
 
 저는 이전의 "대시보드" 오버레이에서 사용 가능했던 위젯 시대를 겪어왔고, 화면이 주로 창으로 가득 차 있기 때문에 위젯에 대해 크게 흥분하지는 않습니다. 그러나 새로운 단축키가 있어서 보이게 하는 경우에는 새로운 데스크톱 은유를 위한 길을 열 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 게임 성능 향상에 대해 정말 기대돼요. 직접X 12 지원은 VMWare나 Parallels가 이전에 제공한 것보다 뛰어난 게임 성능을 약속하고 있습니다. 기존 게임을 최적으로 작동하도록 조정하는 데는 약간의 조정이 필요할 수 있지만, 현대 맥이 무엇을 할 수 있는지 보여주며, 플랫폼을 고려하는 개발자를 기대합니다.
 
@@ -115,7 +210,18 @@ Sonoma에서는 위젯이 더 중요한 역할을 하게 되었어요. 이제 �
 
 모든 이야기가 한 가지 카테고리에 있다는 것은 올해 tvOS가 그다지 많은 주목을 받지 못했다는 뜻입니다. 그렇지만, tvOS 17은 콘트롤 센터의 멋진 리디자인을 가져왔습니다. 이제 상단에 위치하여 빠르게 액세스할 수 있습니다. 콘트롤 센터는 중요 정보의 편리한 개요를 제공하며, 다양한 섹션에 쉽게 액세스할 수 있게 해줍니다. 새로운 "Memory" 스크린 세이버는 화면에 멋진 사진 순간들을 아름답게 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 눈에 띄는 특징은 오랜 기다림 끝에 선보인 FaceTime 지원 기능입니다! iPhone을 활용하여 이제 iPhone 카메라가 당신을 촬영하면서 TV 화면에 모든 참가자를 보여줄 수 있습니다. Zoom과 WebEx 지원은 준비 중이지만 Teams는 언급되지 않았네요. 저는 이것이 Microsoft에게 미팅 룸을 위한 Teams 설정을 쉽게 확장할 수 있는 방법을 제공할 수 있기 때문에 Microsoft에게 TV로 나아가도록 유도할 것으로 기대하고 있습니다. 이런 식으로요... 전체적으로 보면 뭉쳐서, FaceTime이 Apple TV에서 락다운 기간 동안 좋은 선택이었을 것 같습니다.
 
@@ -125,7 +231,18 @@ AirPods Pro(기존 제품)는 적응형 오디오를 포함한 업데이트를 �
 
 여행 중 AirPlay가 더 유용해질 것으로 예상됩니다. 호텔이 TV에 AirPlay 옵션을 제공할 수 있게 되어, 화면에 QR 코드를 표시하여 즉시 연결하게 됩니다. 또한 차 안에서, CarPlay를 통해 동승자가 차 스피커에서 AirPlay를 통해 음악을 재생할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요약하자면, 홈 영역에서 멋진 업데이트가 있었습니다. 호텔 설정이 가장 흥미로운 것으로 보입니다. 여행 중에 TV를 잘 안 보는 편이지만, 다른 사람들이 콘텐츠를 쉽게 시청할 수 있도록 만드는 데 큰 도움이 될 수 있겠네요.
 
@@ -135,7 +252,18 @@ AirPods Pro(기존 제품)는 적응형 오디오를 포함한 업데이트를 �
 
 이것은 애플이 OS마다 WWDC를 발표할 때 직면한 도전입니다. iOS의 많은 업데이트가 다른 OS에도 나타나기 때문에 종종 잊혀지는 것 같지만 실제로는 멋진 기능이 많이 포함될 것입니다. 과거에는 기능이 생태계로 점차 전파되는 데 훨씬 더 많은 시간이 걸렸습니다. 예를 들어, Control Center는 2013년에 iPhone에 소개되었으며, 2022년에 macOS에 도달했습니다. 그러나 Journal 앱이 올해 모든 플랫폼에 도착할지 잘 모르겠습니다. 그래서 애플이 어떤 것이 언제 어디에서 사용 가능할지 명확하게 전달하는 것은 여전히 도전입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 또한 Apple이 AirPods 장치 전환 기능을 개선했다는 발표를 보았어요. 이것은 매우 사소한 일이지만, 이 기능이 이전에 그리 신뢰성이 높지 않았다는 뜻으로 들립니다. 이런 말을 하는 것은 매우 아이폰스럽지 않았죠. 게다가, 저는 Apple이 처음부터 이런 것들을 바로 잡아줄 것으로 기대하며, 아마도 WWDC에서 업데이트로 소개하지 않을 것으로 예상했습니다. 하지만, 언제나 버그는 존재하고, 그것을 인정했다는 점에는 공감할 수 있어요.
 
@@ -143,7 +271,18 @@ AirPods Pro(기존 제품)는 적응형 오디오를 포함한 업데이트를 �
 
 게임 쪽에서 가장 놀라운 측면 중 하나는, 맥으로의 게임 이식이 더 쉬워졌다는 것이었습니다. 게임 이식 툴킷을 통해 이미 커뮤니티가 최근 게임을 Apple Silicon에서 성공적으로 실행할 수 있었습니다. 이겪게 될 경우, 맥의 게임 환경에 더 많은 게임이 진입하게 될 수도 있을 거에요...
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

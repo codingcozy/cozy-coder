@@ -3,17 +3,13 @@ title: "대형 언어 모델LLMs 쉽게 배우기 기초부터 시작하는 가�
 description: ""
 coverImage: "/assets/img/2024-06-22-AGentleIntroductiontoLargeLanguageModelsLLMs_0.png"
 date: 2024-06-22 21:18
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-AGentleIntroductiontoLargeLanguageModelsLLMs_0.png
 tag: Tech
 originalTitle: "A Gentle Introduction to Large Language Models (LLMs)"
 link: "https://medium.com/@machine-mind-ml/a-gentle-introduction-to-large-language-models-llms-0be093d05866"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-06-22-AGentleIntroductiontoLargeLanguageModelsLLMs_0.png)
 
@@ -23,7 +19,18 @@ OpenAI가 ChatGPT를 선보인 시점은 게임 체인저였습니다. 이를 �
 
 자연어 처리(Natural Language Processing, NLP)의 하위 집합인 이 기술은 기계 학습에서 주도적인 역할을 하게 되었습니다. 이제 모든 사람들이 LLMs와 NLP에 대해 배우고, 그들의 잠재력을 어떻게 활용할지에 대해 열망하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러니까, 이것을 자세히 살펴보겠습니다 — LLM이란 무엇이며 어떻게 작동하는지, 그리고 학습, 삶, 그 이상에 활용하는 방법에 대해 알아보겠습니다. 이 시리즈를 따라가기 위해 필요한 것은 기본적인 학교 수학 지식, 약간의 Python 프로그래밍 스킬, 그리고 건강한 호기심입니다. 머신러닝에 대한 기본적인 이해는 플러스이지만 필수는 아닙니다. 더 깊이 파고 싶다면 해당 정보를 모두 확인할 수 있는 추가 소스를 제공할 테니 걱정하지 마세요. 이 시리즈는 코더와 연구자뿐만 아니라 소프트웨어 엔지니어들을 위한 것입니다. 이해가 안 된다면 직접 관여하고 LLM을 실험해보세요.
 
@@ -33,7 +40,18 @@ LLM의 등장은 OpenAI의 ChatGPT가 화제가 되기 전에 시작되었습니
 
 이 구조는 빠르게 다양한 자연어 처리 (NLP) 작업의 표준을 제시했습니다. 아마도 구글 번역, 구글 검색 엔진 또는 자동 완성 등에서 Transformer 모델과 상호작용해본 적이 있을 것입니다. Transformer 이전에는 재귀 신경망(RNNs)이 이러한 작업에 주로 사용되었습니다. 이제 LLM이 어떻게 작동하는지 탐구하고 NLP의 기초를 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 NLP 또는 자연어 처리는 인간 언어를 이해하고 해석하는 데 초점을 맞춘 기계 학습 분야입니다. 수학적 및 통계적 방법을 사용하여 주로 다루는 두 가지 유형의 작업이 있습니다: 분류 (예: 이메일 유형 식별) 및 회귀 (예: 인공 지능에 관한 시를 생성). 신속한 발전 덕분에 오픈 소스 LLM을 실험할 수 있는 다양한 프레임워크와 패키지가 있습니다. 인기 있는 패키지 중 하나는 Hugging Face의 Transformers입니다.
 
@@ -43,7 +61,18 @@ Transformer 신경망 아키텍처는 인상적이면서도 간단합니다. 다
 
 이 게시물은 Transformer 아키텍처의 심화 내용을 다루는 것은 아니지만 기본적인 이해가 도움이 됩니다. Transformer의 작동 방식에 대해 궁금하다면, 3Blue1Brown의 Visual Intro To Transformers라는 유튜브 비디오를 강력히 추천합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 NLP 분야에서 가장 일반적인 하위 작업은 다음과 같습니다:
 
@@ -56,9 +85,20 @@ Python 환경에서 트랜스포머를 사용하려면 PiP를 통해 설치하�
 $ pip install transformers
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-**Transformers를 사용하는 것은 가능한 쉽습니다. 예를 들어, 분류 작업:
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+\*\*Transformers를 사용하는 것은 가능한 쉽습니다. 예를 들어, 분류 작업:
 
 ```python
 from transformers import pipeline
@@ -82,7 +122,18 @@ print(result)
 - translation: 한 언어에서 다른 언어로 텍스트를 번역합니다.
 - zero-shot-classification: 레이블이 지정되지 않은 텍스트를 분류합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어 Named Entity Recognition을 사용하는 방법:
 
@@ -98,7 +149,18 @@ print(entities)
 
 텍스트 생성 작업의 예시:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 from transformers import pipeline
@@ -116,8 +178,18 @@ print(generated_text)
 
 1. GPT와 유사한 모델들 (자기 회귀형 트랜스포머): 이러한 모델들은 한 번에 한 단어씩 텍스트를 생성하며, 각 단어는 이전에 생성된 단어에 의존합니다. 이러한 모델들은 이야기 완성 및 회화 에이전트와 같은 텍스트 생성 작업에서 뛰어납니다. 예시로 GPT-2, GPT-3, 그리고 GPT-4 등이 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. BERT와 RoBERTa와 같은 BERT와 유사한 모델들: 이러한 모델들은 문장 내 단어들의 맥락을 분석하여 텍스트를 이해하고 해석하기 위해 설계되었습니다. 이러한 모델들은 텍스트 분류, 개체명 인식, 그리고 질문에 대한 답변과 같은 작업에 탁월합니다.
 
@@ -125,7 +197,18 @@ print(generated_text)
 
 이전에 언급된 Transformer 모델들(GPT, BERT, BART, 그리고 T5와 같은)은 근본적으로 언어 모델로 훈련됩니다. 이러한 모델들은 자가 지도 학습(self-supervised learning)이라는 방법을 통해 대량의 원시 텍스트 데이터에서 학습합니다. 자가 지도 학습에서는 모델이 입력 데이터로부터 자체 학습 신호를 생성하여 인간이 작성한 레이블 데이터가 필요하지 않다는 것을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 교육과정에서 모델들은 노출된 언어에 대한 통계적 이해를 발전시킵니다. 그러나 이 넓은 언어 이해는 특정 실용적인 작업에 직접적으로 적용되지는 않습니다. 이러한 모델을 특정 응용 프로그램에 유용하게 만들기 위해 전이 학습이라는 프로세스를 사용합니다. 전이 학습에서는, 미리 학습된 모델을 특정 작업에 맞게 세부 조정하는데 지도 학습을 사용하며, 이는 특정 작업에 맞춘 인간이 라벨이 지정된 데이터를 포함합니다.
 
@@ -133,8 +216,18 @@ print(generated_text)
 
 반면에 BERT와 같은 모델에서 사용되는 마스크 언어 모델링은 문장에서 특정 단어를 가리고 모델을 훈련시켜 주변 단어에 의해 제공된 문맥에 기반해 이러한 가리기된 단어를 예측하도록 합니다. 이 방법을 통해 모델은 양방향 문맥을 이해할 수 있어서 질문 응답 및 텍스트 분류와 같은 이해 작업에 매우 효과적입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-22-AGentleIntroductiontoLargeLanguageModelsLLMs_3.png)
 
@@ -144,8 +237,18 @@ print(generated_text)
 
 전이 학습 워크플로우 예시:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1. Pretraining: 모델은 먼저 대용량의 텍스트 데이터 코퍼스를 사용하여 자기지도 학습으로 초기 학습됩니다. 이 단계는 모델이 문법, 구문 및 의미와 같은 일반적인 언어 기능을 학습하는 데 도움을 줍니다.
 
@@ -155,7 +258,18 @@ print(generated_text)
 
 트랜스포머는 자연어 처리를 혁신했지만, 계산 비용, 에너지 소비, 방대한 데이터셋의 필요성과 같은 도전 과제가 있습니다. 연구자들은 이러한 모델을 더 효율적이고 접근성이 높게 만들기 위해 지속적으로 새로운 아키텍처 및 기술을 탐구하고 있습니다. 예를 들어, 대규모 모델의 크기를 줄이면서 성능을 유지하는 모델 증류와 계산 부담을 줄이려는 희소한 주의 메커니즘과 같은 기술은 희망적인 연구 분야입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요약하자면, GPT, BERT, BART, T5와 같은 Transformer 모델의 능력을 이해하고 활용하는 것은 자기 지도 학습과 전이 학습을 통해 자연어 처리에서 다양한 실용적인 응용 프로그램을 발전시킬 수 있습니다. 이러한 모델을 특정 작업에 맞게 세밀하게 조정함으로써, 계산 리소스를 많이 필요로하지 않고도 그들의 능력을 활용할 수 있습니다.
 
@@ -165,7 +279,18 @@ print(generated_text)
 
 ![Transformer Model](/assets/img/2024-06-22-AGentleIntroductiontoLargeLanguageModelsLLMs_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나, 한 걸음씩 천천히 짚어 보겠습니다. 트랜스포머 아키텍처는 주로 두 가지 중요한 구성 요소로 이루어져 있습니다: 인코더(Encoder)와 디코더(Decoder):
 
@@ -176,7 +301,18 @@ print(generated_text)
 
 작업에 따라 이러한 구성 요소는 독립적으로 또는 함께 사용될 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1. 인코더 전용 모델: 문장 분류 및 개체명 인식과 같이 입력의 심도 있는 이해가 필요한 작업에 이상적입니다. BERT와 RoBERTa가 대표적인 예시입니다.
 
@@ -186,7 +322,18 @@ print(generated_text)
 
 Transformer 아키텍처의 중요한 특징 중 하나는 그 고급 어텐션 메커니즘입니다. 이러한 메커니즘은 모델이 입력 시퀀스의 특정 부분에 집중하도록 안내하여 더 정확하고 문맥을 고려한 결과를 얻게 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주의는 딥 러닝 모델(RNN, Transformer)에서 사용되는 메커니즘으로, 입력의 다른 부분에 서로 다른 가중치를 할당하여 모델이 생성, 번역 또는 감정 분석과 같은 작업을 수행하는 동안 가장 중요한 정보를 우선적으로 강조할 수 있도록 합니다. 앞서 말한대로, 주의는 입력의 다른 부분에 동적으로 초점을 맞추게 하여 성능을 개선하고 더 높은 정확도를 제공합니다.
 
@@ -197,7 +344,18 @@ Transformer 아키텍처의 중요한 특징 중 하나는 그 고급 어텐션 
 
 주의에 대한 비유: 복잡한 책을 읽는 상황을 상상해 보세요. 자가 주의는 메모를 작성하고 서로 교차 참조하여 이야기를 더 잘 이해하는 것과 유사하며, 다중 헤드 주의는 여러 사람이 책을 읽고 각각 중요한 섹션을 강조하는 것처럼, 결합하면 더 풍부한 이해를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떤 LLM이든 어떤 종류의 규칙을 학습하려면, 우리가 텍스트로 인식하는 것을 기계가 해석할 수 있는 형태로 변환해야 합니다. 이 과정은 임베딩/벡터화를 통해 이루어집니다. 이러한 과정의 출력물은 단어, 문장 또는 토큰들의 수학적(벡터) 표현인 임베딩입니다. 임베딩을 통해 우리는 단어, 문장을 표현하고, 벡터 거리 계산을 통해 다른 단어와의 의미론적 의미와 관계를 파악할 수 있습니다. 임베딩에는 몇 가지 유형이 있습니다: 위치적(토큰의 위치 인코딩), 토큰 임베딩(의미론), 혼합형 임베딩:
 
@@ -209,7 +367,18 @@ Transformer 아키텍처의 중요한 특징 중 하나는 그 고급 어텐션 
 
 지금까지 우리는 Transformers, 인코더, 디코더, 인코더-디코더, 어텐션, 그리고 임베딩에 대한 기본적이고 고수준의 내용을 다뤘습니다. 그러나 LLM 사용의 가장 중요한 부분은 RLHF(인간 피드백으로부터 강화 학습)이라는 기술입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기술은 언어 모델을 사용자의 의도에 맞추는 데 사용됩니다. 이것은 강화 학습(Reinforcement Learning, RL)을 통해 이루어집니다. RLHF는 사전 학습된 LLM을 정렬하는 매커니즘으로, 인간 피드백을 활용하여 성능을 향상시키는 것으로 매우 인기가 있습니다. 이것은 LLM이 상대적으로 적은 양의 인간 피드백에서 배워 행동을 수정할 수 있도록 합니다. RLHF는 GPT-3.5, GPT-4와 같은 현대적인 LLM에서 상당한 개선을 보여주었으며, 심지어 ChatGPT 제품에서도 사용됩니다.
 
@@ -224,6 +393,17 @@ LLM을 실제로 활용할 수 있는 분야는 다음과 같습니다:
 - 의미론적 검색
 - 챗봇
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요약하자면, Transformer 아키텍처는 인코더, 디코더, 고급 어텐션 메커니즘 및 임베딩을 통해 LLMs에 강력한 기반을 제공합니다. RLHF와 같은 기술들은 이러한 모델을 더욱 강화시켜 다양한 NLP 작업에 효과적으로 활용할 수 있게 만들어 줍니다.

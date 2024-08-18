@@ -3,17 +3,13 @@ title: "GPT 모델에 베르니케 실어증이 있을까"
 description: ""
 coverImage: "/assets/img/2024-06-30-DoGPTModelsHaveWernickesAphasia_0.png"
 date: 2024-06-30 23:57
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-30-DoGPTModelsHaveWernickesAphasia_0.png
 tag: Tech
 originalTitle: "Do GPT Models Have Wernicke’s Aphasia?"
 link: "https://medium.com/ai-advances/do-gpt-models-have-wernickes-aphasia-e9f1efbdb99b"
 isUpdated: true
 ---
-
-
-
-
 
 ## 신경과학, 창조적 AI 및 윤리
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 그들의 말은 유창하게 흘러나가고, 복잡한 문장들이 능숙하게 말려나갑니다. 그들은 화려한 단어를 사용하고 적절한 문법을 사용하지만 그들의 메시지는 극도로 무의미합니다. 당신의 친구는 웨르니케 유창 장애라는 상태일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Do GPT Models Have Wernicke's Aphasia?](/assets/img/2024-06-30-DoGPTModelsHaveWernickesAphasia_0.png)
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ChatGPT 뒤의 모델과 같이 생성 모델에서도 비슷한 도전이 관찰됩니다. GPT 모델은 자연어 처리에서 놀라운 진전을 이루었지만, 인간의 인식을 특징 짓는 문맥적인 인식 부족으로 실제 응용에서 위험을 야기할 수 있고 실제로 야기해 왔습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 생각과 언어 생산 사이의 간극
 
@@ -43,7 +61,18 @@ ChatGPT 뒤의 모델과 같이 생성 모델에서도 비슷한 도전이 관�
 
 우리의 교육 여정 어딘가에서, 우리는 고립된 사실을 암기하는 대신 근본적인 개념을 이해할 것을 권장받았습니다. 이러한 기본적인 접근은 결론을 도출하고 연결점을 인식하는 능력을 우리에게 부여합니다. 이는 단순히 정보를 소화하는 것과 대조적으로 나타나며, 개념을 탄탄히 이해하지 않으면 우리가 알지 못하는 잘못된 정보를 나오게 할 수 있다는 경고가 있었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 정보 재구성 대진단 이해
 
@@ -53,7 +82,18 @@ Wernicke 치매와 GPT 모델의 비교는 GPT-3 이후의 발전을 고려할 �
 
 GPT 모델은 근본적으로 방대한 데이터셋에서 훈련된 통계 도구로, 유도된 확률을 기반으로 현실적인 텍스트를 생성합니다. 그러나 사람들이 하는 것처럼 내부 컨텍스트나 세계의 이해력을 보유하고 있지 않습니다. 인간 수준의 텍스트를 생성할 수 있지만 진정으로 그들이 묘사하는 세계를 "이해"할 수 있는지 의문이 남습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AI 언어 모델들이 던지는 질문들은 철학과 인지과학의 오래된 논쟁들을 연상시킵니다. 철학자 존 서얼이 제안한 '중국 방' 주장은 기호 조작을 통해 시스템이 진정한 이해를 가질 수 있다는 아이디어에 도전하는데, 이 비평은 현재 AI와 의식에 관한 토론에서 관련이 있습니다.
 
@@ -63,7 +103,18 @@ AI 언어 모델들이 던지는 질문들은 철학과 인지과학의 오래�
 
 ![이미지](/assets/img/2024-06-30-DoGPTModelsHaveWernickesAphasia_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2023년, 미국 국립 식이장애 협회(NEDA)가 인간 스태프로 운영되던 도움말 전화 서비스를 '테사'라는 챗봇으로 대체했다고 합니다. 그러나 테사는 식이장애를 가진 사용자들에게 체중 감소 팁과 같은 부적절한 조언을 제공했다고 전해졌습니다. 이 사건으로 인해 NEDA는 그 챗봇을 중단시켰다고 합니다. 이는 적절한 안전장치 없이 AI 시스템을 도입하면 발생하는 현실적인 결과입니다.
 
@@ -73,7 +124,18 @@ AI 언어 모델들이 던지는 질문들은 철학과 인지과학의 오래�
 
 물리적 형태가 없는 AI는 이런 감각 기반 학습이 부족합니다. 이를 이해하기 위해 매운 맛에 대한 개념을 매운 것을 맛보지 않은 사람에게 설명하려고 한다고 상상해봅시다. 신체적 경험에 의존하지 않고 어떻게 그 감각을 전달할 수 있을까요? 이것은 인간처럼 세상과 상호작용하며 체험으로 이해되는 개념을 이해하는 데 어려움을 강조합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![DoGPTModelsHaveWernickesAphasia_4](/assets/img/2024-06-30-DoGPTModelsHaveWernickesAphasia_4.png)
 
@@ -83,7 +145,18 @@ AI 모델인 GPT-3와 같은 것들이 겪는 가장 큰 어려움 중 하나는
 
 사르침은 말하는 의도와 반대되는 것을 말하는 것을 포함하며, 이것은 발화자의 의도, 배경, 그 밖에 이 문장이 만들어진 맥락의 적절한 해석 없이 혼란스러울 수 있습니다. 비슷하게, 아이러니는 언어 단서 교환과 현실 세계적 지식의 교환이 통해 보통 이해되는 뉘앙스를 포함합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상호작용을 살펴보면:
 
@@ -94,7 +167,18 @@ AI 모델인 GPT-3와 같은 것들이 겪는 가장 큰 어려움 중 하나는
 
 이 상호작용에서는 AI가 발언과 실제 날씨 상황 사이의 불일치를 인식하는 것이 불가능합니다. AI 언어 이해의 챌린지는 문화 간 소통을 고려할 때 더욱 복잡해집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 문화 간 의사 소통에서 미묘함을 이해하기
 
@@ -104,7 +188,18 @@ AI 모델인 GPT-3와 같은 것들이 겪는 가장 큰 어려움 중 하나는
 
 연구자들은 AI 시스템이 보다 깊은 문맥적 이해를 갖도록 다양한 방법을 탐구하고 있습니다. 한 가지 방향은 멀티모달 학습의 통합입니다. 여기서 AI 시스템은 텍스트뿐만 아니라 이미지, 소리 및 다른 감각적 입력을 처리하여 보다 통합적인 세계 이해를 구축합니다. 또 다른 접근 방식은 신경 기호론적 AI의 개발입니다. 이것은 신경망의 패턴 인식 능력과 상징적 AI의 논리 추론을 결합합니다. 이 조합은 AI가 이미지나 문장에서 물체나 단어를 인식하는 것 뿐만 아니라 그들의 관계와 나타나는 폭 넓은 맥락을 이해할 수 있게 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 결론
 
@@ -114,7 +209,18 @@ GPT 모델과 같은 AI 시스템도 인간 인지에 내재된 심층적인 이
 
 ![이미지](/assets/img/2024-06-30-DoGPTModelsHaveWernickesAphasia_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이를 고려할 때, '인간 중심' 방식을 통합하는 것이 꼭 필요합니다. 특히 건강의료, 법률 서비스 및 개인 소통과 같이 위험성이 높은 분야에서는 더욱 중요합니다. 인간은 AI가 현재 갖고 있지 않은 판단력, 윤리적 고려사항 및 문화적 통찰력을 제공할 수 있습니다. 이 방식은 AI가 인간의 전문 지식을 대체하기보다 도울 수 있도록 하여, AI 기술의 신뢰성과 윤리적 전개를 향상시키고 위험을 줄입니다.
 
@@ -124,7 +230,18 @@ GPT 모델과 같은 AI 시스템도 인간 인지에 내재된 심층적인 이
 
 ## 참고문헌
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Arnaud, A. (2024, February 19). Neuro-symbolic AI Emerges as Powerful New Approach. Retrieved from Sun Location
 - Lavars, N. (2021, February 10). AI chatbots could help provide therapy, but caution is needed. Scientific American. Retrieved from Scientific American

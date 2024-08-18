@@ -3,17 +3,13 @@ title: "효율적인 LLAMA3 조정을 위한 ORPO 및 표현 세분화 결합 �
 description: ""
 coverImage: "/code-tower.github.io/assets/no-image.jpg"
 date: 2024-07-08 00:10
-ogImage: 
+ogImage:
   url: /code-tower.github.io/assets/no-image.jpg
 tag: Tech
 originalTitle: "Combining ORPO and Representation Fine-Tuning for Efficient LLAMA3 Alignment"
 link: "https://medium.com/towards-data-science/combining-orpo-and-representation-fine-tuning-for-efficient-llama3-alignment-77f6a2e3af8c"
 isUpdated: true
 ---
-
-
-
-
 
 파인튜닝은 특정 작업에 언어 모델을 적응시키는 가장 인기 있는 기술 중 하나입니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이제 우리는 이러한 방법을 도입하여 최적화 경계를 얼마나 더 늘릴 수 있을까요? (이 글의 전문을 읽으려면 여기를 클릭해 주세요. 작가들을 지원하려면 Medium 멤버십 고려해 주세요!)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 게시물에서는 최신 기법 중 두 가지를 조합하는 방법에 대해 이야기하겠습니다: LLAMA3 모델의 최적 선호 조정을 위한 표현 파인튜닝과 ORPO의 중요성에 대해 설명하겠습니다.
 

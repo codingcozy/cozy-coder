@@ -3,17 +3,13 @@ title: "익스트루전 2024 최신 기술 및 방법 완벽 가이드"
 description: ""
 coverImage: "/assets/img/2024-07-07-Extrusion_0.png"
 date: 2024-07-07 02:54
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-Extrusion_0.png
 tag: Tech
 originalTitle: "Extrusion"
 link: "https://medium.com/@bartosz_sroka/why-3d-printer-is-what-you-need-for-zombie-apocalypse-part-2-how-and-what-to-print-56e93b7fdaa9"
 isUpdated: true
 ---
-
-
-
-
 
 좀비 아포칼립스를 위해 3D 프린터가 필요한 이유는 무엇일까요? 파트 2: 어떻게 출력하며 무엇을 출력해야 할까요?
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 그럼 설정을 마쳤다고 하지만, 우리는 시나리오로 자원이 부족하고 세상이 사는 것은 꽤나 불쾌한 두뇌를 먹는 자들로 가득 찬 세계임을 언급하지 않았나요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예.
 
@@ -34,11 +41,22 @@ isUpdated: true
 
 원격 설정에서 사용할 수 있는 적어도 두 가지 방법이 있어요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - PLA, ASA, PET-G 및 ABS용 압출
 - PET용 Pulltrusion
-- 와일드카드 *
+- 와일드카드 \*
 
 # 압출
 
@@ -46,7 +64,18 @@ isUpdated: true
 
 가장 안전하고 다재다능한 선택 중 하나는 일반 필라멘트 제조와 동일한 원리로 작동하는 소형 설정입니다. 전문가용으로 비싼 크기가 컴팩트하지 않은 설정도 있지만 다행히도 ARTME3D와 같은 세트처럼 다양한 소재에서 필라멘트를 압출하여 프린트에 적합하게 만들 수 있는 설정도 있습니다. 이러한 장치들은 “우리의 여정에서” 찾을 수 있는 것들을 재활용하여 프린팅 소재로 재사용할 수 있도록 해줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 풀트루전
 
@@ -54,9 +83,20 @@ isUpdated: true
 
 우리는 "풀트루전" 키트도 있어요 - 이건 정말 멋진 옵션들 중 하나에요. PET-G는 알려진 3D 프린팅 재료이고, PET은 글리콜 첨가물이 없는 같은 단량체인데요, 이로 인해 PET-G보다 조금 더 취약합니다. 하지만 풀트루전 키트는 일회용 병(대부분 PET으로 만든)을 가져와 얇은 줄무늬로 자른 다음 비어 있는 PET 필라멘트로 변환시킵니다. 이것은 매우 "단일 재료" 중심의 솔루션이지만, 플라스틱 병 쓰레기를 사용하여 인쇄 소재를 만들 수 있다는 사실은 좀비들이 아마존 배송 기사를 모두 먹은 경우에 위안을 줄 수 있습니다.
 
-* 이것은 제3의 방법은 아니지만, 아주 좋은 소재의 놀라운 원천이 존재해요. 잔디를 자르는 라인에 사용되는 것을 아시나요?
+- 이것은 제3의 방법은 아니지만, 아주 좋은 소재의 놀라운 원천이 존재해요. 잔디를 자르는 라인에 사용되는 것을 아시나요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-07-Extrusion_3.png" />
 
@@ -66,7 +106,18 @@ isUpdated: true
 
 대부분 나일론인가요? 그리고 직경은 놀랍게도 대부분의 취미용 3D 프린터에 맞습니다. 스테판의 자료는 그의 페이지와 유튜브 채널에서 확인하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 프린팅
 
@@ -77,7 +128,18 @@ isUpdated: true
 
 # 기술
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 기술에 대해 이야기해야 해요 — "저기, 까칠한 수염을 한 남자! 3D 프린트를 할 수 있어요! 3D 벤치와 드래곤을 만들었어요!" 라고 생각한다면, 일부로 맞아요 — 필요한 기술이 있어요. 그러나 EPZA 시대에는 Printables, Thingiverse 같은 준비된 STL 파일을 이용할 수 있는 플랫폼에 접근할 수 없을 확률이 높아요.
 
@@ -87,7 +149,18 @@ isUpdated: true
 
 온라인 제품 디자인 — 경험 많은 디자이너의 다양한 지식을 담은 좋은 채널
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Lars Christensen는 제로에서 영웅이 될 수 있는 아주 좋은 자료입니다.
 
@@ -97,7 +170,18 @@ USSA는 목공과 3D 프린팅을 결합한 훌륭한 채널입니다.
 
 # 모두가 필요로 하는 것들
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희들, 정상에 도착했어요. 모든 이 노력들 — 이 목적을 위해서 말이죠. 물건을 만들 수 있는 것. 사용할 만한 명확한 진술이 있어요 — 무엇을 출력할 수 있을까요?
 
@@ -107,8 +191,18 @@ USSA는 목공과 3D 프린팅을 결합한 훌륭한 채널입니다.
 
 우리는 다른 기기들을 위한 예비 부품들을 출력할 수 있어요 — 바로 "기어 킹"이라고 자부할 수 있어요, 매번 누군가가 그런 예비 기어가 필요할 때마다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Extrusion_5](/assets/img/2024-07-07-Extrusion_5.png)
 
@@ -118,8 +212,18 @@ USSA는 목공과 3D 프린팅을 결합한 훌륭한 채널입니다.
 
 ## 샤시, 상자, 케이스
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모두 함께 그것을 했습니다, 주최자, 상자, 맞춤형 샤시. 당신의 3D 프린터가 땀 한 방울 흘리지 않을 것입니다.
 
@@ -129,7 +233,18 @@ USSA는 목공과 3D 프린팅을 결합한 훌륭한 채널입니다.
 
 클램프
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각도 톱
 
@@ -139,7 +254,18 @@ USSA는 목공과 3D 프린팅을 결합한 훌륭한 채널입니다.
 
 COVID-19가 우리를 강타했을 때, 병원과 응급 구조 대원들을 위해 500개 이상의 PPE 세트를 인쇄하고 기부했습니다. 이것은 견고했고, 간단했으며, 무엇보다 중요한 것은 — 놀라운 수요가 있었다는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래에는 당신의 창조활동을 영감주고 안전하게 보관할 프로젝트 목록이 있어요 ;)
 
@@ -149,7 +275,18 @@ COVID-19가 우리를 강타했을 때, 병원과 응급 구조 대원들을 위
 
 ## 기타 및 어댑터
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 많은 완전히 다른 물건들이 놀랍게도 유용할 수 있어요, 아래에 목록이 있어요! 아, 그리고 이 장면을 기억하시나요? 그들을 구원할 수 있는 거 알죠? 3D 프린터 (음, 아마도 우주용 3D 프린터 버전이요). 그래서 "어댑터, 휴..." 라고 생각할 수 있겠지만, 자원이 부족한 상황에서는 가진 것과 프린트할 수 있는 것으로 대처해야 해요!
 
@@ -159,7 +296,18 @@ COVID-19가 우리를 강타했을 때, 병원과 응급 구조 대원들을 위
 
 호스를 위한 싱크 어댑터
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 서두
 

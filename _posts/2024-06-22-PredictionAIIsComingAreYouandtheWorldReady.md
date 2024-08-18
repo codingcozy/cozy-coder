@@ -3,18 +3,13 @@ title: "예측 AI의 도래, 당신과 세계는 준비되었는가"
 description: ""
 coverImage: "/assets/img/2024-06-22-PredictionAIIsComingAreYouandtheWorldReady_0.png"
 date: 2024-06-22 20:29
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-PredictionAIIsComingAreYouandtheWorldReady_0.png
 tag: Tech
 originalTitle: "Prediction AI Is Coming. Are You (and the World) Ready?"
 link: "https://medium.com/illumination-curated/prediction-ai-is-coming-are-you-and-the-world-ready-93da983994b8"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![2024-06-22-PredictionAIIsComingAreYouandtheWorldReady](/assets/img/2024-06-22-PredictionAIIsComingAreYouandtheWorldReady_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 예측은 인간 존재의 기본이자 중추입니다. 일관된 삶이란 다가오는 것을 예상하는 것을 의미합니다. 삶의 사건들이 펼쳐지는 일련의 단계에서 다음 단계를 어림잡을 수 없다면 미래를 위한 계획을 세울 수 없습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예측은 당신의 순간적인 존재에 중요한 역할을 하기 때문에 미래를 알고 싶어하는 갈증이 있다는 것을 모르실지도 모릅니다. 어떤 사람들은 미래에 대해 다른 사람보다 더 걱정을 하는데, 그 이유는 타당하거나 단지 강박적일 수 있습니다. 그러나 미래에 대한 궁금증은 적어도 우리 모두가 가지고 있는데, 이 안에는 새로운 AI 제품에 대한 거대한 마케팅 기회가 숨어 있습니다.
 
@@ -35,7 +40,18 @@ isUpdated: true
 
 생성적 AI (GenAI)와 예측 AI (PredAI)는 서로 다른 목적을 가지고 다양한 응용 분야에서 사용되는 두 가지 구별되는 인공지능 유형입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 생성적 AI: 깊은 학습에 뿌리를 둔 GenAI는 자연어 처리(NLP)에서 뛰어난 변형 모델을 활용합니다. 이를 통해 GenAI 모델은 모든 입력 세그먼트(인터넷에서 스크래핑된 데이터 등)을 동시에 검토할 수 있습니다. 이러한 대규모 언어 모델은 출력 생성 중 관련 세그먼트를 우선적으로 분석하여 빠른 텍스트 분석을 가능케 합니다.
 
@@ -45,7 +61,18 @@ isUpdated: true
 
 PredAI는 예측 분석을 사용하여 특정 도메인(헬스케어, 시장, 스포츠 등)에서 현재 사건과 과거 데이터를 평가하여 미래 결과에 대한 교육된 추측을 제공합니다. 머신러닝은 방대한 데이터 집합에서 패턴을 구별하여 예측 분석을 보완합니다. 데이터의 관련성과 풍부성이 관심 영역 및 패턴 이력에 더할수록 그들의 예측이 더 정확해집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 예측 인공지능이 미래를 위해 개인화될 수 있을까요?
 
@@ -55,7 +82,18 @@ PredAI는 예측 분석을 사용하여 특정 도메인(헬스케어, 시장, �
 
 PredAI는 왜 예측을 위해 이렇게 많은 역사적 정보가 필요할까요? 통계적 확률론의 관점에서 볼 때, 당신은 습관의 피조물이며, 당신의 습관이 미래를 결정할 것입니다. Pred AI는 당신의 일상에 대해 알고 싶어합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 10년 전, 기술 기자이자 미래학자인 패트릭 터커가 "The Naked Future" (2014)를 썼어요. 책의 부제가 제 관심을 끌었어요: 미래를 예상하는 세계에서 어떤 일이 일어날까?
 
@@ -65,7 +103,18 @@ PredAI는 왜 예측을 위해 이렇게 많은 역사적 정보가 필요할까
 
 간단한 예를 들어볼게요. 어릴 때, 포크와 숟가락의 다른 용도에 대해 배워요. 그 결과, 당신의 뇌는 각각에 대한 모델을 개발해요. 어른이 되어서는, 생각하지 않고도 손님에게 수프를 서빙할 때 포크 대신 숟가락을 가져가는 모델을 그 모델에 올려놓을 때에 사용하게 될 거예요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인간 관계나 정부와 같은 비물리적 측면에 대한 모델도 작성합니다. 수 년간의 우정을 기반으로, 다음 만남에서 당신의 친구에 대한 예상을 나타내는 인식 규칙 집합이 되는 친구 모델을 만듭니다. 우리가 만들어낸 모델은 미래를 예측하는 데 도움이 됩니다. 포크로 수프를 호봉하는 것은 불가능하다고 예측합니다. 당신의 친구가 다음 주에 당신을 만나서 기뻐할 것이라고 예측합니다.
 
@@ -75,7 +124,18 @@ PredAI는 왜 예측을 위해 이렇게 많은 역사적 정보가 필요할까
 
 그렇다면 선택한 직업에서 어떻게 성과를 내게 될까요? 시간과 에너지적 요구가 많을 것입니다. 상사에게 24시간 7일간의 가용성을 제공할 수 있는 체질적으로 가능할까요? 이 힘든 역할에서 행복을 느낄 수 있을까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 귀하는 일상 속에서 벗어난 분야에서 미래를 예측하기 위해 뇌에 자신의 삶에 대한 더 많은 정보를 저장해야 합니다. 인간 뇌는 모든 살아있는 생물 중에서 가장 뛰어난 기능을 갖고 있지만, 까먹는 등의 한계가 있습니다. 과거에서 고등학교 육상팀에서 탈락한 이유를 너무 바빠서 개인 시간이 부족했다고 잊어버리는 등, 귀하는 개인 시간을 경쟁보다 더 중요시하는 것을 보여주는 사실이 있습니다.
 
@@ -85,7 +145,18 @@ PredAI는 왜 예측을 위해 이렇게 많은 역사적 정보가 필요할까
 
 당신에 대해 모든 정보를 알고 미래를 예측하는 누군가의 생각은 흥미롭거나 두려울 수 있지만, 걱정하지 마십시오. 이미 그런 일이 벌어지고 있습니다. 미래에 대한 귀하의 관심은 산업 리더들이 Prediction AI의 개인화된 모델을 가능한 빨리 제공할 수 있도록 동기를 부여합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 코펜하겐 인구 기반 예측 AI 모델
 
@@ -95,7 +166,18 @@ PredAI는 왜 예측을 위해 이렇게 많은 역사적 정보가 필요할까
 
 코펜하겐 팀은 새로운 논리("당신의 삶은 문장과 같다")를 사용하여 상세한 사건 시퀀스를 기반으로 인간의 삶의 진화와 예측 가능성을 조사했습니다. 이 논리는 삶을 비유적인 문장으로 사용합니다. 예를 들어, 문장에 포함된 단어가 많을수록 어떻게 끝나는지 알 수 있을 가능성이 높습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, "나는..."라고 시작하면 문장의 끝이 다양할 수 있다는 것을 시사합니다. 반면에 "나는 ... 할 것이다"라고 시작하면 가능한 후보가 좀 더 좁아집니다. 만약 어떤 엔티티가 당신의 일상을 알고 있다면(금요일이며 주말에 특정 장소를 자주 방문하는 경우), 그 엔티티는 당신의 미래를 "나는 ... Jake's Bar에 친구들을 만나러 퇴근 후에 갈 것이다"로 예측할 수 있습니다. 이런 식으로 당신의 삶은 더 많은 정보를 통해 더 예측 가능하게 됩니다.
 
@@ -105,7 +187,18 @@ PredAI는 왜 예측을 위해 이렇게 많은 역사적 정보가 필요할까
 
 이 연구가 당신에게 오싹한 느낌을 준다면? Patrick Tucker의 책 제목 "당신의 모든 움직임을 예견하는 세상에서 무슨 일이 벌어질까"를 고려해보세요. 덴마크에 거주하고 계시다면, 국립 레지스트리가 당신의 모든 움직임을 기록했을 것입니다. 윤리적 및 개인정보 보호 제약 내에서, 그 데이터셋은 코펜하겐 팀이 개인화된 인구 기반 예측 AI 모델을 생성하는 데 활용되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 이 모델의 장단점을 평가하기 전에, 우리는 먼저 그 핵심 작동 원리를 살펴보겠습니다.
 
@@ -115,7 +208,18 @@ PredAI는 왜 예측을 위해 이렇게 많은 역사적 정보가 필요할까
 
 1. 사망 예측: 생애 사건의 연속을 분석함으로써, 이 모델은 특정 시간대 내 조기 사망 가능성을 예측할 수 있습니다. 이것은 특정 사건 순서가 조기 사망 위험과 연관된 패턴을 학습함으로써 수행됩니다. 예를 들어, 여러 가지 부정적인 건강 관련 사건을 포함한 일련의 사건은 더 높은 위험을 나타낼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 성격 뉘앙스 예측: 이 모델은 인간의 삶에 대한 더 세밀한 측면, 예를 들어 성격 특성까지 예측합니다. 이는 삶의 사건 순서와 자가 보고된 성격 설문 조사 응답 사이의 연관성을 학습하여 가능해집니다. 예를 들어, 빈번한 사회적 상호작용이 외향적인 성격 특성과 연관될 수 있습니다.
 
@@ -125,7 +229,18 @@ PredAI는 왜 예측을 위해 이렇게 많은 역사적 정보가 필요할까
 
 당신이 삶에 대한 세부적인 일지를 기록하여 건강 점검이나 직장 변경부터 중요한 이정표와 금전적 결정까지 모든 중요한 사건을 기록했다고 상상해보세요. 이제 Life2Vec 앱에 가입하여 당신의 일기를 읽고 알고 있는 모든 것을 한눈에 이해하기 쉬운 스냅샷으로 요약하는 기능이 있는 상황을 상상해봅니다. 이 스냅샷은 당신 이야기의 본질을 잡아내는 특별한 코드와 같습니다. 해당 앱은 개인 요약 공간에서 당신을 위한 "벡터"를 생성합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 생활 벡이 미래에 대해 추측할 때, 예를 들어 건강이나 가질 수 있는 직업과 같은 것에 대해 본인에 대한 데이터가 이 특징 벡터(스냅샷)를 통해 분석됩니다. 당신의 나이, 자신을 얼마나 잘 돌보고 있는지, 수입 등과 같은 명백한 사항뿐만 아니라, 현재 수행하고 있는 직업의 종류와 이로 인한 미래 영향과 같은 미묘한 세부 사항들에도 주목합니다.
 
@@ -135,7 +250,18 @@ PredAI는 왜 예측을 위해 이렇게 많은 역사적 정보가 필요할까
 
 개인적인 예측뿐만 아니라, life2vec의 세 가지 예측 작업(사망률, 성격 세부 사항, 개요)은 어디에 사시는지, 교육 수준, 연령대, 정치적 소속 등과 같은 것을 기반으로 당신을 위한 미래 시나리오를 제시할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 예측 AI의 위험성
 
@@ -145,7 +271,18 @@ PredAI는 왜 예측을 위해 이렇게 많은 역사적 정보가 필요할까
 
 예측 AI의 힘에 대해 읽으면서, 당신은 아마도 여러분의 디지턜 히스토리와 관련된 위험 목록을 직접 작성할 수 있을 것입니다. 여기에 제가 작성한 목록이 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예측 모델 소유권: 북유럽 지역 국가들과 일부 국가들만이 포괄적이고 규제된 시민 등록 시스템을 갖추고 있지만, 다른 국가들은 그렇지 않습니다. 만약 인구 기반 예측 AI가 확대된다면, 당신의 인생 사건에 대한 정보를 보관할 주체가 누가 될지에 대한 의문이 제기됩니다. 억만장자가 소유한 사립 기업이 이 정보를 신뢰할만 할까요? 당신은 정부에게 이 정보를 신뢰할 수 있을까요?
 
@@ -155,7 +292,18 @@ PredAI는 왜 예측을 위해 이렇게 많은 역사적 정보가 필요할까
 
 예측 모델에 대한 과대 의존: 미래에 대한 다른 사람보다 많은 확신이 필요한 사람들이 있습니다. 불확실성으로 치닫는 사람의 욕구는 PredAI의 복잡성과 인간 건강의 다층적 한계를 고려하지 않고 결정적인 건강 결정을 위해 이러한 모델에 지나치게 의존하는 위험을 초래할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 한 번 도착하면, 예측 AI는 사라지지 않을 것입니다
 
@@ -165,7 +313,18 @@ PredAI는 왜 예측을 위해 이렇게 많은 역사적 정보가 필요할까
 
 ![이미지](/assets/img/2024-06-22-PredictionAIIsComingAreYouandtheWorldReady_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 생성적 AI는 사람이나 기계가 예측하기 힘든 속도로 확산되었습니다. GenAI는 이제 거의 모든 개인의 삶과 대부분의 산업에 보급되어 있습니다. 18개월 전에 나는 유럽 휴가를 계획하기 위해 AI 봇을 사용할 줄이야!
 
@@ -175,7 +334,18 @@ PredAI는 왜 예측을 위해 이렇게 많은 역사적 정보가 필요할까
 
 PredAI가 우리의 삶에 점차적으로 침투할 가능성이 더 높습니다. 예를 들어, 의료 계획은 의료 기록을 추적하며 필요에 따라 시스템 내 전문가들과 공유됩니다. PredAI 모델은 최근 진단의 변화 추이를 예측하는 데 도움이 될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 정확도 AI의 성장은 결국 우리가 얼마나 많은 정보를 제공하는지에 달려 있을 수 있어요. 천사인지 악마인지, 맞춤형 PredAI는 필요한 영양소를 제공받으면 성장할 거예요 - 당신의 삶의 역사.
 

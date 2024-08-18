@@ -3,16 +3,13 @@ title: "대용량 데이터셋 특성 선택을 혁신하는 강화 학습"
 description: ""
 coverImage: "/assets/img/2024-05-27-RevolutionizingLargeDatasetFeatureSelectionwithReinforcementLearning_0.png"
 date: 2024-05-27 15:05
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-RevolutionizingLargeDatasetFeatureSelectionwithReinforcementLearning_0.png
 tag: Tech
 originalTitle: "Revolutionizing Large Dataset Feature Selection with Reinforcement Learning"
 link: "https://medium.com/towards-data-science/reinforcement-learning-for-feature-selection-be1e7eeb0acc"
 isUpdated: true
 ---
-
-
-
 
 ## 아주 큰 데이터셋을 다룰 때 특성 선택에 강화 학습의 힘을 활용해 보세요
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 특성 선택은 기계 학습 모델을 구축하는 과정에서 결정적인 단계입니다. 모델에 좋은 특성을 선택하면 원하는 작업에 대한 결과를 향상시킬 수 있습니다. 실제로 특성은 노이즈를 추가하여 모델을 방해할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기능을 선택하는 것은 특히 고차원 데이터 세트를 다룰 때 더 중요합니다. 이는 모델이 더 빨리 그리고 더 잘 배울 수 있게 합니다. 그 아이디어는 최적의 기능 수와 가장 의미 있는 것들을 찾는 데 있습니다.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 이 글의 목표는 구체적이고 실제 문제를 위한 구현에 중점을 두는 것입니다. 이 문제의 이론적 측면은 예제를 통해 간단히 설명되지만 참고 자료가 끝에 제공될 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 강화 학습: 특성 선택을 위한 마르코프 의사 결정 문제
 
@@ -45,7 +64,18 @@ RL 뒤에 숨겨진 단순한 아이디어는 에이전트가 알 수 없는 환
 - 보상은 무엇인가요?
 - 어떻게 조치를 선택하나요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫째, 상태는 데이터 세트에 존재하는 기능들 중의 하위 집합에 불과합니다. 예를 들어, 데이터 세트에 세 가지 기능 (나이, 성별, 키)와 하나의 레이블이 있다면, 가능한 상태는 다음과 같습니다:
 
@@ -60,26 +90,42 @@ RL 뒤에 숨겨진 단순한 아이디어는 에이전트가 알 수 없는 환
 
 행동에 대해서는, 하위 집합으로부터 현재 상태보다 한 가지 미탐색 기능이 더 추가된 다른 하위 집합으로 이동할 수 있습니다. 기능 선택 문제에서, 한 행동은 현재 상태에서 이미 탐색되지 않은 기능을 선택하고 다음 상태에 추가하는 것입니다. 여기에 가능한 행동의 예시가 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [나이] -> [나이, 성별]
 [성별, 키] -> [나이, 성별, 키]
 
-
 이제 불가능한 행동의 예를 살펴봅시다:
-
 
 [나이] -> [나이, 성별, 키]
 [나이, 성별] -> [나이]
 [성별] -> [성별, 성별]
 
-
 우리는 상태와 행동을 정의했지만 보상은 정의하지 않았습니다. 보상은 상태의 품질을 평가하는 데 사용되는 실수입니다. 예를 들어 로봇이 미로의 출구에 도달하려고 노력하고 다음 행동으로 출구로 가기로 결정한다면, 이 행동에 대한 보상은 "좋음"이 될 것입니다. 만일 함정으로 가기로 다음 행동을 선택하면 보상은 "나쁨"이 될 것입니다. 보상은 이전 조치에 대한 정보를 제공하는 값입니다.
 
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기능 선택 문제에서 흥미로운 보상은 새로운 기능을 추가함으로써 모델에 추가되는 정확도 값일 수 있습니다. 다음은 보상이 계산되는 방법의 예시입니다:
 
@@ -93,7 +139,18 @@ RL 뒤에 숨겨진 단순한 아이디어는 에이전트가 알 수 없는 환
 
 <img src="/assets/img/2024-05-27-RevolutionizingLargeDatasetFeatureSelectionwithReinforcementLearning_1.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 그래픽에서 각 기능이 숫자에 매핑되었습니다 (예: "나이"는 1, "성별"은 2이고 "키"는 3입니다). 최적의 세트를 찾기 위해 다른 메트릭을 사용하는 것이 완전히 가능합니다. 많은 비즈니스 응용 프로그램에서 정확도보다 재현율이 더 중요하게 여겨집니다.
 
@@ -107,7 +164,18 @@ RL 뒤에 숨겨진 단순한 아이디어는 에이전트가 알 수 없는 환
 
 +2는 빈 상태와 모든 가능한 기능을 포함하는 상태를 고려했기 때문입니다. 이 문제에서는 정확도를 극대화하는 기능 세트를 얻기 위해 모든 상태에서 동일한 모델을 교육해야 할 것입니다. 강화 학습 접근 방식에서는 모든 상태를 방문할 필요가 없고 이미 방문한 상태로 이동할 때마다 모델을 교육할 필요가 없을 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문제에 대한 몇 가지 중지 조건을 결정해야 했고, 이를 나중에 자세히 설명할 것입니다. 현재 epsilon-탐욕 상태 선택이 선택되었습니다. 이것은 현재 상태에서 epsilon(0과 1 사이, 주로 0.2 정도)의 확률로 다음 동작을 무작위로 선택하고, 그렇지 않은 경우에는 함수를 최대화하는 동작을 선택하는 아이디어입니다. 특징 선택에 대한 함수는 각 특징이 모델의 정확도에 기여한 보상의 평균입니다.
 
@@ -116,11 +184,20 @@ Epsilon-탐욕 알고리즘에는 두 단계가 포함됩니다:
 - 무작위 단계: epsilon의 확률로, 현재 상태의 가능한 이웃 중에서 다음 상태를 무작위로 선택합니다 (균일하게 또는 소프트맥스 선택이라고 상상할 수 있음)
 - 탐욕 단계: 현재 상태에 추가된 기능이 모델의 정확도에 대한 최대 기여를 갖도록 다음 상태를 선택합니다. 시간 복잡성을 줄이기 위해, 각 특징에 대한 이러한 값을 포함하는 목록을 초기화했습니다. 이 목록은 특징이 선택될 때마다 업데이트됩니다. 업데이트는 다음 공식 덕분에 매우 최적화되었습니다:
 
-
 <img src="/assets/img/2024-05-27-RevolutionizingLargeDatasetFeatureSelectionwithReinforcementLearning_2.png" />
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - AORf: 기능 "f"가 가져온 보상의 평균
 - k: "f"가 선택된 횟수
@@ -133,7 +210,18 @@ Epsilon-탐욕 알고리즘에는 두 단계가 포함됩니다:
 - 알고리즘은 모든 기능을 포함하는 집합인 최종 상태에서 반드시 중지됩니다. 이 상태에 도달하는 것을 피하기 위해 모델을 학습하는 데 가장 비용이 많이든다.
 - 또한, 연속적으로 값이 감소하는 방문된 상태들의 시퀀스가 발생하면 그래프를 조회하는 것을 중지합니다. 데이터 세트의 총 기능 수의 제곱근 이후에는 계속 탐색을 중단하는 임계값이 설정되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제의 모델링이 설명되었으므로, 이제 파이썬에서의 구현에 대해 자세히 설명하겠습니다.
 
@@ -143,7 +231,18 @@ Epsilon-탐욕 알고리즘에는 두 단계가 포함됩니다:
 
 ## 1. 데이터 전처리
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 방문한 상태의 정확도를 평가해야 하기 때문에, 해당 기능 및 이 기능 선택 작업에 사용된 데이터를 모델에 제공해야 합니다. 데이터는 정규화되어야 하며 범주형 변수는 인코딩되어야 하며 가능한 적은 행을 가지고 있어야 합니다 (행이 적을수록 알고리즘은 더 빠릅니다). 또한, 기능과 일부 정수 사이의 매핑을 생성하는 것이 매우 중요합니다. 이 단계는 필수는 아니지만 매우 권장됩니다. 이 단계의 최종 결과는 예측할 수 있는 라벨과 함께 모든 기능이 포함된 DataFrame을 얻는 것입니다. 아래는 기준으로 사용된 데이터셋 예시입니다 (UCI Irvine Machine Learning Repository에서 확인할 수 있습니다).
 
@@ -155,7 +254,18 @@ Epsilon-탐욕 알고리즘에는 두 단계가 포함됩니다:
 pip install FSRLearning
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 라이브러리를 가져오려면 아래 코드를 사용합니다:
 
@@ -171,7 +281,18 @@ pip install FSRLearning
 
 모든 매개변수가 튜닝될 수 있지만 대부분의 문제에 대해 일부 이터레이션만으로 충분합니다 (대략 100회) 그리고 epsilon 값이 0.2 정도면 충분합니다. 시작 상태는 그래프를 효율적으로 더 탐색하는 데 유용하지만 데이터셋에 매우 의존적일 수 있고 두 값 모두 테스트할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마침내 다음 코드로 선택기를 매우 간단하게 초기화할 수 있습니다.
 
@@ -179,11 +300,20 @@ pip install FSRLearning
 
 다음은 출력 예시입니다:
 
-
 ![Output Example](/assets/img/2024-05-27-RevolutionizingLargeDatasetFeatureSelectionwithReinforcementLearning_3.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 5-튜플 출력입니다:
 
@@ -197,7 +327,18 @@ pip install FSRLearning
 
 선택 과정마다 RFE와 FSRLearning의 전역 측정 지표를 출력합니다. 또한 모델의 정확도에 대한 시각적 비교를 출력합니다. x축에는 선택된 특성 수가 있고 y축에는 정확도가 있습니다. 두 개의 수평 선은 각 방법의 정확도 중앙값입니다. 다음은 예시입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 평균 기준 정확도: 0.854251012145749, 강화학습 정확도: 0.8674089068825909
@@ -210,11 +351,18 @@ RFE보다 더 좋은 메트릭을 가진 변수 세트를 얻을 확률: 1.0
 
 또 다른 흥미로운 방법은 get_plot_ratio_exploration입니다. 이는 지정된 이터레이션에 대해 이미 방문한 노드 수와 순서대로 방문한 노드 수를 비교하는 그래프를 그립니다.
 
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
-
-
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![그림1](/assets/img/2024-05-27-RevolutionizingLargeDatasetFeatureSelectionwithReinforcementLearning_5.png)
 
@@ -224,9 +372,18 @@ RFE보다 더 좋은 메트릭을 가진 변수 세트를 얻을 확률: 1.0
 
 모든 반복에서 알고리즘이 6개 이하의 변수를 포함하는 상태를 방문했습니다. 6개 이상의 변수를 넘어가면 도달한 상태의 수가 줄어드는 것을 볼 수 있습니다. 이는 작은 기능 집합으로 모델을 훈련하는 것이 큰 기능 집합보다 빠르기 때문에 좋은 동작입니다.
 
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론 및 참고 자료
 
@@ -236,10 +393,20 @@ RFE보다 더 좋은 메트릭을 가진 변수 세트를 얻을 확률: 1.0
 
 문의 사항이 있으시면 직접 링크드인에서 연락하실 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 라이브러리는 다음 두 논문을 참고하여 구현되었습니다:
 
 - Sali Rasoul, Sodiq Adewole, 및 Alphonse Akakpo, FEATURE SELECTION USING REINFORCEMENT LEARNING (2021), ArXiv
-- Seyed Mehdin Hazrati Fard, Ali Hamzeh, 및 Sattar Hashemi, Using reinforcement  learning to find an optimal set of features (2013), ScienceDirect
-
+- Seyed Mehdin Hazrati Fard, Ali Hamzeh, 및 Sattar Hashemi, Using reinforcement learning to find an optimal set of features (2013), ScienceDirect

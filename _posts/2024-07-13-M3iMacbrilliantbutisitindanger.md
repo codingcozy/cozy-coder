@@ -3,17 +3,13 @@ title: "M3 iMac의 강점과 위험 요소 분석"
 description: ""
 coverImage: "/assets/img/2024-07-13-M3iMacbrilliantbutisitindanger_0.png"
 date: 2024-07-13 01:13
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-M3iMacbrilliantbutisitindanger_0.png
 tag: Tech
 originalTitle: "M3 iMac — brilliant but is it in danger?"
 link: "https://medium.com/macoclock/m3-imac-brilliant-but-is-it-in-danger-fa9d50df8498"
 isUpdated: true
 ---
-
-
-
-
 
 ![2024-07-13-M3iMacbrilliantbutisitindanger_0.png](/assets/img/2024-07-13-M3iMacbrilliantbutisitindanger_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 아니, 훨씬 더 흥미로운 것은 iMac 시리즈로 올 M3 칩이어서였어요. 2021년 봄에 애플 실리콘 아이맥이 처음 출시되었을 때, 나는 아직 맥과 기술 기어에 대한 콘텐츠를 만들거나 쓰지 않았기 때문에, 내가 한결같이 잘 사용 중이던 27인치 아이맥을 사는 것은 별로 의미가 없었습니다. 그때는 비디오 편집을 하지 않았기 때문에, 인텔 머신이 가끔씩 뒤처지는 걸 알아차린 적이 있지만, 대체로는 여전히 잘 해내고 있었어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 지금은 다른 레벨로 넘어섰어요. M1 MacBook은 제게 애플 실리콘의 맛을 가르쳐 주었고, M2 MacBook Air를 구입하며 또 한 입 베어보았어요. 아이맥을 사랑하고 친근하게 여기기 때문에 항상 M 시리즈 모델을 원했는데요 — 그리고 어제 그 꿈이 이루어졌어요.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ![2024-07-13-M3iMacbrilliantbutisitindanger_1.png](/assets/img/2024-07-13-M3iMacbrilliantbutisitindanger_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어제는 비디오를 만들 예정이라 시간을 보내어 이번 주 후반에 비디오에서 사용할 충분한 B 롤이 있는지 확인했습니다. 그러나 촬영을 위해 Mac을 꺼내고 설정을 시작해야 했습니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 스토리를 쓰는 중이기 때문에 여기에 무엇을 넣을지에 대해 매우 신중하게 고려했습니다. 내가 이야기를 쓰고 있는데, 새로운 iMac에서 Ulysses에서 이야기를 쓰고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금까지 100 GB만 사용했고 CleanMyMac, Creative Cloud, Ulysses, Grammarly, 그리고 Chrome 같은 필수 앱들을 여기에 넣었어요. 사파리 사용자인 저지만, 몇 가지 확장 프로그램을 사용해야 하기 때문에 Chrome도 필요해요. Dropbox를 설치할지 말지 고민 중이에요. 일단 필요하다면 웹 버전을 의지하기로 했어요.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 # 속도
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어제 모든 것을 설치한 후, 어젯밤 늦게서야 마침내 이 iMac 내부의 M3이 어떤지 느끼기 시작할 수 있었어요. 제긴 이게 빠르다니까요 - 정말 빠릅니다!
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 일단 앱들이 내 M1 Max 머신보다 더 빨리 열리는 것 같은데, 작업을 처리하는 속도와 쉬움은 숨막힐 정도예요. 기억하세요, 이것은 돈이 제일 싼 iMac이에요. 이 정도면, 증강 M3 Max 머신이 얼마나 대단한지 상상이 가네요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 Lightroom에 약 20개의 이미지를 로드하고 기본 프리셋을 적용했는데, 작업이 원활하게 처리되었어요. 팬이 하루 중 한번은 잠깐 살짝 돌았던 걸로 기억돼요. 제가 Premiere에서 작업하면서 동시에 다른 Adobe 앱들을 업데이트하고 다운로드할 때 일어났던 것 같아요. 그 이후로는 하루 종일 조용했지요.
 
@@ -73,7 +124,18 @@ isUpdated: true
 
 하지만 어젠 스튜디오를 나갈 때, 내 직감은 이 M3 iMac이 MacBook Pro를 점점 더 집에 두게 만들 거라는 거였어요. iMac에서 프리미어 프로젝트를 시작하고, 나중에 MacBook/스튜디오 디스플레이 조합으로 마무리 지으란 것을 꽤 확신하고 있어요. 스튜디오 구석에 예쁜 얼굴로 앉아있는 게 아니라 일하도록 세팅될 거라 생각해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 완벽한 라인업
 
@@ -83,12 +145,34 @@ isUpdated: true
 
 최근 애플 이벤트에서 13인치 맥북 프로가 종료되었는데, 이제 이유없이 존재했던 맥 제품은 이제 사라졌습니다. 입문용 맥 제품은 이제 M2 맥 미니와 최고의 맥북 에어입니다. 여전히 강력한 M1 머신이 있고, 이제 13인치와 15인치의 M2 모델도 출시되었습니다. 이는 맥 제품에 비교적 저렴한 가격으로 진입할 수 있는 엄청난 출발점이 되는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 M3 MacBook Pro Mac이 나왔습니다. 사용량이 많은 작업을 하는 분들을 위해 Mac Studio와 Mac Pro도 있습니다. 그 결과, 가장 저렴한 Mac은 이제 £649이고 가장 고성능인 Mac Pro는 £12,548에 판매되고 있습니다. 이제는 모든 사람을 위한 Mac이 있습니다. 또한, Apple은 두 개의 디스플레이도 제공하고 있어서 레티나 디스플레이에서 작업하는 즐거움을 잃을 필요가 없습니다.
-더 큰 iMac이나 iMac Pro에 대한 이야기는 현재 그다지 중요하지 않습니다. 암울하게도, 이제는 iMac에 대한 필요성이 거의 없습니다.  올해 iMac은 25주년을 맞이했는데, 출시 당시 데스크톱 컴퓨팅을 혁신적으로 변화시켰습니다. 어떤 컴퓨터 전문가가 아니어도 누구나 Mac에서 작업할 수 있는 간단한 솔루션이었습니다. 예쁘고 사용하기 쉬우며 가격도 적당했던 iMac은 오늘날에도 여전히 유효합니다만, Apple 실리콘은 모든 것을 바꿔놓았습니다.
+더 큰 iMac이나 iMac Pro에 대한 이야기는 현재 그다지 중요하지 않습니다. 암울하게도, 이제는 iMac에 대한 필요성이 거의 없습니다. 올해 iMac은 25주년을 맞이했는데, 출시 당시 데스크톱 컴퓨팅을 혁신적으로 변화시켰습니다. 어떤 컴퓨터 전문가가 아니어도 누구나 Mac에서 작업할 수 있는 간단한 솔루션이었습니다. 예쁘고 사용하기 쉬우며 가격도 적당했던 iMac은 오늘날에도 여전히 유효합니다만, Apple 실리콘은 모든 것을 바꿔놓았습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이렇게 간단한 해결책으로는 Mac mini와 Studio Display를 선택하는 것도 좋은 방법입니다. 모두 하나로 통합된 컴퓨터는 아니지만, 그렇게 멀지도 않아요. 지속 가능성 시대에는 하나로 통합된 제품들이 그다지 합리적이지 않습니다. 내 27인치 iMac을 보면 내부 구성과 컴퓨터 부분이 패널보다 훨씬 더 빨리 손상될 것 같아요. 오래된 인텔 iMac은 요즘은 거북이처럼 느리지만 5K Reina 패널은 여전히 멋있죠.
 
@@ -98,7 +182,18 @@ isUpdated: true
 
 # 최종 의견
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서, 최신 M1 iMac에 대한 내 첫 인상은 긍정적이며 의심했던 대로, 가격 대비 훌륭한 성능을 발휘할 것으로 생각됩니다. 2023 Mac의 이 완벽한 클래스에서 위치한 M3 iMac에 대해 이야기하고 싶었습니다.
 
@@ -108,6 +203,17 @@ isUpdated: true
 
 그리고 항상 매주 일요일에 무료 비디오 뉴스레터를 보내 드리고 있습니다. 이곳에서 뒷 이야기가 무엇인지 알고 싶으시다면, 제게 여기서 세부 정보를 남겨주시면 메일링 리스트에 등록해 드리겠습니다. 👊🏻
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2023년 11월 8일에 https://talkingtechandaudio.com에서 최초 게시되었습니다.

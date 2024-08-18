@@ -3,17 +3,13 @@ title: "컨볼루션 신경망 이전의 기술은 무엇이었을까  1부"
 description: ""
 coverImage: "/assets/img/2024-07-12-ButwhatwasbeforeConvolutionalNeuralNetworksPart1_0.png"
 date: 2024-07-12 23:42
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-ButwhatwasbeforeConvolutionalNeuralNetworksPart1_0.png
 tag: Tech
 originalTitle: "But what was before Convolutional Neural Networks? | Part 1"
 link: "https://medium.com/thedeephub/but-what-was-before-convolutional-neural-networks-part-1-d654737b026a"
 isUpdated: true
 ---
-
-
-
-
 
 ## Histograms of Oriented Gradients에 대한 간단한 소개
 
@@ -25,7 +21,18 @@ HOG는 Navneet Dalal과 Bill Triggs에 의해 2005년에 소개되었어요. 이
 
 그럼 이제 Histograms of Oriented Gradients에 대해 기본적인 개념을 알아볼까요? 함께 공부해요! 🌟
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반적으로 HOG(Histogram of Oriented Gradients)는 컴퓨터 비전과 이미지 처리에서 사용되는 피처 설명자로, 객체 감지를 목적으로 사용됩니다.
 
@@ -35,7 +42,18 @@ HOG는 Navneet Dalal과 Bill Triggs에 의해 2005년에 소개되었어요. 이
 
 HOG는 사진의 다른 부분에서 밝기나 색상이 어떻게 변하는지에 초점을 맞춤으로써 컴퓨터가 이러한 모양을 인식할 수 있도록 도와줍니다. 이미지의 작은 블록이나 패치를 살펴보고, 그림자나 빛의 강한 변화가 일어나는 곳을 주목하며 이러한 패턴을 추적합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-12-ButwhatwasbeforeConvolutionalNeuralNetworksPart1_0.png)
 
@@ -45,7 +63,18 @@ HOG는 사진의 다른 부분에서 밝기나 색상이 어떻게 변하는지�
 
 일반적으로 이미지나 이미지 일부의 특성을 설명하는 벡터(또는 경우에 따라 벡터 세트)로 캡슐화됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 벡터의 각 요소는 이미지에서 추출된 특징을 나타냅니다. 이러한 속성은 가장자리, 모서리, 질감, 색상, 모양 등이 될 수 있어요...
 
@@ -55,7 +84,18 @@ HOG는 사진의 다른 부분에서 밝기나 색상이 어떻게 변하는지�
 
 이미지에서의 그라디언트는 한 지점에서 다른 지점까지 색상이나 밝기가 얼마나 변하는지를 측정합니다. 이러한 변화는 일반적으로 물체의 가장자리에 발생합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 언덕의 경사로를 상상해보세요. 언덕이 가파를수록(또는 밝기의 변화가 급격할수록) 그래디언트는 더 강해집니다.
 
@@ -67,7 +107,18 @@ HOG는 사진의 다른 부분에서 밝기나 색상이 어떻게 변하는지�
 - 두 번째 그림에서는 색깔이 달라지면서 사각형의 한 모서리에서 그래디언트가 변화한다는 것을 나타냅니다.
 - 세 번째 그림에서는 그래디언트의 급격한 변화가 두부와 귀를 구분짓는 것을 볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # HOG(호그) 계산 단계
 
@@ -77,7 +128,18 @@ HOG는 사진의 다른 부분에서 밝기나 색상이 어떻게 변하는지�
 
 그것들은 그림을 이루는 작은 타일들 같아요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시로, 이러한 셀들은 일반적으로 8x8 또는 16x16 픽셀과 같은 고정된 크기의 정사각형입니다.
 
@@ -86,20 +148,44 @@ HOG는 사진의 다른 부분에서 밝기나 색상이 어떻게 변하는지�
 각 셀마다, 그레디언트의 방향과 세기를 계산하여 경사가 어느 방향으로 되어있고 얼마나 가파른지 알아냅니다.
 
 ## 그레디언트 방향
+
 이것은 x (수평) 및 y (수직) 방향에서 강도 또는 색상의 변화를 찾아내어 계산됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그라디언트 방향은 다음과 같이 주어집니다:
 
 θ = arctan(Δy / Δx)
 
 ## 그라디언트 크기
+
 크기 (에지가 강한지 약한지)는 각 셀마다 계산됩니다. 일반적으로 x와 y의 변화 제곱의 합의 제곱근을 취함으로써 계산됩니다.
 
 |G| = √(Δx² + Δy²)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 3.- 히스토그램 만들기
 
@@ -109,7 +195,18 @@ HOG는 사진의 다른 부분에서 밝기나 색상이 어떻게 변하는지�
 
 ![image](https://miro.medium.com/v2/resize:fit:1194/0*Zs8z_vp_1fhWBEsQ.gif)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 4.- 정확도 향상을 위한 정규화
 
@@ -119,7 +216,18 @@ HOG는 사진의 다른 부분에서 밝기나 색상이 어떻게 변하는지�
 
 일반적인 정규화 방법에는 다음과 같은 것들이 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - L2-노름
 - L1-노름
@@ -132,7 +240,18 @@ HOG는 사진의 다른 부분에서 밝기나 색상이 어떻게 변하는지�
 
 ## 6.- 탐지를 위한 HOG 사용하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오늘은 합친 히스토그램을 '지문'으로 사용해 물체를 식별하는 방법에 대해 이야기해 보려고 해요.
 
@@ -142,7 +261,18 @@ HOG는 사진의 다른 부분에서 밝기나 색상이 어떻게 변하는지�
 
 ![이미지](/assets/img/2024-07-12-ButwhatwasbeforeConvolutionalNeuralNetworksPart1_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1.- 그레이스케일로 변환하고 이미지를 분할합니다.
 
@@ -152,8 +282,18 @@ HOG는 사진의 다른 부분에서 밝기나 색상이 어떻게 변하는지�
 
 ## 1.1.- 파이썬 코드
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2. 그라디언트 계산
 
@@ -161,20 +301,43 @@ HOG는 사진의 다른 부분에서 밝기나 색상이 어떻게 변하는지�
 
 그라디언트는 각 픽셀마다가 아닌 각 셀마다 계산된다는 점을 기억해주세요.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 그림에서 사각형을 픽셀과 혼동하지 마세요, 이는 셀 영역입니다!
 
 ## 셀 그라디언트 크기
+
 밝은 영역은 더 강한 그라디언트를 나타내며, 이는 인텐시티의 변화가 더 큼을 의미합니다.
 
 그라디언트 크기를 통해 우리는 강아지의 형상을 명확히 볼 수 있습니다.
 
 ## 셀 그라디언트 방향
+
 이미지 전체에서 색상의 변화는 원본 이미지의 가장자리와 질감이 향하는 다양한 방향을 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 개의 윤곽은 파란 영역으로 표현되는 것으로 보입니다. 이는 해당 영역의 그라디언트 방향이 유사하다는 것을 나타내며, 일반적으로 연속적인 가장자리나 경계를 따라 발생합니다.
 
@@ -238,7 +401,18 @@ plt.tight_layout()
 plt.show()
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3.- 히스토그램 작성하기
 
@@ -248,7 +422,18 @@ plt.show()
 
 더 균일한 회색 히스토그램에 두드러지는 파란색 정사각형은 가장자리가 집중되어 있는 영역이나 특정 기능 방향을 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 개의 특징이 가장 두드러지게 나타나는 곳을 나타냅니다.
 
@@ -306,7 +491,18 @@ plt.show()
 
 ### 4.- 히스토그램 정규화 및 결과 표시
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막 단계는 히스토그램을 정규화하여 디스크립터가 빛과 그림자 변화에 민감하지 않도록 하는 것입니다.
 
@@ -344,7 +540,18 @@ ax2.set_title('HOG 이미지')
 plt.show()
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 참고 자료
 

@@ -3,17 +3,13 @@ title: "모바일 로봇 설계 방법 2024년 최신 기술과 트렌드 총정
 description: ""
 coverImage: "/assets/img/2024-06-22-DesigningaMobileRobot_0.png"
 date: 2024-06-22 18:28
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-DesigningaMobileRobot_0.png
 tag: Tech
 originalTitle: "Designing a Mobile Robot"
 link: "https://medium.com/@johanschwind/designing-a-mobile-robot-f83665138248"
 isUpdated: true
 ---
-
-
-
-
 
 제 세 부작으로 시작되는 이 모바일 로봇에 관한 첫 번째 기사에서는 Cerus의 하드웨어 디자인을 살펴보고 실용적인 접근 방법과 유용한 자원을 공유할 것입니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Cerus의 경우, 문제 명세는 매우 간단했습니다 - 아파트 안에서 자율 주행해야 했습니다. 저희 집에는 계단이 없고 대부분 하드우드 바닥이기 때문에 모바일 로봇에게 적합한 환경이었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 바퀴 선택하기
 
@@ -33,7 +40,18 @@ Cerus의 경우, 문제 명세는 매우 간단했습니다 - 아파트 안에�
 
 # 모터 구체화하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여행을 결정했다면, 다음 단계는 모터입니다. 다양한 방법이 있지만, 기어드 DC 모터가 거의 항상 좋은 선택입니다. 저렴하고 가벼우며 쉽게 제어할 수 있으며, 모바일 로봇에 필수적인 저속 토크를 제공합니다. 나는 인코더가 장착된 Pololu 100 RPM 12V 모터 4개를 선택했어요.
 
@@ -43,29 +61,62 @@ DC 모터에 제공하는 유일한 명시된 입력은 전압입니다. 중소�
 
 기어드 DC 모터는 모터와 일치하는 (축소) 기어박스와 쌍을 이루는 모터입니다. 이 기어박스는 모터 샤프트의 고속을 낮춰 로봇의 바퀴를 구동할 수 있는 더 낮고 적합한 속도로 변환합니다. 일반적으로 모터 제조업체는 기어박스 출력 속도를 RPM(분당 회전수)로 제공하는데, 이것이 우리가 관심을 갖는 중요한 지표입니다. RPM과 바퀴의 크기를 이용하여 로봇의 최대 속도를 미터/초로 계산할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최대 속도 Vmax: m/s  
 분당 회전수 rpm: 130/s  
-바퀴 반지름 r: 0.03 미터  
+바퀴 반지름 r: 0.03 미터
 
-Vmax = rpm * 𝜋 * 2r / 60
+Vmax = rpm _ 𝜋 _ 2r / 60
 
 Cerus의 130 RPM Pololu 모터와 우리의 60mm 바퀴에 대해 계산하면 약 0.4 미터/초가 됩니다. 번개 같은 속도는 아니지만 아파트 주변을 돌아다니기에 충분히 빠릅니다.
 
 ## 모터 토크
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-속도 이외에도, 모터의 토크는 바퀴와 일반적인 요구사항과 일치해야 합니다. 토크는 뉴턴 미터(Nm)로 측정되며, 모터가 바퀴를 통해 지면에 가하게 되는 회전력을 설명합니다. Nm은 곱셈 연산입니다(뉴턴 * 미터), 더 큰 바퀴를 사용할수록 로봇을 움직이기 위해 지면에 동일한 힘을 가하려면 모터가 더 높은 토크를 발휘해야 합니다. 간단히 말해서, 더 큰 바퀴는 더 큰 모터를 필요로 합니다. 낮은 토크는 나쁜 가속력을 유발하고 로봇에 부하가 걸리거나 장애물을 넘어갈 때 로봇이 멈추게 할 수 있습니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+속도 이외에도, 모터의 토크는 바퀴와 일반적인 요구사항과 일치해야 합니다. 토크는 뉴턴 미터(Nm)로 측정되며, 모터가 바퀴를 통해 지면에 가하게 되는 회전력을 설명합니다. Nm은 곱셈 연산입니다(뉴턴 \* 미터), 더 큰 바퀴를 사용할수록 로봇을 움직이기 위해 지면에 동일한 힘을 가하려면 모터가 더 높은 토크를 발휘해야 합니다. 간단히 말해서, 더 큰 바퀴는 더 큰 모터를 필요로 합니다. 낮은 토크는 나쁜 가속력을 유발하고 로봇에 부하가 걸리거나 장애물을 넘어갈 때 로봇이 멈추게 할 수 있습니다.
 
 모터에 필요한 토크를 결정하기 위해 다음 공식을 사용할 수 있습니다(AJ Neil at Servomagazine의 공식을 감사히 받습니다):
 
-T = M(a + g * sinθ)r
+T = M(a + g \* sinθ)r
 
 여기서 T는 필요한 토크, M은 로봇의 질량, a는 원하는 가속도, g는 중력 상수, θ는 경사각 (각도)이며, r은 로봇 바퀴의 반지름입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 세루스를 위한 다음과 같은 가정을 채울 수 있습니다:
 
@@ -77,9 +128,20 @@ T = M(a + g * sinθ)r
 
 그리고 아래의 방정식을 풀어보세요:
 
-T = 5 kg * (0.4 m/s² + 9.81 m/s² * sin(10)) * 0.03 m = 0.32 Nm
+T = 5 kg _ (0.4 m/s² + 9.81 m/s² _ sin(10)) \* 0.03 m = 0.32 Nm
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로봇이 구동되는 바퀴가 네 개이므로 4로 나눌 수 있습니다:
 
@@ -89,7 +151,18 @@ T = 5 kg * (0.4 m/s² + 9.81 m/s² * sin(10)) * 0.03 m = 0.32 Nm
 
 위의 식은 바퀴 저항, 기어 박스 손실 등의 비효율성을 고려하지 않습니다. 로봇을 만들 때 지루한 경우보다 모터를 지나치게 명시하는 것이 더 좋습니다. 이 계산이 제안하는 것보다 훨씬 강력한 모터를 선택하는 편입니다. 전력 소비가 중요하지 않은 소규모 프로젝트에서 이 방법이 괜찮지만, 대형 로봇이나 소형 및 효율적인 로봇의 경우에는 까다롭습니다. 이런 계산이 중요한 곳입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리의 4개의 Pololu 모터는 총 1.75 Nm의 토크를 제공하여, 평평한 바닥을 따라 이동하는 데 충분합니다.
 
@@ -99,9 +172,21 @@ T = 5 kg * (0.4 m/s² + 9.81 m/s² * sin(10)) * 0.03 m = 0.32 Nm
 
 배터리 선택에는 전압(V), 피크 방전 전류(A) 및 용량(Ah) 세 가지 요소가 중요합니다. 배터리의 전압은 시스템 전압을 결정하는 데 있어 이상적이며, 모터의 전압과 일치시켜 불필요한 전원 변환을 피하는 것이 합리적입니다. 피크 방전 전류는 배터리로부터 한 번에 얼마나 많은 전류를 뽑아낼 수 있는지를 설명하며, 배터리를 손상시키거나 내부 퓨즈를 차단하게 만들지 않고 얼마나 많은 전류를 뽑아낼 수 있는지를 나타냅니다. 이는 다수의 모터, 컨트롤러 및 로봇에 있는 컴퓨터가 최대 부하에서 상당한 전류를 소비할 수 있기 때문에 중요합니다. 저는 로봇의 멈춤 모터가 전류 부족으로 인해 본 컴퓨터가 종종 꺼지는 상황을 겪었습니다. 전화 충전에 사용되는 배터리 은행들은 편리하게 USB 커넥터가 함께 제공되기 때문에 작은 로봇을 제작할 때 편리하지만 전류 출력이 제한적이기로 악명높습니다. Cerus의 전류 요구 사항을 어떻게 추정했는지 확인해보겠습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-## 모터: 5.6 A * 4
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+## 모터: 5.6 A \* 4
+
 주 컴퓨터 (Jetson Nano): 0.83 A
 센서 어레이 (Intel Realsense): 0.3 A
 마이크로컨트롤러 (Arduino Mega): 0.2 A
@@ -113,9 +198,20 @@ T = 5 kg * (0.4 m/s² + 9.81 m/s² * sin(10)) * 0.03 m = 0.32 Nm
 
 ⚠️ 12V에서도 배터리 충격은 해로울 수 있습니다. 로봇을 배선하는 과정에서 주의해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-*전류가 최대일 때는 토크가 최대일 때입니다 — 즉 모터가 그릴 수 있는 최대 전류량을 알 수 있는 스톨 전류를 사용할 수 있어요.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+\*전류가 최대일 때는 토크가 최대일 때입니다 — 즉 모터가 그릴 수 있는 최대 전류량을 알 수 있는 스톨 전류를 사용할 수 있어요.
 
 # 샤시 설계
 
@@ -123,7 +219,18 @@ T = 5 kg * (0.4 m/s² + 9.81 m/s² * sin(10)) * 0.03 m = 0.32 Nm
 
 저희 디자인의 하단 부분에는 모터 마운트가 볼트로 함께 조립되는 베이스 플레이트가 있습니다. 이런 식으로 엔코더 모터를 장착할 때는 엔코더 간섭을 피할 수 있도록 충분한 공기 간격이 있는지 확인하세요! 상판과 함께, 이 네 부품의 조립은 배터리 주변에 꽉 붙어있어서 배터리를 제자리에 고정시킵니다. 배터리를 중심에 유지하고 가능한 한 낮게 유지하는 것은 로봇의 주행 역학에 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위쪽 판과 뚜껑은 모터 컨트롤러와 전원 변환기를 위한 컨테이너를 형성합니다. Cerus를 조립한 후에는 이러한 구성 요소에 손을 대지 않을 것이 확실했기 때문에 안전하게 보관하고자 했습니다.
 
@@ -133,7 +240,18 @@ Cerus의 맨 꼭대기는 Arduino 마이크로컨트롤러와 Jetson Nano와 같
 
 3D 프린터에 액세스할 수 없는 경우, 레이저로 컷팅된 평평한 재료를 사용하여 샤시를 디자인해보세요. 저는 모터 구성의 첫 번째 테스트를 위해 이 방법을 사용했는데, 이것은 매우 빠르고 저렴한 방법으로 로봇을 조립하는 데 좋습니다. 부품은 Sculpteo에서 주문했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 배선 유지하기
 
@@ -143,7 +261,18 @@ CAD로 설계할 때 전선과 케이블의 존재를 간과하거나 최소화�
 
 본 문서에서는 우리의 이동 로봇을 위한 기계적 설계를 살펴보았습니다. 합리적인 모터와 바퀴 조합 선택, 적절한 전원 공급원을 찾는 방법, CAD에서 샤시를 디자인하는 다양한 측면을 살펴보았습니다. 견고한 기계 플랫폼이 마련되어 있으므로, 이제 이 시리즈의 다음 글을 살펴볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Cerus를 직접 만들고 싶다면, GitHub에서 부품 목록을 여기에서 찾을 수 있고, 3D 프린트 파일은 여기에서 찾을 수 있어요.
 

@@ -3,17 +3,13 @@ title: "Windows에서 Ollama 실행하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-03-HowtorunOllamaonWindows_0.png"
 date: 2024-08-03 20:22
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-03-HowtorunOllamaonWindows_0.png
 tag: Tech
 originalTitle: "How to run Ollama on Windows"
 link: "https://medium.com/@researchgraph/how-to-run-ollama-on-windows-8a1622525ada"
 isUpdated: true
 ---
-
-
-
-
 
 ## Ollama 사용 시작하기: 단계별 안내
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 - Zijian Yang (ORCID: 0009–0006–8301–7634)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 소개
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 Ollama는 대규모 언어 모델의 로컬 배포와 운영을 간소화하기 위해 설계된 오픈 소스 도구입니다. 적극적으로 유지보수되며 정기적으로 업데이트되며, 가볍고 쉽게 확장 가능한 프레임워크를 제공하여 개발자들이 손쉽게 로컬 머신에서 LLMs를 구축하고 관리할 수 있도록 합니다. 이는 복잡한 구성이나 외부 서버에 의존하지 않아도 되므로 다양한 애플리케이션에 이상적인 선택지가 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Ollama의 주요 기능
 
@@ -43,7 +61,18 @@ Ollama를 사용하면 Llama 3, Gemma 및 Mistral과 같은 다양한 미리 구
 
 Ollama를 사용하면 로컬 사용을 위해 오픈 소스 모델을 얻을 수 있습니다. 최고의 리포지토리에서 모델을 자동으로 가져와 컴퓨터에 전용 GPU가 있을 경우 GPU 가속을 원활하게 사용할 수 있습니다. 수동 구성이 필요하지 않습니다. 여러 대의 GPU를 사용하여 추론 속도를 가속화하고 리소스 집약적인 작업에 대한 성능을 향상시킬 수 있습니다. 또한 Ollama를 사용하여 로컬에서 LLMs를 실행하면 데이터가 컴퓨터를 벗어나지 않기 때문에 민감한 정보에 중요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 기대할 수 있는 것들
 
@@ -53,7 +82,18 @@ Ollama를 사용하면 로컬 사용을 위해 오픈 소스 모델을 얻을 �
 
 Ollama의 설치 프로세스는 간단하며 macOS, Windows, Linux 및 Docker 환경을 포함한 다양한 운영 체제를 지원하여 넓은 사용성과 유연성을 보장합니다. 아래는 Windows 및 macOS 플랫폼용 설치 가이드입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 공식 웹사이트나 GitHub에서 설치 파일을 다운로드할 수 있습니다:
 
@@ -63,7 +103,18 @@ Ollama의 설치 프로세스는 간단하며 macOS, Windows, Linux 및 Docker �
 
 - Ollama GitHub 릴리스에서 다운로드
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-08-03-HowtorunOllamaonWindows_2.png" />
 
@@ -73,8 +124,18 @@ Ollama의 설치 프로세스는 간단하며 macOS, Windows, Linux 및 Docker �
 
 설치 프로그램을 실행하고 설치를 클릭하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-08-03-HowtorunOllamaonWindows_3.png" />
 
@@ -84,8 +145,18 @@ Ollama의 설치 프로세스는 간단하며 macOS, Windows, Linux 및 Docker �
 
 # macOS에서 Ollama 설치
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Ollama의 macOS 설치 프로그램을 Ollama 공식 웹사이트에서 다운로드할 수 있어요. 이와 다른 플랫폼에 대한 상세한 설치 지침은 여기에 다루지 않을 거예요.
 
@@ -97,7 +168,18 @@ Ollama의 macOS 설치 프로그램을 Ollama 공식 웹사이트에서 다운�
 curl -fsSL https://ollama.com/install.sh | sh
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 자세한 내용은 공식 매뉴얼을 참조하시면 됩니다: 수동 설치 지침
 
@@ -109,7 +191,18 @@ curl -fsSL https://ollama.com/install.sh | sh
 docker pull ollama/ollama
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Ollama 사용 방법
 
@@ -119,7 +212,18 @@ docker pull ollama/ollama
 
 이 섹션은 필수가 아닙니다. 이 부분을 건너 뛰어도 Ollama를 사용하는 데 영향을 미치지 않습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Ollama를 사용하기 전에 시스템 드라이브 또는 파티션(C:)에 여유 공간이 제한적이거나 파일을 다른 드라이브나 파티션에 저장하는 것을 선호하는 경우, Ollama 모델의 기본 저장 위치를 변경해야 합니다. 기본적으로 Ollama는 다운로드된 모델을 C:\Users\%username%\.ollama\models에 저장하며, 모델은 몇 기가바이트에 달할 수 있으므로 이는 시스템 드라이브의 여유 공간을 빠르게 감소시키며 시스템 성능에 영향을 줄 수 있습니다.
 
@@ -129,7 +233,18 @@ Ollama를 사용하기 전에 시스템 드라이브 또는 파티션(C:)에 여
 
 Windows의 경우 Ollama는 사용자 및 시스템 환경 변수를 상속합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 처음으로 작업 표시줄에서 클릭하여 Ollama를 종료하세요.
 - 설정(Windows 11) 또는 제어판(Windows 10) 애플리케이션을 시작하고 환경 변수를 검색하세요.
@@ -144,7 +259,18 @@ Windows의 경우 Ollama는 사용자 및 시스템 환경 변수를 상속합�
 
 ![이미지](/assets/img/2024-08-03-HowtorunOllamaonWindows_7.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 Ollama를 macOS 애플리케이션으로 실행한다면, 환경 변수를 설정할 때 launchctl을 사용해야 합니다:
 
@@ -156,7 +282,18 @@ Windows의 경우 Ollama는 사용자 및 시스템 환경 변수를 상속합�
 
 2. Ollama 애플리케이션을 다시 시작하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 설정을 적용한 후 Ollama를 사용하여 모델을 끌어오면 사용자 정의 위치에 저장됩니다.
 
@@ -164,7 +301,7 @@ Windows의 경우 Ollama는 사용자 및 시스템 환경 변수를 상속합�
 
 - OLLAMA_HOST: Ollama 서비스가 수신 대기하는 네트워크 주소입니다. 기본값은 127.0.0.1입니다. 다른 컴퓨터(예: 로컬 네트워크의 컴퓨터)에서 Ollama에 액세스하려면 0.0.0.0으로 설정하여 다른 네트워크에서 액세스를 허용할 수 있습니다.
 - OLLAMA_PORT: Ollama 서비스의 기본 포트입니다. 기본값은 11434입니다. 포트 충돌이 발생하면 다른 포트(예: 8080)로 변경할 수 있습니다.
-- OLLAMA_ORIGINS: HTTP 클라이언트 요청 원본의 쉼표로 구분된 목록입니다. 엄격한 요구 사항 없이 로컬에서 사용하는 경우, 제한 없음을 나타내기 위해 별표(*)로 설정할 수 있습니다.
+- OLLAMA_ORIGINS: HTTP 클라이언트 요청 원본의 쉼표로 구분된 목록입니다. 엄격한 요구 사항 없이 로컬에서 사용하는 경우, 제한 없음을 나타내기 위해 별표(\*)로 설정할 수 있습니다.
 - OLLAMA_KEEP_ALIVE: 대형 모델이 메모리에 유지되는 기간입니다. 기본값은 5분(5m)입니다. 예를 들어, 300과 같이 숫자만 있는 경우 300초를 의미하며, 0은 요청 처리 후 모델이 즉시 언로드되고, 음수는 무제한으로 로드된 상태를 유지함을 의미합니다. 액세스 속도를 개선하기 위해 모델을 24시간 동안 메모리에 유지하려면 24시간으로 설정할 수 있습니다.
 - OLLAMA_NUM_PARALLEL: 동시 요청 핸들러 수입니다. 기본값은 1로 요청이 직렬로 처리됩니다. 실제 요구 사항에 따라 이 값을 조정하세요.
 - OLLAMA_MAX_QUEUE: 요청 큐의 길이입니다. 기본값은 512입니다. 이 길이를 초과하는 요청은 삭제됩니다. 상황에 맞게 이 설정을 조정하세요.
@@ -173,7 +310,18 @@ Windows의 경우 Ollama는 사용자 및 시스템 환경 변수를 상속합�
 
 # 빠른 시작: Llama 3 사용해보기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 메타의 최신 오픈 소스 모델, 람마 3 8B를 빠르게 경험해 볼 수 있어요. `ollama run llama3` 명령어를 사용해서 바로 체험할 수 있어요. 먼저 명령줄 창을 열어주세요. (이 문서에서 언급된 명령은 cmd, PowerShell 또는 Windows Terminal을 사용해서 실행할 수 있어요.) 그리고 `ollama run llama3`를 입력하면 모델을 다운로드할 수 있어요. (다른 모델을 경험하고 싶다면, 후술된 "모델 라이브러리" 섹션을 참고하여 다른 모델과 해당 명령어 목록을 확인하거나, 사용자 지정 GGUF 모델을 로드하려면 "GGUF에서 가져오기" 섹션을 따를 수 있어요.)
 
@@ -189,14 +337,25 @@ sha256 다이제스트 확인 중
 manifest 작성 중
 사용되지 않는 레이어 제거 중
 성공
->>> 메시지를 전송해보세요 (도움말을 보려면 /?) 
+>>> 메시지를 전송해보세요 (도움말을 보려면 /?)
 ```
 
 모델을 다운로드 받은 후, Llama 3 8B를 사용할 수 있어요. 명령줄에서 모델에 대화 내용을 바로 전송할 수 있어요.
 
 예를 들어, 먼저 모델에게 자신이 누군지 물어볼 수 있어요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 >>> 당신은 누구신가요?
@@ -220,7 +379,18 @@ Llama 3이 정보와 기능을 명확하게 소개하고 있습니다. 두 가�
 998권.
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 >>> 왜요?
@@ -235,7 +405,18 @@ Llama 3이 정보와 기능을 명확하게 소개하고 있습니다. 두 가�
 
 다른 모델을 시도해보고 싶다면 Ollama에서 제공하는 모델 목록에 액세스할 수 있습니다. https://ollama.com/library.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 다운로드할 수 있는 몇 가지 예제 모델입니다:
 
@@ -245,8 +426,18 @@ Llama 3이 정보와 기능을 명확하게 소개하고 있습니다. 두 가�
 
 모델을 실행하기 전에, Ollama가 다음 명령어를 가지고 있음을 알아두어야 합니다. 이 명령어들은 Ollama의 다양한 기능을 활용하기 위해 명령 줄에서 실행할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-08-03-HowtorunOllamaonWindows_9.png" />
 
@@ -272,7 +463,18 @@ Run a model
       OLLAMA_NOHISTORY           readline 히스토리를 유지하지 않음
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모델이 실행 중일 때 다음 작업을 수행할 수 있습니다:
 
@@ -287,7 +489,18 @@ Run a model
 저는 콘솔에 유명한 "Hello, world!" 메시지를 출력하는 기본 프로그램입니다.
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 몇 가지 다중 모달 모델의 기능도 활용할 수 있어요. 이미지를 모델이 인식하도록 할 수도 있어요. 예를 들어, DALLE-3로 생성된 이미지를 인식하기 위해 LLaVA 모델을 사용할 수 있어요. 그냥 이미지 경로를 프롬프트에 포함시키면 되죠:
 
@@ -302,7 +515,18 @@ ollama run llava
 
 볼 수 있듯이, 모델은 이미지의 세부 사항을 정확하게 설명했고, 거의 완벽하게 이미지를 생성하기 위해 사용한 프롬프트를 재현했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 로그 보기
 
@@ -317,7 +541,18 @@ explorer %HOMEPATH%\\.ollama  # 모델 및 구성 저장 위치 검색
 explorer %TEMP%  # 일시적 실행 파일은 하나 이상의 ollama* 디렉토리에 저장됩니다
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 맥에서는 다음 명령어를 실행하여 로그를 찾을 수 있어요:
 
@@ -329,7 +564,18 @@ cat ~/.ollama/logs/server.log
 
 # GPU 가속 사용하기: CUDA Toolkit 설치하기 (선택 사항)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Llama 3 8B와 같은 작은 모델의 경우 CPU 또는 통합 그래픽을 사용하는 것이 잘 작동할 수 있습니다. 그러나 만약 컴퓨터가 Nvidia 독립 GPU를 보유하고 있고 더 큰 모델을 실행하거나 더 빠른 응답 시간을 원한다면 CUDA Toolkit을 설치하여 독립 GPU를 더 잘 활용해야 합니다.
 
@@ -339,8 +585,18 @@ AMD GPU를 사용 중이라면, Ollama가 지원하는 장치 목록을 확인�
 
 Ollama는 다음 AMD GPU를 지원합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![How to run Ollama on Windows](/assets/img/2024-08-03-HowtorunOllamaonWindows_12.png)
 
@@ -350,8 +606,18 @@ Next, Nvidia GPU 사용자는 그래픽 카드가 지원되는지 확인하기 �
 
 GPU가 지원되면 다음 링크에서 적합한 CUDA Toolkit 설치 프로그램을 다운로드할 수 있습니다:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CUDA Toolkit을 다운로드하세요.
 
@@ -361,8 +627,18 @@ CUDA Toolkit을 다운로드하세요.
 
 설치 프로그램을 실행한 후 OK를 클릭하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Step 1](/assets/img/2024-08-03-HowtorunOllamaonWindows_15.png)
 
@@ -372,23 +648,42 @@ Follow the installer instructions to complete the installation:
 
 ![Step 3](/assets/img/2024-08-03-HowtorunOllamaonWindows_17.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 Markdown 형식으로 테이블 태그를 변경해주세요.
 
-
-| 사진             |
-|-----------------|
+| 사진                                                                |
+| ------------------------------------------------------------------- |
 | <img src="/assets/img/2024-08-03-HowtorunOllamaonWindows_18.png" /> |
 | <img src="/assets/img/2024-08-03-HowtorunOllamaonWindows_19.png" /> |
-
 
 CUDA가 성공적으로 설치되었습니다.
 
 # 거대한 모델 실행에 강력한 디스크릿 GPU를 더 잘 활용할 수 있는 몇 가지 실용적인 팁
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Ollama는 모델을 실행할 때 GPU를 자동으로 감지하고 사용합니다. 그러나 컴퓨터에 여러 개의 GPU가 있는 경우, 잘못된 GPU를 사용할 수 있습니다. Ollama가 디스크릿 GPU를 사용하도록 보장하는 가장 간단하고 직접적인 방법은 Nvidia 제어판에서 디스플레이 모드를 Nvidia GPU만으로 설정하는 것입니다. 아래 이미지에 나와 있는대로, Nvidia 제어판은 시스템 트레이에서 찾을 수도 있고 데스크톱에서 마우스 오른쪽 버튼을 클릭하여 열 수도 있습니다.
 
@@ -398,7 +693,18 @@ Ollama는 모델을 실행할 때 GPU를 자동으로 감지하고 사용합니�
 
 ## Ollama가 올바른 GPU를 사용하여 모델을 실행하고 있는지를 어떻게 확인할 수 있나요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모델 실행을 시작하고 인공지능에 관한 1000단어의 기사를 작성해야 하는 질문과 같이 긴 대답이 필요한 질문을 할 수 있습니다. 모델이 응답 중일 때, 새로운 명령줄 창을 열고 ollama ps를 실행하여 Ollama가 GPU를 사용하고 있는지 사용량 퍼센트를 확인할 수 있습니다. 또한 Windows 작업 관리자를 사용하여 GPU 및 메모리 사용량을 모니터링하여 Ollama가 추론에 어떤 하드웨어를 사용하는지 판단할 수 있습니다.
 
@@ -412,11 +718,33 @@ llama3:latest   365c0bd3c000    6.7 GB  100% GPU        현재로부터 4분 후
 
 작업 관리자를 열려면 Ctrl+Shift+Esc를 사용하여 성능 탭을 확인할 수 있습니다. Ollama가 디스크리트 GPU를 사용 중이라면, 이미지에 보이는 섹션에 사용량이 표시됩니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마크다운 형식으로 테이블 태그를 변경하면 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 모델을 가져오고 싶은 모델이 저장된 로컬 파일 경로를 사용하여 FROM 지시문이 포함된 Modelfile이라는 파일을 만듭니다.
 
@@ -430,7 +758,18 @@ FROM ./filename.gguf
 FROM "D:\Joe\Downloads\microsoft\Phi-3-mini-4k-instruct-gguf\Phi-3-mini-4k-instruct-q4.gguf"
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Phi 3 모델은 Hugging Face의 microsoft/Phi-3-mini-4k-instruct-gguf에서 제공됩니다.
 
@@ -442,7 +781,18 @@ Phi 3 모델은 Hugging Face의 microsoft/Phi-3-mini-4k-instruct-gguf에서 제�
 ollama create example -f 모델파일
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시:
 
@@ -456,7 +806,18 @@ ollama create example -f "D:\Joe\Downloads\Modelfile"
 ollama run example
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시：
 
@@ -471,7 +832,18 @@ C:\Users\Edd1e>ollama run example
 
 Ollama 라이브러리의 모델은 프롬프트로 사용자 정의할 수 있습니다. 예를 들어, llama3 모델을 사용자 정의하는 방법입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ollama pull llama3
@@ -491,7 +863,18 @@ Research Graph Foundation의 연구 조수인 Zane으로 활동 중 입니다. A
 
 다음으로, 모델을 만들고 실행합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ollama create Zane -f "D:\Joe\Downloads\Modelfile"
@@ -506,8 +889,18 @@ ollama run Zane
 
 Open WebUI는 완전히 오프라인에서 작동하도록 설계된 확장 가능하고 기능이 풍부하며 사용자 친화적인 자체 호스팅 WebUI입니다. Ollama와 OpenAI 호환 API를 포함하여 다양한 LLM 러너를 지원합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도커는 컨테이너화를 사용하여 응용 프로그램의 배포, 확장 및 관리를 자동화하는 데 설계된 오픈 소스 플랫폼입니다. 컨테이너는 응용 프로그램과 모든 종속성을 함께 패키징하여 여러 환경에서 일관성을 보장합니다. 이를 통해 더 효율적인 개발, 테스트 및 배포 프로세스를 수행할 수 있습니다.
 
@@ -515,10 +908,20 @@ Open WebUI는 완전히 오프라인에서 작동하도록 설계된 확장 가�
 
 이전에 도커를 설치한 적이 없는 경우, 먼저 설정해야 합니다.
 
-제어판 ` 프로그램 ` 프로그램 및 기능 ` Windows 기능 켜기/끄기`를 엽니다.
+제어판 `프로그램` 프로그램 및 기능 ` Windows 기능 켜기/끄기`를 엽니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image1](/assets/img/2024-08-03-HowtorunOllamaonWindows_23.png)
 
@@ -528,8 +931,18 @@ Check Hyper-V, Virtual Machine Platform, and Windows Subsystem for Linux, then c
 
 ![Image3](/assets/img/2024-08-03-HowtorunOllamaonWindows_25.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컴퓨터를 재부팅해 주세요.
 
@@ -539,7 +952,18 @@ PowerShell을 열고 관리자 권한으로 명령 창을 시작합니다.
 
 ![이미지](/assets/img/2024-08-03-HowtorunOllamaonWindows_26.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 입력해주세요:
 
@@ -553,7 +977,18 @@ Unix 사용자 이름과 암호를 설정하려면 설치해주세요:
 wsl --install
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지를 삽입하고 설치가 성공적으로 완료되면 컴퓨터를 다시 시작하세요.
 
@@ -561,7 +996,18 @@ Docker 설치를 시작해 봅시다.
 
 먼저 공식 웹사이트에서 다운로드할 수 있는 Docker 데스크톱을 설치합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 https://www.docker.com/products/docker-desktop/
 
@@ -573,7 +1019,18 @@ https://www.docker.com/products/docker-desktop/
 docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 풀이 완료되면, "Containers" 탭 아래에서 실행 중인 컨테이너를 볼 수 있습니다. "Ports" 섹션의 링크를 클릭하여 웹페이지를 엽니다:
 
@@ -583,7 +1040,18 @@ docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-
 
 ![이미지](/assets/img/2024-08-03-HowtorunOllamaonWindows_30.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 등록을 완료하기 위해 정보를 작성해주세요:
 
@@ -593,21 +1061,39 @@ docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-
 
 <img src="/assets/img/2024-08-03-HowtorunOllamaonWindows_32.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인터페이스 디자인과 상호 작용은 GPT와 매우 유사하여 사용자 친화적입니다. 또한 Markdown을 매우 잘 렌더링합니다:
 
-
 ![이미지 설명](/assets/img/2024-08-03-HowtorunOllamaonWindows_33.png)
-
 
 LLaVA 모델을 선택하면 이미지를 직접 붙여넣을 수 있어 경로를 입력하는 것보다 직관적이고 편리합니다:
 
-
 ![이미지 설명](/assets/img/2024-08-03-HowtorunOllamaonWindows_34.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금까지, 프론트엔드 페이지의 배포를 완료했습니다. 이제 오픈소스 대규모 모델을 로컬에서 완벽한 사용자 경험으로 실행할 수 있어 더 편리하고 미학적으로 매력적이게 되었습니다.
 
@@ -617,7 +1103,18 @@ LLaVA 모델을 선택하면 이미지를 직접 붙여넣을 수 있어 경로�
 
 Ollama는 Llama 3 같은 미리 빌드된 모델의 사용을 단순화하며 GGUF 모델과 함께 사용자 정의도 가능합니다. 또한 웹 기반 인터페이스를 위한 Docker 통합과 같은 고급 기능을 탐색하면, 인기 있는 AI 챗봇과 유사한 사용자 친화적인 채팅 경험을 제공할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 안내서에서는 사용자 지정 프롬프트 및 환경 변수를 조정하여 여러분의 특정 요구에 맞게 설정하는 방법을 다루고 있습니다. 이를 통해 Ollama는 AI 개발을 위한 다재다능한 도구로 변모했습니다. 포괄적인 설명서와 다양한 모델 지원을 통해 Ollama는 대규모 언어 모델의 능력을 활용하려는 누구에게나 강력한 솔루션을 제공합니다.
 

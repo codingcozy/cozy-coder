@@ -3,17 +3,13 @@ title: "3D 프린터로 키체인을 만드는 궁극 가이드"
 description: ""
 coverImage: "/assets/img/2024-06-23-UltimateGuidetoMakinga3DPrinterKeychain_0.png"
 date: 2024-06-23 17:21
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-UltimateGuidetoMakinga3DPrinterKeychain_0.png
 tag: Tech
 originalTitle: "Ultimate Guide to Making a 3D Printer Keychain"
 link: "https://medium.com/@alexispriddy/ultimate-guide-to-making-a-3d-printer-keychain-2463dea9b60a"
 isUpdated: true
 ---
-
-
-
-
 
 내 아이들은 열쇠고리에 정말 중독되어 있어요. 그들의 배낭엔 아마도 추가로 5 파운드의 열쇠고리가 달려 있을 거에요. 우리가 ToyBox 3D 프린터를 구매한 후 가장 먼저 시도해본 것 중 하나는 우리만의 것을 만들어보는 거였어요. 일부 디자인은 작동했고, 일부는 작동하지 않았는데 제가 제일 좋아하는 몇 가지를 소개할게요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-23-UltimateGuidetoMakinga3DPrinterKeychain_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Squishmallow 키링
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-23-UltimateGuidetoMakinga3DPrinterKeychain_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # T-Rex 키링
 
@@ -44,7 +62,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-23-UltimateGuidetoMakinga3DPrinterKeychain_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Flexi Unicorn Keychain
 
@@ -55,7 +84,18 @@ isUpdated: true
 
 # Flexi Dolphin Keychain
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 원본 디자인 by paul0
 - Toybox version
@@ -67,8 +107,18 @@ isUpdated: true
 - 원본 디자인 by MrFreakman
 - Toybox version
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-23-UltimateGuidetoMakinga3DPrinterKeychain_6.png)
 
@@ -79,8 +129,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-23-UltimateGuidetoMakinga3DPrinterKeychain_7.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 마블 헐크 키링
 
@@ -91,7 +151,18 @@ isUpdated: true
 
 # 마블 아이언맨 키링
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 디자인: aguzinski에 의한 원본
 - Toybox 버전
@@ -103,7 +174,18 @@ isUpdated: true
 - 디자인: TK3DPrinting에 의한 원본
 - Toybox 버전
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Thingiverse에 저장된 컬렉션 링크를 여기에 첨부했어요. 그 중 일부는 아직 출력하지 않은 것들도 있어요:
 
@@ -114,7 +196,18 @@ Thingiverse에 저장된 컬렉션 링크를 여기에 첨부했어요. 그 중 
 
 # 키링 클라스프
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 중요한 요소 중 하나는 좋은 열쇠고리 클래식을 가지는 것입니다. 아마존에서 이런 것들을 발견했고, 내 아이들에게 잘 작동합니다. 그들은 손가락으로 이를 열고 닫을 수 있어요.
 

@@ -3,18 +3,13 @@ title: "Docker 컨테이너의 심층 탐구  아키텍처와 기능"
 description: ""
 coverImage: "/assets/img/2024-06-20-DeepDiveintoDockerContainersArchitectureandFeatures_0.png"
 date: 2024-06-20 14:21
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-DeepDiveintoDockerContainersArchitectureandFeatures_0.png
 tag: Tech
 originalTitle: "Deep Dive into Docker Containers | Architecture and Features"
 link: "https://medium.com/@dmosyan/deep-dive-into-docker-containers-architecture-and-features-530a937f4c87"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![Container Architecture](/assets/img/2024-06-20-DeepDiveintoDockerContainersArchitectureandFeatures_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 ![Container Features](/assets/img/2024-06-20-DeepDiveintoDockerContainersArchitectureandFeatures_1.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컨테이너는 시작 속도가 빠르고 매우 휴대적입니다. 노트북에서 클라우드로 컨테이너 워크로드를 이동하고, 그리고 VM이나 데이터 센터의 베어 메탈로 이동하는 것도 쉽습니다.
 
@@ -35,7 +40,18 @@ isUpdated: true
 
 대부분의 사람들이 Docker에 대해 이야기할 때, 그들은 컨테이너를 실행하는 기술을 의미합니다. 그러나 Docker 기술이라고 언급할 때 주의해야 할 적어도 세 가지 사항이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 런타임
 - 데몬 (엔진)
@@ -52,7 +68,18 @@ isUpdated: true
 - Docker 데몬 (dockerd)은 containerd 상위에 있으며 Docker API 노출, 이미지 관리, 볼륨 관리, 네트워크 관리 등과 같은 상위 수준 작업을 수행합니다. Docker 데몬의 주요 역할 중 하나는 하위 수준을 추상화하는 사용하기 쉬운 표준 인터페이스를 제공하는 것입니다.
 - Docker는 또한 Docker를 실행하는 노드 클러스터를 관리하기 위한 기본 지원을 제공합니다. 이 클러스터들을 Docker Swarm이라고 하며 해당 기술은 Docker Swarm입니다. Docker Swarm은 사용하기 쉽고 많은 회사가 실제 제품에서 사용하고 있습니다. Kubernetes보다 간단하게 설치하고 관리할 수 있지만, Kubernetes의 고급 기능과 생태계를 많이 포함하지는 않습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 도커 CLI 명령을 실행할 때 무슨 일이 벌어지나요
 
@@ -63,7 +90,18 @@ isUpdated: true
 
 엔진은 컨테이너를 실행하는 데 필요한 런타임, API 및 기타 모든 것을 구현합니다. 기본적인 리눅스 설치에서 클라이언트는 /var/run/docker.sock에있는 로컬 IPC/Unix 소켓을 통해 데몬과 통신합니다. 윈도우에서는 npipe:////./pipe/docker_engine을 통해 통신합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "Docker run"과 같은 명령을 Docker CLI에 입력할 때:
 
@@ -73,7 +111,18 @@ isUpdated: true
 
 2. 데몬이 새 컨테이너를 생성하는 명령을 받으면, containerd에 요청합니다. 더 이상 데몬에는 컨테이너를 생성하는 코드가 포함되어 있지 않습니다! 데몬은 gRPC를 통해 CRUD 스타일 API를 통해 containerd와 통신합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 이름에서 알 수 있듯이 containerd는 실제로 컨테이너를 만들 수 없어요. 그 작업은 runc가 처리해요. containerd는 필요한 Docker 이미지를 OCI 번들로 변환하고 이를 사용하여 새 컨테이너를 만들도록 runc에 알려줍니다.
 
@@ -83,7 +132,18 @@ isUpdated: true
 
 이전 모델에서는 모든 컨테이너 런타임 로직이 데몬에 구현된 곳에서 데몬을 시작하고 중지하면 호스트의 모든 실행 중인 컨테이너가 제거되었습니다. 이것은 프로덕션 환경에서 큰 문제였어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 네임스페이스, cgroups 및 쉼은 무엇인가요?
 
@@ -93,7 +153,18 @@ isUpdated: true
 
 쉼은 데몬 없는 컨테이너의 구현에 필수적입니다 - 데몬 업그레이드와 같은 작업을 위해 실행 중인 컨테이너와 데몬을 분리하는 것을 방금 언급한 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 이전에 containerd가 새로운 컨테이너를 만들 때 runc를 사용한다고 언급했습니다. containerd는 생성되는 각 컨테이너에 대해 runc의 새로운 인스턴스를 포크합니다. 그러나 각 컨테이너가 생성되면 runc 프로세스가 종료됩니다. 이는 수백 개의 컨테이너를 실행할 수 있지만 수백 개의 runc 인스턴스를 실행할 필요가 없다는 것을 의미합니다. 컨테이너의 부모인 runc 프로세스가 종료되면 관련된 containerd-shim 프로세스가 컨테이너의 부모가 됩니다.
 
@@ -104,7 +175,18 @@ isUpdated: true
 
 네임스페이스
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 커널 네임스페이스는 컨테이너를 구축하는 데 사용되는 주요 기술입니다. 이 기술은 하이퍼바이저가 물리 자원(예: CPU 및 디스크)을 가상화하는 방식과 같이 운영 체제 구성 요소인 프로세스 트리와 파일 시스템을 가상화합니다.
 
@@ -114,7 +196,18 @@ isUpdated: true
 
 ![image](/assets/img/2024-06-20-DeepDiveintoDockerContainersArchitectureandFeatures_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리눅스의 도커는 현재 다음 커널 네임스페이스를 활용합니다:
 
@@ -129,8 +222,18 @@ isUpdated: true
 
 호스트는 "루트 네임스페이스"라고 하는 자체 네임스페이스 모음을 갖고 있습니다. 각 컨테이너에는 격리된 네임스페이스 모음이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-DeepDiveintoDockerContainersArchitectureandFeatures_5.png" />
 
@@ -140,7 +243,18 @@ isUpdated: true
 
 Cgroups를 사용하면 (호텔 비유를 계속 사용할 때) 단일 컨테이너가 모든 물을 사용하거나 조식 바에서 모든 음식을 다 먹는 것을 막을 수 있습니다. 실제 세계에서 호텔 비유가 아닌 컨테이너는 서로 격리되어 있지만 CPU, RAM, 네트워크 및 디스크 I/O와 같은 공통의 리소스를 공유합니다. Cgroups를 사용하면 단일 컨테이너가 모든 리소스를 소비하고 서비스 거부(DoS) 공격을 유발하지 못하게 제한을 설정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 보안 계층 개요
 
@@ -150,7 +264,18 @@ Cgroups를 사용하면 (호텔 비유를 계속 사용할 때) 단일 컨테이
 
 이미 지네임스페이스와 cgroups에 대해 논의했지만, 살펴볼 사항이 더 많습니다. 더 자세히 알아보고 싶다면 제공된 출처를 사용해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 소스: What is a Container? | Docker
 Nigel Poulton의 "Docker Deep Dive"

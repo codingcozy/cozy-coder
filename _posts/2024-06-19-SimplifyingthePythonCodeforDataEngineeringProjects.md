@@ -3,17 +3,13 @@ title: "파이썬 코드를 간단하게 만드는 데이터 엔지니어링 프
 description: ""
 coverImage: "/assets/img/2024-06-19-SimplifyingthePythonCodeforDataEngineeringProjects_0.png"
 date: 2024-06-19 05:14
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-SimplifyingthePythonCodeforDataEngineeringProjects_0.png
 tag: Tech
 originalTitle: "Simplifying the Python Code for Data Engineering Projects"
 link: "https://medium.com/towards-data-science/simplifying-the-python-code-for-data-engineering-projects-95f0c41dc58a"
 isUpdated: true
 ---
-
-
-
-
 
 ## 데이터 수집, 검증, 처리 및 테스트를 위한 파이썬 팁과 기술: 실용적인 안내
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-19-SimplifyingthePythonCodeforDataEngineeringProjects_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 온라인 독특하고 모든 행사에 어울리는 선물을 판매하는 온라인 소매점을 운영 중이라고 상상해보세요. 이 온라인 상점은 매분, 매초 많은 거래량을 처리하고 있어요. 현재 거래에 대한 구매 습관을 분석하여 더 많은 고객들의 요구를 충족시키고 새로운 고객들에게 더 많은 서비스를 제공하는 것이 당신의 포부입니다. 이로 인해 거래 기록의 데이터 처리에 대해 파고들기로 하게 되었어요.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 파일에서 데이터 필드는 다양한 데이터 유형에 속합니다. 고객 및 제품 식별자(정수/배열 형식), 결제 방법(문자열 형식) 및 총 거래 금액(부동소수점 숫자)을 포함합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import json
@@ -70,10 +88,10 @@ with open('retail_transactions.jsonl', 'w') as f:
         'totalAmt': "",
         'invoiceTime': ""
       }
-     
+
      # 거래를 JSON 라인으로 파일에 씁니다.
      f.write(json.dumps(new_txn) + "\n")
-``` 
+```
 
 파일에 빈 데이터 필드가 있는 여러 건의 개별 거래를 발견할 수 있습니다. 이것은 실제 세계에서 자주 발생하는 데이터 품질 문제 중 하나인 누락된 데이터 문제를 모방합니다.
 
@@ -81,7 +99,18 @@ with open('retail_transactions.jsonl', 'w') as f:
 
 파일에서 거래 기록을 읽는 가장 간단한 방법 중 하나는 데이터 세트를 리스트로 반복하고 이후에 이를 Pandas DataFrame으로 변환하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 방법은 데모 데이터셋의 500,000개 거래에 대해 훌륭하게 작동할 것입니다. 그러나 실제 세계의 데이터셋은 수백만에서 심지어 수십억 행에 이를 수 있습니다. 전체 계산이 완료될 때까지 기다릴 필요가 있거나 메모리 문제가 발생할 수도 있습니다.
 
@@ -91,7 +120,18 @@ with open('retail_transactions.jsonl', 'w') as f:
 
 yield 문은 다양한 실용적인 용도가 있습니다. 예를 들어 파일의 각 줄을 통해 이동하고 비어 있지 않은 레코드만 yield할 수 있습니다. 아래에서는 실시간 데이터 필터링을 실행하는 방법을 보여줍니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import json
@@ -114,7 +154,18 @@ txn_generator = read_json_file('retail_transactions.jsonl')
 
 JSON 데이터 목록이 주어진다고 가정해보세요. 데이터는 데이터 처리 후 거래 기록 정보를 포함합니다. 다음은 샘플 거래 정보입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 {
@@ -158,9 +209,20 @@ except ValidationError as exc:
 
 때로는 더 엄격한 유효성 검사 규칙을 적용할 필요가 있습니다. Pydantic 기본 모델은 가능한 경우 문자열 데이터를 정수로 변환하려고 시도합니다. 이를 피하려면 strict=True를 모델 수준이나 필드 수준에서 설정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-또한 데이터 필드에 사용자 정의 유효성 검사 규칙을 적용할 수 있습니다. 예를 들어, 지불 방법 값이 우리의 기대에 부합하는지 확인하고 싶을 수 있습니다. 테스트를 용이하게하기 위해 샘플 케이스의 지불 방법을 수동으로 'Bitcoin'으로 설정하고, 이후 AfterValidator를 사용하여 추가 확인을 위한 함수를 포함시킵니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+또한 데이터 필드에 사용자 정의 유효성 검사 규칙을 적용할 수 있습니다. 예를 들어, 지불 방법 값이 우리의 기대에 부합하는지 확인하고 싶을 수 있습니다. 테스트를 용이하게하기 위해 샘플 케이스의 지불 방법을 수동으로 'Bitcoin'으로 설정하고, 이후 AfterValidator를 사용하여 추가 확인을 위한 함수를 포함시킵니다.
 
 ```js
 from typing import Annotated
@@ -203,7 +265,18 @@ except ValidationError as exc:
 
 오류가 발생하면 수정 조치를 취할 수 있습니다. 이러한 기능은 데이터 오류를 제거하여 데이터의 정확성과 완전성을 보장하는 데 도움을 줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## #3 데이터 처리
 
@@ -213,7 +286,18 @@ except ValidationError as exc:
 
 데이터 파이프라인 전체에 걸쳐 코드가 깔끔하게 유지되도록 하기 위해서는 Python 데코레이터를 활용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 모든 거래에 대한 가격을 분류하는 데 걸리는 시간을 측정할 수 있습니다.
 
@@ -253,7 +337,18 @@ txn_list = group_txn_price(txn_list)
 
 (2) Map, reduce, filter
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것들은 많은 개발자들이 익숙할 것으로 생각되는 일반적으로 사용되는 Python 배열 메서드들입니다. 그러나 몇 가지 이유로 언급할 가치가 있다고 생각합니다: (1) 변경 불가능 - 이러한 함수들은 원래 리스트의 값들을 수정하지 않습니다; (2) 연쇄적 유연성 - 동시에 여러 함수의 조합을 적용할 수 있습니다; 그리고 (3) 간결하고 가독성 있음 - 오직 한 줄의 코드로만 가능합니다.
 
@@ -275,7 +370,18 @@ print(updated_txn_list)
 # ...]
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 Markdown 형식으로 변경해주세요.
 
@@ -287,7 +393,7 @@ print(updated_txn_list)
 # Output
 # [{'paymentMthd': 'Cryptocurrency', 'totalAmt': 3339.85},
 # {'paymentMthd': 'Cryptocurrency', 'totalAmt': 576.15},
-# ...}] 
+# ...}]
 ```
 
 Reduce: 단일 값 결과를 얻는 방법(예: 모든 요소를 합하거나 곱하는 것)입니다.
@@ -303,7 +409,18 @@ print(total_amt_crypto)
 # 250353984.67000002
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 과학 프로젝트의 변환 단계에서 이러한 함수를 활용할 수 있어요. 예를 들어, 데이터를 조정하거나 정규화하기 위해 map()을 사용하거나 이상점과 관련 없는 데이터 포인트를 제거하기 위해 filter()를 사용하거나 요약 통계를 생성하기 위해 reduce()를 사용할 수 있어요.
 
@@ -313,7 +430,18 @@ print(total_amt_crypto)
 
 가장 인기 있는 Python 테스트 프레임워크 중 하나는 Pytest에요. 기술 팀과 의사 결정자 모두가 신뢰할 수 있는 변환된 데이터의 고품질을 보장하고 싶다고 상상해봐요. 우리는 거래 가격을 분류하는 함수에 대한 테스트를 수행하고 싶어할 거예요. 이를 달성하기 위해 두 개의 파이썬 파일을 준비해야 해요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - feature_engineering.py: 이 파일에는 이전에 작성한 함수가 포함되어 있습니다.
 
@@ -328,11 +456,11 @@ def add_features(sample_cases):
       txn['totalAmtCat'] = '보통'
     elif 3500 < price:
       txn['totalAmtCat'] = '높음'
-  
+
   return sample_cases
 ```
 
-- test_feature_engineering.py: "test_" 접두사가 있는 파일이며, Pytest에서 테스트 목적으로 인식합니다.
+- test*feature_engineering.py: "test*" 접두사가 있는 파일이며, Pytest에서 테스트 목적으로 인식합니다.
 
 ```python
 from feature_engineering import add_features
@@ -349,7 +477,7 @@ def test_add_features():
 
   # 샘플 케이스를 사용하여 함수 호출
   sample_cases = add_features(sample_cases)
- 
+
   # assert 문을 확인합니다.
   for txn in sample_cases:
     assert 'totalAmtCat' in list(txn.keys())
@@ -357,7 +485,18 @@ def test_add_features():
     assert len(txn['totalAmtCat']) != 0
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 단언문은 새로운 'totalAmtCat' 데이터 필드가 비어 있지 않은 값으로 추가되며, 원래의 데이터 필드는 영향을 받지 않습니다. Pytest 명령을 실행함으로써 테스트가 통과되었음을 확인할 수 있습니다!
 
@@ -409,7 +548,18 @@ def test_add_features(jsonl_file):
   # 여기에 단언문 작성
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 초기화를 위해 JSON Lines 파일과 샘플 테스트 케이스를 사용하는 고정된 기준을 정의해야 합니다. 여기서는 앞에서 언급한 time_decorator와 비슷하게 작동하는 @pytest.fixture decorator를 사용합니다. 이 decorator는 샘플 파일을 반복해서 초기화하는 것을 방지하는 데 도움이 됩니다. 남은 코드에서는 파이프라인 함수를 실행하기 위해 여러 테스트 함수를 사용하고 논리 오류를 감지하기 위해 assert 문을 사용합니다.
 
@@ -422,7 +572,18 @@ def test_add_features(jsonl_file):
 - Python decorator 및 내장 라이브러리를 적용하여 중복 코드 없이 추가 기능을 활성화함으로써 데이터 처리
 - Pytest를 사용하여 워크플로 전체에서 품질 높은 함수 출력을 보장함으로써 파이프라인 테스트
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 마지막으로
 

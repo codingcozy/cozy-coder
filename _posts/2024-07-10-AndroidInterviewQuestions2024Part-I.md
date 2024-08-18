@@ -3,7 +3,7 @@ title: "2024년 안드로이드 인터뷰 질문 모음 Part I"
 description: ""
 coverImage: "/assets/img/2024-07-10-AndroidInterviewQuestions2024Part-I_0.png"
 date: 2024-07-10 01:41
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-10-AndroidInterviewQuestions2024Part-I_0.png
 tag: Tech
 originalTitle: "Android Interview Questions: 2024 Part-I"
@@ -11,21 +11,29 @@ link: "https://medium.com/@vikasacsoni9211/quest-for-android-excellence-intervie
 isUpdated: true
 ---
 
-
-
-
-
 ![Android Interview Questions 2024 Part-I](/assets/img/2024-07-10-AndroidInterviewQuestions2024Part-I_0.png)
 
 한국어 번역:
 
 안녕하세요! 오늘은 2024년 안드로이드 면접 질문 시리즈의 첫 번째 파트를 살펴볼 거예요. 함께 볼 주제는 Java와 Kotlin 그리고 안드로이드 컴포넌트에 대해 다뤄요. 사람들과 함께 새로운 지식들을 공유하며 즐거운 시간 보내시길 바라요! 👋🔮✨
 
-표의 목차:  
-1. Java와 Kotlin  
+표의 목차:
+
+1. Java와 Kotlin
 2. 안드로이드 컴포넌트
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 사용자 인터페이스 (UI) 개발
 
@@ -35,7 +43,18 @@ isUpdated: true
 
 자, 이제 핵심으로 넘어가 봅시다-
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자바와 코틀린
 
@@ -45,7 +64,18 @@ isUpdated: true
 
 2. 자바에서 “==” 연산자와 “.equals()” 메서드의 차이는 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 답변: "==" 연산자는 객체 참조 동등성을 확인하고, ".equals()" 메서드는 객체 값 동등성을 확인합니다. 예를 들어, 동일한 값을 가진 두 개의 다른 문자열 객체는 "equals()"를 사용하여 비교할 때 true를 반환하지만, "=="을 사용하여 비교할 때 false를 반환합니다.
 
@@ -55,7 +85,18 @@ isUpdated: true
 
 4. 코틀린에서 lateinit 속성과 초기화된 속성의 차이는 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 답변: lateinit 속성은 초기값 없이 선언되지만 사용 전에 초기화될 것이 보장된 속성입니다. 이는 생성자에서 초기화할 수 없지만 사용 전에 초기화해야 하는 속성에 유용합니다. 반면 초기화된 속성은 초기값이 지정된 속성으로 즉시 사용할 수 있습니다.
 
@@ -65,7 +106,18 @@ isUpdated: true
 
 6. 코틀린에서 companion object란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 답변: 동반 객체는 클래스와 관련된 객체로, 클래스의 인스턴스가 아닙니다. 클래스에 대한 정적 메서드와 속성을 정의하는 데 사용될 수 있습니다. 예를 들어, 다음 코드는 MyClass 클래스에 대한 동반 객체를 정의하며, 정적 메서드 "myStaticMethod"를 포함합니다:
 
@@ -83,7 +135,18 @@ class MyClass {
 
 답변: 클래스는 객체를 생성하기 위한 청사진이며, 객체는 클래스의 단일 인스턴스입니다. 객체는 Kotlin에서 싱글톤을 구현하는 데 자주 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 8. 자바에서의 다형성은 무엇인가요?
 
@@ -93,15 +156,37 @@ class MyClass {
 
 답변: 함수형 인터페이스는 하나의 추상 메소드만을 가지는 인터페이스를 말합니다. 이는 자바의 람다 표현식과 메소드 참조와 함께 자주 사용됩니다. 자바는 인터페이스가 함수형 인터페이스임을 나타내기 위해 @FunctionalInterface 주석을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-안녕하세요, 여러분! 오늘은 자바에서 private와 protected 메소드의 차이에 대해 이야기해 보려고 합니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-우선, private 메소드는 동일한 클래스 내에서만 액세스할 수 있는 메소드입니다. 반면에 protected 메소드는 동일한 클래스와 하위 클래스 내에서도 액세스할 수 있습니다. 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+안녕하세요, 여러분! 오늘은 자바에서 private와 protected 메소드의 차이에 대해 이야기해 보려고 합니다.
+
+우선, private 메소드는 동일한 클래스 내에서만 액세스할 수 있는 메소드입니다. 반면에 protected 메소드는 동일한 클래스와 하위 클래스 내에서도 액세스할 수 있습니다.
 
 그리고 안드로이드 앱 구성 요소 중 핵심인 것은 무엇일까요? 여러분은 이미 아시다시피 안드로이드 앱의 핵심 구성 요소는 무엇인지 궁금해 하고 계시군요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 키 안드로이드 앱 구성 요소는 활동(Activities), 프래그먼트(Fragments), 서비스(Services), 브로드캐스트 수신기(Broadcast Receivers), 및 콘텐츠 제공자(Content Providers)입니다.
 
@@ -111,7 +196,18 @@ class MyClass {
 
 3. 안드로이드에서 프래그먼트(Fragment)란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 답변: 프래그먼트는 활동의 일부를 나타내는 재사용 가능한 UI 구성 요소입니다. 멀티 패널 UI를 구축하는 데 사용할 수 있으며 런타임 중에 동적으로 추가 또는 제거할 수 있습니다.
 
@@ -121,7 +217,18 @@ class MyClass {
 
 5. 안드로이드에서 방송 수신기란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **답변:** 방송 수신기는 시스템 또는 앱 이벤트를 청취하고 그 이벤트에 기반하여 작업을 수행하는 구성 요소입니다. 다른 구성 요소나 시스템 이벤트로부터 방송 메시지를 수신하고 응답하는 데 사용됩니다.
 
@@ -131,7 +238,18 @@ class MyClass {
 
 **7. 안드로이드에서 액티비티(Activity)의 라이프사이클은 무엇인가요?**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 답변: 안드로이드에서 활동(Activity)의 생명주기에는 생성된 상태(Created), 시작된 상태(Started), 재개된 상태(Resumed), 일시정지된 상태(Paused), 중단된 상태(Stopped) 및 소멸된 상태(Destroyed)와 같은 여러 상태가 포함됩니다. 각 상태에는 해당 상태에서 작업을 수행하기 위해 재정의할 수 있는 특정 메소드들이 있습니다.
 
@@ -141,7 +259,18 @@ class MyClass {
 
 9. 안드로이드에서 Bundle의 목적은 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 답변: 번들(Bundle)은 안드로이드의 구성 요소인 액티비티(Activity), 프래그먼트(Fragment) 또는 서비스(Service) 간에 전달할 수 있는 데이터를 저장하는 컨테이너입니다. 주로 인스턴스 상태 데이터를 저장하고 복원하는 데 사용됩니다.
 
@@ -151,7 +280,18 @@ class MyClass {
 
 사용자 인터페이스(UI) 개발
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Android UI 개발에서 View와 ViewGroup의 차이점은 무엇인가요?
 
@@ -161,7 +301,18 @@ class MyClass {
 
 답변: XML 기반 레이아웃은 Android 앱의 사용자 인터페이스의 구조와 외관을 정의하는 데 사용됩니다. 이러한 레이아웃은 버튼, 텍스트 필드, 이미지 등과 같은 UI 요소의 위치, 크기 및 스타일을 정의합니다. XML에서 레이아웃을 정의함으로써, 개발자들은 UI 디자인을 앱 로직에서 분리하여 코드를 유지보수하고 수정하기 쉽게 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 안드로이드에서 사용자 지정 뷰를 만드는 방법은 무엇인가요?
 
@@ -171,7 +322,18 @@ class MyClass {
 
 답변: 안드로이드 앱을 개발할 때 따라야 할 일반적인 UI 디자인 원칙에는 간결성, 일관성, 가시성, 피드백 및 사용성이 포함됩니다. UI는 사용하기 쉽고 이해하기 쉬워야 하며 명확한 라벨과 직관적인 탐색을 갖추어야 합니다. 사용자가 작업을 수행할 때 피드백을 제공해야 하며 앱의 UI 전반에 걸쳐 일관성을 유지해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5. 안드로이드 UI 개발에서 반응형 디자인을 적용하는 방법은 무엇인가요?
 
@@ -181,7 +343,18 @@ class MyClass {
 
 답변: 안드로이드 UI 개발에서는 -hdpi, -xhdpi 및 -xxhdpi와 같은 리소스 한정자를 사용하여 서로 다른 화면 밀도용 UI 요소의 다른 버전을 지정할 수 있습니다. 시스템은 장치의 화면 밀도에 따라 자동으로 리소스의 적절한 버전을 로드합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 7. 안드로이드 UI 개발에서 RecyclerView란 무엇인가요?
 
@@ -191,7 +364,18 @@ class MyClass {
 
 답변: 안드로이드 UI 개발에서 Animation 및 Animator 클래스를 사용하여 페이드인, 페이드아웃, 슬라이드인과 같은 애니메이션을 구현할 수 있습니다. 또한 여러 UI 요소를 포함하는 더 복잡한 애니메이션을 만들기 위해 새로운 Transition 프레임워크를 사용할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 9. 안드로이드에서 일반적으로 사용되는 UI 구성 요소에는 TextView, ImageView, Button, EditText, ProgressBar 및 RecyclerView 등이 있습니다. 이러한 구성 요소는 텍스트, 이미지, 사용자 입력 필드 및 진행 표시기를 표시하는 데 사용됩니다.
 
@@ -199,7 +383,18 @@ class MyClass {
 
 Material Design은 구글이 만든 안드로이드 UI 디자인을 위한 가이드라인 세트입니다. 안드로이드 앱을 위한 일관된 직관적인 디자인 언어를 제공하며, 서식, 색상, 레이아웃 및 애니메이션에 대한 가이드라인을 포함합니다. Material Design 가이드라인을 준수하면 개발자가 시각적으로 매력적이고 사용자 친화적인 앱을 더 쉽게 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 11. 안드로이드 XML 레이아웃에서 "match_parent" 속성은 무엇을 위한 것인가요?
 
@@ -215,7 +410,18 @@ TextView {
 
 12. 모바일 앱을 위한 일반적인 UI 디자인 원칙은 무엇인가요? 답변: 모바일 앱을 위한 일반적인 UI 디자인 원칙에는 간결함, 일관성, 피드백, 부적절, 그리고 찾을 수 있음이 포함됩니다. 이러한 원칙은 앱이 사용하기 쉽고 직관적이며 시각적으로 매력적인지를 보장하는 데 도움을 줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Here is the Markdown format with the Korean translation:
 
@@ -225,7 +431,18 @@ Here is the Markdown format with the Korean translation:
 
 피드백: 앱은 사용자가 UI 구성 요소를 상호 작용할 때 명확한 피드백을 제공해야 합니다. 버튼이나 텍스트 입력란과 같은 것들과 상호작용할 때 사용자에게 명확한 피드백이 제공되어야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **마법의 순간**
 
@@ -241,8 +458,18 @@ Here is the Markdown format with the Korean translation:
 
 실제적인 예시가 없는 것 같아 아쉽네요. 하지만, 타로 친구와 함께하는 시간만큼 소중한 게 없죠. 지금 이 순간을 함께 감상해요.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - RelativeLayout을 사용하여 중첩된 LinearLayout 계층 구조의 레이아웃 패스를 줄입니다.
 - 비트맵 이미지의 메모리 풋프린트를 줄이기 위해 벡터 드로어블을 사용하세요.
@@ -254,45 +481,80 @@ Here is the Markdown format with the Korean translation:
 답변: "dp" 단위는 기기의 화면 밀도와 독립적인 방식으로 치수를 지정하는 데 사용됩니다. 이를 통해 UI 구성 요소가 다른 화면 밀도를 가진 기기 사이에서 동일하게 표시될 수 있습니다.
 
 ```java
-<Button 
-    android:layout_width="100dp" 
-    android:layout_height="50dp" 
+<Button
+    android:layout_width="100dp"
+    android:layout_height="50dp"
     android:text="Click me!" />
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ViewStub은 안드로이드에서 UI 구성 요소를 당김하여 필요할 때까지 인플레이션을 지연시킬 수 있는 가벼운 UI 구성 요소입니다. 앱 시작 시간을 개선하고 메모리 사용량을 줄일 수 있습니다.
 
 Markdown 형식의 코드:
+
 ```js
-<ViewStub 
-    android:id="@+id/stub" 
-    android:inflatedId="@+id/my_view" 
-    android:layout="@layout/my_layout" 
-    android:layout_width="match_parent" 
-    android:layout_height="wrap_content" />
+<ViewStub
+  android:id="@+id/stub"
+  android:inflatedId="@+id/my_view"
+  android:layout="@layout/my_layout"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+/>
 ```
 
 이 예에서는 ViewStub이 "my_layout" 레이아웃 파일을 필요할 때 인플레이트하도록 설정되어 있습니다. 인플레이트된 레이아웃은 "my_view" ID를 갖게 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 16. 안드로이드에서 다양한 화면 크기를 어떻게 처리하나요?
-답변: 안드로이드에서 다양한 화면 크기를 다루는 방법은 "layout-small", "layout-large", "layout-xlarge"와 같은 레이아웃 자격 증명을 사용하여 서로 다른 화면 크기를 위해 레이아웃 파일의 다른 버전을 제공하는 것입니다. 또한 "dp" 단위를 사용하여 디바이스의 화면 밀도와 독립적인 방식으로 치수를 지정할 수 있습니다.
+    답변: 안드로이드에서 다양한 화면 크기를 다루는 방법은 "layout-small", "layout-large", "layout-xlarge"와 같은 레이아웃 자격 증명을 사용하여 서로 다른 화면 크기를 위해 레이아웃 파일의 다른 버전을 제공하는 것입니다. 또한 "dp" 단위를 사용하여 디바이스의 화면 밀도와 독립적인 방식으로 치수를 지정할 수 있습니다.
 
 ```js
-res/ layout/ main.xml 
-res/ layout-small/ main.xml 
-res/ layout-large/ main.xml 
-res/ layout-xlarge/ main.xml
+res / layout / main.xml;
+res / layout - small / main.xml;
+res / layout - large / main.xml;
+res / layout - xlarge / main.xml;
 ```
 
 안드로이드 앱 아키텍처
 
 - Model-View-ViewModel (MVVM) 아키텍처란 무엇이며 다른 아키텍처와 어떻게 다를까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 답변: MVVM은 Android 앱을 세 가지 구성 요소로 나누어 인기 있는 아키텍처 패턴입니다: Model, View 및 ViewModel입니다. Model 구성 요소는 데이터와 비즈니스 로직을 나타내고, View 구성 요소는 UI를 나타내며, ViewModel은 Model과 View 구성 요소 사이에서 중재자 역할을 합니다. MVVM의 주요 장점은 각 구성 요소를 별도로 테스트하기 쉽게 만들고 데이터 바인딩을 활성화한다는 것입니다. 반면에 Model-View-Presenter(MVP)는 View와 Presenter 구성 요소를 분리하는 반면, Clean Architecture는 비즈니스 로직을 표현층과 분리하기 위해 계층을 사용합니다.
 
@@ -304,7 +566,18 @@ res/ layout-xlarge/ main.xml
 - ViewModel: UI 관련 데이터를 저장하고 관리하며, Model 구성 요소와 통신하며, 구성 변경을 살려냅니다.
 - DataBinding: UI 구성 요소가 ViewModel의 데이터 소스에 바인딩하도록 하는 라이브러리로서, findViewById() 호출을 제거합니다. 또한 데이터베이스 작업을 위해 Room, 화면 간 탐색을 위해 Navigation, 백그라운드 처리를 위해 WorkManager 등 다른 Jetpack 구성 요소를 사용할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 의존성 주입은 무엇이고 앱 아키텍처를 어떻게 개선하나요?
 
@@ -316,7 +589,18 @@ res/ layout-xlarge/ main.xml
 
 5. Jetpack의 ViewModel 구성 요소는 어떻게 앱 아키텍처를 개선하나요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 답변: Jetpack의 ViewModel 구성 요소는 UI와 사용자 입력과 같은 UI 관련 데이터를 저장하고 관리하는 데 사용됩니다. 화면 회전과 같은 구성 변경을 감지하여 상태를 유지하는 생명주기 인식 메커니즘을 사용하여 작동합니다. 이는 상태를 번들에 저장하는 방식과 같은 해결책이 필요 없게 하며 표현층과 데이터 층을 쉽게 분리할 수 있도록 합니다. 또한 Fragment와 같은 다중 UI 구성 요소 간 데이터 공유와 모듈식 앱 아키텍처를 촉진합니다.
 
@@ -326,7 +610,18 @@ res/ layout-xlarge/ main.xml
 
 7. Android 앱 개발에서 Model-View-Controller(MVC)와 Model-View-Presenter(MVP) 패턴의 차이점을 설명할 수 있나요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 답변: MVC 패턴은 앱을 모델(데이터 및 비즈니스 로직), 뷰(사용자 인터페이스), 그리고 컨트롤러(모델과 뷰 사이의 중재자) 세 가지 구성 요소로 분리합니다. MVP 패턴은 MVC 패턴을 기반으로 하며, 뷰와 모델 사이를 중개하는 프리젠터를 추가하여 사용자 입력을 처리하고 뷰를 업데이트합니다. MVP에서는 뷰와 모델이 독립적이므로 앱을 테스트하기 쉽습니다.
 
@@ -336,7 +631,18 @@ res/ layout-xlarge/ main.xml
 
 9. 안드로이드 앱 개발에서 Clean Architecture 패턴을 사용하는 이점을 설명해주시겠어요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 답변: LiveData의 사용은 안드로이드 앱 개발에서 어떻게 앱 아키텍처를 향상시키는가?
 
@@ -344,7 +650,18 @@ LiveData는 Jetpack 구성 요소 중 하나로, UI 계층에 변화 가능한 �
 
 ViewModel의 목적을 설명하고, 안드로이드 개발에서 UI 계층과의 관계에 대해 설명해 주실 수 있나요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 답변: 뷰모델은 Jetpack 컴포넌트로, UI와 관련된 데이터를 관리하기 위한 라이프사이클을 인식하는 컨테이너를 제공합니다. 뷰모델은 UI를 위한 데이터를 보유하며 구성 변경을 견뎌냅니다. UI와 데이터를 분리하여 UI와 데이터 계층 사이에 관심사를 깔끔하게 분리합니다.
 
@@ -354,7 +671,18 @@ ViewModel의 목적을 설명하고, 안드로이드 개발에서 UI 계층과�
 
 13. Android 앱 개발에서 Repository 패턴이 어떻게 작동하는지 설명해주실 수 있나요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 답변: 저장소 패턴은 로컬 데이터베이스나 원격 API와 같은 다양한 소스에서 데이터를 관리하는 데 사용됩니다. 저장소는 데이터 소스와 앱 간의 중재자 역할을 하며, 추상화 계층을 제공하여 데이터 소스를 교체하는 것을 쉽게 만들어 나머지 앱에 영향을 미치지 않도록 합니다.
 
@@ -364,7 +692,18 @@ ViewModel의 목적을 설명하고, 안드로이드 개발에서 UI 계층과�
 
 네트워킹 및 데이터 영속성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - '레트로핏(Retrofit)'이란 무엇이고 어떻게 작동합니까?
 
@@ -376,40 +715,63 @@ ViewModel의 목적을 설명하고, 안드로이드 개발에서 UI 계층과�
 
 위의 예시에서, "https://example.com/posts" URL로 GET 요청이 전송되며, 쿼리 매개변수 "userId"가 포함되어 있습니다. 응답은 포스트 객체들의 리스트로 예상됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Gson과 Jackson은 안드로이드에서 JSON 데이터를 파싱하는 데 사용되는 두 가지 인기 있는 자바 라이브러리입니다. Gson은 Google에서 개발되었으며 간단함과 사용 편의성으로 유명합니다. 한편 Jackson은 더 강력하고 기능이 풍부하지만 사용법이 더 복잡합니다. Gson은 Java 객체를 JSON으로 변환하거나 그 반대로 변환하기 위한 API 세트를 제공하며, Jackson은 JSON 처리를 위한 스트리밍 및 데이터 바인딩 API를 모두 제공합니다.
 
 ```java
-Gson gson = new Gson(); 
-String json = "{\"id\": 1, \"title\": \"Post Title\", \"body\": \"Post Body\"}"; 
+Gson gson = new Gson();
+String json = "{\"id\": 1, \"title\": \"Post Title\", \"body\": \"Post Body\"}";
 Post post = gson.fromJson(json, Post.class);
 ```
 
 위 예시에서는 Gson 라이브러리를 사용하여 JSON 문자열에서 Post 객체가 생성되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 룸(Room)은 안드로이드 앱의 로컬 데이터 저장을 위해 사용되는 안드로이드 Jetpack 라이브러리의 일부입니다. SQLite 데이터베이스 작업에 대한 추상화 계층을 제공하여 개발자가 쿼리, 삽입, 업데이트 및 삭제와 같은 일반적인 데이터베이스 작업을 수행하기 쉽게 해줍니다. 룸은 엔티티를 정의하는 데 어노테이션을 사용하며, 엔티티는 데이터베이스의 테이블을 표현하는 객체이며 DAO(Data Access Objects)는 데이터베이스에 액세스하기 위한 메서드를 제공하는 인터페이스입니다.
 
 위 예시에서 Post 엔티티는 기본 키와 테이블 이름을 지정하는 어노테이션을 사용하여 정의됩니다. 또한 PostDao 인터페이스는 Post 객체를 검색하고 삽입하는 메서드를 정의합니다.
 
 **참고:**
-```java
-@Entity(tableName = "posts") 
-public class Post { 
-     @PrimaryKey public int id; 
-     public String title; 
-     public String body; 
-} 
 
-@Dao 
-public interface PostDao { 
-     @Query("SELECT * FROM posts") 
-     List<Post> getAllPosts(); 
-     
-     @Insert 
-     void insertPost(Post post); 
+```java
+@Entity(tableName = "posts")
+public class Post {
+     @PrimaryKey public int id;
+     public String title;
+     public String body;
+}
+
+@Dao
+public interface PostDao {
+     @Query("SELECT * FROM posts")
+     List<Post> getAllPosts();
+
+     @Insert
+     void insertPost(Post post);
 }
 ```
 
@@ -417,25 +779,36 @@ public interface PostDao {
 
 다음 문제로 이어지는데, 안드로이드에서 동기식과 비동기식 네트워크 요청의 차이점에 대해 설명하겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 답변: 안드로이드에서 동기 네트워크 요청은 주 스레드에서 실행되어 응용 프로그램이 멈추고 민첩성이 떨어질 수 있습니다. 반면에 비동기 네트워크 요청은 백그라운드에서 별도의 스레드에서 실행되어 주 스레드가 계속하여 사용자 인터페이스 이벤트를 처리할 수 있습니다. 비동기 요청은 콜백(callbacks), 인터페이스(interfaces) 또는 Kotlin 코루틴을 사용하여 일반적으로 구현됩니다.
 
 ```java
-OkHttpClient client = new OkHttpClient(); 
-Request request = new Request.Builder() 
-          .url("https://example.com/posts") 
+OkHttpClient client = new OkHttpClient();
+Request request = new Request.Builder()
+          .url("https://example.com/posts")
           .build(); client.newCall(request)
-          .enqueue(new Callback() { 
-                  
-                @Override public void onResponse(Call call, Response response) throws IOException { 
-                String responseBody = response.body().string(); 
-                Log.d(TAG, responseBody); 
-           } 
-           
-           @Override public void onFailure(Call call, IOException e) { 
-                 Log.e(TAG, e.getMessage()); 
-           } 
+          .enqueue(new Callback() {
+
+                @Override public void onResponse(Call call, Response response) throws IOException {
+                String responseBody = response.body().string();
+                Log.d(TAG, responseBody);
+           }
+
+           @Override public void onFailure(Call call, IOException e) {
+                 Log.e(TAG, e.getMessage());
+           }
 });
 ```
 
@@ -443,7 +816,18 @@ Request request = new Request.Builder()
 
 5. 안드로이드에서 Retrofit은 무엇이며 어떻게 작동하나요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [정답] Retrofit은 안드로이드 애플리케이션에서 API 호출을하는 데 사용되는 인기있는 타입 안전 HTTP 클라이언트 라이브러리입니다. 웹 서비스에서 JSON 또는 XML 데이터를 검색하고 보내는 프로세스를 간소화합니다. API의 HTTP 엔드 포인트를 설명하는 인터페이스를 정의함으로써 작동하며 Retrofit은 런타임 중에 이 인터페이스의 구현을 생성하는 데 주의합니다. 예를 들어, 다음 코드 조각은 Retrofit을 사용하여 인터페이스를 정의하는 방법을 보여줍니다:
 
@@ -457,7 +841,18 @@ public interface MyApi {
 
 [답변] Room은 안드로이드에서 SQLite 위에 추상화 레이어를 제공하는 데이터베이스 라이브러리로, 안드로이드 애플리케이션에서 로컬 데이터 저장소를 다루는 것을 더 쉽게 만듭니다. 데이터베이스 스키마 정의, 데이터 쿼리, 데이터베이스 트랜잭션 관리 과정을 간소화합니다. Room은 SQL 쿼리의 컴파일 시간 확인을 제공하며 데이터베이스 스키마를 마이그레이션하기 쉽게 합니다. SQLite과 다른 점은 데이터베이스 작업에 대해 더 객체 지향적인 접근 방식을 제공하며 LiveData와 같은 다른 안드로이드 라이브러리와 통합되어 데이터베이스 변경 사항을 쉽게 관찰할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 7. REST과 SOAP API의 차이는 무엇인가요?
 
@@ -467,7 +862,18 @@ Answer: REST (Representational State Transfer)와 SOAP (Simple Object Access Pro
 
 Answer: 안드로이드에서는 Retrofit, OkHttp, 또는 Volley와 같은 라이브러리를 사용하여 네트워크 요청을 처리할 수 있습니다. 이러한 라이브러리는 API 요청을 쉽게 만들고 응답을 비동기적으로 처리하는 HTTP 클라이언트를 제공합니다. 요청 및 응답 데이터는 JSON 또는 XML 파서인 GSON 또는 Jackson을 사용하여 직렬화 및 역직렬화할 수 있습니다. 네트워크 요청은 별도의 스레드에서 수행되거나 메인 스레드를 차단하지 않도록 콜백이나 코루틴과 같은 비동기 메커니즘을 사용해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 9. Okhttp이란?
 
@@ -476,15 +882,26 @@ Answer: 안드로이드에서는 Retrofit, OkHttp, 또는 Volley와 같은 라�
 예시: 아래는 OkHttp를 이용하여 API에서 데이터를 가져오는 GET 요청을 수행하는 예시입니다:
 
 ```kotlin
-val client = OkHttpClient() 
-val request = Request.Builder() 
-   .url("https://api.example.com/users") 
-   .build() 
-val response = client.newCall(request).execute() 
+val client = OkHttpClient()
+val request = Request.Builder()
+   .url("https://api.example.com/users")
+   .build()
+val response = client.newCall(request).execute()
 val responseBody = response.body?.string() // 여기서 응답 본문을 처리합니다
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 10. HTTP 요청에서 Cache-Control 헤더의 목적은 무엇인가요? 대답: HTTP 요청에서의 Cache-Control 헤더는 응답이 클라이언트나 프록시와 같은 중간 캐시에 의해 어떻게 캐싱되어야 하는지를 지정합니다. 이 헤더 값에는 응답이 캐싱될 수 있는 최대 시간을 나타내는 max-age와 같은 지시자, 캐시 없이는 응답을 제공할 수 없다는 no-cache, 그리고 전혀 캐시할 수 없다는 no-store 등이 포함될 수 있습니다. Cache-Control 헤더는 응답의 캐싱 동작을 제어하는 데 유용하며, 네트워크 요청의 수를 줄이고 앱 성능을 향상시키는 데 도움이 됩니다.
 
@@ -494,7 +911,18 @@ val responseBody = response.body?.string() // 여기서 응답 본문을 처리�
 
 이 Android 인터뷰 여정에 동행해 주셔서 감사합니다! 저희 안내서가 여러분의 자신감과 통찰력을 높여 주었다면 👏 박수를 보내 주세요. 다가오는 인터뷰를 위한 당신의 신뢰할 수 있는 동반자로 이 문서를 즐겨찾기에 추가하고, 아래 댓글에 여러분의 제안과 생각을 꼭 남겨 주세요. 다가오는 제2부에 기대해 주세요. 거기에서는 Android 인터뷰 영역에 더 깊이 파고들어 당신의 경력에서 새로운 높이를 정복할 수 있는 지식과 전략을 제공할 것입니다. 여러분의 성공 스토리는 여기에서 시작됩니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Quest for Android Excellence: 인터뷰 에디션 2024 Part-II
 

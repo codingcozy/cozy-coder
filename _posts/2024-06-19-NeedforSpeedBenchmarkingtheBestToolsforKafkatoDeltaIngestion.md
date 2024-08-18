@@ -3,17 +3,13 @@ title: "최고의 Kafka에서 Delta 적재를 위한 도구들을 벤치마킹�
 description: ""
 coverImage: "/assets/img/2024-06-19-NeedforSpeedBenchmarkingtheBestToolsforKafkatoDeltaIngestion_0.png"
 date: 2024-06-19 01:41
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-NeedforSpeedBenchmarkingtheBestToolsforKafkatoDeltaIngestion_0.png
 tag: Tech
 originalTitle: "Need for Speed: Benchmarking the Best Tools for Kafka to Delta Ingestion"
 link: "https://medium.com/@canadiandataguy/need-for-speed-benchmarking-the-best-tools-for-kafka-to-delta-ingestion-e1969121ed2e"
 isUpdated: true
 ---
-
-
-
-
 
 # 소개
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 지연 시간은 중요한 지표이며, 하류 분석 및 의사 결정 프로세스에 사용 가능한 데이터의 신선도와 적시성에 직접적인 영향을 미칩니다. 모든 세 가지 도구가 Apache Spark의 구조적 스트리밍을 내부적으로 활용한다는 점을 강조해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 벤치마크 설정
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ## 입력 카프카 피드
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희가 수행한 벤치마크에서는 매 초 100개의 행을 생성하는 Kafka 피드를 활용했어요. 각 행은 대략 1MB로, 초당 100MB로 이루어져요. 연간으로 계산하면 약 3.15 페타바이트가 되어, 저희가 선택한 도구의 수신 능력을 평가하기 위한 엄격한 테스트 베드가 됐어요.
 
@@ -43,7 +61,18 @@ Confluent Cloud를 사용하여 6개 파티션으로 Kafka 클러스터를 설�
 
 ## 비교 도구
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Databricks 작업: Kafka에서 읽고 Delta Lake 테이블에 쓰기 위해 Apache Spark Structured Streaming을 활용합니다. 작업 구성 및 예약에 유연성을 제공하지만 클러스터 리소스의 수동 관리가 필요합니다.
 - Delta Live Tables (DLT): Kafka에서 Delta Lake로 데이터를 입력하기 위해 선언적 접근 방식을 사용하며, 인프라를 자동으로 관리하고 파이프라인 개발을 간소화합니다.
@@ -64,7 +93,7 @@ def run_analysis_about_latency(table_name: str) -> DataFrame:
           -- 테이블의 역사적 변화 설명
           DESCRIBE HISTORY {table_name}
         ),
-        
+
         -- 이전 쓰기 작업의 타임스탬프를 계산하는 뷰 정의
         VW_TABLE_HISTORY_WITH_previous_WRITE_TIMESTAMP AS (
           SELECT
@@ -80,7 +109,7 @@ def run_analysis_about_latency(table_name: str) -> DataFrame:
           WHERE
             operation = 'STREAMING UPDATE'
         ),
-        
+
         -- 연속 커밋 간의 밀착 정도를 분석하는 뷰 정의
         VW_BOUND_ANALYSIS_TO_N_COMMITS AS (
           SELECT
@@ -97,7 +126,7 @@ def run_analysis_about_latency(table_name: str) -> DataFrame:
           LIMIT
             300  -- 최근 300개 커밋만 분석
         )
-        
+
         -- 쓰기 지연 시간에 대한 다양한 통계 계산
         SELECT
           avg(elapsed_time_ms) AS average_write_latency,
@@ -112,7 +141,18 @@ def run_analysis_about_latency(table_name: str) -> DataFrame:
     display(spark.sql(sql_code))
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 데이터 수집
 
@@ -151,11 +191,11 @@ schema = StructType() \
 def read_kafka_stream():
     kafka_stream = (spark.readStream
       .format("kafka")
-      .option("kafka.bootstrap.servers", kafka_bootstrap_servers_tls ) 
+      .option("kafka.bootstrap.servers", kafka_bootstrap_servers_tls )
       .option("subscribe", topic )
       .option("failOnDataLoss","false")
       .option("kafka.security.protocol", "SASL_SSL")
-      .option("kafka.sasl.mechanism", "PLAIN") 
+      .option("kafka.sasl.mechanism", "PLAIN")
       .option("kafka.sasl.jaas.config", f'kafkashaded.org.apache.kafka.common.security.plain.PlainLoginModule required username="{kafka_api_key}" password="{kafka_api_secret}";')
       .option("minPartitions",12)
       .load()
@@ -167,7 +207,18 @@ def read_kafka_stream():
 
 ## 설명:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Connection Setup: 특정 부트스트랩 서버를 사용하여 Kafka에 연결하고 SASL_SSL과 같은 보안 설정을 포함하여 암호화 및 인증된 데이터 전송을 합니다.
 - Topic Subscription: 지정된 Kafka 주제에 가입하여 계속해서 새로운 데이터를 수신합니다.
@@ -181,16 +232,24 @@ def read_kafka_stream():
 
 구성: 이 방법은 Databricks 작업 및 클러스터 리소스를 설정하는 것을 포함하며 유연한 스케줄링 및 흡수 프로세스 모니터링을 가능하게 합니다만, 올바른 컴퓨팅을 선택하는 것을 이해해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-(  
-  read_kafka_stream()
-  .writeStream
-  .option("checkpointLocation",checkpoint_location_for_delta)
-  .trigger(processingTime='1 second')
-  .toTable(target)
-)
+read_kafka_stream()
+  .writeStream.option("checkpointLocation", checkpoint_location_for_delta)
+  .trigger((processingTime = "1 second"))
+  .toTable(target);
 ```
 
 ## Delta Live Tables에 대한 추가 코드
@@ -199,7 +258,18 @@ def read_kafka_stream():
 
 이 코드 스니펫은 Delta Live Tables (DLT) API를 사용하여 Kafka에서 스트리밍 데이터를 수신하는 데이터 테이블을 정의합니다. @dlt.table 데코레이터를 사용하여 테이블의 이름을 지정하고 (원하는 테이블 이름으로 대체), 파이프라인을 매 초 Kafka를 폴링하도록 설정합니다. 이 신속한 폴링은 거의 실시간 데이터 처리 요구를 지원합니다. dlt_kafka_stream() 함수는 read_kafka_stream()을 호출하여 Kafka 스트리밍을 DLT로 직접 통합하여 Databricks 환경 내에서의 관리 및 운영을 간소화합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @dlt.table(name="여기에 바꿔야 할 DLT 테이블 이름",
@@ -213,9 +283,20 @@ def dlt_kafka_stream():
 저희의 벤치마크 결과에 따르면, 델타 라이브 테이블 서버리스는 대기 시간 성능과 운영 간소화 측면에서 우수한 성과를 보여주며, 다양한 데이터 부하가 있는 시나리오에 매우 적합합니다. 한편, 데이타브릭스 잡과 델타 라이브 테이블도 실용적인 솔루션을 제공합니다.
 
 - 대기 시간 비교: 델타 라이브 테이블의 서버리스 버전은 모든 측정 백분위수에서 대기 시간 측면에서 다른 것들을 능가합니다.
-- 운영 복잡성: 델타 라이브 테이블 서버리스는 수동 인프라 관리가 필요하지 않은 가장 단순한 설정을 제공하며, 그 다음으로 델타 라이브 테이블, 그리고 데이타브릭스 잡이 이어집니다. 
+- 운영 복잡성: 델타 라이브 테이블 서버리스는 수동 인프라 관리가 필요하지 않은 가장 단순한 설정을 제공하며, 그 다음으로 델타 라이브 테이블, 그리고 데이타브릭스 잡이 이어집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Delta Live Tables Serverless가 표준 Delta Live Tables를 능가하는 이유
 
@@ -225,7 +306,18 @@ Delta Live Tables Serverless가 표준 Delta Live Tables보다 우수한 성능�
 
 Stream Pipelining과 수직 자동 스케일링은 운영 복잡성을 감소시키고 Serverless DLT 파이프라인의 신뢰성 및 비용 효율성을 향상시킵니다. 이러한 기능을 통해 Serverless DLT는 수동 개입을 최소화하면서 변동하는 데이터 입력 부하를 처리하는 데 이상적인 선택지가 되어 더 빠르고 효율적인 데이터 파이프라인 실행을 실현합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 각주:
 

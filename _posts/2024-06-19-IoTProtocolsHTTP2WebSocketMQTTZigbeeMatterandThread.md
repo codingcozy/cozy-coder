@@ -3,17 +3,13 @@ title: "사물 인터넷 프로토콜  HTTP 2, WebSocket, MQTT, Zigbee, Matter �
 description: ""
 coverImage: "/assets/img/2024-06-19-IoTProtocolsHTTP2WebSocketMQTTZigbeeMatterandThread_0.png"
 date: 2024-06-19 05:42
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-IoTProtocolsHTTP2WebSocketMQTTZigbeeMatterandThread_0.png
 tag: Tech
 originalTitle: "IoT Protocols | HTTP 2, WebSocket, MQTT, Zigbee, Matter, and Thread."
 link: "https://medium.com/code-factory-berlin/iot-protocols-http-2-websocket-mqtt-zigbee-matter-and-thread-bf93eef3fb0c"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-19-IoTProtocolsHTTP2WebSocketMQTTZigbeeMatterandThread_0.png" />
 
@@ -23,7 +19,18 @@ IoT 장치는 우리 삶 속에 어디에나 존재합니다. 직장에서, 집�
 
 각 프로토콜의 주요 기능을 ChatGPT가 요약한 것을 주의해 주세요 :)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # HTTP/2
 
@@ -33,17 +40,39 @@ HTTP/2는 IoT 통신에 여러 가지 개선 사항을 가져왔습니다. 다�
 
 [HTTP/2 (github.com)](https://github.com)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 웹소켓
 
-HTTP/1의 전통적인 요청-응답 모델과는 다르게 웹소켓은 클라이언트와 서버 간에 실시간, 양방향 통신을 하나의 TCP 연결을 통해 가능하게 합니다. 이는 HTTP/2와 유사한 풀-듀플렉스 형태를 띠고 있습니다. 웹소켓은 클라이언트와 서버 간의 연결을 유지하며 오버헤드와 지연 시간을 줄여줍니다. 웹소켓은 경량 헤더를 사용하여 HTTP/1에 비해 오버헤드가 낮습니다. 이는 작은 데이터 패킷을 자주 보내는 것에 효율적이며 특히 실시간 애플리케이션에 유용합니다. 
+HTTP/1의 전통적인 요청-응답 모델과는 다르게 웹소켓은 클라이언트와 서버 간에 실시간, 양방향 통신을 하나의 TCP 연결을 통해 가능하게 합니다. 이는 HTTP/2와 유사한 풀-듀플렉스 형태를 띠고 있습니다. 웹소켓은 클라이언트와 서버 간의 연결을 유지하며 오버헤드와 지연 시간을 줄여줍니다. 웹소켓은 경량 헤더를 사용하여 HTTP/1에 비해 오버헤드가 낮습니다. 이는 작은 데이터 패킷을 자주 보내는 것에 효율적이며 특히 실시간 애플리케이션에 유용합니다.
 
 HTTP/2와 웹소켓 사이의 유사점을 주목하고 묻는 것이 좋습니다: 왜 새로운 기술인 HTTP/2를 사용하지 않는 대신에 웹소켓을 사용해야 하는 것일까요? 핵심은 HTTP/2에 소개된 서버 푸시가 데이터를 클라이언트에게 직접이 아닌 클라이언트 애플리케이션으로 전송하는 것이라는 점입니다. 따라서 많은 기기는 웹소켓에서 제공하는 추가적인 핸드쉐이크와 유사한 것이 여전히 필요할 것입니다.
 
 [http2 — Does HTTP/2 make websockets obsolete? — Stack Overflow](#)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹소켓/ws: Node.js를 위한 사용하기 쉽고 빠르며 철저히 테스트된 WebSocket 클라이언트 및 서버입니다. (github.com)
 
@@ -53,7 +82,18 @@ HTTP/2와 웹소켓 사이의 유사점을 주목하고 묻는 것이 좋습니�
 
 다음은 MQTT의 주요 기능 중 일부입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 가볍고 효율적인: MQTT는 가벼우며 효율적으로 설계되어, 리소스가 제한된 기기와 저대역폭 네트워크에 적합합니다. 작은 메시지 헤더와 이진 페이로드 형식을 사용하여 데이터 오버헤드를 최소화합니다.
 - 서비스 품질(QoS) 수준: MQTT는 신뢰할 수 있는 메시지 전달을 보장하기 위해 다양한 수준의 서비스 품질을 지원합니다. 세 가지 QoS 수준은 "최대 한 번" (발송 및 소멸), "적어도 한 번" (확인) 및 "정확히 한 번" (보증 전달)입니다. 적절한 수준은 응용 프로그램 요구 사항에 기반하여 선택할 수 있습니다.
@@ -66,7 +106,18 @@ eclipse/mosquitto: Eclipse Mosquitto — 오픈 소스 MQTT 브로커 (github.co
 
 지그비는 무선 통신 프로토콜입니다. 스마트 홈, 건물 자동화, 산업 자동화 및 무선 센서 네트워크를 포함한 다양한 분야에서 응용되었습니다. 저전력 소비, 망 네트워킹 및 신뢰성에 중점을 둔 지그비는 배터리 구동 기기가 로컬 네트워크 내에서 무선으로 통신해야 하는 시나리오에 적합합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Zigbee의 주요 특성과 기능은 다음과 같습니다:
 
@@ -79,7 +130,18 @@ SmartThingsCommunity/SmartThingsPublic: SmartThings 오픈 소스 DeviceType Han
 
 # Matter
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Matter 프로토콜은 Apple, Google, Amazon 및 Zigbee Alliance를 포함한 주요 기술 회사들을 결합한 오픈 소스, 로열티 없는 연결 프로토콜입니다. Matter의 목표는 서로 다른 제조업체의 스마트 홈 기기들이 어떤 기술을 기반으로 하든 상호 운용성과 쉬운 설정을 가능케 하는 것입니다.
 
@@ -92,7 +154,18 @@ Matter 프로토콜은 Apple, Google, Amazon 및 Zigbee Alliance를 포함한 �
 
 프로젝트-chip/connectedhomeip: Matter (이전 Project CHIP)는 더 많은 객체 간 더 많은 연결을 만들어 제조업체들에게 개발을 단순화하고 소비자들에게 호환성을 높이도록 안내되는 Connectivity Standards Alliance의 지도 아래 놓인 것입니다. (github.com)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 쓰레드
 
@@ -105,7 +178,18 @@ Matter 프로토콜은 Apple, Google, Amazon 및 Zigbee Alliance를 포함한 �
 - 저전력 소비: 쓰레드는 에너지 효율적으로 설계되어, 장치들이 장기간 배터리 전원으로 작동할 수 있도록 합니다. 저전력 주기 운영, 수면 모드 및 효율적인 라우팅 프로토콜과 같은 메커니즘을 통해 전력 소비를 최소화합니다.
 - 쉬운 설정 및 인가: 쓰레드는 네트워크 내에서 장치를 설정하고 인가하는 프로세스를 간단화합니다. 사용자 경험을 향상시키기 위해, 장치의 쉬운 발견, 온보딩 및 구성을 제공하여 배포의 복잡성을 줄입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 openthread/openthread: 구글에서 공개한 OpenThread은 Thread 네트워킹 프로토콜의 오픈 소스 구현입니다 (github.com)
 
@@ -115,7 +199,18 @@ openthread/openthread: 구글에서 공개한 OpenThread은 Thread 네트워킹 
 
 HTTP/2 및 WebSocket은 주로 웹 기반 응용프로그램에 사용되며, HTTP/2는 효율적이고 다중화된 통신을 제공하며, WebSocket은 클라이언트와 서버 간 실시간 양방향 통신을 가능하게 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 MQTT, Matter, Thread, 그리고 Zigbee는 IoT 애플리케이션을 위해 특별히 설계된 프로토콜로, 메시징, 상호 운용성, 메시 네트워킹, 그리고 저전력 기능에 중점을 둡니다.
 

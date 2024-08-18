@@ -3,17 +3,13 @@ title: "위성 열 영상을 1000m에서 10m로 다운스케일링하는 방법 
 description: ""
 coverImage: "/assets/img/2024-06-22-DownscalingaSatelliteThermalImagefrom1000mto10mPython_0.png"
 date: 2024-06-22 16:48
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-DownscalingaSatelliteThermalImagefrom1000mto10mPython_0.png
 tag: Tech
 originalTitle: "Downscaling a Satellite Thermal Image from 1000m to 10m (Python)"
 link: "https://medium.com/towards-data-science/downscaling-a-satellite-thermal-image-from-1000-m-to-10-m-python-3b2ed19ff103"
 isUpdated: true
 ---
-
-
-
-
 
 ![image](/assets/img/2024-06-22-DownscalingaSatelliteThermalImagefrom1000mto10mPython_0.png)
 
@@ -30,7 +26,18 @@ isUpdated: true
 
 ## 🌅 소개
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위성에서 촬영한 열화상 이미지를 축소하는 연구는 열화상 이미지를 제공하는 위성들의 공간 및 시간 해상도 사이의 상충 관계 때문에 광범위하게 연구되었습니다. 예를 들어, Landsat-8의 재방문 주기는 16일이며, 원래 열 해상도는 100미터입니다. 반면에 Sentinel-3은 매일 열화상 이미지를 제공할 수 있지만, 공간 해상도는 1000미터입니다.
 
@@ -40,7 +47,18 @@ isUpdated: true
 
 그러나 이 접근 방식은 수십억 달러의 투자와 몇 년의 노력이 필요합니다. 대신, 연구자들은 통계적 방법에 집중하여, 공간 해상도는 높지만 임시 해상도는 낮은 위성의 시정/근적외선 (VNIR) 밴드를 열화상 이미지와 상관시킴으로써 열화상 이미지의 낮은 공간 해상도 (하지만 높은 임시 해상도)와 연관시키는데 초점을 맞추었습니다. 예를 들어, 연구들은 Sentinel-2의 VNIR 밴드로부터 계산된 정규화 된 차이 채취 지수 (NDVI)가 Sentinel-3의 열화상 이미지와 역 상관 관계가 있음을 보여주었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 답변을 요약하면 Sentinel-2의 NDVI와 Sentinel-3의 열화상 이미지 간의 상관 관계가 충분히 강하다면, 해당 방정식을 10m 해상도로 조정하여 10m 해상도의 열화상 이미지를 생성할 수 있습니다.
 
@@ -50,7 +68,18 @@ isUpdated: true
 
 ## 💾 Sentinel-3(1000 m) 및 Sentinel-2 이미지(10 m) 다운로드
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미 R 및 Python에서 Sentinel-2 이미지를 다운로드하는 방법에 대해 세 번의 게시물을 작성했습니다. 또한 Python에서 Sentinel-3 이미지를 다운로드하는 방법에 대한 게시물도 있습니다. 이곳에서는 해당 단계들을 반복하고 싶지 않아서 이 게시물을 참조하시기 바랍니다:
 
@@ -60,7 +89,18 @@ Python에서 Sentinel-2 이미지 다운로드:
 
 Python에서 Sentinel-3 이미지 다운로드:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 코드를 작성하지 않고 이미지를 다운로드하고 싶지 않다면, 다음 게시물을 확인해보세요:
 
@@ -70,8 +110,18 @@ Python에서 Sentinel-3 이미지 다운로드:
 
 Sentinel-2: S2B_MSIL2A_20230620T183919_N0509_R070_T10SFG_20230620T224951
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 satellite = “SENTINEL-2”
 
@@ -81,9 +131,18 @@ AOI = “POLYGON ((-121.0616 37.6391, -120.966 37.6391, -120.966 37.6987, -121.0
 
 start_date = “2023–06–19” ; end_date = “2023–06–21”
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 satellite = “SENTINEL-3”
 
@@ -91,8 +150,18 @@ level= “LST”
 
 AOI = “POLYGON ((-121.0616 37.6391, -120.966 37.6391, -120.966 37.6987, -121.0616 37.6987, -121.0616 37.6391))”
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 start_date = “2023–06–19” ; end_date = “2023–06–21”
 
@@ -102,7 +171,18 @@ Sentinel-2에서 NIR 및 레드 밴드(NDVI를 계산하는 데 필요한 밴드
 
 ## ⚙️ Sentinel-3 이미지 처리
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Sentinel-3 이미지는 Sentinel-2보다 훨씬 넓은 장면을 커버합니다. 따라서 Sentinel-3 각 픽셀의 평균 NDVI 값을 필요로 하므로 Sentinel-3 이미지를 Sentinel-2 이미지의 범위에 따라 클리핑해야 합니다. 이를 위해 첫 번째 단계는 Sentinel-3 이미지를 Sentinel-2 이미지와 동일한 투영으로 재매핑하는 것입니다. 이를 수행하기 위해 다음과 같은 코드를 사용할 수 있습니다:
 
@@ -149,8 +229,18 @@ with rasterio.open(input_raster) as src:
 
 ![image](/assets/img/2024-06-22-DownscalingaSatelliteThermalImagefrom1000mto10mPython_3.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Sentinel-3 열화상 이미지가 Sentinel-2 좌표 시스템으로 변경되었으므로 이제 Sentinel-2 데이터 범위를 기반으로 열화상 이미지를 잘라내는 작업을 할 수 있습니다. 아래 코드를 사용하여 작업할 수 있어요:
 
@@ -187,7 +277,18 @@ with rasterio.open('T10SFG_20230620T183919_B08_10m.jp2') as small_raster:
 
 <img src="/assets/img/2024-06-22-DownscalingaSatelliteThermalImagefrom1000mto10mPython_4.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 NDVI 및 클리핑된 온도 맵을 옆으로 나란히 플롯해 봅시다:
 
@@ -235,8 +336,18 @@ plt.show()
 
 위와 같이 Sentinel-3 열화상 이미지를 Sentinel-2 맵의 범위에 맞게 성공적으로 클립했습니다. 그러나 Sentinel-2 이미지도 잘린 상태이며, 온도 픽셀의 평균 NDVI 값을 얻기 위해 존속 통계를 실행하면 많은 NaN 값을 얻게 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-22-DownscalingaSatelliteThermalImagefrom1000mto10mPython_6.png)
 
@@ -246,8 +357,18 @@ plt.show()
 
 같은 투영 및 범위를 갖는 두 개의 명확한 이미지, 즉 센티넬-3에서의 열화상 이미지와 센티넬-2에서의 VNIR 이미지가 있을 때, 각 온도 픽셀의 평균 NDVI 값을 얻기 위해 존 채택 통계를 실행할 수 있습니다. 기본적으로 존 채택 통계 방식을 통해 10m에서 1000m로 NDVI 지도를 집계하여 온도-NDVI 공간에서 온도 값에 대한 NDVI 값을 플로팅할 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 소개에서 언급했듯이 열값은 NDVI 값과는 역상관 관계에 있어야 합니다. 높은 NDVI는 식물의 비율이 더 높은 것을 나타내며 더 차가운 픽셀에 해당하고, 낮은 NDVI는 적은 식물이나 벌거벗은 토양에 해당하여 더 따뜻한 픽셀에 해당합니다. 우리의 AOI(관심 영역)에서 열과 NDVI 값 사이의 공간을 탐색하기 위해 존솔 통계를 수행해 보겠습니다:
 
@@ -304,7 +425,18 @@ print(stats_df)
 
 이 스크립트에서는 열 래스터를 여각화하고, Sentinel-2 이미지에서 NDVI를 계산하고, 각 온도 픽셀에 대한 존솔 통계(평균 NDVI)를 계산합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 표와 이전에 논의한 것처럼, Sentinel-3에서 열화 데이터를 가지고 있는 일부 픽셀에는 NaN 값이 있습니다. 이는 Sentinel-2 이미지의 자른 부분 때문입니다. Sentinel-2에서 NaN 값을 가진 행을 제외하겠습니다:
 
@@ -318,7 +450,18 @@ df_clean
 
 <img src="/assets/img/2024-06-22-DownscalingaSatelliteThermalImagefrom1000mto10mPython_8.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 깔끔한 데이터프레임을 사용하여 온도-NDVI 공간을 그래프로 표현할 수 있어요:
 
@@ -346,7 +489,18 @@ plt.show()
 
 <img src="/assets/img/2024-06-22-DownscalingaSatelliteThermalImagefrom1000mto10mPython_9.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 그림에서 NDVI와 온도 사이의 역상관 관계를 관찰할 수 있지만 몇 가지 점이 이상치로 나타납니다. 이는 식물 및 맨 소토 외의 다른 특징을 나타내는 이미지의 픽셀 때문일 수 있습니다. 이러한 픽셀을 제거하기 위해 NDVI 값이 0.1에서 0.6 사이이고 온도 값이 300 켈빈에서 330 켈빈 사이인 값만 유지한 다음, 그에 맞게 그림을 업데이트하겠습니다:
 
@@ -392,7 +546,18 @@ plt.show()
 
 <img src="/assets/img/2024-06-22-DownscalingaSatelliteThermalImagefrom1000mto10mPython_10.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제는 역상관 관계가 더 잘 보이고 있으며, NDVI 값과 온도 간 관계를 설명하는 방정식도 나와 있습니다.
 
@@ -438,7 +603,18 @@ fig.colorbar(im2, ax=ax2, shrink=0.7)
 plt.show()
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 NIR 및 빨간색 대역을 읽어 NDVI를 계산하고 유도된 방정식에 기반하여 온도 값을 추정합니다. 다음으로, NDVI 및 온도에 대한 결과를 시각화하여 옆에 플롯을 표시합니다. 지도는 다음과 같습니다:
 
@@ -448,7 +624,18 @@ NIR 및 빨간색 대역을 읽어 NDVI를 계산하고 유도된 방정식에 �
 
 이 섹션에서는 시각화 측면에 더욱 집중할 것입니다. 우리는 이미지의 중앙 영역을 확대하고, 이미지를 중앙을 기준으로 자릅니다. 또한 온도 차트를 제시하기 위해 Sentinel-2의 NDVI 지도, 원본 Sentinel-3 열 영상(1000m 해상도) 및 분석 결과를 기반으로한 날카로운 Sentinel-3 영상(10m 해상도)을 비교 및 자세한 검토를 위해 옆에 함께 제시할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 # NDVI 및 온도를 옆으로 나란히 플로팅합니다
@@ -495,8 +682,18 @@ plt.show()
 
 ## 📄 결론
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Visible과 Near-Infrared (VNIR) 대역과 열 이미지 간의 직접적 상관 관계는 열 이미지의 해상도를 향상시키는 유용한 방법으로 입증되었습니다. 이 기술은 위성의 적절한 공간 해상도를 가진 위성이 없을 때 온도를 높은 공간 해상도로 추정하는 데 실용적으로 활용됩니다. 이 다운스케일링 방법은 고해상도 열지도가 필요할 때 유용한 도구로 작용하며 소규모 온도 변화에 대한 세부 정보를 제공합니다. 앞으로 더 많은 고급 열 센서를 갖춘 위성을 발사함에 따라 빈도가 더 높은 고해상도 열 이미지를 얻을 수 있게 될 것입니다. 그 전까지는 이 방법이 더 높은 해상도의 열 이미지를 구현하는 비용 효율적인 선택지로 남아 있습니다.
 
@@ -506,7 +703,18 @@ Copernicus 센티넬 데이터 [2024] - 센티넬 데이터에 대한 정보
 
 Copernicus 서비스 정보 [2024] - Copernicus 서비스 정보에 관한 정보
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아감, N., 쿠스타스, W. P., 앤더슨, M. C., 리, F., 닐, C. M. U. (2007). 열화상 이미지 공간 개선을 위한 식물 지수 기반 기술. Remote Sensing of Environment, 107(4), 545–558. ISSN 0034–4257.
 
@@ -516,6 +724,17 @@ Copernicus 서비스 정보 [2024] - Copernicus 서비스 정보에 관한 정�
 
 📱 저와 더 다양한 콘텐츠를 공유하려면 다른 플랫폼에서 연락하세요! LinkedIn, ResearchGate, Github 및 Twitter.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 해당 링크를 통해 제공되는 관련 게시물들이 있습니다:

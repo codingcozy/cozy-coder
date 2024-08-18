@@ -3,17 +3,13 @@ title: "라즈베리 파이를 위한 자체 Linux 이미지 만들기"
 description: ""
 coverImage: "/assets/img/2024-06-20-BuildyourownLinuxImagefortheRaspberryPi_0.png"
 date: 2024-06-20 17:22
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-BuildyourownLinuxImagefortheRaspberryPi_0.png
 tag: Tech
 originalTitle: "Build your own Linux Image for the Raspberry Pi"
 link: "https://medium.com/nerd-for-tech/build-your-own-linux-image-for-the-raspberry-pi-f61adb799652"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-20-BuildyourownLinuxImagefortheRaspberryPi_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # Yocto Project
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Yocto를 사용하여 자체 Linux 배포판을 빌드할 거에요.
 
@@ -33,7 +40,18 @@ Yocto Project의 다양한 부분을 자세히 살펴보려면 공식 웹사이�
 
 첫 번째 이미지를 위해 접하게 되는 것은 메타 레이어와 BitBake입니다. 이 두 요소가 시스템의 핵심을 형성합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 메타 레이어
 
@@ -43,7 +61,18 @@ Yocto는 대부분 레시피와 구성 데이터를 포함하는 여러 가지 �
 
 BitBake는 빌드를 위한 중앙 명령줄 도구입니다. 이것은 원래 OpenEmbedded 프로젝트의 일부였지만, 현재 Yocto 프로젝트와 OpenEmbedded 프로젝트에서 유지보수되는 독립적인 도구입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 빌드 시스템 설정
 
@@ -53,7 +82,18 @@ Yocto 프로젝트의 Mega Manual에서 빌드 시스템 호스트로 최종 테
 
 첫 번째 단계는 Yocto의 선행 조건을 설치하는 것입니다. 이 명령어는 Ubuntu 또는 Debian에서 모든 패키지를 설치합니다. Mega Manual에서 다른 예제를 찾을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 메타 레이어 가져오기
 
@@ -67,7 +107,18 @@ cd yocto
 mkdir sources
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 항상 필요한 메타 레이어는 poky입니다. yocto가 작동하는 데 필요한 모든 기본적인 것들이 포함되어 있어요. 아래의 git 명령어를 실행하여 가져올 수 있어요.
 
@@ -81,7 +132,18 @@ git clone git://git.yoctoproject.org/poky -b dunfell
 git clone git://git.yoctoproject.org/meta-raspberrypi -b dunfell
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 메타 레이어는 항상 어떤 메타 레이어에 의존하는지를 명시합니다. meta-raspberrypi의 readme에는 우리가 이미 가지고 있는 poky와 meta-openembedded이 필요하다고 나와 있습니다. 이 메타 레이어 자체는 여러 레이어로 나뉘어져 있습니다. 이 명령어를 통해 그 모든 레이어를 가져올 수 있습니다.
 
@@ -96,7 +158,18 @@ cd ..
 . sources/poky/oe-init-build-env
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째 이미지를 생성할 준비가 거의 끝났어요. 두 개의 구성 파일을 편집하기만 하면 됩니다.
 
@@ -108,7 +181,18 @@ nano conf/bblayers.conf
 
 마지막으로, conf 폴더에 있는 local.conf 파일은 몇 가지 기본 구성 및 우리에게 가장 중요한 빌드할 기기의 이름이 포함되어 있어요. 만약 라즈베리 파이 4를 위해 빌드하려면 raspberrypi4를 사용하고, 라즈베리 파이 3을 위해 빌드하려면 raspberrypi3를 사용하세요. 이게 Yocto를 사용하는 큰 이점 중 하나에요. 다른 시스템을 위해 동일한 이미지를 빌드하려면 한 줄의 구성만 바꾸면 돼요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 nano conf/local.conf
@@ -123,9 +207,20 @@ MACHINE ?= "raspberrypi4"
 bitbake core-image-base
 ```
 
-축하합니다! 라즈베리 파이를 위한 첫 번째 Linux 이미지를 빌드했습니다. 완성된 이미지는 tmp/deploy/images/repberrypi4/core-image-base-raspberrypi4.wic.bz2 경로에 있습니다. 이 파일은 압축되어 있습니다. 압축을 해제하려면 bzip2 명령 또는 7zip과 같은 도구를 사용하세요. 
+축하합니다! 라즈베리 파이를 위한 첫 번째 Linux 이미지를 빌드했습니다. 완성된 이미지는 tmp/deploy/images/repberrypi4/core-image-base-raspberrypi4.wic.bz2 경로에 있습니다. 이 파일은 압축되어 있습니다. 압축을 해제하려면 bzip2 명령 또는 7zip과 같은 도구를 사용하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 bzip2 -d -f tmp/deploy/images/raspberrypi4/core-image-base-raspberrypi4.wic.bz2
@@ -137,7 +232,18 @@ bzip2 -d -f tmp/deploy/images/raspberrypi4/core-image-base-raspberrypi4.wic.bz2
 
 기본적으로 사용자 이름은 root이고 비밀번호는 비어 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 다음 단계
 
@@ -146,9 +252,20 @@ bzip2 -d -f tmp/deploy/images/raspberrypi4/core-image-base-raspberrypi4.wic.bz2
 그동안 당신이 Yocto에 대해 계속 학습하고자 한다면, 스스로 학습을 계속하기 위한 시작점을 제공하겠습니다. 이미지에 추가 소프트웨어가 필요하다면, 먼저 OpenEmbedded Layer Index에서 시작해보세요. 거기서 소프트웨어 레시피가 포함된 메타 레이어를 검색할 수 있습니다. 그 레이어를 다운로드하여 bblayers.conf에 추가하고, 이미 존재하지 않은 경우에만 추가하세요. 그런 다음 레시피 이름을 local.conf 파일의 IMAGE_INSTALL_append에 추가하세요.
 
 ```js
-IMAGE_INSTALL_append = " nano"
-```  
+IMAGE_INSTALL_append = " nano";
+```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지를 다시 빌드하고 플래시하세요. 그러면 준비 끝!

@@ -3,17 +3,13 @@ title: "하나의 Kubernetes 명령어가 초래한 비극"
 description: ""
 coverImage: "/assets/img/2024-07-09-ATragedyCausedbyaSingleKubernetesCommand_0.png"
 date: 2024-07-09 22:55
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-ATragedyCausedbyaSingleKubernetesCommand_0.png
 tag: Tech
 originalTitle: "A Tragedy Caused by a Single Kubernetes Command"
 link: "https://medium.com/@zouyee/a-tragedy-caused-by-a-single-kubernetes-command-7b6126b06513"
 isUpdated: true
 ---
-
-
-
-
 
 # 설명
 
@@ -25,7 +21,18 @@ CentOS의 EOL로 인해 작년에는 내부적으로 새 OS로 이주하는 데 
 container.go:422] "/kubepods.slice/kubepods-besteffort.slice/kubepods-besteffort-podXXX.slice"의 cpu 로드 리더를 초기화할 수 없음: netlink를 기반으로 한 cpuload 리더를 만들지 못했습니다: 작업 통계를 위한 Netlink 패밀리 ID를 가져 오지 못했습니다: binary.Read: 잘못된 유형 int32
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 기술적 배경
 
@@ -37,7 +44,18 @@ container.go:422] "/kubepods.slice/kubepods-besteffort.slice/kubepods-besteffort
 
 # cadvisor
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 cAdvisor은 컨테이너 환경에 특별히 설계된 강력한 Docker 컨테이너 모니터링 도구로, 자원 사용량 및 성능 분석을 용이하게 합니다. 컨테이너에 관한 relevant 정보를 수집, 집계, 처리하고 출력하는 데 사용됩니다. cAdvisor는 Docker 컨테이너 및 다른 유형의 컨테이너 실행 환경을 지원합니다.
 
@@ -47,7 +65,18 @@ Kubelet은 cAdvisor에 대한 내장 지원을 갖고 있어 사용자가 Kubele
 
 아래는 주요 기능 코드이며, 가독성을 높이기 위한 주석이 포함되어 있습니다. 코드 경로는 다음과 같습니다: /cadvisor/cmd/cadvisor.go.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 cAdvisor는 주로 다음과 같은 작업을 수행합니다:
 
@@ -65,8 +94,18 @@ func init() {
 
 위 코드에서 볼 수 있듯이 cAdvisor는 특정 메트릭을 활성화 또는 비활성화하는 기능을 지원합니다. 그 중에서도 AllMetrics에는 주로 다음과 같은 메트릭이 포함되어 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [factory.go의 해당 코드](https://github.com/google/cadvisor/blob/master/container/factory.go#L72)
 
@@ -106,10 +145,10 @@ func main() {
     } else {
         includedMetrics = container.AllMetrics.Difference(ignoreMetrics)
     }
-    
+
     klog.V(1).Infof("enabled metrics: %s", includedMetrics.String())
     setMaxProcs()
-    
+
     memoryStorage, err := NewMemoryStorage()
     if err != nil {
         klog.Fatalf("저장 드라이버를 초기화하는 데 실패했습니다: %s", err)
@@ -117,7 +156,7 @@ func main() {
 
     sysFs := sysfs.NewRealSysFs()
 
-    
+
     // cadvisor의 핵심
     resourceManager, err := manager.New(memoryStorage, sysFs, manager.HousekeepingConfigFlags, includedMetrics, &collectorHTTPClient, strings.Split(*rawCgroupPrefixWhiteList, ","), strings.Split(*envMetadataWhiteList, ","), *perfEvents, *resctrlInterval)
     if err != nil {
@@ -147,7 +186,6 @@ func main() {
 
 CPU 부하 메트릭 생성은 enable_load_reader 커맨드 라인 플래그로 제어됩니다.
 
-
 [container.go의 해당 코드](https://github.com/google/cadvisor/blob/42bb3d13a0cf9ab80c880a16c4ebb4f36e51b0c9/manager/container.go#L455)
 
 ```js
@@ -162,7 +200,18 @@ if *enableLoadReader {
     }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 쿠블릿
 
@@ -193,8 +242,18 @@ if kubeDeps.useLegacyCadvisorStats {
 
 쿠블릿은 Prometheus 메트릭 형식으로 모든 관련 런타임 지표를 /stats/에서 공개합니다. 아래 도표에 나와 있는 것처럼 쿠블릿은 cAdvisor 서비스를 내장하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-09-ATragedyCausedbyaSingleKubernetesCommand_0.png" />
 
@@ -218,8 +277,18 @@ func New(imageFsInfoProvider ImageFsInfoProvider, rootPath string, cgroupRoots [
 
 여기는 cAdvisor를 위한 manager.New 함수 인터페이스의 직접 호출입니다. 더 자세한 정보는 다음을 참조하세요: https://zoues.com/posts/3f237e52/
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # CPU 부하 지표
 
@@ -229,10 +298,21 @@ CPU 사용량은 현재 CPU 활동 수준을 나타내며 CPU 부하 평균은 �
 
 cAdvisor에서 노출하는 메트릭 이름은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-container_cpu_load_average_10s
+container_cpu_load_average_10s;
 ```
 
 이제 계산 방법을 살펴보겠습니다.
@@ -253,21 +333,43 @@ func (cd *containerData) updateLoad(newLoad uint64) {
 
 계산 방법은 다음과 같습니다: cd.loadAvg = cd.loadAvg*cd.loadDecay + float64(newLoad)*(1.0-cd.loadDecay)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전 수집 값인 cd.loadAvg에 있는 값을 최근 수집된 값인 newLoad에 (1.0-cd.loadDecay)를 곱하여 더한 후, cd.loadDecay로 곱한 값으로 곱해야합니다.
 
 여기 cont.loadDecay를 계산하는 로직이 있습니다:
 
 ```js
-https://github.com/google/cadvisor/blob/master/manager/container.go#L453
+//github.com/google/cadvisor/blob/master/manager/container.go#L453
 
-cont.loadDecay = math.Exp(float64(-cont.housekeepingInterval.Seconds() / 10))
+https: cont.loadDecay = math.Exp(float64(-cont.housekeepingInterval.Seconds() / 10));
 ```
 
 housekeepingInterval과 관련된 decay window라고 알려진 고정값이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 소스로 거슬러 올라가기
 
@@ -294,17 +396,39 @@ if cd.loadReader != nil {
 
 더 깊이 파고들면, netlink가 시스템 메트릭을 검색하기 위해 사용된다는 것을 발견할 수 있습니다. 중요한 호출 경로는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 분석을 통해, cAdvisor는 CGROUPSTATS_CMD_GET 요청을 보내고 netlink 메시지를 통해 통신하여 CPU 부하 정보를 가져옵니다.
 
 ```js
-cadvisor/utils/cpuload/netlink/netlink.go
+cadvisor / utils / cpuload / netlink / netlink.go;
 ```
 
 v0.48.1 브랜치의 128~132번 라인에서 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```go
 func prepareCmdMessage(id uint16, cfd uintptr) (msg netlinkMessage) {
@@ -322,8 +446,18 @@ func prepareCmdMessage(id uint16, cfd uintptr) (msg netlinkMessage) {
 
 kernel/taskstats.c#L407
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 정적 int cgroupstats_user_cmd(struct sk_buff *skb, struct genl_info *info)
@@ -400,7 +534,18 @@ int cgroupstats_build(struct cgroupstats *stats, struct dentry *dentry)
         return -EINVAL;
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 cgroup_fs_type이 cgroup v1의 유형인 것을 알 수 있으며, cgroup v2를 처리하는 부분이 없습니다. 따라서 cgroupstats_build 함수는 경로 유형 판단문에서 EINVAL을 반환합니다.
 
@@ -410,7 +555,18 @@ Tejun (메타, cgroupv2 소유자)가 이에 대해 설명하는 방법을 살�
 
 cgroupstats 작업을 v2 인터페이스에서 의도적으로 제외한 이유는 남은 통계 데이터와 중복되고 일관성이 없기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -420,7 +576,18 @@ cgroupstats 작업을 v2 인터페이스에서 의도적으로 제외한 이유�
 
 # 참고문헌
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 https://github.com/containerd/cgroups/pull/308
 
@@ -430,6 +597,17 @@ https://github.com/google/cadvisor/issues/3137
 
 https://www.cnblogs.com/vinsent/p/15830271.html
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 https://zoues.com/posts/5a8a6c8d/

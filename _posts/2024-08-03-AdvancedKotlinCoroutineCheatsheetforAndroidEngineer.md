@@ -3,17 +3,13 @@ title: "안드로이드 개발자를 위한 고급 코틀린 개발 팁 정리"
 description: ""
 coverImage: "/assets/img/2024-08-03-AdvancedKotlinCoroutineCheatsheetforAndroidEngineer_0.png"
 date: 2024-08-03 18:25
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-03-AdvancedKotlinCoroutineCheatsheetforAndroidEngineer_0.png
 tag: Tech
 originalTitle: "Advanced Kotlin Coroutine Cheat sheet for Android Engineer"
 link: "https://medium.com/@galou.minisini/advanced-kotlin-coroutine-cheat-sheet-for-android-engineer-15e0d180fc1f"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-08-03-AdvancedKotlinCoroutineCheatsheetforAndroidEngineer_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 코루틴 용어집
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Coroutine Context(코틀린 문서에서): "여러 요소의 집합. 주된 요소는 코루틴의 작업(Job) 및 해당 dispather"입니다. 더 자세히 알아보려면:
 
@@ -33,7 +40,18 @@ Dispatcher: 코루틴이 실행되는 스레드(또는 스레드 풀)를 결정�
 
 Coroutine scope: 코루틴의 수명 및 컨텍스트를 정의합니다. 코루틴의 취소 및 오류 처리를 포함한 코루틴의 수명주기를 관리하는 데 책임이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Coroutine 빌더: CoroutineScope에서 시작할 수 있는 비동기 coroutine을 시작하는 확장 함수들(launch, async, ...)입니다.
 
@@ -50,7 +68,18 @@ Coroutine 빌더: CoroutineScope에서 시작할 수 있는 비동기 coroutine�
 
 # 코루틴 스코프 함수
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 coroutineScope : 인수 함수가 생성한 값이 반환되며 범위를 시작하는 보류 중인 함수입니다.
 
@@ -60,7 +89,18 @@ withContext : coroutineScope와 유사하지만 범위 내에서 일부 변경�
 
 withTimeout : coroutineScope와 유사하지만 본문 실행에 시간 제한을 설정해주며 너무 오래 걸리는 경우 취소됩니다. TimeoutCancellationException을 throw합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 withTimeoutOrNull: withTimeout와 동일하지만 제한 시간이 경과될 때 예외를 throw하는 대신 null을 반환합니다.
@@ -72,7 +112,18 @@ withTimeoutOrNull: withTimeout와 동일하지만 제한 시간이 경과될 때
 ## Dispatchers.Default
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 디스패처가 설정되지 않았을 때 기본으로 사용되는 것입니다.
 - CPU 집약 작업을 실행하도록 설계되었습니다.
@@ -87,7 +138,18 @@ withTimeoutOrNull: withTimeout와 동일하지만 제한 시간이 경과될 때
 
 ## Dispatchers.IO
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 블로킹 작업 (I/O 작업, 파일 읽고 쓰기, 공유 프리퍼런스 등)을 실행하도록 설계되었습니다.
 - 스레드 풀의 크기는 64입니다 (코어 수가 64보다 높으면 코어 수).
@@ -106,7 +168,18 @@ withTimeoutOrNull: withTimeout와 동일하지만 제한 시간이 경과될 때
 
 ## 성능 관찰
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 쓰레드 수를 일시 중지할 때는 그렇게 중요하지 않아요.
 - 쓰레드 수를 막을수록 모든 코루틴이 더 빨리 끝날 거예요.
@@ -119,7 +192,18 @@ withTimeoutOrNull: withTimeout와 동일하지만 제한 시간이 경과될 때
 
 ## 범위에 액세스할 수 있는 경우(ViewModel에서 예를 들어)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 suspend fun getConfigFromAPI(): UserConfig {
@@ -160,8 +244,18 @@ fun getAllSongs() {
 
 async / await에 대한 참고 사항. 코루틴은 호출되는 즉시 시작됩니다. async는 Deferred`T` 타입의 객체를 반환합니다 (예: Deferred`List`Song`입니다). Deferred에는 값을 반환하는 지연 함수 await가 있으며 준비되면 값을 반환합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 접근 권한이 없는 경우 (예: 저장소에서)
 
@@ -177,7 +271,18 @@ suspend fun getConfigAndSongs(): Pair<UserConfig, List<Song> = coroutineScope {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 코루틴이 취소된 경우의 정리
 
@@ -193,9 +298,20 @@ viewModelScope.launch {
     // 여기에서 정리 작업 실행
   }
 }
-```  
+```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 정리하는 동안 일시 중지 작업은 허용되지 않습니다. Suspend 기능을 실행해야 하는 경우 다음과 같이 수행해야 합니다.
 
@@ -215,14 +331,25 @@ viewModelScope.launch {
 
 # Coroutine이 완료될 때 정리하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코루틴이 취소될 때 정리를 하는 것과 마찬가지로 코루틴이 완료 또는 취소된 상태에 도달했을 때 작업을 실행하고 싶을 수 있습니다.
 
 ```kotlin
 suspend fun myFunction() = coroutineScope {
   val job = launch { /* 여기에 중단 호출 */ }
-  job.invokeOnCompletion { exception: Throwable -> 
+  job.invokeOnCompletion { exception: Throwable ->
     // 여기에서 작업 수행
   }
 }
@@ -232,7 +359,18 @@ suspend fun myFunction() = coroutineScope {
 
 SupervisorJob을 사용하면 자식 코루틴에서 발생하는 모든 예외를 무시할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 코루틴 스코프 만들기
 
@@ -253,7 +391,18 @@ suspend fun myFunction() = supervisorScope {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 예외 처리하기
 
@@ -280,7 +429,18 @@ CancellationException은 부모로 전파되지 않고 현재 코루틴만 취�
 
 # 예외 발생 시 기본 동작 정의
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CoroutineExceptionHandler을 사용하면 예를 들어 서버가 401로 응답할 때 자동으로 사용자를 로그아웃할 수 있습니다.
 
@@ -295,7 +455,18 @@ scope.launch { /* 여기서 중단 호출 */ }
 
 # 비필수 작업 실행
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 에러가 발생하더라도 (예를 들어 한 가지가 취소되어도 부모 코루틴은 유지되어야 하는) 다른 함수에 영향을 미치지 않는 중단 함수를 실행하려면 어떻게 해야 할까요?
 
@@ -314,7 +485,18 @@ suspend fun getConfigAndSongs(): Pair<UserConfig, List<Song> = coroutineScope {
 
 이상적으로는 nonEssentialOperationScope를 클래스에 주입하는 것이 좋습니다 (테스트하기 쉽기 때문입니다).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 동기화 문제를 피하기 위해 단일 스레드에서 작업 실행 중
 
@@ -329,7 +511,18 @@ suspend fun myFunction() = withContext(Dispatchers.Default.limiteParallelism(1))
 
 Java의 AtomicReference를 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 private val myList = AtomicReference(listOf(/* 여기에 객체 추가 */))
@@ -356,8 +549,18 @@ suspend fun fetchNewElement() {
 
 # 동일한 디스패처로 코루틴을 다시 디스패치하는 것을 피하십시오
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 기존 디스패처인 경우 디스패처를 전환하는 비용을 피하세요:
 
@@ -372,6 +575,17 @@ suspend fun myFunction() = withContext(Dispatcher.Main.immediate) {
 
 읽어주셔서 감사합니다! 코틀린 코루틴에 대한 인사이트와 프로팁을 공유해주세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 코루틴에 대해 깊이 파고들고 그들이 어떻게 작동하는지 더 잘 이해하려면 Maricin Moskała의 이 책을 강력히 추천합니다:

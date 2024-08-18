@@ -3,7 +3,7 @@ title: "외적, 내적 회전 오른쪽부터 곱하나 왼쪽부터 곱하나�
 description: ""
 coverImage: "/assets/img/2024-06-20-ExtrinsicintrinsicrotationDoImultiplyfromrightorleft_0.png"
 date: 2024-06-20 18:00
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-ExtrinsicintrinsicrotationDoImultiplyfromrightorleft_0.png
 tag: Tech
 originalTitle: "Extrinsic , intrinsic rotation: Do I multiply from right or left?"
@@ -11,17 +11,24 @@ link: "https://medium.com/@dominicplein/extrinsic-intrinsic-rotation-do-i-multip
 isUpdated: true
 ---
 
-
-
-
-
 ## 오일러 각도는 헷갈릴 수 있습니다, 특히 여러 회전을 연쇄적으로 곱셈으로 연결할 때 행렬의 순서가 어떻게 되는지에 대해서요. 이 게시물에서는 외부, 내부 회전 순서의 차이와 오른쪽이나 왼쪽에서 곱셈을 해야 하는지를 어떻게 결정하는지 설명해 드릴게요.
 
 # 회전 행렬 되돌아보기
 
 먼저, 유클리드 공간에서 x-, y-, 또는 z-축 주위의 각도 θ로 점을 회전시키는 데 사용하는 회전 행렬을 간단히 되돌아봅시다. x-축을 중심으로 시각적으로 회전 행렬을 연역해 보겠습니다. 먼저, 아래에 나타난 yz-평면 위에 있는 지점 P를 포함하는 좌표 시스템을 고려해 봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 점의 좌표를 각 φ와 원점으로부터의 길이 r의 관점에서 표현할 수 있습니다. 이제 x-축을 기준으로 각 θ만큼 양의 회전을 적용한 좌표 시스템을 살펴보세요.
 
@@ -31,7 +38,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-20-ExtrinsicintrinsicrotationDoImultiplyfromrightorleft_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Tada! 저희는 x-축 주위의 회전을 위한 회전 행렬을 유도했어요. 다른 회전 행렬들(횡축 및 z-축에 대한)도 비슷한 방식으로 유도할 수 있어요.
 
@@ -42,7 +60,18 @@ Tada! 저희는 x-축 주위의 회전을 위한 회전 행렬을 유도했어�
 - 외적: 모든 회전은 고정된/전역 좌표계 xyz를 참조해요
 - 내적: 회전은 마지막으로 회전한 좌표계를 참조해요(첫 번째 회전은 원래/전역 좌표계를 참조해 시작돼요)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비행기를 예로 들어보겠습니다. 이 비행기는 세 축 중 하나를 기준으로 회전할 수 있습니다. 각도에 그리스 문자 대신에 일반적으로 사용되는 관행은 (항공기 규정 DIN 9300) "yaw", "pitch", "roll" 각도라고 부르는 것입니다.
 
@@ -52,7 +81,18 @@ Tada! 저희는 x-축 주위의 회전을 위한 회전 행렬을 유도했어�
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/1*CBfA04_aHFke0VbY5VQmtw.gif)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파란색으로 표시된 회전된 프레임입니다. 처음에는 빨간색으로 표시된 전역 좌표 시스템과 정렬되어 있습니다. 90°의 요(Yaw) 이후 회전된 파란색 프레임에 45°의 피치(Pitch)가 적용되며 빨간색 프레임에는 적용되지 않습니다. 따라서 이 회전 순서는 내부적입니다. 종종 원래 z-축을 중심으로, 새로운 y-축, 마지막으로 새로운 x-축 주변으로 회전하므로 z-y’-x’’로 표시됩니다. 우리는 전역 좌표 시스템의 기저를 구성하는 단위 벡터가 모두 세 가지 회전을 적용한 후 어디에 도달하는지 살펴봄으로써 결과적인 회전 행렬을 쉽게 유도할 수 있습니다.
 
@@ -60,7 +100,18 @@ Tada! 저희는 x-축 주위의 회전을 위한 회전 행렬을 유도했어�
 
 단위 벡터의 최종 위치를 살펴보는 대신 회전 행렬을 사용하여 R을 어떻게 계산합니까? 선형 변환(행렬로 표시)을 곱셈을 통해 연결합니다. 행렬 곱셈은 교환법칙이 성립하지 않으므로 원소 회전을 어떤 순서로 곱하는 지에 따라 달라집니다. 회전 행렬을 알기 때문에 직접 시도할 수 있습니다. 위에서 보신 올바른 회전 행렬을 얻으려면 다음과 같은 순서의 피연산자만이 올바른 회전 행렬을 얻게 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-20-ExtrinsicintrinsicrotationDoImultiplyfromrightorleft_5.png)
 
@@ -70,7 +121,18 @@ Tada! 저희는 x-축 주위의 회전을 위한 회전 행렬을 유도했어�
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/1*rs5Q-gfo72NAMlykfcxDWA.gif)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비행기의 최종 위치는 이전과 정확히 같습니다! 따라서 회전 행렬 R도 동일하게 유지되었다고 추론할 수 있습니다. 그러나 여기에 이르기 위해 우리의 단계 순서가 변경되었습니다: z-y’-x’’ 회전 순서 대신 x-y-z (Roll-Pitch-Yaw) 회전 순서를 사용하여, 우리는 먼저 롤(전역 x 축 주위의 회전), 그다음 피치(전역 y 축 주위의 회전)을 가하고 마지막으로 요(전역 z 축 주위의 회전)을 가했습니다. 언제나 전역 좌표계 xyz를 참조한다는 점을 나타내는 프라임 기호의 부재에 주목하십시오. 이 고정된 프레임에서 생각해보면, 이제 곱셈의 순서는 무엇입니까? 음... 다시 한 번,
 
@@ -79,17 +141,31 @@ Tada! 저희는 x-축 주위의 회전을 위한 회전 행렬을 유도했어�
 세 가지 회전을 모두 결합하는 원하는 회전 행렬을 생성하는 유일한 행렬의 순서입니다. 그렇다면 큰 문제가 무엇입니까? 두 가지 계산 사이의 차이점을 요약할 때 혼란이 발생할 수 있습니다:
 
 - 내적 예시: Yaw-Pitch’-Roll’’ (z-y’-x’’), 즉,
-1) 전역 z 축을 중심으로 회전
-2) 새로운 y’ 축을 중심으로 회전
-3) 새로운 x’’ 축을 중심으로 회전
-행렬 곱셈: R = 회전1 ⋅ 회전2 ⋅ 회전3
-- 외적 예시: Roll-Pitch-Yaw (x-y-z), 즉,
-1) 전역 x 축을 중심으로 회전
-2) 전역 y 축을 중심으로 회전
-3) 전역 z 축을 중심으로 회전
-행렬 곱셈: R = 회전3 ⋅ 회전2 ⋅ 회전1
 
-<div class="content-ad"></div>
+1. 전역 z 축을 중심으로 회전
+2. 새로운 y’ 축을 중심으로 회전
+3. 새로운 x’’ 축을 중심으로 회전
+   행렬 곱셈: R = 회전1 ⋅ 회전2 ⋅ 회전3
+
+- 외적 예시: Roll-Pitch-Yaw (x-y-z), 즉,
+
+1. 전역 x 축을 중심으로 회전
+2. 전역 y 축을 중심으로 회전
+3. 전역 z 축을 중심으로 회전
+   행렬 곱셈: R = 회전3 ⋅ 회전2 ⋅ 회전1
+
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 처음의 좌표 시스템 xyz를 새롭게 회전된 시스템 XYZ로 변환하는 단계의 순서와 행렬 곱셈의 인자 순서를 모두 바꿨습니다. 그래서 우리가 동일한 회전 행렬 R을 얻는 이유입니다. 우리는 고정된 기준 프레임 주위로 여러 번 회전하거나 각 회전마다 변하는 프레임에 대해 이야기합니다. 개인적으로 '왼쪽에서 곱하기 또는 오른쪽에서 곱하기' 표현에 대해 의심스러운데, 하지만 당신이 요구한다면, 내재적 회전 순서의 경우에는 왼쪽에서 오른쪽으로 곱하고, 외재적 경우에는 오른쪽에서 왼쪽으로 곱한다고 결론 짓을 수 있을 것입니다.
 
@@ -99,8 +175,18 @@ Tada! 저희는 x-축 주위의 회전을 위한 회전 행렬을 유도했어�
 
 외재적 경우는 행렬 곱셈에서 오른쪽에서 왼쪽으로 읽는 “보통” 케이스처럼 보이어야 합니다. 이는 이 회전 행렬로 점을 변환하려고 시도할 때 명확해집니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![](/assets/img/2024-06-20-ExtrinsicintrinsicrotationDoImultiplyfromrightorleft_7.png)
 
@@ -110,12 +196,33 @@ Tada! 저희는 x-축 주위의 회전을 위한 회전 행렬을 유도했어�
 
 ![](/assets/img/2024-06-20-ExtrinsicintrinsicrotationDoImultiplyfromrightorleft_8.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서는 원래 좌표계를 기준으로 한 점 P의 좌표를 나타냅니다. 다음 표현은 좌표계 A의 원래 좌표계에 대한 방향을 설명합니다. 다시 말해, 행렬 R은 원래 단위 벡터에 대한 좌표계 A의 해당 단위 벡터의 위치를 나타냅니다. 이를 실제로 확인하기 위해 원점 (1, 0, 0)을 z-축을 기준으로 +45°로 회전해 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 P₂ 점은 원래 좌표계와 새롭게 회전된 파란색 좌표계 A와 관련하여 두 가지로 나타낼 수 있습니다. 핵심은 A에 따른 P₂가 원래 좌표계에 따른 P₁과 동일한 좌표를 가진다는 점입니다. 따라서 우리가 A에 따른 P₂(1,0,0)에 회전 행렬 R을 적용하면 원래 좌표계에 대한 동일한 점인 (√2/2, √2/2, 0)을 가져옵니다. 이렇게 하면 P₂의 좌표를 A 프레임에서 원래 프레임으로 "변환"합니다. 이 개념은 매우 중요하기 때문에 실제로 보여드리겠습니다.
 
@@ -126,7 +233,18 @@ P₂ 점은 원래 좌표계와 새롭게 회전된 파란색 좌표계 A와 관
 - 왼쪽 경로 — 행렬 R의 구축: 원래 좌표계를 좌표계 A로 회전합니다. 이렇게 하면 P₁이 P₂로 회전됩니다.
 - 오른쪽 경로 — 행렬 R의 적용: 좌표계 A에 따른 점이 주어지면 해당 좌표를 원래 좌표계로 "변환"할 수 있으며, 이는 원래 좌표계를 A로 회전하여 만든 동일한 행렬과 곱셈을 통해 수행합니다. 이것이 내재적 회전 순서에 대한 모든 "역순-역반전-머리가 엉켜버리는-곱셈"이 나오는 곳입니다. 오른쪽 경로는 다음과 같은 공식을 제공합니다. A가 아래첨자로 "소거"되는 것을 볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-ExtrinsicintrinsicrotationDoImultiplyfromrightorleft_12.png" />
 
@@ -136,8 +254,18 @@ P₂ 점은 원래 좌표계와 새롭게 회전된 파란색 좌표계 A와 관
 
 다시 각 회전 행렬의 역할을 설명해 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-20-ExtrinsicintrinsicrotationDoImultiplyfromrightorleft_14.png)
 
@@ -147,8 +275,18 @@ P₂ 점은 원래 좌표계와 새롭게 회전된 파란색 좌표계 A와 관
 
 ![image](/assets/img/2024-06-20-ExtrinsicintrinsicrotationDoImultiplyfromrightorleft_15.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제, 이를 첫 번째 절반에서 한 작업과 비교해 보세요. 이 두 회전을 결합하는 회전 행렬을 어떻게 구성할까요 (내재)? 좌표 시스템이 어디로 이동하는지 따라가면서 시작점은 원래의 좌표 시스템 xyz이고 종착점은 회전된 시스템 XYZ입니다. 그 과정에서 위의 공식에서 볼 수 있는 대로 행렬을 왼쪽에서 오른쪽으로 연결하세요. 이 행렬을 적용할 때 이를 통해 마치 B에서 "얽힌" 후 A로 이동한 다음 원래의 좌표 시스템으로 돌아온 것처럼 됩니다.
 
@@ -158,7 +296,18 @@ P₂ 점은 원래 좌표계와 새롭게 회전된 파란색 좌표계 A와 관
 
 # 마무리
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 포스트에서는 먼저 x축을 중심으로 회전하는 회전 행렬의 유도를 포함한 회전 행렬을 다시 상기했습니다. 그런 다음 비공변 및 내적 회전을 비행기를 통해 비교하고 그들의 이중성을 이해했습니다. 마지막으로, 행렬을 함께 곱할 때 순서가 왜 그렇게 되는지에 대한 질문에 대답하기 위해 더 깊이 들어갔습니다.
 

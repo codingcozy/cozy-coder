@@ -3,17 +3,13 @@ title: "파이썬과 SQL을 통합하여 견고한 데이터 솔루션 구축하
 description: ""
 coverImage: "/assets/img/2024-06-20-IntegratingPythonwithSQLforRobustDataSolutions_0.png"
 date: 2024-06-20 15:43
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-IntegratingPythonwithSQLforRobustDataSolutions_0.png
 tag: Tech
 originalTitle: "Integrating Python with SQL for Robust Data Solutions"
 link: "https://medium.com/gitconnected/integrating-python-with-sql-for-robust-data-solutions-8f43fedae944"
 isUpdated: true
 ---
-
-
-
-
 
 강력하고 효율적인 데이터 솔루션을 만들기 위해 Python과 SQL 통합을 숙달하세요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Python과 SQL을 사용하여 SQL 데이터베이스를 조작하려는 사람들을 위해, 우리는 다양한 접근 방식을 탐구하고 이 중 하나를 인터뷰 문제에서 구현해볼 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 그 전에, 파이썬을 사용하여 데이터베이스에 연결하는 장점과 옵션을 살펴보겠습니다.
 
@@ -37,7 +44,18 @@ Python을 사용하여 SQL 데이터베이스에 연결하는 것에는 여러 �
 - 확장성: Python은 데이터 세트를 관리할 수 있으며, 따라서 Python 서비스를 사용하여 대량의 데이터 세트를 실시간으로 처리할 수 있습니다. SQL 데이터베이스 외에도 Python 능력을 활용합니다.
 - 다양성: Python은 여러 데이터 유형에 적합하며 장르 간 데이터 전송을 지원하여 다양한 형식으로 데이터를 전송할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 고급 SQL 작업을 위한 Python 라이브러리 사용
 
@@ -47,7 +65,18 @@ Python 라이브러리를 사용하면 복잡한 SQL 작업을 훨씬 쉽게 수
 
 # Psycopg2
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Psycopg2는 널리 사용되는 Python PostgreSQL 어댑터 중 하나입니다. 이러한 상황에서 PostgreSQL 데이터베이스에 연결하여 SQL 쿼리를 효과적으로 실행할 수 있습니다.
 
@@ -59,7 +88,18 @@ Psycopg2를 사용하여 다음을 수행할 수 있습니다:
 
 아래는 간단한 코드 블록입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 from sqlalchemy import create_engine
@@ -77,7 +117,18 @@ connection = engine.connect()
 
 SQLAlchemy는 데이터베이스 작업을 효율적으로 처리하는 ORM(Object-Relational Mapping)입니다. SQLAlchemy를 사용하는 몇 가지 장점은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 더 쉬운 데이터베이스 스키마 관리
 - 코드 가독성 및 유지 관리성
@@ -103,7 +154,18 @@ conn = psycopg2.connect(**conn_params)
 
 SQLAlchemy는 Python 객체를 사용하여 데이터베이스 상호 작용을 단순화합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 판다스
 
@@ -133,7 +195,18 @@ conn = psycopg2.connect(**conn_params)
 user_posts_df = pd.read_sql('SELECT * FROM user_posts', conn)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로, 이 코드는 PostgreSQL 데이터베이스의 매개변수를 정의하고 Psycopg2를 사용하여 데이터베이스에 연결합니다. 그런 다음 user_posts 테이블에서 데이터를 검색하여 Pandas DataFrame에 보내고 데이터 조작이 가능해집니다.
 
@@ -143,8 +216,18 @@ user_posts_df = pd.read_sql('SELECT * FROM user_posts', conn)
 
 다음은 질문입니다: https://platform.stratascratch.com/coding/10364-fridays-likes-count
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![User_posts dataset](/assets/img/2024-06-20-IntegratingPythonwithSQLforRobustDataSolutions_2.png)
 
@@ -152,14 +235,35 @@ We have three different datasets. Here is the user_posts dataset.
 
 ![Friendships dataset](/assets/img/2024-06-20-IntegratingPythonwithSQLforRobustDataSolutions_3.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 좋아요 데이터셋입니다.
 
 그리고 여기에 예상되는 결과가 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-IntegratingPythonwithSQLforRobustDataSolutions_6.png" />
 
@@ -169,7 +273,18 @@ We have three different datasets. Here is the user_posts dataset.
 
 우선, PostgreSQL 데이터베이스에 연결하기 위해 필요한 연결 매개변수를 정의할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import psycopg2
@@ -194,8 +309,18 @@ conn_params = {
 
 이제 두 번째 단계인 연결을 설정하겠습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2. 연결 설정
 
@@ -207,33 +332,66 @@ conn = psycopg2.connect(**conn_params)
 
 여기서는 이전 단계에서 이미 정의한 매개변수를 사용하여 pycop2 라이브러리의 connect() 메서드를 사용합니다. 다음 단계에서 데이터를 검색할 것이기 때문에 연결 부분이 끝났네요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3. 데이터 검색
 
 이미 데이터베이스에 연결되어 있으므로 거기서 데이터를 가져와 봅시다. 세 개의 다른 테이블이 있으므로 각각 1번씩 코드를 반복합니다.
 
 ```js
-user_posts_df = pd.read_sql('SELECT * FROM user_posts', conn)
-friendships_df = pd.read_sql('SELECT * FROM friendships', conn)
-likes_df = pd.read_sql('SELECT * FROM likes', conn)
+user_posts_df = pd.read_sql("SELECT * FROM user_posts", conn);
+friendships_df = pd.read_sql("SELECT * FROM friendships", conn);
+likes_df = pd.read_sql("SELECT * FROM likes", conn);
 ```
 
 이를 위해 판다스 라이브러리의 read_sql 메서드를 사용합니다. 이 메서드에서는 데이터를 선택하기 위한 쿼리를 작성하고 앞에서 정의한 연결인 "conn"을 인수로 추가합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 4. 연결 닫기
 
 이미 이러한 테이블을 데이터프레임으로 변환했으므로 연결을 유지할 필요가 없습니다. 자원을 해제하기 위해 닫아야 합니다.
 
 ```js
-conn.close()
+conn.close();
 ```
 
 이 단계에서는 앞에서 정의한 Postgresql 데이터베이스와의 연결을 닫기 위해 close() 메서드를 사용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 데이터셋을 읽는 데 성공했습니다. 이제부터는 이를 조작할 수 있습니다. 우리가 해결해야 하는 문제를 해결하기 위해 이제부터 따라야 할 단계는 다음과 같습니다:
 
@@ -248,13 +406,24 @@ conn.close()
 
 친구 관계 데이터를 정리하고, 양방향 친구관계를 보장하기 위해 확장할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-friendships_clean = friendships_df[['user_name1', 'user_name2']].drop_duplicates()
-friendships_expanded_1 = friendships_clean.rename(columns={'user_name1': 'user_name1', 'user_name2': 'user_name2'})
-friendships_expanded_2 = friendships_clean.rename(columns={'user_name1': 'user_name2', 'user_name2': 'user_name1'})
-friendships_expanded = pd.concat([friendships_expanded_1, friendships_expanded_2]).drop_duplicates()
+friendships_clean = friendships_df[["user_name1", "user_name2"]].drop_duplicates();
+friendships_expanded_1 = friendships_clean.rename((columns = { user_name1: "user_name1", user_name2: "user_name2" }));
+friendships_expanded_2 = friendships_clean.rename((columns = { user_name1: "user_name2", user_name2: "user_name1" }));
+friendships_expanded = pd.concat([friendships_expanded_1, friendships_expanded_2]).drop_duplicates();
 ```
 
 이 블록에서 수행하는 작업은 다음과 같습니다:
@@ -265,33 +434,75 @@ friendships_expanded = pd.concat([friendships_expanded_1, friendships_expanded_2
 
 ## 6. 좋아요와 게시물을 결합하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 받은 좋아요와 함께 게시물을 결합하여 각 좋아요에 대한 필요한 세부 정보를 얻습니다.
 
 ```js
-likes_posts_joined = likes_df.merge(user_posts_df, left_on='post_id', right_on='post_id', suffixes=('', '_post'))
-likes_posts_joined = likes_posts_joined[['user_name', 'post_id', 'date_liked', 'user_name_post']]
-likes_posts_joined = likes_posts_joined.rename(columns={'user_name_post': 'poster_name'})
+likes_posts_joined = likes_df.merge(
+  user_posts_df,
+  (left_on = "post_id"),
+  (right_on = "post_id"),
+  (suffixes = ("", "_post"))
+);
+likes_posts_joined = likes_posts_joined[["user_name", "post_id", "date_liked", "user_name_post"]];
+likes_posts_joined = likes_posts_joined.rename((columns = { user_name_post: "poster_name" }));
 ```
 
 좋아요 DataFrame을 post_id 열을 기준으로 user_posts DataFrame과 병합하여 좋아요된 게시물에 대한 정보를 제공합니다. 그 후 필요한 열만 선택하고 편의를 위해 user_name_post를 poster_name으로 이름을 변경했습니다.
 
 ## 7. 친구의 좋아요 필터링
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 친구들이 한 좋아요만을 걸러내겠어요.
 
 ```js
-friends_likes = likes_posts_joined.merge(friendships_expanded, left_on=['user_name', 'poster_name'], right_on=['user_name1', 'user_name2'])
+friends_likes = likes_posts_joined.merge(
+  friendships_expanded,
+  (left_on = ["user_name", "poster_name"]),
+  (right_on = ["user_name1", "user_name2"])
+);
 ```
 
 friendships_expanded와 likes_posts_joined라는 두 개의 데이터프레임이 있어요. 우리는 이 둘을 결합해서 친구들이 한 좋아요를 찾아내요. 이것은 친구들이 한 게시물에 대한 좋아요를 추적하는 데 필요한 과정이에요.
 
 ## 8. 금요일에 한 좋아요 걸러내기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 금요일에 한 좋아요만 포함하는 방법입니다.
 
@@ -306,32 +517,68 @@ likes_df = pd.read_sql('SELECT * FROM likes', conn)
 
 ## 9. 날짜별로 그룹화하여 좋아요 횟수 세기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 매일마다 좋아요가 얼마나 있는지 세어본 후, 각 날짜별로 좋아요를 그룹화할 겁니다.
 
 ```js
-result = friday_likes.groupby(friday_likes['date_liked'].dt.date).size().reset_index(name='likes')
-result = result.rename(columns={'date_liked': 'date'})
+result = friday_likes
+  .groupby(friday_likes["date_liked"].dt.date)
+  .size()
+  .reset_index((name = "likes"));
+result = result.rename((columns = { date_liked: "date" }));
 ```
 
 여기서는 friday_likes 데이터프레임에서 각 날짜별로 좋아요가 얼마나 있는지 센 다음, 결과를 보기 좋은 형식으로 바꾸어 줍니다.
 
 ## 10. 결과 표시하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로, 우리는 매주 금요일마다 친구 게시물의 총 좋아요 수를 포함하는 결과를 표시할 것입니다.
 
 ```js
-print(result)
+print(result);
 ```
 
 결과는 다음과 같습니다.
 
 <img src="/assets/img/2024-06-20-IntegratingPythonwithSQLforRobustDataSolutions_7.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 마무리 마음
 

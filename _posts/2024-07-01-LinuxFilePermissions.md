@@ -3,18 +3,13 @@ title: "리눅스 파일 권한 설정 완벽 가이드 이해와 사용 방법"
 description: ""
 coverImage: "/assets/img/2024-07-01-LinuxFilePermissions_0.png"
 date: 2024-07-01 17:24
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-01-LinuxFilePermissions_0.png
 tag: Tech
 originalTitle: "Linux File Permissions"
 link: "https://medium.com/@GibzB/linux-file-permissions-48bb9221c0ea"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![이미지](/assets/img/2024-07-01-LinuxFilePermissions_0.png)
 
@@ -25,8 +20,18 @@ isUpdated: true
 - 이 랩을 통해 EC2 인스턴스에 SSH를 사용하여 연결하고, chown 및 chmod 명령어를 사용하여 파일 및 폴더 권한을 관리하는 등 중요한 기술을 연습할 수 있었습니다.
 - 파일 권한을 이해하는 것은 클라우드 시스템 보안에 매우 중요합니다. 사용자 및 그룹에 적절한 액세스 권한을 부여하여 데이터의 기밀성과 무결성을 보장하는 방법을 배웠습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현실적인 업무 시나리오:
 
@@ -38,8 +43,18 @@ isUpdated: true
 
 아마존 리눅스 EC2 인스턴스에 연결하고 SSH 명령을 사용하여 파일 및 폴더 권한을 관리할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Linux File Permissions](/assets/img/2024-07-01-LinuxFilePermissions_1.png)
 
@@ -49,9 +64,18 @@ EC2 인스턴스에 연결하려면 PuTTY(Windows)와 같은 SSH 클라이언트
 
 제 경우에는 SSH 클라이언트로, Chrome용으로 구성된 Secure Shell을 사용했습니다. Secure Shell은 xterm 호환 터미널 에뮬레이터 및 독립형 SSH 클라이언트입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![LinuxFilePermissions_2](/assets/img/2024-07-01-LinuxFilePermissions_2.png)
 
@@ -63,7 +87,18 @@ Changing Ownership:
 sudo chown -R <username>:<groupname> <folder_path>
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - sudo: 소유권 변경에 대한 관리자 권한을 부여합니다.
 - -R: 지정된 폴더 내의 모든 파일 및 하위 폴더에 변경을 재귀적으로 적용합니다.
@@ -79,7 +114,18 @@ sudo chown -R mjackson:Personnel /home/ec2-user/companyA
 
 ![Linux 파일 권한 이미지](/assets/img/2024-07-01-LinuxFilePermissions_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 sudo chown -R eowusu:Shipping Shipping
@@ -91,8 +137,18 @@ sudo chown -R eowusu:Shipping Shipping
 
 이 랩은 파일 권한을 수정하는 chmod 명령어를 소개합니다. Symbolic 모드와 Absolute 모드 두 가지가 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Symbolic Mode:
 
@@ -103,11 +159,22 @@ Symbolic Mode:
 - r - 읽기 권한
 - w - 쓰기 권한
 - x - 실행 권한
-- + - 권한 추가
+- - - 권한 추가
 - - - 권한 제거
 - = - 정확한 권한 설정 (기존 권한을 모두 제거하고 지정된 권한을 설정합니다)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시:
 
@@ -121,23 +188,46 @@ sudo chmod <허가_모드> <파일_경로>
 
 ![이미지](/assets/img/2024-07-01-LinuxFilePermissions_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Absolute Mode:
 
 - 복잡한 허가 할당에 대해 더 간결합니다.
 - 모든 권한을 표현하기 위해 세 자리의 8진수를 사용합니다.
 - 각 숫자는 특정 사용자 그룹에 해당합니다:
-    - 첫 번째 숫자 (백의 자리): 소유자의 권한
-    - 두 번째 숫자 (십의 자리): 그룹의 권한
-    - 세 번째 숫자 (일의 자리): 다른 사용자들의 권한
+  - 첫 번째 숫자 (백의 자리): 소유자의 권한
+  - 두 번째 숫자 (십의 자리): 그룹의 권한
+  - 세 번째 숫자 (일의 자리): 다른 사용자들의 권한
 
 각 숫자 자체는 권한 값을 결합한 것입니다:
+
 - 4: 읽기 권한
 - 2: 쓰기 권한
 - 1: 실행 권한
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 권한을 설정하려면 해당 값을 추가하십시오. 권한을 제거하려면 기존 숫자에서 해당 값을 뺍니다 (0이 됨).
 
@@ -148,7 +238,18 @@ Absolute Mode:
 
 적절한 모드 선택:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 심볼릭 모드를 사용하여 특정 사용자 그룹에 대한 특정 권한 추가 또는 제거와 같은 간단한 조정을 하세요.
 - 절대 모드를 사용하여 복잡한 권한 설정이 필요하거나 여러 권한 변경을 더 간결하게 나타내는 방법이 필요할 때 사용하세요.
@@ -160,7 +261,18 @@ Absolute Mode:
 
 ![Linux 파일 권한](/assets/img/2024-07-01-LinuxFilePermissions_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결론:
 

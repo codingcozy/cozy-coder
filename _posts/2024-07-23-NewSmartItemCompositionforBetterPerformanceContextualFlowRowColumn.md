@@ -3,18 +3,13 @@ title: "동적 성능을 위한 새로운 스마트 아이템 구성  Contextual
 description: ""
 coverImage: "/assets/img/2024-07-23-NewSmartItemCompositionforBetterPerformanceContextualFlowRowColumn_0.png"
 date: 2024-07-23 11:25
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-23-NewSmartItemCompositionforBetterPerformanceContextualFlowRowColumn_0.png
 tag: Tech
 originalTitle: "New Smart Item Composition for Better Performance  ContextualFlowRow Column"
 link: "https://medium.com/@stevdza-san/new-smart-item-composition-for-better-performance-contextualflowrow-column-390db2eb6bd5"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![이미지](/assets/img/2024-07-23-NewSmartItemCompositionforBetterPerformanceContextualFlowRowColumn_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/1*oLPu0Z8XcJ_NpgIRqyBlxA.gif)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 작동 방식을 보여드릴게요. 이 데모 화면에서 여러 문자열 항목 목록이 Row에 표시될 것입니다. 그 아래에는 동적으로 업데이트되는 정수 상태가 있습니다. 우리가 이 상태가 필요한 이유는, 사용자가 버튼을 클릭할 때 ContextualFlowRow 내에서 더 많은 행을 보이거나 숨기기 위함입니다.
 
@@ -62,7 +67,18 @@ fun MainScreen() {
 
 그 아래에서 ContextualFlowRow composable을 호출해봅시다. 여기에 표시하려는 항목 수를 전달하세요. 그리고 maxLines에는 기본 줄 수에 대한 상수를 선언할 겁니다. 예를 들어, 이 경우에는 숫자 2로 남겨둘 수 있습니다. 각 행에 표시할 항목 수를 사용자 정의할 수도 있고, 이 매개변수를 제외할 수도 있습니다. 이렇게 하면 각 행에 가능한 한 많은 항목을 맞출 수 있습니다. 선택은 당신의 것이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 다음은 overflow 매개변수가 있는데, 이를 통해 이 행 내의 항목을 처리하는 방법을 지정할 수 있습니다. 여기에는 두 가지 옵션이 있습니다. 첫 번째 옵션인 expandIndicator()는 더로드할 수 있는 항목이 더 있을 때 확장 버튼만 표시하며, 두 번째 옵션인 expandOrCollapseIndicator()는 확장 및 숨기기 버튼/구성요소 모두를 표시합니다. 모든 항목을 표시할 때까지 숨기기 버튼은 보이지 않습니다.
 
@@ -113,7 +129,18 @@ fun MainScreen() {
 
 totalItemCount와 shownItemCount와 같은 기존 속성을 사용하여 더 많은 항목을 로드할 수 있는지를 계산할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한편, 접힘 표시기에 대해서 사용자가 해당 구성요소를 클릭했을 때 maxLines 상태를 기본값으로 재설정할 수 있습니다. 정말 깔끔하죠.
 
@@ -172,8 +199,18 @@ ContextualFlowRow(
     }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-23-NewSmartItemCompositionforBetterPerformanceContextualFlowRowColumn_1.png)
 

@@ -3,17 +3,13 @@ title: "SQL로 MLflow 모델 구축하기 머신러닝 라이프사이클 관리
 description: ""
 coverImage: "/assets/img/2024-06-23-BridgingtheGapConstructingSQL-BasedModelsinMLflowforStreamlinedMLLifecycleManagement_0.png"
 date: 2024-06-23 16:37
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-BridgingtheGapConstructingSQL-BasedModelsinMLflowforStreamlinedMLLifecycleManagement_0.png
 tag: Tech
 originalTitle: "Bridging the Gap: Constructing SQL-Based Models in MLflow for Streamlined ML Lifecycle Management"
 link: "https://medium.com/gitconnected/bridging-the-gap-constructing-sql-based-models-in-mlflow-for-streamlined-ml-lifecycle-management-f7c4b9e4e667"
 isUpdated: true
 ---
-
-
-
-
 
 ## MLflow 생태계에 SQL 모델을 통합하는 단계별 안내서
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 기계 학습의 끊임없이 진화하는 풍경에서, 모델의 끝-끝 수명주기를 원할하게 관리해야 하는 필요성이 중요해졌습니다. 이러한 복잡한 프로세스를 단순화하는 오픈 소스 플랫폼인 MLflow가 나타납니다. 이 포괄적인 안내서에서는 SQL 기반 모델과 MLflow의 기능을 융합하는 과정을 탐색할 것입니다. 우리의 주요 목표는 두 가지입니다: 첫째, 간단한 SQL 기반 모델을 사용하여 MLflow의 기본 원리를 실습적으로 이해하는 것이며, 둘째로, MLflow의 모델 저장소 내에 SQL 쿼리를 캡슐화하는 흥미로운 도전에 대응하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## SQL 기반 모델의 중요성
 
@@ -33,7 +40,18 @@ SQL(구조화된 쿼리 언어) 기반 모델은 현실 세계 비즈니스 시�
 - 고객 세분화 및 타겟 마케팅: 마케터들은 SQL 기반 모델을 활용하여 고객 베이스를 세분화하고 타겟 마케팅 캠페인을 설계합니다. 이러한 모델은 고객 인구 통계, 구매 이력 및 온라인 행동을 분석하여 특정 선호도를 갖는 고객 세그먼트를 식별함으로써 맞춤형 마케팅 전략을 구현할 수 있습니다.
 - 공급망 최적화: 복잡한 공급망을 관리하는 기업들은 SQL 모델을 사용하여 재고 수준을 최적화하고 물류를 최적화하며 비용을 최소화합니다. SQL 쿼리는 공급업체 성과, 수요 예측 및 생산 일정을 분석하여 적시에 납품하고 효율적인 운영을 보장합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## MLflow이란 무엇인가요?
 
@@ -46,7 +64,18 @@ MLflow의 주요 구성 요소:
 - 모델: 훈련된 기계 학습 모델의 모음입니다. 서로 다른 모델을 나타내는 서로 다른 책을 개인 서재로 상상해보세요. MLflow는 여러분이 이러한 모델을 패키징, 구성 및 관리할 수 있게 해주어 나중에 쉽게 찾아서 사용할 수 있습니다.
 - 모델 레지스트리: 모델 레지스트리를 정리된 서재로 생각해보세요. 여러분이 훈련된 기계 학습 모델의 서로 다른 버전을 저장하고 관리할 수 있는 곳입니다. 여러분이 좋아하는 책의 다른 버전이 있는 책장이 있는 것처럼 생각해보세요. MLflow의 모델 레지스트리는 모델이 시간이 지남에 따라 진화하는 것을 추적하여 필요할 때 쉽게 찾아서 사용할 수 있도록 해줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 MLflow은 scikit-learn 및 TensorFlow와 같은 다양한 모델 라이브러리를 조화롭게 통합하여 배포를 최적화하고 모델 알고리즘 변경에 대한 우려를 덜어주는 통합 플랫폼으로 빛난다. MLflow를 사용하면 기업은 다양한 알고리즘 실험을 통해 일정한 배포 프로세스를 준수하는 동시에 유연성을 얻을 수 있습니다. 이 플랫폼은 라이브러리 간의 차이를 추상화하여 개발에서 배포로의 수동 변환 없이 원활한 전환을 가능하게 합니다. 이 유연성은 알고리즘 잠금을 회피하고 새로운 혁신에 적응하며, 배포 파이프라인을 중앙 집중화하여 유지 관리 부담을 줄입니다.
 
@@ -56,7 +85,18 @@ MLflow은 scikit-learn 및 TensorFlow와 같은 다양한 모델 라이브러리
 
 MLflow는 Python 모델 및 TensorFlow 아티팩트를 관리하는 데 뛰어나지만, 모델 컨텍스트 내에서 SQL 쿼리를 수용하는 것은 원래 지원되지 않습니다. 이 분리는 종종 기관이 SQL 기반 및 Python 모델을 배포하기 위해 별도의 시스템을 유지하도록 강요하여 유지 보수 노력과 추적 불일치가 증가하게 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 도전을 극복하기 위해, 우리는 파이썬 함수 내에서 SQL 쿼리의 논리를 캡슐화하는 천재적인 전략을 곧 발표할 예정이에요. 이를 통해, 우리는 SQL 기반 모델을 MLflow의 생태계에 원활하게 통합하여 효율적인 저장, 버전 관리, 배포를 가능하게 합니다.
 
@@ -66,7 +106,18 @@ MLflow는 Python 모델 및 TensorFlow 아티팩트를 관리하는 데 뛰어�
 
 문제 진단: 에어비앤비를 고려해봅시다. 웹 사이트에서 사용자 경험을 향상시키기 위해, 에어비앤비는 숙박 정보의 랭킹 모델을 최적화하고자 합니다. 고급 기계 학습 알고리즘으로 진입하기 전에, 그들은 SQL 기반 모델을 벤치마크로 구축하고자 합니다. 주요 목표는 사용자가 특정 지역에 대한 요청을 제출할 때, 웹 사이트의 리스트를 평균 리뷰 점수를 기반으로 순위를 매기는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 차례로 수행할 단계입니다:
 
@@ -76,7 +127,18 @@ MLflow는 Python 모델 및 TensorFlow 아티팩트를 관리하는 데 뛰어�
 
 ![데이터세트](/assets/img/2024-06-23-BridgingtheGapConstructingSQL-BasedModelsinMLflowforStreamlinedMLLifecycleManagement_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 랭킹 함수 정의하기: 지역별로 목록을 랭킹하는 함수를 정의할 거에요. 이 함수는 지역(지역)을 입력으로 받아와서 SQL 쿼리를 사용하여 리뷰 점수를 기반으로 내림차순으로 필터링하고 정렬할 거에요.
 
@@ -86,7 +148,18 @@ MLflow는 Python 모델 및 TensorFlow 아티팩트를 관리하는 데 뛰어�
 
 4. 모델 테스트: RankingModel이 예상대로 작동하는지 확인하기 위해 빠른 테스트를 실행할 거에요. 이 테스트에서 모델의 인스턴스를 만들고 모델 입력(지역)을 정의하고 predict 메서드를 호출하여 순위가 매겨진 목록을 얻을 거에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. 모델 등록: 성공적인 테스트 후, 앞으로 사용할 모델을 MLflow에 등록합니다. 이 단계에는 MLflow 런을 정의, 테스트 데이터로 predict() 메서드를 호출, predict 함수의 시그니처 추론, 모델 아티팩트를 MLflow에 로깅, 그리고 모델 레지스트리에 모델 등록이 포함됩니다.
 
@@ -96,7 +169,18 @@ MLflow는 Python 모델 및 TensorFlow 아티팩트를 관리하는 데 뛰어�
 
 이제 등록 후에 다른 노트북이나 콘텍스트에서 이 모델을 로드하고 해당 지역을 입력으로 예측 메서드를 호출하면 그 지역에 대한 리뷰 점수별로 순위가 매겨진 목록 ID가 반환됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5. 등록된 모델 로드 및 사용하기: 마지막으로 등록된 모델을 다른 컨텍스트나 노트북에서 로드하고 예측에 사용하는 방법을 보여드리겠습니다. 이를 통해 모델을 다양한 애플리케이션에 원활하게 통합할 수 있습니다.
 
@@ -106,7 +190,18 @@ MLflow는 Python 모델 및 TensorFlow 아티팩트를 관리하는 데 뛰어�
 
 마지막으로, 우리는 SQL 모델을 성공적으로 작성하고 MLflow에 통합했습니다. 이 모델은 이제 등록되어 다른 서비스의 엔드포인트로 제공되어 리뷰 점수 기반 순위 목록에 대한 확장 가능하고 효율적인 솔루션으로 사용할 준비가 되었습니다. 이 접근 방식은 MLflow의 다양한 유형의 모델을 통합하여 통일된 프레임워크 내에서 다루는 다양성을 보여주며, Python 기반 모델에서 SQL 기반 모델로의 능력을 확장합니다. 전체 노트북은 여기에서 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사가 유익하고 재미있었으면 좋겠습니다. 좋아요로 감사를 표현해 주시고, 댓글로 피드백을 공유해 주세요.
 

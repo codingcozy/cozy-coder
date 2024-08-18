@@ -3,17 +3,13 @@ title: "지프시 로즈 블랜차드 학대, 속임수, 그리고 회복에 관
 description: ""
 coverImage: "/assets/img/2024-06-19-GypsyRoseBlanchardAStoryofAbuseDeceptionandRedemption_0.png"
 date: 2024-06-19 16:52
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-GypsyRoseBlanchardAStoryofAbuseDeceptionandRedemption_0.png
 tag: Tech
 originalTitle: "Gypsy Rose Blanchard: A Story of Abuse, Deception, and Redemption"
 link: "https://medium.com/@delviquinn/gypsy-rose-blanchard-a-story-of-abuse-deception-and-redemption-5947b7ab1c82"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-06-19-GypsyRoseBlanchardAStoryofAbuseDeceptionandRedemption_0.png)
 
@@ -23,7 +19,18 @@ Jipsee Rose Blanchard는 항상 미국 국민들의 관심을 사로잡은 학�
 
 Gypsy Rose Blanchard의 이야기는 상상할 수 없는 속임수와 조작으로 가득합니다. 수 년 동안, 그녀는 백혈병 및 근육 이영 등 다양한 심각한 질병을 가졌다고 가장할 것을 강요당했습니다. 그녀의 어머니인 클로딘 "디디" 블랜챌드는 이 거짓말을 계속 유지하며, 딸에게 휠체어와 투길이 사용을 강제합니다. Gypsy의 친구들은 그녀가 지적 장애라고 믿었지만, 그들은 그녀의 어머니가 이 모험의 주역이었다는 사실을 알지 못했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **무료 교육**: 얼굴을 보이지 않고 유튜브에서 돈을 벌는 방법
 
@@ -33,7 +40,18 @@ Gypsy Rose Blanchard의 이야기는 상상할 수 없는 속임수와 조작으
 
 학대의 삶
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지프시의 어머니가 저지른 기만은 단지 가짜 병에 그치지 않았습니다. 지프시가 성장함에 따라 학대는 감정적으로나 신체적으로 더욱 심해졌습니다. 지프시는 어머니가 자신을 때리고 심지어 침대에 사슬로 결박하는 등의 학대를 받았다고 증언했습니다. 그러나 외부 세상은 여전히 디디 디디를 사랑과 배려심 깊은 어머니로 인식하여, 지프시를 고통의 늪에 고립시키고 갇히게 했습니다.
 
@@ -43,7 +61,18 @@ Gypsy Rose Blanchard의 이야기는 상상할 수 없는 속임수와 조작으
 
 지프시가 니콜라스 고드존과의 관계가 깊어질수록, 그녀는 자신의 어머니에게 받은 학대에 대해 그에게 털어놓았습니다. 어머니의 손아귀에서 벗어나기를 갈망한 지프시는 고드존에게 상황에 개입하도록 설득했습니다. 2015년, 지프시의 부탁으로 고드존은 무자비하게 디디 디디 블랜샤드를 살해했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 수익을 창출할 수 있는 12개의 유익한 YouTube 채널을 발견하세요.
 
@@ -53,8 +82,18 @@ Godejohn의 재판 중, 그가 자폐 스펙트럼 장애를 가지고 있음이
 
 살인 후, Gypsy와 Godejohn은 위스콘신으로 도피했으나 결국 법 집행기관에 체포되었습니다. 수사가 진행됨에 따라 여러 기이한 사건이 드러나게 되었습니다. 예를 들어, Gypsy의 나이는 그녀의 어머니가 좀더 쉽게 사기를 칠 수 있도록 의도적으로 가장히 했습니다. 초기에 Gypsy의 나이에 대한 혼란이 있었으며, 진실이 발각되기 전까지 법원 문건에는 그녀의 세 가지 다른 나이가 기재되어 있었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Gypsy Rose Blanchard](/assets/img/2024-06-19-GypsyRoseBlanchardAStoryofAbuseDeceptionandRedemption_1.png)
 
@@ -64,10 +103,20 @@ Godejohn의 재판 중, 그가 자폐 스펙트럼 장애를 가지고 있음이
 
 지피는 어머니의 살인 사건에 참여한 세부 사항이 드러남에 따라 긴 법적 싸움을 해야했습니다. 고드존에 대한 증언과 그가 겪은 학대에 대한 그녀의 증언을 바꾸기 위해, 지피는 합의 협상에 참여하고 2급 살인 혐의로 10년의 징역형을 선고받았습니다. 1급 살인 혐의의 초기 처벌은 평생형을 낳았을 것입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-회개의 길 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+회개의 길
 
 수감소는 많은 사람들에게 절망과 어려움의 장소입니다. 그러나 지프시 로즈 블랜차드에게는 자기 발견과 치유로 이어지는 예상치 못한 길이 되었습니다. 감옥 안에서 그녀는 종신을 통해 만성 질병이라고 믿어온 사실을 깨닫게 되면서 자신의 건강과 복지의 정도를 깨달았습니다. 그리하여 그녀는 자신의 형량을 받으면서 라이언 스콧 앤더슨과 결혼했습니다.
 
@@ -75,7 +124,18 @@ Godejohn의 재판 중, 그가 자폐 스펙트럼 장애를 가지고 있음이
 
 인내와 회복의 이야기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지프시 로즈 블란샤드가 가석방을 준비하며 새로운 삶을 시작하고 있습니다. 그녀의 이야기는 인간 정신의 탄탄한 의지를 상기시키며, 상상할 수 없는 학대와 조종을 이겨냈습니다. 그녀의 행동은 비난받을 수 없지만, 범죄에 연루된 배경을 이해함으로써 그녀의 삶의 복잡성을 엿볼 수 있습니다.
 
@@ -85,6 +145,17 @@ Godejohn의 재판 중, 그가 자폐 스펙트럼 장애를 가지고 있음이
 
 공식 웹사이트 방문하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 YouTube에서 동영상 녹화 없이 돈을 벌는 방법을 배워보세요!

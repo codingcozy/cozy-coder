@@ -3,17 +3,13 @@ title: "Angular 개발자가 되기 위한 지침 가이드"
 description: ""
 coverImage: "/assets/img/2024-07-07-GuidelinesforbecomingAngulardeveloper_0.png"
 date: 2024-07-07 03:03
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-GuidelinesforbecomingAngulardeveloper_0.png
 tag: Tech
 originalTitle: "Guidelines for becoming Angular developer"
 link: "https://medium.com/@patrik.horva90/guidelines-for-becoming-angular-developer-628e3fea1f4c"
 isUpdated: true
 ---
-
-
-
-
 
 만약 Angular 개발자가 되고 싶다면, 이 글을 읽어보세요!
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이 글은 동적인 웹 개발 분야에 진입하고자 하는 개인들이나 뛰어난 Angular 개발자가 되고자 하는 분들을 위해 작성되었습니다. 본 글은 Angular 개발자로서 여정을 시작하기 위한 모든 필수 단계를 아우르는 종합적인 안내서 역할을 합니다. 일부 지침들은 Angular의 범위를 넘어서지만, 당신의 Angular 관련 능력 뿐만 아니라 보다 넓은 프로그래밍 경력에 있어서 중요하다고 생각합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문서가 Angular나 프로그래밍 기초 교육을 위한 자습서로 디자인된 것은 아니라는 점을 유념해 주세요. 그 대신, 이 문서는 가치 있는 조언과 고품질의 학습 자료를 제공하는 목적으로 제작되었습니다. 이 문서를 당신의 필수 동반자로 여기시고, 새로운 Angular 개발자 커리어를 지원하는 통찰력과 신뢰할 수 있는 정보를 제공합니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 무엇보다도, 우수한 개발자가 되기 위한 요구 사항을 이해하는 것이 핵심적입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로그래밍은 IT 산업의 동적인 풍경 속에서 relevancy를 유지하기 위해 지속적인 학습과 자기 교육이 필요한 직종입니다. 각 연도가 혁신적인 기술과 새로운 프로그래밍 언어를 가져오면서 이 분야는 끊임없는 변화를 겪고 있습니다. 차세대 프로그래머들은 이 분야의 지속적인 성장의 중요성을 깨닫고 인내심과 헌신을 기를 필요가 있습니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 이 분야의 모든 전문가들이 전문가가 된 것은 단기간에 발생한 것이 아닙니다. 전문가가 되기 위해서는 철저한 지식과 경험을 쌓기 위해 상당한 시간을 할애해야 합니다. 장기간의 헌신과 지속적인 문제 해결을 통해 분야의 전문가로 성장할 수 있습니다. 현실적인 문제를 찾아 해결해 보세요. 적어도 시도해 보세요! 새로운 것을 반드시 배우게 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 개발은 도전과 좌절을 겪는 것을 포함합니다. 어려움, 실패, 그리고 장애물을 극복하는 능력은 성장에 매우 중요합니다. 헌신은 개인들이 어려운 상황에 직면했을 때도 목표에 집중할 수 있도록 해줍니다. Angular 애플리케이션을 학습하고 개발하는 과정에서 도전적인 장벽을 마주칠 것입니다. 그러나 포기하지 마세요! 아직 배울 것이 많습니다 :-)
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 # Angular 개발을 위한 IDE, 도구 및 디버깅 도구
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로그래밍 여행의 첫 단계는 IDE를 선택하는 것입니다.
 
@@ -63,7 +103,18 @@ Angular Language Service는 Angular 프로젝트에 특히 맞춘 자동 완성,
 
 Augury는 Angular 애플리케이션의 구성 요소 트리, 디버깅 정보 및 성능 프로파일링을 시각적으로 제공하는 Chrome 및 Firefox 브라우저 확장 프로그램입니다. 이는 개발자들이 Angular 애플리케이션의 구조를 검토하고 구성 요소를 식별하며 문제를 보다 효과적으로 디버깅하는 데 도움을 줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # HTML, CSS 및 JavaScript 배우기
 
@@ -73,7 +124,18 @@ HTML 또는 HyperText Markup Language은 웹 문서를 만들고 디자인하는
 
 CSS 는 Cascading Style Sheets의 약자로, HTML 또는 XML로 작성된 문서의 프레젠테이션을 설명하는 데 사용되는 스타일 시트 언어입니다. 더 간단히 말하면 CSS는 웹 페이지의 레이아웃, 서식, 외관을 제어하는 데 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HTML은 웹 페이지의 구조를 정의하며 제목, 단락, 이미지 및 링크와 같은 요소를 지정합니다. 반면에 CSS는 스타일링과 프레젠테이션을 담당합니다. 콘텐츠(HTML)와 프레젠테이션(CSS)을 분리함으로써, 웹 개발자들은 디자인에서 높은 유연성과 유지보수성을 달성할 수 있습니다.
 
@@ -83,7 +145,18 @@ JavaScript는 고수준이면서 다목적이며 해석형 프로그래밍 언�
 
 거대한 링크와 학습 자료를 제공하는 GitHub 저장소를 제공할게요: https://github.com/iamismile/web-dev-resources
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HTML, CSS 및 JavaScript를 잘 공부하세요. 다음과 같은 기본 프로젝트를 만들어 보세요:
 
@@ -98,7 +171,18 @@ HTML, CSS 및 JavaScript를 잘 공부하세요. 다음과 같은 기본 프로�
 
 이후에 TypeScript로 넘어가세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # TypeScript의 기초 배우기
 
@@ -112,7 +196,18 @@ TypeScript의 주요 기능은 다음과 같습니다:
 - Enum - TypeScript의 Enumerations는 개발자가 일련의 이름이 지정된 상수 값을 정의할 수 있도록 하는 기능입니다. 이는 코드 가독성과 유지 관리성을 향상시킬 수 있습니다.
 - 향상된 도구 - TypeScript는 더 나은 코드 편집기 지원을 통해 개발자의 생산성을 향상시킵니다. Visual Studio Code와 같은 편집기는 TypeScript 코드에 대한 자동 완성, 유형 검사 및 인라인 설명과 같은 기능을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앵귤러는 TypeScript로 작성되었고, TypeScript는 앵귤러 응용 프로그램을 구축하는 데 사용되는 주요 언어입니다. 그러므로 앵귤러와 TypeScript는 밀접하고 상생적인 관계를 가지고 있습니다. TypeScript를 사용하는 결정은 개발 중에 오류를 잡는 데 도움을 주고 대규모 응용 프로그램을 구축하는 보다 체계적인 접근을 제공하는 정적 유형 기능을 활용하기 위해 내려졌습니다. TypeScript의 데코레이터는 기존 JavaScript에 없는 기능으로, Angular에서 메타데이터 주석을 위해 널리 사용됩니다. @Component, @Directive, @Injectable과 같은 데코레이터는 Angular 컴포넌트와 서비스에 필수적이며, 앵귤러 컴파일러가 응용 프로그램의 구조를 이해하고 처리하는 데 사용하는 메타데이터를 제공합니다.
 
@@ -122,7 +217,18 @@ TypeScript의 도구 지원은 Visual Studio Code와 같은 코드 편집기에�
 
 TypeScript를 배우기 위해 강력히 추천하는 채널은 Matt Pocock의 YouTube 채널과 이 Udemy 강의입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Angular이란 무엇이며 그 개념에 대해 배우세요.
 
@@ -132,8 +238,18 @@ Angular는 구글에서 개발하고 유지 보수하는 인기 있는 오픈 �
 
 Angular는 다양한 기능을 제공하기 때문에 다소 복잡한 프레임워크입니다. Angular 프로젝트를 개발하고 유지 관리할 때 강력한 CLI가 여러분의 좋은 친구가 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-07-GuidelinesforbecomingAngulardeveloper_1.png)
 
@@ -143,8 +259,18 @@ The most important command is ng generate. As shown in the image below, there ar
 
 ![image](/assets/img/2024-07-07-GuidelinesforbecomingAngulardeveloper_2.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 구성 요소
 
@@ -154,7 +280,18 @@ The most important command is ng generate. As shown in the image below, there ar
 
 Angular 응용 프로그램에서 구성 요소는 계층적으로 구성되어 트리 구조를 형성합니다. 루트 구성 요소는 일반적으로 “app 구성 요소”로 지칭되며 다른 구성 요소를 하위 구성 요소로 포함합니다. 이 계층적 구조는 모듈식 및 유지 관리 가능한 응용 프로그램 아키텍처를 만들어 줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 라우팅
 
@@ -164,7 +301,18 @@ Angular 응용 프로그램에서 구성 요소는 계층적으로 구성되어 
 
 앵귤러 디렉티브는 앵귤러에서 HTML 요소의 동작을 확장할 수 있는 기능의 한 종류이다. 디렉티브는 HTML에 새로운 기능을 가르치는 방법으로, 웹 애플리케이션에 동적 기능과 상호 작용성을 추가할 수 있습니다. 앵귤러에는 세 가지 유형의 디렉티브가 있습니다: 구성요소 디렉티브, 속성 디렉티브 및 구조 디렉티브입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Angular에서 컴포넌트는 가장 일반적인 지시자 종류입니다. 컴포넌트는 템플릿이 있는 지시자입니다. 사용자 인터페이스 일부의 동작과 표현을 캡슐화합니다. 컴포넌트는 Angular 애플리케이션의 구성 요소입니다. 속성 지시자는 요소, 컴포넌트 또는 다른 지시자의 외관 또는 동작을 변경하는 데 사용됩니다. HTML 요소에서 속성으로 적용됩니다. 구조 지시자는 HTML 레이아웃에 책임이 있습니다. 일반적으로 요소를 추가, 제거 또는 조작하여 DOM의 구조를 형성하거나 재구성합니다.
 
@@ -174,7 +322,18 @@ Angular는 ngIf, ngFor, ngSwitch와 같은 내장 지시자를 제공하며, 애
 
 의존성 주입(Dependency Injection, DI)은 Angular의 핵심 컨셉이자 디자인 패턴으로, 모듈화되고 느슨하게 결합된 구성 요소를 개발하는 데 도움이 됩니다. Angular에서 의존성 주입은 컴포넌트나 서비스가 필요한 종속성(서비스 또는 객체)을 직접 생성하는 대신 제공하는 데 사용됩니다. Angular에서 의존성 주입은 구성 요소가 종속성이 생성되고 관리되는 방법의 세부 사항에서 분리되어 재사용성, 유지 관리성 및 테스트 용이성을 촉진합니다. 또한 실행 시간에 종속성을 쉽게 교체하거나 확장할 수 있도록 허용하여 기능을 교체하거나 확장하는 프로세스를 간단화합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 양식
 
@@ -184,7 +343,18 @@ Angular에서 양식은 사용자 입력을 캡처하고 처리하는 데 중요
 
 반응형 양식은 FormBuilder 서비스와 FormGroup 클래스를 사용하여 구축됩니다. 양식 구조는 컴포넌트에서 프로그래밍 방식으로 정의됩니다. 각 양식 컨트롤(입력 필드)은 FormControl 객체로 나타내어지며, 이는 FormGroup의 일부입니다. 반응형 양식은 양식 요소에 대해 정밀한 제어를 제공하며, 동기식 및 비동기식 유효성 검사기를 양식 컨트롤에 적용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 파이프
 
@@ -194,7 +364,18 @@ Angular에서 양식은 사용자 입력을 캡처하고 처리하는 데 중요
 
 HttpClient는 HTTP 요청을 보내고 응답을 처리하는 간단한 방법을 제공하는 모듈입니다. @angular/common/http 패키지의 일부이며, 원격 서버 및 API와 상호 작용하는 데 일반적으로 사용됩니다. HttpClient는 GET, POST, PUT, DELETE 등 다양한 유형의 HTTP 요청을 만드는 데 사용되는 메서드 세트를 제공하며, 요청 및 응답 변환, 오류 처리 등을 제공합니다. Angular에서 반응형 프로그래밍 패러다임의 중요한 부분인 observable과 함께 작동하도록 설계되었습니다. HttpClient는 인터셉터를 통해 요청 및 응답 변환을 지원합니다. 인터셉터는 요청이 보내어지거나 받아지기 전에 요청 또는 응답을 수정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 애니메이션
 
@@ -204,7 +385,18 @@ Angular은 Web Animations API를 기반으로한 강력한 애니메이션 시�
 
 Angular에서 서버 측 렌더링 (SSR)은 브라우저 대신 서버 쪽에서 Angular 애플리케이션을 렌더링하는 프로세스를 의미합니다. Angular로 구축된 전통적인 싱글 페이지 애플리케이션 (SPA)에서는 초기 HTML, CSS 및 JavaScript가 다운로드된 후에 렌더링 프로세스가 완전히 클라이언트 쪽에서 발생합니다. SSR에서는 렌더링 프로세스 중 일부 또는 전체가 서버로 이동되어 사전 렌더링된 HTML 페이지가 클라이언트로 전송됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반적인 SPA에서 브라우저는 최소한의 HTML 셸, 자바스크립트 및 기타 에셋을 다운로드합니다. 이후에 브라우저에서 자바스크립트가 실행되고 Angular가 컴포넌트를 렌더링하고 추가 데이터를 가져옵니다. 이 프로세스는 클라이언트 사이드 렌더링이라고 알려져 있습니다. SSR을 사용하면 Angular 애플리케이션의 초기 렌더링이 서버에서 발생합니다. 서버는 Angular 컴포넌트의 내용을 포함한 완전히 렌더링된 HTML 페이지를 생성하고 클라이언트에게 보냅니다.
 
@@ -214,7 +406,18 @@ SSR의 장점은 성능 향상, 검색 엔진 최적화 및 사용자 경험 향
 
 이 Angular 강좌를 강력히 추천합니다. 저도 직접 수강한 과정이며 Angular 경력의 놀라운 시작점을 제공해주었습니다. Udemy 강좌는 매우 자주 세일을 진행하므로 기회가 될 때 구매할 수 있도록 기다려주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 중요하고 고급 Angular 주제
 
@@ -224,7 +427,18 @@ Angular 응용 프로그램은 연관된 뷰를 가지고 있는 컴포넌트로
 
 크고 복잡한 Angular 응용 프로그램은 좋은 사용자 경험을 유지하기 위해 성능이 우수해야 합니다. Angular 응용 프로그램을 최적화하는 내 깊이 있는 기사를 꼭 읽어보시기를 강력히 추천합니다. 여기 링크가 있습니다. 마음에 들었고 즐기셨다면 박수를 눌러주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 테스팅
 
@@ -234,7 +448,18 @@ Angular에서의 테스팅은 애플리케이션의 신뢰성과 안정성을 �
 
 통합 테스팅은 애플리케이션의 다른 단위 또는 컴포넌트 간 상호 작용을 테스트하는 것을 말합니다. Angular에서는 주로 컴포넌트, 서비스 및 Angular 라우터 간의 통합을 테스트하는 것이 포함됩니다. 통합 테스트를 통해 애플리케이션의 다양한 부분이 예상대로 함께 작동하는지 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 엔드 투 엔드 테스트는 전체 애플리케이션을 테스트하며 사용자 상호작용을 시뮬레이션하고 전체 애플리케이션이 올바르게 작동하는 것을 확인하는 것을 의미합니다. Angular에서는 Protractor가 E2E 테스트의 인기 있는 도구입니다. Protractor는 Selenium과 함께 브라우저 상호작용을 자동화하는 데 사용됩니다.
 
@@ -244,7 +469,18 @@ RxJS (JavaScript용 Reactive Extensions)는 Observable을 사용하여 반응형
 
 Angular와 RxJS는 밀접한 관련이 있으며, RxJS는 Angular 프레임워크 내에서 중요한 역할을 합니다. Angular는 RxJS를 활용하여 비동기 작업을 처리하고 데이터 스트림을 효과적으로 관리합니다. RxJS를 Angular에 통합함으로써 이벤트 처리, 상태 관리, 비동기 작업 처리를 반응형 및 선언적인 방식으로 다루는 강력한 메커니즘을 제공합니다. 비즈니스 논리 캡슐화 및 데이터 처리를 담당하는 Angular 서비스는 대부분 RxJS Observables을 사용합니다. Angular의 HttpClient 모듈을 사용하여 HTTP 요청을 보낼 때, 응답은 일반적으로 Observable로 래핑되어 개발자가 비동기 데이터 스트림을 다룰 수 있게 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 많은 프로젝트들을 구축해보세요. 다양한 방법으로 재구성해보세요.
 
@@ -257,7 +493,18 @@ Angular를 배운 후에는 몇 가지 프로젝트에서 실습할 시간입니
 - 주식 시장 분석 — 무료 API를 사용하여 주식 가치를 검색하고, 그래프와 표 데이터로 보여줄 수 있는 고급 대시보드를 만드세요. 데이터를 비교하고 주식 가치를 예측하세요.
 - 소셜 미디어 복제 — Instagram, Facebook 또는 Twitter의 복제본을 만드세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트를 빌드한 후에는 처음부터 새로 다시 빌드해보세요. 다양한 방식으로 프로젝트를 구축해보세요. 그러면 특정한 상황에 대한 최상의 방법과 구현 방법을 발견할 수 있을 거예요.
 
@@ -275,6 +522,17 @@ Angular를 배운 후에는 몇 가지 프로젝트에서 실습할 시간입니
 - Angular 블로그
 - 훌륭한 자료가 있는 Github 저장소
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 다 됐어요! 이 기사를 좋아하셨다면 박수와 생각을 남겨주세요! :-)

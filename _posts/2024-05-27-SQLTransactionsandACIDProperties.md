@@ -3,16 +3,13 @@ title: "SQL 트랜잭션 및 ACID 속성"
 description: ""
 coverImage: "/assets/img/2024-05-27-SQLTransactionsandACIDProperties_0.png"
 date: 2024-05-27 13:02
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-SQLTransactionsandACIDProperties_0.png
 tag: Tech
 originalTitle: "SQL Transactions and ACID Properties"
 link: "https://medium.com/gitconnected/sql-transactions-and-acid-properties-bb5b670538f8"
 isUpdated: true
 ---
-
-
-
 
 ![image](/assets/img/2024-05-27-SQLTransactionsandACIDProperties_0.png)
 
@@ -22,7 +19,18 @@ SQL을 데이터베이스로 사용하는 은행 시스템을 상상해봅시다
 
 ![image](/assets/img/2024-05-27-SQLTransactionsandACIDProperties_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자 A의 잔고에서 인출한 돈이 사라졌다는 것을 의미합니까? SQL 데이터베이스에서는 그렇지 않습니다. 왜냐하면 SQL 트랜잭션을 사용하기 때문입니다.
 
@@ -35,7 +43,18 @@ SQL을 데이터베이스로 사용하는 은행 시스템을 상상해봅시다
 - 고립성: 동시에 실행되는 트랜잭션에 의해 수행된 수정 사항은 서로 분리되어 커밋될 때까지 격리됩니다.
 - 지속성: 트랜잭션이 커밋되면 시스템 장애가 발생하더라도 지속되어 유지됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-27-SQLTransactionsandACIDProperties_2.png" />
 
@@ -45,7 +64,18 @@ SQL 트랜잭션의 시작을 BEGIN TRANSACTION 키워드로 표시합니다.
 
 <img src="/assets/img/2024-05-27-SQLTransactionsandACIDProperties_3.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 트랜잭션 중에 발생한 변경 사항을 저장하려면 변경 사항을 데이터베이스에 COMMIT합니다.
 
@@ -55,7 +85,18 @@ SQL 트랜잭션의 시작을 BEGIN TRANSACTION 키워드로 표시합니다.
 
 ![이미지](/assets/img/2024-05-27-SQLTransactionsandACIDProperties_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 예시
 
@@ -66,8 +107,18 @@ SQL 트랜잭션의 시작을 BEGIN TRANSACTION 키워드로 표시합니다.
 
 이 두 가지 단계는 모두 성공적으로 완료되어야 합니다. SQL 트랜잭션으로 이를 어떻게 작성할 수 있는지 살펴보겠습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 BEGIN TRANSACTION;
 
@@ -85,7 +136,6 @@ BEGIN TRANSACTION;
   -- 모든 것이 잘 되었다면 트랜잭션을 커밋합니다.
   COMMIT;
 
-
 이 트랜잭션은 다음을 수행합니다:
 
 - 트랜잭션을 시작하여 다음 작업이 단일 원자적 프로세스의 일부임을 보장합니다.
@@ -96,9 +146,18 @@ BEGIN TRANSACTION;
 
 이것은 두 계정이 적절히 업데이트되거나 어느 시점에서 문제가 발생할 경우 변경 내용이 적용되지 않으므로 데이터의 무결성이 유지됩니다.
 
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # SQL 트랜잭션의 격리 수준
 
@@ -108,7 +167,18 @@ SQL 표준은 일관성과 성능 간의 균형을 맞추기 위해 네 가지 �
 
 ## 1. Read Uncommitted
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 설명: 격리의 가장 낮은 수준입니다. 트랜잭션이 커밋되기 전에 다른 트랜잭션이 작업한 변경 사항을 볼 수 있습니다.
 - 예시에 미치는 영향: 돈을 송금하는 도중에 다른 트랜잭션이 계좌 A 또는 B의 잔액을 업데이트하고 있다면, 이 트랜잭션은 이러한 커밋되지 않은 값을 읽을 수 있습니다. 이는 실제로 존재하지 않는 잔액을 보는 등의 문제를 발생시킬 수 있습니다 (다른 트랜잭션이 실패하고 롤백될 경우).
@@ -120,7 +190,18 @@ SQL 표준은 일관성과 성능 간의 균형을 맞추기 위해 네 가지 �
 
 ## 3. Repeatable Read
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 설명: 거래가 데이터를 두 번째로 읽을 때 동일한 데이터 값을 찾을 수 있도록 보장합니다(반복되지 않는 읽기를 피함).
 - 예시에 미치는 영향: 이 수준은 거래 내에서 동일한 데이터의 여러 번의 읽기 사이에 다른 사람에 의해 생긴 변경 사항을 볼 수 없도록 합니다. 이는 잔액 확인 및 업데이트 작업 중 일관된 읽기 결과를 유지하는 데 도움이 됩니다. 그러나 다른 거래에 의해 추가된 새로운 행이 발생하는 유령 읽기를 막을 수는 없을 수도 있습니다.
@@ -132,7 +213,18 @@ SQL 표준은 일관성과 성능 간의 균형을 맞추기 위해 네 가지 �
 
 다양한 격리 수준에서 여러 현상이 발생할 수 있으며, 더티 리드, 반복되지 않는 읽기 또는 유령 읽기와 같은 현상이 발생할 수 있습니다. 아래에서 이 용어가 의미하는 바를 살펴보겠습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Dirty Reads
 
@@ -144,9 +236,18 @@ SQL 표준은 일관성과 성능 간의 균형을 맞추기 위해 네 가지 �
 - 트랜잭션 1이 커밋되기 전에 트랜잭션 2가 시작되고 계좌 A의 잔액을 읽습니다.
 - 트랜잭션 1이 실패하고 롤백되면, 트랜잭션 2는 공식적으로 커밋되지 않은 잔액을 읽게 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-05-27-SQLTransactionsandACIDProperties_6.png)
 
@@ -156,9 +257,18 @@ SQL 표준은 일관성과 성능 간의 균형을 맞추기 위해 네 가지 �
 
 예시:
 
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 거래 1이 시작되고 계정 A의 잔액을 읽습니다.
 - 거래 2가 계정 A에서 계정 B로 $100을 이체하고 커밋합니다.
@@ -170,7 +280,18 @@ SQL 표준은 일관성과 성능 간의 균형을 맞추기 위해 네 가지 �
 
 환상 읽기란 다른 트랜잭션에서 읽고 있는 레코드에 새로운 행이 추가되거나 (또는 기존 행이 삭제되는 경우) 트랜잭션 중에 발생합니다. 이는 동일한 트랜잭션에서의 후속 읽기가 원래 읽기의 일부가 아니었던 새로 추가된 행을 포함하거나 삭제되지 않은 행을 제외한 행 집합을 반환할 수 있음을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시:
 
@@ -182,11 +303,21 @@ SQL 표준은 일관성과 성능 간의 균형을 맞추기 위해 네 가지 �
 
 높은 격리 수준은 발생할 수 있는 현상의 종류를 줄이지만 더 낮은 동시성과 잠재적인 성능 영향을 감수해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 SQL 데이터베이스의 확장 메커니즘에 대해 더 알고 싶다면, 데이터베이스 샤드, 복제 등을 다루는 깊이 있는 Database Essentials 비디오를 확인해보세요:
 
 여기 처음 오신 분들을 위해, 저는 Hayk입니다. 저는 웹 개발자 분들이 첫 번째 기술 직을 확보하거나 웹 개발 마스터리 커뮤니티에서 시니어 역할로 진출하는 데 도와드리고 있어요.
 
 웹 개발에 대한 주간 통찰력을 놓치고 싶지 않다면, 내 뉴스레터를 구독해주세요.
-

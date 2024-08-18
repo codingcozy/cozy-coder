@@ -3,17 +3,13 @@ title: "Angular로 오프라인 우선 애플리케이션 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-07-OfflineFirstApplicationswithAngular_0.png"
 date: 2024-07-07 03:01
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-OfflineFirstApplicationswithAngular_0.png
 tag: Tech
 originalTitle: "Offline First Applications with Angular"
 link: "https://medium.com/@md.mollaie/offline-first-applications-with-angular-845bedaef51c"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-07-07-OfflineFirstApplicationswithAngular_0.png" />
 
@@ -25,7 +21,18 @@ isUpdated: true
 - 데이터 신뢰성: 오프라인에서 생성 또는 수정된 데이터는 연결이 복구되면 서버와 동기화될 수 있습니다.
 - 성능 향상: 로컬 저장소 및 처리는 지연 시간을 줄여 더 빠른 응답 시간으로 이어집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 오프라인 솔루션 비교
 
@@ -35,7 +42,18 @@ isUpdated: true
 
 개요: 서비스 워커는 웹 애플리케이션과 네트워크 사이에서 프록시 역할을 하며, 네트워크 요청을 가로채고 캐시된 응답을 제공하여 오프라인 기능을 활성화합니다. PWAs는 서비스 워커를 활용하여 네이티브 앱과 유사한 경험을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 장점:
 
@@ -48,7 +66,18 @@ isUpdated: true
 - 캐시 및 서비스 워커 라이프사이클 관리의 복잡성
 - IndexedDB와 비교하여 저장 용량 한계
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Firebase SDK
 
@@ -60,7 +89,18 @@ isUpdated: true
 - 실시간 데이터 동기화
 - 오프라인 지속성을 위한 간단한 API
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단점:
 
@@ -71,7 +111,18 @@ isUpdated: true
 
 개요: RxDB(반응형 데이터베이스)는 자바스크립트 애플리케이션을 위한 실시간 NoSQL 데이터베이스로, 오프라인 우선 기능을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 장점:
 
@@ -84,7 +135,18 @@ isUpdated: true
 - 반응형 프로그래밍 패러다임으로 인한 학습 곡선
 - Firebase와 비교하여 커뮤니티 지원이 제한적
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Dexie.js 및 사용자 정의 데이터 서비스 계층을 활용한 맞춤형 솔루션
 
@@ -96,7 +158,18 @@ isUpdated: true
 - 기존 아키텍처와 통합할 수 있는 유연성
 - 공급업체에 대한 의존성 제거
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단점:
 
@@ -107,7 +180,18 @@ isUpdated: true
 
 ## Angular 애플리케이션 설정하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 최신 버전을 사용하여 독립 구성으로 새 Angular 애플리케이션을 만들어 보겠습니다.
 
@@ -121,7 +205,18 @@ angular.json 파일을 구성하여 PWA 기능을 위한 서비스 워커를 활
 
 # ToDo 페이지 만들기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 페이지를 만들어보겠습니다: 할 일 목록(List)과 상세(Detail) 페이지입니다. 할 일(Task) 모델을 정의하는데, 제목(title), 설명(description), 마지막 동작(last action), 그리고 사용자 ID(user ID) 필드가 있습니다.
 
@@ -131,7 +226,7 @@ export interface Task {
   id: string;
   title: string;
   description: string;
-  lastAction: 'in-progress' | 'done';
+  lastAction: "in-progress" | "done";
   userId: string;
 }
 ```
@@ -140,7 +235,18 @@ export interface Task {
 
 데이터 작업 및 동기화를 처리하는 Core API 서비스를 정의했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { HttpClient, HttpParams } from '@angular/common/http';
@@ -227,7 +333,7 @@ export abstract class CoreApiService<T> {
 ```js
 export interface WhereCondition {
   field: string;
-  operator: '==' | '<' | '<=' | '>' | '>=' | 'array-contains' | 'in' | 'array-contains-any' | 'not-in';
+  operator: "==" | "<" | "<=" | ">" | ">=" | "array-contains" | "in" | "array-contains-any" | "not-in";
   value: string | string[] | number | number[] | boolean;
 }
 
@@ -243,7 +349,18 @@ export interface QueryOptions {
 
 Dexie.js를 사용하여 로컬 스토리지를 관리하는 데이터 서비스를 생성하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm install dexie
@@ -485,19 +602,29 @@ export class DataService<T> {
 
 Core API 서비스를 확장하고 Task 모델을 정의하는 ToDo 서비스를 생성하십시오.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import { Injectable } from '@angular/core';
-import { CoreApiServiceV2 } from './core-api.service';
-import { Task } from '../models/task.model';
+import { Injectable } from "@angular/core";
+import { CoreApiServiceV2 } from "./core-api.service";
+import { Task } from "../models/task.model";
 
 @Injectable({
-  providedIn: 'root',
+  providedIn: "root",
 })
 export class ToDoService extends CoreApiServiceV2<Task> {
-  dbPath = 'tasks';
+  dbPath = "tasks";
 }
 ```
 
@@ -518,17 +645,28 @@ ToDo 목록과 상세 페이지를 위한 간단한 UI를 만들어보세요.
 </div>
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // src/app/todo-list/todo-list.component.ts
-import { Component, OnInit } from '@angular/core';
-import { ToDoService } from '../services/todo.service';
-import { Task } from '../models/task.model';
+import { Component, OnInit } from "@angular/core";
+import { ToDoService } from "../services/todo.service";
+import { Task } from "../models/task.model";
 
 @Component({
-  selector: 'app-todo-list',
-  templateUrl: './todo-list.component.html',
+  selector: "app-todo-list",
+  templateUrl: "./todo-list.component.html",
 })
 export class TodoListComponent implements OnInit {
   tasks: Task[] = [];
@@ -596,6 +734,17 @@ export class TodoDetailComponent implements OnInit {
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Angular, Dexie.js 및 사용자 정의 데이터 서비스 레이어를 활용하여 네트워크 상태와 관계없이 원활한 사용자 경험을 제공하는 견고한 오프라인 우선 응용 프로그램을 만들 수 있습니다. 이 접근 방식은 데이터 처리 및 동기화에 대한 유연성과 제어를 제공하여 복잡한 응용 프로그램에 대한 실용적인 해결책으로 작용합니다.

@@ -3,17 +3,13 @@ title: "Windows PC와 Mac에서 WhatsApp 앱을 잠그는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-19-HowtoLockWhatsAppApponWindowsPCandMac_0.png"
 date: 2024-06-19 21:44
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-HowtoLockWhatsAppApponWindowsPCandMac_0.png
 tag: Tech
 originalTitle: "How to Lock WhatsApp App on Windows PC and Mac"
 link: "https://medium.com/@jasonbnovak0/how-to-lock-whatsapp-app-on-windows-pc-and-mac-456f5a5a104f"
 isUpdated: true
 ---
-
-
-
-
 
 WhatsApp Android 및 WhatsApp iPhone에서는 화면 잠금 기능을 제공하며 WhatsApp Web도 마찬가지입니다. 그러나 Windows 또는 Mac용 WhatsApp에는 해당 기능이 없습니다. 컴퓨터에서이 앱을 잠그려면 어떻게 해야합니까? 이 기사에서는 Windows PC 및 Mac의 WhatsApp에 비밀번호를 설정하는 방법을 안내합니다.
 
@@ -23,7 +19,18 @@ WhatsApp Android 및 WhatsApp iPhone에서는 화면 잠금 기능을 제공하�
 
 저는 WhatsApp용으로 사용하는 앱 잠금이 AppCrypt입니다. 이름에서 알 수 있듯이 AppCrypt는 앱 잠금입니다. 또한 웹 사이트 차단기로도 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단계 1. AppCrypt를 다운로드하고 컴퓨터에 설치하세요.
 
@@ -33,7 +40,18 @@ WhatsApp Android 및 WhatsApp iPhone에서는 화면 잠금 기능을 제공하�
 
 단계 3. 화면 하단의 작업 표시줄에서 AppCrypt 아이콘을 클릭하세요. 나타나는 화면에서 AppCrypt 비밀번호를 입력하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-HowtoLockWhatsAppApponWindowsPCandMac_2.png" />
 
@@ -43,17 +61,39 @@ WhatsApp Android 및 WhatsApp iPhone에서는 화면 잠금 기능을 제공하�
 
 단계 5. WhatsApp을 잠그려면 AppCrypt에 추가해야 합니다. 두 가지 상황이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-HowtoLockWhatsAppApponWindowsPCandMac_4.png)
 
-만약 WhatsApp 앱이 Microsoft Store에서 설치되었다면, 먼저 파일 탐색기를 열어주세요. "C:\Program Files\WindowsApps"로 이동하시면 두 개의 WhatsApp 폴더를 발견할 수 있습니다. "5319275A.WhatsAppDesktop_2.2401.4.0_x64__cv1g1gvanyjgm"이라는 폴더를 열어보시면 WhatsApp.exe 파일을 찾을 수 있습니다. 이 WhatsApp.exe 파일을 AppCrypt의 App Lock 탭으로 끌어다 놓으세요.
+만약 WhatsApp 앱이 Microsoft Store에서 설치되었다면, 먼저 파일 탐색기를 열어주세요. "C:\Program Files\WindowsApps"로 이동하시면 두 개의 WhatsApp 폴더를 발견할 수 있습니다. "5319275A.WhatsAppDesktop_2.2401.4.0_x64\_\_cv1g1gvanyjgm"이라는 폴더를 열어보시면 WhatsApp.exe 파일을 찾을 수 있습니다. 이 WhatsApp.exe 파일을 AppCrypt의 App Lock 탭으로 끌어다 놓으세요.
 
 ![이미지](/assets/img/2024-06-19-HowtoLockWhatsAppApponWindowsPCandMac_5.png)
 
 만약 WhatsApp 앱이 EXE 파일을 다운로드하여 설치되었다면, WhatsApp의 바탕화면 바로 가기를 찾으실 수 있습니다. 이 바로 가기를 AppCrypt의 App Lock 탭으로 끌어다 놓으면 됩니다. (바로 가기를 찾을 수 없다면, 파일 탐색기를 열어 "C:\Users\Administrator\AppData\Local\WhatsApp"로 이동해주세요. WhatsApp.exe 파일이 있을 겁니다. 이 WhatsApp.exe 파일을 App Lock 탭으로 끌어다 놓으세요.)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금 WhatsApp이 PC에서 잠겨 있어요.
 
@@ -63,7 +103,18 @@ WhatsApp Android 및 WhatsApp iPhone에서는 화면 잠금 기능을 제공하�
 
 WhatsApp을 잠금 해제하는 네 가지 방법이 있어요. 잠금 화면에서 AppCrypt 비밀번호를 입력하거나 AppCrypt를 종료하는 것과 같은 방법으로 WhatsApp을 잠금 해제할 수 있어요. 그러나 네 가지 방법 중 어느 것이든 비밀번호가 필요해요. WhatsApp의 잠금을 제거하기 위해서도 비밀번호가 필요해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 팁 1: AppCrypt 환경 설정에서 App Lock 섹션으로 이동하세요. 앱이 비활성 상태가 될 때 자동 잠금 활성화 확인란을 선택하고 1분과 같은 시간을 선택하세요. 이렇게 하면 WhatsApp이 잠겨 있지만 1분 동안 비활성 상태로 유지되면 자동으로 잠길 것입니다.
 
@@ -73,7 +124,18 @@ WhatsApp을 잠금 해제하는 네 가지 방법이 있어요. 잠금 화면에
 
 ## 맥에서 비밀번호로 WhatsApp 잠그는 방법
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 여러분이 맥 사용자라면, Mac용 AppCrypt이 있기 때문에 위의 "Windows" 부분도 확인할 수 있어요. 하지만 순서는 조금 다르답니다.
 
@@ -83,7 +145,18 @@ WhatsApp을 잠금 해제하는 네 가지 방법이 있어요. 잠금 화면에
 
 ![이미지](/assets/img/2024-06-19-HowtoLockWhatsAppApponWindowsPCandMac_8.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단계 3. 화면 상단의 메뉴 바에서 잠금 아이콘을 클릭한 후 '주 창 열기'를 선택하세요.
 
@@ -93,7 +166,18 @@ WhatsApp을 잠금 해제하는 네 가지 방법이 있어요. 잠금 화면에
 
 ![Step 4](/assets/img/2024-06-19-HowtoLockWhatsAppApponWindowsPCandMac_10.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5. **앱 잠금** 탭 아래에 있는 큰 **추가** 버튼을 클릭하세요.
 
@@ -103,7 +187,18 @@ WhatsApp을 잠금 해제하는 네 가지 방법이 있어요. 잠금 화면에
 
 ![Step 6](/assets/img/2024-06-19-HowtoLockWhatsAppApponWindowsPCandMac_12.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금 WhatsApp이 맥에서 잠겨 있어요.
 

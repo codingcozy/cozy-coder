@@ -3,17 +3,13 @@ title: "루비 LSP 초기 설정 고민"
 description: ""
 coverImage: "/assets/img/2024-06-19-InitialRubyLSPconfigurationalpain_0.png"
 date: 2024-06-19 04:53
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-InitialRubyLSPconfigurationalpain_0.png
 tag: Tech
 originalTitle: "Initial Ruby LSP configurational pain"
 link: "https://medium.com/@luka.barczak/initial-ruby-lsp-configurational-pain-7d58bba2b995"
 isUpdated: true
 ---
-
-
-
-
 
 이 글은 Windows 10에서 Ruby LSP VS Code 확장 프로그램을 설정하는 방법에 대한 빠른 안내입니다.
 
@@ -26,7 +22,18 @@ isUpdated: true
 - Visual Studio Code (VSC),
 - Ruby LSP VSC 확장 프로그램 (아이디: Shopify.ruby-lsp).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Windows 용 RubyInstaller
 
@@ -36,14 +43,35 @@ Windows 용 RubyInstaller
 
 화면에서 볼 수 있듯이, "Latest News" 섹션이 실제로 최신 상태가 아닙니다 (3.3.0이 아닌 3.3.3이 나와야 합니다). 따라서 올바른 버전을 찾기 위해 아래 사진처럼 "Download" 섹션으로 이동해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래와 같이 제시된 마지막 단계에 도달할 때까지 설치 프로그램의 지시에 따라 설치를 진행하세요. 체크박스가 선택되어 있는지 확인하세요. Ridk는 RubyInstaller Development Kit의 줄임말로, 여기에서 문서를 찾을 수 있습니다.
 
 그 후에는 RubyInstaller가 열린 cmd 창이 표시됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Initial Ruby LSP configuration pain 3](/assets/img/2024-06-19-InitialRubyLSPconfigurationalpain_3.png)
 
@@ -53,8 +81,18 @@ Windows 용 RubyInstaller
 
 Ruby가 제대로 설치되었는지 확인하려면 새로운 (그렇지 않으면 Ruby 환경 경로가 선택되지 않을 수 있음) 터미널 창에서 명령어 ruby -v를 실행해주세요.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Visual Studio Code
 
@@ -64,7 +102,18 @@ Ruby LSP VSC 확장 프로그램
 
 설치가 완료되면 Visual Studio Code (VSC)를 열어보세요. Ruby LSP 확장 프로그램을 그냥 추가하는 것만으로는 작동하지 않습니다. 이 GitHub 이슈에 따르면 Ruby LSP는 VSC에서 워크스페이스 폴더가 열려 있을 때에만 활성화됩니다(단일 파일에서는 작동하지 않음). 안타깝게도 이것이 유일한 요구 사항은 아닙니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 워크스페이스 폴더에 Gemfile.lock이라는 특정 파일이 있어야 합니다. 이 파일은 워크스페이스에서 bundle install 명령을 실행하여 생성됩니다. bundle install 명령은 Ruby 프로젝트의 종속성을 관리하는 Bundler 도구의 일부입니다. 이 명령은 프로젝트의 Gemfile에 지정된 젬(루비 라이브러리)을 설치합니다. Gemfile은 프로젝트에 필요한 모든 젬과 버전을 나열하는 파일입니다.
 
@@ -72,7 +121,18 @@ Ruby LSP VSC 확장 프로그램
 
 이제 남은 일은 VSC에 Ruby LSP 확장 프로그램을 설치하는 것뿐입니다. 이제 문제없이 실행되어야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-InitialRubyLSPconfigurationalpain_6.png" />
 

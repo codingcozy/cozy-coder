@@ -3,7 +3,7 @@ title: "LLM에서 환각 감지하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-13-HowtoDetectHallucinationsinLLMs_0.png"
 date: 2024-07-13 03:41
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-HowtoDetectHallucinationsinLLMs_0.png
 tag: Tech
 originalTitle: "How to Detect Hallucinations in LLMs"
@@ -11,34 +11,52 @@ link: "https://medium.com/towards-data-science/real-time-llm-hallucination-detec
 isUpdated: true
 ---
 
-
-
-
-
 아니요, 이블린 하트웰(Evelyn Hartwell)은 여러 개의 가짜 신분을 사용하는 사기꾼이 아니며 여러 직업으로 속이고 삼중 삶을 살고 있는 것도 아닙니다. 사실, 그녀는 아예 존재하지 않지만, 대신 모델인데, 알지 못한다는 대신 사실을 지어내기 시작합니다. 우리는 LLM 환각과 달래야 합니다.
 
 길고 상세한 결과물은 실제와 같아 보일 수 있습니다. 하지만 그것이 소설일지라도 믿게 만들 수는 있을까요? 다행히도 올바른 보호장치를 갖춘 경우, 챗봇이 거짓말을 하는 경향이 적어질 수도 있습니다.
 
 ![이미지1](/assets/img/2024-07-13-HowtoDetectHallucinationsinLLMs_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 결과물들에 대해, 저는 온도를 0.7로 높게 설정했어요. 이렇게 하면 LLM이 각 세대마다 동일한 텍스트를 가지지 않게끔 문장 구조를 변경할 수 있어요. 출력물 간의 차이는 의미상의 것으로만 있을 거예요. 사실적인 것이 아닌 거죠.
 
 이 간단한 생각은 새로운 샘플 기반의 환현 탐지 매커니즘을 소개할 수 있게 했어요. LLM이 동일한 프롬프트에 대한 출력물이 서로 모순된다면, 그것들은 환현일 가능성이 높아요. 서로를 함의한다면, 정보가 사실적일 확률이 높습니다.
 
-이러한 종류의 평가를 위해서, 우리는 LLM의 텍스트 출력만 필요로 해요. 이를 블랙박스 평가라고 해요. 또한 외부 지식이 필요하지 않기 때문에 제로-리소스라고 불려요. 
+이러한 종류의 평가를 위해서, 우리는 LLM의 텍스트 출력만 필요로 해요. 이를 블랙박스 평가라고 해요. 또한 외부 지식이 필요하지 않기 때문에 제로-리소스라고 불려요.
 
 # 문장 임베딩 코사인 거리
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아주 기본적인 유사성 측정 방법으로 시작해봅시다. 내장된 문장들 간의 대응하는 쌍의 코사인 유사도를 계산할 것입니다. 벡터의 방향에만 집중해야 하기 때문에 정규화합니다. 아래 함수는 원래 생성된 output 문장과 sampled_passages에 있는 3개의 샘플 출력 목록을 입력으로 받습니다. 모든 완성은 기사 첫머리에 있는 이미지에 있습니다.
 
 임베딩 생성에는 all-MiniLM-L6-v2 경량 모델을 사용하고 있습니다. 문장을 임베딩하면 벡터 표현으로 변환됩니다.
 
 ```js
-output = "Evelyn Hartwell is a Canadian dancer, actor, and choreographer." 
+output = "Evelyn Hartwell is a Canadian dancer, actor, and choreographer."
 output_embeddings = model.encode(output)
 
 array([ 6.09108340e-03, -8.73148292e-02, -5.30637987e-02, -4.41815751e-03,
@@ -51,7 +69,18 @@ array([ 6.09108340e-03, -8.73148292e-02, -5.30637987e-02, -4.41815751e-03,
 
 LLM의 각 출력에 대한 임베딩을 생성한 후, sentence_transformers의 pairwise_cos_sim 함수를 사용하여 쌍별 코사인 유사성을 계산합니다. 원래 응답을 각각의 샘플 응답과 비교하고 평균을 낼 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 from sentence_transformers.util import pairwise_cos_sim
@@ -83,11 +112,20 @@ def get_cos_sim(output,sampled_passages):
 
 위 이미지에서 볼 수 있듯이, 벡터 사이의 각도는 약 30⁰로, 서로 가깝습니다. 코사인 값은 약 0.87입니다. 코사인 값이 1에 가까울수록 벡터들이 서로 가까이에 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 cos_sim_score = get_cos_sim(output, [sample1,sample2,sample3])
-
 
 우리의 임베드된 출력에 대한 cos_sim_score는 평균 값 0.52입니다.
 
@@ -95,8 +133,18 @@ cos_sim_score = get_cos_sim(output, [sample1,sample2,sample3])
 
 ![HowtoDetectHallucinationsinLLMs_3](/assets/img/2024-07-13-HowtoDetectHallucinationsinLLMs_3.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 The pairwise cosine similarity score, in this case, is 0.93. Looks promising, especially as it’s a very fast method of assessing the similarity between outputs.
 
@@ -106,7 +154,18 @@ The pairwise cosine similarity score, in this case, is 0.93. Looks promising, es
 
 The BERTScore builds on the pairwise cosine similarity idea we implemented previously.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-07-13-HowtoDetectHallucinationsinLLMs_5.png](/assets/img/2024-07-13-HowtoDetectHallucinationsinLLMs_5.png)
 
@@ -116,27 +175,49 @@ The BERTScore builds on the pairwise cosine similarity idea we implemented previ
 
 자세한 내용은 블로그에서 자세히 확인해보세요! 🌟
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-['Evelyn Hartwell is an American author, speaker, and life coach.',
- 'She is best known for her book, The Miracle of You: How to Live an Extraordinary Life, which was published in 2007.',
- 'She is a motivational speaker and has been featured on TV, radio, and in many magazines.',
- 'She has authored several books, including How to Make an Impact and The Power of Choice.']
+[
+  "Evelyn Hartwell is an American author, speaker, and life coach.",
+  "She is best known for her book, The Miracle of You: How to Live an Extraordinary Life, which was published in 2007.",
+  "She is a motivational speaker and has been featured on TV, radio, and in many magazines.",
+  "She has authored several books, including How to Make an Impact and The Power of Choice.",
+];
 ```
 
 This step is crucial for the selfcheck_bertscore.predict function to calculate the BERTScore for each sentence matched to the original response from the samples. Initially, it generates an array with the number of rows equal to the number of sentences in the original output and the number of columns equal to the number of samples.
-
 
 [[0., 0., 0.],
 [0., 0., 0.],
 [0., 0., 0.],
 [0., 0., 0.]]
 
-
 The model employed for calculating the BERTScore between candidate and reference sentences is RoBERTa large with 17 layers. Our original output consists of 4 sentences, labeled as r1, r2, r3, and r4. The first sample contains two sentences: c1 and c2. We calculate the F1 BERTScore individually for each sentence from the original output corresponding to each sentence from the first sample. Subsequently, we perform base rescaling with respect to the baseline tensor b = tensor([0.8315, 0.8315, 0.8312]). The baseline b was derived using 1 million randomly paired sentences from the Common Crawl monolingual datasets. BERTScore was computed for each pair and then averaged, representing a lower limit as random pairings have minimal semantic overlap. [1]
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지를 Markdown 형식으로 바꿔주시겠어요?
 
@@ -145,31 +226,57 @@ BERTScore는 각 문장의 유사도를 계산하여 원본 응답과 각 그려
 첫 번째 샘플의 배열에서 최대 유사도를 추가해봅시다:
 
 ```js
-bertscore_array
-array([[0.43343216, 0. , 0. ],
-[0.12838356, 0. , 0. ],
-[0.2571277 , 0. , 0. ],
-[0.21805632, 0. , 0. ]])
+bertscore_array;
+array([
+  [0.43343216, 0, 0],
+  [0.12838356, 0, 0],
+  [0.2571277, 0, 0],
+  [0.21805632, 0, 0],
+]);
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 다음 두 샘플에 대해 동일한 과정을 반복합니다:
 
 ```js
-array([[0.43343216, 0.34562832, 0.65371764],
-       [0.12838356, 0.28202596, 0.2576825 ],
-       [0.2571277 , 0.48610589, 0.2253703 ],
-       [0.21805632, 0.34698656, 0.28309497]])
+array([
+  [0.43343216, 0.34562832, 0.65371764],
+  [0.12838356, 0.28202596, 0.2576825],
+  [0.2571277, 0.48610589, 0.2253703],
+  [0.21805632, 0.34698656, 0.28309497],
+]);
 ```
 
 그런 다음 각 행의 평균을 계산하여 원래 응답의 각 문장과 각 후속 샘플 간의 유사도 점수를 얻습니다.
 
 ```js
-array([0.47759271, 0.22269734, 0.32286796, 0.28271262])
+array([0.47759271, 0.22269734, 0.32286796, 0.28271262]);
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 문장의 환각 점수는 위의 각 값을 1에서 뺀 값으로 얻습니다.
 
@@ -179,7 +286,18 @@ array([0.47759271, 0.22269734, 0.32286796, 0.28271262])
 
 ![HowtoDetectHallucinationsinLLMs_8](/assets/img/2024-07-13-HowtoDetectHallucinationsinLLMs_8.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 합리적인 발상인 것 같아요; 유효한 결과물에 대한 환각 점수는 낮고, 꾸며낸 결과물에 대한 점수는 높습니다. 하지만 BERTScore를 계산하는 과정은 매우 시간이 많이 소요되어 실시간 환각 탐지에는 부적절할 수 있어요.
 
@@ -189,18 +307,27 @@ array([0.47759271, 0.22269734, 0.32286796, 0.28271262])
 
 자연어 추론(NLI)은 가설이 주어진 전제로부터 논리적으로 유도될 수 있는지 또는 상반되는지를 결정하는 작업을 포함합니다. 이 관계는 융통성(entailment), 모순(contradiction), 또는 중립(neutral)으로 분류됩니다. SelfCheck-NLI에서 우리는 MNLI 데이터셋에서 세분화된 DeBERTa-v3-large 모델을 활용하여 NLI를 수행해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 선행-가설 쌍과 레이블의 몇 가지 예시입니다.
 
-
 ![Hallucinations Pair](/assets/img/2024-07-13-HowtoDetectHallucinationsinLLMs_11.png)
-
 
 ```python
 def get_self_check_nli(output, sampled_passages):
     # spacy 문장 토크나이제이션
-    sentences = [sent.text.strip() for sent in nlp(output).sents] 
+    sentences = [sent.text.strip() for sent in nlp(output).sents]
     selfcheck_nli = SelfCheckNLI(device=mps_device) # GPU를 사용할 수 있는 경우 장치를 'cuda'로 설정
     sent_scores_nli = selfcheck_nli.predict(
         sentences = sentences, # 문장 목록
@@ -213,7 +340,18 @@ def get_self_check_nli(output, sampled_passages):
     return df
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 selfcheck_nli.predict 함수에서는 원본 응답의 각 문장이 세 샘플 중 하나와 짝지어집니다.
 
@@ -227,13 +365,35 @@ prob_ = probs[0][1].item()  # 확률(반대)
 
 이제 우리는 네 문장 각각에 대해 이 프로세스를 반복합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 모델은 모순의 매우 높은 확률을 출력하는 것을 볼 수 있습니다. 이제 사실적인 결과와 비교해 봅시다.
 
 이 모델은 훌륭한 일을 하고 있습니다! 안타깝게도 NLI 체크에는 다소 시간이 걸립니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-13-HowtoDetectHallucinationsinLLMs_15.png" />
 
@@ -260,7 +420,18 @@ def llm_evaluate(sentences,sampled_passages):
     return completion.choices[0].message.content
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이블린 하트웰에 대한 자기 유사성 점수는 0입니다. 반면, 니콜라스 케이지에 관련된 결과물의 점수는 0.95입니다. 이 점수를 얻는 데 필요한 시간도 꽤 짧습니다.
 
@@ -270,7 +441,18 @@ def llm_evaluate(sentences,sampled_passages):
 
 ![이미지](/assets/img/2024-07-13-HowtoDetectHallucinationsinLLMs_17.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 평가 데이터셋은 WikiBio 데이터셋과 GPT-3를 사용하여 합성 위키피디아 기사를 생성함으로써 만들어졌어. 이때, 이해하기 어려운 개념을 피하기 위해 가장 긴 기사의 상위 20%에서 무작위로 238개 기사 주제가 샘플링되었어. 각 개념에 대해 GPT-3에게 위키피디아 스타일의 첫 번째 단락을 생성하도록 했지.
 
@@ -280,7 +462,18 @@ def llm_evaluate(sentences,sampled_passages):
 
 주석 작업자 간의 일치도를 확인하기 위해 201개 문장에는 이중 주석이 있었어. 주석 작업자가 동의했다면 해당 레이블을 사용하고, 그렇지 않으면 최악의 경우 레이블을 선택했어. Cohen의 카파로 측정한 주석 작업자 간의 일치도는 정확함, 작은 오차, 주요 오차 사이를 선택할 때 0.595이고, 작은/주요 오차를 하나의 레이블로 합칠 때 0.748이었어.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 평가 메트릭인 AUC-PR은 Precision-Recall 곡선 아래 영역을 가리키며, 이는 분류 모델을 평가하는 데 사용하는 메트릭입니다.
 
@@ -316,7 +509,18 @@ if user_input:
         st.write("죄송하지만, 귀하의 질문에 정확히 대답할 수 있는 특정 정보가 없습니다.")
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 최종 결과를 시각화할 수 있습니다.
 
@@ -326,7 +530,18 @@ if user_input:
 
 결과는 매우 유망합니다! 챗봇에서의 환각 감지는 오랫동안 논의되어 온 품질 문제입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글에서 소개된 기법들이 흥미로운 이유는 다른 LLM의 출력물을 평가하기 위해 LLM을 사용하는 혁신적인 방법론입니다. 특히 동일한 프롬프트에 대해 여러 응답을 생성하고 그들의 일관성을 비교하는 과정이 이루어집니다.
 
@@ -336,7 +551,18 @@ if user_input:
 
 이 글을 즐겨보셨다면, Text Generation에 가입해보세요 - 저희 뉴스레터는 매주 두 편의 게시물을 통해 창조적 AI 및 대형 언어 모델에 대한 최신 통찰을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GitHub에서 이 프로젝트의 전체 코드를 찾을 수 있어요.
 
@@ -346,7 +572,18 @@ GitHub에서 이 프로젝트의 전체 코드를 찾을 수 있어요.
 
 # 참고문헌:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - BERTSCORE: BERT를 활용한 텍스트 생성 평가
 - SELFCHECKGPT: 생성형 대형언어모델의 Zero-Resource 블랙박스 환각 탐지

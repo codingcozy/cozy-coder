@@ -3,17 +3,13 @@ title: "윈도우에 Pyspark 설치하는 단계별 안내법"
 description: ""
 coverImage: "/assets/img/2024-05-27-AStep-by-StepGuidetoInstallingPysparkonWindows_0.png"
 date: 2024-05-27 12:29
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-AStep-by-StepGuidetoInstallingPysparkonWindows_0.png
 tag: Tech
 originalTitle: "A Step-by-Step Guide to Installing Pyspark on Windows"
 link: "https://medium.com/@deepaksrawat1906/a-step-by-step-guide-to-installing-pyspark-on-windows-3589f0139a30"
 isUpdated: true
 ---
-
-
-
-
 
 ## 소개
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 자, 그럼 Windows에 Pyspark를 설치하는 단계별 프로세스로 들어가 보겠습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단계 1: 로컬 시스템에 Python 설치하기
 
@@ -33,7 +40,18 @@ b. 설치 프로그램을 다운로드한 후 실행 파일(예: python-3.x.x.ex
 
 c. 명령 프롬프트를 열고 python --version 또는 python -V를 입력한 후 엔터를 눌러 Python이 설치되었는지 확인하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-27-AStep-by-StepGuidetoInstallingPysparkonWindows_1.png)
 
@@ -43,7 +61,18 @@ a. 오라클 웹사이트에서 최신 JDK 설치 프로그램을 다운로드�
 
 b. 설치 프로그램을 실행하고 화면 안내에 따라 설치를 완료하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 c. JAVA_HOME 환경 변수를 설정합니다. 시스템 환경 변수에 JDK 설치 경로를 추가하세요.
 
@@ -53,7 +82,18 @@ d. 명령 프롬프트를 열어 java --version을 입력하고 엔터를 눌러
 
 ![image](/assets/img/2024-05-27-AStep-by-StepGuidetoInstallingPysparkonWindows_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **단계 3: Apache Spark 설치하기**
 
@@ -63,17 +103,39 @@ a. 스파크 다운로드 페이지(https://spark.apache.org/downloads.html)를 
 
 b. SPARK_HOME을 spark가 추출된 환경 변수에 설정하세요. 수정할 부분입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Markdown 형식으로 표를 변경해주세요.
 
-| 이미지 | 설명 |
-| --- | --- |
-| <img src="/assets/img/2024-05-27-AStep-by-StepGuidetoInstallingPysparkonWindows_5.png" /> | 스텝 4 : Hadoop 설정 |
-| a. | hadoop 폴더 생성 및 그 안에 bin 폴더 생성 |
-| b. | winutils 파일 다운로드 - https://github.com/steveloughran/winutils 및 bin 폴더에 넣기 |
+| 이미지                                                                                    | 설명                                                                                  |
+| ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| <img src="/assets/img/2024-05-27-AStep-by-StepGuidetoInstallingPysparkonWindows_5.png" /> | 스텝 4 : Hadoop 설정                                                                  |
+| a.                                                                                        | hadoop 폴더 생성 및 그 안에 bin 폴더 생성                                             |
+| b.                                                                                        | winutils 파일 다운로드 - https://github.com/steveloughran/winutils 및 bin 폴더에 넣기 |
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-27-AStep-by-StepGuidetoInstallingPysparkonWindows_6.png" />
 
@@ -83,7 +145,18 @@ c. 환경 변수에서 HADOOP_HOME 경로 설정
 
 단계 5 : Pyspark 설치
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 a. 명령 프롬프트를 열고 다음 명령어를 실행하세요 — pip install pyspark
 
@@ -93,7 +166,18 @@ b. 환경 변수에서 PYSPARK_HOME 경로를 설정하세요
 
 단계 6: 설치 확인
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 a. 모든 변수를 경로에 추가해주세요
 
@@ -109,7 +193,18 @@ df = spark.createDataFrame([(1, "Hello"), (2, "World")], ["id", "message"])
 df.show()
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지 :
 
@@ -122,6 +217,17 @@ c. 공식 문서를 의존하고 PySpark 및 종속성에 대해 최신 정보 �
 
 ## 결론:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 축하합니다! Windows 컴퓨터에 PySpark를 성공적으로 설치하셨군요. 이제 Python 프로그래밍 언어의 간편함을 활용하여 분산 데이터 처리 및 분석을 수행할 수 있는 PySpark의 강력함을 경험할 수 있게 되었습니다. Windows 환경에서 PySpark가 제공하는 다양한 기능을 즐겨보세요.

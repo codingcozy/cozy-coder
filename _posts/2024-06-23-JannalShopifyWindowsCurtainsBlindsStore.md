@@ -3,17 +3,13 @@ title: "Jannal  Shopify로 윈도우, 커튼, 블라인드 스토어 만드는 �
 description: ""
 coverImage: "/assets/img/2024-06-23-JannalShopifyWindowsCurtainsBlindsStore_0.png"
 date: 2024-06-23 15:45
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-JannalShopifyWindowsCurtainsBlindsStore_0.png
 tag: Tech
 originalTitle: "Jannal — Shopify Windows, Curtains , Blinds Store"
 link: "https://medium.com/@logosmith99/jannal-shopify-windows-curtains-blinds-store-8eeb679b7bbc"
 isUpdated: true
 ---
-
-
-
-
 
 🔍 Jannal — Shopify 창문, 커튼 및 블라인드 스토어를 확인해보세요! 📁 Shopify CMS 템플릿 라이브러리를 살펴보고 🆓 무료 다운로드를 받아보세요. 함께 제작을 시작해봐요! 🚀
 
@@ -37,7 +33,18 @@ Jannal은 멋진 인테리어 장식 및 인테리어 디자인 Shopify 테마�
 - 브랜드화된 체크아웃: 로고와 색상 스키마를 사용하여 고객에게 매끈한 결제를 제공합니다. 또한 체크아웃 화면에 사용자 정의 체크아웃 헤더를 추가할 수 있습니다!
 - 뉴스레터: Mailchimp 계정을 뉴스레터 양식에 쉽게 연결할 수 있습니다. 소셜 공유: Twitter, Facebook, Google+, Pinterest로 공유하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-23-JannalShopifyWindowsCurtainsBlindsStore_0.png)
 

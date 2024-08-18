@@ -3,17 +3,13 @@ title: "사람들이 AI의 변혁적 힘에 대해 오해하는 것들"
 description: ""
 coverImage: "/assets/img/2024-07-01-WhatEveryoneGetsWrongabouttheTransformativePowerofAI_0.png"
 date: 2024-07-01 20:36
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-01-WhatEveryoneGetsWrongabouttheTransformativePowerofAI_0.png
 tag: Tech
 originalTitle: "What Everyone Gets Wrong about the Transformative Power of AI"
 link: "https://medium.com/@markaherschberg/what-everyone-gets-wrong-about-the-transformative-power-of-ai-7960272920e1"
 isUpdated: true
 ---
-
-
-
-
 
 ## AI가 사회를 변화시킬 것이지만, 지금까지의 변화는 예상과는 다를 수 있음을 사회는 보여주고 있습니다. 그 변화가 제어되지 않으면 지불해야 할 비용이 과도할 수도 있습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 현재의 최첨단 기술, AI의 대규모 언어 모델에 대해 TV에서 이야기할 수 있는 것 자체가 이전 기술이 일자리를 없애 버렸기 때문입니다. 대부분의 일자리, 거의 모든 일자리가 사라졌습니다. 인류 역사의 대부분에서 80-90%의 사람들은 농부였습니다. 그들 중 소수는 대장간, 재봉사 등 핵심 직업을 가졌습니다. 하지만 그들이 가지지 않았던 것은 TV 개성, TV 임원 또는 심지어 TV였습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 수백 년 전에 태어났더라면, 아마 농부가 되었을 겁니다. 또한 확실히 감염으로 사망했을 겁니다. 그러나 과학 기술 발전 덕분에 더 적은 농부가 필요했고, 그 결과로 역학 및 기술 혁신을 통해 역병과 같은 감염의 치료법을 발견, 제조 및 보급할 수 있는 의사와 과학자가 나타났습니다. 과학 기술 혁신은 과학 기술 혁신을 낳습니다. 생성적 AI는 그저 현재의 최신 기술입니다 (우리가 다른 앞날 본기술들을 가지고 있기 때문에 제일뿐).
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 핵무기는 1945년으로 거슬러 올라갑니다. 20세기 대부분의 시기에는 미국, 러시아, 영국, 프랑스, 중국이 무기에 접근할 수 있었지만, 나중에 인도가 이 클럽에 가입했습니다. 이 무기는 세계에 건전한 위험을 초래했습니다. 그러나 사용할 권한을 가진 사람들은 규제를 갖추고 있었습니다. 그들의 정부는 일반적으로 잠재적인 부정적 결과, 적어도 그들에게는 그리 심오하지 않을 것이지만, 세계를 이해하고 사용을 소극적하게 해왔습니다. 북한이 덜 성숙한 지배력을 가지고 있다는 우려도 있습니다. 그러나 사실은 김정은이 핵탄두를 사용하면 핵보복을 유인할 것을 알고, 이는 그의 사후 전망을 (그가 생존하더라도) 훨씬 악화시킬 것임을 알고 있기 때문에 이를 자제하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테러조직이 그것을 얻었다면 어떨까요? 김정은은 죽거나 나라가 파괴되는 걸 원하지 않아요. 전투에서의 죽음이 현재 상황보다 나은 것이라고 믿는 사람들은 어떻게 될까요? 그들은 자신이 순교자로 죽는 것이 긍정적 결과라고 생각하기 때문에 핵미사일을 발사할 것입니다. 이것은 게임 이론 101입니다. 시장에 더 빨리 도착하면 차량을 이용하여 비용을 절약할 수 있습니다. 시장으로 향하는 도중 다른 사람의 닭을 가끔 치기도 하지만(법에 저촉되는 것이 없다고 가정하면서), 왜 하지 않을까요? 여러분에게 이익이 있고, 부정적인 결과는 다른 누군가에게 남기는 것입니다.
 
@@ -43,7 +61,18 @@ AI는 핵무기는 아니지만 해를 끼칠 수 있는 도구입니다. 수십
 
 스타플릿의 주요 지침은 기술 때문에 자신들을 해칠 위험이 있는 성장이 덜 한 종족을 보호하기 위해 시행되었습니다. 외부 기술만이 일으키는 위협이 아니라는 것은 명확하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문제는 실제로 인공지능이 주된 주제가 아닙니다. 이는 우리가 이해하기에 속도가 빠른 충분히 영향력 있는 기술에 대한 이야기입니다. 세 가지 요인이 작용합니다. 첫 번째는 채택 속도로, 기술이 얼마나 빨리 적용되는지를 나타냅니다. 두 번째는 영향 반경입니다: (영향의 규모) x (영향을 받는 사람 수) x (영향 지속 기간). (영향 반경이 물리적인 거리가 아닌 개념적인 공간에서의 거리임을 기억하세요.)
 
@@ -53,7 +82,18 @@ AI는 핵무기는 아니지만 해를 끼칠 수 있는 도구입니다. 수십
 
 채택 속도가 영향 반경을 초과할 때, 특히 학습 곡선 상승 속도보다 빨라질 때, 우리는 과도한 위험에 직면합니다; 우리는 효과를 이해하기보다 더 빨리 만들어냅니다. 이는 재앙의 요소가 됩니다. 집에서 일어날 때 빠르게 움직이고 물건을 부수는 것은 괜찮습니다. 그러나 1200파운드의 자동차를 40마일(모델 T의 전형적인 속도)로 길을 달릴 때 이 철학을 정당화하기는 어렵습니다. 이런 상황이 동네의 절반 이상이 함께 행동할 때 상황은 훨씬 어려워집니다. 불행히도, 인공지능도 소셜 미디아와 같이 독립적인 집안에서 제한돼있지 않아서, 그 위험이 오로지 당신에게만 영향을 미치는 것이 아닙니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 When X-rays were first discovered, they seemed like something out of a sci-fi film. Back in the 1920s, shoe stores even used fluoroscopes to help customers see how well shoes fit by showing X-ray images of their feet in the shoes. Unfortunately, at the time, not many people were aware of the health risks posed by radiation. It wasn't until years later, after many had been exposed unnecessarily, that we truly understood the long-term effects. By then, countless individuals had suffered from overexposure to radiation.
 
@@ -63,7 +103,18 @@ Reflecting on the industrial revolution, it's evident that rapid innovations oft
 
 Artificial Intelligence (AI) offers incredible transformations, but we must proceed cautiously until we grasp its risks fully. The existence of risks shouldn't deter us from using AI; after all, cars also come with risks, yet we prioritize the benefits. The difference lies in our understanding of cars and their risks, which evolved alongside their widespread use. AI remains less understood. Yes, we should start using it to uncover risks, but we shouldn't hand over the keys to 500,000 inexperienced drivers overnight. It's simpler to relax precautions later than to impose them afterward (particularly when profitable corporations influence politics to resist regulations, as seen with the military-industrial complex, tobacco, oil, and Big Tech).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 혁신에는 찬성하지만 신중히 진행해야 한다고 생각해요. 인더스트리얼 혁명 초기에 환경에 어떤 피해를 줄 수 있는지 제한을 두었더라면 어땠을까요? 전쟁 중에는 자원이 제한되어 있지만 사회는 혁신합니다. 월스트리트를 규제하면 파티가 끝났다고 불평하지만 새로운 방법으로 수익을 창출하는 혁신을 합니다. 규제는 혁신을 막지 않고 때로는 오히려 영감을 줍니다. 인더스트리얼 혁명을 풀어놓고 오늘날 대가를 치르고 있습니다. 최근에는 소셜 미디어가 사회를 "변형"시켰지만 항상 긍정적이지는 않았어요. 같은 실수를 반복하지 말고 AI가 무제한으로 혁신하게 해둔 채 나중에 규제하는 것은 좋지 않아요. 지니는 쉽게 병자에 넣을 수 없습니다. 우리는 과거의 실수를 반복하지 않기 위해 역사를 연구합니다. 이번 시험에서 우리의 실력을 확인해봅시다.
 
@@ -71,6 +122,17 @@ Artificial Intelligence (AI) offers incredible transformations, but we must proc
 
 마크 A. 허쉬버그는 CTO이자 MIT 강사, 연설가이자 The Career Toolkit: Essential Skills for Success That No One Taught You 저자, Brain Bump 앱의 창작자입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-이 컬럼은 직업에 관한 것이에요. 또한 그는 Medium에서 미디어에 관해 @cognoscomedia로 글을 씁니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+이 컬럼은 직업에 관한 것이에요. 또한 그는 Medium에서 미디어에 관해 @cognoscomedia로 글을 씁니다.

@@ -3,17 +3,13 @@ title: "ConvNeXt 마지막 컨볼루션 레이어를 찾아서"
 description: ""
 coverImage: "/assets/img/2024-07-13-ConvNeXtInSearchoftheLastConvolutionalLayer_0.png"
 date: 2024-07-13 22:57
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-ConvNeXtInSearchoftheLastConvolutionalLayer_0.png
 tag: Tech
 originalTitle: "ConvNeXt: In Search of the Last Convolutional Layer"
 link: "https://medium.com/gitconnected/convnext-in-search-of-the-last-convolutional-layer-da801d9f123b"
 isUpdated: true
 ---
-
-
-
-
 
 이미지 링크를 Markdown 형식으로 변경해주세요:
 ![image1](/assets/img/2024-07-13-ConvNeXtInSearchoftheLastConvolutionalLayer_0.png)
@@ -25,7 +21,18 @@ Handwritten Digit Recognition with a Back-Propagation Network라는 학술 논�
 
 ![image2](/assets/img/2024-07-13-ConvNeXtInSearchoftheLastConvolutionalLayer_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비록 알고리즘은 1989년에 소개되었지만, 실제 시각적 특징 학습에 대한 참된 가능성이 ImageNet 대규모 시각 인식 챌린지(ILSVRC)에서 2012년 말에 드러났습니다.
 
@@ -41,7 +48,18 @@ Alex Krizhevsky, Ilya Sutskever, 그리고 Geoffrey Hinton이 개발한 AlexNet 
 - EfficientNet
 - RegNet
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ConvNeXt 논문에서 언급한 내용이에요:
 
@@ -51,7 +69,18 @@ ConvNeXt 논문에서 언급한 내용이에요:
 
 합성곱 신경망(CNNs)은 아래와 같은 귀납 바이어스를 가지고 있어요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 현지성: ConvNets는 이미지의 지역 영역이 이미지 내용을 이해하는 데 더 중요하다고 가정합니다. 따라서 이미지 위를 컨벌루션하는 작은 필터(커널)를 사용합니다. 이러한 필터는 가장자리, 질감, 색상과 같은 지역 패턴을 포착합니다. 이는 높은 수준의 기능의 기본 구성 요소입니다.
 - 변환 동질성: 이미지 내 객체가 움직이면 그 피쳐 맵에서의 표현도 같은 방식으로 이동합니다. 이를 통해 CNN은 객체의 위치와 상관없이 객체를 감지할 수 있습니다.
@@ -65,7 +94,18 @@ ConvNets는 컨볼루션 필터를 통해 지역 패턴을 포착하며, 변환 
 
 ## Vision Transfomers (ViTs)의 부상
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 약 2010년대에는 자연어 처리(NLP)용 신경망 설계가 컴퓨터 비전과 매우 다른 방향을 취했습니다. "트랜스포머"라는 새로운 모델 세대가 완전히 순환 신경망(RNN)과 그 변형을 대체했습니다.
 
@@ -75,7 +115,18 @@ ConvNets는 컨볼루션 필터를 통해 지역 패턴을 포착하며, 변환 
 
 컴퓨터 비전 분야를 완전히 변혁시킨 "ViT"는 글로벌 컨텍스트를 포착하는 능력, 대규모 데이터셋과의 확장성, 그리고 다양한 입력 크기를 다루는 유연성 덕분에 여러 작업에서 CNN을 능가할 수 있었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-13-ConvNeXtInSearchoftheLastConvolutionalLayer_5.png)
 
@@ -85,7 +136,18 @@ ConvNets는 컨볼루션 필터를 통해 지역 패턴을 포착하며, 변환 
 
 또한, ViT는 다양한 해상도에 적응할 수 있으며, 해상도가 더 높은 이미지에서 더 효과적으로 사용될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![ConvNeXtInSearchoftheLastConvolutionalLayer_6.png](/assets/img/2024-07-13-ConvNeXtInSearchoftheLastConvolutionalLayer_6.png)
 
@@ -95,7 +157,18 @@ ViT 내에서 가장 큰 문제는 입력 크기의 제곱 복잡성을 가진 �
 
 ImageNet 분류 작업에는 문제가 되지 않을 수 있지만, 고해상도 입력에서는 주목할 만한 문제가 될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Hierarchical Transformers were created to close this gap through a combination of methods.
 
@@ -105,7 +178,18 @@ Think of it like a core moving through the image; however, instead of executing 
 
 The Swin Transformer stands out as a significant accomplishment in the progression of hierarchical ViTs, showcasing that transformers can excel in various computer vision assignments beyond just image classification.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Swin Transformer의 성공과 신속한 채택은 한 가지 사실을 드러내었습니다:
 
@@ -115,7 +199,18 @@ ConvNeXt의 디자인 프로세스는 한 가지 주요 질문에 의해 주도�
 
 이 전략은 원본 논문에서 다음과 같이 정의되어 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러니까, 전략은 일부 ViT (예: Swin) 특성을 통합하여 전통적인 ResNet 아키텍처를 수정하는 것이었습니다.
 
@@ -125,7 +220,18 @@ ResNet-50과 같은 표준 ResNet 모델로 시작하는 선택은 저자들이 
 
 ![이미지](/assets/img/2024-07-13-ConvNeXtInSearchoftheLastConvolutionalLayer_8.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Swin Transformer
 ViTs 분야에서 현대적인 접근을 대표하는 Swin Transformer는 ResNet-50과 크기와 성능에서 유사성을 갖추어 참조 모델로 선택되었습니다.
@@ -138,7 +244,18 @@ FLOPs란 무엇인가요?
 FLOPs(Floating Point Operations per Second)는 컴퓨터가 1초에 수행할 수있는 부동 소수점 연산의 수를 측정합니다.
 부동 소수점 연산이란 덧셈, 뺄셈, 곱셈 또는 나눗셈과 같은 수학적 계산을 말합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GFLOPs(기가 부동 소수점 연산/초)는 특정 규모(기가 GFLOPs)를 나타내는 보다 구체적인 용어입니다. 이 용어는 일반적으로 서로 다른 알고리즘이 높은 규모에서의 성능을 비교하는 데 사용됩니다.
 
@@ -148,7 +265,18 @@ GFLOPs(기가 부동 소수점 연산/초)는 특정 규모(기가 GFLOPs)를 �
 
 아래 차트는 원래의 ResNet-50에 적용된 모든 변환을 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 단계마다 모델의 정확도와 GFLOPs가 변합니다. 최종 단계 이후 Swin-T 모델과 비교가 이루어집니다.
 
@@ -158,7 +286,18 @@ GFLOPs(기가 부동 소수점 연산/초)는 특정 규모(기가 GFLOPs)를 �
 
 ## 1.- 매크로 디자인
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **1.1.- 단계 비율**
 
@@ -168,7 +307,18 @@ ResNet의 디자인에서는 계산 분배가 주로 경험적입니다. 즉, �
 
 반면, 트랜스포머는 계산 자원을 분배하기 위한 더 명확한 비율을 갖습니다. Swin-T의 경우 1:1:3:1 같이 각 단계가 균형을 이루지만 세 번째 단계만 더 무겁습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-07-13-ConvNeXtInSearchoftheLastConvolutionalLayer_11.png)
 
@@ -178,7 +328,18 @@ ResNets에서 시작 레이어는 일반적으로 이미지 크기를 줄이고 
 
 반면에 Vision Transformers는 이미지를 작은 패치로 나누어 다운샘플링하는 "패치화" 단계로 시작합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![ConvNeXt Model](/assets/img/2024-07-13-ConvNeXtInSearchoftheLastConvolutionalLayer_12.png)
 
@@ -188,7 +349,18 @@ ConvNeXt 모델은 4×4 크기와 스트라이드 4를 사용하여 구현된 �
 
 ResNeXt는 '그룹화된 합성곱' 개념을 통합함으로써 잔차 네트워크의 원리를 확장한 신경망 아키텍처입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 세계 여러분, 안녕하세요! 오늘은 ConvNeXt 아키텍처의 특별한 부분, Inverted Bottleneck에 대해 이야기해보려고 해요.
 
@@ -198,7 +370,18 @@ ConvNeXt는 깊이별 합성곱(depthwise convolutions)을 사용하여 이 구�
 
 이런 방식으로 Inverted Bottleneck은 ConvNeXt 아키텍처의 중요한 구성 요소 중 하나에요. 자세한 내용은 블로그에서 확인해주세요! 감사합니다! 🌟
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 표준 병목현상의 경우, 입력 채널의 수가 먼저 줄어들고 네트워크 블록 내에서 확장됩니다.
 
@@ -208,17 +391,39 @@ ConvNeXt는 깊이별 합성곱(depthwise convolutions)을 사용하여 이 구�
 
 트랜스포머는 종종 중간 단계 처리를 위해 내부 차원인 MLP(다층 퍼셉트론 블록)이 입력 차원보다 훨씬 큰 역병목 디자인을 사용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 디자인은 MobileNetV2와 같은 아키텍처에서 볼 수 있는 ConvNets와 유사점이 있습니다. 이 아키텍처에서 네트워크 레이어의 내부 차원을 먼저 증가시킨 후에 다시 압축하는 것이 일반적인 기능이 되었습니다.
 
 ## 4. 대형 커널
 
-이것은 가장 흥미로운 부분 중 하나인데요. 컴퓨터 비전에서 커널의 진화에 대해 더 잘 이해하기 위해 잠시 되짚어보겠습니다. 
+이것은 가장 흥미로운 부분 중 하나인데요. 컴퓨터 비전에서 커널의 진화에 대해 더 잘 이해하기 위해 잠시 되짚어보겠습니다.
 
 ![Image](/assets/img/2024-07-13-ConvNeXtInSearchoftheLastConvolutionalLayer_16.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 초반에는 큰 커널이 흔히 있었으며, 네트워크가 입력 이미지에서 다양한 특징을 포착할 수 있게 했습니다.
 
@@ -228,7 +433,18 @@ ConvNeXt는 깊이별 합성곱(depthwise convolutions)을 사용하여 이 구�
 
 이를 통해 모델이 전역 맥락 정보를 포착할 수 있게 되었으며, 트랜스포머의 자기 주의 메커니즘의 넓은 수용 영역과 유사해졌습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![ConvNeXtInSearchOfTheLastConvolutionalLayer_17](/assets/img/2024-07-13-ConvNeXtInSearchoftheLastConvolutionalLayer_17.png)
 
@@ -238,9 +454,20 @@ ConvNeXt는 깊이별 합성곱(depthwise convolutions)을 사용하여 이 구�
 
 CNN의 맥락에서 '깊이별 컨볼루션 레이어를 올리는 것'은 레이어가 입력 데이터에 적용되는 순서를 변경하는 것을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-표준 아키텍처에서는, 깊이별 합성곱 레이어가 다른 유형의 레이어 뒤에서 더 깊게 나타날 수 있습니다. 그러나, 저희는 깊이별 합성곱 레이어를 프로세스 초기에 배치하기로 결정했습니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+표준 아키텍처에서는, 깊이별 합성곱 레이어가 다른 유형의 레이어 뒤에서 더 깊게 나타날 수 있습니다. 그러나, 저희는 깊이별 합성곱 레이어를 프로세스 초기에 배치하기로 결정했습니다.
 
 깊이별 합성곱 레이어를 위로 옮김으로써, 계산 복잡한 연산들(크기가 큰 커널 합성곱)이 더 작은 채널 수에서 작동하게 됩니다. 그리고 1x1 합성곱과 같은 더 효율적인 연산들이 늘어난 채널을 다루며, 이는 더 많은 계산 작업이 필요한 부분입니다.
 
@@ -248,7 +475,18 @@ CNN의 맥락에서 '깊이별 컨볼루션 레이어를 올리는 것'은 레�
 
 ## 5.- 미크로 디자인
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **이미지 1**
 
@@ -259,7 +497,18 @@ CNN의 맥락에서 '깊이별 컨볼루션 레이어를 올리는 것'은 레�
 - **활성화 함수 감소**: Transformer 모델은 ResNets에 비해 적은 활성화를 사용합니다. GELU 활성화를 줄이는 것은 이를 모방하며 성능이 개선되었습니다 (80.6에서 81.3).
 - **정규화 레이어 감소**: Transformer와 유사하게 BatchNorm 레이어를 줄이는 것도 성능을 향상시켰습니다(0.1 증가).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-13-ConvNeXtInSearchoftheLastConvolutionalLayer_20.png)
 
@@ -269,7 +518,18 @@ CNN의 맥락에서 '깊이별 컨볼루션 레이어를 올리는 것'은 레�
 
 새로운 다운샘플링 레이어:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - ResNet에서는 각 단계의 시작 부분에 잔차 블록에 의해 공간 다운샘플링이 이루어집니다.
 - Swin 트랜스포머에서는 각 단계 사이에 별도의 다운샘플링 레이어가 추가됩니다.
@@ -280,18 +540,40 @@ ResNet 방법 대신 Swin 트랜스포머의 다운샘플링 방식을 채택하
 
 ![모델 테스트](/assets/img/2024-07-13-ConvNeXtInSearchoftheLastConvolutionalLayer_22.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 학습만큼이나 테스트 부분도 중요합니다. 모델이 잘 작동하는지 확인하고, 평가 방법으로 계속 발전하지 않으면 안 됩니다.
 
 일반적으로 이러한 모델은 거대한 데이터셋이나 프레임워크에서 테스트됩니다. 여기서 알고리즘의 다양한 능력을 평가할 수 있습니다.
 
 1. ImageNet 분류
-ConvNeXt-T는 Swin Transformers를 넘어서며 82.1%의 top-1 정확도를 달성했습니다. 가장 큰 버전인 ConvNeXt-L도 인상적인 결과를 보여 85.5%를 기록하며 이 벤치마크에서 최고 모델 중 하나가 되었습니다.
+   ConvNeXt-T는 Swin Transformers를 넘어서며 82.1%의 top-1 정확도를 달성했습니다. 가장 큰 버전인 ConvNeXt-L도 인상적인 결과를 보여 85.5%를 기록하며 이 벤치마크에서 최고 모델 중 하나가 되었습니다.
 
 ![ConvNeXtInSearchoftheLastConvolutionalLayer_23](/assets/img/2024-07-13-ConvNeXtInSearchoftheLastConvolutionalLayer_23.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 상단에 있는 세 가지 구조물(RegNet 및 EffNet 버전)은 나열된 구조물 중에서 정확도와 계산 요구 사항의 최상의 조합을 갖고 있습니다.
 
@@ -301,7 +583,18 @@ ConvNeXt-T는 Swin Transformers를 넘어서며 82.1%의 top-1 정확도를 달�
 
 이미지넷 22k 데이터 세트에서 모델의 성능을 살펴보겠습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![ConvNeXtInSearchoftheLastConvolutionalLayer](/assets/img/2024-07-13-ConvNeXtInSearchoftheLastConvolutionalLayer_24.png)
 
@@ -311,7 +604,18 @@ ConvNeXt-T는 Swin Transformers를 넘어서며 82.1%의 top-1 정확도를 달�
 
 작은 버전(ConvNeXt-T)은 상당히 잘 확장되었고, 정확도와 FLOPs 사이에서 인상적인 균형을 제공했습니다(82.9% / 4.5G).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2.- COCO Object Detection
 
@@ -321,19 +625,41 @@ Object detection revolves around the recognition and localization of various obj
 
 ![COCO Object Detection](/assets/img/2024-07-13-ConvNeXtInSearchoftheLastConvolutionalLayer_25.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 분석하기 전에 중요한 점은 다음 메트릭을 이해하는 것입니다:
 
 - AP_bbox: 다양한 IoU(IoU, 교차하는 영역의 비율) 임계값에서 바운딩 박스 검출에 대한 평균 정밀도입니다. AP_50과 AP_75는 각각 50% 및 75% IoU 임계값에서의 정밀도를 나타냅니다.
-높은 AP 값은 더 정확한 검출을 나타내며, 더 나은 결과를 의미합니다.
+  높은 AP 값은 더 정확한 검출을 나타내며, 더 나은 결과를 의미합니다.
 - AP_mask: AP_bbox와 유사하지만 세그멘테이션 마스크에 대한 것입니다.
 
 ![image](/assets/img/2024-07-13-ConvNeXtInSearchoftheLastConvolutionalLayer_26.png)
 
 ConvNeXt-T는 Swin-T보다 FLOPs가 약간 낮고(FLOPs 714G), FPS(FPS 13.5)가 더 높은 것으로 나타납니다. 따라서 더 효율적인 모델일 수 있으나 AP 점수를 통해 비교 가능한 정확도를 유지하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 3. Efficiency
 
@@ -343,7 +669,18 @@ This benchmark is where the model truly shines, as it has outperformed all versi
 
 In general, ConvNeXt's throughput exceeds that of the Swin Transformer by approximately 40%, showcasing a significant enhancement in efficiency while also maintaining or even improving accuracy.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Here's the primary focus of ConvNeXt:
 
@@ -352,7 +689,18 @@ Here's the primary focus of ConvNeXt:
 - Liu, Z., Mao, H., Wu, C.-Y., Feichtenhofer, C., Darrell, T., & Xie, S. (2022). A ConvNet for the 2020s. arXiv.
 - He, K., Zhang, X., Ren, S., & Sun, J. (2016). Deep Residual Learning for Image Recognition. arXiv.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - **3.** Liu, Z., Lin, Y., Cao, Y., Hu, H., Wei, Y., Zhang, Z., Lin, S., & Guo, B. (2021). "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows." arXiv.
 
@@ -362,6 +710,17 @@ Here's the primary focus of ConvNeXt:
 
 - **6.** Simonyan, K., & Zisserman, A. (2015). "Very Deep Convolutional Networks for Large-Scale Image Recognition." arXiv.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 친구들, 이 글 읽어주셔서 감사해요! 만약 이 글이 마음에 드시면 박수(최대 50번!)를 보내주세요. 또 저의 매체 팔로우를 통해 새 게시물이 올라올 때마다 업데이트 받으세요. 🌟

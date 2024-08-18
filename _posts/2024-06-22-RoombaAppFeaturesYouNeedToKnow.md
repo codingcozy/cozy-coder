@@ -3,17 +3,13 @@ title: "로봇 청소기 앱에서 알아두어야 할 필수 기능"
 description: ""
 coverImage: "/assets/img/2024-06-22-RoombaAppFeaturesYouNeedToKnow_0.png"
 date: 2024-06-22 18:12
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-RoombaAppFeaturesYouNeedToKnow_0.png
 tag: Tech
 originalTitle: "Roomba App Features You Need To Know"
 link: "https://medium.com/@tcaflisch/roomba-app-features-you-need-to-know-82e7f7eaed63"
 isUpdated: true
 ---
-
-
-
-
 
 2024년 6월 18일
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 iRobot Home 앱은 Roomba 청소 경험에서 중요한 역할을 합니다. 이 앱은 로봇 청소기와 깔끔한 바닥 사이의 다리 역할을 하며, 몇 년 동안 진화하면서 단순한 원격 접속 도구에서 더 똑똑하고 효율적인 Roomba를 만드는 다양한 기능과 설정을 제공하는 정교한 허브로 변모했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최근의 업데이트로 앱은 더욱 사용자 친화적이 되었고, 사용자 및 가정의 다양한 요구에 부합하는 풍부한 기능을 제공합니다. 그러나 일부 최고의 iRobot 앱 기능들은 쉽게 눈에 띄지 않을 수도 있어요. iRobot 앱이 제공하는 모든 기능을 살펴보면 로움바와 함께하는 경험이 좋은 것에서 훌륭한 것으로 변할 수 있어요.
 
@@ -33,7 +40,18 @@ iRobot 앱 사용을 시작하는 것은 정말 간단해요. 초기 설정은 �
 
 앱의 주요 강점 중 하나는 그 유연성에 있어요. 로움바에게 특정 방을 청소하도록 명령하거나 집 전체를 청소하도록 설정할 수 있어요. 앱을 통해 로움바가 어떻게, 언제 청소할지를 사용자 정의할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 교통이 많은 지역을 더 자주 청소하도록 설정하거나 외출할 때 집 전체를 청소할 일정을 잡을 수도 있습니다. 데비와 저는 서로 핸드폰이 집 안에서 감지되지 않을 때에만 일정을 잡습니다. 그렇게 하면 집 안을 바쁘게 다닐 때나 편안히 쉴 때 모두 소란스럽지 않아요.
 
@@ -43,7 +61,18 @@ iRobot 앱 사용을 시작하는 것은 정말 간단해요. 초기 설정은 �
 
 청소 횟수
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특히 애완동물이나 아이가 있는 집에서 특히 유용한 특정 영역을 지나가는 Roomba의 횟수를 결정하세요.
 
@@ -53,7 +82,18 @@ Roomba가 가득 찬 쓰레기통으로 계속 청소할지 또는 수집된 먼
 
 Room Size Clean
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로베는 방의 크기에 따라 청소 세션을 조정하여 최적의 청결함을 유지하면서 배터리 수명을 낭비하지 않습니다.
 
@@ -63,7 +103,18 @@ Room Size Clean
 
 장애물 감지
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로봇 청소기의 장애물 주위 탐색 능력을 향상시켜보세요. 이는 애완 동물 '사고'를 포함한 장애물을 피하고 엉킴 없는 효율적인 청소 경로를 보장합니다.
 
@@ -73,7 +124,18 @@ Room Size Clean
 
 스마트 맵 기능은 맞춤형 청소를 위한 게임 체인저입니다. 로봇 청소기가 집의 배치도를 작성하여 특정 영역을 선태적으로 청소할 수 있도록 도와줍니다. 또한 로봇이 갇히거나 애완동물을 귀찮게 하지 않을 영역에 들어가지 못하도록 방지 영역을 설정하거나 젖지 않아야 하는 영역에는 무반응 구역을 생성할 수 있습니다. 룸 내에서 출입문이나 주방 탁자 아래처럼 작은 고주행 영역을 청소할 수 있도록 청소 구역을 만들 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 "Roomba" 앱의 주요 기능 및 필수 사항을 알아볼 수 있는 이미지입니다.
 
@@ -83,7 +145,18 @@ Roomba의 유지보수도 중요합니다. Roomba 앱에는 부품이 유지보�
 
 청소가 끝난 후에는 Roomba 앱을 통해 청소 구역 지도가 포함된 상세 보고서를 제공합니다. 이 기능은 Roomba의 청소 패턴과 효율성을 이해하는 데 매우 중요합니다. 보고서는 탐지된 먼지 양과 Roomba가 놓칠 수 있는 영역을 강조합니다. 이를 통해 청소 일정이나 설정을 조정하여 집이 필요한 철저한 청소를 받을 수 있도록 할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로오바의 효율을 극대화하려면 앱의 모든 기능을 이해하고 활용하는 것이 중요합니다. 다음은 로오바 성능을 최적화하는 몇 가지 팁입니다:
 
@@ -93,7 +166,18 @@ Roomba의 유지보수도 중요합니다. Roomba 앱에는 부품이 유지보�
 
 스케줄링
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앱을 사용하여 일정한 청소 시간을 예약하세요. 집에서 가장 시끄럽지 않은 시간, 예를 들어 출근 중이거나 침실이 아닌 지역에서 밤에 청소하세요. 꾸준한 청소는 집을 더 깨끗하게 유지할뿐만 아니라 로뼀바의 배터리와 솔을 고르게 닳게 합니다.
 
@@ -103,7 +187,18 @@ Roomba의 유지보수도 중요합니다. Roomba 앱에는 부품이 유지보�
 
 고급 기술을 갖춘 로뼀바도 가끔 문제가 발생할 수 있습니다. iRobot 앱은 연결 문제나 매핑 오류와 같은 일반적인 문제를 해결하는 해결 방안을 제공합니다. 이 앱은 문제를 해결하는 단계별 솔루션을 제공하며 때로는 고객 지원에 연락할 필요 없이 직접 문제를 해결할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로봇 청소기 배터리 수명을 연장하려면 앱에서 유용한 팁을 제공합니다. Roomba의 솔발이와 필터를 정기적으로 청소하면 청소기가 필요 이상으로 노력하지 않아 배터리 전력을 절약할 수 있습니다. 또한 사용하지 않을 때 Roomba를 홈 베이스에 보관하면 배터리를 지나치게 충전하지 않고 언제나 충전되어 다음 작업에 준비될 수 있습니다.
 
@@ -113,7 +208,18 @@ iRobot Home 앱의 가장 큰 장점 중 하나는 청소 경험을 개인 맞�
 
 애완동물 털, 다양한 바닥 유형 또는 다른 발걸음 수준을 다루는 경우, 앱을 통해 각 청소 세션을 맞춤 설정할 수 있습니다. 공간과 라이프스타일에 가장 적합한 방법이 무엇인지 확인하기 위해 다양한 구성을 시도해 보세요. 탐험할수록 Roomba의 전체 잠재력을 발휘할 수 있을 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최신 앱 업데이트를 계속해서 확인하는 것은 청소 루틴을 더욱 향상시키는 새로운 기능에 조기 접근할 수 있습니다. 이러한 기능을 활용하여 로봇 청소 기술의 최신 향상 사항을 활용하면 로봇청소기가 최첨단 상태로 유지되고 최고의 효율성으로 작동할 수 있습니다.
 
@@ -123,8 +229,18 @@ iRobot 앱은 진공 청소기를 원격으로 제어하는 것 이상의 기능
 
 SmartHomeOnTheRange.com
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Roomba App Features You Need To Know](/assets/img/2024-06-22-RoombaAppFeaturesYouNeedToKnow_2.png)
 

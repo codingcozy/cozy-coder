@@ -3,17 +3,13 @@ title: "소파 제작을 위한 7단계 가이드 디자인부터 마감까지"
 description: ""
 coverImage: "/assets/img/2024-06-22-Soyouwanttomakeasofa_0.png"
 date: 2024-06-22 18:59
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-Soyouwanttomakeasofa_0.png
 tag: Tech
 originalTitle: "So you want to make a sofa"
 link: "https://medium.com/@dhavatar/so-you-want-to-make-a-sofa-83ffb4d6ff4"
 isUpdated: true
 ---
-
-
-
-
 
 지난해 새 집을 샀어요. 처음으로 집주인이 되어서 (아파트지만 비슷한) 작은 스튜디오 아파트에서 큰 집으로 이사를 했어요. 가벼운 짐만 가지고 있었기 때문에 가구는 롤링 컴퓨터 의자와 컴퓨터 테이블 말고는 없었어요 (식탁이나 침대 프레임 조차 없었어요). 이사한 집에 가구를 갖춰야 했죠. 온라인과 오프라인 매장에서 소파를 보고 가격이 $600부터 $2,000까지 다양하게 보였는데, 원하는 디자인들은 대부분 $1,000 이상에 판매되었어요. 그때 '소파를 만들어 보자!' 라는 생각이 들었어요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 소파의 제작 방법과 이유에 앞서 몇 가지 메모해야 할 사항이 있어요. 많은 좋은 소파가 $1,000 이상의 가격인 이유가 있어요. 아래 두 가지 기술이 필요하기 때문이죠:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 목공예 - 전원 도구, 전통 도구 및 조인트 사용
 - 바느질 - 쿠션 만들기, 패브릭 가구 도구 사용
@@ -34,7 +41,18 @@ isUpdated: true
 
 소파를 만드는 두 가지 방법이 있습니다: 전통적인 방법과 현대적인 방법입니다. 전통적인 소파는 꽃무늬 디자인이 있는 빈티지 소파로, 내재적으로 조각된 목재로 만들어졌거나 순전히 목재일 수도 있습니다. 이러한 디자인에서는 쿠션이 패브릭에 직접 만들어지고 스프링이 바닥에 묶입니다. 쿠션이나 패브릭이 어떤 식으로든 파손되었을 경우, 수리하기 위해 전체 소파를 다시 만들어야 할 가능성이 높습니다. 또한, 이러한 것들을 제대로 만들기 위해서는 능숙함이 필요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로운 현대 디자인은 스프링과 쿠션을 분리하여 교체 가능한 쿠션과 다양한 유형의 스프링을 바닥에 사용하고 있어요. 현대 디자인은 일반적으로 깔끔한 선과 가정에서 흔히 보는 "소파" 모양을 갖추고 있어요. "소파"라고 말했을 때, 당신이 떠올리는 것은 현대적인 소파일 것이고 전통적인 소파가 아닐 겁니다.
 
@@ -44,7 +62,18 @@ isUpdated: true
 
 소파 쿠션 아래에는 더 편안한 앉는 경험을 만들기 위한 또 다른 지원 시스템이 있어요. 스프링과 웨빙 두 가지 지원 방법이 있어요. 웨빙은 가장 싼 방법으로, 프레임을 가로지르는 2~3인치 반탄성 밴드를 짜는 방식입니다. 이 방법은 가장 저렴한 선택이지만 대부분의 곳에서 소파를 구매할 때 이 방법을 피하도록 권장해요. 장점은 스프링이 닳거나 정렬되지 않는 경우에 발생하는 스리는 소리가 없다는 점이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스프링에는 두 가지 방법이 있어요. 첫 번째는 S-스프링이에요. 이것은 일반 코일 스프링의 저렴한 버전이라고 할 수 있어요. 대신 이러한 부드럽고 무거운 철재 스프링이 소파 아래쪽을 따라 늘어선다는 특징이 있어요. 아마도 소파를 뒤집어 본 적이 있다면 보았을 거예요. 저는 이것이 가장 일반적으로 사용되는 스프링 종류이라고 생각해요.
 
@@ -54,7 +83,18 @@ isUpdated: true
 
 ## 부가 설명
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아마도 "왜 단단한 나무 조각 위에 큰 쿠션을 올리면 안 되나요?" 라고 궁금해하실 수도 있습니다. 이유는 단단한 지지대는 모든 압력을 쿠션에 가하므로 쿠션이 빠르게 마모됩니다. 스프링과 웹빙은 압력을 상쇄하기 위해 존재하며 쿠션의 빠른 마모를 방지하고 더 많은 탄성을 부여합니다. 실제로 스프링이나 단단한 나무 위에 큰 폼 쿠션을 올린 소파에서 점프해 보면 차이를 느낄 수 있습니다. 소파를 만들 때 정말 싼 재료를 사용하고 오래 사용하지 않을 계획이라면 그렇게 할 수도 있지만, 단단한 나무 벤치에 앉는 느낌이 들지 않도록 큰 쿠션으로 상쇄하고 나무에 통기홀이 있어야 합니다.
 
@@ -64,7 +104,18 @@ isUpdated: true
 
 # 표준 치수
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러면 소파의 크기는 어떤가요? 3인용 소파는 일반적으로 길이 85인치, 깊이 35인치, 높이 35인치인데, 이건 대략적인 지침일 뿐이에요. 일반적으로 최대 길이는 85인치를 추천하는데, 그 이상이면 계단을 올라갈 때 더 어려워질 거예요 (피벗 포인트!), 하지만 보통의 소파도 이 문제를 갖고 있어요. 소파의 깊이는 대부분 30-35인치 사이에 있어요. 소파의 높이는 일반적으로 30-36인치이며, 대부분 디자인과 다른 가구 높이와 잘 어울리는 정도로 결정돼요.
 
@@ -74,7 +125,18 @@ isUpdated: true
 
 또한 좌석 기울기 문제도 있습니다. 기술적으로 말하자면, 다수의 곳들이 다리가 편안히 매달리도록 정면에서 90-100도 각도를 제안합니다. 등받이 기울임은 더 직립형 소파의 경우 5도, 더 캐주얼한 등받이의 경우 15도입니다. 이 모든 것이 중요하다고 생각하지 않는다면, 모든 것을 직각으로 맞추고 쿠션을 사용하세요. 그게 제가 선택한 방법이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 원단
 
@@ -84,8 +146,18 @@ isUpdated: true
 
 마침내요! 그 모든 연구 끝에, 이제 프레임을 그리고 진짜로 원하는 것을 결정할 때가 왔어요. 디자이너가 아니거나 원하는 것을 모르는 경우에는 선택 사항입니다. 제 경우에는 현대적인 스타일로 소파를 만들고자 했고, 이동하기 쉬운 모듈식으로 만들었고, 도구가 없어서 곡선을 만들거나 깎거나 손으로 갈아내지 않도록 했으며, USB 포트가 달려 있을 것을 원했어요. USB 포트를 왜 달았냐구요? 전화기를 작은 테이블 위에 올려놓고 충전할 수 있도록 하기 위해서예요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Sofa Design 1](/assets/img/2024-06-22-Soyouwanttomakeasofa_0.png)
 
@@ -95,8 +167,18 @@ isUpdated: true
 
 디자인이 있으니 이제 치수를 계산해야 했어요. 치수를 그릴 때는 나무의 너비를 고려해야 해요. 숫자를 기반으로 측정을 하지 않고 실제로 측정해야 해요. 예를 들어, 일반적인 2x4는 2인치 x 4인치를 시사하는데, 실제 측정은 1.5인치와 3.5인치에요. 만약 2x4로 무언가를 만들려고 한다면, 실제 크기와 일치하지 않을 거에요. 그래서 숫자를 반드시 재확인해야 해요. 못색과 홈목을 만든다면, 절단하기 전에 반드시 고려해야 해요.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 도구 및 재료
 
@@ -111,14 +193,25 @@ isUpdated: true
 - 끌 기어 세트
 - 고무 망치
 - 해삭 톱날
-- 말발  대
+- 말발 대
 - 강화강 삼각형 자
 - 웹빙 늘리기
 - 페이스 클램프가 장착된 포켓홀 지그 시스템
 - 1/2인치 H 스타일 파이프 클램프
 - 염료 브러시
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 재료
 
@@ -138,8 +231,18 @@ isUpdated: true
 
 ![그래프 이미지](/assets/img/2024-06-22-Soyouwanttomakeasofa_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-22-Soyouwanttomakeasofa_3.png)
 
@@ -149,12 +252,33 @@ isUpdated: true
 
 # 목재 프레임
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 디자인, 측정값, 도구 및 재료를 모두 준비했으니, 소파를 만드는 시간이에요! 먼저, 디자인에 따라 나의 측정값을 기반으로 보드를 적절한 크기로 잘랐어요. 모든 것이 맞는지 확인하고 다시 그려 보았죠. 자를 때에는 "한 번 재고 두 번 자르라"는 이른바 가르침을 따랐어요. 거리를 잰 후 표시를 하고, 선을 긋고, 다시 한 번 재어 정확한지 확인하였죠. 자르고 난 후, 마지막 조각을 재어 길이가 맞는지 확인했어요. 측정하는 일이 많지만, 모두 한 번에 자르고 아무것도 맞지 않는 것보다 낫죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 베이스 부분은 전통 못이와 쇠망이 접합으로 상부를 만들었어요. 이 방법을 선택한 이유는 가구가 모든 방향에서 매우 강한 연결부인 메카닉적인 접합을 가져야 한다고 생각해서예요. 이 방법은 나사를 사용하는 것보다 시간이 훨씬 오래 걸렸지만, 모든 것이 맞는 것을 보는 것이 더욱 만족스러웠어요. 물론, 이 부분을 너무 복잡하게 공학화했지만, 부서질 수 있는 것보다 굉장히 견고한 기반을 가지는 편이 나을거예요.
 
@@ -164,7 +288,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-22-Soyouwanttomakeasofa_9.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 소파의 나머지 부분에는 측면에서 나사를 숨기기 위해 포켓 스크류를 사용했어요. 포켓 스크류는 목졸과 삽목접합만큼 강력하다고 하는데, 제 의심이 좀 들긴 해요. 그래도 상당히 튼튼하고 소파의 나머지 부분에는 잘 작동해요.
 
@@ -174,7 +309,18 @@ isUpdated: true
 
 ![이미지3](/assets/img/2024-06-22-Soyouwanttomakeasofa_12.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 테이프스트리
 
@@ -184,7 +330,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-22-Soyouwanttomakeasofa_14.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹빙 작업은 한쪽을 스테이플러로 고정한 다음 웹빙 스트레처 도구를 사용해서 웹빙을 늘리는 것을 포함했어요. 저는 메탈 못이 있는 전통적인 웹빙 스트레처를 사용했어요. 불필요한 구멍을 더 내기 싫어서요. 웹빙의 힘 때문에 손으로 늘리기 힘들어요. 제대로 늘린 경우 드럼 소리가 납니다. 베이스에 9~10개의 스테이플을 조금 많이 넣었을 수도 있지만, 그만큼 튀어나오지는 않을 거예요. 뒷면에는 스트레스가 많이 가지 않을 테니 (스테이플을 그렇게 많이 사용하고 싶지 않아서) 적게 사용하고요. 각 스트랩을 다른 스트랩에 통과시켜 더 많은 지지력을 얻었어요.
 
@@ -194,8 +351,18 @@ isUpdated: true
 
 또 다른 부가 설명으로, 커버를 1/2인치로 작게 만들면 폼이 커버 안에서 올록볼록해질 수 있기 때문에 측정은 정확히 해야 해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-06-22-Soyouwanttomakeasofa_16.png)
 
@@ -205,9 +372,18 @@ isUpdated: true
 
 ![Image](/assets/img/2024-06-22-Soyouwanttomakeasofa_17.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-22-Soyouwanttomakeasofa_18.png)
 
@@ -217,9 +393,18 @@ isUpdated: true
 
 그리고 소파에 맞는 세 개의 16인치 액센트 베개를 만들었어요. 벽과 일치하도록 연한 파란색에서 짙은 파란색까지 시작했어요. 쿠션을 만드는 데 많은 시간을 들인 후, 베개를 만드는 것은 정말 쉬웠어요.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-Soyouwanttomakeasofa_19.png" />
 

@@ -3,18 +3,13 @@ title: "죄를 사과하지 않는 일로 상처 받은 모든 것에 대해 치
 description: ""
 coverImage: "/assets/img/2024-06-19-ihopeyouhealfromthethingsthatnooneeverapologizedfor_0.png"
 date: 2024-06-19 18:55
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-ihopeyouhealfromthethingsthatnooneeverapologizedfor_0.png
 tag: Tech
 originalTitle: "i hope you heal from the things that no one ever apologized for"
 link: "https://medium.com/@andengxzs_/i-hope-you-heal-from-the-things-that-no-one-ever-apologized-for-cc48d799e8b6"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![image](/assets/img/2024-06-19-ihopeyouhealfromthethingsthatnooneeverapologizedfor_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 우리 모두 인정합시다, 조용히 우리를 부순 모든 것으로부터 회복하는 게 힘들어요. 용서하기 어려워요. 부서진 후에 다시 완전해지는 게 어려워요. 다른 사람들이 당신을 쳐다보는 곳에서 숨쉬기 힘들어요.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 왜 그들에게 상처 주는 말을 그렇게 쉽게 하는 걸까요? 그들이 그들이 하는 말을 알고 있는 걸까요? 아니면 나는 너무 많은 의미를 부여하고 있는 걸까요?
 
@@ -35,7 +40,18 @@ isUpdated: true
 
 너가 모든 것에서 치유되기를 바래요, 비록 그들 중 아무도 사과하지 않아도요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 너가 머릿속을 맴도는 많은 생각 속에서 평화롭게 자는 게 얼마나 어려운지 알아. "괜찮아, 선택할 수 있는 게 없어" 라고 스스로 위로하는 것이 얼마나 어려운지 알아. 조용히 울기가 얼마나 힘든지 알아. 자신의 울음소리를 듣는 것이 얼마나 아픈지 알아.
 
@@ -45,7 +61,18 @@ isUpdated: true
 
 네 자신을 용서하기를 바란다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 치유에는 많은 시간이 걸리지만, 당신은 여기서 벗어날 수 있을 거에요. 산이 높아도 오를 수 있다는 걸 알아요. 바다가 깊어도 헤쳐나갈 수 있다는 걸 알아요.
 

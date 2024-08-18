@@ -3,17 +3,13 @@ title: "Angular Signals 최적의 사용 방법"
 description: ""
 coverImage: "/issue-truck.github.io/assets/no-image.jpg"
 date: 2024-07-10 00:43
-ogImage: 
+ogImage:
   url: /issue-truck.github.io/assets/no-image.jpg
 tag: Tech
 originalTitle: "Angular Signals: Best Practices"
 link: "https://medium.com/@eugeniyoz/angular-signals-best-practices-9ac837ab1cec"
 isUpdated: true
 ---
-
-
-
-
 
 이 문서에서 Angular Signals와 함께 일년 가까이 사용해본 경험을 공유하겠습니다.
 
@@ -25,7 +21,18 @@ isUpdated: true
 
 Angular 템플릿에서 Signals은 Observables보다 우수합니다: 파이프 없이 Change Detection을 스케줄링하며, 그리치가 발생하지 않습니다. 한 신호를 여러 번 읽어도 성능 면에서 "무료"이며, 읽은 값은 항상 동일합니다. 간단히 설명하기 쉽지 않은 다른 이유들도 있지만, 이미 충분히 이유가 되어 새로운 템플릿 내의 모든 (변할 수 있는) 변수는 Signal이어야 한다는 규칙을 만들어야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 템플릿 이외에도 시그널은 반응성을 위해 사용될 수 있지만, 시간 측면이 없이라고 언급했던 대로입니다.
 
@@ -35,7 +42,18 @@ Angular 템플릿에서 Signals은 Observables보다 우수합니다: 파이프 
 
 변수의 역할이 조건으로 설명될 수 있다면, 시그널을 사용해야 합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - "만약 이 변수가 이 값이면, 이 목록을 표시하세요."
 - "만약 이 변수가 이 값이면, 이 버튼은 비활성화됩니다."
@@ -51,7 +69,18 @@ Angular 템플릿에서 Signals은 Observables보다 우수합니다: 파이프 
 
 시그널에는 시간 축이 없으며 값을 지연시키지 못합니다. 항상 값을 가지고 있으며 소비자는 항상 해당 값을 읽을 수 있어야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 신호의 사용자들은 computed(), effect(), 그리고 템플릿을 사용해 신호를 볼 때마다 모든 새 값이 읽힐 것을 보장하지 않습니다. 업데이트된 신호는 발생한 즉시가 아닌 언젠가는 읽힐 것입니다. 사용자들은 새 값을 언제 읽을지 스케줄링 메커니즘을 사용해 결정합니다. 이는 다음 작업 중에, 다음 변경 감지 주기 동안 또는 다른 시간에 이루어질 수 있습니다. 소비자에게 달려있습니다.
 
@@ -61,7 +90,18 @@ Angular 템플릿에서 Signals은 Observables보다 우수합니다: 파이프 
 
 computed()는 Angular Signals에서 가장 좋은 것으로, 믿을 만하고 안전하게 사용할 수 있는 것입니다. computed()를 사용하면 코드를 더 선언적으로 만들어서 코드를 더욱 편리하게 이해할 수 있습니다 (이에 대해 더 읽기 위해서는 이 글을 읽어보세요).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 computed()에 대한 사용 규칙은 두 가지만 있습니다:
 
@@ -72,7 +112,18 @@ computed()에 대한 사용 규칙은 두 가지만 있습니다:
 
 Angular 문서는 effect()가 거의 필요 없을 것이라고 말하고 사용을 권장하지 않습니다(만약 문서가 편집된다면).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 정보는 맞아요: 당신의 코드가 선언적이라면 effect()를 거의 필요로하지 않을 거에요 ;)
 
@@ -82,7 +133,18 @@ Angular 문서에서 언급한 위험뿐만 아니라, 다른 것 하나가 꽤 
 
 아직도 effect()를 사용하도록 권장하고 싶진 않지만, 가능한 안전하게 사용하는 방법에 대한 조언은 해드리겠습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - effect() 함수에 제공하는 기능은 최대한 작게 유지해야 합니다. 이렇게 하면 읽기가 더 쉬워지고 오류 행동을 찾기 쉬워집니다.
 - 신호를 먼저 읽고 나머지 효과를 untracked()로 래핑하세요:
@@ -92,11 +154,11 @@ effect(() => {
   // 우리가 필요로하는 신호를 읽기
   const a = this.a();
   const b = this.b();
-  
+
   untracked(() => {
     // 여기에 나머지 코드가 있습니다 - 이 코드는 위에서 읽은 신호를 수정해서는 안 됩니다!
     if (a > b) {
-      document.title = 'Ok';
+      document.title = "Ok";
     }
   });
 });
@@ -106,7 +168,18 @@ untracked()가 도움이 되는 경우에 대한 자세한 정보는 이 문서�
 
 ## 신호와 Observables 혼합 사용
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 …괜찮아요!
 
@@ -116,7 +189,18 @@ untracked()가 도움이 되는 경우에 대한 자세한 정보는 이 문서�
 
 Observable의 pipe()에서 Signal을 읽어야 한다면, 두 가지 방법이 있어요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 만약 Observable에서 Signal의 변화에 반응해야 한다면 Signal을 Observable로 변환하고 일부 join 연산자를 사용하여 추가해야 합니다.
 - Signal의 현재 값만 필요하고 해당 변경에 반응할 필요가 없다면 operators나 subscribe()에서 Signal을 직접 읽을 수 있습니다. Observable은 반응적인 문맥이 아니므로 여기서 untracked()이 필요하지 않습니다.

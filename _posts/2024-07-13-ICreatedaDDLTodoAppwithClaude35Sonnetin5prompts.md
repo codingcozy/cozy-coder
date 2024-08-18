@@ -3,7 +3,7 @@ title: "Claude 35의 Sonnet을 사용해 5번의 프롬프트로 DDLTodo 앱 만
 description: ""
 coverImage: "/assets/img/2024-07-13-ICreatedaDDLTodoAppwithClaude35Sonnetin5prompts_0.png"
 date: 2024-07-13 23:05
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-ICreatedaDDLTodoAppwithClaude35Sonnetin5prompts_0.png
 tag: Tech
 originalTitle: "I Created a DDLTodo App with Claude 3.5 Sonnet in 5 prompts"
@@ -11,19 +11,26 @@ link: "https://medium.com/generative-ai/i-created-a-ddltodo-app-with-claude-3-5-
 isUpdated: true
 ---
 
-
-
-
-
 ![Desk Image](/assets/img/2024-07-13-ICreatedaDDLTodoAppwithClaude35Sonnetin5prompts_0.png)
 
 # 배경
 
-지금 당신의 책상이 마치 복잡하고 기능이 많이 들어간 할 일 앱처럼 생겼다고 상상해보세요. 다음 주에 트윗할 것을 상기시키는 알림이 있고, 항공권을 예약해야 한다는 또 다른 알림이 있으며, SubStack 콘텐츠 업데이트를 검색해야 한다는 메모가 있습니다. 각기 다른 프로젝트가 엮이고, 정돈된 그룹화 시스템에 의해 다양한 크기의 수많은 저장함이 만들어졌습니다. 책상 속의 한 서브-프로젝트 안에 감춰진 이벤트 티켓 예약에 관한 작은 상기 알림을 놓치기는 생각보다 쉬울 수 있습니다. 이 실수는 오랫동안 계획해온 여행이 맛을 잃게 할 수도 있습니다. 
+지금 당신의 책상이 마치 복잡하고 기능이 많이 들어간 할 일 앱처럼 생겼다고 상상해보세요. 다음 주에 트윗할 것을 상기시키는 알림이 있고, 항공권을 예약해야 한다는 또 다른 알림이 있으며, SubStack 콘텐츠 업데이트를 검색해야 한다는 메모가 있습니다. 각기 다른 프로젝트가 엮이고, 정돈된 그룹화 시스템에 의해 다양한 크기의 수많은 저장함이 만들어졌습니다. 책상 속의 한 서브-프로젝트 안에 감춰진 이벤트 티켓 예약에 관한 작은 상기 알림을 놓치기는 생각보다 쉬울 수 있습니다. 이 실수는 오랫동안 계획해온 여행이 맛을 잃게 할 수도 있습니다.
 
 이제, 자신이 모든 것을 청소하고 오직 가장 긴요한 사항들에만 신경 쓸 수 있는 깨끗하고 새롭게 정리된 책상을 마련하기로 결정한 것처럼 상상해보세요. 바로 이 앱이 제가 만들고자 했던 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 환상은 독특한 도전을 불러일으켰어요: Claude 3.5 Sonnet의 다섯 가지 질문만을 사용하여 iOS 앱을 만들고 출시하는 것! 이 아이디어는 Claude 3.5의 새로운 "Artifacts" 기능에서 영감을 받았어요. 이 기능은 코드 스니펫, 문서, 그리고 웹사이트 디자인까지 생성할 수 있어요. SwiftUI 미리보기를 아직 지원하지 않는 Artifacts의 빠른 속도와 능력에 정말 감명받았죠.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 # 시작 프롬프트
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Link to image 1](/assets/img/2024-07-13-ICreatedaDDLTodoAppwithClaude35Sonnetin5prompts_1.png)
 
@@ -42,8 +60,18 @@ isUpdated: true
 ![Link to image 2](/assets/img/2024-07-13-ICreatedaDDLTodoAppwithClaude35Sonnetin5prompts_2.png)
 이 스케치를 가지고 클로드 3.5 소네트를 위한 초기 프롬프트를 작성했어요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신은 훌륭한 iOS 개발자입니다.
 작업이 있습니다. 표준을 충족하고 앱 스토어에 업로드하고 런칭할 수 있도록 5가지의 질문과 응답 프롬프트를 제공하는 완벽한 SwiftUI iOS 앱 파일 세트를 만들어야 합니다.
@@ -60,15 +88,24 @@ isUpdated: true
 내가 craft.io 페이지에 올릴 개인정보 보호 페이지의 기본 단어도 작성해 주세요.
 로고 프롬프트도 작성해주세요. 단계별로 만들어 가며 가장 포괄적인 코드를 출력해봅시다.
 
-
 # 핵심 기능
 
 DDLTodo를 독특하게 만드는 요소에 대해 살펴보겠습니다:
 
 # 1. 더 집중된 디자인
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![DDLTodo App Interface](/assets/img/2024-07-13-ICreatedaDDLTodoAppwithClaude35Sonnetin5prompts_3.png)
 
@@ -78,7 +115,18 @@ DDLTodo를 독특하게 만드는 요소에 대해 살펴보겠습니다:
 
 이 앱의 디자인은 인간의 에너지가 제한적이며 모든 작업이 동등하지 않다는 점을 인정합니다. 마감 기한이 있는 작업(DDL)은 자동으로 맨 위에 배치되어 사용자가 즉시 긴급한 항목을 볼 수 있게 합니다. 이미지에서 "편지 쓰기"와 그 마감 기한 및 카운트다운이 눈에 띕니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "FREE" 섹션에 마감 기한이 없는 작업들의 경우, 사용자들은 쉽게 드래그 앤 드롭으로 순서를 변경할 수 있습니다. 이 유연성은 현재 필요성과 에너지 수준에 기반하여 빠르게 우선순위를 정하는 데 도움이 됩니다.
 
@@ -88,7 +136,18 @@ DDLTodo를 독특하게 만드는 요소에 대해 살펴보겠습니다:
 
 그러나 이 디자인이 다소 번거로운 것 같아요. 향후 업데이트에서 사용자가 마음을 바꿔 작업 완료를 되돌리기 위해 2~3초간 단순한 취소 버튼을 구현할 계획입니다."
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4. 간단하지만 강력한 작업 생성
 
@@ -101,7 +160,18 @@ DDLTodo를 독특하게 만드는 요소에 대해 살펴보겠습니다:
 - 마감일을 위한 특정 날짜와 시간 선택
 - 리마인더 설정 (선택 사항으로 보입니다)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 단순화된 프로세스를 통해 새 작업을 손쉽게 추가할 수 있고 불필요한 세부 사항에 갇히지 않게 됩니다.
 
@@ -111,7 +181,18 @@ GPT-4와 Claude 3.5의 지침을 따라 데이터 동기화를 위해 CloudKit�
 
 그 결과, 한 발 물러나기로 결정했습니다. 현재 계획은 간단한 독립형 CloudKit 데모를 작성하여 해당 기술을 탐색하고 디버깅하는 것입니다. 이 통제된 환경에서 클라우드 동기화를 성공적으로 구현한 후 이를 DDLTodo에 통합할 것입니다. 처음에 기대했던 것보다 더 많은 시간이 걸리지만, 안정적인 클라우드 동기화 기능을 최종적으로 달성하기 위한 최선의 방법이라고 생각합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 최종 생각
 
@@ -121,7 +202,18 @@ DDLTodo는 앱 개발에서 흥미로운 실험을 대표하는 존재입니다.
 
 ![이미지](/assets/img/2024-07-13-ICreatedaDDLTodoAppwithClaude35Sonnetin5prompts_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이야기가 Generative AI에 게재되었습니다. LinkedIn에서 저희와 연락하고 Zeniteq를 팔로우하여 최신 AI 이야기를 읽어보세요.
 

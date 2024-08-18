@@ -3,17 +3,13 @@ title: "데이터 엔지니어링 플랫폼 구축 후 얻은 주요 교훈 7가
 description: ""
 coverImage: "/assets/img/2024-08-03-Mykeytakeawaysafterbuildingadataengineeringplatform_0.png"
 date: 2024-08-03 20:00
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-03-Mykeytakeawaysafterbuildingadataengineeringplatform_0.png
 tag: Tech
 originalTitle: "My key takeaways after building a data engineering platform"
 link: "https://medium.com/datamindedbe/my-key-takeaways-for-building-a-data-product-307ad06e529f"
 isUpdated: true
 ---
-
-
-
-
 
 대략 두 년 전에, 저는 컨설팅에서 제품 팀에 합류하여 Conveyor에 전념하는 경력 전환을 했습니다. 이 전환으로 인해 저는 짧은 기간의 프로젝트 사고에서 장기적인 계획을 세우고 사용자 경험을 우선시하는 방식으로 마음가짐을 바꿔야 했습니다. 이 블로그 포스트에서는 데이터 엔지니어링 플랫폼을 구축한 두 년 동안 얻은 세 가지 통찰에 초점을 맞추고 싶습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 제품은 고객을 위해 특정 문제를 해결하기 위한 기능으로 구성되어 있습니다. 이것이 많은 엔지니어들과 엔지니어링 매니저들이 코드 작성만이 가치 있는 작업으로 여기는 이유입니다. 그러나 저는 꽤 이 제품이 장기적으로 relevant하게 유지되기 위해서는 코드를 삭제할 수 있는 능력도 필수적이라고 강력히 믿습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 개발 팀이 코드를 삭제하는 것에는 많은 장점이 있어요:
 
@@ -35,7 +42,18 @@ isUpdated: true
 
 예를 들어, "Conveyor"에서는 Jupyter 노트북 및 원격 개발 환경(IDE) 사용을 지원하는 기능을 구현했어요. IDE는 노트북이 할 수 있는 모든 작업과 더 많은 기능을 수행할 수 있기 때문에 노트북의 일부를 언젠가 삭제할 수 있어요. 기존 노트북 사용자를 새 IDE 기능을 사용하도록 이전하는 것이 주요 과제입니다. 사용자가 작업물을 한 곳에서 다른 곳으로 옮길 수 있도록 스크립트/명령 추가, 그리고 IDE에 Jupyter 노트북을 설정하는 템플릿 생성 등을 포함할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 왜 코드를 지우려고 하는지 궁금해할 것입니다. 그 이유는 코드가 부채이며 개발 팀의 지속적인 유지보수와 시간이 필요하기 때문입니다. 코드가 존재하는 한 버그를 수정하고 코드를 업데이트해야 합니다(예: 코드 리팩토링, 외부 라이브러리 업데이트 등). 코드를 삭제함으로써, 개발 팀이 코드베이스의 관련 부분에 집중할 수 있는 시간을 확보할 수 있습니다. 코드 한 조각을 최종적으로 삭제하는 데 조금 더 나가야 하는지 망설이게 되었을 때는 다음에 이것을 염두에 두세요.
 
@@ -45,9 +63,18 @@ isUpdated: true
 
 ## 모두가 어두운 모드를 좋아합니다. 제외하고
 
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 Conveyor UI와 Airflow UI에 다크 모드 기능을 추가했습니다. 우리 제품에 Airflow 환경을 통합하기 때문에 두 화면에 모두 다크 모드를 적용했습니다. 두 화면에 다크 모드를 추가한 이유는 전체 UI에서 일관성을 유지하기 위함입니다. Airflow에 다크 모드를 추가하는 초기 노력은 관리가 가능했지만, Airflow 업그레이드를 통해 해당 모드를 유지하는 것이 예상보다 더 어려움을 겪고 있습니다.
 
@@ -57,7 +84,18 @@ Airflow는 현재 UI를 React로 재작업 중이며, 이는 UI 구성 요소와
 
 Conveyor와 같이 대부분의 제품은 API를 통해 기능을 제공합니다. 고객은 UI, CLI, Terraform 공급업체를 사용하여 API와 상호 작용할 수 있습니다. API의 외부 및 내부 Endpoints를 명확히 구분하는 것이 중요합니다. API의 어느 부분이 공개되어 있는지 명확히 문서화하는 것이 시작하는 가벼운 유용성입니다. 이를 통해 고객이 의존할 수 있는 Endpoints를 이해하고 노출할 부분을 생각할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안타깝게도, 저희가 API의 어떤 부분이 공개인지 문서화하지 않아서 고객 중 한 명이 OAuth 2.0 토큰의 "레거시" 구현에 의존하게 되었습니다. 이러한 토큰은 사용자가 특정 작업을 수행할 권한이 있는지 여부를 결정하는 데 사용됩니다. 이러한 토큰은 기술적인 구현 세부 사항이므로 공개 API의 일부로 사용된 것은 아닙니다. 처음에는 Auth0를 사용했지만, 가격이 기하급수적으로 늘어난 결과로 AWS Cognito로 전환하게 되었습니다. Auth0 관련 코드를 제거하기 전에 모든 고객이 Cognito를 사용하도록 전환해야 합니다. 불행히도, 고객 중 한 명이 Auth0 토큰을 사용하는 사실에 의존하는 스크립트를 작성했습니다. 이는 마이그레이션을 완료하기 전에 저희가 그들에게 의존하게 하는 상황입니다.
 
@@ -67,7 +105,18 @@ Conveyor와 같이 대부분의 제품은 API를 통해 기능을 제공합니�
 
 저의 작업 중 상당 부분이 제품의 의존성을 업데이트하는 데 전념되어 있습니다. 이러한 업데이트는 종속 라이브러리의 변경, 제품의 오픈 소스 구성 요소 업데이트, Kubernetes 업데이트의 세 가지 범주로 나눌 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드 종속성에 대해서는 Dependabot을 사용하여 새로운 버전을 알려주고 의존 라이브러리의 취약점을 추적합니다. Dependabot을 통해 외부 라이브러리를 업데이트하는 데 필요한 시간을 최소화할 수 있습니다. 버전 업데이트로 인해 코드를 수정해야 하는 경우는 5%의 경우에만 발생합니다. 이러한 문제를 감지하기 위해 정적 코드 검사와 철저한 테스트 스위트를 사용합니다.
 
@@ -81,11 +130,33 @@ Conveyor와 같이 대부분의 제품은 API를 통해 기능을 제공합니�
 - 클러스터 자동 스케일러/Karpenter를 최신 Kubernetes 버전 노드만 사용하도록 구성합니다.
 - 하루 후에 아직 이전 Kubernetes 버전을 사용하는 노드를 cordon합니다. 수 시간 후에 이러한 노드를 drain하고 삭제할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작업 테이블을 Markdown 형식으로 변경해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 게시물에서는 데이터 엔지니어링 플랫폼을 구축하며 두 해 동안 배운 세 가지 주요 교훈을 논의했습니다:
 

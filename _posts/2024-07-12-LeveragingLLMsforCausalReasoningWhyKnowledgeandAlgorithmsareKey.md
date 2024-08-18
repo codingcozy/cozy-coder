@@ -3,17 +3,13 @@ title: "원인 추론을 위한 LLM 활용 지식과 알고리즘이 중요한 �
 description: ""
 coverImage: "/assets/img/2024-07-12-LeveragingLLMsforCausalReasoningWhyKnowledgeandAlgorithmsareKey_0.png"
 date: 2024-07-12 23:44
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-LeveragingLLMsforCausalReasoningWhyKnowledgeandAlgorithmsareKey_0.png
 tag: Tech
 originalTitle: "Leveraging LLMs for Causal Reasoning: Why Knowledge and Algorithms are Key"
 link: "https://medium.com/gopenai/leveraging-llms-for-causal-reasoning-why-knowledge-and-algorithms-are-key-d1928b7051c7"
 isUpdated: true
 ---
-
-
-
-
 
 인공 지능 소프트웨어가 이 기사의 텍스트를 개선하여 문법, 흐름, 가독성을 향상했습니다.
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 그러나 현재 인공 지능이 어떤 인간 능력과 일치하려고 하는 점에서, 특히 고도의 일반화된 지능의 상징인 인과 인식을 복제하는 데 집중이 집중되고 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AI 시스템은 물리적 세계에서의 경험이 부족하기 때문에 인과 관계에 대해 추론할 수 있을까요?
 
@@ -34,7 +40,18 @@ AI 시스템은 물리적 세계에서의 경험이 부족하기 때문에 인�
 
 일부 모델은 미학습 인간과 견줄 만한 역량으로 필요한 또는 충분한 원인을 결정할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 발전은 미래에 AI 어시스턴트들이 전문가들에게 복잡한 원인과 결과를 고려한 결정을 내리도록 조언하고, 사회 정책들이 시행 전 AI 생성 평가를 고려하며, 개인 에이전트들이 개인 맥락과 선호도에 따라 맞춤형 원인 모델을 사용하여 추천을 제공하는 미래를 보여줍니다.
 
@@ -44,7 +61,18 @@ AI 시스템은 물리적 세계에서의 경험이 부족하기 때문에 인�
 
 이 글은 왜 언어 모델을 지식 그래프와 전문 알고리즘과 결합하는 것이 확장 가능하고 실용적인 AI 원인 추론을 위해 필수적이며 모호함에 대처하고 맥락을 이해하며 동적으로 추론하며 궁극적으로 기계 주도의 원인 지혜로 인간의 결정을 향상시킬 수 있는지 설명합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Language Model Causal Reasoning](/assets/img/2024-07-12-LeveragingLLMsforCausalReasoningWhyKnowledgeandAlgorithmsareKey_0.png)
 
@@ -56,7 +84,18 @@ AI 시스템은 물리적 세계에서의 경험이 부족하기 때문에 인�
 - 반사실적 추론: GPT-4는 벤치마크 반사실적 예측 작업에서 92%의 정확도를 달성하여 인간의 성능에 근접합니다.
 - 필연적 원인 식별: GPT-4는 인과 소설들에 걸쳐 특정 이벤트가 다른 이벤트의 필요 원인인지를 평가하여 86%의 정확도를 달성합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LMPriors는 언어 모델을 조정하여 변수 이름 및 설명 메타데이터에서 올바른 인과 판단을 학습할 수 있다는 것을 성공적으로 보여주고 있습니다:
 
@@ -68,7 +107,18 @@ LMPriors는 언어 모델을 조정하여 변수 이름 및 설명 메타데이�
 - LLMs는 등가 인과 그래프에서 엣지를 정확하게 지향하여, 발견 알고리즘만 사용하는 것보다 구조적 불확실성을 15–25% 감소시킵니다.
 - 모델의 판단은 불완전하지만 여전히 유용한 지식 원천으로 작용하여 인과 그래프를 개선하는 데 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상이한 추론 작업에서의 일관된 높은 성능은 LLMs의 일반적이고 맥락 속 인과적 학습 능력을 보여줍니다. 이러한 능력은 텍스트 훈련 데이터에서의 패턴에 노출되어 얻어졌습니다.
 
@@ -78,7 +128,18 @@ LMPriors는 언어 모델을 조정하여 변수 이름 및 설명 메타데이�
 
 대형 언어 모델은 내제적으로 훈련 데이터로부터 추출된 방대한 세계 지식을 내포하고 있지만, 이 지식에는 한계가 있어 추론 능력이 제한됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1. 미완전한 범위
 
@@ -88,7 +149,18 @@ LLM은 훈련 데이터에서 자주 언급되는 사실적 지식에 노출됩�
 
 사전 훈련은 엔터티, 속성, 의존성의 조직화된 표현 없이 비구조적입니다. 이는 추론 중 특정 이벤트/엔터티에 대한 관련 사실 및 관계를 상기하는 데 비효율적으로 만듭니다. 지식 그래프는 스키마 기반 구조화된 기억을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 유효성 검증 소스가 없어요
 
@@ -98,7 +170,18 @@ LLM은 추측한 사건, 요소, 맥락 사이의 관계가 사실적으로 올�
 
 LLM에 대한 프롬프트는 종종 관련 세부사항을 충분히 명시하지 않아요. LLM들이 이에 근거 없는 가정을 하곤 해요. 풍부한 지식 그래프에 접근하여 결정에 도움이 되는 환경/역사적 세부사항을 제공할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **5. 일관성을 보장하지 않습니다**
 
@@ -108,7 +191,18 @@ LLM이 내린 단독 인과 판단은 동일 시나리오에 대해 논리적으
 
 # 알고리즘의 역할
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 게다가, 강화되지 않은 LLM은 다단계 인과 추론에 어려움을 겪고, 잠재적 혼동을 체계적으로 고려하지 못합니다. 그들의 추론은 국부적이며, 전역적 인과 일관성을 최적화하도록 되어 있지 않습니다. 알고리즘은 언어 모델의 유연한 지능을 보완해야 합니다.
 
@@ -118,7 +212,18 @@ LLM이 내린 단독 인과 판단은 동일 시나리오에 대해 논리적으
 
 강화되지 않은 언어 모델은 복잡한 다단계 인과 추론에서 실패합니다. 수십 개의 현실 세계 이벤트/개체를 아우르는 인과 사슬을 발견하기 위해서는 구조화된 알고리즘이 필요합니다, 지식 그래프에 액세스가 가능하더라도요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 알고리즘은 원인 경로를 체계적으로 탐색하여 지역 LLM 판단을 전체적으로 일관성 있는 내러티브로 엮어냅니다. 또한, 공리적 추론을 통해 결정을 공식적으로 검증하며, 판단이 논리적으로 존재론적 제약 조건을 지키는지 증명합니다.
 
@@ -128,7 +233,18 @@ LLM이 내린 단독 인과 판단은 동일 시나리오에 대해 논리적으
 
 전문화된 서브그래프 식별 알고리즘은 관련된 일련의 사건과 관련이 깊은 관계를 가진 그래프 조각만 추출합니다. 이렇게 함으로써 추론 검색 공간을 줄이고 효율적인 쿼리를 최소화합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **규모에 따른 일관성**
 
@@ -138,7 +254,18 @@ LLM이 내린 단독 인과 판단은 동일 시나리오에 대해 논리적으
 
 Efficient Causal Graph Discovery Using Large Language Models와 같은 최근 연구 결과는, LLMs가 인과 추론 능력을 보여주기는 하지만 그 방법이 확장이 잘 되지 않는다는 것을 입증합니다. 이전 방법은 모든 변수 쌍에 대해 LLM을 철저히 쿼리하여 제곱 시간 복잡도를 필요로 했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 내용은 선형 시간 알고리즘을 도입하여 LLM의 판단을 활용하여 인과 그래프를 구성하는 너비 우선 탐색 프레임워크를 소개했습니다. 이는 알고리즘이 효율성을 위해 LLM 사용을 최적화하는 방법을 보여줍니다.
 
@@ -151,7 +278,18 @@ Efficient Causal Graph Discovery Using Large Language Models와 같은 최근 �
 - 이러한 변수들이 그래프에 추가되고 추가 확장을 위해 대기열에 추가됩니다. 단, 이러한 변수가 순환 구조를 만들지 않도록 합니다.
 - 모든 변수가 방문될 때까지 이 과정이 반복됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서 각 단계에서 알고리즘은 두 변수 간의 관계 질문으로 애매모호해지지 않도록, 단일 변수의 효과에 관한 집중된 판단을 LLM에 요청합니다.
 
@@ -161,7 +299,18 @@ BFS 방문 순서로 인해 각 변수에 대해 효과에 관해 한 번씩만 
 
 # 통합 인과 추론 시스템
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대형 언어 모델은 명시적으로 인과 추론 능력을 증명했습니다. 텍스트 데이터의 패턴을 직관적으로 이해하고 그것을 통해 사건의 인과 관계를 판단합니다. 그러나 유연하고 탄탄한 인간의 원인 추론 능력을 완전히 재현하기 위해서는 단순한 통계적 패턴 인식 이상이 필요합니다.
 
@@ -171,7 +320,18 @@ BFS 방문 순서로 인해 각 변수에 대해 효과에 관해 한 번씩만 
 
 지식 그래프와 알고리즘이 함께하는 일:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 중복 쿼리를 줄여 LLM 추론을 확장성 있게 만들기
 - 단독 판단이 아닌 다단계 인과 관계를 최적화
@@ -184,8 +344,18 @@ BFS 방문 순서로 인해 각 변수에 대해 효과에 관해 한 번씩만 
 
 언어 모델의 유동적 추론을 구조화된 현실 지식과 인과 알고리즘과 밀접하게 결합해야 합니다. 지식 그래프는 알려진 인과 메커니즘을 나타내는 화식적 메모리를 제공합니다. 알고리즘은 일관성을 위한 논리적 연역, 추론 및 최적화를 다룹니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 함께하여, 언어 모델의 고유한 한계를 우회합니다. 지역적인 판단이 세계적으로 일치하도록 하여 그들을 더욱 견고하게 만들고, 가정을 없애기 위해 누락된 맥락을 제공하며, 결정을 형식적으로 확인합니다. 이 엔슨블은 섬세한 설명 가능한 인텔리전스에 힘을 실어줍니다.
 

@@ -3,17 +3,13 @@ title: "사랑스러운 화재 로고 만들기 Midjourney를 이용하여 디�
 description: ""
 coverImage: "/assets/img/2024-06-19-CreatingaKawaiiFireLogoFromDigitalArtto3DPrintedAwesomenessusingMidjourney_0.png"
 date: 2024-06-19 02:17
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-CreatingaKawaiiFireLogoFromDigitalArtto3DPrintedAwesomenessusingMidjourney_0.png
 tag: Tech
 originalTitle: "Creating a Kawaii Fire Logo: From Digital Art to 3D Printed Awesomeness using Midjourney"
 link: "https://medium.com/@sfjr90/creating-a-kawaii-fire-logo-from-digital-art-to-3d-printed-awesomeness-using-midjourney-83bb78c2e2ab"
 isUpdated: true
 ---
-
-
-
-
 
 디지털 아트를 현실 세계 물건으로 만들어 본 적이 있나요? 손에 쥐고 감상하며 때로는 던져볼 수도 있는 그런 물건? 제가 정확히 그렇게 했어요. 이 기사는 제가 Midjourney 프롬프트를 기반으로 3D 프린트된 물건을 만드는 과정을 담은 것이에요: kawaii fire 로고, 단순한 미니멀리즘, 네거티브 스페이스 벡터 - v 5.1
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 도구와 재료
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 뜨거운 모험을 위한 도구 상자가 준비되었습니다:
 
@@ -38,7 +45,18 @@ isUpdated: true
 
 우선, Midjourney에 들어가 마법의 단어들을 공급했습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 번째 단계: Photopea를 사용하여 배경 제거하기
 
@@ -46,7 +64,18 @@ isUpdated: true
 
 # 단계 3: Gigapixel AI를 사용하여 이미지 확대하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 후 Gigapixel AI가 나타났어요. 이 도구는 귀여운 작은 디자인을 가져다가 확장시켜버렸어요 — 화질 면에서 말이에요. 이 도구는 이미지용 헐크 같아요, 하지만 초록색 분노 문제는 없어요. 이제 로고는 혼란을 꿰뚫을만큼 선명해졌어요.
 
@@ -56,7 +85,18 @@ isUpdated: true
 
 # 단계 5: QIDI 3D 프린터로 모델 인쇄하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마침내, 내 신뢰할 수 있는 QIDI 3D 프린터를 가동했다. PETG를 사용했는데, 이는 3D 프린팅 소재 중에서도 Chuck Norris와 견줄만한 재질이었다. 프린터가 마법을 부리는 것을 멋지게 지켜보았어. 마치 쿠키 대신 플라스틱 걸작품이 나오는 것 같았어.
 
@@ -66,7 +106,18 @@ isUpdated: true
 
 층 높이를 0.1mm 또는 그 이하로 낮출 수록 표면 매끈함이 향상될 수 있다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 최종 제품
 
@@ -76,7 +127,18 @@ isUpdated: true
 
 이 프로젝트는 창의성과 몇 가지 "어떻게 된 거야?" 순간들로 가득 찬 롤러코스터였습니다. Midjourney를 통한 디지털 영감부터 시작해서, Photopea를 사용한 섬세한 배경 제거, Gigapixel AI를 이용한 이미지 향상, IMAGEtoSTL을 통한 2D에서 3D로의 변환, 그리고 PETG를 사용한 QIDI 3D 프린터를 통한 최종 출력까지, 모든 순간이 가치 있는 모험이었습니다. 귀여운 불 로고를 유형적인 물건으로 변환하는 것이 이렇게 재미있고 혼돈스러울 줄 누가 알았을까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 무엇이 당신을 막고 있나요? 여러분만의 디지턈에서 물리적으로의 모험에 뛰어들어서 창의력이 어디까지 이끌어주는지 확인해보세요! 그냥 유머 감각을 잃지 마세요. 당신이 필요할 거예요.
 

@@ -3,7 +3,7 @@ title: "NestJS에서 소켓 기능 구현하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-13-ImplementationofSocketUsingNESTJS_0.png"
 date: 2024-08-13 12:14
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-13-ImplementationofSocketUsingNESTJS_0.png
 tag: Tech
 originalTitle: "Implementation of Socket Using NEST JS"
@@ -11,7 +11,6 @@ link: "https://medium.com/@stephin0398/implementation-of-socket-using-nest-js-3f
 isUpdated: true
 updatedAt: 1723863094661
 ---
-
 
 # 소켓은 무엇이며 어디에 사용되나요?
 
@@ -21,7 +20,18 @@ updatedAt: 1723863094661
 
 이제 코드로 들어가 보겠습니다,
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기존 시스템에서 네스트 명령을 사용하여 모듈을 생성하는 중이에요.
 
@@ -37,7 +47,18 @@ nest generate service <서비스-이름>
 //예시: nest generate service gateway
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래요. 폴더는 이렇게 생성됩니다:
 
@@ -91,7 +112,18 @@ onNewMessage(@MessageBody() body: any) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 코드를 살펴보도록 하죠,
 
@@ -101,7 +133,18 @@ onNewMessage(@MessageBody() body: any) {
 
 Options:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - namespace: `xyz`: 이 WebSocket 게이트웨이가 xyz 네임스페이스 하에 있음을 지정합니다. 클라이언트들은 이 네임스페이스에 연결할 것입니다.
 - cors: ' origin: `*` ': 이는 모든 출처(`*`)에서의 교차 출처 요청을 허용합니다. 이는 서로 다른 출처의 클라이언트들이 WebSocket 서버에 연결해야 하는 경우 중요합니다.
@@ -116,7 +159,18 @@ Options:
 
 # 메시지 구독:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - @SubscribeMessage('Ping'): 이 데코레이터는 'Ping' 이벤트 이름을 가진 메시지를 수신 대기합니다. 서버가 이 이벤트 이름을 포함한 메시지를 수신하면 onNewMessage() 메소드를 트리거합니다.
 - onNewMessage(body: any): 'Ping' 메시지를 수신하면 이 함수가 호출됩니다. 메시지 본문을 콘솔에 로그로 남기고 환영 메시지도 로그로 남깁니다.

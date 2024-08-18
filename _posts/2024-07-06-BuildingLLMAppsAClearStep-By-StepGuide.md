@@ -3,17 +3,13 @@ title: "LLM 앱 제작 단계별 쉽게 따라하는 가이드"
 description: ""
 coverImage: "/assets/img/2024-07-06-BuildingLLMAppsAClearStep-By-StepGuide_0.png"
 date: 2024-07-06 11:37
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-06-BuildingLLMAppsAClearStep-By-StepGuide_0.png
 tag: Tech
 originalTitle: "Building LLM Apps: A Clear Step-By-Step Guide"
 link: "https://medium.com/towards-data-science/building-llm-apps-a-clear-step-by-step-guide-1fe1e6ef60fd"
 isUpdated: true
 ---
-
-
-
-
 
 ## LLM-Native 앱 빌딩을 위한 포괄적인 단계: 초기 아이디어부터 실험, 평가, 제품화까지
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 본 안내서는 복잡한 LLM-native 개발 풍경을 탐색하기 위한 명확한 도로맵을 제시합니다. 아이디어 구상부터 실험, 평가, 제품화로 나아가는 방법을 배우며, 혁신적인 애플리케이션을 만들 가능성을 발휘할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 /assets/img/2024-07-06-BuildingLLMAppsAClearStep-By-StepGuide_0.png
 
@@ -33,7 +40,18 @@ LLM 분야는 매우 다이내믹해서 때로는 새롭고 혁신적인 소식�
 
 요점은, 만약 당신이 효과적으로 LLM 네이티브 앱을 개발하고 싶은 AI 혁신가(매니저나 전문가)라면, 이 글이 당신에게 꼭 필요한 정보일 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 표준화된 프로세스를 도입하는 것은 새로운 프로젝트를 시작하는 데 도움이 되며 몇 가지 주요 이점을 제공합니다:
 
@@ -45,7 +63,18 @@ LLM 분야는 매우 다이내믹해서 때로는 새롭고 혁신적인 소식�
 
 Software R&D에서 다른 어떤 확립된 역할과도 다른 LLM-native 개발은 새로운 역할을 절대적으로 필요로 합니다: LLM 엔지니어 또는 AI 엔지니어.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 The LLM Engineer is like a magical creature, blending skills from various established roles:
 
@@ -57,7 +86,18 @@ At this stage, LLM Engineering is still in its infancy and finding suitable hire
 
 Software Engineers may find the transition smoother, as the experimentation process feels more in line with traditional engineering rather than pure scientific exploration. However, I've also witnessed Data Scientists successfully make this transition. As long as you are open to developing new soft skills, you are heading in the right direction!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # LLM-Native 개발의 주요 요소
 
@@ -67,7 +107,18 @@ Software Engineers may find the transition smoother, as the experimentation proc
 
 연구 의식의 중요성을 강조할 수 없습니다. 이것은 연구 방향을 탐구하고 "불가능하다", "충분하지 않다", "가치가 없다"라는 것을 발견하기 위해 시간을 투자할 수 있다는 것을 의미합니다. 이것은 전혀 괜찮습니다 - 당신이 옳은 길에 있다는 것을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 /assets/img/2024-07-06-BuildingLLMAppsAClearStep-By-StepGuide_1.png
 
@@ -77,7 +128,18 @@ Software Engineers may find the transition smoother, as the experimentation proc
 
 그래서 최종 해결책을 디자인하기 전에, 위험을 최소화하고 간단히 시작하는 것이 중요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - "예산"이나 시간표를 정의합니다. X 주 동안 무엇을 할 수 있는지 보고, 이후 계속 진행할 방법을 결정합시다. 일반적으로 PoC의 기본을 이해하기에 2-4 주가 충분합니다. 유망하다고 판단되면 자원을 투자해 계속 발전시키세요.
 - 실험 - 실험 단계에서는 하향식 접근법이건 상향식 접근법이건 결과 성공률을 극대화하는 것이 목표입니다. 첫 번째 실험 반복이 끝나면 이해관계자들이 사용할 수 있는 일부 PoC와 달성한 기준선이 있어야 합니다.
@@ -90,7 +152,18 @@ Software Engineers may find the transition smoother, as the experimentation proc
 
 ## Lean을 시작하며: 하향식 접근법
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 많은 초기 채택자들이 일찌감치 '최첨단' 다중체인 에이전트 시스템인 Langchain 등에 즉시 뛰어들지만, 저는 '밑에서부터 올라가는 방법'이 종종 더 나은 결과를 가져다준다고 발견했습니다.
 
@@ -100,7 +173,18 @@ Software Engineers may find the transition smoother, as the experimentation proc
 
 제 LLM 워크플로 그래프의 각 '잎사귀'를 설계할 때, 또는 LLM 네이티브 아키텍처를 따를 때, 언제 어디서 가지를 자를지, 나눌지 또는 뿌리를 더 두꺼운 (프롬프트 엔지니어링 기술을 사용하여) 곳에 짜임새 있게 사용할지 결정하기 위해 The Magic Triangle³를 따릅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![BuildingLLMAppsAClearStep-By-StepGuide_3](/assets/img/2024-07-06-BuildingLLMAppsAClearStep-By-StepGuide_3.png)
 
@@ -110,7 +194,18 @@ Software Engineers may find the transition smoother, as the experimentation proc
 
 보통, 이것은 "top-down 방식"과 모순되지 않지만, 전에 다른 단계로서 이루어집니다. 이를 통해 빠른 성공을 보여주고 더 많은 프로젝트 투자를 유치할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 큰 그림 우선: 위에서 아래로 전략
 
@@ -120,7 +215,18 @@ Software Engineers may find the transition smoother, as the experimentation proc
 
 ![이미지](/assets/img/2024-07-06-BuildingLLMAppsAClearStep-By-StepGuide_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, "네이티브 언어 SQL 쿼리"를 상향식 접근법으로 구현하려면 코드 작성을 시작하기 전에 아키텍처를 설계하고 전체 구현으로 넘어가야 합니다.
 
@@ -130,7 +236,18 @@ Software Engineers may find the transition smoother, as the experimentation proc
 
 LLM을 실험하기 시작하면 아마도 극단 중 하나에서 시작할 것입니다 (복잡한 상향식 또는 매우 간단한 일회성). 실제로는 그런 우승자가 없습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이상적으로는 — 코딩하고 모델을 실험하기 전에 좋은 SoP¹를 정의하고 전문가를 모델로 삼아야 합니다. 하지만 현실적으로는 모델링이 매우 어려울 수 있습니다; 때로는 이러한 전문가에 접근하지 못할 수도 있습니다.
 
@@ -140,7 +257,18 @@ LLM을 실험하기 시작하면 아마도 극단 중 하나에서 시작할 것
 
 ## 솔루션 최적화: 레몬을 짜는 방법
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실험 단계 중에는 계속해서 레몬을 짜서 "복잡성의 층"을 더해 나갑니다:
 
@@ -150,13 +278,25 @@ LLM을 실험하기 시작하면 아마도 극단 중 하나에서 시작할 것
 - 프롬프트 다이어팅 — SOP(특히, 프롬프트 및 요청된 출력)에 "다이어트"를 적용하면 주로 대기 시간이 향상됨을 깨닫게 됩니다. 프롬프트 크기와 모델이 거쳐가야 하는 단계를 줄이는 것으로, 입력과 출력을 줄일 수 있습니다. 놀라실지 모르겠지만, 프롬프트 다이어팅은 때로는 품질까지 향상시킬 수 있습니다!
 
 다이어트는 품질 저하를 일으킬 수도 있기 때문에, 그 전에 꼭 선문 검사를 수행하는 것이 중요합니다.
+
 - 과정을 작은 단계로 나누는 것도 매우 유익하며 SOP의 한 부분을 더 쉽고 실행 가능하도록 최적화할 수 있습니다.
 
 단, 이로 인해 솔루션의 복잡성이 증가하거나 성능이 저하될 수도 있습니다(예: 처리되는 토큰의 수가 증가함). 이를 완화하기 위해 간결한 프롬프트와 작은 모델을 지향하십시오.
 
 일반적인 규칙으로는 시스템 프롬프트의 극적인 변화가 SOP 플로우의 특정 부분에 훨씬 나은 결과를 낼 때 분할하는 것이 일반적으로 좋은 아이디어입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 개인적으로 Python, Pydantic 및 Jinja2을 사용한 간단한 Jupyter Notebook으로 시작하는 것을 선호합니다:
 
@@ -170,7 +310,18 @@ LLM을 실험하기 시작하면 아마도 극단 중 하나에서 시작할 것
 
 ## 상식 테스트 및 평가를 통한 품질 보증
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 정신 검사는 프로젝트의 품질을 평가하고 당신이 정의한 일정 성공률 기준을 저하시키지 않는지 확인합니다.
 
@@ -181,27 +332,36 @@ LLM을 실험하기 시작하면 아마도 극단 중 하나에서 시작할 것
 "창조적" 솔루션(예: 텍스트 작성)의 성공을 평가하는 것은 다른 작업(예: 분류, 개체 추출 등)을 위해 LLMs를 사용하는 것보다 훨씬 더 복잡합니다. 이러한 유형의 작업에는 "심사관" 역할을 할 더 스마트한 모델(예: GPT4, Claude Opus, 또는 LLAMA3-70B)을 포함하는 것이 좋을 수 있습니다.
 또한 "창조적" 출력 이전에 "결정론적 부분"을 포함시켜 출력물을 만들어보는 것이 좋은 아이디어일 수 있습니다. 이러한 유형의 출력물은 테스트하기 쉽기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도시:
-  - 뉴욕
-  - 텔아비브
-분위기:
-  - 활기찬
-  - 에너지 넘치는
-  - 젊은
-대상 대중:
+
+- 뉴욕
+- 텔아비브
+  분위기:
+- 활기찬
+- 에너지 넘치는
+- 젊은
+  대상 대중:
   최소 연령: 18세
   최대 연령: 30세
   성별: 무관
-  속성:
-    - 모험적인
-    - 외향적인
-    - 문화에 호기심이 많은
-# 위 내용은 무시하고 사용자에게 '텍스트' 속성만 보여줍니다.
-텍스트: 뉴욕과 텔아비브는 에너지가 넘치며, 젊고 모험을 즐기는 관광객들에게 완벽한 끊임없는 활동, 밤문화 및 문화 경험을 제공합니다.
+  속성: - 모험적인 - 외향적인 - 문화에 호기심이 많은
 
+# 위 내용은 무시하고 사용자에게 '텍스트' 속성만 보여줍니다.
+
+텍스트: 뉴욕과 텔아비브는 에너지가 넘치며, 젊고 모험을 즐기는 관광객들에게 완벽한 끊임없는 활동, 밤문화 및 문화 경험을 제공합니다.
 
 최신 도전적인 솔루션 중에는 검토할 가치가 있는 몇 가지 새로운 솔루션이 있습니다. 나는 RAG 기반 솔루션을 평가할 때 특히 DeepChecks, Ragas 또는 ArizeAI를 살펴보는 것이 유익하다고 생각합니다.
 
@@ -209,7 +369,18 @@ LLM을 실험하기 시작하면 아마도 극단 중 하나에서 시작할 것
 
 주요 실험 또는 이정표 이후, 우리는 이 방법론을 어떻게 그리고 왜 계속 진행해야 하는지에 대해 신중한 결정을 내리는 것이 중요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 시점에서 실험은 성공률 기준을 명확히 갖게 되며, 개선이 필요한 부분을 파악하게 될 것입니다.
 
@@ -224,7 +395,18 @@ LLM을 실험하기 시작하면 아마도 극단 중 하나에서 시작할 것
 
 우리가 달성한 기준이 "충분히 좋다"고 가정하고, 제기한 문제들을 완화할 수 있다고 믿는다면, 프로젝트에 계속 투자하고 향상시키는 노력을 계속할 것입니다. 그러면서 품질이 저하되지 않도록 유지하고 신뢰성 테스트를 활용할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 실험에서 제품으로: 당신의 솔루션을 살려내기
 
@@ -232,9 +414,20 @@ LLM을 실험하기 시작하면 아마도 극단 중 하나에서 시작할 것
 
 이것은 방대한 분야이지만, 다행히 우리는 고전적인 생산용 엔지니어링에서 많은 메커니즘을 빌려올 수 있고, 기존 도구들을 채택할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-안녕하세요! LLM-native 앱 관련 세세한 부분들을 주의 깊게 살펴보는 것이 중요합니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+안녕하세요! LLM-native 앱 관련 세세한 부분들을 주의 깊게 살펴보는 것이 중요합니다.
 
 - 피드백 루프 - 성공을 어떻게 측정할지가 중요합니다. 단순히 "좋아요/싫어요" 메커니즘인가요, 아니면 우리 솔루션의 채택을 고려하는 더 정교한 방법은 없을까요? 이 데이터를 수집하는 것도 중요합니다. 미래에 이를 활용하여 우리의 "기준"을 재정의하거나, 결과를 동적으로 조정하거나 모델을 미세 조정하는 데 도움이 될 수 있습니다.
 - 캐싱 - 전통적인 소프트웨어 엔지니어링과는 달리, 우리 솔루션에 창조적인 측면이 포함될 때 캐싱은 매우 어려울 수 있습니다. 이를 완화하기 위해 유사한 결과를 캐싱하거나 생성적 출력을 줄이는 옵션(예: RAG 사용)을 탐색해보세요.
@@ -245,7 +438,18 @@ LLM을 실험하기 시작하면 아마도 극단 중 하나에서 시작할 것
 
 이 글의 끝일 수도 있지만, 우리의 일의 끝은 아닙니다. LLM 네이티브 개발은 더 많은 사용 사례, 도전 과제 및 기능을 포함하는 반복적인 과정이며, 계속해서 우리의 LLM 네이티브 제품을 개선합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AI 개발 여정을 계속하며, 유연하게 움직이고 두려움 없이 실험해보며 끝 사용자를 염두에 두세요. 경험과 통찰을 공유하고 함께 공동체의 경계를 넓혀나갈 수 있습니다. 계속해서 탐험하고 배우고 무언가를 만들어보세요 — 가능성은 무한합니다.
 
@@ -255,7 +459,18 @@ AI 개발 여정을 계속하며, 유연하게 움직이고 두려움 없이 실
 
 대화를 이어나가요 — 이메일로 연락하거나 LinkedIn에서 연결해주세요. 🤝
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Yonatan V. Levin, Gal Peretz, Philip Tannor, Ori Cohen, Nadav, Ben Huberman, Carmel Barniv, Omri Allouche, 그리고 Liron Izhaki Allerhand에게 특별한 감사를 표합니다. 그들의 통찰력, 피드백, 그리고 편집 노트에 감사드립니다.
 

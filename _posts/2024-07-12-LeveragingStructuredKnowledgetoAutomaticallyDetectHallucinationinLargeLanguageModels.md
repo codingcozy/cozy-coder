@@ -3,17 +3,13 @@ title: "구조화된 지식을 활용한 대형 언어 모델에서의 환각 �
 description: ""
 coverImage: "/assets/img/2024-07-12-LeveragingStructuredKnowledgetoAutomaticallyDetectHallucinationinLargeLanguageModels_0.png"
 date: 2024-07-12 23:34
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-LeveragingStructuredKnowledgetoAutomaticallyDetectHallucinationinLargeLanguageModels_0.png
 tag: Tech
 originalTitle: "Leveraging Structured Knowledge to Automatically Detect Hallucination in Large Language Models"
 link: "https://medium.com/the-modern-scientist/leveraging-structured-knowledge-to-automatically-detect-hallucination-in-large-language-models-1a94a7929492"
 isUpdated: true
 ---
-
-
-
-
 
 인공 지능 소프트웨어가 사용되어 이 기사의 텍스트 문법, 흐름 및 가독성을 개선했습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 폐쇄 도메인 데이터셋에서 강력한 성능을 보여주지만, 개방형 질의는 LLM의 세계 지식의 왜곡을 드러낼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, LLM(언어 모델)은 엔티티, 관계 또는 시간적 사건을 혼동하여 타당하지만 부정확한 답변을 생성할 수 있습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 기업이 점점 더 LLM으로 구동되는 대화형 인터페이스를 통합할 때, 진실과 일치하는 것은 신뢰성과 신뢰에 중요합니다. 수동 사실 확인은 비용이 많이 들며 처리량이 부족하며 특정 도메인에는 실행 불가능할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사는 구조화된 지식 그래프(KGs)와 비교하여 LLM 추론을 통해 자동 환각 감지를 제안합니다. KGs는 엔티티 및 이벤트에 대한 관계적 사실을 인코딩하는 외부 메모리 백본 역할을 합니다.
 
@@ -43,7 +61,18 @@ KGs는 LLM의 유동적 생성 공간 내에서 편차를 평가하는 데 고�
 
 지속적으로 개선되는 검색 보조 생성(RAG) 시스템을 구축하는 것은 효과적인 데이터 플라이휠을 구현하는 것을 요구합니다. 이런 진전의 주기는 계기, 분석, 문제를 데이터 갭으로 연결, 기본 데이터 원본을 개선하고 반복 함으로써, 질문 응답을 위해 지식 그래프와 대형 언어 모델을 활용하는 시스템을 크게 향상시킬 수 있습니다. 문제가 있는 응답을 체계적으로 감지하고 지식 그래프를 확장하여 결함을 해결함으로써, 데이터 플라이휠은 이러한 시스템이 단계적으로 관리되고 대상적인 방식으로 학습하도록 가능케 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 체계적인 플라이휠 파이프라인은 대화형 검색, 고객 지원 및 사실 기반 지식에 기초한 신뢰할 수 있는 질문 응답을 필요로 하는 기타 도메인에서 배포되는 지식 그래프 보강 대형 언어 모델에 매우 관련이 있습니다. 통합된 지식 기반에서 누락된 엔티티, 관계 또는 사실로 인한 부적절한 응답을 사용 중에 추적함으로써 타겟팅된 보완 및 세밀한 조정을 통해 성능과 신뢰성을 향상시킬 수 있습니다. 이 플라이휠 효과는 또한 개선 루프를 코딩하는 것으로 수동 감시 필요성을 줄입니다. 표현 학습, 구조화된 지식 및 사용 중심 개선을 오케스트레이션하는 것이 확장 가능한 진전에 중요합니다.
 
@@ -53,7 +82,18 @@ KGs는 LLM의 유동적 생성 공간 내에서 편차를 평가하는 데 고�
 
 # 자동 환각 감지의 필요성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 커다란 언어 모델이 성숙해지면서 실제 응용 프로그램으로의 통합이 고갤 들고 여러 분야에서 가속화되고 있습니다. 고객 지원, 콘텐츠 생성 및 대화형 검색과 같이 영역들에서 말이죠. 그러나, 믿음성에 대한 새로운 도전들이 나타나고 있는 너머의 현실적인 실제 배치입니다. 엄격한 유효성 확인 보호장치 없이, 언어 모델의 추론에서의 오차는 절차적 무결성과 신뢰를 감안에 두다는 위험을 초래할 수 있습니다.
 
@@ -63,7 +103,18 @@ KGs는 LLM의 유동적 생성 공간 내에서 편차를 평가하는 데 고�
 
 좁은 도메인을 위한 철저한 확인 소스를 구축하는 것은 비용 및 지연의 장벽을 일으키기도 합니다. 다만, 최근 연구에 따르면 정제된 지식 그래프와 신경 언어 모델을 결합하면 사실성을 평가하고 지식 간격을 식별하는 데 도움이 되었음을 보여줍니다. 저지체 연결지 모델을 저지체 생산 파이프라인에 적용함으로써 자동환각 탐지 기능이 실현 가능해질 수 있습니다. 다음 절에서는 이러한 아이디어를 중심으로 한 접근 방식에 대해 자세히 설명하겠습니다. AI 애플리케이션에 대한 사용자의 신뢰를 유지하려면 신뢰성 있는 언어 모델을 강화해야 합니다. 앞으로의 길은 구조화된 지식을 신경 표현과 결합하여 이 원칙을 유지하는 데 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 질문 응답 활용하여 감지 향상
 
@@ -73,7 +124,18 @@ KGLens 논문에서 제안된 흥미로운 기술은 도메인 지식 그래프�
 
 특히, 모듈은 주기적으로 하위 그래프를 다시 샘플링하고 Yes/No 및 WH 형태의 자연어 질문을 생성하여 해당 entity 관계를 질의할 수 있습니다. 파이프라인은 이전과 같이 응답을 추출하고 지식 그래프와 일치시킵니다. 그러나 이제 모순은 오픈 엔드 추론 및 질문 응답 능력의 오류를 신호로 삼습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 논리 규칙 통합
 
@@ -83,7 +145,18 @@ ChatRule 논문은 대규모 언어 모델로부터 엔티티와 이벤트 간�
 
 # 핵심 아이디어
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 큰 언어 모델에서 사실적인 모순을 감지하는 제안된 방법은 실행 시 비교 및 기초로 작동하는 도메인별 지식 그래프(KG)를 구축하는 것을 포함합니다.
 
@@ -93,7 +166,18 @@ ChatRule 논문은 대규모 언어 모델로부터 엔티티와 이벤트 간�
 
 추론 시점에서 사용자 프롬프트는 큰 언어 모델(LLM) 응답을 호출합니다. LLM이 학습한 표현에서 동적 생성된 이 응답들은 정적 KG와 비교됩니다. 통사 분석 및 개체/관계 추출을 사용하여 LLM 응답에서 사실적인 명제가 추출되고, 개체는 정규화 기술(정확 일치, 동의어 매핑 등)을 사용하여 KG 어휘에 연결됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마침내, 추출된 명제들을 KG에 대조하면 일치와 모순이 드러납니다. 일치는 적절하게 부호화된 지식을 나타내고, 모순은 잠재적인 환각을 가리킵니다. 여러 LLM 쿼리 교환을 통해 모순을 추적함으로써 사실적인 변화를 경험적으로 찾아낼 수 있습니다. 더 나아가, 규칙별 통계는 어떤 논리적 제약이 자주 어기지는지를 밝혀내어 설명력을 제공합니다.
 
@@ -103,7 +187,18 @@ ChatRule 논문은 대규모 언어 모델로부터 엔티티와 이벤트 간�
 
 첫 번째 단계는 대상 도메인에 대한 중요한 엔터티와 관계에 대한 구조화된 데이터를 제공하는 적합한 지식 원본을 식별하는 것입니다. 위키데이터, DBpedia, ConceptNet과 같은 협력적인 지식 베이스와 도메인별 온타로지가 쿼리되어 관련 시맨틱 트리플을 추출합니다. 예를 들어, 약학 연구에서 기존 의료 온타로지는 다양한 약물, 단백질 상호작용, 질병 연관 및 부작용을 설명합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 다음 집계된 사실들은 정보 정확성을 중점으로 신중하게 필터링하고 정리해야 합니다. 추출된 서브그래프 위에서의 제한된 랜덤 워크 같은 기술은 핵심 개체 중심의 제어된 확장을 가능케하면서 원본 분포의 대표성을 유지합니다. 랜덤 워크는 관련된 개체와 관계를 수집하면서 관련 없는 영역으로의 이동을 방지합니다. 통계적 메트릭은 인기 있는 지역 대 비군데를 식별하여 산산조각을 제거하는 데 도움을 줍니다. 소스 간의 통합으로 인한 모순들 또한 해결됩니다.
 
@@ -111,10 +206,20 @@ ChatRule 논문은 대규모 언어 모델로부터 엔티티와 이벤트 간�
 
 통계적 링킹과 인간 중심의 감독을 융합함으로써, 응용 도메인에서 사실 확인이 필요한 개체 및 관계에 집중한 고품질 KG가 생성됩니다. 시드 사실, 바인딩 및 추론을 포함하는 확장된 KG는 런타임에서 언어 모델 편차를 평가하는 데 기초가 되는 정답을 제공합니다. 이 특화된 KG의 세밀한 구축은 운영에 들어가기 전에 키 포인트입니다.
 
-
 # 파이프라인 설계
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스케일 가능한 마이크로서비스 파이프라인은 사용자 입력을 받아 LLM 응답과 지식 그래프를 비교하여 환각을 감지하는 엔드 투 엔드 흐름을 처리합니다.
 
@@ -131,7 +236,18 @@ ChatRule 논문은 대규모 언어 모델로부터 엔티티와 이벤트 간�
 
 이러한 구성 요소를 통해 LLM 출력을 지식 그래프와 비교하여 자동화되고 확장 가능하며 계속된 환각 감시가 가능합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 앞으로 나아갈 길
 
@@ -141,7 +257,18 @@ ChatRule 논문은 대규모 언어 모델로부터 엔티티와 이벤트 간�
 
 그러나 수동적인 사실 수집에만 의존하는 것은 완전성 문제를 유발할 수 있습니다. 그래서 외부 데이터셋과 모델 추론으로부터 지식 그래프 자체를 계속 확장하는 것이 중요합니다. 그러나 이는 확장 가능성을 위해 그래프 분석을 최적화하는 것을 필요로 합니다. 상용 하드웨어를 통한 분산 저장은 데이터 수집 및 쿼리 속도를 높일 수 있습니다. 서버리스 아키텍처는 복잡한 탐색을 동적으로 확장할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 넓은 시각에서, 종합적인 프레임워크는 단순한 상징적인 삼중체나 규칙보다는 이미지, 비디오, 음성, 텍스트를 포괄하는 다중 형식 데이터를 통합해야 합니다. 지각 모듈을 이용한 씬 그래프 통합은 언어 해석 시 더 풍부한 맥락을 제공합니다. 시계열 데이터세트에서 얻은 인과 관계는 추론에 더 많은 제약사항을 부과합니다. 이러한 다중 감각적 지식을 사용한 기본 물리적, 사회적 직관을 모델에 포함하도록 하는 그라운드 러닝 목표는 모델에 가르치는 것입니다.
 
@@ -149,6 +276,17 @@ ChatRule 논문은 대규모 언어 모델로부터 엔티티와 이벤트 간�
 
 지속적인 진전은 다중 감각적 기저지식을 통합하는 상호간의 제 disciplin으로 가는 노력이 필요합니다. 신경-기호 연합과 인간지도학습을 통한 자동화된 향상을 통합하는 이 퓨전은 보다 견고한 언어 모델을 약속하며 세계 지식과 밀접하게 결합할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대인관계 카드를 한 장 뽑아볼게요! 이번에는 'The Lovers' 카드가 나왔네요. 'The Lovers' 카드는 사랑, 동반자십, 결합의 의미를 가지고 있어요. 이 카드는 선택과 연결에 대한 중요성을 상기시켜 주는 에너지를 가지고 있답니다. 함께 일하는 동료나 파트너와의 관계에 주의를 기울이며, 서로의 의견을 존중하고 협력하는 데 초점을 맞춰보는 것은 어떨까요? 함께 한다면 더 큰 성취를 이룰 수 있을 거예요. 함께 일하는 모든 분들과 긍정적인 상호작용을 이어가길 바래요!

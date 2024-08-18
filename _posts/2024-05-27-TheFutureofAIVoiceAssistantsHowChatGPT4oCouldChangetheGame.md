@@ -3,17 +3,13 @@ title: "AI 음성 어시스턴트의 미래 ChatGPT 4o가 게임을 바꿀 수 �
 description: ""
 coverImage: "/assets/img/2024-05-27-TheFutureofAIVoiceAssistantsHowChatGPT4oCouldChangetheGame_0.png"
 date: 2024-05-27 13:26
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-TheFutureofAIVoiceAssistantsHowChatGPT4oCouldChangetheGame_0.png
 tag: Tech
 originalTitle: "The Future of AI Voice Assistants: How ChatGPT 4o Could Change the Game"
 link: "https://medium.com/@thedreamspace97/the-future-of-ai-voice-assistants-how-chatgpt-4o-could-change-the-game-6625250cb3ef"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-05-27-TheFutureofAIVoiceAssistantsHowChatGPT4oCouldChangetheGame_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 하지만 솔직히 말하면: 음성 비서를 사용해본 적이 있다면, 그들의 로봇 음성이나 때로는 간단한 명령을 이해하지 못하는 데 짜증이 났을 가능성이 높습니다. 그러나, 이것은 곧 ChatGPT 4o의 출시로 바뀌게 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오픈에이아이(OpenAI)가 최근 최신 주력 언어 모델인 ChatGPT 4o를 발표했어요. 이 모델은 텍스트, 이미지, 오디오, 비디오 입력의 어떤 조합이든 처리하고 해당에 맞게 응답할 수 있는 능력을 가지고 있어요. 이전에는 '음성 모드'로 작동하는 ChatGPT는 오디오 입력을 텍스트로 변환해 처리해야 했었어요. 그러나 최신 모델은 오디오 입력을 직접 해석할 수 있어요. 당신의 억양, 표정, 심지어 배경 소음을 고려하고 230밀리초 이내에 인간과 거의 같은 속도로 응답할 수 있어요.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 이러한 발전은 우리 옛날 로봇 음성 어시스턴트 시대의 끝을 알리는 신호이죠. 음성 어시스턴트 시장은 변화에 도전하고 있지만, 구글과 아마존과 같은 산업 거물들은 신속히 대응하고 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어 Google은 최근 Google I/O 컨퍼런스에서 프로젝트 아스트라에 대한 미리보기를 제공하여, 자신들의 Gemini 모델을 이용한 인간과 유사한 음성 어시스턴트에 대한 접근 방식을 소개했습니다. 뒤쳐지지 않으려는 아마존은 기존 음성 어시스턴트인 알렉사의 GenAI 기능을 강화할 것으로 예상되며, 업그레이드된 음성 어시스턴트의 수익성을 높이기 위해 구독 플랜을 도입할 것이라는 소문도 있습니다.
 

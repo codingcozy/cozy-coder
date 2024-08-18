@@ -3,7 +3,7 @@ title: "Kotlin Multiplatform을 이용해 안드로이드와 iOS에서 크로스
 description: ""
 coverImage: "/assets/img/2024-07-10-CreatingaCross-PlatformVideoPlayerComponentinKotlinMultiplatformAndroidIOS_0.png"
 date: 2024-07-10 01:12
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-10-CreatingaCross-PlatformVideoPlayerComponentinKotlinMultiplatformAndroidIOS_0.png
 tag: Tech
 originalTitle: "Creating a Cross-Platform Video Player Component in Kotlin Multiplatform Android IOS"
@@ -11,26 +11,32 @@ link: "https://medium.com/@adman.shadman/creating-a-cross-platform-video-player-
 isUpdated: true
 ---
 
-
-
-
-
 ![Creating a Cross-Platform Video Player Component in Kotlin Multiplatform for Android and iOS](/assets/img/2024-07-10-CreatingaCross-PlatformVideoPlayerComponentinKotlinMultiplatformAndroidIOS_0.png)
 
 Hey there, fellow Tarot enthusiasts! 🌟
 
-In the world of modern app development, having a video player component that works seamlessly across different platforms like Android and iOS is super important. Thanks to Kotlin Multiplatform (KMP), developers can write shared code that can run on both platforms, utilizing platform-specific APIs when necessary. 
+In the world of modern app development, having a video player component that works seamlessly across different platforms like Android and iOS is super important. Thanks to Kotlin Multiplatform (KMP), developers can write shared code that can run on both platforms, utilizing platform-specific APIs when necessary.
 
 This blog post dives into the art of creating a versatile VideoPlayer component in Kotlin Multiplatform. We'll be exploring how to handle video playback and dynamic orientation changes for Android using Jetpack Compose and for iOS using SwiftUI. 📱✨
 
-### Setting Up Kotlin Multiplatform 
+### Setting Up Kotlin Multiplatform
 
 Before we get into the platform-specific implementation magic, let's make sure you have your Kotlin Multiplatform project all set up. Make sure you've got a shared module where you can define your VideoPlayer component using expect and actual declarations. ✨🎬
 
 Stay tuned for more tips and insights in our Tarot reading of Kotlin Multiplatform! 🔮✨
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Android Implementation with Jetpack Compose
 
@@ -38,8 +44,18 @@ Implementing GoBackToPortraitMode Functionality
 
 안드로이드에서는 화면 방향 변경을 관리하기 위해 Jetpack Compose를 사용하여 GoBackToPortraitMode 기능을 구현합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 안드로이드 전용 모듈: androidMain
@@ -114,13 +130,24 @@ import androidx.activity.ComponentActivity
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## SwiftUI을 활용한 iOS 구현
 
-세로 모드로 돌아가는 기능 구현하기 
+세로 모드로 돌아가는 기능 구현하기
 
-iOS에서 SwiftUI의 UIDevice API를 사용하여 방향 변경 관리하기 
+iOS에서 SwiftUI의 UIDevice API를 사용하여 방향 변경 관리하기
 
 ```kotlin
 // iOS 전용 모듈: iosMain
@@ -134,7 +161,18 @@ actual fun GoBackToPortraitMode(triggerEffect: Boolean) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 VideoPlayer 컴포넌트 구현
 
@@ -181,7 +219,18 @@ actual fun VideoPlayer(
 
 ## 사용 예시
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여러분, 이렇게 VideoPlayer와 GoBackToPortraitMode 기능을 코틀린 멀티플랫폼 앱에서 사용할 수 있습니다:
 

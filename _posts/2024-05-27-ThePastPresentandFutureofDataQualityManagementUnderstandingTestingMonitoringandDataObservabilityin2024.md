@@ -3,17 +3,13 @@ title: "데이터 품질 관리의 과거, 현재, 그리고 미래 2024년에 �
 description: ""
 coverImage: "/assets/img/2024-05-27-ThePastPresentandFutureofDataQualityManagementUnderstandingTestingMonitoringandDataObservabilityin2024_0.png"
 date: 2024-05-27 12:51
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-ThePastPresentandFutureofDataQualityManagementUnderstandingTestingMonitoringandDataObservabilityin2024_0.png
 tag: Tech
 originalTitle: "The Past, Present, and Future of Data Quality Management: Understanding Testing, Monitoring, and Data Observability in 2024"
 link: "https://medium.com/towards-data-science/the-past-present-and-future-of-data-quality-management-understanding-testing-monitoring-and-efd1350457eb"
 isUpdated: true
 ---
-
-
-
-
 
 ## 데이터 환경이 진화하고 있으며, 데이터 품질 관리도 함께 발전해야 합니다. 다음은 AI 시대에 데이터 품질 관리가 향하는 방향과 세 가지 일반적인 접근 방식에 대한 정보입니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 그리고 더 중요한 것은 — 모두 세 가지가 정말 필요한가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 엔지니어링에서처럼, 데이터 품질 관리도 초속으로 진화하고 있어요. 기업에서 데이터와 AI의 급부상으로 인해, 현대 비즈니스에 있어 데이터 품질은 제로 데이 위험이 되었고 데이터 팀이 해결해야 할 핵심 문제가 되었어요. 중첩 용어가 많아서 어떻게 모두 맞는지 또는 맞는지 여부가 항상 명확하지 않아요.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 # 현대 데이터 품질 문제 이해하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 솔루션을 이해하기 전에 문제를 이해해야 합니다. 시간이 지남에 따라 어떻게 변화했는지 알아야 합니다. 다음 유사성을 고려해 봅시다.
 
@@ -43,9 +61,20 @@ isUpdated: true
 
 먼저, 작은 환경에서는 실수 포인트가 상대적으로 적습니다. 파이프가 고장나면, 근본 원인을 냉동 파이프, 누군가가 수도관에 파고들면, 일반적인 몇 가지 원인 중 하나로 좁힐 수 있고, 1~2 명의 직원이 리소스로 문제를 빠르게 해결할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-100만 명의 신규 거주민을 디자인하고 유지하기 위한 뱀과 같은 파이프라인, 수요 충족을 위해 필요한 광란스러운 속도, 그리고 팀의 한계적인 능력(및 가시성) 때문에 예상했던 모든 문제를 찾아 해결하거나 감시해야 할 수 있는 능력이 더 이상 동일하지 않습니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+100만 명의 신규 거주민을 디자인하고 유지하기 위한 뱀과 같은 파이프라인, 수요 충족을 위해 필요한 광란스러운 속도, 그리고 팀의 한계적인 능력(및 가시성) 때문에 예상했던 모든 문제를 찾아 해결하거나 감시해야 할 수 있는 능력이 더 이상 동일하지 않습니다.
 
 현대 데이터 환경도 마찬가지입니다. 데이터 팀은 금광을 발견했고 이해 관계자들은 그 발전 상황에 참여하고 싶어합니다. 데이터 환경이 커질수록 데이터 품질 유지가 더 어려워지며 전통적인 데이터 품질 방법이 덜 효과적일 수 있습니다.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 # 그래서 데이터 모니터링, 테스트 및 관찰의 차이는 무엇일까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 매우 명확하게, 이러한 방법 중 각각은 데이터 품질에 대응하려는 시도입니다. 따라서, 당신이 해결해야 할 문제가 그것이라면, 이 중 하나는 원칙적으로 그 문제를 확인할 것입니다. 하지만, 이 모두가 데이터 품질 솔루션이라는 것은 실제로 데이터 품질 문제를 해결해주지 않을 수 있다는 뜻입니다.
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 더 간단히 말하여, 모니터링과 테스팅은 문제를 확인하고, 데이터 가시성은 문제를 확인하고 해결책을 제시함으로써 실질적인 대응이 가능합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 데이터 관찰이 데이터 품질 성숙도 곡선에서 어디에 위치하는지 시각화하는 빠른 그림이 있습니다.
 
@@ -73,7 +124,18 @@ isUpdated: true
 
 # 데이터 테스트
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 품질에 대한 전통적인 두 가지 방법 중 첫 번째는 데이터 테스트입니다. 데이터 품질 테스트(또는 간단히 데이터 테스트)는 사용자 정의 제약 조건이나 규칙을 사용하여 데이터 집합 내에서 특정 알려진 문제를 식별하는 감지 방법으로, 데이터 무결성을 확인하고 특정 데이터 품질 기준을 보장합니다.
 
@@ -83,7 +145,18 @@ isUpdated: true
 
 데이터 테스트는 데이터 품질 프레임워크의 필수 구성 요소로 남을 것이지만, 몇 가지 중요한 영역에서 제한이 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 깊은 데이터 지식이 필요합니다 — 데이터 테스트에는 데이터 엔지니어가 1) 품질을 정의하기 위해 충분한 전문 분야 지식이 필요하고, 2) 데이터가 어떻게 실패할 수 있는지에 대한 충분한 지식이 필요합니다.
 - 알 수 없는 문제에 대한 검토가 불가능합니다 — 데이터 테스트는 예상되는 문제에 대해서만 알려줄 뿐, 예상치 못한 사건에 대해서는 알려주지 않습니다. 특정 문제를 커버하기 위해 테스트가 작성되지 않은 경우, 테스트는 해당 문제를 발견할 수 없습니다.
@@ -97,7 +170,18 @@ isUpdated: true
 
 데이터 품질 모니터링은 데이터 품질에 대한 또 다른 전통적이면서 다소 세련된 접근 방식으로, 수동 임계값 설정 또는 머신러닝을 통해 계속해서 모니터링하고 데이터에서 숨어있는 알 수 없는 이상 현상을 식별하는 영구적인 솔루션입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 데이터가 제때 도착했나요? 예상했던 행 수를 얻었나요?
 
@@ -107,7 +191,18 @@ isUpdated: true
 
 유감스럽게도, 데이터 품질 모니터링은 몇 가지 중요한 측면에서 부족함이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 컴퓨팅 비용 증가 - 데이터 품질 모니터링은 비용이 많이 듭니다. 데이터 테스트와 마찬가지로 데이터 품질 모니터링은 데이터를 직접 쿼리하지만, 알려지지 않은 알려지지 않은 사항을 식별하기 위해 넓게 적용되어야 하므로 큰 컴퓨트 비용이 듭니다.
 - 가치창출 시간이 느림 - 모니터링 임계값은 머신 러닝으로 자동화할 수 있지만, 먼저 각 모니터를 직접 구축해야 합니다. 이는 데이터 환경이 시간이 지남에 따라 확장됨에 따라 각 문제에 대해 많은 양의 코딩을 하고 그 모니터를 수동으로 확장해야 한다는 것을 의미합니다.
@@ -120,7 +215,18 @@ isUpdated: true
 
 이것이 데이터 관측성입니다. 위에서 언급된 방법들과는 달리 데이터 관측성은 종합적인 공급업체 중립적 솔루션을 의미하며, 확장 가능하고 실행 가능한 완전한 데이터 품질 커버리지를 제공하도록 설계되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 소프트웨어 엔지니어링의 최고의 실천 방법을 모티브로 한 데이터 관찰은 데이터 품질 관리의 종단간 AI 지원 접근법으로, 데이터 품질 문제에 대한 "무엇, 누가, 왜, 어떻게"를 단일 플랫폼 내에서 해결하기 위해 설계되었습니다. 이는 기존 데이터 품질 방법의 한계를 보완하기 위해 테스트와 완전 자동화된 데이터 품질 모니터링을 결합하여 단일 시스템으로 확장한 후, 그것을 데이터, 시스템 및 코드 수준으로 확장하여 데이터 환경을 커버합니다.
 
@@ -130,7 +236,18 @@ isUpdated: true
 
 데이터 관찰은 전통적인 데이터 품질 실무의 단점을 다음 네 가지 핵심 방식으로 해결합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 견고한 사건 분류 및 해결 - 가장 중요한 것은 데이터 관찰성이 사건을 빨리 해결할 수 있는 리소스를 제공합니다. 태깅 및 경보 외에도 데이터 관찰성은 자동 열 수준 계보를 통해 원인 분석 프로세스를 빠르게 처리하여 팀이 영향을 받은 것, 누가 알아야 하는지, 고치러 가야 할 곳을 한 눈에 볼 수 있도록 돕습니다.
 - 완벽한 가시성 - 데이터 관찰성은 데이터 소스를 초월하여 인프라, 파이프라인 및 데이터 이동 및 변환하는 포스트 인게스션 시스템까지 확대하여 회사 전반의 도메인 팀을 위해 데이터 문제를 해결합니다.
@@ -143,7 +260,18 @@ isUpdated: true
 
 데이터 관찰성은 기업 데이터 팀이 AI에 신뢰할 수 있는 데이터를 효과적으로 제공할 수 있도록 해주는 사실상 유일한 데이터 품질 관리 솔루션이자 가능성이라고 볼 수 있습니다. 이를 달성하는 한 가지 방법은 AI로 구동되는 솔루션이기도 하기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AI를 활용하여 모니터 생성, 이상 징후 감지, 원인 분석을 통해 데이터 관찰력은 실시간 데이터 스트리밍, RAG 아키텍처 및 기타 AI 사용 사례를 위한 초스케일 데이터 품질 관리를 가능하게 합니다.
 
@@ -153,7 +281,18 @@ AI를 활용하여 모니터 생성, 이상 징후 감지, 원인 분석을 통�
 
 특히 AI 시대에는 데이터 품질이 비즈니스 리스크뿐만 아니라 존립적인 리스크이기도 합니다. 모델로 공급되는 데이터의 전부를 신뢰할 수 없다면, AI의 출력도 신뢰할 수 없게 됩니다. AI의 빠른 규모에서는 전통적인 데이터 품질 방법으로는 이러한 데이터 자산의 가치나 신뢰성을 보호하는 데 충분하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 효과적인 데이터 품질 관리를 위해서는 테스트와 모니터링이 하나로 통합된 플랫폼에 솔루션이 필요합니다. 이 솔루션은 데이터 환경 전체를 객관적으로 모니터링하고 데이터 팀이 문제를 신속히 해결할 수 있는 자원을 제공해야 합니다.
 

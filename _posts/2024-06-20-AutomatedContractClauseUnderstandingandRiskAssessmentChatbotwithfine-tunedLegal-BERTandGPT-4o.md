@@ -3,17 +3,13 @@ title: "자동 계약 조항 이해 및 위험 평가 챗봇 Legal-BERT 및 GPT-
 description: ""
 coverImage: "/assets/img/2024-06-20-AutomatedContractClauseUnderstandingandRiskAssessmentChatbotwithfine-tunedLegal-BERTandGPT-4o_0.png"
 date: 2024-06-20 18:50
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-AutomatedContractClauseUnderstandingandRiskAssessmentChatbotwithfine-tunedLegal-BERTandGPT-4o_0.png
 tag: Tech
 originalTitle: "Automated Contract Clause Understanding and Risk Assessment Chatbot with fine-tuned Legal-BERT and GPT-4o"
 link: "https://medium.com/@prakarsha/automated-contract-clause-understanding-and-risk-assessment-with-fine-tuned-legal-bert-and-gpt-4o-3a6f0423ace3"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-06-20-AutomatedContractClauseUnderstandingandRiskAssessmentChatbotwithfine-tunedLegal-BERTandGPT-4o_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 왜 계약 분석을 자동화해야 하는가?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 계약 분석은 법적 준수와 비즈니스 전략에 있어 중요합니다. 자동화된 도구들은 주요 조항을 신속하게 식별하고 위험을 평가하며 자세한 설명을 제공하는 데 도움을 줄 수 있습니다. 이는 법률 전문가와 비즈니스에게 귀중한 자산이 될 것입니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 Legal-BERT: Legal-BERT는 법적 텍스트의 대규모 말뭉치에 대해 세밀하게 조정된 BERT(Bidirectional Encoder Representations from Transformers)의 특수한 변형입니다. 이는 법적 자연어 처리 작업을 지원하기 위해 법적 언어에 대해 더 정확하고 맥락적으로 관련성 있는 임베딩을 제공하도록 설계되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GPT-4o: GPT-4o는 인간과 유사한 텍스트를 이해하고 생성할 수 있는 고급 언어 모델입니다. 자세하고 일관성 있는 설명을 생성하는 데 특히 유용하며, 위험 평가 작업에 적합합니다.
 
@@ -43,7 +61,18 @@ LegalBench: LegalBench 데이터셋은 LLMs에서 법률 추론을 평가하기 
 
 ## 도구:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Streamlit: Streamlit은 데이터 과학 및 기계 학습 프로젝트를 위한 상호 작용 웹 애플리케이션을 만들 수 있게 해주는 Python 라이브러리입니다. 이 프로젝트에서는 계약 조항 분류 및 리스크 평가 시스템에 사용자 친화적 인터페이스를 구축하는 데 사용됩니다.
 
@@ -53,7 +82,18 @@ Huggingface Transformers: Huggingface Transformers 라이브러리는 BERT와 GP
 
 ![Project Architecture](/assets/img/2024-06-20-AutomatedContractClauseUnderstandingandRiskAssessmentChatbotwithfine-tunedLegal-BERTandGPT-4o_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트의 워크플로우를 개요로 설명한 아키텍처 다이어그램이 있습니다. 프로세스는 계약 조항 텍스트 입력으로 시작되며, 먼저 Legal BERT 모델을 사용하여 분류됩니다. 그 다음으로, 해당 조항은 GPT-4o를 활용한 위험 분석이 수행됩니다. 마지막으로, 분류 및 위험 분석 결과가 다른 GPT-4o 모델에 의해 통합되어 종합적인 출력 보고서로 형식화됩니다. 이 아키텍처는 잠재적 위험을 평가하기 위해 계약 조항을 자동으로 평가하는 효율적이고 자동화된 시스템을 보장합니다.
 
@@ -63,7 +103,18 @@ LegalBench 데이터셋은 대형 언어 모델(Large Language Models, LLMs)에�
 
 # 데이터 처리
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째 단계는 계약 조항 데이터 세트를 처리하는 것입니다. 이 데이터 세트에는 감사 조항인지 아닌지를 나타내는 레이블이 지정된 조항이 포함되어 있습니다. 데이터는 정리되고 전처리되어 BERT 토크나이저와 호환되도록 보장됩니다. 이 단계는 Legal BERT 모델의 미세 조정을 위해 데이터를 준비하는 데 중요합니다.
 
@@ -104,7 +155,18 @@ val_dataset = LegalDataset(val_encodings, val_labels)
 
 # LEGAL-BERT: 로스쿨에서 나온 머펫들
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LEGAL-BERT는 법적 NLP 작업에 특화된 BERT 모델로, 다양한 영어 법률 텍스트 12GB를 사전 훈련했습니다. 이 모델은 법적 연구, 컴퓨팅 법률, 그리고 법률 기술 응용 프로그램을 지원하며, 일반 BERT 모델보다 도메인 특화 작업에서 우수한 성과를 거두고 있습니다.
 
@@ -114,7 +176,18 @@ LEGAL-BERT는 법적 NLP 작업에 특화된 BERT 모델로, 다양한 영어 �
 
 처리된 데이터셋을 사용하여 Legal BERT 모델을 계약 조항을 분류하는 작업에 특히 맞게 세밀 조정할 수 있습니다. 강건한 모델 성능을 보장하기 위해 K-폴드 교차 검증 방법이 채택되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 왜 K-Fold 교차 검증을 사용해야 할까요?
 
@@ -151,7 +224,18 @@ for train_index, val_index in kf.split(texts, labels):
 
 이 기술은 모델이 데이터의 다른 하위 집합에서 평가되어 과적합을 완화시키며 정확도, 정밀도, 재현율 및 F1 점수의 포괄적인 평가를 제공합니다. K-Fold 교차 검증을 사용함으로써, 모델이 훈련 데이터뿐만 아니라 새로운, 보지 못한 데이터에 대해 효과적으로 잘 작동하는 것을 보장할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 학습 결과 해석
 
@@ -161,7 +245,18 @@ for train_index, val_index in kf.split(texts, labels):
 
 # 리스크 분석
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 법적 BERT 모델을 세밀 조정한 후, 새로운 계약 조항을 분류하는 데 사용됩니다. 분류된 조항은 그 후 GPT-4o에 전달되어 리스크 분석을 진행합니다. GPT-4o는 고급 자연어 이해 능력을 활용하여 조항과 관련된 잠재적인 위험을 식별합니다. 이 분석은 가능한 법적 영향과 우려 사항에 대한 자세한 통찰력을 제공합니다.
 
@@ -184,7 +279,18 @@ def run_riskAnalysis(clause):
 
 분류 및 위험 분석 결과를 얻은 후, 우리는 출력을 통합하여 일관된 보고서로 만듭니다. GPT-4o를 다시 활용하여 분류 레이블과 식별된 위험을 종합 설명에 결합합니다. 이 통합 단계는 최종 보고서가 명확하고 정보 제공이며 실행 가능하도록 보장함으로써 사용자가 계약 조항의 잠재적인 위험을 이해하기 쉽게 만듭니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 # ChatCompletion endpoint를 사용하여 prompt를 실행하는 기능
@@ -233,7 +339,18 @@ if user_input:
     st.experimental_rerun()
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 챗봇 데모
 
@@ -279,7 +396,18 @@ if user_input:
 조항의 복잡성과 잠재적인 영향을 고려하여 실무, 법률 및 운영적 현실과 조화를 이루도록 사용자 정의하는 것을 강력히 권장합니다.
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 참고 자료
 

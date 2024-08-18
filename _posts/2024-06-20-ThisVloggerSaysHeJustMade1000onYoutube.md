@@ -3,17 +3,13 @@ title: "로이그는 유튜브에서 딱 1000 벌었다고 말하네요"
 description: ""
 coverImage: "/assets/img/2024-06-20-ThisVloggerSaysHeJustMade1000onYoutube_0.png"
 date: 2024-06-20 16:12
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-ThisVloggerSaysHeJustMade1000onYoutube_0.png
 tag: Tech
 originalTitle: "This Vlogger Says He Just Made $1000 on Youtube"
 link: "https://medium.com/the-happy-blogger/this-vlogger-says-he-just-made-1000-on-youtube-bb57162abd33"
 isUpdated: true
 ---
-
-
-
-
 
 유튜버들이 얼마나 돈을 벌까요?
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 제 조사 결과에 따르면, 유튜브는 부가 수입을 얻기 위한 좋은 장소가 될 수 있어요. 하지만 수익은 상당히 다양할 수 있다고 합니다. 어떤 블로거들은 50달러부터 시작하여 만족스러운 수입을 올릴 수도 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 유튜브에서 Kurt of Trades라는 이름으로 활동하는 한 Vlogger를 살펴봐요. 그는 시청수를 늘리는 데 약 네 년이 걸렸다고 말했습니다. 레딧 게시물을 통해 자동차 분야에 집중하고 매달 약 115,000회의 조회수를 기록한다고 공개했습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 유튜브에서 부가 수익을 창출하고 싶은 사람들을 위해서는 사이트를 확인하고 사이트의 인기 있는 채널들을 연구하는 것이 중요합니다. 특정 분야를 선택하는 것도 중요하며, 그것을 매력적으로 만들어 시청자들이 계속해서 끌려들게 하는 것이 중요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 혹시 한 편의 영상이 계속 기억에 남는다면, 매달 수입을 올릴 수도 있답니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 유튜브에서는 이제 무료 영화들로 인해 쉽게 산만해질 수 있어요. 이 사이트는 무료 영화를 제공하며, 이는 넷플릭스와의 경쟁이 된다고 할 수 있을까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 충분한 조회수가 있고 돈을 벌 준비가 되셨나요?
 
@@ -53,13 +82,35 @@ isUpdated: true
 
 - 지난 90일간에 공개된 업로드가 3개인 구독자가 500명이어야 하며, 과거 12개월 동안 3천 시간의 시청 기록이 있거나 지난 90일 동안 3백만 Public Shorts 조회수가 있어야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 영상을 만드는 것에 대해 전혀 모르거나 대본을 작성해 본 적이 없다면 어떻게 해야 할까요?
 
 여기 한 가지 생각해 볼 만한 이야기가 있어요: 몇 달 전, 스웨덴의 한 구매자가 나를 고용해서 그녀의 만화 비디오 채널을 위해 몇 개의 대본을 쓰고 만들도록 고용했어요. 이 구매자는 좋은 기업가이자 특정 시장을 발견했어요. 그녀는 글쓰는 사람도 아니고 영상을 만드는 법도 모르는 사람이었어요. 그녀는 Fiverr을 통해 그들을 고용했어요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러니까, 당신이 유튜브에서 돈을 벌기 위해서 반드시 크리에이터일 필요는 없어요. 비전과 계획이 멀리 가는 데 도움이 돼요.
 
@@ -69,7 +120,18 @@ isUpdated: true
 
 일부는 다음과 같아요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Mr. Beast는 최소 2억 7500만 구독자를 보유하고 있어요.
 
@@ -79,11 +141,33 @@ Mr. Beast는 최소 2억 7500만 구독자를 보유하고 있어요.
 
 20번째로 많은 구독자를 보유한 가수, Justin Bieber 채널은 대단한 7300만 구독자를 보유하고 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 마크다운 형식으로 바꿔보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "Medium Partner Program" 주제를 검색하면 어떤 일이 벌어질까요? 제가 검색했을 때는 Hudson Rennie 같은 몇몇 크리에이터들이 나타나더라구요. 그 중에서 하나의 비디오가 현재 39,000회 조회수를 기록 중이었습니다.
 
@@ -93,7 +177,18 @@ YouTube에서 인기 있는 다른 카테고리 중 하나는 "돈 벌기" 비�
 
 이전에는 최고의 카테고리 비밀을 "밝혀주는" 비디오를 수십 시간을 보았습니다. 그 결과, 앱이나 아이디어를 시도해봤지만 결과가 일치하지 않았어요!"
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 가지는 확실해요: 이들 창작자들은 자신들의 채널을 판매하는 법을 알고 있습니다. 수많은 제목들이 너무 좋아 보이기도 해요 - 마치 매달 10,000달러를 벌어들이는 것처럼 말이죠. 그럼에도 불구하고, 이는 흥미를 끄는 좋은 수단이 되곤 해요. 이 비디오들이 종종 자신들의 약속에 부응하지 못할 때가 있으며, 특히 돈 버는 균에서 그렇게 말이에요. 하지만 여러분들의 견해가 다르다면, 의견을 알고 싶어요.
 
@@ -103,7 +198,18 @@ YouTube에서 인기 있는 다른 카테고리 중 하나는 "돈 벌기" 비�
 
 ## 퀴즈 정보: 저스틴 비버가 어떻게 시작했는지 추측해보세요. 아주 어릴 때 유튜브에서 노래를 부르기 시작했고, 빠르게 팬덤을 모았어요. 엄마가 비디오를 올려준 덕분에, 비버는 어린이들의 맘을 사로잡았고, 얼마 지나지 않아 새로운 스타가 탄생했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오늘은 여기까지 입니다. 제 최신 글을 받으시려면 여기서 이메일로 구독해주세요. 삶의 큰 신비를 곰곰이 생각해보게 하는 이야기를 전해드리기 위해 열심히 일하고 있습니다. 읽어보시고 논의를 일으키는 이야기를 전달하기 위해 구독해주세요.
 

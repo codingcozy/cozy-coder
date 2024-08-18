@@ -3,17 +3,13 @@ title: "AI 개발에서의 데이터 개인 정보 보호 데이터 지역화"
 description: ""
 coverImage: "/assets/img/2024-06-19-DataPrivacyinAIDevelopmentDataLocalization_0.png"
 date: 2024-06-19 16:00
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-DataPrivacyinAIDevelopmentDataLocalization_0.png
 tag: Tech
 originalTitle: "Data Privacy in AI Development: Data Localization"
 link: "https://medium.com/towards-data-science/data-privacy-in-ai-development-data-localization-50df725bfa1c"
 isUpdated: true
 ---
-
-
-
-
 
 ## 왜 데이터가 어디에 있는지 중요한지 알아야 할까요?
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 시작하기 전에, 데이터 개인 정보 보호 및 보안 규정이 무엇을 다루는지 명확히 해야 해요. 간단하게 말해서, 이는 "개인 데이터"에 적용됩니다. 하지만 무엇이 개인 데이터로 간주될까요? 이는 관할권에 따라 다르지만 보통 PII(이름, 전화번호 등)와 결합되어 사람을 식별할 수 있는 데이터(우편번호, 생일, 성별, 인종, 정치 성향, 종교 등)가 포함됩니다. 이에는 사진, 영상이나 음성 녹음, 컴퓨터나 브라우저에 대한 자세한 정보, 검색 기록, 생체 인식 정보 등이 포함됩니다. GDPR에 대한 규정은 여기에서 설명되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다뤄봐야 할 게 다 되었으니, 데이터 로컬라이제이션에 대해 좀 더 알아보고, 기계 학습 개발자로서 우리에게 미치는 영향을 살펴봅시다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 # 데이터센터의 위치를 왜 신경 써야 하나요? 클라우드는 그냥 '어디에나' 있는 거 아닌가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터가 어디에 있는지를 알고 있는 것에는 좋은 이유가 있습니다. 하나는 데이터를 클라우드에 로딩/쓰는 데 실제 물리적인 속도 영향이 있을 수 있습니다. 여러분과 컴퓨터가 데이터 센터가 위치한 지역과 얼마나 떨어져 있는지에 따라 다를 수 있습니다. 하지만 이것은 극도로 빠른 계산을 하지 않는 한 큰 문제가 되지는 않을 것입니다.
 
@@ -48,7 +66,18 @@ isUpdated: true
 - 가끔은 초기에 데이터를 해당 국가에 저장하고 나중에 이동할 수도 있습니다 (러시아 참조)
 - 출신 국가 외부에 저장할 수도 있지만 다른 위치에 대한 제약 조건이 있을 수 있습니다 (EU 참조)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한, 사설 회사들은 때때로 계약에서 데이터 로컬라이제이션 요구사항을 규제하며, 이는 이러한 법률을 준수하거나 데이터 유출 또는 다른 정부에 의한 감시 위험을 줄이기 위한 것일 수 있습니다.
 
@@ -58,7 +87,18 @@ isUpdated: true
 
 구체적인 (간소화된) 예시로 설명하는 것이 더 이해하기 쉬울 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 웹사이트를 운영하고 계신 것 같군요. 사람들이 구매를 할 수 있는 사이트인데요. 신용카드 정보, 주소, 이름, IP 주소, 그리고 기타 몇 가지 정보를 구매 중에 수집하고 계시네요. 동의 배너/소문에는 데이터의 로컬라이제이션에 대한 내용이 포함되어 있지 않다고 하시네요.
 - 러시아, 인도, 그리고 아랍에미리트 연합에서 고객을 받고 계신 것 같군요.
@@ -72,7 +112,18 @@ isUpdated: true
 
 이로 인해 데이터 엔지니어링에는 분리된 파이프라인이 필요하게 되어 분명한 문제가 발생합니다. 또한 모델링과 훈련에도 어려움이 있을 수 있는데요. 실제로 사용할 데이터셋을 어떻게 구성해야 할까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 동의 받기
 
@@ -82,7 +133,18 @@ UAE 고객으로부터 데이터 이전에 동의를 받았다면 괜찮았을�
 
 그것을 할 시간이 없다고 가정했을 때, 다른 해결책은 훈련 시간에 다른 데이터베이스에서 로드하는 컴퓨팅 플랫폼을 갖는 것이에요. 데이터셋을 그 때 그 때 결합하고, 모델을 디스크 어딘가에 데이터를 기록하지 않고 학습시키는 것이에요. 일반적으로 (법률적인 조언은 아니에요) 모델 자체가 개인 데이터가 아니기 때문에 법적 규칙의 적용을 받지 않는다는 것이 일반적인 합의입니다. 하지만 이것에는 작업과 인프라 작업이 필요하기 때문에 자신의 개발-운영 역량을 발휘해 보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 생각지도 못한 큰 데이터 양으로 인하여 계산 비용이 빠르게 증가할 수 있습니다. 이 데이터를 기반으로 피처를 생성하지만 사례에 대한 개인 데이터가 여전히 해석 가능하면, 이를 한 곳에 모두 저장할 수 없게 됩니다. 대신, 비식별화/집계된 피처를 별도로 저장하거나 원래 지역으로 돌려쓰거나, 혹은 필요할 때마다 다시 계산해야 할 수 있습니다. 이 모든 것들은 어려운 도전입니다.
 
@@ -92,7 +154,18 @@ UAE 고객으로부터 데이터 이전에 동의를 받았다면 괜찮았을�
 
 하지만 데이터가 언제 충분히 집계되거나 비식별화되어 지역화 법률이 더 이상 적용되지 않는지 결정하는 것은 때로는 어려운 문제일 수 있습니다. 왜냐하면 앞에서 설명한 것처럼, 많은 종류의 인구통계 데이터는 다른 데이터 포인트와 결합되면 식별성을 만들어낼 수 있기 때문입니다. 우리는 종종 PII(전체 이름, 주민등록번호 등)가 제거되면 데이터를 마음대로 사용해도 된다고 생각하는데, 이는 많은 관할권에서 법률이 이를 허용하지 않는 것입니다! 법률 부서와 상담하고 위험의 의미에 대해 성실하게 고려하십시오. 이상적으로, 데이터가 더 이상 개인 데이터가 아닌 경우에 가장 안전합니다. 즉, 개인 수준의 이름, 인구통계, 주소, 전화번호 등이 포함되지 않거나 해시되지 않고 사람이 읽을 수 있는 일반 텍스트로 표시되지 않습니다. 이 글은 법률적 자문이 아닙니다. 법률 부서와 상담해 주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 데이터를 어디에서든 가져와 조작하고 계산을 실행하고 데이터를 저장하는 데에 익숙합니다 - 노트북, S3 또는 GCS, 또는 원하는 곳 어디에서든요. 그러나 우리가 사람들에 관한 개인 데이터를 더 수집하고 전 세계적으로 더 많은 데이터 개인정보 보호법이 시행되면, 우리는 무엇을 해야 하는지에 대해 더 조심스러워져야 합니다.
 
@@ -102,7 +175,18 @@ UAE 고객으로부터 데이터 이전에 동의를 받았다면 괜찮았을�
 
 이것은 어려운 상황입니다. 사람들에 관한 일부 개인 데이터가 있고 그 데이터의 출처나 그 사람들의 위치를 전혀 모르고 (아마도 그들이 이행한 동의 양식도 모르는 경우), 안전한 해결책은 이 데이터를 민감한 정보로 다루어 그것을 비식별화하고, 사용 사례에 적합하다면 집계하고, 데이터 개인정보 보호법에 따르면 개인 정보나 민감한 데이터로 간주되지 않도록 하는 것입니다. 그러나 이 데이터를 사용해야 하는 방식으로 인해 그것이 선택지가 아니라면, 변명하지 않고 변호사와 상의할 시간입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 회사가 전세계적으로 데이터 센터를 견딜 여유가 없다면 어떻게 할까요?
 
@@ -112,7 +196,18 @@ UAE 고객으로부터 데이터 이전에 동의를 받았다면 괜찮았을�
 
 이에 대한 몇 가지 이유가 있습니다. 일부가 다른 것보다 좋은 이유가 있습니다. 첫째, 데이터가 실제로 국내에 저장된다면 해당 국가에 사실상 비즈니스 존재가 있기 때문입니다(또는 데이터 저장 제공업체가 있음). 따라서 그들은 시민들의 데이터를 남용할 경우 처벌할 권한을 지니게 되어 훨씬 용이해집니다. 둘째, 이는 어떤 국가에서 기술 분야의 경제 발전을 지원하기 위함입니다. 왜냐하면 누군가는 데이터 센터에 전력을 공급, 냉각, 직원 고용, 건축 등을 제공해야 하기 때문입니다. 셋째, 불행하게도 일부 국가는 자국 시민들에 대한 감시 체제를 운영하고 있습니다. 그리고 국내에 데이터 센터가 있으면 전체주의적인 정부가 이 데이터에 접근하기가 더 쉬워집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 데이터 과학자로서 덜 힘들게 하려면 뭘 할 수 있을까요?
 
@@ -122,7 +217,18 @@ UAE 고객으로부터 데이터 이전에 동의를 받았다면 괜찮았을�
 
 다음은 몇 가지 주요 법률 요약입니다. 그러나 많은 법률이 있으며 시간이 지남에 따라 새로운 법률이 계속 등장할 수 있으므로 이것이 모두가 아닙니다. (다시 한 번 강조하건대, 여기에 포함된 내용은 법적인 조언이 아닙니다):
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 인도: DPDP(디지털 개인 데이터 보호)는 국가 데이터 개인정보 보호 규정입니다. 이 법은 어떤 것보다 제한적이지는 않지만, 인도 정부 내의 개별 기관은 특정 종류의 데이터에 대해 보다 제한적인 정책을 수립할 수 있습니다. 인도 연방은 은행의 한 예로, 국가법보다 더 제한적인 데이터 로컬라이제이션 정책을 시행합니다. 아메리칸 익스프레스와 같은 금융 기업들은 인도 외부 서버에 인도 금융 거래 데이터를 저장한 것으로 벌금을 받은 사례도 있습니다.
 - 중국: PIPL은 중국의 국가 데이터 개인정보 보호 규정이며, 데이터 로컬라이제이션 규칙은 다소 복잡합니다. "중국 내 개인들에게 제품이나 서비스를 제공하는 기업" 및/또는 "중국 내 자연인의 행위를 분석하고 평가하는 기업"에 적용되므로 상당히 광범위합니다. 데이터가 법률적으로 "중요하다" 또는 "자연인을 식별하거나 식별할 수 있는 정보"로 간주된다면, 데이터 로컬라이제이션의 대상이 될 가능성이 높습니다. 앞서 말씀 드렸듯이, 이것은 법률 상담이 아니며 귀하의 법률부에 문의해야 합니다.
@@ -138,7 +244,18 @@ UAE 고객으로부터 데이터 이전에 동의를 받았다면 괜찮았을�
 
 여기까지 읽어 주셔서 감사합니다! 지루할 수 있지만, 이야기로 보답하겠습니다. 한 번, 우리가 EU에서 생성된 데이터가 EU에 있어야하는 데이터 로컬라이제이션 조항이 포함된 계약에서 일한 적이 있습니다(법으로 아니라 다른 기업이 이러한 규칙을 설정한 경우), 그래서 미국에 북아메리카 데이터 저장소를 이미 구축한 상황이었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다양한 이유로 새로운 복제 데이터베이스가 만들어졌습니다. 이 데이터베이스는 EU 지역에 위치하고 EU 관련 데이터만 포함하고 있었습니다. 그래서 전체 Snowflake 데이터베이스의 두 버전을 병렬로 유지했습니다. 이는 새로운 테이블을 생성하거나 필드를 변경하거나 데이터베이스에서 무언가를 수행할 때 다른 쪽에서도 작업을 복사해야 했기 때문에 악몽이었습니다. 당연히 대부분의 사람들은 이를 기억하지 못했기 때문에 두 데이터베이스는 크게 다르게 발전했고, 스키마가 크게 다른 수준으로 발전했습니다. 그래서 쿼리 및 작업을 위한 끝없는 조건부 코드가 필요했고, 데이터를 추출하며 올바른 열 이름, 형식, 테이블 이름 등을 갖고 있어야 했기 때문에 데이터를 잘못된 위치에 저장하지 않고도 "즉석에서" 조합할 수 있었습니다. (BI 목적의 중복 대시보드에 대해 언급할 때는 하지 마세요.) 이를 권장하지 않습니다!
 
@@ -148,7 +265,18 @@ UAE 고객으로부터 데이터 이전에 동의를 받았다면 괜찮았을�
 
 https://www.techpolicy.press/the-human-rights-costs-of-data-localization-around-the-world/
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 친숙하게 번역한 내용입니다.
 

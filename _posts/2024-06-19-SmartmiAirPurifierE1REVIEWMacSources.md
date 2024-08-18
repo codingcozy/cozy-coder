@@ -3,17 +3,13 @@ title: "Smartmi Air Purifier E1 레뷰  MacSources"
 description: ""
 coverImage: "/assets/img/2024-06-19-SmartmiAirPurifierE1REVIEWMacSources_0.png"
 date: 2024-06-19 17:03
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-SmartmiAirPurifierE1REVIEWMacSources_0.png
 tag: Tech
 originalTitle: "Smartmi Air Purifier E1 REVIEW — MacSources"
 link: "https://medium.com/@macsources/smartmi-air-purifier-e1-review-macsources-67cf72c3e096"
 isUpdated: true
 ---
-
-
-
-
 
 # E1 에어청정기를 사용하여 작업 공간을 더 생산적으로 만드세요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 그의 습관과 신호를 배우는 데 시간이 걸렸기 때문에 제 사무실에서 일부 사고가 발생했습니다. Fennec과 5살인 형제인 우리의 모크리, 덱스터는 주로 낮에 제 집 사무실에서 시간을 보냅니다. 그래서 이 공간은 '개' 냄새가 납니다. 더러운 담요, 침구, 카펫에 사고 등의 원인 문제를 잘 처리하고 있습니다만, 여전히 공기에서 상쾌하지 못한 냄새가 납니다. 공간이 작고, 우리는 공기청정기를 추가하여 공기를 깨끗하게 만들기로 결정했습니다. Smartmi Air Purifier E1이 완벽한 선택이었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Smartmi Air Purifier E1](/assets/img/2024-06-19-SmartmiAirPurifierE1REVIEWMacSources_1.png)
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 이 청정기는 스마트 연결성을 제공하여 사용자가 스마트미 앱, Apple Home, Google Home 또는 Alexa를 통해 공기 질을 제어하고 모니터링할 수 있습니다. 절전 성능과 직관적인 제어를 통해, 스마트미 공기 청정기 E1은 건강하고 편안한 실내 환경을 유지하기에 이상적인 선택입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 주요 기능
 
@@ -54,7 +72,18 @@ isUpdated: true
 
 # 가격 및 입수량
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 사용자 경험
 
@@ -62,7 +91,18 @@ isUpdated: true
 
 제가 상자를 개봉하고 설정하는 과정이 직관적이고 실제로 매우 쉽다는 것에 기쁨을 느꼈습니다. 공기 청정기는 이미 조립된 상태였고, 단위에서 일부 포장재 및 테이프를 제거하는 것을 제외하고는 상자에서 바로 시작할 수 있었습니다. 공기 청정기는 바닥에 놓여져 있도록 하는 금속 스탠드와 함께 제공되었지만, Smartmi는 사용자가 필요하다면 벽걸이 방식을 사용할 수 있도록 설치 하드웨어와 설명서를 추가로 제공했습니다. 저는 필요에 따라 방에서 방으로 움직일 수 있도록 벽에 부착하지 않고 그대로 두기로 선택했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Smartmi Air Purifier E1의 더 독특한 기능 중 하나는 장식용 필터를 가지고 있다는 것입니다. 공기청정기와 함께 제공되는 필터는 모든 인테리어와 잘 어울리는 중립적인 회색 원단으로 되어 있습니다. 그러나 추가로 세 가지 필터 스타일을 사용하여 원래 필터를 교체할 수 있습니다. 필터를 교체하는 것은 매우 쉬운데, 그냥 유닛의 앞쪽을 당기면 되고 새 필터를 그 자리에 넣으면 됩니다.
 
@@ -72,7 +112,18 @@ Smartmi Air Purifier E1의 더 독특한 기능 중 하나는 장식용 필터�
 
 설명서에는 바닥 스탠드를 사용하는 것을 전제로 공기청정기 주변에 20cm의 반경을 제공하도록 안내하고 있습니다. 이렇게 하면 공기청정기의 공기 흡입구와 다른 물체 사이의 거리가 최적의 성능을 위해 충분한 것입니다. 공간을 선택한 후에는 유닛을 전원에 연결하고 켜면 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-06-19-SmartmiAirPurifierE1REVIEWMacSources_5.png](/assets/img/2024-06-19-SmartmiAirPurifierE1REVIEWMacSources_5.png)
 
@@ -82,7 +133,18 @@ E1의 작동 방식의 간결함을 사랑하지만 좀 더 고급 기능이 있
 
 ![2024-06-19-SmartmiAirPurifierE1REVIEWMacSources_6.png](/assets/img/2024-06-19-SmartmiAirPurifierE1REVIEWMacSources_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 공기 청정기를 더 좋게 만들어 줄 또 다른 기능은 공기 질을 실시간으로 모니터링하는 기능일 것입니다. 현재는 총 공기질 지표가 있지만 E1이 어떤 것을 걸러내는지 알 수 있는 표시가 있다면 좋겠어요. 설명서에는 공기 청정기가 있는 방의 문과 창문을 닫아 두는 것이 가장 좋다고 나와 있습니다. 이렇게 하면 공기를 더 잘하고 효율적으로 청소할 수 있고, 오피스 공간에서 E1을 사용하면 공기의 냄새와 느낌에 엄청난 차이를 느낄 수 있었어요. 하지만 오피스의 공기에 공기 청정기가 미치는 영향을 정확히 보고 싶어요.
 
@@ -90,7 +152,18 @@ E1의 작동 방식의 간결함을 사랑하지만 좀 더 고급 기능이 있
 
 E1 공기청정기는 매우 조용합니다. 일반적으로 낮에는 레벨 2로 운전하는데 소리는 들리지만 그냥 선풍기 소리 같아요. 주변의 주변 소음과 어우러져 소음이 뭉개져 들리는 정도죠. 배경에서 부르르 소리를 내며 대부분의 시간에는 전혀 몰랐어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

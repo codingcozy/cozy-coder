@@ -3,16 +3,13 @@ title: "세계에서 가장 강력한 SQL LLM을 구축하는 Snowflake의 방�
 description: ""
 coverImage: "/assets/img/2024-05-27-HowSnowflakebuildingthemostpowerfulSQLLLMintheworld_0.png"
 date: 2024-05-27 13:03
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-HowSnowflakebuildingthemostpowerfulSQLLLMintheworld_0.png
 tag: Tech
 originalTitle: "How Snowflake building the most powerful SQL LLM in the world"
 link: "https://medium.com/wrenai/what-we-learned-from-snowflake-copilot-building-the-most-powerful-sql-llm-in-the-world-52f82d661bc1"
 isUpdated: true
 ---
-
-
-
 
 AI가 데이터 민주화를 위한 새로운 기회를 만들어냈습니다. SQL을 필요로 하지 않고 언어 모델 이해력의 힘을 이용하여 통찰력을 얻는 것으로 많은 사용자가 현재 대량의 데이터에 감춰진 가치 있는 통찰을 발견할 수 있게 되었습니다.
 
@@ -22,7 +19,18 @@ AI가 데이터 민주화를 위한 새로운 기회를 만들어냈습니다. S
 
 자, 시작해봅시다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 데이터 분석에서 인공지능의 현재와 미래
 
@@ -34,7 +42,18 @@ Vivek은 데이터 분석에서 인공지능의 현재와 미래에 대해 이�
 - 자연어를 SQL로 전환: 분석가가 SQL을 실행
 - 인터페이스를 통해 반복적인 데이터 및 스키마 발견
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 미래에는 비즈니스 사용자들을 위한 완전한 대화형 기사로 발전할 것입니다. SQL을 모르는 사람들도 자연어로 질문하고 답변을 받을 수 있어서 더 많은 개인들이 능력을 얻을 것입니다.
 
@@ -46,7 +65,18 @@ Vivek은 데이터 분석에서 인공지능의 현재와 미래에 대해 이�
 
 ## 우리의 생각:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 WrenAI를 개발하면서도 이를 경험했습니다. 현재 기술 혁신의 한계로 모든 비즈니스 사용자를 대상으로 한 완전한 AI 팔로우업 서비스를 제공하는 것은 여전히 제한적인 면이 있습니다. 이는 자율 주행 자동차에서 경험하는 것과 비슷합니다. 수년 동안 자동차 제조사들은 운전자와 동행하는 자율 주행 시스템을 출시해왔습니다. 자율 주행 기능을 통해 고객과 운전자 경험이 전환되는 것을 확인할 때까지는 여전히 데이터 분석가들의 도움이 필요할 것입니다.
 
@@ -56,7 +86,18 @@ Vivek는 Text-to-SQL이 마치 빙산 문제와 같다고 언급했습니다. �
 
 대화 중 인용문:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그의 강연에서 언급된 몇 가지 분명한 도전 과제들은 빠르게 직면하게 될 것입니다:
 
@@ -68,7 +109,18 @@ Vivek는 Text-to-SQL이 마치 빙산 문제와 같다고 언급했습니다. �
 
 정말 간단한 문제가 아니네요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 WrenAI는 데이터와 의미 사이의 도전을 해결하는 데 주안점을 둡니다; 텍스트에서 SQL로 신뢰할 수 있는 변환을 만들기 위한 핵심은 기존 데이터 구조의 위에 의미 아키텍처에 대응하는 신뢰할 수 있는 의미 엔진을 구축하는 방법입니다. 실제로, 의미 관계, 계산, 집계를 정의하는 것과 같이, LLMs는 서로 다른 시나리오에서 서로 다른 문맥을 다루는 방법을 배워야 합니다. 이는 견고한 의미적 계층에 많이 의존합니다.
 
@@ -78,7 +130,18 @@ Snowflake는 v0부터 v4까지 여러 번의 실험을 거쳤습니다. 다행�
 
 자세히 알아봅시다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # V0: Optimized for Spider
 
@@ -88,7 +151,18 @@ Snowflake는 v0부터 v4까지 여러 번의 실험을 거쳤습니다. 다행�
 
 V0 버전에서는, 최상의 모델을 사용하여 스파이더 데이터셋을 사용하여 82%의 결과를 달성하였지만, 최적화되지 않은 Zero-shot GPT-4는 74%의 결과를 가져왔습니다. 그러나 실제 세계 데이터에서는, 최상의 모델을 사용하여 정확도가 9%로 떨어지고, prompt-optimized된 GPT-4를 사용하면 14%의 결과를 얻었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그들이 중요성을 깨닫기 시작한 때입니다. "의미론적 카탈로그"는 의미론이 데이터 검색에 엄청 중요하다는 것을, 사전 훈련된 LLMs가 귀하의 비즈니스 콘텍스트에 대해 아무것도 모르기 때문에 유일한 방법은 RAG를 통해 의미론을 제공하는 것입니다.
 
@@ -98,7 +172,18 @@ V0 버전에서는, 최상의 모델을 사용하여 스파이더 데이터셋�
 
 # V1: 실세계에서 검색이 중요합니다
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 V1 버전에서는 Snowflake 팀이 고민하며 시작했습니다. 웹 품질의 검색을 기업 메타데이터 검색에 적용하고 그 결과를 LLM(언어 모델)에 공급한다면 성능이 혁신적으로 향상될 수 있다는 아이디어가 나왔죠.
 
@@ -108,7 +193,18 @@ V1 버전에서는 Snowflake 팀이 고민하며 시작했습니다. 웹 품질�
 
 ![Snowflake](/assets/img/2024-05-27-HowSnowflakebuildingthemostpowerfulSQLLLMintheworld_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Vivek 씨가 말했던 것처럼, Snowflake에서 대화 카탈로그 검색 결과를 어떻게 검색하는지 설명했어요.
 
@@ -118,7 +214,18 @@ Snowflake 팀이 직면한 다른 어려움은 레이터입니다. 모든 것을
 
 아래에는 Vivek가 그의 발표에서 공유한 내용이 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 우리의 생각:
 
@@ -128,7 +235,18 @@ Snowflake 팀이 직면한 다른 어려움은 레이터입니다. 모든 것을
 
 이 주제에 대한 토론을 위한 새로운 이슈를 오픈해 주시면 환영입니다! 우리 팀은 더 많은 개선사항을 살펴보기를 원합니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # V2: Text2SQL 모델링 통찰
 
@@ -140,7 +258,18 @@ Snowflake 팀이 직면한 다른 어려움은 레이터입니다. 모든 것을
 - 더 나은 신호: 몇 가지는 LLM 생성에서 나오며, 예를 들어 주석 등이 있습니다. 일부는 스노우플레이크 문서 등의 고전적인 기술에서 얻어집니다. 그 중 하나는 쿼리 이력인데, 실제 사람들이 실제로 하는 작업에 관한 보물창고입니다.
 - 사고의 연결: 처음에는 테이블을 선택하고, 그 다음에 조인하고, 그 다음에 열을 선택하고, 그리고 마지막으로 디코드 시에 정확성을 확인합니다. LLM이 JSON을 생성할 때는 출력이 스키마와 일치하는지 확인하는 의존성 파서가 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 새로운 깔끔한 평가를 통해 상당한 개선을 확인했습니다. 기본 모델 27%가 39%가 되었고, GPT-4를 사용한 경우 40%가 46%로 상승했습니다.
 
@@ -150,7 +279,18 @@ Snowflake 팀이 직면한 다른 어려움은 레이터입니다. 모든 것을
 
 시스템의 한 부분을 최적화하면 전체 시스템이 의도치 않게 최적화되지 않을 수 있습니다. 두 가지 큰 문제가 발생했습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 모델은 지시에 따라 더 이상 우수하지 않았습니다. 왜냐하면 텍스트-SQL 작업만을 보았기 때문입니다.
 - 이는 대화에서 메모리가 떨어졌습니다. 여러 턴의 경우가 아닌, 제로샷 사례만을 경험했기 때문입니다.
@@ -161,8 +301,18 @@ Snowflake 팀이 직면한 다른 어려움은 레이터입니다. 모든 것을
 
 우리의 구현을 통해 "증강 및 생성" RAG 파이프라인에서 검증, 수정 및 명확화 다이얼로그와 같은 정교한 프로세스를 구현했습니다. 이를 통해 LLMs가 사용자의 의도를 완전히 이해할 수 있도록 지원하고 있습니다. 물론, 계속해서 개선할 부분이 많이 남아 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Snowflake](/assets/img/2024-05-27-HowSnowflakebuildingthemostpowerfulSQLLLMintheworld_1.png)
 
@@ -172,8 +322,18 @@ Vivek은 텍스트를 SQL로 바꾸는 작업과 더 일반적인 지시 따르�
 
 오케스트레이터 모델의 책임은 고객과 대화하는 것입니다. 이는 주체적인 방식과 유사합니다. SQL을 작성해야 할 때마다 다른 크기의 텍스트를 SQL 모델을 사용하도록 허용했습니다. 지능적으로 작업을 위임하는 이 방법은 많은 문제를 해결해 주었습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 숫자들은 더욱 향상되었어요. 최고 모델은 이제 추가된 지시 따르기 능력으로 38%에서 41%로 상승했고, GPT-4 플러스 최적화를 통해 46%의 평가도달을 이루었어요.
 
@@ -183,7 +343,18 @@ Vivek은 텍스트를 SQL로 바꾸는 작업과 더 일반적인 지시 따르�
 
 ### 우리의 생각
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 WrenAI에서는 텍스트-SQL의 미래에 대해 낙관적입니다. 우리는 LLM 혁신이 숨막히게 빠르게 진행되고 있어 곧 LLM이 의미적 맥락을 통해 인간 수준의 이해력에 가깝게 발전하여 이상적인 데이터 민주화 세계를 이룰 것이라 믿습니다.
 
@@ -193,7 +364,18 @@ WrenAI에서는 텍스트-SQL의 미래에 대해 낙관적입니다. 우리는 
 
 ## 우리의 생각
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 눈송이에서 더 많은 정보 공유를 기대하고 있어요! 정말 흥미로워요!
 
@@ -207,7 +389,18 @@ WrenAI에서는 텍스트-SQL의 미래에 대해 낙관적입니다. 우리는 
 - 👏 대화형 SQL은 LLM의 불사조 문제입니다: 복잡한 명령어 튜닝, 사고 과정 연결, 도구 사용
 - 👏 99%까지 가려면 돌파구가 필요합니다
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그게 다에요! Vivek 씨와 Snowflake 팀이 이번 토롤에서 많은 귀중한 교훈을 나눠 주셨어요. 당신으로부터 많은 것을 배웠습니다!
 
@@ -217,7 +410,18 @@ WrenAI를 확인해보지 않았다면, 방문해보세요!
 
 👉 GitHub: https://github.com/Canner/WrenAI
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 👉 X: [https://twitter.com/getwrenai](https://twitter.com/getwrenai)
 

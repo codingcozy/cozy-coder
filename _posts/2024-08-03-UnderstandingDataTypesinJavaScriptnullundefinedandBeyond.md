@@ -3,17 +3,13 @@ title: "JavaScript 데이터 타입 완전 정복 null, undefined 및 그 이상
 description: ""
 coverImage: "/assets/img/2024-08-03-UnderstandingDataTypesinJavaScriptnullundefinedandBeyond_0.png"
 date: 2024-08-03 18:30
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-03-UnderstandingDataTypesinJavaScriptnullundefinedandBeyond_0.png
 tag: Tech
 originalTitle: "Understanding Data Types in JavaScript null, undefined, and Beyond"
 link: "https://medium.com/@maciejpoppek/understanding-data-types-in-javascript-null-undefined-and-beyond-f3674995c9f8"
 isUpdated: true
 ---
-
-
-
-
 
 ![image](/assets/img/2024-08-03-UnderstandingDataTypesinJavaScriptnullundefinedandBeyond_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 자바스크립트에는 두 개의 범주로 분류할 수 있는 일곱 가지 주요 데이터 유형이 있습니다: 원시 타입(primitive types)과 객체(objects).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1. 기본 유형
 
@@ -36,7 +43,18 @@ let age: number = 25;
 let temperature: number = 36.6;
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1.2 문자열: 문자의 일련의 시퀀스를 나타냅니다.
 
@@ -50,7 +68,18 @@ let name: string = "John Doe";
 let isStudent: boolean = true;
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1.4 Null: 어떤 객체 값도 없음을 나타냅니다.
 
@@ -66,12 +95,23 @@ console.log(score);
 // 출력: undefined
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1.6 심볼: 고유 식별자를 나타냅니다.
 
 ```js
-let symbol: symbol = Symbol('symbol');
+let symbol: symbol = Symbol("symbol");
 ```
 
 1.7 BigInt: 임의 정밀도를 가진 정수를 나타냅니다.
@@ -80,7 +120,18 @@ let symbol: symbol = Symbol('symbol');
 let bigIntNumber: bigint = 1234567890123456789012345678901234567890n;
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2. 객체
 
@@ -96,11 +147,22 @@ interface Person {
 
 let person: Person = {
   name: "Alice",
-  age: 30
+  age: 30,
 };
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2.2 배열(Array): 값들의 순서가 정해진 모음입니다.
 
@@ -114,9 +176,20 @@ let numbers: number[] = [1, 2, 3, 4, 5];
 function helloWorld(): void {
   console.log("Hello, world!");
 }
-```  
+```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # null 및 undefined 이해하기
 
@@ -132,7 +205,18 @@ console.log(typeof emptyValue);
 // 출력: "object"
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 null에 관한 주요 사항:
 
@@ -143,7 +227,18 @@ null에 관한 주요 사항:
 
 은 변수가 방금 선언되었거나 인수가 제공되지 않은 함수 매개변수에 자동으로 할당되는 원시 값입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 let unassignedVariable;
@@ -163,7 +258,18 @@ undefined에 관한 중요한 점:
 
 null과 undefined의 차이점
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Type: null은 객체이지만 undefined는 고유한 타입이다.
 - 사용법: null은 값이 없음을 의도적으로 나타낼 때 사용된다. undefined는 변수가 선언되었지만 아직 값을 할당받지 않았음을 나타낸다.

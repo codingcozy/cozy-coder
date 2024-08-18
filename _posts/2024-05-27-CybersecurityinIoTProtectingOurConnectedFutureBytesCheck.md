@@ -3,7 +3,7 @@ title: "사이버보안 IoT 저희의 연결된 미래를 지키는 방법  Byte
 description: ""
 coverImage: "/assets/img/2024-05-27-CybersecurityinIoTProtectingOurConnectedFutureBytesCheck_0.png"
 date: 2024-05-27 13:16
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-CybersecurityinIoTProtectingOurConnectedFutureBytesCheck_0.png
 tag: Tech
 originalTitle: "Cybersecurity in IoT: Protecting Our Connected Future — BytesCheck"
@@ -11,14 +11,9 @@ link: "https://medium.com/@bytescheck0/cybersecurity-in-iot-protecting-our-conne
 isUpdated: true
 ---
 
-
-
-
 이미지
 
-
 ![이미지](/assets/img/2024-05-27-CybersecurityinIoTProtectingOurConnectedFutureBytesCheck_0.png)
-
 
 IoT 기기는 우리가 세상과 상호 작용하는 방식을 변화시키고 있습니다. 이는 우리의 개인적인 삶부터 산업까지 모든 측면을 변화시켰습니다. 이제 기기들은 서로 및 외부 세계와 상호 작용할 수 있습니다. 점점 더 많은 기기들이 연결됨에 따라, 그러한 기기들과 네트워크를 안전하게 유지하는 것에 실제적인 우려가 있습니다. 이 블로그 글에서는 IoT에서 사이버 보안의 중요성을 탐구하고, 관련 위협들을 파헤치며, 그에 대항하는 효과적인 해결책을 제시할 것입니다.
 
@@ -26,7 +21,18 @@ IoT 기기는 우리가 세상과 상호 작용하는 방식을 변화시키고 
 
 우리는 IoT 기기가 우리로부터 데이터를 수집한다는 것을 알고 있습니다. 이 데이터에는 건강 기록과 같은 민감한 정보들이 포함됩니다. 따라서 해커들이 이를 악용하기에 유혹받게 됩니다. 또한, IoT에서 사이버 보안이 필요한 다른 이유들이 여러 가지 있습니다 :
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 데이터 개인 정보 보호: 앞서 말했듯이 IoT 장치는 우리로부터 민감한 정보를 수집하며 해커들에게 유혹적인 핫스팟이 됩니다. 데이터에 무단 액세스는 데이터 개인 정보 보호에 위험을 초래할 수 있습니다.
 - 시스템 무결성: 많은 IoT 장치가 특히 의료 및 제조업과 같은 산업에서 중요한 책임을 갖고 있음을 인식하는 것이 중요합니다. 보안 침해는 그들의 제대로 기능하는 능력에 중대한 영향을 미칠 수 있고 심각한 결과를 초래할 수 있습니다.
@@ -39,7 +45,18 @@ IoT 장치의 증가는 기업에 상당한 혜택을 제공합니다. 그러나
 
 이제 과거에 많은 IoT 장치를 침해한 다양한 사이버 보안 공격들을 살펴보겠습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Mirai Botnet (2016): Mirai 봇넷은 카메라 및 라우터와 같은 IoT 장치를 대상으로 하여 기본 암호를 악용했습니다. 라지 DDoS (분산 거부 공격) 공격 중 하나를 담당하여 트위터, 넷플릭스 및 레딧과 같은 주요 웹사이트를 다운시키는 일이 있었습니다.
 
@@ -49,7 +66,18 @@ BrickerBot (2017): 이 악성 코드는 저장 장치를 손상시킴으로써 I
 
 Jeep Cherokee Hack (2015): 보안 연구원들이 Jeep Cherokee에서 원격 공격을 시연하여 차량의 제동과 엔진을 포함한 시스템을 제어했습니다. 이 공격은 연결된 자동차의 취약성이 빛낼 수 있는 잠재적인 위험을 보여 주었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 TRITON 악성 코드 (2017): Trisis로도 알려진 이 악성 코드는 산업 안전 시스템을 대상으로 하였으며, 특히 Schneider Electric의 Triconex 안전 컨트롤러를 겨냥했습니다. 이는 안전 시스템을 무력화시키려는 목적으로 산업 운영에 심각한 위험을 제공했습니다.
 
@@ -64,7 +92,18 @@ TRITON 악성 코드 (2017): Trisis로도 알려진 이 악성 코드는 산업 
 - 네트워크 분할: IoT 장치를 중요한 네트워크 세그먼트로부터 격리하여 침입 시 잠재적인 피해를 제한합니다. 방화벽 및 침입 탐지 시스템과 같은 네트워크 보안 조치를 시행하여 보호를 추가로 강화합니다.
 - 사용자 교육: 사용자에게 기본 자격 증명 변경, 소프트웨어 정기 업데이트 및 피싱 시도 인식의 중요성에 대해 교육하여 보안 사고의 위험을 크게 줄일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

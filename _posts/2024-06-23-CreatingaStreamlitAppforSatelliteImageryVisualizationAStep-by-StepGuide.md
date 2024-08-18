@@ -3,18 +3,13 @@ title: "위성 이미지 시각화를 위한 Streamlit 앱 만들기 단계별 �
 description: ""
 coverImage: "/assets/img/2024-06-23-CreatingaStreamlitAppforSatelliteImageryVisualizationAStep-by-StepGuide_0.png"
 date: 2024-06-23 15:59
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-CreatingaStreamlitAppforSatelliteImageryVisualizationAStep-by-StepGuide_0.png
 tag: Tech
 originalTitle: "Creating a Streamlit App for Satellite Imagery Visualization: A Step-by-Step Guide"
 link: "https://medium.com/towards-data-science/creating-a-streamlit-app-for-satellite-imagery-visualization-a-step-by-step-guide-8209593be994"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*DZ2rEeyOTUZ2bWq8FnvJ2w.gif)
 
@@ -29,8 +24,18 @@ isUpdated: true
 
 ## 🌟 Introduction
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 공유는 우리 삶의 필수적인 부분이 되었습니다. 매 순간 X, Instagram, TikTok 등 다양한 플랫폼에 수많은 사진과 비디오가 업로드되며, 이는 다른 사람들과 순간을 공유하기 위한 것입니다. 코딩도 예외가 아니며, 우리가 코드를 다른 사람들과 공유할 수 있는 플랫폼 중 하나가 Streamlit입니다. 저는 이전에 다양한 방법을 사용하여 위성 이미지를 다운로드하고 시각화하는 것에 관한 여러 포스트를 게시해 왔습니다. 이번 포스트에서는 인증 설정이 필요 없는 Streamlit 앱을 개발하는 방법을 보여 드리겠습니다. 이 앱은 지구상의 어떤 지점과 기간에 캡처된 Sentinel-2의 사용 가능한 이미지를 나열하고, 사용자들이 해당 목록에서 이미지를 선택하고 해당 위치의 RGB 이미지와 씬 분류를 시각화할 수 있게 합니다. 이 포스트는 다른 사람들과 공유하기 위해 이 앱을 개발하는 단계별 가이드입니다. 더 알고 싶다면 계속 읽어보세요!
 
@@ -42,9 +47,20 @@ Streamlit을 사용하여 어떤 앱을 만들든, 첫 번째 단계는 임의�
 [passwords]
 # 규칙을 따라 입력하세요: username = "password"
 Mahyar = "abc123"
-```  
+```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 설정 단계를 따르면 폴더에 이러한 파일이 있어야 합니다:
 
@@ -54,7 +70,18 @@ Mahyar = "abc123"
 
 💾 페이지 디자인하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 단계는 사용자 경험을 향상시키기 위해 앱에 추가할 요소를 고려하는 것입니다. 사용자를 안내하는 텍스트 정보, 앱 실행에 필요한 사용자로부터 필요한 정보, 그리고 단계별로 앱을 실행하는 버튼을 포함합니다. 사용자가 어떤 위치와 기간의 위성 이미지를 볼 수 있도록 하는 것이 목표이므로, 다음 요소들을 페이지에 포함해야 합니다:
 
@@ -71,7 +98,18 @@ Mahyar = "abc123"
 
 Part 1: 필수 라이브러리 및 사용자 인증
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import streamlit as st
@@ -121,13 +159,24 @@ def check_password():
 
 if not check_password():
     st.stop()
-``` 
+```
 
 이 코드는 위성 이미지를 시각화하는 Streamlit 앱을 설정합니다. 웹 앱을 구축하는 데 필요한 필수 라이브러리를 가져옵니다. 데이터 조작 및 숫자 연산을 위해 pandas 및 numpy, 파일 연결을 위한 st_files_connection, 보안 비밀번호 비교를 위해 HMAC를 포함하여 필요한 라이브러리를 가져옵니다.
 
 check_password() 함수는 사용자 인증을 처리합니다. 입력된 자격 증명을 HMAC를 사용하여 저장된 자격 증명과 비교하여 확인하는 login_form()을 생성합니다. 주요 check_password() 함수는 로그인 프로세스의 상태를 관리하고 로그인이 실패하는 경우 오류 메시지를 표시합니다. 사용자가 인증되지 않은 경우 앱을 중지합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 # Main Streamlit app starts here
@@ -154,7 +203,7 @@ collections=["sentinel-2-l2a"]
 columns = ['collection', 'start_date', 'end_date', 'min_cloud_cover', 'max_cloud_cover', 'longitude', 'latitude','buffer']
 
 with st.form(key="test"):
-    
+
     collection=st.selectbox("컬렉션*",options=collections,index=None)
     start_date = st.date_input(label="시작 날짜*")
     end_date = st.date_input(label="끝 날짜*")
@@ -171,7 +220,18 @@ with st.form(key="test"):
     submit_button_viz = st.form_submit_button(label="시각화")
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `C:\Users\Streamlit` streamlit run streamlit_app_authen_sentinel_2.py 실행하면 브라우저에서 로그인 및 주요 페이지를 볼 수 있습니다:
 
@@ -179,7 +239,18 @@ with st.form(key="test"):
 
 ![이미지](/assets/img/2024-06-23-CreatingaStreamlitAppforSatelliteImageryVisualizationAStep-by-StepGuide_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 제2부: 메인 페이지
 
@@ -189,7 +260,18 @@ with st.form(key="test"):
 
 지금까지 로그인 페이지를 만들고 메인 페이지를 디자인했습니다. 현재 메인 페이지에서는 사용자 입력을 수집하고 아직 기능이 구현되지 않은 세 개의 버튼이 있습니다. 이 섹션에서는 이 버튼을 작동하도록 코드를 완성할 것입니다. 첫 번째 버튼은 "실행"이며, 이 버튼은 사용자 입력 매개변수를 사용하여 클라우드 데이터베이스를 검색하고 DataFrame에 있는 사용 가능한 이미지를 표시하는 기능을 합니다. 이 버튼에 기능을 추가하기 위해 두 가지 추가 부분(Part 3 및 Part 4)을 포함했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Part 3: 검색 기능 정의
 
@@ -198,7 +280,7 @@ def search_satellite_images(collection="sentinel-2-l2a",
                             bbox=[-120.15,38.93,-119.88,39.25],
                             date="2023-06-01/2023-06-30",
                             cloud_cover=(0, 10)):
-    
+
     # 검색 클라이언트 정의
     client=Client.open("https://earth-search.aws.element84.com/v1")
     search = client.search(collections=[collection],
@@ -216,12 +298,12 @@ def search_satellite_images(collection="sentinel-2-l2a",
     return data
 
 def get_bbox_with_buffer(latitude=37.2502, longitude=-119.7513, buffer=0.01):
-    
+
     min_lat = latitude - buffer
     max_lat = latitude + buffer
     min_lon = longitude - buffer
     max_lon = longitude + buffer
-    
+
     bbox = [min_lon, min_lat, max_lon, max_lat]
     return bbox
 ```
@@ -230,19 +312,30 @@ Part 3은 사용자가 지정한 매개변수에 따라 STAC API에 연결하여
 
 Part 4: 실행 버튼
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 이러한 열이 있는 빈 DataFrame을 만듭니다
+
 df = pd.DataFrame(columns=columns)
 
 if "mdf" not in st.session_state:
-    st.session_state.mdf = pd.DataFrame(columns=df.columns)
-
+st.session_state.mdf = pd.DataFrame(columns=df.columns)
 
 # 새 데이터
+
 with st.form(key="test"):
-    
+
     collection=st.selectbox("collection*",options=collections,index=None)
     start_date = st.date_input(label="start_date*")
     end_date = st.date_input(label="end_date*")
@@ -261,7 +354,7 @@ with st.form(key="test"):
     if submit_button_run:
         new_df=pd.DataFrame(
             [
-                {   
+                {
                     "collection": collection,
                     "start_date":start_date.strftime("%Y-%m-%d"),
                     "end_date": end_date.strftime("%Y-%m-%d"),
@@ -274,7 +367,7 @@ with st.form(key="test"):
 
             ]
         )
-        
+
         st.session_state.mdf = pd.concat([st.session_state.mdf, new_df], axis=0)
         st.dataframe(st.session_state.mdf)
         st.success("Your request successfully submitted!")
@@ -297,9 +390,8 @@ with st.form(key="test"):
             day = dt.day
             date_string = f"{year}-{month:02d}-{day:02d}"
             date_labels.append(date_string)
-        
-        st.session_state.date_labels= date_labels
 
+        st.session_state.date_labels= date_labels
 
 두 번째 부분에서 주 어플리케이션 로직은 빈 DataFrame을 초기화하고 세션 상태에 DataFrame이 있는지 확인합니다.
 
@@ -307,8 +399,18 @@ with st.form(key="test"):
 
 이 시점에서 Streamlit 앱을 실행하면 지정된 위치 및 날짜에 대해 다음과 같은 테이블이 표시됩니다:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 "Run" 버튼을 활성화한 후 "List Available Images" 버튼을 활성화하는 단계입니다. 이 버튼을 클릭하면 사용자가 지정한 위치, 날짜 및 구름 양에 따라 Sentinel-2에 의해 촬영된 사용 가능한 이미지가 표시됩니다.
 
@@ -322,7 +424,18 @@ with st.form(key="test"):
             st.session_state.user_date_index = user_date.index()
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "List Available Images" 버튼을 클릭하면 이 코드가 위성 이미지의 사용 가능한 날짜를 나열하는 드롭다운 메뉴를 생성합니다. 사용자가 날짜를 선택하면 해당 날짜와 인덱스를 저장하는 세션 상태를 업데이트하여 사용자의 선택에 기반한 추가 작업을 가능하게 합니다.
 
@@ -332,16 +445,27 @@ with st.form(key="test"):
 
 사용 가능한 이미지 중 하나를 선택한 후 마지막 단계는 "Visualize" 버튼을 완료하고 활성화하는 것입니다. "Visualize" 버튼의 목표는 사용자가 지정한 위치와 버퍼에 대해 선택한 위성 이미지를 표시하는 것입니다. 시각화에 관한 이 메시지에서 설명된 코드를 사용했지만 오른쪽에 장면 분류의 파이 차트를 표시하는 추가 기능을 추가했습니다. 이를 위해 각 장면 클래스의 개수를 반환하는 함수를 정의하고 시각화 버튼에서 사용해야 합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파트 6: Count 함수
 
 ```js
 def count_classified_pixels(data,num):
-    
+
     scl_image = data[["scl"]].isel(time=num).to_array()
- 
-    # 분류된 픽셀 수 세기 
+
+    # 분류된 픽셀 수 세기
     count_saturated = np.count_nonzero(scl_image == 1)        # 포화 또는 결함
     count_dark = np.count_nonzero(scl_image == 2)             # 어두운 지역 픽셀
     count_cloud_shadow = np.count_nonzero(scl_image == 3)     # 구름 그림자
@@ -368,23 +492,23 @@ def count_classified_pixels(data,num):
 
 ```js
 if submit_button_viz:
-        
+
         date_string_title= f"타겟 지역의 Sentinel-2 이미지"
-        fig, axs = plt.subplots(nrows=1, ncols=2, figsize=(16, 8))  
+        fig, axs = plt.subplots(nrows=1, ncols=2, figsize=(16, 8))
 
         rgb = st.session_state.data[["red", "green", "blue"]].isel(time=st.session_state.user_date_index).to_array()
         rgb.plot.imshow(robust=True, ax=axs[0])
         axs[0].axis('off')  # 축 눈금과 레이블 숨기기
         axs[0].set_title(date_string_title)
 
-        # 데이터 준비 
+        # 데이터 준비
         counts = count_classified_pixels(st.session_state.data, st.session_state.user_date_index )
         labels = list(counts.keys())
         values = list(counts.values())
         colors = ['DarkGrey', 'chartreuse', 'DarkOrange', 'cyan']
         explode = (0.3, 0.1, 0.1, 0.1)  # 첫 번째 조각 튀어나오기
 
-        # 파이 차트 그리기 
+        # 파이 차트 그리기
         axs[1].pie(values, labels=labels, colors=colors, autopct='%1.0f%%', startangle=140, explode=explode)
         axs[1].legend(labels, loc='best', bbox_to_anchor=(1, 0.5))
         axs[1].axis('equal')  # 파이 차트를 원으로 만들기
@@ -394,7 +518,18 @@ if submit_button_viz:
         st.pyplot(fig)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "Visualize" 버튼을 클릭하면 코드가 관심 영역(AOI) 위의 Sentinel-2 이미지를 나타내는 제목이 있는 플롯을 설정합니다. 두 개의 서브플롯이 나란히 만들어집니다. RGB 이미지가 선택된 날짜의 세션 상태 데이터에서 추출되어 시각적 명확성을 높이기 위해 첫 번째 서브플롯에 축 레이블 없이 표시됩니다. 모든 버튼이 활성화된 상태에서 앱을 한 번 더 실행해 봅시다:
 
@@ -404,7 +539,18 @@ if submit_button_viz:
 
 구름 양, 날짜 및 좌표의 기본값을 변경하여 시각화에 어떻게 영향을 주는지 확인해 보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 📄 결론
 
@@ -414,7 +560,18 @@ if submit_button_viz:
 
 https://github.com/stac-utils/pystac-client/blob/main/docs/quickstart.rst
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 https://www.element84.com/earth-search/examples/
 
@@ -424,6 +581,17 @@ Copernicus 서비스 정보 [2024]에 대한 코퍼니커스 서비스 정보.
 
 📱더 많은 흥미로운 콘텐츠를 보기 위해 다른 플랫폼에서 저와 연결하세요! LinkedIn, ResearchGate, Github 및 Twitter.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 링크를 통해 확인할 수 있는 관련 게시물이 있습니다:

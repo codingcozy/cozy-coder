@@ -3,17 +3,13 @@ title: "Z-검사 AI 신뢰성 평가 방법"
 description: ""
 coverImage: "/assets/img/2024-05-27-TheZ-InspectionamethodtoevaluateanAIstrustworthiness_0.png"
 date: 2024-05-27 15:39
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-TheZ-InspectionamethodtoevaluateanAIstrustworthiness_0.png
 tag: Tech
 originalTitle: "The Z-Inspection: a method to evaluate an AI’s trustworthiness"
 link: "https://medium.com/user-experience-design-1/the-z-inspection-a-method-to-evaluate-an-ais-trustworthiness-f6e638f4ddd7"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-05-27-TheZ-InspectionamethodtoevaluateanAIstrustworthiness_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 그러나 현재 많은 AI 시스템은 인지할 수 없는 공격에 취약하며, 소수 그룹에 편향이 있고, 사용자 프라이버시 보호가 부족합니다. 이러한 위반 사항은 채용 및 대출 결정에서 자동 시스템의 편향적 대우부터 인간 목숨의 손실에 이르기까지 다양합니다. 이러한 문제는 모든 AI 시스템에 대한 사용자 경험을 감소시키고 신뢰를 손상시킵니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전통적으로 인공지능 실무자들인 연구자, 개발자, 의사결정자들은 시스템 성능(즉, 정확도)을 주요 지표로 삼아왔습니다. 그러나 이 지표만으로는 인공지능 시스템의 신뢰성을 반영하는 데 충분하지 않습니다. 신뢰성을 향상시키려면 로버스트성, 알고리즘 공정성, 설명 가능성, 투명성 등 성능 이외의 여러 요인을 고려해야 합니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 # 신뢰성 있는 컴퓨팅의 여정
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컴퓨팅에서 신뢰성 개념은 중요한 사건에서 비롯되었습니다. 마이크로소프트의 공동 창업자인 빌 게이츠가 2002년 회사의 모든 직원에게 보낸 이메일에서 시작되었습니다. 이 이메일은 컴퓨팅 역사상 중요한 순간으로, 디지털 시스템에서의 신뢰성 개념을 위한 기초를 마련했습니다.
 
@@ -44,7 +62,18 @@ isUpdated: true
 - 컴퓨터 시스템의 신뢰성은 제공하는 서비스에 정당한 신뢰를 둘 수 있는 정도의 신뢰성
 - 특정 항목의 성능에 대한 믿음성 및 요구 시 수행할 수 있는 능력.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2024년 3월 13일, 유럽 의회가 인공지능 법안 (AI Act)을 채택했습니다. 이 법안은 세계 최초의 포괄적 수평적 인공지능 법적 프레임워크로 간주되며, 데이터 품질, 투명성, 인간 감시 및 책임성에 대한 EU 전체적인 규칙을 제정합니다. 이는 AI 시스템의 신뢰성 원칙을 더욱 발전시키는데 일조하고 있습니다.
 
@@ -54,7 +83,18 @@ isUpdated: true
 
 AI 신뢰성을 평가해야 할 주 배우자들뿐만 아니라 설계 및 개발 과정에 참여하지 않은 사용자들이 신뢰성을 평가하는 것 또한 좋은 실천 방법입니다. 이는 어떠한 우려 사항도 해소하고 시스템에 대한 신뢰를 높이는데 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문맥에서 Z-Inspection과 같은 더 실용적인 평가 프로세스가 중요해집니다. Z-Inspection은 현실 세계 시스템 개발의 문제와 요구 사항에 맞춰 설계되었으며 AI 시스템의 협업, 자가평가 또는 외부 감사에 활용할 수 있습니다.
 
@@ -66,7 +106,18 @@ AI 신뢰성을 평가해야 할 주 배우자들뿐만 아니라 설계 및 개
 
 Z-Inspection은 두 가지 완성된 접근 방식을 신중하게 결합한 방법론입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 전체 시스템을 이해하려는 종합적인 접근방식,
 - 문제 영역의 각 구성 요소를 신중하게 조사하는 분석적인 접근방식.
@@ -77,7 +128,18 @@ Z-Inspection은 두 가지 완성된 접근 방식을 신중하게 결합한 방
 
 이 프로세스는 세 가지 주요 단계로 구성됩니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 사전 조건이 명확하게 파악되고 평가팀이 식별되며 경계에 동의하는 설정 단계
 - AI 시스템이 분석되는 것이 평가 단계
@@ -89,7 +151,18 @@ Z-Inspection은 두 가지 완성된 접근 방식을 신중하게 결합한 방
 
 Z-검사 과정은 AI의 영향을 다루는 전문가들의 다학제적 팀을 구성하여 시작됩니다. 이 팀에는 도메인 전문가, 기술 전문가, 사용자, 법률 자문자 및 윤리학자가 포함되어야 합니다. 도메인 전문가는 AI의 기본 가정을 확인하고, 기술 전문가는 적절한 구현을 보증합니다. 사용자는 시스템과 관련된 우려를 표명하고, 법률 및 윤리 전문가는 가능한 도전에 대비하여 팀을 안내합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스테이크홀더 간의 기대치를 조율하는 것이 중요합니다. 검사 요청자가 누구인지, 결과가 어떻게 활용될지(예: 공중 홍보, 시스템 개선, 또는 최종 사용자와의 커뮤니케이션 등) 명확히 해야 합니다.
 
@@ -99,7 +172,18 @@ Z-검사 과정은 AI의 영향을 다루는 전문가들의 다학제적 팀을
 
 평가 단계는 네 가지 작업으로 구성되어 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - AI 시스템 사용 분석;
 - 잠재적 윤리적 문제 및 기술적, 법적 문제 식별;
@@ -112,7 +196,18 @@ Z-검사 과정은 AI의 영향을 다루는 전문가들의 다학제적 팀을
 
 각 참가자 또는 동일한 배경을 가진 참가자 그룹은 시스템에서 보이는 문제점을 각자의 시각에서 설명하고 이러한 문제가 실제 문제인 이유에 대한 증거를 제시합니다. 이 증거는 수립된 모범 사례, 과학 보고서 또는 관찰된 행동과 공급 업체 시스템 설명 사이의 충돌과 같은 다양한 형태로 나타날 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 단계는 신뢰성 높은 AI 요구 사항과 충돌하는 문제를 식별하고 시스템 행동과 신뢰성 사이의 긴장을 강조하는 것입니다. 이 프로세스는 이러한 문제가 AI 시스템의 신뢰성에 미치는 영향을 강조하는 데 도움이 됩니다.
 
@@ -122,7 +217,18 @@ Z-검사 과정은 AI의 영향을 다루는 전문가들의 다학제적 팀을
 
 해결 단계는 이전에 식별된 윤리적, 기술적, 법적 문제에 대해 대응하며 가능한 경우 윤리적 긴장을 해소합니다. 참가자들은 이러한 문제를 논의하고 우선순위를 정하며 실행 가능한 해결책을 찾기 위해 협력합니다. 이 과정에서 시스템 및 구체적인 문제에 따라 원칙 간의 잠재적인 갈등이 발생할 수 있습니다. 이러한 경우 시간이 흐른 후 윤리적 AI 유지 보수 계획이 권장될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 중 세 가지 케이스 중 하나가 발생할 수 있습니다.
 
@@ -134,7 +240,18 @@ Z-검사 과정은 AI의 영향을 다루는 전문가들의 다학제적 팀을
 
 # 최종 생각
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 원래는 AI 시스템의 신뢰성을 평가하기 위해 들어가기로 한 적은 없었어요. 처음에 제 초점은 디자이너가 사용자들이 회의를 극복하고 새로운 기술을 받아들이는 데 어떻게 도와줄 수 있는지였죠. 하지만 더 깊게 파고들수록, 시스템이 정말로 신뢰할 만한지 확인하는 것이 단지 그렇게 인식되는 것보다 훨씬 중요하다는 것을 깨달았어요.
 

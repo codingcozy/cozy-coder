@@ -3,17 +3,13 @@ title: "SwiftUI에서 텍스트 애니메이션 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-23-TextEffectsWithSwiftUIandPhysics_0.png"
 date: 2024-07-23 11:26
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-23-TextEffectsWithSwiftUIandPhysics_0.png
 tag: Tech
 originalTitle: "TextEffects With SwiftUI and Physics"
 link: "https://medium.com/better-programming/texteffects-with-swiftui-and-physics-2bcd1f1efad5"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*y1JaOSszoa3ZpKLOQSCPXw.gif" />
 
@@ -23,7 +19,18 @@ SwiftUI에서 아직 지원되지 않는 주요 기능 중 하나는 iOS 물리 
 
 # GameClass 템플릿
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트를 시작하기 위해, 나는 내가 가장 좋아하는 참고 사이트 중 하나인 Hacking with Swift, Paul Hudson의 사이트를 찾아 SwiftUI와 함께 SpriteKit를 사용하는 데 필요한 코드 템플릿을 얻었어. 조금만 손을 대고 코드를 조정한 후에 코드는 다음과 같이 보이지:
 
@@ -53,7 +60,18 @@ struct ContentView: View {
 
 이제 SwiftUI 창 안에서 SpriteKit 인스턴스가 실행 중이다. 그 다음으로, 나는 누나 문서에서 논의한 공통 클래스 코드를 추가했어, Position 클래스의 간소화된 버전이야.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```swift
 class Position: ObservableObject {
@@ -79,7 +97,18 @@ for word in words {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금 이 시점에서 앱을 실행하면 회색 글자와 물리 모양을 나타내는 파란 상자가 표시됩니다. 물리 모양은 힘과 인력을 사용할 때 글자들이 서로 충돌하도록 보장하기 위해 필요합니다.
 
@@ -89,9 +118,20 @@ for word in words {
 
 # 문자 간격 설정
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-그림자 노드를 생성한 후에, 처음에는 일곱 개의 SwiftUI 뷰를 만들어 이 뷰들의 위치를 그 일곱 노드와 직접 연결했습니다. 타이틀에서 더블 스페이싱이 만족스러웠고 수직 공간만 다뤄야 한다면 잘 작동했습니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+그림자 노드를 생성한 후에, 처음에는 일곱 개의 SwiftUI 뷰를 만들어 이 뷰들의 위치를 그 일곱 노드와 직접 연결했습니다. 타이틀에서 더블 스페이싱이 만족스러웠고 수직 공간만 다뤄야 한다면 잘 작동했습니다.
 
 그러나 타이틀의 간격을 없애려면 케링(kerning)을 수정해야 했습니다. 수평 축을 다루고 싶다면 더 나은 수정이 필요했습니다. 일곱 개의 개별 텍스트 뷰를 사용했기 때문에 오히려 정확한 케링을 적용하지 못했던 것이었습니다.
 
@@ -108,7 +148,18 @@ extension String
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 문자열을 글자별로 쌓아서 변화를 살펴보는 것도 시도해 봤었지만, 제 이론이 틀렸는지, 아니면 제 코드가 잘못되었는지는 확실하지 않아요. 어쨌든 그 방법은 작동하지 않았어요.
 
@@ -131,7 +182,7 @@ struct ViewGeometry: View {
         GeometryReader { geometry in
             Color.clear
                 .preference(key: ViewSizeKey2.self, value: geometry.frame(in: .local).midX)
-                
+
         }
     }
 }
@@ -149,9 +200,20 @@ HStack {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-하지만 결과는 SpriteKit과 똑같았어요. 더 많은 정보를 찾아보면서 *.ttf 글꼴 파일의 디코딩에 관한 몇 개의 게시물을 발견했어요. 비록 Python을 사용하긴 했지만요. 조금 복잡하기는 했지만, 최적의 해결책처럼 보였고, 별로 손이 많이 가지 않는 무언가를 원했어요.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+하지만 결과는 SpriteKit과 똑같았어요. 더 많은 정보를 찾아보면서 \*.ttf 글꼴 파일의 디코딩에 관한 몇 개의 게시물을 발견했어요. 비록 Python을 사용하긴 했지만요. 조금 복잡하기는 했지만, 최적의 해결책처럼 보였고, 별로 손이 많이 가지 않는 무언가를 원했어요.
 
 # 유레카
 
@@ -159,8 +221,18 @@ HStack {
 
 이것을 생각해보면서, 나도 마찬가지로 할 것을 결정했어요. 단, 제가 SwiftUI Views를 사용하고 각 행의 각 글자를 제외하고는 감추기 위해 속성 문자열을 사용할 거예요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-07-23-TextEffectsWithSwiftUIandPhysics_1.png)
 
@@ -180,7 +252,7 @@ struct TextView: View {
     @State var pfix = 0
     @State var sfix = 6
     @State var alpha = 1
-    
+
     @ViewBuilder
     var body: some View {
         ForEach((0..<words.count), id: \.self) { dex in
@@ -239,8 +311,18 @@ struct Bases: ViewModifier {
 }
 ```
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이번에는 문자열, 크기, 글꼴, 심지어 알파벳을 변경해도 작동한다는 것을 확신했어요.
 
@@ -250,7 +332,18 @@ struct Bases: ViewModifier {
 
 ## 이닛
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 SwiftUI 텍스트 뷰들이 배치되어 있는 방식대로 모든 스프라이트를 쌓아야 했어요. 엄밀히 말하면 매치되었을 때 글 간격이 아직 미세하게 차이가 있었어요, 한 두 점 정도로요; 균형을 유지하는 작업이 필요했어요. 제가 각 라벨 주위에 테두리를 그려놓은 이미지에서 델타를 볼 수 있어요. 테두리를 보세요; 라벨이 거의 3D 판에 부착된 것처럼 보이죠.
 
@@ -260,7 +353,18 @@ struct Bases: ViewModifier {
 
 이 애니메이션의 코드는 이렇게 생겼지만, 세부 사항에 관해선 조금 더 얘기해야 할 게 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 fileprivate func initNodes() {
@@ -269,12 +373,12 @@ fileprivate func initNodes() {
         self.nodes[index].physicsBody?.allowsRotation = false
         self.nodes[index].physicsBody?.friction = 1.0
     }
-    
+
     let foo = SKAction.applyForce(CGVector(dx: 0.4, dy: 0), duration: 1)
     let foo2 = SKAction.applyForce(CGVector(dx: -0.4, dy: 0), duration: 1)
     nodes[0].run(foo)
     nodes[nodes.count - 1].run(foo2)
-    
+
     copyXcordinates()
 }
 ```
@@ -284,7 +388,7 @@ fileprivate func initNodes() {
 ```js
 .position(readyY ? points.pointsY[dex]:CGPoint(x: screenWidth/2, y: screenHeight/2))
             .position(readyX ? points.pointsX[dex]:CGPoint(x: screenWidth/2, y: screenHeight/2))
-            
+
             .onReceive(firePublisherX) { _ in
                 readyX = true
                 readyY = false
@@ -297,8 +401,18 @@ fileprivate func initNodes() {
 
 # 복제품
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 작업에서 가장 어려웠던 것 중 하나는 SpriteKit 좌표를 실시간으로 복사하는 것이었습니다. 포지션 클래스에서 공개된 변수를 사용했었고 클래스 자체는 싱글톤이었지만, 이곳에서의 어려움은 해당 좌표를 복사해야 하는 시간을 추적하는 것이었습니다.
 
@@ -320,7 +434,18 @@ fileprivate func copyYcordinates() {
 
 내가 시도했던 각 애니메이션을 작동하는데 필요한 최소한의 시간이었습니다. 하지만 난 불편했습니다. Y축 상에서 애니메이션을 두 개 연속으로 실행해야 할까? 각 애니메이션 간에 최소한 10초가 보장되어야 했거나, 두 가지 다른 루틴에서 동시에 좌표를 복사해야 했습니다. 이는 언젠가 반드시 심각한 런타임 오류/크래시를 야기할 코드였습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Timer를 사용해보려고 했지만 물리 엔진 렌더링에 혼란을 주었어요.
 
@@ -354,7 +479,18 @@ fileprivate func copyXcordinates() {
 
 이전에는 이론적으로 X만 변경하고 있었지만 물리 엔진은 자신만의 생각을 가지고 있기 때문에 X와 Y 값의 속도를 확인했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 확장 및 축소
 
@@ -364,7 +500,18 @@ fileprivate func copyXcordinates() {
 
 이 두 루틴으로 만든 작업들과, 악명높은 copyXcordinate 함수를 사용하는 방법을 포함하여 여기에 만든 작업들이 나와 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```swift
 fileprivate func expandeNodes() {
@@ -377,13 +524,13 @@ fileprivate func expandeNodes() {
         nodes[i].physicsBody?.friction = 0.9
         nodes[i].physicsBody?.linearDamping = 0.9
     }
-    
+
     let foo = SKAction.applyImpulse(CGVector(dx: -0.1, dy: 0), duration: 0.1)
     let foo2 = SKAction.applyImpulse(CGVector(dx: 0.1, dy: 0), duration: 0.1)
-    
+
     nodes[0].run(foo)
     nodes[nodes.count - 1].run(foo2)
-    
+
     copyXcordinates()
 }
 ```
@@ -399,12 +546,12 @@ fileprivate func contractNodes() {
     }
     firePublisherX.send(0)
     nodes[3].physicsBody?.isDynamic = false
-    
+
     let foo = SKAction.applyImpulse(CGVector(dx: -1, dy: 0), duration: 12)
     let foo2 = SKAction.applyImpulse(CGVector(dx: 1, dy: 0), duration: 12)
     nodes[0].run(foo2)
     nodes[nodes.count - 1].run(foo)
-    
+
     copyXcordinates()
     let waiting = SKAction.wait(forDuration: 10)
     let foo3 = SKAction.customAction(withDuration: 0) { _, elapsedTime in
@@ -416,8 +563,18 @@ fileprivate func contractNodes() {
 
 미래를 생각해보면, 이러한 메서드 이후에 physicsBody를 재설정하는 루틴이 필수적이라는 것을 노트해두어야 합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 좌우로 슬라이드
 
@@ -427,7 +584,18 @@ fileprivate func contractNodes() {
 
 이 코드로 생성한 작업은 다음과 같습니다. 임시로 추가한 라인은 텍스트가 화면 가장자리를 벗어나는 것을 방지하기 위해 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```swift
 fileprivate func slideNodesLeft() {
@@ -501,9 +669,18 @@ fileprivate func centreNodes() {
 
 이 루틴에는 수십 가지 가능성이 있지만, 여기서는 단 하나만 보여주어 시작할 수 있도록 하겠습니다. 이 코드는 그 물리적 속성을 변경하고 그 후에 약간의 지연이 있는 상태로 중앙에서 왼쪽으로 중력을 켭니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*NiOtqiTcNXAI1-UoLwBl1Q.gif)
 
@@ -529,9 +706,18 @@ fileprivate func dropNodes() {
 
 여기에는 텍스트를 확장하고 몇 가지 미세한 수정을 한 후에 동일한 루틴의 또 다른 예가 있습니다. X 및 Y 값을 두 개의 다른 값 집합으로 분할하는 장점을 볼 수 있습니다. 물론 떨어뜨린 후에 SpriteKit 텍스트가 엉망이 되었지만 X 좌표만 복사하기 때문에 중요하지 않습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*JD_pKgqOH_cbywU90UvAEA.gif)
 
@@ -541,8 +727,18 @@ fileprivate func dropNodes() {
 
 물론, 텍스트 "JOURNAL"은 SWIFTUI 뷰의 컬렉션이므로 개별 이동과 함께 그것으로도 다양한 작업을 수행할 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*KU0ieIxybje9TdGYqxckMg.gif" />
 
@@ -550,7 +746,7 @@ fileprivate func dropNodes() {
 
 ```js
 fileprivate func fadeOutNodes(order: Bool) {
-        
+
         var ordered = Array(0..<nodes.count)
         let unordered = ordered.shuffled()
         let fadeOut = order ? ordered : unordered
@@ -563,7 +759,7 @@ fileprivate func fadeOutNodes(order: Bool) {
             nodes[0].run(sequence)
         }
     }
-    
+
     fileprivate func fadeInNodes(order: Bool) {
         let ordered = Array(0..<nodes.count)
         var unordered = ordered.shuffled()
@@ -581,7 +777,18 @@ fileprivate func fadeOutNodes(order: Bool) {
 
 여기에는 코드에 포함된 몇 가지 더 많은 SwiftUI 효과를 시도했는데, 이 메서드들은 거의 동일하기 때문에 너무 자세히 설명하는 것은 별 의미가 없습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 일반적인 코드
 
@@ -621,7 +828,18 @@ enum Follow {
 
 이제 여기 올린 코드의 많은 루프를 이 인라인 조각들로 대체할 수 있어요. 그러나 거꾸로 카운트하여 루프 인덱스를 혼합하려면 처음에는 헷갈리기도 했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 생각해보고, 더 이해하기 쉬운 재귀 버전을 만들기로 결정해서 그렇게 했어요.
 
@@ -634,13 +852,13 @@ fileprivate func recursiveNodeWalker(_ direction:Follow, encapsulatedMethod: (_ 
                 encapsulatedMethod((nodes.count - 1),direction)
             }
     }
-    
+
     fileprivate func fadeOutNodes3() {
         recursiveNodeWalker(.backwards) { iNode2D,direct  in
             self.recursiveFade(iNode2D:iNode2D,direct: direct)
         }
     }
-    
+
     fileprivate func recursiveFade(iNode2D:Int,direct:Follow) {
         let wait = SKAction.wait(forDuration: Double(iNode2D))
         let custom = SKAction.run {

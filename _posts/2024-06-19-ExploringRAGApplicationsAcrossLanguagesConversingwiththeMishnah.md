@@ -3,17 +3,13 @@ title: "언어별 RAG 애플리케이션 탐색 미슈나와 대화하기"
 description: ""
 coverImage: "/assets/img/2024-06-19-ExploringRAGApplicationsAcrossLanguagesConversingwiththeMishnah_0.png"
 date: 2024-06-19 20:28
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-ExploringRAGApplicationsAcrossLanguagesConversingwiththeMishnah_0.png
 tag: Tech
 originalTitle: "Exploring RAG Applications Across Languages: Conversing with the Mishnah"
 link: "https://medium.com/towards-data-science/exploring-rag-applications-across-languages-conversing-with-the-mishnah-16615c30f780"
 isUpdated: true
 ---
-
-
-
-
 
 ## 래빈 문헌에 대한 다국어 RAG 시스템 구축
 
@@ -23,9 +19,20 @@ isUpdated: true
 
 이 게시물에서 래빈 문헌과 상호작용하기 위한 독특한 검색 보강 생성(RAG) 응용 프로그램을 구축한 여정을 공유하게 되어 매우 기쁩니다. MishnahBot은 학자들과 일반 사용자들이 미슈나를 질의하고 탐색하는 직관적인 방법을 제공하는 것을 목표로하며, 상호작용적으로 도울 수 있습니다. 이는 관련 소스 텍스트를 빠르게 찾거나 종교 법에 대한 복잡한 토론을 요약하는 등의 문제를 해결하는 데 도움을 줄 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-수년 전에 이러한 프로젝트 아이디어가 있었지만, 기술이 아직 충분히 발달하지 않은 것 같았어요. 이제는 대형 언어 모델과 RAG 기능이 발전함에 따라 매우 간단해졌어요. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+수년 전에 이러한 프로젝트 아이디어가 있었지만, 기술이 아직 충분히 발달하지 않은 것 같았어요. 이제는 대형 언어 모델과 RAG 기능이 발전함에 따라 매우 간단해졌어요.
 
 아래는 최종 제품 모습이에요. 여기서 시도해 볼 수 있어요:
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 # 그래서 RAG 시스템에 대한 극찬이란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 RAG(검색 보강 생성) 애플리케이션은 정확성을 향상시키고 대형 언어 모델(LLM)에서 제공되는 추론 능력을 활용하기 위해 상당한 주목을 받고 있습니다. 도서관, 동일 제조업체의 자동차 설명서 컬렉션 또는 세금 서류와 대화할 수 있다면 어떨까요? 질문을 하고 풍부한 전문 지식에 의해 제공되는 답변을 받을 수 있습니다.
 
@@ -43,7 +61,18 @@ RAG(검색 보강 생성) 애플리케이션은 정확성을 향상시키고 대
 
 언어 모델 상호작용을 향상시키는 두 가지 신흥 추세가 있습니다: 검색 보강 생성(RAG) 및 컨텍스트 길이 증가, 가능한 경우 매우 긴 문서를 첨부 파일로 허용하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 RAG 시스템의 한 가지 주요 장점은 비용 효율성입니다. RAG를 사용하면 쿼리 비용을 크게 증가시키지 않고도 큰 컨텍스트를 처리할 수 있어서 비용이 비실수하는 경우를 방지할 수 있습니다. 게다가 RAG는 더 모듈화되어 있어서 다른 지식 베이스 및 LLM 제공업체와 쉽게 결합하여 사용할 수 있습니다. 반면에 언어 모델에서 직접 컨텍스트 길이를 늘리는 것은 하나의 상호작용에서 훨씬 긴 텍스트를 처리할 수 있는 흥미로운 발전입니다.
 
@@ -53,7 +82,18 @@ RAG 시스템의 한 가지 주요 장점은 비용 효율성입니다. RAG를 �
 
 새로운 Jupyter 노트북을 열고 사용할 패키지를 설치해 보겠습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 !pip install chromadb tqdm langchain chromadb sentence-transformers
@@ -65,7 +105,18 @@ RAG 시스템의 한 가지 주요 장점은 비용 효율성입니다. RAG를 �
 
 참고: 여기서 적용된 동일한 과정은 사용자가 선택한 다른 텍스트 모음에도 적용할 수 있습니다. 이 예시는 또한 히브리어로 보여진 것처럼 RAG 기술을 다른 언어에서 사용할 수 있는 방법을 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 한번 더 해보세요
 
@@ -82,7 +133,18 @@ git remote add origin https://github.com/Sefaria/Sefaria-Export.git
 git pull origin master
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 tree Mishna/ | less
@@ -112,7 +174,18 @@ Mishnah
 
 이제 주피터 노트북 환경에서 문서를 로드해 봅시다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import os
@@ -173,7 +246,18 @@ tractate  mishnah                                            english
 
 혹시 필요하신 점이 있으면 언제든지 물어주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2. Vectorizing and Storing in ChromaDB
 
@@ -183,7 +267,18 @@ tractate  mishnah                                            english
 
 임베딩 모델 및 성능에 대한 더 많은 정보는 MTEB leaderboard를 참조할 수 있습니다. 이 leaderboard는 여러 작업에서 다양한 텍스트 임베딩 모델을 비교합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 벡터화에 사용할 코드입니다 (CPU 기계에서는 이 데이터 세트에서 몇 분 정도 소요될 것입니다):
 
@@ -227,7 +322,18 @@ print("Embeddings and metadata successfully stored in ChromaDB.")
 
 데이터 세트가 준비되었으므로, 이제 영어로 우리의 검색 보완 생성 (RAG) 애플리케이션을 만들 수 있습니다. 이를 위해 LangChain을 사용할 것인데, 이는 다양한 언어 모델 작업 및 통합에 대한 통합 인터페이스를 제공하여 복잡한 애플리케이션을 쉽게 구축할 수 있는 강력한 프레임워크입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LangChain은 언어 모델(LLMs), 검색기 및 벡터 저장소와 같은 다른 구성 요소를 통합하는 프로세스를 간단화합니다. LangChain을 사용하면 각 구성 요소의 내부 복잡성에 대해 걱정하지 않고 응용 프로그램의 고수준 논리에 집중할 수 있습니다.
 
@@ -306,7 +412,18 @@ qa_chain = SimpleQAChain(retriever=simple_retriever, llm_chain=llm_chain)
 
 # 설명:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - AWS Bedrock 초기화: Llama 3 70B Instruct 모델을 사용하여 AWS Bedrock를 초기화합니다. 이 모델은 검색된 맥락에 기반하여 응답을 생성하는 데 사용됩니다.
 - 프롬프트 템플릿: 프롬프트 템플릿은 맥락과 질문을 LLM이 이해할 수 있는 구조로 서식을 지정하는 것으로 정의됩니다. 이는 간결하고 관련성 있는 답변을 생성하는 데 도움이 됩니다. 필요에 따라 템플릿을 조정하고 실험해 보세요.
@@ -317,11 +434,11 @@ qa_chain = SimpleQAChain(retriever=simple_retriever, llm_chain=llm_chain)
 좋아요! 이제 시도해 보죠! 미션나의 첫 번째 단락과 관련된 쿼리를 사용하겠습니다.
 
 ```js
-response = qa_chain({"query": "샤마를 낭독할 적절한 시기는 무엇입니까?"})
+response = qa_chain({ query: "샤마를 낭독할 적절한 시기는 무엇입니까?" });
 
-print("#"*50)
-print("응답:")
-print(response)
+print("#" * 50);
+print("응답:");
+print(response);
 ```
 
 ```js
@@ -340,18 +457,29 @@ Seder Zeraim 미션나 Berakhot 장 1, 미션나 2
 Seder Zeraim 미션나 Berakhot 장 1, 미션나 3
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그것은 꽤 정확한 것 같아요.
 
 좀 더 복잡한 질문을 해볼까요:
 
 ```js
-response = qa_chain({"query": "안식일에 금지된 세 번째 일종의 일은 무엇인가요?"})
+response = qa_chain({ query: "안식일에 금지된 세 번째 일종의 일은 무엇인가요?" });
 
-print("#"*50)
-print("응답:")
-print(response)
+print("#" * 50);
+print("응답:");
+print(response);
 ```
 
 ```js
@@ -370,7 +498,18 @@ Seder Moed Mishnah Shabbat Chapter 7, Mishnah 2
 Seder Kodashim Mishnah Keritot Chapter 3, Mishnah 10
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아주 좋아요.
 
@@ -380,7 +519,18 @@ Seder Kodashim Mishnah Keritot Chapter 3, Mishnah 10
 
 ![Exploring RAG Applications Across Languages](/assets/img/2024-06-19-ExploringRAGApplicationsAcrossLanguagesConversingwiththeMishnah_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 응답이 너무 길고 본질에 맞지 않으며, 제공된 답변도 잘못되었습니다 (목록에서 일곱 번째로 선택하는 것은 아니고, 첫 번째로 수확하는 것입니다). 이것은 환각이라고 부릅니다.
 
@@ -392,7 +542,18 @@ Seder Kodashim Mishnah Keritot Chapter 3, Mishnah 10
 
 이 구조화된 검색 프로세스는 사용자가 가장 정확하고 관련성 높은 답변을 받도록 보장하며, LLM의 언어 생성 능력과 사용자 정의 데이터 검색의 정밀성을 활용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4. 다국어 RAG 방식
 
@@ -402,7 +563,18 @@ Seder Kodashim Mishnah Keritot Chapter 3, Mishnah 10
 
 이를 해결하기 위해 우리는 자체 히브리어 통합 모델을 훈련시킬 수 있습니다. 그러나 다른 실용적인 접근법은 텍스트를 일회성으로 영어로 번역하고 영어 통합을 검색 프로세스에 활용하는 것입니다. 이렇게 하면 영어 모델의 강력한 성능을 이용하면서도 히브리어 상호 작용을 지원할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 처리 단계
 
@@ -417,7 +589,18 @@ Seder Kodashim Mishnah Keritot Chapter 3, Mishnah 10
 - 해당 히브리어 텍스트 검색: 해당 히브리어 텍스트가 컨텍스트로 검색됩니다. 본질적으로 우리는 영어 텍스트를 키로 사용하고 검색 작업에서 히브리어 텍스트를 해당 값으로 사용합니다.
 - LLM을 사용하여 히브리어로 응답: LLM은 히브리어 컨텍스트를 사용하여 히브리어로 응답을 생성합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 세대교체에는 Llama 3에 비해 히브리어 텍스트에서 훨씬 더 우수한 성능을 발휘하는 Claude Sonnet을 사용합니다.
 
@@ -511,27 +694,27 @@ class SimpleQAChainWithTranslation:
         hebrew_query = inputs["query"]
         print("#" * 50)
         print(f"Hebrew query: {hebrew_query}")
-        
+
         # 번역 프롬프트 출력
         translation_prompt = translation_prompt_template.format(text=hebrew_query)
         print("#" * 50)
         print(f"번역 프롬프트: {translation_prompt}")
-        
+
         # 특정 구성을 사용하여 번역 수행
         translated_query = self.translation_chain.run({"text": hebrew_query})
         print("#" * 50)
         print(f"번역된 쿼리: {translated_query}")  # 디버깅을 위한 번역된 쿼리 출력
-        
+
         retrieved_docs, sources = self.retriever(translated_query)
         retrieved_docs = [remove_vowels_hebrew(doc) for doc in retrieved_docs]
 
         context = "\n".join(retrieved_docs)
-        
+
         # 생성을 위한 최종 프롬프트 출력
         final_prompt = hebrew_prompt_template.format(context=context, question=hebrew_query)
         print("#" * 50)
         print(f"생성을 위한 최종 프롬프트:\n {final_prompt}")
-        
+
         response = self.llm_chain.run({"context": context, "question": hebrew_query})
         response_with_sources = f"{response}\n" + "#" * 50 + "Sources:\n" + "\n".join(
             [f"{source['seder']} {source['tractate']} Chapter {source['chapter']}, Mishnah {source['mishnah']}" for source in sources]
@@ -544,12 +727,23 @@ qa_chain = SimpleQAChainWithTranslation(translation_chain, simple_retriever, heb
 
 해보세요! 이전과 동일한 질문을 사용하지만, 이번에는 히브리어로 요청합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-response = qa_chain({"query": "מהו סוג העבודה השלישי האסור בשבת?"})
-print("#" * 50)
-print(response)
+response = qa_chain({ query: "מהו סוג העבודה השלישי האסור בשבת?" });
+print("#" * 50);
+print(response);
 ```
 
 ```js
@@ -558,26 +752,26 @@ Hebrew query: מהו סוג העבודה השלישי האסור בשבת?
 ##################################################
 Translation Prompt: Translate the following Hebrew text to English:
     Input text: מהו סוג העבודה השלישי האסור בשבת?
-    Translation: 
-    
+    Translation:
+
 ##################################################
 Translated Query:  What is the third type of work that is forbidden on Shabbat?
 
     Input text: כל העולם כולו גשר צר מאוד
-    Translation: 
-    
+    Translation:
+
 ##################################################
 Final Prompt for Generation:
  ענה על השאלה הבאה בהתבסס על ההקשר המסופק בלבד:
-    הקשר: אבות מלאכות ארבעים חסר אחת. הזורע. והחורש. והקוצר. והמעמר. הדש. והזורה. הבורר. הטוחן. והמרקד. והלש. והאופה. הגוזז את הצמר. המלבנו. והמנפצו. והצובעו. והטווה. והמסך. והעושה שני בתי נירין. והאורג שני חוטין. והפוצע שני חוטין. הקושר. והמתיר. והתופר שתי תפירות. הקורע על מנת לתפר שתי תפירות. הצד צבי. השוחטו. והמפשיטו. המולחו, והמעבד את עורו. והמוחקו. והמחתכו. הכותב שתי אותיות. והמוחק על מנת לכתב שתי אותיות. הבונה. והסותר. המכבה. והמבעיר. המכה בפטיש. המוציא מרשות לרשות. הרי אלו אבות מלאכות ארבעים חסר אחת: 
+    הקשר: אבות מלאכות ארבעים חסר אחת. הזורע. והחורש. והקוצר. והמעמר. הדש. והזורה. הבורר. הטוחן. והמרקד. והלש. והאופה. הגוזז את הצמר. המלבנו. והמנפצו. והצובעו. והטווה. והמסך. והעושה שני בתי נירין. והאורג שני חוטין. והפוצע שני חוטין. הקושר. והמתיר. והתופר שתי תפירות. הקורע על מנת לתפר שתי תפירות. הצד צבי. השוחטו. והמפשיטו. המולחו, והמעבד את עורו. והמוחקו. והמחתכו. הכותב שתי אותיות. והמוחק על מנת לכתב שתי אותיות. הבונה. והסותר. המכבה. והמבעיר. המכה בפטיש. המוציא מרשות לרשות. הרי אלו אבות מלאכות ארבעים חסר אחת:
 
-חבתי כהן גדול, לישתן ועריכתן ואפיתן בפנים, ודוחות את השבת. טחונן והרקדן אינן דוחות את השבת. כלל אמר רבי עקיבא, כל מלאכה שאפשר לה לעשות מערב שבת, אינה דוחה את השבת. ושאי אפשר לה לעשות מערב שבת, דוחה את השבת: 
+חבתי כהן גדול, לישתן ועריכתן ואפיתן בפנים, ודוחות את השבת. טחונן והרקדן אינן דוחות את השבת. כלל אמר רבי עקיבא, כל מלאכה שאפשר לה לעשות מערב שבת, אינה דוחה את השבת. ושאי אפשר לה לעשות מערב שבת, דוחה את השבת:
 
-הקורע בחמתו ועל מתו, וכל המקלקלין, פטורין. והמקלקל על מנת לתקן, שעורו כמתקן: 
+הקורע בחמתו ועל מתו, וכל המקלקלין, פטורין. והמקלקל על מנת לתקן, שעורו כמתקן:
 
     שאלה: מהו סוג העבודה השלישי האסור בשבת?
     תשובה (קצרה ותמציתית):
-    
+
 ##################################################
 הקוצר.
 ##################################################מקורות:
@@ -590,7 +784,18 @@ We got an accurate, one word answer to our question. Pretty neat, right?
 
 # Interesting Challenges and Solutions
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 라마 3 Instruct의 번역은 여러 도전을 안겨주었습니다. 처음에는 어떤 시도를 해도 모델이 무의미한 결과물을 출력했습니다. (눈에 띄게, Llama 3 Instruct는 새 줄 문자로 시작하는 프롬프트에 매우 민감한 모양입니다!)
 
@@ -600,7 +805,18 @@ We got an accurate, one word answer to our question. Pretty neat, right?
 
 이 프로젝트에서는 히브리어 텍스트에서 모음을 제거하기도 했습니다. 대부분의 온라인 히브리어 텍스트에는 모음이 포함되어 있지 않고, 저희는 미세 조정 중에 보이는 텍스트와 유사한 맥락을 가지기를 원하기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -610,7 +826,18 @@ We got an accurate, one word answer to our question. Pretty neat, right?
 
 비슷한 작업을 시도하는 경우 특히 의견과 질문을 공유해 주세요. 향후 이와 같은 콘텐츠를 더 보고 싶다면 알려주세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 각주
 

@@ -3,17 +3,13 @@ title: "API로 전기 사용량 추적하는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-30-TrackingelectricityusagethroughanAPI_0.png"
 date: 2024-06-30 19:01
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-30-TrackingelectricityusagethroughanAPI_0.png
 tag: Tech
 originalTitle: "Tracking electricity usage through an API"
 link: "https://medium.com/@jack_57343/tracking-electricity-usage-via-an-api-d5a8b8d458fd"
 isUpdated: true
 ---
-
-
-
-
 
 TL;DR: 코드로 건너뛰려면 여기를 클릭하세요.
 
@@ -23,7 +19,18 @@ TL;DR: 코드로 건너뛰려면 여기를 클릭하세요.
 
 요약하면, DCC는 스마트 미터를 에너지 공급업체에 연결하여 특정 간격(일반적으로 매 30분마다)에 사용된 에너지 양을 추적합니다. 이 데이터는 대규모 에너지 공급업체에게 제공되지만 중개업체들을 통해 광범위하게 공개되며, 그 가운데 하나인 glowmarkt가 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 글로마켓의 Bright 앱을 사용하면 DCC에 연결하여 미터 데이터를 다운로드할 수 있습니다. 이 과정은 앱을 다운로드하고 스마트 미터 일련 번호와 소유권 증명을 제공하는 것만큼 쉽습니다 (이 데이터를 아무나에게 제공할 수는 없습니다).
 
@@ -33,7 +40,18 @@ TL;DR: 코드로 건너뛰려면 여기를 클릭하세요.
 
 여기에 Postman 컬렉션이 있습니다. 아래에서 Postman을 통한 호출 방법과 타입스크립트 애플리케이션 일부를 자동화하는 방법을 보여드리겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 인증하기
 
@@ -44,27 +62,38 @@ TL;DR: 코드로 건너뛰려면 여기를 클릭하세요.
 ```js
 async function getLoginToken() {
   const body = {
-    "username": process.env.BRIGHT_USERNAME,
-    "password": process.env.BRIGHT_PASSWORD,
-    "applicationId": "b0f1b774-a586-4f72-9edd-27ead8aa7a8d"
-  }
+    username: process.env.BRIGHT_USERNAME,
+    password: process.env.BRIGHT_PASSWORD,
+    applicationId: "b0f1b774-a586-4f72-9edd-27ead8aa7a8d",
+  };
 
-  const res = await fetch('https://api.glowmarkt.com/api/v0-1/auth', {
-    method: 'POST',
+  const res = await fetch("https://api.glowmarkt.com/api/v0-1/auth", {
+    method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(body)
-  })
+    body: JSON.stringify(body),
+  });
 
   if (res.status !== 200) {
-    throw new Error(`인증에서 200을 기대했으나 ${res.status}을 받음`)
+    throw new Error(`인증에서 200을 기대했으나 ${res.status}을 받음`);
   }
 
-  const json = await res.json()
-  return json.token
+  const json = await res.json();
+  return json.token;
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 가상 엔티티 가져오기
 
@@ -74,23 +103,34 @@ async function getLoginToken() {
 
 ```js
 async function getVirtualEntities(token: string) {
-  const res = await fetch('https://api.glowmarkt.com/api/v0-1/virtualentity/', {
+  const res = await fetch("https://api.glowmarkt.com/api/v0-1/virtualentity/", {
     headers: {
       token,
-      applicationId: 'b0f1b774-a586-4f72-9edd-27ead8aa7a8d'
-    }
-  })
+      applicationId: "b0f1b774-a586-4f72-9edd-27ead8aa7a8d",
+    },
+  });
 
   if (res.status !== 200) {
-    throw new Error(`GET VEs에서 200을 기대했지만, ${res.status}를 받았습니다`)
+    throw new Error(`GET VEs에서 200을 기대했지만, ${res.status}를 받았습니다`);
   }
 
-  const json: VirtualEntitiesResponse = await res.json()
-  return json
+  const json: VirtualEntitiesResponse = await res.json();
+  return json;
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 응답에서는 각 연료 유형을 나타내는 여러 Virtual Entities를 볼 수 있습니다(예: 가스 및 전기), 그리고 태양열판이나 배터리 등이 있는 경우 수출 미터가 포함될 수도 있습니다. 이 예제에서는 "전기 소비"에 관심이 있습니다. resourceId를 가져와서 소비를 조회해 보겠습니다.
 
@@ -102,7 +142,18 @@ async function getVirtualEntities(token: string) {
 GET https://api.glowmarkt.com/api/v0-1/resource/447c88f4-c99d-44c4-9f1d-03a767b084a6/readings?period=PT30M&function=sum&from=2023-01-01T00:00:00&to=2023-01-07T23:59:59
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 async function getThirtyMinuteIntervalUsage(token: string, resourceId: string, from: Date, to: Date) {
@@ -173,8 +224,18 @@ We get an array of arrays representing the start time of that period and its usa
 
 ## Using this data
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 Discord에서의 일일 사용량을 멋지게 포맷된 그래프로 보고하고 있어요.
 
@@ -184,7 +245,18 @@ We get an array of arrays representing the start time of that period and its usa
 
 ![이미지](/assets/img/2024-06-30-TrackingelectricityusagethroughanAPI_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

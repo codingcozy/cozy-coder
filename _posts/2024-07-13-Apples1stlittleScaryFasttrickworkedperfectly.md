@@ -3,17 +3,13 @@ title: "애플의 첫 번째 Scary Fast 비장의 카드, 완벽하게 통했다
 description: ""
 coverImage: "/assets/img/2024-07-13-Apples1stlittleScaryFasttrickworkedperfectly_0.png"
 date: 2024-07-13 01:15
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-Apples1stlittleScaryFasttrickworkedperfectly_0.png
 tag: Tech
 originalTitle: "Apple’s 1st little Scary Fast trick worked perfectly!"
 link: "https://medium.com/macoclock/apples-1st-little-scary-fast-trick-worked-perfectly-68ec2e078ce0"
 isUpdated: true
 ---
-
-
-
-
 
 ![Image](/assets/img/2024-07-13-Apples1stlittleScaryFasttrickworkedperfectly_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 지난 월요일에는 몇 가지 첫 경험이 있었죠. 애플의 첫 야간 이벤트였고, 새 실리콘 패밀리 전체를 한 번에 발표한 첫 번째 시간이기도 했습니다. M3, M3 Pro, M3 Max까지 모두가 선보였지만 Ultra는 유일하게 빠진 실리콘이었습니다. 그러나 이는 본질적으로 두 개의 Max 칩이 결합된 것이므로, 그것이 나타날 때 우리가 기대할 수 있는 것은 머리 좋은 사람들이 해결해 줄 수 있을 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Apple이 빠르게 진행 중
 
@@ -33,13 +40,35 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-07-13-Apples1stlittleScaryFasttrickworkedperfectly_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 출시 일정이 어색할지라도, 이벤트를 즐겼어요. 혼자 이러는 것 같지만, 난 그들이 불필요한 것을 제거하고 우리가 원했던 것을 바로 전달했다는 사실을 좋아했어요. 그리고 그 M1 iMac을 구매해 버렸죠. 내일 받게 될 거예요. 이 주말에 이벤트를 다시 시청했어요 (네, 바로 그런 사람이에요). 그리고 몇몇 다른 애플 기자 발표 영상과 블로그도 봤고 읽었어요. 그때 애플이 무엇을 했는지 깨달았어요. 이것은 맥 이벤트가 아니었어요. 적어도 순수한 맥 이벤트가 아니었어요. 오히려 약간 꾸며진 아이폰 이벤트였죠.
 
 # 설명할게요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지난 주의 수익 발표는 크게 화제가 되지 않았고, Apple은 다가오는 휴일 시즌 예측에 대해 상당히 저조한 태도를 보이고 있습니다. M2는 큰 반향을 일으키지 못했고, 판매도 좋지 않았습니다. 서비스 요금이 인상되어 은행 계좌를 강화하고 웨어러블 제품의 판매가 정체되었습니다.
 
@@ -49,7 +78,18 @@ isUpdated: true
 
 한 가지 놓치지 않는 Apple은 인기 파동을 일으킬 것이라 잘 알고 있었기 때문에 영상 속 촬영 비하인드 신비한 영상들을 YouTube 채널에 대거 공개하려 미리 준비해두었습니다. 다른 모두처럼 나도 실시간으로 시청하면서 이를 보고는 그것에 대해 두 번째 생각을 하지 않았습니다. 그저 전형적으로 아름답게 촬영된 Apple 이벤트였죠 — 우리가 마침내 코로나 규제 이후에 익숙해진 종류의 것입니다. 조명은 훌륭했고, 전환효과와 드론 촬영은 매끄러웠습니다. 편집, 음향 및 사운드 트랙은 모두 완벽했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-07-13-Apples1stlittleScaryFasttrickworkedperfectly_2.png)
 
@@ -59,7 +99,18 @@ isUpdated: true
 
 온라인에서 모든 비평가들이 말하는 것을 읽어보았는데, BTS(현장 비하인드) 비디오를 보고 나서 애플이 '아이폰으로 촬영됨'이라고 말하는 것이 공평하지 않다고 말하는 것에 동의할 수 없어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신이 말한 거, 난 알아. "그냥 누가 아이폰 들고 팀 촬영해 놓은 거잖아"라고 하는 게 아닌가? 그건 공평하지 않지 않을까? 정말로?
 
@@ -69,9 +120,20 @@ isUpdated: true
 
 모두가 간과하고 있는 건 이 모든 장비들의 중심에 아이폰 15 Pro Max가 있었다는 거야 — 렌즈나 부가 기기, 멋진 할리우드 트릭 없이, 그냥 아이폰 15 Pro Max가 — 여기 내 앞에 있는 것과 똑같은.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-Apple가 정말 잘 했어요. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+Apple가 정말 잘 했어요.
 
 저는 기술 분야에 관심이 많은데, Apple이 하는 수많은 마케팅 트릭들을 알아야 한다는 점에서 똑똑하게 알아차려야 한다고 생각했어요. 그런데 이번에는 솔직히, 그들이 제 마음을 사로잡았네요.
 
@@ -79,7 +141,18 @@ Apple가 정말 잘 했어요.
 
 # 할 일이 있나요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 유튜브 채널을 시작한 이후로 카메라와 촬영이 나에게는 조금씩 열정과 취미가 되었어.
 
@@ -89,7 +162,18 @@ Apple가 정말 잘 했어요.
 
 지난 주말 내내 생각에 잠겨 있었어. 내가 이제 캐논 대신 15 Pro Max를 써야 할까? 캐논은 이젠 4년이나 된 '입문자용' 카메라일 뿐이지만, 정말 좋은 제품이었어. 캐논을 사용한 첫 번째 비디오의 품질 향상은 명백했어. 캐논을 사용하는 것에 점점 익숙해지고, 기능과 기능들을 탐험하고, 조명을 개선함으로써 좋은 결과를 내게 된 거야.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그런데... iPhone은 업데이트된 최신 기술이에요. log 프로필에서 ProRes를 촬영하고 지금은 SSD에 직접 촬영할 수 있어서 기본 DSLR 카메라보다 더 나은 결과를 줄지 궁금해져요.
 
@@ -99,7 +183,18 @@ Apple가 정말 잘 했어요.
 
 # 완벽한 스톰
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내일 M3 iMac이 도착하면서 이번주에 촬영할 명백한 비디오가 생겼어. 창의적인 두뇌가 나에게 15 Pro Max로 비디오 전체를 촬영하고 완전한 Apple 비디오로 만드는 것이 유리할지 궁금해졌어.
 
@@ -109,7 +204,18 @@ Apple가 정말 잘 했어요.
 
 비디오를 직접 촬영할 수 있는 삼성 T7 SSD가 있고 편집을 위해 준비한 일련의 LUTS를 구입했어.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지난 주말에 저에게 마지막 조각이 찾아왔어요. Blackmagic Cam 앱을 다운로드하고 사용해보기 시작했을 때예요. 유의할 만한 사실은, 애플의 이번 이벤트에서 Scary Fast를 촬영할 때 사용한 앱이 바로 이 앱이었다는 것이죠. 기본 카메라 앱은 옵션이 매우 적지만, Blackmagic 앱은 iPhone으로 어떤 것이 가능한지의 기준을 높입니다.
 
@@ -119,7 +225,18 @@ FPS를 선택할 수도 있고, 셔터 앵글이나 렌즈 속도로 촬영할�
 
 그리고 애플은 이벤트가 맥에서 편집되었다고 말했지만 — Final Cut에서 말하지 않았어요... 제가 본 것처럼, Premiere(제가 편집하는 것)와 DaVinci를 혼합해서 사용한 것으로 보입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 너무 유혹되고 있어요...
 
@@ -129,7 +246,18 @@ FPS를 선택할 수도 있고, 셔터 앵글이나 렌즈 속도로 촬영할�
 
 만약 맥북에서 생산성 앱을 사랑한다면, 멋진 SetApp을 사용해야 해요. 제 링크를 클릭해서 직접 SetApp을 시도해 보세요. 생산성과 창의성의 새로운 세계가 열릴 거에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이번 주 일요일에 무료 비디오 뉴스레터를 발송할 예정이에요. 저희 소식을 알고 싶다면 여기에 세부 정보를 남겨주세요. 메일링 리스트에 등록해 드릴게요! 🤛🏻
 

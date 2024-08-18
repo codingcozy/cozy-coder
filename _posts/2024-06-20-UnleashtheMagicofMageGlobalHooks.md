@@ -3,18 +3,13 @@ title: "마법같은 메이지 글로벌 후크의 마법을 풀어보세요"
 description: ""
 coverImage: "/assets/img/2024-06-20-UnleashtheMagicofMageGlobalHooks_0.png"
 date: 2024-06-20 15:39
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-UnleashtheMagicofMageGlobalHooks_0.png
 tag: Tech
 originalTitle: "Unleash the Magic of Mage Global Hooks"
 link: "https://medium.com/mage-ai/unleash-the-magic-of-mage-global-hooks-9fee3375f07a"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![Global hooks in Mage](/assets/img/2024-06-20-UnleashtheMagicofMageGlobalHooks_0.png)
 
@@ -24,8 +19,18 @@ Mage의 글로벌 훅은 API 작업 앞뒤에서 사용자 정의 코드를 실�
 
 ![Global hooks GIF](https://miro.medium.com/v2/resize:fit:1400/1*OirhBHxPRCvHwConOgnGgQ.gif)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 개요
 
@@ -38,7 +43,18 @@ Mage의 글로벌 훅은 API 작업 앞뒤에서 사용자 정의 코드를 실�
 
 매지(Mage)의 글로벌 훅은 애플리케이션 실행 주기 중 특정 시점에 사용자 정의 코드를 실행할 수 있는 강력한 기능입니다. 이 훅은 데이터 유효성 검사, 변환 또는 외부 시스템과의 통합과 같은 다양한 작업을 수행하는 데 사용할 수 있습니다. 글로벌 훅은 반복적인 작업을 자동화하거나 애플리케이션의 여러 구성 요소에 걸쳐 특정 비즈니스 규칙을 강제 적용해야 할 때 특히 유용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 메이지(Mage)의 글로벌 훅(Global Hooks)은 파이프라인 실행 중 두 가지 다른 시점에서 트리거될 수 있습니다:
 
@@ -47,7 +63,18 @@ Mage의 글로벌 훅은 API 작업 앞뒤에서 사용자 정의 코드를 실�
 
 이 두 실행 지점을 활용하여, 글로벌 훅(Global Hooks)은 데이터 파이프라인의 기능을 확장하는 유연한 방법을 제공합니다. 특정 요구 사항에 따라 블록 실행 전후에 사용자 정의 코드를 실행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 전역 후크의 필요성은 무엇인가요?
 
@@ -57,7 +84,18 @@ Mage의 글로벌 훅은 API 작업 앞뒤에서 사용자 정의 코드를 실�
 
 후크를 만들기 전에, 개발자들은 전역 후크 설정을 켜놓았는지 확인해야 합니다. Mage Project Overview 페이지에서 왼쪽 탐색 메뉴에서 설정을 선택하십시오. 설정 페이지에 들어가서 전역 후크를 켭니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![마법의 마법을 발휘하라](/assets/img/2024-06-20-UnleashtheMagicofMageGlobalHooks_1.png)
 
@@ -69,7 +107,18 @@ Mage의 글로벌 훅은 API 작업 앞뒤에서 사용자 정의 코드를 실�
 - mage가 없다면 시작하는 방법에 대한 문서를 확인하세요
 - 파이프라인 편집기 페이지에 들어간 후, 아래 그림과 같이 데이터 로더 블록을 선택한 후, 파이썬 위에 마우스를 올리고 일반 (템플릿 없음) 옵션을 클릭하세요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-UnleashtheMagicofMageGlobalHooks_2.png" />
 
@@ -97,11 +146,22 @@ def load_data(*args, **kwargs):
 - 접두사 'cff'를 본인의 이니셜로 바꾸거나 코드를 그대로 둘 수 있습니다.
 - Shift + Enter를 눌러 블록을 실행하세요 (블록은 `본인의 이니셜_None`을 반환해야 합니다).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Mage는 개발자들이 대부분의 요구 사항을 선택하거나 전환할 수 있는 사용하기 쉬운 Global Hooks 사용자 인터페이스를 개발했습니다. 주요 파이프라인 페이지의 왼쪽 네비게이션 팝업에서 글로벌 후크를 선택하여 Global Hooks UI로 이동해 봅시다.
 
-- + 새 글로벌 후크 추가 선택
+- - 새 글로벌 후크 추가 선택
 - Global Hooks UI로 이동하면 후크에 고유한 이름, 리소스 유형 및 작업 유형을 생성하세요.
 - 각 후크에는 Mage의 API 호출인 리소스 유형을 선택해야 합니다. 파이프라인 리소스를 선택하면 후크가 파이프라인 API 호출에 영향을 미칩니다.
 - 새 파이프라인을 만들 때도 이 후크를 사용하므로 작업 유형을 만들기로 선택합니다.
@@ -110,8 +170,18 @@ Mage는 개발자들이 대부분의 요구 사항을 선택하거나 전환할 
 
 - 위에서 언급한 대로 후크는 작업이 시작되기 전이나 후에 실행됩니다. 이 경우 파이프라인 이름 앞에 이니셜을 삽입하면 작업이 시작되기 전에 실행됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-20-UnleashtheMagicofMageGlobalHooks_4.png)
 
@@ -124,8 +194,18 @@ Mage는 개발자들이 대부분의 요구 사항을 선택하거나 전환할 
 - 병합될 데이터의 출력 유형을 선택하세요.
 - 마지막으로 화면 하단의 '변경 사항 저장'을 클릭하여 후크를 저장하세요.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-UnleashtheMagicofMageGlobalHooks_6.png" />
 
@@ -137,8 +217,18 @@ Mage는 개발자들이 대부분의 요구 사항을 선택하거나 전환할 
 
 위에서 안내한 대로 Global Hook을 구성했다면, 데이터 로더 블록에서 제공한 이니셜로 모든 파이프라인 이름이 시작됨을 확인할 수 있을 것입니다. 회사는 파이프라인을 생성하고 소유하는 개발자들이 쉽게 파이프라인을 찾을 수 있도록 명명 규칙을 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-20-UnleashtheMagicofMageGlobalHooks_8.png)
 

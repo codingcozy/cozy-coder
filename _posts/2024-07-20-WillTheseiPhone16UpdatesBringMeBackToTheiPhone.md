@@ -3,17 +3,13 @@ title: "이 iPhone 16 업데이트가 나를 아이폰으로 돌아오게 할까
 description: ""
 coverImage: "/assets/img/2024-07-20-WillTheseiPhone16UpdatesBringMeBackToTheiPhone_0.png"
 date: 2024-07-20 11:27
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-20-WillTheseiPhone16UpdatesBringMeBackToTheiPhone_0.png
 tag: Tech
 originalTitle: "Will These iPhone 16 Updates Bring Me Back To The iPhone"
 link: "https://medium.com/macoclock/will-these-iphone-16-updates-bring-me-back-to-the-iphone-031091c81fc7"
 isUpdated: true
 ---
-
-
-
-
 
 ![2024-07-20-WillTheseiPhone16UpdatesBringMeBackToTheiPhone_0](/assets/img/2024-07-20-WillTheseiPhone16UpdatesBringMeBackToTheiPhone_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 저에게는 많은 해 동안 iPhone이었습니다. 사실, 이 기술 리뷰 업무를 시작하기 훨씬 전부터 iPhone 사용자였고 만족스러운 사용자였습니다. 딱 10년 넘게 iPhone을 사용해 왔죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-20-WillTheseiPhone16UpdatesBringMeBackToTheiPhone_1.png" />
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 # iPhone 16 업데이트 1: iOS 18
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 큰 변화입니다. 물론 iPhone 16 라인업에만 해당되는 것은 아니지만, iOS 18은 굉장히 많은 것을 약속하고 있기 때문에 여기서 최상의 역할을 합니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 리디자인된 콘트롤 센터가 있으며 여러 개의 콘트롤 센터를 생성할 수 있습니다. 이것은 저에게는 너무 과도한 것 같지만, 일단은 의심의 여지를 줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 주로 WhatsApp을 사용하는 사용자라서, 제게는 Messages에 대한 개선 사항이 잘 등록되지 않는 편입니다. 사진 앱의 재디자인에 대해서는 제 손에 들어오기 전까지 판단을 유보하고 있어요 (아시다시피, 저는 베타 테스트에 참여하지 않고 있어요).
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 마크 엘리스 기대도 (10점 만점): 10
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 아이폰 16 업데이트 2: A18 칩
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-07-20-WillTheseiPhone16UpdatesBringMeBackToTheiPhone_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 물론, 애플이 Pro 에디션을 여전히 구분한다면 해당 모델에 포함된 A18 칩의 끝에 'Pro'를 추가할 수도 있습니다. 그렇다면 그런 변화가 카메라 요구 사항에 완전히 묶이길 바랍니다.
 
@@ -73,7 +124,18 @@ A18 아키텍처가 애플 인텔리전스를 위해 신경 엔진에 대한 중
 
 ## iPhone 16 업데이트 3: Pro 모델을 위한 더 큰 디스플레이
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아이폰 13 미니를 기억하시나요? 그런데, 그 형태 요소는 아마도 돌아오지 않을 것 같아요. 왜냐하면 애플이 반대 방향으로 가는 것으로 보이기 때문이죠.
 
@@ -81,7 +143,18 @@ MacRumors에 따르면, 아이폰 16과 16 Plus는 아마도 대체하는 기기
 
 베젤에 대한 전쟁은 계속되는 것으로 보이며, 두 플래그십 기기가 디스플레이 주변의 더 얇은 테두리를 갖게 될 것으로 예상됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 애플은 2020년 프로 아이폰 모델을 소개한 이후로 동일한 크기의 디스플레이를 고집해왔습니다. 저는 이에 대해 별 생각을 해본 적도 없고, 두 폰의 크기가 더 커져야 한다는 열망도 전혀 없습니다.
 
@@ -91,7 +164,18 @@ MacRumors에 따르면, 아이폰 16과 16 Plus는 아마도 대체하는 기기
 
 # 아이폰 16 업데이트 4: 프로 모델에 좋은 카메라가 추가되었어요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아이폰 16 Pro 구매를 고려 중이라면 좋은 소식이 있어요: 소문에 따르면 아이폰 15 Pro Max에서만 제공되던 5배 광학 줌이 아이폰 16 Pro에 추가된다는 소식이 있어요.
 
@@ -101,7 +185,18 @@ MacRumors에 따르면, 아이폰 16과 16 Plus는 아마도 대체하는 기기
 
 물론 미래에는 다른 카메라 개선 사항들이 있겠지만, 작년만큼 중요하지는 않을 거에요. 새로운 큰 센서가 주요 이야기거리가 될 것으로 예상돼요. 그건 아이폰으로 돌아가는 이유를 줄 이유는 없어도요 (S24 Ultra의 카메라는 완벽해요), 그래도 5배 줌이 모든 사람에게 조금씩 전파되고 있다는 사실은 기쁘네요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Mark Ellis 흥분 점수 (10점 만점): 7
 
@@ -111,7 +206,18 @@ Mark Ellis 흥분 점수 (10점 만점): 7
 
 ![이미지](/assets/img/2024-07-20-WillTheseiPhone16UpdatesBringMeBackToTheiPhone_7.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 EU 법령 변경으로 스마트폰은 2027년까지 교체 가능한 배터리를 장착해야 한다고 합니다. 이 요구 사항은 애플이 배터리 교체를 용이하게 하는 스테인리스 스틸 배터리 케이스를 도입하면서 배터리 밀도를 최대 10%까지 높이는 효과도 있습니다. 이는 올해 나중에 출시될 새 iPhone의 배터리 수명이 현저히 늘어날 수 있다는 것을 의미합니다.
 
@@ -121,7 +227,18 @@ EU 법령 변경으로 스마트폰은 2027년까지 교체 가능한 배터리�
 
 # 최종 의견
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아직 iPhone으로 돌아갈 때와 그 시기가 언제일지에 대한 질문을 피하고 있는 것에 감사드립니다. 그러나 이전에 언급한대로, 그것은 불가피한 일입니다.
 
@@ -131,6 +248,17 @@ iPhone 16에 대한 소문된 업데이트는 비교적 냉담합니다. 이것�
 
 # 떠나시기 전에
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제 기술 콘텐츠 크리에이터의 주간 비하인드 신스 비디오를 보려면 제 뉴스레터 목록에 가입해 주세요!

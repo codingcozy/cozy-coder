@@ -3,17 +3,13 @@ title: "연구 논문 리뷰 표 형식 데이터에서 트리 기반 모델이 
 description: ""
 coverImage: "/assets/img/2024-07-07-ResearchpaperreviewWhydotreebasedmodelsstilloutperformdeeplearningontabulardata_0.png"
 date: 2024-07-07 02:58
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-ResearchpaperreviewWhydotreebasedmodelsstilloutperformdeeplearningontabulardata_0.png
 tag: Tech
 originalTitle: "Research paper review: Why do tree based models still outperform deep learning on tabular data?"
 link: "https://medium.com/@tracyrenee61/research-paper-review-why-do-tree-based-models-still-outperform-deep-learning-on-tabular-data-3bb9e9ff0846"
 isUpdated: true
 ---
-
-
-
-
 
 ![Research Paper Review](/assets/img/2024-07-07-ResearchpaperreviewWhydotreebasedmodelsstilloutperformdeeplearningontabulardata_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 궁금증을 구글로 검색하다가 “Why do tree-based models still outperform deep learning on tabular data?”라는 제목의 연구 논문을 발견했습니다. 이 논문은 제 궁금증에 대한 답을 시도한 것이라고 생각해서 기계 및 딥러닝의 다이내믹스에 대한 추가 통찰을 얻을 수 있을지 확인하기 위해 읽어보기로 결정했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 신문을 읽으신 후, 그 내용에 대한 요약을 아래에서 확인하실 수 있습니다:-
 

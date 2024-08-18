@@ -3,7 +3,7 @@ title: "순차 데이터에 대한 딥러닝 입문서"
 description: ""
 coverImage: "/assets/img/2024-07-14-AnIntroductiontoDeepLearningforSequentialData_0.png"
 date: 2024-07-14 01:57
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-14-AnIntroductiontoDeepLearningforSequentialData_0.png
 tag: Tech
 originalTitle: "An Introduction to Deep Learning for Sequential Data"
@@ -11,17 +11,24 @@ link: "https://medium.com/towards-data-science/an-introduction-to-deep-learning-
 isUpdated: true
 ---
 
-
-
-
-
 ![Sequential data](/assets/img/2024-07-14-AnIntroductiontoDeepLearningforSequentialData_0.png)
 
 시계열 및 자연 언어와 같은 순차 데이터는 순서 및 맥락을 포착할 수 있는 모델이 필요합니다. 시계열 분석은 시간 패턴을 기반으로 예측에 중점을 두는 반면, 자연 언어 처리는 단어 시퀀스에서 의미론적 의미를 추출하려고 합니다.
 
 두 데이터 유형은 서로 다른 작업이지만, 먼 요소가 예측에 영향을 미치는 장거리 종속성이 있습니다. 딥 러닝이 발전함에 따라 하나의 도메인을 위해 초발되었던 모델 아키텍처가 다른 도메인으로 적응되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시계열 데이터와 자연어 모두 관측치의 위치가 매우 중요한 연속 구조를 가지고 있어요.
 
@@ -33,18 +40,40 @@ isUpdated: true
 
 시계열 데이터의 주요 속성은 관측치의 순서가 의미가 있다는 것이에요. 시간에 가까운 값들은 일반적으로 상호 의존성이 높습니다 — 최근 값들을 알면 다음 값을 예측하는 데 도움이 돼요. 시계열 분석은 이러한 시간적 의존성을 모델링하여 패턴을 이해하고 예측을 하려는 것이 목적입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 텍스트 데이터도 순차적입니다. 단어의 순서가 의미와 문맥을 전달합니다. 예를 들어:
 
-- 존이 공을 던졌다. 
+- 존이 공을 던졌다.
 - 공이 존을 던졌다.
 
 이 두 문장은 같은 단어를 포함하지만, 단어 순서에 따라 의미가 전혀 달라집니다. 이러한 시간적 관계는 언어 모델에 나타나며 번역 및 요약과 같은 자연어 작업의 핵심입니다.
 
 시계열 데이터와 텍스트는 먼 거리의 의존성을 가지고 있습니다. 시퀀스에서 떨어져 있는 값들도 서로 영향을 줍니다. 또한, 지역적인 패턴들이 서로 다른 위치에서 반복됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Time series 및 신경망에서의 텍스트 표현
 
@@ -54,7 +83,18 @@ isUpdated: true
 
 ![Image](/assets/img/2024-07-14-AnIntroductiontoDeepLearningforSequentialData_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시계열을 분석할 때 고려해야 할 사항은 추세와 계절성과 같은 것이 더 있습니다. 그러나 신경망에서 이러한 데이터가 어떻게 표현되는지에 대한 차이는 결국 시계열이 값들의 순서이고 텍스트는 벡터의 순서인 사실에서 비롯됩니다.
 
@@ -64,7 +104,18 @@ isUpdated: true
 
 시계열 예측에서는 과거 데이터를 기반으로 내일의 주가나 다음 주의 온도와 같은 연속적인 값을 예측하려고 합니다. 모델은 예측값과 실제 값 사이의 차이를 최소화하도록 학습되는데, 이는 회귀 작업의 일반적인 특성입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 텍스트 생성 또는 보다 적절히 말하자면, 다음 토큰 예측은 이전 토큰이 주어졌을 때 다음 토큰을 예측하도록 모델을 훈련시키는 것을 의미합니다. 자기 회귀 언어 모델링은 다중 클래스 분류 문제로 볼 수 있으며, 각 가능한 토큰을 별도의 클래스로 생각할 수 있습니다. 결과는 어휘 내 모든 가능한 토큰에 대한 확률 분포입니다.
 
@@ -75,7 +126,18 @@ isUpdated: true
 
 여기서 모델은 텍스트 또는 시계열 특성을 범주형 레이블로 매핑하는 방법을 배우기 위해 수동으로 주석이 달린 예제 데이터 세트로 훈련이 필요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 연속 데이터 모델링
 
@@ -85,7 +147,18 @@ isUpdated: true
 
 자연어 처리에서는 언어 번역과 음성 인식과 같은 작업이 전통적으로 규칙 기반 시스템을 사용하여 처리되었습니다. 이들은 인간이 만든 규칙과 문법을 인코딩하며 광범위한 수작업 노력이 필요하며 실제 인간 언어의 미묘함과 변화에 어려움을 겪었습니다. 반면, 나이브 베이즈, 로지스틱 회귀 및 기타 고전적인 기계 학습 모델이 가끔 사용되기도 하지만 텍스트 데이터의 장기적 맥락과 의존성을 효과적으로 포착할 수 없었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 RNN 및 LSTM 네트워크의 소개로 인해 시계열 예측 및 NLP에 대한 문맥적 학습이 가능해졌습니다. 강철 같은 통계적 가정이나 단순한 입력-출력 매핑에 의존하는 대신, RNN은 순차적 데이터로부터 장거리 종속성을 학습할 수 있습니다. 이 혁신은 RNN이 언어 모델링, 감성 분석 및 비선형 예측과 같은 문제에서 뛰어난 성과를 낼 수 있도록 했으며, 고전적인 방법론이 작동하지 않는 문제에 대해 실용적이게 됐습니다. 1980년대에 소개된 이 모델은 계산 능력이 크게 향상된 마지막 10년 사이에 비로소 실용적으로 사용되기 시작했습니다. Google은 2015년 Google Voice에서 LSTM을 사용하기 시작했습니다.
 
@@ -95,7 +168,18 @@ RNN에는 정보가 타임스텝을 걸쳐 지속되도록 하는 재귀적 연�
 
 예측 작업을 수행할 때 RNN은 시계열에서 지난 관측치로 훈련될 수 있어 시간적 패턴을 학습할 수 있습니다. RNN은 각 타임 스텝에서 현재 입력과 이전 숨겨진 상태에 기반하여 그 순서를 처리하고 갱신합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 토큰 예측을 위해 RNN은 단어로 구성된 문장과 같은 텍스트 시퀀스로 훈련됩니다. RNN은 이전 단어를 기반으로 다음 단어를 예측하는 방법을 학습합니다. 은닉 상태는 이전 단어의 맥락을 유지하여 다음 예측을 정하는 데 도움을 줍니다. 각 단계에서 RNN은 다음 토큰에 대한 확률 분포를 출력합니다.
 
@@ -105,7 +189,18 @@ RNN의 과거 맥락을 기억하는 능력은 NLP 및 시계열 분석의 순�
 
 어텐션 메커니즘은 우리가 오늘 알고있는 모든 멋진 LLMs를 가능하게 만들었습니다. 이들은 초기에 RNN을 보완하기 위해 도입되었으며, 예측을 할 때 모델이 입력 시퀀스의 관련 부분에 집중할 수 있게 했습니다. 어텐션 함수는 각 타임 스텝의 중요성을 점수화하고 이러한 가중치를 사용하여 관련 컨텍스트를 추출합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주의는 NLP 및 시계열 모델링에서 연속 작업에 있어서 중요한 구성 요소가 되었습니다. 관련된 입력에 집중함으로써 모델의 정확성과 해석 가능성을 향상시킵니다.
 
@@ -115,7 +210,18 @@ RNN의 과거 맥락을 기억하는 능력은 NLP 및 시계열 분석의 순�
 
 Transformer는 순차 데이터에 대해 최첨단 기술이 되었으며, 해당 구조는 NLP로 BERT 및 시계열로 Temporal Fusion Transformer로 적응되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 시계열 데이터에 대한 기초 모델로
 
@@ -125,7 +231,18 @@ Transformer는 순차 데이터에 대해 최첨단 기술이 되었으며, 해�
 
 대부분의 현재의 예측 접근 방식은 각 새 데이터셋에 개별적으로 맞춰져야 합니다. 이 과정은 시간이 많이 소요되며 도메인 전문 지식이 필요합니다. 이 문제를 해결하기 위해 최근에는 기초 모델의 개념이 시계열 데이터에 적용되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 TimeGPT은 다양한 경제, 기상, 교통 및 소매 판매 등 다양한 분야를 아우르는 1000억 개 이상의 시계열 데이터 포인트로 사전 훈련된 Transformer 기반 신경망입니다. 주요 혁신은 GPT-3와 마찬가지로 TimeGPT가 새로운 시계열 데이터에 대한 정확한 예측을 일반화할 수 있으며 각 새 데이터셋에 대해 재훈련할 필요가 없습니다. 이 zero-shot 기능은 기존의 예측 파이프라인과 비교하여 엄청난 시간과 자원을 절약해줍니다. 기초 모델은 예측을 단일 모델로 단순화하여 몇 줄의 코드로 모든 시계열에 적용할 수 있습니다.
 
@@ -135,7 +252,18 @@ TimeGPT은 다양한 경제, 기상, 교통 및 소매 판매 등 다양한 분�
 
 시계열과 NLP는 순차적 데이터 유형으로 많은 유사성을 공유합니다. 우리는 RNN, LSTM 및 Transformers와 같은 구조를 사용하여 두 가지를 모두 모델링합니다. 딥 러닝이 발전함에 따라 이러한 도메인 사이를 계속 넘나들 것으로 기대됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2010년대는 통계 모델에 의해 지배되던 영역을 신경망이 정복하는 것이라고 할 수 있는 논다. 2020년대는 트랜스포머가 자신의 지배력을 공고히 하는 것이라고 예상되며, 연구자들은 이 강력한 모델의 한계를 계속해서 허무는 중입니다.
 
@@ -145,7 +273,18 @@ TimeGPT은 다양한 경제, 기상, 교통 및 소매 판매 등 다양한 분�
 
 ## 참고 자료
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [1] 오래된 단기 기억 - 위키백과
 

@@ -3,17 +3,13 @@ title: "아두이노 사용 시 주의할 점 파헤치기 Part 3"
 description: ""
 coverImage: "/assets/img/2024-07-12-ArduinohasbeencheatingonyouPart3_0.png"
 date: 2024-07-12 23:00
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-ArduinohasbeencheatingonyouPart3_0.png
 tag: Tech
 originalTitle: "Arduino has been cheating on you. Part 3"
 link: "https://medium.com/@carlosaldea/arduino-has-been-cheating-on-you-part-3-c1d566b009de"
 isUpdated: true
 ---
-
-
-
-
 
 프로그램이 보드로 전달되는 방법은 어떻게 되나요?
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 보드에 프로그램을 전송하는 방법
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로 작성한 스케치를 컴파일하고(.c 파일을 .ino로 이름을 변경한 것임을 기억해 주세요) 보드의 플래시 메모리에 해당 이진 파일을 쓰는 시간입니다. 이를 "플래싱"이라고 부릅니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 여기서 말하는 것은 부트로더입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마이크로컨트롤러의 플래시 메모리에 애플리케이션을 작성하려면 일반적으로 "프로그래머"라고 불리는 외부 회로가 필요합니다 (JLink가 하나의 예일 수 있지만 그 외에도 몇 가지 더 있을 수 있습니다). 특히, 플래시 메모리가 비어 있는 경우(일반적으로 새로운 마이크로컨트롤러인 경우) 마이크로컨트롤러에 프로그래머가 필요합니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 ## 부트로더란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전에 언급한 대로, 이것은 간단한 것입니다. 단지 마이크로컨트롤러의 플래시에 작성하는 프로그램으로, 두 가지를 수행할 수 있게 해줍니다.
 
@@ -54,7 +83,18 @@ isUpdated: true
 
 그러니까, 여러분이 응용 프로그램을 작성을 마치고 "플래시"를 클릭하면, 아두이노 보드 내부에서는 무슨 일이 일어나느냐면:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 보드가 재설정되고 부트로더가 실행됩니다.
 - 부트로더는 애플리케이션이 작성될 것을 감지합니다.
@@ -67,7 +107,18 @@ isUpdated: true
 
 이 시리즈의 다음이자 마지막 장에서 아마도 당신에게 숨겨진 아두이노에서 가장 중요한 부분에 대해 이야기하겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 곧 다시 만나요!
 

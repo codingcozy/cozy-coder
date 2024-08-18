@@ -3,17 +3,13 @@ title: "이미지에서 텍스트 요약까지 Tesseract와 BART로 텍스트 �
 description: ""
 coverImage: "/assets/img/2024-07-07-FromImagetoSummaryUsingTesseractandBARTforTextExtractionandSummary_0.png"
 date: 2024-07-07 22:46
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-FromImagetoSummaryUsingTesseractandBARTforTextExtractionandSummary_0.png
 tag: Tech
 originalTitle: "From Image to Summary: Using Tesseract and BART for Text Extraction and Summary"
 link: "https://medium.com/@bambadij/from-image-to-summary-using-tesseract-and-bart-for-text-extraction-and-summary-b74e6eb77f0b"
 isUpdated: true
 ---
-
-
-
-
 
 이미지 태그를 Markdown 형식으로 변경해주세요.
 
@@ -27,23 +23,42 @@ isUpdated: true
 
 프로젝트 설정을 위해 다음 단계를 따라주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 1 가상 환경 생성하기
 
 가상 환경을 만드는 것은 의존성을 관리하고 깨끗한 작업 공간을 유지하는 데 도움이 됩니다.
 
-
 python -m venv env
-source env/bin/activate  # 윈도우의 경우, `env\Scripts\activate`를 사용하세요
-
+source env/bin/activate # 윈도우의 경우, `env\Scripts\activate`를 사용하세요
 
 - 2 requirements.txt 파일 생성하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Requirements.txt
-
 
 ```js
 tesseract==4.41.2
@@ -64,7 +79,18 @@ To install the necessary libraries, run the following command:
 pip install -r requirements.txt
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 파이썬 애플리케이션 파일 app.py를 설정해봅시다. 필요한 import와 함수들을 추가해주세요.
 
@@ -79,17 +105,39 @@ import logging
 
 모델을 초기화합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 BART를 초기화했어요. hugging에서 파이프라인을 사용했어요.
 
 ```js
-summarize =pipeline('summarization',model="facebook/bart-large-cnn")
+summarize = pipeline("summarization", (model = "facebook/bart-large-cnn"));
 ```
 
 이미지에서 텍스트를 추출하는 함수를 만들어보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 def image_extract(image):
@@ -115,9 +163,18 @@ def image_extract(image):
 
 Gradio 인터페이스를 생성하세요.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 이 아직 새로운 프로젝트입니다. 더 궁금한 점이 있으시면 언제든지 물어주세요! 😊
 
@@ -130,9 +187,8 @@ outputs=gr.Textbox(label="요약"),
 title="이미지에서 요약으로: Bart et Tesseract 사용"
 )
 
-if __name__=="__main__":
+if **name**=="**main**":
 interface.lunch()
-
 
 어플리케이션 실행:
 
@@ -142,8 +198,18 @@ python.app
 
 웹 브라우저 열고 127.0.0.1:7860을 입력하세요. 🌟
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-07-FromImagetoSummaryUsingTesseractandBARTforTextExtractionandSummary_1.png)
 

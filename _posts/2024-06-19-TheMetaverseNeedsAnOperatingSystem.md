@@ -3,18 +3,13 @@ title: "메타버스에는 운영 체제가 필요합니다"
 description: ""
 coverImage: "/assets/img/2024-06-19-TheMetaverseNeedsAnOperatingSystem_0.png"
 date: 2024-06-19 04:42
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-TheMetaverseNeedsAnOperatingSystem_0.png
 tag: Tech
 originalTitle: "The Metaverse Needs An Operating System"
 link: "https://medium.com/@theo/the-metaverse-needs-an-operating-system-5fe135ec5b9"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![이미지](/assets/img/2024-06-19-TheMetaverseNeedsAnOperatingSystem_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 첫 번째 시도에서는 항상 작동하지 않았지만, 많은 사람들에게 소프트웨어 엔지니어링 또는 게임 개발의 시작이었습니다. 그것은 컴퓨팅의 황금 시대 같았고, 다른 언어의 단어를 마법 같은 것으로 변환하는 발견이었습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금 솔직히 말하자면, 대부분의 사람들은 귀찮아하는 경향이 있어요.
 
@@ -35,7 +40,18 @@ isUpdated: true
 
 가장 큰 문제는 대부분의 메타버스 토론이 기존 인프라와 소프트웨어 원칙에 기반을 두고 있다는 겁니다. 중앙집중형 구조를 기반으로 소프트웨어 스택의 여러 버전을 만드는 중이에요 — 여전히 모든 것이 무엇보다도 Windows 위에서 동작하고 있는데요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 메타버스와 웹3의 지형과 제안된 구성 요소를 살펴보면 아래와 같은 내용이 나옵니다 — 음, 그들은 심지어 OS라고도 부르지만, 이것은 지친 매튜 볼 블로그 게시물을 일부 굽은 사각형을 사용하여 재구성 한 것뿐입니다.
 
@@ -45,7 +61,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-19-TheMetaverseNeedsAnOperatingSystem_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 볼도 더러운 손을 대기 싫어해요. 그는 가능한 한 많은 기존 소프트웨어 스택을 던져보고 힘이 이 응용 프로그램 우주를 함께 묶을 것이라고 바라고 있습니다.
 
@@ -55,7 +82,18 @@ isUpdated: true
 
 (내가 말하고 싶은 것은, 3D 및 "공간 웹"을 위해 운영 체제를 작성하는 것이 이미 미래를 제한한다는 것입니다. 왜냐하면 시간을 고려해야 하며, 그리고 마인크래프트 내의 마인크래프트 예시와 같이 다차원 가상 머신 상태를 고려해야 하는 것이죠)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 시점에서 멍청해 보일지도 모르겠지만 여기서 그만 두셔도 괜찮아요.
 
@@ -65,7 +103,18 @@ isUpdated: true
 
 메타버스를 구축하는 데는 주로 Unity3D 및 Unreal Engine과 같은 게임 엔진이 의존해 왔지만, 앞으로 몇 년 동안 두세 개의 주요 솔루션에서 그 제어권을 빼앗으려고 하는 벤처 자금이 투입될 것입니다. 이는 또한 각각의 메타버스 버전이 존재할 플랫폼도 다르게 될 것을 의미합니다. 현재 이 플랫폼들은 PC, 모바일 및 콘솔에서 상호 교환이 가능하며 접근이 용이하지만, 더 정교하고 잠재적으로 독점적인 세계가 존재할 것이며, 이는 하나 이상의 플랫폼을 제외하고 액세스를 제한할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 API들은 상호 운용성과 생태계 전체에서 도구를 사용해야 하는 필요에 중요한 요소입니다. 하지만 플랫폼 간의 경쟁과 분할로만큼 실버 불릿으로 작용하지는 않을 것입니다.
 
@@ -75,7 +124,18 @@ API들은 상호 운용성과 생태계 전체에서 도구를 사용해야 하�
 
 하지만 미래에는 우리가 달성하려는 목적과 비전을 위해 특별히 개발된 운영 체제 위에 모두 앉아 있는 상황이라면 어떨까요? 그렇다면 우리가 사용할 수 있는 선택지는 무엇이 있을까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리눅스는 1991년에 출시되었으며, 토르발즈가 리눅스 커널을 제작하고 이를 기반으로 발전시키는 데 약 1년이 걸렸습니다. 따라서, 우리가 새로운 운영 체제를 처음부터 개발할 수 없다는 것은 아닙니다.
 
@@ -85,7 +145,18 @@ API들은 상호 운용성과 생태계 전체에서 도구를 사용해야 하�
 
 그렇다면 이것이 운영 체제인가요? 아니라고 생각됩니다. 이것은 다른 플랫폼에 추가된 몇 가지 기능을 가진 또 다른 플랫폼일 뿐입니다. 아마도 이미 일반적인 운영 체제 플랫폼 위에 구축되어 있을 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오픈 소스 메타버스 프로젝트에서 약간 더 흥미로운 일이 벌어졌습니다. 오픈 소스 메타버스 프로젝트(OSMP)는 다수 참가자가 공유하는 가상 세계 온라인 플랫폼이었습니다. 이 플랫폼은 2004년 Hugh Perkins와 Jorge Lima에 의해 공동 설립된 무료 오픈 소스 소프트웨어였습니다.
 
@@ -95,7 +166,18 @@ OSMP는 World Wide Web을 루트로 하여 Second Life, Active Worlds, There 등
 
 그리고 다른 것이 없다면 이것이 예조이어야 합니다 - 왜냐하면 잘못된 기반 위에 구축된 플랫폼이 이동할 길이 아닙니다. 항상 오픈 메타버스와 탈중앙화된 웹을 만들기 위한 의지와 열망이 있었지만, 기본 레이어가 잘못되어 있기 때문에 공허하고 단편화된 꿈으로 남아 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상호 운용성은 예를 들어 플랫폼 간의 다리를 건설하는 것이 아니라 운영 체제 자체의 깊은 레벨에서 존재하는 것에서 나옵니다.
 
@@ -105,7 +187,18 @@ OSMP는 World Wide Web을 루트로 하여 Second Life, Active Worlds, There 등
 
 Solipsis의 중요한 목표는 서버 소유권과 같은 사적 이익의 영향으로부터 가능한 한 독립적인 가상 세계를 만드는 것이었습니다. 이를 위해 전통적인 서버-클라이언트 방식이 아닌 피어 투 피어 모델을 기반으로 합니다. 또한 사용자가 개별 가상 세계 세그먼트에서 인터페이스와 콘텐츠를 더 유연하게 디자인할 수 있도록 지향하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 이곳은 분산 메타버스 플랫폼이 등장했습니다!
 
@@ -115,7 +208,18 @@ Solipsis의 중요한 목표는 서버 소유권과 같은 사적 이익의 영�
 
 이로써 Solipsis는 2008년부터 인프라 관점에서 분산형 및 개방형 메타버스를 구축하는 데 대한 더욱 신빙성 있는 시도 중 하나로 형성되기 시작했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 메타버스 플랫폼으로서, 이것은 꽤 가까운 대목이에요.
 
@@ -125,7 +229,18 @@ Solipsis의 중요한 목표는 서버 소유권과 같은 사적 이익의 영�
 
 <img src="/assets/img/2024-06-19-TheMetaverseNeedsAnOperatingSystem_4.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어 Leap Motion은 진정한 3D 운영 체제에 대해 이야기하지만, 기사가 계속되면 공간 브라우저 개념에 대해 자세히 논의합니다.
 
@@ -135,7 +250,18 @@ Solipsis의 중요한 목표는 서버 소유권과 같은 사적 이익의 영�
 
 그러나 지금까지 언급된 모든 것에 대한 작업이 이루어지더라도 새로운 운영 체제를 위해 새로운 커널을 빌드해야 하는 점에 비해 아무것도 다가오지 않는다는 것을 언급해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Metaverse Diagram](/assets/img/2024-06-19-TheMetaverseNeedsAnOperatingSystem_5.png)
 
@@ -145,7 +271,18 @@ Solipsis의 중요한 목표는 서버 소유권과 같은 사적 이익의 영�
 
 그리고 이건 그들을 두렵게 만들기도 하는데, 또 다른 의미를 지닌다는 거야.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 먼저 온 것은 닭인가요, 계란인가요?
 
@@ -155,7 +292,18 @@ Solipsis의 중요한 목표는 서버 소유권과 같은 사적 이익의 영�
 
 닐 스티븐슨의 라미나1 화이트페이퍼조차 메타버스나 웹3 운영 체제에 대해 언급하지 않는다는 사실은 많은 것을 의미합니다. 이것은 극도로 무시되었거나 전혀 이상한 일이지만요. 물론, 메타버스의 대부인 신경질적인 친 아버지와 맞서고 싶어할 사람이 누가 있을까요? 결코 그런 실수를 하지 않겠죠!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 생각에는 대부분의 이러한 새로운 시도는 20~30년 전에 있었던 OG(Original Gangster)들에 의해 주도되며, 새로운 OS를 만들어 챔피언으로 등극하고 수용을 기다리면서 새 산업을 만드는 것과 같이 번거롭게 또 다시 건설하려는 인내심이나 시간이 부족하다고 생각합니다.
 
@@ -165,7 +313,18 @@ Solipsis의 중요한 목표는 서버 소유권과 같은 사적 이익의 영�
 
 우리는 지금 사용 가능한 실리콘 아키텍처를 기반으로 소프트웨어를 작성하고 있습니다. 이는 소프트웨어가 계속 해결해야 하는 병목 현상을 만들어냅니다. 왜냐하면 칩들은 분산형 미래를 위해 만들어지지 않았기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떤 면에서 보면, CPU는 사실상 "중앙 집중식 처리 장치"를 의미할 수도 있는데, 실제로 우리가 필요로 하는 것은 DCU - "분산 처리 장치"일지도 모릅니다.
 
@@ -175,7 +334,18 @@ Solipsis의 중요한 목표는 서버 소유권과 같은 사적 이익의 영�
 
 새로운 유형의 칩을 만드는 데에는 아직도 돈이 있습니다. Graphcore를 예로 들어보면, 머신러닝과 AI 가속화를 위해 특별히 설계된 새로운 유형의 실리콘을 개발하고 있습니다. 만약 참으로 개방적이고 분산되며 상호 운용할 수 있는 메타버스를 만들기 위해서는 Web3가 또한 새로운 유형의 하드웨어 기초 위에 앉아 있어야 할 필요가 있을까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 분산 시스템이나 분산 웹을 위해 완전히 설계된 CPU 또는 GPU가 있을까요?
 
@@ -185,7 +355,18 @@ Solipsis의 중요한 목표는 서버 소유권과 같은 사적 이익의 영�
 
 사실, Lego가 고급 장난감 라인 Mindstorms를 위한 내장형 운영 체제를 갖고 있지만, 우리는 웹의 미래에 깊은 영향을 미칠 것으로 기대되는 것을 위해 하나도 갖지 않고 있거나 생각하지 않고 있다면 이게 진짜 웃긴 일이라고 생각해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](https://miro.medium.com/v2/resize:fit:996/0*DsDWxODAiOZ9Eh7K.gif)
 

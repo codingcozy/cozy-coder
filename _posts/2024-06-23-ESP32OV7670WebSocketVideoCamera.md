@@ -3,17 +3,13 @@ title: "ESP32OV7670  WebSocket 비디오 카메라 설정하는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-23-ESP32OV7670WebSocketVideoCamera_0.png"
 date: 2024-06-23 17:41
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-ESP32OV7670WebSocketVideoCamera_0.png
 tag: Tech
 originalTitle: "ESP32+OV7670 — WebSocket Video Camera"
 link: "https://medium.com/@mudassar.tamboli/esp32-ov7670-websocket-video-camera-26c35aedcc64"
 isUpdated: true
 ---
-
-
-
-
 
 # 소개
 
@@ -29,7 +25,18 @@ isUpdated: true
 - 휴대용
 - 쉽게 구성 가능
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 마이크로컨트롤러
 
@@ -39,7 +46,18 @@ isUpdated: true
 
 아두이노 우노
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아두이노 Uno를 실험해 보았어요. 하드웨어에서 이미지를 가져오는 것은 복잡한 작업이에요. Ethernet Shield가 없으면 캡처된 프레임을 SD 카드에 먼저 쓰고 Serial 포트를 통해 전송해야 해요... 그러면 비디오를 만들기에는 너무 느려요. 또한 8MHZ에서 이미지를 가져오는 것도 조심스러워요.
 
@@ -49,7 +67,18 @@ ESP32는 제 상황에 매우 유망해 보였어요. CPU는 카메라 클럭 (X
 
 ESP32에서 OV7670을 사용하는 우수한 라이브러리를 제공하는 http://bitluni.net/esp32-i2s-camera-ov7670/를 발견했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 비디오 기능이 없으며 메모리 제약으로 320x240 프레임을 지원하지 않습니다.
 
@@ -59,7 +88,18 @@ OV7670+ESP32 회로 인터페이스 및 라이브러리 구현에 대한 세부 
 
 - 비디오 스트리밍에는 캡처된 이미지 프레임의 고속 전송이 필요할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 지연 시간을 낮추려면 데이터 전송은 비동기적이어야 합니다.
 
@@ -69,7 +109,18 @@ OV7670+ESP32 회로 인터페이스 및 라이브러리 구현에 대한 세부 
 
 # 웹소켓
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 웹소켓은 실시간으로 데이터를 전송할 수 있어서 오버헤드가 낮습니다.
 - 클라이언트나 서버는 서로 기다릴 필요 없이 대화를 시작할 수 있습니다.
@@ -84,7 +135,18 @@ OV7670+ESP32 회로 인터페이스 및 라이브러리 구현에 대한 세부 
 
 # 웹소켓을 사용한 비디오 스트리밍 알고리즘
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 브라우저 클라이언트와 ESP32 간에 웹소켓 연결을 설정합니다.
 - 브라우저가 "start" 메시지를 ESP32로 보냅니다. 시작 메시지에는 이미지 해상도 유형인 80x60, 160x120 또는 320x240가 포함됩니다.
@@ -97,8 +159,18 @@ OV7670+ESP32 회로 인터페이스 및 라이브러리 구현에 대한 세부 
 - ESP32를 5V 전원에 연결합니다. ESP32가 부팅되고 액세스 포인트 및 워크 스테이션으로 자신을 구성합니다. 제공된 옵션 중 가장 좋은 Wi-Fi 네트워크에 연결합니다.
 - PC/스마트폰을 Esp32AP 액세스 포인트에 연결합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-23-ESP32OV7670WebSocketVideoCamera_0.png" />
 
@@ -108,8 +180,18 @@ QQ-VGA (120x160) is the default display canvas.
 
 <img src="/assets/img/2024-06-23-ESP32OV7670WebSocketVideoCamera_1.png" />
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. ESP32는 웹 서버 역할을 하며, 웹 페이지를 제공하여 JavaScript 프로그램을 포함하고 있습니다. 이 프로그램은 웹 소켓을 통해 ESP32에 연결하고 바이너리 이미지 데이터를 캡처하여 HTML5 캔버스에 표시합니다.
 
@@ -119,7 +201,18 @@ QQ-VGA (120x160) is the default display canvas.
 
 웹 소켓 클라이언트는 웹 브라우저입니다. 따라서 표시 장치는 크로스 플랫폼입니다. PC와 HTML5 캔버스를 지원하는 스마트폰에서 볼 수 있습니다. 아래 코드는 웹 클라이언트가 웹 소켓을 처리하는 방법을 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마침내 HTML 캔버스가 픽셀 조작을 통해 이진 데이터를 표시하는 방법을 확인해 봅시다. 캡처 형식은 RGB565입니다. 따라서 각 픽셀은 16비트로 표시됩니다. RGB565은 픽셀을 조작하기 전에 RGB888 형식으로 변환됩니다.
 
@@ -129,8 +222,18 @@ QQ-VGA (120x160) is the default display canvas.
 
 비디오는 80x60(QQQ-VGA), 160x120(QQ-VGA), 320x240(Q-VGA)입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![ESP32OV7670WebSocketVideoCamera_3](/assets/img/2024-06-23-ESP32OV7670WebSocketVideoCamera_3.png)
 
@@ -140,8 +243,18 @@ QQ-VGA (120x160) is the default display canvas.
 
 # PCB Board
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-23-ESP32OV7670WebSocketVideoCamera_5.png" />
 

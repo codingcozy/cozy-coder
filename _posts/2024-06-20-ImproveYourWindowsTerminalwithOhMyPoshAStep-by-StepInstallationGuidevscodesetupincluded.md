@@ -3,16 +3,13 @@ title: "Windows 터미널을 더욱 향상시켜보세요 Oh My Posh와 함께�
 description: ""
 coverImage: "/assets/img/2024-06-20-ImproveYourWindowsTerminalwithOhMyPoshAStep-by-StepInstallationGuidevscodesetupincluded_0.png"
 date: 2024-06-20 14:51
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-ImproveYourWindowsTerminalwithOhMyPoshAStep-by-StepInstallationGuidevscodesetupincluded_0.png
 tag: Tech
 originalTitle: "Improve Your Windows Terminal with Oh My Posh: A Step-by-Step Installation Guide(vscode setup included)"
 link: "https://medium.com/@pooya-ghorbani-hafez/improve-your-windows-terminal-with-oh-my-posh-a-step-by-s-ep-installation-guide-vscode-setup-92252a279477"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-20-ImproveYourWindowsTerminalwithOhMyPoshAStep-by-StepInstallationGuidevscodesetupincluded_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 Oh My Posh는 프롬프트 문자열을 조정할 수 있는 모든 셸에 대한 사용자 정의 프롬프트 엔진입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Oh My Posh를 사용해야 하는 이유
 
@@ -35,7 +43,18 @@ Oh My Posh는 프롬프트 문자열을 조정할 수 있는 모든 셸에 대�
 
 터미널을 개선하고 싶나요? Oh My Posh를 설치하기 위해 이 간단한 단계를 따르세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **단계 1:** PowerShell 및 Microsoft 터미널을 설치합니다 (이미 설치되어 있지 않은 경우).
 
@@ -47,7 +66,18 @@ Oh My Posh를 설치하려면 Microsoft Store에서 설치하거나 PowerShell�
 winget install JanDeDobbeleer.OhMyPosh -s winget
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단계 3: 터미널 설정 구성
 
@@ -59,7 +89,18 @@ winget install JanDeDobbeleer.OhMyPosh -s winget
 
 ![이미지](/assets/img/2024-06-20-ImproveYourWindowsTerminalwithOhMyPoshAStep-by-StepInstallationGuidevscodesetupincluded_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - VS Code를 사용하려면 settings.json 파일로 이동해서 다음 코드를 추가하세요:
 
@@ -74,7 +115,18 @@ winget install JanDeDobbeleer.OhMyPosh -s winget
 notepad $PROFILE
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 명령어에서 오류가 발생하면 먼저 프로필을 만들어야 합니다:
 
@@ -88,7 +140,18 @@ New-Item -Path $PROFILE -Type File -Force
 oh-my-posh init pwsh | Invoke-Expression
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 번 추가하면 변경 사항이 적용되려면 프로필을 다시로드하세요:
 
@@ -100,7 +163,18 @@ oh-my-posh init pwsh | Invoke-Expression
 
 ![이미지](/assets/img/2024-06-20-ImproveYourWindowsTerminalwithOhMyPoshAStep-by-StepInstallationGuidevscodesetupincluded_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로운 PowerShell 세션을 관리자 권한으로 열어서 다음 코드를 추가해야 해요(자세한 내용은 이 링크에서 확인할 수 있어요):
 
@@ -114,7 +188,18 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 . $PROFILE
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 이와 같은 오류가 vscode에서 발생한다면:
 
@@ -126,7 +211,18 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 Install-Module PsReadLine -Force
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 vscode에서 이런 식으로 나쁜 인코딩이 발생한다면:
 
@@ -149,7 +245,18 @@ Install-Module PsReadLine -Force
   }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **단계 4: 테마 선택**
 
@@ -159,6 +266,17 @@ Install-Module PsReadLine -Force
 
 ![이미지](/assets/img/2024-06-20-ImproveYourWindowsTerminalwithOhMyPoshAStep-by-StepInstallationGuidevscodesetupincluded_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 튜토리얼을 즐기시길 바라며, 만약 오류를 만나게 된다면 도움이 되어 문제를 해결하는 데 도움이 되기를 바랍니다 😍.

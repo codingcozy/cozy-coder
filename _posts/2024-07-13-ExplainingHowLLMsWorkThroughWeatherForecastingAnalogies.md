@@ -3,18 +3,13 @@ title: "날씨 예보로 설명하는 대형 언어 모델LLM 작동 원리"
 description: ""
 coverImage: "/assets/img/2024-07-13-ExplainingHowLLMsWorkThroughWeatherForecastingAnalogies_0.png"
 date: 2024-07-13 03:43
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-ExplainingHowLLMsWorkThroughWeatherForecastingAnalogies_0.png
 tag: Tech
 originalTitle: "Explaining How LLMs Work Through Weather Forecasting Analogies"
 link: "https://medium.com/ai-mind-labs/explaining-how-llms-work-through-weather-forecasting-analogies-b8f49e32b357"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![Image](/assets/img/2024-07-13-ExplainingHowLLMsWorkThroughWeatherForecastingAnalogies_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 ## AI 엔지니어를 향한 꿈꾸는 이들에게
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AI 엔지니어, 연구원 또는 취미로 공부하는 사람들은 LLMs와 기술적 관점에서 소통하는 데 필수적인 트랜스포머에 대해 알고 있어야 합니다.
 
@@ -35,7 +40,18 @@ AI 엔지니어, 연구원 또는 취미로 공부하는 사람들은 LLMs와 �
 
 이 기사를 마치면, 아래 항목들을 알게 될 것입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 변형기(Transformer)가 어떻게 작용하는지에 대해 더 확신 있게 표현하는 방법을 배웁니다.
 - Llama 및 Mistral 모델에서 보여주는 파생 LLM(Large Language Model) 아키텍처 몇 가지를 이해합니다.
@@ -50,7 +66,18 @@ AI 엔지니어, 연구원 또는 취미로 공부하는 사람들은 LLMs와 �
 
 먼저 추상적인 설명으로 시작해보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 트랜스포머는 자가 주의 메커니즘으로 구분되는 딥 뉴럴 네트워크 유형입니다. 자연어 처리(때로는 비전)에서 뛰어나며 다음과 같은 다양한 작업에 능통합니다:
 
@@ -67,7 +94,18 @@ AI 엔지니어, 연구원 또는 취미로 공부하는 사람들은 LLMs와 �
 
 이제 트랜스포머 아키텍처에 대해 좀 더 구체적으로 알아봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Transformer City에 오신 것을 환영합니다
 
@@ -77,7 +115,18 @@ AI 엔지니어, 연구원 또는 취미로 공부하는 사람들은 LLMs와 �
 
 배경이 명확해지면, 이제 인코더와 디코더 타워가 어떻게 협력하여 날씨 예보를 제공하는지 살펴봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 인코더 타워
 
@@ -87,7 +136,18 @@ AI 엔지니어, 연구원 또는 취미로 공부하는 사람들은 LLMs와 �
 
 탑 층을 제외하고, 타워의 각 층은 트랜스포머의 인코더 블록의 층을 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 탑의 맨 꼭대기에서 입력 데이터를 받았어요
 
@@ -97,7 +157,18 @@ AI 엔지니어, 연구원 또는 취미로 공부하는 사람들은 LLMs와 �
 
 인코더 탑의 맨 꼭대기는 360도 관측이 가능해 날씨 데이터를 모든 방향에서 캡처할 수 있어요. 이는 문장에서 단어의 상대적 위치나 순서열에서 항목들의 상대적 위치를 잡아내는 트랜스포머 네트워크의 포지셔널 인코딩과 일치해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 날씨 과학자들이 멀티헤드 어텐션을 수행합니다
 
@@ -107,17 +178,39 @@ AI 엔지니어, 연구원 또는 취미로 공부하는 사람들은 LLMs와 �
 
 어텐션은 수학적 연산입니다. 수학적 용어로는 우리는 단순히 쿼리와 키 값 쌍을 출력으로 매핑하는 것입니다. 구체적으로 말하면, 이는 수석 과학자가 그들의 팀에게 데이터에서 특정 날씨 패턴을 조사하도록 지시하는 것 (쿼리)인 것입니다. 과학자들은 관련 데이터 포인트를 찾습니다 (키), 해석합니다 (값), 그리고 데이터에 대해 추가 분석을 수행하고 보고서를 작성합니다 (출력). 이 모든 것의 목적은 미래를 예상하기 위해 어떤 날씨 패턴이 관련될 수 있는지 식별하는 것입니다. 문장을 조작하는 트랜스포머의 맥락에서, 어텐션 메커니즘은 예측 작업에 관련될 수 있는 단어를 식별하며, 일반적으로 문장에서 다음 단어를 예측합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 다층적으로 운영되는 시스템
 
-최상층에서는 날씨 데이터가 직접 관측, 측정되고 기록됩니다. 이 데이터는 아래층으로 공유되어 과학자 팀들에게 분배됩니다. 이 팀들은 이전에 설명한 관심 작업을 수행하고 결과 보고서를 다음 아래층으로 공유합니다. 이 과정은 탑의 최하층에 이르기까지 반복됩니다. 
+최상층에서는 날씨 데이터가 직접 관측, 측정되고 기록됩니다. 이 데이터는 아래층으로 공유되어 과학자 팀들에게 분배됩니다. 이 팀들은 이전에 설명한 관심 작업을 수행하고 결과 보고서를 다음 아래층으로 공유합니다. 이 과정은 탑의 최하층에 이르기까지 반복됩니다.
 
 층간 처리는 병렬로 이루어지며 여러 팀의 연구원이 동시에 동일한 보고서에 주의 작업을 진행할 수 있습니다.
 
 그러나 층간 처리는 순차적으로 이루어집니다. 아래층의 과학자들은 그들 앞층의 과학자들이 보고서를 처리하고 공유한 후에 그들의 처리를 시작할 수 있어야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 복잡한 패턴 발견을 위한 자기 주의
 
@@ -127,7 +220,18 @@ AI 엔지니어, 연구원 또는 취미로 공부하는 사람들은 LLMs와 �
 
 이것이 바로 트랜스포머 네트워크에서 일어나는 일입니다. 층을 깊이 들어갈수록 표현이 더 복잡하고 추상적해집니다! 이 특성 때문에 트랜스포머 및 인코더 타워는 데이터의 복잡한 관계를 포착할 수 있게 되지만, 우리가 그들이 무엇을 하는지 이해하지 못하는 것 역시 의미합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 디코더 타워와 지식을 공유하기
 
@@ -137,7 +241,18 @@ AI 엔지니어, 연구원 또는 취미로 공부하는 사람들은 LLMs와 �
 
 디코더 타워의 주요 역할은 날씨 예보를 작성하는 것입니다. 이를 위해 인코더 타워의 보고서와 이전 예보를 활용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 층을 쌓아가는 과정
 
@@ -147,7 +262,18 @@ AI 엔지니어, 연구원 또는 취미로 공부하는 사람들은 LLMs와 �
 
 각 층에서 디코더 타워는 한 가지가 아닌 두 개의 어텐션 연산을 수행합니다. 이는 디코더 타워가 자신의 예측과 인코더 타워에서 공유한 복잡한 보고서를 모두 고려하여 예측을 생성하기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **엔코더 타워와 달리 디코더 타워는 자신만의 기상 데이터를 수집하는 대신, 엔코더 타워로부터의 복잡한 보고서에 의존하여 예보를 생성합니다. 그 보고서는 디코더 타워의 과학자들에게 도시 서쪽에서의 날씨 영향에 대한 더 넓은 시각을 제공해줍니다. 이를 효과적으로 중앙 지역 날씨를 예보하기 위해 고려해야 할 것입니다. 더불어 디코더 타워는 서쪽 지역을 위한 예보를 동부 지역을 위한 예보로 이어지게 생성합니다. 이 과정은 서쪽부터 동쪽까지 체계적으로 실행되며, 도시의 서단 가장자리로부터의 위치 이동을 고려한 타워의 예보가 수행됩니다.**
 
@@ -157,7 +283,18 @@ AI 엔지니어, 연구원 또는 취미로 공부하는 사람들은 LLMs와 �
 
 **디코더 타워는 셀프-어텐션 속성을 갖고 있습니다. 주요 차이점은 이 타워의 모든 과학자가 도시 서쪽의 날씨 패턴 뿐만 아니라 이전에 생성된 날씨 예보에 대해 인식하고 있다는 것입니다. 본질적으로 여기서의 셀프-어텐션은 각 과학자에게 날씨 패턴에 대한 전역과 지역적 관점을 부여해주며, 이후 예보에 영향을 줄 수 있습니다. 이 프로세스는 두 개의 별도 어텐션 작업을 통해 구현됩니다: 첫 번째는 예보를 포착하며, 두 번째는 초기 어텐션 레이어의 출력과 엔코더로부터의 보고서를 흡수합니다.**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 예측 생성하기
 
@@ -167,7 +304,18 @@ AI 엔지니어, 연구원 또는 취미로 공부하는 사람들은 LLMs와 �
 
 트랜스포머 방송사(TBC)의 기상 예보 시스템은 처음에 정확도에서 일부 어려움을 겪었습니다. 패턴 인식과 정밀도를 강화하기 위해 TBC 경영진은 역사적 날씨 데이터를 활용하여 모든 과학자들을 위한 체계적인 교육 프로그램을 시행했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 TBC 과학자들은 미래 사건을 미리 알지 못한 채 날씨를 예측하는 도전에 직면하고 있습니다. 이 현실은 그들의 훈련 체제에서 반영되었습니다. 여기서 과학자들은 역사적인 날씨 기록인 방대한 양의 과거 기상 사건에 접근하여 기술을 개발했습니다.
 
@@ -179,7 +327,18 @@ TBC 과학자들은 미래 사건을 미리 알지 못한 채 날씨를 예측�
 
 이 프로세스는 대규모 텍스트 데이터에 대한 transformer의 사전 훈련 단계와 유사하며, 디코더가 미리 예측해야 할 텍스트를 아직 보지 않도록 가리기를 활용하여 확보합니다. 이는 미래를 알고 있는 상태에서 날씨를 예측하는 예보자들에 상당한 도전으로, 현실을 무시하는 위업입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -189,7 +348,18 @@ TBC 과학자들은 미래 사건을 미리 알지 못한 채 날씨를 예측�
 
 만약 인공지능 기술을 향상시키고 싶다면, 제 코스의 대기 리스트에 가입해 보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AI-전환을 희망하는 비즈니스를 위한 자문 상담을 신청하세요.
 
@@ -199,7 +369,18 @@ AI-전환을 희망하는 비즈니스를 위한 자문 상담을 신청하세�
 
 ![AI Mind](https://miro.medium.com/v2/resize:fit:500/0*5Wm7sOfTpe5DEbhg.gif)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 커뮤니티에 참여해 주셔서 감사합니다! 떠나시기 전에:
 

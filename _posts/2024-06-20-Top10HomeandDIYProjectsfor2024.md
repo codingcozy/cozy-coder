@@ -3,17 +3,13 @@ title: "2024년을 위한 상위 10가지 홈 및 DIY 프로젝트"
 description: ""
 coverImage: "/assets/img/2024-06-20-Top10HomeandDIYProjectsfor2024_0.png"
 date: 2024-06-20 16:20
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-Top10HomeandDIYProjectsfor2024_0.png
 tag: Tech
 originalTitle: "Top 10 Home and DIY Projects for 2024"
 link: "https://medium.com/good-vibes-for-you/top-10-home-and-diy-projects-for-2024-6338313a166c"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-06-20-Top10HomeandDIYProjectsfor2024_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 버섯 램프가 세련된 컴백을 이루고 있습니다. 이 귀여운 기능적 조명 솔루션은 가정 인테리어에 자연의 터치를 더해줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 왜 핫한가요: 레트로 미학과 현대적 디자인을 결합한 버섯 램프는 각 방에 독특하고 아늑한 빛을 선사합니다.
 - DIY 팁: 세라믹, 나무 또는 재활용한 소재와 같은 간단한 재료를 사용하여 직접 만들 수 있어요.
@@ -35,7 +42,18 @@ isUpdated: true
 - 왜 스타일리쉬한가요: 줄무늬 패널은 세련된 현대적 룩을 연출하며 다양한 집 안 공간에서 사용할 수 있어요.
 - DIY 팁: MDF 또는 합판을 사용하여 줄무늬 디자인을 만들고, 중립 톤으로 칠하여 미니멀한 효과를 낼 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3. 수직 정원
 
@@ -46,7 +64,18 @@ isUpdated: true
 
 ## 4. 에폭시 수지 프로젝트
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 에폭시 수지는 멋진 카운터탑, 테이블 및 장식품을 만드는 데 인기 있는 소재입니다.
 
@@ -57,7 +86,18 @@ isUpdated: true
 
 스마트 홈 기술을 DIY 프로젝트에 통합하면 편의성과 효율성이 향상됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - **Innovative Point**: 스마트 홈 장치인 조명, 온도 조절 장치 및 보안 시스템 등은 상대적으로 쉽게 설치할 수 있습니다.
 - **DIY 팁**: 스마트 전구나 콘센트와 같은 간단한 프로젝트부터 시작하여 점차적으로 집의 지능을 업그레이드하세요.
@@ -69,7 +109,18 @@ isUpdated: true
 - **실용적인 점**: 맞춤형 선반은 공간을 최대로 활용하며 특정 저장 공간 요구를 충족합니다.
 - **DIY 팁**: 재생 목재나 모듈식 구성 요소를 사용하여 공간에 완벽하게 맞는 선반을 만드세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 7. 실외 화덕
 
@@ -80,11 +131,33 @@ isUpdated: true
 
 ## 8. 재활용 가구
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 마크다운 형식으로 변경합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 기능성을 고려한 이유: 잘 디자인된 홈 오피스는 생산성과 편안함을 증진시킵니다.
 - DIY 팁: 인체공학적 가구, 적절한 조명, 그리고 개인화된 장식에 집중하여 영감을 주는 작업 공간을 만드세요.
@@ -96,7 +169,18 @@ DIY 벽 아트 프로젝트를 통해 창의력과 멋을 가미한 공간을 �
 - 예술적인 이유: 벽 아트는 집에 개성을 더해주고 개인적인 감성을 전달합니다.
 - DIY 팁: 캔버스, 목재, 금속, 천 등의 소재를 활용하여 본인의 스타일을 반영한 독특한 아트워크를 만들어보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

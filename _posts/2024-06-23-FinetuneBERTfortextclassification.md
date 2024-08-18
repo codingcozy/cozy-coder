@@ -3,17 +3,13 @@ title: "BERT 미세 조정으로 텍스트 분류하는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-23-FinetuneBERTfortextclassification_0.png"
 date: 2024-06-23 19:32
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-FinetuneBERTfortextclassification_0.png
 tag: Tech
 originalTitle: "Fine tune BERT for text classification"
 link: "https://medium.com/codex/fine-tune-bert-for-text-classification-cef7a1d6cdf1"
 isUpdated: true
 ---
-
-
-
-
 
 섬세 조정은 대형 언어 모델이 사용자 지정 데이터에 적응하고 텍스트 분류와 같은 하향 작업을 잘 수행할 수 있도록 돕는 중요한 기술입니다.
 
@@ -24,7 +20,18 @@ isUpdated: true
 - 허깅페이스 트레이너 API 사용: 사용하기 쉽지만 매우 사용자 정의가 어려움
 - PyTorch 사용: 트레이너보다 조금 어려우나 프로세스에 대한 더 많은 사용자 정의와 제어를 제공합니다
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터셋
 
@@ -35,7 +42,18 @@ isUpdated: true
 
 저희의 목표는 리뷰 텍스트로부터 별의 개수를 예측할 수 있는 모델을 훈련하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 휍핑페이스 트레이너 API를 사용하여 파인튜닝하기
 
@@ -47,7 +65,18 @@ isUpdated: true
 
 참고: 이 라이브러리들의 최신 버전을 항상 사용하도록 하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 데이터셋 로드: Hugging Face에서 제공하는 datasets 라이브러리를 사용하여 데이터셋을 로드할 수 있어요.
 
@@ -62,7 +91,18 @@ dataset = load_dataset("yelp_review_full")
 dataset["train"][1]
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 데이터가 어떻게 보이는지 확인해보세요.
 
@@ -86,20 +126,42 @@ def tokenize_function(examples):
 tokenized_datasets = dataset.map(tokenize_function, batched=True)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-토크나이저는 텍스트를 입력_ids, 토큰_유형_ids 및 어텐션_마스크로 이해할 수 있는 세 개의 열로 변환합니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+토크나이저는 텍스트를 입력*ids, 토큰*유형*ids 및 어텐션*마스크로 이해할 수 있는 세 개의 열로 변환합니다.
 
 데이터셋에서 작은 배치를 만들기(선택 사항)
 
 ```js
-small_train_dataset = tokenized_datasets["train"].shuffle(seed=42).select(range(1000))
-small_eval_dataset = tokenized_datasets["test"].shuffle(seed=42).select(range(1000))
+small_train_dataset = tokenized_datasets["train"].shuffle((seed = 42)).select(range(1000));
+small_eval_dataset = tokenized_datasets["test"].shuffle((seed = 42)).select(range(1000));
 ```
 
 4. 모델 불러오기:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 from transformers import AutoModelForSequenceClassification
@@ -117,7 +179,18 @@ from transformers import TrainingArguments
 training_args = TrainingArguments(output_dir="test_trainer")
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 https://huggingface.co/docs/transformers/main/en/main_classes/trainer#transformers.TrainingArguments에서 제공되는 매개변수에 대한 자세한 정보를 확인할 수 있습니다.
 
@@ -136,7 +209,18 @@ def compute_metrics(eval_pred):
 
 7. 학습 시작:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 from transformers import Trainer
@@ -156,8 +240,18 @@ trainer.train()
 
 선택적으로 노트북에서 허깅페이스로 모델을 저장할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 from huggingface_hub import login
@@ -181,8 +275,18 @@ s="The was awesome and I loved it"
 tt=tokenizer(s,return_tensors="pt", padding=True, truncation=True)
 ```
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모델을 평가 모드로 설정하면 더 이상 가중치를 업데이트할 필요가 없어지고, 이제 분류 작업에 사용할 수 있습니다.
 
@@ -198,7 +302,18 @@ with torch.no_grad():
 SequenceClassifierOutput(loss=None, logits=tensor([[-2.3995, -2.0111, -0.8381,  2.4683,  2.8968]]), hidden_states=None, attentions=None)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 중요한 변수는 로짓 변수입니다. 이 경우 로짓은 텍스트가 특정 클래스에 속할 확률을 나타냅니다. 현재 로짓은 이해하기 어려운 형식으로 표시됩니다. 이를 이해할 수 있는 형식으로 변환하려면 이해할 수 있는 숫자로 변환해야 합니다.
 
@@ -219,23 +334,45 @@ print("예측된 클래스:", predicted_class.item())
 
 PyTorch를 사용한 파인 튜닝
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모델이 이해할 수 있도록 몇 가지 전처리 단계가 필요합니다.
 
 - 열 삭제
 
 ```js
-tokenized_datasets = tokenized_datasets.remove_columns(["text"])
-tokenized_datasets = tokenized_datasets.rename_column("label", "labels")
-tokenized_datasets.set_format("torch")
-small_train_dataset = tokenized_datasets["train"].shuffle(seed=42).select(range(1000))
-small_eval_dataset = tokenized_datasets["test"].shuffle(seed=42).select(range(1000))
+tokenized_datasets = tokenized_datasets.remove_columns(["text"]);
+tokenized_datasets = tokenized_datasets.rename_column("label", "labels");
+tokenized_datasets.set_format("torch");
+small_train_dataset = tokenized_datasets["train"].shuffle((seed = 42)).select(range(1000));
+small_eval_dataset = tokenized_datasets["test"].shuffle((seed = 42)).select(range(1000));
 ```
 
 2. 데이터로더(Dataloader) 생성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import torch
@@ -255,7 +392,18 @@ model.to(device)
 
 4. 옵티마이저(optimizer)와 학습률 스케줄러(learning rate scheduler)를 생성하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 from torch.optim import AdamW, SGD
@@ -274,8 +422,18 @@ lr_scheduler = get_scheduler(
 
 모델을 model.train()을 사용하여 학습 모드로 설정해주세요.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 from tqdm.auto import tqdm

@@ -3,17 +3,13 @@ title: "플라토닉 인공 지능 모든 인공 지능이 같아지고 있는�
 description: ""
 coverImage: "/assets/img/2024-06-19-PlatonicAIAreAllAIsBecomingtheSame_0.png"
 date: 2024-06-19 03:43
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-PlatonicAIAreAllAIsBecomingtheSame_0.png
 tag: Tech
 originalTitle: "Platonic AI: Are All AIs Becoming the Same?"
 link: "https://medium.com/@ignacio.de.gregorio.noblejas/platonic-ai-are-all-ais-becoming-the-same-4c5bab63471b"
 isUpdated: true
 ---
-
-
-
-
 
 몇 일 전에 AI와 철학을 결합한 새로운 이론을 발견했어요: "AI가 모두 같은 것이 되고 있는 걸까?" 시사하는 것은, 앞으로 모든 AI 모델이 동일해질까요?
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 만약 이게 사실이라면, 경제학적으로나 철학적으로 엄청난 파장을 불러올 수 있습니다. 왜냐하면 이것은 AI가, 기초 모델 덕분에 현실 자체를 발견, 설명하고, 중요한 것은 예측하기 시작하고 있다는 신호가 될 수 있기 때문이죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 표현
 
@@ -33,17 +40,40 @@ isUpdated: true
 
 ## 인공지능에서 가장 중요한 단어
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 세상의 모든 개념을 학습할 때마다, AI 모델들은 키 속성을 포착하는 방식으로 그것을 설명하는 요약된 표현을 만듭니다.
 
 특히, AI 모델들은 모든 개념을 임베딩으로 변환하여 벡터 형태로 표현합니다.
 
 그런데 왜 벡터인 걸까요? 세상의 모든 것을 벡터로 만들면 두 가지 이점이 있습니다:
+
 - 숫자 형태의 개념: 기계는 숫자만 해석할 수 있습니다. 따라서 모든 것을 숫자 형태로 어떤 방식으로든 해석해야 합니다.
 - 유사성: 모든 것을 벡터로 만들어두면, 그들 사이의 거리를 측정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 따라서 모델은 OpenAI가 정의한 관련성이라는 원칙에 의해 지배되는 세계 개념의 고차원(벡터 당 많은 숫자) 공간을 구축합니다.
 
@@ -53,7 +83,18 @@ isUpdated: true
 
 ![image](/assets/img/2024-06-19-PlatonicAIAreAllAIsBecomingtheSame_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 미지공간(이렇게 불리는 공간들)의 매력적인 점은 양방향으로 작동한다는 것입니다. AI 모델에게 세계의 개념을 가르치는 데 도움을 주는 것뿐만 아니라, 아직까지 인간들이 깨닫지 못한 세계 패턴들을 발견하는 데도 도움을 줄 수 있습니다.
 
@@ -64,7 +105,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-19-PlatonicAIAreAllAIsBecomingtheSame_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 이게 어떻게 가능한 걸까요?
 
@@ -74,7 +126,18 @@ isUpdated: true
 
 연구자들이 추측한 대답은 네, 라고 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 동굴의 애니콜
 
@@ -84,7 +147,18 @@ AI들이 모든 관찰이나 사건을 일으키는 현실의 진정한 본성�
 
 만약 그게 가능하다면, 우리는 AI 교육을 충분히 성숙시켜서 우리의 기초 모델들이 현실을 해석하는 진정한 방법이 하나뿐이라는 동일한 모델로 진화될 수 있을까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 이론을 검증하기 위해 연구원들은 이러한 모델들의 표현이 모두 세계에 대한 단일 표현으로 수렴해야 한다고 주장했습니다. 이는 현실을 표현하는 객관적이고 보편적인 방법입니다.
 
@@ -94,7 +168,18 @@ AI들이 모든 관찰이나 사건을 일으키는 현실의 진정한 본성�
 
 그러나 개념 표현의 전체 분포뿐만 아니라 거리도 중요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그것은 하나의 모델이 '빨간색'에 할당하는 표현이 동일한 모드(다른 LLMs와 비교) 내 다른 모델과 유사해야 할뿐만 아니라 언어 모델과 시각 모델이 '적색'을 해석하는 방식도 유사해야 한다는 뜻입니다.
 
@@ -104,7 +189,18 @@ AI들이 모든 관찰이나 사건을 일으키는 현실의 진정한 본성�
 
 **현실의 부분적 관점**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특히, 연구자들은 플라톤의 동굴 비유를 인용합니다. 현재 모델에 공급하는 데이터는 그림자이며, 이는 현실의 모호한 대표물입니다. 이전 AI 시스템은 그림자를 지켜보는 사람들로, 이는 그들이 삶의 부분적인 면밖에 알지 못한다는 것을 의미합니다.
 
@@ -112,7 +208,18 @@ AI들이 모든 관찰이나 사건을 일으키는 현실의 진정한 본성�
 
 그러나 이것이 의미하는 것은 무엇일까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 이미지를 살펴보면, fimage와 ftext는 동일한 개념의 세계를 관찰하기 때문에, 그들의 표현 - 즉 벡터 -은 동일해야합니다.
 
@@ -122,7 +229,18 @@ AI들이 모든 관찰이나 사건을 일으키는 현실의 진정한 본성�
 
 # 수렴
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 매혹적으로, 기반 모델들은 수렴하고 있습니다.
 
@@ -132,8 +250,18 @@ AI들이 모든 관찰이나 사건을 일으키는 현실의 진정한 본성�
 
 LLM이 더 나아질수록, 그들의 세계 이해가 비전 모델로 수렴한다는 신호입니다. 모델이 커짐에 따라, 그들의 모드나 사용된 데이터에 관계없이, 모든 것이 동일한 표현, 동일한 현실에 대한 이해로 수렴하며 그 결과 더 똑똑해집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Platonic AI: Are All AIs Becoming the Same](/assets/img/2024-06-19-PlatonicAIAreAllAIsBecomingtheSame_4.png)
 
@@ -143,8 +271,18 @@ LLM이 더 나아질수록, 그들의 세계 이해가 비전 모델로 수렴�
 
 결국, 모델이 더 크고 훈련되는 기술 집합이 더 광범위할수록 이러한 모델들은 서로 수렴하는 경향이 있습니다. 사용된 모달리티와 데이터셋과는 독립적으로, 어느 날 언젠가 우리 모두의 선도 연구소가 동일한 모델을 만들어내도록 수렴할 가능성을 그려낼 것입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 중요한 질문하기
 
@@ -152,7 +290,18 @@ LLM이 더 나아질수록, 그들의 세계 이해가 비전 모델로 수렴�
 
 나에게 있어 가장 중요한 관심사는 이것이 시장에 엄청난 재화화 효과를 줄 수 있다는 사실 외에도, 이것이 우리 인간들이 세계 모델을 만드는 방향으로 다가가고 있다는 첫 번째 신호일 수 있다는 점입니다. 세계 모델은 로봇이 언젠가 우리 세상에서 살아가는 모습을 상상하는 등 거의 모든 인공지능 분야에서 절대적으로 중요하다고 생각됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 세계 모델은 인공 지능에게 환경을 관찰하고 적응할 수 있는 능력을 제공합니다. 인간 뇌는 계속해서 다음에 일어날 일을 추론(예측)하고 있습니다.
 

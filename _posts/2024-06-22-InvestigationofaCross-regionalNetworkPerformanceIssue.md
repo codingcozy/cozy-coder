@@ -3,17 +3,13 @@ title: "크로스-리전 네트워크 성능 문제 조사 방법"
 description: ""
 coverImage: "/assets/img/2024-06-22-InvestigationofaCross-regionalNetworkPerformanceIssue_0.png"
 date: 2024-06-22 00:31
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-InvestigationofaCross-regionalNetworkPerformanceIssue_0.png
 tag: Tech
 originalTitle: "Investigation of a Cross-regional Network Performance Issue"
 link: "https://medium.com/@netflixtechblog/investigation-of-a-cross-regional-network-performance-issue-422d6218fdf1"
 isUpdated: true
 ---
-
-
-
-
 
 Hechao Li, Roger Cruz
 
@@ -23,7 +19,18 @@ Netflix는 SVOD(Subscription Video on Demand)와 라이브 스트리밍, 그리�
 
 다음 다이어그램은 지역 간 트래픽을 위한 간단한 클라우드 네트워크 토폴로지를 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-InvestigationofaCross-regionalNetworkPerformanceIssue_0.png" />
 
@@ -33,7 +40,18 @@ Netflix는 SVOD(Subscription Video on Demand)와 라이브 스트리밍, 그리�
 
 네트워크 엔지니어로서, 네트워크에 책임을 뒤질 때 우리의 초기 반응은 보통 “아니야, 네트워크가 문제일 수 없어”이며 우리의 작업은 이를 입증하는 것입니다. 최근 네트워크 인프라에 변경 사항이 없었으며 다른 애플리케이션에 영향을 주는 AWS 이슈가 보고되지 않은 상황에서 당직 엔지니어는 소음이 심한 이웃 문제를 의심하고 호스트 네트워크 엔지니어링 팀의 지원을 받기로 결정했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 이웃들 탓하기
 
@@ -43,7 +61,18 @@ Netflix는 SVOD(Subscription Video on Demand)와 라이브 스트리밍, 그리�
 
 # 네트워크 탓하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 네트워크에서 RST 플래그로 표시된 몇 개의 TCP 패킷을 관찰했습니다. 이 플래그는 연결을 즉시 종료해야 함을 나타냅니다. 이러한 패킷의 빈도가 과도하게 높지는 않았지만, RST 패킷의 존재는 여전히 네트워크에서 의심을 불러일으켰습니다. 이것이 실제로 네트워크로 인한 문제인지 확인하기 위해 클라이언트에서 tcpdump를 수행했습니다. 패킷 캡처 파일에서 정확히 30초 후에 닫힌 TCP 스트림을 발견했습니다.
 
@@ -53,7 +82,18 @@ Netflix는 SVOD(Subscription Video on Demand)와 라이브 스트리밍, 그리�
 
 3-way 핸드쉐이크 (SYN, SYN-ACK, ACK) 이후, 트래픽은 정상적으로 흘렀습니다. 18:47:36에 FIN (30초 후)까지 아무 이상이 없었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![packet_capture_image](/assets/img/2024-06-22-InvestigationofaCross-regionalNetworkPerformanceIssue_2.png)
 
@@ -63,7 +103,18 @@ Netflix는 SVOD(Subscription Video on Demand)와 라이브 스트리밍, 그리�
 
 클라이언트와 서버 측의 패킷 캡처 결과를 통해 서버에서 보낸 모든 패킷이 클라이언트가 FIN을 보내기 전에 제대로 수신되었음을 확인했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 네트워크적인 측면에서 상황이 명확해 졌어요. 클라이언트가 서버에 데이터 요청을 보내 연결을 시작했어요. 서버는 문제 없이 클라이언트에게 데이터를 계속 전송했어요. 그러나 특정 시점에, 서버는 아직 전송할 데이터가 있는데도 클라이언트가 데이터 수신을 중단하기로 선택했어요. 이로 인해 문제가 클라이언트 애플리케이션 자체와 관련이 있을 수 있다는 의심을 품게 되었어요.
 
@@ -73,7 +124,18 @@ Netflix는 SVOD(Subscription Video on Demand)와 라이브 스트리밍, 그리�
 
 특히, 교차 지역에서의 읽기는 문제가 있었지만 쓰기 경로는 순조롭었습니다.가장 중요한 것은 데이터를 읽는 데 30초의 응용 프로그램 수준의 시간 제한이 있었다는 것이에요. 서버에서 초기 데이터 일괄을 30초 내에 읽지 못하면 응용 프로그램(클라이언트)이 오류를 발생시켰어요. 이 시간 제한을 60초로 증가시키면 모든 것이 예상대로 작동했어요. 이것이 클라이언트가 FIN을 시작한 이유가 된 것입니다 — 서버가 데이터 전송을 기다리는 데 인내심을 잃어서였죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-06-22-InvestigationofaCross-regionalNetworkPerformanceIssue_3](/assets/img/2024-06-22-InvestigationofaCross-regionalNetworkPerformanceIssue_3.png)
 
@@ -83,7 +145,18 @@ Netflix는 SVOD(Subscription Video on Demand)와 라이브 스트리밍, 그리�
 
 최근 네트워크와 애플리케이션 모두 변경되지 않았다면, 무엇이 변경되었을까요? 실제로, 우리는 문제가 최근에 발행된 Linux 커널 업그레이드 (버전 6.5.13에서 6.6.10으로 업그레이드)와 동시에 발생했음을 발견했습니다. 이 가설을 테스트하기 위해, 커널 업그레이드를 롤백했을 때 애플리케이션의 정상 작동이 복원되었음을 확인했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 솔직히 말해서, 그 때 나는 커널 버그라고는 믿지 않았어요. 왜냐하면 저는 커널 내의 TCP 구현은 견고하고 안정적이라고 생각했거든요 (스포일러 주의: 얼마나 틀렸는지요!). 하지만 우리는 다른 각도에서 아이디어가 바닥나 있었어요.
 
@@ -99,7 +172,18 @@ Netflix는 SVOD(Subscription Video on Demand)와 라이브 스트리밍, 그리�
 [pid 1699] setsockopt(917, SOL_TCP, TCP_NODELAY, [1], 4) = 0
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그런 다음, 클라이언트가 동일한 소켓 옵션 집합을 구성하는 서버에서 클라이언트로 파일을 전송하는 최소한의 클라이언트-서버 C 애플리케이션을 개발했습니다. 테스트 중에는 클라이언트가 FIN을 발행하기 전에 일반적으로 30초 내에 전송되는 데이터 양을 나타내는 10M 파일을 사용했습니다. 이전 커널에서는 이 교차 지역 전송이 22초만에 완료되었으나 새 커널에서는 39초가 걸렸습니다.
 
@@ -109,7 +193,18 @@ Netflix는 SVOD(Subscription Video on Demand)와 라이브 스트리밍, 그리�
 
 ## TCP 수신 창
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단히 말하면, TCP 수신 창은 수신자가 송신자에게 "이만큼의 바이트를 ACK하지 않고 보내도 괜찮다"라고 알려주는 것입니다. 송신자가 서버이고 수신자가 클라이언트인 경우에는:
 
@@ -119,7 +214,18 @@ Netflix는 SVOD(Subscription Video on Demand)와 라이브 스트리밍, 그리�
 
 이제 TCP 수신 창 크기가 처리량에 영향을 줄 수 있다는 것을 알았으니, 질문은 이 창 크기가 어떻게 계산되는지입니다. 응용 프로그램 작성자로서 당신은 창 크기를 결정할 수 없지만, 받은 데이터를 버퍼링하는 데 사용할 메모리의 양을 결정할 수 있습니다. 이는 방금 전 strace 결과에서 본 SO_RCVBUF 소켓 옵션을 사용하여 설정됩니다. 그러나 이 옵션의 값은 수신 버퍼에 대기하는 응용 프로그램 데이터의 양을 의미한다는 것을 유의하십시오. man 7 socket에서 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자가 값 X를 제공하면, 커널은 변수 sk_rcvbuf에 2X를 저장합니다. 다시 말해, 커널은 장부 오버헤드가 실제 데이터와 마찬가지로 많다고 가정합니다(sk_rcvbuf의 50%와 같음).
 
@@ -129,42 +235,86 @@ Netflix는 SVOD(Subscription Video on Demand)와 라이브 스트리밍, 그리�
 
 sysctl 문서에 따르면,
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-거의 모든 사람들이 99% 기본값 1을 사용하고 있습니다. 이는 결국 rcvbuf/2^tcp_adv_win_scale = 1/2 * rcvbuf로 오버헤드가 계산됨을 의미합니다. 이것은 SO_RCVBUF 값을 설정할 때의 가정과 일치합니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+거의 모든 사람들이 99% 기본값 1을 사용하고 있습니다. 이는 결국 rcvbuf/2^tcp_adv_win_scale = 1/2 \* rcvbuf로 오버헤드가 계산됨을 의미합니다. 이것은 SO_RCVBUF 값을 설정할 때의 가정과 일치합니다.
 
 요약해보겠습니다. SO_RCVBUF를 65536으로 설정한다고 가정해 봅시다. 이 값은 소켓 옵션의 setsockopt 시스콜에 의해 설정된 값입니다. 그러면 다음과 같은 결과가 나옵니다:
 
 - SO_RCVBUF = 65536
-- rcvbuf = 2 * 65536 = 131072
+- rcvbuf = 2 \* 65536 = 131072
 - 오버헤드 = rcvbuf / 2 = 131072 / 2 = 65536
 - 수신 창 크기 = rcvbuf — 오버헤드 = 131072–65536 = 65536
 
 (참고: 이 계산은 단순화된 것입니다. 실제 계산은 더 복잡합니다.)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간략히 말해서, 커널 업그레이드 전 수신 윈도우 크기는 65536이었습니다. 이 창 크기로 응용 프로그램은 30초 내에 10M 데이터를 전송할 수 있었습니다.
 
 ## 변경 내용
 
-이 커밋은 sysctl_tcp_adv_win_scale을 더 이상 사용하지 않도록 만들었고, 오버헤드나 창 크기를 더 정확하게 계산할 수 있는 스케일링 비율을 도입했습니다. 이것이 옳은 조치입니다. 변경으로 인해, 윈도우 크기는 이제 rcvbuf * scaling_ratio입니다.
+이 커밋은 sysctl_tcp_adv_win_scale을 더 이상 사용하지 않도록 만들었고, 오버헤드나 창 크기를 더 정확하게 계산할 수 있는 스케일링 비율을 도입했습니다. 이것이 옳은 조치입니다. 변경으로 인해, 윈도우 크기는 이제 rcvbuf \* scaling_ratio입니다.
 
 그러면 scaling_ratio는 어떻게 계산되는 걸까요? skb-`len 및 truesize로 skb 내의 tcp 데이터 길이와 skb의 총 크기를 사용하여 계산됩니다. 이는 하드코딩된 50%보다 실제 데이터를 기반으로 한 더 정확한 비율입니다. 그럼 다음 질문은 여기 있습니다: TCP 핸드셰이크 중 데이터를 전송하기 전에 초기 scaling_ratio를 어떻게 결정할까요? 답은, 대략 0.25로 설정된 마법과 보수적인 비율이 선택되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 다음과 같습니다:
 
 - SO_RCVBUF = 65536
-- rcvbuf = 2 * 65536 = 131072
-- 수신 창 크기 = rcvbuf * 0.25 = 131072 * 0.25 = 32768
+- rcvbuf = 2 \* 65536 = 131072
+- 수신 창 크기 = rcvbuf _ 0.25 = 131072 _ 0.25 = 32768
 
 요약하자면, 커널 업그레이드 후 수신 창 크기가 반으로 줄었습니다. 그 결과로 처리량이 절반으로 줄어 데이터 전송 시간이 두 배로 증가했죠.
 
-당연히 궁금증이 생길 수 있습니다. 초기 창 크기가 작은 것은 이해되지만, 나중에 페이로드의 더 정확한 비율(즉, skb-`len/skb-`truesize)이 있을 때 창이 왜 커지지 않나요? 몇 가지 디버깅을 거친 뒤에 우리는 scaling_ratio가 더 정확한 skb-`len/skb-`truesize로 업데이트된다는 것을 알 수 있었어요. 우리의 경우에는 약 0.66입니다. 그러나 다른 변수인 window_clamp는 이에 맞게 업데이트되지 않습니다. window_clamp는 광고할 수 있는 최대 수신 창이며, 초기 scaling_ratio를 사용하여 0.25 * rcvbuf로 초기화됩니다. 그 결과로 수신 창 크기가 이 값으로 제한되어 더 커질 수 없습니다.
+당연히 궁금증이 생길 수 있습니다. 초기 창 크기가 작은 것은 이해되지만, 나중에 페이로드의 더 정확한 비율(즉, skb-`len/skb-`truesize)이 있을 때 창이 왜 커지지 않나요? 몇 가지 디버깅을 거친 뒤에 우리는 scaling_ratio가 더 정확한 skb-`len/skb-`truesize로 업데이트된다는 것을 알 수 있었어요. 우리의 경우에는 약 0.66입니다. 그러나 다른 변수인 window_clamp는 이에 맞게 업데이트되지 않습니다. window_clamp는 광고할 수 있는 최대 수신 창이며, 초기 scaling_ratio를 사용하여 0.25 \* rcvbuf로 초기화됩니다. 그 결과로 수신 창 크기가 이 값으로 제한되어 더 커질 수 없습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 문제 해결
 
@@ -174,7 +324,18 @@ sysctl 문서에 따르면,
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이번 디버깅 연습은 넷플릭스의 여러 계층과 인프라를 다루는 매우 흥미로운 경험이었습니다. 사실 "네트워크"가 문제가 아니었지만, 이번에는 네트워크를 구성하는 소프트웨어 구성 요소인 커널 내의 TCP 구현이 문제였음을 발견했습니다.
 

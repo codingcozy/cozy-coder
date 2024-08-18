@@ -3,17 +3,13 @@ title: "Shaheer Mansoor의 ThreeJS로 커스터마이즈할 수 있는 셔츠 �
 description: ""
 coverImage: "/assets/img/2024-07-09-ThreeJSCustomizableShirtbyShaheerMansoor_0.png"
 date: 2024-07-09 23:03
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-ThreeJSCustomizableShirtbyShaheerMansoor_0.png
 tag: Tech
 originalTitle: "ThreeJS Customizable Shirt by Shaheer Mansoor"
 link: "https://medium.com/@shaheermansoor321/threejs-customizable-shirt-by-shaheer-mansoor-f179ea28d177"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-07-09-ThreeJSCustomizableShirtbyShaheerMansoor_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 주제: 3D 웹 세계
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 언어: 영어
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 # 소개
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 WebGL 기술을 활용한 작은 흥미로운 프로젝트를 만들기로 마음먹고 앉아서 이에 대해 고민했어요. ThreeJS와 ReactJS를 이용해 3D 맞춤형 셔츠를 만들기로 결정했죠. Blender를 사용해 셔츠의 3D 모델을 만들고 ThreeJS로 가져왔어요.
 
@@ -50,8 +68,18 @@ isUpdated: true
 
 # 컬러 휠
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Color Wheel](/assets/img/2024-07-09-ThreeJSCustomizableShirtbyShaheerMansoor_1.png)
 
@@ -61,8 +89,18 @@ Color Wheel — Allows users to change color of the shirt by a color wheel.
 
 ![Logo / Texture](/assets/img/2024-07-09-ThreeJSCustomizableShirtbyShaheerMansoor_2.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파일 업로드 - 사용자는 이미지 파일을 업로드한 후 셔츠의 로고 또는 전체 텍스쳐로 이미지를 설정할 수 있습니다.
 
@@ -72,7 +110,18 @@ Color Wheel — Allows users to change color of the shirt by a color wheel.
 
 ![텍스쳐 이미지](/assets/img/2024-07-09-ThreeJSCustomizableShirtbyShaheerMansoor_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로고와 질감 사이를 토글할 수 있는 간단한 토글 버튼입니다.
 
@@ -82,7 +131,18 @@ Color Wheel — Allows users to change color of the shirt by a color wheel.
 
 원하는 대로 셔츠를 커스터마이징한 후, 다운로드 버튼을 클릭하여 셔츠의 png 파일을 저장할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 향후 업데이트
 

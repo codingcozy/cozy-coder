@@ -3,16 +3,13 @@ title: "IPL 통계 분석을 위한 고급 SQL 쿼리 완벽 가이드"
 description: ""
 coverImage: "/assets/img/2024-06-23-In-DepthAdvanceSQLQueriesforIPLStatistics_0.png"
 date: 2024-06-23 16:34
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-In-DepthAdvanceSQLQueriesforIPLStatistics_0.png
 tag: Tech
 originalTitle: "In-Depth Advance SQL Queries for IPL Statistics"
 link: "https://medium.com/@israksamir353/in-depth-advance-sql-queries-for-ipl-statistics-3f8f8af0e24f"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-23-In-DepthAdvanceSQLQueriesforIPLStatistics_0.png" />
 
@@ -23,7 +20,18 @@ isUpdated: true
 당신의 팀 매니저가 IPL 시즌 전체 기록을 포함하는 여러 CSV 파일을 손에 쥐고 여러분에게 접근합니다. 그들은 여러분에게 포괄적인 분석을 수행하고 이 데이터를 Postgres(RDBMS)로 이전하여 팀 내에서 더 효율적인 데이터 관리를 요청합니다.
 모든 데이터 집합과 마찬가지로, 도메인 지식은 데이터 분석가가 효과적으로 데이터 분석을 수행하는 데 중요합니다. IPL 크리켓에 익숙하지 않다면, 분석을 진행하기 전에 데이터 집합의 열을 먼저 살펴봄으로써 도메인 지식을 얻는 것이 좋습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 데이터 세트:
 
@@ -34,7 +42,18 @@ CSV 파일에는 아래 그림에 표시된 6개의 테이블이 포함되어 �
 
 제약 조건:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 주어진 스키마에 포함된 기본 키 (Primary Key)와 외래 키 (Foreign Key) 제약 조건
 - out_type은 'caught', 'caught and bowled', 'bowled', 'stumped', 'retired hurt', 'keeper catch', 'lbw', 'run out', 'hit wicket', 또는 NULL(실제 null이 아닌 문자열 형태) 값만 가질 수 있습니다.
@@ -50,7 +69,18 @@ CSV 파일에는 아래 그림에 표시된 6개의 테이블이 포함되어 �
 
 Q 1: 주어진 데이터베이스 스키마에 따라 CSV 파일을 생성하고, 모든 제약 조건과 테이블 간 관계가 올바르게 반영되도록 하고, 그 후 pgAdmin에 가져오세요. (다른 RDBMS를 사용하는 경우, 모든 쿼리에 대해 구문을 조정하십시오)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해결책: 지정된 데이터베이스 스키마와 일치하도록 필요한 테이블을 적절한 제약 조건과 관계와 함께 생성하고 해당 CSV 파일에서 데이터를 가져옵니다.
 
@@ -161,7 +191,18 @@ csv header;
 
 해결책: 각 경기장에서 스코어된 평균 달성량을 찾으려면 다음 단계를 따라야 합니다. 먼저 각 경기장에서 플레이된 총 경기수를 계산하고, 그 다음 각 경기장에서 스코어된 총 점수를 결정합니다. 마지막으로 총 점수를 플레이된 경기수로 나누어 각 경기장의 경기 당 평균 달성량을 얻을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```sql
 -- 2단계: 각 구장에서의 경기 수 계산
@@ -202,7 +243,18 @@ order by avg_run desc;
 
 해결책: 먼저 각 선수가 참가한 총 경기 수를 계산해야 합니다. 그 다음 각 선수가 스트라이커로서 받은 총 볼 수를 확인해야 합니다. 마지막으로 경기 당 평균으로 가장 많은 볼을 친 상위 10명의 선수를 식별할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 -- 솔루션 3:
 -- 단계 1: player_match 테이블에서 플레이어가 참가한 경기 수를 세기
@@ -242,7 +294,18 @@ Q 4: 가장 빈도가 높은 6타자를 찾아보세요.
 
 솔루션: 먼저 각 플레이어가 차진 볼 수를 계산합니다. 그런 다음, 각 플레이어가 친 6점을 결정합니다. 마지막으로 각 플레이어의 6의 비율을 계산하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```sql
 -- Solution 4:
@@ -271,7 +334,18 @@ Q 5: 각 시즌에서 가장 많은 득점을 기록한 상위 3 타자 및 가�
 
 Solution: 먼저, 각 시즌에서 가장 많은 wickets를 기록한 상위 3 타자를 식별합니다. 다음으로, 각 시즌에서 가장 많은 wickets를 기록한 상위 3 볼러를 결정합니다. 마지막으로, 이러한 결과를 결합하여 최종 목록을 얻습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 -- 솔루션 5:
@@ -316,7 +390,18 @@ order by season_year;
 단계 3- CTE final_table은 파트너십 득점을 스트라이커의 득점 기여와 결합하고, 비 스트라이커의 득점을 계산합니다. 각 경기의 최고 파트너십 득점만 포함하도록 필터링합니다.
 단계 4- 주 쿼리는 결과를 선택하고 정렬하여 더 높은 득점자가 항상 먼저 나오고 run1이 항상 run2보다 크도록 합니다. 두 선수가 동일한 득점인 경우 더 높은 ID를 가진 선수가 먼저 표시됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 -- 질문 5:
@@ -382,7 +467,18 @@ from final_table;
 
 솔루션: 먼저 ball_by_ball 테이블과 이긴 경기 정보를 포함하는 match 테이블을 조인한 후, 득점이 6점 미만인 경우에 해당하는 over_id를 가져옵니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```sql
 -- 질문 7:
@@ -406,7 +502,18 @@ Q 8: 2013 시즌에서 가장 많은 홈런을 친 상위 5명의 타자 나열�
 
 해결 방법: ball_by_ball 테이블을 match 테이블과 연결하여 시즌 연도를 얻고, player 테이블과 연결하여 선수명을 얻습니다. 2013년에 홈런을 세어 상위 5명을 제한하겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```sql
 -- 질문 8:
@@ -426,7 +533,18 @@ Q 9: 2013 시즌에서 가장 낮은 스트라이크 비율(평균 당 탈아웃
 
 해결책: 우선 2013년에 각 선수가 얼마나 많은 아웃을 기록했는지를 계산하십시오. 'NULL', 'retired hurt', 'run out'과 같은 out_type은 볼러로 카운트되지 않습니다. 그래서 데이터 분석가는 데이터 세트에 대한 도메인 지식을 어느 정도 알고 있는 것이 중요합니다. 그런 다음 각 볼러가 한 공을 던진 횟수를 계산하십시오. 마지막으로 평균 비율을 구하고, 비율이 높을수록 볼러로서의 스트라이크 비율이 낮습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```sql
 -- 질문 9: 2013 시즌에서 볼링 스트라이크율(얻은 퍼스트볼당 볼이 던져진 평균 수)이 가장 낮은 5명의 볼러를 나열하십시오. 알파벳순으로 동률 발생 시 이름순으로 정렬하십시오. 결과값은 (선수 이름)으로 출력합니다.
@@ -461,7 +579,18 @@ Q 10: 각 나라(적어도 한 명의 선수가 아웃 처리됨)별로 어떤 �
 
 해결책: 볼링 백볼 테이블을 선수 테이블과 조인하여 국가 이름을 얻고, out_type = "볼드"로 필터링합니다. 적어도 한 명의 선수가 있는 각 나라별로 볼드 아웃된 선수의 수를 그룹화하여 계산합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```sql
 -- 질문 10:
@@ -482,7 +611,18 @@ Q 11: ‘푸네’에서 진행된 임의의 경기에서 적어도 백을 득�
 
 해결 방법:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```sql
 -- 질문 11:
@@ -508,7 +648,18 @@ order by run desc, p.player_name;
 
 # 결론:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단히 말씀드리자면, SQL을 사용하여 IPL 통계에 뛰어들어 본 것은 정말 즐거운 경험이었어요! 선수, 팀 및 경기에 관한 멋진 통찰력을 발견하여 트렌드와 우수한 성적을 눈에 띄게하기 쉬웠습니다.
 

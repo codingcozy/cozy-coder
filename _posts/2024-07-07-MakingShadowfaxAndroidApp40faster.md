@@ -3,17 +3,13 @@ title: "Shadowfax 안드로이드 앱을 40 더 빠르게 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-07-MakingShadowfaxAndroidApp40faster_0.png"
 date: 2024-07-07 23:30
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-MakingShadowfaxAndroidApp40faster_0.png
 tag: Tech
 originalTitle: "Making Shadowfax Android App 40% faster"
 link: "https://medium.com/shadowfax-newsroom/making-shadowfax-android-app-40-faster-995cd36b6e5e"
 isUpdated: true
 ---
-
-
-
-
 
 **이미지 첨부**
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 100,000명 이상의 DAU를 가진 Shadowfax Rider 앱은 시작하는 데 약 3.5초가 걸려 문제에 직면했습니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이번에는 시간을 줄이는 것이 목표였어요:
 
@@ -34,7 +41,18 @@ isUpdated: true
 
 Firebase에 따르면, 앱 시작 시간은 앱이 런처에서 시작되어 첫 활동의 `onResume()` 메서드가 호출될 때까지의 지속 시간입니다. 이 지속 시간은 다음과 같이 logcat에도 보고됩니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에서 더 많은 정보를 확인할 수 있습니다. 우리에게는 Firebase Startup 시간이 진실의 근원이었습니다.
 
@@ -44,7 +62,18 @@ Firebase에 따르면, 앱 시작 시간은 앱이 런처에서 시작되어 첫
 
 # 3. 자세히 들여다보기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앱을 시작 시간별로 세분화하기 위해, Firebase 성능 라이브러리에서 @trace 어노테이션을 앱 클래스의 onCreate() 함수와 BaseActivity & MainActivity의 onCreate() 및 onStart()에 추가했습니다. 기본적으로 모든 것을 최상위 수준에서 측정하여 주요 요인을 파악하고 거기서부터 자세히 들여다 볼 수 있게 했어요.
 
@@ -54,7 +83,18 @@ Firebase에 따르면, 앱 시작 시간은 앱이 런처에서 시작되어 첫
 
 # 3.1 라이브러리 및 콘텐츠 제공자의 지연 로딩 (-10% 시작 시간)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 애플리케이션 클래스는 보통 많은 라이브러리를 초기화합니다. 우리는 앱 시작 시 바로 필요하지 않은 라이브러리들을 백그라운드에서 초기화하도록 변경했습니다. 만약 컨텐츠 제공 업체가 있다면 Startup 라이브러리를 사용하여 지연 로딩할 수도 있습니다.
 
@@ -97,7 +137,18 @@ object MyUtils {
 
 # 3.2 베이스라인 프로필 (-7% 시작 시간)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 구글에서는 첫 번째 앱 시작 시간을 개선하기 위해 기준 프로필 설정을 권장합니다. 우리는 총 앱 시작 시간이 7% 향상되었다는 것을 발견했어요. 여러분의 경우에는 달라질 수 있지만, 꼭 시도해 보세요.
 
@@ -107,7 +158,18 @@ object MyUtils {
 
 우리는 안드로이드 스튜디오에서 시스템 추적을 실행한 다음 앱을 시작하고 추적 데이터를 Perfetto 시각화 도구로 로드하여 각 함수의 실행 시간을 측정할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Android Studio의 내장 프로파일러를 사용할 수 있지만, Perfetto가 더 나은 네비게이션과 세부 정보를 제공합니다.
 
@@ -121,7 +183,18 @@ Android Studio의 내장 프로파일러를 사용할 수 있지만, Perfetto가
 
 ![Image](/assets/img/2024-07-07-MakingShadowfaxAndroidApp40faster_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 퍼페토로 추적을 불러오면 화면에 수많은 색이 나타나서 당황스러울 수 있습니다. 하지만 걱정하지 마세요. 우리는 이 모든 것에 신경 쓸 필요가 없어요.
 
@@ -131,7 +204,18 @@ Android Studio의 내장 프로파일러를 사용할 수 있지만, Perfetto가
 
 키보드에서 Ctrl/cmd+F를 눌러 "startup"을 찾아보세요. 앱 시작 시간의 시각화가 나타날 것입니다. 그 녹색 막대를 클릭한 다음 키보드에서 'M'을 눌러보세요. 이렇게 하면 그 막대의 시작과 끝을 표시할 수 있습니다. 이게 지금 우리가 신경 쓸 대상이에요. 다른 것들은 그저 잡음뿐이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4.2 원인을 찾아라
 
@@ -141,7 +225,18 @@ Android Studio의 내장 프로파일러를 사용할 수 있지만, Perfetto가
 
 ![그래프](/assets/img/2024-07-07-MakingShadowfaxAndroidApp40faster_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프레임이 16밀리초 내에 렌더링되어야 60프레임을 달성할 수 있어요!
 
@@ -151,13 +246,35 @@ Android Studio의 내장 프로파일러를 사용할 수 있지만, Perfetto가
 
 장기간 실행되는 함수들이 있을 수 있지만 결과물이 보이지 않을지도 몰라요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 해야 할 일은 이렇게요.
 
 ![MakingShadowfaxAndroidApp40faster](/assets/img/2024-07-07-MakingShadowfaxAndroidApp40faster_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 트레이싱을 더 많이 추가해야 합니다. 자바 및 코틀린에서 사용할 수 있는 트레이싱 라이브러리가 있어요. 자세한 내용은 여기 있지만, 일단 스니펫을 살펴봅시다:
 
@@ -175,7 +292,18 @@ class MyClass {
 
 ![MakingShadowfaxAndroidApp](/assets/img/2024-07-07-MakingShadowfaxAndroidApp40faster_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 6. 우리의 해결책
 
@@ -185,7 +313,18 @@ class MyClass {
 
 ConstraintLayout을 사용하여 뷰의 중첩을 피하고, 사용자 상호작용 후에만 표시되는 숨겨진 뷰 대신 viewstubs를 사용함으로써 최대 600ms까지 감소시켰습니다. 이 방법은 기본적으로 숨겨진 뷰의 측정과 확장을 방지하여 사용자 상호작용 후에만 표시되는 뷰를 효율적으로 처리합니다. view stubs에 대해 더 자세히 읽어보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 200–300 ms 시간이 소요되었던 mapView가 onResume()이 호출된 이후에만 init으로 이동하여 핵심 UI에 주문 수 및 상태가 배치된 후에 로드되도록 변경되었습니다.
 
@@ -202,7 +341,18 @@ private fun HomeFragment.lazyLoadMap() {
 
 반복된 추적 테스트 결과, MainActivity에서는 상위 수준 레이아웃인 LinearLayout이 ConstraintLayout보다 성능이 우수했습니다. MainActivity는 3–4개 이상의 뷰를 포함하는 Fragment 컨테이너일 뿐이었기 때문에 실제로 LinearLayout으로 변경하면 MainActivity의 시작 속도가 2배 빨라지며, 특히 웜 스타트 때 더욱 효과적입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 6.3 메인 액티비티 SDK의 지연 로딩 (-10% 시간)
 
@@ -212,11 +362,22 @@ private fun HomeFragment.lazyLoadMap() {
 
 이러한 해결책을 여러 릴리스를 통해 출시한 후, 시작 시간 90백분위가 3.5초에서 겨우 2초 미만으로 점차 감소하는 것을 보았어요. 이는 놀라운 42%의 감소에 해당합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-07-MakingShadowfaxAndroidApp40faster_7.png)
 
-🌟 We're constantly searching for bottlenecks and enhancing the speed of the app to boost productivity for our partners. 
+🌟 We're constantly searching for bottlenecks and enhancing the speed of the app to boost productivity for our partners.
 
 🔍 Identifying bottlenecks with Perfetto was essential for this project. It provided us with the certainty to address them, knowing the performance gains we would get from fixing each issue.
 

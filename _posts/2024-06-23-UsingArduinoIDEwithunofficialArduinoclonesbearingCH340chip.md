@@ -3,17 +3,13 @@ title: "CH340 칩이 탑재된 비공식 Arduino 클론에서 Arduino IDE 사용
 description: ""
 coverImage: "/assets/img/2024-06-23-UsingArduinoIDEwithunofficialArduinoclonesbearingCH340chip_0.png"
 date: 2024-06-23 17:35
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-UsingArduinoIDEwithunofficialArduinoclonesbearingCH340chip_0.png
 tag: Tech
 originalTitle: "Using Arduino IDE with unofficial Arduino clones bearing CH340 chip"
 link: "https://medium.com/dev-genius/using-arduino-ide-with-unofficial-arduino-clones-bearing-ch340-chip-752d1b90810d"
 isUpdated: true
 ---
-
-
-
-
 
 사용되지 않는 Arduino 복제품의 예측할 수 없는 세계로 한 발 들어보세요
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![image](/assets/img/2024-06-23-UsingArduinoIDEwithunofficialArduinoclonesbearingCH340chip_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 비공식 아두이노 Uno R3 클론을 구매하고 Windows 기기에 연결했을 때 "USB 장치를 인식하지 못했습니다" 오류가 발생했다면, 이 기사가 도움이 될 것입니다. 아래에서는 공식 및 일부 비공식 아두이노 보드 간의 차이와 일부 비공식 보드가 Windows에서 인식되기 위해 설치해야 하는 것에 대해 살펴보겠습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ![아두이노 UNO R3 이미지](/assets/img/2024-06-23-UsingArduinoIDEwithunofficialArduinoclonesbearingCH340chip_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 사진의 칩 넘버 1은 아두이노의 두뇌입니다: 이것은 ATmega328P로, 아두이노 IDE를 통해 프로그래밍합니다. 이것이 보드의 핵심이며, 이 칩은 모든 스케치를 실행시킵니다 — CPU, 메모리를 포함하고 아두이노 핀들을 모두 제어합니다.
 
@@ -41,7 +59,18 @@ isUpdated: true
 
 그러니까, 본질적으로 원래 아두이노 보드에 USB를 꼽으면 실제로 ATmega16U2로 꽂히게 되고, 이것이 컴퓨터에 통신하여 운영 체제가 인식하고 설치된 드라이버 목록에서 해당 드라이버를 로드합니다. 그런 다음 드라이버가 시스템에 새로운 COM 포트를 등록하고, 아두이노를 프로그래밍할 때 아두이노 IDE에서 선택할 수 있습니다. 아래 스크린샷을 보면 올바른 포트가 해당되는 이름으로 표시될 것임을 주의하세요 — 목적에 따라 드라이버가 수행하는지 아니면 ATmega16U2 칩의 펌웨어가 수행하는지는 확실하지 않습니다. 알고 계신다면 코멘트로 알려주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 위에서 설명한 모든 것은 공식 아두이노 Uno R3 보드에 대해서만 해당되며, 비공식 보드에는 항상 그렇지 않을 수 있습니다. 그러나 일부 비공식 보드는 아두이노의 완벽한 복제품이며, 보드 색상과 로고만 다를 뿐입니다.
 
@@ -51,7 +80,18 @@ isUpdated: true
 
 ## CH340G 칩이 장착된 비공식 보드
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 Windows에서 인식하지 않는 일부 비공식 보드도 있습니다. 따라서 장치가 종료됩니다. COM 포트가 표시되지 않으며 결과적으로 Arduino IDE에서 이러한 보드를 사용할 수 없습니다. COM 포트가 없으면 통신 방법이 없으므로 스케치를 업로드할 수 없습니다.
 
@@ -61,7 +101,18 @@ isUpdated: true
 
 진짜 차이점은 번호로 표시된 칩에 있습니다. 공식 아두이노에서 ATmega16U2가 있었던 위치에, 이 보드에는 CH340G가 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **CH340**은 USB-시리얼 변환기로 기능하는 전용 칩 시리즈입니다. 이 고도로 전문화된 특성으로 인해 공식 보드에 사용된 강력하고 다용도인 ATmega16U2보다 간단하고 더 저렴합니다. 그러나 이 ATmega16U2의 모든 잠재적인 성능과 가능성이 공식 보드에서는 소홀히 다뤄지므로 이 칩이 장착되어 있더라도 그 잠재력은 활용되지 않습니다. 따라서 전반적인 성능과 아두이노 보드의 기능 면에서는 USB-시리얼 어댑터로 어떤 칩이 사용되든 차이를 거의 느끼지 못할 것입니다.
 
@@ -69,7 +120,18 @@ isUpdated: true
 
 하지만 CH340에는 한 가지 문제가 있습니다: Windows에는 이를 위한 내장 드라이버가 없습니다. 엄밀히 말하면 이는 CH340의 문제가 아니라 Windows의 문제이지만, 우리 사용자들에게는 모두 같은 문제입니다. 이 보드를 USB에 연결하면 Windows가 "USB 장치 인식 안됨"이라는 내용으로 오류를 표시하고 해당 보드에 대한 COM 포트가 생성되지 않을 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제 해결은 매우 간단해요 — 그냥 올바른 드라이버를 설치하세요!
 
@@ -81,7 +143,18 @@ isUpdated: true
 
 - 단계 4: Arduino IDE에서 올바른 포트를 선택하세요. 이번에는 “Arduino Uno”와 같이 레이블이 아니라 포트 번호로 표시될 거에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-06-23-UsingArduinoIDEwithunofficialArduinoclonesbearingCH340chip_8.png)
 
@@ -91,7 +164,18 @@ CH340는 Arduino 클론뿐만 아니라 많은 다른 보드에서도 사용됩�
 
 호기심을 갖고 다른 Arduino 클론을 시도해보세요 (가격이 싸요!) 그리고 즐겁게 즐기세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 자료
 

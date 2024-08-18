@@ -3,17 +3,13 @@ title: "Microsoft Power BI에서 Python Seaborn으로 간단한 Pairplot 시각�
 description: ""
 coverImage: "/assets/img/2024-06-23-CreatingsimplePairplotvisualsusingPythonSeaborninMicrosoftPowerBI_0.png"
 date: 2024-06-23 16:04
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-CreatingsimplePairplotvisualsusingPythonSeaborninMicrosoftPowerBI_0.png
 tag: Tech
 originalTitle: "Creating simple Pairplot visuals using Python Seaborn in Microsoft Power BI"
 link: "https://medium.com/@sumanthsistlas/creating-simple-pairplot-visuals-using-python-seaborn-in-microsoft-power-bi-ab9384726e88"
 isUpdated: true
 ---
-
-
-
-
 
 시본(Seaborn): 시본은 파이썬에서 통계 플로팅에 사용되는 라이브러리입니다. 시본은 맷플롯립을 기반으로 구축되어 있으며, 통계 플롯을 보다 매력적으로 만드는 멋진 시각화에 널리 사용됩니다. 시본에 대해 더 알고 싶으신가요?
 
@@ -23,12 +19,23 @@ Power BI에서 파이썬 설정하기:
 
 단계 02: Python 설치 여부를 확인하려면 'Python 설치 방법' 링크를 클릭하여 Python 설치를 안내하는 단계를 따르세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Python Power BI Step 1](/assets/img/2024-06-23-CreatingsimplePairplotvisualsusingPythonSeaborninMicrosoftPowerBI_0.png)
 
 To connect to Python from Power BI:
+
 1. Click on “Get Data” under “Data Sources”.
 2. Select the “Python Script” connector.
 3. Click OK.
@@ -38,8 +45,18 @@ To connect to Python from Power BI:
 
 ![Python Power BI Step 3](/assets/img/2024-06-23-CreatingsimplePairplotvisualsusingPythonSeaborninMicrosoftPowerBI_2.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 번 matplotlib과 seaborn 라이브러리를 가져온 후 Seaborn을 사용하여 데이터를 로드합니다. 데이터 세트의 이름은 "tips"이지만, 제가 "Data"로 이름을 변경했습니다. 로컬에 저장된 데이터 세트를 읽고 싶다면 pandas 라이브러리를 가져와서 pd.read_csv()를 사용하여 파일을 읽을 수 있습니다. Python 스크립트 작성이 완료되면 확인을 클릭해주세요. 데이터를 Power BI로 로드하세요.
 
@@ -49,7 +66,18 @@ To connect to Python from Power BI:
 
 ![이미지](/assets/img/2024-06-23-CreatingsimplePairplotvisualsusingPythonSeaborninMicrosoftPowerBI_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Python Visual을 클릭하면 Microsoft Power BI의 Python Script 편집기에 필요한 시각화를 만들 Python 스크립트를 작성해야 합니다.
 
@@ -59,7 +87,18 @@ Python Visual을 클릭하면 Microsoft Power BI의 Python Script 편집기에 �
 
 ![image](/assets/img/2024-06-23-CreatingsimplePairplotvisualsusingPythonSeaborninMicrosoftPowerBI_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이렇게 하면 Seaborn과 matplotlib을 사용하여 멋진 시각화를 쉽게 만들 수 있어요.
 

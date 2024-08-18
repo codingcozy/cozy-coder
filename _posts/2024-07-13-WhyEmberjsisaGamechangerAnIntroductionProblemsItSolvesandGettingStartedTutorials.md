@@ -3,17 +3,13 @@ title: "Emberjs의 변화를 가져온 이유 소개, 문제 해결 및 시작 �
 description: ""
 coverImage: "/assets/img/2024-07-13-WhyEmberjsisaGamechangerAnIntroductionProblemsItSolvesandGettingStartedTutorials_0.png"
 date: 2024-07-13 00:20
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-WhyEmberjsisaGamechangerAnIntroductionProblemsItSolvesandGettingStartedTutorials_0.png
 tag: Tech
 originalTitle: "Why Ember.js is a Gamechanger: An Introduction, Problems It Solves, and Getting Started Tutorials"
 link: "https://medium.com/@asierr/why-ember-js-is-a-gamechanger-an-introduction-problems-it-solves-and-getting-started-tutorials-3953b56fb499"
 isUpdated: true
 ---
-
-
-
-
 
 만약 Ember.js에 대해 궁금하시다면, 웹 개발 세계에서 왜 게임 체인저로 간주되는지 알고 싶다면, 다행히도 제대로 온 곳이네요. 이 기사에서는 Ember.js를 돋보이게 만드는 요소, 해결하는 문제, 그리고 시작하는 데 도움이 되는 튜토리얼을 살펴보겠습니다. 함께 알아보시죠!
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Ember.js는 자발적인 웹 애플리케이션을 구축하기 위한 견고한 프레임워크입니다. 라우팅, 상태 관리, 강력한 템플릿 엔진을 비롯한 클라이언트 측 애플리케이션 구축에 필요한 모든 것을 제공합니다. Ember.js는 적합한 기본 설정과 개발자 경험에 중점을 둔 생산적인 설계로 되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 자세한 내용은 공식 Ember.js 문서를 확인해보세요.
 
@@ -33,7 +40,18 @@ Ember.js는 자발적인 웹 애플리케이션을 구축하기 위한 견고한
 
 Ember.js의 주요 철학 중 하나는 "설정보다 규약"입니다. 이는 Ember가 애플리케이션이 어떻게 구성돼야 하고 어떻게 작동해야 하는지에 대한 규약을 제공한다는 것을 의미합니다. 이러한 규약을 따르면 시간을 절약하고 작성해야 하는 보일러플레이트 코드의 양을 줄일 수 있습니다. 이를 통해 신속하게 시작할 수 있으며 프로젝트 간 일관성을 유지하는 데 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 강력한 커뮤니티와 생태계
 
@@ -43,7 +61,18 @@ Ember.js는 활기찬 커뮤니티와 다양한 애드온 및 도구들로 이�
 
 Ember.js는 생산성을 고려하여 설계되었습니다. Ember CLI(명령줄 인터페이스)는 뼈대 코드를 생성하고 테스트를 실행하며 종속성을 관리하기 위한 강력한 도구를 제공합니다. CLI에는 핫 리로딩 및 ES6 모듈 지원과 같은 기능을 지원하는 튼튼한 빌드 시스템도 포함되어 있어 개발을 더 빠르고 즐겁게 만들어줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Ember CLI에 대해 더 알고 싶다면, Ember CLI 문서를 방문해보세요.
 
@@ -53,7 +82,18 @@ Ember.js는 정체 없는 안정성을 제공하기 위해 노력하고 있습�
 
 ## 내장된 Best Practices
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Ember.js는 라우팅, 상태 관리 및 데이터 처리와 같은 것들에 대한 내장된 최상의 실천 방법을 제공합니다. 이것은 당신이 사용할 라이브러리를 결정하거나 응용 프로그램 구조를 어떻게 구성해야 하는지 고민할 필요가 없다는 것을 의미합니다. 대신, 당신은 기능을 구축하고 사용자에게 가치를 전달하는 데 집중할 수 있습니다.
 
@@ -63,7 +103,18 @@ Ember.js는 라우팅, 상태 관리 및 데이터 처리와 같은 것들에 �
 
 대규모 응용 프로그램을 구축하고 유지하는 것은 어려울 수 있습니다. Ember.js는 복잡성을 관리하기 쉽게 만들어주는 명확한 구조와 규칙 세트를 제공합니다. Ember Router 및 Ember Data와 같은 기능은 코드를 조직하고 상태를 효과적으로 관리하는 데 도움이 되어 개발자들의 인지 부하를 줄여줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 일관되지 않은 개발 방법론
 
@@ -73,7 +124,18 @@ Ember.js는 라우팅, 상태 관리 및 데이터 처리와 같은 것들에 �
 
 현대적인 웹 애플리케이션 개발은 빌드 자동화, 테스트 및 배포와 같은 다양한 도구가 필요합니다. Ember.js는 Ember CLI를 통해 통합된 도구 세트를 제공하여 개발 워크플로우를 관리하고 질을 보장하는 것을 쉽게 만들어 줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Ember.js 시작하기: 튜토리얼
 
@@ -83,7 +145,18 @@ Ember.js를 시작할 준비가 되셨나요? 여러분의 여정을 시작하�
 
 Ember.js로 개발을 시작하기 전에 개발 환경을 설정해야 합니다. 어떻게 해야할지 여기에 안내되어 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Node.js와 npm 설치: Ember CLI를 사용하려면 Node.js와 npm(Node Package Manager)가 필요합니다. 공식 Node.js 웹사이트에서 다운로드하여 설치할 수 있습니다.
 - Ember CLI 설치: Node.js와 npm이 설치된 후에는 터미널에서 다음 명령을 실행하여 Ember CLI를 전역으로 설치할 수 있습니다:
@@ -96,9 +169,20 @@ npm install -g ember-cli
 
 ```js
 ember new my-app
-```  
+```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. 애플리케이션 디렉토리로 이동하세요: 새 애플리케이션 디렉토리로 이동하세요:
 
@@ -112,7 +196,18 @@ cd my-app
 ember serve
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 브라우저를 열고 새 Ember 애플리케이션을 확인하려면 http://localhost:4200으로 이동하세요.
 
@@ -122,7 +217,18 @@ ember serve
 
 컴포넌트는 Ember 애플리케이션의 구성 요소입니다. 첫 번째 Ember 구성 요소를 만드는 방법은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 새로운 컴포넌트 생성하기: Ember CLI를 사용하여 새로운 컴포넌트를 생성해보세요:
 
@@ -134,12 +240,23 @@ ember generate component my-component
 
 ```js
 <div>
-    <h1>Hello, Ember!</h1>
-    <p>This is my first component.</p>
+  <h1>Hello, Ember!</h1>
+  <p>This is my first component.</p>
 </div>
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 앱에서 컴포넌트 사용하기: app/templates/application.hbs 파일을 열고 새로운 컴포넌트를 사용하세요:
 
@@ -152,7 +269,18 @@ ember generate component my-component
 
 더 많은 정보는 Ember Components 가이드를 확인하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 루트 및 네비게이션 추가하기
 
@@ -164,7 +292,18 @@ ember generate component my-component
 ember generate route about
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 루트 템플릿 편집: 생성된 템플릿 파일 (app/templates/about.hbs)을 열고 다음 HTML을 추가해주세요:
 
@@ -186,7 +325,18 @@ ember generate route about
 {outlet}
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. 당신의 루트 보기: 변경 사항을 저장하고 브라우저에서 애플리케이션을 확인하세요. 링크를 사용하여 홈 및 소개 페이지를 오갈 수 있어야 합니다.
 
@@ -196,7 +346,18 @@ Ember.js는 생산성, 일관성 및 안정성을 웹 개발에 제공하는 강
 
 이 소개로 Ember.js가 게임 체인저인 이유와 어떻게 시작하는지에 대한 좋은 이해를 얻었기를 바랍니다. 튜토리얼에 뛰어드십시오, 다양한 생태계를 탐험하고 Ember.js의 힘을 직접 경험해보세요. 즐거운 코딩되세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자세한 팁과 노하우는 JS Quick Tips에서 확인해보세요.
 

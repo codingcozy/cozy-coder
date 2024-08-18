@@ -3,17 +3,13 @@ title: "LLM Unix Linux 도구상자의 궁극적인 스위스 아미 나이프"
 description: ""
 coverImage: "/assets/img/2024-06-19-llmTheUltimateSwissArmyKnifeofUnixLinuxToolbox_0.png"
 date: 2024-06-19 03:35
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-llmTheUltimateSwissArmyKnifeofUnixLinuxToolbox_0.png
 tag: Tech
 originalTitle: "llm: The Ultimate Swiss Army Knife of Unix Linux Toolbox"
 link: "https://medium.com/@kinshuksarabhai/llm-the-ultimate-swiss-army-knife-of-unix-linux-toolbox-be05ba14a4b7"
 isUpdated: true
 ---
-
-
-
-
 
 ## 멋진 도구로 명령줄 작업을 더욱 효율적으로!
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## 이 도구는 무엇을 할까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단히 말해서, 이 도구를 사용하면 워크플로우 중간에 LLM (대형 언어 모델)을 호출하고 강력한 방법으로 출력을 변환할 수 있습니다.
 
@@ -33,7 +40,18 @@ Github에서 더 많은 예시와 데모를 찾을 수 있습니다.
 
 ## 왜 이것이 중요한가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 인용하자면:
 
@@ -43,7 +61,18 @@ Github에서 더 많은 예시와 데모를 찾을 수 있습니다.
 
 이 도구는 Unix 철학에서의 주요 아이디어를 상쾌하게 부활시키는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 하나의 기능을 잘 수행하는 프로그램을 작성하세요.
 - 프로그램들이 함께 작동할 수 있도록 작성하세요.
@@ -51,11 +80,22 @@ Github에서 더 많은 예시와 데모를 찾을 수 있습니다.
 
 마지막으로, 위 세 번째 점은 LLMs이 이 목적에 적합하게 만들어진 이유입니다. 왜냐하면 그들은 프롬프트에 기반하여 하나의 텍스트를 다른 텍스트로 효과적으로 변환하는 데 우수하기 때문입니다.
 
-좋은 상호 운용성을 위해서, 각 프로그램에 깔끔한 입출력 인터페이스가 있다면 좋고, 다른 프로그램의 출력을 표준 입력(stdin)을 통해 입력으로 받아 들이게 하는 것은 점 [2]로부터 따라온다. 
+좋은 상호 운용성을 위해서, 각 프로그램에 깔끔한 입출력 인터페이스가 있다면 좋고, 다른 프로그램의 출력을 표준 입력(stdin)을 통해 입력으로 받아 들이게 하는 것은 점 [2]로부터 따라온다.
 
 ## 키 기능의 빠른 개요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 플러그인을 통한 로컬 및 원격 모델 지원: Ollama와 같은 도구를 통해 LLMs의 로컬 배포로 비용을 관리하세요.
 - 템플릿 지원: Fabric과 같은 대체 도구는 "패턴"이라고 하는 템플릿을 커맨드 라인 도구로 제공하기 시작했습니다.

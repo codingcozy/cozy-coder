@@ -3,17 +3,13 @@ title: "왜 Graph 기반 RAG가 미래인가요"
 description: ""
 coverImage: "/assets/img/2024-06-22-WhyGraphBasedRAGIsTheFuture_0.png"
 date: 2024-06-22 21:14
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-WhyGraphBasedRAGIsTheFuture_0.png
 tag: Tech
 originalTitle: "Why Graph Based RAG Is The Future?"
 link: "https://medium.com/@learn-simplified/why-graph-based-rag-is-the-future-4a8b3ad3c68f"
 isUpdated: true
 ---
-
-
-
-
 
 LLM을 기업 AI에 그래프로 지지하십시오. 그래프 벡터가 아닙니다. 다음 부분에서 하나를 만들어보겠습니다!
 
@@ -23,7 +19,18 @@ LLM을 기업 AI에 그래프로 지지하십시오. 그래프 벡터가 아닙�
 
 # 해결책은 무엇일까요? RAG (검색 보충 생성)입니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 매우 간단히 말하면, RAG는 적절한 데이터(내부 회사 스토어에서)를 선택하여 질문에 대답하고 대형 언어 모델(LLM)에 제공하는 것을 포함합니다. 그 후 LLM은 데이터를 분석하고 응답을 생성할 수 있습니다.
 
@@ -33,19 +40,43 @@ LLM을 기업 AI에 그래프로 지지하십시오. 그래프 벡터가 아닙�
 
 우리(나는 지금까지 10개월 이상 이를 진행하고 있습니다)는 벡터 검색을 통해 RAG를 처리하는데, 벡터 저장소/데이터베이스에서 벡터를 검색합니다. 이 접근 방식은 분명히 아주 좋은 방법이라고 생각했지만, 수개월간의 실험을 거친 후 특정 문제점을 깨달았습니다. 함께 알아봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 벡터 검색을 통한 RAG 작업 프로세스 간단히 살펴보기
 
 ## 과정
+
 이 단계에서는 텍스트와 같은 정보가 작은 세그먼트(일반적으로 각각 200자씩)로 분해되는 과정을 거칩니다. 이러한 세그먼트는 벡터 임베딩이라고 알려진 숫자 표현으로 변환됩니다. 이러한 임베딩은 벡터 데이터베이스라고 불리는 특수 유형의 데이터베이스에 저장됩니다.
 
 다른 정보 조각들 간의 연결은 벡터 임베딩 간의 숫자적 차이를 측정함으로써 수립됩니다. 예를 들어, "개"와 "고양이"와 같은 관련 개념을 검색할 때 이러한 용어는 "개"와 "자동차"와 비교하여 수치적으로 서로 더 가까울 것입니다.
 
 ## 검색
+
 사용자가 쿼리나 질문을 제출하면, 쿼리 자체도 벡터 임베딩으로 변환됩니다. K-Nearest Neighbors(KNN)나 Approximate Nearest Neighbors(ANN)와 같은 알고리즘을 사용하여 시스템은 벡터 데이터베이스에서 쿼리에 가장 가까운 데이터 포인트("K")를 식별하고 검색합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 세대: 마지막으로, 가장 관련성 있는 데이터 세그먼트를 나타내는 상위 “k” 벡터 임베딩이 원래 형식으로 다시 번역됩니다. 이러한 데이터 세그먼트는 이후 대형 언어 모델 (LLM)에 전달되어 응답을 생성하는 데 사용됩니다. 예를 들어, 질의가 역사적 사건에 관한 것이라면, LLM은 검색된 데이터를 사용하여 일관된 설명이나 내러티브를 생성할 수 있습니다.
 
@@ -55,7 +86,18 @@ LLM을 기업 AI에 그래프로 지지하십시오. 그래프 벡터가 아닙�
 
 아래는 "차원의 저주", 잡음과 이상값에 대한 민감성, KNN 확장성 문제, 최적 'k' 등과 같은 밀집한 기술적 세부 정보에 대한 해석 없이 매우 간단한 형태로 작성한 것입니다. (문제 파악이 쉽기를 희망합니다)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 벡터 기반 검색은 정보를 찾는 한 가지 방법이지만, 몇 가지 큰 문제점이 있어요. 여기서 알아야 할 내용을 알려드릴게요:
 
@@ -64,11 +106,22 @@ LLM을 기업 AI에 그래프로 지지하십시오. 그래프 벡터가 아닙�
 - 숫자 대 단어: 벡터 기반 검색은 텍스트와 숫자가 혼합된 경우 어려움을 겪어요. 메뉴얼에서 스프레드시트 옆에 답변을 찾는 것을 상상해보세요. 컴퓨터는 정보 유형을 혼동할 수 있어요.
 - 비용이 많이들고 어렵다: 이 유형의 검색은 관리하기 어려운 비싼 도구가 필요해요. 정보를 추가할 때마다 컴퓨터가 많은 작업을 다시 해야 해서 느리고 비싸질 수 있어요.
 
-# 그래서 RAG의 미래는 무엇인가? * 그래프 *
+# 그래서 RAG의 미래는 무엇인가? _ 그래프 _
 
 여기서 RAG(검색 강화 생성)가 그래프 기반 접근 방식을 사용하고, 벡터 기반 검색의 제한사항을 해결하면서 미래를 열어가는 방법을 알려드릴게요: (다음 부분에서 처음부터 만들어볼 거에요)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 영화에 관한 대량의 정보가 있는 대형 데이터베이스를 상상해보세요. 줄거리, 캐릭터, 배우, 감독, 장르, 리뷰, 박스 오피스 수익 등과 같은 세부 정보가 포함되어 있습니다. 이 다양한 정보는 텍스트 파일, PDF, 스프레드시트, 비디오와 같은 다양한 형식으로 존재합니다.
 
@@ -78,7 +131,18 @@ LLM을 기업 AI에 그래프로 지지하십시오. 그래프 벡터가 아닙�
 
 검색 알고리즘은 그래프를 탐색하여 장르가 "슈퍼히어로"인 관련 영화 노드를 식별하고, 여성 감독 노드와 연결되며, 평점/리뷰 노드를 확인하여 고평점 영화를 필터링합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래프로부터의 맥락적 검색은 언어 모델에 영화 제목, 줄거리, 캐스트/크루 세부 정보 및 관련 영화 리뷰와 같은 서로 연결된 데이터 포인트들을 제공하여 정확하고 포괄적인 응답을 생성할 수 있게 합니다.
 
@@ -88,7 +152,18 @@ LLM을 기업 AI에 그래프로 지지하십시오. 그래프 벡터가 아닙�
 
 # 그래서 어떤 교훈을 얻을 수 있을까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 그래프와 함께하는 지능적인 검색
 
@@ -102,7 +177,18 @@ LLM을 기업 AI에 그래프로 지지하십시오. 그래프 벡터가 아닙�
 - 유연한 데이터: 그래프는 정보가 문서, 스프레드시트, 비디오 또는 기타 어디에 있든 상관없습니다. 그것들을 다 다룰 수 있습니다.
 - 쉬운 업데이트: 새로운 정보가 생겼나요? 그냥 지도에 추가하세요! 벡터 기반 시스템과 달리 모든 것을 다시 계산할 필요가 없습니다. 이로써 시간과 비용을 절약할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 그래프가 미래인 이유
 

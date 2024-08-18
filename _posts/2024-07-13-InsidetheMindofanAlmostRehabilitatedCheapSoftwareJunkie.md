@@ -3,17 +3,13 @@ title: "거의 재활된 저렴한 소프트웨어 중독자의 생각 속으로
 description: ""
 coverImage: "/assets/img/2024-07-13-InsidetheMindofanAlmostRehabilitatedCheapSoftwareJunkie_0.png"
 date: 2024-07-13 22:20
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-InsidetheMindofanAlmostRehabilitatedCheapSoftwareJunkie_0.png
 tag: Tech
 originalTitle: "Inside the Mind of an Almost Rehabilitated Cheap Software Junkie"
 link: "https://medium.com/alysynknowsnet/inside-the-mind-of-an-almost-rehabilitated-cheap-software-junkie-7ab1dff7d2ce"
 isUpdated: true
 ---
-
-
-
-
 
 2022년 11월 01일
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 오늘 아침에 '문제'가 제게 백지장을 건넨 건, 여러 캠페인 전략 중 하나를 다시 읽으면서 비디오 후기를 캠페인의 일부로 넣었다는 걸 알게 됐을 때예요. 이 말은 이 기능을 수행해 줄 소프트웨어가 있어야 한다는 걸 뜻했어요. 나는 내가 올해만 수십 가지 소프트웨어 중에 이게 무엇인지 기억하지 못했어요. 그래서 내 구글 드라이브를 뒤적거리기 시작했어요. 거기엔 효율적이지 못한 기록들이 있기는 한데요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-13-InsidetheMindofanAlmostRehabilitatedCheapSoftwareJunkie_1.png" />
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 그때 다시 기억이 돌아왔어요. 아주 훌륭한 판매 설명란, 그건 바로 나를 위한 소비자인데, 제게 자극을 줘서 사게 만들었어요. 37달러에 뭘 기대했을까요? 그 당시 바쁜 일상 속에서 이것을 다룰 시간이 없었고, 결국 그것을 놓치게 되었어요. 이런 일을 몇 번이나 했을까요? 이렇게 많은 돈을 버렸을까요? 어떤 것도 너무 많아요. 그것 때문에 많은 돈을 낭비한 거예요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 여러 해 동안 싼 소프트웨어를 구매해 왔습니다. 매일 제 이메일함은 제공되는 제안으로 넘쳐나요. 모든 소프트웨어 판매업자의 A리스트에 올라가 있답니다. 그들이 좋아하는 사람인 거죠. 한 동안은 그들을 좋아했던 것도 사실이죠. 싼 소프트웨어 100개 중 98%가 적어도 한 동안에는 제게 도움이 되었어요. 하지만 부정적인 패턴을 경험하기 시작했죠. 이를 설명하기 전에, 왜 나는 처음부터 싼 소프트웨어 중독자가 되었는지에 대해 이야기해보겠습니다.
 
@@ -43,13 +61,35 @@ isUpdated: true
 
 이러한 개발자들은 일반적으로 이러한 작은 귀찮은 점들을 신속하게 해결해요. 이 신속함은 좋은 일이죠. 그렇지만 더 큰 문제는 시장이 너무 빠르게 변화하기 때문에, 이 신속하게 개발된 소프트웨어들이 빠르게 구식이 되었다는 것이었어요. 소셜 미디어와 함께 작동하는 소프트웨어는 소셜 미디어 플랫폼의 서비스 약관을 위반했다고 결정되자마자, 또는 알고리즘이 변경되었다고 바로 막힐 수 있었어요. 싼 손쉬운 마법 같은 소프트웨어는 단순히 기능을 멈출 수도 있었고, 그것이 구축된 전체 비즈니스가 망할 수도 있었어요. 그 마법이 없어졌어요. 하룻밤 사이에. 우리가 그것에 투자했던 사람들은 "불편함"을 느낄 수도 있다는 이름으로 사과하는 이메일을 받곤했어요. 저는 항상 그 어처구니없는 말을 문제 삼아왔어요. 불편함을 야기했을 수도 있습니다? 정말요??!!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 개발자들이 이동하면서 이런 싼 소프트웨어들은 상당히 업데이트되지 않고, 거의 지원받지 못하는 경우가 많아졌죠. 더 빠른 기술을 사용하는 다음 비슷한 빛나는 것이 나타나면 구매한 제품이 오래됐다고 느껴지기 시작합니다. 다시 한번 새로운 것이 나타날 거에요.
 
 그래서 이렇게 저렴한 소프트웨어에 대한 열정적인 구매 습관을 극복하는 데 도움이 되었습니다. 이렇게 해서 이제는 검색 엔진을 활용해서 필요한 것을 찾고, 신중하고 안정된 플랫폼을 선택하게 되었어요. 저는 어느 때보다도 더 현명한 소비자로서 이제는 이런 작은 구식 소프트웨어들을 대체하기 위해 이를 시작했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가격이 높고 구독 기반인 소프트웨어들은 제 비즈니스에 훨씬 더 신뢰할만하며 안정적이며 지속적입니다. 이들은 잘 지원을 받을 수 있어요. 사람들과 실제로 통화할 수도 있고, 심지어 Zoom 통화도 가능하며, 지원 티켓에 답변을 기다리는 기간도 세 달이나 걸리지 않아요. 이 프리미엄 소프트웨어들은 비즈니스에서 필요한 모든 기능을 충족시킬 수 있는 잠재력이 있으며 비용을 지불할 만한 가치가 있어요.
 

@@ -3,17 +3,13 @@ title: "여행가방 이야기"
 description: ""
 coverImage: "/assets/img/2024-06-20-TheStoryoftheTravelingBag_0.png"
 date: 2024-06-20 17:12
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-TheStoryoftheTravelingBag_0.png
 tag: Tech
 originalTitle: "The Story of the Traveling Bag"
 link: "https://medium.com/share-your-creativity/the-story-of-the-traveling-bag-6a4a5c6d4c43"
 isUpdated: true
 ---
-
-
-
-
 
 ## 예술 | 창의력 | 공예 | 바느질
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 나는 이를 여행가방이라고 부르죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제가 정확히 어디서 구매했는지는 정확히 기억이 나지 않지만 쇼핑을 한 곳은 쇼핑몰이었고 부모님과 함께 여행 중이었습니다. 제가 반드시 16세에서 19세 사이에 있었을 때였고, 백화점에서 옷걸이에 걸려 있는 것을 아직도 기억합니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ![여행가방 이야기](/assets/img/2024-06-20-TheStoryoftheTravelingBag_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한동안 지나면서 가방이 부패하기 시작했습니다. 우리는 절대적으로 모든 것에 사용하고 있는데, 평범한 면으로 만들어진 것이기 때문에 그럴 만하죠. 먼저, 스트랩이 풀어지기 시작했어요 - 그건 쉽게 해결할 수 있었어요. 어느 날 시장에서 스트랩 소재를 발견하고 새로운 것을 손으로 봉제할 수 있었습니다. 기존 스트랩을 바로 끊기보다는 짧게 잘랐다가 새로운 스트랩에 봉제했어요. 또한 카라비너으로 가방에 뭔가를 걸고 싶을 때 루프를 추가했어요, 예를 들어 물병 등.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 안타깝게도 우리에겐 많은 돈이 없어서 심각하게 쇼핑은 안 하고 둘러보기만 했지만, 눈여겨본 것 중 하나는 패치들이었어요. 그때쯤이면 내 사랑하는 가방에 구멍이 나기 시작했고, 사용하는 데 조심해야 했어요. 언젠가는 수리할 수 없을 정도로 찢어질까 걱정하는데, 무엇보다도 채소나 운반품 등이 바닥으로 떨어질까 걱정했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 순간 나는 패치들이 가방의 구멍들을 메울 수 있는 필요한 것이라는 것을 깨달았어요. 그 가방을 어떻게든 구할 수 있기를 간절히 바랬죠.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 또한 그 날에 자수실을 구입해서 가방 상단을 강화하는 데 사용했고, 장식적으로 나선 모양을 만드는 데도 사용했어요. 그 때는 결국 전체 가방을 자수할 것이라고 생각했어요. 하지만, 얼마나 많은 노력이 필요한지 깨달은 후에, 그 꿈은 길지 않게 사라지게 되었어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 아래에서 확인할 수 있듯이 몇 가지 자수 작업을 한 것 같아요. 가방의 약한 부분을 강화하는 데 효과가 있었어요.
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 저는 이 가방을 우리의 여행과 경험의 대표로 만들고 싶다는 것을 깨달았어요. 그래서 우리가 방문한 나라들에서 패치를 찾아 추가하기 시작했어요. 또한 캐나다 패치를 가지고 다니고 있었는데, 봉제할 곳이 필요했고, 마침 이제 그 곳이 생겼어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 조금씩, 시간을 들여 가며, 다가오는 멸망으로부터 가방을 살리기 위해 필사적인 노력을 했습니다.
 
@@ -73,7 +124,18 @@ isUpdated: true
 
 그래, 결정했습니다. 결국 이 가방은 창의적인 가방이니까요, 우리는 벽화 화가니까 말이죠. 테마에 딱 맞는 가방인 거 같네요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 가방은 꽤 오랫동안 이런 식으로 존재했어요. 하지만 상상할 수 있겠지만, 벌어진 곳들이 점점 더 더러워지고 얇아지고 있다는 걸 알았어요. 이 가방을 완전히 살리고 싶다면 더 많은 패치를 구하고 생산량을 늘려야 한다는 걸 알았죠.
 
@@ -83,7 +145,18 @@ isUpdated: true
 
 패브릭을 다룬다면, 얼마나 어처구니 없는 질문인지 아실 거예요. 그녀는 나를 바느질 방으로 데려가 데스크 서랍 가득한 패브릭 조각을 보여주었어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 황야에 있었어요.
 
@@ -93,7 +166,18 @@ isUpdated: true
 
 하나 또는 두 개의 장점은 분명히 더 다채롭게 보이긴 해요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여러분들도 보시다시피, 우리가 방문한 장소들의 다른 패치들을 발견하여 믹스에 추가했습니다. 시간이 흐를수록 이를 계속 추가하고, 우리의 여행 이야기를 담은 패치워크가 되길 바랍니다.
 
@@ -103,7 +187,18 @@ isUpdated: true
 
 이 이야기는 다른 'Share Your Creativity' 작가, Chloe ~ Calendula Craft와 그녀의 기억을 담은 퀼트를 만드는 기사에서 영감을 받았습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 창의력을 공유하고 싶다면, 제 출판물에 창의적인 글을 제출해보는 것을 고려해보세요:
 
@@ -113,6 +208,17 @@ isUpdated: true
 
 2017년부터 우리는 유목민의 삶을 살아왔어요! 아래 링크를 클릭해 우리의 여정에 동행해보세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹사이트 | 인스타그램 | 페이스북 | 링크드인 | 패트리언 | 유튜브 | 미디엄 | 트위터 | 코-피 | 언스플래시

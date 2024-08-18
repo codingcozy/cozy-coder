@@ -3,17 +3,13 @@ title: "파이썬으로 간단한 ROS2 장애물 회피 로봇 만들기 방법"
 description: ""
 coverImage: "/assets/img/2024-06-23-BuildingaSimpleROS2ObjectAvoidanceRobotusingPython_0.png"
 date: 2024-06-23 18:23
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-BuildingaSimpleROS2ObjectAvoidanceRobotusingPython_0.png
 tag: Tech
 originalTitle: "Building a Simple ROS2 Object Avoidance Robot using Python"
 link: "https://medium.com/@kabilankb2003/building-a-simple-ros2-object-avoidance-robot-using-python-962f5b8485d7"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-23-BuildingaSimpleROS2ObjectAvoidanceRobotusingPython_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 시작하기 전에 다음을 갖추고 있는지 확인하세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - ROS2 설치 (Foxy, Galactic 또는 그 이후 버전).
 - Python 프로그래밍에 대한 기본 지식.
@@ -38,7 +45,18 @@ isUpdated: true
 - Twist 메시지: 로봇의 선형 및 각속도를 제어하는 ROS 메시지 유형.
 - 노드: LIDAR 데이터를 구독하고 속도 명령을 게시하는 ROS2 노드.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 코드 설명
 
@@ -67,7 +85,7 @@ class ObjectAvoidanceNode(Node):
     def lidar_callback(self, msg):
         ranges = msg.ranges
         min_distance = min(ranges)
-        
+
         twist_msg = Twist()
 
         if min_distance < self.safe_distance:
@@ -99,7 +117,18 @@ if __name__ == '__main__':
 
 # 코드 설명
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Imports: 필요한 모듈을 rclpy, sensor_msgs.msg 및 geometry_msgs.msg에서 가져옵니다.
 - 노드 초기화: Node를 상속하는 ObjectAvoidanceNode 클래스를 정의합니다. 생성자에서는 LaserScan 메시지를 수신할 /scan 토픽에 대한 구독 및 Twist 메시지를 보낼 /cmd_vel 토픽에 대한 게시자를 설정합니다.
@@ -113,7 +142,18 @@ ROS2 환경이 정상적으로 소스로드되고 필요한 토픽 (/scan 및 /c
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*XNR1_8EGSFbgsAnJUJ05FQ.gif" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

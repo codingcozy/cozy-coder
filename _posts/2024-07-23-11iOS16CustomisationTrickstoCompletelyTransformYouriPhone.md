@@ -3,17 +3,13 @@ title: "iOS 16에서 아이폰을 완전히 변신시키는 11가지 커스터�
 description: ""
 coverImage: "/assets/img/2024-07-23-11iOS16CustomisationTrickstoCompletelyTransformYouriPhone_0.png"
 date: 2024-07-23 21:43
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-23-11iOS16CustomisationTrickstoCompletelyTransformYouriPhone_0.png
 tag: Tech
 originalTitle: "11 iOS 16 Customisation Tricks to Completely Transform Your iPhone"
 link: "https://medium.com/macoclock/11-ios-16-customisation-tricks-to-completely-transform-your-iphone-84027d59b85e"
 isUpdated: true
 ---
-
-
-
-
 
 ![Image](/assets/img/2024-07-23-11iOS16CustomisationTrickstoCompletelyTransformYouriPhone_0.png)
 
@@ -23,7 +19,18 @@ iOS 16은 아마도 가장 최근의 iOS 업데이트로 가장 많은 사용자
 
 본 포스트에서는 iPhone의 외관을 완전히 변화시키고 매일 다른 iPhone을 사용하는 느낌을 줄 수 있는 13가지 사용자 정의 트릭을 공유하겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## iPhone 잠금 화면 배경을 모든 번 해 제 도 생성될 때 마다 동 물로 업데이트하세요
 
@@ -33,7 +40,18 @@ iOS 16 업데이트의 스포트라이트 기능은 여러 장의 잠금 화면 
 
 이 기능을 사용하려면 잠금 화면을 길게 누르고 가장 아래에 있는 + 아이콘을 클릭한 후 사진 섞기 옵션을 클릭하세요. 그런 다음 iPhone이 갤러리에서 자동으로 사진을 선택하거나 수동으로 선택할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자동 옵션을 선택하면 사람, 자연, 도시 이미지를 포함할지 여부를 선택해야 합니다.
 
@@ -43,7 +61,18 @@ iOS 16 업데이트의 스포트라이트 기능은 여러 장의 잠금 화면 
 
 제가 가장 좋아하는 옵션은 '잠금 화면'을 자주 섞는 것입니다. 이렇게 하면 iPhone을 잠그고 해제할 때마다 새로운 배경 화면으로 환영 받을 수 있습니다. 이 기능을 사용하면 iPhone을 더 자주 잠금 해제하고 사용하게 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기능은 다수의 반복되는 사진을 줄이기 위해 최대 50개의 사진을 선택할 수 있도록 수동으로 잠금 화면 배경화면을 선택하는 것을 권장합니다.
 
@@ -53,7 +82,18 @@ iOS 16 업데이트의 스포트라이트 기능은 여러 장의 잠금 화면 
 
 iOS 16에서 이제 잠금 화면에 위젯을 추가할 수 있다는 것을 이미 알고 계실 것입니다. 그러나 현재 시스템 위젯과 몇 가지 타사 앱 위젯만 있기 때문에 선택지가 제한적입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 운 좋게도, 'Lock Launcher'라는 앱을 사용하여 사용자 정의 위젯을 추가하여 빠르게 애플리케이션을 열거나 바로 웹 사이트를 열거나 전화할 수 있습니다.
 
@@ -61,7 +101,18 @@ iOS 16에서 이제 잠금 화면에 위젯을 추가할 수 있다는 것을 �
 
 나는 'Lock Launcher'를 사용하여 즐겨 듣는 플레이리스트를 빠르게 시작하고, 결제 앱을 실행하며, 전화기를 잠그는 단축키를 실행하여 이동하고 미약한 단계를 거치지 않고 바로 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 iPhone 14 Pro 시리즈를 사용 중이라면, 해당 앱은 동적 아일랜드에 자주 사용하는 앱에 바로 가기를 추가하는 기능을 지원합니다. iOS 16에서는 라이브 활동 기능을 사용하여 최대 8개의 주 사용 앱에 대한 바로 가기와 함께 알림을 잠금 화면에 추가할 수도 있습니다.
 
@@ -71,7 +122,18 @@ iOS 16에서 이제 잠금 화면에 위젯을 추가할 수 있다는 것을 �
 
 ## 천문학, 날씨, 이모티콘 페이지로 라이브 잠금 화면 배경을 만들어보세요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내장되어 있는 잠금 화면 페이지 외에도, iOS 16에서 이모티콘, 날씨, 천문학 등 다양한 카테고리에 속한 프리셋을 선택할 수 있어요.
 
@@ -79,7 +141,18 @@ iOS 16에서 이제 잠금 화면에 위젯을 추가할 수 있다는 것을 �
 
 이것에 대해 이미 알고 있을 수 있지만, 각 프리셋에는 세심한 디테일이 포함되어 있어요. 예를 들어 날씨 기반의 잠금 화면은 iPhone의 날씨 앱처럼 당신의 위치에 따라 배경을 자동으로 변경해 줘요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한, 이모지 잠금 화면 페이지는 최대 6개의 이모지를 추가하고 작은, 중간, 큰 그리드 및 링 및 스파이럴 레이아웃 중에서 선택하여 이모지 기반 배경화면의 디자인을 맞춤 설정할 수 있습니다.
 
@@ -89,7 +162,18 @@ iOS 16 업데이트에서 도입된 또 하나의 내가 가장 좋아하는 기
 
 알림창을 어떻게 표시할지 사용자 정의하려면, 설정 앱에서 알림 페이지로 이동하여 ‘표시 방식’ 섹션에서 Count, Stack, List 옵션 중 하나를 선택하여 잠금 화면에 알림을 표시하는 방식을 설정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `` `
 ![이미지](/assets/img/2024-07-23-11iOS16CustomisationTrickstoCompletelyTransformYouriPhone_4.png)
@@ -99,9 +183,21 @@ iOS 16 업데이트에서 도입된 또 하나의 내가 가장 좋아하는 기
 동일한 페이지에서 다른 알림 설정을 사용자 정의할 수도 있어요. 일정 요약 옵션을 활성화하여 특정 시간에 일괄적으로 모든 알림을 받을지, 락 화면에 알림 미리보기를 표시할지, 앱마다 어떤 종류의 알림을 받을지 개별적으로 사용자 정의할 수도 있어요.
 
 ## Safari에서 각 탭 그룹이 보이는 방식 수정하기
+
 `` `
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Safari도 iOS 16 업데이트에서 멋진 사용자 정의 옵션을 제공했어요. 이제 모든 탭 그룹을 개별적으로 사용자 정의할 수 있는 기능이 추가되었어요.
 
@@ -109,7 +205,18 @@ Safari도 iOS 16 업데이트에서 멋진 사용자 정의 옵션을 제공했�
 
 iOS 16에서는 탭 그룹을 친구, 가족 또는 동료와 공유할 수 있을 뿐만 아니라, 각각의 탭 그룹에는 서로 다른 즐겨찾기 웹사이트와 배경을 개별적으로 설정할 수 있으며, 탭 그룹을 공유한 사람들도 이를 할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단히 새 탭 그룹을 생성하고, 그룹 내에서 배경 이미지를 사용자 정의하고 웹사이트 즐겨찾기를 수정하면 이 특정 탭 그룹에만 적용됩니다. 이제 그룹을 전환할 때 각기 다른 탭 그룹을 쉽게 식별할 수 있습니다.
 
@@ -119,7 +226,18 @@ Apple이 기본 키보드에 햅틱 피드백을 추가할 것을 기다리고 �
 
 ![iOS 16 Customisation Trick](/assets/img/2024-07-23-11iOS16CustomisationTrickstoCompletelyTransformYouriPhone_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아이폰 키보드의 햅틱 피드백을 활성화하려면 설정 앱을 열고 소리 및 햅틱 → 키보드 피드백으로 이동한 다음 여기에서 햅틱 옵션을 활성화하세요.
 
@@ -129,7 +247,18 @@ iOS 16에 소개된 가장 멋진 기능 중 하나인 매직 컷아웃 옵션�
 
 이를 통해 애완 동물, 자동차 또는 기본적으로 모든 것의 이미지를 연락처에 전송하는 등 다양한 용도로 활용할 수 있지만, 저는 특히 한 가지 사용 방법을 애호하고 여러분과 공유하고 싶습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 좋아하는 사진 중 하나에서 주제를 선택하여 다른 사진 중 하나에 올려 원하는 사용자 지정 배경 화면을 만들 수 있어요. 이는 사실상 포토샵의 빠른 버전과 같아요.
 
@@ -139,7 +268,18 @@ iOS 16에 소개된 가장 멋진 기능 중 하나인 매직 컷아웃 옵션�
 
 먼저, 갤러리에서 사용자 지정 배경 화면에 사용하고 싶은 주제가 있는 사진을 열어요. 이제 주제를 길게 누르고 나오는 팝업 메뉴에서 복사 옵션을 선택하세요. 이후 Instagram을 열고 새 이야기를 생성한 다음 사용할 배경 화면 이미지를 선택하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이후에는 단순히 이전에 복사한 제목을 이미지에 붙여 넣고, 원하는 곳에 배치한 후 옵션 버튼을 클릭하여 저장을 선택하면 새롭고 맞춤형 배경화면이 몇 초 안에 준비됩니다.
 
@@ -149,7 +289,18 @@ iOS 16에 소개된 가장 멋진 기능 중 하나인 매직 컷아웃 옵션�
 
 Memoji 팬이고 자주 사용한다면, iOS 16에서 Memoji를 위한 새로운 맞춤 옵션을 소개했다는 사실에 흥분하실 것입니다. 17가지의 새로운 헤어 스타일, 새로운 모자 옵션, 새로운 코, 그리고 더 중립적인 입술 색상 옵션이 추가되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-23-11iOS16CustomisationTrickstoCompletelyTransformYouriPhone_8.png)
 
@@ -159,7 +310,18 @@ Memoji 팬이고 자주 사용한다면, iOS 16에서 Memoji를 위한 새로운
 
 전자 책 팬이고 iPhone에서 전자 책을 읽는 것을 즐기시는 분들을 위한 좋은 소식이 있어요. iOS 16은 Apple Books 앱에 다양한 사용자 정의 옵션을 제공하여 전자 책을 보고 상호 작용하는 방식을 변경할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내가 제일 좋아하는 기능은 주변 환경과 조명 조건에 따라 자동으로 eBook의 배경과 외관을 수정해주는 Match Surroundings 옵션입니다.
 
@@ -169,7 +331,18 @@ Memoji 팬이고 자주 사용한다면, iOS 16에서 Memoji를 위한 새로운
 
 ## 원하는 대로 홈 화면의 모습을 디자인하세요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 iOS 16의 홈 화면은 이제 홈 화면의 아무 곳에서 아래로 스와이프하는 것 외에도 Spotlight에 빠르게 액세스할 수 있는 검색 버튼을 하단에 표시합니다.
 
@@ -181,7 +354,18 @@ Apple이 홈 화면에서 아래로 당기면 더 편리한데도 이 검색 버
 
 또한 iOS 16에서 홈 화면 배경 화면이 보이는 방식을 변경할 수 있는 몇 가지 새로운 사용자 지정 옵션이 있어요. 설정으로 이동하여 '배경 화면'을 선택하고 홈 화면 미리보기 페이지에서 '사용자 정의' 버튼을 클릭하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 홈 화면 배경화면으로 색상, 그라데이션 또는 사진을 선택하거나 잠금 화면과 함께 사용할 수 있습니다. 또한 앱 아이콘과 이름에 집중할 수 있는 더 깔끔한 룩을 위해 배경화면을 흐리게 만들 수도 있어요.
 
@@ -191,7 +375,18 @@ iOS 16의 또 다른 새로운 추가 기능인 홈 화면과 잠금 화면에 �
 
 예를 들어, 작업 초점 모드를 사용 중이라면, 홈 화면과 잠금 화면을 작업 관련 앱, 위젯 및 페이지만 표시하도록 변경하여 더 많은 집중을 도울 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-23-11iOS16CustomisationTrickstoCompletelyTransformYouriPhone_11.png" />
 

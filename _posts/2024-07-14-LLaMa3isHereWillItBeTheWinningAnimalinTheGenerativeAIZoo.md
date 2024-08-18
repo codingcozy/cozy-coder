@@ -3,17 +3,13 @@ title: "LLaMa 3 출시 2024년 생성형 AI 경쟁에서 승자가 될까"
 description: ""
 coverImage: "/assets/img/2024-07-14-LLaMa3isHereWillItBeTheWinningAnimalinTheGenerativeAIZoo_0.png"
 date: 2024-07-14 01:55
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-14-LLaMa3isHereWillItBeTheWinningAnimalinTheGenerativeAIZoo_0.png
 tag: Tech
 originalTitle: "LLaMa 3 is Here. Will It Be The Winning Animal in The Generative AI Zoo."
 link: "https://medium.com/gitconnected/llama-3-is-here-will-it-be-the-winning-animal-in-the-generative-ai-zoo-9e94af73588f"
 isUpdated: true
 ---
-
-
-
-
 
 ## |META LLAMA 3|LLM|GENERATIVE AI|
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## 하지만, LLaMA 3이 왜 중요한 것일까요? 이것이 무엇을 바꾸며, 오픈 소스 세계에 어떤 의미를 가지고 있는 걸까요? META는 어떤 계획을 가지고 있을까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단한 요약입니다. 2023년 초였고 AI 세계는 아직 ChatGPT의 등장으로 회복되지 못했습니다 (Google 자체도 준비되지 않았습니다). AI 외부 세계, 과학 소설을 제외한 AI를 알고있던 세계조차도 Large Language Model (LLM)이 무엇인지를 배우기 시작했습니다. 2023년까지 META는 현대 자본주의의 악 중 하나로 알려졌으며 사용자 데이터를 이용하는 회사로, 확실히 오픈 소스의 옹호자는 아니었습니다. 그러나 몇몇 이성적인 연구자들이 있었지만, LLM에 대한 시도는 성공적이지 못했습니다 (Galactica를 참조하세요). 마찬가지로 META는 대대적인 감춘 정보와 메타버스 재앙(또는 우리 모두가 Facebook의 가상 현실에서 24/7 연결된 것을 허락할 수 없는 주크버그의 꿈)으로 고퇴하고 있는 것처럼 보였습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 하지만 LLaMA-2가 진정한 혁명이었습니다. 먼저, META는 새로운 모델에 대해 Microsoft와 협력했고 (사실, 해당 모델은 Azure에서 이용 가능했습니다). 둘째, 연구 및 상용목적으로 무료입니다. 셋째, 형성되고 있는 생태계는 이전에 본 적이 없는 것으로, 대부분의 개발자들에게 무수히 많은 가능성을 제시했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 For a long time, LLaMA-2 has been the go-to open-source model in the world of AI. From there, a menagerie of LLMs with names inspired by various animals like alpaca, vicuna, and koala emerged. Can you believe that, beyond LangChain, the LLaMA index is considered the second most essential framework? LLaMA laid the foundation for numerous applications and finely-tuned models tailored to specific domains, truly sparking a revolution.
 
@@ -43,19 +61,39 @@ META has unveiled two primary variants of LLaMA-3: 8B and 70B. Interestingly, th
 
 ![LLaMa3isHere](/assets/img/2024-07-14-LLaMa3isHereWillItBeTheWinningAnimalinTheGenerativeAIZoo_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 평소의 기준에 따른 평가의 유용성은 의문이지만, 이는 흔히 사용되는 실천법이며 오픈 소스 모델과 폐쇄 소스 모델을 비교하는 몇 가지 방법 중 하나입니다. 반면에 META-3가 Mistral을 이기는 것은 그다지 인상적이지 않습니다 (Mistral 7B는 현재 조금 구식입니다). 한편, Gemma는 결코 훌륭한 것이 아니었으며 (또는 개인적으로 생각했던 것처럼 느리고, 성능이 협조되었던 것보다 떨어졌습니다). 대신, 70B의 성능은 특히 흥미롭습니다 (Gemini는 이론상으로 Google의 기성품이며, 시장에서 최고로 판매되고자 합니다).
 
 저자들은 실제 시나리오에 최적화하려고 노력하였고, 내부에서 새로운 고품질의 인간 평가 세트를 개발하였습니다 (12가지 주요 사용 사례를 위한 1800개의 프롬프트). 그 이후에, 그들은 다른 유명한 모델들과 인간 평가를 실시했습니다.
 
-
 ![이미지](/assets/img/2024-07-14-LLaMa3isHereWillItBeTheWinningAnimalinTheGenerativeAIZoo_3.png)
-
 
 어쨌든, 결정적인 평가를 내리기에는 아직 너무 이른 시기입니다. 기술 보고서가 아직 제공되지 않았기 때문에, 저자들은 사용된 기술적 선택 사항을 명시하였습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Llama 3은 128K 토큰으로 이루어진 어휘 사전을 사용하는 토크나이저를 사용합니다.
 - Llama 3은 30개 국어를 포함한 공개 소스에서 15조 토큰 이상의 사전 훈련을 받았습니다.
@@ -67,11 +105,22 @@ META has unveiled two primary variants of LLaMA-3: 8B and 70B. Interestingly, th
 
 따라서 더 큰 컨텍스트 창, 더 나은 능력, 그리고 더 많은 언어 능력을 갖춘 모델도 출시될 예정입니다. 또한, 현재 학습 중인 400B 모델이 있는데, 저자들이 초기 체크포인트의 성능을 보여주었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Here is the image for the blog post](/assets/img/2024-07-14-LLaMa3isHereWillItBeTheWinningAnimalinTheGenerativeAIZoo_4.png)
 
-Hey there, fellow Tarot enthusiasts! Let's dive into the latest insights. 
+Hey there, fellow Tarot enthusiasts! Let's dive into the latest insights.
 
 So, here's the scoop - META's intentions may not be as pure as they claim. Investors seem to have caught on, with the stock showing a bump of nearly 2% post-announcement.
 
@@ -79,7 +128,18 @@ What's the tea from META? Well, they're diving headfirst into the world of AI. I
 
 Exciting times ahead, isn't it? Stay tuned for more updates! ✨
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아주 흥미로운 주제를 건드리셨네요! 오픈 소스 생태계가 LLaMA로 인해 혜택을 받을 것이라는 것은 맞지만, META 본인도 모델 주변 커뮤니티가 만들어낸 것들로 빨리 내부적으로 도입함으로써 혜택을 받을 것입니다.
 
@@ -89,7 +149,18 @@ Exciting times ahead, isn't it? Stay tuned for more updates! ✨
 
 ## 어떻게 생각하시나요? LLaMA 2를 사용해 보셨나요? LLaMA 3를 사용할 계획이신가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 만약 이 글이 흥미로우셨다면:
 
@@ -99,7 +170,18 @@ Exciting times ahead, isn't it? Stay tuned for more updates! ✨
 
 아니면 제 최근 글 중 하나에 관심이 있을 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 참고 자료
 

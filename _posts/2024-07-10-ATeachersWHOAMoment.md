@@ -3,7 +3,7 @@ title: "선생님의 놀라운 순간 학교에서 일어난 이야기"
 description: ""
 coverImage: "/assets/img/2024-07-10-ATeachersWHOAMoment_0.png"
 date: 2024-07-10 00:18
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-10-ATeachersWHOAMoment_0.png
 tag: Tech
 originalTitle: "A Teacher’s WHOA! Moment"
@@ -11,17 +11,24 @@ link: "https://medium.com/educreation/a-teachers-whoa-moment-69f09150bdec"
 isUpdated: true
 ---
 
-
-
-
-
 이 그림에 동의하시나요?
 
 몇 주 전까지는 그랬을지도 모르겠어요. 지금은 잘 모르겠네요.
 
 ## 오...나의...신이야!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 애플 스토어에서 일하는 친구가 새로운 비전 프로 고글을 빌려와서 내 집에서 시도해 보게 해 주었어. 메타의 퀘스트 3 고글과 같은 경쟁 브랜드를 시도해 본 적이 없어서 무엇을 기대해야 할지 알 수 없었고 비교할 것이 없었어.
 
@@ -31,7 +38,18 @@ $3500에 판매되는 애플 고글은 매우 비싸서 곧이곧대로 살 가�
 
 친구는 맥북 프로에 여러 프로그램 중 하나를 로드해서 나를 노르웨이의 피요르드로 완전히 몰입시키게 해 주었어. (그의 노트북은 고글과 무선으로 연결되어 있었어.)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전문 슬랙 라이너(균형 막대 없이 타잔 철길을 걷는 것과 같은)가 하천 아래의 하늘 위 3000피트를 매달린 약 200야드의 넓은 곳을 걸어가려고 시도했습니다.
 
@@ -41,7 +59,18 @@ $3500에 판매되는 애플 고글은 매우 비싸서 곧이곧대로 살 가�
 
 나는 눈안경을 쓴 순간, 내 폐에서 산소가 빨려나가는 것을 느낄 수 있었습니다. 그자리에 앉아 있는 의자 팔걸레를 끌어당겼다. 나는 그녀의 머리카락 하나하나와 얼굴의 주근깨마다 볼 수 있었습니다. 더 중요한 것은, 나는 그녀가 느끼고 있는 것들 중 상당부분을 느낄 수 있었습니다. 나 역시 높이 3000피트에 있었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 거실에 앉아 있었다는 사실을 금방 잊었다. 그 순간 나는 노르웨이에 있었다. 수슬라이너의 어깨를 손짓으로 닿을 수 있었고 조심하지 않으면 넘어질 수도 있었다. 그것은 소심한 사람들에게는 성에 안 좋은 활동이었다.
 
@@ -52,7 +81,18 @@ $3500에 판매되는 애플 고글은 매우 비싸서 곧이곧대로 살 가�
 
 ## 이제 원래 질문으로 돌아가 보도록 하자. 이번 시나리오는 다음과 같다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떤 것이 아이에게 더 나은 경험을 제공할까요? 같은 강사와 동일한 강의실에 서 있는 것이 좋을까요, 아니면 같은 강사가 그들이 동일한 강의실에 있는 것과 확신하는 것이 더 나을까요?
 
@@ -62,7 +102,18 @@ $3500에 판매되는 애플 고글은 매우 비싸서 곧이곧대로 살 가�
 
 뛰어난 교사는 어디에나 있지만, 그 수는 적습니다. 모든 아이가 이러한 탁월한 교육자 중 한 명과 함께 교실에서 공부할 수 있는 행운은 아닙니다. 어떤 교사는 최상으로 생각했을 때 중간 정도에 머물 수 있습니다. 당신의 아이가 '교사 배정 복권'에 당첨되면 축복받은 것이죠. 만약 그렇지 않다면...
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 칠 년 뒤, 비전 프로와 같은 기술이 인공 지능과 훌륭한 엔지니어들 덕분에 훨씬 더 저렴하고 효과적일 때, 수백 명의 어린이들과 멋진 선생님의 선물을 몇 십 명이 아닌 수천 명과 공유할 수 있을까요?
 
@@ -72,7 +123,18 @@ $3500에 판매되는 애플 고글은 매우 비싸서 곧이곧대로 살 가�
 
 만약 그 선생님이라면, 저는 각 아이를 볼 수 있고, 각 아이도 저를 볼 수 있습니다. 인공 지능의 발전으로, 선생님들은 아마도 오늘날 가상 비서들이 하는 방식과 거의 동일한 방식으로 각 아이에게 개인적인 주의를 기울일 수 있을 것입니다. 그것이 사람과 사람 간 상호작용과 정확히 같을까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "아마도 그렇지 않겠지만, 30년 이상 학생들에게 가르치면서 얻은 경험으로 말씀 드리지만, 전 모든 수업에서 모든 아이들에게 개인적인 피드백을 제공할 수는 없었습니다. 시간이 부족해서 그랬던 것 같아요.
 
@@ -82,12 +144,23 @@ $3500에 판매되는 애플 고글은 매우 비싸서 곧이곧대로 살 가�
 
 아이가 보통 선생님으로 직접 가르쳐지는 것과 이 새로운 기술을 활용하는 훌륭한 선생님에 의해 받는 것 중 어느 쪽을 원하시나요?"
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **어느 날 좋은 선생을 만날 거야.**
 
 - 5년 후, 다섯 가지가 사실이 될 거야.
-  
+
   - AI는 오늘보다 훨씬 강력해지고, 우리가 상상조차 못하는 일을 할 수 있을 거야.
   - 몰입형 기술도 더욱 강력하고 현실적일 거야. 심지어 상호작용 터치와 냄새 체험을 소개할 수도 있어.
   - 두 기술 모두 오늘보다 저렴하고 보급이 더 많아질 거야.
@@ -96,7 +169,18 @@ $3500에 판매되는 애플 고글은 매우 비싸서 곧이곧대로 살 가�
 
 ## 기술의 약속과 주의사항.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비판론자들은 새로운 기술을 비난하고 교실에서의 활용에 반대할 수 있지만, 그것은 실수입니다.
 
@@ -106,7 +190,18 @@ $3500에 판매되는 애플 고글은 매우 비싸서 곧이곧대로 살 가�
 
 교육계는 심각한 위기에 처해 있습니다. 교육자들은 지대한 일을 하고 있으면서도 현저히 저임금을 받고 있어, 대거 이 직업을 버리고 있습니다. 교육계는 근무 조건, 스트레스 부담, 빈약한 보상의 조합 때문에 최상의 인재를 끌어들이지 못하고 있습니다. 이러한 이유로 어린이가 우수한 교사와 연결될 확률은 매우 낮습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 우리가 뛰어난 교육자의 재능을 활용하여 수백 명이나 수천 명의 아이들에게 영향을 줄 수 있다면, 그것을 해야 합니다. 미국 흑인 대학 기금을 지지하는 광고를 기억하십니까?
 
@@ -116,7 +211,18 @@ $3500에 판매되는 애플 고글은 매우 비싸서 곧이곧대로 살 가�
 
 # 제 글을 즐겨 읽으셨다면, 한 가지 부탁이 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 사람들이 더 의미 있는 삶을 살도록 영감을 주는 작품을 창작하고 공유하기 위해 열심히 노력하고 있습니다. 아래의 주간 '용기의 마음 편지'를 구독하여 제 글을 지원해 주세요. 감사합니다!
 

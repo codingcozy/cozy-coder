@@ -3,17 +3,13 @@ title: "코틀린 호출 참조 연산자 이해하기 사용법 및 예시"
 description: ""
 coverImage: "/assets/img/2024-08-03-UnderstandingtheOperatorinKotlinTheCallableReferenceOperator_0.png"
 date: 2024-08-03 19:55
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-03-UnderstandingtheOperatorinKotlinTheCallableReferenceOperator_0.png
 tag: Tech
 originalTitle: "Understanding the  Operator in Kotlin The Callable Reference Operator"
 link: "https://medium.com/@krishusharma292/understanding-the-operator-in-kotlin-the-callable-reference-operator-057ae42b4a6b"
 isUpdated: true
 ---
-
-
-
-
 
 안녕하세요 Kotlin 팬 여러분! 👋 오늘은 호출 가능한 참조 연산자로 알려진 ::이라는 흥미로운 연산자에 대해 소개합니다. 이 연산자는 함수, 속성 및 생성자를 코틀린에서 간결하고 가독성 있게 참조할 수 있게 해줍니다. 하지만 :: 연산자가 정확히 무엇일까요? 간단히 말하면, 이미 존재하는 코드 요소에 대한 참조를 만들어주어 고차 함수 및 다른 문맥에서 더 쉽게 작업할 수 있게 해줍니다. 호출 가능한 참조는 특히 고차 함수에서 유용하며 코드를 더 표현력 있고 유지보수 가능하게 만듭니다. 이 글에서는 코틀린에서 호출 가능한 참조의 다양한 유형과 사용법에 대해 살펴보며 이 강력한 기능에 대한 포괄적인 안내서를 제공할 것입니다. 🚀
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # ✨예제
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 예시를 살펴보겠습니다. 여기서는 숫자가 짝수인지 확인하는 함수를 정의합니다:
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 # 💡실용적인 사용 사례
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 함수 참조를 사용하면 고차 함수를 포함하는 코드를 간편하게 만들 수 있습니다. 예를 들어, 컬렉션과 작업할 때:
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 # 🔖속성 참조
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `::` 연산자는 속성에 대한 참조를 만드는 데에도 사용될 수 있습니다. 이는 속성에 대한 참조가 예상되는 함수에 속성을 전달해야 할 때 유용합니다.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 이 예시에서 Person::name은 Person 클래스의 name 속성에 대한 참조를 만듭니다. 이를 통해 Person 객체 목록에서 이름을 깔끔하고 읽기 쉽게 추출할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 💡 실용적인 사용 사례
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 여기서 Person::age는 사람 객체를 나이에 따라 비교하고 정렬하는 데 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 🏗️ 생성자 참조
 
@@ -73,7 +124,18 @@ isUpdated: true
 
 <img src="/assets/img/2024-08-03-UnderstandingtheOperatorinKotlinTheCallableReferenceOperator_4.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 💡 실제 활용 예시
 
@@ -83,7 +145,18 @@ isUpdated: true
 
 이는 생성자 참조가 코드의 유연성을 향상시킬 수 있는 방법을 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 🔄Bound and Unbound References
 
@@ -93,7 +166,18 @@ isUpdated: true
 
 ![예제 이미지](/assets/img/2024-08-03-UnderstandingtheOperatorinKotlinTheCallableReferenceOperator_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 경우 alice::name은 alice 인스턴스의 name 속성에 대한 바운드 참조이며, Person::age는 어떤 Person 인스턴스의 age 속성에 대한 언바운드 참조입니다.
 
@@ -103,7 +187,18 @@ isUpdated: true
 
 ![UnderstandingtheOperatorinKotlinTheCallableReferenceOperator_7](/assets/img/2024-08-03-UnderstandingtheOperatorinKotlinTheCallableReferenceOperator_7.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 방식은 코드베이스에서 유연성과 재사용성을 향상시킵니다.
 

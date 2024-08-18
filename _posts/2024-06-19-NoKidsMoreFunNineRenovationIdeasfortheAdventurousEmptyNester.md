@@ -3,17 +3,13 @@ title: "어린이 없이 더 즐겁게 모험을 즐기는 빈집주인들을 �
 description: ""
 coverImage: "/assets/img/2024-06-19-NoKidsMoreFunNineRenovationIdeasfortheAdventurousEmptyNester_0.png"
 date: 2024-06-19 18:03
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-NoKidsMoreFunNineRenovationIdeasfortheAdventurousEmptyNester_0.png
 tag: Tech
 originalTitle: "No Kids, More Fun: Nine Renovation Ideas for the Adventurous Empty Nester"
 link: "https://medium.com/muddyum/no-kids-more-fun-nine-renovation-ideas-for-the-adventurous-empty-nester-f36a96184da9"
 isUpdated: true
 ---
-
-
-
-
 
 ## 러그랫이 도망가면 방을 개조하라
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 "뭔 소린지 모르겠어," 내가 대답했다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 “어린이들이 집을 떠날 때 슬플 거야,” 그녀가 대답했다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 늙은 어린이들은 더욱 멋지다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 나이가 들수록 "떠나다"와 같이 멋진 일을 하는 경향이 있습니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-19-NoKidsMoreFunNineRenovationIdeasfortheAdventurousEmptyNester_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저 위에 있는 사진은 유아의 부모님 사진입니다. 이 분들은 23살이에요.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 만약 자녀들이 둥지를 떠난 상황이라면, 이제 여유롭게 보낼 시간과 집 안의 여분의 공간이 많아졌겠죠. 안타깝게도 발견한 이 새로운 여유 시간은 그 여분의 공간을 리모델링하는 데 사용되게 될 겁니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이젠 어떻게 할지 고민되시죠? 자녀들이 떠났다면 그 방을 어떻게 활용할지 고민이 되실 텐데, 창의적인 아이디어를 소개해 드릴게요. 홈 데포 신용카드 한도를 다 소진해 볼까요?
 
@@ -61,7 +101,18 @@ isUpdated: true
 
 아이 방을 그냥 그대로 두는 것도 하나의 방법입니다. 침대와 옷장에는 옷을, 방 곳곳에는 인형과 음악 포스터를 해 두고 벽을 장식해 보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-NoKidsMoreFunNineRenovationIdeasfortheAdventurousEmptyNester_2.png)
 
@@ -71,7 +122,18 @@ isUpdated: true
 
 단점: 자녀의 방을 그대로 유지하면 30대 후반까지 부모에게 의존할 가능성이 꽤 높습니다. 그들이 집으로 돌아오면 뒷마당 창고에 에어 매트리스를 준비해 두세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 옵션 2: 게스트 룸
 
@@ -81,7 +143,18 @@ isUpdated: true
 
 게스트 침실은 당신의 친구들과 친척들이 너무 술에 취해 나가지 못할 때 하룻밤을 보낼 수 있는 멋진 공간을 제공해줘요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Pro: 대부분의 아이들 잡동사니를 팔 수 있어서 몇 년 동안 그들에게 쓴 돈의 0.0007%를 회수할 수 있습니다. 친척들이 방문하거나 자녀가 짧은 휴식을 취할 때 아이들을 위한 환영할 수 있는 공간이 마련됩니다.
 
@@ -91,7 +164,18 @@ Con: 친척들이 방문합니다.
 
 만약 저처럼 공예를 좋아하는 아내가 있다면, "공예"란, "거실 곳곳에 흩어진 양, 판지, 전선, 가짜 화환으로 이루어진 엄청난 메스"를 의미합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![craft room](/assets/img/2024-06-19-NoKidsMoreFunNineRenovationIdeasfortheAdventurousEmptyNester_4.png)
 
@@ -101,7 +185,18 @@ Con: 친척들이 방문합니다.
 
 단점: 만약 실제로 배우자를 좋아한다면, 그녀는 그 방에 끊임없이 있을 것이고 결국은 다시 볼 수 없을 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 옵션 4: 수제 맥주 양조소
 
@@ -111,7 +206,18 @@ Con: 친척들이 방문합니다.
 
 여분의 침실을 수제 맥주 양조소로 바꾸는 것은 바쁘게 지내는 좋은 방법이자, 무의식으로 들어가는 좋은 방법입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 장점: 아내가 차고로 가라고 하지 않아도 자신만의 취미를 즐길 수 있습니다. 맥주를 팔아 돈을 버는 것도 가능하며, 더 많은 맥주 제조 장비를 사는 데 쓸 수 있습니다.
 
@@ -121,7 +227,18 @@ Con: 친척들이 방문합니다.
 
 볼링장으로 변신할 수 있는 충분히 큰 방이 있다면, 친구가 되어주시고 돈도 주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 옵션 6: 시부모 공간
 
@@ -131,7 +248,18 @@ Con: 친척들이 방문합니다.
 
 당신의 어머니 또는 시어머니와 함께 살면 가장 보람 있고 멍청한 아이디어 중 하나일지도 모릅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **장점**: 선조들에게 더 저렴한 생활비 제공. 사랑하는 사람들에게 품질 좋은 보살핌. 집에서 가정교육과 삶에 관한 조언을 받을 수 있음.
 
@@ -141,7 +269,18 @@ Con: 친척들이 방문합니다.
 
 드디어 본격적으로 보우플렉스와 조절 가능한 덤벨을 놓을 수 있는 공간이 생겼습니다. 그리고 어쩐지 2019년에 사온 펠로톤도 있네요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-06-19-NoKidsMoreFunNineRenovationIdeasfortheAdventurousEmptyNester](/assets/img/2024-06-19-NoKidsMoreFunNineRenovationIdeasfortheAdventurousEmptyNester_7.png)
 
@@ -151,7 +290,18 @@ Con: 친척들이 방문합니다.
 
 장점, 파트 2: 보플렉스는 옷걸이로 사용하기에도 훌륭해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단점: 운동을 강제로 하라는 압박을 느끼게 되어 스트레스 수준이 올라가고, 이제 닥터께서는 과격한 운동을 피해야 한다고 말씀하셨네요.
 
@@ -161,8 +311,18 @@ Con: 친척들이 방문합니다.
 
 자녀들도 다 자랐고 떠났으니 이제 당신의 청춘이 돌아왔습니다. 만약 관절염, 등 통증 또는 관절 강직증이 없으며 닥터가 성활동을 허용했다면, 이 옵션이 당신을 위한 것일지도 모릅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-06-19-NoKidsMoreFunNineRenovationIdeasfortheAdventurousEmptyNester_8.png)
 
@@ -172,8 +332,18 @@ Con: 친척들이 방문합니다.
 
 단점: 나이가 많아서 이런 것들은 수 많은 에너지가 들기 때문에 맥주 양조를 하는 데 사용할 수도 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Con 일부 2: 아이들은 더 이상 집에 돌아갈 수 없습니다. 왜냐하면 새로 구입한 섹스윙과 웨서스 오리지널 향이 나는 루브릭을 보고 회복하는 데 몇 년이 걸릴 것입니다.
 
@@ -183,8 +353,18 @@ Con 일부 2: 아이들은 더 이상 집에 돌아갈 수 없습니다. 왜냐�
 
 요즘 Airbnb와 VRBO 임대가 인기를 끌고 있는데, 왜 아무도 없는 여성의 방을 가져다가 나라를 가로질러 다니는 의심스러운 냄새나는 배낭을 지닌 낯선 사람을 위한 고급 휴양지로 만들지 않을까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-NoKidsMoreFunNineRenovationIdeasfortheAdventurousEmptyNester_9.png)
 
@@ -194,8 +374,18 @@ Con 일부 2: 아이들은 더 이상 집에 돌아갈 수 없습니다. 왜냐�
 
 단점: 새로운 손님에게 해체되지 않을 것을 보장할 방법이 없습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 결론
 
@@ -205,7 +395,18 @@ Con 일부 2: 아이들은 더 이상 집에 돌아갈 수 없습니다. 왜냐�
 
 그들이 다시 돌아올 걸 알고 있으니까요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Note: 모든 이미지는 작가가 Canva를 사용하여 만들었습니다. 그렇지 않은 경우를 제외하고 모두 Canva를 사용하였어요.
 

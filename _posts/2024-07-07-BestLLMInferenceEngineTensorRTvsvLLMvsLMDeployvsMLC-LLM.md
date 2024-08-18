@@ -3,17 +3,13 @@ title: "최고의 LLM 추론 엔진은 TensorRT vs vLLM vs LMDeploy vs MLC-LLM �
 description: ""
 coverImage: "/assets/img/2024-07-07-BestLLMInferenceEngineTensorRTvsvLLMvsLMDeployvsMLC-LLM_0.png"
 date: 2024-07-08 00:00
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-BestLLMInferenceEngineTensorRTvsvLLMvsLMDeployvsMLC-LLM_0.png
 tag: Tech
 originalTitle: "Best LLM Inference Engine? TensorRT vs vLLM vs LMDeploy vs MLC-LLM"
 link: "https://medium.com/@zaiinn440/best-llm-inference-engine-tensorrt-vs-vllm-vs-lmdeploy-vs-mlc-llm-e8ff033d7615"
 isUpdated: true
 ---
-
-
-
-
 
 다양한 LLM 추론 엔진 벤치마킹 중입니다.
 
@@ -23,7 +19,18 @@ LLM은 채팅 및 코드 완성 모델과 같은 텍스트 생성 응용 프로�
 
 LLM 추론 및 서비스 최적화를 위해 여러 가지 프레임워크와 패키지가 있습니다. 이 블로그에서는 다음과 같은 추론 엔진을 사용하고 비교해 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - TensorRT-LLM
 - vLLM
@@ -36,7 +43,18 @@ LLM 추론 및 서비스 최적화를 위해 여러 가지 프레임워크와 �
 
 TensorRT-LLM은 NVIDIA GPU에서 최신 LLM의 추론 성능을 가속화하고 최적화하는 또 다른 추론 엔진입니다. LLM은 TensorRT Engine으로 컴파일되고 In-Flight Batching(대기 시간 감소와 더 높은 GPU 활용률을 허용하는 처리)과 같은 추론 최적화를 활용하기 위해 Triton 서버와 함께 배포됩니다. 이러한 최적화에는 paged KV caching, MultiGPU-MultiNode Inference 및 FP8 지원이 포함됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 사용법
 
@@ -59,10 +77,20 @@ Linux 시스템에 Nvidia-container-toolkit을 설치하고 HF 모델을 다운�
 !apt-get install git-lfs
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금 모델 가중치를 검색하세요.
-
 
 ```js
 PHI_PATH="TensorRT-LLM/examples/phi"
@@ -71,7 +99,6 @@ PHI_PATH="TensorRT-LLM/examples/phi"
 ```
 
 모델을 TensorRT-LLM 체크포인트 형식으로 변환하고 해당 체크포인트로 TensorRT-LLM을 빌드하세요.
-
 
 ```js
 !python3 $PHI_PATH/convert_checkpoint.py --model_dir $PHI_PATH/7B/ \
@@ -83,7 +110,18 @@ PHI_PATH="TensorRT-LLM/examples/phi"
                 --output_dir $PHI_PATH/7B/trt_engines/bf16/1-gpu/
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 HF 모델에 INT8 가중치만 양자화를 적용하고 체크포인트를 TensorRT-LLM으로 변환해보세요.
 
@@ -120,7 +158,18 @@ PHI_PATH="TensorRT-LLM/examples/phi"
                        --engine_dir $PHI_PATH/7B/trt_engines/int8_weight_only/1-gpu/
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 결과를 캡처한 후 출력을 파싱하고 모든 모델 사이의 실행 시간, ROUGE 점수, 대기 시간 및 처리량을 비교하기 위해 그림을 그려볼 수 있습니다.
 
@@ -130,7 +179,18 @@ PHI_PATH="TensorRT-LLM/examples/phi"
 
 ## 2. vLLM
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 소개
 
@@ -140,8 +200,18 @@ vLLM은 최신 기술을 활용한 LLM 추론 및 서비스를 제공합니다. 
 
 마이크로소프트/Phi3-mini-4k-instruct의 처리량과 대기 시간을 평가해 봅시다. 먼저 의존성을 설정하고 라이브러리를 가져오는 것부터 시작해 보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 !pip install -q vllm
 !git clone https://github.com/vllm-project/vllm.git
@@ -153,44 +223,52 @@ import time
 from tqdm import tqdm
 from transformers import AutoTokenizer
 
-
 이제 모델을 로드하고 데이터셋의 일부에서 출력을 생성해 봅시다.
-
 
 dataset = load_dataset("akemiH/MedQA-Reason", split="train").select(range(10))
 prompts = []
 for sample in dataset:
-    prompts.append(sample)
+prompts.append(sample)
 sampling_params = SamplingParams(max_tokens=524)
 llm = LLM(model="microsoft/Phi-3-mini-4k-instruct", trust_remote_code=True)
 def generate_with_time(prompt):
-    start = time.time()
-    outputs = llm.generate(prompt, sampling_params)
-    taken = time.time() - start
-    generated_text = outputs[0].outputs[0].text
-    return generated_text, taken
+start = time.time()
+outputs = llm.generate(prompt, sampling_params)
+taken = time.time() - start
+generated_text = outputs[0].outputs[0].text
+return generated_text, taken
 generated_text = []
 time_taken = 0
 for sample in tqdm(prompts):
-    text, taken = generate_with_time(sample)
-    time_taken += taken
-    generated_text.append(text)
+text, taken = generate_with_time(sample)
+time_taken += taken
+generated_text.append(text)
 
 # 출력을 토크나이즈하고 처리량을 계산합니다.
+
 tokenizer = AutoTokenizer.from_pretrained("microsoft/Phi-3-mini-4k-instruct")
 token = 1
 for sample in generated_text:
-    tokens = tokenizer(sample)
-    tok = len(tokens.input_ids)
-    token += tok
+tokens = tokenizer(sample)
+tok = len(tokens.input_ids)
+token += tok
 print(token)
 print("tok/s", token // time_taken)
 
-
 ![2024-07-07-BestLLMInferenceEngineTensorRTvsvLLMvsLMDeployvsMLC-LLM_3.png](/assets/img/2024-07-07-BestLLMInferenceEngineTensorRTvsvLLMvsLMDeployvsMLC-LLM_3.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이번에는 ShareGPT 데이터셋에서 vLLM을 통해 모델의 성능을 벤치마킹해보겠어요.
 
@@ -204,7 +282,18 @@ print("tok/s", token // time_taken)
 
 # 3. LMDeploy
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 소개
 
@@ -214,13 +303,35 @@ print("tok/s", token // time_taken)
 
 의존성을 설치하고 패키지를 가져옵니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LMdeploy가 TurboMind와 PyTorch 두 개의 추론 엔진을 개발했다는 정보야.
 
 마이크로소프트/Phi3-mini-128k-instruct의 PyTorch 엔진을 프로파일링해 보자구.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **프로필 생성 코드:**
 
@@ -234,7 +345,18 @@ LMdeploy가 TurboMind와 PyTorch 두 개의 추론 엔진을 개발했다는 정
 
 ![이미지](/assets/img/2024-07-07-BestLLMInferenceEngineTensorRTvsvLLMvsLMDeployvsMLC-LLM_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4. MLC-LLM
 
@@ -244,19 +366,29 @@ MLC-LLM은 MLCEngine이라고 불리는 고성능 배포 및 추론 엔진을 �
 
 # 사용법
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 의존성을 설치한 후 conda로 종속 항목을 설정하고 conda 환경을 만듭니다. 그런 다음 git 저장소를 복제하고 설정합니다.
-
 
 conda activate your-environment
 python -m pip install --pre -U -f https://mlc.ai/wheels mlc-llm-nightly-cu121 mlc-ai-nightly-cu121
 conda env remove -n mlc-chat-venv
 conda create -n mlc-chat-venv -c conda-forge \
-    "cmake>=3.24" \
-    rust \
-    git \
-    python=3.11
+ "cmake>=3.24" \
+ rust \
+ git \
+ python=3.11
 conda activate mlc-chat-venv
 git clone --recursive https://github.com/mlc-ai/mlc-llm.git && cd mlc-llm/
 mkdir -p build && cd build
@@ -267,17 +399,25 @@ conda activate your-own-env
 cd mlc-llm/python
 pip install -e .
 
-
 MLC LLM으로 모델을 실행하려면 모델 가중치를 MLC 형식으로 변환해야 합니다. Git LFS를 사용하여 HF 모델을 다운로드한 후 가중치를 변환하세요.
 
-
 mlc_llm convert_weight ./dist/models/Phi-3-small-128k-instruct/ \
-    --quantization q0f16 \
-    --model-type "phi3" \
-    -o ./dist/Phi-3-small-128k-instruct-q0f16-MLC
+ --quantization q0f16 \
+ --model-type "phi3" \
+ -o ./dist/Phi-3-small-128k-instruct-q0f16-MLC
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 MLC 형식 모델을 MLC 엔진에 로드해 보세요.
 
@@ -305,13 +445,25 @@ print("tok/s", 82 // taken)
 
 # 개요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특히 HF 모델과 일반 TensorRT 대비 TensorRT INT8 모델이 추론 속도에서 우수한 성능을 보여줍니다. 반면 일반 TensorRT 모델은 요약 작업에서 가장 높은 ROUGE 점수를 기록하여 성능이 더 우수했습니다. LMDeploy는 A100에서 vLLM 대비 최대 1.8배 높은 요청 처리량을 제공합니다.
 
 이 실험을 위한 컴퓨팅을 후원해준 QueryLoopAI에게 특별히 감사드립니다.
 
 또한 메시지를 보내거나 아래와 같은 방식으로 저에게 연락하실 수 있습니다:
+
 - LinkedIn 및 Twitter에서 연락하고 팔로우하기
 - 📚 Medium에서 저를 팔로우하기
 - 📢 주간 AI 뉴스레터를 구독하기

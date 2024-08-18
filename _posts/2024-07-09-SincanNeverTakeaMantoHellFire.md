@@ -3,17 +3,13 @@ title: "죄가 지옥에 데려가지 못하는 이유"
 description: ""
 coverImage: "/assets/img/2024-07-09-SincanNeverTakeaMantoHellFire_0.png"
 date: 2024-07-09 23:31
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-SincanNeverTakeaMantoHellFire_0.png
 tag: Tech
 originalTitle: "Sin can Never Take a Man to Hell Fire."
 link: "https://medium.com/write-a-catalyst/sin-can-never-take-a-man-to-hell-fire-d3907c100ae7"
 isUpdated: true
 ---
-
-
-
-
 
 ![Tarot Image](/assets/img/2024-07-09-SincanNeverTakeaMantoHellFire_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 그렇다면, 누가 기독교인일까요? 제가 보기에 기독교인은 예수 그리스도를 따르며 예수 그리스도와 같은 생활 양식을 지향하는 사람이에요. 기독교는 사도 바울 시대에 시작되었습니다. 만약 질문이 있거나 더 궁금한 점이 있다면 언제든지 물어보세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 따라서 우리는 이해해야 합니다;
 
@@ -39,7 +46,18 @@ isUpdated: true
 
 성경에는 예수님이 기독교인들만을 위해 죽으셨다고 말씀하진 않았습니다. 그분은 "세상"을 위해 죽으셨다고 말하셨죠. 그러므로 예수님을 믿는 사람들만 영원한 생명을 받게 됩니다. 그러므로 교회에 다니건 말건, 예수 그리스토를 믿는다면, 모두에게 헌신하신 하나님의 아들 예수님을 믿는 것이 구원의 길입니다! 죄 때문에 그 구원을 잃을 수 없습니다. 라이센스 없이도 계속 죄를 지으셨던 것은 아니죠. 죄를 계속 짓는 것을 정당화하는 것이 아니라 내 말을 이해해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Link](/assets/img/2024-07-09-SincanNeverTakeaMantoHellFire_1.png)
 
@@ -49,7 +67,18 @@ isUpdated: true
 
 예수님의 희생이 당신의 삶에서 헛되이 녹이지 않게 해주세요. 그분이 하나님의 아들로써 죽으셨다고 믿으세요. 그분은 하나님 그 자신이신데, 인간의 육체로 오셔서 이 세상의 죄악을 위해 죽으시고 사흘만에 부활하셔서 하나님의 영광스러운 천국(영적 세계)으로 올라가셨어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하나님의 아이로서, 살면서 죄를 범하지 않고 완전한 삶을 살기는 거의 불가능합니다. 그러므로 누군가가 예수님이 세상을 위해 죽었으니까 우리가 사람들에게 계속 죄 지으면 된다는 말을 하고 있다고 한다면?
 
@@ -59,6 +88,17 @@ isUpdated: true
 
 우리는 사람들을 비난하기를 그만 두자구요. 예수님은 비난하러 온 게 아니라 죄인들 중 예수님을 받아들이고 그의 역사를 믿는 사람을 구원하러 오셨어요. 제 글에 공감하거나 동의하지 않는다면 댓글란에 자유롭게 의견을 남겨주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-07-09-SincanNeverTakeaMantoHellFire_2](/assets/img/2024-07-09-SincanNeverTakeaMantoHellFire_2.png)

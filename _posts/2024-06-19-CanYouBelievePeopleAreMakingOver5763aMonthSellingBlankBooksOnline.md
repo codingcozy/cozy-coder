@@ -3,17 +3,13 @@ title: "잠깐만요 빈 책을 온라인으로 판매하여 한 달에 5763 이
 description: ""
 coverImage: "/assets/img/2024-06-19-CanYouBelievePeopleAreMakingOver5763aMonthSellingBlankBooksOnline_0.png"
 date: 2024-06-19 18:00
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-CanYouBelievePeopleAreMakingOver5763aMonthSellingBlankBooksOnline_0.png
 tag: Tech
 originalTitle: "Can You Believe People Are Making Over $5763 a Month Selling Blank Books Online?"
 link: "https://medium.com/@nimsy/can-you-believe-people-are-making-over-5763-a-month-selling-blank-books-online-d17b933ccb81"
 isUpdated: true
 ---
-
-
-
-
 
 ## 이 간단한 전략들로 함께 참여하는 방법을 배워보세요
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 믿지 못하시나요? 아마존에서 이 놀라운 판매를 확인해보세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-19-CanYouBelievePeopleAreMakingOver5763aMonthSellingBlankBooksOnline_1.png)
 
@@ -34,8 +40,18 @@ isUpdated: true
 
 ![image](/assets/img/2024-06-19-CanYouBelievePeopleAreMakingOver5763aMonthSellingBlankBooksOnline_2.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3,000개 이상의 판매량을 1권 당 $23.40에 이룩한 것은 정말 대단한 성과네요.
 
@@ -45,7 +61,18 @@ isUpdated: true
 
 어째서 빈 책일까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 빈 책을 판매하는 것이 온라인에서 돈을 벌 수 있는 가장 좋은 방법 중 하나인 이유를 알려드리겠습니다:
 
@@ -57,7 +84,18 @@ isUpdated: true
 
 ## 인기 있는 트렌드를 조사: (아마존 검색 바를 참고하여)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 수요가 많지만 경쟁이 적은 임의를 식별하십시오. 인기있는 빈 노트북의 유형을 영감받기 위해 Amazon 검색 창을 사용하십시오. 예를 들어 "빈 노트북"을 입력하면 "어린이를 위한 이야기 쓰기용 빈 노트북", "단단한 표지의 빈 노트북"과 같은 옵션이 나타날 수 있습니다. 또한 Amazon의 베스트셀러 목록과 같은 도구를 활용하여 인기 카테고리를 찾을 수 있습니다.
 
@@ -76,7 +114,18 @@ isUpdated: true
 - 교사: 수업 계획, 성적 평가, 필기용.
 - 기업가: 비즈니스 계획, 아이디어 발생, 브레인스토밍.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 책 표지 만들기:
 
@@ -86,7 +135,18 @@ Canva와 같은 무료 도구를 사용하여 눈길을 끄는 표지를 디자�
 
 당신의 도메인에 따라 책의 내부를 디자인하세요. 저널의 경우, 줄이 그어진 페이지일 수 있고, 스케치북의 경우, 빈 페이지일 수 있습니다. 템플릿을 사용하거나 본인의 디자인을 만들 수 있습니다. 다시 말하지만, 만약 이것이 당신의 강점이 아니라면, 프리랜서에게 아웃소싱하는 것을 고려해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Amazon KDP 계정 설정하기:
 
@@ -96,7 +156,18 @@ Canva와 같은 무료 도구를 사용하여 눈길을 끄는 표지를 디자�
 
 KDP에서 표지와 내부 파일을 업로드하는 단계별 절차를 따라주세요. 책의 가격을 설정하고 출판하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 책 홍보하기
 
@@ -113,19 +184,42 @@ Amazon에 빈 책을 만들고 출간했다면, 다음 중요한 단계는 효�
 
 # 그러나 성공으로 가는 지름길이 있습니다
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이번 사이드 일을 어떻게 찾게 되었나요? 비즈니스와 돈에 관련된 자료를 찾던 중에 Print that Profits를 발견했어요.
 
 혼자 모든 것을 이해하는 데 끝없는 시간을 허비하는 대신, 여러분의 여정을 가속화할 수 있는 자원이 있어요: Print that Profits. 이 단계별 청사진은 여러분에게 공백 도서를 판매하여 매달 수백 달러를 벌 수 있는 방법을 가르쳐 줍니다.
 
 "Print that Profits"를 통해 여러분은 다음을 배울 수 있어요:
+
 - 멋진 책 표지와 내부를 만드는 방법.
 - 수익성 있는 카테고리를 찾고 경쟁에 앞설 수 있는 전략.
 - 판매를 신속히 증가시키는 검증된 확장 기술.
 - 그리고 더 많은 것들, 완전히 제작된 책 내부 및 비디오 튜토리얼에 액세스하는 방법을 포함해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만든이가 단 3일 만에 첫 판매를 이루었고 결과를 보지 못하면 30일 환불 보증까지 제공합니다!
 

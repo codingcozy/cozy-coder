@@ -3,18 +3,13 @@ title: "ROS2 겸손한 이미지 세분화"
 description: ""
 coverImage: "/assets/img/2024-06-20-ROS2HumbleImageSegmentation_0.png"
 date: 2024-06-20 17:50
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-ROS2HumbleImageSegmentation_0.png
 tag: Tech
 originalTitle: "ROS2 Humble Image Segmentation"
 link: "https://medium.com/@kabilankb2003/ros2-humble-image-segmentation-ef3f7734aa75"
 isUpdated: true
 ---
-
-
-
-
-
 
 <img src="/assets/img/2024-06-20-ROS2HumbleImageSegmentation_0.png" />
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 ## 준비물
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 설치되어 있는지 확인하세요:
 
@@ -39,7 +44,18 @@ isUpdated: true
 
 DeepLabV3은 시맨틱 세그멘테이션 작업을 위해 설계된 최신 딥러닝 모델입니다. 시맨틱 세그멘테이션은 이미지의 각 픽셀을 미리 정의된 범주로 분류하는 작업을 포함합니다. 물체 감지와 달리 물체를 식별하고 주위에 바운딩 상자를 넣는 대신, 시맨틱 세그멘테이션은 장면에 대한 상세하고 픽셀 수준의 이해를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## DeepLabV3의 주요 기능
 
@@ -53,7 +69,18 @@ ResNet 백본: DeepLabV3은 특성 추출을 위해 ResNet-101을 사용합니�
 - 공간 피라미드 풀링: 어트러스 합성곱의 출력은 공간 피라미드 풀링 모듈로 전달됩니다. 이 모듈은 다양한 스케일에서 특성을 풀링하여 이미지의 풍부한 다중 문맥적 표현을 제공합니다.
 - 분할 맵: 마지막으로, 풀링된 특성은 원본 이미지 해상도로 업샘플링되고 최종 합성곱 레이어가 분할 맵을 생성합니다. 이 맵의 각 픽셀에는 클래스 레이블이 지정되어 이미지의 상세한 세그멘테이션이 이루어집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-ROS2HumbleImageSegmentation_1.png" />
 
@@ -65,23 +92,48 @@ ResNet 백본: DeepLabV3은 특성 추출을 위해 ResNet-101을 사용합니�
 
 ## 모델 로딩 코드
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-self.model = torch.hub.load('pytorch/vision:v0.10.0', 'deeplabv3_resnet101', weights='DeepLabV3_ResNet101_Weights.COCO_WITH_VOC_LABELS_V1')
+self.model = torch.hub.load(
+  "pytorch/vision:v0.10.0",
+  "deeplabv3_resnet101",
+  (weights = "DeepLabV3_ResNet101_Weights.COCO_WITH_VOC_LABELS_V1")
+);
 ```
 
 ## 코드 단계
 
-- 초기화: 모델은 SegmentationNode 클래스의 __init__ 메서드에서 초기화됩니다. torch.hub.load 메서드는 미리 훈련된 deeplabv3_resnet101 모델을 불러옵니다.
+- 초기화: 모델은 SegmentationNode 클래스의 **init** 메서드에서 초기화됩니다. torch.hub.load 메서드는 미리 훈련된 deeplabv3_resnet101 모델을 불러옵니다.
 - 전처리: 입력 이미지는 모델의 입력 요구 사항과 일치하도록 크기 조정, 중앙 자르기 및 정규화됩니다.
 - 추론: 이미지가 수신될 때 콜백에서 모델은 전처리된 이미지 텐서에 대해 추론을 수행합니다.
 - 후처리: 모델의 출력은 각 픽셀의 클래스 점수를 포함하는 텐서입니다. 각 픽셀에서 가장 높은 점수가 클래스를 결정합니다. 그런 다음 결과는 PASCAL VOC 컬러 맵을 사용하여 컬러맵으로 변환된 세그멘테이션 이미지로 변환됩니다.
 
-![image](/assets/img/2024-06-20-ROS2HumbleImageSegmentation_2.png)  
+![image](/assets/img/2024-06-20-ROS2HumbleImageSegmentation_2.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 어플리케이션: 시맨틱 세그멘테이션을 위한 ROS2 노드
 
@@ -95,7 +147,18 @@ self.model = torch.hub.load('pytorch/vision:v0.10.0', 'deeplabv3_resnet101', wei
 
 <img src="/assets/img/2024-06-20-ROS2HumbleImageSegmentation_3.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 사용법
 
@@ -105,7 +168,18 @@ self.model = torch.hub.load('pytorch/vision:v0.10.0', 'deeplabv3_resnet101', wei
 
 ## 자율 탐사
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 장애물 감지 및 회피:
 
@@ -116,6 +190,17 @@ self.model = torch.hub.load('pytorch/vision:v0.10.0', 'deeplabv3_resnet101', wei
 
 ## 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 DeepLabV3는 새로운 atrous convolution과 공간 피라미드 풀링 기술을 통해 높은 정확도와 효율성을 제공하는 시멘틱 세그멘테이션에 강력한 도구입니다. DeepLabV3를 ROS2와 통합함으로써, 개발자들은 환경을 픽셀 수준에서 이해하고 상호 작용하는 지능적인 로봇 응용 프로그램을 만들 수 있습니다. DeepLabV3를 사용하면 자율 주행, 로봇 조작 또는 장면 이해와 같은 영역에서 고급 인식을 위한 새로운 가능성이 열립니다.

@@ -3,18 +3,13 @@ title: " Kotlin으로 폼 유효성 검사하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-03-EffectivelyFormValidationinAndroidDevelopmentwithKotlin_0.png"
 date: 2024-08-03 19:54
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-03-EffectivelyFormValidationinAndroidDevelopmentwithKotlin_0.png
 tag: Tech
 originalTitle: "Effectively Form Validation in Android Development with Kotlin"
 link: "https://medium.com/@resmaadi/effectively-form-validation-in-android-development-with-kotlin-932bed9badf1"
 isUpdated: true
 ---
-
-
-
-
-
 
 <img src="/assets/img/2024-08-03-EffectivelyFormValidationinAndroidDevelopmentwithKotlin_0.png" />
 
@@ -24,9 +19,18 @@ isUpdated: true
 
 # 메소드
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-08-03-EffectivelyFormValidationinAndroidDevelopmentwithKotlin_1.png)
 
@@ -36,8 +40,18 @@ isUpdated: true
 
 필수는 아니지만 Map을 사용하는 대신 typealias를 사용하면 더 쉽게 사용할 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 typealias ValidationRules = Map<EditText, (String) -> Boolean>
@@ -82,7 +96,18 @@ object ValidationHelper {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인터넷에서 검색하여 직접 유효성 검사 규칙을 만들 수 있어요.
 
@@ -106,7 +131,18 @@ fun setup(
     }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 다음으로 getErrorMessage 함수를 사용해보세요
 
@@ -129,7 +165,18 @@ private fun getErrorMessage(form: EditText, validationRules: ValidationRules): S
 
 ## 마지막으로, activity 클래스에서 해당 함수를 사용해주세요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 private fun formValidation() {
@@ -150,7 +197,17 @@ private fun formValidation() {
 
 <img src="/assets/img/2024-08-03-EffectivelyFormValidationinAndroidDevelopmentwithKotlin_2.png" />
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 양식은 애플리케이션에서 중요한 요소 중 하나에요. 그래서 효과적인 양식 유효성 검사를 통해 좋은 경험을 제공하는 것이 중요해요. 이를 통해 개발자는 더 쉽고 빠르게 코드를 작성할 수 있어요. 그리고 프로젝트가 끝나면 다음 프로젝트를 시작하고 푹 쉴 수 있어요.

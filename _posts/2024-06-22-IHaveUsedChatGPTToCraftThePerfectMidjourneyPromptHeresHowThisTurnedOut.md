@@ -3,17 +3,13 @@ title: "ChatGPT로 완성된 최고의 Midjourney 프롬프트 만들기  이렇
 description: ""
 coverImage: "/assets/img/2024-06-22-IHaveUsedChatGPTToCraftThePerfectMidjourneyPromptHeresHowThisTurnedOut_0.png"
 date: 2024-06-22 20:31
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-IHaveUsedChatGPTToCraftThePerfectMidjourneyPromptHeresHowThisTurnedOut_0.png
 tag: Tech
 originalTitle: "I Have Used ChatGPT To Craft The Perfect Midjourney Prompt — Here’s How This Turned Out"
 link: "https://medium.com/generative-ai/i-have-used-chatgpt-to-craft-the-perfect-midjourney-prompt-heres-how-this-turned-out-510bb8904af7"
 isUpdated: true
 ---
-
-
-
-
 
 ## 완벽한 프롬프트 만들기
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 만약 멋진 Midjourney 프롬프트를 만드는 데 어려움을 겪고 계시고 이미지에 세부 정보를 추가하기 위해 수많은 시간을 쓰고 싶지 않다면, ChatGPT를 사용해 완벽한 프롬프트를 만들어보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 마디도 쓰기 싫다면 이미지를 만들 수도 있어요. 조금 이상하지만 말이죠. 이에 대해 더 많이 쓴 글이 있어요:
 
@@ -35,7 +42,18 @@ isUpdated: true
 
 이제 ChatGPT를 사용하여 프롬프트를 만드는 방법을 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 기본 프롬프트 구조
 
@@ -45,7 +63,18 @@ isUpdated: true
 
 간혹 요소를 제외해 보는 것도 도전해 볼 수 있지만, 때로는 실패할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당연히 간단한 템플릿을 사용하여 고유한 프롬프트를 만들 수 있어요. 하지만 ChatGPT를 대신 사용해볼 수도 있어요.
 
@@ -55,7 +84,18 @@ ChatGPT를 사용하는 것은 정말 쉽고 직관적이에요. 이건 Midjourn
 
 익숙해지면 이 단계를 건너뛸 수 있을 거예요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우주 비행사가 외계 행성에 있는 영화 장면을 만들고 싶다고 해보죠.
 
@@ -65,7 +105,18 @@ ChatGPT를 사용하는 것은 정말 쉽고 직관적이에요. 이건 Midjourn
 
 지금 알아차린 것처럼 ChatGPT에 대한 프롬프트로 개인 패턴을 사용했어요. 명시적으로 지시해서 프롬프트 천재로 만드는 거예요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 한 단계 더 나아가서 ChatGPT에게 항상 기본 프롬프트 구조를 따르도록 미리 말할 수도 있어요. 아래 예시에 나와 있는 대로 하면 됩니다:
 
@@ -75,7 +126,18 @@ ChatGPT를 사용하는 것은 정말 쉽고 직관적이에요. 이건 Midjourn
 
 ## 중간 단계
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 엔터를 누르기 전에 사용할 모델(예: v6 또는 Niji)과 종횡비에 대해 고민해 보세요. 위 예제를 살펴보겠습니다. 이는 영화 스틸 사진이므로 적어도 16:9 종횡비를 사용하고자 합니다.
 
@@ -85,7 +147,18 @@ ChatGPT를 사용하는 것은 정말 쉽고 직관적이에요. 이건 Midjourn
 
 ## 프롬프트 예시
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ChatGPT가 생성한 몇 가지 추가 프롬프트 예제를 살펴보겠습니다. Midjourney v6을 사용하고 있으며 아무것도 포함하지 않기로 결정했습니다.
 
@@ -95,8 +168,18 @@ v6를 사용하고 있고 개인화를 포함하지 않았습니다.
 
 ![이미지](/assets/img/2024-06-22-IHaveUsedChatGPTToCraftThePerfectMidjourneyPromptHeresHowThisTurnedOut_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-22-IHaveUsedChatGPTToCraftThePerfectMidjourneyPromptHeresHowThisTurnedOut_4.png)
 
@@ -106,8 +189,18 @@ v6를 사용하고 있고 개인화를 포함하지 않았습니다.
 
 ![이미지](/assets/img/2024-06-22-IHaveUsedChatGPTToCraftThePerfectMidjourneyPromptHeresHowThisTurnedOut_6.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 최소한의 내용만 언급하여 초등부터 화려한 꽃들이 있는 하이테크 생태계에서 슈퍼모델이 나온 잡지 사진에 관심이 있다고 말하기로 결정했어요.
 
@@ -117,7 +210,18 @@ ChatGPT는 우리의 대화 초반에 요청 사항과 따라야 할 구조를 �
 
 지금은 여기까지입니다 친구들.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ChatGPT를 사용하면 초보자들이 멋진 프롬프트를 만들 수 있어요. Midjourney 프롬프트에 ChatGPT를 사용해 보신 적이 있나요? 💬
 
@@ -127,7 +231,18 @@ ChatGPT를 사용하면 초보자들이 멋진 프롬프트를 만들 수 있어
 
 이 이야기는 Generative AI에서 발표되었어요. 최신 AI 이야기를 만나고 싶다면 LinkedIn에서 만나세요. Zeniteq를 팔로우하여 최신 소식을 받아보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리의 뉴스레터 구독하면 창조적 AI의 최신 뉴스와 업데이트를 받아보실 수 있어요. 함께 AI의 미래를 만들어가요!
 

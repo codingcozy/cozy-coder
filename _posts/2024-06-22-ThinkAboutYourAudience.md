@@ -3,17 +3,13 @@ title: "관심을 끌기 위해 청중을 고려하는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-22-ThinkAboutYourAudience_0.png"
 date: 2024-06-22 16:25
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-ThinkAboutYourAudience_0.png
 tag: Tech
 originalTitle: "Think About Your Audience"
 link: "https://medium.com/@SiziweL/think-about-your-audience-4c3259b1d9bd"
 isUpdated: true
 ---
-
-
-
-
 
 친애하는 예측할 수 없는 자기 짓 펜시어,
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 오늘은 FLINT 프로젝트에 기여하면서 청중을 이해하는 중요성에 대해 이야기하고 싶어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![FLINT Introduction Image 0](/assets/img/2024-06-22-ThinkAboutYourAudience_0.png)
 
@@ -34,8 +40,18 @@ FLINT (Full Lands Integration Tool)은 오픈 소스, 모듈식 도구로, 땅�
 
 ![FLINT Introduction Image 1](/assets/img/2024-06-22-ThinkAboutYourAudience_1.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 우리 커뮤니티가 해결하려는 문제는 무엇인가요?
 
@@ -45,7 +61,18 @@ FLINT (Full Lands Integration Tool)은 오픈 소스, 모듈식 도구로, 땅�
 
 ## 왜 사람들은 FLINT를 사용하고 싶어 할까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 FLINT이 게임 체인저가 되는 몇 가지 중요한 이유가 있습니다:
 
@@ -58,7 +85,18 @@ FLINT이 게임 체인저가 되는 몇 가지 중요한 이유가 있습니다:
 
 FLINT가 세계적 기후 노력에 미치는 영향은 매우 고무적입니다. 온실 가스 배출을 정확하게 추정하고 관리하는 도구에 기여하는 것은 기후 변화와의 싸움에 적극적으로 참여하고 있다는 것을 의미합니다. FLINT를 크로스 플랫폼으로 만들고 릴리스 프로세스를 간소화하는 기술적 도전은 두렵고 흥미로운 과정입니다. 또한 다양하고 임무 지향적인 커뮤니티와 함께 일함으로써 일의 동기부여와 성취감을 느낄 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 내 역할
 
@@ -68,7 +106,18 @@ FLINT가 세계적 기후 노력에 미치는 영향은 매우 고무적입니�
 
 <img src="/assets/img/2024-06-22-ThinkAboutYourAudience_3.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 프로젝트를 시작하는 것은 흥미롭고 압도적이었습니다. 처음에는 로컬로 FLINT를 구축하는 것이 어려웠습니다. 저의 목표는 이 과정을 간편하게 만들어 더 많은 사람들이 FLINT에 접근할 수 있도록 하고, 크로스 플랫폼 기능을 보여주는 것입니다.
 
@@ -78,7 +127,18 @@ FLINT가 세계적 기후 노력에 미치는 영향은 매우 고무적입니�
 
 ![사진](/assets/img/2024-06-22-ThinkAboutYourAudience_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 최종 생각
 

@@ -3,7 +3,7 @@ title: "선박 건조 V - 이론에서 실무로 고난과 역경"
 description: ""
 coverImage: "/assets/img/2024-06-20-BuildingaShipVfromTheorytoPracticethetravails_0.png"
 date: 2024-06-20 16:38
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-BuildingaShipVfromTheorytoPracticethetravails_0.png
 tag: Tech
 originalTitle: "Building a Ship V — from Theory to Practice (the travails)"
@@ -11,20 +11,28 @@ link: "https://medium.com/@vynateya/building-a-ship-v-from-theory-to-practice-th
 isUpdated: true
 ---
 
-
-
-
-
 오프셋 테이블은 배의 선체를 시각화하는 훌륭한(그러나 혼란스러운) 방법입니다. 이것들은 단순한 숫자에서 전체 3D 구조물로 이어지는 과정을 제공합니다. 만일 나무/판재로 배를 건설할 때 오프셋 테이블에 의존한다면, 재료에 따라 오프셋이 변하는 점을 알아두세요. 일부 나무 판재는 잘 구부러지지만, 다른 것들은 그렇지 않습니다. 이러한 경우에는 나무의 자연 곡선을 따라야 합니다. 이것은 어렴풋하게 배워온 교훈으로, 아직 완전한 답을 가지고 있지 않습니다. 대부분의 경우, 내 디자인은 3D 프린팅 부품들에 의존하고 곡률은 플라스틱에 설정되어 있었기 때문입니다.
 
 이 시점에서, 다음을 전제합니다:
+
 - 당신이 좋아하는 선체 계획을 찾았다.
 - 선체에 대한 라인 드로잉(및/또는 오프셋 테이블)을 찾았다.
 - 오프셋을 충분히 스케일링하여 최종 오프셋 테이블을 얻었다. 이 테이블은 각 Z(높이)에서 선체의 X - Y 좌표를 가져야 합니다.
 
 요약하자면, 저는 선체를 외부의 모든 스테이션 라인 지점에 접촉하는 표면으로 시각화합니다. 이 관점의 장점은 선체를 특정 Z(높이) 값에서 스테이션 라인에 접촉하는 일련의 곡선으로 정의할 수 있다는 것입니다. 이러한 곡선을 연결하여 표면을 만들면, 바로 당신의 선체가 완성됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 역 노선 좌표 예제를 보려면 여기를 참조하십시오. 저는 스쿠너 CA 세이어 계획을 기반으로 만들었습니다. 물론, CA 세이어가 제가 시도한 첫 번째 모델은 아니었습니다. 먼저 사콜레바 그리에고(Sacoleva Griego)라는 작은 어선 모델을 시작했습니다. [여기 링크는 Google 검색으로 찾은 많은 링크 중 하나입니다. 더 나은/저렴한 링크를 찾으셨다면 그걸로 대체해주세요].
 
@@ -34,13 +42,35 @@ isUpdated: true
 
 선박 설계 시 중요한 문제 중 하나는 스테이션 라인(무릎)을 킬(등)에 고정하는 것입니다. 당연히 생각한 것은 잠금장치처럼 맞물리도록 설계하는 것이었습니다 - 무릎에 구불리고 킬에 놓일 도리깃이있습니다. 아래 이미지는 킬의 홈에 놓일 탭이 있는 스테이션 라인을 보여줍니다 (아래 그림은 두 번째 이미지입니다).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오, 빌딩 어 숲 Ⅴ선박 실제제작 과정에서 겪은 어려움을 제대로 반영한 디자인인데요. 원래 간단한 디자인이었지만 (으흠!) 탭이 홈에 완벽하게 맞지 않아서 늑골이 홈에 정상적으로 앉지 않는 문제가 발생했어요. 사진 속의 키르 부분에서, 초록색 화살표가 Y축을 나타내고 파란색이 Z축을 나타냅니다. 보이지 않는 빨간색 화살표가 X축이며 늑골 홈을 따라 진행됩니다. 홈과 탭의 불완전성으로 인해 X축을 따라 큰 편차가 발생하여 Y축을 중심으로 회전했을 때 정상적이지 않았다는 것을 의미했어요. 이는 스테이션 라인이 충분히 정상적이지 않아서(늑골에 수직이 아니었기 때문) 스테이션 라인으로서 충분하지 않다는 뜻이에요. 다시 디자인 작업을 시작하겠습니다!
 
 Y축을 중심으로 회전을 상쇄하기 위해 탭을 X축을 따라 연장하여 추가적인 안정성을 제공했어요. 수정된 디자인은 아래와 같이 보이게 되었습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-20-BuildingaShip-VfromTheorytoPracticethetravails_3.png)
 
@@ -50,7 +80,18 @@ Y축을 중심으로 회전을 상쇄하기 위해 탭을 X축을 따라 연장�
 
 하지만 (다시 한 번), Y축을 중심으로 움직임과 같이 극복하기 어려운 문제는 아니었어요. 명쾌한 CA 접착제를 사용해서 (거의) 해결되었어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 와우!! 다음 작업(도전?)은 이 골격 주변에 선체를 짓는 것이었습니다. 우리의 계획은 FreeCAD에서 선체 점을 사용하여 표면을 만들고 두께를 추가하고 등고선에 맞는 널판을 만드는 것이었습니다. 간단한 계획. 여기서 신들의 웃음소리가 들리시나요? 들리게 될 거에요.
 
@@ -60,7 +101,18 @@ Y축을 중심으로 회전을 상쇄하기 위해 탭을 X축을 따라 연장�
 
 ![사진](/assets/img/2024-06-20-BuildingaShipVfromTheorytoPracticethetravails_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로 선체 스트립을 인쇄하고 여기에 스테이션 라인에 고정하려고 시도했습니다.
 
@@ -70,8 +122,18 @@ Y축을 중심으로 회전을 상쇄하기 위해 탭을 X축을 따라 연장�
 
 또 다른 실험을 하기도 했는데, 선체를 표면으로 만들었지만 전혀 스테이션 라인을 사용하지 않았습니다. 아래 디자인처럼 보였습니다 (FreeCAD에서).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![BuildingaShipVfromTheorytoPracticethetravails_6](/assets/img/2024-06-20-BuildingaShipVfromTheorytoPracticethetravails_6.png)
 
@@ -81,8 +143,18 @@ Y축을 중심으로 회전을 상쇄하기 위해 탭을 X축을 따라 연장�
 
 아! 마침내 찾았다. FreeCAD에서 여러 곡선을 사용하여 표면을 생성할 때, 표면에는 두께가 없어요. 그래서 표면에 두께를 추가해야 합니다. 그러나 두께는 주요 축 중 하나에만 한 번에 추가할 수 있어요. 즉, 두께는 곡선이 주요 축을 횡단하는 선체 일부 영역에서 너무 얇아요. 특히 X-Y 대 Z. 이것이 위 모델에서 보이는 결함을 일으켰어요.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 실패가 있었지만, 나는 이것이 선체를 만드는 가장 좋은 방법이라고 확신하고 있어요. 3D 곡선을 따라 균일하게 두께를 두는 방법을 적용할 수 있다면 좋겠어요. 만약 누군가가 FreeCAD에서 그것을 하는 방법을 찾는다면 아래 댓글을 남겨 주세요. 감사하겠어요.
 

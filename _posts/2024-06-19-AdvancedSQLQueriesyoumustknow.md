@@ -3,17 +3,13 @@ title: "확장된 SQL 쿼리들, 꼭 알아야 할 사항들"
 description: ""
 coverImage: "/assets/img/2024-06-19-AdvancedSQLQueriesyoumustknow_0.png"
 date: 2024-06-19 01:50
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-AdvancedSQLQueriesyoumustknow_0.png
 tag: Tech
 originalTitle: "Advanced SQL Queries you must know"
 link: "https://medium.com/@asma.sithi/advanced-sql-queries-you-must-know-9d922a464a20"
 isUpdated: true
 ---
-
-
-
-
 
 데이터 분석 및 데이터 엔지니어링을 위한 최고의 15가지 고급 SQL 명령어!
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 1. 윈도우 함수
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 윈도우 함수는 현재 행과 관련된 일련의 행을 대상으로 계산에 사용됩니다. 예를 들어, SUM() 함수와 OVER() 절을 사용하여 매출의 누적 합계를 계산하는 예제를 살펴보겠습니다. 'Sales_Data'라는 매출 데이터 테이블을 가정해보겠습니다. 이 테이블은 여러 날짜에 걸친 매출 금액을 기록합니다. 각 날짜별 매출의 누적 합계를 계산하고자 합니다. 즉, 각 날짜까지의 총 매출액을 나타냅니다.
 
@@ -37,7 +44,18 @@ date | sales | running_total
 2023-01-03 | 200 | 450
 2023-01-04 | 250 | 700
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 윈도우 함수는 단일 행 그룹으로 결과 집합을 축소시키지 않고 실행 합계, 이동 평균, 순위 등 다양한 작업에 사용할 수 있어요.
 
@@ -47,7 +65,18 @@ date | sales | running_total
 
 이 쿼리는 'category_revenue'라는 CTE를 정의해요. 이는 매출 테이블에서 수익을 합산하고 카테고리 열을 기준으로 결과를 그룹화하여 각 카테고리별 총 수익을 계산해요. 메인 쿼리는 'category_revenue' CTE에서 모든 열을 선택하여 각 카테고리의 계산된 총 수익을 효과적으로 표시해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 출력:
 
@@ -57,8 +86,18 @@ A | 5000
 
 B | 7000
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 C|4500
 
@@ -68,17 +107,36 @@ Recursive queries enable travel of hierarchical data structures like organisatio
 
 This recursive CTE finds all employees who report directly or indirectly to a specific manager ‘manager_id_of_interest’. It starts with employees directly reporting to the manager and then recursively finds their subordinates, building the hierarchy.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
-| employee_id | name  | manager_id           |
-|:------------|:------|:---------------------|
+| employee_id | name  | manager_id             |
+| :---------- | :---- | :--------------------- |
 | 2           | Alice | manager_id_of_interest |
-| 3           | Bob   | 2                    |
+| 3           | Bob   | 2                      |
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4|Charlie |3
 
@@ -88,37 +146,70 @@ This recursive CTE finds all employees who report directly or indirectly to a sp
 
 이 쿼리는 조건부 집계를 사용하여 각 제품의 월별 판매 데이터를 집계합니다. 각 제품의 1월, 2월, 3월 판매액을 따로 합산하여, 이러한 월에 대한 각 제품의 총 판매액을 보여주는 테이블을 만듭니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 Markdown 형식으로 테이블을 나타낸 내용입니다:
 
-| product | Jan | Feb | Mar |
-|---------|-----|-----|-----|
+| product   | Jan | Feb | Mar |
+| --------- | --- | --- | --- |
 | Product A | 100 | 200 | 150 |
-| Product B | 80 | 190 | 220 |
-| Product C | 60 | 140 | 130 |
+| Product B | 80  | 190 | 220 |
+| Product C | 60  | 140 | 130 |
 
 # 5. 분석 함수
 
 분석 함수는 행 그룹을 기반으로 집계 값을 계산합니다. 예를 들어, ROW_NUMBER( ) 함수를 사용하여 데이터셋의 각 레코드에 고유한 행 번호를 할당할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 쿼리는 ROW_NUMBER() 윈도우 함수를 사용하여 주문 날짜를 기준으로 각 고객당 주문에 고유한 순위를 할당합니다. 결과는 각 고객이 배치한 주문의 순서를 보여줍니다.
 
- 출력:
+출력:
 
 | customer_id | order_id | order_rank |
-|------------|-----------|--------------|
-| 1              | 101          | 1                    |
-| 1              | 102          | 2                    |
-| 2              | 201          | 1                    |
-| 2              | 202          | 2                    |
-| 2              | 203          | 3                    |
+| ----------- | -------- | ---------- |
+| 1           | 101      | 1          |
+| 1           | 102      | 2          |
+| 2           | 201      | 1          |
+| 2           | 202      | 2          |
+| 2           | 203      | 3          |
 
 # 6. Unpivot
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 언피벗은 열을 행으로 변환하는 피벗의 반대 작업입니다. 월별로 집계된 매출 데이터가 있는 테이블이 있다고 가정해봅시다. 시간에 따른 트렌드를 분석하기 위해 이를 언피벗하려고 합니다.
 
@@ -134,7 +225,18 @@ ProductB | Jan | 200
 ProductB | Feb | 250
 ProductB | Mar | 300
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 7. 조건부 집계
 
@@ -144,11 +246,22 @@ ProductB | Mar | 300
 
 출력:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-customer_id | avg_sales_repeat_customers 
-1 | 250 
-2 | 150 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+customer_id | avg_sales_repeat_customers
+1 | 250
+2 | 150
 3 | 300
 
 ## 8. 날짜 함수
@@ -157,12 +270,23 @@ SQL에서의 날짜 함수는 날짜와 관련된 정보를 조작하고 추출�
 
 이 출력은 매출이 total_sales로 집계된 각 월을 month으로 나타내며, 각 월은 해당 월의 첫 번째 날로 표시됩니다 (예: 1월의 경우 2023-01-01). 각 해당 월의 총 매출액이 합산되어 표시됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 출력:
 
 | month      | total_sales |
-|------------|-------------|
+| ---------- | ----------- |
 | 2023-01-01 | 15000       |
 | 2023-02-01 | 20000       |
 | 2023-03-01 | 17500       |
@@ -172,30 +296,59 @@ SQL에서의 날짜 함수는 날짜와 관련된 정보를 조작하고 추출�
 
 병합문(UPSERT 또는 ON DUPLICATE KEY UPDATE로도 알려져 있음)은 소스 테이블과의 조인 결과를 기반으로 대상 테이블에 레코드를 삽입, 업데이트 또는 삭제할 수 있게 합니다. 고객 데이터를 포함하는 두 테이블을 동기화하고 싶다고 가정해 봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 customers_target (before merge):
 
-| customer_id | name       | email           |
-|-------------|------------|-----------------|
-| 1           | John Doe   | john@example.com|
-| 2           | Jane Smith | jane@example.com|
+| customer_id | name       | email            |
+| ----------- | ---------- | ---------------- |
+| 1           | John Doe   | john@example.com |
+| 2           | Jane Smith | jane@example.com |
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 Markdown 형식으로 변경해보면 다음과 같습니다.
 
-
-| customer_id | name         | email            |
-|------------ | ------------ | -----------------|
-| 1           | John Doe     | john@example.com |
+| customer_id | name         | email              |
+| ----------- | ------------ | ------------------ |
+| 1           | John Doe     | john@example.com   |
 | 2           | Jane Johnson | jane.j@example.com |
-| 3           | Alice Brown  | alice@example.com |
+| 3           | Alice Brown  | alice@example.com  |
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 MERGE 문은 customers_source 테이블을 기반으로 customers_target 테이블을 업데이트합니다. customers_source의 customer_id가 customers_target에서와 일치하는 경우, 이름과 이메일이 업데이트됩니다. 일치하는 항목이 없는 경우 새로운 행이 삽입됩니다.
 
@@ -205,8 +358,18 @@ Case 문을 사용하면 SQL 쿼리 내에서 조건부 논리를 구현할 수 
 
 예제 데이터 세트를 고려하고 출력을 설명해보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 orders 테이블에서의 예시 데이터:
 
@@ -226,8 +389,18 @@ customer_id | customer_category
 3 | Silver
 4 | Platinum
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 쿼리는 고객의 총 구매 금액을 기준으로 고객을 카테고리로 분류합니다. 총 구매 금액이 $1000 이상인 경우 '플래티넘'으로 레이블을 지정하고, $500에서 $999 사이인 경우 '골드'로 레이블을 지정하며, $500 미만인 경우 '실버'로 레이블을 지정합니다.
 
@@ -237,27 +410,49 @@ SQL에서의 문자열 함수는 텍스트 데이터를 조작하는 데 사용�
 
 예시 데이터 세트를 고려하고 출력을 설명해 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시 데이터인 직원 테이블:
 
-| 이름 | 성 |
-|--------|--------|
-| John | Doe |
-| Jane | Smith |
+| 이름  | 성      |
+| ----- | ------- |
+| John  | Doe     |
+| Jane  | Smith   |
 | Alice | Johnson |
-| Bob | Brown |
+| Bob   | Brown   |
 
 결과:
 
-| 전체 이름 |
-|--------------|
-| John Doe |
-| Jane Smith |
+| 전체 이름     |
+| ------------- |
+| John Doe      |
+| Jane Smith    |
 | Alice Johnson |
-| Bob Brown |
+| Bob Brown     |
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 질문은 employees 테이블에서 first_name 및 last_name 열을 연결하여 각 직원의 full_name을 만드는 것입니다.
 
@@ -267,7 +462,18 @@ SQL에서의 문자열 함수는 텍스트 데이터를 조작하는 데 사용�
 
 예시 데이터는 sales 테이블에 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주문 날짜 | 매출액
 2023–01–15 | 1000
@@ -294,7 +500,18 @@ NULL | 3 | 2500
 
 그 쿼리는 GROUPING SETS를 사용하여 매출 데이터를 연도별 및 월별, 연도만, 월만으로 그룹화합니다. 결과적으로 각 연도의 각 월별 소계, 각 연도의 총합, 모든 연도를 통틀어 각 월의 총합이 나타납니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 13. Cross Joins
 
@@ -304,23 +521,45 @@ Cross joins은 두 개의 테이블의 데카르트 곱을 생성하여 각 테�
 
 제품 테이블:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-product_id | product_name
---- | ---
-1 | Product A
-2 | Product B
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+| product_id | product_name |
+| ---------- | ------------ |
+| 1          | Product A    |
+| 2          | Product B    |
 
 customers table:
 
-customer_id | customer_name
---- | ---
-101 | Customer X
-102 | Customer Y
+| customer_id | customer_name |
+| ----------- | ------------- |
+| 101         | Customer X    |
+| 102         | Customer Y    |
 
 Output:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 product_id | product_name | customer_id | customer_name
 1 | Product A | 101 | Customer X
@@ -334,7 +573,18 @@ product_id | product_name | customer_id | customer_name
 
 인라인 뷰(파생 테이블로도 알려짐)는 SQL 쿼리 내에서 임시 결과 집합을 만드는 데 사용됩니다. 예를 들어, 우리가 주문 평균 가치를 초과하는 구매를 한 고객을 찾고 싶다면 인라인 뷰를 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주문 테이블:
 
@@ -354,19 +604,39 @@ customer_id | order_total
 3 | 500
 4 | 700
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 표를 마크다운 형식으로 변경하세요.
 
-
 | customer_id | order_total |
-| --- | --- |
-| 2 | 500 |
-| 3 | 500 |
-| 4 | 700 |
+| ----------- | ----------- |
+| 2           | 500         |
+| 3           | 500         |
+| 4           | 700         |
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 15. 집합 연산자
 
@@ -376,7 +646,18 @@ UNION, INTERSECT 및 EXCEPT와 같은 집합 연산자를 사용하여 두 개 �
 
 결과:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 product_id | product_name
 1 | Chocolate Bar

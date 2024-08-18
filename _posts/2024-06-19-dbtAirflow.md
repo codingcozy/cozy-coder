@@ -3,17 +3,13 @@ title: "DBT  Airflow  "
 description: ""
 coverImage: "/assets/img/2024-06-19-dbtAirflow_0.png"
 date: 2024-06-19 09:45
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-dbtAirflow_0.png
 tag: Tech
 originalTitle: "dbt + Airflow = ❤"
 link: "https://medium.com/plum-fintech/dbt-airflow-50b2c93f91cc"
 isUpdated: true
 ---
-
-
-
-
 
 ![image](/assets/img/2024-06-19-dbtAirflow_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 그러나 dbt는 명령줄 인터페이스의 특성 때문에 도전적인 요소를 가지고 있습니다. 그렇다면, 제품 환경에 배포할 때 dbt의 장점을 팀이 어떻게 활용할 수 있을까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 dbt Cloud가 당연한 선택처럼 보일 수 있지만, 모든 팀 또는 회사가 이 제품에 투자하기에 준비되어 있는 것은 아닙니다. 이러한 상황에서는 dbt 모델의 실행을 조율하고 그 사이의 종속성을 유지하는 대체 방법이 필요합니다.
 
@@ -33,7 +40,18 @@ dbt Cloud에 필요한 투자 외에도, 우리 팀은 특정 기능을 지원�
 
 ![2024-06-19-dbtAirflow_1.png](/assets/img/2024-06-19-dbtAirflow_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - dbt 프로젝트 일정 설정: 우리는 dbt 프로젝트를 cron 작업 스타일로 일정을 잡고, 특정 시간 간격을 지정합니다.
 - 작업 세분화: 각 dbt 엔티티(모델, 테스트, 시드, 스냅샷을 포함)는 개별적으로 처리되어 필요한 경우에 개별적으로 트리거될 수 있도록 합니다.
@@ -49,7 +67,18 @@ dbt Cloud에 필요한 투자 외에도, 우리 팀은 특정 기능을 지원�
 [dbt run A] -> [dbt와 무관한 워크플로우 실행] -> [dbt run B]
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5. 알림: 문제가 발생했을 때, 슬랙으로 알림을 받아야 합니다.
 
@@ -59,7 +88,18 @@ dbt Cloud에 필요한 투자 외에도, 우리 팀은 특정 기능을 지원�
 
 8. 여러 일정 생성: 동일한 프로젝트를 서로 다른 일정으로 실행해야 할 수도 있습니다. 이는 모델 하위 집합을 트리거할 필요와 밀접하게 관려이 있습니다. 예를 들어, 모델을 시간별, 일별, 주간별로 태그 지정하여 해당 일정에 맞춰 실행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다양한 대안을 탐색해 본 결과, 천문학자가 개발한 Cosmos 패키지를 포함해 어떤 것도 당시의 우리 사용 사례와 명확한 요구 사항에 적합하다는 것을 입증하지 못했습니다.
 
@@ -69,7 +109,18 @@ dbt Cloud에 필요한 투자 외에도, 우리 팀은 특정 기능을 지원�
 
 데이터 파이프라인 Orchestration 전략을 설계할 때, 우리는 특정 간격(시간별, 일별 또는 주별)으로 작업을 예약하고 관리할 수 있는 능력을 지향했습니다. 팀이 Airflow 및 Google Cloud의 Cloud Composer 서비스에 익숙하고 기존 인프라가 있었기 때문에 Airflow를 선택하는 것이 우리의 요구에 적합한 자연스러운 선택이었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한 Airflow와 dbt는 Directed Acyclic Graphs (DAGs) 개념을 중심으로 하고 있어, dbt DAGs를 Airflow DAGs로 변환하여 Orchestration(오케스트레이션)할 수 있습니다.
 
@@ -79,7 +130,18 @@ DAGs는 노드가 닫힌 순환 루프를 형성하지 않고 방향성을 가�
 
 이 초기 단계에서 우리의 작업은 상대적으로 간단했습니다: Airflow를 사용하여 dbt 프로젝트를 실행하고 테스트하되, 각 모델, 테스트, 스냅샷 또는 시드를 개별 작업으로 설정할 필요가 없었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 필요한 것은 GitHub Actions를 사용하여 CI/CD 파이프라인을 설정하는 것이었습니다. 이 파이프라인은 관련된 dbt 프로젝트를 Cloud Composer 버킷으로 복사하고 Airflow 내에서 DAG를 구성합니다. 이 DAG에는 모델을 실행하는 하나의 작업 및 해당 작업을 테스트하는 다른 작업이 포함됩니다.
 
@@ -89,7 +151,18 @@ DAGs는 노드가 닫힌 순환 루프를 형성하지 않고 방향성을 가�
 
 그러나 이 방법에는 여러 가지 제약이 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 만약에 dbt_run 작업 내에서 모델 실행이 실패한다면, 문제를 해결하기 위해 작업을 다시 실행해야 합니다. 이는 이전에 성공했던 모델들을 포함하여 모든 모델을 다시 실행해야 하므로 실행 시간과 비용이 증가하는 것을 의미합니다.
 - 모델 실행과 테스트는 완전히 독립적입니다. 모든 테스트는 워크플로우의 끝에 실행됩니다. 따라서 다른 모델들의 상위 종속성인 모델들에서 문제가 발생할 경우 너무 늦기 전까지 알아차리지 못할 수 있습니다.
@@ -102,7 +175,18 @@ DAGs는 노드가 닫힌 순환 루프를 형성하지 않고 방향성을 가�
 
 # dbt-airflow 빌딩
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 dbt DAG를 Airflow DAG로 변환하기 위해 첫 번째 작업은 dbt 엔터티에서 의존성을 추출하는 것이었습니다. 이는 데이터 모델 간의 관계를 구문 분석하고 DAG 내의 Airflow 작업에 매핑하는 것을 포함했습니다.
 
@@ -112,7 +196,18 @@ dbt 의존성을 Airflow 작업으로 표현함으로써 데이터 워크플로�
 
 ## 반복 1: manifest.json 파일 활용
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째 반복에서는 dbt가 생성한 manifest.json 파일을 읽는 파서를 개발했습니다. 이 메타데이터 파일은 dbt가 실행, 테스트 및 컴파일 중에 생성됩니다.
 
@@ -122,7 +217,18 @@ dbt 의존성을 Airflow 작업으로 표현함으로써 데이터 워크플로�
 
 이제 특정 작업이 실패할 때와 같이, 하류 의존성은 누군가 기본 문제를 해결할 때까지 일시 중지되어 DAG의 나머지 부분이 차단 해제됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 방법을 통해 문제가 발생했을 때 전체 모델 또는 테스트 세트를 다시 실행할 필요가 없어졌어요. 결과적으로, 이 전략은 Airflow에서 실행되는 dbt 프로젝트의 실행 및 유지에 관련된 비용을 크게 줄였어요.
 
@@ -130,7 +236,7 @@ dbt 의존성을 Airflow 작업으로 표현함으로써 데이터 워크플로�
 
 ```js
 import functools
-from datetime import datetime 
+from datetime import datetime
 from datetime import timedelta
 from pathlib import Path
 
@@ -182,8 +288,18 @@ with DAG(
 
 프로젝트를 Cloud Composer에 배포하는 관점에서 이번 반복에서는 아무런 변경 사항이 없었어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Screenshot 1](/assets/img/2024-06-19-dbtAirflow_3.png)
 
@@ -193,8 +309,18 @@ By the end of this first iteration, we were able to meet half of the requirement
 
 ## Iteration 2: Introducing Extra Tasks
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이번 반복에서는 초기 설계의 핵심 측면으로 초점을 옮겼습니다: 기존 모든 모델을 Airflow로 원활하게 마이그레이션할 수 있는 능력입니다.
 
@@ -204,7 +330,18 @@ Machine Learning 워크플로우를 모델 실행 사이에 통합하여 하향 
 
 기술적으로는 관심있는 dbt 프로젝트를 구문 분석한 후 생성된 Airflow 작업 이후에 Airflow Operator를 도입하려고 했습니다. 이를 달성하기 위해 Extra Task의 상위 또는 하위 작업을 명시해야 했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 'Extra Tasks'를 표현하기 위해 우리는 ExtraTask라는 객체를 개발했습니다. 이 객체는 렌더링된 dbt 프로젝트 내에서 이러한 작업을 소개하는 데 활용될 수 있습니다.
 
@@ -322,7 +459,18 @@ with DAG(
     t1 >> t2 >> tg
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 번째 반복을 마칠 때, 우리는 더욱 우리가 목표로 한 최종 제품에 한 발짝 더 가까워졌어요.
 
@@ -332,7 +480,18 @@ with DAG(
 
 이 반복에서, 우리의 목표는 특정 DAG 내에서 특정 dbt 엔티티의 하위 집합만 렌더링할 수 있게 하는 기능을 구현하는 것이었어요. 이는 여러 목적을 달성하기 위한 것이었죠:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 동일한 모델에 대해 시간별, 일별 또는 주간별로 다른 일정을 생성하려면 해당 태그가 지정된 모델만 선택하여 선택하면 됩니다.
 - 특정 이유로 특정 태그가 지정된 모델을 특정 DAG에 포함하지 않으려면 필터링을 해야 합니다.
@@ -344,7 +503,18 @@ with DAG(
 
 이 반복에서 우리는 이 프로젝트를 시작할 때 목표로 했던 최종 버전에 한 걸음 가까워졌습니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-dbtAirflow_6.png" />
 
@@ -354,7 +524,18 @@ with DAG(
 
 그러나 이 접근 방식은 패키지의 호환성 문제 등의 위험과 어려움을 야기할 수 있습니다. 특히 제공 업체의 다른 클라우드 서비스와의 통합을 용이하게하기 위해 미리 정의된 종속성을 함께 제공하는 클라우드의 관리형 Airflow 서비스인 클라우드 컴포저와 같은 서비스를 사용할 때 이 문제가 발생할 가능성이 높아집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고, 여러 개의 dbt 프로젝트를 관리하는 것은 서로 다른 dbt 버전에서 실행해야 할 수도 있습니다. 안타까운 점은 Airflow 환경에 dbt를 직접 설치하면 기술적으로 이것이 불가능하다는 것입니다.
 
@@ -364,13 +545,24 @@ with DAG(
 
 새 CI/CD 파이프라인이 트리거될 때마다, dbt 프로젝트를 포함하는 Docker 이미지가 빌드되어 Google Cloud의 Artifact Registry로 푸시됩니다. 그러나 dbt-airflow는 여전히 DAG를 렌더링하기 위해 manifest.json 파일에 의존하므로 전체 dbt 프로젝트를 복사하는 대신 manifest 파일만 Cloud Composer GCS 버킷으로 복사해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 dbt-airflow에서는 라이브러리를 확장하여 KubernetesPodOperator를 사용하여 Airflow Tasks를 실행하는 지원을 추가했어요. 이 기능을 통해 DbtAirflowConfig 내에서 execution_operator=ExecutionOperator.KUBERNETES를 지정할 수 있게 되었어요. 이 설정을 사용하면 TaskGroup 내의 각 작업이 자체 Kubernetes pod에서 실행되며 지정된 컨테이너 및 추가 구성을 활용할 수 있어요.
 
 ```python
 import functools
-from datetime import datetime 
+from datetime import datetime
 from datetime import timedelta
 from pathlib import Path
 
@@ -433,7 +625,18 @@ with DAG(
 
 <img src="/assets/img/2024-06-19-dbtAirflow_8.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # dbt-airflow을 시작해 보세요
 
@@ -443,7 +646,18 @@ dbt 프로젝트를 배포하고 일정을 예약하는 방법을 찾고 있다�
 
 또한 공식 문서에서 더 많은 세부 정보를 찾을 수 있습니다. 사실, 이 문서에서는 패키지가 제공하는 전체 기능 중 일부만 다루었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트에 기여하는 것을 장려합니다. 무언가 부족한 부분이 있으면 참여해 주시기를 바랍니다.
 

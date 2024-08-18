@@ -3,17 +3,13 @@ title: "지금 바로 바꿔야 할 iOS 17 설정 12가지  최고의 사용자 
 description: ""
 coverImage: "/assets/img/2024-07-13-ChangeThese12iOS17SettingsRightNowForaSuperiorExperience_0.png"
 date: 2024-07-13 23:47
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-ChangeThese12iOS17SettingsRightNowForaSuperiorExperience_0.png
 tag: Tech
 originalTitle: "Change These 12 iOS 17 Settings Right Now For a Superior Experience"
 link: "https://medium.com/macoclock/change-these-12-ios-17-settings-right-now-for-a-superior-experience-8f43e28a10ab"
 isUpdated: true
 ---
-
-
-
-
 
 ![Image](/assets/img/2024-07-13-ChangeThese12iOS17SettingsRightNowForaSuperiorExperience_0.png)
 
@@ -23,7 +19,18 @@ After three months of using iOS 17 non-stop through the developer program, I've 
 
 I've shared my personal insights on why I made these changes too. Wishing you a smoother iPhone journey ahead.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # #1. 화면 거리 조정하기
 
@@ -33,17 +40,39 @@ I've shared my personal insights on why I made these changes too. Wishing you a 
 
 그때 iOS 17의 '화면 거리' 기능이 있었으면 참 좋았을 텐데요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](https://www.example.com/assets/img/2024-07-13-ChangeThese12iOS17SettingsRightNowForaSuperiorExperience_1.png)
 
 This new feature utilizes the TrueDepth camera to detect if you have been holding your iPhone closer than 30 cm (12 in) from your face for an extended period - and notifies you if that's the case.
 
-By doing so, it aims to lower the risk of myopia and promote eye health. You can activate it by going to Settings ⚙️ ` Screen Time ` Screen Distance.
+By doing so, it aims to lower the risk of myopia and promote eye health. You can activate it by going to Settings ⚙️ `Screen Time` Screen Distance.
 
 ## Fun Fact:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 애플 워치를 사용 중이라면, 새로운 기능을 만나게 될 거에요! watchOS 10에는 이제 '낮 시간' 기능이 추가되었어요.
 
@@ -53,7 +82,18 @@ By doing so, it aims to lower the risk of myopia and promote eye health. You can
 
 ![이미지](/assets/img/2024-07-13-ChangeThese12iOS17SettingsRightNowForaSuperiorExperience_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## #2. 자동으로 인증 코드 정리하기
 
@@ -63,17 +103,39 @@ By doing so, it aims to lower the risk of myopia and promote eye health. You can
 
 년 년을 쌓아 둔 채로 있어요. 그리고 이제 한꺼번에 모두 필터링하고 한 번에 지울 방법을 찾을 수 없네요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어쨌든, iOS 17에서 새로운 기능이 추가되었어요 — '자동 정리' 기능입니다. 이제 이 기능을 통해 인증 코드를 자동으로 입력한 후 지워집니다.
 
 ![Image](/assets/img/2024-07-13-ChangeThese12iOS17SettingsRightNowForaSuperiorExperience_3.png)
 
-그리고 더 좋은 점은, 메일로 받은 인증 코드도 함께 삭제된다는 거죠. (설정 ⚙️ ` 비밀번호 🗝️ ` 비밀번호 옵션`에서 '자동 정리' 토글 설정하세요)
+그리고 더 좋은 점은, 메일로 받은 인증 코드도 함께 삭제된다는 거죠. (설정 ⚙️ `비밀번호 🗝️` 비밀번호 옵션`에서 '자동 정리' 토글 설정하세요)
 
 # #3. 진동 터치 응답 속도 빠르게 만들기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지 태그를 Markdown 형식으로 변경해보세요.
 
@@ -81,11 +143,22 @@ By doing so, it aims to lower the risk of myopia and promote eye health. You can
 
 요즘에는 기본 햅틱 터치 속도가 너무 느리다고 느껴져요 – (예를 들어, 앱을 길게 누른 후 iPhone이 진동하기까지 기다려야 하는 시간).
 
-아마도 최근에 애플도 이를 이해한 것 같아요… 이제 ‘빠른’ 햅틱 터치 옵션이 생겼어요. (설정 ⚙️ ` 접근성 🚹 ` 터치 👆 ` 햅틱 터치`에서 토글하여 확인해보세요)
+아마도 최근에 애플도 이를 이해한 것 같아요… 이제 ‘빠른’ 햅틱 터치 옵션이 생겼어요. (설정 ⚙️ `접근성 🚹` 터치 👆 ` 햅틱 터치`에서 토글하여 확인해보세요)
 
 이전에는 햅틱 터치에 대해 두 가지 옵션이 있었는데요: 빠름과 느림. 이제 세 가지 옵션이 있다고 하니 —
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지 파일은 다음과 같습니다: [이미지](/assets/img/2024-07-13-ChangeThese12iOS17SettingsRightNowForaSuperiorExperience_4.png)
 
@@ -97,7 +170,18 @@ iOS 17 빠름 ` iOS 16 빠름
 iOS 16 빠름 = iOS 17 기본
 iOS 16 느림 = iOS 17 느림
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## And to help you visualize better, here are some gifs:
 
@@ -108,7 +192,18 @@ iOS 16 느림 = iOS 17 느림
 Trust me, this is lightning fast.
 I've set this as my own Haptic Touch mode, and I bet most of you would want to switch to it too.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 저한테 아이폰의 3D Touch가 새롭게 살아난 느낌을 주네요.
 
@@ -118,7 +213,18 @@ I've set this as my own Haptic Touch mode, and I bet most of you would want to s
 
 → iOS 17 느림:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](https://miro.medium.com/v2/resize:fit:1400/1*be5UCHZLpHsBz2dumXV6NQ.gif)
 
@@ -130,17 +236,39 @@ Haptic Touch와 비슷하게, 나는 Siri의 말 속도가 너무 느린 것을 
 - 알람 및 타이머 설정하기
 - 알림 설정하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 소 신드라에게 발언을 요청하면 스피커로 나타샤를 걸도록 할 거야.
 
-스피커로 "나타샤 X폰에게 전화 걸고 있어요…" 라고 말한 다음 전화를 걸기 시작해. 그 인식 자체도 3초가 걸리는데, 그 시간이 흐를 때는 너무 긴 시간처럼 느껴질 수 있어. 
+스피커로 "나타샤 X폰에게 전화 걸고 있어요…" 라고 말한 다음 전화를 걸기 시작해. 그 인식 자체도 3초가 걸리는데, 그 시간이 흐를 때는 너무 긴 시간처럼 느껴질 수 있어.
 
-아마도 애플도 이를 이해했는지, 스피킹 레이트를 80%에서 200%로 조절할 수 있는 슬라이더가 있어. (설정 ⚙️ ` 접근성 🚹 ` 시리 ` 스피킹 레이트)
+아마도 애플도 이를 이해했는지, 스피킹 레이트를 80%에서 200%로 조절할 수 있는 슬라이더가 있어. (설정 ⚙️ `접근성 🚹` 시리 ` 스피킹 레이트)
 
 ![이미지](/assets/img/2024-07-13-ChangeThese12iOS17SettingsRightNowForaSuperiorExperience_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 If you want Siri to speak faster, slide it to the right. Or if you prefer slower, slide it to the left. I've dragged it to 200%.
 
@@ -148,19 +276,39 @@ If you want Siri to speak faster, slide it to the right. Or if you prefer slower
 
 I'm not a professional cameraperson, and I don't carry a tripod stand wherever I go. So, my photos often come with a slight, unavoidable tilt of a small degree unknowingly, which I hate.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-만약 당신이 이에 공감할 수 있다면, 좋은 소식이 있어요. 이제 새로운 토글이 설정 ⚙️ ` 카메라 📷 ` 구성에서 Level이라는게 추가되었어요.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+만약 당신이 이에 공감할 수 있다면, 좋은 소식이 있어요. 이제 새로운 토글이 설정 ⚙️ `카메라 📷` 구성에서 Level이라는게 추가되었어요.
 
 이 기능을 켜면, 사진을 찍을 때마다 이 얇은 수평 선이 보일 거에요 —
 
-
 ![이미지](/assets/img/2024-07-13-ChangeThese12iOS17SettingsRightNowForaSuperiorExperience_6.png)
-
 
 만약에 iPhone을 회전시켜 그 선을 중앙에 맞출 수 있다면, iPhone을 완벽하게 수평으로 조절했다는 거야.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # #6. 48MP 사진 촬영하기, 저장 공간을 적게 사용하세요
 
@@ -172,8 +320,18 @@ I'm not a professional cameraperson, and I don't carry a tripod stand wherever I
 
 애플의 이미지 품질에 대해 찬사를 보내지만, 75MB는 미친 것 같아요. (여러분은 어떻게 생각하세요?)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Hey there! I recently decided to stop taking 48 MP photos completely, but guess what? I've changed my mind and started again.
 
@@ -183,7 +341,18 @@ Why, you ask? Well, now we can capture stunning 48 MP images that only take up 5
 
 If you're as thrilled about this as I am, simply go to your Settings ⚙️, then navigate to Camera 📷, tap on Formats, and select Pro Default to switch to the HEIF Max setting. Enjoy your high-quality photos without the hassle of excessive storage space!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 보너스 기능:
 
@@ -193,11 +362,33 @@ If you're as thrilled about this as I am, simply go to your Settings ⚙️, the
 
 이제 선호하는 포맷을 선택해보세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마법사 여러분 안녕하세요! 오늘은 #7. 더 안전한 탐색 방법에 대해 이야기해 보려고 해요. 저는 항상 내 브라우징이 안전하고 개인 정보 보호되어야 한다 생각해요. 그래서 '고급 추적 및 지문 보호'라는 애플의 새로운 개인 정보 보호 토글을 설정에서 찾아 Apple Safari `고급` `개인정보`에서 사용하게 되었어요.🔒✨
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지 파일을 Markdown 형식으로 변경해 주세요.
 
@@ -207,17 +398,39 @@ Apple에 따르면, 이 조치는 웹사이트가 최신 기술을 사용하여 
 
 그리고 덧붙여 말하자면, 나는 Face ID로 개인 브라우징을 잠그기도 했다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이유가 뭐냐구요? 내 스마트폰을 빌려 전화 거는 사람에게도 내 개인 정보는 안 보여야 한다고 생각해서요.
 
-설정에서 다음 항목을 변경해보세요 ⚙️ ` Safari 🧭 ` Privacy & Security ` Require Face ID to Unlock Private Browsing.
+설정에서 다음 항목을 변경해보세요 ⚙️ `Safari 🧭` Privacy & Security ` Require Face ID to Unlock Private Browsing.
 
 ![이미지](/assets/img/2024-07-13-ChangeThese12iOS17SettingsRightNowForaSuperiorExperience_11.png)
 
 이제 누군가가 개인 탭을 엿보려고 하면 이렇게 보일 거에요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-07-13-ChangeThese12iOS17SettingsRightNowForaSuperiorExperience_12.png](/assets/img/2024-07-13-ChangeThese12iOS17SettingsRightNowForaSuperiorExperience_12.png)
 
@@ -227,7 +440,18 @@ Apple에 따르면, 이 조치는 웹사이트가 최신 기술을 사용하여 
 
 어디를 가든 Sencha 소리를 듣고 있으면, 그건 내 iPhone이 울리는 줄 알아 — 그런데 90%의 경우에 내 건 아니야.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어쨌든, 좋은 결말이 있어.
 
@@ -235,9 +459,20 @@ iOS 17에서 새로운 벨소리 24개와 알림음 11개가 추가됐다니, �
 
 ![이미지](/assets/img/2024-07-13-ChangeThese12iOS17SettingsRightNowForaSuperiorExperience_13.png)
 
-설정 ⚙️ ` 소리 및 진동 🔊 ` 벨소리/문자음에서 좋아하는 것을 듣고 설정하세요. (그리고 말이야, 나는 방금 '짹짹'으로 벨소리를 바꿨어요.)
+설정 ⚙️ `소리 및 진동 🔊` 벨소리/문자음에서 좋아하는 것을 듣고 설정하세요. (그리고 말이야, 나는 방금 '짹짹'으로 벨소리를 바꿨어요.)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 보너스 기능
 
@@ -247,7 +482,18 @@ iOS 17에서 새로운 벨소리 24개와 알림음 11개가 추가됐다니, �
 
 ![옵션 이미지](/assets/img/2024-07-13-ChangeThese12iOS17SettingsRightNowForaSuperiorExperience_14.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **#10. AirPods에서 전화 음소거 및 해제**
 
@@ -257,7 +503,18 @@ iOS 17에서 새로운 벨소리 24개와 알림음 11개가 추가됐다니, �
 
 Digital Crown을 한 번 또는 두 번 누르기만 하면 쉽게 음소거와 음소거 해제를 바꿀 수 있습니다. 멋지죠!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Link to the image](/assets/img/2024-07-13-ChangeThese12iOS17SettingsRightNowForaSuperiorExperience_15.png)
 
@@ -269,7 +526,18 @@ Digital Crown을 한 번 또는 두 번 누르기만 하면 쉽게 음소거와 
 
 # #11. 메시지앱에서 앱-혼잡 정리하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! iOS 16 때는 모든 앱이 Messages 확장 기능을 사용할 때는 모두 Messages에 위치했죠. 이런 식으로요:
 
@@ -279,7 +547,18 @@ Digital Crown을 한 번 또는 두 번 누르기만 하면 쉽게 음소거와 
 
 하지만 이제 Apple이 일반적으로 사용하지 않는 확장 기능을 숨길 수 있게 해줬어요. 제가 그걸 어떻게 했는지 알려드릴게요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Settings ⚙️에서 Messages 💬로 이동하고 iMessage Apps를 선택하세요.
 
@@ -289,7 +568,18 @@ Settings ⚙️에서 Messages 💬로 이동하고 iMessage Apps를 선택하�
 
 # #12. Watch에 핑 보내세요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 iPhone을 자주 잃어버리지만 Apple Watch는 그렇지 않다면, watchOS의 제어 센터에서 iPhone을 찾을 수 있습니다.
 
@@ -299,7 +589,18 @@ Settings ⚙️에서 Messages 💬로 이동하고 iMessage Apps를 선택하�
 
 다행히도, iOS 17으로 Apple Watch가 근처에 있을 때 이제 Apple Watch를 찾을 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제가 제어 센터에 이 옵션을 추가했어요:
 
@@ -309,7 +610,18 @@ Settings ⚙️에서 Messages 💬로 이동하고 iMessage Apps를 선택하�
 
 가장 좋은 점은, 제가 찾으면 삐 소리가 자동으로 멈춰준다는 거죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 마침내,
 

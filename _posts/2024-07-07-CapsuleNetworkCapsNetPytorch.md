@@ -3,17 +3,13 @@ title: "2024 최신 Capsule Network CapsNet PyTorch 사용법"
 description: ""
 coverImage: "/it-bada.github.io/assets/no-image.jpg"
 date: 2024-07-07 22:48
-ogImage: 
+ogImage:
   url: /it-bada.github.io/assets/no-image.jpg
 tag: Tech
 originalTitle: "Capsule Network | CapsNet Pytorch"
 link: "https://medium.com/@m-aliabbas/capsule-network-capsnet-pytorch-in-story-form-72a71cf89b55"
 isUpdated: true
 ---
-
-
-
-
 
 # 타로 전문가님 안녕하세요!
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 오늘은 타로 카드를 통해 좀 더 나은 해석을 찾아보려고 해요. 타로 카드를 통해 우리에게 어떤 메시지가 전달되는지, 함께 살펴보면 더 흥미로울 거예요. 이제 모두 함께 타로의 세계로 떠나볼까요? 함께 해 주세요!🔮✨
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이야기는 전통적인 합성곱 신경망(CNNs)의 한계에서 시작됩니다. CNNs는 이미지 인식 분야에서 혁신적인 발전을 이끌어냈지만 일부 작업에서는 애를 먹었습니다. 사진 속 고양이를 인식하려고 상상해보세요. CNN은 고양이의 특징 – 귀, 눈, 수염 – 을 확인할 수 있지만 풀링 계층에 의존하다 보니 이들의 공간적 관계를 잃어버립니다. 이로 인해 고양이가 비정상적인 자세에서나 다른 각도에서 나타날 때 네트워크가 실패하게 됩니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 Capsule Networks는 간단하지만 중요한 원리에 기반합니다: 뉴런이 스칼라 값을 출력하는 대신, 카프슐은 벡터를 출력합니다. 이러한 벡터는 특징의 존재뿐만 아니라 방향, 위치, 크기와 같은 특성도 나타냅니다. 카프슐을 작은 뉴런 팀으로 생각해보세요. 이들은 함께 일해 특징을 더 자세히 이해하려고 노력하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 실제 마법은 동적 라우팅 메커니즘에 있습니다. CNN이 공간 불변성을 달성하기 위해 풀링 레이어를 사용하는 반면, CapsNets는 공간적 계층 구조를 보존하기 위해 동적 라우팅을 채택합니다. 한 층의 캡슐이 다음 층의 캡슐의 출력을 예측할 때, 네트워크는 예측이 얼마나 일치하는지에 따라 연결 강도를 반복적으로 조절합니다. 이 일치에 의한 라우팅은 부분과 전체 사이의 복잡한 관계를 유지하도록 CapsNets에게 가능하게 합니다.
 
@@ -43,7 +61,18 @@ Capsule Networks은 빠르게 잠재력을 발휘했습니다. CapsNets는 공�
 
 게다가, CapsNets는 시각적으로 다양한 관점과 자세에 대한 강인함을 보였습니다. 물체가 뒤집혀 나타나거나 이상한 각도로 나타난 경우에도 CapsNets는 정확하게 인식할 수 있었습니다. 이 능력은 머신이 사람처럼 세계를 더 깊고 유연하게 이해하며, 시각적 정보에 대해 더 깊은 이해를 제공할 수 있는 미래를 예고했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 도전 과제: 높은 곳을 극복하라
 
@@ -53,7 +82,18 @@ Capsule Networks은 빠르게 잠재력을 발휘했습니다. CapsNets는 공�
 
 ## 전진의 길: 격차를 좁히다
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 카프슐 네트워크는 지능 있는 기계를 위한 모험에서 큰 발걸음을 나아가고 있습니다. 아직 초기 단계에 있는 이들의 여정은 그들이 지니는 잠재력은 확실합니다. 연구가 진행됨에 따라, 이들이 직면한 도전에 대한 해결책을 볼 수 있을 것으로 기대됩니다. 하드웨어의 혁신, 최적화 기술, 그리고 혼합 아키텍처의 혁신은 카프슐 네트워크를 AI 도구상자의 필수품으로 만들 수 있을 것입니다.
 

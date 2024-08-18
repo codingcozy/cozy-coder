@@ -3,17 +3,13 @@ title: "NgModule을 찾을 수 없어요 skip-import 옵션으로 NgModule에 �
 description: ""
 coverImage: "/issue-truck.github.io/assets/no-image.jpg"
 date: 2024-07-10 01:01
-ogImage: 
+ogImage:
   url: /issue-truck.github.io/assets/no-image.jpg
 tag: Tech
 originalTitle: "Could not find an NgModule. Use the skip-import option to skip importing in NgModule"
 link: "https://medium.com/@fixitblog/solved-could-not-find-an-ngmodule-use-the-skip-import-option-to-skip-importing-in-ngmodule-bde455791dcd"
 isUpdated: true
 ---
-
-
-
-
 
 이 게시물 제목에 있는 오류를 해결하려고 할 때 CLI를 사용하여 새 컴포넌트를 생성하는 경우 ng g c my-component --project=my-project(컴포넌트가 생성되지 않음) 오류가 발생합니다.
 
@@ -41,7 +37,18 @@ isUpdated: true
 - webpack 4.8.3
 - nrwl/nx 6.1.0
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 업데이트 #1
 
@@ -51,12 +58,21 @@ isUpdated: true
 
 마침내 `node_modules`를 완전히 삭제하고 yarn 캐시를 비우고 모든 패키지를 재설치하기 위해 yarn을 실행했습니다. 또한 모든 애플리케이션 및 라이브러리에 대해 경로가 아래와 같이 보이도록 angular.json 파일을 수정했습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "root": "libs/my-lib",
 "sourceRoot": "libs/my-lib/src"
-
 
 그 중 어떤 것이 문제를 해결했는지 정확히는 모르겠지만, 모든 것이 지금 괜찮아 보입니다. 적어도 당장의 문제는 해결된 것 같네요.
 
@@ -64,7 +80,17 @@ isUpdated: true
 
 답변 확인자: Senaida (FixIt 자원봉사자)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 답변은 stackoverflow에서 수집되었으며, cc by-sa 2.5, cc by-sa 3.0 및 cc by-sa 4.0 의 라이센스를 따릅니다.

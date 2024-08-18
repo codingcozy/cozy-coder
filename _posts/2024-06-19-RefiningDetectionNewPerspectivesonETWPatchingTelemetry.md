@@ -3,17 +3,13 @@ title: "탐지 개선 ETW 패치 텔레미트리에 대한 새로운 관점"
 description: ""
 coverImage: "/assets/img/2024-06-19-RefiningDetectionNewPerspectivesonETWPatchingTelemetry_0.png"
 date: 2024-06-19 09:11
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-RefiningDetectionNewPerspectivesonETWPatchingTelemetry_0.png
 tag: Tech
 originalTitle: "Refining Detection: New Perspectives on ETW Patching Telemetry"
 link: "https://medium.com/@jsecurity101/refining-detection-new-perspectives-on-etw-patching-telemetry-e6c94e55a9ad"
 isUpdated: true
 ---
-
-
-
-
 
 # 소개
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이전 글에서 언급했듯이, 이벤트 발생을 막는 일반적인 방법 중 하나는 ntdll 함수인 특히 EtwEventWrite 또는 NtTraceEvent에 초점을 맞추는 것이야. 이를 수행하는 단계는 다음과 같아:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - DLL 로딩: 이미 로드되지 않은 경우, 함수를 패치하고 싶은 DLL을 로드하세요.
 - 함수 포인터 획득: 원하는 함수에 대한 함수 포인터를 가져오세요.
@@ -55,7 +62,18 @@ Protect: 00000020 PAGE_EXECUTE_READ
 Type: 01000000 MEM_IMAGE
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 내용은 코드가 읽히고 실행되지만 작성되지는 않음을 의미합니다. 따라서 이러한 함수 중 하나를 수정할 때 보호 값이 변경되어야 합니다. 일반적으로 PAGE_EXECUTE_READWRITE (0x40/60)로 변경하여 VirtualProtect를 사용합니다. VirtualProtect 작업 이전에 수집된 텔레메트리는 함수 패치의 신뢰할 수 있는 지표가 아닐 수 있습니다. VirtualProtect 작업조차 직접적인 함수 패치를 나타내지는 않습니다. 그러나 VirtualProtect에 대한 텔레메트리 데이터가 있는 경우, 해당 메타데이터에서 함수 패치가 발생했는지 추측하는 데 충분한 맥락을 제공할 수 있습니다.
 
@@ -65,7 +83,18 @@ ETW 위협 인텔리전스 프로바이더 내에는 THREATINT_PROTECTVM_LOCAL (
 
 더 깊이 조사한 결과로 메모리 영역의 보호 수준을 변경하는 경우에 대한 이벤트가 있음을 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사전 패치: 보호 값이 PAGE_EXECUTE_READ(0x20)에서 PAGE_EXECUTE_READWRITE(0x40)로 변경되었습니다.
 
@@ -79,7 +108,18 @@ ETW 위협 인텔리전스 프로바이더 내에는 THREATINT_PROTECTVM_LOCAL (
 - Last ProtectionMask — 값이 PAGE_EXECUTE_READ에서 변경되었음을 나타냅니다.
 - Callstack — VirtualProtect가 호출된 것을 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 포스트 패치: 페이지 보호 값을 PAGE_EXECUTE_READWRITE(0x20)에서 PAGE_EXECUTE_READ(0x40)으로 변경합니다.
 
@@ -89,7 +129,18 @@ ETW 위협 인텔리전스 프로바이더 내에는 THREATINT_PROTECTVM_LOCAL (
 
 이제 아마도 당신은 생각할 것입니다 — 실제 바이트 패치는 어떻게 할까요? 처음에는 WriteProcessMemory 함수가 작동할 것이라고 생각했지만, C 함수를 호출할 때 — memcpy/memmove 함수가 실제로 WriteProcessMemory를 호출하지 않는다는 사실을 깨달았습니다. 원격 패치에 대해 아래에서 계속 탐구할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 탐지 아이디어:
 
@@ -100,7 +151,18 @@ ETW 위협 인텔리전스 프로바이더 내에는 THREATINT_PROTECTVM_LOCAL (
 
 2. 이벤트 ID 7을 수집합니다: Local Virtual Protect — ProtectionMask 복원
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 누군가가 보호 값을 다시 원래 값으로 변경할 필요는 없지만, 일반적으로 그렇게 하는 것이 좋습니다. 보호 마스크를 더 엄격한 0x20에서 0x40로 변경한 다음 다시 0x20으로 변경되는 것을 보면 꽤 의심스럽습니다. 따라서 동일한 메모리 주소에서 보호 마스크가 계속 왔다갔다 하면 2 EID 7을 검사하는 것이 높은 결과를 얻을 수 있을 것입니다.
 
@@ -110,7 +172,18 @@ ETW 위협 인텔리전스 프로바이더 내에는 THREATINT_PROTECTVM_LOCAL (
 
 ![이미지](/assets/img/2024-06-19-RefiningDetectionNewPerspectivesonETWPatchingTelemetry_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금, 우리는 NtProtectVirtualMemory가 두 번 호출된 것을 볼 수 있습니다. 한 번은 보호 값을 PAGE_READWRITE(0x04)로 변경하고 다시 원래 값으로 변경하기 위해 호출됩니다. 차이점은 NtWriteVirtualMemory가 호출된다는 것입니다. TelemetrySource 내부에서 event ID 14로 이어진다는 것을 알 수 있습니다. 이것을 살펴보겠습니다:
 
@@ -120,7 +193,18 @@ ETW 위협 인텔리전스 프로바이더 내에는 THREATINT_PROTECTVM_LOCAL (
 
 # 탐지 아이디어:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이벤트 ID 2를 수집하세요: 원격 가상 보호 — 초기 ProtectionMask 변경
 
@@ -130,7 +214,18 @@ ETW 위협 인텔리전스 프로바이더 내에는 THREATINT_PROTECTVM_LOCAL (
 
 - 누군가는 보호 값을 원래 값으로 되돌릴 필요는 없지만, 이는 일반적인 관행입니다. 보호 마스크가 0x20처럼 더 많이 잠긴 마스크에서 0x40로 변경되고 다시 0x20으로 돌아가는 것을 보는 것은 상당히 수상합니다. 따라서 동일한 메모리 주소의 보호 마스크가 그렇게 왔다갔다하는 2개의 EID 2를 주시하면 높은 결과를 얻을 수 있을 겁니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 이벤트 ID 14를 수집하세요: 프로세스 메모리 쓰기 - 패치용 바이트를 기록
 
@@ -141,7 +236,18 @@ ETW 위협 인텔리전스 프로바이더 내에는 THREATINT_PROTECTVM_LOCAL (
 
 이 포스트에서는 ETW 패칭 및 이 활동을 관찰하는 실용적인 접근 방식을 간단히 탐색하고자 했습니다. 로컬 패칭이 원격 패칭보다 훨씬 더 흔합니다. 유감스럽게도, memcpy와 memmove는 WriteProcessMemory를 호출하지 않기 때문에 로컬에서 실제 패치를 식별하는 것은 매우 어렵습니다. 그러나 패치가 발생할 메모리 영역의 보호 마스크에 대한 변경을 감지하는 것은 여전히 좋은 지표로 남아 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 보호 마스크가 읽기/실행에서 읽기/쓰기/실행으로 변경되는 것은 흔하지 않습니다. 또한, 이러한 이벤트에서 바뀌는 바이트 수는 보통 다른 일반적인 VirtualProtect 이벤트보다 낮습니다. 일반적으로 4096바이트 이상이 관련된 것들이 대부분입니다. RemotePatcher에서 볼 수 있듯이, 누군가가 4096바이트 메모리 영역의 보호 값 변경을 위해 조용히 하는 경우가 있습니다.
 

@@ -3,17 +3,13 @@ title: "Angular와 React의 차이점 2024년 최신 비교"
 description: ""
 coverImage: "/assets/img/2024-07-10-DifferencebetweenAngularandReact_0.png"
 date: 2024-07-10 00:48
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-10-DifferencebetweenAngularandReact_0.png
 tag: Tech
 originalTitle: "Difference between Angular and React"
 link: "https://medium.com/@frontendinterviewquestions/difference-between-angular-and-react-cf05cc764419"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-07-10-DifferencebetweenAngularandReact_0.png" />
 
@@ -26,21 +22,32 @@ Angular과 React는 모두 인기있는 JavaScript 프레임워크로, 웹 애�
 - 학습 곡선: Angular는 React에 비해 상대적으로 더 가파른 학습 곡선을 가지고 있습니다. 더 큰 API 표면적을 갖고 있으며, 모듈, 서비스 및 의존성 주입과 같은 개념을 소개하여 이를 이해하는 데 시간이 걸릴 수 있습니다. React는 더 작은 라이브러리이므로 비교적 쉬운 학습 곡선을 가지며 재사용 가능한 컴포넌트 개념에 초점을 맞춥니다.
 - 렌더링 방식: Angular는 UI와 데이터의 변경 사항이 자동으로 동기화되는 양방향 데이터 바인딩 접근 방식을 따릅니다. 변경 사항을 감지하고 뷰를 업데이트하기 위해 "digest cycle"이라는 개념을 사용합니다. 반면 React는 가상 DOM(실제 DOM의 가볍게된 표현)을 사용하며 단방향 데이터 흐름을 따릅니다. 가상 DOM과 실제 DOM을 비교하여 UI의 필요한 부분만 효율적으로 업데이트합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Angular과 React를 비교하는 간단한 예제를 살펴봅시다:
 
 Angular 예제:
 
 ```js
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 
 @Component({
-  selector: 'app-counter',
+  selector: "app-counter",
   template: `
     <button (click)="increment()">Increment</button>
     <p>Count: { count }</p>
-  `
+  `,
 })
 export class CounterComponent {
   count: number = 0;
@@ -52,10 +59,21 @@ export class CounterComponent {
 
 React 예제:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 function CounterComponent() {
   const [count, setCount] = useState(0);
@@ -77,7 +95,18 @@ function CounterComponent() {
 
 이러한 예제는 앵귤러와 리액트 사이의 일부 구문 및 아키텍처적 차이를 강조하지만, 두 프레임워크에는 더 많은 기능이 있으며, 프로젝트의 특정 요구 사항과 선호도에 따라 선택이 달라질 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # React에 비해 Angular의 장점 및 예제 :
 
@@ -91,21 +120,32 @@ Angular는 React보다 여러 가지 장점을 제공합니다. 여기에 Angula
 
 다음은 Angular의 장점을 보여주는 예제입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 한국어로 번역된 내용입니다:
 
 앵귤러 예제:
 
 ```js
-import { Component, Input } from '@angular/core';
+import { Component, Input } from "@angular/core";
 
 @Component({
-  selector: 'app-greeting',
+  selector: "app-greeting",
   template: `
     <h1>Welcome, { name }님!</h1>
     <p>오늘은 { getCurrentDate() } 입니다.</p>
-  `
+  `,
 })
 export class GreetingComponent {
   @Input() name: string;
@@ -119,7 +159,18 @@ export class GreetingComponent {
 
 React도 유사한 기능을 달성할 수 있지만, 앵귤러의 의존성 주입, 라우팅, 테스트 지원과 같은 내장 기능은 개발을 간소화하고 생산성을 높일 수 있습니다. 특히 이러한 기능이 일반적으로 필요한 대규모 애플리케이션 개발에서 앵귤러는 특히 유용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Angular과 React 중 선택하는 것은 프로젝트 요구 사항, 팀의 전문 지식, 그리고 개인적인 선호도와 같은 여러 요소에 따라 달라집니다. React의 유연성과 활성화된 생태계는 작은 혹은 더 맞춤형 프로젝트에 적합할 수 있으며, Angular의 단정적인 방식과 포괄적인 기능 세트는 대규모 기업 애플리케이션에 유리할 수 있습니다.
 
@@ -133,7 +184,18 @@ Angular과 React 중 선택하는 것은 프로젝트 요구 사항, 팀의 전�
 
 React의 장점을 보여주는 간단한 예시가 여기 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 리액트 예시:
@@ -158,6 +220,17 @@ function CounterComponent() {
 
 결론:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앵귤러는 더 다양한 솔루션을 제공하지만, 리액트의 유연성, 성능 최적화, 자바스크립트 생태계와의 호환성, 그리고 크로스 플랫폼 기능은 특히 세밀한 제어와 가벼운 솔루션을 원하는 작거나 맞춤형 프로젝트에 대한 인기를 끌고 있습니다. 최종적으로, 리액트와 앵귤러 사이의 선택은 구체적인 요구사항, 프로젝트 규모, 개발 팀의 전문성, 그리고 개인적인 선호도에 따라 다릅니다.

@@ -3,17 +3,13 @@ title: "물감을 만들어보세요"
 description: ""
 coverImage: "/assets/img/2024-06-19-MakeYourOwnWatercolorPaint_0.png"
 date: 2024-06-19 06:08
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-MakeYourOwnWatercolorPaint_0.png
 tag: Tech
 originalTitle: "Make Your Own Watercolor Paint"
 link: "https://medium.com/the-diy-diaries/make-your-own-watercolor-paint-26b185f55d90"
 isUpdated: true
 ---
-
-
-
-
 
 ## DIY / ART
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 몇 년 전에 이츠리에서 수제 수채화물감을 사서, 수채화 물감 레시피에 대해 연구해 왔어요. 그 수채화 물감 중 일부가 아직도 있고 그것을 아주 좋아해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제 궁금증은 항상 일어납니다. 무언가를 사는 대신에 직접 만들 수도 있다는 것을 깨달을 때 말이죠. 항상 성공하는 것은 아니지만, 시도하는 것이 재미 있어요.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 이 기사의 제목 이미지는 아래 DIY 수채화 페인트 레시피를 사용한 두 가지 예시를 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하루 마무리할 때, 이 레시피는 절대적인 것이 아닙니다. 여러분의 변형은 나열된 재료들 중 어느 것이든 더 많거나 더 적게 필요할 수 있습니다. 자유롭게 시도해보세요. 무엇이 잘 작용하는지 확인해보세요.
 
@@ -43,11 +61,33 @@ isUpdated: true
 
 - 식용색소
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 Markdown 형식으로 변경하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1큰술 물
 
@@ -57,7 +97,18 @@ isUpdated: true
 
 재료를 섞는 방법:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 베이킹 소다를 그릇에 넣고 식초를 추가하세요. 이 작업은 과학 실험처럼 거품이 일어날 거에요, 그러니 거품이 잘 포옹될 수 있도록 충분히 큰 그릇을 사용해 주세요.
 
@@ -67,7 +118,18 @@ isUpdated: true
 
 저어주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 옥수수 전분을 넣어주세요.
 
@@ -77,7 +139,18 @@ isUpdated: true
 
 믹스 1 TBS 당 식품 염색약을 최소 2방울씩 넣어주세요. 그러나 선택은 여러분의 몫이에요. 더 많은 식품 염색약을 추가하면 더 짙은 색조를 얻을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 젤 식용색소도 괜찮아요. 케이크 데코용 젤을 시도해봤는데 잘 작동하지 않았어요. 저는 액체 식용색소를 선호해요.
 
@@ -87,7 +160,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-19-MakeYourOwnWatercolorPaint_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 미물을 몇 시간마다 섞어주어야 할 거에요 - 하루에 세 번정도인 거 같아요.
 
@@ -97,7 +181,18 @@ isUpdated: true
 
 이 동영상을 만들어서 페인트 만드는 모습을 시청하고 싶다면 보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 그림칠 시간
 
@@ -107,7 +202,18 @@ isUpdated: true
 
 이를 시도해 보거나 다른 집에서 만든 페인트 레시피를 시도해 본 적이 있다면 알고 싶습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 팁:
 
@@ -117,6 +223,17 @@ isUpdated: true
 
 # 온라인에서 저에게 방문해주세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 유튜브 | 에츠이 | 웹사이트 | 티퍼블릭

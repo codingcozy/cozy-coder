@@ -3,17 +3,13 @@ title: "지그피니티 올인원 그리드핀티티 자석 베이스플레이�
 description: ""
 coverImage: "/assets/img/2024-06-19-JIGFINITYAll-in-OneGridfinityMagnetBaseplateBinJig_0.png"
 date: 2024-06-19 17:35
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-JIGFINITYAll-in-OneGridfinityMagnetBaseplateBinJig_0.png
 tag: Tech
 originalTitle: "JIGFINITY: All-in-One Gridfinity Magnet Baseplate Bin Jig"
 link: "https://medium.com/@robosquiggles/jigfinity-all-in-one-gridfinity-magnet-baseplate-bin-jig-f25ed1b9f9ad"
 isUpdated: true
 ---
-
-
-
-
 
 ## 3D 프린팅 열광가 여러분 환영합니다! 새로운 바구니와 베이스플레이트를 접착하는 간단한 방법!
 
@@ -37,7 +33,18 @@ isUpdated: true
   - Gridfinity 바구니 조립
 - 즐거운 정리하세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 개발에 관심이 있는 사람이라면, Gridfinity: "작업실을 위한 모듈식 오픈 소스 그리드 저장 시스템"이라고 들어봤을 것입니다. 지금까지 듣지 못했다면, 그렇다면 여러분에게 선물이 있어요! 더 많은 정보를 여기에서 찾거나 Gridfinity 발명가인 Zach Freedman의 이 비디오에서 볼 수 있어요:
 
@@ -47,7 +54,18 @@ isUpdated: true
 
 그리고 만약 자석 구멍을 정확하게 3D 프린트하지 않으면, 자석을 베이스와 바인에 슈퍼글루로 고정해야 합니다. 저처럼 슈퍼글루를 섬세하게 다루지 못한다면, 바인, 베이스 플레이트, 부품들이 여러분의 손가락에 붙어서 추가적인 흩어짐이 발생할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마찬가지로 다른 사람들이 디자인한 여러 3D 프린팅 자석 지그를 시도해 보았는데, 위에 언급된 모든 방출 시나리오를 방지하기 위해 만들어졌습니다. 그리고 대부분이 상당히 잘 작동합니다. 하지만 접착과 압착 작업을 마치면, 그 지그를 어디에 놓아야 할까요? 제가 프린팅한 지그의 수보다 더 많은 지그를 어떻게든 잃어버렸습니다!
 
@@ -58,7 +76,18 @@ isUpdated: true
 - 빈과 베이스 플레이트의 자석 접착 작업을 돕는 지그 (지그에서 찾기 어려운 것 중 하나 - 대부분이 빈들만을 위해 만들어진 것 같습니다)
 - 사용하지 않을 때는 내 Gridfinity 시스템 안에 쌓을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # JIGFINITY 시작!
 
@@ -68,8 +97,18 @@ JIGFINITY를 사용하면 붙이고, 누르고, 쌓고, 보관할 수 있어요.
 
 JIGFINITY는 그 자체로 2u Gridfinity bin이기 때문에 사용이 끝나면 Gridfinity 시스템에 소형으로 쌓을 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Jigfinity All-in-One Gridfinity Magnet Baseplate Bin Jig 1](/assets/img/2024-06-19-JIGFINITYAll-in-OneGridfinityMagnetBaseplateBinJig_1.png)
 
@@ -79,8 +118,18 @@ JIGFINITY는 그 자체로 2u Gridfinity bin이기 때문에 사용이 끝나면
 
 ## - Download -
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 흔들림 없는 설치를 위해, 먼저 3D 모델을 다운로드하고 출력해야 합니다. 아래에서 좋아하는 사이트를 선택해 주세요:
 
@@ -92,7 +141,18 @@ JIGFINITY는 그 자체로 2u Gridfinity bin이기 때문에 사용이 끝나면
 
 Jigfinity는 세 개의 작은 부분으로 출력됩니다: bin-jig, base-jig, 그리고 magnet-holder입니다. 꼭 두 개(또는 그 이상)씩 출력하여 최고의 쌓기 가능성을 경험해 보세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-JIGFINITYAll-in-OneGridfinityMagnetBaseplateBinJig_3.png" />
 
@@ -104,7 +164,18 @@ Jigfinity는 세 개의 작은 부분으로 출력됩니다: bin-jig, base-jig, 
 
 # 지그피니티 조립하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 재료:
 
@@ -117,8 +188,18 @@ Jigfinity는 세 개의 작은 부분으로 출력됩니다: bin-jig, base-jig, 
 
 기존 Gridfinity 자석 베이스 또는 Bin을 사용합니다. 특히 초강력 접착제를 사용할 때 이 방법은 권장되지 않을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Method 1](/assets/img/2024-06-19-JIGFINITYAll-in-OneGridfinityMagnetBaseplateBinJig_4.png)
 
@@ -128,8 +209,18 @@ Using another Jigfinity. This method is recommended if you are particularly mess
 
 ![Method 2](/assets/img/2024-06-19-JIGFINITYAll-in-OneGridfinityMagnetBaseplateBinJig_5.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 방법 3
 
@@ -139,7 +230,18 @@ Using another Jigfinity. This method is recommended if you are particularly mess
 
 ## 방법 4
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지그가 없이. 이 방법은 자석이 있는 Gridfinity 아이템이 없는 경우에만 권장됩니다. 자석을 모두 같은 극 방향으로 설치하는 데 주의하세요! 비트/레지 저격을 방지하세요!
 
@@ -155,7 +257,18 @@ Using another Jigfinity. This method is recommended if you are particularly mess
 - (필요한 경우 각 자석을 누릅니다.)
 - 베이스 지그를 들어올립니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-JIGFINITYAll-in-OneGridfinityMagnetBaseplateBinJig_7.png" />
 
@@ -171,7 +284,18 @@ Using another Jigfinity. This method is recommended if you are particularly mess
 
 <img src="https://miro.medium.com/v2/resize:fit:292/1*vrLx3Uoc8QtMerlCbsMBBQ.gif" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 행복한 정리하기!
 

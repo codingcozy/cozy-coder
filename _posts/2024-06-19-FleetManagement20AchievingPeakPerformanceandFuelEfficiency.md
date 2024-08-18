@@ -3,17 +3,13 @@ title: "차량 관리 20 최상의 성능과 연료 효율 달성하기"
 description: ""
 coverImage: "/assets/img/2024-06-19-FleetManagement20AchievingPeakPerformanceandFuelEfficiency_0.png"
 date: 2024-06-19 05:36
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-FleetManagement20AchievingPeakPerformanceandFuelEfficiency_0.png
 tag: Tech
 originalTitle: "Fleet Management 2.0: Achieving Peak Performance and Fuel Efficiency"
 link: "https://medium.com/@jvilleres3/fleet-management-2-0-achieving-peak-performance-and-fuel-efficiency-613a2fc2ade7"
 isUpdated: true
 ---
-
-
-
-
 
 운전자 훈련부터 원격 기술: 비용 절감과 가용성 향상에 대한 포괄적 접근
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 안녕하세요! 오늘은 플릿 관리 맥락에서 연료 소비에 대해 이야기할 것입니다. 대규모 플릿을 운영할 때는 서비스 수준 요구사항과 계약 의무를 충족하기 위해 그들의 가용성을 의식하는 것이 중요합니다. 저는 다양한 비즈니스에 서비스를 제공하고 필수적인 서비스를 제공하는 약 25,000대의 차량으로 구성된 플릿을 7년 이상 관리한 경험이 있습니다. 이러한 플릿을 관리하는 것은 각 차량에 대한 비용을 고려해야 하며, 서비스, 연료 소비, 수리 및 부품 조달을 위한 송장 관리 등 관리 업무를 포함합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 차량 관리의 중요성
 
@@ -36,7 +43,18 @@ isUpdated: true
 
 # 차량 관리에서의 연료 소비
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 연료 소비는 차량 운영에서 중요한 비용입니다. 효율적인 연료 관리는 상당한 비용 절감과 환경적 이점을 가져올 수 있습니다. 주요 측면은 다음과 같습니다:
 
@@ -48,7 +66,18 @@ isUpdated: true
 
 # 연료 효율성 향상 전략
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 연료 효율성 향상에는 기술, 교육 및 유지 보수의 결합이 필요합니다:
 
@@ -62,7 +91,18 @@ isUpdated: true
 
 운영 가용성은 차량이 사용 가능한 시간의 백분율입니다. 높은 운영 가용성은 다운타임을 최소화하고 생산성을 향상시킵니다. 주요 요소는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 예방 정비: 예상치 못한 고장을 예방하기 위한 정기적인 유지보수입니다.
 - 예비 부품 재고: 필수 예비 부품을 적절히 확보합니다.
@@ -78,7 +118,18 @@ isUpdated: true
 - 상세한 기록 유지: 차량 성능과 유지보수 이력에 대한 포괄적인 기록을 유지합니다.
 - 플리트 활용 최적화: 차량의 균형 잡힌 사용을 보장하여 특정 자산의 과도한 사용을 피합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 차량 관리를 위한 기술과 도구
 
@@ -91,7 +142,18 @@ isUpdated: true
 
 ![차량 관리](/assets/img/2024-06-19-FleetManagement20AchievingPeakPerformanceandFuelEfficiency_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 사례 연구/예시
 
@@ -101,7 +163,18 @@ isUpdated: true
 
 배경: 3,000대의 차량을 관리하는 물류 회사가 입니다. 연간 디젤 연료 소비량이 800,000 리터에 대한 $1,000,000을 줄이기 위한 목표를 세웠습니다. 트럭, 밴, 자동차와 같은 다양한 차량 유형이 포함되어 있으며 각각이 다른 연료 효율 기준을 갖고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도전 과제:
 
@@ -114,7 +187,18 @@ isUpdated: true
 
 차량 태깅:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 기능 장애 또는 적절하지 않은 서비스 기록이 있는 차량을 식별하고 태그를 지정하여 최적 수준보다 더 많은 연료를 소비하는 차량을 식별했습니다.
 - 수리 및 정기 유지를 포함한 정정 조치를 시행하여 연료 효율성을 회복했습니다.
@@ -126,7 +210,18 @@ isUpdated: true
 
 차량 노후 관리:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 연료 효율 기준을 충족하지 못하는 오래된 차량을 식별하기 위한 평가를 실행했습니다.
 - 이러한 차량에 대해 교체하거나 더 자주 정기 점검을 예약하여 성능을 향상시켰습니다.
@@ -139,7 +234,18 @@ isUpdated: true
 
 결과:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 연료 절약: 연료 소비량을 15% 감소시켜 상당한 비용 절감을 이루었습니다.
 - 운영 효율성: 적극적인 유지보수를 통해 차량 성능을 향상시키고 다운타임을 줄였습니다.
@@ -151,7 +257,18 @@ isUpdated: true
 
 배송 서비스 회사는 500대의 차량을 보유하고 운영 가용성을 개선하려고 했습니다. 이는 서비스 수준 협약을 준수하고 고객 만족도를 유지하는 데 중요했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도전:
 
@@ -163,7 +280,18 @@ isUpdated: true
 
 예측 유지보수 프로그램:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 차량 문제가 발생하기 전에 잠재적인 문제를 예측하기 위해 텔레매틱스와 데이터 분석을 활용했습니다.
 - 예측적인 통찰력에 기반한 예방 정비 일정을 계획하여 예기치 못한 고장을 줄였습니다.
@@ -175,7 +303,18 @@ isUpdated: true
 
 효율적인 일정 관리:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 차량 사용 계획 및 균형을 위해 플릿 관리 소프트웨어 사용하였습니다.
 - 특정 차량의 과적재를 피하고, 플릿 전체에 걸친 마모를 균등하게 분배하였습니다.
@@ -187,7 +326,18 @@ isUpdated: true
 
 결과:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 운영 가능성: 20% 향상되어, 언제든지 더 많은 차량을 사용할 수 있게 되었습니다.
 - 다운타임 감소: 선행적인 유지보수로 인한 예상치 못한 고장이 줄어들어 더 부드러운 운영 가능해졌습니다.
@@ -204,7 +354,18 @@ isUpdated: true
 - 교육 및 매뉴얼: 새로운 운전자 교육을 위한 운영 매뉴얼을 개발하여 일관된 안전 운전 방법을 보장하고 오류를 최소화합니다.
 - 인센티브: 우수한 운전자 행동에 대한 경제적 인센티브나 인정을 통해 최상의 실천을 장려합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 전략들을 채택하고 기술을 활용함으로써, 차량 운영 관리자들은 연료 소비를 최적화하고 운영 가능성을 향상시키며 전체 차량 성능을 향상시킬 수 있습니다.
 

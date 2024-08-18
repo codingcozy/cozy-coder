@@ -3,17 +3,13 @@ title: "개발자들이 switch 문보다 if-else 문을 좋아하는 이유"
 description: ""
 coverImage: "/assets/img/2024-07-27-WhyDoMostProgrammersPreferif-elseThanswitch_0.png"
 date: 2024-07-27 14:05
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-27-WhyDoMostProgrammersPreferif-elseThanswitch_0.png
 tag: Tech
 originalTitle: "Why Do Most Programmers Prefer if-else Than switch"
 link: "https://medium.com/frontend-canteen/why-do-most-programmers-prefer-if-else-than-switch-718f397af4ec"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-07-27-WhyDoMostProgrammersPreferif-elseThanswitch_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Switch가 더 적합한 명백한 부분이 많은데, 개발자들이 if-else를 사용한다는 것이 제 궁금증을 자극했어요. 그래서 이 문제에 대해 연구하기로 결정했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 개발 프로세스
 

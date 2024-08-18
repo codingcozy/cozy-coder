@@ -3,16 +3,13 @@ title: "리눅스에서 Plank 설치 및 설정 방법"
 description: ""
 coverImage: "/assets/img/2024-07-06-InstallingandConfiguringPlankonLinux_0.png"
 date: 2024-07-06 10:49
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-06-InstallingandConfiguringPlankonLinux_0.png
 tag: Tech
 originalTitle: "Installing and Configuring Plank on Linux"
 link: "https://medium.com/@huzaifaqureshi037/installing-and-configuring-plank-on-linux-498731d2477c"
 isUpdated: true
 ---
-
-
-
 
 ![Installing and Configuring Plank on Linux Lite](/assets/img/2024-07-06-InstallingandConfiguringPlankonLinux_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 If you're looking to enhance your Linux Lite desktop experience with a sleek and lightweight dock, Plank is a great choice. In this guide, we'll walk you through the steps to install and configure Plank on Linux Lite, ensuring it runs on autostart in the background every time you log in.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 1: Plank 설치하기
 
@@ -33,7 +41,18 @@ Debian/Ubuntu 기반 Linux용 :
 sudo apt-get update
 sudo apt-get install plank
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Arch 기반 시스템에서 :
 
@@ -47,7 +66,18 @@ Fedora/CentOS/RHEL에서 :
 sudo dnf install plank
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 2: 설치 확인
 
@@ -57,7 +87,18 @@ plank
 
 화면 하단에 Plank 독이 나타나는 것을 확인하실 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 /assets/img/2024-07-06-InstallingandConfiguringPlankonLinux_2.png
 
@@ -67,7 +108,18 @@ Plank를 자동 시작하도록 만들기 위해 데스크톱 엔트리를 생�
 
 # 자동 시작 디렉토리 생성하기 (존재하지 않을 경우)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 mkdir -p ~/.config/autostart
 
@@ -77,7 +129,18 @@ nano ~/.config/autostart/plank.desktop
 
 # 파일에 다음 내용 추가하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [데스크톱 엔트리]
 타입=어플리케이션
@@ -88,7 +151,18 @@ nano ~/.config/autostart/plank.desktop
 
 X-GNOME-Autostart-enabled=true
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 Markdown 형식으로 테이블 태그를 변경해주세요.
 
@@ -97,7 +171,18 @@ X-GNOME-Autostart-enabled=true
 | Save the file and exit the editor (Ctrl+X, then Y, then Enter if you are using nano). |
 | # Make the Desktop Entry Executable |
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 chmod +x ~/.config/autostart/plank.desktop
@@ -109,7 +194,18 @@ Plank은 매우 사용자 정의가 가능합니다. 독을 마우스 오른쪽 
 # 단계 5: 자동 시작 확인
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로그아웃한 후 다시 로그인하거나 컴퓨터를 재시작하여 Plank가 자동으로 시작되도록 해보세요. 로그인 후 화면 하단에 Plank 독이 나타날 것입니다.
 
@@ -119,7 +215,18 @@ Plank가 자동으로 시작되지 않는 경우, 로그 파일을 검사하여 
 
 plank &
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -129,6 +236,17 @@ plank &
 
 저는 프리랜서 웹 및 앱 개발자입니다. 프로젝트가 있을 경우 developerhuzaifa@gmail.com으로 연락주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한, 제 포트폴리오 웹사이트를 확인해보세요: [https://www.developerhuzaifa.site](https://www.developerhuzaifa.site)

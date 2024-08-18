@@ -3,17 +3,13 @@ title: "LLM을 위한 의미론적 엔진을 어떻게 설계했나요 LLM 아�
 description: ""
 coverImage: "/assets/img/2024-06-19-HowwedesignoursemanticengineforLLMsThebackboneofthesemanticlayerforLLMarchitecture_0.png"
 date: 2024-06-19 01:52
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-HowwedesignoursemanticengineforLLMsThebackboneofthesemanticlayerforLLMarchitecture_0.png
 tag: Tech
 originalTitle: "How we design our semantic engine for LLMs? The backbone of the semantic layer for LLM architecture."
 link: "https://medium.com/wrenai/how-we-design-our-semantic-engine-for-llms-84a00e6e3baa"
 isUpdated: true
 ---
-
-
-
-
 
 트렌드 AI 에이전트의 등장은 비즈니스 인텔리전스 및 데이터 관리 분야를 혁신적으로 변화시켰습니다. 가까운 미래에는 여러 AI 에이전트가 배포되어 데이터베이스와 데이터 웨어하우스에 저장된 방대한 내부 지식을 활용하고 해석할 것입니다. 이를 용이하게 하기 위해서는 의미론적 엔진이 필수적입니다. 이 엔진은 데이터 스키마를 관련 비즈니스 맥락에 매핑하여 AI 에이전트가 데이터의 기저 의미를 이해할 수 있도록 합니다. 비즈니스 맥락에 대한 구조화된 이해를 제공함으로써 의미론적 엔진은 AI 에이전트가 특정 비즈니스 요구에 맞는 정확한 SQL 쿼리를 생성하고 정확하고 맥락에 맞는 데이터 검색을 보장할 수 있도록합니다.
 
@@ -23,7 +19,18 @@ AI 에이전트가 데이터베이스와 직접 대화할 수 있도록 하는 �
 
 그러나 데이터베이스로부터 맥락을 가진 스키마를 매핑하는 일은 간단한 작업이 아닙니다. 스키마와 메타데이터를 단순히 저장하는 것만으로 충분하지 않습니다. 데이터를 이해하고 처리하는 데 더 심층적으로 파고들어야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 의미론적 문맥의 부족
 
@@ -33,7 +40,18 @@ LLMs로부터 최적의 성능과 정확도를 얻으려면, 단순히 DDL과 �
 
 ## LLMs와 의미론적 인터페이스 정의의 부재
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전 섹션에서 언급한 것처럼 LLM이 계산, 지표, 관계 등의 복잡성을 이해할 수 있는 의미론적 맥락이 중요합니다. 아래에서 우리가 직면한 주제들을 일반화할 정의가 필요합니다.
 
@@ -43,7 +61,18 @@ LLMs로부터 최적의 성능과 정확도를 얻으려면, 단순히 DDL과 �
 
 그러나 현실 세계에서는 열이 보통 혼란스럽고, 수익은 rev라는 열 이름으로 설정될 수 있으며, rev1, pre_rev_1, rev2 등을 볼 수도 있을 것입니다. 의미론적 맥락 없이는 LLM이 이들이 무엇을 의미 하는지 알 방법이 없습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 메트릭
 
@@ -56,7 +85,18 @@ LLMs로부터 최적의 성능과 정확도를 얻으려면, 단순히 DDL과 �
 - 제품별 판매: 개별 제품 또는 제품 카테고리별로 분할된 판매 데이터.
 - 채널별 판매: 온라인, 소매, 도매 등 다양한 판매 채널별로 분할된 판매 데이터.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또 다른 예시로 고객 지표를 사용해보겠습니다:
 
@@ -69,7 +109,18 @@ LLMs로부터 최적의 성능과 정확도를 얻으려면, 단순히 DDL과 �
 
 의미론적 관계는 주 키와 외래 키와는 다르지만, 데이터베이스와 데이터 관리의 맥락에서 관련 있는 개념입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 의미 관계는 주로 실제 세계의 관계에 기반하여 데이터 간의 의미 있는 연결을 나타냅니다. 이러한 관계는 데이터 요소들이 단순히 기본 키(primary key)와 외래 키(foreign key)에 의해 제공되는 구조적 링크 이상의 개념적 상호 관련을 설명합니다. 예를 들어, 고객(Customers)과 주문(Orders) 테이블 사이의 의미 관계는 "고객이 여러 주문을 할 수 있다"로 설명될 수 있습니다. 이는 기술적 연결을 넘어 관계의 실제 의미를 포착합니다.
 
@@ -79,7 +130,18 @@ LLMs로부터 최적의 성능과 정확도를 얻으려면, 단순히 DDL과 �
 
 불안정한 SQL 생성 성능
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다양한 SQL 방양을 원활하게 처리할 수 있도록 여러 데이터 소스를 연결하고 LLMs가 다양한 소스 간의 성능 일관성을 보장함에는 상당한 어려움이 따릅니다. 데이터 소스의 수가 증가함에 따라 이 어려움은 더욱 부각됩니다. 일관성은 AI 시스템에 대한 신뢰를 구축하는 데 중요합니다. 안정적인 성능을 보장하는 것은 AI 솔루션의 전반적인 사용성과 신뢰성과 직결됩니다.
 
@@ -89,7 +151,18 @@ LLMs로부터 최적의 성능과 정확도를 얻으려면, 단순히 DDL과 �
 
 # 시맨틱 레이어의 출현
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다수의 데이터 소스에 직접 연결하는 것은 일관성과 성능 면에서 중요한 도전을 야기합니다. 더 효과적인 접근 방법은 LLM 사용 사례를 위한 의미론적 레이어를 구현하는 것입니다.
 
@@ -99,7 +172,18 @@ LLMs로부터 최적의 성능과 정확도를 얻으려면, 단순히 DDL과 �
 
 데이터셋의 도메인을 위한 온톨로지를 제공함으로써 LLM은 데이터를 제시하는 방법 뿐만 아니라 데이터가 무엇을 나타내는지에 대한 이해를 얻게 됩니다. 이를 통해 시스템은 데이터셋 내에 명시적으로 명시되지 않은 새로운 정보도 처리하고 추론할 수 있게 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-HowwedesignoursemanticengineforLLMsThebackboneofthesemanticlayerforLLMarchitecture_0.png" />
 
@@ -112,7 +196,18 @@ LLMs로부터 최적의 성능과 정확도를 얻으려면, 단순히 DDL과 �
 - 서로 다른 데이터 소스 간 일관성을 보장하는 표준화된 SQL 레이어 제공
 - 캡슐화된 비즈니스 논리를 적용하고 엔티티 간 복잡한 관계를 런타임에서 관리
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 의미론적 계층을 구현함으로써 AI 에이전트의 능력을 향상시킵니다. 이는 다양한 데이터 원본과 복잡한 비즈니스 맥락 간의 간극을 줄여 정확하고 일관된 통찰력을 제공할 수 있도록 돕습니다.
 
@@ -122,7 +217,18 @@ LLMs로부터 최적의 성능과 정확도를 얻으려면, 단순히 DDL과 �
 
 렌 엔진을 사용하여 '모델링 정의 언어'(MDL)를 정의했으며, 이를 통해 LLM에게 적절한 문맥과 의미론적 메타데이터를 제공하고 엔진은 다양한 사용자 페르소나 및 의미론적 데이터 모델링 방법을 기반으로 SQL을 다시 작성할 수 있습니다. 엔진을 사용하여 의미론적 계층에 속하는 엑세스 제어 및 거버넌스와 같은 솔루션을 구축할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 의미론적 데이터 모델링
 
@@ -132,7 +238,18 @@ LLMs로부터 최적의 성능과 정확도를 얻으려면, 단순히 DDL과 �
 
 MDL에서는 모델, 열, 뷰, 그리고 관계의 의미론적 명명과 설명을 손쉽게 정의할 수 있습니다. 의미론적 정의를 사용하면 LLM이 데이터 구조의 의미를 이해하는데 도움을 줄 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```json
 {
@@ -183,8 +300,18 @@ Wren Engine을 사용하면 "모델 정의 언어"로 시맨틱 표현을 설계
 
 <img src="/assets/img/2024-06-19-HowwedesignoursemanticengineforLLMsThebackboneofthesemanticlayerforLLMarchitecture_1.png" />
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 관계를 정의하는 간단한 예시입니다.
 
@@ -204,7 +331,18 @@ Wren Engine을 사용하면 "모델 정의 언어"로 시맨틱 표현을 설계
 - joinType: 관계의 유형. 일반적으로 2개의 모델 간에는 4종류의 관계가 있습니다: ONE_TO_ONE (1 대 1), ONE_TO_MANY (1 대 다), MANY_TO_ONE (다 대 1), MANY_TO_MANY (다 대 다).
 - condition: 두 모델 간의 조인 조건. Wren Engine은 SQL 생성 중 조인 조건을 담당합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모델에서 계산(식)을 추가할 때 사용자 정의 계산(식)도 추가할 수 있어요.
 
@@ -243,7 +381,18 @@ Wren Engine을 사용하면 "모델 정의 언어"로 시맨틱 표현을 설계
 
 계산에 관해서
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Wren Engine은 모델에서 계산을 정의하는 계산 필드를 제공합니다. 계산은 동일한 모델의 정의된 열 또는 관계를 통해 다른 모델의 관련 열을 사용할 수 있습니다. 일반적으로 공통 메트릭은 여러 다른 테이블에 관련이 있습니다. 계산된 필드를 통해 서로 다른 모델 간에 상호 작용하는 공통 메트릭을 정의하는 것이 쉽습니다.
 
@@ -279,7 +428,18 @@ Wren Engine은 모델에서 계산을 정의하는 계산 필드를 제공합니
 
 Macro 함수에 관해
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 매크로는 모델 정의 언어(MDL)의 템플릿 기능입니다. MDL을 간소화하거나 핵심 개념을 중앙 집중화하는 데 유용합니다. 매크로는 Jinja 사양을 따르는 JVM의 템플릿 엔진 인 JinJava에 의해 구현됩니다. 매크로를 사용하면 특정 매개변수를 사용하여 템플릿을 정의하고 모든 표현식에서 사용할 수 있습니다.
 
@@ -326,7 +486,18 @@ Macro 함수에 관해
 
 ## 표준 SQL 구문 지원
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Wren Engine은 내장된 SQL 프로세서와 변환기를 가지고 있습니다. Wren Engine을 통해 우리는 SQL을 파싱하고 WrenSQL 구문에서 표준 ANSI SQL과 호환되는 BigQuery, PostgreSQL, Snowflake 등과 같은 다른 방양으로 변환합니다.
 
@@ -334,7 +505,18 @@ Wren Engine은 내장된 SQL 프로세서와 변환기를 가지고 있습니다
 
 아래는 MDL 파일의 예시입니다 (Gist에서 확인해주세요): [Gist 링크](https://gist.github.com/...)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 쿼리를 제출하면
 
@@ -380,7 +562,7 @@ WITH
             )  "order_items"
         )  "order_items"
     )  "order_items"
-) 
+)
 , "payments" AS (
     SELECT
         "payments"."Installments" "Installments"
@@ -412,7 +594,7 @@ WITH
             )  "payments"
         )  "payments"
     )  "payments"
-) 
+)
 , "orders" AS (
     SELECT
         "orders"."ApprovedTimestamp" "ApprovedTimestamp"
@@ -505,13 +687,24 @@ WITH
         LEFT JOIN "payments" ON ("payments"."OrderId" = "orders"."OrderId"))
         GROUP BY 1
     )  "Sales" ON ("orders"."OrderId" = "Sales"."OrderId"))
-) 
+)
 SELECT *
 FROM
     orders
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 다양한 소스에서 일관된 액세스 제어 (계획)
 
@@ -523,7 +716,18 @@ FROM
 
 프로젝트를 실행할 때 자세한 내용을 공유할 예정이니 기대해주세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 오픈 및 스탠드얼론 아키텍처
 
@@ -533,7 +737,18 @@ Wren Engine은 오픈 소스로 제공되며 독립적인 의미 엔진으로 �
 
 # 최종 의견
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Wren Engine의 미션은 LLMs의 시맨틱 엔진으로서의 역할을 하여 시맨틱 레이어를 제공하고 BI 및 LLMs에 비즈니스 컨텍스트를 전달하는 것입니다. 우리는 엔진이 모든 애플리케이션 및 데이터 소스와 호환되도록 하는 오픈 커뮤니티를 구축하는 것을 믿습니다. 또한 개발자가 그 위에 자유롭게 AI 에이전트를 구축할 수 있는 아키텍처를 제공하는 것이 우리의 목표입니다.
 
@@ -543,7 +758,18 @@ WrenAI를 아직 확인하지 않았다면, 지금 확인해보세요!
 
 👉 GitHub: https://github.com/Canner/WrenAI
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 👉 X: https://twitter.com/getwrenai
 

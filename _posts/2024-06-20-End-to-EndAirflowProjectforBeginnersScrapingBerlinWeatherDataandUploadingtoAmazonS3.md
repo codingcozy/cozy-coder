@@ -3,17 +3,13 @@ title: "초보자를 위한 엔드 투 엔드 Airflow 프로젝트 베를린 날
 description: ""
 coverImage: "/assets/img/2024-06-20-End-to-EndAirflowProjectforBeginnersScrapingBerlinWeatherDataandUploadingtoAmazonS3_0.png"
 date: 2024-06-20 15:21
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-End-to-EndAirflowProjectforBeginnersScrapingBerlinWeatherDataandUploadingtoAmazonS3_0.png
 tag: Tech
 originalTitle: "End-to-End Airflow Project for Beginners: Scraping Berlin Weather Data and Uploading to Amazon S3"
 link: "https://medium.com/@soumyabhimakkanavar/end-to-end-airflow-project-for-beginners-scraping-berlin-weather-data-and-uploading-to-amazon-s3-6ff527c8776d"
 isUpdated: true
 ---
-
-
-
-
 
 파이썬 개발과 Apache Airflow에 열정을 가진 데이터 엔지니어로서, 베를린의 최신 날씨 데이터를 가져 와 CSV 파일로 저장하고 Amazon S3로 업로드하는 프로젝트를 시작했습니다. 이 튜토리얼에서는 Python, 웹 스크래핑을 위한 BeautifulSoup, 데이터 조작을 위한 Pandas, 그리고 오케스트레이션을 위한 Airflow를 사용한 전체 설정 및 구현 방법을 안내해 드릴 겁니다.
 
@@ -26,7 +22,18 @@ isUpdated: true
 - Amazon S3로 업로드: 날씨 데이터가 포함된 CSV 파일을 Amazon S3 버킷에 업로드하는 메커니즘을 구현합니다.
 - Airflow로 자동화: Apache Airflow를 사용하여 매 시간마다 데이터 가져오기와 업로드 프로세스를 자동화하고 예약합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 사용된 도구 및 기술
 
@@ -40,7 +47,18 @@ isUpdated: true
 
 # 1. 환경 설정하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Python이 설치되어 있고 필요한 라이브러리(requests, beautifulsoup4, pandas, AWS SDK의 boto3)가 함께 설치되었는지 확인하기 위해 다음 명령을 실행해주세요:
 
@@ -52,7 +70,18 @@ pip install requests beautifulsoup4 pandas boto3
 
 추출한 날씨 데이터를 Pandas를 사용하여 로컬 CSV 파일에 저장하세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 'Alex The Analyst' YouTube 채널에서 BeautifulSoup를 사용하여 스크랩을 배웠어요. 완성된 재생 목록을 확인해보세요.
 
@@ -116,7 +145,18 @@ def update_weather(**kwargs):
 
 # 3. Amazon S3로 업로드하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 boto3를 사용하여 CSV 파일을 Amazon S3에 업로드하는 기능을 구현한 것입니다:
 
@@ -150,7 +190,18 @@ def upload_to_s3(file_path, bucket_name, s3_key):
 
 docker-compose.yaml에 몇 가지 변경 사항이 있습니다. AWS 자격 증명과 requirements.txt 컨테이너를 업데이트하십시오.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 #변경 1
@@ -160,7 +211,7 @@ x-airflow-common:
   environment:
     &airflow-common-env
     PYTHONPATH: /opt/airflow/dags/airflow_env_bs/lib/python3.12/site-packages
- 
+
     #AWS_ACCESS_KEY_ID: your-access-key-id #값을 하드코딩
     #AWS_SECRET_ACCESS_KEY: your-secret-access-key #값을 하드코딩
     #AWS_REGION: eu-central-1 #값을 하드코딩
@@ -170,7 +221,7 @@ airflow-init:
     <<: *airflow-common
     entrypoint: /bin/bash
     command: >
-      -c "pip install -r /requirements.txt && airflow webserver" 
+      -c "pip install -r /requirements.txt && airflow webserver"
 ```
 
 # 5. Apache Airflow로 자동화하기
@@ -183,12 +234,23 @@ from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # DAG 정의
 DAG_NAME = 'berlin-weather'
-default_args = 
+default_args =
 {'owner': 'airflow',
 'depends_on_past': False,
 'start_date': datetime(2023, 6, 19),
@@ -218,7 +280,18 @@ Airflow 웹 서버를 열고 DAG를 실행하세요.
 
 <img src="/assets/img/2024-06-20-End-to-EndAirflowProjectforBeginnersScrapingBerlinWeatherDataandUploadingtoAmazonS3_0.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 DAG를 트리거한 후에 "current_weather_berlin.csv"라는 S3 Bucket을 확인해보세요. 거기에는 데이터 폴더가 있을 겁니다.
 
@@ -228,7 +301,18 @@ DAG를 트리거한 후에 "current_weather_berlin.csv"라는 S3 Bucket을 확�
 
 이 프로젝트에서는 Python을 사용하여 베를린 날씨 데이터를 가져오고 로컬에 저장하며 Amazon S3로 업로드하는 프로세스를 자동화하는 방법을 탐색했습니다. 이를 위해 웹 스크래핑용 BeautifulSoup, 데이터 처리용 Pandas, 그리고 워크플로우 자동화용 Apache Airflow를 사용했습니다. 이러한 단계를 따라가면 이 프로젝트를 적응하고 확장하여 보다 복잡한 데이터 파이프라인 및 통합을 처리할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제 Github 저장소를 확인하러 가보세요: Scraping-Berlin-Weather-Data-and-Uploading-to-Amazon-S3
 

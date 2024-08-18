@@ -3,17 +3,13 @@ title: "GPT-4o  최고의 생산성 비법 2024 최신 팁"
 description: ""
 coverImage: "/assets/img/2024-07-13-GPT-4oMy1SECRETProductivityTip_0.png"
 date: 2024-07-13 00:02
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-GPT-4oMy1SECRETProductivityTip_0.png
 tag: Tech
 originalTitle: "GPT-4o — My #1 SECRET Productivity Tip"
 link: "https://medium.com/@andrew_best/gpt-4o-my-1-secret-productivity-tip-654fefcc2c5b"
 isUpdated: true
 ---
-
-
-
-
 
 이 ChatGPT 팁을 거의 공유하고 싶지 않을 정도로 좋아요. 🤫
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # AI로 작성된 기사와의 투쟁 😡
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 저는 AI가 쓴 기사를 진짜 싫어해요. 전 절대로 그런 걸 쓰지 않아요. 다른 사람이 AI를 사용해서 쓴 걸 바로 알아차릴 수 있거든요. 😤
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 # 서식 설정의 고통 😖
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Medium 기사 또는 뉴스레터 이메일을 쓰는 것 중에서 제일 싫어하는 부분은 모든 포맷팅이다.
 
@@ -49,7 +67,18 @@ Medium 기사 또는 뉴스레터 이메일을 쓰는 것 중에서 제일 싫�
 
 # 해결책: ChatGPT의 메모리 기능 💡
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 무엇을 해야 할까요? 🤔
 
@@ -63,7 +92,18 @@ ChatGPT의 기억 기능을 활용하세요. 🤖
 - 소셜 미디어 링크: 기사 말미에 원하는 소셜 미디어 링크 모음을 공유했습니다. 🌐
 - 제휴 하이퍼링크: Beehiiv를 사용하는 이유에 대해 ChatGPT에게 설명하고 "Beehiiv"라는 단어를 제 제휴 링크와 하이퍼링크로 연결하도록 지시했습니다. 📨
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 만약 이 글을 즐기신다면, AI 성장 전문가 뉴스레터 👉 AI Growth Guys 뉴스레터 👈 도 좋아하실거에요!
 
@@ -73,7 +113,18 @@ ChatGPT에 모든 정보를 기억하도록 지시했어요.
 
 # 테스트 📝
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 시험이 시작됐어요...
 
@@ -83,7 +134,18 @@ ChatGPT에 모든 정보를 기억하도록 지시했어요.
 
 그리고 갑자기. 💥
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-07-13-GPT-4oMy1SECRETProductivityTip_1.png)
 
@@ -93,7 +155,18 @@ ChatGPT에 모든 정보를 기억하도록 지시했어요.
 
 Medium에 글을 쓰지 않더라도, 어떤 종류의 정기적 작업을 서식을 맞출 때에도 같은 개념을 사용할 수 있어요. 📑
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떤 문제가 발생하면 언제든지 ChatGPT와의 새로운 채팅을 열거나 ChatGPT가 이해한 내용을 명확히 하도록 요청할 수 있어요. 중요한 건 여러분이 이것을 조금 더 살펴보면 정말로 잘 작동한다는 거예요. 시간과 에너지를 많이 절약할 수 있답니다.
 
@@ -103,7 +176,18 @@ AI에 대해 더 알고 싶다면 저희 이메일 구독해주세요: AI 성장
 
 새 YouTube 채널을 확인해보세요: AI 성장가이즈 유튜브 📹
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Follow us at our website: **AI Growth Guys** 🌐
 
@@ -113,6 +197,17 @@ Follow us for free on Patreon: **AI Growth Guys Patreon** ❤️
 
 Follow us on X (Twitter): **AI Growth Guys X.com** 🐦
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-페이스북에서 저희를 팔로우해 주세요: Facebook AI Growth Guys  👍
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+페이스북에서 저희를 팔로우해 주세요: Facebook AI Growth Guys 👍

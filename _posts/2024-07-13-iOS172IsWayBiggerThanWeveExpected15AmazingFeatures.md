@@ -3,7 +3,7 @@ title: "iOS 172 예상보다 훨씬 더 큰 업데이트  15개의 놀라운 기
 description: ""
 coverImage: "/assets/img/2024-07-13-iOS172IsWayBiggerThanWeveExpected15AmazingFeatures_0.png"
 date: 2024-07-13 01:21
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-iOS172IsWayBiggerThanWeveExpected15AmazingFeatures_0.png
 tag: Tech
 originalTitle: "iOS 17.2 Is Way Bigger Than We’ve Expected — 15+ Amazing Features!"
@@ -11,17 +11,24 @@ link: "https://medium.com/macoclock/ios-17-2-is-way-bigger-than-weve-expected-15
 isUpdated: true
 ---
 
-
-
-
-
 **Apple is working on the new iOS updates in full swing!**
 
 Just a day after the release of iOS 17.1 to the public, we already have iOS 17.2 Developer Beta 1 with some truly impressive features that can greatly enhance our user experience.
 
 Stay tuned as I delve into all the exciting changes and features in this update, providing detailed descriptions on how they work and how they can simplify your daily life!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## iOS 17.2에서 무엇이 변했나요?
 
@@ -55,7 +62,18 @@ Apple이 개선하도록 도와주세요…
 
 저널은 Apple이 iOS 17과 함께 소개한 새로운 앱입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-07-13-iOS172IsWayBiggerThanWeveExpected15AmazingFeatures_1.png)
 
@@ -65,7 +83,18 @@ iOS 17.2가 나올 것 같아요.
 
 제 이름에서 알 수 있듯이 ‘Journal’은 Apple의 고유 한 일기 어플리케이션으로 일상 활동에서 지능적인 제안과 영감을 줄 수 있는 새로운 기능을 갖추고 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 더 자세한 내용은 아래를 참고해주세요
 
@@ -75,7 +104,18 @@ iOS 17.2가 나올 것 같아요.
 
 10년 만에 Apple이 Apple Books에 새로운 페이지 넘김 애니메이션을 추가하기 시작했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오늘은 흥미로운 소식을 가지고 왔어요.
 
@@ -86,11 +126,22 @@ iOS 17.2가 나올 것 같아요.
 
 페이지를 스와이프할 때, Fast Fade 효과는 페이지를 빠르게 사라지게 하고 즉시 인접한 페이지를 보여줄 거에요. 이는 페이지 애니메이션보다 책을 읽는 데 중점을 둔 사람들에게 좋은 소식일 거예요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지 태그를 다음과 같이 변경해주세요:
 
-![image](/assets/img/2024-07-13-iOS172IsWayBiggerThanWeveExpected15AmazingFeatures_3.png) 
+![image](/assets/img/2024-07-13-iOS172IsWayBiggerThanWeveExpected15AmazingFeatures_3.png)
 
 Fast Fade를 설정에서 '켜'로 변경하세요 ⚙️ < Books 📖 < 페이지 네비게이션.
 
@@ -98,21 +149,39 @@ Fast Fade를 설정에서 '켜'로 변경하세요 ⚙️ < Books 📖 < 페이�
 
 다크 모드일 때, 새로운 Books 기능이 흑백 이미지의 색을 반전시켜 대비를 높여 이해하기 쉽도록 도와줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 일반적으로 이미지가 보이는 방식은 이렇습니다:
 
-
 ![Image Description](/assets/img/2024-07-13-iOS172IsWayBiggerThanWeveExpected15AmazingFeatures_4.png)
-
 
 이것이 반전되었을 때의 모습입니다:
 
-
 ![Image Description](/assets/img/2024-07-13-iOS172IsWayBiggerThanWeveExpected15AmazingFeatures_5.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마법사들이여, 자동 이미지 반전 설정을 켜렴! ⚙️ < 책들 📖 < 페이지 이동.
 
@@ -122,7 +191,18 @@ Fast Fade를 설정에서 '켜'로 변경하세요 ⚙️ < Books 📖 < 페이�
 
 애플 뮤직이 iOS 17.2에서 협업 재생 목록을 지원합니다 — 이 기능은 스포티파이와 아마존 뮤직이 여러 해 동안 사용해온 것입니다. 🎶
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 To make a playlist collaborative, tap on the icon at the top-right corner:
 
@@ -132,7 +212,18 @@ This feature allows you to share the link to a playlist and invite friends to jo
 
 Passengers on CarPlay can use SharePlay to contribute to the playlist without needing an Apple Music subscription.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **최고의 점,**
 
@@ -141,7 +232,18 @@ Passengers on CarPlay can use SharePlay to contribute to the playlist without ne
 
 그리고 좋은 점은 플레이리스트 링크가 7일 후 만료되어 더 많은 사람들을 위해 새로운 링크를 생성해야 합니다. 🌟
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 이 플레이리스트에 협력해서 함께 만들어 보는 건 어때요? 만약 iOS 17.2를 사용 중이라면요.
 
@@ -151,7 +253,18 @@ Passengers on CarPlay can use SharePlay to contribute to the playlist without ne
 
 이제 여러분이 찜한 모든 노래들은 이제 Favourite Songs ⭐️라는 특별 플레이리스트에서 단독으로 만나보실 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image of a mysterious tarot card](/assets/img/2024-07-13-iOS172IsWayBiggerThanWeveExpected15AmazingFeatures_8.png)
 
@@ -163,13 +276,35 @@ Do you see the hidden messages in the playlist? Remember, in the realm of music,
 
 당신은 애플 뮤직의 익명 모드를 가지고 계시군요 - 주목 필터라는 형태로 말이죠. 설명해드릴게요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Settings에서 Settings에서 우측 상단 삼각형 아이콘을 클릭해주세요. 거기서 Focus를 찾아주세요. Focus에 들어가셔서 Add Filter를 선택해주세요. 여기서 Music을 선택하고 Listening History를 활성화시켜주세요. 이제 해당 Focus가 활성화되어 있을 때 재생하는 음악은 추천과 믹스에 영향을 미치지 않고, 최근 재생 목록에 표시되지 않으며, 다른 사람들이 Apple Music에서 볼 수 없게 됩니다.
 
 ![Image](/assets/img/2024-07-13-iOS172IsWayBiggerThanWeveExpected15AmazingFeatures_9.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다시 말해, 이것은 Apple Music을 위한 익명 모드와 같은 기능입니다.
 
@@ -179,17 +314,40 @@ Settings에서 Settings에서 우측 상단 삼각형 아이콘을 클릭해주�
 
 **iMessage 연락처 키 검증**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 It’s been already about a year since we first caught wind of iMessage Contact Key Verification. And now, it’s finally rolled out with the latest iOS 17.2 update! 🎉
 
 With this new feature, you can manually ensure the identity of the person you’re chatting with by comparing contact verification codes either in person or via FaceTime. 🔒
 
 Moreover, this nifty feature will also notify you in case:
+
 - A sneaky hacker manages to breach iCloud servers and sneak their device in to spy on your encrypted chats.
 - The other party texts you from a device that’s not registered on their Apple account, hinting at a possible hacker intrusion. 🕵️‍♂️
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-13-iOS172IsWayBiggerThanWeveExpected15AmazingFeatures_10.png" />
 
@@ -201,7 +359,18 @@ Moreover, this nifty feature will also notify you in case:
 
 ## #. 메시지에 스티커 추가하는 새로운 방법
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신은 이미 iMessage에 스티커를 놓아 넣어서 메시지에 붙일 수 있다는 걸 알고 계시죠. 앞으로는 이렇게 하시면 돼요:
 
@@ -212,7 +381,18 @@ Apple은 iOS 17.2로 이 과정을 조금 더 쉽게 만들었어요. 이제는
 - 메시지를 가볍게 눌러보세요,
 - '스티커 추가'를 탭하세요,
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지 태그를 Markdown 형식으로 변경해보세요.
 
@@ -222,7 +402,18 @@ Apple은 iOS 17.2로 이 과정을 조금 더 쉽게 만들었어요. 이제는
 
 ## #. Memoji 아바타를 위한 몸을 선택하세요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 Memoji 아바타의 본체를 선택할 수 있어요.
 
@@ -232,7 +423,18 @@ Apple은 iOS 17.2로 이 과정을 조금 더 쉽게 만들었어요. 이제는
 
 ## #. 세 가지 새로운 Memoji 포즈
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 Memoji의 옷과 몸을 바꾸고 있을 때, 세 가지 새로운 포즈를 발견했어요:
 
@@ -242,7 +444,18 @@ Apple은 iOS 17.2로 이 과정을 조금 더 쉽게 만들었어요. 이제는
 
 # #5 새 위젯
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 새 홈 화면 위젯 4개
 
@@ -252,7 +465,18 @@ Apple은 iOS 17.2로 이 과정을 조금 더 쉽게 만들었어요. 이제는
 
 첫 세 위젯은
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 세부 정보: 강수 확률, 자외선 지수, 바람 등을 확인하세요.
 - 일일 예보: 위치의 현재 날씨 조건과 일일 예보를 확인하세요.
@@ -264,7 +488,18 @@ Apple은 iOS 17.2로 이 과정을 조금 더 쉽게 만들었어요. 이제는
 
 날씨의 Lock Screen Wind 위젯이 iOS 17.2에서 새로운 모양으로 새롭게 선보입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Here are the changes made to the post:
 
@@ -276,7 +511,18 @@ Now, the cards have turned, revealing an even more precise path:
 
 ![Card](/assets/img/2024-07-13-iOS172IsWayBiggerThanWeveExpected15AmazingFeatures_17.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # #6. Apple Vision Pro에서 콘텐츠를 수신해보세요
 
@@ -284,9 +530,20 @@ iOS 안에서 'Apple Vision Pro'라는 이름을 처음 보는 것이네요. iPh
 
 iPhone을 AirPlay 수신기로 활용하여 Vision Pro에서 콘텐츠를 수신하거나 스트리밍할 수 있습니다. AirPlay를 자신의 디바이스에만 허용할지, 누구에게나 또는 암호를 사용하거나 사용하지 않고 허용할지 선택할 수 있습니다.
 
-시도해보려면 설정 ⚙️ ` 일반 ⚙️ ` AirPlay 및 핸드오프에서 AirPlay 수신기를 켜보세요.
+시도해보려면 설정 ⚙️ `일반 ⚙️` AirPlay 및 핸드오프에서 AirPlay 수신기를 켜보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ✨ **#7. 액션 버튼으로 실시간 번역**
 
@@ -294,7 +551,18 @@ iOS 17.2에서 애플이 iPhone 15 Pro의 액션 버튼에 번역 기능을 추�
 
 ![2024-07-13-iOS172IsWayBiggerThanWeveExpected15AmazingFeatures_19.png](/assets/img/2024-07-13-iOS172IsWayBiggerThanWeveExpected15AmazingFeatures_19.png) ✨
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 도구는 실시간으로 다른 언어를 사용하는 사람들과 의사소통하는 데 도움을 줍니다.
 
@@ -307,7 +575,18 @@ iOS 17.2에서 애플이 iPhone 15 Pro의 액션 버튼에 번역 기능을 추�
 - 그들이 말할 수 있도록 해주세요.
 - 다시 액션 버튼을 눌러 번역된 내용을 자신의 언어로 확인하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 와우!
 
@@ -320,16 +599,37 @@ iPhone 15 Pro 모델에서만 가능합니다.
 
 # #8. 당신의 연락처 포스터 텍스트를 무지개 색상으로 설정하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "컨택트 포스터(Contact Posters)는 iOS 17의 주목할 만한 기능 중 하나에요. 다른 사람에게 전화할 때 자신이 어떻게 나타날지를 사용자화할 수 있게 해주죠. 이미지와 텍스트 스타일을 선택하여 이름을 표시할 수 있어요. 이제 iOS 17.2에서 추가적인 사용자화 기능이 도입됐어요. 이제 컨택트 포스터에 이름을 무지개 색상으로 설정할 수 있어요. 저의 이름은 이렇게 나타나요:"
 
 ![Rainbow contact poster](image_link)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지를 Markdown 형식으로 변경하고 문구를 번역해드리겠어요.
-
 
 ![이미지](/assets/img/2024-07-13-iOS172IsWayBiggerThanWeveExpected15AmazingFeatures_20.png)
 
@@ -341,10 +641,20 @@ iPhone 15 Pro 모델에서만 가능합니다.
 
 ![이미지](/assets/img/2024-07-13-iOS172IsWayBiggerThanWeveExpected15AmazingFeatures_21.png)
 
-
 얼른 사용해보세요! 부디 당신의 미래가 밝고 행복하기를 바랍니다. 🌟✨✨
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Hey there, lovely souls! 🌟
 
@@ -354,11 +664,20 @@ I attempted to recreate this magic, but alas, it didn't quite work out for me. P
 
 May your day be filled with magic and wonder! 🔮💖
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 노트: 이 기능을 사용하려면 공지 알림을 켜야 합니다. 설정에서 설정하세요 ⚙️ < Notifications 🔔.
-
 
 # #10. Apple의 개선을 도와요...
 
@@ -366,8 +685,18 @@ May your day be filled with magic and wonder! 🔮💖
 
 Apple의 AR 이미지를 개선하고 싶으시면, 다음과 같이 하세요.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 설정에서 AR 위치 정확도 향상을 위해 개인 정보 및 보안 설정에서 분석 및 개선을 활성화하세요.
 
@@ -377,17 +706,39 @@ Apple의 AR 이미지를 개선하고 싶으시면, 다음과 같이 하세요.
 
 이 데이터를 공유하면 Apple의 3D 지도 및 가상 도시 투어의 품질을 향상시키는 데 도움이 됩니다.🔮✨
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## #. 긴급 경보
 
 정부가 긴급 경보의 시기적절성, 정확성, 신뢰성을 향상시키는 데 도움을 주고 싶다면 다음을 따르세요.
 
-설정 ⚙️ ` 알림 🔔 ` 긴급 경보에서 지역 알림을 켜세요.
+설정 ⚙️ `알림 🔔` 긴급 경보에서 지역 알림을 켜세요.
 
 ![image](/assets/img/2024-07-13-iOS172IsWayBiggerThanWeveExpected15AmazingFeatures_23.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 정보는 Apple과 응급 경보 시스템을 개선하기 위해 당신의 대략적인 위치를 공유합니다.
 
@@ -399,7 +750,18 @@ Apple의 AR 이미지를 개선하고 싶으시면, 다음과 같이 하세요.
 
 뉴스 앱이 이제 라이브 활동을 지원합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요, 카드 전문가답게 친근한 톤으로 알려드리겠습니다.
 
@@ -415,7 +777,18 @@ Apple의 AR 이미지를 개선하고 싶으시면, 다음과 같이 하세요.
 
 # 12. 온라인 비디오 시청을 위해 새롭게 디자인된 UI
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 유튜브를 앱이 아닌 Safari에서 시청하는 이유가 있어요.
 
@@ -425,7 +798,18 @@ Apple의 AR 이미지를 개선하고 싶으시면, 다음과 같이 하세요.
 
 ![iOS 17.2 Full-Screen Video UI](/assets/img/2024-07-13-iOS172IsWayBiggerThanWeveExpected15AmazingFeatures_25.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 이제,
 
@@ -436,7 +820,18 @@ Apple의 AR 이미지를 개선하고 싶으시면, 다음과 같이 하세요.
 
 ![이미지](/assets/img/2024-07-13-iOS172IsWayBiggerThanWeveExpected15AmazingFeatures_26.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **iOS 17이 멋지지 않나요?**
 
@@ -446,7 +841,18 @@ Apple의 AR 이미지를 개선하고 싶으시면, 다음과 같이 하세요.
 
 새로운 iOS 및 Mac 앱을 탐험하는 것을 좋아한다면 (제처럼), Setapp 구독을 고려해보세요. 매월 $9.99에 240개 이상의 놀라운 앱을 선별하여 이용할 수 있습니다. 이것들을 개별 구매하면 수백 달러가 들지만요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Setapp 여정을 시작하려면 내 제휴 링크를 사용해보세요! (30일간 무료입니다)
 - Setapp에서 제 macOS용 최고의 앱 목록 70개를 무료로 받아보세요.

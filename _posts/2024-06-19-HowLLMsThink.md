@@ -3,17 +3,13 @@ title: "LLM의 사고 방식"
 description: ""
 coverImage: "/assets/img/2024-06-19-HowLLMsThink_0.png"
 date: 2024-06-19 19:38
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-HowLLMsThink_0.png
 tag: Tech
 originalTitle: "How LLMs Think"
 link: "https://medium.com/towards-data-science/how-llms-think-d8754a79017d"
 isUpdated: true
 ---
-
-
-
-
 
 ## 리서치 페이퍼 요약: "Scaling Monosemanticity: Claude 3 Sonnet에서 해석 가능한 기능 추출"
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 연구자들은 Claude 3 Sonnet 모델에서 기능을 추출하여 유명인, 도시, 심지어 소프트웨어의 보안 취약점에 대해 생각한 내용을 보여주는 결과를 얻었습니다. 이는 AI의 머릿속을 엿볼 수 있는 것과 같아서, AI가 이해하고 결정을 내리는 데 사용하는 개념을 드러내줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 연구 논문 요약
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ## 연구의 중요성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AI 모델의 특징을 이해하고 해석하는 것은 매우 중요합니다. 이를 통해 이러한 모델이 결정을 내리는 방식을 파악할 수 있어 더욱 신뢰할 수 있고 개선하기 쉬워집니다. 이러한 특징을 해석할 수 있는 경우, AI 모델의 버그 수정, 정제, 최적화가 더욱 쉬워집니다.
 
@@ -43,7 +61,18 @@ AI 모델의 특징을 이해하고 해석하는 것은 매우 중요합니다. 
 
 ## 배경
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전에 언급된 몇 가지 이상한 용어를 살펴보겠습니다:
 
@@ -55,7 +84,18 @@ AI 모델의 특징을 이해하고 해석하는 것은 매우 중요합니다. 
 
 자세한 내용은 Andrew Ng의 오토인코더에 대한 유용한 강의 노트를 확인해 보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 이전 작업
 
@@ -65,7 +105,18 @@ AI 모델의 특징을 이해하고 해석하는 것은 매우 중요합니다. 
 
 본 연구는 이러한 기초 위에 건설하여 이러한 방법을 보다 발전된 AI 시스템으로 확장하는 것을 목표로 합니다. 연구진들은 더 큰 모델의 높은 복잡성과 차원을 다루기 위해 희소 오토인코더를 적용하고 수정했습니다. 확장의 어려움에 대처함으로써, 이 연구는 더 복잡한 모델에서도 추출된 특징이 명확하고 유용성을 유지하기를 보장하여, AI 의사 결정 과정의 이해와 해석을 발전시키고자 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 희소 오토인코더의 확장
 
@@ -75,7 +126,18 @@ AI 모델의 특징을 이해하고 해석하는 것은 매우 중요합니다. 
 
 ![이미지](/assets/img/2024-06-19-HowLLMsThink_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 가지 주요 가설이 이 스케일링을 이끌고 있습니다:
 
@@ -87,7 +149,18 @@ AI가 이해하는 각 개념을 나타내는 각 별의 거대한 밤하늘 지
 
 이러한 가설들을 적용함으로써 연구자들은 효과적으로 희소 오토인코더를 Claude 3 Sonnet과 같은 대규모 모델과 함께 작동하도록 확대할 수 있게 되었으며, 이를 통해 데이터의 간단하고 복잡한 특징을 포착하고 표현할 수 있게 되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 모델 훈련
 
@@ -99,7 +172,18 @@ AI가 이해하는 각 개념을 나타내는 각 별의 거대한 밤하늘 지
 - 교차 층 중첩 완화: 이는 서로 다른 층에서의 신호들이 섞이는 문제를 가리킵니다. 이는 서로 다른 맛들이 섞여 구별하기 어려워지는 것과 유사합니다.
 - 추상적인 특징이 풍부함: 중간층은 흥미로운 고수준 개념을 포함하고 있을 가능성이 높습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 팀은 SAE의 세 가지 버전을 훈련시켰어요. 각각은 다른 특징 처리 능력을 가지고 있었어요: 1M 특징, 4M 특징 및 34M 특징. 각 SAE에 대해 목표는 정확도를 유지하면서 활성 특징의 수를 낮추는 것이었어요:
 
@@ -110,7 +194,18 @@ AI가 이해하는 각 개념을 나타내는 각 별의 거대한 밤하늘 지
 
 목표는 평균 제곱 오차(MSE)와 L1 패널티를 결합한 손실 함수를 사용하여 재구성 정확도와 활성 특징의 수를 균형있게 유지하는 것이었어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한, 그들은 계산 예산 내에서 최적의 훈련 단계와 피처 개수를 결정하는 데 도움이 되는 스케일링 법칙을 적용했습니다. 본질적으로, 스케일링 법칙은 계산 자원을 늘릴수록 피처 개수와 훈련 단계 수가 예측 가능한 패턴을 따라 증가해야 함을 알려줍니다. 이는 종종 제곱 법칙을 따르게 됩니다.
 
@@ -120,7 +215,18 @@ AI가 이해하는 각 개념을 나타내는 각 별의 거대한 밤하늘 지
 
 그들은 최상의 학습 속도도 제곱 법칙 트렌드를 따랐으며, 더 큰 실행에 적합한 속도를 선택하는 데 도움이 되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 수학적 기반
 
@@ -131,20 +237,40 @@ AI가 이해하는 각 개념을 나타내는 각 별의 거대한 밤하늘 지
 
 ![이미지](/assets/img/2024-06-19-HowLLMsThink_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 W^enc와 b^enc는 인코더의 가중치와 편향을 나타내고, fi(x)는 특징 i의 활성화를 나타냅니다.
 
 디코더
 디코더는 다른 선형 변환을 사용하여 특징에서 원래 활성화를 재구성하려고 시도합니다:
 
-
 ![image](/assets/img/2024-06-19-HowLLMsThink_4.png)
-
 
 W^dec와 b^dec는 디코더의 가중치와 바이어스입니다. 용어 fi(x) W^dec는 재구성에 특징 i의 기여를 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 손실
 모델은 재구성 오차와 희소성 패널티를 최소화하기 위해 훈련됩니다:
@@ -155,7 +281,18 @@ W^dec와 b^dec는 디코더의 가중치와 바이어스입니다. 용어 fi(x) 
 
 ## 해석 가능한 특성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 연구 결과, Claude 3 소네트 모델 내에 해석 가능한 다양한 특징들이 발견되었습니다. 이는 추상적이고 구체적인 개념을 포괄하며, 모델의 내부 프로세스 및 의사 결정 패턴에 대한 통찰을 제공합니다.
 
@@ -165,8 +302,18 @@ W^dec와 b^dec는 디코더의 가중치와 바이어스입니다. 용어 fi(x) 
 
 예를 들어, 모델에는 잘 알려진 인물에 대한 언급에 반응해 활성화되는 특징들이 있습니다. "알버트 아인슈타인"에 대한 특정 특징이 있을 수 있으며, 이는 텍스트가 그에 대해 이나 그의 물리학 연구에 언급될 때마다 활성화됩니다. 이러한 특징은 모델이 연결을 만들고 아인슈타인에 대한 맥락적으로 관련된 정보를 생성하는 데 도움을 줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-HowLLMsThink_6.png" />
 
@@ -176,8 +323,18 @@ The model can also identify and activate features related to security vulnerabil
 
 <img src="/assets/img/2024-06-19-HowLLMsThink_7.png" />
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 편견과 관련된 기능들도 식별되었는데, 이는 인종, 성별 또는 다른 형태의 편견을 탐지하는 것을 포함합니다. 이러한 기능들을 이해함으로써, 개발자들은 편향된 결과물을 완화하는 데 노력할 수 있어서 AI가 더 공정하고 평등하게 행동하도록 할 수 있습니다.
 
@@ -187,7 +344,18 @@ The model can also identify and activate features related to security vulnerabil
 
 ## 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 연구는 클로드 3 소네트 모델의 내부 작동을 이해하고 해석하는 데 중요한 발전을 이루었습니다.
 
@@ -197,7 +365,18 @@ The model can also identify and activate features related to security vulnerabil
 
 해석 가능한 AI 기능의 중요성은 과대평가할 수 없습니다. 이 기능들은 AI 모델을 디버그하고 개선하며 최적화하는 데 우리의 능력을 향상시킵니다. 이를 통해 더 나은 성능과 신뢰성을 제공합니다. 또한, 이러한 기능들은 투명하게 운영되고 인간의 가치와 특히 안전과 윤리 분야에서 인간의 가치와 일치하는 AI 시스템을 보장하기 위해 필수적입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 참고 자료
 

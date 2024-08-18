@@ -3,17 +3,13 @@ title: "대기업들이 Spark를 데이터 엔지니어링에 채택한 방법"
 description: ""
 coverImage: "/assets/img/2024-06-30-HowLargeEnterpriseOrganizationsAdoptedSparkforDataEngineering_0.png"
 date: 2024-06-30 18:58
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-30-HowLargeEnterpriseOrganizationsAdoptedSparkforDataEngineering_0.png
 tag: Tech
 originalTitle: "How Large Enterprise Organizations Adopted Spark for Data Engineering"
 link: "https://medium.com/@danielmantovani/why-apache-spark-is-better-compared-to-all-other-enterprise-data-engineering-tools-and-history-027e3f102cdd"
 isUpdated: true
 ---
-
-
-
-
 
 # 역사 요약과 오픈 소스
 
@@ -23,7 +19,18 @@ Microsoft는 오픈 소스 소프트웨어에 반대하기 위해 상당한 자�
 
 오랫동안 "오픈 소스"라는 용어는 주로 대형 IT 기업들에 의해 악화되었습니다. 이러한 기업들은 자신들의 소프트웨어를 은행이나 보험 회사와 같은 대기업만을 위해 저렴하게 제공하며, 이는 중소기업 및 개인 개발자들이 고품질 소프트웨어에 접근하는 데 장벽을 일으켰습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Cloudera와 Hortonworks 혁명
 
@@ -33,7 +40,18 @@ Cloudera와 Hortonworks에게 정말 고마워요. 대규모 기업 조직 내�
 
 ## 왜 오픈 소스가 중요한지에 대해 스스로에게 물어봐야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 번 사내에 전용 소프트웨어를 구현하면 해당 기술을 위해 수천 시간을 투자하고 비즈니스를 유지하기 위해 공급 업체가 요구하는 요금을 지불해야 합니다. 이것은 '오픈 소스'뿐만 아니라 라이선스에 관한 문제입니다. 오픈 소프트웨어를 채택하면 여러 업체가 지원을 제공하기 때문에 비용을 상당히 줄여 비즈니스를 유지할 수 있습니다.
 
@@ -43,7 +61,18 @@ Databricks가 Spark를 소유하거나 만들었다는 추측이 있습니다. �
 
 Cloudera 및 Hortonworks 혁명 이후, IBM 및 다른 IT 기업들이 세상이 변화하고 미래를 준비해야 한다는 것을 이해했습니다. 할 수 있는 일이 없다는 것을 깨달았습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## IBM은 Apache Spark의 인기 확산에 중요한 역할을 했습니다.
 
@@ -53,7 +82,18 @@ Cloudera 및 Hortonworks 혁명 이후, IBM 및 다른 IT 기업들이 세상이
 
 이 발표 이후 Spark의 인기가 급증했습니다. 어쩌면 IBM은 Spark로 직접적인 수익을 얻지 않았지만, 대신 Databricks에 대한 무료 광고가 되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 데이터브릭스의 구출
 
@@ -63,7 +103,18 @@ Cloudera와 HortonWorks가 Spark를 위한 엔터프라이즈 지원을 제공�
 
 결국 Databricks는 430억 달러의 회사가 되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 https://www.databricks.com/company/newsroom/press-releases/databricks-raises-series-i-investment-43b-valuation
 
@@ -73,7 +124,18 @@ https://www.databricks.com/company/newsroom/press-releases/databricks-raises-ser
 
 ## 왜 좋은 SQL 지원이 그렇게 중요한가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 복잡한 질문이에요. 다음 토크를 꼭 보시길 강력히 추천합니다:
 

@@ -3,17 +3,13 @@ title: "MapReduce에 대해 알아야 할 모든 것"
 description: ""
 coverImage: "/assets/img/2024-06-19-EverythingyouneedtoknowaboutMapReduce_0.png"
 date: 2024-06-19 05:12
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-EverythingyouneedtoknowaboutMapReduce_0.png
 tag: Tech
 originalTitle: "Everything you need to know about MapReduce"
 link: "https://medium.com/data-engineer-things/everything-you-need-to-know-about-mapreduce-aff1c664f3b5"
 isUpdated: true
 ---
-
-
-
-
 
 ## Google에서 제공하는 'MapReduce: 대규모 클러스터에서 간소화된 데이터 처리' 논문의 모든 주요 통찰
 
@@ -26,7 +22,18 @@ isUpdated: true
 - MapReduce 구현
 - 지원 기능
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 소개
 
@@ -36,7 +43,18 @@ isUpdated: true
 
 데이터 처리를 위한 로직을 작성하셨군요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하나의 기계에서 실행했군요.
 
@@ -46,7 +64,18 @@ isUpdated: true
 
 더 많은 기계를 사용해야 한다는 것을 깨달았죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 어떻게 하면 계산을 신뢰할 수 있게 병렬 처리할 수 있을까요?
 
@@ -59,7 +88,18 @@ isUpdated: true
 
 가장 가능성이 큰 선택은 구글에서 2004년에 처음으로 소개되었고 나중에 Yahoo가 오픈 소스화한 대규모 병렬 처리 프레임워크인 MapReduce였습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이번 주에는 Google의 전형적인 논문을 통해 이 프레임워크에 대해 배우게 될 것입니다: MapReduce: 대규모 클러스터에서 간소화된 데이터 처리.
 
@@ -71,7 +111,18 @@ Google에서는 수백 개의 연산이 대량의 데이터를 처리합니다. 
 - 데이터를 어떻게 효율적으로 분산할 것인가?
 - 장애를 어떻게 처리할 것인가?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이를 해결하기 위해 Google은 병렬화의 세부 사항을 추상화하여 간단한 계산을 표현할 수 있는 새로운 추상화를 설계했습니다. 이 모델은 Lisp와 다른 함수형 언어의 map 및 reduce 원시 기능에서 영감을 받았습니다. 이 작업의 Google 주요 기여 사항은 다음과 같습니다:
 
@@ -83,7 +134,18 @@ Google에서는 수백 개의 연산이 대량의 데이터를 처리합니다. 
 
 ![이미지](/assets/img/2024-06-19-EverythingyouneedtoknowaboutMapReduce_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 사용자가 정의하는 두 가지 기능을 갖는 모델입니다:
 
@@ -94,7 +156,18 @@ Google에서는 수백 개의 연산이 대량의 데이터를 처리합니다. 
 
 # MapReduce 구현
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 실행 개요
 
@@ -106,7 +179,18 @@ Google에서는 수백 개의 연산이 대량의 데이터를 처리합니다. 
 
 일반적인 MapReduce 흐름에 따른 일반적인 단계는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 맵리듀스 라이브러리는 입력 파일을 일반적으로 16에서 64 메가바이트(MB)로 나눈 M 개의 조각으로 분할합니다. (사용자가 크기/조각 팩터를 구성할 수 있습니다.)
 - 그런 다음 여러 대의 기계에서 프로그램을 복사본으로 시작합니다. (여러 대의 기계에서 맵리듀스 프로세스가 실행될 것이라고 생각할 수 있습니다.)
@@ -126,7 +210,18 @@ Google에서는 수백 개의 연산이 대량의 데이터를 처리합니다. 
 
 # 내고장성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 MapReduce의 궁극적인 목표 중 하나는 여러 대의 기계에서 대량의 데이터를 신뢰성 있게 처리하는 것입니다. 그렇다면, 만약 실패가 발생한다면 어떨까요?
 
@@ -140,7 +235,18 @@ MapReduce의 궁극적인 목표 중 하나는 여러 대의 기계에서 대량
 - 실패한 Reduce 작업은 또한 대기 상태로 설정되어 다시 예약될 수 있습니다. 완료된 Reduce 작업은 결과가 전역 파일 시스템에 저장되므로 다시 실행할 필요가 없습니다.
 - 작업자 A가 Map 작업을 처리하고, 나중에 작업자 A가 실패하면, 마스터의 일정에 따라 작업자 B가 이 Map 작업을 담당하게 되며, 모든 Reduce 작업자에게 다시 실행이 필요함을 통지합니다. 처음에 Map Worker A의 데이터를 사용한 모든 Reduce 작업은 Worker B의 데이터를 읽게 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실패한 마스터
 
@@ -151,7 +257,18 @@ MapReduce의 궁극적인 목표 중 하나는 여러 대의 기계에서 대량
 
 ![이미지](/assets/img/2024-06-19-EverythingyouneedtoknowaboutMapReduce_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 구글은 GFS가 관리하는 입력 데이터가 클러스터의 기계들의 로컬 디스크에 저장되어 있음을 이용하여 네트워크 대역폭을 활용합니다. GFS는 각 파일을 64MB 블록으로 나누고 각 블록의 중복된 복제본 (기본 3개)을 다른 기계에 저장합니다. MapReduce 마스터는 해당 입력의 복제본을 저장하는 기계에 Map 작업을 스케줄하려고 노력합니다. 마스터가 그 방법으로 스케줄을 할 수 없으면 해당 작업의 입력 데이터의 복제본 근처에 Map 작업을 스케줄하려고 시도합니다. 이렇게 함으로써 대부분의 워커가 입력 데이터를 로컬에서 읽고 네트워크 대역폭을 소비하지 않도록 보장합니다.
 
@@ -161,7 +278,18 @@ MapReduce는 M 단계를 M 조각으로, Reduce 단계를 R (사용자가 제한
 
 ## 백업 작업
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-EverythingyouneedtoknowaboutMapReduce_5.png" />
 
@@ -171,7 +299,18 @@ MapReduce는 M 단계를 M 조각으로, Reduce 단계를 R (사용자가 제한
 
 맵리듀스의 기본 기능은 대부분의 요구사항을 충족시키지만, Google은 몇 가지 확장 기능이 유용하다고 판단했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 파티션 함수
 
@@ -181,7 +320,18 @@ MapReduce는 M 단계를 M 조각으로, Reduce 단계를 R (사용자가 제한
 
 MapReduce는 중간 키/값 쌍이 주어진 파티션 내에서 키 순서를 오름차순으로 처리함을 보장합니다. 이는 각 파티션마다 정렬된 출력 파일을 생성하는 것이 쉬워지도록 만듭니다. 사용자가 데이터가 정렬되어 있으면 편리하다고 생각할 때 유용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Combiner Function
 
@@ -192,7 +342,18 @@ MapReduce는 중간 키/값 쌍이 주어진 파티션 내에서 키 순서를 �
 
 # 입력 및 출력 유형
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 맵리듀스는 다양한 형식의 입력 데이터를 읽을 수 있는 지원을 제공합니다. 예를 들어, 텍스트 유형은 키를 파일 내 오프셋으로 처리하고 값을 라인의 내용으로 처리합니다. 사용자는 간단한 리더 인터페이스를 구현하여 새로운 입력 유형을 지원할 수 있습니다. 출력 유형에 대해, 맵리듀스는 다양한 형식으로 데이터를 생성하기 위한 일련의 출력 유형을 지원하며 사용자가 새로운 출력 유형을 정의할 수도 있습니다.
 
@@ -202,7 +363,18 @@ MapReduce는 중간 키/값 쌍이 주어진 파티션 내에서 키 순서를 �
 
 # 잘못된 레코드 건너뛰기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가끔 사용자 코드에 버그가 있어 Map 또는 Reduce 함수가 특정 레코드에서 크래시하는 경우가 있습니다. 이러한 버그로 인해 MapReduce 프로그램이 완료되지 못할 수 있습니다. 보통은 버그를 수정하는 것이 일반적인 해결책이지만 때로는 추가 조치가 필요할 수도 있습니다. 버그가 제3자 라이브러리에서 발생할 수 있으며 해당 소스 코드에 접근할 수 없는 경우가 있습니다. 또한 경우에 따라 일부 레코드를 무시하는 것이 허용됩니다. Google은 옵션 실행 모드를 제공하여 MapReduce 라이브러리가 어떤 레코드가 크래시를 발생시킬 수 있는지 감지하고 이러한 레코드를 건너뛰어 전진 진행을 이룰 수 있습니다.
 
@@ -212,7 +384,18 @@ MapReduce는 중간 키/값 쌍이 주어진 파티션 내에서 키 순서를 �
 
 # 카운터
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 MapReduce 라이브러리는 다양한 이벤트의 발생 횟수를 세는 카운터를 제공합니다. 예를 들어, 사용자 코드는 처리된 총 단어 수를 세고 싶어할 수 있습니다. 이 기능을 사용하려면 사용자는 명명된 카운터 객체를 만들고 Map 및 Reduce 함수에서 카운터를 적절하게 증가시킵니다. 워커는 주기적으로 카운터 값을 마스터에 보고하며, 이 보고는 마스터로부터 ping-health-check 요청에 대한 응답과 함께 전송됩니다. 마스터는 성공한 Map 및 Reduce 작업에서 카운터 값을 집계하고 프로그램이 완료될 때 사용자 코드로 반환합니다. 카운터 값을 집계할 때 마스터는 동일한 Map/Reduce 작업, 백업 작업 또는 실패한 작업의 중복 실행의 영향으로 발생하는 중복을 제거합니다.
 
@@ -222,7 +405,18 @@ MapReduce 라이브러리는 다양한 이벤트의 발생 횟수를 세는 카�
 
 이제 이만 쉬어 가도록 하겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 블로그에서 만나요 ;)
 

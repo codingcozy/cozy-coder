@@ -3,17 +3,13 @@ title: "여기에는 왜 당신의 친구들이 당신보다 더 많은 친구�
 description: ""
 coverImage: "/assets/img/2024-06-19-Hereswhyyourfriendshavemorefriendsthanyou_0.png"
 date: 2024-06-19 09:31
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-Hereswhyyourfriendshavemorefriendsthanyou_0.png
 tag: Tech
 originalTitle: "Here’s why your friends have more friends than you"
 link: "https://medium.com/@csferrie/heres-why-your-friends-have-more-friends-than-you-2b205a6c278b"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-06-19-Hereswhyyourfriendshavemorefriendsthanyou_0.png)
 
@@ -23,13 +19,24 @@ isUpdated: true
 
 # 내 책에 얼마나 많은 얼굴이 있을까
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사실, 왜 하지 않을까요? 한번 해볼까요? 페이스북에는 374명의 친구가 있어요. 왜 그런지는 잘 모르겠어요. 어쨌든, 열 명의 친구를 무작위로 선택하여 친구들이 가진 친구의 수를 세 보겠습니다. 아래는 그 결과에요:
 
 ```js
 친구 1 - 522
-친구 2 - 451 
+친구 2 - 451
 친구 3 - 735
 친구 4 - 397
 친구 5 - 2074
@@ -44,7 +51,18 @@ isUpdated: true
 
 하지만 이것이 역설이 아니에요 — 특히 저를 알고 있으면요. 제 네트워크에서 다른 누군가를 한번 살펴볼까요? 친구 2라고 가정해볼게요. 친구 2는 451명의 친구가 있고, 페이스북은 사용자의 개인정보를 자연스럽게 보호하기 때문에 친구 2의 친구들의 프로필을 클릭하여 그들이 가지고 있는 친구의 수를 확인할 수 있어요. 친구 2의 열 명의 무작위 친구들이 가진 친구의 수는 각각 790, 928, 383, 73, 827, 1633, 202, 457, 860, 121입니다. 친구 2의 친구들이 가진 친구의 수 평균은 627명으로, 451명보다 많습니다. 또한, 이 중 여섯 명이 451명보다 많은 친구를 가지고 있어요. 따라서 친구 2는 대부분의 친구들보다 친구가 더 적은 상태에요. 내 친구 모두에 대해 이 연습을 반복한다면, 더 많은 친구를 가진 대부분의 친구들이 자기 친구보다 더 적은 친구를 가지고 있음을 계속해서 발견할 수 있을 거예요, 비록 대부분이 이미 제보다 친구가 더 많은 상태일지라도!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 역설적이라고 느껴질 것 같아요. 이게 왜 역설적으로 느껴지는지에 대한 직관은 다음과 같은 비유에서 옵니다. 자신의 키를 생각해보세요. 아마도 평균보다 키가 작을 수도 있죠. 아마도 자신보다 키가 작은 친구들이 있을 것입니다. 그래도 평균보다 키가 큰 사람이 적어도 절반은 있을 것을 기대합니다. 결국 이것이 "평균"에 대한 직관이죠. 그렇다면 왜 친구들에 대해서는 같은 이치가 적용되지 않을까요? 즉, 친구 2는 우리 친구들보다 친구가 적지만, 분명 많은 친구를 가진 사람들은 그들의 친구들보다 더 많은 친구를 가지고 있을 것입니다. 이는 사실이지만, 이러한 인기 있는 사람들은 극히 드물며, 이것이 친구 수와 키 사이의 차이입니다.
 
@@ -54,7 +72,18 @@ isUpdated: true
 
 몇 가지 더 작은 예시를 살펴보면 모두와 그들 친구들을 네트워크에서 세어볼 수 있는데요. 가장 유명한 소셜 네트워크 (적어도 네트워크 이론가들에게는)는 자크리의 가라테 도장입니다. 이렇게 생겼다고 해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-Hereswhyyourfriendshavemorefriendsthanyou_1.png" />
 
@@ -68,7 +97,18 @@ isUpdated: true
 자신의 대부분의 친구보다 친구가 적은 사람의 비율은 70.59%입니다.
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![img](/assets/img/2024-06-19-Hereswhyyourfriendshavemorefriendsthanyou_2.png)
 
@@ -78,10 +118,20 @@ isUpdated: true
 
 이제 페이스북으로 돌아가 봅시다. 이번에는 십 명의 개인으로부터 수집된 데이터를 사용할 것이며, 익명화되어 공개될 것입니다. 이 데이터는 다양한 사회적 관계를 가진 이 열 명과 연결된 약 4000명의 사람들을 포함합니다. 해당 소셜 네트워크는 다음과 같습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 마크다운 형식으로 변경합니다.
-
 
 ![Network Details](/assets/img/2024-06-19-Hereswhyyourfriendshavemorefriendsthanyou_3.png)
 
@@ -91,8 +141,18 @@ isUpdated: true
 
 요약하면, 결론은 이렇습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 평균적으로 친구보다 더 적은 친구를 갖고 있는 사람의 비율은 87.47%입니다.
@@ -106,7 +166,18 @@ isUpdated: true
 
 # 가짜로 만든다면 상관없어요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시뮬레이션은 어떤 것을 이해하기 위해 그것의 규모 모델을 연구하는 도구입니다. 바람 터널에서의 모형 비행기 날개는 대표적인 예입니다. 오늘날 많은 시뮬레이션은 컴퓨터 상에서 전적으로 이루어집니다. 소셜 네트워크의 맥락에서도 다양한 모형이 있지만, 순전히 게을러서 바바라시-알버트 모형이라 불리는 것을 선택할 것입니다. 왜냐하면 사용 중인 컴퓨터 패키지인 NetworkX에 이미 구현되어 있기 때문입니다. 만약 우리가 34명의 사람(카라테 클럽과 동일한 수)으로 이루어진 모조 소셜 네트워크를 생성한다면, 이렇게 보일 것입니다.
 
@@ -116,7 +187,18 @@ isUpdated: true
 
 ![image](/assets/img/2024-06-19-Hereswhyyourfriendshavemorefriendsthanyou_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예시에서 중요한 숫자들은 다음과 같습니다.
 
@@ -130,7 +212,18 @@ isUpdated: true
 
 이것도 좋지만, 시뮬레이션의 진정한 매력은 여러 예시를 빠르게 확인할 수 있다는 점입니다. 위의 것은 단지 하나의 가짜 소셜 네트워크에 불과합니다. 우리의 결론에 대한 완전한 확신을 갖기 위해서 (물론 모델 가정에 상대적으로), 무작위로 생성된 다수의 소셜 네트워크에서 많은 시뮬레이션을 실행해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 모든 그래프를 시뮬레이션해 봐요!
 
@@ -144,7 +237,18 @@ isUpdated: true
 자신의 대부분의 친구들보다 친구 수가 적은 사람들의 비율은 65.31% 입니다.
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서 우리는 이제 34명의 사람이 있는 Barabási–Albert 모델과 같은 특성을 가진 어떤 소셜 네트워크에서도 친구 역설이 계속된다고 자신 있게 말할 수 있습니다. 하지만 쉽게 할 수 있는 다른 것은 네트워크의 사람 수를 바꾸어서 대규모 네트워크에서도 추세가 지속되는지 확인하는 것입니다. 사람 수를 늘리면 상황이 훨씬 나빠집니다. 소셜 네트워크의 사람 수가 증가함에 따라 자신보다 친구가 적은 사람들의 비율(대부분 또는 평균적으로)도 증가합니다.
 
@@ -154,7 +258,18 @@ isUpdated: true
 
 이러한 역설은 친구를 넘어서도 유지된다는 것이 증명되었습니다. 자신과의 비교에서 소득, 트위터 팔로워 및 얼마나 행복한지에 대해 친구들과 비교했을 때도 아마 당신은 부족하다고 생각될 것입니다. 하지만, 좋아, 이런 건 충분해요 - 이제 우리 모두 기분 나빠하게 느끼잖아요! 분명히 이런 모든 것에서 긍정적으로 얻을 수 있는 점이 있을 거에요, 그렇죠? 네!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 친구들이 당신보다 더 많은 연락처를 가지고 있기 때문에, 그들이 바이러스나 다른 커뮤니티를 통해 전파되는 것 등을 먼저 포착할 가능성이 더 높을 것입니다. 실제로 연구자들은 질병의 전파를 측정하기 위해 무작위로 선택된 사람들을 추적하는 대신에, 그 무작위로 선택된 사람들에게 친구의 이름을 말하고 그 친구를 추적하는 것이 훨씬 효율적임을 보였습니다! 연구에서, 친구 그룹은 처음 선택된 사람들보다 2주 정도 더 빨리 아프게 되었습니다. 친구 역설에 대해 발견될 대부분의 다른 응용 프로그램들이 아마도 있을 것입니다.
 
@@ -162,7 +277,18 @@ isUpdated: true
 
 ![네트워크 그림](/assets/img/2024-06-19-Hereswhyyourfriendshavemorefriendsthanyou_8.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 평균적으로 친구보다 친구가 더 많은 사람의 비율은 44.12%입니다.
@@ -176,8 +302,18 @@ isUpdated: true
 
 <img src="/assets/img/2024-06-19-Hereswhyyourfriendshavemorefriendsthanyou_9.png" />
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

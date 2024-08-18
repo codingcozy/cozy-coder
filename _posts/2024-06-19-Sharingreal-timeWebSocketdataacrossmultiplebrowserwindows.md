@@ -3,17 +3,13 @@ title: "여러 브라우저 창 간에 실시간 WebSocket 데이터 공유하�
 description: ""
 coverImage: "/assets/img/2024-06-19-Sharingreal-timeWebSocketdataacrossmultiplebrowserwindows_0.png"
 date: 2024-06-19 09:22
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-Sharingreal-timeWebSocketdataacrossmultiplebrowserwindows_0.png
 tag: Tech
 originalTitle: "Sharing real-time WebSocket data across multiple browser windows"
 link: "https://medium.com/itnext/sharing-real-time-websocket-data-across-multiple-browser-windows-4e0538dd7563"
 isUpdated: true
 ---
-
-
-
-
 
 # 멀티 스크린 앱이나 여러 창에서 병행하여 실행되는 앱을 만들 때, 모든 연결된 참가자가 동일한 데이터를 공유할 때 트래픽을 많이 절약할 수 있습니다.
 
@@ -33,7 +29,18 @@ isUpdated: true
 - 성능을 더 높일 수 있을까?
 - neo.mjs 프로젝트 업데이트
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 1. 소개
 
@@ -43,8 +50,18 @@ isUpdated: true
 
 또한 창을 변경하더라도 동일한 구성 요소 인스턴스를 재사용할 수 있도록 해주는 앱 SharedWorker를 사용하고 있습니다. 이를 통해 상태를 동기화하는 데 도움이 될 거예요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-06-19-Sharingreal-timeWebSocketdataacrossmultiplebrowserwindows_0.png)
 
@@ -54,8 +71,18 @@ isUpdated: true
 
 ## 3. 저장소
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 저장소에서 찾을 수 있습니다:
 
@@ -65,7 +92,18 @@ isUpdated: true
 
 # 4. 백엔드
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 백엔드 코드를 가능한 간단하게 유지하려고 합니다.
 
@@ -75,7 +113,18 @@ isUpdated: true
 
 우리의 서비스는 read() 메서드만 노출하며, 이 메서드는 우리가 opts 객체 내의 속성으로 전달하는 3가지 매개변수를 기반으로 무작위 데이터를 생성할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - amountColors
 - amountColumns
@@ -87,7 +136,18 @@ isUpdated: true
 
 우리의 프론트엔드 코드는 이 파일을 fetch()하여 원하는 네임스페이스를 우리에게 노출시킬 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 물론 원하신다면 async / await을 사용할 수도 있어요.
 
@@ -97,7 +157,18 @@ isUpdated: true
 
 <img src="/assets/img/2024-06-19-Sharingreal-timeWebSocketdataacrossmultiplebrowserwindows_1.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 애플리케이션 SharedWorker(프론트엔드 코드) 내에서 Colors.backend.ColorService.read()를 사용한다면, neo.mjs는 데이터 SharedWorker로 메시지를 보낼 것입니다. 관심사의 분리입니다. 데이터 워커는 소켓 연결이 이미 존재하는지 확인하고 필요한 경우 (재)연결합니다. 그런 다음 소켓을 통해 메시지를 보내고 백엔드 코드 내에서 ColorService.read()를 실행할 것입니다. 특정 소켓 연결 메시지의 응답은 App-Worker로 다시 전송됩니다. 초기 호출자에게 매핑된 후 우리의 Promise를 해결할 것입니다.
 
@@ -107,7 +178,18 @@ isUpdated: true
 
 npx neo-app을 사용하여 앱 셸을 자동으로 생성했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Neo 앱의 인덱스 파일은 MicroLoader 모듈만 포함하게 됩니다. 이 모듈은 우리 앱 폴더 안의 neo-config.json 파일을 가져와 neo 메인 스레드를 시작할 것입니다. 이 스레드는 워커 설정을 생성하고 완료되면 우리 앱 폴더 안의 app.mjs 파일을 동적으로 로드할 것입니다.
 
@@ -117,7 +199,18 @@ Viewport에는 3개의 위젯과 HeaderToolbar가 직접 items 배열에 들어�
 
 Neo에서의 view model은 상태 제공자(다른 라이브러리/프레임워크에서는 "store"로 불림)로서, 자식 뷰가 데이터 속성에 바인딩할 수 있도록 허용합니다. 부모 체인 내에서 여러 데이터 속성에 바인딩할 수도 있습니다. 이 데모 앱에 중요한 부분은: 우리의 상태 트리가 모든 브라우저 창에서 작동한다는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 7. 자식 앱을 위한 쉘
 
@@ -127,7 +220,18 @@ Viewport은 완전히 비어 있어서, 주 앱을 로드하지 않고 앱을 �
 
 ![이미지](/assets/img/2024-06-19-Sharingreal-timeWebSocketdataacrossmultiplebrowserwindows_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 8. 브라우저 창 간 위젯 이동
 
@@ -139,7 +243,18 @@ Viewport은 완전히 비어 있어서, 주 앱을 로드하지 않고 앱을 �
 widgetParent.remove(widget, false);
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 메인 창 안의 뷰포트에서 원하는 위젯(테이블, 파이 차트 또는 바 차트)를 제거하고 있어요. 두 번째 매개변수 false는 컴포넌트 인스턴스를 파괴하지 않도록 하는 플래그입니다.
 
@@ -149,7 +264,18 @@ mainView.add(widget);
 
 정말로 이렇게 간단해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컴포넌트 인스턴스 재사용에 대한 주제는 메모리 누수를 줄이고 런타임 성능을 향상시키는 매우 강력한 기술이기 때문에 개별 블로그 게시물이 필요합니다.
 
@@ -159,7 +285,18 @@ Neo에서 단일 창 앱을 만들 때 프레임워크는 Dedicated Workers를 �
 
 "neo-config.json" 파일에 "useSharedWorkers”: true를 추가하면 프레임워크가 SharedWorkers로 전환되며, 브라우저 창 콘솔에서는 더 이상 확인할 수 없습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Neo.mjs는 Worker를 위한 추상화 계층을 제공하여 개발자의 API가 정확히 동일하게 유지됩니다. 우리는 언제든지 1줄의 구성을 변경할 수 있습니다. SharedWorker를 검사하려면 다음을 열어야 합니다:
 
@@ -169,7 +306,18 @@ chrome://inspect/#workers
 
 앱의 SharedWorker를 검사하고 콘솔에 다음 코드를 입력하세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 10. 성능을 더 향상시킬 수 있을까요?
 
@@ -179,7 +327,18 @@ chrome://inspect/#workers
 
 # 11. neo.mjs 프로젝트 업데이트
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1.5년 만에 올린 첫 블로그 포스트였어요. 마음에 드셨으면 좋겣어요! 궁금한 점이 있으시면 언제든지 물어보세요.
 
@@ -189,7 +348,18 @@ chrome://inspect/#workers
 
 회사에서 더 많은 도움이 필요하다면, neo.mjs 코어 팀은 전문 강사가 진행하는 인도주도 훈련(40시간, 6~12명 참가자)뿐만 아니라 전문 서비스(예: 차세대 앱 개발 지원)도 제공하고 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 피드백을 매우 환영합니다!
 

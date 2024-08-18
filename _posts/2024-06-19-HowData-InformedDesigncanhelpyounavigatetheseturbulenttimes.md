@@ -3,17 +3,13 @@ title: "데이터 기반 디자인이 어떻게 불안한 시기를 극복하는
 description: ""
 coverImage: "/assets/img/2024-06-19-HowData-InformedDesigncanhelpyounavigatetheseturbulenttimes_0.png"
 date: 2024-06-19 15:39
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-HowData-InformedDesigncanhelpyounavigatetheseturbulenttimes_0.png
 tag: Tech
 originalTitle: "How Data-Informed Design can help you navigate these turbulent times"
 link: "https://medium.com/user-experience-design-1/how-data-informed-design-can-help-you-navigate-these-turbulent-times-164a4e188a8b"
 isUpdated: true
 ---
-
-
-
-
 
 ![image](/assets/img/2024-06-19-HowData-InformedDesigncanhelpyounavigatetheseturbulenttimes_0.png)
 
@@ -23,7 +19,18 @@ AI가 UX를 대체할 것인가 또는 UX만으로는 충분하지 않을 것인
 
 당신의 상황을 모르겠지만, 저를 두 번이나 디자인 경력을 살려준 좁은 분야, 데이터 기반 디자인 소개하고 싶습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 기반 디자인은 AI가 당신의 일자리를 빼앗거나 데이터가 모든 결정을 내리는 침울한 미래가 아닙니다.
 
@@ -33,7 +40,18 @@ AI가 UX를 대체할 것인가 또는 UX만으로는 충분하지 않을 것인
 
 ## 데이터 기반 디자인은 무엇이며 왜 유용한가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 기반 디자인에 대한 가장 좋은 설명 중 하나는 Fountain Institute에서 나왔어요:
 
@@ -43,7 +61,18 @@ AI가 UX를 대체할 것인가 또는 UX만으로는 충분하지 않을 것인
 
 세 가지 구체적인 질문을 통해 데이터 기반 디자인을 설명할 수 있어요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 사용자의 문제를 해결했다는 것을 여섯 개월 후에 어떻게 알 수 있습니까?
 - UX의 가치를 비즈니스에 어떻게 보여줄 수 있습니까?
@@ -55,7 +84,18 @@ AI가 UX를 대체할 것인가 또는 UX만으로는 충분하지 않을 것인
 
 - 사용자의 문제를 해결했는지 어떻게 알 수 있을까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제는 많은 디자이너들이 자신의 디자인을 제출한 후에 무엇이 발생하는지 설명할 수 없다는 것이었습니다. 엔지니어들은 이를 작업하기 시작하고, 디자이너들은 할당받은 다음 작업으로 이동합니다.
 
@@ -65,7 +105,18 @@ AI가 UX를 대체할 것인가 또는 UX만으로는 충분하지 않을 것인
 
 경영진들은 회사의 건강과 성공을 모니터링하기 위해 데이터를 활용하며, 어떠한 기본 지식을 통해 당신의 디자인에 대한 영향을 확인할 수 있습니다. 이것이 공개된 후 디자인의 영향력을 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고, 그걸 위해 MBA나 데이터 분석가 자격증이 필요하지 않습니다.
 
@@ -75,7 +126,18 @@ AI가 UX를 대체할 것인가 또는 UX만으로는 충분하지 않을 것인
 
 사람들은 종종 더 나은 사용자 경험이 더 많은 돈을 절약(또는 벌어들이는 것)하는 방식을 보여주는 특정 사례 연구에 대해 학습할 것을 주장합니다. 그러나 디자인을 옹호할 때 과거 일부 기업에 어떻게 도움이 되었는지 이야기함으로써 디자인을 옹호하는 것에는 한계가 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오히려 비즈니스에 유엑스(UX)가 무엇을 할 수 있는지에 집중해야 합니다.
 
@@ -85,7 +147,18 @@ AI가 UX를 대체할 것인가 또는 UX만으로는 충분하지 않을 것인
 
 하지만, 제품 메트릭은 유엑스에 더 쉽게 영향을 받고 유엑스와 관련이 있습니다. 예를 들어, 온보딩을 완료하는 데 소요된 평균 시간인 제품 메트릭이 6분에서 2분까지 줄었다는 것을 보여준다면, 우리는 유엑스가 제품 팀뿐만 아니라 비즈니스에도 가치를 제공하는 것을 입증할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인당 링크를 형성하는 방식이 사람들로 하여금 행동하도록 설득하는 방법입니다.
 
@@ -95,7 +168,18 @@ AI가 UX를 대체할 것인가 또는 UX만으로는 충분하지 않을 것인
 
 예를 들어 사용자 조사를 실시하면 탐색에서 특정 중요한 기능을 찾는 데 도움이 필요한 사용자 중 5명 중 2명이 어려움을 겪는 것을 발견할 수 있습니다. 그러나 이것만으로는 전체 이야기를 이야기하지는 않습니다: 그들은 결국 포기하기 전에 20분 동안 헤매었는데, 이는 더 큰 문제를 시사합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제는 5명 중 2명이란 소리가 그리 많이 들리지 않다는 것이에요. 만약 5명 중 5명이었다면, 이것이 빈번하고 일반적인 문제임을 주장할 수도 있을 텐데요.
 
@@ -105,7 +189,18 @@ AI가 UX를 대체할 것인가 또는 UX만으로는 충분하지 않을 것인
 
 아래는 그것을 하는 방법이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 높은 수준에서 데이터 기반 설계 작업 사용하기
 
@@ -115,7 +210,18 @@ AI가 UX를 대체할 것인가 또는 UX만으로는 충분하지 않을 것인
 
 높은 수준에서 사용할 수 있는 두 개의 가설이 있습니다. 현재 또는 이전 작업에 대해 이야기할 수 있습니다. 예를 들어 현재 프로젝트를 진행하고 사용자 테스트 결과에 대해 이야기할 때는 이 가설을 사용합니다. 이 가설은 책 '데이터로 디자인하기'에서 나온 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "만약 우리가 [X를] 한다면, 우리 사용자들은 [Z 이유]로 [Y를] 할 것이며, 이는 [지표 A]에 영향을 미칠 것입니다."
 
@@ -125,7 +231,18 @@ AI가 UX를 대체할 것인가 또는 UX만으로는 충분하지 않을 것인
 
 두 가설 모두 당신의 가치와 큰 목표에 대한 기여를 명확히 해줍니다. 하지만 처음 시작할 때는 모든 답을 가지고 있지 않을 수도 있습니다. 그러나 당신이 아는 것을 모아서 정리하는 것이 첫걸음입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 예시처럼 보일 것입니다:
 
@@ -136,7 +253,18 @@ AI가 UX를 대체할 것인가 또는 UX만으로는 충분하지 않을 것인
 
 지식상의 빈을 파악하기 위해 간접적으로 데이터를 고려하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가설을 작성한 후에는 어떤 것을 알지 못하고 어디에서 그 데이터를 찾을 수 있는지 고려해보세요. 이것이 바로 "데이터에 대해 간접적으로 생각하기"라고 알려진 것이며, 이 주제에 관한 가장 중요한 교훈 중 하나입니다.
 
@@ -144,7 +272,18 @@ AI가 UX를 대체할 것인가 또는 UX만으로는 충분하지 않을 것인
 
 파악해야 할 몇 가지 사항은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 사용자들은 현재 무엇을 하고 있는지, 이것이 문제가 되고 있는지 확인해야 합니다.
 - 이 변경으로 인해 사용자들이 무슨 행동을 할 가능성이 있으며, 그 이유는 무엇인지 확인해야 합니다.
@@ -156,7 +295,18 @@ AI가 UX를 대체할 것인가 또는 UX만으로는 충분하지 않을 것인
 
 마지막으로, 이에 영향을 받을 메트릭을 결정해야 합니다. 하지만 제품 메트릭에 심층적으로 파고들기 전에 쉬운 방법이 있습니다: 제품팀에게 물어보세요. 사람들은 아마도 프로젝트의 중요한 메트릭을 결정하는 데 몇 주에서 몇 달을 소비해왔을 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그들에게 간단히 물어보면 필요한 대답을 얻을 수 있어요.
 
@@ -170,7 +320,18 @@ AI가 UX를 대체할 것인가 또는 UX만으로는 충분하지 않을 것인
 - 기존 고객 조사/신규 (1–질문) 조사
 - 분석
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 예제에서 몇 가지 질문(즉, "질의 사항")을 해결하고 싶습니다.
 
@@ -181,7 +342,18 @@ AI가 UX를 대체할 것인가 또는 UX만으로는 충분하지 않을 것인
 
 두 번째 질문에 대해서는, 우리는 팀과 이 문제가 그들이 중요하게 여기는 지표에 영향을 미치는지 결정하기 위해 대화할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 쿼리를 해결한 후에는 다음과 같은 내용이 될 수 있습니다:
 
@@ -192,7 +364,18 @@ AI가 UX를 대체할 것인가 또는 UX만으로는 충분하지 않을 것인
 
 이러한 기술 덕분에, 디자이너로서 어렵던 시기에도 번성할 수 있었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 디자인의 미래는 데이터 기반 디자인일 수 있습니다
 
@@ -202,7 +385,18 @@ AI가 UX를 대체할 것인가 또는 UX만으로는 충분하지 않을 것인
 
 데이터에 대해 충분한 이해를 얻는 것은 비즈니스의 관점과 그들이 신경 쓰는 것에 대해 이해할 수 있게 해줍니다. 사용자 조사에서 찾은 결과를 그들이 쉽게 이해하고 행동할 수 있는 것으로 번역하는데 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서 디자인 커리어를 미래를 대비하고 싶다면 데이터 기반 디자인을 배우는 것을 고려해보세요.
 

@@ -3,17 +3,13 @@ title: "PDF 파싱의 신비를 해부하다 03 OCR이 필요 없는 소형 모�
 description: ""
 coverImage: "/assets/img/2024-06-19-DemystifyingPDFParsing03OCR-FreeSmallModel-BasedMethod_0.png"
 date: 2024-06-19 19:16
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-DemystifyingPDFParsing03OCR-FreeSmallModel-BasedMethod_0.png
 tag: Tech
 originalTitle: "Demystifying PDF Parsing 03: OCR-Free Small Model-Based Method"
 link: "https://medium.com/ai-advances/demystifying-pdf-parsing-03-ocr-free-small-model-based-method-c71310988129"
 isUpdated: true
 ---
-
-
-
-
 
 PDF 파일을 다른 형식으로 변환하는 것은 도전적일 수 있습니다. 종종 AI 애플리케이션에서 접근할 수 없는 형식에 상당한 정보를 잠그기 때문입니다. 만약 PDF 파일이나 해당 이미지를 기계가 읽을 수 있는 구조화된 또는 반구조화된 형식으로 변환할 수 있다면, 이 문제를 상당히 완화할 수 있을 것입니다. 이는 인공지능 애플리케이션의 지식 베이스를 크게 향상시킬 수도 있습니다.
 
@@ -23,7 +19,18 @@ PDF 파일을 다른 형식으로 변환하는 것은 도전적일 수 있습니
 
 본 기사에서 언급하는 "소형 모델"은 일반적으로 30억 개의 파라미터보다 적은 파라미터를 가질 정도로 상대적으로 작은 모델을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 개요
 
@@ -33,7 +40,18 @@ PDF 파일을 다른 형식으로 변환하는 것은 도전적일 수 있습니
 
 구조적 관점에서 OCR 없는 방법은 파이프라인 기반 방법보다 간단합니다. 관심을 불러일으킬 OCR 없는 방법의 주요 측면은 모델 구조의 설계와 훈련 데이터의 구축입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로, 몇 가지 대표적인 OCR 미사용 소형 모델 기반 PDF 구문 분석 프레임워크를 소개하겠습니다:
 
@@ -45,7 +63,18 @@ PDF 파일을 다른 형식으로 변환하는 것은 도전적일 수 있습니
 
 그림 2에서 설명한 것처럼 Donut은 문서 이미지를 종합적으로 이해하기 위해 설계된 엔드투엔드 모델입니다. 그 아키텍처는 transformer 기반의 시각 인코더와 텍스트 디코더 모듈로 구성되어 간단합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도넛은 OCR과 관련된 어떤 모듈에도 의존하지 않습니다. 대신 문서 이미지에서 특징을 추출하기 위해 시각 인코더를 사용하고, 텍스트 디코더를 사용하여 토큰 시퀀스를 직접 생성합니다. 출력된 시퀀스는 JSON과 같은 구조화된 형식으로 변환할 수 있습니다.
 
@@ -101,7 +130,18 @@ class DonutModel(PreTrainedModel):
 
 ## 인코더
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도넛은 초기 문서 구문 분석 연구에서 우수한 성능을 나타낸 Swin-Transformer를 이미지 인코더로 활용합니다. 이 이미지 인코더는 입력 문서 이미지를 고차원 임베딩 집합으로 변환합니다. 이러한 임베딩은 텍스트 디코더의 입력으로 사용될 것입니다.
 
@@ -111,7 +151,7 @@ class DonutModel(PreTrainedModel):
 class SwinEncoder(nn.Module):
     r"""
     SwinTransformer를 기반으로 한 도넛 인코더
-    사전 훈련된 SwinTransformer를 사용하여 초기 가중치와 구성을 설정한 후, 
+    사전 훈련된 SwinTransformer를 사용하여 초기 가중치와 구성을 설정한 후,
     도넛 인코더로 세부 구성을 수정합니다.
 
     매개변수:
@@ -191,7 +231,18 @@ class SwinEncoder(nn.Module):
 
 ## 디코더
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도넛은 디코더로 BART를 사용합니다.
 
@@ -337,7 +388,18 @@ class BARTDecoder(nn.Module):
 
 텍스트 디코더의 출력은 생성된 토큰 시퀀스입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 훈련
 
@@ -347,8 +409,18 @@ class BARTDecoder(nn.Module):
 
 사용된 훈련 데이터는 1100만 장의 스캔된 영어 문서 이미지인 IIT-CDIP입니다. 한편, 다국어 데이터를 생성하기 위해 합성 문서 생성기(SynthDoG)가 사용되었는데, 영어, 중국어, 일본어, 한국어를 포함한 데이터를 생성했습니다. 각 언어 당 50만 장의 이미지가 생성되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-DemystifyingPDFParsing03OCR-FreeSmallModel-BasedMethod_0.png)
 
@@ -361,8 +433,18 @@ class BARTDecoder(nn.Module):
 
 또한 다양한 이미지 렌더링 기술을 사용하여 실제 문서를 흉내 냅니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한, 표 4는 상업용 CLOVA OCR API를 통해 얻은 훈련 데이터의 라벨을 표시하고 있습니다.
 
@@ -372,7 +454,18 @@ class BARTDecoder(nn.Module):
 
 파인 튜닝의 주된 목적은 하류 작업에 적응하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 문서 분류 작업에서 디코더는 [START class][memo][END class] 토큰 시퀀스를 생성하는 방식으로 훈련됩니다. 이 시퀀스는 '"class": "memo"'와 같은 JSON 형식으로 직접 변환될 수 있습니다.
 
@@ -382,7 +475,18 @@ class BARTDecoder(nn.Module):
 
 ## 모델 아키텍처
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **노가(Nougat)**는 **도넛(Donut) 아키텍처** 위에 개발되었습니다. **도넛 아키텍처**를 기반으로 **신경망**을 통해 텍스트를 인식하며, 그림 5에서 시연된 것처럼 **OCR 관련 입력이나 모듈이 필요 없이** 암묵적으로 작동합니다.
 
@@ -392,7 +496,18 @@ class BARTDecoder(nn.Module):
 
 **노가(Nougat)**는 이미지와 **마크다운**의 쌍으로 이루어진 대규모 교육 데이터를 생성하여 비용 효율적인 접근 방식을 구현했습니다. 이는 **노가(Nougat)**가 배울 수 있는 가장 중요한 측면입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 소스
 
@@ -402,7 +517,18 @@ PDF 이미지와 마크다운 쌍을 포함한 대규모 데이터셋이 없어�
 
 전반적인 프로세스
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ArXiv 데이터는 대부분 TeX 소스 코드가 포함되어 있기 때문에 주로 사용됩니다. 처리 흐름은 도표 7에 나와 있습니다.
 
@@ -412,7 +538,18 @@ ArXiv 데이터는 대부분 TeX 소스 코드가 포함되어 있기 때문에 
 
 PDF 페이지의 이미지를 얻는 과정은 비교적 간단합니다. PyPDFium2의 관련 API를 직접 사용하면 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 def rasterize_paper(
@@ -461,7 +598,18 @@ def rasterize_paper(
         return pils
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째 과제는 각 PDF 페이지에서 이미지로 된 학습 데이터와 해당하는 마크다운 레이블이 함께 있는 것 때문에 마크다운을 페이지별로 구분하는 방법을 찾는 것입니다.
 
@@ -471,7 +619,18 @@ def rasterize_paper(
 
 구체적으로는 먼저 PDFMiner를 사용하여 PDF에서 텍스트 라인을 추출하고, 그 다음 텍스트를 전처리하여 페이지 번호와 가능한 헤더 또는 푸터를 제거합니다. 그런 다음 PDF 라인을 입력으로 사용하고 페이지 번호를 레이블로 사용하여 tfidf_transformer 모델을 훈련시킵니다. 이후 훈련된 모델을 적용하여 마크다운을 단락으로 나누고 각 단락에 대해 페이지 번호를 예측합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 def split_markdown(
@@ -513,7 +672,18 @@ def split_markdown(
 
 이를 해결하기 위해 누가트는 먼저 pdffigures2를 사용하여 차트를 추출합니다. 인식된 제목은 TeX 소스 코드 내의 제목들과 Levenshtein 거리를 기반으로 일치시킵니다. 이 방법을 사용하면 각 그림 또는 표의 TeX 소스 코드 및 페이지 번호를 결정할 수 있습니다. Figure 7의 JSON 구조는 차트 제목과 해당 페이지 번호를 포함합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마크다운이 개별 페이지로 분할되면 이전에 추출한 차트가 각 해당 페이지의 끝에 다시 삽입됩니다.
 
@@ -575,7 +745,18 @@ def split_markdown(
 
 Pix2Struct은 순수한 시각 언어 이해를 위해 특별히 설계된 사전 훈련된 이미지 - 텍스트 모델입니다. 또한 많은 하향 작업에 대해 세밀하게 조정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 모델 구조
 
@@ -583,11 +764,20 @@ Pix2Struct은 ViT를 기반으로 한 이미지 인코더-텍스트 디코더입
 
 Pix2Struct의 구조는 논문에 그림으로 표시되어 있지 않으며 온라인에서도 찾을 수 없기 때문에, ViT 구조를 기반으로 한 참조 다이어그램을 제공합니다. Figure 8에 나와있는 것과 같이.
 
-
 ![Pix2Struct Architecture](/assets/img/2024-06-19-DemystifyingPDFParsing03OCR-FreeSmallModel-BasedMethod_3.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반적인 ViT 방법을 사용할 때 입력 이미지를 미리 정의된 해상도로 조정한 후 고정 크기 블록을 추출하면 두 가지 부정적인 영향을 줄 수 있습니다:
 
@@ -598,7 +788,18 @@ Pix2Struct의 구조는 논문에 그림으로 표시되어 있지 않으며 온
 
 <img src="/assets/img/2024-06-19-DemystifyingPDFParsing03OCR-FreeSmallModel-BasedMethod_4.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 사전 훈련 작업
 
@@ -609,7 +810,18 @@ Pix2Struct은 웹 페이지의 가림막이 적용된 스크린샷으로부터 H
 
 ![이미지](/assets/img/2024-06-19-DemystifyingPDFParsing03OCR-FreeSmallModel-BasedMethod_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Figure 10에 표시된 것처럼, Pix2Struct에 의해 제안된 스크린샷 구문 분석은 여러 잘 알려진 사전 학습 전략에서 신호를 효과적으로 결합합니다:
 
@@ -622,7 +834,18 @@ Pix2Struct는 두 가지 모델 변형을 사전 학습했습니다:
 - 282백만 개의 매개변수로 구성된 기본 모델.
 - 13억 개의 매개변수로 구성된 대형 모델.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 사전 훈련 데이터셋
 
@@ -632,8 +855,18 @@ Pix2Struct는 HTML 소스 파일과 쌍을 이루는 8000만 개의 스크린샷
 
 도표 11은 사전 훈련 데이터의 스크린샷을 보여주며, 실제 값과 예측된 파싱을 함께 제시합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-19-DemystifyingPDFParsing03OCR-FreeSmallModel-BasedMethod_6.png)
 
@@ -643,8 +876,18 @@ Fine-tuning Pix2Struct starts with preprocessing the downstream data. This step 
 
 ![image](/assets/img/2024-06-19-DemystifyingPDFParsing03OCR-FreeSmallModel-BasedMethod_7.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다운스트림 작업의 예는 그림 12에 나와 있습니다.
 
@@ -656,7 +899,18 @@ Fine-tuning Pix2Struct starts with preprocessing the downstream data. This step 
 
 # 통찰과 생각
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대표적인 OCR 무료 솔루션에 대한 소개는 여기까지입니다. 이제 통찰과 생각에 대해 이야기해 봅시다.
 
@@ -668,7 +922,18 @@ Fine-tuning Pix2Struct starts with preprocessing the downstream data. This step 
 - Nougat: 이미지 → Markdown
 - Pix2Struct: 마스크 처리된 이미지 → 간소화된 HTML
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리만의 OCR이 필요 없는 PDF 구문 분석 도구를 개발하려면, 먼저 훈련 작업을 설계해야 합니다. 원하는 출력 형식과 관련된 훈련 데이터를 획득하는 데 어려움이 있는 과제를 고려하는 것이 중요합니다.
 
@@ -678,7 +943,18 @@ Fine-tuning Pix2Struct starts with preprocessing the downstream data. This step 
 
 Donut 및 Nougat의 훈련 데이터 획득은 (이미지, JSON) 및 (이미지, Markdown) 쌍이 쉽게 이용 가능하지 않기 때문에 도전적입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 반면에, Pix2Struct은 공개 데이터셋에서 제공된 웹 페이지를 직접 적용하여 데이터 획득을 더 편리하게 만든 것입니다. 그러나 Pix2Struct의 훈련 데이터는 웹 페이지에서 가져왔기 때문에 유해한 콘텐츠를 도입할 수도 있습니다. 이는 특히 다중 모달 모델에 민감할 수 있습니다. Pix2Struct은 아직 이러한 유해 콘텐츠를 다루기 위한 조치를 시행하지 않았습니다.
 
@@ -688,7 +964,18 @@ Donut 및 Nougat의 훈련 데이터 획득은 (이미지, JSON) 및 (이미지,
 
 ## 성능 관련
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도넛(Donut)과 Pix2Struct은 모두 다양한 하향 작업을 지원하는 일반 사전 학습 모델입니다. 따라서 그들의 평가 방법은 이러한 작업들의 벤치마크에 기반을 두고 있습니다.
 
@@ -698,7 +985,18 @@ Pix2Struct의 실험에 따르면, 그의 성능은 여러 작업에서 도넛�
 
 그러나, 그림 13에 표시된 작업들은 앞서 우리가 정의한 PDF 구문 분석 작업과는 다릅니다. 이 부분에서 누가(Nougat)가 더 전문적입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 누가트는 마크다운의 전체 생산 과정에 초점을 맞추고 있습니다. 그래서 그 평가 체계는 Figure 14에 나와 있는 편집 거리, BLEU, METEOR 및 F-측정에 의존합니다.
 
@@ -708,8 +1006,18 @@ Pix2Struct의 실험에 따르면, 그의 성능은 여러 작업에서 도넛�
 
 ![이미지](/assets/img/2024-06-19-DemystifyingPDFParsing03OCR-FreeSmallModel-BasedMethod_10.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-06-19-DemystifyingPDFParsing03OCR-FreeSmallModel-BasedMethod_11.png)
 
@@ -719,9 +1027,18 @@ Furthermore, Nougat can conveniently acquire table captions and associate them w
 
 Figure 17 compares the overall architecture and performance of two methods. The upper left illustrates the pipeline-based method, while Donut model is represented on the lower left.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-06-19-DemystifyingPDFParsing03OCR-FreeSmallModel-BasedMethod_12.png)
 
@@ -731,8 +1048,18 @@ Figure 17의 오른쪽에 나타난 것처럼, 도넛은 파이프라인 기반 
 
 - 파이프라인 기반 방법은 여러 모델을 사용하지만 각 모델은 가벼워요. 총 매개변수 수는 OCR 무료 모델보다 중요하게 적을 수 있습니다. 이 요소는 대규모 배포에 대해 도전을 제공할 수 있으며 OCR 무료 모델의 느린 구문 분석 속도로 이어질 수 있습니다. 예를 들어, 작은 모델이지만 Nougat의 매개변수 양은 250MB 또는 350MB입니다. 그러나 Nougat 논문에 명시된대로 생성 속도가 느립니다:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-DemystifyingPDFParsing03OCR-FreeSmallModel-BasedMethod_13.png)
 
@@ -743,7 +1070,18 @@ Figure 17의 오른쪽에 나타난 것처럼, 도넛은 파이프라인 기반 
 
 본 글은 PDF 파싱에서의 OCR을 사용하지 않는 소형 모델 기반 방법에 대한 개요를 제공했습니다. 세 가지 대표적인 모델을 사용해 이 접근 방식을 탐구하며 상세한 소개와 도출된 통찰을 제공했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반적으로 OCR을 사용하지 않는 작은 모델 기반 PDF 구문 분석 방법의 장점 중 하나는 중간 단계에서 발생할 수 있는 잠재적인 손상을 피할 수 있는 일괄 처리 과정입니다. 그러나 그 효과는 다중 모달 모델의 구조와 훈련 데이터의 품질에 크게 의존합니다. 또한 훈련 및 추론 속도가 느려 파이프라인 기반 방법보다는 실용적이지 않습니다. 이 방법의 해석 가능성 역시 파이프라인 기반 방법만큼 강하게 나타나지는 않습니다.
 
@@ -753,6 +1091,17 @@ PDF 구문 분석이나 문서 인텔리전스에 관심이 있다면 다른 기
 
 그리고 최신 기사는 뉴스레터에서 찾을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문서에 오류나 빠진 점이 있거나 공유하고 싶은 생각이 있다면 댓글 섹션에서 언급해 주세요.

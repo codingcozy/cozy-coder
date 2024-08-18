@@ -3,17 +3,13 @@ title: "세상은 우리가 상상하는 것보다 더 빨리 변하고 있어�
 description: ""
 coverImage: "/assets/img/2024-05-27-Theworldischangingfasterthanwecanimaginecanwekeepup_0.png"
 date: 2024-05-27 14:07
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-Theworldischangingfasterthanwecanimaginecanwekeepup_0.png
 tag: Tech
 originalTitle: "The world is changing faster than we can imagine: can we keep up?"
 link: "https://medium.com/enrique-dans/the-world-is-changing-faster-than-we-can-imagine-can-we-keep-up-fe871e50708c"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-05-27-Theworldischangingfasterthanwecanimaginecanwekeepup_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ChatGPT와 같은 생성 알고리즘의 최근 발전은 지금까지 가장 빠르게 확산된 기술로, 특정 시나리오에서의 고급 자동화 작업을 수행하던 로봇 대신, 이제는 많은 특성들을 포착하고 이에 적응하여 동일한 작업을 수행하는 로봇들을 상상할 수 있게 만듭니다. 그로 인해 이제까지 상상하기 어려웠던 능력을 부여하여 많은 작업들을 수행할 수 있게 만들어줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 몇 십 년 전에 우리가 알던 로봇에서 여러 세대가 지난 만큼 이제는 벗어난 크루드 기계로 부터 발전하였습니다. 예전에는 울퉁불퉁한 지형을 처리할 수 없는 거친 기계들이었지만, 요즘 나오는 영상을 보면 대다수의 사람들보다 더 잘 파크쿠르를 하는 것을 볼 수 있네요. 이러한 발전은 많은 다양한 학습 모델과 기본적인 기술 능력 — 처리 능력, 메모리, 저장 공간, 대역폭, 등등이 필요했습니다. 사실, 모든 것은 그 시대와 맥락의 결과입니다: 몇 년 전에 ChatGPT와 같은 알고리즘을 개발하려고 했다면, 기술적인 한계 때문에 실패했을 것이고, 로봇 공학의 발전도 마찬가지입니다.
 
@@ -33,7 +40,18 @@ ChatGPT와 같은 생성 알고리즘의 최근 발전은 지금까지 가장 �
 
 ChatGPT와 다른 발전적 알고리즘이 나오면서, 컴퓨터나 데이터를 다루는 많은 사람들이 위협받았습니다: 적절한 훈련을 받으면, 오늘날 우리가 하는 일을 대부분 수행하는 이러한 알고리즘을 상상하기 어렵지 않습니다. 하지만 이러한 화이트 칼라 근로자들의 대체는 발전적 알고리즘과 로봇이 가져올 블루 칼라 근로자들의 대체와는 비교할 수 없을 정도입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러니까, 우선, 수동 노동자가 훨씬 많기 때문이죠. 둘째, 그들을 재교육하는 것이 더 어려워요. 무엇보다도, 우리가 알고 있는 일과 인류 사회의 깊은 재해석에 대해 이야기하고 있는 만큼, 가장 모험가 같은 사람도 정확히 예측할 수 없는 모든 미개척된 시나리오들이 펼쳐집니다. 며칠 전, 마이크로소프트가 역사적인 연합을 체결하여 노동 조합원들을 인공지능으로 교육하기로 하고, 회사 대표가 "인공지능이 일자리를 대체하지 않을 것을 보장할 수 없다"고 말했습니다.
 

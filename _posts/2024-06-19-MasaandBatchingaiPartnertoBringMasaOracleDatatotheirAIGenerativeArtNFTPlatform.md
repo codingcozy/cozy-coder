@@ -3,17 +3,13 @@ title: "Masa와 Batchingai가 협력하여 Masa Oracle 데이터를 그들의 AI
 description: ""
 coverImage: "/assets/img/2024-06-19-MasaandBatchingaiPartnertoBringMasaOracleDatatotheirAIGenerativeArtNFTPlatform_0.png"
 date: 2024-06-19 04:06
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-MasaandBatchingaiPartnertoBringMasaOracleDatatotheirAIGenerativeArtNFTPlatform_0.png
 tag: Tech
 originalTitle: "Masa and Batching.ai Partner to Bring Masa Oracle Data to their AI Generative Art , NFT Platform"
 link: "https://medium.com/masa-finance/masa-and-batching-ai-partner-to-bring-masa-oracle-data-to-their-ai-generative-art-nft-platform-843ea252f906"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-19-MasaandBatchingaiPartnertoBringMasaOracleDatatotheirAIGenerativeArtNFTPlatform_0.png" />
 
@@ -23,7 +19,18 @@ Batching.ai의 고급 AI 이미지 생성 기술은 이미지의 다양성 생�
 
 맛사의 데이터 오라클은 Twitter, Discord, Telegram 등의 플랫폼에서 소중한 사용자 데이터를 수집 및 집계합니다. 맛사의 데이터 오라클을 통해 실시간 구조화된 데이터에 액세스할 수 있으며, 다양한 AI 응용 프로그램에 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 Batching.ai가 Masa Data Oracle을 통합함으로써 사용자와 창작자들은 소셜 프로필에서 집계된 사용자 데이터를 기반으로 창조적 AI 아트를 쉽게 만들고 즉시 NFT로 전환할 수 있게 될 것입니다. Masa AI Data Oracle은 또한 사용자의 관심사, 소셜 행동 및 온라인 활동을 캡처하여 Batching.ai에서 동적 이미지를 생성하는 데 사용할 수 있습니다.
 
@@ -33,7 +40,18 @@ Batching.ai의 고급 AI 이미지 생성 기술은 이미지의 다양성 생�
 
 여기서 Batching.ai에 대해 더 알아보세요: [여기](https://www.batching.ai)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Masa Community에 참여해보세요! 👨‍🚀
 

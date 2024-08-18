@@ -3,17 +3,13 @@ title: "사이버렌즈 - TryHackMe 후기"
 description: ""
 coverImage: "/assets/img/2024-05-27-CyberLens-TryHackMeWriteup_0.png"
 date: 2024-05-27 12:37
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-CyberLens-TryHackMeWriteup_0.png
 tag: Tech
 originalTitle: "CyberLens - TryHackMe Writeup"
 link: "https://medium.com/bugbountywriteup/cyberlens-tryhackme-writeup-d3320449ce41"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-05-27-CyberLens-TryHackMeWriteup_0.png)
 
@@ -23,9 +19,18 @@ isUpdated: true
 
 참고: 이 문서는 꽤 직관적이며 현실적으로 마주치게 될 많은 막다른 곳을 건너뛰고 있습니다. 시간이 오래 걸리거나 윤리적 해킹에 완전히 새로운 경우에만 사용하는 것이 좋습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![사진](/assets/img/2024-05-27-CyberLens-TryHackMeWriteup_1.png)
 
@@ -35,8 +40,18 @@ isUpdated: true
 
 nmap 스캔을 시작하기 전에 방 노트에 표시된 대로 호스트 파일에 cyberlens.thm 항목을 추가해야 합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 약 5분 후, 다음과 같은 전체 포트 nmap 스캔을 실행해 주세요:
 
@@ -48,7 +63,18 @@ nmap -sV -T5 -Pn -p- -oN ./nmap_scan <IP> -vv
 
 포트 80의 웹 서버를 조사하려면 브라우저를 열고 해당 웹 사이트로 이동하세요. 다음과 같은 내용을 볼 수 있어야 합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사이트를 둘러보다 보면 '사이버렌즈 이미지 추출기'를 찾을 수 있어요. 이 기능을 테스트하면 이미지를 가져와 메타데이터를 보여줍니다. 페이지 소스를 보면 모든 마법이 일어나는 JavaScript를 볼 수 있어요.
 
@@ -56,7 +82,18 @@ nmap -sV -T5 -Pn -p- -oN ./nmap_scan <IP> -vv
 
 추출기는 작업을 수행하기 위해 다른 포트와 통신하는 것으로 보입니다. 브라우저에서 조금 더 자세히 살펴보자고요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 http://cyberlens.thm:61777에 Apache Tika 1.17이 실행 중인 것을 확인할 수 있어요.
 
@@ -66,7 +103,18 @@ Metasploit에서 Apache Tika를 검색하면 Apache Tika Header Command Injectio
 
 ## 공격
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Metasploit을 열고 위의 Apache Tika 모듈을 검색해보세요. RHOSTS, RPORT, SRVHOST, 그리고 LHOST를 설정해야 합니다 (마지막 두 개에는 OpenVPN 또는 Attackbox IP를 사용하세요).
 
@@ -76,7 +124,18 @@ Exploit을 실행하면 셸을 얻을 수 있습니다. C:\Users\CyberLens\Deskt
 
 ## 권한 상슨
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 세션을 백그라운드로 전환하고 Multi Recon Local Exploit Suggester 모듈을 검색해보세요. 이 모듈은 관리자 권한을 얻기 위한 일부 로컬 익스플로잇을 제공할 것입니다. SESSION을 설정한 다음 실행하세요.
 
@@ -86,7 +145,18 @@ Exploit을 실행하면 셸을 얻을 수 있습니다. C:\Users\CyberLens\Deskt
 
 ![이미지](/assets/img/2024-05-27-CyberLens-TryHackMeWriteup_7.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금은 관리자 권한을 갖고 있습니다. 이를 확인하려면 쉘을 열고 whoami를 입력하세요.
 
@@ -96,7 +166,18 @@ Exploit을 실행하면 셸을 얻을 수 있습니다. C:\Users\CyberLens\Deskt
 
 ![이미지](/assets/img/2024-05-27-CyberLens-TryHackMeWriteup_9.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실제로는 모든 것이 이렇게 쉽지 않을 수도 있습니다. 중요한 건 인내심이에요. 실제로 처음으로 시도했을 때의 개인 노트입니다 📝:
 

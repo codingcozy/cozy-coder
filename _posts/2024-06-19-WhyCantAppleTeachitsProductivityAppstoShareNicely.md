@@ -3,17 +3,13 @@ title: "애플이 왜 그들의 생산성 앱들에게 공유를 잘하게 가�
 description: ""
 coverImage: "/assets/img/2024-06-19-WhyCantAppleTeachitsProductivityAppstoShareNicely_0.png"
 date: 2024-06-19 01:13
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-WhyCantAppleTeachitsProductivityAppstoShareNicely_0.png
 tag: Tech
 originalTitle: "Why Can’t Apple Teach its Productivity Apps to Share Nicely"
 link: "https://medium.com/@jbkendrick_50942/why-cant-apple-teach-its-productivity-apps-to-share-nicely-707c083d6890"
 isUpdated: true
 ---
-
-
-
-
 
 ![img](/assets/img/2024-06-19-WhyCantAppleTeachitsProductivityAppstoShareNicely_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 몇 가지 예시를 살펴봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 노트
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ## 노트를 리마인더로 캘린더로
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Notes 앱에는 실제로 누락된 기능이지만 Reminders 앱에서 주요하게 처리됩니다. 노트에 알림을 추가하는 방법은 해당 노트를 Reminders로 공유하는 것입니다.
 
@@ -41,7 +59,18 @@ Notes 앱에는 실제로 누락된 기능이지만 Reminders 앱에서 주요�
 
 그 후, 새로운 링크된 리마인더에 원하는 알림 매개 변수를 추가하세요. 아래는 예시입니다. 원래 노트로 편리하게 연결된 링크를 주목하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 조금 색다른 방식을 사용해서 협업 기능을 해킹했지만, 그렇다고 해서 문제 없이 작동합니다. 이렇게 우회 방법으로 모든 알림 요구를 충족시킬 수 있어서 불만을 제기하기는 좀 과한 것 같아요.
 
@@ -51,7 +80,18 @@ Notes 앱에는 실제로 누락된 기능이지만 Reminders 앱에서 주요�
 
 하지만, 이번에는 알림이나 노트로 돌아갈 링크가 없고, 원본 알림을 변경하면 캘린더 이벤트를 삭제해서 다시 알림을 캘린더로 끌어와야 합니다. 분명히 일을 좀 해결해야 할 부분이 있고, 이 부분은 개선이 필요한 영역입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아이폰은 어떠신가요? 리마인더에는 공유 시트가 없고, 텍스트를 선택하고 공유를 시도해도 캘린더가 작동하지 않아요.
 
@@ -61,8 +101,18 @@ Notes 앱에는 실제로 누락된 기능이지만 Reminders 앱에서 주요�
 
 캘린더 이벤트를 메모와 공유하는 것은 정말 쉬워요, 적어도 데스크톱에서는요. MacOS에서는 단순히 캘린더에서 원하는 노트로 이벤트를 끌어다 놓기만 하면 돼요. 리마인더의 노트처럼 편리한 링크가 제공돼요. 링크를 더블 클릭하여 캘린더 이벤트를 열 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-06-19-WhyCantAppleTeachitsProductivityAppstoShareNicely_2.png)
 
@@ -72,8 +122,18 @@ Notes 앱에는 실제로 누락된 기능이지만 Reminders 앱에서 주요�
 
 ## Reminders
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미 달력에 리마인더를 공유하는 방법을 설명했지만, 메모에 리마인더를 공유하는 방법은 어떨까요?
 
@@ -83,7 +143,18 @@ Notes 앱에는 실제로 누락된 기능이지만 Reminders 앱에서 주요�
 
 다음은 몇 가지 제안 사항입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - MacOS, iPadOS 및 iOS에서 캘린더, 노트 및 알림을 위한 공유 시트에 세 앱을 모두 추가하세요.
 - MacOS에서 모든 캘린더 이벤트, 노트 또는 알림을 세 응용 프로그램 중 하나로 끌어다 놓을 수 있도록 허용하고, 원본 응용 프로그램으로 되돌아가는 링크를 제공하세요.

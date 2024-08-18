@@ -3,17 +3,13 @@ title: "Amazon Bedrock를 사용한 RAG 솔루션 - Part 2 Bedrock Converse API�
 description: ""
 coverImage: "/assets/img/2024-07-07-RAGsolutionusingAmazonBedrock-Part2BuildtheMCQorchestratorusingBedrockConverseAPI_0.png"
 date: 2024-07-07 20:27
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-RAGsolutionusingAmazonBedrock-Part2BuildtheMCQorchestratorusingBedrockConverseAPI_0.png
 tag: Tech
 originalTitle: "RAG solution using Amazon Bedrock - Part 2: Build the MCQ orchestrator using Bedrock Converse API"
 link: "https://medium.com/@vivek-aws/rag-solution-using-amazon-bedrock-part-2-build-the-mcq-orchestrator-using-bedrock-converse-api-61c2b2ce3f20"
 isUpdated: true
 ---
-
-
-
-
 
 Generative AI 데모는 Well-Architected Machine Learning Lens PDF를 활용하여 Machine Learning Engineer Associate (MLA-C01) 자격증 시험을 준비하는 데 도움이 됩니다.
 
@@ -23,7 +19,18 @@ Generative AI 데모는 Well-Architected Machine Learning Lens PDF를 활용하�
 
 ## 필수 준비 사항
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - AWS 계정
 - AWS CLI
@@ -40,12 +47,21 @@ AWS CDK가 설치되어 있고 사전 준비 조건에 따라 초기화되었는
 
 이 프로젝트의 전체 소스 코드는 GitHub 레포지토리에서 찾을 수 있습니다. 릴리스 브랜치 v0.2.0을 사용하여 다음 명령을 사용하여 저장소를 복제하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 git clone -b v0.2.0 https://github.com/awsdataarchitect/opensearch-bedrock-rag-cdk.git && cd opensearch-bedrock-rag-cdk
 npm i
-
 
 이전 포스트의 첫 부분에서 설명한 대로 CDK 프로젝트에서 AOSS 클러스터를 배포했는지 확인하세요.
 
@@ -54,8 +70,18 @@ npm i
 - app.py: 이 Streamlit 애플리케이션은 사용자 입력을 가져와 answer_query 함수로 보내고 생성된 객관식 문제를 표시합니다.
 - query_against_openSearch.py: 이 스크립트는 Amazon Bedrock과 통신하여 임베딩을 생성하고 OpenSearch에서 KNN 검색을 실행하며 Bedrock Converse API를 사용하여 객관식 문제를 생성하고 형식을 지정합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Key Points
 
@@ -68,7 +94,18 @@ npm i
 
 ## Step 1: Set Up the Python Virtual Environment
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 이 Proof of Concept (POC)의 루트 디렉토리에 Python 가상 환경을 설정하세요. Python 3.10을 사용하고 있는지 확인해주세요. 아래 명령어를 실행해보세요:
 
@@ -81,7 +118,18 @@ python3.10 -m venv venv
 
 가상 환경을 만든 후 다음 명령어로 활성화하세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **스텝 2: 필수 패키지 설치**
 
@@ -91,7 +139,18 @@ python3.10 -m venv venv
 pip install -r requirements.txt
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 3: 환경 변수 구성하기
 
@@ -103,7 +162,18 @@ profile_name=<CLI_profile_name>
 
 Amazon Bedrock에 액세스할 수 있는 AWS CLI 프로필을 가지고 있는지 확인해 주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 스텝 4: 애플리케이션 실행하기
 
@@ -115,7 +185,18 @@ streamlit run app.py
 
 브라우저에서 애플리케이션이 정상적으로 작동하면, 질문을 시작하고 자연어 응답을 생성할 수 있어요. 아마존 베드락 대화 API가 대화 기록과 컨텍스트를 관리할 거에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2024년 8월 13일에 AWS Machine Learning Engineer Associate (MLA-C01) 자격증의 공식 학습 안내서가 출시되면, 해당 안내서에서 주제 이름을 사용하여 MCQ 문제를 생성할 수 있습니다. 현재는 MLS-C01 (AWS Machine Learning Specialty Certification) 시험 안내서에서 "오프라인 및 온라인 모델 평가(A/B 테스팅) 수행" 주제를 사용했습니다. 스샷에서 확인할 수 있듯이:
 
@@ -139,7 +220,18 @@ Bedrock Converse API를 사용하여 샘플 주제에 대한 모든 질문을 �
 
 이와 같은 방식으로 나머지 질문들을 만들 수 있습니다. 부담 없이 질문이나 도움이 필요하신 경우 언제든지 문의해주세요. 감사합니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 응답 메타데이터 및 토큰 수 계속 기록하기
 
@@ -152,7 +244,18 @@ usage: {'inputTokens': 579, 'outputTokens': 1600, 'totalTokens': 2179}
 latencyMs: {'latencyMs': 34931}
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **안내: 이용 횟수는 앱에서 마지막으로 한 API 호출에 대한 것입니다. 이 토큰 수를 사용하여 API 호출 비용을 추적할 수 있습니다. 토큰 기반 가격 책정에 대한 자세한 내용은 Amazon Bedrock 가격 페이지에서 확인하십시오.**
 
@@ -166,6 +269,17 @@ latencyMs: {'latencyMs': 34931}
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 시리즈의 이 부분에서는 Amazon Bedrock의 Converse API를 활용한 Streamlit 애플리케이션을 만들었습니다. 이 애플리케이션은 객관식 문제를 생성하고 평가하는데 도움이 될 것입니다. 이 MCQ 조정자는 AWS Machine Learning Engineer Associate (MLA-C01) 자격증 시험을 준비하는 후보자들이 Well-Architected Machine Learning Lens PDF를 기반으로 목표 지향적인 연습을 할 수 있도록 도와줄 것입니다. 이 시리즈의 다음 부분을 기대해 주세요. 거기에서 우리의 RAG 솔루션을 더 발전시킬 것입니다.

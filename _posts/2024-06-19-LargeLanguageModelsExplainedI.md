@@ -3,17 +3,13 @@ title: "대형 언어 모델 설명  I"
 description: ""
 coverImage: "/assets/img/2024-06-19-LargeLanguageModelsExplainedI_0.png"
 date: 2024-06-19 19:23
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-LargeLanguageModelsExplainedI_0.png
 tag: Tech
 originalTitle: "Large Language Models Explained — I"
 link: "https://medium.com/@prasannasanjay1/large-language-models-explained-i-62a55999b7a2"
 isUpdated: true
 ---
-
-
-
-
 
 안녕하세요! ChatGPT가 어떻게 작동하는지 궁금했던 적이 있나요? ChatGPT-3.5는 무료로 제공되지만 ChatGPT-4는 유료인 이유가 궁금하신가요? 그와 같은 대안이 있는지 알아보고 싶나요? 이 기사에서 ChatGPT에 대해 도는 모든 질문에 답해보겠습니다. ChatGPT에 대한 기술적 세부사항에만 근거하여 수학이나 ChatGPT 뒤에 있는 프로그램에 대한 내용은 제외할 것입니다.
 
@@ -23,7 +19,18 @@ ChatGPT를 이해하기 위해서는 뉴럴 네트워크가 무엇인지 알아�
 
 인간 뇌와 유사하게, 여기서 관심 있는 뉴럴 네트워크는 정보를 흡수하고 처리할 수 있는 여러 뉴런으로 이루어져 있습니다. 기본 뉴럴 네트워크의 추상적인 구조는 다음과 같을 것입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![그림](/assets/img/2024-06-19-LargeLanguageModelsExplainedI_1.png)
 
@@ -33,7 +40,18 @@ n-gram과 같은 전통적인 언어 모델은 이전 단어에 기초하여 문
 
 이제 CNN(Convolutional Neural networks), RNN(Recurrent Neural Networks), Feed Forward Neural Networks 등과 같은 다양한 유형의 신경망이 있습니다. RNN은 ChatGPT의 기초를 형성합니다. 와우!! 물론, 기본 RNN에는 많은 단점이 있습니다. 따라서 RNN을 기초로 하는 Long Short Term Memory 신경망(LSTM)이 만들어졌습니다. 심지어 LSTM도 잘 작동하지 않았기 때문에 Encoder-Decoder 모델이 제안되었습니다. 인코더는 입력 시퀀스를 받아 고정 길이 벡터로 처리합니다. 이 벡터는 출력 시퀀스를 생성하는 디코더로 보내집니다. (참고: 각 인코더와 디코더에는 여러 개의 신경망이 내장되어 있습니다.) 그러나 인코더가 처리하기에 입력 시퀀스가 너무 길면 정보가 손실될 수 있습니다. 이 문제를 해결하기 위해 어텐션 메커니즘이 제안되었으며, 이를 통해 디코더는 입력 시퀀스를 다시 살펴보고 시퀀스의 중요한 부분에만 주의를 기울일 수 있습니다. 마지막으로, Transformer 아키텍처는 인코더-디코더 모델에서 어텐션 메커니즘의 사용을 결합하여 산업에 혁명을 일으켰습니다! Transformer 모델은 특히 긴 데이터 시퀀스를 처리하는 데 능숙합니다. 기계 번역 및 텍스트 생성과 같은 자연어 처리 작업에 적합합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 (참고: 위 단락에서는 자세히 설명하지 않았습니다. 대신, 모든 것을 깊이 있는 연구할 수 있는 모든 필요한 링크를 제공했습니다. 다가오는 기사에서도 모든 것을 자세히 다룰 예정입니다).
 
@@ -43,7 +61,18 @@ Large Language Models는 방대한 양의 데이터로 훈련된 언어 모델�
 
 Generative Pre-trained Transformer (GPT)은 Encoder만 사용하는 BERT 및 Encoder-Decoder를 사용하는 BART와 달리 Decoder 모델만 사용하는 LLM 중 하나입니다. 본 문서에서는 GPT-3.5를 고려합니다. 이는 약 96개의 레이어와 175B의 파라미터를 가진 풍부한 데이터로 훈련되었습니다. ChatGPT는 이전 버전인 GPT-3의 세분화된 버전으로, ‘Reinforcement Learning With Human Feedback’(RLHF)라는 개념을 포함하고 있습니다. 3.5 버전은 텍스트 생성에만 중점을 둔 것으로, 텍스트 형식으로 묻는 질문에 텍스트 형식으로 답변합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 실제로 어떻게 작동하는 건가요?
 
@@ -53,7 +82,18 @@ Generative Pre-trained Transformer (GPT)은 Encoder만 사용하는 BERT 및 Enc
 
 ![이미지](/assets/img/2024-06-19-LargeLanguageModelsExplainedI_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로, GPT는 실제로는 신경망에 의해 형성된 LLM이기도 합니다. 따라서 어떤 질문을 하면, 이는 사전 훈련된 모델을 테스트하는 것이며 우리가 얻는 답변은 모델의 예측입니다. 하지만 모델이 어디에서 실행되는 걸까요? 모델을 로컬 머신에서 실행시킬 수 있을까요? 사전 훈련된 모델을 특정 도메인 질문에 대답하도록 할 수 있을까요?
 이 모든 질문에 대한 답변은 다음 기사에서 제공할 예정입니다. 그때까지 지식에 대한 갈증을 유지해 주세요!

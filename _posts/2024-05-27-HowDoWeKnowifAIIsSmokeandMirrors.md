@@ -3,17 +3,13 @@ title: "AI가 다물고 보니 연기와 거울일까요"
 description: ""
 coverImage: "/assets/img/2024-05-27-HowDoWeKnowifAIIsSmokeandMirrors_0.png"
 date: 2024-05-27 14:49
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-HowDoWeKnowifAIIsSmokeandMirrors_0.png
 tag: Tech
 originalTitle: "How Do We Know if AI Is Smoke and Mirrors?"
 link: "https://medium.com/towards-data-science/how-do-we-know-if-ai-is-smoke-and-mirrors-16ed5b6877aa"
 isUpdated: true
 ---
-
-
-
-
 
 ## "AI 혁명"이 인쇄 기계인지, 암호폐인지에 대한 사려 (스포일러: 둘 다 아님)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 시작하기 전에, 최근에 나의 사고를 형성시킨 이 문제의 다양한 측면을 보여주는 3가지 일화를 알려드리겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 최근 금융 컨설턴트와 대화를 나누었어요. 그는 그의 기관의 임원들이 AI가 경제 장면에서 실질적인 변화라고 말하며, 투자 전략은 혁명적으로 취급해야 한다는 조언을 전했다고 언급했어요. 그는 머신러닝 산업의 실무자로서 내 생각을 알고 싶어했죠. 나는 친구들과 독자들에게 이전에 말해왔던 대로, 지나치게 과대 퍼징된 혹은 진짜 가치를 알아보려고 기다리고 있다고 말했어요. 혹은 단지 허무주의 사이클이나 순식간의 현상이 아니다. 이 혹은 사이클은 아직도 진행 중이에요.
 
@@ -37,7 +44,18 @@ isUpdated: true
 
 AI는 완전한 사기가 아니에요. 머신러닝은 정말 복잡한 작업을 자동화하고 효과적으로 확장할 수 있는 기회를 제공해줘요. AI가 우리 세계와 경제 전반에 모든 것을 바꿀 것이라는 것은 아니에요. 그것은 도구이지만, 대부분의 경우 인간 노동을 대체하지는 않을 거에요. 그리고 AGI가 현실적인 전망이 아니에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 왜 말하느냐면, 설명해 드릴게요.
 
@@ -47,7 +65,18 @@ AI는 완전한 사기가 아니에요. 머신러닝은 정말 복잡한 작업�
 
 일반 대중과 기계 학습 전문가들에게 AI가 의미하는 것에 대해 이야기하면 두 그림이 매우 다르게 나올 거에요. 이에 대해 이전에 글을 썼지만, 여기서 다시 언급할 필요가 있어요. 우리는 AI에 어떤 것을 기대하고 있나요? 우리가 "인공지능"이라는 용어를 사용할 때 어떤 의미를 부여하고 있나요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나에게 있어 인공지능은 기본적으로 "머신 러닝 모델을 사용하여 작업을 자동화하는 것"입니다. 그 이상도 이하도 아냐. 머신 러닝 모델이 매우 복잡하다면 어떤 복잡한 작업을 자동화할 수 있지만, 비교적 한정된 작업을 하는 작은 모델들도 여전히 이에 포함됩니다. 머신 럽엥 모델이 정말 무엇을 하는지에 대해 길게 쓰긴 했지만, 간단히 말하면: 데이터에서 패턴을 수학적으로 분석하고 재현하는 것이죠. 그러니까, 우리는 데이터의 패턴을 수학적으로 나타낸 것을 사용하여 작업을 자동화하는 것입니다. 인공지능은 우리가 기록된 역사의 사건 패턴을 바탕으로 다음 단계를 선택하는 것이다, 사람들이 쓴 텍스트의 역사, 주택 가격의 역사 또는 그 외 다른 모든 것의 역사일지라도 말이에요.
 
@@ -57,7 +86,18 @@ AI는 완전한 사기가 아니에요. 머신러닝은 정말 복잡한 작업�
 
 하지만 이것과 "지식" 사이에는 뚜렷한 차이가 있어요. 바위를 던져보면 ChatGPT가 사실을 제대로 이해하지 못하고 항상 환각한다고 하는 소셜 미디어 쓰레드를 찾을 수 있어요. ChatGPT는 결코 "사실을 생산하는 로봇"이 아니에요. 그저 큰 언어 모델일 뿐이에요. 언어를 다룹니다. 지식은 실제 사실 이상의 것이며, 사실이 무엇을 의미하는지 이해하는 엔티티를 의미하며 더 많은 것을 포함하고 있어요. 현재의 방법론과 우리에게 제공되는 기술을 사용해서 머신 러닝 모델이 이 수준에 이르는 것에 대한 위험은 없어요. 몇몇 사람들이 현재의 방법과 기술을 사용하면 "AGI"라고 불리는 것에 도달할 것이라 지적하는 것들이 있지만 말이죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 사람들이 ChatGPT를 보고 AGI를 원한다면, 정보나 현실에 대한 이해력이 사람들과 동등하거나 더 뛰어난 기계 학습 모델 형태를 원하는 것은 완전히 현실적이지 않은 기대일 것입니다. (참고: 이 산업 분야에서는 AGI의 임박한 도래를 허세 부리며 PR에 강조하지만, 압박 당하면 AGI의 정의를 현실적인 것으로 크게 변경하여 자신들의 과대광고에 대한 책임을 피하려고 할 것입니다.)
 
@@ -67,7 +107,18 @@ AI가 혁명적일 것이라는 나의 회의에 직면해서, 나의 금융 자
 
 # 실용적인 한계
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아마 여러분은 내 첫 번째 주장이 현재 모델 훈련을 위한 기술 능력과 오늘 사용되는 방법에 기반한다는 것을 생각하실 수도 있고, 그것은 합리적인 의견입니다. 훈련과 기술을 계속 발전시켜 더 복잡한 생성 모델을 만들어내는 경우, 아주 새로운 것이 만들어질 수 있는 시점에 도달할까요? 우리가 더 이상 "AGI"라고 말하는 것이 만들어질 수 있는 시점에 도달할까요? 하늘은 끝이 없는 범위가 아니라고요?
 
@@ -77,7 +128,18 @@ AI가 혁명적일 것이라는 나의 회의에 직면해서, 나의 금융 자
 
 오늘은 돈/에너지/금속의 제약 사항에 대해 논의하는 것을 건너뛸 것이며 AI의 자연 자원 및 에너지 영향에 대해 다른 글을 계획 중이기 때문입니다. 하지만 전력 소비에 대한 논의를 위해 Verge로 이동해보세요. 우리는 모두 에너지가 무한한 자원이 아님을 알고 있습니다, 심지어 재생 가능 에너지도 마찬가지이며, 우리는 이미 소규모 국가에 해당하는 전기 소비를 기계 모델 훈련에 투입하고 있습니다 - AI 거래꾼들이 과대 광고한 것에 접근하지 못하는 모델입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나는 AI 기업들이 직면하는 규제 및 법적 도전들이 가능성이 있다고 생각해요. 이전에도 썼었지만, 이 문제는 그들이 할 수 있는 일에 제한을 둘 수밖에 없을 거에요. 어떤 기관도 법 위에 있어서나 제한 없이 존재해서는 안 되고, 지구의 자연 자원을 모두 낭비하여 AGI를 만들려고 하는 것은 혐오스럽다고 생각해요.
 
@@ -87,7 +149,18 @@ AI가 혁명적일 것이라는 나의 회의에 직면해서, 나의 금융 자
 
 비즈니스를 설득하고, 자원을 확보하고, 모델을 구축하고 유지하는 데 필요한 일을 경험해본 사람으로서, 이 작업이 “할 수 있는 건가?”보다는 실제로는 “우선순위와 제한된 자원과 경쟁 속에서 이것을 하는 게 옳은 일인가?”라는 게 진짜 문제에요. 종종, 모델을 구축하고 작업을 자동화하는 데 구현하는 것은 회사의 시간과 돈을 쓸 가치 있는 방법이 아니라서 프로젝트가 쓰여질 수도 있다는 거죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -97,7 +170,18 @@ AGI는 현재 완전히 다른 상상 속의 존재입니다. AGI가 존재한�
 
 더 많은 저의 작품은 www.stephaniekirmer.com에서 확인하실 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 참고 자료
 

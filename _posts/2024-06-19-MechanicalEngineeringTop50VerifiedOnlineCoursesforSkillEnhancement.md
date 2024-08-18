@@ -3,17 +3,13 @@ title: "기계 공학 스킬 향상을 위한 확인된 온라인 강좌 상위 
 description: ""
 coverImage: "/assets/img/2024-06-19-MechanicalEngineeringTop50VerifiedOnlineCoursesforSkillEnhancement_0.png"
 date: 2024-06-19 17:29
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-MechanicalEngineeringTop50VerifiedOnlineCoursesforSkillEnhancement_0.png
 tag: Tech
 originalTitle: "Mechanical Engineering: Top 50 Verified Online Courses for Skill Enhancement"
 link: "https://medium.com/@rizwanquadri95/mechanical-engineering-a-curated-collection-of-free-verified-courses-6d140b3bf332"
 isUpdated: true
 ---
-
-
-
-
 
 온라인 교육을 통해 집에서 편안하게 필요한 기술을 습득할 수 있다는 것이 매우 흥미로운 점입니다. 세계 어디에서든 이점을 누릴 수 있어요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 10년 전, 나는 기계 및 항공우주 공학 학부생으로서 온라인 교육의 힘을 활용하기 시작했습니다. 그때부터 기계 공학 기술을 확장하기 위한 노력으로 전 세계의 명문 대학으로부터 14개의 검증된 자격증을 획득했습니다. 또한, 비인증 트랙에서 50개 이상의 강좌를 수료함으로써 소중한 지식을 얻었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문서에서는 세계적으로 유명한 대학들이 제공하는 무료 및 검증된 기계 공학 과목(MOOCs) 목록을 정리했습니다.
 
@@ -32,7 +39,18 @@ isUpdated: true
 - edX
 - Coursera
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - NPTEL (National Program on Technology Enhanced Learning)
 - MIT OpenCourseWare (OCW)
@@ -41,7 +59,18 @@ isUpdated: true
 
 # 과정 카테고리
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 및 과거 MOOC(Massive Open Online Course)를 다양한 제공업체에서 철저히 조사한 결과, 이러한 강좌들을 아래 기사 이미지에 나와 있는 8 개 부문으로 분류했습니다:
 
@@ -51,8 +80,18 @@ isUpdated: true
 
 edX:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대부분의 edX 코스는 무료로 강의를 청강할 수 있어요. 이를 통해 당신의 속도로 편안하게 강의를 수강하고 모든 자료와 강의에 무료로 접근할 수 있어요. 하지만, 코스 완료를 증명하는 인증서를 받고 싶다면 일반적으로 수수료를 지불해야 해요. 인증서는 수수료가 발생할 수 있지만, 전체 비용을 지불할 수 없는 사람들을 위한 재정 지원도 제공돼요. 저 또한 몇 번의 경우 수강료의 90%까지를 지원받아 큰 도움을 받았어요.
 
@@ -60,7 +99,18 @@ Coursera:
 
 Coursera도 무료 강의 청강을 제공하며, 자료에 접근할 수 있지만 과제 평가와 인증서는 제외돼요. 그럼에도 불구하고, 코스 콘텐츠와 학습 자료에 대한 광범위한 접근이 가능해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 학습자들은 무료로 NPTEL 코스에 등록할 수 있어요. 이를 통해 강의 비디오, 과제, 그리고 퀴즈를 포함한 코스 콘텐츠에 접속할 수 있어요. 일반적으로 수료 후 인증을 받기 위해서는 수수료가 필요하며, 이는 선택 사항이며 행정 비용을 포함해요. 인증이 필수적이지 않다면 무료로 교육 콘텐츠에 여전히 접속할 수 있어요.
 
@@ -70,18 +120,40 @@ MIT OpenCourseWare은 완전히 무료이며 일반인에게 개방돼 있어요
 
 # 교육과정 목록:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이곳은 온라인 개방형 강좌들의 종합 목록입니다:
 
 제조업:
 
 1. 제조 공정 기본지식 — 매사추세츠 공과대학교 edX (MITx)에서 진행
-(마이클 좋아하는 강좌, MIT의 존 하트 교수님 강의)
+   (마이클 좋아하는 강좌, MIT의 존 하트 교수님 강의)
 
 2. Monozukuri: 물건 만들기 — 도쿄 공과대학교 edX (TokyoTechX)에서 진행
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 컴퓨터 수치 제어 소개 — TenarisUniversity on edX (Tenaris Corporate)
 
@@ -91,7 +163,18 @@ MIT OpenCourseWare은 완전히 무료이며 일반인에게 개방돼 있어요
 
 6. 기계 설계 파트 I — 조지아 공과대학의 쿠르세라
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제품 디자인 및 개발:
 
@@ -101,7 +184,18 @@ MIT OpenCourseWare은 완전히 무료이며 일반인에게 개방돼 있어요
 
 3. 제품 디자인: 델프트 디자인 접근법 — edX의 델프트 공과대학 (DelftX)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. 엔지니어링 및 제품 디자인 프로세스 - Coursera의 애리조나 주립 대학교
 
@@ -111,7 +205,18 @@ MIT OpenCourseWare은 완전히 무료이며 일반인에게 개방돼 있어요
 
 7. 디자인 및 제조 II - MIT OpenCourseWare
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 8. 제품 디자인 및 제조 - 인도 기술 연구소, 캔푸르 (IIT)의 NPTEL
 
@@ -121,7 +226,18 @@ MIT OpenCourseWare은 완전히 무료이며 일반인에게 개방돼 있어요
 
 2. 구조공학의 예술: 다리 - edX의 프린스턴 대학교 (PrincetonX)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. The Art of Structural Engineering: Vaults — Princeton University on edX (PrincetonX)
 
@@ -131,18 +247,40 @@ MIT OpenCourseWare은 완전히 무료이며 일반인에게 개방돼 있어요
 
 6. Stability and Design of Structural Members — Purdue University on edX (PurdueX)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 7. 구조 역학의 기초 — Coursera의 ISAE SUPAERO
 
 재료 과학:
 
 1. 재료 역학 및 공학 역학: Coursera의 조지아 공과 대학교에서 진행하는 8과목 시리즈
-(아마도 제프 웨인트만 박사가 지도하는 조지아 공과 대학교의 가장 포괄적인 강의 모음으로, 정적 및 재료 강도에 관한 모든 것을 배울 수 있습니다)
+   (아마도 제프 웨인트만 박사가 지도하는 조지아 공과 대학교의 가장 포괄적인 강의 모음으로, 정적 및 재료 강도에 관한 모든 것을 배울 수 있습니다)
 
 2. 재료 행동 — Coursera의 조지아 공과 대학교
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 재료 처리 — Coursera의 조지아 공과대학
 
@@ -150,10 +288,21 @@ MIT OpenCourseWare은 완전히 무료이며 일반인에게 개방돼 있어요
 
 의료기기:
 
-1. 인체 해부학: 근골격 사례 — edX(HarvardX)의 하버드 대학 온라인 강의 
-(의료 기기 산업에서 일하려는 기계 공학자를 위한 이 과정은 해부학의 복잡한 세부 사항을 이해하는데 좋은 기초가 됩니다. Van Houten 교수님은 훌륭한 강사입니다)
+1. 인체 해부학: 근골격 사례 — edX(HarvardX)의 하버드 대학 온라인 강의
+   (의료 기기 산업에서 일하려는 기계 공학자를 위한 이 과정은 해부학의 복잡한 세부 사항을 이해하는데 좋은 기초가 됩니다. Van Houten 교수님은 훌륭한 강사입니다)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 생명 의공학자가 되고 싶다면 - edX(UCSanDiegoX)에서 캘리포니아 대학 샌디에고(University of California, San Diego) 강의
 
@@ -163,10 +312,21 @@ MIT OpenCourseWare은 완전히 무료이며 일반인에게 개방돼 있어요
 
 자동차:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1. 전문 자격증: 전기 자동차 - Delft 대학교 (DelftX)에서 edX로 수료
-(전기 자동차의 기초, 기술, 비즈니스 및 정책에 중점을 둔 4개 과정으로 구성되어 있습니다. 이러한 각 과정을 무료로 개별적으로 수강하거나 전문 자격증을 획들하기 위해 유료 버전을 선택할 수 있습니다.)
+   (전기 자동차의 기초, 기술, 비즈니스 및 정책에 중점을 둔 4개 과정으로 구성되어 있습니다. 이러한 각 과정을 무료로 개별적으로 수강하거나 전문 자격증을 획들하기 위해 유료 버전을 선택할 수 있습니다.)
 
 2. 전기 및 일반 차량 - Chalmers 대학교 (ChalmersX)에서 edX로 수료
 
@@ -174,7 +334,18 @@ MIT OpenCourseWare은 완전히 무료이며 일반인에게 개방돼 있어요
 
 4. 자동차 공학에서 도로 교통 안전 - Chalmers 대학교 (ChalmersX)에서 edX로 수료
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5. 자동차 시스템의 기초, 인도 기술 연구소, 마드라스 교수들의 NPTEL(IIT)
 
@@ -184,19 +355,41 @@ MIT OpenCourseWare은 완전히 무료이며 일반인에게 개방돼 있어요
 
 1. 메카트로닉스 혁명: 기초 및 핵심 개념 - 조지아 공과대학의 edX (GTx)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 로보틱스 기초 I: 로봇 모델링 — 나폴리 페데리코 2세 대학교 edX(FedericaX)에서
 
 - Hello (Real) World with ROS — 로봇 운영 시스템 — 드레흐트 공과대학 edX(DelftX)에서
 
 - 로보틱스 전문 과정 — 펜실베이니아 대학교 Coursera에서
-(로봇공학에 관한 6개의 과정 시리즈와 마무리로 캡스톤 과정이 있습니다)
+  (로봇공학에 관한 6개의 과정 시리즈와 마무리로 캡스톤 과정이 있습니다)
 
 - 현대 로보틱스 전문 과정 — 노스웨스턴 대학교 Coursera에서
-(또 다른 흥미진 6개의 과정 시리즈로, 마지막에 캡스톤 프로젝트가 제공됩니다)
+  (또 다른 흥미진 6개의 과정 시리즈로, 마지막에 캡스톤 프로젝트가 제공됩니다)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 기타:
 
@@ -207,31 +400,64 @@ MIT OpenCourseWare은 완전히 무료이며 일반인에게 개방돼 있어요
 
 3. [운동과 힘, 에너지 및 중력 역학: 입자에서 행성까지](https://www.coursera.org/ns) — 뉴사우스웨일스 대학교의 Coursera
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. Forensic Engineering: Learning from Failures — Delft University of Technology on edX (DelftX)
-(공학적 실패로부터 배우기 및 그 원인을 찾는 과정에 대한 조사 방법을 이해합니다)
+   (공학적 실패로부터 배우기 및 그 원인을 찾는 과정에 대한 조사 방법을 이해합니다)
 
 5. Question Everything: Scientific Thinking in Real Life — The University of Queensland on edX (UQx)
-(수학과 과학을 활용하여 일상 문제를 해결하는 방법을 배워 비판적 사고력을 키웁니다)
+   (수학과 과학을 활용하여 일상 문제를 해결하는 방법을 배워 비판적 사고력을 키웁니다)
 
 6. Generative Design for Manufacturing — Coursera에서 Autodesk가 제공하는 4개 과정의 시리즈
 
 7. CS50: Introduction to Computer Science — Harvard University Online on edX (HarvardX)
-(프로그래밍을 배우는 것은 기계 공학자를 위한 귀중한 기술입니다. 처음부터 프로그래밍을 배우려 한다면 이 강좌보다 나은 곳이 없습니다)
+   (프로그래밍을 배우는 것은 기계 공학자를 위한 귀중한 기술입니다. 처음부터 프로그래밍을 배우려 한다면 이 강좌보다 나은 곳이 없습니다)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 8. 공개 연설 소개 - edX에서 워싱턴 대학교(UWashingtonX) 강좌
-(기계 공학자로서의 효과적인 커뮤니케이션은 특히 공급 업체와 프로젝트 발표와 관련하여 전문적 성공의 핵심 요소입니다)
+   (기계 공학자로서의 효과적인 커뮤니케이션은 특히 공급 업체와 프로젝트 발표와 관련하여 전문적 성공의 핵심 요소입니다)
 
 9. 학술 및 비즈니스 글쓰기 - edX에서 캘리포니아 대학 버클리 캠퍼스(BerkeleyX) 강좌
 
 ## 결론
 
-이 *세심하게* 선별된 강좌 목록이 기계 공학 커뮤니티에 도움이 되기를 바랍니다. 아래 댓글 섹션에서 피드백과 새로운 발견을 자유롭게 공유해 주세요. 저는 계속해서 이 글을 새로운 강좌와 통찰로 업데이트할 예정입니다.
+이 _세심하게_ 선별된 강좌 목록이 기계 공학 커뮤니티에 도움이 되기를 바랍니다. 아래 댓글 섹션에서 피드백과 새로운 발견을 자유롭게 공유해 주세요. 저는 계속해서 이 글을 새로운 강좌와 통찰로 업데이트할 예정입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 중요한 공지
 
@@ -241,7 +467,18 @@ MIT OpenCourseWare은 완전히 무료이며 일반인에게 개방돼 있어요
 
 온라인 학습을 실무 프로젝트, 인턴십, 또는 공식 학위와 결합하면 광범위한 교육을 제공받을 수 있고 취직 시 경쟁력을 높일 수 있습니다. 또한 직무 요구사항과 직접적으로 관련된 인증서와 강좌들은 당신의 기술이 특정 직책의 필요에 부합함을 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 이 기사를 즐겨 읽으셨다면, LinkedIn과 다른 플랫폼에서 공유해 주시면 감사하겠습니다. 동료 기계 공학자들 사이에 지식을 공유합시다.
 

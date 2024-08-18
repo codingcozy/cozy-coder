@@ -3,17 +3,13 @@ title: "윈도우의 개념적 여정  Windows 패키지 관리자"
 description: ""
 coverImage: "/assets/img/2024-06-19-TheWindowsConceptJourneyWindowsPackageManager_0.png"
 date: 2024-06-19 15:38
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-TheWindowsConceptJourneyWindowsPackageManager_0.png
 tag: Tech
 originalTitle: "The Windows Concept Journey — Windows Package Manager"
 link: "https://medium.com/@boutnaru/the-windows-concept-journey-windows-package-manager-0452231e89c4"
 isUpdated: true
 ---
-
-
-
-
 
 일반적으로, 우리는 패키지 매니저를 소프트웨어를 자동으로 설치/구성/업데이트하는 도구 세트로 정의할 수 있습니다. (https://learn.microsoft.com/en-us/training/modules/explore-windows-package-manager-tool/2-explain-purpose-of). "Microsoft Store" (https://medium.com/@boutnaru/the-windows-concept-journey-microsoft-store-formally-windows-store-75d7f2d5370b)가 있더라도 "Windows Package Manager"는 여전히 매우 관련이 있습니다 (https://www.windowscentral.com/software-apps/is-overreliance-on-copilot-chatgpt-making-you-dumber)
 
@@ -23,6 +19,17 @@ isUpdated: true
 
 다음 글에서 만나요 ;-) 제 트위터 @boutnaru를 팔로우해 주세요 (https://twitter.com/boutnaru). 또한 엠디엠에서 다른 글을 읽으실 수도 있습니다 - https://medium.com/@boutnaru. 무료 eBook은 https://TheLearningJourneyEbooks.com에서 찾아보실 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-06-19-TheWindowsConceptJourneyWindowsPackageManager_0.png](/assets/img/2024-06-19-TheWindowsConceptJourneyWindowsPackageManager_0.png)

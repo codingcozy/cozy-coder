@@ -3,17 +3,13 @@ title: "Numerai Crypto 소개 암호화폐 시장 예측의 미래"
 description: ""
 coverImage: "/assets/img/2024-06-19-IntroducingNumeraiCryptoTheFutureofCryptocurrencyMarketPrediction_0.png"
 date: 2024-06-19 03:48
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-IntroducingNumeraiCryptoTheFutureofCryptocurrencyMarketPrediction_0.png
 tag: Tech
 originalTitle: "Introducing Numerai Crypto: The Future of Cryptocurrency Market Prediction"
 link: "https://medium.com/numerai/introducing-numerai-crypto-the-future-of-cryptocurrency-market-prediction-1ed23356e913"
 isUpdated: true
 ---
-
-
-
-
 
 Numerai는 분산화되고 대중화된 예측 시장의 선두 주자로 손꼽혀 왔습니다. 2017년에는 이더리움의 가치가 단지 12달러였던 시점에서 우리의 토큰 Numeraire(NMR)를 출시했습니다. 전 세계에서 수천 명의 가장 우수한 데이터 과학자들을 모아 매일 우리 플랫폼에 1300만 달러 가치 이상의 NMR을 걸고 협업하고 있습니다. 매일 수천 개의 머신 러닝 모델을 실행하여 매년 100억 건 이상의 세계 주식 예측을 생성합니다. 우리는 앙상블에 대한 모델 기여를 평가하는 고급 지표인 MMC를 만들어 독특한 신호 성능을 확인할 수 있도록 했습니다.
 
@@ -23,7 +19,18 @@ Numerai와 Signals에 담긴 이 선도적 노력들은 예측 시장의 표준�
 
 아마도 주식 시장이 잘 정립되어 있고 트렌드가 잘 연구되어 있기 때문일 수도 있습니다... 또는 머신 러닝에 적합한 데이터가 가장 간단하고 고품질인 것이 원인일 수도 있습니다. Numerai 커뮤니티가 주식 시장을 예측하는 데 성공을 거두어 그것이 익숙하고 편안하기 때문일 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주식 시장이 크라우드소싱 인텔리전스가 성공할 수 있는 유일한 곳인가요? 그리고 메타 모델은 Numerai의 전용 IP가 될 수밖에 없나요?
 
@@ -33,7 +40,18 @@ Numerai와 Signals에 담긴 이 선도적 노력들은 예측 시장의 표준�
 
 Numerai Crypto
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 거래를 하려고 하는데요. 팔기 버튼 위에 커서를 올려놓고 "전반적인 시장 매물 매입" 속에서 최근 기사들을 의존하고 있습니다. 그런데 갑자기 미래의 라이브 피드를 보게 됩니다. 이 피드는 Numerai의 최고 데이터 과학자들에 의해 구축되었는데, 그들은 모든 데이터 소스와 인공 지능 기술을 사용하여 모델을 학습할 수 있습니다. 수천 개의 모델에서 나온 최고의 예측이 통합되어 당신에게 전달됩니다. 이 피드가 다가올 주에 시장을 과performers-performers로 예측할 수 있다면 어떨까요?
 
@@ -43,7 +61,18 @@ Numerai는 이 상황을 상상할 뿐만 아니라 경험했습니다. 오늘�
 
 # Numerai Crypto는 선두 주자입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리의 기존 플랫폼은 전통 주식 시장에만 초점을 맞추고 있었지만, 우리는 오랫동안 암호화폐 시장을 흥미롭게 생각해 왔습니다. Numerai Crypto를 통해 우리의 목표는 다음과 같습니다:
 
@@ -55,20 +84,42 @@ Numerai는 참여자들의 예측이나 Numerai Crypto Meta Model을 거래에 �
 
 # 암호화폐의 미래에 함께하세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Numerai Crypto는 새로운 도전 방법을 제공하며 데이터 과학을 배우고 암호화폐의 미래에 영향을 미치고 NMR을 벌거나 태우는 것이 가능합니다. 여러분이 참여할 수 있는 방법은 다음과 같습니다:
 
 - 가입하기: Numerai Crypto를 방문하여 계정을 생성하고 가입하세요. 이 계정으로 세계에서 가장 어려운 데이터 과학 대회에 참여할 수 있습니다.
 - 데이터 다운로드: 우리는 유동성이 있는 암호화폐들의 우주를 생성하고 이를 사용하여 과거의 수익 대상을 생성했습니다. 이 대상은 우리의 우주가 이후 4주 동안 경험한 순위별 수익을 대표합니다. 여러분의 역할은 모델이 시간이 지남에 따라 토큰들의 상대 수익을 학습하는 데 사용할 수 있는 올바른 예측 데이터를 찾는 것입니다.
 - 예측하고 제출하기: 매일 우리의 우주의 미래 순위별 수익을 예측하세요. 예측을 업로드하기 위해 웹사이트나 API(예: NumerAPI 또는 RNumerai와 같은 패키지를 통해)를 사용하세요. 저희 API는 여러분의 제출을 확인할 것입니다. 제출 예시는 다음과 같습니다:
-![numerai-crypto-submission](/assets/img/2024-06-19-IntroducingNumeraiCryptoTheFutureofCryptocurrencyMarketPrediction_0.png)
+  ![numerai-crypto-submission](/assets/img/2024-06-19-IntroducingNumeraiCryptoTheFutureofCryptocurrencyMarketPrediction_0.png)
 
 - 관찰하기: 여러분이 예측을 제출한 후 약 일주일 후에 평가가 시작되며 실제 암호화폐 시장과 비교하여 그 다음 한 달 동안 진행됩니다. 이 기간 동안 여러분의 모델이 어떻게 수행되는지 확인하세요. 4주가 지나면 점수가 확정되며 여러분의 모델은 Numerai Crypto 리더보드에 위치하게 됩니다.
 - 스테이크하기: 원하는 경우 예측에 NMR을 걸어 성능에 따라 벌거나 태우는 옵션을 선택할 수 있습니다. 이 과정은 필수가 아니며 신뢰할 수 있는 모델에만 스테이크하세요. 모든 스테이크 참여자의 평균 예측은 Numerai Crypto 메타 모델을 형성합니다.
 - 탐색하고 공유하기: Numerai 커뮤니티 포럼과 디스코드에 가입하여 기계 학습 및 암호화폐 시장 전략에 대한 아이디어를 탐구, 실험하고 공유하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Numerai Crypto에 대한 자세한 내용은 문서에서 확인할 수 있어요.
 
@@ -78,6 +129,17 @@ Numerai Crypto 2024 시즌이 곧 시작됩니다. Numerai 그랜드마스터의
 
 또한 예제 모델을 공개하고 토큰 유니버스와 목표를 생성하는 데 사용된 코드를 오픈 소스로 공개하기 시작할 예정입니다. 이를 통해 Numerai와 Numerai Crypto에서 경쟁하는 데이터 과학자들이 함께 협력하여 최고 수준의 암호화폐 예측 시장을 만들어 나갈 수 있기를 바랍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Numerai는 암호화폐 거래를 하지 않으며, Numerai의 헤지 펀드는 Numerai Crypto와 관련이 없습니다. Numerai Crypto 토너먼트는 실험적인 대회이며, Numerai Crypto 메타 모델은 투자 조언이 아니며 거래 결정에 사용되는 것을 의도하지 않습니다. 모델의 공개와 성능 추적은 정보 및 오락 목적으로만 사용됩니다. Numerai는 Numerai Crypto 메타 모델을 기반으로 한 개인 또는 기관의 재정 결정에 대해 책임지지 않습니다.

@@ -3,17 +3,13 @@ title: "조시ai, 커스텀 설치자들의 작업 흐름을 간소화하는 Spe
 description: ""
 coverImage: "/assets/img/2024-06-19-JoshaiSpecifiPartnertoStreamlineWorkflowsforCustomInstallers_0.png"
 date: 2024-06-19 17:11
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-JoshaiSpecifiPartnertoStreamlineWorkflowsforCustomInstallers_0.png
 tag: Tech
 originalTitle: "Josh.ai , Specifi Partner to Streamline Workflows for Custom Installers 📝"
 link: "https://medium.com/@joshdotai/josh-ai-specifi-partner-to-streamline-workflows-for-custom-installers-0855a34f8e15"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-19-JoshaiSpecifiPartnertoStreamlineWorkflowsforCustomInstallers_0.png" />
 
@@ -25,7 +21,18 @@ Specifi와의 이번 파트너십은 Josh.ai가 딜러들에게 최고 수준의
 - 견적 작성 시 Josh.ai 대표 및 기술 지원팀과 실시간 협업이 가능합니다.
 - Josh.ai 솔루션을 효과적으로 전시하는 전문적이고 시각적으로 매력적인 제안서를 작성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-JoshaiSpecifiPartnertoStreamlineWorkflowsforCustomInstallers_1.png" />
 
@@ -35,6 +42,17 @@ Specifi IO는 2021년에 북아일랜드 벨파스트에서 설립되었습니�
 
 ## Josh.ai 소개
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2015년에 설립된 Josh.ai는 덴버를 기반으로 하는 회사로, 일상생활에서 기술과 진정한 자연스러운 상호 작용을 가능하게 하는 플랫폼과 제품을 만들고 있습니다. AI, 기계 학습 및 직관적인 디자인에 초점을 맞춰, Josh.ai의 미션은 우리가 환경 속에서 살아가는 방식을 변화시키는 것입니다. Josh.ai가 제공하는 간단하고 비공개적이며 마법같은 스마트 홈 경험에 대해 더 알아보려면 www.josh.ai을 방문하거나 hello@josh.ai로 이메일을 보내주세요.

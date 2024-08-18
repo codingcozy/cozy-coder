@@ -3,17 +3,13 @@ title: "Rust 기반 터미널 설정에 필요한 모든 가이드"
 description: ""
 coverImage: "/assets/img/2024-08-03-TheBESTFullyRust-basedTerminalSetup_0.png"
 date: 2024-08-03 20:17
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-03-TheBESTFullyRust-basedTerminalSetup_0.png
 tag: Tech
 originalTitle: "The BEST Fully Rust-based Terminal Setup"
 link: "https://medium.com/@nanthony007/the-best-fully-rust-based-terminal-setup-f6384ea3de1d"
 isUpdated: true
 ---
-
-
-
-
 
 터미널과 러스트 기반 도구만 사용한 개발 환경 전체적인 개요에 대해 간략히 살펴보겠습니다.
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 시작하기 전에 한 가지 주관적인 의견을 먼저 전하겠습니다. 왜 러스트 기반 도구를 선택한 이유일까요? 러스트는 C나 C++로 이전에 작성된 많은 도구를 혁신하고 있는 안전한 메모리 언어입니다. 이것에 대해 저를 믿어주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Terminal](/assets/img/2024-08-03-TheBESTFullyRust-basedTerminalSetup_0.png)
 
@@ -34,8 +40,18 @@ Alright, enough small talk, let's dive in! We'll start from the outside and move
 
 ## The Terminal
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 터미널 에뮬레이터가 필요합니다. 제 macOS에서 사용하기에는 이 선택이 꽤 명확해 보였어요. Warp. Warp는 놀라운 기능들이 많이 있어서 당신이 예상하지 못한 터미널의 기능이 정말 도움이 됩니다. 주목할 몇 가지는:
 
@@ -48,7 +64,18 @@ Alright, enough small talk, let's dive in! We'll start from the outside and move
 
 Warp에서 제가 크게 좋아하지 않는 것은 하단 기반 인터페이스인 것 뿐… 단순히 말하자면 제 프롬프트를 위에 두고 이전에 실행된 셀들을 아래에 두는 것을 선호할 뿐이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 Mac을 사용하지 않거나 크로스 플랫폼 에뮬레이터를 선호한다면, 저는 Alacritty도 시도해보았고 꽤 좋아합니다.
 
@@ -58,8 +85,18 @@ Warp에서 제가 크게 좋아하지 않는 것은 하단 기반 인터페이�
 
 Zellij! Zellij은 Rust로 작성된 tmux 대안입니다. 제게 가장 큰 장점 중 하나는 화면 분할 및 탭 이동 버튼이 함께 제공된다는 것입니다. 이를 통해 화면 및 탭을 어떻게 이동할지 확인할 수 있습니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![TheBESTFullyRust-basedTerminalSetup_2](/assets/img/2024-08-03-TheBESTFullyRust-basedTerminalSetup_2.png)
 
@@ -69,9 +106,18 @@ It also comes with built-in layout supports.
 
 Nushell! This shell is new (get it?) on the market and blazing fast! It takes a structured data approach to the shell and brings modern technological expectations (including built-in fetch to the shell). Borrowing some ideas from Powershell, it consumes structured data and even allows you to open and interact with files as tables!
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-08-03-TheBESTFullyRust-basedTerminalSetup_3.png)
 
@@ -81,8 +127,18 @@ Nushell! This shell is new (get it?) on the market and blazing fast! It takes a 
 
 우리의 첫 번째 보너스에요! 누쉘 테이블은 실제로 데이터 테이블입니다! 만약 파이썬에 익숙하다면 이것들은 기본적으로 팬더스 테이블과 비슷합니다. 다만, 팬더스를 사용하는 대신 @polars를 사용해요. 이것은 Rust 기반 데이터 프레임 라이브러리에요! 그래서 (거의) 팬더스에서 할 수 있는 모든 것들을 누쉘 테이블에도 적용할 수 있어요!
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-08-03-TheBESTFullyRust-basedTerminalSetup_4.png)
 
@@ -92,7 +148,18 @@ Starship! 이 프롬프트는 화려하게 빠르며, 많은 인기있는 쉘과
 
 ![이미지](/assets/img/2024-08-03-TheBESTFullyRust-basedTerminalSetup_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대안으로 oh-my-zsh/fish를 추천드립니다. (다만 슬로우하고 부풀어 있는 점이 있어요) 쉘에 따라 다르지만, Starship을 사용하는 걸 권해드릴게요.
 
@@ -102,11 +169,33 @@ Exa! Exa는 ls를 예쁜 아이콘과 그리드로 변경해줘요. 이 아이�
 
 ![이미지](/assets/img/2024-08-03-TheBESTFullyRust-basedTerminalSetup_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 마크다운 형식으로 변경해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 내가 추천하는 유일한 대안은 Lua 기반인 LunarVimf이고 꽤 멋지지만 Helix와 달리 플러그인으로 느려질 수 있어요.
 
@@ -116,7 +205,18 @@ Exa! Exa는 ls를 예쁜 아이콘과 그리드로 변경해줘요. 이 아이�
 
 @links to all
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - ripgrep: 더 나은, 빠른 grep
 - ripgrep-all: 이진 파일용 ripgrep
@@ -130,6 +230,17 @@ Exa! Exa는 ls를 예쁜 아이콘과 그리드로 변경해줘요. 이 아이�
 
 이 스타일 기사가 마음에 들었으면하고 유익하게 여겼으면 좋겠습니다! 이 도구들 중 일부를 시도해보세요. 아마도 그 중 일부를 들어보지 못했을지도 모릅니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 흥미로운 내용을 발견했거나 새로운 도구를 알게 되었다면 한 번 클랩을 해주시고 더 많은 이런 기사를 보려면 저를 팔로우해주세요!

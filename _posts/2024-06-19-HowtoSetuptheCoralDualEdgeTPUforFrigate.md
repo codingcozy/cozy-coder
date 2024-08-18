@@ -3,18 +3,13 @@ title: "Coral Dual Edge TPU를 Frigate를 위해 설정하는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-19-HowtoSetuptheCoralDualEdgeTPUforFrigate_0.png"
 date: 2024-06-19 18:15
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-HowtoSetuptheCoralDualEdgeTPUforFrigate_0.png
 tag: Tech
 originalTitle: "How to Setup the Coral Dual Edge TPU for Frigate"
 link: "https://medium.com/@timothydmoody/how-to-setup-the-coral-dual-edge-tpu-for-frigate-9a7f645dc915"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![이미지](/assets/img/2024-06-19-HowtoSetuptheCoralDualEdgeTPUforFrigate_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 여기서부터 모든 것을 간소화하는 이 스크립트를 사용하시면 됩니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 curl -sS https://gist.githubusercontent.com/dataslayermedia/8676e010a9121adaaab8e6dc98bca383/raw/f208dbb5e3efda51b75183c67e8dc857e375234e/Install-Coral-PCIe-Accelerator-TPU-Linux.sh | bash
@@ -39,7 +44,18 @@ sudo reboot
 
 장치 확인
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 lspci -nn | grep 089a
@@ -53,7 +69,18 @@ Apex 장치를 확인하세요
 ls /dev/apex_*
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-HowtoSetuptheCoralDualEdgeTPUforFrigate_2.png" />
 
@@ -77,7 +104,18 @@ echo \
 sudo apt-get update
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
@@ -91,7 +129,18 @@ docker ps -a
 
 <img src="/assets/img/2024-06-19-HowtoSetuptheCoralDualEdgeTPUforFrigate_4.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # MQTT(Mosquitto) 설치
 
@@ -106,28 +155,46 @@ sudo systemctl is-enabled mosquitto
 sudo systemctl status mosquitto
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래와 같이 테이블 태그를 Markdown 형식으로 변경해주세요.
-
 
 ![이미지](/assets/img/2024-06-19-HowtoSetuptheCoralDualEdgeTPUforFrigate_5.png)
 
 MQTT 구성 파일을 편집합니다.
 
 ```js
-vim /etc/mosquitto/mosquitto.conf
+vim / etc / mosquitto / mosquitto.conf;
 ```
 
 이 두 줄을 추가하세요...
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 allow_anonymous true
 listener 1883
-
 
 설정 파일은 다음과 같이 보일 것입니다...
 
@@ -135,7 +202,18 @@ listener 1883
 
 VIM에서 “:x” 입력 후 엔터 키를 눌러 저장하고 종료하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 서비스를 저장하고 다시 시작하세요
 
@@ -147,7 +225,18 @@ systemctl restart mosquitto
 
 ![이미지](/assets/img/2024-06-19-HowtoSetuptheCoralDualEdgeTPUforFrigate_7.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 루트 디렉터리에서 "frigate"라는 디렉터리를 만들어 config.yml 파일을 추가하세요.
 
@@ -285,7 +374,16 @@ birdseye:
 logger:
   # Optional: 기본 로그 상세도 (기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 구성은 PCIe TPU에 모두 준비가 되어 있으며 프레임에서 사람을 감지하면 녹화를 합니다. 해상도는 HD이고 프레임 속도는 높습니다(25 FPS). 이 모든 것은 필요에 맞게 조정할 수 있습니다.
 
@@ -295,9 +393,19 @@ hostname -I
 
 IP 카메라가 있다면이 프로세스가 훨씬 쉽습니다. 하지만 제가 저렴한 웹캠을 사용하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```
+
 ![이미지](/assets/img/2024-06-19-HowtoSetuptheCoralDualEdgeTPUforFrigate_8.png)
 
 프리게이트 도커 컨테이너 실행
@@ -321,8 +429,18 @@ docker run -d \
 
 노트: 우리는 apex 장치를 컨테이너로 모두 전달하고 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로컬 네트워크에서 Frigate 웹 UI를 열어보세요.
 
@@ -332,7 +450,18 @@ docker run -d \
 
 # RTSP 서버 만들기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 wget https://github.com/aler9/rtsp-simple-server/releases/download/v0.16.0/rtsp-simple-server_v0.16.0_linux_amd64.tar.gz
@@ -348,8 +477,18 @@ RTSP_RTSPADDRESS=192.168.XXX.XXX:554 ./rtsp-simple-server
 
 ![How to Setup the Coral Dual Edge TPU for Frigate](/assets/img/2024-06-19-HowtoSetuptheCoralDualEdgeTPUforFrigate_10.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # RTSP 서버로 웹캠 피드 스트리밍하기
 
@@ -363,7 +502,18 @@ sudo ffmpeg -f v4l2 -framerate 25 -video_size 1280x720 -i /dev/video0 -pix_fmt y
 
 IP 주소를 교체하는 것을 기억해 주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 브라우저에서 Frigate 열기
 
@@ -373,7 +523,18 @@ IP 주소를 교체하는 것을 기억해 주세요.
 
 [해당 스크립트는 여기에서 확인할 수 있어요](https://gist.github.com/dataslayermedia/fb20aae9dea64bca286b5e6d189027b8)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 curl -sS https://gist.githubusercontent.com/dataslayermedia/fb20aae9dea64bca286b5e6d189027b8/raw/a4f264ee7be546bdf5c3363bfafdc9597f9edd5c/real-time-temperature-output-coral-ai-pcie-accelerators.sh | bash
@@ -385,11 +546,20 @@ curl -sS https://gist.githubusercontent.com/dataslayermedia/fb20aae9dea64bca286b
 
 1080P 웹캠
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 표 형식을 변경한 것입니다.
-
 
 <img src="/assets/img/2024-06-19-HowtoSetuptheCoralDualEdgeTPUforFrigate_11.png" />
 
@@ -399,9 +569,18 @@ Coral AI Dual Edge TPU
 
 Zima Board
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Dual Edge TPU Adapter Low Profile](/assets/img/2024-06-19-HowtoSetuptheCoralDualEdgeTPUforFrigate_13.png)
 

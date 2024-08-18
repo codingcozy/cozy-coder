@@ -3,18 +3,13 @@ title: "경기 결과 비교 에이지 그레이딩, 퍼센타일, Z-스코어 �
 description: ""
 coverImage: "/assets/img/2024-06-22-AgeGradingPercentilesandZ-ScoresThreeWaystoCompareRaceResults_0.png"
 date: 2024-06-22 16:46
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-AgeGradingPercentilesandZ-ScoresThreeWaystoCompareRaceResults_0.png
 tag: Tech
 originalTitle: "Age Grading, Percentiles, and Z-Scores: Three Ways to Compare Race Results"
 link: "https://medium.com/runners-life/age-grading-percentiles-and-z-scores-three-ways-to-compare-race-results-ba8ebb88d47e"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![Image](/assets/img/2024-06-22-AgeGradingPercentilesandZ-ScoresThreeWaystoCompareRaceResults_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 현재 시스템인 연령 등급은 유용하지만 일부 결함이 있습니다. 많은 데이터를 수집하고 분석한 후, 연령 등급의 두 대체안인 백분위 및 z-점수를 제안했습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오늘은 한 걸음 물러나서 이 세 가지 다른 방법을 비교해 보고 싶었어요. 특히 연령 측정의 한 가지 문제는 어떤 그룹에 대해 다른 그룹보다 더 호의적으로 치우치는 것 같다는 점이에요. 대안들도 같은 문제를 가지고 있나요?
 
@@ -35,7 +40,18 @@ isUpdated: true
 
 # 이전의 연령 측정에 관한 이전 기사들 재고하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 시리즈는 한 가지 질문으로 시작했어요 — 서로 다른 연령 그룹과 성별 간의 경주 결과를 어떻게 효과적으로 비교할까요?
 
@@ -45,7 +61,18 @@ isUpdated: true
 
 또한, 평균 러너에게 그들의 결과가 전반적인 상황에 어떻게 맞는지 이해하는 데에는 그리 큰 도움이 되지 않을 수도 있어요 — 왜냐하면 얼마나 잘하든 항상 그 최고 가능 시간으로부터 멀리 떨어져 있기 때문이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 연령 채정은 최고의 러너들의 통계와 연구에 기반을 두고 개발되었지만, 이 문제를 다른 시각에서 바라보고 싶었습니다. 다른 모든 러너들과 어떻게 비교할까요?
 
@@ -55,7 +82,18 @@ isUpdated: true
 
 개별적으로 포함할 경주를 어떻게 고려할지 걱정하지 않고 전체 '시즌'의 러닝을 포착하기 위해 이 세 달을 선택했습니다. 어떤 경주는 빠를 수도 있고, 어떤 경주는 느릴 수도 있습니다. 종합적으로 말하면, 이들은 꽤 대표적입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 500명 이상의 참가자가 있는 레이스로 사정을 좁혔어요. 이로 인해 샘플 크기가 크게 줄진 않았지만, 스크레이핑 프로세스는 좀 더 쉬워졌어요.
 
@@ -65,7 +103,18 @@ isUpdated: true
 
 손에 있는 데이터를 활용하여, 첫 번째 대안으로 백분위수를 제안할 수 있었어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 본질적으로는 이 방법은 분포를 살펴보고 특정 결과가 그 분포 속 어디에 들어가는지를 알아내는 것입니다. 모든 결과를 살펴보면, 특정 시간보다 느리게 끝낸 러너들의 나이 그룹에서 어느 정도의 백분율이 되는지 말할 수 있고, 그 시간을 넘긴 백분율을 말할 수도 있습니다.
 
@@ -75,9 +124,20 @@ isUpdated: true
 
 그러나 추가 분석 결과, 내가 개발한 현재의 표가 어떤 그룹을 다른 그룹에 비해 좀 더 선호하는 경향이 있어 보입니다 — 특히 99.9번째 백분위에서 그렇습니다. 이 부분은 미래 버전에서 수정할 수 있을 것 같지만, 그건 나중 문제가 되겠죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-마지막으로, 최근의 논문에서는 z-점수가 레이스 결과를 비교하는 더 나은 방법을 제공하는지 살펴보았어요. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+마지막으로, 최근의 논문에서는 z-점수가 레이스 결과를 비교하는 더 나은 방법을 제공하는지 살펴보았어요.
 
 z-점수는 특정 데이터 포인트가 평균보다 얼마나 높거나 낮은지를 측정하는 지표에요. 간단히 말해, 각 분포의 평균과 표준 편차를 계산하고, 그런 다음 결과마다 표준화된 숫자가 할당되어 얼마나 빠르거나 느린지를 나타냅니다.
 
@@ -85,7 +145,18 @@ z-점수는 특정 데이터 포인트가 평균보다 얼마나 높거나 낮�
 
 퍼센타일은 더 나은 비교를 제공하기 위해 조정되고 보정될 수 있다고 생각하지만, z-점수는 그런 가능성이 없다고 생각해요. 그럼에도 불구하고, 현재 그들을 그대로 유지하여 맥락을 제공하는 데 도움을 주도록 하겠어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 다양한 연령 그룹에 공정한가요?
 
@@ -95,7 +166,18 @@ z-점수는 특정 데이터 포인트가 평균보다 얼마나 높거나 낮�
 
 이 질문을 바라보는 한 가지 방법은 각 연령 그룹을 대표하는 상위 러너들의 비율을 각 방법에 근거하여 살펴봄으로써 전체 샘플 중 각 연령 그룹의 비율을 비교하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반적으로, 그러한 분포가 꽤 유사할 것으로 기대됩니다. 아마도 더 많은 엘리트 선수들 때문에 보다 어린 연령 그룹이 과대표시될 것입니다. 그렇지만, 시스템이 공평하다면 — 큰 격차가 없어야 합니다.
 
@@ -105,7 +187,18 @@ z-점수는 특정 데이터 포인트가 평균보다 얼마나 높거나 낮�
 
 왼쪽 막대는 해당 연령 그룹의 전체 표본에서 참가자의 백분율입니다. 모든 것이 고률적으로 균등하게 분포되고 무작위로 되어 있다면, 100명의 그룹에서 몇 명의 참가자가 나타날 것으로 기대되는지를 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 번째 막대는 상위 100명 중 연령 등급에 따라 뛰는 사람의 수를 보여줍니다. 그런 다음 백분위수 기준으로 측정한 수, 마지막으로 Z-점수에 따른 숫자입니다.
 
@@ -115,7 +208,18 @@ z-점수는 특정 데이터 포인트가 평균보다 얼마나 높거나 낮�
 
 한 칸 더 옮겨서 백분위수를 전반적인 분포와 비교하면 문제가 반대로 전환됩니다. 35세 이하의 여성은 과대표되어 있습니다. 35세 미만의 남성은 여전히 과대표이지만, 다소 균형이 맞습니다. 다른 연령 그룹에 대해서는 그렇게 나쁘지 않습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 드디어, 전체 그래프에서 가장 부조화스러운 막대는 z-점수로 측정된 35세 미만 여성들입니다. 내가 그 글에서 언급한 것처럼, 그들은 그 모델에서 크게 유리합니다. 샘플의 모든 러너 중에 여성들이 35세 미만인 것은 100명 중 17명뿐인데, z-점수로 측정한 상위 완주자 중 53명이 그 나이 그룹에 속합니다. 이것은 문제입니다.
 
@@ -125,7 +229,18 @@ z-점수는 특정 데이터 포인트가 평균보다 얼마나 높거나 낮�
 
 백분위를 보면, 35세 미만의 남성들은 현실적인 위치로 돌아오지만, 35세 미만 여성들은 이제 과대표시되어 있습니다. 35-39세 여성들도 꽤 잘 하고 있습니다. 여성들 35-39세도 꽤 잘 하고 있습니다. 35세 미만의 남성들은 과대표시되어 있지만, 다시 말하지만, 차이는 그리 크지 않습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또 다른 문제는 이전에 주목하지 못했던 것인데, 45-49세, 50-54세 및 55-59세의 남성들이 여기에 상당히 소수를 차지하고 있습니다. 그들은 표본의 큰 부분을 차지하지만 상위 500명 중에는 매우 적습니다.
 
@@ -135,7 +250,18 @@ z-점수는 특정 데이터 포인트가 평균보다 얼마나 높거나 낮�
 
 이 정밀도 수준에서 백분위수에 따른 달리기자들의 분포가 가장 균등해 보입니다. 젊은 남성과 여성 모두 과다 표시되어 있지만 그 정도는 크지 않습니다. 반면 50대의 달리기자들은 그렇게 잘 나오지 않습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하루가 끝날 때, 이 데이터를 통해 세 가지 방법 모두 어떤 측면에서 균형이 잡히지 않았다고 생각합니다. 연령 성적은 어린 남성의 결과를 선호하는 경향이 있고, Z-점수는 어린 여성을 매우 선호합니다. 백분위수는 자체적인 불균형이 있지만 조금 더 정확하게 보정할 수도 있습니다.
 
@@ -145,7 +271,18 @@ z-점수는 특정 데이터 포인트가 평균보다 얼마나 높거나 낮�
 
 이 분석을 수행하기 위해 Python과 Pandas 패키지를 사용하여 많은 작업을 해왔습니다. 큰 샘플 집합을 준비하고, 룩업 테이블과 계산을 바탕으로 각 시스템에 기반한 결과를 빠르게 도출할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 그것이 독자인 당신을 돕지는 않아요.
 
@@ -155,7 +292,18 @@ z-점수는 특정 데이터 포인트가 평균보다 얼마나 높거나 낮�
 
 하지만, 이것을 통해 세 가지를 입력할 수 있어요 — 러너의 나이, 성별, 그리고 완주 시간 — 그리고 그들의 점수를 각각 세 가지 등급 시스템에 기반하여 볼 수 있어요. 나이 등급화된 시간, 나이 등급 점수, 동료들 사이에서의 백분위 순위, 그리고 결과의 Z-점수를 볼 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 미래에 조금 더 발전시킬 계획이지만, 지금은 초안 시스템이 있어서 여러분과 공유하는 것이 중요하다고 생각했어요.
 
@@ -165,7 +313,18 @@ z-점수는 특정 데이터 포인트가 평균보다 얼마나 높거나 낮�
 
 기술적 문제들에 대처하고자 2010년부터 2019년을 다루는 예전 (크고 더 많은) 데이터셋으로 시작하려고 했습니다. 이제 이 일을 하는 방법에 대해 잡았으니, 2023년부터 새 데이터를 수집하고 백분위 모델과 z-점수 모델을 업데이트할 계획입니다. 또한 이를 2023년 연령별 테이블과 비교할 예정입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그것은 다음 주 또는 그 다음 주 중순쯤 되실 예정입니다. 새 데이터를 수집한 뒤에 공유할 계획이에요.
 
@@ -175,7 +334,18 @@ z-점수는 특정 데이터 포인트가 평균보다 얼마나 높거나 낮�
 
 이 중에 관심 있으신 분이 있으면, 다음 몇 개의 기사를 받아보려면 이메일 업데이트를 구독하시기 바랍니다. 다음 두 주 또는 세 주 안에 게시할 예정이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 분석에 도움이 될 피드백이나 아이디어가 있다면 응답을 남겨주세요. 두 번째(또는 세 번째, 네 번째) 의견을 듣는 것이 항상 도움이 됩니다!
 

@@ -3,18 +3,13 @@ title: "클라우드 스토리지 시스템으로 macOS 타임 머신 사용하�
 description: ""
 coverImage: "/assets/img/2024-06-22-macOSTimeMachineonyourCloudStoragesystemOneDriveforme_0.png"
 date: 2024-06-22 16:19
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-macOSTimeMachineonyourCloudStoragesystemOneDriveforme_0.png
 tag: Tech
 originalTitle: "macOS Time Machine on your Cloud Storage system (OneDrive for me)"
 link: "https://medium.com/@vullnetyy/macos-time-machine-on-your-cloud-storage-system-onedrive-for-me-d3ae8f161b56"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![image](/assets/img/2024-06-22-macOSTimeMachineonyourCloudStoragesystemOneDriveforme_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 ## 요구 사항
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 원드라이브, 드롭박스, 구글 드라이브, 아이클라우드 등의 macOS 애플리케이션을 가지고 있는 클라우드 스토리지 시스템이 필요합니다. 이 애플리케이션은 로컬 파일을 클라우드로 자동 동기화하고 그 반대도 할 수 있습니다.
 - 해당 클라우드 서비스에 충분한 공간 또는 적절한 구독이 필요합니다.
@@ -44,7 +49,18 @@ isUpdated: true
 - 암호화 = 128비트 AES. 이 선택에 대한 자세한 내용은 아래의 긴 버전 기사에서 확인할 수 있습니다.
 - 파티션 = 기본값인 단일 파티션 — GUID 파티션 맵으로 유지합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. 새로운 스파스 번들 디스크 이미지를 저장할 위치를 선택하세요. 저는 OneDrive에 저장했습니다. 이 파일을 "이 장치에 항상 보관"으로 설정하여 OneDrive와 가장 좋은 경험을 얻을 수 있도록 해야 했습니다.
 
@@ -56,7 +72,18 @@ isUpdated: true
 sudo tmutil setdestination /Volumes/{마운트된-디스크-이미지}
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로 타임 머신을 구성해야 합니다.
 
@@ -68,7 +95,18 @@ sudo tmutil setdestination /Volumes/{마운트된-디스크-이미지}
 
 macOS에 로그인할 때 암호화된 드라이브(sparsebundle)를 자동으로 마운트하기.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 선택 사항이지만 **강력 추천**
 
@@ -89,7 +127,18 @@ macOS에 로그인할 때 암호화된 드라이브(sparsebundle)를 자동으�
 - /tmp
 - /etc
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 과정을 거친 후, 제 첫 번째 백업 파일 크기는 약 120GB였어요. Time Machine은 매번 새로운 백업을 실행할 때 깃(Git)처럼 첫 번째 백업 위에 변경 사항만 추가하는 똑똑한 기능을 갖고 있어요. 이제 업데이트가 빨라졌고, 내 컴퓨터에 문제가 생겨도 많은 설정, 유틸리티 앱 및 구성을 되찾을 수 있다는 안전함을 느껴요.
 
@@ -99,7 +148,18 @@ macOS에 로그인할 때 암호화된 드라이브(sparsebundle)를 자동으�
 
 ## 왜 Time Machine 백업을 클라우드에 저장해야 할까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나는 맥을 사용하기 시작한 지 얼마 되지 않았는데, 윈도우와 리눅스에서 온 나로써는 작지만 유용한 많은 기능이 누락되었음을 알았어. 그 중에서도 내가 정기적으로 의존하는 기능 중 하나는 화면의 왼쪽 반과 오른쪽 반에 창을 배치하는 기능이다. 맥에 정통한 친구들로부터 작은 응용 프로그램인 Magnet이 그 문제를 해결해 줄 수 있다는 것을 알았어. 나는 즉시 구매하고 문제를 충분히 해결했어. 이후에 내 맥을 최적화하는 방법에 대해 좀 더 탐구하다가 YouTube의 Snazzy Labs 채널을 발견했어. 이 두 영상을 통해 내가 매일 효과적으로 작업하는 데 많은 훌륭한 도구들을 얻을 수 있었어:
 
@@ -109,7 +169,18 @@ macOS에 로그인할 때 암호화된 드라이브(sparsebundle)를 자동으�
 
 누구도 나에게 이러한 도구들이나 Snazzy Labs YouTube 채널을 홍보하기 위해 돈을 주지 않았어, 나는 그저 내 경험을 공유하고 싶었을 뿐이야. 나는 이제 Alfred, Bartender, Magnet, Dropzone, Hotkey 등의 작은 맥 유틸리티 애플리케이션들에 의존하고 있어. 나는 또한 새로운 맥으로 이동해야 하거나 내 기기에 문제가 생기는 경우에 다시 그 모든 단계를 거치고 내가 한 사용자 정의사항을 기억해야 하는 것을 원하지 않아.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서 나는 클라우드 상의 타임 머신을 탐험하기 시작했어. 이미 Microsoft Office 365 패밀리 구독을 통해 OneDrive에서 1TB를 사용할 수 있었기 때문에, 그게 내가 가진 것이기 때문에 그냥 그것을 사용하기로 했지.
 
@@ -119,7 +190,18 @@ macOS에 로그인할 때 암호화된 드라이브(sparsebundle)를 자동으�
 
 그래서 나는 이것을 해결하기 위해 옷소매를 걷어차고 조각조각을 모아 이 문제를 해결해야 한다는 것을 깨달았어. 몇 시간 동안 파헤친 뒤, 결과에 만족하게 되어 이 문제를 해결하는 방법을 여러분에게 보여주기 위해 이 글을 쓰기로 결심했어.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## AES 암호화 토끼굴
 
@@ -129,7 +211,18 @@ macOS에 로그인할 때 암호화된 드라이브(sparsebundle)를 자동으�
 
 그 후 128비트 AES 암호화로 'sparse bundle 디스크 이미지'를 다시 만들었습니다. 더 빠르게 실행되었지만, macOS 자체에서 권장하는 것임에도 암호화가 충분히 안전하지 않을까 걱정했습니다. 확인하기 위해 구글링을 시작했고, crypto.stackexchange.com의 Lery가 브루스 슈나이어의 책 "Applied Cryptography"를 참조한 멋진 답변을 발견했습니다. 거기서 AES 256비트 키를 무차별 공격해도 더이상 단순한 연산만으로는 해독할 수 없다고 주장합니다. 다이슨 스피어에 대해 알지 못한다면, 즐거운 경험이 될 것입니다... 다이슨 스피어는 태양을 완전히 에워싸고 방출하는 에너지를 100% 캡처하기 위한 태양열 패널로 만들어진 이론적 공간입니다. 즐거운 시간을 보내려면 위키피디아 글을 확인하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요즘은 다이슨 구의를 사용하여 128비트 AES를 무차별 대입해 볼 수도 있을 거에요. 하지만 음... 나는 내 백업을 미래의 과학 소설 수준 문명에게서 보호하는 것을 계획하지 않았어요. 일단은 태양의 에너지를 이용해 나의 키를 얻으려고 할 만큼 오래 잡기 좋아할 필요는 없을 것 같아요.
 
@@ -139,7 +232,18 @@ macOS에 로그인할 때 암호화된 드라이브(sparsebundle)를 자동으�
 
 이 부분은 꽤 귀찮은 작업이었어요. 수동으로 다양한 캐시, 복구할 필요가 없다고 판단한 애플리케이션 등을 찾아야 했어요. Finder에서 크기별로 파일과 폴더를 정렬하고 주변을 둘러보는 방식으로 이를 수행했답니다. 놓친 몇 가지 흥미로운 시스템 및 숨겨진 파일 및 폴더를 추가해야 한다고 알려준 퀘어 답변도 발견했어요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 80개 항목까지 입력한 후, 뭔가 잘못했을 때 쉽게 복구할 수 있도록 목록을 내보낼 방법을 찾기로 결정했어요. 이렇게 하시면 됩니다:
 
@@ -151,6 +255,17 @@ macOS에 로그인할 때 암호화된 드라이브(sparsebundle)를 자동으�
 
 루니 툰즈 엔딩 음악이 들리면서요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그거면 됐어요!

@@ -3,7 +3,7 @@ title: "Jetpack Compose를 사용하여 SplashScreen API로 스플래시 스크�
 description: ""
 coverImage: "/assets/img/2024-08-17-HowtoImplementaSplashScreeninJetpackComposewiththeSplashScreenAPI_0.png"
 date: 2024-08-17 00:29
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-17-HowtoImplementaSplashScreeninJetpackComposewiththeSplashScreenAPI_0.png
 tag: Tech
 originalTitle: "How to Implement a Splash Screen in Jetpack Compose with the SplashScreen API"
@@ -11,7 +11,6 @@ link: "https://medium.com/kotlin-academy/how-to-implement-a-splash-screen-in-jet
 isUpdated: true
 updatedAt: 1723863713350
 ---
-
 
 <img src="/assets/img/2024-08-17-HowtoImplementaSplashScreeninJetpackComposewiththeSplashScreenAPI_0.png" />
 
@@ -21,7 +20,18 @@ updatedAt: 1723863713350
 
 앱 리소스를 준비하는 동안 대기 시간을 줄이기 위해 스플래시 화면을 사용할 수 있습니다. 스플래시 화면은 사용자에게 독특하고 매력적인 경험을 제공하지만 구축하기 어려울 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 블로그 포스트에서는 SplashScreen API를 사용하여 간단한 스플래시 화면을 만드는 방법을 배웁니다. 이 API에는 앱이 시작될 때 미리 정의된 애니메이션이 포함되어 있습니다:
 
@@ -33,20 +43,41 @@ updatedAt: 1723863713350
 
 # 구현 단계
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Android 11(API 30) 및 이하 버전의 사용자를 대상으로 합니다:
 
 - 빌드.gradle 파일에 SplashScreen 코어 라이브러리를 추가하세요.
 
 ```js
-implementation("androidx.core:core-splashscreen:1.0.1")
+implementation("androidx.core:core-splashscreen:1.0.1");
 ```
 
 2. drawable/splash_screen.xml 파일에 스플래시 화면 레이아웃을 위한 새로운 드로어블 리소스를 만드세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
@@ -58,8 +89,8 @@ implementation("androidx.core:core-splashscreen:1.0.1")
     <item
         android:gravity="center"
         android:drawable="@drawable/logo"/>
-</layer-list>
 
+</layer-list>
 
 <img src="/assets/img/2024-08-17-HowtoImplementaSplashScreeninJetpackComposewiththeSplashScreenAPI_1.png" />
 
@@ -72,17 +103,27 @@ implementation("androidx.core:core-splashscreen:1.0.1")
     <style name="Theme.LazaShop" parent="android:Theme.Material.Light.NoActionBar">
         <item name="android:statusBarColor">@color/white</item>
     </style>
-    
+
     <style name="Theme.App.Starting." parent="Theme.SplashScreen" >
         <item name="android:statusBarColor">@color/purple</item>
         <item name="android:windowBackground">@drawable/splash_screen</item>
     </style>
 
 </resources>
-``` 
+```
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. 새로운 SplashActivity를 만들고 코드를 추가하세요.
 
@@ -149,7 +190,18 @@ class SplashActivity : ComponentActivity() {
 </manifest>
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Android 12 (API 31) 이상 사용자 대상:
 
@@ -160,14 +212,25 @@ android {
     ...
     compileSdk 33
     ...
-    
-    
+
+
     }
 ```
 
 2. 아직 추가하지 않았다면 build.gradle 파일에 SplashScreen 코어 라이브러리를 추가하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 implementation("androidx.core:core-splashscreen:1.0.1")
@@ -191,8 +254,18 @@ implementation("androidx.core:core-splashscreen:1.0.1")
 
 ![이미지](/assets/img/2024-08-17-HowtoImplementaSplashScreeninJetpackComposewiththeSplashScreenAPI_2.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. 새로운 테마 스타일을 res/values-v31/themes.xml 파일에 추가하세요.
 
@@ -236,7 +309,18 @@ class SplashActivity: ComponentActivity() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 6. /manifests/AndroidManifest.xml 파일에서 시작 활동(SplashActivity)의 theme attribute을 Theme.App.Starting으로 설정하세요.
 
@@ -279,7 +363,18 @@ class SplashActivity: ComponentActivity() {
 
 # 요약
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 블로그 포스트를 통해 SplashScreen API를 사용하여 간단한 스플래시 화면을 만드는 방법을 배웠어요. 전체 코드 구현을 보려면 제 GitHub 프로필의 LazaShop 프로젝트를 확인해주세요.
 

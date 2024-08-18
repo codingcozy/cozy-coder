@@ -3,17 +3,13 @@ title: "맥도날드 자동화 매장 미래 패스트푸드의 핵심인가"
 description: ""
 coverImage: "/assets/img/2024-06-23-AreyoulovinitYoubetterMcDonaldsautomatedrestaurantisthefutureoffastfood_0.png"
 date: 2024-06-23 18:24
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-AreyoulovinitYoubetterMcDonaldsautomatedrestaurantisthefutureoffastfood_0.png
 tag: Tech
 originalTitle: "Are you lovin’ it? You better: McDonald’s automated restaurant is the future of fast food"
 link: "https://medium.com/enrique-dans/are-you-lovin-it-you-better-mcdonald-s-automated-restaurant-is-the-future-of-fast-food-c091d8dce548"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-23-AreyoulovinitYoubetterMcDonaldsautomatedrestaurantisthefutureoffastfood_0.png">
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이 기술을 사용한 회사에서 시험해본 첫 번째, 그리고 지금까지 유일한 레스토랑입니다. 이 기술이 빠르게 확산되어 곧 급식 패스트푸드 레스토랑 산업을 혁신할 것이라고 믿는 사람도 있습니다. 비판가들은 자동화로 인해 더 많은 일자리가 사라진다는 점, 주문이 잘못되었을 때나 누락된 물건이 있을 때, 또는 손님이 좀 더 케첩 봉지나 여분의 냅킨을 원할 때 어떤 일이 벌어질 지에 대해 언급합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기계로 사람을 대체하는 안정적인 교체는 돈을 절약하는 것과 관련이 있습니다. 이 경우, 텍사스의 시간당 7.25달러의 최저임금이나 다른 곳에서는 최대 15달러까지 절약 가능합니다. 이제는 코로나 이후 시나리오이며, 사람들이 점포에 발을 딛지 않고 음식을 배달 받거나 픽업하려고 하는 경향이 점점 늘어나고 있습니다. 더불어 높은 인플레이션, 낮은 임금으로 인해 낮은 임금의 기계적인 업무를 하려는 사람들이 줄어들고 있으며 임금 상승 압력도 있습니다…
 

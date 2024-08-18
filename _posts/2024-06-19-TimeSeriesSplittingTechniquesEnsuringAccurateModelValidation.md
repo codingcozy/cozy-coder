@@ -3,17 +3,13 @@ title: "시계열 분할 기술 정확한 모델 유효성 검증 보장하기"
 description: ""
 coverImage: "/assets/img/2024-06-19-TimeSeriesSplittingTechniquesEnsuringAccurateModelValidation_0.png"
 date: 2024-06-19 18:56
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-TimeSeriesSplittingTechniquesEnsuringAccurateModelValidation_0.png
 tag: Tech
 originalTitle: "Time Series Splitting Techniques: Ensuring Accurate Model Validation"
 link: "https://medium.com/@mouadenna/time-series-splitting-techniques-ensuring-accurate-model-validation-5a3146db3088"
 isUpdated: true
 ---
-
-
-
-
 
 시계열 데이터 작업 중이시군요. 멋지네요! 그러나 모델 훈련에 들어가기 전에 데이터를 나누는 방법에 대해 이야기해보죠. 시계열 데이터를 나눌 때는 날짜 순서를 유지하고 데이터 누수를 피하는 것이 중요합니다. 모델이 정확하고 신뢰할 수 있도록 유지하는 효과적인 시계열 분할 기술을 살펴봅시다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![Time Series Splitting Techniques Ensuring Accurate Model Validation](/assets/img/2024-06-19-TimeSeriesSplittingTechniquesEnsuringAccurateModelValidation_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 from sklearn.model_selection import TimeSeriesSplit
@@ -39,9 +46,18 @@ In the rolling window approach, your model moves forward in time with a fixed-si
 
 ![TimeSeriesSplittingTechniques](/assets/img/2024-06-19-TimeSeriesSplittingTechniquesEnsuringAccurateModelValidation_1.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이썬 코드:
 
@@ -56,11 +72,20 @@ for date in pd.date_range('2021-01-01', '2021-12-31', freq='M'):
 
 확장 창 분할을 사용하면 모델은 오래된 학습 세트로 시작하여 점차적으로 더 많은 관측 값을 포함하게 됩니다. 시간이 흐름에 따라 더 많은 데이터를 통합하여 지식을 축적하는 것과 같습니다.
 
-
 ![시각](/assets/img/2024-06-19-TimeSeriesSplittingTechniquesEnsuringAccurateModelValidation_2.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 for date in pd.date_range('2021-01-01', '2021-12-31', freq='M'):
@@ -74,7 +99,18 @@ The sliding window with a gap introduces a buffer zone between your training and
 
 ![TimeSeriesSplittingTechniquesEnsuringAccurateModelValidation](/assets/img/2024-06-19-TimeSeriesSplittingTechniquesEnsuringAccurateModelValidation_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 for date in pd.date_range('2021–01–01', '2021–12–31', freq='M'):
@@ -89,7 +125,18 @@ for date in pd.date_range('2021–01–01', '2021–12–31', freq='M'):
 
 # 참고 자료:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 https://robjhyndman.com/hyndsight/tscv/
 https://otexts.com/fpp3/tscv.html

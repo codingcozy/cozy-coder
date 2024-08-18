@@ -3,17 +3,13 @@ title: "인턴십 여정 회고 내 인생의 변화를 불러온 경험"
 description: ""
 coverImage: "/assets/img/2024-06-22-ReflectingonMyInternshipJourneyATransformativeExperience_0.png"
 date: 2024-06-22 18:03
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-ReflectingonMyInternshipJourneyATransformativeExperience_0.png
 tag: Tech
 originalTitle: "Reflecting on My Internship Journey: A Transformative Experience"
 link: "https://medium.com/@magantiganesh0353/reflecting-on-my-internship-journey-a-transformative-experience-ed0968e3bb41"
 isUpdated: true
 ---
-
-
-
-
 
 인턴십을 통해 전문가로 성장하는 여정에 돌입하면서 발견하고 배우고 성장하는 과정과 유사합니다. 인턴십 경험을 되돌아보면, 선택한 분야에 대한 시야와 나의 개인 발전에 얼마나 큰 영향을 미쳤는지 깨닫게 됩니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## 현실 세계의 도전에 몰입하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 든 딱 정착한 직후, 제 학문적 배경과 직업적 목표와 부합하는 다양한 프로젝트를 맡게 되었습니다. 이러한 프로젝트들을 통해 실제 세계에서 발생하는 도전들에 직면하게 되었는데, 이를 해결하기 위해 기술적 전문 지식 뿐만 아니라 비판적 사고와 창의성이 필요했습니다. 프로젝트 목표를 달성하기 위해 협력과 의사 소통의 중요성을 빨리 깨달았습니다. 경험 많고 전문적인 전문가들과 함께 일하는 것은 교과서로는 완벽히 담을 수 없는 산업 관행과 표준을 소중한 통찰력을 제공해 주었습니다.
 
@@ -33,9 +40,20 @@ isUpdated: true
 
 ## 도전은 성장의 기회로 변환
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-인턴십 도중에 마주한 여러 어려움을 극복하며 저는 탄력성과 적응력을 키웠어요. 때로는 어려워 보이는 과제나 처음에 기대한 것보다 어려운 상황을 만날 때도 있었죠. 하지만 각 어려움은 학습하고 지식을 쌓을 수 있는 기회로 바뀌었어요. 이러한 도전들을 극복하는 과정은 제 자신의 자신감을 높였을 뿐 아니라 계속해서 배우는 열정을 더욱 강화시켰어요. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+인턴십 도중에 마주한 여러 어려움을 극복하며 저는 탄력성과 적응력을 키웠어요. 때로는 어려워 보이는 과제나 처음에 기대한 것보다 어려운 상황을 만날 때도 있었죠. 하지만 각 어려움은 학습하고 지식을 쌓을 수 있는 기회로 바뀌었어요. 이러한 도전들을 극복하는 과정은 제 자신의 자신감을 높였을 뿐 아니라 계속해서 배우는 열정을 더욱 강화시켰어요.
 
 # 멘토십과 안내
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 # 개인 성장과 반성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전문적인 기술 능력을 넘어서, 인턴십 경험은 개인적인 성장의 시기였어요. 나의 강점과 개선할 부분을 발견하고, 시간 관리 능력을 개발하며, 일을 효과적으로 우선순위를 정하는 능력을 향상했어요. 더 나아가, 이 경험을 통해 긍정적인 태도를 유지하는 것의 중요성, 빠르게 변화하는 환경에서 적응하며 지속적인 성장을 위한 마음가짐을 기를 수 있었어요.
 

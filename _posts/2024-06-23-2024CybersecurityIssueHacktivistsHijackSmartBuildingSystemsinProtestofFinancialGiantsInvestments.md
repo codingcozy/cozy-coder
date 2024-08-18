@@ -3,17 +3,13 @@ title: "2024 사이버 보안 이슈 해크티비스트가 금융 대기업 투�
 description: ""
 coverImage: "/assets/img/2024-06-23-2024CybersecurityIssueHacktivistsHijackSmartBuildingSystemsinProtestofFinancialGiantsInvestments_0.png"
 date: 2024-06-23 17:07
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-2024CybersecurityIssueHacktivistsHijackSmartBuildingSystemsinProtestofFinancialGiantsInvestments_0.png
 tag: Tech
 originalTitle: "2024 Cybersecurity Issue: Hacktivists Hijack Smart Building Systems in Protest of Financial Giant’s Investments"
 link: "https://medium.com/purple-team/2024-cybersecurity-issue-hacktivists-hijack-smart-building-systems-in-protest-of-financial-giants-55cbb2c48ca9"
 isUpdated: true
 ---
-
-
-
-
 
 ![그림](/assets/img/2024-06-23-2024CybersecurityIssueHacktivistsHijackSmartBuildingSystemsinProtestofFinancialGiantsInvestments_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 영향:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 직업적 방해: 건설 과정이 불안정하여 근로자들에게 심각한 방해와 안전 우려를 일으켰어요.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 IoT 장치 보안을 위한 기술 유지보수 단계:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 펌웨어 업데이트: 알려진 취약점을 해결하기 위해 모든 IoT 기기에 최신 펌웨어 업데이트가 있는지 확인하세요.
 
@@ -43,7 +61,18 @@ IoT 장치 보안을 위한 기술 유지보수 단계:
 
 강화된 모니터링과 대응: IoT 환경용으로 설계된 침입 탐지 시스템(IDS)을 사용하여 비정상적인 활동을 감지하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 24/7 모니터링: 전용 팀을 고용하여 BMS와 IoT 장치를 계속해서 침입의 징후를 모니터링합니다.
 
@@ -53,7 +82,18 @@ IoT 장치 보안을 위한 기술 유지보수 단계:
 
 침투 테스트: BMS에 대한 정기적인 침투 테스트를 수행하여 공격을 모의하고 잠재적인 취약점을 식별합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자 인식 및 직원 교육: 스마트 빌딩의 물리적 및 사이버 보안이 중요함을 강조하고, 탈거나 침입의 징후를 인식하는 방법을 교육시킵니다.
 
@@ -63,9 +103,20 @@ IoT 장치 보안을 위한 기술 유지보수 단계:
 
 안전 인증: 엄격한 안전 테스트와 인증을 받은 장치를 찾습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-호감을 주는 어조로 번역을 하면 다음과 같습니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+호감을 주는 어조로 번역을 하면 다음과 같습니다.
 
 **제로 트러스트 아키텍처 구현:**
 어떠한 기기나 사용자도 기본적으로 신뢰되지 않는 제로 트러스트 보안 모델을 채택하고, 모든 접근 지점에는 계속된 인증이 필요합니다.

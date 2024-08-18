@@ -3,17 +3,13 @@ title: "아두이노 프로그래밍에서 iOS 앱 개발로"
 description: ""
 coverImage: "/assets/img/2024-06-20-FromArduinoprogrammingtoiOSAppdevelopment_0.png"
 date: 2024-06-20 16:48
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-FromArduinoprogrammingtoiOSAppdevelopment_0.png
 tag: Tech
 originalTitle: "From Arduino programming to iOS App development"
 link: "https://medium.com/@leonardocavagnis/from-arduino-programming-to-ios-app-development-8b5da1783e1e"
 isUpdated: true
 ---
-
-
-
-
 
 ## BLE 연결을 통한 IoT 프로젝트 구축 실습 가이드
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Nano 33 BLE Sense는 BLE 연결 및 센싱 기능이 필요한 프로젝트에 적합한 소형 Arduino 보드입니다. 다양한 센서를 갖추고 있어 IoT 응용 프로그램, 웨어러블 기기 및 데이터 획득 프로젝트에 적합합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # BLE 통신 이해하기
 
@@ -34,7 +41,18 @@ BLE는 저전력 기기를 위해 설계된 무선 통신 기술입니다. 이�
 
 서비스와 특성은 BLE 통신의 구성 요소입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 서비스는 관련 기능이나 데이터 모음을 나타냅니다.
 - 특징은 서비스 내에서 특정한 데이터 값을 가리킵니다.
@@ -45,8 +63,18 @@ BLE는 저전력 기기를 위해 설계된 무선 통신 기술입니다. 이�
 
 우리 프로젝트에서 iOS 앱은 중심의 역할을 하고, Arduino 보드는 주변으로 동작합니다. 보드는 두 개의 별도 서비스 내에서 두 개의 특징을 통해 데이터를 노출할 것입니다:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Led Status Characteristic (in Led Service): 이 특성은 쓰기 속성을 가진 특성으로, 앱이 0 (끄기) 또는 1 (켜기) 값을 쓰면 LED의 상태를 변경할 수 있습니다.
 - Temperature Characteristic (in Sensor Service): 이 특성은 읽기 및 알림 속성을 가진 특성으로, 보드에서 측정된 온도 값을 검색하고 온도 업데이트에 대한 알림을 받을 수 있도록 합니다.
@@ -57,7 +85,18 @@ BLE는 저전력 기기를 위해 설계된 무선 통신 기술입니다. 이�
 
 Arduino 프로그램은 ArduinoBLE 및 Arduino_HTS221 라이브러리를 활용하여 BLE 통신 및 온도 감지 기능을 가능하게 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 #include <ArduinoBLE.h>
@@ -76,7 +115,18 @@ BLEByteCharacteristic temperatureCharacteristic("d888a9c3-f3cc-11ed-a05b-0242ac1
 
 그런 다음, 프로그램은 BLE 모듈을 초기화하고 로컬 이름 및 광고 서비스를 설정합니다. 사용자가 정의한 로컬 이름은 Arduino에 의해 방송되며 페리퍼럴을 식별하는 사람이 읽을 수 있는 식별자 역할을 합니다. 광고 서비스를 Led 서비스로 설정함으로써, Arduino는 iOS 앱이나 다른 중앙 장치에게 제공하는 특정 서비스에 대해 알립니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 void setup() {
@@ -110,7 +160,18 @@ temperatureCharacteristic.setEventHandler(BLERead, temperatureCharacteristicRead
 
 프로그램은 광고를 시작하고 메인 루프에 진입합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
  // 광고 시작
@@ -121,7 +182,7 @@ temperatureCharacteristic.setEventHandler(BLERead, temperatureCharacteristicRead
 메인 루프에서는 중앙 기기가 연결하도록 대기하며, 연결되면 통신을 처리하는 루프를 시작합니다.
 
 ```js
-void loop() {  
+void loop() {
   // BLE 센트럴 기기가 연결될 때까지 대기
   BLEDevice central = BLE.central();
 
@@ -137,7 +198,18 @@ void loop() {
 
 이 루프 내에서 프로그램은 주기적으로 센서에서 온도를 읽어 올바른 온도 값을 업데이트합니다. 또한, 센트럴 기기가 LedStatus 특성에 새 값을 쓰지 않았는지 확인합니다. 새 값을 감지하면 LED를 켜거나 끕니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 while (central.connected()) {
@@ -145,7 +217,7 @@ while (central.connected()) {
     // 온도 값을 읽어옴
     temperature = (int) HTS.readTemperature();
     temperatureCharacteristic.writeValue(temperature);
-    
+
     // ...
     // LedStatus characteristic의 쓰기 여부 확인
     if (ledstatusCharacteristic.written()) {
@@ -168,8 +240,18 @@ void temperatureCharacteristicRead(BLEDevice central, BLECharacteristic characte
 
 # iOS 앱 설계
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 iOS 앱은 사용자 친화적인 인터페이스로 설계되었으며 두 가지 주요 화면으로 구성되어 있습니다:
 
@@ -180,7 +262,18 @@ iOS 앱은 사용자 친화적인 인터페이스로 설계되었으며 두 가�
 
 이 앱은 MVVM (Model-View-ViewModel) 디자인 패턴을 사용한 Clean Architecture에 영감을 받은 아키텍처로 구축되었으며 몇 가지 조정을 통해 단숨함과 이해하기 쉬운 요소를 향상시켰습니다. 이 접근 방식은 앱을 3개의 구분된 계층으로 구성하여 컴포넌트 독립성과 테스트 가능성을 촉진합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 프리젠테이션 계층은 사용자 인터페이스와 상호 작용을 처리합니다. 이 계층은 View(사용자 인터페이스 렌더링 담당)와 ViewModel(View의 상태를 관리하는)으로 구성됩니다.
 - 도메인 계층은 응용 프로그램의 핵심 비즈니스 로직을 나타냅니다. 이 계층은 사용 사례를 캡슐화하고 데이터와 상호 작용합니다. 사용 사례는 응용 프로그램에서 수행할 수 있는 특정 비즈니스 작업을 나타냅니다.
@@ -192,7 +285,18 @@ iOS 앱은 사용자 친화적인 인터페이스로 설계되었으며 두 가�
 
 CoreBluetooth를 활용하여, 앱은 주변의 Bluetooth 주변 기기를 탐지하고 연결을 설정하며 기기 간 데이터를 교환할 수 있을 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자 이제 iOS 프로그래밍에 직접 참여해 봅시다!
 시작하기 전에 필요한 필수 도구 몇 가지가 있습니다: 맥 컴퓨터와 Apple 플랫폼을 위한 공식 통합 개발 환경(Integrated Development Environment, IDE) 인 Xcode입니다. Xcode는 iOS 애플리케이션을 디자인, 코딩 및 디버깅할 수 있는 종합적인 도구 및 자원 세트를 제공합니다.
@@ -201,7 +305,18 @@ Xcode를 열고, 환영 화면에서 "새 Xcode 프로젝트 생성"을 선택�
 
 ...여기까지입니다! 시작해 봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # iOS 앱: Arduino 보드를 스캔하고 연결하기
 
@@ -211,7 +326,18 @@ Xcode를 열고, 환영 화면에서 "새 Xcode 프로젝트 생성"을 선택�
 
 이 화면의 기본 아키텍처는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - ScanView: 화면의 UI를 렌더링하는 데 책임이 있습니다. SwiftUI를 사용하여 디자인되었습니다.
 - ScanViewModel: "Start Scan" 버튼을 탭하거나 장치 이름을 선택하는 이벤트를 처리합니다. 스캔 및 연결 작업을 실행하기 위해 ScanViewModel은 CentralUseCase에 의존합니다.
@@ -223,7 +349,18 @@ Xcode를 열고, 환영 화면에서 "새 Xcode 프로젝트 생성"을 선택�
 
 # 스캐닝
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "Start Scan" 버튼을 누르면 ScanView가 사용자 상호작용을 캡처하고 요청을 처리하기 위해 ScanViewModel로 전달합니다.
 
@@ -249,7 +386,18 @@ func scan() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최종적으로 사용 사례는 CoreBluetooth 프레임워크와 상호 작용하여 스캔 프로시저를 시작합니다.
 
@@ -272,7 +420,18 @@ CoreBluetooth에서 scanForPeripherals 함수를 사용할 때, CBCentralManager
 
 기기가 발견되면 CentralUseCase는 onPeripheralDiscovery 클로저(즉, 자체 포함된 코드 블록)를 호출하여 새로 발견된 페리페럴의 세부 정보를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```swift
 // CentralUseCase.swift
@@ -321,7 +480,18 @@ VStack {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 연결하기
 
@@ -341,7 +511,18 @@ List(peripheralList, id: \.id) { peripheral in
 
 이 작업은 ScanViewModel이 연결 작업을 해당 사용 사례에 전달하도록 유도합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```swift
 //  ScanViewModel.swift
@@ -364,7 +545,18 @@ func connect(to peripheral: Peripheral) {
 
 연결이 성공하면 didConnect 대리자 메서드가 호출됩니다. CentralUseCase는 이 정보를 ScanViewModel에게 onConnection 클로저를 호출하여 전달합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```swift
 //  CentralUseCase.swift
@@ -386,7 +578,18 @@ useCase.onConnection = { [weak self] peripheral in
 
 그에 따라 ScanView는 ConnectView로 전환합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```swift
 // ScanView.swift
@@ -413,8 +616,18 @@ Connect 화면에서 사용자는 Arduino와 상호 작용하여 LED 및 온도�
 
 <img src="/assets/img/2024-06-20-FromArduinoprogrammingtoiOSAppdevelopment_7.png" />
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아키텍처는 이전 화면과 일관성을 유지하며 다음 구성 요소를 포함합니다:
 
@@ -426,7 +639,18 @@ Connect 화면에서 사용자는 Arduino와 상호 작용하여 LED 및 온도�
 
 서비스와 특성과의 데이터 교환을 시작하기 전에 발견 단계를 수행해야 합니다. 이 단계에서 CoreBluetooth 프레임워크는 연결된 주변 장치에 의해 제공되는 사용 가능한 서비스와 특성에 대한 정보를 스캔하고 검색합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 발견
 
@@ -450,7 +674,18 @@ func peripheral(_ peripheral: CBPeripheral, didDiscoverServices error: Error?) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Once the discovery process is completed, the `ConnectViewModel` is notified with `onPeripheralReady`, and the UI is prepared to handle operations on the discovered characteristics.
 
@@ -473,7 +708,18 @@ func peripheral(_ peripheral: CBPeripheral, didDiscoverCharacteristicsFor servic
 
 When the user presses the on/off buttons, it triggers a write operation to the LedStatus characteristic with a numerical value (1 for “On” and 0 for “Off”). This action, in turn, controls the integrated LED on the board, either turning it on or off accordingly.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반적인 흐름을 따라 전체 프로세스가 관리됩니다:
 
@@ -509,7 +755,18 @@ func writeLedState(isOn: Bool) {
 
 온도 측정은 두 가지 방법으로 수행할 수 있습니다: 한 번의 값을 얻기 위해 트리거되는 읽기 작업을 사용하는 싱글 샷 모드 또는 실시간 업데이트를 받기 위해 알림 작업을 사용하는 연속 모드입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 읽기 작업 요청의 흐름입니다:
 
@@ -565,7 +822,18 @@ func notifyTemperature(_ isOn: Bool) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 작업은 모두 CoreBluetooth의 동일한 대리자에 응답을 생성합니다. 구체적으로 didUpdateValueFor 메서드입니다. 읽기 작업의 경우 요청한 데이터와 함께 단일 응답이 있을 것입니다. 알림의 경우, 알림이 비활성화될 때까지 응답이 계속 전송됩니다. 각 응답은 UI 상태를 업데이트하기 위해 ConnectViewModel의 onReadTemperature 클로저를 트리거합니다.
 
@@ -610,7 +878,18 @@ Text("\(lastTemperature) °C")
 
 연결 해제 버튼을 누르면 흐름이 약간 다른 방향으로 진행됩니다. 연결 해제 작업은 CBCentralManager 객체에 속하므로 CentralUseCase에서 수행되어야 합니다. 이를 가능하게 하기 위해 사용자가 버튼을 누르면 현재 화면이 해제되고 사용자는 스캔 화면으로 돌아갑니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```swift
 //  ConnectView.swift
@@ -651,7 +930,18 @@ func disconnect(from peripheral: Peripheral) {
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글에서는 Arduino 프로그래밍부터 iOS 앱 개발로 이동하는 여정을 살펴보았는데, 이 과정에서 BLE 연결을 통해 IoT 프로젝트를 구축하는 데 초점을 맞추었습니다.
 
@@ -664,7 +954,18 @@ func disconnect(from peripheral: Peripheral) {
 - Bluejay: 간편하고 사용하기 쉬운 BLE 라이브러리를 강조하는 현대적인 라이브러리.
 - LittleBlueTooth: 가벼우면서 간편한 BLE 라이브러리.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 코드
 

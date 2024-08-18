@@ -3,17 +3,13 @@ title: "30일 동안 52 수익률 당신의 GPT-4o 얀트 트레이딩 봇 전�
 description: ""
 coverImage: "/assets/img/2024-06-19-52Returnsin30DaysYourGPT-4oQuantTradingBotStrategy_0.png"
 date: 2024-06-19 06:54
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-52Returnsin30DaysYourGPT-4oQuantTradingBotStrategy_0.png
 tag: Tech
 originalTitle: "52% Returns in 30 Days: Your GPT-4o Quant Trading Bot Strategy"
 link: "https://medium.com/limitless-investor/52-returns-in-30-days-your-gpt-4o-quant-trading-bot-strategy-2eb98e9f360b"
 isUpdated: true
 ---
-
-
-
-
 
 양자 거래는 수익을 창출할 수 있지만, 오랫동안 많은 자원, 코딩 및 수학 기술을 가진 거래자들이나 대규모 기관들만이 수행할 수 있는 것으로 여겨졌습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 시작하기 전에 한 가지만 더 말하자면, '근본적 분석'과 '가치 투자'에 집중하는 사람이에요. 제 글을 읽는 여러분은 이미 알고 있겠지만요. 이것들은 장기 투자의 성공적 기초입니다. 이 글의 목표는 가능성을 열어주는 것입니다. 이 글에서는 실제 돈을 사용하여 거래 봇을 사용하지 않았고, 여러분도 이해하기에 아주 충분하다면 사용하지 않는 것이 좋습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # GPT-4o가 거래자에게 큰 도약인 이유
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 둘째, GPT-4o는 이전 모델보다 훨씬 빠르고 정확해요. Claude도 꽤 인상적이고 정확하지만, GPT-4o는 이미지를 이해하는 데 뛰어나죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 HELM 리더보드에 따르면 다양한 도메인에서 다른 모델의 성능을 추적하고 있습니다. GPT-4o는 Claude 다음으로 정확한 답변을 제공합니다.
 
@@ -43,7 +61,18 @@ VLMs인 Visual to Language Models에서 GPT-4o는 경쟁 모델들에 비해 훨
 
 익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익익
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # GPT-4o와 함께하는 당신만의 양자 거래 봇 만들기
 
@@ -53,7 +82,18 @@ VLMs인 Visual to Language Models에서 GPT-4o는 경쟁 모델들에 비해 훨
 
 우리는 TradingView를 사용하여 AI 거래 전략을 테스트할 것입니다. 무료 TradingView 계정이 없다면, 제 제휴 링크를 사용해주시고 추가 비용은 없습니다. 지원해 주셔서 감사합니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시작해 봅시다.
 
@@ -63,7 +103,18 @@ VLMs인 Visual to Language Models에서 GPT-4o는 경쟁 모델들에 비해 훨
 
 시장이 측면이거나 하락할 때 수익을 올릴 수 있는 거래 봇을 만들어 볼 수 있는지 확인해 보고 싶어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2단계 — 차트로 GPT-4o에 프롬프트 제공하기
 
@@ -71,7 +122,18 @@ VLMs인 Visual to Language Models에서 GPT-4o는 경쟁 모델들에 비해 훨
 
 ![차트](/assets/img/2024-06-19-52Returnsin30DaysYourGPT-4oQuantTradingBotStrategy_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GPT-4가 대답했습니다. Bollinger Bands와 RSI를 함께 사용하는 전략을 제안했어요.
 
@@ -81,7 +143,18 @@ TradingView의 Pine Editor로 이동하여 코드를 붙여넣기하세요. 그�
 
 TradingView에서 전략을 어떻게 백테스트하는지 모르겠다면, 아래 기사의 단계를 확인하는 것을 강력히 추천드립니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대화형 GPT 거래 봇을 사용하여 Wall Street 투자자의 99%를 이기세요!
 
@@ -91,7 +164,18 @@ TradingView에서 전략을 어떻게 백테스트하는지 모르겠다면, 아
 
 # 단계 4 — 당신의 양적 전략을 세밀하게 조정하세요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 전략을 백테스트해보는 것을 100번 더 시도해보기로 결정했군요.
 
@@ -101,7 +185,18 @@ TradingView에서 전략을 어떻게 백테스트하는지 모르겠다면, 아
 
 # 내 백테스트에서의 탁월한 수익률
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 백테스팅 결과에서 GPT-4o가 만든 전략은 매우 인상적인 결과를 냈습니다. 아래에서 확인할 수 있어요:
 
@@ -111,7 +206,18 @@ TradingView에서 전략을 어떻게 백테스트하는지 모르겠다면, 아
 
 이는 AI가 만든 평균 회귀 전략이 시장이 수평으로 거래되거나 하락 추세일 때에도 수익을 내는 것을 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 따라오고 있다면, 저는 어떤 시장 상황에서도 혜택을 받을 수 있는 반패권 투자 포트폴리오를 구축 중이라는 것을 알고 계실 것입니다.
 
@@ -121,7 +227,18 @@ TradingView에서 전략을 어떻게 백테스트하는지 모르겠다면, 아
 
 여기서 멈추지 마세요. 귀하의 거래 전략을 완벽하게 하려면, 계속 백테스팅하고 최적화하며 확장해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 자동 거래 봇의 최적화 프로세스를 지원하기 위해 이 기사를 작성했습니다:
 
@@ -131,7 +248,18 @@ GPT-4o와 같은 AI 도구의 도움과 지속적인 학습 및 개선에 헌신
 
 — Henrique Centieiro 🕺🏻
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🚀 앞으로 미래에 더 가치 있는 콘텐츠를 제공하기 위해 "한계 없는 투자자" 퍼블리케이션을 팔로우해 주세요:
 

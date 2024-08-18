@@ -3,16 +3,13 @@ title: "Angular 시그널 기반 API 사용법"
 description: ""
 coverImage: "/assets/img/2024-07-06-AngularSignal-basedAPIs_0.png"
 date: 2024-07-06 03:07
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-06-AngularSignal-basedAPIs_0.png
 tag: Tech
 originalTitle: "Angular Signal-based APIs"
 link: "https://medium.com/@tayuelo26/angular-signal-based-apis-c731bc27b9b5"
 isUpdated: true
 ---
-
-
-
 
 ![](/assets/img/2024-07-06-AngularSignal-basedAPIs_0.png)
 
@@ -25,7 +22,18 @@ isUpdated: true
 - input API
 - model API
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시그널 기반 API란 무엇인가요?
 
@@ -35,7 +43,18 @@ isUpdated: true
 
 왜 시그널 기반 API를 사용해야 하나요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시그널 입력은 데코레이터 @Input()에 대안으로 반응적입니다.
 
@@ -48,7 +67,18 @@ isUpdated: true
 - 값이 입력이 변경될 때마다 손쉽게 유도될 수 있습니다.
 - ngOnChanges 또는 세터 대신 효과를 사용하여 입력을 더 쉽게 모니터링할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 API 입력
 
@@ -66,7 +96,18 @@ export class CardComponent {
 
 템플릿에서 시그널의 getter를 호출해야 하는 것에 주목해야 합니다. 이는 시그널 값에 액세스하고 시그널의 소비자를 등록하는 데 필요합니다. 이제 시그널이 변경될 때마다 Angular는 이 컴포넌트를 RefreshView 플래그로 뷰 갱신을 위해 표시합니다. 이 기능은 markViewForRefresh 함수에 의해 내부적으로 수행됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 입력 값을 필수로 만들려면, API에서 노출된 required 함수를 사용하면 됩니다.
 
@@ -87,7 +128,18 @@ click() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 내용을 한국어로 번역해 드리겠습니다.
 
@@ -104,7 +156,18 @@ age = input(0);
 dogYears = computed(() => this.age() * 7);
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 computed를 사용할 때, 값들은 메모이제이션됩니다. 즉, 신호 age가 읽힐 때마다 메모이즈된 값을 반환하며, 다시 계산하지 않습니다. 다시 계산은 age 신호의 값이 변경될 때에만 발생합니다.
 
@@ -114,7 +177,18 @@ computed를 사용할 때, 값들은 메모이제이션됩니다. 즉, 신호 ag
 
 다음과 같이 모델 함수를 사용하여 모델 입력을 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 모델 입력
@@ -141,7 +215,18 @@ toggle() {
 
 컴포넌트가 모델 입력에 새 값을 작성하면 Angular는 해당 입력에 값을 바인딩 중인 컴포넌트로 새 값이 전파됩니다. 이를 양방향 바인딩이라고 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 신호를 사용한 양방향 바인딩
 
@@ -158,7 +243,18 @@ export class UserProfile {
 
 우리의 예제에서 CustomCheckbox 컴포넌트는 선택된 모델 입력값에 값을 쓸 수 있으며, 이 값은 다시 UserProfile의 isActive 신호로 전파됩니다. 이 바인딩은 selected와 isActive의 값을 동기화 상태로 유지합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 암시적 변화 이벤트
 
@@ -172,7 +268,18 @@ selected = model(false);
 
 Angular는 구성 요소 작성자가 모델에 새 값을 쓸 때마다 변경 이벤트를 발생시킵니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모델 입력 부분은 입력 변환을 지원하지 않습니다. 모델 입력을 필수로 표시하거나 표준 입력과 마찬가지로 별칭을 제공할 수 있습니다.
 
@@ -184,7 +291,18 @@ Angular는 구성 요소 작성자가 모델에 새 값을 쓸 때마다 변경 
 
 여기서 마치겠습니다. Angular에서 제공하는 새로운 메커니즘을 이해할 때 이 게시물이 유용하다면 좋겠습니다. 피드백이 있으시면 자유롭게 아래에 댓글을 남겨주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 읽어 주셔서 감사합니다,
 

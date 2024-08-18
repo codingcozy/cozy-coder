@@ -3,17 +3,13 @@ title: "제목 AI 매일매일을 환영합니다"
 description: ""
 coverImage: "/assets/img/2024-06-19-WelcometoAIEveryday_0.png"
 date: 2024-06-19 05:44
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-WelcometoAIEveryday_0.png
 tag: Tech
 originalTitle: "Welcome to AI Everyday"
 link: "https://medium.com/@AiEveryday/welcome-to-ai-everyday-c684444bb91f"
 isUpdated: true
 ---
-
-
-
-
 
 환영합니다! 인공지능 세상의 흥미로운 통찰, 트렌드, 혁신을 제공하는 AI Everyday에 오신 것을 환영합니다. 저희의 미션은 AI를 해독하고 어떻게 우리의 일상을 형성하고 향상시키는지를 보여주는 것입니다. 우리가 사용하는 장치부터 의존하는 서비스까지, AI가 우리가 자주 깨닫지 못하는 많은 방법으로 영향을 미치고 있습니다. AI의 미래를 함께 탐험하기 위해 이 여정에 동참해 보시죠.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 1. 스마트 홈:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 • 음성 비서: 아마존 알렉사, 구글 홈, 애플의 시리 같은 장치들이 가정에서 필수품이 되었어요. 이들은 작업 관리, 스마트 홈 장치 제어 및 필요 시 정보 제공을 도와줘요.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 • 진단: 암과 같은 질병의 진단 정확도를 향상시키는 AI 알고리즘은 종종 전통적인 방법보다 더 빨리 문제를 발견해줘요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 개인 건강 어시스턴트: 응용 프로그램과 웨어러블 기기는 건강 지표를 추적하고 맞춤형 건강 조언을 제공합니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 - 교통 관리: AI는 스마트 신호등과 실시간 교통 분석을 통해 교통 흐름을 최적화하고 혼잡을 줄이는 데 도움을 줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. 엔터테인먼트:
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 5. 직장:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 • 자동화: AI 기술을 활용한 도구들이 루틴 업무를 자동화하며, 직원들이 더 전략적인 활동에 집중할 수 있도록 도와줍니다.
 
@@ -63,7 +103,18 @@ AI의 미래
 
 AI가 계속 발전함에 따라 그 응용 분야는 점점 확장될 것입니다. 우리가 의미 있는 발전을 기대할 수 있는 몇 가지 분야는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 • 의료 혁신: 예측 분석과 맞춤 의학은 의료 혁명을 일으킬 것입니다.
 
@@ -73,7 +124,18 @@ AI가 계속 발전함에 따라 그 응용 분야는 점점 확장될 것입니
 
 우리와 함께 이 여정을 떠나요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AI Everyday에서는 AI의 최신 개발 내용을 제공하고 이러한 기술이 우리 모두에게 어떻게 혜택을 줄 수 있는지 탐색하는 데 약속합니다. AI 애호가, 전문가 또는 미래에 대해 궁금한 분이든 상관없이, 우리와 함께하실 것을 초대합니다.
 

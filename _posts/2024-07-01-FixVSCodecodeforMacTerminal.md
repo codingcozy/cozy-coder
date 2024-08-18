@@ -3,17 +3,13 @@ title: "Mac Terminal에서 VSCode Code  명령어 문제 해결 방법"
 description: ""
 coverImage: "/assets/img/2024-07-01-FixVSCodecodeforMacTerminal_0.png"
 date: 2024-07-01 20:24
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-01-FixVSCodecodeforMacTerminal_0.png
 tag: Tech
 originalTitle: "Fix VSCode code . for Mac Terminal"
 link: "https://medium.com/@andreshat/fix-vscode-to-run-any-project-from-the-command-line-on-macos-86904275a4f9"
 isUpdated: true
 ---
-
-
-
-
 
 PyCharm에서 가벼운 프로젝트 용도로 VSCode로 전환했더니 cmd를 통해 사용하고 싶었던 기능들이 몇 가지 열렸어요. 그 중 제게 가장 중요한 것은 폴더로 이동한 후 code . 명령을 실행하여 해당 프로젝트를 VSCode 프로젝트로 열 수 있는 능력이었어요.
 
@@ -25,7 +21,18 @@ PyCharm에서 가벼운 프로젝트 용도로 VSCode로 전환했더니 cmd를 
 
 모든 이를 완료한 후 MacOS 사용자는 장치를 재부팅하기 전까지 code . 접근 방식을 사용하여 언제든지 프로젝트를 cmd에서 실행할 수 있어요. 하지만 이후에는 장치를 다시 재부팅하지 않으면 매번 이 3가지 주요 단계를 반복해야 해요. 이 문제를 해결하기 위해 남은 시간 동안 이를 잊을 수 있는 조정을 제안해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 터미널 애플리케이션이 제한되어 있지 않고 디스크에 액세스할 수 있는지 확인해주세요. 다음 위치로 이동하여 확인해주세요: 시스템 설정 - `개인정보 및 보안 -` 전체 디스크 액세스 및 슬라이더가 아래 사진처럼 터미널 애플리케이션으로 설정되어 있는지 확인해주세요.
 
@@ -35,7 +42,18 @@ PyCharm에서 가벼운 프로젝트 용도로 VSCode로 전환했더니 cmd를 
 
 해당 명령은 속성 목록을 반환해야 합니다. 목록에 com.apple.quarantine이 포함되어 있다면 다음 명령을 사용하여 문제를 해결할 수 있습니다: sudo xattr -r -d com.apple.quarantine "/Applications/Visual Studio Code.app".
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 명령을 실행한 후, 다시 위의 주요 3단계를 수행하고 변경 사항을 적용하기 위해 시스템을 다시 로드해주세요.
 

@@ -3,17 +3,13 @@ title: "No Mans Sky에서 작동하는 지식의 돌 만들기 방법"
 description: ""
 coverImage: "/assets/img/2024-07-01-BuildingaworkingKnowledgeStonefromNoMansSky_0.png"
 date: 2024-07-01 17:41
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-01-BuildingaworkingKnowledgeStonefromNoMansSky_0.png
 tag: Tech
 originalTitle: "Building a working Knowledge Stone from No Man’s Sky"
 link: "https://medium.com/@kgabrieldev/building-a-working-knowledge-stone-from-no-mans-sky-417d25dd6fce"
 isUpdated: true
 ---
-
-
-
-
 
 게임 No Man’s Sky에서는 지식의 돌과 상호 작용하여 언어의 단어를 배웁니다. 이 돌은 하나의 단어를 캐릭터의 두뇌로 직접 전달하는 지식을 전달합니다. 하지만 실제 세계에서 언어를 배우는 것은 그렇게 간단하지 않습니다. 그럼에도 불구하고, 당신을 가르치는 지식의 돌을 만들어 봅시다.
 
@@ -28,7 +24,18 @@ isUpdated: true
 - NFC 스티커
 - 아두이노를 내 PC에 프로그래밍하기 위해 사용하는 다른 USB 케이블
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지식의 돌 자체를 손에 넣으려면 3D 프린터가 필요합니다. 지식의 돌 파일은 Printables와 MakerWorld에서 찾을 수 있습니다. 모든 전자 기기를 담을 상자 파일도 Printables와 MakerWorld에 있습니다. 제가 돌의 크기를 150%로, 전자 기기를 담을 상자는 원래 크기의 125%로 확대했습니다.
 
@@ -36,7 +43,18 @@ isUpdated: true
 
 다음은 전자 기기를 연결하는 방법을 보여주는 도표입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 !! 중요 !!
 
@@ -46,7 +64,18 @@ isUpdated: true
 
 다음은 터치할 때 돌이 밝아지는 첫 번째 코드입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 #include <FastLED.h>
@@ -67,8 +96,8 @@ void setup() {
   attachInterrupt(digitalPinToInterrupt(vibration_sensor_pin), animation, RISING);
 
   FastLED.addLeds<WS2812B, led_data_pin, GRB>(leds, leds_number);
-  
-  for(int dot = 0; dot < leds_number; dot++) { 
+
+  for(int dot = 0; dot < leds_number; dot++) {
     leds[dot] = CRGB::Black;
   }
   FastLED.show();
@@ -143,9 +172,9 @@ CRGB leds[leds_number];
 
 void setup() {
   FastLED.addLeds<WS2812B, led_data_pin>(leds, leds_number);
-  
+
   // LED 스트립 초기화
-  for(int dot = 0; dot < leds_number; dot++) { 
+  for(int dot = 0; dot < leds_number; dot++) {
     leds[dot] = CRGB::Black;
   }
   FastLED.show();
@@ -164,8 +193,18 @@ void loop() {
 
 PC를 아두이노 나노에 USB 포트를 통해 연결할 때 LED 스트립을 연결 해제하는 것이 중요합니다. 이전에 언급한 대로 LED는 아두이노 일부를 파괴할 정도의 전원을 끌어낼 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 충격 센서를 흔들어 빛 효과를 활성화한 후, 5초 이상 휴식을 주도록 설정했어요. 충격 센서가 너무 민감하거나 반대로 민감하지 않다고 생각되면 시계방향 또는 반시계방향으로 나사를 돌려 민감도를 조절할 수 있어요.
 
@@ -175,7 +214,18 @@ PC를 아두이노 나노에 USB 포트를 통해 연결할 때 LED 스트립을
 
 소띠하고 프로그래밍을 마치면, 조립한 상자 안에 전자 부품을 조심스럽게 넣으면 돼요. LED 스트립은 바깥쪽에 두고 상자 측면의 평평한 표면에 붙일 수 있어요. LED 스트립을 더 고정하기 위해 저는 집게로 고정했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🎉이제 작동하는 지식의 돌이 생겼어요!🎉
 

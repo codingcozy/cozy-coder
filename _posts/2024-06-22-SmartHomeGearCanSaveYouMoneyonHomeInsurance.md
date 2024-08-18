@@ -3,17 +3,13 @@ title: "스마트 홈 기기가 주택 보험료 절감에 도움이 되는 방�
 description: ""
 coverImage: "/assets/img/2024-06-22-SmartHomeGearCanSaveYouMoneyonHomeInsurance_0.png"
 date: 2024-06-22 18:17
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-SmartHomeGearCanSaveYouMoneyonHomeInsurance_0.png
 tag: Tech
 originalTitle: "Smart Home Gear Can Save You Money on Home Insurance"
 link: "https://medium.com/@tcaflisch/smart-home-gear-can-save-you-money-on-home-insurance-1e2ecbaecd36"
 isUpdated: true
 ---
-
-
-
-
 
 2024년 6월 4일
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 기술이 보안, 물이나 연기와 관련된 것들과 같이 가정 운영을 모니터링할 수 있다면, 보험 회사들이 관심을 가질 것도 사실입니다. 특히 잠재적인 위험과 손실을 줄일 때 관련이 있는 경우에 말이죠. 스마트 홈 기술은 주택 또는 임차인 보험료를 줄일 수 있습니다. 그러니 아직 스마트 홈 기술이나 스마트 홈 전반에 대해 망설이고 있다면, 집 보험 제공업체에 연락하여 도움이 될 수 있으니 참고하시기 바랍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보험 회사들이 할인 혹은 보험료를 낮춰주는 스마트 홈 기술의 몇 가지 예시를 소개해 드립니다:
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 누수 감지 센서
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스마트 물 누출 감지기는 누출을 조기에 감지하여 물 피해와 곰팡이 증가를 방지할 수 있어요. 이 장치를 갖춘 주택에는 보험 회사들이 할인 혜택을 제공할 수도 있어요. 이는 비싼 물 피해 청구 가능성을 줄일 수 있기 때문이에요.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 스마트 온도조절기와 에너지 효율성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스마트 온도 조절기는 귀하의 선호도와 점유 패턴에 기반하여 온도 설정을 자동으로 조정함으로써 에너지 사용을 최적화하는 데 도움을 줄 수 있습니다. 에너지 소비를 줄이면 환경 친화적이고 에너지 효율적인 주택을 대상으로 하는 보험 할인 혜택을 받을 수도 있습니다.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 스마트 홈 기술에 투자함으로써 주택 소유자는 위험을 감소시키고 책임있는 주택 관리를 증명하며 보험 요율 할인 자격을 얻을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 국내 주요 보험회사들은 재산 절도 및 화재 또는 수해를 방지할 수 있는 스마트 홈 기기에 할인 혜택을 제공합니다. 할인율은 5%에서 20%로 다양하며, 거주 지역과 설치한 기기 유형에 따라 변동합니다. 보험회사들이 정책 할인을 제공하는 주요 스마트 홈 제품 범주는 다음과 같습니다:
 
@@ -66,7 +106,18 @@ isUpdated: true
 
 Allstate는 고객들에게 연기 감지기, 소화기, 연결된 보안 카메라, 가정 보안 시스템 및 물 누출 감지기와 같은 항목에 대해 최대 5%의 “보호 장치 할인”을 제공합니다. 각 기기에 대해 확인 프로세스가 다르지만, 일반적으로 최상의 자격을 얻으려면 전문 모니터링이 필요합니다. 일부 기기는 제3자 모니터링이 있는 침입자 경고기와 같은 문서가 필요하지만, 간단한 연기 감지기는 필요하지 않을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Amica는 홈 소유자에게 방범 시스템, 스마트 온도 감지 장치, 스마트 보안 장치, 화재 및 연기 경보기, 전기 고장 모니터링, 그리고 스마트 금수감지 기술 등 다양한 스마트 홈 기술에 대한 할인 혜택을 제공합니다. 또한 Amica는 Moen, StreamLabs, Flume 및 Kangaroo와 같은 공급업체 파트너로부터 할인 혜택을 제공합니다. Amica에 따르면, 전문 감시 제품에 대해 가장 좋은 할인 혜택을 받을 수 있습니다.
 
@@ -76,7 +127,18 @@ Nationwide는 귀하가 거주하는 주에 따라 특정 장치에 대한 스�
 
 Progressive 소유자는 방범 시스템, 방범 및 화재 경보 시스템에 대해 할인 혜택을 받을 수 있습니다. 중앙 감시 보안 시스템 및 자동 소화기도 귀하의 위치에 따라 할인 혜택을 받을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 State Farm은 홈 시큐리티 보험 할인 혜택을 제공합니다. 화재, 연기 또는 침입자 경보장치, 또는 다른 홈 모니터링 시스템을 설치하면 할인 혜택을 받을 수 있습니다. 현재 State Farm은 특별 ADT 홈 시큐리티 절약 및 보험 할인을 제공하기 위해 ADT와 협력하고 있습니다. 일부 주에서 최대 6%까지의 할인 혜택을 받을 수 있습니다.
 
@@ -86,7 +148,18 @@ Travelers의 보험 가입자들은 경보 시스템을 설치하면 보험료�
 
 이것은 주요 보험 회사 중 일부에서의 예시일 뿐입니다. 여기에 나열되어 있지 않은 보험 회사가 있다면 홈 시큐리티 시스템이나 상기한 홈 안전 장치 중 하나 이상을 설치할 때 어떤 혜택을 제공할지 확인하기 위해 전화해 보시면 좋습니다. 그리고 혜택을 주지 않는다면, 더 나은 혜택을 제공할 수 있는 보험 회사를 찾아볼 때가 된 것일지도 모릅니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 내용을 친근한 톤으로 한국어로 번역해드릴게요.
 

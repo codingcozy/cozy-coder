@@ -3,17 +3,13 @@ title: "Nodejs를 사용한 Angular 인증 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-AuthenticationinAngularwithNodejs_0.png"
 date: 2024-07-09 10:36
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-AuthenticationinAngularwithNodejs_0.png
 tag: Tech
 originalTitle: "Authentication in Angular with Node.js"
 link: "https://medium.com/@meetspatel92/authentication-in-angular-with-node-js-8d97fb90a3d4"
 isUpdated: true
 ---
-
-
-
-
 
 이 글에서는 백엔드로 Node.js를 사용하여 Angular 애플리케이션에서 인증(가입 및 로그인)을 구현하는 과정을 안내할 것입니다. 또한 인증 가드를 사용하여 특정 경로를 보호하는 프라이빗 라우팅 설정 방법도 다룰 것입니다. 이 튜토리얼에는 데이터 플로우 다이어그램(DFD) 및 UML 다이어그램이 포함되어 아키텍처를 설명할 것입니다.
 
@@ -26,7 +22,18 @@ isUpdated: true
 
 # Angular CLI를 위한 기본 명령어
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 Angular CLI 설치 방법 - npm install -g @angular/cli
@@ -43,8 +50,18 @@ Angular CLI 설치 방법 - npm install -g @angular/cli
 
 angular-authentication
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Authentication in Angular with Node.js](/assets/img/2024-07-09-AuthenticationinAngularwithNodejs_0.png)
 
@@ -72,7 +89,18 @@ export class SellerAuthComponent implements OnInit {
   constructor(private sellerService: SellerService, private router: Router, private seller: SellerService) {}
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
   ngOnInit(): void {
@@ -109,7 +137,18 @@ export class SellerAuthComponent implements OnInit {
 
 회원가입(signUp()): 판매자 회원가입 데이터를 SellerService로 전송합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Login (login() ): 판매자 로그인 데이터를 SellerService로 보내 성공 시 /seller-home 으로 이동하거나 실패 시 authError를 설정합니다.
 
@@ -119,7 +158,18 @@ Form Toggle (openLogin() and openSignUp() ): showLogin 변수에 따라 로그�
 
 ## Seller Template (seller-auth.component.html)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```json
 <div class="seller-auth">
@@ -188,7 +238,6 @@ Form Toggle (openLogin() and openSignUp() ): showLogin 변수에 따라 로그�
 </div>
 ```
 
-
 Seller Sign-Up 섹션 (!showLogin):
 
 - 판매자가 가입할 수 있는 양식이 표시됩니다.
@@ -196,8 +245,18 @@ Seller Sign-Up 섹션 (!showLogin):
 - required, email 및 minlength 지시문을 사용하여 입력을 유효성 검사합니다.
 - 양식 제출시 signUp() 메서드를 호출합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 판매자 로그인 섹션 (showLogin):
 
@@ -212,16 +271,27 @@ Seller Sign-Up 섹션 (!showLogin):
 - 사용자가 회원가입 및 로그인 양식을 전환할 수 있도록 합니다 (auth-toggle-link).
 - 양식간 전환을 위해 openLogin() 및 openSignUp() 메서드를 호출합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 판매자 인증 컴포넌트 (seller.service.ts)
 
 ```js
-import { EventEmitter, Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
-import { Login, Signup } from '../data-type';
-import { BehaviorSubject } from 'rxjs';
-import { Router } from '@angular/router';
+import { EventEmitter, Injectable } from "@angular/core";
+import { HttpClient } from "@angular/common/http";
+import { Login, Signup } from "../data-type";
+import { BehaviorSubject } from "rxjs";
+import { Router } from "@angular/router";
 ```
 
 ```js
@@ -264,7 +334,18 @@ export class SellerService {
 
 # 설명:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - isSellerLoggedIn (BehaviorSubject`boolean` ): BehaviorSubject를 사용하여 판매자의 로그인 상태를 추적합니다. 이를 통해 구성 요소들이 로그인 상태의 변화를 구독할 수 있습니다.
 - isLoginError (EventEmitter`boolean` ): 로그인 오류를 표시하기 위해 이벤트를 발생시키며, 구성 요소들이 인증 실패에 반응할 수 있도록 합니다.
@@ -276,21 +357,32 @@ export class SellerService {
 ## Guard(auth.guard.ts)
 
 ```js
-import { CanActivateFn } from '@angular/router';
-import { SellerService } from './services/seller.service';
-import { inject } from '@angular/core';
+import { CanActivateFn } from "@angular/router";
+import { SellerService } from "./services/seller.service";
+import { inject } from "@angular/core";
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export const authGuard: CanActivateFn = (route, state) => {
   const sellerService = inject(SellerService);
-  if (localStorage.getItem('seller')) {
+  if (localStorage.getItem("seller")) {
     return true;
   }
   return sellerService.isSellerLoggedIn;
-}
+};
 ```
 
 설명:
@@ -301,14 +393,25 @@ export const authGuard: CanActivateFn = (route, state) => {
 
 Routes(app.routes.ts)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import { Routes } from '@angular/router';
-import { HomeComponent } from './home/home.component';
-import { SellerAuthComponent } from './seller-auth/seller-auth.component';
-import { SellerHomeComponent } from './seller-home/seller-home.component';
-import { authGuard } from './auth.guard';
+import { Routes } from "@angular/router";
+import { HomeComponent } from "./home/home.component";
+import { SellerAuthComponent } from "./seller-auth/seller-auth.component";
+import { SellerHomeComponent } from "./seller-home/seller-home.component";
+import { authGuard } from "./auth.guard";
 ```
 
 const routes: Routes = [
@@ -321,20 +424,41 @@ const routes: Routes = [
 
 - 판매자 홈 컴포넌트 라우팅에 [authGuard]를 구현하여 판매자가 로그인 한 경우에만 판매자 홈 컴포넌트 라우팅이 적용되도록합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ---
+
 ![2024-07-09-AuthenticationinAngularwithNodejs_1](/assets/img/2024-07-09-AuthenticationinAngularwithNodejs_1.png)
 
 ![2024-07-09-AuthenticationinAngularwithNodejs_2](/assets/img/2024-07-09-AuthenticationinAngularwithNodejs_2.png)
 
 # 결론
 
-이 튜토리얼에서는 백엔드로 Node.js를 사용하여 Angular 애플리케이션에서 인증을 구현하는 방법을 다루었습니다. 이 과정은 회원 가입 및 로그인 기능 설정, 백엔드 서비스와 통합, 인증 가드로 라우트 보호 등을 포함합니다.
----
+## 이 튜토리얼에서는 백엔드로 Node.js를 사용하여 Angular 애플리케이션에서 인증을 구현하는 방법을 다루었습니다. 이 과정은 회원 가입 및 로그인 기능 설정, 백엔드 서비스와 통합, 인증 가드로 라우트 보호 등을 포함합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 주요 포인트:
 

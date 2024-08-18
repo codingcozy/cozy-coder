@@ -3,17 +3,13 @@ title: "데이터 빌드 도구 dbt의 힘"
 description: ""
 coverImage: "/assets/img/2024-06-19-ThePowerofDataBuildTooldbt_0.png"
 date: 2024-06-19 05:17
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-ThePowerofDataBuildTooldbt_0.png
 tag: Tech
 originalTitle: "The Power of Data Build Tool (dbt)"
 link: "https://medium.com/@nydas/the-power-of-data-build-tool-dbt-6b26dfab5bac"
 isUpdated: true
 ---
-
-
-
-
 
 ## 데이터 분석 엔지니어를 위한 안내서
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 본 문서에서는 dbt의 특징 중 주목할 만한 몇 가지를 살펴보고, DuckDB를 활용한 기술적인 솔루션을 스크린샷, 코드 조각, 그리고 지원하는 GitHub 저장소와 함께 안내해 드리겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # dbt의 특징
 
@@ -33,7 +40,18 @@ dbt는 데이터 변환을 위한 강력한 도구로서 주목받고 있으며,
 
 dbt의 가장 강력한 기능 중 하나는 데이터 모델의 무결성을 테스트하는 능력입니다. 테스트를 데이터 변환 프로세스에 직접 통합함으로써, dbt는 데이터 품질 문제를 조기에 식별하고 해결할 수 있도록 보장합니다. 이 기능은 분석 신뢰성을 유지하는 데 중요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 ‘상자에서 나오는’ 몇 가지 테스트가 있습니다:
 
@@ -46,7 +64,18 @@ dbt의 가장 강력한 기능 중 하나는 데이터 모델의 무결성을 �
 
 ![이미지](/assets/img/2024-06-19-ThePowerofDataBuildTooldbt_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한 v1.8부터 dbt는 단위 테스트를 소개했습니다. 이는 파이썬에서 오랫동안 사용 가능했던 unittest 패키지와는 달리 (2022년 2월에 릴리스된 버전 1.0.0부터 사용 가능했음), SQL 단위 테스트할 수 있는 능력은 매우 새로운 것입니다. 매우 간단한 예제 코드에서는 단위 테스트의 범위가 제한적이었지만, 단위 테스트에 대해 더 자세히 알아보려면 여기를 참고하십시오.
 
@@ -56,7 +85,18 @@ dbt의 가장 강력한 기능 중 하나는 데이터 모델의 무결성을 �
 
 문서는 명령줄에서 dbt docs generate && dbt docs serve를 입력하여 생성할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-ThePowerofDataBuildTooldbt_2.png" />
 
@@ -66,17 +106,39 @@ dbt의 가장 강력한 기능 중 하나는 데이터 모델의 무결성을 �
 
 ## 데이터 계통
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문서 사이트 내에서 데이터 연형을 보여주는 링크가 오른쪽 하단에 있습니다. 이것은 상류 및 하류 모델, 소스 및 노출물을 모두 보여주어 매우 가치 있습니다:
 
 ![show data lineage](/assets/img/2024-06-19-ThePowerofDataBuildTooldbt_4.png)
 
-여기서 우리는 선택된 모델인 dim_employee를 보라면, 두 개의 모델을 참조하는 것을 확인할 수 있습니다 (파란색으로 식별된 단계). 이 모델들은 또한 두 개의 이전 모델(우리의 스냅샷)과 그 외부 소스(초록색으로 식별)를 참조합니다. 이것이 하나의 하류 모델에서 사용되고 있으며, 비즈니스에 노출되어 대시보드에서 사용되고 있음을 확인할 수 있습니다 (주황색으로 식별). 
+여기서 우리는 선택된 모델인 dim_employee를 보라면, 두 개의 모델을 참조하는 것을 확인할 수 있습니다 (파란색으로 식별된 단계). 이 모델들은 또한 두 개의 이전 모델(우리의 스냅샷)과 그 외부 소스(초록색으로 식별)를 참조합니다. 이것이 하나의 하류 모델에서 사용되고 있으며, 비즈니스에 노출되어 대시보드에서 사용되고 있음을 확인할 수 있습니다 (주황색으로 식별).
 
 ## 데이터 계약
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스키마.yml 내의 모델 정의 일부로 각 필드의 데이터 유형을 정의할 수 있습니다. 데이터 유형이 여기서 업데이트되지 않고 변경되면 모델이 실패합니다. 이렇게 함으로써 코드 변경 중에도 생성된 테이블 스키마가 일관되게 유지되며 변경이 발생할 때 변경 사항을 알 수 있어서 변경이 프로덕션에 영향을 미치기 전에 하류 사용자에게 알릴 수 있습니다.
 
@@ -86,7 +148,18 @@ dbt의 가장 강력한 기능 중 하나는 데이터 모델의 무결성을 �
 
 dbt에서는 데이터 파이프라인에서 특정 목적을 제공하는 각기 다른 유형의 모델을 생성할 수 있습니다. 이는 다음을 포함합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 스냅샷: 특정 시점에서 데이터의 상태를 캡처하여 유효 기간과 유효 종료 날짜를 갖는 Type 2 SCD와 유사한 형태로 저장합니다. 모든 변경 가능한 소스에서 스냅샷을 활용합니다. 지난 주에 데이터가 다르게 보인다는 사람이 나에게 말했을 때 매우 유용하며, 왜 다른지 알고 싶어하는 경우에 큰 도움이 됩니다.
 - 테이블: 데이터베이스에 지속적으로 실제 테이블로 쿼리 결과를 작성합니다.
@@ -99,7 +172,18 @@ dbt에서는 데이터 파이프라인에서 특정 목적을 제공하는 각�
 
 ## 단계 1: 환경 설정하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시작하려면 dbt 및 DuckDB를 설치해야 합니다. 자세한 지침은 공식 dbt 및 DuckDB 문서에서 찾을 수 있지만, 기본적으로 가상 Python 환경을 만들고 다음을 입력하는 것뿐입니다:
 
@@ -111,7 +195,18 @@ pip install dbt-core dbt-duckdb
 
 dbt 프로젝트를 초기화하고 데이터 웨어하우스로 DuckDB를 사용하도록 구성하십시오. dbt에 새 프로젝트 빌드를 시작하도록 지시하여이 작업을 수행합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 dbt init
@@ -123,7 +218,18 @@ dbt init
 
 ## 단계 3: 소스 및 모델 정의하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSV 파일에서 데이터를 추출하기 위해 dbt에서 소스 정의를 만들어주세요. 그런 다음 이러한 소스가 가변적이라면 스냅샷 폴더 내에 스냅샷을 생성해주세요.
 
@@ -133,9 +239,20 @@ CSV 파일에서 데이터를 추출하기 위해 dbt에서 소스 정의를 만
 
 ![구조](/assets/img/2024-06-19-ThePowerofDataBuildTooldbt_7.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-DuckDB를 사용할 때 dbt와 함께 사용하는 것 중 하나가 dbt가 변환 단계에만 집중하는 반면, DuckDB의 기능을 통해 외부 테이블을 참조할 수 있다는 점이 마음에 듭니다. 아래 스크린샷에서는 demo_files 폴더에 있는 네 개의 csv 파일을 가리키고 있습니다. 데이터를 데이터베이스에 로드해야만 참조할 수 있는 번거로움보다 훨씬 쉽습니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+DuckDB를 사용할 때 dbt와 함께 사용하는 것 중 하나가 dbt가 변환 단계에만 집중하는 반면, DuckDB의 기능을 통해 외부 테이블을 참조할 수 있다는 점이 마음에 듭니다. 아래 스크린샷에서는 demo_files 폴더에 있는 네 개의 csv 파일을 가리키고 있습니다. 데이터를 데이터베이스에 로드해야만 참조할 수 있는 번거로움보다 훨씬 쉽습니다.
 
 ![스크린샷](/assets/img/2024-06-19-ThePowerofDataBuildTooldbt_8.png)
 
@@ -143,7 +260,18 @@ DuckDB를 사용할 때 dbt와 함께 사용하는 것 중 하나가 dbt가 변�
 
 아래 스크린샷에서는 스냅샷 테이블 중 하나를 만든 모습을 볼 수 있습니다. CREATE TABLE을 생성할 필요도 없고 MERGE 문을 만드는 로직에 대해 걱정할 필요도 없습니다. dbt가 대신해줍니다. 단순히 SQL 문을 쓰고 Jinja 블록 내에서 정의된 코드를 사용하면 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-06-19-ThePowerofDataBuildTooldbt_9](/assets/img/2024-06-19-ThePowerofDataBuildTooldbt_9.png)
 
@@ -153,7 +281,18 @@ DuckDB를 사용할 때 dbt와 함께 사용하는 것 중 하나가 dbt가 변�
 
 ![2024-06-19-ThePowerofDataBuildTooldbt_10](/assets/img/2024-06-19-ThePowerofDataBuildTooldbt_10.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 팩트 테이블은 차원들과 조인하여 올바른 매핑을 식별하고 문서화는 관계를 보여주도록 합니다. 이 접근 방식은 분석가가 항상 INNER JOIN을 사용하여 테이블을 조인할 수 있도록 합니다. dim_employee 테이블에 대한 조인은 Type 2 SCD에 연결될 때 날짜 범위를 사용합니다:
 
@@ -163,7 +302,18 @@ DuckDB를 사용할 때 dbt와 함께 사용하는 것 중 하나가 dbt가 변�
 
 dbt 테스트를 실행하여 모델의 무결성을 확인하세요. 문서 웹사이트를 생성하여 데이터 파이프라인의 명확한 개요를 얻으세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 (자세한 내용은 위쪽 섹션을 참조해주세요)
 
@@ -173,8 +323,18 @@ dbt run 결과를 검토하여 구축된 모델 및 생성된 문서를 확인�
 
 DuckDB 데이터베이스를 생성하기 위해 이를 실행 중이므로 DuckDB cli로 이동하여 SQL 문을 실행하여 결과를 확인할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-ThePowerofDataBuildTooldbt_12.png)
 

@@ -3,7 +3,7 @@ title: "세 명의 CISO에게 사이버 보안에서 성공하는 법을 물어�
 description: ""
 coverImage: "/assets/img/2024-06-19-IAskedThreeCISOsHowToSucceedInCybersecurityThisIsWhatILearnt_0.png"
 date: 2024-06-19 21:32
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-IAskedThreeCISOsHowToSucceedInCybersecurityThisIsWhatILearnt_0.png
 tag: Tech
 originalTitle: "I Asked Three CISOs How To Succeed In Cybersecurity. This Is What I Learnt …"
@@ -11,12 +11,9 @@ link: "https://medium.com/bugbountywriteup/i-asked-three-cisos-how-to-succeed-in
 isUpdated: true
 ---
 
+---
 
-
-
-
----      
-![이미지](/assets/img/2024-06-19-IAskedThreeCISOsHowToSucceedInCybersecurityThisIsWhatILearnt_0.png)  
+![이미지](/assets/img/2024-06-19-IAskedThreeCISOsHowToSucceedInCybersecurityThisIsWhatILearnt_0.png)
 
 # 사이버 보안 분야에서의 경력을 거의 20년 전에 시작했어요.
 
@@ -24,7 +21,18 @@ isUpdated: true
 
 CISSP 또는 CISA 자격증을 취득한 전문가들이 뜨거운 수요를 누릴 수 있었죠!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 이미 제 취업 경로와 다음 5년 동안 어디에 있을 것인지를 결정했어요.
 
@@ -34,7 +42,18 @@ CISSP 또는 CISA 자격증을 취득한 전문가들이 뜨거운 수요를 누
 
 주기적으로 세미나에서 연설하고, 저보다 훨씬 더 발전한 CISO들과 이야기할 기회가 있었어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 직업 계획에 대해 그들에게 물어보고, 어떤 조언을 받을 수 있는지 물었습니다.
 
@@ -44,7 +63,18 @@ CISSP 또는 CISA 자격증을 취득한 전문가들이 뜨거운 수요를 누
 
 # 1 — “Risk Management Is King”
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째 CISO가 제게 위험 관리 기술을 개발하라고 했어요.
 
@@ -54,7 +84,18 @@ CISSP 또는 CISA 자격증을 취득한 전문가들이 뜨거운 수요를 누
 
 대부분의 사이버 보안 전문가들은 CISSP 또는 CISM 교과서에서 위험 관리란 무엇인지를 외워서 알지만 실제로 적용하는 경우는 드뭅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위험 관리는 엑셀 스프레드시트에 관한 것이 아닙니다. 냉정하고 단단한 데이터로 뒷받침할 수 있는 현실적이고 어려운 결정을 내리는 것입니다.
 
@@ -64,7 +105,18 @@ CISO 한 명이 저에게 이 시나리오에 대해 말했습니다:
 
 "랜섬웨어 공격을 받아 운영이 중단되고 상당한 금액을 요구하는 상황이 벌어졌습니다. 비즈니스 측면에서 가해 압력이 엄청났습니다."
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 경영진들이 재정 손실과 영업 방해에 대해 열광했습니다.
 
@@ -74,7 +126,18 @@ CISO 한 명이 저에게 이 시나리오에 대해 말했습니다:
 
 법무, 재무 및 IT부서의 의견을 듣고, 사이버 보안 전문가와 법 집행 기관과의 협의를 거쳐, 우리의 위험 허용 한도와 장기 전략을 고려하여, 지불 여부와 비지불 여부의 위험과 혜택을 따졌습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 압박이 계속해서 증가하더라도, 우리는 랜섬을 지불하지 않기로 결정했고, 백업을 통한 회복과 보안 조치 강화에 집중하기로 했습니다.
 
@@ -84,7 +147,18 @@ CISO 한 명이 저에게 이 시나리오에 대해 말했습니다:
 
 "기술적인 기술만으로만 멀리 갈 수 있는 것은 아니다.."는 제 기술을 미쳐갈등스럽게 향상시키던 시기에 들었던 현실적인 진실이었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만, 올라가고 싶다면, 이것이 사실이에요!
 
@@ -96,7 +170,18 @@ CISO 한 명이 저에게 이 시나리오에 대해 말했습니다:
 
 사이버 보안에서 성공하고 싶다면.. 이러한 기술에 초점을 맞추세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 의사 소통
 
@@ -106,7 +191,18 @@ CISO 한 명이 저에게 이 시나리오에 대해 말했습니다:
 
 다음 해킹 강좌를 수강하는 대신... 대중 연설 능력 향상에 초점을 맞춘 그룹에 가입하세요. 데이터를 개선하는 데 그래프 및 다른 시각적 자료를 사용하는 방법을 배워보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 협상
 
@@ -116,7 +212,18 @@ CISO 한 명이 저에게 이 시나리오에 대해 말했습니다:
 
 대신에 '아니요'라고 말하는 대신 '네.. 그러나'라고 말하는 법을 배워보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **비즈니스 의도를 이해하기 위해 좋은 청취 기술을 개발하는 방법을 배워보세요.**
 
@@ -126,7 +233,18 @@ CISO 한 명이 저에게 이 시나리오에 대해 말했습니다:
 
 사이버 보안과 같은 직업에서는 언제든지 사건이 발생할 수 있기 때문에 압박 속에서 차분하게 유지하는 것을 배우는 것이 중요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 패닉을 부리기보다는 상황을 차분하게 분석하고 작은 조각으로 나눠 해결하는 법을 배우세요.
 
@@ -136,7 +254,18 @@ CISO 한 명이 저에게 이 시나리오에 대해 말했습니다:
 
 이 조언을 무시한 것을 정말 후회하고 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 명의 CISO가 자신의 직위에 이르는 것이 최종 목표가 되어서는 안 된다고 말했다. 그러나 나는 그 말을 수용하기 힘들었습니다.
 
@@ -146,7 +275,18 @@ CISO 한 명이 저에게 이 시나리오에 대해 말했습니다:
 
 또한, 비즈니스가 오늘 애플리케이션을 출시하길 원하고 결코 '아니오'라는 대답을 받아들이지 않는 충돌도 많이 있었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기술 업무와 가끔씩 자문 역할의 균형을 유지하며 더 행복해진 걸 깨달았어요. 그래서 사이버 보안 컨설팅으로 전향했어요.
 
@@ -156,8 +296,18 @@ CISO 한 명이 저에게 이 시나리오에 대해 말했습니다:
 
 CISO와 같은 급여를 받으면서도 그에 따라오는 압박과 짐을 덜고 있을 수도 있어요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-19-IAskedThreeCISOsHowToSucceedInCybersecurityThisIsWhatILearnt_1.png)
 

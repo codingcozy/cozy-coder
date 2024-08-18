@@ -3,17 +3,13 @@ title: "당신 손가락을 위한 또 다른 흥미로운 커리어 기회"
 description: ""
 coverImage: "/assets/img/2024-06-19-AnotherExcitingCareerOpportunityforYourFinger_0.png"
 date: 2024-06-19 05:49
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-AnotherExcitingCareerOpportunityforYourFinger_0.png
 tag: Tech
 originalTitle: "Another Exciting Career Opportunity for Your Finger!"
 link: "https://medium.com/a-gentle-cult/another-exciting-career-opportunity-for-your-finger-ac9cfaf60f13"
 isUpdated: true
 ---
-
-
-
-
 
 안녕 친구들!
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-19-AnotherExcitingCareerOpportunityforYourFinger_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서의 목표는 그림의 3D 투영입니다. 약 두 인치 깊이로, 손가락을 꽂을 수 있는 그림입니다. 완성되면, 이것은 Monet의 "수련과 일본 다리"의 3D 복제본이 될 것입니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-19-AnotherExcitingCareerOpportunityforYourFinger_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 매체에서 이것저것 뛰어다니는 것은 선호사항 이상의 중요성이 있습니다. 왜냐하면 페인트가 마르고 수지가 굳어야 하기 때문에 단순히 앉아서 한 번에 일을 끝내기 힘들어요. 보통 한 번에 이것이나 Headroom 같은 큰 프로젝트를 하나씩 처리하고, 그 사이에 다양한 모델들을 다루면서 각각의 코트를 바를 준비를 합니다.
 
@@ -43,11 +61,21 @@ Instagram에 더 많은 작품이 있지만, 위 진행 중인 프로젝트 사�
 
 ![작업 중인 이미지](/assets/img/2024-06-19-AnotherExcitingCareerOpportunityforYourFinger_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 Markdown 형식으로 변환된 테이블입니다.
 
-
 | Header 1 | Header 2 |
-|----------|----------|
+| -------- | -------- |
 | Data 1   | Data 2   |

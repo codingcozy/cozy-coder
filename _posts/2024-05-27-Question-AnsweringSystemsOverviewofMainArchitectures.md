@@ -3,16 +3,13 @@ title: "질문-응답 시스템 주요 아키텍처 개요"
 description: ""
 coverImage: "/assets/img/2024-05-27-Question-AnsweringSystemsOverviewofMainArchitectures_0.png"
 date: 2024-05-27 15:08
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-Question-AnsweringSystemsOverviewofMainArchitectures_0.png
 tag: Tech
 originalTitle: "Question-Answering Systems: Overview of Main Architectures"
 link: "https://medium.com/towards-data-science/question-answering-systems-overview-of-main-architectures-46b94d58bae6"
 isUpdated: true
 ---
-
-
-
 
 ## 확장 가능한 정보 검색 시스템을 구축하는 디자인 방식 탐색
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 최근 몇 년 동안 질문-응답 애플리케이션이 강력하게 등장했습니다. 현대적인 검색 엔진, 챗봇 또는 단순히 대량의 테마 데이터에서 관련 정보를 검색하는 애플리케이션 등 어디에서나 찾을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이름에서 알 수 있듯이 QA 응용 프로그램의 목적은 텍스트 단락에서 주어진 질문에 대한 가장 적합한 답변을 검색하는 것입니다. 처음 몇 가지 방법은 키워드 또는 정규 표현식을 사용한 단순한 검색으로 이뤄졌습니다. 당연히 이러한 접근 방식은 최적이 아닙니다: 질문이나 텍스트에 오타가 있을 수 있습니다. 게다가, 정규 표현식은 쿼리에서 주어진 단어와 관련이 높은 유의어를 감지할 수 없습니다. 이러한 접근 방식은 결과적으로, 트랜스포머와 벡터 데이터베이스 시대에 특히 강력한 새로운 방법론으로 대체되었습니다.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 # 추출형 QA
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 추출형 QA 시스템은 세 가지 구성 요소로 구성되어 있습니다:
 
@@ -44,7 +63,18 @@ isUpdated: true
 
 먼저, 질문이 검색기에 입력됩니다. 검색기의 목표는 질문에 해당하는 임베딩을 반환하는 것입니다. 간단한 벡터화 방법인 TF-IDF, BM-25부터 더 복잡한 모델까지 다양한 구현이 있을 수 있습니다. 대부분의 경우 트랜스포머와 같은 모델 (BERT)이 검색기에 통합됩니다. 단순한 단어 빈도수만을 의존하는 날것한 접근 방식과는 달리, 언어 모델은 텍스트의 의미를 캡처할 수 있는 밀집된 임베딩을 구축할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 질문에서 쿼리 벡터를 얻은 후, 외부 문서 모음에서 가장 유사한 벡터를 찾는 데 사용됩니다. 각 문서에는 질문에 대한 답변이 포함될 확률이 있습니다. 보통 문서 모음은 학습 단계에서 처리되어 리트리버에 전달되어 해당 문서에 대한 임베딩을 출력합니다. 이러한 임베딩은 일반적으로 효과적인 검색을 제공할 수 있는 데이터베이스에 저장됩니다.
 
@@ -54,8 +84,18 @@ isUpdated: true
 
 오픈 생성형 QA는 추출형 QA와 정확히 동일한 프레임워크를 따릅니다. 단, 리더 대신 제너레이터를 사용한다는 점에서 차이가 있습니다. 리더와 달리 제너레이터는 텍스트 단락에서 답변을 추출하지 않습니다. 대신, 질문과 텍스트 단락에서 제공된 정보를 사용하여 답변이 생성됩니다. 추출형 QA의 경우와 마찬가지로 가장 높은 확률을 갖는 답변이 최종 답변으로 선택됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Question-Answering Systems Overview of Main Architectures](/assets/img/2024-05-27-Question-AnsweringSystemsOverviewofMainArchitectures_3.png)
 
@@ -65,8 +105,18 @@ isUpdated: true
 
 최근 기계 학습에서 "검색 보조 생성" 또는 "RAG"라는 용어의 인기가 급증했습니다. 간단히 말하면, 이는 개방형 생성 QA 시스템에 기반을 둔 LLM 응용 프로그램을 생성하는 프레임워크입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 경우에 따라서, LLM 응용 프로그램이 여러 지식 도메인과 작동하는 경우, RAG 검색기는 주어진 쿼리에 가장 관련있는 지식 도메인을 식별하려는 보조 단계를 추가할 수 있습니다. 식별된 도메인에 따라 검색기는 다양한 작업을 수행할 수 있습니다. 예를 들어, 특정 도메인에 속하는 쿼리의 경우 해당 도메인의 벡터 데이터베이스를 사용하여 쿼리에 가장 관련있는 정보를 검색할 수 있습니다.
 
@@ -76,7 +126,18 @@ isUpdated: true
 
 ## 닫힌 생성 QA
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 닫힌 생성형 QA 시스템은 외부 정보에 액세스할 수 없으며 질문에서 제공된 정보만 사용하여 답변을 생성합니다.
 
@@ -86,7 +147,18 @@ isUpdated: true
 
 닫힌 생성형 QA 파이프라인은 다른 단점도 있습니다. 생성기는 교육을 받은 데이터에 후에 나타난 정보를 알지 못합니다. 이 문제를 해결하기 위해 생성기는 최신 데이터셋에 다시 교육을 받을 수 있습니다. 그러나 생성기는 일반적으로 수백만 또는 수십억 개의 매개변수를 가지고 있기 때문에 이러한 교육은 매우 많은 자원을 필요로 합니다. 이와 비교하여 추출형 QA 및 개방형 생성형 QA 시스템으로 동일한 문제를 다루는 것은 훨씬 간단합니다. 벡터 데이터베이스에 새로운 콘텍스트 데이터를 추가하는 것만으로 충분합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대부분의 경우 일반적인 질문이 있는 애플리케이션에서는 폐쇄형 생성 접근 방식이 사용됩니다. 매우 구체적인 도메인의 경우, 폐쇄형 생성 모델의 성능이 저하되는 경향이 있습니다.
 
@@ -96,7 +168,18 @@ isUpdated: true
 
 머신 러닝 분야에서 Open Generative QA 아키텍처가 현재 트렌드로 떠오르고 있으며, 특히 최근에 등장한 혁신적인 RAG 기술들과 함께 그 인기가 높아지고 있습니다. NLP 엔지니어라면 지금 당장 RAG 시스템에 주목하는 것이 좋습니다. 이 시스템들은 최근에 엄청난 속도로 발전하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 자료
 

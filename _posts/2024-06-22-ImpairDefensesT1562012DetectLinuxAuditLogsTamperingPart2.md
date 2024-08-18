@@ -3,17 +3,13 @@ title: "방어 무력화 T1562012 Linux 감사 로그 변조 탐지 방법 2부"
 description: ""
 coverImage: "/assets/img/2024-06-22-ImpairDefensesT1562012DetectLinuxAuditLogsTamperingPart2_0.png"
 date: 2024-06-22 16:09
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-ImpairDefensesT1562012DetectLinuxAuditLogsTamperingPart2_0.png
 tag: Tech
 originalTitle: "Impair Defenses [T1562.012]: Detect Linux Audit Logs Tampering (Part 2)"
 link: "https://medium.com/detect-fyi/impair-defenses-t1562-012-detect-linux-audit-logs-tampering-part-2-3379e5749f10"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-06-22-ImpairDefensesT1562012DetectLinuxAuditLogsTamperingPart2_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 본 기사에서는 auditd 규칙 및 설정에 대한 무단 변경을 감지하는 중요성을 다룰 것입니다. 이러한 변경사항을 식별하고 감사 로그의 신뢰성을 확보할 수 있는 방법과 도구, 예를 들어 auditd 규칙 및 Splunk 쿼리 등을 소개하겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 끝나면 공격자가 시스템 보안을 강화하는 데 필요한 지식과 도구로 장착될 것입니다. 이를 위해 auditd 규칙과 설정을 감지하여 조작하는 것을 탐지할 수 있습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 우리의 목표는 auditd 규칙과 설정에 대한 무단 삭제 또는 수정을 감지하는 것입니다. 효과적인 감지 메커니즘을 구현함으로써 감사 로그의 신뢰성을 유지하고 시스템 보안을 강화할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 해결책: 오디트드 규칙 및 설정 변경 감지하기
 
@@ -44,7 +62,18 @@ isUpdated: true
 
 ## 로그 활동 이해하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 auditd는 감사 시스템 구성 변경 시 CONFIG_CHANGE 이벤트를 기록합니다. 이는 감사 규칙을 포함한 구성 변경이 있을 때 발생합니다. 이 레코드 유형은 수정의 타임스탬프와 성격과 같은 세부 정보를 캡처하여 감사 규칙의 무단 삭제를 모니터링하고 감지하는 데 이상적입니다.
 
@@ -54,7 +83,18 @@ auditd는 감사 시스템 구성 변경 시 CONFIG_CHANGE 이벤트를 기록�
 
 감사 규칙 삭제를 감지하기 위한 상관 검색을 확인하기 위해 먼저 Splunk에서 필요한 로그를 생성하기 위해 규칙 삭제 시뮬레이션을 수행했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 패턴을 찾기 매우 쉽습니다. type=CONFIG_CHANGE 및 op=remove_rule을 찾아야 합니다.
 
@@ -64,7 +104,18 @@ auditd는 감사 시스템 구성 변경 시 CONFIG_CHANGE 이벤트를 기록�
 
 ## 설명:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **검색 기준 (index, sourcetype, type, op, res):**
 
@@ -74,17 +125,39 @@ auditd는 감사 시스템 구성 변경 시 CONFIG_CHANGE 이벤트를 기록�
 
 - key가 "(null)"인 경우 key를 "unknown"으로 설정하여 필드 일관성을 보장합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 집계 (통계 값(key) AS deleted_rules):
 
-   - _time, host, type, auid, ses 및 op에 따라 이벤트를 집계하고, 삭제된 auditd 규칙의 모든 key 값(이름)을 deleted_rules로 모음.
+   - \_time, host, type, auid, ses 및 op에 따라 이벤트를 집계하고, 삭제된 auditd 규칙의 모든 key 값(이름)을 deleted_rules로 모음.
 
-4. 시간 변환 (convert ctime(_time)):
+4. 시간 변환 (convert ctime(\_time)):
 
-   - _time의 Unix 타임스탬프를 사람이 읽을 수 있는 날짜 및 시간 형식으로 변환합니다.
+   - \_time의 Unix 타임스탬프를 사람이 읽을 수 있는 날짜 및 시간 형식으로 변환합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5. 삭제된 규칙 수 세기 (eval count=mvcount(deleted_rules)):
 
@@ -96,17 +169,39 @@ auditd는 감사 시스템 구성 변경 시 CONFIG_CHANGE 이벤트를 기록�
 - 삭제된 auditd 규칙의 수와 타임스탬프를 지정합니다.
 - 규칙 삭제의 예기치 못한 성격으로 인해 조사를 권장합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-7. 최종 결과 (표 _time, 호스트, 유형, auid, ses, 작업, deleted_rules, 이벤트_정보):
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-- 타임스탬프(_time), 호스트, 이벤트 유형 (유형), 감사 사용자 ID (auid), 세션 ID (ses), 작업 (op), 삭제된 규칙 (deleted_rules) 및 이벤트 세부정보 (이벤트_정보)를 포함한 구조화된 테이블 형식으로 결과를 제시합니다.
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+7. 최종 결과 (표 *time, 호스트, 유형, auid, ses, 작업, deleted_rules, 이벤트*정보):
+
+- 타임스탬프(*time), 호스트, 이벤트 유형 (유형), 감사 사용자 ID (auid), 세션 ID (ses), 작업 (op), 삭제된 규칙 (deleted_rules) 및 이벤트 세부정보 (이벤트*정보)를 포함한 구조화된 테이블 형식으로 결과를 제시합니다.
 
 # auditd 구성 수정/삭제를 모니터링하기 위한 탐지 개발
 
 ## 단계 1: 구성 수정을 모니터링하기 위한 auditd 규칙 생성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 설정 중인 auditd 규칙은 Linux 감사 인프라에 필수적인 핵심 구성 파일을 모니터링하기 위해 전략적으로 설계되었습니다. 이러한 파일에는 /etc/audit/auditd.conf, /etc/audit/rules.d/test.rules, /etc/audisp/audispd.conf 및 /etc/libaudit.conf이 포함됩니다. 각각이 중요한 이유는 다음과 같습니다:
 
@@ -119,7 +214,18 @@ auditd는 감사 시스템 구성 변경 시 CONFIG_CHANGE 이벤트를 기록�
 
 이 auditd 규칙의 논리는 다른 설정 파일 간에 일관성을 유지합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 각 규칙은 관련 작업이 발생할 때마다 감사 이벤트가 생성되도록 항상 -a를 사용합니다.
 - 모두 -F path=를 지정하여 감시되는 특정 구성 파일의 경로를 정의합니다.
@@ -134,7 +240,18 @@ auditd는 감사 시스템 구성 변경 시 CONFIG_CHANGE 이벤트를 기록�
 
 ## 단계 2: Splunk에서 상호 연관 검색 개발
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새 감사 규칙을 테스트하여 auditd.conf에 다양한 수정 사항을 시뮬레이션하여 올바르게 작동하는지 확인했습니다.
 
@@ -144,7 +261,18 @@ auditd는 감사 시스템 구성 변경 시 CONFIG_CHANGE 이벤트를 기록�
 
 - 검색 기준 (인덱스, 소스 유형, 유형, 키):
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - linux_audit 인덱스에서 linux:audit 소스 유형 및 type이 SYSCALL인 이벤트를 검색합니다.
 - 키 필드가 생성한 특정 감사 규칙 (auditrule_modification, auditd_conf_modification, audispd_conf_modification, libauditd_conf_modification) 중 하나와 일치하는 이벤트를 필터링합니다.
@@ -154,11 +282,22 @@ auditd는 감사 시스템 구성 변경 시 CONFIG_CHANGE 이벤트를 기록�
 - 1초 시간 간격 내(최대 일시 중지 = 1초) 동일 호스트에서 연속된 이벤트 (SYSCALL 항목)를 그룹화합니다.
 - 이 집계는 위협 행위자의 특정 작업에 대한 추가 컨텍스트를 제공할 수 있는 시스템 호출 순서를 분석하는 데 도움이 됩니다.
 
-3. 통계 요약 (stats count by _time, host, key, comm, exe, uid, gid, _raw):
+3. 통계 요약 (stats count by \_time, host, key, comm, exe, uid, gid, \_raw):
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-- 다양한 필드별로 그룹화된 카운트를 계산합니다: _time (타임스탬프), host (컴퓨터 이름), key (감사 키), comm (명령어 이름), exe (실행 파일 경로), uid (사용자 ID), gid (그룹 ID) 및 _raw (원시 로그 항목). 이 요약은 트랜잭션 내에서 이러한 속성의 각 고유한 조합의 빈도수를 나타냅니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+- 다양한 필드별로 그룹화된 카운트를 계산합니다: \_time (타임스탬프), host (컴퓨터 이름), key (감사 키), comm (명령어 이름), exe (실행 파일 경로), uid (사용자 ID), gid (그룹 ID) 및 \_raw (원시 로그 항목). 이 요약은 트랜잭션 내에서 이러한 속성의 각 고유한 조합의 빈도수를 나타냅니다.
 
 ## SYSCALL 이벤트의 중요 역할
 
@@ -166,7 +305,18 @@ SYSCALLs (시스템 콜)은 Linux 시스템의 감사 로그 내에서 이벤트
 
 기본 시스템 작업: SYSCALLs는 Linux 시스템에서 프로세스가 수행하는 기본 작업을 나타내기 때문에 필수적입니다. 이러한 작업에는 파일 시스템 접근 (예: open, read, write, unlink), 프로세스 관리 (예: fork, execve, exit), 그리고 네트워크 통신 (예: socket, connect, sendmsg)이 포함됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Audit Logging: Linux 시스템은 SYSCALL 이벤트를 기록하기 위해 감사 메커니즘을 사용합니다. 감사 로그에 기록된 각 SYSCALL 이벤트에는 작업 유형 (시스템 호출), 성공 또는 실패 여부 (성공=yes/no), 관련된 프로세스 ID (pid, ppid), 사용자 및 그룹 ID (uid, gid), 그리고 실행 가능한 경로 (exe)와 같은 세부 정보가 포함됩니다.
 
@@ -178,7 +328,7 @@ Audit Logging: Linux 시스템은 SYSCALL 이벤트를 기록하기 위해 감�
 - success=yes: 시스템 호출이 성공했음을 나타냅니다 (yes).
 - a0, a1, a2, a3: 감사 로그 항목의 이 필드는 시스템 호출 (syscall=263) 실행 시 전달된 인수 (a0부터 a3)를 나타냅니다. 이들은 시스템 호출 작업에 대한 구체적인 세부 정보를 제공합니다.
 - exit=0: 시스템 호출의 종료 상태 (0은 성공을 나타냅니다).
-- auid=*****: 감사 사용자 ID.
+- auid=**\***: 감사 사용자 ID.
 - uid=0, gid=0, euid=0, suid=0, fsuid=0, egid=0, sgid=0, fsgid=0: 프로세스와 관련된 사용자 및 그룹 ID (사용자 ID에 대한 uid 및 그룹 ID에 대한 gid).
 - comm=”rm”: 프로세스에 의해 실행된 명령 이름 (이 경우 'rm').
 - exe=”/usr/bin/rm”: 명령과 관련된 실행 가능 경로 (/usr/bin/rm).
@@ -186,7 +336,18 @@ Audit Logging: Linux 시스템은 SYSCALL 이벤트를 기록하기 위해 감�
 
 ## 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리눅스 감사 로그 변조를 탐지하는 이 두 부작에서는 auditd 규칙과 구성의 무결성을 보호하는 필수 전략을 탐구했습니다. 우선, 우리는 보안 모니터링에서의 auditd의 중요 역할과 악의적인 변조에 대한 취약성을 강조했습니다. 이를 통해 auditd 규칙의 삭제와 구성 변경을 탐지하는 것에 중점을 두었는데, 이는 견고한 보안 관행을 유지하는 데 중요합니다.
 
@@ -196,7 +357,18 @@ auditd 규칙과 Splunk 쿼리를 활용한 실용적인 구현을 통해 무단
 
 앞으로의 다음 단계는:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 지속적 모니터링: auditd 규칙과 설정을 계속 모니터링하여 향후 무단 변경을 감지합니다.
 - 향상된 경보 설정: Splunk에서 경보 메커니즘을 세밀하게 조정하여 auditd와 관련된 수상한 활동에 대한 실시간 알림을 제공합니다.

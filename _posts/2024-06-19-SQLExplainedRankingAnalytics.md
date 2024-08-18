@@ -3,17 +3,13 @@ title: "SQL에 대한 설명 랭킹 분석"
 description: ""
 coverImage: "/assets/img/2024-06-19-SQLExplainedRankingAnalytics_0.png"
 date: 2024-06-19 09:54
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-SQLExplainedRankingAnalytics_0.png
 tag: Tech
 originalTitle: "SQL Explained: Ranking Analytics"
 link: "https://medium.com/towards-data-science/sql-explained-ranking-analytics-d545fc4c4a5c"
 isUpdated: true
 ---
-
-
-
-
 
 인기 있는 RDBMS 관리 시스템 중 하나인 Oracle, SQL Server, Postgres 등에 경험이 있다면, 분석 또는 윈도잉 함수로 불리는 함수를 어느 정도 접해봤을 것입니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## 랭킹 분석 구문
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대부분의 최신 SQL 방언에서 랭킹 분석 함수의 일반적인 형식은 다음과 같습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 이들은 랭킹 함수의 이름들이며 대부분의 SQL에서 표시된 네 가지 함수를 지원합니다. 곧 각 개별 랭킹 함수에 대해 더 자세히 이야기해 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## OVER(…)
 
@@ -43,7 +61,18 @@ PARTITION_BY_CLAUSE
 
 partition_by_clause는 선택 사항이며 데이터 세트에서 그룹화하려는 열(하나 이상)의 이름을 포함합니다. 생략하면 SQL이 등수 함수를 실행할 때 테이블의 모든 레코드를 고려합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **ORDER_BY_CLAUSE**
 
@@ -53,7 +82,18 @@ partition_by_clause는 선택 사항이며 데이터 세트에서 그룹화하�
 
 특정 그룹 내에서 windowing_clause는 현재 행에 대해 순위 함수가 작동해야 하는 레코드 범위를 정의합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 가지 유형의 윈도잉이 있습니다.
 
@@ -67,7 +107,18 @@ partition_by_clause는 선택 사항이며 데이터 세트에서 그룹화하�
 - CURRENT ROW과 X FOLLOWING 사이의 행
 - UNBOUNDED PRECEDING과 UNBOUNDED FOLLOWING 사이의 범위
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 완전성을 위해 WINDOWING_CLAUSE에 대한 설명을 추가했지만 솔직히 말해서, 일상 업무에서는 거의 사용할 일이 없을 것입니다. 99%의 경우, 기본값만으로 충분합니다. 사실, 일반적으로 랭킹 분석 함수에서는 windowing_clause를 전혀 사용하지 않습니다.
 
@@ -77,7 +128,18 @@ partition_by_clause는 선택 사항이며 데이터 세트에서 그룹화하�
 
 저는 Oracle의 live SQL 웹사이트를 사용하여 테스트를 실행합니다. 이 서비스에 액세스하고 사용하는 방법에 대해 이전에 SQL에서 Grouping Sets, Rollup 및 Cube를 사용하는 데 관한 기사에서 설명했습니다. 완전히 무료로 설정하고 사용할 수 있습니다. 해당 기사의 링크는 아래에 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 샘플 테이블 생성 및 데이터 입력
 
@@ -135,7 +197,18 @@ select * from student_scores;
 15 rows selected.
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 데이터가 준비되었으니 순위 함수를 소개할 수 있어요.
 
@@ -145,12 +218,23 @@ RANK
 
 가장 좋은 방법은 올림픽 스프린트 경기의 선수들을 상상하는 것이에요. 만약 두 선수가 1위에서 동시에 와 발생한다면 그들은 둘 다 1위를 할당받아 금메달을 딴다고 생각하시면 돼요. 그 다음으로 먼저 도착한 선수는 두 번째 위치가 아닌 세 번째 위치 (즉, 동메달)를 받게 될 거예요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것이 순위가 번호를 할당하는 방법이며, 아래 예시에서 명확히 볼 수 있습니다.
 
 ```js
-select subject, student_name, rank() over(order by subject) rnk  
+select subject, student_name, rank() over(order by subject) rnk
 from student_scores;
 
 +---------+--------------+-----+
@@ -206,7 +290,18 @@ FROM student_scores;
 15 rows selected.
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 과목 그룹의 시작마다 랭크가 초기화된다는 것을 주목해주세요. 위의 데이터 세트를 입력으로 사용하여 각 과목 내에서 개별 최고 점수를 강조하는 것은 매우 쉽습니다.
 
@@ -232,14 +327,25 @@ where rank = 1
 
 DENSE_RANK 함수는 행에 순차적인 번호를 할당하는 데 rank 함수와 유사합니다. 차이점은 dense_rank가 간격이 없는 번호 시퀀스를 보장한다는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 올림픽 경주 비유를 이어가면, dense_rank 조건에서는 동일한 순위에 올라간 두 명이 여전히 금메달을 획득하지만, 그 다음 순위에 온 사람이 두 번째로 인정되어 은메달을 받게 됩니다.
 
 우리의 첫 번째 순위 SQL에서 rank를 dense_rank로 대체하면 내용을 명확히 이해할 수 있습니다. 다음 출력이 나옵니다.
 
 ```js
-select subject, student_name,dense_rank() over(order by subject) rnk  
+select subject, student_name,dense_rank() over(order by subject) rnk
 from student_scores;
 
 
@@ -265,7 +371,18 @@ from student_scores;
 
 dense_rank에 대해 말할 것이 더는 없습니다. 간격 없는 순위 시퀀스가 반드시 필요하다면 순위 분석 대신 사용하면 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## ROW_NUMBER
 
@@ -301,7 +418,18 @@ FROM student_scores;
 15개 행이 선택되었습니다.
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그레이스가 영 매칭 점수를 받은 것과 마찬가지로 오스카도 점수가 같은데 그것보다 상위에 랭크되어 있는 것을 보실 수 있습니다. 점수별 정렬 순서가 결정되지 않았기 때문에 그들의 랭킹 역시 결정적이지 않다는 것을 의미합니다. 위와 같은 쿼리를 다시 실행하면 그들의 순서, 즉 순위 값이 반전될 수도 있습니다.
 
@@ -314,7 +442,7 @@ insert into student_scores select * from student_scores
 where student_name in ('Alice','Kate','Oscar');
 
 
-select * 
+select *
 from student_scores;
 +------------+--------------+---------+-------+
 | student_id | student_name | subject | score |
@@ -342,14 +470,25 @@ from student_scores;
 18 rows selected.
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 학생 이름을 기준으로 순위를 매기는 row_number()를 사용하여 순위가 `1인 데이터를 선택함으로써 데이터 테이블에서 중복 레코드를 효과적으로 식별할 수 있습니다. 다음은 이 작업을 수행하는 SQL입니다.
 
 ```js
 WITH RankedScores AS (
     SELECT student_id, student_name, subject, score,
-           ROW_NUMBER() OVER (PARTITION BY student_id, 
+           ROW_NUMBER() OVER (PARTITION BY student_id,
            student_name, subject, score ORDER BY student_id) AS rn
     FROM student_scores
 )
@@ -375,7 +514,7 @@ WHERE rowid IN (
     SELECT rid
     FROM (
         SELECT rowid AS rid,
-               ROW_NUMBER() OVER (PARTITION BY student_id, 
+               ROW_NUMBER() OVER (PARTITION BY student_id,
                student_name, subject, score ORDER BY student_id) AS rn
         FROM student_scores
     )
@@ -408,7 +547,18 @@ SELECT * FROM student_scores;
 15개의 행이 선택됨.
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## NTILE
 
@@ -418,15 +568,26 @@ NTILE 함수를 사용하면 데이터 세트를 대략적으로 동일한 크�
 
 각 그룹 내의 레코드 수는 미리 알 수 없습니다. 요청한 타일 수가 출력에 표시되지만, 두 개의 그룹에는 3개의 레코드가 있고 다른 두 그룹에는 각각 4개와 5개의 레코드가 포함되어 있습니다. SQL이 보장할 수 있는 것은 가능한 경우 요청한 타일 수를 반환한다는 것뿐입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-SELECT 
+SELECT
     student_name,
     subject,
     score,
     NTILE(4) OVER (ORDER BY score) AS tile_rank
-FROM 
+FROM
     student_scores;
 
 
@@ -458,6 +619,17 @@ FROM
 
 마무리로, 현대 SQL 시스템에서 가장 흔한 4가지 SQL 랭킹 함수를 강조하고 그 사용 예시를 보여드렸습니다. 이 함수들은 모두 상대적인 순서에 따라 레코드에 랭킹 값을 할당하며, RANK, DENSE_RANK 및 ROW_NUMBER는 동점 처리를 다루고 순번을 지정하는 방식이 다르게 제공합니다. 한편, NTILE은 데이터에 대한 통계 분석이나 세분화 분석을 수행해야 하는 경우에 유용합니다. 이러한 기능을 가능한 많이 사용하고 일상적으로 사용해 보시기를 권장합니다. 데이터 분석, 조작 및 보고를 위한 강력한 도구이기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 컨텐츠가 마음에 드셨다면, 이 기사들도 흥미롭게 보실 것 같아요.

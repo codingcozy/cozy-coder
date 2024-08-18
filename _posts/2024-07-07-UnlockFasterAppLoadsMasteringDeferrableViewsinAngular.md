@@ -3,18 +3,13 @@ title: "앱 로딩 속도를 높이는 방법 2024년 Angular에서 Deferrable V
 description: ""
 coverImage: "/assets/img/2024-07-07-UnlockFasterAppLoadsMasteringDeferrableViewsinAngular_0.png"
 date: 2024-07-07 23:02
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-UnlockFasterAppLoadsMasteringDeferrableViewsinAngular_0.png
 tag: Tech
 originalTitle: "Unlock Faster App Loads: Mastering Deferrable Views in Angular"
 link: "https://medium.com/@hmidihamdi7/unlock-faster-app-loads-mastering-deferrable-views-in-angular-dc693c8653f5"
 isUpdated: true
 ---
-
-
-
-
-
 
 <img src="/assets/img/2024-07-07-UnlockFasterAppLoadsMasteringDeferrableViewsinAngular_0.png" />
 
@@ -24,8 +19,18 @@ Angular 17 이전에는 게으른 로딩이 주로 어플리케이션의 초기 
 
 지연 로딩 기능을 위해 Angular 17에서 도입된 내장 제어 흐름 구문을 활용합니다. 이 새로운 구문에 대해 더 알고 싶다면, 제 최신 게시물을 확인해보세요.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @defer {

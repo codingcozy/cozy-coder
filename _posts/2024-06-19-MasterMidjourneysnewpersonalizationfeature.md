@@ -3,17 +3,13 @@ title: "마스터 미드조니의 새로운 개인화 기능"
 description: ""
 coverImage: "/assets/img/2024-06-19-MasterMidjourneysnewpersonalizationfeature_0.png"
 date: 2024-06-19 21:05
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-MasterMidjourneysnewpersonalizationfeature_0.png
 tag: Tech
 originalTitle: "Master Midjourney’s new personalization feature"
 link: "https://medium.com/design-bootcamp/master-midjourneys-new-personalization-feature-a45d4aa72e54"
 isUpdated: true
 ---
-
-
-
-
 
 # 매개변수 명령어: --p
 
@@ -25,7 +21,18 @@ isUpdated: true
 
 전통적으로 이러한 매개변수는 출력물의 형태를 형성하는 데 도움이 되지만, 이들은 여전히 Midjourney의 "기본 스타일"에 영향을 받으며, 커뮤니티 트렌드에 영향을 받습니다. 이미지 참조와 스타일 일관성과 같은 매개변수가 있더라도, 스타일을 제어하는 능력은 안정적인 확산과 비교하여 제한되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `--p` 매개변수 명령어를 입력하세요. 이 혁신은 Midjourney의 기본 스타일을 사용자의 취향으로 교체할 수 있게 해줍니다. 사용자의 취향을 학습하여 모델의 훈련 데이터로부터 편견을 줄이고 개인적인 스타일을 더 잘 반영할 수 있습니다.
 
@@ -35,7 +42,18 @@ isUpdated: true
 
 LoRA와 유사하게 Stable Diffusion 안에서 Midjourney의 개인화는 사용자의 취향에 맞게 모델을 훈련시키기 위해 초기 설정이 필요합니다. 다음은 그 방법입니다:`
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1️⃣ Midjourney 웹 사이트에 방문해주세요: Midjourney 웹 사이트를 방문해주세요.
 
@@ -45,7 +63,18 @@ LoRA와 유사하게 Stable Diffusion 안에서 Midjourney의 개인화는 사�
 
 3️⃣ 이미지 순위 매기기: 왼쪽에서 "이미지 순위 매기기"를 선택해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![마스터미드 새로운 개인화 기능](/assets/img/2024-06-19-MasterMidjourneysnewpersonalizationfeature_2.png)
 
@@ -55,7 +84,18 @@ LoRA와 유사하게 Stable Diffusion 안에서 Midjourney의 개인화는 사�
 
 5️⃣ 최소 200개의 이미지 그룹 선택: 필요한 선택 수에 도달하면 대화상자가 완료를 확인합니다. 때로는 시스템이 선택 동작을 확인하여 초록색 O 또는 빨간 ❌이 나타날 수 있어요. 반드시 초록색 O를 선택하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 6️⃣ 완료 확인: 개인화된 스타일 모델의 완료를 확인하려면 디스코드에서 명령어 /info를 입력하세요.
 
@@ -65,7 +105,18 @@ LoRA와 유사하게 Stable Diffusion 안에서 Midjourney의 개인화는 사�
 
 개인화된 스타일을 적용하려면 프롬프트의 끝에 --p를 추가하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어:
 
@@ -75,7 +126,18 @@ LoRA와 유사하게 Stable Diffusion 안에서 Midjourney의 개인화는 사�
 
 프롬프트 뒤에 --p를 추가하면 자동으로 변환됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 효과가 발생할 것입니다:
 
@@ -85,7 +147,18 @@ LoRA와 유사하게 Stable Diffusion 안에서 Midjourney의 개인화는 사�
 
 -s를 사용하여 개인화 효과의 강도를 조절할 수 있습니다 (0은 끄고, 1000은 최대이며, 100은 기본값입니다).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어:
 
@@ -95,7 +168,18 @@ LoRA와 유사하게 Stable Diffusion 안에서 Midjourney의 개인화는 사�
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 중간여정의 새로운 맞춤화 기능에 감격받았어요. 각자의 특별한 취향을 가지고 있기 때문에, 이는 이미지 스타일의 폭이 넓어지고 생성된 이미지의 다양성이 커지는 것을 의미해요.
 
@@ -109,7 +193,18 @@ LoRA와 유사하게 Stable Diffusion 안에서 Midjourney의 개인화는 사�
 
 💡더 깊이 파고들고 싶나요? 제 중간여정 컬렉션이 여러분을 기다리고 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 이 기사를 좋아하셨나요?
 

@@ -3,17 +3,13 @@ title: "Stable Diffusion 모델 마스터하기 체크포인트, VAE, LoRA, 임�
 description: ""
 coverImage: "/assets/img/2024-06-23-MasterStableDiffusionmodelscheckpointVAELoRAembeddingandmore_0.png"
 date: 2024-06-23 20:22
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-MasterStableDiffusionmodelscheckpointVAELoRAembeddingandmore_0.png
 tag: Tech
 originalTitle: "Master Stable Diffusion models: checkpoint, VAE, LoRA, embedding and more"
 link: "https://medium.com/design-bootcamp/master-stable-diffusion-models-checkpoint-vae-lora-embedding-and-more-94549b1534c3"
 isUpdated: true
 ---
-
-
-
-
 
 안녕하세요! "Checkpoint", "VAE", "LoRA" 및 "Embedding"과 같은 용어가 혼란스러웠나요? "Stable Diffusion"을 탐험하면서 "pruned" 또는 "pruned-emaonly"와 같은 이름의 여러 버전의 체크포인트를 본 적이 있을 수도 있습니다. 어떤 것을 선택해야 할지 궁금해지기도 하죠.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Stable Diffusion을 보다 깊게 이해하기 위해 파일 이름 접미사로 시작해보겠습니다. 이 도메인에서 .ckpt 및 .safetensors 두 가지 일반적인 접미사가 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## .ckpt: 체크포인트
 
@@ -33,7 +40,18 @@ Stable Diffusion을 보다 깊게 이해하기 위해 파일 이름 접미사로
 
 .ckpt 외에도 .pt 모델 형식을 언급하는 것이 중요합니다. .ckpt는 TensorFlow에서 사용되는 반면, .pt는 PyTorch에서 모델 매개변수를 저장하는 데 사용되는 형식입니다. TensorFlow와 PyTorch는 둘 다 유명한 딥 러닝 프레임워크로, TensorFlow는 Google에 의해 개발되었고, PyTorch는 Facebook에 의해 개발되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이토치는 모델을 저장하기 위해 .pth 및 .pkl 형식도 사용합니다. .pt와 .pth 파일 사이에는 큰 차이가 없는 반면 .pkl 파일은 Python의 pickle 모듈을 사용하여 직렬화하는 추가 단계가 필요합니다.
 
@@ -43,7 +61,18 @@ Stable Diffusion을 보다 깊게 이해하기 위해 파일 이름 접미사로
 
 .ckpt 형식은 모델 가중치, 옵티마이저 상태 및 일부 Python 코드를 포함한 상세한 훈련 정보를 저장하여 어디서든 훈련을 재개할 수 있도록 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 이 방법에는 두 가지 주요 단점이 있습니다. 첫째, .ckpt 파일에는 악성 코드가 포함될 수 있으므로 신뢰할 수 없는 소스에서 다운로드할 때 보안 위험이 발생할 수 있습니다. 둘째, 이러한 파일은 일반적으로 대형이며, 실제 버전의 단일 체크포인트의 경우 약 7GB, 애니메이션 버전의 경우 2-5GB 정도입니다.
 
@@ -53,7 +82,18 @@ Stable Diffusion을 보다 깊게 이해하기 위해 파일 이름 접미사로
 
 요약하면, Stable Diffusion 모델의 체크포인트를 세밀하게 조정하려는 경우 .ckpt 형식이 선호됩니다. 그러나 생성된 이미지의 출력 품질에만 초점을 맞추려는 경우 보안성과 효율성이 향상된 .safetensors 형식이 더 나은 선택입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # II. 안정적 확산에서 모델 분류하기
 
@@ -63,7 +103,18 @@ Stable Diffusion을 보다 깊게 이해하기 위해 파일 이름 접미사로
 
 체크포인트 파일은 안정적 확산 프로세스에 필수적입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 파일들은 모델에 대한 지식베이스 역할을 합니다. 예를 들어, 애니메이션 이미지로 체크포인트를 훈련시키면 생성된 이미지는 애니메이션 스타일을 가질 것입니다.
 
@@ -73,7 +124,18 @@ Stable Diffusion을 보다 깊게 이해하기 위해 파일 이름 접미사로
 
 VAE는 Variational Autoencoder의 약자로, 필터 효과와 비슷합니다. 이미지 생성 중, 주로 출력물의 색상 계획에 영향을 줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보통 VAE 없이는 이미지가 더 어두워 보입니다. VAE를 사용하면 이미지가 밝아집니다.
 
@@ -83,7 +145,18 @@ VAE는 Variational Autoencoder의 약자로, 필터 효과와 비슷합니다. �
 
 가끔 VAE를 사용하면 원치 않는 효과가 발생할 수도 있습니다. 예를 들어 이미지가 파란색으로 변할 수 있습니다. 이를 피하기 위해 VAE 상태를 "자동"으로 설정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-23-MasterStableDiffusionmodelscheckpointVAELoRAembeddingandmore_1.png" />
 
@@ -93,8 +166,18 @@ VAE는 Variational Autoencoder의 약자로, 필터 효과와 비슷합니다. �
 
 예를 들어, 로라 모델은 체크포인트에 반짝이는 숲 붉은수세미 효과를 추가하여 전체 체크포인트를 다시 학습시킬 필요 없이 효율성을 높일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-23-MasterStableDiffusionmodelscheckpointVAELoRAembeddingandmore_2.png)
 
@@ -104,8 +187,18 @@ LoRA 모델은 훈련에 적은 이미지를 필요로 하기 때문에 파일 �
 
 마지막으로, 일부 LoRA 모델은 효과를 활성화하기 위해 프롬프트에 트리거 단어가 필요합니다. 예를 들어 위 LoRA의 경우 트리거 단어는 "jellyfishforest"입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-23-MasterStableDiffusionmodelscheckpointVAELoRAembeddingandmore_3.png)
 
@@ -115,7 +208,18 @@ LoRA 모델은 훈련에 적은 이미지를 필요로 하기 때문에 파일 �
 
 Stable Diffusion을 사용하여 D.Va의 이미지를 생성하려면 대개 여러 프롬프트를 사용하여 그의 외모를 설명해야 합니다. 이러한 프롬프트를 새로운 단일 프롬프트로 묶는 임베딩을 통해 이러한 작업을 간소화할 수 있습니다. 예를 들어, 이 새로운 프롬프트를 "D.Va"라고 합시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 임베딩 모델을 사용하면 “D.Va”를 입력하여 원하는 이미지를 생성할 수 있습니다. 이 방법을 사용하면 프롬프트를 작성하는 효율이 크게 향상됩니다.
 
@@ -125,7 +229,18 @@ Stable Diffusion을 사용하여 D.Va의 이미지를 생성하려면 대개 여
 
 ![Caroline Dare](/assets/img/2024-06-23-MasterStableDiffusionmodelscheckpointVAELoRAembeddingandmore_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 임베딩과 연관된 트리거 단어를 입력하면 비슷한 이미지가 생성됩니다:
 
@@ -135,7 +250,18 @@ Stable Diffusion을 사용하여 D.Va의 이미지를 생성하려면 대개 여
 
 하이퍼네트워크는 다른 신경망의 매개변수를 생성하는 신경망 기반 모델로, 종종 NovelAI의 Stable Diffusion 모델에서 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하이퍼네트워크는 원본 모델의 핵심 구조를 변경하지 않고 출력 스타일을 수정하기 위해 작은 네트워크를 삽입하여 모델을 세밀하게 조정할 수 있습니다. 그러나 이 기능은 LoRA와 중복되어 실제로는 덜 사용됩니다.
 
@@ -145,7 +271,18 @@ Stable Diffusion을 사용하여 D.Va의 이미지를 생성하려면 대개 여
 
 ![](/assets/img/2024-06-23-MasterStableDiffusionmodelscheckpointVAELoRAembeddingandmore_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 훈련 중 체크포인트 파일은 두 가지 다른 가중치 세트를 저장합니다:
 
@@ -157,7 +294,18 @@ Stable Diffusion을 사용하여 D.Va의 이미지를 생성하려면 대개 여
 
 2. Pruned-Emaonly:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 최신 몇 번의 반복에서 가중치의 지수 이동 평균(EMA)을 사용한 버전입니다.
 - EMA 기술은 가중치를 평균화하여 단기 변동의 영향을 줄여 일반화를 개선하고 더 안정적인 성능을 제공합니다.
@@ -171,7 +319,18 @@ Stable Diffusion을 사용하여 D.Va의 이미지를 생성하려면 대개 여
 - 더 많은 VRAM을 사용함.
 - 세밀한 조정 목적에 가장 적합함.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 잘라낸 Emaonly 모델:
 
@@ -183,7 +342,18 @@ Stable Diffusion을 사용하여 D.Va의 이미지를 생성하려면 대개 여
 
 이러한 차이를 이해하여 귀하의 요구사항에 맞는 적절한 모델 버전을 선택할 수 있습니다 — 미세 조정을 위한 것이든 안정적인 이미지를 직접 생성하기 위한 것이든.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # IV. 인기 체크포인트 소개
 
@@ -193,7 +363,18 @@ Stable Diffusion을 사용하여 D.Va의 이미지를 생성하려면 대개 여
 
 공식 체크포인트는 1.X 시리즈와 2.X 시리즈로 나뉩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1. X 시리즈: v1-1, v1-2, v1-3 및 v1-4 네 가지 버전이 있습니다. 이 체크포인트들은 Hugging Face: CompVis/stable-diffusion에서 이용 가능합니다.
 
@@ -203,7 +384,18 @@ Stable Diffusion을 사용하여 D.Va의 이미지를 생성하려면 대개 여
 
 2. X 시리즈: StabilityAI가 출시한 2-0 및 2-1 두 버전이 있습니다. 접근은 가능합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Stable Diffusion 2.0 by StabilityAI
 - Stable Diffusion 2.1 by StabilityAI
@@ -214,7 +406,18 @@ The Anything series is a popular choice for anime-style images, with four main v
 
 ![image](/assets/img/2024-06-23-MasterStableDiffusionmodelscheckpointVAELoRAembeddingandmore_8.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 4.3 현실적인 체크포인트
 
@@ -224,7 +427,18 @@ Realistic Vision은 고품질의 현실적 이미지를 생성하는 능력으�
 
 ## 4.4 판타지 체크포인트
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 판타지 체크포인트는 2D와 3D 미술 요소를 혼합하여 깊이를 더하지만 완전한 3D가 되지 않는 이미지를 만듭니다. AniVerse는 이 카테고리에서 가장 잘 알려진 모델 중 하나로, 멋진 독특한 시각적 효과를 만들어 냅니다.
 
@@ -232,9 +446,20 @@ Realistic Vision은 고품질의 현실적 이미지를 생성하는 능력으�
 
 요약하자면, Stable Diffusion은 Midjourney나 DALL-E와 같은 모델보다 복잡하며 원하는 결과를 얻기 위해 다양한 체크포인트를 사용해야 합니다. 이 초기 복잡성은 다양성과 상세한 제어로 균형을 이루어, 다양한 이미지를 생성하는 강력한 도구로 만들어졌습니다.
 
-— by公众号：AI技术巫
+— by 公众号：AI 技术巫
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 참고 자료
 
@@ -245,7 +470,18 @@ Realistic Vision은 고품질의 현실적 이미지를 생성하는 능력으�
 
 ## 글이 마음에 드셨나요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그렇다면:
 

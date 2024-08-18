@@ -3,17 +3,13 @@ title: "맥 해독하기 macOS 커널에서 고급 CPU 메트릭스 조사하기
 description: ""
 coverImage: "/assets/img/2024-06-19-DecodingMachInvestigatingmacOSsKernelforAdvancedCPUMetrics_0.png"
 date: 2024-06-19 08:54
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-DecodingMachInvestigatingmacOSsKernelforAdvancedCPUMetrics_0.png
 tag: Tech
 originalTitle: "Decoding Mach: Investigating macOS’s Kernel for Advanced CPU Metrics"
 link: "https://medium.com/@federicosauter/decoding-mach-investigating-macoss-kernel-for-advanced-cpu-metrics-6627bf5429a4"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-19-DecodingMachInvestigatingmacOSsKernelforAdvancedCPUMetrics_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 proc_pidinfo(PROC_PIDTASKINFO) 시스템 호출을 통해 프로세스별 CPU 시간 사용량을 사용할 수 있게 되었는데, 우리가 찾고 있는 것은 전체 시스템에서 (유휴 시간 포함) 사용된 CPU 시간을 결정하여 프로세스별 비율을 수립하는 방법입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 초기 접근 방식: host_process_info 메트릭 값을 합산하기
 
@@ -33,7 +40,18 @@ proc_pidinfo(PROC_PIDTASKINFO) 시스템 호출을 통해 프로세스별 CPU �
 
 점점 더 가까워지는 기분이었습니다. 이러한 차이로 인해 처음에 host_process_info()와 proc_pidinfo API에서 사용되는 시간 단위에 차이가 있을 수 있다고 생각하게 되었습니다. 내 관찰 아래에 정확히 무엇이 있는지 알아보기 위해, 시스템 질문에 대한 모든 답을 찾을 수 있는 유일한 장소인 케널 소스로 의존하게 되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 유일한 진실의 근원
 
@@ -43,7 +61,18 @@ proc_pidinfo(PROC_PIDTASKINFO) 시스템 호출을 통해 프로세스별 CPU �
 
 커널 소스에 내 질문에 대한 답변이 반드시 포함되어 있을 것이라고 확신을 가지고, 이 버그를 최종적으로 해결하기로 결심했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 올바른 질문하기
 
@@ -54,7 +83,18 @@ host_process_info()와 proc_pidinfo(PROC_PIDTASKINFO)은 아마도 서로 다른
 - 각 API가 사용하는 시간 단위는 무엇인가요?
 - 이러한 시간 단위를 서로 변환하는 방법은 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 세부적으로 각 API를 살펴보기 전에 Mach 커널이 리소스 회계를 수행하는 방법을 이해하려면 우회해야 합니다.
 
@@ -64,7 +104,18 @@ host_process_info()와 proc_pidinfo(PROC_PIDTASKINFO)은 아마도 서로 다른
 
 재계산 서브시스템은 다른 리소스 유형에 대해 서로 다른 세분도를 사용하며, 청소 및 메모리 사용의 효율성 사이의 균형을 유지합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 당신의 조사와 관련된 사안으로, Recount 이름이 곧 커널 소스에 나타날 것임을 확인했습니다.
 
@@ -74,8 +125,18 @@ proc_pidinfo API를 살펴보면서 시작했습니다. 이 API는 단일 프로
 
 해당 함수를 검색하고 스택 추적을 따라가 보니, fill_taskprocinfo 함수가 Mach 커널에서 작업 정보를 획득하고 보고하는데 궁극적으로 관여하고 있음을 알 수 있었습니다. task_info 속성인 pti_total_system과 pti_total_user를 거슬러 올라가면 proc_pidinfo() API와 Mach Recount 서브시스템 사이의 관련성이 드러납니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-DecodingMachInvestigatingmacOSsKernelforAdvancedCPUMetrics_1.png)
 
@@ -85,20 +146,39 @@ recount_task_times()로 호출 스택을 따라가면, 최종적으로 집계되
 
 ![이미지](/assets/img/2024-06-19-DecodingMachInvestigatingmacOSsKernelforAdvancedCPUMetrics_2.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 설명: recount_usage 구조는 Mach 시간 단위에서 사용자 및 시스템 시간을 구체적으로 유지하는 CPU 사용 메트릭을 저장합니다. 이를 통해 proc_pidinfo API가 CPU 시간을 어떻게 검색하고 보고하는지 이해할 수 있습니다.
 
-저는 recount_usage 구조의 필드가 동일한 접미사(_time_mach)를 가지고 있는 것을 발견했습니다. 이는 사용된 시간 단위에 대한 초기 힌트로 이해했습니다.
+저는 recount_usage 구조의 필드가 동일한 접미사(\_time_mach)를 가지고 있는 것을 발견했습니다. 이는 사용된 시간 단위에 대한 초기 힌트로 이해했습니다.
 
 # 다음 정거장: host_process_info
 
 host_process_info() 함수는 각 CPU 코어가 사용한 전체 CPU 시간을 보고합니다. processor_cpu_load_info() 함수가 이 정보를 보고하는 데 책임이 있다는 것을 알아보는 데 시간이 오래 걸리지 않습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-DecodingMachInvestigatingmacOSsKernelforAdvancedCPUMetrics_3.png)
 
@@ -108,8 +188,18 @@ host_process_info() 함수는 각 CPU 코어가 사용한 전체 CPU 시간을 �
 
 저는 실험 중에 이전에 관찰했던 내용이 변환 시간 단위 사이에 상수 요소가 포함되어 있다는 명백한 확인을 발견해서 기뻤습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이를 통해 proc_pidinfo API가 Mach 시간 단위로 CPU 사용량을 반환하고 host_process_info API가 대신 틱을 사용한다는 것을 알았습니다. 두 단위는 hz_tick_interval 요소를 사용하여 변환할 수 있습니다. 즉, hz_tick_interval 값을 결정할 수 있다면 두 시간 단위를 변환하고 버그를 해결할 수 있을 것입니다.
 
@@ -119,7 +209,18 @@ host_process_info() 함수는 각 CPU 코어가 사용한 전체 CPU 시간을 �
 
 안타깝게도 hz_tick_interval은 사용자 공간에서 접근할 수 없습니다. 빠른 해결책에 대한 희망이 사라졌지만, 최소한 값을 가져와서 아이디어가 유효한지 확인할 수 있다면 좋겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 상수를 찾는 것은 커널의 어느 부분이 관련되느냐에 따라 달랜 시간 기록 가정들의 미로에 들어간 것 같았습니다. 예를 들어, hz_tick_interval의 정의를 보며 BSD 부분에서 틱이 10ms를 나타내는 것으로 예상한다는 코멘트를 보았습니다. 이것이 서로 다른 API에서 서로 다른 시간 단위가 사용되는 이유일 것입니다.
 

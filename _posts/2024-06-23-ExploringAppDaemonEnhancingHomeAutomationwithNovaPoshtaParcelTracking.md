@@ -3,17 +3,13 @@ title: "AppDaemon 탐구 NovaPoshta 소포 추적으로 홈 자동화 향상시�
 description: ""
 coverImage: "/assets/img/2024-06-23-ExploringAppDaemonEnhancingHomeAutomationwithNovaPoshtaParcelTracking_0.png"
 date: 2024-06-23 17:08
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-ExploringAppDaemonEnhancingHomeAutomationwithNovaPoshtaParcelTracking_0.png
 tag: Tech
 originalTitle: "Exploring AppDaemon: Enhancing Home Automation with NovaPoshta Parcel Tracking"
 link: "https://medium.com/@vmannoor/exploring-appdaemon-enhancing-home-automation-with-novaposhta-parcel-tracking-25983f968304"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-23-ExploringAppDaemonEnhancingHomeAutomationwithNovaPoshtaParcelTracking_0.png" />
 
@@ -23,7 +19,18 @@ NovaPoshta(https://novaposhta.ua)는 우크라이나 최대의 우편 및 퀄리
 
 처음에는 기존의 사용자 정의 통합을 위해 GitHub를 검색했고 Dmitry Krasnoukhov의 사용자 정의 통합(https://github.com/krasnoukhov/homeassistant-nova-poshta)을 발견했어요. 그러나 정보를 다르게 표현하고 싶었습니다. AppDaemon과 실험 중이었기 때문에 직접 앱을 작성하기로 결정했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 노바포셔(Nova Poshta)에 계정을 등록해야 합니다. 이미 서비스를 이용 중이라면 계정이 있을 가능성이 높습니다. https://new.novaposhta.ua/dashboard/ 에서 계정 페이지에 로그인하고 설정 섹션으로 이동하여 새 API 키를 생성하세요. 이 키는 AppDaemon에서 API 호출을 하는 데 중요합니다. 자세한 API 문서는 https://developers.novaposhta.ua/documentation 를 방문하세요.
 
@@ -33,7 +40,18 @@ NovaPoshta(https://novaposhta.ua)는 우크라이나 최대의 우편 및 퀄리
 
 # MQTT 센서 구성:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제 세팅에서는 Home Assistant에 MQTT 센서를 만들었습니다. 이 센서는 제 전화번호와 관련된 소포 수를 상태로 표시하고 발신자, 배송 상태 등과 같은 소포 세부 정보를 속성으로 제공합니다. 아래는 MQTT 센서 구성의 일부입니다:
 
@@ -51,7 +69,18 @@ JSON 구조를 페이로드로 게시할 수 있는 MQTT 센서를 선택했습�
 
 # AppDaemon 앱
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 다음은 AppDaemon 앱 자체를 살펴보겠습니다. 이전 글에서 언급했듯이, 저는 아직 파이썬에 상대적으로 새로운 사용자이며, ChatGPT가 아래 코드를 작성하고 최적화하는 데 큰 도움이 되었습니다.
 
@@ -77,7 +106,7 @@ class NovaPoshtaMQTTParcelTracker(hass.Hass):
         self.run_every(self.fetch_parcel_details, "now", self.args.get("interval", 3600))
 
     # fetch_parcel_details(), handle_success(), get_readable_status(), handle_error(), publish_mqtt() 등 다른 메소드들은 코드의 다른 부분들을 처리합니다.
-    
+
 ```
 
 - 입력 값은 새로운 앱이 선언된 AppDaemon의 apps.yaml 파일 안에서 인수로 구성됩니다.
@@ -88,7 +117,18 @@ class NovaPoshtaMQTTParcelTracker(hass.Hass):
 
 AppDaemon 앱을 시스템에 통합하려면 위의 코드를 apps.yaml 파일에 추가해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```yaml
 novaposhta_parcel_tracker:
@@ -124,7 +164,7 @@ novaposhta_parcel_tracker:
                   { if key.startswith('Parcel') and value.get('Status') == 'Parcel Arrived' }
                     true
                   { endif }
-                { endfor }              
+                { endfor }
       mode: single
       max_exceeded: silent
       action:
@@ -138,14 +178,24 @@ novaposhta_parcel_tracker:
                 { if key.startswith('Parcel') and value.get('Status') == 'Parcel Arrived' }
                   <b>{ key }:</b>
                     발신인: { value.get('Sender') }
-                    송장: { value.get('Parcel') }  
+                    송장: { value.get('Parcel') }
                     배달 주소: { value.get('Delivery address') }
                 { endif }
               { endfor }
             parse_mode: html
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것으로 모두 마무리되었어요. 이 글이 홈 어시스턴트의 AppDaemon 기능을 더욱 흥미롭게 탐구하는 데 도움이 되었기를 바랍니다. 비슷한 사용 사례에 대한 여러분의 생각과 코드 개선을 위한 제안을 정말로 감사히 받겠어요!
 
 즐거운 스마트 홈 만들기 되세요!
+```

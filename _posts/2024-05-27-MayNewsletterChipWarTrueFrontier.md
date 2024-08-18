@@ -3,17 +3,13 @@ title: "5월 뉴스레터 칩 전쟁, 트루 프론티어"
 description: ""
 coverImage: "/assets/img/2024-05-27-MayNewsletterChipWarTrueFrontier_0.png"
 date: 2024-05-27 13:34
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-MayNewsletterChipWarTrueFrontier_0.png
 tag: Tech
 originalTitle: "May Newsletter: “Chip War”, True Frontier"
 link: "https://medium.com/healthcare-3d-printing-stories/may-newsletter-chip-war-true-frontier-04b3c08b79a4"
 isUpdated: true
 ---
-
-
-
-
 
 ![2024-05-27-MayNewsletterChipWarTrueFrontier_0.png](/assets/img/2024-05-27-MayNewsletterChipWarTrueFrontier_0.png)
 
@@ -23,8 +19,18 @@ Originally published on 3DHEALS.com: Lattice Newsletter
 
 ― Chris Miller, Chip War: The Fight for the World’s Most Critical Technology
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 내용은 엔터테인먼트 목적으로 제공되며 투자 조언이 아닙니다. 저희가 소셜 미디어를 통해 공유하는 뉴스는 여기에서 찾을 수 있습니다. 이 이메일 구독하려면 여기를 클릭하세요. 또는 이 뉴스레터의 LinkedIn 버전도 있습니다. 이번 에디션에는 Insights/Reflection, News 및 Events가 포함되어 있습니다. 이전 뉴스레터는 여기에서 찾을 수 있습니다.
 
@@ -34,7 +40,18 @@ Originally published on 3DHEALS.com: Lattice Newsletter
 
 가끔씩 제니가 3D 프린팅과는 아무 상관없는 것을 공유하는 이유가 뭔지 궁금할 때가 있다고 하죠?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 그것이 바로 핵심입니다. 우리는 세계의 나머지로부터 고립되어 존재하지 않습니다. 모든 것(문화, 기술, 지리, 인간 심리)은 우리가 공통으로 가진 이 관심과 연결이 있습니다. 생태계는 "특정 분야"가 아닙니다. 생태계는 모두를 연결합니다. 우리의 일은 플레이어들 사이의 복잡한 관계를 명확히 하는 것입니다. 3D 프린팅은 다른 모든 것과 연결되어야만 세상을 바꿀 수 있습니다. "네트워크 효과", "확장성", "비용 우위", "브랜드"는 기업이 연결로만 구축할 수 있는 요새입니다.
 
@@ -50,7 +67,18 @@ Originally published on 3DHEALS.com: Lattice Newsletter
 
 - 중국. 이 책은 중국이 역사적으로나 반도체 산업의 미래에서 하는 역할에 상당히 많은 페이지를 할애합니다. 나는 중국에서 나온 더 저렴한 3D 프린터나 소재가 협박적인 정도로 굳건하게 느껴지지는 않습니다. 가격을 둔갑해서 경쟁하는 것은 일시적인 이점만 가져다줄 것입니다. 또한 중국 정부(혹은 미국 정부)가 장기적으로 중요한 요소가 되기에 충분한 정도의 하부(소비자) 3D 프린터 제작업체를 후원할 것 같지 않습니다. 그러나 중국이 어떤 비용이든 들어가도록 기술 경쟁에서 승리하고자 하는 욕구는 어떻게든 느껴집니다. (그런데, 상대가 동일한 규칙으로는 경기를 이기기 어렵다면 항상 게임에서 이기기는 어려운 일입니다.) 최근 3D 프린팅과 생체 프린팅에 들어가는 연구 문헌과 특허에 따라 이것을 확인할 수 있습니다. 그 나라가 경제적 위축과 모호한 정치적 미래를 다루고 있을지라도, 상대적으로 습관적인 경쟁자에게 아직도 적극적인 시장 크기를 제공하고 있습니다. 우리 중 한 명은 여전히 중국에 물건을 팔고 싶어합니다. (예를 들어, 스타벅스.) 편-적이라
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주의하세요! 책을 읽어보세요.
 의견/생각이 있으시면, 이 이메일로 답장해주세요!
@@ -62,7 +90,18 @@ CEO/창업자, 3DHEALS
 
 ![image](/assets/img/2024-05-27-MayNewsletterChipWarTrueFrontier_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 이벤트/커뮤니티
 
@@ -81,7 +120,18 @@ CEO/창업자, 3DHEALS
 
 발표 신청하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 뉴스 및 생각
 
@@ -100,7 +150,18 @@ CEO/창업자, 3DHEALS
 - Rivelin Robotics, 새로운 영국 혁신 기업 프로젝트를 통해 금속 후가공 자동화 후가공은 게임의 절반입니다. 이 회사는 "결함 감소 90%, 운영비용 10배 감소 및 인적 관리 및 변동성 잠재적 위험 제거"를 자랑합니다. 이것은 로봇 회사들에게 노동 인력 부족이 실버 라이닝이 될 때입니다. 3D 프린트된 의료 장치 후가공에 초점을 맞춘 저희의 온디맨드 이벤트 녹화 자료를 확인하세요.
 - 수면무호흡과 코골이에 대한 해답이 될 수 있는 3D 프린팅 가능할지도 모르겠습니다. 좋은 아이디어와 기술이 항상 성공으로 이어지는 것은 아닙니다. ResMed는 여전히 수면무호흡에 선두합니다. 수면무호흡을 위한 3D 프린팅장치는 아직 존재하지 않으며, 최
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이번 달에는 Synopsys의 CEO 및 창립자와 함께한 Acquired 에피소드를 추천합니다. 몇 년 전 Simpleware가 Synopsys에 인수되었을 때 처음으로 Synopsys에 대해 알게 되었으며, 이를 계기로 회사에 대해 깊이 파헤치게 되었습니다.
 

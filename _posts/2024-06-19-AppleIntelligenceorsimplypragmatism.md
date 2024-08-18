@@ -3,17 +3,13 @@ title: "애플 인텔리전스, 혹은 단순한 실용주의"
 description: ""
 coverImage: "/assets/img/2024-06-19-AppleIntelligenceorsimplypragmatism_0.png"
 date: 2024-06-19 03:19
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-AppleIntelligenceorsimplypragmatism_0.png
 tag: Tech
 originalTitle: "Apple Intelligence, or simply pragmatism?"
 link: "https://medium.com/enrique-dans/apple-intelligence-or-simply-pragmatism-2c287a454874"
 isUpdated: true
 ---
-
-
-
-
 
 ![ScreenShot](/assets/img/2024-06-19-AppleIntelligenceorsimplypragmatism_0.png)
 
@@ -23,7 +19,18 @@ Apple의 기본적인 문제는 개인 정보를 존중하는 정책으로 이�
 
 이렇게 보았을 때, Apple은 어떻게 해야 할까요? 기본적으로 브랜드의 A와 놀아야 하고, 자사 모델을 Apple Intelligence로 명명하여 "우리 같은 이들을 위한 AI"로 위치시켜야 합니다. 다른 기술에 관심을 가지기 귀찮은 사람들을 위한 AI, 즉 몇 가지 기본 기능을 원하는 사람들을 위한 AI로 말이죠. 그리고 무엇보다도, 다른 브랜드의 기기를 소유한 사람들에게 열등함을 느끼지 말아야 합니다. 지루하고 실용적일지 모르지만... 그것이 반드시 나쁜 것은 아닙니다. Apple만이 할 수 있는 것처럼, 회사의 플랫폼을 끝없이 선보여서 참가자들을 피로하게 만든 후 남았습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 애플의 솔루션은 기본적인 AI로, 기기에서 개인 정보를 침해하지 않고 작동합니다. 기본적으로 간단한 기계 학습입니다. 하지만 iPhone의 프로세서가 그리 강력하지 않기 때문에, 특정 쿼리에 대한 두 번째 수준이 애플 서버에서 작동합니다. 애플 실리콘이 사용되며 애플 맵스의 경우처럼 쿼리를 수신하고 답변한 후 십 분 후에 삭제됩니다. 귀하의 데이터는 저장되지 않으며 회사 자체에서 액세스할 수 없습니다.
 
@@ -33,6 +40,17 @@ Apple의 기본적인 문제는 개인 정보를 존중하는 정책으로 이�
 
 한계를 이점으로 전환하는 측면에서 그리 나쁜 움직임은 아니나 다소 너무 자명한 것입니다. 그동안 애플은 미래의 AI 개발이 조금 더 지능적이되어야 하며, 학습의 한계를 해결하기 위해 엄청난 양의 데이터 대신 더 효율적인 모델을 선택하는 것을 기대하고 있습니다. 일단은 애플은 데이터 전쟁의 구경꾼일 뿐입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 마크다운 형식으로 표 태그를 변경해야 합니다.

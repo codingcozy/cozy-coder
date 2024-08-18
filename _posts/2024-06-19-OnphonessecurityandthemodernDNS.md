@@ -3,7 +3,7 @@ title: "휴대폰, 보안 및 현대 DNS"
 description: ""
 coverImage: "/assets/img/2024-06-19-OnphonessecurityandthemodernDNS_0.png"
 date: 2024-06-19 04:25
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-OnphonessecurityandthemodernDNS_0.png
 tag: Tech
 originalTitle: "On phones, security, and the modern DNS"
@@ -11,11 +11,7 @@ link: "https://medium.com/@raduzaharia/on-phones-security-and-the-modern-dns-5fd
 isUpdated: true
 ---
 
-
-
-
-
-![이미지](/assets/img/2024-06-19-OnphonessecurityandthemodernDNS_0.png)  
+![이미지](/assets/img/2024-06-19-OnphonessecurityandthemodernDNS_0.png)
 
 저는 항상 나만의 DNS 서버를 가지고 싶었어요. 가능한 모든 인터넷 쿼리를 위해가 아니라, 제가 원하는 것만을 위해서죠. 가정 기기를 주소 지정할 때 IP를 사용하는 것을 피하고, 전체 홈 네트워크에 구성한 서비스에 이름을 부여하는 것을 좋아해요. 물론, 이를 위한 여러 가지 방법이 있어요. 모든 데스크톱 플랫폼에는 이름과 주소를 연결할 수 있는 호스트 파일이 있어요. 예를 들어 뮤직.my.com을 192.168.1.15로 연결하는 것처럼 말이죠. 이 방법은 훌륭하지만, 모든 데스크톱에서 파일을 구성해야 한다는 점이 단점이에요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 또한 가지고 있는 도메인을 사서 DNS를 구성하고, A 레코드를 사용하여 music.my.com이 192.168.1.15와 일치하도록 할 수 있어요. 네, 로컬 IP 주소에 도메인을 지정하기 위해 전체 공개 인터넷 DNS 설정을 사용하는 것은 어리석은 일이라고 볼 수 있고, 가정의 장치와 서비스를 더 나은 이름으로 지정하기 위해 전체 도메인을 구매하는 것은 더욱 어리석은 일이지만, 어리석기는 해도요, 오늘 우리가 가진 최고의 네이밍 옵션이에요. 이전에 다른 옵션이 있었지만, 그 마지막 날이 다가오고 있다고 우려되요. 그것에 대해 이야기해봐요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 개인 DNS 서버
 
@@ -33,7 +40,18 @@ DNS는 인터넷 거물들만의 전유물이 아닙니다. 앞서 살펴본 것
 
 예를 들어, Synology는 설정이 매우 쉬운 DNS 서버를 제공하는데, 여기서는 기본 영역을 생성하고 리소스 레코드를 편집하면 됩니다. 잘못된 작업을 할 수 없게 하고 모든 작업들이 잘 설명되어 있습니다. 터미널에 접근할 필요가 없고 구성 파일을 수동으로 편집할 필요도 없는 절대 초보자 친화적인 도구입니다. 또한, ASUS 등 다른 기업들도 유사하거나 더 나은 DNS 서버를 가지고 있을 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 DNS 서버를 구성하면 DHCP를 통해 광고하여, 가정 네트워크에 참여하는 모든 기기가 기본 존 도메인을 위해 먼저 이를 쿼리할 수 있게 됩니다. 즉, 라우터를 설정하여 기본 DNS를 NAS IP로, 보조 DNS를 클라우드플레어 또는 원하는 곳으로 지정합니다. DNS 서버 도메인에 대한 모든 요청은 해당 서버를 통해 해결되고, 그 외 모든 요청은 클라우드플레어를 통해 처리됩니다.
 
@@ -43,7 +61,18 @@ DNS 서버를 구성하면 DHCP를 통해 광고하여, 가정 네트워크에 �
 
 ![이미지](/assets/img/2024-06-19-OnphonessecurityandthemodernDNS_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그건 사소한 문제가 아니고 앞으로 홈 DNS 서버를 설정하는 것에 대해 이야기할 수도 있지만, 별로 복잡하지 않아요. DNS 서버와 DHCP 서버를 설정해야 하는 두 가지가 있는데, NAS와 좋은 라우터를 사용하면 몇 번의 클릭으로 끝낼 수 있거든요. 하지만 이에 대해 이야기해야 할 중요한 점이 하나 있어요.
 
@@ -53,7 +82,18 @@ DNS 서버를 구성하면 DHCP를 통해 광고하여, 가정 네트워크에 �
 
 이걸 이해하는 데 시간이 좀 걸렸어요. 한 번 핸드폰 브라우저에서 성공적으로 music.my.com을 로드했다면, 핸드폰에 경로가 캐시될 수 있고 잘 작동할지도 모릅니다. 웹 페이지는 브라우저에 캐시될 수 있고 사이트가 잘 로드되는 것을 볼 수도 있겠죠. 브라우저에서 시크릿 모드를 사용해야 하고, 핸드폰의 DNS 캐시를 비우기 위해 재부팅하거나 비행기 모드로 전환한 다음 다시 켜야 합니다. 적어도 그렇게 처리하면 된다고 들었어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 그리고, 쇼스토퍼
 
@@ -63,7 +103,18 @@ DNS 서버를 구성하면 DHCP를 통해 광고하여, 가정 네트워크에 �
 
 그래서 무슨 일이 벌어졌을까요? 이것은 사실입니다. 본문은 폰, NAS, 라우터, 홈 서버, 그리고 내 홈 네트워크에 있는 여러 데스크톱을 걸쳐 수주간 동안의 지속적인 조사와 탐구로부터 온 풍부한 지식의 결과입니다. 그리고 모든 것이 당연히 DNS로 시작되고 끝납니다. music.my.com을 모든 데스크탑이 로드할 수 있다는 것을 알기 때문에 DNS가 작동한다는 것을 알고 있습니다. 하지만 안드로이드든 iOS든 홈 네트워크에 있는 모바일은 작동하지 않는다는 것을 알고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인터넷이 예전과는 다르다는 걸 느끼시죠. DNS 역시 예전과 달라졌습니다. 인터넷과 보안의 기초에는 엄청난 갈등이 있고, DNS는 영향을 받는 한 가지 주체에 불과합니다. 최근에 DNS over TLS와 DNS over HTTPS에 대해 계속 듣고 있습니다. 둘 다 개인 정보 보호와 보안을 강화하는 DNS 옵션입니다. 개인 정보 보호는 누군가가 방문한 URL을 가로챌 수 없기 때문에, 보안은 DNS를 변경하여 유효한 경로를 악성 경로로 바꿀 수 없기 때문에 중요합니다.
 
@@ -73,7 +124,18 @@ DNS 서버를 구성하면 DHCP를 통해 광고하여, 가정 네트워크에 �
 
 ## 추악한 진실
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![OnphonessecurityandthemodernDNS_4](/assets/img/2024-06-19-OnphonessecurityandthemodernDNS_4.png)
 
@@ -83,7 +145,18 @@ DNS 서버를 구성하면 DHCP를 통해 광고하여, 가정 네트워크에 �
 
 아마 Firefox는 최소한 더 개방적이고 사용자 정의 가능할 것이라고 생각하실 수 있어요. 하지만, 전혀 그렇지 않아요. Edge처럼 모든 웹 쿼리에 대해 완전히 다른 DNS를 사용한다는 사실을 아무도 알려주지 않아요. Brave는 기본적으로 자체 DNS 리졸버를 가지고 있지만, 적은 대신 변경할 수 있게끔 해줘요. 하지만, 알고리고 잘못한 일을 했고 그 결과를 받아야 한다고 명시적으로 알려주는 경우도 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 iOS의 Safari는 어떻게 될까요? 동일합니다: 아무것도 알려주지 않고, 프라이빗 DNS를 사용하며 변경할 수 없습니다. Chrome은 어떻게 될까요? 마찬가지입니다. Brave는 어떨까요? 마찬가지로, Android와 마찬가지로 DHCP DNS를 적용하도록 허용하기 위해 여러 동의서에 서명해야 한다는 점을 덧붙이겠습니다. 그리고 다음 Windows의 보안 개선 사항으로 DNS 잠금이 포함될 것이라고 들었을 수도 있습니다. Microsoft는 그 의미에 대해 정확히 설명하지 않았지만, Google과 Apple이 Android와 iOS를 위해 수행한 것과 유사한 일을 하게 될 것으로 생각됩니다: DHCP DNS 주소를 무시하고 자체, 프라이빗하며 안전한 TLS, HTTPS 또는 미래를 위해 개발할 새로운 프로토콜을 사용하는 것입니다.
 
@@ -91,7 +164,18 @@ iOS의 Safari는 어떻게 될까요? 동일합니다: 아무것도 알려주지
 
 <img src="/assets/img/2024-06-19-OnphonessecurityandthemodernDNS_5.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여러분은 다 브레이브를 사용할 겁니다. 다들 리눅스를 사용할 겁니다. 그건 대단한 일이죠. 그런데 문제는 더 나중에 발생합니다. 이 변경사항들은 우리가 모두 중요시하는 문제인 개인정보 보호와 보안 문제를 해결하기 위해 이뤄졌다는 점을 알 수 있습니다. 불행히도, 이 해결책은 열린 구성 가능성을 가진 것이 아니라, 공급업체들이 엄격하게 잠금을 거는 것으로 선택되었습니다. Windows, iOS, 안드로이드의 경우 운영 체제 공급업체, 그리고 Edge, Chrome, Brave, Firefox의 경우 애플리케이션 공급업체가 바로 이에 해당합니다.
 
@@ -101,7 +185,18 @@ iOS의 Safari는 어떻게 될까요? 동일합니다: 아무것도 알려주지
 
 이러한 방식으로 DNS 해결을 잠그는 것은 홈 네트워크 전반에 걸쳐 사용되는 신뢰할만한 광고 차단 솔루션인 PI-Hole을 비활성화합니다. my.com에서 보여준 것과 같이 홈 메이드 도메인을 비활성화시킵니다. 사용자가 선호하는 DNS 해결 서비스를 선택하는 것을 방해합니다. 완전한 제어 하에 단일 DNS 해결을 갖도록 공급업체에게 권한을 주는 것입니다. 비록 그것이 더 개인 정보 보호 및 안전성을 강조하도록 되어 있더라도요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서 우리는 이 모든 것으로 무엇을 배웠을까요? 일단, 집 네트워크에서 기기에 이름을 지정하는 유일한 방법은 실제 도메인을 구입하고 거기에 기기 및 서비스 매핑을 위한 DNS 항목을 추가하는 것입니다. 둘째, 집 DNS 시대는 매우 가까워졌습니다. 요즘에는 전화기가 더 많이 사용되는데, 곧 데스크톱도 전화기와 같은 행동을 할 것이며, DNS가 완전히 제조사의 통제 아래 밀봉되게 될 것입니다. 셋째, 우리는 모두를 개인 정보 보호와 보안을 위해 이렇게 하는 것이죠.
 

@@ -3,17 +3,13 @@ title: "카프카 API에 대한 부드러운 소개"
 description: ""
 coverImage: "/assets/img/2024-06-19-AGentleIntroductiontoKafkaAPI_0.png"
 date: 2024-06-19 16:05
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-AGentleIntroductiontoKafkaAPI_0.png
 tag: Tech
 originalTitle: "A Gentle Introduction to Kafka API"
 link: "https://medium.com/gitconnected/a-gentle-introduction-to-kafka-api-6a9cf67c4618"
 isUpdated: true
 ---
-
-
-
-
 
 ![Kafka API 소개](/assets/img/2024-06-19-AGentleIntroductiontoKafkaAPI_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 그러나 이러한 변경 사항들 속에서도 이 기업들은 중요한 한 가지를 변경하지 않으려았습니다 — 카프카 API입니다. 이 표준 인터페이스는 서로 다른 카프카 배포판 간의 호환성과 상호 운용성을 보장하는 데 중요한 역할을 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 아파치 카프카 대 Kafka API
 
@@ -33,8 +40,18 @@ isUpdated: true
 
 당신은 Kafka API를 통해 Kafka와 작업할 것입니다. 개발자로서, Kafka API를 사용하여 Kafka에 데이터를 읽고 쓸 수 있는 클라이언트 응용 프로그램을 작성할 것입니다. 운영자로서, Kafka API를 사용하여 Kafka에 관리 작업을 수행할 것입니다. Kafka 배포가 오픈 소스인지 상업용 제품인지에 상관없이, 여전히 동일한 Kafka API를 사용해야 합니다. 따라서 Kafka API를 이해하는 것이 중요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-19-AGentleIntroductiontoKafkaAPI_1.png)
 
@@ -44,12 +61,33 @@ isUpdated: true
 
 Kafka는 브로커가 이 시스템 내에서 단일 노드를 나타내는 분산 시스템입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 부킹 애플리케이션에서 클라이언트를 여러 개의 브로커에 초기 연결하려면 어떻게 해야 하나요? Bootstrap Server 주소를 사용해야 합니다. 이는 애플리케이션이 클러스터 메타데이터를 얻기 위해 상호 작용하는 첫 번째 브로커입니다. 추후 상세히 다룰 주제입니다. 위의 이미지를 Markdown 형식으로 변경해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 메시지
 
@@ -59,7 +97,18 @@ Kafka는 브로커가 이 시스템 내에서 단일 노드를 나타내는 분�
 
 ![이미지](/assets/img/2024-06-19-AGentleIntroductiontoKafkaAPI_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 키와 값은 변수 길이의 바이트 배열로 표현됩니다. 이는 Kafka가 일반 텍스트에서 직렬화된 객체까지 다양한 데이터 유형을 처리할 수 있도록 합니다.
 
@@ -69,7 +118,18 @@ Kafka는 브로커가 이 시스템 내에서 단일 노드를 나타내는 분�
 
 토픽은 Kafka의 정보 계층구조에서 가장 높은 수준에 있습니다. 개발자로서 여러분은 클라이언트 응용 프로그램을 작성하게 될 것인데, 이는 다양한 토픽으로부터 데이터를 생성하고 소비합니다. 토픽은 메시지 브로커의 발행-구독 세맨틱스를 빌려옵니다. 토픽은 여러 생산자와 소비자에 의해 동시에 데이터 쓰기 및 읽기를 지원합니다. 또한 메시지가 한 토픽에서 생성되면 여러 소비자가 소비할 수 있는 방송/팬아웃 스타일 메시징을 지원합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주제는 추가 작업만을 허용하며 임의로 변경할 수 없습니다. 따라서 한 번 메시지를 주제에 쓰면 그것을 다시 업데이트할 수 없습니다. 또한 주제에서 읽는 것은 파괴적인 작업이 아닙니다. 동일한 소비자는 나중에 다시 필요에 따라 메시지를 다시 읽을 수 있습니다. 소비자 오프셋에 대해 언급할 때 이에 대해 알아보겠습니다.
 
@@ -79,7 +139,18 @@ Kafka는 브로커가 이 시스템 내에서 단일 노드를 나타내는 분�
 
 주제는 연속적이지 않고 파티션으로 구성됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주제는 논리적인 개념이며, 파티션은 더 구체적인 엔티티입니다.
 
@@ -89,7 +160,18 @@ Kafka는 브로커가 이 시스템 내에서 단일 노드를 나타내는 분�
 
 파티션 개념이 없고 Kafka가 주제 데이터를 단일 블록으로 유지한다면 어떻게 될까요? 먼저, 데이터가 더 많이 쌓일수록 주제의 크기가 증가하고 곧 단일 기계의 저장 한도를 초과할 것입니다. 추가 저장소를 연결하고 기계를 더 크게 만들 수는 있습니다. 그러나 결국 그에도 한계가 존재할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 둘째, 모든 소비자는 그 큰 주제를 보유한 브로커에서 소비해야합니다. 그렇게 하면 소비자 부하 분산이 없기 때문에 해당 브로커의 부하가 증가합니다. 게다가 그런 방대한 주제를 백업하는 것은 시간이 많이 소요되며, 해당 주제를 저장하고 있는 브로커가 충돌하면 데이터 전체를 잃을 위험이 큽니다.
 
@@ -99,7 +181,18 @@ Kafka는 브로커가 이 시스템 내에서 단일 노드를 나타내는 분�
 
 파티션 내 각 메시지는 고유한 오프셋을 받습니다. 이는 해당 파티션 로그 파일에서 메시지 위치를 나타내는 단조로 증가하는 정수입니다. 간단히 말해, 오프셋은 로그 파일의 시작으로부터 메시지가 얼마나 떨어져 있는지를 말합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 메시지가 파티션에 작성되면 로그 끝에 추가되고 다음 순차적 오프셋이 할당됩니다. 오프셋은 소비자가 파티션에서 소비한 메시지를 추적하는 데 특히 유용합니다.
 
@@ -109,7 +202,18 @@ Kafka는 브로커가 이 시스템 내에서 단일 노드를 나타내는 분�
 
 파티션에 작성된 메시지는 항상 도착하는 순서대로 정렬됩니다. 그러나 토픽을 통해 메시지 순서가 보장되진 않습니다. 파티션 내에서 엄격한 순서가 필요한 경우 파티션 키를 올바르게 사용해야 합니다. 하지만 어떻게 해야 할까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에서 배운 바와 같이 메시지마다 키를 포함할 수 있습니다. 메시지를 수신하면 Kafka는 키에 해시 함수를 사용하여 메시지를 작성해야 하는 파티션을 결정합니다. 이를 통해 동일한 키로 생성된 모든 레코드가 보낸 순서대로 동일한 파티션에 도달한다는 것이 보장됩니다.
 
@@ -119,7 +223,18 @@ Kafka는 브로커가 이 시스템 내에서 단일 노드를 나타내는 분�
 
 파티션에는 여러 개의 복사본이 있을 수 있습니다. 이는 장애 허용 및 고가용성을 위해 복제됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 동일한 데이터의 여러 복사본을 유지함으로써 Kafka는 하나의 브로커가 실패하더라도 다른 브로커가 데이터를 제공할 수 있도록 합니다. 이 중복성을 통해 시스템은 장애에도 계속 작동할 수 있습니다. 또한 여러 브로커에 걸쳐 복제본을 갖고 있음으로써 Kafka는 읽기 및 쓰기 요청의 부하를 균형 있게 분산시켜 시스템 성능을 향상시킬 수 있습니다.
 
@@ -129,8 +244,18 @@ Kafka는 브로커가 이 시스템 내에서 단일 노드를 나타내는 분�
 
 각 파티션 복제본은 리더 또는 팔로워 중 하나입니다. 리더 복제본은 해당 파티션의 모든 읽기 및 쓰기 요청을 처리하고, 팔로워 복제본은 리더를 수동으로 복제합니다. 리더가 실패하면 팔로워 복제본 중 하나가 자동으로 새로운 리더가 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-06-19-AGentleIntroductiontoKafkaAPI_7.png)
 
@@ -140,8 +265,18 @@ Kafka는 파티션 리더를 어떻게 결정할까요? Kafka는 Apache Zookeepe
 
 # Segments
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파티션은 실체가 있는 것이라고 언급했지만, 정확히 그렇지는 않아요. 파티션은 더 작은 세그먼트로 나뉩니다.
 
@@ -151,7 +286,18 @@ Kafka는 파티션 리더를 어떻게 결정할까요? Kafka는 Apache Zookeepe
 
 ![이미지](/assets/img/2024-06-19-AGentleIntroductiontoKafkaAPI_8.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시에어끼는 세그먼트에서 메시지는 삭제되거나 압축될 수 있어 디스크 공간을 절약할 수 있습니다. 이것은 구성 가능합니다. 게다가 티어드 스토리지를 사용하면 저렴한 비용으로 예전 로그 세그먼트를 아카이브할 수 있어, 예를 들어 스토리지 비용을 줄이기 위해 S3 버킷에 저장할 수 있습니다.
 
@@ -161,7 +307,18 @@ Kafka는 파티션 리더를 어떻게 결정할까요? Kafka는 Apache Zookeepe
 
 우리는 Kafka를 어리석은 파이프라고 말합니다. 그리고 프로듀서와 컨슈머는 스마트 엔드포인트입니다. 그들은 클라이언트 SDK에 포함된 많은 스마트 논리를 가진 두꺼운 클라이언트입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 개발자로서는 대응하는 Kafka 클라이언트 SDK가 있는 모든 프로그래밍 언어로 Kafka 클라이언트를 작성할 수 있습니다. Java 및 Scala가 기본적이며 Python, .NET, Go, Rust, C++ 등의 언어에 대한 Kafka 클라이언트 SDK도 제공됩니다.
 
@@ -171,7 +328,18 @@ Kafka는 파티션 리더를 어떻게 결정할까요? Kafka는 Apache Zookeepe
 
 소비자 그룹(Consumer Group)은 여러 사용자가 레코드 처리 작업을 나누는 기능입니다. 여러 소비자가 주제를 구독하고 동일한 소비자 그룹에 속한 경우, 그룹의 각 소비자는 레코드의 일부를 받게 됩니다. Kafka는 메시지가 그룹 내 하나의 소비자만에 의해서만 소비되도록 보장하고 장애 발생 시 소비자를 균형있게 조정하여 확장성과 내결함성에 도움이 되는 유용한 기능입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-AGentleIntroductiontoKafkaAPI_9.png" />
 

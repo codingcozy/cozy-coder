@@ -3,17 +3,13 @@ title: "데이터 과학과 머신러닝에서 낮게 달린 과일 오류에 �
 description: ""
 coverImage: "/assets/img/2024-06-22-Thelow-hanging-fruitfallacyindatascienceandmachinelearning_0.png"
 date: 2024-06-22 21:13
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-Thelow-hanging-fruitfallacyindatascienceandmachinelearning_0.png
 tag: Tech
 originalTitle: "The low-hanging-fruit fallacy in data science and machine learning"
 link: "https://medium.com/slalom-data-ai/the-low-hanging-fruit-fallacy-in-data-science-and-machine-learning-01e210ea4fc2"
 isUpdated: true
 ---
-
-
-
-
 
 ## 지속적인 성공을 위한 유연한 데이터 과학 솔루션 구축 방법
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## 오류 이해하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 과학과 기계 학습 관점에서 저해하는 낮은 과일 요오쇼는 일반적으로 여러 단계를 거치며 진행됩니다. 각 단계는 이해하고 탐색하는 데 중요합니다.
 
@@ -36,7 +43,18 @@ isUpdated: true
 
 전형적인 시나리오는 기업이 ML을 사용하여 이메일 마케팅 캠페인을 최적화하는 것일 수 있습니다. 이것은 상대적으로 간단한 문제로, 사용 가능한 데이터와 성공 지표가 명확합니다. 그러나 회사가 고객 이탈을 예측하거나 공급망을 최적화하는 비슷한 기술을 적용하려고 하면, 초기 모델은 구조화되고 깨끗한 데이터를 처리했지만 고차원, 노이즈가 많고 구조화되지 않은 데이터를 처리하는 데 적합하지 않게 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 저효과적인 방법을 사용하지 않고 일반화된 방법으로 낮은 과일 나무 잘못을 개선하기
 
@@ -46,7 +64,18 @@ isUpdated: true
 
 이 접근 방식의 핵심은 조직 내 다른 유형의 데이터 도전에 쉽게 적응하거나 확장할 수 있는 모델 및 방법론을 만드는 것입니다. 이는 보다 범용적인 머신 러닝 모델에 투자하거나 다양한 use case에 걸쳐 강력한 데이터 파이프라인을 구축하는 것을 의미할 수 있습니다. 여기서 주요 이점은 이러한 시스템이 한 번 구축되면 중요한 재구성 없이 반복해서 활용될 수 있으므로 후속 문제의 해결을 가속화하고 전체 전달 비용을 줄일 수 있다는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 일반화된 방법 구현 단계
 
@@ -60,7 +89,18 @@ isUpdated: true
 
 이러한 방법은 초기에 결과물을 제공하는 속도를 늦출 수 있지만, 중장기적으로 상당한 이점을 가져다줄 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 비용 절감: 시간이 지남에 따라, 동일한 핵심 시스템과 모델이 다양한 프로젝트에서 사용됨에 따라 데이터 과학 솔루션을 적응하고 유지하는 비용이 감소합니다.
 - 효율성 향상: 포괄적인 시스템이 성숙해지면 문제를 더 빨리 해결할 수 있어 문제 식별부터 솔루션 개발까지의 시간이 단축됩니다.

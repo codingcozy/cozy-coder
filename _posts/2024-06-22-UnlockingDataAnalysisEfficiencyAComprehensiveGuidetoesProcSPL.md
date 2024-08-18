@@ -3,17 +3,13 @@ title: "데이터 분석 효율성을 높이는 방법 esProc SPL 종합 가이�
 description: ""
 coverImage: "/assets/img/2024-06-22-UnlockingDataAnalysisEfficiencyAComprehensiveGuidetoesProcSPL_0.png"
 date: 2024-06-22 17:41
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-UnlockingDataAnalysisEfficiencyAComprehensiveGuidetoesProcSPL_0.png
 tag: Tech
 originalTitle: "Unlocking Data Analysis Efficiency: A Comprehensive Guide to esProc SPL"
 link: "https://medium.com/@rfeers/unlocking-data-analysis-efficiency-a-comprehensive-guide-to-esproc-spl-4ced812fc22b"
 isUpdated: true
 ---
-
-
-
-
 
 ## esProc SPL(Structured Process Language)을 통해 애플리케이션 비용을 줄이고 일반적인 데이터 분석 도전 과제를 해결하는 방법을 발견하세요
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 esProc SPL(Structured Process Language)이라는 챌린저가 나타나 데이터와 상호 작용하는 방식을 혁신하겠다고 약속합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 함께 참여하여 SPL의 세계를 해독하고 그 잠재적 이점을 탐험해 보세요.👇🏻
 
@@ -33,7 +40,18 @@ esProc SPL(Structured Process Language)이라는 챌린저가 나타나 데이�
 
 구조화된 및 반구조화된 데이터의 계산 및 처리 엔진으로, esProc SPL은 분석 데이터베이스나 데이터 컴퓨팅 미들웨어로 사용될 수 있으며, 주로 오프라인 일괄 작업 및 온라인 쿼리와 같은 두 가지 데이터 분석 시나리오에 적용됩니다. 시장에서 흔히 볼 수 있는 일반적인 분석 데이터베이스와는 달리, esProc SPL은 SQL 시스템이나 NoSQL 기술(MongoDB, HBase와 같은)이 아니며, 대신 자체 생성한 SPL (Structured Process Language) 구문을 채택합니다. 이는 기존의 데이터 처리 기술과 비교하여 코딩이 간단하고 실행 효율이 높습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 esProc SPL이 해결하는 고통점은 무엇인가요?
 
@@ -43,7 +61,18 @@ SPL은 주로 어렵게 작성하고 실행이 느리며 운영 및 유지 관�
 
 보고서를 조회할 때 항상 몇 가지 중요한 보고서가 쿼리하기 어렵고, 세 분 또는 두 분 또는 심지어 그 이상 걸리는 경우가 있습니다. 최적화를 여러 차례 시도해도 쿼리 효과가 크게 향상되지 않으면 사용자들은 화를 내게 됩니다. 가끔은 보고서를 쿼리하는 사용자 수가 증가하고, 선택한 시간 범위가 길어지면 결과를 찾기가 더욱 어려워집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 업무에서는 매우 긴, 극도로 복잡한 SQL 코드를 종종 볼 수 있습니다. 이러한 코드는 N개의 계층으로 중첩되어 있을 뿐만 아니라, 문을 작성하는 데 수백 줄이 필요합니다. 이러한 코드는 작성하기 힘들 뿐만 아니라 수정하기도 불가능하며, 몇 일 후에는 프로그래머조차 헷갈릴 수 있습니다. 저장 프로시저에 대해서는 상황이 더 나빠며, 때로는 저장 프로시저의 크기가 수십 또는 수백 KB에 달하는 경우도 있어 작성하고 유지하기가 매우 어렵습니다.
 
@@ -53,7 +82,18 @@ SPL은 주로 어렵게 작성하고 실행이 느리며 운영 및 유지 관�
 
 일반적으로 esProc SPL은 느린 일괄 작업, 느린 쿼리, 데이터베이스 압력이 높은 경우, SQL 코드 작성과 유지 보수가 어려운 경우, 다양한 데이터 소스의 혼합 계산, 불합리한 응용 프레임워크 등의 문제를 해결할 수 있는 능력을 갖추고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래에 더 많은 문제들을 나열해보겠습니다:
 
@@ -72,7 +112,18 @@ SPL은 주로 어렵게 작성하고 실행이 느리며 운영 및 유지 관�
 
 가장 중요한 것은 OLAP 시나리오에 적용되는 SQL 구문을 사용하는 데이터베이스와 데이터 웨어하우스입니다. 예를 들어, MySQL, PostgreSQL, Oracle, DB2 등과 같은 일반 관계형 데이터베이스; 하둡 위의 데이터 웨어하우스인 Hive, Spark SQL; Snowflake와 같은 새로운 MPP 및 클라우드 데이터 웨어하우스; Oracle의 ExaData와 같은 상용 올인원 데이터베이스 머신 등이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 개발 언어 관점에서 SPL은 Python, Scala, Java 및 Kotlin과 같은 일부 데이터 분석 및 통계 기술을 대체할 수 있습니다.
 
@@ -82,7 +133,18 @@ SPL의 주요 대응 기술은 여전히 SQL입니다. 결국 데이터 분석 �
 
 현대 복잡한 비즈니스 및 빅데이터 관점에서 SQL을 살펴보면 SQL의 계산 및 설명 능력이 부족하다는 것을 알게 될 것입니다. 필요한 데이터 유형 및 계산 기능(예: 순서화 된 계산)이 부족한 SQL은 종종 복잡한 계산을 다층 중첩 및 우회적 방법으로 구현해야만 하고, 이런 방식은 두 가지 문제를 발생시킵니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째로 개발 비용에 대해 이야기해 보겠습니다. 실무에서는 종종 천 줄이 넘는 SQL 코드를 볼 수 있습니다. 한 번 계산 로직이 약간 복잡해지면 긴 코드와 다층 중첩 코드를 작성해야 하며, 이는 쓰기와 디버깅이 어렵다는 것뿐만 아니라, 프로그래머 자신도 시간이 지난 후에 작성한 코드가 무슨 뜻인지 이해하지 못할 수 있습니다. 이는 개발 비용 증가로 이어질 수밖에 없습니다. 반면 SPL은 풍부한 데이터 유형과 계산 기능을 제공하여 계산 및 설명 능력을 크게 향상시킵니다. 더불어 좀 더 유연한 구문 시스템을 제공하는 SPL은 단계적 코딩을 지지하며, "다단계"의 자연스러운 사고에 따라 복잡한 계산 로직을 구현할 수 있어 쉽게 코딩하고 디버그할 수 있으며 개발 비용을 크게 줄일 수 있습니다.
 
@@ -92,7 +154,18 @@ SQL(데이터베이스)의 컴퓨팅 시스템은 닫혀 있고 데이터는 데
 
 ![image](/assets/img/2024-06-22-UnlockingDataAnalysisEfficiencyAComprehensiveGuidetoesProcSPL_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SPL은 Java보다도 상당한 장점을 지니고 있어요. Java는 기능이 많은 프로그래밍 언어로, 이론상으로는 어떤 데이터 계산 작업도 처리할 수 있어요. 그러나 너무 네이티브한 특성과 필요한 계산 라이브러리 부족으로 모든 계산 작업을 처음부터 개발해야 하여 구현이 어렵다는 제약이 있어요.
 
@@ -102,7 +175,18 @@ SPL은 Java보다도 상당한 장점을 지니고 있어요. Java는 기능이 
 
 한편 SPL은 이러한 문제들이 없어요. SPL은 풍부한 계산 라이브러리를 제공하여 계산 작업을 쉽게 구현할 수 있으며, 성능을 보장하기 위해 많은 저복잡도 알고리즘을 제공해요. 또한 해석형 언어로, SPL은 자연스럽게 핫 스왑을 지원하고 결합 문제는 결코 발생하지 않아요. SQL과 비교하면 SPL은 Java에 비해 상당한 장점을 지니고 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Table](/assets/img/2024-06-22-UnlockingDataAnalysisEfficiencyAComprehensiveGuidetoesProcSPL_2.png)
 
@@ -112,7 +196,18 @@ SPL은 Java보다도 상당한 장점을 지니고 있어요. Java는 기능이 
 
 뿐만 아니라, 파이썬은 버전 문제를 내포하고 있습니다. 다른 버전 간의 호환성 문제로 사용 및 운영 비용이 높아지게 되며 파이썬은 통합력이 매우 떨어져 응용 프로그램에서 결합하기 어려워 별도의 서비스를 배포해야 하는 경우가 많습니다. 이로 인해 운영 및 유지보수 비용이 증가하게 됩니다. 자바와 마찬가지로 파이썬은 실무에서 종종 SQL과 함께 사용되며, 기존의 SQL 문제는 여전히 존재하면서 새로운 문제가 발생합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에서 개발 및 성능 측면에서 SPL의 장점에 대해 많이 설명했습니다. 더불어 SPL은 많은 다른 이점을 갖고 있습니다: 버전 문제 없음; 우수한 통합으로 애플리케이션에 매끄럽게 통합이 가능함; 완전한 기능 제공; 간단한 기술 스택; 다른 기술에 의존할 필요 없음; 운영 및 유지보수 비용 절감.
 
@@ -122,7 +217,18 @@ SPL은 Java보다도 상당한 장점을 지니고 있어요. Java는 기능이 
 
 # 사례 소개
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 esProc SPL의 실제 응용효과입니다.
 
@@ -132,7 +238,18 @@ SPL은 Java보다도 상당한 장점을 지니고 있어요. Java는 기능이 
 
 이것은 보험 회사의 자동차 보험에 대한 일괄 작업 시나리오로, 사용자에게 보험 갱신을 상기시키기 위해 과거 보험을 새 보험과 관련시켜야 합니다. 데이터 양이 많아서 정책 테이블에는 3500만 개의 데이터 행, 세부 사항 테이블에는 1억 2300만 개의 데이터 행이 포함되어 있습니다. 여러 가지 연관 방법이 있기 때문에 따로 처리해야 하며, 계산이 매우 복잡합니다. 보험 회사는 원래 informix의 저장 프로시저를 사용하여 계산했으며, 30일간의 새 보험을 연관시키는 데 112분이 걸렸습니다. 시간이 더 길면 계산이 어려울 것입니다. 이로 인해 성능 문제가 발생합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 esProc SPL을 사용하면 동일한 작업을 수행하는 데 17분 만에 끝낼 수 있어요. 이는 6.5배의 증가이며 코드 양도 1800줄에서 500줄로 줄어드는 걸 확인할 수 있어요. 이전에 말했듯이, SPL을 사용하면 쉽게 코드를 작성할 수 있고 실행 속도도 더 빨라져요.
 
@@ -142,7 +259,18 @@ esProc SPL을 사용하면 동일한 작업을 수행하는 데 17분 만에 끝
 
 이 또한 일괄 작업 시나리오에 해당돼요. 은행은 AIX 및 DB2(은행의 표준 설정)이 장착된 작은 기계에서 이 작업을 수행하며 "기업 대출 계약 세부 정보" 저장 프로시저를 실행하는 데 1.5시간이 걸렸어요. 이 계산에는 48개의 SQL 단계, 매우 복잡한 다중 테이블 관련 및 3300줄의 코드가 포함돼 있어요. 이 일괄 작업은 전체 은행의 일괄 작업의 일부이기 때문에 이 일괄 작업이 느리다면 전반적인 일괄 작업 프로세스를 늦추기 때문에 긴급히 최적화해야 할 필요가 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 esProc SPL을 사용하여 동일한 작업을 수행할 때는 10분만에 처리할 수 있으며, 속도를 8.5배 빠르게 하며 코드 양을 3300줄에서 500줄로 줄입니다. 속도 향상의 주된 이유는 SPL의 순서 처리와 다목적 순회와 같은 기능을 활용한 것입니다.
 
@@ -152,7 +280,18 @@ esProc SPL을 사용하여 동일한 작업을 수행할 때는 10분만에 처�
 
 # 모바일 뱅킹: 다중 동시 계좌 조회
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 은행에서는 고객들에게 현재 계좌 정보를 조회할 수 있는 모바일 뱅킹을 통해 서비스를 제공하고 있습니다. 이 서비스는 대규모 동시 접속이 필요하며 실시간 처리가 요구됩니다. Hadoop은 동시 접근 요구를 충족할 수 없기 때문에, 은행은 6개 노드로 구성된 ES 클러스터를 쿼리 백엔드로 구축했습니다. 백엔드는 요구 사항을 충족하지만 실시간으로 연관을 짓지는 못하며, 지점 코드가 변경되면 데이터를 업데이트하는 데 몇 시간이 소요됩니다. 업데이트 기간 동안 서비스를 중단해야 하므로 사용자의 정상적인 조회에 영향을 줍니다.
 
@@ -160,11 +299,20 @@ esProc SPL을 도입한 후, 상세 데이터는 계좌 번호별로 순서대�
 
 케이스 세부 정보 : 오픈 소스 SPL은 은행 모바일 계정에 대한 사전 연관 쿼리를 실시간 연관으로 변경하는 계산
 
-
 은행의 고객 중 고유 대출 클라이언트 수 계산
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 은행의 대출 업무에는 대출 잔액, 담보 유형, 고객 유형, 대출 방식 등 여러 지표가 관련되어 있습니다. 수백 가지 지표가 임의로 조합되어 쿼리되며, 따라서 계산 규모가 방대하며, 동시 쿼리 수가 증가함에 따라 계산 난이도도 증가합니다. 이 계산 시나리오에서는 2000만 행의 대형 테이블과 더 큰 상세 테이블에 대한 연관, 필터링 및 집계 계산이 필요하며, 각 페이지는 거의 200개의 지표를 계산해야 하며, 10개의 동시성은 2000개 이상의 지표를 동시 계산할 수 있습니다. 이러한 대규모 계산 규모에 대해 Oracle을 사용하여 하루 전에 계산해야 하지만, 사전 계산은 사용자의 실시간 쿼리 요구를 충족시키지 못합니다.
 
@@ -174,7 +322,18 @@ esProc SPL을 도입한 후, 상세 데이터는 계좌 번호별로 순서대�
 
 오프라인 배치 작업과 온라인 쿼리 사이에는 큰 차이가 있습니다. 전자는 종종 많은 양의 데이터와 매우 복잡한 계산 로직이 포함되지만 동시성 쿼리가 관련되지 않으며 실시간 계산이 필요하지 않습니다. 지정된 시간 내에 계산을 완료하면 됩니다. 후자는 그 반대로, 대량의 동시성 숫자가 관련되며 높은 실시간성이 필요하며 처리하기가 어려울 수 있습니다. esProc SPL은 두 시나리오에 모두 적합합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사실, 개발 효율성과 성능 외에도 esProc SPL은 응용 프레임워크 측면에서도 효과적으로 작동합니다. 아래에 두 가지 관련 사례가 있습니다.
 
@@ -184,7 +343,18 @@ esProc SPL을 도입한 후, 상세 데이터는 계좌 번호별로 순서대�
 
 이 문제를 해결하기 위해 BI 시스템을 위한 전용 프런트 엔드 데이터베이스(은행에서는 프런트 엔드 머신이라고 부릅니다)를 구축해야 합니다. 그러나 데이터베이스를 구축할 때 문제가 발생합니다. 즉, 데이터 웨어하우스에서 고빈도 데이터만 데이터베이스로 가져오면 다른 데이터를 조회할 수 없어 비즈니스 요구 사항에 대응할 수 없습니다. 데이터를 모두 데이터베이스로 가져오면 비현실적(너무 비용이 많이든다)이며 이는 사실상 데이터 웨어하우스를 재구축하는 것과 같습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 esProc SPL을 사용하여 프런트엔드 머신을 구축할 때는 고빈도 데이터만 프런트엔드 머신으로 가져오면 되므로 반복적인 구성을 피할 수 있습니다. esProc은 가장 높은 빈도로 발생하는 데이터 계산 작업을 처리하며, 몇 가지 낮은 빈도의 데이터 계산 작업은 자동으로 중앙 데이터 웨어하우스로 라우팅되어 앞서 언급한 두 가지 문제가 해결됩니다. 이러한 자동 라우팅 기능은 여기서 핵심 역할을 합니다.
 
@@ -194,7 +364,18 @@ esProc SPL을 사용하여 프런트엔드 머신을 구축할 때는 고빈도 
 
 esProc SPL로 이러한 두 가지 문제를 해결할 수 있습니다. 먼저 Vertica 외부 저장 프로시저로 작용하면서 esProc은 원래 하드 코딩이 필요한 모든 계산을 맡아 처리하므로 구현이 단순해지며 더 효율적입니다. 둘째, esProc SPL의 다중 소스 계산 능력을 통해 다양한 데이터 소스에서 직접 혼합 계산을 수행하여 모든 데이터를 하나의 데이터베이스로 로드할 필요가 없게 되어 데이터가 실시간이 되고 효율이 높아지며, Vertica를 가볍게 유지할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 예시들을 통해 esProc SPL의 적용 가능한 시나리오와 효과에 대해 기본적으로 이해했습니다. 물론 여기서는 주어지지 않은 더 많은 케이스들이 있습니다.
 
@@ -204,7 +385,18 @@ esProc SPL로 이러한 두 가지 문제를 해결할 수 있습니다. 먼저 
 
 하지만, 질문은 오히려 다른 방향에서 물어봐야 합니다. 즉, SQL이 잘 작동하지 않는 이유는 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SQL로 작성하는 것이 어려운 이유를 설명하는 예제부터 시작해 보겠습니다: 주식이 최대 연속 상승을 유지하는 일 수를 계산해 보겠습니다.
 
@@ -223,7 +415,18 @@ SQL은 네 단계로 중첩된 코드를 채택하고 있어서 전반적으로 
 
 사실, 이 문제는 자연스러운 사고를 따라 간단한 단계로 쉽게 해결할 수 있습니다: i) 거래일별로 레코드를 정렬하기; ii) 연속 상승과 하락의 간격을 얻기; iii) 최대 연속 상승 간격의 일 수를 세기. 그러나 SQL은 순서화된 작업을 충분히 지원하지 않으며 순서화된 그룹핑을 직접 제공하지 않기 때문에 다중 중첩 및 우회적인 방식을 사용해야 하며, 결과적으로 SQL 코드를 이해하고 작성하는 데 어려움을 겪게 됩니다. 이 계산 문제는 드문 문제가 아니며, 현실에서 더 복잡한 계산이 많이 있으며, 수천 줄이 넘는 SQL 코드들이 정확히 이러한 문제를 해결하기 위해 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 빠른 실행이 어려운 이유를 설명하는 또 다른 예제를 살펴보겠습니다: 1억 개의 데이터 행 중 상위 10개 가져오기.
 
@@ -235,12 +438,23 @@ SELECT TOP 10 * FROM Orders ORDER BY Amount DESC
 
 ```js
 SELECT * FROM (
-      SELECT *, ROW_NUMBER() OVER (PARTITION BY Area ORDER BY Amount DESC) rn 
-      FROM Orders ) 
+      SELECT *, ROW_NUMBER() OVER (PARTITION BY Area ORDER BY Amount DESC) rn
+      FROM Orders )
 WHERE rn<=10
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 SQL 코드와 이전 것 사이에는 큰 차이가 있어요. 이 코드는 서브쿼리와 윈도우 함수를 사용하여 간접적인 방법으로 계산을 구현해야 합니다. 이러한 복잡한 계산을 위해 데이터베이스의 최적화 엔진이 최적화할 수 없어 정렬을 수행해야 하므로 매우 느립니다. 실제 테스트에서 Oracle에서 그룹화된 하위 집합의 TopN을 계산하는 것이 전체 집합의 TopN을 계산하는 것보다 21배 느리다는 것을 발견했습니다. 우리는 그룹 내 TopN을 계산할 때 성능이 약간만 떨어져야 하는 것으로 생각했지만, 실제 결과는 우리가 기대한 것과는 거리가 멀었습니다. 따라서 Oracle은 아마도 그룹 내 TopN을 계산할 때 정렬을 수행하여 성능이 급격히 저하되었을 것으로 생각되며, 이로 인해 옵티마이저가 실패한 것입니다.
 
@@ -252,7 +466,18 @@ WHERE rn<=10
 Stock.sort(TradeDate).group@i(Price<Price[-1]).max(~.len())
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SPL은 순서대로 그룹화를 제공합니다. 구현 아이디어는 이전 SQL 코드와 같지만 매우 간결하게 표현됩니다.
 
@@ -262,7 +487,18 @@ SPL은 순서대로 그룹화를 제공합니다. 구현 아이디어는 이전 
 
 SPL은 TopN을 세트를 반환하는 집계 연산으로 간주하여 전체 정렬을 피합니다. 전체 집합 또는 그룹화된 하위 집합의 경우 구문이 유사하며 우회적인 접근이 필요하지 않습니다. 대부분의 경우, 간단하게 작성하면 빠르게 실행됩니다. 코드를 간단하게 작성하면 빠르게 실행되고, 반대로 코드를 지나치게 복잡하게 작성하면 빠르게 실행되지 않습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다른 유사성을 찾아서 1+2+3+...+100을 계산해보자. 일반 사람들은 가장 흔한 방법을 선택할 것이다. 즉, 1+2=3, 3+3=6, 6+4=10...; 반면에 가우스는 1+100=101, 2+99=101..., 50+51=101로 발견하고 총 50개의 같은 합(101)이 있음을 발견했고 이를 통해 50에 101을 곱해서 결과를 빠르게 구할 수 있었다. 우리가 초등학교에서 이를 읽은 적이 있기 때문에 이 이야기가 누구에게나 새로운 것은 아닐 것이다. 우리는 가우스가 이처럼 뛰어난 해결책을 떠올렸다고 생각하지만, 우리는 하나의 사실을 넘어가는 것이 쉽다는 것을 잊기 쉽다: 가우스 시대에는 이미 곱셈이 존재했다. 우리는 곱셈이 덧셈보다 나중에 만들어진 것을 알고 있으며 곱셈이 그 시대에 발명되지 않았다면 가우스가 얼마나 똑똑하더라도 이 문제를 해결할 방법을 이렇게 빨리 찾을 수 없었을 것이다. 이제 우리 주제로 돌아와 SQL은 덧셈만 있는 산술체계와 같다. 연속적인 덧셈 문제를 해결하고 싶다면 하나씩 더해야 하므로 코드가 길어지고 효율적인 계산이 이루어지지 않는다. 반면에 SPL은 곱셈의 발명과 같이, 코드를 단순화하고 성능을 향상시키는 기술로 볼 수 있다.
 
@@ -272,7 +508,18 @@ SQL의 어려움은 관계 대수에서 비롯된다. 이러한 이론적 결함
 
 사실은 그렇지 않습니다. SPL은 일반 프로그래머들을 위해 만들어진 것이며 대부분의 경우, 자연스러운 사고를 따르기만 하면 올바른 코드를 작성할 수 있습니다. 반면에 SQL을 사용하면 계산이 다소 복잡해지면 우회적인 방법으로 구현해야 할 때가 많아서 숙련된 프로그래머가 아니라면 해결하기 어려울 수 있습니다. 이 의미에서 SPL은 SQL보다 간단합니다. 그러나 SPL을 마스터하고 싶다면 더 배워야 합니다. 걱정 마세요, SPL 관련 지식에 대해 이미 어느 정도 배운 것이 있습니다. 나머지를 모르는 것은 똑똑한 프로그래머가 이미 지식 포인트(많지 않음)를 요약했기 때문에 그것들을 배우기만 하면 됩니다. 이러한 지식을 마스터하면 복잡한 문제를 손쉽게 해결할 수 있을 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실제로 SQL로 처리할 수 없는 많은 시나리오가 있습니다. 몇 가지 예제를 살펴보겠습니다:
 
@@ -282,7 +529,18 @@ SQL의 어려움은 관계 대수에서 비롯된다. 이러한 이론적 결함
 
 대용량 데이터에서 다중 인덱스 계산을 수행할 때 한 번에 수백 개의 인덱스를 계산하고 상세 데이터를 여러 차례 사용해야하며 연관이 또한 관련될 때, SQL에서는 데이터를 반복적으로 탐색해야 합니다. 큰 테이블 연관, 조건 필터링, 그룹화 및 집계, 중복 제거 등의 혼합 계산이 포함되며 높은 동시성으로 실시간 계산도 필요합니다. 이러한 계산을 SQL에서 구현하는 것은 어려운 일입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 …
 
@@ -323,7 +581,18 @@ from
 
 이것은 세 단계의 퍼널 계산입니다. SQL은 순서와 관련된 계산을 부족하게 가지고 있으며 완전히 집합 지향적이지 않습니다. 여러 하위 쿼리로 우회하고 반복적으로 JOIN해야하는 등 쓰기와 이해하기 어렵고, 성능이 낮으며 최적화하기 어렵습니다. 여기에는 세 단계 퍼널만 제시되었지만 더 많은 단계가 필요한 경우 더 많은 서브쿼리를 추가해야 하므로 난이도가 높아집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대조적으로, SPL 코드는 훨씬 간단합니다:
 
@@ -331,9 +600,20 @@ from
 
 SPL은 주문 관련 계산을 제공하며 보다 체계적인 집합 중심적입니다. 코드는 자연스러운 생각에 따라 직접 작성되어 간단하고 효율적입니다. 또한, 이 코드는 단계 수에 상관없이 퍼널을 처리할 수 있으며 수정해야 하는 것은 매개변수 뿐입니다.
 
-이것은 단순화된 실제 사례입니다 (원래 SQL 코드는 거의 200줄이 있었습니다). 사용자는 Snowflake의 중간 서버(4*8=32코어와 동등)에서 3분 후에 결과를 얻지 못했지만, 12코어, 1.7G 저사양 서버에서 SPL 코드를 실행하여 20초 미만에 결과를 얻었습니다.
+이것은 단순화된 실제 사례입니다 (원래 SQL 코드는 거의 200줄이 있었습니다). 사용자는 Snowflake의 중간 서버(4\*8=32코어와 동등)에서 3분 후에 결과를 얻지 못했지만, 12코어, 1.7G 저사양 서버에서 SPL 코드를 실행하여 20초 미만에 결과를 얻었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에서 언급했듯이, SPL은 덧셈을 기반으로 한 곱셈의 발명과 동등하며 사실, SPL은 여러 "곱셈"을 만들어 냅니다. 아래에는 SPL의 고성능 알고리즘 중 일부가 나와 있으며, 그 중 많은 알고리즘은 SPL의 독자적인 발명품입니다.
 
@@ -343,7 +623,18 @@ SPL은 주문 관련 계산을 제공하며 보다 체계적인 집합 중심적
 
 더 많은 정보: [성능 최적화 — 서문](링크)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러면, Java도 잘 작동하지 않는 이유는 무엇인가요?
 
@@ -353,7 +644,18 @@ Java에서는 성능 요구 사항이 높은 계산을 위해 코드를 작성�
 
 큰 데이터를 처리하는 성능은 대부분 데이터 IO와 관련이 있습니다. IO 비용이 너무 높으면 연산 속도가 빨라도 작동하지 않습니다. 효율적인 IO는 주로 특별히 최적화된 저장 체계에 의존합니다. 그러나 안타깝게도 Java는 널리 사용되는 효율적인 저장 체계가 없으며 일반적으로 텍스트 파일이나 데이터베이스를 사용하여 데이터를 저장합니다. 데이터베이스 인터페이스의 성능은 매우 나쁩니다. 텍스트 파일은 약간 나아지지만 데이터 유형을 구문 분석하는 데 너무 많은 시간이 소요되어 성능이 낮아집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 실제로 Java의 단점이 고려된다면, 핫 스왑이 어렵고 강한 결합력 등 Java는 이전 문제를 해결하기 위해 SQL을 넘어설 수도 없는 상태에 미치지 못할 것입니다.
 
@@ -363,7 +665,18 @@ Java를 분석하면 Python의 많은 단점이 유사하다는 것을 기본적
 
 외부 저장 처리 메커니즘 없이 대용량 데이터 처리를 위해 Python에서 구현하는 것은 매우 어려울 것입니다. 게다가 Python은 진정한 병렬 처리를 지원하지 않습니다. Python 자체의 병렬 처리는 사실상 가짜로, 실제로는 CPU에 대한 직렬 처리이거나 직렬 처리보다 더 느리기 때문에 현대 멀티 코어 CPU의 장점을 활용하기 어려울 수 있습니다. Python의 주요 인터프리터인 CPython 인터프리터에는 Global Interpreter Lock이 있습니다. 이 잠금은 Python 코드를 실행하기 전에 얻어야 하며, 즉 여러 CPU 스레드가 동시에 작업하는 경우에도 하나의 스레드만 코드를 실행하고 여러 스레드는 번갈아가며 코드를 실행할 수밖에 없습니다. 그러나 여러 스레드 실행은 문맥 전환 및 잠금 메커니즘 처리와 같은 복잡한 트랜잭션을 포함하므로 성능은 향상되지 않고 오히려 감소됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이썬은 한 프로세스에서 간단한 멀티스레드 병렬 처리 메커니즘을 활용할 수 없어, 많은 프로그래머들이 복잡한 멀티프로세스 병렬 처리 방법을 채택해야 합니다. 프로세스 자체의 비용과 관리가 훨씬 더 복잡하며, 병렬 처리의 효과는 여러 스레드보다 비교할 수 없이 낮습니다. 게다가 프로세스 간 통신 또한 매우 복잡합니다. 때로는 직접 통신을 포기하고 집계 결과를 전달하기 위해 파일 시스템을 사용해야 하며, 이는 상당한 성능 저하로 이어집니다.
 
@@ -373,7 +686,18 @@ Java를 분석하면 Python의 많은 단점이 유사하다는 것을 기본적
 
 위에서 언급한대로, esProc SPL에서 코딩이 간단하고 실행이 빠른 이유를 설명했습니다. 즉, SPL의 저 코드 및 고 성능입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금 esProc SPL의 기술적 특성을 좀 더 자세히 살펴보겠습니다.
 
@@ -383,7 +707,18 @@ Java를 분석하면 Python의 많은 단점이 유사하다는 것을 기본적
 
 일반적인 설치 후 esProc는 1G 미만의 공간을 차지하며, 대부분은 참조된 타사 외부 데이터 소스 드라이버 패키지가 차지합니다. esProc의 핵심 패키지는 15M 미만으로 Android에서도 실행할 수 있게 만들어 줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JVM을 제외하고 esProc은 운영 환경에 대한 다른 엄격한 요구 사항이 없습니다. 하드 디스크 및 메모리 용량 요구 사항은 컴퓨팅 작업과 관련되어 있으며 다양한 작업에 따라 크게 달라질 수 있습니다. 동일한 컴퓨팅 작업을 수행할 때, esProc은 일반 데이터베이스보다 적은 하드웨어 자원을 요구하는 경우가 많습니다 (특히 분산 데이터베이스의 경우). 메모리 용량을 늘리고, 더 높은 주파수와 코어 수를 가진 CPU를 선택하며, SSD를 활용하면 컴퓨팅 성능 향상에 긍정적인 영향을 미칠 수 있습니다.
 
@@ -393,7 +728,18 @@ JVM을 제외하고 esProc은 운영 환경에 대한 다른 엄격한 요구 �
 
 물론, 데이터 변환은 필수적이지 않습니다. 더 높은 데이터 실시간성이 필요한 시나리오의 경우, esProc은 데이터 소스가 제공하는 인터페이스(예: JDBC)를 통해 데이터를 실시간으로 읽고 계산할 수 있습니다. 그러나 esProc이 데이터 인터페이스의 성능에 개입할 수 없기 때문에, 서로 다른 데이터 소스에 대해 다른 컴퓨팅 성능이 발생할 수 있으며 성능 저하도 발생할 수 있습니다. 사용자가 실시간성과 컴퓨팅 성능 모두에 요구 사항이 있는 경우, 데이터 소스의 핫 데이터를 읽어 고정되지 않은 과거의 콜드 데이터를 esProc의 고성능 저장소로 변환하여 모든 데이터를 esProc의 혼합 컴퓨팅 능력을 활용하여 동시에 처리할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 esProc의 고성능 파일 저장소에 대해 아래에서 자세히 소개하겠습니다.
 
@@ -403,7 +749,18 @@ esProc의 SPL 스크립트는 각 클러스터 노드에 배포되며, 스크립
 
 esProc은 JDBC/RESTful와 같은 표준 인터페이스를 캡슐화하여 애플리케이션에서 호출할 수 있습니다. Java 애플리케이션의 경우 esProc는 직접 통합되어 애플리케이션 내부에서 계산 엔진으로 사용될 수 있습니다. Java가 아닌 애플리케이션의 경우 다른 인터페이스를 통해 esProc를 호출할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전체 프레임워크 관점에서 보면, esProc은 간단하고 효율적인 데이터 처리 능력을 제공하는 것에 더해, 독립적으로 또는 통합하여 사용할 수 있는 유연성이 뛰어납니다. 더불어 비교적 가벼운 연산 방식으로 esProc은 가벼운 사용감을 제공하며, 전통적인 분산 기술처럼 무겁지 않습니다.
 
@@ -413,7 +770,18 @@ esProc은 JDBC/RESTful와 같은 표준 인터페이스를 캡슐화하여 애�
 
 IDE에서는 단계별로 코드를 작성하고, 오른쪽에 있는 결과 패널에서 각 단계의 실행 결과를 실시간으로 확인할 수 있습니다. 또한 디버그, 스텝인, 중단점 설정 등 다양한 편집 및 디버깅 기능이 있습니다. 사용하기 쉬운 편집 및 디버깅 기능은 저코딩을 위해 꼭 필요하며, SQL (및 저장 프로시저)과는 매우 다르며 개발 비용을 크게 절감할 수 있습니다. 이러한 기능들로 esProc SPL은 데스크탑 분석에 자주 사용되며 매우 편리합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SPL은 특별히 설계된 구문 시스템으로, 점진적 계산을 자연스럽게 지원하며 복잡한 프로세스 작업에 특히 적합합니다. 또한 SPL은 SQL보다 루프, 분기, 프로시저, 서브프로그램과 같은 보다 완전한 프로그래밍 능력을 자랑합니다. 각 작업 단계에서 SPL은 변수를 정의하지 않고 이전 단계의 결과를 셀 이름으로 참조할 수 있습니다 (물론 변수도 지원됩니다).
 
@@ -423,7 +791,18 @@ SPL은 특별히 설계된 구문 시스템으로, 점진적 계산을 자연스
 
 현재 SPL은 400개 이상의 함수를 제공하며 각 함수에는 여러 옵션이 포함되어 있습니다. 이는 수천 개의 라이브러리 함수에 해당합니다. 이러한 함수들은 프로시저, 루프, 분기와 같은 완벽한 프로그래밍 언어 함수와 함께, SPL이 다양한 데이터 처리 작업을 수행할 수 있도록 합니다. 이는 SPL의 다재다능성 특징의 전형적인 표현입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 esProc SPL은 매우 높은 통합성을 자랑합니다. Java로 개발된 SPL은 독립적으로 실행되거나 응용 프로그램에 심층적으로 통합되어 인애플리케이션 컴퓨팅 엔진으로 작동할 수 있으며, 마이크로 서비스, 엣지 컴퓨팅, 보고서 데이터 준비와 같은 시나리오에서 중요한 역할을 수행할 수 있습니다.
 
@@ -433,8 +812,18 @@ esProc SPL은 매우 높은 통합성을 자랑합니다. Java로 개발된 SPL�
 
 esProc SPL은 수십 가지 데이터 소스를 지원하며 혼합 컴퓨팅 능력을 자랑합니다. 다수의 데이터 소스를 데이터베이스에 데이터를로드하지 않고 직접 계산할 수 있습니다. 실시간 데이터 처리 뿐만 아니라 다양한 데이터 소스의 장점을 완전히 유지할 수 있습니다. 예를 들어, RDB는 계산 능력이 뛰어나지만 IO 효율이 낮습니다. RDB에 일부 계산을 수행한 후 SPL이 나머지 계산을 수행하게 할 수 있습니다. MongoDB는 동적 다층 데이터를 저장하기에 적합하며, SPL을 사용하여 다층 데이터를 직접 처리할 수 있습니다. 파일 시스템은 읽기 및 쓰기 효율이 더 높을 뿐만 아니라 사용이 더 유연합니다. SPL은 파일을 기반으로 직접 계산할 수 있고, 병렬 컴퓨팅의 효과를 최대로 발휘할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-22-UnlockingDataAnalysisEfficiencyAComprehensiveGuidetoesProcSPL_12.png)
 
@@ -450,8 +839,18 @@ esProc SPL은 여러 데이터 소스를 지원하여 그 유연성을 한 번 �
 - 다층 구조 데이터: bson
 - KV 유형 데이터: NoSQL
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특히 esProc은 json 및 xml과 같은 다층 구조 데이터를 강력하게 지원하여 전통적인 데이터베이스를 크게 능가합니다. 따라서 esProc은 mongodb와 kafka와 같은 json과 유사한 데이터 소스와 잘 작동하며, HTTP/Restful 및 마이크로서비스와 데이터를 쉽게 교환하고 계산 서비스를 제공할 수 있습니다.
 
@@ -461,7 +860,18 @@ esProc SPL은 여러 데이터 소스를 지원하여 그 유연성을 한 번 �
 
 현재 SPL은 bin 파일 및 복합 테이블 두 가지 파일 저장 형식을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Bin 파일은 기본적인 이진 데이터 형식으로, 압축 기술을 채택하여 공간 점유도가 낮고 빠른 읽기를 제공합니다. 데이터 타입을 저장하여 데이터 형식을 구문 분석할 필요가 없어 더 빠른 읽기가 가능하며, 증가형 분할 메커니즘을 지원하여 데이터를 추가할 수 있어 병렬 컴퓨팅을 통한 구분 전략을 구현하기 매우 쉽습니다. 이를 통해 컴퓨팅 성능을 향상시킬 수 있습니다.
 
@@ -471,7 +881,18 @@ Bin 파일은 기본적인 이진 데이터 형식으로, 압축 기술을 채�
 
 ![이미지](/assets/img/2024-06-22-UnlockingDataAnalysisEfficiencyAComprehensiveGuidetoesProcSPL_13.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 esProc는 전통적인 데이터 웨어하우스의 "데이터 저장소(warehouse)" 개념이 없으며, 메타데이터 개념도 없습니다. 또한, 일정한 주제의 데이터를 통합 관리하는 개념이 존재하지 않습니다. esProc에서 "데이터베이스 내부"나 "데이터베이스 외부"라는 개념도 없고, "데이터를 데이터베이스로 가져오기(import)"하거나 "데이터베이스에서 가져오기(export)"하는 동작도 없습니다.
 
@@ -481,7 +902,18 @@ esProc는 일반 데이터 원본에 대한 접근 인터페이스를 캡슐화�
 
 esProc는 데이터를 저장하기 위해 특수 형식 파일 (바이너리 파일 및 복합 테이블)을 설계하고 더 많은 기능과 성능을 달성하기 위해 이 파일들을 파일 시스템에 저장합니다. 이러한 파일들은 기술적으로 esProc가 소유하지 않으며, 파일 포맷은 공개되어 있으며(접근 코드가 오픈 소스로 공개됨), 이러한 데이터 파일에 액세스할 수 있는 모든 응용 프로그램은 공개된 사양 또는 오픈 소스 코드를 통해 이를 읽고 쓸 수 있습니다. 물론 SPL에서 직접 읽고 쓰는 것이 더 편리합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 의미에서 esProc와 외부 데이터 원본 간의 데이터 교환 시 "데이터베이스로 가져오기" 또는 "데이터베이스에서 내보내기"와 같은 작업이 없습니다. 그러나 외부 데이터를 esProc 형식 파일로 변환하여 더 많은 기능과 더 나은 성능을 얻거나 esProc 형식 파일을 외부 데이터로 변환하여 다른 응용 프로그램에서 사용하는 것과 같이 데이터 변환 작업이 발생할 수 있습니다. 이러한 모든 변환 작업은 SPL을 사용하여 수행할 수 있습니다.
 
@@ -491,7 +923,18 @@ esProc는 데이터를 저장하기 위해 특수 형식 파일 (바이너리 �
 
 지속적인 데이터의 보안은 원칙적으로 데이터 원본의 책임입니다. esProc 형식 파일의 경우, 많은 파일 시스템이나 VM이 완전한 보안 메커니즘(액세스 제어, 암호화 등)을 제공하며 이를 직접 활용할 수 있습니다. esProc의 클라우드 버전은 또한 계산하기 전에 S3와 같은 객체 저장 서비스에서 데이터를 검색하고 이들의 보안 메커니즘을 활용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내장된 esProc은 주 Java 애플리케이션과 동일한 프로세스에서 실행되며 주 애플리케이션에 대한 컴퓨팅 서비스만 제공합니다. esProc은 외부 서비스 인터페이스를 제공하지 않으므로 보안 및 권한 문제가 없습니다. 독립적인 서비스 프로세스의 esProc은 표준 TCP/IP 및 HTTP를 사용하여 통신하며 전문적인 네트워크 보안 제품을 통해 모니터링 및 관리할 수 있으며 구체적인 보안 조치는 이러한 제품의 책임입니다.
 esProc은 계산에 특화되어 있으며 영속적 저장의 신뢰성에 대한 책임이 없습니다. 이에 관련된 전문 기술 및 제품도 있습니다. esProc은 이러한 기술 및 제품과 함께 작동할 수 있도록 표준 규격을 준수하려고 노력합니다. 예를 들어, 데이터는 매우 신뢰할 수 있는 객체 저장소에 영속화될 수 있고, 이를 위해 esProc은 해당 인터페이스를 제공하여 이러한 데이터 원본에 액세스하여 계산을 수행할 수 있도록 합니다.
@@ -502,7 +945,18 @@ esProc은 전문적인 컴퓨팅 기술이지만 전문적인 보안 기능을 �
 
 # 더 많은 솔루션
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 데이터 주도형 마이크로서비스 구현
 
@@ -512,7 +966,18 @@ esProc은 전문적인 컴퓨팅 기술이지만 전문적인 보안 기능을 �
 
 더 많은 정보를 원하신다면: Open-source SPL Rings down the Curtain on ORM를 방문해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 저장 프로시저 교체
 
@@ -520,9 +985,20 @@ esProc은 전문적인 컴퓨팅 기술이지만 전문적인 보안 기능을 �
 
 SPL은 복잡한 구조화된 데이터 연산을 위해 특별히 설계되었으며, 저장 프로시저의 우수한 대체품이 될 수 있으며 외부 데이터베이스 저장 프로시저의 효과를 달성할 수 있습니다. SPL은 다단계 계산을 지원하며, 저장 프로시저와 같은 복잡한 계산에 자연스럽게 적합합니다. SPL 스크립트는 자연적으로 이동할 수 있으며, 스크립트는 데이터베이스의 읽기 권한만을 요구하며 데이터베이스 보안 문제를 일으키지 않습니다; 다른 애플리케이션의 스크립트는 서로 다른 디렉토리에 저장되어 애플리케이션 간의 결합을 일으키지 않습니다.
 
-더 많은 정보는 다음을 참조하십시오:  [안녕, 저장 프로시저 - 사랑과 미움의 대상](Goodbye, Stored Procedures — the Love/Hate Thing)
+더 많은 정보는 다음을 참조하십시오: [안녕, 저장 프로시저 - 사랑과 미움의 대상](Goodbye, Stored Procedures — the Love/Hate Thing)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 데이터베이스에서 중간 테이블을 제거하세요
 
@@ -532,7 +1008,18 @@ SPL은 복잡한 구조화된 데이터 연산을 위해 특별히 설계되었�
 
 자세한 정보는 아래 링크를 방문해 주세요: [오픈 소스 SPL: 데이터베이스로부터 수만 개의 중간 테이블을 제거합니다](https://www.example.com)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 계속되는 보고서 개발 요구 사항을 처리하세요
 
@@ -542,7 +1029,18 @@ SPL의 도움을 받아 보고서 표현과 데이터 소스 사이에 컴퓨팅
 
 자세한 내용은 방문해주십시오: 오픈 소스 SPL이 보고서 응용 프로그램을 최적화하고 계속되는 보고서 개발 요구를 처리합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 프론트엔드 계산을 구현하기 위한 프로그래밍 가능한 데이터 라우팅
 
@@ -552,7 +1050,18 @@ SPL은 고주파 데이터를 SPL 파일로 변환하여 저장함으로써 이 
 
 더 많은 정보를 원하시면 아래 링크를 방문해주세요: Routable computing engine implements front-end database
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 혼합 계산을 통한 실시간 HTAP 구현
 
@@ -562,7 +1071,18 @@ SPL은 다양한 데이터 소스에 대한 혼합 계산을 지원하고 실시
 
 더 많은 정보를 원하시면, 다음을 방문해 주세요: HTAP 데이터베이스는 HTAP 요구 사항을 처리할 수 없습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 파일 계산을 통한 레이크하우스 구현
 
@@ -572,7 +1092,18 @@ SPL은 진정한 레이크하우스를 구현할 수 있습니다. 원시 데이
 
 SPL은 더욱 개방적이며, 어떤 유형의 데이터든지 직접 계산할 수 있습니다. txt, csv, json과 같은 개방형 형식 파일 데이터에 대해서 SPL은 직접 계산하고, 다른 유형의 데이터에 대해서도 실시간 혼합 계산을 수행할 수 있습니다. 데이터의 계산과 구성은 동기적으로 이루어질 수 있어 데이터를 더욱 효율적으로 활용하며 재계산 시에도 높은 성능을 유지할 수 있습니다. 단계적 접근법은 레이크하우스를 구현하는 올바른 방법입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 많은 정보를 원하시면 다음을 방문해주세요: 현재 Lakehouse는 거짓 제안과 같습니다.
 
@@ -582,7 +1113,18 @@ SPL은 더욱 개방적이며, 어떤 유형의 데이터든지 직접 계산할
 
 위에서 주로 SQL과 같은 기존 기술의 단점을 자세히 분석했는데, 이러한 단점은 주로 그 뒤에 있는 이론 체계로 인한 것입니다. 만약 이러한 이론을 그대로 따른다면, 이러한 결점을 근본적으로 해결하는 것은 불가능합니다. 그래서 우리는 새로운 컴퓨팅 모델인 이산 데이터 집합을 발명하고, 이 모델을 기반으로 한 esProc SPL을 개발했습니다. 모든 것이 새로워서 산업에 참고할 수 있는 관련 이론과 엔지니어링 제품이 없으므로, 우리는 처음부터 개발해야 했고, 모델에서 코드까지의 모든 부분은 처음부터 만들어졌습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 에스프록은 어디에 배포할 수 있나요?
 
@@ -592,7 +1134,18 @@ SPL은 더욱 개방적이며, 어떤 유형의 데이터든지 직접 계산할
 
 에스프록은 표준 JDBC 드라이버를 제공하므로 Java 응용 프로그램에 직접적으로 신속하게 통합할 수 있습니다. .net/Python과 같은 Java가 아닌 응용 프로그램의 경우 ODBC/HTTP/RESTful 인터페이스를 통해 호출할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 다른 프레임워크와 esProc를 통합할 수 있을까요?
 
@@ -602,7 +1155,18 @@ Java에서 개발된 애플리케이션에서 esProc는 완전히 포함될 수 
 
 esProc는 순수한 Java로 개발된 소프트웨어이기 때문에 다양한 Java 프레임워크 및 애플리케이션 서버에 완전하고 원활하게 통합될 수 있습니다. Spring, Tomcat과 같은 프레임워크에서 esProc는 사용자가 작성한 Java 애플리케이션과 동일한 논리적 상태를 갖습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 계산 유형의 프레임워크인 Spark과 같은 곳에 esProc를 완벽하게 통합할 수 있지만 실용적으로는 그다지 의미가 없습니다. esProc는 계산하기 전에 데이터를 SPL 특정 데이터 객체로 변환해야 하는데, 이는 시간이 많이 소요되며 처음부터 있던 계산 프레임워크의 데이터 객체를 무의미하게 만들어 두 유형의 데이터 객체의 장점을 결합할 수 없게 만들어 실패로 이어집니다. 이러한 계산 프레임워크의 핵심은 데이터 객체(예: Spark의 RDD)입니다. 만약 그러한 데이터 객체를 더 이상 사용할 수 없다면, 해당 계산 프레임워크 자체가 의미가 없어집니다. esProc의 계산 능력은 보통의 계산 프레임워크보다 훨씬 뛰어나기 때문에 더 이상 이러한 프레임워크를 사용할 필요가 없습니다.
 
@@ -612,7 +1176,18 @@ esProc는 순수한 Java로 개발된 소프트웨어이기 때문에 다양한 
 
 네, 물론 가능합니다! esProc는 데이터베이스, 텍스트, 엑셀, JSON/XML, 웹 서비스 등 수십 가지 데이터 원본을 지원합니다. 게다가, esProc는 데이터베이스와 텍스트와 같은 다른 데이터 원본 간의 연관 및 혼합 작업을 수행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 데이터 집중적 작업(대부분의 대용량 데이터 작업이 해당됨)의 경우, 데이터베이스로부터 데이터를 읽는 것은 데이터베이스의 느린 I/O 성능 때문에 많은 시간이 소요됩니다. esProc의 계산 시간이 매우 짧더라도, 전체 시간이 여전히 매우 길어져 성능 요구 사항을 충족시키지 못할 수 있습니다. 따라서 고성능을 요구하는 시나리오에서는 데이터베이스로부터 대량의 콜드 데이터를 esProc의 고성능 파일로 이동해야만 최적의 성능을 얻을 수 있습니다. 남은 작은 양의 핫 데이터는 여전히 데이터베이스에 저장되어 있을 수 있으며, esProc의 다중 소스 혼합 컴퓨팅 능력을 통해 실시간 전체 데이터 조회를 쉽게 구현할 수 있습니다.
 
@@ -622,7 +1197,18 @@ esProc는 데이터를 파일로 저장하며, 오픈 텍스트 형식을 지원
 
 # esProc의 고가용성을 어떻게 보장할까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 esProc는 여러 노드가 협력하여 작동할 수 있는 분산 컴퓨팅을 지원합니다. 그러나 실제로는 대부분의 작업을 처리하고 높은 동시성 시나리오를 제외한 대부분의 작업 요청 속도를 단일 노드를 통해 충분히 처리 할 수 있기 때문에 분산 컴퓨팅이 드물게 사용됩니다.
 
@@ -632,7 +1218,18 @@ esProc의 다가오는 클라우드 에디션(사설 배포 지원)은 자동 �
 
 독립 프로세스의 esProc은 핫 스탠바이 메커니즘을 지원하며, JDBC는 현재 작동 중인 서비스 프로세스 중 부하가 적은 프로세스를 선택하여 계산을 수행합니다. esProc의 분산 컴퓨팅도 내결함성을 제공합니다. 그러나 esProc의 설계 목표가 대규모 클러스터가 아니기 때문에 계산 중 노드 오류가 발견되면 작업이 실패로 처리됩니다. esProc의 내결함성은 노드 오류가 감지되면 클러스터가 새 작업을 수용할 수 있도록 하는 것으로 제한되어, 소규모 클러스터에 적합합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 esProc의 서비스 프로세스는 현재 실패 후 자동 복구 기능을 제공하지 않으며, 실패는 관리자가 처리해야 합니다. 그러나 감시 프로세스를 설계하여 자동 기능을 구현하는 것은 어렵지 않습니다.
 
@@ -642,7 +1239,18 @@ esProc의 탄력 있는 컴퓨팅 메커니즘(클라우드 버전)은 VM을 할
 
 esProc는 Java로 작성된 소프트웨어이며, Java로 작성된 정적 함수를 호출하기 위한 인터페이스를 제공하여 esProc의 기능을 확장할 수 있습니다. 또한 esProc는 사용자 정의 함수 인터페이스를 공개하여 응용 프로그래머가 Java로 새로운 함수를 작성하고 이를 esProc로 이동하여 SPL에서 사용할 수 있도록 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # esProc의 약점은 무엇인가요?
 
@@ -652,7 +1260,18 @@ esProc의 메타데이터 기능은 비교적 미숙합니다.
 
 esProc는 DBMS가 아니며 전통적인 의미에서 메타데이터 개념이 없으며 데이터는 대부분 파일 형태로 저장, 관리 및 사용됩니다. 대부분의 작업은 데이터 원본(파일)에 접근하여 시작되므로 데이터베이스에 비해 간단한 계산에는 약간 더 귀찮을 수 있지만 복잡한 계산에는 더 유리합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Hadoop/MPP과 비교할 때:
 
@@ -662,7 +1281,18 @@ Python과 비교할 때:
 
 우리는 현재 esProc SPL의 AI 기능을 개발하고 있으며, AI 모델링 및 예측 기능을 점차 향상시키고 있지만, 이러한 기능은 아직 Python의 다양한 AI 알고리즘 라이브러리만큼 풍부하지는 않습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # SPL과 SQL 간의 호환성은 어때요?
 
@@ -672,7 +1302,18 @@ esProc는 앞으로 SQL을 지원하는 이중 엔진을 개발할 예정이지�
 
 # SQL을 SPL로 자동 변환해 주는 도구가 있을까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SQL의 널리 사용으로, 특히 기존 시스템을 최적화할 때, SQL을 SPL로 자동 변환하여 마이그레이션 비용을 줄일 수 있는지 궁금해질 수밖에 없습니다.
 
@@ -682,7 +1323,18 @@ SQL의 널리 사용으로, 특히 기존 시스템을 최적화할 때, SQL을 
 
 또한, SPL은 SQL만큼 강력한 자동 최적화 메커니즘을 제공하지 않습니다. 수십 년에 걸쳐 발전한 뒤, 많은 데이터베이스가 강력한 최적화 엔진을 갖추고 있습니다. 상대적으로 간단한 느린 SQL 문을 직면했을 때 엔진은 그들의 진정한 의도를 "추측"하고, 이를 자동으로 최적화하여 고성능 방식으로 실행할 수 있습니다(위에서 언급한 TopN과 같은); 반면, SPL의 자동 최적화 기능은 부족하며, 우리는 데이터베이스 공급 업체만큼 최적화 경험이 풍부하지 않기 때문에, 진술의 의도를 "추측"할 능력이 없으며, 코드를 직접 실행해야 합니다. 이 경우 우리는 고성능을 달성하기 위해 저복잡도 코드를 작성하는 우리 프로그래머들에게만 의존할 수밖에 없습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # SPL 배우기는 얼마나 어려운가요?
 
@@ -694,7 +1346,18 @@ SPL은 로우 코드와 고성능을 목표로 합니다. SPL 구문은 Java보�
 
 # 성능 최적화 프로젝트를 어떻게 시작할까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대부분의 프로그래머들은 SQL로 생각하는 방법에 익숙하지만 고성능 알고리즘에 대해 친숙하지 않습니다. 그들은 한두 가지 시나리오를 통해 이해할 수 있도록 훈련받아야 합니다. 성능 최적화 루틴은 많지 않으며 (수십 개), 흔히 사용되는 루틴은 10개 미만입니다. 이러한 루틴을 경험하면 알고리즘 설계와 구현이 그리 어렵지 않다는 것을 깨닫게 될 것입니다. 처음 2-3가지 시나리오는 사용자가 우리 엔지니어의 도움을 받아 구현할 것입니다. 이 과정에서 우리는 사용자들에게 문제 해결 방법을 직접 제시하는 대신에 어떻게 문제를 해결할 수 있는지 가르쳐줄 것입니다.
 
@@ -704,7 +1367,18 @@ SPL은 로우 코드와 고성능을 목표로 합니다. SPL 구문은 Java보�
 
 # 요약
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마침내, esProc SPL의 데이터 분석 엔진으로의 장점을 요약해 보겠습니다.
 
@@ -714,7 +1388,18 @@ SPL은 로우 코드와 고성능을 목표로 합니다. SPL 구문은 Java보�
 
 효율적인 개발
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SPL의 유연한 구문과 풍부한 컴퓨팅 라이브러리, 그리고 절차적 특성을 통해 복잡한 알고리즘을 자연스러운 사고에 따라 구현할 수 있어 개발 효율이 향상됩니다.
 
@@ -724,7 +1409,18 @@ esProc SPL은 여러 데이터 소스의 혼합 계산을 지원하며, 다중 �
 
 리소스 절약
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 높은 컴퓨팅 능력을 지원하는 esProc SPL은 비즈니스 목표를 달성하는 데 더 적은 하드웨어로 가능합니다 (단일 기계가 클러스터와 견줄 수 있습니다), 그래서 더 환경 친화적인 기술입니다.
 
@@ -734,9 +1430,20 @@ esProc SPL은 여러 데이터 소스의 혼합 계산을 지원하며, 다중 �
 
 추가 질문이 있거나 다른 확장 기능을 알고 계신다면 언제든지 댓글을 남겨주세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-제 Medium 뉴스레터를 구독하시면 최신 소식을 받으실 수 있습니다. 저의 콘텐츠를 받아보실 걸 약속드립니다! 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+제 Medium 뉴스레터를 구독하시면 최신 소식을 받으실 수 있습니다. 저의 콘텐츠를 받아보실 걸 약속드립니다!
 
 Twitter와 LinkedIn에서도 만나보실 수 있어요!
 

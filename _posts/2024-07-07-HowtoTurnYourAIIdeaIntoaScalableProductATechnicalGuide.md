@@ -3,7 +3,7 @@ title: "AI 아이디어를 확장 가능한 제품으로 만드는 방법 기술
 description: ""
 coverImage: "/assets/img/2024-07-07-HowtoTurnYourAIIdeaIntoaScalableProductATechnicalGuide_0.png"
 date: 2024-07-07 20:30
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-HowtoTurnYourAIIdeaIntoaScalableProductATechnicalGuide_0.png
 tag: Tech
 originalTitle: "How to Turn Your AI Idea Into a Scalable Product: A Technical Guide"
@@ -11,19 +11,26 @@ link: "https://medium.com/towards-data-science/how-to-turn-your-ai-idea-into-a-s
 isUpdated: true
 ---
 
+안녕하세요! 타로 전문가 여러분!
 
-
-
-
-안녕하세요! 타로 전문가 여러분! 
-
-바로 오늘, 저희의 주제는 "AI 아이디어를 확장 가능한 제품으로 어떻게 만들까요?" 입니다! 
+바로 오늘, 저희의 주제는 "AI 아이디어를 확장 가능한 제품으로 어떻게 만들까요?" 입니다!
 
 저도 iPhone에 "아이디어" 노트에 50개 이상의 아이디어가 적혀있는 것을 잘 알고 있습니다. 여러분은 AI 기술을 활용한 멋진 앱이나 데이터 과학 제품에 대한 훌륭한 아이디어가 어떤가요?
 
 그렇다면, 이 아이디어를 어떻게 현실 사용자들이 있는 확장 가능한 제품으로 만들 수 있을까요? 함께 알아보도록 합시다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신은 머신러닝 모델을 개발하거나 LSTM을 세밀하게 조정하는 방법을 알 수 있을 지도 모르겠어요. 그렇지만 Jupyter 노트북 안에 갇히거나 로컬호스트에서만 작동 중인 모델은 아무에게도 도움이 되지 않죠.
 

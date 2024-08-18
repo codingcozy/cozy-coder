@@ -3,7 +3,7 @@ title: "Angular 시작하기 따라야 할 단계들"
 description: ""
 coverImage: "/assets/img/2024-07-10-LookingtostartwithAngularFollowthesesteps_0.png"
 date: 2024-07-10 00:36
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-10-LookingtostartwithAngularFollowthesesteps_0.png
 tag: Tech
 originalTitle: "Looking to start with Angular? Follow these steps."
@@ -11,19 +11,26 @@ link: "https://medium.com/angular-with-abhinav/looking-to-start-with-angular-fol
 isUpdated: true
 ---
 
-
-
-
-
 ![2024-07-10-LookingtostartwithAngularFollowthesesteps_0.png](/assets/img/2024-07-10-LookingtostartwithAngularFollowthesesteps_0.png)
 
-앵귤러를 사용한 웹 응용 프로그램 작성에 대한 기사를 진지하게 생각해 왔습니다. 시작하기 위해, 첫 번째 글로 필수 사항을 개괄적으로 소개하고 이후 글에서 다룰 주요 주제를 제공할 계획입니다. 
+앵귤러를 사용한 웹 응용 프로그램 작성에 대한 기사를 진지하게 생각해 왔습니다. 시작하기 위해, 첫 번째 글로 필수 사항을 개괄적으로 소개하고 이후 글에서 다룰 주요 주제를 제공할 계획입니다.
 
 프런트엔드 개발을 시작할 때, 인터넷이 작동하는 방식, 브라우저가 웹 페이지를 렌더링하는 방법, 클라이언트-서버 통신이 발생하는 방법 등을 이해하는 것이 매우 중요합니다. 이러한 기본 지식을 보유하면 애플리케이션이 어떻게 동작하고 행동하는지 더 잘 이해할 수 있습니다. 또한 여기서 참고할 수 있는 유익한 글이 포함된 이 로드맵을 살펴볼 수도 있습니다.
 
 그럼, 앵귤러 개발에 뛰어들기 전에 배워야 할 필수 주제들을 살펴보도록 하겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## HTML에서 시작하기
 
@@ -33,7 +40,18 @@ HTML은 Hypertext Markup Language의 약자로, 애플리케이션의 기본 구
 
 HTML 구조를 완성한 후, CSS를 사용하여 시각적으로 매력적인 디자인을 만듭니다. CSS는 텍스트와 배경에 색상을 추가하는 것부터 다양한 화면 크기에 대해 반응하는 HTML 페이지를 보장하는 작업까지 다룹니다. 이 측면은 애플리케이션이 세련되고 매력적으로 보이도록 하는 데 중요합니다. 마찬가지로 MDN의 CSS 문서를 참조하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Typescript를 사용하여 반응형으로 만들기
 
@@ -43,7 +61,18 @@ Typescript는 JavaScript의 상위 집합으로, 정적 형식 검사와 컴파�
 
 ## Angular 개념 학습부터 시작하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Angular은 HTML과 TypeScript를 사용하여 단일 페이지 클라이언트 애플리케이션을 구축하기 위해 설계된 플랫폼 및 프레임워크입니다. TypeScript로 작성된 Angular는 핵심 및 선택적 기능을 제공하여 응용 프로그램에 가져올 수 있는 TypeScript 라이브러리 모음을 제공합니다.
 
@@ -59,7 +88,18 @@ Angular 애플리케이션의 기본 구성 요소는 Angular 컴포넌트입니
 - 의존성 주입
 - 라우팅
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 주제는 Angular 프레임워크의 개요를 제공하고 소규모 애플리케이션을 구축하는 데 도움이 될 것입니다.
 
@@ -69,7 +109,18 @@ Angular 애플리케이션의 기본 구성 요소는 Angular 컴포넌트입니
 
 아래에 나열된 라이프사이클 이벤트를 자세히 살펴보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - ngOnChanges()
 - ngOnInit()
@@ -88,7 +139,18 @@ Angular에서 컴포넌트간 데이터를 공유해야 할 때가 많습니다.
 - 모델 Inputs: Angular v18에서 소개된(아직 개발자 미리보기 상태) 모델 Inputs은 다른 컴포넌트로 값 변경을 전파할 수 있습니다.
 - 상태 관리 라이브러리: 애플리케이션 전체에 상태를 전파하기 위해 NgRx Store와 같은 상태 관리 라이브러리를 사용할 수 있습니다. 저는 NgRx Store에 대한 경험이 있습니다. 이전에 NgRx Store에 관한 글을 썼는데, 여기서 찾아볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # RxJs 사용하기
 
@@ -102,7 +164,18 @@ RxJS (JavaScript용 반응형 확장 라이브러리)는 옵저버블을 사용�
 - 스트림 필터링
 - 여러 스트림을 조합
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 RxJS는 주로 서비스에 비동기 호출을 할 때 사용되며, 받은 데이터를 처리하여 뷰나 컴포넌트 인스턴스를 업데이트해야 할 때 주로 활용됩니다.
 

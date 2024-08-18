@@ -3,17 +3,13 @@ title: "힌두교 의식을 수행하는 로봇  신도들이 로봇이 신도�
 description: ""
 coverImage: "/assets/img/2024-06-22-RobotsareperformingHinduritualssomedevoteesfeartheyllreplaceworshippers_0.png"
 date: 2024-06-22 19:39
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-RobotsareperformingHinduritualssomedevoteesfeartheyllreplaceworshippers_0.png
 tag: Tech
 originalTitle: "Robots are performing Hindu rituals — some devotees fear they’ll replace worshippers"
 link: "https://medium.com/the-conversation/robots-are-performing-hindu-rituals-some-devotees-fear-theyll-replace-worshippers-790b8dc73f75"
 isUpdated: true
 ---
-
-
-
-
 
 ## AI 및 로봇 기술의 사용이 예배에 수행되는 흥미로운 질문을 던지고 있습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 2017년에 인도의 기술 기업이 로봇 팔을 소개하여 "아아티"를 수행하였습니다. 이 의식은 신자가 신에게 기름 등을 제공하여 어둠을 제거한다는 의미로 실시됩니다. 이 특별한 로봇은 가네샤, 코끼리 머리를 한 신의 상징이 군중들에게 전시되고 중앙 인도의 푸네의 뮬라-무타 강에 름길에 드러지는 가네샤 축제에서 공개되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이후로, 그 로봇 아르티 팔은 여러 개의 프로토 타입을 영감을 주었는데, 그 중 일부는 오늘날도 인도 전역에서 꾸준히 의식을 진행하며, 동아시아와 남아시아에서 다양한 종교적 로봇과 함께 의식을 진행하고 있습니다. 심지어 현재에서도 인도 남부 해안 케랄라에 있는 움직이는 사원 코끼리를 포함하여 로봇 의식은 여전히 진행 중입니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 또한 제 연구는 힌두교와 불교 신자들이 로봇을 신봉하는 사람들을 대체함으로써 표현하는 불안에 관심을 기울이며, 그 로봇들이 실제로 더 나은 신도가 될 수 있는지에 대해 살펴봅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 의례 자동화는 새로운 것이 아닙니다
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 현대적인 의례 자동화가 무슨 모습인지에는 이제 더 이상 묵상 비노나 로자리와 같은 기도 대상이 전혀 필요하지 않는 휴대전화 앱을 다운로드하는 것처럼 보일 수 있지만, 이러한 새로운 형태의 의례 수행 로봇들은 복잡한 대화를 유발하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 타네스워 살마는 산스크리트 학자이자 문학 비평가로, 힌두교 신앙에서 인간 종족의 최초 국왕인 만누 왕 이야기 속에 처음 나타난 힌두교 로봇에 대해 주장합니다. 만누의 어머니 사란유는 대건축가의 딸로, 가정 업무와 의식적 의무를 완벽하게 수행하는 살아있는 조각상을 만들었습니다.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 뿐만 아니라, 이러한 이야기들은 현대 국가주의자들에 의해 때때로 공간선박부터 미사일까지 고대 인도가 모든 것을 이전에 발명했다는 증거로 해석될 때도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 현대적 전통이나 전통적인 현대?
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 그러나 문제인 하는 적은 의식 전문가라는 문제의 해결책이 로봇이라면, 사람들은 여전히 의식 자동화가 자신들에게 혜택을 줄 것인지에 대해 의문을 제기합니다. 또한, 로봇 신을 구현하고 의인화 시키기 위해 동시에 사용하는 것에 대해 의문을 제기합니다. 왜냐하면 이러한 아이콘들은 사람들에 의해 프로그래밍되고 그로 인해 엔지니어들의 종교적 견해를 반영하기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 종교에 대한 올바른 접근
 
@@ -73,7 +124,18 @@ isUpdated: true
 
 이것은 또한 자동화된 의식이 인간의 의식적 오류에서 로봇의 의식적 완벽까지 이어지는 연속체에 있다는 것을 의미합니다. 간단히 말해, 로봇이 당신의 종교를 더 잘 할 수 있는 이유는 로봇이 사람과는 달리 영적으로 부패할 수 없기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로봇은 감소하는 목사단에 대한 매력적인 대안으로만 사용되는 것이 아니라 일상적인 맥락에서 그들의 이용이 증가하는 것을 설명합니다: 로봇이 잘못을 한다는 걱정이 없기 때문에 사람들은 그들을 사용합니다. 그리고 의식 수행 옵션이 제한될 때 아무것도 없는 것보다 나은 경우가 많습니다.
 
@@ -83,7 +145,18 @@ isUpdated: true
 
 구체적으로 말하면, 로봇 자동화는 동아시아와 남아시아(특히 인도와 일본)에서 의식 수행을 완벽하게 하는 데 사용되고 있으며, 이는 인간 성도에게는 불가능한 것을 달성할 수 있도록 합니다. 완벽하고 흠없는 의식 수행을 아이디어와 결합시켜 더 나은 종교의 개념을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현대 로봇공학은 종교가 더 이상 인간이 없는 것이 가장 좋은 종류의 종교가 된다는 특별한 문화적 모순처럼 느껴질 수 있습니다. 하지만 인간들이 로봇을 만들고, 로봇이 신이 되고, 신이 다시 인간이 되는 이 중첩 속에서, 우리는 다시 한번 우리 자신을 재해석한 것뿐입니다.
 

@@ -3,17 +3,13 @@ title: "우리 집에 다른 남자가 필요해요  관계 문제 해결 방법
 description: ""
 coverImage: "/assets/img/2024-06-22-IThinkWeNeedAnotherManinTheHouse_0.png"
 date: 2024-06-22 19:02
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-IThinkWeNeedAnotherManinTheHouse_0.png
 tag: Tech
 originalTitle: "“I Think We Need Another Man in The House”"
 link: "https://medium.com/doctor-funny/i-think-we-need-another-man-in-the-house-2653c7ed8f70"
 isUpdated: true
 ---
-
-
-
-
 
 ## 내 인생에는 당신과 함께해야 할 저의 밉상이 있다는 것을 알았지만, 무엇인지는 아직 모르겠어요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 “우리 집에는 또 다른 남자가 필요해.”
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보통 사람들은 내가 내 성역에 들어갈 때 나를 괴롭히지 않아. 집안에 나바뀐 닭 뼈, 피자 상자, 그리고 비어 있는 액체 용기들이 흩어져 있다. 그런 느낌이야.
 
@@ -33,17 +40,39 @@ isUpdated: true
 
 "라스베이거스 F1 그랜프리 밤에 침대에 가고 싶지 않아서 이제 나를 침실에서 쫓아내려 하는 거니?" 라고 브릭잖게 물었다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "안 돼요. 아니요," 그녀가 말했다. "당신은 여전히 내 식사 담당자이자 침대 담당자야."
 
-나는 혼란스러웠다. 그녀는 그것을 알아챌 수 있었다. 30년의 결혼 생활과 혼란의 징후는 마치 서양인이 문화를 잘 모르는 독자가 제3자의 현지 마상을 읽는 것만큼 명확하게 보였다 ... 왜 극세 군말을 사용하여 "채식주의자가 되면 언제나 이름이 카렌이 되는지"에 대해 쓴 고대 명조체 명문서를 읽는 느낌으로.  
+나는 혼란스러웠다. 그녀는 그것을 알아챌 수 있었다. 30년의 결혼 생활과 혼란의 징후는 마치 서양인이 문화를 잘 모르는 독자가 제3자의 현지 마상을 읽는 것만큼 명확하게 보였다 ... 왜 극세 군말을 사용하여 "채식주의자가 되면 언제나 이름이 카렌이 되는지"에 대해 쓴 고대 명조체 명문서를 읽는 느낌으로.
 
 누군가는 "순둥한 모래처럼 명확하다"고 할 것이다. 하지만 나는 작가니까 더 많은 말을 찾아야 해. 말이 많음이 법칙이잖아!!
 
 "나와 함께와," 그녀가 말했다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 가고 싶지 않았어요. 반 시간 뒤에 아부다비 그랑프리가 시작되고 있었는데, 이제 갱년기 증상이 나타나면서 그녀는 몸을 풀기 위해 좋은 30분이 걸려요. 이대로라면 출발 랩을 놓치려 할 수도 있을 거예요.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 하지만 그때 제 불안감이 두려움으로 바뀌었어요. 그게 아니면 뭐지? 그녀는 우리 욕실로 향했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "I thought that was bold! Maybe I can catch up on the formation lap on TV later.🏎️"
 
@@ -61,7 +101,18 @@ isUpdated: true
 
 "Placing her hands on each side of the closed toilet, gripping the seat tightly."
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 네, 네
 
@@ -71,7 +122,18 @@ isUpdated: true
 
 그리고 왼쪽에서 오른쪽으로 흔들기 시작했어. 바닥과 변기 팬 사이의 접착제가 벗겨지기 시작했어.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 “너도 봤지,” 그녀가 나에게 돌아서며 말했다. “그래서 집에 또 다른 남자가 필요한거야. 난 니한테 고쳐달라고 했는데, 더 흔들리잖아.”
 
@@ -81,7 +143,18 @@ isUpdated: true
 
 내 머릿속에선 판사가 주목하고 배심원단이 내 손바닥 안에 있었다. 법정은 죽은 물고기 물고리처럼 조용했다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 소리를 들었어요... 그리고 확인할 수 있어요, 아무 소리도 들리지 않아요. 제가 탱크를 청소한 후에 모터를 다시 켜놓는 걸 잊었기 때문에 그래요. 무엇을 생각하고 있는지 알아요... 그리고 동의해요.
 
@@ -91,7 +164,18 @@ isUpdated: true
 
 알았어요! 난 툭 하고 말했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "그 한 가지야," 나는 강조하며 대답했다. "고쳐," 나는 법원 카메라를 향해 봤다. "너(의도적으로 가리키고 있던 그녀를 가리키며, 보통 내가 허용되지 않은 행동이지만 이건 법정이었으니까), 나한테 '수리해 줘' 라고 안 했다," 나는 대답했다. "너가 수리해 달라고 했다면, 나는 수리 작업을 했을 텐데. 이건 고치는 작업이야. 뭔가...하지만 고쳤다고 하기 충분하지 않아," 나는 외쳤다.
 
@@ -101,11 +185,33 @@ isUpdated: true
 
 "알았어," 그녀는 내 옆을 지나갔다. 욕실 문 너머에 서 있으면서 직접 향했고, 연습실로 가는 길을 쭉 따라 내려가서 전날 설치했던 벽걸이 책장을 가리켰다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그레이프바인이라고도 하는 화분은 포도와 다육식물에 적합합니다. 플랜터랑 잘 어울리고, 선원을 채우기에 딱 좋아요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "그럴 기분이 아니야," 많은 일을 해야할 것처럼 대답했어요. 사실은 제가 할 일이 많았거든요. 팝콘이 좀 더 소금이 필요하다고 생각했어요. 이 중요한 일을 지금 하러 갈게요.
 
@@ -115,7 +221,18 @@ isUpdated: true
 
 제가 말했죠, 그것은 워 앤 피스의 두꺼운 하드커버 복판만한 크기의 책이라고 그녀는 말했어요, 얇은 소설 컵지.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저 중 한 명이 틀렸어요.
 
@@ -125,7 +242,18 @@ isUpdated: true
 
 "절대로 가능해요," 저는 격렬히 반박했어요. 그녀가 증명하라고 하지는 않을거라는 걸 아는데 말이에요. 저랑 정말 역겹게 될 테니까요, 아이들도 주위에 있으니까요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 거기서 멈추지는 않았어요. 저는 "결혼 법정용어"에서 말하는 바와 같이 30년 이상의 "결혼 클럽"에서 사건을 확고히 기록하기로 결심했어요.
 
@@ -135,11 +263,33 @@ isUpdated: true
 
 제가 처음 어겨버린 규칙은 더러운 세탁물통이었어요. 보니까, 농구골대가 아니랍니다. 그리고 놓친 공들을 주워주는 볼 보이도 없다는 거잖아요. 미쳤죠?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "그대로 표 태그를 마크다운 형식으로 변경해주세요."
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 잠시 지나고 나니..."메인스플레인, 맨스플레인, 맨스플레인," 하며 그녀가 무표정해지는 모습을 보았기 때문에 마지막 주장으로 넘어갔어요.
 
@@ -149,7 +299,18 @@ isUpdated: true
 
 그녀는 저를 바라봤다가 3초 가량 지나고 그 불멸의 말을 내뱉었어요,
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "새로운 남자가 온다는데, 수리공 로베르토와 이야기했는데, 그가 당신 자리를 대신 할 거라고 해. 당신의 DIY 기술은 당신의 부인과 변명만큼 비참해. 이것에 대해 어떻게든 대처해."
 
@@ -159,7 +320,18 @@ isUpdated: true
 
 나는 그 후에 소파에 쓰러지듯이 엎드려서 올해의 마지막 그랑프리를 보았어.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이프에 넣어 피우세요.
 
@@ -169,6 +341,17 @@ isUpdated: true
 
 정말 고배를 헤쳐가며 그랑프리에 집중하기가 어려웠어요. 막스는 또 한 번 우승하고 있었고, 나는 로베르토 공사와의 악한 계획을 꾸미고 있었어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 손에서 그는 푹 익은 파스타가 될 것 같아요.

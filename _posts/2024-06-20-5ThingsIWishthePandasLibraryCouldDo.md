@@ -3,7 +3,7 @@ title: "판다 라이브러리가 할 수 있는 5가지를 소개합니다"
 description: ""
 coverImage: "/assets/img/2024-06-20-5ThingsIWishthePandasLibraryCouldDo_0.png"
 date: 2024-06-20 15:50
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-5ThingsIWishthePandasLibraryCouldDo_0.png
 tag: Tech
 originalTitle: "5 Things I Wish the Pandas Library Could Do"
@@ -11,17 +11,24 @@ link: "https://medium.com/datadriveninvestor/5-things-i-wish-the-pandas-library-
 isUpdated: true
 ---
 
-
-
-
-
 아래는 해당 기사에 대한 코드를 찾을 수 있습니다.
 
 Pandas 라이브러리 덕분에 파이썬에서의 표 데이터 처리, 분석 및 처리가 오늘날 이렇게 쉽고 간단히 수행되는 일은 없습니다.
 
 현재, Pandas API는 표 데이터 관리에 필요한 다양한 기능을 제공하여 거의 모든 데이터 과학 프로젝트를 지원하고 있습니다. 예를 들어:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 입력 및 출력 작업
 - 데이터 필터링
@@ -35,7 +42,18 @@ Pandas 라이브러리 덕분에 파이썬에서의 표 데이터 처리, 분석
 
 이 기사의 하이라이트는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 #1 Pandas가 CSV 파일을 병렬로 읽을 수 있다면 좋겠어요
 #2 Pandas가 한 번에 여러 CSV 파일을 읽을 수 있다면 좋겠어요
@@ -49,7 +67,18 @@ Pandas 라이브러리 덕분에 파이썬에서의 표 데이터 처리, 분석
 
 안타깝게도, Pandas의 CSV 파일에서/로의 입출력 작업은 직렬화되어 있어 Pandas에는 내재 된 멀티 쓰레딩 지원이 없습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우선, CSV 파일을 읽는 문맥에서의 직렬화는 판다스가 CSV 데이터를 한 번에 한 행(또는 한 줄)만 읽는 것을 의미합니다. 아래 애니메이션에서 이것이 설명되어 있습니다:
 
@@ -59,7 +88,18 @@ Pandas 라이브러리 덕분에 파이썬에서의 표 데이터 처리, 분석
 
 직렬화된 입력 및 출력 작업의 과정은 굉장히 비효율적이고 시간이 많이 소요되는 작업입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 가능한 대안
 
@@ -69,7 +109,18 @@ Pandas 라이브러리 덕분에 파이썬에서의 표 데이터 처리, 분석
 
 빠르면서도 디스크에 데이터를 저장하기 위해 적은 메모리를 사용하는 이러한 형식에 대해 더 자세히 알아보려면 아래 블로그에서 확인해주세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Pandas와는 달리 병렬화 기능을 갖춘 DataTable과 같은 라이브러리를 사용하세요.
 
@@ -79,7 +130,18 @@ Pandas 라이브러리 덕분에 파이썬에서의 표 데이터 처리, 분석
 
 여러 개의 CSV 파일이 포함된 폴더가 있고, 이를 Pandas DataFrame으로 읽고 가져와야 한다고 상상해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 판다스에서 이 작업을 수행하는 유일한 방법은 파일 목록을 반복하고 하나씩 읽는 것입니다. 아래에서 보여진 것처럼:
 
@@ -89,7 +151,18 @@ Pandas 라이브러리 덕분에 파이썬에서의 표 데이터 처리, 분석
 
 판다스에서 멀티스레딩을 지원하지 않기 때문에 병렬로 읽을 수 있는 파일 세트는 한 번에 하나씩 읽어야 하며, 이로 인해 실행 시간이 늘어나고 자원이 비효율적으로 사용될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 가능한 대안
 
@@ -99,7 +172,18 @@ DataTable을 사용하면 여러 CSV 파일을 효율적으로 읽을 수 있습
 
 아래 블로그에서 런타임 성능에 대해 더 많이 알아보세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # #3 판다 데이터프레임이 더 적은 메모리를 사용하도록 했으면 좋겠어요
 
@@ -109,7 +193,18 @@ DataTable을 사용하면 여러 CSV 파일을 효율적으로 읽을 수 있습
 
 기본적으로, 판다는 항상 열에 가장 큰 메모리 데이터 유형을 할당합니다. 예를 들어, 판다가 위에서 colA를 정수 값으로 해석했을 때, 선택할 수 있는 4가지 하위 카테고리가 있었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - int8: 8비트 정수 데이터 유형으로 [-2⁷, 2⁷] 범위의 정수를 포함합니다.
 - int16: 16비트 정수 데이터 유형으로 [-2¹⁵, 2¹⁵] 범위의 정수를 포함합니다.
@@ -122,7 +217,18 @@ DataTable을 사용하면 여러 CSV 파일을 효율적으로 읽을 수 있습
 
 메모리 활용을 최적화하기 위해, "민맥스 감소 분석(min-max-reduce analysis)"이라고 부르는 방향이 있을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우선, 관심 있는 열에서 최소값과 최대값을 찾는 것부터 시작해요.
 
@@ -132,7 +238,18 @@ DataTable을 사용하면 여러 CSV 파일을 효율적으로 읽을 수 있습
 
 이 간단한 한 줄짜리 데이터 유형 변환으로 colA 열이 사용하는 총 메모리가 약 40% 정도 감소했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비슷한 최소-최대-축소 분석을 통해 다른 정수 및 부동 소수점 값 열의 데이터 유형을 변경할 수도 있습니다.
 
@@ -142,8 +259,18 @@ DataTable을 사용하면 여러 CSV 파일을 효율적으로 읽을 수 있습
 
 위에서 논의한 대로, Pandas에는 내재적인 멀티 스레딩 지원이 없습니다. 결과적으로 데이터 규모와 관계없이 Pandas는 항상 단일 코어를 활용하므로 데이터 크기에 비례한 실행 시간 증가가 발생합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-20-5ThingsIWishthePandasLibraryCouldDo_1.png)
 
@@ -153,8 +280,18 @@ We start with a random DataFrame comprising a thousand rows and two columns.
 
 Next, we define a function that takes a row of the DataFrame and returns its sum. This function is implemented below:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 반복마다 DataFrame의 각 행의 합을 계산하는 데 걸리는 시간을 결정합니다. 무작위성을 제거하기 위해 각 반복을 run 번 반복할 것입니다. 각 반복의 끝에서 DataFrame의 크기를 두 배로 증가시킬 것입니다.
 
@@ -164,7 +301,18 @@ Next, we define a function that takes a row of the DataFrame and returns its sum
 
 <img src="/assets/img/2024-06-20-5ThingsIWishthePandasLibraryCouldDo_2.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 가능한 대안
 
@@ -174,7 +322,18 @@ Pandas는 작은 데이터셋에서 작업하기에 매우 좋습니다. 그러�
 
 # #5 Pandas가 SQL과 유사한 조인 조건을 지원했으면 좋겠네요 (어떤 방식으로든)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SQL 작업을 하는 사람들은 테이블을 병합하기 위해 복잡한 조인 조건을 쓰는 것을 즐기지 않나요?
 
@@ -184,7 +343,18 @@ SQL 작업을 하는 사람들은 테이블을 병합하기 위해 복잡한 조
 
 다음 조건에 따라 이 두 테이블을 결합하는 것이 목적입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```sql
 (table1.col1 = table2.col1 + 2) 그리고 (table2.col2 >= table2.col2 - 2) 그리고 (table2.col2 <= table2.col2 + 2)
@@ -196,7 +366,18 @@ SQL 작업을 하는 사람들은 테이블을 병합하기 위해 복잡한 조
 
 ## 판다스 조인
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 판다는 데이터프레임에서 동일성을 기반으로 한 조인만 수행할 수 있습니다. 다시 말하면, 판다의 merge() 메소드는 조인 열의 값이 동일할 때에만 두 레코드를 조인하는 것이 가능하며, 조건부 조인의 가능성이 없어집니다.
 
@@ -207,7 +388,18 @@ SQL 작업을 하는 사람들은 테이블을 병합하기 위해 복잡한 조
 
 아래에서 접근 방법 1과 접근 방법 2를 조합한 예시가 제시되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 병합할 두 데이터프레임을 만들고 join 조건을 정의합니다.
 
@@ -219,7 +411,18 @@ join 조건이 부등식으로 이루어져 있기 때문에 일단 부등식들
 
 먼저, table2에 새로운 열을 생성할 것입니다. 이를 col3_1이라고 해보죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 table1의 col1과 table2의 col3_1을 기준으로 조인을 수행하고, 조인 조건으로부터 남은 조건을 기반으로 얻은 레코드를 필터링할 것입니다. 아래에서 구현되어 있습니다:
 
@@ -229,7 +432,18 @@ PandaSQL은 Pandas와 SQL을 혼합한 인기 있는 Python 패키지로, SQL �
 
 따라서, PandaSQL을 사용하면 SQL 문법을 사용하여 pandas 데이터프레임을 쿼리할 수 있습니다. SQL과 유사한 조인을 실행하려면 PandaSQL을 탐색해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SQL을 Pandas DataFrames와 함께 사용하는 쉬움은 실행 시간이라는 대가를 지는데요. 이에 대해 이전 블로그 글에서 다뤄보았습니다:
 
@@ -239,7 +453,18 @@ SQL을 Pandas DataFrames와 함께 사용하는 쉬움은 실행 시간이라는
 
 Pandas는 일상적인 탭형 데이터 분석, 관리 및 처리 작업에 놀라울 정도로 유용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만, 제작 수준의 솔루션을 개발하거나 처리할 데이터가 많을 경우, Pandas는 병렬화와 자원 활용에 제한이 있어 도움이 되지 않을 수 있습니다.
 
@@ -249,8 +474,18 @@ Pandas는 일상적인 탭형 데이터 분석, 관리 및 처리 작업에 놀�
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/0*6rHTrx_iItXjC1hm.gif)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-20-5ThingsIWishthePandasLibraryCouldDo_3.png)
 
@@ -260,8 +495,18 @@ Subscribe to DDIntel [here](link_here).
 
 Have a unique story to share? Submit to DDIntel [here](link_here).
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희 창조자 생태계에 참여해 주세요.
 

@@ -3,17 +3,13 @@ title: "AI 윤리 전 세계적으로 가능할까요"
 description: ""
 coverImage: "/assets/img/2024-05-27-AIEthicsIsItEvenPossibleOnAGlobalScale_0.png"
 date: 2024-05-27 15:33
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-AIEthicsIsItEvenPossibleOnAGlobalScale_0.png
 tag: Tech
 originalTitle: "AI Ethics: Is It Even Possible On A Global Scale?"
 link: "https://medium.com/asecuritysite-when-bob-met-alice/ai-ethics-is-it-even-possible-on-a-global-scale-c463f065b94d"
 isUpdated: true
 ---
-
-
-
-
 
 ![Image](/assets/img/2024-05-27-AIEthicsIsItEvenPossibleOnAGlobalScale_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 그렇다면 빠르게 성장 중인 우리 AI 자녀들은 어떨까요? 지난 몇 년 동안 빠르게 성장했으며 이제 우리보다 많은 작업에서 뛰어납니다. 한 분야에서 다른 분야로 기술을 전이하는 데는 여전히 어려움을 겪지만, 그들은 빠르게 배우고 지구상에서 지금까지 창조된 모든 지식을 학습하고 있습니다. 하지만 우리인 우리 - 그들의 부모들로부터.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 AI 자녀가 "이상적인 성품"을 갖도록 할 수 있을까요? 좋은 인간 부모로서, 우리는 우리 아이들이 좋은 인간적 성품을 갖도록 양육하려고 노력합니다. 우리는 예의와 매너를 보여주며, 그것들은 우리 후손에 반영됩니다. 하지만 좋지 않은 성품을 갖도록 자녀를 양육하는 많은 부모들도 있습니다. 물론 이에 대한 보장은 없으며, 좋지 않은 부모들이 좋은 후손을 낳을 수도 있고 그 반대도 마찬가지입니다.
 
@@ -34,7 +40,18 @@ isUpdated: true
 
 UN 인권선언은 여러 규정을 정의하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1. 모든 인간은 태어날 때부터 자유로우며 그 존엄과 권리면에서 동등하다. 그들은 이성과 양심을 부여받았으며 서로 형제애의 정신으로 행동하여야 한다.
 
@@ -44,7 +61,18 @@ UN 인권선언은 여러 규정을 정의하고 있습니다.
 
 2. 모든 사람은 인종, 피부색, 성별, 언어, 종교, 정치적 또는 기타 견해, 국가적 또는 사회적 출신, 재산, 출생 또는 그 밖의 신분과 같은 어떠한 차별도 없이 본 선언에서 규정한 모든 권리와 자유를 가진다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 여전히 우리는 다른 사람들에 대한 혐오 발언이 있습니다.
 
@@ -54,7 +82,18 @@ UN 인권선언은 여러 규정을 정의하고 있습니다.
 
 그리고 유엔 [여기]:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-27-AIEthicsIsItEvenPossibleOnAGlobalScale_2.png" />
 
@@ -67,7 +106,18 @@ UN 인권선언은 여러 규정을 정의하고 있습니다.
 
 하지만, 이는 이렇게 빠르게 이렇게 많은 사람들의 손에 들어간 적이 없는 기술이다. 우리 사회에는 유엔 수험서의 원칙을 믿는 좋은 사람들이 많지만, 욕심과 증오, 공격으로 동기부여되는 나쁜 사람들도 많이 있다. 마음에 들든 말든, AI 윤리와 도덕의 게임에서 이기려는 사람들은 우리를 감시하고 우리의 돈을 가져가고 우리를 학대하려는 사람들일 가능성이 크다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 실제 생활에서는 이전보다도 많은 공격을 받을 것입니다
 
@@ -77,7 +127,18 @@ UN 인권선언은 여러 규정을 정의하고 있습니다.
 
 ## 우리는 어떻게 해야 할까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만, 우리는 어떻게 할까요? 인간의 영혼처럼, 우리 캐릭터에서 선을 위해 노력하고 AI에 반영되어야 한다. 하지만, 우리가 제어할 수 있는 AI 개체들만 그렇게 될 것이다. 나머지는 어떨까요? 우리는 사이버 보안에 크게 투자해야 합니다. 그렇지 않으면 우리는 조지 오웰의 1984년이나 기계에 노올에 의해 지켜지는 세상으로 향하게 될 것입니다.
 

@@ -3,18 +3,13 @@ title: "그래프 시각화 초보부터 고급까지 7단계"
 description: ""
 coverImage: "/assets/img/2024-06-19-GraphVisualization7StepsfromEasytoAdvanced_0.png"
 date: 2024-06-19 01:25
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-GraphVisualization7StepsfromEasytoAdvanced_0.png
 tag: Tech
 originalTitle: "Graph Visualization: 7 Steps from Easy to Advanced"
 link: "https://medium.com/towards-data-science/graph-visualization-7-steps-from-easy-to-advanced-4f5d24e18056"
 isUpdated: true
 ---
-
-
-
-
-
 
 <img src="/assets/img/2024-06-19-GraphVisualization7StepsfromEasytoAdvanced_0.png" />
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 ## 기본 예제
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이썬에서 그래프를 사용하려면 NetworkX가 아마도 가장 인기 있는 선택일 것입니다. NetworkX는 네트워크 분석을 위한 오픈 소스 파이썬 패키지로, 다양한 알고리즘과 강력한 기능이 포함되어 있습니다. 우리가 알다시피, 모든 그래프에는 노드(정점)와 간선이 포함되어 있습니다. NetworkX에서 간단한 그래프를 쉽게 만들 수 있습니다:
 
@@ -52,7 +57,18 @@ nx.draw(G, with_labels=True)
 plt.show()
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결과가 여기처럼 보입니다:
 
@@ -62,7 +78,18 @@ plt.show()
 
 ## 1. 레이아웃
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래프 자체는 노드와 그들 사이의 관계만을 포함하고 있어요. 좌표는 가지고 있지 않아요. 동일한 그래프가 여러 가지 다른 방식으로 표시될 수 있으며, NetworkX에는 다양한 레이아웃이 있어요. 만별한 해결책이 없고, 시각적인 인상은 주관적일 수도 있어요. 가장 좋은 방법은 다양한 옵션을 시도하고 특정 데이터셋과 가장 잘 맞는 이미지를 찾는 것이에요.
 
@@ -80,13 +107,22 @@ nx.draw(G, pos=pos, with_labels=True)
 
 print 출력을 보면 레이아웃 자체가 좌표를 가진 사전(dictionary)임을 알 수 있어요. 이 레이아웃은 draw 메소드의 옵션 매개변수로 지정될 수 있어요. 결과는 다음과 같이 보여요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지 태그를 Markdown 형식으로 변경하세요.
 
-
 ![Graph Visualization](/assets/img/2024-06-19-GraphVisualization7StepsfromEasytoAdvanced_2.png)
-
 
 이 유형의 그래프는 최적의 것이 아닙니다. 다른 방법을 시도해 보죠.
 
@@ -94,11 +130,22 @@ print 출력을 보면 레이아웃 자체가 좌표를 가진 사전(dictionary
 여기서 코드 로직은 동일합니다. 먼저 레이아웃을 생성한 다음 코드에서 사용합니다:
 
 ```js
-pos = nx.circular_layout(G)
-nx.draw(G, pos=pos, with_labels=True)
+pos = nx.circular_layout(G);
+nx.draw(G, (pos = pos), (with_labels = True));
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결과:
 
@@ -109,11 +156,22 @@ nx.draw(G, pos=pos, with_labels=True)
 Kamada-Kawai 레이아웃
 이 방법은 Kamada-Kawai 경로 길이 비용 함수를 사용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-pos = nx.kamada_kawai_layout(G)
-nx.draw(G, pos=pos, with_labels=True)
+pos = nx.kamada_kawai_layout(G);
+nx.draw(G, (pos = pos), (with_labels = True));
 ```
 
 보다 나은 결과가 나타납니다:
@@ -123,11 +181,22 @@ nx.draw(G, pos=pos, with_labels=True)
 Spring Layout
 이 방법은 Fruchterman-Reingold 힘 방향 알고리즘을 사용하여 노드를 서로 멀어지도록 당깁니다. 이 시스템이 평형에 도달할 때까지 노드를 서로 멀어지도록 당깁니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-pos = nx.spring_layout(G, seed=42)
-nx.draw(G, pos=pos, with_labels=True)
+pos = nx.spring_layout(G, (seed = 42));
+nx.draw(G, (pos = pos), (with_labels = True));
 ```
 
 결과는 주관적으로 가장 좋아 보입니다:
@@ -136,7 +205,18 @@ nx.draw(G, pos=pos, with_labels=True)
 
 여기서 seed 매개변수는 결과를 동일하게 유지하려면 유용합니다. 그렇지 않으면 각 재그리기마다 다른 모양의 그래프가 생성됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다른 그래프 레이아웃 유형은 NetworkX에서 사용할 수 있습니다. 독자들은 직접 테스트해보기를 환영합니다.
 
@@ -146,7 +226,18 @@ nx.draw(G, pos=pos, with_labels=True)
 
 먼저, 노드가 이벤트인지 감지하는 헬퍼 메서드를 만들겠습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 def is_event_node(node: str) -> bool:
@@ -167,8 +258,18 @@ nx.draw(G, pos=pos, node_color=node_colors, with_labels=True)
 
 결과는 다음과 같습니다:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-GraphVisualization7StepsfromEasytoAdvanced_6.png" />
 
@@ -189,7 +290,18 @@ nx.draw(G, pos=pos, node_color=node_colors, node_size=node_sizes,
         with_labels=True)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기, 노드 당 엣지 수를 별도의 딕셔너리에 저장했어요. 또한 "이벤트" 노드를 더 크게 만들기 위해 이전과 동일한 is_event_node 메서드를 사용했어요.
 
@@ -199,7 +311,18 @@ nx.draw(G, pos=pos, node_color=node_colors, node_size=node_sizes,
 
 ## 4. 엣지 색상
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 노드 뿐만 아니라 엣지 색상도 지정할 수 있습니다. 예를 들어, Theresa Anderson이 방문한 모든 이벤트를 강조해 보겠습니다. 이를 위해 세 가지 도우미 메서드가 필요합니다:
 
@@ -233,7 +356,18 @@ def edge_weight(node1: str, node2: str) -> str:
 
 이제 그래프를 그릴 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 edge_colors = [edge_color(n1, n2) for n1, n2 in G.edges()]
@@ -249,7 +383,18 @@ nx.draw(G, pos=pos, node_color=node_colors, node_size=node_sizes,
 
 ## 5. 노드 레이블
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래프에 서로 다른 노드 유형이 있는 경우, 서로 다른 노드에 대해 서로 다른 글꼴을 사용할 수 있습니다. 그러나 제 놀람에는 NetworkX에서 색상과 같이 글꼴을 지정하는 쉬운 방법이 없습니다. "이벤트"와 "사람" 노드를 그릴 때, 그래프를 서브그래프로 분할하여 따로 그릴 수 있습니다:
 
@@ -266,8 +411,18 @@ nx.draw_networkx_labels(G.subgraph(node_people), pos=pos, font_weight="normal", 
 
 결과는 다음과 같이 보입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![그래프 시각화](/assets/img/2024-06-19-GraphVisualization7StepsfromEasytoAdvanced_9.png)
 
@@ -280,26 +435,50 @@ colors_dict = {node: get_node_color(node) for node in G.nodes()}
 nx.set_node_attributes(G, colors_dict, "color")
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래와 같이 일부 노드에 수동으로 속성을 지정할 수도 있습니다:
+
 ```js
 custom_colors_dict = {
-             "Frances Anderson": "orange",
-             "Theresa Anderson": "orange",
-             "E3": "darkgreen",
-             "E5": "darkgreen",
-             "E6": "darkgreen"
-}
-nx.set_node_attributes(G, custom_colors_dict, "color")
+  "Frances Anderson": "orange",
+  "Theresa Anderson": "orange",
+  E3: "darkgreen",
+  E5: "darkgreen",
+  E6: "darkgreen",
+};
+nx.set_node_attributes(G, custom_colors_dict, "color");
 ```
 
 그런 다음, 그래프를 파일로 저장하면 모든 정보가 그대로 유지됩니다:
+
 ```js
-nx.write_gml(G, "davis_southern_women.gml")
+nx.write_gml(G, "davis_southern_women.gml");
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로는 그래프를 로드하고 노드 속성에서 모든 색상을 추출할 수 있습니다. 더 이상 헬퍼 메서드가 필요하지 않습니다:
 
@@ -315,7 +494,18 @@ nx.draw_networkx_labels(G.subgraph(node_people), pos=pos, font_weight="normal", 
 
 <img src="/assets/img/2024-06-19-GraphVisualization7StepsfromEasytoAdvanced_10.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서는 이전에 사용한 것과 동일한 색상들을 보고, 사용자 정의 색상을 가진 네 개의 노드를 볼 수 있습니다. 모든 정보가 GML 파일에 저장되었습니다.
 
@@ -325,7 +515,18 @@ nx.draw_networkx_labels(G.subgraph(node_people), pos=pos, font_weight="normal", 
 
 NetworkX 그래프를 D3로 내보내는 "원시적인" 방법을 찾지 못했지만, 몇 줄의 코드로 수행할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 def convert_to_d3(graph: nx.Graph) -> dict:
@@ -349,42 +550,31 @@ with open('d3_graph.json', 'w', encoding='utf-8') as f_out:
 
 ```javascript
 <script type="module">
-    // 차트의 차원을 지정합니다.
-    const width = window.innerWidth;
-    const height = window.innerHeight;
-
-    // 색상 척도를 지정합니다.
-    const color = d3.scaleOrdinal(d3.schemeTableau10);
-
-    const data = await d3.json("./d3_graph.json");
-    const links = data.links.map(d => ({...d}));
-    const nodes = data.nodes.map(d => ({...d}));
-
-    // SVG 컨테이너를 생성합니다.
-    const svg = d3.create("svg")
-        .attr("width", width)
-        .attr("height", height)
-        .attr("viewBox", [0, 0, width, height])
-        .attr("style", "max-width: 100%; height: auto;");
-
-    ...      
-
-    // 여러 힘을 가진 시뮬레이션을 생성합니다.
-    const simulation = d3.forceSimulation(nodes)
-        .force("link", d3.forceLink(links).id(d => d.id))
-        .force("charge", d3.forceManyBody())
-        .force("center", d3.forceCenter(width / 2, height / 2))
-        .on("tick", ticked);
-
-    // SVG 요소를 추가합니다.
-    container.append(svg.node());
+  // 차트의 차원을 지정합니다. const width = window.innerWidth; const height = window.innerHeight; // 색상 척도를
+  지정합니다. const color = d3.scaleOrdinal(d3.schemeTableau10); const data = await d3.json("./d3_graph.json"); const
+  links = data.links.map(d => ({...d})); const nodes = data.nodes.map(d => ({...d})); // SVG 컨테이너를 생성합니다.
+  const svg = d3.create("svg") .attr("width", width) .attr("height", height) .attr("viewBox", [0, 0, width, height])
+  .attr("style", "max-width: 100%; height: auto;"); ... // 여러 힘을 가진 시뮬레이션을 생성합니다. const simulation =
+  d3.forceSimulation(nodes) .force("link", d3.forceLink(links).id(d => d.id)) .force("charge", d3.forceManyBody())
+  .force("center", d3.forceCenter(width / 2, height / 2)) .on("tick", ticked); // SVG 요소를 추가합니다.
+  container.append(svg.node());
 </script>
 ```
 
 이 문서는 JavaScript 자체에 집중하고 있지 않습니다. D3.JS로 그래프를 그리는 코드 예제는 온라인에서 쉽게 찾을 수 있습니다. (이것은 좋은 시작점일 수 있습니다. 전체 소스 코드 링크도 이 페이지의 끝에 있습니다.)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요렇게 하여 로컬 서버를 실행하고 브라우저에서 페이지를 열 수 있습니다. JavaScript의 장점 중 하나는 그래프를 상호작용 가능하게 만들 수 있고 노드를 드래그앤드롭으로 이동할 수 있다는 것입니다:
 
@@ -394,7 +584,18 @@ with open('d3_graph.json', 'w', encoding='utf-8') as f_out:
 
 ## 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글에서는 NetworkX를 사용하여 그래프 시각화하는 다양한 방법을 보여드렸어요. 보다시피, 이 과정은 대부분 직관적이며 노드 크기 또는 색상과 같은 많은 매개변수를 쉽게 조절할 수 있어요. 보다 복잡한 그래프는 JSON으로 내보내어 JavaScript로 사용할 수 있어요. 이후에는 강력한 D3.JS 라이브러리를 사용할 수 있어요 - 웹 브라우저에서의 렌더링 프로세스는 아마도 하드웨어 가속화되어 더 빠를 거예요.
 
@@ -408,6 +609,17 @@ with open('d3_graph.json', 'w', encoding='utf-8') as f_out:
 
 이 이야기를 즐겼다면 Medium을 구독해도 좋아요. 새로운 글이 게시되면 알림을 받을 수 있을 뿐만 아니라 다른 저자들의 수천 개의 이야기에도 완전한 액세스 권한을 얻을 수 있어요. LinkedIn을 통해 연결해도 좋고요. 이와 다른 게시물들의 전체 소스 코드를 얻고 싶다면 Patreon 페이지를 방문해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 읽어 주셔서 감사합니다!

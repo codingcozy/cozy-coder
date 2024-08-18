@@ -3,18 +3,13 @@ title: "MySQL에서의 고급 데이터 분석 통계 함수"
 description: ""
 coverImage: "/assets/img/2024-06-20-AdvancedDataAnalysisinMySQLStatisticalFunctions_0.png"
 date: 2024-06-20 15:57
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-AdvancedDataAnalysisinMySQLStatisticalFunctions_0.png
 tag: Tech
 originalTitle: "Advanced Data Analysis in MySQL: Statistical Functions"
 link: "https://medium.com/learning-sql/advanced-data-analysis-in-mysql-statistical-functions-5958d2194fa2"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![Advanced Data Analysis in MySQL - Statistical Functions 0](/assets/img/2024-06-20-AdvancedDataAnalysisinMySQLStatisticalFunctions_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 데이터베이스에 대규모 데이터 집합이 있는 경우 데이터베이스에서 이러한 분석을 직접 실행하는 것이 도움이 됩니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 일부 데이터베이스의 내장 통계 함수는 매우 포괄적이지 않을 수 있습니다. MySQL 데이터베이스도 그러한 경우 중 하나입니다.
 
@@ -35,7 +40,18 @@ isUpdated: true
 
 통계와 SQL 쿼리 언어에 대한 기본적인 이해가 있다고 가정합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## MySQL 인스턴스 + 샘플 데이터 세트
 
@@ -45,8 +61,18 @@ isUpdated: true
 
 이 기사에서 작업할 기존 데이터베이스 스키마는 다음과 같아야 합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-06-20-AdvancedDataAnalysisinMySQLStatisticalFunctions_2.png)
 
@@ -61,8 +87,18 @@ The fields are mostly self-explanatory, but to be on the safe side, we list the 
 
 ## Install the statistics extension
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 MySQL은 통계 함수가 제한적이기 때문에 고급 기능을 위한 '확장 프로그램'이 필요합니다. 이 기사에서는 다음과 같은 통계 함수를 사용합니다: Statistics for MySQL.
 
@@ -74,7 +110,18 @@ Windows 사용자는 다음을 직접 다운로드하고(32비트 또는 64비�
 mysql -u root -p -f < examples\install.sql
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Linux 또는 MacOS 사용자는 INSTALL 파일의 지침을 따라 프로젝트를 컴파일해야 합니다.
 
@@ -84,7 +131,18 @@ Linux 또는 MacOS 사용자는 INSTALL 파일의 지침을 따라 프로젝트�
 
 명확히 말하자면, 우리는 '통계적' 무작위성 또는 의사 난수성에 대해 이야기하고 있으며 이는 어떠한 인식 가능한 패턴이나 규칙성을 포함하지 않습니다. 많은 통계 사용 사례에 도움이 되며 충분합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 이는 '진정한' 무작위성, 즉 객관적으로 예측할 수 없음을 의미하는 것은 아닙니다.
 
@@ -96,7 +154,18 @@ Linux 또는 MacOS 사용자는 INSTALL 파일의 지침을 따라 프로젝트�
 SELECT rand_mt();
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 샘플 데이터셋의 각 급여 항목에 대해 무작위 '가중치'를 생성하여 쇼케이스로 보여 드리겠습니다. 즉, 급여 테이블에 새 열을 추가하고 이 열에 대해 무작위 숫자를 생성합니다.
 
@@ -110,7 +179,18 @@ UPDATE salaries SET weight = rand_mt();
 
 데이터 분석에 정규 분포가 필요한 경우 다음 쿼리로 변변량을 생성할 수 있습니다 (rand_norm([σ, [μ]])):
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 SELECT rand_norm(); // μ=0, σ=1
@@ -124,7 +204,18 @@ SELECT rand_norm(0.3, 4);// μ=0.3, σ=0.4
 
 이제 통계 함수로 넘어가 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 평균 또는 평균값
 
@@ -134,7 +225,18 @@ SELECT rand_norm(0.3, 4);// μ=0.3, σ=0.4
 
 해당 SQL 쿼리는 다음과 같이 보이며 직원들의 평균 급여를 반환합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 임금의 평균은 63,810.7448이에요.
@@ -146,7 +248,18 @@ SELECT rand_norm(0.3, 4);// μ=0.3, σ=0.4
 ![이미지](https://miro.medium.com/v2/resize:fit:394/1*k4So1dgcswrkuOjlYUOfBQ.gif)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 SQL 쿼리는 다음과 같습니다. 직원들의 가중 평균 급여를 반환합니다 (임의의 가중치를 사용하여 보여주기 위한 것입니다):
 
@@ -158,10 +271,21 @@ SELECT AVG(s.salary * s.weight) AS 'weighted mean' FROM salaries s;
 
 MySQL은 데이터 샘플의 분산 (variance) 및 표준편차 (std)를 계산하기 위한 내장 함수를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-SELECT 
+SELECT
   VARIANCE(salary) as '분산',
   STD(salary) as '표준편차'
 FROM salaries;
@@ -173,11 +297,33 @@ FROM salaries;
 
 분산 함수는 var_pop()의 동의어로, 특정 열의 모든 필드의 모평균 분산을 계산합니다. 반면에 var_samp()는 표본 분산을 계산합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 표 태그를 Markdown 형식으로 변경하면 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 SELECT skewness_pop(s.salary) as 'skew1' FROM salaries s;
@@ -192,7 +338,7 @@ SELECT skewness_samp(s.salary, s.weight) as 'skew4' FROM salaries s;
 마지막 예제로, 성별로 그룹화된 평균 급여를 계산하고 데이터 샘플의 모든 관련 통계 속성을 함께 표시합니다.
 
 ```js
-SELECT 
+SELECT
   e.gender,
   AVG(s.salary) as '평균 급여',
   skewness_samp(s.salary) as '왜도',
@@ -207,7 +353,18 @@ F, 63769.6032, 0.7757583639505996, 16844.89107702957, 283750105.9957
 M, 63838.1769, 0.7793202853331737, 16944.629259215217, 287120292.4635
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 중앙값
 
@@ -219,7 +376,18 @@ M, 63838.1769, 0.7793202853331737, 16944.629259215217, 287120292.4635
 SELECT MEDIAN(s.salary) as 'median' FROM salaries s;
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 SQL 쿼리는 모든 직원의 중앙급여를 제공합니다.
 
@@ -232,7 +400,7 @@ SELECT GINI(s.salary) as 'gini coefficients' FROM salaries s; // 0.1475474917677
 
 SELECT gini(g.asalary)
 FROM(
-  SELECT 
+  SELECT
     e.gender,
     AVG(s.salary) as 'asalary'
   FROM employees e INNER JOIN salaries s ON e.emp_no = s.emp_no
@@ -241,7 +409,18 @@ FROM(
 ) as g; // 0.00026868933832358
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 SQL 쿼리들은 개인 급여에서 작은 불일치(0.1475)를 보여줍니다. 그러나 평균 성별별 급여에서는 동등함(0.0003)을 나타냅니다.
 
@@ -251,7 +430,18 @@ FROM(
 
 ## 상관관계
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 통계 확장 기능은 두 변수 간의 선형 상관 관계를 측정하는 피어슨 상관 계수(corr(x,y [,w]))를 제공합니다. 이 계수는 다음과 같이 계산됩니다:
 
@@ -263,7 +453,18 @@ FROM(
 - 0: 상관 관계 없음, 즉 이러한 변수 간에는 관계가 없습니다.
 - 0부터 1 사이: 양의 상관 관계, 즉 하나의 변수가 변화할 때 다른 변수도 동일한 방향으로 변화합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 데이터 세트에서는 나이와 연봉 간의 상관 관계가 있는지 알아보려고 합니다.
 
@@ -284,7 +485,18 @@ FROM
 
 # 순위
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 순위 매기기는 숫자 또는 서수 값이 데이터가 정렬될 때 해당 순위로 대체되는 데이터 변환입니다.
 
@@ -294,10 +506,21 @@ FROM
 
 그러나 첫 번째 예제에서는 함수가 전체 데이터 세트의 행 번호를 반환합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```sql
-SELECT 
+SELECT
   rownumber() AS rowNo,
   e.first_name,
   e.last_name,
@@ -344,7 +567,18 @@ FROM
 
 위의 SQL 쿼리는 현재 상위 10명의 최고 수입자를 제공합니다 (salaries 테이블의 to_date가 현재 유효한 급여인 경우 MAX입니다).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -354,7 +588,18 @@ FROM
 
 저희의 기술 뉴스레터를 구독하세요(Spring Boot, 웹 에이전시, SaaS 앱, 코스), 그리고 다른 열정적인 코더들과 함께 커뮤니티에 참여하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 행복한 독서, 행복한 코딩!
 

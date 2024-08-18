@@ -3,17 +3,13 @@ title: "나의 생각 오픈 소스 창의적 생성 AI에 대한 응답"
 description: ""
 coverImage: "/assets/img/2024-06-19-MyResponsetoOpenSourceCreativeGenerativeAI_0.png"
 date: 2024-06-19 21:07
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-MyResponsetoOpenSourceCreativeGenerativeAI_0.png
 tag: Tech
 originalTitle: "My Response to Open Source “Creative” Generative AI"
 link: "https://medium.com/better-programming/response-to-open-source-creative-generative-ai-e83a5d66e335"
 isUpdated: true
 ---
-
-
-
-
 
 ## 적용된 gAI의 개발은 사회적 요구 및 규범에 근거하여 우리 문화와 정체성과 일치시키고 분열을 피해야 합니다
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 # 제 냉소적인 입장
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![My Response to Open Source Creative Generative AI](/assets/img/2024-06-19-MyResponsetoOpenSourceCreativeGenerativeAI_0.png)
 
@@ -34,8 +40,18 @@ isUpdated: true
 
 요컨데 크게 지불 받는 10대가 자신들을 불필요하게 만들기 위한 도구를 만들고 있으며, 이는 역사상 올바른(조금 막바지에 있긴 하지만) 위치에 있기 때문에 가능한 것입니다. 사람들은 이 기술을 '기술을 민주화'하기 위해 밀고 나가는 사람들이 실제로 피해를 입을 위험이 거의 없다는 것을 거의 깨닫지 못합니다. 왜냐하면 그 사람들은 연간 400K 정도의 급여를 받기 때문입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 말인 즉, 이 동력은 억만장자들에 의해 추진되고 백만장자들에 의해 실행되며, 갖고 있는 사람들을 최면에 걸고 없는 사람들에게 그것을 심어주는 미친 춤이다. 따라오는 기술인들은 자신이 자기 해고에 관한 일을 할 때 다음 백만장자가 될 것으로 생각하며 지켜보고 있습니다. 이것은 배(즉, 인간 노동)에서 탈출하는 뼈아픈 경주입니다.
 
@@ -45,7 +61,18 @@ isUpdated: true
 
 PaLM부터 Stable Diffusion, DALLE-2에서 ChatGPT까지, 세계 각지에서 연구 그룹들은 연결주의를 탐구하고 있습니다. 이는 신경망을 충분히 확장한다면 AGI가 자체적으로 발생한다는 주장을 하는 아이디어입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 딥마인드(DeepMind)부터 OpenAI까지, 목표는 우리를 돕는 도구를 개발하는 것이 아니라, 우리를 대체할 도구를 개발하는 것입니다. AGI는 매년 40만 달러를 받는 테크 브로들에겐 멋지겠지만, 다른 모든 사람들에겐 위협이 됩니다. 이 AGI 추진은 PaLM, Parti, Imagen, GPT, MUM, Florence, ERNIE, Flamingo 등 많은 다른 (극도로) 큰 신경망 구조 뒤에 있습니다. 이러한 구조들은 이전의 인간 노동에 기반을 둔 것입니다. 이 분야의 대규모 주요 행위자인 OpenAI, Microsoft, Google, Meta는 적용된 AGI 기술에서 선두주자가 되기 위한 다른 선택지가 없습니다.
 
@@ -55,7 +82,18 @@ PaLM부터 Stable Diffusion, DALLE-2에서 ChatGPT까지, 세계 각지에서 �
 
 AI에서 중요한 기술적 발전을 볼 때마다, 이것이 윤리적 검토를 거치지 않았고 이해관계자들과 심각한 토론이 이루어지지 않았다고 가정해야 합니다. 예를 들어, StableDiffusion에 관련된 예술가들이나 GPT-3에 관련된 저자들과의 심각한 토론이 없었다는 것을 전제로 해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이집트는 단기적인 유틸리타리즘과 뉴자이버러리주의 사이의 부도덕한 결합이며, 인문주의에 근거하지 않고 경제적 이익을 극대화하기 위한 끊임없는 추구가 결여되어 있습니다.
 
@@ -65,7 +103,18 @@ AI에서 중요한 기술적 발전을 볼 때마다, 이것이 윤리적 검토
 
 의심할 여지없이 자동 생성된 블로그가 광고를 팔기 위해 대규모로 밀려 들고 있고, 아마도 여러분이 인식하지 못하고 있겠죠. 또한, 지금은 chatGPT가 학생들을 위해 작성하는 에세이와 다른 과제가, 복잡한 데이터를 종합하고 검색하여 잘 구조화된 의도 있는 주장을 형성하는 방법을 배우는 대신, 이제 AI 검출 도구를 회피하는 법을 배우고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 또 다른 도구일까요?
 
@@ -75,7 +124,18 @@ AI에서 중요한 기술적 발전을 볼 때마다, 이것이 윤리적 검토
 
 우리는 어떻게 이 발전이 우top밀한 유토픽 사회로 자체 조직화될 것으로 생각하나요? 의무적인 작업으로부터 해방되어 우리가, 바람직한 생각만 있을 뿐이더라도 창조하고 놀고 꿈꾸는 이상한 유토피아를 만들어 낼 것이라고 믿지만, 우리는 여전히 기술적 발전 이외에도 인간의 착취를 기반으로 한 가치 분배 체계에서 살아가고 있으며, 거대한 불평등과 생태학적 파괴를 초래했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 프레임워크에서는 햄모크 시간이 더 이상 없을 것입니다. 더 적은 시간에 더 많은 생산을 해야 합니다. 우리가 종으로서는 생산을 더 많이 하는 것이 진정 우리가 가져야 할 초점인가요, 아니면 균형을 맞추며 더 적게 생산하고 덜 원하는 삶을 더 추구해야 하는 것일까요? AGI와 이를 자유주의 후원자들이 후원하는 것은 모든 사회민주주의에 대한 대규모 공격이 아닐까요?
 
@@ -85,7 +145,18 @@ AI에서 중요한 기술적 발전을 볼 때마다, 이것이 윤리적 검토
 
 # 예술이 상품이 되다
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예술은 경제적 가치가 없지만 인간 경험에 미치는 영향이 엄청나게 중요한 우리의 활동 중 하나입니다. 우리에게 고유한 가치가 있습니다.
 
@@ -95,7 +166,18 @@ AI에서 중요한 기술적 발전을 볼 때마다, 이것이 윤리적 검토
 
 “대박이구나. 이제 더 멋진 일을 할 수 있겠군!”라고 생각하시는 것 같아요! 여기서 조금 수정을 가해야 합니다. 이미지에 대한 gAI에 관한 이유론과 같은 오류로 반복되는 것을 보았던 것과 같은 이유로, 이 기술은 당신이 원하는 대로 자유롭고 다양한 일을 할 수 있는 여지와 능력을 증진시키기 위한 것이 아닙니다. 이 기술은 당신의 생산성을 높이기 위해 고안된 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 논의에서 가장 허무한 용어는 "인간 기술의 민주화"입니다. 이 용어는 주로 그 기술을 이용하는 단체(즉, 기업)에 봉사하는 용도로 사용됩니다. 현재의 사회경제 체계에서는 이로 인해 고용주의가 더 많은 노동자들(드디어 브로그래머들까지)의 빈곤과 비참함으로 이어질 것입니다. 이는 이전에 "비민주적"인 인간 기술에 대한 모든 사람들의 자유롭고 방해받지 않는 접근을 얻는 데 기여할 것입니다.
 
@@ -105,7 +187,18 @@ AI에서 중요한 기술적 발전을 볼 때마다, 이것이 윤리적 검토
 
 Lex Fridman과의 인터뷰에서 John Carmack은 AGI가 우리 역사상 개인들에게 가장 큰 영향력 증가를 만들어낼 것이라고 언급했습니다. 저는 정반대를 주장합니다. 만약 우리가 이 AGI에 대한 접근을 제한한다면, 소수의 행복한 사람들이 다수를 비참하게 만들 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AGI 액세스에서의 불평등은 우리 사회에 재앙을 불러올 수 있습니다. 그러나 이 AGI가 국민을 대표하는 선량한 정부의 손에 전달된다면 어떨까요? 하지만 솔직히 말해서, 누가 그런 것을 믿겠어요?
 
@@ -115,7 +208,18 @@ AGI 액세스에서의 불평등은 우리 사회에 재앙을 불러올 수 있
 
 Stability.ai가 StableDiffusion 2.0의 훈련을 위한 라이선스 없는 이미지를 제거했다 하더라도 이미 StableDiffusion1.x를 공개했으며, 디지털 아티스트들에게 피해를 입히고 앞으로도 입힐 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CodeX와 비슷한 상황이 GitHub 리포지토리(공개 및 비공개)에서 훈련된 CodeX와 관련이 있습니다. 이 수준의 자동화가 대규모 실업과 임금 감소로 이어진다면, 누가 책임을 져야 하는지 고민해봐야 하며, 이를 금전적 피해로 간주하여 보상을 요구해야 할지도 모릅니다. 분명히, 이 피해를 초래한 사람(예: Microsoft 또는 Stability)은 그로 인해 이윤을 얻게 될 것입니다.
 
@@ -125,7 +229,18 @@ CodeX와 비슷한 상황이 GitHub 리포지토리(공개 및 비공개)에서 
 
 기술 분야의 전문가들이 생성적 예술에 관한 비논증적 주장과 거짓 동등성을 통해 우연히 명확하게 밝히는 바는 (컴퓨터 과학의 한정된 범위 외의 추론 능력이 결여된 것 외에도) 지난 100년 동안 의미 있는 인간 노동을 점차 추상적 파생물로 대체하고 있다는 것입니다. 우리는 AI가 대체하도록 예정된 집약적인 노동이 사실은 이전 자동화 단계의 결과임을 깨달아야 합니다. 생산 라인일은 자동화의 결과입니다. 테일러리즘은 자동화의 결과입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 누가 디지털 아트, 저작권, 번역, 스토리텔링 및 중앙 집중식 API에 의해 섭취되는 많은 작업들이 실제 개인적인 인간 경험으로부터 내재적 가치를 더하는 의미있고 충족스러운 작업인지 부정할 수 있을까요?
 
@@ -135,7 +250,18 @@ CodeX와 비슷한 상황이 GitHub 리포지토리(공개 및 비공개)에서 
 
 물론, "사진" 비교의 주요 결점은 명백한 비동등함입니다. 사진, 테이프 녹음기, 라디오 등 많은 다른 잘못된 비교들은 무엇보다도 새로운 매체입니다. 같은 아이디어를 표현하는 새로운 방법입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Generative art로는 아이디어 자체를 자동화하고 있어요. 이 자동화는 인간 예술가들의 작품에서 창작되었는데, 완전히 대체되거나 적어도 경제적 이점 측면에서 부정적인 영향을 받을 수 있다는 것이 중요합니다. 이에 대한 명백한 반박은 이후에 더 추상적이고 큰 아이디어에 대해 작업할 수 있다는 주장이지만, AI가 점차적으로 추상화된다는 점을 고려하면 우리의 인간 수준의 추상화에 한계가 있다고 생각할 이유가 없기 때문에 그런 주장은 명백히 부정될 수 있습니다.
 
@@ -145,7 +271,18 @@ AI 예술 옹호자들은 저작권법을 이상하게도 매우 글자 그대�
 
 물론, 이것은 옳지 않아요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일단, 저작권은 명시적으로 포기하지 않는 한 모든 원작에 자동으로 부착됩니다.
 
@@ -155,7 +292,18 @@ AI 예술 옹호자들은 저작권법을 이상하게도 매우 글자 그대�
 
 AI 예술 생성기가 완벽한 복제본을 생성하지 않기 때문에 저작권을 침해하지 않는다고 주장하는 것은 .jpeg 또는 기타 손실 압축이 원본의 "해석"인 것과 같다고 말하는 것과 같습니다. 상표법이 존재하지 않는다고 가정하는 건 매우 순진하다는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 동의. 누가 동의를 필요로 할까요?
 
@@ -165,7 +313,18 @@ AI 예술 생성기가 완벽한 복제본을 생성하지 않기 때문에 저�
 
 이는 개인 상표의 영역을 넘어서 개인 정보 보호권과 심지어 불법행위법 영역으로 진입합니다. 만약 모델로 교육 데이터에 포함되어 있고, 합성된 유사 이미지가 음란한 맥락에서 당신을 묘사한다면 상표가 훼손되었다는 주장을 쉽게 할 수 있습니다. 이 경우, 발행인과 모델 크리에이터는 손해배상책임이 있다고 주장할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 출력물을 개인적으로 작성한다면, 이는 문제가 될 필요가 없습니다. 그 경우 부담은 창작물을 게시하는 이에게 있고, 모델을 만든 사람에게는 없습니다. 이것은 이해하기 쉬운 주장입니다. 그러나, 이것이 총이 나쁜 게 아니라 사람이 나쁜 유형의 주장인 점을 감안하면, 여기서 총은 훈련 세트에 존재하는 사람들을 손상시킬 가능성이 미리 적재된 상태인 셈입니다.
 
@@ -175,7 +334,18 @@ AI 예술 생성기가 완벽한 복제본을 생성하지 않기 때문에 저�
 
 전자는 우리가 인간 개인의 권리를 배타적으로 보호하고 있다는 것을 시사하며, 후자는 "영감"이 감각이 필요하기 때문에 불가능하다고 말합니다. 컴퓨터는 복사를 하며, 자동적이고 근사하게 복제합니다. 심지어 AI가 성취적이라고 주장해도 권리를 자동적으로 요구하지는 않습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 (너무) 천천히 동물(알다시피 감각이 있는 존재들)이 권리를 가져야 한다는 생각을 처리하고 있습니다. 세기가 걸리는 과정입니다. 우리가 우리의 가장 가까운 유전적 선조들의 권리를 명확히하길 시도하기 전에, 우리 스스로의 의식을 효과적으로 흉내 내는 인공지능이 감각이 없을 가능성이 더 크고 권리를 갖는 존재로 폭격받는 것을 기대할 수 없습니다.
 
@@ -185,8 +355,18 @@ AI 예술 생성기가 완벽한 복제본을 생성하지 않기 때문에 저�
 
 # Happy Me
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-MyResponsetoOpenSourceCreativeGenerativeAI_1.png)
 
@@ -196,8 +376,18 @@ AI 예술 생성기가 완벽한 복제본을 생성하지 않기 때문에 저�
 
 예를 들어, 작가는 GPT-3를 사용하여 기사의 개요나 초고를 생성한 뒤 그것을 보완하고 발전시킬 수 있습니다. 마찬가지로, 예술가는 DALL-E를 사용하여 자신의 작품에 영감을 주는 이미지를 생성할 수 있습니다. 이처럼, 창작적인 시기에 갇히는 것이 아니라 자동으로 제안을 생성할 수 있습니다. 마찬가지로, 컴퓨터 코드를 작성하거나 알고리즘을 개발하는 것에도 동일하게 적용됩니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 근본적으로, 우리는 “생성기(generator)”를 마음의 표현 추정기로 다룰 수 있습니다. 우리는 아이디어를 간결하게 표현하는 방법을 배워야 합니다. 그렇게 하면 표현 추정기가 우리의 아이디어를 정확하게 파악할 수 있습니다. 그러나 여전히 생성기가 제공하는 형태로 제한됩니다: 이미지, 텍스트, 소리, 비디오 및 3D 렌더링.
 
@@ -207,7 +397,18 @@ Huggingface와 같은 오픈 소스 플랫폼은 gAI 애플리케이션의 방�
 
 다양한 형태 쌍의 API를 사용합니다. 예를 들어, 개발자들은 텍스트에서 이미지로, 이미지에서 텍스트로, 텍스트에서 음성으로, 음성에서 텍스트로 간단하게 복잡하고 의미 있는 기능을 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 API의 높은 수준을 고려하면 사용 예제를 쉽게 만들 수 있어서, 즉, 그렇게 말하는 견고함, 즉 진입 장벽이 낮아져서 리소스가 제한된 개발자도 창작물을 개발하고 수익을 창출할 수 있습니다. 생산적 AI를 기반으로 한 정보 검색 응용 프로그램 개발을 위한 일반적인 경로는 다음과 같습니다:
 
@@ -221,7 +422,18 @@ API의 높은 수준을 고려하면 사용 예제를 쉽게 만들 수 있어�
 
 논란의 여지가 있는 것은 경제적 권력을 Microsoft, Amazon, Google과 같은 소수의 대규모 API 플랫폼 및 클라우드 제공업체 방향으로 옮기고 있다는 것입니다. 그러나 이러한 상대적으로 소수의 플랫폼에 대한 의존은 모델 압축 및 도메인별 모델의 크기 축소로 경감될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 이제 우리는 모두 창조자입니다
 
@@ -231,7 +443,18 @@ gAI의 맥락에서 "민주화"라는 용어를 사용하는 것을 한탄하더
 
 현대화된 예술관을 방문한 적이 있는 사람이라면 컴퓨터 화면 상의 2차원 표현과 인간이 만든 물리적 물체로 둘러싸인 것 사이의 차이를 알 것입니다. 창조적 예술은 이 경험을 훼손시키지 않을 것입니다. 많은 경우, "경험자"는 해당 물체가 처음부터 어떻게 만들어졌는지 전혀 모릅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 동일한 관점은 음악(라이브 음악), 시(슬램 시), 연극, 코미디 등에도 적용할 수 있습니다. 물론, 물리적 경험이라고 할 수 있는 이러한 경험들도 가상 현실과 모든 종류의 햅틱 피드백을 사용하여 모방할 수 있다고 말할 수 있지만, 그럴 때가 오면 볼 것입니다.
 
@@ -241,7 +464,18 @@ gAI의 맥락에서 "민주화"라는 용어를 사용하는 것을 한탄하더
 
 최근 예로 확산 모델을 사용하여 합성 단백질 및 합성 MRI 영상을 생성한 사례가 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오픈 소스 gAI 기술의 광범위한 사용으로 인해 모델 압축 개발과 전반적인 계산 요구량 감소로 이어지는 부산물이 발생하고 있습니다.
 
@@ -251,7 +485,18 @@ gAI의 맥락에서 "민주화"라는 용어를 사용하는 것을 한탄하더
 
 비구조화 데이터를 다루는 비즈니스와 정보 검색에 큰 중점을 둔 법률 사무소 및 특허청과 같은 조직에 이것이 어떤 영향을 미칠지 상상하기 어렵습니다. 동시에 정보기관 및 기타 정부 기관이 시민을 더 쉽게 모니터링할 수 있게 될 것입니다. 이것으로부터 gAI 모델의 고도로 믿을만한 응답이 필요함을 강조해야 합니다. 즉, 우리는 사실의 환각을 허용할 여지가 없습니다 (적어도 모든 영역에서는).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가장 깊이 있는 응용 프로그램은 대규모 과학 산업체로부터 의미 첨삭 정보를 검색하는 것입니다. 우리가 이미 존재하는 사실과 이론에 LLM을 기반으로 하고 의미 첨삭 사용자 쿼리에 기초하여 대량의 정보를 합성하고 조작하는 능력을 유지한다면, 어떤 전문가든지 손끝에서 인간 지식의 현재 상태를 가질 수 있게 됩니다.
 
@@ -261,7 +506,18 @@ gAI의 맥락에서 "민주화"라는 용어를 사용하는 것을 한탄하더
 
 솔직히 말하면, 생성적 예술의 주요 사용 사례 중 하나는 누드 이미지나 심지어 음란물을 만드는 것입니다. 누군가에게는 왜곡된 것이 될 수도 있지만, 이것은 실제 인간의 개입 필요를 줄이고 성적 착취를 감소시킨다. 몇 년 안에 스크립트로 만들어진 애니메이션 음란물이 현실이 될 것으로 예상됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

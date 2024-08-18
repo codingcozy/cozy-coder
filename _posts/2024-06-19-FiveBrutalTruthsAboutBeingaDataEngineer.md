@@ -3,18 +3,13 @@ title: "데이터 엔지니어가 직면하는 다섯 가지 무자비한 진실
 description: ""
 coverImage: "/assets/img/2024-06-19-FiveBrutalTruthsAboutBeingaDataEngineer_0.png"
 date: 2024-06-19 16:18
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-FiveBrutalTruthsAboutBeingaDataEngineer_0.png
 tag: Tech
 originalTitle: "Five Brutal Truths About Being a Data Engineer"
 link: "https://medium.com/@lgsoliveira/five-brutal-truths-about-being-a-data-engineer-e2455925e21d"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![Five Brutal Truths About Being a Data Engineer](/assets/img/2024-06-19-FiveBrutalTruthsAboutBeingaDataEngineer_0.png)
 
@@ -24,8 +19,18 @@ I really do!
 
 But sometimes I have that feeling...
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 그냥 노트북을 창문 밖으로 버리고 농부가 되고 싶어요. 😡
 
@@ -35,7 +40,18 @@ But sometimes I have that feeling...
 
 나는 이것들을 제 경험을 바탕으로 만들었어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 데이터는 종종 지저분하고 불완전해요
 
@@ -45,7 +61,18 @@ But sometimes I have that feeling...
 
 그냥 잊으세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 진짜 데이터셋들은 깨끗하지 않고, 완전하지 않고, 그저... "아름답지" 않아요! 😒
 
@@ -55,7 +82,18 @@ But sometimes I have that feeling...
 
 ![이미지](/assets/img/2024-06-19-FiveBrutalTruthsAboutBeingaDataEngineer_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 소프트웨어 엔지니어링 개발의 전형적인 사례이며, 따라서 데이터 엔지니어링에서도 매우 "고전"적이다.
 
@@ -65,11 +103,33 @@ But sometimes I have that feeling...
 
 따라서 예산 압력으로 비즈니스가 오늘 변경해야 할 필요가 있다면...
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 네가 할 일이니까, 오늘은 바뀔거야.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 나쁜 코드에 많은 시간을 낭비할 것입니다
 
@@ -79,7 +139,18 @@ But sometimes I have that feeling...
 
 그래서 이해관계자가 파이프라인이나 API에서 작은 변경을 요청하면... 나쁜 코드를 찾을 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 바로 숨 한 번 깊이 들이마시고 일에 전념하세요. 🤐
 
@@ -89,7 +160,18 @@ But sometimes I have that feeling...
 
 상상해보세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 프로젝트에 두 주 동안 집중해서 일했어요;
 - 세 번째 주에 제공한 데이터가 이후 스테이크홀더들에게 제공됐어요;
@@ -102,13 +184,35 @@ But sometimes I have that feeling...
 
 # 분야는 끊임없이 진화하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래에 있는 두 이미지는 2023년과 2021년의 데이터 엔지니어링 생태계를 보여줍니다.
 
 두 해 동안 생태계가 많이 성장했다는 것을 알 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로운 기술과 도구들이 언제나 계속해서 등장하고 있어요.
 
@@ -118,7 +222,18 @@ But sometimes I have that feeling...
 
 가능한 해결책은 항상 최신 트렌드와 최신 기술에 대해 숙지하고 있어야 한다는 거예요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 당신도 빠르게 움직이지 않는다면 뒤처질 것입니다.
 
@@ -128,7 +243,18 @@ But sometimes I have that feeling...
 
 데이터 엔지니어가 되는 것은 결코 간단하고 쉬운 여정이 아닙니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 혼잡하고 불완전한 데이터로 작업하고, 자주 바뀌는 요구 사항에 적응하고, 나쁜 코드와 씨름하며, 사용되지 않는 데이터의 좌절을 겪으며, 끊임없이 발전하는 분야를 따라잡는 것은 받아들이기 어려울 수 있어요.
 

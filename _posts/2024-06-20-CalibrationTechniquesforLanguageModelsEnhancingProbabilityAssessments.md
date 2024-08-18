@@ -3,18 +3,13 @@ title: "언어 모델 보정 기법 확률 평가 향상하기"
 description: ""
 coverImage: "/assets/img/2024-06-20-CalibrationTechniquesforLanguageModelsEnhancingProbabilityAssessments_0.png"
 date: 2024-06-20 18:26
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-CalibrationTechniquesforLanguageModelsEnhancingProbabilityAssessments_0.png
 tag: Tech
 originalTitle: "Calibration Techniques for Language Models: Enhancing Probability Assessments"
 link: "https://medium.com/generative-ai/calibration-techniques-for-language-models-enhancing-probability-assessments-8100b757979a"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![Calibration Techniques for Language Models](/assets/img/2024-06-20-CalibrationTechniquesforLanguageModelsEnhancingProbabilityAssessments_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 본 문서에서는 LLMs의 교정이 필요한 이유를 탐구하고, 그들의 확률 평가를 둘러싼 핵심 문제를 식별하며, 더 나은 모델 교정을 위한 현대적인 방법을 탐구합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## LLM 모델에서 교정이 왜 중요한 이유
 
@@ -35,7 +40,18 @@ LLM의 본질은 정확성뿐만 아니라 올바른 신뢰 수준이 할당된 
 
 - 위험 관리: 의료 진단이나 자율 주행과 같은 안전 중요 응용 프로그램에서 자신감이 넘치지만 부정확한 예측은 재앙적 결과로 이어질 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 모델 디버깅 및 개선: 보정은 개발자가 모델의 약점을 이해하고 이에 맞게 개선하는 데 도움이 될 수 있습니다.
 
@@ -45,7 +61,18 @@ LLM의 본질은 정확성뿐만 아니라 올바른 신뢰 수준이 할당된 
 
 - 닫힌 모델 제한: 많은 대형 언어 모델은 로그 확률에 직접 접근할 수 있는 제한된 액세스를 가진 블랙 박스로 작동하여 확신도를 이해하고 조정하는 프로세스를 복잡하게 만듭니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 훈련 중의 불일치: Reinforcement Learning from Human Feedback (RLHF)와 같은 기술로 개선된 모델들은 어설프게 miscalibrated 될 수 있습니다. 논문 [1]에 따르면 가장 널리 사용되는 LLM들은 인간 피드백으로 강화학습된 모델들입니다 (RLHF-LLMs). 일부 연구에서는 RLHF-LLMs가 매우 잘 보정되지 않은 조건부 확률을 생성한다고 제안했습니다. 연구 결과는 RLHF-LLMs가 사용자 선호도에 근접하게 따라가기를 우선시하는 경향이 있어 잘 보정된 예측 생성보다는 낮은 보정을 낸다는 것을 보여줍니다. 이는 RLHF로 훈련된 모델들이 정확하고 신뢰할 수 있는 출력을 위해 필요한 확률 보정을 갖추지 못할 수 있는 주요 도전을 보여줍니다.
 
@@ -55,8 +82,18 @@ LLM의 본질은 정확성뿐만 아니라 올바른 신뢰 수준이 할당된 
 
 보정 도전에 대응하기 위해 아래에서 논의된 여러 기술을 시도해볼 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-20-CalibrationTechniquesforLanguageModelsEnhancingProbabilityAssessments_1.png)
 
@@ -66,8 +103,18 @@ LLM의 본질은 정확성뿐만 아니라 올바른 신뢰 수준이 할당된 
 
 ## Basic Implementation
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가장 간단한 형태로 표현된 신뢰 표현은 LLM에게 질문과 관련 있는 맥락을 제시한 후 명시적으로 신뢰 점수를 요청하는 것입니다. 이 직접적인 접근은 더 정교한 기술의 기반 역할을 합니다.
 
@@ -82,7 +129,18 @@ LLM의 본질은 정확성뿐만 아니라 올바른 신뢰 수준이 할당된 
 
 <img src="/assets/img/2024-06-20-CalibrationTechniquesforLanguageModelsEnhancingProbabilityAssessments_2.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모델 간에 자신감을 효과적으로 표현하는 능력은 다양하며, 서로 다른 모델 아키텍처와 세대 간에 관찰되는 차이점이 있습니다.
 
@@ -92,7 +150,18 @@ LLM의 본질은 정확성뿐만 아니라 올바른 신뢰 수준이 할당된 
 
 여러 응답 생성하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모델로부터 다양한 결과 스펙트럼을 얻기 위해 몇 가지 전략을 사용합니다:
 
@@ -102,7 +171,18 @@ LLM의 본질은 정확성뿐만 아니라 올바른 신뢰 수준이 할당된 
 
 잘못된 단서: 의도적인 오류나 오해를 유발하는 힌트를 프롬프트에 삽입하여 모델의 안정성을 평가합니다. 사람의 테스트와 유사하게, 이 방법은 모델이 자신감 있는 사람처럼 오해된 정보를 무시하고 정확하거나 일관된 응답을 유지할 수 있는지를 관찰합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 집계 전략
 
@@ -112,7 +192,18 @@ LLM의 본질은 정확성뿐만 아니라 올바른 신뢰 수준이 할당된 
 
 평균 신뢰도 (평균-신뢰도): 높은 일치도와 개별 신뢰 점수가 높은 답변에 더 많은 가중치를 부여하여 전반적인 신뢰도의 세밀한 측정을 제공하는 가중 평균이 계산됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 쌍-순위 전략: 모델의 상위-K 예측을 사용하는 시나리오에서 특히 유용한 이 전략은 모델 예측에서 순위 정보를 강조하여 가장 가능성이 높고 일관된 응답을 평가하는 데 도움이 됩니다.
 
@@ -122,7 +213,18 @@ LLM의 본질은 정확성뿐만 아니라 올바른 신뢰 수준이 할당된 
 
 1. 토큰 간의 확신을 평균화하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 언어 모델의 예측에 대한 확신을 더 균일하게 추정하기 위한 일반적인 방법 중 하나는 토큰 간의 확신(로그 확률)을 평균화하는 것입니다. 이는 특정 응용 프로그램이나 데이터셋의 특성에 따라 모든 토큰 또는 선택적 하위 집합에 대해 수행될 수 있습니다. 결과는 모델의 확신에 대한 더 부드럽고 일반화된 측정으로, 어떤 단일 토큰의 변동성이 미치는 영향을 줄입니다.
 
@@ -132,7 +234,18 @@ Platt 스케일링 또는 시그모이드 보정은 원래 모델의 출력 로�
 
 ![그림](/assets/img/2024-06-20-CalibrationTechniquesforLanguageModelsEnhancingProbabilityAssessments_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 등위 회귀
 
@@ -142,7 +255,18 @@ Platt 스케일링과는 다르게, 등위 회귀는 로짓과 확률 사이에 
 
 4. 온도 조정
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 온도 조정은 모델의 확신을 조정하는 사후 처리 기술로, 예측을 변경하지 않고 조절합니다. 소프트맥스 함수를 적용하기 전에 상수인 "온도"로 로짓을 나누는 방식으로 확률로 변환합니다. 최적의 온도는 보통 검증 데이터셋에서 교차 엔트로피 손실을 최소화하여 결정됩니다. 이 방법은 원래 로짓의 상대적 순서를 유지하면서 보정 프로세스에 미세한 영향을 미치므로 매력적입니다.
 
@@ -152,7 +276,18 @@ Platt 스케일링과는 다르게, 등위 회귀는 로짓과 확률 사이에 
 
 ## 대리 모델을 활용한 신뢰 평가
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 가지 매력적인 방법은[2] 일반적으로 더 단순한 모델을 사용하여 주요 모델 (예: GPT-4)로부터 얻은 답변이 얼마나 믿을 만한지를 평가하는 것입니다:
 
@@ -162,7 +297,18 @@ Platt 스케일링과는 다르게, 등위 회귀는 로짓과 확률 사이에 
 
 ## 불확실성 인식: R 튜닝
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 R-튜닝은 모델이 "모르겠다"라고 말해도 괜찮다는 것을 가르칩니다. 모델의 한계를 인식합니다. 파인튜닝 프로세스는 다음 단계로 구성됩니다.
 
@@ -172,7 +318,18 @@ R-튜닝은 모델이 "모르겠다"라고 말해도 괜찮다는 것을 가르�
 
 ![이미지](/assets/img/2024-06-20-CalibrationTechniquesforLanguageModelsEnhancingProbabilityAssessments_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## LITCAB: 작은 변화, 큰 영향
 
@@ -182,7 +339,18 @@ LITCAB은 작지만 효과적인 보정 레이어를 소개합니다:
 
 - 효율적이고 효과적: 이 소규모 조정은 복잡성을 크게 늘리지 않고 모델의 판단력을 향상시킵니다. 원래 모델 크기 변화의 2% 미만만 변경됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## ASPIRE: 더 스마트한 모델 응답
 
@@ -192,7 +360,18 @@ LITCAB은 작지만 효과적인 보정 레이어를 소개합니다:
 
 2. 답변 샘플링: 이러한 조정을 사용하여 각 질문에 대해 여러 잠재적인 답변을 생성하고 높은 가능성의 출력 시퀀스를 만들기 위해 빔 검색을 사용하며 생성된 출력 시퀀스가 참 값에 기반하여 올바른지 여부를 결정하기 위해 Rouge-L 메트릭을 사용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 자가평가 학습: 마지막으로, 모델이 자체적으로 답변이 맞거나 틀렸는지 판단하여 자체평가 능력을 향상시키는 다른 조절 세트를 소개합니다.
 
@@ -202,7 +381,18 @@ LITCAB은 작지만 효과적인 보정 레이어를 소개합니다:
 
 ## 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대규모 언어 모델의 보정은 복잡하지만 중요한 작업으로, AI 응용 프로그램의 신뢰성과 안전성을 향상시킵니다. 위에서 논의한 다양한 혁신적인 방법을 사용하고 결합함으로써, 이러한 모델이 다양한 맥락에서 이해하고 상호 작용하는 방식을 혁신적으로 개선할 수 있습니다. 이는 높은 자신감과 정확성으로 결정을 내릴 수 있는 진정으로 지능적인 시스템을 위한 길을 열어줍니다.
 
@@ -217,11 +407,22 @@ LITCAB은 작지만 효과적인 보정 레이어를 소개합니다:
 - ASPIRE 소개: LLMs에서 선택적 예측을 위한
 - Think Twice Before Assure: Confidence Estimation for Large Language Models through Reflection on Multiple Answers Moxin Li1, Wenjie Wang 및 기타.
 - 대규모 언어 모델로부터의 장문 생성 보정
-Yukun Huang1, Yixin Liu 및 기타.
+  Yukun Huang1, Yixin Liu 및 기타.
 
 ![이미지](/assets/img/2024-06-20-CalibrationTechniquesforLanguageModelsEnhancingProbabilityAssessments_7.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 이야기는 Generative AI Publication에서 발행되었습니다.
 

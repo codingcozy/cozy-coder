@@ -3,17 +3,13 @@ title: "제목 제로부터 dbt까지 스포티파이의 백만 개 플레이리
 description: ""
 coverImage: "/assets/img/2024-06-19-FromZerotodbtHowtoAnalyzeandBuildDataModelsfromSpotifysMillionPlaylistData_0.png"
 date: 2024-06-19 09:52
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-FromZerotodbtHowtoAnalyzeandBuildDataModelsfromSpotifysMillionPlaylistData_0.png
 tag: Tech
 originalTitle: "From Zero to dbt: How to Analyze and Build Data Models from Spotify’s Million Playlist Data"
 link: "https://medium.com/inthepipeline/from-zero-to-dbt-how-to-analyze-and-build-data-models-from-spotifys-million-playlist-data-241c3d8c9b5d"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-19-FromZerotodbtHowtoAnalyzeandBuildDataModelsfromSpotifysMillionPlaylistData_0.png" />
 
@@ -26,7 +22,18 @@ isUpdated: true
 - 데이터 변환 프로세스에서 dbt를 사용하는 것이 왜 최선의 실천법인지 이해하기.
 - 데이터 무결성과 정확성을 보장하기 위해 각 dbt 모델 변경을 검증하는 방법에 대해 배우기 (스포일러: 오픈 소스 dbt 모델 코드 리뷰 도구인 Recce를 사용하세요).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 데이터로부터 중요한 질문에 답변해주세요
 
@@ -38,7 +45,18 @@ isUpdated: true
 
 그 후에 투표를 가장 많이 받은 질문을 오픈 소스 저장소에 구현할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 누구를 위한 것인가요?
 
@@ -48,8 +66,18 @@ isUpdated: true
 
 시작할 준비가 되셨나요? 멋지네요. 이 프로젝트에서는 스포티파이 백만 플레이리스트 데이터셋을 사용할 예정입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-19-FromZerotodbtHowtoAnalyzeandBuildDataModelsfromSpotifysMillionPlaylistData_1.png)
 
@@ -59,9 +87,18 @@ Spotify 정책에 따라 등록하고 여기서 원시 데이터를 다운로드
 
 이 zip 파일은 31GB로 풀리니 충분한 공간이 있는지 확인해주세요! (나중에 Parquet으로 변환하면 용량이 줄어듭니다)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](https://miro.medium.com/v2/resize:fit:960/1*HbIZkLZc-9ClzgToTNLvsg.gif)
 
@@ -74,8 +111,18 @@ Spotify 정책에 따라 등록하고 여기서 원시 데이터를 다운로드
 
 분할된 JSON 파일 중 하나에서 플레이리스트 항목의 전형적인 예시는 다음과 같습니다:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![링크](/assets/img/2024-06-19-FromZerotodbtHowtoAnalyzeandBuildDataModelsfromSpotifysMillionPlaylistData_2.png)
 
@@ -87,7 +134,18 @@ Spotify 팀은 이러한 JSON 파일의 무결성을 확인하고 MD5 체크섬�
 $ python src/stats.py data
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Spotify의 README 문서에 따르면, 이 프로그램의 결과물은 'stats.txt' 내용과 일치해야 합니다. stats.py의 실행 시간은 노트북의 성능에 따라 다를 수 있으며, 30분을 초과할 수도 있습니다.
 
@@ -97,7 +155,18 @@ Spotify의 README 문서에 따르면, 이 프로그램의 결과물은 'stats.t
 
 Spotify의 1000개 raw 데이터 파일로 되돌아가보죠. 모든 데이터 분석 처리 워크플로우에서 겪었던 노고와 눈물이 어떤 것이었는지 보여드리겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # DuckDB 및 jq
 
@@ -110,7 +179,18 @@ $ brew install jq
 
 ## JSON 구조 이해하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 JSON 데이터를 빠르게 확인하기 위해 jq를 사용할 수 있습니다. 이후 보다 심층적인 분석을 위해 DuckDB를 활용할 수 있습니다. 1000개 파일 중 하나를 살펴보겠습니다:
 
@@ -125,7 +205,18 @@ Markdown 양식으로 표를 변경했습니다:
 
 JSON의 모든 조각은 두 개의 키만 포함하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 정보 — 이것은 단순히 JSON 파일의 메타데이터입니다.
 - 재생 목록 — 실제로 관심 있는 데이터
@@ -136,8 +227,18 @@ JSON의 모든 조각은 두 개의 키만 포함하고 있습니다.
 
 부분 재생 목록 데이터(첫 번째 트랙만 표시)는 다음과 같이 보일 것입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-19-FromZerotodbtHowtoAnalyzeandBuildDataModelsfromSpotifysMillionPlaylistData_5.png)
 
@@ -147,8 +248,18 @@ JSON 데이터의 구조를 파악한 후에는 DuckDB를 사용하여 데이터
 
 ## DuckDB 대화형 셸 열기
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 터미널에 duckdb를 입력하면 PostgreSQL의 psql 및 SQLite 셸과 유사한 대화형 셸에 들어갈 수 있어요.
 
@@ -160,12 +271,23 @@ $ duckdb
 
 다음 명령을 실행하면 아래의 오류가 표시됩니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 SELECT * FROM read_json_auto('./mpd.slice.0-999.json');
 
--- "maximum_object_size" of 16777216 bytes exceeded 
+-- "maximum_object_size" of 16777216 bytes exceeded
 -- while reading file "./mpd.slice.0-999.json" (>33554428 bytes).
 -- "maximum_object_size"을 늘려주세요.
 ```
@@ -173,8 +295,8 @@ SELECT * FROM read_json_auto('./mpd.slice.0-999.json');
 이 오류는 밀리언 플레이리스트 데이터셋의 JSON 슬라이스가 DuckDB의 기본 maximum_object_size보다 크기 때문에 발생했습니다. 따라서 이를 조정하여 40MB로 설정해야 합니다 🫰:
 
 ```js
-SELECT * 
-FROM read_json_auto('./mpd.slice.0-999.json', maximum_object_size = 40000000); 
+SELECT *
+FROM read_json_auto('./mpd.slice.0-999.json', maximum_object_size = 40000000);
 
 ┌──────────────────────┬──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
 │         info         │                                                                            playlists                                                                             │
@@ -186,13 +308,24 @@ FROM read_json_auto('./mpd.slice.0-999.json', maximum_object_size = 40000000);
 
 ## JSON 해제하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 컬럼 안에 중첩 구조인 재생 목록에만 관심이 있다는 것을 알고 있습니다. 그러므로 플레이리스트 열을 정규화하기 위해 UNNEST를 사용할 수 있습니다:
 
 ```js
-SELECT UNNEST(playlists) 
-FROM read_json_auto('./mpd.slice.0-999.json', maximum_object_size = 40000000) 
+SELECT UNNEST(playlists)
+FROM read_json_auto('./mpd.slice.0-999.json', maximum_object_size = 40000000)
 LIMIT 5;
 
 ┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
@@ -210,12 +343,23 @@ LIMIT 5;
 DuckDB는 UNNEST 함수에서 `recursive := true`와 같이 매우 편리한 옵션을 제공합니다. 이 옵션은 열을 재귀적으로 정규화합니다:
 
 ```js
-SELECT UNNEST(playlists, recursive := true) 
-FROM read_json_auto('./mpd.slice.0-999.json', maximum_object_size = 40000000) 
+SELECT UNNEST(playlists, recursive := true)
+FROM read_json_auto('./mpd.slice.0-999.json', maximum_object_size = 40000000)
 LIMIT 5;
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이렇게 하면 깊게 중첩된 JSON 데이터를 다루기가 매우 편리합니다.
 
@@ -225,13 +369,24 @@ LIMIT 5;
 
 DuckDB는 여러 JSON 파일을 한 번에 읽을 수 있게 해주는 glob 구문을 제공합니다. `./mpd.slice.0-999.json`을 `./mpd.slice*.json`로 수정하면 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 테이블 태그를 Markdown 형식으로 변경하세요.
 
-CREATE TABLE playlists AS 
-SELECT UNNEST(playlists , recursive:= true) 
+CREATE TABLE playlists AS
+SELECT UNNEST(playlists , recursive:= true)
 FROM read_json_auto('./mpd.slice*.json', maximum_object_size = 40000000);
 ```
 
@@ -241,7 +396,18 @@ FROM read_json_auto('./mpd.slice*.json', maximum_object_size = 40000000);
 
 변환 과정 중간에 메모리 부족 오류를 방지하기 위해 일부 임시 파일이 필요할 수 있습니다. DuckDB 쉘에서 계속하여, 먼저 다음을 실행하세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 SET temp_directory='./tmp';
@@ -255,8 +421,18 @@ COPY playlist TO 'playlists.parquet';
 
 쉽죠?
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Parquet 대 JSON
 
@@ -264,7 +440,18 @@ COPY playlist TO 'playlists.parquet';
 
 Parquet은 분석을 위한 우수한 파일 포맷으로, 컬럼 저장 방식을 통해 JSON에 비해 주목할만한 장점을 제공합니다. 이 설계는 데이터 압축 및 인코딩을 향상시켜 저장 공간을 줄이고 데이터 분석 워크플로우의 데이터 액세스 속도를 높이는데 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 복잡한 중첩 데이터 구조도 지원하며 기존 데이터를 수정하지 않고 새 열을 추가할 수 있는 유연한 스키마 진화를 제공합니다. 이는 스키마 변경이 자주 발생하는 시나리오에 이상적인 형식이 됩니다.
 
@@ -274,7 +461,18 @@ DuckDB와 jq를 사용하면 기가바이트의 JSON 데이터를 노트북에�
 
 "ON - YOUR - LAPTOP"을 반복해보세요 💻
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 요약
 
@@ -284,7 +482,18 @@ DuckDB와 jq를 사용하면 기가바이트의 JSON 데이터를 노트북에�
 
 세 가지 간단한 DuckDB 쿼리를 실행한 후 1분의 처리 시간을 거쳐 단일 5.7GB Parquet 파일을 얻게 되어, 500% 개선이 이뤄졌습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-FromZerotodbtHowtoAnalyzeandBuildDataModelsfromSpotifysMillionPlaylistData_8.png)
 
@@ -294,7 +503,18 @@ DuckDB와 jq를 사용하면 기가바이트의 JSON 데이터를 노트북에�
 
 이 데이터 분석 프로젝트의 첫 번째 부분은 여기까지입니다. 곧 두 번째 부분도 뵙겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 다음에는...
 
@@ -304,7 +524,18 @@ DuckDB와 jq를 사용하면 기가바이트의 JSON 데이터를 노트북에�
 
 ## 데이터에 소프트웨어 엔지니어링 최상의 실천 방법 적용
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 덕DB 셸은 데이터 집합을 대화식으로 분석할 수 있는 기능을 제공하지만, 우리의 SQL 변환에 보다 구조화되고 협업적이며 버전 관리된 접근이 필요함을 알 수 있습니다.
 
@@ -314,7 +545,18 @@ DuckDB와 jq를 사용하면 기가바이트의 JSON 데이터를 노트북에�
 
 여러 SQL 쿼리를 논리적인 dbt 모델로 구성함으로써, 데이터 변환의 명확성과 유지 관리성을 향상시킬 뿐만 아니라, 데이터 팀이 서로 협력하여 서로의 작업을 점진적으로 빌드할 수 있습니다. 이 협업적인 접근은 데이터 모델이 견고하고 정확하며 최신 비즈니스 로직과 분석적 통찰을 반영하도록 보장합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 신뢰할 수 있는 환경
 
@@ -324,7 +566,18 @@ DuckDB와 jq를 사용하면 기가바이트의 JSON 데이터를 노트북에�
 
 요약하면, dbt는 SQL 변환을 효율적으로 관리할 수 있는 필수 도구와 함께 제공하여 협업적이고 반복적인 데이터 문화를 육성하는 데 도움이 되어, 오늘날의 데이터 주도적 세상에서 경쟁력을 유지하는 데 필수적입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Part 2에서 만나요
 

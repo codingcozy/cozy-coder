@@ -3,17 +3,13 @@ title: "윈도우 프로세스 여정  wifitaskexe 무선 백그라운드 작업
 description: ""
 coverImage: "/assets/img/2024-06-30-TheWindowsProcessJourneywifitaskexeWirelessBackgroundTask_0.png"
 date: 2024-06-30 18:53
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-30-TheWindowsProcessJourneywifitaskexeWirelessBackgroundTask_0.png
 tag: Tech
 originalTitle: "The Windows Process Journey — “wifitask.exe” (Wireless Background Task)"
 link: "https://medium.com/@boutnaru/the-windows-process-journey-wifitask-exe-wireless-background-task-5bbb900082e2"
 isUpdated: true
 ---
-
-
-
-
 
 "wifitask.exe" (무선 백그라운드 작업)은 " %windir%\System32\wifitask.exe "에 위치한 PE 이진 파일입니다. Windows 64비트 버전에서는 "cmd.exe"와 같이 다른 실행 파일에 병렬로 32비트 버전이 없습니다. 또한 해당 이진 파일은 Microsoft에 의해 디지턀 서명되어 있습니다.
 
@@ -23,6 +19,17 @@ isUpdated: true
 
 다음 글에서 만나요;-) 제 트위터를 팔로우하실 수 있습니다 - @boutnaru. 또한 제 다른 글들을 중간에서 읽어보실 수 있습니다 - https://medium.com/@boutnaru. 무료 eBook들은 https://TheLearningJourneyEbooks.com에서 찾아보실 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Windows Process Journey](/assets/img/2024-06-30-TheWindowsProcessJourneywifitaskexeWirelessBackgroundTask_0.png)

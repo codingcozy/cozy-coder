@@ -3,17 +3,13 @@ title: "Angular에서 HttpClient와 Signals 연결하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-02-AngularmakingbridgesbetweenHttpClientandSignals_0.png"
 date: 2024-07-02 23:00
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-02-AngularmakingbridgesbetweenHttpClientandSignals_0.png
 tag: Tech
 originalTitle: "Angular: making bridges between HttpClient and Signals"
 link: "https://medium.com/@IgorPak-dev/angular-making-bridges-between-httpclient-and-signals-a7a50c15ad9b"
 isUpdated: true
 ---
-
-
-
-
 
 ![Angular Making Bridges Between HttpClient and Signals](/assets/img/2024-07-02-AngularmakingbridgesbetweenHttpClientandSignals_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 HttpClient 대신 fetch API를 사용하는 논의 속에서, 제가 주는 조언을 다시 강조하고 싶습니다: HttpClient를 사용하지 않아도 됩니다. 우리가 혜택을 얻을 수 있는 유용한 기능을 제공합니다. Observable을 Signal로 변환하는 도구가 있으므로 이전에 없던 변환 작업을 처리할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 직접적인 RxJS 구독
 
@@ -46,7 +53,18 @@ public ngOnInit() {
 
 ## 프로미스 활용
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 번째 방법은 promise를 활용하는 것입니다. 표준 then/catch 또는 async/await를 사용할 수 있습니다. 이 부분은 조심해야 합니다, 특히 async/await의 특이사항을 잊거나 모르는 경우에는 더욱 그렇습니다. RxJS의 firstValueFrom 함수를 사용하여 첫 번째 노출된 값을 observable로 변환할 수 있습니다(대부분의 API 응답은 단일 값이므로 잘 맞습니다). 여기 두 가지 주의할 점이 있습니다:
 
@@ -62,21 +80,32 @@ public async ngOnInit() {
 
 코드 실행을 중단하지 않고 싶다면 특별한 기능 래퍼를 사용할 수 있습니다. 또 다른 방법은 IIFE를 사용하는 것인데, 아마 더 일관성이 있을 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 public async initData() {
   this.data = signal(await firstValueFrom(this.testService.getItems()));
 }
 
-public ngOnInit() {   
+public ngOnInit() {
   this.initData();
   ....
 }
 ```
 
 ```js
-public ngOnInit() {    
+public ngOnInit() {
   (async () => {
     this.data = signal(await firstValueFrom(this.testService.getItems()));
     console.log('data inited');
@@ -88,14 +117,25 @@ public ngOnInit() {
 다른 방법은 old-faithful then을 사용하는 것입니다. 위의 모든 프로미스 경우에서 then 콜백 실행의 특정 사항을 잊지 마십시오. 이것은 고유한 특징을 가지고 있으며 경우에 따라 예측할 수 없는 결과를 줄 수 있습니다.
 
 ```js
-public ngOnInit() {   
+public ngOnInit() {
   firstValueFrom(this.testService.getItems()).then((items) => {
     this.data = signal(items);
   });
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## rxjs-interop에서 toSignal 사용하기
 
@@ -109,7 +149,7 @@ rxjs-interop에서 세 번째 방법인 toSignal을 살펴보았습니다. 간�
 ```js
 private _injector = inject(Injector);
 
-public ngOnInit() {  
+public ngOnInit() {
   this.data = toSignal(this.testService.getItems(), {
     // 인젝터에 대한 참조 제공
     injector: this._injector,
@@ -127,7 +167,18 @@ public ngOnInit() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 결론:
 

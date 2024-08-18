@@ -3,17 +3,13 @@ title: "LLM의 내부 작업 공개 고유 값 관점"
 description: ""
 coverImage: "/assets/img/2024-06-19-UnveilingtheInnerWorkingsofLLMsASingularValuePerspective_0.png"
 date: 2024-06-19 20:37
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-UnveilingtheInnerWorkingsofLLMsASingularValuePerspective_0.png
 tag: Tech
 originalTitle: "Unveiling the Inner Workings of LLMs: A Singular Value Perspective"
 link: "https://medium.com/towards-data-science/unveiling-the-inner-workings-of-llms-a-singular-value-perspective-74c0c831e819"
 isUpdated: true
 ---
-
-
-
-
 
 ## Llama3–8B 투영 행렬에 대한 특이값 분해 분석
 
@@ -23,7 +19,18 @@ LLM이 얼마나 잘 훈련되었는지 생각해 보셨나요? 매개변수의 
 
 이 글에서는 Singular Values 관점에서 Llama-3–8B 모델을 깊게 분석하여 이러한 질문에 답해보겠습니다. 더 이상 시간을 낭비하지 말고 편안하게 앉아, SVD를 적용하여 Llama-3–8B 행렬의 품질을 분석해 보세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # SVD 다시 살펴보기
 
@@ -36,7 +43,18 @@ LLM이 얼마나 잘 훈련되었는지 생각해 보셨나요? 매개변수의 
 - Σ은 A의 특이값을 포함하는 대각행렬입니다. 이 값들은 항상 음이 아닌 값이며 일반적으로 가장 큰 값부터 가장 작은 값 순서로 정렬됩니다.
 - V_t는 V의 전치행렬이며, V의 열은 A의 오른쪽 특이벡터입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 간단한 용어로 설명하면, 특이값 분해(SVD)는 행렬의 복잡한 변환을 간단하고 이해하기 쉬운 회전 및 스케일링 과정으로 나누어 줍니다. Σ의 특이값은 스케일링 요소를 알려주고 U와 V_t의 특이벡터는 해당 스케일링이 행렬을 적용하기 전과 후의 방향을 알려줍니다.
 
@@ -46,7 +64,18 @@ LLM이 얼마나 잘 훈련되었는지 생각해 보셨나요? 매개변수의 
 
 LLM(대형 언어 모델)의 맥락에서, 가중치 행렬(예: 어텐션 메커니즘 또는 피드포워드 레이어의 행렬)들은 입력 데이터(예: 단어 임베딩)를 출력 표현으로 변환합니다. 주요한 특이값은 변환에 의해 가장 강조되는 입력 공간의 방향을 나타내며, 모델이 민감하거나 표현력이 강한 방향을 보여줍니다. 작은 특이값은 변환에서 중요하지 않거나 영향력이 적은 방향을 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특이값의 분포는 모델의 일반화 능력과 견고성에 영향을 줄 수 있습니다. 느린 감소(많은 큰 특이값)는 과적합을 초래할 수 있으며, 빠른 감소(소수의 큰 특이값)는 과소적합이거나 정보의 손실을 나타낼 수 있습니다.
 
@@ -84,7 +113,18 @@ LLM(대형 언어 모델)의 맥락에서, 가중치 행렬(예: 어텐션 메�
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # (Q, K, V, O) 행렬의 특이값 분석
 
@@ -94,7 +134,18 @@ LLM(대형 언어 모델)의 맥락에서, 가중치 행렬(예: 어텐션 메�
 
 우선, 이 분석에 필요한 모든 패키지를 가져와 봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import transformers
@@ -115,7 +166,18 @@ MODEL_ID = "meta-llama/Meta-Llama-3-8B-Instruct"
 
 만약 GPU를 많이 가지고 계신 분이시라면, 다음 코드는 관련이 없을 수 있습니다. 그러나 저와 같이 GPU가 부족한 분들에겐, LLama-3–8B 모델의 특정 레이어만 로드하는 데 매우 유용할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 def load_specific_layers_safetensors(model, model_name, layer_to_load):
@@ -199,8 +261,18 @@ def get_singular_values(model_path, matrix_type, layer_number, head_number):
 
 HuggingFace에서 구현된 방식으로 인해 K, Q 및 V 행렬에 대한 지정된 헤드의 가중치를 추출할 수 있는 이유는 행별로 슬라이싱을 통해할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-UnveilingtheInnerWorkingsofLLMsASingularValuePerspective_1.png)
 
@@ -210,8 +282,18 @@ O 행렬의 경우 선형 대수를 통해 O 가중치에서 지정된 헤드에
 
 ## 결과
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 분석을 위해 다양한 헤드, 레이어 및 행렬 유형에서 get_singular_values() 함수를 실행해야 합니다. 그리고 이러한 다양한 조합을 비교할 수 있도록 분석을 위한 여러 보조 지표도 정의해야 합니다:
 
@@ -225,7 +307,18 @@ O 행렬의 경우 선형 대수를 통해 O 가중치에서 지정된 헤드에
 - 초기 특이값 뿐만 아니라, Q와 K 행렬의 상위 10개 비율과 첫 번째/마지막 비율을 확인하면, 이 두 행렬이 V와 O 행렬보다 훨씬 높은 값을 갖는다는 것을 알 수 있습니다. 이는 Q와 K 행렬이 대부분의 차원에 집중된 정보를 포함하고 있으며, V와 O 행렬은 정보가 구성요소 전반에 분산되어 있는 것을 시사합니다.
 - 최소 10개 비율을 살펴보면, Q와 K 행렬의 특이값이 거의 0에 가깝고 V와 O 행렬에 비해 상대적으로 훨씬 낮다는 것을 알 수 있습니다. 이는 Q와 K 행렬이 저랭크 구조를 가지고 있음을 나타내는 증거 중 하나이며, 이 차원들이 모델의 전반적인 성능에 미미한 영향을 미칩니다. 이러한 가중치는 구조적으로 제거하여 모델의 정확도에 큰 영향을 미치지 않는 경우가 있을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## (레이어 0, 다중 헤드) 분석
 
@@ -237,9 +330,20 @@ O 행렬의 경우 선형 대수를 통해 O 가중치에서 지정된 헤드에
 - 더 깊은 레이어로 갈수록, Q 및 K 행렬의 초기값이 감소되는 경향을 발견했지만, 여전히 V 및 O 행렬과 비교하면 비교적 높습니다.
 - 더 깊은 레이어로 갈수록, 특정 헤드의 Q 및 K 행렬의 상위 10 비율 및 첫 번째/마지막 비율에 대한 하락 트렌드 패턴이 나타납니다. 또한 최하 10 비율의 약간의 상승 트렌드 패턴이 있습니다. 이는 더 깊은 레이어의 Q 및 K 행렬이 낮은 레이어와 비교하여 더 잘 훈련된 것으로 나타납니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-- "레이어 0, 다중 헤드" 섹션에서 발견한 동일 레이어 내의 헤드 간 패턴은 더 깊은 레이어로 이동할 때 명확하지 않습니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+- "레이어 0, 다중 헤드" 섹션에서 발견한 동일 레이어 내의 헤드 간 패턴은 더 깊은 레이어로 이동할 때 명확하지 않습니다.
 
 요약
 
@@ -249,8 +353,18 @@ O 행렬의 경우 선형 대수를 통해 O 가중치에서 지정된 헤드에
 
 # 마무리 말씀
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-06-19-UnveilingtheInnerWorkingsofLLMsASingularValuePerspective_3.png)
 
@@ -260,8 +374,18 @@ O 행렬의 경우 선형 대수를 통해 O 가중치에서 지정된 헤드에
 
 # 저자 소개
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 루이스 오웬은 인도네시아 출신의 데이터 과학자 및 AI 연구 엔지니어로, 항상 새로운 지식에 굶주립니다. 그의 경력 여정을 통해 그는 비영리 단체, 전자 상거래, 대화형 AI, OTA, 스마트 시티 및 핀테크 등 다양한 산업 분야에서 일해 왔습니다. 일 안에서 해외에선, 그는 자신의 기사나 멘토링 세션을 통해 데이터 과학 애호가들이 데이터 과학자로 성장할 수 있도록 시간을 보내는 것을 즐깁니다.
 

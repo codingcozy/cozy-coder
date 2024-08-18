@@ -3,17 +3,13 @@ title: "삼성 갤럭시 Z 폴드6 리뷰 내가 바꾼 이유"
 description: ""
 coverImage: "/assets/img/2024-07-27-SamsungGalaxyZFold6ReviewISwitched_0.png"
 date: 2024-07-27 13:48
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-27-SamsungGalaxyZFold6ReviewISwitched_0.png
 tag: Tech
 originalTitle: "Samsung Galaxy Z Fold6 Review I Switched"
 link: "https://medium.com/macoclock/samsung-galaxy-z-fold6-review-i-switched-e8580209972d"
 isUpdated: true
 ---
-
-
-
-
 
 ![Samsung Galaxy Z Fold6 Review](/assets/img/2024-07-27-SamsungGalaxyZFold6ReviewISwitched_0.png)
 
@@ -23,11 +19,21 @@ isUpdated: true
 
 원래는 다시 다른 기기로 전환할 계획이 아니었어요. 올해 나중에 iPhone 16 라인업이 출시될 때 iPhone으로 돌아가기로 결심을 한 상태였어요. 그런데 Z 폴드6를 손에 넣고 나서 삼성의 접는 폰에 꽤나 충분한 시간을 주지 않은 것을 깨달았어요. 항상 리뷰만 하고 상대적으로 빨리 다른 기기로 넘어간 게 다예요. Z 폴드4를 주 기기로 사용한 적이 있긴 했지만 그땐 순전히 보조폰으로 사용했어요(당시에는 아이폰이 여전히 주 사용기기였죠).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금까지만 해도 이런 표가 있었네요.ㅎㅎ Markdown 형식으로 표 태그를 변경해볼게요.
 
-
-| 사양 및 가격 | 
-| ------------ |
+| 사양 및 가격                                                |
+| ----------------------------------------------------------- |
 | Z Fold6의 사양과 가격은 인터넷 곳곳에서 찾을 수 있지만, ... |

@@ -3,17 +3,13 @@ title: "소비자 3D 프린팅 역사상 가장 놀라운 3D 프린터 10대"
 description: ""
 coverImage: "/assets/img/2024-07-13-10MostStunning3DPrintersintheHistoryofConsumer3DPrinting_0.png"
 date: 2024-07-13 22:13
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-10MostStunning3DPrintersintheHistoryofConsumer3DPrinting_0.png
 tag: Tech
 originalTitle: "10 Most Stunning 3D Printers in the History of Consumer 3D Printing"
 link: "https://medium.com/@3dprintingjournal/10-most-stunning-3d-printers-in-the-history-of-consumer-3d-printing-da0268025712"
 isUpdated: true
 ---
-
-
-
-
 
 ## 3D 프린팅의 역사
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## 그래, 소비자용 3D 프린터야!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 부가 제조업은 개인 사용자를 대상으로 한 저렴한 3D 프린터 덕분에 큰 인기를 누리고 있습니다. 이 시장 부문이 기술 자체와 산업의 발전을 주도했습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ## 모든 사람은 제작자입니다 — 바로 이 움직임의 지침이었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image1](/assets/img/2024-07-13-10MostStunning3DPrintersintheHistoryofConsumer3DPrinting_2.png)
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 ![image2](/assets/img/2024-07-13-10MostStunning3DPrintersintheHistoryofConsumer3DPrinting_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결과적으로, 2015년 이후 소비자 3D 프린팅에 특화된 모든 스타트업들이 서서히 사라지기 시작했습니다. 생존한 소수의 기업은 산업 시장으로 스마트한 전환 덕분에 살아남았습니다.
 
@@ -53,8 +82,18 @@ isUpdated: true
 
 하지만 그 시절이 매력적이고 좋은 순간들을 가졌다는 사실은 변함이 없습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-13-10MostStunning3DPrintersintheHistoryofConsumer3DPrinting_4.png)
 
@@ -64,9 +103,18 @@ This approach made sense, especially as the initial DIY projects from the RepRap
 
 ![image](/assets/img/2024-07-13-10MostStunning3DPrintersintheHistoryofConsumer3DPrinting_5.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 It was a tangle of wires, screws, and threaded rods, connected by pieces of 3D-printed plastic often in garish, bright colors.
 
@@ -76,8 +124,18 @@ Or the casing was laser-cut from plywood.
 
 ![3D Printer Image 7](/assets/img/2024-07-13-10MostStunning3DPrintersintheHistoryofConsumer3DPrinting_7.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 초기 시절에는 FDM/FFF 기술이 저렴한 데스크톱 3D 프린터 사이에서 주도적인 위치를 차지했지만, 디자인을 기능과 동등한 수준으로 제공한 첫 번째 회사는 Formlabs였습니다. Formlabs는 광중합체 Form 1 SLA 3D 프린터를 제조하는 회사입니다.
 
@@ -87,7 +145,18 @@ Or the casing was laser-cut from plywood.
 
 이후 제조업체들은 종종 기능적이거나 비용 측면을 간과하고 디자인에 경쟁을 벌였습니다(즉, 미학적으로 아무런 기여를 하지 않는 요소를 추가하여 3D 프린터의 비용을 높이는 방식).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서, 2010년대 최고의 디자인을 자랑하는 3D 프린터를 되돌아보며 짧은 여정으로 여러분을 초대하려고 해요...
 
@@ -99,7 +168,18 @@ Or the casing was laser-cut from plywood.
 
 마지막으로, 1등의 3D 프린터를 제외하고, 남은 프린터들을 모두 직접 보았고, 그 중 절반은 직접 사용해봤어요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Let’s go!
 
@@ -109,7 +189,18 @@ Let’s go!
 
 The American Robo 3D was one of the most well-known, low-budget 3D printers on the consumer market. The company’s journey began in February 2013 with a successful Kickstarter campaign, where they raised nearly $650,000 in funding.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시작부터 3D 프린터는 비교적 저렴한 가격과 독특한, 매우 특징적인 흰색 케이싱으로 특징 지어졌습니다. 이 제품은 가정 사용자와 소기업을 대상으로 하여 FDM/FFF 기술을 쉽고 간편하게 채택하길 원하는 사람들을 대상으로 했습니다.
 
@@ -119,7 +210,18 @@ Robo 3D R1은 상당한 크기를 자랑하는 상대적으로 큰 빌드 볼륨
 
 ![이미지2](/assets/img/2024-07-13-10MostStunning3DPrintersintheHistoryofConsumer3DPrinting_10.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음의 텍스트를 친절한 어조로 한국어로 번역해주세요.
 
@@ -127,11 +229,22 @@ Robo 3D R1은 상당한 크기를 자랑하는 상대적으로 큰 빌드 볼륨
 
 저는 3년 넘게 Robo 3D R1을 사용할 기회가 있었습니다. 이 3D 프린터를 부품 제작에 선택하지는 않았겠지만, 다양한 전시회, 이벤트, 그리고 3D 프린팅을 홍보하는 다양한 행사에서 무척 유용했습니다.
 
-간단히 말해서, 이 기기는 거대한 인상을 남겼습니다." 
+간단히 말해서, 이 기기는 거대한 인상을 남겼습니다."
 
 ![image](https://이미지링크)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그것은 정말로 크고 미학적으로 매력적이었고, 파란 빛 또는 빨간 LED로 빛나더군요. 간단한 플라스틱 케이싱 아래에는 매우 직관적인 구조가 숨어 있음에 놀랍군요.
 
@@ -141,7 +254,18 @@ P.S. 이후 모델인 C2와 R2는 더욱 멋있어 보였지만, 데뷔작인 R1
 
 ![이미지](/assets/img/2024-07-13-10MostStunning3DPrintersintheHistoryofConsumer3DPrinting_13.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 PS2: 둘 다 가지고 있었어. C2는 간단하지만 훌륭했어. 여러 해 동안 사용했어. R2는 웜업 중에 자체 발화로 불을 내어 망가졌어. 정말이지.
 
@@ -151,8 +275,18 @@ PS2: 둘 다 가지고 있었어. C2는 간단하지만 훌륭했어. 여러 해
 
 리플로그는 울티메이커와 펠릭스로보틱스와 함께 유럽 3D 프린팅의 기초를 다진 "더 빅 더치 쓰리" 중 하나였어. 그 첫 3D 프린터인 Leapfrog Creatr은 견고한 금속 구조로 경쟁에서 빛을 발했던 거대하고 웅장한 기계였어.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Stunning 3D Printer 1](/assets/img/2024-07-13-10MostStunning3DPrintersintheHistoryofConsumer3DPrinting_15.png)
 
@@ -162,14 +296,35 @@ This massive, white machine with a beautiful design and a large colorful logo on
 
 ![Stunning 3D Printer 2](/assets/img/2024-07-13-10MostStunning3DPrintersintheHistoryofConsumer3DPrinting_16.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리프로그는 지역 라이벌인 울티메이커(Ultimaker)만큼의 성공을 이루지는 못했지만, 많은 해 동안 유럽에서 가장 인기 있는 3D 프린터 제조업체 중 하나로 남아 있었습니다.
 
 데뷔작인 Creatr은 이러한 기기의 디자인에 새로운 기준을 제시했습니다. 3D 프린터는 더 이상 단순히 인쇄하는 기능만을 가져서는 안 되었습니다. 꼭 보기 좋아야 했죠...
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금은 믿기 어려울 수 있지만, 글로벌 3D 프린팅 시장에서 성공을 거둔 첫 번째 체코 제조사는 프루사 리서치가 아니었습니다...
 
@@ -179,7 +334,18 @@ This massive, white machine with a beautiful design and a large colorful logo on
 
 다음 해에 회사는 DeeOrange를 대체하는 DeeGreen과 반전문가용 DeeRed 두 대의 3D 프린터를 소개했습니다. 그리고 미국을 정복하기 위해 노력했고, 2014년 11월 국내 IT 기업 Y Soft로부터 200만 달러의 자금을 받게 되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 후 완전히 매진되었고 그 흔적이 사라졌어요… 그런데— 음— 3D 프린터로 돌아가볼까요…
 
@@ -189,7 +355,18 @@ DeeGreen은 시트 금속과 플라스틱으로 만들어진 완전히 둘려싼
 
 케이스는 아주 미적이고 전문적이었어요— 앞쪽에는 작업 챔버에 접근할 수 있는 자석으로 닫히는 문 두 쌍이 있었고, 오른쪽 쪽면에는 필라멘트에 접근할 수 있는 문도 있었어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한, 장치의 상단 커버에 큰 be3D 로고가 인쇄되어 있어서 모든 3D 프린터의 메커니즘에 접근할 수 있는 이동식 커버도 포함되어 있었습니다.
 
@@ -199,7 +376,18 @@ DeeGreen은 시트 금속과 플라스틱으로 만들어진 완전히 둘려싼
 
 더구나 그 시기에는 아주 훌륭한 기능과 함께 제공되었습니다: 자석으로 부착된 작업대를 사용한 자동 베드 레벨링, 밝게 조명이 비추어지는 작업실, 완전 색상의 터치 디스플레이, 그리고 MicroSD 카드였습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # #7. CEL Robox
 
@@ -209,7 +397,18 @@ CEL Robox는 디자인에 모든 노력이 들어간 3D 프린터의 한 예입�
 
 외관적으로 보면 처음부터 놀라운 것으로 보였습니다. 이 프린터는 보기에는 데스크톱 종이 프린터와 닮은 첫 번째 3D 프린터였습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 동일한 크기, 동일한 모양. 아이디어는 사용 편의성까지 동일하게 가지고 있을 것이었습니다. 음, 그 부분은 전혀 제대로 작동하지 않았죠...
 
@@ -219,8 +418,18 @@ CEL Robox는 또 다른 킥스타터 스타였어요. 영국 기업인 C Enterpr
 
 이것을 다른 유사한 장치와 구분 짓는 것은 전문 Stratasys급 기계에서 발견되는 솔루션의 고유 기능 범위였습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-07-13-10MostStunning3DPrintersintheHistoryofConsumer3DPrinting_22.png)
 
@@ -230,8 +439,18 @@ CEL Robox는 또 다른 킥스타터 스타였어요. 영국 기업인 C Enterpr
 
 안타깝게도, Kickstarter의 약속과 현실이 다르다는 것은 빨리 알게 되었습니다...
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CEL Robox는 확실히 3D 프린터 작업 중 가장 큰 실망 중 하나였어요.
 
@@ -241,7 +460,18 @@ CEL Robox는 확실히 3D 프린터 작업 중 가장 큰 실망 중 하나였�
 
 내가 사용한 장치 자체가 결함이 있었을 수도 있는 실제 가능성이 있습니다 - 3D 프린터를 사용하는 동안 경험한 다양한 문제들은 정말로 비정상적이었는데, 이는 다양한 산업 사이트에서 매우 긍정적인 기사들이 있었기에 제게 혼란과 창피함을 주었어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Robox 3D Printer](/assets/img/2024-07-13-10MostStunning3DPrintersintheHistoryofConsumer3DPrinting_24.png)
 
@@ -251,8 +481,18 @@ CEL Robox는 확실히 3D 프린터 작업 중 가장 큰 실망 중 하나였�
 
 이 3D 프린터는 매우 세련된 현대적인 디자인을 가지고 있었습니다. 케이싱과 대부분의 구성품이 플라스틱으로 만들어져 로복스가 3D 프린터보다 전통적인 종이 프린터와 더 닮은 외관을 가졌습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-07-13-10MostStunning3DPrintersintheHistoryofConsumer3DPrinting_25.png)
 
@@ -262,9 +502,18 @@ A big plus was the way the 3D printer was packaged, as well as the range of acce
 
 ## 6. flexFORM
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image description](/assets/img/2024-07-13-10MostStunning3DPrintersintheHistoryofConsumer3DPrinting_26.png)
 
@@ -274,10 +523,20 @@ FlexFORM은 한편으로는 매우 멋지게 포장된 Prusa i2였지만, 반면
 
 ![Image description](/assets/img/2024-07-13-10MostStunning3DPrintersintheHistoryofConsumer3DPrinting_27.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-오픈워크 시트 금속으로 만들어진 구조는 CNC로 절단되어 가공되었으며 파우더 코팅되었습니다. 정말로 매우 튼튼했어요. 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+오픈워크 시트 금속으로 만들어진 구조는 CNC로 절단되어 가공되었으며 파우더 코팅되었습니다. 정말로 매우 튼튼했어요.
 
 ![이미지](https://miro.medium.com/v2/resize:fit:664/1*9UkCKLZbwPhZJ-f0UwHuaQ.gif)
 
@@ -285,7 +544,18 @@ FlexFORM은 한편으로는 매우 멋지게 포장된 Prusa i2였지만, 반면
 
 ![이미지](/assets/img/2024-07-13-10MostStunning3DPrintersintheHistoryofConsumer3DPrinting_28.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 태블릿과 안드로이드 앱(2014년에!)을 사용하여 작동했어요. 전체적인 설정은 화려하게 빨갛게 조명이 밝았어요.
 
@@ -295,8 +565,18 @@ FlexFORM은 한편으로는 매우 멋지게 포장된 Prusa i2였지만, 반면
 
 ### 5. Zmorph
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Zmorph](/assets/img/2024-07-13-10MostStunning3DPrintersintheHistoryofConsumer3DPrinting_30.png)
 
@@ -306,9 +586,18 @@ Zmorph는 폴란드에서 만들어진 최초이자 가장 중요한 3D 프린�
 
 물론, 이전에 언급된 flexFORM과 비슷하지만, 기능적으로는 Prusa i2 디자인을 기반으로 했던 Zmorph는 이전 모델과 체코의 선배를 초월했습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Zmorph 3D Printer](/assets/img/2024-07-13-10MostStunning3DPrintersintheHistoryofConsumer3DPrinting_32.png)
 
@@ -318,9 +607,18 @@ Zmorph의 독특한 특징은 투명 플렉시글래스로 만든 약간 곡선 
 
 이 기계는 핵심 구조 요소가 3D 프린팅 된 것임에도 불구하고 매우 단단하고 내구성이 있었다!
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Zmorph Fab](/assets/img/2024-07-13-10MostStunning3DPrintersintheHistoryofConsumer3DPrinting_34.png)
 
@@ -330,8 +628,18 @@ Zmorph의 독특한 특징은 투명 플렉시글래스로 만든 약간 곡선 
 
 안타깝게도, 회사는 경영자들의 재정 및 수익 기대치를 온전히 충족시키지 못했습니다. 마침내 2022년에 다른 폴란드 회사인 Sygnis에 매각되었으며, 2년도 채 되지 않아서 잊혀지는 존재가 되었습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Zmorph](/assets/img/2024-07-13-10MostStunning3DPrintersintheHistoryofConsumer3DPrinting_36.png)
 
@@ -341,7 +649,18 @@ Zmorph의 독특한 특징은 투명 플렉시글래스로 만든 약간 곡선 
 
 ### 번커니어
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![3D Printer](/assets/img/2024-07-13-10MostStunning3DPrintersintheHistoryofConsumer3DPrinting_37.png)
 
@@ -351,17 +670,39 @@ Zmorph의 독특한 특징은 투명 플렉시글래스로 만든 약간 곡선 
 
 ![3D Printer](/assets/img/2024-07-13-10MostStunning3DPrintersintheHistoryofConsumer3DPrinting_38.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Kickstarter 캠페인은 단순한 형식일 뿐이었습니다 - 캠페인이 시작된 지 10분 만에 요청한 10만 달러가 모두 모금되었습니다.
 
 싱가포리아가 최종적으로 $1,438,765의 인상적인 결과로 기금 모금을 마무리했으며, 이는 기술 부문에서 Kickstarter 역사상 4번째로 좋은 결과였고, The Form 1 이후 "가장 비싼" 두 번째 3D 프린터였습니다.
 
-이러한 엄청난 성공 이후, 해적들은 오랜 시간 동안 침묵을 유지했습니다... 그리고 일 년 후에, 사실상 끝났습니다... 
+이러한 엄청난 성공 이후, 해적들은 오랜 시간 동안 침묵을 유지했습니다... 그리고 일 년 후에, 사실상 끝났습니다...
 
 <img src="/assets/img/2024-07-13-10MostStunning3DPrintersintheHistoryofConsumer3DPrinting_39.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최종 제품을 전달하는 데 지연이 너무나 길었음에 더하여, Buccaneer는 아름다운 포장과 환상적인 외관에도 불구하고 인쇄물이 잘 나오지 않았거나 종종 전혀 나오지 않았다는 것이 밝혀졌습니다.
 
@@ -371,7 +712,18 @@ Kickstarter 캠페인은 단순한 형식일 뿐이었습니다 - 캠페인이 �
 
 이 3D 프린터에 대해 많은 감정을 가지고 있는데, 이는 11년 전 3D 프린팅 산업에서 나의 저널리즘 경력을 시작하게 한 것이기 때문입니다. 이에 대한 논평 덕분에 내 포털인 'Centrum Druku 3D'가 인정을 받았고, 내 이름도 알려지게 되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대부분처럼 나도 처음에는 버큐니어를 믿었어요. 그것은 귀중한 교훈이었어요.
 
@@ -381,7 +733,18 @@ Kickstarter 캠페인은 단순한 형식일 뿐이었습니다 - 캠페인이 �
 
 사진에서 볼 때 보다 실제로 보면 훨씬 나아 보였지만, 여전히 좋았어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # #3. 핫로드 헨리
 
@@ -391,7 +754,18 @@ Kickstarter 캠페인은 단순한 형식일 뿐이었습니다 - 캠페인이 �
 
 폴란드 회사인 Aye Aye Labs와 그들의 대형 HotRod Henry 3D 프린터는 아마 다시 볼 일이 없을 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 선택할 수있는 12가지 다른 색상으로 제공되는 1950 년대 냉장고 모양의 외관을 가진 3D 프린터에 대해 무엇을 말할 수 있을까요?
 
@@ -401,11 +775,33 @@ Kickstarter 캠페인은 단순한 형식일 뿐이었습니다 - 캠페인이 �
 
 ![Image 2](/assets/img/2024-07-13-10MostStunning3DPrintersintheHistoryofConsumer3DPrinting_44.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어디서부터 시작할까요? 계속 읽어주셔서 감사합니다.제가 도와드릴 수 있는 내용이 있으면 언제든지 말씀해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # #2. BEETHEFIRST
 
@@ -415,8 +811,18 @@ BEETHEFIRST는 포르투갈 회사 BEEVERYCREATIVE가 만든 우아하고 소형
 
 기능적으로, 이 3D 프린터는 다소 부족했습니다 - 가열 침대가 없어 PLA만 사용할 수 있었고, 비교적 작은 19cm x 13.5cm x 12.5cm 크기의 빌드 영역을 가졌습니다. 게다가 필라멘트 스풀이 빌드 챔버 안에 배치되어 있어 번거로움보다는 편의가 아니었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image description](/assets/img/2024-07-13-10MostStunning3DPrintersintheHistoryofConsumer3DPrinting_47.png)
 
@@ -426,8 +832,18 @@ BEETHEFIRST는 포르투갈 회사 BEEVERYCREATIVE가 만든 우아하고 소형
 
 외관적으로 최고의 디자인! — 기능적으로는 아닙니다!
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 가지 흥미로운 사실:
 
@@ -438,11 +854,33 @@ BEETHEFIRST는 포르투갈 회사 BEEVERYCREATIVE가 만든 우아하고 소형
 
 한 마디로 말씀드리자면: Rapide 3D는 3D 프린팅 역사상 가장 멋있는 3D 프린터입니다. 그러나 그 이야기는 매우 복잡하고 혼란스럽기 때문에 그 외의 부분은 그 외모로만 이 목록에 자리할 수 있는 유일한 이유입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 실제로 본 적이 없는 목록에 있는 유일한 3D 프린터에요 - 사진과 동영상으로만 봤어요. 실제로 그 창조자 외에 누가 사용했는지 모르겠어요. 작동했는지도 모르겠어요? 작동한 것처럼 보이기는 하지만 확인할 충분한 소스 자료가 부족하네요. 하지만 정말 놀라워 보였어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image 1](/assets/img/2024-07-13-10MostStunning3DPrintersintheHistoryofConsumer3DPrinting_49.png)
 
@@ -452,8 +890,18 @@ BEETHEFIRST는 포르투갈 회사 BEEVERYCREATIVE가 만든 우아하고 소형
 
 이에는 분명히 여러 이유가 있었어요 — 제안된 솔루션이 아름답긴 했지만 전혀 기능적이지 않았거든요. 기기의 크기가 빌드 영역과 전혀 비례하지 않았죠. 게다가, 이 설계는 3D 프린터의 시각에서는 필요 없는 많은 비싼 세부 세밀을 사용해야 했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-13-10MostStunning3DPrintersintheHistoryofConsumer3DPrinting_51.png)
 
@@ -463,8 +911,18 @@ Regardless, Rapide 3D appeared and disappeared like many other such devices over
 
 The story of this 3D printer is as unusual as it is unbelievable. It combines elements of low-budget 3D printer crowdfunding campaigns, innovative phones, and… the famous disappearance of Malaysia Airlines flight in March 2014.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 모든 것이 어떻게 연결되었는지 궁금하신가요? 홍콩에 사는 호주인 이단 한트라는 독특한 이름을 가진 사람이 그것을 성취했습니다.
 
@@ -474,6 +932,17 @@ The story of this 3D printer is as unusual as it is unbelievable. It combines el
 
 이와 관련된 아주 복잡하고 혼란스러운 이야기가 있는데, 이곳에서 언급하고 싶지 않습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 멋진 3D 프린터를 사용해보는 것이 좋겣어요.

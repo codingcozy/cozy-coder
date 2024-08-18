@@ -3,7 +3,7 @@ title: "RT-2, 구글의 새 혁신 실제 월-E를 만드는 비결"
 description: ""
 coverImage: "/assets/img/2024-06-22-RT-2GooglesNewBreakthroughToBuildWall-E_0.png"
 date: 2024-06-22 19:34
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-RT-2GooglesNewBreakthroughToBuildWall-E_0.png
 tag: Tech
 originalTitle: "RT-2, Google’s New Breakthrough To Build Wall-E"
@@ -11,15 +11,9 @@ link: "https://medium.com/@ignacio.de.gregorio.noblejas/rt-2-googles-new-breakth
 isUpdated: true
 ---
 
-
-
-
-
 안녕하세요! 아래는 Markdown 형식으로 변경된 표입니다.
 
-
 ![이미지](/assets/img/2024-06-22-RT-2GooglesNewBreakthroughToBuildWall-E_0.png)
-
 
 ChatGPT가 2022년 11월에 출시된 이후로, 전 세계가 AI를 중심으로 돌아가는 것 같죠.
 
@@ -27,7 +21,18 @@ ChatGPT가 2022년 11월에 출시된 이후로, 전 세계가 AI를 중심으�
 
 바로 Google Deepmind의 새로운 로봇, RT-2에 대해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로봇 팔이라 해도 RT-2는 그 중에서도 뛰어난 능력을 자랑해요. 실제로 RT-2를 만드는 데 구글은 이제까지 본 적 없는 새로운 AI 모델을 만들어야 했죠.
 
@@ -37,7 +42,18 @@ ChatGPT가 2022년 11월에 출시된 이후로, 전 세계가 AI를 중심으�
 
 ## 여기에서 함께 나와 AI에 대해 쉽게 배워보세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 새로운 모델 클래스
 
@@ -47,7 +63,18 @@ ChatGPT가 2022년 11월에 출시된 이후로, 전 세계가 AI를 중심으�
 
 하지만 AI의 잠재력은 단순한 텍스트를 뛰어 넘습니다. 많은 연구자들이 더 큰 목표를 향해 눈치를 돌리고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 다중 모드 구축을 향한 길
 
@@ -57,7 +84,18 @@ ChatGPT가 2022년 11월에 출시된 이후로, 전 세계가 AI를 중심으�
 
 그러나 우리 모두가 알다시피, 우리가 능력 면에서 인간 수준의 기계를 구축하려면 우리인간이 다중 모드인것보다 훨씬 더 많은 것이 필요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반적인 용어로 말하면, 우리는 세상에 대한 이해를 텍스트만으로 구축하지 않습니다. 우리에겐 눈이 있고, 귀가 있고, 촉감도 있죠... 우리의 모든 감각이 세상이 무엇인지를 파악하는 데 도움을 줍니다.
 
@@ -67,7 +105,18 @@ ChatGPT가 2022년 11월에 출시된 이후로, 전 세계가 AI를 중심으�
 
 그리고 이에 대한 AI 공간에서 가장 흥미로운 혁신 중 하나는 시각-언어 모델 중 하나입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## VLMs, 더 ‘인간적인’ 기계들
 
@@ -77,7 +126,18 @@ ChatGPT가 2022년 11월에 출시된 이후로, 전 세계가 AI를 중심으�
 
 Kosmos의 작동 방식은 매우 간단합니다. 이미지나 텍스트(또는 둘 다)를 보내면, 이에 기반하여 텍스트를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 참고로, Carnegie Mellon University에서 개발한 이름이 GILL인 또 다른 VLM을 아래에서 확인할 수 있습니다. 시각적 프롬프팅이 정확히 무엇인지 명확하게 이해할 수 있습니다:
 
@@ -87,7 +147,18 @@ Kosmos의 작동 방식은 매우 간단합니다. 이미지나 텍스트(또는
 
 그들은 이러한 모델을 현실 세계로 가져오고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로봇공학을 더 나은 수준으로 발전시키려는 시도 중에, Google Deepmind는 깨달음을 얻었습니다:
 
@@ -97,7 +168,18 @@ Kosmos의 작동 방식은 매우 간단합니다. 이미지나 텍스트(또는
 
 하지만 그것들이 정말 무엇이며, 왜 그렇게 혁신적인 것일까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Wall-e, 그게 진짜야?
 
@@ -107,7 +189,18 @@ Kosmos의 작동 방식은 매우 간단합니다. 이미지나 텍스트(또는
 
 AI 모델이 데이터의 양과 질에 완전히 의존한다는 점을 고려할 때, 후자는 가능했지만 전자는 정말 악몽이었어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 따라서, 로봇공학을 더 나은 수준으로 발전시키기 위해 구글이 베팅을 했습니다:
 
@@ -117,7 +210,18 @@ AI 모델이 데이터의 양과 질에 완전히 의존한다는 점을 고려�
 
 그리고 이제 이를 VLAs(로봇 언어 모델)라고 부를 수 있게 된 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 행동 예측기
 
@@ -127,7 +231,18 @@ LLMs나 VLMs와 마찬가지로 VLAs도 동일한 일을 수행합니다. 토큰
 
 ![이미지](/assets/img/2024-06-22-RT-2GooglesNewBreakthroughToBuildWall-E_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 얻은 결과는 우리에게 매우 중요한 두 가지 교훈을 알려줍니다.
 
@@ -137,7 +252,18 @@ AI로봇 기술의 최첨단인 RT-2를 평가할 때 결과는 매우 명확합
 
 ![RT-2 모델](/assets/img/2024-06-22-RT-2GooglesNewBreakthroughToBuildWall-E_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 항상 그렇듯이, 요점은 세부사항에 있습니다. RT-2를 주의 깊게 관찰하면, 이는 로봇공학의 가장 어려운 두 가지 임무, 즉 일반화와 신흥성에 뛰어난 성과를 보여줍니다.
 
@@ -147,7 +273,18 @@ AI로봇 기술의 최첨단인 RT-2를 평가할 때 결과는 매우 명확합
 
 이 점을 증명하기 위해, 구글이 진행한 6,000건 이상의 시험 중에서 몇 가지 인상적인 행동이 포함되어 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-22-RT-2GooglesNewBreakthroughToBuildWall-E_3.png)
 
@@ -157,7 +294,18 @@ AI로봇 기술의 최첨단인 RT-2를 평가할 때 결과는 매우 명확합
 
 비슷하게, 아래 오른쪽 예에서 모델은 당나귀와 문어의 차이를 이해할 뿐만 아니라, “육지 동물”이 당나귀를 의미한다는 것을 생각할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 정량적인 관점에서 구글은 모델을 세 가지 기준으로 평가했습니다:
 
@@ -169,7 +317,18 @@ AI로봇 기술의 최첨단인 RT-2를 평가할 때 결과는 매우 명확합
 
 ![이미지](/assets/img/2024-06-22-RT-2GooglesNewBreakthroughToBuildWall-E_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인상적인 점은 RT-2가 알 수 없는 상황에서 잘 작동할 수 있었던 것처럼, 위의 이미지들도 새로운 업무를 수행할 수 있는 능력을 보여줍니다. 다시 말해, 시각 언어 모델을 추가하더라도 새로운 로봇 동작을 생성하는 데는 한계가 있었지만 (논문에서 인정함), 로봇에 풍부한 의미 지식을 전달하여 배치, 물체 인식, 논리 추론과 같은 복잡하고 신흥 개념에 대해 훨씬 더 인식력을 갖도록 만들었습니다.
 
@@ -177,7 +336,18 @@ AI로봇 기술의 최첨단인 RT-2를 평가할 때 결과는 매우 명확합
 
 RT-2를 본 이후에는 내년 말까지 세계 각국의 제조업체가 이러한 로봇을 사용하여 프로세스를 개선하는 것이 놀라운 일이 아닐 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인공지능 로봇들은 주변 환경에 대해 훨씬 더 인식력을 가지고 있습니다. 그들의 신경망 속에 점점 더 복잡한 세계 모델을 구축하여 하루가 다르게 진화하고 있는데, 이는 수천 년이 걸린 인간들의 진화에 의해 이루어졌던 것과 매우 가까워지고 있습니다.
 
@@ -187,6 +357,17 @@ RT-2를 본 이후에는 내년 말까지 세계 각국의 제조업체가 이�
 
 RT-2에 관한 것을 생각해보면, 이는 바로 진행 중인 로봇 기술이 미래의 몇 달 동안 어떻게 진화할지에 대한 단순한 꼭대기에 지나지 않을 것입니다. 그래서 아마도 영화 '월-E'가 우리 삶에서 생각했던 것보다 그렇게 멀리 떨어져 있지 않다는 생각이 들 수도 있겠네요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프레스 릴리스와 연구 논문 링크입니다.

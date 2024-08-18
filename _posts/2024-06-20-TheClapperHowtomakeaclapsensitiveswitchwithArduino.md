@@ -3,7 +3,7 @@ title: "짝커 - 아두이노로 박수 감지 스위치를 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-20-TheClapperHowtomakeaclapsensitiveswitchwithArduino_0.png"
 date: 2024-06-20 17:03
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-TheClapperHowtomakeaclapsensitiveswitchwithArduino_0.png
 tag: Tech
 originalTitle: "The Clapper — How to make a “clap sensitive” switch with Arduino."
@@ -11,13 +11,20 @@ link: "https://medium.com/@micatovin/the-clapper-how-to-make-a-clap-sensitive-sw
 isUpdated: true
 ---
 
-
-
-
-
 당신이 말한 코딩에 관한 책이 필요하다면 언제든지 물어보세요! 저는 여러가지 책과 자료를 추천해드릴 수 있어요. 요즘 프로그래밍을 배우는 것은 정말 뜻깊은 경험이 될거에요. 함께 열심히 공부해서 좋은 개발자가 되어봐요!😊
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 필요한 것이 있을까요? 하드웨어부터 시작해봅시다. 이러한 프로젝트를 위해서는 하드웨어가 필수입니다. 사용된 구성 요소 목록은 다음과 같습니다:
 
@@ -34,7 +41,18 @@ isUpdated: true
 
 ![핀 매칭](/assets/img/2024-06-20-TheClapperHowtomakeaclapsensitiveswitchwithArduino_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 코드
 
@@ -52,20 +70,20 @@ bool ledState = false;
 
 void setup() {
  Serial.begin(9600);
- 
+
  pinMode(micPin, INPUT);
  pinMode(ledPin, OUTPUT);
 }
 
 void loop() {
  sensorValue = analogRead(micPin);
- 
+
  // 박수 감지 로직
  if (sensorValue > threshold) {
   // 박수 감지!
   digitalWrite(ledPin, ledState ? LOW : HIGH);
   ledState = !ledState;
-  
+
   delay(500); // 여러 번 트리거를 방지하기 위한 디바운스 딜레이
  }
 
@@ -75,8 +93,18 @@ void loop() {
 
 연결이 제대로 되어있다면 주어진 임계값을 초과하는 모든 소리로 라이트를 트리거할 수 있어야 합니다. 그러나 이 설정과 코드에 대한 또 다른 문제로 우리를 이끌어간다면, 마이크 민감도입니다. 나의 실험에서, 마이크를 낮은 민감도로 설정하면 회로 내의 소리 센서에서의 잡음을 더 잘 관리할 수 있었습니다. 이것은 완벽하지 않았으며, 조용한 환경에서도 0-45 사이의 신호값을 가지고 있었습니다. 이 레벨의 침묵을 달성하기 위해 소리 센서 부품의 기록용 가변저항을 사용했습니다. 이것은 3326 모델이며, 회로에서 잡음 신호를 줄이기 위해 회전시킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-20-TheClapperHowtomakeaclapsensitiveswitchwithArduino_2.png)
 
@@ -86,8 +114,18 @@ void loop() {
 
 ![image](/assets/img/2024-06-20-TheClapperHowtomakeaclapsensitiveswitchwithArduino_3.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 후, 마이크 민감도를 더 줄일 수 있다는 것을 발견했습니다. 더 부드러운 파형을 강제하는데 그러나 다른 제약 사항이 있었습니다. 클랩하면 스위치가 활성화되는 매우 높은 수준의 소음이 있어야 했습니다.
 
@@ -97,7 +135,18 @@ void loop() {
 
 위의 조정을 하고 나서, 라이트 스위치가 작동하지만 우리의 진폭 임계값을 초과하는 모든 소리에 의해 트리거됩니다. 이와 같은 문제에 직면했을 때는 전략 재고가 필요합니다. 그래서 다시 기본부터 시작하겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 손뼉 소리는 복잡한 소리 파형을 생성하지 않는다는 것을 알아봅시다. 마이크가 고품질이 아닌 것이 이를 강조합니다. 더 복잡한 파형은 분석을 위한 더 명확한 신호를 제공할 수 있을지 모르지만, 여전히 간단한 손뼉에서 유용한 통찰을 얻을 수 있습니다. 나는 아두이노를 연결하여 손뼉의 특성을 나타내는 그래프를 그리는 데이터를 캡처했습니다. 여기에 결과가 있습니다.
 
@@ -107,7 +156,18 @@ void loop() {
 
 이를 해결하기 위해 이러한 제한을 극복할 전략을 개발해 보겠습니다. 여기 잠재적인 접근 방식이 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 소리를 캡처합니다.
 - 녹음된 소음 레벨이 미리 정의된 진폭 임계값을 초과하는지 확인합니다.
@@ -120,7 +180,18 @@ void loop() {
 
 고역통과 필터
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하이 패스 필터는 일정한 차단 주파수보다 높은 주파수를 가진 신호를 통과시키고, 차단 주파수보다 낮은 주파수를 가진 신호를 약화시키는 전자 필터입니다. 이 필터는 낮은 주파수 신호를 통과시키지 않고, 대신 필터 설계에 따라 일관되게 차단합니다.
 
@@ -138,7 +209,18 @@ envelope = max(envelope, abs(highPass));
 
 highPass: 필터의 현재 값
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 알파: 알파는 일반적으로 0에서 1 사이의 값으로 범위하며, 필터의 차단 주파수를 결정하는 계수입니다. 알파 값이 낮을수록 차단이 더 뚜렷해지며, 이는 필터가 이전 상태를 더 오래 유지하게 한다는 것을 의미합니다. 그 반대로 높은 값은 값을 더 많이 변경하며 알파가 클수록 부드러운 차단이 이뤄집니다.
 
@@ -148,7 +230,18 @@ lastSample: 이것은 마이크로폰에서 이전에 입력한 샘플입니다.
 
 Envelope Detector: 엔벨롭 디텍터는 소리 처리 도구로, 소리 파형의 바깥쪽 한계를 캡처하는 데 사용됩니다. 이는 신호의 급격한 변화가 아닌 파형의 진폭의 느린 변화를 캡처하는 것을 의미합니다. 아래는 디지털 하이 패스 필터를 통과한 후의 파형의 결과입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 코드를 Markdown 형식으로 변경했습니다:
 
@@ -183,15 +276,15 @@ void loop() {
  // 단순 고주파 필터를 사용하여 저주파 노이즈 제거
  highPass = alpha * (highPass + sample - lastSample);
  lastSample = sample;
- 
+
  // 엔벨롭 감지기 - 정류하고 부드럽게
  envelope *= release;
  envelope = max(envelope, abs(highPass));
- 
+
  // 박수 감지 논리
  if (envelope > threshold) {
   unsigned long timeStart = millis();
-  
+
   while (millis() - timeStart < 100) { // 100ms 내에 빠른 감쇠 확인
    sample = analogRead(micPin);
    highPass = alpha * (highPass + sample - lastSample);
@@ -199,13 +292,13 @@ void loop() {
    envelope *= release;
    envelope = max(envelope, abs(highPass));
   }
-  
+
   if (envelope < threshold / 2) { // 엔벨롭이 감쇠해야 함
    // 박수 감지!
    digitalWrite(ledPin, ledState ? LOW : HIGH);
    ledState = !ledState;
   }
-  
+
   delay(500); // 다중 트리거 방지를 위한 디바운스 지연
  }
 
@@ -215,7 +308,18 @@ void loop() {
 
 이 코드는 상당히 잘 작동합니다. 소음이 큰 음악으로 테스트했을 때, 원하는 특성을 가진 짧은 소리 폭발 이외에는 스위치를 트리거할 수 없었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 시스템이 잘 작동하는 것을 확인했으니 강화를 시도해 볼 수 있을 것 같아요. 이를 위한 한 가지 방법은 트리거 소리의 파형을 더 복잡하게 만드는 것입니다. 우리는 박수 그 자체를 바꿀 수 없지만, 대신 1번의 박수 대신 2번 연속된 박수를 트리거로 인식할 수 있습니다. 이렇게 하면 책이 탁 탁하는 소리나 문이 쾅 하고 닫혀도 스위치가 작동하지 않을 가능성이 높아집니다. 이것은 간단한 선택이죠.
 
@@ -232,28 +336,51 @@ const unsigned long clapDelay = 1000;
 
 우리의 "박수 감지 로직" 안에서, 연속된 박수가 세어질 수 있는 시간 창문을 고려하면서 발견한 박수 횟수를 세는 이 코드 조각을 추가할 것입니다. 이는 500ms의 시간 창문 내에서 연속된 박수가 카운트될 수 있음을 의미하는데요. 이것은 특정한 박수 패턴을 갖게끔 하기 위해 연속된 박수를 계산하는 상한선을 여기에 표시하고 있음을 기억해 주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-if (timeNow - lastClapTime > 500) { // 클랩이 너무 가깝지 않게 500밀리초 간격 확인
- clapCount++;
- lastClapTime = timeNow;
+if (timeNow - lastClapTime > 500) {
+  // 클랩이 너무 가깝지 않게 500밀리초 간격 확인
+  clapCount++;
+  lastClapTime = timeNow;
 }
 ```
 
 여기서 중요한 점은 코드에서 clapCount가 이 시점에서 1만큼 증가했음에도 실제로 클랩으로 간주하려면 신호 읽기가 신속한 감쇠 테스트를 통과해야 한다는 것입니다. 따라서 그 코드를 구현해 보겠습니다.
 
 ```js
-if (clapCount == 2 && (millis() - lastClapTime <= clapDelay)) {
- digitalWrite(ledPin, ledState ? LOW : HIGH);
- ledState = !ledState;
- clapCount = 0; // 작업 후 클랩 횟수 카운터 재설정
+if (clapCount == 2 && millis() - lastClapTime <= clapDelay) {
+  digitalWrite(ledPin, ledState ? LOW : HIGH);
+  ledState = !ledState;
+  clapCount = 0; // 작업 후 클랩 횟수 카운터 재설정
 }
 ```
 
 여기서, 스위치를 토글하기 전에 클랩 횟수가 2이고 연이어 발생한 클랩이 clapDelay 시간 내에 있는지 확인합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막 코드 부분은 가정정리용입니다. 여기서 clapCount가 0보다 크고 현재 시간과 박수가 발생한 시간 간의 차이 (lastClapTime)가 clapDelay 시간 프레임을 벗어나는 경우 clapCount를 재설정합니다. 즉, clap이 clapDelay 시간 프레임을 벗어나 늙었으면 그 clap을 무시합니다. 이때 clapDelay는 lastClapTime 이후 1000ms입니다.
 
@@ -333,7 +460,18 @@ void loop() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 다음 수준으로 업그레이드해 보세요
 
@@ -346,7 +484,18 @@ void loop() {
 - 전원 케이블이 연장된 플러그
 - 고전압 기기에 연결할 여성 AC 전원 소켓
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 핀 재매핑
 
@@ -356,7 +505,18 @@ void loop() {
 
 마이크 연결은 그대로 유지됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-TheClapperHowtomakeaclapsensitiveswitchwithArduino_7.png" />
 

@@ -3,18 +3,13 @@ title: "1년 전 VS Code를 삭제하고 Neovim으로 전환한 이유"
 description: ""
 coverImage: "/assets/img/2024-06-23-OneYearAgoIUninstalledVSCodeandSwitchedtoNeovim_0.png"
 date: 2024-06-23 15:18
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-OneYearAgoIUninstalledVSCodeandSwitchedtoNeovim_0.png
 tag: Tech
 originalTitle: "One Year Ago, I Uninstalled VS Code and Switched to Neovim"
 link: "https://medium.com/@pthapa1/one-year-ago-i-made-a-monumental-change-uninstalled-vs-code-and-switched-to-neovim-3e8d078c87ad"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![image](/assets/img/2024-06-23-OneYearAgoIUninstalledVSCodeandSwitchedtoNeovim_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 거기에다가, 동시에 내 Logitech M510 시리즈 마우스가 작동하지 않는 문제가 발생했습니다 — 화면에서 지연되고 깜박이는 현상이 나타났습니다. 이 문제는 때때로 발생하지만 빈번하여 짜증이 났습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 이전에 ThePrimeagen의 YouTube 채널을 구독하고 있었습니다. 그의 독특한 성격과 컴퓨터를 빠른 속도로 조작하는 능력이 저를 매료시켜, 깊이 있는 도구 사용을 배우게 되었습니다. 그래서 나는 내 자신을 설득하여 마우스를 움직이지 않고 vim 명령어를 배워야겠다고 결심했습니다.
 
@@ -35,7 +40,18 @@ isUpdated: true
 
 vim 명령어의 숙달을 약속하는 여러 온라인 게임 및 터미널 기반 도구를 시도해 봤지만, 모두 잘 맞지 않았습니다. VS Code용 Vim 확장 프로그램을 사용해 보기도 했지만, 실망스러웠습니다. 확장 프로그램은 느린 에디터를 더 느리게 만들었고, 여러 문제가 있었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마침내 저는 Zed 텍스트 편집기로 전환했습니다, 비록 여러 가지 단점이 있지만 vim-motion 지원이 훨씬 더 원활했기 때문입니다. 저는 지속적으로 연습하여 모든 앱에서 vim 지원을 찾기 시작했습니다. 정확히 이 이유로 Obsidian을 제 메모 앱으로 선택했습니다. 결과적으로, 그렇게 어렵지 않았습니다. 필요한 대부분을 몇 주 만에 배웠죠.
 
@@ -45,7 +61,18 @@ Neovim의 전체 의도는 사용자의 취향에 맞게 설정하는 것입니�
 
 Github 저장소:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Kickstart.nvim. 모든 것이 한 파일에 있어 시작하기에 최적인 곳입니다.
 - ThePrimeagen. 전설 그 자체.
@@ -60,7 +87,18 @@ Github 저장소:
 
 YouTube
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Chris@machine의 Neovim 시리즈.
 - TypeCraft.
@@ -72,7 +110,18 @@ Neovim이 노트북 배터리를 태우지 않는다는 것을 좋아합니다. 
 
 게다가, VS Code에서는 너무 많은 확장 기능이 필요하지 않았습니다. 그래서 제가 떠나고 나서 그리워하는 확장 기능이 있지는 않습니다. Quokkajs를 제외하고요, 그것은 자바스크립트와 타입스크립트 스크래치패드입니다. 일단 quokka 대안으로, 제가 어떤 자바스크립트 코드를 시험해보고 싶을 때 빠르게 노드 프로젝트로 전환합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 터미널 기반 앱의 사용 경험은 키보드 조작 능력에 달려 있어요. 그래서 만약 키를 누르기 전에 각 키를 살펴봐야 하는 타자 타입이라면 Neovim은 당신을 위한 것이 아닙니다. 스위치하기 전에 키보드를 튼튼하게 다루는 능력이 필요해요. 제가 분당 80자 정도의 타자 능력을 갖고 있었기 때문에 이 문제는 전혀 발생하지 않았어요.
 

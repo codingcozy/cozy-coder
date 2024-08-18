@@ -3,7 +3,7 @@ title: "화학 개체 인식 자동화 ChemNER 모델을 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-13-AutomatingChemicalEntityRecognitionCreatingYourChemNERModel_0.png"
 date: 2024-07-13 03:49
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-AutomatingChemicalEntityRecognitionCreatingYourChemNERModel_0.png
 tag: Tech
 originalTitle: "Automating Chemical Entity Recognition: Creating Your ChemNER Model"
@@ -11,27 +11,45 @@ link: "https://medium.com/towards-data-science/text-mining-for-chemists-a-diy-gu
 isUpdated: true
 ---
 
-
-
-
-
 <img src="/assets/img/2024-07-13-AutomatingChemicalEntityRecognitionCreatingYourChemNERModel_0.png" />
 
 화학에 대한 흥미가 항상 강했어요. 그 흥미는 제 학업과 직업적인 여정을 형성하는 데 중요한 역할을 해 왔어요. 화학 배경을 가진 데이터 전문가로서, 제 과학적 그리고 연구 기술을 창의성, 호기심, 인내, 예리한 관찰, 그리고 데이터 프로젝트에 대한 분석 등과 결합하여 적용하는 여러 방법을 찾았어요. 이 기사에서는 제가 개발한 간단한 Named Entity Recognition (NER) 모델인 ChemNER의 개발 과정을 안내할 거에요. 이 모델은 텍스트 내의 화학 화합물을 식별하고 알칸, 알켄, 알킬인, 알코올, 알데하이드, 케톤, 또는 카르복실산과 같은 범주로 분류할 수 있어요.
 
-## 간단 요약: 
+## 간단 요약:
 
 ChemNER 모델로 놀고 싶거나 제가 만든 Streamlit 앱을 사용하길 원한다면 아래 링크를 통해 액세스할 수 있어요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **안녕하세요!**
 
-이번에 공유드릴 내용은 매우 흥미로운 것이에요! 
+이번에 공유드릴 내용은 매우 흥미로운 것이에요!
 
 오늘 함께 살펴볼 내용은 NER(Named Entity Recognition) 접근 방식에 대한 것이에요. 일반적으로 이 NER 접근 방식은 다음 3가지 범주 중 하나로 분류될 수 있답니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 렉시콘 기반: 클래스 및 용어 사전 정의
 - 규칙 기반: 각 클래스에 해당하는 용어에 대한 규칙 정의
@@ -43,7 +61,18 @@ ChemNER 모델로 놀고 싶거나 제가 만든 Streamlit 앱을 사용하길 �
 
 ML 접근 방식이 가장 강력할 수 있지만, 데이터 집합에 주석을 다는 것은 상당히 근사일 수 있습니다. (스포일러: 나는 모델을 교육할 것이지만 교육 목적으로 전체 과정을 보여주고 싶어합니다.) 대신, 미리 정의된 명명 규칙부터 시작해보는 것은 어떨까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 화학 명명법은 확립되고 명확히 정의된 규칙 세트를 갖고 있습니다. 이를 통해 우리는 분자 내에 어떤 기능성 기준이 있는지 쉽게 판별할 수 있습니다. 이러한 규칙들은 국제 순수 및 응용 화학 연합(IUPAC)에 의해 확립되었으며, IUPAC 블루 북, 다양한 웹사이트 또는 유기 화학 교과서에서 쉽게 찾을 수 있습니다. 예를 들어, 탄화수소는 탄소 및 수소 원자로만 구성된 화합물입니다. 알켄, 알케인 및 알카인이라는 세 가지 주요 탄화수소 클래스가 있으며, 이들은 각각 단일, 이중 또는 삼중 결합을 화학 구조의 일부로 갖고 있는지에 따라 쉽게 식별할 수 있습니다. 아래에는 세 가지 화학 화합물 예시(에탄, 에틸렌, 에틸인)를 보여드리겠습니다.
 
@@ -53,7 +82,18 @@ ML 접근 방식이 가장 강력할 수 있지만, 데이터 집합에 주석�
 
 # 규칙 수립
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 배경을 이해했으니, rule-based 접근 방식이 어떻게 Spacy를 사용하여 Python에서 구현될 수 있는지 보여드릴게요. 우선 가장 간단한 수소화탄소만 다루도록 시작할 거에요. 다른 클래스들은 나중에 추가할 거에요. 먼저, Spacy로 빈 영어 모델을 로드하고 'Entity Ruler' component를 파이프라인에 추가할 거에요:
 
@@ -78,7 +118,18 @@ patterns = [
 ruler.add_patterns(patterns)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 마치겠습니다! 이제 우리 모델에 공급할 텍스트를 만들어 보겠습니다!
 
@@ -100,7 +151,18 @@ for ent in doc.ents:
 부티인 22 28 ALKYNE
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미 잘 하고 계시네요! 그러나 이 초기 접근 방식에는 아마도 깨달았을 두 가지 즉각적인 한계가 있습니다.
 
@@ -118,7 +180,18 @@ for ent in doc.ents:
 ]
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 개체 지배자에게는 단수 및 복수 인스턴스가 모두 인식됩니다. 그러나 두 번째 문제는 여전히 존재합니다. 예를 들어, "신비한", "인간애로운", "관료", "찰나의", "길"과 같은 단어들이 텍스트에 포함되어 있다면 이들은 모두 부정확하게 "알케인"으로 라벨링될 것입니다.
 
@@ -130,7 +203,18 @@ for ent in doc.ents:
 
 본 문서에서는 앞선 두 가지 접근 방식에 대해서만 다룰 것입니다. 그러나 관심이 있다면, 향후 글에서 세밀하게 조정 과정이 어떻게 달성될 수 있는지 보여드리겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 데이터셋 생성하기
 
@@ -142,7 +226,18 @@ for ent in doc.ents:
 
 그리고 다른 관심 있는 클래스(알켄, 알키닌, 알콜, 키톤, 알데하이드, 카복실산)에 대해 같은 프롬프트를 반복했습니다. 7개 클래스를 가지고 있으므로 전체 350개의 문장으로 코퍼스를 완성했습니다. 이 이상의 대규모 코퍼스가 이상적이지만, 이것은 개념 증명을 목적으로 하고 있기 때문에 충분한 시작점이라고 생각합니다. 또한 필요에 따라 성능을 향상시키기 위해 필요한 만큼 데이터를 추가하는 것이 항상 더 쉽습니다. 문장들을 chem_text.txt 파일에 저장했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막 단계로, 문서의 각 문장을 분할하기 위해 문장 토크나이저를 사용하겠습니다.
 
@@ -157,46 +252,65 @@ for sent in doc.sents:
 
 이제 이 코퍼스가 준비되었으니 라벨링을 시작해야 합니다. 이를 수행하는 몇 가지 방법이 있습니다. 예를 들어, Prodigy와 같은 주석 도구를 사용할 수 있습니다(정말 놀라운 도구이니, NLP를 할 때 사용해보세요) 또는 이전에 사용한 규칙 기반 접근법을 사용하여 초기 주석 작업을 돕는 것도 가능합니다. 일단 저는 대규모 데이터셋을 주석 작업하지 않을 예정이기 때문에 모델 접근 방식을 사용하겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 DATA = []
 
 # 한번 더 말뭉치에 대해 반복합니다.
+
 for sentence in corpus:
-    doc = nlp(sentence)
-    
+doc = nlp(sentence)
+
     # Entity는 목록의 인덱스 1에 있는 딕셔너리 형식이어야 하므로 빈 목록이어야 합니다.
     entities = []
-    
+
     # Entity 추출
     for ent in doc.ents:
 
         # 올바른 형식으로 Entity에 추가합니다.
         entities.append([ent.start_char, ent.end_char, ent.label_])
-        
-    DATA.append([sentence, {"entities": entities}])
 
+    DATA.append([sentence, {"entities": entities}])
 
 내가 관심 있는 모든 클래스를 포함하려면 아래의 규칙을 업데이트해야 합니다:
 
-
 # 패턴 정의
-patterns = [
-    {"label": "ALKANE", "pattern": [{"TEXT": {"REGEX": ".*anes?$"}}]},
-    {"label": "ALKENE", "pattern": [{"TEXT": {"REGEX": ".*enes?$"}}]},
-    {"label": "ALKYNE", "pattern": [{"TEXT": {"REGEX": ".*ynes?$"}}]},
-    {"label": "ALCOHOL", "pattern": [{"TEXT": {"REGEX": ".*ols?$"}}]},
-    {"label": "ALDEHYDE", "pattern": [{"TEXT": {"REGEX": ".*(al|als|aldehyde|aldehydes)$"}}]},
-    {"label": "KETONE", "pattern": [{"TEXT": {"REGEX": ".*ones?$"}}]},
-    {"label": "C_ACID", "pattern": [{"TEXT": {"REGEX": r"\b\w+ic\b"}}, {"TEXT": {"IN": ["acid", "acids"]}}]}
-]
 
+patterns = [
+{"label": "ALKANE", "pattern": [{"TEXT": {"REGEX": ".*anes?$"}}]},
+{"label": "ALKENE", "pattern": [{"TEXT": {"REGEX": ".*enes?$"}}]},
+{"label": "ALKYNE", "pattern": [{"TEXT": {"REGEX": ".*ynes?$"}}]},
+{"label": "ALCOHOL", "pattern": [{"TEXT": {"REGEX": ".*ols?$"}}]},
+{"label": "ALDEHYDE", "pattern": [{"TEXT": {"REGEX": ".*(al|als|aldehyde|aldehydes)$"}}]},
+{"label": "KETONE", "pattern": [{"TEXT": {"REGEX": ".*ones?$"}}]},
+{"label": "C_ACID", "pattern": [{"TEXT": {"REGEX": r"\b\w+ic\b"}}, {"TEXT": {"IN": ["acid", "acids"]}}]}
+]
 
 규칙 기반 접근 방식을 실행한 결과, 아래와 같이 데이터셋을 빠르게 주석 처리할 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지 링크에 Markdown 형식을 사용해 주세요.
 
@@ -214,7 +328,7 @@ DATA = []
 # 코퍼스를 반복
 for sentence in corpus:
     doc = nlp(sentence)
-    
+
     entities = []
 
     # 엔티티 추출
@@ -229,12 +343,22 @@ for sentence in corpus:
 
 이제 훈련 및 테스트 세트를 만들 준비가 되었어요. 이 작업은 scikit-learn의 train_test_split 함수를 사용하여 쉽게 할 수 있어요. 저는 표준 80:20 훈련:테스트 분할을 사용했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 데이터 분할하기
-train_data, valid_data = train_test_split(DATA, test_size=0.2, random_state=42)
 
+train_data, valid_data = train_test_split(DATA, test_size=0.2, random_state=42)
 
 ## 모델 훈련하기
 
@@ -242,8 +366,18 @@ train_data, valid_data = train_test_split(DATA, test_size=0.2, random_state=42)
 
 ![Training Results](/assets/img/2024-07-13-AutomatingChemicalEntityRecognitionCreatingYourChemNERModel_4.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 그래프들은 이 모델의 F1 점수, 정밀도, 재현율 및 전체 점수가 꾸준히 향상되고 있다는 것을 보여줍니다. 이는 좋은 신호입니다. NER 손실은 NER 구성 요소 전체의 손실에 대응되는데, 이는 최소값을 향해 갈 듯 합니다. 모델의 최종 성능 점수는 0.97로, 약간으로 유망해 보입니다.
 
@@ -253,8 +387,18 @@ train_data, valid_data = train_test_split(DATA, test_size=0.2, random_state=42)
 
 간단한 테스트를 해보겠습니다. 몇 가지 문장을 입력하여 얼마나 잘 분류하는지 확인해보겠습니다. 아래 결과를 확인할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Extracted entities](/assets/img/2024-07-13-AutomatingChemicalEntityRecognitionCreatingYourChemNERModel_5.png)
 
@@ -264,9 +408,18 @@ Great job! It looks like all the relevant entities were successfully extracted a
 
 To further challenge my model, I've decided to conduct a stress test by providing it with an entire Wikipedia article. I plan to create a quick routine to achieve this using the wikipedia-api package in Python:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 코드를 Markdown 형식으로 변경하겠습니다.
 
@@ -300,8 +453,18 @@ article_content = get_wikipedia_article(article_title)
 
 이 과정의 결과는 다음과 같습니다:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오예! 쿼리가 작동되는 것을 확인했으니 이제 ChemNER 모델을 실행해 봅시다. Benzene 기사에서 ChemNER 모델은 총 444개의 엔티티를 추출했어요. 이 엔티티 추출은 1초도 걸리지 않았어요. 결과를 데이터프레임에 넣고 아래의 카운트 플롯에서 라벨 수를 시각화했답니다:
 
@@ -309,7 +472,18 @@ article_content = get_wikipedia_article(article_title)
 
 그 기사에서 가장 일반적인 클래스는 alkene이었어요. 이는 Benzene이 해당하는 화합물 클래스라는 점을 감안하면 말이 되는 선택이에요. 조금 놀라운 점은, 이 특정 기사에는 각 클래스에 속하는 엔티티가 있었다는 것이었어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이거 짱이에요! 하지만 추출된 엔티티 데이터프레임의 처음 몇 행을 빠르게 살펴보니 모델에 문제가 있는 것 같아요. '화학'과 '육각형'이라는 단어가 알데하이드로 레이블링되었고 '하나'라는 단어가 케톤으로 레이블링되었어요. 이것들은 분명히 화합물이 아니며 해당 분류로 지정되어서는 안 됩니다. 제가 각 엔티티를 수동으로 올바르게 식별했고 추출 정확도가 70.3%임을 확인했어요. 모델이 학습한 규칙에 따라 '올바르게' 레이블링된 모든 추출된 엔티티든 있었지만, 모델이 아직 단어의 문맥을 제대로 학습하지 못했어요.
 
@@ -319,7 +493,18 @@ article_content = get_wikipedia_article(article_title)
 
 이 시점에서 우리가 취할 수 있는 몇 가지 방법이 있어요. 한 가지 방법은 말뭉치로 돌아가 모델이 학습할 예시 데이터를 더 생성하는 거에요. 다른 한 가지 방법은 명명된 엔티티 연결(NEL)을 사용하여 레이블을 보정하는 거예요. 좀 덜 시간이 소요되는 후자의 옵션을 선택할게요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # PubChem을 활용한 NEL
 
@@ -339,7 +524,18 @@ compound_name = "benzene"
 compound_info = get_compound_info(compound_name)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 쿼리의 결과가 아래에 표시됩니다.
 
@@ -349,7 +545,18 @@ compound_info = get_compound_info(compound_name)
 
 ![Automating Chemical Entity Recognition](/assets/img/2024-07-13-AutomatingChemicalEntityRecognitionCreatingYourChemNERModel_10.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 이것을 제가 신청서를 돕는 데에 활용할 수 있을 것 같아요. 질의는 상당히 빠르지만, 프로세스를 좀 더 가속화하기 위해 중복 엔티티를 제거하여 오직 고유 용어만을 쿼리하도록 할 거예요. 게다가, PubChem API는 우리가 개별 화합물을 쿼리하는 것으로 가정하는 것 같아요. 따라서 cinammaldehydes와 같은 단어는 빈 쿼리를 반환할 거예요. 이건 복수 용어에서 끝에 붙은 's'를 제거함으로써 쉽게 해결할 수 있어요. 제 데이터프레임에 'Chemical Compound'라는 새 열을 만들기 위해 다음 코드를 사용했어요. 이 열을 통해 각 엔티티가 쿼리 결과에 따라 화합물인지 여부를 분류할 수 있을 거예요.
 
@@ -374,7 +581,18 @@ def update_chemical_compound(row):
 df_unique['Chemical Compound'] = df_unique.apply(update_chemical_compound, axis=1)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 멋지네요! 이제 444개의 결과가 담긴 원본 데이터프레임에 이 결과를 합칠 수 있어요.
 
@@ -386,10 +604,21 @@ df_merged = pd.merge(df_ents2, df_unique[['Entity', 'Chemical Compound']], on='E
 
 다음으로, 화합물에 해당하지 않는 행은 제거할 거에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 'Chemical Compound' 값이 0인 행을 제거합니다.
+
 df_filtered = df_merged[df_merged['Chemical Compound'] != 0]
 
 ![Markdown](/assets/img/2024-07-13-AutomatingChemicalEntityRecognitionCreatingYourChemNERModel_13.png)
@@ -398,8 +627,18 @@ df_filtered = df_merged[df_merged['Chemical Compound'] != 0]
 
 ![Markdown](/assets/img/2024-07-13-AutomatingChemicalEntityRecognitionCreatingYourChemNERModel_14.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 정말 멋져요! 모든 추출된 엔티티들이 이제 올바르게 레이블이 붙었어요. NER 모델과 PubChem을 통한 NEL을 결합하여 텍스트에서 엔티티를 추출할 뿐만 아니라 결과를 중의성 해소하고 그것을 사용하여 레이블링 정확도를 크게 향상시킬 수 있게 되었어요.
 
@@ -409,7 +648,18 @@ df_filtered = df_merged[df_merged['Chemical Compound'] != 0]
 
 ![Inference API Results](/assets/img/2024-07-13-AutomatingChemicalEntityRecognitionCreatingYourChemNERModel_15.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이용하거나 제안사항이 있으면 언제든지 알려주세요! 미래에 모델을 확장할 계획이 있으며 탐색하고 싶은 다른 기능들이 있습니다.
 
@@ -417,7 +667,18 @@ df_filtered = df_merged[df_merged['Chemical Compound'] != 0]
 
 모델을 배포했으니 이제 Streamlit 앱에서 이를 사용할 수 있습니다. 이 앱을 통해 사용자는 위키피디아 문서에 링크하거나 가공되어야 하는 원시 텍스트를 입력할 수 있습니다. 이후 ChemNER 모델에 의해 처리될 것입니다. 이 루틴의 출력물로는 추출된 및 레이블이 지정된 엔티티로 이루어진 다운로드 가능한 데이터프레임, 제공된 텍스트에서 각 레이블의 수를 보여주는 카운트 플롯, 그리고 텍스트의 전체적으로 주석이 달린 버전이 제공됩니다. Streamlit 앱은 여기에서 확인하실 수 있습니다: [chemner-5i7mrvyelw79tzasxwy96x.streamlit.app](https://chemner-5i7mrvyelw79tzasxwy96x.streamlit.app/)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래처럼 벤젠에 대한 위키피디아 문서를 검색해보겠습니다. 결과는 다음과 같이 각 클래스가 고유한 색으로 표시된 주석이 붙은 버전의 문서입니다.
 
@@ -427,7 +688,18 @@ df_filtered = df_merged[df_merged['Chemical Compound'] != 0]
 
 ![데이터프레임](/assets/img/2024-07-13-AutomatingChemicalEntityRecognitionCreatingYourChemNERModel_18.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

@@ -3,7 +3,7 @@ title: "AI 얼굴 스왑 배틀 PuLID vs InstantID vs FaceID"
 description: ""
 coverImage: "/assets/img/2024-06-22-AIfaceswapbattlePuLIDvsInstantIDvsFaceID_0.png"
 date: 2024-06-22 21:45
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-AIfaceswapbattlePuLIDvsInstantIDvsFaceID_0.png
 tag: Tech
 originalTitle: "AI face swap battle: PuLID vs InstantID vs FaceID"
@@ -11,17 +11,24 @@ link: "https://medium.com/design-bootcamp/ai-face-swap-battle-pulid-vs-instantid
 isUpdated: true
 ---
 
-
-
-
-
 오늘은 ComfyUI 워크플로우를 사용하여 PuLID, InstantID 및 IP-Adapter의 FaceID-V2와 같은 세 가지 AI 얼굴 교체 기술을 비교해보려고 해요. 이러한 기술은 얼굴 인식, 얼굴 감지 및 얼굴 정렬을 위해 설계된 깊은 얼굴 분석 라이브러리 인 InsightFace를 기반으로 합니다. InsightFace는 상업적 라이센스가 필요하다는 점을 유의해 주세요.
 
 IP-Adapter FaceID는 이러한 기술 중에서 처음에 소개되었고, 그 뒤를 이어 InstantID가 나왔으며, 가장 최근에 PuLID가 나왔어요.
 
 각각의 프로그램은 얼굴 참조 이미지가 필요하기 때문에 교체된 얼굴의 효과는 제공하는 참조 이미지의 품질과 적합성에 크게 의존합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 세 가지 얼굴 교체 방법의 결과를 ComfyUI 워크플로우를 사용하여 비교할 것입니다. 여기서 다운로드할 수 있어요.
 
@@ -31,7 +38,18 @@ IP-Adapter FaceID는 이러한 기술 중에서 처음에 소개되었고, 그 �
 
 비디오 콘텐츠와 함께 Stable Diffusion에 더 자세히 파고들고 싶은 분들을 위해 이 글에 부가된 매력적인 비디오 튜토리얼을 확인하실 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # ComfyUI Workflow 설정하기
 
@@ -42,7 +60,18 @@ IP-Adapter FaceID는 이러한 기술 중에서 처음에 소개되었고, 그 �
 
 ![이미지](/assets/img/2024-06-22-AIfaceswapbattlePuLIDvsInstantIDvsFaceID_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2️⃣ 필요한 모델 설치하기:
 
@@ -54,7 +83,18 @@ IP-Adapter FaceID는 이러한 기술 중에서 처음에 소개되었고, 그 �
 
 예를 들어 PuLID의 경우, 미리 학습된 모델을 다운로드하여 ComfyUI/models/pulid/ 폴더에 위치시킵니다. 첫 실행 시 추가 모델을 자동으로 다운로드합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Workflow Structure
 
@@ -64,7 +104,18 @@ At the bottom, these nodes are common to PuLID, InstantID, and FaceID. They use 
 
 ![Image](/assets/img/2024-06-22-AIfaceswapbattlePuLIDvsInstantIDvsFaceID_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2️⃣ 모델 노드 그룹:
 
@@ -74,7 +125,18 @@ At the bottom, these nodes are common to PuLID, InstantID, and FaceID. They use 
 
 3️⃣ 참조 이미지 노드:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에 있는 "Face" 노드("Load Image" 노드)는 세 기술 모두에 사용되는 참조 사진을 로드합니다.
 
@@ -84,7 +146,18 @@ At the bottom, these nodes are common to PuLID, InstantID, and FaceID. They use 
 
 ## 진행 방법
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 모든 노드 및 모델이 올바르게 설치되고 구성되었는지 확인하십시오.
 - 워크플로를 가져오고 노드 연결 및 구성을 확인하십시오.
@@ -101,7 +174,18 @@ At the bottom, these nodes are common to PuLID, InstantID, and FaceID. They use 
 - 얼굴 유사성: 생성된 이미지와 참조 이미지 사이의 닮은 정도.
 - 얼굴 세부 사항: 얼굴의 질감과 세부 풍부함.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 비교 분석
 
@@ -111,8 +195,18 @@ At the bottom, these nodes are common to PuLID, InstantID, and FaceID. They use 
 
 💠 두 번째 이미지 세트
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image 1](/assets/img/2024-06-22-AIfaceswapbattlePuLIDvsInstantIDvsFaceID_7.png)
 
@@ -122,9 +216,18 @@ At the bottom, these nodes are common to PuLID, InstantID, and FaceID. They use 
 
 💠Fourth set of pictures
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-22-AIfaceswapbattlePuLIDvsInstantIDvsFaceID_9.png)
 
@@ -135,8 +238,18 @@ From my observations:
 - InstantID scores the highest overall, followed closely by FaceID.
 - PuLID lags behind the other two.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 InstantID는 최고의 결과를 제공하지만, 가장 많은 자원을 사용합니다. 최종적으로 최선의 선택은 귀하의 특정한 요구 사항에 달렸습니다.
 
@@ -146,7 +259,18 @@ InstantID는 최고의 결과를 제공하지만, 가장 많은 자원을 사용
 
 ## 기사가 마음에 드셨나요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그렇다면:
 

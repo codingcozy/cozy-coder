@@ -3,7 +3,7 @@ title: "Segment-Anything ModelSAM의 디코더 작동 방식은"
 description: ""
 coverImage: "/assets/img/2024-07-10-HowdoestheSegment-AnythingModelsSAMsdecoderwork_0.png"
 date: 2024-07-10 00:11
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-10-HowdoestheSegment-AnythingModelsSAMsdecoderwork_0.png
 tag: Tech
 originalTitle: "How does the Segment-Anything Model’s (SAM’s) decoder work?"
@@ -11,27 +11,46 @@ link: "https://medium.com/towards-data-science/how-does-the-segment-anything-mod
 isUpdated: true
 ---
 
-
-
-
-
 2024년 7월 10일 - 세그먼트 물체 모델 (Segment-Anything Model, SAM)의 디코딩 과정에 대한 심층 분석을 진행하겠습니다. 이 논문은 SAM의 디코더에 초점을 맞추고, 그 자가 주의와 상호주의 메커니즘이 어떻게 작동하는지에 대해 다뤄보겠습니다.
 
 이 기사에서는 SAM의 인코더가 아닌 디코더에만 초점을 맞추고 있습니다. SAM의 인코더에 관심이 있는 분들은 다른 기사 "세그먼트 물체 모델 (SAM)의 인코더는 어떻게 작동할까요?"를 참조해주세요.
 
 세그먼트 물체 모델 (SAM)은 2D 대화형 세그멘테이션 모델이며, 안내형 모델입니다. SAM은 이미지를 세그먼트화하기 위해 사용자 입력을 필요로 합니다. 이 입력은 모델에게 어디를 세그먼트해야 하는지 알려줍니다. 모델의 출력은 서로 다른 수준의 세그멘테이션 마스크 집합과 각 마스크에 연관된 확신 점수입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Segmentation mask은 입력 이미지와 동일한 크기의 2D 이진 배열입니다. 이 2D 배열에서 (x, y) 위치에 있는 항목은 해당 위치 (x, y)의 픽셀이 분할된 영역에 속한다고 모델이 판단하면 값이 1입니다. 그렇지 않으면 항목은 0입니다. 이 신뢰 점수는 모델이 각 분할의 품질에 대한 믿음을 나타내며, 높은 점수는 더 높은 품질을 의미합니다.
 
 SAM의 네트워크 아키텍처는 인코더와 디코더로 구성되어 있습니다:
+
 - 인코더는 이미지와 사용자 프롬프트 입력을 받아 이미지 임베딩, 이미지 위치 임베딩 및 사용자 프롬프트 임베딩을 생성합니다.
 - 디코더는 다양한 임베딩을 입력으로 받아 세그멘테이션 마스크와 신뢰 점수를 생성합니다.
 
 이 기사는 SAM의 디코더 작동 방식에 중점을 두고 있습니다. 인코더에 대해 다른 기사를 작성할 예정입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # SAM의 입력과 출력
 
@@ -43,7 +62,18 @@ SAM은 세그먼트화할 입력 이미지 외에도 사용자 프롬프트를 �
 - 바운딩 박스. 바운딩 박스는 항상 긍정적인 신호로, 생성된 세그먼테이션 마스크가 상자 영역 내에 있어야 한다는 모델에게 알려줍니다. 부정적인 바운딩 박스는 없습니다. SAM은 여러 개의 바운딩 박스를 받을 수 있습니다.
 - 밀도 마스크. 밀도 마스크는 입력 이미지와 동일한 크기의 2D 이진 배열 형태로 표현됩니다. 이 2D 배열의 값이 1인 항목은 모델에게 마스크로 예측해야 하는 픽셀을 알려줍니다. 밀도 마스크 프롬프트는 항상 긍정적인 신호입니다. SAM은 하나의 밀도 마스크 프롬프트를 받을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Mouse 클릭 및 바운딩 박스 클릭을 희소 프롬프트라고 부릅니다.
 
@@ -53,7 +83,18 @@ SAM의 디코더는 주어진 프롬프트의 모호성을 처리하기 위해 �
 
 예를 들어 말쥬 클릭 프롬프트가 주어지면, 다음 그림은 예측된 세 가지 수준의 분할 마스크를 보여줍니다. 이 그림에서 초록색 별표는 마우스 클릭 위치를 나타냅니다. 파란 패치는 예측된 분할 마스크를 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 세분화 수준은 예측된 신뢰 점수인 iou 점수를 갖고 있습니다. "iou"는 "교차 부분을 교집합으로 나누었을 때"를 의미합니다. 이는 세분화 모델의 성능을 측정하는 기본 메트릭스입니다. 여기서 교차 부분을 교집합으로 나누는 개념은 엄밀하게는 사용되지 않으므로, 모델 관점에서의 예측 품질을 대략적으로 이해할 수 있는 점수로 이해해주세요.
 
@@ -63,7 +104,18 @@ SAM의 디코더는 주어진 프롬프트의 모호성을 처리하기 위해 �
 
 SAM 모델은 몇 개의 세분화 마스크 수준을 생성하나요? multimask_output 구성을 사용하여 모델은 3개의 마스크 수준 또는 한 가지 수준만 출력하도록 구성될 수 있습니다. 그러나 기저 모델 아키텍처는 항상 4개 요소 및 4개의 신뢰 점수로 마스크 배열(또는 동등하게 텐서)을 생성함으로써 이 두 경우를 함께 처리합니다. SAM이 단일 마스크를 출력하도록 구성된 경우, SAM은 마스크 배열에서 첫 번째 마스크를 반환하고, 그렇지 않은 경우에는 마스크 배열에서 나머지 세 마스크를 반환합니다. 신뢰 점수도 동일한 방식으로 처리됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SAM의 코드에 더 가깝게 유지하기 위해, 이 글에서는 언제나 SAM이 네 개의 마스크를 반환한다는 사실을 설명하겠습니다. 이렇게 함으로써, 내 설명에서의 텐서 모양이 코드에서의 모양과 일치하도록 할 것입니다.
 
@@ -73,9 +125,20 @@ SAM의 코드에 더 가깝게 유지하기 위해, 이 글에서는 언제나 S
 
 가끔은 설명을 더 쉽게 하기 위해 코드를 조정해야 할 때가 있습니다. 예를 들어, 동일한 변수 이름이 서로 다른 줄에서 여러 값을 받는 것은 좋지 않은 프로그래밍 스타일이므로 피해야 합니다. 그러므로 이 글에서 보여드리는 코드 스니펫은 원본 SAM의 구현과 동일하지는 않지만 원본에 가까운 내용입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-The SamPredictor.predict_torch method is a great resource for diving into how the SAM decoder operates. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+The SamPredictor.predict_torch method is a great resource for diving into how the SAM decoder operates.
 
 ![SAM Decoder](/assets/img/2024-07-10-HowdoestheSegment-AnythingModelsSAMsdecoderwork_2.png)
 
@@ -85,7 +148,18 @@ This method is divided into three key steps:
 2. Predicting low-resolution segmentation masks at various levels and their corresponding confidence levels, code lines 229 to 235.
 3. Interpolating low-resolution segmentation masks to match the original image size, code lines 237 to 238.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 디코딩 과정에서 중요한 텐서들
 
@@ -95,7 +169,18 @@ This method is divided into three key steps:
 
 원본 이미지는 임의의 높이 H와 너비 W를 가진 자연 이미지이므로 해당 텐서는 3채널 RGB를 가지며 모양은 3×H×W입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 네트워크에 도달하기 전에 임의 크기의 입력 원본 이미지는 채널을 유지한 채 고정 크기 1024×1024로 조정됩니다.
 
@@ -108,7 +193,18 @@ PromptEncoder 클래스는 또한 이미지 위치 임베딩을 생성하는데,
 **밀집 프롬프트 임베딩**
 다양한 종류의 사용자 프롬프트가 주어지면, PromptEncoder는 밀집 마스크 임베딩과 희소 임베딩을 생성합니다. 밀집 마스크 임베딩은 이미지 임베딩과 동일한 256×64×64 형태를 갖습니다. 이는 밀집 프롬프트 임베딩도 이미지 임베딩에 요소별로 추가되기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "희소 프롬프트 임베딩은 T×256 형태를 가지고 있습니다. 여기서 T는 토큰 수이며 256은 특성 벡터의 길이를 나타냅니다. 하나의 토큰은 희소 프롬프트나 희소 프롬프트 일부를 나타내는 텐서입니다 (바운딩 박스의 경우). 사용자의 희소 프롬프트 수에 따라 T의 값이 결정됩니다:
 
@@ -121,17 +217,39 @@ PromptEncoder 클래스는 또한 이미지 위치 임베딩을 생성하는데,
 예측된 저해상도 마스크 및 신뢰 점수
 이미지 임베딩, 이미지 위치 임베딩, 밀도 마스크 임베딩, 그리고 희소 프롬프트 임베딩을 감안할 때 MaskDecoder 클래스는 4 단계의 저해상도 분할 마스크와 4개의 신뢰 점수를 생성합니다."
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마스크의 형태는 level_of_masks × low_height × low_width인데요, 이는 4×256×256입니다. 확신 점수는 4개의 부동 소수점 숫자로 이루어져 있으며, 형태는 4×1입니다.
 
 # MaskDecoder가 어떻게 작동하는지
 
-SAM이 세그먼트 매스크를 생성하는 방법을 이해하는 가장 좋은 장소는 아래에 나와 있는 MaskDecoder.predict_masks 메소드입니다. 
+SAM이 세그먼트 매스크를 생성하는 방법을 이해하는 가장 좋은 장소는 아래에 나와 있는 MaskDecoder.predict_masks 메소드입니다.
 
 [MaskDecoder.predict_masks 메소드](/assets/img/2024-07-10-HowdoestheSegment-AnythingModelsSAMsdecoderwork_4.png)을 살펴보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 목록에서 src 변수를 132번째 줄부터 src2로 변경하여 132번째 줄 전에 있는 이미지 임베딩 (src로 불림)과 transformer 호출 이후에 출현하는 attended 이미지 임베딩 (src2로 불림)을 쉽게 구별할 수 있게 했습니다.
 
@@ -141,7 +259,18 @@ SAM이 세그먼트 매스크를 생성하는 방법을 이해하는 가장 좋�
 
 ![Flowchart](/assets/img/2024-07-10-HowdoestheSegment-AnythingModelsSAMsdecoderwork_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 The second part of the process involves adjusting the embeddings of the tokens in focus and the image to create lower resolution segmentation masks and confidence ratings. These modifications are straightforward, involving operations like MLP projections, matrix multiplications, and tensor upsampling.
 
@@ -151,7 +280,18 @@ The second part of the process involves adjusting the embeddings of the tokens i
 
 The input token tensor combines three components, following a set sequence: the iou_token first, followed by the mask_tokens, and then the sparse_prompt_embeddings tokens. Here, "input" indicates that this tensor serves as an input for the Transformer function call.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 The iou_token (in the blue box)
 
@@ -163,7 +303,18 @@ It's important to note that the input iou_token is not connected to any user inp
 
 You might wonder if the parameters within iou_token have to be trainable. Could we simply set them all to zeros? While that could be a possibility, the creators of the SAM model have chosen to make them trainable, potentially leading to improved model performance. The same rationale applies to mask_tokens, as explained in the following section.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **블루 박스 안의 mask_tokens**
 
@@ -173,7 +324,18 @@ You might wonder if the parameters within iou_token have to be trainable. Could 
 
 sparse_prompt_embeddings 입력 텐서는 크기가 다양합니다. 그 크기는 T×256이며, 여기서 T는 희소 프롬프트의 수를 나타냅니다. 따라서 더 많은 희소 프롬프트, 예를 들어 더 많은 가이드 클릭 또는 바운딩 박스는 T가 커진다는 것을 의미합니다. sparse_prompt_embeddings는 직접 PromptEncoder에서 왔으며, 간단히 토큰 텐서에 연결(concatenated)됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 세 부분으로 인해 입력 토큰 텐서의 형태는 (5+T)×256입니다. 여기서 T는 희소 프롬프트의 수이며, 따라서 토큰 텐서의 형태가 다양합니다.
 
@@ -183,7 +345,18 @@ iou_token, mask_tokens, 그리고 sparse_prompt_embeddings도 학습 가능한 �
 
 라인 126~127에서 image_embeddings 텐서는 밀집한 프롬프트 임베딩 텐서와 요소별로 더해져서 src 텐서를 형성합니다. 두 텐서 모두 256×64×64의 형태를 갖고 있으므로, src 텐서도 256×64×64의 형태를 가지며, 낮은 해상도 64×64(높이×너비)에서 이미지 정보를 밀집 마스크 프롬프트 정보와 혼합하여 제공합니다. 라인 126에서의 repeat_interleave 부분은 이해하시는 데 영향을 미치지 않으니 무시해 주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지 임베딩 텐서는 ImageEncoderViT 인코더에서 나오고, dense_prompt_embeddings 텐서는 PromptEncoder에서 나옵니다.
 
@@ -193,7 +366,18 @@ pos_src 텐서는 이미지 위치 인코딩으로, 형태는 256×64×64 입니
 
 ## transformer 호출
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 라인 132에서의 transformer 호출은 위 세 개의 텐서를 입력으로 받아 두 개의 새로운 텐서를 생성합니다. 이 두 텐서는 다음과 같습니다: 위에서 언급된 'hs'라는 이름의 주목 받는 토큰 임베딩 텐서와 'src2'라는 이름의 주목 받는 이미지 임베딩 텐서입니다.
 
@@ -204,17 +388,40 @@ Transformer 호출 내부의 어텐션 메커니즘은 세 입력으로부터 �
 
 주목 받는 토큰 임베딩 'hs'
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Attended tokens embedding 'hs'의 구조는 입력 토큰 임베딩 텐서와 동일한 구조와 모양을 가지고 있습니다. 구조적으로 'hs' 텐서는 iou_token, mask_tokens, sparse_prompt_embeddings 세 가지 부분으로 구성되어 있습니다. 그리고 그 모양 또한 (5+T)×256입니다.
 
 'hs' 텐서에서는 sparse_prompt_embeddings 부분을 무시하고 iou_token 부분과 mask_tokens 부분만을 마스크 생성에 사용합니다:
+
 - iou_token 부분은 신뢰도 점수를 생성하기 위해 사용됩니다.
 - mask_tokens 부분은 세그멘테이션 헤드를 생성하기 위해 사용됩니다.
 
 그렇다면 왜 무시되는 sparse_prompt_embeddings 부분이 있을까요? 이는 transformer 작업이 주의력 작업이기 때문에 입력과 출력의 모양이 동일하게 디자인되었기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **최종 세분화 마스크 및 신뢰 점수 생성**
 
@@ -222,7 +429,18 @@ Attended tokens embedding 'hs'의 구조는 입력 토큰 임베딩 텐서와 �
 
 두 번째 절반의 플로차트에서 세분화 마스크를 생성하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 To create four segmentation masks, SAM uses the conventional method of multiplying the segmentation head matrix with the attended image embedding approach, which is common in most segmentation models.
 
@@ -232,7 +450,18 @@ Next, the attended mask_tokens tensor is transformed into the hyper_in tensor wi
 
 In the second part of the flowchart, the attended image embedding tensor src2 with a shape of 256×64×64 is upscaled to 32×256×256. This means a reduction in feature dimension (from 256 to 32) but an increase in resolution (from 64×64 to 256×256). It is then reshaped into a 32×65536 tensor. This tensor will be multiplied by the segmentation head tensor to generate the segmentation masks.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 4×32 크기의 세분화 헤드 텐서를 32×65536 크기의 이미지 임베딩 텐서와 행렬곱하여 4×65536 크기의 세분화 마스크를 생성합니다. 이 마스크는 다시 4×256×256 크기로 변형됩니다. 이것이 마지막 세분화 마스크입니다 — 각 레벨에서 256×256의 낮은 해상도를 가진 4개의 마스크가 생성됩니다.
 
@@ -242,7 +471,18 @@ In the second part of the flowchart, the attended image embedding tensor src2 wi
 
 세분화 마스크의 네 가지 레벨에 대한 확신 점수를 생성하기 위해 MLP 네트워크 iou_prediction_head가 1×256 형태의 iou_token을 새로운 1×4 크기의 텐서로 투영합니다. 이 1×4 텐서의 각 항목은 해당 레벨의 세분화 마스크에 대한 확신 점수로 해석되는 부동 소수점 숫자입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Trainable Parameters
 
@@ -252,7 +492,18 @@ The second half of the flowcharts reveals the presence of trainable parameters i
 
 Now, let's delve into the workings of the attention mechanism within the transformer. The transformer call is specified in line 132 of `MaskDecoder.predict_mask`.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![How does the segment-anything models decoder work 7](/assets/img/2024-07-10-HowdoestheSegment-AnythingModelsSAMsdecoderwork_7.png)
 
@@ -262,10 +513,21 @@ Now, let's delve into the workings of the attention mechanism within the transfo
 
 이 메서드의 목적은 입력 인수에서 정보를 혼합하는 데 어텐션을 사용하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이미지 삽입 이미지 삽입 이미지 삽입의 밀도 마스크 인코딩이 이미 추가되어 있습니다(마스크 디코더의 predict_masks의 첫 번째 절반 참조),
-- 이미지 위치 임베딩 이미지_pe,
+- 이미지 위치 임베딩 이미지\_pe,
 - 희소 프롬프트 임베딩 포인트 임베딩,
 
 호출은 라인 150에서 산출결과로 고밀도 프롬프트 임베딩인 point_embed_attn4와 이미지 임베딩인 image_embed_attn2를 반환합니다.
@@ -274,13 +536,35 @@ Now, let's delve into the workings of the attention mechanism within the transfo
 
 ![How does the Segment-AnythingModelsSAMsdecoderwork](/assets/img/2024-07-10-HowdoestheSegment-AnythingModelsSAMsdecoderwork_9.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 florian이 TwoWayTransformer.forward 메서드의 수정된 버전 코드를 flowchart와 함께 확인해보도록 하겠습니다.
 
 ![segmentation flowchart](/assets/img/2024-07-10-HowdoestheSegment-AnythingModelsSAMsdecoderwork_10.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 라인 129~130에서는 메소드가 먼저 이미지 임베딩 텐서 image_embedding의 형태를 256×64×64에서 4096×256으로 변경했습니다. 코드 버전에서 라인 192에서 결과를 image_embedding1이라고 부르고, 그 다음에 라인 134에서 keys0 변수가 image_embedding1에 할당됩니다. 이미지 위치 임베딩 텐서 image_pe에 대해서도 동일한 형태 변경을 수행하여 4096×256의 image_pe1 텐서를 얻게 됩니다.
 
@@ -291,28 +575,61 @@ Now, let's delve into the workings of the attention mechanism within the transfo
 
 그리고 라인 139~141에서 point_embed_attn1과 image_embed_attn1이 동일한 TwoWayAttentionBlock을 통과하여 또 다른 주의 집중 버전을 생성합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-- 포인트 임베드 _ attn2의 형태는 (5+T)×256입니다.
-- 이미지 임베드 _ attn2의 형태는 4096×256입니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+- 포인트 임베드 \_ attn2의 형태는 (5+T)×256입니다.
+- 이미지 임베드 \_ attn2의 형태는 4096×256입니다.
 
 포인트 임베드 _ attn2 텐서는 최종 포인트 임베드 _ attn4를 생성하도록 추가 조작됩니다.
 
-이미지 임베드 _ attn2 텐서는 변경없이 호출자에게 반환되지만, 포인트 임베드 _ attn2 텐서는 라인 144에서 추가로 관찰되어 포인트 임베드 _ attn4 텐서를 생성한 후 반환됩니다. 우리는 라인 144에서 동일한 TwoWayAttentionBlock을 사용하기 때문에 이러한 추가 조작을 무시할 수 있습니다.
+이미지 임베드 _ attn2 텐서는 변경없이 호출자에게 반환되지만, 포인트 임베드 _ attn2 텐서는 라인 144에서 추가로 관찰되어 포인트 임베드 \_ attn4 텐서를 생성한 후 반환됩니다. 우리는 라인 144에서 동일한 TwoWayAttentionBlock을 사용하기 때문에 이러한 추가 조작을 무시할 수 있습니다.
 
 학습 가능한 매개변수는 라인 148의 레이어 정규화에서 관리됩니다. 다른 학습 가능한 매개변수는 TwoWayAttentionBlock에 존재합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 우리는 드디어 self.layers[0]의 관점에서 TwoWayAttentionBlock.forward 메서드에 깊게 들어가볼 때입니다. 아래에는 변수 이름이 의미 있는 코드 버전을 보여드렸어요. 이 메서드는 다음과 같은 입력을 받아들입니다:
 
 - 희소 프롬프트 임베딩 포인트 임베딩, 모양은 (5+T)×256
 - 이미지 임베딩 이미지 임베딩, 모양은 4096×256
-- 이미지 위치 임베딩 이미지_pe1, 모양은 4096×256.
+- 이미지 위치 임베딩 이미지\_pe1, 모양은 4096×256.
 
 그리고 새로운 두 개의 텐서를 반환합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - point_embed7_attn이라는 이름의 sparse prompt embedding이 참석한 embedding이 형성되었습니다. 이는 (5+T)×256의 모양을 가지고 있습니다.
 - image_embed2_attn이라는 이름의 이미지 embedding이 참석되었습니다. 이는 4096×256의 모양을 가지고 있습니다.
@@ -325,7 +642,18 @@ Now, let's delve into the workings of the attention mechanism within the transfo
 
 point 2와 point 3으로부터의 두 attentions은 클래스 이름인 TwoWayAttentionBlock을 제시했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 목록에서:
 
@@ -336,17 +664,39 @@ point 2와 point 3으로부터의 두 attentions은 클래스 이름인 TwoWayAt
 훈련 가능한 파라미터
 self.norm1와 같은 layernorm 연산, 그리고 self.mlp와 같은 mlp 연산에 있는 훈련 가능한 파라미터들입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 주목.앞으로 메커니즘
 
-위에서 소개 된 세 가지 주의 작업은 동일한 주의 메커니즘을 사용합니다. Attention.forward 방법에 구현되어 있습니다. 이제 우리가 탐구해야 할 최종 코드 조각입니다. 
+위에서 소개 된 세 가지 주의 작업은 동일한 주의 메커니즘을 사용합니다. Attention.forward 방법에 구현되어 있습니다. 이제 우리가 탐구해야 할 최종 코드 조각입니다.
 
 위의 세 가지 주의 때문에 이 주의 메커니즘을 이해하기 위해 Attention.forward에 세 번 다가가야합니다. 따라서 각 버전에는 각 주의 종류에 특화된 의미있는 변수명이 포함되어 있습니다. 즉, 프롬프트 토큰 자기 주의 종류, 토큰에서 이미지로의 종류 및 이미지에서 토큰으로의 종류입니다.
 
 ## Attention.forward의 희소 토큰 자기 주의 종류를 위한 함께하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![SAMs decoder](/assets/img/2024-07-10-HowdoestheSegment-AnythingModelsSAMsdecoderwork_12.png)
 
@@ -356,7 +706,18 @@ self.norm1와 같은 layernorm 연산, 그리고 self.mlp와 같은 mlp 연산�
 
 316~317번 줄은 동일한 선형 투사를 수행합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 선형 레이어는 입력 크기 T가 다양한 경우를 어떻게 처리합니까?
 
@@ -369,7 +730,18 @@ self.norm1와 같은 layernorm 연산, 그리고 self.mlp와 같은 mlp 연산�
 다중 헤드 분할
 319번 줄은 다중 헤드 분할을 수행합니다. (5+T)×256 텐서를 8×(5+T)×32 텐서로 변형하여, 첫 번째 차원 8이 헤드 수가 되도록 재구성합니다. 다중 헤드 분할의 목적은 8개의 헤드가 병렬로 처리될 수 있어 더 나은 병렬 계산을 달성하는 것입니다. 단점은 같은 헤드에서만 정보가 어텐션을 사용하여 혼합된다는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 플로우차트는 주요 행렬 연산을 설명합니다. 플로우차트에서 보이는 행렬 그리드는 실제 모양과 일치하지 않습니다. 이는 시연용일 뿐입니다.
 
@@ -379,7 +751,18 @@ q2×k3 곱셈
 
 q2 텐서는 point_embedding이고, k3 텐서는 전치된 point_embedding입니다. 그림에서 보듯이 q2의 형태는 (5+T)×32이며, 이는 여덟 개 헤드 중 하나에 대한 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결과적으로 어텐션 텐서는 쌍으로 이루어진 포인트 유사도 행렬로 해석됩니다. 이는 어텐션 행렬의 한 항목이 q2의 한 행과 k3의 한 열의 내적입니다. 내적은 두 벡터 사이의 유사도를 측정하는 것입니다. 여기서의 벡터는 토큰 s (가이던스 클릭, 바운딩 박스 코너, iou 토큰, 마스크 토큰)에 대한 임베딩입니다. 두 토큰 임베딩 간의 내적은 이 두 토큰이 얼마나 유사한지 알려줍니다. 플로차트에서는 이 내적을 보여주기 위해 빨간 벡터를 사용했습니다.
 
@@ -387,7 +770,18 @@ q2 텐서는 point_embedding이고, k3 텐서는 전치된 point_embedding입니
 
 이 내적은 정규화되지 않은 코사인 유사도와도 같습니다. 여기서 왜 코사인 유사도를 계산하지 않는지 궁금할 수도 있습니다. 여기에서는 그럴 필요가 없습니다. 이들 행렬에 후속으로 적용되는 여러 레이어 정규화 연산이 있기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 곱셈은 페어별 토큰 유사성 행렬을 점 임베딩 행렬과 곱하며, 우리는 이 결과를 self attended point embedding이라고 부릅니다. 그것을 왜 그렇게 부르는지 이해하기 위해 결과 행렬의 항목이 어떻게 계산되는지 다시 살펴 봅시다.
 
@@ -398,7 +792,18 @@ q2 텐서는 point_embedding이고, k3 텐서는 전치된 point_embedding입니
 가중치 행렬
 가중치 행렬은 입력 투영 작업 q_proj, k_proj, v_proj 및 출력 투영 작업 out_proj에 존재합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Attention.forward for cross attention from token embedding to image embedding kind
 
@@ -408,7 +813,18 @@ To achieve cross attention from token embedding to image embedding and obtain an
 
 Please note the linear projections from line 348 to 350, which reduce the channel size from 256 to 128. It's essential to differentiate this from token self-attention, where linear projections do not alter the channel size.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-10-HowdoestheSegment-AnythingModelsSAMsdecoderwork_17.png)
 
@@ -418,23 +834,41 @@ Please note the linear projections from line 348 to 350, which reduce the channe
 
 이상이 image 임베딩에서 토큰 임베딩으로의 교차 주의를 위한 Attention.forward입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지 주소가 Markdown 형식으로 바뀌었습니다.
 
-
 ![이미지 설명](/assets/img/2024-07-10-HowdoestheSegment-AnythingModelsSAMsdecoderwork_18.png)
-
 
 다시 한 번 언급하자면, 322번에서 324번 라인에서 채널 차원이 256에서 128로 줄었습니다.
 
-
 ![이미지 설명](/assets/img/2024-07-10-HowdoestheSegment-AnythingModelsSAMsdecoderwork_19.png)
-
 
 메커니즘은 이전에 설명한 다른 교차 어텐션과 동일하므로 여기에 다시 언급하지는 않겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결과
 

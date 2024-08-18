@@ -3,17 +3,13 @@ title: "증강 현실로 공룡 골격을 생생하게 재현하는 방법  튜�
 description: ""
 coverImage: "/assets/img/2024-07-02-UsingAugmentedRealitytoBringDinosaursSkeletonstoLifeaTutorial_0.png"
 date: 2024-07-02 22:49
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-02-UsingAugmentedRealitytoBringDinosaursSkeletonstoLifeaTutorial_0.png
 tag: Tech
 originalTitle: "Using Augmented Reality to Bring Dinosaurs Skeletons to Life — a Tutorial"
 link: "https://medium.com/better-programming/using-augmented-reality-to-bring-dinosaurs-skeletons-to-life-a-tutorial-db57c85e51d3"
 isUpdated: true
 ---
-
-
-
-
 
 ![AR-powered museum](/assets/img/2024-07-02-UsingAugmentedRealitytoBringDinosaursSkeletonstoLifeaTutorial_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 기본 아이디어는 매우 간단해요: 골격을 3D 프린트하여 조립하고 도색; 컴퓨터 비전 기술을 사용하여 공간에서 인식하고 추적; 뼈로 된 동물의 3D 디자인을 겹쳐 넣는 것입니다. 아래 이미지를 통해 보실 수 있어요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 간단한 사용 설명서에서는이 프로젝트를 누구나 재현할 수 있도록 과정을 자세히 설명하고 있습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 디자인을 선택하세요. 선택한 디자인을 원하는 프린터로 출력하세요. 레진을 사용하는 경우 인쇄물을 완전히 경화시키고 개인 보호구를 착용하세요. 골격을 도색하고 조립하세요(그 순서로 할 필요는 없습니다).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-07-02-UsingAugmentedRealitytoBringDinosaursSkeletonstoLifeaTutorial_1.png](/assets/img/2024-07-02-UsingAugmentedRealitytoBringDinosaursSkeletonstoLifeaTutorial_1.png)
 
@@ -43,8 +61,18 @@ isUpdated: true
 
 현재 이 정도로 갖추어져 있어야 합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-07-02-UsingAugmentedRealitytoBringDinosaursSkeletonstoLifeaTutorial_3.png)
 
@@ -54,8 +82,18 @@ If you don’t feel like designing your own skeleton, head over to Cults3D or ot
 
 The next step requires you to 3D scan your 3D printed skeleton because the computer vision tool we’ll use to recognize, track, and augment the dinosaur needs a 3D model as input.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "그러면 그냥 3D 프린팅 STL 파일을 사용하면 안 되냐고 묻는 소리가 들립니다. 그렇죠. 하지만, 인쇄된 조립품과 원본 STL 파일이 모든 면에서 완벽하게 1 대 1이어야만 가능합니다. 제 여러 시도 중 어디에서도 그런 경우를 발견하지 못했어요. 팔이 조금 더 들어간 각도로, 꼬리가 정확히 같은 각도에 위치해 있지 않았고, 두상이 더 앞으로 기울어져 있었죠... 그렇게 보이지 않을 수 있지만, 다음 단계에서 AR 오버레이가 물리적 프린트와 완벽하게 일치할 때 중요한 것입니다.
 
@@ -65,7 +103,18 @@ The next step requires you to 3D scan your 3D printed skeleton because the compu
 
 (예를 들어, 1:1 삼지창곤 영겁이)는 아마도 iPhone LIDAR로 충분히 정확하게 스캔할 수 있습니다. 그런 면에서 LIDAR 스캔에서 3D 모델을 출력할 수 있는 앱 (Polycam, Metascan 등)이 작동할 수 있어요. 그러나 충분히 큰 스켈레톤을 구한다거나 인쇄하는 것이 이 경우의 진정한 도전입니다…"
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작은 골과 이빨이 있는 것들, 길이가 50cm에서 1.5m(2-5 피트)인 경우에는 충분한 세부 사항을 스캔하기 위해 최소한의 포토그래메트리를 수행해야 할 것입니다. 이를 위한 내 기본 애플리케이션은 Polycam과 그의 포토 모드입니다. 무료는 아니지만 정기적으로 물건을 스캔해야 하는 경우 가격을 충분히 가치 있습니다. 사용하기 쉽고 사진을 올바르게 촬영하면 대부분의 경우 충분한 품질의 출력물을 제공합니다. Metascan이나 Qlone과 같은 많은 다른 애플리케이션들도 이제 유사한 포토그래메트리 파이프라인을 앱으로 제공합니다.
 
@@ -75,7 +124,18 @@ The next step requires you to 3D scan your 3D printed skeleton because the compu
 
 ![이미지](/assets/img/2024-07-02-UsingAugmentedRealitytoBringDinosaursSkeletonstoLifeaTutorial_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 3D 스캔된 모델은 3가지 목적으로 사용될 것입니다:
 
@@ -87,7 +147,18 @@ The next step requires you to 3D scan your 3D printed skeleton because the compu
 
 # 스켈레톤을 완성하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신의 뼈대 위에 고기, 깃털, 그리고 각질을 씌우는 것에 관한 것입니다. 아마도 몇 가지 조각 작업이 필요할 것입니다. 만약 당신이 인쇄된 스켈레톤과 일치하는 3D 모델에 접근할 수 있는 경우를 제외하고요. 심지어 이 경우에도, 그들은 아마도 인쇄본과 정확히 동일한 자세로 일치하지 않을 것이며, 크기나 일반 해부학적 오차에 문제가 있을 수 있습니다. 그래서 완벽하게 인쇄본과 일치하도록 모델을 재조정하고 포즈를 디자인하기 위해 어쩔 수 없이 3D 작업을 해야한다고 가정해주세요. 그래서 이 섹션의 나머지 부분에서는 처음부터 시작한다고 가정합니다.
 
@@ -97,7 +168,18 @@ The next step requires you to 3D scan your 3D printed skeleton because the compu
 
 ![이미지](/assets/img/2024-07-02-UsingAugmentedRealitytoBringDinosaursSkeletonstoLifeaTutorial_7.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 번째 옵션은 "리깅" 트랙입니다. 이를 위해 공룡을 "T" 자세로 조각내고, 리깅하고, 3D 스캔과 일치하도록 자세를 맞추어야 합니다. 이 방법은 추가 단계가 필요하며, 스켈레톤을 리깅하고 정점 가중치를 그리는 방법에 대한 지식이 필요합니다. 하지만 이렇게 함으로써 모델을 애니메이션화할 수 있고, 따라서 스켈레톤에서 "뛰어오르" 수 있어 경험에 추가적인 차원을 더할 수 있습니다. 또한 다른 실시간 응용 프로그램에서도 이 AR 경험을 넘어 모델을 재사용할 수 있다는 것을 의미합니다.
 
@@ -107,7 +189,18 @@ The next step requires you to 3D scan your 3D printed skeleton because the compu
 
 # AR 경험 만들기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 부분이 아마도 처음 링크를 클릭한 이유라고 생각되어 더 많은 내용을 자세히 설명하겠습니다. 하지만 Unity에 대해 어느 정도의 기본 지식이 있고, 패키지를 추가하는 방법, 에셋 스토어 자산을 가져오는 방법, 모바일 장치에 앱을 배포하는 방법을 알고 있다고 가정합니다.
 
@@ -122,7 +215,18 @@ The next step requires you to 3D scan your 3D printed skeleton because the compu
 - Vuforia VFX 라이브러리 자산
 - 고급 Dissolve 자산 (선택 사항)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 프로젝트 설정하기
 
@@ -132,7 +236,18 @@ The next step requires you to 3D scan your 3D printed skeleton because the compu
 
 프로젝트가 로드되면 dev.vuforia.com에서 다운로드한 Vuforia Engine Unity Package를 넣어주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-02-UsingAugmentedRealitytoBringDinosaursSkeletonstoLifeaTutorial_10.png" />
 
@@ -142,7 +257,18 @@ The next step requires you to 3D scan your 3D printed skeleton because the compu
 
 이제 Vuforia 설정 창에서 라이센스를 입력해야합니다. 이를 위해 먼저 Vuforia 개발자 동의서에 동의해야합니다: 도움말/Vuforia Engine/개발자 동의서 표시로 이동하여 수락하십시오. 그런 다음, dev.vuforia.com에서 Basic 라이센스를 생성해야합니다. 이미 완료되지 않은 경우 복사하여 App 라이센스 키 필드에 붙여넣으십시오. 이제 프로젝트에서 Vuforia Engine를 사용할 준비가 되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-07-02-UsingAugmentedRealitytoBringDinosaursSkeletonstoLifeaTutorial_12](/assets/img/2024-07-02-UsingAugmentedRealitytoBringDinosaursSkeletonstoLifeaTutorial_12.png)
 
@@ -152,7 +278,18 @@ The next step requires you to 3D scan your 3D printed skeleton because the compu
 
 이를 위해, 계층 구조에서 마우스 오른쪽 버튼을 클릭하고 Vuforia Engine 메뉴에서 "Sequence Recorder"를 선택하세요. 메인 카메라를 삭제한 후 다시 마우스 오른쪽 버튼을 클릭하고 Vuforia Engine 메뉴에서 "AR 카메라"를 선택하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-02-UsingAugmentedRealitytoBringDinosaursSkeletonstoLifeaTutorial_13.png" />
 
@@ -164,7 +301,18 @@ The next step requires you to 3D scan your 3D printed skeleton because the compu
 - Unity 프로젝트에서 패키지 매니저를 열어주세요.
 - 드롭다운 메뉴에서 내 자산을 선택하고 애셋 패키지를 Unity 프로젝트로 다운로드 및 가져오세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-02-UsingAugmentedRealitytoBringDinosaursSkeletonstoLifeaTutorial_14.png" />
 
@@ -174,7 +322,18 @@ The next step requires you to 3D scan your 3D printed skeleton because the compu
 
 당신의 씬은 이렇게 보일 것입니다. 하얀 펌프 모델이 추가된 모습입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-02-UsingAugmentedRealitytoBringDinosaursSkeletonstoLifeaTutorial_16.png)
 
@@ -184,7 +343,18 @@ The next step requires you to 3D scan your 3D printed skeleton because the compu
 
 여기에서 무슨 일이 일어나고 있는지 설명해드릴게요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이 장면에는 유니티가 사용할 수 있는 녹화물(펌프의 비디오)이 포함되어 있습니다. 이 비디오 피드와 녹화된 기기의 위치 데이터를 보포리아(Vuforia)에 공급하여 AR 장치로 대상을 보는 것을 시뮬레이션할 수 있습니다.
 - 장면에는 또한 펌프의 고급 모델 타겟이 포함되어 있어 인식 및 추적할 수 있습니다.
@@ -196,7 +366,18 @@ The next step requires you to 3D scan your 3D printed skeleton because the compu
 
 우리는 어떤 각도에서도 공간에 골격을 인식하고 추적하고 싶습니다. 이를 위해 이전에 획득한 3D 스캔을 Model Target으로 변환해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Vuforia 개발자 포털에서 Model Target Generator 도구를 다운로드하고 설치해야 합니다. 첫 번째 실행 시 Vuforia 계정으로 인증해야 합니다. 그런 다음 "Create New Model Target" 버튼을 클릭하세요.
 
@@ -206,7 +387,18 @@ Vuforia 개발자 포털에서 Model Target Generator 도구를 다운로드하�
 
 ![이미지](/assets/img/2024-07-02-UsingAugmentedRealitytoBringDinosaursSkeletonstoLifeaTutorial_19.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 방향과 크기가 잘 맞는다면, 앞으로 진행하세요. 색상 및 복잡도 단계는 이 프로젝트에 중요하지 않으므로 그냥 확인을 클릭하세요. "추적 최적화"에 대해 묻힐 때 "기본값"을 선택하고 확인하세요.
 
@@ -216,8 +408,18 @@ Vuforia 개발자 포털에서 Model Target Generator 도구를 다운로드하�
 
 ![이미지](/assets/img/2024-07-02-UsingAugmentedRealitytoBringDinosaursSkeletonstoLifeaTutorial_21.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Step 1](/assets/img/2024-07-02-UsingAugmentedRealitytoBringDinosaursSkeletonstoLifeaTutorial_22.png)
 
@@ -227,8 +429,18 @@ Click “Next Step”. In the new view, click the blue box (the Target Extent) a
 
 ![Step 3](/assets/img/2024-07-02-UsingAugmentedRealitytoBringDinosaursSkeletonstoLifeaTutorial_24.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로, 모델의 가시성에 기반하여 인식 범위를 조정하고 "사용자 정의 뷰 생성"을 클릭하세요.
 
@@ -238,8 +450,18 @@ Click “Next Step”. In the new view, click the blue box (the Target Extent) a
 
 모델 타겟이 거의 완료되었습니다. "고급 모델 타겟 생성"을 클릭하여 데이터베이스 생성을 완료하고 새로 생성된 데이터베이스 앞에 있는 "훈련"을 클릭하여 훈련을 시작해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image 1](/assets/img/2024-07-02-UsingAugmentedRealitytoBringDinosaursSkeletonstoLifeaTutorial_27.png)
 
@@ -249,8 +471,18 @@ Click “Next Step”. In the new view, click the blue box (the Target Extent) a
 
 After a couple of hours, the “Train” button switches to “Export”, allowing you to download a set of files, with one of them being a Unity Package. Simply drag and drop this package into your Unity project to add your Model Target. Now you're ready to recognize and track your skeleton in the next session.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 PS: 만약 Model Target에 대해 더 배우고, 작동 방식, 최선의 방법 및 해야 할 일과 하지 말아야 할 것들을 알고 싶다면, Vuforia 라이브러리 기사를 확인해보세요.
 
@@ -260,7 +492,18 @@ Model Target 유니티 패키지를 Unity 프로젝트에 가져온 후, 첫 번
 
 ![이미지](/assets/img/2024-07-02-UsingAugmentedRealitytoBringDinosaursSkeletonstoLifeaTutorial_30.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러면 "대상 표현 추가"를 클릭하세요. 골격의 3D 스캔이 이제 펌프 옆에 나타날 것입니다. 계층 구조에서 해당하는 게임 오브젝트도 볼 수 있습니다:
 
@@ -270,7 +513,18 @@ Model Target 유니티 패키지를 Unity 프로젝트에 가져온 후, 첫 번
 
 ![image](/assets/img/2024-07-02-UsingAugmentedRealitytoBringDinosaursSkeletonstoLifeaTutorial_32.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 "VSYPump_360" GameObject를 제거할 수 있습니다. 이제 스켈레톤을 인식하고 그 뼈들과 함께 멋진 "스캐닝" 효과를 볼 수 있어야 합니다. 바로 테스트하려면 "ARCamera" 컴포넌트를 선택하고 "Reload Scene With Recording"이라는 스크립트에서 컴포넌트 오른쪽 클릭/제거를 하세요.
 
@@ -280,7 +534,18 @@ Model Target 유니티 패키지를 Unity 프로젝트에 가져온 후, 첫 번
 
 이제 증강 현실에서 스켈레톤을 인식하고 추적할 수 있습니다! 원한다면 앱을 배포하여 실시간으로 테스트할 수 있습니다. VFX_Lightwave_Scan 효과의 "루프" 매개변수를 선택하여 계속 실행되도록 하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 추적된 해골이 준비되었으니 이제 그것을 당신이 만든 3D 조각된 살살한 덮개로 보강해야 합니다.
 
@@ -290,7 +555,18 @@ Model Target 유니티 패키지를 Unity 프로젝트에 가져온 후, 첫 번
 
 만약 3D 스캔 위에 조각했다면, 그들은 상자에서 완벽하게 정렬되어야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 그렇지 않으면, 이 단계에서 모델을 이동하거나 회전시켜 스켈레톤과 정렬할 수도 있어요.
 
@@ -300,7 +576,18 @@ Model Target 유니티 패키지를 Unity 프로젝트에 가져온 후, 첫 번
 
 ![image](/assets/img/2024-07-02-UsingAugmentedRealitytoBringDinosaursSkeletonstoLifeaTutorial_35.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째 필드에 Target Representation을 드래그하고 두 번째 필드에 Augmentation을 드래그해주세요.
 
@@ -310,13 +597,35 @@ Model Target 유니티 패키지를 Unity 프로젝트에 가져온 후, 첫 번
 
 <img src="/assets/img/2024-07-02-UsingAugmentedRealitytoBringDinosaursSkeletonstoLifeaTutorial_37.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로, 체크 상자를 해제하여 기본적으로 증강 기능을 비활성화하세요.
 
 녹화를 다시 재생하여 이벤트의 순서를 테스트해 봅시다. 이렇게 보일 것입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 오셨네요. 3D 프린트된 뼈대에 대한 AR 경험입니다. 또는 인식하고 추적하고 증강하고 싶은 다른 것이 있다면요.
 
@@ -324,11 +633,22 @@ Model Target 유니티 패키지를 Unity 프로젝트에 가져온 후, 첫 번
 
 - 대상이 움직이지 않고 주변 빛이 일정하면/안정적이라면, 자식으로 빛 근원을 추가하여 보다 현실적으로 증강을 조명할 수 있습니다. 가상과 실제 빛 근원을 조정하여 정렬합니다.
 - 여러 뼈대나 대상을 순차적으로 추적하고 싶다면 Model Target 데이터베이스를 만들 수 있습니다. 씬에 더 많은 Model Target을 추가하고 반복 프로세스를 실행하고 각각의 데이터베이스에서 올바른 대상을 선택합니다. 더 많은 정보는 여기에서 확인하세요.
-- 증강물이 너무 갑자기 나타난다면, 재료의 불투명도를 애니메이션화하거나 Advanced Dissolve 애셋과 같은 해체 쉐이더를 사용하여 출현을 완화할 수 있습니다. 이 애셋에 제공된 재료에는 설정 가능한 컷아웃 효과가 있어 가장자리, 컷아웃의 모양, 매핑 등을 제어할 수 있습니다. 파라미터(_AdvancedDissolveCutoutStandardClip)를 1에서 0으로 애니메이션화하면 증강이 점진적으로 나타나는 것처럼 보여 뼈대 주변에 성장하는 것처럼 만들어줍니다.
+- 증강물이 너무 갑자기 나타난다면, 재료의 불투명도를 애니메이션화하거나 Advanced Dissolve 애셋과 같은 해체 쉐이더를 사용하여 출현을 완화할 수 있습니다. 이 애셋에 제공된 재료에는 설정 가능한 컷아웃 효과가 있어 가장자리, 컷아웃의 모양, 매핑 등을 제어할 수 있습니다. 파라미터(\_AdvancedDissolveCutoutStandardClip)를 1에서 0으로 애니메이션화하면 증강이 점진적으로 나타나는 것처럼 보여 뼈대 주변에 성장하는 것처럼 만들어줍니다.
 
 <img src="/assets/img/2024-07-02-UsingAugmentedRealitytoBringDinosaursSkeletonstoLifeaTutorial_40.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Vuforia VFX 라이브러리에는 많은 효과가 포함되어 있습니다 (출현 효과, 히트맵, 엑스레이...), 이를 활용하여 쉽게 AR 경험을 업그레이드할 수 있습니다. 정보와 상호작용의 층을 추가하여 다양한 경험을 만들어보세요.
 - 이미지와 모델 대상을 동시에 추적할 수 있어 흥미로운 결합 가능성을 제공합니다.

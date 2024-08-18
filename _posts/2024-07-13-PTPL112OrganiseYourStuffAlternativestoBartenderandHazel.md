@@ -3,7 +3,7 @@ title: "PTPL 112 Bartender와 Hazel 대신 사용할 수 있는 정리 도구 �
 description: ""
 coverImage: "/assets/img/2024-07-13-PTPL112OrganiseYourStuffAlternativestoBartenderandHazel_0.png"
 date: 2024-07-13 22:05
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-PTPL112OrganiseYourStuffAlternativestoBartenderandHazel_0.png
 tag: Tech
 originalTitle: "PTPL 112: Organise Your Stuff— Alternatives to Bartender and Hazel"
@@ -11,17 +11,24 @@ link: "https://medium.com/produclivity/ptpl-112-organise-your-stuff-alternatives
 isUpdated: true
 ---
 
-
-
-
-
 ## 일반 텍스트; 종이, 적게 — 생산성 다이제스트
 
 이번 주에는 디지털 세계를 깔끔하게 정리할 수 있는 유틸리티 링크 4개와 함께 제공하고, 초보자를 위한 상위 10개의 Vim 명령어는 무엇인지 물어봅니다.
 
 여기에는 AI가 없습니다; 모든 단어, 아이디어 및 결함은 100% 인간이 만들었습니다. 유료 구독자는 대단히 격려를 해주시며 글쓰기를 계속할 수 있도록 돕지만, 비구독자들은 언제나 무료로 읽을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우선, 이번 주 소식을 간추린 이 판서에 오신 걸 환영합니다. 업무 마감 기한과 싫어하는 감기가 며칠 동안 나를 동행했기 때문에 잠시 쉬어가고 있어요.
 
@@ -34,7 +41,18 @@ isUpdated: true
 - Obsidian 플러그인들은 순수 텍스트 데이터에 영향을 주지 않아요. Lou Plummer의 목록은 앱들이 제공하는 편의성을 즐기면서도 데이터를 변경하지 않고 완전히 내 제어 아래 유지할 수 있는 좋은 예시에요. 이 주에 BRAT을 통해 설치한 스크롤 플러그인도 휴대폰에서 특히 편리하네요.
 - 새 주인들이 자신들의 데이터를 어떻게 다룰 지 걱정하는 사람들을 위한 Bartender 대안들을 요약했어요. 저는 아직 Bartender를 계속 사용하고 있어 대체할 만한 대안을 찾지 못했어요. 최근에 누군가가 Ice의 로드맵을 통해 결국 나 다 비기다 될 수도 있다고 말해줬어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 커맨드 라인 학습 업데이트
 
@@ -44,20 +62,30 @@ isUpdated: true
 
 Mastodon에서 초심자를 위한 상위 10개의 Vim 명령어를 물었고, 여기 그 중 하나의 답변이 있어요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-| x  | q!   |
-|----|------|
-| h  | j    |
-| k  | l    |
-| w  | b    |
-| x  | p    |
-| dd | cc   |
-| ciw|      |
-| daw|      |
-| v  | +v   |
-| %  | to match braces |
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+| x   | q!              |
+| --- | --------------- |
+| h   | j               |
+| k   | l               |
+| w   | b               |
+| x   | p               |
+| dd  | cc              |
+| ciw |                 |
+| daw |                 |
+| v   | +v              |
+| %   | to match braces |
 
 So far, I’m practicing with :q!, h j k l, w b, G g. What would your top 10 be? Let me know in the comments, or on Mastodon.
 

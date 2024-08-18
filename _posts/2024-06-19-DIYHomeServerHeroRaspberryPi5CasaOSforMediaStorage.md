@@ -3,17 +3,13 @@ title: "DIY 홈 서버 히어로 미디어 및 저장 용 Raspberry Pi 5  CasaOS
 description: ""
 coverImage: "/assets/img/2024-06-19-DIYHomeServerHeroRaspberryPi5CasaOSforMediaStorage_0.png"
 date: 2024-06-19 06:16
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-DIYHomeServerHeroRaspberryPi5CasaOSforMediaStorage_0.png
 tag: Tech
 originalTitle: "DIY Home Server Hero: Raspberry Pi 5 + CasaOS for Media , Storage"
 link: "https://medium.com/@kshitijdarwhekar/diy-home-server-hero-raspberry-pi-5-casaos-for-media-storage-17a18c7b4a0b"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-19-DIYHomeServerHeroRaspberryPi5CasaOSforMediaStorage_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 왜 홈 서버를 만들어야 할까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 비용 효율적: Raspberry Pi 5 기반 NAS는 상업용 NAS 솔루션보다 훨씬 저렴합니다.
 - 맞춤 설정: 운영 체제와 서버에서 실행할 서비스를 포함해 설정에 대한 완전한 제어권이 있습니다. 이를 통해 특정한 요구 사항에 맞게 맞춤 설정할 수 있습니다.
@@ -40,7 +47,18 @@ isUpdated: true
 - 이더넷 케이블 (안정적인 연결을 위해)
 - 외장 하드 드라이브 또는 SSD
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 소프트웨어
 
@@ -54,7 +72,18 @@ isUpdated: true
 
 Raspberry Pi Imager를 다운로드하고 Ubuntu Server를 마이크로 SD 카드에 플래시합니다. VNC 또는 모니터를 사용하여 Raspberry Pi에 부팅하고 화면에 표시된 지침에 따라 설정을 완료합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 터미널에서 업데이트 및 업그레이드 명령어를 입력하세요.
 
@@ -73,7 +102,18 @@ Ubuntu Server 24.04 LTS의 특징
 - 2038년 문제를 해결하기 위해 armhf에서는 기본으로 64비트 타임스탬프를 사용합니다.
 - AppArmor로 강제된 특권이없는 사용자 이름 영역이 기본적으로 제한됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 충돌하는 패키지를 모두 제거해야 해요. 다음 명령어를 실행해서 충돌하는 모든 패키지를 제거하세요.
 
@@ -98,7 +138,18 @@ sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 sudo apt-get update
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 도커 패키지를 설치하세요.
 
@@ -112,7 +163,18 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 sudo docker run hello-world
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 명령은 테스트 이미지를 다운로드하여 컨테이너에서 실행합니다. 컨테이너가 실행되면 확인 메시지를 출력한 후 종료됩니다.
 
@@ -126,7 +188,18 @@ Casa OS와 Casa Os를 선택한 이유는 무엇인가요?
 - 도커 컨테이너를 관리하기 위한 여러 대안이 인터넷에서 제공되지만, 그 중 몇 가지는 portainer, proxmox가 있습니다.
 - 저는 Casa Os를 선택했는데, 이는 초보자 친화적이며 설정이 쉽고 proxmox와 같은 다른 소프트웨어보다 적은 시스템 자원을 필요로 하기 때문입니다. Portainer는 검토할 수 있는 좋은 대안입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 다음 명령을 사용하여 시스템에 Casa Os를 설치하세요
 
@@ -138,7 +211,18 @@ curl -fsSL https://get.casaos.io | sudo bash
 
 사용 중인 브라우저를 열어 Casa Os 웹 UI가 준비되었는지 확인하세요. 터미널에서 얻은 URL을 사용해주세요. 이 URL은 라즈베리 파이의 IP 주소입니다. Casa Os에 액세스하려는 기기가 라즈베리 파이가 연결된 동일한 네트워크에 연결되어 있는지 확인하세요. 설정을 완료하기 위해 화면 안내에 따라 진행하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가서 계정 설정을 시작하려면 Go를 클릭하세요
 
@@ -148,7 +232,18 @@ curl -fsSL https://get.casaos.io | sudo bash
 
 ![이미지](/assets/img/2024-06-19-DIYHomeServerHeroRaspberryPi5CasaOSforMediaStorage_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 페이지에서는 까사 오스(Casa Os)에 대한 최신 소식을 받고 싶은지 물어볼 것입니다. 원하시는 대로 '예' 또는 '아니오'를 선택하실 수 있습니다.
 
@@ -158,7 +253,18 @@ curl -fsSL https://get.casaos.io | sudo bash
 
 # 단계 4 : 앱 스토어에서 앱 설치하기.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 원하는 모든 필수 앱 (기본적으로 도커 이미지입니다)을 다운로드하세요. 이 튜토리얼에서는 다음을 다운로드할 것입니다.
 
@@ -168,11 +274,33 @@ curl -fsSL https://get.casaos.io | sudo bash
 
 2. Nextcloud (Google 드라이브 대안)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 천천히 즐기며 작업하시고 계속 진행하시기 바랍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 외부 드라이브 또는 SSD가 라즈베리 파이의 USB 3.0 포트에 연결되어 있는지 확인해주세요. 앱이 설치된 후, 앱에 표시된 세 개의 점을 클릭하고 설정으로 이동해주세요. 여기서 도커의 모든 설정을 볼 수 있을 거에요. 포트, 네트워크, 볼륨, 환경 변수 등이 있어요. '볼륨'이 보이기 전까지 스크롤을 내려주세요. '호스트' 섹션에 외부 드라이브의 경로를 추가하고 '컨테이너' 섹션에 원하는 이름을 추가해주세요. 저는 "Lap"을 추가했어요. 아래 그림에서 확인할 수 있어요.
 
@@ -184,7 +312,18 @@ curl -fsSL https://get.casaos.io | sudo bash
 - 영화 : [https://jellyfin.org/docs/general/server/media/movies](https://jellyfin.org/docs/general/server/media/movies)
 - 음악 : [https://jellyfin.org/docs/general/server/media/music](https://jellyfin.org/docs/general/server/media/music)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 5: 원격 액세스를 위한 Cloudflare 터널 설정. (선택사항)
 
@@ -196,7 +335,18 @@ curl -fsSL https://get.casaos.io | sudo bash
 
 ![이미지](/assets/img/2024-06-19-DIYHomeServerHeroRaspberryPi5CasaOSforMediaStorage_8.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. "웹 사이트 또는 애플리케이션 추가"를 클릭하세요.
 
@@ -206,7 +356,18 @@ curl -fsSL https://get.casaos.io | sudo bash
 
 6. 아래로 스크롤하여 무료 요금제를 클릭하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-DIYHomeServerHeroRaspberryPi5CasaOSforMediaStorage_10.png)
 
@@ -216,7 +377,18 @@ curl -fsSL https://get.casaos.io | sudo bash
 
 ![이미지](/assets/img/2024-06-19-DIYHomeServerHeroRaspberryPi5CasaOSforMediaStorage_11.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 9. 이제 Cloudflare 터널 설정을 진행합니다. 사이드바에서 '제로 트러스트'를 선택하세요. 팀 이름을 선택해주세요. 원하는 것으로 입력하시면 됩니다.
 
@@ -226,7 +398,18 @@ curl -fsSL https://get.casaos.io | sudo bash
 
 ![이미지](/assets/img/2024-06-19-DIYHomeServerHeroRaspberryPi5CasaOSforMediaStorage_13.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 11. 지금 결제 세부 정보가 추가되었습니다. 네트워크의 사이드바 하단에 터널이 표시됩니다. 터널을 추가하고 클라우드플레어드를 커넥터로 선택해 주세요.
 
@@ -236,7 +419,18 @@ curl -fsSL https://get.casaos.io | sudo bash
 
 ![image](/assets/img/2024-06-19-DIYHomeServerHeroRaspberryPi5CasaOSforMediaStorage_15.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 13. 마지막 페이지에 터널을 위한 공개 호스트 이름을 추가하세요. 도메인 이름, 서브도메인(선택 사항) 및 서비스 유형을 입력하십시오. URL에는 IP 주소 및 특정 포트의 세부 정보를 입력합니다. 터널을 저장하고 나면 앱에 원격으로 액세스할 수 있습니다.
 
@@ -246,7 +440,18 @@ curl -fsSL https://get.casaos.io | sudo bash
 
 ## 도전 1: 원격 액세스를 위한 SSH 설정
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제가 모니터가 없어서 Raspberry Pi에 Putty 소프트웨어를 사용하여 ssh하고 싶었지만, 라즈베리 파이에 Ubuntu Server 24.04를 처음 설치했을 때 라즈베리 파이에 부팅할 수 없는 문제가 발생했습니다.
 
@@ -256,7 +461,18 @@ curl -fsSL https://get.casaos.io | sudo bash
 
 ## 도전 2: 원격 액세스 설정
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 집 서버에 원격으로 액세스하고 싶었습니다. 그렇게 하면 집에 없을 때도 파일을 관리하고 미디어를 스트리밍할 수 있을 것 같았어요. 그러나 원격 액세스를 안전하게 구성하는 것은 조금 복잡할 수 있어요.
 
@@ -269,7 +485,18 @@ curl -fsSL https://get.casaos.io | sudo bash
 
 # 향후 계획
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 클라우드플레어 터널 대신 tailscale 및 twingate 같은 소프트웨어를 사용하여 라즈베리 파이에 원격으로 액세스할 수 있습니다.
 - 미디어 서버를 자동화해서 사용자가 arr 앱을 사용하여 볼 미디어를 요청할 수 있습니다.

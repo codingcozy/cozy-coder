@@ -3,17 +3,13 @@ title: "100,000개의 AI 고양이 이미지를 생성하면서 배운 창의적
 description: ""
 coverImage: "/assets/img/2024-07-01-HowGenerating100000AICatImagesTaughtMeAboutOurCreativeEdge_0.png"
 date: 2024-07-01 00:42
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-01-HowGenerating100000AICatImagesTaughtMeAboutOurCreativeEdge_0.png
 tag: Tech
 originalTitle: "How Generating 100,000 AI Cat Images Taught Me About Our Creative Edge"
 link: "https://medium.com/design-bootcamp/how-generating-100-000-ai-cat-images-taught-me-about-our-creative-edge-355f55c06a5d"
 isUpdated: true
 ---
-
-
-
-
 
 작년 초부터 AI가 창의력을 가지고 있는지에 대한 의문을 품어왔어요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![Cat Image 2](/assets/img/2024-07-01-HowGenerating100000AICatImagesTaughtMeAboutOurCreativeEdge_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **오늘의 이야기는 내부적인 논쟁에 관련되어 있습니다. 나 뿐만 아니라 너에게도 영감을 줬으면 좋겠어.**
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 **이전에 나는 AI의 창의성이 인간의 창의성을 능가할 수 있다고 믿었어. 예를 들어, ChatGPT는 항상 난 해결하지 못했던 퍼즐에 창의적인 해법을 제시했어.**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 창의력이 정확히 뭔지 알고 있나요? 현재의 생각과는 거리가 먼 지점을 찾은 다음, 기존 지식과 연결시키는 것이죠. 상상력을 규정하는 것은 상자 밖을 생각하는 것이며, AI는 광범위한 모델 속에서 먼 점을 식별하는 데 뛰어납니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 # 하지만 AI는 미학과 판단력이 부족하죠
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AI가 심사, 사고 능력이 없다는 주장에 동의하지 않을 수 있습니다. "AI에게 학생들의 에세이를 평가하도록 요청했고, 그 기능이 훌륭했다"고 생각할 수도 있죠.
 
@@ -53,7 +82,18 @@ AI가 심사, 사고 능력이 없다는 주장에 동의하지 않을 수 있�
 
 "어떤 텍스트가 더 짧은가"와 같이 간단한 기준의 경우 AI가 잘 수행했습니다. 그러나 기준이 좀 더 복잡하거나 감성적인 경우, AI는 고전했습니다. 단락이 ABC 순서로 나열된 경우 A를, BCA 순서로 나열된 경우 B를, CAB 순서로 나열된 경우 C를 선택했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AI의 미적 감각 부족은 창의성으로 상쇄됩니다
 
@@ -61,7 +101,18 @@ AI의 미적 감각 부족은 창의성으로 상쇄됩니다
 
 AI의 능력이 발전함에 따라 프롬프트 작성과 품질 높은 콘텐츠 생성이 점점 더 쉬워지고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 예로 Midjourney를 들어보겠습니다. -sref 스타일 참조 매개변수가 도입되면서 특수한 예술 어휘에 대해 더 이상 걱정할 필요가 없어졌어요. 좋아하는 스타일의 이미지를 찾아서, -sref 다음에 이미지 링크를 붙여주기만 하면, 그 아름다운 스타일을 손쉽게 재현할 수 있답니다.
 
@@ -71,7 +122,18 @@ AI의 능력이 발전함에 따라 프롬프트 작성과 품질 높은 콘텐�
 
 심지어 참조 이미지가 필요하지 않아요 — 스타일 참조 코드만 있으면 돼요. 예를 들어, -sref 238978694는 환경, 식물, 동물, 소년, 소녀와 같은 프롬프트에 기반한 패턴을 생성해줍니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-07-01-HowGenerating100000AICatImagesTaughtMeAboutOurCreativeEdge_6.png)
 
@@ -81,7 +143,18 @@ AI의 능력이 발전함에 따라 프롬프트 작성과 품질 높은 콘텐�
 
 # 인간의 창의력은 여전히 큰 차이를 만들어냅니다
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 가지 흥미로운 걸 발견했어요! 저의 프로그램이 다양한 스타일로 고양이를 자동으로 생성했거든요. 처음에는 진정한 쥐처럼 놀라서 "와! 멋지다! 특별해!" 라고 생각했어요.
 
@@ -91,7 +164,18 @@ AI의 능력이 발전함에 따라 프롬프트 작성과 품질 높은 콘텐�
 
 결국, 생성된 스타일의 수가 너무 많아 머리가 아프기까지 했어요. 한 때 독특하고 아름답게 보였던 것들이 생성된 스타일의 양 때문에 평범해졌어요. 유망한 스타일 코드를 식별하려고 할 때, 평범한 창작물들이 많아 속상해졌어요. "발견"이 다시 일상 과제가 되었어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인간의 창의력과 결합된 잠재적인 스타일 코드가 정말 멋진 결과물을 만들어냅니다.
 
@@ -101,7 +185,18 @@ AI가 프롬프트 세트를 사용하여 자율적으로 창작을 시작할 �
 
 네, 가능합니다. 저는 인상적인 콘텐츠를 만들기 위해 일련의 작업을 따르는 AI를 위한 워크플로우를 설계했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 스타일에 따라 작가들 매칭하기: 독특한 스타일에 따라 작가들을 식별하고 매칭시킵니다.
 - 매치 확인하기: 유효한 매치를 확인하기 위해 여러 옵션을 제시하고, 단계 1에서 잘못 매칭된 항목을 제외합니다.
@@ -115,7 +210,18 @@ AI가 프롬프트 세트를 사용하여 자율적으로 창작을 시작할 �
 
 ![이미지](/assets/img/2024-07-01-HowGenerating100000AICatImagesTaughtMeAboutOurCreativeEdge_8.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 센스 있게 포즈를 취한 젊고 잘생긴 도리안 그레이의 빈 지루한 눈을 보셨나요? 그리고 오른쪽에 그의 손에 든 단검은 더블린 메리언 광장에 있는 와일드의 조각상 포즈를 반영하고 있군요.
 
@@ -125,7 +231,18 @@ AI가 프롬프트 세트를 사용하여 자율적으로 창작을 시작할 �
 
 위 과정은 매끄럽게 진행되며, 다양한 스타일과 이미지를 생성하며, 고퀄리티 결과물을 일정하게 제공하는 미친듯이 튜닝된 워크플로우를 보여줘요. 이러한 결과물들을 보면 누군가는 의문을 품을지도 몰라요: 왜 인간들이 휴식을 취하면서 인공지능이 모든 것을 처리하지 않는 걸까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 답이 명확해요 — 우리는 인간의 참여 가치를 강조해야 해요.
 
@@ -135,7 +252,18 @@ AI가 프롬프트 세트를 사용하여 자율적으로 창작을 시작할 �
 
 # 사람들과 AI가 협력하여 독특한 아름다움 보존하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자동 실행 스크립트를 중단하고 100,000마리의 고양이를 격리시켰어요.
 
@@ -145,7 +273,18 @@ AI가 인간의 문화를 "가우시안 블러"할 염려가 특히 크죠. 마�
 
 나에게 있어 AI는 평균으로 작용해요. 하지만 제 나름대로 창의력과 판단력을 AI의 창작물에 불어넣어요. 그렇게 하면 AI의 결과물에 영혼을 불어넣고, 나에게 진정한 가치를 지니는 작품을 만들어낼 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스타일 코드 라이브러리를 탐험하는 것은 의미가 있습니다. 선택과 정제에 지속적으로 인간의 개입이 필요한 에이전트 플로우는 가치가 있습니다.
 
@@ -153,7 +292,18 @@ AI가 인간의 문화를 "가우시안 블러"할 염려가 특히 크죠. 마�
 
 시신 리우의 '헤매는 지구'에서 나온 말씀이 저에게 울립니다: "인간이 없는 문명은 의미가 없습니다."
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 이 기사를 좋아하셨나요?
 

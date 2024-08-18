@@ -3,17 +3,13 @@ title: "위성 이미지에서 GANs적대적 생성 신경망을 사용하여 �
 description: ""
 coverImage: "/assets/img/2024-06-19-ErasingCloudsfromSatelliteImageryUsingGANsGenerativeAdversarialNetworks_0.png"
 date: 2024-06-19 18:49
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-ErasingCloudsfromSatelliteImageryUsingGANsGenerativeAdversarialNetworks_0.png
 tag: Tech
 originalTitle: "Erasing Clouds from Satellite Imagery Using GANs (Generative Adversarial Networks)"
 link: "https://medium.com/towards-data-science/erasing-clouds-from-satellite-imagery-using-gans-generative-adversarial-networks-2d7f8467ef2e"
 isUpdated: true
 ---
-
-
-
-
 
 ## 파이썬으로부터 GAN(Generative Adversarial Networks) 만들어 보기
 
@@ -23,8 +19,18 @@ GAN(Generative Adversarial Networks)이라는 아이디어는 2014년 Goodfellow
 
 적절히 균형 잡히고 충분히 크며 올바르게 전처리된 컴퓨터 비전 데이터셋을 준비하는 데에는 상당한 시간이 소요되므로, 저는 Kaggle에 어떤 것이 있는지 살펴보기로 결정했습니다. 이 작업에 가장 적합하다고 생각한 데이터셋은 EuroSat이며, 이는 오픈 라이선스를 가지고 있습니다. 이 데이터셋은 Sentinel-2에서 64x64 픽셀의 27000개의 레이블이 지정된 RGB 이미지로 구성되어 있고, 다중 클래스 분류 문제를 해결하기 위해 만들어졌습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-ErasingCloudsfromSatelliteImageryUsingGANsGenerativeAdversarialNetworks_1.png)
 
@@ -34,8 +40,18 @@ GAN(Generative Adversarial Networks)이라는 아이디어는 2014년 Goodfellow
 
 🐍전체 Python 코드: GitHub.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import numpy as np
@@ -119,7 +135,18 @@ def overlay_clouds(image, clouds, alpha=0.5):
     return blended
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 가로, 세로 = 64, 64
@@ -154,7 +181,18 @@ plt.show()
 
 위에서 볼 수 있듯이 이미지의 구름은 매우 현실적이며 다양한 "밀도"와 질감을 가지며 실제 구름과 유사합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 저처럼 Perlin 소음에 흥미를 느낀다면, 게임 개발 산업에서 이 소음이 어떻게 적용될 수 있는지에 대한 정말 멋진 비디오가 있어요!
 
@@ -164,7 +202,18 @@ plt.show()
 
 이 아이디어를 더 잘 설명하기 위해, 동남아시아를 여행하다가 밖이 너무 춥다고 느낄 때 후디가 절실하게 필요하다고 상상해 보세요. 가장 가까운 거리 시장에 가보니, 몇 가지 브랜드 의류가 있는 작은 가게를 발견했어요. 판매자가 유명한 브랜드 ExpensiveButNotWorthIt의 후디를 시도해보라며 괜찮은 후디를 가져다줍니다. 더 자세히 살펴보고 분명히 가짜라고 결론 내리게 됩니다. 판매자가 말합니다: '잠시만요, 진짜 것이 있어요.' 그가 다른 후디를 가져오는데, 브랜드 제품과 더 닮았지만 여전히 가짜입니다. 이와 같은 반복 작업을 몇 번 거친 후, 판매자가 전설적인 ExpensiveButNotWorthIt의 구별이 어려운 사본을 가져와 여러분은 기꺼이 구매하게 됩니다. 이것이 바로 GANs가 작동하는 방식입니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GAN의 경우, 당신은 판별자(D)라고 불립니다. 판별자의 목표는 진짜 물체와 가짜 물체를 구별하거나 이진 분류 작업을 수행하는 것입니다. 이에 반해, 생성자(G)는 높은 품질의 가짜를 생성하려고 하는 판매자라고 불립니다. 판별자와 생성자는 서로 능가하기 위해 독립적으로 훈련됩니다. 따라서 최종적으로 우리는 높은 품질의 가짜를 얻습니다.
 
@@ -181,8 +230,18 @@ GAN의 경우, 당신은 판별자(D)라고 불립니다. 판별자의 목표는
 - G 손실을 계산합니다. G의 예측을 D에 공급하여 이루어집니다.
 - G의 가중치를 업데이트합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Erasing Clouds from Satellite Imagery Using GANs](/assets/img/2024-06-19-ErasingCloudsfromSatelliteImageryUsingGANsGenerativeAdversarialNetworks_4.png)
 
@@ -192,8 +251,18 @@ In other words, we can define a value function V(G,D):
 
 where we want to minimize the term log(1-D(G(z))) to train G and maximize log D(x) to train D (in this notation x — real data sample and z — noise).
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 파이토치에서 구현해 봅시다!
 
@@ -211,7 +280,18 @@ from torchvision import transforms
 from torch.utils.data import Subset
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 class ResidualBlock(nn.Module):
@@ -358,7 +438,18 @@ class UNet(nn.Module):
 
 이제 데이터를 훈련/테스트 세트로 분할하고 torch 데이터 세트로 래핑해야합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 class dataset(Dataset):
@@ -416,8 +507,18 @@ scheduler_G = optim.lr_scheduler.StepLR(optimizer_G, step_size=10, gamma=0.1)
 
 이전 GAN 알고리즘 그림의 손실 함수와는 다른 것을 볼 수 있습니다. 특히 L1 손실을 추가했습니다. 이 아이디어는 우리가 무작위로 이미지를 생성하는 것이 아니라 입력에서 대부분의 정보를 유지하고 노이즈만 제거하려고 한다는 것입니다. 따라서 G 손실은 다음과 같을 것입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 G_loss = log(1 − D(G(z))) + 𝝀 |G(z)-y|
 
@@ -427,40 +528,60 @@ G_loss = log(1 − D(G(z)))
 
 𝝀 is an arbitrary coefficient, which balances two components of the losses.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 데이터를 분할하여 훈련 과정을 시작해봅시다:
 
 ```js
-test_ratio, train_ratio = 0.3, 0.7
-num_test = int(len(listdir(path_target)) * test_ratio)
-num_train = int((int(len(listdir(path_target))) - num_test))
+test_ratio, (train_ratio = 0.3), 0.7;
+num_test = int(len(listdir(path_target)) * test_ratio);
+num_train = int(int(len(listdir(path_target))) - num_test);
 
-img_size = (64, 64)
+img_size = (64, 64);
 
-print("훈련 샘플 수:", num_train)
-print("테스트 샘플 수:", num_test)
+print("훈련 샘플 수:", num_train);
+print("테스트 샘플 수:", num_test);
 
-random.seed(231)
-train_idxs = np.array(random.sample(range(num_test + num_train), num_train))
-mask = np.ones(num_train + num_test, dtype=bool)
-mask[train_idxs] = False
+random.seed(231);
+train_idxs = np.array(random.sample(range(num_test + num_train), num_train));
+mask = np.ones(num_train + num_test, (dtype = bool));
+mask[train_idxs] = False;
 
-images = {}
-features = random.sample(listdir(path_input), num_test + num_train)
-targets = random.sample(listdir(path_target), num_test + num_train)
+images = {};
+features = random.sample(listdir(path_input), num_test + num_train);
+targets = random.sample(listdir(path_target), num_test + num_train);
 
-random.Random(231).shuffle(features)
-random.Random(231).shuffle(targets)
+random.Random(231).shuffle(features);
+random.Random(231).shuffle(targets);
 
-train_input_img_paths = np.array(features)[train_idxs]
-train_target_img_path = np.array(targets)[train_idxs]
-test_input_img_paths = np.array(features)[mask]
-test_target_img_path = np.array(targets)[mask]
+train_input_img_paths = np.array(features)[train_idxs];
+train_target_img_path = np.array(targets)[train_idxs];
+test_input_img_paths = np.array(features)[mask];
+test_target_img_path = np.array(targets)[mask];
 
-train_loader = dataset(batch_size=batch_size, img_size=img_size, images_paths=train_input_img_paths, targets=train_target_img_path)
-test_loader = dataset(batch_size=batch_size, img_size=img_size, images_paths=test_input_img_paths, targets=test_target_img_path)
+train_loader = dataset(
+  (batch_size = batch_size),
+  (img_size = img_size),
+  (images_paths = train_input_img_paths),
+  (targets = train_target_img_path)
+);
+test_loader = dataset(
+  (batch_size = batch_size),
+  (img_size = img_size),
+  (images_paths = test_input_img_paths),
+  (targets = test_target_img_path)
+);
 ```
 
 이제 훈련 루프를 실행해봅시다:
@@ -561,7 +682,18 @@ for epoch in range(num_epochs):
     plt.show()
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드가 끝나면 손실을 그래프로 그려볼 수 있어요. 이 코드는 이 멋진 웹사이트에서 일부 채택되었어요:
 
@@ -575,7 +707,7 @@ fig.set_facecolor(background_color)
 ax[0].set_facecolor(background_color)
 ax[1].set_facecolor(background_color)
 
-ax[0].plot(range(len(all_loss_G)), all_loss_G, color='#bc6c25', lw=0.5) 
+ax[0].plot(range(len(all_loss_G)), all_loss_G, color='#bc6c25', lw=0.5)
 ax[1].plot(range(len(all_loss_D)), all_loss_D, color='#00b4d8', lw=0.5)
 
 ax[0].scatter(
@@ -621,8 +753,8 @@ ax.text(
 for i in range(2):
     ax[i].tick_params(axis='x', colors='white')
     ax[i].tick_params(axis='y', colors='white')
-    ax[i].spines['left'].set_color('white') 
-    ax[i].spines['bottom'].set_color('white') 
+    ax[i].spines['left'].set_color('white')
+    ax[i].spines['bottom'].set_color('white')
     ax[i].set_xlabel('Epoch', color='white', fontproperties=font, fontsize=13)
     ax[i].set_ylabel('Loss', color='white', fontproperties=font, fontsize=13)
 
@@ -652,24 +784,35 @@ for X, y in subset_loader:
         axes[i, 0].imshow(np.transpose(X.numpy()[i], (1, 2, 0)))
         axes[i, 0].set_title("Input")
         axes[i, 0].axis('off')
-        
+
         axes[i, 1].imshow(np.transpose(y.numpy()[i], (1, 2, 0)))
         axes[i, 1].set_title("Target")
         axes[i, 1].axis('off')
-        
+
         generated_image = generator(X[i].unsqueeze(0)).detach().numpy()[0]
         axes[i, 2].imshow(np.transpose(generated_image, (1, 2, 0)))
         axes[i, 2].set_title("Generated")
         axes[i, 2].axis('off')
-    
+
     # 레이아웃 조정
     plt.tight_layout()
     plt.savefig('Test.jpg')
     plt.show()
-    break 
+    break
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-ErasingCloudsfromSatelliteImageryUsingGANsGenerativeAdversarialNetworks_6.png" />
 
@@ -679,7 +822,18 @@ for X, y in subset_loader:
 
 ===========================================
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 참고문헌:
 
@@ -689,7 +843,18 @@ for X, y in subset_loader:
 
 3. Wen, Xue, Zongxu Pan, Yuxin Hu 및 Jiayin Liu. “Generative adversarial learning in YUV color space for thin cloud removal on satellite imagery.” Remote Sensing 13, no. 6 (2021): 1079. [논문 링크](https://www.mdpi.com/2072-4292/13/6/1079)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5. Ronneberger, Olaf, Philipp Fischer, and Thomas Brox. “U-net: Convolutional networks for biomedical image segmentation.” In Medical image computing and computer-assisted intervention–MICCAI 2015: 18th international conference, Munich, Germany, October 5–9, 2015, proceedings, part III 18, pp. 234–241. Springer International Publishing, 2015. [Link](https://arxiv.org/pdf/1505.04597)
 
@@ -697,7 +862,18 @@ for X, y in subset_loader:
 
 ===========================================
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제 Medium의 모든 게시물은 무료이며 공개되어 있습니다. 그래서 여기서 저를 팔로우해 주시면 정말 감사하겠습니다!
 

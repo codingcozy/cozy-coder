@@ -3,17 +3,13 @@ title: "대형 언어 모델에 대한 필수 리뷰 논문 TOP 5"
 description: ""
 coverImage: "/assets/img/2024-07-13-Best5FoundationalReviewPapersonLargeLanguageModels_0.png"
 date: 2024-07-13 03:09
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-Best5FoundationalReviewPapersonLargeLanguageModels_0.png
 tag: Tech
 originalTitle: "Best 5 Foundational Review Papers on Large Language Models"
 link: "https://medium.com/gitconnected/best-5-foundational-review-papers-on-large-language-models-0ff95a4e7835"
 isUpdated: true
 ---
-
-
-
-
 
 LLM(Large Language Models)은 자연어 처리 분야에서 혁명적인 역할을 하는 중요한 요소로 떠오르고 있습니다. 텍스트 생성, 질문 응답, 요약 등 여러 분야에 걸쳐 응용됩니다.
 
@@ -23,7 +19,18 @@ LLM(Large Language Models)은 자연어 처리 분야에서 혁명적인 역할�
 
 이 검토는 이 빠르게 변화하는 분야에서의 신생 트렌드, 열린 도전 과제, 그리고 미래 연구 방향에 대해서도 조망합니다. 이 기사는 이러한 기초 작업을 종합함으로써 연구자와 실무자에게 LLM의 원칙과 실제 응용 분야에 대한 철저한 기초를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Large Language Models](/assets/img/2024-07-13-Best5FoundationalReviewPapersonLargeLanguageModels_0.png)
 
@@ -37,7 +44,18 @@ LLM(Large Language Models)은 자연어 처리 분야에서 혁명적인 역할�
 
 # 1. 대규모 언어 모델: 조사
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-07-13-Best5FoundationalReviewPapersonLargeLanguageModels_1.png)
 
@@ -47,7 +65,18 @@ Additionally, it offers an overview of the methodologies created for constructin
 
 In closing, the authors address ongoing challenges and shed light on prospective research paths for the future.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2. 대규모 언어 모델 조사
 
@@ -57,7 +86,18 @@ In closing, the authors address ongoing challenges and shed light on prospective
 
 뿐만 아니라 이는 LLMs 개발을 위한 사용 가능한 자원을 정리하고 미래 방향에 대한 미해결 문제를 논의합니다. 이 조사는 연구자와 엔지니어 모두에게 유용한 자료가 될 수 있는 LLMs 문헌에 대한 최신 정보 검토를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3. 대형 언어 모델에 대한 포괄적인 개요
 
@@ -67,7 +107,18 @@ In closing, the authors address ongoing challenges and shed light on prospective
 
 이 리뷰 기사는 LLM 연구를 진전시키기 위해 기존 작업의 포괄적인 정보 요약에서 통찰을 얻기 위한 연구자와 실무가들을 위한 체계적인 조사뿐만 아니라 빠른 포괄적인 참조 자료를 제공하는 것을 목적으로 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4. 현재 대형 언어 모델 (LLMs)에서의 트렌드, 기술 및 도전과제 검토
 
@@ -77,7 +128,18 @@ In closing, the authors address ongoing challenges and shed light on prospective
 
 이 논문은 LLMs에서 사용된 다양한 사전 학습 목표, 벤치마크 및 전이 학습 방법을 상세히 논의합니다. 또한 하류 작업에서 사용되는 다양한 미세 조정 및 문맥 학습 기술을 조사합니다. 게다가 충분히 대규모이고 다양한 데이터셋에 교육되었다면 LLMs가 다양한 도메인과 데이터셋에서 우수한 성능을 발휘할 수 있는 방법을 탐구합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 다음에는 시간이 지남에 따라 싼 계산 성능과 대규모 데이터셋의 가용성이 LLM의 능력을 향상시키고 새로운 도전 과제를 가져왔다는 주제로 이야기합니다. 우리 연구의 일환으로, 우리는 LLM의 성능이 모델의 깊이, 너비 및 데이터 크기에 의해 어떻게 영향을 받는지 확인하기 위해 확장성 관점에서 LLM을 검토합니다.
 
@@ -87,7 +149,18 @@ In closing, the authors address ongoing challenges and shed light on prospective
 
 ![이미지](/assets/img/2024-07-13-Best5FoundationalReviewPapersonLargeLanguageModels_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 포괄적인 리뷰 논문은 Naive RAG, Advanced RAG 및 Modular RAG를 포괄하는 RAG 패러다임의 진전을 상세히 조사합니다.
 
@@ -97,7 +170,18 @@ In closing, the authors address ongoing challenges and shed light on prospective
 
 마지막으로, 본 기사는 현재 직면한 과제를 명확히 하고 연구 및 개발을 위한 전망있는 방향을 제시합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 만약 이 글을 좋아하셨고 저를 지원하고 싶으시다면, 아래 사항들을 확인해주세요:
 
@@ -111,7 +195,18 @@ In closing, the authors address ongoing challenges and shed light on prospective
 
 ## 데이터 사이언스와 AI 분야에서 경력을 시작하려고 하지만 어떻게 해야 할지 모르겠다면? 데이터 사이언스 멘토링 세션 및 장기적인 경력 멘토링을 제공합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 멘토링 세션: [링크](https://lnkd.in/dXeg3KPW)
 - 장기 멘토링: [링크](https://lnkd.in/dtdUYBrM)

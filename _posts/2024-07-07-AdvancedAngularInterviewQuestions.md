@@ -3,18 +3,13 @@ title: "고급 Angular 인터뷰 질문들"
 description: ""
 coverImage: "/assets/img/2024-07-07-AdvancedAngularInterviewQuestions_0.png"
 date: 2024-07-07 03:05
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-AdvancedAngularInterviewQuestions_0.png
 tag: Tech
 originalTitle: "Advanced Angular Interview Questions"
 link: "https://medium.com/@tusharghosh09006/advanced-angular-interview-questions-d1573f1b350b"
 isUpdated: true
 ---
-
-
-
-
-
 
 <img src="/assets/img/2024-07-07-AdvancedAngularInterviewQuestions_0.png" />
 
@@ -24,8 +19,18 @@ Angular 준비를 위해 Google 드라이브에 Angular에 관한 내용을 기�
 
 ## Angular 애플리케이션을 개선하기 위해 어떤 단계를 취할 것인가요?
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 사용하지 않는 라이브러리와 코드를 제거하십시오.
 - ngFor 루프에서 trackBy를 사용하십시오.
@@ -46,18 +51,40 @@ Angular 준비를 위해 Google 드라이브에 Angular에 관한 내용을 기�
 
 ## ngOnInit 라이프사이클 후크 대신 Angular 컴포넌트의 생성자에서 API를 호출할 수 있습니까?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Angular 생성자에서 API를 호출하는 것은 기술적으로 가능하지만, 권장되는 방법은 아닙니다. 생성자는 Angular에서 의존성 주입이나 입력 속성과 같은 기능이 완전히 초기화되기 전에 컴포넌트 클래스가 초기화될 때 호출됩니다. 이는 이러한 기능이 완전히 이용 가능하지 않은 상태에서 API를 호출할 경우 예상치 못한 동작이나 오류가 발생할 수 있다는 것을 의미합니다.
 
 ## 표준 Angular 컴포넌트와 독립형 컴포넌트의 차이점은 무엇인가요?
 
 - 표준 컴포넌트는 Angular 응용 프로그램 내에서 사용하기 위해 NgModule에 포함되어야합니다. 독립형 컴포넌트는 이를 필요로하지 않으며 NgModule에 포함되지 않고도 독립적으로 사용할 수 있습니다.
-- 표준 컴포넌트는 Angular 또는 서드 파티 기능을 사용하기 위해서 NgModule에서 가져와야합니다. 예를 들어 *ngFor 지시문을 사용하려면 NgModule에서 @angular/common에서 CommonModule을 가져와야합니다. 반면에 독립형 컴포넌트는 자체 파일 내에서 직접 종속성을 가져올 수 있습니다.
+- 표준 컴포넌트는 Angular 또는 서드 파티 기능을 사용하기 위해서 NgModule에서 가져와야합니다. 예를 들어 \*ngFor 지시문을 사용하려면 NgModule에서 @angular/common에서 CommonModule을 가져와야합니다. 반면에 독립형 컴포넌트는 자체 파일 내에서 직접 종속성을 가져올 수 있습니다.
 
 ## Angular에서 크로스사이트 스크립팅(XSS)을 방지하는 방법
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 보간(interpolation) 및 프로퍼티 바인딩(Property Binding): Angular에는 보간('' '') 및 프로퍼티 바인딩([ ])과 같은 데이터 바인딩을 위한 내장 메커니즘이 있습니다. 이러한 메커니즘은 사용자 입력을 자동으로 살균하여 브라우저에서 안전하게 렌더링할 수 있도록 합니다. 동적 콘텐츠를 렌더링할 때는 XSS를 방지하기 위해 항상 이러한 메커니즘을 사용해야 합니다.
 - 사용자 입력 살균화: HTML, CSS 또는 JavaScript를 포함할 수 있는 동적 콘텐츠를 처리해야할 때는 Angular의 내장 DomSanitizer 서비스를 사용하여 입력을 살균화한 후 DOM에 렌더링해야 합니다.
@@ -75,41 +102,61 @@ sanitizedHtml = this.sanitizer.sanitize(SecurityContext.HTML, userInput);
 
 ## Angular에서 Host Binding과 Host Listening이란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Angular에서는 @HostBinding 및 @HostListener 데코레이터를 사용하여 지시문이나 컴포넌트의 호스트 요소와 상호 작용합니다.
 
 @HostBinding: @HostBinding 데코레이터는 호스트 요소의 속성을 바인딩하는 데 사용됩니다. 이를 통해 지시문이나 컴포넌트의 속성에 따라 호스트 요소의 속성을 설정할 수 있습니다.
 
 ```js
-import { Directive, HostBinding } from '@angular/core';
+import { Directive, HostBinding } from "@angular/core";
 
 @Directive({
- selector: '[appHighlight]'
+  selector: "[appHighlight]",
 })
 export class HighlightDirective {
-  @HostBinding('style.backgroundColor') 
-  backgroundColor: string = 'yellow';
+  @HostBinding("style.backgroundColor")
+  backgroundColor: string = "yellow";
 }
 ```
 
 @HostListener: @HostListener 데코레이터는 호스트 요소에서 이벤트를 수신하기 위해 사용됩니다. 이를 통해 호스트 요소에서 특정 이벤트가 발생할 때 호출될 메서드를 정의할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import { 지시자, 호스트리스너 } from '@angular/core';
+import { 지시자, 호스트리스너 } from "@angular/core";
 
 @Directive({
- selector: '[appClickLogger]'
+  selector: "[appClickLogger]",
 })
 export class ClickLoggerDirective {
-
- @HostListener('click', ['$event'])
- onClick(event: Event): void {
-  console.log('호스트 요소가 클릭되었습니다!', event);
- }
-
+  @HostListener("click", ["$event"])
+  onClick(event: Event): void {
+    console.log("호스트 요소가 클릭되었습니다!", event);
+  }
 }
 ```
 
@@ -119,7 +166,18 @@ export class ClickLoggerDirective {
 
 이러한 종류의 질문에 직면했을 때 보안, 에러 처리, 테스트, 상태 관리, 폼 유효성 검사, API 호출, 인터셉터와 같은 다양한 부분을 다루려고 노력해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 몇 가지 기본 아이디어가 있어요.
 
@@ -136,7 +194,18 @@ export class ClickLoggerDirective {
 
 ## Angular 라이프사이클 훅에 대해 이야기해 주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 질문을 받을 확률이 90%입니다. 재미있는 사실은 초보자부터 고급 개발자까지 모두 이 답을 알고 있다는 것입니다. 중요한 점은 답변을 전달하는 방식이 초보자와의 차이를 만들어줍니다. 저는 항상 이전 직무 경험을 활용하려고 노력합니다.
 
@@ -146,7 +215,18 @@ export class ClickLoggerDirective {
 
 이러한 메서드를 경력에서 여러 번 사용했습니다. ngOnChanges 메서드는 컴포넌트 생성 시 한 번 호출되고 그 후 입력 속성 중 하나에서 변경이 감지될 때마다 호출됩니다. SimpleChanges 객체를 매개변수로 받습니다. ngAfterViewInit는 컴포넌트 뷰 및 해당 하위 뷰가 초기화된 후 호출됩니다. ngAfterContentInit는 외부 컨텐츠(또는 부모로부터)가 초기화된 후에 호출됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 밖에도 ngDoCheck, ngAfterContentChecked, ngAfterViewChecked 같은 훅이 있지만, 잘 사용하지 않았어요.
 
@@ -156,7 +236,18 @@ export class ClickLoggerDirective {
 
 여기 제 답변입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 의존성 주입(Dependency Injection, DI)은 디자인 패턴입니다. Angular에서 DI는 활발하게 사용됩니다. DI는 컴포넌트 의존성을 외부 소스에서 주입하여 컴포넌트 자체에서 생성하는 대신 관리하는 디자인 패턴입니다. 이는 테스트 용이성을 향상시키고 컴포넌트 간 결합을 느슨하게 합니다.
 
@@ -166,7 +257,18 @@ export class ClickLoggerDirective {
 
 이 질문을 몇 차례 받았습니다. 7년 정도로 답변한 적은 없지만 면접관의 주의를 끌기 위해 정보를 제공하려고 노력했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 있습니다:
 
@@ -176,7 +278,18 @@ export class ClickLoggerDirective {
 
 이 상황을 다양한 방법으로 해결할 수 있어요. 유럽과 미국을 처리하기 위해 if else를 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제 제안은 별도의 env 파일을 사용하는 것입니다. 미국을 위해 environment.usa.ts를, 유럽을 위해 environment.european.ts를 만들겠습니다. 앵귤러 애플리케이션을 프로덕션용으로 빌드할 때 빌드 시간에 환경 이름을 선택할 것입니다.
 
@@ -190,7 +303,18 @@ ng build --prod --configuration=usa
 ng build --prod --configuration=european
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 서버에 빌드 파일을 배포할 예정입니다.
 

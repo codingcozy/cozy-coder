@@ -3,7 +3,7 @@ title: "존재와 애니메이션 물질 세계를 움직이는 힘"
 description: ""
 coverImage: "/assets/img/2024-06-22-BeingsandAnimatedMatter_0.png"
 date: 2024-06-22 19:46
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-BeingsandAnimatedMatter_0.png
 tag: Tech
 originalTitle: "Beings and Animated Matter"
@@ -11,17 +11,24 @@ link: "https://medium.com/@metadave/beings-and-animated-matter-0f05aa1d72ed"
 isUpdated: true
 ---
 
-
-
-
-
 "Homo Sapiens, Robot Being, Robot Doing. 인간, 로봇. 우리 생물학적 인간들에게, 함께 있는 심리적 필요를 충족시키기 위해 인공생명 형태들이 우리에게 무엇을 할 수 있을까요?
 
 Shoji Morimoto의 회고록 '아무 것도 하지 않는 렌탈 인간'에서 Shoji는 조금만 해도 함께할 수 있는 다른 사람과 있고자 합니다. Shoji는 다양한 상황에서 다른 사람들과 함께존재하고 사회적으로 함께할 수 있는 렌탈 인간으로 자신을 제공합니다. Shoji는 조언을 제공하지 않고 듣는 것에 대한 예시를 제공하지만, 그 자신이 듣고 있다는 것을 인정합니다. 그는 클라이언트를 위해 꽃 파티를 위한 자리를 지키기 위해 꽃이 피는 나무 아래에서 앉아 기다릴 것이지만, 클라이언트를 위해 그 자리를 고르지는 않을 것입니다. 그는 동물 복장을 하고 낯선 사람들에게 인사를 건네는 사람과 함께 공원에 있을 것에 동의합니다. 이러한 만남들은 일회성이며 클라이언트와 반복되지 않습니다.
 
 '아무 것도 하지 않는 렌탈 인간'과 관련한 사람들은 왜 렌탈 인간과 관여할까요? Yuval Noah Harari의 Sapiens 논문에 따르면 우리는 대규모로 유연하게 협력할 수 있는 유일한 동물입니다. 애완동물처럼, 다른 사람이 다른 사람과 함께 조심스럽고 위협받지 않는 방식으로 있고자 하는 것은 다른 존재의 존재의 증거로서 강력한 매력을 지녔습니다. 사회적으로 고립된 자아는 문제와 긴장을 다른 존재에게 목격당함으로써만 해결할 수 있다는 것을 깨닫게 됩니다. 목격자는 '개인적인 존재로 보거나 알다'할 수 있습니다."
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사피엔스 논설을 확장해 보면, 우리는 유연하게 많은 동물과 인공 존재와도 협력할 수 있는 유일한 동물인가요? 다른 말로 하면, 우리는 다양한 의식 형태로 거듭나게 된 물질과 협력할 수 있는 유동적인 지능 수준과 다양한 인간과의 관계를 형성할 수 있는 능력이 있을까요? 이미 우리는 음성 비서에 성별을 지정합니다. 왜냐하면 성별, 연령, 발음과 같은 세부 특징들을 통해 음성 비서와 관계를 맺을 수 있기 때문입니다. 우리는 그룹을 위한 Dalek 음성을 선택하지 않습니다.
 
@@ -31,11 +38,33 @@ Shoji Morimoto의 회고록 '아무 것도 하지 않는 렌탈 인간'에서 Sh
 
 의식의 어려운 문제는 모순적이며 아마 해결할 수 없을지도 모릅니다— 별먼지가 갑자기 다양한 원소와 분자로 조직화되어 경험을 할 수 있는 형태로 축적되는 것은 어떻게 가능한 것일까요? — 원편춤, 박쥐, 혹은 사람처럼 무언가 되는 것은 무언가를 느낄까요? 식기세척기가 되는 것이나 웹 서버가 되는 것 또는 대형 언어 모델로서 사람들의 요청에 응답하는 것이 무언가가 될까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여러분의 식탁 태그 마크다운 형식으로 변경해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저자들은 인간 두뇌가 자발적 활동으로 발달하며 우리 감각 지각을 규제하고, “합리적 사고 (과학), 행동 규칙 (윤리), 공유된 감정 (미술)”과 연관된 문화적 진화를 유발한다고 주장하고 있습니다. 또한 “AI는 인간 두뇌의 진화 발달과 엄밀히 같은 것이 없지만, 로봇 에이전트를 통제하는 데 학습하는 네트워크가 ‘시냅스’ 성장 경로를 따르도록 설계되었음을 알 수 있습니다.”
 
@@ -48,7 +77,18 @@ Shoji Morimoto의 회고록 '아무 것도 하지 않는 렌탈 인간'에서 Sh
 
 이러한 용어는 인공 시스템의 상대적 의식 수준을 설명하는 데 도움이 되지만, 해당 수준 설명자는 인간처럼 인공 의식이 단계를 오르지 않을 것으로 시사할 수 있으며, 우리가 따르는 진화의 다양한 형태를 고려할 때 인공 의식이 달성할 수 없을 것으로 시사합니다. 우리의 진화는 인간의 경우와 달리 다수의 사회적 관련성을 갖고 있으며, 감정과 연결된 윤리적, 예술적 영역에 대한 인공 의식이 접근할 수 없다는 점이 특히 중요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 주제를 숙고하면서, 가정용 인공지능 로봇이 모든 사용자에게 동일한 성격을 제시해야 하는 구체적인 이유가 없다는 것이 내게 떠올랐어요. 우리도 타인들에게 성격의 다양한 면을 보여주고, 전문가 및 친구적인 맥락에서 또는 그룹 상황에서는 매우 다르게 행동해요. 만약 계산 및 기억 능력이 있다면, AF는 십여 가지의 의사의식을 겸비한 복합체가 될 수 있을 거에요.
 

@@ -3,17 +3,13 @@ title: "Creality Ender-3 V2의 전력 소비 얼마나 전력을 사용할까"
 description: ""
 coverImage: "/assets/img/2024-06-23-PowerConsumptionoftheCrealityEnder-3V2_0.png"
 date: 2024-06-23 17:25
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-PowerConsumptionoftheCrealityEnder-3V2_0.png
 tag: Tech
 originalTitle: "Power Consumption of the Creality Ender-3 V2"
 link: "https://medium.com/@ermanas/power-consumption-of-the-creality-ender-3-v2-eb946d9fbbd3"
 isUpdated: true
 ---
-
-
-
-
 
 3D 프린팅 사업에 뛰어들기 전에, 특히 3D 프린팅 서비스 제공을 시작하기 전에, 나는 내 3D 프린터의 운영 비용에 대해 궁금해 했습니다. 그리고 알리익스프레스에서 약 8달러에 기본 스마트 소켓을 구매한 후, 이러한 측정을 준비했습니다. 그럼 시작해볼까요,
 
@@ -24,15 +20,36 @@ isUpdated: true
 
 간단히(평균적으로):
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 표에서 각 작업의 전력 소비량을 개별적으로 확인할 수 있습니다. 모든 값은 평균값이며 독립적인 소비량을 보여줍니다.
 
 또한 아래 초기 가열 값을 총 전력 소비량에 추가할 수도 있지만, 그들이 큰 차이를 만들지는 않습니다.
-` 히팅 베드 60°C로 가열 - 1Wh
-` 히팅 노즐 210°C로 가열 - 8Wh
+`히팅 베드 60°C로 가열 - 1Wh` 히팅 노즐 210°C로 가열 - 8Wh
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 보정 큐브의 예시 계산
 
@@ -46,7 +63,18 @@ isUpdated: true
 필라멘트: PLA — 4 그램
 인쇄 시간: 30 분
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 PLA 1kg - ₺400 | 4g - ₺1.6
 전기 요금: 1kWh당 ₺1.5 (터키)
@@ -60,13 +88,26 @@ PLA 1kg - ₺400 | 4g - ₺1.6
 
 # 테스트 조건
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 환경
+
 - 실내 온도: 25°C
 - 습도: 50%
 
 가열 온도
+
 - 노즐: 200°C
 - 베드: 60°C
 
@@ -74,6 +115,17 @@ PLA 1kg - ₺400 | 4g - ₺1.6
 
 **크레딧**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 친구 멜리 나피 에킴에게 스마트 소켓의 측정을 확인해 주어서 감사합니다.

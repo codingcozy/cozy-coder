@@ -3,7 +3,7 @@ title: "QGIS에서 Landsat 표면 반사 데이터 다루기"
 description: ""
 coverImage: "/assets/img/2024-06-19-WorkingWithLandsatSurfaceReflectanceDatainQGIS_0.png"
 date: 2024-06-19 05:09
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-WorkingWithLandsatSurfaceReflectanceDatainQGIS_0.png
 tag: Tech
 originalTitle: "Working With Landsat Surface Reflectance Data in QGIS"
@@ -11,15 +11,22 @@ link: "https://medium.com/@robsimmon/working-with-landsat-surface-reflectance-da
 isUpdated: true
 ---
 
-
-
-
-
-표 정보로 형식을 변경합니다. 
+표 정보로 형식을 변경합니다.
 
 표 정보는 Markdown 형식으로 변경할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지구 탐사자(또는 원하는 데이터 저장소)에서 주문하세요.
 
@@ -29,18 +36,39 @@ NDVI(및 기타 지수/계산)에 대해서는 표면 반사율 데이터를 사
 
 진- 또는 거짓-컬러 이미지의 경우 래디언스(레벨-1) 또는 표면 반사율(레벨-2)이 모두 작동합니다(레벨-2가 서로 다른 시간과 지역에서 더 일관성 있지만, 흐림이나 구름이 있을 경우 아티팩트가 발생할 수 있습니다).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 샘플 데이터셋이 필요하시다면, 2016년 5월 및 2023년 6월에 대해 인접한 두 장면으로부터 Landsat 데이터의 네 개 밴드를 업로드했습니다.
 
 데이터를 다운로드한 후 다음 명령어를 사용하여 QGIS로 가져오세요:
 
-레이어 ` 레이어 추가 ` 래스터 레이어 추가...
+레이어 `레이어 추가` 래스터 레이어 추가...
 
 NDVI 및 “표준” 위양색을 위해 B5 (근적외선), B4 (적색) 및 B3 (녹색)를 선택하세요. 그런 다음 추가를 클릭하세요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-WorkingWithLandsatSurfaceReflectanceDatainQGIS_1.png)
 
@@ -50,8 +78,18 @@ NDVI 및 “표준” 위양색을 위해 B5 (근적외선), B4 (적색) 및 B3 
 
 각 입력 파일을 별도의 밴드에 배치하는 것을 확인하세요 (이것은 중요합니다 — 그렇지 않으면 이미지가 단일 그레이스케일 밴드가 됩니다!)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "…버튼을 사용하여 입력 레이어를 선택하세요.
 
@@ -61,7 +99,18 @@ NDVI 및 “표준” 위양색을 위해 B5 (근적외선), B4 (적색) 및 B3 
 
 <img src="/assets/img/2024-06-19-WorkingWithLandsatSurfaceReflectanceDatainQGIS_2.png" />"
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금 이 시점에서 이 복합체의 이름을 바꾸고 저장하는 것이 좋은 생각입니다.
 
@@ -71,7 +120,18 @@ NDVI 및 “표준” 위양색을 위해 B5 (근적외선), B4 (적색) 및 B3 
 
 원하는 폴더를 선택하고 파일 이름 옆에있는 ...을 클릭하여 이름을 입력하십시오.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 압축 기능을 활성화하는 것도 좋은 아이디어입니다. (원시 데이터에는 높은 압축률을 선택하고, 렌더링된 이미지에는 낮은 압축률을 선택하세요)
 
@@ -81,7 +141,18 @@ NDVI 및 “표준” 위양색을 위해 B5 (근적외선), B4 (적색) 및 B3 
 
 이미지 이름을 마우스 오른쪽 버튼으로 클릭한 후에 속성 '심볼'을 선택하세요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최소/최대 값 설정 확장
 
@@ -91,7 +162,18 @@ NDVI 및 “표준” 위양색을 위해 B5 (근적외선), B4 (적색) 및 B3 
 
 <img src="/assets/img/2024-06-19-WorkingWithLandsatSurfaceReflectanceDatainQGIS_4.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 정확도를 "실제 (느림)"으로 설정한 후에 "적용"을 클릭하세요 ("적용"은 레이어 속성 창을 닫지 않고 결과를 미리 볼 수 있습니다). "실제 (느림)"은 전체 이미지의 모든 픽셀을 읽기 때문에 "추정 (빠름)"보다 조금 느릴 수 있지만 더 좋은 결과를 얻을 수 있다고 생각합니다.
 
@@ -101,7 +183,18 @@ NDVI 및 “표준” 위양색을 위해 B5 (근적외선), B4 (적색) 및 B3 
 
 메인 QGIS 창으로 돌아가려면 "확인"을 클릭하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작업이 완료된 이미지를 GeoTIFF로 내보내려면, 먼저 레이어 팔레트에서 이미지 이름을 마우스 오른쪽 버튼으로 클릭한 다음 `Export Save As ...`를 선택하세요.
 
@@ -111,7 +204,18 @@ NDVI 및 “표준” 위양색을 위해 B5 (근적외선), B4 (적색) 및 B3 
 
 이미지를 저장하려면 OK를 클릭하세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여러 장면을 작업 중이라면, 인접 장면 및/또는 다른 날짜로 반복하거나 데이터를 가져와 다중 분광 파일을 만들어 방금 만든 스타일을 다른 장면으로 전송하세요. 새 파일을 저장하고 레이어 패널에 추가한 후, 2016 이미지에서 스타일을 복사/붙여넣기하세요:
 
@@ -121,7 +225,18 @@ NDVI 및 “표준” 위양색을 위해 B5 (근적외선), B4 (적색) 및 B3 
 
 빛의 양과 대기 상황에 독립적인 표면 반사 데이터를 다루고 있기 때문에 같은 설정이 다른 시간과 다른 장소에서도 작동할 수 있습니다. (반사도 데이터는 계절과 날씨에 따라 변할 수 있으며, 각 장면은 개별적으로 보정되어야 합니다.) 그러나 이미지 간에 큰 변화가 있는 경우에는 사용하는 데이터를 최소값 및 최대값 계산에 신중히 선택해야 합니다. 눈이나 구름, 그림자가 있는 구름은 맑은 장면과 비교할 때 값이 크게 변할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Raster 계산기를 사용하여 NDVI 계산하기
 
@@ -131,17 +246,39 @@ NDVI 및 “표준” 위양색을 위해 B5 (근적외선), B4 (적색) 및 B3 
 
 Raster `Raster Calculator…`을 선택하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그런 다음 다음 방정식을 입력하십시오 (따옴표로 묶인 부분은 계산에 사용되는 밴드를 나타냅니다. - 실제 데이터에 따라 달라질 수 있습니다).
 
-((“LC08_L2SP_157039_20160518_20200907_02_T1_SR_B5@1” * 0.0000275 - 0.2) -(“LC08_L2SP_157039_20160518_20200907_02_T1_SR_B4@1” * 0.0000275 - 0.2))/((“LC08_L2SP_157039_20160518_20200907_02_T1_SR_B5@1” * 0.0000275 - 0.2) + (“LC08_L2SP_157039_20160518_20200907_02_T1_SR_B4@1” * 0.0000275 - 0.2))
+((“LC08_L2SP_157039_20160518_20200907_02_T1_SR_B5@1” _ 0.0000275 - 0.2) -(“LC08_L2SP_157039_20160518_20200907_02_T1_SR_B4@1” _ 0.0000275 - 0.2))/((“LC08_L2SP_157039_20160518_20200907_02_T1_SR_B5@1” _ 0.0000275 - 0.2) + (“LC08_L2SP_157039_20160518_20200907_02_T1_SR_B4@1” _ 0.0000275 - 0.2))
 
 NDVI 알고리즘은 보통 (NIR — Red)/(NIR + Red)로 구성되지만 추가적인 용어가 있는 이유는 무엇인가요? 16비트 정수 값으로 저장된 데이터를 반사도로 변환하여 스케일을 맞추어야 하기 때문입니다. 보통 반사도는 0에서 1까지의 범위에 있습니다. (표면 반사 알고리즘에서의 지나친 보정으로 값이 0 미만으로 떨어지고 특정 지형 (해천을 향한 산의 경사면)은 1 이상의 값으로 이끌 수 있기 때문에 이상치가 가능하지만 일반적으로 나타나지 않습니다.) 스케일 계수인 0.0000275와 오프셋인 0.2는 모든 Landsat 8 & 9 버전 2 데이터에서 일관적이지만 Sentinel-2와 같은 다른 이미지 원본에서는 달라질 수 있습니다.
 
 ![이미지](/assets/img/2024-06-19-WorkingWithLandsatSurfaceReflectanceDatainQGIS_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 계산을 실행하기 전에, 출력이 저장될 폴더를 선택하고 "Output Layer: ..."라는 이름으로 출력 파일을 지정해야 합니다.
 
@@ -149,7 +286,18 @@ NDVI 알고리즘은 보통 (NIR — Red)/(NIR + Red)로 구성되지만 추가�
 
 이미지 이름을 마우스 오른쪽 버튼으로 클릭한 후, `Symbology`를 선택하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 렌더 타입을 싱글밴드 의사 색상으로 변경해주세요.
 
@@ -159,9 +307,20 @@ NDVI 알고리즘은 보통 (NIR — Red)/(NIR + Red)로 구성되지만 추가�
 
 QGIS에 여러 장면을 로드한 경우, 동일한 표현 매개변수를 각각에 적용하기 위해 스타일을 복사하여 붙여넣는 방법을 사용하시면 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-이미 스타일링한 레이어에서 마우스 오른쪽 버튼을 클릭하고 스타일 ` 스타일 복사를 선택하여 데이터셋에서 설정을 복사한 다음 대상 레이어를 마우스 오른쪽 버튼으로 클릭하고 스타일 ` 스타일 붙여넣기를 선택하여 설정을 적용할 수 있습니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+이미 스타일링한 레이어에서 마우스 오른쪽 버튼을 클릭하고 스타일 `스타일 복사를 선택하여 데이터셋에서 설정을 복사한 다음 대상 레이어를 마우스 오른쪽 버튼으로 클릭하고 스타일` 스타일 붙여넣기를 선택하여 설정을 적용할 수 있습니다.
 
 멀티 스펙트럼 컴포지트의 스케일링 및 감마 설정에도 동일한 방법이 적용되며, 이는 특히 표면 반사 데이터를 다룰 때 효과적입니다.
 
@@ -169,7 +328,18 @@ QGIS에 여러 장면을 로드한 경우, 동일한 표현 매개변수를 각�
 
 QGIS에서 이미 래스터 데이터를 처리하고 스타일을 지정한 후 QuickOSM 플러그인을 사용하여 Open Street Map (OSM)의 벡터 데이터를 추가할 수 있습니다. OSM 및 QuickOSM은 깊은 주제이므로 여기서는 시작하는 데 도움이 될만한 팁 몇 가지만 제공하겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 QGIS에서 플러그인을 추가하려면 Plugins - Manage and Install Plugins...를 선택하세요.
 
@@ -179,7 +349,18 @@ QGIS에서 플러그인을 추가하려면 Plugins - Manage and Install Plugins.
 
 그러면, Vector 메뉴를 통해 OSM 데이터를 추가할 수 있습니다: Vector - QuickOSM - QuickOSM
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-WorkingWithLandsatSurfaceReflectanceDatainQGIS_8.png" />
 
@@ -189,7 +370,18 @@ QGIS에서 플러그인을 추가하려면 Plugins - Manage and Install Plugins.
 
 OSM에서 검색 및 다운로드를 하기 전에 검색 영역을 제한하는 마지막 단계입니다. 지도에서 관심 영역으로 사용할 레이어를 선택하는 것이 좋은 접근 방식이라고 생각합니다. 기능 목록 아래에 있는 드롭다운 메뉴 In을 선택하세요. Layer Extent로 변경하고 작업 중인 Landsat 씬을 선택하면 해당 레이어의 가장자리와 교차하는 데이터로 검색이 제한됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터베이스를 검색하고 데이터를 다운로드하려면 쿼리 실행을 클릭한 후 벡터를 따로 점, 선 및 폴리곤 레이어로 추가하세요.
 
@@ -199,11 +391,21 @@ OSM에서 검색 및 다운로드를 하기 전에 검색 영역을 제한하는
 
 기본적으로 QGIS는 화면에 표시된 줌 수준 및 바운딩 박스에서 내보냅니다. 전체 해상도로 내보내려면 레이어를 마우스 오른쪽 버튼으로 클릭한 후 네이티브 해상도로 확대(100%)를 선택하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-WorkingWithLandsatSurfaceReflectanceDatainQGIS_11.png)
 
-데이터의 전체 범위로 경계를 설정하려면 Project ` Import/Export ` Export Map to PDF …(벡터를 유지하기 위함) 또는 Export Map to TIFF …(모든 것을 픽셀로 래스터로 변환하기 위함)를 클릭하세요. 그런 다음 Layer에서 Calculate & drop-down 목록에서 내보내고자 하는 레이어를 선택하세요. QGIS는 선택한 레이어의 크기에 맞는 전체 해상도의 이미지를 렌더링 및 내보내며 지리 위치 정보와 함께 완성됩니다. (적어도 GeoTIFF를 위해, 제 설치에서는 GeoPDF 옵션이 작동하지 않습니다.)
+데이터의 전체 범위로 경계를 설정하려면 Project `Import/Export` Export Map to PDF …(벡터를 유지하기 위함) 또는 Export Map to TIFF …(모든 것을 픽셀로 래스터로 변환하기 위함)를 클릭하세요. 그런 다음 Layer에서 Calculate & drop-down 목록에서 내보내고자 하는 레이어를 선택하세요. QGIS는 선택한 레이어의 크기에 맞는 전체 해상도의 이미지를 렌더링 및 내보내며 지리 위치 정보와 함께 완성됩니다. (적어도 GeoTIFF를 위해, 제 설치에서는 GeoPDF 옵션이 작동하지 않습니다.)
 
 도움이 되었다면, 연락을 유지하고 싶거나, 원격 감지 및 지도 제작에 대한 실습에 관심이 있다면 LinkedIn을 통해 연락하시거나, robertbsimmon@gmail.com으로 이메일을 보내거나 제 포트폴리오를 확인해보세요.

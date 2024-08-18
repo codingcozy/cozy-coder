@@ -3,17 +3,13 @@ title: "본 글에서는 Python, SQL, Power BI를 사용해 특정 소프트웨�
 description: ""
 coverImage: "/assets/img/2024-06-22-DataAnalysisProjectUsingPythonSQLandPowerBISalaryandRatingAnalysisofCertainSoftwareEngineeringFieldsbyCountry_0.png"
 date: 2024-06-22 17:52
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-DataAnalysisProjectUsingPythonSQLandPowerBISalaryandRatingAnalysisofCertainSoftwareEngineeringFieldsbyCountry_0.png
 tag: Tech
 originalTitle: "Data Analysis Project Using Python, SQL, and Power BI: [Salary and Rating Analysis of Certain Software Engineering Fields by Country]"
 link: "https://medium.com/@Mehmtcnangn/data-analysis-project-using-python-sql-and-power-bi-salary-and-rating-analysis-of-certain-9bf4b9cfcb7f"
 isUpdated: true
 ---
-
-
-
-
 
 현재 정보 시대에서 데이터 분석의 중요성은 이전보다 더 커졌어요. 이 글에서는 Python, SQL 및 Power BI를 사용하여 진행한 데이터 분석 프로젝트에 대해 자세히 설명할 거예요. Kaggle에서 얻은 데이터셋은 특정 소프트웨어 직종의 채용 공고, 채용자 회사의 평가 비율, 그리고 직원들에게 제공되는 최저, 평균 및 최고 연봉 범위 등의 데이터를 포함하고 있어요. 이 프로젝트는 기존 데이터를 정리하고 구성하는 데 초점을 맞추며 필요한 데이터를 추출하고 이를 시각화하여 통계 비율을 생성합니다. 이 프로젝트의 주요 목표는 나만의 로드맵을 개요화하여 완전한 데이터 엔지니어링 프로젝트를 만드는 것이에요.
 
@@ -22,7 +18,18 @@ isUpdated: true
 - Python을 사용한 데이터 정리와 구성,
 - Oracle SQL을 사용한 데이터베이스 관리 및 쿼리, 그리고 일부 데이터 업데이트,
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 시각화 및 의미 있는 보고서 작성에 Power BI를 사용합니다.
 
@@ -32,8 +39,18 @@ isUpdated: true
 
 이 프로젝트에서는 구체적인 목표를 달성하기 위한 단계별 로드맵을 개요로 작성했습니다. 이제, 프로젝트에서 사용한 Python, SQL 및 Power BI 기술을 자세히 설명하고 이들을 어떻게 통합했는지 시작하겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-22-DataAnalysisProjectUsingPythonSQLandPowerBISalaryandRatingAnalysisofCertainSoftwareEngineeringFieldsbyCountry_0.png)
 
@@ -43,8 +60,18 @@ isUpdated: true
 
 프로젝트의 첫 단계에서는 Python을 사용하여 데이터세트를 정리하고 예비 분석을 수행했습니다. Python의 강력한 라이브러리 중 하나인 Pandas를 사용하여 데이터를 정리하고 예비 분석을 수행하며 오류를 해결했습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. SQL: 데이터베이스 관리 및 쿼리
 
@@ -54,7 +81,18 @@ isUpdated: true
 
 마지막 단계에서는 Power BI를 사용하여 SQL 데이터베이스에서 데이터를 검색하고 분석된 데이터를 시각화했습니다. Power BI의 대화식 시각화 도구 덕분에 데이터를 더욱 이해하기 쉽고 인상적으로 제시할 수 있었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1. 파이썬: 데이터 정제 및 분석
 
@@ -64,7 +102,18 @@ isUpdated: true
 
 ![Dataset](https://www.example.com/assets/img/2024-06-22-DataAnalysisProjectUsingPythonSQLandPowerBISalaryandRatingAnalysisofCertainSoftwareEngineeringFieldsbyCountry_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로, Python에서 데이터셋을 읽어봅시다:
 
@@ -85,7 +134,18 @@ print(data.head())
 print(data.info())
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결과에서 추가 열을 식별했고 데이터 유형을 확인했습니다:
 
@@ -95,10 +155,21 @@ print(data.info())
 
 추가 및 불필요한 열을 삭제하는 코드에 한 줄을 추가했습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-data = data.drop(columns=['Unnamed: 9'])
+data = data.drop((columns = ["Unnamed: 9"]));
 ```
 
 그런 다음, 다시 확인하기 위해 CSV 파일을 원시 상태로 읽어 오류가 있는 열이 있는지 확인했습니다:
@@ -110,14 +181,24 @@ file_path = 'glassdoor-salaries.csv'
 with open(file_path, 'r', encoding='utf-8') as file:
     reader = csv.reader(file, delimiter='\t')
     for i, row in enumerate(reader):
-        if len(row) != 9: 
+        if len(row) != 9:
             print(f' Bad line: {i+1}, Content: {row}')
 ```
 
 ![이미지](/assets/img/2024-06-22-DataAnalysisProjectUsingPythonSQLandPowerBISalaryandRatingAnalysisofCertainSoftwareEngineeringFieldsbyCountry_4.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 출력을 확인했고, 오직 열 이름만 잘못된 행으로 계산되었다는 것을 알았습니다. 그래서 첫 번째 행을 "헤더"로 표시했습니다. 먼저 데이터셋의 특수 문자를 공백으로 대체했습니다. 그런 다음 데이터셋에서 누락된 값을 식별하고 해당 열을 수정했습니다:
 
@@ -127,7 +208,7 @@ import pandas as pd
 data = pd.read_csv('glassdoor-salaries.csv',header=0, delimiter='\t')
 pd.set_option('display.max_column', None)
 pd.set_option('display.max_rows', None)
-data = data.replace('\xa0', ' ', regex=True) 
+data = data.replace('\xa0', ' ', regex=True)
 data = data.drop(columns=['Unnamed: 9'])
 mean_rating = data['company_rating'].mean()
 data['company_rating'].fillna(mean_rating, inplace=True)
@@ -148,7 +229,18 @@ def chg_unit(unit):
 data['unit'] = data['unit'].apply(chg_unit)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 프로세스 후에 데이터셋의 낮은, 평균 및 높은 급여 열의 숫자 데이터가 통화 단위와 결합되어 분석 과정에서 문제가 될 수 있습니다. 따라서 통화 단위를 추출하여 "통화"라는 다른 열에 할당했습니다:
 
@@ -170,7 +262,7 @@ def format_salary(x):
     x = x.replace(',','')
     x = x.replace('M','000000')
     x = x.replace('K','000')
-    return x              
+    return x
 
 data['median'] = data['median'].apply(format_salary)
 data['low'] = data['low'].apply(format_salary)
@@ -179,10 +271,21 @@ data['high'] = data['high'].apply(format_salary)
 
 또한 열에 있는 수백만, 수천 등을 나타내는 문자를 숫자로 변환했습니다. SQL 전의 마지막 단계는 정리된 데이터를 저장하는 것이었습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-data.to_csv('cleaned_glassdoor-salaries.csv', index=False)
+data.to_csv("cleaned_glassdoor-salaries.csv", (index = False));
 ```
 
 2. SQL: 데이터베이스 관리 및 쿼리
@@ -191,8 +294,18 @@ data.to_csv('cleaned_glassdoor-salaries.csv', index=False)
 
 <img src="/assets/img/2024-06-22-DataAnalysisProjectUsingPythonSQLandPowerBISalaryandRatingAnalysisofCertainSoftwareEngineeringFieldsbyCountry_5.png" />
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로, 컴퓨터에 텍스트 파일을 생성하여 SQL 명령을 작성하고, 데이터를 정리한 경로, 데이터가 로드될 대상 테이블, 파일 내에서 데이터가 구분되는 방법을 포함하여 저장하세요:
 
@@ -202,19 +315,41 @@ data.to_csv('cleaned_glassdoor-salaries.csv', index=False)
 
 ![이미지](/assets/img/2024-06-22-DataAnalysisProjectUsingPythonSQLandPowerBISalaryandRatingAnalysisofCertainSoftwareEngineeringFieldsbyCountry_7.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 단계를 거친 후에 내가 데이터를 테이블에 넣어 두었음을 확인했다. DML을 사용하여 쿼리했을 때, 데이터를 CSV 파일로 변환했기 때문에 다시 오류가 발생했다. 통화를 확인했을 때, 특수 문자가 데이터베이스 문자 설정 때문에 나오지 않았음을 발견했다.
 
 페이지를 마크다운 형식으로 변경해주세요:
 
-|Header1|Header2|Header3|
-|-------|-------|-------|
-|Data1  |Data2  |Data3  |
+| Header1 | Header2 | Header3 |
+| ------- | ------- | ------- |
+| Data1   | Data2   | Data3   |
 
 SQL 명령어로 문제를 해결하고 세계 각국의 통화를 국가 코드로 변경했다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그런 다음, 평균 열을 쿼리하고 정렬했을 때 문자에 오류가 있는 것을 발견했습니다:
 
@@ -224,7 +359,18 @@ SQL 명령어로 문제를 해결하고 세계 각국의 통화를 국가 코드
 
 ![이미지](/assets/img/2024-06-22-DataAnalysisProjectUsingPythonSQLandPowerBISalaryandRatingAnalysisofCertainSoftwareEngineeringFieldsbyCountry_11.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 작업을 수행한 후에는 문제가 있는지 확인하기 위해 열을 확인하고 필요한 최종 조정을 했습니다. 회사 열에서 문제가 있는 열을 삭제하는 대신 효율성을 위해 이름을 바꿔주었습니다:
 
@@ -234,7 +380,18 @@ SQL 명령어로 문제를 해결하고 세계 각국의 통화를 국가 코드
 
 ![Rating Column](/assets/img/2024-06-22-DataAnalysisProjectUsingPythonSQLandPowerBISalaryandRatingAnalysisofCertainSoftwareEngineeringFieldsbyCountry_13.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 파워 BI: 데이터 시각화와 보고서
 
@@ -244,7 +401,18 @@ SQL 명령어로 문제를 해결하고 세계 각국의 통화를 국가 코드
 
 그런 다음 차트를 만들기 시작했고, 첫 번째 차트에서는 회사들이 직무 역할에 대한 고용 비율을 보여주는 파이 차트를 만들었습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-DataAnalysisProjectUsingPythonSQLandPowerBISalaryandRatingAnalysisofCertainSoftwareEngineeringFieldsbyCountry_15.png" />
 
@@ -254,7 +422,18 @@ SQL 명령어로 문제를 해결하고 세계 각국의 통화를 국가 코드
 
 <img src="/assets/img/2024-06-22-DataAnalysisProjectUsingPythonSQLandPowerBISalaryandRatingAnalysisofCertainSoftwareEngineeringFieldsbyCountry_16.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 세 번째 차트를 만들었고, 기업들의 평가 분포율을 막대 그래프를 사용하여 분석했어요:
 
@@ -264,22 +443,44 @@ SQL 명령어로 문제를 해결하고 세계 각국의 통화를 국가 코드
 
 ![Average Salaries of Professions by Currency Units](/assets/img/2024-06-22-DataAnalysisProjectUsingPythonSQLandPowerBISalaryandRatingAnalysisofCertainSoftwareEngineeringFieldsbyCountry_18.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최종 차트에서 이해를 돕기 위해 행렬을 사용했습니다. 이 표에서는 회사들이 직무별로 제공하는 결제 방법의 분포 백분율을 조사했습니다:
 
-| 구분 | 시간당 | 월별 | 연간 |
-|---|---|---|---|
-| 엔지니어 | 20% | 50% | 30% |
-| 디자이너 | 30% | 40% | 30% |
-| 분석가 | 25% | 45% | 30% |
-| 기타 | 20% | 50% | 30% |
+| 구분     | 시간당 | 월별 | 연간 |
+| -------- | ------ | ---- | ---- |
+| 엔지니어 | 20%    | 50%  | 30%  |
+| 디자이너 | 30%    | 40%  | 30%  |
+| 분석가   | 25%    | 45%  | 30%  |
+| 기타     | 20%    | 50%  | 30%  |
 
 프로젝트의 종합 평가
 
 얻은 결과
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 클린징: 파이썬을 사용하여 데이터셋에서 누락된 데이터와 오류 데이터를 성공적으로 정리했습니다. 이 단계는 분석을 위한 견고한 기반을 마련했습니다.
 

@@ -3,17 +3,13 @@ title: "아이폰 경쟁자들의 전쟁 S23 Ultra vs Pixel 7 Pro 최신 비교 
 description: ""
 coverImage: "/assets/img/2024-07-13-BattleoftheiPhonecontendersS23UltravsPixel7Pro_0.png"
 date: 2024-07-13 00:50
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-BattleoftheiPhonecontendersS23UltravsPixel7Pro_0.png
 tag: Tech
 originalTitle: "Battle of the iPhone contenders: S23 Ultra vs Pixel 7 Pro"
 link: "https://medium.com/macoclock/battle-of-the-iphone-contenders-s23-ultra-vs-pixel-7-pro-8927e5dd684e"
 isUpdated: true
 ---
-
-
-
-
 
 ![Link to the image](/assets/img/2024-07-13-BattleoftheiPhonecontendersS23UltravsPixel7Pro_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이미 삼성 S23 울트라와 아이폰 14 프로 맥스를 비교해보았어요. 스포일러: 전자가 후자보다 사진 신뢰도, 비디오 촬영, 그리고 생태계 이점 (적어도 제 경험 상으로는)에서 더 나은 기기라는 건 사실이에요. 하지만 둘 다 탁월한 스마트폰이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 후 비교하지 않은 것이 한 가지 있습니다 — 오늘까지는. 바로 삼성 대 구글의 대결입니다; S23 Ultra 대 Pixel 7 Pro 중 어느 기기가 우세한 것인가요? 그리고 두 기기가 플래그십 아이폰보다 나은가요?
 
@@ -33,17 +40,39 @@ isUpdated: true
 
 작년 Pixel 7 Pro는 가격대도 상위 브랜드인 구글의 탁월한 제공물 중 하나로 제 마음을 사로잡았습니다. £849에 128GB 저장 용량의 Pixel 7 Pro를 구입할 수 있습니다. 최대 £949를 지불하여 256GB 모델을 구입할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-맞아요 – 이건 1,000파운드 이상 지불할 수 없는 프리미엄 스마트폰이에요. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-![S23 Ultra vs Pixel 7 Pro](/assets/img/2024-07-13-BattleoftheiPhonecontendersS23UltravsPixel7Pro_1.png) 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+맞아요 – 이건 1,000파운드 이상 지불할 수 없는 프리미엄 스마트폰이에요.
+
+![S23 Ultra vs Pixel 7 Pro](/assets/img/2024-07-13-BattleoftheiPhonecontendersS23UltravsPixel7Pro_1.png)
 
 비교하자면, S23 Ultra의 256GB 모델(비교할 128GB 에디션이 없어요) 가격은 1,249파운드에 판매돼요. 삼성이 할인과 판매 가격 대비 풍부한 매입 가치를 제공하는 데 열을 올리고 있어서 그 가격에 팔릴 가능성은 거의 없어요.
 
 지금 내가 타이핑하는 동안, 그들은 당신의 오래된 기기에 최대 750파운드까지 제공하고 있어요(내가 내 기기를 샀을 때보다 150파운드나 더 높아요). 당신이 교환할 오래된 기기가 없더라도, 어떤 질문도 하지 않고 150파운드 할인 혜택을 받을 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 따라서 이들은 상징적인 스마트폰으로 신선한 가격표를 제공합니다. 각 브랜드마다 지갑을 털지 않는 가격을 설정하는 방식이 약간 다르지만 말이죠.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 S23 Ultra와 Pixel 7 Pro 사이에 비교할 주관적인 포인트 중 첫 번째입니다. 비록 앞에서 볼 때는 놀라울 정도로 비슷해 보일지라도요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Battle of the iPhone contenders](/assets/img/2024-07-13-BattleoftheiPhonecontendersS23UltravsPixel7Pro_2.png)
 
@@ -63,7 +103,18 @@ S23 Ultra와 Pixel 7 Pro 사이에 비교할 주관적인 포인트 중 첫 번�
 
 나머지 디자인 부분에 대해서, 둘 다 멋진, 프리미엄한 스마트폰입니다. 그러나 저는 S23 Ultra가 좀 더 나에게 맞다고 생각하며, Pixel 7 Pro는 그 극히 긁히기 쉬운 카메라 주변 때문에 몇 가지 점을 잃습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Winner: S23 Ultra (because of that beautiful display).
 
@@ -73,7 +124,18 @@ If you had asked me to compare the Pixel 7 Pro against the S22 Ultra last year, 
 
 ![](/assets/img/2024-07-13-BattleoftheiPhonecontendersS23UltravsPixel7Pro_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 때는 다른 시대였죠. 영국과 일부 다른 지역에서는 끔찍한 엑시노스 칩을 사용했던 시기였어요. 다행히 S23 울트라는 어디에서든 구매하더라도 멋진 스냅드래곤 8 Gen 2가 함께 제공됩니다.
 
@@ -83,7 +145,18 @@ Pixel 7 Pro가 제공하는 가장 순수한 안드로이드 경험을 고려하
 
 승자: 무승부입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 카메라
 
@@ -93,7 +166,18 @@ Pixel 7 Pro가 제공하는 가장 순수한 안드로이드 경험을 고려하
 
 둘 다 자체적으로 훌륭한 사진을 찍습니다. 그러나 여전히 나는 픽셀 7 프로의 이미지를 선호하며, S23 울트라의 경우 설정을 조정하고 추가 소프트웨어를 설치하지 않으면 빠르게 움직이는 대상의 사진을 신뢰할 수 없는 문제가 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Battle of the iPhone contenders](/assets/img/2024-07-13-BattleoftheiPhonecontendersS23UltravsPixel7Pro_5.png)
 
@@ -103,7 +187,18 @@ Pixel 7 Pro가 제공하는 가장 순수한 안드로이드 경험을 고려하
 
 ![Battle of the iPhone contenders](/assets/img/2024-07-13-BattleoftheiPhonecontendersS23UltravsPixel7Pro_7.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 모델 모두 엄청난 줌 옵션을 제공합니다. Pixel 7 Pro는 최대 30배까지 지원하며, S23 Ultra는 정말 사용하기 힘든 100배까지 가능합니다.
 
@@ -113,7 +208,18 @@ Pixel 7 Pro가 제공하는 가장 순수한 안드로이드 경험을 고려하
 
 ![Image 2](/assets/img/2024-07-13-BattleoftheiPhonecontendersS23UltravsPixel7Pro_9.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단히 말해서, 카메라 성능면에서 두 기기의 차이는 별로 없지만, 나는 이미지 처리와 설정을 따로 조정할 필요가 없는 Pixel 7 Pro를 선호하기 때문에 Pixel 7 Pro가 우세하다고 생각해. 두 기기 모두 마케팅에 맞게 조정된 추가 기능을 갖추고 있지만, 단계를 거친 후 몇 주 후엔 그 존재를 잊을 거라는 것을 보장해.
 
@@ -123,7 +229,18 @@ Pixel 7 Pro가 제공하는 가장 순수한 안드로이드 경험을 고려하
 
 아, 그리고 현재 인터넷 상에서 삼성과 달에 관한 논란이 도는 것 같아. 솔직히 말하자면 - 거짓말 안 해요 - 어떤 내용인지 정말 잘 모르겠어요. 그 소식을 찾아볼 에너지도 내 안에 감지되지 않고, 일종의 라디오쇼 기사인 것 같은 제목에 심심하게 눈길을 돌리지 않을게요. 미안해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 승자: Pixel 7 Pro (간신히).
 
@@ -133,7 +250,18 @@ Pixel 7 Pro가 제공하는 가장 순수한 안드로이드 경험을 고려하
 
 그리고, 아니, 이건 제가 애플 팬이기 때문이 아니에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 저는 Tarot 전문가에요.
 
@@ -145,7 +273,18 @@ Pixel 7 Pro가 제공하는 가장 순수한 안드로이드 경험을 고려하
 
 ![이미지](/assets/img/2024-07-13-BattleoftheiPhonecontendersS23UltravsPixel7Pro_12.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 S23 울트라와 픽셀 7 프로는 빌드 품질부터 성능, 카메라 능력, 중요한 매력 요소까지 iPhone의 왕관을 뺏을 만한 진정한 경쟁자입니다. 실제로, 만약 당신이 저처럼 애플 생태계에 꽉 묶여 있지 않다면, 이 두 기기를 모두 고려해보는 것을 제안할 것입니다. 그래야만 많은 금액을 절약할 수 있기 때문이죠.
 
@@ -155,7 +294,18 @@ Pixel 7 Pro가 제공하는 가장 순수한 안드로이드 경험을 고려하
 
 픽셀 7 프로는 작년에 고품질 안드로이드 플래그십 스마트폰의 기준을 세우며, 여전히 그 플랫폼에서 우수한 가격 대비 성능을 원하는 사람들에게 내 첫 번째 추천입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-07-13-BattleoftheiPhonecontendersS23UltravsPixel7Pro_13.png)
 
@@ -165,7 +315,18 @@ Based on this, it's pretty clear where my allegiance lies. If you're torn betwee
 
 So, which side are you on? 🌟
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 떠나기 전에
 

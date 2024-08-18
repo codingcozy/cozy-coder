@@ -3,17 +3,13 @@ title: "비트코인에서 중요한 변화 2024년 최신 업데이트 분석"
 description: ""
 coverImage: "/assets/img/2024-06-30-SomethingIMPORTANThasCHANGEDinBITCOIN_0.png"
 date: 2024-06-30 19:00
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-30-SomethingIMPORTANThasCHANGEDinBITCOIN_0.png
 tag: Tech
 originalTitle: "Something IMPORTANT has CHANGED in BITCOIN"
 link: "https://medium.com/digitalcurrencytraders/something-important-has-changed-in-bitcoin-2b7f28448a16"
 isUpdated: true
 ---
-
-
-
-
 
 2024년에 대단한 성과를 거둘 암호 프로젝트에 대해 모두가 이야기하고 있어요. 하지만 우리의 데이터에 따르면 매우 중요한 변화가 일어났답니다. 맞아요, 10월에 저점을 부를 때부터 엄청난 수익을 봤지만, 이제 앞으로 나타날 큰 추악한 진실이 있어요. 우리는 이 패턴을 이전에도 본 적이 있어요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 만약 도와주시면 끝까지 따라와 주신다면, 매우 적은 금액으로 시작하여 놀라운 것으로 성장시킨 영감을 주는 이야기가 있는데요. 안녕하세요, 다시 오신 것을 환영합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 이름은 디지털화폐거래자 매체의 더그입니다. 이 매체에서는 암호화폐에 관해 글을 쓰면서 돈을 벌 수 있어요.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ![중요한비트코인변화](/assets/img/2024-06-30-SomethingIMPORTANThasCHANGEDinBITCOIN_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 우리 상슨 추세선을 돌파했고, 그것은 주관적입니다 — 어디서 추세선을 그리고 싶은지에 따라 달라집니다. 4시간 봉의 EMA가 교차했으므로, 우리는 매매 상태가 다가오고 있다는 것을 알 수 있어요.
 
@@ -41,7 +59,18 @@ isUpdated: true
 
 DXY의 Bollinger Bands를 살펴보면 이 평행 채널을 탈출했음을 볼 수 있어요. 굉장히 중요한 부분이에요. 그래서, 더욱 가까운 시간대로 확대하여 살펴보고 싶어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 15분 타임 프레임으로 들어가면 상승 트렌드 선이 하나, 두 개, 세 개의 정점 형성을 뚫는 것을 볼 수 있어요. 여기서 수평선을 그린다는 생각이 들어요. 이 수평선으로부터 확대해서 이 레벨이 얼마나 중요할지 보고 싶어요. 12시간 타임 프레임으로 돌아오면, 이 레벨이 역사 전반에 걸쳐 중요함을 볼 수 있어요.
 
@@ -49,7 +78,18 @@ DXY의 Bollinger Bands를 살펴보면 이 평행 채널을 탈출했음을 볼 
 
 즉, 이 레벨을 넘어선다면, 무시할 수 없어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 이 수준에서 튕기고 123 패턴 하방으로 돌파하면, 미 달러 지수가 정말로 약화하기 시작하는 순간일 수 있고, 비트코인이 이곳에 자리를 유지할 것이라고 예상할 수 있습니다.
 
@@ -59,11 +99,22 @@ DXY의 Bollinger Bands를 살펴보면 이 평행 채널을 탈출했음을 볼 
 
 비트코인 지배력을 들여다보는 이 데이터는 지금 정말 중요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-저희 데이터를 통해 가짜 상승이 어디에서 발생했는지 식별할 수 있습니다. 알림 상태 코인의 수가 급증하고 홀드 상태 코인의 수가 따라오지 않는 상황이죠. 어떤 코인이 강세를 유지하고 있는지, 어떤 코인이 그렇지 않은지 정확히 파악하는 것은 돈을 보호하느냐, 잃느냐의 차이를 만들어냅니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-이러한 데이터는 이른 상승 현상에 속지 않도록 도와주고 동시에 그에 대한 조치를 취할 수 있도록 도와줍니다. 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+저희 데이터를 통해 가짜 상승이 어디에서 발생했는지 식별할 수 있습니다. 알림 상태 코인의 수가 급증하고 홀드 상태 코인의 수가 따라오지 않는 상황이죠. 어떤 코인이 강세를 유지하고 있는지, 어떤 코인이 그렇지 않은지 정확히 파악하는 것은 돈을 보호하느냐, 잃느냐의 차이를 만들어냅니다.
+
+이러한 데이터는 이른 상승 현상에 속지 않도록 도와주고 동시에 그에 대한 조치를 취할 수 있도록 도와줍니다.
 
 Alex Hormozi가 수익의 장밋빛 분포에 대해 가르치듯이 대담해지고 다양성을 유지하는 것이 중요합니다. 대박을 친 승자들이 다양한 실험을 지원해주기 때문이죠.
 
@@ -71,7 +122,18 @@ Alex Hormozi가 수익의 장밋빛 분포에 대해 가르치듯이 대담해�
 
 그럼 이제 비디오의 수익 창출 부분으로 넘어가서, 이번 주 SimpleFX로부터 얼마의 패시브 소득을 올렸는지에 대해 이야기해보도록 하죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 표를 마크다운 형식으로 변경했어요.
 
@@ -81,7 +143,18 @@ Alex Hormozi가 수익의 장밋빛 분포에 대해 가르치듯이 대담해�
 
 그래서 이번 주에 벌어들인 그 작은 금액은, 내가 보유 중인 암호화폐 덕분에 정말로 크게 성장시킬 수 있을 것 같아요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비디오 시작할 때 너에게 말했던 대로, 매우 작은 돈으로 시작하는 사람들에게 영감을 주는 것이 있어.
 
@@ -91,7 +164,18 @@ Alex Hormozi가 수익의 장밋빛 분포에 대해 가르치듯이 대담해�
 
 얼마나 빨리 백만장자가 될 수 있는지에 대한 글을 썼어.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 Medium 프로필 맨 위에 있으니 찾아보세요. 많은 클랩을 받고 있어요. 어떻게 백만장자가 될 수 있는지 수학적으로 보여줘요. $1,000으로 시작해서 매년 딱 한 번씩 2배씩 했다면, 10년 안에 백만장자가 되고 $1,000을 투자한 게 전부였어요.
 
@@ -101,7 +185,18 @@ Alex Hormozi가 수익의 장밋빛 분포에 대해 가르치듯이 대담해�
 
 ![이미지](/assets/img/2024-06-30-SomethingIMPORTANThasCHANGEDinBITCOIN_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서, 여기서 비디오를 마무리 짓겠습니다. 함께 해 주셔서 정말 감사합니다; 흥미로운 것이나 유익한 정보를 발견했으면 좋겠어요. 댓글로 의견을 꼭 남겨주세요.
 
@@ -109,6 +204,17 @@ Alex Hormozi가 수익의 장밋빛 분포에 대해 가르치듯이 대담해�
 
 안전한 거래를 유지하고 손실을 최소화하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-30-SomethingIMPORTANThasCHANGEDinBITCOIN_6.png)

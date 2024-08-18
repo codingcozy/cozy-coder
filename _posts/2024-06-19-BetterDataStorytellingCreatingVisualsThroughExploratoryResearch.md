@@ -3,18 +3,13 @@ title: "더 나은 데이터 스토리텔링 탐구적 연구를 통해 시각�
 description: ""
 coverImage: "/assets/img/2024-06-19-BetterDataStorytellingCreatingVisualsThroughExploratoryResearch_0.png"
 date: 2024-06-19 01:31
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-BetterDataStorytellingCreatingVisualsThroughExploratoryResearch_0.png
 tag: Tech
 originalTitle: "Better Data Storytelling: Creating Visuals Through Exploratory Research"
 link: "https://medium.com/data-storytelling-corner/better-data-storytelling-creating-visuals-through-exploratory-research-113578707996"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![Better Data Storytelling - Creating Visuals Through Exploratory Research](/assets/img/2024-06-19-BetterDataStorytellingCreatingVisualsThroughExploratoryResearch_0.png)
 
@@ -23,8 +18,18 @@ isUpdated: true
 
 하지만 어떻게 하면 당신의 데이터를 돋보이게 만들 수 있을까요? 춤추게 할 수 있을까요? 청중을 행동으로 이끄는 데 무엇을 할 수 있을까요?
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어쩌면 좀 더 흥미로운 것을 찾아볼 필요가 있을지도 몰라요. 처음 단계로, 우리는 탐구적 연구를 수행하여 데이터를 다양한 방식으로 시각화하여 우리의 청중을 정말로 사로잡을 시각이나 시각 집합을 찾을 수 있습니다.
 
@@ -34,7 +39,18 @@ isUpdated: true
 
 데이터 집합으로 이야기를 전할 수 있는 지점에 도달하려면 탐구적 연구 과정을 거쳐야 할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에 자연적인 호기심이 담긴 기회가 있어요. 데이터에 관한 어떤 질문이 있나요? 데이터에 대해 알아보고 싶으신 점이 무엇인가요?
 
@@ -48,7 +64,18 @@ Cole Nussbaumer-Knaflic은 2015년에 출간된 대표적인 책인 'Storytellin
 - 무엇이 돋보이나요?
 - 이것이 정상인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 큰 데이터 집합인 유엔 난민고등판데사(UNHCR)의 글로벌 망명자 데이터 집합을 사용한 몇 가지 예시를 살펴봅시다.
 
@@ -58,7 +85,18 @@ Cole Nussbaumer-Knaflic은 2015년에 출간된 대표적인 책인 'Storytellin
 
 그 데이터는 [여기](링크)에서 자유롭게 액세스할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 링크를 클릭해서 다운로드 페이지로 이동한 후에, 선택하는 데이터를 자세히 살펴볼 수 있습니다:
 
@@ -69,7 +107,18 @@ Cole Nussbaumer-Knaflic은 2015년에 출간된 대표적인 책인 'Storytellin
 - 출신 국가에서 — 피난민이 이주하는 국가
 - 피난처 국가에서 — 피난민이 출신하는 국가
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터셋을 다운로드한 후에는 스프레드시트 형식으로 열어서 어떤 내용을 다루고 있는지 살펴볼 수 있어요:
 
@@ -81,7 +130,18 @@ Cole Nussbaumer-Knaflic은 2015년에 출간된 대표적인 책인 'Storytellin
 - 망명 국가 (3자리 ISO 코드 포함) - 실제로 망명을 찾으려는 사람이 있는 곳
 - 인정된 결정 - 망명을 찾는 사람이 수용되었는지 여부 (국가별 숫자 총계)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 원산지와 망명국 두 곳은 신뢰할 수 있는 고유 식별을 위해 사용할 수 있는 3자리 ISO 코드를 갖고 있어요.
 
@@ -91,7 +151,18 @@ Cole Nussbaumer-Knaflic은 2015년에 출간된 대표적인 책인 'Storytellin
 
 저는 캐나다인으로써, 캐나다로 오는 망명 신청자에 관심이 있어요. 반면 캐나다에서 떠나 다른 곳으로 망명을 찾는 사람들보다는 그 수가 많지 않아요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마음에 떠오르는 질문들:
 
@@ -104,7 +175,18 @@ Cole Nussbaumer-Knaflic은 2015년에 출간된 대표적인 책인 'Storytellin
 
 한 번 더 말하지만, 2024년에 출간된 Dr. Yau의 Visualize This에서는 60가지 시각화 옵션이 제공되므로 선택할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-BetterDataStorytellingCreatingVisualsThroughExploratoryResearch_3.png" />
 
@@ -118,7 +200,18 @@ Cole Nussbaumer-Knaflic은 2015년에 출간된 대표적인 책인 'Storytellin
 
 본문에 포함된 모든 5가지 예시는 Python Plotly 라이브러리를 사용하여 생성되었습니다(Github에서 모든 파일을 확인할 수 있습니다).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시작해봅시다!
 
@@ -128,7 +221,18 @@ Cole Nussbaumer-Knaflic은 2015년에 출간된 대표적인 책인 'Storytellin
 
 ![Bar Chart](/assets/img/2024-06-19-BetterDataStorytellingCreatingVisualsThroughExploratoryResearch_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 막대 차트를 통해 수용된 망명자 수가 2021년까지 상승 추세였으며 (2020년 코로나19 예외), 그 이후로는 하락 추세임을 알 수 있습니다. 이 차트는 캐나다로의 망명자의 숫자를 매우 명확하게 보여줍니다.
 
@@ -138,7 +242,18 @@ Cole Nussbaumer-Knaflic은 2015년에 출간된 대표적인 책인 'Storytellin
 
 ![차트](/assets/img/2024-06-19-BetterDataStorytellingCreatingVisualsThroughExploratoryResearch_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가로 막대 차트를 사용하면 각 국가를 쉽게 읽고 서로 비교할 수 있어요. 멋지네요!
 
@@ -148,7 +263,18 @@ Cole Nussbaumer-Knaflic은 2015년에 출간된 대표적인 책인 'Storytellin
 
 먼저, 이전 예시의 막대 차트를 선 그래프로 변환해봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 우리가 캐나다만을 대표하는 선 그래프로 연도별 신청자 총 수를 보여준다면:
 
@@ -158,7 +284,18 @@ Cole Nussbaumer-Knaflic은 2015년에 출간된 대표적인 책인 'Storytellin
 
 데이터 시각화의 최상의 방법을 활용하여 데이터 세트의 나머지 국가들을 (연한 회색으로) 추가할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Better Data Storytelling](/assets/img/2024-06-19-BetterDataStorytellingCreatingVisualsThroughExploratoryResearch_7.png)
 
@@ -168,7 +305,18 @@ Cole Nussbaumer-Knaflic은 2015년에 출간된 대표적인 책인 'Storytellin
 
 멋져요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금은 캐나다가 전 세계와 비교되는 방법과 어디서 사람들이 왔는지에 대한 전체 숫자를 알게 되었습니다.
 
@@ -178,7 +326,18 @@ Cole Nussbaumer-Knaflic은 2015년에 출간된 대표적인 책인 'Storytellin
 
 # Exploration 3. 스택된 면적 차트
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스택된 영역 차트는 시간이 지남에 따른 체적 변화를 살펴보는 뛰어난 방법입니다. 우리 데이터셋의 경우, 체적 변화는 캐나다로 매년 망명을 찾는 각 출신 국가의 사람 수일 것입니다.
 
@@ -188,7 +347,18 @@ Cole Nussbaumer-Knaflic은 2015년에 출간된 대표적인 책인 'Storytellin
 
 자세히 살펴보면, 주황색 영역은 캐나다에서 망명을 찾는 이란 사람들의 많은 수를 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 적절한 데이터로 스택된 영역 차트는 시간에 따른 변화에 대해 확실한 시각적 효과를 제공할 수 있습니다.
 
@@ -198,7 +368,18 @@ Cole Nussbaumer-Knaflic은 2015년에 출간된 대표적인 책인 'Storytellin
 
 이를 위해 우리에게 제공하는 유용한 표현은 코로플레스 지도입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4. 코로플레스 맵 고찰
 
@@ -208,7 +389,18 @@ Cole Nussbaumer-Knaflic은 2015년에 출간된 대표적인 책인 'Storytellin
 
 ![이미지](/assets/img/2024-06-19-BetterDataStorytellingCreatingVisualsThroughExploratoryResearch_9.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예에서, 더 어두운 색조와 음영은 캐나다로의 많은 수의 난민 신청자를 대표합니다. 이 예에서 대상 국가인 캐나다는 녹색 원(마치 "녹색 빛"처럼)으로 강조되어 있습니다.
 
@@ -218,7 +410,18 @@ Cole Nussbaumer-Knaflic은 2015년에 출간된 대표적인 책인 'Storytellin
 
 ![이미지](/assets/img/2024-06-19-BetterDataStorytellingCreatingVisualsThroughExploratoryResearch_10.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이썬 Plotly를 사용하여 생성된 코로플레스 맵으로 각 나라 위를 마우스 오버하여 추가 정보(즉, 정확한 숫자)를 확인할 수 있습니다.
 
@@ -228,8 +431,18 @@ Cole Nussbaumer-Knaflic은 2015년에 출간된 대표적인 책인 'Storytellin
 
 우리 데이터셋에서 각 해의 각 나라에 대한 캐나다의 망명 신청 국가 데이터를 나타낼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Better Data Storytelling: Creating Visuals Through Exploratory Research](/assets/img/2024-06-19-BetterDataStorytellingCreatingVisualsThroughExploratoryResearch_11.png)
 
@@ -239,8 +452,18 @@ Cole Nussbaumer-Knaflic은 2015년에 출간된 대표적인 책인 'Storytellin
 
 예를 들어, 2023년을 클릭하면 해당 연도의 데이터만 볼 수 있습니다:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-BetterDataStorytellingCreatingVisualsThroughExploratoryResearch_12.png" />
 
@@ -250,7 +473,18 @@ Cole Nussbaumer-Knaflic은 2015년에 출간된 대표적인 책인 'Storytellin
 
 이 글의 목표는 독자들에게 데이터 집합에서 탐색 분석을 수행하는 다양한 차트 및 매핑 기술을 사용하는 방법에 대한 예시를 제공하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 과정을 통해 데이터에 대해 궁금한 점이 있으면 답변할 수 있습니다. 혹은 아직 질문이 없다면 질문을 세우는 데 도움을 줄 수도 있습니다.
 
@@ -260,9 +494,20 @@ Cole Nussbaumer-Knaflic은 2015년에 출간된 대표적인 책인 'Storytellin
 
 참고: 이 글의 예시는 모두 Python 코드를 사용하여 (Plotly express 및 Streamlit 라이브러리를 활용하여) 작성되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-위 코드 파일과 CSV 파일은 GitHub 저장소에 있습니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+위 코드 파일과 CSV 파일은 GitHub 저장소에 있습니다.
 
 만약 이 유형의 이야기가 당신의 취향이고 작가로서 저를 지원하고 싶다면, 제 Substack를 구독해주세요.
 

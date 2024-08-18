@@ -3,17 +3,13 @@ title: "면접 질문, 답변  Linux-1"
 description: ""
 coverImage: "/assets/img/2024-06-23-InterviewQuestionAnswerLinux-1_0.png"
 date: 2024-06-23 15:19
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-InterviewQuestionAnswerLinux-1_0.png
 tag: Tech
 originalTitle: "Interview Question , Answer — Linux-1"
 link: "https://medium.com/@ibrahims/interview-question-answer-linux-1-5af0ad4edf57"
 isUpdated: true
 ---
-
-
-
-
 
 ❓리눅스 부팅 프로세스는 무엇인가요?
 
@@ -24,9 +20,20 @@ isUpdated: true
 - GRUB — Grand Unified Bootloader가 커널을 실행합니다.
 - Kernel — 커널이 /sbin/init을 실행합니다.
 - Init — Init이 런레벨 프로그램을 실행합니다.
-- Runlevel — 런레벨 프로그램은 /etc/rc.d/rc*.d/에서 실행됩니다.
+- Runlevel — 런레벨 프로그램은 /etc/rc.d/rc\*.d/에서 실행됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 buymeacoffee ☕ 👈 클릭해보세요
 
@@ -36,8 +43,18 @@ buymeacoffee ☕ 👈 클릭해보세요
 
 ❓리눅스에서 소프트 링크와 하드 링크는 무엇이며, 이들을 어떻게 생성할 수 있을까요? 이 두 링크 유형의 차이는 무엇일까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Link](/assets/img/2024-06-23-InterviewQuestionAnswerLinux-1_1.png)
 
@@ -47,8 +64,18 @@ Softlink 👈
 
 A “hardlink” only exists in the name in a directory- and specifies the inode number of the file.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하드 링크 👈
 
@@ -61,7 +88,18 @@ ln -s [원본 파일명] [링크 이름] --> 심볼릭 링크 생성
 
 심볼릭 링크: inode `=== 파일 이름 `== 소프트 링크
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ❓ 쉘 스크립트에서 일반적으로 첫 줄은 무엇인가요? 그 의미는 무엇인가요? 만약 이 줄이 생략된다면 어떤 일이 발생하고, 이 경우 스크립트를 어떻게 실행하나요?
 
@@ -71,8 +109,18 @@ ln -s [원본 파일명] [링크 이름] --> 심볼릭 링크 생성
 
 ❓ 리눅스에서 쉘 스크립트를 백그라운드에서 실행하는 방법은 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 & Symbol
@@ -87,8 +135,18 @@ command &
 
 ❓리눅스에서 크론탭(crontab)은 무엇인가요? 크론탭을 이용하여 작업을 설정하고 예약하는 방법에 대해 설명해주세요.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Crontab은 cron 테이블의 약어로, 특정 시간에 실행되어야 하는 다양한 cron 항목의 일정을 포함하는 파일입니다.
 
@@ -98,7 +156,18 @@ Crontab은 백그라운드에서 cron 데몬에 의해 정기적으로 자동으
 
 Crontab → 미래의 어느 시점에 실행되어야 할 작업을 예약하는 것.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 크론탭 링크를 참조하세요
 
@@ -115,7 +184,18 @@ Crontab → 미래의 어느 시점에 실행되어야 할 작업을 예약하�
 sudo ufw allow 53/tcp
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ❓원격 서버에서 문제가 발생하는 경우 어떻게 문제를 해결할 수 있을까요?
 

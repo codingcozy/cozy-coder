@@ -3,17 +3,13 @@ title: "디지털 격차를 좁히며 로보틱스와 프로그래밍을 통해 
 description: ""
 coverImage: "/assets/img/2024-06-19-BridgingtheDigitalDivideEmpoweringZambianYouththroughRoboticsandProgramming_0.png"
 date: 2024-06-19 17:43
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-BridgingtheDigitalDivideEmpoweringZambianYouththroughRoboticsandProgramming_0.png
 tag: Tech
 originalTitle: "Bridging the Digital Divide: Empowering Zambian Youth through Robotics and Programming"
 link: "https://medium.com/@plastalbotbuilders/bridging-the-digital-divide-empowering-zambian-youth-through-robotics-and-programming-1dbc543b414e"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-06-19-BridgingtheDigitalDivideEmpoweringZambianYouththroughRoboticsandProgramming_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 “왜 잠비아의 젊은이들에게 로봇학을 가르쳐야 할까?” 이 질문이 우리가 주최한 로봇 및 프로그래밍 워크샵의 지침이 되었습니다. 이 워크샵은 호기심을 일으키고 학생들을 이 혁신적인 분야에 몰입시키는 것을 목표로 했습니다. 이 이벤트는 부모, 교육자, 학생들의 관심을 끌며 로봇 교육의 명백한 혜택을 강조했습니다. STEM 분야, 기술 기술, 디지털 리터러시를 촉진함으로써, 이 워크샵은 디지털 격차를 줄일 뿐만 아니라 협력, 팀워크 및 현실 세계적 응용 인식을 육성했습니다. 결국, 이 모든 것은 혁신을 일으키고 젊은이를 권장하며 긍정적인 영향을 미치는 데 있습니다 — 지역적으로나 세계적으로.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 잠비아 풍경에서의 도전에 대처하기
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 이 워크샵의 핵심 목표 중 하나는 기술에 제한된 접근권을 가진 젊은이들에게 실습 경험을 제공하는 것이었습니다. 이를 통해 워크샵은 지리적 위치나 경제적 지위와 상관없이 모든 학생들에게 평등한 기회를 제공하여 경쟁력 있는 교육을 제공하려고 했습니다. 이러한 노력은 많은 교육 기관이 기술적 주제에 대한 직접 수업을 지원하는 데 필요한 자원이 부족한 나라에서 중요한 일이었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 물리적 자원 부족의 제약을 극복하기 위해 워크숍에서 학생들에게 Tinkercad와 같은 온라인 플랫폼을 소개했습니다. Tinkercad는 사용하기 쉬운 웹 기반 응용 프로그램으로, 학생들이 3D 디자인 및 전자 시뮬레이션에 참여할 수 있도록 합니다. 이러한 플랫폼을 활용함으로써 참가자들은 필수적인 기술 자원에 익숙해지고 최소 비용 또는 무료로 프로젝트를 수행할 수 있었습니다. 이러한 접근법은 고급 기술을 접근하고 스스로 학습하며 탐구하는 것을 촉진함으로써 핵심 기술 자원에 접근할 수 있는 기회를 제공했습니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 ## 청년 고용 대책
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2021년, 잠비아는 청년 실업 위기에 대처했습니다. 거의 45만 청년이 일자리를 찾지 못하여 (450,759), 이 문제는 시골(38.7%)과 도시(61.3%) 모두에 영향을 미쳤습니다.
 
@@ -55,7 +84,18 @@ isUpdated: true
 
 이 종합적인 접근은 참가자들의 잠재력을 현실적인 기회로 변화시켜, 실업 위기를 효과적으로 해결하고 잠비아의 광범위한 경제 발전에 크게 기여했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 교육 품질 향상
 
@@ -65,7 +105,18 @@ isUpdated: true
 
 또한, 워크숍의 협력적인 성격은 팀워크 및 소통 기술을 촉진했습니다. 학생들은 프로젝트를 함께 작업하면서 아이디어를 공유하고 그룹으로 문제를 해결했습니다. 이 협업 환경은 팀워크와 효과적인 소통이 성공에 중요한 현실 세계 직장 환경을 반영했습니다. 함께 일하는 법을 배우면서, 학생들은 또한 서로에게 커뮤니티와 상호 지원의 의식을 발전시킴으로써 전반적인 성장에 중요한 요소가 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 포용성과 지역 사회 발전을 촉진합니다
 
@@ -75,7 +126,18 @@ isUpdated: true
 
 어린 아이들이 알맞은 연령 요구 사항을 충족해야 했음에도 불구하고 참가를 원하는 몇몇 잠재적인 부모들의 우려가 생겼습니다. 그에 대해 거절할 수 없었습니다. 궁극적으로, 우리는 어린 참가자들을 포함하기로 결정했으며, 어린 참가자들을 수용하는 데 있는 잠재적인 어려움을 인정했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 열 세 미만의 참가자들을 포함한 이유 중 하나는 STEM에 대한 열정을 조기에 일으키기 위해서였습니다. 다양한 STEM 관련 활동을 시작으로 한 빠른 출발은 그들에게 여러 면에서 이점을 줍니다. DIY 프로젝트, 연구, 그리고 대회를 통해 어린 나이에 자신의 열정과 잠재적인 경력을 발견하는 것은 그들이 어린 시절에 많은 이점을 가지는 데 도움이 됩니다. 하지만 이에 대해 궁금증이 생깁니다: 이것이 좋은 결정이었을까요? 이 내용이 그러한 다양한 연령층에 적응 가능했을까요?
 
@@ -85,7 +147,18 @@ isUpdated: true
 
 잠비아에서 로봇 교육 참여에 뚜렷한 성 차별이 있음을 고찰할 때, 세계적인 도전 과제를 반영하는 다양한 요소들이 작용함을 뚜렷하게 알 수 있습니다. 유명한 작가이자 교육자 Reshma Saujani은 기술과 과학에 대한 여성 아이들의 관심을 인정하는 중요성을 제대로 강조하며, 이러한 열정을 추구하고 지원할 필요성을 강조하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상황을 되돌아보면, 문화적이고 사회적인 관습이 여성이 STEM 분야에 대한 인식을 형성하는 데 상당한 영향을 미친다는 것이 분명해졌어요. 유네스코에서 발표한 교육분야의 성평등 보고서에 따르면, 이러한 관습들은 종종 여성에 대한 성별 편견을 고착화하여 여자 아이들이 과학과 기술 분야에 관심을 가지지 못하도록 방해하고 있어요. 게다가, 교육심리학자인 캐롤 드웩이 지적한 대로, 교육 시스템 내부의 무의식적인 편견이 여자 아이들의 STEM 과목에 대한 자아인식과 포부에 영향을 미치고 있다고 합니다. 이를 지역 교육가들이 반복하며, 여성 역할모델의 부족과 로봇 교육 프로그램에 대한 여자 아이들의 참여에 대한 중요한 장벽으로써 자원 접근성의 한계를 언급합니다.
 
@@ -95,7 +168,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-19-BridgingtheDigitalDivideEmpoweringZambianYouththroughRoboticsandProgramming_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리의 워크샵 참석자 수는 우리가 논의한 보다 폭넓은 문제를 명확히 반영합니다. 모든 인구 통계를 포괄하여 참여를 촉진하기 위해 최선을 다한 노력에도 불구하고, 여성 참가자 수는 남성과 비교했을 때 현저히 적은 것을 확인했습니다. 이 차별은 종종 여자들이 STEM 분야의 관심을 추구하지 않도록 방해하는 문화적, 사회적 관습의 영향을 강조합니다.
 
@@ -105,7 +189,18 @@ isUpdated: true
 
 독특한 통찰:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1. 지역 혁신가들을 돕는 것: 워크샵은 잠비아 내에서 지역 인재 육성과 혁신을 촉진하는 플랫폼으로 기능했습니다. 참가자들은 수자원 부족, 의료 접근성, 농산물 생산성 등 지역에서 심각한 문제를 해결하기 위해 로봇 솔루션을 통해 도전하도록 장려되었습니다. 이러한 지역적으로 유의미한 혁신 강조는 즉각적인 지역사회의 요구를 해결할뿐만 아니라 잠비아를 해당 지역의 기술 발전의 중심지로 위치시킵니다.
 
@@ -115,17 +210,39 @@ isUpdated: true
 
 이러한 독특한 통찰을 강조함으로써, 로봇 교육이 기술 습득뿐만 아니라 잠비아의 청년들이 긍정적인 변화를 이끄는 주체로, 혁신과 발전을 지역적으로나 전 세계적으로 촉진하는 것을 경험할 수 있음이 분명해집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 지역사회와 국가 발전에 미치는 영향
 
-STEM을 촉진하는 것, 특히 로봇 교육의 지역사회 영향은 깊고 넓게 퍼져갑니다. 젊은이들이 로봇에 참여하면 호기심과 열정의 파동이 일어나 지역사회에 스며들게 됩니다. 이 열정은 연못에 돌을 던지는 것처럼 외부로 퍼지는 파문을 일으키며 개인 교육 결과를 향상시키고 학습과 혁신 문화를 육성합니다. 로봇과 프로그래밍 기술을 갖춘 학생들은 문제 해결자이자 비판적 사고를 갖춘 사람으로 발전하며 창의적인 해결책으로 지역 과제에 대처할 수 있어 지역 인프라와 서비스 개선으로 이어질 수 있습니다. 
+STEM을 촉진하는 것, 특히 로봇 교육의 지역사회 영향은 깊고 넓게 퍼져갑니다. 젊은이들이 로봇에 참여하면 호기심과 열정의 파동이 일어나 지역사회에 스며들게 됩니다. 이 열정은 연못에 돌을 던지는 것처럼 외부로 퍼지는 파문을 일으키며 개인 교육 결과를 향상시키고 학습과 혁신 문화를 육성합니다. 로봇과 프로그래밍 기술을 갖춘 학생들은 문제 해결자이자 비판적 사고를 갖춘 사람으로 발전하며 창의적인 해결책으로 지역 과제에 대처할 수 있어 지역 인프라와 서비스 개선으로 이어질 수 있습니다.
 
 게다가, 이러한 활동은 지역 경제를 상당히 촉진시킬 수 있습니다. 학생들이 기술 기술을 익히면 취업 시장에서 경쟁력을 키우며 기술에 능통한 노동력을 필요로 하는 기업과 산업을 유치할 수 있습니다. 이는 비유적으로 비옥한 토양에 씨앗을 심는 것과 같아 지역에서 일자리 창출과 경제 발전으로 이어질 수 있습니다. 또한 STEM 분야의 잠재력을 보여줌으로써 여러 젊은이들이 해당 분야에서의 경력을 쌓고자 영감받을 수 있어 장기적인 경제 성장을 이끄는 숙련된 혁신 노동력에 기여할 수 있습니다.
 
 이러한 활동의 중요성은 개인 발전을 넘어 넓은 지역 사회와 국가 발전에 상당한 영향을 미칩니다. 이러한 워크샵은 실제 학습 경험을 통해 교육 품질을 향상시켜 이론적 지식을 보완하고 학교의 자원 제약을 해소합니다. STEM 분야에서 여성들과 젊은 여성들의 참여를 증가시켜 교육 및 직업 기회의 성차를 완화하여 교육 및 직업 기회의 성차를 다루게 됩니다. 또한 참가자들의 비판적 사고와 문제 해결 능력을 강화함으로써 이러한 워크샵은 건강 의료부터 농업까지 복잡한 지역적 도전 과제에 대처할 수 있는 능력을 갖추도록 준비시킵니다. 결과적으로 기술적 솔루션을 통해 지역사회 발전과 국가 발전에 기여할 수 있는 어린 세대를 양성합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 이해관계자의 역할
 
@@ -135,7 +252,18 @@ STEM을 촉진하는 것, 특히 로봇 교육의 지역사회 영향은 깊고 
 
 정책 결정자들과 정부 관리자들은 로봇과 프로그래밍 교육이 용이한 환경을 조성하는 권한을 가지고 있습니다. 지원 정책, 자금 조성 이니셔티브, 그리고 국가 교육 과정에 STEM 통합을 통해, 모든 학생들이 가치 있는 학습 기회에 접근할 수 있도록 보장합니다. 더불어, 그들의 지원은 투자와 협력을 유치하여 교육 인프라를 강화하고 교육을 보다 접근 가능하게 만드는 데 기여할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 The private sector and non-profit organizations play a crucial role in providing essential resources, expertise, and practical connections. Companies offer financial support, internship opportunities, and mentorship programs, while non-profits organize outreach initiatives and workshops to make robotics accessible to marginalized communities. Through collaboration, stakeholders establish a dynamic ecosystem that nurtures the next generation of innovators and problem solvers, breaking stereotypes and fostering an inclusive and innovative environment for robotics education in Zambia.
 
@@ -145,9 +273,20 @@ Workshops like "Introduction to Robotics and Programming in Zambia" are instrume
 
 ![Bridging the Digital Divide: Empowering Zambian Youth through Robotics and Programming](/assets/img/2024-06-19-BridgingtheDigitalDivideEmpoweringZambianYouththroughRoboticsandProgramming_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-더 많은 통찰을 얻으려면 저희를 팔로우해 주세요 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+더 많은 통찰을 얻으려면 저희를 팔로우해 주세요
 
 - LinkedIn
 - Instagram

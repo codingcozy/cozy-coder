@@ -3,17 +3,13 @@ title: "소셜 미디어는 반이 없다, 만약"
 description: ""
 coverImage: "/assets/img/2024-06-20-SocialMediaisforLosersUnless_0.png"
 date: 2024-06-20 16:02
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-SocialMediaisforLosersUnless_0.png
 tag: Tech
 originalTitle: "Social Media is for Losers, Unless.."
 link: "https://medium.com/bouncin-and-behavin-academy/social-media-is-for-losers-unless-a0abe336bdaf"
 isUpdated: true
 ---
-
-
-
-
 
 ![image](/assets/img/2024-06-20-SocialMediaisforLosersUnless_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 몇 년 후, 다른 플랫폼들이 등장했습니다. Hi5도 있었지만, 프랑스의 초기 소셜 네트워크 중 하나인 SkyBlog도 있었어요. SkyBlog에서 낯선 사람들과 채팅하는 것이 제가 오늘 날 능통한 프랑스어를 구사하는 이유입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 물론, 결국에는 페이스북, 텀블러, 핀터레스트, 그리고 인스타그램에도 가입했어요.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 소셜 미디어에 참여하면 사회를 만들어 내거나 파괴할 수 있어요. 그 정도로 강력하답니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요즘 사람들이 AI에 대해 그토록 걱정한다는 게 역설적이에요. 정부가 소개나 제한, 사용 규칙 없이 세상에 가장 강력하고 사회를 변화시키는 도구 중 하나를 선보인 것을 우리가 모두 잊은 것처럼 보이네요.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 나는 막가벨리 주의를 지지해요. 디오게네스만큼 냉소적은 아니지만, 이 사람이 뭔가를 알고 있었다고 믿어요. 나중에 그에 대해 더 언급할게요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대중들이 일반적으로 생각하는 것과는 달리, 나는 Machiavelli가 접근 방식에서 비관적인 것보다는 더 실용적이라고 생각합니다.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 우리를 더 이방인 증폭적, 비만 증폭적, 이슬람혐오적, 동성애 혐오적 또는 비정하게 만들지 않았어요. 그냥 우리가 실제로 누구인지를 보여줬을 뿐이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 소셜 미디어를 공공의 이익을 위해 사용하는 우리와 같은 사람들, 정의를 위해 싸우고, 인권 및 동물 권리 침해에 대한 인식을 확산시키며 건강을 증진하는 사람들은 디지털 세계에서 긍정적이고 필수적인 힘이라는 뜻이에요.
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-20-SocialMediaisforLosersUnless_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이는 분명히 폭넓은 일반화이지만, 제 느낌을 알겠죠.
 
@@ -73,7 +124,18 @@ isUpdated: true
 
 더구나 소셜 미디어는 긍정성과 사실적인 뉴스, 즉 진실과의 전쟁이라는 새로운 형태의 전쟁을 촉발시켰습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 아이였을 때 광고 분야의 어른들이 "성은 팔린다"라고 말했던 것을 기억해요. 지금도 그렇지만, 요즘에는 더 팔리는 것은 분열과 분노입니다.
 
@@ -83,7 +145,18 @@ isUpdated: true
 
 이 현상은 소셜 미디어에만 한정된 것이 아니에요. 사실, (특정) 암호화폐들의 급격한 부상과 몰락 중에도 비슷한 역학을 목격해왔는데, 특히 일론 머스크가 도지코인을 통해 아마도 역사상 최대 규모의 펌프 앤 덤프 계획을 수행한 것을 목격했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 많은 부적절하고 비도덕적인 저널리스트들이 더 이상 사실을 우선시하지 않는 이유를 설명합니다. 그들은 조회수를 위해 아무 말이나 하고, 수익을 창출하기만 하면 아무나 홍보합니다.
 
@@ -93,7 +166,18 @@ isUpdated: true
 
 음, 현재 9시부터 5시까지의 업무가 편안하다면(이에 대해 부끄럽거나 해가 없습니다. 오히려 반대로), 소셜 미디어에 있거나 사용하거나 스크롤하는 것은 아무런 이유도 없습니다. 결코 없습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 세상을 더 좋은 곳으로 만들기 위해 할 일이 많이 있어요.
 
@@ -103,7 +187,18 @@ isUpdated: true
 
 소셜 미디어는 도구입니다, 꼭 필요한 도구 중 하나에요. 우리가 도구를 사용할 때, 특정 목적으로 사용해야 해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해머를 들고 무작정 뭔가를 내리치는 사람을 본 적이 없어요. 우리가 소셜 미디어에 접근하는 방법도 그렇게 해야 해요.
 
@@ -113,7 +208,18 @@ isUpdated: true
 
 총론적으로, 인간들이 소셜 미디어 사용을 그만둘 때 오는 날은 없다고 믿어요. 그 시나리오는 잠시 잊어봐도 괜찮아요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 세상에 긍정적인 영향을 미치고 싶은 우리 중 일부는 인류를 발전시키고 다른 이들에게 도움을 주기 위해 우리의 방식과 소셜 미디어와의 상호작용 방식을 다시 생각해야 한다고 생각합니다.
 
@@ -123,7 +229,18 @@ isUpdated: true
 
 독해해 주셔서 감사합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비슷한 기사를 읽고 제 작업을 지원하고 싶다면, 이곳을 클릭하여 제 프로필을 팔로우하고 뉴스레터를 구독하세요.
 
@@ -133,15 +250,24 @@ isUpdated: true
 
 평화!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Sure, here is how you can change the table tag to Markdown format:
-
 
 | Header 1 | Header 2 | Header 3 |
 | -------- | -------- | -------- |
 | Cell 1   | Cell 2   | Cell 3   |
 | Cell 4   | Cell 5   | Cell 6   |
-
 
 Let me know if you need further assistance!

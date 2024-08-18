@@ -3,17 +3,13 @@ title: "로라 트랜시버만 사용하여 LoRa 네트워크 구축하기 방�
 description: ""
 coverImage: "/assets/img/2024-06-19-HowtoBuildaLoRaNetworkwithTransceiversOnly_0.png"
 date: 2024-06-19 17:40
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-HowtoBuildaLoRaNetworkwithTransceiversOnly_0.png
 tag: Tech
 originalTitle: "How to Build a LoRa Network with Transceivers Only"
 link: "https://medium.com/@qiweimao/lorawan-vs-lora-0eda63a88034"
 isUpdated: true
 ---
-
-
-
-
 
 제 개인 웹사이트에서도 이 기사를 확인하실 수 있어요: [https://www.qiweimao.dev/lora-network-protocol](https://www.qiweimao.dev/lora-network-protocol)
 
@@ -23,7 +19,18 @@ Github 저장소: [https://github.com/qiweimao/ESP32-Datalogger](https://github.
 
 안녕하세요! 멀리 떨어져 있는 다수의 센서에서 데이터를 수집하고 싶은데, 인터넷에서는 대부분 LoRaWAN에 대해 이야기하는 것 같죠. 간단히 말해, LoRa는 라디오를 뜻하고, LoRaWAN은 LoRa 물리 계층 위에 구축된 멋진 프로토콜입니다. 일반적으로 LoRaWAN을 구현하려면 LoRa 게이트웨이가 필요합니다. LoRa 게이트웨이는 LoRaWAN 네트워크에서 핵심 역할을 하는데요, 이는 최종 기기와 네트워크 서버 사이의 다리 역할을 합니다. 게이트웨이는 여러 개의 LoRa 종단 장치로부터 데이터를 수신하며, 이들은 LoRa 라디오 프로토콜을 사용하여 통신한 후, Ethernet 또는 셀룰러와 같은 표준 IP 연결을 통해 이 데이터를 중앙 네트워크 서버로 전송합니다. LoRa 게이트웨이는 여러 채널을 지원하도록 설계되어 있으며 여러 신호를 동시에 해석할 수 있는 기능을 제공하여, LoRaWAN 네트워크의 확장성과 견고성에 매우 중요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <table>
   <tr>
@@ -41,7 +48,18 @@ Github 저장소: [https://github.com/qiweimao/ESP32-Datalogger](https://github.
 
 그렇습니다! 각 단말 장치에 트랜시버만 사용하여 사용자 정의 LoRa 네트워크를 구축할 수 있습니다. 그 중 하나를 마스터 또는 노드로 구성할 수 있어요. 그런데 이러한 설정은 제약이 따르며, 이들 트랜시버는 동시에 데이터를 수신하고 송신할 수 없어 같은 모드에서 작동해야 해요. 또한, 여러 장치와의 동시 통신을 지원하지 않아요. 이에 따라 시스템을 구축하려면 장치들이 서로 충돌하지 않도록 해야하고 타이밍을 조율해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 네트워크 아키텍처
 
@@ -51,7 +69,18 @@ Github 저장소: [https://github.com/qiweimao/ESP32-Datalogger](https://github.
 
 타이밍 조정:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 옵션 1:
 
@@ -62,7 +91,18 @@ Github 저장소: [https://github.com/qiweimao/ESP32-Datalogger](https://github.
 
 - 마스터 노드가 (거의) 모든 것을 지시하도록하고, 슬레이브 노드는 마스터가 패킷을 전송하도록 요청할 때만 말할 수 있습니다. 저는 이것이 더 쉽다고 생각합니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 충돌 방지:
 
@@ -75,7 +115,18 @@ Github 저장소: [https://github.com/qiweimao/ESP32-Datalogger](https://github.
 - 마스터는 메시지의 출처를 확인하고 쓰레기 메시지나 미인가된 노드의 메시지를 폐기할 수 있습니다.
 - 노드는 마스터가 특정하게 그들을 대상으로 하는지 또는 다른 노드를 대상으로 하는지 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 아두이노 LoRa 라이브러리 이해하기
 
@@ -85,7 +136,18 @@ Github 저장소: [https://github.com/qiweimao/ESP32-Datalogger](https://github.
 
 ## 여기 LoRa 라이브러리를 사용한 간단한 송신기와 수신기 스케치 예제가 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보낸이 코드:
 
@@ -111,13 +173,13 @@ void setup() {
 void loop() {
   Serial.print("패킷 전송 중: ");
   Serial.println(counter);
-  
+
   // 패킷 전송
   LoRa.beginPacket();
   LoRa.print("안녕하세요 ");
   LoRa.print(counter);
   LoRa.endPacket();
-  
+
   counter++;
   delay(1000);
 }
@@ -136,10 +198,10 @@ void setup() {
   Serial.begin(9600);
   while (!Serial);
   Serial.println("LoRa 수신기");
-  
+
   // 기본 CS, 리셋 및 IRQ 핀 오버라이드(선택 사항)
   LoRa.setPins(csPin, resetPin, irqPin);
-  
+
   if (!LoRa.begin(915E6)) { // 915 MHz 주파수
     Serial.println("LoRa 시작 실패!");
     while (1);
@@ -149,16 +211,16 @@ void setup() {
 void loop() {
   // 패킷 파싱 시도
   int packetSize = LoRa.parsePacket();
-  
+
   if (packetSize) {
     // 패킷 수신
     Serial.print("수신한 패킷 '");
-    
+
     // 패킷 읽기
     while (LoRa.available()) {
       Serial.print((char)LoRa.read());
     }
-    
+
     // 패킷 RSSI 출력
     Serial.print("' RSSI가 ");
     Serial.println(LoRa.packetRssi());
@@ -166,7 +228,18 @@ void loop() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 발신자 배터리나 USB 중 하나로 전원을 공급하고, 컴퓨터의 시리얼 모니터를 통해 수신기를 검사할 수 있습니다. 그뿐만 아니라요! 안녕하세요, LoRa에서의 안녕!
 
@@ -177,7 +250,18 @@ void loop() {
 - 슬레이브 노드는 항상 새로운 패킷을 수신 대기해야 하며, 마스터의 요청이 있을 때만 데이터를 전송해야 합니다.
 - 마스터 노드는 항상 새로운 패킷을 수신 대기해야 하며, 슬레이브 노드와 연락해야 할 필요가 있을 때만 데이터를 전송해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 같은 논리로 작동해요! Lora 라이브러리를 사용하여 이 논리를 설정하는 방법을 알아볼까요? LoRa.onReceive가 해답입니다! 아래 코드 조각에서는 콜백 함수인 onReceive을 등록합니다. 이 함수의 이름은 원하는 대로 지을 수 있어요.
 
@@ -198,9 +282,9 @@ void loop() {
 }
 void onReceive(int packetSize) {
   if (packetSize == 0) return;          // 패킷이 없으면 반환
-  
+
   // 수신된 데이터로 수행할 작업을 입력하세요.
-    
+
 }
 void sendMessage(String outgoing) {
   LoRa.beginPacket();
@@ -214,7 +298,18 @@ void sendMessage(String outgoing) {
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 LoRa를 사용하여 메시지를 보내고 받는 기본적인 사항을 이해했으니, 다음 글에서 게이트웨이 없는 LoRa 네트워크에 복잡한 로직을 구현하는 방법에 대해 이야기해 보겠습니다.
 
@@ -224,7 +319,18 @@ void sendMessage(String outgoing) {
 
 # 나에 대해
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 제 이름은 Qiwei Mao이고 지반공학 기술자입니다. IoT 시스템에 열정을 갖고 있습니다. 취미로 사용되는 원격 모니터링 솔루션부터 산업용 모니터링 또는 제어 시스템까지 가능하도록 저전력 마이크로컨트롤러와 LoRa 통신 시스템을 탐구하고 있습니다.
 

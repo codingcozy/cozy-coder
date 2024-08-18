@@ -3,18 +3,13 @@ title: " 데이터 분석가를 위한 강력한 도구 Databricks SQL에서 Uni
 description: ""
 coverImage: "/assets/img/2024-07-01-EmpoweringDataAnalystsLeveragingai_maskwithUnityCataloginDatabricksSQLforEnhancedDataGovernance_0.png"
 date: 2024-07-01 20:25
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-01-EmpoweringDataAnalystsLeveragingai_maskwithUnityCataloginDatabricksSQLforEnhancedDataGovernance_0.png
 tag: Tech
 originalTitle: "Empowering Data Analysts: Leveraging ai_mask with Unity Catalog in Databricks SQL for Enhanced Data Governance"
 link: "https://medium.com/dbsql-sme-engineering/empowering-data-analysts-leveraging-ai-mask-with-unity-catalog-in-databricks-sql-for-enhanced-data-46d0d10edef9"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![image](/assets/img/2024-07-01-EmpoweringDataAnalystsLeveragingai_maskwithUnityCataloginDatabricksSQLforEnhancedDataGovernance_0.png)
 
@@ -24,8 +19,18 @@ Author: Osama Mansour, Databricks의 솔루션 아키텍트
 
 빅데이터와 인공지능 시대에 있어서 정보가 물 흐르듯 흐르는 상황에서 민감한 데이터를 보호하는 것은 전 세계 기업들에게 중요해졌습니다. 데이터 분석가들은 종종 이 작업의 최전선에 섰으며, 데이터가 통찰력을 유지할 뿐만 아니라 다양한 데이터 보호 규정과도 안전하고 준수한지 확인합니다. Databricks의 ai_mask 함수가 데이터 거버넌스에서 강력한 도구로 등장합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 블로그에서는 ai_mask를 사용하여 잠재적으로 민감한 데이터를 자동으로 마스킹하고, 이 기능을 Unity Catalog의 MASK와 Dynamic Views와 같은 더 넓은 데이터 보호 프레임에 통합하며, Unity Catalog의 강력한 데이터 자산 태깅 프레임워크를 활용하여 인식된 PII 데이터로 자동으로 테이블과 열에 태그를 지정할 것입니다.
 
@@ -35,7 +40,18 @@ ai_mask() 함수는 Databricks SQL의 기능으로, 데이터 분석가가 텍�
 
 # ai_mask() 함수의 주요 기능
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 생성적 AI 모델 통합: ai_mask() 함수는 Mixtral-8x7B Instruct와 같은 고급 생성적 AI 모델을 활용하여 텍스트 데이터에서 지정된 엔티티를 정확하게 식별하고 마스킹하는 데 사용됩니다. 이 통합을 통해 다양한 유형의 민감한 정보를 마스킹하는 데 높은 정밀도와 유연성을 제공합니다.
 - 다국어 지원: 해당 함수는 주로 영어에 튜닝되어 있지만 기저 언어 모델은 여러 언어를 처리할 수 있어 전 세계적인 응용 프로그램에 유연하게 대응할 수 있습니다. 이 다중 언어 지원은 기관이 다양한 데이터 세트 전반에 데이터 마스킹을 적용할 수 있도록 보장합니다.
@@ -51,7 +67,18 @@ ai_mask() 함수는 Databricks SQL의 기능으로, 데이터 분석가가 텍�
 - 데이터 최소화: 데이터 개인 정보 보호의 중요 원칙은 목적에 필요한 데이터만 수집하는 것입니다. ai_mask()는 대규모 데이터 세트 내 불필요한 민감한 세부 정보를 마스킹함으로써 데이터 최소화에 도움을 줍니다.
 - 액세스 제어: 직접적인 액세스 제어 도구는 아니지만, ai_mask는 액세스 제어 정책을 보완하여 개인이 특정 데이터에 액세스 권한이 있더라도 해당 데이터 내의 민감한 정보가 명시적으로 허용되지 않는 한 노출되지 않도록 보장합니다. ai_mask는 테이블 및 열 수준에서 정책에 맞는 태깅을 위한 입력으로 사용될 수 있습니다. 이 함수는 Unity Catalog 자산 태그 프레임워크와 결합하여 환경 전반에 걸쳐 PII 액세스를 찾고 선행적으로 관리하는 강력한 도구로 활용됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # `ai_mask` 사용 시기와 적합 여부
 
@@ -61,7 +88,18 @@ ai_mask() 함수는 Databricks SQL의 기능으로, 데이터 분석가가 텍�
 
 보다 넓게 보면, `ai_mask` 함수는 각 사용자의 비즈니스 및 법적 요구에 특별히 설계된 종합적 인가 및 마스킹 프레임워크 내에서 활용되고 적용되어야 합니다. 마스킹 작업을 가속화하고 자동화하며 정확성/완결성을 향상시키는 매우 강력한 도구이지만, 데이터 보호의 유일한 방어선으로 사용해서는 안 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # ai_mask의 실용적인 응용
 
@@ -71,7 +109,18 @@ ai_mask 함수의 다재다능성으로 인해 다양한 산업과 시나리오�
 
 배경: 병원은 환자 입원 중에 이름, 연락처, 건강 상태 등 민감한 개인 정보를 수집합니다. 이러한 데이터는 치료에 중요하지만 미국의 HIPAA와 같은 규정을 준수하기 위해 엄격한 기밀 유지 조치를 취해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도전: 의료 분석가들은 종종 환자 데이터를 분석하여 치료 제공을 개선하거나 자원 필요를 예측하거나 건강 연구를 수행해야 합니다. 그러나 환자 프라이버시를 침해하지 않고 이를 수행해야 합니다.
 
@@ -81,7 +130,18 @@ Databricks SQL AI의 ai_mask 기능을 활용한 솔루션. 의료 분야에서�
 
 데이터 분석가들은 환자 입원 기록의 민감한 정보를 자동으로 마스킹하는데 ai_mask 함수를 사용할 수 있습니다. 이 함수는 SQL 쿼리 내에서 직접 적용될 수 있어 기존 데이터 워크플로에 쉽게 통합할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```sql
 SELECT
@@ -98,8 +158,18 @@ FROM patient_data;
 
 민감한 정보가 마스킹된 상태에서 분석가들은 병원 운영 및 환자 치료 향상을 위해 다양한 분석을 안전하게 수행할 수 있습니다. 예를 들어, 특정 진단의 빈도를 분석하거나 치료 계획에 기반한 자원을 준비하거나 환자 개인 정보를 위험에 빠뜨리지 않고 입원 트렌드를 연구할 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 PHI 데이터의 단일 관리 지점으로 ai_mask를 사용할 수는 없기 때문에 먼저 특정 열에 대한 액세스를 제공하는 더 굵은 관리 기능을 만들어야 합니다. 이 기능은 PII가 있을 수 있는 모든 열에 대해 관리자 수준의 그룹만 데이터에 액세스할 수 있도록 합니다. 이를 위해 'admins' 그룹에 사용자가 속해 있는지 확인하는 SQL UDF를 만들어야 하며, 해당 사용자가 관리자 그룹의 일부인 경우에는 데이터를 암호 해독하여 볼 수 있고, 그렇지 않은 경우에는 AI가 마스킹한 데이터만 볼 수 있게 됩니다:
 
@@ -117,7 +187,18 @@ END;
 
 다음으로 뷰(View)를 만들고 UDF를 호출하여 마스킹 로직을 적용할 것입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 CREATE OR REPLACE VIEW vw_secure_patient_data AS
@@ -135,8 +216,18 @@ select * from vw_secure_patient_data
 
 ![image](/assets/img/2024-07-01-EmpoweringDataAnalystsLeveragingai_maskwithUnityCataloginDatabricksSQLforEnhancedDataGovernance_2.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 ai_mask() 함수를 MASK 함수와 함께 사용하여 데이터셋에서 더 많은 열을 마스킹해 봅시다. 이 시나리오에서는 ai_mask() 함수를 사용하여 patient_notes 열을 마스킹하고, MASK를 사용하여 patient_first_name 및 contact_number 열을 마스킹할 것입니다:
 
@@ -166,14 +257,25 @@ RETURN
 
 이 UDF는 현재 사용자가 'admins' 그룹의 구성원인지 확인합니다. 그렇다면 patient_notes, patient_first_name 및 contact_number의 비마스킹된 값을 반환합니다. 그렇지 않으면 patient_notes에 ai_mask 함수가, patient_first_name 및 contact_number에는 MASK 함수가 적용됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 2: 행 수준 및 열 수준 보안이 있는 뷰 생성
 
 ```js
 CREATE OR REPLACE VIEW vw_secure_patient_data AS
 SELECT
-admission_id,   
+admission_id,
 masked_data.patient_notes AS patient_notes,
    masked_data.patient_first_name AS first_name,
    masked_data.contact_number AS contact_number
@@ -189,9 +291,20 @@ LATERAL (
 - 사용자가 관리자인 경우, 사용자는 공개된 patient_notes, patient_first_name 및 contact_number을 볼 수 있습니다.
 - 사용자가 관리자가 아닌 경우, ai_mask() 함수가 'person', 'email', 'phone' 및 'address'와 같은 엔티티를 마스킹하는 레이블이 지정된 patient_notes에 적용됩니다. MASK 함수가 patient_first_name 및 contact_number 열에 적용됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-뷰 생성: 보안_patient_data 뷰는 mask_patient_data UDF를 patient_notes, patient_first_name 및 contact_number 열에 적용합니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+뷰 생성: 보안\_patient_data 뷰는 mask_patient_data UDF를 patient_notes, patient_first_name 및 contact_number 열에 적용합니다.
 
 ## 단계 3 — 마스킹된 콘텐츠에서 테이블 및 열 태깅 추가하기
 
@@ -201,7 +314,7 @@ LATERAL (
 DECLARE OR REPLACE VARIABLE set_tags STRING;
 
 -- 열에 PII가 있는지 동적 변수로 확인
-SET VARIABLE set_tags = (SELECT CASE WHEN SUM( CASE WHEN patient_notes ILIKE('%[MASKED]%') THEN 1 ELSE 0 END) > 0 
+SET VARIABLE set_tags = (SELECT CASE WHEN SUM( CASE WHEN patient_notes ILIKE('%[MASKED]%') THEN 1 ELSE 0 END) > 0
             THEN "ALTER TABLE vw_secure_patient_data ALTER COLUMN patient_notes SET TAGS ('PII' = 'yes')"
             ELSE "ALTER TABLE vw_secure_patient_data ALTER COLUMN patient_notes SET TAGS ('PII' = 'no')"
             END AS SetPIITAg
@@ -210,7 +323,18 @@ SET VARIABLE set_tags = (SELECT CASE WHEN SUM( CASE WHEN patient_notes ILIKE('%[
 EXECUTE IMMEDIATE set_tags;
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이는 데이터를 숨기는 데 그치지 않고 환경 전체에서 테이블, 스키마 및 열을 자동으로 태깅하여 PII에 대한 액세스를 인식하고 안전하게 관리하는 견고한 프레임워크를 제공합니다.
 

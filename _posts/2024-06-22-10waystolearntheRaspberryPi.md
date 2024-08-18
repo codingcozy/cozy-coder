@@ -3,17 +3,13 @@ title: "라즈베리 파이 배우는 10가지 방법"
 description: ""
 coverImage: "/assets/img/2024-06-22-10waystolearntheRaspberryPi_0.png"
 date: 2024-06-22 18:25
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-10waystolearntheRaspberryPi_0.png
 tag: Tech
 originalTitle: "10 ways to learn the Raspberry Pi"
 link: "https://medium.com/@juned.ahmed078/10-ways-to-learn-the-raspberry-pi-3e2064714195"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-22-10waystolearntheRaspberryPi_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 라즈베리 파이 보드는 센서, 릴레이 및 구동기와 함께 사용하여 우리 집을 자동으로 제어하고 모니터링할 수 있는 스마트홈을 만들 수 있어요. 여러 GPIO 핀을 가지고 있어 데이터를 수신/송신할 수 있어요. 이런 핀을 사용하여 만들어진 프로젝트 중 하나가 실내 식물 모니터링 시스템이에요. 저는 이를 만들기 위해 노력 중이고, 이를 통해 습도 센서를 사용하여 식물이 물을 필요로 하는지 모니터링하고, 물을 주어야 할 때 이메일 알림을 받을 거예요. 자동 급수 시스템의 일부로 물 펌프를 추가할 수도 있지만, 식물을 사랑하는 사람으로써 직접 물을 주고 싶어요. 이 프로젝트에 충분한 작고 효율적인 라즈베리 제로 2W를 사용할 거예요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-06-22-10waystolearntheRaspberryPi_1.png](/assets/img/2024-06-22-10waystolearntheRaspberryPi_1.png)
 
@@ -33,8 +40,18 @@ isUpdated: true
 
 집을 모니터링하는 또 다른 방법은 DIY 날씨 관측소를 만드는 거예요. 이는 온도, 습도, 대기압 측정을 위한 센서를 사용해요. 저는 DHT11 센서를 사용해 온도와 습도를 측정하는 것을 만들었어요. 여기서 웹 서버를 만들었는데, 이를 이용하면 라우터에 연결된 장치로 서버의 IP 주소에 접근해 읽은 수치를 확인할 수 있어요. 이 프로젝트에는 Zero 2W 보드를 사용할 수 있지만 Raspberry Pi Pico W가 더 적합할 거예요. Pico W는 GPIO 핀을 사용해 매개 변수를 측정하고 Raspberry Pi 보드 중 가장 작은 크기의 모습을 가지고 있어요. 웹페이지 인터페이스는 HTML과 CSS로 만들었고, 이것을 통해 Python을 익히기에 좋은 방법이라고 생각했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Raspberry Pi Desktop](/assets/img/2024-06-22-10waystolearntheRaspberryPi_2.png)
 
@@ -44,8 +61,18 @@ isUpdated: true
 
 ## 4. DIY Retro Gaming Console
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전에 들어보신 적이 있을지도 모르겠지만, 레트로 게임 콘솔을 만드는 것은 라즈베리 파이를 활용하는 재미있고 흥미로운 방법입니다. 게임 애호가들에게 라즈베리 파이는 향수를 일으키는 문을 열어줍니다. RetroPie와 같은 소프트웨어를 사용하면 Pi를 레트로 게임 콘솔로 변신시킬 수 있어 NES, SNES, Sega Genesis 등의 클래식 게임을 실행할 수 있게 됩니다. 최상의 경험을 위해 Pi 5와 좋은 저장용 카드를 사용할 것을 권합니다. 따라서 적절한 설정과 장비를 갖추면 우리 모두가 그리운 게임의 황금 시대를 다시 경험할 수 있습니다 🙂
 
@@ -55,7 +82,18 @@ isUpdated: true
 
 ## 6. 개인 일기 서버
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 많은 시간을 도로에서 보내시고 다이어리를 작성하고 싶다면, 이를 위해 라즈베리 파이를 사용해보는 것을 고려해볼만 해요. 여기서는 일기 항목을 웹페이지에 저장하기 위한 웹 서버를 생성할 거에요. DIY 날씨 관측소 프로젝트와 유사한 시스템으로 작성할 거에요. 항목을 만들 때마다 포트 포워딩 프로토콜을 사용해 Pi에 연결하고 터미널에 접속해서 서버 디렉토리로 이동하고 개별 항목을 위한 메모장 파일을 생성할 거에요.
 
@@ -65,7 +103,18 @@ isUpdated: true
 
 # 7. NAS
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 라즈베리 파이를 사용하여 네트워크 부착 스토리지(NAS)를 만드는 것은 매우 유용한 프로젝트입니다. 집안에 자체 집중형 스토리지 솔루션을 갖추는 것을 가능케 해줍니다. 집 안의 모든 장치에서 쉽게 접근할 수 있는 위치에 홈 영화, 사진 또는 음악과 같은 모든 파일을 저장할 수 있습니다. 이 모든 파일들은 외장 저장소(하드 드라이브 또는 USB)를 추가하여 Pi에서 호스팅됩니다. 이를 위해 Pi를 설정하는 것은 스토리지 장치를 준비하고 Samba라는 도구를 설치하는 몇 가지 단계만 거친다. 라즈베리 Pi가 이러한 프로젝트를 통해 어떻게 가족들에게 혜택을 줄 수 있는지 깨달았을 때 만족스러웠습니다. 이는 Pi 4와 Zero 2W 보드 두 사이에서도 잘 작동할 수 있습니다.
 
@@ -75,7 +124,18 @@ isUpdated: true
 
 ![라즈베리 파이 학습 10가지 방법 이미지](/assets/img/2024-06-22-10waystolearntheRaspberryPi_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 9. 광고 차단기
 
@@ -85,7 +145,18 @@ isUpdated: true
 
 시도할 수 있는 또 다른 위대한 프로젝트는 차선 감지 시스템입니다. 여기서 Pi를, 카메라와 화면과 함께 사용하여 고속도로를 달리는 동안 앞에 있는 도로 차선들을 보여주는 헤드업 디스플레이를 만들 수 있습니다. 이는 동영상을 처리하고 도로 선이 어디에 있는지 시각적으로 표시하기 위해 OpenCV 라이브러리를 사용합니다. 물론 자동차 제조사들이 사용할 수 있는 것에 비하면 단순한 모델이지만 대학 프로젝트로 고려할만한 가치가 있습니다. 이를 통해 유도선을 따라 움직일 수 있는 자율주행 차량을 만들어낼 수 있는데요. 이 프로젝트는 내가 라즈베리 파이 4에서 개발할 다음 프로젝트 중 하나로, STEM 프로그램에 적극적으로 참여하는 저의 학생들과 공유할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-10waystolearntheRaspberryPi_5.png" />
 

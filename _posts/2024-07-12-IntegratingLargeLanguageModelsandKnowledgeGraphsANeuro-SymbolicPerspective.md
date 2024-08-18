@@ -3,17 +3,13 @@ title: "대규모 언어 모델과 지식 그래프를 통합하는 방법 신�
 description: ""
 coverImage: "/assets/img/2024-07-12-IntegratingLargeLanguageModelsandKnowledgeGraphsANeuro-SymbolicPerspective_0.png"
 date: 2024-07-12 23:46
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-IntegratingLargeLanguageModelsandKnowledgeGraphsANeuro-SymbolicPerspective_0.png
 tag: Tech
 originalTitle: "Integrating Large Language Models and Knowledge Graphs: A Neuro-Symbolic Perspective"
 link: "https://medium.com/ai-in-plain-english/integrating-large-language-models-and-knowledge-graphs-a-neuro-symbolic-perspective-b1b677a0b2e7"
 isUpdated: true
 ---
-
-
-
-
 
 인공지능 소프트웨어가 이 글의 문법, 흐름, 가독성을 향상시키는 데 사용되었습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 그래서 정확히 대규모 언어 모델을 효과적으로 보완하기 위해 지식 그래프를 어떻게 활용할 수 있을까요? 최근 신경 기호론적 기술의 분류에 따르면, 그래프와 언어 모델이 교차하는 지점에 등장한 세 가지 흥미로운 통합 방법이 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인지 및 개념 해석 엔진: 큰 언어 모델의 개념적 추론을 증진하기 위해 관련 지식 그래프 콘텍스트를 제공하는 기술입니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 다음으로, 이러한 신경-상징적 패러다임의 각각 예시를 논의하여, 그래프에 포함된 체계적이고 설명적인 지식과 대형 신경 언어 모델의 다재다능함 및 상관 관계 주도형 일반화 능력을 상호 작용적으로 활용하는 방법에 대해 이야기하겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 기술들을 범주화하는 주요 이점은 상징적, 신경학적 및 확률적 기술에 걸쳐 증강 지능을 발휘하기 위한 철학적 통합 방식을 체계적으로 이해하는 데 있습니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 지식 그래프 프롬프팅과 같은 기술들은 포괄적인 지식 그래프에서 가장 관련성 높은 서브그래프를 선택적으로 검색하여 언어 모델 응답의 사실적 맥락을 제공합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - **관련 부분 그래프 추출을 위해 그래프 임베딩 및 의미적 쿼리 사용**
 - **자연어 설명으로 하위 그래프 후처리**
@@ -56,7 +85,18 @@ isUpdated: true
 
 NSCA: 신경 학습과 상징적 지식 표현을 결합하는 기술로 RTRBM을 사용하고 상징적 지식을 위해 시간 논리를 사용합니다. 이 모델들에 대한 통합적 온라인 학습 및 추론을 허용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 NSCL: NSCL은 시각 인식 신경망을 상징적 프로그램 실행으로부터 유사하게 해제합니다. 상징적 프로그램은 신경 모듈이 학습한 시각적 개념에 대한 설명 능력과 해석 가능성을 제공합니다.
 
@@ -66,7 +106,18 @@ NSVQA: 마찬가지로 NSVQA는 언어와 시각적 입력에 대한 추론을 �
 
 주요 차별화 요인
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지식 그래프를 context 제공자로 활용하는 것의 주요 차이점은 통합의 단방향성에 있습니다:
 
@@ -78,7 +129,18 @@ NSVQA: 마찬가지로 NSVQA는 언어와 시각적 입력에 대한 추론을 �
 
 내 제안하는 프레임워크는 상호피드백 루프를 통해 훨씬 더 밀접하게 결합할 수 있는 가능성을 강조합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 태로 전문가님! 여기서 언급된 상호 작용 프로토콜에 대해 좀 더 자세히 알아보겠습니다:
 
@@ -90,7 +152,18 @@ NSVQA: 마찬가지로 NSVQA는 언어와 시각적 입력에 대한 추론을 �
 
 대신 언어 및 그래프 모듈을 상호 협력적인 요소로 구조화하여 유연하게 요구 사항을 소통함으로써, 재발하는 상호 정보 제공 패러다임에서 내부 및 외부 지식을 아우르는 통합 추론이 가능한 가능성을 열어 줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 신경 및 심볼 시스템 간의 강한 결합과 연속성을 장려하는 신경-기호주의 아키텍처의 기초에 더 가깝습니다. 이로 인해 고립된 구성 요소 간의 맥락 분열을 피할 수 있습니다.
 
@@ -103,7 +176,18 @@ NSVQA: 마찬가지로 NSVQA는 언어와 시각적 입력에 대한 추론을 �
 - 이는 복잡한 추론을 위한 과정을 적극적으로 이끄는 것으로, 그래프의 수동적인 이용을 넘어섭니다.
 - 심볼 강화형 신경망과 일치합니다. 여기서 심볼 규칙이 모델 해석을 이끌어 줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 친구들을 위해 한 가지 특별한 카드를 더 보여드리겠어요.
 
@@ -115,7 +199,18 @@ NSVQA: 마찬가지로 NSVQA는 언어와 시각적 입력에 대한 추론을 �
 
 **다른 신경-상징 기법들과의 조화**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 방식은 모델 해석을 안내하는 기타 상징 강화 신경망 기술과 일치합니다:
 
@@ -125,7 +220,18 @@ NSVQA: 마찬가지로 NSVQA는 언어와 시각적 입력에 대한 추론을 �
 
 주요 구분점
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 탐험적 추론을 모델링하는 주요 혁신은 다음과 같습니다:
 
@@ -137,7 +243,18 @@ NSVQA: 마찬가지로 NSVQA는 언어와 시각적 입력에 대한 추론을 �
 
 # 그래프 분석을 위한 LLM 활용하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 마침내 대형 언어 모델이 그래프 데이터를 직접 처리하도록 적용되고 있습니다.
 
@@ -149,7 +266,18 @@ NSVQA: 마찬가지로 NSVQA는 언어와 시각적 입력에 대한 추론을 �
 
 이러한 접근법 전반에 걸쳐 주요 이점은 신경 언어 모델의 다용도성을 구조화된 사실적 지식에 상호 보강하여 견고함을 향상시키는 것에 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LLMs(언어모델; Language Models)를 그래프 분석에 적용하기
 
@@ -161,7 +289,18 @@ LLMs(언어모델; Language Models)를 그래프 분석에 적용하기
 
 다른 신경-상징적 기법들에 대한 조정
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 다른 뉴로 심볼릭 방법들과 일치합니다. 이들은 심볼식 지식과 신경 처리를 교차로 사용합니다.
 
@@ -171,7 +310,18 @@ LLMs(언어모델; Language Models)를 그래프 분석에 적용하기
 
 주요 차별화 요소:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **타로 전문가로서 안녕하세요!🌟**
 
@@ -185,7 +335,18 @@ LLM을 그래프에 적용하는 주요 혁신 요소는 다음과 같습니다:
 
 # 언어와 그래프의 시너지가 약속하는 것들 ✨
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 크고 교차로 이어진 사전지식이 큰 트랜스포머 기반 언어 모델의 주목할 만한 상관관계 추론을 바탕으로 하면 더욱 신뢰할 수 있고 투명한 지능을 향해 흥미로운 길을 열 수 있습니다.
 
@@ -195,7 +356,18 @@ LLM을 그래프에 적용하는 주요 혁신 요소는 다음과 같습니다:
 
 언어 모델은 또한 사전 훈련을 통해 풍부한 텍스트 상식에 노출되어 텍스트 프롬프트로 구성된 지식 그래프 내에서 통찰력을 발견하는 데 큰 규모를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 말은 본질적으로, LMs가 배운 인상적이지만 빈약한 텍스트 상관 관계를 설명하는 구조화된 지식을 사용하여 심볼적 추론 작업에 LMs의 다재다능성을 동시에 활용함으로써, 벡터, 심볼 및 확률의 장점을 결합한 더 견고하고 투명하며 다각적인 지능을 약속한다는 것이다.
 
@@ -209,7 +381,18 @@ LLM을 그래프에 적용하는 주요 혁신 요소는 다음과 같습니다:
 - 심볼적 지식을 신경 표현과 결합하면 더 높은 희소성으로 인해 불규칙한 메모리 액세스 패턴이 도입됩니다. 이는 데이터 이동 오버헤드를 증가시킵니다.
 - 총 런타임은 데이터 세트 크기에 따라 비선형으로 지수 함수적으로 확장되며, 이는 심볼적 추론 절차에 영향을 줌으로써 확장성이 우려됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앞으로 나아갈 길
 
@@ -221,7 +404,18 @@ LLM을 그래프에 적용하는 주요 혁신 요소는 다음과 같습니다:
 
 현대 기계 학습이 놀라운 발전을 이루었지만, 보다 인간다운 투명한 추론을 실현하기 위해서는 구조화된 설명적 지식에 모델을 유기적으로 둘러싸는 것이 필요합니다. 이는 그래프와 언어의 장점을 결합한 협력적 아키텍처가 가지는 약속입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 시스템 효율성 장벽을 극복하기 위해 하드웨어와 소프트웨어의 조화로운 공동 설계가 필수적이며, 이는 AI 능력의 다음 수준을 발전시키는 데 중요합니다.
 

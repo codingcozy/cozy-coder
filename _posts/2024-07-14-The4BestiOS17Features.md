@@ -3,17 +3,13 @@ title: "iOS 17의 최고의 기능 4 가지"
 description: ""
 coverImage: "/assets/img/2024-07-14-The4BestiOS17Features_0.png"
 date: 2024-07-14 00:17
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-14-The4BestiOS17Features_0.png
 tag: Tech
 originalTitle: "The 4 Best iOS 17 Features"
 link: "https://medium.com/macoclock/the-4-best-ios-17-features-f5b1362a204e"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-07-14-The4BestiOS17Features_0.png)
 
@@ -28,7 +24,18 @@ isUpdated: true
 
 이런 기능들을 진짜 사랑하고 있어요! iOS 17 덕분에 더욱 즐거운 시간을 보내고 있답니다. 🌟
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마법사라면 언제나 새로운 것을 탐험하는 것을 즐깁니다. 이번에는 메시징 업데이트와 같은 다양한 기능이 있습니다. 영국에 거주하고 계신다면, 아이메시지가 크게 중요한 요소는 아닐 겁니다. 대부분의 사람들이 디스코드나 왓츠앱을 사용하고 있죠. 그래서 이번 포스트에서는 제가 꾸준히 사용해온 4가지 기능과 사용해보며 느낀 점에 대해 소개하고 싶습니다.
 
@@ -38,7 +45,18 @@ isUpdated: true
 
 아이폰을 측면으로 눕혀서(수평으로) 충전 중일 때, 새로운 잠금 화면 모드가 활성화됩니다. 이를 통해 잠금 화면을 사용자 정의할 수 있고, 일종의 허브처럼 사용할 수 있습니다. 저는 이 기능을 책상이나 침대 옆 테이블에 시계처럼 두는 데 주로 사용하고 있습니다. 항상 밤에 MagSafe 충전기로 폰을 충전하므로, 쉽게 회전시켜 시계처럼 사용할 수 있어 편리합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 모드에서 표시할 유용한 정보를 선택할 수 있습니다.
 
@@ -52,7 +70,18 @@ isUpdated: true
 
 ### 키보드 예측 텍스트
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어쩌다 생각해봤더니 이 기능이 제가 즐겨 쓰는 새로운 기능인 것 같아요. 이것을 새로운 기능으로 부르는 게 맞을까요, 아니면 기존 키보드를 개선한 업데이트일까요? 어떤 식으로든, 아이폰의 애플 키보드를 업데이트해야 했던 것은 확실해요.
 
@@ -62,7 +91,18 @@ isUpdated: true
 
 ## 대화형 위젯
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 iOS 위젯이 이전에보다 발전한 것을 보는 것이 기쁘네요. 이전에는 정보를 표시하는 방식이었을 뿐 상호작용할 수는 없었어요. 그냥 탭하면 앱으로 들어가지요.
 
@@ -72,19 +112,41 @@ iOS 위젯이 이전에보다 발전한 것을 보는 것이 기쁘네요. 이�
 
 Apple이 이제 iOS에 기분 추적을 도입한 것을 좋아해요. 이를 통해 매일 기분과 감정을 추적할 수 있어요. 건강 앱에서 이를 확인하여 여러분의 정신 건강에 더 집중해야 할 필요가 있는지를 알 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-아이폰과 애플 워치에서 하루 중 특정 시점에 알림을 받을 수 있습니다. 그럼 이때 기분을 기록하라는 메시지가 표시됩니다. 실제로 기분을 기록하려면 헬스 앱으로 이동한 후, 정신적 웰빙 아래에서 마음 상태를 기록할 수 있는 옵션을 찾을 수 있습니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+아이폰과 애플 워치에서 하루 중 특정 시점에 알림을 받을 수 있습니다. 그럼 이때 기분을 기록하라는 메시지가 표시됩니다. 실제로 기분을 기록하려면 헬스 앱으로 이동한 후, 정신적 웰빙 아래에서 마음 상태를 기록할 수 있는 옵션을 찾을 수 있습니다.
 
 여기서 두 가지 선택사항을 제공받을 겁니다.
 
-1) 그 순간의 기분이 어떤가? 
+1. 그 순간의 기분이 어떤가?
 
-2) 그 날의 전반적인 기분은 어땠습니까? 그러므로 하루에 한 번 이상 로깅할 수도 있습니다.
+2. 그 날의 전반적인 기분은 어땠습니까? 그러므로 하루에 한 번 이상 로깅할 수도 있습니다.
 
 그런 다음 앱에서 제공하는 질문에 답할 수 있습니다. 이렇게 간단합니다. 애니메이션과 UI가 멋지기 때문에 사용하기 정말 편리하고 눈에 즐거운 경험이 됩니다. 물론 데이터를 확인하려면 헬스 앱으로 들어가서 차트를 확인해야 합니다. 이렇게 하면 기분의 변동을 한눈에 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 최종 생각
 
@@ -94,6 +156,17 @@ Apple이 이제 iOS에 기분 추적을 도입한 것을 좋아해요. 이를 �
 
 읽어 주셔서 감사합니다! 좋았다면 👏🏻 을 남겨주시고, 더 많은 이런 컨텐츠를 위해 팔로우해주세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **2023년 8월 2일, https://jessicabryson.com에 원래 게시되었습니다.**

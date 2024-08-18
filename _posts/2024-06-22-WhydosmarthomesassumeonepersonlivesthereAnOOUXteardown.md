@@ -3,17 +3,13 @@ title: "스마트 홈 시스템이 한 사람만 거주한다고 가정하는 �
 description: ""
 coverImage: "/assets/img/2024-06-22-WhydosmarthomesassumeonepersonlivesthereAnOOUXteardown_0.png"
 date: 2024-06-22 18:15
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-WhydosmarthomesassumeonepersonlivesthereAnOOUXteardown_0.png
 tag: Tech
 originalTitle: "Why do smart homes assume one person lives there? An OOUX teardown."
 link: "https://medium.com/design-bootcamp/why-do-smart-homes-assume-one-person-lives-there-an-ooux-teardown-f55c0feee3ad"
 isUpdated: true
 ---
-
-
-
-
 
 ![2024-06-22-WhydosmarthomesassumeonepersonlivesthereAnOOUXteardown_0](/assets/img/2024-06-22-WhydosmarthomesassumeonepersonlivesthereAnOOUXteardown_0.png)
 
@@ -23,11 +19,22 @@ isUpdated: true
 
 남편과 제가 주로 사용하는 스마트 홈 앱이 두 개 있는데요: 하나는 보안 시스템을 위한 것이고, 다른 하나는 GE사가 만든 Cync 스마트 전구를 위한 것이에요. 저는 자주 사용하는 Cync 앱에 대해 집중할 건데요, 이 앱이 생각보다 복잡한 일들을 만들어내거든요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 두 사람 모두 빛의 색을 특히 특정 시간에 제어하고 싶어서 이 앱을 사용합니다: 원래 할로윈 전시용으로 이 빛을 샀는데, 우리는 집 앞을 몬스터 얼굴로 만든 적이 있어요! 빛을 켜는 모습에 대한 대부분의 사람들의 상상은 벽에 스위치를 뒤집는 것인데, 앱에서 빛을 제어하는 것은 복잡함이 따를 수밖에 없어요.
 
-OOUXer**로서, Cync 앱에서 가장 먼저 눈에 띄는 것은 저와 남편이 다른 권한을 가지고 있다는 거예요. 계정을 처음으로 설정한 사람이기 때문에 ROOMS, ROUTINES(앱에서는 SCENES라고도 함), SCHEDULES를 설정하고 빛을 켜고 끌 수 있는 권한을 가진 유일한 사람인데요. 남편은 앱의 게스트이기 때문에 DEVICES와 ROOMS를 켜고 끌 수밖에 없어요. 저와 같은 권한을 그에게 부여할 수 없어서 기술적으로는 저가 집의 관리자인데, 이게 좀 이상하게 느껴져요. 우리 둘 다 ROOMS, ROUTINES/SCENES, SCHEDULES를 추가하고 편집할 수 있어야 한다고 생각해요.
+OOUXer\*\*로서, Cync 앱에서 가장 먼저 눈에 띄는 것은 저와 남편이 다른 권한을 가지고 있다는 거예요. 계정을 처음으로 설정한 사람이기 때문에 ROOMS, ROUTINES(앱에서는 SCENES라고도 함), SCHEDULES를 설정하고 빛을 켜고 끌 수 있는 권한을 가진 유일한 사람인데요. 남편은 앱의 게스트이기 때문에 DEVICES와 ROOMS를 켜고 끌 수밖에 없어요. 저와 같은 권한을 그에게 부여할 수 없어서 기술적으로는 저가 집의 관리자인데, 이게 좀 이상하게 느껴져요. 우리 둘 다 ROOMS, ROUTINES/SCENES, SCHEDULES를 추가하고 편집할 수 있어야 한다고 생각해요.
 
 DEVICES, GROUPS, ROOMS, ROUTINES/SCENES, SCHEDULES 간의 관계도 낯설게 느껴져요. 이 관계에는 몇 가지 의존성이 있어요:
 
@@ -40,7 +47,18 @@ DEVICES, GROUPS, ROOMS, ROUTINES/SCENES, SCHEDULES 간의 관계도 낯설게 �
 
 - 대부분의 경우 ROUTINES/SCENES와 SCHEDULES는 설정하고 그대로 두는 것이 일상적이에요. 그러나 전원이 차단되면 복잡해질 수 있어요, 전원이 다시 들어오면 모든 DEVICES가 기본적으로 켜지기 때문이죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요약하면, 이 시스템은 DEVICES를 추가하는 것에 기반을 두고 있습니다. 이 DEVICES들은 GROUP, ROOM, 및/또는 ROUTINE/SCENE에 속할 수 있습니다. 조명을 켜는 스케줄이 있는 하나의 ROUTINE/SCENE이 있다면, 조명을 끄는 다른 스케줄이 있는 대응하는 ROUTINE/SCENE이 필요합니다. 게다가, 각 DEVICES, GROUP, ROOM, 및/또는 ROUTINE/SCENE에 대해 별도의 색상을 가질 수 있습니다. 따라서 조명의 색상을 변경할 수 있는 네 가지 다른 방법이 있으며, 이 모두가 서로 덮어씁니다.
 
@@ -50,7 +68,18 @@ DEVICES, GROUPS, ROOMS, ROUTINES/SCENES, SCHEDULES 간의 관계도 낯설게 �
 
 내 남편과 나 둘 다 동일한 권한 수준을 가지고 우리가 모두 만든 객체를 볼 수 있다면 더 나아질 것 같아요. 조명을 제어하기 위한 앱을 만드는 과정에서 기술은 한 사람이 항상 통제권을 가진다고 가정함으로써 전진하는 것이 아니라 후퇴했다고 느껴집니다. 많은 스마트 홈 경험들은 하나의 사용자만 있다고 가정하거나 집이나 차의 "관리자" 역할을 하는 사람이 한 명 있다고 가정합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 벽에 스위치가 있던 자리에 이제는 전화기 앱이 생겼어요. 이 앱은 한 사람만 액세스할 수 있어요. 이로 인해 이전에 없던 문제가 생겼어요: 조명 제어가 불만족스러운 것 뿐만 아니라 조명 주변에 명확하게 가깝지 않은 조명 제어가 누군가의 허락을 받아야 한다는 문제가 생겼어요.
 
@@ -60,7 +89,18 @@ OOUXer로서, 다행히도 프로젝트를 시작할 때 권한 관련 문제를
 
 Cync 앱에 대한 객체 감사 외에도, Cync 앱 홈페이지를 기반으로 한 명사 탐색 연습을 했고, 이를 시작하여 앱의 기능을 간소화하기 위한 중첩 객체 매트릭스(NOM)에 넣을 수 있는 다른 객체 목록을 가져왔어요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 장치는 현재와 동일하게 작동할 것입니다. 앱에서 다른 작업을 수행하기 전에 장치를 추가해야 합니다. 기능을 간소화하기 위해 장치는 하나의 기본 색상을 가질 수 있습니다.
 - 한 개의 방에 여러 장치를 추가하고 그룹을 강조하는 것을 고급 기능으로 낮출 수 있습니다 (곧 접근할 것입니다). 또한 방에 사진을 추가할 수도 있습니다.
@@ -73,7 +113,18 @@ Cync 앱에 대한 객체 감사 외에도, Cync 앱 홈페이지를 기반으�
 
 CRUD 약어(Create, Read, Update, Delete)를 사용하여 객체 및 사용자 역할에 따라 권한을 볼 수 있는 CTA 매트릭스를 만들면서 눈으로 확인할 수 있습니다. 객체 목록을 살펴보면 누가 액세스 권한을 필요로 하는지에 대해 고민하게 됩니다. 이렇게 하면 눈에 띄는 문제가 발견되며, 아이디어가 나올 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 다른 사용자를 추가할 수 있어야 하는 사람은 누구인가요?
 - 방과 집의 사진을 추가해야 하는 사람은 누구인가요?

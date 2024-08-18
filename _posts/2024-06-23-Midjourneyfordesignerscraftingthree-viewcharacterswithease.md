@@ -3,7 +3,7 @@ title: "디자이너를 위한 Midjourney 쉽고 빠르게 삼면 캐릭터 제�
 description: ""
 coverImage: "/assets/img/2024-06-23-Midjourneyfordesignerscraftingthree-viewcharacterswithease_0.png"
 date: 2024-06-23 20:19
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-Midjourneyfordesignerscraftingthree-viewcharacterswithease_0.png
 tag: Tech
 originalTitle: "Midjourney for designers: crafting three-view characters with ease"
@@ -11,19 +11,26 @@ link: "https://medium.com/design-bootcamp/midjourney-for-designers-crafting-thre
 isUpdated: true
 ---
 
-
-
-
-
 "Midjourney에서 캐릭터의 세 개의 뷰를 생성하는 것은 비교적 간단합니다. 먼저, 우리는 프롬프트를 작성하여 기본 캐릭터 이미지를 시작합니다. 프롬프트를 구성하는 방법은 다음과 같습니다:
 
 그 다음으로, 세 개의 뷰에 대한 프롬프트를 추가하세요: 세 개의 뷰, 정면 뷰, 후면 뷰, 측면 뷰를 추가하면 가장 기본적인 세 개의 뷰가 됩니다.
 
-![이미지](/assets/img/2024-06-23-Midjourneyfordesignerscraftingthree-viewcharacterswithease_0.png) 
+![이미지](/assets/img/2024-06-23-Midjourneyfordesignerscraftingthree-viewcharacterswithease_0.png)
 
 그러나 많은 경우, 기존 캐릭터 이미지를 기반으로 세 개의 뷰 디자인을 생성해야 할 필요가 있습니다."
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 중간발생은 종종 무작위이면서 통제할 수 없는 결과물을 생성합니다. 이는 창의성과 영감에 큰 도움이 되지만 항상 특정한 요구에는 실용적이지 않을 수도 있죠.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 # 경우 1
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신의 회사의 캐릭터가 이 고양이라고 가정했을 때, 지금 이 고양이의 삼면도를 어떻게 만들겠어요? (이 자세와 표정이 정말 좋아요 — 항상 저를 웃게 만들죠! ㅋㅋㅋ!)
 
@@ -41,7 +59,18 @@ isUpdated: true
 
 확대하여, Midjourney가 반환한 회사 캐릭터 이미지를 받아보세요. 키가 크고 통통한 고양이 캐릭터 이미지가 좋으면 그 이미지를 선택해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래의 이미지를 Markdown 형식의 표로 변경해주세요.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 만약 뚱뚱한 고양이가 꼬리가 없고 후면 뷰가 없으면 생성된 "전면 뷰"를 다시 굴릴 수 있어요. 측면 뷰와 후면 뷰를 얻을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 미드저니에서 세부 사항을 미세 조정할 수 없기 때문에 "다시 굴리기" 기능을 사용하여 측면 및 후면 보기만 얻을 수 있습니다.
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 혼란스러울 때는 걱정하지 마세요. 이전 단계를 주의 깊게 검토해보세요. 이제 다른 캐릭터를 시도해 봅시다. 인터넷에서 가져온 예시 캐릭터 사진이 여기 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Midjourney에 이 이미지를 업로드하고 새 이미지를 생성하도록 프롬프트를 입력하세요:
 
@@ -71,8 +122,18 @@ Midjourney에 이 이미지를 업로드하고 새 이미지를 생성하도록 
 
 다음으로, 이 새 이미지를 다시 Midjourney에 업로드하여 이미지 링크를 받으세요. 링크를 복사한 후, 사용자 지정 줌을 클릭하고 링크를 입력 상자에 붙여넣은 후, three-view 프롬프트를 입력하고 프레임의 스케일을 조정하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Generated Image 1](/assets/img/2024-06-23-Midjourneyfordesignerscraftingthree-viewcharacterswithease_6.png)
 
@@ -82,8 +143,18 @@ Select the best-generated image and zoom in to expand the view. Repeat this proc
 
 ![Generated Image 3](/assets/img/2024-06-23-Midjourneyfordesignerscraftingthree-viewcharacterswithease_8.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 캐릭터의 외모가 개선되어 전반적인 효과가 조금 더 좋아질 것입니다. 최상의 결과를 얻기 위해 계속 실험해보세요.
 
@@ -93,7 +164,18 @@ Select the best-generated image and zoom in to expand the view. Repeat this proc
 
 - Two Young Design Notes by 公众号: Two Young디자인노트
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 💡 더 깊이 알아보고 싶으신가요? 제 Midjourney 컬렉션을 확인해보세요.
 

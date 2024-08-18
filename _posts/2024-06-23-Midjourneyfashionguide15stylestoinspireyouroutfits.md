@@ -3,17 +3,13 @@ title: "Midjourney 패션 가이드 당신의 의상을 위한 15가지 스타�
 description: ""
 coverImage: "/assets/img/2024-06-23-Midjourneyfashionguide15stylestoinspireyouroutfits_0.png"
 date: 2024-06-23 20:17
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-Midjourneyfashionguide15stylestoinspireyouroutfits_0.png
 tag: Tech
 originalTitle: "Midjourney fashion guide 15 styles to inspire your outfits"
 link: "https://medium.com/design-bootcamp/midjourney-fashion-guide-15-styles-to-inspire-your-outfits-33b45d37b0c8"
 isUpdated: true
 ---
-
-
-
-
 
 중간 여정 옷장을 현대적인 패션 스타일로 변신하실 준비 되셨나요?
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 프롬프트 템플릿
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 표를 Markdown 형식으로 변경해보세요:
 
@@ -36,7 +43,18 @@ isUpdated: true
 - 전반적으로: 세부 설정을 제한하여 지정된 의류 스타일에서의 변화의 영향을 관찰합니다.
 - 머리 색깔: 머리 색상을 지정하면, 의류도 일반적으로 맞춰지기 때문에 (전체적인 균일성 유지를 위해) "화려한 머리 색상"만을 지정합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 1. 록 스타일
 
@@ -50,7 +68,18 @@ isUpdated: true
 - 메탈 패션: 무거우면서 강렬한 스타일.
 - 고딕 패션: 어둡고 신비로운 스타일.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2. 레트로 패션
 
@@ -60,7 +89,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-23-Midjourneyfashionguide15stylestoinspireyouroutfits_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4. 파티 의상
 
@@ -72,7 +112,18 @@ isUpdated: true
 - 준정장 파티: 칵테일 드레스, 준정장 드레스.
 - 캐주얼 파티: 파티 드레스, 리틀 블랙 드레스.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 5. 웨딩 드레스
 
@@ -83,7 +134,18 @@ isUpdated: true
 - 정장 웨딩: 웨딩 가운, 신부 가운.
 - 캐주얼 웨딩: 웨딩 드레스, 신부 드레스.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 6. 스포츠 스타일
 
@@ -100,7 +162,18 @@ isUpdated: true
 - 아웃도어 스타일: 야외 활동용 의류.
 - 요가웨어: 요가 중에 입는 의류.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 7. 야외 스타일
 
@@ -118,7 +191,18 @@ isUpdated: true
 - 스키 의류: 스키용 의류.
 - 스노보드 의류: 스노보드용 의류.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 8. 홈웨어
 
@@ -133,7 +217,18 @@ isUpdated: true
 - 편안한 의류: 편안한 옷을 모두 가리킵니다.
 - 휴식복: 휴식을 취하기 위해 입는 옷입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 9. Street Fashion
 
@@ -146,7 +241,18 @@ isUpdated: true
 - 하이패션 스트릿웨어: 고급 브랜드와 스트릿 패션 스타일의 융합.
 - 스케이터 패션: 스케이트보드 문화에서 파생된 스타일들.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 10. 할로윈 의상
 
@@ -156,9 +262,21 @@ isUpdated: true
 
 ![오뜨 꾸뛰르](/assets/img/2024-06-23-Midjourneyfashionguide15stylestoinspireyouroutfits_10.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 대체 설명:
+
 - 하이 패션: 가장 일반적인 용어.
 - 모드: 동의어.
 - 아방가르드 패션: 실험적이고 혁신적인 스타일.
@@ -169,7 +287,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-23-Midjourneyfashionguide15stylestoinspireyouroutfits_11.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 12. Y2K
 
@@ -179,8 +308,18 @@ Y2K는 “Year 2000”의 약어입니다.
 
 # 13. Kawaii
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-06-23-Midjourneyfashionguide15stylestoinspireyouroutfits_13.png)
 
@@ -190,8 +329,18 @@ Y2K는 “Year 2000”의 약어입니다.
 
 # 대체 설명:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 사이버 패션: 가장 흔한 용어입니다.
 - 테크웨어: 기술을 포함한 기능적인 패션.
@@ -205,7 +354,18 @@ Y2K는 “Year 2000”의 약어입니다.
 
 💡더 깊게 파고들고 싶나요? Midjourney 컬렉션을 확인해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 이 기사를 좋아하셨나요?
 

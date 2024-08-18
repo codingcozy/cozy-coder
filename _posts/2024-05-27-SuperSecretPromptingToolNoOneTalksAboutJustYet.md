@@ -3,16 +3,13 @@ title: "언급되지 않은 수퍼 비밀 프롬프트 도구 지금은 아무�
 description: ""
 coverImage: "/assets/img/2024-05-27-SuperSecretPromptingToolNoOneTalksAboutJustYet_0.png"
 date: 2024-05-27 14:32
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-SuperSecretPromptingToolNoOneTalksAboutJustYet_0.png
 tag: Tech
 originalTitle: "Super Secret Prompting Tool No One Talks About (Just Yet)"
 link: "https://medium.com/generative-ai/super-secret-prompting-tool-no-one-talks-about-just-yet-a2a7d39f4c47"
 isUpdated: true
 ---
-
-
-
 
 ![이미지](/assets/img/2024-05-27-SuperSecretPromptingToolNoOneTalksAboutJustYet_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 이런 일이 벌어진 적이 있나요? 그렇다면 당신만이 아닙니다. 많은 사람들이 AI로부터 좋은 답변을 얻는 데 애를 먹습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 걱정하지 마세요. 이 문제를 해결해주는 도구를 찾았어요.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 # 완벽한 프롬프트 작성하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 사용할 도구는 Anthropic Prompt Generator라고 합니다. 이를 이용하려면 계정을 만들어야 합니다.
 
@@ -42,8 +61,18 @@ isUpdated: true
 
 Anthropic 웹사이트에 가서 가입하세요. 쉽고 무료입니다! 로그인하면 아래 이미지처럼 보이는 대시보드가 나타납니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-05-27-SuperSecretPromptingToolNoOneTalksAboutJustYet_1.png)
 
@@ -53,8 +82,18 @@ Now, think about what you need from AI.
 
 Are you making a playlist? Finding recipes? Whatever it is, describe it clearly.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 기분에 따라 플레이리스트를 만들고 싶어요.
 
@@ -64,7 +103,18 @@ Are you making a playlist? Finding recipes? Whatever it is, describe it clearly.
 
 설명을 입력한 후에, 툴이 마법을 부릅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단한 지침을 받아서 매우 상세한 프롬프트로 바꿉니다. 특별한 것은 추가할 필요 없어요; AI가 잘 알고 있어요.
 
@@ -72,7 +122,18 @@ Are you making a playlist? Finding recipes? Whatever it is, describe it clearly.
 
 받은 프롬프트에 만족하셨다면 좋아요. 하지만 여러분에게는 선택권이 항상 있어요. (사진에서 강조된대로) 프롬프트를 편집할 수도 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 4/ 수정 및 정제
 
@@ -82,7 +143,18 @@ Are you making a playlist? Finding recipes? Whatever it is, describe it clearly.
 
 프롬프트에 만족하셨다면, 오른쪽 상단의 '실행(Run)'을 클릭하기만 하면 돼요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 5/ 완벽한 프롬프트 사용하기
 
@@ -92,7 +164,18 @@ Are you making a playlist? Finding recipes? Whatever it is, describe it clearly.
 
 ![image](/assets/img/2024-05-27-SuperSecretPromptingToolNoOneTalksAboutJustYet_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저의 경우, 저를 흥분시키기 위한 80년대 & 90년대 노래로 구성된 플레이리스트가 만들어졌어요.
 
@@ -116,7 +199,18 @@ Are you making a playlist? Finding recipes? Whatever it is, describe it clearly.
 
 # 마지막으로 생각할 것들
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 완벽한 프롬프트를 만드는 것이 얼마나 쉬운지 알게 되었어요. 그리고 당신이 AI 상호작용에서 최상의 결과를 얻는 데 아무런 장애물이 없습니다.
 
@@ -126,7 +220,18 @@ Are you making a playlist? Finding recipes? Whatever it is, describe it clearly.
 
 이 이야기는 Generative AI에 게시되어 있어요. LinkedIn에서 저희와 연결하고 최신 AI 이야기에 대한 소식을 받으려면 Zeniteq를 팔로우하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최신 뉴스 및 생성 AI에 대한 최신 정보를 받아보려면 뉴스레터를 구독하세요. 함께 AI의 미래를 만들어 봅시다!
 

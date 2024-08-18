@@ -3,17 +3,13 @@ title: "Framework 13 노트북 3개월 사용 후기"
 description: ""
 coverImage: "/assets/img/2024-07-09-Framework13Laptop3MonthReview_0.png"
 date: 2024-07-09 09:55
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-Framework13Laptop3MonthReview_0.png
 tag: Tech
 originalTitle: "Framework 13 Laptop: 3 Month Review"
 link: "https://medium.com/@thesmashy/framework-13-laptop-3-month-review-481463bf9edd"
 isUpdated: true
 ---
-
-
-
-
 
 # 최고의 노트북은 스스로 조립하고 수리할 수있는 노트북일지도 모릅니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Framework 13은 Framework Computer가 만든 친환경적이고 수리 가능하며 업그레이드 가능한 모듈식 노트북입니다. 4년 전에 설립된 작은 컴퓨터 회사인 Framework은 모듈식, 수리 가능하며 친환경적인 마인드를 가지고 있습니다. Framework은 수리권을 강력히 지지하며, 그들의 "회사 소개" 페이지에서 "소비자 전자 제품은 여러분과 환경을 위해 더 나아질 수 있다는 것을 알고 있습니다. 대부분의 제품과 달리 우리 제품은 여러분이 수리하고 업그레이드할 수 있습니다." 라고 명시하고 있습니다. 그리고 모든 이야기가 사실이며, Framework는 BIOS 및 다른 회로도 및 도면 등을 오픈 소스로 공개하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 어떤 것을 받았을까요?
 
@@ -33,8 +40,18 @@ Framework 13은 Framework Computer가 만든 친환경적이고 수리 가능하
 
 나는 100% 재활용 가능한 노트북 부품 상자를 받았어. 마더보드와 배터리는 샤시에 나사로 고정되어 있었고, 패널은 뚜껑에 나사로 고정되어 있었지만 데크는 분리되어 있었어. 설치 가이드를 따라서 나는 RAM과 SSD를 노트북에 넣고, 포함된 단 하나의 도구(티5 비트와 갈고리 끝에 플라스틱 핸들)를 사용해서 모두 조립했어. "메모리 트레이닝" 절차를 따라서 USB로 부팅하고 윈도우 11을 설치할 수 있었어. 그런 다음 다른 USB를 사용해서 250GB 저장 모듈에 Debian을 설치해서 듀얼 부팅할 수 있도록 했어. Debian은 Framework에서 지원하는 리눅스 배포판이 아니었지만, 인텔 칩셋에서 Debian이 작동할 것으로 생각해서 실행했어. 3:2 패널은 리눅스에서 약간 거칠었어, 윈도우가 더 잘 처리하는 배율 문제가 발생하지만, XFCE를 사용해도 잘 작동했어.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-09-Framework13Laptop3MonthReview_1.png" />
 
@@ -44,8 +61,18 @@ Framework 13은 Framework Computer가 만든 친환경적이고 수리 가능하
 
 <img src="/assets/img/2024-07-09-Framework13Laptop3MonthReview_2.png" />
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 이 노트북에서 싫은 점은 무엇인가요?
 
@@ -55,7 +82,18 @@ Framework 13은 Framework Computer가 만든 친환경적이고 수리 가능하
 
 전반적으로, 이 노트북은 정말 멋지고 제가 보여준 모두가 놀랐습니다. 이 노트북을 사용하면서 조금씩 배우고 더 나은 방법을 찾아냈습니다. 처음에 실망했던 한 가지는 스피커의 음질이 좋지 않았다는 것이었습니다. 소리는 컸지만 좋지 않았습니다. 여러 자료를 찾다가 소리 품질을 다루는 커뮤니티 게시물을 우연히 찾아 GitHub으로 이어졌습니다. Windows용 FxSound와 Linux용 Easy Effects를 설치하고 스피커 EQ를 조정했습니다. 차이는 확실히 이전보다 훨씬 좋아졌습니다. 프레임워크의 소프트웨어 개발이나 드라이버의 미숙함이 원인인지는 모르겠지만, 이 임시 해결책으로 문제가 해결되었고, 심지어 아내도 FxSound가 켜고 꺼지는 사이에 긍정적인 차이를 진심으로 느꼈다고 말했습니다. 구매 당시 프레임워크는 더 멋진 노트북과 프로젝트인 프레임워크 16을 예약 배치로 출시하고 있었습니다. 그리고 내 노트북 출시 이후에는 새로운 2.8K 디스플레이와 개선된 웹캠을 출시했고, 내 웹캠이 너무 나쁘다고는 생각하지 않습니다. Wi-Fi로 팀스 통화를 하고 동료에게 어땠는지 물어봤을 때 좋다고, 보통처럼 자주 좋다고 했지만, 나는 내 프레임워크를 사용했다고 말했을 때 그는 인상을 받았습니다. 그러나 패널, 웹캠, 심지어 프로세서를 업그레이드할 수 있지만, 나는 DDR4 RAM을 사용하고 있고, 최신 Intel CPU를 위해서는 DDR5가 필요합니다. 나는 현재의 CPU로 완전히 만족하기 때문에 그 업그레이드를 지나칠 것이지만, 그렇게 하면 현재의 메인보드와 프로세서가 쓰레기가 되지 않고 쿨러 마스터 프레임워크 메인보드 케이스로 새 컴퓨터를 만들 수 있습니다. 2.8k로 패널을 업그레이드할 생각이며, 이것이 Linux와 더 잘 어울립니다. 여기까지는 나는 완전히 만족하고, 사실 구매에 대해 열정적입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-09-Framework13Laptop3MonthReview_3.png)
 

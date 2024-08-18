@@ -3,17 +3,13 @@ title: "모듈형 RAG와 RAG Flow 첫 번째 파트"
 description: ""
 coverImage: "/assets/img/2024-06-23-ModularRAGandRAGFlowPart_0.png"
 date: 2024-06-23 19:19
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-ModularRAGandRAGFlowPart_0.png
 tag: Tech
 originalTitle: "Modular RAG and RAG Flow: Part Ⅰ"
 link: "https://medium.com/@yufan1602/modular-rag-and-rag-flow-part-%E2%85%B0-e69b32dc13a3"
 isUpdated: true
 ---
-
-
-
-
 
 # 소개
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 다양한 Operator를 조합함으로써, 우리는 다양한 RAG 흐름을 유도할 수 있으며, 이 개념을 이 글에서 명확히 설명하고자 합니다. 광범위한 연구를 기반으로, 일반적인 패턴, 몇 가지 구체적인 구현 사례 및 최상의 업계 사례를 요약하였습니다. (공간 제약으로 인해 이 부분은 Part II에서 다룰 예정입니다.)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글의 목적은 현재 RAG 개발 상태에 대한 더 정교한 이해를 제공하고 미래 발전을 위한 길을 만들어주는 것입니다. 모듈식 RAG는 새로운 연산자, 모듈, 그리고 새로운 플로우의 구성을 용이하게 하는 다양한 기회를 제공합니다.
 
@@ -35,7 +42,18 @@ RAG의 발전은 다음과 같은 중요한 측면들에 반영되어 보다 다
 - 통합된 기술: RAG는 세부 조정, 어댑터 모듈 사용, 강화 학습을 포함한 다른 기술들과 통합하여 검색 능력을 강화하고 있습니다.
 - 적응형 검색 프로세스: 검색 프로세스는 검색한 내용을 활용하여 생성을 안내하고 그 반대로 하는 등 다단계 검색 강화를 지원하도록 진화했습니다. 또한, 자율적인 판단과 LLM 사용을 통해 검색 필요성을 판단하여 질문에 대한 효율을 높였습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모듈식 RAG의 정의
 
@@ -45,7 +63,18 @@ RAG의 발전은 다음과 같은 중요한 측면들에 반영되어 보다 다
 
 이전 패러다임과의 관계
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모듈식 RAG은 RAG 시스템을 다층 구조의 모듈식 형태로 조직합니다. 고급 RAG는 RAG의 모듈식 형태이며, Naive RAG는 고급 RAG의 특수한 경우입니다. 이 세 가지 패러다임 간의 관계는 상속과 발전의 하나입니다.
 
@@ -56,8 +85,18 @@ RAG의 발전은 다음과 같은 중요한 측면들에 반영되어 보다 다
 - 연구적 시각. 모듈식 RAG는 확장성이 높아 연구자들이 현재 RAG 개발에 대한 포괄적인 이해를 기반으로 새로운 모듈 유형, 모듈, 그리고 연산자를 제안하기 쉽습니다.
 - 응용 시각. RAG 시스템의 설계 및 구성이 더 편리해지며, 사용자들이 기존 데이터, 사용 시나리오, 하향 작업 등에 따라 RAG Flow를 사용자 정의할 수 있습니다. 개발자들은 또한 현재 Flow 구성 방법을 참고하고, 다른 응용 시나리오와 도메인에 기반하여 새로운 플로우와 패턴을 정의할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Module](/assets/img/2024-06-23-ModularRAGandRAGFlowPart_0.png)
 
@@ -67,8 +106,18 @@ RAG의 발전은 다음과 같은 중요한 측면들에 반영되어 보다 다
 
 Indexing, the process of breaking down text into manageable chunks, is a crucial step in organizing the system, facing three main challenges:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 완전하지 않은 내용 표현. 청크의 의미 정보는 세분화 방법에 영향을 받아 중요 정보가 잃거나 긴 문맥 속에서 잠기는 결과를 초래합니다.
 - 부정확한 청크 유사성 검색. 데이터 양이 증가함에 따라 검색에서의 잡음이 커져 잘못된 데이터와 빈번히 일치하게 되어 검색 시스템을 취약하고 신뢰할 수 없게 만듭니다.
@@ -80,13 +129,35 @@ Indexing, the process of breaking down text into manageable chunks, is a crucial
 
 - 슬라이딩 윈도우
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 요구 사항을 균형 있게 조절하는 한 가지 간단한 방법은 중첩 청크를 사용하는 것입니다. 슬라이딩 창을 활용하면 의미적 전환을 향상시킬 수 있습니다. 그러나 의미적 고려 사항이 부족하다는 제한 사항이 있습니다. - 작은 청크에서 큰 청크로 핵심 아이디어는 검색에 사용되는 청크와 합성에 사용되는 청크를 분리하는 것입니다. 더 작은 청크를 사용하면 검색의 정확도가 향상되고, 더 큰 청크는 더 많은 컨텍스트 정보를 제공할 수 있습니다.
 
 ![이미지](/assets/img/2024-06-23-ModularRAGandRAGFlowPart_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특히 한 가지 방법은 더 작은 청크를 검색한 다음 부모 ID를 참조하여 더 큰 청크를 반환하는 것일 수 있습니다. 또는 개별 문장을 검색하고 문장 주변 텍스트 창을 반환할 수도 있습니다.
 
@@ -96,7 +167,18 @@ Indexing, the process of breaking down text into manageable chunks, is a crucial
 
 이는 작은 것에서 큰 것으로의 개념과 유사하며, 먼저 더 큰 청크의 개요가 생성되고, 이후 개요에 대해 검색이 수행됩니다. 그런 다음 더 큰 청크에 대해 보조 검색을 수행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 메타데이터 첨부
 
@@ -106,7 +188,18 @@ Indexing, the process of breaking down text into manageable chunks, is a crucial
 
 정보 검색을 강화하는 효과적인 방법 중 하나는 문서에 대한 계층적 구조를 설정하는 것입니다. 청크 구조를 구성함으로써 RAG 시스템은 적절한 데이터의 검색과 처리를 가속화할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 계층적 색인
 
@@ -118,7 +211,18 @@ Indexing, the process of breaking down text into manageable chunks, is a crucial
 - 콘텐츠 인식: PDF, HTML, Latex에 내재된 구조
 - 의미 인식: NLP 기술을 활용한 텍스트의 의미 인식과 분할, NLTK와 같은 기법 사용
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대규모로 아커스의 계층적 인덱스를 확인하실 수 있습니다.
 
@@ -128,7 +232,18 @@ Indexing, the process of breaking down text into manageable chunks, is a crucial
 
 다른 이점은 정보 검색 프로세스를 LLM이 이해할 수 있는 지침으로 변환하여 지식 검색의 정확성을 향상시키고 LLM이 맥락에 부합한 응답을 생성할 수 있도록 함으로써 RAG 시스템의 전체적인 효율성을 향상시킵니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Neo4j 구현 및 LllmaIndex Neo4j 쿼리 엔진을 확인해보세요.
 
@@ -138,7 +253,18 @@ KG를 사용하여 여러 문서를 조직하는 경우, 이 연구 논문 KGP: 
 
 Naive RAG의 주요 도전 중 하나는 사용자의 원본 쿼리에 직접 의존하고 있다는 것입니다. 정확하고 명확한 질문을 구성하는 것은 어려우며, 무분별한 쿼리는 하위 수준의 검색 효과를 초래합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 단계에서의 주요 도전 과제는 다음과 같습니다:
 
@@ -149,7 +275,18 @@ Naive RAG의 주요 도전 중 하나는 사용자의 원본 쿼리에 직접 �
 
 단일 질문을 복수의 질문으로 확장하면 질문의 내용을 풍부하게 만들어 특정 뉘앙스의 부족을 보충함으로써 생성된 답변의 최적적인 관련성을 보장할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 다중 쿼리
 
@@ -159,7 +296,18 @@ LLM을 통해 쿼리를 확장하기 위해 prompt 엔지니어링을 사용하�
 
 - 하위 쿼리
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 서브 질문 계획 프로세스는 원본 질문을 완전히 대답할 수 있는 필요한 서브 질문을 생성하는 것을 나타냅니다. 관련 컨텍스트를 추가하는 이 프로세스는 원칙적으로 쿼리 확장과 유사합니다. 구체적으로, 복잡한 질문은 적은 것에서 많은 것으로 유도하는 방법을 사용하여 일련의 보다 간단한 서브 질문으로 분해될 수 있습니다.
 
@@ -169,7 +317,18 @@ LLM을 통해 쿼리를 확장하기 위해 prompt 엔지니어링을 사용하�
 
 # 쿼리 변환
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 다시 작성
 
@@ -179,7 +338,18 @@ LLM을 통해 쿼리를 확장하기 위해 prompt 엔지니어링을 사용하�
 
 - HyDE
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 쿼리에 대답할 때 LLM은 벡터 데이터베이스의 쿼리 및 계산된 벡터를 직접 검색하는 대신 가정된 답변인 가상 문서를 작성합니다. 이는 문제나 쿼리의 임베딩 유사성을 찾는 대신 답변 간의 임베딩 유사성에 초점을 맞추고 있습니다. 또한 쿼리 간의 검색에 초점을 맞춘 Reverse HyDE도 포함되어 있습니다.
 
@@ -189,7 +359,18 @@ LLM을 통해 쿼리를 확장하기 위해 prompt 엔지니어링을 사용하�
 
 Google DeepMind가 제안한 Step-back Prompting 방법을 사용하면 원본 쿼리를 추상화하여 고수준 개념 질문인 스텝백 질문을 생성할 수 있습니다. RAG 시스템에서는 스텝백 질문과 원본 쿼리 모두 검색에 사용되며, 두 결과 모두 언어 모델 답변 생성의 기초로 활용됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 쿼리 라우팅
 
@@ -199,7 +380,18 @@ Google DeepMind가 제안한 Step-back Prompting 방법을 사용하면 원본 �
 
 첫 번째 단계는 쿼리에서 키워드(엔티티)를 추출한 후, 키워드 및 청크 내의 메타데이터를 기반으로 필터링하여 검색 범위를 좁히는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Semantic Router
 
@@ -209,7 +401,18 @@ Semantic router 리포지토리를 확인해보세요.
 
 # 쿼리 구성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 유저의 쿼리를 다른 쿼리 언어로 변환하여 대체 데이터 소스에 접근하는 작업입니다. 일반적으로 사용되는 방법은 다음과 같습니다:
 
@@ -220,7 +423,18 @@ Semantic router 리포지토리를 확인해보세요.
 
 # 3 조회
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 검색 과정은 RAG에서 중요한 역할을 합니다. 강력한 PLM을 활용하여 쿼리와 텍스트를 잠재적 공간에 효과적으로 표현하여 질문과 문서 간의 의미 유사성을 성립하는 데 도움이 됩니다.
 
@@ -232,7 +446,18 @@ Semantic router 리포지토리를 확인해보세요.
 
 # 검색기 선택
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ChatGPT가 출시된 이후에는 임베딩 모델 개발에 대한 열기가 높아졌어요. Hugging Face의 MTEB 리더보드는 8가지 작업(클러스터링, 분류, 이중 텍스트, 쌍 분류, 재랭킹, 정보 검색, 시맨틱 텍스트 유사성 및 요약)에 걸쳐 거의 모든 가능한 임베딩 모델을 평가합니다. 또한, C-MTEB는 중국어 임베딩 모델의 능력을 평가하며, 6가지 작업과 35개의 데이터셋을 다루고 있어요.
 
@@ -242,7 +467,18 @@ MTEB/C-MTEB 리더보드를 확인해보세요.
 
 - Sparse Retriever
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 희박 인코딩 모델은 다소 구식 기술로 간주될 수 있지만 단어 빈도 통계와 같은 통계적 방법에 기반하고 있어서 높은 인코딩 효율성과 안정성을 유지하고 있습니다. 일반적인 계수 인코딩 모델로는 BM25와 TF-IDF가 있습니다.
 
@@ -256,7 +492,18 @@ MTEB/C-MTEB 리더보드를 확인해보세요.
 - 대규모 데이터 애플리케이션을 위해 설계된 다음 세대 가속화 인코딩 프레임워크 Dragon+.
 - 혼합/하이브리드 검색
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 가지 임베딩 접근 방식은 서로 다른 관련 기능을 캡쳐하고 상호 보완적인 관련 정보를 활용함으로써 상호 이득을 얻을 수 있습니다. 예를 들어, 희박 검색 모델은 밀도 검색 모델을 교육하기 위한 초기 검색 결과를 제공하는 데 사용될 수 있습니다. 게다가 PLM(Pre-trained Language Models)은 희소 검색을 강화하기 위해 용어 가중치를 학습하는 데 활용될 수 있습니다. 구체적으로, 희소 검색 모델이 밀도 검색 모델의 제로샷 검색 기능을 강화하고 희귀 엔티티를 포함하는 쿼리를 처리하는 데 밀도 리트리버를 돕는 것이 증명되었습니다.
 
@@ -266,7 +513,18 @@ MTEB/C-MTEB 리더보드를 확인해보세요.
 
 특히 의료, 법률 및 소유 용어가 풍부한 기타 전문 분야와 같이 사전 훈련된 모델이 임베딩 공간에서 유사하다고 판단하는 컨텍스트가 벗어날 수 있는 경우, 임베딩 모델을 조정함으로써 이 문제를 해결할 수 있습니다. 이러한 조정은 추가적인 노력이 필요하지만 검색 효율성과 도메인 정렬을 크게 향상시킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - SFT
 
@@ -276,7 +534,18 @@ MTEB/C-MTEB 리더보드를 확인해보세요.
 
 직접 데이터 세트에서 세부 조정 데이터 세트를 구성하는 대신 LSR은 LM이 생성한 결과를 우선적 신호로 사용하여 RAG 프로세스 중에 임베딩 모델을 세부 조정합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - RL(강화 학습)
 
@@ -286,7 +555,18 @@ RLHF(사람 피드백에서 강화 학습)에서 영감을 받아 LM 기반 피�
 
 가끔 전체 리트리버를 세밀하게 조정하는 것은 비용이 많이 들 수 있으며, 특히 API 기반 리트리버를 직접 세밀하게 조정할 수 없는 경우에는 어댑터 모듈을 통합하고 세밀 조정을 진행함으로써 이를 완화할 수 있습니다. 어댑터를 추가하는 또다른 이점은 특정 다운스트림 작업과의 더 나은 조정을 달성할 수 있는 능력입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Task Specific.PRCA: 검색 질의응답을 위한 블랙박스 대규모 언어 모델에 플러그인 리워드 기반 컨텍스트 어댑터를 적합화하는 작업.
 - Task Agnostic. AAR(Augmentation-Adapted Retriver)는 여러 하향 작업을 수용하기 위해 설계된 범용 어댑터를 소개합니다.
@@ -297,7 +577,18 @@ RLHF(사람 피드백에서 강화 학습)에서 영감을 받아 LM 기반 피�
 
 주요 도전 과제는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 중간에 길들이 미아 되다. 인간처럼 LLM은 긴 텍스트의 처음과 끝만을 기억하고, 중간 부분은 잊어 버리기 쉽습니다.
 - 소음/반사실적 청크. 소음이나 사실적으로 모순된 문서를 검색하면 최종 검색 결과 생성에 영향을 줄 수 있습니다.
@@ -309,7 +600,18 @@ RLHF(사람 피드백에서 강화 학습)에서 영감을 받아 LM 기반 피�
 
 - 규칙 기반 재랭크
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특정 규칙에 따라 메트릭을 계산하여 청크를 다시 순위 지정합니다. 일반적인 메트릭은 다음과 같습니다:
 
@@ -321,7 +623,18 @@ MMR의 아이디어는 중복을 줄이고 결과 다양성을 높이는 데 있
 
 HayStack에서 해당 순위 지정 구현을 확인해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 모델 기반 재순위
 
@@ -333,7 +646,18 @@ HayStack에서 해당 순위 지정 구현을 확인해보세요.
 
 # 압축 및 선택
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 RAG 프로세스에서 흔한 오해는 가능한 많은 관련 문서를 검색하여 연결하여 긴 검색 프롬프트를 형성한다는 것이 유익하다는 믿음입니다. 그러나 과도한 문맥은 더 많은 잡음을 도입할 수 있으며, LLM이 주요 정보를 인식하는 것을 약화시키고 "중간에서 잃어버림"과 같은 문제로 이어질 수 있습니다. 이러한 문제를 해결하는 일반적인 접근법은 검색된 콘텐츠를 압축하고 선택하는 것입니다.
 
@@ -343,7 +667,18 @@ GPT-2 Small이나 LLaMA-7B와 같은 정련된 작은 언어 모델을 사용하
 
 LLMLingua 프로젝트를 확인해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Recomp
 
@@ -353,7 +688,18 @@ Recomp은 두 가지 유형의 압축기를 소개합니다: 검색된 문서에
 
 입력 컨텍스트에서 중복되는 콘텐츠를 식별하고 제거함으로써 입력을 최적화하여 언어 모델의 추론 효율성을 향상할 수 있습니다. 선택적 컨텍스트는 "불용어 제거" 전략과 유사합니다. 실제로, 선택적 컨텍스트는 기본 언어 모델에 의해 계산된 자기 정보에 기반하여 어휘 단위의 정보 콘텐츠를 평가합니다. 더 높은 자기 정보를 갖는 콘텐츠를 유지함으로써, 이 방법은 언어 모델 처리를 위한 보다 간결하고 효율적인 텍스트 표현을 제공하며, 다양한 응용 프로그램에서의 성능을 저해시키지 않습니다. 그러나 압축된 콘텐츠와 대상 언어 모델 및 압축을 위해 사용되는 작은 언어 모델 간의 일치를 간과합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 태깅-필터
 
@@ -363,7 +709,18 @@ Recomp은 두 가지 유형의 압축기를 소개합니다: 검색된 문서에
 
 다른 명확하고 효과적인 방법은 LLM이 최종 답변을 생성하기 전에 검색된 콘텐츠를 평가하도록 하는 것입니다. 이를 통해 LLM은 LLM 비평을 통해 적합하지 않은 문서들을 걸러낼 수 있습니다. 예를 들어, Chatlaw에서 LLM은 참조된 법적 규정에 대한 자체 제안을 받아 그들의 적합성을 평가하게 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 5세대
 
@@ -373,7 +730,18 @@ Recomp은 두 가지 유형의 압축기를 소개합니다: 검색된 문서에
 
 시나리오에 따라 LLM의 선택은 다음 두 가지 유형으로 분류될 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 클라우드 API 기반 생성기
 
@@ -385,7 +753,18 @@ Recomp은 두 가지 유형의 압축기를 소개합니다: 검색된 문서에
 
 단점:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 데이터가 제3자를 통해 전달되어 데이터 개인 정보 보호에 대한 우려가 생깁니다
 - 모델을 조정할 수 없음 (대부분의 경우)
@@ -397,7 +776,18 @@ Recomp은 두 가지 유형의 압축기를 소개합니다: 검색된 문서에
 
 LLM 사용뿐만 아니라 시나리오와 데이터 특성에 기반한 목표 지향적인 세부 조정은 더 나은 결과를 얻을 수 있습니다. 이것은 온-프레미스 설정을 사용하는 가장 큰 장점 중 하나이기도 합니다. 일반적인 세부 조정 방법은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - SFT
 
@@ -407,7 +797,18 @@ Fine-tuning의 또 다른 이점은 모델의 입력과 출력을 조정할 수 
 
 - RL
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LLM 출력물을 인간 또는 검색기 선호사항에 맞게 조정하는 것은 가능한 접근 방식입니다. 예를 들어 최종 생성된 답변에 대해 수동으로 주석을 달고 그에 대한 피드백을 통해 강화 학습을 제공하는 것이 있습니다. 인간 선호도에 맞추는 것뿐만 아니라 세밀하게 조정된 모델과 검색기의 선호도에도 부합시킬 수 있습니다.
 
@@ -417,11 +818,33 @@ LLM 출력물을 인간 또는 검색기 선호사항에 맞게 조정하는 것
 
 - 이중 미세 조정
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 RAG 프로세스를 제어하는 데 사용되는 모듈을 가리키는 Orchestration입니다. RAG는 더 이상 고정 프로세스를 따르지 않고, 주요 시점에서 결정을 내리고 결과에 따라 동적으로 다음 단계를 선택하는 것을 의미합니다. 이것은 Naive RAG와 비교해 모듈화된 RAG의 주요 특징 중 하나입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 판사 모듈은 RAG 프로세스의 중요한 부분을 평가하여 외부 문서 저장소를 검색해야 하는 필요성, 답변의 만족도 및 추가적인 탐색이 필요한지를 결정합니다. 주로 반복적이고 반복적이며 적응적인 검색에 사용됩니다. 구체적으로는 다음 두 가지 연산자가 주로 포함됩니다:
 
@@ -431,7 +854,18 @@ RAG 프로세스를 제어하는 데 사용되는 모듈을 가리키는 Orchest
 
 - 프롬프트 기반
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LLM은 다음 조치를 자율적으로 결정합니다. 이를 실현하는 데 주로 두 가지 접근 방식이 있습니다. 첫 번째는 대화 기록을 기반으로 LLM에게 반영하거나 판단하도록 하는 것으로, ReACT 프레임워크에서 볼 수 있습니다. 이 방법의 장점은 모델을 미세 조정할 필요가 없다는 것입니다. 그러나 판단의 출력 형식은 LLM이 지침을 준수하는 정도에 따라 달라집니다. FLARE는 프롬프트 기반 사례입니다.
 
@@ -441,7 +875,18 @@ LLM은 다음 조치를 자율적으로 결정합니다. 이를 실현하는 데
 
 # 퓨전
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 개념은 RAG Fusion에서 유래되었습니다. 질의 확장 섹션에서 언급된 바와 같이 현재 RAG 프로세스는 더 이상 단일 파이프라인이 아닙니다. 종종 다양한 분기를 통해 검색 범위나 다양성을 확대해야 합니다. 따라서 여러 분기로 확장한 뒤에는 퓨전 모듈이 여러 대답을 병합하는데 필요합니다.
 
@@ -451,7 +896,18 @@ LLM은 다음 조치를 자율적으로 결정합니다. 이를 실현하는 데
 
 - RRF (Reciprocal Rank Fusion)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 RRF는 여러 검색 결과 목록의 순위를 결합하여 하나의 통합된 순위를 생성하는 기술입니다. 워털루 대학교 (캐나다)와 Google과의 협력으로 개발된 RRF는 단일 분기 아래의 청크를 재배치하는 것보다 더 효과적인 결과를 생성합니다.
 

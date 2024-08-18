@@ -3,17 +3,13 @@ title: "문서챗 데이터를 손쉽게 탐색하고 이해하는 데 도움이
 description: ""
 coverImage: "/assets/img/2024-06-19-DocuChatEmpoweringYoutoExploreandUnderstandYourDataEffortlesslyPart-1_0.png"
 date: 2024-06-19 19:14
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-DocuChatEmpoweringYoutoExploreandUnderstandYourDataEffortlesslyPart-1_0.png
 tag: Tech
 originalTitle: "DocuChat: Empowering You to Explore and Understand Your Data Effortlessly : Part-1"
 link: "https://medium.com/@chinvar/docuchat-empowering-you-to-explore-and-understand-your-data-effortlessly-part-1-bfd88f5e47d2"
 isUpdated: true
 ---
-
-
-
-
 
 # 소개:
 
@@ -28,7 +24,18 @@ isUpdated: true
 - 보안 및 거버넌스: 챗봇을 안전하게 보호하고 데이터 거버넌스 정책을 준수하는 데 필요한 모범 사례입니다.
 - 가시성: 챗봇의 건강과 성능을 유지하기 위해 모니터링 및 가시성을 구현합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-DocuChatEmpoweringYoutoExploreandUnderstandYourDataEffortlesslyPart-1_0.png" />
 
@@ -38,7 +45,18 @@ isUpdated: true
 
 RAG는 LLM의 기능을 확장하여 추가 데이터를 통합하는 강력한 방법입니다. LLM은 다양한 주제를 토론할 수 있지만, 그들의 지식은 일정한 시점까지 공개 정보로 제한됩니다. 개인 정보나 보다 최근 데이터를 처리할 수 있는 AI 애플리케이션을 만들기 위해서는 모델의 지식을 관련 정보로 보충하는 것이 중요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 RAG은 필요한 데이터를 검색하여 모델의 프롬프트에 삽입함으로써 이를 달성합니다. LangChain, LlamaIndex와 같은 프레임워크는 Q&A 애플리케이션 및 RAG 구현을 용이하게 하는 컴포넌트 스위트를 제공합니다. 전형적인 RAG 애플리케이션은 두 가지 주요 컴포넌트로 구성됩니다:
 
@@ -50,7 +68,18 @@ RAG은 필요한 데이터를 검색하여 모델의 프롬프트에 삽입함�
 
 2. 검색 및 생성: 이 컴포넌트는 사용자 쿼리를 실시간으로 처리하고 색인에서 중요한 데이터를 검색하여 모델을 사용하여 응답을 생성합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 데이터 검색: 사용자가 쿼리를 입력하면, 관련 청크는 리트리버를 사용하여 저장소에서 검색됩니다.
 - 답변 생성: ChatModel 또는 LLM은 사용자의 질문과 검색된 데이터를 포함하여 답변을 생성합니다.
@@ -64,22 +93,33 @@ def process_pdf_simple(self, file_content):
     # 문서 로드
     loader = PyPDFLoader(file_content)
     docs = loader.load()
-    
+
     # 문서 분할
     text_splitter = RecursiveCharacterTextSplitter(
-        chunk_size=1000, 
+        chunk_size=1000,
         chunk_overlap=200
     )
     splits = text_splitter.split_documents(docs)
-    
+
     # 문서 색인화
     vectorstore = Chroma.from_documents(splits, self.embeddings)
-    
+
     # 리트리버 정의
     retriever = vectorstore.as_retriever()
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 스니펫에서는 PyPDFLoader를 사용하여 PDF 콘텐츠를 초기화하고 문서를 로드합니다. 그런 다음 Chroma 클래스를 사용하여 문서 청크에서 벡터 저장소를 생성합니다. Chroma의 `from_documents` 메서드는 임베딩 모델을 사용하여 문서 분할에서 인덱스를 생성합니다. `as_retriever` 메서드는 벡터 저장소를 검색기 객체로 변환하여 챗봇이 인덱싱된 문서 청크를 검색하고 가장 관련성 높은 정보를 빠르게 찾을 수 있도록 합니다.
 
@@ -89,7 +129,18 @@ def process_pdf_simple(self, file_content):
 
 2. 프롬프트 템플릿: 이러한 템플릿은 기본 메시지, 사용자 입력, 채팅 기록 및 선택적으로 다른 소스에서 검색한 추가 컨텍스트를 결합하여 프롬프트를 만드는 데 도움이 됩니다. 이는 예를 들어, 금융 자문가로 챗봇을 가정하는 특정 페르소나를 만들어낼 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 채팅 기록: 이 기능을 통해 챗봇은 과거 상호작용을 기억할 수 있어 후속 질문에 맥락을 제공하여 응답할 수 있습니다. Q&A 애플리케이션에서는 과거 질문과 답변을 기억하는 것이 일관된 대화를 위해 중요합니다.
 
@@ -116,7 +167,18 @@ history_aware_retriever = create_history_aware_retriever(
 )
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 전체 QA 체인 구축하기:
 
@@ -145,15 +207,26 @@ return conversational_rag_chain
 
 마지막으로, 입력 쿼리를 처리하고 색인된 문서 청크에서 관련 정보를 검색하는 conversational_rag_chain inbuilt 메서드 invoke를 호출할 수 있습니다. 결합된 질문, 컨텍스트 및 프롬프트는 LLM에 전송되어 응답을 생성합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-file_path = 'amazon_2024_10q.pdf'
-user_query = "Amazon의 2024년 Q1 10-Q SEC 보고서에서 보고된 주요 재무 하이라이트 및 중요한 변화는 무엇입니까?"
-obj = ConversationRetrieverAgent()
-chain = obj.process_pdf_simple(file_path)
-result = chain.invoke({"input": user_query})
-print(result["answer"])
+file_path = "amazon_2024_10q.pdf";
+user_query = "Amazon의 2024년 Q1 10-Q SEC 보고서에서 보고된 주요 재무 하이라이트 및 중요한 변화는 무엇입니까?";
+obj = ConversationRetrieverAgent();
+chain = obj.process_pdf_simple(file_path);
+result = chain.invoke({ input: user_query });
+print(result["answer"]);
 ```
 
 # 결론
@@ -162,7 +235,18 @@ DocuChat 앱은 LangChain 및 검색 확장 생성 (RAG)과 같은 고급 기술
 
 # 다음 단계?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이번 시리즈의 다음 부분을 기대해주세요. 다음에는 고급 데이터 전처리와 멀티모달 검색에 대해 자세히 알아볼 것입니다. 이미지와 테이블을 포함한 문서를 어떻게 처리하는지, 이 데이터를 챗봇이 효과적으로 해석하고 활용하는 방법을 다룰 예정입니다. 이는 금융 서비스용 봇을 만들 때 특히 유용하며, SEC와 Bloomberg과 같은 출처에서 받은 금융 시장 데이터를 분석할 수 있게 해줍니다. 이 데이터는 종종 그래프, 지표, 테이블을 포함하고 있습니다. 이러한 통찰력을 놓치지 마시고 챗봇 역량을 향상시키세요!
 
@@ -174,7 +258,18 @@ DocuChat 앱은 LangChain 및 검색 확장 생성 (RAG)과 같은 고급 기술
 - GitHub: 이 기사의 전체 코드를 제 GitHub 프로필에서 확인하세요.
 - Streamlit: Streamlit 앱에서 완전히 기능하는 앱과 상호 작용해보세요. 기능을 탐색하고, 질문을 하며, DocuChat이 실시간으로 쿼리에 응답하는 방식을 확인해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LinkedIn에서 업데이트, 토론 및 지적 응용 프로그램 구축에 대한 자세한 통찰력을 얻으세요. 피드백 및 기여는 언제나 환영합니다!
 

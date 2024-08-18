@@ -3,17 +3,13 @@ title: "작별, NymConnect 반가워, NymVPN"
 description: ""
 coverImage: "/assets/img/2024-06-19-GoodbyeNymConnecthelloNymVPN_0.png"
 date: 2024-06-19 04:28
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-GoodbyeNymConnecthelloNymVPN_0.png
 tag: Tech
 originalTitle: "Goodbye NymConnect, hello NymVPN"
 link: "https://medium.com/nymtech/goodbye-nymconnect-hello-nymvpn-914defc96201"
 isUpdated: true
 ---
-
-
-
-
 
 ## NymVPN 출시를 앞두고 NymConnect 앱 단계적 중단
 
@@ -23,7 +19,18 @@ NymConnect 및 믹스넷 사용자를 위한 중요한 변경 사항입니다.
 
 NymVPN 앱의 상용화 출시를 대비하여 Nym은 NymConnect 인터페이스를 4주 내에 점진적으로 중단할 예정입니다. SOCKS5 클라이언트는 개발자 및 특정 응용 프로그램을 통해 프록시를 수동으로 실행하고자 하는 사용자들을 위해 활성 상태로 유지됩니다. 한 번 클릭으로 모든 사용자 트래픽을 보호함으로써, NymVPN 앱은 믹스넷 접근을 크게 개선하며 사용자에게 더 포괄적인 개인 정보 보호 기능을 제공할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 NymConnect에서 NymVPN으로의 전환 및 SOCKS5 클라이언트 계속 사용 가능성에 대해 알아야 할 사항이 있습니다.
 
@@ -33,7 +40,18 @@ NymConnect에서 NymVPN으로의 전환 및 SOCKS5 클라이언트 계속 사용
 
 지금까지 어떻게 작동했나요? 호환되는 응용 프로그램이 SOCKS5로 구성된 경우, 해당 응용 프로그램에서 TCP 데이터 스트림이 Nym 네트워크에서 승인된 네트워크 요청자에게 보내기 전에 Sphinx 암호화된 패킷으로 분할됩니다. 데이터 패킷은 그 후 Nym 믹스넷 노드의 3개 계층에서 혼합된 다음 출구 게이트웨이에서 재조립됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금까지 NymConnect 클라이언트에는 여러 가지 제한 사항이 있었습니다:
 
@@ -46,7 +64,18 @@ NymConnect에서 NymVPN으로의 전환 및 SOCKS5 클라이언트 계속 사용
 
 # NymVPN의 장점
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 NymVPN은 사용자가 모든 트래픽을 기본적으로 믹스넷을 통해 라우팅할 수 있는 새로운 클라이언트입니다 (TCP, SOCKS4–5 등만 아니라). 특정 애플리케이션을 프록시로 구성하거나 네트워크 요청자를 선택할 필요가 더 이상 없습니다.
 
@@ -58,7 +87,18 @@ NymVPN에는 여러 가지 주요 기능이 있습니다:
 
 이 모든 것이 이제 한 앱을 통해 가능해졌습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 안녕하세요 NymConnect, NymVPN으로 바뀜
 
@@ -68,7 +108,18 @@ NymVPN은 현재 대기 명단에서 초대된 사용자를 대상으로한 알�
 
 Discord // Telegram // Element // Twitter
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Privacy loves company
 

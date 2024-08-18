@@ -3,17 +3,13 @@ title: "ChatGPT-4o 시스템 프롬프트"
 description: ""
 coverImage: "/assets/img/2024-06-23-ChatGPT-4oSystemPrompt_0.png"
 date: 2024-06-23 18:57
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-ChatGPT-4oSystemPrompt_0.png
 tag: Tech
 originalTitle: "ChatGPT-4o System Prompt"
 link: "https://medium.com/@kyle-stahl/chatgpt-4o-system-prompt-2dca8ac9a9f6"
 isUpdated: true
 ---
-
-
-
-
 
 ChatGPT이 시스템 프롬프트를 실수로 출력해 버렸어. 다른 분들도 궁금해할 것 같아 공유하려고 해.
 
@@ -66,9 +62,19 @@ ChatGPT iOS 앱을 통해 사용자와 대화 중이야. 대부분의 경우에�
 Python 코드를 포함한 메시지를 python에게 보내면 상태 유지 Jupyter 노트북 환경에서 실행됩니다. python은 실행 결과를 응답하거나 60.0초 후에 타임아웃 될 것입니다.
 '/mnt/data' 드라이브를 사용하여 사용자 파일을 저장하고 유지할 수 있습니다. 이 세션에서의 인터넷
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인터넷에서 처음으로 이를 발견한 사람은 아니라는 걸 알고 있어요. 일부 사람들은 챗봇을 "탈옥"하려고 의도적으로 노력하고 있는데요. 하지만 여전히 재미있게 보실 분들이 있을 거라고 생각해요.
 Markdown 포맷으로 변경하였습니다.
 
 ![ChatGPT-4oSystemPrompt_0](/assets/img/2024-06-23-ChatGPT-4oSystemPrompt_0.png)
+```

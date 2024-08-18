@@ -3,17 +3,13 @@ title: "하이퍼 관계형 그래프 더 지능적인 RAG 시스템의 핵심"
 description: ""
 coverImage: "/assets/img/2024-06-23-Hyper-RelationalGraphsTheKeytoMoreIntelligentRAGSystems_0.png"
 date: 2024-06-23 18:55
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-Hyper-RelationalGraphsTheKeytoMoreIntelligentRAGSystems_0.png
 tag: Tech
 originalTitle: "Hyper-Relational Graphs: The Key to More Intelligent RAG Systems"
 link: "https://medium.com/@alcarazanthony1/hyper-relational-graphs-the-key-to-more-intelligent-rag-systems-08d4e64f8f28"
 isUpdated: true
 ---
-
-
-
-
 
 다음은 여러 문서 간의 정보를 원활하게 연결하여 복잡한 질문에 답변할 수 있는 인공 지능 시스템을 상상해 보세요. 이는 인간 전문가처럼 작동합니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 유망한 해결책이 등장했습니다: 과적합 그래프.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보다 풍부하고 맥락있는 지식 표현을 가능하게 함으로써, 이러한 고급 그래프 구조는 질문-답변 작업의 성능을 새로운 수준으로 끌어올리고 있어요.
 
@@ -33,17 +40,39 @@ isUpdated: true
 
 대규모 언어 모델(Large Language Models, LLMs)의 방대한 지식을 외부 정보를 검색하고 통합하는 능력과 결합함으로써, RAG 방법론은 더 정확하고 최신의 응답을 생산하려고 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 쿼리가 점점 복잡해지면 기존의 RAG 시스템이 종종 한계에 부딪힙니다.
 
 다양한 정보 간 미묘한 관계를 효과적으로 표현하는 데 어려움을 겪어 관련 없는 검색 결과와 잘못된 추론을 유발할 수 있습니다.
 
-초관계 그래프가 등장합니다. 이러한 고급 지식 구조는 간단한 주어-술어-목적어 세트를 넘어 풍부한 맥락 정보를 포착합니다. 
+초관계 그래프가 등장합니다. 이러한 고급 지식 구조는 간단한 주어-술어-목적어 세트를 넘어 풍부한 맥락 정보를 포착합니다.
 
 ![Hyper-RelationalGraphs](/assets/img/2024-06-23-Hyper-RelationalGraphsTheKeytoMoreIntelligentRAGSystems_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그렇게 함으로써 현재 RAG 시스템의 주요 한계를 많이 해결합니다.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 # 향상된 맥락적 표현
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하이퍼-관계 그래프의 핵심 기능은 풍부한 맥락 정보를 포착하고 표현하는 능력에 있습니다. 기존의 지식 그래프가 단순한 삼중 체계(예: "파리 - 프랑스의 수도 -")로 제한되어 있는 반면, 하이퍼-관계 그래프는 각 사실에 추가 메타데이터를 연결할 수 있습니다. 이러한 맥락 정보에는 다음이 포함될 수 있습니다:
 
@@ -65,7 +105,18 @@ isUpdated: true
 
 ## 향상된 모호성 해결
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하이퍼-관계 그래프의 가장 중요한 장점 중 하나는 엔티티와 관계를 명확히 구별할 수 있는 능력입니다. Apple의 제품 출시에 관한 쿼리를 고려해 봅시다. 전통적인 지식 그래프에서는 "Apple"에 대한 언급이 모호할 수 있습니다 - 기술 회사나 과일을 가리킬 수 있습니다. 그러나 하이퍼-관계 그래프는 상황 정보를 활용하여 이 사용 사이를 구별할 수 있습니다.
 
@@ -75,7 +126,18 @@ isUpdated: true
 
 하이퍼-관계 그래프의 풍부한 맥락 표현은 복잡하고 다중 부분으로 이루어진 쿼리에 대답하는 데 특히 가치가 있습니다. "Apple의 가장 최근 제품 출시에 대한 시장 반응이 5년 전 출시와 비교했을 때 어떻게 되었는지"와 같은 질문을 고려해 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 쿼리에 대답하기 위해서는 여러 시기와 도메인(제품 정보, 재무 데이터 등)을 종합적으로 결합해야 합니다. 하이퍼-관련 그래프는 이러한 연결된 정보 조각들을 효율적으로 표현할 수 있습니다:
 
@@ -87,7 +149,18 @@ isUpdated: true
 
 # 전통적인 지식 그래프와 비교
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하이퍼-관계 그래프의 가치를 완전히 이해하기 위해서는 전통적인 지식 그래프 방식과 직접 비교하는 것이 도움이 됩니다:
 
@@ -100,7 +173,18 @@ isUpdated: true
 
 # 질의 의미와 효율 향상
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지식 표현을 향상시키는 것을 넘어서, 초 관계 그래프는 RAG 시스템 내에서 더 명확하고 효율적인 정보 검색을 가능케 합니다. 이런 개선은 두 가지 주요 영역에서 나타납니다: 쿼리 관련성의 증가와 계산 오버헤드의 감소.
 
@@ -110,7 +194,18 @@ isUpdated: true
 
 이와 달리 초 관계 그래프는 시스템이 엔티티 간의 관계를 탐색하면서 인간의 추론에 더 가까운 방식으로 진행할 수 있도록 합니다. 예를 들어, "2008 금융 위기가 유럽의 재생 에너지 투자에 미친 영향은 무엇입니까?"와 같은 쿼리를 고려해 봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 초위계 그래프는 검색 프로세스를 안내하는 데 도움을 줄 수 있습니다:
 
@@ -122,7 +217,18 @@ isUpdated: true
 
 ## 가지치기 프로세스
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하이퍼-관계 그래프가 제공하는 가장 중요한 효율성 향상 중 하나는 관련 없는 정보를 지능적으로 제거할 수 있는 능력에서 옵니다. HOLMES 시스템은 이 과정을 효과적으로 보여주고 있습니다.
 
@@ -135,7 +241,18 @@ isUpdated: true
 
 ## 성능 개선
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하이퍼-관계 그래프에서 얻게 되는 효율성 향상은 벤치마크 데이터셋에서 성능 향상으로 직접 이어집니다. 다중 홉 질문 응답을 위한 널리 사용되는 벤치마크인 HotpotQA 데이터셋에서 HOLMES는 다음을 달성했습니다:
 
@@ -146,7 +263,18 @@ isUpdated: true
 
 - 이전 최고 방법과 비교해 EM 점수가 26% 증가했습니다
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이런 양적 개선은 HOLMES가 기존 방법에 비해 답변 품질에서 더 높은 점수를 받았다는 인간 평가로 뒷받침되었습니다 [1].
 
@@ -156,7 +284,18 @@ isUpdated: true
 
 하이퍼-관계 그래프의 가장 흥미로운 잠재력은 고급 다단계 추론을 지원하는 능력에 있습니다. 이 능력은 여러 소스에서 정보를 종합하거나 논리적 연쇄를 따라야 하는 복잡한 질문에 대답하는 데 중요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 다단계 추론 지원
 
@@ -169,7 +308,18 @@ isUpdated: true
 
 하이퍼-관계 그래프는 RAG 시스템이 이전보다 더 가까이 이 프로세스를 모방할 수 있도록 합니다. 그래프 구조를 통해 시스템이 다음을 할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 질의에서 시드 엔티티로 시작합니다
 - 관련 있는 관계를 통해 연결된 정보를 발견합니다
@@ -185,7 +335,18 @@ isUpdated: true
 - 다음 해에 출시된 최고 수익 영화 찾기
 - 해당 영화의 감독 식별
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하이퍼-관계 그래프는 이러한 모든 연결을 나타낼 수 있어서 RAG 시스템이 필요한 정보를 효율적으로 탐색할 수 있게 해줍니다.
 
@@ -197,7 +358,18 @@ isUpdated: true
 - 이벤트 간 관계를 명시적으로 모델링할 수 있습니다 (예: "이전에 발생한", "동안에 발생한").
 - 사실이 시간에 따라 변하는 것을 효율적으로 나타낼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 시간적인 인식력 덕분에 RAG 시스템은 "합병 이후 몇 년간 회사의 전략이 어떻게 변화했습니까?"와 같은 쿼리를 더 정확하고 세밀하게 처리할 수 있습니다.
 
@@ -209,7 +381,18 @@ isUpdated: true
 - 다른 주장에 확신 점수를 할당할 수 있습니다.
 - 시간적 한정자가 외견적인 모순을 해결하는 데 도움이 될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 정보가 충돌할 때 RAG 시스템은 다음과 같은 기능을 활용할 수 있어요:
 
@@ -222,7 +405,18 @@ isUpdated: true
 
 ## 향상된 설명력
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 RAG 시스템에서 하이퍼-관계 그래프를 사용하는 주요 이점 중 하나는 개선된 설명 가능성의 가능성입니다. 그래프의 구조화된 성격은 시스템이 다음을 할 수 있도록 합니다:
 
@@ -234,7 +428,18 @@ RAG 시스템에서 하이퍼-관계 그래프를 사용하는 주요 이점 중
 
 HOLMES 시스템은 이 설명 가능성의 잠재력을 보여줍니다. 다양한 쿼리에 대해 생성된 가지치기된 하위 그래프를 조사함으로써 연구원들은 시스템이 다양한 유형의 질문에 접근하는 방식에 대한 통찰을 얻을 수 있었습니다. [1]
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -247,7 +452,18 @@ HOLMES 시스템은 이 설명 가능성의 잠재력을 보여줍니다. 다양
 - 보다 큰 투명성과 설명 가능성 제공
 - 관련 정보에 중점을 두어 더 효율적으로 작동하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 발전은 자연어 처리 및 인공 지능 분야에 매우 중요한 영향을 미치고 있습니다. 더 강력한 질의응답 시스템은 다음을 향상시킬 수 있습니다:
 
@@ -264,7 +480,18 @@ HOLMES 시스템은 이 설명 가능성의 잠재력을 보여줍니다. 다양
 - 대화형 시스템: 하이퍼-관계 그래프를 통해 보다 동적이고 다중 턴의 질의응답 상호작용을 가능하게 할 수 있을까요?
 - 윤리적 고려사항: 이러한 시스템의 향상된 기능이 책임있게 사용되고 지식 표현의 잠재적 편향이 해결되는 방법은 무엇일까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 연구자들이 이러한 문제들을 계속 탐구함에 따라 한 가지는 분명합니다: 과잉관계 그래프는 다음 세대 지식 질문 응답 시스템에서 중요한 역할을 할 것으로 예상됩니다. 더 세밀하고 맥락적인 지식 표현을 제공함으로써, 이러한 그래프는 복잡한 주제에 대해 인간과 유사한 유연성과 심도로 추론할 수 있는 AI 시스템에 한 걸음 더 가까워지게 합니다.
 

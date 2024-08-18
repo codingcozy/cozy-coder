@@ -3,17 +3,13 @@ title: "Jetpack Compose로 텍스트 마스터하기 2024 최신 가이드"
 description: ""
 coverImage: "/assets/img/2024-07-10-MasteringTextinJetpackCompose_0.png"
 date: 2024-07-10 01:13
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-10-MasteringTextinJetpackCompose_0.png
 tag: Tech
 originalTitle: "Mastering Text in Jetpack Compose"
 link: "https://medium.com/proandroiddev/mastering-text-in-jetpack-compose-e99dbf031aed"
 isUpdated: true
 ---
-
-
-
-
 
 ## 간단한 문자열에서 풍부한 HTML로
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 오늘부로 이 모든 것이 바뀝니다! 마침내 콤포즈에서 직접 HTML을 렌더링할 수 있습니다. 이 보다는 간단한 추가가 우리를 지루한 수동 포맷팅이나 복잡한 텍스트 조작 라이브러리와 씨름하는 것에서 해방시켜 줍니다. HTML을 사용하면 사용자를 위한 풍부하고 매력적인 경험을 만들기 위해 잘 확립된 표준의 파워와 익숙함을 활용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사는 HTML 문자열 지원이 Jetpack Compose에서 개발자를 어떻게 지원하는지 탐구합니다. 이 새로운 기능의 기술적 세부 사항을 파헤치고, 실제 예제를 통해 그 잠재력을 소개하며, Jetpack Compose에서 UI 개발에 대한 더 넓은 함의를 논의하겠습니다.
 
@@ -47,7 +54,18 @@ Jetpack Compose는 이미 문자열 관리를 위한 견고한 기반을 제공�
     }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-10-MasteringTextinJetpackCompose_1.png)
 
@@ -61,7 +79,18 @@ We can easily extract strings like this:
 
 Although the AnnotatedString method worked well for simple text formatting, it had limitations as project complexity grew.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 접근 방식에는 세 가지 주요 단점이 있습니다:
 
@@ -73,11 +102,20 @@ Although the AnnotatedString method worked well for simple text formatting, it h
 
 이러한 제한 사항을 해결하기 위한 가능한 해결책은 문자열 자원 내에서 HTML 문자열을 사용하는 것입니다. 이 방법은 문자열 리소스 내에 HTML 코드를 포함하는 방식입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
     <string name="completed_text">This is a **styled** text.</string>
-
 
 그러나 이 방법은 Jetpack Compose와 직접 통합이 부족했습니다. UI 내에서 이러한 HTML 문자열을 구문 분석하려면 외부 라이브러리나 사용자 정의 논리가 필요하여 개발 프로세스에 복잡성이 추가되었습니다.
 
@@ -85,8 +123,18 @@ Although the AnnotatedString method worked well for simple text formatting, it h
 
 다행히도, Jetpack Compose foundation API의 새 버전은 HTML 렌더링에 대한 네이티브 솔루션을 제공합니다. 이 섹션에서는 구현 세부 정보를 탐색하고이 기능을 Compose 애플리케이션에 통합하는 방법을 보여줄 것입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글을 쓰는 시점에서 foundation API의 최신 베타 버전은 1.7.0-beta04입니다. 항상 최신 정보는 공식 문서를 참고해주세요.
 
@@ -103,15 +151,21 @@ androidx-foundation = { group = "androidx.compose.foundation", name = "foundatio
 최신 foundation 라이브러리 종속성이 추가되었으므로 이제 내장 HTML 구문 분석 기능을 활용할 수 있습니다. 이를 통해 사용자 정의 논리나 외부 라이브러리가 필요 없어졌습니다. 이 동작을 실습해보겠습니다:
 
 ```js
-Text(
-      text = AnnotatedString.fromHtml(
-        htmlString =
-          stringResource(id = R.string.completed_text)
-        )
-     )
+Text((text = AnnotatedString.fromHtml((htmlString = stringResource((id = R.string.completed_text))))));
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드 스니펫은 Compose 구성 요소 내에서 HTML 렌더링을 통합하는 방법을 보여줍니다. 우리는 AnnotatedString.fromHtml 확장 기능을 활용하여 원하는 HTML 문자열을 전달합니다. 이 함수는 HTML 콘텐츠를 구문 분석하고 해당하는 스타일이 적용된 AnnotatedString을 자동으로 생성합니다.
 
@@ -121,7 +175,18 @@ Text(
 
 ## HTML 문자열 내의 하이퍼링크 지원
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AnnotatedString.fromHtml의 아름다움은 기본적인 스타일링을 넘어 확장됩니다. 하이퍼링크에 대한 내장 지원도 제공합니다. HTML 문자열 내에서 링크를 정의하면 Compose에서 자동으로 처리해줍니다.
 
@@ -133,23 +198,29 @@ Markdown 형식 태그로 img 태그 변경:
 
 ```js
 Text(
-    text = AnnotatedString.fromHtml(
-      htmlString =
-      stringResource(id = R.string.completed_text),
-      linkStyles = TextLinkStyles(
-        style = SpanStyle(
-          textDecoration = TextDecoration.Underline,
-          fontStyle = FontStyle.Italic
-        )
-      )
-    )
-)
+  (text = AnnotatedString.fromHtml(
+    (htmlString = stringResource((id = R.string.completed_text))),
+    (linkStyles = TextLinkStyles(
+      (style = SpanStyle((textDecoration = TextDecoration.Underline), (fontStyle = FontStyle.Italic)))
+    ))
+  ))
+);
 ```
 
 이 HTML 문자열을 fromHtml을 사용하여 렌더링할 때 "link"라는 단어는 자동으로 클릭 가능한 요소로 처리됩니다. 사용자는 웹 브라우저에서 표준 하이퍼링크와 동일하게 상호작용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*JhhZcgi6X7jTmBtZa9TUYw.gif)
 
@@ -179,8 +250,18 @@ Text(
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*aA3yAB82ONpXjJTtE_Lm0A.gif)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -190,7 +271,18 @@ Text(
 
 요컨대, 젯팩 콤포즈에서의 HTML 렌더링은 아름답고 사용자 친화적인 UI를 빠르고 쉽게 구축할 수 있도록 해줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자유롭게 의견을 나누어 주세요. 혹은 원하신다면 LinkedIn에서 저에게 연락해주세요.
 

@@ -3,17 +3,13 @@ title: "DIY 카메라를 위한 사용자 인터페이스 만들기 쉽게 따�
 description: ""
 coverImage: "/assets/img/2024-06-22-MakingauserinterfaceforaDIYcamera_0.png"
 date: 2024-06-22 18:32
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-MakingauserinterfaceforaDIYcamera_0.png
 tag: Tech
 originalTitle: "Making a user interface for a DIY camera"
 link: "https://medium.com/@jdc-cunningham/making-a-user-interface-for-a-diy-camera-9c1bde515836"
 isUpdated: true
 ---
-
-
-
-
 
 면허 : 이 문서는 라즈베리 파이 관련 하드웨어, 파이썬 프로그래밍 언어 및 SPI 기반 디스플레이를 위한 것입니다. 이는 무작위 주제/생각들에 대한 머리 속 내용입니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![카메라 인터페이스 만들기](/assets/img/2024-06-22-MakingauserinterfaceforaDIYcamera_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-MakingauserinterfaceforaDIYcamera_1.png" />
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 주요 기능:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 라이브 카메라 미리 보기/통과
 - 크롭-줌 팬
@@ -48,7 +66,18 @@ isUpdated: true
 
 이 앞판에는 서로 다른 카메라 모듈이 장착되어 있습니다. 하단에는 v2 모듈(8MP)이 장착되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 The modular pi cam v2 version has swappable cameras and the largest display.
 
@@ -58,7 +87,18 @@ The modular pi cam v2 version has swappable cameras and the largest display.
 
 In this case, I am using a systemd service and threading for running things in parallel. A `main.py` script runs everything, for example, starts a thread to listen for button pushes, starts a picamera2 thread, etc…
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 메뉴 탐색
 
@@ -68,7 +108,18 @@ In this case, I am using a systemd service and threading for running things in p
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*t_j6NdMo8emURcyfhHOCxQ.gif" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 라즈베리 파이 제로 HQ 카메라는 배터리 프로파일러(단순히 sqlite에 작동 시간을 녹화하는 것)와 같이 여러 기능이 있습니다. Pi Zero HQ 카메라와 모듈러 Pi 카메라 v2는 18650 셀을 사용하여 약 6~7시간의 사용 시간을 제공하는 반면, 모듈러 Pi 카메라 v1(주황색)은 700mAh의 단일 셀 리포밧을 사용하여 2시간 이상 사용할 수 있습니다.
 
@@ -78,7 +129,18 @@ In this case, I am using a systemd service and threading for running things in p
 
 페이지에 무엇이 있는지와 해당 기능을 정의하기 위해 JSON 객체/딕셔너리를 사용할 수 있습니다. 이 기능은 아직 완성되지 않았습니다. 여러분은 이러한 카메라 기능을 섞어 사용하는 복합 소프트웨어를 만들어 UI를 변경하는 것에 대해 작업 중입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 좌표 시스템
 
@@ -88,7 +150,18 @@ In this case, I am using a systemd service and threading for running things in p
 
 # 실시간 패스스루
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-MakingauserinterfaceforaDIYcamera_4.png" />
 
@@ -98,11 +171,33 @@ In this case, I am using a systemd service and threading for running things in p
 
 저는 PIL을 사용하여 스프라이트(예: 기어 아이콘)를 가져와 Image Draw를 통해 기본 이미지 위에 붙이고 있습니다. 라이브 카메라 미리보기의 오버레이에 대해서도, 단순히 사진 위에 텍스트를 추가하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 Markdown 형식으로 변경해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 코드에서 카메라 설정을 변경할 수 있어요. 예를 들어 라이브 미리보기에는 작은 사진을 찍어요.
 
@@ -112,7 +207,18 @@ In this case, I am using a systemd service and threading for running things in p
 
 크롭-줌 팬은 더 큰 이미지의 일부를 보여줘요. 지금은 4배까지인데 16배까지로 갈 거예요. 초점을 확인하는 데 유용해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 전자 조리개
 
@@ -122,8 +228,18 @@ v3 카메라 모듈의 정말 멋진 기능 중 하나입니다. 코드를 통�
 
 오렌지 카메라에서는 사용 중인 값이 표시되도록 오버레이를 설정했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-06-22-MakingauserinterfaceforaDIYcamera_7](/assets/img/2024-06-22-MakingauserinterfaceforaDIYcamera_7.png)
 
@@ -133,8 +249,18 @@ v3 카메라 모듈의 정말 멋진 기능 중 하나입니다. 코드를 통�
 
 사실 이건 만들어 봤는데, 썸네일을 만드는 백그라운드 작업이 없어 로딩하는 데 시간이 걸려요. 그래도 아이디어를 보여주고 싶었어요.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Remote control](/assets/img/2024-06-22-MakingauserinterfaceforaDIYcamera_8.png)
 
@@ -142,7 +268,18 @@ v3 카메라 모듈의 정말 멋진 기능 중 하나입니다. 코드를 통�
 
 처음에는 블루투스(리액트 네이티브 앱)를 사용하여 이 기기를 만들어보려고 했지만 BL/BLE 부분을 해결하기가 어려웠어요. 그래서 대신 접속 지점 접근 방식으로 바꿨어요(RPi는 연결할 수 있는 WiFi이며 웹 앱을 호스팅합니다). 이 방법은 잘 작동하고 Bookworm OS(Debian)는 기본적으로 네트워크 관리자를 사용하며 핫스팟을 쉽게 열 수 있어요. 다만, 켜면 SSH 액세스가 없어지니(지금까지는) 소프트웨어에서 이를 끄는 방법이 필요할 거예요. 부팅 속도도 더 빨라졌어요. 그리고 카메라 화면을 스트리밍할 수 있고 포커스 조절 및 다른 기능을 수행할 수 있어요. 모듈러 파이 캠 v2에는 삼각대 나사 구멍(1-4/20)이 있어서 촬영할 때 카메라가 회전하는 현상을 줄일 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 타임랩스
 
@@ -152,7 +289,18 @@ v3 카메라 모듈의 정말 멋진 기능 중 하나입니다. 코드를 통�
 
 # 부정점
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최대 해상도는 12MP입니다. 좋은 렌즈와 함께 사용하면 꽤 좋습니다. 예를 들어 Canon FD 마운트를 통해 적용해보세요.
 
@@ -162,7 +310,18 @@ v3 카메라 모듈의 정말 멋진 기능 중 하나입니다. 코드를 통�
 
 # 샘플 사진
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 카메라들로 재미를 느끼고 있어요. 전문 카메라맨은 아니지만, 기본 사항은 할 수 있어요. 현재는 자동 설정을 사용하고 있어요. 나중에 그것에 대해 더 알아보기 전까지 자동 설정을 사용하고 있어요. ISO가 아니라 picamera2에서 등가이득 값을 사용하고 있어요.
 
@@ -172,8 +331,18 @@ v3 카메라 모듈의 정말 멋진 기능 중 하나입니다. 코드를 통�
 
 ![Image 3](/assets/img/2024-06-22-MakingauserinterfaceforaDIYcamera_12.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image 1](/assets/img/2024-06-22-MakingauserinterfaceforaDIYcamera_13.png)
 
@@ -183,7 +352,17 @@ v3 카메라 모듈의 정말 멋진 기능 중 하나입니다. 코드를 통�
 
 Full resolution links
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [테이블 레이아웃 변경]

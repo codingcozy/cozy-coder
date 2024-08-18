@@ -3,17 +3,13 @@ title: "데이터 분석에서 절대 빼먹으면 안 되는 것들"
 description: ""
 coverImage: "/assets/img/2024-06-23-WaitYouForgotSomethinginYourDataAnalysis_0.png"
 date: 2024-06-23 16:02
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-WaitYouForgotSomethinginYourDataAnalysis_0.png
 tag: Tech
 originalTitle: "Wait! You Forgot Something in Your Data Analysis!"
 link: "https://medium.com/@epiren/wait-you-forgot-something-in-your-data-analysis-5ecb36928e99"
 isUpdated: true
 ---
-
-
-
-
 
 대도시에서 배달 사업을 운영하는 소유자라고 상상해보세요. 귀하의 전달 직원은 모두 자전거를 타고 배달을 하고 있습니다. 자전거 사고로 발생하는 응급실 방문을 기반으로 한 연구 결과를 읽었습니다. "사이클링 중 부상을 입은 사람들의 데이터에 따르면, 헬멧을 착용한 사람 중 57%가 부상을 입었으며 착용하지 않은 사람은 43%입니다." 귀하의 직원들에게 어떤 것을 권장하겠습니까?
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 자, 충분합니다. 만약 하버드 대학의 맥마헌 박사가 자신의 연구로 인해 커피를 먹지 않는다면, 그에게 무언가가 있는 것이 분명합니다. 그렇죠?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 음…
 
@@ -33,9 +40,20 @@ Joseph Berkson은 1946년에 이 편향을 최초로 설명했으며, 과학자�
 
 ## 헬멧 착용은 안전합니다, 아이들여
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-픽셔널 자전거 헬멧 예시로, 자전거 타는 전체 인구 즉, 1,000명에 대해 알아볼게요. 더욱 명료하게 하기 위해 이를 점으로 나열해 볼게요:  
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+픽셔널 자전거 헬멧 예시로, 자전거 타는 전체 인구 즉, 1,000명에 대해 알아볼게요. 더욱 명료하게 하기 위해 이를 점으로 나열해 볼게요:
 
 - 자전거 타는 사람은 1,000명이에요.
 - 그 중 75%가 헬멧을 쓰고 있어요. 그렇게 되면 750명이 헬멧을 쓰고 있는 거죠.
@@ -53,7 +71,18 @@ Joseph Berkson은 1946년에 이 편향을 최초로 설명했으며, 과학자�
 
 ## Go Ahead and Drink Your Joe
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 커피와 췌장암에 관한 연구에 따르면, 연구자들은 연구 대상을 일반 대중이 아닌 위장 질환 클리닉에서 선정했습니다. 그들은 클리닉에서의 췌장암 환자를 선택하고, 다른 질환으로 클리닉에 있는 사람들과 매칭시켰습니다. 결과적으로, 췌장암을 앓는 사람들이 커피를 더 많이 마신다고 보고되었습니다. 다른 질환을 앓는 사람들은 더 적게 커피를 마셨습니다. 혹은, 편집장에게 보낸 편지 중 하나에서는 다음과 같이 언급되었습니다:
 
@@ -63,7 +92,18 @@ Joseph Berkson은 1946년에 이 편향을 최초로 설명했으며, 과학자�
 
 ## 무슨 일이 있는 걸까?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 건강 관련 분야에서 참가자를 모집하지만 연구 결과를 대중에 일반화하려고 하는 경우에는 이러한 한계가 있을 수 있습니다. 연구 대상이 특정 질병 또는 상태의 최악의 경우만 분석하는 경우, 결과를 일반화하기 어렵습니다. 그리고 원인과 결과를 연관시키지만 해당 원인에 노출된 전체 인구를 고려하지 않는다면 선택편향이 발생할 수 있습니다.
 
@@ -73,7 +113,18 @@ Joseph Berkson은 1946년에 이 편향을 최초로 설명했으며, 과학자�
 
 왼쪽에는 노출과 결과 사이의 약한 양의 상관 관계가 있습니다. 오른쪽에는 노출과 결과 사이의 강한 음의 상관 관계가 있습니다. 두 경우 모두 동일한 데이터 세트에서 나왔지만, 오른쪽의 경우에는 몇 가지 데이터 포인트가 누락된 선택 기준이 있었습니다. 사고 부상으로 응급실에 가지 않아도 되는 사람들이나 위장 증상으로 클리닉에 가야 하는 필요가 없는 사람들을 제외하는 경우, 연관성을 인위적으로 만들어낼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 그래서요?
 
@@ -83,6 +134,17 @@ Joseph Berkson은 1946년에 이 편향을 최초로 설명했으며, 과학자�
 
 만약 방금 읽은 내용이 마음에 들었고 일반적인 Medium 기사도 좋은데, 우리의 작업을 지원하고 싶다면 멤버십을 획득하고 우리의 작업을 지원해 보세요! 자세한 내용은 여기를 클릭해보세요: [https://epiren.medium.com/membership](https://epiren.medium.com/membership) 감사합니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 René F. Najera, MPH, DrPH은 공중보건 의사이자 역학학자이며, 아마추어 사진작가이자 러닝/사이클링/수영 애호가입니다. 그는 남편이자 아버지이며, "전반적으로 훌륭한 남자"로 알려져 있습니다. 그는 공중보건 센터의 소장으로 일하거나, 지역 타코 가게에서 타코를 먹거나, 버지니아 북부의 한 대학에서 교수로 재직하며, 거기서 국제 및 지역보건학부의 부교수로 지정된 세계 최고의 공중보건 학교에서 가르칩니다. 이 블로그 글의 모든 의견은 나회자 박사의 개인 의견이며, 그의 직장, 친구, 가족 또는 지인들의 의견을 반영하는 것은 아닙니다.

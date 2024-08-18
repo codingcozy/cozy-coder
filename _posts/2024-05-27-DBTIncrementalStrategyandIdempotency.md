@@ -3,17 +3,13 @@ title: "DBT 증분 전략과 동등성"
 description: ""
 coverImage: "/assets/img/2024-05-27-DBTIncrementalStrategyandIdempotency_0.png"
 date: 2024-05-27 12:53
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-DBTIncrementalStrategyandIdempotency_0.png
 tag: Tech
 originalTitle: "DBT Incremental Strategy and Idempotency"
 link: "https://medium.com/finatext/dbt-incremental-strategy-and-idempotency-877993f48448"
 isUpdated: true
 ---
-
-
-
-
 
 ![Screenshot](/assets/img/2024-05-27-DBTIncrementalStrategyandIdempotency_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 # Python으로 ETL
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 역사적으로 Nowcast에서는 ETL 파이프라인을 Python을 사용하여 작성했습니다. 이 파이프라인은 AWS S3, Athena, RDBMS 등에 저장된 데이터에 변환을 적용하는 많은 Python 스크립트로 구성되어 있었습니다. 우리는 이러한 스크립트를 포함하는 도커 이미지를 작성하여 ECR에 업로드하고, Airflow에서 ECS 작업을 호출했습니다. 이러한 스크립트는 보통 데이트와 같은 파티션 필드를 매개변수로 사용하여 멱등성이 있도록 설계되었습니다. 즉, 2024-01-01을 전달하면 2024-01-01의 데이터가 처리되었습니다.
 
@@ -36,7 +42,18 @@ python transform_data.py 2024-01-01 --some --other --arguments
 
 # Airflow
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Airflow은 Nowcast에서 많은 해동안 사용되어온 스케줄링 및 워크플로우 관리 도구입니다. 기본적으로 두 가지로 사용되고 있어요:
 
@@ -49,7 +66,18 @@ Airflow은 Nowcast에서 많은 해동안 사용되어온 스케줄링 및 워�
 
 2022년 말쯤 Python ETL 플로우를 Snowflake로 이전하기 시작했습니다. 그 결과 더 빠르고 저렴하며 깨끗한 파이프라인이 만들어졌어요. 우리는 파이프라인 실행 도구로 DBT를 사용하기로 결정했습니다 — DBT는 SQL 위에 위치한 레이어로 DB 모델 정의, 템플릿, 의존성 관리 및 데이터 회귀 테스트와 같은 다양한 기능을 포함하고 있어요. 빠르고 효율적으로 ETL 파이프라인을 구축하는 데 매우 유용한 도구입니다. 파이썬에서는 파이프라인의 각 변환을 스크립트로 작성하지만, DBT에서는 템플릿화된 SQL CTAS 쿼리로 작성됩니다. 이 쿼리들은 복잡한 수천 줄의 코드로 이루어진 스크립트와 비교했을 때 매우 읽기 쉽습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Best practise in DBT is to use Incremental Models:
 
@@ -70,7 +98,18 @@ select
 from { ref('external_table_transaction') }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드는 table external_table_transaction에서 거래 데이터를 불러오는 테이블을 만듭니다. 문제는이 쿼리를 다시 실행할 때마다 전체 테이블을 다시로드한다는 것입니다. 테이블에 데이터가 많아질수록 쿼리가 느려지고 비용이 많이 발생합니다. 이 문제의 해결책은 증분 모델을 사용하는 것입니다:
 
@@ -98,7 +137,18 @@ from { ref('external_table_transaction') }
 
 # 문제
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 점진적 모델은 매우 매력적입니다 — 수학적으로 아름답고 데이터 스트림을 다룰 때 매우 잘 작동합니다. 문제는 처리하려는 데이터를 제어해야 할 때 발생합니다 — 점진적 모델은 특정 파티션만 다시 실행할 수 없으며 대신에 증분 모델의 규칙에 따라 데이터를 로드합니다. 이론적으로는 문제가 되지 않을 수도 있지만, 점진적 모델이 이상적인 환경에서 실행된다면 모든 데이터가 정확히 한 번만 로드될 것입니다 — 하지만 현실은 복잡합니다 — DAG가 깨지고, 데이터가 늦게 전달되거나 아예 제공되지 않는 경우가 발생하며 때로는 역사적 기록을 다시 로드해야 할 때가 있습니다. 게다가 Airflow 파이프라인이 어떤 이유로든 실패할 경우 DBT 작업이 Airflow 실행과 동기화되지 않을 수 있습니다. Nowcast로 마이그레이션한 이후 DBT를 사용하면서 경험한 점진적 모델과 관련된 이슈 목록이 아래에 나와 있습니다:
 
@@ -110,7 +160,18 @@ from { ref('external_table_transaction') }
 
 # 동형성(idempotency) 및 분할의 중요성.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 점진적 모델의 주요 문제는 이 모델이 멱등성을 갖지 않으며 특정 파티션에 대해 실행 구성이 불가능하다는 것입니다. 우리가 ETL 파이프라인에 대해 예전에 채택한 방식은 멱등 스크립트가 여러 번 다시 실행할 수 있는 횟수에 제한이 없는 것이었습니다. 과거 데이터에 문제가 발생하면 특정 파티션을 다시 생성할 수 있었고, 스크립트가 멱등성을 가졌기 때문에 특정한 날짜를 여러 번 실행해도 문제가 발생하지 않았습니다. 하지만 점진적 모델은 데이터의 특정 파티션을 다시 실행할 수 있는 능력이 없으며, 대신 모든 데이터를 스트림처럼 처리하여 보지 않은 데이터만을 로드합니다. 다시 말해 특정 규칙을 충족하는 데이터를 로드하는 것이죠.
 
@@ -120,7 +181,18 @@ from { ref('external_table_transaction') }
 
 점진적 모델의 한계에 대해 논평한 댓글에서는:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단히 말하면 - Airflow와 같은 일정 관리 도구를 사용할 때 시간 분할을 기대하는 경우, 점진적 모델이 잘 작동하지 않습니다.
 
@@ -153,7 +225,18 @@ from { ref('external_table_transaction') }
 {- endif }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 DBT 모델에 `target_date`라는 새 매개변수를 추가합니다. `target_date`가 정의되지 않은 경우 모델은 증분 동작으로 실행되지만, 변수가 전달된 경우 지정된 파티션에 대해 실행됩니다. 이 모델 구조화 방식은 Airflow에서 호출될 때 훨씬 더 잘 작동합니다.
 
@@ -165,7 +248,18 @@ from { ref('external_table_transaction') }
 dbt run --select my_model
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 명시적으로 새로 고침을 실행하면 대량 적재가 발생합니다:
 
@@ -179,7 +273,18 @@ dbt run --select my_model --full-refresh
 dbt run --select my_model  --vars "{target_date : '2024-01-01'}"
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 Airflow가 전달되는 날짜 매개변수를 제어할 수 있는 명령으로 돌아왔어요. 이렇게 하면 훨씬 더 부드러운 통합이 가능해요!
 
@@ -190,7 +295,18 @@ dbt run --select my_model  --vars "{target_date : '2024-01-01'}"
 DBT — 증분성의 한계에 대해
 Medium — DBT와 Airflow를 사용한 멱등데이터 파이프라인
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Nowcast의 엔지니어링
 

@@ -3,7 +3,7 @@ title: "미아의 디자인이 완료될 때까지 대량 생산을 위한 디�
 description: ""
 coverImage: "/assets/img/2024-07-07-UntilMiasdesignwascompletedwithaneyetowardmassproduction_0.png"
 date: 2024-07-07 22:38
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-UntilMiasdesignwascompletedwithaneyetowardmassproduction_0.png
 tag: Tech
 originalTitle: "Until Mia’s design was completed: with an eye toward mass production"
@@ -11,20 +11,26 @@ link: "https://medium.com/@kazutaka.yoshinaga/until-mias-design-was-completed-wi
 isUpdated: true
 ---
 
-
-
-
-
 ![image](/assets/img/2024-07-07-UntilMiasdesignwascompletedwithaneyetowardmassproduction_0.png)
 
 # 소개
 
-미아의 몸을 디자인하기 시작할 때, 시행착오를 거치며 3D 프린터를 사용했어요. 하지만  귀여운 디자인을 얻지 못했고 한계에 부딪힌 느낌을 받았어요.
+미아의 몸을 디자인하기 시작할 때, 시행착오를 거치며 3D 프린터를 사용했어요. 하지만 귀여운 디자인을 얻지 못했고 한계에 부딪힌 느낌을 받았어요.
 
 그때 원형을 프로토타입으로 제작하면서 참고했던 디자인입니다. 현재의 미아보다 2배에서 3배 정도 크고 전혀 귀엽지 않았어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-07-07-UntilMiasdesignwascompletedwithaneyetowardmassproduction_1.png)
 
@@ -34,8 +40,18 @@ Mr. Inada is a designer who is also good at creating his own home appliances and
 
 [Inada's Profile](https://www.javasparrow.tokyo/)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사내 제품: 빛에 연결된 IoT 조명 "design"
 고객 작업 (디자인): 자동으로 열리고 닫히는 쓰레기통 ZitA SQUARE
@@ -48,7 +64,18 @@ Mr. Inada is a designer who is also good at creating his own home appliances and
 Yoshinaga
 제게서 처음 요청을 받았을 때 어떤 느낌이 드셨나요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Inada.
 그렇지. 어쨌든, 제품을 가장 빠른 경로로 출시할 의지를 강하게 느꼈어요. 그래서 디자인을 어디에 가장 짧게 배치할지에 초점을 맞추기로 결정했어요.
@@ -59,7 +86,18 @@ Inada.
 
 그러므로 미아의 눈이 들어가는 앞면은 평평하게 유지되어야 하기 때문에, 앞면 디자인을 유지하면서 무엇을 할 수 있는지에 대해 고려하기 시작했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 실루엣부터 시작했어요. 요시나가 씨가 처음에 만든 실루엣이 여기에 나와 있습니다 (아래 그림에서 왼쪽). 너무 귀여워보였지만 조금 더 귀여움을 더하고 싶을 때, 더 고양이 같은 삐쭉한 것을 표현할 수 있을지 궁금했어요. 그래서 새로운 실루엣을 제안했어요 (아래 그림에서 오른쪽).
 
@@ -69,7 +107,18 @@ Inada.
 
 # 디자인 단계에서 합리적인 보드 구성을 제안해봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Inada.
 또 하나 우리가 한 일은 설계 단계에서 합리적이지 않은 기판 구성을 제안한 것입니다.
@@ -80,8 +129,18 @@ Inada.
 
 ![이미지](/assets/img/2024-07-07-UntilMiasdesignwascompletedwithaneyetowardmassproduction_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-07-UntilMiasdesignwascompletedwithaneyetowardmassproduction_6.png)
 
@@ -92,8 +151,18 @@ Yes, I think so. By making the substrate perpendicular to the bottom, I think it
 
 ![image](/assets/img/2024-07-07-UntilMiasdesignwascompletedwithaneyetowardmassproduction_8.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-07-UntilMiasdesignwascompletedwithaneyetowardmassproduction_9.png)
 
@@ -104,7 +173,18 @@ Yes, I think so. By making the substrate perpendicular to the bottom, I think it
 
 mia를 가능한 한 더욱 둥글게 만들고 싶었지만, Fusion360이라는 3D CAD 소프트웨어에서 파일렛 및 기타 방법을 사용해보았지만, 전면 프로필의 곡률로 인해 전체 표면을 파일렛으로 완전히 둥글게 만드는 능력이 제한되어 포기할 뻔 했었습니다. 저는 포기하려 했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이나다.
 여기에서는 실제로 아주 노련하게 작업하고 있습니다. 퓨전360이 할 수 없는 방법을 사용해요.
@@ -116,8 +196,18 @@ mia를 가능한 한 더욱 둥글게 만들고 싶었지만, Fusion360이라는
 요시나가.
 맞아요. 퓨전360으로 만든 것과 비교하면 전혀 다른 세계에요. 완성품을 보았을 때, 3D CAD로 얼마나 많이 표현할 수 있는지 놀라웠던 기억이 나네요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image 1](/assets/img/2024-07-07-UntilMiasdesignwascompletedwithaneyetowardmassproduction_10.png)
 
@@ -127,16 +217,36 @@ mia를 가능한 한 더욱 둥글게 만들고 싶었지만, Fusion360이라는
 
 # How to make it look less like a machine
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인아다
 처음에는 미아의 베이스 밑에서 발이 조금 보였지만, 더 기계적이지 않은 모습을 만드는 것도 중요하다고 생각했기 때문에 결과적으로 앞에서 발이 보이지 않도록 만들었습니다.
 
 이렇게 함으로써, 미아의 귀여움을 방해하지 않는 디자인을 만들 수 있었던 것 같아요. 아마도 이 모든 것의 주제는 "귀여움을 방해하지 않기" 인 것 같아요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image 1](/assets/img/2024-07-07-UntilMiasdesignwascompletedwithaneyetowardmassproduction_15.png)
 
@@ -147,8 +257,18 @@ mia를 가능한 한 더욱 둥글게 만들고 싶었지만, Fusion360이라는
 Yoshinaga.
 I also considered the angle of Mia.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이나다.
 네, 맞아요. 처음에는 책상의 각도를 7도로 설정했었는데, 실제 사용 상황을 고려해보니 많은 경우 사용자들이 미아를 자리에 놓고 자신의 작업실에서 의자에 앉아 있을 때, 미아를 위에서 내려다보는 듯한 느낌을 받을 것 같았어요.
@@ -160,7 +280,18 @@ I also considered the angle of Mia.
 
 ![image](/assets/img/2024-07-07-UntilMiasdesignwascompletedwithaneyetowardmassproduction_18.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 맞춤화 가능한 클리어 패널들
 
@@ -169,6 +300,5 @@ Inada.
 
 Yoshinaga.
 처음에 우리는 지방 특산물(예를 들어, 青森사과나 山梨포도)을 3D 프린터를 사용해 Mia의 귀에 부착할 수 있게 하는 것이 좋을 것 같다고 생각했어요. 이와 같은 아이디어도 떠올랐어요. 그러나, ...
-
 
 자세한 내용은...

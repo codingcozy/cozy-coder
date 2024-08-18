@@ -3,17 +3,13 @@ title: "ESA, 세계 최초의 금속 3D 프린팅 성공 우주정거장에서�
 description: ""
 coverImage: "/assets/img/2024-06-23-ESAAchievesHistoricWorlds1stMetal3DPrintingonSpaceStation_0.png"
 date: 2024-06-23 17:28
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-ESAAchievesHistoricWorlds1stMetal3DPrintingonSpaceStation_0.png
 tag: Tech
 originalTitle: "ESA Achieves Historic World’s 1st Metal 3D Printing on Space Station"
 link: "https://medium.com/@myelectricsparks3306/esa-achieves-historic-worlds-1st-metal-3d-printing-on-space-station-7218c4a3d324"
 isUpdated: true
 ---
-
-
-
-
 
 ![ESA](/assets/img/2024-06-23-ESAAchievesHistoricWorlds1stMetal3DPrintingonSpaceStation_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 3D 금속 프린팅은 2024년 5월 30일에 이루어졌으며, 액체 스테인레스 스틸로 작은 S자 형태를 만들었습니다. 이 성취는 ESA가 우주에서 폐기된 위성 부품과 다른 우주 폐기물을 3D 프린팅 기술을 통해 새로운 유용한 재료로 재활용하는 것을 목표로 하는 대담한 계획의 중요한 한걸음입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 우주에서 금속 3D 프린팅의 중요성
 
@@ -33,7 +40,18 @@ ISS에서는 장시간 동안 플라스틱 기반 3D 프린터가 사용되어 �
 
 금속 3D 프린터는 2024년 1월 30일에 SpaceX 파이콘 9 로켓에 의해 발사된 Cygnus NG-20 미션을 통해 ISS로 여정을 떴습니다. 약 180kg(396파운드)의 무게를 갖는 이 프린터는 ESA 우주비행사 안드레아스 모겐센에 의해 ISS의 콜럼버스 모듈에 신중히 설치되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또 읽기: 일본, 우주로 사람을 태우는 96,000km의 우주 엘리베이터 건설 중
 
@@ -43,7 +61,18 @@ ISS에서는 장시간 동안 플라스틱 기반 3D 프린터가 사용되어 �
 
 # 첫 번째 성공적인 인쇄
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 S 모양 곡선의 성공적인 출력은 프린터가 기능적인 부품을 생산할 수 있는 능력을 입증합니다. ESA의 기술 책임자인 Rob Postema에 따르면, 이 초기 성공은 프린터가 곧 미래에 더 복잡하고 유용한 구성품을 제조하기 시작할 수 있도록 준비된 상태임을 보여줍니다. 인쇄된 S자 모양과 다른 기준 선들은 기술이 실용적인 응용에 준비되었음을 의미합니다.
 
@@ -53,7 +82,18 @@ S 모양 곡선의 성공적인 출력은 프린터가 기능적인 부품을 �
 
 또한, 일본이 상용 우주 임무를 위한 소화물 시축 연료를 성공적으로 생산했다고 보도됐습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 지속 가능한 우주 경제 구축하기
 
@@ -63,7 +103,18 @@ ESA는 미래에 3D 프린팅 기술이 지구에서 대체 부품을 발사하�
 
 이 구상의 성공은 다양한 기관들의 협력 노력에 기인합니다. Airbus Defence and Space SAS가 주도하는 산업 팀은 중요한 역할을 하였으며, 프랑스의 CADMOS 사용자 지원 센터는 지상에서 프린팅 작업을 감독했습니다. 또한 ESA의 헌신적인 팀 또한 이 역사적인 성취에 상당한 기여를 했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 연구 및 개발의 역할
 
@@ -73,7 +124,18 @@ ESA는 미래에 3D 프린팅 기술이 지구에서 대체 부품을 발사하�
 
 우주에서 금속 부품을 제조할 수 있는 능력은 미래 미션에 대한 다양한 가능성을 열어줍니다. 위성 부품, 거주 모듈, 심지어 우주선 부품 등과 같이 더 복잡한 구조물 개발에 이를 수 있습니다. 이 능력은 특히 지구로부터의 보급이 불가능한 확장된 기간 미션, 예를 들어 화성 이상의 계획된 미션에서 매우 중요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한 읽기: 중국 과학자들이 초음속 우주 비행기 발사를 위한 거대 전자기 실내포 사격 관 개발 중
 

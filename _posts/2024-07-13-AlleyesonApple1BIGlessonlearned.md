@@ -3,17 +3,13 @@ title: "애플에서 배운 1가지 중요한 교훈"
 description: ""
 coverImage: "/assets/img/2024-07-13-AlleyesonApple1BIGlessonlearned_0.png"
 date: 2024-07-13 23:57
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-AlleyesonApple1BIGlessonlearned_0.png
 tag: Tech
 originalTitle: "All eyes on Apple — 1 BIG lesson learned!"
 link: "https://medium.com/macoclock/all-eyes-on-apple-1-big-lesson-learned-77c0707015fa"
 isUpdated: true
 ---
-
-
-
-
 
 이미지를 Markdown 형식으로 변경해주세요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 준비 상태
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 모두가 미리 예상했던 대로, 흥분할 만한 것이 그리 많지 않았었지만, 나는 흥분하고 싶었다. 나는 수년간 사과 팬이었고, 더 이상 기억하고 싶지 않은 만큼의 맥과 아이폰을 소유했다. 나는 애플의 생태계, 애플의 세계에 투자했고, 그들이 최고로 잘하는 것을 원한다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 하지만 그들이 아름다운 만큼, 어떤 부분에서는 무언가가 부족하다. 나중에 특정 이벤트에 대해 이야기하겠지만, 아마도 이번 이벤트를 향한 나의 심정, 아니면 같은 이유로 당신또한 기대감이 떨어진 것은 우리가 미리 많은 것을 알기 때문일지도 모른다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 역시 어느 정도 책임이 있습니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 하지만 정말 그럴까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이번에 유출된 영상들은 대단히 인기가 많아 수백만 명의 사람들이 시청했는데, 분명히 그에 대한 수요가 있다는 것을 알 수 있어요. 하지만 우리가 그들을 얼마나 좋게 평가하는지에 비해 그들이 정말 그만한 가치가 있는 것인지 — 아니면 Apple이 항상 한 발 앞서 있는 것일지 의심스러운 부분이 있어요.
 
@@ -51,7 +80,18 @@ isUpdated: true
 
 올해 초, Apple은 다시 한 번 그런 일을 해냈어요 — 이번에는 Apple Vision Pro를 소개했죠. 그 프로젝트에 관여한 사람들이 10년에서 15년 동안 개발해 왔을 텐데, 유출이 하나도 없었어요. 대형 Apple 채널들 중 한 곳도 이름을 제대로 알지 못했죠 — 우리는 그것에 대해 아무것도 몰랐어요. 이름조차 모르고 외형조차 모르고요. 우리는 기능에 대해 약간의 아이디어만 있었죠. Apple은 자신들의 인지도를 높이기 위해 정보를 조금씩 공개하지만, 그들은 항상 통제하고 있답니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리커들이 발견했다고 주장하는 보석들은 사실 애플이 공개하길 원했던 이야기들입니다. 기억하세요, 그들은 PR 마스터들이에요. 애플에게 이득이 되는 상황입니다. 무료 홍보가 대량으로 이뤄지는 거죠!
 
@@ -61,7 +101,18 @@ isUpdated: true
 
 애플이 다시 한 번 승리했습니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그들이 해야 했던 일은 더 좋은 줌 렌즈에 대한 약간의 정보를 누설하는 것뿐이었죠 — 그리고 그 루머가 불이 붙듯 퍼지도록 내버려 둘 뿐이었습니다. 큐퍼티노 사람들의 얼굴에 그 미소를 상상해보세요!
 
@@ -71,7 +122,18 @@ isUpdated: true
 
 아이폰에 관한 것은 그것을 통제하기가 훨씬 어렵습니다. 여름에 애플은 케이스 제조업체에 CAD 파일을 보내어 9월에 수요 충족을 위한 충분한 케이스 공급이 되도록 보장합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 제품 설명서를 기반으로 케이스 제조업체는 더미를 만들며, 우리가 동영상에서 보는 것이 바로 그 더미들입니다. 하지만 Apple이 얼마나 웰오일된 기업인지 간과해서는 안 됩니다. 만약 유출에도 불구하고 CADS를 처음부터 발송하는 것이 합리적이라고 판단하지 않았다면, Apple은 미리 이를 중지했을 것입니다. 이야기의 주제는 항상 Apple이 모든 것을 통제한다는 것입니다.
 
@@ -81,7 +143,18 @@ isUpdated: true
 
 더 많은 증거가 필요하다면, 새로운 iPhone 15 Pro Max를 방금 주문했습니다. 제품들을 좋아합니다. 하지만 이 이벤트는 조금 이상했습니다. 개막식이 너무 오래 이어지고 너무 자기 선판을 칭찬했습니다. 그것은 6분 동안의 자화자찬이었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-07-13-AlleyesonApple1BIGlessonlearned_4.png](/assets/img/2024-07-13-AlleyesonApple1BIGlessonlearned_4.png)
 
@@ -91,7 +164,18 @@ isUpdated: true
 
 ![2024-07-13-AlleyesonApple1BIGlessonlearned_5.png](/assets/img/2024-07-13-AlleyesonApple1BIGlessonlearned_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 첫 30분 동안 애플은 오직 한 기기에 대해 언급했어요 — 애플 워치 시리즈 9죠. '새로운' 핀치 기능에 대해 언급했지만, 사실 접근성 설정에서 오랜 기간 사용 중이던 기능이에요.
 
@@ -101,7 +185,18 @@ isUpdated: true
 
 40분이 지난 후에 우리는 드디어 아이폰 15 및 15 Plus로 진입했고, 첫 네 글자라는 그것 — USB-C!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 타이밍이 굉장히 중요했습니다. 그들은 손을 강제로 행동해야만 했던 것처럼 보이지 않게 하기 위해 마지막 순간까지 기다리지 않고 조금 더 능동적으로 USB-C를 도입했습니다. 이렇게 하면, 그들이 스스로 선택한 것으로 보였죠. 그리고 우리에게 'USB-C는 애플 기기에 옛날부터 있었다'라는 사실을 상기시켜 주었죠. AirPods Pro 2 케이스의 새로운 포트는 거의 언급되지 않았는데요 — iPhone 15 뉴스 중에 덩달아 소개된 정도였습니다.
 
@@ -111,7 +206,18 @@ isUpdated: true
 
 iPhone 15와 15 Plus는 멋진 핸드폰 같지만 어떤 측면에서는 조금 더 가벼운 iPhone 14 Pro입니다 — 올해의 현재 Pro 라인업에서 적응된 제품들입니다 — 줌 렌즈 없이 그리고 120Hz 디스플레이 제외하고요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Apple — 언제나 통제하고 있어
 
@@ -121,7 +227,18 @@ iPhone 15와 15 Plus는 멋진 핸드폰 같지만 어떤 측면에서는 조금
 
 ![Apple](/assets/img/2024-07-13-AlleyesonApple1BIGlessonlearned_8.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 애플이 이번 행사를 앞두고 우리가 받는 정보에 완전한 통제를 하지 않았을 거라는 믿음은 날 설득할 수 없어요. 항상 우리의 흥미를 유지하기에 충분한 정보는 있었지만, 파티를 망치기에는 아직 조금 부족했죠.
 
@@ -131,7 +248,18 @@ iPhone 15와 15 Plus는 멋진 핸드폰 같지만 어떤 측면에서는 조금
 
 모든 행사가 WWDC만큼 혁신적이고 밀집된 것은 아니에요. 그런 종류의 장치는 매우 드물게 등장해요 — 그걸 알아요. 하지만 이번 행사를 평가하는 기준은 아니에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Wonderlust가 좀 길을 잃은 것 같아요 — 다시 제대로 돌려놓을 사람이 필요한 것 같아요. 이 이벤트에 새로운 바람을 불어 넣을 사람이 필요하죠. 문제의 일부분은 녹화된 이벤트가 너무 평범하다는 거일 수도 있어요.
 
@@ -141,7 +269,18 @@ Wonderlust가 좀 길을 잃은 것 같아요 — 다시 제대로 돌려놓을 
 
 Apple은 뛰어난 제품을 상상하고 만들고 개발하는 방법 뿐만 아니라 항상 그것들을 전달하는 방법도 잘 알고 있어요. 이번 이벤트에서는 조금 문제가 있었네요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신이 아시다시피 — 변화는 휴식만큼이나 좋다고 합니다. 혹시 이제는 조금 새로운 시도를 해 볼 때가 된 걸지도 몰라요. 과거의 실수에서 배우고, 소리에 귀 기울여보세요.
 

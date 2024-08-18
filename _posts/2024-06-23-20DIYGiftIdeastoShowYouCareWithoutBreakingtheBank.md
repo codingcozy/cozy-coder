@@ -3,18 +3,13 @@ title: "마음을 전할 수 있는 20개 이상의 저렴한 DIY 선물 아이�
 description: ""
 coverImage: "/assets/img/2024-06-23-20DIYGiftIdeastoShowYouCareWithoutBreakingtheBank_0.png"
 date: 2024-06-23 17:55
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-20DIYGiftIdeastoShowYouCareWithoutBreakingtheBank_0.png
 tag: Tech
 originalTitle: "20+ DIY Gift Ideas to Show You Care (Without Breaking the Bank)"
 link: "https://medium.com/universal-publication/20-diy-gift-ideas-to-show-you-care-without-breaking-the-bank-fe1bbe845510"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![Image](/assets/img/2024-06-23-20DIYGiftIdeastoShowYouCareWithoutBreakingtheBank_0.png)
 
@@ -24,8 +19,18 @@ Here are over 20 DIY gift ideas for your boyfriend, girlfriend, father, mother, 
 
 For Your Boyfriend or Girlfriend:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - **개인화된 사진 앨범:** 즐겨 찍은 사진을 모아 맞춤형 사진 앨범을 만들어보세요. 손글씨 캡션이나 농담을 적어 완성도를 높일 수도 있어요.
 
@@ -35,7 +40,18 @@ For Your Boyfriend or Girlfriend:
 
 ![Handmade Candles](/assets/img/2024-06-23-20DIYGiftIdeastoShowYouCareWithoutBreakingtheBank_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 커스텀 플레이리스트: 당신의 관계에 특별한 의미를 갖거나 공유 경험을 상기시키는 노래로 플레이리스트를 만들어보세요.
 
@@ -45,7 +61,18 @@ For Your Boyfriend or Girlfriend:
 
 ![이미지](/assets/img/2024-06-23-20DIYGiftIdeastoShowYouCareWithoutBreakingtheBank_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 홈메이드 발터프: 에센셜 오일과 천연 재료를 사용하여 홈메이드 발터프를 만들어 편안한 목욕 경험을 선사해보세요.
 
@@ -55,8 +82,18 @@ For Your Boyfriend or Girlfriend:
 
 - 가족 사진 콜라주: 가족 사진, 옛 표 스텁 또는 다른 의미 있는 항목을 사용하여 함께 보낸 시간을 보여주는 콜라주를 만들어보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Scrapbook of Memories](/assets/img/2024-06-23-20DIYGiftIdeastoShowYouCareWithoutBreakingtheBank_6.png)
 
@@ -66,9 +103,18 @@ For Your Boyfriend or Girlfriend:
 
 - 개인 맞춤형 사진액자: 특별한 사진을 함께 액자에 넣고, 액자를 페인트, 데쿠파지, 또는 다른 장식품으로 꾸며보세요.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image 1](/assets/img/2024-06-23-20DIYGiftIdeastoShowYouCareWithoutBreakingtheBank_8.png)
 
@@ -78,9 +124,18 @@ For Your Boyfriend or Girlfriend:
 
 - 작은 허브 정원 심기: 만약 부모님이 가드닝을 즐기시면, 내내 키워나갈 수 있는 작은 허브 정원을 선물해 보세요.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image 1](/assets/img/2024-06-23-20DIYGiftIdeastoShowYouCareWithoutBreakingtheBank_10.png)
 
@@ -90,8 +145,18 @@ For Your Teacher:
 
 ![Image 2](/assets/img/2024-06-23-20DIYGiftIdeastoShowYouCareWithoutBreakingtheBank_11.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 꾸미기 펜 홀더: 페인트, 천, 또는 데쿠파지로 평범한 펜 홀더를 장식하여 독특하고 실용적인 선물로 만들어보세요.
 
@@ -101,7 +166,18 @@ For Your Teacher:
 
 ![이미지](/assets/img/2024-06-23-20DIYGiftIdeastoShowYouCareWithoutBreakingtheBank_13.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 개인화된 교사용 플래너: 스티커, 와시 테이프 및 격려 인용구로 맞춤 플래너를 만들어보세요.
 
@@ -111,7 +187,18 @@ For Your Teacher:
 
 ![이미지](/assets/img/2024-06-23-20DIYGiftIdeastoShowYouCareWithoutBreakingtheBank_15.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모두를 위해:
 
@@ -121,8 +208,18 @@ For Your Teacher:
 
 - 손으로 쓴 편지: 진심을 다해 감사와 사랑을 표현하는 따뜻한 편지를 쓰는 시간을 가져보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![DIY Spa Kit](/assets/img/2024-06-23-20DIYGiftIdeastoShowYouCareWithoutBreakingtheBank_17.png)
 
@@ -132,9 +229,18 @@ For Your Teacher:
 
 - Embroidered Throw Pillow: Design and sew a custom throw pillow with their initials or a meaningful quote.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-23-20DIYGiftIdeastoShowYouCareWithoutBreakingtheBank_19.png)
 
@@ -144,8 +250,18 @@ For Your Teacher:
 
 성공을 위한 팁:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 그들의 관심사와 성격을 반영하는 선물을 선택하세요.
 - 독특한 감성을 넣어도 괜찮아요.

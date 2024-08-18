@@ -3,18 +3,13 @@ title: "도시 개발에서의 IoT 역할 스마트 홈부터 스마트 시티�
 description: ""
 coverImage: "/assets/img/2024-06-19-TheRoleofIoTinUrbanDevelopmentSpansfromSmartHomestoSmartCities_0.png"
 date: 2024-06-19 16:54
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-TheRoleofIoTinUrbanDevelopmentSpansfromSmartHomestoSmartCities_0.png
 tag: Tech
 originalTitle: "The Role of IoT in Urban Development Spans from Smart Homes to Smart Cities"
 link: "https://medium.com/@ieeewiesusl/the-role-of-iot-in-urban-development-spans-from-smart-homes-to-smart-cities-573bab6917b0"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![Image](/assets/img/2024-06-19-TheRoleofIoTinUrbanDevelopmentSpansfromSmartHomestoSmartCities_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 도시에서의 생활은 전 세계적으로 더 인기를 끌고 있습니다. 지금은 옛날보다 더 많은 사람들이 도시에서 살고 있습니다. 그러나 이 모든 사람들과 함께 일부 문제들이 발생하는데, 너무 많은 교통, 더러운 공기, 잘 작동하지 않는 오래된 건물과 도로 등이 그 중 하나입니다. 다행히도 인터넷의 사물인터넷(IoT)이 도와줍니다. 도시는 IoT로 변화하고 있습니다. 교통 체증, 더러운 공기, 오래된 건물 및 도로와 같은 문제를 해결하는 데 도움이 됩니다. 차가 많으면 교통이 움직일 수 있도록 교차로 신호등이 빠르게 바뀌는 등, IoT가 할 수 있는 것들을 상상해 보세요!
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 스마트 홈
 
@@ -35,7 +40,18 @@ Alexa나 Google 어시스턴트와 같은 스마트 어시스턴트도 있어요
 
 ## 스마트 인프라 구축
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도시가 성장함에 따라 모든 사람, 교통 및 건물을 효율적으로 관리하는 더 스마트한 방법이 필요합니다. 여기서 IoT가 필요합니다. 도로에 장착된 IoT 센서는 교통 흐름, 차량 속도 및 혼잡 수준을 모니터링합니다. 이 실시간 데이터를 활용하여 교통 관리 시스템은 신호 조절, 차선 이용 제한 및 디지털 간판 또는 모바일 앱을 통한 대체 경로 제안을 조정할 수 있습니다. 혼잡을 줄이고 교통 흐름을 개선함으로써 도시는 지연을 완화하고 배출량을 줄이며 교통 네트워크의 전반적인 효율성을 향상시킬 수 있습니다. 다리 및 다른 인프라 자산에 설치된 센서는 진동, 온도 및 구조 무결성과 같은 요소를 지속적으로 모니터링합니다.
 
@@ -45,7 +61,18 @@ Alexa나 Google 어시스턴트와 같은 스마트 어시스턴트도 있어요
 
 ## 공공 서비스 향상
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 IoT 기술은 공공 서비스를 혁신하여 더 효율적이고 경제적이며 시민 중심적으로 만들고 있습니다. 폐기물함에 설치된 센서는 쓰레기의 양을 측정하여 폐기물 관리 회사가 수거 경로와 일정을 최적화할 수 있게 합니다. 폐기물함이 가득 찼을 때에만 쓰레기를 수거함으로써 도시는 불필요한 출장을 줄이고 연료를 절약하며 환경 영향을 최소화할 수 있습니다. 또한, IoT 센서는 위험 물질이나 불법 투기를 감지하여 당국이 신속하고 적절히 대응할 수 있도록 도와줍니다.
 
@@ -55,7 +82,18 @@ IoT를 활용한 가로등은 주변 밝기와 보행자 활동에 따라 밝기
 
 또한, 비상 대응 요원이 착용하는 웨어러블 IoT 장치는 중요한 건강 및 위치 정보를 제공하여 위험한 상황에서의 안전을 보장합니다. IoT는 대중 서비스에 대한 시민 참여를 촉진합니다. 상호 작용 가능한 플랫폼과 모바일 앱을 통해 시민들은 도로나 거리조명 등의 문제를 당국에 직접 신고하여 도시 인프라 유지에 대한 공동 소유 의식과 협력을 육성할 수 있습니다. 도시 개발에 IoT를 구현하는 도전과 고려사항은 도시를 혁신할 가능성이 있지만 중요한 도전과 함께 발생합니다. 보안 및 개인 정보 보호 문제, 상호 운용성 문제 및 디지털 격차는 주요 극복해야 할 장애물 중 하나입니다. 개인 정보 보호와 개인 정보 보호는 중요합니다. 완벽한 시스템을 만들기 위해 다양한 제조업체의 장치 간의 상호 운용성을 보장하는 것이 필수적입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한, 모든 사람이 IoT 기술에 동일한 접근 권한을 가지고 있지 않아 디지털 격차가 생기고 있습니다. 디지털 리터러시를 증진하고 모든 주민들이 공평하게 IoT 기술에 접근할 수 있도록 하는 것은 모든 주민들이 혜택을 받는 포괄적인 스마트 시티를 구축하는 데 중요합니다. 더불어, IoT의 환경 영향, 즉 전자 폐기물과 에너지 소비도 신중하게 관리되어야 합니다. IoT 데이터와 장치 사용을 규제하기 위한 명확한 규칙과 규정을 수립하는 것은 공정과 일관성을 유지하는 데 중요합니다. 이러한 도전에 대처함으로써, 모든 주민들의 삶을 개선하는 보다 스마트하고 포괄적인 도시를 만들 수 있습니다.
 

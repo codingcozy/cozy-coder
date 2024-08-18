@@ -3,17 +3,13 @@ title: "프론트엔드 초보 개발자를 위한 JavaScript JSON 정리"
 description: ""
 coverImage: "/assets/img/2024-07-28-AllAboutJavaScriptJSONforBeginners_0.png"
 date: 2024-07-28 14:07
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-28-AllAboutJavaScriptJSONforBeginners_0.png
 tag: Tech
 originalTitle: "All About JavaScript JSON for Beginners"
 link: "https://medium.com/@sarahisdevs/all-about-javascript-json-for-beginners-72346b9d5063"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-07-28-AllAboutJavaScriptJSONforBeginners_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## JavaScript JSON이란 무엇인가요?🤔
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JSON은 JavaScript Object Notation의 약자로, 사람이 쉽게 읽고 기계가 처리하기 쉬운 가벼운 데이터 교환 형식입니다. 간단히 말해, 데이터 저장과 전송에 사용되는 텍스트 기반 형식입니다.
 
@@ -39,7 +46,18 @@ JSON은 JavaScript Object Notation의 약자로, 사람이 쉽게 읽고 기계�
 
 JSON은 컴퓨터 간에 데이터를 효율적으로 전송하는 데 중요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주요 JSON 구조는 다음과 같습니다:
 

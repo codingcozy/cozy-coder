@@ -3,17 +3,13 @@ title: "윈도우 포렌식 USB 장치 프로파일링"
 description: ""
 coverImage: "/assets/img/2024-06-20-WindowsForensicsUSBDeviceProfiling_0.png"
 date: 2024-06-20 14:45
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-WindowsForensicsUSBDeviceProfiling_0.png
 tag: Tech
 originalTitle: "Windows Forensics: USB Device Profiling"
 link: "https://medium.com/@andrewss112/windows-forensics-usb-device-profiling-c0af50a203da"
 isUpdated: true
 ---
-
-
-
-
 
 # 개요:
 
@@ -34,7 +30,18 @@ USB 장치 프로파일링은 조사자가 숙지해야 할 전통적인 디지�
 
 # 현재 구성 설정 결정하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시스템 하이브에는 시스템 구성 데이터를 저장하는 ControlSet00X라는 키가 있습니다. 컴퓨터를 활용하는 동안, 현재 키의 버전은 CurrentControlSet으로 메모리에 저장되어 오프라인 하이브에 표시되지 않습니다. 올바른 데이터셋을 확인하려면 SYSTEM\Select\LastKnownGood를 검사하여 어떤 ControlSet을 조사해야 하는지 결정해야 합니다.
 
@@ -44,7 +51,18 @@ USB 장치 프로파일링은 조사자가 숙지해야 할 전통적인 디지�
 
 # SYSTEM\CurrentControlSet\Enum\USB
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 USB 키는 장치 유형과 관계없이 외부 장치에 대한 유용한 정보를 저장하는 종합물입니다.
 
@@ -59,7 +77,18 @@ USB 키는 장치 유형과 관계없이 외부 장치에 대한 유용한 정�
 - 서비스: 장치 유형
 - 기타...
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 USBSTOR 장치인 VID_0781 및 PID_5581을 계속 검사할 것입니다. 이전에 VID/PID를 사용하여 USB의 제조사와 모델을 DeviceHunt에서 확인해보세요.
 
@@ -73,7 +102,18 @@ USBSTOR 장치인 VID_0781 및 PID_5581을 계속 검사할 것입니다. 이전
 
 레지스트리 탐색기에 의해 보고된 고수준 정보가 유용하게 사용됩니다. 하지만 좀 더 세부적인 정보는 하위 키에 포함되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전에 언급했듯이 각 장치는 VID와 PID로 식별된 SYSTEM\CurrentControlSet\Enum\USB 하위 키를 생성합니다.
 
@@ -83,7 +123,18 @@ USBSTOR 장치인 VID_0781 및 PID_5581을 계속 검사할 것입니다. 이전
 
 ![이미지](/assets/img/2024-06-20-WindowsForensicsUSBDeviceProfiling_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 Markdown 형식으로 변환되어 있습니다:
 
@@ -96,8 +147,18 @@ $iSerialNumber 키를 검사하면 다음과 같은 추가 정보가 확인됩�
 
 ![이미지](/assets/img/2024-06-20-WindowsForensicsUSBDeviceProfiling_5.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 흥미로운 정보 중 상세 정보는 하위 키에서 나옵니다: Properties\'83da6326–97a6–4088–9453-a1923f573b29'. 여기서는 장치가 처음 연결된 시간, 마지막 연결된 시간 및 시스템에서 마지막으로 제거된 시간을 확인할 수 있습니다.
 
@@ -107,7 +168,18 @@ $iSerialNumber 키를 검사하면 다음과 같은 추가 정보가 확인됩�
 
 ![이미지 3](/assets/img/2024-06-20-WindowsForensicsUSBDeviceProfiling_8.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 1. VID/PID: 0781, 5581
@@ -124,7 +196,18 @@ $iSerialNumber 키를 검사하면 다음과 같은 추가 정보가 확인됩�
 
 ![이미지](/assets/img/2024-06-20-WindowsForensicsUSBDeviceProfiling_9.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 1. VID/PID: 0781, 5581
@@ -142,8 +225,18 @@ SOFTWARE 하이브에서 Windows Portable Devices를 찾아 볼륨 이름을 얻
 
 ![이미지](/assets/img/2024-06-20-WindowsForensicsUSBDeviceProfiling_10.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 볼륨 GUID를 얻으려면 SYSTEM\MountedDevices 아래를 살펴볼 수 있습니다.
 
@@ -164,7 +257,18 @@ SOFTWARE 하이브에서 Windows Portable Devices를 찾아 볼륨 이름을 얻
 
 ## 장치가 사용자 계정과 관련이 있는지 확인하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 우리가 볼륙 GUID를 알았으니 해당 값과 NTUSER 하이브를 교차 참조할 수 있습니다. 이를 위해 MountPoints2 아래를 살펴봐야 합니다.
 
@@ -175,7 +279,18 @@ SOFTWARE 하이브에서 Windows Portable Devices를 찾아 볼륨 이름을 얻
 - 사용자가 장치가 연결된 상태에서 활성으로 로그인되어 있었음
 - 장치가 연결된 시점에서 사용자가 마지막으로 로그인되어 있었음
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떤 시나리오가 유효한지 확인하려면 시스템의 보안 이벤트 로그를 확인하여 사용자가 로그인한 시간을 판단해야 합니다. 이를 위해 이벤트 ID: 4624/4647 또는 4624/4634 사이의 타임스탬프 차이를 취하여 사용자의 로그인/로그오프 시간을 확인할 수 있습니다. 로긴/로그오프 이벤트에서 LogonID가 일치하는지 확인하세요.
 
@@ -198,7 +313,18 @@ SOFTWARE 하이브에서 Windows Portable Devices를 찾아 볼륨 이름을 얻
 
 볼륨 일련 번호(VSN)를 얻으려면 Microsoft-Windows-Partition/Diagnostic.evtx 로그를 참조하고 기기의 마지막 연결 시간을 교차 참조할 수 있습니다. 기억하세요, 레지스트리는 UTC 시간으로 기록하고 이벤트 로그는 로컬 시간으로 기록합니다. 이벤트 로그의 타임스탬프를 올바르게 해석하기 위해 SYSTEM\CurrentControlSet\Control\TimezoneInformation를 확인하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 VSN은 Vbr0에 저장되어 있습니다. 또한, 분석 중인 장치가 NTFS 시스템이기 때문에 VSN을 찾으려면 offset 0x43를 살펴보아야 합니다. 바이트 순서도 잊지 말고, 리틀-엔디안 형식으로 저장되어 있을 겁니다.
 
@@ -208,7 +334,18 @@ VSN은 Vbr0에 저장되어 있습니다. 또한, 분석 중인 장치가 NTFS �
 
 ![이미지2](/assets/img/2024-06-20-WindowsForensicsUSBDeviceProfiling_14.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 1. VID/PID: 0781, 5581

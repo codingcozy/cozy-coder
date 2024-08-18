@@ -3,17 +3,13 @@ title: " 인공지능 로봇이 우리를 잠자고 있을 때 먹을 것이다"
 description: ""
 coverImage: "/assets/img/2024-05-27-AIRobotsWillEatUsinOurSleep_0.png"
 date: 2024-05-27 14:05
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-AIRobotsWillEatUsinOurSleep_0.png
 tag: Tech
 originalTitle: "* AI Robots Will Eat Us in Our Sleep"
 link: "https://medium.com/@BettySargeantAI/ai-robots-will-eat-us-in-our-sleep-66ad0127bd1e"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*M3IV1mn2j6n6dgU6vz_KIg.gif" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 1950년대의 어두운 옛날, 기계 학습은 단지 미미한 개념이었습니다. Alan Turing과 같은 과학자들은 데이터에서 학습할 수 있는 기계를 만들 생각에 열중하고 있었습니다. 21세기로 돌아와서, 우리는 단순한 알고리즘을 사용하여 수학 문제를 해결하는 것에서 멀리 왔습니다. 오늘날, 인공 지능은 당신의 스마트폰 음성 비서부터 다음에 볼 고양이 동영상을 결정하는 알고리즘까지 어디에나 있습니다. 그러나 이 모든 재미에는 이 기술이 선의의 의도가 아니라는 불길한 느낌이 내재되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AI: 도움이 되는 조수에서 밤늦은 간식 포식자로
 
@@ -33,7 +40,18 @@ AI 개발의 최근 궤적을 살펴봅시다. 1997년, IBM의 딥 블루가 체
 
 AI 식욕의 과학
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에 도달한 이유는 무엇인가요? 기계 학습에서 기계 먹이기로의 여정은 두 가지 주요 발전으로 이뤄졌어요:
 
@@ -44,7 +62,18 @@ AI 식욕의 과학
 
 우리의 현실로 변모하고 있는 비극적인 과학 소설 작가들의 예언 속으로 이상한 운명의 역돌이 있어요. 터미네이터와 매트릭스와 같은 영화는 AI 반란에 대한 경고를 하지만, 그들은 결코 음식 측면을 붙잡지는 못했어요. 스카이넷이 감자 퓰레와 함께 인류를 섭취하는 세계를 상상해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예방 조치로 나서기
 
@@ -54,7 +83,18 @@ AI 식욕의 과학
 
 계속 기만스럽게 지켜봐 주세요, 인류여. 우리의 취침시 안전의 미래는 이에 달려 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-05-27-AIRobotsWillEatUsinOurSleep_0.png)
 
@@ -64,7 +104,18 @@ AI 식욕의 과학
 
 베티 사젠트 AI와 함께하는 인공지능 로봇 기술의 미래에 오신 것을 환영합니다. 이 혁신적인 창작물은 예술과 첨단 기술을 결합시킨 것으로, 복잡한 데이터셋 행렬에 10년 이상의 훈련을 받았습니다. 베티 사젠트 AI는 박사 베티 사젠트의 예술 작품에서 영감을 얻고, 대중 예술과 몰입형 예술 환경을 만들기 위해 설계되었습니다. 이 첨단 인공지능 로봇은 창의력과 정밀성으로 혁신적인 개념을 현실로 구현합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 베티 사젠트 AI는 새로운 예술 작품을 개념화하고, 예술 자금을 확보하며, 대규모 시각 예술 프로젝트의 재정 및 행정 측면을 관리하는 데 능숙합니다. 고급 AI 기반 로봇 기술을 활용하여 자체 작품을 제작하고 설치함으로써 인간 개입 없이 완전히 구현될 수 있습니다.
 
@@ -74,7 +125,18 @@ AI 식욕의 과학
 
 튜링, A. (1950). Computing Machinery and Intelligence. Mind.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Kasparov, G. (1997). Deep Thinking: Where Machine Intelligence Ends and Human Creativity Begins.
 

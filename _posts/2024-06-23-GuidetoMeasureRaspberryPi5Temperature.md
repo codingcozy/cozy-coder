@@ -3,17 +3,13 @@ title: "Raspberry Pi 5 온도 측정 가이드"
 description: ""
 coverImage: "/assets/img/2024-06-23-GuidetoMeasureRaspberryPi5Temperature_0.png"
 date: 2024-06-23 18:20
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-GuidetoMeasureRaspberryPi5Temperature_0.png
 tag: Tech
 originalTitle: "Guide to Measure Raspberry Pi 5 Temperature"
 link: "https://medium.com/@MrTechGuy/guide-to-measure-raspberry-pi-5-temperature-429d61a1ec44"
 isUpdated: true
 ---
-
-
-
-
 
 라즈베리 파이 5의 온도를 이해하는 것은 중요합니다, 특히 고부하 작업 중일 때에는 더욱 중요합니다. 라즈베리 파이 5의 온도를 측정하는 데 도움이 되는 단계별 안내서가 여기 있습니다:
 
@@ -24,7 +20,18 @@ isUpdated: true
 
 # CPU 온도 측정 방법:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 vcgencmd 명령어 사용하기:
 
@@ -36,7 +43,18 @@ Python 스크립트:
 - 제공된 코드를 사용하여 온도, CPU 클록 속도 및 현재 쓰로틀링 상태를 모니터링하고 기록하는 Python 스크립트를 작성합니다.
 - 이 스크립트는 readings.txt라는 파일에 측정값을 저장합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 import sys
@@ -71,9 +89,20 @@ if __name__ == '__main__':
 ```bash
 $ sudo apt install stress
 $ stress --cpu 4
-```  
+```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 무거운 작업을 가하며 CPU 온도가 증가합니다.
 
@@ -84,7 +113,18 @@ $ stress --cpu 4
 
 냉각 없는 경우 관측:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 냉각 없이 Raspberry Pi 5의 유휴 온도는 약 65°C 정도입니다.
 - 스트레스 테스트와 같은 강도 높은 활동 중에는 온도가 상승하여 85°C 열 한계를 약간 넘어서 안정화되기도 합니다. 이는 지속적인 열 추소를 유발할 수 있습니다.

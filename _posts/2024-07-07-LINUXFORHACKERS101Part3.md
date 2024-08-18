@@ -3,17 +3,13 @@ title: "해커를 위한 리눅스 기초 101 Part 3"
 description: ""
 coverImage: "/assets/img/2024-07-07-LINUXFORHACKERS101Part3_0.png"
 date: 2024-07-07 22:33
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-LINUXFORHACKERS101Part3_0.png
 tag: Tech
 originalTitle: "LINUX FOR HACKERS 101 Part 3"
 link: "https://medium.com/@agapehearts/linux-for-hackers-101-part-3-42b9988311f8"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-07-07-LINUXFORHACKERS101Part3_0.png)
 
@@ -23,6 +19,17 @@ isUpdated: true
 
 ## 리눅스 시스템의 저장 장치
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리눅스는 특정 이름으로 저장 장치를 식별합니다. 예를 들어, 첫 번째 SATA 하드 드라이브는 dev/sda로 식별됩니다. 여기서 `s`는 SATA 드라이브임을 나타내고, `a`는 첫 번째 드라이브임을 나타냅니다. 두 번째 SATA 하드 드라이브는 dev/sdb가 될 것입니다.

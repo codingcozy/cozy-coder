@@ -3,7 +3,7 @@ title: "애플과 구글이 이겼다 우리는 패배했다"
 description: ""
 coverImage: "/assets/img/2024-07-13-AppleandGoogleWonWeLost_0.png"
 date: 2024-07-13 00:23
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-AppleandGoogleWonWeLost_0.png
 tag: Tech
 originalTitle: "Apple and Google Won; We Lost."
@@ -11,17 +11,24 @@ link: "https://medium.com/@carlst-james/apple-and-google-won-we-lost-2895488191d
 isUpdated: true
 ---
 
-
-
-
-
 ![2024-07-13-AppleandGoogleWonWeLost_0.png](/assets/img/2024-07-13-AppleandGoogleWonWeLost_0.png)
 
 다윈주의는 생존 능력이 우월한 생물이 변화하는 환경에 가장 적응하여 번성하며, 다른 생물들은 결국 사라진다는 이론을 선언합니다. 진화는 어느 시대가 다음 시대를 차지하고, 누가 최후에 비행기 엔진 속에 끼워질지를 경쟁해 온 것입니다. 살아남는 것은 반드시 최고의 생물이 아니라, 가장 적응력이 높은 생물일 뿐입니다.
 
 기술에서도 이 말은 사실이 증명되었습니다. 우월한 창작물이 더 적응력 높은 경쟁자에 밀려난 사례가 많습니다. 베타맥스는 VHS보다 우수하지만 더 비싸었습니다. 세가 드림캐스트는 PS2보다 더 혁신적이었습니다. 전기차는 초기에 화석 연료 인프라에 밀려 있었습니다. 페블 배터리는 Apple 워치보다 며칠이나 더 오래 가지했습니다. Napster는 적절히 라이선스가 부여되었다면 소프트웨어 유통 아이디어를 완전히 뒤엎을 수도 있었습니다. 기술에서 우리는 종종 기업 간 거인-거신 격투전처럼 업계가 두 거물 사이의 싸움으로 이어지는 것을 볼 수 있습니다. 어릴 때는 세가 대 닌텐도가었고, 어른이 되면 윈도우 대 맥이었을 수도 있습니다. 현재도 진화의 꼭대기에 위치하면서 여전히 격렬히 대립하고 있는 건 Apple 대 Google입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 야생에서 경쟁이 부족하면 막다른 길로 이끌 수 있듯, 기업 세계에서의 경쟁 부족도 혁신 부족과 최종적인 쇠퇴로 이어질 수 있습니다. 닌텐도는 세가와 아타리를 제치면서 대세였지만, 소니와 마이크로소프트가 빵을 훔쳐간 데로 이끄는 경쟁이 기업의 혁신을 요구했습니다.
 
@@ -31,7 +38,18 @@ isUpdated: true
 
 팜 프리와 함께 출시된 웹OS 소프트웨어는 애플과 안드로이드 사용자가 원하던 것들을 채우기 위해 만들어졌습니다. 하드웨어 키보드, 자성 무선 충전(익숙한 소리인가요?) 및 멀티태스킹용으로 개발된 운영 체제를 갖추고 출시한 것으로 보였습니다. 카드 기반 인터페이스? 제스처 기반 탐색? 즉각적 검색? 지오펜싱? 클라우드 서비스 지원? 빠른 설정 접근? 둥근 윈도우 모서리? 이제 우리가 당연시 여기는 모든 기능들입니다. 팜은 우리에게 미래를 보여 주었지만, 그 후 어둠 속으로 사라졌습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 iOS와 안드로이드가 정체되었다는 좋은 예시를 찾고 싶다면, 한 손으로 기기를 사용할 때 많은 중요한 상호작용이 엄지 손가락으로 감지하기 어려운 OS가 변함없이 유지되는 것에 주목해보세요. Palm의 webOS는 현대 하드웨어에 아직 적용되지 않은 하향식 알림 시스템을 거의 예견했습니다. Palm이 몇 년 더 지속했다면 어떤 아이디어를 생각해냈을지 알 수 없어요.
 
@@ -41,7 +59,18 @@ Palm은 iPhone과 Android가 성공에 던져진 유일한 기업이 아니었�
 
 Windows Phone 7은 단순히 외관만으로 먹지 않았습니다. 산업 전자기업인 Nokia와 HTC와 협력하여, WP7 기기는 미래 지향적일 뿐만 아니라 빠르기까지 했습니다. Microsoft는 회사 브랜딩을 이용해, 인기 있는 Xbox Live 네트워크에 직접 연결되는 모바일 게임 및 Office 애플리케이션 모바일 버전을 찾을 수 있는 유일한 곳이었죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마이크로소프트는 곧 Nokia를 완전히 인수했고, 잠시 동안 3 번째 경쟁사가 되었으며, 전설적인 Lumia 1020과 같은 장치를 출시했습니다. 이 제품은 오버샘플링 이미징 기술을 사용했는데, 이 기술은 지난 3 년 동안에만 산업 표준이 되었습니다. 이 카메라는 최신식 기기들과 여전히 견줄 만큼 우수했죠.
 
@@ -51,7 +80,18 @@ Windows Phone 7은 단순히 외관만으로 먹지 않았습니다. 산업 전�
 
 지난 10년 동안 iOS와 안드로이드는 대부분 자동 조종으로 운영되어 왔습니다. 두 OS는 침체되어 있어 서로의 작은 아이디어를 훔쳐가거나 Palm의 유품에서 여전히 고기를 뜯어 먹고 있는 상황입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이렇게 하면 소비자들과 업계가 손해를 입게 되었습니다. 휴대폰 하드웨어는 계속해서 발전해가지만 소프트웨어는 발전하지 못했습니다.
 

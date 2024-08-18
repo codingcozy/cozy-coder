@@ -3,17 +3,13 @@ title: "iPhone 15 Pro Max와 Pixel 8 Pro  두 가지 매우 다른 이야기"
 description: ""
 coverImage: "/assets/img/2024-07-13-iPhone15ProMaxvsPixel8Protwoverydifferentstories_0.png"
 date: 2024-07-13 01:32
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-iPhone15ProMaxvsPixel8Protwoverydifferentstories_0.png
 tag: Tech
 originalTitle: "iPhone 15 Pro Max vs. Pixel 8 Pro — two very different stories"
 link: "https://medium.com/macoclock/iphone-15-pro-max-vs-pixel-8-pro-two-very-different-stories-68938a6d749f"
 isUpdated: true
 ---
-
-
-
-
 
 ![Link to the image](/assets/img/2024-07-13-iPhone15ProMaxvsPixel8Protwoverydifferentstories_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 올해 초 처음으로 안드로이드를 사용해봤는데, Pixel 7 Pro를 사용했고 마음에 들었어요. 그래서 iPhone 15 Pro Max 출시 후 딱 한 달 후에 Pixel 8 Pro가 출시되었을 때, 놓치기 아쉬운 기회로 보였어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 두 가지 매우 유사한 것으로 보이는 핸드폰 사이에는 뚜렷한 차이가 있습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 iPhone 14 Pro는 계약을 통해 통신사를 통해 제공받는 대신 처음으로 핸드폰을 직접 구입한 것이었습니다. 통신사를 통해 핸드폰을 받으면 그저 배송을 받는 것으로 끝나는 경우가 많습니다. 이메일 캠페인 몇 개를 제외하고는 혼자서 모든 것을 해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 직접 Apple이나 Google에서 구매하는 것은 메인 딜러에서 차를 사는 것과 같다고 설명하는 게 가장 좋은 방법입니다. 두 번째 소유자가 아닌 논프랜차이즈 딜러에서 차를 사는 것과 비교해서요.
 
@@ -43,7 +61,18 @@ Apple과 Google은 새로운 핸드폰을 받기 전에 당신을 돌보아주�
 
 지금까지의 경험은 매우 유사합니다...
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 아이폰 15 Pro Max 또는 픽셀 8 Pro — 외관
 
@@ -51,7 +80,18 @@ Apple과 Google은 새로운 핸드폰을 받기 전에 당신을 돌보아주�
 
 그 환상의 일부는 밝기 때문일 수도 있어요. 아이폰 15 Pro Max가 실외에서 최대 2000 닛에 달하는 밝기를 가지고 있어 밝아 보였는데, 픽셀은 놀라운 2400 닛의 최대 밝기로 그것을 능가했어요. 의외로, 직사광선 아래 실외에서 그 약간의 화면 밝기가 큰 차이를 만들어냈어요. 2000 닛이 충분히 밝게 보였다고 생각했는데… 여기에 더해지니까 또 변하더라고요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Pixel Pro 8은 정말 예쁘고, 내가 가진 베이 블루는 더욱 아름답지만 여전히 iPhone 15 Pro Max의 스타일과 디자인을 선호합니다. 이는 매우 개인적인 문제이지만 iPhone에서 몇 가지 면에서는 제게 더 매력적으로 다가옵니다.
 
@@ -61,7 +101,18 @@ Pixel Pro 8은 정말 예쁘고, 내가 가진 베이 블루는 더욱 아름답
 
 # 좀 험한 시기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 카메라 범프는 한 가지 분명한 차이점이죠 — 고민 중이에요.
 
@@ -71,7 +122,18 @@ Pixel Pro 8은 정말 예쁘고, 내가 가진 베이 블루는 더욱 아름답
 
 아이폰 15 프로 맥스의 카메라 범프는 매년 커지는 것 같아요. 이들은 전화기 몸체보다 딱딱하게 두툼하게 돌출되어 있을 뿐만 아니라, 코너에 그룹으로 배치되어 있어서 아이폰은 책상에 아니락 마니락 앉아요 — 하지만 아이폰의 카메라 레이아웃의 거의 레트로한 느낌을 선호해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지는 아래와 같습니다:
 
@@ -83,7 +145,18 @@ Pixel Pro 8은 정말 예쁘고, 내가 가진 베이 블루는 더욱 아름답
 
 비교 글을 쓰려고 출발한 건 아니었지만, 카메라 비교를 언급하지 않고는 이 글을 쓸 수 없을 것 같아요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아이폰 15 Pro Max에서 촬영할 수 있는 ProRes 로그 풋리지는 일단 빼 놓고, Pixel 8 Pro는 비디오 품질에서 아이폰에 버금가는 성능을 자랑합니다. 오히려, 저는 Pixel Pro가 느슨하지 않고 자연스러운 화려함을 선보이는 10비트 HDR 비디오를 선호합니다. 정말 선명해요.
 
@@ -91,7 +164,18 @@ Pixel Pro 8은 정말 예쁘고, 내가 가진 베이 블루는 더욱 아름답
 
 픽셀 Pro도 좋아요 — 아마도 아이폰에서 촬영된 사진들보다 조금 더 선명하고 색상 깊이가 있고, 아주 조금의 노이즈가 덜 할테지만, 이건 내가 깐깐하게 봐서 그래요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 휴대폰 모두 사진과 비디오에 좋은 카메라를 제공합니다. 하지만 픽셀은 오래 된 셔터 지연 시간이 있어요. 많은 사람들이 언급하지 않지만 실제로 제 핸드폰에서는 심각한 문제랍니다. 미래 소프트웨어 업데이트로 개선될 수 있을 것 같아요. 아이폰은 딜레이 없이 아주 빠르게 작동해요.
 
@@ -101,7 +185,18 @@ Pixel Pro 8은 정말 예쁘고, 내가 가진 베이 블루는 더욱 아름답
 
 일상적인 사용에서 두 휴대폰에 무엇을 던져도 느리지 않을 것 같아요. 두 휴대폰이 무엇을 할 수 있는지에 대해 우리는 까다롭게 취급받는 거예요. 올해 애플은 하이엔드 게이머들을 위한 광선 추적을 크게 알렸는데, 아마도 그것이 A17 Pro SoC가 푸시될 한 영역일 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **이미지 첨부**  
 양 회사 모두 이 폰 안에 각자의 칩 버전을 사용하고 있습니다. 이는 그들로부터 최상의 성능을 얻는 데 필수적입니다. 이것이 이 두 핸드폰 사이의 **큰 차이점을** 이끌어내는 중요한 요소입니다.
@@ -110,9 +205,20 @@ Pixel Pro 8은 정말 예쁘고, 내가 가진 베이 블루는 더욱 아름답
 
 # 좋아하거나 싫어하거나
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-지난 Google 이벤트에서, Pixel이 가는 길이 명확해졌습니다. 가능한 한 많은 인공지능을 쏟아붓기로 결정한 것 같아요. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+지난 Google 이벤트에서, Pixel이 가는 길이 명확해졌습니다. 가능한 한 많은 인공지능을 쏟아붓기로 결정한 것 같아요.
 
 제 생각에, 애플과 구글은 각자의 시장 위치에 대해 매우 다른 전망을 가지고 있습니다. 저는 두 라인업의 Pro폰에 주목하고 있습니다.
 
@@ -120,7 +226,18 @@ Pixel Pro 8은 정말 예쁘고, 내가 가진 베이 블루는 더욱 아름답
 
 ![이미지](/assets/img/2024-07-13-iPhone15ProMaxvsPixel8Protwoverydifferentstories_7.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 구글에 대해서는 같은 말은 할 수 없어요 — 그들은 Pro 8과 함께 AI가 얼마나 많이 사용되고 있는지 모든 곳에서 큰 소리로 알리고 싶어해요. 만약 Pixel 8 Pro를 선택한다면 그 결정을 기뻐해야 해요. AI로 향상된 옵션 목록은 계속해서 끝이 없어요 — Magic Editor, Best Take, Photo Unblur, Face Unblur, Audio Magic Eraser, Video Boost 그리고 Night Sight. 게다가 통화 스크리닝과 음성 인식 변환도 있죠... 아시다시피, Pixel 8 Pro는 모두 AI에 관한 것이에요.
 
@@ -130,7 +247,18 @@ Pixel Pro 8은 정말 예쁘고, 내가 가진 베이 블루는 더욱 아름답
 
 제 생각에, 방금 촬영한 현재 사진을 편집할 때에는 AI가 자리를 차지하거나 할 수도 있어요. 하지만 더 많이 어려워하는 부분은 오래된 사진들 — 수년간 가지고 있었던 그런 사진들이죠. 이미 기억이 담긴 이미지에 대해서는, 그것들을 바꾸는 것이 기묘하고 도덕적으로 옳지 않다고 느껴지는 것이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 약 20년 동안 책상 위에 두고 있던 사진에 시도해봤어요. 배경에 있던 차만 지웠을 뿐이에요. 이전에는 거의 주목도 안 했던 것인데, 결과를 보니 뭔가 마음에 안 들었어요. 그저 자칫 똑똑해 보이는데 맞지 않는 느낌이었죠.
 
@@ -140,7 +268,18 @@ Pixel Pro 8은 정말 예쁘고, 내가 가진 베이 블루는 더욱 아름답
 
 ![이미지](/assets/img/2024-07-13-iPhone15ProMaxvsPixel8Protwoverydifferentstories_9.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신은 8 Pro를 구매하고 AI 기능들 중 많은 것들을 무시할 수도 있지만, 그게 의미가 있을까요? 돈을 아껴서 픽셀 8을 사는 게 낫지 않을까요? 애플은 아주 애플스러운 방식으로 아이폰의 AI 기능을 천천히 세밀하게 조정하고 추가하고 있습니다. Siri의 최종 버전이 이것이 아니라고 믿어야 할텐데요?
 
@@ -150,7 +289,18 @@ Pixel Pro 8은 정말 예쁘고, 내가 가진 베이 블루는 더욱 아름답
 
 AI는 미래입니다. 그러나 아직 내 창의적인 삶과 미래의 기억들을 운영할 준비가 되었는지는 정확히 모르겠습니다. 변화는 오고 있고 우리는 그것을 막을 수 없겠지만, 현재로서는 적어도 늦추는 게 더 나은 것 같아요...
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 If you are a tech-savvy enthusiast who enjoys discovering new iOS & Mac applications, subscribing to Setapp might be the perfect choice for you! By becoming a subscriber, you will unlock an exclusive collection of more than 240 apps, including Ulysses - the very tool I use to craft these captivating stories every single day. Click on my affiliate link to embark on a delightful journey of improving your digital workflows with exciting new tools!
 

@@ -3,17 +3,13 @@ title: "천사에게 바치는 노래"
 description: ""
 coverImage: "/assets/img/2024-06-19-OdetoanAngel_0.png"
 date: 2024-06-19 15:35
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-OdetoanAngel_0.png
 tag: Tech
 originalTitle: "Ode to an Angel"
 link: "https://medium.com/long-sweet-valuable/ode-to-an-angel-12c48a10d557"
 isUpdated: true
 ---
-
-
-
-
 
 ## SWEET.PUB WRITING CHALLENGE|STORY 3
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 당신의 눈 창문 안을 eser messedkdjwtslwheks ektysdidkwjels dlse dlsms qksnfs wlsmdㅁs💖💕💗💞💘. 😍😻🥰✨🌟💫💓✨🥺💕💖✨❤️😘.✨💞😊❤️💓❤️💓❤️✨.💖💞🌟💖🌟✨🥰💗💞❤️✨💕😘💓🌟🥺💘💖✨💓없어요. 나와 같은 사람은 없 슴💘, 마음에 대한 깊은 사랑에 의해 압도됩니다니다 없습니다.💓✨💓 왜 이렇게 인기가 많은지 아주 오랫동안 신중히 살펴보고 💓🌟😊💕😘, ⭐ 이렇게 많은 사랑을 💖💞💓💕😘주세요.💕💓🌟💖✨✨💘💖💓🌟💓💓💕😊💓😊😍✨💞😍🥺😍여성분💞💗💘🌙✨💖💞.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신의 시선에서 어떤 모습으로 나를 보고 계신가요? 저는 당신에게 엄마, 친구, 구원자 등의 역할을 하는 걸까요? 제가 당신에게는 투신할 수 있는 사람으로 생각되며, 영원히 당신을 떠나지 않을 것이라고 믿으시는 것을 알고 있습니다. 그리고 당신은 저를 사랑으로 바라보고 계신다는 것도 알고 있습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 당신의 마음에서의 시선을 물어볼 필요가 없습니다. 당신은 항상 함께하고 싶어하는 자리를 만들며, 그 열정을 보여줍니다. 꼬리를 흔들며 기쁨을 나타내고 엉덩이를 흔들며 기뻐합니다. 당신이 소파 옆에 옆에 모여서 얼굴을 핥거나 함께 앉을 때, 당신의 사랑이 몸에서 방출됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 마음의 창문
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 이 찬가는 우리에게 사랑을 나누어 주고 오랫동안 큰 축복을 주었던 우리의 강아지들에게 바칩니다: 루서, 우리 여섯 살짜리 카바숀, 그리고 무지개 다리를 건넌 우리 강아지들: 고디, 우리 고든 세터/스프링어 스파니얼, 나시, 우리 골든 리트리버. 개의 사랑은 우리에게 베풀어주는 사랑과는 다른 매력이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 감사합니다, Justina Ki. 님, 여름 글쓰기 도전에 초대해 주셔서 감사합니다. 오늘의 단어는 "창문"입니다.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 이야기가 마음에 드셨나요? Sweet Publications에 가입해보세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Sweet.pub은 💚 짧은, 💙 긴, 그리고 🧡 깊은 세 가족을 가지고 있어요.
 당신의 ❤️을 뛰게 할 이야기들을 발견해보세요!

@@ -3,17 +3,13 @@ title: "PHP 순위 사상 최저치로 떨어진 이유"
 description: ""
 coverImage: "/assets/img/2024-07-07-PHPrankingdropstoanall-timelow_0.png"
 date: 2024-07-07 19:59
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-PHPrankingdropstoanall-timelow_0.png
 tag: Tech
 originalTitle: "PHP ranking drops to an all-time low"
 link: "https://medium.com/gitconnected/php-ranking-drops-to-an-all-time-low-98dc5843efd8"
 isUpdated: true
 ---
-
-
-
-
 
 TIOBE released the programming language rankings for April 2024. The world’s best language, PHP, made headlines this month (Is PHP losing its mojo?), but it appeared on the list due to its lowest historical ranking.
 
@@ -23,7 +19,18 @@ Below are the TIOBE Top 20 programming languages for April:
 
 ![Languages Ranking](/assets/img/2024-07-07-PHPrankingdropstoanall-timelow_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에서 볼 수 있듯이, PHP는 이번 달 TIOBE 지수에서 17위를 차지했습니다.
 

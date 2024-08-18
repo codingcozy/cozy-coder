@@ -3,17 +3,13 @@ title: "Express 앱을 Firestore와 연동하여 Choreo에 배포하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-01-BuildExpressAppwithFirestoreandDeployonChoreo_0.png"
 date: 2024-07-01 20:42
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-01-BuildExpressAppwithFirestoreandDeployonChoreo_0.png
 tag: Tech
 originalTitle: "Build Express App with Firestore and Deploy on Choreo"
 link: "https://medium.com/@ishanhansakasilva/build-express-app-with-firebase-and-deploy-on-choreo-07152f2423ba"
 isUpdated: true
 ---
-
-
-
-
 
 ## 데이터베이스 통합 및 Choreo 플랫폼에 배포하는 단계별 가이드
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-07-01-BuildExpressAppwithFirestoreandDeployonChoreo_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 기술 개요
 
@@ -33,7 +40,18 @@ Express.js는 간결하고 유연한 Node.js 프레임워크로, 강력한 기�
 
 코드에 들어가기 전에 다음 항목이 설치되어 있는지 확인하세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 기기에 Node.js와 npm을 설치해주세요
 - Firebase 계정 (Firebase에서 가입하세요)
@@ -49,7 +67,18 @@ Express.js는 간결하고 유연한 Node.js 프레임워크로, 강력한 기�
 
 # 단계 01: Express.js 설정
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 프로젝트 초기화하기
 
@@ -61,7 +90,18 @@ npm init -y
 
 - Express 설치하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Express를 설치하려면 npm을 사용하면 됩니다. 이 명령은 Express를 프로젝트에 설치합니다.
 
@@ -73,7 +113,18 @@ npm install express
 
 Express 애플리케이션을 위한 새 파일을 생성하세요. 예를 들어, 프로젝트의 루트 디렉토리에 app.js 또는 index.js와 같은 파일을 만들어주세요. Express를 요구하고 앱의 인스턴스를 생성하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-01-BuildExpressAppwithFirestoreandDeployonChoreo_2.png" />
 
@@ -83,7 +134,18 @@ Express 애플리케이션을 위한 새 파일을 생성하세요. 예를 들�
 
 Firebase 콘솔로 이동하여 새 프로젝트를 만들고 웹 앱을 추가하세요. 추가적인 정보 및 자세한 설정 지침은 Firebase 웹 앱을 위한 Firebase 설정에 대한 공식 문서인 Firebase 웹 설정 가이드를 참조해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 서비스 계정 키 생성하기:
 
@@ -93,10 +155,21 @@ Firebase 콘솔로 이동하여 새 프로젝트를 만들고 웹 앱을 추가�
 
 먼저, npm을 사용하여 Firebase Admin SDK npm 패키지를 설치합니다. 이 명령어는 Firebase Admin SDK 패키지를 설치하고, 서버 측에서 Firebase 서비스에 액세스할 수 있게 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-npm install --save firebase-admin  
+npm install --save firebase-admin
 ```
 
 그런 다음 JSON 파일에서 서비스 계정 자격 증명을로드하고 Firebase Admin SDK를 초기화합니다.
@@ -105,7 +178,18 @@ npm install --save firebase-admin
 
 초기화되면 Firebase Admin SDK 메서드를 사용하여 Firestore와 상호 작용할 수 있습니다. Firebase에서 클라우드 firestore 데이터베이스를 만들고 project_id에서 databaseURL을 추가하려면 이것을 사용할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 03: Firebase GET 및 POST 작업을 위한 라우트 추가
 
@@ -115,7 +199,18 @@ npm install --save firebase-admin
 
 <img src="/assets/img/2024-07-01-BuildExpressAppwithFirestoreandDeployonChoreo_4.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## POST Endpoint (“/projects”)
 
@@ -127,7 +222,18 @@ npm install --save body-parser
 
 그런 다음, 이러한 기능은 프로젝트의 index.js 파일 내에서 구현할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-07-01-BuildExpressAppwithFirestoreandDeployonChoreo_5.png)
 
@@ -137,13 +243,35 @@ npm install --save body-parser
 
 Postman 또는 Insomnia와 같은 도구를 사용하여 서버에 HTTP 요청을 보내고 기능을 확인할 수 있습니다. 이 예제에서는 Insomnia를 통해 서버 엔드포인트와 상호 작용하기 위해 HTTP 요청을 보냅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래에 클라우드 Firestore 데이터베이스가 표시됩니다.
 
 Firebase GET 및 POST 작업에 대한 루트를 추가하는 세 번째 단계를 완료하였으므로, 이제 Choreo에 배포하는 최종 단계로 진행하겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 04: Choreo에서 배포하기
 
@@ -153,8 +281,18 @@ GitHub 계정을 설정하고 서비스 구현이 포함된 저장소를 만들�
 
 1. 프로젝트 생성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image 1](/assets/img/2024-07-01-BuildExpressAppwithFirestoreandDeployonChoreo_9.png)
 
@@ -164,8 +302,18 @@ On the project home page, click Service under create a component.
 
 ![Image 2](/assets/img/2024-07-01-BuildExpressAppwithFirestoreandDeployonChoreo_10.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 · GitHub 탭으로 이동해서 레포지토리 URL을 추가해주세요.
 
@@ -175,7 +323,18 @@ Choreo가 귀하의 GitHub 계정에 연결할 수 있도록 하려면 'GitHub�
 
 · NodeJS 빌드팩을 선택해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 · NodeJS 프로젝트 디렉토리 설정
 
@@ -185,7 +344,18 @@ Choreo가 귀하의 GitHub 계정에 연결할 수 있도록 하려면 'GitHub�
 
 파일 디렉토리 = `.choreo/endpoints.yaml`
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트에 openapi.yaml 파일을 만들어주세요.
 
@@ -195,7 +365,18 @@ openapi.yaml 파일에서 일관성을 유지하기 위해 Swagger Editor와 같
 
 ![이미지](/assets/img/2024-07-01-BuildExpressAppwithFirestoreandDeployonChoreo_13.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작업이 완료되면 변경 내용을 저장소로 푸시하고 다음 단계로 진행할 수 있습니다.
 
@@ -205,7 +386,18 @@ NodeJS 빌드팩을 사용하여 서비스 구성 요소를 성공적으로 생�
 
 ![이미지](/assets/img/2024-07-01-BuildExpressAppwithFirestoreandDeployonChoreo_14.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 빌드 및 배포
 
@@ -215,7 +407,18 @@ NodeJS 빌드팩을 사용하여 서비스 구성 요소를 성공적으로 생�
 
 1. 프로젝트 홈페이지에서 Component Listing 아래에 나열된 Book List 구성 요소를 클릭하십시오. 이렇게 하면 구성 요소 개요 페이지로 이동됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 왼쪽 네비게이션에서 'Build'를 클릭해주세요.
 
@@ -225,7 +428,18 @@ NodeJS 빌드팩을 사용하여 서비스 구성 요소를 성공적으로 생�
 
 <img src="/assets/img/2024-07-01-BuildExpressAppwithFirestoreandDeployonChoreo_15.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 배포
 
@@ -235,7 +449,18 @@ NodeJS 빌드팩을 사용하여 서비스 구성 요소를 성공적으로 생�
 
 2. 설정 카드에서 구성 및 배포를 클릭하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 환경 구성 창에서 '다음'을 클릭해주세요.
 
@@ -245,7 +470,18 @@ NodeJS 빌드팩을 사용하여 서비스 구성 요소를 성공적으로 생�
 
 ![image](/assets/img/2024-07-01-BuildExpressAppwithFirestoreandDeployonChoreo_16.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 요약
 

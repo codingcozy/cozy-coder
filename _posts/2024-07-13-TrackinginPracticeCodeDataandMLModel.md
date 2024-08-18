@@ -3,7 +3,7 @@ title: "실전 활용 코드, 데이터 및 ML 모델 추적하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-13-TrackinginPracticeCodeDataandMLModel_0.png"
 date: 2024-07-13 03:22
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-TrackinginPracticeCodeDataandMLModel_0.png
 tag: Tech
 originalTitle: "Tracking in Practice: Code, Data and ML Model"
@@ -11,13 +11,9 @@ link: "https://medium.com/towards-data-science/tracking-in-practice-code-data-an
 isUpdated: true
 ---
 
-
-
-
-
 ![Tracking](/assets/img/2024-07-13-TrackinginPracticeCodeDataandMLModel_0.png)
 
-Tracking! We’ve all done it before, whether you’re a researcher or an engineer; whether you’re involved in machine learning, data science, software development, or even a profiler (please don’t mind me, I’m into thriller books these days)! Well, what I want to say is that tracking is important and inevitable. In MLOps, we track all its components: code, data, and the machine learning model! 
+Tracking! We’ve all done it before, whether you’re a researcher or an engineer; whether you’re involved in machine learning, data science, software development, or even a profiler (please don’t mind me, I’m into thriller books these days)! Well, what I want to say is that tracking is important and inevitable. In MLOps, we track all its components: code, data, and the machine learning model!
 
 In this article, we explain the importance of tracking through a practical example where we apply testing across the different steps of a machine learning workflow. The entire codebase for this article is accessible in the associated repository.
 
@@ -30,7 +26,18 @@ Table of contents:
 5. ML Model tracking
 6. Conclusion
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 1. 소개
 
@@ -40,7 +47,18 @@ Table of contents:
 
 왜 트래킹을 해야 할까요? 코드, 데이터 및 모델을 추적함으로써 입력, 출력, 코드 실행, 워크플로우 및 모델을 추적함으로써 재현성을 향상시킵니다. 또한 모델/시스템 행위 및 성능의 이상 감지를 통해 테스트를 개선합니다. 게다가 머신 러닝 개발의 반복적 성격은 트래킹을 필요로 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 트래킹을 언제 수행해야 할까요? 이전에 언급했듯이, 트래킹은 전체 프로젝트 수명주기에 적용되며 코드, 데이터, 그리고 머신러닝을 동시에 포함합니다. 왜냐하면 이 요소들은 밀접하게 연결되어 있기 때문입니다: 데이터 처리와 ML 모델 개발은 코드를 사용하므로 데이터와 ML 모델을 추적하는 것은 코드를 추적하는 것을 필요로 하며, ML 모델의 성능은 데이터와 코드에 의존하기 때문에 ML 모델을 추적하는 것은 코드와 데이터를 추적하는 것을 필요로 합니다.
 
@@ -52,7 +70,18 @@ Table of contents:
 
 이 기사는 트래킹 개념에 관한 것이지만, 이것은 또한 제 MLOps 기사 시리즈 중 일부입니다. 또한, 이전 및 다음 튜토리얼을 따르면 워크플로부터 모델 배포 및 트래킹까지 완전한 MLOps 프로젝트를 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 MLOps에 관심이 있다면, 나의 아티클을 확인해보세요:
 
@@ -68,7 +97,18 @@ Table of contents:
 
 이 문서에서는 합성곱 신경망(CNN)을 사용한 손글씨 숫자 분류 프로젝트를 예시로 삼을 것입니다. 구체적으로, 0부터 9까지 범위의 손글씨 숫자가 들어있는 입력 이미지가 주어질 때, 모델은 해당 숫자를 식별하고 해당 레이블을 출력해야 합니다. AI 캔버스는 다음과 같이 구성되어 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Tracking in Practice Code Data and ML Model](/assets/img/2024-07-13-TrackinginPracticeCodeDataandMLModel_2.png)
 
@@ -78,7 +118,18 @@ Table of contents:
 
 # 3. 코드 추적
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드 추적은 기계 학습 프로젝트를 유지하는 데 필수적입니다. 이는 코드 버전, 의존성 변경 및 모든 코드 관련 업데이트를 기록하는 것을 포함합니다. 효과적으로 우리의 코드를 추적하기 위해서는 다음과 같은 실천 방법을 따라야 합니다:
 
@@ -92,7 +143,18 @@ Table of contents:
 
 - 저장소의 상태를 확인하기 위해 다음 명령어를 사용합니다: `git status`. 이 명령어는 현재 브랜치의 상태를 보여줍니다. 원격 브랜치와 최신 상태인지, 파일의 변경 사항을 나열하고 추적되지 않는 파일을 볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 이 사진 카드는 할 일이 많아 보이네요! 분명히 작업 중이시군요.
@@ -135,23 +197,33 @@ $ git branch -vv # 자세한 정보가 포함된 모든 브랜치를 나열하�
   # ...
 
 - 커밋 이력을 보려면
-``` 
+```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 $ git log 명령어를 사용하면 상세한 커밋 이력을 확인할 수 있어요.
+
 # ...
 
 # 또는 이렇게 사용할 수도 있어요:
+
 $ git log --pretty=format:"%h %s" 명령어를 사용하면 커밋 ID와 커밋 메시지만 확인할 수 있어요.
 f959be7 Merge branch 'feature/integration_test'
 eca40ba fix: predict using the latest run.
 aa53e29 feat: system integration testing.
 
-
 - 제가 주로 편리하고 가독성 있게 사용하는 다른 명령어들이 있어요:
-
 
 $ git diff 명령어를 사용하면 작업 디렉토리와 스테이징 영역 사이의 변경 사항을 볼 수 있어요.
 
@@ -165,11 +237,20 @@ $ git revert <commit_hash> 명령어를 사용하면 커밋을 되돌릴 수 있
 
 $ git reset --soft <commit_hash> 명령어를 사용하면 HEAD를 특정 커밋으로 이동하지만 변경 사항을 스테이징 영역에 유지할 수 있어요.
 
-
 # 4. 데이터 추적
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 추적은 머신러닝 프로젝트를 유지하기 위한 또 다른 필수적인 실천 방법입니다. 데이터 추적에는 데이터 버전, 메타데이터, 적용된 처리 및 시간이 지남에 따른 데이터 품질을 기록하는 것이 포함됩니다. 우리의 데이터를 효과적으로 추적하기 위해서는 다음의 일련의 조치를 따라야 합니다:
 
@@ -181,22 +262,39 @@ $ git reset --soft <commit_hash> 명령어를 사용하면 HEAD를 특정 커밋
 
 - 데이터 파일의 상태를 표시하고 최신 상태인지 동기화가 필요한지 확인하려면 다음 명령어를 사용하세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 $ dvc status
 
-
 - To check the correct version of data files based on the current Git commit, use:
-
 
 $ dvc checkout
 
-
 - When the data is stored in remote storage, use:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 $dvc pull # 최신 데이터 파일 버전을 로컬 작업 공간으로 가져오려면
 
@@ -204,15 +302,24 @@ $dvc push # 로컬 작업 공간에서 최신 데이터 파일 버전을 원격 
 
 $dvc fetch # 원격 저장소에서 데이터 파일을 가져와서 작업 공간에 체크 아웃하지 않고 가져오려면
 
-
 # 5. ML 모델 추적
 
 만약 중요도에 따라 목록을 정렬해야 한다면, ML 모델 추적을 가장 중요한 것으로 놓겠어요. 모델의 성능을 추적함으로써 시스템의 오작동을 조기에 감지하고 의사 결정을 내리고 상황을 신속하게 수정할 수 있게 도와줍니다.
 
 ML 모델 추적에는 모델의 이름, 아키텍처, 매개변수, 가중치, 실험 추적이 포함됩니다. 또한 모델 훈련에 사용된 코드와 데이터 버전도 추적합니다. 음, 추적해야 할 것이 많죠, 동의해요! MLOps의 세계에 발을 딛기 전에, 저는 항상 실험을 효과적으로 그리고 효율적으로 저장하는 데 어려움을 겪었어요. 그 때, 설정을 저장하기 위해 기본 파일 기반 저장 방식 (pickle 및 csv 파일)과 같은 기본 전통적인 방법을 사용했습니다. 후자는 수동 관리가 필요하고 재현성과 협업 가능성을 제한하기 때문에 확장성이 부족합니다. 다행히도 이 어려움은 저를 더 나은 접근 방법을 연구하도록 이끌었고 MLOps와 관련된 새로운 기술과 도구를 배우게 되었습니다. 오늘날 여러 플랫폼과 도구가 존재하여 MLOps의 다른 단계에 대한 서로 다른 요구 사항을 충족하지만 이것은 이 글의 주제가 아닙니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사에서는 이전 튜토리얼(실전에서의 버전 관리: 데이터, ML 모델, 코드)에서 이미 소개한 MLFlow를 사용하여 ML 모델의 버전 관리를 적용해 보겠습니다.
 
@@ -224,31 +331,51 @@ mlflow 서버 --host 127.0.0.1 --port 8080
 
 그리고 MLflow 실험을 설정하여 훈련 실행을 조직화하고 관리합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 로깅을 위한 추적 서버 URI를 설정합니다.
-mlflow.set_tracking_uri(tracking_uri)
-# MLflow 실험을 생성합니다.
-mlflow.set_experiment(experiment_name)
 
+mlflow.set_tracking_uri(tracking_uri)
+
+# MLflow 실험을 생성합니다.
+
+mlflow.set_experiment(experiment_name)
 
 - MLflow는 실험과 메타데이터를 추적하기 위해 강력한 기능인 mlflow.autolog()를 제공합니다. 이 기능은 메트릭 및 매개변수를 자동으로 로그에 기록합니다. mlflow.autolog()를 학습 코드 이전에 호출해야 합니다:
 
-
 with mlflow.start_run():
-    mlflow.autolog()
-    
+mlflow.autolog()
+
     # 학습:
     model.compile(loss=loss, optimizer='adam', metrics=[metric])
     history = model.fit(x_train, y_train, epochs=epochs, batch_size=batch_size, verbose=1,
                         validation_data=(x_val, y_val))
 
-
 MLflow auto-log는 배치 크기, 에포크 수, 옵티마이저 이름을 포함한 약 29개의 매개변수를 저장하며, 손실 값을 포함한 학습 메트릭을 기록합니다. MLflow의 또 다른 강점은 로그를 볼 수 있는 그래픽 인터페이스를 제공하고 심지어 그래프를 표시할 수 있다는 것입니다:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-07-13-TrackinginPracticeCodeDataandMLModel_3.png](/assets/img/2024-07-13-TrackinginPracticeCodeDataandMLModel_3.png)
 
@@ -259,7 +386,7 @@ MLflow auto-log는 배치 크기, 에포크 수, 옵티마이저 이름을 포�
 ```js
 with mlflow.start_run():
     mlflow.autolog()
-    
+
     # Train:
     model.compile(loss=loss, optimizer='adam', metrics=[metric])
     history = model.fit(x_train, y_train, epochs=epochs, batch_size=batch_size, verbose=1,
@@ -289,7 +416,18 @@ with mlflow.start_run():
     })
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보시다시피, 추가 메트릭과 매개변수가 올바르게 로깅되어 아름답게 표시될 수 있습니다. 또한, 다른 실행을 비교하고 최상의 모델을 선택할 수 있습니다:
 
@@ -299,7 +437,18 @@ with mlflow.start_run():
 
 ![이미지](/assets/img/2024-07-13-TrackinginPracticeCodeDataandMLModel_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - **'Register Model'** 버튼을 클릭하여 MLFlow UI를 통해 모델을 쉽고 빠르게 등록 및 버전 관리할 수도 있습니다. 모델은 이제 배포를 위해 준비된 상태입니다.
 
@@ -309,7 +458,18 @@ MLflow와 같은 도구를 사용하는 중요성에 대해 다시 언급하지 
 
 # 6. 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사의 마지막 부분이에요! 이 기사에서는 가장 중요한 MLOps 원칙 중 하나인 추적에 대해 소개했어요. 추적은 기계 학습 워크플로의 품질, 신뢰성 및 재현성을 보장해줘요. 또한 우리가 향후 기사에서 자세히 다룰 모델을 선택하는 데도 중요한 역할을 하고 있어요.
 
@@ -319,6 +479,17 @@ MLflow와 같은 도구를 사용하는 중요성에 대해 다시 언급하지 
 
 # 이미지 크레딧
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글에 포함된 모든 이미지와 도표는 제가 찍은 것입니다. 출처가 언급되지 않은 항목은 저자가 찍었습니다.

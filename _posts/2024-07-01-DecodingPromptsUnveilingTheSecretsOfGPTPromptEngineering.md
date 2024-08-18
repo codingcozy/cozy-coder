@@ -3,17 +3,13 @@ title: "GPT 프롬프트 엔지니어링 비밀 해독 효과적인 프롬프트
 description: ""
 coverImage: "/assets/img/2024-07-01-DecodingPromptsUnveilingTheSecretsOfGPTPromptEngineering_0.png"
 date: 2024-07-01 17:54
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-01-DecodingPromptsUnveilingTheSecretsOfGPTPromptEngineering_0.png
 tag: Tech
 originalTitle: "Decoding Prompts: Unveiling The Secrets Of GPT Prompt Engineering"
 link: "https://medium.com/@jankammerath/decoding-prompts-unveiling-the-secrets-of-gpt-prompt-engineering-fd57db43c66f"
 isUpdated: true
 ---
-
-
-
-
 
 효과적인 프롬프트를 작성하는 것은 상당히 어려운 작업일 수 있습니다. 어떤 사람들은 다른 사람들보다 GPT를 통해 더 나은 결과를 얻는 것 같습니다. 정확히 떠오르는 것을 달성하는 효과적인 프롬프트를 작성하려면 GPT 모델이 어떻게 작동하는지를 이해해야 합니다. ChatGPT, Claude, DALL-E, Firefly, Stable Diffusion 또는 Llama2가 어떻게 프롬프트를 해독하고 사용하는지에 대한 기본적인 이해가 필요합니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # GPT가 여러분의 프롬프트를 처리하는 방법
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문맥에서 AI 모델을 언급할 때, Generative Pre-trained Transformer 또는 GPT라고 합니다. 여러분이 텍스트를 제공하면 새로운 텍스트, 이미지, 비디오 또는 오디오 스트림이 될 수 있는 결과물을 반환합니다. 훈련된 내용에 따라 다양합니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 이제 GPT를 3차원의 큰 거미줄 텐서로 상상해보세요. 작은 "상자"로 된 데이터가 담긴 텐서들이 있습니다. 이러한 작은 상자들은 GPT의 훈련 과정의 결과물입니다. 각 작은 "상자"(텐서)는 다른 것과 연결되어 있으며 모두 서로 연결되어 있습니다. 일부는 직접적으로 서로 연결되어 있고, 다른 것은 동료를 통해 간접적으로 연결됩니다. 이 거미줄이 GPT 모델의 "뇌"를 형성합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **GPT의 "뇌"가 사용되는 방식**
 
@@ -41,7 +59,18 @@ GPT의 "뇌"는 큰 넷이며(신경망과 혼동하면 안 됩니다!), 각 GPT
 
 ![이미지1](/assets/img/2024-07-01-DecodingPromptsUnveilingTheSecretsOfGPTPromptEngineering_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제공하는 프롬프트 텍스트를 GPT에 보내면 먼저 텍스트를 토큰으로 분할합니다. 토큰은 서로 관련된 작은 텍스트 조각입니다. 마치 학교에서 문장의 문법을 분석했던 것과 비슷합니다. 이러한 토큰들로 GPT는 특정 토큰(또는 "단어")의 중요성과 서로의 관련성을 평가합니다. 이 "구조화된 프롬프트"를 정보 상자의 작은 네트워크로 상상할 수 있습니다. 즉, 텐서입니다.
 
@@ -51,7 +80,18 @@ GPT의 "뇌"는 큰 넷이며(신경망과 혼동하면 안 됩니다!), 각 GPT
 
 이제 실용적인 부분으로 넘어가보겠습니다. 대부분의 경우, 엔드 결과의 어떤 흐릿한 상상을 머리 속에 가지고 GPT에게 프롬프트를 제시합니다. 여러분의 상상력은 이전에 보거나 배운 것을 기반으로 뇌가 만든 것입니다. 이제 그 상상력을 여러분의 뇌에서 GPT의 뇌로 옮겨서(이상적으로는 영어로) 언어를 사용해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 정보 학습이 완료되었는지 확인하세요
 
@@ -61,7 +101,18 @@ GPT의 "뇌"는 큰 넷이며(신경망과 혼동하면 안 됩니다!), 각 GPT
 
 RealVisXL30이 Star Trek과 Mr. Bean과 관련된 다양한 훈련 데이터뿐만 아니라 수백만 장의 이미지를 가지고 있었다는 것에 주목하세요. "Mr. Bean이 Star Trek의 선장인 모습"을 입력하자 마자 원하는 이미지가 나오는 것은 아닙니다. 프롬프트 주변의 추가 키워드와 가중치는 명확하게 RealVisXL30 모델을 원하는 이미지로 이끌 텐서를 지정합니다. 대부분은 "훈련 데이터 추측"이며 모델내에 특정한 스타일이 있다고 가정하고 있으니 이를 고려하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 가중치 정의 및 특정 텐서 지정
 
@@ -69,7 +120,18 @@ RealVisXL30이 Star Trek과 Mr. Bean과 관련된 다양한 훈련 데이터뿐�
 
 이 특정한 행동은 모든 주요 모델 (GPT-4, Claude 3 및 Gemini)에서 관찰할 수 있으며 매튜 효과라고 불립니다. 프롬프트를 제대로 설계하고 모델과 계속 테스트하는 대안은 없습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 환각 효과를 이해하고 다루기
 
@@ -81,7 +143,18 @@ RealVisXL30이 Star Trek과 Mr. Bean과 관련된 다양한 훈련 데이터뿐�
 - 프롬프트의 축소가 환각의 감소로 이어지지 않는 경우, 처음부터 프롬프트 엔지니어링을 다시 시작합니다.
 - 모델이 계속해서 환각을 일으키는 경우, 해당 작업에 대한 훈련이 부족한 것입니다. 새로운 모델이 필요하거나 RAG (검색 증강 생성)을 확장해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지난번에 우리가 가진 그 그물 그림을 떠올려봐. 환각은 당신의 프롬프트가 GPT를 상자들의 그 그물 가장자리 쪽으로 이끌 때 발생합니다. 본질적으로는 그 상자에 대한 지식이 없는(훈련되지 않은) 특정한 콘텐츠를 요청하거나 그 상자가 다른 상자들에 가려져 있을 때(다른 정보에 편향; 매튜 효과)입니다.
 
@@ -91,23 +164,45 @@ RealVisXL30이 Star Trek과 Mr. Bean과 관련된 다양한 훈련 데이터뿐�
 
 사용하는 프롬프트 텍스트들은 어떤 측면에서 컴퓨터 소프트웨어의 소스 코드와 비교될 수 있습니다. 당신은 프롬프트를 추적하고 이상적으로는 버전을 관리하고 싶을 것입니다. 가장 좋은 프롬프트를 정리하고 정렬하기 위해 GitHub 저장소를 활용하는 것은 확실히 좋은 방법입니다. 개인적으로는 나중에 사용하고 싶은 이미지와 프롬프트를 저장하기 위해 Civitai를 사용합니다. 정말로 여러분의 선택입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 매거진 같은 이미지 제작을 위한 나만의 프롬프트
+
 RealVisXL30과 JuggernautXL로 고품질 이미지 생성을 위한 나만의 처음부터 시작하는 지침서
 
 ## 프롬프트
+
 ((거장)), 수상 경력을 자랑하는 영화 장면의 사진. **여기에 장면 설명**. 어두운 메이크업, 매우 디테일한 사진, 부드러운 빛. 생동감 넘치고 아름다우며 화가적이며 디테일하며 질감 있는 예술적. 피사관에서의 얕은 초점, 비네트, 매우 디테일한, 높은 예산, 보케, 시네마스코프 형식, 우울하고 웅장하며 아름다운, 필름 미세먼지, 질감 있는. ((보그 매거진)), ((NatGeo 인물)), ((Conde Nast))
 
 ## 부정적인 프롬프트
-저품질, 최악의 품질, 나쁜 품질, 낮은 해상도, 나쁜 사진, 나쁜 예술, 나쁜 해부학, 나쁜 손, 서명, 텍스트, 오류, 자르기, JPEG 아티팩트
 
+저품질, 최악의 품질, 나쁜 품질, 낮은 해상도, 나쁜 사진, 나쁜 예술, 나쁜 해부학, 나쁜 손, 서명, 텍스트, 오류, 자르기, JPEG 아티팩트
 
 각 모델의 "정보 네트워크"가 다른 데이터를 기반으로 만들어졌기 때문에 새 모델과 친숙해지는 것이 중요합니다. Claude 3은 GPT-4나 Gemini와 거의 완전히 다르며, 이미지나 비디오를 생성하는 다양한 GPT를 사용할 때 이는 더욱 명확합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GPTs의 내부 작업은 복잡하며, 이 기사는 그들이 어떻게 작동하는지 대략적으로 다루었습니다. 이 통찰력들은 아마도 프롬프트 작성에 대한 더 나은 이해를 제공할 것입니다. 그러나 여전히 프롬프트 엔지니어링 업무를 진행해야 합니다. 몇몇 사람들은 "프롬프트 엔지니어링"을 운동으로 놀려왔지만, 원하는 결과의 품질에 따라 다소 시간이 많이 소요되는 작업일 수 있습니다.
 
@@ -120,7 +215,18 @@ GPTs의 내부 작업은 복잡하며, 이 기사는 그들이 어떻게 작동�
 
 현재 Claude, GPT-4, Gemini, DALL-E, Firefly 등 상용 모델을 사용하고 계시지만 편견 없는 개방형 소스 모델을 탐색하고 싶다면, 제가 쓴 "컴퓨터에서 무제한 채팅 및 이미지 생성" 기사를 강력히 추천합니다. Ollama와 Stable Diffusion은 지갑이 소모되는 것을 우려하지 않고 프롬프트 엔지니어링 스킬을 향상시키는 데 좋습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 고맙다구요. 읽어주셔서 감사합니다.
 

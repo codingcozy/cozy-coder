@@ -3,18 +3,13 @@ title: "나만의 창작글 작성 환경"
 description: ""
 coverImage: "/assets/img/2024-06-19-MyCreativeWritingSetup_0.png"
 date: 2024-06-19 08:49
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-MyCreativeWritingSetup_0.png
 tag: Tech
 originalTitle: "My Creative Writing Setup"
 link: "https://medium.com/macoclock/my-creative-writing-setup-8691c3a65b3f"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![My Creative Writing Setup](/assets/img/2024-06-19-MyCreativeWritingSetup_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 ## 아이디어 기록
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아이디어를 기록하고 추적하는 내 방식은 다소 산발적이며, 이제야 형식화하기 시작했습니다.
 
@@ -35,7 +40,18 @@ isUpdated: true
 
 아이패드와 맥북을 오가며 여러 애플리케이션을 사용한 끝에, 아이디어를 위해 대부분 Apple Notes를 사용하고 있습니다. 가끔씩 Zoho Notebook이나 Mind Node를 사용하기도 하고, Freeform도 사용해봤지만, 내 아이디어가 주로 단어들의 연속이기 때문에 Notes만으로도 충분합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가끔은 Trello 보드에 아이디어를 추가하기도 합니다. 하지만 일반적으로 아이디어가 프로젝트적 성격을 띄는 경우에 Trello를 사용하는 편이에요. 하지만 아이들이 언제 프로젝트로 전환되는지에 대한 정의가 약간 모호하다는 것을 인정해요.
 
@@ -45,7 +61,18 @@ isUpdated: true
 
 일반적으로 계획을 세울 때는 "팬서" 스타일입니다. 즉, 아이디어의 큰 그림을 그리고 "바로 쓰기"로 뛰어들고, 나중에 수정 단계에서 더 많은 계획과 연구를 합니다. 짧은 이야기의 경우, 그림을 그리고 연구를 하는 것을 최소화합니다. 대부분 몇 천 단어밖에 되지 않는 단편 소설의 경우에는 아이디어를 발견하는 탐험이 된다고 생각하기 때문이에요. 단편 소설의 특정 부분은 연구가 필요한 경우도 있지만 일반적으로는 최소한으로 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 장편 소설과 게임 글쓰기에는 계획과 연구가 필요하며, 다시 말해 여러 가지 도구를 사용합니다.
 
@@ -53,7 +80,18 @@ isUpdated: true
 
 누가 어디서 무엇을 하는지 빠르게 헷갈리는 성격이에요. 어떤 방법을 따르는 사람이기도 한데, 제 생각에는 스티븐 킹이 제안했던 방법인데, 틀릴 수도 있어요. 타임라인의 적절한 세부 수준에 대한 방법을 따르고 있어요. 소설 주변의 전체 타임라인을 알 필요는 없지만, 소설 주변에서 일어난 일들을 대략적으로 파악하는 것이 도움이 될 수 있어요. 왜냐하면 그러한 사건들이 소설의 직접적인 타임라인에 어떻게 영향을 미치는지 알 수 있기 때문이에요. 소설의 기간에 대한 타임라인의 세부 수준은 나중에 논의할 주제로, 더 자세히 다루는 것이 좋을 것 같아요. 그렇다고 해도, 보통 더 자세한 내용이 필요한 편이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 타임 라인 작업에선 정말 멋진 Aeon Timeline을 사용해요. 이 앱은 잠재력의 한 부분만 사용하고 있다는 걸 알지만, 그 중 일부분을 활용하고 있어요. 주로 "타임라인" 보기에서 사용하고 있지만, 어디에서 누가 무엇을 하는지 확인할 수 있는 점이 마음에 들어요. Aeon Timeline은 엔티티(캐릭터, 장소, 장면 등)를 Scrivener와 동기화할 수도 있어요. 이는 제가 "세계의 상태" 개요 도구로 사용한 다음 더 발전시키는 데 활용할 수 있게 해줘요.
 
@@ -63,7 +101,18 @@ Mac 버전은 Setapp의 일부로 제공받고 있어요. Apple Pencil로 좀 �
 
 연구를 위한 제 설정은 아이디어를 기록하는 것처럼 여기저기 흩어져 있어요. 사용하는 각 방법과 그 이유에 대해 만족스러워하지만, 이들을 더 효율적으로 통합하는 방법을 끊임없이 찾고 있어요. 태그 등을 활용해 서로 다른 소스를 연결하려고 노력하지만, 아직 이 태그 중 어느 하나도 통합된 인터페이스를 통해 접근할 수 있는 방법이 없어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Raindrop
 
@@ -73,8 +122,18 @@ Mac 버전은 Setapp의 일부로 제공받고 있어요. Apple Pencil로 좀 �
 
 ## MarginNote
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![My Creative Writing Setup](/assets/img/2024-06-19-MyCreativeWritingSetup_3.png)
 
@@ -84,8 +143,18 @@ I mentioned MarginNote before in my note-taking post, and it remains my main way
 
 I mostly use Apple notes for gathering images and text ideas based on research. For examples, images acquired from The State Library of Victoria for my second novel. The in-built image annotation features of macOS also means I can scrawl ideas on those images. It’s still a bit of a miscellaneous dumping ground for research, but the integration with the rest of macOS means it’s easy to get content in and out.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 스크리브너
 
@@ -95,7 +164,18 @@ I mostly use Apple notes for gathering images and text ideas based on research. 
 
 Scrivener은 이 모든 자료에 대한 훌륭한 위치이지만 항상 찾기 쉬운 것은 아닙니다. 하지만 아마도 이게 제 잘못이거나 제 프로젝트 조직의 문제인 것일지도 모릅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 글쓰기
 
@@ -105,7 +185,18 @@ Scrivener은 이 모든 자료에 대한 훌륭한 위치이지만 항상 찾기
 
 Scrivener는 매우 유연하고 주장이 없는 응용 프로그램 중 하나입니다. 여러분에게 공백 캔버스를 제시하고 원하는 대로 구성할 수 있게 해줍니다. 많은 초보자들에게는 이것이 직면해야 하는 문제일 수 있습니다. 아직 원하는 바를 모르기 때문이죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Scrivener를 사용할 때 제 주요 조언은 꾸준히 사용하는 것입니다. Scrivener 안에 있는 모든 것은 폴더 안의 파일들의 연속입니다. 이 유연성은 프로젝트를 어떻게 설정하고 조직할지에 대한 생각을 바꾼다 해도 아무것도 잃지 않고 그냥 재조직할 수 있다는 것을 의미합니다.
 
@@ -115,7 +206,18 @@ Scrivener를 사용할 때 제 주요 조언은 꾸준히 사용하는 것입니
 
 제가 쓴 가장 긴 단편 소설은 약 4,000 단어 정도인데, 각 단편 소설을 위해 별도의 프로젝트를 만드는 것은 너무 지루해 보였습니다. 그래서 모든 소설을 하나의 프로젝트로 결합했습니다. 아직 이 모든 단편 소설을 어디에 어떻게 발표할지를 고민 중이기 때문에 나중에는 컬렉션 기반 프로젝트로 소설들을 재조직할 수도 있습니다. "매커스크립트" 폴더(기본 이름)가 하나 있고 각각의 이야기가 파일로 되어 있습니다. 각 파일에 몇 가지 사용자 정의 메타데이터를 첨부하여 이야기의 진행 상황을 추적하고 수정에서 오디오 버전을 만들었는지 또는 이미 어디에 발표했는지 등을 파악합니다. 이 정보를 다른 곳(예: Trello)에서 추적하고 싶을지에 대해 확신이 없지만 아직 결정은 내리지 않았습니다. 현재는 사용자 정의 메타데이터와 목록 보기가 잘 작동하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 과거에 Scrivener가 플러그인 아키텍처를 가졌었던 걸 기억하시나요? 그래서 다른 곳으로 내보내는 것이 가능했던 거죠. 예를 들어, 짧은 이야기의 경우, Medium과 같은 곳으로 내보내는 것이 좋을 것 같아요.
 
@@ -125,7 +227,18 @@ Scrivener를 사용할 때 제 주요 조언은 꾸준히 사용하는 것입니
 
 글을 쓰고 긴 형식의 콘텐츠를 조직하는 것이 Scrivener가 빛나는 곳이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 저자 찰스 스트로스가 스크리브너 팟캐스트에서 한 말을 듣고 이것이 스크리브너의 진정한 유연성과 잠재력에 대해 눈을 뜨게 되었습니다. 그가 말한 내용을 그대로 전할 순 없겠지만, 그는 말했습니다:
 
@@ -135,7 +248,18 @@ Scrivener를 사용할 때 제 주요 조언은 꾸준히 사용하는 것입니
 
 나의 베타 독자들은 텍스트를 다양한 형식으로 요청합니다. 여러 형식으로 쉽게 내보내기는 가능하지만, 동시에 모든 메모, 링크, 주석을 보전할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 쓰는 기능 중에서 선호하는 몇 가지를 소개했고, 사용 가능한 것들입니다. 더 유용한 것들이 많이 있을 거라는 것을 알고 있어요. Scrivener이 유용하긴 한데 조금은 닫힌 상자 같은 면이 있어서 확장성 옵션을 정말 원해요. 언어 검사기를 손쉽게 사용하거나 텍스트를 번역하거나 다른 매체에 출판하는 옵션이 없어서 번거로워요.
 
@@ -143,6 +267,17 @@ Scrivener를 사용할 때 제 주요 조언은 꾸준히 사용하는 것입니
 
 그것이 전부입니다. 지금은요. 창작글 쓰기에 속도를 내고 있고 예전보다 많이 창작하고 있어요. 이것은 더 많은 도구 사용하고 프로세스를 개선해서 내생각을 더 많이 나누게 될 것이란 걸 의미해요. 그래서, 몇 달 동안 어떤 변화들을 시도하고 그 변화가 제게 어떤 영향을 미치는지 블로그를 구독해서 확인해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 창작 작업을 할 때 어떤 도구를 사용하시나요? 그 도구들이 어떻게 도움이 되나요?

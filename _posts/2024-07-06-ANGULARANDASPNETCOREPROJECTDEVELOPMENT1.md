@@ -3,16 +3,13 @@ title: "앵귤러Angular와 ASPNET Core 프로젝트 개발 첫걸음부터"
 description: ""
 coverImage: "/assets/img/2024-07-06-ANGULARANDASPNETCOREPROJECTDEVELOPMENT1_0.png"
 date: 2024-07-06 11:04
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-06-ANGULARANDASPNETCOREPROJECTDEVELOPMENT1_0.png
 tag: Tech
 originalTitle: "ANGULAR AND ASP.NET CORE PROJECT DEVELOPMENT 1"
 link: "https://medium.com/@ahmetbilgic81/angular-and-asp-net-core-project-development-1-44cbf3911708"
 isUpdated: true
 ---
-
-
-
 
 ![](/assets/img/2024-07-06-ANGULARANDASPNETCOREPROJECTDEVELOPMENT1_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 ![](/assets/img/2024-07-06-ANGULARANDASPNETCOREPROJECTDEVELOPMENT1_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Angular은 typescripts, html 및 css로 클라이언트 애플리케이션을 구축하는 프레임워크입니다.
 
@@ -32,7 +40,18 @@ Angular 프레임워크는 개발자들이 UI 요소를 걱정하기보다는 �
 
 처음에는 Angular 폴더 구조를 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앵귤러의 앱 폴더는 애플리케이션의 컴포넌트, 서비스, 모듈, 그리고 라우팅 구성을 담당하는 주요 컨테이너 역할을 합니다.
 
@@ -41,14 +60,36 @@ Angular 프레임워크는 개발자들이 UI 요소를 걱정하기보다는 �
 app/
 ├── app.module.ts
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - app.component.ts
 - app.component.html
 - app.component.css
 - ...
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앵귤러 컴포넌트는 UI의 구성 요소입니다. 이들은 TypeScript 파일, 템플릿을 위한 HTML 파일 및 CSS(또는 다른 스타일) 파일로 구성됩니다. 이러한 컴포넌트는 보통 자신의 폴더에 정리되거나 기능이나 기능별로 그룹화됩니다.
 
@@ -58,7 +99,18 @@ app.component.ts, app.component.html 및 app.component.css 파일은 일반적�
 
 앵귤러의 app.module.ts 파일은 애플리케이션의 루트 모듈로 기능하며, 애플리케이션을 어떻게 조립할지에 대한 정보를 제공합니다. 이 파일은 모듈에 속하는 컴포넌트, 지시자, 파이프 및 서비스를 지정하고, 다른 모듈에 대한 종속성을 정의합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Imports: `imports` 배열은 이 모듈이 의존하는 다른 Angular 모듈을 지정합니다.
 
@@ -68,7 +120,18 @@ Providers: `providers` 배열에는 모듈이 Angular의 의존성 주입 시스
 
 Bootstrap: `bootstrap` 배열은 Angular가 어플리케이션을 시작할 때 부트스트랩해야 하는 루트 컴포넌트를 지정합니다. 이 컴포넌트는 일반적으로 애플리케이션의 주 레이아웃과 구조를 정의합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # app.component.ts
 
@@ -78,7 +141,18 @@ app.component.ts는 @angular/core에서 제공되는 @Component 데코레이터�
 
 메타데이터: @Component 데코레이터는 앵귤러가 컴포넌트를 생성하고 렌더링하기 위해 필요한 메타데이터를 제공합니다. 다음 속성을 포함합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - selector: 컴포넌트의 CSS 선택자를 지정합니다. 이 경우 'app-root'라는 것은 Angular가 HTML에서 `app-root`를 찾으면 AppComponent를 렌더링합니다.
 - templateUrl(또는 template): 컴포넌트와 연결된 HTML 템플릿 파일을 지정합니다. 이 파일은 Angular의 템플릿 구문을 사용하여 컴포넌트의 UI 구조를 정의합니다.
@@ -92,7 +166,18 @@ app.component.ts는 @angular/core에서 제공되는 @Component 데코레이터�
 
 # HTTP GET 방법
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Angular에서는 http.get 메소드를 사용하여 서버로 HTTP GET 요청을 보내 데이터를 가져옵니다.
 
@@ -104,7 +189,18 @@ this.http.get < any > "https://api.example.com/data";
 
 http.get 메소드를 사용하려면 다음 단계를 따라야 합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 모듈 파일 (예: app.module.ts)에서 HttpClientModule를 가져왔는지 확인하세요. 이 모듈은 HTTP 요청을 보내는 데 사용되는 HttpClient 서비스를 제공합니다.
 - HTTP 요청을 보내려는 컴포넌트나 서비스에 HttpClient 서비스를 주입하세요. 일반적으로 생성자를 통해 이 작업을 수행합니다.
@@ -118,7 +214,18 @@ Angular에서는 HTTP POST 메서드를 사용하여 지정된 URL을 통해 서
 
 우리는 다음과 같이 http post 메서드를 호출합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 데이터를 보낼 POST 요청을 보내려면 HttpClient의 post 메서드를 사용하세요.
@@ -131,7 +238,18 @@ this.http.post < any > ("https://api.example.com/post-endpoint", data);
 
 Angular에서는 기존 데이터를 업데이트하기 위해 서버로 HTTP PUT 요청을 보내기 위해 this.http.put을 사용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음과 같이 PUT 메서드를 호출합니다:
 
@@ -143,7 +261,18 @@ put 메서드를 사용하여 HttpClient의 PUT 요청을 지정된 URL로 보�
 
 # HTTP DELETE 메서드
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Angular에서는 이.http.delete을 사용하여 데이터 또는 리소스를 삭제하기 위해 서버로 HTTP DELETE 요청을 보냅니다.
 
@@ -155,7 +284,18 @@ this.http.delete < any > `https://api.example.com/delete-endpoint/${id}`;
 
 HttpClient의 delete 메서드를 사용하여 지정된 URL로 DELETE 요청을 보냅니다. delete 메서드는 HTTP 응답의 Observable을 반환하며, 이를 구독하여 응답을 처리할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요약하자면, Angular는 개발자가 쉽게 동적이고 확장 가능한 웹 애플리케이션을 구축할 수 있도록 하는 견고한 프레임워크로 빛을 발합니다. 이 글에서는 Angular 웹 애플리케이션을 개발하는 데 도움이 되는 여러 가지 주요 기능을 살펴보았습니다.
 

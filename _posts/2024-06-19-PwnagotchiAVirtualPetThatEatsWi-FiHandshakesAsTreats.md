@@ -3,17 +3,13 @@ title: "Pwnagotchi Wi-Fi 핸드셰이크를 간식으로 먹는 가상 애완 �
 description: ""
 coverImage: "/assets/img/2024-06-19-PwnagotchiAVirtualPetThatEatsWi-FiHandshakesAsTreats_0.png"
 date: 2024-06-19 04:22
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-PwnagotchiAVirtualPetThatEatsWi-FiHandshakesAsTreats_0.png
 tag: Tech
 originalTitle: "Pwnagotchi: A Virtual Pet That Eats Wi-Fi Handshakes As Treats"
 link: "https://medium.com/radio-hackers/pwnagotchi-a-virtual-pet-that-eats-wi-fi-handshakes-as-treats-93b741630aa6"
 isUpdated: true
 ---
-
-
-
-
 
 ![image](/assets/img/2024-06-19-PwnagotchiAVirtualPetThatEatsWi-FiHandshakesAsTreats_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이 장치의 목적은 (윤리적인) 해커들이 강화 학습, Wi-Fi 네트워킹 및 정찰, 핸드셰이크 프로세스에 대해 학습하고 더 많은 산책을 나가는 이유를 제공하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 버추얼 펫을 더 자주 사용할수록, 핸드셰이크를 캡처하고 pcap 파일을 얻는 것이 더욱 빠르고 효과적으로 이루어집니다. 당신의 기기는 당신과 함께 학습하여 효율성을 최적화할 것입니다.
 
@@ -35,7 +42,18 @@ isUpdated: true
 
 # 하드웨어:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제 장치에 선택한 하드웨어 구성 요소로 시작해 보겠습니다:
 
@@ -49,14 +67,36 @@ isUpdated: true
 
 휴대용 장치로 만들기 위해 단순히 테이프로 모든 부품을 함께 고정했습니다. 정말 수제 같이 보이죠 :) 다른 다양한 소재를 사용할 수 있습니다. 가상 애완동물을 위한 케이스를 3D 프린팅하여 제작할 수도 있습니다. 아래 링크에서 다른 대안을 확인해보세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 링크를 확인하시면 부품들을 모두 모아 조립하는 데 도움을 받을 수 있습니다:
 
 - [동영상 1](https://www.youtube.com/watch?v=R-fTPv09vQ8)
 - [동영상 2](https://www.youtube.com/watch?v=gyKT_mASSuc&t=1288s)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 설치 및 소프트웨어:
 
@@ -66,7 +106,18 @@ Pwnagotchi는 여러 해 동안 진행되었고 많은 변경/업데이트를 �
 
 https://github.com/jayofelony/pwnagotchi/releases
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작업을 완료한 후 SD 카드를 PC에 연결하십시오. 이제 우리는 balenaEtcher를 사용하여 Pwnagotchi 이미지를 SD 카드에 플래싱할 것입니다. 이 SD 카드는 가상 장치의 메모리 은행이 될 것입니다. 다음 URL을 방문하여 다운로드하십시오:
 
@@ -76,7 +127,18 @@ https://etcher.balena.io
 
 ![Pwnagotchi 이미지](/assets/img/2024-06-19-PwnagotchiAVirtualPetThatEatsWi-FiHandshakesAsTreats_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 이미지를 플래시하고 나서 SD 카드를 라즈베리 파이에 넣은 다음, 라즈베리 파이를 PC에 연결하세요. 장치의 데이터 포트와 데이터 케이블을 사용하여 파일을 변경/편집/전송할 수 있도록 해주세요.
 
@@ -86,7 +148,18 @@ https://etcher.balena.io
 
 ![이미지](/assets/img/2024-06-19-PwnagotchiAVirtualPetThatEatsWi-FiHandshakesAsTreats_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 장치의 네트워크 어댑터 설정을 편집하여 인터넷을 사용하고 cmd를 통해 ssh 포트를 사용하여 장치에 액세스할 수 있도록 할 것입니다.
 
@@ -96,7 +169,18 @@ https://etcher.balena.io
 
 ![image](/assets/img/2024-06-19-PwnagotchiAVirtualPetThatEatsWi-FiHandshakesAsTreats_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 모든 준비가 끝났어요. SSH 포트를 사용하여 디바이스에 연결하세요. 기본 비밀번호는 "raspberry"입니다. 시스템에 접속한 후 비밀번호를 변경할 수 있어요.
 
@@ -106,7 +190,18 @@ https://etcher.balena.io
 
 ![이미지](/assets/img/2024-06-19-PwnagotchiAVirtualPetThatEatsWi-FiHandshakesAsTreats_7.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 핑을 치면 존재합니다. 이제 우리는 인터넷 연결이 확실히 되어 있는지 확인했습니다.
 
@@ -116,7 +211,18 @@ Pwnagotchi에서 PC로 파일을 빠르게 다운로드하기 위해 FileZilla�
 
 여기에 최신 소프트웨어를 올바르게 설치하는 방법을 보여주는 비디오 링크가 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [링크](https://www.youtube.com/watch?v=OFxKN3N4gE8)
 
@@ -126,7 +232,18 @@ Pwnagotchi에서 PC로 파일을 빠르게 다운로드하기 위해 FileZilla�
 
 ![이미지](/assets/img/2024-06-19-PwnagotchiAVirtualPetThatEatsWi-FiHandshakesAsTreats_8.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 사랑하는 Pwnagotchi에는 3가지 모드가 있어요:
 
@@ -136,8 +253,18 @@ Pwnagotchi에서 PC로 파일을 빠르게 다운로드하기 위해 FileZilla�
 
 AI: Pwnagotchi는 기본적으로 AUTO 모드에서 이 모드로 전환해요. 여기서 AI가 등장하여 공격에서 더 효과적일 수 있는 방법을 결정하기 위해 알고리즘을 사용할 거에요. 예를 들어 핸드셰이크를 캡처한 모뎀인 경우, 다시 핸드셰이크를 빠르게 얻기 위한 가장 빠른 방법을 사용할 거에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-19-PwnagotchiAVirtualPetThatEatsWi-FiHandshakesAsTreats_9.png)
 
@@ -147,8 +274,18 @@ AI: Pwnagotchi는 기본적으로 AUTO 모드에서 이 모드로 전환해요. 
 
 ![image](/assets/img/2024-06-19-PwnagotchiAVirtualPetThatEatsWi-FiHandshakesAsTreats_10.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본 시스템 설정에서 'handshakes'라는 디렉토리가 있습니다. 여기에 캡처한 .pcap 파일이 다운로드됩니다.
 
@@ -158,7 +295,18 @@ AI: Pwnagotchi는 기본적으로 AUTO 모드에서 이 모드로 전환해요. 
 
 ![이미지](/assets/img/2024-06-19-PwnagotchiAVirtualPetThatEatsWi-FiHandshakesAsTreats_12.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용 가능한 플러그인을 확인하려면 아래 명령을 실행할 수 있어요. 원하시는 대로 플러그인을 추가/업데이트/삭제할 수 있어요.
 
@@ -168,7 +316,18 @@ AI: Pwnagotchi는 기본적으로 AUTO 모드에서 이 모드로 전환해요. 
 
 이렇게 하면 원하는 대로 손쉽게 플러그인을 활성화/비활성화할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-PwnagotchiAVirtualPetThatEatsWi-FiHandshakesAsTreats_14.png" />
 
@@ -178,7 +337,18 @@ AI: Pwnagotchi는 기본적으로 AUTO 모드에서 이 모드로 전환해요. 
 
 https://pwnagotchi.ai/intro/
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-PwnagotchiAVirtualPetThatEatsWi-FiHandshakesAsTreats_15.png" />
 

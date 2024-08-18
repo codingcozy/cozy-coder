@@ -3,17 +3,13 @@ title: "대형 언어 모델을 향상시키는 방법 RAG vs LoRA 비교"
 description: ""
 coverImage: "/assets/img/2024-07-09-RAGvsLoRAEnhancingLargeLanguageModels_0.png"
 date: 2024-07-09 10:14
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-RAGvsLoRAEnhancingLargeLanguageModels_0.png
 tag: Tech
 originalTitle: "RAG vs. LoRA: Enhancing Large Language Models"
 link: "https://medium.com/@prglabs/rag-vs-lora-enhancing-large-language-models-ec1a5038e639"
 isUpdated: true
 ---
-
-
-
-
 
 ![RAG](/assets/img/2024-07-09-RAGvsLoRAEnhancingLargeLanguageModels_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 소환-증강 생성(RAG)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **Retrieval-Augmented Generation (RAG)**은 외부 지식 검색을 통해 대형 언어 모델의 능력을 향상시키는 인기 있는 방법입니다. RAG에는 두 가지 주요 구성 요소가 있습니다: **Retriever**(검색기)는 지식 베이스에서 관련 정보를 검색하고 검색합니다. 그리고 **Generator**(생성기)는 입력 및 검색된 컨텍스트를 기반으로 텍스트를 생성하는 언어 모델입니다.
 
@@ -36,7 +43,18 @@ isUpdated: true
 
 **지식 베이스 구축**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 RAG 시스템은 다양한 아키텍처와 기술을 사용하여 설계됩니다. 이에는 문서 저장을 위한 데이터베이스 (예: Elasticsearch 또는 MongoDB), 임베딩 관리를 위한 벡터 데이터베이스 (Pinecone, Weaviate, 또는 Kinetica), 클라우드 저장소 (AWS S3 또는 Google Cloud Storage) 등이 포함됩니다. 텍스트 전처리 도구로는 언어 감지기, NLTK, spaCy, 그리고/또는 HuggingFace Tokenizers가 사용되며, 임베딩 모델(예: 트랜스포머), 밀집 검색을 위한 검색 시스템(FAISS, Annoy, HNSW), 희소 검색(BM25, TF-IDF) 또는 밀집 및 희소 방법을 결합한 하이브리드 접근 방식 등이 활용됩니다. 언어 생성 모델로는 트랜스포머 기반 모델(예: GPT 시리즈, T5, BART) 뿐만 아니라 LLaMA, BLOOM, OPT 등의 오픈 소스 모델과 OpenAI GPT, Anthropic Claude, Google PaLM과 같은 상용 API도 사용됩니다. 이와 같은 다양한 구성 요소들을 연결해주는 통합 프레임워크로는 LangChain, RAG 시스템을 구축하는 데 사용되는 종단 간 프레임워크인 Haystack, 또는 Python, TensorFlow 또는 PyTorch와 같은 커스텀 프레임워크 등이 있습니다. 마지막으로는 Lucene 기반(예: Elasticsearch, Apache Solr)이나 벡터 검색(Faiss, Annoy, ScaNN)과 같은 기술을 사용한 색인 및 검색 능력이 제공됩니다.
 
@@ -53,7 +71,18 @@ RAG 시스템은 다양한 아키텍처와 기술을 사용하여 설계됩니�
 - 데이터 파이프라인: 데이터 워크플로 관리를 위한 Apache Airflow, Luigi 및 메시지 큐인 Kafka 또는 RabbitMQ
 - 평가 지표: 생성 품질에 대한 ROUGE, BLEU, 검색 품질에 대한 Mean Reciprocal Rank(MRR) 및 Normalized Discounted Cumulative Gain(NDCG)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 공용 클라우드 제공업체인 Google Cloud Platform (GCP) 및 Amazon Web Services (AWS)는 이러한 아키텍처의 개발 및 관리를 간소화하는 일련의 1차 도구를 제공합니다.
 
@@ -63,7 +92,18 @@ RAG는 특히 특정 또는 최신 정보에 액세스가 필요한 작업에 �
 
 # Low-Rank Adaptation (LoRA)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LoRA는 사전 훈련된 언어 모델을 특정 작업이나 도메인에 맞게 세밀하게 조정하는 매개 변수 효율적인 파인 튜닝 기술입니다. 이 기술은 먼저 사전 훈련된 모델의 가중치를 고정시킴으로써 작동합니다 (원래의 사전 훈련된 모델 매개 변수는 변경되지 않습니다). 그런 다음 다음을 도입합니다:
 
@@ -74,7 +114,18 @@ LoRA는 사전 훈련된 언어 모델을 특정 작업이나 도메인에 맞�
 
 # 대등한 비교로 이동하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 RAG은 추론 시 외부 정보를 제공하여 모델의 성능을 향상시킵니다. LoRA는 소수의 매개변수를 미세 조정하여 모델의 적응성을 향상시킵니다. RAG는 검색 메커니즘을 통해 동적 유연성을 제공하며, LoRA는 교체 가능한 저랭크 행렬을 통해 모듈식 적응성을 제공합니다. RAG는 검색 시스템에 대한 추가 계산 리소스와 저장 공간이 필요합니다. LoRA는 미세 조정을 위한 계산 및 저장 요구 사항을 크게 줄입니다. RAG는 지식 베이스를 업데이트함으로써 새로운 정보를 신속하게 통합할 수 있지만, LoRA는 새로운 도메인이나 작업에 적응하기 위해 재학습이 필요합니다(이 과정은 비교적 빠릅니다). RAG는 최신이나 특정 지식이 필요한 작업의 성능을 크게 향상시킬 수 있습니다. LoRA는 한정된 리소스로 완전한 미세 조정에 근접한 성능을 달성할 수 있습니다.
 
@@ -84,7 +135,18 @@ RAG와 LoRA는 LLM을 향상시키기 위한 두 가지 다른 패러다임을 �
 
 RAG와 LoRA 중 어떤 것을 선택할지는 구체적인 사용 사례에 따라 다릅니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 외부 지식에 액세스해야 하는 애플리케이션의 경우, RAG가 종종 더 나은 선택입니다.
 - 특정 도메인이나 작업에 효율적으로 적응해야 할 때, 특히 한정된 컴퓨팅 자원으로, LoRA는 뛰어난 해결책을 제공합니다.

@@ -3,17 +3,13 @@ title: "Midjourney로 추상적인 것을 탐험하기"
 description: ""
 coverImage: "/assets/img/2024-06-19-GoingabstractwithMidjourney_0.png"
 date: 2024-06-19 20:50
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-GoingabstractwithMidjourney_0.png
 tag: Tech
 originalTitle: "Going abstract with Midjourney"
 link: "https://medium.com/let-there-be-prompt/going-abstract-with-midjourney-20dd74a691e7"
 isUpdated: true
 ---
-
-
-
-
 
 Midjourney의 새로운 개인화 기능을 더 철저히 테스트하고, 그 과정에서 조금은 추상 미술로 놀았어요.
 
@@ -23,7 +19,18 @@ Midjourney의 새로운 개인화 기능을 더 철저히 테스트하고, 그 �
 
 그렇기에 추상 미술을 좋아하거나 싫어하는 것도 비슷해요. 추상 미술은 현실적인 객체를 표현하는 것이 아니에요; 그것은 색채, 형상, 그리고 특정 기술로 감정, 분위기, 또는 아이디어를 전달하는 것이기 때문이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-GoingabstractwithMidjourney_0.png" />
 
@@ -33,7 +40,18 @@ Midjourney의 새로운 개인화 기능을 더 철저히 테스트하고, 그 �
 
 그래서 대부분의 Midjourney 사용자들은 원하는 예술적 효과와 감정 요소를 달성하기 위해 아이디어를 설명하는 대신 기술이나 스타일을 정의하는 것을 고수합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사는 추상적 사고나 기계에 추상적 개념을 전달하는 데 관한 것이 아니므로, 우리도 이 간소화된 방법을 사용할 겁니다.
 
@@ -43,7 +61,18 @@ Midjourney의 새로운 개인화 기능을 더 철저히 테스트하고, 그 �
 
 ![이미지](/assets/img/2024-06-19-GoingabstractwithMidjourney_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 추상적인 그래픽은 추상 회화와 같은 것이 아닙니다. 그리고 추상 조각 예술 및 설치 예술은 서로에게 더 멀리 떨어진 개념입니다. 그러나 모두가 '추상적'일 수 있습니다.
 
@@ -53,7 +82,18 @@ Midjourney의 새로운 개인화 기능을 더 철저히 테스트하고, 그 �
 
 그래서 여기 한 프롬프트의 예제가 있어:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-GoingabstractwithMidjourney_2.png" />
 
@@ -77,7 +117,18 @@ Midjourney의 새로운 개인화 기능을 더 철저히 테스트하고, 그 �
 
 이 용어들은 각각 독특한 특성과 Midjourney 이미지 생성에 미치는 영향을 갖는 추상 예술 내의 다양한 개념과 운동을 다룹니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 물론, 이것은 짧은 목록입니다. 하지만 "추상" 기술과 아이디어의 다양한 스타일, 움직임, 명확한 개념을 더 찾는 것은 어려운 일이 아닙니다.
 
@@ -87,7 +138,18 @@ Midjourney의 성과에서 개인화의 차이를 찾고 있어서 각 일련의
 
 대부분의 경우, 개인화는 더 나은 이미지를 만들어 냈거나, 적어도 내게는 더 마음에 든 것 같아요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 중요한 관찰 하나 있어요. 개인화를 사용할 때는 프롬프트 문구에 따르는 정확도가 낮아집니다. Midjourney는 프롬프트에서 키워드를 건너뛸 가능성이 높아질 거에요. 또한 이미지 격자의 변화가 뚜렷하게 감소할 거예요.
 
@@ -97,9 +159,20 @@ Midjourney의 성과에서 개인화의 차이를 찾고 있어서 각 일련의
 
 ![이미지](/assets/img/2024-06-19-GoingabstractwithMidjourney_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-지금까지의 결론은 이 기능이 훌륭하며 이미지에 긍정적인 영향을 미친다는 것입니다. 복잡한 프롬프트와 함께 사용할 때 조심할 것이며, 이미지 그리드의 변이가 줄어드는 것을 보상하기 위해 "혼돈"의 작은 설정을 발견했습니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+지금까지의 결론은 이 기능이 훌륭하며 이미지에 긍정적인 영향을 미친다는 것입니다. 복잡한 프롬프트와 함께 사용할 때 조심할 것이며, 이미지 그리드의 변이가 줄어드는 것을 보상하기 위해 "혼돈"의 작은 설정을 발견했습니다.
 
 추상적인 이미지를 만드는 것이 정말 재미있었고, 여러분도 즐기시길 바랍니다.
 

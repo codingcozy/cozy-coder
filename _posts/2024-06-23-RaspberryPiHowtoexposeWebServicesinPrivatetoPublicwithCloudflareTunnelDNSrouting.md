@@ -3,17 +3,13 @@ title: "라즈베리 파이 Cloudflare 터널 - DNS 라우팅을 사용해 내�
 description: ""
 coverImage: "/assets/img/2024-06-23-RaspberryPiHowtoexposeWebServicesinPrivatetoPublicwithCloudflareTunnelDNSrouting_0.png"
 date: 2024-06-23 18:11
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-RaspberryPiHowtoexposeWebServicesinPrivatetoPublicwithCloudflareTunnelDNSrouting_0.png
 tag: Tech
 originalTitle: "Raspberry Pi: How to expose Web Services in Private to Public with Cloudflare Tunnel — DNS routing"
 link: "https://medium.com/@life-is-short-so-enjoy-it/raspberry-pi-how-to-expose-web-services-in-private-to-public-with-cloudflare-tunnel-dns-routing-000e8792cff2"
 isUpdated: true
 ---
-
-
-
-
 
 클라우드플레어 터널을 사용하여 홈랩에 있는 서비스를 공용으로 노출할 수 있습니다. 이것은 포트 포워딩의 대안이 될 수 있습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 자신이 하는 일의 결과와 위험을 알지 못한 채, 개인 서비스를 노출하는 것은 위험합니다!!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 지침을 따를 때 주의하세요.
 
@@ -33,7 +40,18 @@ Cloudflare 터널은 구성된 DNS 또는 IP에 대해서만 트래픽을 라우
 
 # 소개
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HomeLab를 운영하는 주된 이유 중 하나는 자체 구축한 웹 서비스를 사설 네트워크에서 호스팅하는 것입니다. 이 웹 서비스를 구축하고 나면 많은 사용자들이 사용할 수 있도록 공용 네트워크에 노출되어야 합니다. (그것이 제 목표입니다.)
 
@@ -43,7 +61,18 @@ HomeLab를 운영하는 주된 이유 중 하나는 자체 구축한 웹 서비�
 
 # 클라우드플레어는 어떻게 작동하나요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-23-RaspberryPiHowtoexposeWebServicesinPrivatetoPublicwithCloudflareTunnelDNSrouting_1.png)
 
@@ -58,7 +87,18 @@ HomeLab를 운영하는 주된 이유 중 하나는 자체 구축한 웹 서비�
 
 요약하면, 클라우드플레어 터널은 프라이빗 인프라를 클라우드플레어의 글로벌 네트워크에 안전하고 효율적으로 연결하는 방법을 제공하여 성능, 신뢰성 및 보안을 향상시킵니다. (물론 여러분의 기대에 따라 달라집니다!)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # DNS 라우트와 IP 라우트 비교
 
@@ -68,7 +108,18 @@ Cloudflare 터널은 DNS 라우트와 IP 라우트 두 가지 라우팅 옵션�
 
 DNS 라우팅을 사용하면 Cloudflare 터널 클라이언트가 호스트 이름을 Cloudflare에 등록하고 해당 호스트 이름에 대한 DNS 요청이 가장 가까운 Cloudflare 데이터 센터로 라우팅됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## DNS 라우트의 장점
 
@@ -81,7 +132,18 @@ DNS 라우팅을 사용하면 Cloudflare 터널 클라이언트가 호스트 이
 - DNS 전파: DNS 레코드의 변경 사항은 전파되는 데 시간이 걸 수 있으며, 라우팅 변경이 적용되는 데 걸리는 시간에 영향을 줄 수 있습니다.
 - 제한된 제어: IP 라우트와 비교하여 라우팅에 대한 세밀한 제어가 적습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## IP 경로 작동 방식
 
@@ -93,7 +155,18 @@ IP 라우팅을 사용하면 Cloudflare 터널 클라이언트가 특정 IP 주�
 - 상세한 제어: 라우팅에 대해 더 많은 제어권을 가지고 서버에 연결할 수 있는 IP 주소를 지정할 수 있습니다.
 - 즉시 트래픽: IP 경로에 대한 변경 사항이 DNS 전파를 기다리지 않고 즉시 적용됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## IP 경로 고려 사항
 
@@ -106,7 +179,18 @@ IP 라우팅을 사용하면 Cloudflare 터널 클라이언트가 특정 IP 주�
 - DNS 경로: 간편함, 동적 IP 주소, 그리고 클라우드플레어가 부하 분산과 트래픽 라우팅을 자동으로 처리하길 원하는 경우 DNS 라우팅을 사용하세요.
 - IP 경로: 라우팅 제어가 필요하거나 정적 IP 주소가 필요하거나 DNS 전파를 기다릴 필요 없이 즉시 트래픽 라우팅 변경이 필요한 경우 IP 라우팅을 사용하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최종적으로 DNS 라우팅과 IP 라우팅 사이의 선택은 특정 사용 사례, 요구 사항 및 제어, 유연성 및 관리 용이성에 대한 선호도에 따라 다릅니다.
 
@@ -116,7 +200,18 @@ IP 라우팅을 사용하면 Cloudflare 터널 클라이언트가 특정 IP 주�
 
 둘째, 저는 단순히 특정 도메인 이름으로의 트래픽을 홈랩으로 라우팅하길 원했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 세 번째로, 클라우드플레어 터널 구성을 만들기 위해 클라우드플레어 클라이언트 명령줄 인터페이스(cloudflared CLI)를 사용하기로 결정했어요. 어떻게 작동하는지 알아내는 데 조금 더 시간이 걸렸지만, 구성을 자동화하는 데 도움이 되었어요 (실제로는 클라우드플레어 패키지 설치뿐이지만). 안시블 플레이북에서 자동화되고 스크립팅된 것들이 있었지만, 내가 개입해야 했던 몇 가지 단계들이 있었기 때문에 많이 도움이 되지는 않았어요.
 
@@ -126,7 +221,18 @@ IP 라우팅을 사용하면 Cloudflare 터널 클라이언트가 특정 IP 주�
 
 클라우드플레어 터널을 통한 DNS 라우트를 위해 나에게는 세 가지 엔티티가 있었어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 도메인 이름의 CNAME 레코드
 - Cloudflare의 Cloudflare 터널 데몬/구성
@@ -138,7 +244,18 @@ IP 라우팅을 사용하면 Cloudflare 터널 클라이언트가 특정 IP 주�
 
 라즈베리 파이에 클라우드플레어드(클라이언트)를 여러 번 설치했습니다. 이 작업은 간단했지만 실험 중에 반복되어 수행되었기 때문에, 라즈베리 파이에 클라우드플레어드를 설치하는 Ansible Playbook을 작성했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앤서블 플레이북을 사용하면 GPG 키와 Cloudflared가 간단히 설치됩니다. (현재 Debian + Bookworm만 지원됩니다.)
 
@@ -162,7 +279,18 @@ ansible-playbook --inventory <대상 머신 IP 주소>, \
 
 # Cloudflared CLI를 사용하여 Cloudflare 터널 구성하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 1: 로그인하고 루트로 전환하기
 
@@ -174,12 +302,23 @@ cloudflared --version
 # root 사용자로 전환
 sudo -s
 # root 사용자의 홈 디렉토리로 이동
-cd ~ 
+cd ~
 ```
 
 ![이미지](/assets/img/2024-06-23-RaspberryPiHowtoexposeWebServicesinPrivatetoPublicwithCloudflareTunnelDNSrouting_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 2: 클라우드플레어에 로그인하여 클라우드플레어 터널 승인하기
 
@@ -189,7 +328,18 @@ Cloudflared CLI를 사용하려면 클라우드플레어 로그인 및 승인을
 
 해당 명령은 아래 스크린샷과 같은 https 링크를 출력했습니다. URI는 복사하여 브라우저에 붙여넣어 클라우드플레어 터널 승인을 진행해야 했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 과정 중에 Cloudflare Tunnel과 구성하고 싶은 도메인을 선택해야 했어요. (저는 소유한 도메인 중 하나를 선택했어요.)
 
@@ -201,8 +351,18 @@ cloudflared login
 
 <img src="/assets/img/2024-06-23-RaspberryPiHowtoexposeWebServicesinPrivatetoPublicwithCloudflareTunnelDNSrouting_4.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Step 3: Create Cloudflare Tunnel](/assets/img/2024-06-23-RaspberryPiHowtoexposeWebServicesinPrivatetoPublicwithCloudflareTunnelDNSrouting_5.png)
 
@@ -212,8 +372,18 @@ cloudflared login
 
 ## Step 3: Create Cloudflare Tunnel
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "wowamazon"이라는 이름의 터널을 생성했어요. Cloudflare 터널을 생성한 후에는 `/root/.cloudflared` 경로 아래에 `uuid`.json 형식의 터널 전용 자격 증명이 생성되었어요.
 
@@ -234,7 +404,18 @@ cloudflared tunnel delete <터널 이름> -f
 
 <img src="/assets/img/2024-06-23-RaspberryPiHowtoexposeWebServicesinPrivatetoPublicwithCloudflareTunnelDNSrouting_8.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-23-RaspberryPiHowtoexposeWebServicesinPrivatetoPublicwithCloudflareTunnelDNSrouting_9.png)
 
@@ -244,7 +425,18 @@ Cloudflare 터널을 생성한 후, Cloudflare 터널을 통해 라우팅하고�
 
 DNS 경로 생성은 wowamazon.party와 같은 도메인 아래 CNAME 레코드를 생성했습니다. 아래 스크린샷을 참조해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한, 방금 추가한 Routes로 Cloudflare Tunnel이 업데이트되었습니다. 아래 스크린샷처럼요.
 
@@ -260,7 +452,18 @@ cloudflared tunnel route dns wowamazon *.wowamazon.party
 
 ![이미지2](/assets/img/2024-06-23-RaspberryPiHowtoexposeWebServicesinPrivatetoPublicwithCloudflareTunnelDNSrouting_11.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-23-RaspberryPiHowtoexposeWebServicesinPrivatetoPublicwithCloudflareTunnelDNSrouting_12.png" />
 
@@ -272,7 +475,18 @@ cloudflared tunnel route dns wowamazon *.wowamazon.party
 
 ## 단계 5: Cloudflare 터널 구성 파일 생성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 클라우드플레어 터널 구성 파일을 생성했어요. 경로는 /root/.cloudflared/config.yml 입니다.
 
@@ -294,7 +508,18 @@ ingress:
 
 ![이미지](/assets/img/2024-06-23-RaspberryPiHowtoexposeWebServicesinPrivatetoPublicwithCloudflareTunnelDNSrouting_13.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 6: 구성으로 클라우드플레어 터널 실행하기
 
@@ -304,7 +529,18 @@ ingress:
 
 또한, https://wowamazon.party로 이동하여 아래 스크린샷처럼 클라우드플레어 터널이 귀하의 홈랩에서 서비스로 트래픽을 라우팅하기 시작했음을 확인할 수 있었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 cloudflared 터널 --config /root/.cloudflared/config.yml 실행 <터널-이름>
@@ -322,8 +558,18 @@ cloudflared 터널 --config /root/.cloudflared/config.yml 실행 wowamazon
 
 ![이미지 3](/assets/img/2024-06-23-RaspberryPiHowtoexposeWebServicesinPrivatetoPublicwithCloudflareTunnelDNSrouting_16.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 7: 클라우드플레어 터널을 서비스로 실행하기
 
@@ -333,7 +579,18 @@ cloudflared 터널 --config /root/.cloudflared/config.yml 실행 wowamazon
 
 "cloudflared service install" 명령어를 사용하여 cloudflared 서비스를 설치할 수 있습니다. "cloudflared service"가 설치되면 /root/.cloudflared/config.yml의 사본이 /etc/cloudflared/config.yml로 복사됩니다. 아래 스크린샷과 같이요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 "cloudflared service"가 문제없이 설치되었다면, 서비스는 자동으로 실행됩니다. 아래 명령어를 사용하여 서비스 상태를 확인할 수 있습니다.
 
@@ -357,7 +614,18 @@ systemctl start cloudflared.service
 
 <img src="/assets/img/2024-06-23-RaspberryPiHowtoexposeWebServicesinPrivatetoPublicwithCloudflareTunnelDNSrouting_18.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 마무리
 

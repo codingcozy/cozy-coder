@@ -3,18 +3,13 @@ title: "애플의 간결함 역설"
 description: ""
 coverImage: "/assets/img/2024-06-19-TheParadoxofAppleSimplicity_0.png"
 date: 2024-06-19 01:05
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-TheParadoxofAppleSimplicity_0.png
 tag: Tech
 originalTitle: "The Paradox of Apple Simplicity"
 link: "https://medium.com/@jbkendrick_50942/the-paradox-of-apple-simplicity-7db7020be28f"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![이미지](/assets/img/2024-06-19-TheParadoxofAppleSimplicity_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 ## 파일 이동
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 가지 사례는 MacOS에서 파일을 이동하는 경우입니다. 애플 베테란이 매우 잘 알고 있듯이, 다른 운영 체제와 달리 'Finder'에는 파일을 이동시키는 "잘라내기" 기능이 없습니다. 대신 파일을 대상 위치로 복사한 다음 원본 파일을 삭제합니다. 왜 그럴까요? 사용자가 파일을 실수로 잘라내고 대상에 붙여넣기를 잊는 것을 막기 위해서일까요? 당신의 추측이 나와 같습니다.
 
@@ -33,7 +38,18 @@ isUpdated: true
 
 🍎 실제로, 마우스나 트랙패드를 사용하여 파일을 동일한 또는 다른 Finder 창으로 드래그하여 이동할 수 있습니다. 그리고 Apple은 목적지 폴더에서 사용할 키보드 단축키 (Cmd+Option+V)를 가지고 있어 복사한 파일을 붙여넣고 원본 폴더에서 삭제하는 것이 가능합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 경우에서 이 기능은 파일이 여전히 사용 가능한지를 보증하여 사용자 보호를 위한 차이의 이유로 손을 든다.
 
@@ -43,7 +59,18 @@ isUpdated: true
 
 🍎 만약 우클릭한다면 삭제 옵션이 없지만, "휴지통으로 이동" 옵션이 있어 원하는 작업을 완료할 수 있습니다. 더불어 "휴지통으로 이동" 명령에는 Cmd+Delete 빠른 키가 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다시 한 번, Apple은 사용자들을 실수로 파일을 삭제하는 것으로부터 보호하고 더 신중한 작업을 통해 파일을 삭제하도록 강제하기 위해 노력하고 있는 것 같네요.
 
@@ -53,7 +80,18 @@ isUpdated: true
 
 이 부분은 키보드 공간을 절약하기 위해 한 개의 키를 생략해서 이렇게 작동하는 것으로 보이는데, 그렇다고 간단함이라고 라벨을 붙일 수도 있겠죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🍎 사실, 애플 제품 중 하나에는 예외가 있습니다. 바로 아래 사진에 나와 있는 외부 매직 키보드에 있는 숫자 키패드가 있습니다. 이 키보드에는 실제로 두 개의 키가 있습니다. 한 개는 Backspace를 나타내고, 다른 하나는 Delete를 나타내며, 이는 Windows 및 다른 운영 체제를 흉내냅니다. MacBook을 사용할 때는 몇 가지 키보드 단축키가 있습니다. FN+Delete 또는 CTRL+d를 사용하여 오른쪽으로 글자를 삭제할 수 있습니다.
 
@@ -63,7 +101,18 @@ isUpdated: true
 
 다른 운영 체제와 마찬가지로, Apple은 화면에 열려있는 각 창에 대한 제어를 "신호등" 제어를 통해 제공합니다. 그러나 여러 창을 제어할 수 있는 애플리케이션(예: Word나 Pages에서 여러 문서를 열 때)의 경우, 빨간색 닫기 버튼이 다른 운영 체제의 X버튼처럼 애플리케이션을 닫지 않을 수도 있습니다. 모든 문서 창을 닫은 후에도 애플리케이션이 열려 있는 경우가 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![파라독스](/assets/img/2024-06-19-TheParadoxofAppleSimplicity_3.png)
 
@@ -73,7 +122,18 @@ isUpdated: true
 
 🍎 애플리케이션을 닫는 방법에는 실제로 여러 가지 옵션이 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 애플리케이션의 메인 메뉴에서 종료 명령을 선택하세요.
 - 활성화된 애플리케이션을 종료하려면 Cmd+Q 퀵 키를 사용하세요.
@@ -85,6 +145,17 @@ isUpdated: true
 
 이러한 애플의 딜레마 중 어떤 것이나 다른 것으로 고민한 적이 있나요? 그렇다면, 다른 사람들을 위해 이 게시물의 유용성을 높이기 위해 댓글에 지적해 주시면 매우 감사하겠습니다. 그리고 여기서 무언가가 잘못되었다면 알려주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 언제나 읽어 주셔서 감사합니다. J

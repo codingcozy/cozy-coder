@@ -3,7 +3,7 @@ title: "Electron JS 크로스 플랫폼 데스크탑 앱 제작 종합 가이드
 description: ""
 coverImage: "/assets/img/2024-07-07-ElectronJSAComprehensiveGuidetoBuildingCross-PlatformDesktopApps_0.png"
 date: 2024-07-07 23:03
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-ElectronJSAComprehensiveGuidetoBuildingCross-PlatformDesktopApps_0.png
 tag: Tech
 originalTitle: "Electron JS: A Comprehensive Guide to Building Cross-Platform Desktop Apps"
@@ -11,21 +11,27 @@ link: "https://medium.com/@chandantechie/electron-js-a-comprehensive-guide-to-bu
 isUpdated: true
 ---
 
-
-
-
-
 ```html
 <img src="/assets/img/2024-07-07-ElectronJSAComprehensiveGuidetoBuildingCross-PlatformDesktopApps_0.png" />
 
-# 소개
-
-Electron JS는 HTML, CSS 및 JavaScript 등의 웹 기술을 사용하여 크로스 플랫폼 데스크톱 애플리케이션을 구축하기 위한 오픈 소스 프레임워크입니다. 개발자들은 웹 개발에 사용하는 기술과 동일한 기술을 사용하여 데스크톱 앱을 만들 수 있습니다. 이로 인해 Electron JS는 데스크톱 애플리케이션을 구축하는 인기 있는 선택지 중 하나가 되었습니다. 이 안내서에서는 Electron JS의 기본 개념, 기능 및 Electron JS 프로젝트를 생성하고 작업하는 방법을 안내합니다.
-
-# 기본 개념
+# 소개 Electron JS는 HTML, CSS 및 JavaScript 등의 웹 기술을 사용하여 크로스 플랫폼 데스크톱 애플리케이션을 구축하기 위한
+오픈 소스 프레임워크입니다. 개발자들은 웹 개발에 사용하는 기술과 동일한 기술을 사용하여 데스크톱 앱을 만들 수 있습니다.
+이로 인해 Electron JS는 데스크톱 애플리케이션을 구축하는 인기 있는 선택지 중 하나가 되었습니다. 이 안내서에서는 Electron
+JS의 기본 개념, 기능 및 Electron JS 프로젝트를 생성하고 작업하는 방법을 안내합니다. # 기본 개념
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Electron JS를 시작하기 전에 기본 개념을 이해하는 것이 중요합니다:
 
@@ -37,7 +43,18 @@ Electron JS를 시작하기 전에 기본 개념을 이해하는 것이 중요�
 
 Electron JS를 시작하려면:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Node JS 설치: 공식 웹사이트에서 Node JS를 다운로드하고 설치하세요.
 - Electron CLI 설치: `npm install electron-cli -g` 명령어를 실행하여 Electron CLI를 설치하세요.
@@ -52,7 +69,18 @@ Electron JS 프로젝트는 다음과 같이 구성됩니다:
 - index.html: 앱의 사용자 인터페이스를 포함하는 주 HTML 파일입니다.
 - package.json: 종속성 및 스크립트를 포함하는 프로젝트 구성 파일입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 앱 만들기
 
@@ -64,7 +92,18 @@ Electron JS 프로젝트는 다음과 같이 구성됩니다:
 
 # Electron.js로 데모를 설정하려면 다음 단계를 따라주세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Node.js와 npm 설치하기
 
@@ -77,7 +116,18 @@ mkdir electron-demo
 cd electron-demo
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로운 npm 프로젝트를 초기화하세요:
 
@@ -85,7 +135,18 @@ cd electron-demo
 npm init -y
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 일렉트론 설치
 
@@ -93,13 +154,31 @@ npm init -y
 
 ```js
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 네예~ 아래와 같이 명령어를 실행하시면 됩니다.
 
 npm install electron --save-dev
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 내용으로 main.js 파일을 만들어주세요:
 
@@ -135,7 +214,16 @@ index.html
 
 다음 내용으로 index.html 파일을 만들어주세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <!DOCTYPE html>
 <html>
@@ -157,7 +245,16 @@ index.html
   "start": "electron ."
 }
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 6. 일렉트론 앱 실행
 
@@ -167,7 +264,16 @@ npm start
 
 "Hello, Electron!" 메시지가 표시된 새 창이 열리는 것을 확인할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트를 위한 새 디렉토리를 만들고 해당 디렉토리로 이동하세요:
 
@@ -180,7 +286,16 @@ npm start
 - Node JS 통합: 시스템 리소스 및 Node JS 모듈에 액세스합니다.
 - 크로미움 엔진: 렌더링 및 성능을 위해 크로미움 엔진을 사용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 고급 주제
 
@@ -192,10 +307,20 @@ npm start
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일렉트론 JS는 웹 기술을 사용하여 크로스 플랫폼 데스크톱 애플리케이션을 구축하기 위한 강력한 프레임워크입니다. 유연하고 확장 가능한 아키텍처를 갖춘 일렉트론 JS는 데스크톱 앱을 구축하기 위한 견고한 플랫폼을 제공합니다. 이 안내서를 따라가면 기초부터 고급까지 일렉트론 JS 프로젝트를 만들고 작업할 수 있습니다. 즐거운 코딩 되세요!
 
 감사합니다.
 
 찬단
+```

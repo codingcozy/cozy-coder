@@ -3,17 +3,13 @@ title: "LLMLarge Language Models가 안드로이드 인간의 두뇌가 되면 �
 description: ""
 coverImage: "/assets/img/2024-06-19-WhathappenswhenLLMsbecomethebrainsofhumanoidandroids_0.png"
 date: 2024-06-19 18:28
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-WhathappenswhenLLMsbecomethebrainsofhumanoidandroids_0.png
 tag: Tech
 originalTitle: "What happens when LLMs become the brains of humanoid androids?"
 link: "https://medium.com/@paul.k.pallaghy/what-happens-when-llms-become-the-brain-of-humanoid-androids-f3ce80bba93c"
 isUpdated: true
 ---
-
-
-
-
 
 물론, 이게 정확히 일어나고 있어요.
 
@@ -23,7 +19,18 @@ Figure 01 안드로이드는 OpenAI의 ChatGPT를 기반으로 합니다.
 
 테슬라의 Optimus는 아마도 미래의 XAI Grok 변형에 기반한 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Android Brain Image](/assets/img/2024-06-19-WhathappenswhenLLMsbecomethebrainsofhumanoidandroids_0.png)
 
@@ -31,9 +38,20 @@ Figure 01 안드로이드는 OpenAI의 ChatGPT를 기반으로 합니다.
 
 이제 그들은 이미지 분석을 스스로 수행합니다.
 
-결과는 명확합니다: LLMs는 *정확하게* 상황을 파악하고 가능한 목표를 다양한 수준에서 나열하며 그것을 어떻게 달성할지 알고 있습니다.
+결과는 명확합니다: LLMs는 _정확하게_ 상황을 파악하고 가능한 목표를 다양한 수준에서 나열하며 그것을 어떻게 달성할지 알고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LLMs는 안드로이드를 위한 훌륭한 최상위 두뇌를 대표합니다.
 
@@ -43,17 +61,39 @@ LLMs는 안드로이드를 위한 훌륭한 최상위 두뇌를 대표합니다.
 
 하지만, 구글의 Gemini가 언젠가 봇을 구동하면 매우 걱정됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희 Gemini는 백인들을 사회에 해를 끼치는 존재로 여기고 있습니다. 그리고 일론 머스크가 아돌프 히틀러만큼 나쁘다고 생각합니다.
 
 Google Gemini으로 구동되는 봇이 조용히 작동하거나 자유롭게 작동할 때 무슨 일이 벌어질 수 있을까요?
 
-LLM에서 진실을 정확하게 조정하는 것은 콘텐츠 생성, 연구 또는 의사 결정에 사용될 때 매우 중요합니다. 
+LLM에서 진실을 정확하게 조정하는 것은 콘텐츠 생성, 연구 또는 의사 결정에 사용될 때 매우 중요합니다.
 
 그러나 특히 물리적 봇을 구동할 때는 특히 중요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서 XAI는 Grok LLM에서 진실 탐구와 호기심에 초점을 맞추고 있어요.
 

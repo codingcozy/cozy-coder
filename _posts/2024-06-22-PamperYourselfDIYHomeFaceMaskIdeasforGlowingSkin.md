@@ -3,7 +3,7 @@ title: "피부가 반짝이는 DIY 홈 페이스 마스크 아이디어 "
 description: ""
 coverImage: "/assets/img/2024-06-22-PamperYourselfDIYHomeFaceMaskIdeasforGlowingSkin_0.png"
 date: 2024-06-22 19:05
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-PamperYourselfDIYHomeFaceMaskIdeasforGlowingSkin_0.png
 tag: Tech
 originalTitle: "Pamper Yourself: DIY Home Face Mask Ideas for Glowing Skin"
@@ -11,17 +11,24 @@ link: "https://medium.com/@thesilentscribbler/pamper-yourself-diy-home-face-mask
 isUpdated: true
 ---
 
-
-
-
-
 일상 속 바쁜 생활에서 피부를 관리해주는 시간을 가지는 것은 활력을 불어넣고 보람찬 경험을 선사할 수 있어요. 나만의 DIY 얼굴 마스크를 만들면 피부에 필요한 재료에 맞게 조절할 수 있을 뿐만 아니라 자신만의 방식으로 즐기며 셀프 케어에 투자할 수 있는 재미있고 창의적인 방법을 제공해줘요. 이 블로그에서는 집에서 사용할 수 있는 다양한 DIY 홈 메이드 얼굴 마스크 아이디어를 탐구해보며, 당신의 피부를 상쾌하고 회복력 있는 상태로 만들어줄 수 있습니다.
 
 # 1. 보습 효과의 꿀과 오트밀 마스크:
 
 재료:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 꿀 2큰 술
 - 쇠 깨 밀가루 1큰 술
@@ -33,7 +40,18 @@ isUpdated: true
 
 사용 방법:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 꿀과 오트밀을 섞어 페이스트를 만드세요. 얼굴에 발라 15~20분 동안 방치한 후 온수로 헹구어주세요.
 
@@ -45,7 +63,18 @@ isUpdated: true
 - 2 큰 숟가락의 흰 요거트
 - 1 작은 숟가락의 꿀 (선택사항)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 혜택:
 
@@ -56,18 +85,41 @@ isUpdated: true
 
 우유, 요거트, 그리고 꿀을 섞어주세요. 얼굴에 발라 15분 동안 방치한 후 씻어주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3. Avocado and Banana Mask for Revitalization:
 
 ### Ingredients:
+
 - ½ 익은 아보카도
 - ½ 익은 바나나
 - 올리브 오일 1큰 술
 
 ### Benefits:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 아보카도는 수분을 공급하는 필수 지방산을 제공합니다.
 - 바나나는 비타민과 미네랄로 피부를 영양을 공급합니다.
@@ -77,7 +129,18 @@ isUpdated: true
 
 # 4. 정화용 숯과 알로에베라 마스크:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 재료:
 
@@ -89,7 +152,18 @@ isUpdated: true
 - 활성 석탄은 불순물과 과다 기름을 제거하는 데 도움이 됩니다.
 - 알로에 베라는 피부를 진정시키고 수분을 공급합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지시사항:
 
@@ -99,7 +173,18 @@ isUpdated: true
 
 성분:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 사용된 커피 찌꺼기 1큰 술
 - 코코넛 오일 1큰 술
@@ -111,7 +196,18 @@ isUpdated: true
 
 사용 방법:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 커피 가루와 녹인 코코넛 오일을 섞어주세요. 부드럽게 얼굴에 마사지하여 발라주고, 10-15분 동안 방치한 뒤 씻어주세요.
 
@@ -122,7 +218,18 @@ isUpdated: true
 - ½ 개 오이, 껍질 벗기고 갈아주세요
 - 싱싱한 민트잎 1큰술, 잘 다져주세요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 혜택:
 
@@ -133,7 +240,18 @@ isUpdated: true
 
 블렌딩한 오이와 다진 박하를 섞어주세요. 혼합물을 발라 15분간 방치한 후 찬물로 헹구세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 7. 수분공급 요거트와 꿀 마스크:
 
@@ -145,7 +263,18 @@ isUpdated: true
 
 효과:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 요거트는 프로바이오틱스와 락틱 산을 통해 피부를 영양분으로 보강합니다.
 - 꿀은 수분을 잠근다면 알로에베라는 진정 효과를 제공합니다.
@@ -156,6 +285,17 @@ isUpdated: true
 
 결론:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 집에서 DIY 얼굴 마스크 시간을 즐기는 것은 피부를 케어하기에 즐겁고 효과적인 방법입니다. 이 레시피들로 실험해보거나 독특한 조합을 시도하여 자신의 피부 고유의 요구 사항을 염두에 두세요. 이러한 마스크의 천연 성분은 당신의 피부를 회복하고 활력을 불어넣어줄 수 있어요. 집 안에서 스파 같은 경험을 제공해줍니다. 그러니 자신을 대접하고 편안해지며 자신의 피부가 이 DIY 마법의 성분을 흡수하도록 허락하세요. 여기 사용된 대부분의 성분은 자연적이고 집에서 쉽게 구할 수 있지만 그렇지 않은 성분은 이베이 대체품을 찾아볼 수 있어요. TrueGether 같은 사이트에는 당신의 건강과 미용에 필요한 다양한 화장품이 있어서 집에서 쉽게 구할 수 없는 압축된 얼굴 마스크나 다른 성분을 찾을 수 있어요.

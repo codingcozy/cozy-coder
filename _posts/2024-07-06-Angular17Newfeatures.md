@@ -3,16 +3,13 @@ title: "Angular 17의 새로운 기능들"
 description: ""
 coverImage: "/assets/img/2024-07-06-Angular17Newfeatures_0.png"
 date: 2024-07-06 11:06
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-06-Angular17Newfeatures_0.png
 tag: Tech
 originalTitle: "Angular 17 New features"
 link: "https://medium.com/@harshitmangla96/angular-17-new-features-2d395ebf1429"
 isUpdated: true
 ---
-
-
-
 
 저는 새 프로젝트로 Angular 17을 사용하고 있어요. 그래서 그 기능을 활용하고 프로젝트에 적용하려고 하고 있어요.
 지금까지 배운 것들을 담은 기사를 쓰기로 결정했습니다.
@@ -24,7 +21,18 @@ isUpdated: true
 
 ## 예시:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { Component } from "@angular/core";
@@ -46,7 +54,18 @@ Angular의 Directive Composition API를 사용하면 여러 디렉티브를 한 
 - 코드 재사용성 향상: 자주 사용되는 디렉티브 조합을 하나의 재사용 가능한 디렉티브로 구성할 수 있습니다.
 - 코드 가독성 향상: 템플릿에서 요소에 직접 적용되는 디렉티브의 수를 줄여 템플릿을 깨끗하게 유지할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 1: 개별 지시문 생성하기
 
@@ -80,7 +99,18 @@ export class BoldDirective {
 
 다음으로, hostDirectives 속성을 사용하여 개별 지시문을 조합하는 새로운 지시문을 만드세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```typescript
 // combined.directive.ts
@@ -115,7 +145,18 @@ import { CombinedDirective } from "./combined.directive";
 export class AppComponent {}
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3. 앵귤러 시그널
 
@@ -146,7 +187,18 @@ export class CounterComponent {
 
 # 4. 향상된 수분화
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앵귤러 17에는 성능을 향상시키는 새로운 수분화 기능이 포함되어 있습니다. 이 기능은 서버 측 렌더링 애플리케이션의 성능을 향상시키고 클라이언트 측 애플리케이션의 수분화를 빠르고 효율적으로 할 수 있게 합니다.
 
@@ -156,6 +208,17 @@ export class CounterComponent {
 
 앵귤러 17은 개선된 에러 메시지, 빠른 빌드 시간 및 향상된 TypeScript 지원을 통해 전체적인 개발자 경험을 향상시키는 데 초점을 맞추고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아주 큰 업데이트는 아니지만, Angular의 17 버전에서 공정한 업데이트가 있어요. 여전히 14-15 버전으로 SPA를 만들 수 있어요. 성능은 분명히 더 좋을 거에요, 하지만 주요 기능 면에서는 큰 업데이트가 없어요.

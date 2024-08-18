@@ -3,17 +3,13 @@ title: "앱 v013가 공식으로 출시되었습니다"
 description: ""
 coverImage: "/assets/img/2024-06-20-appv013isOfficiallyReleased_0.png"
 date: 2024-06-20 14:27
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-appv013isOfficiallyReleased_0.png
 tag: Tech
 originalTitle: "app v0.13 is Officially Released!"
 link: "https://medium.com/@hkdb/app-v0-13-is-officially-released-fd7ca6fd1aa2"
 isUpdated: true
 ---
-
-
-
-
 
 크로스 플랫폼 패키지 관리 도우미
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이 프로젝트는 나만이 관심을 가질 것으로 생각했던 매우 특수한 것이어야 한다고 생각했지만, 뜻밖의 반응을 받았다. 참여한 사람들은 많지 않았지만, 예상을 뛰어넘는 반응이었다. 프로젝트를 계속 진행할수록 다양한 배경을 가진 사람들로부터 조금씩 더 많은 관심을 받고 있다는 것을 알게 되었다. 또한 실제로 기여하고자 하는 능력과 의지를 가진 개인을 끌어들였다는 점에서 굉장히 운이 좋았다. Richard Frevrier at GOLE TECH님에게 감사 말씀을 전합니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한편, 어플리케이션이 크게 발전했습니다. 이제 다음을 지원합니다:
 
@@ -47,7 +54,18 @@ isUpdated: true
 - pip
 - cargo
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 죄송합니다, Windows 사용자 여러분들. scoop과 chocolatey로 이동하는 데까지는 시간이 걸릴 수 있습니다. 그러나 그동안 WSL 기차에 타곤 이미 환경 속에서 작동하는 앱은 여러분에게 문제가 없어야 합니다.
 
@@ -57,11 +75,20 @@ isUpdated: true
 
 v0.13에서 일어난 크고 작은 수정 사항 가운데, 아마 가장 주목할 만한 것은 이제 터미널에서 한 줄의 명령으로 앱을 설치할 수 있다는 점입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 bash <(curl -sL https://hkdb.github.io/app/getapp.sh)
-
 
 ![2024-06-20-appv013isOfficiallyReleased_1](/assets/img/2024-06-20-appv013isOfficiallyReleased_1.png)
 
@@ -69,8 +96,18 @@ bash <(curl -sL https://hkdb.github.io/app/getapp.sh)
 
 또한 Richard의 제안을 고려하여 사용자가 최신 릴리스로 앱을 업그레이드하는 유일한 작업은 다음 명령어를 실행하는 것뿐입니다:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 앱 -m 앱 업데이트

@@ -3,17 +3,13 @@ title: "iOS에서 Swift 59로 게이지 뷰 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-03-DrawingaGaugeViewwithSwift59oniOS_0.png"
 date: 2024-08-03 19:56
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-03-DrawingaGaugeViewwithSwift59oniOS_0.png
 tag: Tech
 originalTitle: "Drawing a Gauge View with Swift 59 on iOS"
 link: "https://medium.com/@egzonpllana/drawing-a-gauge-view-with-swift-5-9-on-ios-6480e382e366"
 isUpdated: true
 ---
-
-
-
-
 
 # 소개
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/1*t6RaEGaFpxRyrgEMzCdQ2Q.gif)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 목적
 
@@ -34,7 +41,18 @@ GaugeViewXK는 게이지 위에 값의 범위를 시각적으로 나타내기 �
 - CAShapeLayer 및 CAGradientLayer: 이러한 Core Animation 레이어는 게이지 및 그 구성 요소를 그리고 애니메이션하는 데 사용됩니다.
 - CADisplayLink: 게이지 인디케이터를 부드럽게 애니메이션하기 위해 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 도전적인 부분
 
@@ -45,7 +63,18 @@ GaugeViewXK는 게이지 위에 값의 범위를 시각적으로 나타내기 �
 
 2. 게이지와 레이블 그리기:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 왜 도전적인가: 게이지를 그리는 것은 값의 범위를 나타내는 정확한 호를 만드는 것을 포함합니다. 또한, 이 호 위의 레이블을 정확하게 배치하려면 각도와 위치를 올바르게 계산해야 합니다. 도전 과제는 레이블이 고르게 간격을 두고 게이지에 올바르게 정렬되도록 하는 것입니다.
 - 우리가 한 방법: 우리는 삼각법을 사용하여 게이지 호 위의 레이블 위치를 계산했습니다. 각도를 라디안으로 변환하고 사인 및 코사인 함수를 사용하여 각 레이블의 (x, y) 좌표를 결정했습니다. 이를 통해 레이블이 고르게 분포되고 게이지의 해당 값과 정렬되도록 보장했습니다. 또한 CAShapeLayer 및 CAGradientLayer를 활용하여 게이지를 그리고 적절한 색상 또는 그라데이션을 적용했습니다.
@@ -56,7 +85,18 @@ CADisplayLink는 앱이 그림을 디스플레이의 새로 고침 속도에 동
 
 # 게이지 그리기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 게이지는 CAShapeLayer와 CAGradientLayer를 사용하여 값을 나타내는 다채로운 호를 그립니다.
 
@@ -67,7 +107,18 @@ CADisplayLink는 앱이 그림을 디스플레이의 새로 고침 속도에 동
 
 # 레이블 그리기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 게이지 주변에는 특정 값들을 나타내는 레이블이 그려집니다.
 
@@ -78,7 +129,18 @@ CADisplayLink는 앱이 그림을 디스플레이의 새로 고침 속도에 동
 
 # 지시자 그리기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지시자 바늘은 게이지의 현재 값으로 향합니다.
 
@@ -88,22 +150,32 @@ CADisplayLink는 앱이 그림을 디스플레이의 새로 고침 속도에 동
 # 그라디언트 레이어 만들기
 
 - gradientLayer.type = .conic
-어떤 종류의 페인트를 사용할지 결정합니다. 여기서는 무지개 원 형태인 코닉 그라디언트를 선택합니다.
+  어떤 종류의 페인트를 사용할지 결정합니다. 여기서는 무지개 원 형태인 코닉 그라디언트를 선택합니다.
 - gradientLayer.startPoint = CGPoint(x: 0.5, y: 0.5)
-그림을 시작할 캔버스의 중심을 선택합니다. 이는 사각형의 중앙점입니다.
+  그림을 시작할 캔버스의 중심을 선택합니다. 이는 사각형의 중앙점입니다.
 - gradientLayer.endPoint = CGPoint(x: 0.23, y: 2)
-페인트가 끝날 곳을 설정합니다. 이 지점은 중앙 밖에 약간 있어서 그라디언트에 방향성을 부여합니다.
+  페인트가 끝날 곳을 설정합니다. 이 지점은 중앙 밖에 약간 있어서 그라디언트에 방향성을 부여합니다.
 - gradientLayer.locations = calculateGradientLocations(for: colors)
-각 색상이 그라디언트에 어디에 배치될지 계산합니다. 특정 지점에 스티커를 붙이는 것과 같습니다.
+  각 색상이 그라디언트에 어디에 배치될지 계산합니다. 특정 지점에 스티커를 붙이는 것과 같습니다.
 - gradientLayer.frame = rect
-캔버스에 얼마나 큰 공간을 할당해야 하는지 지정합니다. 우리가 얻은 사각형의 크기입니다.
+  캔버스에 얼마나 큰 공간을 할당해야 하는지 지정합니다. 우리가 얻은 사각형의 크기입니다.
 - gradientLayer.colors = processGradientColors(colors: colors).map { $0.cgColor }
-그리기에 색상을 준비합니다. 각 색상을 캔버스가 이해하는 형식으로 변환하고 순서대로 넣습니다.
+  그리기에 색상을 준비합니다. 각 색상을 캔버스가 이해하는 형식으로 변환하고 순서대로 넣습니다.
 - gradientLayer.mask = shapeLayer
-캔버스에 스텐실을 놓습니다. 모양 레이어는 마스크처럼 작용하여 우리가 특정 영역에만 그릴 수 있도록 합니다.
+  캔버스에 스텐실을 놓습니다. 모양 레이어는 마스크처럼 작용하여 우리가 특정 영역에만 그릴 수 있도록 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-08-03-DrawingaGaugeViewwithSwift59oniOS_0.png)
 
@@ -113,8 +185,18 @@ UIBezierPath의 init(arcCenter:radius:startAngle:endAngle:clockwise:) 메서드�
 
 ## 매개변수
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - arcCenter: 아크의 중심을 정의하는 CGPoint입니다. 이는 아크가 그려질 중심점을 나타냅니다.
 - radius: 아크의 반지름을 지정하는 CGFloat입니다. 중심점부터 아크의 어떤 점까지의 거리를 결정합니다.
@@ -132,17 +214,28 @@ let endPoint = CGPoint(
 ```
 
 - 중심 점
-center: 이것은 지시자 선의 시작점으로, 일반적으로 게이지의 중앙에 있습니다 (indicatorWidth로 조정됨).
+  center: 이것은 지시자 선의 시작점으로, 일반적으로 게이지의 중앙에 있습니다 (indicatorWidth로 조정됨).
 - 반지름
-radius: 이것은 지시자 선의 길이로, 게이지 폭의 절반에서 게이지 폭 및 일부 간격을 뺀 것으로 계산됩니다.
+  radius: 이것은 지시자 선의 길이로, 게이지 폭의 절반에서 게이지 폭 및 일부 간격을 뺀 것으로 계산됩니다.
 - 끝 각도
-endAngle: 이 값은 현재 속도를 기반으로 지시자가 향하는 각도(라디안)입니다. 이 각도는 메서드 내에서 이전에 계산됩니다.
+  endAngle: 이 값은 현재 속도를 기반으로 지시자가 향하는 각도(라디안)입니다. 이 각도는 메서드 내에서 이전에 계산됩니다.
 - 삼각함수
-cos (코사인)와 sin (사인)은 각도를 x 및 y 좌표로 변환하는 데 도움이 되는 삼각함수입니다.
-삼각법에서 각도는 일반적으로 양의 x축(0도)에서 시계 반대 방향으로 시작합니다. 그러나 화면에 그리기 위해 각도는 일반적으로 양의 y축(90도)에서 시작하여 시계 방향으로 이동합니다. 이 차이를 보정하기 위해 endAngle에서 π/2(90도)를 뺍니다.
+  cos (코사인)와 sin (사인)은 각도를 x 및 y 좌표로 변환하는 데 도움이 되는 삼각함수입니다.
+  삼각법에서 각도는 일반적으로 양의 x축(0도)에서 시계 반대 방향으로 시작합니다. 그러나 화면에 그리기 위해 각도는 일반적으로 양의 y축(90도)에서 시작하여 시계 방향으로 이동합니다. 이 차이를 보정하기 위해 endAngle에서 π/2(90도)를 뺍니다.
 - x 및 y 좌표 계산
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - endPoint의 x 좌표는 다음과 같이 계산됩니다:
 
@@ -155,7 +248,18 @@ center.y + radius * sin(endAngle - .pi / 2)
 
 # 시각화
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 원을 가정해보세요. 중심이 center에 있는 원이에요.
 - 반지름은 중심부터 원의 가장자리까지의 길이에요.
@@ -171,7 +275,18 @@ x: 50 + 40 * cos(π/2 - π/2) = 50 + 40 * cos(0) = 50 + 40 * 1 = 90
 y: 50 + 40 * sin(π/2 - π/2) = 50 + 40 * sin(0) = 50 + 40 * 0 = 50
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서, endPoint는 중심에서 오른쪽으로 직접 이동하여 (90, 50)이 되며, 이는 90도 각을 나타냅니다.
 
@@ -181,7 +296,18 @@ y: 50 + 40 * sin(π/2 - π/2) = 50 + 40 * sin(0) = 50 + 40 * 0 = 50
 
 # 게이지 뷰를 만드는 것이 재미있고 도전적인 이유
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 게이지뷰(GaugeView)와 같은 커스텀 뷰를 만드는 것은 여러 가지 이유로 보상적인 경험이 됩니다:
 
@@ -194,8 +320,18 @@ y: 50 + 40 * sin(π/2 - π/2) = 50 + 40 * sin(0) = 50 + 40 * 0 = 50
 
 # 자료
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문서에서 다루는 주제에 대한 자세한 정보를 원하시면 다음 자료를 살펴보실 수 있습니다:
 
@@ -211,7 +347,18 @@ y: 50 + 40 * sin(π/2 - π/2) = 50 + 40 * sin(0) = 50 + 40 * 0 = 50
 
 # GitHub
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GitHub 저장소에 전체 구현을 찾아보세요:  
 [https://github.com/egzonpllana/SwiftAndMathematicalChallenges/tree/main/GaugeViewXK](https://github.com/egzonpllana/SwiftAndMathematicalChallenges/tree/main/GaugeViewXK)

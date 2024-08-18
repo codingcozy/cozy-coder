@@ -3,17 +3,13 @@ title: "주말 AI 프로젝트 라즈베리 파이에서 음성 인식과 LLaMA-
 description: ""
 coverImage: "/assets/img/2024-06-23-AWeekendAIProjectRunningSpeechRecognitionandaLLaMA-2GPTonaRaspberryPi_0.png"
 date: 2024-06-23 18:01
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-AWeekendAIProjectRunningSpeechRecognitionandaLLaMA-2GPTonaRaspberryPi_0.png
 tag: Tech
 originalTitle: "A Weekend AI Project: Running Speech Recognition and a LLaMA-2 GPT on a Raspberry Pi"
 link: "https://medium.com/towards-data-science/a-weekend-ai-project-running-speech-recognition-and-a-llama-2-gpt-on-a-raspberry-pi-5298d6edf812"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-23-AWeekendAIProjectRunningSpeechRecognitionandaLLaMA-2GPTonaRaspberryPi_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 시작해 보겠습니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사에 제시된 코드는 라즈베리 파이에서 작동되도록 의도되었습니다. 그러나 "디스플레이" 부분을 제외한 대부분의 메소드는 윈도우, OSX 또는 리눅스 노트북에서도 작동할 것입니다. 따라서 라즈베리 파이를 갖고 있지 않은 독자들도 어떠한 문제없이 코드를 쉽게 테스트할 수 있습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ![라즈베리 파이](/assets/img/2024-06-23-AWeekendAIProjectRunningSpeechRecognitionandaLLaMA-2GPTonaRaspberryPi_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2023년 신제품 라즈베리 파이 5는 더 좋을 것으로 예상됩니다. 벤치마크에 따르면 거의 2배 빨라졌다고 합니다. 하지만 거의 50% 더 비싸며, 저희 테스트에는 모델 4가 충분합니다.
 
@@ -44,7 +62,18 @@ RAM 크기에 대해 두 가지 옵션이 있습니다:
 
 두 모델 모두 HuggingFace에서 다운로드할 수 있으며, 일반적으로 코드 변경이 거의 필요하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 라즈베리 파이는 완전한 리눅스 컴퓨터이며 SSH를 통해 터미널에서 쉽게 출력을 볼 수 있습니다. 하지만 이것은 로봇과 같은 모바일 장치에 적합하지 않아 재미있지 않을 수 있습니다. 라즈베리 파이에는 단색 128x64 I2C OLED 디스플레이를 사용할 것입니다. 이 디스플레이는 연결하기 위해 단지 4개의 전선이 필요합니다:
 
@@ -54,7 +83,18 @@ RAM 크기에 대해 두 가지 옵션이 있습니다:
 
 ## 디스플레이
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 화면 테스트 중에 무언가를 화면에서 확인하는 것이 좋습니다. Adafruit_CircuitPython_SSD1306 라이브러리를 사용하면 OLED 디스플레이에 어떤 이미지든 표시할 수 있습니다. 이 라이브러리는 Low-level 인터페이스를 가지고 있어서 픽셀을 그리거나 메모리 버퍼에서 모노크롬 비트맵만을 그릴 수 있습니다. 스크롤 가능한 텍스트를 사용하기 위해 텍스트 버퍼를 저장하는 배열과 텍스트를 그리는 `_display_update` 메서드를 작성했습니다:
 
@@ -93,7 +133,18 @@ def _display_update():
 
 또한 텍스트 스크롤링을 에뮬레이션하기 위해 두 개의 도우미 메서드도 작성했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 def add_display_line(text: str):
@@ -125,8 +176,18 @@ for p in range(20):
 
 모든 것이 제대로 되었다면, 출력은 다음과 같아야 합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*e9u31X5qtrbHccByJAA8pw.gif)
 
@@ -136,8 +197,18 @@ for p in range(20):
 
 ASR에 대해, 저희는 HuggingFace 🤗의 Transformers 라이브러리를 사용할 것입니다. 이를 통해 몇 줄의 Python 코드로 음성 인식을 구현할 수 있습니다:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 from transformers import pipeline
@@ -161,7 +232,7 @@ def transcribe_mic(chunk_length_s: float) -> str:
             chunk_length_s=chunk_length_s,
             stream_chunk_s=chunk_length_s,
         )
-    
+
     result = ""
     for item in transcriber(mic):
         result = item["text"]
@@ -172,7 +243,18 @@ def transcribe_mic(chunk_length_s: float) -> str:
 
 실제로 구문을 말하기에는 5-10초가 충분해요. 라즈베리 파이에는 마이크가 없지만 USB 마이크를 사용할 수 있어요. 이 코드는 노트북에서도 테스트할 수 있어요; 이 경우 내장 마이크가 사용될 거예요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 대형 언어 모델 (LLM)
 
@@ -185,7 +267,18 @@ pip3 install huggingface-hub sentence-transformers langchain
 
 LLM을 사용하기 전에 해당 모델을 다운로드해야 합니다. 이전에 논의했던 것처럼, 두 가지 옵션이 있습니다. 8GB 라즈베리 파이의 경우 7B 모델을 사용할 수 있습니다. 2GB 장치의 경우 1B "작은" 모델이 유일한 선택지이며, 더 큰 모델은 RAM에 들어가지 않습니다. 모델을 다운로드하려면 huggingface-cli 도구를 사용할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 huggingface-cli 다운로드 TheBloke/Llama-2-7b-Chat-GGUF llama-2-7b-chat.Q4_K_M.gguf --local-dir . --local-dir-use-symlinks False
@@ -209,7 +302,7 @@ callback_manager: Any = None
 
 model_file = "tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf"  # OR "llama-2-7b-chat.Q4_K_M.gguf"
 template_tiny = """<|system|>
-                   You are a smart mini computer named Raspberry Pi. 
+                   You are a smart mini computer named Raspberry Pi.
                    Write a short but funny answer.</s>
                    <|user|>
                    {question}</s>
@@ -245,7 +338,18 @@ def llm_start(question: str):
     chain.invoke({"question": question}, config={})
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 흥미로운 점은 두 모델이 동일한 LLaMA 이름을 갖고 있지만, 다른 프롬프트 형식을 사용하여 훈련되었다는 것입니다.
 
@@ -260,11 +364,11 @@ class StreamingCustomCallbackHandler(StreamingStdOutCallbackHandler):
     ) -> None:
         """ LLM이 실행을 시작할 때 실행됩니다 """
         print("<LLM 시작>")
-        
+
     def on_llm_end(self, response: Any, **kwargs: Any) -> None:
         """ LLM이 실행을 끝낼 때 실행됩니다 """
         print("<LLM 종료>")
-        
+
     def on_llm_new_token(self, token: str, **kwargs: Any) -> None:
         """ 새로운 LLM 토큰이 있을 때 실행됩니다. 스트리밍이 활성화된 경우에만 사용 가능합니다 """
         print(f"{token}", end="")
@@ -273,7 +377,18 @@ class StreamingCustomCallbackHandler(StreamingStdOutCallbackHandler):
 
 여기서는 이전에 만들었던 add_display_tokens 메서드를 사용했습니다. 출력 메서드도 사용되었기 때문에 똑같은 코드가 라즈베리 파이 없이 일반 PC에서도 실행될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 테스트
 
@@ -301,7 +416,18 @@ if __name__ == "__main__":
 
 여기서 Raspberry Pi는 오디오를 5초 동안 기록한 후, 음성 인식 모델이 오디오를 텍스트로 변환하고, 마지막으로 인식된 텍스트를 LLM으로 보냅니다. 끝나면 프로세스가 반복됩니다. 이 접근 방식은 예를 들어 자동 오디오 수준 임계값을 사용함으로써 개선할 수 있지만, "주말 프로젝트" 목적으로 충분히 좋습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실제로는 다음과 같은 출력이 나타납니다:
 
@@ -311,7 +437,18 @@ if __name__ == "__main__":
 
 "BLEU"나 "ROUGE"와 같은 "공식적인" 벤치마크를 사용하여 1B와 7B 모델의 품질을 비교하지는 않았습니다. 주관적으로 7B 모델은 더 정확하고 정보를 많이 제공하는 답변을 제공하지만, 더 많은 RAM이 필요하며, 로딩하는 데 더 많은 시간이 걸립니다(파일 크기는 각각 4.6GB와 0.7GB입니다) 그리고 3~5배 더 느리게 작동합니다. 전력 소비에 관해서는, 라즈베리 파이 4는 평균 3~5W를 소비하며, 실행 중인 모델, 연결된 OLED 스크린, USB 마이크로폰이 있는 상태에서 필요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 결론
 
@@ -321,7 +458,18 @@ if __name__ == "__main__":
 
 다음 파트에서는 음성 인식을 위해 푸시 투 토크(Push-to-Talk) 버튼을 사용하는 방법 및 "Rabbit" 스타일의 데이터 처리 인공지능 파이프라인을 구현하는 방법을 소개할 예정이에요. 기대해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이야기를 즐겼다면 Medium에 구독해보세요. 나의 새로운 기사가 발행되면 알림을 받을 수 있을 뿐만 아니라, 다른 작가들의 수천 개의 이야기에도 전체 액세스할 수 있습니다. 또한 LinkedIn을 통해 연락할 수도 있습니다. 이 및 다른 게시물의 전체 소스 코드를 얻고 싶다면 Patreon 페이지를 방문해주세요.
 

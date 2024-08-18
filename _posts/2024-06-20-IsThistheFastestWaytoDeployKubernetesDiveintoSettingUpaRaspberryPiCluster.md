@@ -3,17 +3,13 @@ title: "가장 빠른 쿠버네티스 배포 방법일까요 라즈베리 파이
 description: ""
 coverImage: "/assets/img/2024-06-20-IsThistheFastestWaytoDeployKubernetesDiveintoSettingUpaRaspberryPiCluster_0.png"
 date: 2024-06-20 17:38
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-IsThistheFastestWaytoDeployKubernetesDiveintoSettingUpaRaspberryPiCluster_0.png
 tag: Tech
 originalTitle: "Is This the Fastest Way to Deploy Kubernetes? Dive into Setting Up a Raspberry Pi Cluster!"
 link: "https://medium.com/@michael-tissen/is-this-the-fastest-way-to-deploy-kubernetes-dive-into-setting-up-a-raspberry-pi-cluster-16113ccce02b"
 isUpdated: true
 ---
-
-
-
-
 
 최근에 라즈베리 파이 4 싱글보드 컴퓨터를 사용하여 쿠버네티스 클러스터를 빠르고 쉽게 부트스트랩 할 수 있는 솔루션을 발견했어요. 이 솔루션은 다른 베어 메탈 클러스터에도 훌륭하게 작동해요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 쿠버네티스 클러스터를 설정하고 필요한 모든 단계를 수행하는 방법에 대한 이전 자습서를 확인할 수 있어요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 k3sup를 사용하더라도 아직 시간이 많이 소요되고 오류가 발생하기 쉬운 것 같아요.
 
@@ -33,7 +40,18 @@ Talos-Linux 및 Kubernetes 및 Talos-Linux 커뮤니티의 놀라운 작업 덕�
 
 ## Talos Linux이란?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 태로스는 컨테이너를 최적화한 리눅스 배포판입니다. 쿠버네티스와 같은 분산 시스템을 위해 리눅스를 새롭게 상상해 만든 제품입니다. 실용성을 유지하면서 최대한 최소화된 디자인으로 제작되었습니다. 이러한 이유로 탈로스에는 몇 가지 고유한 기능들이 있습니다:
 
@@ -48,7 +66,18 @@ Talos-Linux 및 Kubernetes 및 Talos-Linux 커뮤니티의 놀라운 작업 덕�
 
 출처: https://www.talos.dev/v1.7/introduction/what-is-talos/
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 왜 Talos Linux를 사용해야 할까요?
 
@@ -65,7 +94,18 @@ Talos-Linux 및 Kubernetes 및 Talos-Linux 커뮤니티의 놀라운 작업 덕�
 
 ## Talos-Bootstrap
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Talos-Linux과 talosctl은 Kubernetes 클러스터 초기화를 매우 간단하게 만듭니다. Talos의 API 중심적인 특성으로 인해 다른 도구들은 이러한 API를 사용하여 초기화를 더욱 간단하게 할 수 있습니다.
 
@@ -75,7 +115,18 @@ aenix-io의 놀라운 팀에서 만든 도구인 talos-bootstrap이 있습니다
 
 ## 파이들을 준비하세요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 명령어를 사용하여 Talos 이미지를 다운로드하세요. (https://www.talos.dev/v1.7/talos-guides/install/single-board-computers/rpi_generic/#download-the-image)
 
@@ -88,7 +139,18 @@ xz -d metal-arm64.raw.xz
 
 저는 Balena Etcher를 사용하고 있지만 별도의 플래시 도구를 사용할 수도 있습니다. 한 장치마다 요렇게 하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다운로드한 탈로스 이미지를 라즈베리 파이용으로 선택해주세요.
 
@@ -98,8 +160,18 @@ xz -d metal-arm64.raw.xz
 
 대상 드라이브를 선택하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image 3](/assets/img/2024-06-20-IsThistheFastestWaytoDeployKubernetesDiveintoSettingUpaRaspberryPiCluster_3.png)
 
@@ -109,8 +181,18 @@ Finally flash the image
 
 ![Image 5](/assets/img/2024-06-20-IsThistheFastestWaytoDeployKubernetesDiveintoSettingUpaRaspberryPiCluster_5.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Talos Tools 준비 사항
 
@@ -122,7 +204,18 @@ curl -sL https://talos.dev/install | sh
 
 다음 단계에서는 talos-bootstrap 도구를 설치하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 curl -LO https://github.com/aenix-io/talos-bootstrap/raw/master/talos-bootstrap
@@ -138,7 +231,18 @@ sudo mv ./talos-bootstrap /usr/local/bin/talos-bootstrap
 - 위의 저장소를 복제하세요.
 - VSCode로 이 저장소를 열어보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제 Macbook Pro M1에서 Orbstack을 Docker 런타임으로 사용하여 전체 프로세스를 테스트했어요. 그러나 MacOS와 Linux에서 다른 Docker 런타임을 사용해도 잘 작동해야 합니다.
 
@@ -150,8 +254,18 @@ sudo mv ./talos-bootstrap /usr/local/bin/talos-bootstrap
 talos-bootstrap install
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-06-20-IsThistheFastestWaytoDeployKubernetesDiveintoSettingUpaRaspberryPiCluster_6.png)
 
@@ -161,8 +275,18 @@ After some time, the talos-bootstrap should find your Raspberry Pi nodes in talo
 
 ![Image](/assets/img/2024-06-20-IsThistheFastestWaytoDeployKubernetesDiveintoSettingUpaRaspberryPiCluster_8.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 역할을 선택할 수 있어요, 먼저 controlplane으로 시작할게요.
 
@@ -172,7 +296,18 @@ After some time, the talos-bootstrap should find your Raspberry Pi nodes in talo
 
 ![hostname](/assets/img/2024-06-20-IsThistheFastestWaytoDeployKubernetesDiveintoSettingUpaRaspberryPiCluster_10.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 탈로스를 설치할 디스크를 선택해주세요:
 
@@ -182,8 +317,18 @@ After some time, the talos-bootstrap should find your Raspberry Pi nodes in talo
 
 탈로스가 사용해야 할 네트워크 인터페이스를 선택해주세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Node custom address](/assets/img/2024-06-20-IsThistheFastestWaytoDeployKubernetesDiveintoSettingUpaRaspberryPiCluster_12.png)
 
@@ -193,9 +338,18 @@ Select a custom address for your node.
 
 Set your gateway address. In most cases, it's your router address.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 Markdown 형식으로 변경한 텍스트입니다.
 
@@ -207,8 +361,18 @@ Set your gateway address. In most cases, it's your router address.
 
 다음 단계에서 클러스터에 대한 VIP(가상 공유 IP)를 선택할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 데모를 위해 두 개의 노드 클러스터를 설정한 주소입니다:
 
@@ -217,7 +381,18 @@ Set your gateway address. In most cases, it's your router address.
 
 VIP 주소로 192.168.2.240를 선택했습니다. 또한 이는 DHCP 범위를 벗어난 곳에 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 탈로스와 함께 제공되는 항목입니다. 아래와 같이 설명되어 있습니다.
 
@@ -227,7 +402,18 @@ VIP 주소로 192.168.2.240를 선택했습니다. 또한 이는 DHCP 범위를 
 
 Kubernetes 엔드포인트를 사용자 정의하십시오:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래와 같이 설정이 되었는지 확인해 주세요:
 
@@ -235,8 +421,18 @@ Kubernetes 엔드포인트를 사용자 정의하십시오:
 
 다음 대화 상자에서 "예"를 선택해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-20-IsThistheFastestWaytoDeployKubernetesDiveintoSettingUpaRaspberryPiCluster_19.png)
 
@@ -246,8 +442,18 @@ Kubernetes 엔드포인트를 사용자 정의하십시오:
 
 ![image](/assets/img/2024-06-20-IsThistheFastestWaytoDeployKubernetesDiveintoSettingUpaRaspberryPiCluster_21.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 테스트
 
@@ -263,7 +469,18 @@ NAME          STATUS   ROLES           AGE     VERSION
 k8s-control   Ready    control-plane   4m55s   v1.30.1
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컨트롤 플레인이 성공적으로 생성되었습니다!
 
@@ -273,8 +490,18 @@ k8s-control   Ready    control-plane   4m55s   v1.30.1
 
 ![이미지](/assets/img/2024-06-20-IsThistheFastestWaytoDeployKubernetesDiveintoSettingUpaRaspberryPiCluster_22.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-20-IsThistheFastestWaytoDeployKubernetesDiveintoSettingUpaRaspberryPiCluster_23.png)
 
@@ -284,8 +511,18 @@ k8s-control   Ready    control-plane   4m55s   v1.30.1
 
 ## Testing
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 워커 노드에 시간을 주고 다시 다음을 실행해보세요:
 
@@ -298,7 +535,18 @@ kubectl get nodes
 
 ![노드 이미지](/assets/img/2024-06-20-IsThistheFastestWaytoDeployKubernetesDiveintoSettingUpaRaspberryPiCluster_26.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 요약
 

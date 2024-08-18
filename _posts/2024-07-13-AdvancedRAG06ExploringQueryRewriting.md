@@ -3,17 +3,13 @@ title: "고급 RAG 06 쿼리 재작성 방법 탐구"
 description: ""
 coverImage: "/assets/img/2024-07-13-AdvancedRAG06ExploringQueryRewriting_0.png"
 date: 2024-07-13 23:10
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-AdvancedRAG06ExploringQueryRewriting_0.png
 tag: Tech
 originalTitle: "Advanced RAG 06: Exploring Query Rewriting"
 link: "https://medium.com/@florian_algo/advanced-rag-06-exploring-query-rewriting-23997297f2d1"
 isUpdated: true
 ---
-
-
-
-
 
 In Retrieval Augmented Generation (RAG), we often face challenges with the original queries provided by users. The queries may contain inaccurate wording or lack important semantic information. For example, a query like "The NBA champion of 2020 is the Los Angeles Lakers! Tell me what is langchain framework?" could lead to incorrect or unanswerable responses when directly searched using LLM.
 
@@ -23,9 +19,20 @@ Ensuring that the semantic understanding of user queries aligns with the content
 
 Query rewriting is a pre-retrieval method when viewed from a positional perspective. The diagram gives a rough idea of where query rewriting fits into the RAG process. In the upcoming section, we will explore how certain algorithms can enhance this process further.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-쿼리 재작성은 쿼리와 문서의 의미를 조율하는 중요 기술입니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+쿼리 재작성은 쿼리와 문서의 의미를 조율하는 중요 기술입니다.
 
 예를 들어:
 
@@ -39,7 +46,18 @@ Query rewriting is a pre-retrieval method when viewed from a positional perspect
 
 # Hypothetical Document Embeddings (HyDE)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 “Relevance Label이 없는 정확한 제로 샷 밀도 검색”라는 논문은 Hypothetical Document Embeddings (HyDE)에 기반한 방법을 제안합니다. 주요 과정은 아래 그림 2에 나와 있습니다.
 
@@ -49,7 +67,18 @@ Query rewriting is a pre-retrieval method when viewed from a positional perspect
 
 1. LLM을 사용하여 쿼리를 기반으로 k개의 가상 문서를 생성합니다. 이 생성된 문서들은 사실적일 필요가 없고 오류를 포함할 수 있지만, 관련 문서와 닮아야 합니다. 이 단계의 목적은 LLM을 통해 사용자의 쿼리를 해석하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 생성된 가상 문서를 인코더에 공급하여 밀집 벡터 f(dk)로 매핑합니다. 인코더는 가상 문서 내의 소음을 걸러내는 필터 기능을 한다고 믿습니다. 여기서 dk는 k번째 생성된 문서를 나타내며, f는 인코더 작업을 나타냅니다.
 
@@ -59,7 +88,18 @@ Query rewriting is a pre-retrieval method when viewed from a positional perspect
 
 또한 원래 쿼리 q를 가능한 가설로 고려할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. 문서 라이브러리에서 답변을 검색하기 위해 벡터 v를 사용합니다. 단계 3에서 설정했던대로, 이 벡터는 사용자 쿼리와 원하는 답변 패턴의 정보를 모두 담고 있어서 검색률을 향상시킬 수 있습니다.
 
@@ -67,11 +107,22 @@ Query rewriting is a pre-retrieval method when viewed from a positional perspect
 
 ![그림](/assets/img/2024-07-13-AdvancedRAG06ExploringQueryRewriting_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HyDE는 LlamaIndex와 Langchain 둘 다에 구현되어 있어요. 아래 설명은 LlamaIndex를 예시로 들어 설명하겠습니다.
 
-이 파일을 **당신의_디렉토리_경로**에 넣어주세요. 테스트 코드는 다음과 같습니다(LlamaIndex 버전은 0.10.12를 설치했어요):
+이 파일을 **당신의*디렉토리*경로**에 넣어주세요. 테스트 코드는 다음과 같습니다(LlamaIndex 버전은 0.10.12를 설치했어요):
 
 ```js
 import os
@@ -108,7 +159,18 @@ print(response)
 
 먼저, LlamaIndex의 기본 HyDE 프롬프트를 확인해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ############################################
@@ -131,7 +193,7 @@ DEFAULT_HYDE_PROMPT = PromptTemplate(HYDE_TMPL, prompt_type=PromptType.SUMMARY)
 
 하이드 쿼리 변환 클래스인 HyDEQueryTransform의 코드는 다음과 같습니다.
 
-def _run 함수의 목적은 가상 문서를 생성하는 것이며, 가상 문서의 내용을 모니터링하기 위해 def _run 함수에 세 가지 디버깅 문이 추가되었습니다.:
+def \_run 함수의 목적은 가상 문서를 생성하는 것이며, 가상 문서의 내용을 모니터링하기 위해 def \_run 함수에 세 가지 디버깅 문이 추가되었습니다.:
 
 ```js
 class HyDEQueryTransform(BaseQueryTransform):
@@ -140,7 +202,7 @@ class HyDEQueryTransform(BaseQueryTransform):
     주어진 쿼리에 대한 가상 답변을 생성하기 위해 LLM을 사용하고,
     결과 문서를 임베딩 문자열로 사용합니다.
 
-    `[레벨런스 레이블 없이 정확한 제로샷 밀집 검색]` 
+    `[레벨런스 레이블 없이 정확한 제로샷 밀집 검색]`
     (https://arxiv.org/abs/2212.10496)`에서 설명되어 있습니다.
     """
 
@@ -156,7 +218,7 @@ class HyDEQueryTransform(BaseQueryTransform):
             llm_predictor (Optional[LLM]): 가상 문서 생성을 위한
                 LLM
             hyde_prompt (Optional[BasePromptTemplate]): HyDE를 위한 사용자 정의 프롬프트
-            include_original (bool): 원본 쿼리 문자열을 
+            include_original (bool): 원본 쿼리 문자열을
                 임베딩 문자열 중 하나로 포함할지 여부
         """
         super().__init__()
@@ -194,12 +256,23 @@ class HyDEQueryTransform(BaseQueryTransform):
         )
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테스트 코드는 다음과 같이 작동합니다:
 
 ```python
-(llamaindex_010) Florian:~ Florian$ python /Users/Florian/Documents/test_hyde.py 
+(llamaindex_010) Florian:~ Florian$ python /Users/Florian/Documents/test_hyde.py
 ----------------------------------------------------------------------------------------------------
 Base query:
 Paul Graham은 RISD를 다닌 후 뉴욕에서 옛 생활을 재개했습니다. 그는 부유해지고 택시를 손쉽게 호출하며 매력적인 레스토랑에서 식사하는 등 새로운 기회를 가지게 되었습니다. 또한 그는 새로운 종류의 정물화 기술에 실험을 시작했습니다.
@@ -215,7 +288,18 @@ embedding_strs는 두 요소가 포함된 리스트입니다. 첫 번째 요소�
 
 이 예시에서 HyDE는 RISD 이후 폴 그레이엄이 무엇을 했는지를 정확하게 상상하여 (가상 문서 참조) 출력 품질을 크게 향상시킵니다. 이는 임베딩 품질 및 최종 출력을 개선합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자연스럽게, HyDE에는 몇 가지 실패 케이스도 있습니다. 관심 있는 독자들은 이 웹페이지를 방문하여 직접 테스트해볼 수 있습니다.
 
@@ -225,7 +309,18 @@ HyDE는 감독되지 않으며, HyDE에서는 모델을 훈련시키지 않습�
 
 # 재작성-검색-읽기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 아이디어는 "Query Rewriting for Retrieval-Augmented Large Language Models"라는 논문에서 나온 것입니다. 이 논문은 실제 상황에서 원래 쿼리가 LLM에 의해 항상 검색에 최적이 되지 않을 수 있다고 믿습니다.
 
@@ -235,7 +330,18 @@ HyDE는 감독되지 않으며, HyDE에서는 모델을 훈련시키지 않습�
 
 쿼리 재작성이 어떻게 컨텍스트 검색 및 예측 성능에 영향을 미치는지 설명하기 위해 예를 들어보겠습니다. "The NBA champion of 2020 is the Los Angeles Lakers! Tell me what is langchain framework?"라는 쿼리는 재작성을 통해 정확하게 처리됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Langchain을 사용하고 있습니다. 설치에 필요한 주요 라이브러리는 아래와 같습니다:
 
@@ -260,7 +366,18 @@ from langchain_core.runnables import RunnablePassthrough
 from langchain_openai import ChatOpenAI
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 def june_print(msg, res):
@@ -298,60 +415,88 @@ chain = (
 query = "NBA 2020 우승자는 로스앤젤레스 레이커스입니다! 랭체인 프레임워크는 무엇인지 알려주세요."
 
 june_print(
-    '쿼리 결과:', 
+    '쿼리 결과:',
     chain.invoke(query)
 )
 
 june_print(
-    '검색된 맥락 결과:', 
+    '검색된 맥락 결과:',
     retriever(query)
 )
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결과에서 보듯이 "rngformat"에 대한 매우 적은 정보가 있는 것으로 나타났습니다.
 
 이제 검색 쿼리를 재작성하기 시작하세요.
 
+제공할 더 나은 검색 쿼리를 제공하여 주어진 질문에 대한 답변을 얻을 수 있도록 하십시오. 질문: {x} 답변:\*\*
 
-제공할 더 나은 검색 쿼리를 제공하여 주어진 질문에 대한 답변을 얻을 수 있도록 하십시오. 질문: {x} 답변:**
+이 결과는 다음과 같습니다:
 
+<!-- cozy-coder - 수평 -->
 
-이 결과는 다음과 같습니다: 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 리라이트, 검색, 읽기 체인 설명
 
-랭체인 프레임워크는 무엇이며 어떻게 작동하는지에 대해요. 리라이트_리트리브_리드_체인을 구성하고 재작성 된 쿼리를 활용하세요.
+랭체인 프레임워크는 무엇이며 어떻게 작동하는지에 대해요. 리라이트*리트리브*리드\_체인을 구성하고 재작성 된 쿼리를 활용하세요.
 
-
-리라이트_리트리브_리드_체인 = (
-    {
-        "콘텍스트": {"x": RunnablePassthrough()} | 리라이터 | 리트리버,
-        "질문": RunnablePassthrough(),
-    }
-    | base_prompt
-    | model
-    | StrOutputParser()
+리라이트*리트리브*리드\_체인 = (
+{
+"콘텍스트": {"x": RunnablePassthrough()} | 리라이터 | 리트리버,
+"질문": RunnablePassthrough(),
+}
+| base_prompt
+| model
+| StrOutputParser()
 )
 
-june_print(
-    '리라이트_리트리브_리드_체인의 결과:', 
-    리라이트_리트리브_리드_체인.invoke(query)
+june*print(
+'리라이트*리트리브*리드*체인의 결과:',
+리라이트*리트리브*리드\_체인.invoke(query)
 )
-
 
 연산 결과는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-----------------------------------------------------------------------------------------------------
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+---
+
 The result of the rewrite_retrieve_read_chain:
 LangChain is a Python framework designed to help build AI applications powered by language models, especially large language models (LLMs). It provides a generic interface to different foundation models, a framework for managing prompts, and a central interface to long-term memory, external data, other LLMs, and more. It simplifies the process of interacting with LLMs and can be used to build a wide range of applications, including chatbots that interact with users naturally.
-
 
 Through the rewriting process, we have successfully obtained the accurate response.
 
@@ -359,8 +504,18 @@ Through the rewriting process, we have successfully obtained the accurate respon
 
 STEP-BACK PROMPTING is a simple technique that allows LLMs to abstract, distilling high-level concepts and basic principles from instances with specific details. The concept involves defining "step-back problems" as more abstract issues derived from the original problem.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 쿼리에 많은 세부 정보가 포함되어 있으면 LLM이 작업을 해결할 수 있는 관련 사실을 검색하기 어려울 수 있습니다. 도표 5의 첫 번째 예시에 나와 있는 것처럼, 물리 문제인 "이상 기체의 압력 P가 온도를 2배로 증가시키고 체적을 8배로 증가시킬 때 어떻게 변화하는가?" 라는 문제에 대해 고려할 때, LLM은 문제를 직접 추론할 때 이상 기체 법칙의 원칙에서 벗어날 수 있습니다.
 
@@ -370,7 +525,18 @@ STEP-BACK PROMPTING is a simple technique that allows LLMs to abstract, distilli
 
 이러한 경우에는 보다 폭넓은 질문을 제시하면 모델이 구체적인 쿼리에 효과적으로 답변하는 데 도움이 될 수 있습니다. 특정 시간에 에스텔라 레오폴드가 다녔던 학교를 직접 묻는 대신, "에스텔라 레오폴드의 교육 배경"에 대해 묻는 것이 좋습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 보다 포괄적인 주제는 원래의 질문을 포함하며, "에스텔라 레오폴드가 특정 시기에 다닌 학교는 무엇인가"를 추론할 수 있는 모든 필요한 정보를 제공할 수 있습니다. 이러한 포괄적인 질문들이 원래의 구체적인 질문보다 답하기 쉬운 경우가 많다는 점을 주목하는 것이 중요합니다.
 
@@ -381,7 +547,18 @@ STEP-BACK PROMPTING is a simple technique that allows LLMs to abstract, distilli
 - 추상화: 우선, 우리는 LLM에게 질문을 하도록 하여 고수준 개념이나 원칙에 대한 포괄적인 질문을 하도록 유도하여 직접적으로 쿼리에 대답하는 대신에 관련된 사실을 검색합니다.
 - 추론: LLM은 이러한 고수준 개념이나 원칙에 대한 사실을 바탕으로 원래 질문에 대한 답을 추론할 수 있습니다. 이것을 추상적 추론이라고 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 확인할 수 있는 것처럼, 스텝백 프롬프팅이 컨텍스트 검색 및 예측 성능에 어떤 영향을 미치는지 설명하려면 Langchain을 사용하여 구현된 데모 코드가 있습니다.
 
@@ -400,13 +577,35 @@ from langchain_community.utilities import DuckDuckGoSearchAPIWrapper
 
 체인을 구축하고 원래 쿼리를 실행하세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 데이터를 찾았습니다. ChatGPT는 트럼프가 대통령이었을 때 이미 존재했습니다. ChatGPT는 OpenAI에서 개발한 인공지능 언어 모델로, 11월 말에 대중에 공개되었습니다. 이 모델은 에세이, 이야기, 그리고 노래 가사를 생성할 수 있습니다. 이는 방금 전에 바이든 대통령에 관한 시를 쓰는 데 사용될 수도 있지만 구체적인 전 대통령 트럼프를 다루는 가상 시나리오 등 다른 여러 상황에 사용될 수도 있습니다.
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 step_back_question_chain 및 step_back_chain을 올바른 결과를 얻기 위해 구성하기 시작하세요.
 
@@ -490,7 +689,18 @@ OpenAI는 ChatGPT의 초기 데모를 2022년 11월 30일에 공개했으며, �
 아니요, ChatGPT는 트럼프가 대통령이었을 때 존재하지 않았습니다. ChatGPT는 트럼프 대통령의 임기가 끝난 후인 11월 말에 대중에게 공개되었습니다. 제공된 맥락에 나오는 ChatGPT 관련 항목은 모두 트럼프 대통령의 임기 이후로 날짜가 지정되어 있습니다. 예를 들어, 2022년 11월 30일에 초기 데모가 공개되고 ChatGPT Plus 구독 서비스가 론칭된 것과 같은 내용입니다. 따라서 ChatGPT는 트럼프 대통령의 임기 중에는 존재하지 않았다고 말할 수 있습니다.
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 원본 질문을 더 추상적인 문제로 "후퇴"시키고, 추상화된 질문과 원본 질문을 모두 검색에 활용함으로써, LLM은 올바른 추론 경로를 따라 해결책으로 나아가는 능력을 향상시킨다.
 
@@ -500,7 +710,18 @@ OpenAI는 ChatGPT의 초기 데모를 2022년 11월 30일에 공개했으며, �
 
 대규모 언어 모델을 활용한 쿼리 확장인 Query2doc은 query2doc을 소개합니다. 이는 LLM의 몇 가지 프롬프트를 활용해 가상 문서를 생성하고, 이를 원본 쿼리와 결합하여 새로운 쿼리를 생성합니다. Figure 6에서 보여지듯이:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-07-13-AdvancedRAG06ExploringQueryRewriting_7.png)
 
@@ -510,7 +731,18 @@ Query2doc believes that HyDE implicitly assumes that the groundtruth document an
 
 Another distinction between Query2doc and HyDE is that Query2doc trains a supervised dense retriever, as outlined in the paper.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Currently, Langchain이나 LlamaIndex에서 query2doc의 복제본을 찾을 수 없었습니다.
 
@@ -520,7 +752,18 @@ ITER-RETGEN 접근법은 생성된 콘텐츠를 검색 안내에 활용합니다
 
 ![이미지](/assets/img/2024-07-13-AdvancedRAG06ExploringQueryRewriting_8.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Figure 7에서 보듯이, 주어진 질문 q와 검색 말뭉치 D = 'd'에 대해, 여기서 d는 하나의 단락을 나타냅니다. ITER-RETGEN은 계속해서 검색 생성을 T번 반복합니다.
 
@@ -530,7 +773,18 @@ Figure 7에서 보듯이, 주어진 질문 q와 검색 말뭉치 D = 'd'에 대�
 
 마지막 출력 yt는 최종 응답으로 생성될 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Query2doc과 유사하게, Langchain이나 LlamaIndex에서는 아직 복제본을 찾지 못했습니다.
 
@@ -540,7 +794,18 @@ Query2doc과 유사하게, Langchain이나 LlamaIndex에서는 아직 복제본�
 
 실제로 이러한 쿼리 재작성 방법은 모두 시도해볼 수 있으며, 어떤 방법이나 방법 조합을 사용할지는 특정 효과에 따라 다릅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그렇지만, LLM을 활용하면 물론 재작성 방법에 따라 성능 트레이드 오프가 발생하는데, 실제 사용 시 이를 고려해야 합니다.
 
@@ -550,7 +815,18 @@ RAG에 관심이 있다면 저의 다른 기사들을 확인해보세요.
 
 그리고 최신 AI 관련 콘텐츠는 제 뉴스레터에서 찾아볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로, 만일 이 기사에 부정확한 점이나 누락된 내용이 있거나 궁금한 점이 있다면, 댓글 섹션에 남겨주시면 감사하겠습니다.
 

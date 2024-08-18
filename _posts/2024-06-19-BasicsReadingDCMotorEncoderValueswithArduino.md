@@ -3,17 +3,13 @@ title: "기초 아두이노로 DC 모터 인코더 값을 읽는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-19-BasicsReadingDCMotorEncoderValueswithArduino_0.png"
 date: 2024-06-19 17:46
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-BasicsReadingDCMotorEncoderValueswithArduino_0.png
 tag: Tech
 originalTitle: "Basics: Reading DC Motor Encoder Values with Arduino"
 link: "https://medium.com/@chrishio/basics-reading-dc-motor-encoder-values-with-arduino-2c185f3601ef"
 isUpdated: true
 ---
-
-
-
-
 
 본 예제는 동력 모터 인코더 값을 모니터링하는 방법을 학습하는 내용입니다. 제가 시작한곳은 https://www.electroniclinic.com/arduino-dc-motor-speed-control-with-encoder-arduino-dc-motor-encoder/ 인데, 이 예제에는 모터가 실제로 회전하지 않고 디지털 읽기 값을 아날로그 A2D 값인 것처럼 스케일링한다는 것을 발견했습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-19-BasicsReadingDCMotorEncoderValueswithArduino_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 레이아웃 개요:
 
@@ -46,19 +53,19 @@ int encoder_ChB_value;
 void setup() {
    Serial.begin(9600); // Initialize serial communication at 9600 baud rate
 
-   // Set encoder pins as inputs with internal pull-up resistors 
+   // Set encoder pins as inputs with internal pull-up resistors
    // to avoid floating states and provide stable readings
-   pinMode(encoder_ChA, INPUT_PULLUP); 
+   pinMode(encoder_ChA, INPUT_PULLUP);
    pinMode(encoder_ChB, INPUT_PULLUP);
 }
 
 void loop() {
     // Read the current state of encoder channels
-   encoder_ChA_value = digitalRead(encoder_ChA); 
-   encoder_ChB_value = digitalRead(encoder_ChB); 
- 
+   encoder_ChA_value = digitalRead(encoder_ChA);
+   encoder_ChB_value = digitalRead(encoder_ChB);
+
     // Print the encoder values to the serial monitor
-   Serial.print(encoder_ChA_value); 
+   Serial.print(encoder_ChA_value);
    Serial.print(" ");  // Separate the values with a space
    Serial.println(encoder_ChB_value);  // Print the second value and move to a new line
 }
@@ -66,7 +73,18 @@ void loop() {
 
 코드 개요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인코더 채널 정의: 코드의 시작부분에서 우리는 인코더 채널(encoder channels)을 위한 두 개의 상수(encoder_ChA와 encoder_ChB)를 정의합니다. 이렇게 하면 코드를 더 읽기 쉽게 만들고, 필요한 경우 핀을 전환해야 할 때 쉽게 수정할 수 있습니다. 핀 7과 8에 특별한 것은 없습니다. 그저 사용하기로 결정한 것뿐입니다.
 

@@ -3,17 +3,13 @@ title: "데이터 엔지니어링에서 가장 흔히 쓰이는 리눅스 명령
 description: ""
 coverImage: "/assets/img/2024-07-12-MostCommonLinuxCommandsinDataEngineering_0.png"
 date: 2024-07-12 22:55
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-MostCommonLinuxCommandsinDataEngineering_0.png
 tag: Tech
 originalTitle: "Most Common Linux Commands in Data Engineering"
 link: "https://medium.com/gitconnected/most-common-linux-commands-in-data-engineering-7cea3e60ec4f"
 isUpdated: true
 ---
-
-
-
-
 
 데이터 엔지니어링 과정을 시작하기 전에 이 내용을 꼭 알아야 해요
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 그리고 그 결정은 옳았어요! 😁
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 톡 클럽에서 데이터 엔지니어링 Zoomcamp을 수강했을 때 몇 가지 기본 명령이 머릿 속에 남아 있어야 하고 다른 고급 명령을 찾기 위해 구글링하는 방법을 알아야 한다는 것을 알게 되었어요.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 리눅스 명령어를 사용하는 방법은:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Windows Subsystem Linux (WSL);
 - Git Bash Terminal;
@@ -45,7 +63,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-07-12-MostCommonLinuxCommandsinDataEngineering_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리눅스 명령어는 당신과 같은 데이터 엔지니어에게 중요한 도구입니다.
 
@@ -56,7 +85,18 @@ isUpdated: true
 - 데이터 파이프라인 구축 및 자동화 스크립팅과 같은 작업에 리눅스를 사용할 것입니다. (예: GitLab CI/CD)
 - 리눅스 명령어를 사용하여 파일 조작, 디렉토리 탐색 및 프로세스 관리와 같은 작업을 수행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리소스 모니터링 및 최적화:
 
@@ -68,7 +108,18 @@ isUpdated: true
 - 프로세스를 최적화합니다(예: 프로세스 우선 순위 조정).
 - 성능 문제를 해결합니다(리소스 병목 현상 식별).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도커 및 컨테이너화:
 
@@ -79,7 +130,18 @@ isUpdated: true
 
 깊은 디버깅 및 문제 해결:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시스템이 문제가 발생할 때 (자주 그렇습니다), Linux 명령어를 활용하여 심층 디버깅을 수행할 수 있어요.
 
@@ -90,7 +152,18 @@ isUpdated: true
 
 이 섹션에서는 '암속'으로 알고 있어야 하는 가장 기본적인 Linux 명령어를 배울 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GitHub Codespaces를 사용하는 프린트 스크린도 몇 개 보게 될 거예요.
 
@@ -100,7 +173,18 @@ ls 명령어는 디렉토리의 내용을 나열합니다.
 
 기본적으로 현재 디렉토리 내의 파일과 하위 디렉토리를 표시합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 유용한 변형 몇 가지를 볼 수 있어요:
 
@@ -112,7 +196,18 @@ ls 명령어는 디렉토리의 내용을 나열합니다.
 
 ## pwd (현재 작업 디렉토리 출력)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 pwd 명령은 현재 작업 디렉토리(즉, 파일 시스템 내 현재 위치)를 표시합니다.
 
@@ -122,7 +217,18 @@ pwd 명령은 현재 작업 디렉토리(즉, 파일 시스템 내 현재 위치
 
 cd 명령을 사용하여 디렉토리 간에 전환할 수 있습니다. 다음은 몇 가지 예시입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - cd ..: 상위 폴더로 이동합니다 (부모 디렉토리로).
 - cd /경로/대상/디렉토리: 절대 경로로 이동합니다.
@@ -134,7 +240,18 @@ cd 명령을 사용하여 디렉토리 간에 전환할 수 있습니다. 다음
 
 echo 명령어는 텍스트를 터미널에 출력합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반적으로 메시지를 표시하거나 간단한 스크립트를 만드는 데 사용됩니다.
 
@@ -145,7 +262,18 @@ echo 명령어는 텍스트를 터미널에 출력합니다.
 
 ![이미지2](/assets/img/2024-07-12-MostCommonLinuxCommandsinDataEngineering_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## mkdir (디렉토리 만들기)
 
@@ -155,7 +283,18 @@ mkdir을 사용하여 지정된 위치에 디렉토리(폴더)를 생성하세�
 
 ![링크 없음](/assets/img/2024-07-12-MostCommonLinuxCommandsinDataEngineering_7.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## cp (복사)
 
@@ -166,7 +305,18 @@ cp 명령어는 파일이나 디렉토리를 한 위치에서 다른 위치로 �
 
 ![이미지](/assets/img/2024-07-12-MostCommonLinuxCommandsinDataEngineering_8.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## mv (이동 또는 이름 바꾸기)
 
@@ -177,7 +327,18 @@ mv 명령어는 파일이나 디렉토리를 한 위치에서 다른 위치로 �
 
 ![이미지](/assets/img/2024-07-12-MostCommonLinuxCommandsinDataEngineering_9.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## rm (삭제)
 
@@ -188,7 +349,18 @@ rm 명령어는 파일이나 디렉토리를 삭제합니다. 파일을 영구�
 
 ![이미지](/assets/img/2024-07-12-MostCommonLinuxCommandsinDataEngineering_10.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 최종 코멘트
 
@@ -198,6 +370,17 @@ rm 명령어는 파일이나 디렉토리를 삭제합니다. 파일을 영구�
 
 GitHub Codespaces와 함께 작업하는 방법을 알고 싶다면 아래 링크를 참고해 주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글이 마음에 드셨나요? 더 많은 기사를 보려면 저를 팔로우해주세요.

@@ -3,16 +3,13 @@ title: "Angular RxJS와 Signals 비교, 무엇을 사용해야 할까"
 description: ""
 coverImage: "/assets/img/2024-07-06-AngularRxJSvsSignalswhattouse_0.png"
 date: 2024-07-06 03:08
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-06-AngularRxJSvsSignalswhattouse_0.png
 tag: Tech
 originalTitle: "Angular: RxJS vs Signals, what to use?"
 link: "https://medium.com/@IgorPak-dev/angular-rxjs-vs-signals-what-to-use-17f2655b7e9c"
 isUpdated: true
 ---
-
-
-
 
 ![](/assets/img/2024-07-06-AngularRxJSvsSignalswhattouse_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 가장 먼저, 가장 간단한 경우부터 시작해봅시다. 당신은 특정 값으로 초기화해야 하는 덤 (표현) 컴포넌트를 가지고 있습니다. 무엇을 선택해야 할까요? 답은: 달려 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 미래에 계속해서 동일한 입력 필드를 사용해야 하는 경우 일반 @Input을 사용하세요 (더 나아가 한 번만 바인딩하기 위해 @Attribute를 사용할 수도 있습니다).
 - 정보가 자주 변경되고 템플릿에서 렌더링해야 한다면, signal 입력이 가장 좋은 선택입니다. 변화에 적응하는 것 뿐만 아니라 효율적으로 실행할 수 있게 해주어 나중에는 세부적인 신호 기반의 영역이 제거된 변경 검출을 활용할 수 있습니다.
@@ -70,7 +78,18 @@ this.testSignal.set('test-signal-4');
 }
 \`\`\`
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에는 신호, 해당 신호를 기반으로 계산된 신호, 그 효과가 그대로 반영된 mid-value를 등록하기 위한 것이 있습니다. 코드를 처음 보면 아마 이런 식으로 보일 것 같습니다:
 
@@ -91,7 +110,18 @@ computed value: computed test-signal-in-timeout
 
 ![](/assets/img/2024-07-06-AngularRxJSvsSignalswhattouse_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 네, 그것은 전체 로그입니다. 맞아요, 맞아요. 우리는 완전히 test-signal-2, test-signal-3, 그리고 test-signal-4를 잃었어요. 이것은 정말 이상해요. 적어도 test-signal-4는 남아 있어야 했는데. 아니면 그렇지 않았어요?
 - 이 로그에서 두 번째로 알 수 있는 것은, 첫 번째로 EFFECT가 먼저 발생했고, 두 번째로 COMPUTED가 먼저 발생했다는 거예요. 놀랍죠, 놀랍죠...
@@ -102,7 +132,18 @@ computed value: computed test-signal-in-timeout
 
 ...앗, 업데이트할 대상이 없다고요? 뭐라고요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![](/assets/img/2024-07-06-AngularRxJSvsSignalswhattouse_3.png)
 
@@ -112,7 +153,18 @@ computed value: computed test-signal-in-timeout
 
 ![](/assets/img/2024-07-06-AngularRxJSvsSignalswhattouse_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 효과 함수가 시작되면 시그널 그래프가 업데이트되며, 타임아웃 콜백에서 시그널을 설정한 다음엔 모든 것이 예상대로 작동합니다:
 
@@ -122,7 +174,18 @@ computed value: computed test-signal-in-timeout
 
 ## CASE#2: 값의 스트림.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 모든 값을 세어야 하는 경우에는 옵저버블 및 RxJS의 모든 잠재력을 활용하는 것을 강력히 권합니다.
 - 중간값에 관심이 없다면, 시그널은 적합한 대안이 될 수 있습니다. 그러나 특히 초기화 단계에서 잠재적인 문제를 예방하기 위해 조심하는 것이 중요합니다.

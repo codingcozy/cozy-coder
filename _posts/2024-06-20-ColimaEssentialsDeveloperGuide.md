@@ -3,17 +3,13 @@ title: "콜리마 에센셜 개발자 안내"
 description: ""
 coverImage: "/assets/img/2024-06-20-ColimaEssentialsDeveloperGuide_0.png"
 date: 2024-06-20 14:33
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-ColimaEssentialsDeveloperGuide_0.png
 tag: Tech
 originalTitle: "Colima Essentials Developer Guide"
 link: "https://medium.com/java-nibble/colima-essentials-guide-e5b969f74b62"
 isUpdated: true
 ---
-
-
-
-
 
 ## macOS에서 Colima 컨테이너 런타임을 사용하는 개발자 안내서.
 
@@ -23,7 +19,18 @@ Colima 세계에 뛰어들어 시작하는 데 완벽한 필수 안내서입니�
 
 쉬운 설치 단계부터 편리한 명령줄 트릭까지, macOS 또는 Linux 기기에서 로컬 컨테이너 런타임을 설정하는 방법을 배울 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Colima를 사용하여 개발 환경을 더 스무스하고 효율적으로 만들어 보세요!
 
@@ -33,7 +40,18 @@ Colima를 사용하여 개발 환경을 더 스무스하고 효율적으로 만�
 
 Colima의 다른 기능으로는 docker 및 containerd 런타임 지원, 포트 전달, 볼륨 마운트, 쿠버네티스 및 여러 인스턴스 지원이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 콜리마는 Docker Desktop의 대체로 사용할 수 있습니다. 특히 특정 조건에서 Docker Desktop은 무료가 아닙니다.
 
@@ -43,7 +61,18 @@ Colima의 다른 기능으로는 docker 및 containerd 런타임 지원, 포트 
 
 리마는 자동 파일 공유, 포트 포워딩 및 컨테이너드를 지원하는 리눅스 가상 머신을 시작합니다. 리마의 목적은 사용자들에게 네르드컨테이너(nerdctl)를 포함한 컨테이너드를 소개하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리마는 컨테이너가 아닌 애플리케이션에도 사용할 수 있어요. 리마는 게스트 머신을 실행하는 qemu 및 vz를 지원하며, 이는 인스턴스 생성 중에만 지정될 수 있어요.
 
@@ -56,22 +85,44 @@ Colima의 다른 기능으로는 docker 및 containerd 런타임 지원, 포트 
 $ brew install colima
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Colima를 설치하려면 MacPorts, Nix, Arch, 이진 파일 또는 소스에서 빌드하는 방법을 사용하여 공식 Colima Github 페이지의 설치 안내를 따르세요.
 
 Colima를 Docker Desktop 대체로 사용할 수 있으므로 다음 소프트웨어가 필요합니다:
 
 ```js
-$ brew install docker 
-$ brew install docker-compose 
+$ brew install docker
+$ brew install docker-compose
 $ brew install docker-credential-helper
 $ brew install kubectl
 ```
 
 # Colima 구성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Colima 기본 구성
 
@@ -84,7 +135,18 @@ $ brew install kubectl
 $ colima start --edit
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 구성 파일은 $HOME/.colima/default/colima.yaml에 있습니다. 이 파일은 수동으로 구성할 수 있습니다. 다른 프로필의 구성은 $HOME/.colima/`프로필명`/colima.yaml에서 찾을 수 있습니다.
 
@@ -95,9 +157,20 @@ $ colima start --edit
 $ colima template
 ```
 
-템플릿 파일은 $HOME/.colima/_templates/default.yaml에 있습니다.
+템플릿 파일은 $HOME/.colima/\_templates/default.yaml에 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 도커 로그인 구성
 
@@ -109,7 +182,18 @@ $ colima template
 $ brew install docker-credential-helper
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 /usr/local/bin에 심볼릭 링크가 생성되었습니다. 심볼릭 링크를 확인하고 올바르게 구성되었는지 확인하려면 다음 명령을 실행하면 됩니다. 아래와 같이 표시되어야 합니다:
 
@@ -122,7 +206,18 @@ $ ls -l /usr/local/bin/docker-credential-osxkeychain
 
 속성을 설정한 후, 구성은 다음과 같이 보여야 합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```json
 {
@@ -139,7 +234,18 @@ $ mkdir -p $HOME/.docker/cli-plugins
 $ ln -sfn /usr/local/opt/docker-compose/bin/docker-compose $HOME/.docker/cli-plugins/docker-compose
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 구성 확인
 
@@ -149,7 +255,18 @@ Colima가 성공적으로 설치되고 구성되었는지 확인하려면 다음
 
 자격 증명 설정이 작동하는지 확인하려면 도커 로그인 명령을 실행하세요. 도커 Compose가 작동하는지 확인하려면 도커-컴포즈 버전 명령을 사용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 $ colima start; colima status
@@ -164,7 +281,18 @@ $ docker-compose version
 
 기본적인 사용 시나리오는 colima를 통해 컨테이너 런타임을 시작하는 것입니다. 이것이 colima를 사용하는 첫 번째 경우라면, 모든 기본 구성이 템플릿에 따라 새로운 기본 프로필로 생성됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가상 머신에 할당되는 기본 구성 속성은 다음과 같습니다:
 
@@ -188,7 +316,18 @@ Docker를 처음 사용하는 경우 Docker 레지스트리에도 로그인해�
 
 Docker 사용이 끝나면 colima stop 명령어를 사용하여 Docker 런타임을 중지해야 합니다. colima list 명령어를 실행하여 모든 colima 인스턴스가 정지되었는지 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 명령어는 Colima의 기본 사용법을 수행하는 데 사용됩니다:
 
@@ -216,21 +355,34 @@ $ colima list
 
 Colima 도구가 응답하지 않을 경우 limactl을 사용하여 linux 가상 머신 내에서 colima 컨테이너 런타임을 관리할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 리눅스 가상 머신의 인스턴스 목록을 나열합니다.
+
 $ limactl ls
 
 # Colima 리눅스 가상 머신을 중지합니다.
+
 $ limactl stop colima
 
 # Colima 리눅스 가상 머신을 삭제합니다.
+
 $ limactl delete colima
 
 # Lima에 대한 도움말 정보를 표시합니다.
-$ limactl --help
 
+$ limactl --help
 
 # Colima 명령어
 
@@ -238,8 +390,18 @@ $ limactl --help
 
 이 섹션에는 예제와 함께 colima 명령어 목록이 포함되어 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - colima completion - 다양한 쉘용 완성 스크립트 생성.
 - colima delete - Colima 및 모든 설정 삭제 및 해체.
@@ -261,6 +423,17 @@ $ limactl --help
 
 이 안내서는 동반자 역할을 하며, Colima의 전체 잠재력을 발휘하여 컨테이너화 노력에서 발생하는 모든 개발적인 어려움을 보다 쉽고 자신감 있게 극복하는 데 도움을 줄 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사에 열 번 👏을 치면서 공유 🤝해 주시고 도움을 받을 수 있는 사람들에게 알려주세요. 더 이상 이와 같은 게시물을 보려면 저(👥 André Maré)를 팔로우해 주세요.

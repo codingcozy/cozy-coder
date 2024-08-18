@@ -3,17 +3,13 @@ title: "Swarmauri의 GroqModel을 사용하여 Gradio 애플리케이션 만드�
 description: ""
 coverImage: "/assets/img/2024-08-03-Step-by-StepGuidetoCreateaGradioApplicationUsingSwarmaurisGroqModel_0.png"
 date: 2024-08-03 20:36
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-03-Step-by-StepGuidetoCreateaGradioApplicationUsingSwarmaurisGroqModel_0.png
 tag: Tech
 originalTitle: "Step-by-Step Guide to Create a Gradio Application Using Swarmauris GroqModel"
 link: "https://medium.com/@swarmauri/step-by-step-guide-to-create-a-gradio-application-using-swarmauris-groqmodel-b1817c26512f"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-08-03-Step-by-StepGuidetoCreateaGradioApplicationUsingSwarmaurisGroqModel_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 시작하기 전에 필요한 라이브러리와 패키지를 설치했는지 확인하세요. Swarmauri의 swarmauri-sdkpython 패키지가 필요합니다. 주의: 현재 swarmauri-sdk는 베타 버전입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 종속성을 설치하려면 다음 명령을 실행하세요:
 
@@ -35,7 +42,18 @@ pip install swarmauri[full]==0.4.0
 
 새 Python 파일(예: app.py)을 만들고 필요한 라이브러리를 가져오세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import os
@@ -61,7 +79,18 @@ conversation = Conversation()
 agent = SimpleConversationAgent(llm=llm, conversation=conversation)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 4: Gradio 인터페이스 정의하기
 
@@ -84,7 +113,18 @@ demo = gr.ChatInterface(
 
 # 단계 5: 애플리케이션 실행하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그라디오 인터페이스를 실행하세요.
 
@@ -97,7 +137,18 @@ if __name__ == "__main__":
 
 다음은 app.py 전체 코드입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import os
@@ -139,7 +190,18 @@ if __name__ == "__main__":
 python app.py
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 터미널에 URL(예: http://127.0.0.1:7860/)이 표시됩니다. 이 URL을 웹 브라우저에서 열어서 Swarmauri 에이전트와 상호 작용해보세요.
 
@@ -149,7 +211,18 @@ python app.py
 
 # 함께하실래요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 Swarmauri를 개발자와 데이터 과학자들을 위한 강력한 도구 모음으로 지속적으로 발전시키고 있습니다. 여러분의 기여, 피드백 및 참여가 이 프로젝트를 번창하게 만듭니다.
 

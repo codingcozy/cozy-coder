@@ -3,17 +3,13 @@ title: "윈도우 10 및 11 설치 방법"
 description: ""
 coverImage: "/assets/img/2024-06-23-HowtoInstallWindows10and11_0.png"
 date: 2024-06-23 15:48
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-HowtoInstallWindows10and11_0.png
 tag: Tech
 originalTitle: "How to Install Windows 10 and 11"
 link: "https://medium.com/@info_5679/how-to-install-windows-10-and-11-313dfc494238"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-06-23-HowtoInstallWindows10and11_0.png)
 
@@ -31,7 +27,18 @@ isUpdated: true
 - 결론
 - 자주 묻는 질문 (FAQ)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 소개
 
@@ -41,7 +48,18 @@ Windows 10 및 11을 설치하는 방법에 대한 포괄적인 안내서에 오
 
 Windows 설치 과정을 시작하기 전에 PC가 Windows 10 및 Windows 11의 시스템 요구 사항을 충족하는지 확인하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Windows 10 요구 사항
 
@@ -60,7 +78,18 @@ Windows 설치 과정을 시작하기 전에 PC가 Windows 10 및 Windows 11의 
 - 그래픽 카드: DirectX 12 호환 그래픽 / WDDM 2.x
 - 디스플레이: HD 해상도(720p)와 9인치 이상
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 준비 사항
 
@@ -76,7 +105,18 @@ Windows 설치 과정을 시작하기 전에 PC가 Windows 10 및 Windows 11의 
 - USB 플래시 드라이브 선택: USB 드라이브(최소 8GB)를 삽입하고 도구에서 선택합니다.
 - 부팅 가능한 드라이브 만들기: "다음"을 클릭하고 도구가 Windows ISO를 다운로드하고 부팅 가능한 드라이브를 생성할 때까지 기다립니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Windows 10 설치하기
 
@@ -100,7 +140,18 @@ Windows 설치 과정을 시작하기 전에 PC가 Windows 10 및 Windows 11의 
 - 드라이브 파티션: Windows 11을 설치할 파티션을 선택하고 “다음”을 클릭합니다. 불확실하다면 모든 파티션을 삭제하고 미할당된 공간을 선택합니다.
 - 화면 안내에 따라 진행하세요: 설치를 완료하기 위해 안내에 따라 진행합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 일반적인 문제와 해결책
 
@@ -110,7 +161,18 @@ Windows 설치 과정을 시작하기 전에 PC가 Windows 10 및 Windows 11의 
 
 # 문제: 드라이버 누락
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 수정: 제조업체 웹사이트에서 필요한 드라이버를 다운로드하고 설치하세요. 안정적인 인터넷 연결을 확인해주세요.
 
@@ -120,7 +182,18 @@ Windows 설치 과정을 시작하기 전에 PC가 Windows 10 및 Windows 11의 
 
 # 문제: 특정 퍼센트에서 설치가 멈춤
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 고치세요: 설치 프로세스를 다시 시작하세요. 하드웨어 연결 상태를 확인하고 PC가 최소 요구 사항을 충족하는지 확인하세요.
 
@@ -130,7 +203,18 @@ Windows 10 및 Windows 11 설치는 주의깊게 단계를 따른다면 원활�
 
 # 자주 묻는 질문
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 1. Windows 10에서 Windows 11로 직접 업그레이드할 수 있나요?
 
@@ -140,7 +224,18 @@ Windows 10 및 Windows 11 설치는 주의깊게 단계를 따른다면 원활�
 
 일반적으로 설치 과정은 20~30분이 소요됩니다. 하지만 하드웨어에 따라 다를 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3. 설치할 때 인터넷 연결이 필요한가요?
 
@@ -150,7 +245,18 @@ Windows 10 및 Windows 11 설치는 주의깊게 단계를 따른다면 원활�
 
 네, 업그레이드 과정 중에 파일을 유지할 수 있습니다. 그러나 깨끗한 설치를 선택하면 모든 데이터가 삭제되므로 중요한 파일은 반드시 백업해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 5. 제품 키를 분실한 경우 어떻게 해야 하나요?
 
@@ -163,7 +269,18 @@ Windows 10 및 Windows 11 설치는 주의깊게 단계를 따른다면 원활�
 - 랩탑이 느려진 이유는 무엇인가요? 팁 및 해결책 2024
 - 느린 PC 속도 향상: 더 나은 성능을 위한 팁.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 개인 맞춤형 지원이 필요하다면, Hire IT Expert에 문의하세요.
 

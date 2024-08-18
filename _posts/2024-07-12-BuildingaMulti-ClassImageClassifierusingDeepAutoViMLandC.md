@@ -3,17 +3,13 @@ title: "Deep AutoViML과 C을 사용하여 다중 클래스 이미지 분류기 
 description: ""
 coverImage: "/assets/img/2024-07-12-BuildingaMulti-ClassImageClassifierusingDeepAutoViMLandC_0.png"
 date: 2024-07-12 23:49
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-BuildingaMulti-ClassImageClassifierusingDeepAutoViMLandC_0.png
 tag: Tech
 originalTitle: "Building a Multi-Class Image Classifier using Deep AutoViML and C#"
 link: "https://medium.com/@codezone/building-a-multi-class-image-classifier-using-deep-autoviml-and-c-62882d5df057"
 isUpdated: true
 ---
-
-
-
-
 
 기계 학습의 세계에서 효과적인 이미지 분류기를 구축하는 것은 흥미롭고 동시에 도전적일 수 있습니다. Deep AutoViML (Automated Variational Model Learning)은 딥 러닝 모델 구축 및 튜닝 프로세스를 간단화하는 데 도움이 되는 도구입니다. 본 문서에서는 Deep AutoViML을 활용하여 C#에서 다중 클래스 이미지 분류기를 만드는 단계를 안내해 드리겠습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Deep AutoViML은 모델 선택, 하이퍼파라미터 튜닝 및 데이터 전처리와 같은 모델 훈련 프로세스의 다양한 측면을 자동화하는 것을 목표로 합니다. 이를 통해 사용자는 최소한의 코드로 강력한 모델을 만들 수 있어 초보자 및 경험 많은 개발자 모두에게 접근하기 쉽습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 환경 설정 시작하기
 
@@ -35,7 +42,18 @@ Deep AutoViML은 모델 선택, 하이퍼파라미터 튜닝 및 데이터 전�
 
 # 데이터 준비하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 이미지 데이터를 준비해야 합니다. 데이터셋이 올바르게 레이블이 지정되고 구성되어 있는지 확인하세요. 간단하게, 데이터셋이 다음과 같이 구조화되어 있다고 가정해봅시다:
 
@@ -55,8 +73,18 @@ Deep AutoViML은 모델 선택, 하이퍼파라미터 튜닝 및 데이터 전�
 
 Deep AutoViML은 Python 라이브러리이기 때문에 모델 훈련 코드는 Python으로 작성해야 합니다. 아래는 예시입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 from deep_autoviml import deep_autoviml as deep
@@ -79,8 +107,18 @@ After training the model in Python, you can use it in your C# application. Below
 
 To integrate with Python in a C# application, you can install Python.NET:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 dotnet add package Python.Runtime
@@ -129,6 +167,17 @@ class Program
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 딥 AutoViML과 Python.NET을 활용하면 C# 애플리케이션에 강력한 다중 클래스 이미지 분류기를 구축 및 통합할 수 있습니다. 이 방법은 딥 AutoViML을 사용한 모델 구축의 편리함과 C#을 사용한 애플리케이션 개발의 유연성을 결합하여 이미지 분류 작업에 강력한 솔루션을 제공합니다.

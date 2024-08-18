@@ -3,18 +3,13 @@ title: "러스트 배우기 베어 쓰레딩"
 description: ""
 coverImage: "/assets/img/2024-06-19-LearningRustBareThreading_0.png"
 date: 2024-06-19 00:46
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-LearningRustBareThreading_0.png
 tag: Tech
 originalTitle: "Learning Rust: Bare Threading"
 link: "https://medium.com/gitconnected/learning-rust-bare-threading-1defb65038c9"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![이미지](/assets/img/2024-06-19-LearningRustBareThreading_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 Concurrency를 만드는 한 가지 방법은 이벤트 루프입니다. 최근에 리눅스의 uring을 사용하여 작업한 경험이 있습니다. no-std 환경에서 async/await 런타임의 작동 버전을 만들었습니다. 이것은 주 스레드에서 실행되며 병렬로 실행되는 작업의 느낌을 줍니다. 다음 예시를 살펴보겠습니다:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```rust
 pub struct HelloCommand {
@@ -56,7 +61,18 @@ impl HelloCommand {
 
 파이프는 메시지를 한 방향으로만 전달할 수 있는 마법 버퍼 터널입니다. 구체적으로 작성자와 리더 엔드포인트가 있습니다. 두 엔드포인트 모두 별도의 파일 디스크립터를 가지고 있습니다. pipe2 시스템 호출을 사용하여 이를 만들 수 있습니다. 만들어진 디스크립터에 대한 두 개의 32비트 정수 배열을 인수로 받습니다. 선택적으로 플래그도 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```rust
 pub fn sys_pipe2(pipefd: *mut u32, flags: u32) -> isize {
@@ -88,7 +104,18 @@ pub fn sys_pipe2(pipefd: *mut u32, flags: u32) -> isize {
 
 위의 사실들을 고려하여 Hello World 응용 프로그램을 작성할 수 있습니다. 이 응용 프로그램은 메시지를 파이프에 쓰고, 해당 메시지를 읽어서 최종적으로 std-out에 인쇄합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```rust
 pub struct PipeCommand {
@@ -167,8 +194,18 @@ impl PipeCommand {
 
 새 스레드를 생성하면 가장 흥미로운 부분은 자식 스레드가 시작하는 곳입니다. 우리가 고수준 라이브러리가 우리를 위해 추상화한 대로 함수 포인터를 전달하지 않습니다. 새 스레드는 정확히 우리가 자신을 복제하는 시스템 콜을 호출한 시점에서 계속됩니다. 부모 스레드와 자식 스레드를 구분짓는 것은 무엇인가요? 스택과 시스템 콜 결과입니다. 시스템 콜을 호출하기 전에 스택을 미리 생성해야 하며, 시스템 콜은 부모 스레드에서는 양수를 반환하고 자식 스레드에서는 0을 반환합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 클론 생성 및 쓰레드를 구별하기 위해 코드에서 if 문을 사용하는 아이디어가 약간 이상하고 안타깝게도 권장되는 방법 중 하나입니다. 이 경우 부모 스택에서만 사용할 수 있는 일부 변수를 사용하려 하면 문제가 발생할 수 있습니다. 컴파일러가 이를 올바르게 처리하지 못할 수 있습니다. 다행히 Chris Wellons의 멋진 블로그 포스트가 있습니다. 그는 사용자 코드 분기를 피하고 프로세서가 자동으로 올바른 함수를 호출하고 점프하도록 스택을 준비하는 훌륭한 속임수를 설명합니다.
 
@@ -196,34 +233,54 @@ impl PipeCommand {
 
 스택이 아래쪽으로 성장한다는 것을 기억하면, 현재 부모 RSP 레지스터가 0x1d00을 가리키는 것을 관찰할 수 있습니다. 이 위치에는 모든 로컬 스택 변수가 들어 있고 RET 명령이 실행될 경우 계속할 함수(0xb700)를 가리키는 포인터가 저장되어 있습니다. RET 명령은 스택에서 값을 팝하여 RIP 레지스터에 넣습니다. 자식 쪽에는 아무 것도 없으므로 자식 코드는 어떤 변수도 참조하거나 호출자에게 반환할 수 없습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 표를 마크다운 형식으로 변경해드릴게요.
 
-
-|       Parent       |       Child       |
-|---------------------|-------------------|
-| 0x1000             | 0xa000               |
-|---------------------|-------------------|
-|                     |                   |
-|                     |                   |
-|                     |                   |
-|                     |                   |
-| return: 0xb700      |                   |
-|---------------------|                   |
-| return: 0xb980      |                   |
-| variable: val3      |                   |
-| variable: val4      |                   |
-|---------------------|                   |
-| return: 0xb120      |                   |
-| variable: val1      |                   |
-| variable: val2      |                   |
-|---------------------|-------------------|
-
+| Parent                | Child               |
+| --------------------- | ------------------- |
+| 0x1000                | 0xa000              |
+| --------------------- | ------------------- |
+|                       |                     |
+|                       |                     |
+|                       |                     |
+|                       |                     |
+| return: 0xb700        |                     |
+| --------------------- |                     |
+| return: 0xb980        |                     |
+| variable: val3        |                     |
+| variable: val4        |                     |
+| --------------------- |                     |
+| return: 0xb120        |                     |
+| variable: val1        |                     |
+| variable: val2        |                     |
+| --------------------- | ------------------- |
 
 리턴(call) 명령을 실행할 때 0xb700부터 실행될 것이라는 정보가 0x1d00에 저장되어 있다고 상상해봐요. 현재 부모 호출에 있으며 스택이 0x1d00을 가리키고 있습니다. 우리가 현재 실행 중인 코드가 쓰레드로 프로세스를 복제하고, 새로운 RSP로 0xaf80을 전달한다면, 새로운 스택도 RET 명령을 만날 것이지만, 이번에는 0xb800부터 계속될 것입니다. 스택이 가리키고 있기 때문이죠. 아름다운 것 같죠?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 한 걸음 더 나아가서 스택을 더 깊게 준비할 수 있습니다. 0xb800 뒤에 있는 코드도 워커 인자를 포함하는 구조체에 대한 포인터를 사용할 수 있으면 좋겠습니다. 구조체를 스택의 끝에 (바닥에) 배치하고, 그 포인터를 RDI 레지스터에 넣고 싶습니다 (System V ABI). 최종 메모리 레이아웃은 다음과 같이 보일 것입니다:
 
@@ -252,7 +309,18 @@ impl PipeCommand {
 
 이제 rust와 어셈블리 코드를 작성할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```rust
 arch::global_asm!(
@@ -318,7 +386,18 @@ where
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 헤더에 임의의 32바이트와 함수 포인터가 포함되어 있습니다. 이것은 힙의 맨 위에 고정됩니다. 이는 캡처된 클로저로 확장되며 실행이 끝날 때 결과가 모여집니다. 헤더는 고정된 크기를 가지며 클로저의 유형이나 반환 값 크기에 의존하지 않습니다.
 
@@ -389,7 +468,18 @@ where
 
 이 구조체는 새로운 호출 가능한 것을 할당하며, 두 구조체에 대해 충분한 메모리를 할당하고 클로저를 힙으로 이동시킵니다. 모든 유형을 지워버리지만 모든 일반 유형을 기억하는 함수 포인터는 보존합니다. 호출 가능한 것을 호출하고 수집된 결과를 가져올 수도 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```rust
 impl CallableTarget {
@@ -438,7 +528,18 @@ struct WorkerArgs {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 작업자는 두 파이프에 대한 파일 디스크립터를 포함하고 있습니다. 하나는 쓰레드로 페이로드를 전송하기 위한 것이고, 다른 하나는 쓰레드로부터 페이로드를 수신하기 위한 것입니다. 두 쌍의 파이프를 가지고 있으면 양방향 통신이 가능해집니다. 쓰레드를 만들 때, 쓰레드 관점에서 두 개의 파일 디스크립터도 받게 됩니다. 작업자 쓰레드는 자신의 스택을 관리하는 것도 책임져야 합니다. 왜냐하면 작업자의 수명이 끝나면 스택을 파괴해야 하기 때문입니다. 그렇다면 작업자를 어떻게 생성할까요? 함께 분석해봅시다:
 
@@ -545,7 +646,18 @@ extern "C" fn worker_callback(args: &WorkerArgs) -> ! {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 어떤 일이 일어날까요? 결과를 검사하지 않고 두 파이프를 모두 닫습니다. 결과가 부정적인 경우 전혀 반응할 수가 없어요. 주어진 어셈블리 코드 스니펫을 살펴봐서 어떻게 해야 하는지 알아보아요.
 
@@ -553,7 +665,18 @@ extern "C" fn worker_callback(args: &WorkerArgs) -> ! {
 
 작업자 스레드에 무엇을 놓을 수 있을까요? 비동기 코드를 넣지는 않겠어요. 모든 것을 복잡하게 만들 것이기 때문이죠. 그렇다면 호출 가능한 작업이 실행될 때까지 기다리는 간단한 루프를 놓는 것은 어떨까요? 이 아이디어를 다음 스니펫에서 확인해보겠습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 스니펫은 거의 무한 루프에 진입하여 16바이트의 데이터를 기다립니다. 이는 힙 포인터와 힙 길이의 쌍이 호출 가능한 구조체를 재구성할 것으로 기대합니다. 실제로 가능합니다. 쉽죠, 호출 가능한 구조체를 호출하고 1바이트를 반환 파이프로 다시 씁니다. 이 1바이트는 준비되었다는 신호로만 사용됩니다. 호출 가능한 객체를 해제하지 않고 결과를 해석하지 않습니다. 그런데 포인터만 가지고 호출 가능한 구조체를 재구성하는 방법은 무엇일까요? 이를 살펴보겠습니다:
 
@@ -590,7 +713,18 @@ impl CallableTarget {
 
 헤더가 고정된 크기이며 힙의 시작 부분에 있는 것을 기억하시나요? 단순히 그것을 읽어서 호출 필드를 추출할 수 있어서 힙과 함께 호출 가능한 타겟을 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 무한 루프를 포함하는 워커를 생성하는 방법과, 이를 포함한 익명 함수를 감싼 콜러블 타겟 오브젝트를 받는 방법을 배웠어요. 이제 그 워커에 일을 몇 가지 보내는 시간이에요. 우리의 워커 구조는 두 개의 파일 디스크립터가 있는 것을 기억하고 있죠? 이들은 이전 단락에서 구성한 루프와 통신할 목적으로 사용됩니다.
 
@@ -650,7 +784,18 @@ impl CallableTarget {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스케줄 중 최종으로 반환된 작업은 호출 가능한 힙의 어딘가로의 비동기 읽기 작업입니다. 우리는 해석될 것이 아니라 단지 uring을 트리거하는 신호인 하나의 바이트만 읽어야 합니다. 이는 어떠한 동기화 도구도 사용하지 않도록 합니다. 어떻게 할까요? I/O Ring은 작업이 완료되었을 때 우리에게 알립니다.
 
@@ -672,7 +817,18 @@ pub struct IORuntimePool {
 
 이 코드는 8개의 스레드를 사용한다고 가정합니다. 또한 카운터와 내부 파이프를 갖는 대기열을 선언합니다. 왜 파이프를 사용할까요? 더 많은 CPU 작업이 요청되었을 때 사용 가능한 워커보다 더 많은 작업이 스케줄링되지 않도록 블로킹되는 작업을 피하기 위해 사용됩니다. 어떻게 할당하는지 살펴봅시다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```rust
 pub enum IORuntimePoolAllocation {
@@ -777,7 +933,18 @@ impl IORuntimePool {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 코드에서는 worker를 성공적으로 획득한 후, 첫 번째 completor와 함께 noop 작업을 예약합니다. worker를 기다릴 필요는 없지만 완료해야 합니다. 실제 작업 - worker의 execute 함수가 반환한 I/O Ring 작업을 두 번째 completor와 연결하여 즉시 예약할 수 있습니다.
 
@@ -816,7 +983,18 @@ impl IORuntimePool {
 
 이 코드는 completer를 callable의 힙 헤더에 추가하고 메시지가 소비될 때 I/O Ring을 사용하여 알립니다. worker의 가용성을 감지하면 대칭적인 읽기가 발생합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```rust
 pub enum IORuntimePoolTrigger {
@@ -888,6 +1066,7 @@ impl IORuntimePool {
 This code reads 24 bytes from a pipe and decodes them as a callable to directly send it to a worker with an already walked path.
 
 You might be curious if reading and writing to a pipe could lead to message fragmentation. No worries, it won’t. Linux pipes are POSIX.1 compliant and offer guarantees about certain behaviors. Let's take a look at what the `man 7 pipe` manual says about it:
+
 ```rust
 PIPE_BUF
    POSIX.1 says that writes of less than PIPE_BUF bytes  must  be  atomic:
@@ -922,7 +1101,18 @@ PIPE_BUF
           processes.
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 패킷이 나뉘는 것에 대해 걱정할 필요가 없습니다. 왜냐하면 PIPE_BUF가 페이지보다 작지 않고(4096바이트) 우리는 딱 24바이트를 보내기 때문입니다.
 
@@ -985,7 +1175,18 @@ impl IORingRuntimeContext {
 
 이러한 바인딩을 사용하면 I/O Ring Task Token을 조절할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```rust
 impl IORingTaskToken {
@@ -1063,7 +1264,18 @@ where
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나중에 토큰을 사용하여 투표를 할 수 있습니다:
 
@@ -1212,7 +1424,18 @@ impl ThreadCommand {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 코드 조각은 시각적 결과에서는 뚜렷한 변화를 주지 않습니다. 두 매개변수가 모두 100과 같을 때, 10,000개의 기본 합계를 계산합니다. 각 작업 내에서 100번의 스레드 호출을 가진 100개의 비동기 작업을 시도합니다. 가장 중요한 관찰은 이 작업이 이벤트 루프를 실행하는 주 스레드를 차단하지 않아 우리 애플리케이션을 매우 반응적으로 만든다는 것입니다.
 
@@ -1242,7 +1465,18 @@ sys     0m25.853s
 
 현재 디렉토리에는 상당히 큰 위키피디아 파일이 몇 개 있습니다. 이 도구는 한 개의 코어를 100% 사용하여 매우 빠르게 해시를 계산할 수 있습니다. 파일 시스템은 병목이 되지 않는 한 파일 단위로 읽습니다. 이론적으로 더 빠르게 수행할 수 있습니다. 대안을 살펴보겠습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```rust
 pub struct Sha1Command {
@@ -1392,7 +1626,18 @@ impl Sha1Command {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 높은 목표를 가진 PoC를 끝냈어요. No-std와 no-main 환경을 유지하면서 작동하는 예제를 만들었죠. 우리는 pipes를 다루는 법과 스레드를 실행하기 위해 우리 자신을 복제하는 방법을 배웠어요. 마지막으로, 우리는 클로저에 손을 대고 그것을 스레드 간에 이동시켜 I/O에 전념한 실행 이벤트 루프를 차단하지 않고 CPU 집약적 작업을 수행하는 방법을 알아냈어요. 이 모든 기능을 사용하면서 우리는 동기화 도구를 전혀 사용하지 않았어요! 이게 바로 이상적인 동시성 모델이 아닌가요?
 

@@ -3,17 +3,13 @@ title: "LangChain의 새로운 도구, LangGraph 쉽게 설명하기"
 description: ""
 coverImage: "/assets/img/2024-06-22-LangGraphFromLangChainExplainedInSimpleTerms_0.png"
 date: 2024-06-22 20:43
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-LangGraphFromLangChainExplainedInSimpleTerms_0.png
 tag: Tech
 originalTitle: "LangGraph From LangChain Explained In Simple Terms"
 link: "https://medium.com/@cobusgreyling/langgraph-from-langchain-explained-in-simple-terms-f7cd0c12cdbf"
 isUpdated: true
 ---
-
-
-
-
 
 # 소개
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 LangGraph의 목표는 자율 인공 지능 에이전트를 실행할 때 일정한 수준의 제어를 갖는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 죄송합니다. 이 기사가 길었지만, Graph의 기본 원칙이 무엇인지 정말로 파악하고 싶었습니다.
 
@@ -33,7 +40,18 @@ LangGraph의 목표는 자율 인공 지능 에이전트를 실행할 때 일정
 
 디자인 기능은 노드 및 엣지라는 두 가지 주요 범주로 나뉠 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 노드는 블록으로, 때로는 자산으로도 불립니다. 아래 그림에서 디자인 캔버스에는 다섯 개의 노드가 있습니다. 이 노드 간에는 링크 또는 엣지라고도 하는 연결이 있습니다. 엣지는 가능한 대상 노드나 노드를 보여줍니다.
 
@@ -43,7 +61,18 @@ LangGraph의 목표는 자율 인공 지능 에이전트를 실행할 때 일정
 
 프롬프트 체이닝은 언어 모델과 작업할 때 사용되는 기술로, 여러 프롬프트(노드)가 서로 순차적으로 연결(엣지를 통해)되어 서로 관련된 작업이나 단계를 안내하는 것으로 설명될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 방법은 큰 작업을 작은 관리 가능한 부분으로 나눠 더 복잡하고 세밀한 결과물을 얻는 데 사용됩니다.
 
@@ -55,7 +84,18 @@ LangGraph의 목표는 자율 인공 지능 에이전트를 실행할 때 일정
 
 그러나 알아둬야 할 점은, 프롬프트 체이닝은 챗봇 흐름 구축과 동일한 원칙에 기반합니다. 따라서 이전과 같은 문제, 즉 엄격한 상태 머신이 존재합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 참으로, 프롬프트 체이닝에는 각 노드의 입력에 몇 가지 유연성을 도입하는 요소가 있어서 출력에는 동적 변화가 발생합니다. 그러나 전반적으로 시퀀스는 고정되고 엄격하게 유지됩니다.
 
@@ -65,7 +105,18 @@ LangGraph의 목표는 자율 인공 지능 에이전트를 실행할 때 일정
 
 엣지는 대화 상태/대화 턴이 이동할 수 있는 옵션으로 볼 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서 이 방법론의 한계로 인해 너무 엄격하다는 도전 과제에 닥치게 되었습니다. 대체로 변화를 원하는 욕구가 있으며, 융통성을 도입하고 싶어하는 분위기입니다.
 
@@ -75,17 +126,39 @@ LangGraph의 목표는 자율 인공 지능 에이전트를 실행할 때 일정
 
 이것을 일회용 연쇄로 생각할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 예시를 고려해보면, 에이전트에게 매우 모호한 질문을 할 수 있습니다. 예를 들어 "아이폰의 아버지로 평가받는 사람은 누구이며, 그의 출생 연도의 제곱근은 무엇입니까?"
 
-또는 
+또는
 
-"일반적으로 아이폰의 아버지로 평가받는 사람의 출생 연도의 제곱근은 무엇입니까?" 
+"일반적으로 아이폰의 아버지로 평가받는 사람의 출생 연도의 제곱근은 무엇입니까?"
 
 그리고 아래와 같이, 에이전트는 실시간으로 체인을 생성하여 질문을 반영하고 행동, 관찰, 사고, 행동, 관찰, 사고의 프로세스를 거쳐 최종 답변에 도달합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 > 새 AgentExecutor 체인에 들어갔어요...
@@ -110,7 +183,18 @@ LangGraph의 목표는 자율 인공 지능 에이전트를 실행할 때 일정
 
 생산자들은 에이전트에 어느 정도의 통제권을 가지고 싶어해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 헤이, 에이전트의 등장으로 우리는 지나치게 제어되고 엄격한 상황에서 더 큰 유연성으로 이동했지만 제어 부재로 인한 문제가 있습니다.
 
@@ -120,7 +204,18 @@ LangGraph의 목표는 자율 인공 지능 에이전트를 실행할 때 일정
 
 ## 그래프(추상 데이터 유형)은 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래프 데이터의 개념은 처음에는 어렵게 느껴질 수 있지만, 여기서 그것을 쉽게 설명해보겠습니다.
 
@@ -130,7 +225,18 @@ LangGraph의 목표는 자율 인공 지능 에이전트를 실행할 때 일정
 
 추상 데이터 유형은 데이터 구조와 대조적입니다. 데이터 구조는 데이터의 구체적 표현이며, 구현자의 관점이 아닌 사용자의 관점에서 정의됩니다. 이 데이터 구조는 덜 해석하기 어려우며 해석하기 쉬워요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 방향 그래프
 
@@ -140,7 +246,18 @@ LangGraph의 목표는 자율 인공 지능 에이전트를 실행할 때 일정
 
 아래의 그래프 표현을 고려할 때, 노드와 함께 엣지 및 엣지 옵션이 표시됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## LangGraph
 
@@ -150,7 +267,18 @@ LangGraph의 목표는 자율 인공 지능 에이전트를 실행할 때 일정
 
 LangGraph는 에이전트 런타임에서 자주 필요한 순환 그래프를 생성하기 위해 LangChain 위에 구축된 모듈입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LangChain의 큰 가치 제안 중 하나는 사용자 정의 체인을 쉽게 만들 수 있는 능력, 즉 flow engineering입니다. LangGraph를 LangChain 에이전트와 결합하여, 에이전트는 지향적이며 순환이 될 수 있습니다.
 
@@ -160,7 +288,18 @@ Directed: 노드(또는 정점) 사이의 각 연결(또는 에지)에는 일방
 
 Acyclic: 어떤 사이클도 없습니다. 즉, 한 노드에서 시작하여 방향을 따라가면 결코 같은 노드로 되돌아갈 수 없습니다. 루프에 갇히는 방법이 없습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가족 트리나 플로우차트와 같이 앞으로만 움직이고 시작점으로 돌아갈 수 없는 구조로 생각해보세요.
 
@@ -170,7 +309,18 @@ LLM의 중요한 장점 중 하나는 이러한 추론 작업을 수행할 수 �
 
 # 에이전트 및 제어
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 루핑 에이전트는 종종 다양한 단계에서 세부적인 제어가 필요합니다.
 
@@ -180,7 +330,18 @@ LLM의 중요한 장점 중 하나는 이러한 추론 작업을 수행할 수 �
 
 # 좁은 인터페이스 노출
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LangGraph은 LangChain을 기반으로 한 간소화된 인터페이스를 제공합니다.
 
@@ -190,7 +351,18 @@ LangGraph는 프레임워크에 구애받지 않으며, 각 노드는 일반 Pyt
 
 스트리밍, 비동기, 일괄 호출에 대한 공통 인터페이스인 Runnable API를 확장하여 다음과 같은 기능을 지원합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 여러 대화 턴이나 도구 사용 사이에서 매끄러운 상태 관리
 - 동적 기준에 따라 노드 간 유연한 라우팅
@@ -277,18 +449,41 @@ while True:
 #################################
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 그래픽이 데이터의 흐름을 보여주는 방법을 보여줍니다.
 
 ---
+
 마지막으로
 
 그래프 데이터 유형은 데이터의 시각적 표현을 보여주는 강력한 도구입니다. 시각적 표현 이상으로, 서로 다른 노드 간의 표현은 데이터 노드의 공간적 표현을 만드는 데 이상적입니다.
 
 데이터 사용자의 관점에서 그래프 데이터 유형은 데이터의 의미론적 행동에 이상적입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ⭐️ 저를 팔로우해서 대형 언어 모델에 관한 업데이트를 받아보세요 ⭐️
 
@@ -298,8 +493,18 @@ while True:
 
 ![이미지](/assets/img/2024-06-22-LangGraphFromLangChainExplainedInSimpleTerms_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image 2](/assets/img/2024-06-22-LangGraphFromLangChainExplainedInSimpleTerms_2.png)
 

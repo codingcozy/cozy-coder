@@ -3,17 +3,13 @@ title: "ROS 2 Humble Hawksbill에서 TurtleBot3 시뮬레이션 설정하기"
 description: ""
 coverImage: "/assets/img/2024-06-20-SettingUpTurtleBot3SimulationinROS2HumbleHawksbill_0.png"
 date: 2024-06-20 17:55
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-SettingUpTurtleBot3SimulationinROS2HumbleHawksbill_0.png
 tag: Tech
 originalTitle: "Setting Up TurtleBot3 Simulation in ROS 2 Humble Hawksbill"
 link: "https://medium.com/@nilutpolkashyap/setting-up-turtlebot3-simulation-in-ros-2-humble-hawksbill-70a6fcdaf5de"
 isUpdated: true
 ---
-
-
-
-
 
 # 요구 사항 -
 
@@ -23,19 +19,41 @@ b. ROS 2 Humble Hawksbill
 
 # 1. ROS 2 환경 변수 설정
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ROS 2 설정 파일을 소스로 가져오면 ROS 2를 실행하는 데 필요한 여러 환경 변수가 설정됩니다.
 
 ROS 2 명령에 액세스하려면 모든 터미널에 다음 명령을 입력하여 ROS2 Humble 환경을 소스화하세요:
 
 ```js
-source /opt/ros/humble/setup.bash
+source / opt / ros / humble / setup.bash;
 ```
 
 새 쉘을 열 때마다 설정 파일을 소스로 가져오지 않으려면 셸 시작 스크립트에 해당 명령을 추가할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```shell
 echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
@@ -49,7 +67,18 @@ source ~/.bashrc
 
 # 2. Gazebo 시뮬레이터 설치하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 쉘 스크립트에서 다음 명령을 입력하여 Gazebo11과 관련된 ROS 2 메타 패키지를 설치해보세요:
 
@@ -62,20 +91,42 @@ sudo apt install ros-humble-gazebo-ros-pkgs
 
 3.1. Cartographer
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 카토그래퍼는 여러 플랫폼과 센서 구성에서 2D 및 3D 실시간 동시 위치추적 및 매핑(SLAM)을 제공하는 시스템입니다.
 
 ROS 2 Cartographer 패키지를 설치하려면 셸에서 다음 명령을 입력하세요:
 
 ```js
-sudo apt install ros-humble-cartographer 
+sudo apt install ros-humble-cartographer
 sudo apt install ros-humble-cartographer-ros
 ```
 
 3.2. ROS 2를 위한 네비게이션 스택
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ROS 2 내비게이션 스택은 로봇이 시작 위치에서 목표 위치로 이동하는 데 도움을 주는 패키지 세트입니다.
 
@@ -88,7 +139,18 @@ sudo apt install ros-humble-nav2-bringup
 
 # 4. ROS2 Workspace 생성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작업 공간은 모든 ROS 2 패키지를 포함하는 디렉토리 세트입니다.
 
@@ -100,7 +162,18 @@ mkdir -p ~/turtlebot3_ws/src
 
 # 5. Turtlebot3 패키지 설치
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5.1. 워크스페이스의 src 디렉토리 안으로 이동해주세요:
 
@@ -120,7 +193,18 @@ git clone https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git -b humble-devel
 git clone https://github.com/ROBOTIS-GIT/DynamixelSDK.git -b humble-devel
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 6. 패키지 빌드하기
 
@@ -129,12 +213,23 @@ git clone https://github.com/ROBOTIS-GIT/DynamixelSDK.git -b humble-devel
 ```js
 cd ~/turtlebot3_ws
 
-colcon build 
+colcon build
 ```
 
 turtlebot3_ws 작업 공간을 소스하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ~/turtlebot3_ws/install/setup.bash
@@ -148,9 +243,20 @@ turtlebot3_ws 작업 공간을 소스하세요.
 ~/turtlebot3_ws/install/setup.bash
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-TurtleBot3에는 버거, 와플, 와플_파이 세 가지 모델이 있습니다. 따라서 사용하기 전에 어떤 모델을 사용할지 설정해야 합니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+TurtleBot3에는 버거, 와플, 와플\_파이 세 가지 모델이 있습니다. 따라서 사용하기 전에 어떤 모델을 사용할지 설정해야 합니다.
 
 우분투에서 이를 수행하려면 export 명령어를 사용하여 사용할 모델을 지정합니다.
 
@@ -161,7 +267,18 @@ echo 'export TURTLEBOT3_MODEL=burger' >> ~/.bashrc
 source ~/.bashrc
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 7.1. Gazebo에서 Turtlebot3 시뮬레이션 월드 실행하기
 
@@ -173,7 +290,18 @@ source ~/turtlebot3_ws/install/setup.bash
 
 다음 명령을 입력하여 Turtlebot3 로봇을 TurtleBot3 World에서 실행하세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ros2 launch turtlebot3_gazebo empty_world.launch.py
@@ -187,7 +315,18 @@ ros2 launch turtlebot3_gazebo empty_world.launch.py
 ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## TurtleBot3 집:
 
@@ -199,7 +338,18 @@ ros2 launch turtlebot3_gazebo turtlebot3_house.launch.py
 
 새로운 쉘 창을 열고 turtlebot3 workspace에 소스를 입력하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 source ~/turtlebot3_ws/install/setup.bash

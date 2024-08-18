@@ -3,17 +3,13 @@ title: "코틀린으로 배우는 디자인 패턴 "
 description: ""
 coverImage: "/assets/img/2024-07-01-DesignPatternswithKotlin_0.png"
 date: 2024-07-01 20:46
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-01-DesignPatternswithKotlin_0.png
 tag: Tech
 originalTitle: "Design Patterns with Kotlin"
 link: "https://medium.com/@narendranathchatterjee/design-patterns-with-kotlin-15bbbaf3f699"
 isUpdated: true
 ---
-
-
-
-
 
 # Part 1: 싱글턴 패턴 Kotlin에서
 
@@ -24,9 +20,21 @@ isUpdated: true
 
 싱글턴 패턴은 나쁜 평판을 가지고 있습니다. 그것은 한 때 안티 패턴으로 여겨졌습니다. 뭔가가 어디에나 존재한다면 그것이 좋을 수 없다는 것은 합리적입니다. 그럼에도 불구하고 싱글턴은 어디에서나 나타납니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 싱글톤 패턴의 기본 논리는 다음과 같습니다.
+
 1. 시스템 내에서 특정 클래스의 인스턴스는 하나만 존재해야 합니다.
 2. 이 인스턴스는 우리의 범위 내 어디에서든 접근 가능해야 합니다. 이 범위는 우리의 프로그램이거나 그 모듈일 수 있습니다.
 
@@ -36,7 +44,18 @@ isUpdated: true
 
 ![이미지2](/assets/img/2024-07-01-DesignPatternswithKotlin_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 However, 이것이 잘 맞을 수도 있습니다 considering how 많은 more 단계 is 필요합니다 to get the 같은 functionality in Java or C++.
 
@@ -45,13 +64,25 @@ Shall we look at a Java 예시?
 ![Java Example](/assets/img/2024-07-01-DesignPatternswithKotlin_3.png)
 
 The steps involved here are
+
 1. Keeping the constructor private
 2. Make sure only one instance is created
 3. The object is created only when needed and not when the program starts
 4. It works properly from multiple threads
 5. Doesn’t slow down the program by synchronizing to multiple places.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서 여러분은 이 모든 무거운 작업이 개체 내부적으로 처리된다는 것을 보실 수 있습니다.
 Kotlin Object의 주요 차이점은 생성자를 가질 수 없다는 것입니다.
@@ -61,6 +92,7 @@ Kotlin Object의 주요 차이점은 생성자를 가질 수 없다는 것입니
 ![Image](https://miro.medium.com/v2/resize:fit:400/0*E3zEnI5Wmxys1sKh.gif)
 
 싱글톤 패턴의 단점은 다음과 같습니다.
+
 1. 과도한 결합
 2. 단위 테스트에서의 복잡성
 

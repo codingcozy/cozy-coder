@@ -3,17 +3,13 @@ title: "리누스 토르발스로부터의 성공을 위한 5가지 가혹한 �
 description: ""
 coverImage: "/assets/img/2024-06-19-5HarshTruthsforSuccessfromLinusTorvalds_0.png"
 date: 2024-06-19 04:36
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-5HarshTruthsforSuccessfromLinusTorvalds_0.png
 tag: Tech
 originalTitle: "5 Harsh Truths for Success from Linus Torvalds"
 link: "https://medium.com/codex/5-harsh-truths-from-linus-torvalds-406ab20cea02"
 isUpdated: true
 ---
-
-
-
-
 
 ![20180428243](https://example.com/image.jpg)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ### 1. 아무도 특별하지 않아
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모티베이션 영상과 책에서 자주 듣는 메시지가 있죠: "당신은 특별한 존재이며, 올바른 방법으로 열심히 노력하고 모든 에너지를 기울이면 당신도 누구나 원하는 것을 이룰 수 있고 그렇게 하면 특별한 존재가 될 거에요." 그들이 옳은 말을 하는 것 같아요. 역사를 보면 수십억 명 중에서도 우리가 이름을 아는 사람들이 많이 있죠. 그들이 큰 성취를 이루어서 우리가 알게 되었고, 우리도 똑같이 올바른 방법을 통해 성공할 수 있다는 거죠.
 
@@ -33,13 +40,35 @@ isUpdated: true
 
 빌 게이츠, 마크 주커버그, 스티브 잡스 같은 대표적인 인물들… 이들 모두는 동일한 전략을 활용하여 부를 쌓아왔어요. 워렌 버핏도 마찬가지에요. 대부분은 그가 오랜 시간 자본을 투자하면서 성공했다고 생각하지만, 어느 순간에 그는 자신의 돈만으로 부족하다는 것을 깨달았고 다른 사람의 자금을 활용하며 동일한 일을 하는 새로운 방법을 발명했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리누스 토발즈는 어떻게 생각하시나요? 새로운 방식을 발명하여 동일한 결과를 얻었어요. 그는 위험을 감수하고 자신의 커널 소스 코드를 모두에게 공개하기로 결정했고, 그러자 사람들이 좋은 아이디어를 기여함을 알게 되었어요. 이후에 그는 아이디어를 구현할 수 있는 Git을 만들어서 이 프로세스를 더욱 빠르게 만들었어요. 같은 일을 25년 동안 하면서 그는 특별한 것을 만들었어요. 하지만, 그가 혼자 한 것은 아니에요. 오늘날, Linux의 GitHub 페이지를 확인하면 이 프로젝트에 1만 3천 명 이상의 기여자가 있음을 볼 수 있어요. 1만 3천 명 이상의 사람들이 그가 만든 프로젝트에 자발적으로 참여했어요. 또한, Linux을 사용하여 새로운 비즈니스 모델을 만드는 기업의 사람들도 세지 않았죠. 수백만 명이 오늘날의 Linux 버전을 만들기 위해 일했어요.
 
 간단히 말해서, 누구도 독특하지 않아요. 우리 모두가 거대한 시스템 안의 작은 조각이에요. 개미와 벌처럼, 우리는 함께 위대한 일을 이루었어요. 인터넷은 한 사람이 만든 것이 아니에요, 서로 다른 대륙에 있는 사람들을 연결하기 위해 바닷속 깊숙이 케이블을 설치한 많은 노동자들이 있었어요. 그러므로 성공하고 싶다면, 다른 사람들과 협력하고 다른 사람들의 힘을 프로젝트에 활용하는 법을 배우세요. 자신만으로 많은 일을 할 수 있고 독특하다고 생각한다면, 그냥 또 다른 버즈 라이트이어일 뿐이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 개인적으로 모두와 마찬가지로 소프트웨어 엔지니어로 일하고 있어요. 내가 일하는 회사에서 친절함이 중요한 이유는 매년 말에 받는 보너스가 평가될 때, 가장 큰 측정 지표 중 하나가 성격이기 때문이에요. 실제로 인사팀이 사람을 해고할 때, 성과와 함께 가장 큰 평가 지표 중 하나가 행동입니다. 우리는 사람들에게 친절해지도록 강요하고 있어요. 그렇지 않으면 우리는 그들을 제거해버리죠.
 
@@ -49,7 +78,18 @@ isUpdated: true
 
 ![리누스 토발즈로부터의 성공을 위한 가혹한 진실](/assets/img/2024-06-19-5HarshTruthsforSuccessfromLinusTorvalds_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 시점에서 뭔가 명확하게 하고 싶어요: 적극적으로 방어하는 것은 당신이 틀렸다 해도 강하게 자기 주장하는 것을 의미하는 게 아니에요. 만약 당신이 틀렸고 증거나 논리적 설명이 있는 경우, 그걸 인정하고 다른 사람들이 당신의 지혜를 향상시킬 수 있도록 해야 해요. 아이디어를 방어할 때 합리적이어야 해요.
 Torvalds는 Linux에서도 똑같은 전략을 했어요. 커밋에서 그리고 미디어에서 그의 아이디어를 매우 공격적으로 방어했어요. 이걸 지지하지는 않지만, 또한 누군가의 마음을 상했어요. 그러나, 이것은 최상의 해결책을 찾기 위한 좋은 전략이었어요. 이 접근 덕분에 Linux는 무언가 다른 것이 되었답니다. macOS는 특정 하드웨어에서 작동하고, Windows는 메모리 누수와 비효율적인 실행으로 많은 블루 스크린을 제공하는 반면, Linux는 모든 기기에서 작동하며 조금의 전문적 접촉을 필요로 하며 커널의 콜 추적이 Windows보다 훨씬 낫게 최적화되어 있어요.
@@ -58,7 +98,18 @@ Torvalds는 Linux에서도 똑같은 전략을 했어요. 커밋에서 그리고
 
 # 3. 목표, 아이디어... 모두 거짓말
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 생존편향이 무엇인지 알고 계신가요? 제2차 세계 대전 중 미 해군 분석 센터의 연구원들은 임무 후에 반환된 항공기들의 피해를 조사한 연구를 진행했습니다. 그들은 그 후에 적의 총격으로 인한 폭격기 전투기 손실을 최소화하기 위해 가장 많은 피해가 발생한 부위에 갑옷을 추가하는 것을 권장했습니다. 그러나 아브라함 왈드는 다르게 제안했습니다. 왈드는 헝가리 출신의 수학자이자 통계 연구 그룹의 일원으로서 전쟁기간의 다양한 문제에 통계적 기술을 적용했던 분이었습니다. 그는 매우 단순한 사실을 발견했습니다. 분석하던 비행기들은 반환된 것들이었습니다. 이는 그 비행기들이 그 부위에 피해를 입었음에도 반환할 수 있었다는 것을 의미합니다. 즉, 만약 다른 부위에 피해를 입었다면 같은 결과를 이룰 수 없었을 것이라는 것을 뜻합니다.
 
@@ -66,7 +117,18 @@ Torvalds는 Linux에서도 똑같은 전략을 했어요. 커밋에서 그리고
 
 TED 토크 인터뷰에서 Linus Torvalds는 비전이나 5년 계획이 없다고 고백했습니다. 기본적으로, 그는 문제에 직면했을 때 문제를 해결하고, 반대로 이미 해결한 문제에 대해 더 나은 해결책을 찾으려고 노력합니다. 그는 문제 해결과 더 나은 해결책을 찾는 시스템을 갖고 있습니다. 25년 동안 이 시스템을 적용했는데... 이것이 바로 리눅스의 성공 멘탈리티입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-5HarshTruthsforSuccessfromLinusTorvalds_6.png" />
 
@@ -76,7 +138,18 @@ TED 토크 인터뷰에서 Linus Torvalds는 비전이나 5년 계획이 없다�
 
 나중에 알게 되었습니다. 인류는 실수를 통해 모든 것을 배웠습니다. 우리는 시도하고 실험하며 실수를 통해 많은 것들을 발견했습니다. 예를 들어보겠습니다: 일본의 지질적 위치를 안다면, 그곳에서 정기적으로 많은 지진이 발생하는 것을 알수 있을 것입니다. 과거엔 그들의 집들이 너무 길지 않고 일반적으로 넓지 않았습니다. 긴 건축물을 지으면 지진에 파괴될 것이기 때문입니다. 그러나 오늘날 이 문제를 어떻게 해결했을까요? 그들은 지구의 작은 모형을 만들고 다른 아이디어를 구현하고 이 모형을 테스트하기 위해 인공 지진을 발생시켰습니다. 아이디어를 테스트하고 새로운 문제를 발견하며 각각의 문제를 하나씩 해결해가며, 그들은 건물의 기초 디자인을 위한 훌륭한 디자인을 만들어냈습니다. 지금은 일본이 매우 견고한 건물을 소유한 국가 중 하나입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-5HarshTruthsforSuccessfromLinusTorvalds_7.png" />
 
@@ -86,7 +159,18 @@ TED 토크 인터뷰에서 Linus Torvalds는 비전이나 5년 계획이 없다�
 
 <img src="/assets/img/2024-06-19-5HarshTruthsforSuccessfromLinusTorvalds_8.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 5. 방해 요소는 잠재적인 위협입니다
 
@@ -94,7 +178,18 @@ TED 토크 인터뷰에서 Linus Torvalds는 비전이나 5년 계획이 없다�
 
 다른 모든 것들과 마찬가지로, 이것에는 보통 우리가 주의하지 않는 비용이 딸려옵니다. 모든 회사는 각자의 시스템, 다른 기술을 사용한 본인만의 구현 방식을 가지고 있습니다. 우리는 한 회사에서 모든 세부 내용을 배우고 프로젝트에 충분한 시간을 투자하기 전에 회사를 떠나게 됩니다. 오늘날, 대부분의 대기업에서 엔지니어들의 평균 장기 근속 시간은 2년 미만입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그것에 대해 나쁜 점이 뭐가 있나요? 다른 시각을 보여드리고 싶어요. Linus Torvalds는 실리콘 밸리 기업 중 하나인 Transmeta에서 일하기 시작했는데, 다른 회사를 옮겨 다니는 대신 거의 7년 동안 이 회사에 머물며 Linux 재단의 기초를 마련했어요. 그 이유가 무엇일까요? 다른 사람들처럼 회사를 옮겨 다니지 않았던 이유가 뭔가요? TED 토크 인터뷰에서 그가 말한 바에 따르면, 그는 매우 고집스럽고 프로젝트를 놓지 않았대요. 사실, 그는 25년 이상 동일한 프로젝트에 착수한 만큼 고집이 강한 사람이에요.
 
@@ -104,6 +199,17 @@ TED 토크 인터뷰에서 Linus Torvalds는 비전이나 5년 계획이 없다�
 
 ![이미지](/assets/img/2024-06-19-5HarshTruthsforSuccessfromLinusTorvalds_10.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시간 내어 주셔서 감사합니다. 친절한 인사 전합니다.

@@ -3,18 +3,13 @@ title: "Maytag 세탁기의 불균형을 조정하는 간단한 45 단계"
 description: ""
 coverImage: "/assets/img/2024-06-19-45SimpleStepstoLevelYourOff-BalanceMaytagWasher_0.png"
 date: 2024-06-19 02:33
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-45SimpleStepstoLevelYourOff-BalanceMaytagWasher_0.png
 tag: Tech
 originalTitle: "45 Simple Steps to Level Your Off-Balance Maytag Washer"
 link: "https://medium.com/jane-austens-wastebasket/how-to-level-your-off-balance-maytag-washer-in-45-simple-steps-4591914dc247"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![image](/assets/img/2024-06-19-45SimpleStepstoLevelYourOff-BalanceMaytagWasher_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 빨리 전화 끊으세요. 이게 비싸게 나올까요? 아직 보증이 있는지 확인해보세요. 1년이 넘었으니 아마 없을 거예요.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 메이태크 기술자가 필요하지 않다고 결정했군요. 이 문제를 해결할 수 있을 거에요. 망치하나면 충분해요.
 
@@ -35,7 +40,18 @@ isUpdated: true
 
 수평기를 세탁기 뚜껑에 올려놓으세요. 수평 바이알 안의 거품이 중앙에 위치하지 않는 것을 확인하세요. 또한 바이알 안의 액체가 닌자 거북이를 만든 똥과 같은 색이라는 것도 주의하세요. 어쨌든 집중하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 양 끝을 잡아 세탁기를 조심스럽게 여러 번 오른쪽과 왼쪽으로 움직여 앞쪽으로 약간 이동하도록 합니다. 세탁기 뒤쪽을 보며, 잘 알고 있는 것처럼 행동하세요. 두 개의 호스와 전원 코드가 있습니다. 아마도 제자리에 있을 것입니다. 뒤쪽으로는 부품이 나와 있는 게 없습니다. 그것은 좋은 징조입니다.
 
@@ -45,7 +61,18 @@ isUpdated: true
 
 앞쪽 왼쪽 다리를 반시계 방향으로 조금 돌려주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 잠시만요. 어느 게 어느게죠? 한 번은 이 방식으로 했는데, 다른 번에는 다른 방식으로 했잖아요. 오른쪽으로 돌렸어요, 마치 머리를 살짝 기울여 느낀 듯, 그러나 정상적인 머리를 상상하면, 턱이 바닥을 향하게 됩니다. 오른쪽 쪽이 나오고, 그리고 왼쪽으로 이동해서 시계 방향으로 돌아갔어요. 맞죠? 그리고 반시계 방향은 다른 방향인데, 즉 왼쪽이 오른쪽으로 간다는거죠. 여기서 왼쪽부터 오른쪽으로 읽지만, 그러면 혼란스럽게 느껴지지 마세요. 그냥 한 게 그냥 한 거예요.
 
@@ -55,7 +82,18 @@ isUpdated: true
 
 일어서세요. 거의 실신할 뻔했네요. 와, 머리로 향하는 혈액이 대단하군요. 이제 스무 살 시절은 아니네요, 분명히요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 넌자 거북이군의 수액 병이 있는 수준 맞추려면 세탁기 위에 두어봐. 거품이 여전히 최적 수준이 아님을 확인해. 다시 말해, 7단계를 반복해봐.
 
@@ -65,11 +103,33 @@ isUpdated: true
 
 열정을 다해 17단계를 반복해봐.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 Markdown 형식으로 변경해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 뒷다리를 조립했는데 수평한 길이로 조인 것 같아? 물론 충분한 공간이 있어. 비좁아서 답답한 건 아니니까.
 
@@ -79,7 +139,18 @@ isUpdated: true
 
 거품이 움직이지도 않았어. 이게 가능한 일이야. 무언가가 달라졌어, 그치? 네가 한 그 모든 회전으로 말이야. 저 다리의 회전 기능은 장식용이 아니야. 올라가고 내리는 걸 봤잖아!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 괜찮아요. 잘하고 있어요. 다리 하나씩 가보세요. 그러고 나서 측정하세요.
 
@@ -89,7 +160,18 @@ isUpdated: true
 
 16단계를 반복하세요. “Teenage Mutant Ninja Turtles” 노래를 멍~ 하면서요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다짐을 가지고, 14단계를 반복해 주세요.
 
@@ -99,7 +181,18 @@ isUpdated: true
 
 15단계와 16단계를 반복하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인생에 대해 다시 생각해보세요. 당신이 얼마나 많은 것을 이루었는지요? 이겁니다. 이것이 당신의 능력을 정의하는 요소로 작용하게 두지 마세요. 그렇게 하지 마세요.
 
@@ -109,7 +202,18 @@ isUpdated: true
 
 옆에 있는 남자에게 의심할 여지가 없는 사람들에게 이론을 설명하세요. 그의 고민을 인정해 주세요. 아내가 도망갔기 때문에 이제 그는 자신의 빨래를 어떻게 해야 할지 모릅니다. 그런데 자기 행동에 대한 책임을 지지 못하는, 굳센 남자아이인지라며. 당신은 다른 사람과 비교하지 마세요. 둘 다 낮에 술을 마시고 있는 이유가 있습니다. 왜냐하면 그래야만 하기 때문이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 칵테일 나프킨 몇 장 집어 가세요. 그것들을 앞 오른쪽 세탁기 다리 밑에 놓으세요.
 
@@ -119,7 +223,18 @@ isUpdated: true
 
 누워 쉬세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 들리니? 그 소리는 당신의 Maytag 세탁기가 흔들리는 소리야.
 

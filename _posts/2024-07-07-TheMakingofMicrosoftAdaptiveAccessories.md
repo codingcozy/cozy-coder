@@ -3,17 +3,13 @@ title: "마이크로소프트 어댑티브 액세서리 제작 과정揭秘"
 description: ""
 coverImage: "/assets/img/2024-07-07-TheMakingofMicrosoftAdaptiveAccessories_0.png"
 date: 2024-07-07 19:45
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-TheMakingofMicrosoftAdaptiveAccessories_0.png
 tag: Tech
 originalTitle: "The Making of Microsoft Adaptive Accessories"
 link: "https://medium.com/microsoft-design/the-making-of-microsoft-adaptive-accessories-3f4251259637"
 isUpdated: true
 ---
-
-
-
-
 
 미래에 모든 사람이 접근할 수 있도록 보조 장치를 디자인하는 방법
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 1980년에 빌 게이츠가 모든 책상 위와 집 안에 컴퓨터를 넣기로 한 때, 미국 장애인법은 10년이 지나야 통과되었습니다. 장애인을 위한 컴퓨터와 소프트웨어는 주변화된 실천물이었습니다. 디지털 세계가 급속히 발전함에 따라 장애인 커뮤니티는 우리의 현실을 근본적으로 변화시킬 것이었던 것에 제한적인 접근을 가졌습니다. 그들의 과대한 상상력이 혁신에 기여했음에도 불구하고, 그들에게 적절한 기회를 아직 제공하지 않았습니다. 그러나 곧 휠체어 접근이 없는 건물과 같은 방식으로 그것들은 역사가 될 것입니다. 지난 달에 우리는 Microsoft Adaptive Accessories를 출시했습니다. Adaptive Mouse, Adaptive Button 및 Adaptive Hub로 구성되어 있습니다. 이러한 장치들은 상점과 공공 공간에 맞게 사용자 정의 가능한 경사로와 난간을 추가한 것과 같습니다. 이 장치들은 화면 위에서 커서를 이동하는 것, 아이콘을 더블 클릭하는 것, 텍스트를 복사하고 붙여넣는 것과 같이 다른 사람들이 당연하게 여기는 것들을 할 수 있도록 돕습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전능한 삼부작
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 지원 장치들은 우리 회사가 장애인 커뮤니티에 대한 오랜 약속을 잇는 후손입니다. 마이크로소프트의 장애인 직원 자원 그룹이 처음 설립된 1990년으로 거슬러 올라갑니다. 2016년에 제품을 고객과 함께 공동으로 디자인하기 시작한 것은 혁신적인 시도였지만, 우리에게는 사용자 경험 디자인을 향상시키고 확장하며 민주화하는 자연스러운 진화였습니다. 주요 UX 연구원인 Bryce Johnson은 장애인 커뮤니티와 공동으로 Xbox Adaptive Controller를 발명하기 위해 협업했습니다. 이 장치의 출시는 패러다임 변화를 일으키며 Adaptive Kit 같은 다른 지원 장치를 촉발시켰고, 이제 Adaptive Accessories가 탄생하게 되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 부모의 사랑의 힘
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 태블릿 사용은 아이들이 하는 놀이처럼 쉬웠습니다. 화면에 고정된 플라스틱 홀을 통해 그녀는 의도한 곳을 정확하게 터치할 수 있었습니다. 컴퓨터와 상호작용하기 위해 트랙볼을 사용하는 것은 괜찮지만, 기본 수준을 넘지 못했습니다. "트랙볼이 매우 효과적이지 않다고 느꼈습니다. 더 나은 방법이 있을 것이라고 생각했습니다." Helmes는 말했습니다. 그의 경험에서 다른 지원 기기는 찾기 어렵고 고가로 비싸다는 것을 깨달았습니다. 그들은 자라의 발목 브레이스만큼 품질이 낮았습니다 - 차가운 금속, 무거운, 불편하며 비싸기까지 했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3D 프린팅으로 제작된 교정기구부터 마우스 익스텐션까지
 
@@ -53,15 +82,37 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-07-07-TheMakingofMicrosoftAdaptiveAccessories_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-그는 증강된 마우스 개선을 스케치하기 시작했습니다. 그는 딸 자라의 필요를 깊이 이해했어요. 자라의 상태로 인해 그녀의 운동 기능이 뒤틀리고 가벼운 경련이 발생하여 손가락이 마우스 표면에서 미끄러지게 되었습니다. 그녀의 손은 커서를 이동하는 동안 손가락을 잡아두는 무언가가 필요했습니다. 자금과 예산이 부족한 헬머스는 말했습니다. "한정된 환경에서 많은 아이디어를 얻게 돼요." 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-"한정된 환경에서 많은 아이디어를 얻게 돼요." 그녀의 손가락을 고정시켜줄 가장 이상적인 모양을 찾아내기 위해 다양한 종류의 기존 마우스를 살펴보았습니다. 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+그는 증강된 마우스 개선을 스케치하기 시작했습니다. 그는 딸 자라의 필요를 깊이 이해했어요. 자라의 상태로 인해 그녀의 운동 기능이 뒤틀리고 가벼운 경련이 발생하여 손가락이 마우스 표면에서 미끄러지게 되었습니다. 그녀의 손은 커서를 이동하는 동안 손가락을 잡아두는 무언가가 필요했습니다. 자금과 예산이 부족한 헬머스는 말했습니다. "한정된 환경에서 많은 아이디어를 얻게 돼요."
+
+"한정된 환경에서 많은 아이디어를 얻게 돼요." 그녀의 손가락을 고정시켜줄 가장 이상적인 모양을 찾아내기 위해 다양한 종류의 기존 마우스를 살펴보았습니다.
 
 헬머스는 "아주 멋진 소형 콤팩트 코어를 가지고 있었어요."라고 말했습니다. 그는 꼬리를 없애 버리고, 마우스 스위치를 단축시키고, 교체용 배터리 뒤에 3D 프린팅 어댑터를 추가했습니다. 이 어댑터는 사용자 정의된 3D 프린팅 연장을 밀어넣을 수 있게 했습니다. 그것은 그의 첫 번째 원본 적응형 마우스 프로토 타입이었습니다. 연장은 자라가 장치를 조작하는 동안 손가락을 고정시키기 위한 것이었습니다. 헬머스는 딸이 프로토타입을 테스트하도록 했습니다. 그는 딸이 처음으로 PC를 독립적으로 사용하는 것을 보낼 때였습니다. 당시 그녀는 다섯 살이었습니다. 그들의 적응형 마우스를 더 나은 방향으로 나아가기 위해, 헬머스는 자신의 프로젝트를 마이크로소프트 해커톤에 제출했고, 곧 헬머스와 자라로 이루어진 팀이 한밤중에 급속히 두 배로 늘어날 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 매년 일주일 동안 열리는 이 행사는 전 세계의 수천 명의 Microsoft 해커, 실험가 및 사고자들을 모아 최신이자 가장 위대한 발명품을 만들기 위해 함께 모인다. Xbox Adaptive Controller와 같은 우리의 최신 발명품을 만드는 행사를 통해 Azure에서 일하는 Helmes는 중국 심천에 위치한 MACH(Microsoft Asia Center for Hardware) 팀의 제품 전기 공학 담당 이사인 Paul Kos와 만났다. 그의 팀은 Microsoft의 대부분의 키보드, 마우스 및 기타 액세서리를 제작한다. 처음부터 그들은 Helmes의 가장 큰 지지자이자 가까운 협업자였다. 접근성 프로그램 매니저인 Johnson, Xbox Adaptive Controller 팀, Windows 및 Devices 팀의 많은 사람들 또한 Helmes의 프로젝트에 합류했다.
 
@@ -71,8 +122,18 @@ isUpdated: true
 
 ![Image](/assets/img/2024-07-07-TheMakingofMicrosoftAdaptiveAccessories_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![그림](/assets/img/2024-07-07-TheMakingofMicrosoftAdaptiveAccessories_7.png)
 
@@ -82,8 +143,18 @@ Kos는 적응형 마우스에만 집중하는 것은 미래에 누가 접근 권
 
 ![그림](/assets/img/2024-07-07-TheMakingofMicrosoftAdaptiveAccessories_8.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 팀은 결국 생태계를 만들기로 결정했습니다. Adaptive Mouse에 추가로 스위치박스 허브와 멀티센서리 버튼을 디자인했습니다. Kos는 "어떤 사람들은 심지어 Adaptive Mouse로도 고난을 겪을 수 있거나, 어떤 사람들은 마우스를 움직일 수 있지만 버튼을 누를 수 없을 수도 있습니다"라고 말했습니다. 해커톤 이후, Adaptive Mouse를 개발하는 것은 놀이가 아니었습니다. 게임이 변했습니다. 이제 그들의 프로젝트가 현실로 이어지고 있었습니다.
 
@@ -93,7 +164,18 @@ Kos는 적응형 마우스에만 집중하는 것은 미래에 누가 접근 권
 
 Adaptive Mouse의 교체 가능한 배터리를 유지할 것인지 혹은 충전식 배터리를 도입할 것인지에 대한 논쟁은 팀이 자체 배터리를 개발할 것을 고려하게 했습니다. 하지만 그것은 인증을 받아야 했기 때문에 많은 시간과 자원을 소요했습니다. 그들은 Adaptive Mouse, Adaptive Hub, 그리고 Adaptive Button이 동일한 배터리를 공유할 수 있도록 내부 충전식 배터리와 USB-C 포트를 통합했습니다. 이 설계는 많은 비용을 절감했지만, 사람들이 마우스를 사용하면서 어떻게 충전할 수 있는지에 대한 문제가 남았습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 USB-C 충전 포트를 코어의 끝에 놓는 것은 좋은 시작이었지만, Adaptive Mouse가 책상 쪽으로 기울면 어떻게 될까요? 어떤 사람이 확장 부분을 사용하여 Adaptive Mouse를 각도로 기울여 둘 수 없게 만들면 어떨까요? 그리고 원래 어댑터 확장 기기는 여전히 매력적인 해결책이었을까요? 어댑터에 확장 기기가 연결되지 않은 채로 있으면, Adaptive Mouse의 뒤쪽에 큰 빈 슬롯이 남아 있어 완성되지 않은 느낌을 줬어요.
 
@@ -103,8 +185,18 @@ USB-C 충전 포트를 코어의 끝에 놓는 것은 좋은 시작이었지만,
 
 모두가 세계를 만드는 사람입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-07-07-TheMakingofMicrosoftAdaptiveAccessories_9.png)
 

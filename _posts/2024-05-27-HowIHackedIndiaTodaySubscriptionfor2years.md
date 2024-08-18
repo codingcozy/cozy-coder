@@ -3,16 +3,13 @@ title: "인도 투데이 구독 2년간 무료로 이용하기 "
 description: ""
 coverImage: "/assets/img/2024-05-27-HowIHackedIndiaTodaySubscriptionfor2years_0.png"
 date: 2024-05-27 15:35
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-HowIHackedIndiaTodaySubscriptionfor2years_0.png
 tag: Tech
 originalTitle: "How I Hacked India Today Subscription for 2 years 😅🥳🤑"
 link: "https://medium.com/@anudeep-vysyaraju/how-i-hacked-india-today-subscription-for-2-years-4e49701fa7c8"
 isUpdated: true
 ---
-
-
-
 
 블로그에 들어가기 전에...
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-05-27-HowIHackedIndiaTodaySubscriptionfor2years_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시작해 봅시다…
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 상황을 다시 만들어 봅시다!!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 친구야, 인터넷에서 어떤 공중인물에 대한 기사를 읽으려고 검색하고 있었는데 갑자기 매거진에 가입하라는 팝업이 뜨면 누가 좋아하겠어요? (저는 더 미워해요 😅😂) 실수로 팝업을 닫는 대신에 눌러 버리는 바람에 뭔가 의심스러운 것을 느꼈고, 삽질을 시작했죠.
 
@@ -42,8 +61,18 @@ isUpdated: true
 
 사이트를 여니까 스크롤을 내리고 거기서 빠르게 나를 위한 계정을 만들었어요. 이제 웹사이트에서 제게 여러 종류의 매거진과 구독 요금제를 보여주고, 우르르 😞😞 이렇게 나타나죠. 그래서 웹사이트의 기능 같은 최소한의 것을 확인하고 사이트를 작게 탐색 👨‍💻👨‍💻 하고 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-27-HowIHackedIndiaTodaySubscriptionfor2years_1.png)
 
@@ -53,8 +82,18 @@ isUpdated: true
 
 이제 몇 가지 무작위 구독을 장바구니에 추가하고 Paytm과 ICICI Bank와 Billdesk와 같은 모든 결제 옵션을 확인했어.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기존의 다른 결제 게이트웨이 시도가 여러 번 실패한 후, 휴식을 취하고 Billdesk를 테스트하기 시작했어요 ⚡🙃
 
@@ -64,8 +103,18 @@ Billdesk를 결제 게이트웨이로 선택하고 주문을 확인했어요.
 
 주문을 확인한 후, 이제 사이트가 결제 게이트웨이 페이지로 리디렉션되었어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-27-HowIHackedIndiaTodaySubscriptionfor2years_3.png)
 
@@ -75,8 +124,18 @@ Billdesk를 결제 게이트웨이로 선택하고 주문을 확인했어요.
 
 게이트웨이 응답 코드는 거래가 거부되었는지 승인되었는지를 식별하는 여러 자리 숫자 코드입니다. 이 코드들은 거래를 다시 시도해야 하는 경우 어떤 조치를 취해야 하는지 나타내줍니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첨부된 문서를 참고하시면 Billdesk 결제 게이트웨이에 대한 아이디어를 얻을 수 있어요.
 
@@ -86,7 +145,18 @@ Billdesk를 결제 게이트웨이로 선택하고 주문을 확인했어요.
 
 이제 Burp에서 몇 가지 요청과 응답을 받았는데, 이 요청 덕분에 빠져버렸네요 😅😍
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-27-HowIHackedIndiaTodaySubscriptionfor2years_5.png" />
 
@@ -98,8 +168,18 @@ Billdesk를 결제 게이트웨이로 선택하고 주문을 확인했어요.
 
 이제 나는 거래 상태 코드와 메시지를 변경하거나 조작하기로 했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-27-HowIHackedIndiaTodaySubscriptionfor2years_6.png)
 
@@ -109,8 +189,18 @@ Billdesk를 결제 게이트웨이로 선택하고 주문을 확인했어요.
 
 계속해서 요청과 응답을 전달하다가 이것을 보았어요 😉😉😁😁
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 부아아아아아아암, 화면에 성공 메시지가 나와서 놀랐어요 🥳🎉🥳🎉
 
@@ -120,7 +210,18 @@ Billdesk를 결제 게이트웨이로 선택하고 주문을 확인했어요.
 
 또한 Mayur Parmar, Hemant Patidar, Tarun Tandon, Pavan Kumar Chinta에게 특별히 감사드립니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 글을 즐겁게 읽어주셨기를 바랍니다. 괜찮은 정보를 얻었으면 좋겠네요. 궁금한 점이나 도움이 필요하면 제 프로필을 방문해주시고 LinkedIn에서 연락 주세요.
 

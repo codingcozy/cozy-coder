@@ -3,18 +3,13 @@ title: "구형 iMac을 Ubuntu로 다시 활용하기"
 description: ""
 coverImage: "/assets/img/2024-06-19-RepurposinganoldiMacwithUbuntu_0.png"
 date: 2024-06-19 04:50
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-RepurposinganoldiMacwithUbuntu_0.png
 tag: Tech
 originalTitle: "Repurposing an old iMac with Ubuntu"
 link: "https://medium.com/@esantana_io/repurposing-an-old-imac-with-ubuntu-650d97a138c5"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![이미지](/assets/img/2024-06-19-RepurposinganoldiMacwithUbuntu_0.png)
 
@@ -24,10 +19,20 @@ isUpdated: true
 
 2024년으로 빠르게 이동했을 때, Action Retro의 YouTube 비디오에서 16년 된 iMac에 Ubuntu를 설치하는 것을 보았습니다. 이를 영감받아 똑같이 해보기로 결심했고, 경험은 정말 놀라울 정도로 멋졌습니다. 참고로, 이 iMac을 이전에 500GB SSD와 12GB RAM으로 업그레이드한 적이 있어서 Ubuntu를 실행하는 데 원활한 성능에 크게 기여한다고 생각합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-우분투 설치는 정말 쉬웠어요. USB 드라이브를 가져와서 최신 데스크톱 버전 (64-bit)을 다운로드하면 돼요. 저는 우분투 24.04 LTS를 선택했어요. 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+우분투 설치는 정말 쉬웠어요. USB 드라이브를 가져와서 최신 데스크톱 버전 (64-bit)을 다운로드하면 돼요. 저는 우분투 24.04 LTS를 선택했어요.
 
 ![이미지](/assets/img/2024-06-19-RepurposinganoldiMacwithUbuntu_2.png)
 
@@ -35,13 +40,35 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-19-RepurposinganoldiMacwithUbuntu_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 확인하세요!  
 홍어!  
 ![이미지](/assets/img/2024-06-19-RepurposinganoldiMacwithUbuntu_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 블루투스 키보드와 마우스? 체크!
 
@@ -51,7 +78,18 @@ SD 카드 리더? 체크!
 
 ![이미지](/assets/img/2024-06-19-RepurposinganoldiMacwithUbuntu_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 슈퍼드라이브? 확인!
 
@@ -63,7 +101,18 @@ SD 카드 리더? 체크!
 sudo apt install ubuntu-restricted-extras
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-RepurposinganoldiMacwithUbuntu_8.png" />
 
@@ -73,7 +122,18 @@ sudo apt install ubuntu-restricted-extras
 
 모든 macOS 사용자를 위한 팁: "Quick Look" 기능이 그리워진다면, Ubuntu 파일 관리자에서 같은 기능을 얻을 수 있는 Gnome-Sushi라는 앱을 설치할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 sudo apt-get install gnome-sushi

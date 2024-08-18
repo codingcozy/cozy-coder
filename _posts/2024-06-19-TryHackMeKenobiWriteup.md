@@ -3,17 +3,13 @@ title: "트라이햅미 케노비 라이트업"
 description: ""
 coverImage: "/assets/img/2024-06-19-TryHackMeKenobiWriteup_0.png"
 date: 2024-06-19 15:01
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-TryHackMeKenobiWriteup_0.png
 tag: Tech
 originalTitle: "TryHackMe: Kenobi Writeup"
 link: "https://medium.com/@zaynahsd/tryhackme-kenobi-writeup-93953817d7da"
 isUpdated: true
 ---
-
-
-
-
 
 리눅스 머신을 해킹해 봅시다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 열려 있는 포트: 7 (nmap `머신의 IP 주소`-vvv)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 과제 2 Samba 공유 목록 열거
 
@@ -33,19 +40,39 @@ Samba는 Server Message Block (SMB)의 공통 클라이언트/서버 프로토�
 
 nmap을 사용하여 기계를 SMB 공유에 대해 열거할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Nmap은 다양한 네트워킹 작업을 자동화하여 실행할 수 있는 능력을 가지고 있어요. 공유를 열거하는 스크립트가 있어요!
 
-
 nmap -p 445 --script=smb-enum-shares.nse,smb-enum-users.nse 10.10.3.132
-
 
 SMB에는 445번과 139번이라는 두 개의 포트가 있어요.
 
 ![이미지](/assets/img/2024-06-19-TryHackMeKenobiWriteup_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-TryHackMeKenobiWriteup_2.png" />
 
@@ -55,7 +82,18 @@ SMB에는 445번과 139번이라는 두 개의 포트가 있어요.
 
 대부분의 Linux 배포판에는 이미 smbclient가 설치되어 있습니다. 공유 중 하나를 검사해 봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 smbclient //`machine’s ip`/anonymous
 
@@ -65,8 +103,18 @@ smbclient //`machine’s ip`/anonymous
 
 연결되었으면 공유된 파일 목록을 나열하세요. 어떤 파일을 볼 수 있나요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-TryHackMeKenobiWriteup_4.png)
 
@@ -76,9 +124,18 @@ SMB 공유를 재귀적으로 다운로드할 수도 있습니다. 아이디와 
 
 smbget -R smb://`머신의 아이피`/anonymous
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-TryHackMeKenobiWriteup_5.png)
 
@@ -88,8 +145,18 @@ smbget -R smb://`머신의 아이피`/anonymous
 
 ProFTPD 서버에 관한 정보.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 FTP는 어떤 포트에서 실행되나요?
 
@@ -99,7 +166,18 @@ FTP는 어떤 포트에서 실행되나요?
 
 이전에 실행한 nmap 포트 스캔에서 포트 111에서 rpcbind 서비스가 실행 중인 것을 확인했을 것입니다. 이 서비스는 원격 프로시저 호출(RPC) 프로그램 번호를 유니버설 주소로 변환하는 서버에 불과합니다. RPC 서비스가 시작되면 rpcbind에게 해당 서비스가 수신 대기하고 있는 주소 및 제공할 RPC 프로그램 번호를 알려줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 경우에는 포트 111은 네트워크 파일 시스템에 액세스하는 것입니다. 이를 열어보기 위해 nmap을 사용합시다.
 
@@ -109,7 +187,18 @@ nmap -p 111 — script=nfs-ls,nfs-statfs,nfs-showmount 10.10.3.132
 
 ![네트워크 파일 시스템](/assets/img/2024-06-19-TryHackMeKenobiWriteup_7.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `Mount: /var`
 
@@ -119,7 +208,18 @@ ProFtpd는 Unix 및 Windows 시스템과 호환되는 무료 오픈 소스 FTP �
 
 아래의 질문에 답해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ProFtpd의 버전을 확인해 봅시다. FTP 포트에 머신에 netcat을 사용하여 연결하세요.
 
@@ -131,7 +231,18 @@ nc `머신의 IP` 21
 
 버전: 1.3.5
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 searchsploit을 사용하여 특정 소프트웨어 버전에 대한 취약점을 찾을 수 있어요.
 
@@ -141,8 +252,18 @@ ProFTPd를 실행 중인 시스템에 대한 exploit이 얼마나 있죠?
 
 searchsploit ProFTPD `버전 번호`
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-TryHackMeKenobiWriteup_8.png)
 
@@ -152,8 +273,18 @@ ProFtpd의 mod_copy 모듈(http://www.proftpd.org/docs/contrib/mod_copy.html)에
 
 mod_copy 모듈은 SITE CPFR 및 SITE CPTO 명령을 구현하며, 이를 사용하여 서버의 한 곳에서 다른 곳으로 파일/디렉터리를 복사할 수 있습니다. 인증되지 않은 클라이언트는 이러한 명령을 이용하여 파일을 파일 시스템의 어디서든 원하는 대상으로 복사할 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 FTP 서비스가 Kenobi 사용자로 실행되고 (공유 파일에서) 그 사용자를 위해 SSH 키가 생성되었다는 것을 알고 있습니다.
 
@@ -163,18 +294,37 @@ FTP 서비스가 Kenobi 사용자로 실행되고 (공유 파일에서) 그 사�
 
 우리는 /var 디렉토리가 우리가 볼 수 있는 마운트임을 알고 있었습니다(task 2, question 4). 이제 Kenobi의 개인 키를 /var/tmp 디렉토리로 이동했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 '/var/tmp' 디렉토리를 우리의 머신에 연결해 봅시다.
-
 
 sudo mkdir /mnt/kenobiNFS
 sudo mount machine_ip:/var /mnt/kenobiNFS
 ls -la /mnt/kenobiNFS
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Screenshot 10](/assets/img/2024-06-19-TryHackMeKenobiWriteup_10.png)
 
@@ -184,8 +334,18 @@ We now have a network mount on our deployed machine! We can go to `/var/tmp` and
 
 ![Screenshot 12](/assets/img/2024-06-19-TryHackMeKenobiWriteup_12.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 케노비의 사용자 플래그(/home/kenobi/user.txt)는 무엇인가요?
 
@@ -195,7 +355,18 @@ We now have a network mount on our deployed machine! We can go to `/var/tmp` and
 
 작업 4 경로 변수 조작을 통한 권한 상승
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-TryHackMeKenobiWriteup_14.png" />
 
@@ -203,7 +374,18 @@ We now have a network mount on our deployed machine! We can go to `/var/tmp` and
 
 파일 권한
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 디렉토리에 대해서
 
@@ -213,8 +395,18 @@ SUID 비트
 
 -
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SGID 비트
 
@@ -224,13 +416,36 @@ SGID 비트
 
 Sticky Bit
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 명령어를 사용하여 시스템에서 이 유형의 파일을 검색할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-다음 명령어를 사용하여 특이한 파일을 찾을 수 있습니다: 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+다음 명령어를 사용하여 특이한 파일을 찾을 수 있습니다:
+
 ```bash
 find / -perm -u=s -type f 2>/dev/null
 ```
@@ -241,7 +456,18 @@ find / -perm -u=s -type f 2>/dev/null
 
 파일: /usr/bin/menu
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 바이너리를 실행하면 몇 개의 옵션이 나타납니까?
 
@@ -251,7 +477,18 @@ find / -perm -u=s -type f 2>/dev/null
 
 `strings`는 리눅스에서 바이너리 파일에서 사람이 읽을 수 있는 문자열을 찾는 명령어입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-TryHackMeKenobiWriteup_17.png" />
 
@@ -261,8 +498,18 @@ find / -perm -u=s -type f 2>/dev/null
 
 이 파일은 루트 사용자 권한으로 실행되므로, 경로를 조작하여 루트 셸을 얻을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지1](/assets/img/2024-06-19-TryHackMeKenobiWriteup_19.png)
 
@@ -272,9 +519,18 @@ find / -perm -u=s -type f 2>/dev/null
 
 루트 플래그(/root/root.txt)는 무엇인가요?
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-TryHackMeKenobiWriteup_21.png)
 

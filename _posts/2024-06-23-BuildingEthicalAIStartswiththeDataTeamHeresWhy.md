@@ -3,17 +3,13 @@ title: "윤리적 AI 개발, 데이터 팀에서 시작해야 하는 이유"
 description: ""
 coverImage: "/assets/img/2024-06-23-BuildingEthicalAIStartswiththeDataTeamHeresWhy_0.png"
 date: 2024-06-23 16:15
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-BuildingEthicalAIStartswiththeDataTeamHeresWhy_0.png
 tag: Tech
 originalTitle: "Building Ethical AI Starts with the Data Team — Here’s Why"
 link: "https://medium.com/towards-data-science/building-ethical-ai-starts-with-the-data-team-heres-why-ebf0ec7c162b"
 isUpdated: true
 ---
-
-
-
-
 
 ## GenAI은 윤리적인 어려움이 있습니다. 데이터 리더들은 이를 어떻게 해결해야 할까요? 이 기사에서는 윤리적 AI의 필요성과 데이터 윤리가 AI 윤리임을 고려합니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 안타깝게도, 너무 빨리 움직이는 것은 무시해선 안 될 위험이 기다리고 있다는 것을 의미하기도 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 옛날부터 전해져 내려오는 이야기입니다. 한 순간에는 선사 시대 모기 유전자를 서열 진행하고, 다음 순간에는 공룡 테마 파크를 개장하고 세계 최초의 실패한 하이퍼루프를 설계하고 있죠 (하지만 분명히 마지막은 아닙니다).
 
@@ -33,7 +40,18 @@ GenAI에 관해서는 인생이 예술을 모방한다고 할 수 있어요.
 
 United Healthcare, 구글, 심지어 캐나다 법원 같은 곳에서 발생한 여러 고프로 AI 사태를 고려할 때, 우리가 어디서 잘못되었는지 다시 생각해 봐야 할 때입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이해를 돕기 위해 명확하게 말씀드리겠습니다. GenAI(및 AI 전반)는 결국 각 산업에서 중요한 역할을 하게 될 것으로 믿습니다. 공학 업무를 가속화하거나 일반적인 질문에 답변하는 데 이르기까지 모든 산업에서 중요한 역할을 하게 될 것입니다. 그러나 AI의 잠재적 가치를 실현하기 위해서는 먼저 AI 애플리케이션을 개발하는 방식과 데이터 팀이 그 역할에서 어떤 영향을 끼치는지에 대해 비판적으로 사고해야 합니다.
 
@@ -43,7 +61,18 @@ United Healthcare, 구글, 심지어 캐나다 법원 같은 곳에서 발생한
 
 전 뉴욕타임스 데이터 및 인사이트 부문의 전 SVP인 동료인 Shane Murray와 대화를 나누던 중, 그는 처음으로 실제 윤리적 진퇴양난에 직면한 상황 중 하나를 공유해 주었습니다. 뉴욕타임스에서 금융 인센티브를 위한 기계 학습 모델을 개발하던 중, 할인을 결정할 수 있는 기계 학습 모델의 윤리적 영향에 대한 토론이 제기되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일단 할인 코드를 위한 머신 러닝 모델은 모든 것을 고려할 때 꽤 무해한 요청처럼 보였습니다. 그러나 몇 개의 할인 코드를 자동화하는 것이 얼마나 순박한 것인지라고 생각할 수 있는지에 상관없이, 그 비즈니스 문제에서 인간적 공감을 없애는 행위는 팀에게 여러 윤리적 고려사항을 만들었습니다.
 
@@ -53,7 +82,18 @@ United Healthcare, 구글, 심지어 캐나다 법원 같은 곳에서 발생한
 
 인공지능 개발에서 주요한 윤리적 고려사항은 세 가지가 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1. 모델 편향
 
@@ -63,7 +103,18 @@ United Healthcare, 구글, 심지어 캐나다 법원 같은 곳에서 발생한
 
 2. AI 사용
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AI의 윤리적 고려 중 가장 존중받는 부분은 해당 기술이 어떻게 활용될지, 그 사용 사례가 회사나 사회 전반에 어떤 영향을 미칠지를 이해하는 것입니다.
 
@@ -73,7 +124,18 @@ AI의 윤리적 고려 중 가장 존중받는 부분은 해당 기술이 어떻
 
 3. 데이터 책임성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로, 데이터 팀들에게 가장 중요한 고려 사항(또한 이 글에서 제가 대부분의 시간을 할애할 부분): 데이터 자체가 AI가 책임 있게 구축되고 활용되는 데 어떻게 영향을 미치는지에 대한 문제입니다.
 
@@ -83,7 +145,18 @@ AI의 윤리적 고려 중 가장 존중받는 부분은 해당 기술이 어떻
 
 알 수 없는 데이터 위에 훈련된 LLM에서 안전하게 진행해도 괜찮을까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 New York Times가 OpenAI에 대한 소송에서 강조한 대로, 우리는 첫째로 이 데이터를 사용할 권리가 있는 걸까요?
 
@@ -93,7 +166,18 @@ New York Times가 OpenAI에 대한 소송에서 강조한 대로, 우리는 첫�
 
 # 데이터 팀이 AI 윤리에 대해 책임져야 하는 이유
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 팀과 관련된 모든 윤리적 AI 고려사항 중에서 가장 중요한 것은 데이터 책임 문제입니다.
 
@@ -104,7 +188,18 @@ New York Times가 OpenAI에 대한 소송에서 강조한 대로, 우리는 첫�
 모델 자체가 우리의 통제 영역을 벗어나 있다면, 할지 말지에 대한 본질적인 질문은 전혀 다른 달에 있는 것입니다. 우리는 그 문제점을 발견하면 지적할 책임이 있지만, 마무리로 말하자면, 우리가 탑승하든 말든, 로켓은 발사될 것입니다.
 가장 중요한 것은 로켓이 안전하게 발사되도록 하는 것입니다. (아니면 비행기 몸통을 훔치는 것도...)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서 데이터 엔지니어들의 삶의 모든 영역과 마찬가지로, 우리가 시간과 노력을 투자하고 싶은 곳은 최대한 많은 사람들에게 가장 직접적인 영향을 미칠 수 있는 곳입니다. 그 기회는 데이터 자체에 있다는 것이 사실입니다.
 
@@ -114,7 +209,18 @@ New York Times가 OpenAI에 대한 소송에서 강조한 대로, 우리는 첫�
 
 데이터 팀은 데이터가 AI 모델로 어떻게 활용되는지에 대한 책임을 져야 합니다. 왜냐하면 단순히 말하자면 그들만이 그것을 할 수 있는 유일한 팀이기 때문입니다. 물론, 준수 팀, 보안 팀, 심지어 법률 팀들이 윤리가 무시될 때 책임을 져야 할 수 있습니다. 그러나 얼마나 많은 책임을 공유할 수 있더라도, 그 팀들이 결국은 데이터 팀만큼 데이터를 동일한 수준에서 이해하지는 못할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 소프트웨어 엔지니어링 팀이 OpenAI나 Anthropic과 같은 써드파티 LLM을 사용하여 앱을 만든다고 상상해보세요. 그러나 그들은 그들의 애플리케이션에 실제로 필요한 데이터 외에도 위치 데이터를 추적하고 저장하고 있다는 것을 깨닫지 못했습니다. 그들은 모델을 구동하기 위해 전체 데이터베이스를 활용합니다. 올바른 논리 결함이 있으면 나쁜 행위자가 그 데이터세트에 저장된 데이터를 사용하여 임의의 개인을 추적하는 프롬프트를 손쉽게 공학적으로 만들 수 있습니다. (이것은 오픈 소스 LLM과 폐쇄 소스 LLM 사이의 긴장 관계입니다.)
 
@@ -124,8 +230,18 @@ New York Times가 OpenAI에 대한 소송에서 강조한 대로, 우리는 첫�
 
 # 그렇다면, 데이터 팀이 윤리적으로 유지하는 방법은 무엇일까요?
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대부분의 경우, 데이터 팀은 모델이 작동하도록 대략적이고 대리 데이터를 다루는 데 익숙합니다. 그러나 AI 모델을 제공하는 데이터의 경우, 실제로 훨씬 더 높은 수준의 검증이 필요합니다.
 
@@ -135,7 +251,18 @@ AI의 위험을 완화하는 방법을 고려할 때, 아래는 데이터 팀이
 
 # 1. 회의 참석 자리를 얻으세요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 팀은 타조가 아닙니다 - 머리를 모래속에 파묻고 문제가 사라지기를 기대할 수 없습니다. 데이터 팀이 리더십 테이블에 자리를 놓기 위해 싸워온 것처럼, 데이터 팀은 AI 테이블에 자리를 얻을 수 있도록 옹호해야 합니다.
 
@@ -145,7 +272,18 @@ AI의 위험을 완화하는 방법을 고려할 때, 아래는 데이터 팀이
 
 이것은 단지 비즈니스 문제가 아닙니다. 유나이티드 헬스케어와 브리티시 컬럼비아 주가 말할 것처럼, 많은 경우, 이들은 실제 사람들의 삶과 생계에 관한 것입니다. 그러니, 우리가 그 관점으로 운영하고 있는지 확인합시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2. RAG과 같은 방법론을 활용하여 더 책임감 있는 - 그리고 신뢰할 수 있는 - 데이터 조직화하기
 
@@ -155,7 +293,18 @@ AI의 위험을 완화하는 방법을 고려할 때, 아래는 데이터 팀이
 
 책임있는 데이터 팀은 RAG와 같은 방법론을 활용하여 준수되고 더 안전하며 모델에 적합한 데이터를 신중하게 조직화하여 많은 위험을 완화합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AI 개발에 RAG(빨강, 주황, 초록) 접근 방식을 취하면 너무 많은 데이터를 처리할 때 발생할 수 있는 위험을 최소화하는 데 도움이 됩니다 — 우리의 위치 데이터 예시에서 언급된 대로.
 
@@ -163,7 +312,18 @@ AI 개발에 RAG(빨강, 주황, 초록) 접근 방식을 취하면 너무 많�
 
 Data lineage과 같은 도구는 데이터의 출처를 신속하게 확인하여 팀이 어떤 시점에서 데이터가 어디에서 유래되고 사용되는지 또는 잘못 사용되는지를 확인할 수 있도록 도와줄 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3. 데이터 신뢰도를 우선시하세요
 
@@ -173,7 +333,18 @@ Data lineage과 같은 도구는 데이터의 출처를 신속하게 확인하�
 
 AI를 시작하는 고객들로부터 가장 많이 들은 불만 중 하나는, 제품용 AI를 준비하는 것은, 벡터 데이터 파이프라인으로 인덱스를 적극적으로 모니터링하지 않는다면 데이터의 신뢰성을 검증하는 것이 거의 불가능하다는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대부분의 경우, 데이터 및 AI 엔지니어들이 데이터에 문제가 발생했음을 알게 되는 유일한 방법은 모델이 나쁜 프롬프트 응답을 내뱉을 때입니다. 그때에는 이미 너무 늦은 시점이죠.
 

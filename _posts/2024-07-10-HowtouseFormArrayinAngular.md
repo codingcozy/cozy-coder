@@ -3,17 +3,13 @@ title: "Angular에서 FormArray 사용하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-10-HowtouseFormArrayinAngular_0.png"
 date: 2024-07-10 00:41
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-10-HowtouseFormArrayinAngular_0.png
 tag: Tech
 originalTitle: "How to use FormArray in Angular"
 link: "https://medium.com/@umitbicici64/how-to-use-formarray-in-angular-cf603c93176b"
 isUpdated: true
 ---
-
-
-
-
 
 `<img src="/assets/img/2024-07-10-HowtouseFormArrayinAngular_0.png" />`
 
@@ -23,8 +19,18 @@ Angular의 FormArray를 사용하여 폼을 생성하는 방법에 대한 자세
 
 먼저, 새로운 Angular 프로젝트를 만들어보겠습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ng new form-array-example
@@ -38,48 +44,74 @@ cd from-form-array-example
 
 단계 2: 반응형 Forms 모듈 추가하기
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Angular 프로젝트에 ReactiveFormsModule을 추가하려면 app.module.ts 파일을 수정해야 합니다. 다음은 그 방법입니다:
 
 ```js
-import { ReactiveFormsModule } from '@angular/forms';
+import { ReactiveFormsModule } from "@angular/forms";
 ```
 
 ```js
 @NgModule({
-  declarations: [
-    AppComponent,
-    AddressFormComponent
-  ],
-  imports: [
-    BrowserModule,
-    ReactiveFormsModule
-  ],
+  declarations: [AppComponent, AddressFormComponent],
+  imports: [BrowserModule, ReactiveFormsModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
 ```
 
 단계 3: 폼 구조 생성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 언더바가 포함된 답변을 다음과 같이 구성할 수 있습니다:
 
+---
 
-___
 언더바를 사용하여 가로선을 만들 수 있습니다.
-___
 
+---
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import { Component } from '@angular/core';
-import { FormArray, FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { Component } from "@angular/core";
+import { FormArray, FormBuilder, FormGroup, Validators } from "@angular/forms";
 ```
 
 ```js
@@ -124,8 +156,18 @@ Step 5: Creating the Template Structure
 
 여기가 address-form.component.html 컴포넌트입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <form [formGroup]="addressForm" (ngSubmit)="onSubmit()">

@@ -3,17 +3,13 @@ title: "Google Cloud 사전 학습 AI를 사용한 서버리스 이미지 텍스
 description: ""
 coverImage: "/assets/img/2024-07-01-BuildingaServerlessImageTextExtractorandTranslatorUsingGoogleCloudPre-TrainedAI_0.png"
 date: 2024-07-01 00:31
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-01-BuildingaServerlessImageTextExtractorandTranslatorUsingGoogleCloudPre-TrainedAI_0.png
 tag: Tech
 originalTitle: "Building a Serverless Image Text Extractor and Translator Using Google Cloud Pre-Trained AI"
 link: "https://medium.com/google-cloud/building-a-serverless-image-text-extractor-and-translator-using-google-cloud-pre-trained-ai-adfdccdb18d9"
 isUpdated: true
 ---
-
-
-
-
 
 안녕하세요!
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 다음에 뵙겠습니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 블로그에서는 사용자가 업로드한 이미지에서 텍스트를 추출하고 필요한 경우 번역하는 서버리스 AI 애플리케이션을 구축하는 방법에 대해 이야기하겠습니다. 다음을 활용할 예정입니다:
 
@@ -34,7 +41,18 @@ isUpdated: true
 
 ## AI 및 AI 제품 빠른 개요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 인공 지능
 
@@ -44,7 +62,18 @@ isUpdated: true
 
 ## 기계 학습
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특정 AI 하위분야는 기계에게 데이터 내의 패턴을 인식하고 명시적인 코딩 솔루션 없이 예측하고 문제를 해결할 수 있도록 가르치는 것과 관련이 있습니다.
 
@@ -54,7 +83,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-07-01-BuildingaServerlessImageTextExtractorandTranslatorUsingGoogleCloudPre-TrainedAI_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 해결책은 Gen AI를 사용하지 않을 거예요. 그래도 Gen AI가 너무 흔하게 사용되고 있어서 이 글에 언급했어요. 내 솔루션에서 사용하고 있는 예측 모델과 어떻게 다른지 이해하실 수 있도록 말이에요.
 
@@ -67,7 +107,18 @@ isUpdated: true
 - Google Cloud Translation API — 한 언어에서 다른 언어로 번역하는데 사용돼.
 - Google Cloud Video — 비디오 분석 및 주석용.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 어플리케이션에 대한 동기
 
@@ -77,7 +128,18 @@ isUpdated: true
 
 그래서 생각했어요... "내가 원하는 어플리케이션을 만들고 싶네요. 이미지나 미담을 업로드하면 그 안의 텍스트를 추출해서 제 모국어로 번역해 주는 기능이 있는 '어플'일까요."
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 물론, 이 작업을 수행하는 다른 방법들이 있을 수 있어요. 하지만 저는 새로운 서버리스 응용 프로그램을 Google Cloud에서 처음부터 만드는 데 좋은 사용 사례라고 생각했어요.
 
@@ -87,7 +149,18 @@ Google Cloud 서버리스 서비스에서 호스팅되는 꽤 간단한 응용 �
 
 ![Building a Serverless Image Text Extractor and Translator Using Google Cloud Pre-Trained AI](/assets/img/2024-07-01-BuildingaServerlessImageTextExtractorandTranslatorUsingGoogleCloudPre-TrainedAI_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **웹앱 UI - 클라우드 런**
 
@@ -98,7 +171,18 @@ Google Cloud 서버리스 서비스에서 호스팅되는 꽤 간단한 응용 �
 
 클라우드 런을 선택한 이유는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 컨테이너화된 응용 프로그램(예: 우리의 Python Flask 웹 응용 프로그램)을 호스팅하고 실행하는 서버리스 방식을 제공합니다.
 - 이 서비스는 이와 같은 간단한 상태를 유지하지 않는 웹 응용 프로그램을 호스팅하는 데 적합합니다.
@@ -110,7 +194,18 @@ Google Cloud 서버리스 서비스에서 호스팅되는 꽤 간단한 응용 �
 
 왜 클라우드 함수를 선택했는지 확인하세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이는 사건에 따른 단기 처리를 수행하기에 적합하며, 사용자가 업로드한 이미지에 대한 추출 및 번역 작업을 실행하는 데 이상적입니다.
 - 수요가 없을 때 자동으로 축소되며, 0으로 축소됩니다.
@@ -124,7 +219,18 @@ Google Cloud 서버리스 서비스에서 호스팅되는 꽤 간단한 응용 �
 - 반면에, Gemini Pro Gen AI multimodal foundation 모델은 자연 언어 프롬프트에 대한 응답으로 동일한 결과를 얻을 수 있습니다. 하지만, 여기서는 자연어 상호작용이 필요하지 않습니다. 왜냐하면 이미지 업로드에 대한 API의 반응을 정확히 알고 있기 때문입니다.
 - Gemino Pro Vision은 멀티모달 기반 모델로 더 많은 다재다능성을 가지고 있지만, 이 기능은 더 높은 가격표와 함께 제공됩니다. Vision API는 매월 1000회의 무료 실행을 제공하며, Translate API는 매월 처음 50만 자의 문자에 대한 무료 번역을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 나의 개발 환경
 
@@ -134,7 +240,18 @@ Google Cloud 서버리스 서비스에서 호스팅되는 꽤 간단한 응용 �
 
 WSL 안에서 작업하는 장점은 필요한 스크립트를 bash로 작성할 수 있다는 거야. 이 말은 나의 코드가 더 이식성이 높다는 걸 의미해. 예를 들어, 나의 환경 안에서 Google Cloud Shell 안에서 작업하는 것과 동일한 스크립트를 실행할 수 있다는 말이야.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 비주얼 스튜디오 코드
 
@@ -144,7 +261,18 @@ WSL 안에서 작업하는 장점은 필요한 스크립트를 bash로 작성할
 
 Git 저장소를 확인하려면 여기에서 찾을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전체 구조는 이렇게 생겼어요:
 
@@ -181,7 +309,18 @@ Git 저장소를 확인하려면 여기에서 찾을 수 있습니다.
 
 ## Google Cloud 프로젝트 만들기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 구글 클라우드 프로젝트를 귀하의 애플리케이션을 위해 생성해 주세요. 제 프로젝트는 이렇게 생겼어요:
 
@@ -191,7 +330,18 @@ Git 저장소를 확인하려면 여기에서 찾을 수 있습니다.
 
 ## API 활성화하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 구성을 최종적으로는 테라폼으로 조정할 것입니다. 하지만 처음에는 다음과 같은 API를 활성화해야 합니다:
 
@@ -241,7 +391,18 @@ gcloud services enable iamcredentials.googleapis.com
 
 서비스 계정은 응용 프로그램의 인증 및 권한 부여를 관리하는 표준 접근 방식입니다. 우리의 Cloud Run 애플리케이션은 Cloud Function에 인증해야 하며, Cloud Function은 Cloud Vision 및 Translation API에 인증해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 서비스 계정을 생성해 봅시다.
 
@@ -294,7 +455,18 @@ gcloud projects add-iam-policy-binding $PROJECT_ID \
   --role roles/run.admin
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 로컬 개발 환경 설정
 
@@ -313,7 +485,18 @@ gcloud projects add-iam-policy-binding $PROJECT_ID \
 sudo apt install google-cloud-cli-gke-gcloud-auth-plugin kubectl google-cloud-cli-skaffold google-cloud-cli-minikube
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기부터는 개발자 계정으로 인증을 받아오기로 했어요. 조직 관리자 계정이 아니라는 거죠. 왜냐면 최소 권한 원칙을 따르고 싶어서요.
 
@@ -326,7 +509,18 @@ gcloud auth login
 
 ![이미지](/assets/img/2024-07-01-BuildingaServerlessImageTextExtractorandTranslatorUsingGoogleCloudPre-TrainedAI_7.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로 애플리케이션 프로젝트 폴더를 설정하고 몇 가지 종속 항목을 설치할 것입니다. 처음부터 애플리케이션을 만들고 있다면 다음 단계를 따르세요:
 
@@ -346,7 +540,7 @@ python3 -m pip install google-cloud-storage google-cloud-translate google-cloud-
 
 # 그리고 requirements.txt 파일을 만듭니다
 python3 -m pip freeze > requirements.txt
-``` 
+```
 
 또는 제 깃허브 레포를 복제하려는 경우:
 
@@ -364,7 +558,18 @@ source .venv/bin/activate
 python3 -m pip install -r requirements.txt
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Git 설치
 
@@ -395,7 +600,18 @@ git push -u origin master
 
 ## VS Code 실행하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 프로젝트 폴더에서 VS Code를 열어봅시다:
 
@@ -408,7 +624,18 @@ VS Code는 필요한 WSL 플러그인을 자동으로 설정해줍니다.
 
 ![이미지](/assets/img/2024-07-01-BuildingaServerlessImageTextExtractorandTranslatorUsingGoogleCloudPre-TrainedAI_8.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 애플리케이션 기본 자격 증명(ADC) 설정
 
@@ -419,7 +646,18 @@ ADC는 서비스 계정 자격 증명을 사용하도록 구성할 수 있습니
 - 우리는 자신의 사용자 ID를 사용하여 서비스 계정을 흉내 낼 수 있습니다.
 - 우리는 서비스 계정을 위해 개인 키를 만들고 ADC를 이 키의 위치로 지정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 이렇게 시도해 보았어요:
 
@@ -444,7 +682,18 @@ gcloud iam service-accounts keys create ~/.config/gcloud/$SVC_ACCOUNT.json \
 export GOOGLE_APPLICATION_CREDENTIALS=~/.config/gcloud/$SVC_ACCOUNT.json
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미 어플리케이션용 환경 변수를 설정해야 해요. 매 세션마다 GOOGLE_APPLICATION_CREDENTIALS 환경 변수를 설정해줘야 합니다. 이제 그에 대해 이야기해볼게요.
 
@@ -476,7 +725,18 @@ echo FUNCTIONS_PORT="$FUNCTIONS_PORT"
 echo FLASK_RUN_PORT="$FLASK_RUN_PORT"
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # The Cloud Function Backend
 
@@ -486,7 +746,18 @@ Hey there! Instead of copying all the code here, you can find it on GitHub. Let 
 
 In the backend-gcf folder, I create a `requirements.txt`. This file lists all the Python packages that need to be installed. When you deploy the function, Cloud Functions will automatically take care of installing these packages for you.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 main.py 파일을 만들었어요. extract_and_translate() 함수의 일부분을 보여드릴게요.
 
@@ -495,7 +766,7 @@ In the backend-gcf folder, I create a `requirements.txt`. This file lists all th
 def extract_and_translate(request):
     """이미지에서 텍스트를 추출하고 번역합니다.
     이미지는 요청으로 POST할 수도 있고 GCS 객체 참조일 수도 있어요.
-    
+
     만약 POST된 이미지라면, enctype는 multipart/form-data여야 하며 파일은 'uploaded'로 이름이 지정돼야 해요.
     GCS 객체 참조를 전달하는 경우, content-type은 'application/json'이어야 하고,
     두 가지 속성을 가져야 해요:
@@ -517,7 +788,7 @@ def extract_and_translate(request):
             image = vision.Image(content=file_contents)
         else:
             return flask.jsonify({"error": "Uploaded 파일을 읽을 수 없습니다."}), 400
-``` 
+```
 
 설명이 꽤 자명해요.
 
@@ -526,7 +797,18 @@ def extract_and_translate(request):
 - 이 객체가 첨부되어 있다면, 이진으로 읽은 후 vision.Image 객체를 생성해요.
 - 그 다음 detect_text() 함수를 호출해요. 이미지를 전달하는데, 이 함수는 Vision API를 사용하여 이미지에 텍스트가 있는지 확인할 거예요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 그렇다면, Python 사전을 반환할 것입니다. 그것은 그 텍스트를 translate_text() 함수에 전달하고, 선택한 언어로 번역합니다.
 
@@ -558,7 +840,18 @@ def detect_text(image: vision.Image) -> dict | None:
     return message
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드는 이미지에서 텍스트를 감지하는 것뿐만 아니라 Google Language API를 사용하여 텍스트의 언어를 결정합니다.
 
@@ -579,7 +872,7 @@ def translate_text(message: dict, to_lang: str) -> dict:
         "src_lang": src_lang,
         "to_lang": to_lang,
     }
-    
+
     if src_lang != to_lang and src_lang != "und":
         print(f"{to_lang}로 텍스트를 번역 중.")
         translated_text = translate_client.translate(
@@ -592,13 +885,24 @@ def translate_text(message: dict, to_lang: str) -> dict:
         }
     else:
         print("번역이 필요하지 않습니다.")
-    
+
     return translated
 ```
 
 소스 언어와 대상 언어가 다르고 소스 언어가 undefined가 아닌지 확인합니다. 이 체크를 통과하면 Google Translate API를 사용하여 텍스트를 번역합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 로컬 테스트
 
@@ -612,7 +916,18 @@ functions-framework --target extract_and_translate \
 
 아래와 같이 보일 것입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **이미지 파일을 가지고 테스트를 진행할 거에요:**
 
@@ -620,7 +935,18 @@ functions-framework --target extract_and_translate \
 
 두 번째 터미널에서 curl을 사용해 함수에 POST해보세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 # 먼저 이 터미널에서 인증하고 환경 변수를 설정해주세요.
@@ -639,8 +965,18 @@ curl -X POST localhost:$FUNCTIONS_PORT \
 
 ## 클라우드 함수를 배포하세요 (Google Cloud로)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 로컬에서 테스트를 완료했으니 Google Cloud에 배포할 차례입니다. 다시 한 번 강조하지만, backend-gcf 폴더에서 실행해야 합니다.
 
@@ -663,7 +999,18 @@ gcloud functions add-invoker-policy-binding extract-and-translate \
 
 ![Deployment Result](/assets/img/2024-07-01-BuildingaServerlessImageTextExtractorandTranslatorUsingGoogleCloudPre-TrainedAI_12.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 한 가지 멋진 것이 있어요... VS Code의 Cloud Code 확장 프로그램을 통해 이제 Google Cloud에서 배포된 클라우드 함수를 볼 수 있어요!
 
@@ -673,8 +1020,18 @@ gcloud functions add-invoker-policy-binding extract-and-translate \
 
 우리는 약간 다른 curl 명령어만 필요해요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 curl -X POST https://$REGION-$PROJECT_ID.cloudfunctions.net/extract-and-translate \
@@ -690,26 +1047,43 @@ Let’s test English-to-English with this meme:
 
 ![Image 15](/assets/img/2024-07-01-BuildingaServerlessImageTextExtractorandTranslatorUsingGoogleCloudPre-TrainedAI_15.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 마크다운 형식으로 수정된 이미지 태그입니다.
 
-
 ![2024-07-01-BuildingaServerlessImageTextExtractorandTranslatorUsingGoogleCloudPre-TrainedAI_16.png](/assets/img/2024-07-01-BuildingaServerlessImageTextExtractorandTranslatorUsingGoogleCloudPre-TrainedAI_16.png)
-
 
 번역은 다음과 같습니다:
 
 이제 우크라이나어로 번역해 볼게요:
 
-
 ![2024-07-01-BuildingaServerlessImageTextExtractorandTranslatorUsingGoogleCloudPre-TrainedAI_17.png](/assets/img/2024-07-01-BuildingaServerlessImageTextExtractorandTranslatorUsingGoogleCloudPre-TrainedAI_17.png)
-
 
 와우! 작동되네요! 이제 프랑스어로 번역을 해보겠습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Link](/assets/img/2024-07-01-BuildingaServerlessImageTextExtractorandTranslatorUsingGoogleCloudPre-TrainedAI_18.png)
 
@@ -729,7 +1103,18 @@ Let’s test English-to-English with this meme:
 </body></html>
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 새 버전 배포하기
 
@@ -739,7 +1124,18 @@ Let’s test English-to-English with this meme:
 
 ## 함수 삭제하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 클라우드 함수를 삭제하고 싶다면, 다음 명령어를 실행해주세요:
 
@@ -751,7 +1147,18 @@ gcloud functions delete extract-and-translate --region=$REGION
 
 우리는 Cloud Run을 사용하여 간단한 Flask Python 웹 애플리케이션을 만들 것입니다. 이 애플리케이션은 폼 페이지를 렌더링하고, 폼을 처리할 것입니다. 그런 다음, 업로드된 이미지를 포함한 폼 응답을 검색한 후, 클라우드 함수를 호출할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 플라스크 웹 응용 프로그램 만들기
 
@@ -762,7 +1169,18 @@ gcloud functions delete extract-and-translate --region=$REGION
 - 이 응용 프로그램에서 필요한 Python 패키지를 정의하기 위해 requirements.txt를 만들었습니다.
 - 플라스크 응용 프로그램을 도커 컨테이너로 패키징하는 책임을 지는 Dockerfile을 만들었습니다. (나중에 Cloud Run에 배포하기 위해 필요합니다.) 이렇게하려면 ui_cr 폴더의 내용을 복사하고, requirements.txt에서 정의된 Python 종속성을 설치하고, 그런 다음 응용 프로그램의 진입점을 정의해야합니다. 즉, python app.py를 실행하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리의 ui_cr 폴더는 다음과 같은 구조를 가지고 있어요:
 
@@ -780,7 +1198,18 @@ gcloud functions delete extract-and-translate --region=$REGION
 
 저는 코드를 자세히 살펴볼 예정이 아니에요. 하지만 몇 가지 흥미로운 부분과 주의해야 할 점을 강조할게요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 app.py를 살펴보겠습니다. 먼저 Flask 애플리케이션을 인스턴스화하는 함수입니다.
 
@@ -809,7 +1238,18 @@ app = create_app()
 
 ## Flask 홈페이지 요청 처리하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기는 /.에 대한 요청을 처리하는 곳이에요. 사용자가 페이지를 처음 방문할 때는 GET 요청이 전송되지만, 이미지를 번역하려고 폼을 제출하면 요청은 POST로 수신될 거에요. 그래서 두 가지 모두 처리해야 해요.
 
@@ -870,13 +1310,24 @@ def entry():
                            to_lang=to_lang,
                            img_data=encoded_img,
                            translation=translation), 200
-``` 
+```
 
 입력을 유효성 검사하고, 이미지가 업로드되었고 유효한 이미지인 경우에만 클라우드 함수로 요청을 보내요. 이 요청은 업로드된 이미지의 원시 바이트를 전달해야 해요.
 
 또한 사용자에게 업로드된 이미지를 반환된 페이지에 표시하고 싶어요. 백엔드에 디스크에 이미지를 저장하지 않으려고 해서 이 방법을 채택했어요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 업로드된 이미지를 메모리에 있는 BytesIO 개체로 변환합니다.
 - 메모리에 있는 객체를 JPEG로 변환합니다.
@@ -925,7 +1376,18 @@ def make_authorized_post_request(endpoint:str,
     return response
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 사용자 입력 받아오기
 
@@ -935,41 +1397,58 @@ def make_authorized_post_request(endpoint:str,
 
 로컬에서 플라스크(Flask) 앱을 실행하는 몇 가지 방법이 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### VS Code 대화형 디버거를 사용하고 싶다면, 다음과 같이 보이는 실행 구성을 생성하는 것을 추천합니다:
 
 ```json
 {
-    "configurations": [
-        {
-            "name": "Python Debugger: Flask",
-            "type": "debugpy",
-            "request": "launch",
-            "module": "flask",
-            "cwd": "${workspaceFolder}/app/ui_cr",
-            "env": {
-                "FLASK_APP": "app.py",
-                "FLASK_DEBUG": "1",
-                "FLASK_RUN_PORT": "8080"
-            },
-            "args": [
-                "run",
-                "--debug",
-                "--no-debugger",
-                "--no-reload"
-            ],
-            "jinja": true,
-            "autoStartBrowser": false
-        },
-        // 다른 설정들
-    ]
+  "configurations": [
+    {
+      "name": "Python Debugger: Flask",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "flask",
+      "cwd": "${workspaceFolder}/app/ui_cr",
+      "env": {
+        "FLASK_APP": "app.py",
+        "FLASK_DEBUG": "1",
+        "FLASK_RUN_PORT": "8080"
+      },
+      "args": ["run", "--debug", "--no-debugger", "--no-reload"],
+      "jinja": true,
+      "autoStartBrowser": false
+    }
+    // 다른 설정들
+  ]
 }
 ```
 
 ## 애플리케이션 테스트하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 알겠어요, 어플리케이션을 실행할 준비가 되었어요!
 
@@ -979,7 +1458,18 @@ def make_authorized_post_request(endpoint:str,
 
 ![이미지](/assets/img/2024-07-01-BuildingaServerlessImageTextExtractorandTranslatorUsingGoogleCloudPre-TrainedAI_21.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희의 우크라이나 미믹을 번역하는 데 사용해 봐요:
 
@@ -989,7 +1479,18 @@ def make_authorized_post_request(endpoint:str,
 
 # Google Cloud Run에 배포하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 우리는 Flask 응용 프로그램을 Cloud Run에 배포할 준비가 되었습니다. Cloud Run은 서버 레스 컨테이너 런타임인만큼 배포하기 전에 응용 프로그램을 컨테이너 이미지로 패키징해야 합니다.
 
@@ -1006,7 +1507,18 @@ gcloud artifacts repositories create image-text-translator-artifacts \
   --project=$PROJECT_ID
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 링크에서 클라우드 콘솔에 레포지토리가 생성되었는지 확인할 수 있어.
 
@@ -1014,7 +1526,18 @@ gcloud artifacts repositories create image-text-translator-artifacts \
 
 이제 도커 이미지를 빌드해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 export IMAGE_NAME=$REGION-docker.pkg.dev/$PROJECT_ID/image-text-translator-artifacts/image-text-translator-ui
@@ -1033,21 +1556,31 @@ gcloud builds submit --tag $IMAGE_NAME:v0.1 .
 
 마지막으로, 이미지를 사용하여 Cloud Run에 배포할 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```yaml
 # Flask 애플리케이션을 위한 랜덤 시크릿 키 생성
 export RANDOM_SECRET_KEY=$(openssl rand -base64 32)
 
 gcloud run deploy image-text-translator-ui \
-  --image=$IMAGE_NAME:v0.1 \
-  --region=$REGION \
-  --platform=managed \
-  --allow-unauthenticated \
-  --max-instances=1 \
-  --service-account=$SVC_ACCOUNT \
-  --set-env-vars BACKEND_GCF=$BACKEND_GCF,FLASK_SECRET_KEY=$RANDOM_SECRET_KEY
+--image=$IMAGE_NAME:v0.1 \
+--region=$REGION \
+--platform=managed \
+--allow-unauthenticated \
+--max-instances=1 \
+--service-account=$SVC_ACCOUNT \
+--set-env-vars BACKEND_GCF=$BACKEND_GCF,FLASK_SECRET_KEY=$RANDOM_SECRET_KEY
 ```
 
 다음은 출력 결과입니다:
@@ -1056,7 +1589,18 @@ gcloud run deploy image-text-translator-ui \
 
 Google Cloud 콘솔에서 서비스가 성공적으로 배포되었는지 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 리디플로잉
 
@@ -1085,7 +1629,18 @@ gcloud run deploy image-text-translator-ui \
   --set-env-vars BACKEND_GCF=$BACKEND_GCF,FLASK_SECRET_KEY=$RANDOM_SECRET_KEY
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 필요에 따라 사용자 정의 DNS 매핑 설정하기
 
@@ -1106,7 +1661,18 @@ gcloud beta run domain-mappings create \
   --domain image-text-translator.mydomain.com
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 이 도메인 매핑에 대한 DNS 레코드를 확보해야 합니다:
 
@@ -1119,7 +1685,18 @@ gcloud beta run domain-mappings describe \
 
 resourceRecords 아래에 나타나는 모든 DNS 레코드를 가져와서 DNS 등록기에서 이 DNS 레코드들을 만들어야 합니다. 저한테는 추가해야 할 CNAME 레코드가 한 개만 있었습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지 태그를 Markdown 형식으로 바꿔주세요.
 
@@ -1132,7 +1709,18 @@ DNS 레코드가 전파되고 Google이 관리 SSL 인증서를 프로비저닝�
 - [Google Toolbox](https://toolbox.googleapps.com/apps/dig/)
 - [SSL Labs](https://www.ssllabs.com/ssltest/)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 마침내... 모든 것이 내 도메인에서 작동 중입니다!
 
@@ -1142,7 +1730,18 @@ DNS 레코드가 전파되고 Google이 관리 SSL 인증서를 프로비저닝�
 
 작성 시점에서...
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Google Cloud Functions
 
@@ -1154,7 +1753,18 @@ DNS 레코드가 전파되고 Google이 관리 SSL 인증서를 프로비저닝�
 
 ## Google Cloud Run
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비용은 사용된 CPU와 메모리의 조합으로 결정됩니다.
 
@@ -1166,7 +1776,18 @@ DNS 레코드가 전파되고 Google이 관리 SSL 인증서를 프로비저닝�
 
 이미지 당 매월 처음 1000개의 텍스트 감지는 무료입니다. 그 후에는 매 1000개 이미지 당 $1.50로 청구됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 구름 번역 API
 
@@ -1176,7 +1797,18 @@ DNS 레코드가 전파되고 Google이 관리 SSL 인증서를 프로비저닝�
 
 이 비용 통제 전략들을 시행하는 것을 고려해보시기 바랍니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 지불 계정에 예산 경보를 설정하세요. 예산 임계값이 초과되면 이메일 알림을 받게 됩니다 (예: 50%, 75%, 90%, 100%). 참고로, 이는 지출을 제한하는 것이 아니라, 임계값이 충족될 때 알림을 보내는 것입니다.
 - 오토스케일링을 제한하세요. Cloud Run과 Cloud Functions은 모두 서버리스 오토스케일링 서비스이지만, 작은 애플리케이션에 대규모 수요가 예상되지는 않습니다. 따라서, Cloud Function과 Cloud Run 서비스의 max-instances를 각각 1로 설정했습니다. 이는 각 서비스가 한 번에 하나의 동시 인스턴스 이상을 배포하지 않음을 의미합니다.
@@ -1188,7 +1820,18 @@ DNS 레코드가 전파되고 Google이 관리 SSL 인증서를 프로비저닝�
 
 Cloud Run에서 이 문제를 다루는 몇 가지 전략이 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 최소 인스턴스 수를 1로 설정할 수 있습니다. 이렇게 하면 클라우드 런 서비스가 절대 0으로 축소되지 않습니다. 항상 요청을 처리할 준비가 된 인스턴스가 있을 것입니다. 그러나 이는 이 인스턴스를 항상 사용 중이라는 것을 의미합니다. 이것은 종종 좋은 전략이 됩니다. 그러나 노디, 저 사용량 애플리케이션에 대해 이렇게 하고 싶지는 않습니다.
 - 클라우드 런 시작 CPU 부스트를 구성할 수 있습니다. 여기서 Google Cloud는 클라우드 런 컨테이너에 더 많은 CPU를 동적으로 할당하여 시작할 때 우리의 시작 시간을 현격히 개선할 수 있습니다. 또한 이 추가 CPU는 드물게 발생하는 콜드 스타트에만 할당되기 때문에 항상 인스턴스를 유지하는 것보다 비용 효율적일 가능성이 높습니다.
@@ -1202,7 +1845,18 @@ gcloud beta run services update image-text-translator-ui \
 
 # 일부 FAQs, 일반적인 관찰 및 팁
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 창의적인 AI!
 
@@ -1212,7 +1866,18 @@ gcloud beta run services update image-text-translator-ui \
 
 내 Flask 애플리케이션에서 추출 및 번역 API 호출을 바로 포함시키지 않고 Cloud Functions를 사용했다면 어땠을까요? 그러면 Cloud Functions가 전혀 필요하지 않았을 텐데요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Two 가지 이유가 있었습니다:
 
@@ -1223,7 +1888,18 @@ Two 가지 이유가 있었습니다:
 
 모든 과정이 끝났어요! 우리가 이룬 것들을 다시 한번 정리해볼까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 우리는 애플리케이션을 호스팅하기 위해 Google Cloud 프로젝트를 만들었습니다.
 - 로컬 개발 프로젝트와 환경을 설정했습니다.
@@ -1248,7 +1924,18 @@ Two 가지 이유가 있었습니다:
 
 # 다음은?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 I'll be back with the second part soon! In Part 2, we'll delve into:
 
@@ -1263,7 +1950,18 @@ I'll be back with the second part soon! In Part 2, we'll delve into:
 - Drop a comment 💬 if you have any thoughts to share.
 - Stay updated by following and subscribing to my content. Visit my Profile Page and click on these icons:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Tarot Image](/assets/img/2024-07-01-BuildingaServerlessImageTextExtractorandTranslatorUsingGoogleCloudPre-TrainedAI_31.png)
 
@@ -1273,7 +1971,18 @@ I'll be back with the second part soon! In Part 2, we'll delve into:
 
 - [https://image-text-translator.just2good.co.uk/](https://image-text-translator.just2good.co.uk/)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 어플리케이션의 소스 코드
 
@@ -1286,7 +1995,18 @@ I'll be back with the second part soon! In Part 2, we'll delve into:
 - VS Code용 Cloud Code
 - VS Code: 샘플 Python Flask 튜토리얼
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 클라우드 함수
 
@@ -1307,7 +2027,18 @@ I'll be back with the second part soon! In Part 2, we'll delve into:
 - 클라우드 런 가격
 - 클라우드 런 시작 CPU 부스트
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## AI/ML APIs
 
@@ -1326,7 +2057,18 @@ I'll be back with the second part soon! In Part 2, we'll delve into:
 - 클라우드 런: 서비스 ID
 - 클라우드 런: 서비스 간 인증 — 서비스 계정 만들기; Google이 서명한 ID 토큰 가져오기 및 해당 토큰을 헤더에 추가하기.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## DNS와 SSL 프로비저닝
 

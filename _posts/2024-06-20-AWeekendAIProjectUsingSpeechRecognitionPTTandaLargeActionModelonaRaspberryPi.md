@@ -3,7 +3,7 @@ title: "주말 AI 프로젝트 라즈베리 파이에서 음성 인식, PTT 및 
 description: ""
 coverImage: "/assets/img/2024-06-20-AWeekendAIProjectUsingSpeechRecognitionPTTandaLargeActionModelonaRaspberryPi_0.png"
 date: 2024-06-20 17:19
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-AWeekendAIProjectUsingSpeechRecognitionPTTandaLargeActionModelonaRaspberryPi_0.png
 tag: Tech
 originalTitle: "A Weekend AI Project: Using Speech Recognition, PTT, and a Large Action Model on a Raspberry Pi"
@@ -11,17 +11,24 @@ link: "https://medium.com/towards-data-science/a-weekend-ai-project-using-speech
 isUpdated: true
 ---
 
-
-
-
-
 ![2024-06-20-AWeekendAIProjectUsingSpeechRecognitionPTTandaLargeActionModelonaRaspberryPi_0](/assets/img/2024-06-20-AWeekendAIProjectUsingSpeechRecognitionPTTandaLargeActionModelonaRaspberryPi_0.png)
 
 2024년 초에는 거의 모든 기술 리뷰어가 Rabbit R1에 대해 썼어요. 이 제품은 가격이 $199인 첫 번째 휴대용 "AI 어시스턴트" 입니다. 작성자들에 따르면 "신경 기호 프로그래밍"과 LAM ("대규모 액션 모델")을 사용하여 다양한 작업을 수행합니다. 그런데 어떻게 작동할까요? 자신의 프로토 타입을 만드는 것이 가장 좋은 방법이죠!
 
 이전에 Rabbit R1에 대해 듣지 못한 독자들은 이와 유사한 많은 YouTube 리뷰를 찾을 수 있습니다. 이 글은 Rabbit R1을 어떻게 만들 수 있는가에 대한 흥미로운 분석을 한 Nabil Alouani의 게시물에 영감을 받았습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 파이썬 코드에서 비슷한 아이디어를 구현하고, 실제 라즈베리 파이 하드웨어에서 어떻게 작동하는지 그리고 어떤 종류의 문제를 해결해야 하는지 살펴볼 것입니다.
 
@@ -31,7 +38,18 @@ isUpdated: true
 
 이 글에서는 여러 구성 요소를 포함한 AI 어시스턴트를 만들 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 마이크와 Push-to-Talk (PTT) 버튼
 - 자동 음성 인식 (ASR), 녹음된 오디오 데이터를 텍스트로 변환할 수 있습니다.
@@ -45,10 +63,18 @@ isUpdated: true
 
 이 프로젝트에는 리눅스가 실행되는 싱글 보드 컴퓨터인 라즈베리 파이 4를 사용할 것입니다. 라즈베리 파이에는 다양한 하드웨어를 연결할 수 있도록 여러 개의 GPIO (일반 목적 입출력) 핀이 있습니다. 휴대 가능하며 5V DC 전원만 필요합니다. 또한 128x64 OLED 디스플레이와 버튼을 연결할 것이며, 연결 다이어그램은 다음과 같습니다:
 
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
-
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-20-AWeekendAIProjectUsingSpeechRecognitionPTTandaLargeActionModelonaRaspberryPi_1.png)
 
@@ -58,8 +84,18 @@ isUpdated: true
 
 ## Push-to-Talk (PTT)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 라즈베리 파이에서 푸시투톡 모드를 구현하는 것은 비교적 간단합니다. 배선 다이어그램에서 볼 수 있듯이 PTT(푸시투톡) 버튼은 핀 중 하나에 연결되어 있습니다 (우리의 경우 핀 21번). 그 값을 읽으려면 먼저 GPIO 라이브러리를 가져와 핀을 구성해야 합니다:
 
@@ -77,10 +113,21 @@ gpio.setup(button_pin, gpio.IN, pull_up_down=gpio.PUD_UP)
 
 입력 핀이 구성되면, 그 값을 읽기 위해 필요한 코드는 한 줄뿐입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-value = gpio.input(button_pin)
+value = gpio.input(button_pin);
 ```
 
 코딩을 좀 더 편리하게 하기 위해, 마지막 버튼 상태를 기억할 수 있는 GPIOButton 클래스를 만들었어요. 상태를 비교해서 버튼이 눌리거나 놓였는지 쉽게 감지할 수 있게 돼요.
@@ -123,7 +170,18 @@ class GPIOButton:
 
 이 방식을 통해 라즈베리 파이가 없는 사용자들을 위해 “가상 버튼”을 만들 수도 있어요. 예를 들어, 이 “버튼”은 애플리케이션이 시작된 후 처음 5초 동안 눌린 상태일 수 있어요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 class VirtualButton(GPIOButton):
@@ -144,7 +202,18 @@ class VirtualButton(GPIOButton):
 
 PTT(푸시 투 토크) 버튼을 사용하여 소리를 녹음할 수 있습니다. 이를 위해 Python 사운드카드 라이브러리를 사용할 것입니다. 0.5초씩 오디오를 녹음하며, 이 정확도는 우리의 작업에 충분히 적합합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import soundcard as sc
@@ -224,7 +293,18 @@ with recorder.get_microphone() as mic:
 
 전체 코드는 기사의 끝에 제공되지만, 이 부분만으로 아이디어를 이해할 수 있습니다. 여기서는 무한한 “메인” 루프가 있습니다. 마이크는 항상 활성화되어 있지만, 녹음은 버튼이 눌릴 때만 시작됩니다. PTT 버튼이 놓일 때, 오디오 버퍼를 음성 인식에 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ASR(Automatic Speech Recognition)은 이미 이전 게시물에서 설명했습니다:
 
@@ -234,7 +314,18 @@ ASR(Automatic Speech Recognition)은 이미 이전 게시물에서 설명했습�
 
 이 프로젝트에서는 Amazon에서 $3-5에 구매할 수 있는 작은 1.4인치 128x64 OLED 디스플레이를 사용했습니다. 코드는 이미 이전 게시물에서 제시되었습니다. 저는 단지 작은 리팩토링을 수행하고 모든 메서드를 OLEDDisplay 클래스에 넣었습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 class OLEDDisplay:
@@ -248,7 +339,7 @@ class OLEDDisplay:
                                                      self.pixels_size[1],
                                                      i2c)
         else:
-            self.oled = None        
+            self.oled = None
 
     def add_line(self, text: str):
         """ 스크롤링되는 새로운 라인 추가 """
@@ -282,7 +373,7 @@ class OLEDDisplay:
 
     def _draw_image(self, image: Image):
         """ 디스플레이에 이미지 그리기 """
-``` 
+```
 
 또한 PTT 버튼이 눌렸는지 여부를 나타내는 "rabbit" 로고와 텍스트를 표시하는 draw_record_screen 메서드를 추가했습니다. 텍스트는 다른 상태 메시지에도 유용합니다. 라즈베리 파이에 연결된 디스플레이는 다음과 같이 보입니다:
 
@@ -290,7 +381,18 @@ class OLEDDisplay:
 
 깜박임은 비디오 녹화의 부작용이며, 인간 눈에는 보이지 않습니다. 미술가가 아니라서 제 그림 실력이 죄송합니다 ;)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지난 글에서 언급한 것처럼 이 코드는 라즈베리 파이 없이 일반 PC에서 테스트할 수 있어요. 이 경우 oled 변수가 None이 되며 표준 logging.debug 출력만 사용하게 됩니다.
 
@@ -302,7 +404,18 @@ class OLEDDisplay:
 - 이 문구를 장치 내에서 실행되는 작은 언어 모델로 구문 분석합니다.
 - 문구가 특정 작업에 해당하는 경우, 어시스턴트가 해당 작업을 수행합니다 (예: 스마트 LED 전구에 명령을 보내어 등을 켤 수 있습니다). 작업이 알려지지 않은 경우에만 어시스턴트가 "큰" 모델에 도움을 요청합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 장치에서 모델을 로컬에서 실행하는 것은 간단한 이유로 매우 중요합니다: 클라우드 API는 무료가 아닙니다. 예를 들어, 이 글을 쓰는 시점에서, Rabbit R1의 가격은 $199이며, 그들의 웹사이트에서 약속한 대로 "구독이 필요하지 않습니다." 가능한 한 많은 작업을 로컬에서 실행하는 것이 가능하게 만드는 것이 중요합니다. 저희의 스마트 어시스턴트에게도 같은 방식을 사용할 것입니다.
 
@@ -324,7 +437,18 @@ class OLEDDisplay:
 
 실제 사용 사례에서는 많은 작업이 있을 수 있고, 사용자 요청에 가장 잘 맞는 프롬프트를 얻기 위해 작은 RAG 데이터베이스가 사용되지만, 테스트를 위해서는 충분합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 라즈베리 파이에서 언어 모델을 사용하려면 LLM 클래스를 만들어 봅시다. 또한 3가지 가능한 동작을 포함한 LLMAction 클래스를 만들었습니다:
 
@@ -343,7 +467,7 @@ class LLMAction:
     @staticmethod
     def get_action(response: str) -> int:
         """ 텍스트 응답에서 동작을 가져옵니다 """
-        
+
         actions = [(LLMAction.LIGHTS_ON, "LIGHT ON"),
                    (LLMAction.LIGHTS_OFF, "LIGHT OFF")]
         for action, action_text in actions:
@@ -377,15 +501,15 @@ class LLM:
         chain = prompt | self.llm | StrOutputParser()
         resp = chain.invoke({"question": question}, config={}).strip()
         return resp
-      
+
     def _get_prompt_template(self) -> str:
         """ 다른 모델에 대한 프롬프트를 가져옵니다 """
         if "tinyllama" in self.model_file:
             return """<|system|>
-                사용자 보조 기능입니다. 사용자가 빛을 켜려면 LIGHT ON이라고만 적어주세요. 
+                사용자 보조 기능입니다. 사용자가 빛을 켜려면 LIGHT ON이라고만 적어주세요.
                 빛을 끄려면 LIGHT OFF라고만 적어주세요. 다른 경우에는 I DON'T KNOW이라고만 적어주세요.
                 예시.
-                사용자: 불을 켜줘. 보조 기능: "LIGHT ON". 
+                사용자: 불을 켜줘. 보조 기능: "LIGHT ON".
                 사용자: 불을 끄어줘. 보조 기능: "LIGHT OFF".
                 사용자: 문을 열어줘. 보조 기능: "I DON'T KNOW".
                 이제 이 사용자 질문에 답해주세요. LIGHT ON, LIGHT OFF 또는 I DON'T KNOW 중에 선택해 적어주세요.
@@ -396,11 +520,22 @@ class LLM:
         ...
 ```
 
-여기서 LlamaCpp를 사용하여 언어 모델을 로드하고 응답을 얻기 위한 _inference 메서드를 만들었습니다. 서로 다른 모델은 서로 다른 프롬프트 구문을 갖기 때문에, 모델 이름에 따라 다른 프롬프트를 선택합니다. LlamaCpp 라이브러리는 라즈베리 파이에 쿠다 GPU가 없어도 작동할 수 있고 평범한 C/C++로 작성되어 있어 우리의 작업에 탁월합니다.
+여기서 LlamaCpp를 사용하여 언어 모델을 로드하고 응답을 얻기 위한 \_inference 메서드를 만들었습니다. 서로 다른 모델은 서로 다른 프롬프트 구문을 갖기 때문에, 모델 이름에 따라 다른 프롬프트를 선택합니다. LlamaCpp 라이브러리는 라즈베리 파이에 쿠다 GPU가 없어도 작동할 수 있고 평범한 C/C++로 작성되어 있어 우리의 작업에 탁월합니다.
 
 어떤 모델을 사용해야 할까요? 라즈베리 파이는 계산 자원이 제한적이기 때문에 답은 그리 쉽지 않습니다. GPU가 없고 CPU 추론 속도가 느립니다. 실제로 라즈베리 파이에서 모델을 실행할 때, 1–2B 모델에만 제한됩니다. 그 외에는 추론에 너무 많은 시간이 걸립니다. "작은 대형 언어 모델"은 모순적으로 들릴 수 있지만, 우리의 경우 선택지가 매우 제한적입니다. HuggingFace에서 라즈베리 파이에 적합한 1B Tiny Vicuna, 1.1B Tiny Llama, 그리고 2.7B Phi-2 모델을 찾을 수 있었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가장 좋은 작은 모델을 찾기 위해 작은 벤치마크를 만들어 봅시다. 우리의 3가지 액션을 테스트하기 위해 4개씩 총 12개의 문구를 만들었습니다.
 
@@ -428,7 +563,18 @@ huggingface-cli download TheBloke/phi-2-GGUF phi-2.Q4_K_M.gguf --local-dir . --l
 huggingface-cli download TheBloke/Llama-2-7b-Chat-GGUF llama-2-7b-chat.Q4_K_M.gguf --local-dir . --local-dir-use-symlinks False
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기, 더 나은 성능을 위해 7B Llama-2 모델을 "참조"로 다운로드했습니다.
 
@@ -443,7 +589,18 @@ Llama-2 7B: 정확도: 83%, 평균 응답 시간: 19.3초
 
 결과는 흥미로웠습니다. 첫째, Tiny Llama 모델의 0% 정확도에 놀랐습니다. 여전히 응답을 제공할 수는 있었지만 정확하지 않았습니다. 예를 들어, Tiny Llama는 "불을 켜라"라는 문구에 "사용자: 불 켜기"라는 답변을 할 수 있고, 이는 "어느 정도" 정확하며 핵심 문구를 쉽게 찾을 수 있습니다. 둘째, 7B Llama-2가 2.7B Phi-2보다 더 빠르게 작동하는 것을 보는 것이 흥미로웠습니다. 셋째, 모델들에게 가장 "어려웠던" 것은 마지막 질문 그룹이었습니다. 거의 모든 모델이 "모르겠다." 대신에 스스로 답을 만들려고 시도했습니다. 재미있게도 "작은" 모델뿐만 아니라 Google Bard도 이 실수를 범했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-AWeekendAIProjectUsingSpeechRecognitionPTTandaLargeActionModelonaRaspberryPi_2.png" />
 
@@ -455,7 +612,18 @@ Llama-2 7B: 정확도: 83%, 평균 응답 시간: 19.3초
 - 더 빠른 처리를 위해 별도의 칩을 사용했을 것입니다. "Intel Neural Compute Stick"과 같은 장치들이 여러 년 동안 알려져 왔으며, 현대의 coprocessors가 LLM 계산을 수행할 수 있는 수단이 있을지도 모릅니다 (이 방법은 새로운 것은 아닙니다; 저와 같은 세대의 사람들은 Intel 8087 수학 coprocessors를 기억할 수 있습니다.).
 - LLM 이외에도 더 많이 사용할 수 있습니다. 텍스트 파싱은 "클래식" 파이썬 도구인 정규 표현식, 코딩된 규칙 등을 사용하여 수행할 수 있으며, 모든 방법을 결합하는 것이 유익할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로 Rabbit R1은 꽤 좋은 MediaTek MT6765 옥타코어 프로세서를 갖추고 있으며 몇 가지 테스트에서 Raspberry Pi 4보다 상당히(4-8배) 빠르다고 명시되어 있습니다. 따라서 이 CPU에서는 심지어 1B 모델이 충분히 빠르게 작동할 수도 있습니다.
 
@@ -465,7 +633,18 @@ Llama-2 7B: 정확도: 83%, 평균 응답 시간: 19.3초
 
 라즈베리 파이에서 클라우드 모델을 사용하는 것은 간단합니다. OpenAILLM 클래스를 생성하고, 이름에서 알 수 있듯이 OpenAI API를 사용할 것입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 from langchain_openai import OpenAI
@@ -501,7 +680,18 @@ class OpenAILLM:
 python3 -m llama_cpp.server --model llama-2-7b-chat.Q4_K_M.gguf --n_ctx 16192 --host 0.0.0.0 --port 8000
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그런 다음 코드에서 OPENAI_BASE_URL을 "http://192.168.1.10:8000/v1"과 같은 것으로 조정하면 됩니다. 흥미롭게도 OpenAI 라이브러리는 여전히 키가 필요합니다(키가 비어 있으면 내부적으로 확인하도록 되어 있습니다), 그러나 일반적인 숫자 "42"도 충분합니다 ;)
 
@@ -511,12 +701,23 @@ python3 -m llama_cpp.server --model llama-2-7b-chat.Q4_K_M.gguf --n_ctx 16192 --
 
 마지막으로, 모든 부분을 결합할 때가 왔습니다! 최종 코드는 다음과 같이 보입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 if __name__ == "__main__":
     display = OLEDDisplay()
-    display.add_line("자동 음성 인식 초기화 중...")    
+    display.add_line("자동 음성 인식 초기화 중...")
     asr = ASR()
 
     display.add_line("GPT 모델 초기화 중...")
@@ -577,14 +778,24 @@ if __name__ == "__main__":
                   display.draw_record_screen("PTT 준비됨")
 ```
 
-
 실제로는 이렇게 동작합니다.
 
 로컬 동작을 실행하는 중:
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*Qmwb-hB7Hyd4dCxd37e8-w.gif" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서, 나는 더미 작업을 사용 중이에요; 스마트 램프에 연결하거나 라즈베리 파이에 릴레이 쉴드를 사용하는 것은 이 기사의 범위를 벗어날 것입니다.
 
@@ -594,7 +805,18 @@ if __name__ == "__main__":
 
 여기서, 저는 데스크톱에서 실행되는 LLaMA-2 모델을 OpenAI 대체재로 사용하고 있어요. 이 모델은 라즈베리 파이에서 로컬로 실행되는 모델과 비교해서 응답이 훨씬 빠르다는 것을 알 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 결론
 
@@ -606,7 +828,18 @@ if __name__ == "__main__":
 
 우리는 이와 같은 프로젝트를 만드는 데 많은 도전이 있다는 것을 알 수 있습니다. 대규모 언어 모델은 많은 계산 능력이 필요하며, 휴대용 장치에는 도전적입니다. 좋은 결과를 얻기 위해서는 조정된 모델 뿐만 아니라 그 모델을 빠르게 실행할 충분히 강력한 하드웨어도 필요합니다 (20초의 지연 후에 "스마트 어시스턴트" 응답을 받은 사용자는 아무도 관심을 갖지 않을 것입니다). 클라우드 API는 빠릅니다만 무료가 아니며, 하드웨어 비용, 계산 속도, 판매 가격 및 클라우드 비용 사이의 균형을 찾는 것은 까다로울 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 이 이야기를 즐기셨다면 Medium에 구독해 주시고, 새로운 기사가 발행될 때 알림을 받으며 다른 저자들의 수천 개 이야기에 완전한 액세스 권한을 얻을 수 있습니다. 또한 LinkedIn을 통해 연락하실 수도 있습니다. 이와 함께 이와 다른 게시물의 전체 소스 코드를 받고 싶다면 Patreon 페이지를 방문해주세요.
 

@@ -3,17 +3,13 @@ title: "AI 기술로 심장을 분석해 수명을 예측하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-14-AICanNowLookAtYourHeartPredictHowLongYoullLive_0.png"
 date: 2024-07-14 01:53
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-14-AICanNowLookAtYourHeartPredictHowLongYoullLive_0.png
 tag: Tech
 originalTitle: "AI Can Now Look At Your Heart , Predict How Long You’ll Live."
 link: "https://medium.com/gitconnected/ai-can-now-look-at-your-heart-predict-how-long-youll-live-23770010be0b"
 isUpdated: true
 ---
-
-
-
-
 
 AI가 본격적으로 사용되어 복잡한 의료 문제를 해결하는 데 이제껏 없던 방법으로 사용되고 있어요.
 
@@ -23,7 +19,18 @@ AI가 본격적으로 사용되어 복잡한 의료 문제를 해결하는 데 �
 
 이 AI 모델의 실제적인 세부 사항에 대해 들어가기 전에, 인간의 심장이 어떻게 작동하는지 조금 배워볼까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 인간 심장 소개
 
@@ -34,7 +41,18 @@ AI가 본격적으로 사용되어 복잡한 의료 문제를 해결하는 데 �
 - 좌우에 있는 두 개의 상부 작은 실인 심방 (단수형은 심방)
 - 좌우에 있는 두 개의 하부 큰 실인 심실
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 쪽 복심방이 각각 심방과 심실로 이어져요.
 
@@ -47,8 +65,18 @@ AI가 본격적으로 사용되어 복잡한 의료 문제를 해결하는 데 �
 - 이 혈액은 오른쪽 심실을 통해 폐로 이동해서 더 많은 산소가 첨가돼요.
 - 이 산소가 풍부해진 혈액은 왼쪽 복심방과 심실을 통해 최종적으로 신체 모든 장기로 도착해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Pulmonary Hypertension](/assets/img/2024-07-14-AICanNowLookAtYourHeartPredictHowLongYoullLive_1.png)
 
@@ -58,8 +86,18 @@ AI가 본격적으로 사용되어 복잡한 의료 문제를 해결하는 데 �
 
 이 상황을 폐고혈압이라고 합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 폐고혈압의 일반적인 원인 몇 가지입니다:
 
@@ -74,7 +112,18 @@ AI가 본격적으로 사용되어 복잡한 의료 문제를 해결하는 데 �
 
 이로 인해 우심실의 크기가 증가하게 되어 그 추가 작업을 지원하기 위해 증가합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안타깝게도, 이 크기의 증가(우심실 비대증)는 단단해진 심장과 혈류의 난류로 이어져 환자가 이 병으로 사망할 위험이 높아지는 상태로 이끌 수 있습니다.
 
@@ -85,7 +134,18 @@ AI가 본격적으로 사용되어 복잡한 의료 문제를 해결하는 데 �
 
 하지만 이러한 요소들은 가장 정확하지 않기 때문에, 예후 정확도를 향상시키는 방법은 이 질환으로 살아가는 사람들의 삶을 개선할 수 있을 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 이 연구자들이 인공지능의 도움을 받아 이룩한 결과가 여기 있어요.
 
@@ -95,7 +155,18 @@ AI가 본격적으로 사용되어 복잡한 의료 문제를 해결하는 데 �
 
 이 영상 기술에 익숙하지 않은 분이라면, 이 기술로 얻어진 이미지가 얼마나 자세한지 깜짝 놀랄 거예요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래를 한 번 확인해보세요.
 
@@ -105,7 +176,18 @@ AI가 본격적으로 사용되어 복잡한 의료 문제를 해결하는 데 �
 
 그 다음, 심장 MRI 이미지를 처리하여 분할을 사용하여 심장의 심방의 3D 움직임을 식별하고 추적했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 At this stage, a Fully Convolutional Network (FCN) was employed for image segmentation.
 
@@ -115,17 +197,39 @@ The objective of this model was to understand concealed representations of heart
 
 Remarkably, this model surpassed the traditional clinical method in terms of accuracy when it came to predicting survival.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **The prediction accuracy was quantified using Harrell’s C-index, a popular metric used to evaluate risk models in survival analysis.**
 
 **The model achieved a remarkable C-index of 0.75, surpassing the human benchmark of 0.59!**
 
-# *Embarking on a Journey into the Survival Prediction AI Model*
+# _Embarking on a Journey into the Survival Prediction AI Model_
 
-*Join us as we uncover the story behind developing this cutting-edge AI model from the ground up.*
+_Join us as we uncover the story behind developing this cutting-edge AI model from the ground up._
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째로, 폐 고혈압과 오른심 기능 이상이 진단된 302명 환자의 심장 MRI 영상을 획득했습니다.
 
@@ -135,7 +239,18 @@ Fully Convolutional Network (FCN)이 설정되었고 수동으로 레이블된 �
 
 네트워크 구조는 아래 이미지에 나와 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 모델은 이미지 내 중요한 해부학적 랜드마크를 학습하고 이미지를 오른쪽과 왼쪽 두 개의 심방(vetricles)으로 분할하려고 했습니다.
 
@@ -145,7 +260,18 @@ Fully Convolutional Network (FCN)이 설정되었고 수동으로 레이블된 �
 
 모델 훈련 중 전반적인 손실 함수는 Stochastic Gradient Descent (SGD)를 사용하여 최소화되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-07-14-AICanNowLookAtYourHeartPredictHowLongYoullLive_2.png)
 
@@ -158,7 +284,18 @@ Fully Convolutional Network (FCN)이 설정되었고 수동으로 레이블된 �
 
 이러한 로스 함수들에 대한 자세한 내용은 여기에서 확인할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 This network's outputs are further refined to create temporal segmentation maps as shown below.
 
@@ -168,13 +305,35 @@ Next, displacement vectors are created for the trajectory of each point in the r
 
 These displacement vectors are concatenated to create a representation of the motion of the entire right ventricle across the cardiac cycle.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **"4DSurvival: The Prediction Network"**
 
 This network, called "4DSurvival," utilizes a combination of a Denoising Autoencoder (DAE) and a Cox proportional hazards model. The features extracted from the cardiac imaging data serve as inputs to this innovative prediction system.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 DAE가 어떻게 작동하는지 배워봅시다.
 
@@ -184,7 +343,18 @@ This network, called "4DSurvival," utilizes a combination of a Denoising Autoenc
 
 인코더의 첫 번째 레이어는 Dropout을 사용하여 입력 데이터를 확률적으로 손상시킵니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당된 입력값들은 암호화된(숨겨진) 레이어를 거쳐 입력 데이터의 압축/잠재된 버전을 나타내는 중앙 레이어로 전달됩니다.
 
@@ -192,7 +362,18 @@ This network, called "4DSurvival," utilizes a combination of a Denoising Autoenc
 
 원본 입력과 디코더의 재구성된 표현 사이의 차이는 단순히 아래에 나와있는 평균 제곱 오차로 페널티를 주는 재구성 손실(L(r))을 사용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에서:
 
@@ -204,17 +385,39 @@ This network, called "4DSurvival," utilizes a combination of a Denoising Autoenc
 
 인코더의 잠재 표현은 디코더에 연결된 것뿐만 아니라 선형 Cox 비례 위험 모델에 기반한 별도의 예측 분기에도 공급됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 모델이 무엇인지 배워봅시다.
 
 ## Cox Proportion Hazards 회귀 모델
 
-이 모델은 특정 이벤트가 발생하는 시간에 연결된 변수를 가진 데이터를 분석하는 데 사용되는 통계 모델입니다 (질병 재발, 사망 또는 기타 종점 이벤트와 관련된). 
+이 모델은 특정 이벤트가 발생하는 시간에 연결된 변수를 가진 데이터를 분석하는 데 사용되는 통계 모델입니다 (질병 재발, 사망 또는 기타 종점 이벤트와 관련된).
 
 이러한 데이터를 생존 데이터 또는 시간-이벤트 데이터라고 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현실 세계에서 생존 데이터는 종종 관심 사건에 대한 불완전한 정보를 가지고 옵니다. 이것은 억제로 표현됩니다. 그 종류 중 두 가지는 다음과 같습니다 —
 
@@ -223,7 +426,18 @@ This network, called "4DSurvival," utilizes a combination of a Denoising Autoenc
 
 이러한 억제 형태는 현실 세계의 생존 데이터에 매우 일반적이며 Cox 모델은 이러한 억제된 데이터를 다루기 위해 설계되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### Cox 모델에 대한 이해
 
@@ -241,7 +455,18 @@ This network, called "4DSurvival," utilizes a combination of a Denoising Autoenc
 
 Cox 모델과 관련된 주요 용어 중 하나는 Proportional Hazards Assumption입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 단순히 연구 중 두 명의 개인 간의 위험 비 (상대 위험 또는 h(t) / h0(t))가 연구 기간 동안 일정함을 가정하는 것입니다.
 
@@ -251,7 +476,18 @@ Cox 모델과 관련된 주요 용어 중 하나는 Proportional Hazards Assumpt
 
 여기서:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - z는 공변량 변수를 나타냅니다 (앞서 언급된 X와 동일합니다)
 - δ는 사건 발생 여부를 나타내는 이벤트 인디케이터로, 이벤트(예: 사망)가 발생하면 1 또는 연구 기간 종료까지 사건을 경험하지 않고 생존한 경우에는 0을 나타냅니다
@@ -263,15 +499,27 @@ Cox 모델과 관련된 주요 용어 중 하나는 Proportional Hazards Assumpt
 다음은 췌장암 환자 100명을 대상으로 진행되고 있는 새로운 약물 X의 효과를 평가하기 위한 연구에 참여한 모의 데이터셋입니다.
 
 | 환자ID | 생존기간 | 치료 | 나이 | 암단계 | 이벤트 상태 |
-|--------|------------|-------|--------|------------|----------------|
-| 1      | 56.31      | 0     | 53.2   | 4          | 1              |
-| 2      | 361.21     | 1     | 62.3   | 3          | 1              |
-| 3      | 158.01     | 0     | 62.9   | 3          | 0              |
-| 4      | 109.55     | 1     | 52.9   | 4          | 1              |
-| 5      | 20.35      | 1     | 78.7   | 3          | 0              |
+| ------ | -------- | ---- | ---- | ------ | ----------- |
+| 1      | 56.31    | 0    | 53.2 | 4      | 1           |
+| 2      | 361.21   | 1    | 62.3 | 3      | 1           |
+| 3      | 158.01   | 0    | 62.9 | 3      | 0           |
+| 4      | 109.55   | 1    | 52.9 | 4      | 1           |
+| 5      | 20.35    | 1    | 78.7 | 3      | 0           |
+
 ...
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문제에서 변수는 다음과 같습니다:
 
@@ -286,14 +534,23 @@ Cox 모델과 관련된 주요 용어 중 하나는 Proportional Hazards Assumpt
 
 분석 결과는 여기에 표시되어 있습니다 —
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-coef  exp(coef)  se(coef)  coef lower 95%  coef upper 95%  exp(coef) lower 95%  exp(coef) upper 95%  cmp to    z          p        -log2(p)
-Treatment    -0.113527  0.892680   0.265144  -0.633199       0.406146       0.530891             1.501022             0.0      -0.428170  0.668528  0.580941
-Age           0.001061  1.001062   0.014768  -0.027884       0.030006       0.972501             1.030461             0.0       0.071850  0.942722  0.085096
-Cancer_Stage -0.341446  0.710742   0.272649  -0.875828       0.192936       0.416517             1.212805             0.0      -1.252328  0.210450  2.248449
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
+coef exp(coef) se(coef) coef lower 95% coef upper 95% exp(coef) lower 95% exp(coef) upper 95% cmp to z p -log2(p)
+Treatment -0.113527 0.892680 0.265144 -0.633199 0.406146 0.530891 1.501022 0.0 -0.428170 0.668528 0.580941
+Age 0.001061 1.001062 0.014768 -0.027884 0.030006 0.972501 1.030461 0.0 0.071850 0.942722 0.085096
+Cancer_Stage -0.341446 0.710742 0.272649 -0.875828 0.192936 0.416517 1.212805 0.0 -1.252328 0.210450 2.248449
 
 When interpreting the Tarot cards, we focus our energy on the following mystical powers —
 
@@ -301,7 +558,18 @@ When interpreting the Tarot cards, we focus our energy on the following mystical
 
 The mystical power of the hazard ratio (0.892680) for the card 'Treatment' shows a sacred message — it is less than 1, indicating that it holds the power to decrease the risk of a sudden departure from this earthly realm. Trust in its divine influence. 🌟🔮✨
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 계수(β): 각 공변량이 위험률/효과에 미치는 방향과 영향의 크기를 나타냅니다.
 
@@ -311,7 +579,18 @@ The mystical power of the hazard ratio (0.892680) for the card 'Treatment' shows
 
 - p-값: 효과가 통계적으로 유의한지 여부를 알려줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 In our data, all of the results are not statistically significant since their p-values are greater than 0.05.
 
@@ -321,17 +600,39 @@ A narrow CI suggests a more accurate estimate of the hazard ratio, while a wider
 
 Furthermore, if the 95% CI does not include the value 1 (known as the null or no-effect value), then the results are considered statistically significant.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희 데이터를 보면, 모든 exp(coef)의 95% CI는 결과가 통계적으로 유의하지 않음을 나타냅니다.
 
 이해가 되셨나요? 이제 AI 모델로 돌아가 봅시다.
 
-신경망의 예측 부문에는 생존 손실 (L(s))으로 Cox 모델이 채택되었습니다. 아래 그림과 같이 — 
+신경망의 예측 부문에는 생존 손실 (L(s))으로 Cox 모델이 채택되었습니다. 아래 그림과 같이 —
 
 ![image](/assets/img/2024-07-14-AICanNowLookAtYourHeartPredictHowLongYoullLive_7.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 W`은 잠재 표현 ϕ(x)에 적용된 가중치 벡터로, 주어진 주체 i에 대한 생존 예측이나 로그 위험 비율 추정을 나타내는 스칼라 값(W`ϕ(x(i)))을 생성합니다.
 
@@ -341,7 +642,18 @@ W`은 잠재 표현 ϕ(x)에 적용된 가중치 벡터로, 주어진 주체 i�
 
 이 손실 함수는 L1 정칙화와 Adam 최적화기를 사용하여 최소화됩니다. 계산된 그래디언트를 사용하여 손실 함수를 최적화하는 백프로퍼게이션 기법이 적용됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 네이버스러멜 모델의 전체 구조가 아래에 나와 있어요.
 
@@ -351,28 +663,60 @@ W`은 잠재 표현 ϕ(x)에 적용된 가중치 벡터로, 주어진 주체 i�
 
 이건 새들의 사회적 먹이 찾기 행동에서 영감을 받은 흥미로운 최적화 방법이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 Swarm Intelligence의 원리에 기반한 작동 방식을 가지고 있습니다. 이는 관심 문제에 대한 다양한 솔루션(입자라고 불림)으로 구성된 모집단(떼로 불림)이 참여하는 것을 의미합니다.
 
-이 입자들 또는 솔루션들은 수학적 공식에 기반하여 탐색 공간에서 움직입니다. 
+이 입자들 또는 솔루션들은 수학적 공식에 기반하여 탐색 공간에서 움직입니다.
 
 이들의 움직임은 입자 자체 및 전체 떼의 최적 위치에 의해 이뤄지며, 가장 좋은 가능한 해답을 찾아내기 위해 유도됩니다.
 
 한 가지 간단한 예시를 상상해보세요. 새떼가 어떤 지역에서 먹이를 찾고 있는 모습을 상상해보십시오.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 PSO를 사용하면 새들은 자신의 경험을 바탕으로 음식이 어디에 있을지 추정하기 위해 동료 새들과 소통할 것입니다.
 
 그에 따라 음식이 위치한 곳에 도달할 때까지 비행을 조정할 것입니다.
 
-![image](https://miro.medium.com/v2/resize:fit:1120/0*UwZRI9DJmM2c_zB1.gif) 
+![image](https://miro.medium.com/v2/resize:fit:1120/0*UwZRI9DJmM2c_zB1.gif)
 
 마찬가지로, 모델에서는 PSO를 사용하여 미리 정의된 값 범위에서 최적의 하이퍼파라미터 세트를 선택했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 하렐의 콘코던스 지수에 기반한 결과
 
@@ -382,7 +726,18 @@ PSO를 사용하면 새들은 자신의 경험을 바탕으로 음식이 어디�
 
 그러므로 1에 가까운 값은 모델의 강력한 예측 정확도를 시사합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모델을 사용하여 우심실 기능이 저하된 환자의 생존을 추정하는 데 사용된 전통적 체적 지수와 비교하기 위해 다른 Cox 비례위험 모델이 사용되었습니다.
 
@@ -392,7 +747,18 @@ PSO를 사용하면 새들은 자신의 경험을 바탕으로 음식이 어디�
 
 더 잘 이해하기 위해, 모델에 의해 생성된 잠재 공간은 비선형 차원 축소 기술인 라플라스 의미지를 사용하여 시각화되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기술은 높은 차원의 잠재 공간을 두 차원으로 축소시켜, 다른 데이터 포인트 간의 고유한 기하학적 관계를 보존합니다 (PCA(주성분 분석)와 같은 전통적인 선형 방법과는 달리)
 
@@ -402,7 +768,18 @@ PSO를 사용하면 새들은 자신의 경험을 바탕으로 음식이 어디�
 
 # 생존 예측에 대한 RV의 다양한 영역의 효과 연구
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 연구자들은 우측 심방의 각 지점의 평균 변위를 측정하고, 이를 예측된 생존 위험과 결합하여 선형 회귀 모델을 사용했습니다.
 
@@ -412,7 +789,18 @@ PSO를 사용하면 새들은 자신의 경험을 바탕으로 음식이 어디�
 
 ![이미지](/assets/img/2024-07-14-AICanNowLookAtYourHeartPredictHowLongYoullLive_10.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 더 읽을 거리
 
@@ -423,6 +811,17 @@ AI 기술은 건강 관리 분야를 혁신하고 사람들이 더 오래 살 �
 
 더 중요한 연구나 현재 진행 중인 연구에 대해 더 알고 싶거나 진행 중이신 연구가 있다면 아래 댓글로 알려주세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 이곳이 내 메일링 리스트 링크야. 내 작업과 연결 유지하고 싶으면 클릭해봐!

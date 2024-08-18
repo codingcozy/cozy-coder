@@ -3,16 +3,13 @@ title: "아두이노에 마이크로SD 카드 모듈을 연결하고 CSV 형식�
 description: ""
 coverImage: "/assets/img/2024-05-27-CompleteGuidetoConnectingaMicroSDCardModuletoArduinoandSavingDatainCSVFormat_0.png"
 date: 2024-05-27 13:38
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-CompleteGuidetoConnectingaMicroSDCardModuletoArduinoandSavingDatainCSVFormat_0.png
 tag: Tech
 originalTitle: "Complete Guide to Connecting a MicroSD Card Module to Arduino and Saving Data in CSV Format"
 link: "https://medium.com/@madhurajayashanka/complete-guide-to-connecting-a-microsd-card-module-to-arduino-and-saving-data-in-csv-format-1f30a163cab"
 isUpdated: true
 ---
-
-
-
 
 # 소개
 
@@ -48,7 +45,18 @@ isUpdated: true
 - CSV 파일의 데이터 확인
 - 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 마이크로SD 카드 모듈 이해
 
@@ -58,7 +66,18 @@ isUpdated: true
 
 프로젝트를 시작하려면 다음 구성 요소가 필요합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 아두이노 보드
 - MicroSD 카드 모듈
@@ -75,7 +94,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-05-27-CompleteGuidetoConnectingaMicroSDCardModuletoArduinoandSavingDatainCSVFormat_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-27-CompleteGuidetoConnectingaMicroSDCardModuletoArduinoandSavingDatainCSVFormat_1.png" />
 
@@ -103,7 +133,18 @@ void loop() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 데이터 구조 생성
 
@@ -113,8 +154,18 @@ void loop() {
 
 데이터에 대한 전역 변수를 설정하고 디버깅을 위해 시리얼 통신을 초기화합니다. 또한 MicroSD 카드에 CSV 파일에 데이터를 기록하는 함수를 정의해야 합니다. 다음은 간단화된 예시입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 #include <SPI.h>
 #include <SD.h>
@@ -123,37 +174,37 @@ const int chipSelect = 10;
 File dataFile;
 
 void setup() {
-  Serial.begin(9600);
-  if (!SD.begin(chipSelect)) {
-    Serial.println("Card initialization failed!");
-    return;
-  }
-  Serial.println("Card initialized.");
+Serial.begin(9600);
+if (!SD.begin(chipSelect)) {
+Serial.println("Card initialization failed!");
+return;
+}
+Serial.println("Card initialized.");
 
-  dataFile = SD.open("data.csv", FILE_WRITE);
-  if (dataFile) {
-    dataFile.println("Timestamp, SensorValue1, SensorValue2");
-    dataFile.close();
-  }
+dataFile = SD.open("data.csv", FILE_WRITE);
+if (dataFile) {
+dataFile.println("Timestamp, SensorValue1, SensorValue2");
+dataFile.close();
+}
 }
 
 void loop() {
-  // Read sensor values and get timestamp
-  String data = getTimeStamp() + "," + String(sensorValue1) + "," + String(sensorValue2);
-  writeDataToCSV(data);
-  delay(1000);
+// Read sensor values and get timestamp
+String data = getTimeStamp() + "," + String(sensorValue1) + "," + String(sensorValue2);
+writeDataToCSV(data);
+delay(1000);
 }
 
 void writeDataToCSV(String data) {
-  dataFile = SD.open("data.csv", FILE_WRITE);
-  if (dataFile) {
-    dataFile.println(data);
-    dataFile.close();
-  }
+dataFile = SD.open("data.csv", FILE_WRITE);
+if (dataFile) {
+dataFile.println(data);
+dataFile.close();
+}
 }
 
 String getTimeStamp() {
-  // Implement your timestamp logic here
+// Implement your timestamp logic here
 }
 
 # Testing and Debugging
@@ -162,7 +213,17 @@ Upload your code to the Arduino board and open the Serial Monitor. Ensure that t
 
 # Conclusion
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 축하합니다! 아두이노 보드와 MicroSD 카드 모듈을 인터페이스하는 방법을 성공적으로 배우셨습니다. CSV 형식으로 데이터를 저장하는 데이터 로깅 시스템을 만들었습니다. 이 다재다능한 설정은 환경 모니터링부터 산업 자동화까지 다양한 응용 프로그램을 열어줍니다. 아두이노와 데이터 로깅의 세계를 계속 탐험하면서 여러분이 여기서 배운 내용을 미래 프로젝트에 적응하고 확장해 나가길 기억해 주세요. 즐거운 창조 활동 되세요!

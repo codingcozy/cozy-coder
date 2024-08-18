@@ -3,18 +3,13 @@ title: "인간의 모든 것을 의인화하는 습관"
 description: ""
 coverImage: "/assets/img/2024-06-23-Ourhumanhabitofanthropomorphizingeverything_0.png"
 date: 2024-06-23 19:12
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-Ourhumanhabitofanthropomorphizingeverything_0.png
 tag: Tech
 originalTitle: "Our human habit of anthropomorphizing everything"
 link: "https://medium.com/user-experience-design-1/our-human-habit-of-anthropomorphizing-everything-dd2d79488ea4"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![image](/assets/img/2024-06-23-Ourhumanhabitofanthropomorphizingeverything_0.png)
 
@@ -24,8 +19,18 @@ People tend to anthropomorphize everything. We attribute human traits and emotio
 
 "I think my cat purposely vomited on the rug to get back at me."
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "Siri 가 가끔 바보같이 동작하기도 해."
 
@@ -35,7 +40,18 @@ People tend to anthropomorphize everything. We attribute human traits and emotio
 
 ![이미지](/assets/img/2024-06-23-Ourhumanhabitofanthropomorphizingeverything_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 인격화란 무엇인가요?
 
@@ -48,7 +64,18 @@ ChatGPT의 질적 가용성 연구 중에, Nielsen Norman 그룹은 사용자 �
 
 ![이미지](/assets/img/2024-06-23-Ourhumanhabitofanthropomorphizingeverything_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 친절함
 
@@ -58,7 +85,18 @@ ChatGPT의 질적 가용성 연구 중에, Nielsen Norman 그룹은 사용자 �
 
 ## 강화
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Nielsen Norman Group은 reinforcement(강화)을 정의할 때 챗봇이 정확한 대답을 할 때 칭찬하거나 훈육하는 것으로 설명합니다. 인간에게는 긍정적인 reinforcement(강화)가 중요하다는 것을 알고 있습니다 — 바라는 행동이나 결과를 확립시킵니다. 좋은 성적을 칭찬하고 훌륭한 작업에 대해 상을 주는 것과 같습니다. 나쁜 행동을 꾸짖고 실수를 바로잡으려고 합니다.
 
@@ -69,7 +107,18 @@ Nielsen Norman Group은 reinforcement(강화)을 정의할 때 챗봇이 정확�
 
 이것은 일반적인 예의를 넘어서는 것이지만, 여전히 사회화 과정에서 형성된 습관으로 해석될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 롤플레이
 
@@ -79,7 +128,18 @@ Nielsen Norman Group은 reinforcement(강화)을 정의할 때 챗봇이 정확�
 
 Nielsen Norman에 따르면, "대화 봇에 역할을 할당하는 것은 자주 권장되는 프롬프트 엔지니어링 전략 중 하나입니다." 롤플레이 프롬프트는 인공지능에게 소셜 미디어 매니저와 같은 직책이나 환희한(happy)과 같은 태도와 같은 인간적인 특성을 가정하도록 요청합니다. 이는 제품의 입체적인 의인화인데, 그것이 때로는 과제가 요구하는 것일 수도 있습니다. 사용자의 요구를 충족시키기 위해, 인공지능은 도구(tool)보다는 동료로서 더 많이 행동해야 할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 동반자
 
@@ -89,7 +149,18 @@ Nielsen Norman에 따르면, "대화 봇에 역할을 할당하는 것은 자주
 
 AI와 친근하게 대화하는 것은 외로움을 조금 완화시키고 독자가 픽셔널 캐릭터를 즐기는 것과 비슷한 위로를 줄 수 있습니다. 그들이 "실제"가 아니더라도 AI와 긍정적인 상호작용에서 느껴지는 감정은 실제입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 모든 것을 의인화하는 이유는 무엇일까요?
 
@@ -99,7 +170,18 @@ AI와 친근하게 대화하는 것은 외로움을 조금 완화시키고 독�
 
 이전에 언급한 것처럼, 인간들은 비인간적인 동물과 물체에 인간적인 특성을 부여하여 인간적 시각을 통해 그들을 이해하려고 합니다. AI는 특히 신비로운 존재이므로, 우리는 그 기술을 해소하기 위해 우리가 할 수 있는 일을 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인공지능이 어떻게 작동하는지에 대한 기본적인 오해가 기술에 대한 의도를 흔들어놓을 수 있습니다. Nielsen Norman의 연구에 따르면 참가자들은 ChatGPT와 같은 플랫폼과 어떻게 상호 작용해야 하는지 확실하지 않았으며 다른 소스에서 들은 내용에 따라 행동합니다. "따라서, AI가 가장 잘 작동하는 방법에 대한 소문이 퍼지는데, 이 중 많은 것들이 인간화의 정도를 포함하고 있습니다."
 
@@ -109,8 +191,18 @@ AI와 친근하게 대화하는 것은 외로움을 조금 완화시키고 독�
 
 # 인간화는 해결책이 아닙니다
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-06-23-Ourhumanhabitofanthropomorphizingeverything_6.png)
 
@@ -120,8 +212,18 @@ AI와 친근하게 대화하는 것은 외로움을 조금 완화시키고 독�
 
 Raspberry Pi는 인간화 언어를 사용하지 않고 AI를 어떻게 언급해야 하는지 몇 가지 예를 제시합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - “It listens/it learns” → “AI is designed to.../AI 개발자들은 ...어플리케이션을 만듭니다…”
 
@@ -131,7 +233,18 @@ Raspberry Pi는 인간화 언어를 사용하지 않고 AI를 어떻게 언급�
 
 처음에 나열된 동사 목록은 사람에게도 적용될 수 있어 AI에 인간적인 품질을 내포하고 있음을 시사합니다. “look” 대신 “detect”와 같은 더 정확한 언어는 AI를 엔티티보다는 기술로서 확립하는 데 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - "인공 지능/기계 학습"과 같은 용어를 셀 수 있는 명사로 사용하지 마세요. 예: "2022년에 새로운 인공 지능이 나타났다" → '인공 지능/기계 학습'을 생물학 용어처럼 과학적 분야로 참조하세요.
 
@@ -141,18 +254,39 @@ Raspberry Pi는 인간화 언어를 사용하지 않고 AI를 어떻게 언급�
 
 ![이미지](/assets/img/2024-06-23-Ourhumanhabitofanthropomorphizingeverything_7.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 기다려봐요! AI 챗봇에 인격을 부여하는 기업에 대해 어떻게 생각하시나요? Meta는 챗봇을 인간 용어로 언급하는 것을 넘어서 28개의 독특하고 매우 인간적인 성격을 가진 챗봇을 만들었습니다. 일부는 심지어 Snoop Dogg나 Kendall Jenner와 같은 실제 유명인을 바탕으로 만들어졌어요.
 
 각 챗봇은 특정 역할을 맡고 있으며 특정 전문 영역을 갖고 있습니다. 이는 사용자의 목표를 달성하는 데 도움이 되는 챗봇을 쉽게 찾을 수 있도록 돕습니다. 예를 들어, "Billie" (Kendall Jenner)는 언니 같은 존재로, 삶과 사랑에 관한 조언이 필요한 사용자들은 그녀에게 찾아갈 거예요. 또한 Dwayne Wade와 같은 운동 선수를 바탕으로 한 다른 챗봇은 "Billie"보다 운동과 스포츠에 대한 정보가 더 많을 거예요.
 
-이것은 AI와 함께 롤플레잉하는 명백한 예시로, 친밀한 관계로 발전하고 있어요. 친근한 성격을 가진 여러분을 통해 정보를 제공하는 것은 디자인적인 측면에서 합리적일 수 있지만, 불행히도 이는 AI에 대한 혼란을 야기할 수 있어요. Snoop Dogg가 챗봇이 하는 말에 모두 동의하는 걸까요? 사용자에게 부정확하거나 모욕적인 답변이 주어진다면, 그것을 기술의 한계가 아닌 유명인의 성격 때문이라고 생각할 수도 있어요. 
+이것은 AI와 함께 롤플레잉하는 명백한 예시로, 친밀한 관계로 발전하고 있어요. 친근한 성격을 가진 여러분을 통해 정보를 제공하는 것은 디자인적인 측면에서 합리적일 수 있지만, 불행히도 이는 AI에 대한 혼란을 야기할 수 있어요. Snoop Dogg가 챗봇이 하는 말에 모두 동의하는 걸까요? 사용자에게 부정확하거나 모욕적인 답변이 주어진다면, 그것을 기술의 한계가 아닌 유명인의 성격 때문이라고 생각할 수도 있어요.
 
 # TL;DR — AI는 마법도, 인간도, Snoop Dogg도 아닙니다
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-23-Ourhumanhabitofanthropomorphizingeverything_8.png)
 
@@ -162,8 +296,18 @@ Raspberry Pi는 인간화 언어를 사용하지 않고 AI를 어떻게 언급�
 
 그러나 인공지능의 사람화에 너무 많이 의존한다면 기술이 작동하는 방식에 대한 오해를 만들어낼 수 있으며, 실제로 인공지능은 자체 동기를 갖춘 존재가 아닌 기술이라는 사실을 알아차리기 어렵게 만들 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 기술들이 인류의 미래에서 중요한 부분을 차지하려면 인공 지능과 기계 학습에 대한 보다 강력한 교육이 필요합니다. 그렇지 않으면 사용자들은 AI가 어떻게 작동하는지에 대한 기본적인 오해를 갖게 될 것입니다. 이것은 디자이너들이 완화하거나 제거하기 위해 의도된 불만의 원인이 될 수 있습니다.
 

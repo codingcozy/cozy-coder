@@ -3,17 +3,13 @@ title: "Google Gemini에게서 다른 곳에서 찾을 수 없는 사업 아이�
 description: ""
 coverImage: "/assets/img/2024-07-13-IAskedGoogleGeminiToComeUpWithBusinessIdeasNotFoundElsewhereIGotBlownAway_0.png"
 date: 2024-07-13 23:08
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-IAskedGoogleGeminiToComeUpWithBusinessIdeasNotFoundElsewhereIGotBlownAway_0.png
 tag: Tech
 originalTitle: "I Asked Google Gemini To Come Up With Business Ideas Not Found Elsewhere; I Got Blown Away"
 link: "https://medium.com/swlh/i-asked-google-gemini-to-come-up-with-business-ideas-not-found-elsewhere-i-got-blown-away-2d8aa9a5f125"
 isUpdated: true
 ---
-
-
-
-
 
 ![Tarot Image](/assets/img/2024-07-13-IAskedGoogleGeminiToComeUpWithBusinessIdeasNotFoundElsewhereIGotBlownAway_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 그 후로 비행기와 인터넷이 생겨났으며, 아인슈타인이 상대성 이론을 제시했고, 컴퓨터, 휴대폰, 블록체인, 그리고 지금은 인공지능까지 발명되었습니다. 이 모든 것들이 듈의 주장을 뒤엎었죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아마존, 애플, 페이스북, OpenAI, 그리고 아마 엘브에이치까지 살펴보면서, 혹시 세상에서 발견될 수 있는 최고의 비즈니스 아이디어가 이미 발견된 것일지 생각해 본 적이 있나요?
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 첫 번째 이유는, 우리는 끝없는 가능성을 지닌 종이라는 점입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요즘 정보가 빠르게 변화하는 속도를 고려하면, 우리가 아이디어를 생각해 내는 유일한 제약은 정보를 얼마나 빠르고 잘 처리할 수 있는지에 달려 있습니다. 정보에 액세스할 수 있는 양이 아닙니다. 인공지능과 함께 우리는 이제 정보를 더 빨리 처리할 수 있고, 따라서 빠르게 훌륭한 아이디어를 얻을 수 있습니다.
 
@@ -44,7 +62,18 @@ isUpdated: true
 - 독특한 아이디어는 여전히 가능합니다.
 - 그리고 인공지능은 사업 아이디어를 머리 속에서 떠오르게 하는 데 상상 이상으로 도움이 될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 그의 응답(1):
 
@@ -52,7 +81,18 @@ isUpdated: true
 
 컨셉: 이 AI는 사용자들의 과거 경험을 개인화하여 향수를 일으키고, 타겟팅 광고와 감정적 안녕 제품을 통해 수익을 창출합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 어떻게 동작하는지 알려드릴게요:
 
@@ -62,9 +102,20 @@ isUpdated: true
 
 이 분석을 기반으로, PNE가 맞춤형 향수로운 콘텐츠를 제작해 "시간을 담은 캡슐" 경험을 선사해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-당신의 십대 시절에서 나온 음악 플레이리스트나 어린 시절 휴가 사진 슬라이드쇼를 상상해 보세요. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+당신의 십대 시절에서 나온 음악 플레이리스트나 어린 시절 휴가 사진 슬라이드쇼를 상상해 보세요.
 
 특정 향수를 자극하는 고객층을 대상으로 하는 브랜드와 협업하세요.
 
@@ -72,11 +123,33 @@ isUpdated: true
 
 PNE 내에서 프리미엄 기능을 제공하세요 - 인공 지능을 활용한 맞춤형 이야기, 사용자의 기억을 기반으로 한 실제 기록물, 또는 독점적인 향수로운 콘텐츠 라이브러리에 대한 액세스.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 재미있는 내용이야! 여기서는 팬덤 네트워크 엔터테인먼트(PNE)의 수익화 전략에 관해 이야기하고 있어. 파트너 브랜드로부터 타겟 광고 수익을 올리는 것과 프리미엄 PNE 기능에 대한 구독 비용을 받는 것이 수익화 방안으로 언급돼 있네. 고유성에 대해서는 무엇을 생각해?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기존의 인공지능은 회상 마케팅을 사용하지만, PNE은 심층 사용자 데이터 분석을 통해 이를 개인화하여 타겟 광고와 감정적 행복 제품에 대해 더 깊은 감정적 연결을 만드는 방식입니다.
 
@@ -86,7 +159,18 @@ PNE 내에서 프리미엄 기능을 제공하세요 - 인공 지능을 활용�
 
 컨셉: 이 AI는 사용자 데이터와 미래 트렌드 분석을 활용하여 현재 선택에 기반한 사용자의 잠재적인 미래를 개인 맞춤 시뮬레이션으로 만듭니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 한번 알려 드릴게요:
 
@@ -96,7 +180,18 @@ AI는 사용자 데이터를 분석하고 실제 세계 데이터와 트렌드 �
 
 이 분석을 기반으로 AI는 사용자가 만들 수 있는 다양한 선택들을 바탕으로 서로 다른 잠재적인 미래 시뮬레이션을 생성합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그대로 이해해 볼까요? 미래 경력에 대한 시뮬레이션이 어떨까요? 승진을 향해 나아가거나 나만의 비즈니스를 시작하는 것을 기반으로 한 시뮬레이션을 보여줍니다.
 
@@ -106,15 +201,37 @@ AI는 사용자 데이터를 분석하고 실제 세계 데이터와 트렌드 �
 
 프리미엄 모델 – 기본 시뮬레이션은 무료이며, 고급 기능(여러 미래 경로, 심층 분석)을 이용하려면 구독이 필요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-**교육 기관이나 직업 상담 서비스와의 협력**  
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-**재정 계획 도구 통합**: 다양한 투자 전략에 기반한 시뮬레이션된 재정 결과를 제공합니다.  
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+**교육 기관이나 직업 상담 서비스와의 협력**
+
+**재정 계획 도구 통합**: 다양한 투자 전략에 기반한 시뮬레이션된 재정 결과를 제공합니다.
 
 **독창성**: 이 모델은 AI를 활용하여 맞춤화된 미래 예측을 하며, 사용자들이 잠재적인 결과에 기반해 정보에 기초한 결정을 내릴 수 있도록 합니다. 운세쟁이는 아니지만, 자가탐색과 미래 계획을 위한 독특한 도구를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 존재하는 것과의 비교
 
@@ -124,7 +241,18 @@ AI는 사용자 데이터를 분석하고 실제 세계 데이터와 트렌드 �
 
 내 조사 결과는 이렇습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## AI-Powered Personalized Nostalgia Engine (PNE)
 
@@ -134,7 +262,18 @@ Nostalgia Machine라는 웹 사이트가 있습니다. 이 사이트는 당신�
 
 아프리카에서 어린 시절에 들었던 노래들과, 예를 들어 아시아 출신이었던 사람들이 어릴 적에 들었던 노래들은 다를 것입니다. 나의 향수는 다른 곳 출신인 사람들의 것과 같을 수 없고, 우리 어리적 노래가 대표되지 않는다면 나나 누군가 다른 이는 외면당한 느낌을 받을 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이렇게 퍼스널라이제이션을 하는 거죠. 당신만의 독특한 상황을 고려해서 결과물을 제공합니다.
 
@@ -144,7 +283,18 @@ Nostalgia Machine라는 웹 사이트가 있습니다. 이 사이트는 당신�
 
 MIT에서 Future You라는 프로그램이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로그램은 설문 조사로 시작됩니다. 여러분은 성격에 관한 다양한 질문들과 삶에 대한 태도에 대해 물어보게 됩니다. 여러분의 목표, 염원, 가치관 등에 대해서도 물어봅니다.
 
@@ -154,7 +304,18 @@ MIT에서 Future You라는 프로그램이 있습니다.
 
 이런 아이디어들을 읽어보니, Gemini가 제가 기대한 대로 하지 않았음을 깨달았습니다. 아무것도 없는 곳에서 아이디어를 도출하려고 하는 대신, 이미 존재하는 것들을 반복하는 데 의존했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이건 중요한 부분이에요.
 
@@ -164,7 +325,18 @@ MIT에서 Future You라는 프로그램이 있습니다.
 
 이로 인한 한 가지 결과는 새로운 아이디어를 생각할 때 이미 존재하는 것을 공부하는 것을 놓칠 수 있다는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 아이디어가 다른 데서 파생되지 않은 것에서 비롯될 수 있다는 가정은 환상적입니다. 그런 것은 존재하지 않아요.
 
@@ -176,7 +348,18 @@ MIT에서 Future You라는 프로그램이 있습니다.
 
 새로움에 집착하는 것을 그만둘 때, 파생된 것이 없는 아이디어에 대한 고민을 그만둘수록, 지난 수백 년간 가장 똑똑한 사람들이 활용해 온 것을 더 많이 활용할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 아이디어의 무한한 가능성
 
@@ -188,7 +371,18 @@ MIT에서 Future You라는 프로그램이 있습니다.
 
 아이디어가 많을수록 그것들을 다양하게 조합할 수 있는 방법도 늘어난다는 아이디어에요. 10개의 아이템을 고쳐야 한다면 300만 가지가 넘는 방법이 존재한다고 해요! 🌟
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 타로 전문가로, 이렇게 할 때 아이디어가 더 쉽게 떠오르는 경우가 많아요. 가능한 많은 아이디어를 떠올리고, 그것들을 여러 번 섞어보는 거죠.
 
@@ -199,7 +393,18 @@ MIT에서 Future You라는 프로그램이 있습니다.
 
 하지만 여기서 인공지능이 도입되는 거죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인터넷에는 지금까지 생각해본 대부분의 아이디어가 이미 올라와 있어요. 인공지능(AI)도 인터넷에서 훈련을 받고, 우리보다 더 나은 반복 작업을 해내죠.
 
@@ -209,7 +414,18 @@ MIT에서 Future You라는 프로그램이 있습니다.
 
 그에 따르면, e러닝 플랫폼은 사람들이 상대방의 지식과 교환을 할 수 있는 공간이어야 한다고 하네요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떤 아이디어를 더 독특하게 만들기 위해 AI를 활용하는 방법을 소개해드릴게요.
 
@@ -217,7 +433,18 @@ MIT에서 Future You라는 프로그램이 있습니다.
 
 프롬프트: [기존 아이디어] + [AI에게 유일하게 만드는 방법 물어보기] 🌟
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오늘은 eLearning에 관한 이야기! ChatGPT에게 말했어요: “저는 eLearning 플랫폼을 만들고 싶은데, 어떤 방식으로 독특하게 만들지 생각이 안 나요. 새롭고 전에 본 적 없는 방법 10가지를 생각해주세요.”
 
@@ -225,9 +452,20 @@ MIT에서 Future You라는 프로그램이 있습니다.
 
 1. AI 주도의 맞춤형 학습 경로:
 
-학생들의 학습 스타일, 강점, 약점을 분석하기 위해 AI를 도입하세요. 그러면 개인의 필요에 맞춘 맞춤형 학습 경로를 생성하여 진행에 맞추어 적응할 수 있어요. 
+학생들의 학습 스타일, 강점, 약점을 분석하기 위해 AI를 도입하세요. 그러면 개인의 필요에 맞춘 맞춤형 학습 경로를 생성하여 진행에 맞추어 적응할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. AR 및 VR을 활용한 몰입형 경험:
 
@@ -237,7 +475,18 @@ MIT에서 Future You라는 프로그램이 있습니다.
 
 학습자들이 스터디 그룹을 형성하고 도전 과제를 완수하며 보상을 얻을 수 있는 플랫폼 내 소셜 네트워크를 개발해보세요. 소셜 미디어 요소를 통합하여 상호 작용과 협업을 촉진해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. 블록체인을 활용한 자격증 발급 및 기술 확인:
 
@@ -247,7 +496,18 @@ MIT에서 Future You라는 프로그램이 있습니다.
 
 실시간 지원을 제공하고 질문에 답변하며 과제에 대한 피드백을 제공하는 AI 튜터를 통합합니다. 이 AI 멘토들은 직업 지도와 기술 개발에도 도움을 줄 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 6. 문화 침범과 언어 교환 프로그램:
 
@@ -257,7 +517,18 @@ MIT에서 Future You라는 프로그램이 있습니다.
 
 학습자의 뇌 활동을 모니터링하는 뉴로피드백 도구를 통합하여 공부 습관을 최적화하고 집중력을 향상시킵니다. 학습과 관련된 인지 기능을 향상시키는 뇌 트레이닝 운동을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 8. 가상 교실과 학습 공간을 사용자 정의할 수 있는 기능:
 
@@ -267,10 +538,21 @@ MIT에서 Future You라는 프로그램이 있습니다.
 
 지속 가능성과 환경 영향에 초점을 맞춘 코스와 도전을 포함하여, 학습자들이 실제 환경적 이점을 가진 프로젝트에 참여할 수 있도록 장려합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-특히 이 AI 기능은 교육자들이 고품질이고 매력적인 콘텐츠를 생성하고 선별하는 데 도움을 줍니다. 이는 자동화된 비디오 편집, 대화형 퀴즈, 학생 성적에 따라 조정되는 콘텐츠 등을 포함할 수 있습니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-이 방법론은 팟캐스팅, 비디오 제작, 글쓰기, 암호화폐 등 아이디어가 필요한 모든 분야에 적용할 수 있습니다. 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+특히 이 AI 기능은 교육자들이 고품질이고 매력적인 콘텐츠를 생성하고 선별하는 데 도움을 줍니다. 이는 자동화된 비디오 편집, 대화형 퀴즈, 학생 성적에 따라 조정되는 콘텐츠 등을 포함할 수 있습니다.
+
+이 방법론은 팟캐스팅, 비디오 제작, 글쓰기, 암호화폐 등 아이디어가 필요한 모든 분야에 적용할 수 있습니다.
 
 AI에게 리스트를 더 길게 작성하도록 요청하거나, 마음에 드는 아이디어를 선택하고 해당 내용을 더 독특하게 구현하는 방법을 직접 알아볼 수도 있습니다.

@@ -3,17 +3,13 @@ title: "2024년 최신 안드로이드 개발 트렌드"
 description: ""
 coverImage: "/assets/img/2024-07-07-ModernAndroidDevelopmentin2024_0.png"
 date: 2024-07-07 23:24
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-ModernAndroidDevelopmentin2024_0.png
 tag: Tech
 originalTitle: "Modern Android Development in 2024"
 link: "https://medium.com/@devjorgecastro/modern-android-development-in-2024-b70f194938bd"
 isUpdated: true
 ---
-
-
-
-
 
 **![Modern Android Development in 2024](/assets/img/2024-07-07-ModernAndroidDevelopmentin2024_0.png)**
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## **면책 조항**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🔮 이 글은 내 개인적인 의견과 전문적인 통찰을 반영한 것이며, 안드로이드 개발자 커뮤니티 내 다양한 의견을 고려하였습니다. 또한, 구글이 안드로이드를 위한 제시한 지침을 정기적으로 검토하고 있습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-07-07-ModernAndroidDevelopmentin2024_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Kotlin은 JetBrains에서 개발한 프로그래밍 언어입니다. Google에서 추천하며 2017년 5월 공식 발표했어요. Java와 호환되며 JVM에서 실행될 수 있는 현대적인 프로그래밍 언어로, 안드로이드 애플리케이션 개발에 빠르게 채택되고 있어요.
 
@@ -43,7 +61,18 @@ Kotlin은 JetBrains에서 개발한 프로그래밍 언어입니다. Google에�
 
 Kotlin은 안드로이드 애플리케이션 개발뿐만 아니라 여러 용도로 사용할 수 있는 다목적 언어에요. 여러분이 직접 이 그래프에서 확인할 수 있듯이, 안드로이드 애플리케이션 개발과 관련해 많은 인기를 끌었죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Kotlin 2.0이 도착했어요
 
@@ -53,7 +82,18 @@ Kotlin은 안드로이드 애플리케이션 개발뿐만 아니라 여러 용�
 
 Kotlin 2.0에서의 새로운 K2 컴파일러도 매우 중요한 추가 기능 중 하나인데요. 이는 중요한 성능 향상을 가져오며, 새 언어 기능 개발을 가속화하고, Kotlin이 지원하는 모든 플랫폼을 통합하며, 멀티플랫폼 프로젝트에 더 나은 아키텍처를 제공할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **코틀린 컨프 23의 리뷰를 확인해보세요!**
 
@@ -63,7 +103,18 @@ Kotlin 2.0에서의 새로운 K2 컴파일러도 매우 중요한 추가 기능 
 
 젯팩 콤포즈는 안드로이드 젯팩 라이브러리의 일부로, Kotlin 프로그래밍 언어를 사용하여 네이티브 사용자 인터페이스를 쉽게 만들 수 있습니다. 또한 LiveData 및 ViewModel과 같은 다른 안드로이드 젯팩 라이브러리와 통합되어, 리액티브하고 유지보수 가능한 안드로이드 애플리케이션을 더 쉽게 구축할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Some key features of **Jetpack Compose** that you should know:
 
@@ -81,7 +132,18 @@ Here are some useful resources to delve deeper into Jetpack Compose:
 - [Course](link to course)
 - API Guidelines for @Composable components in Jetpack Compose
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 안드로이드 젯팩 ⚙️
 
@@ -99,7 +161,18 @@ Here are some useful resources to delve deeper into Jetpack Compose:
 - Media3
 - Glance
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 마테리얼 유 / 마테리얼 디자인 🥰
 
@@ -109,7 +182,18 @@ Here are some useful resources to delve deeper into Jetpack Compose:
 
 현재 마테리얼 디자인의 마지막 버전은 3이며, 더 많은 정보를 보려면 [여기](링크)를 확인하세요. 또한, 애플리케이션의 테마를 정의하는 데 도움이 되는 마테리얼 테마 빌더(Material Theme Builder)를 활용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 코딜랩
 
@@ -119,7 +203,18 @@ Here are some useful resources to delve deeper into Jetpack Compose:
 
 ![Image](/assets/img/2024-07-07-ModernAndroidDevelopmentin2024_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요!
 안드로이드의 SplashScreen API는 안드로이드 12 이후 버전에서 앱이 올바르게 표시되도록 하는 데 필수적입니다. 업데이트를 하지 않으면 애플리케이션 실행 경험에 영향을 줄 수 있습니다. 최신 버전의 운영 체제에서 일관된 사용자 경험을 위해 빠르게 이 API를 채택하는 것이 중요합니다.
@@ -130,7 +225,18 @@ Here are some useful resources to delve deeper into Jetpack Compose:
 
 로버트 C. 마틴에 의해 소개된 Clean Architecture 개념은 소프트웨어를 계층으로 분리함으로써 책임을 분리하는 데 기반을 두고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특징
 
@@ -144,23 +250,56 @@ Here are some useful resources to delve deeper into Jetpack Compose:
 
 의존성 규칙은 작성자가 "The Clean Code Blog"에서 잘 설명하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-안녕하세요! 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-클린 아키텍처는 안드로이드 어플리케이션에서 중요한 역할을 합니다. Presentation 계층에는 Activities, Composables, Fragments, View Models 등 다양한 뷰 컴포넌트들이 포함됩니다. Domain 계층에는 Use Cases, Entities, Repositories와 같은 도메인 컴포넌트들이 있고, Data 계층에는 Repository 구현체, Mappers, DTO 등이 포함됩니다. 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+안녕하세요!
+
+클린 아키텍처는 안드로이드 어플리케이션에서 중요한 역할을 합니다. Presentation 계층에는 Activities, Composables, Fragments, View Models 등 다양한 뷰 컴포넌트들이 포함됩니다. Domain 계층에는 Use Cases, Entities, Repositories와 같은 도메인 컴포넌트들이 있고, Data 계층에는 Repository 구현체, Mappers, DTO 등이 포함됩니다.
 
 # Presentation Layer를 위한 아키텍처 패턴들
 
 ![Modern Android Development](/assets/img/2024-07-07-ModernAndroidDevelopmentin2024_8.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 건축 패턴은 소프트웨어 아키텍처를 디자인하는 데 도움을 주는 고수준 전략이며, 공통 아키텍처 문제에 대한 재사용 가능한 프레임워크 내의 해결책으로 특징 지어집니다. 건축 패턴은 디자인 패턴과 유사하지만 규모가 크며 시스템의 전체 구조, 구성 요소 간의 관계, 데이터 관리 방식과 같은 더 전역적인 문제를 다룹니다.
 
 프레젠테이션 레이어 내에는 MVVM과 MVI와 같은 몇 가지 건축 패턴이 있습니다. 각각을 설명하기보다는 이에 대해 너무 많은 정보를 인터넷에서 찾을 수 있다는 점을 강조하고 싶습니다. 😅
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한, 앱 아키텍처에 대한 가이드도 참고하실 수 있어요!
 
@@ -170,7 +309,18 @@ Here are some useful resources to delve deeper into Jetpack Compose:
 
 ![Modern Android Development in 2024_10](/assets/img/2024-07-07-ModernAndroidDevelopmentin2024_10.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 의존성 주입은 클라이언트가 스스로 생성하는 대신 외부 소스에서 의존성을 가져오는 소프트웨어 디자인 패턴입니다. 객체와 그 의존성 간의 제어 역전(IoC)을 달성하는 기술입니다.
 
@@ -182,7 +332,18 @@ Here are some useful resources to delve deeper into Jetpack Compose:
 
 ![이미지](/assets/img/2024-07-07-ModernAndroidDevelopmentin2024_11.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모듈화는 소프트웨어 디자인 기술로, 응용 프로그램을 독립적인 모듈로 나누어 각각이 자체 기능과 책임을 갖도록 하는 것을 말해요.
 
@@ -192,7 +353,18 @@ Here are some useful resources to delve deeper into Jetpack Compose:
 
 재사용성: 독립적인 모듈을 가지고 있기 때문에, 이를 응용 프로그램의 다른 부분이나 다른 응용 프로그램에서 재사용할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **엄격한 가시성 제어:** 모듈을 이용하면 코드베이스의 다른 부분에 노출시킬 내용을 쉽게 제어할 수 있습니다.
 
@@ -202,21 +374,47 @@ Here are some useful resources to delve deeper into Jetpack Compose:
 
 **유지보수의 용이성:** 응용 프로그램을 독립적인 모듈로 분할하여 각각의 기능과 책임을 갖게 함으로써, 코드를 이해하고 유지하는 것이 더 쉬워집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 #### 테스트 용이성:
+
 독립 모듈을 가지고 있어 각각을 분리하여 테스트할 수 있어 오류를 쉽게 발견하고 수정할 수 있습니다.
 
 #### 아키텍처 개선:
+
 모듈화를 통해 애플리케이션 아키텍처를 개선하여 코드의 조직화와 구조화를 더 잘할 수 있습니다.
 
 #### 협업 향상:
+
 독립적인 모듈을 가지고 있어 개발자들이 동시에 서로 간섭받지 않고 애플리케이션의 다양한 부분에 작업할 수 있습니다.
 
 #### 빌드 시간:
+
 일부 Gradle 기능들인 증분 빌드(incremental build), 빌드 캐시(build cache) 또는 병렬 빌드(parallel build)는 모듈성을 활용하여 빌드 성능을 향상시킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 공식 문서에서 더 많은 정보를 확인해보세요.
 
@@ -228,7 +426,18 @@ Here are some useful resources to delve deeper into Jetpack Compose:
 - Retrofit
 - Ktor
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 일련화
 
@@ -239,7 +448,18 @@ Here are some useful resources to delve deeper into Jetpack Compose:
 - Moshi
 - Kotlin Serialization
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🌟 **Moshi와 Kotlin Serialization 소개**
 
@@ -252,7 +472,18 @@ Moshi와 Kotlin Serialization은 Kotlin과 Java를 위한 직렬화/역직렬화
 - Coil
 - Glide
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 반응성 / 스레드 관리
 
@@ -262,7 +493,18 @@ Moshi와 Kotlin Serialization은 Kotlin과 Java를 위한 직렬화/역직렬화
 
 # 로컬 저장소
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모바일 애플리케이션을 개발할 때 중요한 점은 세션 데이터나 캐시 데이터와 같이 로컬로 데이터를 유지하는 능력을 갖추는 것입니다. 애플리케이션의 요구 사항에 따라 적절한 저장 옵션을 선택하는 것이 중요합니다. 키-값과 같은 비구조화된 데이터 또는 데이터베이스와 같은 구조화된 데이터를 저장할 수 있습니다. 이 글에서 언급한 것은 사용 가능한 로컬 저장 타입의 전부가 아니며(파일 저장소와 같은 다른 유형도 있음), 단지 데이터를 저장할 수 있는 도구만 언급한 것입니다.
 
@@ -274,7 +516,18 @@ Moshi와 Kotlin Serialization은 Kotlin과 Java를 위한 직렬화/역직렬화
 - DataStore
 - EncryptedSharedPreferences
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Testing 🕵🏼
 
@@ -291,7 +544,18 @@ When it comes to software development, testing is paramount to guarantee a high-
 - Robolectric
 - Maestro
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 툴 문서의 테스트 섹션입니다
 
@@ -301,7 +565,18 @@ When it comes to software development, testing is paramount to guarantee a high-
 
 안드로이드에서의 스크린샷 테스트는 애플리케이션의 다양한 UI 요소의 스크린샷을 자동으로 캡처하고 이를 베이스라인 이미지와 비교하여 의도하지 않은 시각적 변경을 감지하는 것을 포함합니다. 이는 앱의 버전 및 구성의 일관된 UI 외관을 보장하고 개발 프로세스 초기에 시각적 리그레션을 미리 감지하는 데 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Paparazzi,
 - Roborazzi
@@ -312,7 +587,18 @@ R8는 프로젝트의 Java 바이트 코드를 Android 플랫폼에서 실행되
 
 ![image](/assets/img/2024-07-07-ModernAndroidDevelopmentin2024_19.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 코드 축소
 - 리소스 축소
@@ -325,7 +611,18 @@ R8는 프로젝트의 Java 바이트 코드를 Android 플랫폼에서 실행되
 
 ## Play 기능 제공
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 적응형 레이아웃
 
@@ -335,7 +632,18 @@ R8는 프로젝트의 Java 바이트 코드를 Android 플랫폼에서 실행되
 
 ## 창 크기 클래스
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지1](/assets/img/2024-07-07-ModernAndroidDevelopmentin2024_21.png)
 
@@ -345,7 +653,18 @@ R8는 프로젝트의 Java 바이트 코드를 Android 플랫폼에서 실행되
 
 우리가 가지고 있는 또 다른 중요한 자원은 Canonical Layouts입니다. 이는 대부분의 Android 애플리케이션 시나리오에 사용할 수 있는 미리 정의된 화면 디자인으로, 대형 화면에 적응하는 방법을 안내해줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Form Factor](https://miro.medium.com/v2/resize:fit:1200/0*PTOp6eefW7HhjhtR.gif)
 
@@ -356,7 +675,18 @@ R8는 프로젝트의 Java 바이트 코드를 Android 플랫폼에서 실행되
 
 Form Factor 트레이닝
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Localization 🌎
 
@@ -366,7 +696,18 @@ Localization involves adapting a product to meet the needs of diverse audiences 
 
 Note: BCP 47 is a standard used by Android for internationalization
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 참고 자료
 
@@ -380,7 +721,18 @@ Note: BCP 47 is a standard used by Android for internationalization
 
 ![이미지](/assets/img/2024-07-07-ModernAndroidDevelopmentin2024_24.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요, 안드로이드 애플리케이션을 개발하는 동안, 앱이 실행되는 시작부터 끝까지 사용자 경험이 개선되어야 합니다. 이를 위해 앱 성능에 영향을 미칠 수 있는 사항을 예방적으로 분석하고 지속적으로 모니터링할 수 있는 도구들이 필요합니다. 그래서 여기에는 이 목적을 위해 도움이 될 수 있는 도구들의 목록을 준비했습니다:
 
@@ -394,7 +746,18 @@ Note: BCP 47 is a standard used by Android for internationalization
 
 ![](/assets/img/2024-07-07-ModernAndroidDevelopmentin2024_25.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 앱 리뷰
 
@@ -404,11 +767,22 @@ Note: BCP 47 is a standard used by Android for internationalization
 
 ![이미지](/assets/img/2024-07-07-ModernAndroidDevelopmentin2024_27.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-안녕하세요!  
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-앱 시장이 더욱 경쟁적으로 변화함에 따라 좋은 사용자 경험을 구현하는 것은 버그 없는 앱을 보장하는 것에서 시작됩니다. 앱이 버그 없는 것을 확인하는 가장 좋은 방법 중 하나는 문제가 발생할 때 즉시 감지하고 어떻게 대처할지 알아내는 것입니다. Android Vitals를 활용하여 앱 내에서 가장 많은 충돌과 반응성 문제가 발생하는 영역을 식별할 수 있습니다. 그런 다음 Firebase Crashlytics의 사용자 정의 충돌 보고서를 활용하여 문제의 근본 원인에 대한 더 많은 세부 정보를 얻어 효과적으로 문제를 해결할 수 있습니다.  
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+안녕하세요!
+
+앱 시장이 더욱 경쟁적으로 변화함에 따라 좋은 사용자 경험을 구현하는 것은 버그 없는 앱을 보장하는 것에서 시작됩니다. 앱이 버그 없는 것을 확인하는 가장 좋은 방법 중 하나는 문제가 발생할 때 즉시 감지하고 어떻게 대처할지 알아내는 것입니다. Android Vitals를 활용하여 앱 내에서 가장 많은 충돌과 반응성 문제가 발생하는 영역을 식별할 수 있습니다. 그런 다음 Firebase Crashlytics의 사용자 정의 충돌 보고서를 활용하여 문제의 근본 원인에 대한 더 많은 세부 정보를 얻어 효과적으로 문제를 해결할 수 있습니다.
 
 ## 도구
 
@@ -417,9 +791,20 @@ Note: BCP 47 is a standard used by Android for internationalization
 - Firebase Crashlytics
 - Firebase Performance Monitoring
 
-# 접근성  
+# 접근성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-07-07-ModernAndroidDevelopmentin2024_28.png)
 
@@ -431,7 +816,18 @@ Note: BCP 47 is a standard used by Android for internationalization
 - 큰, 간단한 컨트롤 사용
 - 각 UI 요소 설명하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 타로 전문가님! 😊
 
@@ -443,7 +839,18 @@ Note: BCP 47 is a standard used by Android for internationalization
 
 앱을 개발할 때 우리가 고려해야 할 가장 중요한 측면 중 하나가 보안입니다. 기기의 무결성, 데이터의 안전 및 사용자의 신뢰를 보호하는 애플리케이션을 개발할 때는 보안이 매우 중요하답니다. 이 목적을 달성하기 위해 아래에 제시된 팁들이 도움이 될 거예요. 🌟
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 사용자 자격 증명을 자격 증명 관리자로 저장하세요: 자격 증명 관리자는 여러 가지 로그인 방법을 지원하는 Jetpack API입니다. 사용자 이름 및 비밀번호, 패스키, Google 로그인과 같은 연합 로그인 솔루션을 한 곳에서 제공하여 개발자들에게 통합을 단순화합니다.
 - 민감한 데이터와 파일을 암호화하세요: EncryptedSharedPreferences와 EncryptedFile을 사용하세요.
@@ -461,8 +868,18 @@ Note: BCP 47 is a standard used by Android for internationalization
 
 res/xml/network_security_config.xml
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 런타임 애플리케이션 자가 보호 (RASP)를 구현하세요: 이것은 애플리케이션을 공격과 취약점으로부터 런타임에서 보호하는 보안 기술입니다. RASP는 애플리케이션의 동작을 모니터링하고 공격을 나타낼 수 있는 의심스러운 활동을 감지함으로써 작동합니다. RASP가 제공하는 몇 가지 이점은 다음과 같습니다:
 
@@ -478,8 +895,18 @@ res/xml/network_security_config.xml
 
 # 버전 카탈로그
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-07-07-ModernAndroidDevelopmentin2024_30.png](/assets/img/2024-07-07-ModernAndroidDevelopmentin2024_30.png)
 
@@ -488,14 +915,26 @@ res/xml/network_security_config.xml
 Gradle은 프로젝트 의존성을 중앙에서 효율적으로 관리할 수 있는 표준 방법을 제공합니다. 버전 카탈로그는 7.0 버전에서 실험적으로 도입되었고 7.4 버전에서 공식적으로 출시되었습니다.
 
 이점은 다음과 같아요:
+
 - 각 카탈로그에 대해 Gradle은 타입 안전한 액세서를 생성하여 IDE에서 자동 완성을 통해 쉽게 의존성을 추가할 수 있어요.
 - 모든 프로젝트에 대해 카탈로그가 공유되어, 의존성의 버전을 선언하고 그 버전 변경이 모든 하위 프로젝트에 적용되도록 할 수 있어요.
 - 카탈로그는 함께 자주 사용되는 "의존성 그룹”인 의존성 번들을 선언할 수 있어요.
 - 카탈로그는 의존성의 그룹과 이름을 해당 실제 버전에서 분리하고, 여러 의존성 사이에 버전 선언을 공유할 수 있는 버전 참조를 사용할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-안녕하세요! 타로 전문가 여러분! 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+안녕하세요! 타로 전문가 여러분!
 
 보다 자세한 내용을 확인하세요.
 
@@ -505,7 +944,18 @@ Gradle은 프로젝트 의존성을 중앙에서 효율적으로 관리할 수 �
 
 Google은 API 키를 버전 관리 시스템에 체크인하지 말 것을 강력하게 권장합니다. 대신 프로젝트의 루트 디렉토리에 위치한 버전 관리에서 제외된 로컬 secrets.properties 파일에 저장한 후 안드로이드용 Secrets Gradle Plugin을 사용하여 API 키를 읽도록 권장합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 로거
 
@@ -516,7 +966,18 @@ Google은 API 키를 버전 관리 시스템에 체크인하지 말 것을 강�
 - Klogging
 - Timber
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 린터 / 정적 코드 분석기
 
@@ -529,7 +990,18 @@ Google은 API 키를 버전 관리 시스템에 체크인하지 말 것을 강�
 - Ktlint ⏫
 - Konsist
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Google Play Instant
 
@@ -539,7 +1011,18 @@ Google Play Instant은 Android 5.0 (API 레벨 21) 이상을 실행하는 장치
 
 — Google Play Instant 개요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 새로운 디자인 허브
 
@@ -549,17 +1032,37 @@ Google Play Instant은 Android 5.0 (API 레벨 21) 이상을 실행하는 장치
 
 [안드로이드 디자인 소개 페이지](d.android.com/design/ui)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## AI
 
-
 ![Gemini](/assets/img/2024-07-07-ModernAndroidDevelopmentin2024_36.png)
-
 
 저는 테러 전문가인데, 구글에서 개발된 혁신적인 인공지능 (AI) 모델인 Gemini과 PalM 2가 안드로이드 애플리케이션 개발의 풍경을 변화시킬 준비를 마쳤다는 소식이 있어요. 이러한 모델은 효율성, 사용자 경험 및 애플리케이션 혁신을 촉진할 다양한 혜택을 제공합니다. Gemini와 PalM 2를 주목해 보세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # AI 코딩 어시스턴트 도구
 
@@ -567,7 +1070,18 @@ Google Play Instant은 Android 5.0 (API 레벨 21) 이상을 실행하는 장치
 
 ## Github Copilot
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **GitHub Copilot**은 AI 페어 프로그래머입니다. 에디터 안에서 전체 라인이나 함수에 대한 제안을 얻을 수 있습니다.
 
@@ -577,7 +1091,18 @@ Google Play Instant은 Android 5.0 (API 레벨 21) 이상을 실행하는 장치
 
 # Kotlin Multiplatform 🖥 📱⌚️ 🥰 🚀
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지 태그를 Markdown 형식으로 변경해 드리겠습니다.
 
@@ -590,9 +1115,18 @@ Google Play Instant은 Android 5.0 (API 레벨 21) 이상을 실행하는 장치
 - 코틀린 멀티플랫폼 — 이것이 바로 방법이죠
 - 코틀린 멀티플랫폼 현황 — 웨비나 2023
 
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 소스
 
@@ -603,7 +1137,18 @@ Google Play Instant은 Android 5.0 (API 레벨 21) 이상을 실행하는 장치
 
 ![image](/assets/img/2024-07-07-ModernAndroidDevelopmentin2024_39.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Link to the image](/assets/img/2024-07-07-ModernAndroidDevelopmentin2024_40.png)
 

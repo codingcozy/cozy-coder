@@ -3,7 +3,7 @@ title: "GUID UUID 기본 키 사용으로 SQL 쿼리 성능을 두 배로 향�
 description: ""
 coverImage: "/assets/img/2024-08-17-HowWeDoubledthePerformanceofOurAppWhenUsingGUIDUUIDPrimaryKeysinSQL_0.png"
 date: 2024-08-17 00:37
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-17-HowWeDoubledthePerformanceofOurAppWhenUsingGUIDUUIDPrimaryKeysinSQL_0.png
 tag: Tech
 originalTitle: "How We Doubled the Performance of Our App When Using GUID UUID Primary Keys in SQL"
@@ -11,7 +11,6 @@ link: "https://medium.com/@mattbentley_67939/how-we-doubled-the-performance-of-o
 isUpdated: true
 updatedAt: 1723863689328
 ---
-
 
 <img src="/assets/img/2024-08-17-HowWeDoubledthePerformanceofOurAppWhenUsingGUIDUUIDPrimaryKeysinSQL_0.png" />
 
@@ -21,7 +20,18 @@ SQL 데이터베이스에서 사용할 최상의 기본 키를 선택하는 것�
 
 # 기본 키로 GUID를 사용하는 이유?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 SQL이 숫자 형식의 기본 키를 사용했을 때 가장 좋은 성능을 발휘한다면, GUID를 사용하는 이유는 무엇일까요..?!
 
@@ -31,7 +41,18 @@ GUID의 장점은 그것이 '글로벌하게 고유하다'는 점에서 나옵�
 
 저는 도메인 주도 설계를 열렬히 지지하는데, 이는 비즈니스/도메인 로직을 Entity 클래스에 최대한 캡슐화하는 것을 장려합니다. 데이터베이스가 Entity의 가장 중요한 속성, 즉 ID를 생성하게 하는 것은 DDD의 핵심 원칙 중 하나를 엄청나게 위반하는 일입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 보안 및 개인 정보 보호
 
@@ -41,7 +62,18 @@ GUID의 장점은 그것이 '글로벌하게 고유하다'는 점에서 나옵�
 
 유같은 주요 키로 GUID를 사용하는 것에는 몇 가지 큰 단점이 있습니다. 이러한 단점에 대해 설명하기 전에 먼저 이해해야 할 몇 가지 관계형 데이터베이스 개념이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단편화
 
@@ -51,7 +83,18 @@ GUID의 장점은 그것이 '글로벌하게 고유하다'는 점에서 나옵�
 
 데이터베이스 페이지(또는 블록) 내의 저장 공간이 완전히 활용되지 않을 때 발생합니다. 예를 들어, 한 페이지에 100개의 행을 저장할 수 있는 공간이 있지만 실제로는 80개만 저장된 경우, 나머지 공간이 낭비되어 효율성이 떨어집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 외부 단편화:
 
@@ -61,7 +104,18 @@ GUID의 장점은 그것이 '글로벌하게 고유하다'는 점에서 나옵�
 
 페이지 분할은 데이터베이스 페이지(대부분의 시스템에서 일반적으로 8 KB 크기의 고정 크기 저장 블록)가 가득 차고 추가 데이터가 삽입되어야 할 때 발생합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 초기 상태: 100행의 데이터를 담을 수 있는 페이지를 상상해보세요. 현재 페이지가 가득 찬 상태입니다.
 - 삽입 트리거: 새로운 행을 삽입해야 할 때, 그리고 페이지가 가득 찼을 때, 데이터베이스 엔진은 이 새로운 행을 수용할 방법을 찾아야 합니다.
@@ -74,7 +128,18 @@ GUID의 장점은 그것이 '글로벌하게 고유하다'는 점에서 나옵�
 
 단편화와 페이지 분할의 영향으로 인해, 가장 효율적인 클러스터형 인덱스는 예측 가능한 순서를 가진 연속적인 키일 것입니다. 이를 통해 SQL이 효율적으로 테이블 데이터의 끝에 페이지를 채우며, 성능이 향상되고 데이터 및 인덱스를 저장하는 데 필요한 공간이 줄어듭니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## GUID 주 키의 단점
 
@@ -84,7 +149,18 @@ GUID는 16바이트이며 정수의 4바이트와 비교해 더 큰 용량을 �
 
 # 정말 중요한가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 모두는 소프트웨어 아키텍처가 해결하려는 문제에 따른 적절한 균형을 유지해야 한다는 것을 알고 있어요. 여기서는 성능 및 확장성 대 보안 및 앱 기능 사이의 교환 비교를 살펴보고 있습니다. 제 개인적인 견해는 앱이 생성할 수 있는 GUID PK가 숫자 PK가 제공하는 성능 이점보다 훨씬 크다고 생각해요.
 
@@ -94,7 +170,18 @@ GUID는 16바이트이며 정수의 4바이트와 비교해 더 큰 용량을 �
 
 # 벤치마크
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GUID를 기본 키 및 군집화된 인덱스로 사용하는 예제 테이블을 살펴봅시다. 성능 최적화를 적용하고 벤치마크를 사용하여 비교해보겠습니다.
 
@@ -104,7 +191,18 @@ GUID를 기본 키 및 군집화된 인덱스로 사용하는 예제 테이블�
 
 데이터베이스 스키마 변경을 관리하기 위해 Entity Framework Core 'code-first' 마이그레이션을 사용하는 것을 선호합니다. 위에 표시된 대로 IEntityTypeConfiguration을 사용하여 이를 구현할 수 있습니다. 생성된 기준 테이블 스키마와 일부 이벤트 스트림 데이터가 아래에 표시됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-08-17-HowWeDoubledthePerformanceofOurAppWhenUsingGUIDUUIDPrimaryKeysinSQL_1.png)
 
@@ -114,7 +212,18 @@ GUID를 기본 키 및 군집화된 인덱스로 사용하는 예제 테이블�
 
 ![이미지](/assets/img/2024-08-17-HowWeDoubledthePerformanceofOurAppWhenUsingGUIDUUIDPrimaryKeysinSQL_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 최적화 #1: 비 클러스터화된 기본 키
 
@@ -124,7 +233,18 @@ GUID를 기본 키 및 군집화된 인덱스로 사용하는 예제 테이블�
 
 새로운 SequentialId 열을 SequentialEventStream 구현에 추가해야 하지만, 앱에서 다른 용도로 사용할 필요는 없습니다. 우리는 새로운 비 클러스터화된 인덱스를 사용하여 여전히 GUID Id로 조회할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 우리는 데이터가 삽입된 순서대로 테이블에 저장되어 있다는 것을 알 수 있습니다.
 
@@ -134,7 +254,18 @@ GUID를 기본 키 및 군집화된 인덱스로 사용하는 예제 테이블�
 
 ![image](/assets/img/2024-08-17-HowWeDoubledthePerformanceofOurAppWhenUsingGUIDUUIDPrimaryKeysinSQL_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 최적화 #2: 연속 GUID 기본 키
 
@@ -142,7 +273,18 @@ GUID를 기본 키 및 군집화된 인덱스로 사용하는 예제 테이블�
 
 이 구현의 큰 이점 중 하나는 원래 테이블의 스키마를 전혀 변경할 필요가 없다는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 벤치마크는 분산 시스템을 모방하기 위해 12개 스레드에서 병렬로 실행됩니다. 이로 인해 생성된 GUID Id가 약간 순서에서 벗어날 수 있지만, 모든 삽입은 여전히 테이블의 끝에 있기 때문에 큰 영향을 미치지 않아야 합니다.
 
@@ -152,7 +294,18 @@ GUID를 기본 키 및 군집화된 인덱스로 사용하는 예제 테이블�
 
 ## 최적화 #3: 압축
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최종 최적화는 GUID 기본 키와 관련이 없지만, 이해하는 데 흥미로운 부분입니다. 이벤트 열에 저장된 데이터가 JSON 문자열이기 때문에 상당히 압축될 수 있습니다.
 
@@ -162,7 +315,18 @@ GUID를 기본 키 및 군집화된 인덱스로 사용하는 예제 테이블�
 
 ![이미지](/assets/img/2024-08-17-HowWeDoubledthePerformanceofOurAppWhenUsingGUIDUUIDPrimaryKeysinSQL_7.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GUID 주 키를 순차적으로 정렬하고 GZip 압축을 사용하면 벤치마크를 통해 Inserts가 51% 더 빠르고 Updates도 48% 더 빠르다고 결과를 얻었어요.
 
@@ -172,6 +336,17 @@ GUID 주 키를 순차적으로 정렬하고 GZip 압축을 사용하면 벤치�
 
 데이터가 100,000행 미만인 경우 이러한 최적화 중 어느 것도 성능에 영향을 끼치지 않을 가능성이 높습니다. 그러나 앞으로 데이터가 얼마나 커질지 확신이 없다면 시작부터 순차 GUID를 ID로 사용하는 것에 뭐가 잘못될까요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 게시물의 모든 벤치마크 코드는 아래의 내 GitHub에서 찾을 수 있습니다.

@@ -3,7 +3,7 @@ title: "HomeBrew를 사용하여 MacOS2021에 Java JDK11을 설치하는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-19-UsingHomeBrewtoInstallJavaJDK11onMacOS2021_0.png"
 date: 2024-06-19 08:59
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-UsingHomeBrewtoInstallJavaJDK11onMacOS2021_0.png
 tag: Tech
 originalTitle: "Using HomeBrew to Install Java JDK11 on MacOS (2021)"
@@ -11,21 +11,28 @@ link: "https://medium.com/@kirebyte/using-homebrew-to-install-java-jdk11-on-maco
 isUpdated: true
 ---
 
-
-
-
-
 제목이 정확히 같은 게시물이 있지만 조금 오래됐기 때문에 최신 솔루션을 구글링하는 사람들을 위해 약간 수정된 버전을 게시하고 싶습니다.
 
 ## 단계 1: Homebrew 설치 (아직 하지 않은 경우)
 
 ```js
-$ /bin/bash -c “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)” 
+$ /bin/bash -c “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)”
 ```
 
 ## 단계 2: 업데이트 (아직 하지 않은 경우)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 $ brew update
@@ -39,7 +46,18 @@ $ brew install java11
 
 ## 단계 4: Symlink 설정하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 이 단계를 건너뛰면 시스템이 사용할 자바 런타임을 찾지 못할 수 있어요.
 
@@ -51,7 +69,18 @@ sudo ln -sfn /usr/local/opt/openjdk@11/libexec/openjdk.jdk /Library/Java/JavaVir
 
 버전 플래그를 사용하여 명령을 입력한 후 비슷한 내용을 보신다면 성공적으로 진행된 거예요! 🙂
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 $ java --version

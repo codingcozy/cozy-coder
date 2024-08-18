@@ -3,17 +3,13 @@ title: "Swift-iOS 면접 질문 베스트 8가지"
 description: ""
 coverImage: "/assets/img/2024-07-14-Swift-iOSInterviewQuestions-Part8_0.png"
 date: 2024-07-14 00:18
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-14-Swift-iOSInterviewQuestions-Part8_0.png
 tag: Tech
 originalTitle: "Swift-iOS Interview Questions-Part 8"
 link: "https://medium.com/swift-interview-preparations/swift-ios-interview-questions-part-8-124723f72c08"
 isUpdated: true
 ---
-
-
-
-
 
 스위프트, iOS, Xcode에 관한 인터뷰 질문
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 메인 큐는 UI 업데이트와 이미지 가져오기에 완벽하며, 다른 무거운 작업은 백그라운드 스레드에서 실행되어야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```swift
 DispatchQueue.global(qos: .background).async {
@@ -58,9 +65,18 @@ DispatchQueue.global(qos: .background).async {
 
 2. 빠른 열거(fast enumeration)란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
-코코아 프레임워크의 여러 클래스, 특히 컬렉션 클래스들은 NSFastEnumeration 프로토콜을 채택합니다. 이 프로토콜을 사용하여 해당 인스턴스에 의해 보유된 요소들을 표준 C for 루프와 유사한 구문을 사용해 검색할 수 있습니다. 다음 예시에서 설명된 것처럼요: 
+코코아 프레임워크의 여러 클래스, 특히 컬렉션 클래스들은 NSFastEnumeration 프로토콜을 채택합니다. 이 프로토콜을 사용하여 해당 인스턴스에 의해 보유된 요소들을 표준 C for 루프와 유사한 구문을 사용해 검색할 수 있습니다. 다음 예시에서 설명된 것처럼요:
 
 let anArray: [Any] = ["one", "two", "three"]
 for element in anArray {
@@ -74,7 +90,16 @@ for element in anArray {
     print(element)
 }
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Instance(인스턴스) 메서드는 특정 클래스, 구조체 또는 열거형의 인스턴스에 속하는 함수입니다. 이러한 인스턴스의 기능을 지원하며 인스턴스의 속성에 액세스하고 수정하는 방법을 제공하거나 인스턴스의 목적과 관련된 기능을 제공함으로써 기여합니다.
 
@@ -82,7 +107,16 @@ Instance(인스턴스) 메서드는 특정 클래스, 구조체 또는 열거형
 
 서브클래스는 클래스 메서드를 재정의할 수 있습니다. 왜냐하면 이것들은 동적으로 디스패치 되기 때문입니다. static메서드는 재정의할 수 없습니다. 클래스 속성은 이론적으로 동일한 방식으로 작동할 것으로 예상됩니다(서브클래스는 재정의할 수 있음), 그러나 현재 Swift에서는 불가능합니다. static은 "Class final"로 간주될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. UIButton은 UIControl을 상속받고, UIControl은 UIView를 상속받고, UIView는 UIResponder를 상속받으며, UIResponder은 루트 클래스인 NSObject를 상속받습니다.
 
@@ -98,7 +132,16 @@ UIButton
 
 5. 레이어 객체란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 레이어 객체는 시각적 콘텐츠를 나타내는 데이터 객체로, 뷰에서 이 콘텐츠를 렌더링하는 데 사용됩니다. 사용자 정의 레이어 객체를 추가하여 복잡한 애니메이션 및 고급 시각적 효과를 구현할 수도 있습니다.
 
@@ -108,7 +151,16 @@ UI Automation API를 사용하여 테스트 프로시저를 자동화합니다. 
 
 7. UIKit 클래스를 사용해야 하는 애플리케이션 스레드는 무엇입니까?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앱의 주 스레드에서 UIKit 클래스를 사용할 수 있어요.
 
@@ -118,7 +170,16 @@ UI Automation API를 사용하여 테스트 프로시저를 자동화합니다. 
 
 9. iOS에서 말하는 딥 링킹이란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 깊은 링크(Deep links)란 URL이나 유니버설 링크를 사용하여 웹사이트나 스토어 대신 앱으로 바로 이동시키는 링크입니다. URL 스키마는 깊은 링크를 만드는 잘 알려진 방법 중 하나이지만, 유니버설 링크는 애플의 새로운 방식으로 웹페이지와 앱을 하나의 링크 아래로 연결하는 방법입니다. 깊은 링크를 사용하면 앱을 열 수 있는 클릭 가능한 링크와 필요한 리소스로 이동하는 스마트한 링크를 생성할 수 있습니다. 이러한 링크를 사용하면 사용자들은 본인이 직접 페이지를 보는 수고와 시간을 아낄 수 있으며, 그 결과 사용자 경험을 크게 향상시킬 수 있습니다.
 
@@ -131,7 +192,16 @@ iOS 애플리케이션의 사용자 인터페이스를 구축하는 데 사용�
 - 사용자 인터페이스(사용자 상호작용, 텍스트 및 콘텐츠 공유, 이미지 선택, 비디오 편집, 파일 인쇄 등)
 - 그래픽, 그리기 및 인쇄
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 11. KVC와 KVO의 차이점을 설명해 드리겠습니다.
 
@@ -141,7 +211,16 @@ KVC는 객체 속성을 개발 중에 정적으로 속성 이름을 알 필요 �
 
 KVO (Key-Value Observing)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 KVO는 Objective-C와 Swift에서 프로그램 상태 변경을 관찰하는 방법 중 하나입니다. 만약 객체가 인스턴스 변수를 가지고 있다면, KVO를 사용하여 다른 객체들이 해당 변수의 변경사항을 관찰할 수 있습니다.
 
@@ -151,14 +230,23 @@ iOS 아키텍처는 네 개의 레이어로 구성되어 있습니다. 각 레�
 
 다양한 레이어는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 핵심 OS/응용 프로그램 레이어: 핵심 OS 레이어는 가장 낮은 수준의 레이어로서 기기 하드웨어 위에 위치합니다. 이 레이어는 메모리, 파일 시스템, 쓰레드, 그리고 낮은 수준의 네트워킹, 외부 액세서리 접근 등을 관리합니다.
 - 서비스 레이어: 서비스 레이어는 상위 레이어와 사용자들이 요구하는 서비스를 설계합니다. 이 레이어는 객체 블록, Grand Central Dispatch, 인앱 구매, iCloud 저장소 등을 처리합니다.
 - 미디어 레이어: 미디어 레이어는 비디오, 오디오, 그래픽과 같은 미디어를 처리하고 가능하게 합니다.
 - 코코아 터치 레이어: 이것은 응용 프로그램 레이어로, 여러분이 프레임워크를 만드는 곳입니다. 이것은 또한 iOS 사용자들이 운영 체제와 상호 작용하는 인터페이스로도 작동합니다.
 
-13. 얕은 복사와 깊은 복사의 차이점은 무엇인가요? 얕은 복사는 주소 복사로도 알려져 있습니다. 이 과정에서 실제 데이터가 아닌 주소만 복사됩니다. 그에 비해 깊은 복사는 데이터가 복사됩니다. 두 개의 객체 A와 B가 있다고 가정합시다. A는 다른 배열을 가리키고 있고, B는 다른 배열을 가리키고 있습니다. 이제 나는 얕은 복사를 수행하기 위해 다음과 같이 할 것입니다. 
+13. 얕은 복사와 깊은 복사의 차이점은 무엇인가요? 얕은 복사는 주소 복사로도 알려져 있습니다. 이 과정에서 실제 데이터가 아닌 주소만 복사됩니다. 그에 비해 깊은 복사는 데이터가 복사됩니다. 두 개의 객체 A와 B가 있다고 가정합시다. A는 다른 배열을 가리키고 있고, B는 다른 배열을 가리키고 있습니다. 이제 나는 얕은 복사를 수행하기 위해 다음과 같이 할 것입니다.
 Char *A = '‘a’,’b’,’c’';
 Char *B = '‘x’,’y’,’z’';
 B = A;
@@ -168,7 +256,16 @@ B = A;
 
 14. Swift에서 프로퍼티를 선택적으로 만들 수 있는 방법은 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드에서 물음표 ??’를 선언하여 속성을 선택 사항으로 만들어야 합니다. 속성에 값이 없으면 기호 ? 를 사용하여 런타임 오류를 피할 수 있습니다.
 
@@ -178,7 +275,16 @@ B = A;
 
 ## 반 열린 범위 연산자를 루프에서 사용하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 let range = 1..<5
 for number in range {
@@ -195,7 +301,18 @@ Output:
 16. Swift에서 함수는 무엇인가요?
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하수는 특정 작업을 수행하는 코드 세트입니다. Swift 프로그래밍 언어에서 함수는 함수 호출 내부에서 로컬 및 글로벌 매개변수 값을 전달하는 데 사용됩니다.
 
@@ -206,11 +323,33 @@ Swift에서 함수는 두 가지 유형으로 분류할 수 있습니다:
 
 17. Swift에서 중첩 함수란 무엇입니까?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지 태그를 Markdown 형식으로 바꾸세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이넘(Enum)은 Swift 열거형으로도 알려져 있어요. 이넘은 관련 있는 값들의 집합을 담고 있는 데이터 타입이에요. 클래스 안에서 선언되며, 이넘의 값들은 해당 클래스의 인스턴스 멤버들을 통해 접근될 수 있어요.
 
@@ -225,7 +364,18 @@ enum enum_name
 
 정규 표현식(Regular Expression)과 응답자 체인(Responder Chain)은 Swift에서 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 정규 표현식: 정규 표현식은 문자열 내에서 검색을 수행하는 방법을 지정하는 특별한 문자열 패턴들입니다.
 
@@ -235,7 +385,18 @@ enum enum_name
 
 Swift의 사전(Dictionary)은 key-value 쌍을 저장하고 키를 사용하여 값을 액세스하는 데 사용됩니다. 다른 프로그래밍 언어의 해시 테이블과 유사합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Swift 프로그래밍 언어에서는 키-값 쌍을 기반으로 값을 얻고 싶을 때 언제든지 사전(딕셔너리) 개념을 활용할 수 있어요.
 
@@ -249,7 +410,18 @@ Dictionary<Key, Value>()
 [Key: Value]()
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 21. **프로세서 관리는 무엇인가요?**
 
@@ -259,7 +431,18 @@ Dictionary<Key, Value>()
 
 iOS의 각 프로세스는 하나 이상의 스레드로 구성됩니다. 각 스레드는 단일 실행 경로로 작동합니다. iOS의 각 애플리케이션은 주요 기능을 실행하는 단일 스레드로 시작됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스위프트에서 부동 소수점 수란 무엇인가요? 스위프트에서 다양한 부동 소수점 수는 무엇인가요?
 
@@ -269,7 +452,18 @@ iOS의 각 프로세스는 하나 이상의 스레드로 구성됩니다. 각 �
 
 플로트(Float): 32비트 부동 소수점 수를 나타냅니다. 부동 소수점 값이 64비트 정밀도가 필요하지 않은 경우 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 24. Swift에서 주석을 작성하는 방법은 무엇인가요?
 
@@ -281,17 +475,39 @@ Swift 프로그래밍 언어에서는 한 줄 주석을 작성할 때 이중 슬
 // 이것은 한 줄 주석입니다.
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-/* 영어를 한국어로 번역해주셔서 감사합니다! 트럼프 전문가의 의견을 들려드릴게요. */
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-스위치 문은 스위프트(Swift) 언어에서 어떻게 사용되나요? 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+/_ 영어를 한국어로 번역해주셔서 감사합니다! 트럼프 전문가의 의견을 들려드릴게요. _/
+
+스위치 문은 스위프트(Swift) 언어에서 어떻게 사용되나요?
 
 스위치 문은 조건에 따라 코드를 분기 처리하는 데 사용됩니다. 특정 변수나 값에 대해 여러 경우의 수를 고려할 때 유용해요. case 별로 다른 실행 블록을 정의하여 각 case에 해당하는 코드를 실행할 수 있습니다. 이를 통해 코드의 논리를 정리하고 가독성을 높일 수 있어요.
 
 위의 예시처럼 스위치 문은 변수나 값이 다양한 경우에 따라 다른 실행 흐름을 제어할 수 있어서 매우 유용한 기능이에요! 만약 스위프트에서 스위치 문을 활용하는 방법이 궁금하시다면 더 질문해주세요. 함께 알아보아요! 🌟
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - `switch` 문은 긴 if-else-if 문의 대안으로 사용됩니다.
 - `switch` 문은 모든 종류의 데이터를 지원하며, 이를 동기화하고 동등성을 확인합니다.
@@ -304,7 +520,18 @@ Swift 프로그래밍 언어에서는 한 줄 주석을 작성할 때 이중 슬
 
 **27. Swift 루프에서 `continue` 문의 사용 목적**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 The `continue` statement in Swift loops is a powerful tool to alter the flow of execution. When encountered, it immediately halts the current iteration and proceeds directly to the start of the next cycle within the loop.
 
@@ -314,7 +541,18 @@ In Swift, there are two fundamental collection types:
 
 - **Array**: Arrays in Swift can store multiple values of the same or different data types.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 딕셔너리: Swift에서 딕셔너리는 다른 프로그래밍 언어의 해시 테이블과 유사합니다. 딕셔너리에는 키-값 쌍을 저장하고 키를 사용하여 값을 액세스할 수 있습니다.
 
@@ -324,7 +562,18 @@ In Swift, there are two fundamental collection types:
 
 하위 클래스: 다른 클래스로부터 속성을 상속받는 클래스를 자식 클래스 또는 하위 클래스라고 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 슈퍼 클래스: 서브 클래스가 속성을 상속하는 주요 클래스를 부모 클래스 또는 슈퍼 클래스라고 합니다.
 
@@ -334,7 +583,18 @@ Swift 프로그램은 기본적으로 Tomcat 설치에 응용 프로그램을 �
 
 31. NSUserDefaults가 무엇인지 설명하고, NSUserDefaults에서 지원하는 타입은 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 NSUserDefaults는 키-값 쌍을 사용하여 데이터를 저장하는 가장 쉬운 방법이에요. NSUserDefaults는 데이터를 작은 양만 저장합니다. 대부분의 경우 NSUserDefaults는 사용자 설정 및 중요하지 않은 데이터를 저장하는 데 가장 적합합니다. NSUserDefaults가 지원하는 유형은 다음과 같아요:
 
@@ -350,7 +610,18 @@ NSUserDefaults는 키-값 쌍을 사용하여 데이터를 저장하는 가장 �
 - 작은 크기의 데이터를 유지하는 데 완벽합니다 (예: 사용자 설정)
 - 배우고 구현하기 쉬워요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단점
 
@@ -362,7 +633,18 @@ NSUserDefaults는 키-값 쌍을 사용하여 데이터를 저장하는 가장 �
 
 iOS 인터뷰를 준비할 때 UI를 작성하는 전략을 알고 있어야 합니다. 스토리보드와 Xib는 디자인 사양과 잘 맞는 빠른 UI를 만들 때 좋습니다. 제품 관리자가 화면 진행 상황을 쉽게 파악할 수도 있습니다. 스토리보드는 응용 프로그램을 통한 흐름을 잘 표현하고 전체 응용 프로그램의 고수준 시각화를 제공하는 데도 좋습니다. 스토리보드의 단점은 팀 환경에서 협업하기 어려우며, 단일 파일이기 때문에 병합을 제어하기 어려울 수 있습니다. 스토리보드와 Xib 파일은 중복되어 업데이트하기 복잡해질 수 있습니다. 예를 들어, 모든 버튼이 동일하게 보이도록 하고 갑자기 색상을 변경해야하는 경우 스토리보드와 Xib 전체에서 이를 수행하는 것이 오랜 시간/어려운 프로세스가 될 수 있습니다. 프로그래밍 방식으로 UIView를 만드는 것은 비효율적이고 지루할 수 있지만 더 많은 제어와 쉬운 분리를 허용할 수 있습니다. 또한 코드를 공유할 수 있습니다. 그리고 아주 쉽게 테스트할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 33. UIView 요소의 레이아웃을 식별하는 다양한 방법이 무엇인가요?
 
@@ -374,7 +656,18 @@ UIView의 요소 레이아웃을 지정하는 몇 가지 일반적인 방법은 
 
 34. Size Classes의 목적은 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사이즈 클래스는 앱에서 추가적인 레이아웃 구성을 할 수 있는 기능으로, 여러 기기에서 UI가 잘 작동하도록 도와줍니다. 예를 들어, 스택 뷰는 일반적인 조건에서는 가로로 뷰를 정렬하지만 제약 조건이 있는 경우 세로로 정렬될 수 있습니다.
 
@@ -389,8 +682,18 @@ if optionalName != nil {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 36. 이중 물음표의 사용 목적은?
 
@@ -404,7 +707,18 @@ let existentName: String = missingName ?? realName
 
 37. Swift에서 타입 별칭(Type aliasing)이란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 C/C++에서 가져온 많은 내용을 빌려온 것입니다. 이 것은 타입에 별칭을 부여할 수 있게 해주는데, 이는 특정한 맥락에서 유용할 수 있습니다.
 
@@ -416,7 +730,18 @@ typealias AudioSample = UInt16
 
 또한 스위프트에서 함수와 메서드의 차이는 무엇인가요? 🌟
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 두 가지는 보통 프로그래머가 알아야 하는 용어로 설명할 수 있어요. 즉, 특정 작업을 수행하기 위해 이상적으로 설정된 자체 포괄적인 코드 블록입니다. 함수는 전역 범위에 존재하는 반면 메소드는 특정 유형에 속합니다.
 
@@ -429,7 +754,18 @@ class Student { var courses: [Course]? }
 let student = Student()
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 40. 옵셔널 체이닝
 
@@ -439,19 +775,41 @@ let student = Student()
 
 옵셔널 바인딩은 if나 while 블록의 첫 번째 절에서 옵셔널에서 임시 변수를 할당할 때 사용되는 용어입니다. 아래 코드 블록을 고려해보세요. 만약 속성 courses가 아직 초기화되지 않은 상태라면 런타임 오류 대신 블록이 정상적으로 실행되는 것을 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 코드는 학생의 코스를 나타내는 배열을 초기화하지 않아 계속될 것입니다. 간단히 아래 코드를 추가해보세요:
 
 ```swift
-init() { 
-   courses = [Course]() 
+init() {
+   courses = [Course]()
 }
 ```
 
 그러면 “Yep, courses we have”가 출력됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 외부 매개변수의 구문은 로컬 매개변수 이름 앞에 위치합니다.
 
@@ -461,7 +819,18 @@ func yourFunction(externalParameterName localParameterName :Type, …) { … }
 
 이를 구체적인 예시로 들어보겠습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 43. Swift에서 에러를 처리하는 방법은 어떻게 해야 할까요?
 
@@ -469,7 +838,18 @@ Swift에서의 에러 처리 방법은 Objective-C와 다소 다릅니다. Swift
 
 에러를 throw할 수 있는 함수는 함수 이름 뒤에 throws 키워드를 추가하여 선언하면 됩니다. 이러한 메소드를 호출하는 모든 함수는 try 블록에서 호출해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 func canThrowErrors() throws -` String // 에러를 던지는 메서드를 호출하는 방법try canThrowErrors() //Optional로 지정할 수도 있음let maybe = try? canThrowErrors()`
 
@@ -481,22 +861,44 @@ Guard문은 수비적인 프로그래밍 스타일을 선호하는 사람들에�
 guard let courses = student.courses else { return }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 45. 다음 코드를 고려해 보십시오:
 
 ```js
-var array1 = [1, 2, 3, 4, 5]
-var array2 = array1
-array2.append(6)
-var len = array1.count
+var array1 = [1, 2, 3, 4, 5];
+var array2 = array1;
+array2.append(6);
+var len = array1.count;
 ```
 
 변수 len의 값은 무엇이며, 그 이유는 무엇인가요?
 
 len 변수의 값은 5입니다. 이는 array1에 5개의 요소가 있음을 나타내며, array2에는 6개의 요소가 있음을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 array1 = [1, 2, 3, 4, 5]
@@ -508,7 +910,18 @@ array1이 array2에 할당될 때, array1의 복사본이 실제로 생성되어
 이유는 스위프트 배열이 값 타입(구조체로 구현됨)이기 때문입니다. 참조 타입(즉, 클래스)이 아니기 때문에 변수에 값 타입이 할당되거나 함수나 메소드에 인자로 전달되거나 움직일 때 실제로 복사본이 생성되어 할당되거나 전달됩니다. 스위프트 딕셔너리 또한 값 타입으로 구조체로 구현되어 있습니다.
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스위프트의 값 타입에는 다음이 있어요:
 
@@ -519,13 +932,24 @@ array1이 array2에 할당될 때, array1의 복사본이 실제로 생성되어
 46. 다음 코드를 고려해보세요:
 
 ```js
-let op1: Int = 1
-let op2: UInt = 2
-let op3: Double = 3.34
-var result = op1 + op2 + op3
+let op1: Int = 1;
+let op2: UInt = 2;
+let op3: Double = 3.34;
+var result = op1 + op2 + op3;
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 에러는 어디에 있고 왜 발생하는 걸까요? 이를 어떻게 고치면 될까요?
 
@@ -534,16 +958,38 @@ var result = op1 + op2 + op3
 에러를 수정하려면 캐스트 대신 명시적 변환이 필요합니다. 샘플 코드에서 모든 표현식 피연산자는 Double로 변환되어야 합니다. 이 경우 모두 같은 유형으로 변환되어야 합니다:
 
 ```js
-var result = Double(op1) + Double(op2) + op3
+var result = Double(op1) + Double(op2) + op3;
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 The String struct in Swift doesn't have a count or length property to directly get the number of characters it contains. Instead, you can use the global `countElements` function. When applied to strings, the complexity of the `countElements` function is O(n).
 
 Swift strings are designed to support extended grapheme clusters. Each character in a string is a sequence of one or more unicode scalars that combine to form a single human-readable character. Due to the variable memory requirements of different characters and the fact that accessing an extended grapheme cluster requires sequential traversal to determine the character it represents, the number of characters in a string cannot be known without traversing the entire string. This is why the complexity of the `countElements` function is O(n).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스위프트 열거형에서 로우 값(raw values)과 연관 값(associated values)의 차이점은 무엇일까요?
 
@@ -559,24 +1005,42 @@ enum IntEnum : Int {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지 태그를 Markdown 형식으로 변경하면 좋아요:
-
 
 An enum value can be converted to its raw value by using the rawValue property:
 
 var enumVar: IntEnum = IntEnum.TWO
 var rawValue: Int = enumVar.rawValue
 
-
 A raw value can be converted to an enum instance by using a dedicated initializer:
-
 
 var enumVar: IntEnum? = IntEnum(rawValue: 1)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 연관 값은 특정 enum 케이스에 임의의 데이터를 연결하는 데 사용됩니다. 각 enum 케이스는 케이스 정의에서 튜플로 선언된 영 개 이상의 연관 값이 있을 수 있습니다.
 
@@ -592,7 +1056,18 @@ enum AssociatedEnum {
 
 49. 다음 코드 스니펫은 컴파일 시간 오류가 발생합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```swift
 struct IntStack {
@@ -605,7 +1080,18 @@ struct IntStack {
 
 그 부분을 수정하면 에러가 사라집니다. 간단하죠? :)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **IntStack 구조체:**
 
@@ -627,7 +1113,18 @@ var myswiftArray = myMutableArray as NSArray as! [String]
 
 이 글이 마음에 드셨다면 공유하고 박수를 보내주셔서 다른 사람들도 찾을 수 있게 해주세요👏🏻👏🏻👏🏻👏🏻👏🏻
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신은 📲로도 저와 연락할 수 있어요.
 
@@ -635,7 +1132,18 @@ var myswiftArray = myMutableArray as NSArray as! [String]
 
 [GitHub](GitHub)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 재밌게 보셨나요?
 
@@ -645,7 +1153,18 @@ var myswiftArray = myMutableArray as NSArray as! [String]
 
 감사합니다😊
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 많은 업데이트를 보시려면 Swiftfy를 팔로우해 주세요!
 

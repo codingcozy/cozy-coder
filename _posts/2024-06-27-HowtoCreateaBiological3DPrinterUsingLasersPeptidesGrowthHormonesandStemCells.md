@@ -3,18 +3,13 @@ title: "레이저, 펩타이드, 성장 호르몬, 줄기 세포를 이용한 �
 description: ""
 coverImage: "/assets/img/2024-06-27-HowtoCreateaBiological3DPrinterUsingLasersPeptidesGrowthHormonesandStemCells_0.png"
 date: 2024-06-27 18:53
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-27-HowtoCreateaBiological3DPrinterUsingLasersPeptidesGrowthHormonesandStemCells_0.png
 tag: Tech
 originalTitle: "How to Create a Biological 3D Printer Using Lasers, Peptides, Growth Hormones, and Stem Cells"
 link: "https://medium.com/@rabmcmenemy/how-to-create-a-biological-3d-printer-using-lasers-peptides-growth-hormones-and-stem-cells-0b5c06ab1eac"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![Biological 3D Printer](/assets/img/2024-06-27-HowtoCreateaBiological3DPrinterUsingLasersPeptidesGrowthHormonesandStemCells_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 # 생물학적 3D 프린팅의 기초
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 생물 3D 프린팅 또는 바이오프린팅은 생체 세포로 이루어진 3차원 구조물을 만드는 과정을 말합니다. 일반적인 3D 프린팅이 플라스틱이나 금속과 같은 물질을 사용하는 것과 달리, 바이오프린팅은 세포, 펩타이드, 성장 호르몬 및 기타 생물학적 구성 요소로 만든 생체 잉크를 사용합니다. 바이오프린터는 이러한 생체 잉크를 층층히 쌓아 복잡한 생물학적 구조물을 형성합니다.
 
@@ -35,7 +40,18 @@ isUpdated: true
 
 - 레이저는 바이오프린팅에서 정밀성과 제어를 위해 사용됩니다. 레이저는 매우 작은 영역에 초점을 맞출 수 있어서 복잡한 세포 구조물의 고해상도 프린팅이 가능합니다. 게다가 레이저는 세포와 생체 잉크를 손상시키지 않고 다룰 수 있어서 인쇄된 조직의 생존 가능성을 보장합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 펩타이드
 
@@ -45,7 +61,18 @@ isUpdated: true
 
 - 성장 호르몬은 세포 증식과 분화를 촉진하는 데 중요합니다. 생체 잉크에 성장 호르몬을 첨가함으로써 인쇄된 조직의 성숙화와 발달을 가속화할 수 있습니다. 이는 기능적 조직 및 장기를 만들고 기존 구조체와 통합할 수 있는 중요한 과정입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 줄기 세포
 
@@ -55,7 +82,18 @@ isUpdated: true
 
 ## 프린터 프레임워크 설계
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 프린터용 견고하고 정밀한 프레임워크를 설계하는 것부터 시작해보세요. 이 프레임워크는 프린팅 헤드의 이동을 세 가지 차원(X, Y, Z 축)에서 가능하게 해야 합니다. 정밀한 위치 조정을 위해 고정밀 모터와 액추에이터가 중요합니다.
 
@@ -65,7 +103,18 @@ isUpdated: true
 
 ## 바이오잉크 개발
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 줄기 세포, 펩타이드 및 성장 호르몬을 결합하여 바이오잉크를 생성하세요. 바이오잉크의 조성은 인쇄하려는 조직의 유형에 따라 다양할 수 있습니다. 세포 성장과 분화를 지원하기 위해 바이오잉크의 점도와 생물학적 활성이 적절한지 확인하세요.
 
@@ -75,7 +124,18 @@ isUpdated: true
 
 ## 인쇄 및 후처리
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 원하는 조직 구조에 맞게 생체 잉크를 층층이 적층하여 인쇄 과정을 시작합니다. 인쇄 후에는 성장과 발달을 위해 조직을 통제된 환경에서 배양합니다. 조직 종류에 따라 영양 공급 및 기계적 가공과 같은 추가 후처리 단계가 필요할 수 있습니다.
 
@@ -85,7 +145,18 @@ isUpdated: true
 
 ## 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 레이저, 펩타이드, 성장 호르몬 및 줄기 세포를 사용하여 생물학적 3D 프린터를 구축하는 것은 야심찬 도전적이지만 달성할 수 있는 목표입니다. 이러한 첨단 기술을 결합함으로써 의학과 건강 상태 다양한 범위의 질병을 치료하는 새로운 가능성을 창출할 수 있습니다. 생체 프린팅의 여정은 시작에 불과하며, 미래에는 이 분야에서 혁신과 발견에 대한 흥미진진한 잠재력이 기다리고 있습니다.
 

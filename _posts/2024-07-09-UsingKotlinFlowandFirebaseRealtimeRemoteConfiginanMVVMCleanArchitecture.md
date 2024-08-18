@@ -3,17 +3,13 @@ title: "MVVM 클린 아키텍처에서 Kotlin Flow와 Firebase Realtime Remote C
 description: ""
 coverImage: "/milky-road.github.io/assets/no-image.jpg"
 date: 2024-07-09 10:41
-ogImage: 
+ogImage:
   url: /milky-road.github.io/assets/no-image.jpg
 tag: Tech
 originalTitle: "Using Kotlin Flow and Firebase Realtime Remote Config in an MVVM Clean Architecture"
 link: "https://medium.com/@jaafoura.kais/using-kotlin-flow-and-firebase-realtime-remote-config-in-an-mvvm-clean-architecture-e9934f4b76ba"
 isUpdated: true
 ---
-
-
-
-
 
 # 소개
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 준비물
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **GCP에서 실시간 원격 구성 활성화하기**
 
@@ -36,7 +43,18 @@ isUpdated: true
 
 이제 코드로 넘어가기 전에 위 사항을 확인해주세요. 문제가 발생하거나 궁금한 점이 있으면 언제든지 질문해주세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **중요 사항:** 이 API는 이미 활성화되어 있어야 하지만, 두 번 확인하는 것이 좋습니다.
 
@@ -48,7 +66,18 @@ Clean Architecture는 우리의 구현을 위한 견고한 구조를 제공합�
 - 도메인 레이어: config 매개변수와 관련된 비즈니스 로직을 캡슐화하여 관심사의 깔끔한 분리를 보장합니다.
 - 프레젠테이션 레이어: config 변경에 반응하여 MVVM 및 Jetpack Compose를 사용하여 실시간으로 UI를 업데이트합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 구현: 실시간 업데이트의 작동 방식
 
@@ -68,7 +97,18 @@ dependencies {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 당신의 애플리케이션에서 Firebase를 초기화하세요.
 
@@ -78,7 +118,18 @@ callbackFlow 함수는 우리의 경우에는 문자열 Flow의 인스턴스를 
 
 업데이트가 발생하면 새 값이 지정된 키에 대해 trySend를 사용하여 전송하려고 노력합니다. awaitClose는 Flow가 취소될 때 정리 작업을 정의하는 데 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Using awaitClose in your code is essential to avoid any lingering resources that may cause a decrease in app performance or unexpected issues over time.
 
@@ -105,7 +156,18 @@ interface RealtimeRemoteConfigRepository {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이제 Hilt 모듈을 구현하여 인터페이스를 데이터 레이어의 구현과 연결할 수 있습니다.
 
@@ -115,7 +177,7 @@ abstract class RealTimeRemoteConfigModule {
     @Binds
     abstract fun providesRealTimeRemoteConfig(repository: FirebaseRealtimeRemoteConfigRepository): RealtimeRemoteConfigRepository
 }
-```  
+```
 
 - 구성값을 가져와 처리하는 로직을 캡슐화하기 위한 유스케이스를 생성하세요:
 
@@ -125,9 +187,20 @@ class GetRemoteConfigUseCase @Inject constructor(
 ) {
     operator fun invoke(key: String): Flow<String> = repository.getConfig(key)
 }
-```  
+```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Presentation Layer (ViewModel):
 
@@ -146,7 +219,18 @@ class MainViewModel @Inject constructor(
 
 Jetpack Compose (UI):
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 내 적응 가능과 UI를 반응적으로 업데이트하세요:
 

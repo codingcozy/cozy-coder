@@ -3,18 +3,13 @@ title: "Angular에서 Constructor 컴포넌트 활용 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-UtilizingConstructorComponentsinAngular_0.png"
 date: 2024-07-09 10:34
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-UtilizingConstructorComponentsinAngular_0.png
 tag: Tech
 originalTitle: "Utilizing Constructor Components in Angular"
 link: "https://medium.com/@bobrovice/utilizing-constructor-components-in-angular-2289cd950051"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![Constructor components in Angular](/assets/img/2024-07-09-UtilizingConstructorComponentsinAngular_0.png)
 
@@ -24,8 +19,18 @@ Angular의 Constructor 구성 요소들은 ng-content의 모든 가능성을 최
 
 다음과 같이 보통의 카드 구성 요소를 고려해 보겠습니다:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <div class="container">
@@ -44,7 +49,18 @@ Angular의 Constructor 구성 요소들은 ng-content의 모든 가능성을 최
 
 비핵심 요소를 ng-content로 대체하여 카드 컴포넌트를 간단하게 만들고 더 유연하게 만들 수 있습니다. 이렇게 하면 카드가 동적 콘텐트의 컨테이너로 작동할 수 있습니다. 동적 콘텐트는 부모 컴포넌트에서 제공할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에 리팩토링된 카드 컴포넌트의 모습을 소개합니다:
 
@@ -62,7 +78,18 @@ Angular의 Constructor 구성 요소들은 ng-content의 모든 가능성을 최
 
 # 리팩토링된 컴포넌트 사용하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리팩토링된 카드 컴포넌트를 사용하려면 부모 컴포넌트에서 다음과 같이 내용을 정의할 수 있어요:
 
@@ -78,7 +105,18 @@ Angular의 Constructor 구성 요소들은 ng-content의 모든 가능성을 최
 
 <img src="https://miro.medium.com/v2/resize:fit:852/1*WqeRE4DdLnuQqJzZWw7mdw.gif" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 생성자 컴포넌트의 이점
 

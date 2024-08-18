@@ -3,17 +3,13 @@ title: "초보자를 위한 디스코드에서 Midjourney 시작하기 단계별
 description: ""
 coverImage: "/assets/img/2024-06-22-GettingStartedwithMidjourneyonDiscordAStep-by-StepGuideforBeginners_0.png"
 date: 2024-06-22 21:41
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-GettingStartedwithMidjourneyonDiscordAStep-by-StepGuideforBeginners_0.png
 tag: Tech
 originalTitle: "Getting Started with Midjourney on Discord: A Step-by-Step Guide for Beginners"
 link: "https://medium.com/@mericreativAI/getting-started-with-midjourney-on-discord-a-step-by-step-guide-for-beginners-e6a3e91048ce"
 isUpdated: true
 ---
-
-
-
-
 
 ## Midjourney는 텍스트 프롬프트에서 AI가 생성한 이미지를 생성하는 흥미로운 도구이지만, Discord와 AI 이미지 생성에 처음 접하는 경우 과정이 다소 어렵게 느껴질 수 있습니다. 이 안내서는 Discord 설정부터 Midjourney를 사용하여 첫 AI 이미지를 생성하는 단계까지 안내해 드립니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 AI 생성 이미지의 잠재적인 사용 범위는 매우 넓습니다. 개인 프로젝트에서부터 창의적 영감, 비즈니스 그래픽, 웹사이트 디자인 및 수동 소득 창출까지 가능성은 무한합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작가로서 AI 도구를 자주 활용하는 저는 Midjourney AI를 가장 사용하기 편리하고 효율적인 이미지 생성기로 발견했습니다. Midjourney나 다른 AI 응용 프로그램과는 관련이 없으며 이들로부터 어떠한 보상도 받지 않지만, 여전히 제가 가장 선호하는 이 제품에 대한 초보자를 위한 안내서를 공유하고 싶었습니다. 게다가 Night Cafe AI를 사용하는 것도 좋아하는데, 이미지 생성을 위한 매일 무료 크레딧을 제공하기 때문입니다.
 
@@ -33,7 +40,18 @@ Midjourney를 사용해보고 싶다면, 시작하는 방법에 대한 안내서
 
 ## 초보자를 위한 Midjourney Discord 시작 가이드: 단계별 안내법
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 1: 디스코드 설정
 
@@ -45,7 +63,18 @@ Midjourney를 사용해보고 싶다면, 시작하는 방법에 대한 안내서
 
 2. 디스코드 앱 다운로드 (선택 사항):
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 웹 브라우저를 통해 디스코드를 사용할 수 있지만 더 나은 경험을 위해 디스코드의 다운로드 페이지에서 컴퓨터나 휴대폰용 앱을 다운로드하세요.
 
@@ -55,7 +84,18 @@ Midjourney를 사용해보고 싶다면, 시작하는 방법에 대한 안내서
 
 ## 단계 2: Midjourney 디스코드 서버 가입하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 초대 링크 받기: [여기를 클릭하여 Discord 초대 링크를 받아보세요](https://discord.com/invite/midjourney)
 
@@ -65,8 +105,18 @@ Midjourney를 사용해보고 싶다면, 시작하는 방법에 대한 안내서
 
 - 초대 링크를 클릭한 후 "초대 수락"을 클릭해주세요. 이렇게 하면 Midjourney Discord 서버로 이동됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Getting Started with Midjourney on Discord: A Step-by-Step Guide for Beginners](/assets/img/2024-06-22-GettingStartedwithMidjourneyonDiscordAStep-by-StepGuideforBeginners_1.png)
 
@@ -77,9 +127,18 @@ Midjourney를 사용해보고 싶다면, 시작하는 방법에 대한 안내서
 - On the left sidebar, you’ll see various channels. Channels are like rooms where specific topics are discussed.
 - Look for channels like #newbies, #announcements, and #rules to get started.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Getting Started with Midjourney on Discord - A Step-by-Step Guide for Beginners](/assets/img/2024-06-22-GettingStartedwithMidjourneyonDiscordAStep-by-StepGuideforBeginners_2.png)
 
@@ -89,8 +148,18 @@ Midjourney를 사용해보고 싶다면, 시작하는 방법에 대한 안내서
 
 ![Getting Started with Midjourney on Discord - A Step-by-Step Guide for Beginners](/assets/img/2024-06-22-GettingStartedwithMidjourneyonDiscordAStep-by-StepGuideforBeginners_3.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 4: 첫 번째 AI 이미지 생성하기
 
@@ -100,7 +169,18 @@ Midjourney를 사용해보고 싶다면, 시작하는 방법에 대한 안내서
 
 ![이미지](/assets/img/2024-06-22-GettingStartedwithMidjourneyonDiscordAStep-by-StepGuideforBeginners_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 봇 사용하기:
 
@@ -112,8 +192,18 @@ Midjourney를 사용해보고 싶다면, 시작하는 방법에 대한 안내서
 
 Midjourney 봇이 요청을 처리하고 프롬프트에 기반한 네 개의 이미지를 생성합니다. 이는 일반적으로 1분 이내에 완료됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Upscaling Images](/assets/img/2024-06-22-GettingStartedwithMidjourneyonDiscordAStep-by-StepGuideforBeginners_5.png)
 
@@ -123,8 +213,18 @@ Midjourney 봇이 요청을 처리하고 프롬프트에 기반한 네 개의 �
 
 ![Another Image](/assets/img/2024-06-22-GettingStartedwithMidjourneyonDiscordAStep-by-StepGuideforBeginners_6.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5. 다양성:
 
@@ -134,7 +234,18 @@ Midjourney 봇이 요청을 처리하고 프롬프트에 기반한 네 개의 �
 
 6. 이미지 저장하기:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 최종 확대된 이미지를 클릭한 후, 확대된 이미지를 오른쪽 클릭하여 "이미지 다른 이름으로 저장..."을 선택하여 디바이스에 다운로드하세요.
 
@@ -144,7 +255,18 @@ Midjourney 봇이 요청을 처리하고 프롬프트에 기반한 네 개의 �
 
 - 여러분의 작품 공유하기:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 적절한 채널에서 이미지를 공유하고 다른 사람들이 무엇을 만들고 있는지 확인해보세요.
 

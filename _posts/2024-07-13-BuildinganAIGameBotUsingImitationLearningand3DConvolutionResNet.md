@@ -3,7 +3,7 @@ title: "3D 합성곱 ResNet과 모방 학습으로 AI 게임 봇 만드는 방�
 description: ""
 coverImage: "/assets/img/2024-07-13-BuildinganAIGameBotUsingImitationLearningand3DConvolutionResNet_0.png"
 date: 2024-07-13 22:50
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-BuildinganAIGameBotUsingImitationLearningand3DConvolutionResNet_0.png
 tag: Tech
 originalTitle: "Building an AI Game Bot Using Imitation Learning and 3D Convolution ResNet"
@@ -11,15 +11,22 @@ link: "https://medium.com/gopenai/building-an-ai-game-bot-using-imitation-learni
 isUpdated: true
 ---
 
-
-
-
-
 # 인사
 
 안녕하세요 여러분, 이번 글은 정말 재미있을 거라고 확신합니다. AI를 사용해 게임을 플레이하는 방법에 대해 많이 배우게 될 거예요. 이 글은 게임을 플레이하는 AI 엔진을 만드는 내용이지만, 배운 내용은 프로젝트를 더 진지하게 다룰 때에도 활용할 수 있어요. 이전 글에서 언급한 것처럼 게임을 활용해 AI를 구축해 나가는 장점은 실험을 많이 해볼 수 있고 그 결과가 심각성을 가지고 있기 때문입니다. 보통 게임에서는 에이전트를 훈련시키기 위해 강화학습을 사용합니다. 이 방법도 가능하지만, 자신만의 시뮬레이터를 구축하는 데 많은 노력이 필요합니다. 하지만 이번에는 구글의 스네이크 게임을 하는 AI를 만들어볼 거에요. 여러분들은 게임을 직접 만들 필요는 없습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 넓게 말하자면, 우리가 할 일은 이런 거야. Imitation learning 기술을 사용할 거야. 에이전트가 의사 결정하는 방법을 배우는 거지. 이 말은 우리가 먼저 게임을 한 동안 플레이하고 데이터를 수집한다는 뜻이야. 그리고 나서 AI가 이 데이터를 사용해서 어떻게 게임을 플레이하고 인간의 행동에서 패턴을 찾아내는지 학습할 거야. 이게 imitation learning이라고 해. (transfer learning과 혼동하지 말도록!)
 
@@ -29,7 +36,18 @@ isUpdated: true
 
 P.S. 문서 맨 끝에 완전한 코드 저장소를 찾아볼 수 있어.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 데이터 수집
 
@@ -116,17 +134,39 @@ while True:
         )
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 번 이 스크립트를 실행하면 게임을 시작할 수 있어요. 배경에서는 스크립트가 계속해서 게임 화면의 스크린샷을 저장하고 고유한 타임스탬프와 현재 눌린 키를 이름으로 하는 이미지를 만들 거에요. 키가 눌리지 않을 때는 n으로 표시돼요.
 
 이렇게 이미지가 저장된 후 디렉토리가 보일 거예요.
 
-![Image](/assets/img/2024-07-13-BuildinganAIGameBotUsingImitationLearningand3DConvolutionResNet_1.png)  
+![Image](/assets/img/2024-07-13-BuildinganAIGameBotUsingImitationLearningand3DConvolutionResNet_1.png)
 
 # 이미지 폴더를 CSV 파일로 변환하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 이제 이미지들을 파일 이름과 해당 동작으로 이루어진 csv 파일로 변환할 수 있어요. 이 작업은 새 파일 process.ipynb에서 수행합니다.
 
@@ -136,7 +176,18 @@ while True:
 - 이미지 분류: 눌린 키를 기준으로 각 이미지를 0(키가 눌리지 않은 상태), 1(왼쪽), 2(위쪽), 3(오른쪽), 4(아래쪽) 중 하나의 클래스로 분류해요. 이 정보는 'labels'라는 리스트에 이미지 파일 이름과 함께 저장돼요.
 - 레이블 작성: 마지막으로 레이블을 CSV 파일에 작성해요. 이 데이터셋은 이제 이미지를 통해 키가 눌리는 방향을 인식하는 머신 러닝 모델을 훈련하는 데 사용할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 새 파일 snake_resnet.ipynb을 생성합니다.
 
@@ -160,7 +211,18 @@ from torchvision.models.video import r3d_18, R3D_18_Weights, mc3_18, MC3_18_Weig
 
 # 데이터셋 생성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시작하기 전에, PyTorch를 사용하여 사용자 정의 데이터셋 객체를 만들어야 합니다. 이 데이터셋은 시간순으로 정렬된 네 장의 이미지 스택으로 구성됩니다. 데이터셋에서 가져온 각 항목은 마지막 프레임과 연결된 키프레스를 나타냅니다. 이 데이터셋은 실제로 마지막 네 프레임을 통해 동작을 포착하고 그것을 키프레스와 연관시킵니다.
 
@@ -189,13 +251,24 @@ class SnakeDataSet(Dataset):
                 if self.transform:
                     images = [self.transform(image) for image in images]
             return torch.stack(images, dim=1).squeeze(), label
-``` 
+```
 
 이 코드를 자세히 살펴보겠습니다:
 
-- 초기화(__init__ 메서드):
+- 초기화(**init** 메서드):
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 데이터세트 개요:
 
@@ -204,13 +277,24 @@ class SnakeDataSet(Dataset):
 - `stack_size`: 하나의 데이터 포인트로 함께 쌓을 이미지 수입니다.
 - `transform`: 이미지 변환을 위한 선택적 매개변수로, 데이터 증가(Data Augmentation) 등을 포함할 수 있습니다.
 
-### 길이 메소드 (__len__ 메소드):
+### 길이 메소드 (**len** 메소드):
 
 - 데이터셋의 길이, 즉 총 데이터 포인트 수를 반환합니다. 길이는 `key_frame`의 길이에서 `stack_size`를 세 번 곱한 값으로 계산됩니다. 이는 데이터셋이 이미지 시퀀스를 포함하며, 각 데이터 포인트가 이미지 스택으로 구성되어 있다는 것을 나타냅니다.
 
-### 아이템 가져오기 메소드 (__getitem__ 메소드):
+### 아이템 가져오기 메소드 (**getitem** 메소드):
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 인덱스 idx를 가져와 해당 데이터 포인트를 반환합니다.
 - 이 코드는 인덱스 idx부터 시작하는 이미지 시퀀스를 로드하려고 합니다. 지정된 stack_size와 root_dir을 기반으로 이미지 파일 경로 목록(img_names)을 구성합니다.
@@ -227,7 +311,18 @@ class SnakeDataSet(Dataset):
 
 ![이미지](/assets/img/2024-07-13-BuildinganAIGameBotUsingImitationLearningand3DConvolutionResNet_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 PyTorch의 RandomWeightedSampler를 사용하여 문제를 해결할 수 있습니다. RandomWeightedSampler는 각 샘플의 가중치를 입력으로 취합니다. 아래의 코드를 사용하여 이러한 가중치를 계산합니다.
 
@@ -255,7 +350,18 @@ test_sampler = WeightedRandomSampler(test_example_weights, len(test))
 
 각 샘플의 가중치를 계산하려면 먼저 scikit-learn (sklearn) 라이브러리의 train_test_split 메서드를 사용하여 데이터셋 csv를 train과 test로 분할합니다. 그 후 고유한 레이블 및 각 레이블의 발생 빈도를 가져옵니다. 이를 통해 데이터셋 내 클래스의 분포를 이해할 수 있습니다. 그런 다음 모든 카운트(데이터셋의 크기)의 합을 해당 클래스의 발생 빈도로 나누어 각 클래스의 가중치를 계산합니다. 이를 통해 데이터셋에서 각 클래스의 중요성을 파악할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 단계는 각 예제의 가중치를 지정하여 예제에 클래스 가중치를 할당하는 것입니다. 이것은 데이터셋을 반복하고 각 샘플에 클래스 레이블에 기반한 가중치를 할당하여 수행됩니다. 특정 이미지와 관련된 레이블은 사실 이미지의 인덱스 + STACK_SIZE의 레이블입니다. 이렇게 함으로써 각 샘플이 해당하는 클래스 레이블에 기반하여 올바른 가중치를 부여받도록 합니다.
 
@@ -270,7 +376,18 @@ test_dataset = SnakeDataSet(root_dir="captures", dataframe=test, stack_size=STAC
 test_dataloader = DataLoader(test_dataset, batch_size=BATCH_SIZE, sampler=test_sampler, drop_last=True)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 변형 생성
 
@@ -298,16 +415,25 @@ compute_mean_std(dataloader)
 
 이렇게 하면 평균과 표준 편차를 반환하며, 아래 변환에 적용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 transformer = Compose([
-    Resize((84,84), antialias=True),
-    CenterCrop(84),
-    ToTensor(),
-    Normalize(mean =[ -0.7138, -2.9883,  1.5832], std =[0.2253, 0.2192, 0.2149]) 
+Resize((84,84), antialias=True),
+CenterCrop(84),
+ToTensor(),
+Normalize(mean =[ -0.7138, -2.9883, 1.5832], std =[0.2253, 0.2192, 0.2149])
 ])
-
 
 This spell works like magic! It transforms the image into a perfect 84x84 size, then enhances its powers with center cropping, turning it into a powerful tensor, and finally balancing its energies through normalization.
 
@@ -315,14 +441,22 @@ This spell works like magic! It transforms the image into a perfect 84x84 size, 
 
 Just as the tarot cards reveal secrets, we shall unravel the mysteries of the model we are about to create. Prepare yourselves as we delve into the realm of PyTorch and unveil the enigmatic r3d model - a mystical convolution spell infused with the arcane knowledge of ResNet architecture.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 model = r3d_18(weights = R3D_18_Weights.DEFAULT)
 model.fc = nn.Linear(in_features=512, out_features=5, bias=True)
 summary(model, (32,3,4,84,84))
-
 
 우리는 기본 가중치를 로드하고 마지막 완전 연결 레이어를 교체하여 우리 애플리케이션에서 요구되는 5가지 출력 클래스를 예측합니다. 네트워크는 이렇게 구성되어 있습니다. 약 3300만 개의 학습 가능한 매개변수가 있습니다.
 
@@ -330,8 +464,18 @@ summary(model, (32,3,4,84,84))
 
 # 모델 훈련하기
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 모델을 마침내 훈련할 수 있습니다. 먼저 옵티마이저와 손실 기준을 만듭니다. 여기서는 학습률을 10e-5, 가중치 감소를 0.1로 사용합니다.
 
@@ -401,7 +545,18 @@ for epoch in range(num_epochs):
     torch.save(model.state_dict(), "model_r3d.pth")
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 게임 플레이
 
@@ -457,7 +612,7 @@ while True:
 
     image = cv2.cvtColor(
         np.array(Image.open(io.BytesIO(canvas_png))), cv2.COLOR_BGR2RGB
-    ) 
+    )
     frame_stack.append(transformer(image))
     input = torch.stack([*frame_stack], dim=1).to(device).squeeze().unsqueeze(0)
     if len(frame_stack) == 4:
@@ -470,7 +625,18 @@ while True:
 
 이 스크립트를 실행하면 뱀이 플레이되는 것을 볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Snake Game AI](https://miro.medium.com/v2/resize:fit:1200/1*rtqi2zJcne0xqJQyd9YSGw.gif)
 
@@ -480,7 +646,18 @@ Google Snake를 위한 AI 게임 봇을 만드는 여정을 마무리하며, 이
 
 우리는 먼저 이미테이션 러닝의 중요성을 이해하고, 인간의 게임 플레이를 통해 AI 에이전트를 훈련시키는 데 초점을 맞췄습니다. 3D Convolution ResNet 모델의 사용으로 우리는 게임 네 개의 프레임을 쌓아 움직임을 정확하게 캡처할 수 있었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실용적인 세부 사항이 포함된 데이터 수집은 Selenium을 사용하여 레이블링된 데이터 세트를 생성하고 PyTorch 친화적 형식으로 변환하는 작업을 다뤘습니다. WeightedRandomSampler를 통해 클래스 불균형을 해결하는 중요성을 강조했습니다.
 
@@ -490,10 +667,20 @@ Google Snake를 위한 AI 게임 봇을 만드는 여정을 마무리하며, 이
 
 간결한 이 가이드를 통해 당신은 모방 학습과 3D 합성 ResNet 모델을 통해 게임에서 인공지능을 습득하며, 이는 보다 넓은 인공지능 응용 분야로 확장될 수 있는 기술을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GitHub Repository: akshayballal95/autodrive-snake를 블로그(github.com)에서 확인해보세요.
-
 
 Want to Connect?
 

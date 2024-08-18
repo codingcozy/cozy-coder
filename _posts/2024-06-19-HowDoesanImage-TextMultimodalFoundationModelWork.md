@@ -3,18 +3,13 @@ title: "이미지-텍스트 다중모달 기반 모델은 어떻게 작동하나
 description: ""
 coverImage: "/assets/img/2024-06-19-HowDoesanImage-TextMultimodalFoundationModelWork_0.png"
 date: 2024-06-19 06:47
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-HowDoesanImage-TextMultimodalFoundationModelWork_0.png
 tag: Tech
 originalTitle: "How Does an Image-Text Multimodal Foundation Model Work"
 link: "https://medium.com/towards-data-science/how-does-an-image-text-foundation-model-work-05bc7598e3f2"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![How Does an Image-Text Multimodal Foundation Model work](/assets/img/2024-06-19-HowDoesanImage-TextMultimodalFoundationModelWork_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 본 문서에서는 CoCa라는 간단한 이미지-텍스트 이중 모드 모델을 사용하여 다중 모드 모델의 내부 작업 방식을 설명합니다. 저는 CoCa를 좋아합니다. CoCa는 직관적인 디자인을 가지고 있으며, 다른 다중 모드 모델에서 아이디어를 차용했습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 왜 이미지-텍스트 모델인가?
 
@@ -35,7 +40,18 @@ isUpdated: true
 
 예를 들어 ResNet과 같은 단일 이미지 모달 모델은 오직 이미지에서 정보를 배우고, 이미지 분류와 같은 기본적인 이미지 이해 작업을 수행할 수 있습니다. 이는 이미지를 미리 정의된 클래스 집합 중 하나로 분류하는 작업을 말합니다. 예를 들어, 고양이 클래스 또는 개 클래스로 이미지를 분류합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단일 텍스트 모달리티 모델은 트랜스포머와 같이 텍스트만을 통해 정보를 학습하며, 이전 단어들을 기반으로 다음 단어를 예측하는 작업과 같은 작업을 수행할 수 있어요.
 
@@ -43,7 +59,18 @@ isUpdated: true
 
 위 두 가지 단일 모달리티 모델은 다음과 같은 작업을 수행할 수 없어요. 두 마리 개가 달리는 그림을 달리는 예시로 사용해볼게요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-HowDoesanImage-TextMultimodalFoundationModelWork_1.png)
 
@@ -57,7 +84,18 @@ isUpdated: true
 - 전역 수준에서, 개념이 "모래 위를 나란히 뛰는 두 마리 개"임을 의미합니다.
 - 지역 수준에서, 모델은 이미지 일부가 한 마리 개에 대한 것이고 다른 부분은 다른 개에 대한 것이며 그들이 달리고 있다는 사실을 이해해야 합니다. 텍스트도 마찬가지로 다수의 개에 관해 이야기하며 달리는 것에 대해 이야기합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 전역 이미지 및 텍스트 정보 정렬 방법
 
@@ -67,7 +105,18 @@ isUpdated: true
 
 위 그림은 훈련 중에 모델이 입력 이미지-텍스트 쌍 (이미지ᵢ, 텍스트ᵢ)를 받았을 때의 상황을 보여줍니다. "i"아래 첨자가 있는 이유는 (이미지ᵢ, 텍스트ᵢ)가 미니 배치 내의 쌍 세트 중 하나임을 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단계 1. 이미지 입력 이미지ᵢ는 해상도가 288×288이고 RGB 채널이 세 개인 고정 크기의 컬러 이미지입니다. ViT 인코더와 attentional pooling 구성 요소를 거쳐, 이 288×288×3 이미지는 형태가 257×512인 텐서로 변환됩니다. 이 변환에 대한 자세한 설명은 나중에 설명할 예정이니 일단은 이미지가 256개의 작은 패치로 나뉘고, 리스트 끝에 새로운 클래스 패치를 추가하여 이러한 패치 간 정보를 섞는다는 것만 이해하면 됩니다. 이 모델은 257×512 출력 텐서를 두 부분으로 분할합니다.
 
@@ -78,7 +127,18 @@ isUpdated: true
 
 예를 들어, 특수 단어가 추가된 후 "w₁ w₂ w₃"라는 문장은 "START w₁ w₂ w₃ PAD PAD … END CLS"가 됩니다. 이로써 400단어로 된 텍스트 입력이 생성됩니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - START 단어는 텍스트의 시작을 나타냅니다.
 - END 단어는 텍스트의 끝을 나타냅니다.
@@ -91,7 +151,18 @@ isUpdated: true
 - 첫 399행은 text_tokenᵢ로, 399×512 형태로 구성되며 실제 단어들에 대한 로컬 레벨 텍스트 정보를 나타냅니다.
 - 마지막 행은 text_clsᵢ로, 1×512 형태로 구성되며 글로벌 레벨 텍스트 정보를 나타냅니다. 다시 한 번 강조하면 이 고정 크기의 text_clsᵢ 텐서가 얼마나 강력한지 이해하는 것이 중요합니다: 원래 입력 문장이 얼마나 길든 상관없이 256개의 길이를 가진 텐서입니다! text_clsᵢ 벡터의 크기가 글로벌 이미지 정보 벡터 img_clsᵢ의 크기와 동일하기 때문에, 이미지와 문장 사이의 유사성을 계산하는 방법을 이미 알 수 있습니다. 그 길이가 같은 벡터들 사이의 점곱입니다. 또한, OpanAI 텍스트 임베딩 API가 비슷한 작업을 수행한다고 상상할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모델은 미리 훈련된 언어 모델 변환기를 사용하지 않으며, 이 변환기의 매개변수를 최적화합니다.
 
@@ -102,9 +173,20 @@ isUpdated: true
 - 이미지ᵢ에 대한 전체 수준 이미지 정보 벡터 img_clsᵢ는 다른 모든 (이미지, 텍스트) 쌍의 텍스트에서 가져온 전역 텍스트 정보 텐서와 유사해서는 안 됩니다.
 - 텍스트ᵢ에 대한 전체 수준 텍스트 정보 text_clsᵢ 벡터는 다른 모든 (이미지, 텍스트) 쌍의 이미지에서 가져온 전역 이미지 정보 텐서와 유사해서는 안 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-위의 비유사점을 전체 훈련 데이터 세트에서 모든 (이미지, 텍스트) 쌍에 대해 계산하는 것은 분명히 매우 비싸다. 대안으로, 훈련 중에 대조 손실은 크기 N의 미니 배치 내에서 (이미지, 텍스트) 쌍에 대해서만 계산됩니다. 이 미니 배치에는 (이미지₁, 텍스트₁), (이미지₂, 텍스트₂), ..., (이미지_N, 텍스트_N)의 N개의 쌍이 포함됩니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+위의 비유사점을 전체 훈련 데이터 세트에서 모든 (이미지, 텍스트) 쌍에 대해 계산하는 것은 분명히 매우 비싸다. 대안으로, 훈련 중에 대조 손실은 크기 N의 미니 배치 내에서 (이미지, 텍스트) 쌍에 대해서만 계산됩니다. 이 미니 배치에는 (이미지₁, 텍스트₁), (이미지₂, 텍스트₂), ..., (이미지\_N, 텍스트\_N)의 N개의 쌍이 포함됩니다.
 
 전체 대조 손실은 다음과 같습니다:
 
@@ -112,7 +194,18 @@ isUpdated: true
 
 위의 수식에서:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - img_clsᵢ은 (imageᵢ, textᵢ) 쌍의 이미지에서 가져온 전역 수준 이미지 정보 텐서입니다.
 - text_clsᵢ는 (imageᵢ, textᵢ) 쌍의 텍스트에서 가져온 전역 수준 텍스트 정보 텐서입니다.
@@ -130,7 +223,18 @@ isUpdated: true
 
 ## 텍스트 기반 이미지 검색
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 텍스트 검색 쿼리인 "two dogs running side by side"와 같이 사용되는 언어 모델 변환기를 사용하여 글로벌 수준의 텍스트 정보 텐서를 생성한 후, 이 텐서를 검색 키로 사용하여 글로벌 수준의 이미지 정보 텐서를 저장하는 데이터베이스에서 해당 키로 이미지를 검색하여 유사한 이미지를 검색합니다. 순위 결정 기준은 내적 유사도입니다.
 
@@ -140,7 +244,18 @@ isUpdated: true
 
 ## 이미지 분류
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지 분류 작업에는 "개" 또는 "고양이" 또는 "테니스 라켓"과 같은 각 클래스가 단문인 사전 정의된 클래스 집합이 함께 제공됩니다.
 
@@ -151,7 +266,18 @@ isUpdated: true
 - 강아지 클래스에 대해 "이것은 개의 사진입니다",
 - 고양이 클래스에 대해 "이것은 고양이의 사진입니다".
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로, 각 문장에 대해 언어 모델 변환기를 사용하여 전역 수준의 텍스트 정보 텐서를 생성하십시오. 입력 이미지를 처리하여, 점곱 방식에서 이미지 정보 텐서와 가장 유사한 전역 수준 텍스트 정보 텐서를 갖는 클래스로 이미지를 분류합니다.
 
@@ -161,7 +287,18 @@ isUpdated: true
 
 캡션은 문장입니다. 입력 이미지에 대한 문장을 모델이 어떻게 예측할 수 있을까요? "START two running dogs END"와 같은 특수 단어를 문장에 추가하여, 모델은 다음을 훈련할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이미지와 첫 번째 단어 "START"가 주어지면, 다음 단어 "two"를 예측합니다. 특별 단어를 추가하는 좋은 점은 항상 특별 "START" 단어를 사용할 수 있다는 것입니다. 우리는 이를 첫 번째 예측된 단어로 취급합니다.
 - 그런 다음 이미지와 지금까지 예측된 단어인 "START two"가 주어지면, 모델은 다음 단어 "running"을 예측할 수 있습니다.
@@ -174,7 +311,18 @@ isUpdated: true
 
 우리의 (이미지ᵢ, 텍스트ᵢ) 쌍에 대한 이미지 캡션 작업에서, 이전에 예측된 모든 단어 및 로컬 수준 이미지 정보 img_tokensᵢ를 고려하여 다음 단어의 확률을 예측할 수 있는 모델이 필요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Notationally, we define this word probability predictor as:
 
@@ -186,7 +334,18 @@ where:
 - T is the length, or the number of words, of textᵢ.
 - img_tokensᵢ is the local level image information tensor, which is created by the ViT + attentional pooling component.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 위 단어 확률 예측기를 우리의 신경망이 어떻게 구현하는지?
 
@@ -196,7 +355,18 @@ where:
 
 이 그림은 이전 그림에서 대조 손실을 계산하는 단계 3을 공간을 절약하기 위해 생략했습니다. 그러나 단계 3이 여전히 대조 손실을 생성하기 위해 존재함을 상기해주시기 바랍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4단계. 동일한 언어 모델 변환기는 399×512 형태의 로컬 수준 텍스트 정보 텐서인 text_tokensᵢ를 새로운 동일한 형태의 텐서 cross_attended_textᵢ로 변환합니다. 이 변환 과정에서 로컬 수준 이미지 정보 텐서인 img_tokensᵢ가 교차 주의를 통해 결과 텐서에 섞입니다. 이를 통해 로컬 수준 텍스트 정보와 이미지 정보 간의 조정이 이루어집니다. 교차 주의에서는 메인 계산이 점곱이기 때문에 로컬 이미지와 텍스트 해석 간의 이 조정이 더 타당해집니다.
 
@@ -206,7 +376,18 @@ word_probability_matrixᵢ의 각 행의 값, 예를 들어 w₁_prob, w₂_prob
 
 중요한 한 가지 관찰 결과는 word_probability_matrixᵢ에서 첫 번째 행은 시작 단어 START를 주면서 w₁에 대한 단어 확률로 해석됩니다. 두 번째 행은 START와 w₁을 주면서 w₂에 대한 확률을 나타내며, 세 번째 행은 START, w₁ 및 w₂를 주면서 w₃에 대한 확률을 보여줍니다. 입력 텐서와 출력 텐서 간의 이 일회성 조정을 통해 모든 이전 단어를 고려한 다음 단어 예측 메커니즘이 구현됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "단어 확률로 해석된다"는 무슨 뜻인가요? 이것은 단어 예측 정확도를 측정하는 새로운 손실 함수인 캡션 손실에 관한 맥락에서 의미가 있습니다. 이 캡션 손실은 각 예측된 단어 확률 텐서와 실제 실제 단어 간의 교차 엔트로피를 사용하여 예측 정확도를 측정하며, 이 정확도를 최대화하고자 합니다. 즉, 적도로, 이것을 최소화하고자 합니다.
 
@@ -216,7 +397,18 @@ word_probability_matrixᵢ의 각 행의 값, 예를 들어 w₁_prob, w₂_prob
 
 다음 그림은 단어 확률 벡터 w₁_prob이 "two"라는 단어의 원핫(one-hot) 인코딩과 비교되어 "two"에 대한 w₁_prob의 항목이 커야 한다는 것을 요청하는 방식을 보여줍니다. 이 말은 모델이 이 위치에서 "two"라는 단어를 예측해야 한다는 것과 동등합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "단어 'two'에 대한 원핫 인코딩은 'two' 단어의 위치에 '1'이 들어가 있고, 다른 모든 위치에 '0'이 들어갑니다. 예측 확률 텐서 w₁_prob에서는 숫자가 랜덤하게 사용되어 해당 값들이 언어 모델 변환기에 의해 생성된 것을 설명합니다.
 
@@ -226,7 +418,18 @@ word_probability_matrixᵢ의 각 행의 값, 예를 들어 w₁_prob, w₂_prob
 
 ![image](/assets/img/2024-06-19-HowDoesanImage-TextMultimodalFoundationModelWork_7.png)"
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 손실 함수는 "i" 위첨자가 있으므로 (이미지ᵢ, 텍스트ᵢ) 쌍에서 한 단어에 대한 것입니다.
 
@@ -234,7 +437,18 @@ word_probability_matrixᵢ의 각 행의 값, 예를 들어 w₁_prob, w₂_prob
 
 ![image](/assets/img/2024-06-19-HowDoesanImage-TextMultimodalFoundationModelWork_8.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 미니배치 전체의 손실은 이미지ₖ와 텍스트ₖ 쌍 (여기서 k는 1부터 N까지)의 모든 손실입니다.
 
@@ -244,7 +458,18 @@ word_probability_matrixᵢ의 각 행의 값, 예를 들어 w₁_prob, w₂_prob
 
 이전 그림의 단계 5로 돌아가 봅시다. 이제 우리는 설명에 있는 모든 단어들이 동시에 예측된다는 것을 볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 첫 번째 행이 P(w₁|START, img_tokensᵢ)를 나타내고,
 - 두 번째 행이 P(w₂|START, w₁, img_tokensᵢ)를 나타내며,
@@ -257,7 +482,18 @@ word_probability_matrixᵢ의 각 행의 값, 예를 들어 w₁_prob, w₂_prob
 
 <img src="/assets/img/2024-06-19-HowDoesanImage-TextMultimodalFoundationModelWork_10.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 개의 λ 계수는 이 두 가지 손실 구성 요소 사이의 가중치로 사용되는 하이퍼파라미터입니다.
 
@@ -271,7 +507,18 @@ word_probability_matrixᵢ의 각 행의 값, 예를 들어 w₁_prob, w₂_prob
 - 새롭게 예측된 단어를 캡션 접두어에 추가합니다.
 - END 단어가 예측될 때까지 단계 3에서 4를 반복합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 패딩
 
@@ -281,7 +528,18 @@ word_probability_matrixᵢ의 각 행의 값, 예를 들어 w₁_prob, w₂_prob
 
 언어 모델 변환기의 출력(두 번의 적용 후)은 399×20000 단어 확률 행렬입니다. 매번 이 행렬의 한 행만 사용하여 다음 단어의 가장 높은 확률을 찾고, 그 다음 실제 단어를 찾습니다. 이 399×20000 행렬의 다른 행은 사용되지 않습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 프로세스를 최적화하는 방법이 있지만, 이 글에서는 개념을 이해하는 데 집중하고 최적화에 대해 걱정할 필요는 없습니다.
 
@@ -292,7 +550,18 @@ word_probability_matrixᵢ의 각 행의 값, 예를 들어 w₁_prob, w₂_prob
 - 이미지 캡션 작업은 입력 이미지와 텍스트 접두사 "START"로 시작됩니다.
 - 이미지 질문 응답 작업은 입력 이미지와 질문을 텍스트 접두사로 시작합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그거에요.
 
@@ -302,7 +571,18 @@ word_probability_matrixᵢ의 각 행의 값, 예를 들어 w₁_prob, w₂_prob
 
 # Foundation models
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금 우리는 모델이 한 번 훈련된 후에 새로운 작업을 수행하거나 새로운 작업을 수행하도록 다시 훈련할 수 있다는 것을 알 수 있습니다. 이것이 바로 왜 이 모델을 기반 모델이라고 부르는 이유입니다. 기반 모델은 다양한 하류 작업을 위한 시작점으로 기반 또는 부분적으로 완성된 모델을 제공합니다.
 
@@ -312,7 +592,18 @@ word_probability_matrixᵢ의 각 행의 값, 예를 들어 w₁_prob, w₂_prob
 
 ## ViT 인코더
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ViT 인코더는 고정 크기 이미지를 패치 목록으로 분할하여 각 패치를 인코딩합니다. 다음 그림은 ViT 인코더가 인코딩된 이미지 패치를 생성하는 방법을 보여줍니다. 여기에서 i 아래 첨자를 무시했습니다. img_tokensᵢ를 소개할 때 사용한 것과 같은 이유입니다. 이전에는 미니 배치에서 텐서에 대해 이야기해야 했는데, 그 텐서는 손실 함수에 들어가며 손실 함수는 미니 배치로 정의됩니다. 그러나 여기에서는 더 이상 미니 배치에 대해 이야기할 필요가 없습니다.
 
@@ -323,7 +614,18 @@ ViT 인코더는 고정 크기 이미지를 처리하는 표준 트랜스포머 
 - 우리의 경우 288×288×3 크기의 컬러 RGB 이미지(따라서 컬러 채널은 3)로 표현되는 고정 크기 이미지를 받았을 때, ViT 인코더는 먼저 이미지를 18×18 크기의 256개 패치로 분할합니다.
 - 그런 다음 ViT 인코더는 각 패치를 1024 길이의 벡터로 변환하여 256×1024 행렬인 'encoded_img_patches'라고 불리는 것을 얻습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ViT 인코더가 정지되어 있습니다
 
@@ -333,7 +635,18 @@ ViT 인코더가 정지되어 있습니다
 
 정지 또는 비정지 선택에 대해 조금 더 심도 깊게 생각해 보고 싶습니다. ViT 인코더에서 온 한 세트와 언어 모델 트랜스포머에서 온 다른 세트의 벡터 두 개를 맞추기 위해서는, 한 벡터 세트를 만드는 모델의 일부를 고정시키고, 옵티마이저가 다른 벡터 세트를 만드는 모델의 매개변수를 조정하게 하면 충분합니다. 두 모델 구성 요소를 모두 움직이게 유지할 필요는 없습니다. 모델 일부를 동결시키면, 옵티마이저가 학습할 매개변수가 적기 때문에 작업이 더 쉬워집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 주의 집중 풀링은 인코딩된 이미지 패치에 학습 가능한 매개변수를 혼합합니다
 
@@ -343,7 +656,18 @@ ViT 인코더가 정지되어 있습니다
 
 단계 1. ViT는 변환된 256×1024 인코딩된 이미지 패치를 선형으로 다른 동일한 모양의 텐서로 투영합니다. 이 선형 투영에는 trainable 매개변수가 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스텝 2. 선형으로 프로젝트된 encoded_img_patches 텐서는 특성 차원(1024 차원)에서 동일한 모양의 256×512로 나누어지며, 이 중 하나는 v 텐서로, 다른 하나는 k 텐서로 불립니다. 이미 어텐션 메커니즘에서 사용되는 key 행렬 중요성 때문에 k, v 텐서 명칭에 익숙할 것입니다.
 
@@ -353,7 +677,18 @@ ViT 인코더가 정지되어 있습니다
 
 스텝 5. 또 다른 교차 어텐션 매트릭스 곱셈인 sim@v가 이어집니다. 이는 모양이 257×512인 텐서를 만듭니다. 스텝 4와 5는 어텐션 메커니즘에서 일반적인 q, k, v 곱셈입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 6단계에서는 sim @ v 곱셈으로 얻은 257×512 텐서를 두 개의 텐서로 분할합니다:
 
@@ -364,7 +699,18 @@ ViT 인코더가 정지되어 있습니다
 
 ## 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글은 이미지-텍스트 이중 모달 기반 모델의 설계를 설명합니다. 설계의 핵심 부분은 대조 손실 함수를 통해 전역 수준에서 이미지와 텍스트 간의 정렬을 설정하고 교차 엔트로피 손실 함수를 통해 로컬 수준에서 정렬을 수행하는 것입니다.
 

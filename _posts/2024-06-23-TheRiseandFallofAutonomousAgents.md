@@ -3,17 +3,13 @@ title: "자율 에이전트의 흥망성쇠 그 발전과 한계 "
 description: ""
 coverImage: "/assets/img/2024-06-23-TheRiseandFallofAutonomousAgents_0.png"
 date: 2024-06-23 19:30
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-TheRiseandFallofAutonomousAgents_0.png
 tag: Tech
 originalTitle: "The Rise and Fall of (Autonomous) Agents"
 link: "https://medium.com/@lukas.kowejsza/the-rise-and-fall-of-autonomous-agents-18360625067e"
 isUpdated: true
 ---
-
-
-
-
 
 2023년 ChatGPT가 인기를 끌자, 창조적 AI 공간에서 골드 러시 분위기가 등장했습니다. 전 세계적으로 사람들은 미래에 대한 AI의 변혁적 잠재력을 인식했습니다. 이 골드 러시적 마인드셋은 우리를 핵심 질문으로 이끕니다: 여기에는 골드가 어디에 있을까요?
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-23-TheRiseandFallofAutonomousAgents_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 자율 에이전트 워크플로 이해
 
@@ -35,7 +42,18 @@ isUpdated: true
 - 결정: 인식에 기반한 결정을 내림.
 - 행동: 그 결정에 기반한 행동을 실행함.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2023년 초에 발표된 논문 'ReAct: 언어 모델에서의 추론과 실행의 시너지 효과'는 특히 대규모 언어 모델의 맥락에서 마일스톤을 달성했습니다. 인기 있는 프레임워크인 LangChain은 ReAct 로직을 구현하여 자료와 관련된 테마에 상당 부분의 리포지토리를 할애했습니다. 이 접근 방식은 에이전트 논리를 보다 넓은 관중에게 접근 가능하게 만들면서 에이전트 논리의 최신 발전을 통합했습니다.
 
@@ -45,7 +63,18 @@ ReAct 로직은 각 언어 모델 프로세스 단계에서 'Thought', 'Act/Acti
 
 ![이미지](/assets/img/2024-06-23-TheRiseandFallofAutonomousAgents_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # OpenAI에서 구현됨
 
@@ -55,7 +84,18 @@ OpenAI의 중요한 역할은 에이전트의 잠재력에 대한 인식으로 �
 
 자율 에이전트로 돌아와서, 클래식 ReAct 에이전트가 특정 작업이나 질문을 다루는 데 설계되었다면, 자율 에이전트 워크플로우는 한 걸음 더 나아갑니다. 작은 작업이 아니라 넓은 목표가 초기 입력으로 표현됩니다. 일반적으로 단일 프로세스 단계는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - (LLM) - 작업/목표를 하위 작업으로 분해합니다.
 - 작업을 작업 풀에 추가합니다.
@@ -70,7 +110,18 @@ OpenAI의 중요한 역할은 에이전트의 잠재력에 대한 인식으로 �
 
 우리는 독립적인 에이전트 워크플로가 개별 에이전트의 능력을 활용하여 특정 기능을 수행하는 능력을 증진함으로써 복잡한 작업을 해결할 수 있는 능력을 크게 향상시켰다는 것을 보았습니다. 그러나 이러한 기술의 진정한 잠재력은 독립적인 에이전트보다는 다중 에이전트의 협력 노력에 더 명백해집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다중 에이전트 협업은 특화된 역량을 갖춘 각종 에이전트들이 협력하여 단일 에이전트 시스템으로는 해결할 수 없는 복잡한 목표를 달성하는 것을 포함합니다. 이 방식은 여러 에이전트의 집단적 강점을 활용하여 도전적인 문제에 대한 더 정교하고 확장 가능하며 유연한 해결책을 제공합니다. 성공적인 다중 에이전트 협업의 핵심은 다양한 에이전트의 행동을 조율하고 공통 목표를 향한 효과적인 의사 소통과 협력을 보장하는 능력에 있습니다.
 
@@ -81,7 +132,18 @@ AutoGen은 두 가지 주요 기능을 통해 이를 실현합니다:
 - 개발자가 특화된 기능과 역할을 갖춘 에이전트들의 집합을 정의함으로써, 이러한 에이전트들의 모듈화와 재사용성을 강화합니다.
 - 에이전트 간 상호작용 행동을 위한 프레임워크를 수립하여, 미리 정의된 프로토콜 또는 자동화된 채팅을 통해 효과적으로 소통하고 협력할 수 있도록 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-23-TheRiseandFallofAutonomousAgents_2.png)
 
@@ -91,7 +153,18 @@ AutoGen은 두 가지 주요 기능을 통해 이를 실현합니다:
 
 토큰 창문의 확장이 있더라도, "중간" 문제가 지속됩니다. 즉, 입력 프롬프트의 중간에 위치한 정보가 덜 주목을 받습니다. 따라서 16,000 토큰을 초과하는 문맥 창문 내에 수백 개의 도구를 수용할 수 있는 잠재력이 있더라도 대부분은 여전히 간과됩니다. 게다가, 의사 결정은 여전히 과정에서 중요한 도전 과제입니다. 제한된 도구 수가 있더라도, MultiActionAgents는 적합한 도구를 선택하거나 모든 가능한 도구를 활용해야 한다고 믿는 것에 어려움을 겪습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 자율 에이전트의 과제
 
@@ -102,7 +175,18 @@ AutoGen은 두 가지 주요 기능을 통해 이를 실현합니다:
 - 작업 A는 작업 B와 C에 의해 완료되어야 하며,
 - 그리고 작업 C의 분할 결과로써 작업 A가 다시 정의되는 일이 발생합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모델 업데이트의 관찰 가능한 저하와 게으름으로 문제가 악화되고 있습니다. 저는 연구를 수행하고 발견물로부터 PowerPoint 프레젠테이션을 작성할 수 있는 반자동 워크플로우를 개발했었는데, GPT-3.5 turbo로 시도 중 3번 중 2번은 성공했습니다. 하지만 GPT-4에서는 이러한 결과를 재현할 수 없었습니다.
 
@@ -112,7 +196,18 @@ LangChain의 미리 정의된 agent + 도구킷에서도 비슷한 상황이 나
 
 덜 발전된 모델일지라도 실행 로직과 프롬프트 엔지니어링을 통해 개선의 여지가 있습니다. 한 가지 전략은 MultiActionAgent를 사용하는 대신 agent가 수행할 수 있는 작업 범위를 좁히는 것입니다. 각 도구에 대해 SingleActionAgent가 생성되고, 적합한 SingleActionAgent를 선택하는 Routing Agent가 지정됩니다. 이 방법은 GPT-3.5 turbo와 같이 강력하지 않은 모델에도 만족스러운 결과를 얻을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 이 방법은 이전의 종단 간 에이전트 전략과 비교해 개발 노력이 상당히 많이 필요합니다. 더 비용 효율적인 모델을 활용하도록 솔루션을 분해하면 재정적으로 한 번에 더 많은 LLM 호출을 할 수 있습니다. 이를 통해 주요 투표의 실행이나 자가 비평 방법을 사용하여 하나의 LLM 호출에 대한 고려 사항의 반복적인 유효성 검증이 가능해집니다.
 
@@ -122,7 +217,18 @@ LangChain의 미리 정의된 agent + 도구킷에서도 비슷한 상황이 나
 
 현재 직면한 문제들이 시간이 지남에 따라 완화될 것입니다. 더 강력한 모델이 시장에 등장하고 오늘날의 최고 모델들이 더 저렴해질 것입니다. 시장이 많은 비판하는 점진적인 악화를 수정할 수 있는 능력을 가지고 있다고 확신합니다. 필요한 곳에는 해결책이 따를 것입니다. 의심의 여지 없이, 생성모델의 다음 성취는 우리의 능력을 혁신할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 사용성이 매우 낮고 신뢰할 수 없지만, 미래는 모든 종류의 프로세스에서 활용될 AI 엔티티(에이전트)에 의해 형성될 것입니다. 컴퓨터 과학 분야의 최근 논문은 에이전트 프로세스(시행착오 학습)에 보상 학습 모델을 통합하는 해결책을 탐구하고 있습니다. 이는 에이전트가 보상 모델을 정의하고 훈련시킨 다음, 극도로 복잡한 작업을 해결하는 도구로 사용할 수 있다는 것을 의미합니다.
 

@@ -3,17 +3,13 @@ title: "2024년에 반드시 배워야 할 AI 여기 당신을 위한 로드맵�
 description: ""
 coverImage: "/assets/img/2024-07-07-YouNeedToLearnAIin2024AndHereIsYourRoadmap_0.png"
 date: 2024-07-07 03:29
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-YouNeedToLearnAIin2024AndHereIsYourRoadmap_0.png
 tag: Tech
 originalTitle: "You Need To Learn AI in 2024! (And Here Is Your Roadmap)"
 link: "https://medium.com/predict/you-need-to-learn-ai-in-2024-and-here-is-your-roadmap-c28e6cb5c045"
 isUpdated: true
 ---
-
-
-
-
 
 이미지를 보고 있어요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 라지는 인공지능이 모든 것을 변화시키고 있다고 지루할 정도로 열정적으로 이야기하더라고요. 자율 주행 자동차, 맞춤 의학, 심지어 자체적으로 예술과 음악을 생성하고 있다고 했어요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "나는 몸을 으쓱하며 주제를 스트레인저 씽스의 새로운 시즌으로 바꿨어. 내 생각에는 데모고르곤보다 AI 지배가 덜 무섭지.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 나는 AI를 기초부터 고급까지 A부터 Z까지 이해할 수 있도록 도와주는 무료 AI 코스를 만들고 있어. 지금 바로 등록해줘."
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "이 "[무료] ChatGPT 초간편 가이드"로 시작해보는 건 어떨까요? 여기엔 AI 핵심 개념을 쉽게 이해할 수 있도록 담겨 있어 초보자에게 완벽해요!
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 하지만 인정해야 할 건, 이 기술에는 엄청난 잠재력이 있다는 거야. 이렇게 AI가 할 수 있는 일을 조금 보여줄게:"
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 자연어 처리 - ChatGPT 같은 AI 시스템은 복잡하고 세밀한 언어를 이해, 해석 및 생성할 수 있습니다. 이제 더 이상 엄격한 컴퓨터 명령어를 통해 소통할 필요가 없어졌어요. 이제 우리는 기계들과 사람처럼 대화를 나눌 수 있어요! 거의 대부분 말이죠.
 - 컴퓨터 비전 - AI는 이제 놀라운 정확도로 이미지와 비디오를 식별하고 분석할 수 있어요. 자율주행 차량부터 암 세포 감지에 이르기까지 다양한 응용이 가능해졌어요. 곧 기계가 우리 중 누구보다 더 잘 볼 수 있게 될 거예요!
@@ -56,17 +85,39 @@ isUpdated: true
 
 # 지금 배워야 할 3가지 핵심 AI 기술
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자, 이제 인공지능이 폭발적으로 발전하고 미래에는 모든 것을 지배할 것이라는데요.
 
 와우, 약간 무서운데요. 하지만 이처럼 최첨단 기술을 이해할 수 있다면 엄청난 기회가 될 거예요.
 
-올해 배워야 할 핵심 기술 중 가장 인기 있는 3가지를 소개할게요, 인공지능 기차에 타려면: 
+올해 배워야 할 핵심 기술 중 가장 인기 있는 3가지를 소개할게요, 인공지능 기차에 타려면:
 
 ## 1. Python 프로그래밍
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가장 대중적인 AI 시스템은 Python 프로그래밍 언어를 사용하여 구축됩니다. Python은 데이터 처리, 모델 구축 등의 작업에 필요한 모든 도구를 제공합니다.
 
@@ -76,7 +127,18 @@ Python 기초를 이해하면 TensorFlow와 PyTorch와 같은 기계 학습 라�
 
 목표는 Python 스크립트를 작성하는 것뿐만 아니라 AI 모델을 구축하고 학습하는 등 실전 경험을 쌓는 것입니다. 이제 노트북을 꺼내어 두 년 전에 샀던 Python Crash Course 책의 먼지를 털어내야겠군요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2. 수학 기초
 
@@ -89,7 +151,18 @@ Python 기초를 이해하면 TensorFlow와 PyTorch와 같은 기계 학습 라�
 - 통계 — 데이터의 무작위성, 불확실성, 위험을 이해하기 위해
 - 확률 — AI 시스템 행동의 가능성 계산 및 모델링을 위해
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 학교에서 수학 천재는 아니었어요. 하지만 AI를 시작하려면 수학 원리를 적용할 충분한 개념적 이해가 필요해요. 먼지 투성이 교과서와 계산기를 파야 될 때가 왔네요! 알렉사, 80년대 영화에서 긴박한 스터디 장면에 어울리는 모토쥬 음악 틀어줄래요?
 
@@ -99,7 +172,18 @@ AI에 필요한 수학으로 인해 압박을 받고 있나요? "[무료] ChatGP
 
 컴퓨터 비전, 음성 인식 또는 예측 분석이든, 모든 AI 시스템은 데이터에 의존해요. 많은 양의 데이터요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그것은 몇 가지 핵심 데이터 역량에 대해 기술을 습득해야 한다는 의미입니다.
 
@@ -112,7 +196,18 @@ DataCamp 및 Coursera와 같은 온라인 학습 플랫폼은 AI 실무자가 �
 
 # AI 학습 로드맵 그리기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 알았어요! 이제 AI 학습 여정에서 초점을 맞출 핵심 기술 영역 3가지를 식별했어요:
 
@@ -122,9 +217,20 @@ DataCamp 및 Coursera와 같은 온라인 학습 플랫폼은 AI 실무자가 �
 
 와아, 머리 속에 담아야 할 게 정말 많아요! 이것은 하루아침에 이루어질 일이 아니에요. 올해에도 아니에요. 하지만 필요한 일을 처리하기 위해 노력을 시작할 거예요.
 
-여기 2024년을 위해 나 스스로 정한 대략적인 로드맵이 있어요: 
+여기 2024년을 위해 나 스스로 정한 대략적인 로드맵이 있어요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 질문1: Python 프로그래밍
 
@@ -138,7 +244,18 @@ DataCamp 및 Coursera와 같은 온라인 학습 플랫폼은 AI 실무자가 �
 - 교과서와 연습 문제를 통해 스터디 그룹에 참여하십시오.
 - Python에서 기본 수학 개념을 구현하십시오.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Tarot Reading: Data Skills
 
@@ -152,7 +269,18 @@ DataCamp 및 Coursera와 같은 온라인 학습 플랫폼은 AI 실무자가 �
 - 🌟 Contemplate enrolling in a boot camp, nanodegree, or master’s program to elevate your skills further
 - 🌟 Begin forming connections and seeking out opportunities for entry-level AI positions and internships
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 로드맵은 계속 발전하면서 점차 심화될 것입니다. 중요한 것은 한 걸음 한 걸음 나아가며 실전 학습을 통해 실력을 키우는 것입니다.
 
@@ -162,7 +290,18 @@ DataCamp 및 Coursera와 같은 온라인 학습 플랫폼은 AI 실무자가 �
 
 와, 누가 생각했겠어요? 인공지능에 대해 배우는 것이 이렇게 복잡할 거라니. 확실히 Siri에게 AI를 정의해 달라고 하는 것만큼 쉽지 않네요. (미안해 Siri!)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 미래는 기다리지 않을 거야. 내가 준비가 됐든 안됐든, AI가 우리의 직업, 집, 미니 블라인드를 노린다! 준비하세요, 로봇들이 온다!
 
@@ -172,7 +311,18 @@ DataCamp 및 Coursera와 같은 온라인 학습 플랫폼은 AI 실무자가 �
 
 이 황홀한 AI 여행에 함께 하실래요? 미래가 기다리고 있어요! 🤖🚂
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 당신의 여정에서 다음 단계를 내딛어보세요.
 

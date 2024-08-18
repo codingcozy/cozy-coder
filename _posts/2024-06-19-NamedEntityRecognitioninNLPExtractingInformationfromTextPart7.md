@@ -3,7 +3,7 @@ title: "NLP에서 Named Entity Recognition 텍스트로부터 정보 추출하�
 description: ""
 coverImage: "/assets/img/2024-06-19-NamedEntityRecognitioninNLPExtractingInformationfromTextPart7_0.png"
 date: 2024-06-19 20:47
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-NamedEntityRecognitioninNLPExtractingInformationfromTextPart7_0.png
 tag: Tech
 originalTitle: "Named Entity Recognition in NLP: Extracting Information from Text (Part 7)"
@@ -11,17 +11,14 @@ link: "https://medium.com/ai-advances/named-entity-recognition-in-nlp-extracting
 isUpdated: true
 ---
 
-
-
-
-
 <img src="/assets/img/2024-06-19-NamedEntityRecognitioninNLPExtractingInformationfromTextPart7_0.png" />
 
 목차
+
 1. 명명된 엔티티 인식(Unveiling Named Entity Recognition): 구조화된 데이터로 가는 문
 2. NLP에서 정보 추출의 작동 방식
-2.1. 명명된 엔티티 인식에서의 핵심 개념
-2.2. 고급 기술과 알고리즘
+   2.1. 명명된 엔티티 인식에서의 핵심 개념
+   2.2. 고급 기술과 알고리즘
 3. 다양한 산업에서 NER의 실용적인 응용
 4. NER의 구성 요소: 도구 및 프레임워크
 5. NER 시스템 평가: 지표 및 벤치마크
@@ -32,7 +29,18 @@ isUpdated: true
 
 42페이지의 데이터 과학 | 종합 핸드북을 무료로 받아보세요. (구독)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1. Named Entity Recognition (NER) 소개: 구조화된 데이터로 가는 길
 
@@ -44,7 +52,18 @@ NER의 핵심 개념을 살펴보겠습니다:
 - 미리 정의된 카테고리로의 분류
 - 모호성 해소를 위한 문맥 분석
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 spaCy 라이브러리를 사용한 간단한 Python 예제를 보여드릴게요:
 
@@ -61,7 +80,18 @@ for ent in doc.ents:
 
 NER을 숙달함으로써 방대한 양의 텍스트에서 가치 있는 정보를 추출하여 데이터 분석 및 지식 발견에 강력한 도구로 활용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2. NLP에서 정보 추출의 메커니즘
 
@@ -71,7 +101,18 @@ NLP에서의 정보 추출은 텍스트로부터 데이터를 식별하고 구�
 
 이어서 NER 시스템은 엔티티를 인식하기 위해 알고리즘을 적용합니다. 통계적 방법이나 기계 학습 모델을 사용할 수 있습니다. 예를 들어:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 import nltk
@@ -106,8 +147,18 @@ print(entities)
 
 ## 2.1. Named Entity Recognition의 핵심 개념
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Named Entity Recognition (NER)은 정보 추출의 하위 작업으로, 명명된 개체를 미리 정의된 범주로 분류합니다. 사람, 조직, 위치, 시간 표현, 수량, 통화 가치, 백분율 등이 여기에 해당됩니다.
 
@@ -121,7 +172,18 @@ NER은 여러 중요한 단계를 포함합니다:
 - 개체 인식: 청크를 명명된 개체로 식별합니다.
 - 개체 분류: 명명된 개체를 미리 정의된 그룹으로 분류합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 NLTK 라이브러리를 사용한 간단한 Python 예제를 준비해봤어요:
 
@@ -144,7 +206,18 @@ print(tree)
 
 이러한 개념을 이해하는 것은 챗봇부터 콘텐츠 분석까지 다양한 애플리케이션에서 명명 개체 인식(NER)을 효과적으로 활용하기 위한 필수요소입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2.2. 고급 기술과 알고리즘
 
@@ -154,7 +227,18 @@ print(tree)
 
 하나의 모델은 Long Short-Term Memory (LSTM) 네트워크입니다. 이는 텍스트 내의 문장과 같은 시퀀스를 처리하는 데 뛰어납니다. 아래는 간단화된 Python 예시입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 from keras.models import Sequential
@@ -172,7 +256,18 @@ model.compile(...)
 
 이러한 발전으로 NER이 더욱 효율적이고 정확해졌습니다. 이것들은 비구조적인 방대한 양의 텍스트로부터 가치 있는 통찰을 추출하는 데 중요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3. 다양한 산업 분야에서 NER의 실용적 응용
 
@@ -182,7 +277,18 @@ Named Entity Recognition (NER)은 구조화되지 않은 텍스트를 구조화�
 
 - **금융 분야**: 금융 부문은 NER을 사용하여 경제 보고서를 모니터링합니다. 회사명, 주식 심볼 및 재무 지표를 추출하여 시장 분석에 중요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 미디어와 저널리즘 분야에서 NER은 뉴스 기사에서 사람, 조직 및 위치와 같은 엔티티를 추적합니다. 이는 콘텐츠 분류와 트렌드 분석을 지원합니다.
 
@@ -192,7 +298,18 @@ Named Entity Recognition (NER)은 구조화되지 않은 텍스트를 구조화�
 
 정보 추출에서 NER의 역할은 산업 전반에 걸쳐 꼭 필요합니다. 이는 기업이 데이터 기반 의사결정을 내리고 경쟁력 있는 통찰력을 얻는 데 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 NER을 사용하는 간단한 파이썬 예제입니다:
 
@@ -209,7 +326,18 @@ for ent in doc.ents:
 
 ## 4. NER의 구성 요소: 도구와 프레임워크
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Named Entity Recognition (NER)은 비구조화된 텍스트에서 정보를 추출하는 데 중요합니다. 이는 이름, 위치, 조직과 같은 엔티티를 식별합니다. NER을 구현하기 위해 다양한 도구와 프레임워크가 있습니다.
 
@@ -226,7 +354,18 @@ print(entities)
 
 이 코드는 사전 훈련된 영어 모델을 로드하고 주어진 텍스트를 처리하여 인식된 엔티티를 출력합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다른 프레임워크로는 교육 목적과 프로토타이핑에 적합한 NLTK가 있습니다. NER에 대한 간단한 접근 방법을 제공하지만 최적의 성능을 얻으려면 수동으로 세밀한 조정이 필요합니다.
 
@@ -236,7 +375,18 @@ print(entities)
 
 ## 5. NER 시스템 평가: 메트릭 및 기준
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 개별 이름 인식(NER) 시스템을 평가하는 것은 그 효과를 이해하는 데 중요합니다. 다음은 그들을 평가하는 방법입니다:
 
@@ -252,7 +402,18 @@ print(f"정밀도: {precision:.2f}")
 
 회수율은 실제 개체 중 올바르게 식별된 개체의 백분율을 나타냅니다. 모든 관련 개체를 찾는 시스템의 능력을 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 재현율 계산
@@ -274,7 +435,18 @@ print(f"F1-Score: {f1_score:.2f}")
 
 이러한 지표들은 서로 다른 NER 시스템을 비교하고 정보 추출의 개선을 추적하는 데 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 6. 개체명 인식(NER)에서의 도전 극복하기
 
@@ -291,7 +463,18 @@ for ent in doc.ents:
     print(ent.text, ent.label_)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. Entity Variations: Entity는 여러 형태를 가질 수 있습니다. 모든 변형을 인식하는 시스템을 구현하는 것이 중요합니다.
 
@@ -301,7 +484,18 @@ for ent in doc.ents:
 
 이러한 문제에 대처하여 Named Entity Recognition 시스템이 더 견고하고 정확해질 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 7. NER의 미래: 트렌드와 예측
 
@@ -316,7 +510,18 @@ model = AutoModelForTokenClassification.from_pretrained('bert-base-ner')
 tokenizer = AutoTokenizer.from_pretrained('bert-base-ner')
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로운 언어로의 확장: NER 기술은 더 많은 언어를 지원하기 위해 확대되어, 전 세계적으로 더 접근성이 좋아질 것입니다.
 
@@ -326,7 +531,18 @@ tokenizer = AutoTokenizer.from_pretrained('bert-base-ner')
 
 이러한 추세들은 NLP에서 정보 추출에 밝은 미래를 암시하며, 더 정교하고 다재다능한 NER 시스템을 약속하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 완전한 튜토리얼 목록입니다:
 

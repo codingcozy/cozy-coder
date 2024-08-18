@@ -3,17 +3,13 @@ title: "Claude와 더 깊이 알아보는 디오판토스 방정식 대화"
 description: ""
 coverImage: "/assets/img/2024-07-07-FurtherconversationswithClaudeDiophantineequations_0.png"
 date: 2024-07-07 22:44
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-FurtherconversationswithClaudeDiophantineequations_0.png
 tag: Tech
 originalTitle: "Further conversations with Claude — Diophantine equations"
 link: "https://medium.com/@sukivenkat/further-conversations-with-claude-diophantine-equations-ae9a9db768db"
 isUpdated: true
 ---
-
-
-
-
 
 먼저, 산술에 대한 친절한 소개를 제공한 뒤, 대수학과 방정식 해결의 추상적 개념에 대해 설명합니다. 우리는 동시 선형 방정식부터 시작하여 악명 높은 디오판틴 방정식까지 진행합니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 십진수 체계의 발견과 함께, 곱셈 알고리즘 또한 발전했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 273 × 431 = (273) × (400+30+1)  
 = (273 × 1) + (273 × 30) + (273 × 400)  
@@ -32,7 +39,7 @@ isUpdated: true
 = 273 + 8190 + 109200  
 = (273 + 190 + 200) + (8000+109000)  
 = 663 + 117000  
-= 117663  
+= 117663
 
 이제 기사의 중요한 부분으로 넘어가보겠습니다.
 
@@ -40,13 +47,35 @@ isUpdated: true
 
 알림: 273과 431을 곱해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **타로 카드 의미: 지성 (The Hermit)**
 
 이 카드는 혼자 나만의 시간을 가지고 깊이 생각하고 내면 세계를 탐험해야 함을 상징합니다. 이는 외부세계의 소음과 방해를 피하고 내면의 지혜와 진실을 발견하기 위해 고요한 시간이 필요하다는 메시지일 수 있습니다. 이 카드는 혼자서도 완전히 만족하며 안락한 상태에서 행동하는 데 가치가 있다는 것을 알려줍니다. 지금은 자기 알아가기와 내면 성장에 주안점을 두는 시기일 수 있습니다. 이 카드는 또한 지적인 깨달음과 영적인 지도자로서의 역할을 수행해야 할 때를 암시하기도 합니다. 이 요소들을 고려해 현실적이고 현명한 선택을 하길 바랍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 우리는 클로드에게 이를 제안해봅시다.
 
@@ -86,7 +115,18 @@ x = 16
 12년 전, 나이가 적은 형제는 4세, 나이가 많은 형제는 8세로, 형제 중 연장자의 나이가 동생의 나이의 두 배였다는 조건을 만족합니다.
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 방정식 1로 넘어가보죠:
 
@@ -136,7 +176,18 @@ y - 12 = 2(x - 12)
 
 이제 약간 더 어려운 문제에 도전해봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 방정식 2를 해결하세요:
 
@@ -185,7 +236,18 @@ x ≈ -2.4935일 때:
 
 참고: 대부분의 실용적인 목적에서는 실근 (특히 양의 근)이 주 관심사입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4차 이하의 방정식을 풀기 위한 대수적 방법이 있는 것은 우리가 알고 있지만, 프랑스 혁명의 공화국인 영생한 에바리스트 갈루아는 무리이론 개념을 사용하여 4차 이상의 차수를 가진 방정식을 풀 수 있는 정확한 방법이 없다는 것을 보여주었습니다. 이렇게 해서 수학을 더 높은 수준으로 끌어올렸습니다. 그가 사망한 1832년에는 AI/ML-LLM GenAI로는 현재의 그 이상의 수준으로는 불가능합니다. 하지만 고작 21살의 어린 나이에 결투에서 사망했습니다.
 
@@ -195,10 +257,20 @@ x ≈ -2.4935일 때:
 
 간단한 것부터 시작해볼까요? 방정식 3번으로요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 xy=6, x+y=5
-
 
 당연히! 이 연립 방정식을 단계별로 풀어봅시다.
 
@@ -226,12 +298,22 @@ x = 2 또는 x = 3
 
 ...
 
-
 수고하셨습니다!
 
 이제 이 같이 장난기 가득한, 방정식 4를 살펴보겠습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ##### x⁴ + y⁴ = 1
 
@@ -261,7 +343,18 @@ x = 4/5, y = 3/5
 
 이 방정식에는 이성적인 해결책 외에도 무리수 해결책이 존재하는데, 이 질문에서는 명시적으로 유리수 해결책을 요구하기 때문에 그것을 고려할 필요가 없습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그것은 페르마의 마지막 정리(Fermat's Last Theorem)의 다른 형태라는 것을 알아차리지 못하고 있습니다:
 

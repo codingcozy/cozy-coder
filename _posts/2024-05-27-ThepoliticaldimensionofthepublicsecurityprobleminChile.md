@@ -3,17 +3,13 @@ title: "칠레의 공공 안전 문제의 정치적 측면"
 description: ""
 coverImage: "/assets/img/2024-05-27-ThepoliticaldimensionofthepublicsecurityprobleminChile_0.png"
 date: 2024-05-27 12:45
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-ThepoliticaldimensionofthepublicsecurityprobleminChile_0.png
 tag: Tech
 originalTitle: "The political dimension of the public security problem in Chile"
 link: "https://medium.com/@jbkmkncd/the-political-dimension-pf-the-public-security-problem-in-chile-7ceba21a74c6"
 isUpdated: true
 ---
-
-
-
-
 
 칠레는 항상 중간-높은 수준의 발전, 민주주의 및 안전을 갖춘 국가로 알려져 왔습니다. 그러나 최근에는 이 세 가지 요소가 약화되고 있습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 그리고 안전 상황도 좋지 않습니다. 2013년에는 10만 명당 고의적 살인이 3.16건이었지만, 2023년에는 10만 명당 6.3건으로 크게 증가했습니다. 범죄 증가의 주요 원인은 다양한 기관의 취약성에 기인합니다. 예를 들면, 정보 수집 시스템의 약점, 교정 시설 내 수감자 통제의 미비, 안전 기관 간 협조의 부재, 테러에 대한 전략 부재, 통제되지 않은 국경, 체포 및 유죄 판결의 확률 저하, 그리고 초기 유아 시기부터의 사회 예방 정책 부재 등이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위기에 대응하기 위해 행정부와 의회가 노력해 왔습니다. 그러나 그들의 행동에는 항상 공화주의적 감각의 부재가 우세한 것 같습니다. 결과적으로 경제 성장을 촉진하는 정책은 연기되고, 안보 조치는 제때에 시행되지 않았으며, 정치 체계는 아직 개혁되지 않았습니다. 따라서 칠레가 갇혀 있는 구멍을 벗어날 수 있는 능력은 제도적 인센티브보다는 성실함의 예와 현 로직을 변화시킬 수 있는 공화주의 가치에 안내되는 위대한 지도자들에 달려 있습니다. 이것은 바로 아렌트가 "세상에 없던 것을 삽입하는 능력"으로 묘사한 인간의 행동입니다. 그러나 현재 논리를 변화시킬 수 있는 행동의 예다운을 제공하는 공화주의 덕목이 이를 안내해야 합니다.
 

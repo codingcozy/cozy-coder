@@ -3,17 +3,13 @@ title: "대화 형식으로 친근한 말투로 번역하면 다음과 같습니
 description: ""
 coverImage: "/assets/img/2024-06-19-UnderstandingBufferofThoughtsBoTReasoningwithLargeLanguageModels_0.png"
 date: 2024-06-19 19:48
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-UnderstandingBufferofThoughtsBoTReasoningwithLargeLanguageModels_0.png
 tag: Tech
 originalTitle: "Understanding Buffer of Thoughts (BoT) — Reasoning with Large Language Models"
 link: "https://medium.com/towards-data-science/understanding-buffer-of-thoughts-bot-reasoning-with-large-language-models-391919d2f76f"
 isUpdated: true
 ---
-
-
-
-
 
 ![사진1](/assets/img/2024-06-19-UnderstandingBufferofThoughtsBoTReasoningwithLargeLanguageModels_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 논문에서 제안된 새로운 방법인 "Buffer of Thoughts: Thought-Augmented Reasoning with Large Language Models" [1]은 이러한 제한 사항을 대응하기 위해 high-level thought templates의 동적이고 적응형 저장소인 meta-buffer를 활용합니다. BoT에서 사용자가 새로운 문제를 제시하면 먼저 문제가 단순화되고 분석되어 핵심 요소가 추출되며, 이후 동적 데이터셋에서 관련된 thought template을 검색하는데 이를 이용합니다. 이를 통해 수정된 복잡한 추론 패턴을 통해 적응적이고 효율적인 문제 해결이 가능해집니다. 원문에 따르면 이 방법은 "Llama3–8B+BoT가 Llama3–70B 모델을 능가할 잠재력이 있다"고 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 BoT은 템플릿과 유사한 문제들 간에 효율적인 추론을 이룹니다:
 
@@ -35,7 +42,18 @@ BoT은 템플릿과 유사한 문제들 간에 효율적인 추론을 이룹니�
 
 # BoT는 어떻게 작동하나요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반적인 사고 증강 추론 과정(아래 그림 참조)은 문제 증류로 시작됩니다. 이 단계에서는 들어오는 작업을 분석하여 중요한 요소와 제약 조건으로 요약하고 간소화된 문제 설명을 만듭니다.
 
@@ -45,7 +63,18 @@ BoT은 템플릿과 유사한 문제들 간에 효율적인 추론을 이룹니�
 
 ![이미지](/assets/img/2024-06-19-UnderstandingBufferofThoughtsBoTReasoningwithLargeLanguageModels_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 주요 부분들을 자세히 살펴봅시다:
 
@@ -56,7 +85,18 @@ BoT은 템플릿과 유사한 문제들 간에 효율적인 추론을 이룹니�
 - (1) 문제의 필수적인 정보를 추출하고
 - (2) 복잡한 작업을 단순화하여 사고 템플릿을 더 쉽게 검색하고 검색할 수 있게 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제 디스틸러는 LLM에게 문제의 중요 정보와 제약 조건을 식별하고 추출하는 부담을 덜어줍니다. 이 작업은 메타 프롬프트 ϕ를 통해 수행됩니다.
 
@@ -75,7 +115,18 @@ BoT은 템플릿과 유사한 문제들 간에 효율적인 추론을 이룹니�
 1과 2를 기반으로 문제를 확장하고, 사용자 쿼리에 대응하고 더 많은 입력 및 출력 변형을 처리할 수 있는 메타 문제를 요약합니다. 확장된 문제에 실제 세계 시나리오와 초기 문제의 주요 변수 및 정보 제약 조건을 통합하여 주요 변수를 제한한 후 사용자 쿼리 입력의 핵심 정보를 입력으로 사용하여 문제를 해결하는 예시를 제시하십시오.
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 메타 버퍼
 
@@ -85,7 +136,18 @@ BoT은 템플릿과 유사한 문제들 간에 효율적인 추론을 이룹니�
 
 ![이미지](/assets/img/2024-06-19-UnderstandingBufferofThoughtsBoTReasoningwithLargeLanguageModels_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리트리버는 입력 작업의 임베딩 f(xd)와 템플릿의 임베딩 f(DTi) 사이의 유사성을 계산합니다. 이 작업은 유사성이 일정 임계값 δ(0.5~0.7)를 초과할 때만 수행됩니다. 생각 템플릿 중 어느 것도 해당 작업과의 유사성 점수가 δ 임계값을 초과하지 않으면 xd를 새로운 작업으로 식별합니다. 작업이 새로운지 여부에 따라 두 가지 경로 중 하나가 선택됩니다:
 
@@ -95,7 +157,18 @@ BoT은 템플릿과 유사한 문제들 간에 효율적인 추론을 이룹니�
 
 - 작업이 새로운 경우, 문제의 다양한 범위를 다루기 위해 설계된 일반적인 생각 템플릿이 사용됩니다. 작업이 처리되는 동안 버퍼 관리자가 관찰하고 학습하며 새로운, 보다 구체적인 생각 템플릿을 만들어 메타 버퍼에 푸시할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 버퍼 관리자
 
@@ -105,7 +178,18 @@ BoT은 템플릿과 유사한 문제들 간에 효율적인 추론을 이룹니�
 
 위 공식을 활용하여, 버퍼 관리자는 메타 버퍼에 이미 문제를 해결하기에 필요한지 여부를 확인합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## BoT 대 Single-Query 대 Multi-Query
 
@@ -115,7 +199,18 @@ BoT은 템플릿과 유사한 문제들 간에 효율적인 추론을 이룹니�
 
 BoT의 주요 장점 중 하나는 효율성입니다. Multi-Query 프롬프팅 방법과 비교했을 때, 평균적으로 계산 비용의 12%만 필요합니다. ToT와 같은 Multi-Query 방법의 높은 계산 비용과 대기 시간으로 실제 사용 사례에서는 실용적이지 않게 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-UnderstandingBufferofThoughtsBoTReasoningwithLargeLanguageModels_8.png" />
 
@@ -132,7 +227,18 @@ Bufer of Thoughts(BoT)를 위한 데모 코드는 GitHub [2]에 게시되어 있
 "target": "<start> alcohol goes directly from the stomach into the bloodstream <end>"}
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 유저 프롬프트:
 단어 목록을 재배열하여 의미가 있는 문장으로 만드세요, 예를 들면 "Sam name is my" -> "my name is Sam". 설명은 제외하고 재배열된 문장만 제공해주세요. 정렬된 문장은 "<start>"로 시작하고 "<end>"로 끝냅니다.
@@ -143,33 +249,46 @@ Bufer of Thoughts(BoT)를 위한 데모 코드는 GitHub [2]에 게시되어 있
 정리된 정보:
 
 1. 핵심 정보:
+
 - 입력: "<start> the melting in solid to gold leaf metals is achieve made by desired gold and mixing color other <end>"
 
 2. 제한 사항:
+
 - 문장을 의미 있게 재배열합니다.
 - 출력은 "<start>"로 시작하고 "<end>"로 끝나야 합니다.
 
 3. 정리된 작업:
-- 주어진 혼합된 단어를 "<start>"와 "<end>" 태그 내에서 의미 있는 문장으로 재배열하는 작업입니다. 
+
+- 주어진 혼합된 단어를 "<start>"와 "<end>" 태그 내에서 의미 있는 문장으로 재배열하는 작업입니다.
 
 4. 파이썬 변환:
    (선택 사항, 파이썬 태그가 파이썬용이 아닌 경우 스킵) 입력 매개변수:
-     input_sentence = "<start> the melting in solid to gold leaf metals is achieve made by desired gold and mixing color other <end>"
+   input_sentence = "<start> the melting in solid to gold leaf metals is achieve made by desired gold and mixing color other <end>"
 
 5. 응답 형식: (특정 응답 형식이 없는 경우 스킵)
-     출력 문장은 "<start> ... <end>" 형식이어야 합니다
+   출력 문장은 "<start> ... <end>" 형식이어야 합니다
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일부 BoT를 사용하여 다시 정렬된 문장 예시:
 
 ```js
-{"input": "<start> life plan and families to for social hospital workers outside with patients work the <end>", 
+{"input": "<start> life plan and families to for social hospital workers outside with patients work the <end>",
 "result": "<start> 병원 직원은 환자들과 함께 외부에서 작업하며 사회적 가족들을위한 인생 계획을 합니다 <end>\n"}
-{"input": "<start> yield plant refers dry total to production biological matter <end>", 
+{"input": "<start> yield plant refers dry total to production biological matter <end>",
 "result": "<start> 식물 수확은 총 건조물 생물학적 생산물을 가리킵니다 <end>\n"}
-{"input": "<start> the bloodstream into alcohol from directly stomach goes the <end>", 
+{"input": "<start> the bloodstream into alcohol from directly stomach goes the <end>",
 "result": "<start> 알코올은 위에서 직접 혈류로 이동합니다 <end>\n"}
 ```
 
@@ -177,7 +296,18 @@ BoT 리포지토리가 데모 코드이므로 원본 논문에서 언급된 기�
 
 # 마지막으로
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결론적으로 BoT은 다양한 영역과 작업에서 정확성과 효율성 면에서 유망한 결과를 보여줍니다. 그것은 추론 문제를 근본적인 제약 조건과 주요 정보로 분해하고 이전 솔루션과 템플릿을 기초로 쌓아가면서 LLM이 이해할 수 있도록 작업을 더 잘 구성하는 흥미로운 접근 방법입니다.
 
@@ -187,7 +317,18 @@ BoT 리포지토리가 데모 코드이므로 원본 논문에서 언급된 기�
 
 Buffer of Thoughts는 LLM을 이해와 추론 과정에서 단계별로 안내하기 위해 다양한 기술 영역을 활용하는 혁신적이고 유망한 프롬프팅 프레임워크입니다. Buffer of Thoughts 기술의 완전한 실용적 구현은 아직 이루어지지 않았지만, 그동안 데모 GitHub 저장소의 제공된 벤치마크를 테스트해 보세요. [2]
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금까지 읽어주셔서 감사합니다!
 
@@ -197,7 +338,18 @@ Buffer of Thoughts는 LLM을 이해와 추론 과정에서 단계별로 안내�
 
 — Hesam
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [1] Yang, L., Yu, Z., Zhang, T., Cao, S., Xu, M., Zhang, W., Gonzalez, J. E., & Cui, B. (2024). Buffer of Thoughts: Thought-Augmented Reasoning with Large Language Models. arXiv. https://arxiv.org/abs/2406.04271
 

@@ -3,17 +3,13 @@ title: "파이썬으로 감성 분석 모델 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-23-HowtoCreateaSentimentAnalysisModelinPython_0.png"
 date: 2024-06-23 18:40
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-HowtoCreateaSentimentAnalysisModelinPython_0.png
 tag: Tech
 originalTitle: "How to Create a Sentiment Analysis Model in Python"
 link: "https://medium.com/@kaabar-sofien/how-to-create-a-sentiment-analysis-model-in-python-cf03cb9988e0"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-23-HowtoCreateaSentimentAnalysisModelinPython_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 K-Nearest Neighbors (KNN)은 분류 및 회귀 작업에 모두 사용되는 간단하고 직관적인 기계 학습 알고리즘입니다. 하지만 먼저, 분류와 회귀가 무엇을 의미하는지 알아야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 분류(Classification)는 지도 학습의 한 유형으로, 데이터 포인트를 미리 정의된 클래스나 레이블로 분류하는 것을 목표로 합니다. 분류에서 모델은 입력의 특징에 기반하여 클래스나 범주를 지정하는 방법을 학습합니다. 분류의 출력은 이산적이며 범주나 클래스 레이블을 나타냅니다. 예를 들어, 이메일을 스팸 또는 비스팸으로 분류하는 것입니다.
 - 반면에 회귀(Regression)는 지도 학습의 한 유형으로, 연속적인 수치 값을 예측하는 것을 목표로 합니다. 회귀에서 모델은 입력 특징과 출력 간의 관계를 수립하는 것을 학습하며, 출력은 연속적인 범위의 값이며 양이나 수치 값을 나타냅니다. 예를 들어, 집의 가격을 예측하거나 주가를 예측하는 것입니다.
@@ -34,7 +41,18 @@ KNN은 게으른 학습(lazy learning)의 한 유형으로, 훈련 중에 모델
 
 다음 그림을 살펴보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-23-HowtoCreateaSentimentAnalysisModelinPython_1.png" />
 
@@ -44,7 +62,18 @@ KNN은 게으른 학습(lazy learning)의 한 유형으로, 훈련 중에 모델
 
 KNN은 회귀 작업에도 사용될 수 있습니다. KNN 회귀에서 목표는 새로운 데이터 포인트의 연속 값을 예측하는 것입니다. 이 값은 이웃 K개의 값에 기반하여 예측됩니다. KNN 회귀의 단계는 KNN 분류와 유사하지만 클래스 레이블을 세는 대신, K개 이웃의 대상 값들의 평균 또는 가중 평균을 계산하여 테스트 포인트의 값을 예측합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 커밋먼츠 오브 트레이더스(COT) 보고서는 미국 상품 선물 거래위원회(CFTC)가 매주 발간하는 보고서로, 선물 시장의 다양한 참여자들의 포지션에 대한 통찰을 제공합니다. 이러한 참여자들에는 상업 헤지거들, 대형 투기자들, 그리고 소규모 거래자들이 포함됩니다.
 
@@ -54,8 +83,18 @@ KNN은 회귀 작업에도 사용될 수 있습니다. KNN 회귀에서 목표�
 
 간단히 말하면, COT 보고서는 시장에서 어떤 그룹들의 거래자들이 어떻게 베팅을 하고 있는지 요약해줍니다. 그들의 포지션에 주목할 만한 변화가 있다면, 시장 트렌드의 가능성 있는 변화를 나타낼 수 있습니다. 그러나 이것이 마법구슬은 아니며, 더 포괄적인 분석을 위해 다른 요소들을 고려해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Sentiment Analysis Model in Python](/assets/img/2024-06-23-HowtoCreateaSentimentAnalysisModelinPython_3.png)
 
@@ -65,8 +104,18 @@ If you want to see more of my work, you can visit my website for the books catal
 
 # Creating the Algorithm
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 KNN 회귀 예제 코드를 시도해봅시다. 주요 작업은 GBP의 순 COT 값 변화를 예측하는 것입니다. 아래 코드를 사용하여 작업을 수행해보세요:
 
@@ -119,9 +168,19 @@ CFTC 웹사이트에서 COT GBP 데이터를 찾을 수 있습니다. 다음 차
 
 K 값이 2이고 입력값으로 20개의 래그 값을 사용한 알고리즘의 일치율(정확도)은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-Hit Ratio =  67.92 %
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+Hit Ratio = 67.92 %
 
 ![Image](/assets/img/2024-06-23-HowtoCreateaSentimentAnalysisModelinPython_5.png)

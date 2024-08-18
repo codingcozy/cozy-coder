@@ -3,17 +3,13 @@ title: "문제 해결으로 행복을 느끼다"
 description: ""
 coverImage: "/assets/img/2024-06-19-MakingDoMakesMeHappy_0.png"
 date: 2024-06-19 17:53
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-MakingDoMakesMeHappy_0.png
 tag: Tech
 originalTitle: "“Making Do” Makes Me Happy"
 link: "https://medium.com/rooted-publication/making-do-makes-me-happy-481091015ae2"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-06-19-MakingDoMakesMeHappy_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 제 목록은 무엇이 있지 않는지에 더 많이 주목받아요. 계절에 맞는 신선한 채소와 밀가루 같은 재료가 많이 있어요. 그러나 냉동식품, 건면, 양념류 같은 것들은 찾아볼 수 없어요. 제가 일을 하면서도 이런 것들은 직접 만들어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 주방에서 시작하는 삶
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 올해 나무 메이어 레몬을 구입했으므로 아마 곧 우리의 겨울 과일 제공이 저장된 사과와 건조 과일을 넘어 예쁘게 재수확할 수 있을 것입니다(이 대부분은 베이킹에 사용하거나 크림과 섞어 간단한 간식으로 사용할 수 있도록 아름답게 재수확됩니다).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-06-19-MakingDoMakesMeHappy_1.png](/assets/img/2024-06-19-MakingDoMakesMeHappy_1.png)
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 초가공 식품(UPF)이 최근에 화제가 되고 있지만, 저는 그것에 대해 걱정하지 않아요. 제 부엌을 빠르게 살펴보니 우리 식품 저장실에 UPF가 없다는 걸 알아냈어요. 가끔 나가서 먹는 음식에서 섭취하는 소량에 대해서도 걱정하지 않아요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시간을 낭비하는 게 아닌 거야. 내가 행복해하는 시간이지. 이 시간 덕분에 나는 현대 산업 사회에서 조금은 맞지 않고 규칙을 이해하기 어려운 세상에서 안전하고 능력 있는 느낌을 받을 수 있어.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 이러한 삶의 방식은 주방 문을 넘어 확장됩니다. 내 양말 대부분은 여러 번 수선되었습니다. 새 양말을 구입한 적이 10년 이상되어 자랑스럽습니다 (하나 또는 두 개의 새 쌍을 직접 뜬 적은 있습니다).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대부분의 옷은 중고 매장에서 구입하지만, 집에 와서는 제 개인 스타일에 맞게 모두 수정합니다. 사용하는 레이스와 원단 조각들은 다양한 곳에서 나온 것입니다 - 옷으로 변신한 예전의 옷, 지역 패브릭 중고 매장인 "the Ragfinery," 그리고 제 동네 Buy Nothing 그룹 등에서 얻은 것입니다.
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 ### 돈 이상의 가치
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "싼 것을 하는 행위는 검소해 보일 수 있지만, 일부는 그렇다고 생각합니다.
 
@@ -73,14 +124,36 @@ isUpdated: true
 
 저는 현재 손으로 이불을 만들고 있습니다(우리 옛 이불이 지겨워졌어요), 생일 선물을 위해 스카프를 뜨고 있습니다(받는 사람의 요청으로), 그리고 렌넷으로 치즈를 만드는 법을 배우고 있습니다(이미 렌넷 없이 집에서 만드는 치즈를 잘 만들었습니다)."
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 아내는 자칭 만화책 중독자이자 패션 감각이 뛰어난 사람으로, 저녁이 되면 현재 코스프레 작품을 만들거나 옷을 개조하는 데 시간을 보냅니다. 혼자 하는 프로젝트에 지루할 때가 되면, 산책을 나가거나 소풍을 떠나거나 다트 게임을 즐기며 저희만의 맥주를 마십니다. 그러나 우리의 간단한 삶 속에서도 평화롭고 행복하게 지내고 있죠.
 아마도 "빌붙여 해내기" 생활을 즐기는 진정한 즐거움은, 남들이 일이라고 생각하는 일상적인 작업에서 큰 즐거움을 누릴 수 있는 능력에 있다고 생각해요. 우리는 소비하는 대신 무언가를 하고 만들어내는 행위에서 즐거움과 즐길 건이 있다고 느껴요.
 그래도, 잘못 말하고 싶지는 않지만, 친구들과 함께 멋진 식사나 술집에서의 시간도 즐깁니다. 자주 하지는 않지만 더 즐거워해요. 지역 술집을 매달 두 번 방문하는 즐거움은 여러 날에 걸쳐 퍼지죠 - 외출 전의 설렘과 끝나고 난 후의 회상의 기쁨이요.
 무엇을 입을까요? 제가 좋아하는 소세지 롤을 주문할까요, 오늘의 특별 메뉴를 시도해볼까요? 어떤 친구들이 있을까요, 그리고 새로운 친구들을 얻게 될까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 잊지 못할 날의 후유증으로 여러 날 동안 제 아내와 이야기를 나누고 밤을 함께한 일화를 공유할 거예요. 오래된 친구들과 새로운 친구들과 다시 연결하게 될 거에요.
 
@@ -90,7 +163,18 @@ isUpdated: true
 
 ## "수난을 이겨내는 것이 더 많이 살아가는 것을 의미한다"
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "이 ‘그냥하는’ 삶은 우리의 기본적인 필요를 중심으로 돌아갑니다 - 음식, 옷, 주거, 지역사회. 부엌에서 그냥하는 것은 기쁨입니다. 정원에서 시간을 보내고 부엌에서 요리하고 농부 시장을 돌아다니는 시간은 단순히 살아남기 위해 해야 할 일이 아니라, 마음과 영혼의 작업과 부름입니다.
 
@@ -100,7 +184,18 @@ isUpdated: true
 
 최근에 친한 친구가 아내에게 의상 조각을 위해 광 열배열을 함께 납땍하는 법을 가르쳐주었습니다. 그녀는 아마존에서 미리 만들어진 것을 구매할 수도 있었지만, 새로운 기술을 익히지 못할 뿐만 아니라, 무엇보다도 지역사회의 기쁨을 놓칠 수 있었습니다."
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 물론 억지로 대처하는 것은 쉽지 않지만, 그럼에도 불구하고 억지로 해내는 것이 정말 행복한 일이라고 생각해. 우리가 더 자주 즐겁게 억지로 해결을 선택했다면 얼마나 더 만족스러울지 궁금하지 않을 수 없어.
 

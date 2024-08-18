@@ -3,7 +3,7 @@ title: "TypeScript에서 더 이상 dts 파일을 사용하면 안되는 이유"
 description: ""
 coverImage: "/assets/img/2024-08-17-StopUsingdtsFilesinTypeScript_0.png"
 date: 2024-08-17 00:40
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-17-StopUsingdtsFilesinTypeScript_0.png
 tag: Tech
 originalTitle: "Stop Using dts Files in TypeScript"
@@ -11,7 +11,6 @@ link: "https://medium.com/gitconnected/stop-using-d-ts-files-in-typescript-da01e
 isUpdated: true
 updatedAt: 1723863818247
 ---
-
 
 ![image](/assets/img/2024-08-17-StopUsingdtsFilesinTypeScript_0.png)
 
@@ -21,14 +20,37 @@ updatedAt: 1723863818247
 
 하지만, 그가 맞을까요? 여러분이 모든 .d.ts 파일을 열어서 .ts로 교체해야 할까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-이 글에서는 .d.ts 파일의 목적을 설명하여 맷이 옳은 이유와 .d.ts 코드를 다시 작성해서는 안 되는 이유를 증명하겠습니다. 그러니 말이 많았죠. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+이 글에서는 .d.ts 파일의 목적을 설명하여 맷이 옳은 이유와 .d.ts 코드를 다시 작성해서는 안 되는 이유를 증명하겠습니다. 그러니 말이 많았죠.
+
 # .d.ts 파일의 목적
 
 먼저 .d.ts 파일이 쓸모없는 것이 아님을 명확하게 하겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 .d.ts 파일은 즉 엄격한 청사진으로, 소스 코드에서 사용할 수 있는 타입을 나타냅니다.
 
@@ -46,7 +68,18 @@ export function add(num1: number, num2): number {
 
 add 함수의 구현에서는 실제 덧셈이 수행되고 결과가 반환되지만, 선언에서는 그렇지 않음을 알 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 .d.ts 파일을 실제로 어떻게 사용해야 할까요?
 
@@ -55,14 +88,25 @@ add 함수의 구현에서는 실제 덧셈이 수행되고 결과가 반환되�
 이제 add 함수를 실제로 사용할 index.js 파일을 만들어 보겠습니다.
 
 ```js
-import { add } from "./x"
+import { add } from "./x";
 
-const result = add(1, 4)
+const result = add(1, 4);
 
-console.log(result) // 출력: 5
+console.log(result); // 출력: 5
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 add 함수 내부에 타입 선언이 주석으로 추가되었기 때문에 이 JS 파일 내에서 타입 안전성이 보장됩니다.
 
@@ -72,7 +116,18 @@ console.log(result) // 출력: 5
 
 그 이유는 단일 파일 내에서 주석으로 타입을 선언하고 구현할 수 있는 .ts 파일을 직접 생성할 수 있기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 즉, 선언과 구현이 모두 포함된 단일 add.ts 파일을 가지는 것은 add.d.ts 및 add.js 파일을 별도로 정의하는 것과 동일합니다.
 
@@ -82,7 +137,18 @@ console.log(result) // 출력: 5
 
 컴파일된 JavaScript 소스 코드와 함께 .d.ts 파일을 사용하는 것이 .ts 파일을 저장하는 것보다 효율적이며, 사용자가 라이브러리를 사용할 때 유형 안정성을 갖는 데 실제로 필요한 것은 유형 선언만 있기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 내용이 사실이지만, .ts 파일에서 몇 가지 설정을 변경하여 package.json 및 tsconfig.json 파일을 조정하면 .d.ts 파일을 자동으로 생성할 수 있습니다.
 
@@ -103,7 +169,18 @@ console.log(result) // 출력: 5
 
 - package.json: 컴파일된 소스 코드 옆에 생성된 .d.ts 파일에 대한 "types" 속성을 설정해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```json
 {
@@ -123,8 +200,18 @@ console.log(result) // 출력: 5
 
 .d.ts 파일에서 할 수 있는 모든 것은 .ts 파일 내에서도 할 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 .ts 파일 내에서 '' declare global '' 구문을 사용하여 달성할 수 있습니다.
 
@@ -134,7 +221,18 @@ console.log(result) // 출력: 5
 
 더 나쁜 일은 대부분의 프로젝트가 tsconfig 옵션인 skipLibCheck를 true로 설정한다는 것입니다. 이렇게 하면 외부 .d.ts 파일뿐만 아니라 자체 파일도 타입 안전성이 제거됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 .d.ts 파일에 정의된 유형이 잘못될 수 있고 이에 대해 심지어 인식하지 못할 수 있다는 것을 의미합니다!
 

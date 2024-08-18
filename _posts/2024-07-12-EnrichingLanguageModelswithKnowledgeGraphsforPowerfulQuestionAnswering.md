@@ -3,17 +3,13 @@ title: "강력한 질문 응답을 위한 지식 그래프와 언어 모델 통�
 description: ""
 coverImage: "/assets/img/2024-07-12-EnrichingLanguageModelswithKnowledgeGraphsforPowerfulQuestionAnswering_0.png"
 date: 2024-07-12 23:36
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-EnrichingLanguageModelswithKnowledgeGraphsforPowerfulQuestionAnswering_0.png
 tag: Tech
 originalTitle: "Enriching Language Models with Knowledge Graphs for Powerful Question Answering"
 link: "https://medium.com/ai-in-plain-english/enriching-language-models-with-knowledge-graphs-for-powerful-question-answering-3c08b3b8020f"
 isUpdated: true
 ---
-
-
-
-
 
 인공 지능 소프트웨어가 이 글의 문법, 흐름 및 가독성을 강화하는 데 사용되었습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 최근 혁신적인 방법들은 RAG 프레임워크에서의 문맥 보강 소스로 원시 텍스트 세그먼트 대신 지식 그래프 사용을 탐구했습니다. 지식 그래프는 엔티티, 그들의 속성 및 그들 사이의 라벨이 지정된 관계의 구조화된 표현을 제공합니다. 출처 말뭉치에서 구축된 이 그래프는 핵심 의미 개념과 종속성의 고수준 추상화를 인코딩합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LLM 텍스트 생성 알고리즘에 정교하게 조정된 서브그래프를 제공하여 쿼리를 문맥화하면, 더 깊은 추론, 설명, 사실적으로 부정확한 환각 감소를 필요로 하는 작업에서 상당한 향상이 나타납니다. 그래프 형식의 풍부한 메타데이터는 고립된 텍스트 세그먼트가 제공할 수 있는 것보다 더 강력한 문맥적 연결을 노출시킵니다.
 
@@ -33,7 +40,18 @@ LLM 텍스트 생성 알고리즘에 정교하게 조정된 서브그래프를 �
 
 이 기사에서는 기초 텍스트 단편에서 제공하지 못하는 관계적 관점을 인코딩하는 지식 그래프가 어떻게 문맥을 향상시켜주는지 탐구하며, 이로 인해 뛰어난 증강이 제공된다고 제안합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 카드 건축, 검색 및 신경 통합 구성 요소에 대한 자세한 내용은이 기술이 구조화 된 데이터를 활용하여 LLM을 실제로 어떻게 향상시키는지를 분석할 것입니다.
 
@@ -43,7 +61,18 @@ LLM 텍스트 생성 알고리즘에 정교하게 조정된 서브그래프를 �
 
 # 지식 그래프에 들어가세요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지식 그래프는 개체를 노드로 코딩하고 해당 노드 내의 속성을 자세히 표현하며, 노드를 연결하는 라벨이 지정된 엣지로 개체 사이의 관계를 나타내는 구조화된 표현입니다. 관련된 요소들을 연결함으로써 중요한 의미적 개념과 종속성을 추상화합니다.
 
@@ -57,7 +86,18 @@ LLM 텍스트 생성 알고리즘에 정교하게 조정된 서브그래프를 �
 - 다중 단계 탐색 — 그래프로 연결된 엣지 의미에 의해 쿼리에 답변하기 위해 여러 단계를 연결할 수 있습니다. 단일 단편을 넘어서는 것입니다.
 - 확장 검색 — 하위 그래프는 가장 중요한 개체를 중심으로 연결된 구성요소를 선택적으로 검색할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 언어 모델에 지식 그래프 컨텍스트를 적용하여 각각의 텍스트 세그먼트가 아닌 쿼리에 맞게 조정하면 추가적인 전체적 시각, 형식적 개념 모델, 관계 표현이 뉴럴 생성기가 더 깊은 추론을 보여주는 결과물을 생산하는 데 더 잘 갖추어지게 됩니다.
 
@@ -67,7 +107,18 @@ LLM 텍스트 생성 알고리즘에 정교하게 조정된 서브그래프를 �
 
 # GraphRAG: 그래프 클러스터링으로 주요 주제 요약하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GraphRAG은 지식 그래프를 검색 보강에 적용함으로써 언어 모델이 전체 데이터셋을 대상으로 추론할 수 있게 해준다. 지역적인 조각뿐만 아니라.
 
@@ -77,7 +128,18 @@ GraphRAG은 지식 그래프를 검색 보강에 적용함으로써 언어 모�
 
 그런 다음 GraphRAG가 가져오는 주요 혁신은 LLM 그래프에서 생성된 말뭉치 전체 의미 클러스터를 상위 레벨 쿼리에 답할 때 검색 소스로 사용하는 것이다. 데이터셋에서 주요 주제를 요약하는 질문 등을 고려하십시오.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반적인 벡터 유사성만큼 실패하지 않는 GraphRAG는 데이터 집합 전체에서 서로 연결된 엔티티 및 관계의 하위 그룹 내에서 이야기를 반영하는 일관된 요약을 제공하기 위해 그래프 클러스터링 기술을 활용합니다.
 
@@ -87,7 +149,18 @@ GraphRAG은 지식 그래프를 검색 보강에 적용함으로써 언어 모�
 
 이 "전체 데이터셋 이해"는 LLM을 질의에 대한 관련 텍스트 스니펫을 좁게 검색하는 것에서 대신 의미 그래프 그룹화를 반영하는 계층화된 요약을 활용하여 전체적으로 키 테마에 대해 종합적으로 추론하는 방식으로 나아가게 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GraphRAG는 LLM(어반 언어 모델) 지식 그래프를 구축하고 클러스터링하여 기본 텍스트 유사성에서 기업체 간의 중요 주제 및 이야기에 대한 구조화된 추론으로 진보할 수 있도록 합니다. 고립된 텍스트에서 쉽게 감지할 수 없는 전역 잠재 주제를 검색 가능한 개념으로 변환합니다.
 
@@ -97,7 +170,18 @@ G-Retriever는 잠재적으로 관련 노드를 초기 식별하기 위한 벡�
 
 공통 벡터와 그래프 임베딩을 기반으로 한 Prize-Collecting Steiner Tree 알고리즘은 높은 관련성 대 크기 비율에 맞게 맞춤화되어 질문에 대답하는 데 중요한 중심 노드 및 관련성에 집중된 소규모 연결된 지식 부분 그래프를 검색합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이렇게 전체 소스 지식 그래프에서 직접 검색한 구조화된 그래픽 컨텍스트를 제공하는 것이 텍스트 조각들보다 더 풍부한 정보를 제공하여 LLM에 지역적 관점을 제공할 수 있습니다. 이는 진정한 그래프에 근간을 둔 구조적 추론을 통해 정확한 답변을 생성하는 데 도움이 됩니다.
 
@@ -107,7 +191,18 @@ G-Retriever는 잠재적으로 관련 노드를 초기 식별하기 위한 벡�
 
 이 혼합 방법론은 일반 코퍼스 접근법으로 인한 RAG의 실패를 보완하기 위해 규모에 맞게 텍스트 지식 그래프 상에서 직접 그래프 질문에 대한 검색을 조정합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # RAG + 지식 그래프 연결하기 = 강력한 QA
 
@@ -117,7 +212,18 @@ RAG와 G-Retriever는 언어 모델을 강화하기 위해 지식 그래프를 �
 
 주제를 포함한 그래프 임베딩을 풍부하게 하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 G-리트리버의 상-수집 슈타이너 트리 알고리즘이 그래프RAG로부터의 잠재적 주제 클러스터를 포함하여 업그레이드되어, 노드/엣지에 추가적인 메타 수준 설명을 부여할 수 있습니다. 이는 다중 해상도 이해를 위해 세부적인 개체 수준과 고수준 주제 수준에서의 쿼리를 가능하게 할 것입니다.
 
@@ -127,7 +233,18 @@ G-리트리버의 상-수집 슈타이너 트리 알고리즘이 그래프RAG로
 
 그래프 위의 반복 체인드 추론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 나아가서, 플랫폼은 반복적인 RAG를 수행할 수 있을 것입니다. 하나의 검색+LLM 사이클에서 출력 그래프 문맥을 가져와 추가적인 추론 사이클을 일으키는 입력으로 사용할 수 있습니다. 이러한 단계적인 그래프 탐험을 통한 질문에 대한 해답은 명백하지 않은 통찰을 발견할 수 있을 것입니다.
 
@@ -137,9 +254,20 @@ G-리트리버의 상-수집 슈타이너 트리 알고리즘이 그래프RAG로
 
 지식 그래프 생성이 자동화되고 LLM이 성숙해짐에 따라, 구조화된 지식 검색을 활용한 견고한 시스템은 상황인식 언어 생성을 해제하는 데 점점 더 중요해질 것입니다. 그래픽 및 신경망을 밀접하게 통합함으로써 정확한 의미론적 검색 알고리즘을 용이하게 할 수 있습니다. 이는 특정한 관련 있는 서브그래프를 찾아내어 사실적이고 근거 있는 추론을 촉진할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-**RAG 반복을 체인으로 연결하는 것은 복잡한 단계별 추론을 위한 메커니즘을 제공하여 AI 발전을 가속화할 수 있는 새로운 패러다임을 제시합니다. 이는 구성적으로 증진된 모델들이 고립된 학습을 대체함으로써 AI 발전을 가속화할 가능성이 큽니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+\*\*RAG 반복을 체인으로 연결하는 것은 복잡한 단계별 추론을 위한 메커니즘을 제공하여 AI 발전을 가속화할 수 있는 새로운 패러다임을 제시합니다. 이는 구성적으로 증진된 모델들이 고립된 학습을 대체함으로써 AI 발전을 가속화할 가능성이 큽니다.
 
 상호 보완적인 그래프와 신경 방법의 융합은 추론, 설명 및 추론이 가능한 언어 모델을 도울 것입니다. 그뿐만 아니라 검색뿐 아니라 추론할 수 있는, 능력 있는 대화형 AI의 다음 시대를 주도할 것입니다.
 
@@ -147,7 +275,18 @@ G-리트리버의 상-수집 슈타이너 트리 알고리즘이 그래프RAG로
 
 In Plain English 커뮤니티의 일원이 되어 주셔서 감사합니다! 떠나시기 전에:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 쓴 글은 꼭 박수를 치고 작가를 팔로우해주세요! 👏
 - 팔로우하기: X | LinkedIn | YouTube | Discord | 뉴스레터

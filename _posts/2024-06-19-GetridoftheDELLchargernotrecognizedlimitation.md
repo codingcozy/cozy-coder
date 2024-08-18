@@ -3,17 +3,13 @@ title: "디엘Dell 충전기 인식 제한을 해결하는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-19-GetridoftheDELLchargernotrecognizedlimitation_0.png"
 date: 2024-06-19 17:51
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-GetridoftheDELLchargernotrecognizedlimitation_0.png
 tag: Tech
 originalTitle: "Get rid of the DELL charger not recognized limitation"
 link: "https://medium.com/@Morikko/get-rid-of-the-dell-charger-not-recognized-limitation-d731bf81f0f3"
 isUpdated: true
 ---
-
-
-
-
 
 # 문제점
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 인터넷에서 빠른 조사를 통해 오랫동안 이미 알려진 문제임을 알게 되었다 ([여기](링크), [여기](링크), [그리고 여기](링크)). 충전기에는 노트북에게 어떤 충전기인지 알려주는 작은 식별 칩이 들어있는데, 이 정보가 없으면 노트북은 에너지를 사용할 수는 있지만 배터리를 충전하지 않는다. 처음에는 안전장치처럼 보였지만, 이 칩이 큰 고장점이라는 문제가 있다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 칩이 작동을 멈출 수 있습니다.
 - 데이터를 전송하는 3번째 케이블은 더 얇고 뒤쪽으로 왔다갔다하면서 일찍 고장이 날 수도 있습니다. (제 경우)
@@ -35,7 +42,18 @@ isUpdated: true
 
 완전히 작동하는 충전기를 대체하기 위해 돈을 내야 하는 것에 분하게 생각하지만 그것이 무척 반친환경적이라고 생각했습니다. 나는 새로운 것을 사지 않고 해결책을 찾고 싶다고 결심했습니다. 다행히 일부 해커들이 길을 열어 놓았습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 컴퓨터 내부 칩을 이동하여 모든 충전기가 인식되게 하세요
 
@@ -45,7 +63,18 @@ isUpdated: true
 
 그렇다면 또 다른 게시물을 왜 작성하느냐고요?! 여기서 공유하는 일부 포스트는 상당히 오래되었고 일부는 이미 인터넷 보관소를 통해서만 사용할 수 있습니다. 그래서 저는 이 새로운 기사를 작성하여 그 지식을 유지하고자 합니다. 그리고 이를 더 많은 사람들이 공유하고 실행하도록 하는 데 다른 이들을 격려할 것이라고 기대합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 계획
 
@@ -56,7 +85,18 @@ isUpdated: true
 
 이 과정 사이에 칩이 여전히 작동하는지 테스트하는 선택적인 단계가 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 재료
 
@@ -70,7 +110,18 @@ isUpdated: true
 
 ## 안전 주의사항
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위험이 발생하지 않습니다. 유효한 충전기를 계속 사용한다면 안전합니다. 유효하지 않은 충전기를 사용하면 컴퓨터 하드웨어, 배터리 또는 본인에게까지 손상을 입힐 수 있습니다.
 
@@ -81,7 +132,18 @@ isUpdated: true
 
 # 충전기에서 칩을 제거하세요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 소재
 
@@ -93,7 +155,18 @@ isUpdated: true
 
 그 형태에 따라 많은 차이가 있지만 대부분의 경우 케이스에 몇 가지 흔적을 남기게 될 때 굉장히 귀찮은 단계입니다. 그 결과로 열었다는 사실을 보이고 싶지 않다면 권하지 않겠습니다. 인터넷에는 많은 튜토리얼이 있습니다. 저는 다양한 스크류 드라이버, 때로는 망치, 그리고 내 손으로 이 작업을 수행합니다. 항상 케이스를 훼손하지 않은 채로 열었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-GetridoftheDELLchargernotrecognizedlimitation_0.png" />
 
@@ -104,7 +177,18 @@ isUpdated: true
 - 데이터 (3번째) 케이블
 - 그라운드 (검정)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 충전기의 칩은 DS5201입니다. 이 보드에는 이렇게 연결되어 있어요:
 
@@ -114,7 +198,18 @@ isUpdated: true
 
 칩을 보호하는 저항도 있어요. 여기서는 330옴입니다. 저는 저항 자체의 코드로 값이나 멀티미터로 값을 읽는 것을 추천해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 스키마
 
@@ -124,7 +219,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-19-GetridoftheDELLchargernotrecognizedlimitation_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 칩 확인 (선택 사항)
 
@@ -140,7 +246,18 @@ isUpdated: true
 - 듀폰 케이블
 - DS5201 (칩)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## DS2501 칩
 
@@ -150,7 +267,18 @@ DS2501은 OneWire 프로토콜과 통신합니다. Wikipedia, 해커 블로그 �
 
 ## 스키마
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-GetridoftheDELLchargernotrecognizedlimitation_4.png" />
 
@@ -161,7 +289,18 @@ DS2501은 OneWire 프로토콜과 통신합니다. Wikipedia, 해커 블로그 �
 - 예제에서 사용된 올바른 핀에 칩을 연결했는지 확인하세요.
 - “Serial.print(data[i]);”에서 16진수 값 대신 문자를 출력하려면 63번째 줄을 “Serial.print((char)data[i]);”로 변경할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드를 실행하기 전에 "OneWire" 라이브러리를 다운로드해야 합니다.
 
@@ -173,7 +312,18 @@ DS2501은 OneWire 프로토콜과 통신합니다. Wikipedia, 해커 블로그 �
 
 ## 데이터
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 주석을 기반으로 하면 다음을 의미합니다:
 
@@ -188,8 +338,18 @@ DS2501은 OneWire 프로토콜과 통신합니다. Wikipedia, 해커 블로그 �
 
 랩톱을 열어보세요. 자신과 재료를 위해 안전을 우선으로 생각해 배터리(커넥터)를 뽑는 것을 권장합니다. 전원 입력을 찾아 마더보드에 연결된 케이블을 분리하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Connector](/assets/img/2024-06-19-GetridoftheDELLchargernotrecognizedlimitation_5.png)
 
@@ -197,13 +357,22 @@ DS2501은 OneWire 프로토콜과 통신합니다. Wikipedia, 해커 블로그 �
 
 ![Chip Components](/assets/img/2024-06-19-GetridoftheDELLchargernotrecognizedlimitation_6.png)
 
-칩을 준비할 때, 다이오드와 저항을 납땜해야 합니다. 이를 위해 노트북 충전기에 있던 것처럼. 다이오드는 최대한 작은 것을 사용하는 것을 권장합니다. 다시 노트북을 닫는 작업을 간단하게 하기 위해서에요. 저는 상당히 큰 다이오드밖에 없었는데, 그럼에도 맞았지만 과정을 간단하게하지는 못했어요. -_-”
+칩을 준비할 때, 다이오드와 저항을 납땜해야 합니다. 이를 위해 노트북 충전기에 있던 것처럼. 다이오드는 최대한 작은 것을 사용하는 것을 권장합니다. 다시 노트북을 닫는 작업을 간단하게 하기 위해서에요. 저는 상당히 큰 다이오드밖에 없었는데, 그럼에도 맞았지만 과정을 간단하게하지는 못했어요. -\_-”
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래과 같이 표 태그를 Markdown 형식으로 변경해 주세요.
-
 
 <img src="/assets/img/2024-06-19-GetridoftheDELLchargernotrecognizedlimitation_7.png" />
 
@@ -213,8 +382,18 @@ DS2501은 OneWire 프로토콜과 통신합니다. Wikipedia, 해커 블로그 �
 
 취소할 수 있는 해결책을 위해:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 커넥터에있는 GND 핀을 GND에 직접 납땜하십시오. 마더보드로 들어가는 GND와 나란히 배치합니다.
 - 마더보드에서 전원 커넥터로 오는 데이터 케이블(하얀색)을 분리하십시오. 이를 칩의 데이터 핀에 납땜하십시오.
@@ -225,6 +404,17 @@ DS2501은 OneWire 프로토콜과 통신합니다. Wikipedia, 해커 블로그 �
 
 데이터 쪽의 납이 너무 약해서 처음에 하나 떨어진 것처럼 두 번의 작업을 해야했습니다. 정말 작고 섬세한 부품에 대한 납땜 전문가는 아니기 때문에요 ^^
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 마크다운 형식으로 변환하세요.

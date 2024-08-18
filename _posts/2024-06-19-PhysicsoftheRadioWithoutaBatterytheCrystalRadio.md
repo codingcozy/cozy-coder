@@ -3,18 +3,13 @@ title: "배터리 없이 작동하는 라디오의 물리학 - 크리스탈 라�
 description: ""
 coverImage: "/assets/img/2024-06-19-PhysicsoftheRadioWithoutaBatterytheCrystalRadio_0.png"
 date: 2024-06-19 18:05
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-PhysicsoftheRadioWithoutaBatterytheCrystalRadio_0.png
 tag: Tech
 originalTitle: "Physics of the Radio Without a Battery — the Crystal Radio"
 link: "https://medium.com/@rjallain/physics-of-the-radio-without-a-battery-the-crystal-radio-a057a5650077"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![PhysicsoftheRadioWithoutaBatterytheCrystalRadio](/assets/img/2024-06-19-PhysicsoftheRadioWithoutaBatterytheCrystalRadio_0.png)
 
@@ -24,8 +19,18 @@ There's a bunch of cool physics in the operation of this kind of radio. Let's go
 
 ## What is a Radio Wave?
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 라디오를 듣고 싶다면, 라디오가 무엇을 감지하는지 알아야 합니다. 답은 빛입니다. 실제로, 이것은 빛의 한 종류입니다 - 전자기파입니다. 이는 라디오 방송국에 의해 만들어지는 진동하는 전기 및 자기장입니다. 보이는 빛과 비슷하지만 훨씬 더 긴 파장을 가지고 있습니다. 미국에서는 540 킬로헤르쯤과 1700 킬로헤르쯤 사이의 주파수로 AM 라디오를 수신할 수 있습니다. 이는 555 미터와 176 미터 사이의 파장에 해당합니다.
 
@@ -35,11 +40,33 @@ There's a bunch of cool physics in the operation of this kind of radio. Let's go
 
 이제 재밌는 물리학적인 것들에 대해 이야기해 보겠습니다. 결정 라디오에서 핵심 요소 중 하나는 인덕터입니다. 이것은 본질적으로 단지 철사의 뭉텅이입니다. 우리는 철사를 통과시키면 전기전류가 흘러 자기장이 생긴다는 것을 알고 있습니다. 이것이 바로 철사의 뭉텅이로부터 전자기를 만드는 방법입니다. 여기서 멋진 부분은 바로 여기인데, 만일 당신이 철사의 뭉텅이에 둘러싸인 공간을 통해 변화하는 자기장이 지나간다면, 그 변화하는 자기장은 전류를 유발할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <table> 태그를 Markdown 형식으로 변경해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 인덕터-캐패시터 발진기
 
@@ -49,7 +76,18 @@ There's a bunch of cool physics in the operation of this kind of radio. Let's go
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1000/1*wXALs6lEmmBpUSpqB4IBKA.gif)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 회로의 진동 주파수는 캐패시터와 인덕터의 값(우리는 이를 LC라고 부릅니다)의 곱에 의해 결정됩니다. LC가 증가할수록 주파수는 감소합니다.
 
@@ -59,7 +97,18 @@ There's a bunch of cool physics in the operation of this kind of radio. Let's go
 
 알겠어요, 상상해보세요. 어린이가 놀이터의 그네에 앉아 있습니다. 그네가 이동되고 풀렸을 때, 어떤 주파수로 왕복하게 됩니다(이는 대부분 그네 사슬의 길이에 따라 결정됩니다). 그런 다음 진동 힘으로 어린이를 밀 때 이 진동 주파수가 자연 그네 주파수와 일치하게 되면, 그네의 진폭이 증가할 것입니다. 이를 공진이라고 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 라디오파와 캐패시터-인덕터 회로 역시 마찬가지로 발생합니다. 파의 주파수가 회로의 공진 주파수와 일치하면 전류가 증가합니다. 이것이 라디오 수신기입니다. 전지조차 필요하지 않다는 점을 주목해 주세요 — 전류는 전자파로부터 유도됩니다.
 
@@ -69,7 +118,18 @@ There's a bunch of cool physics in the operation of this kind of radio. Let's go
 
 크리스탈 라디오의 "크리스탈" 부분을 살펴보지 않았습니다. 그 전에 AM 라디오 방송국의 AM 부분을 고려해 보겠습니다. 라디오에서 소리를 듣고 싶습니다 — 아마 음악을 듣고 싶을 것입니다. 음악은 복잡하지 않습니다. 단지 주파수가 변하는 소리파일 뿐입니다. 물론, 주파수가 어떻게 변하는지 선택하는 것이 음악가가 되는 결정적인 요소입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 잠까지 기다려 주세요. 만약 우리의 라디오가 공명 주파수(단일 주파수)를 가져야 하지만 출력은 변화하는 주파수를 가져야 한다면 문제가 발생합니다. 여기서 "진폭 변조"가 필요해요.
 
@@ -77,8 +137,18 @@ There's a bunch of cool physics in the operation of this kind of radio. Let's go
 
 그것은 단일 주파수를 갖고 있기 때문에 라디오는 수정 라디오의 캐패시터-인덕터로 튜닝될 수 있습니다. 이제 다른 주파수로 소리를 내고 싶다고 가정해 봅시다. 이게 우리가 원하는 바에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-PhysicsoftheRadioWithoutaBatterytheCrystalRadio_2.png)
 
@@ -88,8 +158,18 @@ There's a bunch of cool physics in the operation of this kind of radio. Let's go
 
 여기서 진폭이 변조된 소리파가 있는 신호파가 있어요 — 그게 AM 라디오에요. 하지만! 이렇게 하면 동작하지 않을 거에요. 이 신호를 이어폰에 전달하면 아무 소리도 들리지 않을 거에요. 신호파의 주파수가 너무 높아서 이어폰의 스피커가 충분히 빨리 반응하여 소리를 내지 못할 거에요. 이어서 다음 부분을 살펴볼게요.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 크리스탈 다이오드
 
@@ -99,7 +179,18 @@ There's a bunch of cool physics in the operation of this kind of radio. Let's go
 
 이어폰은 주로 빨간색 곡선의 주파수로 소리를 재생하여 들을 수 있습니다. 실제로 작동시키기 위해서는 더 많은 세부 정보가 필요하지만, 대략적인 아이디어는 이해하셨죠!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아, 하지만 다이오드는 어떻습니까? 초기 크리스털 라디오에서 다이오드는 실제 크리스털인 갈레나와 같은 것이었습니다. 그러나 야생에서 고립되었거나 포로 수용소에 갇혀 있다면(마스터스 오브 더 에어처럼), 갈레나 크리스털을 찾기 쉽지 않습니다. 여기서 "요새" 버전이 필요해집니다. 금속과 산화층으로 다이오드를 만들 수 있다는 것이 밝혀졌습니다. 금속 면날을 가열하고 그래핏 연필에 가볍게 닿게 한 다음 다이오드를 만들 수 있을 수도 있습니다. 연락이 발생하는 정확한 위치에 따라 다르지만, 실제로 가능합니다.
 
@@ -109,7 +200,18 @@ There's a bunch of cool physics in the operation of this kind of radio. Let's go
 
 ![링크 텍스트](/assets/img/2024-06-19-PhysicsoftheRadioWithoutaBatterytheCrystalRadio_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 캐퍼시터는 종이 한 장으로 분리된 두 장의 알루미늄 호일을 사용하고 있어요. 바깥쪽 호일은 아래쪽 호일과의 겹침 면적을 조절하기 위해 왔다갔다 할 수 있어요. 이것이 변수 캐패시터를 만드는 방법이죠.
 
@@ -119,7 +221,18 @@ There's a bunch of cool physics in the operation of this kind of radio. Let's go
 
 # Masters of the Air에서의 Foxhole Radio
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 약간의 (하지만 중요하지 않은) 스포일러가 포함되어 있습니다. 경고했어요.
 

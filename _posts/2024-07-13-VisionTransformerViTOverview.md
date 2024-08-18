@@ -3,17 +3,13 @@ title: "비전 트랜스포머 ViT 개요 2024 최신 기술 분석"
 description: ""
 coverImage: "/code-tower.github.io/assets/no-image.jpg"
 date: 2024-07-13 03:32
-ogImage: 
+ogImage:
   url: /code-tower.github.io/assets/no-image.jpg
 tag: Tech
 originalTitle: "Vision Transformer (ViT) Overview"
 link: "https://medium.com/@zakhtar2020/vision-transformer-vit-overview-1baa0d173ab5"
 isUpdated: true
 ---
-
-
-
-
 
 비전 변형(Vision Transformer, ViT)은 이미지 분류에 대한 새로운 접근 방식으로, 자연어 처리 작업에서 매우 성공적인 트랜스포머 아키텍처를 활용합니다. 구글 연구원들이 소개한 ViT는 이미지 데이터를 패치의 시퀀스로 취급하고 이러한 시퀀스에 트랜스포머 모델을 적용함으로써 이미지 처리 방법을 재정의합니다. 이 접근 방식은 이미지 분류 파이프라인을 간소화하고 최첨단 성능을 달성합니다. 이곳에서 ViT의 자세한 개요를 확인할 수 있습니다:
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이미지를 패치의 시퀀스로: 합성곱 대신에 ViT는 이미지를 고정 크기의 패치로 나누고 이러한 패치를 펼쳐서 토큰처럼 다루어 시퀀스에서 단어와 같이 처리합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2. 구조
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 **인코더 구성요소:**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **Key Components and Concepts**
 
@@ -45,7 +63,18 @@ Patch Embedding: 이미지는 고정 크기의 패치(예: 16x16 픽셀)로 분�
 
 분류 헤드: 트랜스포머 인코더를 통해 패치를 처리한 후, 특별한 분류 토큰(CLS)에 해당하는 표현을 사용하여 최종 이미지 분류를 수행합니다. 이 토큰은 모든 패치에서 정보를 집계하여 전체 이미지를 대표합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위치 부호 인코딩: 트랜스포머는 순차적으로 시퀀스를 처리하지 않기 때문에 순서에 대한 감각이 부족합니다. 공간 정보를 보존하기 위해 ViT는 각 패치 임베딩에 위치 부호 인코딩을 추가합니다. 이러한 인코딩은 원본 이미지에서 각 패치의 위치를 나타내는 고정된 벡터입니다.
 
@@ -55,7 +84,18 @@ Patch Embedding: 이미지는 고정 크기의 패치(예: 16x16 픽셀)로 분�
 
 ## 4. 주요 기능 및 이점
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 확장성: ViT는 대규모 데이터셋과 모델 크기에 효율적으로 확장되며, 트랜스포머 아키텍처의 능력을 통해 대량의 데이터와 복잡한 패턴을 처리할 수 있습니다.
 - 단순성: 이미지를 패치 시퀀스로 취급함으로써, ViT는 복잡한 합성곱 레이어가 필요 없는 전통적인 CNN에 비해 아키텍처를 간단화합니다.
@@ -69,7 +109,18 @@ Patch Embedding: 이미지는 고정 크기의 패치(예: 16x16 픽셀)로 분�
 - 콘텐츠 기반 이미지 검색: ViT를 사용하여 콘텐츠에 기초한 대규모 데이터베이스에서 이미지를 검색하고 검색할 수 있으며, 효율적인 이미지 검색과 정리를 실현할 수 있습니다.
 - 예술과 역사 아카이브: ViT는 예술 및 역사 아카이브에서 이미지를 조직화하고 검색하는 데 도움이 되어 가치 있는 시각 정보에 대한 연구와 접근을 용이하게 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 생성 모델:
 
@@ -81,7 +132,18 @@ Patch Embedding: 이미지는 고정 크기의 패치(예: 16x16 픽셀)로 분�
 - 자율 주행: ViT는 자율 주행 차량에서 실시간으로 물체를 감지하고 분할하여 차량의 환경을 이해하고 탐험하는 능력을 향상시킵니다.
 - 로봇 시각: ViT는 로봇이 물체를 감지하고 분할하여 조작 작업에 도움을 줌으로써 물리적 세계와 상호 작용을 향상시킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 6. 결론
 

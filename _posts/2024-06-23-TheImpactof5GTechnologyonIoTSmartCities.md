@@ -3,17 +3,13 @@ title: "5G 기술이 IoT와 스마트 시티에 미치는 영향"
 description: ""
 coverImage: "/assets/img/2024-06-23-TheImpactof5GTechnologyonIoTSmartCities_0.png"
 date: 2024-06-23 16:58
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-TheImpactof5GTechnologyonIoTSmartCities_0.png
 tag: Tech
 originalTitle: "The Impact of 5G Technology on IoT , Smart Cities"
 link: "https://medium.com/towards-artificial-intelligence/the-impact-of-5g-technology-on-iot-smart-cities-6694d7eb9cf5"
 isUpdated: true
 ---
-
-
-
-
 
 사물 인터넷(IoT)과 스마트 시티는 5G 기술의 출현으로 상당한 영향을 받을 것으로 예상되며, 기술의 세계를 변화시키려는 시도가 될 것으로 예상됩니다. 5G는 더 빠른 속도, 더 낮은 지연 시간 및 더 안정적인 연결을 제공하는 능력을 통해 기존 네트워크의 제약을 벗어나 새로운 사용 사례를 가능케 할 수 있는 잠재력을 가지고 있습니다. 이 기사에서는 5G 기술이 사물 인터넷(IoT)과 스마트 시티에 미칠 혁명적인 영향과 사회 및 경제에 가져다 줄 잠재적 이점에 대해 탐구할 것입니다.
 
@@ -36,7 +32,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-23-TheImpactof5GTechnologyonIoTSmartCities_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1. 5G 기술 소개
 
@@ -46,7 +53,18 @@ isUpdated: true
 
 사물 인터넷(IoT)은 서로 통신하고 데이터를 공유할 수 있는 인터넷에 연결된 장치들의 네트워크를 의미합니다. 이 네트워크는 웨어러블 기기와 스마트 가전제품부터 대형 기계 및 교통 수단까지 모든 것을 포함합니다. 그러나 현재 네트워크 인프라는 IoT의 잠재력을 제한하는 주요 요인입니다. 현재의 셀룰러 네트워크와 Wi-Fi 네트워크는 IoT 기기가 생성하는 방대한 데이터 양을 처리할 수 없어 네트워크 혼잡 및 대역폭 제약으로 이어져 데이터 전송을 방해하고 지연을 초래할 수 있습니다. 또한 현재 네트워크의 지연 시간이 실시간 응용 프로그램(원격 수술 또는 자율주행차와 같은)에게 너무 높을 수 있으며, 이는 즉각적인 응답이 필요한 응용프로그램에 불리할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보안은 IoT를 직면한 또 다른 과제입니다. 인터넷에 연결된 장치가 더 많아짐에 따라, 사이버 공격, 데이터 유출, 그리고 개인 정보 침해의 위험이 증가합니다. 많은 IoT 장치가 보안 조치와 표준을 갖추지 못해 해킹의 위협에 취약해지고 있습니다. 마지막으로, 표준화와 호환성의 부재는 IoT의 주류 채택에 큰 장벽이 됩니다. 하드웨어와 소프트웨어가 다양한 장치와 플랫폼과 매끄럽게 통합되도록 보장하는 것이 개발자들에게 어려울 수 있어 IoT 시스템을 확장하는 것이 어려워질 수 있습니다.
 
@@ -60,8 +78,18 @@ isUpdated: true
 - 더 많은 용량: 5G 네트워크는 이전 세대 네트워크보다 단위 영역 당 더 많은 장치를 지원할 수 있습니다. 이 증가된 용량은 더 많은 IoT 장치의 배치를 가능하게 하여 새로운 사용 사례와 수익원을 만들어낼 것입니다.
 - 강화된 보안: 5G 네트워크는 안전 부팅, 안전 요소, 네트워크 슬라이싱 등과 같은 강화된 보안 기능을 제공할 수 있습니다. 이러한 기능은 사이버 공격과 데이터 유출을 방지해 IoT 장치와 데이터가 안전하다는 것을 보장할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-06-23-TheImpactof5GTechnologyonIoTSmartCities_1.png)
 
@@ -71,8 +99,18 @@ isUpdated: true
 
 ## 5. 5G가 지연 시간을 줄이고 실시간 IoT 응용 프로그램을 가능하게 하는 방법
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5G 기술 덕분에 실시간 IoT 애플리케이션이 가능해졌어요. 이 기술은 지연 시간을 1밀리초로써 줄일 수 있어요. 이는 기기들 간에 거의 지연이 없다는 것을 의미하며, 빠르고 효과적인 소통을 가능케 합니다. 이 낮은 지연을 이루기 위해 개선된 네트워크 디자인과 정밀한 신호 처리 기술이 사용되고 있어요. 지연 시간이 낮은 IoT 기기는 데이터를 빠르게 송수신할 수 있어서 무인 항공기, 자율 주행차, 원격 수술과 같은 응용 프로그램에 필수적입니다. 지연 시간의 감소는 기기 간 효과적이고 효율적인 소통을 유발하여 성과를 향상시키고 사용자 경험을 향상시킬 수 있습니다.
 
@@ -82,7 +120,18 @@ isUpdated: true
 
 1. 스마트 시티: 5G를 통해 수백만 대의 센서, 조명, 신호등 등과 같은 기기들을 네트워크에 연결하여 자원 관리를 개선하고 교통 체증을 완화하며 공공 안전을 향상시킬 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 산업 자동화: 센서와 다른 장비를 실시간으로 연결하여 5G는 산업 환경에서 빠른 의사 결정 및 작업 자동화를 용이하게 할 수 있습니다.
 
@@ -92,7 +141,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-23-TheImpactof5GTechnologyonIoTSmartCities_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 7. 스마트 도시 개념과 이점
 
@@ -102,7 +162,18 @@ isUpdated: true
 
 "스마트 도시"라는 아이디어는 매력적이지만, 이를 실현하는 것은 여러 가지 어려움을 겪고 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1. 높은 비용: IoT 기기와 최첨단 센서와 같은 스마트 기술을 도입하는 것은 비실수 있으며, 많은 지역 사회들이 이를 위한 재정 자원이 부족합니다.
 
@@ -112,7 +183,18 @@ isUpdated: true
 
 4. 개인 정보 문제: 공공장소에서 IoT 기기를 사용함으로 인해 개인의 개인 정보와 개인 데이터에 대한 우려가 제기됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5. 표준화 부족: 도시에서 스마트 기술을 적용하는 것이 현재 표준화되어 있지 않아 호환성 문제를 일으키고 솔루션을 확장하는 것을 어렵게 만듭니다.
 
@@ -122,7 +204,18 @@ isUpdated: true
 
 5G 기술은 더 많은 대역폭, 빠른 데이터 전송 속도, 그리고 낮은 지연 시간을 제공함으로써 오늘날의 스마트 시티에서 사용되는 네트워크의 한계를 극복할 수 있습니다. 5G 네트워크 슬라이싱 기술을 활용하여 특정 스마트 시티 애플리케이션을 위한 전용 가상 네트워크를 구축하면 최적의 네트워크 성능과 효율적인 데이터 관리를 얻을 수 있습니다. 또한, 이 기술은 스마트 시티에 다양한 IoT 기기와 센서를 설치하는 것을 용이하게 하여 더 많은 범위와 실시간 데이터 처리를 가능하게 합니다. 5G 기술은 일반적으로 스마트 시티의 애플리케이션을 완전히 변형하여 더 빠르고 효과적인 데이터 처리를 가능하게 하고 도시의 지속가능성을 향상시킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![표](/assets/img/2024-06-23-TheImpactof5GTechnologyonIoTSmartCities_3.png)
 
@@ -135,7 +228,18 @@ isUpdated: true
 - 에너지 관리: 5G 활성화 스마트 그리드 기술을 통해 에너지 소비를 실시간으로 관리하면서 효율성을 극대화하고 비용을 절감할 수 있습니다.
 - 의료: 5G 기반의 원격 건강 모니터링 및 진단으로 실시간으로 환자 결과를 개선할 수 있게 해줌으로써 환자 결과를 개선합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 11. 도시 이동 및 교통에 미치는 5G의 영향
 
@@ -145,7 +249,18 @@ isUpdated: true
 
 ## 12. 스마트 시티에서 공공 안전과 보안 향상에 대한 5G의 역할
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스마트 시티에서 5G 기술은 공공 안전과 안보를 혁신적으로 향상시킬 수 있는 잠재력이 있습니다. 스마트 시티 시스템은 빠르고 반응성 있는 5G 네트워크를 활용하여 비디오 보안 카메라, 지능형 신호등 및 기타 IoT 장치에서 대량의 데이터를 수집하고 분석할 수 있습니다. 인공 지능 및 머신 러닝 알고리즘을 사용하여 이 실시간 데이터를 조사하여 가능한 보안 문제를 찾아 즉각 대응할 수 있습니다. 무인 항공기 (UAV) 및 자율 주행 차량 또한 5G 덕분에 감시 및 긴급 대응에 활용될 수 있습니다. 5G 기술이 공공 안전 및 보안에 끼칠 수 있는 엄청난 개선으로 인해 스마트 시티는 전반적으로 더 안전하고 안정적인 거주지로 발전할 수 있습니다.
 
@@ -155,7 +270,18 @@ isUpdated: true
 
 ## 14. 결론: 5G 기술이 IoT와 스마트 시티에 미치는 변혁적 잠재력
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요약하면, 5G 기술 도입은 IoT 및 스마트 시티 네트워크의 단점을 해결할 수 있는 잠재력이 있습니다. 5G 네트워크의 고속 및 저 지연성을 통해 실시간 앱을 가능하게 할 뿐만 아니라 네트워크 혼잡을 완화하고 사용자 경험을 향상할 수도 있습니다. 또한, 자율 주행 차량을 가능케 하고 교통을 개선하며 에너지 소비를 줄이는 등 도시 이동성 및 교통에 큰 영향을 미칠 수 있습니다. 늘리된 연결 및 네트워크 용량을 통해 더 효과적인 감시와 응급 대응을 가능하게 함으로써 공공 안전과 보안을 개선할 수도 있습니다. 마지막으로, 5G를 지원하는 스마트 시티는 생산 및 효율성 향상부터 새로운 직업 전망 및 수입 기회에 이르기까지 거대한 경제적 가능성을 갖고 있습니다.
 

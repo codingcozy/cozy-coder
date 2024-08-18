@@ -3,17 +3,13 @@ title: "Google Gemini 빅 컨텍스트 창이 최고의 기능일까"
 description: ""
 coverImage: "/assets/img/2024-07-13-GoogleGeminiAreBigContextWindowstheKillerFeature_0.png"
 date: 2024-07-13 23:20
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-GoogleGeminiAreBigContextWindowstheKillerFeature_0.png
 tag: Tech
 originalTitle: "Google Gemini: Are Big Context Windows the Killer Feature?"
 link: "https://medium.com/young-coder/google-gemini-are-big-context-windows-the-killer-feature-72ff95488fb1"
 isUpdated: true
 ---
-
-
-
-
 
 에
 힘이 그들의 AI 제공물 주변을 지키는 데 어려움을 겪고 있다는 정보가 유출된 지 겨우 여덜 달밖에 되지 않았다. 다시 말해, 그들의 AI 제공물 주변에는 성장된 비즈니스 장점이 없었을 뿐만 아니라, 구글은 상황을 바꿀 비밀 요리도 없었습니다. 그리고 그들이 문제에 씨름하고 있을 때, 그들은 자신들과 같은 사립 자금이 투입된 AI 프로젝트와 오픈 소스 AI 모델 사이의 간격이 "놀라울 정도로" 빨리 좁아지고 있다는 것을 지켜보고 있었습니다.
@@ -24,7 +20,18 @@ Gemini 1.5 Pro은 컨텍스트 창을 대폭 확대했습니다. 즉, LLM이 한
 
 하지만 우리가 LLM 능력에 미치는 컨텍스트 창의 영향에 대해 이야기하기 전에, 우리는 컨텍스트 창이 어떻게 작동하는지를 간단히 되짚어 볼 필요가 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 컨텍스트 창 (요약)
 
@@ -34,7 +41,18 @@ Gemini 1.5 Pro은 컨텍스트 창을 대폭 확대했습니다. 즉, LLM이 한
 
 그러한 이유로 컨텍스트 창 제약을 우회하는 몇 가지 똑똑한 방법을 개발했습니다. 예를 들어:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 청킹. 큰 양의 데이터를 분할해서 LLM이 한 번에 하나씩 살펴볼 수 있습니다. 이 방법은 일부 작업(긴 문서 요약)에는 잘 작동하지만 문서 전체에 걸쳐 개념을 분석해야 하는 경우에는 그렇게 잘 동작하지 않습니다.
 - 파인 튜닝. LLM을 특정 데이터로 훈련시킬 수 있습니다. 시간과 비용 외에도 문제는 새 데이터가 LLM이 이미 흡수한 훨씬 더 큰 범용 훈련 데이터 세트에 쉽게 압도된다는 것입니다. 종종 그냥 제대로 동작하지 않을 수도 있습니다. 게다가 GPT-4와 Gemini를 포함한 많은 LLM은 파인 튜닝을 전혀 지원하지 않습니다.
@@ -46,7 +64,18 @@ Gemini 1.5 Pro은 컨텍스트 창을 대폭 확대했습니다. 즉, LLM이 한
 
 적어도, Gemini 1.5 Pro가 나올 때까지는요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지 태그를 Markdown 형식으로 변경하세요.
 
@@ -56,7 +85,18 @@ Gemini 1.5 Pro가 아직 출시되지 않았지만, 현재는 엄격히 제한�
 
 가장 인상적인 예시 중 일부는 Gemini가 거대한 지식 체계를 아우르는 분석을 생성하는 것을 보여줍니다. Google의 데모는 예상대로 인상적이지만, 과거에는 데모를 조작하고 예시를 엄선하는 것으로 비난받은 바 있습니다. 저는 독립적인 테스터들의 결과에 더 관심이 있으며, 그들은 결코 덜 놀라운 결과를 보고했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 코너 그레넌이 300 페이지의 소설을 자이미니에게 주고, 주요 캐릭터를 설명하고 줄거리 전개를 찾아내며, 캐릭터가 특정 감정을 느낀 사례를 식별해보라고 했습니다. 자이미니는 책 전체적으로 균형 있는 주장을 개발하는 데 문제가 없었습니다. YouTube에서 인기 있는 파이어쉽 채널의 창조자인 제프 델라니는 자이미니에게 수천 개의 파일로 된 전체 코드베이스를 주고 새로운 기능을 추가해 달라고 했습니다. 자이미니는 올바른 코드를 작성하는 것뿐만 아니라, 기존 프로젝트의 스타일을 따르며, 이미 설정된 구성 요소, 라이브러리 및 규칙을 사용했습니다. 다른 데모에서는 자이미니가 애플리케이션에서 문제를 식별하고 중요한 예시를 추출하며 API 설명서를 작성하는 것도 보여줍니다.
 
@@ -66,7 +106,18 @@ Gemini 1.5 Pro가 아직 출시되지 않았지만, 현재는 엄격히 제한�
 
 거대한 컨텍스트 창문이 미래의 방향일까요? 지금까지, 일반적인 지혜는 큰 컨텍스트 창문이 최선의 해결책이었다고 생각되었습니다. 우리는 그들이 연인 시간에 비싸다는 문제가 걱정되었습니다. 한 연구에 따르면, LLM은 긴 컨텍스트 창문 중간에 정보를 찾는 데 특별히 좋지 않았으며, 시작 또는 끝에 발생하는 세부 사항에서 더 잘 수행했다고 합니다. 이러한 모든 요소는 동일한 결론을 뒷받침했습니다: 컨텍스트 창문에 콘텐츠를 강제로 집어넣는 것은 단순하고 비용적으로 효과적이지 않았다는 것이죠. 모든 데이터를 한 요청에 담아내는 것이 LLM과 대화하는 올바른 방법이 될 수 없다는 것을 의미한 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 미래가 갑자기 변할 것 같아요. 대규모 컨텍스트 창이 다가오고, 이는 LLMs에게 더 강력하고 포괄적인 넓은 지식 영역에 대한 이해를 제공할 수 있을 겁니다. 작년에는 텍스트로 불가능했던 작업들이 이제 비디오로 가능해질 것입니다. 그리고 구글 리서치는 Gemini의 변형을 실험 중이며, 컨텍스트 창을 놀라운 1,000만 토큰까지 확장하고 있어요.
 

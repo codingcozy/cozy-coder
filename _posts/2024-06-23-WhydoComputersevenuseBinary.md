@@ -3,17 +3,13 @@ title: "컴퓨터는 왜 이진수Binary 체계를 사용할까"
 description: ""
 coverImage: "/assets/img/2024-06-23-WhydoComputersevenuseBinary_0.png"
 date: 2024-06-23 19:49
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-WhydoComputersevenuseBinary_0.png
 tag: Tech
 originalTitle: "Why do Computers even use Binary?"
 link: "https://medium.com/towards-data-science/why-do-computers-even-use-binary-27e6d99f691d"
 isUpdated: true
 ---
-
-
-
-
 
 # 소개적인 쓰레기
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![그림](/assets/img/2024-06-23-WhydoComputersevenuseBinary_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 알겠어요. 수학, 컴퓨터 과학 및 공학의 이론적 주제는 종종 Python, Tensorflow 또는 Amazon Web Services와 같은 응용 중심 학습 목표보다 즉각적으로 보상을 받기가 어려워서(또는 솔직히 말해 즉각적으로 고용가능하지 않아서) 부차적인 학습 목표로 밀려납니다. 신진 데이터 과학자가 왜 이러한 종류의 주제로 향하는지 이해할 수밖에 없죠. 이러한 주제는 프로젝트 포트폴리오가 빠르게 성장함에 따라 기술과 이해력의 즉각적이고 실질적인 향상을 제공하기 때문입니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 # 이진수란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미 이진수가 무엇인지를 알고 계시다면, 이 섹션을 건너 뛰셔도 좋아요. 아니라면, 이 내용이 귀하를 위한 것입니다!
 
@@ -43,8 +61,18 @@ isUpdated: true
 
 우리는 이러한 새로운 숫자 시스템을 'X 진수' 숫자 시스템이라고 합니다. 여기서 X는 새로운 자리로 넘어가는 값입니다. 예를 들어, 우리의 숫자 시스템은 각 자리가 10보다 더 커지기 전에 끝나므로 10 진수 시스템이라고 합니다. 반면에, 우리의 외계인 친구들은 6 진수 시스템을 갖게 될 것입니다. 왜냐하면 그들의 숫자는 6보다 작아지기 때문입니다. 컴퓨터는 2 진수 시스템에서 작동하며 바이너리로 알려져 있습니다. 바이너리 시스템에 적용된 외계인의 6 진수 시스템에 적용된 동일한 계산 논리를 적용해 봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Binary Explanation](/assets/img/2024-06-23-WhydoComputersevenuseBinary_2.png)
 
@@ -54,8 +82,18 @@ isUpdated: true
 
 10진법에서
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `<img src="/assets/img/2024-06-23-WhydoComputersevenuseBinary_3.png" />`
 
@@ -65,7 +103,18 @@ isUpdated: true
 
 위의 합산을 수행하면, ob1101은 13이 됩니다. 2진수를 10진수로 변환하는 쉬운 방법입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 왜 컴퓨터는 이진수를 사용할까요?
 
@@ -75,8 +124,18 @@ isUpdated: true
 
 우리가 이진수 체계를 사용하는 큰 이유 중 하나는 다른 체계보다 간단하기 때문입니다. 간단히 말하면, 오로지 2 상태(0 또는 1)만을 표현하는 것은 더 쉽고 더 적은 물리적 부품이 필요합니다. 이것이 왜 그런지 이해하려면, 컴퓨터와 같은 디지털 시스템이... 음... 디지털이라는 것을 이해해야 합니다. 즉, 컴퓨터는 연속적인 수 대신 숫자의 이산적 표현을 사용하는 하드웨어를 사용합니다. 수학 수업에서 기억할 수 있겠지만, 이산적인 수는 정수(0, 1, -4 등)이고 연속적인 수는 정수와 각 소수부(0 1, -4, .2, -.2343 등)가 있는 수입니다. 그러나 컴퓨터는 전기를 사용하여 동작하는 실제 시스템이기 때문에 전압 수준을 정보로 표현하는 경우가 많습니다. 전압은 연속적인 값이며(3.22682393 볼트인 것이 가능합니다), 컴퓨터는 디지털입니다 — 오직 이산적인 값만을 사용하는 방식을 알고 있습니다. 어떻게 하면 연속적인 값(전압)을 디지털 시스템으로 표현할 수 있을까요? 우리는 전압 값을 디지털 값에 상응하는 전압 범위로 설정하여 그 방법을 찾습니다. 아래는 그러한 설정의 예시입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-23-WhydoComputersevenuseBinary_5.png)
 
@@ -86,8 +145,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-23-WhydoComputersevenuseBinary_6.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자연스럽게 다른 상태를 추가하려면 더 많은 하드웨어 구성 요소가 필요합니다. 이는 더 높은 기수 체계를 사용하는 시스템을 설계할 때 하드웨어 면에서 복잡해지는 점을 의미합니다(설계 및 구성 요소 수 측면에서). 이것이 컴퓨터가 이진수를 사용하는 근본적인 이유입니다. 그러나 높은 기수 체계를 사용하는 것이 더 중요한 두 가지 영향을 주목해 보겠습니다.
 
@@ -97,7 +166,18 @@ isUpdated: true
 
 ![전기 전력](/assets/img/2024-06-23-WhydoComputersevenuseBinary_7.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 P는 전력(Watts), I는 전류(Amps), R은 저항(Ohms), V는 전압(Voltz)를 나타냅니다. 각 새로운 논리 수준마다 전압을 높일수록, 전체 장치의 전력 소비가 지수적으로 증가함에 따라 동등한 전압이 가정되며, 이는 대부분의 경우 합리적인 가정입니다. 소비 전력이 많을수록 장치를 실행하는 데 소비되는 비용이 더 많아지므로 대부분의 경우 이러한 시스템을 피하는 이유가 큽니다.
 
@@ -107,7 +187,18 @@ P는 전력(Watts), I는 전류(Amps), R은 저항(Ohms), V는 전압(Voltz)를 
 
 ![Heat Equation](/assets/img/2024-06-23-WhydoComputersevenuseBinary_8.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Q는 열(쥴), t는 시간(초), 그리고 R과 I는 다시 저항과 전류를 나타냅니다. 회로에 사용하는 각 새로운 구성 요소는 작동에 더 많은 전류를 그리는 결과를 가져올 것입니다. 이에 따라 열이 증가합니다.
 
@@ -117,7 +208,18 @@ Q는 열(쥴), t는 시간(초), 그리고 R과 I는 다시 저항과 전류를 
 
 하지만, 우리는 실제로 컴퓨터가 이 정보를 어떻게 나타내는지를 정말 다루지 않았습니다 — 그저 디지털 회로를 사용한다고 말했을 뿐입니다. 다음 몇 개의 기사에서는 이 질문을 더 자세히 탐구할 것입니다. 디지털 논리 회로가 어떻게 작동하는지 설명해 보겠습니다 — 가능한 최하위 수준인 반도체부터 시작해서요. 이에 관심이 있다면, 많이 기대해 주세요! 이 기사와 같이 저는 전기 공학 개념을 아는 것으로 상정하지 않고 성장 중인 데이터 과학자들을 대상으로 하겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아마도 당신은 새로운 데이터 과학자이거나 이미 경험 많은 데이터 과학자이실 것입니다. 이 기사가 흥미롭게 느껴졌으면 좋겠습니다. 컴퓨터 하드웨어가 데이터 과학이나 머신 러닝 개념과 정확히 관련이 없지만, 이것들은 우리의 전문 분야 도구이며, 이에 대한 기본적인 이해를 가지는 것이 가치 있다고 생각합니다. 동의하시고 이 기사가 흥미롭다고 생각하셨다면, 다음에는 실제 컴퓨터 계산 방식에 대해 다룰 예정이니, 그때 뵐 수 있기를 희망합니다!
 

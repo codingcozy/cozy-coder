@@ -3,17 +3,13 @@ title: "강화 학습의 비밀을 풀다 Actor-Critic 초보자 가이드"
 description: ""
 coverImage: "/assets/img/2024-06-22-UnlockingtheSecretsofActor-CriticReinforcementLearningABeginnersGuide_0.png"
 date: 2024-06-22 19:43
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-UnlockingtheSecretsofActor-CriticReinforcementLearningABeginnersGuide_0.png
 tag: Tech
 originalTitle: "Unlocking the Secrets of Actor-Critic Reinforcement Learning: A Beginner’s Guide"
 link: "https://medium.com/@arshren/unlocking-the-secrets-of-actor-critic-reinforcement-learning-a-beginners-guide-3c5953b13551"
 isUpdated: true
 ---
-
-
-
-
 
 ## 이해해야 할 개념:
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 딥 Q 학습: 심층 강화 학습 알고리즘
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 정책 그라디언트의 직관적인 설명
 
@@ -33,7 +40,18 @@ Actor-Critic은 환경의 피드백에 기반하여 에이전트의 작업을 �
 
 ![이미지 설명](/assets/img/2024-06-22-UnlockingtheSecretsofActor-CriticReinforcementLearningABeginnersGuide_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Actor: Actor는 환경을 탐색하여 최적 정책을 학습합니다.
 
@@ -43,7 +61,18 @@ Critic: Critic은 Actor가 취한 각 행동의 가치를 평가하여 그 행�
 
 ![이미지](/assets/img/2024-06-22-UnlockingtheSecretsofActor-CriticReinforcementLearningABeginnersGuide_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Actor-Critic 알고리즘은 어떻게 작동하나요?
 
@@ -53,7 +82,18 @@ Actor-Critic 알고리즘은 환경으로부터 입력을 받아와 그 상태�
 
 알고리즘의 Actor 구성 요소는 환경으로부터 현재 상태를 입력으로 받아옵니다. 이는 상태에 대한 각 행동의 확률을 출력하는 정책으로 동작하는 신경망을 사용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비평가 네트워크는 현재 상태와 Actor의 출력된 액션을 입력으로 받아 이 정보를 사용하여 예상되는 미래 보상, 즉 Q-값을 추정합니다. Q-값은 특정 정책을 따라 특정 상태에서 에이전트가 받을 수 있는 예상 누적 보상을 나타냅니다.
 
@@ -63,7 +103,18 @@ Actor-Critic 알고리즘은 환경으로부터 입력을 받아와 그 상태�
 
 이점 함수는 Actor의 정책을 안내하는 데 유용한 정보를 제공하여 최상의 결과로 이끌어지는 행동을 결정하고 정책을 그에 맞게 조정할 수 있도록 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결과적으로, 이점 함수는 Actor와 Critic 둘 다에게 역전파되어, 두 구성 요소 모두가 지속적으로 업데이트되고 개선되는 함수를 허용합니다. 이로 인해 액터는 더 나은 결과를 이끄는 결정을 내릴 때 더 효과적해지고, 전반적으로 성능이 향상됩니다. 궁극적으로, Actor-Critic 알고리즘은 기대되는 미래 보상을 최대화하는 최적의 정책을 배웁니다.
 
@@ -77,7 +128,18 @@ Actor-Critic 알고리즘은 A2C, ACER, A3C, TRPO, PPO와 같은 다른 알고�
 - TRPO- 신뢰 영역 정책 최적화: Actor-크리틱 알고리즘과 신뢰 영역을 사용하여 정책 업데이트를 제약합니다. 정책 업데이트는 이전 정책과 업데이트된 정책 사이의 KL 발산을 사용하여 측정되며, 각 반복에서 신뢰 영역을 측정하는 데 사용됩니다.
 - PPO- 근접 정책 최적화: 근접 정책 최적화(PPO)는 여러 번의 확률적 그래디언트 상승을 통해 각 정책 업데이트를 수행하는 액터-크리틱 알고리즘에 기반합니다. 각 훈련 에포크에서 너무 큰 정책 업데이트를 피해 정책의 변경을 제한하여 정책의 훈련 안정성을 향상시킵니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Actor-Critic 알고리즘은 어떤 응용 분야에서 사용되나요?
 
@@ -89,7 +151,18 @@ Actor-Critic 알고리즘은 다음과 같은 분야에서 널리 활용됩니�
 
 ## 코드 구현
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에서는 두 개의 신경망을 사용할 것입니다: Actor와 Critic.
 
@@ -99,8 +172,18 @@ Actor-Critic 알고리즘은 다음과 같은 분야에서 널리 활용됩니�
 
 보상과 다음 상태의 추정 가치를 사용하여 이득 함수를 계산하는데, 이는 행동을 취하는 것의 예상 반환값에서 현재 상태의 추정 가치를 뺀 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-22-UnlockingtheSecretsofActor-CriticReinforcementLearningABeginnersGuide_4.png)
 
@@ -110,8 +193,18 @@ Actor-Critic 알고리즘은 다음과 같은 분야에서 널리 활용됩니�
 
 ![image](/assets/img/2024-06-22-UnlockingtheSecretsofActor-CriticReinforcementLearningABeginnersGuide_6.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 A2C는 빠르고 효율적이며 대량의 데이터에서 빠르게 효과적으로 학습할 수 있어요. Actor는 환경을 탐험하고 Critic은 Actor가 취할 수 있는 최상의 행동을 활용하기 위한 피드백을 제공하여 시간에 따라 최적 정책을 달성하려고 노력해요.
 
@@ -121,7 +214,18 @@ A2C는 연속된 행동 공간에서 잘 작동하지만 이산적인 행동 공
 
 Actor-Critic 알고리즘은 두 가지 구성 요소를 사용해요. Actor는 탐사를 통해 최적 정책을 학습하며 Critic은 Actor의 행동을 평가하여 상태에 대한 최상의 행동을 결정해요. Critic은 향상된 성능을 도출할 피드백을 Actor에게 제공해요. Actor-Critic 알고리즘은 연속적인 행동 공간과 훈련에 대한 하이퍼파라미터에 대해 잘 작동해요. Actor-Critic 모델은 불안정성을 피하기 위해 충분한 실험을 해야 해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 참고 자료:
 
@@ -131,7 +235,18 @@ Asynchronous Methods for Deep Reinforcement Learning
 
 [PDF 바로가기](https://www.davidsilver.uk/wp-content/uploads/2020/03/pg.pdf)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 http://rail.eecs.berkeley.edu/deeprlcourse-fa17/f17docs/lecture_5_actor_critic_pdf
 

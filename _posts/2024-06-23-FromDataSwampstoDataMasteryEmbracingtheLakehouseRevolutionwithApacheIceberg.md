@@ -3,17 +3,13 @@ title: "데이터 늪에서 데이터 마스터까지 Apache Iceberg와 함께�
 description: ""
 coverImage: "/assets/img/2024-06-23-FromDataSwampstoDataMasteryEmbracingtheLakehouseRevolutionwithApacheIceberg_0.png"
 date: 2024-06-23 16:31
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-FromDataSwampstoDataMasteryEmbracingtheLakehouseRevolutionwithApacheIceberg_0.png
 tag: Tech
 originalTitle: "From Data Swamps to Data Mastery: Embracing the Lakehouse Revolution with Apache Iceberg"
 link: "https://medium.com/deutsche-telekom-gurgaon/from-data-swamps-to-data-mastery-embracing-the-lakehouse-revolution-with-apache-iceberg-a26feffc70e6"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-23-FromDataSwampstoDataMasteryEmbracingtheLakehouseRevolutionwithApacheIceberg_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 목표
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 호수집 구조로 전환하는 목표는 데이터 레이크와 데이터 웨어하우스의 최상의 특징을 결합하는 것이었습니다. 이미 완전히 발달한 데이터 레이크가 있었기 때문에, 우리의 초점은 데이터 웨어하우스의 기능을 통합하는 데 있었습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 # 왜 아파치 아이스버그를 선택했나요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-23-FromDataSwampstoDataMasteryEmbracingtheLakehouseRevolutionwithApacheIceberg_1.png" />
 
@@ -50,8 +68,18 @@ isUpdated: true
 
 # Iceberg 아키텍처:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image 1](/assets/img/2024-06-23-FromDataSwampstoDataMasteryEmbracingtheLakehouseRevolutionwithApacheIceberg_3.png)
 
@@ -61,8 +89,18 @@ isUpdated: true
 
 환경 설정:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 저장소 구성: Amazon S3와 같은 확장 가능한 저장소 솔루션을 설정하여 원본 데이터와 처리된 데이터를 저장하세요. 이미 저희와 같이 S3를 활용 중이라면 데이터 및 메타데이터를 저장할 대상 버킷을 정의하세요.
 - Iceberg 설치 및 구성: EMR을 사용 중이므로 Spark 세션을 생성할 때 Iceberg 관련 설정을 추가해야 합니다.
@@ -85,7 +123,18 @@ spark = SparkSession.builder \
 - 데이터레이크 — 기존 Parquet에서 Iceberg로 데이터 마이그레이션: 먼저 테이블을 만들었고, 기존 데이터레이크에서 데이터를 읽어와 Apache Spark를 사용하여 Iceberg 테이블에 기록함으로써 메타데이터가 올바르게 캡처되도록합니다.
 - 데이터웨어하우스 — Redshift 데이터를 Iceberg 형식으로 투입: Redshift에서 언로드한 데이터를 S3로 복사한 후, 데이터레이크와 동일한 접근 방식을 따랐습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래와 같은 방법으로 인플레이스 마이그레이션을 수행할 수 있습니다:
 
@@ -96,7 +145,18 @@ spark = SparkSession.builder \
 
 기존 ETL 프로세스에서의 조정:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 우리는 모든 ETL 작업에 대한 싱크 구성을 변경하여 데이터 아이스버그 형식으로 쓰게 했습니다. 위에서 언급한 구성은 스파크 세션을 만들 때 사용되었습니다.
 
@@ -106,10 +166,21 @@ Iceberg 테이블의 유지 보수 작업.
 
 - Compact : 우리는 다시 쓰고 결과 파일의 원하는 크기로 재작성하기 위해 rewriteDataFiles 절차를 실행합니다. 이것은 읽기 시간을 최적화하는 데 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-('write.parquet.target-file-size-bytes '='52428800') 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+('write.parquet.target-file-size-bytes '='52428800')
+
 # 약 이만큼의 바이트를 대상으로 생성된 파일의 크기를 제어합니다.
 
 2. 스냅샷 만료: 분석에 더 이상 필요하지 않은 데이터에 대해 스냅샷 만료를 실행하여 불필요한 저장 비용을 피합니다. 만료된 스냅샷과 연결된 매니페스트 목록, 매니페스트 및 데이터 파일은 여전히 유효한 스냅샷과 연관되어 있지 않은 한 스냅샷 삭제 시에 삭제됩니다.
@@ -118,8 +189,18 @@ Iceberg 테이블의 유지 보수 작업.
 
 3. 오래된 메타데이터 파일 제거: Iceberg는 새 메타데이터 파일이 생성될 때 오래된 메타데이터 파일을 삭제하는 설정을 활성화할 수 있습니다. 또한 테이블이 보유해야 하는 메타데이터 파일 수를 설정할 수 있습니다. 우리는 그 수를 5로 설정했습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 write.metadata.delete-after-commit.enabled  true
@@ -132,7 +213,18 @@ write.metadata.previous-versions-max 5
 
 - 쿼리 최적화: Iceberg는 메타데이터 가지치기(metadata pruning) 및 프리디케이트 푸시다운(predicate pushdown)과 같은 기능을 지원하여 쿼리 성능을 최적화할 수 있습니다. 데이터와 메타데이터 모두에 대한 쿼리 엔진으로 Athena를 사용하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 메타데이터 쿼리 치트 시트 : [https://docs.aws.amazon.com/athena/latest/ug/querying-iceberg-table-metadata.html](https://docs.aws.amazon.com/athena/latest/ug/querying-iceberg-table-metadata.html)
 
@@ -142,7 +234,18 @@ write.metadata.previous-versions-max 5
 
 비용 효율성:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 저장 비용 절감: Apache Iceberg는 기본 Z-표준 (zstd) 압축을 사용하여 저장 공간 요구 사항을 크게 줄입니다. 또한 파티션 분할을 지원하여 데이터 스캔을 제한하여 저장 공간 사용을 최적화합니다.
 - 중복 데이터 웨어하우징 솔루션 소거: Iceberg의 ACID 규정 준수로 기존 데이터 웨어하우징 솔루션이 불필요해집니다. Amazon S3의 저장 비용은 Redshift의 그것보다 상당히 낮기 때문에 Redshift 라이선싱 비용을 상당히 절약할 수 있습니다.
@@ -153,17 +256,39 @@ Apache Iceberg의 채택으로 일반 Parquet 형식으로 데이터를 저장�
 
 - 쿼리 성능 개선: Iceberg의 최적화된 데이터 관리 및 인덱싱으로 쿼리 성능과 데이터 검색 시간이 상당히 향상되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 역사적 데이터 수정:
 
-- 간편화된 데이터 업데이트: 이전에는 역사적 데이터를 수정하기 위해 작은 배치 작업을 작성해야 했습니다. 아이스버그를 사용하면 몇 가지 업데이트 명령을 실행함으로써 이를 달성할 수 있어, 프로세스가 간소화되었습니다.  
+- 간편화된 데이터 업데이트: 이전에는 역사적 데이터를 수정하기 위해 작은 배치 작업을 작성해야 했습니다. 아이스버그를 사용하면 몇 가지 업데이트 명령을 실행함으로써 이를 달성할 수 있어, 프로세스가 간소화되었습니다.
 
 접근 제어:
 
 - 간편화된 행 수준 접근: Redshift에서 서로 다른 국가에 대한 행 수준 접근을 제공하는 것은 복잡했습니다. 아이스버그를 통해 데이터 파티셔닝을 사용하여 특정 버킷에 대한 접근 정책을 쉽게 구현할 수 있어, 접근 관리가 간소화됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Apache Iceberg를 구현함으로써 비용 효율성, 향상된 성능, 간단화된 기존 데이터 수정 및 향상된 액세스 관리를 달성했습니다.
 
@@ -173,6 +298,17 @@ Apache Iceberg를 구현함으로써 비용 효율성, 향상된 성능, 간단�
 
 이 구현 기간 동안 빈말 야다브와 시바무 구프타에게 놀라운 헌신과 값진 기여에 진심으로 감사드립니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사실, 한국어로 "테이블" 태그를 "Markdown" 형식으로 변환하면 되는 것 같아요.

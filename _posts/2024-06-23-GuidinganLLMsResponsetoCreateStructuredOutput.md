@@ -3,17 +3,13 @@ title: "LLM 출력 구조화하는 방법 안내"
 description: ""
 coverImage: "/assets/img/2024-06-23-GuidinganLLMsResponsetoCreateStructuredOutput_0.png"
 date: 2024-06-23 19:40
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-GuidinganLLMsResponsetoCreateStructuredOutput_0.png
 tag: Tech
 originalTitle: "Guiding an LLM’s Response to Create Structured Output"
 link: "https://medium.com/towards-data-science/guiding-an-llms-response-to-create-structured-output-5dde0d3e426b"
 isUpdated: true
 ---
-
-
-
-
 
 ![2024-06-23-GuidinganLLMsResponsetoCreateStructuredOutput_0.png](/assets/img/2024-06-23-GuidinganLLMsResponsetoCreateStructuredOutput_0.png)
 
@@ -23,7 +19,18 @@ JSON 형식에서 구조화된 정보를 추출해야 하는 필요성은 매우
 
 또한, LLM의 출력 토큰을 생성하는 과정에서 발생하는 확률적 특성으로 인해 GPT와 같은 상업용 시스템에서도 구조화된 응답 형식이 신뢰할 수 없습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 유효성 검사와 스키마 모델링을 위해 Pydantic와 Instructor와 같은 여러 라이브러리를 사용할 것이고, LLM 부분에는 OpenAI와 ollama를 활용할 것입니다. 제안된 내용은 OpenAI나 Anthropic과 같은 폐쇄 소스 모델뿐만 아니라 Llama 3와 같은 오픈 소스 모델에 대해서도 유효합니다.
 
@@ -35,7 +42,18 @@ JSON 형식에서 구조화된 정보를 추출해야 하는 필요성은 매우
 
 즐거운 독해 되세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 구조화된 출력이 필요한 이유
 
@@ -45,7 +63,18 @@ GPT-3.5의 특정 버전부터 OpenAI는 완성 API에 response_format 매개변
 
 다음은 예시입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 from openai import OpenAI
@@ -70,8 +99,18 @@ print(response.choices[0].message.content)
 
 LLM은 입력 프롬프트가 주어졌을 때 이전 토큰 다음에 더 많이 나올 가능성이 있는 다음 토큰을 반환하는 기계로서의 역할을 합니다. 실제로 이러한 형식을 보고 이해하려면 모델이 훈련 단계에서 명시적으로 이러한 형식을 보고 이해하기 위해 안내받아야만 하므로 이러한 패턴을 "자연"에서 만나기 어렵습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최신 LLM의 JSON 모드는 출력이 특정 패턴과 일치한다고 보장하지 않습니다. 단지 유효하고 오류 없이 파싱된다는 것만을 보장합니다.
 
@@ -81,7 +120,18 @@ LLM은 입력 프롬프트가 주어졌을 때 이전 토큰 다음에 더 많�
 
 우리는 GPT-4 또는 Llama3와 같은 LLM에 간단한 질문에서 시작하여 JSON에서 정보를 추출하는 예제를 살펴볼 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 무엇이든 물어볼 수 있지만, 모델에게 시간이 지남에 따른 축구 월드컵 우승팀에 관한 질문을 하려고 합니다.
 
@@ -94,7 +144,18 @@ LLM은 입력 프롬프트가 주어졌을 때 이전 토큰 다음에 더 많�
 
 우리는 데이터의 정확성을 확인하는 것이 아니라, LLM의 문장 응답을 다음으로 보여줄 스키마에 맞추는 것에만 신경을 쓸 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사에서는 이 예제를 살펴보고 다른 것들도 살펴볼 수 있을 것 같아요.
 
@@ -104,7 +165,18 @@ LLM은 입력 프롬프트가 주어졌을 때 이전 토큰 다음에 더 많�
 
 당연히, 이미 활성화된 개발 환경이 있다고 가정하고 Pydantic, Instructor, OpenAI 클라이언트 및 ollama를 설치할 거예요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Pydantic: 커뮤니티에서 널리 사용되는 데이터 모델 정의 및 유효성 검사 라이브러리로, 사용 편의성, 효율성 및 데이터 과학에서의 중요성으로 유명합니다.
 - Instructor: LLMs와 작업하기 위해 특별히 제작된 Pydantic을 감싸는 래퍼로, 유효성 검사 로직을 생성할 수 있는 라이브러리입니다.
@@ -119,7 +191,18 @@ pip install pydantic instructor openai ollama
 
 오픈 소스 모델을 테스트하고자 하기 때문에 다음 단계는 ollama를 시스템 전역에 설치하는 것입니다. ollama의 설치 및 사용 방법은 이 특별한 기사에서 읽어보실 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 개발에 집중할 수 있겠네요.
 
@@ -129,7 +212,18 @@ pip install pydantic instructor openai ollama
 
 아래 포스트에서 Pydantic을 활용한 데이터 과학과 머신러닝에서의 데이터 모델링에 대해 이미 약간 다룬 적이 있습니다 👇
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이던틱 데이터 모델을 만들어 보면 좋겠어요:
 
@@ -154,7 +248,18 @@ class SoccerDataset(BaseModel):
 
 Pydantic은 모델에 들어가는 데이터 유형을 선언해야 합니다. 예를 들어 datetime.date는 날짜 필드가 문자열이 아니라 날짜여야 함을 강제합니다. 동시에 top_scorers 필드는 반드시 목록이어야 하며, 그렇지 않으면 Pydantic이 유효성 검사 오류를 반환할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마침내, 여러 인스턴스를 수집하는 데이터 모델을 만들었습니다. 이것은 SoccerData 모델의 모음을 수집하는 SoccerDataset이라고 합니다. 이 모델은 한 개 이상의 보고서가 있는지 확인하기 위해 강사에 의해 사용될 것입니다.
 
@@ -164,9 +269,9 @@ Pydantic은 모델에 들어가는 데이터 유형을 선언해야 합니다. �
 
 ```js
 system_prompt = """당신은 숙련된 스포츠 기자입니다. 특정 연도의 축구 월드컵에서 우승한 팀에 대한 작은 리포트를 작성할 것입니다. 대회 결승전 날짜, 대회 전체에서 상위 3 스코어러, 우승 팀, 그리고 대회를 주최한 국가를 보고합니다. 다음 필드를 포함하는 JSON 객체를 반환하세요: date_of_final, hosting_country, winner, top_scorers.\
- 
+
 만약 다수 연도가 입력되면, 보고서를 쉼표로 구분하세요.\
- 
+
 다음은 예시입니다.
  [
     {
@@ -189,7 +294,18 @@ system_prompt = """당신은 숙련된 스포츠 기자입니다. 특정 연도�
  """
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시스템 프롬프트로 사용되며 단순히 쉼표로 구분된 연도를 전달할 수 있습니다.
 
@@ -199,7 +315,18 @@ system_prompt = """당신은 숙련된 스포츠 기자입니다. 특정 연도�
 
 먼저 우리는 query_gpt라는 함수를 사용하여 OpenAI를 사용하여 프롬프트를 매개변수화할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 from openai import OpenAI
@@ -220,7 +347,7 @@ def query_gpt(prompt: str) -> list:
 
 OpenAI API 키를 새롭게 생성된 클라이언트에 전달하는 것을 잊지 말자. 우리는 GPT-3.5-Turbo를 사용하고, 응답 모델로 SoccerDataset을 전달할 것이다. 또한, 이 기사를 작성하는 시점에서 가장 강력한 모델인 "gpt-4o"를 사용할 수도 있다.
 
-모든 것을 함께 조합하여 소프트웨어를 실행해 보자. 사용자 프롬프트로 입력할 내용으로 "2010, 2014 및 2018"년을 내용으로 전달하여 구조화된 보고서를 생성하고자 한다. 
+모든 것을 함께 조합하여 소프트웨어를 실행해 보자. 사용자 프롬프트로 입력할 내용으로 "2010, 2014 및 2018"년을 내용으로 전달하여 구조화된 보고서를 생성하고자 한다.
 
 ```js
 from openai import OpenAI
@@ -290,44 +417,43 @@ if __name__ == "__main__":
   print(resp)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 문구를 Markdown 형식으로 변환한 결과입니다:
 
 ```json
 {
-    "reports": [
-        {
-            "date_of_final": "2010-07-11",
-            "hosting_country": "South Africa",
-            "winner": "Spain",
-            "top_scorers": [
-                "Thomas Müller",
-                "David Villa",
-                "Wesley Sneijder"
-            ]
-        },
-        {
-            "date_of_final": "2014-07-13",
-            "hosting_country": "Brazil",
-            "winner": "Germany",
-            "top_scorers": [
-                "James Rodríguez",
-                "Thomas Müller",
-                "Neymar"
-            ]
-        },
-        {
-            "date_of_final": "2018-07-15",
-            "hosting_country": "Russia",
-            "winner": "France",
-            "top_scorers": [
-                "Harry Kane",
-                "Antoine Griezmann",
-                "Romelu Lukaku"
-            ]
-        }
-    ]
+  "reports": [
+    {
+      "date_of_final": "2010-07-11",
+      "hosting_country": "South Africa",
+      "winner": "Spain",
+      "top_scorers": ["Thomas Müller", "David Villa", "Wesley Sneijder"]
+    },
+    {
+      "date_of_final": "2014-07-13",
+      "hosting_country": "Brazil",
+      "winner": "Germany",
+      "top_scorers": ["James Rodríguez", "Thomas Müller", "Neymar"]
+    },
+    {
+      "date_of_final": "2018-07-15",
+      "hosting_country": "Russia",
+      "winner": "France",
+      "top_scorers": ["Harry Kane", "Antoine Griezmann", "Romelu Lukaku"]
+    }
+  ]
 }
 ```
 
@@ -335,7 +461,18 @@ if __name__ == "__main__":
 
 이제 이상한 입력을 넣어보려고 해봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 if __name__ == "__main()":
@@ -353,7 +490,18 @@ LLM은 시스템 프롬프트를 통해 잘못된 쿼리를 처리하는 방법�
 
 Instructor를 사용하여 GPT를 어떻게 사용하여 구조화된 JSON 출력을 얻는지 알아보았습니다. 이제 llama3와 같은 오픈 소스 템플릿을 사용하는 방법을 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로운 함수인 query_llama을 생성해 봅시다.
 
@@ -387,9 +535,20 @@ GPT 코드와 약간의 차이가 있습니다. 함께 살펴보겠습니다.
 
 - ollama는 GPT와 동일한 인터페이스를 통해 호출되지만, 기본 URL 포인터(base_url) 및 필수적이지만 올바른 작동에 필요하지 않은 API 키를 변경합니다(왜냐면 모르겠어요)
 - JSON 모드를 mode 매개변수를 통해 설명해야 합니다.
-새로운 함수를 실행해 봅시다.
+  새로운 함수를 실행해 봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 함수를 실행해 봅시다.
 
@@ -437,7 +596,18 @@ if __name__ == "__main__":
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 올바른 JSON이 있는 목록을 가지고 있어요! 이 모든 것은 Llama 3로 로컬에서 이루어져요.
 
@@ -447,7 +617,18 @@ if __name__ == "__main__":
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Pydantic, Instructors, 그리고 ollama를 사용하여 LLM의 출력을 JSON과 같은 구조화된 형식으로 변환하는 방법을 살펴봤습니다.
 

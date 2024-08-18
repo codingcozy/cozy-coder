@@ -3,17 +3,13 @@ title: "위험 뒤에 숨겨진 수학  1부"
 description: ""
 coverImage: "/assets/img/2024-06-30-TheMathBehindRiskPart1_0.png"
 date: 2024-06-30 18:55
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-30-TheMathBehindRiskPart1_0.png
 tag: Tech
 originalTitle: "The Math Behind Risk — Part 1"
 link: "https://medium.com/towards-data-science/the-math-behind-risk-part-1-35ed4e1f542d"
 isUpdated: true
 ---
-
-
-
-
 
 ## 세계 정복 게임에서 공격이 정말로 우위를 가지나요?
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Risk는 세계 정복을 주제로 한 보드 게임으로, 공격자는 최대 세 개의 주사위를 굴리고, 수비자는 최대 두 개의 주사위를 굴립니다. 둘 중 높은 주사위 값이 낮은 편의 선수가 병사 한 명을 잃게 되며, 비겼을 경우 수비자의 우세로 결정됩니다. 이를 첫 번째 전투로 지칭하겠습니다. 두 선수가 모두 두 개 이상의 주사위를 굴릴 때는, 낮은 두 번째 주사위 값이 더 낮은 쪽의 선수가 또 한 명의 병사를 잃게 됩니다. 다시 한 번, 비겼을 때는 수비자의 우세로 결정됩니다. 이를 두 번째 전투로 칭하겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 물론, 2개 대신 3개의 주사위를 던지는 것이 명백한 이점이며, 비격벽이 걸린 경우 승리의 유리성도 명백합니다. 이 두 이점이 서로 어떻게 경쟁하는지에 대해서는 덜 명백합니다.
 
@@ -33,18 +40,39 @@ Risk는 세계 정복을 주제로 한 보드 게임으로, 공격자는 최대 
 
 ![이미지](/assets/img/2024-06-30-TheMathBehindRiskPart1_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![RiskPart1_2](/assets/img/2024-06-30-TheMathBehindRiskPart1_2.png)
 
-공격자의 최고 숫자는 조금 더 복잡합니다. 그는 3개의 주사위를 굴립니다. 최고 숫자가 6인 경우, 몇 가지 순열이 나오는지 계산하기 위해 먼저 최고 숫자를 6으로 고정하고 이것이 첫 번째 주사위에서 나온다고 가정합시다. 그럼 두 번째와 세 번째 주사위는 6 이하의 어떤 수든 나올 수 있으므로 총 6*6 = 36가지 결과가 나옵니다. 다음으로 두 번째 주사위에서 6이 나오도록 고정하면, 이미 고려한 가능성을 배제하고 첫 번째 주사위도 6이 나오지 않도록 제한해야 합니다. 세 번째 주사위는 어떤 숫자든 가능하므로 추가로 6x5=30가지 결과가 나옵니다. 마지막으로 세 번째 주사위에서 6이 나오도록 고정하고, 이미 고려한 가능성을 배제하기 위해 첫 번째 두 주사위는 6이 나오지 않도록 제한해야 합니다. 이러면 총 25개의 가능성이 나와서 총 36+30+25 = 91가지 가능성이 나타납니다.
+공격자의 최고 숫자는 조금 더 복잡합니다. 그는 3개의 주사위를 굴립니다. 최고 숫자가 6인 경우, 몇 가지 순열이 나오는지 계산하기 위해 먼저 최고 숫자를 6으로 고정하고 이것이 첫 번째 주사위에서 나온다고 가정합시다. 그럼 두 번째와 세 번째 주사위는 6 이하의 어떤 수든 나올 수 있으므로 총 6\*6 = 36가지 결과가 나옵니다. 다음으로 두 번째 주사위에서 6이 나오도록 고정하면, 이미 고려한 가능성을 배제하고 첫 번째 주사위도 6이 나오지 않도록 제한해야 합니다. 세 번째 주사위는 어떤 숫자든 가능하므로 추가로 6x5=30가지 결과가 나옵니다. 마지막으로 세 번째 주사위에서 6이 나오도록 고정하고, 이미 고려한 가능성을 배제하기 위해 첫 번째 두 주사위는 6이 나오지 않도록 제한해야 합니다. 이러면 총 25개의 가능성이 나와서 총 36+30+25 = 91가지 가능성이 나타납니다.
 
 ![RiskPart1_3](/assets/img/2024-06-30-TheMathBehindRiskPart1_3.png)
 
-이것을 일반화하여 x가 나오는 최고 숫자의 결과의 수를 계산할 수 있습니다. 만약 최고 숫자가 첫 번째 주사위에서 나온다면, 두 번째와 세 번째 주사위는 x 이하의 어떤 숫자든 나올 수 있으므로 총 x²가지 결과가 나옵니다. 반대로, 최고 숫자가 두 번째 주사위에서 나온다면, 첫 번째 주사위는 이미 x인 경우를 고려했으므로 x-1까지의 어떤 값이든 나올 수 있고, 세 번째 주사위는 x 이하의 어떤 값이든 나올 수 있어서 총 x(x-1)=x²-x가지 추가 결과가 나옵니다. 마지막으로, 세 번째 주사위가 값을 x로 정해졌을 때, 아직 셀어지지 않은 유일한 가능성은 첫 번째와 두 번째 주사위가 각각 x-1까지의 값을 가지는 경우입니다. 따라서 (x-1)*(x-1) = x²–2x+1의 결과가 추가됩니다. 모두 더하면, 최고 숫자가 x인 경우 총 3x²–3x+1가지 방법¹으로 얻을 수 있습니다.
+이것을 일반화하여 x가 나오는 최고 숫자의 결과의 수를 계산할 수 있습니다. 만약 최고 숫자가 첫 번째 주사위에서 나온다면, 두 번째와 세 번째 주사위는 x 이하의 어떤 숫자든 나올 수 있으므로 총 x²가지 결과가 나옵니다. 반대로, 최고 숫자가 두 번째 주사위에서 나온다면, 첫 번째 주사위는 이미 x인 경우를 고려했으므로 x-1까지의 어떤 값이든 나올 수 있고, 세 번째 주사위는 x 이하의 어떤 값이든 나올 수 있어서 총 x(x-1)=x²-x가지 추가 결과가 나옵니다. 마지막으로, 세 번째 주사위가 값을 x로 정해졌을 때, 아직 셀어지지 않은 유일한 가능성은 첫 번째와 두 번째 주사위가 각각 x-1까지의 값을 가지는 경우입니다. 따라서 (x-1)\*(x-1) = x²–2x+1의 결과가 추가됩니다. 모두 더하면, 최고 숫자가 x인 경우 총 3x²–3x+1가지 방법¹으로 얻을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Images](/assets/img/2024-06-30-TheMathBehindRiskPart1_4.png)
 
@@ -54,8 +82,18 @@ Risk는 세계 정복을 주제로 한 보드 게임으로, 공격자는 최대 
 
 ![Images](/assets/img/2024-06-30-TheMathBehindRiskPart1_5.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 수비팀이 주사위를 굴렸을 때 가장 높은 값으로 1, 2, 3 및 4를 얻을 확률이 공격팀보다 더 높음을 알 수 있습니다. 반면 공격이 상대에 비해 5 또는 6을 가장 높은 값으로 얻을 확률이 더 높습니다. 이는 3번째 주사위가 공격을 돕는 것입니다.
 
@@ -65,27 +103,46 @@ Risk는 세계 정복을 주제로 한 보드 게임으로, 공격자는 최대 
 
 공격팀이 가장 높은 값에서 승리할 확률을 계산하기 위해, 먼저 수비팀이 x를 가장 높은 값으로 얻는 순열을 계산하고, 이 중 몇 가지 순열이 방어팀에게 바로 승리로 이어질지, 방어측에게 넘어가는 무승부가 어느 정도니, 또는 공격에게 승리로 이어지는지 계산해야 합니다. 또한 주사위와 방어싸이스를 모두 고려했을 때 가능한 총 순열은 6⁵ = 7776개임을 염두에 두어야 합니다. 이는 모두 5개의 주사위가 있고 각 주사위가 6개의 가능한 값 중 하나를 취할 수 있기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-예를 들어 위에서 계산한 대로, 방어가 가장 높은 주사위를 5로 굴릴 확률은 9/36이고, 총 6⁵ = 7776가지 순열이 있습니다. 분명히 (9/36) * 7776 = 1944의 순열이 방어 주사위의 최고 점수가 5인 상황을 나타냅니다. 승리하기 위해서는 공격이 가장 높은 점수를 6으로 얻어야 합니다. 이는 위에서 계산한 것처럼 91/216의 확률이 있으며, 따라서 (91/216) * 1944 = 1944의 순열 중 819가 공격의 승리로 이어질 것입니다. 무승부를 이루기 위해서는 공격이 가장 높은 점수인 5를 굴려야 합니다. 이는 61/216의 확률이 있으므로, (61/216) * 1944 = 1944의 순열 중 549는 무승부가 되며, 나머지 (1944–819–549 = 576)는 방어의 승리로 이어질 것입니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+예를 들어 위에서 계산한 대로, 방어가 가장 높은 주사위를 5로 굴릴 확률은 9/36이고, 총 6⁵ = 7776가지 순열이 있습니다. 분명히 (9/36) _ 7776 = 1944의 순열이 방어 주사위의 최고 점수가 5인 상황을 나타냅니다. 승리하기 위해서는 공격이 가장 높은 점수를 6으로 얻어야 합니다. 이는 위에서 계산한 것처럼 91/216의 확률이 있으며, 따라서 (91/216) _ 1944 = 1944의 순열 중 819가 공격의 승리로 이어질 것입니다. 무승부를 이루기 위해서는 공격이 가장 높은 점수인 5를 굴려야 합니다. 이는 61/216의 확률이 있으므로, (61/216) \* 1944 = 1944의 순열 중 549는 무승부가 되며, 나머지 (1944–819–549 = 576)는 방어의 승리로 이어질 것입니다.
 
 모든 방어 가능한 결과에 대해 비슷한 계산을 할 수 있습니다. 아래 Markdown 형식의 표를 참조해주세요.
 
-
-| 방어 주사위가 굴리는 최고 점수 | 확률 (%) | 이겼을 때의 승리 수| 
-|--------------------------|---------|-----------------| 
-| 1	| 3.47	| 41	| 
-| 2	| 12.73	| 355	| 
-| 3	| 26.09	| 658	| 
-| 4	| 35.29	| 811	| 
-| 5	| 20.09	| 333	| 
-| 6	| 2.32	| 44	|
-
+| 방어 주사위가 굴리는 최고 점수 | 확률 (%) | 이겼을 때의 승리 수 |
+| ------------------------------ | -------- | ------------------- |
+| 1                              | 3.47     | 41                  |
+| 2                              | 12.73    | 355                 |
+| 3                              | 26.09    | 658                 |
+| 4                              | 35.29    | 811                 |
+| 5                              | 20.09    | 333                 |
+| 6                              | 2.32     | 44                  |
 
 그런 다음, 방어의 승리, 무승부, 공격 승리의 조건부 확률을 계산할 수 있습니다. 선택한 결과를 제공하는 순열 수(예: 공격이 승리)를 종합 결과 집합의 수(예: 방어가 최고 점수를 5로 굴림)로 나누어서 계산할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Conditional Probabilities](/assets/img/2024-06-30-TheMathBehindRiskPart1_7.png)
 
@@ -95,8 +152,18 @@ We can also visualize the conditional probabilities.
 
 Chart 4 gives the same false impression that most people have initially, namely that the attack has a big advantage overall. But this is because it ignores the probabilities of the highest defense rolls themselves. In fact, higher rolls are significantly more likely than lower rolls, as can be seen in Table 3.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 이유로, 총 확률은 더 효과적인 측정 방법입니다. 총 확률은 어떠한 조건에도 독립적인 전체 결과의 확률을 의미합니다. 예를 들어, 최고 방어 굴림이 4일 때 공격이 승리할 확률은 13.68% 입니다 (표 5 참조). 이 비교적 낮은 숫자는 최고 방어 굴림이 심지어 4인 것 자체가 상당히 드물기 때문에 이해할 만합니다 (19.4% - 표 1 참조). 최고 방어 굴림이 4일 때 공격이 이기는 조건부 확률은 훨씬 더 높습니다 (70.37% - 표 4 참조) 그 이유는 해당 계산에서 이미 최고 방어 굴림이 4인 것을 가정하고 그런 일이 일어날 확률은 중요하지 않기 때문입니다.
 
@@ -104,7 +171,18 @@ Chart 4 gives the same false impression that most people have initially, namely 
 
 우리는 공격 승리로 이어지는 총 순열을 합하고(3667) 가능한 총 순열(7776)로 나누어 공격의 승리 확률을 계산할 수 있습니다. 결과는 47.15% 입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가장 높은 방어 굴림에 따른 총 승률 차트가 아래에 나와 있습니다. 우리는 간단함을 위해 무승부를 방어 승리로 포함시켰습니다.
 
@@ -114,7 +192,18 @@ Chart 4 gives the same false impression that most people have initially, namely 
 
 ![Joint Probabilities for Attack and Defense](/assets/img/2024-06-30-TheMathBehindRiskPart1_11.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 데이터를 시각적으로도 그래프로 표현할 수 있습니다. 아래 차트에서 축의 구성을 주목해 주세요. 이는 최대 가시성을 위해 설정되었습니다.
 
@@ -131,7 +220,18 @@ Chart 4 gives the same false impression that most people have initially, namely 
 - 공격이 승리하는 경우 중 가장 흔히 발생하는 경우는 방어가 4개의 주사위 중 가장 높은 수를 굴린 경우입니다. 이 경우는 공격의 승리 중 29.02%를 차지합니다. 표 5에서 방어 주사위가 4개인 경우의 공격 백분율을 확인하고 열 총합으로 나누어 계산할 수 있습니다.
 - 방어의 최고 주사위 수가 1인 경우 공격이 승리하는 경우는 5.86%뿐입니다. 여기서 살짝 역설적인 사실은 방어의 최고 주사위가 1이면 거의 확실하게 (99.54%) 공격이 이기는 반면, 공격이 이길 때, 방어가 최고 주사위를 1로 굴리지 않았다는 것은 여전히 (94.14%) 확신할 수 있지만, 공격이 이기기 전과는 확신 수준이 다소 (97.2%) 낮아진다는 것입니다. (확률은 멋지군요.) 첫 번째 수는 표 5에서 계산됩니다. 두 번째 수는 표 4에서 직접 가져온 것입니다. 세 번째는 첫 번째의 여집합이며, 네 번째는 표 1에서 계산할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 공격은 실제로 첫 전투에서 불리하게 되어 있습니다. 그렇다면, 어떻게 청초란한 역사의 최대 정복을 설명할 능력에 고장이 생긴 것일까요? 혹시 더 큰 섬세함이 2차 전투에 대한 문제에서 우리를 기다리고 있는 것인가요? 아니면 위대한 정복의 역사를 설명하는 데 Risk의 능력이 고착된 것을 보여 주는 걸까요? 혹은 아니면 아마 더 유혹적으로, 둘 다가 포함된 것일까요?
 

@@ -3,17 +3,13 @@ title: "Swift에서 패키지 명령 플러그인 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-24-CreateYourFirstSwiftPackageCommandPlugin_0.png"
 date: 2024-07-24 11:55
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-24-CreateYourFirstSwiftPackageCommandPlugin_0.png
 tag: Tech
 originalTitle: "Create Your First Swift Package Command Plugin"
 link: "https://medium.com/better-programming/create-your-first-swift-package-command-plugin-3f918e2e8b8e"
 isUpdated: true
 ---
-
-
-
-
 
 올해 애플은 Swift Package Manager용 새로운 기능을 출시했습니다: Swift Package 플러그인. 이제 Xcode와 자동으로 통합되는 두 가지 종류의 플러그인을 작성할 수 있습니다:
 
@@ -22,7 +18,18 @@ isUpdated: true
 
 이미 몇 개의 기사에서 빌드 플러그인에 대해 이야기했습니다: "첫 번째 Swift Package 빌드 플러그인 구현"과 "iOS 앱에서 Xcode 플러그인 사용 방법".
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오늘은 Command 플러그인을 만드는 데 필요한 단계를 공유하고 싶어요. 이러한 플러그인을 개발하는 경험은 좋지 않기 때문에, 디버그하는 기술도 함께 공유하고 싶어요.
 
@@ -32,7 +39,18 @@ isUpdated: true
 
 Command 플러그인을 만들려면 다양한 부품들이 필요해요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Plugin의 구조를 정의하는 Package.swift 파일.
 - 적절한 폴더 구조.
@@ -46,7 +64,18 @@ Swift Package 플러그인은 Swift Packages로 정의됩니다. 플러그인을
 
 Command 플러그인을 위한 전형적인 패키지 구조는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 중요한 사항은 다음과 같습니다:
 
@@ -57,7 +86,18 @@ Command 플러그인을 위한 전형적인 패키지 구조는 다음과 같습
 
 의도는 플러그인이 존재하는 이유입니다. 동사와 설명으로 구성됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 커맨드 플러그인은 Swift 패키지 커맨드 라인 도구를 통해서도 호출될 수 있어요. 동사 속성은 이 커맨드 플러그인을 호출할 때 커맨드 라인에서 사용할 수 있는 인자입니다. 구문은 아래와 같아요:
 
@@ -69,23 +109,43 @@ swift package plugin <verb> [args...]
 
 권한 집합은 Package API에서 정의된 enum에서 옵니다. 이 enum에는 명시적인 케이스가 없지만 하나의 정적 함수인 writeToPackageDirectory를 제공해요. 이 함수는 Xcode에게 플러그인이 쓰기 액세스가 필요하다고 알려주며, IDE가 명령을 호출할 때 사용자에게 메시지를 표시해요. 이 프롬프트는 이 권한으로 플러그인이 어떤 작업을 수행할지 사용자에게 설명하는 사람이 읽을 수 있는 설명인 이유 문자열을 보여줄 거에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 폴더 구조
 
 모든 Swift 패키지와 마찬가지로 플러그인은 적절한 폴더 구조를 준수해야 올바르게 빌드됩니다. Package.swift에서 path 속성을 사용하여 구조를 사용자 정의할 수 있지만, 기본 폴더 구조는 다음과 같습니다.
 
-
 CodeGeneratorPlugin
 ├── Package.swift
 └── Plugins
-    └── CodeGenerator
-        └── CodeGenerator.swift
-
+└── CodeGenerator
+└── CodeGenerator.swift
 
 CodeGeneratorPlugin은 현재 패키지를 포함하는 폴더입니다. Plugins 폴더는 Package.swift에서 정의된 모든 플러그인의 홈입니다. 각 플러그인의 코드는 플러그인과 동일한 이름을 가진 폴더에 있어야 합니다. 이 예시에서는 CodeGenerator 폴더입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CodeGenerator.swift 파일은 플러그인의 진입점이며 비즈니스 로직을 포함할 것입니다. 다른 폴더들과 달리 CodeGenerator로 명명할 필요는 없습니다. Swift 파일은 아무 이름이나 가질 수 있습니다.
 
@@ -95,7 +155,18 @@ CodeGenerator.swift 파일은 플러그인의 진입점이며 비즈니스 로�
 
 중요한 조각들은:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - PackagePlugin 문을 가져옵니다. 이 문은 새 API를 가진 framework를 가져옵니다.
 - @main 어노테이션. 이는 플러그인의 진입점을 정의합니다.
@@ -108,7 +179,18 @@ performCommand에는 두 개의 매개변수가 있습니다: context와 argumen
 
 이것은 플러그인을 만들기 위한 마지막 단계입니다. JSON 명세에서 시작하는 Swift 코드를 생성하는 코드를 작성해야 합니다. 이를 위해 일부 도우미 클래스와 몇 가지 함수가 필요할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JSON 사양
 
@@ -126,7 +208,18 @@ JSON 사양
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 JSON 객체는 하나의 구조체를 나타냅니다. fields 속성은 완전한 Swift 프로퍼티를 정의하는 다른 객체를 포함합니다. label은 구조체 내의 프로퍼티 이름이고, type은 프로퍼티의 주요 유형입니다. 제네릭의 경우, 제네릭 유형을 지정하기 위해 subtype이 필요합니다.
 
@@ -158,7 +251,18 @@ JSON 사양
 
 이 Person 타입에는 이름, 성, 나이 및 다른 Person 타입의 목록 인 family가 있습니다. 플러그인 실행 후 다음과 같은 Swift 구조체를 얻을 것으로 예상됩니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```json
 struct Person {
@@ -166,7 +270,7 @@ struct Person {
   let surname: String,
   let age: Int
   let family: [Person]
-} 
+}
 ```
 
 **데이터 모델**
@@ -175,7 +279,18 @@ struct Person {
 
 이를 달성하기 위해 다음 두 구조체가 필요합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째 구조체는 필드 목록을 포함하는 래퍼입니다. 이는 최상위 JSON 객체를 나타냅니다.
 
@@ -185,7 +300,18 @@ struct Person {
 
 마지막으로 로직을 구현할 수 있습니다. 플러그인 내에서 여러 함수로 분할하여 간단하게 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째 함수는 performCommand이며, 플러그인의 진입점입니다.
 
@@ -195,7 +321,18 @@ performCommand는 executeCommand를 호출합니다.
 
 이 메서드는 drillDown 메서드를 사용하여 생성해야 하는 모든 구조체를 추출합니다. 구조체가 없는 경우 반환됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼, 'Struct.swift'라는 파일에 구조체를 쓸 겁니다. 모든 구조체는 간편함을 위해 하나의 파일에 포함될 겁니다.
 
@@ -205,7 +342,18 @@ performCommand는 executeCommand를 호출합니다.
 
 'drillDown' 메서드는 먼저 디렉터리 속성의 내용을 가져옵니다. 이 속성은 기본적으로 패키지의 주 폴더입니다. 그런 다음, 디렉터리의 마지막 경로 구성 요소가 'Definitions'인 경우, 해당 폴더에 포함된 각 항목의 전체 경로를 검색하고 각 항목에 대해 'createSwiftStruct' 함수를 호출합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그렇지 않으면, 트리를 탐색합니다. 현재 폴더의 각 항목에 대해 해당 항목이 폴더인지 아닌지 확인합니다. 폴더인 경우 해당 폴더로 진입하려고 시도하고 결과를 변수에 누적하여 재귀의 끝에 반환됩니다.
 
@@ -215,7 +363,18 @@ performCommand는 executeCommand를 호출합니다.
 
 그런 다음 파일 이름에서 구조체 이름을 추출하고 필드 목록을 생성합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 드디어 유효한 Swift 구조체인 문자열을 반환합니다.
 
@@ -225,7 +384,18 @@ performCommand는 executeCommand를 호출합니다.
 
 먼저 Package.swift에서 새 패키지를 생성하세요. 이를 위해 Package.swift 파일에 .target를 추가하면 됩니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 패키지는 적절한 폴더 구조도 필요합니다. 아래와 같은 구조여야 합니다:
 
@@ -244,8 +414,18 @@ HelloWorld.swift은 빈 Swift 파일일 뿐입니다. 모든 Swift 패키지는 
 
 이 시점에서 CodeGeneratorPlugin 프로젝트를 마우스 오른쪽 버튼으로 클릭하면, 이미 Xcode가 컨텍스트 메뉴에 CodeGenerator 사용자 정의 플러그인이 나타나는 것을 확인할 수 있습니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-24-CreateYourFirstSwiftPackageCommandPlugin_1.png)
 
@@ -256,11 +436,20 @@ HelloWorld.swift은 빈 Swift 파일일 뿐입니다. 모든 Swift 패키지는 
 - 플러그인을 실행할 대상을 선택합니다.
 - 필요한 경우 추가 인수를 전달합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래와 같이 테이블 태그를 Markdown 형식으로 변경해주세요.
-
 
 ![CreateYourFirstSwiftPackageCommandPlugin_2](/assets/img/2024-07-24-CreateYourFirstSwiftPackageCommandPlugin_2.png)
 
@@ -270,8 +459,18 @@ HelloWorld.swift은 빈 Swift 파일일 뿐입니다. 모든 Swift 패키지는 
 
 ![CreateYourFirstSwiftPackageCommandPlugin_3](/assets/img/2024-07-24-CreateYourFirstSwiftPackageCommandPlugin_3.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 대화의 작성자로부터의 라인은 이 기사의 첫 번째 단계에서 Package.swift에 설정한 이 플러그인을 위한 이유를 보여줍니다.
 
@@ -281,7 +480,18 @@ HelloWorld.swift은 빈 Swift 파일일 뿐입니다. 모든 Swift 패키지는 
 
 축하합니다! 첫 번째 명령 플러그인을 만들고 Xcode를 사용하여 다른 대상에 적용했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 플러그인 디버깅
 
@@ -294,7 +504,18 @@ HelloWorld.swift은 빈 Swift 파일일 뿐입니다. 모든 Swift 패키지는 
 
 이 플러그인을 디버깅하는 내 해결책은 각 단계를 로그 파일에 기록하는 것이었어요. 그것을 달성하기 위해 다음 단계를 따랐습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 전역 변수 `log`를 생성했어요. 이 변수는 [String] 형식이에요. 이 명령이 실행될 때마다 다시 생성되므로 프로세스 간 메모리 공유 문제가 없어요.
 - `log(_ message: String)` 함수를 생성해서 메시지를 `log` 변수에 추가했어요.
@@ -307,7 +528,18 @@ HelloWorld.swift은 빈 Swift 파일일 뿐입니다. 모든 Swift 패키지는 
 
 오늘의 글에서는 Swift 5.7용 커맨드 플러그인을 구성하는 방법을 배웠어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 패키지의 구조와 구현하는 기본 개념을 배웠습니다. 또한 Xcode에서 실행하는 방법도 배웠어요. 개발 경험이 부족했지만 다양한 실행 단계를 볼 수 있는 기본 로거 솔루션을 만드는 방법도 배웠습니다.
 

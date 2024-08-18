@@ -3,17 +3,13 @@ title: "라즈베리 파이 5 CPU 성능"
 description: ""
 coverImage: "/assets/img/2024-06-20-RaspberryPi5CPUPerformance_0.png"
 date: 2024-06-20 17:40
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-RaspberryPi5CPUPerformance_0.png
 tag: Tech
 originalTitle: "Raspberry Pi 5 CPU Performance"
 link: "https://medium.com/@davidly_33504/raspberry-pi-5-cpu-performance-2d019aa6c0df"
 isUpdated: true
 ---
-
-
-
-
 
 라즈베리 파이 기기들은 사용하기 정말 재미있어요. 가격도 저렴하고 성능도 좋아서 다양한 문제를 해결하는 방법에 대한 예제를 쉽게 찾을 수 있어요. Pi 5가 9월 28일에 발표되었을 때 저는 그것을 만져보고 싶었어요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 벤치마크에는 다양한 환경에서 작성, 빌드 및 실행된 하나의 앱을 사용했어요. 이 앱은 간단합니다 - 상대방이 유능하다면 틱택토에서 이길 수 없다는 것을 증명합니다. 이는 알파/베타 가지치기 알고리즘을 사용하여 3가지 고유한 시작 수를 평가합니다. 6493개의 판 상태가 검토되었어요. 변형에는 다음이 포함돼요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 각 대상 CPU에 대한 원시 어셈블리 버전이 있습니다. 코드를 더 최적화할 수 있다고 생각하지만, 각 CPU의 명령어 세트와 레지스터를 활용하려고 노력했습니다. Arm32, Arm64, RISC-V 64 및 AMD64와 같은 다양한 변형이 있습니다.
 - 6502, 8080, 8086 및 RISC-V 64 CPU에 대한 원시 어셈블리 버전은 다양한 에뮬레이터에서 실행됩니다: NTVAO (6502 + Apple 1), NTVCM (8080 + CP/M 2.2), NTVDM (8086 + DOS 3.3), RVOS (RISC-V 64 + Linux). 모든 에뮬레이터는 C++로 작성되었으며 대상 플랫폼의 원시 컴파일러를 사용하여 생성되었습니다.
@@ -35,7 +42,18 @@ isUpdated: true
 
 Raspberry Pi 5는 이전 Pi 버전보다 상당히 빠릅니다. 이를 통해 많은 새로운 Pi 솔루션이 가능해질 것으로 기대됩니다. 기대되는 결과물이 무엇인지 기대됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 벤치마크 결과에 대한 몇 가지 참고 사항:
 
@@ -50,7 +68,18 @@ Raspberry Pi 5는 이전 Pi 버전보다 상당히 빠릅니다. 이를 통해 �
 
 (참고: 틱택토 구현의 소스 코드는 https://github.com/davidly/ttt 에 있습니다. 에뮬레이터 코드는 https://github.com/davidly/ntvao, https://github.com/davidly/ntvcm, https://github.com/davidly/ntvdm, https://github.com/davidly/rvos 에서 찾을 수 있습니다.)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 (참고 2: 1970년대에 라디오 샥에서 구입한 부품들로 TTL 칩으로 만든 프로젝트에 전원을 공급하기 위해 5V 전원 공급기를 제작했습니다. 50년 후에 다시 5V 전원 공급기를 만들어야 할 것 같네요.)
 

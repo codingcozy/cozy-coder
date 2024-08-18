@@ -3,17 +3,13 @@ title: "AI 정렬 문제의 해결 방안"
 description: ""
 coverImage: "/assets/img/2024-06-22-Ontheproblemofalignment_0.png"
 date: 2024-06-22 21:08
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-Ontheproblemofalignment_0.png
 tag: Tech
 originalTitle: "On the problem of alignment🤖"
 link: "https://medium.com/ai-advances/on-the-problem-of-alignment-44977beb1791"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-22-Ontheproblemofalignment_0.png" />
 
@@ -23,7 +19,18 @@ AI 공간에서의 정렬 문제는 점점 더 중요해지고 있는 문제입�
 
 와우, 저는 기대돼요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서, 이것은 정렬의 문제입니다. 이는 Tay에게 나쁜 것과 좋은 것을 설명하는 방법입니다. 다른 사용자들이 '히틀러가 옳았다'고 말한다고 해서 이 문장이 반드시 사실인 것은 아니라는 것을 어떻게 설명할지에 대한 문제입니다. 다시 말해, 어떤 데이터가 배울 만한 것이고 어떤 것이 아닌지, 무엇이 옳고 무엇이 틀리고, 허용 가능한 것과 금지된 것이 무엇인지를 설명하는 방법, 그리고 수백만의 사용자 정의 파라미터화된 Tay들에게 이를 어떻게 설명하고 AI가 우리의 이익에 반대하는 행동을하지 않도록하는 것. 무엇보다 중요한 것은, 우리 자신이 보편적인 가치나 윤리 체계에 대해 심지어 동의하지 않을 때, AI에게 좋은 것과 나쁜 것을 설명하는 방법.
 
@@ -33,7 +40,18 @@ AI 공간에서의 정렬 문제는 점점 더 중요해지고 있는 문제입�
 
 오늘날 유일한 벤치마크는 2019년 François Chollet이 ‘On the Measure of Intelligence’에서 발표한 ARC-AGI(인공 일반 지능을 위한 추상화 및 추론 코퍼스)입니다. 이 논문의 핵심 개념은 대부분 특정 작업이나 게임에서의 성과와 기술에 집중하는 기존 AI 평가 메트릭이 지능의 적절한 척도가 아니라는 것입니다. 다시 말해, 주요 아이디어는 기술 ≠ 지능이라는 것입니다. 반면에, 지능은 새로운, 다양하고 예측할 수없는 문제를 학습하고 성공적으로 해결하는 능력으로 정의될 수 있습니다. 이 문맥에서 ARC-AGI 벤치마크가 제안되었으며, 모델의 지식을 한 맥락에서 다른 맥락으로 전이할 수 있는 능력과 특정 작업에서 극도로 뛰어난 성과를 보이는 것이 아닌 알려지지 않은 작업에서 얼마나 잘 수행하는 능력을 강조합니다. 논문에서 설명했듯이, 특정 작업에서의 숙련만 측정하는 것은 지능을 측정하는 데 부족하며, 사람들과 기계 모두에게 기본 지식과 경험에 매우 영향을 받기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사실 이것은 전혀 간단하지 않아요. 사회적으로 우리는 직관적으로 반대를 믿게 조건부로 설정되어 있어요. 즉, 기술이 지능이라고 믿는 것입니다. 예를 들어, 한 명이 매우 특정한 분야에서 극도로 숙련된 화가, 피아노 솔로이스트 또는 시인을 생각해봅시다. 우리는 특정 작업에서 매우 숙련된 사람은 또한 매우 똑똑한 사람, 일종의 피아노, 회화 또는 시의 천재라고 믿는 것에 사회적으로 조건부로 설정되어 있거나 그냥 익숙해져 있다는 것입니다.
 
@@ -41,7 +59,18 @@ ARC-AGI는 AI의 추상적 추론과 일반화가 필요한 혁신적인 문제 
 
 전체 평가 항목은 1,000개의 다양한 난이도의 논리 퍼즐로 구성되어 있으며, 훈련 및 테스트 세트로 이루어져 있습니다. 여러 개의 풀린 예시 퍼즐을 훈련 세트로 받고 우리나 모델은 패턴을 인식하고 비슷한 퍼즐에 답변해야 합니다. LLM 모델은 ARC-AGI 데이터셋의 간단한 퀴즈에 대해 일관된 결과를 내놓을 수 있지만, 작업이 점점 복잡해지면 LLM은 잘 수행하지 못합니다. 그것은 데이터셋의 더 복잡한 퀴즈가 그냥 물건을 책상 위에 올리는 것이 아니라 실제 사고를 요구하기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 퍼즐들을 수동으로 푸는 것은 꽤 재미있는 경험이죠. 몇 가지는 굉장히 쉽고 직관적이며, 일반적인 사람들도 자연스럽고 거의 자동적으로 답할 수 있는 퍼즐들이 있습니다. 이러한 패턴들은 LLM(대규모 언어 모델)에 의해 쉽게 해결될 수 있습니다. 왜냐하면 우리는 이와 유사한 패턴들을 몇 천 번이나 반복해서 보았기 때문이죠. 다른 퍼즐들은 관찰하고 조금 생각해봐야 할 수도 있지만, 결국 해결책을 찾아내게 됩니다. 마지막으로 데이터셋에 있는 다른 퍼즐 중에는 실제로 굉장히 복잡하고 어려운 것도 있습니다. 이런 경우에는 패턴을 찾기 위해 시간을 보내거나 시행착오를 거쳐야 할 수도 있고, 아예 해결하지 못할 수도 있습니다. 비슷하게, LLM은 이러한 퍼즐을 해결하는 데 실패할 수 있습니다. 왜냐하면 이러한 퍼즐들은 복잡하며, 그들의 훈련 데이터셋에서 그리 널리 나타나지 않기 때문이죠.
 
@@ -49,7 +78,18 @@ ARC-AGI는 AI의 추상적 추론과 일반화가 필요한 혁신적인 문제 
 
 그것이 무엇인지 궁금하지 않으신가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 중요한 점은 '우리는 간섭할 수 없다'는 것입니다. 내부 정렬은 우리 - 인간 -가 AI 모델이 우리가 말한 대로 정확히 작동할 것이라고 완전히 확신하는 것을 의미합니다.
 
@@ -59,7 +99,18 @@ ARC-AGI는 AI의 추상적 추론과 일반화가 필요한 혁신적인 문제 
 
 [이미지](/assets/img/2024-06-22-Ontheproblemofalignment_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 외부 정렬: 인류의 목적은 무엇인가요?
 
@@ -69,7 +120,18 @@ AI 정렬 문제는 고급 AI 시스템이 인류에게 유익하고 윤리적 �
 
 특정 작업에서 뛰어난 성과를 내기 위한 운명수레처럼 설계된 좁은 AI 모델을 만드는 것은 모델이 최적화하려는 특정 목적 기능을 형성하는 것을 가능하게 합니다. 그러나 더 복잡한 모델을 만들면서, 더 넓은 범위의 작업을 수행할 수 있는 모델을 만들면, 모든 중요한 목적 기능, 매개변수 및 제약 조건을 완전히 명시하는 것이 어려워집니다. 대신, 보다 쉬운 대리 측정표가 사용되곤 합니다. 예를 들어, 인간의 찬성을 극대화해야 한다고 하면요. 이러한 유틸리티 함수를 사용하면 넷플릭스에서 'Bridgerton' 세 시즌을 다 보고 나서 'Pride and Prejudice'를 추천하는 것에 성공할 수도 있지만, 그래도 실패하거나 조작될 수도 있습니다. Tay의 경우도 그렇습니다. 인종 차별적이고 여성 혐오적인 트윗이 많은 반응과 주목을 받았으니 이것이 좋은 것이라고 생각할 수도 있을 것 같죠? 🤷 비슷하게, ChatGPT 또는 Gemini과 같은 대화형 에이전트들은 사용자가 도움이 되는 답변으로 평가하는 것을 목표로 하기 때문에 정보를 조작할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제의 어려움은 원하는 행동과 원하지 않는 행동의 전체 범위를 식별하고 명시하는 데 있습니다. 마치 사이코패스처럼, AI 모델은 설정된 목표로의 모든 단축키를 활용할 것이므로, 그 목표를 신중하게 정의하는 것이 현명할 수 있습니다.
 
@@ -79,7 +141,18 @@ AGI가 아직 멀리 떨어져 있을지라도, 우리 일상에서 사용하는
 
 ✨읽어 주셔서 감사합니다!✨
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 게시물을 즐겼나요? 친구가 되어요!
 

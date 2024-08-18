@@ -3,17 +3,13 @@ title: "파이썬과 Streamlit으로 멀티페이지 금융 대시보드 만들�
 description: ""
 coverImage: "/assets/img/2024-06-22-Multi-pagefinancialdashboardwithPythonandStreamlitBuilditfromscratch_0.png"
 date: 2024-06-22 17:01
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-Multi-pagefinancialdashboardwithPythonandStreamlitBuilditfromscratch_0.png
 tag: Tech
 originalTitle: "Multi-page financial dashboard with Python and Streamlit: Build it from scratch."
 link: "https://medium.com/python-in-plain-english/multi-page-financial-dashboard-with-python-and-streamlit-build-it-from-scratch-feb92cd7e676"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-22-Multi-pagefinancialdashboardwithPythonandStreamlitBuilditfromscratch_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 데이터 작업에 파이썬보다 더 나은 것이 무엇인가요? 그리고 데이터를 분석하는 데 가장 사용자 친화적인 방법이 무엇인가요? 우리는 파이썬에 대해 더 많은 이해가 있고, Streamlit을 소개할게요. 이 Streamlit은 데이터 분석을 위한 대화형 웹 애플리케이션을 빠르고 쉽게 구축할 수 있는 강력한 오픈 소스 파이썬 라이브러리입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 난이도의 개발자를 대상으로 설계된 Streamlit은 데이터 스크립트를 공유 가능한 웹 앱으로 쉽게 변환할 수 있도록 도와줍니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 2. 빠른 프로토타이핑: Streamlit을 사용하면 코드를 수정하면 해당 변경 사항이 앱 인터페이스에 자동으로 업데이트되어 이터레이션 과정이 매우 신속해집니다. 이 기능을 이용하면 앱을 동적으로 조정하고 실시간으로 결과를 확인할 수 있어 빠른 프로토타이핑과 실험에 매우 유용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 다양한 내장 위젯: Streamlit에는 슬라이더, 체크박스, 드롭다운과 같은 다양한 내장 위젯이 포함되어 있어 데이터와 상호 작용하기가 매우 쉽습니다. 이러한 요소들은 코드를 최소한으로 사용하여 추가할 수 있어 사용자가 표시된 데이터나 수행 중인 계산을 조작할 수 있게 해줍니다.
 
@@ -46,7 +64,18 @@ isUpdated: true
 - Stocks: 주식의 현재 가격을 수집하고 주요 지표인 주가수익(P/E) 비율, 주당순이익(EPS)을 함께 제시합니다. 그것을 기반으로 설정한 임계값과 함께, 주식의 공정 가치를 계산하여 현재 주식 가치와 공정 주식 가치 간의 차이를 보여줍니다(차이가 충분히 크다면, 아마도 가격이 저평가된 주식일 것입니다).
 - Commodities: 현재 시장 가격, 과거 추이 (그래프), 판매 단위를 표시합니다(주식과는 다르게 각 상품에는 다른 측정 단위가 있으며, 이전 종가로부터의 가격 변동).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "알았다고 했잖아!", 버니 맥의 캐릭터가 "오션스 13”에서 강조했던 것처럼. 코드 작업을 시작해봐요.
 
@@ -56,8 +85,18 @@ isUpdated: true
 
 Streamlit과 데이터 처리 및 시각화를 위해 pandas와 matplotlib/plotly와 같은 필요한 라이브러리를 설치해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 pip install streamlit pandas matplotlib plotly
@@ -70,19 +109,28 @@ pip install streamlit pandas matplotlib plotly
 
 우리의 streamlit_app.py 파일은 프로젝트의 루트 폴더에 있어야 합니다. 또한 대시보드 페이지가 있는 pages 폴더가 필요합니다 (각 대시보드마다 한 페이지씩).
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 내 Streamlit 어플리케이션 폴더 구조:
-- **pages/**: 대시보드의 여러 페이지를 위한 디렉토리
-    - **__init__.py**: 'pages'를 파이썬 패키지로 만듦
-    - **commodities.py**: 상품 대시보드 모듈
-    - **cryptos.py**: 암호화폐 대시보드 모듈
-    - **etfs_value.py**: ETF 대시보드 모듈
-    - **underpriced_stocks.py**: 저평가 주식 대시보드 모듈
-- **stramlit_app.py**: 주 Streamlit 어플리케이션 파일
 
+- **pages/**: 대시보드의 여러 페이지를 위한 디렉토리
+  - ****init**.py**: 'pages'를 파이썬 패키지로 만듦
+  - **commodities.py**: 상품 대시보드 모듈
+  - **cryptos.py**: 암호화폐 대시보드 모듈
+  - **etfs_value.py**: ETF 대시보드 모듈
+  - **underpriced_stocks.py**: 저평가 주식 대시보드 모듈
+- **stramlit_app.py**: 주 Streamlit 어플리케이션 파일
 
 주 Streamlit 어플리케이션 코드부터 시작해봅시다. (특정 대시보드 페이지에 대한 중요 부분은 이미 이전 게시물 몇 개에서 살펴봤습니다.)
 
@@ -107,8 +155,18 @@ page.app()  # 각 모듈이 페이지를 실행하기 위한 app 함수를 갖�
 
 앱 구조를 보면 매우 간단합니다. 필요한 대시보드 페이지와 Streamlit 라이브러리를 import하고, 페이지 딕셔너리를 작성하고, 사이드바 제목을 설정하고, 선택 메커니즘을 구현합니다. 이를 통해 사용자가 앱의 다른 섹션으로 이동할 수 있도록 합니다. 마지막으로 page.app() 메서드를 호출하여 사용자의 선택에 따라 적절한 페이지를 동적으로 로드합니다. 이 방법은 각 페이지 모듈 내의 특정 기능과 연결되어 대시보드를 렌더링하는 데 사용됩니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작은 이정표를 달성했어요: 더 큰 목표를 향해 나아가요.
 대시보드 페이지 만들기
@@ -150,7 +208,18 @@ if __name__ == "__main__":
 
 이 Streamlit 앱은 선택한 기간 동안 상품 가격과 변동을 보여주는 대시보드를 표시하는 데 사용됩니다. 사용자들은 특정 상품, 시간대 및 데이터 세부 사항을 기반으로 사용자 정의로 표시를 조정할 수 있습니다. 특정 라이브러리를 가져온 후, commodities_info라는 딕셔너리를 만들었습니다. 이 딕셔너리는 관심 상품을 정의하며, 해당 시장 티커 심볼, 측정 단위 및 이름을 포함합니다. 이 딕셔너리는 특정 상품을 티커 심볼로 참조하면서 사용자 친화적인 이름과 단위를 표시하는 데 앱 전반에서 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 부분은 매우 중요합니다: @st.cache 데코레이터를 사용하여 함수 호출 결과를 캐싱하는 중요한 임무를 수행하고 있습니다. 이를 통해 입력을 기반으로 함수 호출 결과를 캐싱함으로써 yfinance에 대한 API 호출 수를 줄여 대역폭을 절약할 뿐만 아니라 첫 로드 후 사용자 상호작용 속도도 높일 수 있습니다.
 
@@ -162,7 +231,18 @@ if __name__ == "__main__":
 
 이 함수는 주요 응용 프로그램 인터페이스를 정의합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - st.title("상품 대시보드"): 대시보드의 제목을 설정합니다.
 - 사이드바 입력란을 통해 사용자는 데이터의 기간과 간격을 선택하고 어떤 상품을 표시할지 선택할 수 있습니다.
@@ -173,7 +253,18 @@ if __name__ == "__main__":
 
 ## 실행 시작점
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 if __name__ == "__main()":
@@ -186,11 +277,33 @@ if __name__ == "__main()":
 
 ![이미지](/assets/img/2024-06-22-Multi-pagefinancialdashboardwithPythonandStreamlitBuilditfromscratch_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앗, 분할 취소를 요청해주셨군요. 물론이죠, 질문이 있으시면 언제든지 물어보세요! 😉
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Markdown 형식으로 표를 나타냅니다.
 
@@ -285,13 +398,24 @@ if __name__ == "__main__":
 
 암호화폐처럼 동일한 방식으로: 필요한 라이브러리 가져오기, financialmodelingprep 라이브러리에서 SP500 티커 가져오기 및 yfinance에서 데이터 가져오기: 각 주식별로 데이터를 가져오는 동안 limitation에 도달하는 것을 피하기 위해 이 두 작업을 서로 다른 소스 사이에 분리했습니다. financialmodelingprep의 최소 결제 요금제(매월 19.99 미국 달러)에는 분당 300회의 호출 제한이 있으므로 우리가 주식을 하나씩 가져올 때 쉽게 이 제한에 도달할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 yfinance에서 무엇을 얻고 있습니까? 적절한 기준을 설정하고 특정 주식이 성장 잠재력이 있는지 고려하는 데 도움이 되는 여러 가지 지표 목록을 얻고 있습니다.
 현재 가격: 주식의 최신 거래 가격입니다.
 EPS (주당 수익): 회사가 주당 주식에 대해 벌어들이는 돈을 나타냅니다.
 목표 P/E 비율: 이는 많은 가치 투자자들을 위한 전형적인 기준인 15로 설정됩니다. 여기서는 해당 주식의 이익에 기초하여 합리적인 가격으로 간주될 수 있는 것을 예상하기 위해 사용됩니다. 목표 P/E 15는 성장과 가치 속성을 균형 있게 고려할 수 있는 중도 기준으로 선택되었습니다. 브로드 산업 범위에 역사적으로 적용되었던 산업에 대해 사용된 보수적인 수치로, 오버밸류된 시장에서 상대적 가치 평가가 낮은 주식을 식별하는 데 도움을 줄 수 있습니다.
-공정시장가치 계산: EPS * 목표 P/E로 계산됩니다. 이는 주식이 목표 P/E 비율인 15로 가치 평가되었다면 해당 주식의 공정 가치를 나타냅니다. 낮은 P/E는 주식이 수익에 비해 저평가되었을 수 있다는 것을 시사할 수 있습니다.
+공정시장가치 계산: EPS \* 목표 P/E로 계산됩니다. 이는 주식이 목표 P/E 비율인 15로 가치 평가되었다면 해당 주식의 공정 가치를 나타냅니다. 낮은 P/E는 주식이 수익에 비해 저평가되었을 수 있다는 것을 시사할 수 있습니다.
 저평가 여부 확인: 만일 현재 시장 가격이 계산된 공정시장가치보다 낮다면 해당 주식이 저평가되었다고 간주됩니다.
 가격 격차(%): 공정시장가치와 현재 가격 사이의 백분율 차이를 보여주며, 주식 가격이 추정된 공정 가치에 도달하기 위해 얼마나 증가해야 하는지를 나타냅니다.
 
@@ -301,7 +425,18 @@ EPS (주당 수익): 회사가 주당 주식에 대해 벌어들이는 돈을 �
 
 파일: pages/etfs_value.py
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 import streamlit as st
@@ -381,7 +516,18 @@ if __name__ == "__main__":
     app()
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터를 가져와서 서식을 지정한 후 Streamlit의 st.table() 함수를 사용하여 각 ETF의 주요 지표를 명확하고 조직적으로 보여줍니다. 이 테이블에는 최신 가격, 올해의 최고가와 최저가, 수익률, 총 자산, 배당 수익률 및 자세한 옵션 데이터와 같은 세부 정보가 포함되어 있습니다.
 
@@ -391,7 +537,18 @@ if __name__ == "__main__":
 
 ETF의 사용 가능한 옵션 수가 다르기 때문에 테이블의 높이와 가시성에 영향을 줍니다. 그래서 이 대시보드의 스크린샷을 2개 두었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래요, 우리 최종 대시보드가 준비되었어요. 터미널을 열고 마법의 열쇠를 입력해볼까요? "알라딘의 비밀 금고 여는 방법"이 아니라 이런 모습을 하겠죠.
 
@@ -403,7 +560,18 @@ streamlit run streamlit_app.py
 
 당신의 IDE 터미널에서 대시보드에 액세스하는 URL을 확인할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-22-Multi-pagefinancialdashboardwithPythonandStreamlitBuilditfromscratch_6.png)
 
@@ -413,7 +581,18 @@ streamlit run streamlit_app.py
 
 테이블에 대해 "csv로 다운로드", 검색 및 전체화면 옵션이 제공되었는지 확인하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-Multi-pagefinancialdashboardwithPythonandStreamlitBuilditfromscratch_8.png" />
 
@@ -423,7 +602,18 @@ streamlit run streamlit_app.py
 
 In Plain English 커뮤니티의 일원이 되어 주셔서 감사합니다! 떠나시기 전에:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 글쓴이를 클립하고 팔로우 해주세요! 👏️️
 - 팔로우하기: X | LinkedIn | YouTube | Discord | 뉴스레터

@@ -3,16 +3,13 @@ title: "화면 녹화를 GIF로 변환하는 방법 macOS에서  생산성 1"
 description: ""
 coverImage: "/assets/img/2024-05-27-HowtoconvertyourscreenrecordingstoGIFonmacOSProductivity1_0.png"
 date: 2024-05-27 12:23
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-HowtoconvertyourscreenrecordingstoGIFonmacOSProductivity1_0.png
 tag: Tech
 originalTitle: "How to convert your screen recordings to GIF on macOS? — Productivity #1"
 link: "https://medium.com/interaction-dynamics/how-to-convert-your-screen-recordings-to-gif-on-macos-productivity-1-781dbe56fe5c"
 isUpdated: true
 ---
-
-
-
 
 프론트엔드 개발자로서, Pull/Merge Requests, 이슈 또는 Slack에서 종종 스크린샷이나 비디오 녹화를 공유해야 할 때가 많습니다.
 
@@ -22,8 +19,18 @@ isUpdated: true
 
 결과물을 직접 확인해 보세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*m8Y5EaajsmCXSZuswBiHCw.gif)
 
@@ -37,7 +44,18 @@ brew install ffmpeg imagemagick
 arch -arm64 brew install ffmpeg imagemagick
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 해당 Apple 바로 가기를 설치해주세요: [https://www.icloud.com/shortcuts/ec417cfcb32941f7aa9316b3c44c32ff](https://www.icloud.com/shortcuts/ec417cfcb32941f7aa9316b3c44c32ff)
 
@@ -47,7 +65,18 @@ macOS에서는 CMD+Shift+5를 사용하여 화면을 쉽게 녹화할 수 있어
 
 화면을 녹화하고 .MOV 비디오를 가지고 있다면, Finder의 컨텍스트 메뉴를 사용하여 GIF로 바꿀 수 있어요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <div>
   <img src="/assets/img/2024-05-27-HowtoconvertyourscreenrecordingstoGIFonmacOSProductivity1_0.png" />
@@ -59,7 +88,18 @@ macOS에서는 CMD+Shift+5를 사용하여 화면을 쉽게 녹화할 수 있어
 
 만약 이 도구가 유용하다고 생각된다면, 이 저장소에 스타를 부탁드리거나 이 게시물 아래에 댓글을 남겨주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](https://miro.medium.com/v2/0*n3UdPtw5l6xSikMW.gif)
 

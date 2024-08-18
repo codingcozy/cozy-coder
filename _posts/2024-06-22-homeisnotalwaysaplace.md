@@ -3,18 +3,13 @@ title: "집은 항상 장소가 아니다"
 description: ""
 coverImage: "/assets/img/2024-06-22-homeisnotalwaysaplace_0.png"
 date: 2024-06-22 19:54
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-homeisnotalwaysaplace_0.png
 tag: Tech
 originalTitle: "home is not always a place"
 link: "https://medium.com/@andengxzs_/home-is-not-always-a-place-8472b6b1920c"
 isUpdated: true
 ---
-
-
-
-
-
 
 <img src="/assets/img/2024-06-22-homeisnotalwaysaplace_0.png" />
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 "모든 것이 너무 무거워지면 어디로 도망가나요?"
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 친구들이 대화할 때 자주 듣는 질문이에요. 대답은 다양해요 - 몇 명은 확신을 못 가지고 있다고 하고, 다른 사람들은 자기 안에서 평화를 찾고, 몇 사람은 그냥 현재 있는 곳을 벗어나고 싶다고 해.
 
@@ -35,7 +40,18 @@ isUpdated: true
 
 우리의 우정은 예상치 못한 게 있어. 고등학교 시절에 그들과는 정말 가까운 사이가 아니었어. 사실, 나는 그들을 어떻게 발견했는지 자세한 내용조차 없어.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일부는 나의 동급생들이었지만, 우리는 특별한 대화를 나누지 않았어요. 우리의 소통은 복도, 학교 건물, 그리고 구내식당에서 일어나는 굉장히 피상적인 만남에 그쳤어요 — 서둘러 지나가는 인사, 예의 바른 인사 교환, 그 이상의 것은 없었죠.
 
@@ -45,7 +61,18 @@ isUpdated: true
 
 나는 그들과 함께 하는 것을 끊임없이 갈망하게 되었어요, 마치 그들이 내 자신의 연장이 된 것처럼요. 하루종일 함께 지냈더라도, 전혀 충분하지 않은 것 같아요. 그들의 안정적인 존재에 대한 끝없는 열망이 있어요, 그들만이 그 빈자리를 채울 수 있는 것 같아요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그들과 함께 있을 때 내가 견디는 부담이 상당히 가벼워진다. 그들의 포옹은 내 문제들이 사라지는 방법으로, 그 순간에는 단순히 존재하지 않는 것처럼 내 문제들을 사라지게 만든다.
 
@@ -55,7 +82,18 @@ isUpdated: true
 
 집은 항상 물리적인 장소일 필요는 없다. 이것은 네모방이 있고 지붕, 기둥, 창문, 그리고 문이 있는 것이 아닙니다. 때로는 감정, 목소리, 손 두 개, 그리고 발을 갖고 있다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나는 이야기 뒤에 있는 사람들을 가리키는 집이기 때문에.
 

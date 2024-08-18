@@ -3,17 +3,13 @@ title: "블렌더 x ChatGPT AI-기반 블렌더 애드온 가이드"
 description: ""
 coverImage: "/assets/img/2024-06-19-BlenderxChatGPTAGuidetotheAI-PoweredBlenderAdd-on_0.png"
 date: 2024-06-19 02:19
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-BlenderxChatGPTAGuidetotheAI-PoweredBlenderAdd-on_0.png
 tag: Tech
 originalTitle: "Blender x ChatGPT: A Guide to the AI-Powered Blender Add-on"
 link: "https://medium.com/@ryvnollie/blender-x-chatgpt-a-guide-to-the-ai-powered-blender-add-on-cf5766084f8f"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-19-BlenderxChatGPTAGuidetotheAI-PoweredBlenderAdd-on_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 3D 디자인 경험을 향상시키기 위해 설계된 주요 기능들이 마련된 이 애드온이 지난 제품들에서의 과거의 답답함을 해결하고, 여러분에게 업그레이드된, 사용자 친화적이며 창의적인 도구를 제공할 것이라 자신합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 주요 기능
 
@@ -33,7 +40,18 @@ Blender 애드온은 멋진 요소에 그치지 않습니다. 3D 디자인 경�
 
 모델 선택: 여기서 주도권은 당신에게 있습니다! 선호도나 작업 복잡도에 따라 Chat GPT-3.5 및 Chat GPT-4 모델 중 선택하세요. (GPT-4를 사용하려면 액세스 권한이 있는지 확인하세요!)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가변적인 창의력: AI에서 원하는 창의력의 양을 제어할 수 있습니다. 저희 애드온은 조절 가능한 "창의성" 설정을 제공합니다. 결정론적인 결과를 원하거나 예상치 못한 것을 선호하더라도 모두 얻을 수 있습니다.
 
@@ -43,7 +61,18 @@ Blender 애드온은 멋진 요소에 그치지 않습니다. 3D 디자인 경�
 
 # 블렌더 GPT 애드온 시작하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 시작하기 전에
 
@@ -54,7 +83,18 @@ Blender 애드온은 멋진 요소에 그치지 않습니다. 3D 디자인 경�
 
 ## 설치 단계들
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Blender GPT를 설치하는 방법을 안내해 드릴게요:
 
@@ -67,7 +107,18 @@ Blender GPT를 설치하는 방법을 안내해 드릴게요:
 
 ## Blender GPT Add-on 사용하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Blender GPT를 탐험하는 것은 간단해요.
 
@@ -83,7 +134,18 @@ Blender GPT를 탐험하는 것은 간단해요.
 
 Blender GPT는 OpenAI의 클라우드 서비스에 의존하기 때문에 정상적으로 작동하려면 인터넷 연결이 활성화되어 있어야 한답니다. 그리고 AI의 본성으로 인해 가끔 오류가 발생할 수 있어요. 실수를 발견하면 명령어를 수정하거나 생성된 Blender 파이썬 코드를 직접 수정하세요. 그럼 준비를 마치고 Blender GPT 애드온으로 3D 디자인의 새로운 차원을 탐험해볼 준비가 돼요. 여러분이 어떤 것을 만들어내는지 기대돼요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # AI-Powered 3D 모델링 혁명에 참여해보세요
 

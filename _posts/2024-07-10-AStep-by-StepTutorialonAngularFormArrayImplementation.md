@@ -3,18 +3,13 @@ title: "Angular FormArray 구현 단계별 튜토리얼"
 description: ""
 coverImage: "/assets/img/2024-07-10-AStep-by-StepTutorialonAngularFormArrayImplementation_0.png"
 date: 2024-07-10 00:47
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-10-AStep-by-StepTutorialonAngularFormArrayImplementation_0.png
 tag: Tech
 originalTitle: "A Step-by-Step Tutorial on Angular FormArray Implementation"
 link: "https://medium.com/front-end-weekly/a-step-by-step-tutorial-on-angular-formarray-implementation-ce09cec51b01"
 isUpdated: true
 ---
-
-
-
-
-
 
 <img src="/assets/img/2024-07-10-AStep-by-StepTutorialonAngularFormArrayImplementation_0.png" />
 
@@ -24,8 +19,18 @@ Angular의 FormArray는 Angular 애플리케이션에서 동적 폼을 관리하
 
 # 1.1 Reactive Forms 소개
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Angular은 두 종류의 양식을 제공합니다: 템플릿 기반 양식과 반응형 양식. 반응형 양식은 더 견고하고 더 나은 제어를 제공하여 복잡한 상황에 적합합니다. 반응형 양식은 FormGroup 및 FormControl 클래스를 중심으로 구축되며 FormArray는 이러한 클래스들의 확장으로, 동적 양식 컨트롤을 다루기 위해 설계되었습니다.
 
@@ -35,7 +40,18 @@ FormArray는 양식 컨트롤의 수가 가변적인 양식을 처리할 때 필
 
 # 섹션 2: Angular 프로젝트 설정하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2.1 Angular CLI 설치하기
 
@@ -47,7 +63,18 @@ npm install -g @angular/cli
 
 # 2.2 새로운 Angular 프로젝트 생성하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Angular CLI를 사용하여 새로운 Angular 프로젝트를 생성해보겠습니다:
 
@@ -60,7 +87,18 @@ cd angular-form-array-tutorial
 
 # 3.1 컴포넌트 생성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 정리를 위해 새로운 form 컴포넌트를 생성해보겠습니다:
 
@@ -72,7 +110,18 @@ ng generate component form-array-example
 
 form-array-example.component.ts 파일을 열고 필요한 모듈을 import하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // form-array-example.component.ts
@@ -114,7 +163,18 @@ export class FormArrayExampleComponent implements OnInit {
 </form>
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 섹션 4: 동적으로 양식 컨트롤 추가하기
 
@@ -140,7 +200,18 @@ get items() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4.2 HTML에 버튼 추가하기
 
@@ -154,7 +225,18 @@ get items() {
 
 # 4.3 폼 컨트롤 커스터마이징하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 addItem 메서드를 확장하여 양식 컨트롤을 사용자 정의하실 수 있습니다. 예를 들어, `name`과 `quantity` 필드에 유효성 검사를 추가해보겠습니다:
 
@@ -176,7 +258,18 @@ addItem() {
 
 # 섹션 5: FormArray 유효성 검사
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 5.1 Validation의 중요성
 
@@ -198,7 +291,18 @@ addItem() {
 
 ## 5.2 유효성 규칙 사용자 정의하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특정 요구 사항에 맞게 검증 규칙을 맞춤화하세요. Validators.required 및 Validators.min과 같은 유효성 검사기는 단순한 예시일 뿐입니다. 필요에 맞게 더 복잡한 유효성 검사 논리를 추가할 수 있습니다.
 
@@ -208,7 +312,18 @@ addItem() {
 
 실제 상황에서는 각 항목이 하위 항목 목록을 가진 중첩 FormArrays가 필요한 경우가 발생할 수 있습니다. 예를 들어, 각 항목에는 하위 항목 목록이 있을 수 있습니다. 우리의 예제에 중첩 FormArray를 포함하여 확장해 봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // form-array-example.component.ts
@@ -263,7 +378,18 @@ HTML에서 중첩된 FormArray를 수용할 수 있도록 구조를 업데이트
 </div>
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 Angular FormArray 구현에 대한 심층적인 튜토리얼을 마치겠습니다. 리액티브 폼을 설정하는 방법을 배웠습니다.
 
@@ -273,7 +399,18 @@ HTML에서 중첩된 FormArray를 수용할 수 있도록 구조를 업데이트
 
 구독을 잊지 마세요⭐️
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 페이스북 페이지: [DesignTechWorld](https://www.facebook.com/designTechWorld1)
 

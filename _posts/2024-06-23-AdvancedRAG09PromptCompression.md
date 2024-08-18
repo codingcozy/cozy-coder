@@ -3,17 +3,13 @@ title: "최신 RAG 09 프롬프트 압축 전문 가이드"
 description: ""
 coverImage: "/assets/img/2024-06-23-AdvancedRAG09PromptCompression_0.png"
 date: 2024-06-23 19:03
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-AdvancedRAG09PromptCompression_0.png
 tag: Tech
 originalTitle: "Advanced RAG 09: Prompt Compression"
 link: "https://medium.com/ai-advances/advanced-rag-09-prompt-compression-95a589f7b554"
 isUpdated: true
 ---
-
-
-
-
 
 RAG 프로세스에서는 두 가지 문제가 발생할 수 있습니다:
 
@@ -24,7 +20,18 @@ LLM을 위한 프롬프트 압축은 이러한 문제를 해결하기 위한 방
 
 <img src="/assets/img/2024-06-23-AdvancedRAG09PromptCompression_0.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 알아두면 좋은 점은 그림 1의 보라색 점선에 표시된 대로 일부 압축기는 검색된 컨텍스트에 직접적으로 적용될 수도 있다는 것입니다.
 
@@ -37,7 +44,18 @@ LLM을 위한 프롬프트 압축은 이러한 문제를 해결하기 위한 방
 
 4번째 유형의 방법이 ViT나 BERT와 같은 작은 모델을 위해 처음 제안되었으므로, 이 기사에서는 첫 세 가지 방법 유형의 대표적 알고리즘 원리를 소개하겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 선택적 콘텍스트
 
@@ -47,7 +65,18 @@ Figure 2에서는 LLMs가 전체 콘텍스트나 완전한 대화 기록을 요�
 
 <img src="/assets/img/2024-06-23-AdvancedRAG09PromptCompression_1.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러므로 성능을 저해하지 않고 덜 유익한 콘텐츠를 걸러내어 문맥 길이를 최적화하는 것이 가능합니다. 이것이 선택적 문맥(Selective Context)의 중요한 통찰입니다.
 
@@ -57,7 +86,18 @@ Figure 2에서는 LLMs가 전체 콘텍스트나 완전한 대화 기록을 요�
 
 선택적 문맥은 콘텐츠의 품질을 평가하기 위해 자기 정보를 활용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자기 정보는 정보 이론에서 중요한 개념으로 놀람 또는 정보 내용이라고도 합니다. 이것은 이벤트에 의해 전달되는 정보량을 측정합니다. 토큰의 음의 로그 우도로 정의됩니다:
 
@@ -67,7 +107,18 @@ Figure 2에서는 LLMs가 전체 콘텍스트나 완전한 대화 기록을 요�
 
 정보 이론에서 자기 정보는 이벤트와 관련된 놀라움 또는 불확실성의 수준을 측정합니다. 더 많은 정보를 전달하는 드문 이벤트는 더 높은 자기 정보를 가지고 있습니다. 반대로, 덜 많은 정보를 전달하는 일반적인 이벤트는 더 낮은 자기 정보를 가지고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 알고리즘
 
@@ -76,13 +127,24 @@ Figure 2에서는 LLMs가 전체 콘텍스트나 완전한 대화 기록을 요�
 먼저, 해당 파이썬 라이브러리를 설치하고 Spacy 모델을 다운로드하여 환경을 설정합니다.
 
 ```js
-(base) Florian:~ Florian$ conda create -n "selective_context" python=3.10 
+(base) Florian:~ Florian$ conda create -n "selective_context" python=3.10
 (base) Florian:~ Florian$ conda activate selective_context
 (selective_context) Florian:~ Florian$ pip install selective-context
 (selective_context) Florian:~ Florian$ python -m spacy download en_core_web_sm
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 설치가 완료되면 버전은 다음과 같습니다:
 
@@ -104,7 +166,18 @@ context, reduced_content = sc(text)
 # context_ratio, reduced_content_ratio = sc(text, reduce_ratio = 0.5)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째 실행은 GPT-2 모델을 다운로드할 것인데, 해당 모델은 대략 500MB의 크기를 가지고 있어요. 테스트 코드의 결과는 아래 그림 3에 나와 있어요.
 
@@ -137,7 +210,18 @@ class SelectiveContext:
         return context, masked_sents
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 코드는 주로 세 가지 단계로 구성되어 있습니다:
 
@@ -149,10 +233,20 @@ class SelectiveContext:
 
 각 토큰 xi를 나타내는 문맥 C = x0, x1, …, xn이 주어졌을 때, 우리는 각 토큰 xi의 자기 정보를 계산하기 위해 인과 언어 모델(GPT-2, OPT, LLaMA 등)을 사용합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 Markdown 형식으로 표시된 코드입니다:
-
 
 ![이미지](/assets/img/2024-06-23-AdvancedRAG09PromptCompression_4.png)
 
@@ -161,12 +255,21 @@ class SelectiveContext:
 ```python
 class SelectiveContext:
     ...
-    ...    
+    ...
     def _get_self_info_via_gpt2(self, text: str) -> Tuple[List[str], List[float]]:
         if self.lang == 'en':
             text = f"
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 노드 수준에서 선택적인 콘텍스트 필터링을 직접 수행하면 일관성 없는 콘텍스트가 발생할 수 있습니다. 예를 들어 원래 프롬프트에 있는 "2009"는 "209"로 압축될 수 있습니다.
 
@@ -176,7 +279,16 @@ class SelectiveContext:
 
 ![이미지](/assets/img/2024-06-23-AdvancedRAG09PromptCompression_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 코드는 다음과 같습니다. 특정 변수에 대한 디버깅 정보가 추가되었습니다:
 
@@ -204,7 +316,7 @@ class SelectiveContext:
 
                 ipdb> self_info
                 [7.514791011810303, 1.632637619972229, 0.024813441559672356, 0.006853647995740175, 12.09920597076416, 2.1144468784332275, 9.457701683044434, 2.4503376483917236, 10.236454963684082, 0.8689146041870117, 5.269547939300537, 4.641763210296631, 0.22138957679271698, 0.010370315983891487, 10.071824073791504, 0.6905602216720581, 0.01698811538517475, 1.5882389545440674, 0.4495090842247009, 0.45371606945991516, 6.932497978210449, 6.087430477142334, 3.66465425491333, 3.3969509601593018, 7.337691307067871, 5.881226539611816, 1.7340556383132935, 4.599822521209717, 6.482723236083984, 4.045308589935303, 4.762691497802734, 0.213468670845
-                
+
                 sent_self_info.append(np.mean(self_info))
 
                 all_tokens.extend(tokens)
@@ -214,15 +326,15 @@ class SelectiveContext:
                 '''
                 ipdb> noun_phrases
                 ['INTRODUCTION Continual Learning', ' (', ' CL', ' )', ',', ' also', ' known', ' as', ' Lifelong Learning', ',', ' is', ' a promising learning paradigm', ' to', ' design', ' models', ' that', ' have', ' to', ' learn', ' how', ' to', ' perform', ' multiple tasks', ' across', ' different environments', ' over', ' their lifetime', ' [', 'To', ' uniform', ' the language', ' and', ' enhance', ' the readability', ' of', ' the paper', ' we', ' adopt', ' the unique term continual learning', ' (', ' CL', ' )', '.', ']', '.']
-                
+
                 ipdb> noun_phrases_info
                 [4.692921464797109, 2.4503376483917236, 10.236454963684082, 0.8689146041870117, 5.269547939300537, 4.641763210296631, 0.22138957679271698, 0.010370315983891487, 3.5931241369495788, 1.5882389545440674, 0.4495090842247009, 4.284574694931507, 3.3969509601593018, 7.337691307067871, 5.881226539611816, 1.7340556383132935, 4.599822521209717, 6.482723236083984, 4.045308589935303, 4.762691497802734, 0.2134686708
-                
+
                 if all_noun_phrases:
                     noun_phrases[0] = f" {noun_phrases[0]}"
                 all_noun_phrases.extend(noun_phrases)
                 all_noun_phrases_info.extend(noun_phrases_info)
-            
+
             return [
                 LexicalUnits('sent', text=sents, self_info=sent_self_info),
                 LexicalUnits('phrase', text=all_noun_phrases, self_info=all_noun_phrases_info),
@@ -233,7 +345,16 @@ Step 3: 선택적 정보 컨텍스트 보존
 
 각 어휘 단위의 자가 정보를 계산한 후, 정보성이 어떻게 평가될 수 있는지에 대한 의문이 생깁니다. 논문은 가장 정보가 많은 콘텐츠를 선택하기 위해 백분위 기반 필터링 접근 방식을 제안합니다. 이는 고정된 임계값을 사용하거나 상위 k개 어휘 단위를 고정하는 것보다 바람직합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 자기 정보 값에 따라 용어를 내림차순으로 정렬합니다. 그런 다음, 모든 용어의 자기 정보 값에 대한 p-백분위수를 계산합니다. 그런 다음, 자기 정보 값이 p-백분위수 이상인 용어를 선택적으로 유지합니다.
 
@@ -247,7 +368,7 @@ class SelectiveContext:
         # mask_level: 문장, 구, 또는 토큰을 가리는 이등급
         sents_after_mask = []
         masked_sents = []
-                
+
         self.ppl_threshold = np.nanpercentile(self_info, self.mask_ratio * 100)
 
         # if title is not None:
@@ -265,12 +386,21 @@ class SelectiveContext:
             else:
                 sents_after_mask.append(sent)
         masked_context = " ".join(sents_after_mask) if mask_level == 'sent' else "".join(sents_after_mask)
-        
+
         return masked_context, masked_sents
 
 # LLMLingua
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 개요
 
@@ -278,7 +408,16 @@ LLMLingua는 선택적 컨텍스트가 종종 압축된 콘텐츠 간의 상호 
 
 특히, 그림 4에 나와 있는 것처럼 LLMLingua는 예시, 데모 및 질문과 같은 원래 프롬프트의 다양한 구성 요소에 동적으로 다른 압축 비율을 할당하기 위해 예산 컨트롤러를 사용합니다. 또한 LLMLingua는 시멘틱 무결성을 유지하기 위해 고약간의, 데모 수준의 압축을 수행하여 심하게 압축된 비율에서도 유지합니다. 또한 LLMLingua는 세분화된 프롬프트 압축을 위해 토큰 레벨 반복 알고리즘을 도입합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비교적으로 Selective Context에 비해 LLMLingua는 조건적 의존성을 고려하면서 프롬프트의 핵심 정보를 더 효과적으로 유지할 수 있습니다. 이를 통해 프롬프트를 20배 압축할 수 있습니다.
 
@@ -288,7 +427,16 @@ LLMLingua는 선택적 컨텍스트가 종종 압축된 콘텐츠 간의 상호 
 
 프롬프트의 다양한 섹션은 압축에 대해 다른 민감도를 가지고 있습니다. 예를 들어, 지시사항과 질문은 민감하며, 시연은 민감하지 않습니다. 예산 컨트롤러는 지시사항과 질문에 낮은 압축 비율을 할당하여 필수 정보를 보존하는 역할을 합니다. 반면, 시연에는 중복 정보를 제거하기 위해 더 높은 압축 비율을 할당할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예산 컨트롤러 알고리즘이 그림 5에 표시되어 있습니다:
 
@@ -302,7 +450,16 @@ LLMLingua는 선택적 컨텍스트가 종종 압축된 콘텐츠 간의 상호 
 - 𝜏_dems: 데모에 대한 압축률로, 목표 전체 압축률 𝜏 및 지시사항과 질문에 대한 사전 정의된 압축률인 𝜏_ins 및 𝜏_que가 포함됩니다.
 - D: 이 집합에는 압축된 데모가 포함됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 메인 프로세스는 다음과 같습니다:
 
@@ -317,7 +474,16 @@ LLMLingua는 선택적 컨텍스트가 종종 압축된 콘텐츠 간의 상호 
 
 관련 코드는 control_context_budget 함수에 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 반복 토큰 수준 프롬프트 압축 (ITPC)
 
@@ -327,7 +493,16 @@ LLMLingua는 선택적 컨텍스트가 종종 압축된 콘텐츠 간의 상호 
 
 이러한 간과로 압축 프로세스 중에 중요한 정보의 손실이 발생할 수 있습니다. 예를 들어, 고률 압축에서, 토큰이 맥락에서 중요한 추론 단계 또는 논리적 연결을 제공하는 경우, 해당 토큰을 이 퍼플렉시티에만 의존하여 보관할지 여부를 결정하면 불완전한 추론 프로세스로 이어질 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문제를 해결하기 위해 LLMLingua는 반복적인 토큰 수준 프롬프트 압축(ITPC) 알고리즘을 도입했습니다. 독립적인 확률에만 의존하는 대신, 이 방법은 프롬프트 압축 중 각 토큰의 중요성을 더 정확하게 평가합니다. 이를 위해 각 세그먼트를 반복적으로 처리하고 현재 컨텍스트 내에서 각 토큰의 조건부 확률을 고려합니다. 이 접근 방식은 토큰 간 종속성을 더 잘 보호하는 데 도움을 줍니다.
 
@@ -337,7 +512,16 @@ ITPC의 자세한 단계는 다음과 같습니다:
 
 이 과정을 통해 ITPC 알고리즘은 프롬프트의 길이를 효과적으로 압축하면서 프롬프트 의미의 무결성을 유지하여 LLM의 추론 비용을 줄일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **반복 압축 프롬프트 함수에 관련된 코드입니다.**
 
@@ -347,9 +531,19 @@ Figure 4에서는 명령어 튜닝 또한 LLMLingua에서 중요한 단계임을
 
 Figure 7은 명령어 튜닝의 단계를 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```
+
 ![Image](/assets/img/2024-06-23-AdvancedRAG09PromptCompression_9.png)
 
 ## 코드 데모
@@ -364,7 +558,18 @@ Figure 7은 명령어 튜닝의 단계를 보여줍니다.
 (llmlingua) Florian:~ Florian$ pip install llmlingua
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 설치된 버전은 다음과 같습니다:
 
@@ -386,7 +591,16 @@ llm_lingua = PromptCompressor()
 
 ## 또
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본 모델은 처음 실행할 때 다운로드됩니다. 또는 양자화된 모델을 사용할 수도 있습니다. 실행 결과는 아래 그림 8에서 확인할 수 있습니다:
 
@@ -396,7 +610,16 @@ llm_lingua = PromptCompressor()
 
 LLMLingua의 문제는 압축 프로세스 중에 사용자 질문을 고려하지 않아 관련 없는 정보를 유지할 수 있다는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LongLLMLingua는 사용자 질문을 압축 과정에 통합하여 이 문제를 해결하고자 합니다.
 
@@ -409,19 +632,39 @@ LongLLMLingua는 사용자 질문을 압축 과정에 통합하여 이 문제를
 - 동적 압축 비율
 - 서브시퀀스 복구 알고리즘
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 질문 인식 코어스 그래인드 압축
 
 LongLLMLingua는 다른 맥락 x^doc_k에 의존하는 질문 x^que의 엉킴도를 나타내기 위해 퍼플렉서티를 활용하는 것을 제안합니다. 제한적인 문장 x^restrict = "주어진 문서에서 이 질문에 대한 답변을 얻을 수 있다"는 x^que 뒤에 추가될 수 있습니다. 이 문장은 x^que와 x^doc_k 간의 연결을 강화시키며, 환각 효과를 줄이는 정규화 요소 역할을 합니다. 이는 다음과 같이 표현될 수 있습니다:
 
 ```
-<img src="/assets/img/2024-06-23-AdvancedRAG09PromptCompression_12.png" />
 
+<img src="/assets/img/2024-06-23-AdvancedRAG09PromptCompression_12.png" />
 
 왜 질문 x^que의 조건 아래 문서 수준의 퍼플렉서티를 계산하지 않는 걸까요? 이는 문서가 종종 관련 없는 정보를 많이 포함하기 때문입니다. x^que에 의존하더라도 전체 문서에 대해 계산된 퍼플렉서티 점수는 충분히 구분되지 않을 수 있으므로, 문서 수준의 압축에는 부적합한 측정 항목이 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 코드는 get_distance_longllmlingua 함수에서 찾을 수 있습니다.
 
@@ -431,7 +674,18 @@ LongLLMLingua는 대조적인 난해도 개념을 소개했습니다.
 
 ![이미지](/assets/img/2024-06-23-AdvancedRAG09PromptCompression_13.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 우리는 질문을 고려하지 않고 토큰의 수수께끼를 계산합니다. 이를 perplexity(x_i | x`i)로 표현합니다. 그런 다음, 우리는 질문을 포함하여 perplexity를 다시 측정합니다. 이 경우 perplexity(x_i | x^que, x`i)로 나타냅니다. 이는 질문 x^que가 주어졌을 때 토큰 x_i 이전의 모든 토큰을 보는 놀라움을 측정합니다.
 
@@ -441,7 +695,18 @@ LongLLMLingua는 대조적인 난해도 개념을 소개했습니다.
 
 Figure 10에 나와 있는 것처럼, 추론 과정에서 LLM은 주어의 시작과 끝에서 내용을 사용하는 경향이 있으며, 중간 내용은 무시합니다. 이 문제를 "Lost in the Middle(가운데에서 사라짐)"이라고 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-23-AdvancedRAG09PromptCompression_14.png" />
 
@@ -451,7 +716,18 @@ Figure 10은 관련 정보가 시작 부분에 위치할 때 LLM이 가장 잘 �
 
 ## 동적 압축 비율
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문서마다 중요 정보 밀도가 다르기 때문에, 질문과 관련이 더 많은 문서에는 더 많은 예산(즉, 더 낮은 압축 비율)을 할당해야 합니다.
 
@@ -461,8 +737,18 @@ LongLLMLingua는 굵은 압축에서 중요도 점수를 사용하여 미세한 
 
 LongLLMLingua는 적응적 할당을 위해 선형 스케줄러를 사용하며, 각 토큰 xi의 예산을 다음과 같이 정의할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-23-AdvancedRAG09PromptCompression_16.png)
 
@@ -472,8 +758,18 @@ LongLLMLingua는 적응적 할당을 위해 선형 스케줄러를 사용하며,
 
 ## 서브시퀀스 복구 알고리즘
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제11 그림에 나와 있듯이, 세밀한 토큰별 압축 과정에서 주요 엔티티의 일부 토큰이 폐기될 수 있습니다. 예를 들어, 원본 프롬프트의 "2009"는 "209"로 압축될 수 있고, "Wilhelm Conrad Rontgen"은 "Wilhelmgen"으로 압축될 수 있습니다.
 
@@ -483,7 +779,18 @@ LongLLMLingua는 LLM의 응답에서 원본 콘텐츠를 복구할 수 있는 �
 
 ![그림 2](/assets/img/2024-06-23-AdvancedRAG09PromptCompression_18.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본 프로세스는 다음 단계를 포함합니다:
 
@@ -495,7 +802,18 @@ LongLLMLingua는 LLM의 응답에서 원본 콘텐츠를 복구할 수 있는 �
 
 ## 코드 데모스트레이션
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 환경 설정 방법은 LLMLingua와 같습니다. 여기에 시험용 코드가 있습니다:
 
@@ -532,7 +850,18 @@ print(compressed_prompt)
 
 <img src="/assets/img/2024-06-23-AdvancedRAG09PromptCompression_19.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # AutoCompressor
 
@@ -542,7 +871,18 @@ print(compressed_prompt)
 
 ![이미지](/assets/img/2024-06-23-AdvancedRAG09PromptCompression_20.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Figure 14에는 AutoCompressor의 아키텍처가 나와 있습니다. AutoCompressor는 다음 단계에서 작동합니다:
 
@@ -555,7 +895,18 @@ Figure 14에는 AutoCompressor의 아키텍처가 나와 있습니다. AutoCompr
 
 AutoCompressor는 코드를 제공하고 있으며, 관심 있는 독자들은 시도해볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 import torch
@@ -599,8 +950,18 @@ LLMLingua-2는 LLaMa-7B와 같은 인과 언어 모델로부터 정보 엔트로
 
 (1) 정보 엔트로피를 결정하는 소형 언어 모델이 프롬프트 압축 목표와 일치하지 않습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 (2) 양방향 컨텍스트를 활용하지 않고 있어서, 빠른 압축을 위해 필요한 모든 정보를 포괄하지 못할 수 있습니다.
 
@@ -610,7 +971,18 @@ LLMLingua-2의 전체 아키텍처는 다음과 같이 그림 15에 나와 있�
 
 ![LLMLingua-2 Architecture](/assets/img/2024-06-23-AdvancedRAG09PromptCompression_21.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이슈 1을 해결하기 위해 LLMLingua-2는 데이터 증류 과정을 도입했습니다. 이 과정은 LLM에서 지식을 추출하여 중요 정보를 잃지 않으면서 프롬프트를 압축합니다. 동시에 추출형 텍스트 압축 데이터셋을 구축합니다. 이 데이터셋으로 훈련을 진행하면 작은 언어 모델이 프롬프트 압축에 효과적으로 정렬될 수 있습니다.
 
@@ -620,7 +992,18 @@ LLMLingua-2의 전체 아키텍처는 다음과 같이 그림 15에 나와 있�
 
 데이터 증류
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 정제는 GPT-4와 같은 대규모 언어 모델에서 지식을 추출하여 필수 정보를 잃지 않고 프롬프트를 효과적으로 압축하는 것을 의미합니다.
 
@@ -630,7 +1013,18 @@ LLMLingua-2에서는 Figure 16에 나와 있는 것처럼 주의 깊게 설계�
 
 <img src="/assets/img/2024-06-23-AdvancedRAG09PromptCompression_22.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그림 17에서 보듯이, GPT-4는 매우 긴 컨텍스트를 처리할 때 종종 높은 압축 비율을 적용합니다. 이는 긴 컨텍스트를 처리하는 능력이 제한되어 있기 때문일 수 있습니다. 이러한 공격적인 압축은 상당한 정보 손실로 이어지며, 후속 작업의 성능에 상당한 영향을 미칩니다.
 
@@ -640,7 +1034,18 @@ LLMLingua-2에서는 Figure 16에 나와 있는 것처럼 주의 깊게 설계�
 
 데이터 주석화
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 데이터 축소를 통해 원본 텍스트와 해당 압축 버전의 쌍을 확보하였습니다. 데이터 주석 작업의 목표는 원본 텍스트의 각 토큰에 이진 레이블을 할당하는 것입니다. 이는 압축 후 해당 토큰을 유지해야 하는지를 결정합니다.
 
@@ -650,7 +1055,18 @@ GPT-4가 지시에 엄격하게 따르지 않을 수 있기 때문에, LLMLingua
 
 LLMLingua-2는 GPT-4 축산 및 자동 주석 레이블의 생성된 압축 텍스트의 품질을 평가하기 위해 Variation Rate(VR) 및 Alignment Gap(AG) 두 개의 품질 제어 메트릭을 사용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Variation Rate은 압축된 텍스트와 원본 텍스트 중 다른 단어의 백분율을 측정합니다. Alignment Gap은 자동 주석 단어의 품질을 평가합니다.
 
@@ -660,7 +1076,18 @@ LLMLingua-2는 이러한 측정치를 사용하여 낮은 품질의 샘플을 �
 
 이진 분류 문제로 간주됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 처음에는 프롬프트 압축 문제를 이진 분류 문제로 변환할 수 있습니다. 기본 개념은 각 어휘 단위를 독립적인 엔티티로 고려하고 "유지(preserve)" 또는 "폐기(discard)" 라벨을 할당하는 것입니다. 이 방법은 압축된 프롬프트의 내용의 무결성을 보존하면서 모델의 설계를 간소화합니다.
 
@@ -670,7 +1097,18 @@ LLMLingua-2는 이러한 측정치를 사용하여 낮은 품질의 샘플을 �
 
 이 아키텍처는 각 어휘 단위의 양방향 컨텍스트 정보를 캡처하여 압축 작업에 필수적인 정보를 제공할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 압축 전략
 
@@ -682,7 +1120,18 @@ LLMLingua-2는 이러한 측정치를 사용하여 낮은 품질의 샘플을 �
 
 ## 코드
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에서 볼 수 있듯이, LLMLingua-2의 주요 작업은 압축기를 구축하는 것입니다. 그렇다면 한 번 획득한 압축기를 어떻게 활용할 수 있을까요?
 
@@ -716,8 +1165,18 @@ print(compressed_prompt)
 
 실행 결과는 다음과 같이 나타납니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-23-AdvancedRAG09PromptCompression_24.png)
 
@@ -727,9 +1186,18 @@ RECOMP은 추출 및 요약 두 가지 유형의 훈련된 압축기를 소개�
 
 Figure 19은 RECOMP에서 압축기의 위치를 보여줍니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-23-AdvancedRAG09PromptCompression_25.png" />
 
@@ -739,8 +1207,18 @@ Figure 19은 RECOMP에서 압축기의 위치를 보여줍니다.
 
 압축기에서 최종 요약 s는 입력과의 내적에 따라 순위가 매겨진 상위 N개의 문장으로 구성됩니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 추상 압축기
 
@@ -750,7 +1228,18 @@ Figure 19은 RECOMP에서 압축기의 위치를 보여줍니다.
 
 ## 코드
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 RECOMP의 코드는 아직 초기 단계에 있기 때문에 여기에서는 시연하지 않습니다. 관심 있는 독자들은 직접 시도해 볼 수 있습니다.
 
@@ -760,7 +1249,18 @@ RECOMP의 코드는 아직 초기 단계에 있기 때문에 여기에서는 시
 
 논의된 방법 중 LongLLMLingua가 우수한 선택일 수 있습니다. 이미 연구 프로젝트에서 구현하였습니다. LongLLMLingua의 단점이나 더 나은 방법이 발견되면 기사를 업데이트하겠습니다. 또한, LLMLingua-2도 시도해볼 수 있으며, 속도와 메모리 사용에 이점을 가지고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 RAG 기술에 관심이 있다면, 제 다른 기사들도 확인해보세요.
 

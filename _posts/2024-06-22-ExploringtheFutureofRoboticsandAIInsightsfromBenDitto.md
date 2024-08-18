@@ -3,17 +3,13 @@ title: "벤 디토가 전하는 2024년 로봇공학과 AI의 미래 전망"
 description: ""
 coverImage: "/assets/img/2024-06-22-ExploringtheFutureofRoboticsandAIInsightsfromBenDitto_0.png"
 date: 2024-06-22 19:36
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-ExploringtheFutureofRoboticsandAIInsightsfromBenDitto_0.png
 tag: Tech
 originalTitle: "Exploring the Future of Robotics and AI: Insights from Ben Ditto"
 link: "https://medium.com/@singularitynetambassadors/exploring-the-future-of-robotics-and-ai-insights-from-ben-ditto-81b6af7229d9"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-22-ExploringtheFutureofRoboticsandAIInsightsfromBenDitto_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 주인공 Lisa Rein은 Ben Ditto를 소개하면서 그의 다채로운 포트폴리오에 스며든 독특한 신비한 감각을 인정합니다. 대화가 펼쳐지며, Ditto의 창의적 추구가 전통적 매체에 국한되지 않고 첨단 기술 영역까지 확장된다는 것이 분명해집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 로봇에 개성 부여의 복잡성
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 디토는 로봇공학의 매혹적이고 어려운 풍경을 더 탐험하며, 구현 상의 단순함과 복잡성을 강조합니다. 그는 숙련된 전문가들과 협력하는 열정을 강조하면서, 분야에서 선도적인 발전을 추구하는 집단의 노력을 강조하며, 로봇이 우리의 일상 속에 자연스럽게 통합되는 미래를 시사합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Exploring the Future of Robotics and AI Insights from Ben Ditto](/assets/img/2024-06-22-ExploringtheFutureofRoboticsandAIInsightsfromBenDitto_1.png)
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 벤 디토는 인간형 로봇 데스데모나와의 작업을 통해 내부 및 외부 시각 사이의 조화, 그리고 공동 인지와 감정 개념과의 연결에 대해 이야기합니다. 그는 로봇의 성격 시스템이 인지와 성격 이론에 기반하며, 외부 환경을 이해하는 데 있어 최대한의 이해도를 달성하기 위해 조절될 수 있음을 설명하며 사람들이 그 로봇을 어떻게 보는지에 영향을 줄 수 있다고 설명합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 딧토는 인공지능과 로봇 과학의 맥락에서 인지, 언어, 기억의 복잡성을 더 자세히 파고들고 있습니다. 그는 감정 상태가 기억 접근에 미치는 중요한 영향에 주목합니다 - 이는 인간의 경험을 반영하는데, 이러한 영향을 로봇 시스템에 통합함으로써 만난 경험의 감정적 맥락에 따라 컴퓨터가 이를 기억하거나 잊을 수 있는 미래를 상상합니다.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 대화는 딧토가 정신적 매개변수를 조정하는 것에 내재된 윤리적 딜레마에 대한 사고를 전개하면서 더욱 생각해 보게 합니다. 그는 유익한 결과를 확보하기 위한 필요성을 인지하면서 이러한 복잡성을 탐험하기 위해 개방적인 소통과 상호이해를 옹호합니다. 그는 또한 향수의 개념에 대해 이야기하며, 나쁜 기억이 좋은 기억보다 빨리 사라진다는 생각을 제안하고, 이 아이디어가 로봇에도 적용될 수 있다고 언급합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 디토는 혁신적 기술의 혁명적 가능성에 대한 완전한 열광으로 프로그램 전반에 걸쳐 모든 대화를 뒤덮고 있어요. 디토의 관찰은 인공지능이 인간 간 상호 작용에 미치는 영향부터 AI 기술이 제기하는 도덕적 문제까지 사회에 미치는 중요한 영향에 대해 심사숙고하게 만들어줘요.
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 그는 음악 비디오에서 증강 현실(AR)을 실험하는 과정과 AR 얼굴 기술이 미래의 예술 표현을 형성하는 데 미치는 광범위한 잠재력에 대한 통찰을 공유해요. 디토가 그림자 지체를 인식뿐만 아니라 인간들과도 깊은 수준에서 상호 작용하는 미래의 선구자인 Yaya Labs와 Desi와 같은 프로젝트를 언급하며 과학 소설이 현실과 융합되는 세계를 상상해요. 함께 그렇게 언급하면 열정이 넘쳐나요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Dr. Ben Goertzel은 사고과학의 영역으로 모험을 떠나 인식을 갖는 뇌 장기, 즉 초감각 및 선지능을 부여하는 가능성에 대해 고찰하고 있습니다. 확고한 낙관주의로, 그는 이러한 뇌 장기가 극도로 짧은 시간 내에 등장할 것으로 예측하며, 기술적 진보가 인간 인지에 대한 우리의 이해를 형태를 변화시키고 있다는 점을 강조합니다.
 
@@ -73,7 +124,18 @@ Dr. Ben Goertzel은 사고과학의 영역으로 모험을 떠나 인식을 갖�
 
 그는 자신의 다큐멘터리 시리즈에서 3D 프린팅 총에 대해 탐구한 선택에 대해 이야기하며, 이 기술이 사회, 특히 총 소유와 미국 제2 수정에 어떻게 영향을 미쳤는지 밝히고 있습니다. 디토는 3D 프린팅의 혁신적 잠재력을 명확히 하며, 기술이 문화적 서사와 정치적 논쟁에 어떻게 영향을 미치는지 강조합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 딧토는 유토피아적인 아이디어 및 인공지능이 사회적 규범과 상호 작용하는 주제에 대해 다룹니다. 그는 월스트리트와 부유층이 암호화폐를 도입한 방식을 검토하며, 도덕을 고려하지 않고 기술적인 유토피아를 추구하는 것에 대해 경고합니다.
 
@@ -83,7 +145,18 @@ Dr. Ben Goertzel은 사고과학의 영역으로 모험을 떠나 인식을 갖�
 
 벤 딧토는 기술과 컴퓨터가 사람들의 정신 건강을 돕는 데 사용되는 것에 대해 논의합니다. 그는 기술이 유용할 수 있다고 믿지만, 치료와 치료에 관련하여 실제 인간적인 연결과 관계에 집중하는 것이 매우 중요하다고 생각합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 디토는 정서적인 문제를 치료하기 위해 흔히 사용되는 약물과 인지행동요법(CBT)이라는 특정 요법에 대한 의존을 도전합니다.
 
@@ -93,7 +166,18 @@ Dr. Ben Goertzel은 사고과학의 영역으로 모험을 떠나 인식을 갖�
 
 ## 자폐증과 신경다양성의 복잡성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 벤 디토는 우리가 자폐증을 어떻게 이해하며 어떻게 사람들에게 영향을 미치는지에 대해 이야기합니다. 그는 자폐증을 정의하는 방식이 시간이 지남에 따라 많이 변화되었으며, 이로 인해 더 많은 사람들이 진단을 받게 되었다고 믿습니다.
 
@@ -103,7 +187,18 @@ Dr. Ben Goertzel은 사고과학의 영역으로 모험을 떠나 인식을 갖�
 
 벤 디토는 자폐증과 자폐 스펙트럼 장애에 대한 개념에 대해 논의하며, 정의의 확장이 진단의 크게 증가와 매년 490억 달러 규모의 수익을 창출하는 산업을 만들어냈다고 주장합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그는 스펙트럼 상의 개인들에게 본질적으로 잘못된 것이 있는 것이 아니라 많은 사람들에게 이윤을 가져다주는 구조물로 여겨진다고 제안합니다. Ditto는 단일 "스펙트럼" 개념을 비판하며, 대신 신경다양성을 인간의 자연스러운 부분으로 보며, 각각의 개인이 다른 학습 스타일과 능력을 갖고 있다고 생각합니다.
 
@@ -113,7 +208,18 @@ Dr. Ben Goertzel은 사고과학의 영역으로 모험을 떠나 인식을 갖�
 
 촬영의 주제임에도 불구하고, Ditto는 포토그래퍼 Matas Porto가 아이디어를 개념화한 데 공로가 있었다고 평가하며, 예술적 노력의 협업적인 성격을 강조합니다. 촬영의 다양한 문화적 해석에 대해 되새기며, Ditto는 지각의 세밀한 점과 오해의 가능성을 강조하며, 그림의 맥락에서 함께 일한 로봇 데시가 잘못 해석된 경우를 인용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 디토는 음악, 패션 및 로봇공학을 아우르는 다채로운 경력 궤적을 제공합니다. 벤 디토의 작품은 기술과 예술을 흥미로운 방식으로 결합합니다. 그는 창의적인 감독과 협력하며 가상 아바타와 증강 현실을 탐구하여 음악과 공연에서 새로운 경험을 만들어 냅니다. 가상 아바타와 작업하는 것은, 디토에게는 인간 유명인과 작업하는 것과 유사한데, 디지털 페르소나를 사용하여 예술 표현의 경계를 넓히는 데 사용합니다.
 
@@ -123,7 +229,18 @@ Dr. Ben Goertzel은 사고과학의 영역으로 모험을 떠나 인식을 갖�
 
 앞으로 바라보면, 디토는 음악가와의 협업부터 세계 투어 참여까지의 야망을 나눕니다. 그러나 그의 야망은 전통적인 예술적 추구를 넘어서는데, 그는 로봇 군대를 시작하여 "세련되게 세상을 지배하려"는 가능성을 장난스럽게 고찰합니다. 철학적인 변화 속에서, 디토는 이중성의 개념에 대해 사색하며, 자매는 같은 존재의 두 형상이라고 제안하여 재미있는 상상력과 심오한 철학적 탐구를 접목하는 그의 성향을 포착합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대화가 끝나면 청취자들은 Ditto의 창의성, 기술, 그리고 인간의 상태에 대한 확신 있는 시각으로 얽힌 통찰과 반성을 남게 됩니다. 끊임없이 변화하는 세계에서 Ben Ditto는 예술적 혁신의 초록불이로 나타나 우리에게 사회적 관행에 돑쳐들고 인간 표현의 무한한 잠재력을 환영하도록 동창합니다.
 
@@ -133,7 +250,18 @@ Dr. Ben Goertzel은 사고과학의 영역으로 모험을 떠나 인식을 갖�
 
 Mindplex 팟캐스트 팀은 이 흥미로운 세상에 대해 고민하고 배우는 것을 함께해보기를 당신을 초대합니다. 서로 이해하고 협력하여 선의의 싱귱러리를 만들어 나가는 도중의 모든 어려움의 진정한 본질을 파악하는 데 도움이 되기를 기대합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마인플렉스 팟캐스트와 마인플렉스 매거진은 싱귤래리티넷이 제공하는 마인플렉스 분산형 미디어 플랫폼의 일부입니다.
 

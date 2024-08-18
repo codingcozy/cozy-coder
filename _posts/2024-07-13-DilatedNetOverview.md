@@ -3,17 +3,13 @@ title: "DilatedNet 개요 최신 딥러닝 기술 집중 탐구"
 description: ""
 coverImage: "/it-bada.github.io/assets/no-image.jpg"
 date: 2024-07-13 22:45
-ogImage: 
+ogImage:
   url: /it-bada.github.io/assets/no-image.jpg
 tag: Tech
 originalTitle: "DilatedNet Overview"
 link: "https://medium.com/@zakhtar2020/dilatednet-overview-5ea4edaeaf0b"
 isUpdated: true
 ---
-
-
-
-
 
 **DilatedNet**은 시맨틱 세그멘테이션과 같은 밀도 예측 작업을 수행하기 위해 설계된 합성곱 신경망 구조로, 해상도와 맥락 정보를 향상시킴. DilatedNet의 핵심 아이디어는 해상도를 잃지 않으면서 네트워크의 수용 영역을 확장하기 위해 확장된(또는 희희한) 컨볼루션을 사용하여 더 많은 맥락을 캡처하면서 세부 사항을 유지한다는 것입니다.
 
@@ -23,7 +19,18 @@ DilatedNet은 Dilated Convolution을 활용하여 밀도 예측 작업에서 장
 
 주요 동기: 기존의 CNN은 풀링 및 스트라이드된 컨볼루션을 통해 특성 맵의 공간 해상도를 줄일 수 있지만 세부 정보를 잃을 수 있습니다. DilatedNet은 세밀한 예측의 정확성을 향상시키기 위해 큰 맥락을 포함하는 동시에 고 해상도를 유지하기 위해 확장된 컨볼루션을 사용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2. 아키텍처
 
@@ -33,7 +40,18 @@ DilatedNet은 Dilated Convolution을 활용하여 밀도 예측 작업에서 장
 
 확장된 합성곱 작동 원리: 확장된 합성곱에서는 가중치 사이에 공간을 삽입하여 실제 크기보다 큰 영역에 필터를 적용합니다. 확장 비율은 가중치의 간격을 결정합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 다중 스케일 컨텍스트
 
@@ -42,16 +60,25 @@ DilatedNet은 Dilated Convolution을 활용하여 밀도 예측 작업에서 장
 ### 전체적인 아키텍처
 
 1. **특징 추출**: 입력 이미지는 기본 CNN을 통해 고수준 특징 맵을 추출합니다.
-   
 2. **확장형 컨볼루션 레이어**: 특징 맵들은 다양한 확장률을 가진 여러 확장형 컨볼루션 레이어를 거쳐 다중 스케일 컨텍스트를 잡아냅니다.
-   
 3. **밀집 예측**: 출력된 특징 맵들은 픽셀별 분류와 같은 밀집 예측에 사용됩니다.
 
 ### 최종 컨볼루션 레이어
 
 🌟 최종 1x1 컨볼루션 레이어가 출력된 특징 맵에 적용되어 각 픽셀의 클래스 점수를 생성하며, 최종 분할 맵이 생성됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3. 주요 구성 요소 및 개념
 
@@ -61,7 +88,18 @@ DilatedNet은 Dilated Convolution을 활용하여 밀도 예측 작업에서 장
 
 다중 규모 맥락: DilatedNet은 서로 다른 확장률을 가진 확장된 합성곱을 사용하여 다중 규모 맥락을 포착합니다. 이 방법은 다양한 크기의 객체를 분할하고 복잡한 장면을 처리하는 능력을 향상시킵니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 고해상도 피처 맵: 풀링과 스트라이드 컨볼루션을 피함으로써 DilatedNet은 네트워크 전반에서 고해상도 피처 맵을 유지함으로써 세밀한 세부 사항을 보존하여 밀도 있는 예측 작업에 필수적인 정보를 보존합니다.
 
@@ -74,7 +112,18 @@ DilatedNet은 Dilated Convolution을 활용하여 밀도 예측 작업에서 장
 - 다중 스케일 피처 학습: Dilated 컨볼루션에서 다양한 확장 비율을 사용함으로써 네트워크가 다중 스케일 문맥을 포착하고 다양한 크기의 객체를 처리하는 능력을 향상시킵니다.
 - 유연성: DilatedNet은 다양한 밀도 있는 예측 작업에 적용할 수 있으며 다른 기본 CNN 아키텍처에서 확장하여 구축할 수 있어 컴퓨터 비전 응용 프로그램에 유연하게 활용할 수 있는 다목적 도구입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 5. 결론
 

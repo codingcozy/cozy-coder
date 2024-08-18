@@ -3,16 +3,13 @@ title: "LLM 애플리케이션 구축 LLM 서빙하기 파트 9"
 description: ""
 coverImage: "/assets/img/2024-05-27-BuildingLLMApplicationsServingLLMsPart9_0.png"
 date: 2024-05-27 14:36
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-BuildingLLMApplicationsServingLLMsPart9_0.png
 tag: Tech
 originalTitle: "Building LLM Applications: Serving LLMs (Part 9)"
 link: "https://medium.com/@vipra_singh/building-llm-applications-serving-llms-part-9-68baa19cef79"
 isUpdated: true
 ---
-
-
-
 
 대용량 언어 모델 (LLM)을 검색 보강 생성 (RAG) 애플리케이션을 통해 배워보세요.
 
@@ -31,7 +28,18 @@ isUpdated: true
 
 # 목차
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - LLM 로컬에서 실행하기
   - 오픈소스 LLM
@@ -96,8 +104,18 @@ LLM 서빙이 무엇을 포함하는지 살펴보겠습니다:
 - API 생성: 사용자가 LLM과 상호작용하고 쿼리를 보낼 수 있도록 응용 프로그램 프로그래밍 인터페이스 (API)가 생성됩니다.
 - 인프라 관리: 서빙 시스템은 다수의 사용자를 처리하고 지속적인 운영을 보장하기 위해 확장 가능하고 신뢰할 수 있어야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Building LLM Applications Serving LLMs Part 9 on 27th May 2024](/assets/img/2024-05-27-BuildingLLMApplicationsServingLLMsPart9_0.png)
 
@@ -107,8 +125,18 @@ LLM 서빙이 무엇을 포함하는지 살펴보겠습니다:
 
 PrivateGPT, llama.cpp, Ollama, GPT4All, llamafile 등 프로젝트의 인기는 로컬에서 LLM을 실행하는 수요를 보여줍니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최소 두 가지 중요한 이점이 있습니다:
 
@@ -120,7 +148,18 @@ PrivateGPT, llama.cpp, Ollama, GPT4All, llamafile 등 프로젝트의 인기는 
 - **오픈 소스 LLM**: 자유롭게 수정하고 공유할 수 있는 오픈 소스 LLM
 - **추론**: 우리의 장치에서 이 LLM을 실행할 수 있는 능력 및 적절한 지연 시간
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1.1. 오픈 소스 LLMs
 
@@ -131,7 +170,18 @@ PrivateGPT, llama.cpp, Ollama, GPT4All, llamafile 등 프로젝트의 인기는 
 - 베이스 모델: 베이스 모델은 무엇이며 어떻게 훈련되었습니까?
 - 파인 튜닝 접근: 베이스 모델이 파인 튜닝되었는지, 그렇다면 어떤 지침 세트를 사용했는지는 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "아래의 모델들의 상대 성능은 여러 리더보드를 통해 평가할 수 있습니다:
 
@@ -141,7 +191,18 @@ PrivateGPT, llama.cpp, Ollama, GPT4All, llamafile 등 프로젝트의 인기는 
 
 이를 지원하기 위해 몇 가지 프레임워크가 등장했습니다."
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - llama.cpp: 가중치 최적화 및 양자화가 구현된 llama 추론 코드의 C++ 버전
 - gpt4all: 추론을 위한 최적화된 C 백엔드
@@ -155,8 +216,18 @@ PrivateGPT, llama.cpp, Ollama, GPT4All, llamafile 등 프로젝트의 인기는 
 
 특히, 양자화의 중요성에 대해 이 훌륭한 게시물을 참조해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![LLM in memory](/assets/img/2024-05-27-BuildingLLMApplicationsServingLLMsPart9_2.png)
 
@@ -166,8 +237,18 @@ PrivateGPT, llama.cpp, Ollama, GPT4All, llamafile 등 프로젝트의 인기는 
 
 큰 GPU 메모리 대역폭으로 인해 Mac M2 Max는 추론시 M1보다 5~6배 빠릅니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-27-BuildingLLMApplicationsServingLLMsPart9_3.png" />
 
@@ -177,7 +258,18 @@ PrivateGPT, llama.cpp, Ollama, GPT4All, llamafile 등 프로젝트의 인기는 
 
 이제 몇 가지 (양자화) 표준을 통해 로컬 LLM을 어떻게로드할지 살펴보겠습니다. 샤딩, 양자화 및 다양한 저장 및 압축 전략을 사용하면 어떤 방법이 적합한지 알기 쉽지 않습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예제에서는 Direct Preference Optimization (DPO)으로 훈련된 Mistral 7B의 세부 조정된 변형인 Zephyr 7B를 사용합니다.
 
@@ -194,7 +286,18 @@ import torch
 torch.cuda.empty_cache()
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2.1. HuggingFace
 
@@ -208,7 +311,18 @@ LLM을 로드하는 가장 간단하고 베이닐라한 방법은 🤗 Transform
 !pip install accelerate bitsandbytes xformers
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 설치 후에는 다음 파이프라인을 사용하여 LLM을 쉽게 로드할 수 있습니다:
 
@@ -229,7 +343,18 @@ pipe = pipeline(
 
 LLM을 이 방법으로 로드하면 일반적으로 VRAM을 저장하거나 효율성을 높이기 위해 압축 기법을 사용하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리의 프롬프트를 생성하려면 먼저 필요한 템플릿을 만들어야 합니다. 다행히도, 채팅 템플릿이 하부 토크나이저에 저장되어 있다면, 이 작업은 자동으로 수행할 수 있습니다.
 
@@ -257,7 +382,18 @@ prompt = pipe.tokenizer.apply_chat_template(
 
 ![이미지](/assets/img/2024-05-27-BuildingLLMApplicationsServingLLMsPart9_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로, 우리는 답변을 생성하기 위해 LLM에 프롬프트를 전달할 수 있습니다:
 
@@ -270,7 +406,18 @@ print(outputs[0]["generated_text"]);
 
 네트워크를 확장하고 어휘를 풍부하게 만들어 봅시다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웃음 포인트가 조금 유치할 수도 있지만, LLMs는 어휘력을 향상시키기 위해 다른 모델과 네트워킹하는 데 관심이 많아요. 그래서 이 농담은 그들에게 안성맞춤이에요!
 
@@ -280,7 +427,18 @@ print(outputs[0]["generated_text"]);
 
 ## 2.2. LangChain
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다른 방법으로 LLM을 로컬에서 실행하는 방법은 LangChain을 사용하는 것입니다. LangChain은 AI 애플리케이션을 구축하기 위한 Python 프레임워크입니다. 지원하는 모델 중 하나 위에 AI 애플리케이션을 개발하기 위한 추상화와 미들웨어를 제공합니다. 예를 들어, 다음 코드는 microsoft/DialoGPT-medium 모델에 한 가지 질문을 하는 방법을 보여줍니다:
 
@@ -309,7 +467,18 @@ LangChain의 장점:
 - 모델 관리가 쉬움
 - AI 애플리케이션 개발에 유용한 유틸리티
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LangChain의 단점:
 
@@ -320,7 +489,18 @@ LangChain의 단점:
 
 Llama.cpp은 LLM을 위한 C 및 C++ 기반 추론 엔진으로, Apple 실리콘에 최적화되어 있으며 Meta의 Llama2 모델을 실행합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 번 저장소를 복제하고 프로젝트를 빌드한 후에는 다음 명령어를 사용하여 모델을 실행할 수 있습니다:
 
@@ -334,8 +514,18 @@ Llama.cpp의 장점:
 - Llama 7B와 같은 대규모 모델을 중소 규모의 하드웨어에서 지원합니다.
 - Llama.cpp를 통해 추론을 실행하면 다른 언어로 AI 애플리케이션을 빌드할 수 있는 바인딩을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Llama.cpp 단점:
 
@@ -346,8 +536,18 @@ Llama.cpp 단점:
 
 Llamafile은 Mozilla에서 개발한 LLMs를 실행하는 사용자 친화적인 대체 옵션을 제공합니다. Llamafile은 휴대성과 단일 파일 실행 파일을 생성할 수 있는 능력으로 유명합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 llamafile을 다운로드하고 GGUF 형식의 모델을 얻으면 다음과 같이 로컬 브라우저 세션을 시작할 수 있습니다:
 
@@ -360,7 +560,18 @@ Llamafile의 장점:
 - Llama.cpp와 동일한 속도 혜택
 - 모델이 포함된 단일 실행 파일을 빌드할 수 있음
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 세요. 팀 내 프로젝트를 관리할 때 표 형식을 사용할 수 있는 간단한 방법입니다.
 
@@ -373,11 +584,20 @@ Llamafile의 장점:
 
 Ollama는 Llama.cpp 및 Llamafile의 사용자 친화적인 대안입니다. 설치 가능한 실행 파일을 다운로드하여 컴퓨터에 서비스를 설치합니다. 설치한 후 터미널을 열어 다음을 실행하세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 $ ollama run llama2
-
 
 Ollama는 모델을 다운로드하고 대화형 세션을 시작합니다.
 
@@ -387,9 +607,18 @@ Ollama 장점:
 - Llama 및 vicuña 모델을 실행할 수 있습니다.
 - 속도가 정말 빠릅니다.
 
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Ollama 단점:
 
@@ -402,9 +631,18 @@ Ollama 단점:
 
 GPT4ALL은 직관적인 GUI를 갖춘 쉬운 데스크톱 애플리케이션입니다. 로컬 모델 실행을 지원하며 OpenAI와 API 키를 통한 연결을 제공합니다. 로컬 문서 처리를 위한 능력으로 개인 정보 보호를 보장하는 것이 특징입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-05-27-BuildingLLMApplicationsServingLLMsPart9_5.png)
 
@@ -415,9 +653,18 @@ Pros:
 
 Cons:
 
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 모델 선택이 제한적입니다.
 - 일부 모델은 상업적 이용 제한이 있을 수 있습니다.
@@ -428,7 +675,18 @@ Cons:
 
 각 샤드는 모델의 작은 부분을 포함하며 GPU 메모리 제약을 극복하기 위해 모델 가중치를 서로 다른 장치에 분산시켜줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기억나시나요? 이전에 압축 트릭을 사용하지 않았다고 말했던 것을요?
 
@@ -438,7 +696,18 @@ Cons:
 
 ![image](/assets/img/2024-05-27-BuildingLLMApplicationsServingLLMsPart9_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 직접 모델을 샤딩할 수 있지만, 일반적으로 양자화된 모델을 찾거나 직접 양자화하는 것이 좋습니다.
 
@@ -458,7 +727,18 @@ accelerator.save_model(
 )
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그게 다야! 우리가 모델을 2GB 대신 4GB 크기 조각으로 샤딩했기 때문에 더 적은 파일을 로드하기 위해 작성했습니다:
 
@@ -468,7 +748,18 @@ accelerator.save_model(
 
 LLM은 일련의 가중치와 활성화로 표현됩니다. 이러한 값들은 일반적으로 표준 32비트 부동 소수점(float32) 데이터 유형으로 표시됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비트 수는 표현할 수 있는 값의 개수에 관해 알려줍니다. Float32는 1.18e-38부터 3.4e38까지의 값을 표현할 수 있어서 꽤 많은 값들을 표현할 수 있어요! 비트 수가 낮을수록 표현할 수 있는 값의 수가 적어집니다.
 
@@ -478,7 +769,18 @@ LLM은 일련의 가중치와 활성화로 표현됩니다. 이러한 값들은 
 
 실제로는 이를 자주 볼 수 있는데요. 새로운 형식인 NF4(4비트-정규 부동소수점)라고 불리는 새로운 형식으로 많이 사용되는 것을 볼 수 있습니다. 이 데이터 유형은 대형 비트 데이터 타입을 효율적으로 표현하기 위해 몇 가지 특별한 기교를 사용합니다. 세 가지 단계로 구성됩니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 정규화: 모델의 가중치가 정규화되어 일정 범위 내에 가중치가 있는 것으로 예상됩니다. 이로써 더 효율적으로 더 일반적인 값들을 표현할 수 있습니다.
 - 양자화: 가중치는 4비트로 양자화됩니다. NF4에서는 정규화된 가중치에 대해 양자화 수준이 고르게 배치되어 원래 32비트 가중치를 효율적으로 표현합니다.
@@ -501,7 +803,18 @@ bnb_config = BitsAndBytesConfig(
 )
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 설정을 통해 우리는 어떤 양자화 수준을 원하는지 지정할 수 있습니다. 일반적으로, 우리는 가중치를 4비트 양자화로 표현하고 추론은 16비트에서 수행하고 싶습니다.
 
@@ -523,7 +836,18 @@ model = AutoModelForCausalLM.from_pretrained(
 pipe = pipeline(model=model, tokenizer=tokenizer, task='text-generation')
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로, 우리는 이전에 했던 것과 같은 프롬프트를 사용할 수 있습니다:
 
@@ -543,7 +867,18 @@ print(outputs[0]["generated_text"])
 
 양자화는 모델의 메모리 요구 사항을 줄이는 강력한 기술입니다. 동시에 성능이 유지됩니다. 더 작은 GPU를 사용하여 더 빠르게 로딩하고 사용하며 미세 조정할 수 있게 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2.9. 사전 양자화 (GPTQ vs. AWQ vs. GGUF)
 
@@ -551,7 +886,18 @@ print(outputs[0]["generated_text"])
 
 대신, 이러한 모델들은 이미 대부분 저희를 위해 샤딩되고 양자화되어 있어 사용할 준비가 되어 있습니다. 특히 HuggingFace의 사용자인 TheBloke는 저희가 사용할 수 있도록 다양한 양자화 작업을 수행합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금 이 글을 쓰는 시점에서, 그는 우리를 위해 2000개 이상의 양자화된 모델을 업로드했습니다!
 
@@ -561,7 +907,18 @@ GPTQ: GPT 모델을 위한 사후 훈련 양자화
 
 GPTQ는 주로 GPU 추론 및 성능에 중점을 둔 4비트 양자화를 위한 사후 훈련 양자화(PTQ) 방법입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 방법의 아이디어는 모든 가중치를 4비트 양자화로 압축하려고 시도하며 해당 가중치에 대한 평균 제곱 오차를 최소화합니다. 추론 중에는 성능을 향상시키기 위해 가중치를 동적으로 float16으로 복원하면서 메모리를 낮게 유지합니다.
 
@@ -574,7 +931,18 @@ pip install optimum
 pip install auto-gptq --extra-index-url https://huggingface.github.io/autogptq-index/whl/cu118/
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러면, 우리는 로드하고 싶은 모델인 "TheBloke/zephyr-7B-beta-GPTQ"로 이동할 수 있고 특정 리비전을 선택할 수 있어요.
 
@@ -586,7 +954,18 @@ pip install auto-gptq --extra-index-url https://huggingface.github.io/autogptq-i
 from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # LLM 및 토크나이저 로드
@@ -618,7 +997,18 @@ outputs = pipe(
 print(outputs[0]["generated_text"])
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 생성된 텍스트입니다:
 
@@ -628,7 +1018,18 @@ print(outputs[0]["generated_text"])
 
 GPTQ는 GPU 사용량을 최적화하기 때문에 가장 자주 사용되는 압축 방법이에요. GPU가 이러한 대규모 모델을 처리할 수 없다면, 우선 GPTQ로 시작하고 GGUF와 같은 CPU 중심 방법으로 전환하는 것이 좋아요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GGUF: GPT-Generated Unified Format
 
@@ -638,7 +1039,18 @@ GPT가 압축을 잘 수행하지만 GPU에 중점을 둔다는 점은 우리가
 
 일반적으로 추론을 위해 CPU를 사용하는 것보다 GPU를 사용하는 것이 더 느릴 수 있지만, CPU나 Apple 기기에서 모델을 실행하는 사람들에게 놀라운 형식입니다. 특히, Mistral 7B와 같이 더 작고 더 성능이 우수한 모델이 등장하고 있다는 것을 고려하면, GGUF 형식이 계속 사용될 수도 있겠죠!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GGUF를 사용하는 것은 ctransformers 패키지로 매우 간단합니다. 먼저 설치해야 합니다.
 
@@ -650,7 +1062,18 @@ pip install ctransformers[cuda]
 
 GPTQ와 마찬가지로 이러한 파일은 양자화 방법, 압축, 레벨, 모델의 크기 등을 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 4 비트 양자화에 중점을 둔 "zephyr-7b-beta.Q4_K_M.gguf"를 사용하고 있습니다:
 
@@ -676,7 +1099,18 @@ pipe = pipeline(model=model, tokenizer=tokenizer, task='text-generation')
 
 모델을 불러온 후 아래와 같이 프롬프트를 실행할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 처음 사용한 프롬프트를 그대로 사용할 것입니다.
@@ -690,7 +1124,18 @@ GGUF는 GPU가 부족한 상황에서 최신 GPU를 사용할 수 없을 때 CPU
 
 AWQ: 활성화 인식 가중치 양자화
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로운 형식인 AWQ(Activation-aware Weight Quantization)은 GPTQ와 비슷한 양자화 방법입니다. AWQ와 GPTQ는 여러 면에서 차이가 있지만 가장 중요한 점은 AWQ가 LLM(언어 모델)의 성능에 모든 가중치가 동등하게 중요하지 않다고 가정한다는 점입니다.
 
@@ -700,7 +1145,18 @@ AWQ: 활성화 인식 가중치 양자화
 
 이 방법은 여전히 상대적으로 새로운 것이며 GPTQ와 GGUF만큼 널리 채택되지 않았으므로 모든 이러한 방법이 공존할 수 있는지 여부를 지켜봐야 하는 것이 흥미롭습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AWQ에 대해서는, 적어도 내 경험상으로는, AWQ를 사용하는 가장 간단한 방법이었던 vLLM 패키지를 사용할 것입니다:
 
@@ -714,7 +1170,18 @@ vLLM을 사용하면 모델을 로드하고 사용하는 것이 쉬워집니다:
 from vllm import LLM, SamplingParams
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # LLM 로드하기
@@ -738,7 +1205,18 @@ print(output[0].outputs[0].text)
 
 이는 다음 출력을 제공합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비록 새로운 형식이지만 AWQ는 압축 속도와 품질로 인해 인기를 얻고 있어요!
 
@@ -748,7 +1226,18 @@ print(output[0].outputs[0].text)
 
 대규모 모델을 만들기 위해 트랜스포머 계층을 쌓는 것은 더 나은 정확도, 희소학습 능력, 그리고 다양한 언어 작업에서 거의 인간적인 능력을 얻게 됩니다. 이러한 기반 모델을 훈련하는 데 비용이 많이 들며, 추론 중에 메모리와 연산이 많이 필요할 수 있어요(반복 비용). 오늘날 가장 인기 있는 대형 언어 모델(Large Language Models, LLMs)은 수십억에서 수백억 개의 매개 변수에 도달할 수 있으며, 사용 사례에 따라 긴 입력(또는 문맥)을 수용해야 할 수도 있어요. 예를 들어, 검색 보강 생성(Retrieval-Augmented Generation, RAG) 파이프라인은 모델의 입력에 많은 정보를 추가하여 LLM이 처리해야 할 작업 양을 크게 늘립니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 게시물에서는 LLM 추론의 가장 긴급한 도전과 일부 실용적인 해결책에 대해 논의합니다. 독자들은 트랜스포머 아키텍처와 어텐션 메커니즘에 대한 기본적인 이해가 있어야 합니다. 우리는 다음 섹션에서 다루게 될 LLM 추론의 복잡성을 이해하는 것이 중요합니다.
 
@@ -758,7 +1247,18 @@ print(output[0].outputs[0].text)
 
 토큰은 모델이 처리하는 언어의 원자적 요소입니다. 하나의 토큰은 대략 네 개의 영어 문자와 같습니다. 자연어의 모든 입력은 모델에 입력되기 전에 토큰으로 변환됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 4.1. 입력 전처리 단계 또는 입력 처리
 
@@ -768,7 +1268,18 @@ print(output[0].outputs[0].text)
 
 디코딩 단계에서 LLM은 중지 기준이 충족될 때까지 한 번에 한 번씩 자기회귀적으로 출력 토큰을 생성합니다. 각 순차적 출력 토큰은 이전 반복의 출력 상태(키 및 값)를 알아야 합니다. 이는 전처리 단계에 비해 GPU 컴퓨팅 능력이 underutilized되는 행렬-벡터 연산과 유사합니다. 데이터(가중치, 키, 값, 활성화)가 메모리에서 GPU로 전송되는 속도가 지연시간을 지배하며, 실제 계산 속도보다 빠른지 아닌지에 상관이 없습니다. 다시 말해, 이는 메모리 바운드 연산입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 게시물에서 소개된 추론 도전 과제와 해당 솔루션들은 주로 이 디코딩 단계의 최적화에 관한 것입니다: 효율적인 어텐션 모듈, 키와 값을 효과적으로 관리하고 기타 사항들을 다룹니다.
 
@@ -778,7 +1289,18 @@ print(output[0].outputs[0].text)
 
 LLM 서빙의 중요한 측면 중 하나는 사용자 요청을 배치하는 것입니다. 새로운 요청마다 매개변수를 다시로드하는 대신, 효율적인 방법은 GPU로 매개변수를 한 번 로드한 후 가능한 한 많은 입력 시퀀스를 한꺼번에 처리하는 데 사용하는 것입니다. 이 방법은 서버 처리량을 높이고 계산 활용을 최적화할 뿐만 아니라 비용 효율성에 크게 기여합니다. 그러나 사용자 요청이 일정한 배치를 처리하기 전에 축적될 때처럼 단순한 접근 방식을 채택하는 것은 도전을 야기합니다. 이는 각 요청이 배치 내에서 다른 시간에 종료 토큰을 생성하도록 하므로, 배치의 계산 속도가 가장 긴 생성 시간으로 제한되어 사용자에게 원치 않는 대기 시간(지연)이 발생합니다. 시퀀스 간 완료 시간의 차이로 인해 GPU 활용도가 감소하면 배치를 통해 기대한 효율성 향상이 떨어질 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-27-BuildingLLMApplicationsServingLLMsPart9_9.png" />
 
@@ -788,7 +1310,18 @@ LLM 서빙의 중요한 측면 중 하나는 사용자 요청을 배치하는 �
 
 연속 배치는 LLM을 위해 특별히 설계된 일종의 배치 스케줄링 방법입니다. 동적 배치와 비교하면 배치 크기가 구성된 시간 임계값과 최대 배치 크기에 따라 동적으로 결정되는 것과 달리, 연속 배치는 새 요청이 현재 배치에 참여할 수 있게 하고, 현재 배치가 끝나기를 기다리는 대신 다음 디코더 주기에 새로운 요청이 현재 배치에 합류할 수 있게 합니다. LLM의 자기 회귀 생성 프로세스로 인해, 이 방법은 LLM에 쉽게 적용되며 모델의 처리량을 크게 증가시킵니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <div>
   <img src="/assets/img/2024-05-27-BuildingLLMApplicationsServingLLMsPart9_10.png" />
@@ -802,7 +1335,18 @@ LLM 서빙의 중요한 측면 중 하나는 사용자 요청을 배치하는 �
 - 사용자 요청 계산(KV 캐시)
 - 전체 배치 계산을 위한 공간이 필요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최적화 없이는 많은 공간을 차지해서 배치 크기를 축소해야 하고 따라서 처리량을 줄여야 하는 상황이 생깁니다. 하지만 우리는 높은 처리량을 원해요. 이것을 어떻게 최적화할까요? 메모리가 열쇠인 것 같아요.
 
@@ -812,7 +1356,18 @@ LLM 서빙의 중요한 측면 중 하나는 사용자 요청을 배치하는 �
 
 순환적인 연산을 최적화하기 위해 KV 캐싱 개념이 도입되었습니다. 이 방법은 디코더에 있는 이전에 계산된 K 및 V 텐서를 저장하고 이를 다음 반복에서 재사용하는 것을 목표로 합니다. 그러나 이 최적화 전략은 처리량을 높이려고 배치 크기가 큰 경우에 매우 중요한 메모리 공간을 늘리는 비용이 발생합니다. 예측 불가한 시퀀스 길이로 인해 도전이 증가하면서 전통적인 주의 메커니즘이 메모리 낭비로 이어지게 됩니다 - 조각화와 과다 할당으로 인해 60%에서 80%에 달할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 4.5. PagedAttention: 메모리 중심적인 해결책
 
@@ -822,7 +1377,18 @@ LLM 서빙의 중요한 측면 중 하나는 사용자 요청을 배치하는 �
 
 디코딩 단계를 위한 일반적인 최적화 방법 중 하나는 KV 캐싱입니다. 디코딩 단계는 각 시간 단계에서 단일 토큰을 생성하지만, 각 토큰은 이전 토큰들의 키 및 값 텐서에 종속됩니다(입력 토큰의 KV 텐서는 프리필에서 계산되며, 현재 시간 단계까지 계산된 모든 새로운 KV 텐서도 포함됩니다).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 모든 텐서를 각 시간 단계마다 모든 토큰에 대해 재계산하는 것을 피하기 위해 GPU 메모리에 캐시하는 것이 가능합니다. 매 반복마다 새 요소가 계산될 때마다, 단순히 실행 중인 캐시에 추가되어 다음 반복에 사용됩니다. 일부 구현에서는 모델의 각 레이어에 대해 하나의 KV 캐시가 있습니다.
 
@@ -832,7 +1398,18 @@ KV 캐싱과 PagedAttention에 대해 더 자세히 알아보려면 이 논문�
 
 ## 4.6.1. LLM 메모리 요구량
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실제로 GPU LLM 메모리 요구 사항의 두 가지 주요 원인은 모델 가중치와 KV 캐시입니다.
 
@@ -843,7 +1420,18 @@ KV 캐싱과 PagedAttention에 대해 더 자세히 알아보려면 이 논문�
 
 토큰 당 KV 캐시 크기(바이트) = 2 _ (num_layers) _ (num*heads * dim*head) * precision_in_bytes
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2의 첫 번째 요인은 K 및 V 행렬을 고려합니다. 일반적으로 (num_heads \* dim_head) 값은 transformer의 hidden_size (또는 모델의 차원, d_model)와 동일합니다. 이러한 모델 속성은 일반적으로 모델 카드나 관련 구성 파일에서 찾을 수 있습니다.
 
@@ -853,7 +1441,18 @@ KV 캐싱과 PagedAttention에 대해 더 자세히 알아보려면 이 논문�
 
 예를 들어, 16비트 정밀도에서 Llama 2 7B 모델과 배치 크기가 1일 때, KV 캐시의 크기는 1 _ 4096 _ 2 _ 32 _ 4096 \* 2 바이트가 됩니다. 이는 약 2GB입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 KV 캐시를 효율적으로 관리하는 것은 도전적인 일입니다. 배치 크기와 시퀀스 길이에 따른 선형적인 증가로 인해 메모리 요구 사항이 빠르게 확장될 수 있습니다. 결과적으로 제공할 수 있는 처리량을 제한하고 장기간 컨텍스트 입력에 대한 도전을 일으킬 수 있습니다. 이것이 이 게시물에 소개된 여러 최적화의 동기입니다.
 
@@ -863,7 +1462,18 @@ KV 캐시를 효율적으로 관리하는 것은 도전적인 일입니다. 배�
 
 데이터 병렬화도 자주 언급되는 기술이며 아래 나열된 다른 기술과 동일한 맥락에서 자주 언급됩니다. 여기서 모델의 가중치가 여러 장치로 복사되고 입력의 (전역) 배치 크기가 각 장치로 분할되어 마이크로배치로 처리됩니다. 이로써 더 큰 배치를 처리함으로써 전반적인 실행 시간을 줄일 수 있습니다. 그러나 이는 훈련 시간에 대한 최적화로서, 추론 중에는 덜 관련성이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 5.1. 파이프라인 병렬 처리
 
@@ -873,7 +1483,18 @@ KV 캐시를 효율적으로 관리하는 것은 도전적인 일입니다. 배�
 
 마이크로 배칭을 통해 일부 문제를 완화할 수 있습니다. 그림 2c에서 보여지는 것처럼, 입력의 전체 배치 크기를 서브 배치로 분할하여 하나씩 처리하고 그레이디언트는 마지막에 축적됩니다. Fn,m 및 Bn,m은 디바이스 n에서 마이크로배치 m에 대해 순방향 및 역방향 전파를 각각 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 . 이 방식은 파이프라인 버블의 크기를 줄이지만 완전히 제거하지는 않습니다.
 
@@ -883,8 +1504,18 @@ KV 캐시를 효율적으로 관리하는 것은 도전적인 일입니다. 배�
 
 텐서 병렬 처리는 모델의 개별 레이어를 더 작고 독립적인 계산 블록으로 분할(수평으로)하는 것을 포함합니다. 어텐션 블록과 다층 퍼셉트론(MLP) 레이어는 텐서 병렬 처리를 활용할 수 있는 트랜스포머의 주요 구성 요소입니다. 다중 헤드 어텐션 블록에서 각 헤드 또는 헤드 그룹은 서로 다른 장치에 할당되어 독립적으로 병렬적으로 계산될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Figure 3a](/assets/img/2024-05-27-BuildingLLMApplicationsServingLLMsPart9_13.png)
 
@@ -894,8 +1525,18 @@ KV 캐시를 효율적으로 관리하는 것은 도전적인 일입니다. 배�
 
 그림 3b는 셀프 어텐션 층에서의 두방향 텐서 병렬성의 예시입니다. 여러 어텐션 헤드는 본질적으로 병렬이며 장치 간에 분할될 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 5.3. 시퀀스 병렬성
 
@@ -905,7 +1546,18 @@ KV 캐시를 효율적으로 관리하는 것은 도전적인 일입니다. 배�
 
 ![이미지](/assets/img/2024-05-27-BuildingLLMApplicationsServingLLMsPart9_14.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모델 병렬화 기술은 상호 배타적이지 않으며 함께 사용할 수 있습니다. 이러한 기술들은 LLM의 규모를 조정하고 GPU 당 메모리 사용량을 줄이는 데 도움이 될 수 있지만, 주의 메커니즘을 위한 최적화 기술도 있습니다.
 
@@ -915,7 +1567,18 @@ KV 캐시를 효율적으로 관리하는 것은 도전적인 일입니다. 배�
 
 ## 6.1. 멀티 헤드 어텐션
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SDPA의 향상으로, 다양한 학습된 Q, K, 및 V 행렬의 투영과 함께 주의 층을 병렬로 여러 번 실행하면 모델이 서로 다른 위치의 다른 표현 공간에서 정보에 동시에 주의를 기울이도록 할 수 있습니다. 이러한 표현 공간은 독립적으로 학습되어 입력에서 서로 다른 위치에 대한 더 풍부한 이해를 제공합니다.
 
@@ -923,7 +1586,18 @@ SDPA의 향상으로, 다양한 학습된 Q, K, 및 V 행렬의 투영과 함께
 
 원본 작업에서 각 주의 헤드는 모델의 감소된 차원에서 작동합니다(예:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ) 병렬 어텐션 헤드를 사용할 때 가중치를 변경합니다. 이로 인해 계산 비용이 단일 헤드 어텐션과 유사해집니다.
 
@@ -933,7 +1607,18 @@ SDPA의 향상으로, 다양한 학습된 Q, K, 및 V 행렬의 투영과 함께
 
 MHA의 추론 최적화 중 한 가지인 Multi-query attention (MQA)은 Fast Transformer Decoding에서 제안된 것으로, 여러 개의 어텐션 헤드 사이에서 키(key)와 값(value)을 공유합니다. 쿼리 벡터는 여전히 이전과 같이 여러 번으로 분할되어 투영됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 MQA에서 수행되는 계산 양은 MHA와 동일하지만, 메모리에서 읽히는 데이터(키, 값) 양은 이전의 일부분입니다. 메모리 대역폭에 의해 제한될 때, 더 나은 계산 활용이 가능해집니다. 또한 이로 인해 메모리 내 KV-캐시 크기가 줄어들어 더 큰 배치 크기의 공간이 확보됩니다.
 
@@ -943,7 +1628,18 @@ MQA에서 수행되는 계산 양은 MHA와 동일하지만, 메모리에서 읽
 
 그룹 쿼리 어텐션(GQA)은 MHA와 MQA 사이의 균형을 유지하면서 키와 값을 몇 개의 쿼리 헤드 그룹에 투영함으로써 동작합니다(Figure 6). 각 그룹 내에서는 다중 쿼리 어텐션처럼 동작합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그림 6은 멀티 헤드 어텐션에 여러 개의 키-값 헤드를 보여줍니다(왼쪽). 그룹화된 쿼리 어텐션(가운데)은 하나 이상의 키-값 헤드를 가지지만 쿼리 헤드 수보다 적습니다. 이는 메모리 요구량과 모델 품질 사이의 균형을 이룬 것입니다. 멀티 쿼리 어텐션(오른쪽)은 메모리를 절약하는 데 도움이 되기 위해 단일 키-값 헤드를 가지고 있습니다.
 
@@ -951,7 +1647,18 @@ MHA로 초기에 학습된 모델은 일부 원본 학습 컴퓨트의 일부분
 
 MQA 및 GQA와 같은 최적화는 저장된 키-값 헤드의 수를 줄이는 방식으로 KV 캐시에 필요한 메모리를 줄이는 데 도움을 줍니다. 그러나 여전히 이 KV 캐시가 어떻게 관리되는지에 비효율성이 남아 있을 수 있습니다. 어텐션 모듈 자체를 최적화하는 것과는 다른 방식으로, 다음 섹션에서는 보다 효율적인 KV 캐시 관리 기술을 제시합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 6.4. 플래시 어텐션
 
@@ -961,7 +1668,18 @@ MQA 및 GQA와 같은 최적화는 저장된 키-값 헤드의 수를 줄이는 
 
 가장 인기 있는 퓨전 중 하나는 FlashAttention으로, IO-Awareness로 자세히 설명된 정확한 주의 알고리즘입니다. 정확한 주의란 표준 다중 헤드 주의와 수학적으로 동일하며(다중 쿼리 및 그룹화된 쿼리 주의에 사용 가능한 변형이 있습니다), 이미 존재하는 모델 아키텍처나 이미 학습된 모델에 수정 없이 교체 가능합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 I/O aware는 연산을 함께 퓨전할 때 이전에 논의한 일부 메모리 이동 비용을 고려하는 것을 의미합니다. 특히 FlashAttention은 "tiling"을 사용하여 최종 행렬의 작은 부분을 한꺼번에 완전히 계산하고 쓰기 때문에 전체 행렬에서 계산 일부를 순차적으로 수행하고 중간 값을 기록하는 대신 특정 부분을 계산합니다.
 
@@ -971,7 +1689,18 @@ Figure 7는 타일 형식의 FlashAttention 계산 패턴과 40 GB GPU에서의 
 
 ## 6.5. 페이징을 사용한 KV 캐시의 효율적인 관리
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가끔 KV 캐시는 입력의 크기가 예측하기 어려운 경우를 대비하여 정적으로 "과잉 할당"될 수 있습니다. (지원되는 시퀀스 길이) 예측할 수 없기 때문입니다. 예를 들어, 모델의 지원되는 최대 시퀀스 길이가 2,048이라면 요청에서 생성된 입력의 크기와 출력의 크기와 관계없이 2,048의 크기로 메모리에 예약됩니다. 이 공간은 연속적으로 할당될 수 있으며 종종 그 중 많은 부분이 사용되지 않아 메모리 낭비나 단편화를 야기할 수 있습니다. 이 예약된 공간은 요청의 수명 동안 사용됩니다.
 
@@ -981,7 +1710,18 @@ Figure 7는 타일 형식의 FlashAttention 계산 패턴과 40 GB GPU에서의 
 
 이러한 블록들은 필요한 경우 주의 계산 중에 블록 테이블을 사용하여 가져옵니다. 새로운 토큰이 생성될 때마다 새로운 블록이 할당됩니다. 이러한 블록의 크기는 고정되어 있어 서로 다른 요청이 서로 다른 할당을 필요로 할 때 발생하는 효율성 문제를 제거합니다. 이는 메모리 낭비를 크게 제한하여 더 큰 배치 크기(따라서 처리량)를 가능하게 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 7. 모델 최적화 기술
 
@@ -991,7 +1731,18 @@ Figure 7는 타일 형식의 FlashAttention 계산 패턴과 40 GB GPU에서의 
 
 양자화는 모델의 가중치와 활성화의 정밀도를 줄이는 과정입니다. 대부분의 모델은 32 또는 16비트의 정밀도로 훈련되며, 각 매개변수 및 활성화 요소는 32 또는 16비트의 메모리를 사용합니다. 그러나 대부분의 딥러닝 모델은 값 당 여덟 비트 이하로도 효과적으로 표현될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Figure 9은 양자화 방법 중 하나를 사용하여 값들의 분포를 보여줍니다. 이 경우, 반올림으로 일부 정밀도가 손실되고 클리핑으로 일부 동적 범위도 손실되어 값들을 훨씬 작은 형식으로 표현할 수 있게 됩니다.
 
@@ -999,7 +1750,18 @@ Figure 9은 양자화 방법 중 하나를 사용하여 값들의 분포를 보�
 
 LLM에 대한 여러 다양한 양자화 기술이 있으며 활성화, 가중치 또는 두 가지에서 정밀도를 줄입니다. 훈련 후 가중치는 고정되기 때문에 가중치를 양자화하는 것이 훨씬 간단합니다. 그러나 이 경우 활성화가 여전히 더 높은 정밀도를 유지하므로 일부 성능이 손실될 수 있습니다. GPU에는 INT8 및 FP16 수를 곱하는 전용 하드웨어가 없기 때문에 실제 연산을 위해 가중치를 더 높은 정밀도로 변환해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 활성화, 트랜스포머 블록 및 네트워크 레이어의 입력을 양자화하는 것도 가능하지만, 이는 고유의 도전과제가 있습니다. 활성화 벡터에는 종종 이상값이 포함되어 있어 동적 범위가 확대되고 낮은 정밀도로 이러한 값을 표현하는 것이 더 어려워집니다.
 
@@ -1009,7 +1771,18 @@ LLM에 대한 여러 다양한 양자화 기술이 있으며 활성화, 가중�
 
 양자화와 유사하게, 많은 딥러닝 모델이 희소화 또는 0에 가까운 특정 값들을 0으로 대체하는 것에 견고하다는 것이 입증되었습니다. 희소 행렬은 많은 요소가 0인 행렬입니다. 이들은 완전하고 밀도 있는 행렬보다 공간을 적게 차지하는 조밀한 형태로 표현될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![그림](/assets/img/2024-05-27-BuildingLLMApplicationsServingLLMsPart9_21.png)
 
@@ -1019,7 +1792,18 @@ LLM에 대한 여러 다양한 양자화 기술이 있으며 활성화, 가중�
 
 모델 크기를 줄이는 또 다른 접근 방법은 지식을 더 작은 모델로 이전하는 과정인 증류(distillation)를 통해 이루어집니다. 이 과정은 더 작은 모델(학생)을 훈련하여 더 큰 모델(선생)의 동작을 모방하도록 하는 것을 포함합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 성공적인 distilled 모델의 예로는 DistilBERT가 있습니다. DistilBERT는 BERT 모델을 40% 압축하여 속도를 60% 빠르게 유지하면서 원본의 97% 언어 이해 능력을 유지합니다.
 
@@ -1030,7 +1814,18 @@ LLM에서의 증류는 활발한 연구 분야이며, 일반적인 접근 방식
 
 도식 11은 지식 증류를 위한 일반적인 프레임워크를 보여줍니다. 교사의 logits는 소프트 타깃이며, 학생은 증류 손실을 사용하여 최적화합니다. 다른 증류 방법은 교사로부터 지식을 "증류"하기 위해 다른 손실 측도를 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-27-BuildingLLMApplicationsServingLLMsPart9_22.png)
 
@@ -1040,7 +1835,18 @@ LLM에서의 증류는 활발한 연구 분야이며, 일반적인 접근 방식
 
 # 8. 모델 서빙 기술
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모델 실행은 종종 메모리 대역폭에 제한을 받습니다. 특히, 가중치 부분에서 대역폭이 제한됩니다. 이전에 설명한 모든 모델 최적화를 적용한 후에도 메모리 제한을 받을 가능성이 여전히 높습니다. 그러므로 모델 가중치를 로드할 때 가능한 한 많이 처리하고 싶을 것입니다. 다시 말해, 병렬로 작업을 수행하려고 할 것입니다. 두 가지 접근 방식을 취할 수 있습니다:
 
@@ -1051,7 +1857,18 @@ LLM에서의 증류는 활발한 연구 분야이며, 일반적인 접근 방식
 
 LLM은 실제로 요청을 효과적으로 일괄 처리하기 어렵게 만들 수 있는 독특한 실행 특성을 갖고 있습니다. 단일 모델을 동시에 여러 가지 매우 다른 작업에 사용할 수 있습니다. 챗봇에서 간단한 질문-답변 응답부터 문서 요약 또는 긴 프로그램 코드 생성까지, 작업 부하는 출력이 몇 차례의 크기로 변동하는 매우 동적인 특성을 갖습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다양성 있는 특성은 신경망 서비스를 제공할 때 일괄 요청을 묶어 병렬로 실행하는 것이 어렵게 만들 수 있습니다. 이는 일부 요청이 다른 요청보다 훨씬 빨리 완료될 수 있다는 결과를 초래할 수 있습니다.
 
@@ -1061,7 +1878,18 @@ LLM은 실제로 요청을 효과적으로 일괄 처리하기 어렵게 만들 
 
 ## 8.2. 추론 생산화
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 speculative inference 또는 추정 추론으로도 알려진 이 방법은 LLM 실행을 병렬화하는 다른 방법입니다. 일반적으로 GPT 스타일의 대형 언어 모델은 텍스트를 토큰 단위로 생성하는 자기회귀 모델입니다.
 
@@ -1071,7 +1899,18 @@ speculative inference 또는 추정 추론으로도 알려진 이 방법은 LLM 
 
 ![예시 이미지](/assets/img/2024-05-27-BuildingLLMApplicationsServingLLMsPart9_23.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 추측 샘플링은 해법을 제공합니다. 이 방법의 기본 아이디어는 "더 저렴한" 프로세스를 사용하여 여러 토큰으로 이루어진 초안을 생성한 다음, 필요한 실행 단계에서 "추정" 컨텍스트로 사용할 수 있는 저렴한 초안을 사용하여 본 "검증" 모델을 병렬로 여러 단계에서 실행하는 것입니다.
 
@@ -1081,7 +1920,18 @@ speculative inference 또는 추정 추론으로도 알려진 이 방법은 LLM 
 
 # 9. LLM 제공을 위한 중요한 메트릭
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그렇다면 추론 속도에 대해 어떻게 생각해야 할까요?
 
@@ -1094,19 +1944,39 @@ speculative inference 또는 추정 추론으로도 알려진 이 방법은 LLM 
 
 # 10. 우리가 LLM을 제공하기 위해 무엇을 필요로 할까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가로줄에 있는 `<img>` 태그를 Markdown 형식으로 바꿔보세요.
 
-
 ![이미지](/assets/img/2024-05-27-BuildingLLMApplicationsServingLLMsPart9_24.png)
-
 
 LLM 기반 애플리케이션을 제공할 때 2가지 주요 구성 요소가 있습니다: 엔진과 서버입니다. 엔진은 모델 및 요청 일괄 처리에 관한 모든 것을 처리하며, 서버는 사용자 요청을 전달합니다.
 
 ## 10.1. 엔진
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 엔진은 모델을 실행하고 세대 프로세스에 대한 다양한 종류의 최적화 기술에 대해 지금까지 다룬 내용입니다. 이러한 엔진은 Python 라이브러리로 구성되어 있습니다. 이들은 사용자로부터 오는 요청을 배치 처리하고 해당 요청에 대한 응답을 생성합니다.
 
@@ -1116,7 +1986,18 @@ LLM 기반 애플리케이션을 제공할 때 2가지 주요 구성 요소가 �
 
 ## 10.3. 기능들
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 엔진
 
@@ -1131,7 +2012,18 @@ LLM 기반 애플리케이션을 제공할 때 2가지 주요 구성 요소가 �
 - 멀티모델 서빙
 - 멀티 엔진 지원
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-27-BuildingLLMApplicationsServingLLMsPart9_25.png" />
 
@@ -1141,7 +2033,18 @@ LLM 기반 애플리케이션을 제공할 때 2가지 주요 구성 요소가 �
 
 이제 중요한 측정 지표, 트레이드 오프 및 기술들을 다룬 LLM 서비스에서의 중요한 도전 과제를 다루었습니다. 핵심 질문은 모든 이 기술을 어떻게 실현할까요? 어떤 도구가 우리의 요구 사항과 가장 잘 맞고, 프레임워크에 대해 알아두어야 할 것은 무엇일까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 섹션에서는 산업에서 인기 있는 널리 사용되는 프레임워크들을 선택하여 업계의 주요 프레임워크에 대한 세부 정보를 살펴보며 벤치마킹 실험에서 얻은 주요 결과를 공유합니다. 각 프레임워크는 추론 도중 Large Language Models (LLMs)의 성능을 최적화하고 향상시키는 독특한 가치를 가지고 있습니다. 이러한 프레임워크를 서버와 엔진 두 그룹으로 분류했습니다. 최종적으로 입수한 도구들과 우리의 특정 LLM 서빙 요구 사항에 잘 맞는지에 대해 명확한 그림을 그릴 수 있을 것입니다.
 
@@ -1151,7 +2054,18 @@ LLM 기반 애플리케이션을 제공할 때 2가지 주요 구성 요소가 �
 
 LLM 추론과 서빙을 위한 빠르고 쉽게 사용할 수 있는 라이브러리입니다. HuggingFace Transformers (HF)보다 14배에서 24배 높은 처리량을 달성하며, HuggingFace Text Generation Inference (TGI)보다 2.2배에서 2.5배 높은 처리량을 달성합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용법
 
@@ -1169,7 +2083,18 @@ llm = LLM((model = "huggyllama/llama-13b"));
 outputs = llm.generate(prompts, sampling_params);
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 출력값을 위한 반복문:
@@ -1197,7 +2122,18 @@ curl http://localhost:8000/generate \
     }'
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 킬러 피처
 
@@ -1210,7 +2146,18 @@ curl http://localhost:8000/generate \
 - 고처리량 서빙 - 병렬 샘플링, 빔 서치 등 다양한 디코딩 알고리즘 포함.
 - OpenAI 호환 API 서버 - OpenAI API를 사용한다면, 엔드포인트의 URL만 교체하면 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제한 사항
 
@@ -1222,7 +2169,18 @@ curl http://localhost:8000/generate \
 
 이것은 LLM 추론을 위한 가장 빠른 라이브러리입니다. 내부 최적화 덕분에 경쟁 상대들을 크게 능가합니다. 그러나 제한된 모델 범위를 지원하는 데 약점이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 vLLM개발 로드맵은 여기를 참조해 주세요.
 
@@ -1232,8 +2190,18 @@ vLLM개발 로드맵은 여기를 참조해 주세요.
 
 텍스트 생성 추론 (TGI)은 대형 언어 모델 (LLM)의 배포 및 제공을 위한 툴킷입니다. TGI는 Llama, Falcon, StarCoder, BLOOM, GPT-NeoX 및 T5를 포함한 가장 인기있는 오픈 소스 LLM을 위한 고성능 텍스트 생성을 가능하게 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-27-BuildingLLMApplicationsServingLLMsPart9_28.png)
 
@@ -1243,8 +2211,18 @@ vLLM개발 로드맵은 여기를 참조해 주세요.
 
 도커를 사용하여 웹 서버 실행:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 mkdir data
@@ -1267,7 +2245,18 @@ prompt = "Funniest joke ever:"
 print(client.generate(prompt, max_new_tokens=17, temperature=0.95).generated_text)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요약된 기능들
 
@@ -1280,7 +2269,18 @@ print(client.generate(prompt, max_new_tokens=17, temperature=0.95).generated_tex
 - HuggingFace 모델에 대한 네이티브 지원 — 모델을 쉽게 실행하거나 HuggingFace Model Hub에서 사용할 수 있습니다.
 - 모델 추론을 제어: 프레임워크는 정확도 조절, 양자화, 텐서 병렬성, 반복 패널티 등을 포함한 다양한 옵션을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제한 사항
 
@@ -1292,7 +2292,18 @@ print(client.generate(prompt, max_new_tokens=17, temperature=0.95).generated_tex
 
 TGI 개발 로드맵은 여기에서 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 11.3. CTranslate2
 
@@ -1302,7 +2313,18 @@ TGI 개발 로드맵은 여기에서 확인할 수 있습니다.
 
 CTranslate2는 Transformer 모델을 사용한 효율적 추론을 위한 C++ 및 Python 라이브러리입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용 방법
 
@@ -1317,7 +2339,18 @@ pip install -qqq transformers ctranslate2
 ct2-transformers-converter --model huggyllama/llama-13b --output_dir llama-13b-ct2 --force
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 쿼리를 작성하세요:
 
@@ -1340,7 +2373,18 @@ output = tokenizer.decode(tokens);
 print(output);
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 킬러 피처
 
@@ -1354,7 +2398,18 @@ print(output);
 - 빠른 캐싱 — 모델은 한 번 정적 프롬프트에서 실행되고 모델 상태가 캐싱되어 동일한 정적 프롬프트로의 미래 호출에 재사용됩니다.
 - 디스크 공간을 절약하는 경량화 — 양자화를 통해 모델의 디스크 사용량을 최소화하고 정확도 손실을 최소화할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제약 사항
 
@@ -1365,7 +2420,18 @@ print(output);
 
 # 11.4. DeepSpeed-MII
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-27-BuildingLLMApplicationsServingLLMsPart9_30.png" />
 
@@ -1375,7 +2441,18 @@ MII는 DeepSpeed에 의해 구동되어 낮은 대기 시간과 고 처리량 �
 
 사용법
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 서버를 실행하세요:
 
@@ -1408,11 +2485,33 @@ mii.deploy(
 );
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 마크다운 형식으로 변경해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 다중 레플리카에 대한 로드 밸런싱 - 많은 사용자를 처리하기에 매우 유용한 도구입니다. 로드 밸런서는 효율적으로 들어오는 요청을 다양한 레플리카 사이에 분배하여 애플리케이션 응답 시간을 향상시킵니다.
 - 비영속적 배포 - 업데이트가 대상 환경에 영구적으로 적용되지 않는 방식입니다. 리소스 효율성, 보안, 일관성, 그리고 관리 편의성이 중요한 시나리오에서 가치 있는 선택지입니다. 운영 오버헤드를 줄이면서 통제될 수 있고 표준화된 환경을 제공합니다.
@@ -1425,7 +2524,18 @@ mii.deploy(
 
 제한 사항
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 공식 릴리스 부재 — 기능적 애플리케이션을 위한 적합한 커밋을 찾는 데 몇 시간이 걸렸어요. 일부 문서의 일부는 오래되었고 더 이상 관련성이 없어요.
 - 제한된 모델 수 — Falcon, LLaMA 2 등의 언어 모델을 지원하지 않아요. 실행할 수 있는 모델의 수가 제한적이에요.
@@ -1437,7 +2547,18 @@ mii.deploy(
 
 ![이미지](/assets/img/2024-05-27-BuildingLLMApplicationsServingLLMsPart9_31.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 개인적인 평가는 10점 척도로 합니다.
 
@@ -1447,8 +2568,18 @@ mii.deploy(
 
 웹 서버 실행:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 pip install openllm scipy
@@ -1470,7 +2601,18 @@ client = openllm.client.HTTPClient("http://localhost:3000");
 print(client.query("Funniest joke ever:"));
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 킬러 피쳐
 
@@ -1485,7 +2627,18 @@ print(client.query("Funniest joke ever:"));
 - 양자화 — OpenLLM은 bitsandbytes 및 GPTQ를 통해 양자화를 지원합니다.
 - LangChain 통합 — LangChain을 사용하여 원격 OpenLLM 서버와 상호 작용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제한사항
 
@@ -1496,7 +2649,18 @@ print(client.query("Funniest joke ever:"));
 
 # 11.6. Ray Serve
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-27-BuildingLLMApplicationsServingLLMsPart9_32.png)
 
@@ -1506,7 +2670,18 @@ Ray Serve는 온라인 추론 API를 구축하기 위한 확장 가능한 모델
 
 ![이미지](/assets/img/2024-05-27-BuildingLLMApplicationsServingLLMsPart9_33.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Ray AIR는 엔드 투 엔드 ML 개발을 가능하게 하며 MLOps 생태계의 다른 도구 및 라이브러리와 통합할 수 있는 다양한 옵션을 제공합니다.
 
@@ -1520,47 +2695,61 @@ Ray AIR는 엔드 투 엔드 ML 개발을 가능하게 하며 MLOps 생태계의
 import pandas as pd
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 import ray
 from ray import serve
 from starlette.requests import Request
 
-
-
 @serve.deployment(ray_actor_options={"num_gpus": 1})
 class PredictDeployment:
-    def __init__(self, model_id: str):
-        from transformers import AutoModelForCausalLM, AutoTokenizer
-        import torch
-
-
+def **init**(self, model_id: str):
+from transformers import AutoModelForCausalLM, AutoTokenizer
+import torch
 
 self.model = AutoModelForCausalLM.from_pretrained(
-            model_id,
-            torch_dtype=torch.float16,
-            device_map="auto",
-        )
-        self.tokenizer = AutoTokenizer.from_pretrained(model_id)
-
-
+model_id,
+torch_dtype=torch.float16,
+device_map="auto",
+)
+self.tokenizer = AutoTokenizer.from_pretrained(model_id)
 
 def generate(self, text: str) -> pd.DataFrame:
-        input_ids = self.tokenizer(text, return_tensors="pt").input_ids.to(
-            self.model.device
-        )
-        gen_tokens = self.model.generate(
-            input_ids,
-            temperature=0.9,
-            max_length=200,
-        )
-        return pd.DataFrame(
-            self.tokenizer.batch_decode(gen_tokens), columns=["responses"]
-        )
+input_ids = self.tokenizer(text, return_tensors="pt").input_ids.to(
+self.model.device
+)
+gen_tokens = self.model.generate(
+input_ids,
+temperature=0.9,
+max_length=200,
+)
+return pd.DataFrame(
+self.tokenizer.batch_decode(gen_tokens), columns=["responses"]
+)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 비동기 def __call__(self, http_request: Request) -> str:
@@ -1579,8 +2768,18 @@ deployment = PredictDeployment.bind((model_id = "huggyllama/llama-13b"));
 
 쿼리를 실행하세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import requests
@@ -1598,9 +2797,18 @@ Killer features
 - Autoscale across multiple replicas — Ray adjusts to traffic spikes by observing queue sizes and making scaling decisions to add or remove replicas.
 - Dynamic Request Batching — It is necessary when our model is expensive to use and we want to maximize the utilization of hardware.
 
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 장점
 
@@ -1613,7 +2821,18 @@ Killer features
 - 내장된 모델 최적화 부족 — Ray Serve는 LLM에 초점을 맞추지 않고, 모든 ML 모델을 배포하는 보다 폭넓은 프레임워크입니다. 최적화를 직접 해야 합니다.
 - 높은 진입 장벽 — 라이브러리가 때로는 추가 기능으로 과부하되어 진입 임계값을 높이며, 새로운 사용자가 이를 탐색하고 이해하는 데 어려움을 겪게 만듭니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 딥 러닝에 관한 것 뿐만 아니라 가장 실전 준비가 된 솔루션이 필요하다면, Ray Serve가 좋은 선택지입니다. 이는 기업에서 가용성, 확장성 및 관측 가능성이 중요한 상황에 가장 적합합니다. 또한 데이터 처리, 훈련, 세밀 튜닝 및 서빙을 위한 방대한 생태계를 활용할 수 있습니다. 마지막으로, 이는 OpenAI부터 Shopify 및 Instacart까지 다양한 회사에서 사용하고 있습니다.
 
@@ -1623,7 +2842,18 @@ Killer features
 
 10점 척도의 개인적인 평가
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 MLC LLM은 모든 사용자 장치에서 효율적으로 실행되도록 하여 LLM이 기본 하드웨어 가속을 활용할 수 있게 하는 범용 배포 솔루션입니다.
 
@@ -1633,7 +2863,18 @@ MLC LLM의 고수준 프로젝트 개념
 
 사용법
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 서버를 실행하려면:
 
@@ -1664,7 +2905,18 @@ git lfs install && mkdir -p dist/prebuilt && \
 python -m mlc_chat.rest --device-name cuda --artifact-path dist
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 쿼리 생성:
@@ -1684,7 +2936,18 @@ print(r.json()["choices"][0]["message"]["content"]);
 
 핵심 기능
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 플랫폼 네이티브 런타임 - 사용자 장치의 네이티브 환경에 배포하여 Python 또는 기타 필요한 종속성이 즉시 사용 가능하지 않을 수 있습니다. 앱 개발자는 MLC 컴파일된 LLM을 프로젝트에 통합하기 위해 플랫폼 네이티브 런타임에 익숙해지기만 하면 됩니다.
 - 메모리 최적화 - 다양한 기술을 사용하여 모델을 컴파일, 압축 및 최적화할 수 있어서 다양한 장치에 배포할 수 있습니다.
@@ -1696,7 +2959,18 @@ print(r.json()["choices"][0]["message"]["content"]);
 
 제한사항
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - LLM 모델 사용의 기능 제한: 어댑터 지원 없음, 정밀도 변경 불가, 토큰 스트리밍 불가 등. 이 라이브러리는 주로 다양한 장치용 모델을 컴파일하는 데 중점을 두고 있습니다.
 - 그룹 양자화만 지원함 — 이 방법이 좋은 결과를 보여주긴 하지만, 다른 양자화 방법(bitsandbytes 및 GPTQ)이 커뮤니티에서 더 인기가 있습니다. 아마도 커뮤니티에 의해 더 잘 개발될 것으로 예상됩니다.
@@ -1708,7 +2982,18 @@ iOS 또는 Android 기기에 애플리케이션을 배포해야 할 경우, 이 
 
 우리는 다른 설정을 사용하여 백서에서 이러한 프레임워크들의 성능과 제공 기능을 평가했습니다. TensorRT-LLM, vLLM과 같은 엔진 또는 RayLLM 및 RayServe와 같은 서버, TensorRT-LLM 및 Triton과 같은 Text Generation Inference (TGI) 등 각 프레임워크는 서로 다른 용도에 적합한 가치 있는 고유한 기능을 제공합니다. 우리의 벤치마킹 연구는 메모리 할당 문제부터 사전 철수의 전략적 트레이드오프, 그리고 시퀀스 길이가 처리량에 미치는 영향까지 세심한 발견을 촬영했습니다. 실험에서 얻은 내용에 대한 간략한 개괄은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 메모리가 핵심입니다. 메모리 할당 관리는 LLM 성능 최적화를 위해 중요합니다.
 - vLLM과 같은 엔진을 위해 선점은 중요한 전략적 트레이드 오프입니다. 세대 작업이 메모리에 바운드되어 있고 GPU가 underutilized되는 상황에서입니다.
@@ -1728,7 +3013,18 @@ LLMs 추론을 위한 다양한 프레임워크가 많이 있지만, 각각이 �
 - LLM을 클라이언트 측(에지 컴퓨팅)에 네이티브로 배포하려는 경우(예: Android 또는 iPhone 플랫폼) MLC LLM을 활용하세요.
 - DeepSpeed 라이브러리에 이미 경험이 있고 이를 계속 사용하여 LLM을 배포하려는 경우 DeepSpeed-MII를 사용하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 크레딧
 
@@ -1742,7 +3038,18 @@ LLMs 추론을 위한 다양한 프레임워크가 많이 있지만, 각각이 �
 - https://developer.nvidia.com/blog/mastering-llm-techniques-inference-optimization/
 - https://betterprogramming.pub/frameworks-for-serving-llms-60b7f7b23407
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 읽어주셔서 감사합니다!
 
@@ -1755,6 +3062,17 @@ LLMs 추론을 위한 다양한 프레임워크가 많이 있지만, 각각이 �
 
 # 저와 소통해주세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### Vipra

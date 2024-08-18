@@ -3,17 +3,13 @@ title: "파이썬 - 데이터베이스 작업하는 3가지 방법SQL, ORM, Quer
 description: ""
 coverImage: "/assets/img/2024-06-19-Python3WaystoWorkwithDatabasesSQLORMQueryBuilder_0.png"
 date: 2024-06-19 16:39
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-Python3WaystoWorkwithDatabasesSQLORMQueryBuilder_0.png
 tag: Tech
 originalTitle: "Python — 3 Ways to Work with Databases (SQL, ORM, Query Builder)"
 link: "https://medium.com/stackademic/python-3-ways-to-work-with-databases-sql-orm-query-builder-e2a2d3cbe437"
 isUpdated: true
 ---
-
-
-
-
 
 ## 원시 SQL 쿼리, ORM 및 SQL 쿼리 빌더 비교와 코드 예제
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 따라서 ORM (객체 관계 매핑) 및 SQL 쿼리 빌더와 같은 다른 옵션이 있습니다. 이 둘은 각각의 장단점을 가지고 있습니다. 이 세 가지 표준을 모두 탐구해 보기 위해 여기에 들어가 봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-Python3WaystoWorkwithDatabasesSQLORMQueryBuilder_0.png" />
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 다양한 방법을 논의하기 전에 PostgreSQL 데이터베이스에 테이블을 생성해야 합니다. 이전에 SQL 문의 순서에 대해 썼던 이전 기사 중 하나에서 동일한 데이터를 사용했습니다. 생성 문은 그곳에서 찾을 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 모든 방법을 비교하기 위해 동일한 SELECT 문을 사용할 것입니다. 이 SELECT 문은 모든 중요한 작업을 포함하고 있습니다. 집계 및 필터링 (GROUP BY, WHERE 및 HAVING) 같은 작업입니다.
 
@@ -57,7 +75,18 @@ ORDER BY max_horse_power DESC
 
 ## Raw SQL
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 장점: 사용하기 쉽고 SQL 언어의 모든 기능을 활용할 수 있습니다.
 
@@ -84,7 +113,18 @@ conn.close()
 # [('Germany', 2019, 612), ('UK', 2019, 612), ('Germany', 2021, 510), ('Germany', 2023, 469)]
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 내용을 보면 코드에서 SQL 문을 구현하는 것이 간단하며, 데이터베이스 쪽에서 하는 것처럼 사용할 수 있습니다. 그러나 대규모 애플리케이션을 작업할 때 여러 SQL 스크립트를 처리하는 것은 복잡할 수 있습니다. 다시 말해, 확장 가능하고 가독성이 좋은 코드를 개발하는 가장 최적의 방법은 아닐 수 있습니다.
 
@@ -94,7 +134,18 @@ conn.close()
 
 단점: 추가적인 학습이 필요하며 구현하는 데 더 많은 노력이 필요하다. 기능이 제한될 수 있으며, 서로 다른 ORM은 다른 사용 방법을 가질 수 있다. 엄격한 스키마를 가질 수 있다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ORM (Object-Relational Mapping)은 시간이 흐름에 따라 많은 애플리케이션에서 널리 사용되는 기술입니다. 이는 클래스와 객체를 사용하여 테이블을 나타내며, 이러한 클래스를 사용하여 레코드를 다룰 수 있습니다. 본질적으로, 이는 데이터베이스 테이블을 Python 클래스로 변환한 다음 이 언어에서 사용하는 것을 의미합니다.
 
@@ -112,23 +163,23 @@ Base = declarative_base()
 
 class Cars(Base):
     __tablename__ = "cars"
-    
+
     manufacturer = Column(String(64))
     model = Column(String(64))
     country = Column(String(64))
     engine_name = Column(String(64), primary_key=True, nullable=False)
     year = Column(Integer)
-    
+
 class Engines(Base):
     __tablename__ = "engines"
-    
+
     name = Column(String(64), primary_key=True, nullable=False)
     horse_power = Column(Integer)
 
 def main():
-    
+
     load_dotenv()
-    
+
     connection_string = URL.create(
         'postgresql',
         username=os.getenv('USERNAME'),
@@ -137,11 +188,11 @@ def main():
         database=os.getenv('DB'),
         #connect_args={'sslmode':'require'}
         )
-    
+
     engine = create_engine(connection_string)
     Session = sessionmaker(bind=engine)
     session = Session()
-    
+
     sql = (
         select(
             Cars.country,
@@ -154,10 +205,10 @@ def main():
         .having(func.max(Engines.horse_power) > 200)
         .order_by(func.max(Engines.horse_power).label("max_horse_power").desc())
     )
-    
+
     for i in session.execute(sql):
         print(i)
-    
+
 if __name__ == '__main__':
     main()
 
@@ -169,7 +220,18 @@ if __name__ == '__main__':
 
 여기에는 SELECT 쿼리만을 위한 예제가 있지만, SQLAlchemy는 모든 중요한 작업 (INSERT, UPDATE, DELETE 및 기타 작업)을 위한 기능을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## SQL 쿼리 빌더
 
@@ -179,7 +241,18 @@ if __name__ == '__main__':
 
 Python에서 쿼리 빌더를 사용하는 것은 원시 문장과 ORM 사이의 중간 옵션이다. 각 테이블의 스키마를 정의할 필요가 없고 테이블 이름만 사용하면 된다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 쿼리 빌더에는 준수해야 하는 특정 구문이 있습니다. 이 구문의 목적은 Python 코드를 SQL 문으로 변환하여 데이터베이스로 전송하는 것입니다. 아래 예제에서는 이를 위해 pypika 라이브러리를 사용하고 있습니다. 또한 psycopg2를 통해 간단한 데이터베이스 통신을 수행합니다.
 
@@ -223,7 +296,18 @@ conn.close()
 
 ## 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사에서는 파이썬에서 데이터베이스와 상호 작용하는 세 가지 주요 방법에 대해 논의했습니다. 각각에는 장단점이 있습니다. 그러나 사용할 방법을 선택하는 것은 대부분 귀하의 구체적인 사용 사례에 달려 있습니다.
 
@@ -235,7 +319,18 @@ conn.close()
 
 LinkedIn에서 저를 만날 수 있으며, 데이터 과학과 데이터 엔지니어링의 복잡한 세계에 대해 함께 논의하고 싶습니다. 연결하기를 기다리고 있습니다. 함께 흥미로운 대화를 나눠봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 스택데믹
 

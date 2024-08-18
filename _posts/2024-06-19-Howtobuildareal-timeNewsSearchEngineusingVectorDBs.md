@@ -3,17 +3,13 @@ title: "벡터 DB를 사용하여 실시간 뉴스 검색 엔진을 구축하는
 description: ""
 coverImage: "/assets/img/2024-06-19-Howtobuildareal-timeNewsSearchEngineusingVectorDBs_0.png"
 date: 2024-06-19 16:12
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-Howtobuildareal-timeNewsSearchEngineusingVectorDBs_0.png
 tag: Tech
 originalTitle: "How to build a real-time News Search Engine using Vector DBs"
 link: "https://medium.com/decodingml/how-to-build-a-real-time-news-search-engine-using-serverless-upstash-kafka-and-vector-db-6ba393e55024"
 isUpdated: true
 ---
-
-
-
-
 
 아파치 카프카, 바이트왁스, 그리고 업스태시 벡터 데이터베이스를 활용한 라이브 뉴스 집계 스트리밍 파이프라인 구현을 위한 실용적인 안내서입니다.
 
@@ -23,7 +19,18 @@ earthweb.com에서 실시한 연구에 따르면, 매일 온라인 및 오프라
 
 본 문서에서는 이러한 문제를 해결하고자 합니다! 좀 더 구체적으로, 여러 출처로부터 데이터를 수집하고 해당 정보 채널을 당신의 관심사에 맞는 종단점으로 좁힐 수 있는 시스템을 구축할 것입니다 — 뉴스 검색 엔진입니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이론에 대해서만 이야기하거나 이러한 시스템을 구현하는 방법을 알려주는 것이 아니라, 우리는 단계별로 설명하고 보여줄 거예요!
 
@@ -34,37 +41,59 @@ earthweb.com에서 실시한 연구에 따르면, 매일 온라인 및 오프라
 - 아키텍처 개요
 - 도구 고려 사항
 - 전제 조건
-3.1 새로운 Upstash Kafka 클러스터 생성
-3.2 새로운 Upstash Vector 인덱스 생성
-3.3 2개의 라이브 뉴스 API에 등록
-3.4 설치
+  3.1 새로운 Upstash Kafka 클러스터 생성
+  3.2 새로운 Upstash Vector 인덱스 생성
+  3.3 2개의 라이브 뉴스 API에 등록
+  3.4 설치
 - 데이터 수집
-4.1 기사 가져오기 관리자
-4.2 Kafka 메시지 제작
-4.3 Pydantic을 사용한 데이터 교환 모델
-4.4 KafkaProducers 실행
+  4.1 기사 가져오기 관리자
+  4.2 Kafka 메시지 제작
+  4.3 Pydantic을 사용한 데이터 교환 모델
+  4.4 KafkaProducers 실행
 - 수집 파이프라인
-5.1 Kafka에서 메시지 수신
-5.2 Bytewax 데이터플로 구현
-5.3 기사 정제, 형식 지정, 청크화, 삽입
-5.4 벡터 작성 및 VectorDB에 업서트
+  5.1 Kafka에서 메시지 수신
+  5.2 Bytewax 데이터플로 구현
+  5.3 기사 정제, 형식 지정, 청크화, 삽입
+  5.4 벡터 작성 및 VectorDB에 업서트
 - 파이프라인 시작
 - 사용자 인터페이스
 - 결론
 - 참고문헌
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 아키텍처 개요
 
 ![이미지](/assets/img/2024-06-19-Howtobuildareal-timeNewsSearchEngineusingVectorDBs_0.png)
 
-요약하자면, 우리는 뉴스 API에서 뉴스 기사를 가져와서 생생한 시스템을 구축할 것입니다. 가져온 데이터를 정의된 형식으로 파싱하고 포맷팅한 다음 첫 번째 단계로 Kafka 토픽에 메시지를 직렬화하고 스트리밍할 것입니다. 
+요약하자면, 우리는 뉴스 API에서 뉴스 기사를 가져와서 생생한 시스템을 구축할 것입니다. 가져온 데이터를 정의된 형식으로 파싱하고 포맷팅한 다음 첫 번째 단계로 Kafka 토픽에 메시지를 직렬화하고 스트리밍할 것입니다.
 두 번째 단계에서는 Bytewax를 사용하여 Kafka 토픽에서 메시지를 더 청소, 파싱, 청크, 임베드, 벡터를 업서팅하여 벡터 데이터베이스로 보내고, 데이터베이스와 상호 작용할 수 있는 UI로 마무리됩니다.
 
 # 툴 고려 사항
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 올바른 도구를 선택하는 것이 고성능, 확장성, 및 구현 용이성을 달성하는 핵심이었습니다. 프로젝트 전체에서 사용된 도구를 살펴보겠습니다:
 
@@ -79,7 +108,18 @@ earthweb.com에서 실시한 연구에 따르면, 매일 온라인 및 오프라
 비용은 얼마입니까? — 무료입니다.
 이 안내서는 무료 티어 플랜만 사용하도록 설정했으므로 사용한 플랫폼에 대해 지불할 필요가 없습니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 준비 사항
 
@@ -92,7 +132,18 @@ earthweb.com에서 실시한 연구에 따르면, 매일 온라인 및 오프라
 
 처음 시작할 때는 약 5분 정도 걸립니다. 함께 해보세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 새로운 Upstash Kafka 클러스터 생성
 
@@ -102,7 +153,18 @@ earthweb.com에서 실시한 연구에 따르면, 매일 온라인 및 오프라
 
 다음으로 상단 바에서 Kafka를 선택하고 + 클러스터 생성 버튼을 클릭하여 새 클러스터를 만들어야 합니다. 클릭하면 다음 모달이 나타납니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-Howtobuildareal-timeNewsSearchEngineusingVectorDBs_2.png" />
 
@@ -112,7 +174,18 @@ earthweb.com에서 실시한 연구에 따르면, 매일 온라인 및 오프라
 
 이 뷰에서 주요 구성 요소를 살펴보겠습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 상세 정보: 클러스터 개요 및 Upstash가 제공하는 기능을 보여줍니다.
 - 사용량: 생성/소비된 메시지 수, 비용 영향 등을 보여주는 차트입니다.
@@ -124,7 +197,18 @@ earthweb.com에서 실시한 연구에 따르면, 매일 온라인 및 오프라
 
 <img src="/assets/img/2024-06-19-Howtobuildareal-timeNewsSearchEngineusingVectorDBs_4.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주제 이름을 지정하고, 나머지는 기본 상태로 두어서 Create를 클릭하세요.
 
@@ -134,13 +218,24 @@ earthweb.com에서 실시한 연구에 따르면, 매일 온라인 및 오프라
 지금까지 .env 파일이어야 하는 모습은 다음과 같습니다:
 
 ```js
-UPSTASH_KAFKA_UNAME="[사용자 이름]"
-UPSTASH_KAFKA_PASS="[비밀번호]"
-UPSTASH_KAFKA_ENDPOINT="[엔드포인트]"
-UPSTASH_KAFKA_TOPIC="[토픽 이름]"
+UPSTASH_KAFKA_UNAME = "[사용자 이름]";
+UPSTASH_KAFKA_PASS = "[비밀번호]";
+UPSTASH_KAFKA_ENDPOINT = "[엔드포인트]";
+UPSTASH_KAFKA_TOPIC = "[토픽 이름]";
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 새 Upstash Vector 색인 만들기
 
@@ -150,26 +245,48 @@ UPSTASH_KAFKA_TOPIC="[토픽 이름]"
 
 벡터 데이터베이스에 이름을 할당하고, 위치에 가장 가까운 지역을 선택한 다음 Embedding을 생성할 때 사용할 모델로 sentence-transformers/all-MiniLM-L6-v2을 선택하세요. 뉴스 기사의 임베딩을 생성할 때 사용할 모델과 벡터 간 거리 비교에 코사인 유사도 메트릭을 사용할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로운 Vector Index를 만든 후에는 Kafka Cluster와 동일한 작업 흐름을 따를 수 있습니다. Index Name, Endpoint, Token을 복사하고 .env 파일에 붙여넣기하세요.
 
 현재 .env 파일은 다음과 같이 보여야 합니다:
 
 ```js
-UPSTASH_KAFKA_UNAME="[여기에 사용자명 입력]"
-UPSTASH_KAFKA_PASS="[여기에 비밀번호 입력]"
-UPSTASH_KAFKA_ENDPOINT="[여기에 엔드포인트 입력]"
-UPSTASH_KAFKA_TOPIC="[여기에 토픽 이름 입력]"
+UPSTASH_KAFKA_UNAME = "[여기에 사용자명 입력]";
+UPSTASH_KAFKA_PASS = "[여기에 비밀번호 입력]";
+UPSTASH_KAFKA_ENDPOINT = "[여기에 엔드포인트 입력]";
+UPSTASH_KAFKA_TOPIC = "[여기에 토픽 이름 입력]";
 
-UPSTASH_VECTOR_ENDPOINT="[Vector 엔드포인트 입력]"
-UPSTASH_VECTOR_TOPIC="[Vector 이름 입력]"
-UPSTASH_VECTOR_KEY="[Vector 토큰 입력]"
-``` 
+UPSTASH_VECTOR_ENDPOINT = "[Vector 엔드포인트 입력]";
+UPSTASH_VECTOR_TOPIC = "[Vector 이름 입력]";
+UPSTASH_VECTOR_KEY = "[Vector 토큰 입력]";
+```
 
 ## 뉴스 API에 등록하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 APIs를 사용하여 기사를 가져올 예정입니다:
 
@@ -179,7 +296,18 @@ UPSTASH_VECTOR_KEY="[Vector 토큰 입력]"
 
 2. 🔗 NewsData
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 무료 요금제가 제공되며 하루에 200개의 크레딧을 받습니다. 각 크레딧은 10개의 기사와 동일하며, 이는 하루에 총 2000개의 기사를 가져올 수 있다는 것을 의미합니다.
 
@@ -192,7 +320,18 @@ UPSTASH_VECTOR_KEY="[Vector 토큰 입력]"
 - NewsAPI에 등록한 후, /account로 이동하여 API_KEY 필드를 확인한 후 이를 .env 파일의 NEWSAPI_KEY에 복사하여 붙여넣으십시오.
 - NewsData에 등록한 후, /api-key로 이동하여 API KEY를 확인한 후 이를 .env 파일의 NEWSDATAIO_KEY에 복사하여 붙여넣으십시오.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지루한 부분은 끝났습니다. 이제 이러한 API에 액세스할 수 있고, 기사를 가져올 수 있습니다. 각 API에서 페이로드가 어떻게 보이는지 살펴봅시다:
 
@@ -202,7 +341,18 @@ UPSTASH_VECTOR_KEY="[Vector 토큰 입력]"
 
 Kafka 클러스터를 생성하고, 벡터 인덱스를 생성하고, 뉴스 API에 등록하는 이 3단계를 모두 마친 후에 .env 파일은 다음과 같은 모습이어야 합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 UPSTASH_KAFKA_UNAME="[여기에 사용자 이름 입력]"
@@ -237,7 +387,16 @@ install:
 
 환경을 준비하려면 make install을 실행하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 이 소스로부터 기사를 가져오는 핸들러 구현을 조사해 봅시다.
 
@@ -247,7 +406,16 @@ install:
 
 자세히 살펴볼 내용은 다음 하위 모듈들입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Articles Fetching Manager Class
 - 카프카 클러스터로 메시지를 보내는 방법
@@ -352,7 +520,16 @@ class NewsFetcher:
         """뉴스 가져오기 함수 목록입니다."""
         return [self.fetch_from_newsapi, self.fetch_from_newsdataapi]
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 구현에서 고려해야 할 몇 가지 중요 사항이 있습니다:
 
@@ -364,7 +541,16 @@ class NewsFetcher:
 
 다음에 우리가 구현할 작업 흐름입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-Howtobuildareal-timeNewsSearchEngineusingVectorDBs_7.png" />
 
@@ -376,7 +562,16 @@ class NewsFetcher:
 
 기사를 가져오는 데 별도 스레드를 사용하고, 클러스터로 메시지를 보내기 위해 단일 카프카 프로듀서 인스턴스를 사용하는 것이 우리의 사용 사례에서 권장되는 방법입니다. 그 이유는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 효율성 및 성능: KafkaProducer는 스레드 안전합니다. 새 인스턴스를 만드는 것은 네트워크 연결과 일부 설정이 필요합니다. 여러 스레드 간에 하나의 단일 인스턴스를 공유하면 이러한 작업과 관련된 오버헤드를 줄일 수 있습니다.
 - 처리량: 단일 프로듀서 인스턴스는 메시지를 Kafka 클러스터로 보내기 전에 메시지를 일괄 처리합니다.
@@ -403,7 +598,16 @@ def run(self) -> NoReturn:
 
 구현에서 고려해야 할 중요 사항:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 우리는 fetch sources의 수만큼 KafkaProducerThread 인스턴스가 생성됩니다.
 - 우리는 모든 스레드를 KafkaProducerSwarm 아래에 랩합니다.
@@ -416,7 +620,16 @@ def run(self) -> NoReturn:
 
 이들은 데이터 교환을 위한 Pydantic 모델들이며, 우리가 구축 중인 응용 프로그램 내에서 이러한 모델들은:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - NewsDataIOModel: NewsData API에서 가져온 원시 페이로드를 래핑하고 포맷합니다.
 - NewsAPIModel: NewsAPI API에서 가져온 원시 페이로드를 래핑하고 포맷합니다.
@@ -473,7 +686,16 @@ class CommonDocument(BaseModel):
 
 해석해보겠습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 뉴스 기사 형식에 공통 속성 시리즈가 포함되어 있습니다.
 - 각 필드를 유효성 검사하거나 field_validator 데코레이터를 사용하여 기본값을 지정합니다.
@@ -487,7 +709,16 @@ class CommonDocument(BaseModel):
 - ul/li 목록 항목을 제거합니다.
 - 텍스트 내에 HTML 태그가 있으면 제거합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 이러한 변환을 간소화하기 위해 구조화되지 않은 [7] Python 라이브러리를 사용하고 있습니다.
 
@@ -501,7 +732,16 @@ class CommonDocument(BaseModel):
 - 데이터 교환을 위한 Pydantic 모델 구현
 - KafkaProducer 로직 구현
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작업이 완료되면 이제 안전하게 우리의 파이프라인에서 생산 단계를 실행하고 Upstash의 KafkaCluster에서 메시지를 확인할 수 있습니다.
 
@@ -518,9 +758,19 @@ run_producers:
 
 이 🔗Makefile은 우리가 구축 중인 솔루션과 상호작용하기 위한 유용한 명령어가 포함되어 있습니다. 이 경우에는 make run_producers를 사용하여 run_producers를 실행해야 합니다. 이렇게 하면 KafkaSwarm이 시작되고 NewsAPIs에서 기사를 가져와 형식을 지정한 다음 Kafka 클러스터로 보내는 스레드를 다룰 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```
+
 ![이미지](/assets/img/2024-06-19-Howtobuildareal-timeNewsSearchEngineusingVectorDBs_8.png)
 
 로그를 통해 프로듀서 스레드가 각각 5개의 메시지를 보냈다는 것을 확인했습니다. 메시지들이 클러스터에 도달했는지 확인하려면 Upstash 콘솔로 이동하여 Kafka 클러스터 → 메시지를 확인하십시오. 다음과 같은 화면이 나타날 것입니다:
@@ -529,8 +779,18 @@ run_producers:
 
 이 시점에서는 API에서 뉴스 기사를 가져와 형식을 맞춘 후 Kafka로 메시지를 보내는 데이터 수집 파이프라인의 구현 및 테스트가 완료되었습니다. 다음으로는 Kafka에서 새 메시지를 처리하는 "컨슈머" 또는 적재 파이프라인을 구현할 것입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 데이터 수집 파이프라인
 
@@ -542,7 +802,18 @@ run_producers:
 
 ![이미지](/assets/img/2024-06-19-Howtobuildareal-timeNewsSearchEngineusingVectorDBs_10.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이를 위해 Bytewax [4]를 사용하여 이러한 단계를 올바른 순서로 연결하는 DataFlow를 정의할 것입니다.
 
@@ -605,7 +876,18 @@ def process_message(message: KafkaSinkMessage):
         logger.exception(f"Unexpected error in next_batch: {e}")
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 구현에서 중요한 점들:
 
@@ -704,7 +986,18 @@ class UpstashVectorSink(StatelessSinkPartition):
                 logger.error(f"배치 업서트 중 예외 발생 {e}")
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 구현에서 중요한 사항들입니다:
 
@@ -715,14 +1008,25 @@ class UpstashVectorSink(StatelessSinkPartition):
 
 여기 Upstash Kafka Topic에서 메시지를 가져와 정제, 수정, 분할, 삽입하고 Upstash Vector Index에 벡터를 업서트하는 저희 DataFlow의 전체 구현입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 """
     이 스크립트는 Upstash 사용 사례에 대한 ByteWax 데이터플로 구현을 정의합니다.
     데이터플로에는 다음 단계가 포함되어 있습니다:
         1. 입력: 카프카 스트림에서 데이터를 읽기
-        2. 정제: 입력 데이터를 공통 형식으로 변환 
+        2. 정제: 입력 데이터를 공통 형식으로 변환
         3. 청크 분리: 입력 데이터를 더 작은 청크로 분리
         4. 임베드: 입력 데이터에 대한 임베딩 생성
         5. 출력: 출력 데이터를 Upstash 벡터 데이터베이스에 쓰기
@@ -803,7 +1107,18 @@ def _build_output() -> DynamicSink:
     return UpstashVectorOutput()
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - kafka_input: 카프카 메시지를 가져와 CommonDocument Pydantic 형식으로 변환하는 단계입니다.
 - map_kinp: 카프카 입력을 의미하며, 수신된 메시지에 flat map을 적용하여 List[CommonDocument] Pydantic 객체를 생성합니다.
@@ -819,7 +1134,18 @@ def _build_output() -> DynamicSink:
 - 데이터 수집 파이프라인: 주기적으로 NewsAPI에서 원시 페이로드를 가져와 형식을 지정한 뒤, 카프카 토픽으로 메시지를 전송하는 단계입니다.
 - 인제션 파이프라인: 이는 Bytewax DataFlow로, 카프카 토픽에 연결되어 메시지를 소비하고, 최종적으로 벡터를 업서트하는 Vector 데이터베이스에 업데이트합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트 루트에있는 Makefile에서 미리 정의된 명령을 사용하여 이 두 서비스를 모두 시작할 수 있습니다:
 
@@ -837,7 +1163,18 @@ make run_pipeline
 
 # 사용자 인터페이스
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 UI는 다음과 같은 기능을 갖춘 기본 Streamlit [8] 애플리케이션입니다:
 
@@ -851,19 +1188,39 @@ UI는 다음과 같은 기능을 갖춘 기본 Streamlit [8] 애플리케이션�
 - 기사 이미지
 - SeeMore 버튼을 클릭하면 원본 기사 URL로 이동합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한번 메시지/질문을 텍스트 상자에 입력하면 입력이 정리되고 (소문자로 변환, 비ASCII 문자 제거 등) 그리고 삽입됩니다. 새로운 삽입물을 사용하여 벡터 데이터베이스를 쿼리하여 가장 유사한 항목을 가져옵니다. 그 결과는 구성되어 렌더링될 것입니다.
 
 다음은 예시입니다:
 
-
 ![How to build a real-time News Search Engine using VectorDBs - Part 1](/assets/img/2024-06-19-Howtobuildareal-timeNewsSearchEngineusingVectorDBs_11.png)
 
 ![How to build a real-time News Search Engine using VectorDBs - Part 2](/assets/img/2024-06-19-Howtobuildareal-timeNewsSearchEngineusingVectorDBs_12.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -873,7 +1230,18 @@ UI는 다음과 같은 기능을 갖춘 기본 Streamlit [8] 애플리케이션�
 
 Pydantic을 사용하여 데이터를 잘 처리했고, 유닛 테스트를 작성하고, 스레딩을 활용하여 작업을 가속화했으며, Upstash의 서버리스 카프카와 벡터 데이터베이스를 활용하여 파이프라인을 쉽게 설정할 뿐만 아니라 빠르고 확장 가능하며 오류 대비 가능하도록 만들었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 당신은 이 청사진을 대부분의 데이터 기반 아이디어에 적용할 수 있는 능력을 갖게 되었어요. 이건 이 프로젝트뿐만 아니라 앞으로 만들게 될 멋진 것들을 위한 큰 승리에요.
 
@@ -890,6 +1258,17 @@ Pydantic을 사용하여 데이터를 잘 처리했고, 유닛 테스트를 작�
 
 # 더 읽을 거리
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글과 관련성 순으로 정렬되었습니다.

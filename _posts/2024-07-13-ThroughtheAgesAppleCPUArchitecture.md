@@ -3,17 +3,13 @@ title: "세대를 거치며 발전한 애플 CPU 아키텍처의 역사"
 description: ""
 coverImage: "/assets/img/2024-07-13-ThroughtheAgesAppleCPUArchitecture_0.png"
 date: 2024-07-13 23:50
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-ThroughtheAgesAppleCPUArchitecture_0.png
 tag: Tech
 originalTitle: "Through the Ages: Apple CPU Architecture"
 link: "https://medium.com/macoclock/through-the-ages-apple-cpu-architecture-92b33abedea7"
 isUpdated: true
 ---
-
-
-
-
 
 ✨✨✨
 
@@ -25,7 +21,18 @@ Markdown으로 변경한요!
 
 만약 안드로이드가 더 맞으시다면, 오버클럭된 명령 포인터처럼 필요에 따라 섹션을 자유롭게 이동해도 괜찮아요.✨
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1984 - Motorola 68k
 
@@ -41,7 +48,18 @@ Markdown으로 변경한요!
 - 어셈블리 언어
 - 에뮬레이션
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2006 — Intel x86
 
@@ -57,7 +75,18 @@ Markdown으로 변경한요!
 - Out-of-order Execution
 - Physics: The Ultimate Constraint
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # CPU 아키텍처 이주의 왕
 
@@ -67,7 +96,18 @@ Markdown으로 변경한요!
 
 이 인상적인 실행 뒤에는 경계선을 넘나드는 하드웨어 최적화가 있습니다: 1984년에 Mac이 출시된 이후로 애플은 CPU 아키텍처를 세 번이나 이주했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이건 쉬운 과제가 아닙니다.
 
@@ -77,7 +117,18 @@ Markdown으로 변경한요!
 
 Apple은 단기적으로 고통을 참는 것을 허용해 프로세서 게임을 마스터할 수 있었습니다. 각 새로운 CPU 아키텍처는 애플이 종말적 위협에 맞서거나 경쟁사들을 앞설 수 있게 했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오늘은 애플 CPU 아키텍처의 4대 시대를 오디세이를 타고 살펴볼 거에요. 각 이주가 왜 필요했는지 비즈니스 맥락을 살펴보고, 애플이 어떻게 각 전환을 이겨냈는지 알려드릴게요.
 
@@ -87,7 +138,18 @@ Apple은 단기적으로 고통을 참는 것을 허용해 프로세서 게임�
 
 ![Through the Ages Apple CPU Architecture](/assets/img/2024-07-13-ThroughtheAgesAppleCPUArchitecture_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1981.
 
@@ -97,7 +159,18 @@ Apple is stumbling.
 
 Its early breakout success and cash cow, the Wozniak wizardry of the 1977 Apple II, was creaking under its age.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 IBM PC가 대량 시장에 출시되었고, PC에 대한 구매 주문이 전례 없이 증가했습니다. 24세의 천재인 빌 게이츠는 IBM의 운영 체제를 제공하도록 요청받았습니다.
 
@@ -107,7 +180,18 @@ IBM PC가 대량 시장에 출시되었고, PC에 대한 구매 주문이 전례
 
 처음에는 저렴한 대량 소비자용 제품이었던 매킨토시는, 잡스가 이끄는 데로 방향을 전환하여 LISA 팀을 압도하는 데 집중했습니다. 스티브는 매킨토시에 새롭고 도둑질한 것이 아닌 사용자 인터페이스를 도입하고, 그 당시 제일 진보된 하드웨어를 팀에 요구했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 개인용 컴퓨터 우주에서 주목받고 싶다면 CPU 선택은 중요합니다. OS가 운영되는 하드웨어이자 소프트웨어를 발전시키는 플랫폼입니다.
 
@@ -117,7 +201,18 @@ IBM PC가 대량 시장에 출시되었고, PC에 대한 구매 주문이 전례
 
 ## CPU와 레지스터
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 똑같은 페이지로 가봅시다: CPU란 컴퓨터 메모리(RAM)에서 데이터를 빠른 임시 메모리(레지스터)로 옮겨 작업을 수행한 후, 결과를 다시 메모리로 이동시키는 장치입니다.
 
@@ -127,7 +222,18 @@ IBM PC가 대량 시장에 출시되었고, PC에 대한 구매 주문이 전례
 
 ## ALU
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 작업들은 산술 논리 장치(ALU)에 의해 수행됩니다. 이것은 기본적으로 간단하고 전문화된 작업을 수행하는 회로들의 집합입니다. 예를 들어:
 
@@ -139,7 +245,18 @@ CPU의 제어 장치는 한 번에 한 번 명령을 해독하여 어떤 데이�
 
 이러한 작업을 매우 빠르게 여러 번 수행하면 행렬 곱셈, 비디오 게임에서의 충돌 물리학, 화면 픽셀로 이미지 데이터를 레스터화하는 결과물과 같은 출력이 누적됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 8-bit와 16-bit
 
@@ -149,7 +266,18 @@ CPU의 제어 장치는 한 번에 한 번 명령을 해독하여 어떤 데이�
 
 게다가, 단일 8-bit 레지스터는 RAM에서 2⁸개의 서로 다른 바이트 '주소'를 가리킬 수 있습니다. 즉, 데이터를 찾을 수 있는 256개의 위치가 있습니다. 이 제한 때문에 대부분의 8-bit 컴퓨터는 메모리 주소를 저장하기 위해 두 레지스터가 필요했습니다. 16-bit 레지스터 또는 뒤에 쌓인 두 개의 8-bit 레지스터는 2¹⁶개의 메모리 주소를 가리킬 수 있으며, 즉 64kB의 메모리에 액세스할 수 있음을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Endian-ness가 더 중요해지는 건, 8비트(1바이트)에서 16비트 CPU(2바이트)로 업그레이드 할 때 호환성을 고려할 때입니다. 시스템은 빅엔디언 또는 리틀엔디언으로 분류되며, 이는 바이트를 어떤 순서로 저장하는지를 정의합니다. 예를 들어, 16진수로 표현된 숫자 41,394는 빅엔디언 시스템에서 레지스터에 A1 B2으로 저장되고, 리틀엔디언 시스템에서는 B2 A1로 저장됩니다.
 마지막으로, "데이터 버스"는 CPU를 메인 메모리에 연결하는 회로를 가리킵니다; 따라서 16비트 버스는 8비트 버스에 비해 메모리로 데이터를 읽고 쓰는 속도가 두 배 빠릅니다.
@@ -157,7 +285,18 @@ Endian-ness가 더 중요해지는 건, 8비트(1바이트)에서 16비트 CPU(2
 
 ## 인텔 대 지로그 대 모토롤라
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떤 칩 구조를 선택하겠습니까?
 
@@ -169,7 +308,18 @@ Endian-ness가 더 중요해지는 건, 8비트(1바이트)에서 16비트 CPU(2
 - Intel의 대규모 경제적 이점으로 약 35달러 (1983년 달러로)의 저가 제품.
 - 리틀엔디안.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Zilog Z8000
 
@@ -188,7 +338,18 @@ Endian-ness가 더 중요해지는 건, 8비트(1바이트)에서 16비트 CPU(2
 - 1983년 대략 $70의 중고가에서 제품 판매.
 - 빅엔디언.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 총적으로, Motorola 68k는 1984년이 1984년과 같지 않을 이유를 보여주기 위한 선도적인 선택으로 보입니다. 개발 생태계가 약한 점과 호환성이 부족한 점은 지배적인 IBM PC에 대한 브랜드 차별화를 제공하기 위한 필수적인 희생이었습니다.
 
@@ -198,8 +359,18 @@ Endian-ness가 더 중요해지는 건, 8비트(1바이트)에서 16비트 CPU(2
 
 2012년에 16GB iPod Touch에 사용 가능한 저장 공간을 살펴본 적이 있다면, 아무것도 변하지 않는다는 것을 알 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Through the Ages Apple CPU Architecture](/assets/img/2024-07-13-ThroughtheAgesAppleCPUArchitecture_3.png)
 
@@ -209,8 +380,18 @@ Endian-ness가 더 중요해지는 건, 8비트(1바이트)에서 16비트 CPU(2
 
 The year is 1994.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Steve Jobs가 Apple에서 8년 전에 내보내졌으며, 지금은 Pixar와 NeXT를 발명하느라 바쁩니다.
 
@@ -220,7 +401,18 @@ Apple은 중요성을 잃어가고 있습니다.
 
 ![Image](/assets/img/2024-07-13-ThroughtheAgesAppleCPUArchitecture_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1990년대에 악마로 불린 빌 게이츠와 인텔은 Wintel이라 불리는 부정한 결합으로 들어가, 두 기업 각각에게 거의 독점권을 확보하고 있었습니다.
 
@@ -230,7 +422,18 @@ x86 칩 아키텍처의 강력함을 얕볼 수는 없습니다. 인텔은 100MH
 
 모노폴리에 위협받는 컴퓨터 세계에서 애플은 예전 파트너인 모터로라와 의외의 동맹인 IBM과 함께 하기로 결정했습니다. 이 계획의 목적은 자본주의의 힘에 맞서기 위해 친구들의 힘을 이용하는 것이었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 A friendly nod to the birth of the AIM (Apple, IBM, Motorola) alliance, where they discovered a flaw in the x86 architecture – its reliance on CISC architecture. In an agile move, AIM introduced a RISCy strategy: PowerPC.
 
@@ -238,7 +441,18 @@ A friendly nod to the birth of the AIM (Apple, IBM, Motorola) alliance, where th
 
 In the realm of chip design, two philosophies stand in contrast to each other:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 -CISC (Complex Instruction Set Computer) - RISC (Reduced Instruction Set Computer)
 
@@ -248,7 +462,18 @@ In the realm of chip design, two philosophies stand in contrast to each other:
 
 ![Image](/assets/img/2024-07-13-ThroughtheAgesAppleCPUArchitecture_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 칩 제작을 위한 두 가지 학팴에 대한 접근 방식이 다릅니다:
 
@@ -259,7 +484,18 @@ In the realm of chip design, two philosophies stand in contrast to each other:
 
 RISC에 의해 부여된 주요 성능 향상을 정말로 보려면, 피카부-해석-수행 주기를 살펴봄으로써 파이프라이닝을 이해해야 합니다. 한마디로, 단일 클럭 주기 동안 -- CPU에서 한 작업이 실행되는 시간 -- 세 가지 중 하나가 수행됩니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 가져오기: CPU는 메모리에서 다음 기계 코드 명령을 가져옵니다.
 - 해독: CPU의 제어 장치가 명령을 해석하여 실제로 무엇을 하는지 파악합니다.
@@ -271,7 +507,18 @@ CPU가 간단한 RISC 명령 세트를 사용하는 경우, 이러한 단계는 
 
 CISC를 사용하는 경우, 각 단계가 일관된 1 사이클/단계가 아닐 수 있습니다. POLY 작업의 경우, x² 표현식에 대한 실행 단계만 10 사이클이 걸릴 수 있습니다. CISC에서는 작업을 잘 정렬하기가 어려워 복잡한 명령에 대한 성능을 얻기 어렵습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이프라이닝은 간단히 말해 명령어를 동시에 교차로 배열하는 개념이에요.
 
@@ -281,7 +528,18 @@ CISC를 사용하는 경우, 각 단계가 일관된 1 사이클/단계가 아�
 
 파워PC는 현대적인 RISC(축소 명령 집합 컴퓨터) 마이크로프로세서 아키텍처로, 주도적이었던 인텔 x86 아키텍처와 직접 경쟁하기 위해 만들어졌어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 PowerPC은 더 효율적인 성능을 약속했습니다 - 즉, 와트 당 더 많은 CPU 작업을 수행할 수 있습니다. 또한, Apple은 소프트웨어와 하드웨어를 모두 제어하기 때문에 Mac OS를 이 프로세서 아키텍처에 최적화할 수 있었습니다.
 
@@ -291,29 +549,47 @@ PowerPC은 더 효율적인 성능을 약속했습니다 - 즉, 와트 당 더 �
 
 한 프로세서를 위해 작성된 소프트웨어는 반드시 다른 프로세서에서 실행되지는 않습니다. 프로세서 패밀리는 각 CPU 작업을 정의하는 어셈블리 명령의 목록인 명령 세트를 포함하고 있기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기는 모터로라 68k 어셈블리 코드의 한 부분이에요:
 
-
-MOVE.L  $1000, D0     ; 데이터 레지스터 D0에 주소 $1000의 longword를 로드해요
-MOVE.L  $1004, D1     ; 데이터 레지스터 D1에 주소 $1004의 longword를 로드해요
-ADD.L   D1, D0        ; D0와 D1 값을 더해서 결과를 D0에 저장해요
-MOVE.L  $1000, D0     ; 주소 $1000의 longword를 데이터 레지스터 D1에 로드해요
-NOT.L   D1            ; D1의 모든 비트를 반전시켜요
-
+MOVE.L $1000, D0 ; 데이터 레지스터 D0에 주소 $1000의 longword를 로드해요
+MOVE.L $1004, D1 ; 데이터 레지스터 D1에 주소 $1004의 longword를 로드해요
+ADD.L D1, D0 ; D0와 D1 값을 더해서 결과를 D0에 저장해요
+MOVE.L $1000, D0 ; 주소 $1000의 longword를 데이터 레지스터 D1에 로드해요
+NOT.L D1 ; D1의 모든 비트를 반전시켜요
 
 그리고 이게 파워PC 어셈블리 코드의 모습이에요:
 
+lwz r3, 0x1000 ; 주소 0x1000으로부터 워드를 레지스터 r3에 로드해요
+lwz r4, 0x1004 ; 주소 0x1004으로부터 워드를 레지스터 r4에 로드해요
+add r5, r3, r4 ; r3와 r4의 값을 더해서 결과를 r5에 저장해요
+lwz r3, 0x1000 ; 주소 0x1000으로부터 워드를 레지스터 r3에 로드해요
+not r4, r3 ; r3의 모든 비트를 반전시키고 결과를 r4에 저장해요
 
-lwz     r3, 0x1000    ; 주소 0x1000으로부터 워드를 레지스터 r3에 로드해요
-lwz     r4, 0x1004    ; 주소 0x1004으로부터 워드를 레지스터 r4에 로드해요
-add     r5, r3, r4    ; r3와 r4의 값을 더해서 결과를 r5에 저장해요
-lwz     r3, 0x1000    ; 주소 0x1000으로부터 워드를 레지스터 r3에 로드해요
-not     r4, r3        ; r3의 모든 비트를 반전시키고 결과를 r4에 저장해요
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지 파일을 다운로드하면 엔디안에 관한 가정을 하는 코드와 같은 경우, 애플 에코시스템의 모든 기존 소프트웨어를 다시 컴파일해야하며 경우에 따라 다시 작성해야합니다.
 
@@ -323,7 +599,18 @@ not     r4, r3        ; r3의 모든 비트를 반전시키고 결과를 r4에 �
 
 이전에 PowerPC 기계에서 작동하기 위해서는 애플은 이 전환이라는 두 가지 전략을 개발했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 에뮬레이터는 PowerPC가 Motorola CPU를 에뮬레이트할 수 있는 환경을 개발했습니다. 이는 한 명령 집합 아키텍처에서 다른 명령 집합 아키텍처로 실시간으로 명령을 변환하는 것을 의미합니다.
 
@@ -333,7 +620,18 @@ not     r4, r3        ; r3의 모든 비트를 반전시키고 결과를 r4에 �
 
 80MB의 하드 드라이브가 적당한 시대에, 이것은 상당히 귀찮은 일이었기 때문에 사용자들이 기기에서 작동하는 하나만 저장하면 되는 바이너리 축소 도구의 시장이 생겼습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 애플의 이주는 전체적으로 성공적이었습니다. 68k에서 PowerPC로의 이동으로 엄청난 성능 향상을 가져왔습니다. 에뮬레이션과 팻 바이너리는 소프트웨어 생태계가 주요 문제 없이 전환할 수 있도록 했습니다.
 
@@ -343,7 +641,18 @@ not     r4, r3        ; r3의 모든 비트를 반전시키고 결과를 r4에 �
 
 이러한 상황이 애플의 넥스트 인수와 스티브 잡스의 복귀를 뒷받침했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2006 — Intel x86
 
@@ -353,7 +662,18 @@ not     r4, r3        ; r3의 모든 비트를 반전시키고 결과를 r4에 �
 
 잡스가 CEO이고 맥 OS X로의 시대를 정의하는 소프트웨어 이동이 성공적으로 이루어졌습니다. 아이팟이 한 자릿수 시장 점유율을 가진 버전 구 다운 컴퓨터 회사를 소비자 전자기기 강자로 만들었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 The dominance of desktop computers lasted throughout the 80s, 90s, and into the 2000s. However, with the continuous advancement of Moore's Law, technology started to shrink, and laptops began to gain popularity.
 
@@ -363,7 +683,18 @@ Intel outperformed its competitors through superior execution, manufacturing, an
 
 At that time, PowerPC CPUs consumed too much power and produced excessive heat, making it challenging to realize Jobs' vision of the slim MacBook Air. As more than half of Apple's revenue came from laptop sales, it was a strategic decision to transition to Intel processors in order to stay competitive.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## WWDC 2005
 
@@ -373,7 +704,18 @@ Jobs explained it best at Apple’s 2005 Worldwide Developer Conference:
 
 But my favourite part of the video?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2010년대 개발자로서 회의에서 Xcode 최신 업데이트용 CD를 집어들다니, 정말로 재미있다는 생각이 듭니다. 2005 베타 버전이 오늘날 익숙한 것처럼 버그가 많았을까요?
 
@@ -383,7 +725,18 @@ But my favourite part of the video?
 
 인텔 x86 프로세서는 1978년 인텔 8086로 개척된 명령 집합 구조의 가족에서 기원합니다. 1982년의 인텔 80186이나 2000년대의 펜티엄 4와 같은 이후 프로세서들은 이 초기 명령 집합과의 하위 호환성을 유지했습니다. 네가 맞게 읽고 있어요: 70년대에 8086에서 컴파일된 프로그램은 아무 수정 없이 2000년대에도 잘 실행됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 소프트웨어 생태계는 이야기의 일부일 뿐입니다.
 
@@ -395,7 +748,18 @@ Intel은 CPU의 모든 측면에서 혁신하고 있었습니다:
 - Branch Prediction
 - 슈퍼스칼라 아키텍처
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 내용을 자세히 살펴보겠습니다. 현대 CPU 성능에서 매우 중요한 개념들이기 때문이죠. Intel의 x86을 우승자로 만든 것은 단일 부분이 아닙니다. CPU의 상호 연결된 성질 덕분에, 이러한 구성요소 전반에 걸쳐 최적화가 이루어지고 x86은 경쟁 상대 앞서갔습니다.
 
@@ -405,7 +769,18 @@ Intel은 CPU의 모든 측면에서 혁신하고 있었습니다:
 
 그래서 CPU는 온칩 캐시를 발전시켜 중간양의 데이터를 저장합니다. 이 캐시는 물리적으로 칩 자체에 더 가깝게 저장되는 중간 양의 RAM 블록 역할을 하며 필요한 데이터에 빠르게 액세스할 수 있게 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 캐시들은 각각 계층화되어 있습니다:
 
@@ -416,7 +791,18 @@ Intel은 CPU의 모든 측면에서 혁신하고 있었습니다:
 하버드 대학의 CS 과정에서 가져온 이 다이어그램이 더 잘 설명해줍니다:
 ![다이어그램](/assets/img/2024-07-13-ThroughtheAgesAppleCPUArchitecture_10.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CPU가 가장 가까운 캐시에 저장되어 있지 않은 명령 또는 데이터를 가져와야 할 때, 이를 캐시 미스라고 합니다. 그러면 다음 단계의 캐시, 또는 그 다음 단게, 또는 RAM, 또는 디스크에서 가져와야 합니다! 이는 속도와 효율성에 심각한 영향을 미칠 수 있습니다.
 
@@ -426,9 +812,20 @@ CPU가 가장 가까운 캐시에 저장되어 있지 않은 명령 또는 데�
 
 즉 이들은 에너지 효율성을 향상시켰으며, 데이터가 프로세서 옆에 있을 때, 메모리 바이트를 이동시키기 위해 CPU 회로를 통해 덜 전기가 소모됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-## 분기 예측 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+## 분기 예측
 
 처음에 '분기 예측'을 들었을 때, 마치 신비한 영적인 매력을 품고 있는 것처럼 들릴 수 있어요.
 
@@ -436,7 +833,18 @@ CPU가 가장 가까운 캐시에 저장되어 있지 않은 명령 또는 데�
 
 이러한 메커니즘은 CPU의 회로에 직접 내장된 하드웨어 알고리즘을 포함하고 있어요. 최근에 발생한 분기 결과를 캐싱하는 '분기 히스토리 테이블'이라는 버퍼가 있어요. 이를 분석해서 예측을 내립니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **고급 분기 예측기들은 궁극의 YOLO 방법을 적용합니다: 공세 실행, 예측된 분기 상에서의 명령어가 결과가 확정되기 전에 실행됩니다.**
 
@@ -446,7 +854,18 @@ CPU가 가장 가까운 캐시에 저장되어 있지 않은 명령 또는 데�
 
 **슈퍼스칼라 아키텍처는 다중 작업의 궁극적인 형태입니다. 슈퍼스칼라 CPU들은 단일 클럭 주기 동안 복수의 명령어를 동시에 실행할 수 있습니다:**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 페치 단계에서 CPU는 작동 파이프라인으로부터 여러 명령을 수집합니다.
 - 디코드 단계는 각 명령을 평가하기 위해 여러 디코더 유닛을 활용합니다.
@@ -458,7 +877,18 @@ CPU가 가장 가까운 캐시에 저장되어 있지 않은 명령 또는 데�
 
 Intel은 슈퍼스칼라 아키텍처가 CPU 코어에서 효과적으로 작동하도록 하는 데 필요한 의지와, 더 중요한 것은 연구 및 개발 자금을 가지고 있었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## [Further Intel Innovations](https://yourwebsite.com/further-intel-innovations)
 
@@ -469,7 +899,18 @@ Intel은 슈퍼스칼라 아키텍처가 CPU 코어에서 효과적으로 작동
 
 인텔은 패치, 디코드, 실행 주기를 21단계로 분할하는 고급 파이프라이닝을 도입하여 주어진 클록 속도에서 더 많은 명령어를 실행할 수 있도록 했습니다. 이렇게 하면 초당 더 많은 명령어를 실행할 수 있게 되죠! **YourWebsite**에서 자세한 내용을 확인해보세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오늘 우리는 Apple이 부드러운 CPU 아키텍처 이전을 위해 오랜 시간 검증된 전환 기술을 다시 사용했다는 소식을 전해드립니다.
 
@@ -479,7 +920,18 @@ Apple은 두 가지 CPU 아키텍처용으로 구축된 유니버설 바이너�
 
 또한 Apple은 "당신이 결코 볼 수 없을 가장 놀라운 소프트웨어"로 소개한 동적 이진 번역기 Rosetta를 소개했습니다. 이는 x86 Mac에 처음으로 출시된 Mac OS X Tiger에 포함되어 있었으며, PowerPC 앱이 x86에서 자동으로 실행되도록 했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Apple은 Rosetta가 에뮬레이터가 아니라고 자세히 설명하기 위해 많은 노력을 기울입니다. Rosetta는 프로그램이 실행됨에 따라 코드를 ‘실시간’으로 동적으로 번역합니다. 실제로 이는 애플리케이션 이진 파일로부터 PowerPC CPU 명령 및 OS 시스템 호출을 해당하는 x86 어셈블리와 시스템 호출로 번역한다는 것을 의미합니다.
 
@@ -489,7 +941,18 @@ Apple은 Rosetta가 에뮬레이터가 아니라고 자세히 설명하기 위�
 
 ![image](/assets/img/2024-07-13-ThroughtheAgesAppleCPUArchitecture_12.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스티브 잡스에 관한 월터 아이작슨의 책을 읽은 사람은 애플의 신념과 그들의 궁극적인 경쟁 우위를 알 것입니다: 하드웨어와 소프트웨어의 밀접한 통합으로 놀랍게 훌륭한 제품을 만든다는 것을.
 
@@ -499,7 +962,18 @@ Intel에 x86 CPU에 의존하면 때로는 Intel의 공급 제약과 출시 지�
 
 하지만 이제 그들은 소유할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오리지널 2세대 아이폰은 2007년에 출시되었는데 삼성이 공급한 ARM CPU를 사용했습니다. 그러나 2010년대 초반, 아이폰 4부터 애플은 A4로 시작하는 자체 칩을 설계하기 시작했습니다.
 
@@ -509,9 +983,20 @@ Intel에 x86 CPU에 의존하면 때로는 Intel의 공급 제약과 출시 지�
 
 아이폰은 모든 현금 소스의 신이 되었습니다. ✨
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-Apple, 현재 행성상 가장 가치 있는 상장 회사로 등극한 친구, 어디다 그거 먼지 뭐상 $20,000,000,000 현금흐름으로 R&D에 몰아쳐. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+Apple, 현재 행성상 가장 가치 있는 상장 회사로 등극한 친구, 어디다 그거 먼지 뭐상 $20,000,000,000 현금흐름으로 R&D에 몰아쳐.
 
 ## 무려 원고, 그 이야기
 
@@ -519,7 +1004,18 @@ Apple, 현재 행성상 가장 가치 있는 상장 회사로 등극한 친구, 
 
 2008년, Apple이 $278m에 P.A. Semiconductor을 인수했어, 고급 저전력 프로세서로 유명한 CPU 디자인 회사야. P.A.의 CPU는 원래 IBM의 Power 아키텍처에 기반을 둔 거였어 — 바로 PowerPC Macs에서 AIM 연합이 사용했던 명령어 집합과 같은 거.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 때 안드로이드 운영체제가 스마트폰 시장에 진입했습니다. 자체 칩 디자인을 보유하게 되면 iPhone은 신규로 혼잡해진 시장에서 경쟁사와 더욱 차별화될 수 있습니다. 이 인수로 애플은 참모유지로 유명한 기업으로서 최고의 독점 칩 디자인을 내부에서 비밀리에 보호할 수 있었습니다.
 
@@ -529,7 +1025,18 @@ Apple, 현재 행성상 가장 가치 있는 상장 회사로 등극한 친구, 
 
 아니요. 먼저 더 예전으로 돌아가 봐야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ARM의 RISC 명령어 집합과 칩 디자인은 오늘날 주류를 이루고 있습니다. 실제로 ARM은 1990년에 Apple과 Acorn Computers 사이의 합작으로 설립되었습니다. 전설에는 - 그리고 전설이라 하면 Quora에서 나온 소스가 없는 주장을 말합니다 - 스티브 잡스가 Acorn을 설득하여 하드웨어 제품을 포기하고 저전력 프로세서 디자인에 집중하도록 한다고 합니다.
 
@@ -539,7 +1046,18 @@ ARM의 RISC 명령어 집합과 칩 디자인은 오늘날 주류를 이루고 �
 
 ## 애플 실리콘의 태양이 뜬다
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Apple 엔지니어들은 여러 해 동안 iPhone 및 iPad의 ARM 칩을 설계하고 개선했습니다.
 
@@ -549,7 +1067,18 @@ Apple 엔지니어들은 여러 해 동안 iPhone 및 iPad의 ARM 칩을 설계�
 
 Intel의 x86 칩보다 훨씬 빠른 속도로요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Through the Ages Apple CPU Architecture](/assets/img/2024-07-13-ThroughtheAgesAppleCPUArchitecture_13.png)
 
@@ -559,7 +1088,18 @@ Intel의 x86 칩보다 훨씬 빠른 속도로요.
 
 ## 정확히 M1은 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 The M1은 Mac 노트북 및 데스크톱을 위한 Apple 실리콘 칩 "M 패밀리"의 첫 번째 버전이었습니다. M1 Pro, M1 Max 및 M1 Ultra와 같은 동생들이 있습니다. 오늘날 최신 하드웨어에서는 M2 칩을 구매할 수도 있지만 (하지만 저는 M3이 나오기 전까지 CTO에게 요청을 보내지 않을 거에요).
 
@@ -569,7 +1109,18 @@ M1은 시스템 온 칩(SoC)입니다. 이것은 표준 데스크톱 PC와 다�
 
 M1이 왜 이렇게 강력하면서도 그토록 적은 전력을 사용할 수 있는지에 대해서 어떻게 생각하세요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### M1의 비밀 무기
 
@@ -579,7 +1130,18 @@ M1이 왜 이렇게 강력하면서도 그토록 적은 전력을 사용할 수 
 
 그러나 M1의 경우, 성능을 높이는데 기인한 완전히 다른 방식이 있습니다: 전문화.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 이집트 인나와 결속
 
@@ -596,18 +1158,41 @@ M1 칩은 이집트 인나와 결속 전략을 적용합니다. 이는 특정 �
 - 4개의 고성능 Firestorm CPU 코어
 - 4개의 효율적이고 저전력 Icestorm CPU 코어
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 듀얼 세트의 CPU를 활용하는 방식은 ARM에 의해 big.LITTLE 아키텍처로 명명되었는데, 이는 전문 구성 요소로 보내지 않은 일반 CPU 워크로드의 전력 소비를 최적화합니다.
 
 파이어스톰 CPU는 사용자가 요청한 시간에 민감한 워크로드를 무한히 실행합니다. 한편, 아이스스톰 CPU는 느리게 백그라운드 워크로드를 처리하면서 전력을 90% 적게 소비합니다.
 
 애플 실리콘 SoC의 핵심 이질적 아키텍처 외에도 놀라운 M1 성능의 몇 가지 보충적 이유가 있습니다:
+
 - 통합 메모리 아키텍처
 - 비순차적 실행
 - 물리학: 궁극의 제약
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 통합 메모리 아키텍처
 
@@ -617,7 +1202,18 @@ M1 칩은 GPU와 CPU 간에 공유되는 통합 메모리 아키텍처를 갖고
 
 Apple이 CPU와 GPU를 SoC에 통합할 때 발생하는 두 가지 주요 문제를 해결해야 했기 때문이에요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - CPU와 GPU는 그들의 데이터를 서로 다른 방식으로 포맷합니다. CPU는 작은 바이트를 자주 조금식 뜯어먹는 것을 좋아하고, GPU는 대량의 데이터를 드물게 한꺼번에 먹는 것을 좋아해 대규모 병렬 처리를 수행합니다.
 - GPU는 열을 만듭니다. 매우 많은 열을 만듭니다. 그래픽 카드에는 "주보잉 주척" 감성을 위해 통합 냉각 팬이 장착되어 있습니다.
@@ -628,7 +1224,18 @@ Apple이 CPU와 GPU를 SoC에 통합할 때 발생하는 두 가지 주요 문�
 
 이렇게 이질적인 아키텍처는 특수화된 워크로드가 최적의 도구로 이동할 수 있도록 하지만, Firestorm CPU 코어 자체는 일반 워크로드에 대해 매우 강력합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전에 CPU 코어가 동시에 여러 명령을 가져오고 해독하며 한꺼번에 처리할 수 있게 했던 슈퍼스칼라 아키텍처에 대해 이야기했습니다. RISC 아키텍처를 통해 M1 칩은 실행 순서와 독립적으로 작동하는 모델을 통해 이를 더욱 발전시킬 수 있습니다.
 
@@ -638,7 +1245,18 @@ ARM RISC 명령어는 모두 4바이트(32비트)이며, 반면 x86 CISC 명령�
 
 Apple 실리콘은 한꺼번에 수백 개의 명령어 사이의 종속성 그래프를 분석하여 지금 바로 전달할 수 있는 것과 결과를 기다려야 하는 것을 파악합니다. 이러한 점을 선진적인 분기 예측과 결합하면, M1 CPU는 실질적으로 아티움을 태우는 것과 다름없습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 물리학: 궁극적인 제약요소
 
@@ -648,7 +1266,18 @@ Apple 실리콘은 한꺼번에 수백 개의 명령어 사이의 종속성 그�
 
 GHz 클럭 속도에서 나노초는 누적됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 초고성능
 
@@ -658,7 +1287,18 @@ M1 Ultra 칩은 최대 출력을 제공하기 위해 설계된 칩으로, Apple�
 
 조금은 미묘할 수도 있습니다 - 이 중개 구조는 2.5TB/s의 꽤 높은 칩 간 처리량을 가능하게 하여 구성 요소들이 마치 같은 칩인 것처럼 동작할 수 있게 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Apple의 최종 이전?
 
@@ -668,7 +1308,18 @@ Apple은 Intel x86에서 Apple Silicon으로의 전환을 위해 검증된 전�
 
 Apple은 언제나 웅장하게 발표를 하는 스타일로 몇몇 Intel 앱과 게임이 원래보다 더 나은 성능으로 Rosetta II를 통해 ARM에서 실행될 것이라고 주장합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 인텔의 종말?
 
@@ -678,7 +1329,18 @@ Apple은 언제나 웅장하게 발표를 하는 스타일로 몇몇 Intel 앱�
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 애초에 이 글은 애플의 유명한 CPU 아키텍처 이주의 간략한 역사를 다루려고 했지만, 언제나처럼 내 호기심이 좀 너무 커졌네요. 대부분의 정보 출처가 표면적인 수준에 그친 게 너무 답답했거든요.
 
@@ -691,9 +1353,20 @@ Apple은 언제나 웅장하게 발표를 하는 스타일로 몇몇 Intel 앱�
 
 조금이나마 배우고, 무엇보다도 즐거운 시간을 가졌기를 바래요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-이 아키텍처 중 어떤 것을 사용해 보셨나요? 어셈블리 코드를 작성했거나, CPU를 커스텀 빌드 PC의 구성 요소로 사용했거나, 아니면 새로운 M1 Mac에 감탄한 적이 있을 수도 있습니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+이 아키텍처 중 어떤 것을 사용해 보셨나요? 어셈블리 코드를 작성했거나, CPU를 커스텀 빌드 PC의 구성 요소로 사용했거나, 아니면 새로운 M1 Mac에 감탄한 적이 있을 수도 있습니다.
 
 댓글로 여러분의 경험을 공유해 주세요!
 
@@ -701,6 +1374,17 @@ Apple은 언제나 웅장하게 발표를 하는 스타일로 몇몇 Intel 앱�
 
 이 글이 마음에 드셨다면, '사대로 이야기: 애플 애니메이션 API' 시리즈의 다른 글도 확인해 보세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 읽어 주셔서 감사합니다!

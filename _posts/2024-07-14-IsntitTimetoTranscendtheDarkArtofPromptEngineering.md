@@ -3,17 +3,13 @@ title: "프롬프트 엔지니어링의 암흑 예술을 넘어설 때가 되지
 description: ""
 coverImage: "/assets/img/2024-07-14-IsntitTimetoTranscendtheDarkArtofPromptEngineering_0.png"
 date: 2024-07-14 01:58
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-14-IsntitTimetoTranscendtheDarkArtofPromptEngineering_0.png
 tag: Tech
 originalTitle: "Isn’t it Time to Transcend the Dark Art of Prompt Engineering?"
 link: "https://medium.com/ai-mind-labs/isnt-it-time-to-transcend-the-dark-art-of-prompt-engineering-5e50ee216853"
 isUpdated: true
 ---
-
-
-
-
 
 ![Image](/assets/img/2024-07-14-IsntitTimetoTranscendtheDarkArtofPromptEngineering_0.png)
 
@@ -23,9 +19,21 @@ isUpdated: true
 
 저의 겸손한 의견으로는 프롬프트 엔지니어링의 표준적인 실천은 공학보다는 연금술에 더 가깝습니다. 하드 코딩된 긴 텍스트 스크립트는 컴퓨터 프로그래밍보다 주술에 더 가깝습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ---
+
 마크다운 형식으로 이미지를 변경해주세요:
 [2024-07-14-IsntitTimetoTranscendtheDarkArtofPromptEngineering_1.png](/assets/img/2024-07-14-IsntitTimetoTranscendtheDarkArtofPromptEngineering_1.png)
 
@@ -33,10 +41,22 @@ isUpdated: true
 
 이제 대안을 탐색할 적절한 시기입니다.이 기사에서는 프롬프트 엔지니어링에 대해 더 견고한 접근 방식인 DSPy를 살펴보겠습니다. 그러나 먼저, 하드코딩된 프롬프트 엔지니어링이 왜 최적이 아닌지 이해해 봅시다.
 
-* 이 기사에는 노트북이 있습니다. 끝 부분에 링크했습니다.
+- 이 기사에는 노트북이 있습니다. 끝 부분에 링크했습니다.
+
 ---
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 하드코딩 된 프롬프트: 취약하고 유지 관리가 어려움
 
@@ -46,7 +66,18 @@ isUpdated: true
 
 # 보다 견고하고 체계적인 프롬프트 엔지니어링을 향하여 — DSPy
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 DSPy 프레임워크를 이해하려면 그 주요 구성 요소인 모듈, 서명 및 텔레프럼터를 이해해야 합니다.
 
@@ -58,7 +89,18 @@ DSPy 프레임워크를 이해하려면 그 주요 구성 요소인 모듈, 서�
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/1*Migw6jk0uGjSvYJFpAGg2w.gif)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마치 마법사처럼, DSPy는 최적의 프롬프트를 만들기 위한 모델 및 데이터에 중립적인 프레임워크를 제공합니다. 여기서 '프로그램'이라는 용어를 사용한 것은 곧 당신이 프롬프트를 직접 쓰는 것이 아니라 프롬프트를 생성하기 위해 프로그램을 작성하게 될 것이기 때문입니다.
 
@@ -68,7 +110,18 @@ DSPy 프레임워크를 이해하려면 그 주요 구성 요소인 모듈, 서�
 
 이 프레임워크의 힘을 입증하기 위해, 저는 수학 문제 해결을 위해 간단한 것부터 (조금 더) 복잡한 것까지 다양한 예제 프로그램 네 개를 만들어 보았습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GSM8K를 사용할 예정입니다. 이는 LLM의 수리 추론 능력을 성능 기준으로 자주 사용되는 수학 문제 데이터셋입니다.
 
@@ -80,7 +133,18 @@ GSM8K를 사용할 예정입니다. 이는 LLM의 수리 추론 능력을 성능
 
 # 수학 문제 해결을 위한 프로그램 예시
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 DSPy 프로그램들은 모델에 구애받지 않기 때문에 여러 LLMs 간에 프로그램이 어떻게 작동하는지 비교할 수 있어요. 제가 선택한 모델은 다음과 같아요:
 
@@ -91,7 +155,18 @@ DSPy 프로그램들은 모델에 구애받지 않기 때문에 여러 LLMs 간�
 
 # 생성된 프롬프트에 대한 중요한 참고 사항
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 이미 알지 못하는 정보이기 때문에 프롬프트가 프로그램에서 생성된 것이라는 점을 명확하게 해주고 싶다면, 그렇게 되는 이유는 컴파일된 프로그램이 트레이닝 데이터셋에 대해 텔레프롬프터를 실행하여 생성된 프롬프트인 경우이다. 이 경우, 트레이닝 데이터셋은 GSM8K를 위한 다섯 가지 예시 수학 문제이다. 컴파일되지 않은 프롬프트는 트레이닝 데이터 없이 생성된다.
 
@@ -101,7 +176,18 @@ DSPy 프로그램들은 모델에 구애받지 않기 때문에 여러 LLMs 간�
 
 기준 프로그램은 질문을 가져와 답변으로 응답하는 단일 모듈 프로그램입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 DSPy에서 제공하는 predict 모듈을 사용합니다. 이 모듈은 LLM에 일반 호출을 실행합니다. 서명은 여기에서 약식으로 정의됩니다. ‘질문 -` 답변’으로, predict 모듈에게 질문 입력을 예상하고 출력으로 답변을 생성하도록 알립니다.
 
@@ -112,10 +198,22 @@ DSPy에서 제공하는 predict 모듈을 사용합니다. 이 모듈은 LLM에 
 
 생성된 프롬프트: Mistral-7B-Instruct-v0.1-GPTQ
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-**- 미컴파일된 베이스라인 프로그램 프롬프트.
-- 컴파일된 베이스라인 프로그램 프롬프트.**
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+\*\*- 미컴파일된 베이스라인 프로그램 프롬프트.
+
+- 컴파일된 베이스라인 프로그램 프롬프트.\*\*
 
 ## 2. 연상의 연쇄 프로그램
 
@@ -123,7 +221,18 @@ DSPy에서 제공하는 predict 모듈을 사용합니다. 이 모듈은 LLM에 
 
 생성된 프롬프트: GPT-3.5 Turbo 16K
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 컴파일하지 않은 'Chain of Thought' 프로그램 프롬프트.
 - 컴파일된 'Chain of Thought' 프로그램 프롬프트.
@@ -135,7 +244,18 @@ DSPy에서 제공하는 predict 모듈을 사용합니다. 이 모듈은 LLM에 
 
 # 3. Multi Comparison Program
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 프로그램은 모듈을 여러 개 호출하여 예측 모듈을 통해 임의의 요청을 발생시켜 질문에 대한 여러 후보 답변을 생성합니다. 이러한 후보 답변을 다른 모듈에 공급하여 최적의 답변을 결정할 수 있습니다.
 
@@ -146,7 +266,18 @@ DSPy에서 제공하는 predict 모듈을 사용합니다. 이 모듈은 LLM에 
 - 컴파일되지 않은 다중 비교 프로그램 프롬프트
 - 컴파일된 다중 비교 프로그램 프롬프트
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **10. The Tarot Guide**
 
@@ -156,7 +287,18 @@ DSPy에서 제공하는 predict 모듈을 사용합니다. 이 모듈은 LLM에 
 
 이 프로그램은 "대형 언어 모델을 아날로그 추론자로 사용"이라는 논문에서 영감을 받은 멀티 모듈 프로그램입니다. 이 프로그램은 Analogy, ExampleQuestionAnswer, 및 ContextQuestionAnswer 클래스에 의해 정의된 사용자 지정 서명을 가진 Predict 및 Chain of Thought 모듈을 사용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로그램은 먼저 유사한 예시 질문(또는 유추)을 임의로 생성한 후, 사고 연쇄 프롬프팅을 사용하여 유추 질문에 답변을 생성합니다. 마지막으로, 사고 연쇄 프롬프팅을 사용하여 예시 질문과 답변의 문맥을 기반으로 원래 질문에 대한 답변이 생성됩니다.
 
@@ -167,10 +309,22 @@ DSPy에서 제공하는 predict 모듈을 사용합니다. 이 모듈은 LLM에 
 
 생성된 프롬프트: Mistral-7B-Instruct-v0.1-GPTQ
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-**- 컴파일되지 않은 유추 프로그램 프롬프트.
-- 컴파일된 유추 프로그램 프롬프트.**
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+\*\*- 컴파일되지 않은 유추 프로그램 프롬프트.
+
+- 컴파일된 유추 프로그램 프롬프트.\*\*
 
 ## 프로그램 평가
 
@@ -178,7 +332,18 @@ DSPy에서 제공하는 predict 모듈을 사용합니다. 이 모듈은 LLM에 
 
 테스트 데이터셋이 매우 작기 때문에 결과는 결론을 내기에는 아직 미흡할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## GPT-3.5 Turbo 16K
 
@@ -188,7 +353,18 @@ DSPy에서 제공하는 predict 모듈을 사용합니다. 이 모듈은 LLM에 
 
 ## Mistral-7B-Instruct-v0.1-GPTQ
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Mistral 모델은 컴파일 후 어떤 향상도 나타내지 않습니다. 마지막 섹션에 링크된 프롬프트를 면밀히 조사하면, 모델이 부트스트랩된 예제가 프롬프트에 포함된 경우 혼란스러워하는 것으로 보입니다.
 
@@ -198,7 +374,18 @@ Mistral 모델은 컴파일 후 어떤 향상도 나타내지 않습니다. 마�
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 DSPy는 프롬프트 엔지니어링에서의 패러다임 변화입니다. 긴 텍스트 프롬프트를 손으로 입력하는 대신, 프로그램을 구축하여 자동으로 생성하고 있습니다. 또한, 문구를 다듬는 대신, 정의된 성능 지표에 대해 프로그램을 최적화하고 있습니다.
 
@@ -208,7 +395,18 @@ DSPy를 사용한 프롬프트 엔지니어링은 컴퓨터 프로그래밍 쪽�
 
 프레임워크에 대해 두 가지 문제점만 있습니다. 첫 번째는 접근 가능한 문서가 부족하다는 것입니다. 그러나, 저자들은 노트북, 강의, 그리고 물론 소스 코드를 제공했습니다. 충분한 인내심과 연습을 통해 그 문제를 극복하는 것은 그리 어렵지 않습니다. 두 번째 문제는 모니터링에 관한 것으로, 컴파일 과정 주변에 어떤 더 나은 분석이 있으면 좋겠다는 점입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 If you want to delve deeper into the subject, I highly recommend checking out the collaborative notebook I've put together. I provide a walkthrough of the notebook in my YouTube video.
 
@@ -218,6 +416,17 @@ If you're eager to enhance your artificial intelligence skills, consider joining
 
 For those looking to bring AI transformation to their business, schedule a discovery call today.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인공 지능, 데이터 과학 및 대규모 언어 모델에 대한 추가 통찰을 얻고 싶다면 YouTube 채널을 구독해보세요. 🌟✨

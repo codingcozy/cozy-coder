@@ -3,7 +3,7 @@ title: "Flutter를 게임 엔진으로 활용하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-17-FlutterIsAGameEngineNow_0.png"
 date: 2024-08-17 00:18
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-17-FlutterIsAGameEngineNow_0.png
 tag: Tech
 originalTitle: "Flutter Is A Game Engine Now"
@@ -11,8 +11,6 @@ link: "https://medium.com/@impure/flutter-is-a-game-engine-now-db6b1bbce721"
 isUpdated: true
 updatedAt: 1723863627535
 ---
-
-
 
 ![Flutter 3.24](/assets/img/2024-08-17-FlutterIsAGameEngineNow_0.png)
 
@@ -22,8 +20,18 @@ updatedAt: 1723863627535
 
 ![Sliver Animation](/assets/img/2024-08-17-FlutterIsAGameEngineNow_1.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비록 내 것이 훨씬 멋지긴 해요.
 
@@ -33,7 +41,18 @@ updatedAt: 1723863627535
 
 곧 더 많은 광고 제공 업체가 생길 거에요. 이전에는 구글 모바일 광고만 있었는데, 이제 웹 지원도 추가될지도 몰라요. 🤞
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 거기에 Swift Package manager가 있습니다. Cocoapods는 한동안 작동하지 않았어요. 심지어 제가 문제를 해결하는 방법에 대해 블로그 글을 썼고, 아직도 독자들이 보고 있어요. 문제를 해결할 수 있는 답이 있지만 너무 복잡해서 지쳤기 때문에 글을 썼죠.
 
@@ -43,7 +62,18 @@ iOS/Mac에 빌드하는 것을 두려워하는 사람들도 보았어요. 그렇
 
 이 문제를 조사해보았어요. 핵심 문제는 Cocoapods가 — 사라지지는 않았지만 — 예전과 다르다는 점이네요. 대부분의 사람들은 Swift Package Manager로 이동하고 있는 것 같아요. 그리고 Flutter도 이제 이동하려고 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것이 Flutter 3.24에서의 모든 큰 발표 사항입니다. 그런데 또 뭔가 눈에 띄는 게 있었어요...
 
@@ -53,8 +83,18 @@ iOS/Mac에 빌드하는 것을 두려워하는 사람들도 보았어요. 그렇
 
 정말 강력하군요. 이 이미지를 멈출 수 없어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-08-17-FlutterIsAGameEngineNow_2.png" />
 
@@ -64,8 +104,18 @@ iOS/Mac에 빌드하는 것을 두려워하는 사람들도 보았어요. 그렇
 
 텍스처와 실시간 반영. 말 그대로 헬멧이 빛을 받지 않아서 전체적으로 밝기가 동일하지만 여전히 놀라운 데모야. 아마 심지어 Flutter Forward의 3D보다 더 인상적일지도 몰라.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2024년이 플러터에게 큰 해가 될 것이라는 내 생각을 더욱 확고히 했어요. 게임 산업에서 발견한 몇 가지 걱정스러운 트렌드를 지적한 글이었죠. Unity가 미친 듯한 설치 수수료를 도입하려고 시도하고, 언리얼도 비슷한 일을 하지만 게임 개발자를 위한 것은 아니라서 괜찮다고 판단했으며, 고돗은 사용자 친화성이 부족하다는 점을 지적했어요.
 
@@ -75,7 +125,18 @@ iOS/Mac에 빌드하는 것을 두려워하는 사람들도 보았어요. 그렇
 
 플러터의 3D 지원에 그다지 감명받지 않았기 때문에 그랬던데요. Flutter를 사용하여 3D를 활용한 게임잼 게임 몇 개를 시도해봤는데 하드웨어 가속화가 되지 않았기 때문에 성능이 좋지 않았어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 플러터 포워드에서 임펠러가 문제를 해결하고 플러터에 GPU 가속 그래픽을 제공할 수 있다는 것이 보여졌어요. 하지만 언제 준비가 될지 확신하지 못했죠. 그리고 제게는 여전히 기술 데모처럼 보였어요: 텍스처, 그림자, 물리 효과가 없었습니다. 그렇다면 지금은 어떤가요?
 
@@ -85,7 +146,18 @@ iOS/Mac에 빌드하는 것을 두려워하는 사람들도 보았어요. 그렇
 
 비디오 게임에서 불필요하게 어려운 것이 있을 때, 바로 UI라는 것이죠. 그리고 플러터는 그것을 쉽게 처리할 수 있습니다. 저는 플러터가 성공할 것이라는 의심이 들지 않아요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만, 이게 맞는 결정인가요?
 
@@ -95,6 +167,17 @@ iOS/Mac에 빌드하는 것을 두려워하는 사람들도 보았어요. 그렇
 
 실은 Flutter/Dart 가비지 수집기에 대한 또 다른 포스트를 작업 중인데, 저는 그것이 별로 좋지 않다고 생각해요. also여기에 이 게임 개발 각도가 추가되면 Flutter가 마침내 그 문제에 대처할 수밖에 없게 될지도 모르겠죠. 그런데 그런 일이 벌어진다면 큰 뉴스가 될 거 같아요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-*혹시 과장일 수도 있어요*
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+_혹시 과장일 수도 있어요_

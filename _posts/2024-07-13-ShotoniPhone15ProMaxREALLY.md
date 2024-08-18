@@ -3,17 +3,13 @@ title: "iPhone 15 Pro Max로 찍은 사진  정말 대단해"
 description: ""
 coverImage: "/assets/img/2024-07-13-ShotoniPhone15ProMaxREALLY_0.png"
 date: 2024-07-13 01:08
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-ShotoniPhone15ProMaxREALLY_0.png
 tag: Tech
 originalTitle: "Shot on iPhone 15 Pro Max — REALLY!"
 link: "https://medium.com/macoclock/shot-on-iphone-15-pro-max-really-13d64e95d5c7"
 isUpdated: true
 ---
-
-
-
-
 
 ![2024-07-13-ShotoniPhone15ProMaxREALLY_0.png](/assets/img/2024-07-13-ShotoniPhone15ProMaxREALLY_0.png)
 
@@ -23,7 +19,18 @@ Tim Cook이 작별 인사를 건네며 최종 팬 업까지 이벤트를 실시�
 
 몇 시간 뒤에 일어나자마자 트위터가 우리가 거의 불가능한 것을 목격했다는 사실에 대해 소문이 났습니다. 내 피드는 'WTF'와 같은 댓글으로 넘쳤습니다. 어떤 사람들은 감탄했고, 어떤 사람들은 회의적이었고 다른 사람들, 나 포함, 그냥 아연이었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아이폰 카메라의 우수성을 강조해야 한다고 생각했었는데, Apple이 이벤트에서 어떤 영상을 통해 그것을 보여주기로 했더라면 좋겠다고 생각했었습니다. 물론, Apple답게, 그들은 전부 아이폰으로 촬영하는 전체 영상을 포함시키기로 결정했어요!
 
@@ -33,7 +40,18 @@ Tim Cook이 작별 인사를 건네며 최종 팬 업까지 이벤트를 실시�
 
 이상하게도, 유럽 연합(EU)이 아이폰 촬영 논란에 대해 이야기하는 이 모든 소문에 대해 우리는 감사해야 할 것 같아요. 만약 그들의 개입이 없었다면 전원과 태블릿에 USB-C가 도입되도록 요구하지 않았더라면, Apple은 붉은색 끔찍한 라이트닝 커넥터가 달린 아이폰을 계속 판매할 것이라고 생각해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아이폰에 빠른 USB-C 커넥터가 들어올 때까지 그들의 카메라는 효과적으로 한 손을 뒤로 돌린 채였다. ProRes로 촬영할 수 있는 것도 좋았지만, 전화기는 최악의 연결성 때문에 몇 분 이상의 파일을 받아볼 수 없어 한계가 있었어요.
 
@@ -43,7 +61,18 @@ Tim Cook이 작별 인사를 건네며 최종 팬 업까지 이벤트를 실시�
 
 만약 지난 이벤트에서 애플이 한 것과 비슷한 방식으로 아이폰을 사용하는 것이 당신에게 흥미롭다면, 오늘의 이야기가 도움이 될 것입니다. 나중에는 아이폰 비디오 너무 별난 배웠더니 좋았다 랑진에서 어떤 조정 및 기능이 더 많이 필요한지 알려드리겠습니다. 그러나 우선, 이벤트 이름을 무척 훌륭하게 아이폰에서 촬영되었다고 극찬하는 것이 아닌가 하는 나의 생각을 들어보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 아이폰으로 촬영
 
@@ -53,7 +82,18 @@ Tim Cook이 작별 인사를 건네며 최종 팬 업까지 이벤트를 실시�
 
 애플 이벤트들처럼, 이 이벤트는 전문 크루들이 필요해 — 백스테이지 촬영을 본 적이 있다면, 50이나 60명의 스텝, 돌리들, 기구들과 수많은 스카이패널을 본 적이 있을 거야 — 촬영장에서 본 가격은 각각 약 $6000 정도 했지. 근데 내가 이 점에 전혀 문제가 없다고 말할게.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-07-13-ShotoniPhone15ProMaxREALLY_2.png](/assets/img/2024-07-13-ShotoniPhone15ProMaxREALLY_2.png)
 
@@ -63,7 +103,18 @@ Tim Cook이 작별 인사를 건네며 최종 팬 업까지 이벤트를 실시�
 
 하지만 의심하는 사람들이 간과하는 핵심은 그 모든 장비들의 가운데에 아이폰이 있다는 점입니다. 그들은 모든 같은 장비를 사용했지만 유리만 교체했을 뿐 - 그 모든 것의 핵심에 있는 카메라는 아이폰이었죠. 그들은 우리를 속이지 않았어요 - 서드파티 렌즈나 ND 필터가 부착되지 않았어요 - 그저 순수한 아이폰 15 Pro Max였는데요 - 우리 주머니에 있는 것과 똑같은 아이폰이었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 게임 체인징
 
@@ -71,7 +122,18 @@ Tim Cook이 작별 인사를 건네며 최종 팬 업까지 이벤트를 실시�
 
 이 비디오를 촬영한 주요 24mm 렌즈는 ƒ1.8로 고정되어 있으며 매우 약한 흐림 또는 깊이를 제공합니다. 하지만 역시 £1000 짜리 아이폰이 이제 DSLR 카메라들과 격전을 벌이고 있다는 것을 생각해보면요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 시네마토그라피나 카메라에 대해 많은 지식이 있는 것처럼 꾸밈없이 이야기하지는 않아요. 최근에 관심을 갖게 되었고 그에 대해 알아가는 것을 즐기고 있어요. 애플이 iPhone으로 이룬 성과에 대한 많은 이야기들이 나왔더니, 그것이 마치 알라딘의 비밀 동굴을 여는 것 같은 느낌이었어요. 지금까지 많은 정보들이 나에게 주어져서 이것저것 물어볼 수 있게 되었고, 지금까지 배운 것들을 곧 당신과 공유할 거에요.
 
@@ -81,7 +143,18 @@ Tim Cook이 작별 인사를 건네며 최종 팬 업까지 이벤트를 실시�
 
 사실 내가 원하는 느낌을 얻는 게 쉽지가 않아요 — 그래서 이 글을 쓰는 부분이 당신에게 도움이 되도록 하는 것과 도움이 될 아이디어가 있다면 함께 나눠보려고 하는 거에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내가 사용한 초기 Apple 카메라 앱은 iPhone과 함께 제공되는 것입니다. 그러나 꽤 제한적이라는 것을 깨달았어요. 그럼에도 불구하고, 꽤 괜찮은 시작점이고, 결과물을 건드릴 수 있는 기능이 매우 적기 때문에 나쁘지 않았어요.
 
@@ -91,7 +164,18 @@ Tim Cook이 작별 인사를 건네며 최종 팬 업까지 이벤트를 실시�
 
 만약 로그 영상을 본 적이 있다면, 그것이 펼쳐지고 회색조로 보이며 가장 먼저 처리해야 할 것은 작업 가능한 색상 공간으로 되돌려야 한다는 것을 아실 거예요. REC 709가 가장 널리 인정받는 작업 공간처럼 보이네요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 이벤트가 내 마음을 얼마나 흔들었는지 알겠지. 내게는 훌륭한 Canon 90D가 있어서 좋은 결과물을 준다고 해도 iPhone 속에 더 좋은 결과물이 숨어있을 것 같아. 그 이벤트를 봤으니까, 달성 가능하다는 걸 알아!
 
@@ -101,7 +185,18 @@ Tim Cook이 작별 인사를 건네며 최종 팬 업까지 이벤트를 실시�
 
 최근에 iPhone 15 Pro Max 사용자들이 무료 블랙매직 앱으로 전환하고 있다는 소문을 들은 적이 있어.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 휴대폰에 설치한 후에도 여전히 문제가 발생 중이에요 — 하지만 조금씩 진전되고 있어요. 이 앱은 FilmicPro의 모습과 매우 흡사하며 카메라를 완전히 제어할 수 있게 해줘요.
 
@@ -111,7 +206,18 @@ Tim Cook이 작별 인사를 건네며 최종 팬 업까지 이벤트를 실시�
 
 마지막으로 Blackmagic 앱에서 조절할 수 있는 설정은 ISO 설정과 화이트 밸런스에요. 제가 아는 것보다 더 많은 지식이 있기를 바라지만, 이 여정을 시작하시는 분들을 위해 지금까지 알아낸 것을 알려드릴게요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 가볍게 가기
 
@@ -121,7 +227,18 @@ Tim Cook이 작별 인사를 건네며 최종 팬 업까지 이벤트를 실시�
 
 아이폰 셔터가 빛에 매우 민감하다는 것 같습니다. 스튜디오에서 키 조명을 보통 100%로 사용하면 캐논이 훌륭한 결과를 내지만, 아이폰은 항상 강하게 과노출됩니다. 키 조명을 약 30%로 어둡게 조절했더니 도움이 되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나의 얼굴은 여전히 너무 밝거나 붉게 나온다. 당분간 해답은 없어 보인다. 너무 많은 빛이 들어왔기 때문에 밝게 나오는 것은 알겠는데, 왜 초콜릿 색조가 있는지는 모른다. 하지만 확신해, 나는 결국 이 문제의 근본에 다다를 거야.
 
@@ -131,7 +248,18 @@ Tim Cook이 작별 인사를 건네며 최종 팬 업까지 이벤트를 실시�
 
 나는 이전에 로그 모드로 촬영하고 있어서 촬영물을 확인하는 게 매우 힘들었거나 불가능했다. 하지만 설정에서 `LUTS` `디스플레이 LUT`로 가면, 갑작스럽게 스크린에 나오는 게 실제 결과물과 일치하는 걸 확인할 수 있게 돼! 오늘 일찍 이런 유레카의 순간을 느꼈어. 나는 이 LUT를 내 맥북에 내보내어 편집할 때 로드할 수 있게 했어. LUT를 클립에 녹화하는 옵션이 있긴 한데, 그건 좋은 생각이 아닐 거라 생각해. 로그 모드로 촬영하는 것의 핵심은 편집 과정에서 최대한 유연성을 가지기 위함이니까.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 나는 지지 않을 거야
 
@@ -141,7 +269,18 @@ Tim Cook이 작별 인사를 건네며 최종 팬 업까지 이벤트를 실시�
 
 저 스캐리 패스트 이벤트 때문에 젠장 — 아이맥 비용이 들었을 뿐만 아니라 더 많이 배우고 싶게 만들어 버렸어 — 그리고 빨리 배우고 싶다는 말이야. 하나 확실한 건 이 이벤트가 iPhone으로 촬영됐다 해도, 촬영과 편집한 팀이 정말 재능 있었다는 것이지!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 공간을 지켜봐 주세요… 곧 내 비디오 중 하나에 "아이폰 촬영"이라는 태그가 붙을 거에요!
 

@@ -3,17 +3,13 @@ title: "SQL에서 Anti-Join과 Semi-Join 쉽게 이해하기"
 description: ""
 coverImage: "/assets/img/2024-06-23-Anti-JoinSemi-JoininSQL_0.png"
 date: 2024-06-23 16:45
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-Anti-JoinSemi-JoininSQL_0.png
 tag: Tech
 originalTitle: "Anti-Join , Semi-Join in SQL"
 link: "https://medium.com/@ritusantra/anti-join-semi-join-in-sql-077582f67ea8"
 isUpdated: true
 ---
-
-
-
-
 
 ## Anti-Join 및 Semi-Join 이해하기 - 예제와 함께
 
@@ -23,7 +19,18 @@ Anti-Join은 테이블 A에 있는 행 중 테이블 B에 없는 행을 얻는 �
 
 예를 들어, 주문을 한 번도 하지 않은 고객을 식별하려면 Anti-Join을 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 테이블 A를 고객이고 테이블 B를 주문으로 고려해 봅시다.
 
@@ -39,13 +46,24 @@ WHERE o.customer_id IS NULL;
 
 세미 조인은 테이블 B에서 조건이 일치하는 경우에만 테이블 A에서 행을 반환합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 주문을 한 고객만 식별하고 싶다면 이 세미 조인을 활용할 수 있습니다.
 
 ```js
 SELECT customer_id
-FROM orders 
+FROM orders
 WHERE customer_id IN (SELECT customer_id FROM customers);
 ```
 
@@ -54,7 +72,18 @@ WHERE customer_id IN (SELECT customer_id FROM customers);
 - Anti-Join: 두 번째 테이블에 일치하는 행이 없는 첫 번째 테이블의 행을 검색합니다.
 - Semi-Join: 두 번째 테이블에서 적어도 일치하는 행이 하나 이상 있는 첫 번째 테이블의 행을 검색합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 행복한 학습되세요! 화이팅!
 

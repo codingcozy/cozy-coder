@@ -3,7 +3,7 @@ title: "Jetpack Compose 입문 시작하는 방법 및 기본 개념"
 description: ""
 coverImage: "/milky-road.github.io/assets/no-image.jpg"
 date: 2024-07-06 03:15
-ogImage: 
+ogImage:
   url: /milky-road.github.io/assets/no-image.jpg
 tag: Tech
 originalTitle: "Introduction To Jetpack Compose"
@@ -11,15 +11,22 @@ link: "https://medium.com/@adityatheprogrammer/introduction-to-jetpack-compose-8
 isUpdated: true
 ---
 
-
-
-
-
 🌟 안녕하세요! 이쪽은 아디티야입니다. 요즘 네이티브 안드로이드 개발에서 Jetpack Compose라는 용어가 많은 주목을 받고 있어요. 하지만 궁금증이 생깁니다. 바로, Jetpack Compose가 무엇인가요?
 
 Jetpack Compose는 Google에서 개발한 안드로이드를 위한 선언형 UI 프레임워크에요. 기본적으로 앱을 위한 사용자 인터페이스(UI)를 구축하는 데 사용됩니다. 선언형의 의미가 여기서 무엇인지 의문이 드실지도 모르겠죠. ✨
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "선언적"이라는 용어란 무엇을 의미할까요?
 
@@ -44,7 +51,18 @@ DisplayMessage(isSuccess = true)
 
 위 예시에서는 isSuccess를 true로 전달하면 "Success"가 표시되고, false로 전달하면 "Failed"가 표시됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그것은 선언형 UI 프레임워크의 작은 예제예요.
 
@@ -60,7 +78,18 @@ DisplayMessage(isSuccess = true)
 - 애니메이션 및 전환: Compose는 애니메이션 및 전환을 구현하기 위한 간단한 API를 제공해 원활하고 동적인 UI를 쉽게 만들 수 있어요.
 - 테마 및 스타일링: Compose는 유연한 테마 및 스타일링 시스템을 제공하여 앱 전체에 일관된 스타일을 쉽게 적용할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로 Jetpack Compose은 성장 중인 기술이며 Google이 완전히 지원하고 있으며 최신 안드로이드 플랫폼 기능과 모범 사례에 대해 최신 정보를 제공하고 있습니다. 또한 커뮤니티도 성장 중이며 많은 사람들이 매우 열심히 노력하고 있어 자원 및 라이브러리의 부족이 없습니다.
 
@@ -70,7 +99,18 @@ Jetpack Compose은 새로운 라이브러리와 효율적인 성능을 제공하
 
 XML에서 Jetpack Compose로 넘어가보세요! 💡
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제가 지금 Medium 기사 작성을 시작했고, 안드로이드 개발에 대한 학습과 경험을 모두 공유할 예정인 '젯팩 컴포즈 시리즈'를 시작했습니다.
 

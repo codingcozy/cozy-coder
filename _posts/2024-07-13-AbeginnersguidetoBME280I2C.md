@@ -3,17 +3,13 @@ title: "초보자를 위한 BME280 I2C 사용 가이드"
 description: ""
 coverImage: "/assets/img/2024-07-13-AbeginnersguidetoBME280I2C_0.png"
 date: 2024-07-13 22:17
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-AbeginnersguidetoBME280I2C_0.png
 tag: Tech
 originalTitle: "A beginner’s guide to BME280 I2C"
 link: "https://medium.com/gitconnected/a-beginners-guide-to-bme280-i2c-00bd4c6bcaad"
 isUpdated: true
 ---
-
-
-
-
 
 # 여기서 무엇을 할 것인가요?
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 현대 시대의 소프트웨어 엔지니어로서, 저는 모든 것을 단순화하는 편리한 고수준 프로그래밍 언어를 사용하여 코드를 작성하는 데 많은 시간을 보냈습니다. 그러나 항상 하위 레벨에서 작동하는 방식에 대해 궁금했습니다. 그래서 아두이노에 착수하게 되었습니다 :)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아무것도 모르는 초보자로서, 주변 장치들이 너무 많이 얽혀있어서 간단하게 하기로 결정했고, 아두이노를 사용하여(나의 경우에는 나노) 현재 온도, 기압 및 습도를 보여주는 작은 장치를 만들기로 했습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 # Wiring
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 센서 모듈 자체를 자세히 살펴보고 올바르게 연결하는 방법을 이해해봅시다.
 
@@ -46,7 +64,18 @@ isUpdated: true
 - SCL: 시리얼 클럭 핀입니다. 아두이노의 해당 SCL 핀에 연결해주세요.
 - SDA: 시리얼 데이터 핀입니다. 아두이노의 해당 SDA 핀에 연결해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 BME280 모듈의 핀이 무엇인지 알았으니, 아두이노 나노에 연결해야 할 위치를 찾아봅시다. VIN 및 GND 핀은 직관적이며, 그들은 아두이노의 왼쪽 아래 모서리에 있을 것입니다. SDA 및 SCL은 일부 아두이노 보드에서 특별히 표시되지 않았기 때문에 찾기가 약간 까다로울 수 있습니다.
 
@@ -54,7 +83,18 @@ isUpdated: true
 
 이러한 핀을 연결하는 데 어떤 방법이든 사용할 수 있습니다. 나는 BME280 모듈에 핀 커넥터를 납땜하고 점퍼 와이어로 브레드보드에 연결했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그거죠! 우리 하드웨어는 모두 연결되어 있으니, 이제 소프트웨어 부분에 집중할 차례에요.
 
@@ -64,7 +104,18 @@ isUpdated: true
 
 새 프로젝트에는 자주 사용할 것으로 예상되는 2개의 기본 기능이 포함되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 #include <Arduino.h>
@@ -90,7 +141,7 @@ static const uint8_t SCL = PIN_WIRE_SCL;
 ```js
 // wire/src/utility/twi.c
 
-/* 
+/*
  * Function twi_init
  * Desc     readys twi pins and sets twi bitrate
  * Input    none
@@ -99,7 +150,7 @@ static const uint8_t SCL = PIN_WIRE_SCL;
 void twi_init(void)
 {
   /* ..... */
-  
+
   // activate internal pullups for twi.
   digitalWrite(SDA, 1);
   digitalWrite(SCL, 1);
@@ -108,7 +159,18 @@ void twi_init(void)
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 I2C를 통해 장치와 작업을 시작하려면 Wire 라이브러리를 초기화해야 합니다.
 
@@ -129,7 +191,18 @@ void loop() {
 
 BME280 데이터 시트에 따라:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 데이터 시트 읽기
 
@@ -139,7 +212,18 @@ BME280 데이터 시트에 따라:
 
 이 문서에는 센서, 기능, 조건, 전기 및 물리적 특성 등에 대한 많은 유용한 정보가 있어요. 알고 싶은 모든 것이 거기에 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 메모리 맵 및 사용 가능한 레지스터
 
@@ -149,19 +233,30 @@ BME280 데이터 시트에 따라:
 - 0xF7–0xF9는 압력을 저장합니다.
 - 0xFA-0xFC는 온도를 저장합니다.
 - 0xFD — 0xFE는 습도를 저장합니다.
-모든 값은 가장 중요한 바이트부터 가장 덜 중요한 바이트로 정렬되어 있습니다. 다음 섹션에서 전체 값의 읽는 방법을 살펴보겠습니다.
+  모든 값은 가장 중요한 바이트부터 가장 덜 중요한 바이트로 정렬되어 있습니다. 다음 섹션에서 전체 값의 읽는 방법을 살펴보겠습니다.
 - 노랑: 0xF2, 0xF4, 0xF5 — 구성
 - 0xF5는 대기 시간과 IIR 필터 설정을 조정합니다 (이번에는 마지막 비트를 무시합니다).
 - 0xF4는 온도 및 압력 오버샘플링과 센서 모드를 설정합니다.
 - 0xF2는 습도 오버샘플링을 설정합니다.
-참고: ctrl_hum (0xF2)는 ctrl_meas (0xF4) 쓰기 작업 이후에만 유효합니다 (제 5장 제 4.3절)
+  참고: ctrl_hum (0xF2)는 ctrl_meas (0xF4) 쓰기 작업 이후에만 유효합니다 (제 5장 제 4.3절)
 - 회색: 0xD0 — 칩 ID를 저장하는 단일 바이트로, 이를 사용하여 I2C 버스에서 BME280의 존재를 확인합니다.
 - 분홍: 0xE1 — 0xF0, 0x880xA1 — 보정 데이터
-나중에 이 데이터를 살펴볼 것이지만, 기본적으로는 이러한 값들을 사용하여 제공된 공식을 사용해 사람이 읽을 수 있는 센서 값을 계산해야 합니다
+  나중에 이 데이터를 살펴볼 것이지만, 기본적으로는 이러한 값들을 사용하여 제공된 공식을 사용해 사람이 읽을 수 있는 센서 값을 계산해야 합니다
 
 <img src="/assets/img/2024-07-13-AbeginnersguidetoBME280I2C_2.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 시트의 4장은 레지스터와 그 안에 있는 데이터에 대한 많은 세부 정보를 제공하고 있습니다. 조금 더 깊게 파고들고 싶다면 참고하세요.
 
@@ -169,7 +264,18 @@ BME280 데이터 시트에 따라:
 
 BME280 데이터 시트는 센서에 데이터를 읽거나 쓸 때 어떤 데이터를 어떤 순서로 보내야 하는지를 상세히 설명해주어 매우 친절합니다. 6장 2절을 살펴보겠습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-13-AbeginnersguidetoBME280I2C_4.png" />
 
@@ -190,7 +296,18 @@ BME280 데이터 시트는 센서에 데이터를 읽거나 쓸 때 어떤 데�
 
 # 코딩: 센서 데이터 읽기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마침내 데이터를 읽고 구성을 작성할 준비가 되었어요!
 
@@ -240,9 +357,20 @@ void setup() {
 
 void loop() {
 }
-```  
+```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 노트: 만약 BME280를 찾을 수 없다는 메시지가 표시된다면 다음 사항을 확인해보세요:
 
@@ -253,7 +381,18 @@ void loop() {
 
 ## 센서 설정 쓰기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 할 일은 우리가 원하는 설정으로 BME280을 설정하는 것입니다. 이 예제에서는 온도, 습도 및 압력에 대해 x1 오버샘플링, 1000ms 대기 시간, IIR 필터 없이 유지하겠습니다.
 
@@ -263,18 +402,39 @@ void loop() {
 
 config 레지스터 0xF5에서 시작합시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `<img src="/assets/img/2024-07-13-AbeginnersguidetoBME280I2C_5.png" />`
 
 우리는 1000ms 대기 시간과 필터 미사용을 원합니다. 상단 표에 따르면 비트 7, 6 및 5가 대기 시간을 나타내며 해당 값은 왼쪽 하단의 표에 있습니다. 1000ms는 101 조합입니다. 비트 4, 3 및 2는 필터 구성을 나타내며 끄려면 오른쪽 하단의 표에 나와 있는 a000 조합을 사용합니다. 마지막 비트는 사용하지 않을 SPI 인터페이스를 활성화합니다. 이를 0으로 설정합니다. 비트 1은 어디에도 설명되어 있지 않으므로 0으로 설정해 안전하게 무시할 수 있습니다.
 
-따라서, 우리의 값은 101_000_0_0 (_는 가독성을 위한 것) 또는 16진수로 0xA0입니다.
+따라서, 우리의 값은 101*000_0_0 (*는 가독성을 위한 것) 또는 16진수로 0xA0입니다.
 
 다음으로, 온도 및 압력 오버샘플링 및 센서 모드, 레지스터 0xF4입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-13-AbeginnersguidetoBME280I2C_6.png)
 
@@ -286,8 +446,18 @@ config 레지스터 0xF5에서 시작합시다.
 
 그러므로, 0xF4 값은 001_001_11 이 될 것이고, 이는 16진수로 0x27 입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막 레지스터는 습도 오버샘플링 0xF2 입니다.
 
@@ -297,7 +467,18 @@ config 레지스터 0xF5에서 시작합시다.
 
 이제 설정에 대한 모든 값을 가졌으니 써 볼까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 #include <Arduino.h>
@@ -342,10 +523,20 @@ void writeRegister(uint8_t reg, uint8_t value) {
 
 ## 센서의 원시 데이터 읽기
 
-센서 대기 시간을 1000ms로 설정했으므로, 1초마다 원시 센서 데이터를 읽기 위해 delay 함수를 사용하는 루프 함수를 만듭니다. 대부분의 로직을 중지시키는 딜레이는 최상의 방법은 아니지만, 예시로는 충분합니다. 
+센서 대기 시간을 1000ms로 설정했으므로, 1초마다 원시 센서 데이터를 읽기 위해 delay 함수를 사용하는 루프 함수를 만듭니다. 대부분의 로직을 중지시키는 딜레이는 최상의 방법은 아니지만, 예시로는 충분합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![BME280 I2C Raw Values](/assets/img/2024-07-13-AbeginnersguidetoBME280I2C_8.png)
 
@@ -355,8 +546,18 @@ void writeRegister(uint8_t reg, uint8_t value) {
 
 따라서 코딩적인 관점으로 표현하면
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 uint8_t msb = 0x12;
@@ -397,7 +598,18 @@ uint8_t xlsb = 0xA3; // 10100011
 
 따라서 이동 전, 32비트인 msb는 00000000 00000000 00000000 00010010으로 보이며, 이동 후에는 00000000 00000001 00100000 00000000입니다. lsb도 마찬가지이며, xlsb는 오른쪽으로 이동하여 마지막 4비트가 손실됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 데이터를 읽을 시간입니다.
 
@@ -448,7 +660,18 @@ void loop() {
 ----------------
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만, 그들이 전혀 의미가 없다고 하죠? 네, 그 값들은 보상을 받아야 합니다. 본질적으로, BME280 데이터 시트에는 이러한 숫자들을 더 의미 있게 변환하기 위한 3가지 큰 공식이 있습니다.
 
@@ -458,7 +681,18 @@ BME280 보상 공식은 4장 2.3절에서 찾을 수 있습니다. 이들은 매
 
 그러나 우리가 알아야 할 것은, 이러한 공식들이 보정 값들이 필요하다는 것입니다. 다행히도, 이러한 보정 값들은 실제로 BME280 메모리(분홍색 그룹)에 저장되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리의 측정을 보상하기 위해 보정값을 읽고 설정 단계에서 저장해 봅시다.
 
@@ -466,7 +700,18 @@ BME280 보상 공식은 4장 2.3절에서 찾을 수 있습니다. 이들은 매
 
 아래 이미지를 통해 주의해야 할 부분이 있습니다. 맨 아래에서 3번째 줄과 2번째 줄을 유심히 살펴보세요. 0xE5 값이 dig_H4와 dig_H5에서 모두 사용되는 점에 주목해야 합니다. 그러나 dig_H4는 3~0비트를 사용하고, dig_H5는 7~4비트를 사용합니다. 다른 값들은 간단한 비트 이동으로 결합됩니다. 순서를 유지하고 있으면 문제 없을 거에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 #include <Arduino.h>
@@ -566,9 +811,9 @@ void loop() {
 void writeRegister(uint8_t reg, uint8_t value) {
   /* ... */
 }
-``` 
+```
 
-그리고 이렇게 BME280에서 읽은 보정 값들이 많이 나왔어요! 
+그리고 이렇게 BME280에서 읽은 보정 값들이 많이 나왔어요!
 
 다음 단계는 데이터 시트에서 보정식을 복사하여 우리의 원시 측정값에 올바르게 적용하는 것만 하면 될 거예요.
 
@@ -611,7 +856,7 @@ void loop() {
         signed long int rawPressure = ((uint32_t)Wire.read() << 12) | ((uint16_t)Wire.read() << 4) | ((uint8_t)Wire.read() >> 4);
         signed long int rawTemperature = ((uint32_t)Wire.read() << 12) | ((uint16_t)Wire.read() << 4) | ((uint8_t)Wire.read() >> 4);
         signed long int rawHumidity = ((uint16_t)Wire.read() << 8) | Wire.read();
-        
+
         Serial.print("> 압력 mmHg: ");
         Serial.println((int)(getPressurePA(rawPressure) * 0.00750062));
         Serial.print("> 온도 C: ");
@@ -655,7 +900,16 @@ float getPressurePA(signed long int rawPressure) {
 uint8_t getHumidity(signed long int rawHumidity) {
     signed long
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파일 하단에 3개의 매우 큰 보상 공식이 추가되었고, 모든 보정 값들을 사용합니다. 또한 측정치에 대한 시리얼 출력도 업데이트되어 사용합니다.
 
@@ -668,7 +922,16 @@ uint8_t getHumidity(signed long int rawHumidity) {
 > 습도 %: 46
 ----------------
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -681,3 +944,4 @@ uint8_t getHumidity(signed long int rawHumidity) {
 - BME280 데이터 시트: [링크](https://www.mouser.com/datasheet/2/783/BST-BME280-DS002-1509607.pdf)
 - BME280 센서 모듈: [링크](https://www.aliexpress.us/item/3256805781410598.html)
 - 아두이노 나노 3.0: [링크](https://www.aliexpress.us/item/3256805781329423.html)
+```

@@ -3,17 +3,13 @@ title: "맥OS 소노마  첫인상"
 description: ""
 coverImage: "/assets/img/2024-06-19-macOSSonoma1stimpressions_0.png"
 date: 2024-06-19 04:51
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-macOSSonoma1stimpressions_0.png
 tag: Tech
 originalTitle: "macOS Sonoma — 1st impressions"
 link: "https://medium.com/macoclock/macos-sonoma-1st-impressions-e26f58e345c1"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-19-macOSSonoma1stimpressions_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 나는 베타 버전을 설치한 적이 없어요. 그냥 너무 많은 위험이 딸린다고 생각돼서요. 그러나 이전 몇 년간, 나는 언제나 최신 macOS를 설치할 때까지 기다렸어요 — 출시 날짜에는 결코 설치하지 않았어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 조심성이 필요했지만 또한 필수적으로 그랬습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 주말부터 사용하고 있고, 이제 조금 시간을 가지고 재미있게 사용해보았더니, 제가 가장 좋아하는 몇 가지 기능을 우연히 발견해냈습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # macOS Sonoma & 배경 화면들
 
@@ -43,7 +61,18 @@ Apple TV의 고화질 스크린 세이버를 알고 있다면, 이제 이를 Mac
 
 이 정도면 충분히 멋지다고 생각했었는데, 의외로 중독성이 있더라구요. 몇 개의 배경 화면은 갱신 빈도를 선택할 수 있는 옵션도 제공되고 있어요. 갑자기 배경 화면이 '트렌드'가 되고 있어요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신이 사용하고 싶은 위젯을 먼저 다운로드해야 할 거에요. 하지만 믿어봐, 너무 다양한 선택지가 있어.
 
@@ -53,8 +82,18 @@ Apple TV의 고화질 스크린 세이버를 알고 있다면, 이제 이를 Mac
 
 나는 정말 위젯에 신경 쓴 적이 없어, 하지만 당신이 좋아하는 것이라면, macOS 소놈에 포함돼 있을 거야.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-06-19-macOSSonoma1stimpressions_1.png](/assets/img/2024-06-19-macOSSonoma1stimpressions_1.png)
 
@@ -64,8 +103,18 @@ Apple TV의 고화질 스크린 세이버를 알고 있다면, 이제 이를 Mac
 
 ![2024-06-19-macOSSonoma1stimpressions_2.png](/assets/img/2024-06-19-macOSSonoma1stimpressions_2.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 '기능'이 이전에 존재했는지 알 수 없지만, 방금 데스크톱을 클릭하면 모든 열린 앱이 한쪽으로 이동한다는 것을 발견했어요 — 그래서 특정 폴더를 찾고 있을 때, 또 다른 데스크톱 화면을 열 필요없이 빨리 화면을 정리할 수 있는 방법이에요.
 
@@ -75,7 +124,18 @@ Apple TV의 고화질 스크린 세이버를 알고 있다면, 이제 이를 Mac
 
 간단히 말하면, 보고 있는 웹 사이트를 독에 앱으로 저장할 수 있다는 뜻이에요. 이번 릴리스에서 마주한 모든 것처럼 사용하기도 쉬워요. Twitter(X)를 독에 추가하려면 화면 상단에 있는 '파일'로 이동한 후, 거기서 맨 아래 네 번째 옵션이 이제 '독에 추가'로 변경된 것을 찾을 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오, 그리고 이제 Safari에서 별도의 사용자 프로필을 생성할 수 있는 옵션이 추가되었어요. Safari에서 ‘프로필 생성’으로 이동한 후 ‘프로필 사용 시작’을 클릭하세요. 예를 들어 개인적인 트위터 프로필과 비즈니스용 프로필을 갖고 있다면, 이제는 각각의 프로필을 운영할 수 있어요.
 
@@ -85,7 +145,18 @@ Apple TV의 고화질 스크린 세이버를 알고 있다면, 이제 이를 Mac
 
 그런 점에서 향상되었지만, Siri는 그렇지 않은 것 같습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이론적으로 한 단어로 된 '시리' 깨워요 명령어를 사용할 수 있어야 하는데, 실제로 사용해보면 결과가 혼재되었습니다. 그리고 HomePod에 항목을 추가하라고 할 때 혼동을 일으키곤 합니다. 홈 앱에서 개인 알림을 켜라는 메시지가 나오는데, 이미 켜져 있는 상황일 때 말이죠.
 
@@ -95,17 +166,39 @@ Apple TV의 고화질 스크린 세이버를 알고 있다면, 이제 이를 Mac
 
 작아 보이지만 실제로 유용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요일 내내 떠오르는 항목을 생각날 때마다 추가하여 지속적으로 쇼핑 목록을 유지하고 있는 게 오래된 습관인가요? (제 나이가 드러나는 건 아니죠?!)
 
 ![image](/assets/img/2024-06-19-macOSSonoma1stimpressions_3.png)
 
-이제 '파일'로 가서 새 목록을 만들면 드롭다운에서 '쇼핑' 스타일을 선택할 수 있어요. 리마인더(Reminders)가 자동으로 카테고리를 만들어주기 때문에 쇼핑이 더 쉬워질 거예요. 심지어 카테고리를 원하는 대로 재배열할 수도 있어요. 
+이제 '파일'로 가서 새 목록을 만들면 드롭다운에서 '쇼핑' 스타일을 선택할 수 있어요. 리마인더(Reminders)가 자동으로 카테고리를 만들어주기 때문에 쇼핑이 더 쉬워질 거예요. 심지어 카테고리를 원하는 대로 재배열할 수도 있어요.
 
 제 경험으로는 스마트폰을 통해 Siri로 항목을 신뢰할만큼 신속하게 추가할 수 있고, 정말 유용한 것 같아요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 작은 변화점
 
@@ -115,7 +208,18 @@ Apple TV의 고화질 스크린 세이버를 알고 있다면, 이제 이를 Mac
 
 제안 문구 또는 예측 텍스트가 개선되었어요. 맥의 모든 앱에서 작동하는데, 메시지뿐만 아니라 메일 앱과 이 노트를 쓰고 있는 Ulysses에서도 정말 유용하게 사용되었어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Sonoma은 회색으로 표시된 단어 제안들을 볼 수 있고 스페이스 바를 눌러서 수락할 수 있습니다. 더 사용할수록 내 글쓰기 방식을 배우기 시작했고, 친구야, 인공지능이 일하고 있어요. 이제 괴로움이 아니라 도움이 되고 있어요.
 
@@ -125,7 +229,18 @@ Sonoma은 회색으로 표시된 단어 제안들을 볼 수 있고 스페이스
 
 ![이미지](/assets/img/2024-06-19-macOSSonoma1stimpressions_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 통화 중에 창이나 앱을 공유하고 화면 하단의 삽화로 자신을 오버레이할 수 있습니다. 예를 들어 KeyNote 프레젠테이션을 진행하는 경우에도 화면의 하단에 컷아웃된 모습으로 나타날 수 있어 더욱 업무적인 도구로 활용할 수 있습니다.
 

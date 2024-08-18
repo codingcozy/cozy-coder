@@ -3,17 +3,13 @@ title: "금속 적층 제조에서 AI의 힘 혁신의 새로운 시대"
 description: ""
 coverImage: "/assets/img/2024-06-22-ThePowerofAIinMetalAdditiveManufacturingANewEraofInnovation_0.png"
 date: 2024-06-22 18:30
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-ThePowerofAIinMetalAdditiveManufacturingANewEraofInnovation_0.png
 tag: Tech
 originalTitle: "The Power of AI in Metal Additive Manufacturing: A New Era of Innovation"
 link: "https://medium.com/@metaladditivemanufacturing/the-power-of-ai-in-metal-additive-manufacturing-a-new-era-of-innovation-498d256e5985"
 isUpdated: true
 ---
-
-
-
-
 
 # 소개
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # AM에서 AI의 잠재력
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최근 머신러닝(ML)과 인공지능이 금속 AM 공정을 혁신하고 있어요. 인공지능은 공정-구조-특성 관계를 수립하여 제조 결과를 예측하고 제어하며, 대량의 데이터를 활용하여 결과물을 개선하는 데 도움이 돼요. 이 기능은 고품질 금속 부품을 일정하게 생산하는 데 중요해요.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-22-ThePowerofAIinMetalAdditiveManufacturingANewEraofInnovation_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 디지털 트윈을 활용한 실시간 의사 결정
 
@@ -43,7 +61,18 @@ AI 기술은 디지털 트윈 (DT)을 개발하는 데 중요한 역할을 합�
 
 AM에서 온도와 열기울기를 제어함으로써 결정 성장과 방향을 다룰 수 있어요. 최종 제품의 특성에 중요한 요소들이죠. AI는 이러한 측면을 예측하고 관리하는 데 도움이 되어 복잡한 합금을 정확한 특성으로 제조할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 하드웨어 제약 극복하기
 
@@ -53,7 +82,18 @@ AM에서 온도와 열기울기를 제어함으로써 결정 성장과 방향을
 
 # AI2AM 프로젝트
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AI2AM 프로젝트는 AI를 AM에서 활용하기 위한 노력을 보여주며, 부품 제작 및 인증에서 불확실성을 최소화하기 위한 방법과 표준을 개발하려고 합니다. 이 이니셔티브는 "자체 품질 인증"과 "첫 번째 부품 정확" 결과를 추구하며, AI의 변혁적 잠재력을 진열하고 있습니다.
 
@@ -63,7 +103,18 @@ AM의 AI는 문제 해결만으로 그치던 것에서 방식을 재정립하는
 
 # 요약
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AI와 금속 첨가 제조의 융합은 게임 체인저입니다. AI의 대량 데이터 처리 능력은 AM 프로세스의 정밀성, 효율성, 품질을 향상시킵니다. AI가 진화함에 따라 금속 AM을 재정의하고 더 신뢰성 있고 사용자 정의 가능하며 효율적으로 만들어낼 것입니다.
 
@@ -73,7 +124,18 @@ AI와 금속 첨가 제조의 융합은 게임 체인저입니다. AI의 대량 
 
 참고 문헌:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 https://link.springer.com/article/10.1007/s00466-020-01952-9
 
@@ -83,7 +145,18 @@ https://www.sciencedirect.com/science/article/pii/S2214785322011415
 
 https://iopscience.iop.org/article/10.1088/2515-7639/ac2791
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - [https://www.metal-am.com/articles/the-convergence-of-additive-manufacturing-and-ai/](https://www.metal-am.com/articles/the-convergence-of-additive-manufacturing-and-ai/)
 - [https://www.nist.gov/programs-projects/advanced-informatics-and-artificial-intelligence-additive-manufacturing](https://www.nist.gov/programs-projects/advanced-informatics-and-artificial-intelligence-additive-manufacturing)

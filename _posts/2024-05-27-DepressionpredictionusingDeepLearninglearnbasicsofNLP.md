@@ -3,16 +3,13 @@ title: "딥 러닝을 이용한 우울증 예측 NLP 기초 배우기"
 description: ""
 coverImage: "/assets/img/2024-05-27-DepressionpredictionusingDeepLearninglearnbasicsofNLP_0.png"
 date: 2024-05-27 14:08
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-DepressionpredictionusingDeepLearninglearnbasicsofNLP_0.png
 tag: Tech
 originalTitle: "Depression prediction using Deep Learning (learn basics of NLP)"
 link: "https://medium.com/@omid3jafari/depression-prediction-using-deep-learning-learn-basics-of-nlp-5c05c97d01a9"
 isUpdated: true
 ---
-
-
-
 
 <table>
   <tr>
@@ -27,7 +24,18 @@ isUpdated: true
 
 1 — Tokenizer가 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2 — texts_to_sequences란 무엇인가요?
 
@@ -39,7 +47,18 @@ isUpdated: true
 
 이 코드는 텍스트 데이터를 포함하는 이진 NLP 데이터셋에 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 1 — 토크나이저란:
 
@@ -51,7 +70,18 @@ world는 1로 표현
 
 이를 수행하기 위해 토크나이저를 사용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 토크나이저를 사용하여 단어, 하위 단어, 문자를 숫자로 변환하고 각 단어를 숫자로 변환한 것을 토큰이라고 합니다.
 
@@ -61,7 +91,18 @@ world는 1로 표현
 
 우선 데이터셋을 가져와야 합니다. 이 논문에서 사용된 데이터셋은 아래 링크를 통해 찾을 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 프로그래밍 해봐요 :))
 
@@ -73,7 +114,18 @@ dataset = pd.read_csv("D:ITML projectPredict depressiondepression_dataset_reddit
 
 이제 문장과 레이블을 위한 변수 두 개를 정의해야 해요 :
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 sentences = dataset["clean_text"];
@@ -86,7 +138,18 @@ labels = dataset["is_depression"];
 
 데이터는 7731개의 행(샘플)을 포함하고 있으며, 0부터 6000까지는 훈련 데이터로 정의하며, 즉 6000 이전의 모든 데이터는 훈련에, 그 이후의 모든 데이터는 테스트에 사용합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 training_size = 6000
@@ -117,7 +180,18 @@ tokenizer.fit_on_texts(training_sentences) #단어를 숫자로 변환하기
 
 oov_token='`OOV`': 이 매개변수는 어휘에 없는 단어를 처리하는 데 도움을 줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 lower=True : 모든 단어를 소문자로 변환합니다.
 
@@ -127,7 +201,18 @@ lower=True : 모든 단어를 소문자로 변환합니다.
 
 예를 살펴보겠습니다
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 sentence1 = '개는 좋은 동물이다'
@@ -156,7 +241,18 @@ Output:
 
 예제로 살펴보겠습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 from keras.preprocessing.sequence import pad_sequences
@@ -179,7 +275,18 @@ output:
 
 이제 texts_to_sequences와 Pad sequences가 무엇인지 알았으니 이를 통해 데이터를 처리해봅시다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 from keras.preprocessing.sequence import pad_sequences
@@ -199,9 +306,18 @@ testing_padded = pad_sequences(testing_sequences, maxlen=max_length)
 
 Embedding은 단어를 벡터로 변환합니다. 이를 통해 모델은 단어 간의 관계를 이해할 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, '좋은'과 '나쁜'이라는 단어가 있다고 상상해보세요. 그런데 '나쁘지 않은'처럼 특정한 단어가 있는 경우에는 이 단어가 부정적인 느낌을 나타내는 '나쁜'과 연관되어 있음을 모델이 이해하도록 임베딩이 도움이 됩니다.
 
@@ -211,7 +327,18 @@ Embedding은 단어를 벡터로 변환합니다. 이를 통해 모델은 단어
 
 활성화 함수는 모델이 데이터를 더 잘 이해하도록 돕습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## ReLU 활성화 함수
 
@@ -221,9 +348,18 @@ R(x) = max(0,x)
 
 ## 시그모이드 활성화 함수
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-05-27-DepressionpredictionusingDeepLearninglearnbasicsofNLP_1.png)
 
@@ -233,11 +369,18 @@ If the output of the sigmoid activation function (the last layer) is greater tha
 
 In summary:
 
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
-
-
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 출력 결과 `0.5 — — → 1
 
@@ -263,9 +406,18 @@ num_epochs = 10
 history = model.fit(training_padded, training_labels, epochs=num_epochs, validation_data=(testing_padded, testing_labels))
 ```
 
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 플롯
 
@@ -283,7 +435,18 @@ plt.legend(['accuracy', 'loss'])
 
 ![image](/assets/img/2024-05-27-DepressionpredictionusingDeepLearninglearnbasicsofNLP_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 epoch마다 모델이 개선되었음을 확인할 수 있습니다. 정확도가 증가하고 손실이 감소했어요.
 
@@ -303,7 +466,18 @@ output :
 '''
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 입력 텍스트 (test_sentence)에는 분명히 슬픈 감정이 있습니다. 모델의 출력값은 0.64로, 0.5보다 큽니다. 이전에 언급했듯이, 레이블 1로 할당되어 우울증이 긍정적이라는 것을 의미합니다.
 
@@ -313,6 +487,17 @@ output :
 
 # 마지막 요청
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 읽어 주셔서 감사합니다. 즐거워하셨으면 좋겠어요!

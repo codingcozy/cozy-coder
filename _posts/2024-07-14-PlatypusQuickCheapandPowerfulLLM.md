@@ -3,17 +3,13 @@ title: "2024년 가장 저렴하고 강력한 LLM Platypus"
 description: ""
 coverImage: "/assets/img/2024-07-14-PlatypusQuickCheapandPowerfulLLM_0.png"
 date: 2024-07-14 02:04
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-14-PlatypusQuickCheapandPowerfulLLM_0.png
 tag: Tech
 originalTitle: "Platypus: Quick, Cheap, and Powerful LLM"
 link: "https://medium.com/gitconnected/platypus-quick-cheap-and-powerful-llm-404b86af8755"
 isUpdated: true
 ---
-
-
-
-
 
 ## |인공지능|LLMS|NLP|
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 모델 비용을 줄이는 방법은 무엇일까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지 링크는 아래와 같이 Markdown 형식으로 변환해 주세요.
 
@@ -35,13 +42,35 @@ OpenAI에 따르면, 모델 크기가 커질수록 성능이 향상되며, 새�
 
 이러한 관점은 실제로 더 많은 데이터가 필요하며, 모델을 최적으로 학습시키기 위해 필요한 토큰의 수에 제약을 받는다는 것을 고려해야 한다는 반론이 있습니다. 또한, 이러한 새로운 특성들이 실제로 존재하지 않을 수도 있다는 의견도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 번째로, 이러한 독점 모델들은 과학 커뮤니티에서 자유롭게 분석되거나 사용될 수 없습니다. 그 결과, 커뮤니티는 BLOOM을 시작으로 META의 LLaMA로 나아가며 오픈 소스 모델을 사용하게 되었습니다. LLaMA는 데이터에 대한 관심을 높이는 것이 작은 모델들이 대형 모델들과 경쟁할 수 있게 만드는 것을 보여주기도 했습니다.
 
 하지만, 작은 모델들은 대형 모델들만큼 일반화할 수 없습니다. 이로 인해 이러한 모델들의 비용을 줄이기 위한 기술들을 찾는 노력이 계속되었습니다. 가르침 증류(선생 모델이 학생 모델을 가르치는 방법)과 같은 지식 증류를 통해 이 비용을 줄이는 방식을 찾았습니다. 나중에는 대형 교육 데이터셋에서 시작하여 더 작지만 동시에 효과적인 데이터셋으로 증류하는 방법을 모색하기도 했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다른 아이디어로는 전문가들의 혼합이 비용을 줄이는 데 도움이 될 수 있습니다. 여기서 네트워크의 일부는 입력에 따라 활성화됩니다. 예를 들어, 스위치 트랜스포머에서는 각 예제마다 (그리고 서로 다른 토큰에 대해) 다른 매개변수 집합이 선택됩니다.
 
@@ -51,13 +80,35 @@ OpenAI에 따르면, 모델 크기가 커질수록 성능이 향상되며, 새�
 
 # 플라티퍼스: 신속하고 저렴하며 강력합니다
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-07-14-PlatypusQuickCheapandPowerfulLLM_5.png)
 
 Recently, Platypus shared some exciting updates in an article. They introduced open-platypus, a meticulously curated dataset with separate training and test sets to ensure no contamination. The article also delves into the impact of redundancy, provides detailed method descriptions, code snippets, and additional valuable resources. Fascinating developments in the world of Platypus!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Open-platypus, a human dataset
 
@@ -69,7 +120,18 @@ Recently, Platypus shared some exciting updates in an article. They introduced o
 
 저자들은 총 11개의 데이터셋을 선정하고 주로 인간들이 생성한 질문을 선택했어요 (LLM이 생성한 질문의 약 10%만을 선택했습니다). LLM이 생성한 텍스트를 사용하는 것은 훈련에 있어서 최적이 아니기 때문이라고 해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **이미지**: [PlatypusQuickCheapandPowerfulLLM_6.png](/assets/img/2024-07-14-PlatypusQuickCheapandPowerfulLLM_6.png)
 
@@ -80,19 +142,41 @@ Recently, Platypus shared some exciting updates in an article. They introduced o
 
 ## 테스트 세트를 오염시키지 마세요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-**저자들은 벤치마크 데이터셋의 질문 중 어떤 것도 훈련 세트에 유출되지 않도록 주의를 기울였습니다 (가장 흔한 오류 중 하나).
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+\*\*저자들은 벤치마크 데이터셋의 질문 중 어떤 것도 훈련 세트에 유출되지 않도록 주의를 기울였습니다 (가장 흔한 오류 중 하나).
 
 그러나 이 작업은 쉽지 않습니다. 왜냐하면 질문들이 유사할 수 있고, 질문을 요구하는 여러 가지 방법이 있기 때문입니다. 따라서 저자들은 비슷한 쿼리를 모두 제거했습니다. 실제로 그들의 분석 후, 잠재적인 유출로 간주된 질문을 세 가지 그룹으로 묶었다고 합니다:
 
 - 복제. 복제된 쿼리 중 많은 것들이 정확한 복사본이거나 문장의 재배치 또는 일부 단어의 추가가 있는 것입니다.
 - 회색 영역. 정확히 중복되지 않고 일반 지식 범위 내에 속하는 질문들입니다. 이러한 질문들은 전문가들에 의해 평가되어야 합니다. 왜냐하면 이러한 질문들은 동의어를 포함하거나 매우 유사한 지침을 가지고 있거나 재구성되어 있기 때문입니다.
-- 유사하지만 다름. 이러한 질문들은 높은 코사인 유사도를 가지고 있지만 서로 다른 답변을 가지고 있습니다. 이것은 질문의 구조가 변경되었기 때문입니다.** 
+- 유사하지만 다름. 이러한 질문들은 높은 코사인 유사도를 가지고 있지만 서로 다른 답변을 가지고 있습니다. 이것은 질문의 구조가 변경되었기 때문입니다.\*\*
 
 ![Image](/assets/img/2024-07-14-PlatypusQuickCheapandPowerfulLLM_7.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 세부 조정
 
@@ -102,7 +186,18 @@ Recently, Platypus shared some exciting updates in an article. They introduced o
 
 또 다른 흥미로운 방법은 어댑터를 학습하고 나면 다른 모델들과 통합된다는 점입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Here is the code for each case has been published and is available [here](https://yourwebsite.com).
 
@@ -112,7 +207,18 @@ You can also find it in IPython Notebook and detailed online documentation.
 
 ![Platypus Quick Cheap and Powerful](/assets/img/2024-07-14-PlatypusQuickCheapandPowerfulLLM_9.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작성자들은 HuggingFace 리더보드를 활용하여 모델 결과를 비교하기로 결정했습니다. 작성자들은 8월에 모델이 리더보드에서 1위를 달성했다고 언급하고 있습니다:
 ![이미지](/assets/img/2024-07-14-PlatypusQuickCheapandPowerfulLLM_10.png)
@@ -121,7 +227,18 @@ You can also find it in IPython Notebook and detailed online documentation.
 
 작성자들은 또한 모델이 오픈 소스 모델 중에서 최초로 나타났다고 언급합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-07-14-PlatypusQuickCheapandPowerfulLLM_11.png)
 
@@ -131,7 +248,18 @@ You can also find it in IPython Notebook and detailed online documentation.
 
 # 한계
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-14-PlatypusQuickCheapandPowerfulLLM_13.png)
 
@@ -141,7 +269,18 @@ LLaMA2는 주로 영어 텍스트로 훈련된 모델이기 때문에 다른 언
 
 Platypus가 STEM 분야로 훈련되었음에도 기본 전문 분야 이외의 주제를 다룰 때 어려움을 겪을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마침내, 작가들은 오염을 피하기 위해 주의깊게 한 것 같지만, 여전히 걸러내지 않은 질문들이 남을 수 있습니다.
 
@@ -151,7 +290,18 @@ Platypus가 STEM 분야로 훈련되었음에도 기본 전문 분야 이외의 
 
 미래에는 각 업무 영역에 대한 어댑터가 각각 있어서 기본 모델과 함께 사용될 것이며, 작업에 따라 어댑터가 변경될 수도 있을 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 남성들은 무엇을 생각하시나요? 댓글로 알려주세요
 
@@ -161,6 +311,17 @@ Platypus가 STEM 분야로 훈련되었음에도 기본 전문 분야 이외의 
 
 제 GitHub 저장소 링크는 여기 있습니다. 그 곳에서 기계 학습, 인공 지능 및 기타 다양한 자원과 관련된 코드를 수집할 계획입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또는 제 최근 게시물 중 하나가 궁금할 수도 있습니다:

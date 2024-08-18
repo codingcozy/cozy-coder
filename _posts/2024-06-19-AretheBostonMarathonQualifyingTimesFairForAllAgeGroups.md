@@ -3,17 +3,13 @@ title: "보스턴 마라톤 예선 기준은 모든 연령 그룹에 공정한�
 description: ""
 coverImage: "/assets/img/2024-06-19-AretheBostonMarathonQualifyingTimesFairForAllAgeGroups_0.png"
 date: 2024-06-19 09:17
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-AretheBostonMarathonQualifyingTimesFairForAllAgeGroups_0.png
 tag: Tech
 originalTitle: "Are the Boston Marathon Qualifying Times Fair For All Age Groups?"
 link: "https://medium.com/runners-life/are-the-boston-qualifying-times-fair-for-all-age-groups-7b33a296e02a"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-19-AretheBostonMarathonQualifyingTimesFairForAllAgeGroups_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 약 11,000명의 러너도 예선 시간을 달성했지만 거부당했습니다. 그리고 그 외 많은 수의 러너들이 파격적인 시간을 몇 분 초과하여 예선에 성공하지 못했을 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 집에서 패트리어츠 데이를 보는 모든 러너들을 위해, 물론 내년을 향한 희망이 있습니다. 하지만 올해의 경주에서 주목이 내년에 대한 자격 취득으로 옮겨감에 따라, 대화는 자격 취득 시간을 중심으로 이루어지게 될 것이며, 깊은 컷오프 시간을 피하기 위해 변경이 필요한지에 대한 문제를 둘러싸고 진행될 것입니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 그렇다면 보스턴 자격 기준은 공정한가요 - 아니면 특정 그룹의 러너들을 다른 그룹보다 유리하게 만드는 경향이 있나요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 사용하는 데이터는 무엇인가요?
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 이 샘플에는 미국에서 진행된 2023년 미국 마라톤의 모든 결과가 포함되어 있습니다. 결과는 Marathon Guide, Athlinks 및 특정 대형 레이스의 개별 웹사이트에서 수집되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이름, 성별, 나이 및 각 완주에 대한 시간을 수집했어요. 그런 다음 BAA가 자격 취득 목적으로 사용하는 연령 구간 별로 러너들을 분류했어요.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 # 그래서 몇 명의 사람들이 보스턴 자격 취득 시간을 달렸을까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 큰 그림부터 시작해볼까요? 실제로 자격 시간을 달성한 러너는 몇 명이나 될까요?
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 보스턴 마라톤에 부여된 높은 지위를 고려했을 때, 처음 눈에 띌 정도로 놀랍게 높아 보이죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한편, 2024년 보스턴 마라톤은 기록적인 수의 자격 인정 신청자들을 보았다는 점을 감안하면, 그리 놀라운 일이 아니라고 할 수도 있습니다.
 
@@ -73,7 +124,18 @@ isUpdated: true
 
 # 연령 채점이 자격 시간의 균형에 대해 어떤 것을 시사하나요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 엠퍼리컬 데이터를 살펴보기 전에, 좀 더 일반적인 전제로 시작해볼까요?
 
@@ -83,7 +145,18 @@ isUpdated: true
 
 그렇다면 서로 다른 자격 시간들은 어떻게 나이 등급에 따라 비교될까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 시각은 각 자격 시간에 대한 연령 등급 점수를 플로팅한 것으로, 남성이 왼쪽에, 여성이 오른쪽에 위치합니다.
 
@@ -93,7 +166,18 @@ isUpdated: true
 
 나이가 들수록, 남성의 연령 등급은 일반적으로 낮아지는 경향이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한편, 여성들은 어떻게 되고 있나요?
 
@@ -103,7 +187,18 @@ isUpdated: true
 
 연령 등급에 익숙하지 않다면, 이러한 차이가 그다지 중요하지 않다고 생각할 수 있습니다. 하지만 이 연령 등급 시스템의 특성상 중간 구간(60-70)에서 시간의 큰 차이가 연령 등급 점수의 작은 변화에 의해 알아채기 어려운 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 남성 75-79세의 예선 기준 시간은 4:35로, 35세 미만 남성의 예선 기준 시간(3:00)보다 단지 5포인트 낮습니다. 그러나 연령 평가 시스템에서는 3:17:03과 동등합니다. 그렇게 말하면, 상당히 큰 차이가 있습니다.
 
@@ -113,7 +208,18 @@ isUpdated: true
 
 연령 평가에 따르면, 남성은 노화할수록 예선이 더 쉬워지는 것으로 보입니다. 반면 여성은 나이가 들수록 더 어려워지는 것으로 나타납니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 성별을 비교해보면, 젊은 여성이 젊은 남성보다 더 쉽게 할 수 있는 것으로 보입니다 - 하지만 달리기를 하는 사람들이 60대에 이르러면 균형이 뒤바뀝니다.
 
@@ -123,7 +229,18 @@ isUpdated: true
 
 # 그래서 경험적 데이터는 무엇을 말하나요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 기본 가정이 설정되었으니, 실제 예선자 데이터가 이를 지지하는지 여부를 확인해 봅시다.
 
@@ -133,7 +250,18 @@ isUpdated: true
 
 실제 예선자 수의 격차는 그 분야 자체의 반영입니다. 남성이 여성보다 더 많이 마라톤을 뛰기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일부는 역사적인 상품입니다. 남성 마라톤은 1896년 아테네 올림픽과 1897년 보스턴 마라톤으로 거슬러 올라갑니다.
 
@@ -143,9 +271,20 @@ isUpdated: true
 
 이것은 내 샘플에 따르면 전체 러너들의 인구 조사에 비해 약간 더 균형잡힌 필드입니다. 2023년에는 약 59%가 남성이고 41%가 여성이었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-그럼 아마도 BAA는 여성을 위해 표준을 약간 더 쉽게 만들기로 의도한 것일지 모릅니다. 이렇게 하면 경기장이 더 공정해지겠죠? 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+그럼 아마도 BAA는 여성을 위해 표준을 약간 더 쉽게 만들기로 의도한 것일지 모릅니다. 이렇게 하면 경기장이 더 공정해지겠죠?
 
 # 나이 차이는 어떨까요?
 
@@ -153,7 +292,18 @@ isUpdated: true
 
 남성과 여성 사이의 작은 차이 뿐인가요? 아니면 젊은 러너와 나이 든 러너 사이에 큰 차이가 있는가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 시각화에서 파란 막대는 특정 연령 그룹에서 합격한 여성의 백분율을 보여주며, 보라색 막대는 남성의 백분율을 보여줍니다.
 
@@ -163,14 +313,36 @@ isUpdated: true
 
 남녀 모두에서 35세 미만의 러너들이 최저 자격률을 가지고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 런너들이 30대 후반에서 40대에 접어들면서 조금씩 증가합니다. 45-49세 그룹에서 여성의 경우 17%가 자격을 얻고, 남성은 16%가 그렇습니다.
 둘 다 50대에 약간의 감소가 있지만, 이 비율은 여전히 30대와 초기 40대 러너들보다 높습니다. 60대의 러너들에게서 최고점을 찍습니다. 남녀 모두, 60대의 러너 중 약 19-20%가 자격을 얻습니다.
 70대 러너들에 대한 자격 획득 비율은 낮아지지만, 70-74세 그룹은 여전히 더 어린 러너들보다 높은 비율로 자격을 얻습니다.
 80대 여성들 사이에서는 엄청난 증가가 있습니다 - 하지만 이곳에서 중요한 점은 이것이 샘플에서 가장 적은 연령 그룹이라는 것입니다. 80세 이상 여성은 단 46명뿐입니다. 따라서 21%가 10명의 여성을 대표하며, 소수의 추가 이상점만 있어도 이 비율을 쉽게 왜곡시킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 데이터를 보면 나이가 많은 러너들이 자격을 얻기 위한 기준 시간을 만족시키는 비율이 젊은 러너들보다 높다는 것을 분명히 알 수 있습니다. 성별에 관계없이요.
 
@@ -180,7 +352,18 @@ isUpdated: true
 
 위 시각화 자료는 절단 시간이 0분(제한 없음)부터 10분까지 얼마나 깊게 내려가는지에 따라 성별(파란색이 여성, 보라색이 남성)에 따른 자격 통과자를 살펴봅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 역사적으로, 가장 늦은 컷오프 시간은 2021년에 발생한 7시 47분이었습니다.
 
@@ -190,7 +373,18 @@ isUpdated: true
 
 그럼 연령대는 어떻게 될까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 시각화는 연령대별로 무제한에서 10분 제한까지의 세분화를 보여줍니다. 여성과 남성 사이를 전환하기 위해 드롭다운 메뉴를 사용할 수 있습니다.
 
@@ -200,7 +394,18 @@ isUpdated: true
 
 각 선수의 버퍼의 평균이나 중앙값을 살펴보면, 나이가 들수록 증가합니다. 평균적으로 나이가 많은 러너들은 기준보다 훨씬 더 낮은 시간으로 예선에 합격합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 또한 직관적으로 이해하기 쉽지요. 느린 시간대에는 해당 차이(2분, 5분 또는 10분)를 이겨내는 것이 빠른 시간대보다 쉽습니다.
 
@@ -210,7 +415,18 @@ isUpdated: true
 
 이것은 논란이 될 수 있는 질문입니다. 왜냐하면 '공정(fair)'과 '평등(equitable)'이 무엇인지는 과거의 가정에 크게 의존하기 때문이죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 여자들이 마라톤 러닝에서 역사적으로 부재했던 점을 극복하려고 한다면, 그들에게 약간 더 쉬운 기준을 제공하는 것이 '공정할' 수도 있습니다.
 
@@ -222,7 +438,18 @@ isUpdated: true
 - 연장된 참가자들이 젊은 참가자들보다 자격을 취득하기가 더 쉽습니다.
 - 어떤 경우에는 그격차가 상당히 큽니다 — 60대 선수가 35세 미만 선수보다 거의 두 배의 가능성으로 자격을 취득하는 경우도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 데이터는 나이 등급 보정에 무언가 이상한 점이 있다는 생각을 뒷받침합니다.
 
@@ -232,7 +459,18 @@ isUpdated: true
 
 여성의 경우, 이와 같은 상관관계가 없어요. 35세 미만 여성은 40대 여성보다 나이 등급이 힘들지만, 40대 여성들이 훨씬 더 높은 비율로 합격해요. 50대와 60대 여성은 더 높은 나이 등급을 가지며, 더 높은 비율로 합격해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 그 부분에 대한 의미를 다른 날로 미루겠습니다. 아마도 나이 평가와 마라톤 시리즈를 마무리한 뒤에 이 주제로 다시 돌아올 것 같습니다.
 
@@ -242,7 +480,18 @@ isUpdated: true
 
 만약 이와 같은 데이터 기반 분석에 관심이 있다면, 이메일 구독을 확인해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 열정적인 러너이자 데이터 열매입니다. 방금 40세가 되었고, 나이가 들면서 본스 퀄리파잉 시간을 달성하는 데에 도움이 되었습니다. 하지만 더 빠르게 달리기 위해 노력 중이에요. 제 활동을 계속해서 지켜볼 수 있는 방법은 이렇습니다:
 

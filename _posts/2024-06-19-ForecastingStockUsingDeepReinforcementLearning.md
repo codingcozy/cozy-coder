@@ -3,17 +3,13 @@ title: "주식 예측을 위한 심층 강화학습"
 description: ""
 coverImage: "/assets/img/2024-06-19-ForecastingStockUsingDeepReinforcementLearning_0.png"
 date: 2024-06-19 19:04
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-ForecastingStockUsingDeepReinforcementLearning_0.png
 tag: Tech
 originalTitle: "Forecasting Stock Using Deep Reinforcement Learning"
 link: "https://medium.com/@mrconnor/forecasting-stock-using-deep-reinforcement-learning-939eda179b27"
 isUpdated: true
 ---
-
-
-
-
 
 깊은 강화 학습은 딥 러닝의 능력과 강화 학습의 강점을 결합합니다. 딥 러닝은 raw 데이터로부터 복잡한 표현을 학습하는 데 뛰어나며, 강화 학습은 에이전트가 시행착오를 통해 주어진 환경에서 최적의 조치를 학습할 수 있게 합니다. DRL을 통해 연구자와 투자자들은 역사적 데이터를 분석하고 복잡한 시장 역학을 이해하여 주식 매수, 매도 또는 보유에 대한 판단을 내릴 수 있는 모델을 개발할 수 있습니다.
 
@@ -22,7 +18,7 @@ isUpdated: true
 ```python
 # 이 Python 3 환경에는 많은 유용한 분석 라이브러리가 설치되어 있습니다
 # kaggle/python 도커 이미지로 정의됩니다: https://github.com/kaggle/docker-python
-# 예를 들어, 몇 가지 유용한 패키지를 로드하는 방법을 보여드리겠습니다 
+# 예를 들어, 몇 가지 유용한 패키지를 로드하는 방법을 보여드리겠습니다
 ```
 
 ```python
@@ -46,7 +42,18 @@ from tqdm import tqdm_notebook as tqdm
 init_notebook_mode()
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이썬 코드에는 데이터 분석 및 처리를 위한 여러 패키지 가져 오기 및 환경 설정이 포함되어 있습니다. 선형 대수 연산 및 데이터 처리를 위해 코드는 NumPy 및 Pandas 라이브러리를 가져옵니다. 또한 신경망을 정의하고 훈련하기 위한 심층 학습 프레임워크 인 Chainer를 가져옵니다. 또한 시각화 및 진행률 표시 막대를 위해 각각 plotly 및 tqdm 라이브러리를 가져옵니다.
 
@@ -80,8 +87,18 @@ print(len(data), len(train), len(test))
 display(data)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Forecasting Stock Using Deep Reinforcement Learning - 0](/assets/img/2024-06-19-ForecastingStockUsingDeepReinforcementLearning_0.png)
 
@@ -91,8 +108,18 @@ display(data)
 
 그런 다음 코드는 가져온 데이터의 최소 날짜와 최대 날짜를 표시합니다. Pandas의 슬라이싱 기능을 사용하여 데이터를 교육 및 테스트 두 부분으로 분할합니다. 분할 인덱스는 데이터의 길이의 절반으로 계산되고 해당 날짜가 'date_split'으로 저장됩니다. 'train' 변수에는 분할 인덱스까지의 데이터가 포함되고, 'test' 변수에는 분할 인덱스 이후의 데이터가 포함됩니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 코드는 전체 데이터 세트, 훈련 세트 및 테스트 세트의 길이를 출력합니다. 'display' 함수를 사용하여 코드는 Jupyter 노트북에서 가져온 데이터를 표시합니다.
 
@@ -100,7 +127,7 @@ display(data)
 
 ```js
 def plot_train_test(train, test, date_split):
-    
+
     data = [
         Candlestick(x=train.index, open=train['Open'], high=train['High'], low=train['Low'], close=train['Close'], name='train'),
         Candlestick(x=test.index, open=test['Open'], high=test['High'], low=test['Low'], close=test['Close'], name='test')
@@ -120,7 +147,18 @@ def plot_train_test(train, test, date_split):
 
 이 코드는 Plotly라는 Python 그래프 라이브러리를 사용하여 상호 작용형 캔들스틱 차트를 만드는 plot_train_test라는 함수를 정의합니다. 지정된 날짜를 기준으로 차트는 주식 데이터를 훈련 세트와 테스트 세트로 분할합니다. 입력 매개변수에는 train, test 및 date_split이 포함됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 함수의 첫 부분은 훈련 데이터 세트와 테스트 데이터 세트 각각에 대한 Candlestick 객체를 생성합니다. 각 객체에는 해당 데이터 세트의 인덱스(데이터의 x축 역할)와 주식 가격의 Open, High, Low, Close 값을 나타내는 캔들스틱이 포함됩니다. 데이터 세트를 레이블하려면 name 속성이 'train' 또는 'test'로 설정됩니다.
 
@@ -130,10 +168,21 @@ Annotations 키에는 각각 분리 선 위에 위치한 텍스트 레이블을 
 
 이전에 정의된 데이터 및 레이아웃 객체를 사용하여 Figure 객체를 생성합니다. Figure 객체를 인수로 사용하여 iplot() 함수를 사용하면 훈련 및 테스트 데이터 세트가 수직선으로 분리된 대화형 캔들스틱 차트가 표시됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-plot_train_test(train, test, date_split)
+plot_train_test(train, test, date_split);
 ```
 
 ![Stock Forecasting](/assets/img/2024-06-19-ForecastingStockUsingDeepReinforcementLearning_2.png)
@@ -142,23 +191,45 @@ plot_train_test(train, test, date_split)
 
 'plot_train_test' 함수는 훈련 및 테스트 데이터를 시각화하는 플롯을 생성합니다. 코드가 가져온 주식 시장 데이터를 플롯하여 Jupyter 노트북에 표시하는 데 이 함수를 사용할 수 있습니다. 이 함수의 구현이 제공되지 않았으므로 플롯을 생성하는 방법에 대한 자세한 내용을 제공하기 어렵습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import matplotlib.pyplot as plt
 ```
 
 ```js
-data['Close'].plot(figsize=(23,8))
-plt.legend()
-plt.show()
+data["Close"].plot((figsize = (23, 8)));
+plt.legend();
+plt.show();
 ```
 
 <img src="/assets/img/2024-06-19-ForecastingStockUsingDeepReinforcementLearning_3.png" />
 
 Matplotlib 라이브러리를 사용하여 이 Python 코드는 가져온 주식 시장 데이터의 'Close' 가격을 그립니다. 먼저 코드는 Matplotlib 라이브러리에서 'pyplot' 모듈을 가져오고 'plt'로 이름을 바꿉니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Pandas 색인(indexing)을 사용하여 코드는 import된 데이터의 'Close' 열에 액세스하고, Pandas 데이터프레임의 'plot' 메서드를 사용하여 그래프를 그립니다. 'figsize' 매개변수는 그래프의 크기를 가로 23인치, 세로 8인치로 설정합니다. 이렇게 하면 크고 명확한 쉽게 볼 수 있는 그래프가 만들어집니다.
 
@@ -168,12 +239,12 @@ Pandas 색인(indexing)을 사용하여 코드는 import된 데이터의 'Close'
 
 ```python
 class Environment:
-    
+
     def __init__(self, data, history_t=90):
         self.data = data
         self.history_t = history_t
         self.reset()
-        
+
     def reset(self):
         self.t = 0
         self.done = False
@@ -182,10 +253,10 @@ class Environment:
         self.position_value = 0
         self.history = [0 for _ in range(self.history_t)]
         return [self.position_value] + self.history # obs
-    
+
     def step(self, act):
         reward = 0
-        
+
         # act = 0: stay, 1: buy, 2: sell
         if act == 1:
             self.positions.append(self.data.iloc[self.t, :]['Close'])
@@ -199,7 +270,7 @@ class Environment:
                 reward += profits
                 self.profits += profits
                 self.positions = []
-        
+
         # set next time
         self.t += 1
         self.position_value = 0
@@ -207,27 +278,49 @@ class Environment:
             self.position_value += (self.data.iloc[self.t, :]['Close'] - p)
         self.history.pop(0)
         self.history.append(self.data.iloc[self.t, :]['Close'] - self.data.iloc[(self.t-1), :]['Close'])
-        
+
         # clipping reward
         if reward > 0:
             reward = 1
         elif reward < 0:
             reward = -1
-        
+
         return [self.position_value] + self.history, reward, self.done, self.profits # obs, reward, done, profits
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제공된 코드에서 에이전트는 단순한 거래 환경을 시뮬레이션하는 Environment라는 클래스와 상호 작용할 수 있습니다. 먼저 시장 주식 가격 데이터를 활용하여 데이터에 기반해 주식을 매수하거나 매도하거나 보유할지를 결정할 수 있습니다.
 
-__init__() 함수는 두 개의 인자를 받습니다. 데이터는 주식 가격 데이터를 나타내고, history_t는 환경이 유지해야 하는 시간 단계를 정의합니다. 데이터와 history_t 값을 설정하고 reset()을 호출하면 클래스가 초기화됩니다.
+**init**() 함수는 두 개의 인자를 받습니다. 데이터는 주식 가격 데이터를 나타내고, history_t는 환경이 유지해야 하는 시간 단계를 정의합니다. 데이터와 history_t 값을 설정하고 reset()을 호출하면 클래스가 초기화됩니다.
 
 Reset() 함수는 환경의 내부 상태 변수를 초기화하거나 재설정합니다. 현재 시간 단계 (self.t), 완료 플래그, 총 이익, 보유 중인 포지션, 포지션 가치 및 가격 이력을 초기화합니다. 포지션 가치와 가격 이력으로 이루어진 관측값이 해당 메서드에 의해 반환됩니다.
 
 step() 메서드를 사용하여 환경의 상태를 행위 (act)에 기반해 업데이트할 수 있습니다. 행위는 정수로 나타낼 수 있으며, 0은 보유, 1은 매수, 2는 매도를 의미합니다. 에이전트가 매수하기로 결정하면 주식의 현재 종가가 포지션 목록에 추가됩니다. 에이전트가 판매하기로 결정하면 해당 메서드는 각 오픈 포지션에 대해 이익 또는 손실을 계산하고 수익 변수를 업데이트합니다. 그런 다음, 모든 오픈 포지션이 종료됩니다. 판매 행위 중 발생한 이익 또는 손실에 따라 보상이 -1, 0 또는 1로 클리핑됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위치가 업데이트되면 메서드는 현재 시간 단계를 증가시키고 위치 값을 다시 계산합니다. 또한 가격 기록은 가장 오래된 데이터 포인트를 제거하고 현재 및 이전 종가 사이의 차이를 추가하여 업데이트됩니다. 업데이트된 관측, 보상, 완료 플래그 및 총 이익 외에도 메서드는 업데이트된 관측과 보상을 반환합니다.
 
@@ -243,7 +336,18 @@ for _ in range(3):
 
 ![Stock Image](/assets/img/2024-06-19-ForecastingStockUsingDeepReinforcementLearning_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 Python 코드는 "Environment"이라는 사용자 정의 클래스를 사용하여 환경을 모의하는 방법을 보여줍니다. 이 코드는 'train' 변수를 인수로 사용하여 Environment 클래스의 인스턴스를 생성합니다. 환경을 초기화하기 위해 'train' 변수에는 훈련 데이터를 포함한 Pandas 데이터프레임이 들어 있습니다.
 
@@ -253,7 +357,18 @@ for _ in range(3):
 
 이 코드는 'Environment' 클래스를 사용하여 환경을 모의하고 'reset' 및 'step' 메서드를 사용하여 상호 작용하는 방법을 보여줍니다. 코드의 세부 사항과 'Environment' 클래스의 성질, 그리고 액션 및 보상의 세부 내용이 제공되지 않았기 때문에 코드의 기능에 대한 더 자세한 설명은 어렵습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # DQN
@@ -353,7 +468,7 @@ def train_dqn(env, epoch_num=50):
             elapsed_time = time.time()-start
             print('\t'.join(map(str, [epoch+1, epsilon, total_step, log_reward, log_loss, elapsed_time])))
             start = time.time()
-            
+
     return Q, total_losses, total_rewards
 ```
 
@@ -361,7 +476,18 @@ def train_dqn(env, epoch_num=50):
 
 코드는 Chainer의 Chain 클래스의 하위 클래스인 Q_Network 클래스를 정의합니다. Q-Network에는 첫 번째 두 레이어에 ReLU 활성화 함수가 있는 세 개의 완전 연결 레이어가 있습니다. 모델 그래디언트는 reset() 메서드에 의해 초기화됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이후에 Q-Network의 두 인스턴스, Q와 Q_ast가 생성되며, 모델의 매개변수를 업데이트하는 Adam 옵티마이저가 함께 생성됩니다. DQN 학습을 위해 메모리 크기, 배치 크기, 엡실론, 감마 및 업데이트 빈도를 포함한 여러 하이퍼파라미터가 정의됩니다.
 
@@ -371,19 +497,41 @@ def train_dqn(env, epoch_num=50):
 
 DQN을 훈련하기 위해 메모리가 가득 찼을 때 메모리에서 일괄 경험을 샘플링합니다. Q_ast 네트워크와 벨만 방정식을 사용하여 대상 Q값을 계산합니다. 손실은 예측된 Q값과 대상 Q값 사이의 평균 제곱 오차로 계산됩니다. 그라디언트가 계산되고 옵티마이저가 모델의 매개변수를 업데이트합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 타겟 네트워크 Q_ast는 메인 네트워크 Q의 가중치로 주기적으로 업데이트됩니다. 에이전트가 학습함에 따라 엡실론 값이 선형적으로 감소하여 더 많은 이용을 촉진합니다. 매 에포크마다 총 보상과 손실이 누적되고 결과가 기록됩니다.
 
 훈련을 마치면 train_dqn()은 훈련된 Q-네트워크, 총 손실 및 총 보상을 반환합니다. DQN 모델은 입력 주식 가격 데이터와 시뮬레이션된 거래 환경을 기반으로 거래 전략을 개발하는 데 사용할 수 있습니다.
 
 ```js
-dqn, total_losses, total_rewards = train_dqn(Environment(train), epoch_num=25)
+dqn, total_losses, (total_rewards = train_dqn(Environment(train), (epoch_num = 25)));
 ```
 
 ![Stock Forecasting](/assets/img/2024-06-19-ForecastingStockUsingDeepReinforcementLearning_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Deep Q-Network (DQN) 알고리즘을 사용하여 이 Python 코드는 깊은 강화학습 모델을 훈련합니다. ‘train_dqn’은 ‘Environment’ 클래스의 인스턴스와 ‘epoch_num’ 매개변수 값 25를 인수로 받습니다. 이 함수는 지정된 환경의 훈련 데이터를 사용하여 25개의 에포크 동안 DQN 모델을 훈련시키고, 훈련된 DQN 모델, 총 손실 및 총 보상을 반환합니다.
 
@@ -393,11 +541,33 @@ Deep Q-Network (DQN) 알고리즘을 사용하여 이 Python 코드는 깊은 �
 
 ‘total_rewards’ 변수는 각 훈련 에포크에서의 총 보상 값 목록을 받습니다. 보상 값은 모델이 일련의 작업에서 얻은 누적 보상을 나타내며, 성능을 평가하는 데 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 총 손실 및 보상값을 나타내는 그래프를 그려주는 "plot_loss_reward"라는 사용자 정의 함수를 Python으로 작성한 코드입니다. 'total_losses'와 'total_rewards'는 각 훈련 에포크별 총 손실 값과 총 보상 값의 리스트입니다.Markdown의 표를 변경한 형식이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 이 함수는 Plotly 라이브러리의 ‘make_subplots’ 함수를 사용하여 두 개의 서브플롯이 있는 그림을 생성합니다. 두 서브플롯은 'loss'와 'reward'라는 제목이 달린 행 하나에 배치됩니다. 그림에서 그리드 라인을 숨기기 위해 'print_grid' 매개변수가 False로 설정됩니다.
 
@@ -407,10 +577,21 @@ Deep Q-Network (DQN) 알고리즘을 사용하여 이 Python 코드는 깊은 �
 
 Jupyter 노트북에서 그림을 표시하려면 Plotly 라이브러리에서 'iplot' 함수를 사용합니다. 훈련 epoch 동안, 이 플롯은 손실과 보상 값의 추이를 보여주어 DQN 모델의 성능에 대한 통찰을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-plot_loss_reward(total_losses, total_rewards)
+plot_loss_reward(total_losses, total_rewards);
 ```
 
 ![이미지](/assets/img/2024-06-19-ForecastingStockUsingDeepReinforcementLearning_6.png)
@@ -419,11 +600,22 @@ plot_loss_reward(total_losses, total_rewards)
 
 Plot_loss_reward는 훈련 에폭을 통해 손실 및 보상 값의 추세를 시각화하는 플롯을 생성합니다. 주식 시장 예측에 사용되는 DQN 모델의 훈련 중에는 코드가 이 함수를 사용하여 손실 및 보상 값을 플롯합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 def plot_train_test_by_q(train_env, test_env, Q, algorithm_name):
-    
+
     # train
     pobs = train_env.reset()
     train_acts = []
@@ -434,36 +626,36 @@ def plot_train_test_by_q(train_env, test_env, Q, algorithm_name):
 
 ```js
     for _ in range(len(train_env.data)-1):
-        
+
         pact = Q(np.array(pobs, dtype=np.float32).reshape(1, -1))
         pact = np.argmax(pact.data)
         train_acts.append(pact)
-            
+
         obs, reward, done, profit = train_env.step(pact)
         train_rewards.append(reward)
         train_ongoing_profits.append(profit)
         pobs = obs
-        
+
     train_profits = train_env.profits
-    
+
     # test
     pobs = test_env.reset()
     test_acts = []
     test_rewards = []
     test_ongoing_profits = []
     for _ in range(len(test_env.data)-1):
-    
+
         pact = Q(np.array(pobs, dtype=np.float32).reshape(1, -1))
         pact = np.argmax(pact.data)
         test_acts.append(pact)
-            
+
         obs, reward, done, profit = test_env.step(pact)
         test_rewards.append(reward)
         test_ongoing_profits.append(profit)
         pobs = obs
-        
+
     test_profits = test_env.profits
-    
+
     # plot
     train_copy = train_env.data.copy()
     test_copy = test_env.data.copy()
@@ -506,7 +698,7 @@ def plot_train_test_by_q(train_env, test_env, Q, algorithm_name):
     }
     figure = Figure(data=data, layout=layout)
     iplot(figure)
-    
+
     return train_ongoing_profits, test_ongoing_profits
 ```
 
@@ -514,7 +706,18 @@ plot_train_test_by_q()는 훈련된 DQN 모델의 거래 행동과 성능을 훈
 
 훈련된 Q-Network를 사용하여 함수는 환경을 초기화하고 훈련 및 테스트 데이터를 반복합니다. 두 데이터 세트 모두에서 조치, 보상 및 지속적인 이윤을 누적합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 단계에서 함수는 훈련 및 테스트 데이터의 사본을 생성하고, 행동과 보상을 새 열로 추가합니다. 훈련 및 테스트 데이터 모두는 이후 행동(0: stay, 1: buy, 2: sell)에 따라 분할됩니다.
 
@@ -524,10 +727,21 @@ plot_train_test_by_q()는 훈련된 DQN 모델의 거래 행동과 성능을 훈
 
 알고리즘 성능의 분석이나 비교를 위해, 함수는 훈련 및 테스트 데이터 모두에 대한 지속적인 이익을 반환합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-train_profits, test_profits = plot_train_test_by_q(Environment(train), Environment(test), dqn, 'DQN')
+train_profits, (test_profits = plot_train_test_by_q(Environment(train), Environment(test), dqn, "DQN"));
 ```
 
 <img src="/assets/img/2024-06-19-ForecastingStockUsingDeepReinforcementLearning_7.png" />
@@ -536,25 +750,47 @@ train_profits, test_profits = plot_train_test_by_q(Environment(train), Environme
 
 DQN 모델의 예측에 따라, 'train_profits' 변수에는 훈련 데이터에서 얻은 수익이 저장되고, 'test_profits'에는 DQN 모델의 예측에 따라 얻은 테스트 데이터 수익이 저장됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 훈련된 DQN 모델을 훈련 및 테스트 데이터에 대해 평가하고 각 데이터셋에서 얻은 이익을 계산하는 코드입니다. 이 평가는 DQN 모델의 정확성과 효과를 결정하는 데 유용할 수 있습니다.
 
 ```js
-plt.figure(figsize=(23,8))
-plt.plot(data.index,((data['Close']-data['Close'][0])/data['Close'][-1]), label='buy and hold')
-plt.plot(train.index, ([0] + train_profits)/data['Close'][-1], label='rl (train)')
-plt.plot(test.index, (([0] + test_profits) + train_profits[-1])/data['Close'][-1], label='rl (test)')
-plt.ylabel('relative gain')
-plt.legend()
-plt.show()
+plt.figure((figsize = (23, 8)));
+plt.plot(data.index, (data["Close"] - data["Close"][0]) / data["Close"][-1], (label = "buy and hold"));
+plt.plot(train.index, ([0] + train_profits) / data["Close"][-1], (label = "rl (train)"));
+plt.plot(test.index, ([0] + test_profits + train_profits[-1]) / data["Close"][-1], (label = "rl (test)"));
+plt.ylabel("relative gain");
+plt.legend();
+plt.show();
 ```
 
 <img src="/assets/img/2024-06-19-ForecastingStockUsingDeepReinforcementLearning_8.png" />
 
 Python 코드는 주식 시장 예측을 위한 DQN 모델의 성능을 '매수 및 보유' 전략과 비교하는 플롯을 생성합니다. Matplotlib의 'plt' 모듈을 사용하여 플롯을 생성합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Matplotlib 라이브러리의 'figure' 함수를 사용하여 플롯의 크기를 설정하는 코드입니다. 'figsize' 매개변수를 인수로 취합니다. 마지막에 플롯의 크기는 폭 23인치, 높이 8인치입니다.
 
@@ -564,7 +800,18 @@ DQN 모델을 사용하여 훈련 데이터에서 얻은 이익을 플롯하는 
 
 DQN 모델을 사용하여 테스트 데이터에서 얻은 이익을 플롯하는 코드입니다. x 축은 테스트 데이터의 인덱스를 나타내며, y 축은 DQN 모델의 예측으로부터 얻은 상대적인 수익 증가를 나타냅니다. 상대적 이득은 훈련 이익을 추가하고 가져온 데이터의 마지막 종가로 나누어 계산됩니다. 이 플롯의 레이블은 'rl(test)'로 지정됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 맷플롯립의 'ylabel' 함수는 플롯의 y-축 레이블을 '상대 이익'으로 설정합니다. 맷플롯립의 'legend' 함수는 플롯 범례에 그려진 세 개의 선의 레이블을 표시합니다.
 
@@ -677,21 +924,43 @@ def train_ddqn(env, epoch_num=50):
             elapsed_time = time.time()-start
             print('\t'.join(map(str, [epoch+1, epsilon, total_step, log_reward, log_loss, elapsed_time])))
             start = time.time()
-            
+
     return Q, total_losses, total_rewards
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제공된 코드는 거래 환경을 해결하기 위해 더블 딥 Q-네트워크(DDQN)를 훈련하는 train_ddqn() 함수를 정의합니다. 기본값이 50인 선택적인 epoch_num 매개변수는 훈련 에포크의 수와 환경 env를 나타냅니다.
 
-Q_Network는 chainer.Chain의 하위 클래스로 정의되며, Chainer에 특화된 신경망 모델입니다. __call__ 메서드는 첫 두 레이어에 ReLU 활성화 함수를 적용하고 세 번째 레이어의 출력을 반환합니다.
+Q_Network는 chainer.Chain의 하위 클래스로 정의되며, Chainer에 특화된 신경망 모델입니다. **call** 메서드는 첫 두 레이어에 ReLU 활성화 함수를 적용하고 세 번째 레이어의 출력을 반환합니다.
 
 훈련 함수는 Q-네트워크 Q와 대상 네트워크 Q_ast를 초기화하고 옵티마이저를 설정하며, 메모리 크기, 배치 크기 및 엡실론과 같은 학습 프로세스의 하이퍼파라미터를 정의합니다.
 
 훈련 과정에서 함수는 여러 에포크를 반복합니다. 각 에포크에서 다음 단계가 수행됩니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 환경을 초기화하고 초기 관측값을 얻는 것은 첫 단계입니다.
 - 현재 엡실론 탐욕 전략에 따라, 에이전트가 어떤 행동을 취할지 결정합니다.
@@ -705,12 +974,23 @@ Q_Network는 chainer.Chain의 하위 클래스로 정의되며, Chainer에 특�
 훈련 과정이 완료되면 함수는 훈련된 Q-네트워크, 총 손실 및 각 에포크별 총 보상을 반환합니다. 훈련된 DDQN 모델은 테스트 환경에서 에이전트의 성능을 평가하거나 실제 주식 거래 시나리오에서 예측을 수행하는 데 사용할 수 있습니다.
 
 ```js
-ddqn, total_losses, total_rewards = train_ddqn(Environment(train), epoch_num=50)
+ddqn, total_losses, (total_rewards = train_ddqn(Environment(train), (epoch_num = 50)));
 ```
 
 ![Stock Forecasting](/assets/img/2024-06-19-ForecastingStockUsingDeepReinforcementLearning_9.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 Python 코드는 Double Deep Q-Network (DDQN) 알고리즘을 사용하여 강화 학습 모델을 훈련합니다. 'Environment' 인스턴스가 'train_ddqn' 함수에 전달되며 'epoch_num' 매개변수 값으로 50이 전달됩니다. 'train_ddqn' 함수는 지정된 환경에서 제공된 훈련 데이터를 사용하여 50개의 에포크 동안 DDQN 모델을 훈련하고, 훈련된 모델, 총 손실 및 총 보상을 반환합니다.
 
@@ -720,31 +1000,64 @@ ddqn, total_losses, total_rewards = train_ddqn(Environment(train), epoch_num=50)
 
 'total_rewards' 변수는 각 훈련 에포크마다 총 보상 값 목록을 수신합니다. 보상 값은 모델이 연속적인 작업을 통해 획득한 누적 보상을 나타내며 모델의 성능을 평가하는 데 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드는 지정된 환경에서 훈련 데이터를 사용하여 DDQN 모델을 훈련하고 'train_ddqn' 함수를 사용하여 훈련된 모델과 각 훈련 에포크별 총 손실 및 보상을 얻습니다. 주식 시장 예측이나 DDQN 모델을 사용하여 강화 학습이 필요한 다른 의사 결정 작업을 수행할 수 있습니다.
 
 ```js
-plot_loss_reward(total_losses, total_rewards)
+plot_loss_reward(total_losses, total_rewards);
 ```
 
 ![stock_prediction_graph](/assets/img/2024-06-19-ForecastingStockUsingDeepReinforcementLearning_10.png)
 
 이는 "plot_loss_reward"라는 사용자 정의 함수를 호출합니다. 이 함수는 총 손실 값 및 각 훈련 에포크별 총 보상 값의 목록인 'total_losses'와 'total_rewards'라는 두 인수를 받습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 plot_loss_reward 함수는 손실 및 보상 값의 추세를 시각화하는 플롯을 생성합니다. DDQN 모델을 훈련하는 동안, 이 함수는 손실 및 보상 값의 그래픽을 생성합니다.
 
 이 함수의 구현 내용이 제공되지 않았기 때문에 플롯이 어떻게 표시되는지 또는 무엇을 표시하는지에 대한 자세한 내용을 제공하기 어렵습니다. 그러나 함수는 아마도 Plotly 또는 Matplotlib과 같은 그래픽 라이브러리를 사용하여 각 훈련 에포크에 걸쳐 손실 및 보상 값이 표시되는 플롯을 생성할 것으로 예상됩니다. DDQN 모델의 성능을 파악하는 데 도움이 될 수 있습니다.
 
 ```js
-train_profits, test_profits = plot_train_test_by_q(Environment(train), Environment(test), ddqn, 'Double DQN')
+train_profits, (test_profits = plot_train_test_by_q(Environment(train), Environment(test), ddqn, "Double DQN"));
 ```
 
 ![그림](/assets/img/2024-06-19-ForecastingStockUsingDeepReinforcementLearning_11.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이썬으로 작성된 코드는 훈련된 더블 딥 Q-네트워크(DDQN) 모델의 성능을 훈련 및 테스트 데이터에서 평가합니다. plot_train_test_by_q 함수에는 세 가지 인수가 전달됩니다: 훈련 데이터용 'Environment' 클래스의 인스턴스, 테스트 데이터용 'Environment' 클래스의 인스턴스, 그리고 훈련된 DDQN 모델입니다. plot_train_test_by_q 함수는 DDQN 모델을 테스트 데이터에 대해 평가하고 모델 예측에 따른 이익을 반환합니다.
 
@@ -753,17 +1066,27 @@ DDQN 모델 예측의 결과로 'train_profits'는 훈련 데이터에서 얻은
 이 코드는 훈련 및 테스트 데이터에서 훈련된 DDQN 모델의 성능을 평가하고 각 데이터셋에 대한 이익을 얻습니다. 주식 시장 예측이나 강화 학습을 필요로 하는 기타 의사 결정 작업에는 이 평가 결과가 유용할 수 있습니다.
 
 ```js
-plt.figure(figsize=(23,8))
-plt.plot(data.index,((data['Close']-data['Close'][0])/data['Close'][-1]), label='buy and hold')
-plt.plot(train.index, ([0] + train_profits)/data['Close'][-1], label='rl (train)')
-plt.plot(test.index, (([0] + test_profits) + train_profits[-1])/data['Close'][-1], label='rl (test)')
-plt.ylabel('relative gain')
-plt.legend()
-plt.show()
+plt.figure((figsize = (23, 8)));
+plt.plot(data.index, (data["Close"] - data["Close"][0]) / data["Close"][-1], (label = "buy and hold"));
+plt.plot(train.index, ([0] + train_profits) / data["Close"][-1], (label = "rl (train)"));
+plt.plot(test.index, ([0] + test_profits + train_profits[-1]) / data["Close"][-1], (label = "rl (test)"));
+plt.ylabel("relative gain");
+plt.legend();
+plt.show();
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-ForecastingStockUsingDeepReinforcementLearning_12.png)
 
@@ -773,8 +1096,18 @@ plt.show()
 
 그런 다음 코드는 Matplotlib 라이브러리의 'plot' 함수를 사용하여 '매수 및 보유' 전략을 플롯합니다. 플롯의 x 축은 가져온 데이터의 색인으로 설정되고 y 축은 주식을 사고 보유함으로써 얻는 이윤의 상대적 이득을 나타냅니다. 이 플롯의 레이블은 '매수 및 보유'로 설정됩니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로, 코드는 DDQN 모델을 사용하여 훈련 데이터에서 얻은 이익을 플롯합니다. 이 그래프의 x축은 훈련 데이터의 인덱스로 설정되고, y축은 DDQN 모델의 예측에 따른 이익 상대적인 이득을 나타냅니다. 이익은 가져온 데이터의 마지막 종가로 나누어 상대적인 이득을 얻기 위해 조정됩니다. 이 그래프의 레이블은 'rl (train)'로 설정됩니다.
 
@@ -784,7 +1117,18 @@ plt.show()
 
 마지막으로, Matplotlib 라이브러리의 'show' 함수를 사용하여 플롯이 표시됩니다. 결과 그래프는 '매수 및 보유' 전략과 DDQN 모델의 예측으로 얻은 이익의 상대적인 이득을 훈련 및 테스트 데이터 모두에서 보여줍니다. 이를 통해 DDQN 모델의 효과를 '매수 및 보유'와 같은 간단한 전략과 비교하는 통찰력을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 경쟁 두 번째 배럴 DQN
@@ -921,7 +1265,7 @@ def train_dddqn(env, epoch_num=50):
             elapsed_time = time.time()-start
             print('\t'.join(map(str, [epoch+1, epsilon, total_step, log_reward, log_loss, elapsed_time])))
             start = time.time()
-            
+
     return Q, total_losses, total_rewards
 ```
 
@@ -929,20 +1273,41 @@ def train_dddqn(env, epoch_num=50):
 
 이 코드와 이전의 더블 DQN 구현 간의 주요 차이점은 Q_Network 클래스의 정의입니다. Dueling DDQN은 Q-Network 아키텍처를 수정하여 상태 가치를 추정하는 스트림과 각 작업의 어드밴티지 값을 추정하는 또 다른 스트림을 포함합니다. 두 스트림이 결합되어 최종 Q-값을 계산합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-Q_Network 클래스는 chainer.Chain의 하위 클래스이며, 다섯 개의 완전 연결 레이어 (Linear 레이어)를 포함하고 있어요. __call__ 메서드에서 처음 두 개 레이어는 두 스트림 간에 공유되며, 그 다음에는 두 개의 별도 스트림으로 분리돼요. 상태 값 스트림은 추가 Linear 레이어 (state_value)를 가지고 있어요. 이 레이어는 단일 값 출력하고, 이에 반해 어드밴티지 값 스트림은 각 행동에 대한 값을 출력하기 위한 추가 Linear 레이어 (advantage_value)를 가지고 있어요. 최종 Q-값은 상태 값과 어드밴티지 값의 조합으로 계산되며, 안정성을 위해 평균 어드밴티지 값이 빼져요.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+Q_Network 클래스는 chainer.Chain의 하위 클래스이며, 다섯 개의 완전 연결 레이어 (Linear 레이어)를 포함하고 있어요. **call** 메서드에서 처음 두 개 레이어는 두 스트림 간에 공유되며, 그 다음에는 두 개의 별도 스트림으로 분리돼요. 상태 값 스트림은 추가 Linear 레이어 (state_value)를 가지고 있어요. 이 레이어는 단일 값 출력하고, 이에 반해 어드밴티지 값 스트림은 각 행동에 대한 값을 출력하기 위한 추가 Linear 레이어 (advantage_value)를 가지고 있어요. 최종 Q-값은 상태 값과 어드밴티지 값의 조합으로 계산되며, 안정성을 위해 평균 어드밴티지 값이 빼져요.
 
 나머지 코드는 더블 DQN 구현과 매우 유사해요. Q-Network Q와 대상 네트워크인 Q_ast를 초기화하고, 옵티마이저를 설정하며, 훈련 과정을 위한 하이퍼파라미터를 정의해요. 훈련 루프는 여러 에포크를 반복하며, 입실론-그리디 전략을 사용하여 행동을 선택하고, 메모리 버퍼를 업데이트하며, Dueling DDQN 업데이트 규칙을 사용하여 Q-Network를 훈련시키고 있어요. 대상 네트워크 Q_ast는 기본 Q-Network의 가중치로 주기적으로 업데이트되며, 입실론은 최솟값에 도달할 때까지 선형적으로 감소해요.
 
 훈련 과정을 마치면, 함수는 훈련된 Dueling DDQN 모델, 총 손실 및 각 에포크별 총 보상을 반환해요. 이 훈련된 모델은 테스트 환경에서 에이전트의 성능을 평가하거나 실제 세계의 거래 시나리오에서 예측을 수행하는 데 사용할 수 있어요.
 
 ```js
-dddqn, total_losses, total_rewards = train_dddqn(Environment(train), epoch_num=25)
+dddqn, total_losses, (total_rewards = train_dddqn(Environment(train), (epoch_num = 25)));
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-06-19-ForecastingStockUsingDeepReinforcementLearning_13.png)
 
@@ -953,8 +1318,18 @@ dddqn, total_losses, total_rewards = train_dddqn(Environment(train), epoch_num=2
 
 train_dddqn() 함수는 세 가지 값을 반환합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - dddqn: 훈련된 Dueling DDQN 모델로, 테스트 환경이나 실제 시나리오에서 거래 결정을 내릴 때 사용할 수 있습니다.
 - total_losses: 각 epoch별 총 손실값 목록입니다. 손실은 훈련 중 예측된 Q값과 대상 Q값 사이의 평균 제곱 오차로 계산됩니다. 이는 모델의 훈련 성능을 평가하고, 에이전트가 효과적으로 학습하는지를 평가하는 데 사용할 수 있습니다.
@@ -963,12 +1338,23 @@ train_dddqn() 함수는 세 가지 값을 반환합니다.
 이러한 반환 값을 변수에 할당함으로써, 훈련 결과를 추가로 분석하거나, 시간이 지남에 따라 손실과 보상을 플로팅하거나, 테스트 환경에서 훈련된 모델의 성능을 평가할 수 있습니다.
 
 ```js
-plot_loss_reward(total_losses, total_rewards)
+plot_loss_reward(total_losses, total_rewards);
 ```
 
 <img src="/assets/img/2024-06-19-ForecastingStockUsingDeepReinforcementLearning_14.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 plot_loss_reward(total_losses, total_rewards) 함수를 사용하면 모델의 손실과 보상을 시간에 따라 그래픽으로 나타낼 수 있어요. 이 함수는 두 개의 인수를 사용합니다:
 
@@ -978,11 +1364,22 @@ plot_loss_reward(total_losses, total_rewards) 함수를 사용하면 모델의 �
 이 함수는 두 개의 플롯을 생성합니다: 하나는 손실에 대한 것이고 다른 하나는 보상에 대한 것입니다. 각 플롯에는 x-축에 에포크 수가, y-축에는 해당 손실 또는 보상 값이 표시됩니다. 이러한 플롯은 훈련 진행 상황에 대한 시각적인 통찰력을 제공하여 학습 과정에서 트렌드나 문제를 식별하는 데 도움이 됩니다. 예를 들어, 감소하는 손실 트렌드는 모델이 효과적으로 학습하고 있음을 나타내며, 증가하는 보상 트렌드는 에이전트가 시간이 지남에 따라 이윤 창출하는 거래 결정에 능숙해지고 있는 것을 시사합니다.
 
 ```js
-train_profits, test_profits = plot_train_test_by_q(Environment(train), Environment(test), dddqn, 'Dueling Double DQN')
+train_profits,
+  (test_profits = plot_train_test_by_q(Environment(train), Environment(test), dddqn, "Dueling Double DQN"));
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![plot_train_test_by_q](/assets/img/2024-06-19-ForecastingStockUsingDeepReinforcementLearning_15.png)
 
@@ -995,8 +1392,18 @@ train_profits, test_profits = plot_train_test_by_q(Environment(train), Environme
 - dddqn: 환경에서 거래 결정을 내리는 데 사용되는 훈련된 DDDQN 모델입니다.
 - `Dueling Double DQN`: DDDQN 모델을 사용하고 있음을 나타내는 생성된 플롯의 제목 역할을 하는 문자열입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 DDDQN 모델의 성능을 평가하는 함수입니다. 해당 함수는 에이전트의 거래 활동을 시뮬레이션하고 각 거래 세션에서 생성된 이익을 수집하여 훈련 및 테스트 환경에서 모델의 성과를 평가합니다. 이익은 훈련 및 테스트 데이터셋에서 생성된 이익을 각각 나타내는 train_profits 및 test_profits 두 개의 별도 리스트에 저장됩니다.
 
@@ -1004,7 +1411,18 @@ DDDQN 모델의 성능을 평가하는 함수입니다. 해당 함수는 에이�
 
 Markdown 형식으로 변경된 코드를 참고해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드 스니펫은 DDDQN 기반 거래 에이전트의 성능을 "매수 및 보유" 전략과 비교하는 시각화를 생성하는 역할을 합니다. 이를 위해 각 접근 방식이 달성한 상대 이익을 동일한 그래프 상에 시각화합니다. 시각화는 Matplotlib 라이브러리를 사용하여 생성되며, 다음 단계로 구성됩니다:
 
@@ -1021,7 +1439,18 @@ Markdown 형식으로 변경된 코드를 참고해주세요.
 
 # 상대적 신호 강도
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 RSI는 추세 모멘텀을 나타내는 데 사용됩니다. 상단 영역은 매수 과다 상태를 나타내고, 하단 영역은 매도 과다 상태를 나타냅니다. RSI가 매수 과다 또는 매도 과다 영역에 도달하면 각각 추세가 강하게 하락하거나 상승하는 것을 의미하지만, 영역을 벗어나면 추세 반전이 발생할 수 있습니다.
 
@@ -1029,14 +1458,14 @@ RSI는 추세 모멘텀을 나타내는 데 사용됩니다. 상단 영역은 �
 def calcRsi(series, period):
     """
     데이터 시리즈의 RSI 계산
-    
+
     Parameters
     ----------
     series : 판다스 시리즈
         캔들스틱 데이터셋
     period : int
         각 계산의 기간
-        
+
     Returns
     -------
     rsi : float
@@ -1057,11 +1486,11 @@ def calcRsi(series, period):
 ```js
         rs = u.ewm(com=period-1, adjust=False).mean() \
             / d.ewm(com=period-1, adjust=False).mean()
-        
+
         rsi = 100 - 100 / (1 + rs)
     except IndexError:
         rsi = 0
-        
+
     return rsi
 column_value='Close'
 column_index='Date'
@@ -1083,7 +1512,18 @@ plt.show()
 
 <img src="/assets/img/2024-06-19-ForecastingStockUsingDeepReinforcementLearning_17.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드는 상대강도지수(Relative Strength Index, RSI)를 계산하는 calcRsi 함수를 정의하고 주식 시장 데이터를 포함하는 데이터 집합에 이 함수를 적용합니다. RSI는 상승장이나 하락장인지 판단하는 데 사용되는 인기 있는 기술적 지표입니다. RSI를 계산한 후 코드는 RSI와 주식의 정규화된 종가를 시각화하는 플롯을 생성합니다.
 
@@ -1103,7 +1543,18 @@ plt.show()
 
 이 코드는 주식의 RSI와 정규화된 종가를 동일한 그래프에 시각화함으로써 거래자가 상승장 및 하락장에 대한 주식의 가격 변동을 해당 RSI 값과의 관련성에 대해 분석하여 정보를 얻을 수 있도록 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 볼린저 밴드
 
@@ -1130,9 +1581,9 @@ def addBollinger(df, period=20, col='Close'):
     series_stdev = df[col].rolling(window=period).std()
     df['BBUpperBand'] = bbmid_series + 2*series_stdev
     df['BBLowerBand'] = bbmid_series - 2*series_stdev
-    df['BBBandwidth'] = df['BBUpperBand'] - df['BBLowerBand']  
+    df['BBBandwidth'] = df['BBUpperBand'] - df['BBLowerBand']
     df['BBMiddleBand'] = bbmid_series
-    
+
     return df
 
 data = addBollinger(data)
@@ -1151,7 +1602,18 @@ ax.set_xticks(np.linspace(xmin, xmax, 6))
 plt.show()
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-ForecastingStockUsingDeepReinforcementLearning_18.png" />
 
@@ -1172,7 +1634,18 @@ plt.show()
 - np.linspace()를 사용하여 x-축 틱을 균일 간격으로 설정합니다.
 - 마지막으로 plt.show()를 사용하여 플롯을 표시합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드는 Bollinger Bands를 시각화하여 종가를 함께 표시함으로써 주식의 가격 움직임을 Bollinger Bands와 비교 분석하여 신중한 거래 결정을 내릴 수 있는 방법을 제공합니다.
 
@@ -1193,7 +1666,18 @@ def addMACD(df, column_value='Close'):
     return df
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 data = addMACD(data)
@@ -1217,8 +1701,18 @@ plt.show()
 
 이 코드는 MACD(Moving Average Convergence Divergence) 및 관련 지표를 계산하는 addMACD 함수를 정의합니다. 이 함수는 주식 시장 데이터를 포함한 pandas DataFrame에 대해 사용됩니다. MACD는 트레이더들이 잠재적인 추세 반전, 매수/매도 과열 상태, 거래 진입 또는 종료 지점을 식별하는 데 사용되는 인기 있는 모멘텀 기반 기술적 분석 도구입니다. 이 코드는 빠른/느린 지수 이동 평균(EMA) 및 MACD 라인, 시그널 라인, MACD 히스토그램을 시각화하는 두 개의 플롯을 생성합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 코드에 대한 자세한 설명입니다:
 
@@ -1244,7 +1738,18 @@ short_window = 40
 long_window = 100
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 # `signals` DataFrame을 `signal` 열과 함께 초기화합니다
@@ -1255,8 +1760,8 @@ signals['short_mavg'] = data['Close'].rolling(window=short_window, min_periods=1
 # 긴 기간의 이동평균을 만듭니다
 signals['long_mavg'] = data['Close'].rolling(window=long_window, min_periods=1, center=False).mean()
 # 트레이딩 신호 생성
-signals['signal'][short_window:] = np.where(signals['short_mavg'][short_window:] 
-                                            > signals['long_mavg'][short_window:], 1.0, 0.0)  
+signals['signal'][short_window:] = np.where(signals['short_mavg'][short_window:]
+                                            > signals['long_mavg'][short_window:], 1.0, 0.0)
 # 트레이딩 주문 생성
 signals['positions'] = signals['signal'].diff()
 ```
@@ -1272,13 +1777,23 @@ signals['positions'] = signals['signal'].diff()
 - 짧은 이동평균이 긴 이동평균보다 큰 경우, 40번째 데이터 이후부터 각 데이터 포인트에 대해 트레이딩 신호가 생성됩니다. 짧은 이평선이 더 길면 신호는 1.0 (매수 신호)로 설정되고, 그렇지 않으면 0.0 (수행 없음)으로 설정됩니다.
 - 연속하는 트레이딩 신호 간의 차이를 계산하여 트레이딩 주문을 생성합니다. 생성된 주문은 `signals` DataFrame의 새 열 'positions'에 저장됩니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드는 기본 이동평균 크로스오버 거래 전략을 설정합니다. 짧은 이동평균이 긴 이동평균 위에 있을 때 전략은 "매수" 신호를 생성합니다. 짧은 이동평균이 긴 이동평균 아래에 있을 때는 어떠한 조치도 취하지 않습니다. signals DataFrame의 'positions' 열을 검토함으로써 거래 전략이 주식에 대한 포지션 진입 또는 청산을 제안하는 지점을 결정할 수 있습니다.
 
 ```js
-fig = plt.figure(figsize=(10, 8))
+fig = plt.figure((figsize = (10, 8)));
 ```
 
 ```js
@@ -1289,22 +1804,33 @@ data['Close'].plot(ax=ax1, color='회색', lw=2.)
 # 짧은 이동평균과 긴 이동평균 플로팅
 signals[['short_mavg', 'long_mavg']].plot(ax=ax1, lw=2.)
 # 매수 신호 플로팅
-ax1.plot(signals.loc[signals.positions == 1.0].index, 
+ax1.plot(signals.loc[signals.positions == 1.0].index,
          signals.short_mavg[signals.positions == 1.0],
          '^', markersize=10, color='자홍')
-         
+
 # 매도 신호 플로팅
-ax1.plot(signals.loc[signals.positions == -1.0].index, 
+ax1.plot(signals.loc[signals.positions == -1.0].index,
          signals.short_mavg[signals.positions == -1.0],
          'v', markersize=10, color='검정')
-         
+
 # 그래프 표시
 plt.show()
 ```
 
 <img src="/assets/img/2024-06-19-ForecastingStockUsingDeepReinforcementLearning_21.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드는 이전에 생성한 signals DataFrame을 사용하여 이동평균 교차 거래 전략과 전략에서 생성된 매수/매도 신호를 시각화하는 플롯을 생성합니다.
 
@@ -1320,7 +1846,18 @@ plt.show()
 
 결과 플롯은 주가의 종가와 단기 및 장기 이동평균, 그리고 이동평균 교차 전략에서 생성된 매수 및 매도 신호를 시각화합니다. 이를 통해 전략의 성능을 더 잘 이해하고 주식 포지션 진입 또는 청산 지점을 식별하는 데 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 초기 자본 설정
@@ -1350,11 +1887,11 @@ ax1 = fig.add_subplot(111, ylabel='포트폴리오 가치($)')
 # 달러로 된 자산 곡선 그리기
 portfolio['total'].plot(ax=ax1, lw=2.)
 # `buy` 거래를 자산 곡선에 그리기
-ax1.plot(portfolio.loc[signals.positions == 1.0].index, 
+ax1.plot(portfolio.loc[signals.positions == 1.0].index,
          portfolio.total[signals.positions == 1.0],
          '^', markersize=10, color='m')
 # `sell` 거래를 자산 곡선에 그리기
-ax1.plot(portfolio.loc[signals.positions == -1.0].index, 
+ax1.plot(portfolio.loc[signals.positions == -1.0].index,
          portfolio.total[signals.positions == -1.0],
          'v', markersize=10, color='k')
 # 그래프 보이기
@@ -1365,7 +1902,18 @@ plt.show()
 
 해당 코드는 이동평균 교차 전략에서 생성된 거래 신호를 사용하여 시간 경과에 따른 포트폴리오 가치를 계산하고 자산 곡선과 매수/매도 신호를 시각화합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 코드는 다음을 수행합니다:
 
@@ -1388,7 +1936,18 @@ plt.show()
 - positions이 -1.0인 데이터 포인트를 선택하여 signals DataFrame에서 ax1에 매도 신호를 표시합니다. 이 지점은 크기가 10이고 검은색(k)인 아래로 향하는 삼각형(v)으로 표시됩니다.
 - plt.show()를 사용하여 플롯을 표시합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 플롯 결과는 포트폴리오의 자본 곡선을 시간에 따라 시각화하며, 이동 평균 교차 전략에 의해 생성된 매수 및 매도 신호를 함께 보여줍니다. 이는 전략의 성능과 포트폴리오 가치에 미치는 영향을 더 잘 이해하는 데 도움이 됩니다.
 
@@ -1404,7 +1963,7 @@ for i in range(1,len(signals['positions']-1)):
         a = 0
     obs, reward, done, profit = env.step(a)
     ongoing_profits.append(profit)
-    
+
 plt.figure(figsize=(23,8))
 plt.plot(data.index,((data['Close']-data['Close'][0])/data['Close'][-1]), label='buy and hold')
 plt.plot(data.index, ([0] + ongoing_profits)/data['Close'][-1], label='crossing strategy')
@@ -1417,7 +1976,18 @@ plt.show()
 
 이 코드는 이동 평균 교차 전략의 성능을 시뮬레이션하고 지속적인 이익을 계산하며, 단순한 매수 및 보유 전략과 비교하여 상대 이익을 플롯합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 코드는 다음과 같은 작업을 수행합니다:
 
@@ -1439,6 +2009,17 @@ plt.show()
 - 플롯에 범례를 추가합니다.
 - plt.show()를 사용하여 플롯을 표시합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결과 플롯은 이동평균 교차 전략의 성능을 간단한 매수 보유 전략과 비교한 것을 보여줍니다. 이를 통해 이동평균 교차 전략의 효과를 이해하고 수동 투자 접근법과 비교할 수 있습니다.

@@ -3,7 +3,7 @@ title: "대형 언어 모델의 추론 능력을 평가하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-12-HowtoEvaluatetheReasoningAbilitiesofLargeLanguageModels_0.png"
 date: 2024-07-12 23:16
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-HowtoEvaluatetheReasoningAbilitiesofLargeLanguageModels_0.png
 tag: Tech
 originalTitle: "How to Evaluate the Reasoning Abilities of Large Language Models ?"
@@ -11,19 +11,26 @@ link: "https://medium.com/@alcarazanthony1/how-to-evaluate-the-reasoning-abiliti
 isUpdated: true
 ---
 
+AI가 급속하게 진화하고 있습니다. 이 과정에서 중요한 질문이 제기됩니다: 그 능력을 어떻게 진정으로 판단할 수 있을까요? 특히 추론과 같은 고차원 기술에 대해 매우 중요합니다. 대형 언어 모델(Large language models, LLMs)은 놀라운 능력을 보여주고 있습니다.
 
-
-
-
-AI가 급속하게 진화하고 있습니다. 이 과정에서 중요한 질문이 제기됩니다: 그 능력을 어떻게 진정으로 판단할 수 있을까요? 특히 추론과 같은 고차원 기술에 대해 매우 중요합니다. 대형 언어 모델(Large language models, LLMs)은 놀라운 능력을 보여주고 있습니다. 
-
-그들은 창의적인 글쓰기부터 복잡한 문제해결에 이르기까지 다양한 과제에서 뛰어난 성과를 거두고 있습니다. 
+그들은 창의적인 글쓰기부터 복잡한 문제해결에 이르기까지 다양한 과제에서 뛰어난 성과를 거두고 있습니다.
 
 하지만 의문이 남습니다. 이러한 모델이 실제로 추론을 하는 것인지, 아니면 단순히 고급 패턴 매칭을 하는 것인지는 의문입니다.
 
 최근 조사에서는 이에 대한 답을 찾기 위해 다양한 유형의 추론을 분석합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 논리적 추론은 추론, 귀납 및 포추를 포함합니다.
 
@@ -33,7 +40,18 @@ AI가 급속하게 진화하고 있습니다. 이 과정에서 중요한 질문�
 
 그들은 진정으로 논리적 함축을 이해할 수 있을까요? 수학적 개념을 파악할 수 있을까요, 아니면 패턴을 그저 외우는 걸까요? 인과 관계를 추론할 수 있을까요, 아니면 단지 상관 관계를 인식할 뿐인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 능력을 평가하는 데는 다양한 방법이 필요합니다.
 
@@ -43,7 +61,18 @@ AI가 급속하게 진화하고 있습니다. 이 과정에서 중요한 질문�
 
 상호작용 평가는 모델들을 동적 교류에 참여시킵니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기계적인 평가는 모델의 내부 작동을 조망합니다.
 
@@ -53,7 +82,18 @@ AI가 급속하게 진화하고 있습니다. 이 과정에서 중요한 질문�
 
 상호 작용 평가는 포괄적이지만 시간이 많이 소요될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기계적인 평가는 깊고 기술적으로 도전적입니다.
 
@@ -63,7 +103,18 @@ AI가 급속하게 진화하고 있습니다. 이 과정에서 중요한 질문�
 
 그러나 그 이상의 것이 걸려 있습니다. LLM 추론 과정을 조사함으로써 우리는 기계 지능 자체에 대한 소중한 통찰력을 얻게 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이번 접근 방식은 강력한 해결책을 제시합니다: LLMs를 활용하여 다른 LLMs를 평가하는 것입니다. 이 방법은 견고한 LLM 판사 시스템 구축에 도움이 될 수 있습니다. 아래는 방법입니다:
 
@@ -80,7 +131,18 @@ AI가 급속하게 진화하고 있습니다. 이 과정에서 중요한 질문�
 - 진정한 추론과 영리한 모방을 구별하는 전략
 - 진정한 진리를 탐색하는 진단적 과제 설계의 도전
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **이미지 첨부:**
 
@@ -92,7 +154,18 @@ LLM의 추론 능력을 어떻게 판단할까요? 간단하지 않아요. 연�
 
 ## 논리 추론 작업
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 논리는 추론의 기초입니다. 주어진 전제로부터 유효한 결론을 도출하는 것이 중요합니다. LLMs는 세 가지 유형의 논리적 도전에 직면합니다:
 
@@ -104,7 +177,18 @@ LLM의 추론 능력을 어떻게 판단할까요? 간단하지 않아요. 연�
 
 수와 방정식이 등장합니다. LLMs는 숫자를 다루고 워드 문제를 해결할 수 있을까요? 함께 알아봅시다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 산술 연산: 덧셈. 뺄셈. 곱셈. 나눗셈. 기초 중의 기초.
 - 워드 문제: 이것들이 좀 더 까다롭죠. 텍스트에서 정보를 추출해내고, 방정식을 세우고, 그것을 푸는 것.
@@ -116,7 +200,18 @@ LLM의 추론 능력을 어떻게 판단할까요? 간단하지 않아요. 연�
 
 인과 관계. 인간과 같은 지능의 근간입니다. LLMs는 여기서 세 가지 주요 도전에 직면합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 원인과 결과 파악하기: 무엇이 무엇을 일으켰을까요? 특정 시나리오에서 LLMs는 원인과 결과를 정확히 파악해야 합니다.
 - 효과 예측하기: 원인이 주어졌을 때 무엇이 일어날 수 있을까요? LLMs는 잠재적 결과를 예측해야 합니다.
@@ -128,7 +223,18 @@ LLMs는 종종 복잡한 원인 규명에 어려움을 겪습니다. 그 이유�
 
 왜 다양한 추론 작업을 사용해야 할까요? 이것이 중요한 이유입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 포괄적인 평가를 고려해 보세요. 다른 추론 유형은 서로 다른 인지 과정을 동원합니다. 다양한 작업을 통해 우리는 보다 완전한 그림을 그립니다. LLM의 능력의 진정한 범위를 볼 수 있습니다. 마치 보석을 모든 각도에서 살펴보는 것과 같아요.
 
@@ -138,9 +244,20 @@ LLMs는 종종 복잡한 원인 규명에 어려움을 겪습니다. 그 이유�
 
 이제 실제 세계를 고려해 보세요. 그것은 혼잡하고 복잡합니다. LLM은 그곳에서 다양한 추론적 도전에 직면할 것입니다. 우리의 평가는 이 복잡성을 반영해야 합니다. 다양한 작업은 바로 그것을 합니다. 그들은 LLM을 현실의 인지적 장애물 코스에 대비시킵니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-주의 깊게 다양한 추론 작업을 조립함으로써, 연구자들은 깊은 통찰력을 얻습니다. 그들은 표면적인 지표를 넘어 나아갑니다. LLM 능력의 깊이를 탐구합니다. 유연성을 시험합니다. 적응력에 도전합니다. 본질적으로, 그들은 이러한 모델들을 인지적 한계까지 밀어붙입니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+주의 깊게 다양한 추론 작업을 조립함으로써, 연구자들은 깊은 통찰력을 얻습니다. 그들은 표면적인 지표를 넘어 나아갑니다. LLM 능력의 깊이를 탐구합니다. 유연성을 시험합니다. 적응력에 도전합니다. 본질적으로, 그들은 이러한 모델들을 인지적 한계까지 밀어붙입니다.
 
 이 접근 방식은 혁신적입니다. 이제 성적표에 관한 것만이 아닙니다. 이는 인공 추론의 진정한 본성을 이해하는 데 관한 것입니다. 이는 이러한 탁월한 시스템들의 잠재력과 한계를 발견하는 데 관한 것입니다.
 
@@ -148,7 +265,18 @@ LLMs는 종종 복잡한 원인 규명에 어려움을 겪습니다. 그 이유�
 
 LLM 추론을 어떻게 평가할까요? 이것은 복잡합니다. 연구자들은 다양한 접근 방식을 사용합니다. 각 방법은 모델의 인지 과정에 독특한 통찰력을 제공합니다. 네 가지 주요 방법론을 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 결론 기반 평가: 직접적 접근
 
@@ -158,7 +286,18 @@ LLM 추론을 어떻게 평가할까요? 이것은 복잡합니다. 연구자들
 
 ## 근거 기반 평가: 과정을 들여다보기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 우리는 더 깊이 파고들어 봅시다. 이 방법은 모델의 단계적 추론을 검토합니다. 어떻게? 연쇄적 사고 유도와 같은 기술을 통해. 우리는 모델의 사고 과정이 펼쳐지는 것을 볼 수 있습니다.
 
@@ -168,7 +307,18 @@ LLM 추론을 어떻게 평가할까요? 이것은 복잡합니다. 연구자들
 
 인공지능과의 대화를 상상해보세요. 그것이 바로 대화형 평가입니다. 숨겨진 모델의 추론의 깊이를 드러내는 다중 회전 상호 작용입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 후속 질문을 할 수 있어요. 처음 응답을 도전할 수도 있고, 관련된 질문들 간의 일관성을 확인할 수도 있어요. 이것은 깊이가 있지만 시간이 걸려요. 그리고 인간의 편향? 그것은 잠재적인 함정이에요.
 
@@ -178,7 +328,18 @@ LLM 추론을 어떻게 평가할까요? 이것은 복잡합니다. 연구자들
 
 메커니스틱 평가는 LLMs를 이해하는 강력한 방법이에요. 모델의 내부 작업을 엿보며, 그 추론 방식을 밝혀냅니다. 여기서 알아야 할 것들이 있어요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 주요 기술:
 
@@ -193,7 +354,18 @@ LLM 추론을 어떻게 평가할까요? 이것은 복잡합니다. 연구자들
 - 예상치 못한 행동을 드러냅니다.
 - 잠재적인 약점을 식별합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **도전 과제:**
 
@@ -205,19 +377,41 @@ LLM 추론을 어떻게 평가할까요? 이것은 복잡합니다. 연구자들
 
 기계적 평가는 선봉적인 연구입니다. 이는 성능을 향상하는 것 뿐만 아니라 LLM이 어떻게 생각하는지에 대한 우리의 이해를 본질적으로 향상시킵니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **Strengths and Limitations: Achieving Balance**
 
-When it comes to Tarot readings, every method has its own unique strengths and benefits. 
+When it comes to Tarot readings, every method has its own unique strengths and benefits.
 
 Interpreting results based on conclusions is quick and scalable, providing efficient insights. Delving into the rationale behind the cards offers deeper process insights, allowing for a better understanding of the situation at hand. Interactive readings promote adaptability, helping to navigate complex situations. Meanwhile, approaching the Tarot in a mechanistic way can lead to a profound technical understanding of the cards.
 
-However, it's essential to be aware of the limitations of each method. Conclusion-based readings may overlook flawed reasoning or miss nuances. Rationale-based approaches can be time-consuming but can offer valuable in-depth insights. Interactive readings could potentially be influenced by bias, while mechanistic readings require a certain level of expertise to decode accurately. 
+However, it's essential to be aware of the limitations of each method. Conclusion-based readings may overlook flawed reasoning or miss nuances. Rationale-based approaches can be time-consuming but can offer valuable in-depth insights. Interactive readings could potentially be influenced by bias, while mechanistic readings require a certain level of expertise to decode accurately.
 
 Remember, finding the right balance is key to getting the most out of your Tarot practice. Embrace the strengths of each method while being mindful of their limitations. Happy reading! 🌟✨
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해결책은 무엇일까요? 다양한 방법을 결합하세요. 다양한 방식으로 접근하면 더욱 다양한 정보를 얻을 수 있어요. 얕은 성과와 진정한 인지 능력을 구별하게 되죠. 이것이 LLM 추론을 완벽하게 이해하는 방법이에요.
 
@@ -227,9 +421,20 @@ AI 역량이 빠르게 확장되고 있지만, LLM 추론을 평가하는 것은
 
 하지만 도전들 속에서 흥미로운 기회도 발견하고 있답니다. 🌟
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-지금 우리가 취약하다면요. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+지금 우리가 취약하다면요.
 
 **현재 한계: 뒤얽힌 그물망**
 
@@ -237,7 +442,18 @@ AI 역량이 빠르게 확장되고 있지만, LLM 추론을 평가하는 것은
 
 표준화가 부족해요. 우리는 연구나 모델 간 결과를 쉽게 비교할 수 없어요. 이것은 바벨의 탑처럼 언어 혼용상태입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 많은 작업들이 제한적이에요. 현실 세계의 복잡성을 담아내지 못해요. 마치 물고기를 나무에 오르는 능력으로 판단하는 것과 같아요.
 
@@ -247,7 +463,18 @@ AI 역량이 빠르게 확장되고 있지만, LLM 추론을 평가하는 것은
 
 ## 전진하는 길: 세밀하고 다면적인 평가
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 To address these issues, we must dive deep into sophisticated frameworks.
 
@@ -257,7 +484,18 @@ Remember, context is everything. Reasoning is not a one-size-fits-all concept. H
 
 Don’t forget the power of adversarial testing. Embrace the challenge of uncovering known weaknesses. Dive into probing biases. It’s through this process that our journey towards improvement truly begins.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 장기 평가가 중요해요. LLM은 시간이 지남에 따라 일관된 추론력을 유지할 수 있을까요? 관련된 작업을 효과적으로 수행할 수 있을까요? 이런 문제들이 중요해요.
 
@@ -267,7 +505,18 @@ Don’t forget the power of adversarial testing. Embrace the challenge of uncove
 
 분포를 벗어난 테스트는 한 가지 방법이에요. 모델을 훈련 데이터 이상으로 밀어보세요. 그들이 실제로 추론할 수 있는지 확인해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 신념 발명 과제들이 희망적이에요. 모델들이 새로운 아이디어를 만들 수 있을까요? 기존 개념들을 새로운 방식으로 결합할 수 있을까요? 그것이 진정한 창의력인 거예요.
 
@@ -277,7 +526,18 @@ Don’t forget the power of adversarial testing. Embrace the challenge of uncove
 
 인공지능은 독특한 추론 방식을 발전시킬 수 있지만, 인간의 인지와 비교하는 것은 여전히 유용해요. 왜냐면...
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AI와 인지과학 간의 간극을 메우는 중요한 역할을 합니다. 인공 지능과 인간의 사고에 대한 통찰을 얻을 수 있어요.
 

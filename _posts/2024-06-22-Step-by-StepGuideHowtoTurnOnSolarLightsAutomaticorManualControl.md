@@ -3,17 +3,13 @@ title: "단계별 가이드 자동 또는 수동으로 태양광 조명을 켜�
 description: ""
 coverImage: "/assets/img/2024-06-22-Step-by-StepGuideHowtoTurnOnSolarLightsAutomaticorManualControl_0.png"
 date: 2024-06-22 19:04
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-Step-by-StepGuideHowtoTurnOnSolarLightsAutomaticorManualControl_0.png
 tag: Tech
 originalTitle: "Step-by-Step Guide: How to Turn On Solar Lights? Automatic or Manual Control"
 link: "https://medium.com/@eneradar2022/step-by-step-guide-how-to-turn-on-solar-lights-automatic-or-manual-control-92e3865fbf1c"
 isUpdated: true
 ---
-
-
-
-
 
 태양 광 셀 라이트는 친환경적이면서 비용 효율적인 방식으로 실왈 야외 공간을 밝히는 좋은 방법입니다. 이들은 낮에 태양의 힘을 활용하여 배터리를 충전한 후 자동으로 밤에 켜집니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![태양 광 셀 라이트 켜는 단계별 설명 이미지](/assets/img/2024-06-22-Step-by-StepGuideHowtoTurnOnSolarLightsAutomaticorManualControl_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 태양 광 조명을 켜는 일반적인 두 가지 방법이 있어요:
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 태양 광 조명을 자동으로 켜려면 어떻게 해야 하나요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 #1, 스위치 확인하기
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 태양광 조명을 켜려면 배터리가 완전히 충전되었는지 확인해야 합니다. 이 프로세스는 조명의 모델에 따라 6시간에서 8시간 정도의 직사광선이 필요할 수 있습니다. 배터리가 완전히 충전되었는지 확인하려면 사용하기 전에 조명을 1일 또는 2일 동안 직사광선에 노출시켜주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 #3, 빛 센서 조정하기
 
@@ -51,9 +80,20 @@ isUpdated: true
 
 #4, 장애물 확인하기
 
-태양 광 램프는 배터리를 충전하기 위해 직사광선에 의존합니다. 나무나 건물과 같은 장애물이 태양광을 가리고 있다면, 빛이 충분히 충전되지 않아 밤에 켜지지 않을 수 있습니다. 태양 전지판이 하루에 최소 6시간 이상의 직사광선이 도는 위치에 위치해 있는지 확인하세요. 
+태양 광 램프는 배터리를 충전하기 위해 직사광선에 의존합니다. 나무나 건물과 같은 장애물이 태양광을 가리고 있다면, 빛이 충분히 충전되지 않아 밤에 켜지지 않을 수 있습니다. 태양 전지판이 하루에 최소 6시간 이상의 직사광선이 도는 위치에 위치해 있는지 확인하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 #5, 태양광 패널 청소
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 태양광 조명이 수동 제어인 경우, 자연광의 수준에 따라 자동으로 켜고 꺼지는 자동 태양광 조명과는 조금 다른 방식으로 켜고 끕니다. 다음은 수동 제어용 태양광 조명을 켜는 단계입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 #1, 전원 버튼의 위치 찾기
 
@@ -73,7 +124,18 @@ isUpdated: true
 
 수동 태양광 조명을 사용하기 전에 배터리를 충전해야 합니다. 제조업체의 권장사항에 따라 램프를 직사광선이 드는 곳에 몇 시간 동안 두어 배터리를 완전히 충전하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3, 불을 켭니다
 
@@ -83,7 +145,18 @@ isUpdated: true
 
 불이 더 이상 필요하지 않은 경우 끌 때는 Off 버튼을 누르거나 스위치를 Off 위치로 뒤집어 불을 끄세요. 이렇게 하면 배터리를 절약하고 불의 수명을 연장할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일부 수동 태양광 조명에는 버튼이나 스위치로 제어할 수 있는 다양한 밝기 설정이 있습니다. 밝기 수준을 조절하려면 원하는 밝기에 도달할 때까지 버튼을 여러 번 누릅니다. 높은 밝기 수준은 배터리를 빠르게 소모시킬 수 있으니 주의하세요.
 

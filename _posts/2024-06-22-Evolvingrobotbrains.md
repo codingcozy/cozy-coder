@@ -3,7 +3,7 @@ title: "진화하는 로봇 뇌 2024 최신 기술과 트렌드"
 description: ""
 coverImage: "/assets/img/2024-06-22-Evolvingrobotbrains_0.png"
 date: 2024-06-22 19:33
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-Evolvingrobotbrains_0.png
 tag: Tech
 originalTitle: "Evolving robot brains"
@@ -11,19 +11,26 @@ link: "https://medium.com/@alex2august/evolving-robot-brains-37b3f14812d9"
 isUpdated: true
 ---
 
-
-
-
-
 제 학사 학위 논문 이후에 오랜만이네요. 그때 했던 것들을 함께 공유해보려고 합니다.
 
 ![로봇 뇌 발전](/assets/img/2024-06-22-Evolvingrobotbrains_0.png)
 
-여기서 말하는 로봇이란 실제 세계에서 일을 하는 기계를 의미하고, 뇌란 AI 알고리즘을 의미합니다. 
+여기서 말하는 로봇이란 실제 세계에서 일을 하는 기계를 의미하고, 뇌란 AI 알고리즘을 의미합니다.
 
 좀 더 자세히 설명하자면, 그 AI 알고리즘은 신경망입니다. 모두가 이미 알고 있듯이, 신경망은 생물학적 뇌에서 영감을 받았지만 이제 다시 강조해보는 것도 좋을 것 같아요. 이게 왜 이때에 관련이 있는지 조금 있다 보시면 아실 거예요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 진화란, 로봇을 제어하는 데 충분히 좋은 신경망을 "검색"하는 것을 의미합니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 저는 Omni 바퀴가 3개 달린 로봇을 만들었기 때문에 각 바퀴에 적절한 토크를 가해 어떤 방향으로든 움직일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그것을 제어하는 신경망은 두 개의 입력과 두 개의 출력을 갖고 있어요.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 ![image](/assets/img/2024-06-22-Evolvingrobotbrains_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 지점의 픽셀 좌표는 뉴럴 네트워크에 입력되며, 초기에 무작위로 예측된 두 개의 숫자가 원하는 로봇 이동을 나타냅니다.
 
@@ -51,7 +80,18 @@ isUpdated: true
 
 아래는 유전 알고리즘을 사용하여 충분히 좋은 네트워크를 찾기 위한 중요한 두 가지입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 먼저 각 네트워크에 대해 점수 매기기를 해야 해요.
 - 두 번째로, 선택사항이지만 프로세스 속도를 높이는 데 많은 도움이 되는 것은 로봇을 시뮬레이션하는 것입니다. 운 좋게도 이 작업은 너무 간단해서 시뮬레이션에 문제가 되지 않아요.
@@ -65,7 +105,18 @@ isUpdated: true
 - 점수 지정
 - 점수를 기반으로 다음 인공신경망 모집단을 만들 때 사용할 네트워크 결정
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 단계를 여러 차례 반복한 후에는 신경망이 작업을 수행하는 데 점점 더 잘되는 것이 명백하게 보입니다.
 
@@ -75,8 +126,18 @@ isUpdated: true
 
 성능이 우수한 하나의 신경망을 선택하여 이 신경망에 스마트폰 카메라에서 발견한 빨간 점의 위치를 공급했습니다. 네트워크의 출력을 토크 값으로 변환하고, 마지막으로 아두이노를 사용하여 모터가 바퀴를 회전하도록했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](https://miro.medium.com/v2/resize:fit:640/1*fEWqKo2wyiaOo4Nmb3wO9A.gif)
 

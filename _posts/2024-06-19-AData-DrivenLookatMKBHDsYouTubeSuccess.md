@@ -3,17 +3,13 @@ title: "MKBHD의 YouTube 성공을 데이터로 살펴보기"
 description: ""
 coverImage: "/assets/img/2024-06-19-AData-DrivenLookatMKBHDsYouTubeSuccess_0.png"
 date: 2024-06-19 01:23
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-AData-DrivenLookatMKBHDsYouTubeSuccess_0.png
 tag: Tech
 originalTitle: "A Data-Driven Look at MKBHD’s YouTube Success"
 link: "https://medium.com/@kakarvardaan/a-data-driven-look-at-mkbhds-youtube-success-1339df454a47"
 isUpdated: true
 ---
-
-
-
-
 
 ## 테크 비디오 블로깅에서 콘텐츠 트렌드와 관객 참여에 대해 발견하다
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![마크 브라운리의 유튜브 성공을 데이터로 살펴보기](/assets/img/2024-06-19-AData-DrivenLookatMKBHDsYouTubeSuccess_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 소개
 
@@ -34,7 +41,18 @@ MKBHD는 기본적으로 그의 리뷰와 비평을 유튜브 채널을 통해 �
 
 유튜브는 플랫폼에서 비디오에 대한 대본을 제공합니다. 이 대본은 유튜버가 직접 설정할 수도 있고, 자동 생성된 자막(대게 엉터리이지만, 우리가 갖고 있는 것으로 충분히 활용합니다)일 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희 목표는 이 대본을 분석하고 데이터의 기저 관계를 파악하는 것입니다.
 
@@ -48,7 +66,18 @@ YouTube Data v3 API를 사용하여 MKBHD의 모든 이용 가능한 대본 및 
 - 뷰어 수 대 평균 발언 속도
 - 감정 분석
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 프로젝트
 
@@ -58,7 +87,18 @@ YouTube Data v3 API를 사용하여 MKBHD의 모든 이용 가능한 대본 및 
 
 ![chart](/assets/img/2024-06-19-AData-DrivenLookatMKBHDsYouTubeSuccess_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요즘 그는 더 긴 형식의 동영상을 업로드하고 있습니다. 그 결과 구독자 수가 늘어난 것은 물론 조회수에도 영향을 미치지 않았습니다. 최근 2-3년 동안 게시된 동영상들이 이전에 업로드된 짧은 동영상들보다 평균적으로 더 나은 성과를 거두고 있습니다.
 
@@ -68,9 +108,20 @@ YouTube Data v3 API를 사용하여 MKBHD의 모든 이용 가능한 대본 및 
 
 MKBHD 채널에는 핸드폰 리뷰부터 카메라 리뷰, 그리고 자동차 시리즈까지 다양한 주제의 동영상이 있습니다. 저는 각 대본에 대한 임베딩에 HDBSCAN을 수행하여 지정된 매개변수에 기반하여 14개 그룹으로 분할했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-해당 글의 내용은 다음과 같습니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+해당 글의 내용은 다음과 같습니다.
 
 왼쪽 아래의 해군 청색 점들은 자동차 리뷰에 관한 비디오를 나타내고, 왼쪽 상단의 주황색 군집은 오디오 장비에 관한 것이며, 오른쪽 하단 쪽에 있는 주황빛 붉은 그룹은 안드로이드 기능을 대표합니다.
 
@@ -95,7 +146,18 @@ MKBHD 채널에는 핸드폰 리뷰부터 카메라 리뷰, 그리고 자동차 
 
 비디오 클러스터 및 키워드를 기반으로 다음은 각 클러스터별로 제안할 수 있는 주제입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 -1: Outliers (내 휴대폰에 뭐가 있을까 (20xx), DALL-E, 5G)
@@ -120,7 +182,18 @@ MKBHD 채널에는 핸드폰 리뷰부터 카메라 리뷰, 그리고 자동차 
 
 당신의 관객이 좋아하는 콘텐츠를 파악하고 그것을 활용하는 것은 대부분의 유튜버들이 가지고 싶어하는 기술이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-AData-DrivenLookatMKBHDsYouTubeSuccess_3.png" />
 
@@ -130,7 +203,18 @@ MKBHD 채널에는 핸드폰 리뷰부터 카메라 리뷰, 그리고 자동차 
 
 ## 4. 조회수 대 평균 발표 속도
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 유튜버들은 종종 콘텐츠를 어떻게 제시할지 실험합니다. 그들은 말하는 단어의 명료도, 말 속도, 어휘 등을 조절합니다. 아래 그래프는 MKBHD의 조회수 대 말한 단어 수/분을 보여줍니다.
 
@@ -140,7 +224,18 @@ MKBHD 채널에는 핸드폰 리뷰부터 카메라 리뷰, 그리고 자동차 
 
 이 그래프들은 그가 말하는 속도를 약 100-120 단어/분으로 일정하게 유지하고 있지만, 최근에는 보통보다 훨씬 높은 속도인 190-200 단어/분을 시도하며 실험하고 있다는 것을 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 연설 속도가 이 채널의 조회수에 큰 영향을 미치지 않는다는 결론을 내릴 수 있습니다(그러나 에미넴과 같은 다른 채널들의 조회수에는 영향을 줄 수 있습니다. 에미넴은 450마일/시간에 도달하는 연설 속도로 유명합니다).
 
@@ -151,7 +246,18 @@ MKBHD 채널에는 핸드폰 리뷰부터 카메라 리뷰, 그리고 자동차 
 여기서, 음성의 부정적 점수가 낮을수록 채널에서 부정적인 단어의 사용이 적습니다. 그래프에서 알 수 있듯이, 그는 중립을 유지하며 일반적으로 긍정적인 리뷰를 제공합니다.
 재미있는 점은 최근 공개된 '내가 지금까지 리뷰한 제품 중 최악이다... 지금까지'라는 제목의 비디오에 대해 언급할 수 있습니다. 인간적 AI 핀에 대한 리뷰로 사용자들을 깜짝 놀라게 했는데, 이 리뷰는 최근에 제공한 가장 부정적인 리뷰 중 하나였습니다. 마크는 제품에 대한 희망을 인정했고 미래 아이디어를 좋아한다고 말했습니다. 이 비디오의 부정적 점수는 0.1이고, 긍정적 점수는 0.26으로 상당히 표준적입니다. 이는 비디오 콘텐츠 자체가 너무 심하지 않을 수도 있지만, 네티즌들이 지나치게 과장하고 과도하게 비난한 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -161,7 +267,18 @@ MKBHD 채널에는 핸드폰 리뷰부터 카메라 리뷰, 그리고 자동차 
 
 YouTube에는 '가장 재생된' 기능이 있어 콘텐츠의 가장 인기 있는 부분과 가장 인지도가 낮은 부분을 볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 프로젝트는 비디오의 전체 콘텐츠와 통계에 초점을 맞추지만, 이를 사용하여 비디오의 작은 부분들의 유사한 기능을 보여주는 기반으로도 사용할 수 있습니다. 이를 통해 유튜버들이 인기 없는 부분에서 발생하는 지속적인 문제를 해결하고, 그 콘텐츠에서 가장 많이 재생된 스니펫의 품질을 대규모로 구현하는 데 도움을 줄 수 있습니다.
 
@@ -172,7 +289,18 @@ YouTube에는 '가장 재생된' 기능이 있어 콘텐츠의 가장 인기 있
 - https://www.youtube.com/watch?v=lXeNZeLSsgY&t=18s
 - https://www.youtube.com/watch?v=qzKCEhYssAk&list=PLwm1cDL75rYMECvKZzSwUz2hwZNkuKO8T
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 소스 코드
 

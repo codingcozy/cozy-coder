@@ -3,18 +3,13 @@ title: "커스텀 nRF52832 디자인에 아두이노 부트로더를 플래싱�
 description: ""
 coverImage: "/assets/img/2024-06-19-HowtoFlashtheArduinoBootloadertoaCustomnRF52832Design_0.png"
 date: 2024-06-19 17:49
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-HowtoFlashtheArduinoBootloadertoaCustomnRF52832Design_0.png
 tag: Tech
 originalTitle: "How to Flash the Arduino Bootloader to a Custom nRF52832 Design"
 link: "https://medium.com/@pietrowicz-eric/how-to-flash-the-arduino-bootloader-to-a-custom-nrf52832-design-7e730fcb9adb"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![이미지](/assets/img/2024-06-19-HowtoFlashtheArduinoBootloadertoaCustomnRF52832Design_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 부트로더를 설치한 후 이와 같은 UART에서 USB 변환기가 필요합니다. 이것은 부트로더가 설치된 후 Arduino IDE에서 nRF52832를 플래싱하는 데 사용될 것입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 BLE 모듈을 사용하여 몇 가지 예시 연결을 이 가이드에서 사용할 예정이지만, 이 단계들을 여러분의 디자인에 맞게 조정할 수 있어요.
 
@@ -35,17 +40,39 @@ BLE 모듈을 사용하여 몇 가지 예시 연결을 이 가이드에서 사�
 
 # 부트로더 구성하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Adafruit_nRF52_Bootloader 저장소를 컴퓨터로 복제해야 합니다. 저장소의 src ` boards 디렉터리에서 부트로더가 지원하는 보드 목록을 확인할 수 있습니다.
 
 우리의 최종 목표와 가장 일치하는 feather_nrf52832의 부트로더 구성을 수정할 것입니다.
 
-src ` boards ` feather_nrf52832 ` board.h로 이동하세요. LED, BUTTON 및 UART에 대한 다른 섹션을 확인할 수 있습니다. 이러한 섹션을 PCB 디자인과 일치하도록 업데이트해야 합니다.
+src `boards` feather_nrf52832 ` board.h로 이동하세요. LED, BUTTON 및 UART에 대한 다른 섹션을 확인할 수 있습니다. 이러한 섹션을 PCB 디자인과 일치하도록 업데이트해야 합니다.
 
 UART 구성부터 시작하여 핀을 디자인에 맞게 업데이트하세요. 저희 경우에는 P0.31 = TX 및 P0.30 = RX입니다. 하드웨어 흐름 제어를 사용하지 않기 때문에 CTS 및 RTS 핀 정의를 무시할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 변환기의 RX는 마이크로컨트롤러의 TX에 연결되어야 하며, 변환기의 TX는 마이크로컨트롤러의 RX에 연결되어야 합니다.
 
@@ -71,7 +98,18 @@ UART 구성부터 시작하여 핀을 디자인에 맞게 업데이트하세요.
 #define LED_STATE_ON       1
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로, 버튼 섹션을 살펴봅시다.
 
@@ -81,7 +119,18 @@ DFU와 FRST 버튼에 대해 더 자세히 알아보세요.
 
 내 디자인에는 버튼을 사용하지 않을 것입니다. 대신 부트로더 모드에서 일시 중지한 후 일정 기간 후에 Arduino 코드를 로드하게 될 것입니다. 이에 대해 더 자세히 이야기하겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한번 더 랜덤 핀을 2개 버튼 섹션에 할당하겠습니다.
 
@@ -99,7 +148,18 @@ DFU와 FRST 버튼에 대해 더 자세히 알아보세요.
 #define BUTTON_PULL        NRF_GPIO_PIN_PULLUP
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 버튼을 사용하지 않는 디자인을 사용하고 있기 때문에 부트로더 기간을 수정하여 코드 업로드를 쉽게 만들기로 결정했습니다. 기본적으로 부트로더는 리셋 후 1초 동안 일시 정지하여 Arduino IDE에서 오는 새 코드를 기다립니다.
 
@@ -111,7 +171,18 @@ DFU와 FRST 버튼에 대해 더 자세히 알아보세요.
 #define DFU_SERIAL_STARTUP_INTERVAL     20000 // ms
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에서 볼 수 있듯이, 내 사용자 정의 부트로더는 리셋 후 20초 동안 새로운 아두이노 코드를 기다린 후 아두이노 스케치를로드합니다.
 
@@ -121,7 +192,18 @@ DFU와 FRST 버튼에 대해 더 자세히 알아보세요.
 
 최신 릴리스를 선택하고 운영 체제에 필요한 설치 프로그램을 다운로드하세요. 나중에 문제가 발생하면 설치 경로를 메모해두세요. 또한 프롬프트가 나타나면 "PATH에 추가"를 선택하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로컬 Adafruit UF2 부트로더 사본 내에서 새 터미널 창을 열어주세요.
 
@@ -133,7 +215,18 @@ git submodule update --init
 
 그 다음에는 다음을 실행하여 가상 파이썬 환경을 생성하고 활성화하세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 python3 -m venv myenv
@@ -149,7 +242,18 @@ pip3 install adafruit-nrfutil
 
 이제 부트로더를 빌드하기 위해 make 명령어를 실행하세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 BOARD=feather_nrf52832을 사용하여 make all 명령어를 실행하세요.
@@ -164,7 +268,18 @@ JLINK 프로그래머에서 다음 핀을 nRF52832 모듈로 연결하세요:
 - GND
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로 플래시 명령을 실행하세요:
 
@@ -176,7 +291,18 @@ make flash
 
 (여기에 설명된 대로 nRF52 보드 지원 패키지가 설치되어 있는지 확인하세요)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 DFU 버튼이 있으면: 그 버튼을 누른 채로 모듈을 재설정(또는 전원 주기)한 다음, DFU 버튼을 놓아서 부트로더 모드로 진입하십시오.
 

@@ -3,18 +3,13 @@ title: "로봇 보조 돌보미를 받아들이는 법을 배울 수 있을까�
 description: ""
 coverImage: "/assets/img/2024-06-20-CanWeLearntoEmbraceRoboticCaregivers_0.png"
 date: 2024-06-20 17:57
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-CanWeLearntoEmbraceRoboticCaregivers_0.png
 tag: Tech
 originalTitle: "Can We Learn to Embrace Robotic Caregivers?"
 link: "https://medium.com/neodotlife/can-we-learn-to-embrace-robotic-caregivers-231dbbd8291e"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![Image](https://miro.medium.com/v2/resize:fit:1400/1*YeyFnXQkQXlwixSpe3KfVA.gif)
 
@@ -23,8 +18,18 @@ isUpdated: true
 
 남부 캐롤라이나 해안의 아파트에 살고 있는 부모님은 퇴직자 이웃들과 함께 노년의 불확실성을 간접적으로 체험하고 있다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인공지능은 우리가 음식을 배달받는 기계를 운전하는 자동차를 만들거나 심지어 우리 일을 할 수 있는 기계를 고민할 때로 인해 로봇들을 대중 인식에 한 걸음 가깝게 만들었습니다.
 
@@ -34,7 +39,18 @@ isUpdated: true
 
 많은 전문가들이 동의하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인간 형상 로봇은 인간 행동에 대한 다양한 기대 때문에 일반적으로 설계하기 어려워요. 대학 캠퍼스에서 테스트된 바퀴 상자 음식 배달 로봇과 같이 기계적인 외관을 가진 로봇은 사용자의 요구가 낮아요. 이러한 기계들이 간단한 작업을 정확하게 수행하기를 기대하지만, 그들의 능력이 제한되어 있다는 것은 우리가 받아 들일 수 있다고 테크니컬 대학교의 심리학자인 Eileen Roesler씨가 말합니다. 그들의 외관은 이를 분명히 보여줍니다.
 
@@ -44,7 +60,18 @@ isUpdated: true
 
 로봇이 인간적인 외관을 가지고 있을 때, 우리는 그것이 인간처럼 행동하기를 기대합니다. Roesler씨는 이것이 엘리베이터 안에서 이방인들을 위해 자리를 비우거나 청소하면서 눈을 지문 곳으로 돌리는 등 인간처럼 행동하는 것을 의미한다고 말합니다. 디자이너에게는 인간처럼 이러한 상황에 대응할 수 있는 로봇을 만드는 것이 불가능한 도전이 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Uncanny Valley에서 정서를 찾기
 
@@ -54,7 +81,18 @@ Diana는 이 문제를 피하기 위해 "추상화가 우리의 최고 자원"�
 
 일부 경우에는 로봇이 작업을 완료하기 위해 인간 행동을 모방해야 할 수도 있습니다. 직선으로 거리를 향해 달리는 로봇은 효과적일 수 있지만, 의심을 갖는 사람들을 설득할 수는 없습니다. 따라서 Roesler는 병원 복도를 통해 약물을 전달하는 로봇은 예측 가능하게 다른 사람 주변을 움직이고 충돌을 피할 수 있도록 프로그래밍되어야 한다고 말합니다. 특히 로봇이 이면하는 사람들(예: 배송 로봇이나 집청소 로봇)이 보행로에서 이웃들을 지나칠 수 있는 경우, 몇 가지 사람스러운 터치를 포함시키는 것이 유용하다고 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 부모님은 일부 지역 식당을 자주 이용하는데, 자동화된 음식 배달이 가정 돌보기보다 더 이해하기 쉽다고 느끼시는군요. "피자 배달하러 오면 어떨까?" 아빠가 엄마에게 물어봅니다. 지금까지 회의적이었던 엄마는 "음식은 괜찮아"라고 답합니다.
 
@@ -62,7 +100,18 @@ Diana는 이 문제를 피하기 위해 "추상화가 우리의 최고 자원"�
 
 # 기술에 대한 태도 조정
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 고령자들이 로봇 보조 양육인을 수용할지 여부에 대해서는 "문제는 기술에 대한 문화적 태도, 보호자의 역할에 대한 개인적 신념 및 로봇 및 기타 형태의 기술과의 개별적 경험과 같은 다양한 요소에 따라 다를 것으로 보인다"는 ChatGPT의 답변입니다.
 
@@ -72,7 +121,18 @@ Diana는 이 문제를 피하기 위해 "추상화가 우리의 최고 자원"�
 
 사무엘 올라툰지는 일리노이 주 어배나-챔페인 대학에서 로봇 공학 연구원으로써 인간-로봇 상호작용 실험 프로젝트를 감독하며, 처음으로 로봇 도우미를 만나는 사람들과 함께 일하고 있습니다. 부모님과 같은 사람들이 회의론적인 태도를 가질 것이라는 건 놀라운 일이 아닙니다. 그는 말합니다. "영화, 소설, 매체는 보통 로봇을 완벽하게, 세상을 지배할 준비가 된 것으로 묘사하지만, 사람들이 로봇을 실제로 체험하면 로봇은 거기 없다." 사람을 들어 올리고 침대에서 돌리는 것과 같은 작업조차도 로봇의 행동 방식에 대한 미묘한 기대를 풀어내는 과학자들에 의해 아직 개발 중에 있습니다. 그러나 로봇은 사람에게 식사를 제공하고 물건을 가져오며 세탁과 같은 집안일을 할 수 있습니다. 다시 말해, 그들은 유용하지만 독립적으로 생각하는 보호자로서의 두려움을 일으키는 — 비현실적인 — 영화 스토리에 영감을 받은 것과는 거리가 멉니다. 아마 그것이 좋은 일일지도 모릅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다른 연구자들처럼 Olatunji는 로봇이 지원자로서 작용하여 병원 시설에서 종사자들에게 더 복잡한 작업들을 수행하도록 해주어야 한다고 확신합니다. 핵심적인 대면 시간을 대체하는 것이 아닙니다. 로봇이 알약을 나눠준다거나 신발을 신을 수 있도록 도와주면 의료진은 치료 계획, 정서적 건강 요구 사항 또는 다른 복잡한 주제와 작업에 시간을 더 투자할 수 있습니다.
 
@@ -82,7 +142,18 @@ Olatunji는 사람들이 로봇에 적응할 수 있도록 도와주는 기초 �
 
 "이 바이러스인 COVID로부터 우리가 배우지 못했나요, 사랑하는 사람들과 분리되어 있어서 얼마나 괴로워하는지?" 엄마가 말합니다. 그녀는 로봇의 자택 방문이 필요한 인간적 상호작용을 대체할 것을 우려하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "인간과 로봇의 상호작용에서 가장 큰 두려움 중 하나는 로봇이 온전히 자신의 역할을 반영하고 있는 로봇 대체물에 의해 보호자와 같은 사람들이 지원받지 않고 소멸될 수 있다는 것입니다,"라고 Roesler는 말합니다. 현재 로봇의 기술적 제약들을 감안할 때, "이것은 실제적인 시나리오가 아닙니다."
 
@@ -92,7 +163,18 @@ Olatunji는 사람들이 로봇에 적응할 수 있도록 도와주는 기초 �
 
 우리를 안아주거나 상호작용하는 사회적 로봇은 수년간 제작되어 왔습니다. 2003년 처음 출시된 로봇 해안도링이, 어느덧 여덟 번째 모델이 되어 일본, 호주, 미국, 유럽 등 여러 국가에서 판매되고 있습니다. 이 부품이 들어가 있는 로봇은 살랑이는 동작을 하며 쓰다듬으면 울음소리를 내기도 합니다. 이 로봇은 타격을 구별할 수 있고 부정적인 반응을 유발하는 행동을 피할 수 있게 배울 수 있습니다. 과학자들은 해안도링이 인기 있는 이유가 우리가 해안도링의 행동에 대해 크게 알지 못하기 때문이라고 말합니다. 해안도링이 너무 큰 유모도리를 빨고 있다는 것에 대해 마음껏 이상해하지 않습니다. 아마도 좀 더 익숙한 고양이나 개에게는 이상할 수도 있겠지요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파로는 6,000달러라는 가격표에도 불구하고 성공적인 20년의 채택을 통해, 치매, 알츠하이머, 심지어 자폐증을 가진 사람들에게 로봇이 얼마나 중요한지 보여 주었습니다. 파로는 동물 요법의 혜택을 모방할 수 있으며 기술적으로는 생체 피드백 장치입니다. 또한 그냥 동반자로 사용할 수도 있습니다.
 
@@ -102,7 +184,18 @@ Olatunji는 사람들이 로봇에 적응할 수 있도록 도와주는 기초 �
 
 "만약 사람이 반대하면, 그 즉시 포옹을 놓고 싶다는 것을 알 수 있습니다,"라고 Block는 말했습니다. HuggieBot을 대학원생로서 발명한 로봇공학자. 포옹을 하는 사람들은 또한 로봇의 부드러운 피복, 살짝 따뜻함, 그리고 민첩성을 좋아합니다. 사용자가 로봇의 팔에 반발하거나 끼이는 것을 멈추면, 로봇은 빠르게 그들을 놓습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 놀랍게도 블록은 로봇과 함께 하는 안아 할 때, 사람들이 반 자발적인 마사지, 톡톡, 그리고 압박을 선호한다고 말합니다. 초기 테스트에서 그녀는 허기봇이 받은 안아를 거의 복제하도록 시도해보았습니다. "[사람들]이 그걸 좋아하지 않았어요. 자연스럽지 않다고 말했죠," 블록은 말합니다. 그녀는 자발적인 제스쳐가 무서울 것이라고 상상했었습니다: "사람들이 로봇이 고장났다고 생각할 것 같았어요," 그녀는 말합니다. 하지만 그게 틀렸습니다. "사람들은 그로 인해 로봇이 자신들을 돌본다고 느꼈다고 말해주더라구요," 그녀가 웃으며 말합니다.
 
@@ -112,7 +205,18 @@ Olatunji는 사람들이 로봇에 적응할 수 있도록 도와주는 기초 �
 
 사우스 캐롤라이나로 돌아와서, 우리 대화는 실내에서 웃길고 상상력에 기반합니다. 내 엄마는 로봇이 그녀의 보석을 훔쳐갈까봐 걱정합니다. 만약 나쁜 사람이 프로그램했다면 어떨까요? 로봇은 부식되고 썩을까요? "그들은 여기서 로봇을 시험해봤어야 해요. 소금물은 모든 것을 망치잖아," 아빠가 말합니다. 그리고 물론, 그들은 나에게 "너희 접시 닦아라!"라고 상기시켜줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가격이 저렴한 로봇은 빨리 출시되어야 합니다.
 

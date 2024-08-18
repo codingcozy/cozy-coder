@@ -3,17 +3,13 @@ title: "최신 데이터 분석 AI 시스템 Auto-Analyst 구축 방법"
 description: ""
 coverImage: "/assets/img/2024-06-30-BuildingAuto-AnalystAdataanalyticsAIagenticsystem_0.png"
 date: 2024-06-30 23:59
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-30-BuildingAuto-AnalystAdataanalyticsAIagenticsystem_0.png
 tag: Tech
 originalTitle: "Building “Auto-Analyst” — A data analytics AI agentic system"
 link: "https://medium.com/firebird-technologies/building-auto-analyst-a-data-analytics-ai-agentic-system-3ac2573dcaf0"
 isUpdated: true
 ---
-
-
-
-
 
 ## AI ‘Auto-Analyst’를 만드는 기술 가이드
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## 디자인
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Flow Diagram](/assets/img/2024-06-30-BuildingAuto-AnalystAdataanalyticsAIagenticsystem_1.png)
 
@@ -33,7 +40,18 @@ Please keep in mind that the planner agent may assign tasks to only some of the 
 
 ## Components of the system
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 블로그 게시물에서는 각각의 구성 요소에 대한 코드 블록을 제공하면서 에이전트를 직접 구축하는 단계별 안내를 제공할 것입니다. 다음 섹션에서는 이러한 부분들이 완벽하게 통합되는 방법을 시연할 것입니다.
 
@@ -43,22 +61,31 @@ Please keep in mind that the planner agent may assign tasks to only some of the 
 
 Agent1-` Agent2-` Agent3....
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 다른 orchestration 라이브러리를 사용할 수 있지만 DSPy를 사용하여 빠르고 간편하게 응용프로그램을 구축하고 평가하는 데 좋았습니다.
 
 import dspy
 
 # 이 객체는 dspy.Signature 클래스를 상속받습니다.
+
 # """ 안의 텍스트는 프롬프트입니다.
+
 class analytical_planner(dspy.Signature):
-    """ 데이터 분석 플래너 에이전트입니다. 세 가지 입력에 액세스할 수 있습니다.
-    1. 데이터셋
-    2. 데이터 에이전트 설명
-    3. 사용자 정의 목표
-    이 세 가지 입력을 사용하여 데이터 및 사용 가능한 에이전트로부터 사용자 정의 목표를 달성하기 위한 포괄적인 계획을 개발합니다.
-    사용자 정의 목표가 실현 불가능하다고 생각되면 사용자에게 목표를 다시 정의하거나 설명을 추가할 것을 요청할 수 있습니다.
+""" 데이터 분석 플래너 에이전트입니다. 세 가지 입력에 액세스할 수 있습니다. 1. 데이터셋 2. 데이터 에이전트 설명 3. 사용자 정의 목표
+이 세 가지 입력을 사용하여 데이터 및 사용 가능한 에이전트로부터 사용자 정의 목표를 달성하기 위한 포괄적인 계획을 개발합니다.
+사용자 정의 목표가 실현 불가능하다고 생각되면 사용자에게 목표를 다시 정의하거나 설명을 추가할 것을 요청할 수 있습니다.
 
     다음 형식으로 결과를 제공하십시오:
     plan: Agent1->Agent2->Agent3
@@ -66,16 +93,15 @@ class analytical_planner(dspy.Signature):
 
     쿼리의 응답으로 모든 에이전트를 사용할 필요는 없습니다.
     """
-    
+
     # 입력 필드와 그 설명
     dataset = dspy.InputField(desc= "시스템에 로드된 사용 가능한 데이터셋, 이 df_name,columns 사용하여 df를 df_name의 사본으로 설정합니다.")
     Agent_desc = dspy.InputField(desc="시스템에 있는 에이전트들")
     goal = dspy.InputField(desc="사용자가 정의한 목표")
-    
+
     # 출력 필드와 해당 설명
     plan = dspy.OutputField(desc="사용자가 정의한 목표를 달성하는 계획")
     plan_desc = dspy.OutputField(desc="선택된 계획 뒤에 있는 이유")
-
 
 ![Building Auto Analyst Agent AI System](/assets/img/2024-06-30-BuildingAuto-AnalystAdataanalyticsAIagenticsystem_2.png)
 
@@ -83,8 +109,18 @@ class analytical_planner(dspy.Signature):
 
 대부분의 분석 에이전트들은 프롬프트에 약간의 차이가 있는 일반적인 구조를 공유합니다. 사용자가 정의한 목표와 데이터세트 인덱스를 받습니다. 분석 코드와 설명의 두 출력을 생성하는데, 이는 디버깅에 유용하거나 에이전트를 재지정하는 데 도움이 될 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```yaml
 # 중계 요원은 중간 계층에 있는 에이전트로 정의됩니다
@@ -111,8 +147,8 @@ class 통계분석에이전트(dspy.Signature):
     code = dspy.OutputField(desc="statsmodel을 사용하여 통계 분석을 수행하는 코드")
 
 class sk_learn에이전트(dspy.Signature):
-    """머신 러닝 에이전트로,  
-    데이터 집합과 사용자가 정의한 목표를 가져와 해당 목표를 달성하기 위해 
+    """머신 러닝 에이전트로,
+    데이터 집합과 사용자가 정의한 목표를 가져와 해당 목표를 달성하기 위해
     적절한 기계 학습 분석을 수행하는 파이썬 코드를 출력합니다.
     scikit-learn 라이브러리를 사용해야 합니다."""
     dataset = dspy.InputField(desc="시스템에 로드된 사용 가능한 데이터 세트, 이 df_name, columns를 사용하여 df를 df_name의 복사본으로 설정")
@@ -130,7 +166,18 @@ class sk_learn에이전트(dspy.Signature):
 
 이 에이전트의 목적은 모든 에이전트의 출력물을 하나의 일관된 스크립트로 정리하는 것입니다. 긴 문자열의 코드 목록을 입력으로 받아 코드를 출력합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 class code_combiner_agent(dspy.Signature):
@@ -151,7 +198,7 @@ class Data_Viz(dspy.Signature):
     사용 가능한 도구들을 활용해야 합니다
     {dataframe_index}
     {styling_index}
-    
+
     사용자가 원하는 데이터와 차트에 대한 정보를 포함하는 사용자 정의 목표를 사용해야 합니다.
     데이터 프레임 내의 관련 열이 없는 경우 관련 정보가 없다고 명시해야 합니다.
     """
@@ -159,7 +206,7 @@ class Data_Viz(dspy.Signature):
     dataframe_context = dspy.InputField(desc="데이터 프레임 내 데이터에 관한 정보를 제공합니다. 열 이름과 데이터프레임 이름만 사용하면 됩니다.")
     styling_context = dspy.InputField(desc="Plotly 그림을 어떻게 스타일링할지에 대한 지시를 제공합니다.")
     code = dspy.OutputField(desc="사용자의 쿼리 및 데이터프레임 인덱스 및 스타일링 콘텍스트에 따라 필요한 시각화를 시각화하는 Plotly 코드")
-    
+
 # 사용자가 정의한 목표가 잘 작동하는지 확인하는 선택적인 에이전트
 class goal_refiner_agent(dspy.Signature):
     """AI 데이터 분석가 플래너 에이전트에게 제공된 사용자 정의 목표를 받아서, 시스템에 로드된 데이터셋과 에이전트 설명을 활용하여 목표를 보다 상세하게 만들어 줍니다."""
@@ -169,7 +216,18 @@ class goal_refiner_agent(dspy.Signature):
     refined_goal = dspy.OutputField(desc="플래너 에이전트가 더 나은 계획을 세울 수 있도록 도와주는 세분화된 목표")
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이곳에서 데이터 세트 전체에 대한 정보를 제공하는 대신, 데이터 사용 가능한 정보를 입력하는 리트리버를 구축했습니다.
 
@@ -187,9 +245,20 @@ style_index = VectorStoreIndex.from_documents(styling_instructions)
 
 # 모든 것을 하나의 시스템으로 통합
 
-DSPy에서 복잡한 LLM 애플리케이션을 컴파일하려면 두 가지 필수 메소드 __init__ 및 forward를 정의해야합니다.
+DSPy에서 복잡한 LLM 애플리케이션을 컴파일하려면 두 가지 필수 메소드 **init** 및 forward를 정의해야합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 _init_ 메서드는 모듈을 초기화하여 사용될 모든 변수를 정의합니다. 그러나 핵심 기능이 구현되는 곳은 forward 메서드입니다. 이 메서드는 한 구성 요소의 출력이 다른 구성 요소와 상호작용하는 방식을 개요로 제공하여 응용 프로그램의 논리를 효과적으로 구동합니다.
 
@@ -268,10 +337,20 @@ output = auto_analyst_system(query=goal)
 
 이 쿼리 = '시카고의 범죄 원인은 무엇인가요?'
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 The images show the progress of your project. The first one showcases the preprocessing agent, taking the initial steps to bring your plan to life. And in the next image, the statistical analysis agent takes over, moving your project forward with data-driven insights. Keep up the good work! 🌟
-
 
 ![BuildingAuto_AnalystAdataanalyticsAIagenticsystem_4.png](/assets/img/2024-06-30-BuildingAuto-AnalystAdataanalyticsAIagenticsystem_4.png)
 
@@ -281,8 +360,18 @@ Executing the plan, first preprocessing agent
 
 Next statistical analysis agent
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![BuildingAuto-AnalystAdataanalyticsAIagenticsystem_6.png](/assets/img/2024-06-30-BuildingAuto-AnalystAdataanalyticsAIagenticsystem_6.png)
 
@@ -292,7 +381,18 @@ Next is the Plotly data visualization agent
 
 And finally, the code combiner agent, to bring it all together
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마법사카드를 이야기하는 건가요? 라스트번 에이전트 코드를 실행한 결과물을 보여드릴게요.
 
@@ -304,7 +404,18 @@ And finally, the code combiner agent, to bring it all together
 
 ![이미지 10](/assets/img/2024-06-30-BuildingAuto-AnalystAdataanalyticsAIagenticsystem_10.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 한계사항
 
@@ -316,7 +427,18 @@ And finally, the code combiner agent, to bring it all together
 
 # 다음 단계
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 프로젝트는 계속 진행 중이에요. 다음으로 이 프로젝트를 개선하기 위해 예상되는 단계들을 살펴볼게요:
 

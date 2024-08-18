@@ -3,17 +3,13 @@ title: "Nvidia 우주를 향하다"
 description: ""
 coverImage: "/assets/img/2024-06-22-Nvidiaadastra_0.png"
 date: 2024-06-22 19:38
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-Nvidiaadastra_0.png
 tag: Tech
 originalTitle: "Nvidia: ad astra?"
 link: "https://medium.com/enrique-dans/nvidia-ad-astra-c655cdd1be1f"
 isUpdated: true
 ---
-
-
-
-
 
 ![Nvidiaadastra_0](/assets/img/2024-06-22-Nvidiaadastra_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Nvidia가 최고기록을 경실할 예정인가요, 아니면 아직 긴 여정을 거쳐야 할까요? 우선, 더 많은 기업들이 제품과 서비스에 머신 러닝과 AI를 통합함으로써 AI의 보편성이 점점 더 높아지고 있지만, 우리는 아직 성숙한 시장에서 매우 멀리 떨어져 있으며 더구나 정체된 시장에서도 더 멀리 떨어져 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 둘째, 우리는 일반적으로 컴퓨터 화면 앞에서 이루어지는 행정 업무에 생성적 AI를 적용하는 첫 번째 단계에 대해 논의하고 있습니다. 매우 다양한 유형의 보조 인력, 예측을 얻기 위한 데이터 처리 등이 매우 흥미롭지만, 물리적 세계에서 이루어지는 많은 활동을 배제합니다. 이 두 번째 단계는 로봇공학의 발전과 교차되는데, 이 환경에서는 테슬라의 매우 알려진 Optimus와 같은 여러 프로젝트가 아직 상대적으로 초기 단계에 있는 것을 볼 수 있습니다. Figure, Agility 등도 있습니다.
 
@@ -31,6 +38,17 @@ Nvidia가 최고기록을 경실할 예정인가요, 아니면 아직 긴 여정
 
 그렇다면, Nvidia에 대해 하늘은 한계인가요? 주식 시장 가치에서 새로운 이정표를 세울 것인가요? AI가 더 많은 세그먼트로 진입할 것으로 보이며 모든 산업의 회사들이 최고의 알고리즘을 위해 경쟁할 것으로 보이는 시점에 Nvidia의 별이 가시지 않는 것으로 보아, 아마도 여전히 유지될 것으로 생각됩니다. 테크놀로지는 빛보다 빠르게 움직이며 경쟁사는 선두자의 시장을 빼앗기 위해 어디서든 나타날 수 있습니다. 그러나 현재 상황에서, 발전의 방향을 고려할 때, Nvidia가 아직 긴 여정을 가야 한다는 점이 내 느낌입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 마크다운 형식으로 변경해주세요.

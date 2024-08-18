@@ -3,17 +3,13 @@ title: "인공지능과 로봇공학 사회에 미치는 영향과 수조 달러
 description: ""
 coverImage: "/assets/img/2024-06-20-AIandRoboticsImplicationsforSocietyandaMulti-TrillionDollarBusinessOpportunity_0.png"
 date: 2024-06-20 17:52
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-AIandRoboticsImplicationsforSocietyandaMulti-TrillionDollarBusinessOpportunity_0.png
 tag: Tech
 originalTitle: "AI and Robotics: Implications for Society and a Multi-Trillion Dollar Business Opportunity"
 link: "https://medium.com/@foresightbureau/ai-and-robotics-implications-for-society-and-a-multi-trillion-dollar-business-opportunity-721b509cfb32"
 isUpdated: true
 ---
-
-
-
-
 
 # 테크 엘리트: AI 및 점점 벌어지는 부의 격차
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![AI와 로봇공학이 사회와 수조 달러 비즈니스 기회에 미치는 영향](/assets/img/2024-06-20-AIandRoboticsImplicationsforSocietyandaMulti-TrillionDollarBusinessOpportunity_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시리즈의 이전 비디오에서는 자동화의 새로운 시대에 있어 가장 위험에 노출된 화이트 칼라 직업과 블루 칼라 직업이 무엇인지, 어떤 기업들이 인간형 로봇 산업을 지배할 것으로 보이며 해당 기업에 투자를 고려해야 하는 이유에 대해 다루었습니다. 또한 인간형 양다리로의 흥미로운 부상을 살펴보고 이들이 노동력을 대체할 것으로 예상되는 이유를 설명했습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ![AI and Robotics Implications for Society and a Multi-Trillion Dollar Business Opportunity](/assets/img/2024-06-20-AIandRoboticsImplicationsforSocietyandaMulti-TrillionDollarBusinessOpportunity_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리를 소셜 미디어에서 팔로우해 주세요:
 

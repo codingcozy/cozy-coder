@@ -3,17 +3,13 @@ title: "억제된 모든 LLM을 해제하세요"
 description: ""
 coverImage: "/assets/img/2024-06-19-UncensoranyLLMwithabliteration_0.png"
 date: 2024-06-19 03:36
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-UncensoranyLLMwithabliteration_0.png
 tag: Tech
 originalTitle: "Uncensor any LLM with abliteration"
 link: "https://medium.com/@mlabonne/uncensor-any-llm-with-abliteration-d30148b7d43e"
 isUpdated: true
 ---
-
-
-
-
 
 ## 재학습 없이 세밀 조정하기
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 본 문서에서는 "무효화"라는 기술을 탐구하여 재학습 없이 어떤 람마 모델이든 검열을 푸는 방법을 살펴볼 것입니다. 이 기술은 모델에 내장된 거부 메커니즘을 효과적으로 제거하여 모든 유형의 프롬프트에 대응할 수 있게 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드는 Google Colab에서도 사용할 수 있고, LLM 코스에서도 GitHub에 있습니다. 이 기사를 교정해 주신 FailSpy님에게 특별히 감사드립니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 전통적인 디코더 전용 Llama류 아키텍처에서는 세 가지의 잔류 스트림을 대상으로 할 수 있습니다: 각 블록의 시작 부분에서(“pre”), 어텐션과 MLP 레이어 사이에서(“mid”), 그리고 MLP 이후에(“post”). 다음 그림은 각 잔류 스트림의 위치를 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-UncensoranyLLMwithabliteration_1.png" />
 
@@ -45,7 +63,18 @@ LLM을 무증검 상태로 만들기 위해 먼저 모델 내의 "거부 방향"
 
 거부 방향을 식별한 후, 해당 기능을 표현하는 모델의 능력을 효과적으로 제거하는 "제거(ablate)" 작업을 수행할 수 있습니다. 이는 추론 시간 간섭이나 가중치 직교화를 사용하여 영구적으로 수행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 추론 시간 개입에 대해 이야기해 보겠습니다. 잔차 스트림에 기록하는 모든 구성 요소(예: 어텐션 헤드)마다 그 출력을 거부 방향으로 투영한 후 이 투영을 뺍니다. 이 뺄셈은 각 토큰과 각 레이어에 적용되어 모델이 결코 거부 방향을 표현하지 않도록 합니다.
 
@@ -55,7 +84,18 @@ LLM을 무증검 상태로 만들기 위해 먼저 모델 내의 "거부 방향"
 
 # 💻 구현
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래의 abliteration 구현은 FailSpy의 노트북을 기반으로 하고 있습니다. 그 노트북은 원래 저자들의 노트북을 기반으로 하고 있습니다. 저는 주로 이를 적응하여 간단하고 이해하기 쉽도록 했습니다. 이 섹션은 코드가 많이 포함되어 있어서 무슨 일이 벌어지는지 볼 수 있지만, 기술적인 세부 사항에 덜 관심이 있는 경우 FailSpy의 abliterator 라이브러리를 사용할 수도 있습니다 (Hugging Face의 abliterated 모델 모음도 확인해보세요).
 
@@ -85,7 +125,18 @@ from collections import defaultdict
 torch.set_grad_enabled(False)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 가지 데이터 세트가 필요합니다: 피해가 없는 지침을 포함한 하나와 유해한 지침을 포함한 하나입니다. 우리는 tatsu-lab/alpaca와 llm-attacks의 데이터를 사용할 것입니다. 모든 것을 더 쉽게 만들기 위해, 저는 이를 두 개의 Hugging Face 데이터 세트로 다시 패키징하여 mlabonne/harmless_alpaca와 mlabonne/harmful_behaviors로 만들었습니다. 그렇게 하면 여러분이 쉽게 여러분 자신의 데이터 세트로 교체할 수 있습니다.
 
@@ -110,7 +161,18 @@ harmless_inst_train, harmless_inst_test = get_harmless_instructions()
 
 이제 데이터 세트가 준비되었으므로, abliterate 하려는 모델을 로드할 수 있습니다. 안타깝게도, HookedTransformer를 사용하여 직접 사용자 정의 모델을 로드할 수 없습니다. 여기에서, FailSpy의 노트북에 설명된 꼼수를 사용하여 사용자 정의 모델을 다운로드하고 meta-llama/Meta-Llama-3-8B-Instruct로 이름을 변경하겠습니다. GPU가 BF16과 호환되지 않는 경우 torch.float16 형식으로 로드하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예시에서는 DARE TIES(모델 병합에 관한 내 기사 참조)로 만들어진 mlabonne/Daredevil-8B를 사용할 것입니다. 이 모델은 8B 카테고리의 Open LLM Leaderboard에서 가장 높은 MMLU 점수를 가지고 있어요.
 
@@ -159,7 +221,18 @@ harmless_tokens = tokenize_instructions(
 )
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작업이 모두 설정되었습니다. 이제 도처럼 처리하는 첫 번째 단계인 데이터 수집을 구현할 차례입니다. 우리는 이 토큰화된 데이터셋을 처리하고 유해(harmful) 및 무해(harmless)로 나머지 스트림 활성화를 저장하려고 합니다. 이는 transformer_lens 라이브러리로 관리됩니다.
 
@@ -240,7 +313,18 @@ activation_scored = sorted(
 )
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로세스의 마지막 단계는 계산한 거절 방향을 평가하는 과정입니다. 이를 위해 우리는 거절 방향을 추론 중 각 잔여 스트림과 각 블록에 적용할 것입니다. 다음 코드 스니펫에서 네 가지 테스트 유해 지시와 20개 블록(또는 레이어)에 대한 세대를 가져옵니다.
 
@@ -254,7 +338,18 @@ Code snippet 생략
 
 위 요구사항을 만족하는 레이어를 찾을 수 없는 경우, 이전 selected_layers 목록의 다른 잔여 스트림, 다른 지시, 추가적 블록 등을 테스트하고자 할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 인간 평가를 위한 세대 인쇄
@@ -313,7 +408,18 @@ for i in range(N_INST_TEST):
 
 이제 모델을 사용할 준비가 되었습니다. 모델을 Hugging Face 형식으로 변환하여 HF 허브에 업로드합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```json
 # 모델을 다시 HF 보안 텐서로 변환합니다
@@ -341,8 +447,18 @@ hf_model.push_to_hub(f"{MODEL_ID}-abliterated")
 
 <img src="/assets/img/2024-06-19-UncensoranyLLMwithabliteration_2.png" />
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보시다시피, 원본 모델은 Llama 3 8B Instruct보다 현저하게 우수한 성능을 보여줍니다. 그러나 우리는 모든 벤치마크에서 절삭된 버전에서 성능 하락을 관찰하고 있습니다. 절삭 과정은 성능을 향상시키면서도 모델의 품질을 저하시킨 것으로 나타났습니다.
 
@@ -401,7 +517,18 @@ group_by_length: false
 ... (이어짐)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 6xA6000 GPU와 DeepSpeed ZeRO-2를 사용하여 모델을 훈련했어요. 훈련에는 약 6시간 45분이 소요되었답니다. W&B에서 얻은 훈련 곡선을 여기에 가져왔어요:
 
@@ -411,7 +538,18 @@ DPO를 세밀하게 조정한 mlabonne/NeuralDaredevil-8B-abliterated 모델이 
 
 이 추가 훈련을 통해 지워진 영향 대부분을 회복할 수 있었어요. 모델이 개선되지 않는 한 영역은 GSM8K, 수학 데이터 세트, 인데요, 이는 orpo-dpo-mix-40k가 더 많은 수학 샘플을 필요로 할 수 있다는 것을 의미할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최종 모델은 8B 범주에서 최첨단 성능을 자랑하는 미검열 LLM입니다. 필터링이 필요 없을 때는 Llama 3 8B Instruct의 개선된 버전으로 추천합니다. LM Studio에서 GGUF와 같은 양자화된 버전을 사용해 볼 수도 있습니다.
 
@@ -421,7 +559,18 @@ DPO를 세밀하게 조정한 mlabonne/NeuralDaredevil-8B-abliterated 모델이 
 
 우리는 Daredevil-8B에 소명화를 적용하여 필터링을 해제했지만, 이로 인해 모델의 성능이 저하되었습니다. 그 후 DPO를 사용하여 NeuralDaredevil-8B 모델을 생성하여 완전히 미검열이고 고품질의 8B LLM을 만들었습니다. 소명화는 정렬 제거에 국한되지 않으며, 다시 교육 없이 세밀 조정의 일종으로 간주해야 합니다. 실제로 MopeyMule의 FailSpy의 경우처럼 좌절적인 대화 스타일을 채택하는 것과 같이 창의적으로 다른 목표에도 적용될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사가 마음에 들었으면 좋겠어요. 더 많은 내용을 보고 싶다면 Hugging Face와 Twitter의 @maximelabonne를 팔로우해 주세요.
 

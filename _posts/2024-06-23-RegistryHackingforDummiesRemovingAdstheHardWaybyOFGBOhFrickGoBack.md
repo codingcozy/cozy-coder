@@ -3,17 +3,13 @@ title: "컴퓨터 고수들을 위한 레지스트리 해킹 광고 제거의 �
 description: ""
 coverImage: "/assets/img/2024-06-23-RegistryHackingforDummiesRemovingAdstheHardWaybyOFGBOhFrickGoBack_0.png"
 date: 2024-06-23 15:56
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-RegistryHackingforDummiesRemovingAdstheHardWaybyOFGBOhFrickGoBack_0.png
 tag: Tech
 originalTitle: "Registry Hacking for Dummies: Removing Ads the Hard Way by OFGB (Oh Frick Go Back)"
 link: "https://medium.com/@overkill_security/registry-hacking-for-dummies-removing-ads-the-hard-way-by-ofgb-oh-frick-go-back-2945a3dd374a"
 isUpdated: true
 ---
-
-
-
-
 
 ![OFGB (Oh Frick Go Back) tool](/assets/img/2024-06-23-RegistryHackingforDummiesRemovingAdstheHardWaybyOFGBOhFrickGoBack_0.png)
 
@@ -23,7 +19,18 @@ OFGB (Oh Frick Go Back) 툴은 Windows 11 운영 체제의 특정 키를 수정�
 
 📌 광고 제거: OFGB의 주요 기능은 2024 년 6 월 23 일 Windows 11 업데이트에서 소개된 광고를 비활성화하는 것입니다. 이 광고는 파일 탐색기 및 시작 메뉴를 포함한 OS의 여러 부분에 나타납니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 📌 레지스트리 수정: 이 도구는 Windows 레지스트리의 특정 키를 변경함으로써 광고를 효과적으로 비활성화하는 방법을 제공합니다.
 
@@ -33,7 +40,18 @@ OFGB (Oh Frick Go Back) 툴은 Windows 11 운영 체제의 특정 키를 수정�
 
 📌 도구 빌드: OFGB를 빌드하려면 사용자는 Visual Studio 및 .NET 8.0 SDK가 필요합니다. 리포지토리는 클론하거나 ZIP 파일로 다운로드할 수 있으며, 솔루션은 Visual Studio에서 Ctrl + Shift + B 또는 빌드 솔루션 메뉴 옵션을 사용하여 빌드할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 📌안전 및 배포: 개발자는 GitHub가 OFGB의 유일한 공식 배포 플랫폼임을 강조합니다. 다른 웹사이트에서의 다운로드는 안전을 보장할 수 없습니다.
 
@@ -43,7 +61,18 @@ OFGB (Oh Frick Go Back) 툴은 Windows 11 운영 체제의 특정 키를 수정�
 
 📌간편하고 사용자 친화적인 인터페이스: OFGB는 다양한 광고 유형에 대한 체크박스를 제공하여 비전문가들이 윈도 레지스트리를 직접 처리하지 않고 광고를 비활성화하는 것이 쉽도록 하는 직관적인 그래픽 사용자 인터페이스(GUI)를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 📌 광고 종합 제거: OFGB는 시작 메뉴, 파일 탐색기, 잠금 화면, 설정 앱 등 다양한 광고를 포괄하여 제거하는 한 곳 해결책을 제공합니다.
 
@@ -53,7 +82,18 @@ OFGB (Oh Frick Go Back) 툴은 Windows 11 운영 체제의 특정 키를 수정�
 
 📌 기능이 제한적: Shutup10이나 Wintoys와 같이 더 포괄적인 도구와 달리 OFGB는 광고 제거에만 초점을 맞추어 개인 정보 보호, 텔레메트리 또는 다른 Windows 사용자 정의를 위한 추가 기능을 제공하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 📌**잠재적 호환성 문제:** Windows 레지스트리를 수정하는 서드파티 도구로서, 앞으로의 Windows 업데이트와의 호환성 문제나 충돌 가능성이 있으며, 광고 제거 설정이 망가질 수도 있습니다.
 

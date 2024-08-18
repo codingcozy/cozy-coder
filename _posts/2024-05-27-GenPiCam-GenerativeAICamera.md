@@ -3,16 +3,13 @@ title: "GenPiCam - 생성적 AI 카메라"
 description: ""
 coverImage: "/assets/img/2024-05-27-GenPiCam-GenerativeAICamera_0.png"
 date: 2024-05-27 13:51
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-GenPiCam-GenerativeAICamera_0.png
 tag: Tech
 originalTitle: "GenPiCam - Generative AI Camera"
 link: "https://medium.com/@simon-aubury/genpicam-generative-ai-camera-dfd8123ac6f6"
 isUpdated: true
 ---
-
-
-
 
 ![image](https://miro.medium.com/v2/resize:fit:1268/1*eZzfeCJggafmHaYGcjqEDA.gif)
 
@@ -23,7 +20,18 @@ isUpdated: true
 
 이 두 단계 사이에서 나는 창의적 입력 수준을 허용하므로 GenPiCam 카메라에는 최종 이미지의 스타일을 조정하는 다이얼이 있습니다. 이것은 본질적으로 생성된 이미지에 "애니메이션", "팝 아트" 또는 "미래적" 영향을 더하는 필터가 되게 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 지루해요 — 비디오를 보고 싶어요?
 
@@ -33,7 +41,18 @@ isUpdated: true
 
 초기 사진 이미지는 라즈베리 파이 카메라 모듈로 촬영됩니다. 외부 카메라 셔터(라즈베리 파이 GPIO 핀에 연결된 푸시 버튼)를 누르면 정지 이미지를 촬영하고 사진을 jpeg 이미지로 저장합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![GenPiCam-GenerativeAICamera_0](/assets/img/2024-05-27-GenPiCam-GenerativeAICamera_0.png)
 
@@ -43,7 +62,18 @@ Midjourney의 describe 도구는 이미지를 입력으로 받아와 텍스트 �
 
 ![GenPiCam-GenerativeAICamera_1](/assets/img/2024-05-27-GenPiCam-GenerativeAICamera_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "describe" 함수는 실제로 이미지를 기반으로 네 가지 설명을 반환하지만, GenPiCam은 임의로 첫 번째 설명을 선택합니다.
 
@@ -53,7 +83,18 @@ Midjourney의 describe 도구는 이미지를 입력으로 받아와 텍스트 �
 
 GenPiCam에는 스타일 지시 사항으로 텍스트 프롬프트를 업데이트하는 선택 스위치가 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-05-27-GenPiCam-GenerativeAICamera_3.png)
 
@@ -66,8 +107,18 @@ GenPiCam에는 스타일 지시 사항으로 텍스트 프롬프트를 업데이
 
 눈이 내린 이미지의 "팝아트" 이미지를 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [![](/assets/img/2024-05-27-GenPiCam-GenerativeAICamera_4.png)](https://example.com)
 
@@ -79,9 +130,18 @@ The final image is created using the Pillow Python imaging library and consists 
 
 Here's the same process, but adding the text “Hyper-Realistic, whimsical with a colorful hat and balloons”.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-27-GenPiCam-GenerativeAICamera_5.png)
 
@@ -91,9 +151,18 @@ Here's the same process, but adding the text “Hyper-Realistic, whimsical with 
 
 GenPiCam 카메라를 구축하는 데 정말 즐겁게 시간을 보냈고, 이는 Generative AI에 대한 프립트 엔지니어링을 탐구하는 흥미로운 경로였습니다. 더 좋았던 사진들은 단순한 구성을 가진 것들이었는데, 즉, 말로 표현하기 쉬운 이미지였습니다. 예를 들어, 이 장면은 색상과 명확한 객체로 쉽게 설명할 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Generated Image 1](/assets/img/2024-05-27-GenPiCam-GenerativeAICamera_6.png)
 
@@ -103,9 +172,18 @@ However, there were some very strange results while describing more unique scene
 
 One of my favorite reimagined images was the identification of my laser mouse. It turns out a laser mouse has multiple meanings leading to a striking result.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![GenPiCam Hardware](/assets/img/2024-05-27-GenPiCam-GenerativeAICamera_8.png)
 
@@ -121,8 +199,18 @@ GenPiCam의 가장 세련되지 않은 부분은 서둘러 조립한 하드웨�
 - 폴리카보네이트 케이스
 - 재충전 가능한 배터리 팩
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-27-GenPiCam-GenerativeAICamera_9.png" />
 
@@ -132,7 +220,18 @@ GenPiCam의 가장 세련되지 않은 부분은 서둘러 조립한 하드웨�
 
 # 요약, 코드 및 크레딧
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GenPiCam은 생성 AI를 탐험하는 재미있는 방법이었어요. 그림을 스타일에 맞게 변환해주는 (때로는 놀랄만한) 이미지들을 만들어내죠.
 
@@ -145,7 +244,18 @@ GenPiCam은 생성 AI를 탐험하는 재미있는 방법이었어요. 그림을
 - Midjourney — 봇 채널을 위한 Midjourney 명령 구문
 - discord.py — Discord를 위한 Python API 래퍼
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 코드
 

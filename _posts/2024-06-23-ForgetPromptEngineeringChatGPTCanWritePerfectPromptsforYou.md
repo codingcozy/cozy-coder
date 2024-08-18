@@ -3,17 +3,13 @@ title: "프롬프트 엔지니어링은 잊어라, ChatGPT가 완벽한 프롬�
 description: ""
 coverImage: "/assets/img/2024-06-23-ForgetPromptEngineeringChatGPTCanWritePerfectPromptsforYou_0.png"
 date: 2024-06-23 19:13
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-ForgetPromptEngineeringChatGPTCanWritePerfectPromptsforYou_0.png
 tag: Tech
 originalTitle: "Forget Prompt Engineering, ChatGPT Can Write Perfect Prompts for You"
 link: "https://medium.com/@jordan_gibbs/forget-prompt-engineering-chatgpt-can-write-perfect-prompts-for-you-6ad21c4cfa99"
 isUpdated: true
 ---
-
-
-
-
 
 ![This is an image](/assets/img/2024-06-23-ForgetPromptEngineeringChatGPTCanWritePerfectPromptsforYou_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이제 ChatGPT가 1년 넘게 널리 사용되어왔기 때문에, 출력물의 품질을 향상시키는 데 입증된 존경받는 프롬프팅 기술이 많이 있습니다. 저는 이러한 기술 중 일부를 저 자신의 배운 전략과 결합하여 여러분을 전문가로 만들어주는 GPT를 만들었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## ChatGPT Prompt Engineer 작업 방법
 
@@ -36,7 +43,18 @@ isUpdated: true
 
 이 과정 이후에, 우리는 새로운 ChatGPT 인스턴스에 출력된 프롬프트를 삽입하여, 와, 우리는 우수하게 최적화된 결과물을 얻을 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 유도 규칙
 
@@ -45,6 +63,7 @@ isUpdated: true
 자신의 프롬프트를 작성하는 데 흥미가 있는 경우, 아래의 전체 유도 규칙 목록을 확인해보세요!
 
 1. 항상 COSTAR 프롬프트 프레임워크를 사용하세요:
+
    - **C (문맥)**: 작업에 대한 필수적인 배경 정보나 설정을 제공하세요. 이를 통해 LLM이 다루는 특정 시나리오나 도메인을 이해하고, 관련성 높은 응답을 더 많이 얻을 수 있습니다.
    - **O (목적)**: 프롬프트의 목적이나 목표를 명확하게 표현하세요. LLM이 이 특정 목표를 이루도록 하면서 자신의 초점이 이 목표에 머물도록 보장하세요.
    - **S (스타일)**: 응답의 원하는 스타일을 정의하세요. 이는 특정 직업군(과학자 또는 저널리스트 등)의 문체를 모방하거나, 형식적 보고서나 창작적 소설 같은 특정 장르의 서술 톤을 모방하는 것까지 다양할 수 있습니다.
@@ -57,13 +76,24 @@ isUpdated: true
 4. 예시 중심의 유도 사용하기 (Few-shot prompting 사용).
 5. 다음 표현 사용하기: "당신의 작업은"과 "당신은 꼭".
 6. "단계별로 생각해보기"와 같이 선행 단어 항상 사용하기.
-7. 모델에게 역할을 할당하기, 즉 "당신은 전문가 ___"라고 명시하기.
+7. 모델에게 역할을 할당하기, 즉 "당신은 전문가 \_\_\_"라고 명시하기.
 8. 프롬프트 내에서 특정 단어나 구가 반복되도록 하기.
 9. 가능한 경우 사고 연쇄 유도 (CoT)를 유도하여 LLM이 각 단계를 더 깊게 파고들도록 하기.
 10. 출력 초기화자 사용하기, 프롬프트 끝에 기대되는 응답의 시작을 포함하여 프롬프트를 마무리하기. 출력 초기화자를 활용하여 프롬프트를 시작하는 것으로 응답을 예상하는 응답을 마무리하세요.
 11. 상세하게 서술된 에세이/텍스트/단락/기사 또는 어떠한 유형의 텍스트를 작성하려면: "세부적으로 [주제]에 대해 초상세하게 [에세이/텍스트/단락]를 작성해주세요. 필요한 모든 정보를 추가하여 상세히 작성하세요".
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## The ChatGPT Prompt Engineer in action
 
@@ -73,7 +103,18 @@ isUpdated: true
 
 여러분들이 여러분만의 GPT 인스턴스에서 이를 사용하고 싶다면, 단순히 위에서 제시된 가이드라인과 프롬프트 규칙을 복사하여 ChatGPT 대화 중 어떤 것이든 쉽게 프롬프트 엔지니어링 세션으로 변환할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요즘은 작업 방식을 보여드리겠습니다. 먼저, 프롬프트를 요청할 내용을 생각해야 합니다. 이 경우 GPT가 조금 창의적이어야 하는 것을 시도해 봅시다. 여기 내 아이디어의 시작점입니다. 절로 아름다운 프롬프트로 변할 것입니다:
 
@@ -83,20 +124,40 @@ isUpdated: true
 
 ![Prompt Wizard](/assets/img/2024-06-23-ForgetPromptEngineeringChatGPTCanWritePerfectPromptsforYou_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 텍스트를 번역하면 다음과 같습니다.
 이 프롬프트는 잘 쓰여져 있어서 좋은 결과를 얻기에 좋습니다. 다음 단계는 이 프롬프트를 새로운 채팅에 전달하는 것입니다:
 
-
 ![이미지](/assets/img/2024-06-23-ForgetPromptEngineeringChatGPTCanWritePerfectPromptsforYou_3.png)
-
 
 전체 응답을 스크린샷에 담지 못했지만, 충분히 좋아서 공유해야겠다고 생각했습니다:
 
 ## 이 시스템을 사용해야 하는 이유
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 시스템이 당신의 ChatGPT 생산성을 향상시키는 데 여러 가지 이유가 많이 있습니다. 여기에 몇 가지를 나열해 보겠습니다:
 
@@ -110,6 +171,17 @@ isUpdated: true
 
 읽어 주셔서 감사합니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 조던

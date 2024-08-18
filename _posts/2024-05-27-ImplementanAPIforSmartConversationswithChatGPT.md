@@ -3,16 +3,13 @@ title: "ChatGPT를 활용한 스마트 대화를 위한 API 구현하기"
 description: ""
 coverImage: "/assets/img/2024-05-27-ImplementanAPIforSmartConversationswithChatGPT_0.png"
 date: 2024-05-27 14:28
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-ImplementanAPIforSmartConversationswithChatGPT_0.png
 tag: Tech
 originalTitle: "Implement an API for Smart Conversations with ChatGPT"
 link: "https://medium.com/dev-genius/implement-an-api-for-smart-conversations-with-chatgpt-57e7a9b335c7"
 isUpdated: true
 ---
-
-
-
 
 ChatGPT API를 활용하여 Node.js 및 Express로 대화형 앱을 개발하겠다고 시작하세요.
 
@@ -22,7 +19,18 @@ ChatGPT API는 철저히 문서화되어 있지만 상호 작용하는 방법에
 
 # 팁 및 Best Practices
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ChatGPT의 API는 메시지와 함께 반드시 전송해야 하는 3가지 주요 역할이 있습니다:
 
@@ -37,7 +45,18 @@ ChatGPT의 API는 메시지와 함께 반드시 전송해야 하는 3가지 주�
 - 환경이 핫 리로드와 함께 빠른 반복 작업을 허용하는지 확인해야 합니다. 시스템 프롬프트 및 데이터 이동을 빈번하게 작업하고 수정할 것입니다.
 - 대화의 초기 시스템 컨텍스트(시딩)를 설정할 때, 원하는 바를 구체적으로 명시해야 합니다! 프롬프트 엔지니어링에 대한 다른 많은 글들이 있으므로 초기 메시지가 적절한지 확인해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주의할 점:
 
@@ -48,7 +67,18 @@ ChatGPT의 API는 메시지와 함께 반드시 전송해야 하는 3가지 주�
 
 독자들이 대부분 NodeJS, Visual Studio Code와 같은 코드 편집기, Docker 및 터미널을 사용할 준비가 되어 있는 것으로 가정합니다. 그렇지 않은 경우, 초기 환경을 설정하는 것이 다소 혼란스러울 수 있습니다. 이 기사의 끝에 이 기사의 코드를 포함한 Github 링크를 첨부하겠으며, 컨테이너화를 건너뛰고 싶은 경우 도커 없이도 프로젝트를 실행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시작하려면 코드 저장소의 루트에서 터미널에서 프로젝트 구조를 만들어봅시다:
 
@@ -66,7 +96,18 @@ touch src/index.ts
 
 이러한 간단한 Docker 구성을 채워넣어 빠르게 반복 작업을 할 수 있도록 할 거에요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 API 및 웹 프로젝트를 실행할 docker-compose 파일에 간단한 구성을 추가하겠습니다.
 
@@ -78,7 +119,18 @@ npm i typescript nodemon node-ts express @types/express cors @types/cors openai
 
 이러한 종속성은 API가 트래픽을 제공하는 데 도움이 되는 기본 라이브러리가 될 것입니다. 간단한 익스프레스 API를 만들어 시작해볼까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 번 이 작동하면 curl http://localhost/:3010을 실행할 수 있고, 우리의 API는 Hello World로 응답할 것입니다.
 
@@ -88,7 +140,18 @@ npm i typescript nodemon node-ts express @types/express cors @types/cors openai
 
 ChatGPT 위에 단순히 다른 UI를 올려놓는 것이 아닌 무언가를 구축하려면, ChatGPT가 이미 제공하지 않는 이 앱이 무엇을 할 것인지에 대한 개념이 필요합니다. ChatGPT를 다루는 일반적인 Best Practice 중 일부는 대화 시작 시 모델에 personas를 제공하는 것입니다. 모두가 AI를 어떻게 이끌어야 하는지를 이해하는 시간과 의지가 없는 것이 아닐 수도 있으니, 우리는 일반 비기술 사용자를 돕기 위해 그들이 대화를 나눌 수 있는 몇 가지 personas를 만들어주는 것이 가능할 것입니다. 그것이 이 애플리케이션의 기본 개념이 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 페르소나 구현을 용이하게 하기 위해, 사용하고자 하는 몇 가지 페르소나를 빨리 작성하고 코드베이스의 다른 부분에서 접근할 수 있도록 만들 것입니다. 이를 통해 애플리케이션의 다른 곳에서 우리가 추구하는 기능을 구현하는 데 사용될 것입니다. Craig the Builder, Tom the Gardener, Kate the Bartender, Jen the Beautician 이렇게 4가지 페르소나를 만들어 봅시다.
 
@@ -98,7 +161,18 @@ ChatGPT 위에 단순히 다른 UI를 올려놓는 것이 아닌 무언가를 �
 
 이제 이것이 설정되었기 때문에 사용자들이 페르소나와 대화할 수 있는 서비스 레이어를 구현할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ChatGPT과 상호 작용할 때 3가지 특정 단계를 반복합니다. 대화를 초기화하는 것, 사용자 입력을 받는 것, 그리고 모델 응답을 하는 것이죠. 하나의 사용자는 동시에 여러 대화를 나눌 수 있습니다. 대화 중 일부는 단순히 처음 메시지 하나와 모델 응답이 이어질 수도 있고, 일부는 더 긴 형태일 수도 있습니다. 이 대화에서 메시지의 주고받는 순서는 중요할 수 있습니다.
 
@@ -110,7 +184,18 @@ ChatGPT과 상호 작용할 때 3가지 특정 단계를 반복합니다. 대화
 - 대화는 새로운 사용자 입력을 API에 PUT하는 것을 통해 계속됩니다. 메시지와 함께 대화 ID를 포함해야 하며, 이를 통해 이전 대화를 쉽게 추출하여 관련 맥락을 유지할 수 있어야 합니다.
 - DELETE를 통해 대화를 삭제할 수 있습니다. 사용자는 더 이상 보고 싶지 않은 대화 ID를 전송하여 대화를 삭제할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 API 엔드포인트를 고려할 때, 우리는 저장소가 가져야 할 기능을 알 수 있습니다. 이 기사의 범위를 벗어나 데이터 저장 솔루션을 정의하는 대신, 구독할 수 있는 인터페이스를 정의하고 간단한 메모리 내 저장 구현을 실행하겠습니다.
 
@@ -120,7 +205,18 @@ API 엔드포인트를 고려할 때, 우리는 저장소가 가져야 할 기�
 
 다음으로 InMemoryConversationService를 구조화하고, 생성자에서 ChatGptConversationService를 인스턴스화하여 한 번에 생성되도록 할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 "실제" 서비스 계층을 구현한다면 데이터의 백업 저장소와 사용자 세분화 등을 포함하여 더 많은 작업을 수행할 것입니다. 그러나 우리는 이 예제 앱을 이용하여 실제로 프로덕션 환경으로 넘어가려는 것이 아니에요. 이제 InMemoryDB 서비스와 ChatGPT에서 각 메서드 구현을 동시에 살펴봐서 각 계층에 왜 세부 정보가 "살아있는지"에 대해 이야기할 수 있게 됩니다.
 
@@ -130,7 +226,18 @@ API 엔드포인트를 고려할 때, 우리는 저장소가 가져야 할 기�
 
 ChatGpt 서비스에서는, 단순히 대화의 ID를 가져와 Promise.resolve를 통해 반환합니다 (이 서비스가 언젠가 백업 저장소를 사용하도록 업그레이드되는 경우를 대비하여 여기서 promises를 사용하고 있습니다). 또한 사용자 소비용 대화를 가져올 때 역할 "system"을 필터링하여 사용자가 우리의 페르소나 프롬프트를 보지 못하도록 합니다. 또한 chatgpt의 역할을 프론트엔드에서 사용하고자 하는 값으로 다시 매핑합니다 (user/bot).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 InMemory 서비스는 이 경우에 많은 가치를 더하지 않지만, 메시지가 undefined 또는 null을 반환하는 경우 API 레이어에서 문제를 발생시킬 가능성 대신 빈 배열을 반환할 수 있습니다.
 
@@ -140,7 +247,18 @@ InMemory 서비스는 이 경우에 많은 가치를 더하지 않지만, 메시
 
 다음으로 새 대화를 생성하고 초기 페르소나/메시지를 구현할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 채팅 순서를 유지하기 위해 메시지가 전송된 시간을 유지하고자 합니다. 따라서 먼저 ChatGpt 서비스에서 메시지가 전송된 시간을 생성합니다. 그런 다음 "시스템" 역할을 사용하여 페르소나의 "성격" 및 "사용자" 역할로 전송된 메시지를 사용하여 ChatCompletionMessageParam을 인스턴스화하여 API 호출을 위한 메시지를 생성합니다. 이렇게하면 openai.chat.completions.create 메소드를 model/messages 매개변수와 함께 사용할 수 있습니다. 응답이 돌아오면 해당 응답을 대화 ID에 저장하고 나중에 메시지를 정렬하는 데 사용할 수 있도록 전송된 날짜를 메시지에 투영합니다. 그런 다음 API의 응답을 반환합니다.
 
@@ -150,7 +268,18 @@ InMemory 서비스로 돌아와서, ChatGpt API가 실제로 응답했는지를 
 
 <img src="/assets/img/2024-05-27-ImplementanAPIforSmartConversationswithChatGPT_4.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # PUT
 
@@ -160,7 +289,18 @@ ChatGpt 서비스의 sendMessages 함수는 새 메시지를 저장하고 유지
 
 이것을 API에서 간단하게 연결할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기존 루트인 /conversation/:id에 PUT 메서드 아래에 이 메소드가 추가될 것입니다. 이를 통해 페르소나와의 대화를 계속할 수 있게 될 것입니다. 아래 요청은 이전 대화를 계속할 것입니다:
 
@@ -168,11 +308,20 @@ ChatGpt 서비스의 sendMessages 함수는 새 메시지를 저장하고 유지
 
 이제 GET 액션을 "테스트"하는 것이 중요합니다. 이전 요청과 동일한 내용을 반환할 것입니다. 그러나 테스트 목적으로 명령어는 다음과 같습니다:
 
-
 # DELETE
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희는 삭제 작업이 꽤 간단합니다. ChatGpt 서비스는 메모리 저장소만을 사용하고 있으므로 대화 ID로 저장된 데이터를 삭제할 수 있습니다. 이를 아주 빠르게 구현할 수 있습니다:
 
@@ -182,7 +331,18 @@ InMemory 서비스는 삭제 세부 정보를 ChatGpt 서비스에 위임하며,
 
 # 대화 목록
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금 API의 유일한 미해결 사항은 기존 대화 목록을 나열할 수 있는 기능이 없다는 것입니다. 현재 우리가 가지고 있는 구현으로는 매우 쉽습니다.
 
@@ -192,7 +352,18 @@ API도 복잡하지 않습니다! 새 경로를 추가할 것이지만, 상당�
 
 지금까지 백엔드에서의 구현은 ChatGpt와 함께 작업하는 세부 정보를 어떻게 처리할 것인지에 대한 내용과 InMemory 서비스 인터페이스의 모양을 보여줍니다. ChatGpt 서비스의 세부 정보를 인지하지만 해당 정보를 API 레이어로 노출시키지는 않습니다. 이를 통해 서비스 계층의 입력/출력을 조정할 수 있는 옵션이 주어지므로, ChatGpt 서비스 구현에는 영향을 미치지 않으면서 서비스 계층의 입력/출력을 조정할 수 있고 그 반대도 가능합니다. ChatGpt 서비스의 기본 저장소 공급자를 조정하여 백엔드에 동기화되거나 InMemory 서비스에 사용자 계정 ID를 추가하여 사용자들이 서로의 대화에 접근을 제한할 수도 있습니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 앱에 대한 기본 프론트 엔드 구현은 간단합니다. 우리가 필요로 하는 API 엔드포인트는 오로지 5개뿐입니다 (GET Persona, GET Conversation List, GET/POST/PUT Conversation Messages). 대화 삭제는 여기에서 원하는 목표에 절대적으로 필요하지 않을 것으로 생각됩니다.
 
@@ -202,8 +373,18 @@ API도 복잡하지 않습니다! 새 경로를 추가할 것이지만, 상당�
 
 여기서부터는 스타일 선택에 따라 다릅니다. UI 예시는 다음과 같을 것입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Screenshot](/assets/img/2024-05-27-ImplementanAPIforSmartConversationswithChatGPT_7.png)
 
@@ -213,19 +394,38 @@ API도 복잡하지 않습니다! 새 경로를 추가할 것이지만, 상당�
 
 매우 다른 챗봇 역할을 보려면 다른 페르소나인 JaSON the Robot을 매우 쉽게 구현하여 JSON 코드로만 응답하게 만들 수 있습니다. 이를 통해 응답을 실제 JSON으로 해석하여 앱에 통합 가능성을 개선할 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 매우 간단한 변화로 여러분이 작업할 수있는 추가적인 페르소나를 제공합니다. 몇 가지 다른 페르소나를 추가하고 그들의 반응을 확인해보는 것을 즐겨보세요!
 
-
 <img src="/assets/img/2024-05-27-ImplementanAPIforSmartConversationswithChatGPT_8.png" />
-
 
 ChatGPT API를 사용하여 앱을 빌드하려면 역할에 대한 좋은 이해, 잘 구조화된 백엔드, 그리고 사용자 친화적인 프론트엔드가 필요합니다. API의 세 가지 주요 역할인 "시스템", "어시스턴트", "사용자"는 대화를 추적하고 의미 있는 상호 작용을 제공하는 데 중요합니다.
 
 도커, NodeJS, Express를 사용하여 견고한 프로젝트 기반을 구축하고 ChatGPT와의 트래픽을 처리하는 기본 API를 설정할 수 있습니다. 페르소나를 추가하면 사용자 상호 작용이 향상되어 AI가 더 관련성 있고 매력적으로 보입니다. 대화 기록을 유지하고 역할을 활용하여 다양한 요구 사항을 해결하는 서비스를 개발할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문서는 프로젝트를 시작하고 personas를 정의하며 필요한 API 엔드포인트를 구축하는 주요 단계를 다루었습니다. 더 심층적으로 알아보고 싶은 사람들을 위해, 링크된 GitHub 저장소에는 완전한 코드베이스가 포함되어 있으며 설정하기 쉽습니다. 이 실용적인 방법을 통해 특정 요구 사항을 충족하기 위해 사용자 정의할 수 있는 예제 응용 프로그램을 탐색하고 확장할 수 있습니다.

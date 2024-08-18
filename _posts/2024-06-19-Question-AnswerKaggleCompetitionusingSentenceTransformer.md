@@ -3,17 +3,13 @@ title: "질문-답변 캐글 대회에서 Sentence Transformer를 활용하기"
 description: ""
 coverImage: "/assets/img/2024-06-19-Question-AnswerKaggleCompetitionusingSentenceTransformer_0.png"
 date: 2024-06-19 20:34
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-Question-AnswerKaggleCompetitionusingSentenceTransformer_0.png
 tag: Tech
 originalTitle: "Question-Answer Kaggle Competition using Sentence Transformer"
 link: "https://medium.com/@gowthamaddluri/why-and-how-do-we-use-rag-with-llms-871f07f29f18"
 isUpdated: true
 ---
-
-
-
-
 
 이 대회는 DataTalks.Club 코스의 Q&A 비디오에서 얻은 독특한 데이터셋을 활용하여 참가자들에게 질문과 정확한 답변을 맞추도록 도전합니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 다음 시도한 단계는 다른 여러 가능한 답변을 추가하는 것이었습니다. 예를 들어, 각 질문에 대해 같은 질문과 답변에 대한 세 가지 다른 가능한 답변이있는 샘플이 세 개씩 포함되었습니다. 이것은 학습이 잘 되지 않았고, 0.5648의 점수가 나왔는데, 이는 질문, 답변 쌍 당 하나의 샘플만 사용하는 것보다 훨씬 낮은 점수입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로, [(a1, b1), …, (an, bn)]를 사용하는 MultipleNegativesRankingLoss를 사용하여 간단하게 만들고 싶습니다. 여기서 (ai, bi)가 유사한 문장이며 (ai, bj)가 다른 문장으로 가정됩니다. 여기서 i != j 입니다.
 
@@ -33,6 +40,17 @@ isUpdated: true
 
 질문당 여러 샘플을 가진 triple loss에 대한 KaggleNotebook.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 작업을 더 개선하려면 쌍을 사용하는 대신 삼중체를 추가하고 세 번째는 "하드-부정사"여야 합니다. 이때, 어휘 수준에서는 (a1, b1)과 유사하지만 의미 수준에서는 (a1, b1)과 유사하지 않아야 합니다.

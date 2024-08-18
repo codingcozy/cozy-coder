@@ -3,18 +3,13 @@ title: "당신이 얼마나 많은 무게를 진다는지 알 수 없어요"
 description: ""
 coverImage: "/assets/img/2024-06-19-youhavenoideahowmuchweighticarry_0.png"
 date: 2024-06-19 06:43
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-youhavenoideahowmuchweighticarry_0.png
 tag: Tech
 originalTitle: "you have no idea how much weight i carry"
 link: "https://medium.com/@vourline/you-have-no-idea-how-much-weight-i-carry-d3eac7a4e497"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![Image](/assets/img/2024-06-19-youhavenoideahowmuchweighticarry_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 맏이나 중간 아이들은 종종 더 어린 아이를 부러워하며, 더 어린 사람이라면 삶이 훨씬 쉬울 것이라고 생각해요.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자신의 문제를 말해도 되지 않고, 특히 자신의 감정이 무시당한다는 것에 대해 열거나 살 수 없다고 상상해보세요.
 
@@ -35,6 +40,17 @@ isUpdated: true
 
 그들은 항상 우리는 가족이라고 말했지만, 모든 사람이 나를 잊어버렸다. - 나에게는 항상 너무 바빠서 소홀했다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가장 어린 사람이 늘 축복이 되는 것은 아니에요... 저에게는 부담이에요.

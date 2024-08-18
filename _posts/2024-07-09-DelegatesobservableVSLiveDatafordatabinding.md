@@ -3,7 +3,7 @@ title: "Delegatesobservable와 LiveData 데이터를 바인딩할 때 어느 것
 description: ""
 coverImage: "/assets/img/2024-07-09-DelegatesobservableVSLiveDatafordatabinding_0.png"
 date: 2024-07-09 10:43
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-DelegatesobservableVSLiveDatafordatabinding_0.png
 tag: Tech
 originalTitle: "Delegates.observable VS LiveData for data binding"
@@ -11,17 +11,24 @@ link: "https://medium.com/proandroiddev/delegates-observable-vs-livedata-for-dat
 isUpdated: true
 ---
 
-
-
-
-
 자신의 앱의 구체적인 요구사항과 맥락에 따라 안드로이드에서 데이터 바인딩에 Delegates.observable과 LiveData 중 어느 것을 선택할지가 달라집니다. 두 가지 방법에는 각각의 장점이 있으며 서로 다른 시나리오에 적합합니다. 자세히 비교해보겠습니다:
 
 # Delegates.observable
 
 ## 장점:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **장점:**
 
@@ -36,7 +43,18 @@ isUpdated: true
 
 ## 예시:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 class User {
@@ -54,8 +72,18 @@ class User {
 - 아키텍처 컴포넌트와 통합: LiveData는 ViewModel과 같은 Android 아키텍처 컴포넌트와 완벽하게 통합되어 UI 관련 데이터를 효과적으로 관리할 수 있는 견고한 프레임워크를 제공합니다.
 - 스레드 안전성: LiveData는 스레드 안전하며 서로 다른 스레드에서 사용할 수 있도록 설계되었습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단점:
 
@@ -80,7 +108,18 @@ viewModel.name.observe(this, Observer { newName ->
 })
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 각각 사용 시기
 
@@ -92,7 +131,18 @@ viewModel.name.observe(this, Observer { newName ->
 
 ## LiveData를 사용해야 하는 경우:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 옵저버의 라이프사이클 상태에 따라 업데이트를 자동으로 관리하는 라이프사이클 인식형 솔루션이 필요합니다.
 - ViewModel, Room 등 다른 Android 아키텍처 구성요소와 통합해야 합니다.
@@ -104,7 +154,18 @@ Delegates.observable과 LiveData는 각각 사용 사례가 있습니다. Androi
 
 **추가 자료:**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - LiveData 개요
 - Android Data Binding 라이브러리

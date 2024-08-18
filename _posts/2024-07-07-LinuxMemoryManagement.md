@@ -3,18 +3,13 @@ title: "리눅스 메모리 관리 알아보기 2024 최신 가이드"
 description: ""
 coverImage: "/assets/img/2024-07-07-LinuxMemoryManagement_0.png"
 date: 2024-07-07 22:33
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-LinuxMemoryManagement_0.png
 tag: Tech
 originalTitle: "Linux — Memory Management"
 link: "https://medium.com/@tonylixu/linux-memory-management-8a66932eb711"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![이미지](/assets/img/2024-07-07-LinuxMemoryManagement_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 리눅스 메모리 관리의 주요 구성 요소:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 가상 메모리: Linux는 각 프로세스에 개별 메모리 공간을 가진 것처럼 보이게 하는 가상 메모리 시스템을 사용합니다. 가상 메모리는 비활성화된 응용 프로그램 메모리 영역을 디스크로 스왑하여 물리적으로 사용 가능한 메모리보다 더 많은 응용 프로그램을 실행할 수 있게 합니다.
 - 페이징: 물리 메모리와 가상 메모리는 페이지란 고정 크기 블록으로 나누어집니다. 이 페이징 시스템은 메모리를 효율적으로 관리하고 RAM과 디스크 간의 스왑 메커니즘을 가능하게 합니다.

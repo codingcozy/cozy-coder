@@ -3,17 +3,13 @@ title: "품질 엔지니어를 위한 RAG 사용 가이드"
 description: ""
 coverImage: "/assets/img/2024-06-22-RAGforQualityEngineers_0.png"
 date: 2024-06-22 17:14
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-RAGforQualityEngineers_0.png
 tag: Tech
 originalTitle: "RAG for Quality Engineers"
 link: "https://medium.com/slalom-build/rag-for-quality-engineers-c5f0828292b1"
 isUpdated: true
 ---
-
-
-
-
 
 ## RAG 만들기는 쉽지만, 품질 있는 RAG 만들기는 어려워요
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이론적으로 RAG는 간단합니다(컨텍스트 창에 데이터를 추가하기만 하면 됩니다!) 하지만 실제로는 복잡합니다. 상자 다이어그램 너머에는 고급 청킹 전략, 재랭킹, 다중 쿼리 리트리버, 작은 데이터부터 큰 데이터 검색, 가상 문서 임베딩, 사전 임베딩 데이터 보강, 동적 라우팅, 맞춤 임베딩 모델... 등이 숨어 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 초기 파이프라인을 설정하는 것은 빠르고 쉽지만, 프로덕션 수준의 품질에 도달하는 것은 상당히 복잡합니다. 신중한 고려 없이 RAG 시스템은 부정확하거나 관련성이 없는 정보를 반환할 수 있습니다. 비효율적으로 비싼 리소스를 소비하거나 프로덕션 규모의 소스 데이터로 확장할 때 병목 현상이 발생할 수도 있습니다.
 
@@ -33,7 +40,18 @@ RAG 시스템의 품질을 효과적으로 평가하고 효율적으로 이해�
 
 # LLM의 한계
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 RAG 파이프라인을 이해하려면, RAG가 대응하려는 LLM의 한계를 먼저 이해해야 합니다.
 
@@ -43,7 +61,18 @@ LLM이 응답을 반환하려면 모델과 추론 계산을 실행해야 합니�
 
 LLM을 호출하는 것만큼이나 LLM을 훈련시키는 것은 훨씬 어렵습니다. 훈련은 모델 내 매개변수에 대한 최적값을 결정하는 과정입니다. 최상의 가중치를 계산하는 데 사용되는 다양한 알고리즘이 있지만, 모두 특정 입력에서 모델을 실행하고 오차를 계산한 후에 조정을 하는 반복적 과정을 포함합니다. 이 과정은 많은 횟수로 많은 입력에서 계속되며, 결국 훈련된 모델을 얻게 됩니다. 모델 추론은 몇 초만에 완료될 수 있지만, 모델 훈련은 광범위한 GPU 클러스터에서도 몇 주가 걸릴 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-RAGforQualityEngineers_1.png" />
 
@@ -53,7 +82,18 @@ LLM을 호출하는 것만큼이나 LLM을 훈련시키는 것은 훨씬 어렵�
 
 # RAG 기본 원리
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 RAG가 실제로 작동하는 방식에 대해 알아봅시다.
 
@@ -63,7 +103,18 @@ LLM에 전송된 프롬프트는 제한된 길이인 context window을 가지고
 
 따라서, 우리는 context window을 사용하여 LLM이 질문에 답변하기 위해 필요한 새로운 지식을 제공할 수 있습니다. 예를 들어, 우리가 상조에 관한 회사 정책에 대해 물어보는 프롬프트를 만들고, context window 내에서 이에 관한 전체 회사 안내서(상조에 관한 섹션 포함)를 넣는다면 새로운 정보를 제공하여 LLM이 응답할 수 있게 할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 솔루션은 이미 관련 정보가 있고 그 정보가 문맥 창 안에 쏙 들어갈 수 있는 경우 간단합니다. 불행히도 항상 그런 것은 아닙니다. 따라서 우리는 우리의 프롬프트에 관련 정보만 검색 및 다운 선택할 수 있는 메커니즘이 필요합니다.
 
@@ -73,7 +124,18 @@ LLM에 전송된 프롬프트는 제한된 길이인 context window을 가지고
 
 구체적으로, 우리는 포지블리 관련 데이터 청크에서 임베딩 모델을 활용하여 임베딩을 생성한 다음 이 임베딩을 통해 데이터를 검색하여 우리의 프롬프트에 관련된 데이터를 찾을 수 있습니다. 이 방법은 매우 단순화된 접근법이지만, 진정한 RAG와 같은 결과를 얻기 시작하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # RAG 및 임베딩
 
@@ -83,7 +145,18 @@ LLM에 전송된 프롬프트는 제한된 길이인 context window을 가지고
 
 임베딩 모델에 의해 생성된 벡터는 단순히 임의의 숫자 세트가 아니라 모델에 따라 입력 데이터의 의미를 요약한 것입니다. 이 벡터는 다른 모델에게는 의미가 없지만 "유사한" 텍스트는 같은 모델에서 유사한 벡터를 생성할 것입니다. "유사하다"는 단순히 "동일한 키워드를 가지고 있다" 이상을 의미합니다. 임베딩 모델은 구조화되지 않은 데이터로부터 보다 심층적인 의미를 추출하기 위해 특별히 훈련되었습니다. 예를 들어 "남자 말이 날지 않는다"와 "날개가 있는 사나이가 말 타고 있다"는 비슷한 단어를 가지고 있지만 같은 모델에서는 서로 멀리 떨어진 벡터를 생성할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 벡터의 멋진 점은 그들에게 수학 연산을 수행할 수 있다는 것입니다. 빠른 수학이죠. 수백만 개의 벡터를 검색하여 비교적 짧은 시간 안에 유사한 벡터를 찾을 수 있습니다. (여기에 사용된 일부 알고리즘이 있습니다.)
 
@@ -100,8 +173,18 @@ LLM에 전송된 프롬프트는 제한된 길이인 context window을 가지고
 - 식별된 관련 벡터를 (선택적으로) 재정렬하고, 그런 다음 상위 벡터 각각의 생 데이터를 반환합니다.
 - 원시 데이터는 초기 프롬프트와 결합되어 LLM으로 보내집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-22-RAGforQualityEngineers_2.png)
 
@@ -111,8 +194,18 @@ LLM에 전송된 프롬프트는 제한된 길이인 context window을 가지고
 
 # RAG 디자인과 품질
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에서는 RAG를 소개하지만, RAG는 실제로 매우 복잡할 수 있으며, 이러한 실제 세계의 복잡성은 응용 프로그램의 품질에 영향을 미칠 수 있습니다. RAG 파이프라인 내에서 사용 가능한 일부 구현 도전, 품질 위험 및 대안을 이해하기 위해 각 단계를 살펴보겠습니다.
 
@@ -122,7 +215,18 @@ LLM에 전송된 프롬프트는 제한된 길이인 context window을 가지고
 
 시작부터 모든 "가능성 있는 데이터"를 찾아야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 RAG 다이어그램에서 1번 아이콘은 여러 소스에서 데이터를 수집하고, 정리하고, 변환하며, 익명화하고, 토큰화하는 데이터 파이프라인(또는 파이프라인 세트!)일 가능성이 높습니다.
 
@@ -132,7 +236,18 @@ LLM에 전송된 프롬프트는 제한된 길이인 context window을 가지고
 
 가장 잘 구현된 RAG 파이프라인도 소스 데이터가 심지어 벡터 DB로 전달되지 않는다면 완전히 실패할 수 있으며, 이 데이터의 다양성, 속도 및 양에 따라 RAG의 이 단계는 복합적이며 많은 응용프로그램 품질 문제의 원인이 될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반적인 데이터 파이프라인 활동에 추가로, RAG는 데이터 풍부화를 통해 혜택을 얻을 수 있습니다. 종종, 다른 시스템(또는 사람들)은 소스 데이터에 대한 맥락을 알고 있어서 그 의미를 평가하는 데 엄청난 도움이 될 수 있습니다. 예를 들어, 고객 데이터베이스에는 다른 시스템에서 제공하는 태그나 주석과 같은 관련 정보를 추가하여 데이터를 풍부화할 수 있습니다. 종종, 다른 생성 모델이나 자연어 처리(NLP)가 더 깨끗하거나 요약된 메타데이터를 생성하는 데 사용됩니다. 모두 "임베딩 생성" 전의 "전처리"로 생각해보세요. 그리고 제대로 수행된다면, 검색 품질을 크게 향상시킬 수 있습니다.
 
@@ -142,7 +257,18 @@ LLM에 전송된 프롬프트는 제한된 길이인 context window을 가지고
 
 ![2024-06-22-RAGforQualityEngineers_4](/assets/img/2024-06-22-RAGforQualityEngineers_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터가 수신되고 임베딩 모델을 실행하기 전에는 데이터를 diskrete pieces로 나눠야 합니다. 그렇다면 데이터를 어떻게 분할할지 어떻게 결정하나요? 이를 chunking strategy라고 합니다.
 
@@ -152,7 +278,18 @@ LLM에 전송된 프롬프트는 제한된 길이인 context window을 가지고
 
 이 문서에서는 다섯 가지 chunking 범주를 탐구합니다: 고정 크기, 재귀, 문서 기반, 의미 기반, 그리고 AI를 사용한 Agentic(체킹에 인공 지능 사용, 멋지죠!)입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 많은 기타 접근 방식이 있습니다. 예를 들어, 작은 것에서 큰 것으로 검색을 최적화하려면 작은 청크를 사용하지만 각 청크는 큰 부모 청크에 연결되어 있어서 삽입될 컨텍스트 모델에 검색됩니다. 콘텍스트 인식 청킹은 문서의 성격에 대해 기존 지식을 활용하여 문서를 논리적 청크로 적절하게 분할합니다.
 
@@ -162,7 +299,18 @@ LLM에 전송된 프롬프트는 제한된 길이인 context window을 가지고
 
 ![이미지](/assets/img/2024-06-22-RAGforQualityEngineers_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 임베딩을 생성하는 데 사용할 수 있는 여러 모델이 있습니다. 서로 다른 모델은 다양한 상황에서 더 나은 또는 나쁘게 수행할 수 있습니다. 일부 모델은 일반 사용을 위해 사전 훈련되어 있고 일부는 특정 도메인(예: 의학 기록)에 대해 세밀하게 조정되어 있습니다. 또한 응용 프로그램에서 처리하는 특정 데이터에 대해 자체 임베딩 모델을 세밀하게 조정할 수도 있습니다.
 
@@ -172,7 +320,18 @@ LLM에 전송된 프롬프트는 제한된 길이인 context window을 가지고
 
 응용 프로그램 내에서 다른 데이터 경로에 대해 다른 임베딩 모델을 사용하는 것도 가능합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반적으로 좋은 임베딩 모델은 RAG 응용 프로그램에 충분할 수 있지만, 일부는 특정 임베딩 모델이나 사용자 지정된 모델을 사용하여 혜택을 얻을 수 있습니다.
 
@@ -182,7 +341,18 @@ LLM에 전송된 프롬프트는 제한된 길이인 context window을 가지고
 
 ![이미지](/assets/img/2024-06-22-RAGforQualityEngineers_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 수신한 쿼리에 임베딩 모델을 정확히 실행해야 한다는 규칙은 없습니다. 실제로 이 쿼리를 최적화하여 애플리케이션의 전반적인 품질을 향상시킬 수 있는 다양한 방법이 있습니다. 이는 특히 쿼리가 사람 사용자로부터 직접 제출되었으며 모호하고 애매한 쿼리일 경우에 더욱 참된 것입니다.
 
@@ -192,7 +362,18 @@ LLM에 전송된 프롬프트는 제한된 길이인 context window을 가지고
 
 또 다른 옵션은 쿼리를 여러 관련된 쿼리로 분할하고 각각을 병렬로 실행한 다음 결과를 결합하는 것입니다. 이는 처리 비용이 듬성들지만 검색 품질을 향상시킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특정 사용 사례에 따라 사용자 지정 쿼리 처리가 필요할 수 있으며 응용 프로그램의 품질과 동작에 큰 영향을 미칠 수 있습니다.
 
@@ -202,7 +383,18 @@ LLM에 전송된 프롬프트는 제한된 길이인 context window을 가지고
 
 벡터 검색은 빠르지만, 쿼리와 유사한 임베딩을 찾기 위해 벡터 DB를 검색하는 데에는 시간 (그리고 돈) 비용이 소요될 수 있습니다. 이 비용을 최소화하는 한 가지 방법은 의미 캐싱입니다. 의미 캐싱에서는 임베딩이 처음 검색된 후 응답이 캐시되어, 향후 유사한 검색이 캐시로부터 직접 데이터를 반환하게 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 물론, 캐싱은 복잡성을 증가시킵니다 (그리고 컴퓨터 과학에서의 두 번째 어려운 문제 중 하나입니다—다른 하나의 이름을 기억하지 못하겠군요). 캐싱은 성능을 향상시킬 수 있지만, 오래된 캐시는 변동성 있는 소스 데이터 환경에서 특히 응답 품질을 해치는 요인이 될 수 있습니다.
 
@@ -212,7 +404,18 @@ LLM에 전송된 프롬프트는 제한된 길이인 context window을 가지고
 
 위에서 설명한 내용에서 우리는 단순히 우리의 벡터 검색으로 반환된 모든 관련 데이터를 컨텍스트 창에 채울 수 있다고 가정했습니다. 이것은 명백히 간소화된 내용이며, 반환된 모든 벡터 중 어느 것이 컨텍스트 창에 포함될 것인지를 결정하기 위한 과정이 있어야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 검색 결과를 콘텍스트 창 안에 맞출 수 있을 때에도, 많은 연구에서 콘텍스트 Stuffing(콘텍스트 창 채우기)가 LLM 회상을 부정적으로 영향을 줄 수 있다는 것을 지적합니다. 이는 중간에서 사라지는 문제를 도입하여 응답 품질(회상은 LLM이 콘텍스트 창에 있는 정보를 사용하는 능력입니다)에 영향을 줄 수 있습니다.
 
@@ -222,7 +425,18 @@ LLM에 전송된 프롬프트는 제한된 길이인 context window을 가지고
 
 다시 말하지만, 이보다 더 많은 내용이 있지만, 재랭킹의 본질은 바로 이것입니다. Pinecone 블로그에서 더 자세한 설명을 찾을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다시 순위를 매기면 RAG에서 반환된 데이터의 관련성을 크게 향상시킬 수 있습니다. 컨텍스트 창에서 더 관련성이 높은(또는 무관련성이 적은) 데이터는 응답 품질을 향상시킬 것입니다. 그러나 복잡성과 지연이 증가하지만, 품질의 트레이드오프는 많은 RAG 응용 프로그램에서 가치 있는 요소일 수 있습니다.
 
@@ -232,7 +446,18 @@ LLM에 전송된 프롬프트는 제한된 길이인 context window을 가지고
 
 LLM 기술은 빠르게 발전하고 있으며 개선의 한 가지 측면은 컨텍스트 창의 크기입니다. 한 가지 대표적인 예는 2024년 2월에 출시된 Gemini 1.5 Pro이며, 128K 컨텍스트 창을 제공하며(공개적으로 출시되지 않음) 최대 백만(!!!) 토큰까지 확장할 수 있는 옵션이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일부 사람들은 100만 토큰 컨텍스트 창이 RAG 파이프라인을 사용할 때 사용되지 않을 것이라고 예상했습니다. 그러나 실제로는 그렇지 않습니다. 이 블로그에서는 RAG가 왜 유용하며 (심지어 필수적이기도 한) 거대한 컨텍스트 창을 사용할 때도 필요한 이유에 대해 설명합니다. (스포일러: 비용, 지연 시간 및 회수 품질)
 
@@ -242,7 +467,18 @@ LLM 기술은 빠르게 발전하고 있으며 개선의 한 가지 측면은 �
 
 ## #8—프롬프트 생성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-06-22-RAGforQualityEngineers_9](/assets/img/2024-06-22-RAGforQualityEngineers_9.png)
 
@@ -252,7 +488,18 @@ LLM을 다뤄본 사람이라면 알 수 있듯이, 그것만큼 간단한 일�
 
 최상의 품질의 응답을 생성할 정확한 프롬프트 템플릿은 보통 모델 및 응용 프로그램에 따라 다르며 종종 실험과 시행착오가 필요할 수 있습니다. RAG의 이 보이지 않는 작은 세부 사항이 가지는 품질 영향을 감안할 때, 적용된 특정 프롬프트 엔지니어링은 시스템의 다른 부분과 마찬가지로 면밀히 평가되고 심사되어야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # RAG 시스템의 측정 및 평가
 
@@ -262,7 +509,18 @@ LLM을 다뤄본 사람이라면 알 수 있듯이, 그것만큼 간단한 일�
 
 당연한 다음 질문은 다음과 같습니다: 좋아, 그런데 RAG를 어떻게 평가할까요? 개방형 자유형식 응답의 품질을 어떻게 측정할까요? 어떤 지표를 사용하여 실제로 측정할 수 있을까요? 이러한 평가를 자동화할 수 있을까요, 그리고 어느 수준에서 할 수 있을까요? LLM은 본질적으로 비결정론적이고 그들이 소비하는 데이터도 본질적으로 불안정할 때 품질을 어떻게 보장할까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이런 건들로 이루어진 큰 질문들이에요. 우리는 ARC나 HellaSwag 같은 프레임워크를 이용한 모델 평가, LLM-as-a-judge와 같은 접근 방식, 바늘 찾기 테스트와 같은 테스트, 어려움, 신뢰성, 그리고 관련성과 같은 측정 항목, Ragas와 LlamaIndex와 같은 도구 등의 주제를 다룰 거에요.
 

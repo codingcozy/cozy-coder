@@ -3,17 +3,13 @@ title: "초심자를 위한 다크틸 매뉴폼 키보드 제작 가이드"
 description: ""
 coverImage: "/assets/img/2024-07-07-Completeidiotguideforbuildingadactylmanuformkeyboard_0.png"
 date: 2024-07-07 02:52
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-Completeidiotguideforbuildingadactylmanuformkeyboard_0.png
 tag: Tech
 originalTitle: "Complete idiot guide for building a dactyl manuform keyboard."
 link: "https://medium.com/swlh/complete-idiot-guide-for-building-a-dactyl-manuform-keyboard-53454845b065"
 isUpdated: true
 ---
-
-
-
-
 
 ![2024-07-07-Completeidiotguideforbuildingadactylmanuformkeyboard_0.png](/assets/img/2024-07-07-Completeidiotguideforbuildingadactylmanuformkeyboard_0.png)
 
@@ -26,7 +22,18 @@ isUpdated: true
 
 이 빌드 로그에서는 제가 처음부터 dactyl manuform mini 5x6를 만드는 방법을 보여드릴 예정이에요. 전문가가 아니라서 이 문제에 있어서 전적으로 온라인 튜토리얼에 의존했어요. 때때로 어려운 시간을 극복하는 데 도움이 되었죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 안내서는 제가 제 키보드를 만들 때 겪고 싶었던 경험들을 상세히 설명하는 것이기 때문에 좀 지루할 수 있어요.
 
@@ -44,7 +51,18 @@ isUpdated: true
 
 도구를 포함하면 (저는 이 도구들이 전혀 없어서 키보드 부품보다 도구에 더 많이 소비했어요)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 납
 - 납은 다리
@@ -63,7 +81,18 @@ isUpdated: true
 - 당신의 Dactyl Manuform 만들기
 - QMK 소프트웨어로 키보드 테스트하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1. 원하는 키보드 찾기
 
@@ -73,7 +102,18 @@ isUpdated: true
 
 자, 그만 허풍 떼고 다크틸 키보드를 만들어 봅시다. 프로젝트를 시작하기 전에 더 많은 조사를 하면 프로젝트 도중에 받는 고통이 줄어듭니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2. 당신에게 알맞은 다크틸 키보드 찾기
 
@@ -83,7 +123,18 @@ isUpdated: true
 
 이후에는 키보드에 있는 키의 수를 정해야 합니다. 이 키보드에는 4x5, 4x6, 5x6, 5x7 등 다양한 퍼뮤테이션이 존재하므로 만족스러운 것을 찾을 때까지 인터넷을 둘러보세요. 나는 beekeeb의 다크틸 manufirm mini를 선택했습니다. 그는 STL 파일과 일부 고수준 빌드 로그를 제공합니다. 그의 디자인은 키보드의 높이와 키의 수를 줄였습니다 (전에 시도했지만 성취하지 못한 부분입니다).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3. 키보드 케이스의 3D 프린팅
 
@@ -93,7 +144,18 @@ isUpdated: true
 
 리셋 버튼을 위한 여유 공간을 남겨두는 것을 기억하세요. 대부분의 빌드에서는 이를 위한 공간이 예약되어 있지 않습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-07-Completeidiotguideforbuildingadactylmanuformkeyboard_4.png" />
 
@@ -103,7 +165,18 @@ isUpdated: true
 
 a. 키 스위치 x80 | 키보드를 직접 제작할 수 있는 주요 장점 중 하나는 선호하는 키 스위치를 선택할 수 있다는 것입니다. 다양한 종류가 있어서 어떤 것을 선택해도 크게 틀릴 일이 없습니다. 그러나 이 케이스는 대부분 체리 또는 체리와 유사한 키 스위치용으로 설계되어있어, kaih 또는 다른 제품이 적합하지 않을 수 있습니다. 케이스에 꼭 맞게 하려면 핫 글루가 필요합니다. 저는 자신이 실패할 경우 몇 펜스를 절약해 줄 것 같은 가터론 블루로 선택했습니다. (이에 대해 비난하지 마세요.)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 b. 키캡 x 1 풀 세트 | 키캡을 구매할 때 OEM DSA SA 등과 같은 다양한 종류가 있음을 기억해 주세요. 키캡의 균일한 높이 스타일을 권장합니다. 동일한 키보드 롤 내에서 높이 차가 발생하지 않도록 합니다. 적합한 키캡 스타일을 찾는 것은 쉽지 않습니다. 특정 유닛 크기의 특수 키가 필요하기 때문입니다. 귀찮음을 피하고 싶다면 올바른 스타일과 유닛 크기를 찾는 데 머리아픈다면 빈 키캡을 구매할 수도 있습니다.
 
@@ -113,7 +186,18 @@ c. 와이어, 와이어 스트리퍼 및 면도칼 x1 | 처음 할 때 좋은 �
 
 d. 다이오드 x80 | 자명한 사실이며, 단순히 올바른 1N4148을 구입하고, 후에 개별로 접는 시간을 절약할 수 있도록 이러한 방식으로 발송된 제품을 찾는 것이 좋습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 e. 아두이노 프로 마이크로 x4 | 다양한 종류의 아두이노가 많이 있습니다. 좋은 평가와 합리적인 가격의 제품을 찾아보세요. 만약 납땜에 익숙하지 않다면, 다리가 이미 설치된 제품을 찾아보세요. 저는 혹시 모를 일을 대비하여 2개 더 구입했지만, 보통 조금 편집증이 있어서 그냥 사두었습니다.
 
@@ -123,7 +207,18 @@ f. 3.5 밀리미터 잭 / TRS / TRRS 커넥터 x4 | 키보드의 양 쪽을 연�
 
 ![이미지](/assets/img/2024-07-07-Completeidiotguideforbuildingadactylmanuformkeyboard_7.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 g. 작은 리셋 버튼 x3 | 키보드 안에 설치된 Arduino pro micro를 재설정해야하는 경우, 각 쪽에 버튼이 필요합니다. 그렇지 않으면 제 처럼 두 개의 노출된 점퍼 와이어로 수치심에 살 것입니다. 버튼 도착까지 기다리며요.
 
@@ -133,7 +228,18 @@ i. 아두이노 점퍼 케이블 (선택 사항이지만 강력히 권장됨) | 
 
 j. 타입 C 커넥터 (선택 사항) x3 | 내 dactyl manuform 키보드 디자인에서는 사용자가 직접 Arduino 보드에 꽂지 않으므로, 마이크로 USB에서 타입 C 연장 케이블을 사용하거나 동일한 결과를 얻기 위해 타입 C 브레이크아웃 보드를 구입할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 k. 납땜 도구 x1 | 납땜기와 납은 프로젝트의 성격상 필수품입니다. 납땜기를 잘 다루지 못해도 걱정하지 마세요. 이 프로젝트를 마치면 납땜기를 잘 다룰 수 있을 거예요. 공간이 좁은 곳에서 납땜을 하기 때문에 작은 지름의 납이 유용할 수 있지만 주로 개인의 선호에 따라 다릅니다.
 
@@ -146,7 +252,18 @@ l. 기타 도구
 
 이제 당신이 닥틸 매뉴폼 키보드를 만들기 위해 필요한 모든 것을 갖추었어요. 이제 다른 사람들의 작품에 열중하며 2-3 주를 기다리세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 5. 다크틸 매누폼 키보드 만들기
 
@@ -156,8 +273,18 @@ l. 기타 도구
 
 참고: 키보드 제작을 왼손용 부분으로 시작해서 제작을 완료하면 테스트를 시작할 수 있습니다. 제가 한 것처럼 오른손 부분부터 시작하면 QMK 소프트웨어로 양 손을 완료할 때까지 제대로 키보드를 테스트할 수 없습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-07-Completeidiotguideforbuildingadactylmanuformkeyboard_9.png)
 
@@ -167,9 +294,18 @@ l. 기타 도구
 
 키보드 배선에 사용한 방법은 스트립 케이블 방식입니다. 15cm 선을 구매해, 각 스위치의 돌출부 사이의 거리를 표시하고 선의 작은 길이(8mm-1cm)를 벗겨내세요. 이 과정을 모든 돌출부에 반복하세요. 그런 다음 선을 스위치의 돌출부 주위로 감도록 하세요. 선 자체가 스위치 주위로 감겨 있으면 실드링을 하지 않아도 움직이지 않도록 합니다. 이렇게 하면 실드링 작업이 더 쉬워집니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-07-Completeidiotguideforbuildingadactylmanuformkeyboard_11.png)
 
@@ -179,8 +315,18 @@ NOTE: 다이오드는 한 방향으로만 전류가 통과됩니다. 만약 다�
 
 ![image](/assets/img/2024-07-07-Completeidiotguideforbuildingadactylmanuformkeyboard_13.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 수평 매트릭스를 완성한 후에는 자신에게 박수를 치세요. 당신은 빌드의 가장 어려운 부분을 완수했습니다.
 
@@ -190,7 +336,18 @@ NOTE: 다이오드는 한 방향으로만 전류가 통과됩니다. 만약 다�
 
 ![이미지](/assets/img/2024-07-07-Completeidiotguideforbuildingadactylmanuformkeyboard_14.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 키보드의 납땝 및 조립 과정을 나보다 더 잘 보여주는 비디오입니다.
 
@@ -200,7 +357,18 @@ NOTE: 다이오드는 한 방향으로만 전류가 통과됩니다. 만약 다�
 
 ![Link to reset button connection](/assets/img/2024-07-07-Completeidiotguideforbuildingadactylmanuformkeyboard_16.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 내용을 친근하게 번역해 드리겠습니다.
 
@@ -212,7 +380,18 @@ NOTE: 다이오드는 한 방향으로만 전류가 통과됩니다. 만약 다�
 
 QMK 툴킷에서 지원하는 dactyl 키보드 레이아웃의 원본 디자인을 사용하고 있다면 큰 문제가 없을 겁니다. 하지만 제처럼 약간 다른 dactyl 레이아웃을 사용하고 있는 경우, 약간 다른 절차를 거쳐야 할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 QMK 툴킷에 키맵이 없더라도, 가장 유사한 키보드를 찾아서 먼저 테스트해 보세요. 분명히 성취감과 커다란 행복을 느낄 수 있을 거예요.
 
@@ -222,7 +401,18 @@ QMK 사용 방법 (키보드가 지원되는 경우)
 
 일반 레이아웃에 대한 요약은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - QMK 구성기로 이동하세요.
 - 키보드 이름을 선택하세요.
@@ -240,7 +430,18 @@ QMK 사용 방법 (키보드가 지원되는 경우)
 
 QMK를 설치한 후, 로컬 머신에 QMK를 다운로드하고 자신만의 키맵과 키보드를 편집할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 위치로 이동하세요: /handwired/dactyl_manuform/5x6에서 5x6.h를 수정하고 기존 keymap을 수정하세요. 필요 없는 키는 KC_NO를 추가하거나 매트릭스에 더 많은 키를 등록하세요.
 
@@ -250,7 +451,18 @@ QMK를 설치한 후, 로컬 머신에 QMK를 다운로드하고 자신만의 �
 
 ![이미지](/assets/img/2024-07-07-Completeidiotguideforbuildingadactylmanuformkeyboard_18.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 키맵을 헥스 파일로 컴파일하세요.
 
@@ -260,6 +472,17 @@ QMK를 설치한 후, 로컬 머신에 QMK를 다운로드하고 자신만의 �
 
 이제 당신의 Dactyl Manuform 키보드를 완전히 제어할 수 있습니다. 계속 사용해서 연습해보세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 긴 가이드 끝까지 읽은 분들에게 축하드립니다. 이것은 나의 키보드 만들기 경험을 전하려는 시도이며, 아마 누군가에게 도움이 되기를 바랍니다.

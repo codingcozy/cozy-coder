@@ -3,17 +3,13 @@ title: "LaMa 탐색하기 푸리에 합성을 활용한 해상도 견고한 대�
 description: ""
 coverImage: "/assets/img/2024-06-20-ExploringLaMaResolution-robustLargeMaskInpaintingwithFourierConvolutionsABriefOverview_0.png"
 date: 2024-06-20 18:09
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-ExploringLaMaResolution-robustLargeMaskInpaintingwithFourierConvolutionsABriefOverview_0.png
 tag: Tech
 originalTitle: "Exploring LaMa: Resolution-robust Large Mask Inpainting with Fourier Convolutions: A Brief Overview"
 link: "https://medium.com/towards-artificial-intelligence/exploring-lama-resolution-robust-large-mask-inpainting-with-fourier-convolutions-a-brief-overview-593f29a3f8da"
 isUpdated: true
 ---
-
-
-
-
 
 # 소개
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 이미지 인페인팅에서 큰 마스크의 문제는 무엇일까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Exploring LaMa Resolution](/assets/img/2024-06-20-ExploringLaMaResolution-robustLargeMaskInpaintingwithFourierConvolutionsABriefOverview_1.png)
 
@@ -34,7 +40,18 @@ LaMa는 혁신적인 구조와 손실 함수로 큰 마스크 영역을 복원�
 
 # 방법
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 네트워크 아키텍처
 
@@ -46,7 +63,18 @@ LaMa는 혁신적인 구조와 손실 함수로 큰 마스크 영역을 복원�
 - 네트워크: 네트워크는 시작 부분에서 다운스케일 단계, 중간에 일련의 잔여 블록, 그리고 끝에 역 스케일 업 단계로 구성됩니다. 잔여 블록은 다음 섹션에서 다룰 Fast Fourier Convolution으로 이루어져 있습니다.
 - 네트워크 출력: 네트워크는 회복된 이미지 x̂를 출력합니다. 훈련 단계에서의 손실은 입력 x와 출력 x̂의 불일치에 기반합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LaMa의 혁신은 푸리에 변환 컨볼루션의 통합에 있습니다. 다음 섹션에서 세부 사항부터 시작하여 점차적으로 더 큰 맥락을 포함하도록 확장해 봅시다.
 
@@ -56,7 +84,18 @@ LaMa의 혁신은 푸리에 변환 컨볼루션의 통합에 있습니다. 다�
 
 푸리에 변환은 이미지 및 신호 처리에서 공간/시간 영역의 입력을 주파수 영역으로 변환하는 고전적인 방법입니다. 이미지 처리에서 변환된 이미지는 입력 이미지와 동일한 크기를 공유하며 다음과 같은 특성을 갖습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 변환된 이미지의 각 픽셀은 입력 이미지의 특정 주파수를 나타냅니다. 예를 들어, 그림 4 (b)의 중앙 영역은 낮은 주파수를 나타내며 이미지 테두리 쪽으로 이동할수록 주파수가 높아집니다.
 - 이것은 자기 역변환 가능합니다. 변환된 이미지에 역변환을 적용하여 원본 이미지를 복원할 수 있습니다.
@@ -67,7 +106,18 @@ Fourier 변환의 중요한 속성 중 하나는 변환된 이미지의 각 픽�
 
 ![그림](/assets/img/2024-06-20-ExploringLaMaResolution-robustLargeMaskInpaintingwithFourierConvolutionsABriefOverview_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Fourier Transform 아이디어를 따라가면서 한 단계 더 들어가 봅시다.
 
@@ -85,7 +135,7 @@ class SpectralTransform(nn.Module):
         # bn_layer 사용하지 않음
         super(SpectralTransform, self).__init__()
         self.enable_lfu = enable_lfu
-        
+
         self.downsample = nn.Identity()
 
         self.conv1 = nn.Sequential(
@@ -95,10 +145,10 @@ class SpectralTransform(nn.Module):
         )
 
         self.fu = FourierUnit(out_channels // 2, out_channels // 2, groups, **fu_kwargs)
-        
+
         if self.enable_lfu:
             self.lfu = FourierUnit(out_channels // 2, out_channels // 2, groups)
-        
+
         self.conv2 = torch.nn.Conv2d(out_channels // 2, out_channels, kernel_size=1, groups=groups, bias=False)
 
     def forward(self, x):
@@ -123,7 +173,18 @@ class SpectralTransform(nn.Module):
         return output
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 코드 블록에 구현 내용이 있습니다. 함수 forward() 내 인라인 코멘트는 Figure 5의 직사각형 블록에 대한 매핑을 설명합니다. 이 코드는 이해를 돕기 위해 기본 구성을 사용하여 공식 저장소²에서 간소화되었음을 참고해주세요.
 
@@ -134,7 +195,18 @@ class SpectralTransform(nn.Module):
 - 로컬 브랜치: 로컬 브랜치는 일반 컨볼루션 프로세스를 따릅니다: 컨볼루션 - 배치 정규화 - 활성화 함수.
 - 글로벌 브랜치: 방금 살펴본 제안된 스펙트럼 변환은 글로벌 브랜치에서 적용되며 로컬 브랜치의 동일한 컨볼루션 프로세스와 함께 사용됩니다. 표준 컨볼루션 블록과 제안된 FFT 기반 블록을 결합하여 글로벌 브랜치의 출력은 지역적 피처와 전체 이미지 구조를 모두 담고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로컬 및 글로벌 브랜치의 출력은 FFC의 끝에서 연결됩니다. 라마의 기본 아키텍처에서는 9개의 FFC가 구성되어 있습니다. FFC 초기화 스크립트는 아래와 같습니다.
 
@@ -154,7 +226,18 @@ for i in range(n_blocks):
 
 <img src="/assets/img/2024-06-20-ExploringLaMaResolution-robustLargeMaskInpaintingwithFourierConvolutionsABriefOverview_5.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 높은 수용 영역 지각 손실 (HRFPL)
 네트워크의 초기 레이어에서 FFC에 참여하는 것 외에도, LaMa의 또 다른 혁신은 새로운 손실 함수에 있습니다: 높은 수용 영역 지각 손실 (HRFPL).
@@ -170,7 +253,18 @@ HRFPL은 큰 마스크를 가진 샘플이 가시 영역의 컨텍스트가 충�
 
 차이를 계산하고 결과를 평균화하는 해당 Pytorch 스크립트를 위에서 찾을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 적대적 손실
 
@@ -185,7 +279,18 @@ discr_fake_pred, discr_fake_features = self.discriminator(predicted_img)
 adv_gen_loss, adv_metrics = self.adversarial_loss.generator_loss(real_batch=img, fake_batch=predicted_img, discr_real_pred=discr_real_pred, discr_fake_pred=discr_fake_pred, mask=mask_for_discr)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 discriminator의 입력은 원본 이미지 x와 inpainted 이미지 x̂입니다. discriminator는 각 픽셀의 클래스를 real 또는 fake로 예측합니다. Adversarial Loss는 생성기 손실과 discriminator 손실을 결합하며 다른 기존 GAN과 동일한 개념을 공유합니다. 자세한 내용은 아래의 방정식에서 확인할 수 있습니다.
 
@@ -195,7 +300,18 @@ discriminator의 입력은 원본 이미지 x와 inpainted 이미지 x̂입니�
 
 ![equation_8](/assets/img/2024-06-20-ExploringLaMaResolution-robustLargeMaskInpaintingwithFourierConvolutionsABriefOverview_8.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 손실 함수를 마무리하는 시간이에요. 제안된 HRFPL 및 적대적 손실은 대형 마스크 케이스에서 정확도 측면에서 LaMa를 다른 인풋 네트워크들과 구분짓습니다. 두 가지의 아이디어가 8번 그림에 나와 있어요. HRFPL 및 적대적 손실 이외에도 두 가지 일반적으로 사용되는 손실 함수가 포함돼 있어요.
 
@@ -204,7 +320,18 @@ discriminator의 입력은 원본 이미지 x와 inpainted 이미지 x̂입니�
 
 최종 손실은 네 가지 손실 함수의 가중 합으로 이루어져요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 모든 것으로 LaMa가 두드러지는 점에 관한 이야기는 여기까지입니다.
 
@@ -214,7 +341,18 @@ discriminator의 입력은 원본 이미지 x와 inpainted 이미지 x̂입니�
 
 # 요약
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사에서 LaMa의 아이디어를 다뤘어요. 이미지 인페인팅에서 인기 있는 네트워크 중 하나로, 방문할 가치가 있는 많은 커뮤니티 자원이 있어요. 일부 온라인 서비스는 람마의 기능을 사용할 수 있는 훌륭한 인터페이스를 제공해요.
 

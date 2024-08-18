@@ -3,17 +3,13 @@ title: "ComfyUI에서 의상을 어떻게 변경하나요"
 description: ""
 coverImage: "/assets/img/2024-06-19-HowtoChangeOutfitsinComfyUI_0.png"
 date: 2024-06-19 20:58
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-HowtoChangeOutfitsinComfyUI_0.png
 tag: Tech
 originalTitle: "How to Change Outfits in ComfyUI"
 link: "https://medium.com/@promptingpixels/how-to-change-outfits-in-comfyui-7d20eaeccdc0"
 isUpdated: true
 ---
-
-
-
-
 
 일반적으로 ComfyUI나 Automatic1111에서 옷을 바꾸는 과정은 캐릭터 포즈를 유지하면서 원하는 스타일을 적용하는 데 조금의 프롬프트 엔지니어링이나 LoRA가 필요한 귀찮은 인페인팅과 제어넷을 필요로 합니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 작업흐름 및 상세가이드: 이 작업을 실제로 확인하고 워크플로를 다운로드하고 싶다면, Prompting Pixels 웹사이트에서 무료로 이용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 최종 결과
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 세 가지 다른 그룹으로 분리하는 것이 조직적 관점과 전반적인 프로세스에서의 상황을 고려할 때 좋은 방법이라고 생각했습니다. 이 세 그룹은 다음과 같습니다: 기본 워크플로우, IPAdapter 및 세분화. 각각에서 무엇이 벌어지고 있는지 살펴보겠습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 기본 작업 흐름
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 당신의 프롬프트에 대해, 특정 세그먼트를 변경할 것이기 때문에 무엇이 나타나길 원하는지 정의해야 합니다. 이 예시에서는 기본 셔츠를 화려한 하와이안 셔츠로 변환할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # IPAdapter
 
@@ -53,7 +82,18 @@ IPAdapter은 이미지 프롬프트 어댑터를 의미합니다. 기본적으�
 
 따라서 이미지를 입력으로 제공하고 이미지에서 관련 정보를 추출하는 것을 Load Image 노드를 통해 수행해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ComfyUI에 이미지 프롬프트 어댑터(IPAdapter)를 설정하려면 CLIP-ViT-H-14-laion2B-s32B-b79K.safetensors 및 ip-adapter-plus_sdxl_vit-h.safetensors 모델을 불러와야 합니다. 이 모델들과 관련된 다른 모델들은 IPAdapter GitHub 리포지토리에서 찾을 수 있습니다.
 
@@ -63,7 +103,18 @@ ComfyUI에 이미지 프롬프트 어댑터(IPAdapter)를 설정하려면 CLIP-V
 
 마지막으로 IPAdapter Advanced에서 weight_type를 스타일 전송으로 변경해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 IPAdapter Advanced로부터의 모델 출력은 직접 KSampler 노드로 들어가게 되는데, 수정된 모델 파일은 이제 원하는 입력에 기반하여 정확하게 이미지/스타일을 그릴 수 있습니다.
 
@@ -73,7 +124,18 @@ IPAdapter Advanced로부터의 모델 출력은 직접 KSampler 노드로 들어
 
 이것은 굉장히 강력한 기능입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희의 작업 흐름 중에 셔츠를 세분화하는 데 사용 중인데, 실제로 모자부터 신발, 심지어 전체 배경까지 거의 모든 것을 세분화할 수 있어요. 가능성은 무한해요.
 
@@ -83,7 +145,18 @@ IPAdapter와 같이 세분화할 때 이미지가 먼저 입력이 되어야 해
 
 그러므로 Load Image 노드를 설정하고 그 다음 GroundingDinoSAMSegment 노드로 전달하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한, SAMModelLoader 노드와 GroundingDinoModelLoader의 Segment Anything 모델을 가져와야 합니다. 처음 실행할 때 이 모델 로더 노드들은 관련 모델(약 3GB)을 다운로드한 다음 GroundingDinoSAMSegment 노드로 전달합니다.
 
@@ -93,7 +166,18 @@ GroundingDinoSAMSegment 노드에는 세그먼트할 객체의 단어를 입력�
 
 ![이미지](/assets/img/2024-06-19-HowtoChangeOutfitsinComfyUI_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 임계값에 대해 일반적으로 말하자면, 낮은 값은 모델이 선택을 더 자유롭게 할 수 있게 하지만 높은 값은 더 자신 있게 만듭니다. 값이 너무 높으면 선택된 것이 없는 오류가 발생할 수 있습니다.
 
@@ -103,7 +187,18 @@ GroundingDinoSAMSegment 노드에는 세그먼트할 객체의 단어를 입력�
 
 # 큐 프롬프트 및 결과 검토
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 번 모두 연결되면 프롬프트를 대기열에 넣고 결과를 검토할 수 있습니다. 원하는 결과물의 꽤 정확한 표현이 셔츠가 멋진 하와이안 셔츠로 변환되었음을 확인해야 합니다.
 
@@ -113,7 +208,18 @@ GroundingDinoSAMSegment 노드에는 세그먼트할 객체의 단어를 입력�
 
 # 이 프로세스의 장단점
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제안하는 방법에 대한 장단점을 요약해 드리겠습니다. 이 워크플로우를 잘 활용하는 데 도움이 될 수 있어요:
 
@@ -125,7 +231,18 @@ GroundingDinoSAMSegment 노드에는 세그먼트할 객체의 단어를 입력�
 
 단점:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Segmentation이 추가적인 몇 개의 GB VRAM을 소비하므로, ControlNets, LoRAs, AnimateDiff 등 다른 노드들과 함께 사용할 때 문제가 발생할 수 있습니다.
 - 물리적인 적용이 아니라 스타일 적용만 가능합니다. 예를 들어, 긴 소매 셔츠가 IPAdapter에 입력되어도 최종 이미지는 여전히 단추 소매로 표시될 것입니다.

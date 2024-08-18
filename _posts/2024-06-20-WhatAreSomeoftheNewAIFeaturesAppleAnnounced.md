@@ -3,17 +3,13 @@ title: "애플이 발표한 새로운 AI 기능 중 일부는 무엇인가요"
 description: ""
 coverImage: "/assets/img/2024-06-20-WhatAreSomeoftheNewAIFeaturesAppleAnnounced_0.png"
 date: 2024-06-20 16:15
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-WhatAreSomeoftheNewAIFeaturesAppleAnnounced_0.png
 tag: Tech
 originalTitle: "What Are Some of the New AI Features Apple Announced?"
 link: "https://medium.com/@topqlearn2021/what-are-some-of-the-new-ai-features-apple-announced-2f2b45de6110"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-20-WhatAreSomeoftheNewAIFeaturesAppleAnnounced_0.png" />
 
@@ -23,7 +19,18 @@ Apple과 기술 세계를 주의 깊게 따라온 분으로서, 이번 업데이
 
 이 기사를 읽음으로써 Apple의 AI 기능이 여러분에게 어떻게 도움이 될 수 있는지와 미래가 어떻게 전개될 수 있는지에 대한 통찰력을 얻었을거에요. 이런 혁신들이 어떻게 펼쳐지고 여러분의 기술 경험을 더욱 개선할 수 있는지 기대해 주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 애플의 AI 진화 이해
 
@@ -33,7 +40,18 @@ Apple과 기술 세계를 주의 깊게 따라온 분으로서, 이번 업데이
 
 # 주요 질문에 대한 답변
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 애플이 발표한 새로운 AI 기능은 무엇인가요?
 - 이러한 기능이 사용자들에게 어떤 혜택을 주는가요?
@@ -45,7 +63,18 @@ Apple과 기술 세계를 주의 깊게 따라온 분으로서, 이번 업데이
 
 ## 1. 개인화된 Siri 제안
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 애플은 Siri를 더 적극적이고 개인화된 기능으로 업그레이드했어요. 이제 Siri는 당신의 일상 생활과 사용 패턴을 기반으로 제안을 해줄 수 있어요.
 
@@ -55,7 +84,18 @@ Apple과 기술 세계를 주의 깊게 따라온 분으로서, 이번 업데이
 
 애플의 사진 앱은 새로운 AI 기능으로 똑똑해졌어요. 이제 이 앱은 얼굴, 장소, 심지어 특정 이벤트까지 인식하는 고급 기계 학습을 사용해요. 이를 통해 사진을 조직화하고 찾기 쉬워졌어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한, 추억 기능은 보다 의미 있는 그리고 개인화된 사진 컬렉션을 만들기 위해 개선되었습니다. 특별한 순간들을 회상하기에 완벽합니다.
 
@@ -65,7 +105,18 @@ Apple과 기술 세계를 주의 깊게 따라온 분으로서, 이번 업데이
 
 이 기능은 학생, 전문가 그리고 텍스트를 자주 다루는 사람들에게 굉장히 유용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 4. 똑똑해진 홈 자동화
 
@@ -75,7 +126,18 @@ Apple과 기술 세계를 주의 깊게 따라온 분으로서, 이번 업데이
 
 ## 5. 향상된 건강 및 피트니스 추적
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Apple은 새로운 AI 기능을 통해 건강과 피트니스에 대한 약속을 보여주고 있습니다. Health 앱과 Apple Watch에서 더 정확한 활동 추적과 맞춤형 피트니스 권장 사항을 제공합니다.
 
@@ -85,7 +147,18 @@ AI 알고리즘은 운동 패턴을 분석하고 새로운 운동을 제안하�
 
 개인 정보 보호는 디지털 시대에서 중요한 문제이며, Apple은 높은 수준의 보안 조치를 취했습니다. 새로운 AI 기능은 많은 작업에 대해 장치 내 처리를 포함하여 데이터를 안전하게 보호합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, Siri의 요청은 Apple의 서버로 전송되는 것이 아니라 기기에서 처리되어 데이터 유출 위험을 최소화하고 개인 정보 보호를 강화합니다.
 
@@ -99,7 +172,18 @@ AI 알고리즘은 운동 패턴을 분석하고 새로운 운동을 제안하�
 - 건강 향상: 맞춤형 피트니스 추천과 정확한 건강 추적을 통해 웰빙 목표를 달성하는 데 도움을 받을 수 있습니다.
 - 개인 정보 보호 강화: 기기 내에서 처리되므로 데이터가 안전하고 개인 정보 보호됨을 보장합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 앞으로 애플에서 기대할 수 있는 것들
 
@@ -109,7 +193,18 @@ AI 알고리즘은 운동 패턴을 분석하고 새로운 운동을 제안하�
 
 애플의 개인정보 보호에 대한 약속은 사용자 데이터가 안전하게 보호되도록 할 것으로 예상됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

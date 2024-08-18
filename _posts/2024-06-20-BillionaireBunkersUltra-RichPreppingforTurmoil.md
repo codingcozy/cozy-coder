@@ -3,17 +3,13 @@ title: "억만장자 벙커 초 부자들이 동요에 대비하나요"
 description: ""
 coverImage: "/assets/img/2024-06-20-BillionaireBunkersUltra-RichPreppingforTurmoil_0.png"
 date: 2024-06-20 17:57
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-BillionaireBunkersUltra-RichPreppingforTurmoil_0.png
 tag: Tech
 originalTitle: "Billionaire Bunkers: Ultra-Rich Prepping for Turmoil?"
 link: "https://medium.com/@foresightbureau/billionaire-bunkers-ultra-rich-prepping-for-turmoil-4d7de1ae8973"
 isUpdated: true
 ---
-
-
-
-
 
 # 걱정스러운 추세가 나타나고 있어요
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 수백만 달러짜리 주택을 내구성 있는 고급 벙커로 만들거나 외딴 지역에 지하 생존 지역을 건설하는 등, 세계 부자들은 주변사람을 바라보며... 무엇을 준비하고 있을까요? 사회적 불안? 경제 붕괴? 종말적인 사건?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-BillionaireBunkersUltra-RichPreppingforTurmoil_0.png" />
 
@@ -33,8 +40,18 @@ isUpdated: true
 
 저상위 1%에 대한 공개적인 증오가 증가함에 따라 미래의 혼돈으로부터 스스로를 안전하게 지키고 싶어하는 진정한 필요성인가요? 아니면 돈에 기반한 편집증의 표현일까요? 초호화와 나머지 사람들 사이의 격차를 충격적으로 보여주는 이 내용은 당신도 준비를 시작해야 할지 고민하게 만들 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Billionaire Bunker](/assets/img/2024-06-20-BillionaireBunkersUltra-RichPreppingforTurmoil_1.png)
 
@@ -52,7 +69,17 @@ Follow us on social media:
 
 Disclaimer
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 블로그는 오로지 즐거움을 위해 제공되는 것입니다. 게시된 정보의 정확성이나 완전성을 보증하지 않습니다. 이 블로그를 사용함으로써 발생할 수 있는 손실이나 피해에 대해 책임지지 않습니다. 어떤 내용도 투자 또는 금융 조언으로 해석되어서는 안 됩니다.

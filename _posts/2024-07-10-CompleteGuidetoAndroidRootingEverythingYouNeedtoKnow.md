@@ -3,17 +3,13 @@ title: "안드로이드 루팅 완벽 가이드 반드시 알아야 할 모든 �
 description: ""
 coverImage: "/assets/img/2024-07-10-CompleteGuidetoAndroidRootingEverythingYouNeedtoKnow_0.png"
 date: 2024-07-10 01:17
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-10-CompleteGuidetoAndroidRootingEverythingYouNeedtoKnow_0.png
 tag: Tech
 originalTitle: "Complete Guide to Android Rooting: Everything You Need to Know"
 link: "https://medium.com/@MeenoTeK/complete-guide-to-android-rooting-everything-you-need-to-know-4719cd8b20b2"
 isUpdated: true
 ---
-
-
-
-
 
 만약 당신이 그냥 일반 스마트폰 사용자라면, 놀라운 소식이 기다리고 있어요! 당신의 폰이 생각하는 것 이상의 일들을 할 수 있다는 걸 상상해봐요. 홈 화면을 사용자 정의하고, 광고를 차단하며, 앱을 완전히 백업하는 것도 가능해요. 이 모든 마법은 폰을 "루팅(root)"할 때 일어나요; 우리는 여러분에게 어떻게 할 지 안내해 드릴 거예요. 이제 당신의 스마트폰이 할 수 있는 멋진 일들을 탐험할 준비를 하세요!
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 루팅은 어떻게 작동할까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요, 타로 전문가입니다! 안드로이드 기기를 루팅하면 제조업체와 안드로이드의 보안 메커니즘이 부과한 제한을 제거한다는 것을 알고 계셨나요? 안드로이드는 리눅스 커널을 기반으로 하고 있습니다. 그리고 다른 리눅스 기반 시스템과 마찬가지로 상위 권한을 가진 루트 사용자가 있어요. 이 루트 사용자는 기본적으로 잠겨 있고, 일반 사용자(앱 및 사용자)는 제한된 권한을 갖고 있죠.
 
@@ -31,7 +38,18 @@ isUpdated: true
 
 과거에는 SuperSU가 주로 안드로이드 기기를 루팅하는 데 사용되었습니다. Chainfire가 개발한 이 앱은 한때 안드로이드 루팅의 상징이었습니다. 사용자에게 앱에 슈퍼유저 권한을 부여하거나 거부할 수 있도록 허용하여 기기를 완전히 제어할 수 있게 해주었어요. 직관적인 인터페이스와 신뢰할 수 있는 성능으로 안드로이드 수정 및 튜닝에 관심 있는 사용자들 사이에서 매우 인기가 있었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요즘 Magisk은 비슷한 목적으로 사용되고 있어요. SuperSU가 좋은 성능을 보였지만 안드로이드 생태계는 계속 발전해왔어요. 각 안드로이드 버전이 출시될 때마다 새로운 보안 메커니즘이 도입되었고, SuperSU는 이에 발끈하기 어려웠죠. 이때 개발자 Topjohnwu가 개발한 Magisk가 등장했어요.
 
@@ -44,7 +62,18 @@ Magisk는 루팅에 대해 다른 접근 방식을 취해요. 시스템 파티�
 
 요즘에는 KernelSU라는 새로운 도구가 등장했는데, Magisk보다 더 나은 루트 숨김 기능을 제공하여 사용자가 기기를 문제없이 사용하면서 루트의 이점을 누릴 수 있도록 해줘요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 많은 기기들이 있기 때문에 안드로이드 기기를 루팅하는 다양한 방법이 있습니다. 이 기사에서 모두 다 다룰 수는 없을 거예요. 우리는 가장 흔한 방법에 대해서만 이야기할 거에요.
 
@@ -54,8 +83,18 @@ Magisk는 루팅에 대해 다른 접근 방식을 취해요. 시스템 파티�
 
 ![Image 2](/assets/img/2024-07-10-CompleteGuidetoAndroidRootingEverythingYouNeedtoKnow_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 다음으로 우리는 ADB(안드로이드 디버깅 브리지)를 통해 USB 디버깅을 활성화해야 합니다. 이를 통해 컴퓨터가 기기와 통신할 수 있는 인터페이스가 활성화됩니다. 또 다른 활성화해야 하는 옵션은 OEM 잠금 해제 입니다. 이를 통해 부트로더를 열 수 있게 됩니다.
 
@@ -63,8 +102,18 @@ Magisk는 루팅에 대해 다른 접근 방식을 취해요. 시스템 파티�
 
 3. 이제 USB 케이블을 컴퓨터에 연결하고 핸드폰에 연결해야 합니다. 이렇게 하면 두 장치 간에 연결이 시작됩니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 A pop-up appears, asking for permission to access our device.
 
@@ -72,7 +121,7 @@ A pop-up appears, asking for permission to access our device.
 
 ```js
 # To start the adb server, use this command:
-adb start-server 
+adb start-server
 
 # Check for connected adb devices with this command:
 adb devices
@@ -80,19 +129,39 @@ adb devices
 
 4. Don't forget to enable the OEM unlock option!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **5. 성공적인 연결을 위해서는 운영 체제용 부트로더 드라이버가 필요합니다.**
 
 **6. 다음 단계는 장치의 전원을 끄고 부트로더 모드로 부팅하는 것입니다.**
 
-
 adb reboot bootloader
-
 
 **부트로더는 안드로이드 장치의 부팅 프로세스에서 핵심적인 역할을 하는 기본 소프트웨어입니다. 안드로이드 장치의 전원이 켜질 때 가장 먼저 실행되는 소프트웨어입니다.**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 네, 안녕하세요! 하드웨어 구성요소를 초기화하고 안드로이드 운영 체제를 시작합니다. 부팅 프로세스를 계속하기 전에 하드웨어와 소프트웨어가 신뢰할 수 있는 상태에 있는지 확인하여 기기 무결성을 보장합니다. 만약 무언가가 잘못되었을 경우, 기기를 부팅하지 못하도록하여 보안을 확보합니다.
 
@@ -108,7 +177,18 @@ fastboot flashing unlock
 fastboot oem unlock
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 명령어들이 작동하지 않았을 수도 있습니다. 걱정 마세요, 이제는 OEM(원본 장비 제조업체)들이 이 유형의 방법을 허용하지 않는 것이 일반적입니다. Xiaomi, Oppo, Samsung과 같은 회사들은 특정한 언락 도구를 가지고 있습니다.
 
@@ -119,11 +199,20 @@ fastboot oem unlock
 
 ADB SIDELOAD을 통해
 
-
 주의: ADB sideload를 사용하기 전에, 기기가 루팅되고 유실되는 데이터의 책임은 사용자에게 있습니다. 안전한 백업을 하십시오.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 휴대폰을 루팅하기 위해 Magisk를 사용할 거에요. 현재 가장 안정적인 루팅 도구 중 하나에요. 여기서 다운로드 받을 수 있어요. 다운로드한 apk 파일을 zip 파일로 이름 바꿔야 해요. Magisk는 리커버리 모드에서만 zip 형식으로 플래싱할 수 있어요.
 
@@ -136,7 +225,18 @@ ADB sideload는 안드로이드 개발자들과 엔쓰들이 자주 사용하는
 adb sideload [파일명].zip
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 화면에서 진행률 바를 볼 수 있습니다. 작업이 완료되면 핸드폰을 다시 시작할 수 있습니다. 축하합니다, 이제 핸드폰이 루팅되었습니다!
 
@@ -146,25 +246,47 @@ adb sideload [파일명].zip
 
 사용자 정의 복구는 대개 사용자 정의 ROM 플래시, 루팅에 사용할 ZIP 파일 설치, Nandroid 백업, 파티션 삭제 및 고급 시스템 유지 관리를 수행하는 데 사용됩니다. 다양한 그룹에 의해 만들어진 많은 사용자 정의 복구가 존재합니다. 가장 인기 있는 것은 TWRP와 OFox입니다. 사용자 정의 복구를 사용하여 핸드폰을 루팅하려면 먼저 설치해야 합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 위에서 언급한 대로 부트로더 모드로 진입하세요. 전원 버튼 + 볼륨 다운 키를 눌러도 됩니다.
 - 커스텀 리커버리 이미지를 다운로드하세요. 이는 커스텀 리커버리 웹사이트에서 얻을 수 있습니다.
 - 커스텀 리커버리를 플래시하세요 (휴대전화를 컴퓨터에 연결하세요).
 
-
 # 이전 모델을 위한 코드:
-fastboot flash [파일명].zip 
+
+fastboot flash [파일명].zip
 
 # A/B 파티션을 가진 모델을 위한 코드:
-fastboot boot [파일명].zip
 
+fastboot boot [파일명].zip
 
 잘 했어요! 디바이스에 커스텀 리커버리가 설치되었습니다.
 
 이제 디바이스를 루팅해봐요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 복구 모드로 부팅하고 화면에서 설치를 클릭하세요.
 - 이제 다운로드한 Magisk zip 파일로 이동하여 클릭하세요. 설치가 시작됩니다.
@@ -176,7 +298,18 @@ fastboot boot [파일명].zip
 
 안드로이드는 오픈 소스입니다. 이는 다양한 사람들이 OS의 여러 구성 요소를 수정하여 자신의 취향에 맞게 조정할 수 있다는 것을 의미합니다. 이러한 개방성은 주식 안드로이드에서 제공하는 것 이상의 안드로이드 경험을 향상시키기 위해 다양한 사용자 정의 안드로이드 구성 요소로 이어졌습니다. 커널, ROM, 복구 및 훨씬 더 많은 기능이 개발되어 사용자가 고유한 취향에 맞게 기기를 조정할 수 있도록 하는 "사용자 정의"는 안드로이드 세계에서 단순히 단어가 아니라 사용자가 자신의 기기를 형태로 만들 수 있는 윤리를 의미합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 커스텀 커널: 성능 향상과 배터리 수명 연장
 
@@ -187,7 +320,18 @@ fastboot boot [파일명].zip
 
 커스텀 롬: 안드로이드 경험 맞춤 설정
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 커스텀 ROM은 안드로이드 운영 체제의 사용자 정의 버전입니다. 주식 안드로이드 경험에서 제공되는 것 이상의 많은 기능과 사용자 정의 기능을 제공합니다.
 
@@ -198,7 +342,18 @@ fastboot boot [파일명].zip
 
 TWRP (팀 윈 복구 프로젝트)나 OFox(오렌지 폭스 복구)와 같은 커스텀 복구는 안드로이드 애호가들에게 꼭 필요한 도구입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Nandroid 백업: 이러한 복구 기능은 기기의 시스템, 앱 및 데이터의 완전한 스냅샷인 Nandroid 백업을 생성하는 데 도움을 줍니다. 이 기능은 새로운 ROM 또는 모드를 시도할 때 생명보험자 역할을 합니다.
 - ZIP 설치: 사용자 정의 복구는 모드, 업데이트 또는 추가 소프트웨어를 포함하는 ZIP 파일을 플래시하는 것을 간편하게 만듭니다. 이를 통해 기기의 기능을 확장할 수 있습니다.
@@ -210,7 +365,18 @@ TWRP (팀 윈 복구 프로젝트)나 OFox(오렌지 폭스 복구)와 같은 �
 - Xposed 프레임워크: 이 프레임워크는 안드로이드 시스템과 개별 앱의 동작을 수정할 수 있는 모듈을 설치하는 것을 용이하게 해줍니다. 더 많은 정보를 이곳에서 확인할 수 있습니다.
 - 사용자 정의 런처 및 위젯: 사용자는 다양한 타사 런처 및 위젯 중에서 선택하여 홈 화면과 앱 서랍을 전면 개편할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안드로이드는 사용자들이 자신만의 디바이스를 만들 수 있도록 하는 이러한 포괄적인 맞춤 설정 생태계로 다른 것들과 구별됩니다. 이는 안드로이드 커뮤니티의 창의성과 혁신을 입증하는 것입니다. 그러므로 성능 열정가, 디자인 애호가, 혹은 단지 기기를 돋보이게 만드는 방법을 찾고 있다 하더라도, 안드로이드의 오픈 소스 성격과 맞춤 설정 가능성 덕분에 가능합니다. 깊게 파고들어 탐험하고, 안드로이드 기기의 전체 잠재력을 발휘해보세요.
 
@@ -220,7 +386,18 @@ TWRP (팀 윈 복구 프로젝트)나 OFox(오렌지 폭스 복구)와 같은 �
 
 루팅은 여러 이점을 해제함으로써 안드로이드 경험을 크게 향상시킬 수 있습니다. 이에 제한되지 않지만 포함하여:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 사용자 정의: 루팅을 통해 기기를 사용자 정의할 수 있습니다. 사용자정의 ROM 및 테마 설치부터 시스템 설정 조정까지 개인 맞춤형 경험을 만들 수 있습니다.
 - 성능 최적화: 사용자는 블로트웨어 제거, CPU 설정 조정, 메모리 관리 개선을 통해 기기 성능을 최적화할 수 있습니다.
@@ -237,7 +414,18 @@ TWRP (팀 윈 복구 프로젝트)나 OFox(오렌지 폭스 복구)와 같은 �
 - 소프트웨어 불안정성: 부정확하거나 개발이 잘못된 모드, ROM 또는 커널은 소프트웨어 불안정성, 충돌 또는 부팅 루프를 초래할 수 있습니다.
 - 브릭킹(벽돌): 드물게, 잘못된 루트 절차 또는 호환되지 않는 파일 플래싱으로 기기를 사용할 수 없게 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 루팅 시 안전조치:
 
@@ -252,7 +440,18 @@ TWRP (팀 윈 복구 프로젝트)나 OFox(오렌지 폭스 복구)와 같은 �
 
 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결론적으로, 루팅은 상당한 이점을 제공할 수 있지만 잠재적인 위험도 수반합니다. 적절한 예방 조치를 취하고 철저한 연구를 하며 정보를 참고하여 사용자는 기기 손상이나 보안 침해 가능성을 최소화하면서 루팅 액세스의 혜택을 극대화할 수 있습니다.
 
@@ -262,7 +461,18 @@ TWRP (팀 윈 복구 프로젝트)나 OFox(오렌지 폭스 복구)와 같은 �
 
 이제 당신의 차례입니다! 이 흥미진진한 여정의 첫걸음을 내딛고 안드로이드 기기의 전체 잠재력을 발휘해 보세요. 루팅의 세계로 뛰어들어 사용자 정의 ROM, 커널, 복구를 발견하고 자신만의 기기로 만들어 보세요. 탐험하기를 두려워하지 마세요. 하지만 항상 정보에 귀 기울이고 신중하게 행동하세요. 당신의 스마트폰은 여러분이 상상한 것보다 훨씬 강력하고 다재다능해질 것입니다. 행운을 빕니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사의 제2부에서는 삼성, 샤오미 등의 다양한 OEM 디바이스를 루팅하는 구체적인 방법을 논의할 예정이에요.
 

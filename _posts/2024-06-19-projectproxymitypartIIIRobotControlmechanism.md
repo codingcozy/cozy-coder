@@ -3,17 +3,13 @@ title: "프로젝트 proxymity 파트 III - 로봇 제어 메커니즘"
 description: ""
 coverImage: "/assets/img/2024-06-19-projectproxymitypartIIIRobotControlmechanism_0.png"
 date: 2024-06-19 02:31
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-projectproxymitypartIIIRobotControlmechanism_0.png
 tag: Tech
 originalTitle: "project proxy.mity: part III — Robot Control mechanism"
 link: "https://medium.com/@saharsh-sinha-career/project-proxy-mity-robot-control-mechanism-7691fa67a6cb"
 isUpdated: true
 ---
-
-
-
-
 
 로봇을 이동시키고 제어 신호를 해석하기
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![로봇 제어 메커니즘](/assets/img/2024-06-19-projectproxymitypartIIIRobotControlmechanism_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **접근 방법 1 (구현하기 쉽지만 움직임이 떨리는 움직임을 일으킴)**
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 **접근 방법 2(조금 더 다루기 어려움이 있으나 더 부드러움이 필요함)**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 네트워크 속도와 대역폭의 예측할 수 없는 문제를 극복하기 위한 다른 방법은 로봇을 다른 신호를 받을 때까지 계속 이동시키거나 신호를 받지 않는 상태로 유지하는 것이었습니다.
 
@@ -43,10 +61,20 @@ isUpdated: true
 
 주로 다음 코드를 사용하여 C# 레이어에서 대부분 구현되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 Markdown 형식으로 변경한 내용입니다.
-
 
 ![Projects](/assets/img/2024-06-19-projectproxymitypartIIIRobotControlmechanism_3.png)
 
@@ -56,8 +84,18 @@ Build and Introduction
 
 Part I — AI Vision Control
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제 II 부 — 신호 전송
 

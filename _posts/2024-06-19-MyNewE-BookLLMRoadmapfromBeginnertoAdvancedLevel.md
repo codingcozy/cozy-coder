@@ -3,17 +3,13 @@ title: "내 새 이북 초급에서 고급 수준까지 LLM 로드맵"
 description: ""
 coverImage: "/assets/img/2024-06-19-MyNewE-BookLLMRoadmapfromBeginnertoAdvancedLevel_0.png"
 date: 2024-06-19 03:28
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-MyNewE-BookLLMRoadmapfromBeginnertoAdvancedLevel_0.png
 tag: Tech
 originalTitle: "My New E-Book: LLM Roadmap from Beginner to Advanced Level"
 link: "https://medium.com/@yousefhosni/my-new-e-book-llm-roadmap-from-beginner-to-advanced-level-289d0f61ac3b"
 isUpdated: true
 ---
-
-
-
-
 
 제가 새 이북인 LLM 로드맵을 초보부터 고급 수준까지 출간했다는 것을 기쁜 마음으로 알려드립니다. 이 이북은 LLMs를 숙달하는 여정을 시작하기 위해 필요한 모든 자원을 제공할 것입니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 - LLM 기초 및 아키텍처
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 2. Building & Training LLM From Scratch
 
@@ -46,7 +53,18 @@ isUpdated: true
 - What is LLMOps and How to Get Started With It?
 - Securing LLMs: Best Learning & Educational Resources
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. LLM 프로젝트 포트폴리오 구축하기
 

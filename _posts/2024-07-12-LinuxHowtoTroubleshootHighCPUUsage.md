@@ -3,18 +3,13 @@ title: "리눅스  CPU 사용률 높을 때 문제 해결하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-12-LinuxHowtoTroubleshootHighCPUUsage_0.png"
 date: 2024-07-12 22:50
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-LinuxHowtoTroubleshootHighCPUUsage_0.png
 tag: Tech
 originalTitle: "Linux — How to Troubleshoot High CPU Usage"
 link: "https://medium.com/@tonylixu/linux-how-to-troubleshoot-high-cpu-usage-70a441802422"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![이미지](/assets/img/2024-07-12-LinuxHowtoTroubleshootHighCPUUsage_0.png)
 
@@ -24,8 +19,18 @@ CPU 병목 현상을 식별하고 해결함으로써 엔지니어들은 성능 �
 
 적극적인 문제 해결과 최적화를 통해 엔지니어들은 변화하는 요구에 적응할 수 있는 확장 가능한 아키텍처를 설계할 수 있으며, 결국 클라우드 환경에서 인프라 비용을 줄이고 비용 효율성을 향상시킬 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # CPU 사용률이란
 
@@ -35,8 +40,18 @@ CPU 사용률은 시스템이나 특정 프로세스에 의해 현재 사용되�
 
 가장 일반적으로 사용되고 익숙한 CPU 측정 항목 중 하나인 CPU 사용률이 어떻게 계산되는지 말해 줄 수 있나요? 또한 %user, %nice, %system, %iowait, %steal 등의 의미를 알고 계신가요? 이들 사이의 차이를 설명해 주실 수 있나요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-12-LinuxHowtoTroubleshootHighCPUUsage_1.png)
 
@@ -46,8 +61,18 @@ CPU 시간을 얻기 위해 Linux는 미리 정의된 비트 속도(HZ로 표시
 
 비트 속도 HZ는 커널에 대해 구성 가능한 옵션으로 100, 250, 1000 등으로 설정할 수 있습니다. 서로 다른 시스템은 다른 값을 설정할 수 있으며, /boot/config 커널 옵션을 조회하여 구성 값을 확인할 수 있습니다. 예를 들어, 내 CONFIG_HZ는 다음과 같습니다:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 $ grep 'CONFIG_HZ=' /boot/config-$(uname -r)
@@ -61,8 +86,18 @@ CONFIG_HZ=250은 초당 250번의 인터럽트가 발생한다는 것을 의미�
 
 # 자세한 CPU 사용량
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리눅스에서 시스템의 내부 상태는 /proc 가상 파일 시스템을 통해 사용자 공간에서 접근할 수 있습니다. 여러 파일 중에서 /proc/stat은 시스템의 CPU 및 작업 통계를 중요하게 제공합니다. 예를 들어:
 
@@ -87,7 +122,18 @@ cpu1 135834 3226 109383 86476907 31525 0 282 0 0 0
 - 열 10 — Guest: (일반적으로 guest로 약자 사용) 가상화를 통해 다른 운영 체제를 실행하는 데 소요된 시간을 나타냅니다. 즉, 가상 머신을 실행하는 CPU 시간을 의미합니다.
 - 열 11 — Guest_nice: (일반적으로 gnice로 약자 사용) 낮은 우선순위로 가상 머신을 실행하는 데 소요된 시간을 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## CPU 사용량 계산
 
@@ -99,10 +145,21 @@ CPU 사용량 = 1 - (CPU 유휴 시간/CPU 총 시간)
 
 이 공식에 따르면, /proc/stat의 데이터를 사용하여 CPU 사용량을 쉽게 계산할 수 있습니다. 그러나 /proc/stat의 값은 부팅 이후의 누적 값이므로 /proc/stat에서 직접 계산하는 것은 매우 정확하지 않습니다. 실제로 대부분의 성능 도구는 다음과 같은 공식을 사용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-avg_cpu_usage = 1 - (new_cpu_idle - old_cpu_idle)/(new_cpu_total - old_cpu_total)
+avg_cpu_usage = 1 - (new_cpu_idle - old_cpu_idle) / (new_cpu_total - old_cpu_total);
 ```
 
 다음은 Python에서의 예제 계산입니다:
@@ -123,7 +180,18 @@ print("평균 CPU 사용량:", avg_cpu_usage)
 
 이제 시스템 CPU 사용량이 어떻게 계산되는지 알았으니, 프로세스는 어떨까요? 시스템 메트릭과 유사하게, Linux는 각 프로세스에 대한 실행 통계를 제공합니다. 이는 `/proc/`pid`/stat`에 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어 top 및 ps 도구가 보고하는 CPU 사용량을 비교하면, 기본 결과가 다를 수 있습니다. top은 기본적으로 3초 간격을 사용하고, ps는 프로세스의 전체 수명을 사용합니다.
 
@@ -134,7 +202,18 @@ CPU 사용량의 의미를 이해한 후에 이제 CPU 사용량을 확인하는
 - top은 시스템 전체의 CPU 및 메모리 사용량뿐만 아니라 개별 프로세스의 자원 사용량을 보여줍니다.
 - ps는 각 프로세스의 자원 사용량만 표시합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 top 명령어 예시:
 
@@ -143,7 +222,7 @@ top - 09:45:21 up 10 days,  2:36,  3 users,  load average: 0.75, 0.83, 0.90
 Tasks: 256 total,   2 running, 254 sleeping,   0 stopped,   0 zombie
 %Cpu(s):  2.0 us,  0.5 sy,  0.0 ni, 97.5 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
 MiB Mem :  15825.9 total,   4451.8 free,   4425.0 used,   5949.1 buff/cache
-MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.  10677.3 avail Mem 
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.  10677.3 avail Mem
 
   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
     1 root      20   0  169408   7380   5176 S   0.0   0.0   0:01.22 systemd
@@ -155,7 +234,18 @@ MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.  10677.3 avail Mem
 
 빈 줄 이후에는 프로세스의 실시간 정보가 표시됩니다. 각 프로세스에는 %CPU 열이 있어 해당 프로세스의 CPU 사용률을 나타냅니다. 이 %CPU 값은 사용자 모드와 커널 모드 CPU 사용량의 합입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서 말씀드린대로 top은 프로세스의 사용자 모드 CPU와 커널 모드 CPU를 세분화하지 않습니다. 그렇다면 각 프로세스의 세부 정보는 어떻게 확인할까요? pidstat 명령어를 사용할 수 있습니다.
 
@@ -173,7 +263,18 @@ $ pidstat 1 5
 
 위 출력에서 1초 간격으로 5개 그룹의 프로세스 CPU 사용량이 표시됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 사용자 모드 CPU 사용량 (%usr);
 - 커널 모드 CPU 사용량 (%system);
@@ -187,7 +288,18 @@ $ pidstat 1 5
 
 ![High CPU Usage](/assets/img/2024-07-12-LinuxHowtoTroubleshootHighCPUUsage_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 고 CPU 사용량을 해결할 때, top, ps, pidstat과 같은 도구를 사용하여 높은 CPU 사용량(예: 100%)을 가진 프로세스를 쉽게 찾을 수 있어요. 그런 다음, 코드에서 CPU를 점유하는 기능이 무엇인지 알고 싶을 거예요. 프로그램 중 어떤 부분이 높은 CPU 사용량을 유발하는지 알고 싶다면 perf 명령어를 사용할 수 있어요.
 
@@ -197,7 +309,18 @@ perf는 Linux 2.6.31 이후의 내장 성능 분석 도구예요. 성능 이벤�
 
 perf top은 top과 유사해요. 실시간으로 가장 많은 CPU 클럭을 차지하는 함수나 명령어를 표시하여 핫 함수를 찾을 수 있어요. 인터페이스는 다음과 같아요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 $ perf top
@@ -218,9 +341,20 @@ $ perf top
 - 심볼: 이 열은 CPU 시간이 소비된 함수나 심볼의 이름이나 주소를 제공합니다. 예를 들어, vsnprintf 및 module_get_kallsym은 커널 함수이며, _raw_spin_unlock_irqrestore는 스핀 락에 사용되는 커널 매크로입니다.
 
 위 출력을 예로 들어, perf 도구 자체가 가장 많은 CPU 클럭을 소비하지만 그 비율은 7.28%로, 시스템에 CPU 성능 문제가 없음을 나타냅니다. perf top의 사용에 대해 매우 명확히 알고 있어야 합니다.
-``` 
+```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어:
 
@@ -235,7 +369,18 @@ $ perf report # 보고서 표시
 
 CPU 사용량은 가장 직관적이고 흔히 사용되는 시스템 성능 지표이며, 성능 문제 해결 시 주로 집중하는 첫 번째 지표입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이해해야할 것들은 사용자 모드 (%user), 좋음 모드 (%nice), 시스템 모드 (%system), I/O 대기 (%iowait), 인터럽트(%irq) 및 소프트 인터럽트(%softirq)의 사용법입니다. 예를 들어:
 

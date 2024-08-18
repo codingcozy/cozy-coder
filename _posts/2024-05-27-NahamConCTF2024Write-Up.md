@@ -3,16 +3,13 @@ title: "NahamCon CTF 2024 리뷰"
 description: ""
 coverImage: "/assets/img/2024-05-27-NahamConCTF2024Write-Up_0.png"
 date: 2024-05-27 15:31
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-NahamConCTF2024Write-Up_0.png
 tag: Tech
 originalTitle: "NahamCon CTF 2024 Write-Up"
 link: "https://medium.com/@ELJoOker/nahamcon-ctf-2024-write-ups-3e24354dc2c6"
 isUpdated: true
 ---
-
-
-
 
 ## 다시 한번 여러분 안녕하세요! 이 글은 나는 NahamCon CTF 대회에서 해결한 일부 Reverse Engineering 및 Forensics 도전 과제들을 위한 것이다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 이제 시작하겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 테일러의 초 스위프트 (쉬움)
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-05-27-NahamConCTF2024Write-Up_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 macOS 실행 파일(ARM64 아키텍처)이에요. IDA Pro를 사용합시다. 파일을 로드한 후 main 함수로 이동해볼게요.
 
@@ -40,20 +59,39 @@ macOS 실행 파일(ARM64 아키텍처)이에요. IDA Pro를 사용합시다. �
 
 ![이미지 2](/assets/img/2024-05-27-NahamConCTF2024Write-Up_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단한 논리, 입력 함수에서 플래그를 확인하는 로직을 보자. 디컴파일된 코드를 살펴보면
 
-
 <img src="/assets/img/2024-05-27-NahamConCTF2024Write-Up_4.png" />
-
 
 변수들의 표시 형식을 약간 수정한 후에
 
 XOR 함수와 키, 그리고 base64 문자열이 나타납니다. 직관적으로 CyberChef를 사용해 봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-27-NahamConCTF2024Write-Up_5.png)
 
@@ -63,9 +101,18 @@ XOR 함수와 키, 그리고 base64 문자열이 나타납니다. 직관적으�
 
 이 도전 과제를 위해 ELF 실행 파일을 얻었으니, IDA를 열어보자
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image 1](/assets/img/2024-05-27-NahamConCTF2024Write-Up_6.png)
 
@@ -76,8 +123,18 @@ XOR 함수와 키, 그리고 base64 문자열이 나타납니다. 직관적으�
 
 ![Image 2](/assets/img/2024-05-27-NahamConCTF2024Write-Up_7.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 무척 간단하네요. 깃발은 그냥 여기 있네요 :D
 
@@ -87,7 +144,18 @@ XOR 함수와 키, 그리고 base64 문자열이 나타납니다. 직관적으�
 
 이 도전 과제를 위해 Makeself로 생성된 쉘 스크립트가 있습니다
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 종류의 파일을 검색하고 그 기능에 대해 조사해 보았어요. 이 파일은 자체 압축 아카이브입니다.
 
@@ -97,8 +165,18 @@ XOR 함수와 키, 그리고 base64 문자열이 나타납니다. 직관적으�
 
 MD5 해시에 2개의 NUL 바이트가 있군요. 그래도 그냥 실행해 봐야겠죠?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-05-27-NahamConCTF2024Write-Up_9.png)
 
@@ -108,8 +186,18 @@ MD5 해시에 2개의 NUL 바이트가 있군요. 그래도 그냥 실행해 봐
 
 ![image](/assets/img/2024-05-27-NahamConCTF2024Write-Up_10.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 교란된 바이트가 보입니다. 올바른 16진수 값으로 수정하겠습니다.
 "f"에 대한 0x66 | "7"에 대한 0x37입니다.
@@ -120,7 +208,18 @@ MD5 해시에 2개의 NUL 바이트가 있군요. 그래도 그냥 실행해 봐
 
 설명: 상자를 가지고 있는데, 그 안에 깃발이 들어있다는 것만 알고 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 또 다른 makeself 셸 파일을 받았어요.
 
@@ -130,7 +229,18 @@ MD5 해시에 2개의 NUL 바이트가 있군요. 그래도 그냥 실행해 봐
 
 requests 패키지가 있음에도 불구하고 그 오류가 발생해서 어떻게 해야할 지 고민했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일부 조사를 한 후 가능한 옵션을 찾아보았어요. 그래서 추출 디렉토리를 지정하는 옵션을 사용해 보았는데,
 
@@ -140,7 +250,18 @@ requests 패키지가 있음에도 불구하고 그 오류가 발생해서 어�
 
 ![image 2](/assets/img/2024-05-27-NahamConCTF2024Write-Up_14.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이썬 스크립트 파일을 1000개의 조건부 분기 대신 1개로 가지고 있네요! 대단하네요! :)
 
@@ -150,7 +271,18 @@ requests 패키지가 있음에도 불구하고 그 오류가 발생해서 어�
 
 이걸 바로 실행해 봐요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-27-NahamConCTF2024Write-Up_16.png)
 
@@ -161,7 +293,18 @@ requests 패키지가 있음에도 불구하고 그 오류가 발생해서 어�
 
 이 도전에 대한 파일은 확장자가 없지만 파일의 매직 바이트를 살펴보면 vhdx(Windows 가상 하드 드라이브) 파일인 것 같아요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![/assets/img/2024-05-27-NahamConCTF2024Write-Up_17.png](https://example.com/assets/img/2024-05-27-NahamConCTF2024Write-Up_17.png)
 
@@ -171,7 +314,18 @@ Let's use that extension, mount the drive, and open it using "videogames" as a p
 
 We have a lot of images on this disk, so,
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우선, 이 이미지들의 이름이 나를 놀라게 했고, 어떤 base64 조합이 있는 줄 알았는데, 결국 헛된 노력이었네요.
 
@@ -179,7 +333,18 @@ We have a lot of images on this disk, so,
 
 아래는 인코딩된 URL 같네요. 사이버셰프를 열어보죠!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 md
 ![이미지](/assets/img/2024-05-27-NahamConCTF2024Write-Up_20.png)
@@ -187,4 +352,3 @@ md
 여기에 우리의 플래그가 있어요.
 
 항상 궁금한 점이나 의겄나 내용이 있으면 LinkedIn - Discord - GitHub을 통해 저에게 연락해주세요.
-

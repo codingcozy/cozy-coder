@@ -3,17 +3,13 @@ title: "LLM의 행동을 바꾸는 것은 GPU를 바꾸는 것입니다"
 description: ""
 coverImage: "/assets/img/2024-06-20-ChangingtheGPUischangingthebehaviourofyourLLM_0.png"
 date: 2024-06-20 18:45
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-ChangingtheGPUischangingthebehaviourofyourLLM_0.png
 tag: Tech
 originalTitle: "Changing the GPU is changing the behaviour of your LLM."
 link: "https://medium.com/@anis.zakari/changing-the-gpu-is-changing-the-behaviour-of-your-llm-0e6dd8dfaaae"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-20-ChangingtheGPUischangingthebehaviourofyourLLM_0.png" />
 
@@ -28,7 +24,18 @@ LLM 온도를 0으로 설정할 수 있습니다.
 
 본 기사에서는 차이점이 발생하는 위치와 그 이유를 보여주는 실험을 통해 이 현상을 강조하겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 참고: 실험을 재현하거나 코드에 관심이 없다면 코드 스니펫을 건너 뛸 수 있습니다 (바로 "7. 두 개의 GPU에서 동일한 입력과 동일한 LLM에서 생성된 답변이 왜 다를까요?" 섹션으로 이동하여도 이해에 도움이 되는 결론을 얻을 수 있습니다.
 
@@ -38,7 +45,18 @@ LLM 온도를 0으로 설정할 수 있습니다.
 
 또 다른 요인은 OpenAI가 효율성을 위해 쿼리를 배치하는 것일 수 있습니다. 이러한 배치의 크기는 들어오는 쿼리의 양에 따라 달라질 수 있으며 GPU 계산 전략을 변경하여 다른 결과를 이끌어낼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떤 사람이 "다른 GPU도 서로 다른 결과로 이어질 수 있지 않을까요?" 라고 말하자 대화가 흥미로워졌어요.
 
@@ -49,7 +67,18 @@ LLM 온도를 0으로 설정할 수 있습니다.
 - 만약 제가 운영중인 LLM 앱을 다른 GPU를 가진 다른 인스턴스로 확장해야 한다면, 큰 문제가 될까요?
 - 개발 환경에 사용된 GPU가 운영 환경과 다를 경우 어떻게 될까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 이러한 질문들은 현상을 강조하고 그 영향이 얼마나 중요한지 확인하기 위해 실험을 설정하고 싶다는 생각을 들게 했어요.
 
@@ -59,7 +88,18 @@ LLM 온도를 0으로 설정할 수 있습니다.
 
 노트북에서 실험을 실행하기 위해 다음 단계를 따라주시면 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 환경 설정하기
 
@@ -72,7 +112,18 @@ LLM 온도를 0으로 설정할 수 있습니다.
 
 2. Transformers 및 관련 모듈 버전 설정하기.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 !pip3 어클리러레이트 비츠엔바이츠 트랜스포머 데이터셋을 각각 제거합니다.
@@ -102,7 +153,18 @@ set_seed(transformers_seed)
 
 참고: transformers.set_seed만 설정해도 충분하지만 보다 안전하게 하기 위해 추가적으로 설정하였습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **참고 2:** 이 예시에서는 Python 3.10을 사용합니다.
 
@@ -140,7 +202,18 @@ tokenizer = AutoTokenizer.from_pretrained(
 model = AutoModelForCausalLM.from_pretrained(model_name, quantization_config=double_quant_config)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 트랜스포머 파이프라인 사용
 
@@ -150,7 +223,18 @@ model = AutoModelForCausalLM.from_pretrained(model_name, quantization_config=dou
 
 또한, 간편함을 위해 max_new_tokens 매개변수를 1로 설정하여 LLM이 우리의 프롬프트를 하나의 토큰으로 완료하도록 할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 from transformers import pipeline
@@ -177,10 +261,20 @@ print(response)
 
 # 3. 실험 결과: T4 대 A10G
 
-이 두 개의 GPU에 접근하기 위해, AWS SageMaker를 통해 ml.g4dn.xlarge (T4) 및 ml.g5.xlarge (A10G) 인스턴스를 론칭했습니다. 
+이 두 개의 GPU에 접근하기 위해, AWS SageMaker를 통해 ml.g4dn.xlarge (T4) 및 ml.g5.xlarge (A10G) 인스턴스를 론칭했습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단한 쿼리를 시도해 봅시다:
 
@@ -192,14 +286,25 @@ print(response)
 ```
 
 ```js
-prompt = "<s>[INST]매우 간결하게 질문에 대답하세요[/INST] \n질문: 대형 언어 모델의 특별한 점은 무엇인가요? \n답변:"
-response = pipe(prompt)[0]['generated_text']
-print(response)
+prompt = "<s>[INST]매우 간결하게 질문에 대답하세요[/INST] \n질문: 대형 언어 모델의 특별한 점은 무엇인가요? \n답변:";
+response = pipe(prompt)[0]["generated_text"];
+print(response);
 ```
 
 T4와 A10G에서 얻은 답변이 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 질문: 대형 언어 모델에 대해 무엇이 특별한가요?
@@ -211,7 +316,18 @@ T4와 A10G에서 얻은 답변이 같습니다:
 
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 T4의 결과:
 
@@ -225,7 +341,18 @@ A10G의 결과:
 Llama 2와 블룸 또는 친치아와 같은 대형 언어 모델 세부 튜닝 사이의 주요 차이점은 그들의 훈련 방법입니다. 이 두 가지 방법은 인터넷에서 스크랩된 데이터로 모델을 훈련하지만, Llama 2는 훈련 시 자체에서 생성된 텍스트만 사용하여 시스템에 편향이 외부 소스(소셜 미디어 게시물 등)로 인해 도입되는 가능성을 낮춥니다. 또한 이는 이 텍스트 내에서 다루는 주제에 대한 질문을 할 때 더 자신감을 갖도록 하기 때문에, 잠재적인 편향은 이미 사전에 제거되어 있을 것입니다! 또한 여기서 사용된 각 단어는 다른 단어 뒤에 직접 올기기 때문에 문장 내에 무작위 단어가 무작위로 삽입되는 것보다 오류가 적은 것을 의미하며, 전통적인 기계 학습 접근법들과 비교할 때 매 문장이 자체 내부에 일종의 오류 교정 메커니즘을 가져야 하는 경우가 적습니다. 마지막으로 중요한 것은, 어떤 유형의 질문이든 누군가 질문을 해도 중요하지 않습니다. 트위터 DM 메시지를 통해 친구나 가족 구성원 사이에 개인적으로 보낸 짧은 쿼리든, 손으로 종이에 수기로 쓴 장문의 글이나 나중에 디지털적으로 스캔된 문서든 내 무엇이 어떤 질문을 하든 언제든지 모든 것이 신뢰할 수 있게 된다는 사실 덕분에 하드의 모든 것이 AI 기술에 의해 일어나는 세계 밑바닥에서 발생하는 모든 것에 크게 기여합니다!!!
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 참 흥미로운 내용이에요. 처음 보면 두 답변이 같은 내용으로 시작하기 때문에 눈에 띄지 않을 수 있어요. 하지만 "etc..." 다음에는 차이가 있어요.
 
@@ -235,7 +362,18 @@ A10G 쪽에서는: "etc... 이는 이 텍스트 내에서 다루는 주제에 �
 
 # 4. T4 Colab vs T4 SageMaker.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 동일한 GPU를 사용하는 두 환경이 동일한 결과를 낳는지 궁금한 분을 위해, 무료 버전의 Colab 노트북과 T4를 장착한 것이 특징인 ml.g4dn.xlarge (T4) SageMaker 노트북 인스턴스를 구동하여 테스트를 실시해 보았습니다. 결과는 실제로 동일함을 확인했습니다.
 
@@ -245,13 +383,24 @@ A10G 쪽에서는: "etc... 이는 이 텍스트 내에서 다루는 주제에 �
 
 주어진 맥락을 기반으로 한 답변은 아니라는 점을 유의하세요. LLM은 지시에 완전히 따르지 않았지만, 그것은 중요하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LLM을 항상 가장 가능성 높은 토큰으로 선택하도록 설정했기 때문에, GPU 간에 확률을 계산하는 방법을 살펴볼 수 있습니다. 이러한 확률을 조사해 보겠습니다.
 
 # 6. 확률 탐색
 
-각 선택된 토큰의 확률을 인쇄하려면, 파이프라인을 우회하고 tokenizer와 model.generate 메소드를 직접 사용하여 출력_dict_in_generate=True 및 output_scores=True를 설정할 수 있습니다. 그런 다음 전이 점수를 확률로 계산, 정규화 및 변환할 수 있습니다.
+각 선택된 토큰의 확률을 인쇄하려면, 파이프라인을 우회하고 tokenizer와 model.generate 메소드를 직접 사용하여 출력\_dict_in_generate=True 및 output_scores=True를 설정할 수 있습니다. 그런 다음 전이 점수를 확률로 계산, 정규화 및 변환할 수 있습니다.
 
 ```js
 inputs = tokenizer([prompt], return_tensors="pt")
@@ -268,7 +417,18 @@ for tok, score in zip(generated_tokens[0], transition_scores[0]):
     print(f"| {tok:5d} | {tokenizer.decode(tok):8s} | {np.exp(score.numpy()):.2}")
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 코드는 각 토큰의 ID, 디코딩된 토큰 및 확률을 출력할 것입니다. 출력의 전체 내용이 상당히 길기 때문에 중요한 부분만 포함하겠습니다.
 
@@ -295,10 +455,21 @@ T4 출력:
 
 A10G 출력:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-# A10G 
+# A10G
 토큰 id| 토큰 문자열 | 확률
 ----------------------------------
 ...
@@ -321,7 +492,18 @@ A10G 출력:
 
 참고: LLM의 양자화는 계산 정밀도를 줄이기 때문에 이러한 차이가 더 자주 발생합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신에게 한 가지 합리적인 질문은 "GPU에 따라 계산이 왜 다를까요?"입니다.
 
@@ -332,7 +514,18 @@ A10G 출력:
 병렬 계산 처리:
 GPU는 병렬로 많은 계산을 효율적으로 처리하는 데 관심이 있습니다. 그러나 서로 다른 GPU는 병렬 작업을 처리하는 방식에 차이가 있을 수 있으며, 이는 연산 순서와 메모리 접근에 영향을 줄 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 중요합니다. 프로그래밍에서 크기가 크게 다른 숫자를 더하는 것조차 연관성이 없을 수 있기 때문입니다. 이는 정교한 계산에서 정확도에 영향을 줄 수 있습니다. 비연관성은 다음과 같은 경우에 발생합니다.
 
@@ -342,7 +535,18 @@ GPU는 병렬로 많은 계산을 효율적으로 처리하는 데 관심이 있
 
 그래서 이러한 계산은 분할되어 독립적으로 처리되고, 그 후 비연관적으로 결합됩니다. 결과적으로, 이러한 부분들이 다시 결합되는 방식이 최종 결과에 영향을 줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 연관되지 않은 계산의 간단한 예시입니다:
 
@@ -368,7 +572,18 @@ LLM을 사용하면 수백만 개의 계산이 소수점 오차로 인해 발산
 하드웨어 아키텍처:
 Nvidia Tesla T4 및 Nvidia A10G와 같은 다양한 GPU 모델은 다른 하드웨어 아키텍처를 가지고 있습니다. 이러한 아키텍처는 병렬 처리 능력, 메모리 대역폭 및 계산 유닛과 같은 성능의 다양한 측면을 최적화하기 위해 설계되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, T4는 Turing 아키텍처를 사용하는 반면 A10G는 Ampere 아키텍처를 기반으로 합니다.
 
@@ -379,7 +594,18 @@ Nvidia Tesla T4 및 Nvidia A10G와 같은 다양한 GPU 모델은 다른 하드�
 양자화 효과:
 모델을 양자화하면 메모리 및 계산 리소스를 저장하기 위해 정밀도를 줄이지만 추가적인 오류 소스를 도입합니다. 이러한 오류의 영향은 GPU가 낮은 정밀도 산술을 처리하는 방식에 따라 다를 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 양자화는 숫자를 근사화하는 과정이 포함되어 있기 때문에 다양한 GPU가 이러한 근사화를 다르게 처리할 수 있으며, 토큰 예측의 확률에 변화를 일으킬 수 있습니다.
 
@@ -390,7 +616,18 @@ Nvidia Tesla T4 및 Nvidia A10G와 같은 다양한 GPU 모델은 다른 하드�
 
 여러 GPU를 사용하여 추론 작업에 접근하는 여러 전략이 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모델이 하나의 GPU에 맞는 경우 첫 번째 전략은 각 GPU에 모델 사본을 로드하는 것입니다. 예를 들어, pipeline으로 네 개의 쿼리 목록을 보내면 각 쿼리가 다른 GPU에서 처리될 수 있습니다. 이렇게 하면 한 GPU만 사용하는 것과 같은 결과를 볼 수 있지만 처리량이 향상됩니다.
 
@@ -400,7 +637,18 @@ Nvidia Tesla T4 및 Nvidia A10G와 같은 다양한 GPU 모델은 다른 하드�
 
 다른 GPU를 사용하면 동일한 환경, 설정 및 시드를 사용해도 LLM이 서로 다른 결과를 출력할 수 있음을 보여줬습니다. 이러한 변동성은 보다 긴 프롬프트에서 더 많은 계산이 필요하기 때문에 증가하며, 부정확성의 전파가 증가하고 두 GPU 간의 차이가 완화됩니다. 게다가 양자화를 사용할 경우 이 효과가 더 두드러집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결과가 항상 재앙적인 것은 아니라는 것을 말하고 싶은 게 아니에요, 하지만 LLM 배포 시 고려해야 할 사항이에요.
 

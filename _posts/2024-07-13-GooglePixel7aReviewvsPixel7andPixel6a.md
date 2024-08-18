@@ -3,7 +3,7 @@ title: "Google Pixel 7a 리뷰  Pixel 7 및 Pixel 6a와 비교"
 description: ""
 coverImage: "/assets/img/2024-07-13-GooglePixel7aReviewvsPixel7andPixel6a_0.png"
 date: 2024-07-13 00:43
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-GooglePixel7aReviewvsPixel7andPixel6a_0.png
 tag: Tech
 originalTitle: "Google Pixel 7a Review — vs Pixel 7 and Pixel 6a!"
@@ -11,17 +11,24 @@ link: "https://medium.com/@markellisreviews/google-pixel-7a-review-vs-pixel-7-an
 isUpdated: true
 ---
 
-
-
-
-
 이번 시기를 즐기세요. 이제 대형 기술 기업들이 무엇을 준비하고 있는지를 마침내 공개하는 때입니다.
 
 구글은 언제나처럼 스마트폰 분야에서 애플을 앞섰고, 픽셀 폴드와 픽셀 7a를 발표했습니다. 전자에 대한 완전한 리뷰는 손에 들어오는 대로 제공할 예정이지만, 저는 지난 일주일 동안 픽셀 7a를 사용해보았습니다.
 
 구글의 최신 예산 스마트폰인 픽셀 6a 대비 50파운드 인상된 가격이 가치가 있을까요? 또한 픽셀 7과 어떻게 비교될까요? 이 모든 것이 너무 가까운 것일까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 가격 및 사양
 
@@ -29,7 +36,18 @@ Pixel 7a의 가격은 £449로, 이전 모델보다 £50 더 비싼 가격입니
 
 7a는 최신 Google Tensor G2 칩셋, 8GB의 RAM, 6.1인치 디스플레이 및 64MP 메인 카메라 시스템을 탑재하고 있습니다. 사용 가능한 저장 공간은 128GB뿐이지만, 90Hz 주사율, 더욱 프리미엄한 디자인, 무선 충전을 비롯해 몇 가지 매력적인 업그레이드가 제공됩니다.critics at bay, finally), a more premium design, and wireless charging.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **디자인 및 디스플레이**
 
@@ -39,7 +57,18 @@ Pixel 7a의 가격은 £449로, 이전 모델보다 £50 더 비싼 가격입니
 
 저는 팬입니다. 상대적으로 소박한 디자인을 좋아했지만, 픽셀 6a는 특별하게 느껴지지 않았습니다. 픽셀 7a는 비교적 멋진 장치이며 즉시 구매자의 만족을 느끼게 해줍니다. 박스에서 꺼내자마자 돈을 많이 주고 구매하는 느낌이 듭니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다만, 후면 플라스틱이 먼지, 지문, 손때에 자석처럼 붙는 것이 단점입니다. 유튜버 기술 리뷰어들에겐 최악의 악몽이죠. 가짜 유리 마감이 멋져 보이기는 하지만 너무 빨리 더러워져요. 그런 문제를 해결하기 위해, Pixel 7 Pro보다는 훨씬 쉽게 긁히는 것 같지 않은 카메라 하우징이 있습니다.
 
@@ -49,7 +78,18 @@ Pixel 7a의 가격은 £449로, 이전 모델보다 £50 더 비싼 가격입니
 
 나를 안다면, 내가 스마트폰에서 심오하고 지루한 벤치마킹을 하거나 게임을 하지 않는다는 것을 알 것입니다. 그래서 Pixel 7a의 성능을 평가할 때는 전형적인 '일상 사용자'의 관점에서 하는 편입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 사용 사례에 대해 (대부분의 사람들이 이 폰을 사용하는 방식으로 의심합니다) 정말 '대단하다'라고 할 수 있습니다. 빠른 Tensor G2 칩과 안드로이드의 순수 버전이 이 폰에 탑재되어 있기 때문에 Pixel 7a는 탁월한 성능을 자랑합니다.
 
@@ -59,7 +99,18 @@ Pixel 7a는 저렴한 비용에 최신 기술을 제공하는 추세를 기쁘�
 
 ### 카메라
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내가 큰 픽셀 카메라 팬인 걸 알죠? 이 장치들이 이미지를 처리하는 방식에는 제게 잘 맞는 무언가가 있어요. 명암이 선명하고 분위기 있는 이미지들은 각별한 매력이 있어요. 픽셀 사진은 한 눈에 띠거든요.
 
@@ -67,8 +118,18 @@ Pixel 7a는 저렴한 비용에 최신 기술을 제공하는 추세를 기쁘�
 
 픽셀 7a의 64MP 카메라 시스템은 멋진 이미지를 만들어냅니다. 주관적인 주제이기 때문에 여러분이 판단하시기 바랍니다만, 저는 최상급 중 하나라고 생각해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Here are the Markdown formatted image links for the Google Pixel comparison:
 
@@ -77,7 +138,18 @@ Here are the Markdown formatted image links for the Google Pixel comparison:
 - ![Image 4](/assets/img/2024-07-13-GooglePixel7aReviewvsPixel7andPixel6a_4.png)
 - ![Image 5](/assets/img/2024-07-13-GooglePixel7aReviewvsPixel7andPixel6a_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Pixel 7a의 비디오 성능은 iPhone만큼 우수하지는 않지만, 요구하는 가격에 비해 훌륭합니다. 존경할만한 다이나믹 범위와 함께 양호한 4K 이미지를 제공합니다. 이 수준에서 더 바랄 것이 없습니다. 'a' 시리즈 Pixel 사용자들은 아마도 삶의 순간을 포착하느라 바쁘지 않을 것으로 생각됩니다. 하지만, 안정성은 취향의 문제입니다. 팬할 때 로봇적으로 이동하는 가짜 짐벌처럼 보일 수 있지만, 사용할만 합니다.
 
@@ -87,7 +159,18 @@ Pixel 7a의 비디오 성능은 iPhone만큼 우수하지는 않지만, 요구�
 
 그렇지만, 두 핸드폰 간에는 상당한 차이가 있습니다. 7a는 구글의 최신 텐서 칩, 추가적인 몇 기가바이트의 RAM, 무선 충전, 얼굴 인식 잠금 및 크게 향상된 카메라 시스템을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저에게는 픽셀 7a가 한 세대 앞서 있고 유익한 추가 기능을 제공하기 때문에 가격이 £50 오른 것을 가치 있게 만든다는 사실이 중요해요. 하지만 그러한 추가 기능에 별 관심이 없고 단지 최고의 안드로이드 경험을 제공하는 멋진 저렴한 폰을 원한다면, 픽셀 6a는 아마도 가격 대비 최고라고 할 수 있어요 (물론 여전히 구매할 수 있을 때 말이에요!).
 
@@ -97,7 +180,18 @@ Pixel 7a의 비디오 성능은 iPhone만큼 우수하지는 않지만, 요구�
 
 두 기기가 동일한 칩, 동일한 메모리, 그리고 90Hz 디스플레이를 공유한다는 사실을 밝힐 때 눈썹이 더욱 들썩일지도 모르겠네요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그렇지만 몇 가지 차이가 있습니다. Pixel 7은 128GB와 256GB 두 가지 저장 옵션을 제공하는 반면에 Pixel 7a는 전자만 이용 가능합니다. Pixel 7 디스플레이도 조금 더 크며(6.3인치 대 6.1인치), 약간의 더 나은 방수 및 방진 기능도 갖추고 있습니다.
 
@@ -107,7 +201,18 @@ Pixel 7a의 비디오 성능은 iPhone만큼 우수하지는 않지만, 요구�
 
 Pixel 7a와 Pixel 7 사이에서 선택하는 것은 꽤 간단합니다. 더 많은 저장 공간이 필요하다면 Pixel 7을 선택하면 되고, 약간 더 프리미엄한 빌드 품질과 조금 더 큰 디스플레이, 더 빠른 무선 충전 및 더 나은 방수 성능이 중요하다면 Pixel 7을 선택하시면 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 이런 게 아무 문제 없다면, Pixel 7a를 선택하는 것도 좋을 거예요.
 
@@ -117,7 +222,18 @@ Pixel 'a' 시리즈는 여전히 놀라울 만큼 좋아요. 가격 인상이 �
 
 구글은 Pixel 7a에 충분한 변화를 더해서, 가장 예산을 고려하는 구매자를 제외하고는 6a가 어제의 뉴스처럼 느껴지게 만들었어요. Pixel 7과의 비교는 너무나도 가깝게 느껴지지만, 여전히 구글의 중저가 스마트폰에서 제공되는 상대적으로 작은 업그레이드를 포기해도 되는지, 만족스럽다면, £150은 다른 것에 쓸 수 있는 꽤 많은 돈이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오늘은 "Pixel 7a"에 대해 이야기해 볼까요? 솔직히 말하면, 이 제품에 대해 걱정했던 적이 있었습니다. 이전 제품의 예산적인 뛰어남을 유지하면서도 사용자들로부터 추가 투자를 요구하는 도전을 극복할 수 있을까? 답은 분명 "예"입니다.
 
@@ -127,6 +243,17 @@ Pixel 'a' 시리즈는 여전히 놀라울 만큼 좋아요. 가격 인상이 �
 
 제 글을 즐겨 보신다면, 이것은 Medium에 올라간 내용의 일부에 불과합니다. 저도 구독자로 참여하고 있는 만큼, 함께 가입하는 것을 강력히 권장합니다. [여기를 클릭하여 가입하세요](a portion of your membership fee will be sent my way and therefore directly support my work!).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2023년 5월 19일에 https://markellisreviews.com에서 원문이 게시되었습니다.

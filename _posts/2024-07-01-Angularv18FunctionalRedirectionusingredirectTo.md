@@ -3,18 +3,13 @@ title: "Angular v18  redirectTo 기능을 사용한 URL 리다이렉션 방법 "
 description: ""
 coverImage: "/assets/img/2024-07-01-Angularv18FunctionalRedirectionusingredirectTo_0.png"
 date: 2024-07-01 20:38
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-01-Angularv18FunctionalRedirectionusingredirectTo_0.png
 tag: Tech
 originalTitle: "Angular v18 — Functional Redirection using redirectTo 🔥🚀"
 link: "https://medium.com/@giorgio.galassi/angular-v18-functional-redirection-using-redirectto-10c853d9d837"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![image](/assets/img/2024-07-01-Angularv18FunctionalRedirectionusingredirectTo_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 ## 함수형 리다이렉션의 사용 시기 및 장소
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로운 기능이 도착했을 때 생길 수 있는 질문 중 하나는: 언제 그리고 어디에 사용해야 할까요?
 
@@ -37,7 +42,18 @@ isUpdated: true
 
 이러한 시나리오를 모두 다루는 예시를 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 사용 사례
 
@@ -113,7 +129,18 @@ export class AuthService {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 우리 서비스가 준비되었으니 routes.ts 내에서 라우트 리다이렉션을 사용자 정의하고 관리하는 방법을 살펴보겠습니다.
 
@@ -174,7 +201,18 @@ export const routes: Routes = [
 
 사용자가 로그인되어 있지 않을 경우 로그인 페이지로 리디렉션하는 방법을 주목해 보세요. 또 하나 중요한 점은 일반 문자열이 아니라 특정 로직에서 검색한 문자열을 반환한다는 점입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이상으로 마치겠습니다!
 
@@ -184,11 +222,22 @@ export const routes: Routes = [
 
 여러분은 내부 상태를 활용하거나 서로 다른 서비스를 결합할 수도 있습니다. 좋은 실천이 한계입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래에서 함께 놀 수 있는 StackBlitz가 있어요.
 
-지금까지 함께해줘서 고마워요. 모든 것이 지금까지 명확했기를 바래요. 
+지금까지 함께해줘서 고마워요. 모든 것이 지금까지 명확했기를 바래요.
 더 많은 글을 더 즐겁게 살펴볼 수 있다면 저는 기쁠 거예요.
 
 다음 글에서 봐요,

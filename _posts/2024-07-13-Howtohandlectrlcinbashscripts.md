@@ -3,18 +3,13 @@ title: "Bash 스크립트에서 ctrlc 처리하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-13-Howtohandlectrlcinbashscripts_0.png"
 date: 2024-07-13 22:02
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-Howtohandlectrlcinbashscripts_0.png
 tag: Tech
 originalTitle: "How to handle ctrl+c in bash scripts"
 link: "https://medium.com/@kpatronas/how-to-handle-ctrl-c-in-bash-scripts-d7085e7d3d47"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![How to Handle Ctrl+C in Bash Scripts](/assets/img/2024-07-13-Howtohandlectrlcinbashscripts_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 이 간단한 예제에서는 Ctrl+C가 눌릴 때까지 루프에 진입하는 간단한 bash 스크립트가 있습니다. 이 루프에서는 test.tmp가 1초마다 생성되고 삭제됩니다. Ctrl+C가 눌리면 test.tmp가 삭제되지 않을 수 있는 여러 경우가 있습니다. Ctrl+C를 누른 후에도 test.tmp가 삭제되도록 어떻게 할 수 있을까요?
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 #!/bin/bash
@@ -46,7 +51,18 @@ Bash has the trap command, which allows you to catch signals (ctrl+c is the SIGI
 trap function_command_to_execute SIGNAL
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 매우 간단하고 멋지죠! 그렇죠? 이제 함께 원래 스크립트에 `trap`을 적용해 보겠습니다!
 
@@ -82,7 +98,18 @@ done
 CTRL+C를 눌러 종료하기 전 정리 작업 중...
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 'ctrl+c'를 눌러 생성된 신호가 잡히고 cleanup 함수가 실행됐어요! 멋져요! 지금 몇 가지 질문이 있을 수 있어요
 
@@ -95,7 +122,18 @@ echo "CTRL+C pressed, clean up things before exiting..."
 
 그 이유는 ctrl+c를 눌러 줄바꿈 없이 누르면 출력이 꼬일 수 있기 때문이에요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ❯ ./hello.sh
@@ -112,7 +150,18 @@ rm -rf touch.tmp 2>/dev/null
 /dev/null은 검은 구멍 역할을 하는 특수 장치 이름입니다! 거기에 던지는 모든 것이 사라집니다! 따라서 이미 삭제된 파일을 삭제하려고 시도할 때 오류가 화면에 표시되지 않으므로 사용자를 혼란스럽게 만들지 않는다는 것입니다!
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스크립트를 exit 1로 끝낸 이유가 뭐에요?
 
@@ -132,6 +181,17 @@ CTRL+C가 눌렸습니다. 종료 전 정리작업을 처리합니다...
 
 ## 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시그널을 처리하는 방법을 알면 ctrl+c를 누르면 스크립트가 종료되기 전에 정리 작업을 수행할 수 있어요! 이 글이 마음에 드셨나요? 댓글을 남겨주세요!

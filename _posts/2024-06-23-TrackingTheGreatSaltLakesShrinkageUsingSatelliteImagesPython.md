@@ -3,17 +3,13 @@ title: "위성 이미지를 통한 그레이트 솔트레이크 축소 추적 Py
 description: ""
 coverImage: "/assets/img/2024-06-23-TrackingTheGreatSaltLakesShrinkageUsingSatelliteImagesPython_0.png"
 date: 2024-06-23 16:11
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-TrackingTheGreatSaltLakesShrinkageUsingSatelliteImagesPython_0.png
 tag: Tech
 originalTitle: "Tracking The Great Salt Lake’s Shrinkage Using Satellite Images (Python)"
 link: "https://medium.com/towards-data-science/tracking-the-great-salt-lakes-shrinkage-using-satellite-images-python-d8b3b04538cf"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*HOgBDjBrNhopFc2jBrRXVw.gif" />
 
@@ -32,7 +28,18 @@ isUpdated: true
 
 ## 🌅 위대한 솔트 레이크 수축 문제 소개
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 유타 주의 미국 대소염소인, 위도 메리칼크 지역 치축하고 있어요. 여러 보고서에 의하면, 이 호수는 1986년 최대 규모 대비 30% 이상으로 줄어들었다고 합니다. 이 호수의 수위가 저하되는 이유로 기후 변화와 농업용 수분 분할 등이 언급되었습니다.
 
@@ -42,7 +49,18 @@ isUpdated: true
 
 장기적인 하강은 생태계에 심각한 영향을 미치며, 특히 공기와 물의 질에 영향을 미칩니다. 호법 지역의 노출은 먼지와 염분을 방출함으로써 공기와 물의 질에 대한 위험을 증가시킵니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상황이 동적이며 감소하는 수위를 추적하는 논의가 계속되고 있기 때문에 저는 이 게시물을 작성하기로 결정했습니다. 우리가 위성 이미지를 사용하여 호수 표면적의 변화를 모니터링하는 방법을 보여주기 위해서입니다. 이것은 축소의 지표로 사용됩니다.
 
@@ -52,7 +70,18 @@ isUpdated: true
 
 Landsat-8 이미지를 다운로드하기 위해 AρρEEARS라는 웹 앱을 사용했습니다. 이 웹 앱을 통해 관심 영역(AOI)에 대한 위성 이미지를 다운로드할 수 있습니다. 이미지는 자르고 메타데이터 및 통계 파일로 제공됩니다. AOI에 대한 폴리곤을 그리고 제품을 선택하고 시작 및 종료 날짜를 선택하기만 하면 됩니다. 이미 이 웹 앱에 관한 게시물을 작성해 놓았습니다. 여기서 확인해보세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 게시물에서는 Great Salt Lake 주변에 폴리곤을 그리고 Landsat-8 ARD 제품을 선택하여 시작 시간과 종료 시간을 2014년부터 2023년까지 여름(6월, 7월 및 8월) 기간으로 설정했습니다. 여름 동안에만 촬영된 이미지를 고려한 결정은 두 가지 이유로부터 나왔어요: (1) 여름 동안 보다 맑은 이미지를 더 유추할 수 있는 가능성이 더 높고, (2) 이는 계산 시간을 제한하기 때문입니다. 이 여름 동안의 모든 연도에 대한 Landsat-8 이미지를 다운로드하므로 결과(호수의 추정 표면적)는 서로 다른 연도 간에 비교할 수 있어요.
 
@@ -62,7 +91,18 @@ Landsat-8 이미지를 다운로드하기 위해 AρρEEARS라는 웹 앱을 사
 
 AρρEEARS에서 요청을 제출한 후, 호수의 표면적을 추정할 두 가지 옵션이 있습니다. 옵션 1은 통계 CSV 파일에 보고된 미리 계산된 물 픽셀 수를 사용하는 것이며, 옵션 2는 분류된 이미지를 처리하여 물 픽셀을 계산하는 것인데, 이는 추후 설명하겠습니다. 옵션 1을 따르려면 AρρEEARS에서 "L08-002-QA-PIXEL-CU-Statistics-QA.csv" 및 "L08-002-QA-PIXEL-CU-lookup.csv" 두 파일을 다운로드하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 파일을 빠르게 살펴보겠습니다:
 
@@ -72,8 +112,18 @@ AρρEEARS에서 요청을 제출한 후, 호수의 표면적을 추정할 두 �
 
 첫 번째 파일인 "L08-002-QA-PIXEL-CU-Statistics-QA.csv"에서는 각 이미지(행)에 대해 각 클래스(열)의 픽셀 수가 보고됩니다. 이러한 열 이름을 해독하려면 두 번째 파일인 "L08-002-QA-PIXEL-CU-lookup.csv"이 필요합니다. 'Water'로 레이블된 열을 필터링하면 물 픽셀에 대한 해당 클래스 이름(열)을 찾을 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Great Salt Lake](/assets/img/2024-06-23-TrackingTheGreatSaltLakesShrinkageUsingSatelliteImagesPython_2.png)
 
@@ -109,7 +159,7 @@ plt.title('시간에 따른 물 픽셀의 합산')
 plt.ylabel('합계')
 plt.grid(True)
 
-locator = mdates.MonthLocator() 
+locator = mdates.MonthLocator()
 plt.gca().xaxis.set_major_locator(locator)
 
 plt.xticks(rotation=45)
@@ -119,8 +169,18 @@ plt.show()
 
 출력 결과는:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Tracking The Great Salt Lake's Shrinkage Using Satellite Images Python](/assets/img/2024-06-23-TrackingTheGreatSaltLakesShrinkageUsingSatelliteImagesPython_3.png)
 
@@ -130,7 +190,18 @@ plt.show()
 
 여기서 보듯이, 왼쪽 이미지(2015년 7월 1일)는 전체 호수를 커버하지 않고 일부가 잘린 상태입니다. 이 이미지를 기반으로 호수의 표면적을 계산하는 것은 오해를 불러일으킬 수 있으며, 시계열에서 상당한 하강을 보여줄 수 있습니다. 오른쪽 이미지(2015년 6월 22일)에 대해선, 전체 호수를 커버하고 있지만, 물 픽셀의 수가 표면적을 계산하기 위한 정확한 정보를 제공할 수 없을 수 있습니다. 보여진 것처럼, 흐린 픽셀이 걸러져 나가면서 호수의 표면적이 과소 평가되는 문제가 발생합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한, 시계열 그래프가 각 이미지의 총 물 픽셀을 표시하여 전반적인 감소 추세를 관측하기 어렵게 만듭니다.
 
@@ -138,9 +209,20 @@ plt.show()
 
 호수 면적 (Km²) = (랜드셧 픽셀 크기) x (물 픽셀 수) / 10⁶
 
-* 랜드셧 픽셀 크기 = 30m x 30m
+- 랜드셧 픽셀 크기 = 30m x 30m
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import pandas as pd
@@ -201,8 +283,18 @@ plt.show()
 
 우리가 데이터를 집계하는 코드 수정이 도움이 된 것으로 보입니다. 그러나 결과는 아직 정확하지 않을 수 있습니다. 왜냐하면 우리는 각 연도에 촬영된 모든 이미지에서 대소염소 호수의 최대 면적을 추출하기 때문입니다. 예를 들어, 2015년에 가장 명확한 이미지가 15%의 구름을 가지고 있다고 가정해 봅시다. 구름이 걸러지면 호수의 표면적을 15% 과소 평가하게 됩니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문제를 해결하기 위해서는, 호수 위에서 찍힌 원본 분류된 이미지들과 작업해야 합니다. 구체적으로는, 각 이미지마다 수집된 픽셀 중 물로 분류된 것을 오버레이하여 다운로드해야 합니다. 이 과정을 거치면 각 연도별로 가장 정확한 구름 없는 호수 이미지를 작성할 수 있으며 표면적을 정확하게 추출할 수 있게 될 것입니다. 이 방법에 대해 다음 섹션에서 다룰 예정입니다.
 
@@ -210,9 +302,20 @@ plt.show()
 
 이번과 다음 섹션에서는 통계 파일이 아닌 실제 Landsat-8 분류된 이미지를 다루게 됩니다.
 
-AρρEEARS에서 또는 API를 통해 L08.002_QA_PIXEL_CU_doy`YYYYMMDD`_aid0001와 같이 명명된 파일들을 수동으로 다운로드할 수 있습니다. API를 사용하려는 경우 검색 필드에 'QA_Pixel'을 입력하여 파일을 필터링한 후 AρρEEARS에서 모든 파일을 선택하고 '다운로드'를 클릭하세요. 그런 다음 아래 코드를 실행하여 API를 통해 파일을 다운로드할 수 있습니다:
+AρρEEARS에서 또는 API를 통해 L08.002_QA_PIXEL_CU_doy`YYYYMMDD`\_aid0001와 같이 명명된 파일들을 수동으로 다운로드할 수 있습니다. API를 사용하려는 경우 검색 필드에 'QA_Pixel'을 입력하여 파일을 필터링한 후 AρρEEARS에서 모든 파일을 선택하고 '다운로드'를 클릭하세요. 그런 다음 아래 코드를 실행하여 API를 통해 파일을 다운로드할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단계 1: 폴더 만들기
 
@@ -222,7 +325,7 @@ import os
 # 폴더 이름 목록
 folders = ['QA', 'Clear_Image', 'Map', 'Animation']
 
-base_path = '/content'  
+base_path = '/content'
 
 # 폴더 생성
 for folder in folders:
@@ -242,12 +345,23 @@ token_response = response.json()
 token = token_response['token']
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3단계: 텍스트 파일에 저장된 URL을 읽고 파일을 다운로드합니다:
 
 ```js
-txtfile = 'Great-Salt-Lake-download-list.txt' 
+txtfile = 'Great-Salt-Lake-download-list.txt'
 filenames = [] # 파일 이름을 저장하는 리스트
 urls = [] # 파일 이름이 없는 URL을 저장하는 리스트
 
@@ -278,7 +392,18 @@ with open(txtfile) as file:
 
 첫 번째 단계에서는 QA, Clear_Image, Map 및 Animation 네 가지 폴더를 만들었습니다. "QA" 폴더는 원본 분류된 이미지를 저장하기 위한 것이고, "Clear_Image" 폴더는 각 연도별로 물 위 구름이 없는 Great Salt Lake 이미지를 저장하는 용도이고, "Map"은 물 위 구름이 없는 이미지를 바탕으로한 Great Salt Lake 맵을 저장하는 곳이며, "Animation" 폴더는 타임랩스 파일을 저장하는 용도입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 단계를 올바르게 따르면 디렉토리에 "QA_Pixel" 파일이 있어야 합니다:
 
@@ -350,7 +475,18 @@ for year in range(2014, 2024):
                     dst.write(water_pixels.reshape(profile['height'], profile['width']), 1)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스크립트는 물 픽셀을 나타내는 QA 값을 정의한 후 지정된 QA 폴더의 파일을 나열합니다. 다음으로, 스크립트는 각 연도별로 물 픽셀을 저장할 배열을 초기화하고 2014년부터 2023년까지의 연도를 반복합니다. 각 연도의 QA 파일에 대해, 파일을 읽고 물 값을 임의의 숫자로 바꾼 다음 나머지 값을 NaN으로 설정합니다. 그런 다음 물 픽셀의 배열을 업데이트하고 물 픽셀이 있는 새 래스터를 생성하여 'Clear_Image' 폴더에 Geotiff 파일로 씁니다.
 
@@ -360,8 +496,18 @@ for year in range(2014, 2024):
 
 코드를 실행한 후에는 각 연도에 대해 Great Salt Lake의 완전하고 구름 없는 이미지가 디렉토리에 저장됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Great Salt Lake Images](/assets/img/2024-06-23-TrackingTheGreatSaltLakesShrinkageUsingSatelliteImagesPython_7.png)
 
@@ -378,9 +524,9 @@ def plot_raster_files(folder_path):
     # Get a list of all raster files in the folder
     raster_files = [f for f in os.listdir(folder_path) if f.endswith('.tif')]
     raster_files.sort()
-    
+
     # Set up subplots
-    rows, cols = 2, 5  
+    rows, cols = 2, 5
     fig, axes = plt.subplots(rows, cols, figsize=(15, 8))
 
     # Loop through raster files and plot them in subplots
@@ -406,13 +552,23 @@ def plot_raster_files(folder_path):
     plt.tight_layout()
     plt.show()
 
-# Specify the folder path containing GeoTIFF images 
+# Specify the folder path containing GeoTIFF images
 Geotiff_folder = '/content/Clear_Image'
 plot_raster_files(Geotiff_folder)
 ```
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결과는 다음과 같습니다:
 
@@ -422,7 +578,18 @@ plot_raster_files(Geotiff_folder)
 
 ## 🎥 Great Salt Lake 수축 타임랩스
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Great Salt Lake의 표면적 변화를 동적으로 시각화하기 위해, 우리는 호수의 개별 지도를 내보내고 이를 연속으로 배치하여 2014년부터 2023년까지의 타임랩스를 만들 수 있습니다. 이를 수행하는 방법은 다음과 같습니다:
 
@@ -453,7 +620,18 @@ for Lake_filename in all_files:
 
 단계 2: 이러한 지도를 병합하여 타임랩스를 작성합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 from PIL import Image
@@ -501,8 +679,18 @@ frames[0].save(output_gif, save_all=True, append_images=frames[1:],
 
 ## 📉 분류된 이미지로부터 그레이트 솔트 레이크 지역의 시계열 데이터입니다
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 선택지 1인 통계 파일을 기반으로 호수 표면적의 시계열 데이터를 추출한 섹션과 유사하게, 이제 흐릿하지 않은 Landsat-8 이미지에서 표면적을 추정할 수 있습니다. 다음 스크립트에서는 흐릿하지 않은 GeoTIFF 파일을 읽어서 물 픽셀을 세고, 제곱 킬로미터로 표면적을 변환하고, 이를 시계열로 나타내어 추세를 분석합니다.
 
@@ -523,7 +711,7 @@ data = {'dates': [], 'pixel_counts': []}
 
 for file in files:
     with rasterio.open(os.path.join(folder_path, file)) as src:
-        array = src.read(1) 
+        array = src.read(1)
         pixel_count = (array == value_to_count).sum()
         date = file.split('_')[3][0:4]
         data['dates'].append(date)
@@ -561,7 +749,18 @@ plt.show()
 
 <img src="/assets/img/2024-06-23-TrackingTheGreatSaltLakesShrinkageUsingSatelliteImagesPython_9.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 도표와 통계 파일을 기반으로 한 플롯 간의 주요 차이점은 이 플롯이 우리가 원본 Landsat-8 이미지에서 추정할 수 있는 호수의 가장 정확한 표면적을 나타낸다는 것입니다. 이 플롯은 2014년부터 2016년까지는 상당한 변화가 없고, 2017년과 2019년에는 작은 확장(약 4800 제곱킬로미터에서 약 5300 제곱킬로미터)을 보여주지만, 2019년부터 2022년에는 상당한 감소(약 5300 제곱킬로미터에서 약 4100 제곱킬로미터)가 있었습니다. 2022년부터 2023년에는 다시 그래프 상에서 증가함(약 4100 제곱킬로미터에서 약 4700 제곱킬로미터)이 관찰되었는데, 이는 작년에 받은 상당한 우천량으로 인해 젖은 해가 된 것으로 보입니다.
 
@@ -569,7 +768,18 @@ plt.show()
 
 이전에 언급했듯이 QA 통계 파일을 기반으로 표면적을 분석하면 호수 위의 구름이 있는 픽셀에 대한 필터를 보상하지 않기 때문에 해당 지역을 과소평가하는 경향이 있습니다. 통계 파일을 통해 계산된 표면적과 분류된 Landsat-8 이미지에서 추정한 표면적을 비교해 보기 위해 두 가지를 동일한 레이아웃에 플롯하여 통계 파일만을 의존했을 때 얼마나 과소평가가 발생하는지 살펴봅시다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 스크립트는 각 접근 방법에서 보고된 물 픽셀의 수를 제곱 킬로미터 단위의 표면적으로 변환하고 이를 시각화합니다. 결과 그래프는 다음과 같습니다:
 
@@ -579,7 +789,18 @@ plt.show()
 
 ## 📄 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위성 이미지의 응용 중 하나는 물체나 풍경의 변화를 모니터링하는 것입니다. 이 연구에서는 Landsat-8에 의해 캡처된 이미지를 사용하여 2014년부터 2023년까지 대연몰의 표면 면적 변동을 분석했습니다. 이 지역은 지난 수십 년 동안 상당한 수축이 있어 지켜지고 있습니다. 두 가지 다른 방법으로 측정된 호수의 면적을 비교하여 우리의 분석에서 작은 오류가 어떻게 오해와 부정확한 정보로 이어질 수 있는지 강조해 보았습니다. 이 분석 결과, 2019년부터 2022년까지 대연몰의 상당한 수축, 2014년부터 2022년까지 10% 수축이 있었습니다. 흥미로운 점은 2023년의 다습한 해가 대연몰의 회복에 중요한 역할을 한 것으로 나타났습니다. 그 해에 10% 증가했습니다. 그러나 2023년을 넘어서의 회복은 불확실하며, 2024년에 추가 개선이 보장되지는 않습니다.
 
@@ -589,6 +810,17 @@ plt.show()
 
 📱 더 많은 유익한 콘텐츠를 위해 다른 플랫폼에서 저와 연결하세요! LinkedIn, ResearchGate, Github, Twitter.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 링크를 통해 해당 게시물을 확인할 수 있습니다:

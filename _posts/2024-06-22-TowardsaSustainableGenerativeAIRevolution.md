@@ -3,17 +3,13 @@ title: "지속 가능한 생성형 AI 혁명을 위한 방법들"
 description: ""
 coverImage: "/assets/img/2024-06-22-TowardsaSustainableGenerativeAIRevolution_0.png"
 date: 2024-06-22 21:51
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-TowardsaSustainableGenerativeAIRevolution_0.png
 tag: Tech
 originalTitle: "Towards a Sustainable Generative AI Revolution"
 link: "https://medium.com/towards-data-science/towards-sustainable-generative-ai-revolution-a9786de586cb"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-22-TowardsaSustainableGenerativeAIRevolution_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 (생성적 AI와 예술 두 분야에서 매우 활발한 사람으로) 이러한 문제에 관여된 다양한 각도와 관점들을 고찰할 예정입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 함께 재미있는 여정을 떠나 이 흥미진진한 기술의 본질을 처음부터 다시 살펴보게 될 거에요. 우리는 모든 것을 인간의 창의력, 예술가들의 마음과 연결하여 탐구할 거예요.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 # 집에 오다
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단한 은유를 사용하여 창조적 AI 혁명이 제시하는 것과 창작가, 예술가, 그리고 모든 인류에게 미치는 영향을 탐구해 봅시다.
 
@@ -43,11 +61,33 @@ isUpdated: true
 
 무의식과 의식이라는 두 관점 또는 부분으로 이뤄진 당신으로 상상해 봅시다. 그리고 무의식을 정보의 바다 위에 떠다니는 부엌 냄비로 상징화해 봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 테이블 태그를 Markdown 형식으로 변경해 주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서, 여기 계시네요. 인생의 바다를 떠다니며, 가끔은 무의식 속 솥 안에서 일어나는 요리 과정을 위한 방향을 제공해 주는 신비로운 의식을 가지고 있습니다.
 
@@ -57,8 +97,18 @@ isUpdated: true
 
 ![2024-06-22-TowardsaSustainableGenerativeAIRevolution_4.png](/assets/img/2024-06-22-TowardsaSustainableGenerativeAIRevolution_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-22-TowardsaSustainableGenerativeAIRevolution_5.png)
 
@@ -68,7 +118,18 @@ isUpdated: true
 
 우리 뇌는 우리의 감각을 통해 도착하는 정보를 가져와서 더 적은 세부사항과 더 많은 추상화를 갖는 형태로 압축시킬 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-22-TowardsaSustainableGenerativeAIRevolution_6.png)
 
@@ -78,7 +139,18 @@ isUpdated: true
 
 그래서, 우리의 잠재의식 속에서, 우리는 때로 latent spaces라고도 하는 세계의 복잡성을 압축한 표현들을 모아둡니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-22-TowardsaSustainableGenerativeAIRevolution_8.png)
 
@@ -88,11 +160,33 @@ isUpdated: true
 
 우리의 두뇌는 반대과정도 수행할 수 있습니다. 그것은 압축 해제를 수행하고 높은 요약 수준에서 높은 세부 사항으로 전환할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "코딩을 즐기고 계신가요? 그렇다면, 여기 코드를 Markdown 형식으로 변경해 보세요. 함께 코딩하는 것을 즐기실 거예요!"
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-22-TowardsaSustainableGenerativeAIRevolution_11.png)
 
@@ -102,7 +196,18 @@ AI 시스템의 구체적인 내용은 우리가 가진 목적에 따라 달라�
 
 현재 주요 생성 AI 시스템에서 사용되는 주요 전략은 확산(diffusion, 브러시한 의미)에 기반합니다. 예를들어, Stable diffusion 시스템은 이미지에 추가된 소음을 예측하기 위해 대규모 데이터셋으로 훈련된 U-Net과 유사한 아키텍처를 사용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 번 훈련을 받은 네트워크는 이미지+노이즈의 다양한 조합(랜덤 노이즈 포함)으로부터 고품질 이미지로 여러 단계를 거쳐 돌아갈 수 있습니다.
 
@@ -112,7 +217,18 @@ AI 시스템의 구체적인 내용은 우리가 가진 목적에 따라 달라�
 
 기술적인 세부 사항은 여기까지. 계속해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # AI가 집으로 오고 있어요
 
@@ -122,7 +238,18 @@ AI 시스템의 구체적인 내용은 우리가 가진 목적에 따라 달라�
 
 ![이미지](/assets/img/2024-06-22-TowardsaSustainableGenerativeAIRevolution_12.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 잠재 공간의 마법
 
@@ -132,7 +259,18 @@ AI 시스템의 구체적인 내용은 우리가 가진 목적에 따라 달라�
 
 ![이미지](/assets/img/2024-06-22-TowardsaSustainableGenerativeAIRevolution_13.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그때 나는 마음 속으로 매미를 시각화합니다. 나의 시각화가 1000 x 1000개의 조도 점으로 표현된 그리드에 있다고 상상해 봅시다. 이것은 100만 차원의 공간입니다. 점이 색을 갖고 있다면, 각각은 빨간색, 녹색 및 파란색 구성 요소가 있을 것입니다(3배 더 많은 차원).
 
@@ -142,7 +280,18 @@ AI 시스템의 구체적인 내용은 우리가 가진 목적에 따라 달라�
 
 100만 개 중 하나의 점이 빨간 강도가 155임을 알아도 큰 도움이 되지 않습니다. 세세한 부분은 종종 관련 정보를 제공하지 않습니다. 그래서 나는 다른 방식으로 해보려고 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시끄러운 소리를 내는 해충의 복잡함과 섬세함을 그저 몇 가지 요소인 30, 50, 100 가지 요소(아무튼 적은 수)로 압축할 거야. 내가 본 것의 본질을 설명하는 핵심적인 것들을 설명할 거야.
 
@@ -152,7 +301,18 @@ AI 시스템의 구체적인 내용은 우리가 가진 목적에 따라 달라�
 
 그리고 이제, 내 친구가 이를 듣고 반대로 하는 과정, 압축 해제를 하게 될 거야.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그녀는 내가 본 것을 표현하는 몇 가지 압축된 차원을 변형하여 그 본질을 시각화하기 위해 그것들을 부풀려 마음속에서 세밀한 세부 사항 표현을 만들어 냅니다. 그 점에 대응하는 이미지는 매미입니다 (나와는 다를 수 있습니다. 압축-해제 과정과 관련 시나리오에 대한 각자의 이전 지식을 비롯한 시스템 간의 차이로 인해).
 
@@ -162,7 +322,18 @@ AI 시스템의 구체적인 내용은 우리가 가진 목적에 따라 달라�
 
 다음은 DALLE-2의 작동 방식을 인간 뇌와 비교한 인포그래픽입니다. 저는 몇 달 전에 만들었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-22-TowardsaSustainableGenerativeAIRevolution_16.png)
 
@@ -172,7 +343,18 @@ AI 시스템의 구체적인 내용은 우리가 가진 목적에 따라 달라�
 
 우리의 무의식적인 냄비는 삶에서 경험하는 것에 의해 먹여지는 것이죠. 사람들과 이야기할 때, 세상을 경험할 때, 그 내용물을 풍부하게 합니다. 결국 그 요리 과정은 우리의 마음 속에서 새로운 아이디어, 시각화, 소리 등을 만들어 냅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AI 네트워크는 (학습 시기에) 거대한 데이터 세트로 공급됩니다. 생성적 AI 시스템에서 사용되는 데이터 세트는 인터넷에서 수집된 정보로 구성됩니다. 우리는 엄청난 양의 데이터에 대해 이야기하고 있습니다.
 
@@ -182,8 +364,18 @@ AI 네트워크는 (학습 시기에) 거대한 데이터 세트로 공급됩니
 
 ![이미지](/assets/img/2024-06-22-TowardsaSustainableGenerativeAIRevolution_17.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-22-TowardsaSustainableGenerativeAIRevolution_18.png)
 
@@ -193,8 +385,18 @@ It’s time to connect all the previous sections with art and human artists. Now
 
 Remember that axis (detail to abstraction) that I was discussing above? In a book I published years ago, I wrote about another metaphor I came up with, which I call “The depth elevator”.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 수직선으로 상상해보세요. 상승기내에서 움직이는 엘리베이터가 있습니다. 선의 맨 아래에는 고차원 및 상세한 영역이 있습니다. 이곳은 생명의 바다의 복잡성이 완전히 표현되는 곳입니다.
 
@@ -204,7 +406,18 @@ Remember that axis (detail to abstraction) that I was discussing above? In a boo
 
 예술가들은 이 깊이 엘리베이터를 민첩하고 유연하며 동적인 방식으로 탐험하는 일에 능숙합니다. 이에 대해 더 깊이 들어가 봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어린이로 낳아져서 나중에 어린이 때, 우리는 주로 깊이 엘리베이터의 바닥에서 우주의 풍부함과 디테일과 상호작용하면서 대부분의 시간을 보냅니다. 우리의 분석적 사고 모듈은 아직 완전히 발달되지 않았습니다. 이것은 우리의 탐험 단계입니다.
 
@@ -214,8 +427,18 @@ Remember that axis (detail to abstraction) that I was discussing above? In a boo
 
 이 극성들 사이의 균형 부족(어느 방향이든)은 성인들에게 다양한 문제를 초래합니다. 이에 대해 제가 상세히 썼지만, 이 글의 주제는 아닙니다. 예술가들에 대해 다시 이야기하겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-22-TowardsaSustainableGenerativeAIRevolution_20.png)
 
@@ -225,8 +448,18 @@ Remember that axis (detail to abstraction) that I was discussing above? In a boo
 
 또한, 그들은 그 풍부함을 다양한 해석과 표현으로 결정할 수 있습니다. 이들은 세부사항에서 추상화로 이어지는 축 전체를 통해 서로 다른 수준에서 표현될 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 표현 자체나 그 설명이나 전달 방식이 상당히 엘리베이터 깊이의 맨 위에 위치하고 있습니다.
 
@@ -236,7 +469,18 @@ Remember that axis (detail to abstraction) that I was discussing above? In a boo
 
 여기서 또 다른 중요한 점에 도착합니다. 역사상 가장 훌륭한 예술가들이 할 수 있었던 것처럼 그 깊이 엘리베이터를 탐험하는 것은 노력을 필요로 합니다. 시간이 필요하며 인내가 필요합니다. 그리고, 어른의 마음이 효율적이고 소중한 연료를 낭비하지 않도록 하는 천성에 반항해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![table](/assets/img/2024-06-22-TowardsaSustainableGenerativeAIRevolution_21.png)
 
@@ -246,7 +490,18 @@ Remember that axis (detail to abstraction) that I was discussing above? In a boo
 
 따라서, 이 유연한 항해를 통해 위대한 예술가들과 창조자들은 우주의 풍부함을 새롭고 독특한 방식으로 표현할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 삶 속에서 아무 것이나 선택해보세요, 예를 들어, 나무. 나무를 매우 이성적이고 추상적인 방식으로 경험할 수도 있습니다. 아니면 나무의 모든 복잡성을 매우 심층적이고 자세한 수준에서 탐험할 수도 있습니다. 두 극단 사이를 유연하게 이동할 수 있다면, 그 우주 원소와 관련된 새롭고 다른 것을 창조하기에 훨씬 좋은 위치에 있습니다.
 
@@ -256,8 +511,18 @@ Remember that axis (detail to abstraction) that I was discussing above? In a boo
 
 예를 들어, 위대한 창조자가 리듬을 경험할 때, 그녀는 학문, 기술, 도구와 눈부신 용어를 넘어설 수 있습니다. 위대한 창조자는 리듬을 어디서나 보고 느낍니다. 커튼에 의해 투사된 빛과 그림자 속에서, 떨어지는 눈물의 소리와 움직임에서, 별들의 춤과 우리 생각들 사이의 간격에서, 그 이상을 본다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-22-TowardsaSustainableGenerativeAIRevolution_23.png)
 
@@ -267,9 +532,18 @@ Remember that axis (detail to abstraction) that I was discussing above? In a boo
 
 게다가 예술가들과 창작가들은 종종 다른 사람들과 협력합니다. 그렇게 함으로써 서로 다른 무의식의 공간이 서로를 풍요롭게 할 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image1](/assets/img/2024-06-22-TowardsaSustainableGenerativeAIRevolution_24.png)
 
@@ -279,8 +553,18 @@ Remember that axis (detail to abstraction) that I was discussing above? In a boo
 
 그래서, 역사상 가장 위대한 창조자들과 예술가들을 연구해 보면, 그들 모두가 말하고자 하는 것, 메시지, 비전이 있었다는 것을 알 수 있습니다. 또한 그러한 비전과 그들이 표현한 방식이, 수십 년 동안 발전시킨 자신의 역량과 밀접하게 연결되어 있었는데, 그들은 순발력 있게 이 심층 엘레베이터를 탐험하면서 우주의 풍요함의 심미함과 추상화의 상공을 탐험하며 두 극지 사이의 다양한 영역을 탐험하였습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마침내, 그 깊이 엘리베이터에 관해, 다음 단계는 그것들을 고립된 개체로 보는 것이 아니라, 다차원 공간 내에서 상호 연결된 여러 퍼널로 시각화하는 것입니다.
 
@@ -290,7 +574,18 @@ Remember that axis (detail to abstraction) that I was discussing above? In a boo
 
 ![image](/assets/img/2024-06-22-TowardsaSustainableGenerativeAIRevolution_27.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에서 살펴본 내용을 활용해 오늘 상황과 앞으로 올 가능성을 고려해보고, 이에 대해 어떻게 대응할지 살펴봅시다.
 
@@ -300,7 +595,18 @@ Remember that axis (detail to abstraction) that I was discussing above? In a boo
 
 ## 좋은 점
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Generative AI는 인간의 창의력을 대체하지 않을 것입니다. 그것은 강화할 것입니다.
 - 이 기술은 창의성을 풀어줍니다. 에디슨이 말한 것을 생각해보세요: 천재는 땀 흘리기의 99% (조합, 재조합, 생산적 작업 및 실험)와 영감의 1% (씨앗을 정립하는 것, 깎아내기 등)입니다. 이 새로운 기술 덕분에 우리는 이제 창조적 과정의 상당 부분을 자동화할 수 있다는 것을 깨닫게 됩니다. 이 과정은 우리 마음 속에서 무의식적으로 일어나는 부분입니다.
@@ -324,7 +630,18 @@ Remember that axis (detail to abstraction) that I was discussing above? In a boo
 - 많은 사람들에게는 "메타버스"는 여전히 유토피아이며, 그것을 적절히 구현하는 데는 꽤 오랜 시간이 걸릴 것으로 보입니다. 만약 메타버스가 유용한 현실로 이루어질 경우, 이는 아마도 생성 AI 기술의 노력으로 이뤄질 것이며, 이 기술이 구현을 가속화하는 핵심 요소가 될 것입니다.
 - 미래에는 우리의 요구나 감정 상태에 따라 변화하는 스마트 생성 환경(SGE)의 부상을 목격할 것입니다. 집, 이벤트 장소 및 기타 환경은
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 우리, 인간들은 한정된 상대적으로 작은 잠재의식적 인재를 가지고 있습니다. 생성적 AI 시스템은 인터넷 지식의 상당 부분을 포함하는 거대한 재료를 가지고 훈련됩니다.
 - 그래서, 인간 창작자들이 생성적 AI 시스템과 경쟁해야 하는 것은 공정하지 않고 도덕적으로 옳지 않다고 생각되지 않습니다.
@@ -337,7 +654,7 @@ Remember that axis (detail to abstraction) that I was discussing above? In a boo
 - 그렉 루코우스키(Greg Rutkowski)는 많은 사람들이 판타지 아트 분야에서 최고인지 아니면 최고인 것으로 여기는 생각입니다. 그리고 그의 이름은 최근 몇 차례에 걸쳐 가장 인상적인 생성적 AI 아트를 만드는 데 사용된 많은 프롬프트들 중에 등장합니다.
 - 그래서, 그렉 루코우스키가 그린 것 같은 놀라운 아트를 생산함으로써 유발된 도파민 분비가 끝나면, 그 도파민 분비가 꺾일 때, 많은 사람들이 AI가 생성한 이미지나 비디오 수백 개 혹은 수천 개를 가지고 "그럼, 이제 어떡하지?"라고 자신에게 물을 것입니다.
 - 대부분의 경우 "아무것도"가 대답이 될 것입니다. 왜냐하면 그들 대부분이 어떤 심오한 의미 있는 내재적 동기에 따라 창의력을 발휘한 것이 아니었기 때문입니다; 그들은 이 기술을 사람이 새 iPhone를 사는 사람처럼 본능적인 방식으로 사용했기 때문입니다. 빛나는 최신 기술을 따라가기 위해.
-- 그 본능이 가라앉으면, 그들은 어떤 면에서 빈 공허함을 느낄 것입니다. 왜냐하면 남아 있는 것 대부분은 그들의 것이 아니라, 그렉 루코우스키와 그의 스타일에 속한 몇십 년간의 열심히 한 결과인데, 이것이 유감스러운 일입니다 (많은 다른 활동 중인 아티스트들의 작품이 이러한 네트워크를 이끄는 것입니다). 
+- 그 본능이 가라앉으면, 그들은 어떤 면에서 빈 공허함을 느낄 것입니다. 왜냐하면 남아 있는 것 대부분은 그들의 것이 아니라, 그렉 루코우스키와 그의 스타일에 속한 몇십 년간의 열심히 한 결과인데, 이것이 유감스러운 일입니다 (많은 다른 활동 중인 아티스트들의 작품이 이러한 네트워크를 이끄는 것입니다).
 - 어쨌든, 현실적으로 생각해보죠. 일들이 너무 빨리 움직이고 있고, 사람들이 따라잡는 시간이 필요하다는 것이 이해됩니다. 현재 시나리오에 대해 해결책이 많을 수 있습니다. 이에 대해 다음 섹션의 끝에서 몇 가지 논의하도록 하겠습니다.
 
 # 룸 안의 코끼리
@@ -353,7 +670,18 @@ Remember that axis (detail to abstraction) that I was discussing above? In a boo
 - 그래서, 점점 더 많은 활동 중인 예술가들이 이에 대해 불평하고 있습니다. 그 중 일부는 활동 중인 예술가들의 작품은 이러한 데이터 세트에 포함해서는 안 된다고 주장합니다. 일부에 따르면, 그들의 불평이 무시당하고 있다고 말합니다. 그들은 대부분 무시당하고 있는 것입니다 (적어도 지금까지는).
 - 이러한 활동 중인 예술가들의 불평을 무시한다면, 우리 자신을 무시하는 것입니다. 오늘은 시각 예
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 인류에 많은 혜택을 가져다줄 멋진 혁명입니다. 그러나 우리가 볼 수 있듯이, 이 초기 단계에서 고려해야 할 까다로운 면도 있습니다. 어떻게 대처할 수 있는지 논의해 보겠습니다.
 
@@ -363,7 +691,18 @@ Remember that axis (detail to abstraction) that I was discussing above? In a boo
 
 나는 도덕적이고 윤리적인 입장에서 이 마지막 섹션을 다루고자 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결국, 다양한 규제 형태를 도입할 것으로 예상되며 기업들도 자체 보호장치와 통제를 도입할 것입니다. 하지만 이러한 법적 시각을 포함한 것들이 확립되기까지는 시간이 필요할 것입니다.
 
@@ -373,7 +712,18 @@ Remember that axis (detail to abstraction) that I was discussing above? In a boo
 
 이제 이 혁명을 더 지속 가능하게 만드는 방법에 대해 고민해 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데카드를 자랑하는 거대한 생성적 AI 데이터 세트 중에 이 작가의 작품이 포함되려면 이 작가만의 저작권을 보유하고 있으며 수십 년 동안 스타일과 작품집을 개발해 온 살아있는 예술가는 의견을 내거나 보상을 받아야 합니다.
 
@@ -383,7 +733,18 @@ Remember that axis (detail to abstraction) that I was discussing above? In a boo
 
 마지막으로, 회색 지대에 대해 논의할 필요가 있습니다. 이를 이해하기 위해 이전 절에서 제기한 한 가지를 빨리 되짚어 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인간과 기계가 동일한 예술 대회, 예술 플랫폼 등에서 경쟁하는 것은 공정하지 않습니다. 사람은 무의식적인 팟을 가지고 있어요. 반면 AI 시스템은 엄청나죠. 인간의 무의식적인 팟은 그들의 삶, 단 하나의 삶의 한정된 경험을 담고 있어요. 반면 AI 시스템은 수백만 또는 수십억 명의 인간의 지식을 보유하고 있어요. 우리가 현실적으로 생각해 봅시다. 그들끼리 서로 경쟁하는 것은 공정하지 않고 도덕적이지 않아요.
 
@@ -393,7 +754,18 @@ Remember that axis (detail to abstraction) that I was discussing above? In a boo
 
 "잠깐, 이 작품은 AI만으로 완전히 제작된 것이 아니에요. 네 알아요, 제가 일부를 AI를 사용해서 만들었지만, 그 후에 저는 그것을 연마하고 더해나갔기 때문에 합법적이지 않나요?"
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 이를 많이 듣게 될 것입니다. 그래서 이런 종류의 시나리오에 대해 주의를 기울이는 것이 중요합니다.
 
@@ -403,7 +775,18 @@ Remember that axis (detail to abstraction) that I was discussing above? In a boo
 
 왜냐하면 어느 정도로 모든 것이 바뀌었지만, 아무것도 바뀌지 않은 것 같습니다. 이제 시작합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Generative AI가 급격하게 발전하기 전에는 구글 검색을 통해 공개 도메인 이미지, 비디오 또는 어떠한 종류의 데이터를 찾아 창의적인 프로세스에 통합할 수 있었고, 모든 것이 공정하고 좋았습니다.
 - Generative AI가 급격하게 발전하기 전에는 구글 검색을 이용하여 일부 활동 중인 예술가의 비공개 도메인 이미지, 비디오 또는 어떠한 종류의 데이터를 찾아 그 작품과 본인의 작품이 결합된 결과물로 이윤을 추구할 때 허가를 받지 않고 가져다 사용하거나 통합할 수 없었습니다 (당연히 자신의 작품과 결합된 결과물로 이익을 취하려고 할 때 말입니다. 단지 온라인 작품을 이용해 단순 실험을 하고자 하는 경우, 이익을 얻지 않고 개인적으로 사용하는 경우는 토론의 대상이 아닙니다).
@@ -415,7 +798,18 @@ Remember that axis (detail to abstraction) that I was discussing above? In a boo
 
 이것은 제 생각으로는 상식에 기반한 생각입니다. 하지만 다른 사람들은 예술가들에게 보상을 제공하는 새로운 방법을 찾아서 이러한 위기를 해결하는 새로운 길을 제시할 수 있습니다. YouTube는 이러한 문제를 해결하기 위한 대안적인 방법에 대한 단서를 다시 제공합니다 (아래에서 더 자세히 설명하겠습니다).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서, 예술 대회, 예술 플랫폼, 스톡 이미지 플랫폼 등은 참가자들에게 다음을 공개할 것을 요청할 수 있습니다:
 
@@ -429,7 +823,18 @@ Remember that axis (detail to abstraction) that I was discussing above? In a boo
 
 이러한 메커니즘을 모든 종류의 데이터와 음압보다 복잡하고 고차원의 데이터까지 모두 포함하도록 확장하는 것은 쉽지 않을 것입니다. 하지만 이미 이와 같은 문제에 대해 연구하고 있는 사람들이 분명히 이미 존재합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 유튜브를 다시 살펴보면, 플랫폼이 공개 도메인 데이터 위에 구축된 새로운 AI 아트에 대처하는 다양한 방식들을 볼 수 있습니다 (사용자가 선언하거나 자동 시스템이 감지하거나 CAI 표준이 제안하는 기술 같은 것들이 감지에 도움을 줄 것으로 예상됩니다).
 
@@ -439,7 +844,18 @@ Remember that axis (detail to abstraction) that I was discussing above? In a boo
 
 # 책임 있는 AI와 콘텐츠 신뢰성 이니셔티브 (CAI)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 수많은 회사들과 그룹들이 이미 회색 영역과 잘못된 정보를 다룰 수 있는 시스템을 설계하는 연구를 진행하고 있습니다.
 
@@ -447,7 +863,18 @@ Remember that axis (detail to abstraction) that I was discussing above? In a boo
 
 그들의 말에 따르면, CAI 회원들은 "미디어 및 기술 회사, 비정부 기관, 학자 및 기타 이해관계자로 구성된 커뮤니티로, 콘텐츠 신뢰성과 근원에 대한 개방형 산업 표준 채택을 촉진하는 데 일했습니다." 그룹은 무료로 가입할 수 있으며, 디지털 콘텐츠의 근원 및 소유권을 캡처부터 배포까지의 전체 파이프라인에서 추적할 수 있는 오픈 소스 도구를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 창의적인 작업을 한 사람들이 그들의 노력을 인정받을 수 있고, 사람들과 플랫폼이 다루고 있는 콘텐츠의 원본과 제작 방법을 이해할 수 있는 것이 최종 목표입니다.
 
@@ -457,7 +884,18 @@ CAI 표준이 특정 콘텐츠를 만들 때 생성 AI가 사용되었는지, �
 
 사진 기자 및 다른 창작자들의 개인 정보 보호와 보안을 위해, 이러한 시스템을 사용할 때 창작자들은 속성을 보존할지 익명을 유지할지 선택할 수 있는 옵션이 있다는 것을 강조하는 것이 중요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 세계는 지켜보고 있어요. 최근 Visual 1st 컨퍼런스(이미징 에코시스템을 위한 주요 컨퍼런스로, 샌프란시스코에서 개최되며 Hans Hartman과 Alexis Gerard가 주도)에서 generative AI가 큰 화제였어요. 저는 이번 행사에서 열린 파이어사이드 챗을 통해 Hans와 Alexis와 멋진 대화를 나누는 기회를 가졌어요.
 
@@ -467,7 +905,18 @@ fast.ai와 같은 기관에서 AI 마스터 프로그램까지 전 세계의 교
 
 데이터셋 분야에서는 datasetshop.com과 같은 매우 흥미로운 기업과 프로젝트도 찾아볼 수 있어요. vAIsual의 기술을 이용하는 이들은 합법적으로 깨끗한 합성 재고 미디어를 생성하는 선구적인 기업들로, 세계 최대의 라이선스 취득 가능한 생체 측정 방출 실제 데이터셋을 만들어내고 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다시 "Responsible AI"와 "Legally Clean" 데이터셋 같은 용어가 등장하고 있다는 것은 좋은 소식입니다.
 
@@ -477,7 +926,18 @@ fast.ai와 같은 기관에서 AI 마스터 프로그램까지 전 세계의 교
 
 # 미래가 가지고 있는 것
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다가오는 시대에 대해 내 의견은 다음과 같고, 간단히 말하자면:
 
@@ -492,7 +952,18 @@ fast.ai와 같은 기관에서 AI 마스터 프로그램까지 전 세계의 교
 
 AI는 분명히 우리 곁으로 오고 있습니다. 우리는 모두 함께 최선을 다해 이 혁명에서 최대한 인류에 이롭게 작용할 수 있도록 협력해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사를 완성하고 꽤 복잡한 문제들을 탐구한 후 가벼운 분위기로 마무리 지어 봅시다. 이 멋진 기술에 대한 음악적 헌사를 들으며 마무리합시다.
 
@@ -502,7 +973,18 @@ AI는 분명히 우리 곁으로 오고 있습니다. 우리는 모두 함께 �
 
 마지막으로, 시간 여행 재미 요소가 포함되어 있습니다. 우리 모두가 오늘날의 인공지능 생성과정을 몇 십 년 전에는 기적으로 해석했을 것이라는 것을 감사히 여길 수 있을까요? 1950년에 스페인으로 시간을 되돌려 봅시다 :)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여러분 모두 건강하게 지내세요. 그리고 무엇보다도 인간 다운 모습을 유지해주세요.
 
@@ -512,7 +994,18 @@ AI는 분명히 우리 곁으로 오고 있습니다. 우리는 모두 함께 �
 
 가끔 사람들이 묻습니다: 30, 40, 또는 50년 후에 인공지능이 시스템 2 능력(추론, 계획 등)에서 뛰어날 때 어떤 일이 일어날 것이라고 생각합니까?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시스템 1과 2는 우리 마음 속의 다른 종류의 사고 모드입니다.
 
@@ -522,7 +1015,18 @@ AI는 분명히 우리 곁으로 오고 있습니다. 우리는 모두 함께 �
 
 AI와 관련하여 현재와 미래에 시스템 2의 능력에 대한 토의는 이 정도와 더 큰 분량의 기사를 채울 정도입니다. 그래서 그에 대한 논의는 다른 시간에 남겨두겠습니다. 이 자막의 시작에서 제시된 질문으로 돌아가 봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 수십 년 후에는 이 질문이 더 이상 의미가 없을 수 있다고 일반적으로 대답합니다. 왜냐하면 오늘날에는 인공 지능과 인간 사이에 구분이 있기 때문이죠. 인공 지능이 존재하고, 우리는 여기 있습니다.
 
@@ -530,7 +1034,18 @@ AI와 관련하여 현재와 미래에 시스템 2의 능력에 대한 토의는
 
 몇 십 년 후에는 우리의 기술과 인간생물학을 포함한 우리의 생물학이 여러 면에서 결합될 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 새로운 질문이 있을 수도 있어요: "우리가 함께 있으니, 다음으로 어디로 갈까요?"
 

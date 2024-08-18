@@ -3,17 +3,13 @@ title: "하드웨어 패스키로 안드로이드 장치 잠금 해제하기 Dig
 description: ""
 coverImage: "/assets/img/2024-06-20-UnlockingYourAndroidDevicewithaHardwarePasskeyAGuidetoUsingDigisparkAttiny85_0.png"
 date: 2024-06-20 17:09
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-UnlockingYourAndroidDevicewithaHardwarePasskeyAGuidetoUsingDigisparkAttiny85_0.png
 tag: Tech
 originalTitle: "Unlocking Your Android Device with a Hardware Passkey: A Guide to Using Digispark Attiny85"
 link: "https://medium.com/@kamiy2j/unlocking-your-android-device-with-a-hardware-passkey-a-guide-to-using-digispark-attiny85-ca9f8e16d40a"
 isUpdated: true
 ---
-
-
-
-
 
 우리 모두 한 번쯤은 그 순간을 겪어봤죠—핸드폰 잠금 상태에서 핀 코드를 기억하지 못하는 그 순간. 무수히 입력했지만 이제 손가락이 주저하는 그 순간. 근육 기억에 의지하지만 그것조차 실망스러운 것 같아요. 이런 순간들이 우리에게 이 중요한 보안 코드를 잊어버리기 쉬운지 상기시켜 줍니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-20-UnlockingYourAndroidDevicewithaHardwarePasskeyAGuidetoUsingDigisparkAttiny85_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 요구 사항:
 
@@ -38,8 +45,18 @@ isUpdated: true
 - 파일 -` 기본 설정 -` 설정 -` 추가 보드 관리자 URL로 이동
 - 다음 URL을 목록에 추가하고 저장: https://raw.githubusercontent.com/digistump/arduino-boards-index/master/package_digistump_index.json
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Step 1](/assets/img/2024-06-20-UnlockingYourAndroidDevicewithaHardwarePasskeyAGuidetoUsingDigisparkAttiny85_1.png)
 
@@ -49,8 +66,18 @@ isUpdated: true
 
 ![Step 3](/assets/img/2024-06-20-UnlockingYourAndroidDevicewithaHardwarePasskeyAGuidetoUsingDigisparkAttiny85_3.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Windows 10 사용자들은 usbser 드라이버 설치 중 실패할 수 있습니다. 그런 경우에는 여기서 직접 다운로드할 수 있습니다: [https://github.com/digistump/DigistumpArduino/releases/download/1.6.7/Digistump.Drivers.zip](https://github.com/digistump/DigistumpArduino/releases/download/1.6.7/Digistump.Drivers.zip) 다운로드한 파일을 압축 해제하고 DPinst64.exe를 실행하여 드라이버를 설치하세요.
 - 아두이노 인터페이스에서 Tools -` Board -` Digistump AVR Boards -` Digispark (Default 16.5 MHz)를 선택하세요.
@@ -61,7 +88,18 @@ isUpdated: true
 
 # 페이로드 코딩
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희 스케치에는 두 가지 미리 정의된 함수가 있습니다: setup()과 loop(). 이 튜토리얼에서는 PIN 코드가 '1234'라고 가정해봅시다. 우리의 코드는 다음과 같이 보일 것입니다:
 
@@ -88,10 +126,20 @@ void loop() {
 
 이 코드를 입력한 후, "Verify" 버튼을 클릭하여 컴파일 및 오류 확인을 실행해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지 태그를 Markdown 형식으로 변경하세요.
-
 
 ![Unlocking Your Android Device with a Hardware Passkey - A Guide to Using Digispark Attiny85](/assets/img/2024-06-20-UnlockingYourAndroidDevicewithaHardwarePasskeyAGuidetoUsingDigisparkAttiny85_6.png)
 
@@ -101,8 +149,18 @@ void loop() {
 
 Attiny85 보드에 코드를 업로드하는 중:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 아두이노 인터페이스에서 업로드 버튼을 클릭하세요.
 
@@ -112,7 +170,18 @@ Attiny85 보드에 코드를 업로드하는 중:
 
 ![이미지](/assets/img/2024-06-20-UnlockingYourAndroidDevicewithaHardwarePasskeyAGuidetoUsingDigisparkAttiny85_9.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - "Micronucleus done. Thank you!" 메시지가 표시될 때까지 기다렸다가 USB 포트에서 보드를 제거해주세요.
 
@@ -122,7 +191,18 @@ Attiny85 보드에 코드를 업로드하는 중:
 
 # 패스키 테스트:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Windows에서는 메모장을 열고 패스키를 연결하세요. 자동으로 PIN 코드를 입력해줄 것입니다.
 
@@ -134,7 +214,18 @@ Windows에서는 메모장을 열고 패스키를 연결하세요. 자동으로 
 
 기억하세요, 완벽한 해결책은 없습니다. 하드웨어 패스키에는 잠재적인 보안 문제도 있으니 아래 섹션에서 자세히 설명하겠습니다. 당신의 디지털 보안 요구 및 편안함에 맞는 최상의 솔루션을 선택하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 하드웨어 패스키에 대한 잠재적 보안 위험:
 
@@ -146,7 +237,18 @@ Windows에서는 메모장을 열고 패스키를 연결하세요. 자동으로 
 
 편리하더라도, 이러한 잠재적 보안 위험을 고려하여 하드웨어 패스키를 책임있게 사용하는 것이 중요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 마무리 글
 
@@ -156,6 +258,17 @@ Windows에서는 메모장을 열고 패스키를 연결하세요. 자동으로 
 
 본질적으로, 하드웨어 패스키는 기술이 우리 삶을 간편하게 만들 수 있는 잠재력을 상징합니다. 이러한 솔루션을 계속 탐구할 때 우리는 편의와 안전한 사용을 균형있게 고려해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제 Medium 계정을 팔로우하여 제 기술 여정을 계속 지켜보세요. 그리고 만약 함께 힘을 합쳐 기술 세계를 정복하고 싶다면, LinkedIn에서 연결해요!

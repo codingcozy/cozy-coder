@@ -3,17 +3,13 @@ title: "2026년 사이버 워크포스 평탄화된 채용과 증가하는 업�
 description: ""
 coverImage: "/assets/img/2024-06-19-CyberWorkforceof2026AddressingtheChallengesofFlatteningHiringandRisingWorkloadDoesAIFixIt_0.png"
 date: 2024-06-19 21:33
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-CyberWorkforceof2026AddressingtheChallengesofFlatteningHiringandRisingWorkloadDoesAIFixIt_0.png
 tag: Tech
 originalTitle: "Cyber Workforce of 2026: Addressing the Challenges of Flattening Hiring and Rising Workload, Does AI Fix It?"
 link: "https://medium.com/@omrig9/cyber-workforce-of-2026-addressing-the-challenges-of-flattening-hiring-and-rising-workload-does-4178aec0475a"
 isUpdated: true
 ---
-
-
-
-
 
 # 사이버보안 과제
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 봇, 에이전트, 그리고 코파일럿으로 강화하는 것이 차질을 해소할까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AI와 자동화 기술은 사이버 채용이 평탄화되면서 생성된 갭을 메우려고 노력하고 있어요. 봇, 에이전트 및 동승자들은 사이버 보안 직원을 보조하는 데 점점 더 얽히게 되고 있어요. 이러한 기술들은 방대한 양의 데이터를 분석하고 패턴을 식별하며 인간보다 더 빨리 위협에 대응할 수 있어요. 보충 잠재력은 상당히 크지만 갭을 메우기 위해 용량을 두 배나 세 배 불려야 하는 것은 아니에요. 장점은 다음과 같아요:
 
@@ -35,7 +42,18 @@ AI와 자동화 기술은 사이버 채용이 평탄화되면서 생성된 갭�
 
 AI를 기존의 사이버 보안 도구에 통합하는 것은 능력을 향상시키는 현실적인 방법이에요. 이는 여러 가지 이점을 제공할 수 있어요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 기능 강화: AI는 고급 위협 탐지 및 대응 능력을 제공하여 기존 도구의 기능을 크게 향상시킬 수 있습니다.
 - 효율성 향상: 통합은 완전히 새로운 시스템이 필요한 필요성을 줄여 조직이 기존 인프라 위에 구축할 수 있습니다.
@@ -47,7 +65,18 @@ AI를 기존의 사이버 보안 도구에 통합하는 것은 능력을 향상�
 
 이러한 AI 도구들을 결합하면 인력 부족 문제 일부를 해결할 수 있지만 충분하지는 않으며 때로는 해결책보다는 복잡성을 더 만들 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 한계 수익: 초기에는 효율성을 높여주지만, 여러 AI 시스템을 관리하면 복잡성, 오버헤드 및 순환 논리 가능성이 생깁니다.
 - 관리 과부하: 단일 사이버 보안 전문가는 보통 한 명에서 세 개의 봇 또는 에이전트를 효과적으로 관리할 수 있습니다. 그 이상으로 넘어가면 복잡성이 너무 커져 전체적인 효과가 감소할 수 있습니다.
@@ -59,7 +88,18 @@ AI를 기존의 사이버 보안 도구에 통합하는 것은 능력을 향상�
 
 AI가 사이버 보안에서 보편화되면, 진정한 도전 과제는 그룹 사고에 빠져나오는 데 있습니다. 모두가 같은 문제를 해결하기 위해 AI를 사용할 때, 균질화된 사고의 위험이 커지며 혁신을 억누르고 예측 가능한 방어 수단을 만들어냅니다. 악의적 공격자들이 피해를 줄 수 있는 상황을 만들 수도 있습니다. 이 함정을 피하는 방법은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - AI 솔루션 사용자 정의: 판매용 AI 도구는 시작점이지만 진정으로 눈에 띄기 위해서는 조직이 이러한 도구를 맞춤화해야 합니다. 조직의 고유한 요구 사항과 맥락에 맞게 AI 솔루션을 맞추면 경쟁 우위를 창출할 수 있습니다.
 - 알고리즘을 넘어 혁신: AI는 강력하지만 경계를 넓히기 위해 인간적 손길이 필요합니다. 사이버 보안 전문가들이 AI를 창조적인 문제 해결의 기반이로 활용하면서 지속적으로 실험하고 혁신할 수 있는 문화를 촉진해 보세요.

@@ -3,17 +3,13 @@ title: "AI Agents in a GPT"
 description: ""
 coverImage: "/assets/img/2024-06-20-AIAgentsinaGPT_0.png"
 date: 2024-06-20 18:38
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-AIAgentsinaGPT_0.png
 tag: Tech
 originalTitle: "AI Agents in a GPT?"
 link: "https://medium.com/@addison-best/ai-agents-in-a-gpt-34fe5158ecc6"
 isUpdated: true
 ---
-
-
-
-
 
 ## GPT에 AI 에이전트를 내장하는 방법
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 오늘은 여러분에게 멋진 것을 보여드릴 거예요 — 직접 AI 에이전트를 만들고 GPT에서 사용하는 방법을 알려 드릴 거예요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예시는 간단하지만, AI 에이전트의 힘을 보여줍니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 이 튜토리얼은 AI 에이전트를 간단한 용어로 설명하고, 코드 없이 시작하는 법을 알려줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 안내서는 AI 에이전트 사용에 대한 소개입니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 여기 제가 만든 비디오가 있어요. AI 에이전트를 GPT에서 직접 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # AI 에이전트와 ChatGPT의 차이점은 무엇인가요?
 
@@ -53,7 +82,18 @@ AI 에이전트는 또한 각각이 특정 역할을 가지고 팀으로 작동�
 
 ChatGPT는 대화를 나누는 것과 비슷합니다. 당신이 계속해서 질문하면, LLM을 사용하여 답변하고 질문에 답변하는 데 도움을 줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 질문하거나 무언가를 시키면 그에 따라 답변합니다. 질문하거나 요청하면 텍스트를 생성하는 데 탁월한데요, AI 에이전트처럼 자동으로 작업을 수행하지는 않습니다.
 
@@ -63,7 +103,18 @@ AI 에이전트는 여러 단계의 작업을 자체적으로 수행하는 반�
 
 저의 👉 AI 뉴스레터 👈에 관심이 있을 수도 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # ChatGPT를 사용하여 여러 단계에서 기사 작성하기
 
@@ -77,7 +128,18 @@ AI 에이전트는 여러 단계의 작업을 자체적으로 수행하는 반�
 
 ChatGPT는 이러한 작업을 수행할 수 있지만, 각 단계를 수동으로 요청해야 합니다. 이 프로세스는 오랜 시간이 걸리고 지루할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 예시에서는 ChatGPT에게 5개의 별도 질문을 하고 매번 대답을 기다려야 합니다.
 
@@ -87,7 +149,18 @@ ChatGPT는 이러한 작업을 수행할 수 있지만, 각 단계를 수동으�
 
 하지만 에이전트끼리 대화하면서 전체 기사와 아웃라인, 초안, 편집 등을 하나의 프롬프트만으로 처리할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GPT를 사용한 AI 에이전트를 만들었어요. 이 GPT는 다음을 할 거예요:
 
@@ -100,7 +173,18 @@ GPT를 사용한 AI 에이전트를 만들었어요. 이 GPT는 다음을 할 �
 
 이 에이전트 프레임워크를 포함한 모든 AI 에이전트의 첫 번째 단계는 각 에이전트의 역할을 정의하고 원하는 능력을 결정하는 것이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # GPT 지침서의 에이전트 역할 정의
 
@@ -113,7 +197,18 @@ GPT에서 에이전트 역할 외에, 다음을 말했습니다:
 
 GPT에서 에이전트를 시작하려면 "주제"에 대한 단 한 가지 프롬프트만 필요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 요원들이 소통하여 제가 더 이상 개입하지 않고 기사를 완성할 거예요.
 
@@ -123,7 +218,18 @@ AI 에이전트 GPT가 작동하는 것을 보고 싶다면, 이 기사 맨 위�
 
 AI 에이전트는 작업을 독립적이고 효율적으로 처리하여 시간을 절약해줍니다. 특히 기사 작성 및 소프트웨어 개발과 같은 여러 단계를 포함하는 작업에 유용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 에이전트마다 특정 역할을 정의하여 원활하게 함께 작업할 수 있습니다.
 
@@ -133,7 +239,18 @@ GPT 안의 AI 에이전트는 GPT 환경 내에서 실행되기 때문에 제한
 
 하지만 흥미로운 사용 사례를 만들기 위해 해킹되어 일부 사용 사례를 만들어낼 수는 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 ChatGPT, 인공지능, GPT 등을 활용하여 온라인 비즈니스를 키우는 방법에 대해 가르치고 있어요.
 
@@ -143,6 +260,17 @@ GPT 안의 AI 에이전트는 GPT 환경 내에서 실행되기 때문에 제한
 
 저희 YouTube 채널도 놀러오세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 웹 사이트에서 팔로우해 주세요: AI Growth Guys

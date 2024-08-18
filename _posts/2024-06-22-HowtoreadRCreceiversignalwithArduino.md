@@ -3,17 +3,13 @@ title: "Arduino를 사용하여 RC 수신기 신호 읽는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-22-HowtoreadRCreceiversignalwithArduino_0.png"
 date: 2024-06-22 18:46
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-HowtoreadRCreceiversignalwithArduino_0.png
 tag: Tech
 originalTitle: "How to read RC receiver signal with Arduino"
 link: "https://medium.com/@werneckpaiva/how-to-read-rc-receiver-signal-with-arduino-54e0447f6c3f"
 isUpdated: true
 ---
-
-
-
-
 
 ![img](/assets/img/2024-06-22-HowtoreadRCreceiversignalwithArduino_0.png)
 
@@ -23,8 +19,18 @@ RC 송신기와 수신기를 서보 모터 또는 비행 제어기와 함께 사
 
 의도는 읽고자 하는 각 채널의 수신기 핀을 Arduino의 디지털 포트에 연결하는 것입니다. 매우 직관적입니다. Arduino 핀은 입력 포트로 작동하고 수신기도 Arduino의 5V에서 전원을 공급받아야 합니다. 이것은 수신기의 5개 채널, 짐벌을 위한 4개 채널, 그리고 온/오프 스위치를 위한 1개 채널을 읽기 위한 배선 스키마입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![How to read RC receiver signal with Arduino](/assets/img/2024-06-22-HowtoreadRCreceiversignalwithArduino_1.png)
 

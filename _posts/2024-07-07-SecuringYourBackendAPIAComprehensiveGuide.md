@@ -3,7 +3,7 @@ title: "백엔드 API 보안 강화 완벽 가이드"
 description: ""
 coverImage: "/assets/img/2024-07-07-SecuringYourBackendAPIAComprehensiveGuide_0.png"
 date: 2024-07-07 23:06
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-SecuringYourBackendAPIAComprehensiveGuide_0.png
 tag: Tech
 originalTitle: "Securing Your Backend API: A Comprehensive Guide"
@@ -11,17 +11,24 @@ link: "https://medium.com/codex/securing-your-backend-api-a-comprehensive-guide-
 isUpdated: true
 ---
 
-
-
-
-
 현재의 유기적으로 연결된 세상에서 API (애플리케이션 프로그래밍 인터페이스)는 현대 웹 및 모바일 애플리케이션의 중추가 되었습니다. 이들은 다양한 소프트웨어 시스템이 손쉽게 통신하고 데이터를 교환할 수 있도록 합니다. 그러나 API에 대한 의존도가 증가함에 따라, 그들의 보안을 확보하는 것이 절실해졌습니다. 탈취당한 API는 데이터 유출, 무단 접근 및 그 밖의 심각한 결과로 이어질 수 있습니다. 본 문서에서는 백엔드 API를 안전하게 보호하는 데 필요한 최상의 실천 방법과 기술에 대해 깊이 있게 다룰 것입니다. 인증 및 권한 부여부터 입력 유효성 검사, 속도 제한 등 다양한 측면을 다루겠습니다.
 
 # 저와 소통하기:
 
 Linkedin: https://www.linkedin.com/in/suneel-kumar-52164625a/
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 인증 및 허가
 
@@ -31,20 +38,31 @@ JSON 웹 토큰 (JWT)
 
 API에 대한 가장 인기 있는 인증 메커니즘 중 하나는 JSON 웹 토큰 (JWT)입니다. JWT는 헤더, 페이로드 및 서명 세 부분으로 구성된 자체 포함형 토큰입니다. 헤더에는 토큰에 대한 알고리즘과 같은 메타 데이터가 포함됩니다. 페이로드에는 사용자에 대한 클레임이나 정보 묶음이 포함됩니다. 서명은 토큰의 무결성을 확인하는 데 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JWT 인증을 구현하려면 Node.js용 jsonwebtoken 또는 Go용 jwt-go와 같은 라이브러리를 사용할 수 있습니다. 아래는 Node.js에서 JWT 토큰을 생성하는 예시입니다:
 
 ```js
-const jwt = require('jsonwebtoken');
+const jwt = require("jsonwebtoken");
 
 const payload = {
-  userId: '12345',
-  role: 'admin'
+  userId: "12345",
+  role: "admin",
 };
 
-const secret = 'your-secret-key';
-const options = { expiresIn: '1h' };
+const secret = "your-secret-key";
+const options = { expiresIn: "1h" };
 
 const token = jwt.sign(payload, secret, options);
 ```
@@ -53,7 +71,18 @@ const token = jwt.sign(payload, secret, options);
 
 서버 측에서 JWT 토큰을 검증하려면 jwt.verify 함수를 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const verifiedToken = jwt.verify(token, secret);
@@ -65,7 +94,18 @@ OAuth 2.0
 
 또 다른 인기 있는 인증 메커니즘은 OAuth 2.0입니다. OAuth 2.0은 사용자가 한 시스템(리소스 서버)의 데이터 또는 자원에 대한 제한적인 접근을 다른 시스템(클라이언트 애플리케이션)에 부여할 수 있는 산업 표준 프로토콜입니다. 이는 API를 서드파티 애플리케이션이나 서비스와 통합해야 할 때 특히 유용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 OAuth 2.0 플로우에서, 클라이언트 애플리케이션은 먼저 인증 서버로부터 엑세스 토큰을 획득합니다. 엑세스 토큰은 그런 다음에 리소스 서버로의 API 요청에 포함되며, 리소스 서버는 토큰을 확인하고 해당 토큰의 권한에 따라 액세스를 허용하거나 거부합니다.
 
@@ -75,26 +115,37 @@ OAuth 2.0 인증을 구현하기 위해서는, Node.js용 oauth2-server 또는 G
 
 클라이언트를 인증한 후에, API 리소스에 대한 액세스를 제어하기 위한 인가 메커니즘을 구현해야 합니다. 한 가지 일반적인 방법은 역할 기반 액세스 제어 (RBAC)입니다. RBAC에서는 사용자 또는 클라이언트 애플리케이션에 역할을 할당하고, 각 역할에는 리소스 및 작업에 액세스하거나 수행할 수 있는 권한 집합이 정의됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, "admin" 역할은 모든 리소스에 대한 완전한 액세스 권한을 갖는 반면, "user" 역할은 자신의 데이터에만 액세스하고 수정할 수 있으며, "guest" 역할은 공개 데이터에 대한 읽기 전용 액세스만 허용된다.
 
 다음은 express 프레임워크를 사용하여 Node.js에서 RBAC를 구현하는 방법의 예시입니다:
 
 ```js
-const express = require('express');
+const express = require("express");
 const router = express.Router();
 
 const ROLES = {
-  ADMIN: 'admin',
-  USER: 'user',
-  GUEST: 'guest'
+  ADMIN: "admin",
+  USER: "user",
+  GUEST: "guest",
 };
 
 const userRoles = {
-  '12345': ROLES.ADMIN,
-  '67890': ROLES.USER,
-  '24680': ROLES.GUEST
+  12345: ROLES.ADMIN,
+  67890: ROLES.USER,
+  24680: ROLES.GUEST,
 };
 
 function authorize(roles) {
@@ -105,28 +156,39 @@ function authorize(roles) {
     if (roles.includes(userRole)) {
       next(); // 사용자가 인가되었으므로 다음 미들웨어나 라우트 핸들러로 이동
     } else {
-      res.status(403).json({ message: 'Forbidden' });
+      res.status(403).json({ message: "Forbidden" });
     }
   };
 }
 
 // RBAC와 함께하는 예시 라우트
-router.get('/admin-only', authorize([ROLES.ADMIN]), (req, res) => {
+router.get("/admin-only", authorize([ROLES.ADMIN]), (req, res) => {
   // 관리자 전용 리소스에 대한 라우트 로직
 });
 
-router.get('/user-data', authorize([ROLES.ADMIN, ROLES.USER]), (req, res) => {
+router.get("/user-data", authorize([ROLES.ADMIN, ROLES.USER]), (req, res) => {
   // 사용자 데이터 리소스에 대한 라우트 로직
 });
 
-router.get('/public-data', authorize([ROLES.ADMIN, ROLES.USER, ROLES.GUEST]), (req, res) => {
+router.get("/public-data", authorize([ROLES.ADMIN, ROLES.USER, ROLES.GUEST]), (req, res) => {
   // 공개 데이터 리소스에 대한 라우트 로직
 });
 ```
 
 이 예시에서는 사용자의 역할이 요청된 리소스의 허용된 역할 목록에 포함되어 있는지 확인하는 authorize 미들웨어 함수를 정의합니다. 사용자가 인가된 경우 요청은 다음 미들웨어나 라우트 핸들러로 이동합니다. 그렇지 않은 경우 403 Forbidden 응답이 전송됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ROLES 객체는 사용 가능한 역할을 정의하며, userRoles 객체는 사용자 ID를 해당하는 역할로 매핑합니다. 실제 시나리오에서는 사용자 역할을 데이터베이스 또는 다른 데이터 저장소에서 가져올 가능성이 높습니다.
 
@@ -136,32 +198,58 @@ ROLES 객체는 사용 가능한 역할을 정의하며, userRoles 객체는 사
 
 입력 유효성 검사
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 입력 유효성 검사는 사용자 입력이 예상된 형식, 유형 및 제약 조건을 준수하는지 확인하는 것을 의미합니다. 예를 들어, 숫자 입력을 기대한다면 입력이 실제로 숫자이며 허용 범위 내에 있는지 확인해야 합니다.
 
 다음은 express-validator 라이브러리를 사용하여 Node.js에서 사용자 입력을 유효성 검사하는 방법 예시입니다:
 
 ```js
-const { body, validationResult } = require('express-validator');
+const { body, validationResult } = require("express-validator");
 
-app.post('/register', [
-  body('email').isEmail().normalizeEmail().withMessage('유효하지 않은 이메일 주소입니다'),
-  body('password').isLength({ min: 8 }).withMessage('비밀번호는 적어도 8자여야 합니다'),
-  body('age').isInt({ min: 18 }).withMessage('나이는 숫자이어야 하며 적어도 18 이상이어야 합니다')
-], (req, res) => {
-  const errors = validationResult(req);
-  if (!errors.isEmpty()) {
-    return res.status(400).json({ errors: errors.array() });
+app.post(
+  "/register",
+  [
+    body("email").isEmail().normalizeEmail().withMessage("유효하지 않은 이메일 주소입니다"),
+    body("password").isLength({ min: 8 }).withMessage("비밀번호는 적어도 8자여야 합니다"),
+    body("age").isInt({ min: 18 }).withMessage("나이는 숫자이어야 하며 적어도 18 이상이어야 합니다"),
+  ],
+  (req, res) => {
+    const errors = validationResult(req);
+    if (!errors.isEmpty()) {
+      return res.status(400).json({ errors: errors.array() });
+    }
+
+    // 등록 로직 계속 진행
   }
-
-  // 등록 로직 계속 진행
-});
+);
 ```
 
 이 예시에서는 express-validator의 body 유효성 검사기를 사용하여 요청 본문의 이메일, 비밀번호 및 나이 필드를 검증합니다. isEmail 유효성 검사기는 입력이 유효한 이메일 주소인지 확인하고, normalizeEmail은 이메일 주소를 표준화하며, isLength는 비밀번호의 길이를 체크하고, isInt는 나이가 지정된 범위 내의 정수인지 확인합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 검증 중에 어떠한 항목도 실패하면 validationResult 함수는 오류의 배열을 반환합니다. 그런 다음에 우리는 400 Bad Request 상태와 함께 오류 메시지를 응답합니다.
 
@@ -171,21 +259,34 @@ app.post('/register', [
 
 다음은 express-validator 라이브러리를 사용하여 Node.js에서 사용자 입력을 처리하는 예시입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-const { body, validationResult } = require('express-validator');
+const { body, validationResult } = require("express-validator");
 
-app.post('/comment', [
-  body('content').trim().escape().withMessage('Comment content contains malicious input')
-], (req, res) => {
-  const errors = validationResult(req);
-  if (!errors.isEmpty()) {
-    return res.status(400).json({ errors: errors.array() });
+app.post(
+  "/comment",
+  [body("content").trim().escape().withMessage("Comment content contains malicious input")],
+  (req, res) => {
+    const errors = validationResult(req);
+    if (!errors.isEmpty()) {
+      return res.status(400).json({ errors: errors.array() });
+    }
+
+    // Proceed with comment creation logic
   }
-
-  // Proceed with comment creation logic
-});
+);
 ```
 
 이 예제에서는 trim validator를 사용하여 content 필드에서 선행 및 후행 공백을 제거하고, escape validator를 사용하여 `, `, &와 같은 잠재적으로 악의적 인 캐릭터를 이스케이프합니다. 제거 된 입력이 여전히 악의적 인 입력을 포함하는 경우 withMessage validator가 validationResult에 오류를 추가합니다.
@@ -194,8 +295,18 @@ app.post('/comment', [
 
 3. 요금 한도 설정
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한국어로 번역한 내용은 다음과 같습니다.
 
@@ -209,27 +320,49 @@ app.post('/comment', [
 - 누수 버킷 알고리즘: 이 알고리즘은 일정 용량과 일정 누출 속도를 갖는 버킷으로 요청을 모델링합니다. 버킷이 넘치면 요청이 거부되거나 지연됩니다. 이 방식은 트래픽의 급격한 증가를 완화하고 더 점진적인 속도 제한이 가능합니다.
 - 토큰 버킷 알고리즘: 누수 버킷과 유사하게, 이 알고리즘은 각 요청에 대해 소비되는 토큰 버킷을 유지합니다. 토큰은 일정한 속도로 최대 폭발용 용량까지 추가됩니다. 버킷이 비어 있으면 요청이 거부되거나 더 많은 토큰을 사용할 수 있을 때까지 지연됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 express-rate-limit 미들웨어를 사용하여 Node.js에서 요청 속도 제한을 구현하는 방법의 예시입니다:
 
 ```js
-const rateLimit = require('express-rate-limit');
+const rateLimit = require("express-rate-limit");
 
 const limiter = rateLimit({
   windowMs: 60 * 1000, // 1분 윈도우
   max: 100, // 각 IP당 windowMs 당 100개의 요청 제한
-  message: '이 IP에서 너무 많은 요청이 있습니다. 1분 후 다시 시도해주세요.'
+  message: "이 IP에서 너무 많은 요청이 있습니다. 1분 후 다시 시도해주세요.",
 });
 
-app.use('/api/', limiter); // 모든 /api/ 경로에 대해 속도 제한 적용
+app.use("/api/", limiter); // 모든 /api/ 경로에 대해 속도 제한 적용
 ```
 
 이 예시에서는 express-rate-limit 미들웨어를 사용해 각 IP 주소를 1분에 100개의 요청으로 제한하는 방식을 사용했습니다. 제한을 초과할 경우, 이후 요청은 지정된 메시지와 함께 429 Too Many Requests 응답을 받게 됩니다.
 
 인증된 사용자, 다른 경로 또는 여러 가지 요소에 따라 속도 제한 동작을 사용자 정의할 수도 있습니다. 예를 들어 인증된 사용자의 요청 속도 제한을 높이거나, 특정 리소스 집약적인 엔드포인트에 대해 다른 제한을 적용할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. 보안 헤더
 
@@ -244,13 +377,24 @@ app.use('/api/', limiter); // 모든 /api/ 경로에 대해 속도 제한 적용
 - X-Content-Type-Options: 이 헤더는 인터넷 익스플로러가 MIME-스니핑을 방지하고 선언된 Content-Type 헤더를 강제하여 드라이브바이 다운로드 공격의 위험을 줄입니다.
 - Referrer-Policy: 이 헤더는 브라우저가 요청에서 포함해야 하는 리퍼러 정보(현재 페이지에 연결된 URL)의 양을 제어합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 Node.js에서 helmet 미들웨어를 사용하여 안전한 헤더를 설정하는 방법의 예시입니다:
 
 ```js
-const express = require('express');
-const helmet = require('helmet');
+const express = require("express");
+const helmet = require("helmet");
 
 const app = express();
 
@@ -259,19 +403,21 @@ app.use(helmet());
 
 // 또는 특정 헤더를 선택적으로 활성화할 수도 있습니다
 app.use(helmet.xssFilter());
-app.use(helmet.frameguard({ action: 'deny' }));
+app.use(helmet.frameguard({ action: "deny" }));
 app.use(helmet.hsts({ maxAge: 31536000, preload: true }));
-app.use(helmet.contentSecurityPolicy({
-  directives: {
-    defaultSrc: ["'self'"],
-    scriptSrc: ["'self'", 'example.com']
-  }
-}));
+app.use(
+  helmet.contentSecurityPolicy({
+    directives: {
+      defaultSrc: ["'self'"],
+      scriptSrc: ["'self'", "example.com"],
+    },
+  })
+);
 
 // 여기에 API route를 추가하세요
 
 app.listen(3000, () => {
-  console.log('서버가 3000번 포트에서 실행 중입니다');
+  console.log("서버가 3000번 포트에서 실행 중입니다");
 });
 ```
 
@@ -279,7 +425,18 @@ app.listen(3000, () => {
 
 이 헤더들의 구체적인 값과 설정은 애플리케이션 요구 사항 및 원하는 보안 수준에 따라 다를 수 있음을 참고해 주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5. HTTPS 및 SSL/TLS
 
@@ -289,7 +446,18 @@ HTTPS(HTTP over SSL/TLS)는 클라이언트와 서버 간에 교환되는 데이
 
 HTTPS를 구현하는 것은 중요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 API에 HTTPS를 구현하려면 신뢰할 수 있는 인증 기관(CA)에서 SSL/TLS 인증서를 발급받아야 합니다. 이러한 CA는 도메인 또는 서버의 소유권을 확인하는 디지털 인증서를 발급합니다. 다음과 같은 다양한 유형의 SSL/TLS 인증서가 있습니다.
 
@@ -301,24 +469,35 @@ API에 HTTPS를 구현하려면 신뢰할 수 있는 인증 기관(CA)에서 SSL
 
 SSL/TLS 인증서를 획득한 후에는 웹 서버(Node.js와 Express 같은)를 구성하여 API를 HTTPS로 제공해야 합니다. Node.js를 사용하여 이를 수행하는 예시는 아래와 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-const fs = require('fs');
-const https = require('https');
-const express = require('express');
+const fs = require("fs");
+const https = require("https");
+const express = require("express");
 const app = express();
 
 // 여기에 API 라우트를 작성하세요
 
 const options = {
-  key: fs.readFileSync('path/to/private.key'),
-  cert: fs.readFileSync('path/to/certificate.crt'),
-  ca: fs.readFileSync('path/to/ca.crt') // 중간 CA 인증서가 있는 경우
+  key: fs.readFileSync("path/to/private.key"),
+  cert: fs.readFileSync("path/to/certificate.crt"),
+  ca: fs.readFileSync("path/to/ca.crt"), // 중간 CA 인증서가 있는 경우
 };
 
 https.createServer(options, app).listen(443, () => {
-  console.log('HTTPS 서버가 포트 443에서 작동 중입니다.');
+  console.log("HTTPS 서버가 포트 443에서 작동 중입니다.");
 });
 ```
 
@@ -328,8 +507,18 @@ HTTPS는 API의 종합적인 보안 솔루션을 제공하려면 인증, 권한 
 
 6. 로깅 및 모니터링
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로그 기록과 모니터링은 안전한 API 인프라의 필수 구성 요소입니다. 적절한 로깅과 모니터링은 보안 사건을 탐지하고 대응하며, 이상 현상이나 의심스러운 행동을 식별하며, 포렌식 분석과 사건 대응에 도움이 될 수 있습니다.
 
@@ -339,7 +528,18 @@ HTTPS는 API의 종합적인 보안 솔루션을 제공하려면 인증, 권한 
 
 API 요청과 응답을 로깅할 때 다음 정보를 캡처하는 것을 고려해야 합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 타임스탬프
 - 클라이언트 IP 주소
@@ -357,26 +557,26 @@ API 요청과 응답을 로깅할 때 다음 정보를 캡처하는 것을 고�
 노드.js에서 내장된 morgan 및 winston 라이브러리를 사용하여 로깅을 구현하는 방법에 대한 예입니다:
 
 ```js
-const express = require('express');
-const morgan = require('morgan');
-const winston = require('winston');
+const express = require("express");
+const morgan = require("morgan");
+const winston = require("winston");
 
 const app = express();
 
 // Winston 로거 구성
 const logger = winston.createLogger({
-  level: 'info',
+  level: "info",
   format: winston.format.json(),
-  defaultMeta: { service: 'api' },
+  defaultMeta: { service: "api" },
   transports: [
     new winston.transports.Console(),
-    new winston.transports.File({ filename: 'logs/error.log', level: 'error' }),
-    new winston.transports.File({ filename: 'logs/combined.log' })
-  ]
+    new winston.transports.File({ filename: "logs/error.log", level: "error" }),
+    new winston.transports.File({ filename: "logs/combined.log" }),
+  ],
 });
 
 // HTTP 요청 로깅하기 위해 Morgan 미들웨어 사용
-app.use(morgan('combined', { stream: logger.stream }));
+app.use(morgan("combined", { stream: logger.stream }));
 
 // 오류 처리 미들웨어
 app.use((err, req, res, next) => {
@@ -387,13 +587,24 @@ app.use((err, req, res, next) => {
 // API 라우트는 여기에 작성
 
 app.listen(3000, () => {
-  console.log('서버가 3000번 포트에서 실행중입니다.');
+  console.log("서버가 3000번 포트에서 실행중입니다.");
 });
 ```
 
 이 예제에서는 winston 라이브러리를 사용하여 콘솔, 오류 로그 파일 및 병합된 로그 파일에 로그를 작성하는 로거를 구성합니다. HTTP 요청 로깅을 위해 morgan 미들웨어를 사용하고, 로그 출력을 winston 로거 스트림에 파이프합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 게다가, 우리는 요청 처리 중 발생하는 모든 오류를 기록하는 오류 처리 미들웨어를 구현했습니다. 이때 기록되는 정보에는 오류 상태 코드, 메시지, 요청된 URL, HTTP 메서드 및 클라이언트 IP 주소가 포함됩니다.
 
@@ -403,7 +614,18 @@ app.listen(3000, () => {
 
 API를 모니터링할 때 다음 메트릭을 추적하는 것이 좋습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 요청률(총 요청 수, 엔드포인트별 요청 수, 클라이언트별 요청 수)
 - 응답 시간
@@ -420,29 +642,40 @@ API 모니터링을 위해 다양한 도구와 서비스를 활용할 수 있습
 
 다음은 Node.js API의 Prometheus 지표를 노출하기 위해 prom-client 라이브러리를 활용하는 예시입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-const express = require('express');
-const promClient = require('prom-client');
+const express = require("express");
+const promClient = require("prom-client");
 
 const app = express();
 
 // 레지스트리 및 메트릭 생성
 const register = new promClient.Registry();
 const httpRequestDurationMicroseconds = new promClient.Histogram({
-  name: 'http_request_duration_microseconds',
-  help: 'HTTP 요청 지속 시간(마이크로초)',
-  labelNames: ['method', 'route', 'status_code'],
-  buckets: [0.1, 5, 15, 50, 100, 500, 1000, 2000, 5000]
+  name: "http_request_duration_microseconds",
+  help: "HTTP 요청 지속 시간(마이크로초)",
+  labelNames: ["method", "route", "status_code"],
+  buckets: [0.1, 5, 15, 50, 100, 500, 1000, 2000, 5000],
 });
 
 // 메트릭 등록
 register.registerMetric(httpRequestDurationMicroseconds);
 
 // 메트릭 노출 엔드포인트 설정
-app.get('/metrics', async (req, res) => {
-  res.setHeader('Content-Type', register.contentType);
+app.get("/metrics", async (req, res) => {
+  res.setHeader("Content-Type", register.contentType);
   res.send(await register.metrics());
 });
 
@@ -450,7 +683,7 @@ app.get('/metrics', async (req, res) => {
 app.use((req, res, next) => {
   const startTime = process.hrtime();
 
-  res.on('finish', () => {
+  res.on("finish", () => {
     const elapsedTime = process.hrtime(startTime);
     const durationInMicroseconds = (elapsedTime[0] * 1e9 + elapsedTime[1]) / 1e3;
     const labels = { method: req.method, route: req.route.path, status_code: res.statusCode };
@@ -463,7 +696,7 @@ app.use((req, res, next) => {
 // 여기에 API 라우트를 추가하세요
 
 app.listen(3000, () => {
-  console.log('서버가 3000 포트에서 실행 중입니다');
+  console.log("서버가 3000 포트에서 실행 중입니다");
 });
 ```
 
@@ -473,7 +706,18 @@ app.listen(3000, () => {
 
 그런 다음 프로메테우스를 구성하여 /metrics 엔드포인트를 수집하고 노출된 메트릭을 수집하여 API의 성능과 상태에 기반한 시각화 및 경고 설정을 할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 7. API 게이트웨이 및 서비스 메시
 
@@ -483,7 +727,18 @@ API 게이트웨이
 
 API 게이트웨이는 모든 클라이언트 요청에 대한 단일 진입점 역할을 합니다. 클라이언트를 API의 내부 구현 세부 정보에서 분리하는 통합된 정면 및 추상화 계층을 제공합니다. API 게이트웨이는 인증, 속도 제한, 부하 분산, 캐싱 및 기타 교차 지절 관심사와 같은 작업을 처리할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인기 있는 API 게이트웨이 솔루션은 다음과 같습니다:
 
@@ -496,7 +751,18 @@ API 게이트웨이는 모든 클라이언트 요청에 대한 단일 진입점 
 
 서비스 메시는 분산 아키텍처에서의 마이크로서비스 간 통신을 관리하고 보안하는 전용 인프라 레이어입니다. 트래픽 관리, 부하 분산, 서비스 검색, 암호화, 인증 및 관측 가능성과 같은 기능을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인기있는 서비스 메시 솔루션은 다음과 같습니다:
 
@@ -508,7 +774,18 @@ API 게이트웨이와 서비스 메시는 인증, 권한 부여, 속도 제한 
 
 8. API 보안 테스트
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 API 보안 테스트는 보안 취약점을 식별하고 해결하기 위해 필수적입니다. 악의적인 사용자들에 의해 악용되기 전에 API의 취약성을 발견하고 대처하는 것이 중요합니다. API 보안 테스팅은 여러 기법과 도구를 활용하여 API의 보안 상태를 평가하고 잠재적인 취약점을 식별하는 것을 포함합니다.
 
@@ -518,7 +795,18 @@ API 보안 테스트는 보안 취약점을 식별하고 해결하기 위해 필
 
 침투 테스트는 보안 전문가에 의해 수행될 수 있으며, 내부적으로 또는 제 3자 서비스 제공업체를 통해 수행될 수 있습니다. API가 안전하게 유지되도록하기 위해 새로운 위협과 취약성이 등장할 때 정기적인 펜 테스트를 수행하는 것이 중요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자동 보안 테스팅
 
@@ -531,7 +819,18 @@ API 보안 테스트는 보안 취약점을 식별하고 해결하기 위해 필
 - Postman: API 개발 및 테스트 도구로서 API 모니터링, 퍼징, 및 취약점 스캐닝과 같은 보안 기능도 제공합니다.
 - Swagger/OpenAPI 보안 테스트: 여러 도구들(APISecurity.io, 42crunch API Security Audit 등)이 OpenAPI 명세서를 분석하고 최고의 실천 방법과 보안 가이드라인을 기반으로 잠재적인 보안 취약점을 식별할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보안 코드 리뷰
 
@@ -547,7 +846,18 @@ API 보안 테스트는 보안 취약점을 식별하고 해결하기 위해 필
 - 불충분한 로깅 및 모니터링
 - 불안전한 구성 또는 하드 코딩된 비밀번호
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 정기적인 보안 코드 검토를 실시하면 개발 과정 초기에 취약점을 식별하고 해결할 수 있어서 보안 사건의 위험과 잠재적인 영향을 줄일 수 있습니다.
 
@@ -557,7 +867,18 @@ API 보안 테스트는 보안 취약점을 식별하고 해결하기 위해 필
 
 OWASP API 보안 Top 10
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 OWASP(Open Web Application Security Project)은 웹 애플리케이션과 API 보안에 관한 가치 있는 자원과 지침을 제공하는 유명한 기관입니다. OWASP API Security Top 10은 API에 대한 가장 중요한 보안 문제들을 나열한 목록으로, 다음과 같은 내용을 포함합니다:
 
@@ -574,7 +895,18 @@ OWASP(Open Web Application Security Project)은 웹 애플리케이션과 API �
 
 이러한 최상위 보안 위험을 이해하고 대응함으로써 API의 보안을 크게 향상시킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 The National Institute of Standards and Technology (NIST) 사이버보안 프레임워크는 조직의 사이버보안 포지션을 향상시키기 위한 지침과 모범 사례로 널리 채택되었습니다. 이는 사이버보안 위험을 관리하기 위한 리스크 중심 접근 방식을 제공하며 API 및 다른 시스템에 적용할 수 있습니다.
 
@@ -584,7 +916,18 @@ NIST 사이버보안 프레임워크는 식별(Identify), 보호(Protect), 탐�
 
 API가 결제 카드 정보를 처리하는 경우, 결제 카드 산업 자료 보안 표준(PCI DSS)을 준수해야할 수 있습니다. PCI DSS는 결제 카드 데이터의 안전한 처리와 저장을 보장하기 위한 요구 사항으로 구성되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 PCI DSS와 관련된 주요 요구 사항 중 일부는 다음과 같습니다:
 
@@ -598,7 +941,18 @@ API 관련에 대한 PCI DSS 준수는 주로 결제 처리 업체 및 카드 �
 
 개인 데이터에 대한 GDPR
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신의 API가 유럽 연합(EU) 내의 개인 데이터를 처리하거나 다룬다면, 일반 데이터 보호 규정(GDPR)을 준수해야 할 수도 있습니다. GDPR은 EU 시민들의 개인 데이터를 보호하기 위한 종합적인 데이터 보호 및 개인 정보 규정입니다.
 
@@ -612,7 +966,18 @@ API에 관련된 GDPR의 중요 요구 사항은 다음과 같습니다:
 
 조직이 위치한 곳에 관계없이, API가 EU 시민의 개인 데이터를 처리하는 경우 GDPR 준수가 필수적입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 관련 보안 기준과 규정을 준수함으로써, API가 법적 및 산업 요구 사항을 만족할 뿐만 아니라 민감한 데이터를 보호하고 견고한 보안 포지션을 유지함에 대한 약속을 보여줄 수 있습니다.
 
@@ -622,7 +987,18 @@ API에 관련된 GDPR의 중요 요구 사항은 다음과 같습니다:
 
 보안 인식 교육
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 귀하의 개발자, 운영 팀 및 API 개발 및 관리에 관여하는 다른 직원에게 정기적인 보안 인식 훈련을 제공하는 것은 중요합니다. 이 교육은 다음과 같은 주제를 다루어야 합니다:
 
@@ -637,7 +1013,18 @@ API에 관련된 GDPR의 중요 요구 사항은 다음과 같습니다:
 
 보안 개발 수명주기(SDL)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보안 개발 생명 주기(Secure Development Lifecycle, SDL)를 구현하면 보안 관행과 고려 사항을 소프트웨어 개발 과정 전반에 걸쳐 통합할 수 있습니다. 이는 설계 및 개발부터 테스트 및 배포까지 전 과정에 걸친 중요한 역할을 합니다.
 
@@ -653,7 +1040,18 @@ API에 관련된 GDPR의 중요 요구 사항은 다음과 같습니다:
 
 SDL을 도입함으로써 API의 전 과정, 시작부터 배포를 넘어서까지 보안이 전체 생명 주기에 고루 내장되도록 할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보안 챔피언과 전도사들
 
@@ -667,7 +1065,18 @@ SDL을 도입함으로써 API의 전 과정, 시작부터 배포를 넘어서까
 - 보안 계획을 전도하고 안전한 실천방안의 채택을 주도
 - 개발팀과 보안팀 간의 연결고리 역할 담당
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보안 챔피언과 전도사들을 뒷받침함으로써, 귀하의 조직 전반에 보급되는 강력한 보안 문화를 육성할 수 있습니다. 이를 통해 보안이 API의 개발과 관리에서 공유 책임이자 핵심 가치임을 보장할 수 있습니다.
 
@@ -677,6 +1086,17 @@ SDL을 도입함으로써 API의 전 과정, 시작부터 배포를 넘어서까
 
 게다가 API 게이트웨이 및 서비스 메쉬를 활용하면 API 인프라를 관리하고 보호하기 위한 중앙 집중식 제어 플레인을 제공할 수 있습니다. 정기적인 보안 테스트, 관련 표준 및 규정 준수, 교육 및 안전한 개발 실천을 통한 보안 인식 문화 조성이 동등하게 중요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 API 보안은 지속적인 주의, 적응 및 개선을 요구하는 지속적인 프로세스입니다. 새로운 위협과 취약점이 나타날 때마다 대응하는 것이 중요합니다. API 보안에 대해 선제적이고 포괄적인 접근을 채택함으로써 소중한 데이터와 시스템을 보호하고 사용자와 고객의 신뢰를 유지하며 API 에코시스템의 장기적인 성공과 신뢰성을 보장할 수 있습니다.

@@ -3,17 +3,13 @@ title: "Nextjs와 TypeScript로 저장소 셋팅하는 방법 (2024년 최신)"
 description: ""
 coverImage: "/assets/img/2024-07-27-MasteringNextJSArchitecturewithTypeScriptinMindDesignAbstractions2024_0.png"
 date: 2024-07-27 14:05
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-27-MasteringNextJSArchitecturewithTypeScriptinMindDesignAbstractions2024_0.png
 tag: Tech
 originalTitle: "Mastering NextJS Architecture with TypeScript in Mind  Design Abstractions 2024"
 link: "https://medium.com/@sviat-kuzhelev/mastering-nextjs-architecture-with-typescript-in-mind-design-abstractions-2024-a6f9612300d1"
 isUpdated: true
 ---
-
-
-
-
 
 Markdown으로 변경
 ![이미지](/assets/img/2024-07-27-MasteringNextJSArchitecturewithTypeScriptinMindDesignAbstractions2024_0.png)
@@ -24,7 +20,18 @@ Next.js는 React 애플리케이션을 구축하기 위한 강력한 프레임�
 
 이 글을 읽으시며 GitHub 프로젝트 링크를 공유해드리니 망설이지 말고 포크하여 실험해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 https://github.com/BiosBoy/my-social-app
 

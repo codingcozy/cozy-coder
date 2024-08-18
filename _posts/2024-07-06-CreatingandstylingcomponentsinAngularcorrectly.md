@@ -3,16 +3,13 @@ title: "Angular에서 컴포넌트를 제대로 생성하고 스타일링하는 
 description: ""
 coverImage: "/assets/img/2024-07-06-CreatingandstylingcomponentsinAngularcorrectly_0.png"
 date: 2024-07-06 11:05
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-06-CreatingandstylingcomponentsinAngularcorrectly_0.png
 tag: Tech
 originalTitle: "Creating and styling components in Angular correctly"
 link: "https://medium.com/stackademic/creating-and-styling-components-in-angular-correctly-52c93b062759"
 isUpdated: true
 ---
-
-
-
 
 ![](/assets/img/2024-07-06-CreatingandstylingcomponentsinAngularcorrectly_0.png)
 
@@ -22,7 +19,18 @@ Angular에서 컴포넌트는 사용자 인터페이스를 만들기 위한 기�
 
 언제든지 Angular 애플리케이션을 보고 있는지 알 수 있습니다. 그냥 DevTools를 열고 DOM을 분석하면 됩니다. 일반적인 div와 span 요소 외에도 app-_, ng-_, mat-\* 등 대체적으로 Angular 컴포넌트가 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 생성하는 구성 요소는 모두 DOM 요소입니다. render()를 호출하는 컨테이너가 아니며, 뒤에 선택기 대신 정확한 템플릿을 전달합니다. 이 부분 때문에 Angular가 display:contents를 가진 요소를 생성한다고 생각할 수 있지만, 컴포넌트는 기본적으로 display:inline 스타일을 가지므로 요소에 무게가 있습니다.
 
@@ -32,7 +40,18 @@ Angular에서 컴포넌트는 사용자 인터페이스를 만들기 위한 기�
 
 당신의 컴포넌트는 이미 래퍼입니다. 스타일이 없을 뿐입니다. 그러므로 요소를 그룹화하고 정렬하기 위해 컴포넌트 내에 `div`/div` 래퍼를 만들지 마십시오. 컴포넌트의 스타일 파일에 필요한 설정과 함께 :host를 추가하는 것이 충분합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 :host {
@@ -71,7 +90,18 @@ Angular에서 컴포넌트는 사용자 인터페이스를 만들기 위한 기�
 
 그리고 입력을 통해 이를 제어할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @HostBinding('[attr.data-status]')
@@ -87,7 +117,18 @@ public status: 'success' | 'warn' | 'error' | 'default' = 'default'
 
 # 다시 만들지 말고, 더 나은 상속하세요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 'table'을 생성하고 테이블의 'tr' 행을 구성 요소로 사용하고 싶다고 가정해 봅시다.
 
@@ -101,7 +142,18 @@ public status: 'success' | 'warn' | 'error' | 'default' = 'default'
 
 하지만 이 방법이 올바르지 않은 이유가 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컴포넌트 선택기는 템플릿 중에서 일치하는 항목을 찾아 요소 대신 컴포넌트를 생성하는 매개변수입니다. 즉, 네이티브 querySelector() 함수와 함께 작업할 때 허용된 태그, 속성, id, CSS 클래스 등을 선택기로 지정할 수 있습니다.
 
@@ -115,7 +167,18 @@ public status: 'success' | 'warn' | 'error' | 'default' = 'default'
 </table>
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이렇게 하면 의미를 보존할 수 있고 표가 개별 부분으로 분해되도록 할 수 있어요. 구성 요소는 이미 `tr` 속성이 있기 때문에 :host에 따로 쓸 필요가 없어요.
 
@@ -125,7 +188,18 @@ public status: 'success' | 'warn' | 'error' | 'default' = 'default'
 
 구성 요소가 요소인 것을 알고 있으면 구성 요소 내부에서 CSS 클래스나 속성을 적용할 수도 있어요. 전역 CSS 클래스를 상속하거나 자체 고유한 값으로 요소 식별자를 만드는 것과 같아요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 경우에는 아마도 이렇게 할 것입니다
 
@@ -141,7 +215,18 @@ private readonly _id = window.crypto.randomUUID()
 
 이러한 정적 바인딩을 호스트에서 선언하고 컴포넌트 클래스에서 배제할 수 있습니다. 이러한 정적 바인딩을 @Component에서 선언하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @Component({
@@ -170,7 +255,18 @@ HostBinding을 통한 동일한 바인딩이지만, 클래스 코드가 더 깔�
 })
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 믹스인
 
@@ -190,7 +286,18 @@ HostBinding을 통한 동일한 바인딩이지만, 클래스 코드가 더 깔�
 
 공통 스타일 믹스인을 사용하고 싶은 컴포넌트를 개발 중입니다
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 .title {
@@ -206,7 +313,18 @@ HostBinding을 통한 동일한 바인딩이지만, 클래스 코드가 더 깔�
 
 ![](/assets/img/2024-07-06-CreatingandstylingcomponentsinAngularcorrectly_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 잘못된 점은 무엇인가요? — 불필요한 중복 스타일을 만들었습니다.
 
@@ -225,7 +343,18 @@ HostBinding을 통한 동일한 바인딩이지만, 클래스 코드가 더 깔�
 </p>
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로운 셀렉터를 사용하여 이러한 요소의 특정성을 반영하는 다른 스타일을 적용하거나 사용하지 않는 것이 좋습니다.
 
@@ -247,7 +376,18 @@ HostBinding을 통한 동일한 바인딩이지만, 클래스 코드가 더 깔�
 
 # 공유 스타일
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 런타임에서 두 컴포넌트에서 반복되는 여러 CSS 클래스와 속성을 발견했다고 가정해봅시다.
 
@@ -257,7 +397,18 @@ HostBinding을 통한 동일한 바인딩이지만, 클래스 코드가 더 깔�
 
 - shared/styles/text.scss
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .title {
@@ -280,7 +431,18 @@ HostBinding을 통한 동일한 바인딩이지만, 클래스 코드가 더 깔�
 
 - Component 2
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @Component({
@@ -295,7 +457,18 @@ HostBinding을 통한 동일한 바인딩이지만, 클래스 코드가 더 깔�
 
 이제 Angular는 styleUrls에 각 파일마다 별도의 `style` 태그를 생성할 뿐이며 그 이상도 그 이하도 아닙니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컴포넌트에서 스타일 반복을 줄이려면 주요 목표는 애플리케이션 내에서 스타일을 사용 가능하게 하고 재사용하는 것입니다.
 
@@ -307,7 +480,18 @@ HostBinding을 통한 동일한 바인딩이지만, 클래스 코드가 더 깔�
 
 중복 스타일이 문제가 아니라 CSS 사용을 제어하는 방법으로 고려하세요. 이러한 컴포넌트 중 하나를 제거하면 중복 코드도 함께 제거되고 스타일은 단일 인스턴스로 남게 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

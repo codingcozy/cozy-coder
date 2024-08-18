@@ -3,7 +3,7 @@ title: "NestJS 개발시 유의해야할 점 5가지"
 description: ""
 coverImage: "/assets/img/2024-08-13-WhatIRegretAboutNestJS_0.png"
 date: 2024-08-13 11:04
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-13-WhatIRegretAboutNestJS_0.png
 tag: Tech
 originalTitle: "What I Regret About NestJS"
@@ -11,7 +11,6 @@ link: "https://medium.com/@kalkidant/what-i-regret-about-nestjs-93fb835c19e3"
 isUpdated: true
 updatedAt: 1723863445332
 ---
-
 
 NestJS를 배우기 전에 이것을 알아두세요! NestJS를 배우려고 계획 중이고 이것이 좋은 아이디어인지 궁금하다면, 빠져들기 전에 알아두어야 할 몇 가지 사항이 있습니다. NestJS는 귀하의 생산성을 크게 향상시킬 수 있는 훌륭한 프레임워크이지만, 확장 가능한 서버 측 애플리케이션을 구축하는 데 특히 유용합니다. 그러나 나는 미리 알았더라면 큰 시간과 스트레스를 절약할 수 있는 중요한 사항들이 있었을 겁니다.
 
@@ -21,7 +20,18 @@ NestJS를 배우기 전에 이것을 알아두세요! NestJS를 배우려고 계
 
 그렇다, 귀하가 들었습니다! NestJS와 같은 Node.js 프레임워크를 만나본 적이 없습니다. 그것은 최고의 최고입니다. NestJS가 Node.js 개발에 가져온 수준의 구조와 조직은 무죄합니다. 익숙하지 않다면, 먼저 NestJS가 무엇인지 설명하겠습니다:-
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![NestJS](/assets/img/2024-08-13-WhatIRegretAboutNestJS_1.png)
 
@@ -31,7 +41,18 @@ NestJS의 멋진 점 중 하나는 인기 있는 프런트엔드 애플리케이
 
 NestJS는 코드를 이른 시점에 오류를 잡아내고 코드를 더 안정적으로 만들기 위한 몇 가지 추가 도구를 제공하는 JavaScript의 버전 인 TypeScript를 사용합니다. 또한 프레임워크는 앱을 위한 "모듈"이라는 개념을 중심으로 구축되어 있습니다. 각 모듈은 앱의 특정 부분을 처리할 수 있으므로 개발 및 유지 관리가 더 쉬워집니다. 게다가 빠르게 프로젝트를 설정하고 관리하는 데 도움이 되는 명령줄 도구와 같은 많은 내장 기능이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2. 시작 시점을 훨씬 일찍 잡는 것
 
@@ -41,7 +62,18 @@ NestJS는 직관적인 CLI와 강력한 도구로 개발을 쉽게 만듭니다.
 
 Node.js로 작업할 때 애플리케이션 아키텍처를 처음부터 직접 구축해야 합니다. 이는 자유롭게 설계할 수 있는 흥미로운 과정일 수 있습니다. 하지만 초심자들에게는 이 자유가 혼란을 초래하거나 너무 많은 것을 이해해야 한다는 점으로 인해 혼란스럽거나 엉망인 구조로 이어질 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한편, NestJS를 사용하고 있다면, 많은 부분이 이미 처리되어 있습니다. NestJS에는 내장된 아키텍처가 제공되어 구조 설정에 대해 걱정할 필요가 없습니다. 마치 앱을 쉽게 구축할 수 있도록 도와주는 청사진이 있는 것처럼 보입니다.
 
@@ -51,7 +83,18 @@ Node.js로 작업할 때 애플리케이션 아키텍처를 처음부터 직접 
 
 ## 3. 더 빨리 이에 대한 글을 쓰지 않았다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 NestJS에 대해 가장 좋아하는 점 중 하나는 코드 전체에 걸쳐 일관성을 강제하는 방식입니다. 작은 프로젝트든 대규모 기업 애플리케이션이든 상관없이 NestJS를 사용하면 예측 가능하고 확장 가능한 아키텍처를 유지하는 것이 쉬워집니다.
 
@@ -61,7 +104,18 @@ NestJS에 대해 가장 좋아하는 점 중 하나는 코드 전체에 걸쳐 �
 
 또한 NestJS의 핵심 기능 중 하나인 데코레이터의 사용 방식은 프레임워크의 독특한 이유 중 하나입니다. 데코레이터는 TypeScript의 기능으로, 클래스, 메서드, 속성 또는 매개변수에 메타데이터를 추가할 수 있게 합니다. 이들은 요소들의 동작을 수정하거나 추가 정보를 제공하는 함수들로 볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 네스트JS의 데코레이터는 작성해야 하는 보일러플레이트 코드의 양을 줄여줍니다. 라우팅을 수동으로 설정하거나 의존성을 주입하는 대신, @Controller, @Get, @Post, @Injectable 등과 같은 데코레이터를 사용하여 선언적으로 이러한 작업을 처리합니다. 이를 통해 코드를 더 깔끔하고 가독성 있게 만들 수 있습니다.
 
@@ -69,7 +123,18 @@ NestJS에 대해 가장 좋아하는 점 중 하나는 코드 전체에 걸쳐 �
 
 예를 들어 @Injectable 및 @Inject를 사용하면 네스트JS의 강력한 의존성 주입 시스템을 활용할 수 있습니다. 이 시스템을 사용하면 수동으로 생명 주기를 관리하지 않고도 서비스, 리포지토리 및 기타 종속성을 클래스에 주입할 수 있습니다. 이는 재사용성, 관심사 분리 및 느슨한 결합을 촉진하여 응용 프로그램을 테스트하고 유지 관리하기 쉽게 만들어줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 NestJS가 개발의 여러 측면을 변화시킨 방법에 대해 계속 이야기할 수 있겠지만, 나머지는 여러분이 직접 탐험하고 발견하기를 기대합니다.
 

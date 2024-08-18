@@ -3,17 +3,13 @@ title: "S3 파일 업로드에 반응하는 AWS Lambda 설정 방법"
 description: ""
 coverImage: "/assets/img/2024-07-07-AwsLambdathatReactstoS3FileUpload_0.png"
 date: 2024-07-07 23:13
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-AwsLambdathatReactstoS3FileUpload_0.png
 tag: Tech
 originalTitle: "Aws Lambda that Reacts to S3 File Upload"
 link: "https://medium.com/gitconnected/aws-lambda-that-reacts-to-s3-file-upload-4d16b08fede1"
 isUpdated: true
 ---
-
-
-
-
 
 ![Architecture](/assets/img/2024-07-07-AwsLambdathatReactstoS3FileUpload_0.png)
 
@@ -24,7 +20,18 @@ isUpdated: true
 - 전체 크기 이미지의 썸네일 버전 생성
 - 엑셀 파일에서 데이터 읽기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Ana씨 여러분
 

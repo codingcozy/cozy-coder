@@ -3,17 +3,13 @@ title: "LIME을 사용한 로컬 해석의 깊은 탐구"
 description: ""
 coverImage: "/assets/img/2024-07-07-ADeepDiveonLIMEforLocalInterpretations_0.png"
 date: 2024-07-07 23:59
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-ADeepDiveonLIMEforLocalInterpretations_0.png
 tag: Tech
 originalTitle: "A Deep Dive on LIME for Local Interpretations"
 link: "https://medium.com/towards-data-science/a-deep-dive-on-lime-for-local-interpretations-872bea23952f"
 isUpdated: true
 ---
-
-
-
-
 
 ![Korean](/assets/img/2024-07-07-ADeepDiveonLIMEforLocalInterpretations_0.png)
 
@@ -23,7 +19,18 @@ LIME은 XAI 방법론 중의 OG입니다. 기계 학습 모델이 어떻게 작�
 
 그래서 우리는:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 로컬 해석을 얻기 위해 LIME이 취한 단계에 대해 논의합니다.
 - 그에 따른 몇 가지 선택 사항에 대해 자세히 논의하겠습니다. 예를 들어 샘플 가중치 및 대리 모델 선택 등.

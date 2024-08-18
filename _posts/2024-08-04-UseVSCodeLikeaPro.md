@@ -3,17 +3,13 @@ title: "VS Code를 더 잘 사용하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-04-UseVSCodeLikeaPro_0.png"
 date: 2024-08-04 18:37
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-04-UseVSCodeLikeaPro_0.png
 tag: Tech
 originalTitle: "Use VS Code Like a Pro"
 link: "https://medium.com/javascript-in-plain-english/use-vs-code-like-a-pro-53973daa534f"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-08-04-UseVSCodeLikeaPro_0.png" />
 
@@ -23,19 +19,40 @@ VS Code은 강력하지만 적절한 조정으로 더욱 효과적으로 사용�
 
 파일 트리를 더 명확하고 조직적으로 만들어보세요! 구성 파일에 다음 설정을 추가하세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - VS Code을 열어주세요.
 - 명령 팔레트를 열어주세요:
-  
+
   - Cmd + Shift + P를 눌러주세요.
 
 3. "Preferences: Open Settings (JSON)"을 입력하고 선택해주세요:
-  
-  - 명령 팔레트에 settings.json을 입력하고 Preferences: Open Settings (JSON)을 선택해주세요.
 
-<div class="content-ad"></div>
+- 명령 팔레트에 settings.json을 입력하고 Preferences: Open Settings (JSON)을 선택해주세요.
 
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. settings.json에 다음 라인을 추가하세요:
 
@@ -53,8 +70,18 @@ VS Code은 강력하지만 적절한 조정으로 더욱 효과적으로 사용�
 
 Fira Code로 변경하세요! 이 폰트는 프로그래밍 리거처들을 갖추고 있어 코드를 더 읽기 쉽고 미적으로 감각적으로 만들어줍니다. 설치하는 방법은 다음과 같습니다:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Fira Code 다운로드:
 
@@ -65,7 +92,18 @@ Fira Code로 변경하세요! 이 폰트는 프로그래밍 리거처들을 갖�
 - 맥에서: 다운로드한 .ttf 파일을 열고 "폰트 설치"를 클릭합니다.
 - 윈도우에서: 다운로드한 .ttf 파일에 마우스 오른쪽 버튼을 클릭하고 "설치"를 선택합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. VS Code 설정하기:
 
@@ -81,7 +119,18 @@ Fira Code로 변경하세요! 이 폰트는 프로그래밍 리거처들을 갖�
 
 <img src="/assets/img/2024-08-04-UseVSCodeLikeaPro_1.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3. 새로운 테마 탐색하기
 
@@ -91,7 +140,18 @@ Fira Code로 변경하세요! 이 폰트는 프로그래밍 리거처들을 갖�
 
 ![One Dark Pro](/assets/img/2024-08-04-UseVSCodeLikeaPro_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 드라큘라 공식: 선명한 색상과 어두운 배경.
 
@@ -101,7 +161,18 @@ Fira Code로 변경하세요! 이 폰트는 프로그래밍 리거처들을 갖�
 
 ![](/assets/img/2024-08-04-UseVSCodeLikeaPro_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 4. 아이콘 강화: Material Icon Theme
 
@@ -111,7 +182,18 @@ Fira Code로 변경하세요! 이 폰트는 프로그래밍 리거처들을 갖�
 
 # 간단하게 설명하기 🚀
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "In Plain English" 커뮤니티에 참여해 주셔서 감사합니다! 떠나시기 전에:
 

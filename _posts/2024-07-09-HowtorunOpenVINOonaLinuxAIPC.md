@@ -3,17 +3,13 @@ title: "Linux AI PC에서 OpenVINO 실행하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-HowtorunOpenVINOonaLinuxAIPC_0.png"
 date: 2024-07-09 10:00
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-HowtorunOpenVINOonaLinuxAIPC_0.png
 tag: Tech
 originalTitle: "How to run OpenVINO™ on a Linux AI PC"
 link: "https://medium.com/openvino-toolkit/how-to-run-openvino-on-a-linux-ai-pc-52083ce14a98"
 isUpdated: true
 ---
-
-
-
-
 
 ## CPU, GPU 및 NPU의 혜택
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-07-09-HowtorunOpenVINOonaLinuxAIPC_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # AI PC이 무엇이며, 왜 특별한 이름을 가지고 있나요?
 
@@ -33,7 +40,18 @@ AI PC는 현재 핫한 주제입니다. 일반 PC와 달리 AI PC는 강력한 G
 
 OpenVINO™은 다양한 하드웨어 플랫폼에 대한 AI 모델 최적화, 추론 가속화 및 간편한 배포를 위한 오픈 소스 AI 툴킷입니다. OpenVINO을 사용하면 AI 모델 인퍼런싱을 AI PC의 CPU, GPU 및 NPU에서 쉽게 실행할 수 있습니다. 그 전에 우분투 24.04를 사용하겠습니다. 이는 최신 우분투 LTS 버전입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 신선한 우분투 설치에서 시작해보세요. 그런 다음 다음 명령어를 사용하여 가상 환경을 만들고 OpenVINO을 설치해보세요:
 
@@ -51,7 +69,18 @@ core = ov.Core()
 print(core.available_devices)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 시점에서 CPU에만 액세스 권한이 있어야 합니다. 그건 좋지 않아요! 결국, 노트북에는 GPU와 NPU도 있어요! 그러니 그 문제를 해결해 봐요.
 
@@ -69,7 +98,18 @@ echo "deb [arch=amd64,i386 signed-by=/usr/share/keyrings/intel-graphics.gpg] htt
 sudo apt update
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 알겠어요. GPU 추론을 위해 필요한 모든 것을 설치할 시간이에요.
 
@@ -88,7 +128,18 @@ sudo apt install -y \
 sudo reboot
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래의 파이썬 코드를 다시 실행해 보겠어요.
 
@@ -104,7 +155,18 @@ print(core.available_devices)
 sudo apt install libtbb12
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 후, NPU 드라이버와 관련 패키지를 다운로드하고 설치해야 합니다.
 
@@ -124,9 +186,20 @@ sudo bash -c "echo 'SUBSYSTEM==\"accel\", KERNEL==\"accel*\", GROUP=\"render\", 
 sudo usermod -a -G render <your-user-name>
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-마지막으로 변경 사항을 적용하기 위한 재부팅이 필요합니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+마지막으로 변경 사항을 적용하기 위한 재부팅이 필요합니다.
 
 ```js
 sudo reboot
@@ -140,7 +213,18 @@ core = ov.Core()
 print(core.available_devices)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 CPU, GPU 및 NPU가 이제 보입니다! 즐기세요!
 
@@ -150,7 +234,18 @@ NPU 표시에 문제가 있을 경우 이 페이지를 방문해주세요.
 
 성능은 사용, 구성 및 기타 요인에 따라 다를 수 있습니다. 성능 지수 사이트에서 자세히 알아보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 성능 결과는 구성에 표시된 날짜의 테스트를 기반으로 하며 모든 공개 업데이트를 반영하지 않을 수 있습니다. 구성 세부 정보는 백업을 참조해 주세요. 어떤 제품이나 구성 요소도 완벽하게 안전할 수 없습니다. 비용과 결과는 다를 수 있습니다. 인텔 기술은 활성화된 하드웨어, 소프트웨어 또는 서비스 활성화가 필요할 수 있습니다.
 

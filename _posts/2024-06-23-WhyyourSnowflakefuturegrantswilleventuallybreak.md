@@ -3,17 +3,13 @@ title: "Snowflake의 미래 부여가 결국 실패할 이유"
 description: ""
 coverImage: "/assets/img/2024-06-23-WhyyourSnowflakefuturegrantswilleventuallybreak_0.png"
 date: 2024-06-23 16:32
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-WhyyourSnowflakefuturegrantswilleventuallybreak_0.png
 tag: Tech
 originalTitle: "Why your Snowflake future grants will eventually break"
 link: "https://medium.com/@duran9987/why-your-snowflake-future-grants-will-eventually-break-0d74299ffe69"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-23-WhyyourSnowflakefuturegrantswilleventuallybreak_0.png" />
 
@@ -25,7 +21,18 @@ isUpdated: true
 create role MyFirstRole;
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 계획은 이 역할에 대해 MyDatabase 라는 데이터베이스에 대해 완전한 읽기 액세스 권한을 부여하는 것입니다. MyDatabase 내의 모든 스키마의 모든 현재 테이블 및 뷰를 선택할 수 있도록하고 싶습니다.
 
@@ -40,7 +47,18 @@ grant select on all views in database MyDatabase to role MyFirstRole;
 
 그러나 시간이 흐른다면 데이터베이스에 새로운 테이블 및 뷰가 생성될 것입니다. 새로운 개체가 생성될 때마다 MyFirstRole에게 수동으로 선택 권한을 부여하는 것은 비현실적입니다. 다행히도 미래의 권한 부여가 이 문제를 해결해 줄 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 미래 스키마에서 MyDatabase 내의 향후 역할에 대한 사용 권한을 MyFirstRole 역할에 부여합니다.
@@ -54,7 +72,18 @@ grant select on all views in database MyDatabase to role MyFirstRole;
 
 MyDatabase에는 MySchema라는 스키마가 있다고 가정합시다. MySecondRole은 MySchema 내의 현재 및 향후 테이블 및 뷰에서만 선택할 수 있고 다른 작업은 제한되어야 한다고 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 조금만 더 해야겠어요...
 
@@ -72,7 +101,18 @@ grant select on future views in schema MyDatabase.MySchema to role MySecondRole;
 
 그리고 이것이 미래의 권한이 결국 망가지게 되는 이유입니다...
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-23-WhyyourSnowflakefuturegrantswilleventuallybreak_1.png" />
 
@@ -82,7 +122,18 @@ grant select on future views in schema MyDatabase.MySchema to role MySecondRole;
 
 읽어 주셔서 감사합니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 부담 가지지 마시고 언제든지 인사해주세요 👋
 

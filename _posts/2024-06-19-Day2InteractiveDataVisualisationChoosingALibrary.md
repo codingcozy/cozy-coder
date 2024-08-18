@@ -3,17 +3,13 @@ title: "2일차 상호작용형 데이터 시각화  라이브러리 선택하�
 description: ""
 coverImage: "/assets/img/2024-06-19-Day2InteractiveDataVisualisationChoosingALibrary_0.png"
 date: 2024-06-19 09:30
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-Day2InteractiveDataVisualisationChoosingALibrary_0.png
 tag: Tech
 originalTitle: "Day 2: Interactive Data Visualisation — Choosing A Library 📊"
 link: "https://medium.com/@cubode/day-2-interactive-data-visualisation-choosing-a-library-a31f8df094e7"
 isUpdated: true
 ---
-
-
-
-
 
 ![Data visualisation](/assets/img/2024-06-19-Day2InteractiveDataVisualisationChoosingALibrary_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 선택된 라이브러리
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 생성된 차트가 상호작용적이 되려면 클라이언트 측(브라우저 내)에서 렌더링되어야 했습니다. 서버 측에서 차트를 생성하려면 차트를 정적 png 또는 jpeg 파일로 저장한 다음 해당 파일을 클라이언트에 제공하여 표시해야 합니다. 문제는 이러한 차트가 정적이 된다는 점입니다. ChatGPT가 데이터를로드하면 시각화 차트를 생성하는 방식과 유사합니다. 우리가 커뮤니티를 위해 만들고자 했던 것은 이것보다 더 뛰어난 것이었습니다. 그래서 몇 차례의 연구 끝에 우리는 결정을 내렸습니다.👇
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ECharts는 멋진 오픈 소스 자바스크립트 데이터 시각화 라이브러리로, 강력한 렌더링 엔진을 제공하여 디자인이 우아하고 브라우저에서 표시될 때 상호작용적인 다양한 데이터 시각화 차트를 만들 수 있습니다. 📈🙌
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ECharts의 각 차트에는 다른 데이터 구조가 있어서 차트가 제대로 표시됩니다. 놀라운 다양한 차트뿐만 아니라 활기찬 커뮤니티도 자랑합니다, 그래서 지원이 필요할 때 언제나 단기간에 부족함이 없습니다 💪.
 
@@ -43,7 +61,18 @@ ECharts의 각 차트에는 다른 데이터 구조가 있어서 차트가 제�
 
 ![Example 2](/assets/img/2024-06-19-Day2InteractiveDataVisualisationChoosingALibrary_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 이것이 AI 에이전트와 어떤 관련이 있는지 알아보겠어요.
 
@@ -53,6 +82,17 @@ ECharts의 각 차트에는 다른 데이터 구조가 있어서 차트가 제�
 
 # 함께 참여하세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 계속 주목해주세요! 앞으로 30일 동안 매일 글을 게시할 예정이에요. 저희 진행 상황에 대한 업데이트도 있을 거예요 🚀. 만약 이 에이전트의 첫 사용자 중 한 명이 되고 싶다면 www.cubode.com 으로 이동해서 첫 액세스를 받으세요.

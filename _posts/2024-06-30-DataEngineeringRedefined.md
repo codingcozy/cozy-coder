@@ -3,17 +3,13 @@ title: "데이터 엔지니어링, 2024년 최신 동향 및 변화"
 description: ""
 coverImage: "/assets/img/2024-06-30-DataEngineeringRedefined_0.png"
 date: 2024-06-30 18:56
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-30-DataEngineeringRedefined_0.png
 tag: Tech
 originalTitle: "Data Engineering, Redefined"
 link: "https://medium.com/towards-data-science/data-engineering-redefined-643249cbbadd"
 isUpdated: true
 ---
-
-
-
-
 
 ## 데이터 엔지니어링이 오늘날 어떻게 실천되고 왜 다시 정의해야 하는지
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 하지만 다시 정의해야 할 부분을 설명하고 싶기 때문에, 현재 상태와 우리 모두가 직면한 혼란을 명확히 대변하는 인기 있는 정의 중 하나를 사용하는 것이 더 나을 것입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 정의 자체가 좋습니다. 이제 문제는 무엇인가요?
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 그에 따라 데이터 엔지니어링은 원시 데이터를 가공하고 사용 사례를 지원하는 정보로 변환합니다. 예시로는 분석이나 머신러닝을 들었지만, 이는 모든 다른 사용 사례를 포함한다고 가정할 수 있을 것 같습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 변환은 저와 제 동료 데이터 엔지니어들을 미치게 만드는 원동력입니다. 데이터 변환은 원시 데이터에 올바른 논리를 적용하여 정보로 변환하는 거대한 작업이며, 여러 가지 지능형 사용 사례를 가능하게 합니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 그러나 해결책은 모든 데이터 엔지니어가 애플리케이션 개발자가 되어야 한다는 것이 아닙니다. 데이터 엔지니어들은 여전히 자격을 갖춘 소프트웨어 엔지니어여야 하지만 반드시 애플리케이션 개발자가 되어야 하는 것은 아닙니다. 대신, 나는 데이터 엔지니어링을 "데이터의 이동, 조작, 및 관리에 관한 모든 것"으로 재정의하는 것을 주장합니다. 이 정의는 Lewis Gavin의 책 "데이터 엔지니어링이란 무엇인가? (O'Reilly, 2019)"에서 나온 것입니다. 그러나 현재의 실천 방식과 명확한 차이점으로, 우리는 조작을 순수하게 기술적인 것으로 제한해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 매우 명확하게 말하자면, 데이터 엔지니어링은 비즈니스 로직을 구현해서는 안 됩니다. 현대 애플리케이션 개발의 트렌드는 실제로 상태를 유지하지 않는 애플리케이션 로직을 상태 관리와 분리하는 것입니다. 우리는 데이터베이스에 애플리케이션 로직을 넣지 않고, 지속적인 상태(또는 데이터)를 애플리케이션에 넣지 않습니다. 함수형 프로그래밍 커뮤니티에서는 농담으로 "우리는 성과 교회의 분리를 믿습니다"라고 말합니다. 이제 "어디가 웃긴 건데?" 라고 생각한다면, 아마 이것이 도움이 될 것입니다. 그러나 이제 농담은 하지 말고 진지하게 말할 때입니다: "비즈니스 로직과 비즈니스 데이터의 분리를 믿어야 합니다". 따라서 데이터 관련 문제는 데이터 엔지니어에게, 로직 관련 문제는 해당 데이터 집합에 대한 비즈니스 도메인의 응용 프로그램 개발자에게 명시적으로 맡겨야 한다고 믿습니다.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 <img src="/assets/img/2024-06-30-DataEngineeringRedefined_0.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 왜 이 간단하고 명백한 원칙을 떠나가고 있는지 궁금해요.
 
@@ -61,7 +101,18 @@ isUpdated: true
 
 결국, 모든 소프트웨어 엔지니어가 데이터베이스 내에 애플리케이션 로직을 함께 묶는 유혹에 빠진 것은 아니었고, 보다 깨끗한 분리를 위한 희망이 남아 있었죠. 데이터 양과 복잡성이 계속해서 증가함에 따라 Hadoop과 그 후속 제품들과 같은 빅 데이터 도구들이 등장했고, 어떤 분야에서는 전통적인 데이터베이스를 대체하기도 했어요. 이러한 변화는 비즈니스 로직을 데이터베이스 밖으로 이동시키고 다시 어플리케이션 개발자에게로 이동할 수 있는 기회를 제공했어요. 그러나 데이터 엔지니어링이 데이터 이동과 관리뿐만 아니라 복잡한 비즈니스 정보, 고급 분석 및 복잡한 변환 파이프라인을 지원하는 것이 이미 자리잡아 있었어요. 이러한 도구들은 현대 데이터 스택(MDS)의 필수 구성 요소가 되어 데이터 엔지니어링을 자체적인 분야로 확립시켰어요. MDS는 데이터 처리와 변환을 위한 다양한 도구 세트로 구성되어 있지만, 이러한 도구들은 일반적인 어플리케이션 개발자나 소프트웨어 엔지니어들에게는 여전히 잘 알려지지 않았어요. 데이터베이스를 내부로 전환하고 비즈니스 로직을 다시 어플리케이션 레이어로 이동시킬 수 있는 가능성에 완전히 포용하지 못했지만, 안타까운 실천으로 비즈니스 로직 구현은 오늘날에도 데이터 엔지니어들에게 남아 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 데이터 엔지니어링을 다시 정의하는 방법
 
@@ -71,7 +122,18 @@ isUpdated: true
 
 그렇다면 조 리스(Joe Reis)와 맷 하우슬리(Matt Housley)가 정의한 데이터 웨어하우스 시스템 및 전반적인 "데이터 엔지니어링 수명주기"와 같은 멋진 아이디어들은 어떻게 됐을까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "데이터 파이프라인"은 실제로 애플리케이션 간의 에이전트일 뿐이지만, 파이프라인에 비즈니스 로직이 구현되어야 하는 경우, 이러한 시스템들은 기업 내의 자체 애플리케이션으로 간주되어야 합니다. 비즈니스 도메인에서 애플리케이션 개발자들이 유지해야 하는 애플리케이션으로 데이터 엔지니어에 의해 유지되어서는 안 됩니다.
 
@@ -81,6 +143,17 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-30-DataEngineeringRedefined_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 재정의된 데이터 엔지니어링 실천은 제가 이 세 파트의 시리즈에서 제안한 적응된 데이터 메쉬 접근 방식과 일치합니다.

@@ -3,17 +3,13 @@ title: "데이터 분석을 위한 SQL 배우는 법"
 description: ""
 coverImage: "/assets/img/2024-06-19-HowtoLearnSQLforDataAnalytics_0.png"
 date: 2024-06-19 05:24
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-HowtoLearnSQLforDataAnalytics_0.png
 tag: Tech
 originalTitle: "How to Learn SQL for Data Analytics"
 link: "https://medium.com/towards-data-science/how-to-learn-sql-for-data-analytics-5e50fa343b72"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-19-HowtoLearnSQLforDataAnalytics_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 아니면 아직 이 분야에 완전히 처음이시고 분석 분야의 채용정보를 집중적으로 찾으시는 분일 수도 있겠군요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떤 분야에 속하든 상관없이 데이터 분석 인터뷰에서 항상 시험을 받게 되는 하나의 기술이 있습니다: SQL.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 이 글은 세 가지 섹션으로 나뉘어 있습니다. 원하는 섹션으로 건너뛰어도 괜찮습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - SQL은 무엇이며 데이터 분석가에게 꼭 필요한 기술인 이유는 무엇인가요?
 - SQL을 배우는 방법은 무엇인가요?
@@ -45,7 +63,18 @@ isUpdated: true
 
 제 접근 방식을 변경한 후에야 구직 제의를 받기 시작했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 의견으로는, SQL 학습 여정 중 1/4 정도만 강의를 수강하고 콘텐츠를 소비하는 데 사용해야 한다고 생각해요.
 
@@ -55,7 +84,18 @@ isUpdated: true
 
 # 먼저... SQL이 뭔지, 그리고 왜 배워야 하는지를 알아볼게요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대부분의 회사들은 데이터를 데이터베이스에 저장합니다.
 
@@ -65,7 +105,18 @@ isUpdated: true
 
 당신은 데이터베이스에서 이러한 인사이트를 질의해야 합니다. 그리고 이 작업을 수행하기 위해 SQL이라는 프로그래밍 언어를 사용할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SQL은 Structured Query Language의 약자입니다.
 
@@ -75,7 +126,18 @@ SQL은 Structured Query Language의 약자입니다.
 
 ![Database Tables](/assets/img/2024-06-19-HowtoLearnSQLforDataAnalytics_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 SQL 쿼리를 사용하여 이러한 테이블과 상호 작용할 수 있어요.
 
@@ -87,7 +149,18 @@ Select * from Customers
 
 쉽죠? 😊
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SQL은 실제로 꽤 간단해요.
 
@@ -97,7 +170,18 @@ SQL은 실제로 꽤 간단해요.
 
 # SQL 배우는 방법?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 SQL이 무엇인지 알았으니 어떻게 이 언어를 배울 수 있을까요?
 
@@ -107,7 +191,18 @@ SQL을 가르치는 수천 개의 부트캠프와 온라인 강좌가 있습니�
 
 ## 단계 1: SQL 환경 설정
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SQL 구문 배우기 전에 데이터베이스 관리 시스템(DBMS)을 설정해야 합니다.
 
@@ -117,7 +212,18 @@ SQL 구문 배우기 전에 데이터베이스 관리 시스템(DBMS)을 설정�
 
 MySQL, PostgreSQL, SQLite 등 여러 유형의 데이터베이스 시스템을 선택할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글에서는 이러한 데이터베이스 시스템 간의 세세한 차이에 대해서 다루지 않을 거예요.
 
@@ -127,7 +233,18 @@ MySQL, PostgreSQL, SQLite 등 여러 유형의 데이터베이스 시스템을 �
 
 데이터 분석가로서 데이터베이스에서 통찰을 추출하고 그것을 비즈니스 결정에 활용할 거예요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 배워야 할 명령어를 세 가지 섹션으로 나누어 놓았어요:
 
@@ -142,7 +259,18 @@ SQL 초보자 레벨의 쿼리에는 다음과 같은 기본 개념이 포함되
 - Order by
 - Limit
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 개념들은 직관적이며, 배우는 데 단 1~2일이 걸릴 것입니다.
 
@@ -156,7 +284,18 @@ SQL 초보자 레벨의 쿼리에는 다음과 같은 기본 개념이 포함되
 - Subqueries
 - Case statements
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 SQL 쿼리들 또한 꽤 쉽습니다. 데이터를 병합하거나 피벗 테이블을 만들거나 지난번에 "if" 문을 작성했다면, 이 SQL 개념들을 아주 빠르게 습득할 수 있을 겁니다.
 
@@ -166,7 +305,18 @@ SQL 초보자 레벨의 쿼리에는 다음과 같은 기본 개념이 포함되
 
 언어의 기본을 마스터 했다면, 다음과 같은 더 고급 개념들을 배우실 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 공통 테이블 표현식 (CTEs)
 - Pivot 테이블
@@ -179,7 +329,18 @@ SQL 초보자 레벨의 쿼리에는 다음과 같은 기본 개념이 포함되
 
 다음은 위의 개념을 가르쳐줄 무료 학습 자료 3가지입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1. 4시간 만에 SQL 배우기 (Luke Barousse)
 
@@ -189,7 +350,18 @@ SQL 초보자 레벨의 쿼리에는 다음과 같은 기본 개념이 포함되
 
 튜토리얼에 나오는 모든 사용 사례와 문제 설명은 기타 강의에서 산업 범위를 벗어난 내용을 다루는 반면, 데이터 분석가에게 관련이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2. 초보자를 위한 MySQL (모쉬와 함께 프로그래밍)
 
@@ -199,7 +371,18 @@ SQL 초보자 레벨의 쿼리에는 다음과 같은 기본 개념이 포함되
 
 ## 3. W3Schools
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 W3Schools는 다양한 프로그래밍 언어를 다루는 대화식 웹사이트입니다.
 
@@ -209,7 +392,18 @@ W3Schools는 다양한 프로그래밍 언어를 다루는 대화식 웹사이�
 
 # SQL 면접 준비하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전에 이 기사에서 언급한 대로, 튜토리얼을 소비하는 것과 문제를 해결하기 위해 SQL 쿼리를 작성하는 것 사이에는 큰 차이가 있습니다.
 
@@ -219,7 +413,18 @@ SQL 인터뷰에서 통과하고 싶다면 문제 해결을 위해 데이터베�
 
 이 사이트들은 쉬운 것에서 어려운 것까지 다양한 난이도의 SQL 연습 문제를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단한 것부터 시작해서 조금씩 어려운 문제로 나아가세요.
 
@@ -229,11 +434,33 @@ SQL 인터뷰에서 통과하고 싶다면 문제 해결을 위해 데이터베�
 
 또한 SQL 기술을 향상시키는 데 도움이 되는 생성 AI를 사용하는 것을 추천합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ChatGPT에게 샘플 데이터셋과 연습 문제를 요청하고 답변을 평가해 보세요. 개념을 이해하는 데 어려움을 겪을 때 특히 유용합니다. 저에게는 "셀프 조인"이 그랬어요. 학습 과정 초반에 셀프 조인이 낯설고 언제 적용해야 하는지 잘 모르겠던 걸요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 테이블을 자기 자신과 결합하는 개념을 상상할 수 없었어요.
 
@@ -243,7 +470,18 @@ ChatGPT에게 샘플 데이터셋과 연습 문제를 요청하고 답변을 평
 
 결국 그 주제에 대해 이해하게 되었어요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 데이터 분석을 위한 SQL 학습 — 다음 단계
 
@@ -253,7 +491,18 @@ ChatGPT에게 샘플 데이터셋과 연습 문제를 요청하고 답변을 평
 
 이제 SQL이 무엇이고, 분석을 위한 필수 기술인 이유, 그리고 어떻게 배울 수 있는지 알게 되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 다음 단계로서 매일 SQL을 배우는 것을 권장합니다.
 
@@ -263,7 +512,18 @@ ChatGPT에게 샘플 데이터셋과 연습 문제를 요청하고 답변을 평
 
 첫 주 정도는 SQL 명령어와 데이터베이스 관리에 익숙해지는 데 시간을 투자해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼, 나머지 시간을 활용하여 HackerRank나 Leetcode와 같은 사이트에서 SQL을 연습해보세요. 이 두 플랫폼을 통해 적어도 50가지 이상의 연습 문제를 완료해보세요.
 

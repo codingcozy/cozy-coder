@@ -3,17 +3,13 @@ title: "보스턴 셀틱스 vs 데스크탑 메탈 3D 프린팅으로 막대한 
 description: ""
 coverImage: "/assets/img/2024-07-09-BostonCelticsvsDesktopMetalorhowtoloseatonsofmoneyon3Dprinting_0.png"
 date: 2024-07-09 10:10
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-BostonCelticsvsDesktopMetalorhowtoloseatonsofmoneyon3Dprinting_0.png
 tag: Tech
 originalTitle: "Boston Celtics vs. Desktop Metal, or how to lose a tons of money on 3D printing"
 link: "https://medium.com/@sxe3dp/boston-celtics-vs-desktop-metal-or-how-to-lose-a-tons-of-money-on-3d-printing-f6d5f56b64ae"
 isUpdated: true
 ---
-
-
-
-
 
 ## 3DP 전투 일지
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 그렇다면 왜 나는 이 두 기관을 한 문장에 언급하고 있는 걸까요? 한 기관이 3억 6000만 달러에 매입되어 지금은 약 50억 달러에 팔리려고 하고 있는 반면, 다른 한 기관은 최근 약 30억 달러로 가치 평가되었지만 이제 2억 달러 미만에 매각되려 하고 있기 때문입니다… 그리고 물론 두 기관 모두 매사추세츠 출신인데요…
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 수족관 속 큰 물고기
 

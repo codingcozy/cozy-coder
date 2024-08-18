@@ -3,17 +3,13 @@ title: "기자처럼 생각하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-03-ThinkLikeaJournalist_0.png"
 date: 2024-08-03 19:59
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-03-ThinkLikeaJournalist_0.png
 tag: Tech
 originalTitle: "Think Like a Journalist"
 link: "https://medium.com/@mdepuydt/think-like-a-journalist-23e8a17e2e11"
 isUpdated: true
 ---
-
-
-
-
 
 # 우수한 엔지니어링 리더가 되기 위해 내가 배운 모든 것은 기자로서의 경험으로부터 얻은 것입니다.
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 당시의 나에게 큰 영감을 받습니다. 모든 이를 한 이유는 저를 "진정한" 개발자로 인정받기 위한 필사적인 열망 때문이었습니다. 결국, 저는 컴퓨터 과학 학위가 없었으며, 부트캠프에서 코딩을 배웠기 때문에 이 모든 것을 했습니다. 부트캠프가 끝나기도 전에 여러 곳의 취직 제안을 받은 것이 대성공이라고 생각하는 대신, 저는 두려움에 휩실렸습니다. 제 자신이 너무 불안하고, 누군가가 나의 가장 큰 비밀을 알아차릴까봐 무서웠습니다: 사실 나는 그냥 코딩을 배워온 기자일 뿐이라는 사실.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-08-03-ThinkLikeaJournalist_0.png)
 
@@ -34,8 +40,18 @@ isUpdated: true
 
 학교 신문의 편집자로서 활동하는 걸 좋아했고, 3학년 때에는 편집장으로 일 한 전체를 책임지게 되었어요. 그해에, 제가 실제로 편집을 사랑한다는 걸 깨달았습니다. 보도보다도 더 말이죠. 분명한 게, 본인이 작성한 기사 위에 자신의 이름을 보고 하는 그 느낌, 그것을 따라갈 수 있는게 없습니다. 그러나 제게는 보도의 과정 — 정보 수집, 소스와의 대화, 사실을 종합하는 과정 —이 어려우며, 종종 정신적으로나 감정적으로 빈번히 피곤하게 만들었습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 편집 작업은 나에게 새로운 삶을 안겨줬어요. 보고서 작성할 때 느끼지 못했던 즐거움을 느꼈죠. 기사를 배정하고 작가들과 협력하여 원고를 개정하고 그들의 최고 작품을 도출하는 과정을 사랑했어요. 제 도움으로 거친 초고가 저에게 의지하여 훌륭한 내러티브로 변화하는 것을 보는 걸 좋아했죠. 제가 이야기를 만드는 데 일조한 것을 알게 된 걸 아주 좋아했어요. 결국 뉴스룸에서 리더가 되는 것이 제가 진정으로 사랑하는 일이었죠.
 
@@ -45,8 +61,18 @@ isUpdated: true
 
 워싱턴 포스트에서 소프트웨어 엔지니어로 일자리를 얻은 때에는 기자로서의 시절을 영원히 뒤로하고 '진짜' 개발자로 완전한 변모를 이루기 위해 준비되어 있었어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-08-03-ThinkLikeaJournalist_1.png)
 
@@ -56,8 +82,18 @@ isUpdated: true
 
 어떤 기자든 보면, 그녀가 잘 대응하는 것을 볼 수 있습니다. 왜냐하면 기자들은 긴급 뉴스가 가장 불편한 시간에 발생할 것으로 받아들이고 기대하기 때문입니다. 그럴 때에는, 그것이 일어날 때 필요한 사실들을 수집하고 독자들을 위한 명료함을 만들어내는 것이 기자의 업무입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 소프트웨어 엔지니어링 팀에서도 동일한 원리가 적용됩니다. 제품에서의 긴급한 장애나 새로운 임원이 팀의 계획을 무시하고 자신의 이니셔티브를 밀어붙이는 등 고압력 상황에서 엔지니어링 리더는 자주 승부수를 던지게 됩니다. 그러나 많은 사람들이 여기서 어려움을 겪게 되는 곳입니다. 예기치 않은 일에 대비하지 못하고 있다는 점입니다. 우리는 그런 일이 일어나면 안 된다고 생각하거나 팀 내에서 사건이 발생하는 것을 막아야 한다는 생각을 합니다.
 
@@ -67,6 +103,17 @@ isUpdated: true
 
 나 대학 때 기자였을 때도 모르게 필요한 기술을 쌓은 것이었음을 이제 알게 되었습니다. 기자로서뿐만이 아니라 엔지니어 및 다양한 직군의 팀을 이끌 때 성공하기 위해 필요한 기술을 얻을 수 있었습니다. 컴퓨터 과학을 공부하지는 않았지만, 이 분야에서 성공하기 위해 필요한 모든 것을 공부했기 때문에 성공했다고 생각합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 거의 10년 전에 전문 분야를 전환한 이후, 여전히 코드 작성 방법을 알고 있는 기자처럼 생각하고 있어요. 저는 아마도 영원히 멈추지 않을 것 같아요.

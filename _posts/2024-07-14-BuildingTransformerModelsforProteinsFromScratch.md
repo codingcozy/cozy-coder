@@ -3,17 +3,13 @@ title: "기초부터 시작하는 단백질을 위한 트랜스포머 모델 구
 description: ""
 coverImage: "/assets/img/2024-07-14-BuildingTransformerModelsforProteinsFromScratch_0.png"
 date: 2024-07-14 01:26
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-14-BuildingTransformerModelsforProteinsFromScratch_0.png
 tag: Tech
 originalTitle: "Building Transformer Models for Proteins From Scratch"
 link: "https://medium.com/towards-data-science/building-transformer-models-for-proteins-from-scratch-60884eab5cc8"
 isUpdated: true
 ---
-
-
-
-
 
 # 소개
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 "Attention Is All You Need"라는 획기적인 논문에서 소개된 트랜스포머는 인코더 및 디코더 구성요소를 갖는 신경망입니다. BERT (Bidirectional Encoder Representations from Transformers)와 같은 모델은 언어 이해를 위해 인코더를 활용하며 분류와 같은 하위 작업에서 뛰어난 성과를 보입니다. 여기서 우리는 HIV-1 또는 SARS-CoV-2 특이성을 가진 항체를 분류하기 위해 인코더 기반 모델을 구현하고 훈련할 것입니다 (Figure 1).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](https://miro.medium.com/v2/resize:fit:1400/1*1FmDSkoFMkpCRYrNGJFy-g.gif)
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 # 데이터
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 프로젝트에서는 HIV-1 또는 SARS-CoV-2를 특정 대상으로 하는 몇 백 개의 BCR(항체) 데이터 세트를 컴파일했습니다. 이 데이터 세트는 IEDB에서 수집되었으며 크리에이티브 커먼즈 저작권 4.0 국제 라이선스 (CC BY 4.0)에 따라 라이선스가 부여되었습니다. 상업적 이용이 허용됩니다. 목표는 transformer 모델을 훈련하여 항체 서열이 어떤 항원에 결합하는지 예측하는 것입니다.
 
@@ -54,10 +72,21 @@ class BCRDataset(Dataset):
     def __getitem__(self, i) -> tuple[str, int]:
         x = self.df.loc[i, "sequence"]
         y = self.df.loc[i, "label"]
-        return x, y 
+        return x, y
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드는 BCRDataset 클래스를 정의합니다. 이 클래스는 Pandas DataFrame에 저장된 항체 데이터를 다루기 위해 설계된 사용자 정의 데이터셋입니다. 이 클래스에는 데이터프레임을 사용하여 데이터셋을 초기화하는 함수인 init, 데이터프레임 내 전체 샘플(행) 수를 반환하는 함수인 len 및 인덱스로 단일 데이터 샘플을 검색하는 함수인 getitem이 포함되어 있습니다. Getitem 함수는 데이터프레임에서 아미노산 서열 (`sequence`)과 해당 레이블 (`label`)을 추출하고 이를 튜플로 반환하는 역할을 합니다.
 
@@ -67,7 +96,18 @@ class BCRDataset(Dataset):
 
 트랜스포머는 원시 텍스트나 단백질 서열을 직접 처리하지 않습니다. 대신, 입력은 먼저 토큰으로 분해됩니다. 단백질 분석에서 우리는 단백질 서열을 개별 아미노산으로 토큰화합니다. 그런 다음 각 아미노산은 시작, 끝, 패딩 및 알 수 없는 심볼에 대한 특별 토큰과 함께 고유한 정수 값을 할당받습니다. 이 과정을 통해 단백질 서열이 변환되어 트랜스포머 모델이 이해할 수 있는 숫자 표현으로 번역됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기는 토큰화 과정에 필수적인 코드입니다:
 
@@ -117,12 +157,22 @@ class Tokenizer:
         return {"input_ids": input_ids, "attention_mask": attention_mask}
 ```
 
-Tokenizer는 `cls`, `eos`, 그리고 단백질 서열 내부의 패딩을 나타내는 `pad`와 같은 특수 토큰을 활용합니다. 또한, 알 수 없는 아미노산에 대해서는 `unk` 토큰을 사용합니다. 초기화 단계(__init__)에서는 아미노산, 특수 토큰, 그리고 각각의 숫자 표현 사이에 매핑을 수립하여 어휘를 구축합니다. 핵심 토큰화 과정은 __call__ 함수 내에서 이루어지며, 여기서는 특수 토큰이 추가되고, 서열이 정수 ID의 목록으로 변환되며, 균일한 입력 길이를 위해 선택적으로 패딩이 적용됩니다.
+Tokenizer는 `cls`, `eos`, 그리고 단백질 서열 내부의 패딩을 나타내는 `pad`와 같은 특수 토큰을 활용합니다. 또한, 알 수 없는 아미노산에 대해서는 `unk` 토큰을 사용합니다. 초기화 단계(**init**)에서는 아미노산, 특수 토큰, 그리고 각각의 숫자 표현 사이에 매핑을 수립하여 어휘를 구축합니다. 핵심 토큰화 과정은 **call** 함수 내에서 이루어지며, 여기서는 특수 토큰이 추가되고, 서열이 정수 ID의 목록으로 변환되며, 균일한 입력 길이를 위해 선택적으로 패딩이 적용됩니다.
 
 # 임베딩 및 위치 인코딩
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 토큰화 후에는 임베딩 레이어를 사용하여 우리의 아미노산을 나타내는 정수값을 부동 소수점 숫자 벡터로 변환합니다. 임베딩은 고차원 공간 내의 좌표로 생각할 수 있습니다. 훈련 중에 모델은 이 공간 내에서 유사한 아미노산을 가까이 배치하도록 학습합니다.
 
@@ -132,7 +182,18 @@ Tokenizer는 `cls`, `eos`, 그리고 단백질 서열 내부의 패딩을 나타
 
 ![Figure 4](/assets/img/2024-07-14-BuildingTransformerModelsforProteinsFromScratch_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 셀프 어텐션
 
@@ -142,7 +203,18 @@ Tokenizer는 `cls`, `eos`, 그리고 단백질 서열 내부의 패딩을 나타
 
 각 토큰의 쿼리 벡터는 시퀀스 내 모든 토큰(자기 자신 포함)의 키 벡터와 닷 프로덕트를 사용하여 비교됩니다. 닷 프로덕트는 유사성을 측정하므로 더 높은 닷 프로덕트는 토큰 간의 더 강력한 관계를 제안합니다. 안정성을 향상시키기 위해 이러한 닷 프로덕트를 임베딩 차원(dk)의 제곱근으로 스케일링합니다. 또한 필요한 경우 특정 토큰을 마스킹할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 닷 프로덕트에 softmax 함수를 적용하여 우리는 어텐션 점수를 얻습니다. 이러한 점수는 각 토큰이 시퀀스의 다른 토큰에 "주의를 기울여야 하는" 정도를 알려줍니다.
 
@@ -171,7 +243,18 @@ def scale_dot_product_attention(
 
 과거 RNN 모델과는 달리, 트랜스포머는 행렬 곱셈을 사용하여 모든 토큰에 대한 이러한 어텐션 관계를 병렬로 계산합니다. 이는 GPU의 강력함을 최대한 활용하여 속도와 효율성을 크게 향상시킨다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 멀티헤드 어텐션
 
@@ -218,7 +301,18 @@ def forward(
 
 이 코드 조각은 멀티헤드 어텐션 메커니즘의 핵심 기능을 보여줍니다. x = self.input(x) 줄은 입력 시퀀스를 더 높은 차원으로 옮겨, 모델이 쿼리(모델이 집중하는 대상), 키(관련성 점수 매기기에 사용), 값(추출해야 하는 실제 정보)에 대해 별도의 표현을 만들 수 있도록 합니다. 이어지는 몇 줄은 프로젝트된 입력을 여러 헤드(self.num_heads)로 분할하고, 효율적인 멀티헤드 계산을 위해 재구성합니다. 최종적으로, 코드는 트랜스포머 아키텍처 내에서 어텐션 계산을 수행하기 위한 필수 요소인 개별 쿼리, 키, 밸류(q, k, v)를 추출합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 인코더 레이어와 인코더
 
@@ -228,7 +322,7 @@ def forward(
 
 ```python
 class EncoderLayer(nn.Module):
-    # ... (클래스의 다른 부분들) 
+    # ... (클래스의 다른 부분들)
 
     def forward(self, x: torch.Tensor, mask: torch.Tensor = None) -> torch.Tensor:
         """
@@ -253,7 +347,18 @@ class EncoderLayer(nn.Module):
         return x
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여러 인코더 레이어를 쌓음으로써 모델은 단백질 서열의 더 복잡하고 계층적인 표현을 학습할 수 있습니다. 인코더의 순방향 함수는 각 쌓인 인코더 레이어를 통해 입력 시퀀스의 통과를 조정합니다. 각 레이어에서 멀티헤드 어텐션과 피드포워드 네트워크는 단백질 서열의 표현을 점진적으로 개선합니다. 최종 인코더 레이어의 출력은 하류 작업에 사용할 준비가 된 매우 유익한 인코딩된 표현입니다.
 
@@ -276,11 +381,22 @@ class Encoder(nn.Module):
 
 이제 우리가 구축한 트랜스포머 인코더를 사용하여 항체 분류 모델을 완성할 수 있습니다. 모델은 다음과 같이 작동합니다: 먼저 이전 단계와 마찬가지로 아미노산 토큰을 숫자 표현으로 임베딩하고 위치 인코딩 신호를 추가합니다. 모델의 핵심인 인코더는 이러한 시퀀스 임베딩을 처리하고 아미노산 간의 복잡한 관계를 학습합니다. 전체 항체 서열의 단일 표현을 얻기 위해 각 토큰에 대한 인코더의 출력을 평균합니다. 마지막으로 FFN은 이 평균화된 시퀀스 표현을 처리하고 하나의 값(또는 로짓)을 출력하여 항체 클래스를 예측합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 class AntibodyClassifier(nn.Module):
-    # ... (Class 정의, __init__ 및 mean_pooling은 간략히 제외) 
+    # ... (Class 정의, __init__ 및 mean_pooling은 간략히 제외)
 
     def forward(self, batch: dict[str, torch.Tensor]) -> torch.Tensor:
         """모델을 통한 순방향 전파."""
@@ -291,7 +407,7 @@ class AntibodyClassifier(nn.Module):
         x = self.embedding(input_ids)
 
         # 위치 인코딩 추가
-        x = self.pe(x) 
+        x = self.pe(x)
 
         # 시퀀스 처리를 위해 Transformer 인코더를 통과
         x = self.encoder(x, attention_mask)
@@ -311,7 +427,18 @@ class AntibodyClassifier(nn.Module):
 
 다음 단계는 이전에 준비한 HIV-1 및 SARS-CoV-2 데이터를 사용하여 항체 분류기를 훈련하는 것입니다. 모델을 훈련하려면 프로젝트 저장소의 루트 디렉토리에서 터미널을 사용하여 train.py 스크립트를 실행하십시오. 이 스크립트는 훈련 프로세스를 제어하는 다양한 맞춤 설정 가능한 매개변수를 제공합니다. 예를 들어, 기본 매개변수로 훈련 스크립트를 실행하고 결과를 train01이라는 run ID로 저장하려면 다음 명령을 사용하십시오:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 python protein_transformer/train.py --run-id train01 --dataset-loc data/bcr_train.parquet
@@ -327,7 +454,18 @@ python protein_transformer/train.py --run-id train01 --dataset-loc data/bcr_trai
 
 훈련 중에는 훈련 손실과 검증 손실을 모니터링하세요. 이 이상적인 경우, 둘 다 에폭마다 감소해야 합니다. 이 손실들을 에폭에 대한 그림으로 나타내면 훈련 과정에 대한 유용한 통찰을 얻을 수 있습니다 (Figure 5).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `![BuildingTransformerModelsforProteinsFromScratch_4](/assets/img/2024-07-14-BuildingTransformerModelsforProteinsFromScratch_4.png)`
 
@@ -343,7 +481,18 @@ F1-score: 0.725
 
 We can potentially improve our model’s performance even further by exploring different hyperparameter combinations. We’ll cover hyperparameter tuning in the next section.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 하이퍼파라미터 튜닝
 
@@ -357,11 +506,20 @@ We can potentially improve our model’s performance even further by exploring d
 
 기본 매개변수로 튜닝 프로세스를 시작하고 결과를 tune01이라는 실행 ID로 저장하려면 프로젝트 루트 디렉토리에서 tune.py 스크립트를 실행하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 python protein_transformer/tune.py --run-id tune01 --dataset-loc /home/ytian/github/protein-transformer/data/bcr_train.parquet
-
 
 기본 설정으로는 각각 최대 30번 에폭까지 실행되는 다양한 매개변수 조합을 사용하여 100회의 실행을 수행합니다. Ray Tune은 유망하지 않은 시행에 대해 조기 중지를 사용하여 하이퍼파라미터 공간을 효율적으로 탐색하고 성능이 더 좋은 구성에 리소스를 집중시킵니다. 각 시행의 결과를 추적하며, 완료될 때 가장 성능이 우수한 검증 손실 기준의 모델은 기본 설정에 따라 runs/tune01 디렉토리에 저장됩니다. 또한, 각 시행의 결과를 포함하는 튜닝 로그는 동일한 runs/tune01 디렉토리에 저장되어 쉬운 접근과 분석을 위해 보관됩니다.
 
@@ -369,8 +527,18 @@ python protein_transformer/tune.py --run-id tune01 --dataset-loc /home/ytian/git
 
 이제 하이퍼파라미터 튜닝 프로세스에서 가장 성능이 우수한 모델의 성능을 홀드아웃 테스트 데이터셋에서 평가하는 시간입니다. 이 데이터셋은 교육 및 튜닝 중에 별도로 유지되어 평가가 실제 일반화 능력을 반영하도록 합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, tune01 실행에서 최적 모델을 평가하려면 다음 명령을 명령줄에서 실행하십시오:
 
@@ -388,7 +556,18 @@ AUC 점수: 0.837
 F1 점수: 0.761
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 모델의 성능을 깊이 이해하기 위해 두 가지 주요 시각화인 혼동 행렬과 ROC(수신자 조작 특성) 곡선을 살펴보겠습니다. 혼동 행렬은 모델의 예측을 진양성, 진음성, 가양성 및 가음성으로 분해하여 모델이 어디에서 뛰어나며 어디에서 고전할 수 있는지 통찰을 제공합니다. ROC 곡선은 모델이 서로 다른 결정 임계값에서 클래스를 구별하는 능력을 보여줌으로써 곡선 아래 전체 영역(AUC)이 효과를 나타냅니다.
 
@@ -398,7 +577,18 @@ F1 점수: 0.761
 
 # 요약
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 블로그 포스트에서는 항체 분류를 위한 트랜스포머 기반 모델 구축의 실제적 측면을 탐구했습니다. 우리는 HIV-1 및 SARS-CoV-2 데이터셋에서 항체 서열 데이터를 수집하고 전처리하는 것부터 시작했습니다. 그 다음으로 이러한 서열을 토큰화하고 숫자 표현(embeddings)으로 변환한 후, 트랜스포머 레이어를 사용하여 인코더 아키텍처를 구축했습니다. 예측을 위해 인코더 위에 분류 머리를 추가했습니다. 그런 다음 모델을 훈련시키고 성능을 향상시키기 위해 Ray Tune을 사용한 하이퍼파라미터 튜닝을 탐험했으며, 마지막으로 정확도, AUC 점수, 정밀도, 재현율 및 F1 점수와 같은 메트릭을 사용하여 최고의 모델을 홀드아웃 테스트 세트에서 평가했습니다.
 
@@ -408,7 +598,18 @@ F1 점수: 0.761
 
 # 감사의 말씀
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - IEDB
 - UvA Deep Learning

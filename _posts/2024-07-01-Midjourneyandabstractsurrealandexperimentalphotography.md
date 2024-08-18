@@ -3,17 +3,13 @@ title: "추상적, 초현실적, 실험적 사진을 위한 Midjourney 활용 �
 description: ""
 coverImage: "/assets/img/2024-07-01-Midjourneyandabstractsurrealandexperimentalphotography_0.png"
 date: 2024-07-01 00:40
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-01-Midjourneyandabstractsurrealandexperimentalphotography_0.png
 tag: Tech
 originalTitle: "Midjourney and abstract, surreal, and experimental photography"
 link: "https://medium.com/let-there-be-prompt/midjourney-and-abstract-surreal-and-experimental-photography-26c97837967b"
 isUpdated: true
 ---
-
-
-
-
 
 추상적이고 초현실적인 예술 사진은 사진 예술의 독특한 장르를 대표하며, 각각 현실이 어떻게 인식되고 해석될 수 있는지에 대한 경계를 넓혀줍니다. 이러한 사진 형태들은 전통적인 미학에 도전하며 관객들을 새로운 상상력과 감정의 영역으로 이끌어줍니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 추상 사진은 주제의 본질을 주된 형상, 색상, 질감으로 압축하여 직접적인 표현보다는 분위기와 감정을 자아내는 것을 강조합니다. 이 장르는 예술의 형식적 요소 - 선, 형태, 형식, 색상 -을 현실 세계의 묘사보다 우선시합니다. 식별 가능한 맥락을 제거함으로써, 추상적인 사진은 관객을 순수하게 시각적으로 그림과 상호 작용하도록 유도하여 개인적 해석과 감정적 반응을 촉구합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Midjourney님은 추상 사진 이미지를 만드는 데 매우 뛰어나십니다. 그리고 가장 좋은 이미지는 이렇게 간단한 프롬프트로 만들어질 수 있어요. 당연히 전통적인 방법을 따라 프롬프트에 아이디어를 명확히 작성하는 것도 좋은 방법이죠.
 
@@ -33,7 +40,18 @@ Midjourney님은 추상 사진 이미지를 만드는 데 매우 뛰어나십니
 
 ![Midjourney and Abstract Surreal and Experimental Photography](/assets/img/2024-07-01-Midjourneyandabstractsurrealandexperimentalphotography_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어느 쪽의 프롬프트든 상상력과 사유를 건설하는 이미지를 만들어냅니다. 그 결과는 매혹적으로 추상적이죠.
 
@@ -43,7 +61,18 @@ Midjourney님은 추상 사진 이미지를 만드는 데 매우 뛰어나십니
 
 ![이미지](/assets/img/2024-07-01-Midjourneyandabstractsurrealandexperimentalphotography_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 조영 사진 속 초현실주의는 현실과 상상 사이의 경계를 희미하게 만들어 시청자의 인식을 도전합니다. 이는 보다 깊은 심리적, 감정적 층면으로부터 영감을 받아 종종 인간 경험의 이상함과 복잡함을 드러냅니다.
 
@@ -53,7 +82,18 @@ Midjourney를 활용하여 초현실주의 사진을 만드는 가장 쉽고 흥
 
 Midjourney는 "외로움"이나 "기쁨"과 같은 가장 간단한 예시조차도 아주 잘 해낼 수 있습니다. 자세한 내용을 명시할 필요 없이 그 감정을 해석할 수 있죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Midjourney님은 '바깥 몸 경험'과 같은 더 복잡한 개념 또한 흥미롭게 해석하는 일을 잘합니다.
 
@@ -63,7 +103,18 @@ Midjourney님은 '바깥 몸 경험'과 같은 더 복잡한 개념 또한 흥�
 
 ![Midjourney and abstract surreal and experimental photography](/assets/img/2024-07-01-Midjourneyandabstractsurrealandexperimentalphotography_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 사진을 찍기 위해 Midjourney에게 초현실적인 사진을 찍고 분위기를 고려하도록 지시하는 것이 중요합니다.
 
@@ -73,7 +124,18 @@ Midjourney님은 '바깥 몸 경험'과 같은 더 복잡한 개념 또한 흥�
 
 “실험적 사진술”과 같은 다른 사진술 기법 관련 키워드를 사용하면 매우 강하고 강렬한 이미지를 만들어낼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 또 다른 예시입니다:
 
@@ -83,7 +145,18 @@ Midjourney님은 '바깥 몸 경험'과 같은 더 복잡한 개념 또한 흥�
 
 나는 이러한 사진 스타일과 기술을 사용하여 이미지를 만드는 것을 좋아합니다. 이러한 사진 기술들은 Midjourney이 표준 Midjourney 이미지보다 달달하게 넘치는 이미지와는 다른 이미지를 만들 수 있기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-07-01-Midjourneyandabstractsurrealandexperimentalphotography_8.png)
 
@@ -93,7 +166,18 @@ Midjourney님은 '바깥 몸 경험'과 같은 더 복잡한 개념 또한 흥�
 
 ![Image](/assets/img/2024-07-01-Midjourneyandabstractsurrealandexperimentalphotography_9.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 By challenging conventional norms and pushing the boundaries of creative expression, these genres have expanded the possibilities of what photography can be. They invite viewers to explore new dimensions of reality and imagination, fostering a deeper understanding of the world and our place within it.
 

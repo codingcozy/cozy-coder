@@ -3,17 +3,13 @@ title: "드디어 7B 파라미터 모델이 GPT-4를 이겼어요"
 description: ""
 coverImage: "/assets/img/2024-06-19-Finally7BParameterModelbeatsGPT-4_0.png"
 date: 2024-06-19 16:28
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-Finally7BParameterModelbeatsGPT-4_0.png
 tag: Tech
 originalTitle: "Finally! 7B Parameter Model beats GPT-4!"
 link: "https://medium.com/@boredgeeksociety/finally-7b-parameter-model-beats-gpt-4-732cb0f3321d"
 isUpdated: true
 ---
-
-
-
-
 
 우리는 작고 매우 효율적인 모델의 시대로 접어들고 있어요!
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 몇 일 전 새로운 최첨단 오픈소스 모델에 대해 보도했었죠. 이 모델은 GPT-4를 비롯한 다른 모델들을 능가하는 것으로 나타났습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 모델은 SQLCoder-70B입니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ![image](/assets/img/2024-06-19-Finally7BParameterModelbeatsGPT-4_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모델은 GPT-4 및 다양한 SQL 작업들을 크게 개선했습니다!
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 안타깝게도, 70B 파라미터 모델은 아직 오프라인 통합이나 노트북에서 실행하는 것에는 너무 크다고 생각됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 모델 증류
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 모델 증류를 활용하여 Defog는 작은 7B 매개변수 모델을 훈련시키고 표준 벤치마크에서 평가했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결과
 
@@ -66,7 +106,18 @@ isUpdated: true
 
 SQLCoder-7B의 성공은 특정 도메인에서 프로프리어터리 모델인 GPT-4의 성능을 능가할 수 있는 대규모 기초 모델 위에 세밀하게 조정된 niche, 오픈 소스 모델의 타당한 예입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 메타의 70B 매개변수 CodeLlama에서 파생된 이 모델은 전문 데이터 세트와 대상 지정된 세세한 조정을 통해 SQL 작업과 같은 분야에서 우수한 성능을 달성할 수 있는 잠재력을 보여줍니다!
 

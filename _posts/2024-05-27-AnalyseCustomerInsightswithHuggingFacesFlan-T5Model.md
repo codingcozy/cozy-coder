@@ -3,17 +3,13 @@ title: "Hugging Face의 Flan-T5 모델을 사용하여 고객 인사이트를 �
 description: ""
 coverImage: "/assets/img/2024-05-27-AnalyseCustomerInsightswithHuggingFacesFlan-T5Model_0.png"
 date: 2024-05-27 15:16
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-AnalyseCustomerInsightswithHuggingFacesFlan-T5Model_0.png
 tag: Tech
 originalTitle: "Analyse Customer Insights with Hugging Face’s Flan-T5 Model:"
 link: "https://medium.com/@dwiveditanmay102/analyse-customer-insights-with-hugging-faces-flan-t5-model-ee706b6d8640"
 isUpdated: true
 ---
-
-
-
-
 
 현재의 데이터 중심 세계에서는 기업들이 항상 고객을 이해하고 관계를 발전시키는 방법을 찾고 있습니다. 이 임무에서 가장 흥미로운 도구 중 하나가 Hugging Face의 Flan-T5 모델입니다. 이 고급 자연어 처리(NLP) 모델은 또 다른 기술용어가 아니라, 기업이 데이터와 고객과 상호작용하는 방식을 혁신하는 중요한 도구입니다. Flan-T5가 고객 인사이트를 혁신하는 방법을 알아보기 위해 실제 사례를 살펴보겠습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # Flan-T5 등장
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 허깅페이스의 Flan-T5 모델이 등장하는 곳입니다. Flan-T5는 "Fine-tuned Language-Agnostic Network, Text-To-Text Transfer Transformer"의 약자로, 다언어 및 다양한 맥락에서 인간과 유사한 텍스트를 이해하고 생성할 수 있는 고급 NLP 모델입니다. 이 모델의 강점은 특정 작업에 대해 세밀하게 조정될 수 있는 능력에 있어서, 이는 고객 피드백을 구문 분석하고 분석하는 데 이상적인 후보자로 만들어 줍니다.
 
@@ -36,7 +43,18 @@ Flan-T5는 Transformer 아키텍처를 기반으로 하며, 구체적으로 텍�
 
 양방향 인코더는 양방향에서 컨텍스트를 포착하며, 이는 고객 피드백의 세부 정보를 이해하는 데 효과적입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 해결책 구현:
 
@@ -83,7 +101,18 @@ trainer = Trainer(
 trainer.train()
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **단계 3:** 감성 분석 및 주제 모델링
 미세 조정된 모델을 배포하여 감성 분석을 수행하고 주요 주제를 식별합니다.
@@ -96,7 +125,18 @@ Flan-T5를 구현한 후, 전자상거래 회사는 변화적인 결과를 보�
 - 선제적 고객 서비스: 실시간으로 트렌드를 식별함으로써 고객 서비스팀이 일반적인 문제에 선제적으로 대응하여 전반적인 고객 만족도를 향상시켰습니다.
 - 데이터 기반의 결정: 마케팅 및 제품 개발 팀은 이러한 통찰을 사용하여 캠페인을 맞춤화하고 제품 기능을 개선하여 고객 참여 및 충성도를 증대시켰습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Flan-T5가 돋보이는 이유
 
@@ -108,7 +148,18 @@ Flan-T5의 매력은 그의 적응성에 있습니다. 이는 단순히 감성 �
 
 # Flan-T5 시작하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 플란-T5를 채택하는 것은 Hugging Face의 사용자 친화적인 도구와 포괄적인 문서 덕분에 생각보다 쉽습니다. 아래는 빠른 로드맵입니다:
 

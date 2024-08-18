@@ -3,17 +3,13 @@ title: "AWS Inferentia2에서 PyTorch 모델 실행하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-06-RunaPyTorchModelonAWSInferentia2_0.png"
 date: 2024-07-06 11:35
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-06-RunaPyTorchModelonAWSInferentia2_0.png
 tag: Tech
 originalTitle: "Run a PyTorch Model on AWS Inferentia2"
 link: "https://medium.com/@tannermcrae/run-a-pytorch-model-on-aws-inferentia2-d629af3754e2"
 isUpdated: true
 ---
-
-
-
-
 
 **/assets/img/2024-07-06-RunaPyTorchModelonAWSInferentia2_0.png**
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 **DISCLAIMER**: 저는 AWS의 GenAI 아키텍트이며, 이 글의 의견은 전적으로 제 개인의 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 배경
 
@@ -33,7 +40,18 @@ AWS Inferentia2 & Neuron: 이 가속화기를 사용하기 위해 AWS는 AWS Neu
 
 # 간단한 신경망
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Neuron 컴파일 및 추론이 어떻게 작동하는지 살펴보기 위해, 칼리포니아 주택 가격 예측을 위한 간단한 신경망을 만들어보겠어요. 해당 데이터세트는 Hugging Face, scikit-learn 데이터세트 또는 다른 온라인 소스를 통해 액세스할 수 있어요.
 
@@ -50,18 +68,28 @@ class HousingPriceModel(nn.Module):
             nn.ReLU(),
             nn.Linear(256, 128),
             nn.ReLU(),
-            nn.Linear(128, 64), 
+            nn.Linear(128, 64),
             nn.ReLU(),
             nn.Dropout(0.2),
-            nn.Linear(64, 1) # 단일 값 예측 
+            nn.Linear(64, 1) # 단일 값 예측
         )
 
     def forward(self, x):
         return self.layers(x)
 ```
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신의 모델을 훈련시키기 위한 간단한 훈련 스크립트를 작성해봅시다. 이 모델은 매우 작은 모델이기 때문에 (~50k 파라미터), CPU를 사용하여 데이터셋에서 약 30초 동안 훈련시킬 수 있습니다.
 
@@ -108,7 +136,18 @@ def train_model(model, train_loader, val_loader, epochs=10, batch_size=16, lr=1e
 
 이제 데이터셋을 정리하고 훈련 작업을 시작해봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 from sklearn.model_selection import train_test_split
@@ -144,8 +183,18 @@ train_model(model, train_loader, val_loader)
 
 Neuron을 사용하여 모델을 컴파일할 때, 추적을 실행할 예시가 필요합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 # 단일 예시 추출
@@ -167,11 +216,21 @@ torch.save(example_input, 'example_input.pt')
 
 인스턴스에서 다음 명령을 실행하세요.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Neuron 저장소 업데이트를 위해 Linux 구성하기
+
 . /etc/os-release
 sudo tee /etc/apt/sources.list.d/neuron.list > /dev/null <<EOF
 deb https://apt.repos.neuron.amazonaws.com ${VERSION_CODENAME} main
@@ -179,41 +238,58 @@ EOF
 wget -qO - https://apt.repos.neuron.amazonaws.com/GPG-PUB-KEY-AMAZON-AWS-NEURON.PUB | sudo apt-key add -
 
 # OS 패키지 업데이트
+
 sudo apt-get update -y
 
 # OS 헤더 설치
+
 sudo apt-get install linux-headers-$(uname -r) -y
 
 # git 설치
+
 sudo apt-get install git -y
 
 # Neuron 드라이버 설치
-sudo apt-get install aws-neuronx-dkms=2.* -y
+
+sudo apt-get install aws-neuronx-dkms=2.\* -y
 
 # Neuron 런타임 설치
-sudo apt-get install aws-neuronx-collectives=2.* -y
-sudo apt-get install aws-neuronx-runtime-lib=2.* -y
+
+sudo apt-get install aws-neuronx-collectives=2._ -y
+sudo apt-get install aws-neuronx-runtime-lib=2._ -y
 
 # Neuron 도구 설치
-sudo apt-get install aws-neuronx-tools=2.* -y
+
+sudo apt-get install aws-neuronx-tools=2.\* -y
 
 # PATH 추가
-export PATH=/opt/aws/neuron/bin:$PATH
 
+export PATH=/opt/aws/neuron/bin:$PATH
 
 이제 torch-neuronx 패키지를 설치해 보겠습니다.
 
-
 # Neuron 저장소를 가리키도록 pip 저장소 설정
+
 python -m pip config set global.extra-index-url https://pip.repos.neuron.amazonaws.com
 
 # Neuron 컴파일러 및 프레임워크 설치
-python -m pip install neuronx-cc==2.* --pre torch-neuronx==2.1.* torchvision
 
+python -m pip install neuronx-cc==2._ --pre torch-neuronx==2.1._ torchvision
 
 그럼 이만!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 모델 컴파일하기
 
@@ -248,25 +324,38 @@ torch.jit.save(model_neuron, filename)
 
 # 예측하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 import torch_xla.core.xla_model as xm
 
 # 저장된 PyTorch 모델을 메모리에 로드합니다.
+
 model_neuron = torch.jit.load(filename)
 
 # XLA 장치를 가져옵니다.
+
 device = xm.xla_device()
 
 # 모델을 XLA 장치로 이동시킵니다.
+
 # (기본값은 inf2 인스턴스의 NeuronCore로 설정됩니다)
+
 model_neuron = model_neuron.to(device)
 
-def invoke(example):
-    # 뉴런 모델을 사용하여 예측을 수행합니다.
-    xla_example = example.to(device)
-    prediction = model_neuron(xla_example)
+def invoke(example): # 뉴런 모델을 사용하여 예측을 수행합니다.
+xla_example = example.to(device)
+prediction = model_neuron(xla_example)
 
     # 모델의 예측을 가져와서 가장 가까운 정수로 반올림하고
     # 10,000을 곱하여 원래의 스케일로 조정합니다.
@@ -276,7 +365,6 @@ def invoke(example):
     }
 
 print(invoke(example_input))
-
 
 ## 요약
 

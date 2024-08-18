@@ -3,17 +3,13 @@ title: "광 오디오 포트 및 케이블의 장단점"
 description: ""
 coverImage: "/assets/img/2024-06-22-OpticalAudioPortandCablesProsandCons_0.png"
 date: 2024-06-22 18:14
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-OpticalAudioPortandCablesProsandCons_0.png
 tag: Tech
 originalTitle: "Optical Audio Port and Cables — Pros and Cons"
 link: "https://medium.com/@tcaflisch/optical-audio-port-and-cables-pros-and-cons-8132d4b61992"
 isUpdated: true
 ---
-
-
-
-
 
 2023년 8월 22일
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 가정용 오디오/비디오에서 유일한 예외는 광 오디오 케이블입니다. 다른 케이블과 달리 광 오디오 시스템은 광섬유 케이블과 레이저 빛을 사용하여 디지털 오디오 신호를 장치 간에 전송합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-22-OpticalAudioPortandCablesProsandCons_1.png)
 
@@ -34,8 +40,18 @@ isUpdated: true
 
 ![image](/assets/img/2024-06-22-OpticalAudioPortandCablesProsandCons_2.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 광 오디오에 대한 처음 경험은 스마트 TV에 사운드 바를 연결했을 때였어요. 첫 집에서는 벽에 스피커 선을 설치해 5.1 사라운드 사운드 시스템을 구축하는 혜택이 있었죠. 그 이후 구매한 기존 주택들에서는 그러한 혜택이 없었습니다. 운이 좋게도, 그때쯤에는 사운드 바 기술이 발전하여 거의 사라운드 사운드 품질을 갖추었거든요. 새로 지을 집의 많은 방에는 스피커가 설치될 예정이지만 복잡한 사라운드 사운드 시스템은 구축하지 않을 거예요. 새로운 사운드 바와 HDMI ARC(Audio Return Channel)의 사라운드 기능을 활용할 거지만 사운드 바는 광 오디오 케이블을 통해 TV에 연결될 거예요.
 
@@ -43,7 +59,18 @@ isUpdated: true
 
 광 오디오 케이블은 HDMI 케이블에 의해 어느 정도 뒤지기는 했지만, HDMI는 비디오와 오디오를 함께 전송하기 때문에 더 간단하며, 또한 더 높은 해상도 오디오 형식을 지원하죠. 이 형식에는 Dolby TrueHD와 DTS HD Master Audio가 포함됩니다. 광 오디오는 이를 지원하지 않아요. 그럼에도 광 오디오를 선호하는 이유는 무엇일까요? 그 중 하나는 목적의 단일성이지만 더 중요한 것은 대부분의 스마트 TV와 같은 장치들이 HDMI 포트가 부족하다는 것이에요. 그래서 오디오용으로 하나를 사용하는 것은 또 다른 좋은 옵션이 있을 때 낭비일 수 있어요. 저는 Fire TV Cube, 블루레이 플레이어 및 게임 콘솔과 같은 장치들을 위해 HDMI 포트를 사용하는 것을 선호합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 광 오디오는 매우 고해상도의 7.1채널까지 전송할 수 있어요. 대부분의 소비자들이 사용하는 환경에서 HDMI 케이블과 광 오디오 케이블을 사용할 때 오디오 품질에 차이를 느끼기 힘들어요. 대부분의 사용자들에게 충분하죠.
 
@@ -53,7 +80,18 @@ isUpdated: true
 
 광 오디오 케이블 사용 여부를 결정하는데 도움이 되도록 간단히 장단점을 요약하면:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 장점
 
@@ -71,7 +109,18 @@ isUpdated: true
 - 아날로그 오디오에 적합하지 않음: 광케이블은 아날로그 오디오 신호를 전송할 수 없으므로, 아날로그 연결이 필요한 특정 설정에는 적합하지 않습니다.
 - 광 오디오는 대역폭 및 관련 제한 때문에 다음과 같은 보다 요구되는 형식을 지원하지 않습니다 - 5.1/7.1 다중 채널 PCM, Dolby Digital Plus, Dolby TrueHD, Dolby Atmos, DTS-HD Master Audio, DTS:X, Auro 3D 오디오, DVD-Audio 및 SACD-Audio.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 것을 고려해 봤을 때, 여전히 광학 오디오를 훌륭한 솔루션 옵션으로 고려합니다. 앞서 설명한 대로, 이는 연결성과 오디오 품질에 대한 매우 좋은 옵션을 제공합니다.
 
@@ -81,8 +130,18 @@ isUpdated: true
 
 SmartHomeOnTheRange.com
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Optical Audio Port and Cables](/assets/img/2024-06-22-OpticalAudioPortandCablesProsandCons_4.png)
 

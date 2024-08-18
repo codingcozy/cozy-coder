@@ -3,18 +3,13 @@ title: "Azure Blob Storage에서 Power BI로 Zip 파일 효율적으로 추출�
 description: ""
 coverImage: "/assets/img/2024-07-01-ExtractZipFilesfromAzureBlobStoragetoPowerBIEfficiently_0.png"
 date: 2024-07-01 17:28
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-01-ExtractZipFilesfromAzureBlobStoragetoPowerBIEfficiently_0.png
 tag: Tech
 originalTitle: "Extract Zip Files from Azure Blob Storage to Power BI Efficiently"
 link: "https://medium.com/bi3-technologies/extract-zip-files-from-azure-blob-storage-to-power-bi-efficiently-9f85a6f82c90"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*eeenqDzhFDi7GcVfOvqo8Q.gif)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 단계 1 - Azure Blob Storage와 안전한 연결 설정:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Blob Storage와의 연결을 시작하려면 일반적으로 'Get Data' 작업을 먼저 선택합니다.
 
@@ -35,7 +40,18 @@ Azure를 선택하고 옵션 목록에서 'Azure Blob Storage'를 선택합니�
 
 ![이미지](/assets/img/2024-07-01-ExtractZipFilesfromAzureBlobStoragetoPowerBIEfficiently_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 연결이 성공적으로 설정되면 아래 이미지가 표시됩니다. 파일 추출을 진행하려면 일반적으로 추가 처리를 위해 '데이터 변환' 옵션을 선택합니다.
 
@@ -45,7 +61,18 @@ Azure를 선택하고 옵션 목록에서 'Azure Blob Storage'를 선택합니�
 
 Power Query Editor는 데이터 압축 해제 프로세스를 처리할 수 있는 기능을 보유하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 이미지는 변환 데이터 페이지를 보여줍니다. 왼쪽 모서리에는 새로운 쿼리를 만들기 위한 쿼리 섹션이 있습니다. 이 섹션에서 마우스 오른쪽 단추를 클릭한 후 ‘New Query’ 항목 위에 마우스를 올리고 ‘Blank Query’를 선택합니다.
 
@@ -55,7 +82,18 @@ Power Query Editor는 데이터 압축 해제 프로세스를 처리할 수 있�
 
 ![이미지](/assets/img/2024-07-01-ExtractZipFilesfromAzureBlobStoragetoPowerBIEfficiently_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "이제 코드를 복사하고 빈 쿼리에 붙여넣은 다음 완료를 선택하세요.
 
@@ -63,7 +101,18 @@ Power Query Editor는 데이터 압축 해제 프로세스를 처리할 수 있�
 
 현재 데이터 세트에서 '열 추가'를 선택한 다음 '사용자 정의 열 함수 호출'을 선택하세요."
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 함수를 구성할 때는 매개변수를 설정해야 합니다. 이 매개변수에 대해 내보낸 데이터에서 내용 열을 선택하십시오. 이 내용 열에는 압축 해제해야 하는 zip 파일이 포함되어 있어야 합니다.
 
@@ -73,7 +122,18 @@ Power Query Editor는 데이터 압축 해제 프로세스를 처리할 수 있�
 
 ![이미지](/assets/img/2024-07-01-ExtractZipFilesfromAzureBlobStoragetoPowerBIEfficiently_7.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 이미지에서, 맨 끝에 "파일"이라는 열이 있습니다. "목록"을 클릭하면 zip 폴더에 포함된 모든 파일이 표시됩니다.
 
@@ -83,20 +143,42 @@ Power Query Editor는 데이터 압축 해제 프로세스를 처리할 수 있�
 
 아래 이미지는 zip 파일 내에 포함된 데이터를 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Step 4 - 추출된 데이터를 통찰적인 시각화로 변환하기:
 
 데이터를 모델에 로드하고, 이후 데이터를 효과적으로 표현하는 시각화를 생성해주세요. 이 과정은 데이터에서 가치 있는 메트릭 및 중요 통찰을 추출하는 데 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 내용과 유사한 대시보드를 구축하여 데이터를 효과적으로 시각화하세요.
 
 ## 코드:
 
 ```js
-(ZIP 파일) => 
+(ZIP 파일) =>
 let
     ushort = BinaryFormat.ByteOrder(BinaryFormat.UnsignedInteger16, ByteOrder.LittleEndian),
     uint = BinaryFormat.ByteOrder(BinaryFormat.UnsignedInteger32, ByteOrder.LittleEndian),
@@ -150,25 +232,25 @@ let
                             PosOfFileHeader = BinaryFormat.Transform(BinaryFormat.Null, each fileInfo[PosOfFileHeader])
                         ])
                     )
-                ]), 
+                ]),
                 EDOC[CDirectoryRecordCount]
             )
-        ]), 
-        EDOC[CentralDirectoryOffset] + EDOC[SizeOfCentralDirectory]),  
+        ]),
+        EDOC[CentralDirectoryOffset] + EDOC[SizeOfCentralDirectory]),
     Contents = List.Transform(
         CentralDirectory(ZIP 파일)[Items],
-            (cdEntry) => 
+            (cdEntry) =>
                 let
                     ZipEntry = BinaryFormat.Record(
                     [
-                        PreviousData = BinaryFormat.Binary(cdEntry[FileInfo][PosOfFileHeader]), 
+                        PreviousData = BinaryFormat.Binary(cdEntry[FileInfo][PosOfFileHeader]),
                         Magic = uint,
                         ZipVersion = ushort,
                         ZipFlags = ushort,
                         CompressionMethod = ushort,
                         FileModificationTime = ushort,
                         FileModificationDate = ushort,
-                        CRC32 = uint, 
+                        CRC32 = uint,
                         BinarySize = uint,
                         FileSize   = uint,
                         FileName = BinaryFormat.Choice(
@@ -181,10 +263,10 @@ let
                                 [
                                     FileName = BinaryFormat.Text(fileInfo[Len], TextEncoding.Ascii),
                                     Fields = BinaryFormat.Binary(fileInfo[FieldsLen])
-                                ]) 
+                                ])
                         ),
                         FileContent = BinaryFormat.Transform(
-                            BinaryFormat.Binary(cdEntry[BinarySize]), 
+                            BinaryFormat.Binary(cdEntry[BinarySize]),
                             each Binary.Decompress(_, Compression.Deflate)
                         )
                     ])(ZIP 파일)
@@ -195,7 +277,18 @@ in
     Contents
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 코드 설명:
 
@@ -212,7 +305,18 @@ in
 
 Blob 저장소에서 파일을 추출하고 압축 해제하는 데 Power Query Editor를 사용하는 것은 초강력한 데이터 변환기를 사용하는 것과 같습니다. 이는 엉망인 데이터를 깔끔하고 조직적인 형식으로 변환하여 Power BI가 쉽게 이해할 수 있도록합니다. 이는 우리가 명확한 이야기를 전하는 아름다운 차트와 그래프를 만들 수 있도록 도와줍니다. 따라서 이 방법을 사용함으로써, 우리는 기본적으로 데이터가 더 똑똑하게, 더 열심히 일하도록 만드는 것입니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 회사 소개
 

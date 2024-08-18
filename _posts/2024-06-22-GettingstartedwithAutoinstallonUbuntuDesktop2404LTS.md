@@ -3,17 +3,13 @@ title: "Ubuntu Desktop 2404 LTS에서 Autoinstall 시작하는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-22-GettingstartedwithAutoinstallonUbuntuDesktop2404LTS_0.png"
 date: 2024-06-22 16:03
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-GettingstartedwithAutoinstallonUbuntuDesktop2404LTS_0.png
 tag: Tech
 originalTitle: "Getting started with Autoinstall on Ubuntu Desktop 24.04 LTS"
 link: "https://medium.com/@local_optimum/getting-started-with-autoinstall-on-ubuntu-desktop-24-04-lts-147a1defb2de"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-06-22-GettingstartedwithAutoinstallonUbuntuDesktop2404LTS_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 우분투 23.04 및 우분투 23.10을 통해 우분투 데스크톱 설치 프로그램을 동일한 기본 코드 기반으로 이주시켰으며, 데스크톱 구성용 자동 설치를 해제하였습니다. 이제 설치 경험의 과대포장을 일부분으로 사용자가 구성을 직접 가져 올 수 있는 기능을 추가했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 게시물에서는 사용자의 필요에 맞게 커스텀하고 반복 가능한 데스크톱 설치를 생성하는 방법을 간단히 보여 드리겠습니다.
 
@@ -33,7 +40,18 @@ Autoinstall은 구성 yaml을 사용하여 기본 설치에 원하는 변경 또
 
 처음 사용하는 사용자를 대상으로 간단한 예제부터 시작해 보겠습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```yaml
 autoinstall:
@@ -73,7 +91,18 @@ autoinstall:
 
 이 스크립트는 내 GitHub에 저장되어 있으므로 데스크톱 설치 프로그램을 가리키기 위해 원시 링크를 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Step 2](/assets/img/2024-06-22-GettingstartedwithAutoinstallonUbuntuDesktop2404LTS_1.png)
 
@@ -83,7 +112,18 @@ autoinstall:
 
 ![Automated Installation](/assets/img/2024-06-22-GettingstartedwithAutoinstallonUbuntuDesktop2404LTS_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "유회 > 확인'을 누른 후 설치 요약 화면이 표시됩니다. 여기서 구성이 성공적으로 가져와졌는지 확인할 수 있습니다.
 
@@ -93,7 +133,18 @@ autoinstall:
 
 참고: 자동 설치 후 첫 부팅은 스냅 설치와 같은 작업을 계속 수행하므로 보통보다 시간이 더 걸릴 수 있습니다."
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 3: 맞춤 설정된 Ubuntu 데스크톱을 즐기세요!
 
@@ -103,7 +154,18 @@ autoinstall:
 
 <img src="/assets/img/2024-06-22-GettingstartedwithAutoinstallonUbuntuDesktop2404LTS_4.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Vim, ProtonVPN, 그리고 설치된 스냅도 앱 뷰에 있습니다:
 
@@ -113,7 +175,18 @@ Vim, ProtonVPN, 그리고 설치된 스냅도 앱 뷰에 있습니다:
 
 ![image2](/assets/img/2024-06-22-GettingstartedwithAutoinstallonUbuntuDesktop2404LTS_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 로컬에서 자동 설치 구성을 호스팅하기
 
@@ -123,16 +196,36 @@ Vim, ProtonVPN, 그리고 설치된 스냅도 앱 뷰에 있습니다:
 
 ![이미지](/assets/img/2024-06-22-GettingstartedwithAutoinstallonUbuntuDesktop2404LTS_7.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 설치 중에는 다음 이미지와 같이 머신 IP와 구성 파일 이름을 지정할 수 있습니다.
-
 
 # 더 많은 예제 살펴보기
 
 이 간단한 튜토리얼이 데스크탑을 표준화하고 구성하는 데 자동 설치의 힘을 이해하는 데 도움이 되기를 바랍니다. 선호하는 설정의 사용자 지정 구성을 유지 관리함으로써 Ubuntu 24.04 LTS의 각 설치를 필요에 맞게 쉽게 조정할 수 있어야 합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 심층적인 예제 구성을 보려면 정교한 서버 사용 사례도 포함된 공식 Subiquity 예제를 확인해보세요.

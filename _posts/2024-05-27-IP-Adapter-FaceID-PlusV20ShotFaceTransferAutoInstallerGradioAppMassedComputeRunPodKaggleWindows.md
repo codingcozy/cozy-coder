@@ -3,17 +3,13 @@ title: "IP-Adapter-FaceID-PlusV2-0 샷 페이스 전송  자동 설치 프로그
 description: ""
 coverImage: "/assets/img/2024-05-27-IP-Adapter-FaceID-PlusV20ShotFaceTransferAutoInstallerGradioAppMassedComputeRunPodKaggleWindows_0.png"
 date: 2024-05-27 15:21
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-IP-Adapter-FaceID-PlusV20ShotFaceTransferAutoInstallerGradioAppMassedComputeRunPodKaggleWindows_0.png
 tag: Tech
 originalTitle: "IP-Adapter-FaceID-PlusV2–0 Shot Face Transfer — Auto Installer , Gradio App — Massed Compute, RunPod, Kaggle, Windows"
 link: "https://medium.com/@furkangozukara/ip-adapter-faceid-plusv2-0-shot-face-transfer-auto-installer-gradio-app-massed-compute-8b4e203e9408"
 isUpdated: true
 ---
-
-
-
-
 
 위의 ZIP 파일에는 Windows, RunPod, Massed Compute 및 무료 Kaggle 계정 노트북용 설치 프로그램이 포함되어 있습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 2024년 5월 27일 최신 정보 : https://www.patreon.com/posts/95759342
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-27-IP-Adapter-FaceID-PlusV20ShotFaceTransferAutoInstallerGradioAppMassedComputeRunPodKaggleWindows_0.png" />
 
@@ -35,7 +42,18 @@ Kaggle 노트북도 V3로 업그레이드되어 이제 SDXL을 지원합니다.
 
 저는 Gradio를 코딩하고 비디오를 준비하는 데 1주일 이상 소요했습니다. 이 스레드를 유지하고 Readme 파일에 추가해 주시기를 희망합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비디오가 게시된 후 얼굴 임베딩 캐싱 메커니즘도 추가했어요. 그래서 이제 이미지당 얼굴 임베딩 벡터를 한 번만 계산하므로 이미지 생성 속도가 엄청나게 빨라졌어요.
 
@@ -45,7 +63,18 @@ IP-어댑터-얼굴ID를 사용하여 즉각적으로 얼굴 전송: Windows용 
 
 다음과 같은 장들이 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 '''
 0:00 IP-Adapter-FaceID 풀 튜토리얼 소개

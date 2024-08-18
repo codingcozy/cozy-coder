@@ -3,17 +3,13 @@ title: "유튜브 트렌드 분석 파이프라인 Airflow, Spark, S3 및 Docker
 description: ""
 coverImage: "/assets/img/2024-06-19-YouTubeTrendAnalysisPipelineETLwithAirflowSparkS3andDocker_0.png"
 date: 2024-06-19 09:37
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-YouTubeTrendAnalysisPipelineETLwithAirflowSparkS3andDocker_0.png
 tag: Tech
 originalTitle: "YouTube Trend Analysis Pipeline: ETL with Airflow, Spark, S3 and Docker"
 link: "https://medium.com/@swathireddythokala16/youtube-trend-analysis-pipeline-etl-with-airflow-spark-s3-and-docker-85a7d76992eb"
 isUpdated: true
 ---
-
-
-
-
 
 이 기사에서는 Apache Airflow와 PySpark를 사용하여 자동 ETL (추출, 변환, 로드) 파이프라인을 만드는 방법을 안내합니다. 이 파이프라인은 YouTube Data API에서 트렌드 비디오 데이터를 가져와 처리한 후 처리된 데이터를 S3에 저장할 것입니다.
 
@@ -23,7 +19,18 @@ Twitter API를 사용한 파이프라인을 보여주는 Darshil Parmar의 YouTu
 
 1. Youtube Data API 키 획득
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Google Developers Console을 방문해 주세요.
 - 새 프로젝트를 생성해 주세요.
@@ -39,7 +46,18 @@ Twitter API를 사용한 파이프라인을 보여주는 Darshil Parmar의 YouTu
 - 필요한 S3 액세스 정책을 부여하고 액세스 키를 생성해 주세요.
 - 프로젝트에서 사용할 액세스 키 ID와 비밀 액세스 키를 안전하게 저장해 주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 실제 프로젝트를 시작하겠습니다! 준비됐나요 여러분!!
 
@@ -52,7 +70,18 @@ Twitter API를 사용한 파이프라인을 보여주는 Darshil Parmar의 YouTu
 - PySpark를 사용하여 데이터 변환
 - AWS S3로 데이터 로드
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 1. 소프트웨어 설치 및 설정:
 
@@ -68,7 +97,18 @@ Twitter API를 사용한 파이프라인을 보여주는 Darshil Parmar의 YouTu
 
 이제 설정을 시작해 봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 부분 1 — 도커 이미지 만들기
 
@@ -83,7 +123,18 @@ code .
 - 이 명령은 VS Code에서 해당 폴더를 프로젝트로 엽니다.
 - VS Code에서 "dockerfile"이라는 새 파일을 만들고 아래 코드를 붙여넣으세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 FROM apache/airflow:latest
@@ -110,7 +161,18 @@ RUN pip install --no-cache-dir pyspark pandas google-api-python-client emoji bot
 
 (재미있는 사실: 파일에서 Python 설치가 없는 이유 궁금하신가요? 실제로 Dockerfile에서 사용된 기본 이미지인 apache/airflow:latest에는 Python이 이미 설치되어 있어요. 왜냐하면 Airflow 자체가 Python으로 작성되어 있기 때문에 주로 워크플로 및 작업 정의에 Python을 사용합니다. 따라서 Dockerfile에서 별도로 Python을 설치할 필요가 없답니다!)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파트 2 — 도커 컴포즈 파일 생성하기
 
@@ -135,7 +197,18 @@ services:
     command: airflow standalone
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이제 파일을 마우스 오른쪽 버튼으로 클릭한 후 VS Code에서 'Compose Up' 옵션을 선택하세요. 환경을 설정하기 위해 클릭하세요.
 - 깜짝 놀랄 일이 벌어졌어요! 이 작업을 완료한 후에는 VS Code 프로젝트 디렉토리에 "airflow"라는 새 폴더가 나타날 수 있습니다.
@@ -146,8 +219,18 @@ Docker 데스크톱을 열어서 모든 것이 올바르게 완료되었는지 �
 
 - 이제 Airflow 프로젝트를 클릭하여 Airflow가 8080 포트에서 실행 중임을 나타내는 로그가 표시되는 화면을 엽니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-YouTubeTrendAnalysisPipelineETLwithAirflowSparkS3andDocker_2.png)
 
@@ -158,9 +241,18 @@ Docker 데스크톱을 열어서 모든 것이 올바르게 완료되었는지 �
 
 - 로그인 페이지에서 자격 증명을 입력한 후, 로컬 호스트에서 Airflow가 실행 중인 것을 확인할 수 있습니다. 다음과 같이 나타납니다:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-YouTubeTrendAnalysisPipelineETLwithAirflowSparkS3andDocker_4.png" />
 
@@ -168,7 +260,18 @@ Docker 데스크톱을 열어서 모든 것이 올바르게 완료되었는지 �
 
 # 2. YouTube 데이터 API에서 데이터 추출하기:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Airflow 폴더 아래에 "dags"라는 이름의 폴더를 만들고, dags 폴더 아래에 "youtube_etl_dag.py"라는 파이썬 파일을 만듭니다.
 - 이제 "youtube_etl_dag.py" 파일에 다음을 import하세요.
@@ -216,9 +319,20 @@ dag = DAG(
     schedule_interval=timedelta(days=1),  # 일별 스케줄 간격
     catchup=False,  # 누락된 DAG 실행을 복구하지 않음
 )
-```  
+```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 매일 자정(0시)에 실행되는 DAG인 'youtube_etl_dag'을 정의하고 있습니다. 이 DAG은 Airflow에서 관리 및 트리거되며, VS Code에서 별도로 실행할 필요가 없습니다. Python 파일을 업데이트하면 Airflow에서 자동으로 변경 사항을 감지하고 반영할 것입니다.
 
@@ -230,7 +344,7 @@ def extract_data(**kwargs):
     api_key = kwargs['api_key']
     region_codes = kwargs['region_codes']
     category_ids = kwargs['category_ids']
-    
+
     df_trending_videos = fetch_data(api_key, region_codes, category_ids)
     current_date = datetime.now().strftime("%Y%m%d")
     output_path = f'/opt/airflow/Youtube_Trending_Data_Raw_{current_date}'
@@ -303,7 +417,18 @@ extract_task # 이 작업을 실행하도록 DAG를 설정함
 
 이 코드에서 두 가지 주요 작업이 이루어지고 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - DAG에 extract_task라는 작업을 만들고 있습니다.
 - extract_task에서 호출되는 callable 함수인 extract_data를 정의하고 있습니다. 이 함수는 YouTube Data API에서 데이터를 가져와 "Youtube_Trending_Data_Raw"로 시작하는 CSV 파일에 pandas DataFrame을 사용하여 저장합니다.
@@ -314,7 +439,18 @@ YouTube Data API 문서를 참조하여 API의 다른 부분에서 사용 가능
 
 <img src="/assets/img/2024-06-19-YouTubeTrendAnalysisPipelineETLwithAirflowSparkS3andDocker_5.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 런 버튼을 클릭하면 데이터를 가져오고 파일에 저장하는 데 시간이 걸립니다. 작업의 각 단계에서 그래프 색상이 변경되는 것을 볼 수 있을 거에요. 멋지죠? :)
 
@@ -324,7 +460,18 @@ YouTube Data API 문서를 참조하여 API의 다른 부분에서 사용 가능
 
 ![이미지](/assets/img/2024-06-19-YouTubeTrendAnalysisPipelineETLwithAirflowSparkS3andDocker_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 추출 작업이 완료되었습니다. 다음 작업으로 넘어가 봅시다!
 
@@ -334,15 +481,26 @@ YouTube Data API 문서를 참조하여 API의 다른 부분에서 사용 가능
 
 이 작업에 PySpark를 사용할 것입니다. PySpark는 대용량 데이터 세트를 처리하고 변환 작업을 수행하기 위해 설계된 강력한 프레임워크입니다. 데이터 세트가 특히 크지 않기 때문에 Pandas를 사용할 수도 있지만, 전에 PySpark를 사용한 적이 있어 이번에도 PySpark를 사용하기로 결정했습니다. 최근 PySpark를 공부하고 있으며, 이론을 공부하는 것보다 실제 구현이 더 흥미롭다고 느낍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Python callable function to extract data from YouTube API
-def extract_data(**kwargs):
-    api_key = kwargs['api_key']
-    region_codes = kwargs['region_codes']
-    category_ids = kwargs['category_ids']
-    
+
+def extract_data(\*\*kwargs):
+api_key = kwargs['api_key']
+region_codes = kwargs['region_codes']
+category_ids = kwargs['category_ids']
+
     df_trending_videos = fetch_data(api_key, region_codes, category_ids)
     current_date = datetime.now().strftime("%Y%m%d")
     output_path = f'/opt/airflow/Youtube_Trending_Data_Raw_{current_date}'
@@ -350,11 +508,11 @@ def extract_data(**kwargs):
     df_trending_videos.to_csv(output_path, index=False)
 
 def fetch_data(api_key, region_codes, category_ids):
-    """
-    Fetches trending video data for multiple countries and categories from YouTube API.
-    Returns a pandas data frame containing video data.
-    """
-    video_data = []
+"""
+Fetches trending video data for multiple countries and categories from YouTube API.
+Returns a pandas data frame containing video data.
+"""
+video_data = []
 
     # Build YouTube API service
     youtube = build('youtube', 'v3', developerKey=api_key)
@@ -398,30 +556,30 @@ def fetch_data(api_key, region_codes, category_ids):
 
     return pd.DataFrame(video_data)
 
-def preprocess_data_pyspark_job():
-    spark = SparkSession.builder.appName('YouTubeTransform').getOrCreate()
-    current_date = datetime.now().strftime("%Y%m%d")
-    output_path = f'/opt/airflow/Youtube_Trending_Data_Raw_{current_date}'
-    df = spark.read.csv(output_path, header=True)
-    
+def preprocess*data_pyspark_job():
+spark = SparkSession.builder.appName('YouTubeTransform').getOrCreate()
+current_date = datetime.now().strftime("%Y%m%d")
+output_path = f'/opt/airflow/Youtube_Trending_Data_Raw*{current_date}'
+df = spark.read.csv(output_path, header=True)
+
     # Define UDF to remove hashtag data, emojis
     def clean_text(text):
      if text is not None:
         # Remove emojis
         text = emoji.demojize(text, delimiters=('', ''))
-        
+
         # Remove hashtag data
         if text.startswith('#'):
             text = text.replace('#', '').strip()
         else:
             split_text = text.split('#')
             text = split_text[0].strip()
-        
+
         # Remove extra double quotes and backslashes
         text = text.replace('\\"', '')  # Remove escaped quotes
         text = re.sub(r'\"+', '', text)  # Remove remaining double quotes
         text = text.replace('\\', '')  # Remove backslashes
-        
+
         return text.strip()  # Strip any leading or trailing whitespace
 
      return text
@@ -436,36 +594,36 @@ def preprocess_data_pyspark_job():
                    .withColumn('like_count', col('like_count').cast(LongType())) \
                    .withColumn('comment_count', col('comment_count').cast(LongType())) \
                    .dropna(subset=['video_id'])
-    
+
     # Generate the filename based on the current date
     current_date = datetime.now().strftime("%Y%m%d")
     output_path = f'/opt/airflow/Transformed_Youtube_Data_{current_date}'
-    
-    # Write cleaned DataFrame to the specified path
-    df_cleaned.write.csv(output_path, header=True, mode='overwrite')   
 
+    # Write cleaned DataFrame to the specified path
+    df_cleaned.write.csv(output_path, header=True, mode='overwrite')
 
 # Define extract task for the DAG
+
 extract_task = PythonOperator(
-    task_id='extract_data_from_youtube_api',
-    python_callable=extract_data,
-    op_kwargs={
-        'api_key': os.getenv('YOUTUBE_API_KEY'),
-        'region_codes': ['US', 'GB', 'IN', 'AU', 'NZ'],
-        'category_ids': ['1', '2', '10', '15', '20', '22', '23']
-    },
-    dag=dag,
+task_id='extract_data_from_youtube_api',
+python_callable=extract_data,
+op_kwargs={
+'api_key': os.getenv('YOUTUBE_API_KEY'),
+'region_codes': ['US', 'GB', 'IN', 'AU', 'NZ'],
+'category_ids': ['1', '2', '10', '15', '20', '22', '23']
+},
+dag=dag,
 )
 
 # Define preprocessing task for the DAG
+
 preprocess_data_pyspark_task= PythonOperator(
-    task_id='preprocess_data_pyspark_task',
-    python_callable=preprocess_data_pyspark_job,
-    dag=dag
+task_id='preprocess_data_pyspark_task',
+python_callable=preprocess_data_pyspark_job,
+dag=dag
 )
 
 extract_task >> preprocess_data_pyspark_task
-
 
 여기서는 이 코드가 하는 일을 설명해 드렸습니다.
 
@@ -477,7 +635,18 @@ extract_task >> preprocess_data_pyspark_task
 
 만약 Airflow를 보신다면 아래와 같이 첫 번째 작업에 새로운 작업이 추가된 것을 보실 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 우리가 변환한 데이터의 모습입니다:
 
@@ -485,7 +654,18 @@ extract_task >> preprocess_data_pyspark_task
 
 이 작업은 완료되었습니다. 이제 최종 작업으로 넘어갈 차례입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4. S3로 데이터 로드하기:
 
@@ -537,7 +717,7 @@ def extract_data(**kwargs):
     api_key = kwargs['api_key']
     region_codes = kwargs['region_codes']
     category_ids = kwargs['category_ids']
-    
+
     df_trending_videos = fetch_data(api_key, region_codes, category_ids)
     current_date = datetime.now().strftime("%Y%m%d")
     output_path = f'/opt/airflow/Youtube_Trending_Data_Raw_{current_date}'
@@ -601,25 +781,25 @@ def preprocess_data_pyspark_job():
     current_date = datetime.now().strftime("%Y%m%d")
     output_path = f'/opt/airflow/Youtube_Trending_Data_Raw_{current_date}'
     df = spark.read.csv(output_path, header=True)
-    
+
     # 해시태그 데이터, 이모지 제거를 위한 UDF 정의
     def clean_text(text):
      if text is not None:
         # 이모지 제거
         text = emoji.demojize(text, delimiters=('', ''))
-        
+
         # 해시태그 및 이후 모든 것 제거
         if text.startswith('#'):
             text = text.replace('#', '').strip()
         else:
             split_text = text.split('#')
             text = split_text[0].strip()
-        
+
         # 추가 이중 인용부호와 백슬래시 제거
         text = text.replace('\\"', '')  # 이스케이프된 따옴표 제거
         text = re.sub(r'\"+', '', text)  # 남은 이중 인용부호 제거
         text = text.replace('\\', '')  # 백슬래시 제거
-        
+
         return text.strip()  # 선행 또는 후행 공백 제거
 
      return text
@@ -634,13 +814,13 @@ def preprocess_data_pyspark_job():
                    .withColumn('like_count', col('like_count').cast(LongType())) \
                    .withColumn('comment_count', col('comment_count').cast(LongType())) \
                    .dropna(subset=['video_id'])
-    
+
     # 현재 날짜를 기반으로 파일 이름 생성
     current_date = datetime.now().strftime("%Y%m%d")
     output_path = f'/opt/airflow/Transformed_Youtube_Data_{current_date}'
-    
+
     # 정리된 DataFrame을 지정된 경로에 작성
-    df_cleaned.write.csv(output_path, header=True, mode='overwrite')   
+    df_cleaned.write.csv(output_path, header=True, mode='overwrite')
 
 # S3로 데이터 업로드 함수
 def load_data_to_s3(**kwargs):
@@ -690,7 +870,16 @@ preprocess_data_pyspark_task= PythonOperator(
 
 
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 저희가 만든 최종 작업인 load_data_to_s3_task를 소개합니다. 이 작업은 load_data_to_s3 함수를 호출하여 파일을 S3 버킷에 업로드합니다. 업로드가 잘 되었는지 확인하려면 S3 버킷의 내용을 확인하세요.
 
@@ -700,7 +889,16 @@ preprocess_data_pyspark_task= PythonOperator(
 
 이제 이 데이터를 Tableau나 다른 BI 도구에 연결하여 흥미로운 대시보드를 만들고 인사이트를 시각화해 보세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 함께 이 파이프라인을 따라 오면서 새로운 기술 몇 가지를 배웠으면 좋겠어요! 🚀 성공적으로 여기까지 왔다면 축하해요! 🎉 이 새롭게 얻은 지식이 데이터 엔지니어링에서의 향후 모험에 큰 도움이 되길 바래요!
 
@@ -709,3 +907,4 @@ preprocess_data_pyspark_task= PythonOperator(
 만약 이 글을 좋아하셨다면, 공유하고, 좋아요를 눌러주시고, 아래에 댓글을 남겨주시고 구독해주세요. 🎉👏📝
 
 커튼을 닫습니다! 🎭
+```

@@ -3,17 +3,13 @@ title: "애플의 부활부터 교황의 봇에 대한 생각까지 기술과 AI
 description: ""
 coverImage: "/assets/img/2024-06-23-FromApplesRevivaltothePopesThoughtsonBots_0.png"
 date: 2024-06-23 18:26
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-FromApplesRevivaltothePopesThoughtsonBots_0.png
 tag: Tech
 originalTitle: "From Apple’s Revival to the Pope’s Thoughts on Bots"
 link: "https://medium.com/@lbq999/from-apples-revival-to-the-pope-s-thoughts-on-bots-b3a19e88ca63"
 isUpdated: true
 ---
-
-
-
-
 
 - 애플은 세계에서 가장 가치 있는 회사로 자리를 다시 차지했어요. 마이크로소프트와 엔비디아를 능가했답니다.
 - 이 테크 자이언트의 부활은 주로 ChatGPT를 다양한 제품에 통합한 데 기인합니다.
@@ -27,7 +23,18 @@ isUpdated: true
 
 ## 교황의 AI에 대한 관점
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - G7 정상 회의 도중 교황은 인공지능에 대한 우려를 표명했습니다.
 - 그는 기술에 대한 인간의 통제를 유지하는 중요성을 강조했습니다.
@@ -41,7 +48,18 @@ isUpdated: true
 
 ## 고양이 건강 관리의 AI
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 일본에서는 "Cats Me"라는 AI 기반 앱이 애완동물 건강 관리 분야에서 큰 반향을 일으키고 있습니다.
 - 이 앱은 수천 개의 고양이 이미지를 분석하여 고양이의 통증을 감지할 수 있습니다.

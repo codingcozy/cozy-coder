@@ -3,7 +3,7 @@ title: "AI 음성 복제가 오디오북 산업을 뒤흔들 준비 중입니다
 description: ""
 coverImage: "/assets/img/2024-06-19-AIVoiceCloningisAbouttoShakeUptheAudiobookIndustry_0.png"
 date: 2024-06-19 04:10
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-AIVoiceCloningisAbouttoShakeUptheAudiobookIndustry_0.png
 tag: Tech
 originalTitle: "AI Voice Cloning is About to Shake Up the Audiobook Industry"
@@ -11,17 +11,24 @@ link: "https://medium.com/the-generator/ai-voice-cloning-is-about-to-shake-up-th
 isUpdated: true
 ---
 
-
-
-
-
 ![AIVoiceCloningisAbouttoShakeUptheAudiobookIndustry](/assets/img/2024-06-19-AIVoiceCloningisAbouttoShakeUptheAudiobookIndustry_0.png)
 
 요즘들어 오디오북이 많이 인기를 끌고 있어요. 생동감 넘치는 내레이션과 다양한 효과음을 통해 텍스트 기반의 책보다 더 몰입감을 느낄 수 있죠. 사람들은 오디오북을 들으며 다른 (보통 언어를 사용하지 않는) 작업을 할 수 있어서 바쁜 사람들이나 읽을 시간이 부족한 사람들에게 좋은 선택지가 될 수 있어요. 시각 장애가 있는 독자들에게도 비싼 점자책의 대안이 될 수 있어요.
 
 저는 오디오북이 읽는 것과 관련된 활동적인 청취를 포함하여 읽은 것으로 간주될 수 있다고 생각했던 오디오북 비판론자였어요. 그러나 생각이 바뀌었어요. 오디오북을 사랑하게 되었고, 매일 읽는 책의 수가 거의 세 배로 늘어났어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 모든 것은 오디오북의 위대함을 인정한다는 것을 의미합니다. 그리고 그것이 왜 인디 작가로서 나는 내 소설 중 하나를 오디오북으로 만들고 싶어했는지 설명합니다. 그러나 이 일은 (창작과 제작 부분 포함) 값이 싸지 않습니다!
 
@@ -31,7 +38,18 @@ isUpdated: true
 
 ACX와 같은 최신 플랫폼은 이 프로세스를 크게 간소화했지만, 간소화되었더라도, 프로세스는 여전히 상당히 비싸며 복잡성이 없는 것은 아닙니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 음성 AI와 오디오북
 
@@ -41,7 +59,18 @@ Resemble.AI는 이와 같은 기업 중 하나로, "생성적 음성 AI를 새�
 
 Resemble.AI의 생성적 음성 AI 툴킷은 다양한 응용 분야가 있지만, 그 중 하나는 작가와 출판사를 위한 오디오북 제작입니다. 맞아요: AI가 생성한 오디오북입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그들과 같은 기술의 점점 더 많은 이용 가능성은 오디오북 제작의 비용 효율성이 크게 향상될 뿐만 아니라, 관련된 복잡한 프로세스도 감소될 것입니다.
 
@@ -51,7 +80,18 @@ Resemble.AI의 웹사이트에는 다음과 같이 나와 있습니다. "Resembl
 
 Resemble.AI의 기술은 현재 일부 사용자에게만 공개되어 있지만, 준비하세요: 그들과 같은 기술에 대한 접근이 점점 더 늘어남에 따라 오디오북 산업은 AI 내레이션 책을 대대적으로 증가할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # AI로 내려받은 오디오북 제작 과정은 어떻게 될까요?
 
@@ -61,7 +101,18 @@ Resemble.AI의 기술은 현재 일부 사용자에게만 공개되어 있지만
 
 나는 내 목소리 클론을 사용하여 오디오북을 낭독하기로 결정했습니다. Resemble.AI를 사용하면 프로세스가 간단합니다. 웹 녹음기를 사용하여 목소리를 녹음하거나 내 목소리가 포함된 기존 오디오 데이터를 업로드할 수 있습니다. 저는 후자의 옵션을 선택했고, AI를 훈련하기 위해 몇 분 (25문장)의 녹음만으로 충분합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AI를 사용하여 내 AI 음성 복제본을 이용해 완전한 오디오북을 생성하는 데 조금 더 시간이 걸립니다.
 
@@ -71,7 +122,18 @@ AI를 사용하여 내 AI 음성 복제본을 이용해 완전한 오디오북�
 
 만족하지 못하면, 다른 음성을 사용하기로 결정할 수도 있어요. 어찌되었건 Resemble.AI의 음성 마켓에서 다른 음성을 이용해볼 수 있어요. 사이트는 "다양한 장르에 최적화된 디지털 음성의 폭넓은 선택이 [당신이] 상상하는대로 오디오북의 소리를 보장할 것"이라고 약속해줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 그들의 프로그래밍 인터페이스를 활용하여 제 목소리 클론의 성능이나 그들의 마켓플레이스에서 제공되는 다른 AI 내레이터들의 성능을 실험할 수도 있어요.
 
@@ -81,7 +143,18 @@ AI를 사용하여 내 AI 음성 복제본을 이용해 완전한 오디오북�
 
 만약 이 모든 단계를 거친 후에도 만족스럽지 않다면 — 예를 들어 내레이션 소리가 너무 로봇적으로 들린다면 — 더 많은 옵션을 사용할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Resemble.AI의 음성 대 음성 엔진이 필요한 것일지도 모릅니다. 이 음성 대 음성 엔진은 "인간과 유사한 성능을 실제로 반영하는 AI 보이스오버를 생성할 수 있습니다. 인간의 언어의 모든 불완전함을 포함한 것들"을 만들어 낼 수 있습니다. 이러한 불완전함에는 원본 음성의 "모든 세물릿, 수다스러운 표현, 사투리, 강세"가 포함되어 있습니다... 그 모든 것들이 AI가 생성한 음성에 반영됩니다.
 
@@ -91,7 +164,18 @@ Resemble.AI의 음성 대 음성 엔진이 필요한 것일지도 모릅니다. 
 
 더욱이: Resemble.AI 사용자는 음성 대 음성 음성 생성과 텍스트 대 음성 음성 생성을 매끄럽게 결합하여 "자동화, 품질 또는 텍스트 대 음성 시스템의 속도를 희생하지 않으면서 독특한 인간과 유사한 음성화를 만들 수 있습니다." 즉, 책의 특정 부분에는 텍스트 대 음성을 사용하고 나레이션이 특정한 방식으로 들리길 원하는 책의 다른 부분에는 음성 대 음성을 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제 현대 소설에는 세 가지 번갈아가는 시점이 사용되므로, 나는 Resemble.AI의 서비스에 매우 만족하고 있습니다. 나는 각 시점의 내러레이터가 다르게 들리기를 원하기 때문입니다. 이 기술의 변조 기능, 음성 스킨 및 합성 음성을 사용하여 나는 내 음성 클론을 모든 세 개의 음성의 기반으로 사용하더라도 또한 각 시점 캐릭터들이 서로 다르게 들리도록 쉽게 구현할 수 있습니다.
 
@@ -101,7 +185,18 @@ Resemble.AI의 음성 대 음성 엔진이 필요한 것일지도 모릅니다. 
 
 # 음성 클론 기술의 윤리학
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 물론 Resemble.AI의 기술은 다양한 윤리 문제를 불러일으킵니다.
 
@@ -109,17 +204,39 @@ Resemble.AI의 음성 대 음성 엔진이 필요한 것일지도 모릅니다. 
 
 음성 클론의 단점이 너무나 추악하기 때문에, Resemble.AI와 같은 기업에 대한 우려가 전혀 타당합니다. Resemble.AI는 윤리 성명서에 전체 페이지를 바친 상태이며, 해당 페이지에서 자신들의 AI를 사용할 수 없는 금지된 용도 목록을 제공합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 목록은 직접적으로 사람들이 기술을 이러한 목적으로 사용하는 것을 막지는 못하지만, 기술을 오용하는 사용자는 계정이 정지될 가능성이 높을 것입니다 (또는 법 집행 기관이 개입될 경우 더 나쁜 결과를 안게 될 수도 있습니다; 이러한 법적 결과는 음성 클론에 대한 규제가 발전함에 따라 달라질 수 있습니다).
 
-Resemble.AI와 같은 기술을 사용하여 오디오북을 제작하는 것과 관련된 다른 윤리적 고민도 있습니다. 
+Resemble.AI와 같은 기술을 사용하여 오디오북을 제작하는 것과 관련된 다른 윤리적 고민도 있습니다.
 
 당신의 목소리를 사용하여 Resemble.AI로 오디오북을 만든다면, 당신이 Resemble.AI 사이트에 본인의 음성 클론을 업로드하면, 데이터 침해를 통해 도용될 가능성이 있고 다른 (잠재적으로 악의적인) 목적으로 사용될 수도 있습니다. 그리고 이미 여러분의 목소리 녹음이 이미 공개되어 있거나 불법적이거나 숨겨진 방법으로 획득된 경우에는 당신의 목소리를 기반으로 한 다른 AI 음성 생성기가 여러분의 목소리에 학습될 수 있습니다.
 
 회사의 AI 음성을 훈련시키기 위해 사용된 사람들의 목소리를 기본적으로 통제 권한을 포기한 것일까요? 그들은 절대적으로 나쁜 책들과 (가능성이 있는) 해로운 콘텐츠/목적을 가진 책들과 영원히 관련될 것에 대해 걱정해야 할까요? 그것이 사실인 것 같습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작업과 소득 손실이 생길 것입니다, 비록 음성 클로닝 자체가 새로운 수익원이 될 것입니다. Resemble.AI는 다양한 성우들과 협력하여 그들의 음성 AI 마켓플레이스에서 사용 가능한 합성 인간 기반 음성을 만들었으므로, 이를 훈련하기 위해 사용된 성우들은 자신의 AI 대응품에서 수동 수익을 올린다고 추측됩니다. 장기적으로 일부 성우들에게 이득이 될 수 있지만, 자신의 음성 클론을 판매하는 용이함 (그리고 이 과정에서 진정한 음성 연기가 필요하지 않음)으로 인해 AI 음성 시장이 빠르게 포화되어 새로운 성우들이 음성 클로너들에게 제공되는 수동 수익을 활용하는 것이 어려워질 것으로 예측합니다. 한편, 현재 오디오북 제작 등을 통해 수입의 많은 부분을 얻고 있는 성우들은 어떻게 될까요? AI 음성 클론이 이 산업에서 제공되는 일자리를 크게 줄일 것인가요?
 
@@ -129,7 +246,18 @@ AI가 생성한 책이 오디오북 시장을 포화시킬 것인가요? 제 예
 
 또한 오디오북 출판 플랫폼이 AI가 생성한 오디오북의 곧 다가올 쇄도에 어떻게 대응할지 살펴봐야 합니다. AI가 생성한 오디오북 주변에 어떤 신규 규제가 만들어질까요? 이러한 책들은 사람이 낭송한 오디오북과 비교하여 어떻게 마케팅 및 판매될까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마침내, 일부 독자는 인간이 내주는 이야기들을 선호하여 완전히 AI로 이야기하는 책을 비난할 것이라고 확신합니다. 마찬가지로, "너무 로봇적으로 들리는" 실제 이야기꾼들도 AI 이야기꾼과 함께 배척될 수 있습니다. (만약 "인간 같이 들리는" 사람들이 새로운 트렌드가 된다면, 우리 모두 함께 웃을 수 있겠죠.)
 
@@ -139,7 +267,18 @@ AI가 생성한 책이 오디오북 시장을 포화시킬 것인가요? 제 예
 
 예를 들어, 내 꿈인 오디오북을 싸고 효율적으로 만들기 위해 AI를 사용하고 싶다면, 왜 안되겠어요? 내 관점에서는, 모두가 AI로 이야기하는 책을 출시하기로 결정하기 전에, 빨리 몽땅에 올라타는 게 좋을 것 같아요. 그 날이 우리가 생각하는 것보다 빨리 올 수도 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 'Resemble.AI'와 전혀 관련이 없음을 주의해주세요. 그들의 회사를 주의 깊게 지켜보고 있습니다. 그들이 하는 일에 대해 걱정되고 기대되는 마음이 교차하고 있습니다. 이 기사는 광고가 아닙니다.
 

@@ -3,7 +3,7 @@ title: "오픈 소스 맥박산소측정기, 직접 만들어보기"
 description: ""
 coverImage: "/assets/img/2024-06-22-OpenSourcePulseOximeter_0.png"
 date: 2024-06-22 17:55
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-OpenSourcePulseOximeter_0.png
 tag: Tech
 originalTitle: "Open Source Pulse Oximeter"
@@ -11,15 +11,22 @@ link: "https://medium.com/@nandasiddhardha/open-source-pulse-oximeter-90c0e3b896
 isUpdated: true
 ---
 
-
-
-
-
 이 프로젝트에서 사용된 항목
 
 전체 장치는 44mm x 30mm 퍼프 보드에 부착된 Arduino Nano를 중심으로 설계되었습니다. 먼저, 센서의 VIN, GND, SDA 및 SCL 핀에 전선을 납땜한 다음, 그 전선은 침대 부품 아래를 따라 Arduino Nano로 연결됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로, OLED에 대한 커넥터를 Nano에 연결한 다음 디스플레이에 연결합니다. 마지막으로, 전체 전자 어셈블리를 하우징에 밀어 넣고 몇 개의 3mm 나사로 고정합니다.
 
@@ -29,7 +36,18 @@ isUpdated: true
 
 포함된 스케치는 사용자의 현재 심박수와 산소 포화도를 표시하기 위해 몇 가지 작업을 수행합니다. 업로드하려면 필요한 라이브러리를 설치하고 도구 메뉴에서 Arduino Nano를 보드 목록에서 선택한 다음 업로드를 클릭하면 됩니다. 스케치 자체는 OLED 및 MAX30102를 초기화하고 에러가 발생할 경우 보고합니다. 그런 다음 센서를 보정하기 위해 100개의 값을 읽고 이를 표시하기 시작합니다. 장치는 그런 다음 25개의 새 값들을 읽고 이들로 이동 평균을 계산하는 루프에 진입합니다. 마지막으로 값이 유효한지 확인하고 유효하다면 화면에 인쇄합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 펄스 옥시미터를 사용하려면 손가락 끝을 센서 위에 올려놓고 부드럽게 뚜껑을 닫으세요. 그런 다음 전원 공급원을 꽂고 데이터가 표시될 때까지 기다리기만 하면 됩니다.
 
@@ -39,7 +57,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-22-OpenSourcePulseOximeter_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 펄스 옥시미터 코드
 
@@ -156,7 +185,7 @@ void loop()
 
       Serial.print(F(", SPO2유효="));
       Serial.println(validSPO2, DEC);
-      
+
     }
 
     // 25개의 새로운 샘플을 수집한 후 HR 및 SP02를 재계산합니다.

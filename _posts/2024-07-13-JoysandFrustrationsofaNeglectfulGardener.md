@@ -3,17 +3,13 @@ title: "방치된 정원사의 즐거움과 좌절들"
 description: ""
 coverImage: "/assets/img/2024-07-13-JoysandFrustrationsofaNeglectfulGardener_0.png"
 date: 2024-07-13 22:21
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-JoysandFrustrationsofaNeglectfulGardener_0.png
 tag: Tech
 originalTitle: "Joys and Frustrations of a Neglectful Gardener"
 link: "https://medium.com/gardening-birding-and-outdoor-adventure/joys-and-frustrations-of-a-neglectful-gardener-aad0fcffe7ae"
 isUpdated: true
 ---
-
-
-
-
 
 노력을 하지 않아도 삶은 언제나 길을 찾아냅니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 나무에서 고양이새가 우는 소리를 내며 저는 젖은 식물들 사진을 찍고, 시들은 꽃들을 꺾어내리고, 바닥에서 잎 쓰레기를 줍기 시작했습니다. 지붕에서 화분, 의자로 이어지는 실크 끈을 헤쳐지웠습니다. 죄송해요, 걸쭉한 친구들, 하지만 이 공간은 우리 모두의 공간입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 게 아름답고 건강해 보였어요. 최고의 관리자이자 최악의 식물 살인범인 나의 존재는 알 수 없을거에요.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 왜 식물을 돌보는 것을 즐기지 않으면서 시간과 돈을 낭비할까요? 그 이유는 다양해요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 실내 식물은 공기 질을 향상시키며 장식적이며, 긴 겨울에 희망을 심어줄 초록색을 줍니다. 건강한 선택이에요.
 - 신선하게 수확한 채소와 허브의 맛은 갓 딴 것에는 이길 수 없어요. 가까운 농장에서 맛있게 수확된 제품을 살 수 있지만, 부엌에서 20피트 떨어진 곳에서 직접 딴 것과는 맛이 다를 수밖에 없어요.
@@ -46,7 +64,18 @@ isUpdated: true
 
 # 수십 년에 걸쳐 이루어진 살인 속도를 늦추기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나는 성공적으로 성냥 조명이 아닌 다른 식물을 보존한 것이 인생에서 처음이야.
 
@@ -56,7 +85,18 @@ isUpdated: true
 
 놀랍게도, 그게 효과가 있었어! 마침내 나에게 무관심을 견디고 대부분 스스로 돌볼 수 있는 식물이 생겨났어. 지금은 내 식당 창가에 앉아 있고, 그 식물의 삽목으로 자란 식물들이 침실과 욕실에 있다고.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지난 2년 동안 몇 개 식물들을 주변에서 주워서 키워왔어요. ZZ 식물(Zamioculcas zamiifolia)의 즐거움을 발견했는데, 수분을 적게 필요로 하고 쉽게 번식하는 이 식물은 현재 4개가 있어요. 테이블 위에 행운을 상징하는 럭키 대나무가 올려져 있어요.
 
@@ -66,7 +106,18 @@ isUpdated: true
 
 100% 성공은 주장하지 않겠지만, 생성된 식물보다 퇴비가 된 식물이 더 많이 살아있어요. 출발이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 야외 생존자들
 
@@ -74,9 +125,20 @@ isUpdated: true
 
 인근 탁자에는 바질 식물이 있습니다. 잎들은 내가 기대했던 생기 넘치는 녹색을 띄지는 않았지만, 이번 주에 카프레제 샐러드에 사용해본 결과 맛은 훌륭했습니다.
 
-![image](/assets/img/2024-07-13-JoysandFrustrationsofaNeglectfulGardener_1.png)  
+![image](/assets/img/2024-07-13-JoysandFrustrationsofaNeglectfulGardener_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작은 서랍 위에 두 개의 화분이 놓여 있어요: 상황이 잘 안되는 니코티아와 튜블러 꽃을 피우는 푸쉬아. 그 위에 매달린 바구니 안에는 참새들이 좋아하는 또 다른 종류의 푸쉬아가 있어요.
 
@@ -86,7 +148,18 @@ isUpdated: true
 
 매 봄 야외 식물을 사고 살려둘 수 없는 실내 식물을 대체하며 가끔 비료와 토분을 사용하는 비용이 들어요. (식물 스왑에 참여하거나 근처 무료 씨앗 도서관을 이용함으로써 일부 비용을 줄일 수 있어요.) 물주기, 먹이 주기, 가지치기에 시간을 할애하지만 더 이상 잡초를 뽑지 않아도 된다는 점은 감사해요. 여행 갈 때 식물이 살아있을지 걱정돼요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제가 말한 것들을 제가 뭐가 되는 거죠? 올해에는 다음을 기대합니다:
 
@@ -100,6 +173,17 @@ isUpdated: true
 
 네, 이것은 가치가 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 그로우 백 가든은 Gardenuity에서 왔어요. 근처에 현지 정원용품 가게나 원예 가게가 있다면 꼭 방문해보세요. 하지만 Gardenuity 키트의 품질과 간편함을 증명할 수 있어요. 그들의 강사가 이끄는 기업 활동도 매우 유익하고 재미있었어요.

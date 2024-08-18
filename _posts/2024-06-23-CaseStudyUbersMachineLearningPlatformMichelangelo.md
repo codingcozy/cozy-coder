@@ -3,17 +3,13 @@ title: "사례 연구 Uber의 머신러닝 플랫폼 Michelangelo 심층 분석"
 description: ""
 coverImage: "/assets/img/2024-06-23-CaseStudyUbersMachineLearningPlatformMichelangelo_0.png"
 date: 2024-06-23 16:14
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-CaseStudyUbersMachineLearningPlatformMichelangelo_0.png
 tag: Tech
 originalTitle: "Case Study : Uber’s Machine Learning Platform “Michelangelo”"
 link: "https://medium.com/@pranjalkhadka/case-study-ubers-machine-learning-platform-michelangelo-b650afa1fe01"
 isUpdated: true
 ---
-
-
-
-
 
 Michelangelo은 Uber 내부 ML-as-a-service 플랫폼으로, 기업의 요구를 충족하기 위해 AI를 확장하고 머신 러닝을 민주화하는 서비스입니다. 데이터 관리, 모델 학습, 평가, 배포, 예측 및 모니터링 기능을 하며 전통적인 머신 러닝 모델부터 딥 러닝까지 다양한 모델을 다룰 수 있습니다. Michelangelo은 오랫동안 Uber에서 사용 중이며 여러 Uber 데이터 센터에 배포되어 있습니다. 이 기사에서는 Michelangelo의 개발 동기와 아키텍처에 대해 자세히 살펴보겠습니다.
 
@@ -23,7 +19,18 @@ UberEATS에는 Michelangelo에서 실행되는 여러 머신 러닝 모델이 �
 
 UberEATS의 데이터 과학자들은 end-to-end delivery 시간을 예측하기 위해 그라디언트 부스트된 의사 결정 트리 회귀 모델을 사용합니다. 모델의 features로는 하루 중 시간, 배달 위치, 평균 식사 준비 시간 등이 포함됩니다. 이러한 모델들은 Michelangelo 모델 서빙 컨테이너에 배포되어 Uber의 데이터 센터 전체에 통합되며, UberEATS 마이크로서비스에 의해 네트워크 요청을 통해 호출됩니다. 이러한 예측은 고객이 식사가 준비되고 배달되는 동안에 표시됩니다. Michelangelo은 Uber 내부에서 개발된 구성 요소와 오픈 소스 시스템의 혼합을 사용하여 구축되었습니다. XGBoost, Tensorflow, Spark 등의 오픈 소스 구성 요소가 사용되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Michelangelo의 데이터 관리 구성 요소는 온라인과 오프라인 파이프라인으로 나뉩니다. 오프라인 파이프라인은 일괄 모델 훈련 및 일괄 예측 작업에 사용되며, 온라인 파이프라인은 온라인, 낮은 지연 시간 예측을 수행합니다. 또한 Michelangelo에는 기능 스토어가 있어 팀이 기계 학습 문제용 다른 기능 세트를 공유하고 발견할 수 있습니다. Uber의 모든 데이터는 먼저 HDFS 데이터 레이크에 저장되며, 오프라인 파이프라인에서 기능을 계산하기 위해 액세스할 수 있으며 온라인에 배포된 모델은 HDFS에 저장된 데이터에 액세스할 수 없습니다. 따라서 온라인 모델용 기능은 미리 계산되어 Cassandra 기능 스토어에 저장되어서 예측 시 낮은 대기 시간으로 읽을 수 있습니다.
 
@@ -31,13 +38,35 @@ Michelangelo의 데이터 관리 구성 요소는 온라인과 오프라인 파�
 
 Uber는 수억 개의 샘플을 처리할 수 있는 분산 모델 훈련 시스템을 사용하며 의사결정 트리, 신경망 및 선형 모델과 같은 알고리즘을 위한 빠른 반복을 위해 작은 데이터 세트로 축소할 수도 있습니다. 모델 구성은 모델 유형, 초매개변수, 데이터 소스 참조 및 계산 리소스 요구 사항을 지정하며, 이것은 훈련 작업을 구성하는 데 사용됩니다. 모델 훈련 후 성능 메트릭이 계산되고 모델 평가 보고서에 통합됩니다. 훈련이 완료된 후, 원래 구성, 학습된 매개변수 및 평가 보고서가 분석 및 배포를 위해 모델 저장소에 저장됩니다. Michelangelo는 모든 모델 유형에 대한 초매개변수 검색을 지원하며 모든 훈련 작업은 API 및 워크플로우 도구를 통해 관리됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 마이셀란젤로가 어떻게 모델을 학습하고 평가하며 배포하는지에 대해 설명한 내용입니다. 마이셀란젤로는 특정 사용 사례에 이상적인 모델에 이르기까지 수백 개의 모델을 학습합니다. 이러한 수백 개의 모델은 엔지니어들을 최적의 성능을 보이는 모델 구성으로 안내하며, 학습된 모델을 추적하고 평가하고 비교하는 것이 마이셀란젤로에서 주요 관심사입니다. 모델 훈련 시, 마이셀란젤로에 저장된 각 모델은 학습자, 모델 구성, 정확도 측정, 학습된 매개변수 등의 정보가 포함된 버전화된 객체로 카산드라 모델 저장소에 저장됩니다. 이러한 정보는 웹 UI 또는 API를 통해 쉽게 확인하고 비교할 수 있습니다. 마이셀란젤로는 또한 모델이 동작하는 이유를 이해하고 필요한 경우 디버깅하는 데 도움이 되는 시각화 도구를 제공합니다. 특성 보고서에는 각 특성이 모델의 중요도에 따라 부분 의존 플롯 및 분포 히스토그램이 표시됩니다.
 
 배포를 위해 마이셀란젤로는 UI 또는 API를 통해 모델 배포를 관리하는 엔드 투 엔드 지원을 제공합니다. 오프라인 모델은 요청에 따라 또는 정기적인 일정에 따라 실행되는 스파크 작업에서 실행되는 컨테이너에 배포됩니다. 온라인 모델은 수신 요청을 기반으로 예측하는 서비스 클러스터에 배포됩니다. 두 경우 모두, 모델 아티팩트는 ZIP 아카이브로 패키징되어 우버의 데이터 센터 각 위치에 복사됩니다. 예측 컨테이너는 자동으로 디스크에서 새 모델을 로드하고 예측 요청을 처리하기 시작합니다. 우버의 여러 팀은 마이셀란젤로의 API를 통해 정기적인 모델 재훈련과 배포를 예약하기 위한 자동화 스크립트를 보유하고 있습니다. 모델이 배포된 후, 데이터 파이프라인 또는 클라이언트 서비스에서 로드된 특성을 기반으로 예측을 수행합니다. 온라인 모델의 경우 예측은 네트워크를 통해 클라이언트 서비스로 반환되며, 오프라인 모델의 경우 예측 결과는 하이브(데이터 웨어하우스)에 다시 기록되어 SQL 기반 쿼리 도구를 통해 직접 액세스할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 번에 여러 모델을 동일한 서빙 컨테이너에 배포할 수 있습니다. 이를 통해 이전 모델에서 새로운 모델로의 쉬운 전환과 모델의 A/B 테스트를 병행할 수 있습니다. 서빙 시간에는 모델이 해당 태그로 최근에 배포된 모델을 사용하여 식별됩니다. 온라인 모델의 경우 확장을 위해 예측 서비스 클러스터에 더 많은 호스트가 추가되고 로드 밸런서가 부하를 분산시킵니다. 오프라인 예측의 경우 더 많은 Spark 실행자가 추가되며 Spark가 병렬성을 관리합니다. 예측을 모니터링하기 위해 Michelangelo는 자동으로 로그를 기록하고 선택적으로 생성된 예측의 일부를 보류하고 나중에 해당 예측을 데이터 파이프라인이 생성한 레이블과 비교합니다. 앞으로 Uber는 AutoML, 분산 딥 러닝 및 기타 도구 및 서비스를 추가하여 기존 시스템을 강화할 계획입니다.
 

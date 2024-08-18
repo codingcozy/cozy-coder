@@ -3,18 +3,13 @@ title: "해커를 위한 리눅스 101 파트 7"
 description: ""
 coverImage: "/assets/img/2024-07-12-LINUXFORHACKERS101Part7_0.png"
 date: 2024-07-12 22:57
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-LINUXFORHACKERS101Part7_0.png
 tag: Tech
 originalTitle: "LINUX FOR HACKERS 101 Part 7"
 link: "https://medium.com/@agapehearts/linux-for-hackers-101-part-7-b8d17d95531f"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![이미지](/assets/img/2024-07-12-LINUXFORHACKERS101Part7_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 - head 명령어
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 기본 사용법
 - 사용자 정의 결과
@@ -36,7 +41,18 @@ isUpdated: true
 
 3. diff 명령어
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 기본 사용법
 - 출력 해석
@@ -47,7 +63,18 @@ isUpdated: true
 
 리눅스에서 텍스트 파일을 다루는 것은 흔한 작업입니다. 개발자, 시스템 관리자이든 그냥 일반 사용자이든, 텍스트 파일을 자주 확인, 비교 및 모니터링해야 할 때가 많습니다. head, tail 및 diff 명령은 명령줄에서 직접 이러한 작업을 수행하는 강력한 방법을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # head 명령어
 
@@ -57,7 +84,18 @@ head 명령어는 텍스트 파일의 처음 몇 줄을 표시하는 데 사용�
 
 ![이미지](/assets/img/2024-07-12-LINUXFORHACKERS101Part7_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 출력 내용 사용자 정의하기
 
@@ -67,7 +105,18 @@ head 명령어는 텍스트 파일의 처음 몇 줄을 표시하는 데 사용�
 
 이것은 일반적인 작업이기 때문에, head은 n을 생략할 수 있는 단축키를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-12-LINUXFORHACKERS101Part7_3.png" />
 
@@ -77,8 +126,18 @@ head 명령어는 텍스트 파일의 처음 몇 줄을 표시하는 데 사용�
 
 The tail command is similar to head, but it displays the last few lines of a text file. By default, it shows the last 10 lines.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-12-LINUXFORHACKERS101Part7_4.png" />
 
@@ -88,9 +147,18 @@ The tail command is similar to head, but it displays the last few lines of a tex
 
 The diff command compares two files line by line and displays any differences. It is a powerful utility for finding small differences between files.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-12-LINUXFORHACKERS101Part7_5.png" />
 
@@ -100,9 +168,18 @@ The diff command compares two files line by line and displays any differences. I
 
 diff는 한 줄에서 차이점을 발견할 때마다 두 줄을 출력하여 차이를 확인할 수 있습니다. 첫 번째 줄은 인수로 지정된 첫 번째 파일에서 가져온 것이며 왼쪽을 가리키는 `<` 기호로 표시됩니다. 두 번째 줄은 두 번째 파일에서 가져온 것이며 오른쪽을 가리키는 `>` 기호로 표시됩니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-12-LINUXFORHACKERS101Part7_6.png" />
 

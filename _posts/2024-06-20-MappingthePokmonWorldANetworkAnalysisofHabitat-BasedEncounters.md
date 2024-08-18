@@ -3,18 +3,13 @@ title: "포켓몬 세계 매핑 서식지 기반 만남의 네트워크 분석"
 description: ""
 coverImage: "/assets/img/2024-06-20-MappingthePokmonWorldANetworkAnalysisofHabitat-BasedEncounters_0.png"
 date: 2024-06-20 15:01
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-MappingthePokmonWorldANetworkAnalysisofHabitat-BasedEncounters_0.png
 tag: Tech
 originalTitle: "Mapping the Pokémon World: A Network Analysis of Habitat-Based Encounters"
 link: "https://medium.com/towards-data-science/mapping-the-pok%C3%A9mon-world-a-network-analysis-of-habitat-based-encounters-9b8e5fe4db0a"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![Network Analysis](/assets/img/2024-06-20-MappingthePokmonWorldANetworkAnalysisofHabitat-BasedEncounters_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 이 글에서는 Python을 통한 네트워크 분석, 네트워크 분석에서 얻을 수 있는 실용적인 통찰력, 그리고 인기 TV 및 게임 시리즈인 포켓몬과 함께 하는 재미있는 프로젝트에 대해 소개하겠습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 네트워크 분석이란
 
@@ -35,7 +40,18 @@ isUpdated: true
 
 다시 말해, NA는 데이터 세트 내 관측 사이의 복잡한 관계를 이해할 수 있게 해주는 수학적으로 강화된 시각화 접근 방법입니다. 시각화 자체는 서로 연결된 노드 집합입니다. 노드는 사람, 장소, 동물, 제품 등을 나타낼 수 있습니다. 이들을 연결하는 선은 두 노드 사이의 관계를 나타냅니다. 이는 모서리로 알려져 있습니다. 시각화에 추가로, 우리는 어떤 노드가 가장 중심화되어 있는지, 어떤 모서리가 노드 사이에 가장 많은 연결을 만들며, 주요 네트워크 내에서 서브네트워크(또는 커뮤니티)를 격리하는 데에 어떤 알고리즘 및 메트릭을 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 파이썬 시작하기
 
@@ -55,7 +71,18 @@ nx.draw(G, with_labels=True,node_color='lightblue', font_color='black', font_wei
 
 ![그림](/assets/img/2024-06-20-MappingthePokmonWorldANetworkAnalysisofHabitat-BasedEncounters_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 그래프에서 무엇을 알 수 있나요? 기본적인 부분부터 시작해 봅시다. 파란 원 내부에 있는 글자는 데이터에서 노드를 나타냅니다. 상호 연결된 선들은 간선입니다. 더 실용적인 측면에서, 이 데이터가 소셜 미디어 사이트를 나타낸다고 가정해 봅시다. 노드는 개별 프로필을 나타낼 수 있고, 간선은 소셜 미디어에서 서로 친구인 두 프로필을 연결하는 것을 나타낼 수 있습니다.
 
@@ -65,7 +92,18 @@ nx.draw(G, with_labels=True,node_color='lightblue', font_color='black', font_wei
 
 노드의 중요성을 어떻게 결정할 수 있을까요? 한 가지 방법은 근접 중심성이라는 측정치를 사용하는 것입니다. NetworkX 문서에 따르면, 노드(u)의 근접 중심성은 다음과 같이 정의됩니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![포켓몬 월드에 대한 매핑 및 네트워크 분석 결과](/assets/img/2024-06-20-MappingthePokmonWorldANetworkAnalysisofHabitat-BasedEncounters_3.png)
 
@@ -75,10 +113,21 @@ nx.draw(G, with_labels=True,node_color='lightblue', font_color='black', font_wei
 
 앞서 소개한 모의 네트워크를 다시 살펴보면, 가장 높은 근접 중심성 점수를 가진 노드는 무엇인가요? 제 의견으로는 노드 A가 모든 다른 노드들의 가운데에 위치하고 있는 것으로 보여 가장 높은 근접 중심성 점수를 가지고 있다고 주장합니다. 파이썬의 closeness_centrality 메서드를 사용하여 아래의 점수를 확인해 보겠습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-nx.closeness_centrality(G)
+nx.closeness_centrality(G);
 ```
 
 ![image](/assets/img/2024-06-20-MappingthePokmonWorldANetworkAnalysisofHabitat-BasedEncounters_4.png)
@@ -87,8 +136,18 @@ nx.closeness_centrality(G)
 
 노드 사이의 일부 연결 또는 엣지가 다른 것들보다 중요한가요? 우리 그래프를 다시 살펴보면 어떤 엣지가 두드러지나요? A ~ B 및 A ~ C의 엣지는 특정 노드 클러스터를 연결하기 때문에 두드러집니다. 중요성을 정량화하는 원래의 점으로 돌아오면, NetworkX에서 정의한 엣지 중심성이라는 측정을 통해 이를 수행할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-20-MappingthePokmonWorldANetworkAnalysisofHabitat-BasedEncounters_5.png)
 
@@ -98,11 +157,21 @@ nx.closeness_centrality(G)
 
 엣지 중심성을 어떻게 계산할까요? 원래의 예시로 돌아가서, NetworkX의 edge_betweenness_centrality 메서드를 사용할 수 있습니다. A~B 및 A~C 엣지에 대해 제 예측이 맞았는지 확인해보겠습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-nx.edge_betweenness_centrality(G)
+nx.edge_betweenness_centrality(G);
 ```
 
 ![Image](/assets/img/2024-06-20-MappingthePokmonWorldANetworkAnalysisofHabitat-BasedEncounters_6.png)
@@ -111,7 +180,18 @@ nx.edge_betweenness_centrality(G)
 
 우리의 그래프는 아주 쉽게 읽을 수 있고 상대적으로 작지만, 실제 데이터는 매우 견고하고 큽니다(보통 빅데이터라고 합니다). 이로 인해 네트워크 그래프가 매우 크고 읽기 어려울 수 있습니다. 그러므로 네트워크 내의 네트워크나 커뮤니티를 살펴보는 것이 도움이 될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희 그래프를 보면 노드 군집이 어떻게 커뮤니티를 나타내는지 비교적 간단하게 볼 수 있을 거에요. 예를 들어 노드 H, I 및 B가 한 커뮤니티를 나타내는 것을 쉽게 알 수 있습니다. 그러나 실제 데이터를 적절하게 확장하기 위해서는 알고리즘적으로 해야 해요. 그래서, 이번에는 기르반-뉴먼 알고리즘을 통해 독자를 안내할 거에요.
 
@@ -121,13 +201,35 @@ NetworkX 문서에는 이 알고리즘이 어떻게 작동하는지에 대한 �
 
 다시 한번, 이를 Python으로 구현해 봅시다. 이에는 몇 가지 단계가 더 필요하지만, 하나씩 나눠서 설명할 거에요. 먼저, Pyvis와 Matplotlib을 가져올 거에요. Pyvis 라이브러리는 NetworkX로 생성된 네트워크 그래프 객체와 함께 작동하여 더 멋진 네트워크 그래프를 만들 수 있게 해줍니다. Matplotlib은 커뮤니티용 컬러 맵을 생성하는 데 사용됩니다. 이 라이브러리들로 우리는 그래프의 모든 노드를 반복하면서 식별된 커뮤니티별로 색칠할 겁니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 데이터 내에서 커뮤니티를 찾기 위해 NetworkX의 girvan_newman() 함수를 사용할 것입니다. 여기서 이해해야 할 주요 기능은 이 함수가 반복자를 반환한다는 것입니다. 따라서 Python의 next() 함수를 사용하여 알고리즘으로 식별된 커뮤니티를 반복 처리할 것입니다. 우리의 네트워크 그래프를 다시 살펴보면, 개인적으로는 세 개의 명확한 커뮤니티를 보입니다. 따라서 세 번 반복할 것입니다. 실제 데이터를 다룰 때에는 여러 번의 시행착오가 필요할 수 있음을 유의해주세요.
 
 마지막으로, 앞서 설명한 내용을 바탕으로 그래프에서 여러 요소를 변경할 수 있는 위젯이 포함된 HTML 파일이 최종 결과물임을 유의해주세요. 함께 따라오시는 경우, 이를 즐기는 데 즐겁게 활용해보세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 커뮤니티가 이해됩니까? 그렇다고 생각해요! A~B와 A~C 엣지가 커뮤니티를 서로 연결하는 키포인트 엣지라는 것을 유의해보세요. 다시 한 번 Girvan-Newman 알고리즘을 사용하여 네트워크를 추가하거나 제거할 때 어떤 일이 발생하는지 살펴보세요.
 
@@ -137,7 +239,18 @@ NetworkX 문서에는 이 알고리즘이 어떻게 작동하는지에 대한 �
 
 ## 데이터
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터에는 포켓몬 게임과 관련된 거의 모든 데이터 포인트가 포함된 포켓몬API를 사용할 것입니다. 이 프로젝트에서는 주로 몇몇 포켓몬이 게임에서 어디에서 발견될 수 있는지 제공하는 충돌 엔드포인트에 관심을 가질 것입니다. 이 정보를 사용하여 여러 포켓몬 간의 연결을 합치고 만들어 네트워크를 생성할 수 있습니다!
 
@@ -206,14 +319,24 @@ def create_pokemon_edgelist_df(pokemon_df):
 ```
 
 ```js
-master_pokemon_df = import_pokemon_multi_gen(gen_list=[1, 2])
-pokemon_df_crystal = master_pokemon_df[master_pokemon_df['Location_Version'] == 'crystal']
-pokemon_edgelist = create_pokemon_edgelist_df(pokemon_df=pokemon_df_crystal)
-pokemon_edgelist.head()
+master_pokemon_df = import_pokemon_multi_gen((gen_list = [1, 2]));
+pokemon_df_crystal = master_pokemon_df[master_pokemon_df["Location_Version"] == "crystal"];
+pokemon_edgelist = create_pokemon_edgelist_df((pokemon_df = pokemon_df_crystal));
+pokemon_edgelist.head();
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Network Mapping](/assets/img/2024-06-20-MappingthePokmonWorldANetworkAnalysisofHabitat-BasedEncounters_8.png)
 
@@ -223,8 +346,18 @@ pokemon_edgelist.head()
 
 이 네트워크 분석 객체에는 다음을 수행하는 메서드가 포함될 것입니다:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - NetworkX Graph 객체를 생성합니다.
 - 우리가 논의한 중심성 점수의 정렬된 데이터프레임을 반환합니다.
@@ -237,7 +370,18 @@ pokemon_edgelist.head()
 
 모든 객체와 마찬가지로, 새 객체를 생성할 때 호출되는 초기화 함수로 시작합니다. 여기서 우리는 초기 속성을 설정하는 곳인데, 특히 edgelist_df라고 부르는 초기 속성을 설정할 것입니다. 이전에 common_habitats_edges라는 데이터프레임을 만들었습니다. 이 데이터프레임은 사실 Pandas edge list 형식이라고 부르는 형식입니다. 우리는 이 형식의 데이터프레임을 사용하여 from_pandas_edgelist 메서드를 통해 NetworkX Graph 객체를 생성할 수 있습니다. 이 객체가 만들 수 있는 Network Graph를 위해 남은 속성은 예약되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 class NetworkGraph():
@@ -300,8 +444,18 @@ class NetworkGraph():
       net.show(html_filename)
 ```
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## community_graph_html 메서드
 
@@ -311,23 +465,50 @@ class NetworkGraph():
 
 우리의 데이터가 가져오되고, 네트워크 객체가 생성되었습니다. 가장 밀접도 및 가장 많은 매개 중심성 점수를 가진 노드 (포켓몬) 및 엣지 (포켓몬 간 연결)를 검토하여 네트워크 분석을 시작해보죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-pokemon_na = NetworkAnalysis(edgelist_df=pokemon_edgelist, width="100%", height="1200px", bgcolor='white', font_color='black')
-pokemon_na.create_network_graph_object()
+pokemon_na = NetworkAnalysis(
+  (edgelist_df = pokemon_edgelist),
+  (width = "100%"),
+  (height = "1200px"),
+  (bgcolor = "white"),
+  (font_color = "black")
+);
+pokemon_na.create_network_graph_object();
 ```
 
 ## 중심성
 
 ```js
-pokemon_na.closeness_df.sort_values(by='centrality', ascending=False).head()
+pokemon_na.closeness_df.sort_values((by = "centrality"), (ascending = False)).head();
 ```
 
 ![이미지](/assets/img/2024-06-20-MappingthePokmonWorldANetworkAnalysisofHabitat-BasedEncounters_9.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 매직카프는 저희의 가장 중심적인 노드입니다. 여기서 중심적인 것은 게임에서 다른 포켓몬과 거의 모든 서식지에 높은 경향성이 있다는 것을 의미합니다. 우리 목록에서 다음 네 마리 포켓몬에 대해서도 동일한 이야기를 할 수 있습니다.  
 크리스탈 버전 포켓몬을 수없이 플레이한 사람들에게는 이것이 놀라운 점은 아닐 것입니다. 매직카프는 게임의 거의 모든 물 서식지에서 발견할 수 있습니다. 또한 랏타와 같은 포켓몬은 거의 모든 풀과 같은 서식지에서 발견됩니다.  
@@ -336,12 +517,23 @@ pokemon_na.closeness_df.sort_values(by='centrality', ascending=False).head()
 ## 엣지 중심성
 
 ```js
-pokemon_na.betweenness_df.sort_values(by='centrality', ascending=False).head()
+pokemon_na.betweenness_df.sort_values((by = "centrality"), (ascending = False)).head();
 ```
 
 ![Image](/assets/img/2024-06-20-MappingthePokmonWorldANetworkAnalysisofHabitat-BasedEncounters_10.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가장 높은 엣지 중심성 점수는 예외적으로 낮습니다. 이것은 즉시 이 네트워크가 매우 상호 연결되어 있으며 한 커뮤니티를 다른 커뮤니티로 연결하는 단일 엣지가 없다는 것을 알려줍니다. 이것은 데이터 내에서 커뮤니티를 찾을 때 문제가 될 수 있습니다. 그 통찰을 얻었지만, 이제 상위 점수를 살펴 보겠습니다. 다시 한번, 여기서 제 개인적인 도메인 지식이 도움이 될 수 있습니다. 포켓몬 스윈럽, 스니저, 루주라, 델리버드는 포켓몬 크리스탈 게임 버전의 특정 동굴에서만 발견됩니다. 또한, 골뱃은 이 동굴과 게임의 여러 다른 서식지에서 발견됩니다. 따라서 이 골뱃 엣지들은 다른 네 개의 포켓몬을 네트워크의 나머지 부분에 연결하는 중요한 다리 역할을 합니다.
 
@@ -350,10 +542,21 @@ pokemon_na.betweenness_df.sort_values(by='centrality', ascending=False).head()
 우리는 마침내 기다려온 순간에 도달했습니다. 이제 포켓몬 네트워크 그래프를 시각화할 시간입니다. 앞서 생성한 create_network_graph_object를 사용할 것이지만, 특정 수의 커뮤니티를 지정해야 합니다. 엣지 중심성 결과를 기반으로, 많은 구분된 커뮤니티를 볼 수 없을 수 있습니다. 따라서 Girvan-Newman 알고리즘을 사용하여 데이터를 두 개의 커뮤니티로 분할할 것입니다. num_communities 매개변수를 1로 설정하여 이를 수행합니다. 따라서 여는 중인 경우, 그래프 이미지 아래에 여러 위젯이 있습니다. 그래프의 미적 요소를 최적화하기 위해 옵션들을 살펴보는 것을 잊지 마세요!
 
 ```js
-pokemon_na.community_graph_html(num_communities=1,html_filename='Pokemon_comm_graph.html')
+pokemon_na.community_graph_html((num_communities = 1), (html_filename = "Pokemon_comm_graph.html"));
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <!DOCTYPE html>
 <html>
@@ -365,7 +568,18 @@ pokemon_na.community_graph_html(num_communities=1,html_filename='Pokemon_comm_gr
 </body>
 </html>
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일부 시행착오 끝에, 일반 서식지 상위 90% 이상의 가장자리를 필터링했습니다. 이것은 그래프가 훨씬 더 가독성있다면 좋은 지점입니다. 게다가, 그래프가 여전히 추가적인 구분된 커뮤니티를 보여주지 않기 때문에 데이터가 어떻게 작용하는지 알아보기 위해 한 개의 더 커뮤니티를 추가했습니다. 데이터가 어떻게 분할되는지 살펴볼 수 있도록 커뮤니티 수를 다양하게 조정해보는 것을 독자에게 권장합니다!
 
@@ -382,7 +596,18 @@ pokemon_na.community_graph_html(num_communities=2,html_filename='Pokemon_comm_gr
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 네트워크 분석에 대한 제 이야기를 즐겨주셨기를 바라며 포켓몬 세계를 탐험하는 데 즐거움을 느꼈기를 바랍니다! 네트워크 분석은 끝없는 가능성을 제공하며, 이 이야기에서 논의된 기술만으로 얻을 수 있는 독특한 통찰력을 제공합니다. 다른 데이터 세트에서도 이를 시도해 보는 데 두려워하지 마세요!
 
@@ -392,7 +617,18 @@ BSD 3-Clause “New” or “Revised” License
 
 Copyright © © 2013–2023 Paul Hallett and PokéAPI contributors (https://github.com/PokeAPI/pokeapi#contributing). 포켓몬 및 포켓몬 캐릭터 이름은 닌텐도의 상표입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **저작권 보호됨.**
 

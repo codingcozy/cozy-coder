@@ -3,17 +3,13 @@ title: "React 19에 새로 추가된 React 훅 정리"
 description: ""
 coverImage: "/assets/no-image.jpg"
 date: 2024-08-03 18:43
-ogImage: 
+ogImage:
   url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "All React hooks  up to React 19"
 link: "https://medium.com/@upekshadilshan000/all-react-hooks-up-to-react-19-5c0bbba534a5"
 isUpdated: true
 ---
-
-
-
-
 
 ## 리액트 훅 완전 가이드.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## 리액트 훅을 사용해야 하는 경우?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 React에서 함수 컴포넌트를 만들고 나중에 상태 또는 부가 효과를 추가해야 한다면, Hooks를 사용할 수 있어요.
 
@@ -36,7 +43,18 @@ isUpdated: true
 
 ## Hooks 카테고리
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트 19 버전까지는 총 20가지 내장 후크가 있습니다. 이 후크들은 목적에 따라 07가지 주요 카테고리로 분류할 수 있어요.
 
@@ -52,7 +70,18 @@ isUpdated: true
 
 그리고 React 개발자라면 도움이 될 수 있는 몇 가지 블로그 포스트도 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 React 블로그를 기다려주세요. 👋👋👋👋
 

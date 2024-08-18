@@ -3,17 +3,13 @@ title: "Grad-CAM 개요 딥러닝 모델의 시각적 설명 방법 소개"
 description: ""
 coverImage: "/it-bada.github.io/assets/no-image.jpg"
 date: 2024-07-13 22:40
-ogImage: 
+ogImage:
   url: /it-bada.github.io/assets/no-image.jpg
 tag: Tech
 originalTitle: "Grad-CAM Overview"
 link: "https://medium.com/@zakhtar2020/grad-cam-overview-f8f84edebe9d"
 isUpdated: true
 ---
-
-
-
-
 
 Grad-CAM (Gradient-weighted Class Activation Mapping)은 컨볼루션 신경망의 예측에 중요한 영역을 시각화하는 데 사용되는 기술입니다. Selvaraju 등에 의해 소개된 Grad-CAM은 최종 컨볼루션 레이어로 흐르는 대상 클래스의 그래디언트를 활용하여 클래스 차별화 지역 맵을 제공합니다. 이를 통해 네트워크의 의사 결정 과정을 이해하는 데 도움이 됩니다. 여기 Grad-CAM의 상세 개요가 있습니다:
 
@@ -23,7 +19,18 @@ Grad-CAM은 컨볼루션 신경망(CNNs)을 보다 해석 가능하도록 설계
 
 주요 동기: CNN은 복잡한 아키텍처와 해석할 수 없는 부분으로 인해 종종 블랙박스로 간주됩니다. Grad-CAM은 입력 이미지의 중요한 영역을 시각화하는 방법을 제공함으로써 모델의 투명성과 신뢰성을 향상시키는 방법을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2. 구조와 메커니즘
 
@@ -33,7 +40,18 @@ Grad-CAM은 컨볼루션 신경망(CNNs)을 보다 해석 가능하도록 설계
 
 클래스별 로컬라이제이션 맵: 핵심 아이디어는 최종 합성곱 레이어의 특징 맵에 계산된 기울기로 가중치를 부여하여 특정 클래스에 대한 로컬라이제이션 맵을 계산하는 것입니다. 이 맵은 입력 이미지의 목표 클래스 예측에 가장 관련이 있는 영역을 강조합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Grad-CAM 생성 단계:
 
@@ -49,7 +67,18 @@ Grad-CAM 생성 단계:
 
 특성 맵: 특성 맵은 입력 이미지에서 공간적 패턴과 계층적 기능을 캡처하는 합성곱 레이어의 출력입니다. Grad-CAM은 의미 있는 시각화를 생성하기 위해 최종 합성곱 레이어의 특성 맵에 초점을 맞춥니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그라디언트: 그라디언트는 특징 맵에 대한 대상 클래스 점수의 민감성을 나타냅니다. 이러한 그라디언트를 계산함으로써 Grad-CAM은 대상 클래스 예측에 가장 중요한 특징 맵의 부분을 식별합니다.
 
@@ -59,7 +88,18 @@ ReLU 활성화: ReLU 활성화는 로컬라이제이션 맵에 적용되어 중�
 
 업샘플링: 업샘플링은 로컬라이제이션 맵을 입력 이미지의 크기로 조정하는 데 사용됩니다. 이를 통해 중요한 영역을 원본 이미지의 맥락에서 더 잘 시각화하고 해석할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 4. 핵심 기능 및 이점
 
@@ -73,7 +113,18 @@ ReLU 활성화: ReLU 활성화는 로컬라이제이션 맵에 적용되어 중�
 
 Grad-CAM은 합성곱 신경망의 의사 결정 과정을 시각화하고 해석하는 강력한 기술입니다. 클래스별 지역화 맵을 생성함으로써 Grad-CAM은 네트워크 예측에 가장 중요한 이미지 입력 영역을 강조합니다. 이는 딥러닝 모델의 해석 가능성, 신뢰성 및 투명성을 향상시킵니다. 의미 있는 시각적 설명을 제공하는 능력으로, Grad-CAM은 이미지 인식부터 의료 진단까지 다양한 응용 분야에서 CNN을 이해하고 개선하는 데 가치 있는 도구입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 참고 자료:
 

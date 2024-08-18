@@ -3,17 +3,13 @@ title: "키네시스 어드밴티지 2 키보드 소음 줄이는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-30-SilencingKinesisAdvantage2Keyboard_0.png"
 date: 2024-06-30 23:40
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-30-SilencingKinesisAdvantage2Keyboard_0.png
 tag: Tech
 originalTitle: "Silencing Kinesis Advantage 2 Keyboard"
 link: "https://medium.com/@canartuc/silencing-kinesis-advantage-2-keyboard-e69b0d03a32a"
 isUpdated: true
 ---
-
-
-
-
 
 ![키네시스 어드밴티지 2 키보드](/assets/img/2024-06-30-SilencingKinesisAdvantage2Keyboard_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 개발자들을 위한 것은 아니지만, 저는 사용해본 적 있는 키보드 중에서 가장 편안한 키보드에요. 특히 이 글을 쓰는 것처럼 작성만 하고 있다면, 손가락 열 기술을 알고 있다면 편안하고 빠른 키보드로 시장에 없어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상당한 단점을 가지고 있는 쓰기에 좋아요: 너무 시끄러워요! 이전에 저는 이렇게 시끄러운 키보드를 본 적이 없습니다. (저도 Keycron 메카닉 키보드가 있어요). 브라운 "조용한" 스위치를 사용하고 있지만, "조용한"은 키네시스 세계에서는 전체적인 소음이 아닌 스위치의 조용함을 의미합니다. (저는 키를 누르는 힘이 센 편이 아니에요.) 키네시스를 사용하기 시작했을 때, 동료들이 먼저 이야기해 주었어요. 그래서 집에서 사용하게 되었어요. 긴 글을 쓸 때면 소음 차단 헤드폰 없이는 그 소음을 견딜 수가 없어요. 정말로 제게는 악몽이에요.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 매일 키보드의 시끄러움에 대한 짜증이 쌓여가는데, 아마도 제 삶의 변화 때문이겠죠. 지금은 아들이 있는데 하루 종일 조금 시끄러워요. 그가 자고 있는 동안 창작을 하며 조용한 시간을 가지고 싶은데, 다른 아이(Kinesis Advantage 2)이 울부짖기 시작하면 어쩔 수 없어요. 그래서 한 번 시도해보기로 결심했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 구매는 약 75 유로 정도 걸렸어요: 2 종류의 QMX 소거기(일반 키와 썸 클러스터에는 서로 다른 종류가 필요하기 때문)와 Dynamat Extreme을 샀습니다. 아래는 품목에 관한 더 자세한 내용입니다:
 
@@ -43,16 +61,36 @@ isUpdated: true
 
 QMX 클립을 설치하는 것은 챌린지였는데, Advantage 2s와 같은 키보드 레이아웃용으로 만들지 않아서 어려웠어요. 어떤 키는 다른 것보다 높고 각도가 다르기 때문입니다. 파란 도구로 클립을 설치할 수 없었고, 그들이 제공한 평평한 드라이버로 설치했어요. 스크류드라이버로 연결 지점을 누르면 클릭 소리가 들립니다. 때때로 클릭 소리가 안 들리면 방향을 바꿔야 해요 — 만약 왼쪽 부분을 먼저 클릭해도 오른쪽 부분이 클릭하지 않는다면, 오른쪽을 먼저 클릭한 후 왼쪽을 클릭합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image 1](/assets/img/2024-06-30-SilencingKinesisAdvantage2Keyboard_3.png)
 ![Image 2](/assets/img/2024-06-30-SilencingKinesisAdvantage2Keyboard_4.png)
 ![Image 3](/assets/img/2024-06-30-SilencingKinesisAdvantage2Keyboard_5.png)
 ![Image 4](/assets/img/2024-06-30-SilencingKinesisAdvantage2Keyboard_6.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Silencing Kinesis Advantage2 Keyboard](/assets/img/2024-06-30-SilencingKinesisAdvantage2Keyboard_7.png)
 
@@ -62,7 +100,18 @@ QMX 클립을 설치하는 것은 챌린지였는데, Advantage 2s와 같은 키
 
 드디어 완료했어요. 다음 동영상은 처음 시도한 것이에요. 특히 Dynamat Xtreme 쪽에서 몇 일 뒤에도 더 조용해지고 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로세스의 안 좋은 측면은 많은 잔여물이 생긴다는 점이에요. 기본적으로, 구매한 소재로 2개의 Kinesis Advantage 2를 신청할 수 있지만, 공유할 다른 친구가 없어서요.
 
@@ -72,7 +121,18 @@ QMX-클립이 장기적으로 어떻게 반응할지 확신은 못하지만, 교
 
 또 다른 단점은 특히 엄지 클러스터에서, 일부 키들이 각도와 추가 부품 때문에 너무 세게 누르면 막혀버릴 수 있다는 점이에요. CTRL, Page Up, Page Down, Alt Option, Home, 그리고 End 키 같은 거 말이죠. 나는 너무 세게 누르지 않았는데도, 적용하기 전에보다 자연스럽지 못하다는 느낌이 들어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결과는... 나는 이 어플리케이션에 대해 후회하지 않아. 나는 키 소리에 만족하며 사용성도 좋다고 생각해 (지금은 놀랍도록 조용해졌어; 물론, 셔클렛 타입처럼 아니야). 나에게 유일한 후회는 이전에 이것을 적용하지 않았다는 것이야. 물론, 이 어플리케이션은 모두에게 필요한 것은 아닐 수 있어. 키보드 소리를 좋아하고 혼자 살거나 혼자 일 하는 경우, 추가 비용을 지출할 필요가 없어. 어플리케이션을 한 후에 키보드를 판매하는 것이 불가능할 수도 있어, 왜냐하면 새로운 소유자가 그런 어플리케이션을 원하지 않을 수 있기 때문이지만, 나의 경우에는 아니야. 나는 내 키보드를 판매하는 것을 고려하지 않아.
 

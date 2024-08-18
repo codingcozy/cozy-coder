@@ -3,17 +3,13 @@ title: "LLM이 보는 깊은 물 속의 세계 명료한 분석"
 description: ""
 coverImage: "/assets/img/2024-07-13-ClearWatersWhatanLLMThinksUndertheSurface_0.png"
 date: 2024-07-13 02:58
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-ClearWatersWhatanLLMThinksUndertheSurface_0.png
 tag: Tech
 originalTitle: "Clear Waters: What an LLM Thinks Under the Surface"
 link: "https://medium.com/gitconnected/clear-waters-what-an-llm-thinks-under-the-surface-9b21206e31dc"
 isUpdated: true
 ---
-
-
-
-
 
 ## |해석성|XAI|
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 트랜스포머 자체는 해석하기 어렵습니다. 다른 신경망보다 더 나은 것이 아니라, 트랜스포머는 블랙 박스 개념을 더 심화시킨 것입니다. 따라서 모델을 해석하려는 시도가 이루어졌는데요. 초기 접근법은 주로 어텐션 헤드를 시각화하려는 데 집중했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](https://miro.medium.com/v2/resize:fit:1132/0*x80BOZKQLUpPw7J7.gif)
 
@@ -34,8 +40,18 @@ A Large Language Model (LLM) can grasp numerous concepts, and indeed, these conc
 
 For those familiar with embeddings, we create a vector representation of text, and there are dimensions associated with semantic concepts. These dimensions can also be visualized.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-13-ClearWatersWhatanLLMThinksUndertheSurface_1.png)
 
@@ -45,7 +61,18 @@ For those familiar with embeddings, we create a vector representation of text, a
 
 이는 연구 커뮤니티의 관심을 끌었으며, 가장 유망한 접근 중 하나는 희소 인코더를 사용하여 이 차원을 관리 가능한 개념으로 줄이는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서 여러분, sparse autoencoders를 활용함으로써 이러한 개념을 매핑하고 마침내 시각화할 수 있습니다.
 
@@ -55,7 +82,18 @@ For those familiar with embeddings, we create a vector representation of text, a
 
 실제로, 모든 것이 규모에 따라 변화한다고 말할 수 있습니다. 더 큰 모델이 더 작은 모델에는 없는 신흥적인 특성을 보여주는 것으로 알려져 있습니다. 따라서 이러한 접근 방식을 확장시켜야 했습니다. 이것은 쉽지 않은 작업이며, 연산 비용이 매우 비싸게 들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이게 정말 맞는지 확신하려면:
 
@@ -66,7 +104,18 @@ For those familiar with embeddings, we create a vector representation of text, a
 
 가장 흥미로운 점 중 하나는 저자들에게는 특징 간 거리를 계산할 수 있다는 것입니다. 따라서 다리 근처에는 샌프란시스코와 관련된 잠재 공간의 다른 특징이 있을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 이것이 정확히 새로운 것은 아니라고 가정해 봅시다. 이미 트랜스포머의 특정 패턴과 관련된 요소들을 식별한 연구들이 있었습니다. 이것의 예시를 보여드리겠습니다:
 
@@ -76,7 +125,18 @@ For those familiar with embeddings, we create a vector representation of text, a
 
 ![이미지](/assets/img/2024-07-13-ClearWatersWhatanLLMThinksUndertheSurface_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Anthropic가 LLM 크기 및 접근 방식의 세분화 면에서 확장되었다. 나는 모델이 다양한 언어간 차이보다 개념(다리)과 더 의미적으로 관련된 패턴을 학습한다는 것이 흥미롭다고 생각합니다. 게다가, 다소 의심스러운 점이지만, 멀티 모달 모델이 어떤 모드에서도 개념적 기능을 갖는다는 것은 흥미로운 점입니다.
 
@@ -86,7 +146,18 @@ Anthropic가 LLM 크기 및 접근 방식의 세분화 면에서 확장되었다
 
 ![Image](/assets/img/2024-07-13-ClearWatersWhatanLLMThinksUndertheSurface_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 For the authors, tinkering with these attributes involves not just altering the text input but also modifying the model's internal representations, which the model uses to determine its actions (essentially akin to zapping electrodes at the brain).
 
@@ -96,9 +167,20 @@ The methodology is undeniably captivating and holds significant engineering impl
 
 Furthermore, the authors identified a plethora of features, some of which may not be particularly practical. Having too many features can be nearly as useless as having none at all.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-이 기사는 접근 방식에 대해 매우 상세히 다루고 있지만 코드를 공개하지 않아서 조금 모순적입니다. "우리는 이 발견을 활용하여 모델을 더 안전하게 만들 수 있기를 희망합니다." 라고 말했지만, 실제로 이러한 발견들은 본질적으로 재현 가능하지 않습니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+이 기사는 접근 방식에 대해 매우 상세히 다루고 있지만 코드를 공개하지 않아서 조금 모순적입니다. "우리는 이 발견을 활용하여 모델을 더 안전하게 만들 수 있기를 희망합니다." 라고 말했지만, 실제로 이러한 발견들은 본질적으로 재현 가능하지 않습니다.
 
 어쨌든, 이 접근 방식은 흥미롭고 의심스러운 아이디어가 확인되었습니다. 더 나은 미래와 안전한 세상을 위해 LLM의 내부 표현을 이해하는 데 투자해야 합니다. LLM 내에서 개념을 매핑할 수 있는 능력은 우리가 조치를 취할 수 있게 해줍니다. 미래에는 특히 기계 학습데이터 삭제에 관련된 문제에서 유용할 수 있습니다.
 
@@ -106,7 +188,18 @@ Furthermore, the authors identified a plethora of features, some of which may no
 
 # 이 내용이 흥미롭게 느껴지셨다면:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로운 기사를 찾아보세요! 그리고 LinkedIn에서 저와 연결하거나 연락하실 수도 있습니다. 매주 업데이트되는 기계 학습 및 인공 지능 뉴스가 담긴 이 저장소를 확인해보세요. 협업 및 프로젝트에 대해 열려 있으며 LinkedIn을 통해 연락할 수 있습니다. 새로운 이야기를 게시할 때 알림을 받으려면 무료로 구독할 수도 있습니다.
 
@@ -116,7 +209,18 @@ Furthermore, the authors identified a plethora of features, some of which may no
 
 # 참고
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글을 쓰기 위해 주요 참고 자료로 삼은 목록을 준비했습니다. 여기서는 각 논문의 첫 번째 저자만을 인용했어요.
 

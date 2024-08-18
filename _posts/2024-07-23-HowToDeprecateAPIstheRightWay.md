@@ -3,18 +3,13 @@ title: "API 사용 중단 제대로 하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-23-HowToDeprecateAPIstheRightWay_0.png"
 date: 2024-07-23 21:19
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-23-HowToDeprecateAPIstheRightWay_0.png
 tag: Tech
 originalTitle: "How To Deprecate APIs the Right Way"
 link: "https://medium.com/better-programming/how-to-deprecate-apis-the-right-way-371c1cbf1723"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![이미지](/assets/img/2024-07-23-HowToDeprecateAPIstheRightWay_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 라이브러리, 프레임워크 또는 앱의 모듈 중 하나를 작업하고 있다면 가능한 모든 사용자를 고려해야 합니다. 파괴적인 변경을 도입하면 사용자가 코드를 조정할 수 있는 시간과 도구를 제공해야 합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오늘은 무엇이 파괴적인 변경인지, 어떤 변경이 파괴적으로 간주될 수 있는지, 그리고 해당 변경 사항을 안전하게 전파하는 데 사용할 수 있는 기술에 대해 탐색하고 싶어요.
 
@@ -35,7 +40,18 @@ isUpdated: true
 
 가장 간단한 예는 공개 API의 속성 이름을 변경할 때입니다: 해당 속성을 사용하는 모든 다른 구성 요소는 새로운 이름으로 업데이트해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다양한 수준에서 중요한 변경 사항이 발생할 수 있습니다:
 
@@ -47,7 +63,18 @@ isUpdated: true
 
 # Breaking Change가 아닌 것은 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일부 코드 변경은 파괴적인 것이 아닙니다.
 
@@ -57,7 +84,18 @@ API를 변경하지 않고 관련 동작을 수정하는 버그 수정은 파괴
 
 함수에 기본값이 있는 매개변수를 추가하는 것은 파괴적인 변경처럼 보일 수 있습니다. 그러나 기본 매개변수는 함수가 사용되는 호출 위치가 변경되지 않도록 보장합니다. 따라서 이 변경은 파괴적이지 않습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 다음과 같은 add 함수를 고려해보세요:
 
@@ -73,7 +111,7 @@ func add(a: Int, b: Int) -> Int {
 enum Base {
   case decimal
   case octal
-  
+
   func convert(value: Int) -> Int {
     switch self {
     case .decimal:
@@ -90,7 +128,18 @@ func add(a: Int, b: Int, base: Base = .decimal) -> Int {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서는 지원되는 기본값을 정의하는 enum을 만들고, 숫자를 한 베이스에서 다른 베이스로 변환하는 convert 메소드를 구현할 수 있습니다.
 
@@ -100,7 +149,18 @@ private 또는 fileprivate 키워드에 대한 변경 사항은 파괴적인 변
 
 내부 프로퍼티와 메소드에 대한 변경 사항은 조금 더 까다롭습니다. 라이브러리, 프레임워크 또는 제대로 모듈화된 앱의 별도 패키지에서 작업하고 있다면, 내부 인터페이스의 변경은 안전합니다. 외부에서 해당 메소드와 프로퍼티를 사용할 수 없기 때문입니다. 그러나 비공식 모듈(즉, 모듈이 아닌 폴더 기반 구조로 되어 있는 앱)에서 작업 중인 경우, 내부인 것을 변경한다면 파괴적인 변경이 될 수 있습니다. 다른 폴더에 있는 코드가 변경되어야 할 수 있기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Breaking Changes Types and Solutions
 
@@ -110,7 +170,18 @@ private 또는 fileprivate 키워드에 대한 변경 사항은 파괴적인 변
 
 목표는 사용자가 사전에 해당 변경 사항에 대비할 수 있도록 하는 것입니다. 사용자가 경고 없이 어느 날 갑자기 라이브러리를 깨뜨린다면 사용자는 행복하지 않을 것입니다. 그들의 작업 흐름이 몇 일 동안 깨져있을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 목표는 사용자들이 새로운 API로 원활하게 전환할 수 있는 프로세스를 만드는 것입니다. 변경 사항에 누구도 놀라지 않고 새로운 기능의 채택이 계획될 수 있도록 그리고 변화가 원활하게 이루어질 수 있도록합니다.
 
@@ -123,15 +194,15 @@ class Stack<T> {
   private var content: [T] = []
 
   public init() {}
-  
+
   public var count: Int {
     return content.count
   }
-  
+
   public func push(_ value: T) {
     content.append(value)
   }
-  
+
   public func pop() -> T? {
     guard !content.isEmpty else { return nil }
     return content.removeLast()
@@ -139,7 +210,18 @@ class Stack<T> {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 클래스는 push와 pop 연산을 가진 전통적인 스택을 나타냅니다. 또한 스택에 있는 항목 수를 반환하는 count 속성이 있습니다.
 
@@ -149,7 +231,18 @@ class Stack<T> {
 
 중단되지 않는 방식으로 이름을 변경하려면 다음 단계를 따라주세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 적절한 이름으로 새 속성을 추가하세요. 예를 들어 size 속성을 추가하십시오.
 - count 속성이 내부적으로 size를 사용하도록 하세요.
@@ -160,12 +253,12 @@ class Stack<T> {
   private var content: [T] = []
 
   public init() {}
-  
+
   // 1. 새로운 속성
   public var size: Int {
     return content.count
   }
-  
+
   // 3. 사용이 중지된 애너테이션 추가
   @available(*, deprecated, renamed: "size")
   public var count: Int {
@@ -180,7 +273,18 @@ class Stack<T> {
 
 <img src="/assets/img/2024-07-23-HowToDeprecateAPIstheRightWay_1.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 버전의 @available 주석을 사용하면 Xcode의 기능을 활용하여 변수의 이름을 자동으로 변경할 수 있습니다. 삼각형을 클릭하면 경고 메시지가 확장되어 다음과 같이 표시됩니다:
 
@@ -190,7 +294,18 @@ class Stack<T> {
 
 경고 메시지의 중요한 부분은 실질적 조치가 가능해야 합니다: 사용자들에게 어떻게 해야 하는지 알려주지 않고 속성을 폐기하는 것으로 끝이라면 사용자들이 방황할 수 있으며, 그렇게 느껴지면 사용자를 잃기를 원하지 않으실 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 코드가 준비되면 두 단계의 릴리스 접근 방식을 따를 수 있습니다:
 
@@ -201,7 +316,18 @@ class Stack<T> {
 
 또 다른 종류의 변경은 속성 유형을 변경하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 count가 사용자 정의 StackSize 타입을 반환할 것이라고 가정해봅시다:
 
@@ -224,8 +350,18 @@ class Stack<T> {
 
 이 문제를 해결하기 위해 두 단계 접근법이 필요한데, 먼저 다음 단계를 따릅니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 적절한 유형의 새 변수 newCount를 소개합니다.
 - 기존의 count가 내부적으로 newCount를 사용하도록 만듭니다.
@@ -235,11 +371,11 @@ class Stack<T> {
 // PHASE 1
 class Stack<T> {
   // ...
-  
+
   public var newCount: StackSize {
     return content.isEmpty ? .none : .some(value: content.count)
   }
-  
+
   @available(*, deprecated, message: "please use newCount")
   public var count: Int {
     switch self.newCount {
@@ -255,12 +391,12 @@ class Stack<T> {
 // PHASE 2
 class Stack<T> {
   // ...
-  
+
   @available(*, deprecated, message: "please use count")
   public var newCount: StackSize {
     return count
   }
-  
+
   public var count: StackSize {
     return content.isEmpty ? .none : .some(value: content.count)
   }
@@ -272,8 +408,18 @@ class Stack<T> {
 
 그런 다음, 변경된 이름의 프로퍼티 브레이킹 변경 전략을 적용하여 newCount를 count로 이름을 변경합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러면 해당하는 마지막 API 버전으로 이전할 시간을 사용자들에게 제공하지만 필요한 변경 사항을 적용하는 데 세 가지 버전이 걸린다는 것을 알아두세요.
 
@@ -281,7 +427,18 @@ class Stack<T> {
 
 다음을 고려해보세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
  클래스 PetFactory {
@@ -302,8 +459,18 @@ class Stack<T> {
 
 기술적으로는 이것이 중단 변경이 아닙니다. Dog도 Pet이기 때문에 다음과 같은 코드도 작동합니다:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 Let p1 = PetFactory().pet
@@ -316,8 +483,18 @@ Let p2: Pet = PetFactory().pet
 
 공개 속성을 제거하는 것은 다른 파괴적 변경입니다. 이는 어떤 대체가 필요하지 않지만, 일반적으로 버전 N+1에서 속성을 주석 처리하는 것이 더 좋습니다. 사용자에게 곧 제거될 것임을 경고하기 위해 속성을 주석 처리하고 버전 N+2에서 그것을 제거하는 것이 좋습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 class Stack<T> {
@@ -334,8 +511,18 @@ The second common entity where breaking changes happen is methods.
 
 You can apply the same strategies described for properties for some of the changes to methods. For example:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 메서드 이름 변경: 속성 이름 변경과 같은 전략을 사용합니다.
 - 반환 유형 변경: 속성 유형 변경과 같은 전략을 사용합니다.
@@ -347,7 +534,18 @@ You can apply the same strategies described for properties for some of the chang
 
 매개변수 이름을 변경할 때는 중요한 변경 사항입니다. 메서드의 시그니처가 변경되었으므로 모든 호출지가 업데이트되어야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드를 변경하지 않고 기술을 변경하는 기술은 메서드 이름을 바꾸는 기술과 비슷합니다. 매개변수 이름은 메서드 시그니처의 일부이며, 이는 메서드의 공식적인 이름입니다.
 
@@ -359,7 +557,18 @@ You can apply the same strategies described for properties for some of the chang
 
 실제로는 Stack 예제를 사용할 때 다음과 같이 보일 것입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 class Stack<t> {
@@ -383,9 +592,20 @@ class Stack<t> {
 
 ## 매개변수 유형 변경 또는 매개변수 제거하기
 
-매개변수 유형을 변경하거나 매개변수를 제거하는 것은 매개변수 이름 변경 사례와 매우 유사합니다. 유일한 차이점은 @available 주석의 renamed 버전을 사용할 수 없다는 것입니다. Xcode가 호출 위치를 자동으로 업데이트할 수 없기 때문입니다.  
+매개변수 유형을 변경하거나 매개변수를 제거하는 것은 매개변수 이름 변경 사례와 매우 유사합니다. 유일한 차이점은 @available 주석의 renamed 버전을 사용할 수 없다는 것입니다. Xcode가 호출 위치를 자동으로 업데이트할 수 없기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서, 단계는 다음과 같습니다:
 
@@ -405,7 +625,18 @@ class Contacts {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 contacts 객체는 튜플을 사용하여 연락처를 추가할 수 있게 합니다. 그런 다음, 튜플 대신 Contact struct를 사용하기로 결정했습니다:
 
@@ -425,7 +656,7 @@ class Contacts {
   public func add(contact: Contact) {
     list[contact.name] = contact
   }
-  
+
   @available(*, deprecated, message: "This version of add is deprecated. Please call add with a Contact object")
   public func add(contact: (name: String, number: String)) {
     let newContact = Contact(
@@ -437,7 +668,18 @@ class Contacts {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전 add 함수가 새로운 함수를 호출하도록 변경해야 합니다. 이를 위해 튜플을 새 객체로 변환한 다음 이전 메서드를 호출합니다.
 
@@ -447,7 +689,18 @@ class Contacts {
 
 파라미터를 추가할 때 발생하는 마지막 유형의 파손 변경 사항은 파라미터를 추가하는 경우입니다. "파괴적 변경사항이 아닌 것은?" 섹션에서 이를 해결하는 한 가지 방법을 보여드렸습니다. 새로운 파라미터에 대한 합리적인 기본값을 제공할 수 있다면 변경 사항이 파손적이 아닙니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그게 불가능할 때, 해결책은 다음과 같습니다:
 
@@ -458,8 +711,18 @@ class Contacts {
 
 경고를 표시할 때 Xcode는 URL을 클릭할 수 있게 만들어 사용자가 새 API를 사용하는 데 필요한 조치를 알 수 있도록 도와줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-23-HowToDeprecateAPIstheRightWay_3.png)
 
@@ -471,11 +734,32 @@ class Contacts {
 - 가능하다면 이전 유형을 새 유형에 준수하거나 확장합니다. 그렇지 않으면 다음 버전에 두 유형을 모두 지원합니다.
 - 이전 유형의 맨 위에 폐지 메시지를 추가합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 Markdown 형식으로 변환해 주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사에서 논의된 기법을 꾸준히 적용하면 제품을 계속 개선하면서 충분한 시간과 정보를 제공하여 고객들이 새로운 API 버전으로 이전할 수 있습니다. 경우에 따라 사용자를 위해 일부 작업을 Xcode를 활용할 수도 있습니다. 이보다 더 좋은 것이 무엇이죠?

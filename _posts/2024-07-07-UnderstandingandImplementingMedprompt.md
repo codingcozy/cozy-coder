@@ -3,17 +3,13 @@ title: "Medprompt 이해와 구현 방법"
 description: ""
 coverImage: "/assets/img/2024-07-07-UnderstandingandImplementingMedprompt_0.png"
 date: 2024-07-07 13:24
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-UnderstandingandImplementingMedprompt_0.png
 tag: Tech
 originalTitle: "Understanding and Implementing Medprompt"
 link: "https://medium.com/towards-data-science/understanding-and-implementing-medprompt-77bbd2777c91"
 isUpdated: true
 ---
-
-
-
-
 
 ## 프롬프트 프레임워크 뒷면에 숨겨진 세부사항 파헤치기
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 프롬프팅을 활용하는 디자인 결정을 내릴 때 여러 가지 고려 사항이 들어갑니다. 적은 양의 입력을 사용한 프롬프팅 및 Chain-of-Thought (CoT) [2] 프롬프팅과 같은 기술은 대부분의 작업에 대해 LLM의 성능을 향상시키는 데 도움이 될 수 있습니다. 검색 증가 생성 (RAG) 파이프라인은 세부 조정 없이 새로운 도메인에 적응하고 생성된 결과물을 구립하는 데 있어 더 많은 통제력을 제공하면서 환각을 줄일 수 있어 LLM의 성능을 더욱 향상시킬 수 있습니다. 전반적으로, 우리는 세부 조정에 명시적으로 의존하지 않고도 LLM의 성능을 개선하기 위한 다양한 도구들이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파인튜닝은 레이블 데이터 요구사항과 LLM의 학습 및 배포에 따른 비용과 같은 고유한 도전과 복잡성을 동반합니다. 특정 상황에서 LLM의 환각을 증가시킬 수도 있습니다. 모든 이를 종합해보면, 파인튜닝에 의존하기 전에 프롬프트를 통해 우리의 작업을 위해 LLM 성능을 최적화하려는 가치가 크다는 것을 알 수 있습니다.
 
@@ -38,7 +45,18 @@ isUpdated: true
 - 결론
 - 참고문헌
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 메드프롬프트 설명
 
@@ -48,7 +66,18 @@ isUpdated: true
 
 본 연구의 일환으로, 이 논문은 모델의 성능을 향상시키는 혁신적인 프롬프팅 전략인 메드프롬프트를 소개합니다. 이 방법은 MedPaLM-2와 같은 전문 모델을 능가하는 데에 성공했을 뿐 아니라 모델 성능을 향상시킵니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-07-UnderstandingandImplementingMedprompt_1.png)
 
@@ -58,7 +87,18 @@ isUpdated: true
 
 Medprompt는 few-shot prompting, CoT prompting 및 RAG의 원칙을 결합한 것입니다. 구체적으로 이 파이프라인에는 3가지 구성 요소가 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 다이내믹 퓨-샷 선정
 
@@ -68,7 +108,18 @@ Medprompt는 few-shot prompting, CoT prompting 및 RAG의 원칙을 결합한 �
 
 논문 [1]에서 언급된 바와 같이, CoT는 기존에 MedPaLM-2에서 의학 전문가들이 작성한 상세한 추론 단계를 포함하는 수동으로 제작된 퓨-샷 예본에 의존했습니다. Medprompt은 두 번째 모듈로 셀프-생성된 CoT를 소개합니다. 여기서 LLM을 사용하여 추론 과정의 상세한 단계별 설명을 생성하며 최종 답변 선택으로 이어집니다. 각 훈련 데이터 포인트에 대해 CoT 추론 단계를 자동으로 생성함으로써 수동으로 제작된 예시가 우회됩니다. GPT-4에 의해 생성된 답변이 실제 답변과 교차 확인되어 올바른 예측만 추론 단계와 함께 유지되고 잘못된 응답은 필터링됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 선택 섞기 앙상블
 
@@ -78,7 +129,18 @@ Medprompt는 few-shot prompting, CoT prompting 및 RAG의 원칙을 결합한 �
 
 이제 Medprompt의 전처리 및 추론 단계를 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 전처리 단계
 
@@ -88,7 +150,18 @@ Medprompt는 few-shot prompting, CoT prompting 및 RAG의 원칙을 결합한 �
 
 추론 파이프라인
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 추론 단계에서는 테스트 세트의 각 질문을 먼저 텍스트 임베딩 모델을 사용하여 임베딩합니다. 그런 다음 KNN 모델을 활용하여 가장 유사한 상위 k개의 질문을 식별합니다. 검색된 각 데이터 포인트에 대해 자체 생성된 사상 체인 (CoT) 추론과 예측된 답변에 액세스할 수 있습니다. 이러한 요소들인 질문, CoT 추론 및 답변을 최종 프롬프트를 위해 몇 가지 지표로 포맷합니다.
 
@@ -98,12 +171,22 @@ Medprompt는 few-shot prompting, CoT prompting 및 RAG의 원칙을 결합한 �
 
 Medprompt를 실행하고 평가하기 위해 MedQA [6] 데이터 세트를 사용합니다. 먼저 jsonl 파일을 구문 분석하는 도우미 함수를 정의합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 def write_jsonl_file(file_path, dict_list):
-    """
-    Write a list of dictionaries to a JSON Lines file.
+"""
+Write a list of dictionaries to a JSON Lines file.
 
     Args:
     - file_path (str): The path to the file where the data will be written.
@@ -115,8 +198,8 @@ def write_jsonl_file(file_path, dict_list):
             file.write(json_line + '\n')
 
 def read_jsonl_file(file_path):
-    """
-    Parses a JSONL (JSON Lines) file and returns a list of dictionaries.
+"""
+Parses a JSONL (JSON Lines) file and returns a list of dictionaries.
 
     Args:
         file_path (str): The path to the JSONL file to be read.
@@ -130,31 +213,42 @@ def read_jsonl_file(file_path):
         for line in file:
             json_object = json.loads(line)
             jsonl_lines.append(json_object)
-            
-    return jsonl_lines
 
+    return jsonl_lines
 
 ## 자체 생성된 CoT 구현
 
-우리의 구현에서는 MedQA의 훈련 세트를 활용합니다. Zero-shot CoT 프롬프트를 구현하고 모든 훈련 질문을 처리합니다. 우리는 구현에서 GPT-4o를 사용합니다. 각 질문에 대해 CoT와 해당 답변을 생성합니다. Medprompt 논문에서 제공된 템플릿을 기반으로하는 프롬프트를 정의합니다. 
-
+우리의 구현에서는 MedQA의 훈련 세트를 활용합니다. Zero-shot CoT 프롬프트를 구현하고 모든 훈련 질문을 처리합니다. 우리는 구현에서 GPT-4o를 사용합니다. 각 질문에 대해 CoT와 해당 답변을 생성합니다. Medprompt 논문에서 제공된 템플릿을 기반으로하는 프롬프트를 정의합니다.
 
 system_prompt = """당신은 전문적인 의료 전문가입니다. 여러 선택지가 있는 의료 질문이 제공됩니다.
 질문을 신중히 고민하고 마지막 답변을 선택하기 전에 추론 과정을 단계별로 설명하는 것이 목표입니다.
 다음과 같은 형식으로 각 질문과 답변을 제공합니다:
 
 Input:
+
 ## 질문: {question}
+
 {answer_choices}
 
 Output:
+
 ## 답변
+
 (모델 생성된 추론 과정 설명)
 따라서, 답은 [최종 모델 답변 (예: A, B, C, D)]"""
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 def build_few_shot_prompt(system_prompt, question, examples, include_cot=True):
@@ -169,15 +263,15 @@ def build_few_shot_prompt(system_prompt, question, examples, include_cot=True):
         list of dict: 작업을 정의하는 시스템 메시지와 입력 질문이 포함된 메시지의 목록
     """
     messages = [{"role": "시스템", "content": system_prompt}]
-    
+
     for elem in examples:
         messages.append({"role": "사용자", "content": create_query(elem)})
         if include_cot:
-            messages.append({"role": "어시스턴트", "content": format_answer(elem["cot"], elem["answer_idx"])})        
-        else:           
+            messages.append({"role": "어시스턴트", "content": format_answer(elem["cot"], elem["answer_idx"])})
+        else:
             answer_string = f"""## Answer\n따라서, 답은 {elem["answer_idx"]}입니다"""
             messages.append({"role": "어시스턴트", "content": answer_string})
-            
+
     messages.append({"role": "사용자", "content": create_query(question)})
     return messages
 
@@ -210,7 +304,7 @@ LLM 응답에서 추론과 최종 답변 옵션을 파싱하기 위한 도우미
 def matches_ans_option(s):
     """
     이 문자열이 '따라서, 답은 [A-Z]'의 구체적인 패턴으로 시작하는지 확인합니다.
-    
+
     Args:
     s (str): 확인할 문자열
 
@@ -222,7 +316,7 @@ def matches_ans_option(s):
 def extract_ans_option(s):
     """
     문자열 시작부분에서 답변 옵션(단일 대문자)을 추출합니다.
-    
+
     Args:
     s (str): 답변 패턴을 포함하는 문자열
 
@@ -237,7 +331,7 @@ def extract_ans_option(s):
 def matches_answer_start(s):
     """
     이 문자열이 마크다운 헤더 '## Answer'로 시작하는지 확인합니다.
-    
+
     Args:
     s (str): 확인할 문자열
 
@@ -249,7 +343,7 @@ def matches_answer_start(s):
 def validate_response(s):
     """
     응답이 '## Answer'로 시작하고 답변 패턴으로 끝나는 다중 줄 문자열 응답을 유효성 검사합니다.
-    
+
     Args:
     s (str): 유효성을 검사 할 다중 줄 문자열 응답
 
@@ -257,13 +351,13 @@ def validate_response(s):
     bool: 응답이 유효하면 True, 그렇지 않으면 False
     """
     file_content = s.split("\n")
-    
+
     return matches_ans_option(file_content[-1]) and matches_answer_start(s)
 
 def parse_answer(response):
     """
     '## Answer'로 시작하는 응답을 구문 분석하여 CoT 추론과 답안 선택을 추출합니다.
-    
+
     Args:
     response (str): 답변 및 추론이 포함 된 다중 줄 문자열 응답
 
@@ -279,8 +373,18 @@ def parse_answer(response):
 
 이제 MedQA의 교육 자료 질문을 처리합니다. 모든 질문에 대한 CoT 응답 및 답변을 가져 와서 폴더에 저장합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 train_data = read_jsonl_file("data/phrases_no_exclude_train.jsonl")
@@ -292,13 +396,13 @@ existing_files = os.listdir("cot_responses/")
 for idx, item in enumerate(tqdm(train_data)):
     if str(idx) + ".txt" in existing_files:
         continue
-    
+
     prompt = build_zero_shot_prompt(system_prompt, item)
     try:
         response = get_response(prompt, model_name="gpt-4o", max_tokens=500)
         cot_responses.append(response)
         with open(os.path.join("cot_responses", str(idx) + ".txt"), "w", encoding="utf-8") as f:
-            f.write(response)           
+            f.write(response)
     except Exception as e :
         print(str(e))
         cot_responses.append("")
@@ -313,9 +417,9 @@ for idx, question in enumerate(tqdm(train_data)):
     file =  open(os.path.join("cot_responses/", str(idx) + ".txt"), encoding="utf-8").read()
     if not validate_response(file):
         continue
-    
+
     cot, pred_ans = parse_answer(file)
-    
+
     dict_elem = {}
     dict_elem["idx"] = idx
     dict_elem["question"] = question["question"]
@@ -323,7 +427,7 @@ for idx, question in enumerate(tqdm(train_data)):
     dict_elem["options"] = question["options"]
     dict_elem["cot"] = cot
     dict_elem["pred_ans"] = pred_ans
-    questions_dict.append(dict_elem)        
+    questions_dict.append(dict_elem)
 
 filtered_questions_dict = []
 for item in tqdm(questions_dict):
@@ -334,8 +438,18 @@ for item in tqdm(questions_dict):
 
 ## KNN 모델 구현하기
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 학습 세트를 처리하고 모든 질문에 대한 CoT 응답을 얻었습니다. 이제 OpenAI의 text-embedding-ada-002를 사용하여 모든 질문을 임베딩합니다.
 
@@ -361,7 +475,18 @@ indices = list(range(len(filtered_questions_dict))
 knn = NearestNeighbors(n_neighbors=5, algorithm='auto', metric='cosine').fit(embeddings)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Dynamic Few-Shot 및 Choice Shuffling Ensemble Logic 구현
 
@@ -373,7 +498,7 @@ knn = NearestNeighbors(n_neighbors=5, algorithm='auto', metric='cosine').fit(emb
 def shuffle_option_labels(answer_options):
     """
     질문의 옵션들을 섞습니다.
-    
+
     Parameters:
     answer_options (dict): 옵션을 포함한 사전 형태의 데이터.
 
@@ -384,11 +509,22 @@ def shuffle_option_labels(answer_options):
     random.shuffle(options)
     labels = [chr(i) for i in range(ord('A'), ord('A') + len(options))]
     shuffled_options_dict = {label: option for label, option in zip(labels, options)}
-    
+
     return shuffled_options_dict
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 test_samples = read_jsonl_file("final_processed_test_set_responses_medprompt.jsonl")
@@ -401,30 +537,30 @@ for question in tqdm(test_samples, colour ="green"):
     distances, top_k_indices = knn.kneighbors([question_embedding], n_neighbors=5)
     top_k_dicts = [filtered_questions_dict[i] for i in top_k_indices[0]]
     question["outputs"] = []
-    
+
     for idx in range(5):
         question_copy = question.copy()
         shuffled_options = shuffle_option_labels(question["options"])
         inv_map = {v:k for k,v in shuffled_options.items()}
-        
+
         question_copy["options"] = shuffled_options
         question_copy["answer_idx"] = inv_map[question_copy["answer"]]
         question_variants.append(question_copy)
         prompt = build_few_shot_prompt(system_prompt,  question_copy, top_k_dicts)
         prompt_variants.append(prompt)
-    
+
     for prompt in tqdm(prompt_variants):
         response = get_response(prompt, model_name="gpt-4o", max_tokens=500)
         cot_responses.append(response)
-    
+
     for question_sample, answer in zip(question_variants, cot_responses):
         if validate_response(answer):
             cot, pred_ans = parse_answer(answer)
-            
+
         else:
             cot = ""
             pred_ans = ""
-                
+
         question["outputs"].append({"question": question_sample["question"], "options": question_sample["options"], "cot": cot, "pred_ans": question_sample["options"].get(pred_ans, "")})
 ```
 
@@ -435,8 +571,18 @@ We are now examining the outcomes of Medprompt on the test dataset. For each que
 
 In both cases, the question is considered incorrectly answered by the LLM.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 def find_mode_string_list(string_list):
@@ -448,25 +594,25 @@ def find_mode_string_list(string_list):
     반환값:
     str 목록 또는 None: 입력 목록에서 가장 빈번한 문자열을 포함하는 목록입니다.
                          입력 목록이 비어있는 경우 None을 반환합니다.
-    """    
+    """
     if not string_list:
-        return None  
+        return None
 
     string_counts = Counter(string_list)
     max_freq = max(string_counts.values())
     mode_strings = [string for string, count in string_counts.items() if count == max_freq]
     return mode_strings
 
-ctr = 0 
+ctr = 0
 for item in test_samples:
     pred_ans = [x["pred_ans"] for x in item["outputs"]]
     freq_ans = find_mode_string_list(pred_ans)
-    
+
     if len(freq_ans) > 1:
         final_prediction = ""
     else:
         final_prediction = freq_ans[0]
-        
+
     if final_prediction == item["answer"]:
         ctr +=1
 
@@ -479,8 +625,18 @@ print(ctr / len(test_samples))
 
 ![UnderstandingandImplementingMedprompt_2](/assets/img/2024-07-07-UnderstandingandImplementingMedprompt_2.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 Medprompt와 Random Few-Shot CoT prompting이 Zero 및 Few-Shot prompting baselines보다 우월하다는 것을 알 수 있습니다. 그러나 놀랍게도, Random Few-Shot CoT가 우리의 Medprompt 성능을 능가한다는 점을 발견했습니다. 이는 몇 가지 이유 때문일 수 있습니다:
 
@@ -491,7 +647,18 @@ print(ctr / len(test_samples))
 
 Medprompt는 도메인 특화 일반 LLM을 세밀한 튜닝 없이 만들기 위한 복잡한 프롬프트 파이프라인을 위한 흥미로운 프레임워크입니다. 또한 각 상황에 맞게 프롬프팅과 세밀한 튜닝 사이의 선택 고려 사항을 강조합니다. LLM 성능을 향상시키기 위해 프롬프트가 얼마나 발전시킬 수 있는지 탐구하는 것은 중요합니다. 왜냐하면 이는 세밀한 튜닝에 대한 비용 효율적인 대안을 제공하기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 레퍼런스:
 
@@ -501,7 +668,18 @@ Medprompt는 도메인 특화 일반 LLM을 세밀한 튜닝 없이 만들기 �
 
 [3] Gekhman, Z., Yona, G., Aharoni, R., Eyal, M., Feder, A., Reichart, R., & Herzig, J. (2024). Does Fine-Tuning LLMs on New Knowledge Encourage Hallucinations?. arXiv preprint arXiv:2405.05904. [링크](https://arxiv.org/abs/2405.05904)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [4] 싱할, K., 아지지, S., 투, T., 마다비, S. S., 웨이, J., 정, H. W., … & 나타라잔, V. (2023). 대형 언어 모델은 임상 지식을 인코딩합니다. 네이처, 620(7972), 172–180. ([링크](https://www.nature.com/articles/s41586-023-06291-2))
 

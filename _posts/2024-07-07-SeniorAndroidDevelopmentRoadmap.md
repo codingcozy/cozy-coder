@@ -3,17 +3,13 @@ title: "시니어 안드로이드 개발자가 알아야 할 2024 로드맵 "
 description: ""
 coverImage: "/assets/img/2024-07-07-SeniorAndroidDevelopmentRoadmap_0.png"
 date: 2024-07-07 13:46
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-SeniorAndroidDevelopmentRoadmap_0.png
 tag: Tech
 originalTitle: "Senior Android Development👨🏻‍💻 Roadmap"
 link: "https://medium.com/@niranjanky14/roadmap-to-senior-android-development-9ff5994f9059"
 isUpdated: true
 ---
-
-
-
-
 
 # 👨🏻‍💻Foundation Building: Your Must-Have Toolkit
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![Advancing Further](/assets/img/2024-07-07-SeniorAndroidDevelopmentRoadmap_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 👨🏻‍💻 여정을 그리다: 시각적인 로드맵
 

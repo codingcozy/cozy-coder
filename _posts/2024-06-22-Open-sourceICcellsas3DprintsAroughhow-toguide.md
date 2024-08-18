@@ -3,17 +3,13 @@ title: "오픈소스 IC 셀을 3D 프린터로 출력하는 방법 간단 가이
 description: ""
 coverImage: "/assets/img/2024-06-22-Open-sourceICcellsas3DprintsAroughhow-toguide_0.png"
 date: 2024-06-22 18:39
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-Open-sourceICcellsas3DprintsAroughhow-toguide_0.png
 tag: Tech
 originalTitle: "Open-source IC cells as 3D prints. A rough how-to guide."
 link: "https://medium.com/@thorstenknoll/open-source-ic-cells-as-3d-prints-a-rough-how-to-guide-90a8bc8b3b57"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-06-22-Open-sourceICcellsas3DprintsAroughhow-toguide_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Google과 Skywater Technology가 발표한 오픈 소스 프로세스 디자인 키트(PDK) "SKY130" 이후로 모든 사람이 실제 마이크로칩을 생산하기 위한 "실제 표준 셀"들을 더 깊이 살펴볼 수 있게 되었습니다. 여러분은 어떠한 NDA를 위반하는 걱정없이 그들에 대해 이야기하고 쓸 수 있습니다. 우리는 심지어 이 셀들을 3D 프린터로 출력할 수도 있습니다. 그리고 저는 그렇게 했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내가 인쇄한 3D 세포의 사진을 몇 개 트윗한 후 How-to 가이드를 작성하라는 요청을 받았어요. 이 안내서는 몇 단계로 나뉜 대략적인 계획으로, "혼자서 아주 쉽게 5분 안에 따라 할 수 있는" 가이드는 아니니까요. 이 점 주의하세요! 3D 프린터에 답답함을 느낄 수도 있고, 성공하기 위해 실리콘 칩의 구조에 대해 배워야 할 수도 있습니다.
 
@@ -33,7 +40,18 @@ Google과 Skywater Technology가 발표한 오픈 소스 프로세스 디자인 
 
 ## 테스트 완료:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 노트북 우분투 22.04
 - Ultimaker S5 + 자재 창고
@@ -44,19 +62,39 @@ SKY130 PDK 문서를 살펴보세요, 특히 7개의 SKY130 셀 라이브러리 
 
 인쇄할 표준 셀을 결정하세요. 쉬운 셀부터 시작하는 것이 좋습니다. 예를 들어 인버터입니다. 간단한 CMOS 인버터 셀은 두 개의 트랜지스터를 포함하고 다음과 같이 보입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-22-Open-sourceICcellsas3DprintsAroughhow-toguide_1.png)
 
-PDKs Github Repository에서 선택한 셀의 .gds 파일을 다운로드하세요. 단일 인버터의 경우 sky130_fd_sc_hd__inv_1.gds 파일입니다:
+PDKs Github Repository에서 선택한 셀의 .gds 파일을 다운로드하세요. 단일 인버터의 경우 sky130_fd_sc_hd\_\_inv_1.gds 파일입니다:
 
 # 2. GDS3D를 사용하여 셀의 .gds 파일 검토
 
 셀의 .gds 파일을 조사 가능한 3D 렌더링으로 보려면 Viewer 소프트웨어가 필요합니다. trilomix의 GDS3D를 사용하는 것을 제안합니다:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저장소를 다운로드하거나 복제하세요. /linux 폴더에는 미리 컴파일된 우분투 버전의 GDS3D가 있습니다. 실행 가능하게 만드세요:
 
@@ -70,9 +108,20 @@ SKY130 셀과 함께 GDS3D를 실행하려면 프로세스 정의 파일이 필�
 ./linux/GDS3D -p techfiles/sky130.txt -i <gds-파일_경로>
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-GDS3D 창에서 인버터 셀을 3D 모델로 표시해야 합니다. 마우스로 이를 이동, 회전 및 확대할 수 있습니다. 이는 위의 3D 프린트 사진과 동일한 셀 (sky130_fd_sc_hd__inv_1.gds)입니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+GDS3D 창에서 인버터 셀을 3D 모델로 표시해야 합니다. 마우스로 이를 이동, 회전 및 확대할 수 있습니다. 이는 위의 3D 프린트 사진과 동일한 셀 (sky130_fd_sc_hd\_\_inv_1.gds)입니다.
 
 <img src="/assets/img/2024-06-22-Open-sourceICcellsas3DprintsAroughhow-toguide_2.png" />
 
@@ -80,7 +129,18 @@ GDS3D 창에서 인버터 셀을 3D 모델로 표시해야 합니다. 마우스�
 
 # 3. .gds를 .stl로 변환하기: gdsiistl
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3D 프린팅을 위해서 GDS 파일을 프린트 가능한 .stl 파일 세트로 변환해야 합니다. mbalestrini가 SKY130 PDK용으로 적용한 gdsiistl 버전이 있습니다:
 
@@ -94,9 +154,20 @@ pip install triangle
 python gdsiistl.py <path_to_gds_file>
 ```
 
-gdsiistl을 실행한 결과는 프로세스 레이어의 일부를 이름에 접미사로 가진 .stl 파일 세트가 생성됩니다 ( _diff, _li1, _licon, _mcon, _met1, _nwell 및 _poly).
+gdsiistl을 실행한 결과는 프로세스 레이어의 일부를 이름에 접미사로 가진 .stl 파일 세트가 생성됩니다 ( \_diff, \_li1, \_licon, \_mcon, \_met1, \_nwell 및 \_poly).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-Open-sourceICcellsas3DprintsAroughhow-toguide_3.png" />
 
@@ -106,7 +177,18 @@ gdsiistl을 실행한 결과는 프로세스 레이어의 일부를 이름에 �
 
 여기서부터는 좋아하는 소프트웨어를 실행하여 .stl 파일을 보고, 편집하고, 슬라이스하고 인쇄해야 합니다. 저는 Tinkercad와 Cuda의 조합을 사용합니다. 하지만 이는 완전히 당신과 당신의 3D 프린터에 달렸습니다. 오픈 소스 솔루션을 선호할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기는 방금 .stl 파일로 받은 레이어들과 실제 마이크로칩에 어떻게 "쌓이는지" 보여주는 다이어그램이 있습니다. 이 다이어그램의 출처는 SKY 130 PDK 문서입니다.
 
@@ -116,7 +198,18 @@ gdsiistl을 실행한 결과는 프로세스 레이어의 일부를 이름에 �
 
 ![렌더링](/assets/img/2024-06-22-Open-sourceICcellsas3DprintsAroughhow-toguide_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 선택을 해야 할 시점이 도래했습니다. 세포의 3D 모델에 대한 다음 단계는 실제 칩 생산 과정과 프린터의 출력 가능성 또는 제한 사항과의 정확성 등급에 달려 있습니다. 제가 그림과 함께 다음 문제를 설명하겠습니다.
 
@@ -126,7 +219,18 @@ gdsiistl을 실행한 결과는 프로세스 레이어의 일부를 이름에 �
 
 ![이미지](/assets/img/2024-06-22-Open-sourceICcellsas3DprintsAroughhow-toguide_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 부족한 기판층:
 
@@ -136,7 +240,18 @@ gdsiistl을 실행한 결과는 프로세스 레이어의 일부를 이름에 �
 
 ## 확산을 nwell로 하위 기판에 포함하시겠습니까?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 세 낮은 층을 서로 쌓지 않고 내포된 구조로 만들었어요: 확산이 엔웰(nwell)로 스며들어 p-기판으로 들어가요.
 
@@ -146,7 +261,18 @@ gdsiistl을 실행한 결과는 프로세스 레이어의 일부를 이름에 �
 
 ![이미지](/assets/img/2024-06-22-Open-sourceICcellsas3DprintsAroughhow-toguide_9.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 하나 또는 두 개의 프린트 헤드? 색상?
 
@@ -156,7 +282,18 @@ gdsiistl을 실행한 결과는 프로세스 레이어의 일부를 이름에 �
 
 각 인쇄 작업에는 두 개 이상의 색상이 없으며 서포트 채움이 없습니다. 층을 인쇄한 후에는 슈퍼 접착제를 사용하여 단일 모델로 결합합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 입력 및 출력 레이블:
 
@@ -166,7 +303,18 @@ gdsiistl을 실행한 결과는 프로세스 레이어의 일부를 이름에 �
 
 # 5: 조립
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째: 손가락을 서로 붙이지 마세요!
 
@@ -176,7 +324,18 @@ gdsiistl을 실행한 결과는 프로세스 레이어의 일부를 이름에 �
 
 # 이제는...
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - ...모델을 축척에 맞추어 출력하는 중입니다. 그리고 그 축척은 무엇인가요?
 - ... `SKY130 PDK에 200개 더 레이어가 있습니다.
@@ -189,6 +348,17 @@ gdsiistl을 실행한 결과는 프로세스 레이어의 일부를 이름에 �
 
 Hochschule RheinMain (Ultimaker S5)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스테펜 라이테가 이런 미친 짓을 할 수 있도록 도와줘서 고마워요.

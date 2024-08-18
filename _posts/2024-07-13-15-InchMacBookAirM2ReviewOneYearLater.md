@@ -3,18 +3,13 @@ title: "15인치 맥북 에어 M2 리뷰  1년 후의 변화와 현재 평가"
 description: ""
 coverImage: "/assets/img/2024-07-13-15-InchMacBookAirM2ReviewOneYearLater_0.png"
 date: 2024-07-13 22:06
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-15-InchMacBookAirM2ReviewOneYearLater_0.png
 tag: Tech
 originalTitle: "15-Inch MacBook Air M2 Review — One Year Later!"
 link: "https://medium.com/macoclock/15-inch-macbook-air-m2-review-one-year-later-92136084a54e"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![Top of the Rock Observation Deck](/assets/img/2024-07-13-15-InchMacBookAirM2ReviewOneYearLater_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 ![15-Inch MacBook Air M2 Review](/assets/img/2024-07-13-15-InchMacBookAirM2ReviewOneYearLater_1.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 사진 한 장 찍었고 (그리고 몇몇 이상한 시선을 받았지만) 사랑받는 MacBook Air의 최신 버전을 열두 달 동안 매일 사용하기로 하고 나니, 시작했습니다. 이 글을 읽고 계신다면 아마도 여러분도 하나 사려고 생각 중이시겠죠. 분명히, 크게 인기를 끌고 있는 마켓 힛 제품을 오랫동안 사용한 사람의 경험을 듣고 싶으실 거예요.
 
@@ -35,7 +40,18 @@ isUpdated: true
 
 또한 작년에 기준 모델 15인치 MacBook Air를 선택했어요. 이것은 M3 칩이 도입되기 전이었기 때문에, 제가 갖고 있는 스펙이 여러분이 선택할 스펙과는 다를 수도 있겠네요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래도 향수를 느끼기 위해 간단히 요약해 볼게요: M2 칩을 탑재한 8코어 CPU, 10코어 GPU, 8GB의 통합 메모리, 256GB의 SSD 저장 공간을 갖고 있어요. 또한 35W 듀얼 USB-C 전원 어댑터가 함께 왔었는데 (저는 분실했어요). 이 특정한 15인치 MacBook Air는 1,399파운드에 구매했고 — 오늘날 동일한 M3 버전을 구매하면 100파운드 더 비싸졌어요.
 
@@ -45,7 +61,18 @@ isUpdated: true
 
 더 많은 저장 공간에 관해서는, 이 노트북에는 현재 87GB가 남아 있어요. 급속히 공간이 줄어든다는 공식적인 경고를 아직 받지 않았지만, 조금 더 여유 공간이 있었으면 더 좋았을 거에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이야기의 교훈은 뭐냐고요? 특정한 기술 유튜버처럼 행동하지 말고, 가능한 한 많이 지출하여 장수와 구매자 후회를 없애는 것이 중요하다는 겁니다.
 
@@ -55,8 +82,18 @@ isUpdated: true
 
 저는 스타라이트 색상을 선택했는데, 본질적으로 매우 연한 금색에 해당하는 랩톱을 소유해 본 적이 없어서였습니다. 은색 버전과 이 색상 중에 고민 중이고 약간 다른 것을 원한다면, 스타라이트를 선택하는 것이 좋겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![15-Inch MacBook Air M2 Review One Year Later](/assets/img/2024-07-13-15-InchMacBookAirM2ReviewOneYearLater_3.png)
 
@@ -66,9 +103,18 @@ isUpdated: true
 
 톡톡 친 게시물과 이메일 답장의 년이 지난 후, 키들이 보통의 '빛나자' 묘기를 해왔습니다. 그래도 그것조차도 더 어두운 색상의 맥북보다 덜 두드러지는 것 같습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image 1](/assets/img/2024-07-13-15-InchMacBookAirM2ReviewOneYearLater_4.png)
 
@@ -78,8 +124,18 @@ isUpdated: true
 
 # 성능
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 M2 칩을 출시하는 것은 애플에게 어려운 시기였습니다. M1에 이어서 발표되었는데, 이는 Mac 역사상 가장 중요한 업데이트 중 하나로 남아 있습니다. 그러나 이번에는 이중에서 싱글 NAND 저장 칩으로의 전환과 그로 인한 성능 저하 때문에 비판을 받았습니다.
 
@@ -89,7 +145,18 @@ M2 칩을 출시하는 것은 애플에게 어려운 시기였습니다. M1에 �
 
 앞서 언급했듯이, 내 15인치 M2 MacBook Air은 때로 약간 제약이 있어 보이지만, 저를 제약하지는 않았습니다. 오히려 노트북을 구매할 때 기억해야 할 황금규칙을 다시 상기시켜 주었습니다(오래 사용할 수 있도록 편안하게 지불할 수 있는 만큼 많이 투자하십시오).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 사용 사례에는 많은 전력이 필요하지는 않네요. 그것은 결코 글쓰기 및 관리용 노트북으로 확고하게 그것이 우수한 성능을 발휘하고 있다는 것은 맥OS의 절대적인 뛰어남과 최적화 덕분이기도 합니다.
 
@@ -99,7 +166,18 @@ M2 칩을 출시하는 것은 애플에게 어려운 시기였습니다. M1에 �
 
 ![이미지](/assets/img/2024-07-13-15-InchMacBookAirM2ReviewOneYearLater_7.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 요약: 어떻게 사용하는가, 15인치 맥북 에어는 누구를 위한 것인가?
 
@@ -109,7 +187,18 @@ M2 칩을 출시하는 것은 애플에게 어려운 시기였습니다. M1에 �
 
 ![15-InchMacBookAirM2ReviewOneYearLater_8.png](/assets/img/2024-07-13-15-InchMacBookAirM2ReviewOneYearLater_8.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모두를 위해, 15인치 맥북 에어는 맥북 프로에 대한 당연한 대안이에요. 정말 엄청나게 휴대성을 원하지 않는 이상, 화면 면적이 방대하고 매혹적인 용모 덕분에 13인치 버전보다 훨씬 더 시의를 가집니다.
 

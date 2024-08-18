@@ -3,17 +3,13 @@ title: "Snowflake를 위한 CICD 및 DevOps 포괄적인 가이드"
 description: ""
 coverImage: "/assets/img/2024-06-20-CICDandDevOpsforSnowflakeAComprehensiveGuide_0.png"
 date: 2024-06-20 15:25
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-CICDandDevOpsforSnowflakeAComprehensiveGuide_0.png
 tag: Tech
 originalTitle: "CI CD and DevOps for Snowflake: A Comprehensive Guide"
 link: "https://medium.com/@melbdataguy/ci-cd-and-devops-for-snowflake-a-comprehensive-guide-9df87a24797d"
 isUpdated: true
 ---
-
-
-
-
 
 데이터 엔지니어링 및 데이터베이스 관리의 세계에서는 지속적 통합/지속적 배포(CI/CD) 실천이 민첩하고 신뢰성 있으며 효율적인 개발 워크플로우에 중요합니다. 성장 중인 클라우드 기반 데이터 웨어하우징 플랫폼인 Snowflake는 확장성, 적응성, 우수한 성능으로 유명합니다. 그러나 Snowflake를 위해 CI/CD를 구현하는 것은 표준화된 실천 방식과 특화된 도구 부재로 인한 독특한 도전에 직면하고 있습니다. 더하여 데이터베이스 프로젝트에 특화된 DevOps 및 CI/CD 워크플로에 대한 모범 사례를 상세히 설명하는 종합적인 문서 부재 문제가 있습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 소개: SQL Server에서 Snowflake로의 간극을 메꾸는 것
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SQL Server 출신이신 분으로서 Snowflake로 전환하면서, 데이터베이스 객체를 관리하기 위한 표준이 없다는 점이 큰 장벽이었습니다. SQL Server의 SSDT(SQL Server Data Tools) 접근 방식과 DACPAC(Data-tier Application Component Package) 파일은 데이터베이스 변경 관리(DCM)를 선언적으로 처리하는 방법을 제공했지만, Snowflake에는 이와 같은 표준화된 접근 방식이 없었습니다. 초기 접근 방식은 Terraform과 같은 도구나 Schemachange 또는 Flyway와 같은 명령중심의 DCM 솔루션에 의존하는 경향이 있었는데, 이는 모든 사람들의 선호에 부합하지 않을 수 있습니다.
 
@@ -33,7 +40,18 @@ SQL Server 출신이신 분으로서 Snowflake로 전환하면서, 데이터베�
 
 Snowflake의 최근 기능은 CI/CD 및 DevOps 실천을 효과적으로 구현하기 위한 기초를 제공합니다. 이러한 기본 블록은 배포 프로세스를 자동화하고 협업을 강화하며 환경 간 일관성을 보장하는 사용자들을 능력을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-CICDandDevOpsforSnowflakeAComprehensiveGuide_0.png" />
 
@@ -43,7 +61,18 @@ Snowflake의 최근 기능은 CI/CD 및 DevOps 실천을 효과적으로 구현�
 
 2. EXECUTE IMMEDIATE FROM
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 #### 1. EXECUTE IMMEDIATE FROM command
 
@@ -55,7 +84,18 @@ Snowflake CLI allows developers to run SQL queries, ad-hoc queries, or SQL query
 
 #### 3. Git Integration
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Snowflake와 Git 저장소를 통합하면 코드의 중앙 집중식 데이터 원천이 제공되어 협업 및 버전 제어 기능을 강화할 수 있습니다. 개발자들은 Snowflake 환경 내에서 변경 사항을 추적하고 브랜치를 관리하며 Git 워크플로를 신속하게 활용할 수 있습니다. 이는 팀워크를 촉진하고 효율적인 배포 파이프라인을 용이하게합니다.
 
@@ -65,7 +105,18 @@ Snowflake와 Git 저장소를 통합하면 코드의 중앙 집중식 데이터 
 
 ## 사전 요구 사항:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Snowflake 계정 (최소 sysadmin 액세스 권한)
 - GitHub 계정
@@ -77,7 +128,18 @@ Snowflake를 위한 CI/CD를 설정하는 단계를 따라해보세요:
 
 - 데이터베이스 및 스키마 생성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-CICDandDevOpsforSnowflakeAComprehensiveGuide_2.png" />
 
@@ -87,7 +149,18 @@ Snowflake를 위한 CI/CD를 설정하는 단계를 따라해보세요:
 
 2. Snowflake를 Git 리포지토리에 연결하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Step 2.1: GitHub에서 개인 액세스 토큰(PAT)을 생성합니다.
 
@@ -97,7 +170,18 @@ Step 2.2: GitHub PAT을 저장할 Secret을 생성합니다.
 
 ![GitHub PAT 이미지](/assets/img/2024-06-20-CICDandDevOpsforSnowflakeAComprehensiveGuide_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Step 2.3: Snowflake 내에서 Git API 통합을 생성하세요.
 
@@ -107,7 +191,18 @@ Step 2.4: Snowflake 객체 및 구성을 저장할 Git 저장소를 설정하세
 
 ![이미지](/assets/img/2024-06-20-CICDandDevOpsforSnowflakeAComprehensiveGuide_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 배포를 위한 서비스 계정 및 기타 Snowflake 객체 생성
 
@@ -117,7 +212,18 @@ Step 2.4: Snowflake 객체 및 구성을 저장할 Git 저장소를 설정하세
 
 4. 로컬 개발
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희 지역 개발 환경 설정에 대해 Snowflake 프로젝트의 폴더 계층 구조를 아래 이미지처럼 구성하는 것을 권장합니다. 각 스키마마다 별도의 폴더가 할당되며, 각 스키마 폴더 내에서는 객체 유형에 따라 하위 폴더로 객체를 더 구성할 수 있습니다.
 
@@ -125,7 +231,18 @@ Step 2.4: Snowflake 객체 및 구성을 저장할 Git 저장소를 설정하세
 
 테이블을 생성할 때 Snowflake의 CREATE OR ALTER 문을 사용하는 간편함과 효율성을 보여 드릴 수 있습니다. 이를 통해 새 테이블을 생성하거나 기존 테이블을 수정하는 등 테이블 스키마를 효과적으로 관리할 수 있습니다. CREATE OR REPLACE로 이미 정의된 테이블의 경우, CREATE OR ALTER로의 전환은 빠르게 조정할 수 있어 배포 파이프라인과의 원활한 호환성을 보장할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-CICDandDevOpsforSnowflakeAComprehensiveGuide_8.png" />
 
@@ -135,19 +252,39 @@ Step 2.4: Snowflake 객체 및 구성을 저장할 Git 저장소를 설정하세
 
 다시 한번 제시된 폴더 계층 구조를 강조하면, 프로젝트 폴더 안에서 sf_deploy_dev.sql과 sf_deploy_tst.sql 두 가지 필수 스크립트를 찾을 수 있습니다. 이 스크립트는 Snowflake 객체의 배포를 조정하는 배포 진입점으로 작용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에 그들의 구조를 보여주는 샘플 스니펫이 있어요:
 
-
 ![Snowflake CLI](/assets/img/2024-06-20-CICDandDevOpsforSnowflakeAComprehensiveGuide_10.png)
-
 
 5. 로컬 Snow CLI 사용
 
 내 경험상 Snowflake CLI를 전체 배포 파이프라인에 뛰어들기 전에 로컬에서 미리 테스트하는 것이 유익합니다. 이를 통해 만든 서비스 계정을 사용하여 연결을 확인하고 올바른 액세스 권한을 확인하며 쉬운 디버깅 및 테스트를 용이하게 할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 Snow CLI를 설치해야 합니다. Snow CLI는 Snowflake 문서에 제공된 설치 지침을 따라 간단히 설치할 수 있어요.
 
@@ -157,10 +294,20 @@ Step 2.4: Snowflake 객체 및 구성을 저장할 Git 저장소를 설정하세
 
 먼저 ALTER GIT REPOSITORY 명령어를 사용하여 링크된 Git 저장소에서 업데이트를 가져올 거에요. 이를 통해 Snowflake 환경이 코드베이스의 최신 변경 사항과 동기화되도록 할 거에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 표시되어 있는 내용을 아래와 같이 번역해 드리겠습니다.
-
 
 ![2024-06-20-CICDandDevOpsforSnowflakeAComprehensiveGuide_12](/assets/img/2024-06-20-CICDandDevOpsforSnowflakeAComprehensiveGuide_12.png)
 
@@ -170,8 +317,18 @@ Step 2.4: Snowflake 객체 및 구성을 저장할 Git 저장소를 설정하세
 
 Snowflake CLI 명령어에서는 계정, 사용자, 창고와 같은 입력값을 지정하여 연결을 설정할 것입니다. 이후에는 이러한 입력값들을 GitHub 비밀에 저장하여 보안 및 편의성을 갖출 것입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 6. GitHub Workflow를 만들기
 
@@ -181,7 +338,18 @@ GitHub Actions를 구성하여 대상 환경으로의 배포를 자동화합니�
 
 GitHub에 필요한 시크릿과 환경 변수를 채워 넣어, 워크플로우 실행 중에 Snowflake 및 Git 리포지토리에 안전하게 액세스합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리포지토리에서 Settings → Secrets and Variables → Actions → New repository secret로 이동하세요.
 
@@ -191,7 +359,18 @@ GitHub에 필요한 시크릿과 환경 변수를 채워 넣어, 워크플로우
 
 수동으로 또는 자동화된 이벤트(예: main으로 푸시/머지)를 트리거하여 구성된 GitHub 워크플로우를 유효성 검사하고, 배포 작업의 성공적인 실행과 올바른 처리를 확인하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Snowflake에서 유의할 사항 및 권장 사항
 
@@ -202,7 +381,18 @@ GitHub에 필요한 시크릿과 환경 변수를 채워 넣어, 워크플로우
 - 이 명령의 제한 사항은 특히 특정 위치에 열을 삽입해야 할 때 제한적일 수 있습니다.
 - 테이블에 대한 제약은 이 명령을 사용하여 뷰나 저장 프로시저와 같은 다른 데이터베이스 객체를 변경할 수 없다는 것을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. Snowsight에서 CREATE OR ALTER 동작
 
@@ -212,7 +402,18 @@ GitHub에 필요한 시크릿과 환경 변수를 채워 넣어, 워크플로우
 
 - 모든 환경에서 동일한 데이터베이스 연결을 사용하여 일관성을 유지하는 것이 실용적으로 보일 수 있지만, Snowflake가 이 접근 방식을 권장하거나 요구하는지를 고려하는 것이 중요합니다. 테스트(TST) 및 프로덕션(PRD)과 같이 더 높은 환경으로 전개하더라도, Git 저장소가 연결된 개발(dev) 환경과 일치하는 단일 연결을 유지합니다. 이 선택은 EXECUTE IMMEDIATE와 같은 SQL 명령의 올바른 실행을 보장합니다. 그러나 Snowflake가 각 환경에 대해 별도의 Git 저장소 연결을 설정하여 다른 데이터베이스 연결 사용을 가능하게 하는 것을 필수로 하는지는 명확하지 않습니다. Snowflake의 권장 사항에 대한 명확한 설명이 필요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 권장사항:
 
@@ -223,7 +424,18 @@ GitHub에 필요한 시크릿과 환경 변수를 채워 넣어, 워크플로우
 
 2. Snowflake에 의한 배포 artifacts의 개발
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 높은 환경으로의 배포 프로세스를 간단히 하기 위해서는 Snowflake에 의한 배포 아티팩트 또는 배포 패키지의 개발을 탐색하는 것이 좋습니다.
 - DACPAC(배포용 아티팩트로 빌드되는 SSDT의 접근 방식과 유사하게, Snowflake에서는 배포 아티팩트를 생성하고 관리하기 위한 간소화된 메커니즘을 제공할 수 있습니다.

@@ -3,17 +3,13 @@ title: "ROS 2 Python 런치 파일의 비밀을 해제합니다"
 description: ""
 coverImage: "/assets/img/2024-06-19-UnlockingtheSecretsofROS2PythonLaunchFiles_0.png"
 date: 2024-06-19 06:19
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-UnlockingtheSecretsofROS2PythonLaunchFiles_0.png
 tag: Tech
 originalTitle: "Unlocking the Secrets of ROS 2 Python Launch Files"
 link: "https://medium.com/@cullensun/unlocking-the-secrets-of-ros-2-python-launch-files-cd8e9f03c629"
 isUpdated: true
 ---
-
-
-
-
 
 ![2024-06-19-UnlockingtheSecretsofROS2PythonLaunchFiles_0.png](/assets/img/2024-06-19-UnlockingtheSecretsofROS2PythonLaunchFiles_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 특히, Python 런치 파일을 작성하는 것은 일반적인 Python 프로그래밍과는 다르기 때문에 조금 까다로울 수 있습니다. 그래서 이 글을 쓰게 되었습니다. 함께 런치 파일에 혼동을 겪고 계신 분들을 위해 몇 가지 팁을 공유하고 싶기 때문이죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## DeclareLaunchArgument 및 LaunchConfiguration
 
@@ -41,31 +48,53 @@ DeclareLaunchArgument(
 
 초보자로서, 두 요소 간의 관계를 종종 잊어버리곤 합니다. 또한 LaunchConfiguration과 DeclareLaunchArgument 생성자는 default 또는 default_value 매개변수를 지원하며, 이는 매우 혼란스러울 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 정의는 ROS 2의 공식 문서에서 발췌되었습니다. **굵게 표시한** 단어에 주목해 주시면 단어의 사용법을 이해하는 데 도움이 됩니다.
 
 여러 번 읽은 후에 그것들은 쌍으로 사용되어야 한다는 것을 깨달았어요. 항상 함께 작성하는 것이 좋은 실천 방법이라고 생각해요. Mini Pupper bringup 런치 파일의 예시에서 보여주는 것처럼요:
 
 ```js
-use_sim_time = LaunchConfiguration('use_sim_time')
+use_sim_time = LaunchConfiguration("use_sim_time");
 use_sim_time_launch_arg = DeclareLaunchArgument(
-    name='use_sim_time',
-    default_value='False',
-    description='Use simulation (Gazebo) clock if true'
-)
+  (name = "use_sim_time"),
+  (default_value = "False"),
+  (description = "Use simulation (Gazebo) clock if true")
+);
 
-hardware_connected = LaunchConfiguration("hardware_connected")
+hardware_connected = LaunchConfiguration("hardware_connected");
 hardware_connected_launch_arg = DeclareLaunchArgument(
-    name='hardware_connected',
-    default_value='True',
-    description='Set to true if connected to a physical robot'
-)
+  (name = "hardware_connected"),
+  (default_value = "True"),
+  (description = "Set to true if connected to a physical robot")
+);
 ```
 
 이렇게 함께 묶으면 코드가 깔끔하고 명확하게 보이죠. LaunchConfiguration 생성자는 실제로 기본 매개변수를 수용하지만, 사용을 권하지 않습니다. 우리는 LaunchConfiguration에서는 설정된 기본 값을 사용하지 말아야 하며, DeclareLaunchArgument에서만 기본 값을 설정해야 해요. LaunchConfiguration은 런치 파일 내에서 값을 사용하기 위해 런치 인자의 값을 획득하는 데 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 콘솔에 대체값 출력하는 방법
 
@@ -75,7 +104,18 @@ Python의 print 함수를 사용하면 문자열과 같은 원래 변수를 쉽�
 
 LaunchConfiguration, PathJoinSubstitution 또는 PythonExpression과 같은 종류의 Substitution을 로깅하려면 launch.actions.LogInfo를 사용해야 합니다. rviz2를 위한 런치 파일 예시에서 변수 rviz_config_path의 정확한 값을 알고 싶은 경우를 살펴봅니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import launch
@@ -123,8 +163,18 @@ Mini Pupper has 4 legs
 
 ## 결론
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사는 ROS 2 Python 런치 파일 작성의 까다로운 측면 중 일부를 탐색했는데, 특히 DeclareLaunchArgument와 LaunchConfiguration에 초점을 맞추고, 디버깅 목적으로 콘솔에 대체 값을 인쇄하는 방법을 다뤘습니다. 이러한 개념을 이해하는 것은 서로 다른 시나리오에 쉽게 적용할 수 있는 견고하고 유연한 런치 파일을 작성하는 데 중요합니다.
 

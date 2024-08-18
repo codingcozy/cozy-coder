@@ -3,17 +3,13 @@ title: "Kotlin 시일드 클래스Sealed Classes 완벽 가이드"
 description: ""
 coverImage: "/assets/img/2024-07-10-KotlinSealedclasses_0.png"
 date: 2024-07-10 01:53
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-10-KotlinSealedclasses_0.png
 tag: Tech
 originalTitle: "Kotlin Sealed classes"
 link: "https://medium.com/@guruprasadhegde4/kotlin-sealed-classes-9dcb75dea0df"
 isUpdated: true
 ---
-
-
-
-
 
 이미지 링크는 아래와 같이 표기해주세요.
 
@@ -29,7 +25,18 @@ sealed class ClassName {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 주요 특징
 
@@ -44,18 +51,40 @@ sealed class ClassName {
 sealed class UserEvent {
 
     data object LoginClicked : UserEvent()
-    
+
     data object LogOutCLicked : UserEvent()
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 질문이 있으신가요? Sealed 클래스를 사용하면 사용자 동작 종류에 따라 작업을 수행해야 할 때 UserEvent의 가능성이 두 가지로 소진되고 UserEvent 인스턴스가 정확히 두 옵션 중 하나임을 확인할 수 있습니다.
 
-만약 sealed 클래스를 사용하지 않으면 가능성이 두 개 이상으로 소진되고 else 문을 포함해야 합니다. 
+만약 sealed 클래스를 사용하지 않으면 가능성이 두 개 이상으로 소진되고 else 문을 포함해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 만일 sealed 클래스가 없다면 가능성을 모두 다 다룬(exhaust) 것이 없습니다.
 
@@ -71,7 +100,18 @@ sealed class UserEvent {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 fun main() {
@@ -92,7 +132,18 @@ Similar to that, in your program, it's beneficial to cover all possibilities to 
 
 This is why sealed classes are necessary in your code.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 생성자
 
@@ -113,7 +164,18 @@ sealed class HttpMethod {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 HttpMethod은 우리의 sealed 클래스입니다.
@@ -127,14 +189,26 @@ Delete은 특정 데이터가 필요하지 않기 때문에 객체입니다.
 만약 위 예제에서 Post 인스턴스의 생성을 특정 모듈 내에서만 허용하게 제한하고 싶다면, 생성자를 internal로 선언할 수 있습니다.
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **Markdown 코드:**
+
 ```kotlin
 sealed class HttpMethod {
 
     class Success internal constructor(val path: String): HttpMethod()
-    
+
     class Failure : HttpMethod()
 }
 ```
@@ -146,8 +220,18 @@ Enum과 sealed 클래스는 고정된 값 집합을 표현하는 데 일부 유�
 시나리오: 결제 방법 모델링
 전자 상거래 앱을 구축하고 다양한 결제 방법을 나타내야 한다고 상상해보십시오. Enum을 사용하여 사용 가능한 옵션을 정의할 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 각 결제 방법마다 연관된 특정 데이터가 있을 수 있습니다. 여기서 sealed 클래스가 필요하게 됩니다.
 
@@ -186,7 +270,18 @@ fun main() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **조합하기**
 
@@ -248,6 +343,17 @@ enums와 sealed classes를 결합하여 복잡한 데이터 모델을 구조화�
 
 자세한 정보는 공식 사이트를 방문해보세요: [Kotlin 공식 문서 - Sealed Classes](https://kotlinlang.org/docs/sealed-classes.html#inheritance)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 행운을 빕니다!!

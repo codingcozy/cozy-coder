@@ -3,17 +3,13 @@ title: "사이드 허슬 구축을 위한 10가지 ChatGPT 프롬프트 템플�
 description: ""
 coverImage: "/assets/img/2024-06-23-10ChatGPTPromptTemplatesForBuildingSideHustles_0.png"
 date: 2024-06-23 19:14
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-10ChatGPTPromptTemplatesForBuildingSideHustles_0.png
 tag: Tech
 originalTitle: "10 ChatGPT Prompt Templates For Building Side Hustles"
 link: "https://medium.com/@slakhyani20/10-chatgpt-prompt-templates-for-building-side-hustles-4876083b2eae"
 isUpdated: true
 ---
-
-
-
-
 
 요즘 사람들은 부가 수입을 원합니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![ChatGPT Prompt Templates](/assets/img/2024-06-23-10ChatGPTPromptTemplatesForBuildingSideHustles_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 수익성 높은 부업 기회를 식별하기
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 당신은 전문 비즈니스 코치입니다. 저는 [바로 문제에 대한 자세한 배경 설명을 포함하여 직면한 문제를 언급합니다]. [특정 시장 또는 분야]에서 부업 아이디어를 검증하고 싶습니다. 시장 조사를 수행하는 단계적인 프로세스를 개요하고, 분석해야 할 주요 지표, 데이터 수집 방법, 그리고 결과를 해석하는 방법을 설명해주실 수 있을까요? 결과물이 [자세한 예를 들어 어떻게 되었으면 하는지를 언급합니다].
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비즈니스 계획 수립하기
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 당신은 전문 비즈니스 코치입니다. 저는 [배경 내용과 함께 직면한 문제를 자세히 언급하세요]. [특정 산업이나 특정 분야]에서 나의 부업을 위해 강력한 온라인 존재감을 구축하는 방법은 무엇인가요? 웹사이트 설정, SEO 최적화, 소셜 미디어 프로필 작성 및 온라인 커뮤니티 구축 전략에 대한 상세 가이드를 제공해주세요. 출력물은 [예시를 들어 자세히 설명하세요] 해 주시기 바랍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가격 전략과 이윤 마진
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 당신은 전문 비즈니스 코치입니다. [면책 조항으로 자세한 문제를 설명하십시오]. 사이드 허슬 [제품/서비스 설명]를 [특정 대상 고객군을 명시하십시오]에게 홍보하기 위한 효과적인 마케팅 전략을 제안해 줄 수 있나요? 온라인과 오프라인 전술을 모두 포함하며 비용 효율적인 방법과 효과 측정 방법에 중점을 두어 주실 수 있나요? 결과물을 [예시와 함께 자세히 원하는 방법을 언급하십시오].
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시간 관리와 생산성 관리
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 당신은 전문 비즈니스 코치입니다. 저는 [배경 내용과 함께 직면한 문제에 대해 자세히 언급합니다]. [비즈니스를 설명하는 부업]을 확장하여 더 많은 수익을 창출하고 싶습니다. 제품 라인 또는 서비스 확장, 새로운 시장 진출, 자동화 도구, 그리고 고용 또는 외주화 작업을 포함한 상세한 성장 전략을 개요로 제시해 주실 수 있나요? 저는 [예시와 함께 원하는 결과물에 대해 자세히 언급해 주세요].
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 법적 및 재무 고려 사항
 
@@ -73,7 +124,18 @@ isUpdated: true
 
 당신은 전문 비즈니스 코치입니다. 저는 [배경 문맥과 함께 직면한 문제를 자세히 언급합니다]. 내 부업 [비즈니스 설명] 운영을 간소화하는 데 도움이 될 수 있는 기술 도구 및 플랫폼을 추천해주실 수 있나요? 프로젝트 관리, 고객 관계 관리 (CRM), 회계 및 온라인 마케팅을 위한 도구에 대해 자세한 설명을 제공해주세요. 제가 바라는 것은 [예시를 포함하여 자세히 언급].
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 내용이 도움이 되었으면 좋겣네요.
 

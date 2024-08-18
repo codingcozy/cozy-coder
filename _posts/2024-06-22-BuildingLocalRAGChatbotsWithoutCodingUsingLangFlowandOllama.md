@@ -3,17 +3,13 @@ title: "LangFlow와 Ollama로 코딩 없이 로컬 RAG 챗봇 만들기 방법"
 description: ""
 coverImage: "/assets/img/2024-06-22-BuildingLocalRAGChatbotsWithoutCodingUsingLangFlowandOllama_0.png"
 date: 2024-06-22 20:49
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-BuildingLocalRAGChatbotsWithoutCodingUsingLangFlowandOllama_0.png
 tag: Tech
 originalTitle: "Building Local RAG Chatbots Without Coding Using LangFlow and Ollama"
 link: "https://medium.com/towards-data-science/building-local-rag-chatbots-without-coding-using-langflow-and-ollama-60760e8ed086"
 isUpdated: true
 ---
-
-
-
-
 
 ⁤스마트 챗봇을 만드는 데 수개월의 코딩이 필요했던 시절을 기억하나요?
 
@@ -23,9 +19,20 @@ LangChain과 같은 프레임워크는 개발을 간소화했지만, 수백 줄�
 
 ![image](/assets/img/2024-06-22-BuildingLocalRAGChatbotsWithoutCodingUsingLangFlowandOllama_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-그때 "Lang Flow"를 발견했어요. 이 오픈 소스 패키지는 Python 버전의 LangChain을 기반으로 구축되었습니다. 코드를 한 줄도 쓰지 않고 AI 애플리케이션을 만들 수 있게 해줘요. 챗봇을 만들기 위해 컴포넌트들을 끌어다가 캔버스에서 연결하기만 하면 돼요. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+그때 "Lang Flow"를 발견했어요. 이 오픈 소스 패키지는 Python 버전의 LangChain을 기반으로 구축되었습니다. 코드를 한 줄도 쓰지 않고 AI 애플리케이션을 만들 수 있게 해줘요. 챗봇을 만들기 위해 컴포넌트들을 끌어다가 캔버스에서 연결하기만 하면 돼요.
 
 이 게시물에서는 LangFlow를 사용해서 몇 분 안에 스마트 AI 챗봇 프로토타입을 만들 거에요. 백엔드로는 Ollama를 사용하여 임베딩 모델과 대형 언어 모델을 사용할 거에요. 이렇게 하면 응용프로그램을 로컬에서 무료로 실행할 수 있어요! 마지막으로 이 흐름을 최소한의 코딩으로 Streamlit 애플리케이션으로 변환할 거에요.
 
@@ -33,7 +40,18 @@ LangChain과 같은 프레임워크는 개발을 간소화했지만, 수백 줄�
 
 이 프로젝트에서는 AI 챗봇을 만들어보려고 해요. "Dinnerly - 당신의 건강한 요리 플래너" 라고 이름 붙여보죠. 이 챗봇은 건강한 요리 레시피를 추천하는 것을 목표로 합니다. 이를 위해 RAG(Retrieval Augmented Generation)를 사용하여 레시피 PDF 파일에서 추출할 거에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떻게 이를 실현할 것인지에 대해 들어가기 전에 프로젝트에서 사용할 핵심 재료를 빠르게 살펴보겠습니다.
 
@@ -43,9 +61,21 @@ RAG(검색 증강 생성)은 대형 언어 모델 (LLMs)이 외부 소스에서 
 
 RAG 파이프라인에는 일반적으로 '검색 증강 생성 안내서'에 설명된대로 다음 단계가 포함됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 “
+
 - 문서 로드: 문서 또는 데이터 원본을 먼저로드하십시오.
 - 청크로 분할: 문서를 관리하기 쉬운 부분으로 나누십시오.
 - 임베딩 생성: 임베딩을 사용하여 이러한 청크를 벡터 표현으로 변환하십시오.
@@ -54,11 +84,22 @@ RAG 파이프라인에는 일반적으로 '검색 증강 생성 안내서'에 �
 - 벡터 데이터베이스에서 의미 검색: 사용자 쿼리를 기반으로 의미 검색을 수행하기 위해 벡터 데이터베이스에 연결하십시오.
 - 응답 검색 및 처리: 관련 응답을 가져와 LLM을 통과시키고 답변을 생성하십시오.
 - 사용자에게 답변 전달: LLM에 의해 생성된 최종 출력물을 사용자에게 제공하십시오.
-”
+  ”
 
 ## Langchain
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LLMs을 중심으로 만들어진 오픈 소스 프레임워크인 LangChain은 챗봇, 요약 등 다양한 GenAI 응용 프로그램의 설계와 개발을 용이하게 합니다.
 
@@ -68,7 +109,18 @@ LLMs을 중심으로 만들어진 오픈 소스 프레임워크인 LangChain은 
 
 ## LangFlow
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LangFlow은 LangChain을 위해 특별히 설계된 웹 도구입니다. 사용자가 코딩없이 LangChain 애플리케이션을 구축하고 테스트할 수 있는 사용자 인터페이스를 제공합니다. 간단히 구성 요소를 끌어다 놓기만 하면 됩니다.
 
@@ -78,8 +130,18 @@ Ollama
 
 Ollama은 오픈 소스 LLM을 사용하기 위한 최고이자 가장 쉬운 방법입니다. Llama 2 및 Mistral과 같은 가장 강력한 LLM을 지원하며, ollama.ai/library에서 사용 가능한 모델 목록을 찾을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Ollama setup](/assets/img/2024-06-22-BuildingLocalRAGChatbotsWithoutCodingUsingLangFlowandOllama_2.png)
 
@@ -89,8 +151,18 @@ Ollama은 오픈 소스 LLM을 사용하기 위한 최고이자 가장 쉬운 �
 
 먼저 Ollama 다운로드 페이지로 이동하여 사용 중인 운영 체제와 일치하는 버전을 선택한 후 다운로드하고 설치하세요.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Ollama를 설치한 후에 명령 터미널을 열고 다음 명령을 입력하세요. 이 명령들은 모델을 다운로드하고 로컬 머신에서 실행할 것입니다.
 
@@ -105,7 +177,18 @@ ollama run llama2
 
 # LangFlow 설정하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 준비 사항
 
@@ -115,7 +198,18 @@ LangFlow 설치
 
 이제 LangFlow를 설치해 봅시다. 가상 환경 내에서 설치하는 것을 권장합니다. 이 방법을 사용하면 종속성을 깔끔하게 자체 공간 내에서 관리할 수 있습니다. 저는 Mac에서 Conda를 사용하여 설정합니다. 명령 줄 터미널에 다음 명령을 입력하여 "langflow"라는 가상 환경을 만들고 Python 3.11을 설정하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 conda create -n langflow python=3.11
@@ -133,8 +227,18 @@ pip install langflow
 
 설치를 마치면 LangFlow를 시작하는 것은 매우 간단합니다. 터미널에 "langflow run"을 입력하기만 하면 돼요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![](/assets/img/2024-06-22-BuildingLocalRAGChatbotsWithoutCodingUsingLangFlowandOllama_3.png)
 
@@ -144,8 +248,18 @@ pip install langflow
 
 # 챗봇 플로우 디자인하기
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째 플로우를 만드는 시간이군요!
 
@@ -161,7 +275,18 @@ pip install langflow
 - 대화 기억: 챗봇이 채팅 기록을 유지하도록 하는 기능으로 "ConversationBufferMemory"를 사용할 것입니다.
 - 대화 검색 체인: LLM, 메모리, 검색된 텍스트 등과 같은 다양한 구성 요소를 연결하여 응답을 생성하는 기능입니다. "ConversationRetrievalChain"이 우리의 선택입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 캔버스로 모든 구성 요소를 끌어다 놓고 PDF 파일 경로 및 LLM 모델 이름과 같은 필수 필드를 설정하세요. 나머지 설정은 기본값으로 두어도 괜찮습니다.
 
@@ -171,7 +296,18 @@ pip install langflow
 
 흐름을 성공적으로 컴파일한 후, "챗봇" 아이콘을 클릭하여 생성물을 테스트해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-BuildingLocalRAGChatbotsWithoutCodingUsingLangFlowandOllama_5.png" />
 
@@ -185,7 +321,18 @@ pip install langflow
 
 # 플로우를 스트림릿 챗봇으로 변환하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 플로우가 완벽하게 설정되었다면, 애플리케이션에 통합할 시간입니다. 플로우를 구축한 후에는 LangFlow가 필요한 코드 조각을 제공하여 쉽게 만들어줍니다. 사이드바에서 "코드" 버튼을 누르기만 하면 됩니다.
 
@@ -195,12 +342,23 @@ pip install langflow
 
 - 종속성 설정: 시작하기 전에 종속성을 설치해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 pip install streamlit
 pip install langflow
-pip install langchain-community 
+pip install langchain-community
 ```
 
 2. Lang Flow 코드 스니펫 가져오기: "app.py"라는 새로운 Python 파일을 만듭니다. LangFlow UI로 돌아가 "Code" 버튼을 다시 찾습니다. "Python API" 탭으로 이동하여 코드 스니펫을 복사하고 "app.py"에 붙여넣습니다.
@@ -245,7 +403,18 @@ def run_flow(inputs: dict, flow_id: str, tweaks: Optional[dict] = None) -> dict:
 
 3. 채팅 기능 구현: 같은 Python 파일에서 사용자의 새로운 쿼리마다 응답을 가져오기 위해 플로우를 실행하는 함수를 정의합니다. 그런 다음 이 응답을 인터페이스에 스트리밍합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 def chat(prompt: str):
@@ -335,8 +504,18 @@ if prompt:
 
 Streamlit 앱을 실행하면 자체 요리 플래너와 채팅할 수 있습니다! 맛있고 건강한 요리를 만드는 데 도움이 됩니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마크다운 형식으로 표 태그를 변경하십시오.
 
@@ -346,7 +525,18 @@ Tips:
 
 <img src="/assets/img/2024-06-22-BuildingLocalRAGChatbotsWithoutCodingUsingLangFlowandOllama_8.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 마무리 생각
 
@@ -356,7 +546,18 @@ Tips:
 
 그러나 아직 개발 중인 구성 요소가 있으며 때로는 예상대로 작동하지 않을 수 있음을 언급할 가치가 있습니다. 이러한 순간이 발생할 때 문제에 대한 가시성이나 문제 해결에 대한 안내가 부족할 수 있습니다. 또 다른 개선 사항으로는 Python 코드를 직접 제공하여 더 많은 사용자 정의를 제공하는 것이 있을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LangFlow은 빠른 프로토타이핑 필요에 유용한 도구라고 생각해요.
 
@@ -367,7 +568,18 @@ LangFlow은 빠른 프로토타이핑 필요에 유용한 도구라고 생각해
 - 약간의 Medium 사랑을 보내주세요 💕(박수, 댓글 및 하이라이트), 여러분의 지원은 저에게 큰 힘이 됩니다.👏
 - Medium에서 저를 팔로우하고 최신 기사를 받아보세요🫶
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 참고
 

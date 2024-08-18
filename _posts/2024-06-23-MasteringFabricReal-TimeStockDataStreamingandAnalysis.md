@@ -3,18 +3,13 @@ title: "Fabric 완벽 마스터하기 실시간 주식 데이터 스트리밍 �
 description: ""
 coverImage: "/assets/img/2024-06-23-MasteringFabricReal-TimeStockDataStreamingandAnalysis_0.png"
 date: 2024-06-23 16:20
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-MasteringFabricReal-TimeStockDataStreamingandAnalysis_0.png
 tag: Tech
 originalTitle: "Mastering Fabric: Real-Time Stock Data Streaming and Analysis"
 link: "https://medium.com/@dataninsight/mastering-fabric-real-time-stock-data-streaming-and-analysis-ad72d23d011a"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![2024-06-23-MasteringFabricReal-TimeStockDataStreamingandAnalysis_0.png](/assets/img/2024-06-23-MasteringFabricReal-TimeStockDataStreamingandAnalysis_0.png)
 
@@ -27,8 +22,18 @@ isUpdated: true
 - Power BI
 - KQL Query
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-23-MasteringFabricReal-TimeStockDataStreamingandAnalysis_1.png)
 
@@ -39,7 +44,18 @@ isUpdated: true
 1. Microsoft Fabric에 로그인: Microsoft Fabric에 로그인하고 Power BI를 선택합니다.
 2. 워크스페이스 생성: 메뉴 바에서 Workspaces를 선택하고 자신이 원하는 이름으로 새 워크스페이스를 만들어 Fabric 용량(Trial, Premium, 또는 Fabric)이 있는지 확인하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 실시간 인텔리전스 기능 활성화: 파워 BI 포털의 왼쪽 하단에 있는 파워 BI 아이콘을 선택하고 실시간 인텔리전스 경험으로 전환하세요.
 
@@ -50,7 +66,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-23-MasteringFabricReal-TimeStockDataStreamingandAnalysis_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. 이벤트스트림 만들기: 리얼타임 인텔리전스 메뉴에서 이벤트스트림(미리보기)를 선택하고 이름을 지정하세요. Microsoft Fabric의 이벤트스트림은 코드를 필요로하지 않고 실시간 이벤트를 캡처하고 변환하여 다양한 대상으로 라우팅합니다.
 
@@ -62,7 +89,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-23-MasteringFabricReal-TimeStockDataStreamingandAnalysis_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-23-MasteringFabricReal-TimeStockDataStreamingandAnalysis_4.png" />
 
@@ -73,37 +111,59 @@ isUpdated: true
 
 7. **이벤트 변환**: Eventstream 캔버스에서 그룹화와 같은 변환 이벤트를 추가하고 필요에 맞게 구성합니다. 해당 이벤트를 이벤트 스트림에 연결하고 변경 사항을 발행합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## KQL을 사용하여 데이터 분석하기
 
 Kusto Query Language (KQL)은 KQL 데이터베이스에서 데이터를 조회하는 데 사용됩니다. 주식 데이터를 분석하는 몇 가지 예시 쿼리가 있습니다:
 
 - 평균 매수-매도 스프레드
-StockData_Table
-| extend bidPrice = todouble(bidPrice), askPrice = todouble(askPrice)
-| extend BidAskSpread = askPrice — bidPrice
-| summarize AvgBidAskSpread = round(avg(BidAskSpread),2) by symbol
+  StockData_Table
+  | extend bidPrice = todouble(bidPrice), askPrice = todouble(askPrice)
+  | extend BidAskSpread = askPrice — bidPrice
+  | summarize AvgBidAskSpread = round(avg(BidAskSpread),2) by symbol
 - 평균 거래량
-StockData_Table
-| extend volume = todouble(volume)
-| summarize AvgVolume = round(avg(volume),2) by symbol
+  StockData_Table
+  | extend volume = todouble(volume)
+  | summarize AvgVolume = round(avg(volume),2) by symbol
 - 가격 변동률
-StockData_Table
-| extend lastSalePrice = todouble(lastSalePrice)
-| order by symbol, ['time'] asc
-| extend PrevPrice = prev(lastSalePrice, 1)
-| where isnotnull(PrevPrice)
-| extend PriceChangePercent = ((lastSalePrice — PrevPrice) / PrevPrice) * 100
-| summarize AvgPriceChangePercent = round(avg(PriceChangePercent),2) by symbol
+  StockData_Table
+  | extend lastSalePrice = todouble(lastSalePrice)
+  | order by symbol, ['time'] asc
+  | extend PrevPrice = prev(lastSalePrice, 1)
+  | where isnotnull(PrevPrice)
+  | extend PriceChangePercent = ((lastSalePrice — PrevPrice) / PrevPrice) \* 100
+  | summarize AvgPriceChangePercent = round(avg(PriceChangePercent),2) by symbol
 - 시장 점유율 백분율
-StockData_Table
-| extend marketPercent = todouble(marketPercent)
-| summarize AvgMarketSharePercent = avg(marketPercent) by symbol
+  StockData_Table
+  | extend marketPercent = todouble(marketPercent)
+  | summarize AvgMarketSharePercent = avg(marketPercent) by symbol
 
 <img src="/assets/img/2024-06-23-MasteringFabricReal-TimeStockDataStreamingandAnalysis_5.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 시각화를 위한 Power BI 활용
 

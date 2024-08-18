@@ -3,17 +3,13 @@ title: "ESP8266 JSON 데이터 다루기"
 description: ""
 coverImage: "/assets/img/2024-05-27-ESP8266HandlingdatainJSON_0.png"
 date: 2024-05-27 13:17
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-ESP8266HandlingdatainJSON_0.png
 tag: Tech
 originalTitle: "ESP8266: Handling data in JSON"
 link: "https://medium.com/@punnyarthabanerjee/esp8266-handling-data-in-json-7c6f62c9062e"
 isUpdated: true
 ---
-
-
-
-
 
 ![ESP8266 handling data in JSON](/assets/img/2024-05-27-ESP8266HandlingdatainJSON_0.png)
 
@@ -23,9 +19,18 @@ ESP8266는 가장 많이 사용되는 WiFi 마이크로컨트롤러 보드 중 �
 
 # 먼저 해야 할 일
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![ESP8266HandlingdatainJSON](/assets/img/2024-05-27-ESP8266HandlingdatainJSON_1.png)
 
@@ -35,8 +40,18 @@ ESP8266는 가장 많이 사용되는 WiFi 마이크로컨트롤러 보드 중 �
 
 또한 REST API 및 그들이 어떻게 만들어지는지에 대해 알고 있는 것이 도움이 될 것입니다. 저는 대부분 Node, FastAPI 및 Django로 REST API를 작성했습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최신 Arduino IDE를 다운로드하고 설치한 후, 이렇게 보일 것입니다.
 
@@ -46,7 +61,18 @@ ESP8266는 가장 많이 사용되는 WiFi 마이크로컨트롤러 보드 중 �
 
 Arduino JSON을 입력하고 라이브러리를 설치하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [참고: 이 작업에는 여러 라이브러리가 있지만, 나는 Benoit의 것을 선호합니다]
 
@@ -56,7 +82,18 @@ Arduino JSON을 입력하고 라이브러리를 설치하세요.
 
 esp8266을 입력하고 보드를 설치하십시오.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 모든 준비가 끝났으니 코딩을 시작할 수 있어요.
 
@@ -66,7 +103,18 @@ esp8266을 입력하고 보드를 설치하십시오.
 
 이 튜토리얼에서는 제 보드를 스테이션으로 간주하고 집 WiFi 라우터에 연결할 거에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컴퓨터에 보드를 연결하세요.
 
@@ -80,7 +128,18 @@ esp8266을 입력하고 보드를 설치하십시오.
 
 그런 다음 집 WiFi의 이름과 암호를 정의하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 #define SSID "당신의_와이파이_이름"
@@ -95,7 +154,18 @@ ESP8266WebServer server(80); // 포트 80을 사용하며, 다른 포트를 사�
 
 그런 다음, 설정 메서드를 작성하기 시작합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 설정 메소드에서 먼저 WiFi에 연결해보세요.
 
@@ -116,8 +186,18 @@ void setup(){
 
 출력 내용은 Ctrl + Shift + M을 누르거나 도구 탭을 통해 시리얼 모니터에서 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Server Setup](/assets/img/2024-05-27-ESP8266HandlingdatainJSON_4.png)
 
@@ -144,7 +224,18 @@ void setup() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 루프 함수
 
@@ -158,7 +249,18 @@ void loop() {
 
 위 코드 조각에서 본 "sendData" 함수를 만들어봐요. 이 함수는 서버로 GET 요청을 처리하고 JSON 메시지로 응답합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 void sendData(){
@@ -180,7 +282,18 @@ void sendData(){
 
 우리는 서버에 POST 요청을 보낼 때 처리할 "receiveData" 함수를 작성합시다. 이 함수는 서버로 JSON을 보내고, 서버는 문자열에서 숫자를 파싱하고 해당 숫자를 응답으로 보냅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희 요청 바디는 이렇게 생겼을 거에요
 
@@ -216,7 +329,18 @@ void receiveData(){
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 Esp8266에서 JSON 객체를 직렬화하고 역질렬화하는 방법을 알게 되었어요!
 
@@ -290,7 +414,18 @@ void loop() {
 
 ## 파트 3: 테스트해보세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제가 매우 편리한 VS-Code 확장 프로그램인 ThunderClient를 사용하여 요청을 보내고 있어요.
 
@@ -300,8 +435,18 @@ void loop() {
 
 2. 역직렬화 확인
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-05-27-ESP8266HandlingdatainJSON_6.png)
 
@@ -311,8 +456,18 @@ void loop() {
 
 # Final Words
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ESP 모듈로 할 수 있는 가능성은 무한합니다. 아티클을 좋아해 주셨기를 바랍니다.
 

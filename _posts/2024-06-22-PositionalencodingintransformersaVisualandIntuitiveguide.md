@@ -3,17 +3,13 @@ title: "트랜스포머의 위치 인코딩 시각적이고 직관적인 가이�
 description: ""
 coverImage: "/assets/img/2024-06-22-PositionalencodingintransformersaVisualandIntuitiveguide_0.png"
 date: 2024-06-22 20:12
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-PositionalencodingintransformersaVisualandIntuitiveguide_0.png
 tag: Tech
 originalTitle: "Positional encoding in transformers: a Visual and Intuitive guide"
 link: "https://medium.com/@gunjassingh/positional-encoding-in-transformers-a-visual-and-intuitive-guide-0761e655cea7"
 isUpdated: true
 ---
-
-
-
-
 
 이 글에서는 Transformer 모델의 변형적인 힘을 탐구할 것이며, 특히 위치 인코딩을 통해 그 힘을 조명할 것입니다. GPT, DALL-E, SORA와 같은 혁신적인 AI 모델의 기술인 트랜스포머는 기계가 인간과 유사한 텍스트와 이미지를 이해하고 생성하는 방법을 혁신적으로 바꾸었습니다. 이러한 모델의 핵심에는 "Attention is All You Need"라는 선행 논문에서 소개된 위치 인코딩 개념이 있습니다. 이 방법은 순환 구조 없이 데이터의 순서를 유지하는 데 중요한 역할을 합니다. 우리는 왜 저자들이 사인 함수 위치 인코딩을 선택했는지 그리고 이 선택 뒤에 있는 수학적 프레임워크와 직관적 이유를 자세히 알아볼 것입니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 RNN이나 LSTM과 같은 다른 순차 처리 모델과는 달리 트랜스포머는 데이터를 순서대로 처리하지 않습니다. 따라서 입력 데이터의 순서 또는 '위치 정보'를 통합해야 합니다. 이것이 위치 인코딩이 필요한 이유입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 트랜스포머가 작동하는 기본 아이디어에 대해 간단히 알고 있으면 좋겠네요. 알지 못한다면, 3Blue1Brown의 어텐션에 대한 비디오를 추천드립니다. 이 비디오에서 이해해야 할 점은 각 "토큰"이 해당되는 벡터를 가지고 있다는 것이며, 이 벡터는 주변 토큰이나 단어를 주의 깊게 살피면 변경되거나 변형된다는 것입니다. 이를 알고 있다면, 이 비디오 뒤로 바로 넘어갈 수 있습니다.
 
@@ -33,7 +40,18 @@ RNN이나 LSTM과 같은 다른 순차 처리 모델과는 달리 트랜스포�
 
 위치 인코딩에 대한 순진한 접근 방식을 살펴보겠습니다. 각 단어의 위치에 따라 고유한 식별자를 할당한다고 가정해봅시다. 예를 들어, 0부터 7까지의 순서 위치에 대해 0, 1, 2, 3, 4, 5, 6, 7의 숫자를 사용할 수 있고, 이를 [P_i]로 표현할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단한 숫자 0부터 7을 위치 인코딩으로 사용하는 것은 직접적으로 보이지만, 이 방법은 모델에게 혼란을 줄 수 있습니다. 이 방식은 이러한 위치를 숫자 값으로 취급하여 의도하지 않은 중요도나 크기 순서를 나타낼 수 있습니다. 이로 인해 모델이 순서를 해석하는 방법에 편향이 발생할 수 있습니다. 다음 해야 할 단계는 명백합니다. 정규화하자!
 
@@ -43,7 +61,18 @@ RNN이나 LSTM과 같은 다른 순차 처리 모델과는 달리 트랜스포�
 
 ![이미지](/assets/img/2024-06-22-PositionalencodingintransformersaVisualandIntuitiveguide_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 정규화는 시퀀스 길이를 기준으로 모든 위치 부호화를 조정합니다. 예를 들어, 8단어 문장에서 7번째 위치는 7/7 또는 1로 부호화되고 0번째 위치는 0/7 또는 0으로 부호화됩니다.
 
@@ -53,7 +82,18 @@ RNN이나 LSTM과 같은 다른 순차 처리 모델과는 달리 트랜스포�
 
 이것은 어떤 길이의 시퀀스라도 균일하게 처리하고 일관된 관계를 유지할 수 있는 더 견고한 위치 부호화 방법이 필요함을 강조합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 단계는 무엇일까요? 이번에는 숫자를 이진수로 표현해 보는 것을 시도해 봅시다.
 
@@ -63,7 +103,18 @@ RNN이나 LSTM과 같은 다른 순차 처리 모델과는 달리 트랜스포�
 
 ![](/assets/img/2024-06-22-PositionalencodingintransformersaVisualandIntuitiveguide_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 방법은 순진한 숫자 접근법과 비교하여 위치를 인코딩하는 데 더 적은 차원을 사용하기 때문에 영리해 보입니다. 그러나 다른 문제가 생깁니다 — 불연속성. 첫 4단어를 살펴보겠습니다 —
 
@@ -73,7 +124,18 @@ RNN이나 LSTM과 같은 다른 순차 처리 모델과는 달리 트랜스포�
 
 그럼 이들을 그래프로 표현해 보겠습니다 —
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Positional encoding in transformers: a Visual and Intuitive guide](/assets/img/2024-06-22-PositionalencodingintransformersaVisualandIntuitiveguide_5.png)
 
@@ -85,7 +147,18 @@ RNN이나 LSTM과 같은 다른 순차 처리 모델과는 달리 트랜스포�
 - 위치 인코딩의 연속성은 모델이 본 적이 없는 위치에 더 잘 일반화하도록 돕습니다. 연속적인 인코딩 체계는 수치적으로 가까운 위치가 비슷한 표현을 받도록 보장하여 모델이 여러 위치에 걸쳐 된 패턴을 이해하는 데 도움이 됩니다.
 - 이진 방법에서 각 위치는 고유한 표현을 갖지만 부드러운 전환의 부재는 모델이 내삽하고 유용한 위치 정보를 추출하는 능력을 방해할 수 있습니다. 이는 부드럽고 연속적인 인코딩의 혜택이 중요해지는 긴 시퀀스를 다룰 때 특히 두드러집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 따라서, 이진 인코딩은 흥미로운 방법이지만 불연속적인 성격 때문에 중요한 어려움이 있습니다. 각 위치가 고유하게 표현되도록 하는 인코딩 방법이 필요한데, 동시에 유사한 위치가 유사한 인코딩을 가지도록 연속성이 유지되어야 합니다. 이는 모델의 학습과 일반화 능력을 향상시킵니다.
 
@@ -95,8 +168,18 @@ RNN이나 LSTM과 같은 다른 순차 처리 모델과는 달리 트랜스포�
 
 이진 위치 인코딩의 한계를 검토한 후에는 사인파를 사용하는 더 자연스러운 방법을 고려해 봅시다. 각 위치를 사인 곡선으로 표현한다고 상상해보세요. 이를 통해 위치가 증가함에 따라 부드럽고 연속적인 인코딩 변화를 제공할 수 있으며, 이는 모델 학습에 유익합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-22-PositionalencodingintransformersaVisualandIntuitiveguide_6.png)
 
@@ -106,8 +189,18 @@ RNN이나 LSTM과 같은 다른 순차 처리 모델과는 달리 트랜스포�
 
 ![image](/assets/img/2024-06-22-PositionalencodingintransformersaVisualandIntuitiveguide_7.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 직관적으로 첫 번째 사인파는 기본 위치 신호를 제공하며, 다른 주파수의 두 번째 사인파를 추가함으로써 우리는 인코딩이 다르게 진동하도록 허용함으로써 시퀀스를 따라 이동할 때 다르게 진폭된다. 주파수의 변화는 하나의 사인파가 값 반복을 시작해도 두 주파수의 조합이 여전히 고유할 가능성이 높다는 것을 의미합니다.
 
@@ -117,7 +210,18 @@ RNN이나 LSTM과 같은 다른 순차 처리 모델과는 달리 트랜스포�
 
 Vaswani 등이 사용한 위치 인코딩의 "cos" 측면에 대해 들어가기 전에, 직관적인 비유를 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 직관적인 비유들
 
@@ -128,7 +232,18 @@ Vaswani 등이 사용한 위치 인코딩의 "cos" 측면에 대해 들어가기
 - 세 개의 볼륨 조절 다이얼이 있다고 상상해보세요. 각 다이얼은 각각 1, 2, 4 데시벨씩 볼륨을 늘립니다. 이 세 다이얼만 가지고 다양한 설정을 조합하여 0부터 7 데시벨까지의 볼륨 레벨을 만들 수 있습니다. 이는 여러 주파수를 사용하는 것이 우리에게 다양한 위치를 부호화할 수 있는 기회를 준다는 점과 유사합니다. 각 주파수 조절은 다이얼을 돌리는 것처럼, 다차원 공간에서 위치를 부호화할 수 있게 해줍니다. 이를 통해 우리는 만들 수 있는 고유한 위치 특성의 범위를 확장할 수 있습니다.
 - 이 개념을 시각화하는 또 다른 방법은 두 사람이 동일한 말을 하되 서로 다른 주파수로 말하는 상황을 상상해 보는 것입니다. 말의 내용은 같지만 말하는 높이가 다르기 때문에 각각의 목소리에는 독특한 특징이 있습니다. 위치 부호화에서도 동일한 사인파의 주기적 성격으로 인해 '내용' 또는 기본 위치가 반복될 수 있지만, 다른 주파수로부터 나온 다른 사인파를 추가하면 부호화의 '톤'이 달라지게 됩니다. 이로 인해 각 위치는 구별되는 '목소리' 또는 부호화를 가지도록 되어, 일부 기본 위치 값이 반복되어도 모델에서 인식할 수 있게 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 계층 구조 방식은 다양한 위치를 인코딩하는 견고한 프레임워크를 제공하는 것처럼 여러 볼륨 조절기를 사용하거나 서로 다른 음높이의 겹치는 음성을 듣는 것과 유사합니다. 시퀀스 내의 다양한 지점을 보다 정밀하게 구분하여 모델이 각 토큰의 위치적 맥락에 기반하여 일관된 응답을 이해하고 생성할 수 있는 능력을 향상시킵니다.
 
@@ -138,11 +253,33 @@ Vaswani 등이 사용한 위치 인코딩의 "cos" 측면에 대해 들어가기
 
 우리의 위치 인코딩 행렬은 지금까지 논의한 내용에 기반하여 다음과 같습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마크다운 포맷으로 테이블 태그를 변경하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 문장 '나는 오늘 저녁에 축구를 할 예정이에요'로 돌아가 봅시다.
 
@@ -150,7 +287,18 @@ Vaswani 등이 사용한 위치 인코딩의 "cos" 측면에 대해 들어가기
 
 특히 입력 시퀀스의 위치가 약간 변경될 때 이러한 정렬이 효과적으로 작동하려면 위치 인코딩은 매끈하게 조정될 수 있어야 합니다. 여기에서 선형 변환을 사용합니다. 위치의 변경으로 인한 위치 인코딩의 변환이 선형적이라면 모델은 단어와 위치적 맥락 간의 관계를 유지하면서 키와 질문을 쉽게 조정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 수학적으로, 작은 위치 이동 δx에 대해 위치 인코딩 P의 변화는 선형 함수여아 합니다. 이러한 변환은 입력이 약간 다르더라도 문장의 서로 다른 부분 간의 관계가 일관되게 유지되도록 보장합니다. 이 일관성은 트랜스포머가 다른 위치에서 문장 내에서 문법적인 관계를 유지하는 데 중요합니다.
 
@@ -160,8 +308,18 @@ Vaswani 등이 사용한 위치 인코딩의 "cos" 측면에 대해 들어가기
 
 위치 인코딩에서의 선형 변환의 중요성을 이해했으니, 이제 회전 행렬을 사용하여 세 차원에서 이 개념이 어떻게 적용되는지 시각화하고, 이 아이디어를 다시 트랜스포머의 사인 함수 위치 인코딩과 연결해보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-22-PositionalencodingintransformersaVisualandIntuitiveguide_12.png)
 
@@ -171,14 +329,35 @@ Vaswani 등이 사용한 위치 인코딩의 "cos" 측면에 대해 들어가기
 
 이제 이 이해를 우리의 위치 인코딩 행렬에 적용해봅시다. 각 사인 함수를 사인-코사인 쌍으로 대체합니다. 사인과 코사인 함수는 삼각법의 특성을 통해 본질적으로 관련되어 있으며, 마치 회전 행렬의 요소들이 관련되어 있는 것처럼요.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-이제 모두 변경되었습니다 - 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+이제 모두 변경되었습니다 -
 
 ![그림](/assets/img/2024-06-22-PositionalencodingintransformersaVisualandIntuitiveguide_14.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 위치에 대한 독특한 인코딩을 유지하는데 그치지 않고 인코딩이 다차원 공간에 매끄럽게 분산되도록합니다. 이 다차원 분포는 공간에서 회전하는 벡터와 유사하며, 각도(또는 여기서는 위치)의 작은 변화가 벡터(또는 인코딩)의 방향에 예측 가능하고 일관된 변화를 일으킵니다.
 
@@ -188,7 +367,18 @@ Vaswani 등이 사용한 위치 인코딩의 "cos" 측면에 대해 들어가기
 
 여기까지입니다! 우리는 위치 인코딩의 수학적 풍경을 통해 단순한 숫자에서 이진까지의 여정을 함께해왔고, 다중 주파수의 사인파와 코사인파의 파동을 타고 날아다니며 이것들로 단어 시퀀스를 조화롭게 만드는 트랜스포머가 어떻게 작동하는지 확인했습니다. 마치 숙련된 지휘자가 오케스트라를 음악의 심포니를 통해 안내하는 것처럼, 우리는 트랜스포머가 사인파와 코사인파의 우아한 수학을 활용해 단어 시퀀스를 조화롭게 만드는 것을 보았습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위치 인코딩의 목표는 모델이 처리하는 데이터에서 방향감을 제공하는 것입니다. 마치 지도가 여행자를 안내하는 것처럼 말이죠. 사인 함수 위치 인코딩을 사용하여, 데이터 주도형 네비게이터가 자신이 어디에 있는지뿐만 아니라 정보 바다 속으로 향하는 방향까지 파악합니다.
 
@@ -198,6 +388,17 @@ Vaswani 등이 사용한 위치 인코딩의 "cos" 측면에 대해 들어가기
 
 2. Herman Kamper- https://www.kamperh.com/nlp817/notes/11_transformers_notes.pdf
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. Vaswani, Ashish, et al. "Attention is all you need." arXiv preprint arXiv:1706.03762 (2017).

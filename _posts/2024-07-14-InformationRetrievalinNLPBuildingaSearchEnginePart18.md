@@ -3,7 +3,7 @@ title: "NLP 정보 검색 검색 엔진 구축하기 파트 18"
 description: ""
 coverImage: "/assets/img/2024-07-14-InformationRetrievalinNLPBuildingaSearchEnginePart18_0.png"
 date: 2024-07-14 02:12
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-14-InformationRetrievalinNLPBuildingaSearchEnginePart18_0.png
 tag: Tech
 originalTitle: "Information Retrieval in NLP: Building a Search Engine (Part 18)"
@@ -11,13 +11,10 @@ link: "https://medium.com/ai-advances/information-retrieval-in-nlp-building-a-se
 isUpdated: true
 ---
 
-
-
-
-
 ![Image](/assets/img/2024-07-14-InformationRetrievalinNLPBuildingaSearchEnginePart18_0.png)
 
 ## Table of Contents
+
 1. The Evolution of Information Retrieval
 2. Core Principles of Information Retrieval in NLP
    - Understanding Relevance and Precision
@@ -33,7 +30,18 @@ For more in-depth tutorials, visit GPTutorPro. (FREE)
 
 Subscribe for FREE to receive your 42-page e-book: Data Science | The Comprehensive Handbook.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1. 정보 검색의 진화
 
@@ -43,7 +51,18 @@ Subscribe for FREE to receive your 42-page e-book: Data Science | The Comprehens
 
 오늘날 구글과 같은 검색 엔진은 필수적인 존재가 되었으며 관련 결과를 제공하기 위해 복잡한 알고리즘과 정보 검색 기술을 활용합니다. 인간의 언어적 미묘함을 이해하는 데 진화하여 이전보다 더 직관적이고 강력해졌습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2. NLP에서 정보 검색의 주요 원칙
 
@@ -53,7 +72,18 @@ Subscribe for FREE to receive your 42-page e-book: Data Science | The Comprehens
 
 또 다른 중요한 기반은 색인화 전략입니다. 효율적인 색인화는 빠른 검색을 보장합니다. 역색인은 일반적으로 사용되며 용어를 문서 위치에 매핑합니다. 이를 통해 신속한 질의가 가능해지며 대부분의 검색 엔진의 핵심을 이룹니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로, 질의 처리 메커니즘이 검색 요청을 해석하고 실행합니다. 이 과정에는 질의를 구문 분석하고 색인을 검색하며 결과를 순위를 매기는 것이 포함됩니다. TF-IDF와 같은 순위 알고리즘은 문서 내 용어의 중요성을 쿼리에 대한 상대적으로 측정합니다.
 
@@ -63,7 +93,18 @@ Subscribe for FREE to receive your 42-page e-book: Data Science | The Comprehens
 
 적합성과 정밀도를 이해하는 것은 정보 검색 분야에서 중요합니다. 이러한 개념은 효과적인 검색 엔진을 개발하는 데 기초적인 역할을 합니다. 이 무엇을 의미하는지 그리고 왜 중요한지 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 관련성은 검색 결과가 사용자의 질의 의도를 얼마나 잘 충족시키는지를 나타냅니다. 검색된 정보가 사용자의 요구에 적합한지를 측정하는 정도입니다. 반면에 정밀도는 정확성에 관한 것입니다. 모든 검색 문서 집합에서 관련 결과의 비율을 측정합니다.
 
@@ -77,7 +118,18 @@ def calculate_precision(relevant_documents, retrieved_documents):
     return len(relevant_retrieved_documents) / len(retrieved_documents)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 함수는 쿼리와 관련이 있는 문서가 포함된 목록과 검색 엔진에 의해 검색된 문서가 포함된 두 목록을 가져와요. 그런 다음, 정밀도 점수를 반환해요.
 
@@ -87,7 +139,18 @@ def calculate_precision(relevant_documents, retrieved_documents):
 
 효과적인 인덱싱 전략은 어떤 검색 엔진에게도 중요해요. 이는 정보를 얼마나 빠르고 정확하게 검색할 수 있는지를 결정해줘요. 여기에서는 NLP 애플리케이션에서 정보 검색을 향상시키는 주요 인덱싱 기술을 탐구할 거에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 역색인: 대부분의 검색 엔진의 중추 역할을 하는 역색인은 모든 고유한 단어와 데이터 집합 내의 해당 단어의 위치를 나열합니다. 이를 통해 특정 용어를 포함하는 문서를 신속히 검색할 수 있습니다.
 
@@ -107,7 +170,18 @@ def add_to_index(doc_id, text):
 
 불용어 제거: 'the', 'is', 'at'와 같은 흔한 단어들은 색인 과정에서 종종 제외됩니다. 이를 통해 색인 크기가 줄어들고 검색 효율이 향상되지만 관련성은 유지됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 전략을 실행함으로써 당신의 검색 엔진은 복잡한 정보 검색 작업을 처리하는 데 잘 갖추어져 사용자에게 신속하고 정확한 결과를 제공할 것입니다.
 
@@ -117,8 +191,18 @@ def add_to_index(doc_id, text):
 
 먼저, 데이터 저장을 고려해야 합니다. 효율적으로 정보를 저장하고 검색할 수 있는 견고한 데이터베이스가 필요합니다. MongoDB와 같은 NoSQL 데이터베이스는 확장성과 유연성으로 인해 종종 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블을 생성했습니다.
 
@@ -138,8 +222,18 @@ def create_inverted_index(documents):
 
 마지막으로 검색 알고리즘을 개발하세요. 이 알고리즘은 쿼리를 해석하고 가장 관련성 높은 문서를 반환해야 합니다. TF-IDF와 BM25와 같은 알고리즘이 단어 빈도와 문서 관련성을 기반으로 결과를 순위 매기는 데 널리 사용됩니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기억하세요, 성공적인 정보 검색 시스템의 열쇠는 속도와 정확성을 균형있게 유지하는 것입니다. 여러분의 검색 엔진은 지연 없이 관련 결과를 제공해야 합니다.
 
@@ -149,7 +243,18 @@ def create_inverted_index(documents):
 
 불리안 모델: 정보 검색의 가장 간단한 형태입니다. AND, OR, NOT와 같은 논리 연산자를 사용하여 키워드를 결합합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```sql
 SELECT * FROM documents
@@ -180,7 +285,18 @@ cos_sim = cosine_similarity(query_vec, tfidf)
 
 **확률 모델**: 문서가 쿼리와 관련이 있는 확률을 추정합니다. 문서를 순위 매기기 위해 통계적 추론을 사용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기계 학습 모델: 신경망과 같은 고급 알고리즘들이 검색 엔진을 혁신시켰습니다. 이들은 복잡한 질문 의도를 이해합니다.
 
@@ -190,7 +306,18 @@ cos_sim = cosine_similarity(query_vec, tfidf)
 
 부울과 벡터 공간 모델을 이해하는 것은 정보 검색 분야에서 중요합니다. 이 모델들은 많은 검색 엔진 알고리즘의 기본을 형성합니다. 이들의 기능과 응용 분야에 대해 자세히 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 부울 모델은 질의와 일치하는 문서를 찾기 위해 간단한 참 또는 거짓 조건을 사용합니다. 이 모델들은 집합 이론과 AND, OR, NOT과 같은 논리 연산에 기반하고 있어요.
 
@@ -199,7 +326,7 @@ cos_sim = cosine_similarity(query_vec, tfidf)
 ```js
 // JavaScript에서 간단한 부울 검색 함수
 function booleanSearch(query, document) {
-  return query.every(term => document.includes(term));
+  return query.every((term) => document.includes(term));
 }
 ```
 
@@ -212,7 +339,18 @@ def cosine_similarity(doc_vec, query_vec):
     return np.dot(doc_vec, query_vec) / (np.linalg.norm(doc_vec) * np.linalg.norm(query_vec))
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 모델 모두 장단점이 있습니다. 부울 모델은 간단하고 명확하지만, 벡터 공간 모델은 문서 관련성에 대해 더 세밀한 이해를 제공합니다. 이러한 모델을 통합하면 검색 엔진의 성능을 크게 향상시킬 수 있습니다.
 
@@ -222,22 +360,43 @@ def cosine_similarity(doc_vec, query_vec):
 
 이항 독립 모델과 같은 확률 모델은 문서 발생 확률을 사용합니다. 이들은 특정 검색 쿼리에 문서가 관련성이 있는지를 계산합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 예시: 문서 확률 계산하기
-P(D|Q) = (P(Q|D) * P(D)) / P(Q)
 
+P(D|Q) = (P(Q|D) \* P(D)) / P(Q)
 
 기계 학습 모델, 특히 신경망을 사용하는 모델들은 검색 엔진을 혁신적으로 바꿨어. 이들은 대규모 데이터셋에서 학습하여 문서 순위를 더 효과적으로 결정하게 돼.
 
 주요 포인트는 다음과 같아:
+
 - 사용자 의도를 이해하기
 - 사용자 상호작용에서 배우기
 - 더 많은 데이터로 시간이 흐름에 따라 개선해나가기
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 함께, 이러한 모델들은 더 정확한 결과를 제공하여 사용자의 검색 경험을 향상시킵니다.
 
@@ -247,16 +406,26 @@ P(D|Q) = (P(Q|D) * P(D)) / P(Q)
 
 적합성: 검색 결과가 사용자의 질의와 얼마나 일치하는지 측정합니다. 이를 위해 정밀도 및 재현율 지표를 사용하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Python 코드로 정밀도와 재현율 계산하기
-def evaluate_search_results(relevant_documents, retrieved_documents):
-    true_positives = len(relevant_documents.intersection(retrieved_documents))
-    precision = true_positives / len(retrieved_documents)
-    recall = true_positives / len(relevant_documents)
-    return precision, recall
 
+def evaluate_search_results(relevant_documents, retrieved_documents):
+true_positives = len(relevant_documents.intersection(retrieved_documents))
+precision = true_positives / len(retrieved_documents)
+recall = true_positives / len(relevant_documents)
+return precision, recall
 
 **속도:** 결과를 반환하는 데 걸리는 시간을 추적합니다. 사용자들은 일반적으로 몇 초 내에 빠른 응답을 기대합니다.
 
@@ -264,7 +433,18 @@ def evaluate_search_results(relevant_documents, retrieved_documents):
 
 정보 검색 시스템을 정기적으로 테스트하고 업데이트하는 것이 고품질 검색 엔진을 유지하는 핵심입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 6. 정보 검색의 도전과 미래
 
@@ -274,7 +454,18 @@ def evaluate_search_results(relevant_documents, retrieved_documents):
 
 둘째, 언어의 동적성은 맥락과 의미를 이해하는 것이 더 중요해졌습니다. NLP 기술이 사용자 의도를 파악하고 정확한 결과를 제공하는 데 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로, 정보 검색의 미래는 개인화와 사용자 경험에 있습니다. 검색 엔진은 사용자 상호작용에서 배우어 맞춤 결과를 제공하여 전체 검색 경험을 향상시켜야 합니다.
 
@@ -284,6 +475,17 @@ def evaluate_search_results(relevant_documents, retrieved_documents):
 
 지원하기 무료 자습서와 심리 건강 스타트업.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마스터 파이썬, 머신러닝, 딥러닝, 그리고 대규모 언어 모델: E-북 50% 할인 중 (할인코드: RP5JT1RL08)

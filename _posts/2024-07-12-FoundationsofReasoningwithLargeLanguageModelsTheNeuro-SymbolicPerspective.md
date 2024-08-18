@@ -3,17 +3,13 @@ title: "대형 언어 모델의 기초 이해 신경-기호적 관점에서 바�
 description: ""
 coverImage: "/assets/img/2024-07-12-FoundationsofReasoningwithLargeLanguageModelsTheNeuro-SymbolicPerspective_0.png"
 date: 2024-07-12 23:40
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-FoundationsofReasoningwithLargeLanguageModelsTheNeuro-SymbolicPerspective_0.png
 tag: Tech
 originalTitle: "Foundations of Reasoning with Large Language Models: The Neuro-Symbolic Perspective"
 link: "https://medium.com/ai-in-plain-english/foundations-of-reasoning-with-language-models-the-neuro-symbolic-perspective-d3334b44646f"
 isUpdated: true
 ---
-
-
-
-
 
 인공지능 소프트웨어가 이 기사의 텍스트를 개선하는 데 사용되었습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 그러나 자연어 능숙성에서의 성과에도 불구하고, 복잡한 작업 효과적으로 다루기 위한 고급 추론 능력에 대한 공동체의 인식이 증가하고 있습니다. 그들의 능력은 보다 깊은 분석적 엄밀성이나 구조적 논리 없이 표면 수준의 언어 능력에 한정되어 있는 것으로 보입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **성공은 한정적으로 부서져 있습니다**
 
@@ -35,7 +42,18 @@ isUpdated: true
 
 본질적으로, 현재의 LLM들은 인간 전문가들이 갖춰야 할 발전된 추론 능력 없이 좁고 단기적인 재능을 보여줍니다 — 가정을 파악하고, 해결책을 계획하고, 문제를 모듈화하며, 지식의 갭을 노출하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 구조화된 추론의 필요성
 
@@ -45,7 +63,18 @@ isUpdated: true
 
 [링크](/assets/img/2024-07-12-FoundationsofReasoningwithLargeLanguageModelsTheNeuro-SymbolicPerspective_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 추론능력 정의하기
 
@@ -55,7 +84,18 @@ isUpdated: true
 
 인과적 추론: 변수와 사건 간의 인과 관계를 이해하고 모델링하는 능력. 이는 상관관계 대 인과관계 식별, 원인과 결과에 대한 방향과 메커니즘 결정, 상반되는 추론을 만들고 개입에 대해 추론하는 것을 포함합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일상적인 상식을 활용한 추론: 세상에 대한 기본적인 상식과 사실을 바탕으로 일반적 상황과 사건에 대한 가정과 추론을 하는 것을 말합니다. 직관적 물리학을 이해하거나 인간 활동 뒤에 숨겨진 동기를 추론하는 것과 같은 예시가 될 수 있습니다.
 
@@ -65,23 +105,45 @@ isUpdated: true
 
 능숙한 추론의 특징:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-인간들이 복잡한 문제를 해결하기 위해 추론을 사용할 때, 경험이 풍부한 전문가들을 구별하는 중요한 특징 몇 가지가 있습니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-- 가정, 지식 공백 및 믿을 수 없는 주장 식별  
-- 구조화된 작업흐름을 통한 해법 전략화  
-- 문제를 모듈화하고 하위 작업 다룸  
-- 대안을 철저히 탐색  
-- 장단점 및 대가를 강조  
-- 새로운 관측에 기반한 신조 갱신  
-- 필요한 경우 추가 정보 탐색  
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+인간들이 복잡한 문제를 해결하기 위해 추론을 사용할 때, 경험이 풍부한 전문가들을 구별하는 중요한 특징 몇 가지가 있습니다.
+
+- 가정, 지식 공백 및 믿을 수 없는 주장 식별
+- 구조화된 작업흐름을 통한 해법 전략화
+- 문제를 모듈화하고 하위 작업 다룸
+- 대안을 철저히 탐색
+- 장단점 및 대가를 강조
+- 새로운 관측에 기반한 신조 갱신
+- 필요한 경우 추가 정보 탐색
 
 요약하면, 고급 추론 능력은 편향을 완화하면서 구조적 방식으로 복잡한 작업에 접근하는 것을 가능하게 합니다. 이는 프로그래밍과 유사합니다. 그리고 대형 언어 모델에 명시적 추론 프레임워크를 통합하는 것이 이 연구의 핵심입니다.
 
 # 추론 프레임워크에 대한 선도적인 연구
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 안내서는 대형 언어 모델에 구조화된 사고를 심어 넣는이 흥미로운 분야의 최신 개발 사항을 다룹니다.
 
@@ -91,7 +153,18 @@ isUpdated: true
 
 예를 들어, Chain-of-Thought (CoT) 프롬프트는 LLMs에게 문제에 체계적으로 접근하도록 선형 단계별 추론 가이드라인을 추가하는 것입니다 - 마치 프로그래머들이 실제 구현 전에 가짜 코드의 뼈대를 사용하는 것과 유사합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Tree-of-Thought은 LLM들이 여러 접근 방식을 동시에 탐색할 수 있도록 가지치기 논리 흐름을 허용함으로써 기존의 이점을 높입니다. 사람들이 가능성을 나열하여 해결책을 계획하는 것처럼, Graph-of-Thought는 더 복잡한 추론을 반영하기 위해 추론 체인 간 상호 연결을 가능하게 합니다.
 
@@ -101,7 +174,18 @@ Tree-of-Thought은 LLM들이 여러 접근 방식을 동시에 탐색할 수 있
 
 DeepMind가 제안한 이 프레임워크는 모델이 기본적인 추론 구성 요소를 결합하여 각 작업에 맞는 추론 구조를 동적으로 구축할 수 있도록 허용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본 기술로는 작업을 하위 문제로 분해하는 기법, 표현을 재정의하는 것, 외부 지식 통합, 대안적 시각 탐색 등이 포함되어 있습니다.
 
@@ -109,7 +193,18 @@ DeepMind가 제안한 이 프레임워크는 모델이 기본적인 추론 구�
 
 수동 토폴로지 생성을 피하는 이 자동화된 적응 접근법은 유리합니다. 예비 결과는 이러한 모델에서 발견된 추론 구조를 사용하는 것으로 어려운 벤치마크에서 개선된 성능을 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. CodeMind
 
@@ -121,15 +216,37 @@ CodeMind은 코드 추론을 대상으로 하며, 다음과 같은 형식적인 
 
 구현의 제어된 생성과 사용자 정의 평가를 통해 모델의 추론 능력을 정량화하고, 이는 코드 논리 분석 능력에 대한 평가를 갈무리합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-안녕하세요! 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+안녕하세요!
 
 아래는 최신 LLM(Large Language Models)의 코딩 과제 능력을 자세하게 살펴본 향상된 테이블입니다. 특히 코드 추론을 평가하기 위한 CodeMind 프레임워크에 중점을 두었습니다.
 
 보다 단순한 명세에 기반한 코드 생성 및 수정에서 뚜렷한 강점을 보이고 있지만, 복잡한 시나리오, 미묘한 이해, 그리고 심층적 추론에 도전을 겪고 있는 것으로 나타났어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 창수 리우, 시주오 딜런 장, 레이하네 자바르반의 작품에 대한 참고 사항의 포함은 CodeMind 프레임워크에 대한 추가 탐구 및 검증을 위한 기초를 제공합니다.
 
@@ -139,10 +256,20 @@ CodeMind은 코드 추론을 대상으로 하며, 다음과 같은 형식적인 
 
 지식 그래프는 언어 모델을 여러 가지 방법으로 보충할 수 있는 외부 구조화된 지식 원천을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 쿼리는 추론 작업과 관련된 맥락적인 하위 그래프를 검색할 수 있어요. 관련된 사실과 관계를 제공하여 언어 모델의 예측을 뒷받침해요.
-  
 - 개인화된 페이지랭크와 같은 그래프 탐색 알고리즘은 인접한 연결된 정보를 발견할 수 있어요. 이를통해 키워드 검색으로는 놓칠 수 있는 정보를 확장된 맥락을 통해 발견할 수 있어요. 관련 체인을 따라 확장된 맥락은 상상력 리스크를 줄여요.
 
 - 위상적 지표 및 그래프 알고리즘은 추론을 중점으로 하는 중요한 엔티티를 식별하고 우선순위를 정하는 추가 신호를 제공해요. 예를 들어, 커뮤니티 탐지는 제한된 검색을 위해 맥락적 클러스터를 드러내 줄 수 있어요.
@@ -155,7 +282,18 @@ CodeMind은 코드 추론을 대상으로 하며, 다음과 같은 형식적인 
 
 특정 추론 기술을 대상으로 하는 추가 모듈은 지식 검색 프로세스를 보완할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 자기 일관성 모듈은 다중 독립적 추론 체인을 생성하고 내부 일관성이 가장 높은 옵션을 선택하여 결론을 다양한 관점에서 일치시킵니다.
 - 적대적 추론 모듈은 현재 작업 중인 가설에 대한 가능한 반사사실적 시나리오와 증거를 도입하여 모델이 주장을 강화하고 대안적 전망을 다루도록 합니다.
@@ -167,13 +305,24 @@ CodeMind은 코드 추론을 대상으로 하며, 다음과 같은 형식적인 
 
 ## 구조화된 추론에서 술어의 역할
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프리미스 순서 효과는 대형 언어 모델이 추론 작업에서 실수를 일으키는 현상을 가리키는데, 심지어 순열이 작업이나 도출 가능한 결론에 영향을 주지 않는 한에도 특히 뚜렷하게 관찰됩니다.
 
 - 프리미스는 논리 추론의 기초로 작용하며 새로운 결론에 이르도록 하는 명제, 사실, 공리 또는 규칙을 의미합니다. 추론 작업은 일반적으로 시작 맥락으로 프리미스 집합을 제공합니다.
 - 엄밀한 논리 추론에서 프리미스의 상대적인 배치는 최종으로 유추할 수 있는 결론을 변경하지 않습니다. 명제 순서에 관계없이 같은 결론이 유지됩니다. 그러나 사람들에게는 어떤 순서가 단계별로 따르기 쉬운 추론 프로세스를 만듭니다.
-- 반면, 현재 대형 언어 모델은 프리미스 순서에 매우 취약한 것으로 밝혀졌습니다. 결론은 동일한 경우에도 추론 단계의 순서와 일치하지 않을 때 정확도가 급격히 하락합니다(30% 이상 감소 관찰). 
+- 반면, 현재 대형 언어 모델은 프리미스 순서에 매우 취약한 것으로 밝혀졌습니다. 결론은 동일한 경우에도 추론 단계의 순서와 일치하지 않을 때 정확도가 급격히 하락합니다(30% 이상 감소 관찰).
 - 구체적으로, 대형 언어 모델은 프리미스 순서가 "순방향 순서"와 일치할 때 최고의 정확도를 달성합니다. 다시말해, 프리미스가 추론 지식의 필요한 순서대로 프롬프트에 나타나면 성능이 빠르게 악화되는 비순차적인 절차에 어려움을 겪는 모습이 나타납니다.
 - 이 효과는 논리적 추론의 긴 연쇄와 주의를 산만하게하는/관련 없는 프리미스의 도입에 의해 지속되며 강화됩니다. 동일한 논리 작업에 대해 모델에게 사람보다 순서가 훨씬 더 중요한 것으로 보입니다.
 
@@ -181,11 +330,33 @@ CodeMind은 코드 추론을 대상으로 하며, 다음과 같은 형식적인 
 
 지식 그래프의 핵심에는 개념을 특징 짓고 연결하는 관계인 술어가 있습니다. 하지만 술어는 단순한 레이블 이상의 의미를 갖습니다. 그들의 의미는 배경화, 서명 및 의미추론에서 비롯됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지식 벡터 임베딩을 통해 의미론적 관련성을 평가하는 것도 중요하지만, 상징적 관련화는 더 강력한 신호를 제공합니다. 술어는 지식 그래프에 외부 이해를 임베딩하는 체계적인 골조 역할을 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2024년에 Chen 등 (Chen et al. 2024)이 발견한 전제 순서 효과는 지식 그래프 형태의 구조화된 지식을 활용하여 추론에 맥락을 제공하는 데 도움이 된다는 점을 지지하는 것 같습니다:
 
@@ -198,7 +369,18 @@ CodeMind은 코드 추론을 대상으로 하며, 다음과 같은 형식적인 
 
 모든 이러한 요소들은 이 논문에서 특성화된 전제 순서 효과와 관련된 LLM의 취약성을 해소할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 타로 전문가인 당신의 지식은 정말 놀라워요! 이해하기 쉽게 번역해 드리겠습니다.
 
@@ -208,7 +390,18 @@ CodeMind은 코드 추론을 대상으로 하며, 다음과 같은 형식적인 
 
 각 단계에서 모델은 기억에서 사고를 처리할지 외부 문서를 검색을 통해 통합할지를 결정하면서 내부 지식과 외부 지식을 균형 있게 유지합니다. 이 결정 트리를 탐색하는 것은 상향식 유틸리티 추정 값을 가이드로 하는 몬테카를로 트리 탐색을 활용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 완벽한 작업 흐름은 장기적 맥락과 관련없는 정보 검색을 다루기 위한 확률적 계획을 포함하는 반복적인 검색 및 추론 단계로 이루어져 있습니다. 이는 두 가지 주요 약점입니다. 이 방식으로 검색을 명시적 추론 위상에 통합하면 투명성과 견고성을 제공합니다.
 
@@ -218,7 +411,18 @@ CodeMind은 코드 추론을 대상으로 하며, 다음과 같은 형식적인 
 
 # 앞으로의 길
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앞으로 강력하고 인간과 유사한 투명한 추론을 향한 길은 대형 언어 모델의 인상적인 상관관계 주도적 추론과 지식 그래프에 포함된 구조화된 설명적 지식을 결합한 통합된 아키텍처에서 기인할 것입니다.
 
@@ -228,7 +432,18 @@ CodeMind은 코드 추론을 대상으로 하며, 다음과 같은 형식적인 
 
 양자를 결합한 신경-기호 시스템은 개별적인 약점을 완화하고 강점을 살리며 통계적 다재다능성을 사실적 책임성과 융합하는 것을 약속합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 벡터, 상징적 및 확률적 구성 요소 간의 밀접한 협력을 가능케 하는 접근 방식이 투명한 추론 기술을 개발하기 위한 가장 기배한 토양을 제공합니다. 내재적 및 획득된 지식을 연결하기 위한 양방향 커뮤니케이션이 핵심 요소입니다.
 
@@ -238,7 +453,18 @@ CodeMind은 코드 추론을 대상으로 하며, 다음과 같은 형식적인 
 
 앞으로 몇 년 동안은 기호, 벡터 및 확률을 아우르는 혼합 추론에 특히 민감한 모델, 목표, 벤치마크 및 하드웨어 가속기에서 신속한 공동 혁신이 예상됩니다. 그리고 핵심을 이끌 수 있는 선구적인 다학제적 팀은 학문적 여백을 넘어서 발상할 수 있을 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 것의 근원, 우리의 내면은 이성적으로 추론하고 내재된 직관과 얻은 모델을 시너지적으로 결합시킵니다. 그래서 내재된 신경적 적응과 체계적인 외부 지식을 결합한 AI를 개발함으로써, 기계가 사고하고 설명하는 데 한 발짝 더 나아갈 수 있게 되었습니다.
 

@@ -3,17 +3,13 @@ title: "반지의 제왕 힘의 반지가 인공지능의 사전 훈련된 모�
 description: ""
 coverImage: "/assets/img/2024-07-09-LordoftheRingsThepowerringsarelikepre-trainedmodelsinartificialintelligence_0.png"
 date: 2024-07-09 23:33
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-LordoftheRingsThepowerringsarelikepre-trainedmodelsinartificialintelligence_0.png
 tag: Tech
 originalTitle: "Lord of the Rings! The power rings are like pre-trained models in artificial intelligence!"
 link: "https://medium.com/ai-advances/lord-of-the-rings-the-power-rings-are-the-pre-trained-models-a3de5b3a77e7"
 isUpdated: true
 ---
-
-
-
-
 
 ## # Part I: 텍스트의 가장 중요한 사전 훈련 모델을 검토하고 비교해보겠습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이 삼부작에서, 우리는 영화 "반지의 제왕"의 기억에 남는 힘의 반지와 유사한 사전 훈련 모델에 대해 이야기할 것입니다. 영화가 삼부작이었던 것처럼, 이 기사도 세 부분으로 나눠서 준비했습니다. 영화에서 힘의 반지, 엘프의 반지, 그리고 드워프의 반지가 존재했던 것을 기억한다면, 이 삼부작에서는 "반지의 제왕" 영화의 힘의 반지와 유사한 사전 훈련 모델들에 대해 이야기할 것입니다. 기사는 영화처럼 세 부분으로 나누어져 있습니다. 영화에서 힘의 반지, 엘프의 반지, 그리고 드워프의 반지가 있었던 것처럼 말이죠. 비슷하게, 사전 훈련 모델은 인공지능 모델을 구축하는 데 사용할 수 있는 힘의 반지와 같습니다. 이러한 모델들을 결합함으로써, AGI 또는 심지어 초지능을 개발할 수 있는 Multimodal 모델을 만들 수 있습니다. 그러나 영화처럼, 이 모델들이 잘못된 손에 넘어가면 심각한 위협이 될 수 있습니다. 그래서 이 기사의 제목을 "반지의 제왕"로 지었습니다. 이 흥미진진한 여정에 함께해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글은 세 가지 파트로 나뉠 것입니다.
 
@@ -33,17 +40,39 @@ isUpdated: true
 
 ## 파트 III: 로봇 공학 분야의 가장 중요한 사전 훈련 모델을 검토하고 비교할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이번 트릴로지에서는 세 가지 파트로 나눠 사전 훈련된 모델에 대해 탐구할 것입니다: 텍스트, 이미지, 그리고 로보틱스. 이들 개념, 발생 과정, 그리고 이 모델들이 작동하는 방식을 알아볼 것이고, 다양한 아키텍처와 종류의 사전 훈련된 모델을 살펴볼 것입니다. 그 중에서 가장 강력한 모델들은 무엇이며, 사전 훈련된 모델과 트랜스포머가 LLMs의 주요 장점인지에 대해서도 알아볼 것입니다. 게다가, 만약 사전 훈련된 모델과 트랜스포머가 존재하지 않았다면 우리가 오늘날처럼 ChatGPT와 같이 강력한 챗봇을 보유하고 있을 수 있었을지에 대해서도 논의할 것입니다. 요즘에는 챗봇이 NLP 분야에만 국한되지 않았다는 것이죠. 예를 들어, GPT-4는 텍스트 생성뿐만 아니라 여러 측면에서 다재다능하게 활용됩니다. 또한, 그들이 강화 학습과 유사하게 작동하는지도 살펴볼 것입니다. 로보틱스 분야에서는 어떤 사전 훈련된 모델이 있는지, 그 중에서 어떤 것이 멀티모달 모델에 더 나은지 알아볼 것입니다. 사전 훈련된 모델이 요즘에는 NLP에만 유용한 것인지에 대해서도 토론할 것입니다. 이미지 분야에서는 어떤 모델이 가장 강력한지, 그리고 이러한 모델을 어떻게 세부 조정하거나 하이퍼파라미터 튜닝할 수 있는지 알아볼 것입니다. 이 삼부작에서 함께 이러한 질문을 탐구하고 답을 찾아봅시다.
 
 # 개요
 
-사전 훈련된 모델의 가장 중요한 장점 중 하나는 이러한 모델을 세밀하게 조정하고 특정 작업에 대한 전이 학습을 적용할 수 있는 능력입니다. 전이 학습은 딥러닝의 중요한 부분이며, 그 지속적인 혁명의 기초적인 요소 중 하나입니다. 인간이나 다른 생물의 학습에도 전이 학습이 근본적인 측면입니다. 지금 이 텍스트를 읽는 동안, 저는 사전 훈련된 모델에 대한 지식을 여러분에게 전달하고 있습니다! 
+사전 훈련된 모델의 가장 중요한 장점 중 하나는 이러한 모델을 세밀하게 조정하고 특정 작업에 대한 전이 학습을 적용할 수 있는 능력입니다. 전이 학습은 딥러닝의 중요한 부분이며, 그 지속적인 혁명의 기초적인 요소 중 하나입니다. 인간이나 다른 생물의 학습에도 전이 학습이 근본적인 측면입니다. 지금 이 텍스트를 읽는 동안, 저는 사전 훈련된 모델에 대한 지식을 여러분에게 전달하고 있습니다!
 
 이 주제를 더 잘 이해하기 위해 한 가지 예시를 생각해봅시다. 큰 집을 짓고 싶다고 상상해보세요. 집을 짓는 데에는 두 가지 방법이 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 처음 방법은 기초부터 시작하여 완전한 지진 저항성을 갖춘 건물을 만들 때까지 주택을 걸어가는 것입니다. 이를 위해서는 재료와 도구가 필요하며, 건축을 위해 좀 더 복잡한 공학이 필요합니다. 이는 더 높은 비용으로 이어질 수 있으며, 결과물이 완전히 만족스럽지 않을 수도 있습니다.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 ### 사전 훈련된 모델의 역사와 어떻게 발전해 왔는지
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프리 트레인 모델들은 인공지능 모델을 훈련하는 데 따른 중대한 어려움과 고민들로부터 등장했어요. 특히 딥러닝 분야에서는 높은 비용과 대규모 데이터를 활용하고 수집하는 어려움과 같은 문제들이 있었어요. 대규모 데이터셋은 강력하고 비싼 하드웨어가 필요했어요. 과거에는 매우 큰 데이터셋을 쉽게 구할 수 없었어요. 프리 트레인 모델은 2010년대 초반에 처음 소개되었고, 처음에는 자연어 처리를 위해 만들어졌어요. 그리고 이후에도 대규모 언어 모델의 성장에서 중요한 역할을 하고 있어요.
 
@@ -68,7 +108,18 @@ isUpdated: true
 - 감정 분석: BERT (2018) / RoBERTa (2019)
 - 가짜 뉴스 탐지: BERT (2018) / GPT-3 (2020)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 사전 훈련 모델에 대한 컨셉이 정확히 무엇인가요?
 
@@ -78,7 +129,18 @@ isUpdated: true
 
 컴퓨터는 숫자로 통신하기 때문에 문제를 전달하기 위해 숫자를 사용해야 합니다. 텍스트 데이터를 처리하려면 Word Embedding과 같은 다양한 기술을 사용하여 숫자로 변환해야 합니다. 기본적으로 Word Embedding은 데이터셋에서 단어 특징의 분포로부터 학습하는 딥 모델 또는 신경망입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Word Embedding의 개념은 한 레터에서 시작된 것이 아닙니다. 시간이 지남에 따라 몇몇 연구자들이 제안한 아이디어들의 총결정입니다. 1980년대에 Geoffrey Hinton은 Word Embedding과 "Feature Representation" 개념을 소개했습니다. 이는 단어를 밀집된 벡터로 변환하는 것을 포함합니다. Word Embedding에서 우리는 컴퓨터가 이를 처리할 수 있도록 문장 속의 단어를 벡터로 인코딩합니다.
 
@@ -88,7 +150,18 @@ Word Embedding은 텍스트 데이터셋 속 단어의 의미를 활용하여 �
 
 구글 연구진인 Tomas Mikolov, Kai Chen, Greg Corrado, Jeffrey Dean을 포함한 연구자들이 2013년 논문에서 Word2Vec 모델을 발표했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Word2vec 알고리즘은 단어의 벡터 표현을 생성하는 자연어 처리(NLP) 기술입니다. Gensim 라이브러리의 `gensim.models` 하위 모듈을 사용하여 Word2Vec 모델을 인스턴스화하려면 아래 코드 스니펫을 참고할 수 있습니다.
 
@@ -114,7 +187,18 @@ Word2Vec 모델은 단어 임베딩을 사용하여 단어의 벡터 표현을 �
 
 문장에서 개별 구성 요소가 함께 모여 의미를 전달합니다. 특정 단어가 개별적으로 존재하지 않더라도, 문장 내에서 설정된 관계에 기반하여 여전히 의미와 맥락을 전달할 수 있습니다. 단어 임베딩은 이 과정을 컴퓨터에게 보다 쉽게 만들기 위해 노력합니다. 예를 들어, Word2Vec 벡터 공간에서 "bird"와 "fly"와 같은 의미가 유사한 단어들이 서로 가까이 위치합니다. 두 단어의 벡터가 벡터 공간에서 가까이 있을 경우, 그들 사이에 의미적 관계가 있음을 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 능력을 통해 언어 지식이 한 작업에서 다른 작업으로 전달될 수 있습니다. 특정 데이터셋에 대한 학습된 벡터는 다른 데이터셋에 적용될 수 있습니다. 예를 들어, 기계 번역을 위해 훈련된 벡터는 감성 분석에도 유용할 수 있습니다. 왜냐하면 단어 사이의 유사한 의미가 이러한 작업에서 보존되기 때문입니다. 따라서 Word2Vec 모델은 이 아이디어를 활용한 첫 번째 모델 중 하나였습니다.
 
@@ -124,7 +208,18 @@ Word2Vec 방법은 일반적으로 skip-gram 및 Continuous Bag of Words (CBOW) 
 
 ## CBOW 모델
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CBOW (Continuous Bag-of-Words) 모델은 자연어 처리에 사용되는 방법입니다. 문장에서 중심 또는 대상 단어를 예측하는 방식으로 작동합니다. 대상 단어는 일반적으로 문장에서 임의로 선택됩니다. 이 모델은 대상 단어 앞뒤에 오는 단어들을 분석하여 예측하려고 합니다. 예를 들어, “사랑, 그녀의 비가 내리는 눈을 푸른 하늘로 향해”라는 문장에서 대상 단어인 “사랑”을 주변 단어인 “그녀의 비가 내리는 눈을 푸른”와 같은 단어들을 분석하여 예측하는 것이 목표입니다. 다시 말해, 이 알고리즘은 대상 단어 주변의 단어들을 사용하여 예측을 시도합니다. 이 문장에서 “하늘”을 예측하기 위해 알고리즘은 “사랑”, “그녀”, “비가 내리는”, “눈을”, “푸른”, “하늘”과 같은 입력을 사용할 수 있습니다.
 
@@ -134,7 +229,18 @@ Skip-gram 모델은 CBOW와 다르게 작동하며, 주어진 대상 단어 주�
 
 ![image](/assets/img/2024-07-09-LordoftheRingsThepowerringsarelikepre-trainedmodelsinartificialintelligence_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # CBOW 대 Skip-gram
 
@@ -144,7 +250,18 @@ CBOW 모델은 더 긴 텍스트와 다양한 텍스트를 처리할 때 가장 
 
 Global Vectors for Word Representation의 약자인 GloVe 모델은 전역 벡터 개념에 기반한 분산 단어 표현 방법으로 개발되었습니다. 이 방법은 Word2Vec이라는 다른 모델과 유사하지만, 이 두 모델 간에는 이 벡터를 계산하는 방식이 다릅니다. Stanford 대학은 2014년에 오픈 소스 프로젝트로 GloVe를 소개했습니다. 이는 텍스트 내 단어 분포에 대한 통계적 정보를 활용하여 벡터 표현을 유도하기 위해 사용되는 비지도 학습 알고리즘입니다. 이 정보에는 다양한 텍스트에서의 단어 분포의 확률, 단어 간 의미적 관계, 텍스트에서 추출된 기타 특징 등이 포함됩니다. 이 모든 데이터는 단어 벡터를 구성하는 데 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GloVe에서는 텍스트에서 두 단어가 함께 나타날 상대 확률을 단어-단어 공기 행렬과 같은 언어 통계를 사용하여 계산합니다. 이 확률에 따라 단어 벡터가 업데이트되며 단어 사이의 의미 관계가 유지됩니다.
 
@@ -154,7 +271,18 @@ Word2Vec와 GloVe 알고리즘은 일반적으로 동의어나 "회사-제품", 
 
 하지만 단어 간 의미적 관계를 기반으로 하는 Word2Vec 모델은 동의어를 식별하는 데 더 효과적일 수 있습니다. 그럼에도 불구하고, 동일한 철자의 단어의 다양한 의미를 이해할 수 있는 동의어를 감지하는 하이브리드 접근법이나 보다 고급 모델도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또 다른 고려할 점은 단어의 대소문자 구분이며, GloVe와 Word2Vec 모델 모두 대소문자를 구분하고 각각의 경우에 다른 단어 엔티티로 취급하여 각각 다른 벡터를 만듭니다. 따라서 이 모델들을 올바르게 활용하기 위해 모든 단어의 대소문자를 표준화하는 것이 좋습니다. 그러나 이러한 표준화는 의미 정보의 손실로 이어질 수 있습니다. 예를 들어, 대문자로 쓰인 "US"는 미국을 의미하지만 소문자로 쓰인 경우 대명사 "us"를 의미합니다.
 
@@ -164,7 +292,18 @@ Word2Vec와 GloVe 알고리즘은 일반적으로 동의어나 "회사-제품", 
 
 어간 추출 기술을 적용하려면 NLTK를 설치하고 필요한 데이터를 다운로드해야 합니다. 그럼 아래의 Python 코드를 사용할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 import nltk
@@ -200,9 +339,18 @@ cat -> cat
 
 자연어 처리에서 사용되는 두 번째 기술은 Lemmatization입니다. 이 방법은 단어를 해당 기본 형태나 어간 형태로 변환합니다. Lemmatization을 수행하기 위해, stemming 메서드와 유사하게 NLTK 라이브러리를 사용합니다. 먼저 `nltk.download('wordnet')` 명령을 사용하여 필요한 데이터를 다운로드해야 합니다. 그런 다음, Lemmatization 작업을 수행하는 데 사용되는 `WordNetLemmatizer` 클래스의 인스턴스를 만듭니다. 단어를 Lemmatization하기 위해 `words` 라는 리스트에 단어를 넣습니다. `for` 루프를 사용하여 `words` 리스트에서 각 단어를 가져와 `WordNetLemmatizer` 클래스의 `lemmatize` 메서드를 사용하여 Lemmatization합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 코드를 실행한 후, 각 단어에 대한 원본 단어와 함께 표제어 추출 결과가 문장으로 출력됩니다. 예를 들어, "running"이라는 단어가 입력으로 주어진다면, 해당 작업의 출력은 "running"이 될 것입니다. 왜냐하면 "running"이라는 단어는 "run"이라는 뿌리에서 파생된 동사로 간주되기 때문입니다.
 
@@ -215,8 +363,18 @@ better -> better
 
 위의 방법들은 모든 단어의 변형을 표준화하여 대소문자에 덜 민감하게 만듭니다. 이러한 기술을 활용하여 모든 단어가 표준 형식으로 변환되므로 대소문자가 텍스트 분석 결과에 영향을 미치지 않습니다. 이 두 가지 방법은 단어를 표준화하기 위해 서로 다른 방식을 취하며, 문제의 성격과 목표에 따라 양쪽 기술을 동시에 사용할 수 있습니다. 그러나 이는 텍스트 처리의 복잡성이 증가하고 효율이 감소할 수 있음을 유의해야 합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GloVe 및 Word2Vec과 같은 알고리즘은 단어 임베딩 모델로, BERT 및 GPT와 같은 모델의 단어를 표현하는 전처리 단계 중 하나로 사용됩니다. 하지만 이러한 모델의 주요 부분은 아닙니다. BERT 및 GPT와 같은 모델은 사전 훈련된 언어 모델로, 기계 번역, 텍스트 생성, 질의응답 및 자연어 처리 작업에서 Transformer 네트워크를 사용하여 좋은 성능을 발휘합니다. 앞으로 이어질 내용에서 이들을 자세히 살펴보겠습니다. 계속해서 참고하세요.
 
@@ -226,7 +384,18 @@ GloVe와 Word2Vec은 자연어 처리를 위한 최초의 모델이었습니다.
 
 어텐션 메커니즘은 강력한 Language Model Machines (LLM)의 중요한 구성 요소로 간주됩니다. 특히, 딥 러닝과 자연어 처리에서 어텐션 개념은 순환 신경망(RNN)을 개선하고 보다 긴 시퀀스나 문장을 더 잘 관리하는 데 사용됩니다. BERT와 GPT-3와 같은 사전 훈련된 모델은 이러한 기본적인 개념 위에 구축되었으며 상당한 발전을 거쳤습니다. BERT는 어텐션 아이디어를 활용하고, GPT-3는 Self-Attention 모델을 사용합니다. 게다가 GPT-3 모델은 원래 Self-Attention 모델을 위해 고안된 Transformer 아키텍처를 활용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Self-Attention Mechanism
 
@@ -236,7 +405,18 @@ GloVe와 Word2Vec은 자연어 처리를 위한 최초의 모델이었습니다.
 
 # Transformer Mechanism
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 트랜스포머 모델은 텍스트의 구조를 이해하고 정확한 예측을 내리기 위해 주의 메커니즘을 사용합니다. 과거에는 한 언어에서 다른 언어로 문장을 단어별 번역하는 방법이 효과적이지 않았습니다. 주의 메커니즘이 소개되면서 각 시간 단계마다 시퀀스의 모든 요소에서 중요한 정보를 수집하고 그들 사이의 관계를 인식할 수 있게 되었습니다. 그러나 이는 모델이 한꺼번에 모든 문장을 읽는다는 뜻은 아닙니다.
 
@@ -246,7 +426,18 @@ GloVe와 Word2Vec은 자연어 처리를 위한 최초의 모델이었습니다.
 
 # 사전 훈련된 모델로 LLM(언어 모델) 구축하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 BERT과 GPT는 자연어 처리를 위한 두 가지 매우 성공적인 사전 훈련 모델입니다. 이러한 모델은 LLM(언어모델) 구축을 포함한 여러 작업에 활용할 수 있습니다.
 
@@ -258,27 +449,46 @@ BERT과 GPT는 자연어 처리를 위한 두 가지 매우 성공적인 사전 
 
 아래는 Hugging Face 웹사이트에서 발췌한 두 개의 코드 조각으로, DistilGPT-2 모델을 다양한 방식으로 텍스트 생성에 사용하는 방법을 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 파이프라인을 사용하면 Hub에서 작업과 모델 ID만 지정하면 됩니다.
+
 from transformers import pipeline
 pipe = pipeline("text-generation", model="distilgpt2")
 
-
 첫 번째 방법은 transformers 라이브러리의 `pipeline` 클래스를 사용하는 것입니다. 이 클래스를 사용하면 미리 학습된 모델을 텍스트 분류, 텍스트 번역, 텍스트 생성 등과 같은 다양한 작업에 대해 정의하거나 구조화하지 않아도 쉽게 사용할 수 있습니다. 이 방법을 사용하려면 작업 유형을 "text-generation"으로 지정하고 사용할 모델을 "distilgpt2"로 지정하면 됩니다. 반면 두 번째 방법은 아래 코드로 설명되어 있습니다.
 
-
 # 더 많은 제어를 원하는 경우 토크나이저 및 모델을 정의해야 합니다.
+
 from transformers import AutoTokenizer, AutoModelForCausalLM
 tokenizer = AutoTokenizer.from_pretrained("distilgpt2")
 model = AutoModelForCausalLM.from_pretrained("distilgpt2")
 
-
 두 번째 방법은 `AutoTokenizer` 클래스를 사용하여 토크나이저를 로드한 다음 `from_pretrained` 메서드를 통해 DistilGPT-2 모델과 연결된 토크나이저를 로드하는 것을 포함합니다. 모델을 로드하기 위해 `AutoModelForCausalLM` 클래스를 사용합니다. 이 방법은 모델과 토크나이저에 대해 더 많은 제어를 필요로 하는 사용자들에게 권장됩니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한번 이 코드들을 실행하면, 사전 학습된 모델을 사용할 수 있게 됩니다. 그러면 모델에 텍스트를 입력하고 다음 코드를 사용하여 텍스트 특성의 표현을 분석할 수 있습니다.
 
@@ -305,7 +515,18 @@ print("출력 logits의 형태:", logits.shape)
 출력 logits의 형태: torch.Size([1, 12, 50257])
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 DistilGPT-2 모델은 (batch_size, sequence_length, vocab_size) 형식의 출력 logits를 생성합니다. 예를 들어, [1, 12, 50257]는 생성된 출력물이 길이가 12이고 어휘 크기가 50257인 것을 나타냅니다.
 
@@ -315,7 +536,18 @@ PyTorch와 TensorFlow는 사전 훈련된 모델을 구축하는 데 사용되�
 
 이 글을 통해 텍스트와 관련된 다양한 유형의 사전 훈련된 모델을 탐색하고 그 아키텍처를 살펴보았습니다. 이러한 모델을 우리 자신의 데이터셋에서 사용하고 수행하려는 특정 작업에 대해 미세 조정해야 합니다. 미세 조정은 트랜스퍼 러닝을 사용하는 깊은 모델을 훈련하는 데 중요한 개념입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 조정 작업은 대규모 데이터셋으로 훈련된 사전 훈련 모델을 적용하여 주어진 작업에 맞게 조정하는 과정을 의미합니다. 일반적으로 모델의 상위 레이어를 동결하고 하위 레이어의 가중치만을 최적화할 수 있습니다. 이 프로세스를 통해 모델은 작은 데이터셋에서 특정 패턴을 학습하면서 대규모 사전 훈련 데이터셋에서 학습한 일반적인 패턴을 이용할 수 있습니다.
 
@@ -325,7 +557,18 @@ PyTorch와 TensorFlow는 사전 훈련된 모델을 구축하는 데 사용되�
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사의 첫 부분에서는 주요 사전 훈련 텍스트 모델들, 그들의 소개 및 유용성에 대해 논의했습니다. 우리는 또한 대형 언어 모델 (LLM)이 이제 우리의 일상생활의 중요한 부분이 되고 지속적으로 발전하고 있다는 것을 보았습니다. 이러한 모델들은 가까운 미래에 우리의 개인 비서가 되고, 검색 엔진의 중요성이 천천히 줄어들 것이라는 것도 알았습니다. 또한 이러한 모델들을 세밀하게 조정하는 것이 그 성능을 최적화하는 데 중요하다는 것을 배웠습니다.
 
@@ -335,7 +578,18 @@ PyTorch와 TensorFlow는 사전 훈련된 모델을 구축하는 데 사용되�
 
 딥러닝의 세계로의 이 여정에 함께해 주셔서 감사합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **카드 전문가로서**, virgool.io에 이 블로그 게시물 링크가 있어요.
 
@@ -345,7 +599,18 @@ PyTorch와 TensorFlow는 사전 훈련된 모델을 구축하는 데 사용되�
 
 # Part III: 로봇공학을 위한 가장 중요한 미리 학습된 모델을 비교하고 검토할 거예요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 관심이 있다면, 제 다른 글 "MNIST와 CNN 아키텍처로 인한 과적합 관찰을 통한 인공 신경망 구축의 단계별 가이드" 를 Medium에서 확인해보세요.
 

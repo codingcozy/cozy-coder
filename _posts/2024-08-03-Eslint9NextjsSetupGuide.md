@@ -3,17 +3,13 @@ title: "Nextjs에 Eslint 9 사용하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-03-Eslint9NextjsSetupGuide_0.png"
 date: 2024-08-03 18:33
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-03-Eslint9NextjsSetupGuide_0.png
 tag: Tech
 originalTitle: "Eslint 9 , Nextjs  Setup Guide"
 link: "https://medium.com/linotte-technology/eslint-9-next-js-935c2b6d0371"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-08-03-Eslint9NextjsSetupGuide_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 웹 개발자로서, 가장 인기 있는 프론트엔드 프레임워크인 React, 가장 인기 있는 메타 프레임워크인 Next.js 및 가장 인기 있는 린터인 ESLint을 선택할 가능성이 높습니다. 실제로 React.dev는 Next.js를 권장하며 (프로덕션 등급 및 최신 기능 모두를 위해) Next.js에는 통합된 ESLint가 함께 제공됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 $ npx create-next-app@latest
@@ -42,7 +49,18 @@ eslint         8.57.0    8.57.0   9.8.0  node_modules/eslint       my-app
 
 2024년 4월에 ESLint는 새로운 주 버전인 v9.0.0을 출시했습니다. Flat 구성이 이제 기본 구성으로 설정되어 ESLint 사용자, 플러그인 개발자 및 통합자에게 큰 구조적 변경사항입니다. 더 나아지는 거죠?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-08-03-Eslint9NextjsSetupGuide_1.png)
 
@@ -52,7 +70,18 @@ eslint         8.57.0    8.57.0   9.8.0  node_modules/eslint       my-app
 
 우리는 초기 상황을 제시했습니다. 다행스럽게도, ESLint 팀은 여러 이주 도구를 제공하는 데 열심히 노력해 왔습니다. 그러나 가장 간단한 Next.js 프로젝트조차 ESLint 9를 사용하도록 이주하는 것은 많은 문제를 야기합니다. 우리는 해결 방안으로 가는 길을 시연하려 합니다. 계속해서 우리의 my-app을 사용할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 저는 ESLint 9을 설치했어요
 
@@ -73,7 +102,18 @@ npm error this command with --force or --legacy-peer-deps
 npm error to accept an incorrect (and potentially broken) dependency resolution.
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 --force를 사용하여 npm install을 계속 진행하면 미래에 더 많은 문제를 발생시킬 수 있습니다. 대신, 우리는 의존성 간에 ESLint 특정 버전을 강제해야 합니다.
 
@@ -95,7 +135,18 @@ package.json 파일에서 의존성이 사용하는 ESLint 버전을 재정의�
  }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 좋아요, 문제를 해결하는 데 이것이 작동하는지 확인하기 위해 npm install을 실행합시다.
 
@@ -120,7 +171,18 @@ ESLint 9가 제대로 설치되었는데, 린터를 실행할 때 npm run lint�
 - 'reportUnusedDisableDirectives'가 제거되었습니다. 대신 'overrideConfig.linterOptions.reportUnusedDisableDirectives' 옵션을 사용하십시오.
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 Next.js 통합 ESLint 구성을 사용할 때 next 링크로 인해 발생합니다 (출처).
 
@@ -139,7 +201,18 @@ ESLint 9가 제대로 설치되었는데, 린터를 실행할 때 npm run lint�
  export default nextConfig;
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 패키지.json에서 자체 린트 규칙을 선언해야 합니다. 이 규칙은 빌드 규칙에서 사용될 것입니다.
 
@@ -178,7 +251,18 @@ https://eslint.org/docs/latest/use/configure/migration-guide
 https://eslint.org/chat/help
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 잘하고 있어요! 🙌 이제 새로운 flat config 파일을 만들어볼 수 있는 것 같아요.
 
@@ -190,10 +274,20 @@ ESLint에서 제공하는 eslint configuration migrator를 사용하여 새로�
 npx @eslint/migrate-config .eslintrc.json
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 Markdown 형식으로 요구된 표 태그를 변경해주세요.
-
 
 You might be prompted to install new eslint packages, let’s do that.
 
@@ -212,14 +306,25 @@ import { FlatCompat } from "@eslint/eslintrc";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const compat = new FlatCompat({
-    baseDirectory: __dirname,
-    recommendedConfig: js.configs.recommended,
-    allConfig: js.configs.all
+  baseDirectory: __dirname,
+  recommendedConfig: js.configs.recommended,
+  allConfig: js.configs.all,
 });
 export default [...compat.extends("next/core-web-vitals")];
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 번 더 npm run lint를 실행해 봐요!
 
@@ -245,7 +350,18 @@ ESLint가 "eslint-plugin-react-hooks" 플러그인을 찾지 못했어요.
 
 ## 누락된 ESLint 의존성 설치하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm install eslint-plugin-react-hooks@latest --save-dev
@@ -266,7 +382,18 @@ TypeError: context.getAncestors is not a function
 
 ESLint 9의 호환성 문제로 인해 새로운 문제가 발생했습니다. 특히, getAncestors context와 소스 코드 변경과 관련된 문제입니다. 이러한 문제는 상류에서 수정되지 않을 것이며, 대신 ESLint의 호환성 유틸리티를 사용할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## ESLint 호환 유틸리티 사용하기
 
@@ -278,7 +405,18 @@ npm install @eslint/compat -D
 
 이제 우리는 fixupPluginRules 함수에 액세스할 수 있게 되었습니다. 이전 @next/next/no-duplicate-head에서 이슈를 일으킨 플러그인 @next/next를 우리가 이전한 eslint.config.mjs 파일에서 찾게 될 것입니다. 아래 새로운 eslint.config.mjs 파일을 확인해 주세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import path from "node:path";
@@ -290,22 +428,22 @@ import { fixupPluginRules } from "@eslint/compat";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const compat = new FlatCompat({
-    baseDirectory: __dirname,
-    recommendedConfig: js.configs.recommended,
-    allConfig: js.configs.all
+  baseDirectory: __dirname,
+  recommendedConfig: js.configs.recommended,
+  allConfig: js.configs.all,
 });
 
-const compatConfig = [...compat.extends("next/core-web-vitals")]
+const compatConfig = [...compat.extends("next/core-web-vitals")];
 
 export default compatConfig.map((entry) => {
-    const plugins = entry.plugins;
-    for (const key in plugins) {
-      if (plugins.hasOwnProperty(key) && key === "@next/next") {
-        plugins[key] = fixupPluginRules(plugins[key]);
-      }
+  const plugins = entry.plugins;
+  for (const key in plugins) {
+    if (plugins.hasOwnProperty(key) && key === "@next/next") {
+      plugins[key] = fixupPluginRules(plugins[key]);
     }
-    return entry;
-  });
+  }
+  return entry;
+});
 ```
 
 알았어요, npm run lint 명령어로 다시 테스트해봅시다! 이번에는 잘 동작해야 할 거에요 🎉
@@ -315,7 +453,18 @@ export default compatConfig.map((entry) => {
 
 이제 잘 작동하는 구성 파일이 있으니, 정리하고 새로운 플러그인을 쉽게 추가하여 일반적인 문제를 수정할 수 있도록 리팩터링해봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // @ts-check
@@ -362,7 +511,17 @@ export default config;
 
 <img src="/assets/img/2024-08-03-Eslint9NextjsSetupGuide_2.png" />
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ESLint 팀과 Next.js 팀에게 특별한 감사를 전합니다! 두 팀의 노력 덕분에 새로운 최신 도구를 활성화할 수 있는 충분한 유틸리티, 옵션 및 설정이 제공되었습니다!

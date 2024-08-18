@@ -3,17 +3,13 @@ title: "라우터 펌웨어 역공학 및 백도어 설치 방법"
 description: ""
 coverImage: "/assets/img/2024-07-06-ReverseRouterFirmwareBackdooringIt_0.png"
 date: 2024-07-06 02:52
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-06-ReverseRouterFirmwareBackdooringIt_0.png
 tag: Tech
 originalTitle: "Reverse Router Firmware , Backdooring It…"
 link: "https://medium.com/@nahid0x1/reverse-router-firmware-backdooring-it-78ff442edb6c"
 isUpdated: true
 ---
-
-
-
-
 
 라우터 펌웨어는 네트워크 인프라의 중요한 구성 요소이며 보안이 자주 간과됩니다. 해커로서 라우터 펌웨어를 역공학 및 백도어링하는 방법을 이해하는 것이 중요합니다. 이 문서에서는 라우터 펌웨어를 역공학하고 백도어링하는 과정을 살펴보겠습니다.
 
@@ -25,7 +21,18 @@ isUpdated: true
 - Binwalk: 펌웨어 분석 도구
 - Firmware-Mod-Kit (github.com/rampageX/firmware-mod-kit)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단계 1: 대상 라우터 펌웨어 다운로드하기
 
@@ -35,7 +42,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-07-06-ReverseRouterFirmwareBackdooringIt_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Step 3: Firmware-mod-kit 다운로드하기
 
@@ -49,7 +67,18 @@ sudo apt-get install git build-essential zlib1g-dev liblzma-dev python3-magic au
 
 ![이미지](/assets/img/2024-07-06-ReverseRouterFirmwareBackdooringIt_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단계 4: 펌웨어 추출하기
 
@@ -61,7 +90,18 @@ firmware-mod-kit/extract-firmware.sh firmware.bin
 
 단계 5: rootfs 폴더로 이동하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 /assets/img/2024-07-06-ReverseRouterFirmwareBackdooringIt_6.png
 
@@ -71,8 +111,18 @@ firmware-mod-kit/extract-firmware.sh firmware.bin
 
 /assets/img/2024-07-06-ReverseRouterFirmwareBackdooringIt_7.png
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 cd bin
@@ -90,20 +140,41 @@ find . -name "*.sh" #이 명령어는 모든 .sh 파일을 검색합니다
 #찾은 .sh 파일에 "/bin/backdoor &"를 추가하세요
 ```
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 8단계: 펌웨어를 다시 빌드하세요
 
 /assets/img/2024-07-06-ReverseRouterFirmwareBackdooringIt_9.png
 
 ```js
-firmware-mod-kit/build-firmware.sh
+firmware - mod - kit / build - firmware.sh;
 ```
 
 9단계: 펌웨어 업로드
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 관리자 패널에 로그인하세요.
 - 업데이트 옵션을 찾으세요.
@@ -114,7 +185,18 @@ firmware-mod-kit/build-firmware.sh
 
 단계 9: 라우터 쉘에 액세스하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 msfconsole

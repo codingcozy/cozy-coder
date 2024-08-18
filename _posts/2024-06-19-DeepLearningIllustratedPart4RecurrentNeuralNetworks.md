@@ -3,7 +3,7 @@ title: "딥러닝 그림으로 쉽게 이해하기, 제4부 순환 신경망"
 description: ""
 coverImage: "/assets/img/2024-06-19-DeepLearningIllustratedPart4RecurrentNeuralNetworks_0.png"
 date: 2024-06-19 03:14
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-DeepLearningIllustratedPart4RecurrentNeuralNetworks_0.png
 tag: Tech
 originalTitle: "Deep Learning Illustrated, Part 4: Recurrent Neural Networks"
@@ -11,17 +11,24 @@ link: "https://medium.com/towards-data-science/deep-learning-illustrated-part-4-
 isUpdated: true
 ---
 
-
-
-
-
 저희의 그림으로 보여주는 딥러닝 여정 Part 4에 오신 것을 환영합니다! 오늘은 순환 신경망(Recurrent Neural Networks)에 대해 자세히 살펴보겠습니다. 입력, 출력, 활성화 함수 같은 익숙한 개념들에 대해 이야기할 건데, 조금씩 다른 면을 발견할 거에요. 그리고 이번이 여정의 첫 스탑이라면, 특히 Part 1과 Part 2를 읽어보시길 추천드립니다.
 
 순환 신경망(RNN)은 이전 상태에 의존하는 다음 위치에 영향을 받는 순서 기반 문제를 처리하기 위해 명시적으로 설계된 독특한 모델입니다.
 
 간단한 MIT 강의 예시로, 시간 tn에 특정 지점에 있는 공을 상상해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 우리가 볼의 방향을 예측하라는 요청을 받았다면, 추가 정보 없이는 추측의 일입니다. 볼은 아무 방향으로 움직일 수 있습니다.
 
@@ -31,7 +38,18 @@ isUpdated: true
 
 ![image](/assets/img/2024-06-19-DeepLearningIllustratedPart4RecurrentNeuralNetworks_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 우리는 공이 오른쪽으로 계속 움직일 것이라고 자신 있게 예측할 수 있습니다.
 
@@ -41,8 +59,18 @@ isUpdated: true
 
 감정 탐지에서는 텍스트 조각을 가져와 해당 텍스트가 긍정적인지 부정적인지 여부를 결정합니다. 오늘은 영화 리뷰를 입력으로 받아 그것이 긍정적인지 아닌지를 예측하는 RNN을 구축할 것입니다. 따라서 이 영화 리뷰를 고려해 봅시다...
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-19-DeepLearningIllustratedPart4RecurrentNeuralNetworks_4.png)
 
@@ -52,9 +80,18 @@ isUpdated: true
 
 첫째, 우리는 가변 입력 길이를 다루고 있습니다. 표준 신경망은 길이가 다른 입력을 처리하는 데 어려움을 겪습니다. 예를 들어, 만약 우리가 세 단어로 이루어진 영화 리뷰로 신경망을 훈련한다면, 우리의 입력 크기는 세 개로 고정될 것입니다. 그러나 더 긴 리뷰를 입력하고 싶다면 어떻게 해야 할까요?
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-DeepLearningIllustratedPart4RecurrentNeuralNetworks_5.png)
 
@@ -64,8 +101,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-19-DeepLearningIllustratedPart4RecurrentNeuralNetworks_6.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 도전에 직면할 때, 우리는 동적으로 입력을 순차적으로 처리할 수 있는 방법이 필요하다. 여기서 RNN이 빛을 발한다.
 
@@ -75,7 +122,18 @@ isUpdated: true
 
 그런 다음 이 정보를 사용하여 두 번째 단어 "was"를 처리한다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 위의 모든 정보를 사용하여 마지막 단어 "현저한(phenomenal)"을 처리하고 리뷰의 감정에 대한 예측을 제공해보겠습니다:
 
@@ -83,7 +141,18 @@ isUpdated: true
 
 신경망을 구성하기 전에 입력에 대해 논의해야 합니다. 신경망에 입력되는 값은 숫자여야 합니다. 그러나 여기서의 입력값은 단어이므로 이러한 단어를 숫자로 변환해야 합니다. 이를 수행하는 여러 가지 방법이 있지만, 오늘은 기본적인 방법을 사용하겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금은 10,000개의 단어로 이루어진 큰 사전이 있다고 상상해 봅시다. 우리는 (순진하게) 리뷰에 나오는 어떤 단어라도 이 10,000단어 사전 안에서 찾을 수 있다고 가정할 것입니다. 각 단어는 해당하는 숫자로 매핑되어 있습니다.
 
@@ -93,7 +162,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-19-DeepLearningIllustratedPart4RecurrentNeuralNetworks_11.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것을 10,000 개의 0으로 이루어진 행렬로 표현하되 8600번째 요소만 1인 형태로 나타내면 됩니다:
 
@@ -103,7 +183,18 @@ isUpdated: true
 
 ![Matrix](/assets/img/2024-06-19-DeepLearningIllustratedPart4RecurrentNeuralNetworks_13.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 우리는 단어를 신경망 친화적인 입력으로 변환하는 방법을 알아봤습니다.
 
@@ -113,7 +204,18 @@ isUpdated: true
 
 물론, 이것이 완전히 훈련된 신경망인 경우, 각 입력마다 연관된 가중치가 있고 뉴런들은 편향(bias) 항을 가지게 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![신규 이미지](/assets/img/2024-06-19-DeepLearningIllustratedPart4RecurrentNeuralNetworks_15.png)
 
@@ -123,7 +225,18 @@ isUpdated: true
 
 ![신규 이미지](/assets/img/2024-06-19-DeepLearningIllustratedPart4RecurrentNeuralNetworks_16.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째 기사에서 다룬 내용을 다시 상기해보자면, tanh 함수는 입력값을 받아 -1부터 1 사이의 출력값을 생성합니다. 큰 양수 입력은 1에 가까워지고, 큰 음수 입력은 -1에 가까워집니다.
 
@@ -133,7 +246,18 @@ isUpdated: true
 
 ![image](/assets/img/2024-06-19-DeepLearningIllustratedPart4RecurrentNeuralNetworks_18.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 활성화 함수들을 사용하면, 우리의 신경망은 다음과 같이 나타납니다:
 
@@ -143,7 +267,18 @@ isUpdated: true
 
 리뷰의 두 번째 단어 "was"를 입력으로 넣기 위해, 위의 신경망을 정확하게 복사하여 새로 만듭니다. 그러나, 입력으로 "that" 대신 "was"를 사용합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Deep Learning Illustrated Part 4 Recurrent Neural Networks 20](/assets/img/2024-06-19-DeepLearningIllustratedPart4RecurrentNeuralNetworks_20.png)
 
@@ -153,7 +288,18 @@ isUpdated: true
 
 이건 중요한 단계니까 천천히 살펴봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째 기사에서 우리는 각 뉴런의 처리가 두 단계로 이루어진다는 것을 배웠어요: 합산과 활성화 함수 (이 용어가 무엇을 의미하는지 잘 모르겠다면 첫 번째 기사를 읽어보세요). 이러한 과정이 첫 번째 신경망에서 어떻게 이루어지는지 살펴봅시다.
 
@@ -163,7 +309,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-19-DeepLearningIllustratedPart4RecurrentNeuralNetworks_23.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 입력값들을 각각의 가중치로 곱하고 편향 항을 모든 곱의 합에 더합니다:
 
@@ -173,7 +330,18 @@ isUpdated: true
 
 ![equation2](/assets/img/2024-06-19-DeepLearningIllustratedPart4RecurrentNeuralNetworks_25.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 다음, 2단계에서는 이 합계를 활성화 함수 tanh를 통해 전달합니다:
 
@@ -183,7 +351,18 @@ isUpdated: true
 
 이로써 첫 번째 신경망의 은닉층에서 출력 h₁을 생성합니다. 여기서 두 가지 옵션이 있습니다. h1을 출력 뉴론으로 전달하거나 다음 신경망의 은닉층으로 전달할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 (option 1) 만약 "that"에 대한 감성 예측을 하려면, h₁을 가져와서 출력 뉴런에 전달할 수 있습니다:
 
@@ -193,7 +372,18 @@ isUpdated: true
 
 ![image2](/assets/img/2024-06-19-DeepLearningIllustratedPart4RecurrentNeuralNetworks_29.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <table>
   <tr>
@@ -211,7 +401,18 @@ isUpdated: true
 
 …이것으로 우리가 예측한 긍정적인 감정 값이 나옵니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image 1](/assets/img/2024-06-19-DeepLearningIllustratedPart4RecurrentNeuralNetworks_32.png)
 
@@ -221,7 +422,18 @@ However, that's not what we aim for. Instead of passing h₁ to the output neuro
 
 ![Image 2](/assets/img/2024-06-19-DeepLearningIllustratedPart4RecurrentNeuralNetworks_33.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 신경망의 다른 부분과 마찬가지로 우리는 한 숨김층에서 다른 숨김층으로의 입력에 대한 입력 가중치 wₕₕ를 가지고 있습니다. 숨김층은 h₁을 h₁과 wₕₕ의 곱을 합산 단계에 추가함으로써 통합합니다. 따라서 두 번째 신경망 뉴런의 숨김층의 업데이트된 합산 단계는 다음과 같습니다:
 
@@ -231,7 +443,18 @@ However, that's not what we aim for. Instead of passing h₁ to the output neuro
 
 그런 다음이 합산은 tanh 함수를 통과합니다...
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 두 번째 신경망의 은닉 레이어에서 출력되는 h₂를 생성합니다:
 
@@ -239,8 +462,18 @@ However, that's not what we aim for. Instead of passing h₁ to the output neuro
 
 여기서 다시, h₂를 출력 뉴런을 통해 전달하여 감성 예측을 얻을 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image 1](/assets/img/2024-06-19-DeepLearningIllustratedPart4RecurrentNeuralNetworks_38.png)
 
@@ -250,9 +483,18 @@ However, that's not what we aim for. Instead of passing h₁ to the output neuro
 
 하지만 리뷰는 여기서 끝나지 않는다는 것을 알고 있습니다. 그래서 이전의 숨겨진 레이어 출력 값을 현재의 숨겨진 레이어에 전달하여 이 프로세스를 한 번 더 복제할 것입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image 1](/assets/img/2024-06-19-DeepLearningIllustratedPart4RecurrentNeuralNetworks_40.png)
 
@@ -262,8 +504,18 @@ We process the hidden layer neuron...
 
 ...to an output, h₃:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 리뷰에서 마지막 단어이자 마지막 입력이기 때문에, 우리는 이 데이터를 외부 뉴런에 전달합니다...
 
@@ -271,7 +523,18 @@ We process the hidden layer neuron...
 
 ... 그리고 이를 통해 감정의 최종 예측을 제공합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-DeepLearningIllustratedPart4RecurrentNeuralNetworks_44.png" />
 
@@ -281,7 +544,18 @@ We process the hidden layer neuron...
 
 ## 형식적 표현
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 다이어그램을 자세히 설명하면 다음과 같습니다:
 
@@ -291,8 +565,18 @@ We process the hidden layer neuron...
 
 본질적으로, 이것은 이 신경망의 단순화된 버전입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![딥러닝 일러스트레이티드 파트 4: 순환 신경망 (RNN)](/assets/img/2024-06-19-DeepLearningIllustratedPart4RecurrentNeuralNetworks_47.png)
 
@@ -302,22 +586,39 @@ We process the hidden layer neuron...
 
 이 프로세스의 본질은 출력값을 은닉층으로 순환해서 되돌린다는 점이며, 이것이 왜 순환 신경망이라고 불리는지에 대한 이유입니다. 이는 종종 교과서에서 신경망이 어떻게 표현되는지 보여주는 방식입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 수학적으로 이 문제를 두 가지 기본 방정식으로 요약할 수 있어요:
 
-
 ![equation1](/assets/img/2024-06-19-DeepLearningIllustratedPart4RecurrentNeuralNetworks_49.png)
-
 
 첫 번째 방정식은 숨겨진 상태 내에서 발생하는 전체 선형 변환을 포함해요. 이 경우, 이 변환은 개별 뉴런 내에서의 tanh 활성화 함수예요. 두 번째 방정식은 출력 층에서 발생하는 변환을 나타내며, 이는 저희 예시에서 시그모이드 활성화 함수에 해당돼요.
 
-
 ![equation2](/assets/img/2024-06-19-DeepLearningIllustratedPart4RecurrentNeuralNetworks_50.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # RNN이 해결하는 문제 유형
 
@@ -327,21 +628,39 @@ We process the hidden layer neuron...
 
 ![image](/assets/img/2024-06-19-DeepLearningIllustratedPart4RecurrentNeuralNetworks_51.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다른 예는 텍스트 완성입니다. 단어 문자열을 제공하면 RNN이 다음 단어를 예측하도록 원합니다.
 
-
 <img src="/assets/img/2024-06-19-DeepLearningIllustratedPart4RecurrentNeuralNetworks_52.png" />
-
 
 ## One-To-Many
 
-
 <img src="/assets/img/2024-06-19-DeepLearningIllustratedPart4RecurrentNeuralNetworks_53.png" />
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 원 대 다 문제의 고전적인 예는 이미지 캡션입니다. 여기서 하나의 입력은 이미지이고 출력은 여러 단어로 구성된 캡션이 됩니다.
 
@@ -351,17 +670,39 @@ We process the hidden layer neuron...
 
 이 유형의 RNN은 기계 번역과 같은 작업에 사용됩니다. 예를 들어 영어 문장을 힌디어로 번역하는 작업입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단점
 
 이제 RNN이 작동하는 방식을 자세히 살펴보았으니, 왜 그들이 널리 사용되지 않는지 살펴볼 가치가 있습니다 (스토리 전환!). 잠재력이 있음에도 불구하고, RNN은 특히 Vanishing Gradient Problem이라고 하는 것 때문에 교육 과정 중에 중요한 도전에 직면합니다. 이 문제는 RNN을 더 많이 펼치면서 더욱 악화되며, 결국 교육 과정을 복잡하게 만듭니다.
 
-이상적인 세상에서는 RNN이 현재 단계 입력과 이전 단계의 입력을 모두 동등하게 고려하는 것을 원합니다: 
+이상적인 세상에서는 RNN이 현재 단계 입력과 이전 단계의 입력을 모두 동등하게 고려하는 것을 원합니다:
 
 ![image](/assets/img/2024-06-19-DeepLearningIllustratedPart4RecurrentNeuralNetworks_55.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 실제로는 다음과 같이 보입니다:
 
@@ -371,7 +712,18 @@ We process the hidden layer neuron...
 
 입력이 세 개인 경우에는 이 문제가 그리 두드러지지 않습니다. 그렇다면 입력이 여섯 개인 경우는 어떨까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 두 단계에서의 정보가 마지막 단계에서는 거의 없음을 발견했습니다. 이는 중요한 문제입니다.
 
@@ -381,8 +733,18 @@ We process the hidden layer neuron...
 
 그러나 단어가 추가될수록 RNN은 다음 단어를 정확하게 예측하기 어려워 질 수 있습니다. 처음 단어에서 예측해야 할 단어 사이의 거리가 늘어나면서 RNN이 초기 단어들이 제공하는 문맥을 잊어버리기도 할 수 있기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-DeepLearningIllustratedPart4RecurrentNeuralNetworks_58.png" />
 
@@ -392,9 +754,18 @@ We process the hidden layer neuron...
 
 이전에 우리는 감성 예측을 다루는 다른, 훨씬 더 나은 방법에 대해 이야기했습니다. 출력 뉴런에 대한 활성화 함수를 결정했을 때로 돌아가보겠습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Deep Learning Illustrated](/assets/img/2024-06-19-DeepLearningIllustratedPart4RecurrentNeuralNetworks_59.png)
 
@@ -404,8 +775,18 @@ We process the hidden layer neuron...
 
 ![Deep Learning Illustrated](/assets/img/2024-06-19-DeepLearningIllustratedPart4RecurrentNeuralNetworks_60.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 다시 한번 생각해보면, 이 결과가 크게 만족스럽지는 않습니다. 긍정적 감정의 낮은 확률은 반드시 부정적이라는 것을 의미하는 것은 아닙니다. 입력이 중립적이었을 수도 있습니다. 그렇다면 이를 어떻게 개선할 수 있을까요?
 
@@ -415,7 +796,18 @@ We process the hidden layer neuron...
 
 ![이미지](/assets/img/2024-06-19-DeepLearningIllustratedPart4RecurrentNeuralNetworks_61.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 네트워크의 각 뉴런에 시그모이드 함수를 적용하여, 확률을 출력하기 위해 단일 출력 뉴런 네트워크에서 사용한 것과 동일한 원리를 적용할 수 있습니다.
 
@@ -425,7 +817,18 @@ We process the hidden layer neuron...
 
 ![image](/assets/img/2024-06-19-DeepLearningIllustratedPart4RecurrentNeuralNetworks_63.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 문제가 있습니다: 확률이 올바르게 합산되지 않습니다 (0.1 + 0.2 + 0.85 != 1) 그래서 이것은 그다지 좋은 해결책이 아닙니다. 출력 뉴런 모두에 시그모이드 함수를 간단히 적용하는 것으로는 문제를 해결할 수 없습니다. 세 개의 출력 간에 이러한 확률을 정규화하는 방법을 찾아야 합니다.
 
@@ -435,7 +838,18 @@ We process the hidden layer neuron...
 
 처음에는 복잡해 보일 수 있지만, 소프트맥스 함수는 실제로 매우 직관적입니다. 간단히 말해 출력 뉴런에서 출력 값 (y_hat)을 가져와 정규화합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 이 세 개의 출력 뉴런에 대해서는 어떤 활성화 함수도 사용하지 않아야 한다는 것이 중요합니다. 출력 (y_hats)은 합산 단계 직후에 직접 얻는 결과가 될 것입니다.
 
@@ -445,21 +859,39 @@ We process the hidden layer neuron...
 
 마찬가지로, 부정적인 결과와 중립 결과의 확률 예측을 얻을 수도 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래와 같이 작동해 봅시다. 예를 들어, "terrible"가 입력으로 주어지면 다음과 같은 y_hat 값들이 나타날 것입니다:
 
-
 ![image](/assets/img/2024-06-19-DeepLearningIllustratedPart4RecurrentNeuralNetworks_66.png)
-
 
 그런 다음이 값을 가져와 softmax 공식에 대입하여 "terrible"라는 단어가 긍정적인 함축을 가질 확률을 계산할 수 있습니다.
 
-
 ![image](/assets/img/2024-06-19-DeepLearningIllustratedPart4RecurrentNeuralNetworks_67.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 의미는 감성 뉴런에서 출력된 결합된 결과를 사용하면 "terrible"이 긍정적인 감정을 가진다는 확률이 0.05인 것을 의미합니다.
 
@@ -469,7 +901,18 @@ We process the hidden layer neuron...
 
 그리고 "terrible"이 부정적이라고 예측되는 확률은:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-DeepLearningIllustratedPart4RecurrentNeuralNetworks_69.png" />
 

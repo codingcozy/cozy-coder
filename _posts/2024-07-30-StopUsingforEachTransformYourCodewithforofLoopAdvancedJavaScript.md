@@ -3,7 +3,7 @@ title: "이제 forEach 대신 for of 루프를 사용해야하는 이유"
 description: ""
 coverImage: "/assets/img/2024-07-30-StopUsingforEachTransformYourCodewithforofLoopAdvancedJavaScript_0.png"
 date: 2024-07-30 17:20
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-30-StopUsingforEachTransformYourCodewithforofLoopAdvancedJavaScript_0.png
 tag: Tech
 originalTitle: "Stop Using forEach Transform Your Code with forof Loop  Advanced JavaScript"
@@ -11,17 +11,24 @@ link: "https://medium.com/gitconnected/stop-using-foreach-transform-your-code-wi
 isUpdated: true
 ---
 
-
-
-
-
 JavaScript 및 TypeScript의 세계에서 배열을 반복하는 것은 일반적인 작업입니다. 많은 개발자들이 간편함과 익숙함을 이유로 .forEach를 기본으로 선택합니다.
 
 그러나 더 강력하고 다재다능한 대안이 있습니다: for...of 루프. 🔮
 
 이 글에서는 for...of로 전환을 고려해야 하는 이유와 어떻게 하면 코딩 루틴을 더 효율적이고 표현력있게 만들 수 있는지 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 기초 이해: .forEach vs. for...of 🔧
 
@@ -31,7 +38,18 @@ JavaScript 및 TypeScript의 세계에서 배열을 반복하는 것은 일반�
 
 ![이미지](/assets/img/2024-07-30-StopUsingforEachTransformYourCodewithforofLoopAdvancedJavaScript_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # for...of 루프
 
@@ -41,7 +59,18 @@ ES6에서 소개된 for...of 루프는 배열을 포함한 반복 가능한 객�
 
 # for...of를 선호하는 이유? 🌼
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 .forEach는 간결하고 사용하기 쉽지만, for...of는 코딩 실력을 향상시킬 수 있는 여러 가지 장점을 제공합니다.
 
@@ -51,7 +80,18 @@ ES6에서 소개된 for...of 루프는 배열을 포함한 반복 가능한 객�
 
 비동기 코드와 함께 .forEach 사용하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-30-StopUsingforEachTransformYourCodewithforofLoopAdvancedJavaScript_3.png" />
 
@@ -61,7 +101,18 @@ forEach 루프를 사용하여 배열을 반복하는 주요 하향 방향은 �
 
 비동기 코드와 함께 for...of 사용하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 예제입니다. 각 fetch 작업은 이전 작업이 완료될 때까지 기다리므로 순차적 실행과 더 예측 가능한 동작이 보장됩니다.
 
@@ -69,7 +120,18 @@ forEach 루프를 사용하여 배열을 반복하는 주요 하향 방향은 �
 
 forEach 메서드는 break 및 continue 문을 지원하지 않으므로 특정 시나리오에서 그 유연성이 제한될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 for...of를 사용하여 루프 중단하기
 
@@ -79,7 +141,18 @@ for...of를 사용하여 루프 계속하기
 
 ![이미지](/assets/img/2024-07-30-StopUsingforEachTransformYourCodewithforofLoopAdvancedJavaScript_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 기능들은 for...of 루프를 더욱 강력하고 복잡한 반복 논리에 유연하게 사용할 수 있도록 만듭니다.
 
@@ -89,7 +162,18 @@ for...of 루프는 중첩된 구조물이나 복잡한 작업을 처리할 때 �
 
 이 다차원 배열을 반복하는 예시를 살펴보세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 중첩 반복에 .forEach 사용하기
 
@@ -99,7 +183,18 @@ for...of 루프는 중첩된 구조물이나 복잡한 작업을 처리할 때 �
 
 ![이미지](/assets/img/2024-07-30-StopUsingforEachTransformYourCodewithforofLoopAdvancedJavaScript_8.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 for...of 버전은 더 깔끔하고 이해하기 쉬워서 유지 보수가 쉬워집니다.
 
@@ -109,7 +204,18 @@ for...of 버전은 더 깔끔하고 이해하기 쉬워서 유지 보수가 쉬�
 
 보통 배열과 함께 사용되는 for...of로 Object.entries를 사용하여 객체를 반복할 수도 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![그림](/assets/img/2024-07-30-StopUsingforEachTransformYourCodewithforofLoopAdvancedJavaScript_9.png)
 
@@ -119,7 +225,18 @@ for...of 버전은 더 깔끔하고 이해하기 쉬워서 유지 보수가 쉬�
 
 ![그림](/assets/img/2024-07-30-StopUsingforEachTransformYourCodewithforofLoopAdvancedJavaScript_10.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## for...of과 구조 분해 결합하기
 
@@ -129,7 +246,18 @@ for...of 버전은 더 깔끔하고 이해하기 쉬워서 유지 보수가 쉬�
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JavaScript/TypeScript 프로젝트에서 .forEach에서 for...of로 전환하는 것은 비동기 코드를 더 잘 다루고 루프 실행을 더 잘 제어하며 가독성을 향상시키는 여러 이점을 제공할 수 있습니다.
 

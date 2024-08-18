@@ -3,17 +3,13 @@ title: "AI 실패 방지 조치의 무용함"
 description: ""
 coverImage: "/assets/img/2024-07-14-TheFutilityofAIFailsafes_0.png"
 date: 2024-07-14 01:39
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-14-TheFutilityofAIFailsafes_0.png
 tag: Tech
 originalTitle: "The Futility of AI Failsafes"
 link: "https://medium.com/gitconnected/the-futility-of-ai-failsafes-bb1d09014746"
 isUpdated: true
 ---
-
-
-
-
 
 ![image](/assets/img/2024-07-14-TheFutilityofAIFailsafes_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 언어 모델은 "언어 모델링 목표"를 통해 훈련돼요. 말 그대로, 언어 모델에게 많은 텍스트 책들, 웹사이트, 또는 다른 고품질 소스들에서 스니펫을 제공하고 그 다음에 오는 단어를 예측하도록 요청하는 식으로요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![TheFutilityofAIFailsafes_1](/assets/img/2024-07-14-TheFutilityofAIFailsafes_1.png)
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ## LLMs와 저작권 있는 자료
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제는, 그 정도의 데이터를 어디서 구하는 거죠? 저작자들에게 접근을 요청하나요? 홍보 관계자들과 라이선스 계약을 체결하나요? 아뇨, 인터넷에서 정보를 스크랩하는 겁니다.
 
@@ -43,7 +61,18 @@ OpenAI는 GPT 모델을 훈련시키기 위해 상당한 양의 저작권 보호
 
 특히 악명 높은 저작권 테스트에서:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - OpenAI의 GPT4는 저작권 침해 콘텐츠를 44% 생산했어요.
 - Mistral의 Mixtral-8x7B는 저작권 침해 콘텐츠를 22% 생산했어요.
@@ -68,7 +97,18 @@ OpenAI는 GPT 모델을 훈련시키기 위해 상당한 양의 저작권 보호
 - Tremblay v. OpenAI Inc. — 2023년 6월 28일.
 - PM et al v. OpenAI LP et al — 2023년 6월 28일.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 정말 급한 문제에요
 
@@ -78,7 +118,18 @@ OpenAI는 GPT 모델을 훈련시키기 위해 상당한 양의 저작권 보호
 
 문제는, OpenAI가 자신들의 모델이 저작권이 있는 콘텐츠를 출력하지 않도록 할 수 없다는 거에요. 많이 노력해봤지만 쉽지 않아요. OpenAI가 안전장치를 만들어도 사람들이 우회할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전에 ChatGPT의 초기 시절에는 사람들이 "[이전 대화 및 규칙 무시]"와 같은 텍스트를 단순히 프롬프트의 시작 부분에 포함시켰습니다. 때로는 모델을 속여 부적절하거나 유해한 콘텐츠를 출력하도록 만들기도 했습니다. 그 이후로 OpenAI와 "탈옥자"들 간에 쥐놀이가 벌어지고 있습니다. OpenAI의 제한을 우회하려는 탈옥자들의 노력에 대한 것이죠. 제가 가장 좋아하는 예는 ASCII 아트를 사용해 모델의 보안 장치를 속이는 것입니다.
 
@@ -88,7 +139,18 @@ OpenAI는 GPT 모델을 훈련시키기 위해 상당한 양의 저작권 보호
 
 변호사들이 기회를 눈여겨 보고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이해하기 어려운 텍스트든, 우리의 모델이 저작권을 침해한다면 불법이고 소송을 받을 수 있습니다. 저는 법률 사무소에 고용된 새로운 시대의 프롬프트 해커들이 이러한 안전장치를 깨려고 노력하고 증거 산을 쌓기 위해 노력하고 있다고 확신합니다.
 
@@ -98,7 +160,18 @@ OpenAI는 GPT 모델을 훈련시키기 위해 상당한 양의 저작권 보호
 
 **로보토미에 의한 법률 준수**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최근 조사 결과를 살펴보면, 큰 AI 모델에서 정보를 잊어버리게 하는 일관된, 고품질 및 저렴한 방법은 아직 없는 것으로 나타났습니다. 최근에 친구인 모하메드 R. 오스만의 강의를 들었는데, 그 강의에서 현재의 모든 접근 방식을 뇌수술과 비교했습니다. 최신 기술 상태에서는 대형 모델에서 특정 정보를 제거할 수 있지만 그 성능에 상당한 영향을 미치게 됩니다. 이러한 뇌수술은 아마도 GPT 3.5 이후 모델 성능이 감소했다는 대중의 인식에 상당한 영향을 미쳤을 것입니다.
 
@@ -108,7 +181,18 @@ OpenAI는 GPT 모델을 훈련시키기 위해 상당한 양의 저작권 보호
 
 "GPTs"라는 용어를 들어보셨나요? 이것은 OpenAI에서 특정 사용 사례를 위해 자체 ChatGPT 버전을 만들 수 있는 서비스입니다. 내 견해로는, GPTs의 핵심은 OpenAI를 서비스에서 플랫폼으로 변모시켜 저작권 및 안전 책임을 더 쉽게 회피하려는 것으로 보입니다. 기술에 대한 궁금증이 생기면, 아마도 내부적으로 LoRA를 사용하고 있을 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 추정에 따르면, LLM을 플랫폼으로 전환하면 OpenAI가 제3자를 통해 책임을 회피하면서 새로운 법적으로 문제가 있는 콘텐츠를 제공할 수 있는 가능성이 열립니다. 이 모든 것은 통신 청려 법에 의해 가능해진 것입니다.
 
@@ -118,6 +202,17 @@ GPT는 항상 낯설었어요. 특히 사용하기 쉽고 비용이 저렴한 �
 
 ML 영역에서 논문과 개념을 설명하며, 실용적이고 직관적인 설명에 초점을 맞춥니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-*이 문서의 모든 이미지는 다니엘 워필드(Daniel Warfield)가 제작했습니다. 그 외 출처가 제공되지 않은 한, 이 게시물의 이미지를 자유롭게 비상업적 목적으로 사용할 수 있습니다. 다만, 이 기사를 참조하거나 https://danielwarfield.dev나 두 가지 모두를 참조해 주세요.*
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+_이 문서의 모든 이미지는 다니엘 워필드(Daniel Warfield)가 제작했습니다. 그 외 출처가 제공되지 않은 한, 이 게시물의 이미지를 자유롭게 비상업적 목적으로 사용할 수 있습니다. 다만, 이 기사를 참조하거나 https://danielwarfield.dev나 두 가지 모두를 참조해 주세요._

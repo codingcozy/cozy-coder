@@ -3,17 +3,13 @@ title: "OctoPrint로 Z 오프셋 조정하는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-23-26HowtocalibrateZoffsetusingOctoPrint_0.png"
 date: 2024-06-23 17:24
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-26HowtocalibrateZoffsetusingOctoPrint_0.png
 tag: Tech
 originalTitle: "26. How to calibrate Z offset using OctoPrint?"
 link: "https://medium.com/@hellosimplexdesigns/26-how-to-calibrate-z-offset-using-octoprint-e7b03630a0ff"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-23-26HowtocalibrateZoffsetusingOctoPrint_0.png" />
 
@@ -38,7 +34,18 @@ G1 F60 Z0
 M211 S0
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 용접기 갈고리를 침대 쪽으로 천천히 이동시켜서 종이가 거의 움직이지 않을 때까지 맞춰주세요. Octoprint의 제어 탭을 사용하여 Z 축을 조정해보세요. 프린터 디스플레이에 표시된 Z 값을 확인하세요. 그 숫자에 균질 측정지나 장치의 측정 값을 더해보세요. A4용지 한 장은 대략 0.05mm 두꺼워요.
 
@@ -60,7 +67,18 @@ Octoprint의 터미널 탭:
 
 ![Octoprint Terminal Tab](/assets/img/2024-06-23-26HowtocalibrateZoffsetusingOctoPrint_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 10월 3일 Octoprint의 Control 탭에서 Z축 이동에 대한 미세 조정을 할 수 있어요:
 
@@ -70,7 +88,18 @@ Octoprint의 터미널 탭:
 
 BLTouch 침대 레벨링 프로브로 Z 오프셋 보정하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가이드: 오토 베드 레벨링 (ABL) 센서를 교정하는 방법
 

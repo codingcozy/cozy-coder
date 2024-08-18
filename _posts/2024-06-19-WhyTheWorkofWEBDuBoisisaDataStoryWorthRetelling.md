@@ -3,17 +3,13 @@ title: "WEB Du Bois의 업적이 되풀이 할 가치 있는 데이터 스토리
 description: ""
 coverImage: "/assets/img/2024-06-19-WhyTheWorkofWEBDuBoisisaDataStoryWorthRetelling_0.png"
 date: 2024-06-19 15:41
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-WhyTheWorkofWEBDuBoisisaDataStoryWorthRetelling_0.png
 tag: Tech
 originalTitle: "Why The Work of W.E.B. Du Bois is a Data Story Worth Retelling"
 link: "https://medium.com/data-storytelling-corner/why-the-work-of-w-e-b-du-bois-is-a-data-story-worth-retelling-9009f51a0f25"
 isUpdated: true
 ---
-
-
-
-
 
 ![Image](/assets/img/2024-06-19-WhyTheWorkofWEBDuBoisisaDataStoryWorthRetelling_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 W.E.B. Du Bois의 Data Portraits: Visualizing Black America (휘트니 배틀-바티스트와 브릿 루설트의 편집)은 W.E.B. Du Bois와 그 팀이 인종 차별 반대를 위해 데이터 시각화를 도구로 활용한 노력을 문서화한 책이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 책(및 듀보이스 박사의 작품)은 흑인 역사에 대한 교훈일 뿐만 아니라, 현대 데이터 시각화와 이야기의 기원을 엿볼 수 있는 창이기도 합니다.
 
@@ -33,7 +40,18 @@ W.E.B. Du Bois의 Data Portraits: Visualizing Black America (휘트니 배틀-�
 
 # 현대 데이터 시각화의 탄생
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 '배틀-바티스테와 루서트' 책 편집자들이 언급했듯이, 드. 듀 보이의 데이터 시각화 초상화는 사회학과 통계학이 오늘날 우리가 친숙한 학문 전문화와 지식 구조로 굳어지기 직전의 순간을 반영하고 있습니다.
 
@@ -43,7 +61,18 @@ W.E.B. Du Bois의 Data Portraits: Visualizing Black America (휘트니 배틀-�
 
 ![image](/assets/img/2024-06-19-WhyTheWorkofWEBDuBoisisaDataStoryWorthRetelling_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 수백 년 동안 아프리카인을 다양한 대서양 지역으로 운송한 노예 무역의 경로를 보여주는 이 지도는 세 대륙에서 흑인들의 분포를 시각적으로 나타냅니다(전체 약 1200-1700만 명으로 추정).
 
@@ -53,7 +82,18 @@ W.E.B. Du Bois의 Data Portraits: Visualizing Black America (휘트니 배틀-�
 
 ![](/assets/img/2024-06-19-WhyTheWorkofWEBDuBoisisaDataStoryWorthRetelling_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 어두운 색깔을 사용한 것 - 노온색으로 노온자를 나타내는 것 - 이 인상적입니다. 저에게는 시각화를 압도하는 큰 악성 종양 덩어리처럼 보입니다. 1860년 기준으로, 전체 아프리카계 미국인 인구의 거의 90%가 노온자였습니다.
 
@@ -63,7 +103,18 @@ W.E.B. Du Bois의 Data Portraits: Visualizing Black America (휘트니 배틀-�
 
 ![이미지](/assets/img/2024-06-19-WhyTheWorkofWEBDuBoisisaDataStoryWorthRetelling_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 차트는 시대적으로 좌절한 흑인들이 열등하다는 생각을 반박하며, 다윈의 진화 이론에 따르면, 동일종의 열등한(불리한) 구성원들은 서서히 사라져 우수한(유리한) 구성원들만 생존하는 것에 대해 바로 전해줍니다.
 
@@ -73,7 +124,18 @@ W.E.B. Du Bois의 Data Portraits: Visualizing Black America (휘트니 배틀-�
 
 이 차트는 당시 아프리카계 미국인의 문맹률이 사실 러시아, 세르비아, 루마니아보다 낮았음을 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1900년 파리 전시회의 맥락에서 보면, 듀보이스 박사와 그의 팀은 자신들의 관객이 누구인지 이해하고, 그들에게 가장 효과적인 데이터 시각화와 이야기가 무엇인지를 이해했음을 보여 주었습니다.
 
@@ -83,7 +145,18 @@ W.E.B. Du Bois의 Data Portraits: Visualizing Black America (휘트니 배틀-�
 
 애틀랜타 대학에서 듀보이스 박사는 사회학과 경험적 방법을 가르치기에 선구자였습니다. 듀보이스 박사는 자신의 학생들을 남부 흑인 커뮤니티와 인종 간 관계에 대한 데이터 수집 및 분석 현장조사에 참여하도록 유도했습니다. 그 중 일부 현재와 전 학생들은 1900년 파리 전시회를 위해 시각화를 만드는 데 협력했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 흑인 여성들은 이 아름다운 시각화물을 만드는 연구에 지식, 전문성, 그리고 시간을 기여한 연구원 중 하나였습니다 (사회학적 지식의 공동 제작자)
 
@@ -93,7 +166,18 @@ W.E.B. Du Bois의 Data Portraits: Visualizing Black America (휘트니 배틀-�
 
 “W.E.B. Du Bois’s Data Portraits: Visualizing Black America”를 통해 읽은 후에, 나에게 주는 두 가지 주요 요점이 있습니다. 이 책이 다음과 같은 역할을 한다는 것을:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 역사적으로 중요한 순간에 아프리카계 미국인들의 사회 경제적 지위에 대한 통찰력을 제공하는 역사 문서,
 - 사회 연구와 선전에서 데이터 시각화의 혁신적인 활용을 보여주는 전시품.
@@ -104,7 +188,18 @@ W.E.B. Du Bois의 Data Portraits: Visualizing Black America (휘트니 배틀-�
 
 읽어주셔서 감사합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 이러한 유형의 이야기가 당신의 취향이고, 저를 작가로 지원하고 싶다면, 나의 Substack를 구독해주세요.
 

@@ -3,17 +3,13 @@ title: "당신이 프론트엔드 개발자입니다 위의 텍스트를 친근�
 description: ""
 coverImage: "/assets/img/2024-05-27-WhenMichelangeloMetMinecraftTheHilariousWorldof3DPrintedSculpture_0.png"
 date: 2024-05-27 13:30
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-WhenMichelangeloMetMinecraftTheHilariousWorldof3DPrintedSculpture_0.png
 tag: Tech
 originalTitle: "When Michelangelo Met Minecraft: The Hilarious World of 3D Printed Sculpture"
 link: "https://medium.com/@sciencestyled/when-michelangelo-met-minecraft-the-hilarious-world-of-3d-printed-sculpture-ea7fd90d2613"
 isUpdated: true
 ---
-
-
-
-
 
 ![image](/assets/img/2024-05-27-WhenMichelangeloMetMinecraftTheHilariousWorldof3DPrintedSculpture_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 3D 프린팅 또는 "다른 것에서 물건을 만드는 것이라고 부르고 싶은"것은 디지털 디자인에서 물리적 물체를 만드는 과정입니다. 인터넷에서 피자를 다운로드 하는 것 같지만, 페퍼로니 대신에... 무엇이든! 프린터에게 조각품을 만들라고 부탁하면요. 프린트, 프린트, 프린트, 그렇죠, 자신만의 소형 요다 또는 더 교양 있는 분들을 위해 피카소 영감을 받은 바나나 홀더가 나옵니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 강인한 새로운 세계에서 아티스트들이 기술 지식과 다빈치적 재능을 가진 것처럼, 가능성은 인터넷의 고양이 동영상 공급만큼 끝이 없습니다. 현대 미술 갤러리를 한 바퀴 돌면, 게임 오브 스로운의 줄거리보다 더 복잡한 3D 프린팅 조각물을 볼 수 있습니다. 재빠르게 날아갈 것 같은 섬세한 레이스 구조물에서 유쾌한 화환 무브먼트를 보여주는 튼튼한, 기능적인 조각들까지, 이 기술은 돌고 도는 동기화된 수영 루틴처럼 전통 조각을 뒤집고 있습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 여기서 정말 열정적인 부분입니다, 친구들: 맞춤 조각. 우리는 바다 쓰레기에서 만든 신발이나 유니콘 눈물에 담가 만든 예술 씨우거리같이 제작된 화장품처럼 맞춤형, 독특한 제품에 최상의 가격을 지불하는 시대에 살고 있습니다. 3D 프린팅으로 조각가들은 정확히 당신의 기분에 맞춘 개인화된 걸작을 만들어낼 수 있습니다. 중세 기사로 변장한 자신의 동상을 타고 T-렉스를 타는 동상을 원하시나요? 원했습니다. 앞문을 지키기 위해 Groot의 인형 모양 대형 복제본이 필요한가요? 문제없습니다. 귀하의 상상력(그리고 아마도 예산)이 제한입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 페도라와 인피니티 스카프를 꽉 쥐고 기다려보세요. 예술의 즐거움에서 멈추지 않는 혁명이야. 3D 프린팅은 전통 조각의 세계를 흔들며 예전 학팅 아티스트들이 오히려 압실에서 비틀거리게 만들 정도로 혁신을 가져왔군요. 예술가들은 이제 디지털 시대에는 상상할 수 없던 재료와 기술을 실험할 수 있어요. 바이오 플라스틱부터 금속 합금까지, 매체 자체가 메시지의 일부가 되어 의미의 층이 빠르게 더해지는 걸 당신이 "인셉션"이라고 말하기 전에 말이죠.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 우리가 이 예술의 르네상스를 즐기는 동안(말장난이지만), 3D 프린팅의 민주화 능력을 주목하는 게 중요해요. 당신이 몇 년간의 훈련을 받은 대가 스컬프터 마스터가 아니어도 괜찮아요. 단지 적절한 도구에 접근하고 창의적인 열정만 있다면 되거든요. 입장 장벽은 쿠키 몬스터의 손에서 곤두박질쳐 부서지는 것처럼 무너져내렸어요. 꿈과 디지털 도면을 가진 누구라도 가장 황당한 아이디어를 현실로 이뤄낼 수 있게 됐답니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래요, 여기서 우리는 어디로 가야 할까요? 3D 프린트 조각의 미래는 어떨까요? 잘 지켜보면 현 현상만큼만 보나 보좌니 전통적이고 디지털 조각 기법이 아름다운 혼돈의 댄스로 공존하는 세상으로 향하고 있어요. 고대 대리석 조각상이 3D 프린트 버전과 어깨를 나란히 하며 전시되는 갤러리를 상상해보세요. 각 작품이 인간 창의력의 끊임없이 발전하는 이야기의 증거가 되는 곳이죠.
 

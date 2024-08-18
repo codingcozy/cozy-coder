@@ -3,17 +3,13 @@ title: "맥OS Sequoia 베타 릴리스 1에서 OpenAI의 원본 ChatGPT 앱을 �
 description: ""
 coverImage: "/assets/img/2024-06-19-HowtoGettheOriginalChatGPTAppbyOpenAIWorkingAgainonmacOSSequoiaBetaRelease1_0.png"
 date: 2024-06-19 01:04
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-HowtoGettheOriginalChatGPTAppbyOpenAIWorkingAgainonmacOSSequoiaBetaRelease1_0.png
 tag: Tech
 originalTitle: "How to Get the Original ChatGPT App by OpenAI Working Again on macOS Sequoia Beta Release 1"
 link: "https://medium.com/@kristoffer.sodersten/how-to-get-the-original-chatgpt-app-by-openai-working-again-on-macos-sequoia-beta-release-1-e7b03f5b9257"
 isUpdated: true
 ---
-
-
-
-
 
 소개
 
@@ -23,7 +19,18 @@ macOS 15 Sequoia의 새로운 기능
 
 macOS 15 Sequoia는 여러 가지 새로운 기능과 개선 사항을 소개했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 아이폰 미러링: 사용자가 맥을 통해 아이폰을 미러링하고 상호작용할 수 있게 해주며 키보드와 마우스를 사용하여 아이폰 앱을 제어할 수 있습니다.
 - Safari 기능 업그레이드: "하이라이트"와 같은 기능을 통해 기계 학습을 사용하여 웹 페이지에서 관련 정보를 강조하고, 기사에 대한 요약과 목차를 제공하는 최신 "리더" 기능 등이 있습니다.
@@ -37,7 +44,18 @@ macOS Sequoia는 Apple 실리콘 (M1, M2 등)을 탑재한 모든 기기와 iMac
 
 첫 사용자이자 개발자로서 저는 기술의 최전선에 머무르려고 항상 노력합니다. 그러나 이번에는 OpenAI가 개발한 음성 채팅 기능이 포함된 ChatGPT 앱이 ChatGPT 로고만 있는 링크로 대체되었습니다. 처음에는 이것이 Apple과 OpenAI 사이의 통합의 일환인 줄 알았지만, 실망스러운 사실을 발견하게 되었습니다. 게다가, 저의 이전에 사용하던 기능적인 앱이 삭제되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해결책
 
@@ -47,7 +65,18 @@ ChatGPT를 일찍 사용한 충실한 고객으로서, 베타 버전에 일찍 �
 
 다운로드는 원활히 진행되었지만, 앱을 설치하려고 할 때 문제가 발생했어요. macOS에서 ChatGPT_Desktop_public_latest.dmg 파일을 열 수 없었습니다. 대신 DAEMON Tools를 사용하여 이미지를 열어야 했어요. 그러면 앱을 Applications 폴더로 끌어다 놓을 수 있었어요. 이전 앱을 덮어쓸 것인지 확인하는 메시지가 나왔을 때, 그렇게 하려고 했지만 작동하지 않았어요. 기능이 있는 이전 앱을 추가하기 위해 둘 다 유지하도록 수락해야 했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-HowtoGettheOriginalChatGPTAppbyOpenAIWorkingAgainonmacOSSequoiaBetaRelease1_0.png)
 
@@ -57,6 +86,17 @@ ChatGPT를 일찍 사용한 충실한 고객으로서, 베타 버전에 일찍 �
 
 행동 요구
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비슷한 문제를 겪은 적이 있거나 추가 팁이 있다면, 아래 댓글에 여러분의 경험을 공유해 주세요. 함께 macOS 업그레이드를 최대한 활용하도록 서로 도와줍시다!

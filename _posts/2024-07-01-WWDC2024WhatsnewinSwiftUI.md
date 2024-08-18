@@ -3,17 +3,13 @@ title: "WWDC 2024, SwiftUI의 최신 업데이트는"
 description: ""
 coverImage: "/assets/img/2024-07-01-WWDC2024WhatsnewinSwiftUI_0.png"
 date: 2024-07-01 00:11
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-01-WWDC2024WhatsnewinSwiftUI_0.png
 tag: Tech
 originalTitle: "WWDC 2024, What’s new in SwiftUI"
 link: "https://medium.com/@serhankhan/wwdc-2024-whats-new-in-swiftui-5f2d49380472"
 isUpdated: true
 ---
-
-
-
-
 
 ## 이 특별한 기사에서는 SwiftUI 및 애플의 새로운 발표에 초점을 맞출 것입니다.
 
@@ -26,7 +22,18 @@ isUpdated: true
 
 새로운 SwiftUI 개선에서, 개발자들은 새로운 탭 보기, 메시 그라데이션 및 반응 잘하는 컨트롤을 통해 앱을 정말로 업데이트할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이번에는 WWDC 2024에서 소개된 새로운 기능들을 이해하기 위해 애플 개발자들에 의해 개발된 Karaoke Planner 앱을 리뷰하겠습니다.
 
@@ -36,7 +43,18 @@ A) SwiftUI를 이용한 신선한 탭바 뷰:
 
 ![Fresh Tabbar view for with SwiftUI](/assets/img/2024-07-01-WWDC2024WhatsnewinSwiftUI_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 iOS 18에서 사이드 바가 훨씬 유연해졌어요. 예를 들어, 왼쪽 상단의 버튼을 클릭하면요.
 
@@ -46,7 +64,18 @@ iOS 18에서 사이드 바가 훨씬 유연해졌어요. 예를 들어, 왼쪽 �
 
 ![image2](/assets/img/2024-07-01-WWDC2024WhatsnewinSwiftUI_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서 이 새로운 표현을 어떻게 달성할 수 있는지 살펴보겠습니다. 예제 코드 블록으로 들어가 보죠:
 
@@ -55,14 +84,14 @@ import SwiftUI
 
 struct KaraokeTabView: View {
     @State var customization = TabViewCustomization()
-    
+
     var body: some View {
         TabView {
             Tab("Parties", image: "party.popper") {
                 PartiesView(parties: Party.all)
             }
             .customizationID("karaoke.tab.parties")
-            
+
             Tab("Planning", image: "pencil.and.list.clipboard") {
                 PlanningView()
             }
@@ -115,13 +144,35 @@ struct Party {
 @State var customization = TabViewCustomization()
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 The first image shows the new SwiftUI side bar presented at WWDC 2024. This refreshed side bar feature can now also be utilized on tvOS, expanding its usage across multiple platforms like iPadOS, tvOS, and macOS.
 
 The second image displays how the tab bar in macOS can be styled to function as a side bar or segmented control. Exciting possibilities lie ahead!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-07-01-WWDC2024WhatsnewinSwiftUI_5.png](/assets/img/2024-07-01-WWDC2024WhatsnewinSwiftUI_5.png)
 
@@ -131,13 +182,24 @@ B) 시트 프레젠테이션 크기:
 
 개발자로서 우리는 우리 시트 크기를 조정하기 위해 presentationSizing 수정자를 사용할 수 있습니다. 새로운 SwiftUI에는 (.form), (.page) 또는 (.customSizing) 이 세 가지 대안이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```swift
 struct AllPartiesView: View {
     @State var showAddSheet: Bool = true
     var parties: [Party] = []
-    
+
     var body: some View {
         PartiesGridView(parties: parties, showAddSheet: $showAddSheet)
             .sheet(isPresented: $showAddSheet) {
@@ -154,8 +216,18 @@ Besides, SwiftUI also introduces a new Zoom navigation transition. Now, we can s
 
 ![Image 2](/assets/img/2024-07-01-WWDC2024WhatsnewinSwiftUI_7.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 당신을 위해 어떻게 보이는지(Let's get the parties started):
 
@@ -165,7 +237,7 @@ import SwiftUI
 struct PartyView: View {
     var party: Party
     @Namespace() var namespace
-    
+
     var body: some View {
         NavigationLink {
             PartyDetailView(party: party)
@@ -180,7 +252,7 @@ struct PartyView: View {
 
 struct PartyDetailView: View {
     var party: Party
-    
+
     var body: some View {
         Text("PartyDetailView")
     }
@@ -201,7 +273,18 @@ struct Party: Identifiable {
 
 Keep in mind, these new Tabview features are available on iPadOS 18 and forward.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 C) 컨트롤 API:
 
@@ -211,7 +294,18 @@ C) 컨트롤 API:
 
 ![이미지](/assets/img/2024-07-01-WWDC2024WhatsnewinSwiftUI_9.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 코드에서는 새로운 위젯을 제어 센터에 추가하는 방법을 보여줍니다.
 
@@ -249,7 +343,7 @@ import AppIntents
 
 struct StartPartyIntent: AppIntent {
     static let title: LocalizedStringResource = "파티 시작"
-    
+
     func perform() async throws -> some IntentResult {
         return .result()
     }
@@ -260,7 +354,18 @@ D) 벡터화 및 함수 플롯
 
 Swift 차트에서의 함수 플로팅은 그래프를 그리는 것을 쉽게 만들어줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```swift
 import SwiftUI
@@ -291,8 +396,18 @@ struct AttendanceView: View {
 
 "TableColumnForEach"를 사용하여 동적 테이블 열 수를 가질 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```swift
 import SwiftUI
@@ -303,7 +418,7 @@ struct SongCountsTable: View {
         Table(Self.guestData) {
             // A static column for the name
             TableColumn("Name", value: \.name)
-            
+
             TableColumnForEach(Self.partyData) { party in
                 TableColumn(party.name) { guest in
                     Text(guest.songsSung[party.id] ?? 0, format: .number)
@@ -311,7 +426,7 @@ struct SongCountsTable: View {
             }
         }
     }
-    
+
     private static func randSongsSung(low: Bool = false) -> [Int : Int] {
         var songs: [Int : Int] = [:]
         for party in partyData {
@@ -319,7 +434,7 @@ struct SongCountsTable: View {
         }
         return songs
     }
-    
+
     private static let guestData: [GuestData] = [
         GuestData(name: "Sommer", songsSung: randSongsSung()),
         GuestData(name: "Sam", songsSung: randSongsSung()),
@@ -335,7 +450,7 @@ struct SongCountsTable: View {
         GuestData(name: "Curt", songsSung: randSongsSung()),
         GuestData(name: "Betsy", songsSung: randSongsSung())
     ]
-    
+
     private static let partyData: [PartyData] = [
         PartyData(partyNumber: 1, numberGuests: 5),
         PartyData(partyNumber: 2, numberGuests: 6),
@@ -348,13 +463,13 @@ struct SongCountsTable: View {
         PartyData(partyNumber: 9, numberGuests: 11),
         PartyData(partyNumber: 10, numberGuests: 13),
     ]
-    
+
 }
 
 struct GuestData: Identifiable {
     let name: String
     let songsSung: [Int : Int]
-    
+
     let id = UUID()
 }
 
@@ -362,11 +477,11 @@ struct PartyData: Identifiable {
     let partyNumber: Int
     let numberGuests: Int
     let symbolSize = 100
-    
+
     var id: Int {
         partyNumber
     }
-    
+
     var name: String {
         "\(partyNumber)"
     }
@@ -384,7 +499,18 @@ Mesh Gradients
 
 SwiftUI가 색상이 풍부한 메시 그라데이션을 위한 일등 시민 지원을 추가했습니다. 그리드 색상의 점을 보간하는 방식으로 작동합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 특별한 새로운 기능으로 우리 뷰에 그라데이션 배경색을 적용할 수 있게 되었어요.
 
@@ -420,7 +546,18 @@ struct MyMesh: View {
 
 G) 출시 씬 문서화 (iPadOS)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문서 기반 응용 프로그램은 이제 DocumentGroup을 구현하여 새로운 UI를 가질 수 있습니다. DocumentGroup을 사용하면 다음과 같은 UI가 생깁니다:
 
@@ -430,7 +567,18 @@ G) 출시 씬 문서화 (iPadOS)
 
 또한 이 UI 요소 외에도, 우리는 도면 15에서 나타나는 바와 같이 배경 액세서리, 양 쪽 (왼쪽 및 오른쪽)을위한 전경 액세서리를 가지고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-01-WWDC2024WhatsnewinSwiftUI_14.png)
 
@@ -454,7 +602,18 @@ DocumentGroupLaunchScene("Your Lyrics") {
 
 H) 새로운 심볼 효과:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 심볼들은 새로운 능력을 갖고 있어요. 특정 효과를 받아들이는 우리 어플리케이션들의 사용 예시입니다:
 
@@ -464,7 +623,18 @@ H) 새로운 심볼 효과:
 
 .wiggle effect: 어떤 방향이나 각도로 심볼을 진동시켜서 주의를 끌어요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **이미지:**
 ![이미지](/assets/img/2024-07-01-WWDC2024WhatsnewinSwiftUI_16.png)
@@ -476,7 +646,18 @@ H) 새로운 심볼 효과:
 
 **.rotate 효과:** 심볼의 일부분을 지정된 앵커 포인트 주변으로 회전시킵니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지를 Markdown 형식으로 변경해주세요.
 
@@ -486,7 +667,18 @@ H) 새로운 심볼 효과:
 
 MagicReplace를 사용하면 기호가 부드럽게 배지와 슬래시를 애니메이션화합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 플랫폼 활용하기:
 
@@ -507,7 +699,18 @@ Window("가사 미리보기", id: "lyricPreview") {
   }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금은 창에 드래그 제스처를 추가할 수 있어요:
 
@@ -519,7 +722,18 @@ Text(currentLyric)
     .gesture(WindowDragGesture())
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이번에 추가된 새 창 수정자는 visionOS에서도 작동합니다.
 
@@ -529,7 +743,18 @@ Text(currentLyric)
 
 창에 대한 자세한 정보는 다음 링크를 참조하십시오.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 B) 새로운 SwiftUI 입력 방식 (visionOS)
 
@@ -539,7 +764,18 @@ SwiftUI는 각 플랫폼이 제공하는 독특한 입력 방식을 활용할 �
 
 ![링크](/assets/img/2024-07-01-WWDC2024WhatsnewinSwiftUI_22.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-07-01-WWDC2024WhatsnewinSwiftUI_23.png](/assets/img/2024-07-01-WWDC2024WhatsnewinSwiftUI_23.png)
 
@@ -561,7 +797,18 @@ struct ProfileButtonStyle: ButtonStyle {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 C) 수정자 키 대체 옵션들
 
@@ -581,7 +828,18 @@ Button("창에서 가사 미리보기") {
 .keyboardShortcut("p", modifiers: [.shift, .command])
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 맥OS의 메인 메뉴에서, 미리보기 창을 열기 위한 항목이 있다고 가정해봅시다. 위의 코드 조각은 이 사용 예시를 나타내며 아래와 같은 기능이 얻어지게 됩니다:
 
@@ -591,7 +849,18 @@ D) 포인터 상호 작용
 
 포인터 상호 작용은 다양한 기기에서의 중요한 입력 방식 중 하나입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image1](/assets/img/2024-07-01-WWDC2024WhatsnewinSwiftUI_25.png)
 
@@ -601,7 +870,18 @@ D) 포인터 상호 작용
 
 iPadOS 17.5에서는 Apple Pencil과 Apple Pencil Pro의 기능을 지원하는 SwiftUI가 포함되어 있습니다. 더블 탭과 스퀴즈 기능도 사용 가능합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **애플 펜슬 스퀴즈 액션**으로 이제 제스처에서 정보를 수집하여 선호하는 조치를 확인할 수 있어요.
 
@@ -611,7 +891,18 @@ E) 위젯 및 실시간 활동
 
 이제 위젯과 실시간 활동이 자동으로 Apple 워치에 표시될 거랍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 개발자로서, watchOS에서 콘텐츠를 조정할 수 있는 새로운 .supplementalActivityFamilies 수정자를 활용할 수 있습니다.
 
@@ -621,7 +912,18 @@ E) 위젯 및 실시간 활동
 
 그리고 사용자가 실시간 활동을 더욱 향상시킬 수 있도록 두 번 탭을 적용할 수도 있습니다. 이를 위해 .handGestureShortcut 수정자를 활용하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-07-01-WWDC2024WhatsnewinSwiftUI_30.png)
 
@@ -631,7 +933,18 @@ A) Custom Containers
 
 A new API on ForEach, `subviewOf`, allows us to iterate over the subviews of a given view. In the example below, each subview is wrapped in its own `CardView`.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이를 사용하여 SwifUI의 내장 컨테이너인 목록과 동일한 기능을 가진 사용자 정의 컨테이너를 만들 수 있습니다. 이는 정적 및 동적 콘텐츠를 혼합하여 섹션을 지원하고 특정 수정자에 컨테이너를 추가하는 것을 포함합니다.
 
@@ -665,7 +978,18 @@ DisplayBoard {
 
 이는 섹션 또한 지원하기 위해 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **Entry macro:**
 
@@ -675,7 +999,18 @@ DisplayBoard {
 
 B) 편의성 향상신 시사점
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 환경키에 대한 완전한 준수 쓰기와 환경 값에 대한 확장을 작성해야 했던 것을 간단한 속성과 Entry 매크로로 대체할 수 있게 되었습니다.
 
@@ -685,7 +1020,18 @@ B) 편의성 향상신 시사점
 
 이후: 현재 @Entry로 표시해서 SwiftUI가 선언을 자동으로 처리하고 SwiftUI 프로젝트 내에서 환경 변수로 사용할 준비를 갖추도록 할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```swift
 마법사 파티 컬러: Color = .보라
@@ -707,8 +1053,18 @@ B) 편의성 향상신 시사점
 
 ## 기본 접근성 레이블 보강:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 SwiftUI의 컨트롤에 프레임워크가 제공하는 레이블을 덮어쓰지 않고 추가 정보를 추가할 수 있습니다. 자세한 정보는 링크를 참조해주세요.
 
@@ -718,7 +1074,18 @@ B) 편의성 향상신 시사점
 
 이를 통해 프로젝트를 다시 빌드할 필요 없이 미리보기와 빌드 및 실행 간에 전환할 수 있어 반복 속도를 높일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제는 미리보기 설정도 더 쉬워졌어요. @Previewable 매크로를 사용하여 미리보기에서 상태를 바로 사용할 수 있게 되어, 뷰에 미리보기 내용을 감싸는 부분에서 발생했던 불필요한 작업을 줄일 수 있어요.
 
@@ -728,7 +1095,18 @@ B) 편의성 향상신 시사점
 
 이제 SwiftUI는 텍스트 편집 컨트롤 내의 텍스트 선택에 프로그래밍적 접근과 제어를 제공해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-01-WWDC2024WhatsnewinSwiftUI_37.png)
 
@@ -738,7 +1116,18 @@ B) 편의성 향상신 시사점
 
 ![image](/assets/img/2024-07-01-WWDC2024WhatsnewinSwiftUI_39.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이를 사용하여 검사자에서 선택한 단어에 대한 제안된 운율을 보여줄 수 있어요.
 
@@ -748,16 +1137,37 @@ B) 편의성 향상신 시사점
 
 우리는 프로그래밍 방식으로 검색 필드의 포커스 상태를 제어할 수 있습니다. 이는 검색 필드가 포커스된 상태인지 확인하고, 프로그래밍 방식으로 검색 필드로 포커스를 이동하거나 검색 필드에서 포커스를 이동할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-이제는 어떤  텍스트 필드에 새 텍스트 제안을 추가할 수 있습니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+이제는 어떤 텍스트 필드에 새 텍스트 제안을 추가할 수 있습니다.
 
 몇 줄의 코드만으로 사용자에게 제안된 텍스트를 제공할 수 있습니다. 제안 사항은 드롭다운 메뉴로 나타나며, 옵션을 선택하면 텍스트 필드가 선택한 완료로 업데이트됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 텍스트를 한국어로 번역해보겠어요!
-
 
 ![이미지](/assets/img/2024-07-01-WWDC2024WhatsnewinSwiftUI_42.png)
 
@@ -767,8 +1177,18 @@ B) 편의성 향상신 시사점
 
 ## 그래픽 기능:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 색상 조합: 개발자로서 우리는 색상을 섞어 사용할 수 있습니다. 다른 색상과 주어진 양으로 섞는 색상 혼합기능이 새롭게 추가되었어요.
 
@@ -778,7 +1198,18 @@ B) 편의성 향상신 시사점
 
 사용자 정의 쉐이더 기능은 쉐이더가 처음 사용되기 전에 사전 컴파일할 수 있는 기능을 가지고 있어요. 게으른 쉐이더 컴파일로 인한 프레임 드랍을 피할 수 있답니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **스크롤링 향상:**
 
@@ -786,13 +1217,35 @@ B) 편의성 향상신 시사점
 
 현재 우리는 onScrollGeometryChanged를 통해 ScrollView의 상태와 깊은 수준의 통합을 가질 수 있습니다. 이를 통해 콘텐츠 오프셋, 콘텐츠 크기 등의 변경 사항에 효율적으로 반응할 수 있습니다. 스크롤 뷰의 콘텐츠 위로 스크롤을 넘어갈 때 나타나는 "초대로 돌아가기" 버튼과 같이요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 뷰의 가시성이 스크롤로 변경된 것을 감지할 수 있어요!
 
 ![image](/assets/img/2024-07-01-WWDC2024WhatsnewinSwiftUI_48.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **새로운 스위프트 6 언어 모드:**
 
@@ -802,13 +1255,35 @@ B) 편의성 향상신 시사점
 
 SwiftUI의 뷰는 항상 메인 액터에서 평가되어 왔고, 이제 뷰 프로토콜에 메인 액터 주석이 표시되어 해당 사항이 반영되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 이 의미는 모든 View를 준수하는 모든 타입이 기본적으로 main actor에 의해 암시적으로 격리된다는 것을 의미합니다. 따라서 View를 명시적으로 main actor로 표시했다면 그 주석을 제거해도 동작에 아무런 변경이 없습니다.
 
 새로운 Swift 6 언어 모드는 선택 사항이므로 준비가 되면 언제든지 그것을 활용할 수 있습니다. 어떻게 응용 프로그램을 Swift6로 마이그레이션하는지 알아보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 향상된 상호 운용성:
 
@@ -818,10 +1293,20 @@ SwiftUI는 새로운 앱을 만드는 데뿐만 아니라 UIKit과 AppKit으로 
 
 이제 내장된 또는 사용자 정의 UIGestureRecognizer를 취해서 Swift SwiftUI 뷰 계층 구조에서 사용할 수 있습니다. 직접 UIKit으로 뒷받침되지 않은 SwiftUI 뷰에서도 작동합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마크다운 포맷으로 변경해드릴게요.
-
 
 ![Image 1](/assets/img/2024-07-01-WWDC2024WhatsnewinSwiftUI_51.png)
 
@@ -831,8 +1316,18 @@ UIKit 및 AppKit에서 SwiftUI 애니메이션의 힘을 활용할 수 있습니
 
 ![Image 2](/assets/img/2024-07-01-WWDC2024WhatsnewinSwiftUI_52.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Experiencing the Art of Craft:
 
@@ -842,7 +1337,18 @@ Experiencing the Art of Craft:
 
 예를 들어 단어를 강조하는 데 다음 TextRenderer 프로토콜을 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-07-01-WWDC2024WhatsnewinSwiftUI_53.png](/assets/img/2024-07-01-WWDC2024WhatsnewinSwiftUI_53.png)
 

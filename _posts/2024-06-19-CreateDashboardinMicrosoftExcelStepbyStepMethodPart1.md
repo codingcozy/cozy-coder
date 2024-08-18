@@ -3,18 +3,13 @@ title: "마이크로소프트 엑셀에서 대시보드 만들기  단계별 방
 description: ""
 coverImage: "/assets/img/2024-06-19-CreateDashboardinMicrosoftExcelStepbyStepMethodPart1_0.png"
 date: 2024-06-19 15:53
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-CreateDashboardinMicrosoftExcelStepbyStepMethodPart1_0.png
 tag: Tech
 originalTitle: "Create Dashboard in Microsoft Excel — Step by Step Method (Part 1)"
 link: "https://medium.com/@chandravi.kala/creating-dashboard-in-excel-step-by-step-method-10042150a8e4"
 isUpdated: true
 ---
-
-
-
-
-
 
 <img src="/assets/img/2024-06-19-CreateDashboardinMicrosoftExcelStepbyStepMethodPart1_0.png" />
 
@@ -24,8 +19,18 @@ Microsoft Excel에서 대시보드를 만드는 단계
 
 - 새 엑셀 워크북 열기
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시트1을 대시보드로 변경해주세요.
 
@@ -35,8 +40,18 @@ Microsoft Excel에서 대시보드를 만드는 단계
 
 · 데이터를 작업용 문서의 데이터 시트에 복사해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-19-CreateDashboardinMicrosoftExcelStepbyStepMethodPart1_2.png)
 
@@ -46,9 +61,18 @@ Select the data and click insert Pivot Table
 
 2. Leave the table range as is and click new worksheet. A new sheet will be created, and rename it as Analyze
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Step3](/assets/img/2024-06-19-CreateDashboardinMicrosoftExcelStepbyStepMethodPart1_3.png)
 
@@ -58,8 +82,18 @@ Select the data and click insert Pivot Table
 
 ![Step5](/assets/img/2024-06-19-CreateDashboardinMicrosoftExcelStepbyStepMethodPart1_5.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. 대시보드 시트에 표시해야 하는 3가지 KPI입니다. 이제, 피벗 테이블 데이터를 새 셀에 복사하여 붙여넣으세요.
 
@@ -69,7 +103,18 @@ Select the data and click insert Pivot Table
 
 ![이미지2](/assets/img/2024-06-19-CreateDashboardinMicrosoftExcelStepbyStepMethodPart1_7.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 · 피벗 테이블(하위 카테고리/판매)을 선택하고 삽입을 클릭한 후, 권장 차트를 선택하여 막대 차트를 클릭하세요.
 
@@ -79,8 +124,18 @@ Select the data and click insert Pivot Table
 
 차트 형식을 조정하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Dashboard](/assets/img/2024-06-19-CreateDashboardinMicrosoftExcelStepbyStepMethodPart1_9.png)
 
@@ -88,8 +143,18 @@ Select the data and click insert Pivot Table
 - Hide all remaining buttons.
 - Remove the gridlines.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 · 다시 데이터 분석 시트로 이동하여 피벗 테이블을 복사하고 새 셀에 붙여넣기 해주세요.
 
@@ -99,13 +164,35 @@ Select the data and click insert Pivot Table
 
 · 차트를 서식을 지정해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지 태그를 아래와 같이 변경해 주세요:
 
 ![Create Dashboard in Microsoft Excel Step by Step Method Part 1](/assets/img/2024-06-19-CreateDashboardinMicrosoftExcelStepbyStepMethodPart1_10.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 동일한 단계를 따라서 또 다른 차트를 생성해 보세요. 월간 판매를 나타내는 선 그래프를 만들어 보겠습니다.
 
@@ -115,7 +202,18 @@ Select the data and click insert Pivot Table
 
 o 제목 편집
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 버튼을 숨기세요
 
@@ -125,7 +223,18 @@ o 제목 편집
 
 워크북의 대시보드 시트 서식 설정
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 대시보드의 구조를 그려 봅시다.
 
@@ -135,7 +244,18 @@ o 제목 편집
 
 마찬가지로 KPI 지표와 차트를 위한 자리 표시자를 만들어보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - KPI 값 추가하기. "총 매출" 상자를 클릭한 후, "총 매출" 텍스트 끝에서 엔터 키를 누르세요. 이제 커서가 아래 셀에 위치해 있습니다. 새 텍스트 상자를 추가한 후, 아래 공식을 사용하여 매출 금액을 입력하세요. 그리고 해당 KPI 상자 형식으로 텍스트 상자를 서식 지정해 주세요.
 
@@ -145,7 +265,18 @@ o 제목 편집
 
 - 차트를 각각의 자리에 추가하고 서식을 설정하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-CreateDashboardinMicrosoftExcelStepbyStepMethodPart1_14.png)
 

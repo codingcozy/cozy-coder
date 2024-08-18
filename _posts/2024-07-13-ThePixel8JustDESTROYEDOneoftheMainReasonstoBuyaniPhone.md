@@ -3,7 +3,7 @@ title: "아이폰을 사야할 주요 이유를 무너뜨린 Pixel 8의 혁신�
 description: ""
 coverImage: "/assets/img/2024-07-13-ThePixel8JustDESTROYEDOneoftheMainReasonstoBuyaniPhone_0.png"
 date: 2024-07-13 00:27
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-ThePixel8JustDESTROYEDOneoftheMainReasonstoBuyaniPhone_0.png
 tag: Tech
 originalTitle: "The Pixel 8 Just DESTROYED One of the Main Reasons to Buy an iPhone"
@@ -11,17 +11,24 @@ link: "https://medium.com/@michaelswengel/the-pixel-8-just-destroyed-one-of-the-
 isUpdated: true
 ---
 
+안드로이드에 대해서 정말 좋아해요. 기능적으로 iOS를 능가하는 부분이 많아요. (그리고 저는 아이폰 유저이기에 이렇게 말하는데요.) 하지만 지금까지 아이폰을 선택하는 _주요_ 이유가 있었어요: 연간 소프트웨어 업데이트. 애플 폰은 비싼 가격이지만, 적어도 $1000 이상의 아이폰을 사면 적어도 5~7년 동안 주요 OS 버전 업데이트를 받을 수 있다는 걸 알아요.
 
+하지만 안드로이드 폰은 조금 다르죠.
 
+예를 들어, 구글 픽셀 7과 픽셀 7 프로는 5년 동안 보안 패치를 받지만 _세_ 해 동안 안드로이드 버전 업데이트를 받지 못해요. 삼성은 주로 4년 동안 플래그십 기기를 지원합니다.
 
+<!-- cozy-coder - 수평 -->
 
-안드로이드에 대해서 정말 좋아해요. 기능적으로 iOS를 능가하는 부분이 많아요. (그리고 저는 아이폰 유저이기에 이렇게 말하는데요.) 하지만 지금까지 아이폰을 선택하는 *주요* 이유가 있었어요: 연간 소프트웨어 업데이트. 애플 폰은 비싼 가격이지만, 적어도 $1000 이상의 아이폰을 사면 적어도 5~7년 동안 주요 OS 버전 업데이트를 받을 수 있다는 걸 알아요. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-하지만 안드로이드 폰은 조금 다르죠. 
-
-예를 들어, 구글 픽셀 7과 픽셀 7 프로는 5년 동안 보안 패치를 받지만 *세* 해 동안 안드로이드 버전 업데이트를 받지 못해요. 삼성은 주로 4년 동안 플래그십 기기를 지원합니다.
-
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그에 반해, 애플은 출시일로부터 5, 6, 7년이 지난 핸드폰에도 주요 iOS 업데이트를 제공합니다. 예를 들어, iPhone 6S는 iOS 9로 출시되었지만 iOS 16을 실행할 수 있습니다.
 
@@ -31,7 +38,18 @@ isUpdated: true
 
 # 소프트웨어 업데이트가 중요한 이유?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리의 스마트폰은 많은 측면에서 우리의 노트북과 데스크톱 컴퓨터와 유사합니다. 앱을 로드하는 OS가 실행되며, 우리는 친구와 가족과 연락하고, 일하고, 게임을 즐기고, 뉴스를 읽는 등의 용도로 사용합니다.
 
@@ -41,7 +59,18 @@ isUpdated: true
 
 운영 체제 및 보안 패치를 지원해주는 기간이 길수록 기기가 안전하게 사용될 수 있는 기간도 늘어나며, 결과적으로 매립지에 버려지는 쓰레기가 줄어듭니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # "그런데 누가 장치를 일곱 년 동안 보유하나요?"
 
@@ -51,7 +80,18 @@ isUpdated: true
 
 하지만 이 질문을 하는 사람들은 이 문제의 요점을 놓치고 있다고 생각합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떤 사람들은 핸드폰이 작동을 그만하거나 더 이상 지원되지 않을 때까지 사용할 것입니다. 이들은 모든 새 버전이나 새 출시물에 관심이 없는 사람들입니다. 그들의 오래된 기기가 작동하니까 왜 업그레이드해야 할까요?
 
@@ -61,7 +101,18 @@ isUpdated: true
 
 # 왜 핸드폰은 더 오랫동안 업데이트를 받지 못할까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 몇 년 이상 안드로이드 폰을 사용해 왔다면, 당신의 신뢰할 수 있는 안드로이드 기기가 더 이상 지원되지 않는다는 점에 대한 좌절감을 알고 계실 것입니다. 안드로이드의 새로운 버전이 출시되지만 당신의 폰에는 적용되지 않습니다. 그리고 결국 보안 업데이트도 중단될 것입니다.
 
@@ -73,7 +124,18 @@ isUpdated: true
 - 각종 하드웨어 벤더들의 지원 — 많은 폰은 Qualcomm과 같은 제 3자 벤더의 부품과 코드를 사용합니다. OEM은 제 3자 하드웨어와의 호환성을 보장해야 하며, 이는 해당 제 3자가 여전히 해당 하드웨어를 지원한다는 가정을 전제로 합니다.
 - 돈 — 기기를 지원하는 것은 사소한 일이 아닙니다. 개발자들은 보수를 받아야 합니다. 전력은 유지되어야 합니다. 그리고 이 모든 것이 실제 달러를 소모합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 두 번째 항목은 안드로이드 폰 제조사들에게 큰 문제였던 것 같아요. 애플이 그 동안 장치를 지원할 수 있던 이유 중 하나는 아이폰의 하드웨어를 상당 부분 제어하기 때문에 각 iOS 버전과의 호환성을 보장하는 것이 그리 어려운 일이 아니었다는 점입니다. 그들이 하드웨어(대부분)를 디자인하고 운영체제도 개발했거든요.
 
@@ -83,7 +145,18 @@ isUpdated: true
 
 일부 사람들은 Google이 완전히 좋은 제품들을 폐기하는 나쁜 버릇이 있다고 옳게 지적했어요. Google 스타디아를 기억하시나요? Google 팟캐스트는요? Google 도메인? AngularJS? Fitbit Coach? 나열할 수 있는 제품들이 많죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 구글의 밝은 아이디어 중 하나로 이번에 속기 적시된 발상임을 우려하는 이유가 있습니다.
 
@@ -93,7 +166,18 @@ isUpdated: true
 
 오해하지 마세요. 저는 조심스럽게 낙관적입니다. 나는 이것이 Pixel 라인의 미래를 예고하는 조짐일 수 있다고 생각하며, 다른 제조업체들 — 예를 들어 삼성 — 도 주목하고 그들의 기기에 대한 더 많은 지원을 제공하기 시작했으면 하는 바램을 품고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 픽셀 9가 출시된 후에 어떤 일이 벌어질지는 흥미로울 것입니다. 픽셀 9도 7년의 지원이 약속될까요? 아니면 이 것은 일회성일까요?
 
@@ -103,7 +187,18 @@ isUpdated: true
 
 이로 인해 몇 년 후 이러한 장치들의 성능이 어떨지 궁금해하는 사람들이 많습니다. 소프트웨어가 더 많은 요구를 받고 새 하드웨어가 출시되면, 오늘날의 하드웨어는 비교적 약할 것으로 보일 것입니다. 구글의 텐서 G3는 이미 시장에서 가장 빠른 칩이 아니기에, 이것이 3년, 4년 또는 7년 후에 어떤 성능으로 나타날지 궁금할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 It's a valid question, but there may be a deeper perspective that some overlook.
 
@@ -113,7 +208,18 @@ However, that doesn't matter.
 
 For these individuals, performance may not be the key factor.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 확실히, 안드로이드의 새로운 버전이 출시되면 G3 칩보다 더 많은 전원을 필요로 할 수 있습니다. 그것을 보는 것이 흥미로울 것입니다. 그러나 구글은 애플과 마찬가지로, 픽셀 8을 위해 출시되는 업데이트 패키지를 G3이 처리할 수 있는 기능만 포함하도록 조정할 것으로 예상됩니다. 더 많은 전원이 필요한 기능은 G4, G5 등과 같은 기기에 남길 수도 있습니다 — 애플이 해온 것처럼요.
 
@@ -123,7 +229,18 @@ For these individuals, performance may not be the key factor.
 
 # 안드로이드의 더 빛나는 미래?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 이전에 여러 번 말했듯이 안드로이드를 좋아합니다. 하지만 몇 년 후에 지원이 중단된다는 생각에 천 달러 가량 하는 핸드폰을 사는 것을 싫어합니다.
 
@@ -133,6 +250,17 @@ For these individuals, performance may not be the key factor.
 
 아이폰 사용자로서도, 저는 구글로부터 이런 발표를 볼 수 있어 기쁩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어쩌면 — 아마도 — 애플도 주목할지 모르겠어요. 🍎✨

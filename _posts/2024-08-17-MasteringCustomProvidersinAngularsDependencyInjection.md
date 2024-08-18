@@ -3,7 +3,7 @@ title: "Angular의 의존성 주입 -Custom Providers 정리"
 description: ""
 coverImage: "/assets/img/2024-08-17-MasteringCustomProvidersinAngularsDependencyInjection_0.png"
 date: 2024-08-17 00:55
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-17-MasteringCustomProvidersinAngularsDependencyInjection_0.png
 tag: Tech
 originalTitle: "Mastering Custom Providers in Angulars Dependency Injection "
@@ -11,8 +11,6 @@ link: "https://medium.com/gitconnected/mastering-custom-providers-in-angulars-de
 isUpdated: true
 updatedAt: 1723863745387
 ---
-
-
 
 <img src="/assets/img/2024-08-17-MasteringCustomProvidersinAngularsDependencyInjection_0.png" />
 
@@ -22,7 +20,18 @@ Angular의 종속성 주입에서 사용자 정의 프로바이더를 숙달하�
 
 # Angular에서 프로바이더 이해하기 💡💡
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앵귤러에서는 프로바이더를 사용하여 의존성이 어떻게 인스턴스화될지 정의합니다. 프로바이더는 어떤 객체나 값이든 될 수 있지만 대부분의 경우, 서비스나 기능을 제공하는 클래스입니다.
 
@@ -44,7 +53,18 @@ export class AppModule {
 
 # 커스텀 프로바이더 필요성 🔧
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Angular의 사용자 정의 제공자는 개발자가 서비스를 제공하고 인스턴스화하는 방법을 정의할 수 있어 유연성을 제공합니다. 이를 통해 모듈성, 고급 의존성 주입 패턴 및 최적화된 서비스 인스턴스화가 가능해져 더 깨끗하고 효과적인 Angular 애플리케이션을 개발할 수 있습니다.
 
@@ -54,13 +74,24 @@ Angular의 사용자 정의 제공자는 개발자가 서비스를 제공하고 
 
 팩토리 제공자를 사용하면 팩토리 함수를 사용하여 의존성의 인스턴스를 생성하고 구성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // logger.service.ts
 export class LoggerService {
   constructor(private prefix: string) {}
-  
+
   log(message: string): void {
     console.log(`${this.prefix}: ${message}`);
   }
@@ -89,11 +120,11 @@ import { LoggerService } from './logger.service';
 export class AppModule { }
 
 
-// app.component.html 
+// app.component.html
 <h1>Logger Service Test</h1>
 <p>로그 출력을 확인하세요.</p>
 
-// app.component.ts 
+// app.component.ts
 
 ....
   ngOnInit() {
@@ -107,8 +138,18 @@ export class AppModule { }
 
 결과:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-08-17-MasteringCustomProvidersinAngularsDependencyInjection_1.png)
 
@@ -170,14 +211,24 @@ export class AppComponent {
 
 }
 
-// app.component.html 
+// app.component.html
 <h1>Application Configuration</h1>
 <p>API URL: { config.apiUrl }</p>
 <p>Feature Flag: { config.featureFlag }</p>
 ```
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드-설명 💻:
 
@@ -187,7 +238,18 @@ export class AppComponent {
 
 <img src="/assets/img/2024-08-17-MasteringCustomProvidersinAngularsDependencyInjection_2.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 참고 자료 📗:
 
@@ -200,7 +262,18 @@ export class AppComponent {
 
 Angular의 고급 주제에 대해 더 알아보고 싶다면, 다음 블로그를 확인해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Angular 단위 테스트를 더 빨리 실행하는 방법
 - 다음 단계로 Angular 번들 크기 최적화하기
@@ -214,7 +287,18 @@ Angular의 고급 주제에 대해 더 알아보고 싶다면, 다음 블로그�
 
 이 블로그의 소스 코드는 GitHub에서 찾을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 마지막으로 ✌️:
 

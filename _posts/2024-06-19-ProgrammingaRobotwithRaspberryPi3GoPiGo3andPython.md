@@ -3,17 +3,13 @@ title: "라즈베리 파이 3, GoPiGo3 및 Python으로 로봇 프로그래밍�
 description: ""
 coverImage: "/assets/img/2024-06-19-ProgrammingaRobotwithRaspberryPi3GoPiGo3andPython_0.png"
 date: 2024-06-19 18:13
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-ProgrammingaRobotwithRaspberryPi3GoPiGo3andPython_0.png
 tag: Tech
 originalTitle: "Programming a Robot with Raspberry Pi 3, GoPiGo3 and Python"
 link: "https://medium.com/@athicharttangpong/programming-a-robot-with-raspberry-pi-3-gopigo3-and-python-592bd8e41530"
 isUpdated: true
 ---
-
-
-
-
 
 대학 시절, 25년 전, 나는 테니스 공을 모으는 간단한 로봇을 제작했었습니다. 그러나 그 지식은 시간이 흘러서 잊혀졌습니다. 2020년의 글로벌 대유행으로 인한 봉쇄와 재택근무의 전환은 내가 잊고 있던 로봇공학에 대한 관심을 다시 일으켰습니다. 즐거워하는 것을 넘어, 이것을 제기회로 나의 기술을 향상시키고 내 아이들에게 영감을 줄 수 있는 좋은 기회라고 생각했습니다. 나는 로봇공학에 대한 나의 이해를 더 깊게 하고 나만의 로봇을 만들기 위한 여정에 나서기로 결정했습니다. 본 기사는 내가 로봇공학에 대해 배운 것을 공유하는 시리즈의 첫 번째 글입니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 나의 조사 결과, Dexter Industries는 두 가지 매력적인 옵션을 제공합니다. GoPiGo3는 간단한 로봇 챠시와 함께 모터와 센서를 제어하기 위한 HAT가 포함된 완전한 로봇 키트입니다. 반면에 BrickPi3는 레고 EV3 모터와 센서를 제어하기 위해 설계된 Raspberry Pi HAT입니다. 두 제품 모두 Python SDK를 제공합니다. GoPiGo3는 저렴하고 완성도가 높아 초보자에게 가장 적합한 플랫폼입니다; 나는 단지 Raspberry Pi를 추가하면 작동하는 로봇을 갖게 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 업데이트: 저는 2020년에 Raspberry Pi 3가 최고 모델이었던 때 이 프로젝트를 시작했습니다. 그 당시 사용 가능한 HAT은 GoPiGo, BrickPi, PiStorm이 있었습니다. GoPiGo는 전통적인 모터와 호환되었고, BrickPi와 PiStorm은 레고 EV3 모터용으로 설계되었습니다. 또한 시도해보지 않은 중국 제작 로봇 키트도 있었습니다. 이제 2024년에는 Raspberry Pi 5가 출시되었고, Lego SPIKE Prime 모터 또는 센서 4개를 제어할 수 있는 Raspbery Pi Build Hat도 함께 출시되었습니다.
 
@@ -41,7 +48,18 @@ GoPiGo 샤시 조립 부분은 건너뛰고 GoPiGo 로봇 키트가 준비되어
 - 커스텀 레고 케이스에 수납된 미니 블루투스 스피커
 - 키보드 및 게임 패드용 USB 수신기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 소프트웨어 설치
 
@@ -58,7 +76,18 @@ curl -kL dexterindustries.com/update_gopigo3 | bash
 curl -kL dexterindustries.com/update_sensors | bash
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 프로그래밍
 
@@ -68,9 +97,20 @@ curl -kL dexterindustries.com/update_sensors | bash
 
 - GoPiGo3 SDK 호출을 친숙한 클래스 메서드로 캡슐화합니다.
 - try-except 문을 사용하여 하드웨어 액세스 예외를 처리합니다.
-- 코드가 다중 스레드가 될 것으로 예상되므로 코드가 스레드로부터 안전하게 접근하도록 하드웨어 액세스를 상호 배타적으로 제공합니다. 이를 위해 하드웨어 액세스 코드를 _lockAndExceptionHandler 데코레이터로 꾸밈으로써 간결함과 편리함을 위해 목적을 달성합니다.
+- 코드가 다중 스레드가 될 것으로 예상되므로 코드가 스레드로부터 안전하게 접근하도록 하드웨어 액세스를 상호 배타적으로 제공합니다. 이를 위해 하드웨어 액세스 코드를 \_lockAndExceptionHandler 데코레이터로 꾸밈으로써 간결함과 편리함을 위해 목적을 달성합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

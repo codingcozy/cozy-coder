@@ -3,17 +3,13 @@ title: "컴퓨터는 실제로 어떻게 계산할까"
 description: ""
 coverImage: "/assets/img/2024-06-23-HowDoComputersActuallyCompute_0.png"
 date: 2024-06-23 19:45
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-HowDoComputersActuallyCompute_0.png
 tag: Tech
 originalTitle: "How Do Computers Actually Compute?"
 link: "https://medium.com/towards-data-science/how-do-computers-actually-compute-dc193789a6cb"
 isUpdated: true
 ---
-
-
-
-
 
 # 소개글
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이것은 내가 쓰는 새로운 시리즈, "데이터 과학자를 위한 컴퓨터 하드웨어 입문"의 두 번째 부분입니다. 물리학, 전기 공학 또는 저수준 컴퓨터 과학 관련 지식을 전제로 하지 않는 이 시리즈는 새로운 (또는 경험이 풍부한) 데이터 과학자가 전문 도구에 대한 이해를 깊이 있게 하고자 합니다. 결국, 어떤 뛰어난 장인이 자신의 도구에 대해 익숙하지 않겠습니까?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시리즈의 이전 설치 파일을 따라 가기 위해서는 필요하지 않아요 (원한다면 다음에서 읽을 수 있어요: 컴퓨터는 왜 이진수를 사용할까요?). 컴퓨터가 어떻게 작동하는지 궁금하지만 해당 분야에 대한 배경이 많이 없다면 이 시리즈는 시작하기에 좋은 장소가 될 거예요.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 디지털 회로에서 가장 기본적인 요소는 트랜지스터에요. 트랜지스터는 반도체 기반 구성 요소로 스위치처럼 작용할 수 있어요. 반도체(예를 들면 실리콘)는 특정 조건 하에서 전기를 전도하고, 다른 조건 하에서 전기를 차단하는 재료들의 한 종류에요. 반도체 재료를 재빠르게 활용함으로써 회로 구성 요소를 "켜고" "끌" 수 있어요. (트랜지스터로 가능한 다른 것들도 있지만, 이 기사에서는 다루지 않을 거예요). 재료를 "재빠르게 활용"하는 방법은 반도체로 트랜지스터를 만드는 것이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 트랜지스터는 베이스(base), 콜렉터(collector), 그리고 에미터(emitter)의 세 개의 I/O 위치를 가지고 있어요. 아래의 트랜지스터 다이어그램에서 콜렉터는 상단에 있고, 베이스는 중간 왼쪽에 위치하며, 에미터는 하단에 위치합니다. 이런 트랜지스터의 배치는 NPN (부정-긍정-부정) BJT(양극성 접합 트랜지스터)라고 불립니다. BJTs보다 더 인기 있는 많은 종류의 트랜지스터가 있어요. 실제로 디지털 응용에서 사용되는 트랜지스터는 주로 FETs (장효과 트랜지스터)이고, BJTs는 아닙니다. 그렇지만 기술적 세부사항이 약간 다르더라도 최종 결과는 대부분 동일합니다 — 모든 트랜지스터는 여전히 스위치 역할을 합니다. BJTs가 약간 더 간단하기 때문에, 이 점에 중점을 두겠어요.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 좋아요, 이제 우리는 트랜지스터가 무엇이며, 스위치를 만들기 위해 반도체를 사용한다는 것을 이해했습니다. 우리는 베이스에 약간의 전기를 제어하여 콜렉터와 에미터 간의 전기 흐름을 켜고 끕니다. 믿든 안 믿든, 이 아이디어 — 스위치 — 가 컴퓨터 안에서 일어나는 모든 것의 기본 구성 요소입니다. 우리는 트랜지스터를 사용하여 논리 회로를 설계할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 논리 게이트: 컴퓨터가 어떻게 계산하는지
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 (부가 설명 — 간단히 설명하기 위해 약간 우외해주고 있습니다. 전압은 단순히 전기의 양이라고 말하기 정확하지 않습니다. 그러나 두 가지를 동일시함으로써 전체 개념을 조금 더 쉽게 이해하고, 디지털 논리 회로 작동 방식을 이해하는 데 지장이 없게 합니다.)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대박이네요! 이제 이해하셨으니 논리 게이트로 빠져들어볼까요! 예를 들어, AND 게이트를 살펴봅시다.
 
@@ -61,7 +101,18 @@ isUpdated: true
 
 왼쪽에 있는 두 개의 도일은 입력이고, 오른쪽에 있는 도일이 출력입니다. AND 게이트 안에는 잘 배치된 수많은 트랜지스터가 있지만, 그것에 대해서는 나중에 다뤄보겠습니다. AND 게이트는 어떻게 작동할까요? 입력 두 곳에 모두 1(전기가 많음)이 있을 때 출력이 1이 됩니다. 그렇지 않으면 출력은 0이 됩니다. 이는 파이썬의 "and" 키워드와 마찬가지로 작동합니다! 사실, 파이썬(그리고 어떤 프로그래밍 언어든, 정말로)은 실제로 “and”, “or”, “not”과 같은 기능을 수행하기 위해 논리 게이트를 사용합니다. 멋지지 않나요? 파이썬에서 “and”를 호출하면 실제로 컴퓨터의 CPU 내부에 있는 단일 논리 게이트를 사용하고 있는 것이죠! 이 하드웨어 구성요소를 (거의) 직접 사용해오셨는데 그것을 몰랐다니 대단하시네요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 디지턈 회로에 대해 이야기할 때는 입력과 출력에 대해 정확하게 설명할 방법이 필요합니다. 이를 위해, 참진리표(truth table)라 불리는 것을 사용합니다. 여기 AND 게이트의 참진리표가 있어요.
 
@@ -71,7 +122,18 @@ isUpdated: true
 
 AND 게이트의 경우, 참진리표는 명백하지만 더 복잡한 회로의 경우, 참진리표는 입력을 출력에 매핑하는 회로를 추적하는 데 매우 유용한 도구입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 논리 게이트의 하부 구조
 
@@ -81,7 +143,18 @@ AND 게이트의 경우, 참진리표는 명백하지만 더 복잡한 회로의
 
 위쪽에 전기원이 있습니다. 기억하세요, 트랜지스터는 스위치처럼 작동하기 때문에 소스에서 전기가 흐를 수 있기 위해서는 해당 트랜지스터의 베이스에서 전기가 존재해야 합니다. 양 입력에 각각 1이 입력되면 어떻게 될까요? 소스에서 출력까지 전기가 흐를 수 있기 때문에 출력 값은 1이 됩니다. 그러나 어느 하나의 트랜지스터라도 꺼져 있다면 (즉, 입력 중 하나에 0이 입력된 경우), 전기가 차단되어 출력 값이 0이 됩니다. 이는 AND에 대한 참 진리표와 일치합니다! 이제 AND의 논리를 구현하는 물리적인 구성 요소를 가졌습니다! OR 및 NOT에 대해서도 비슷한 설계 과정을 따를 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사이드 노트: 그렇다고 계속 괴롭힐 필요는 없어요 — 이 회로가 AND를 위한 실제 회로보다는 조금 더 간단합니다. 실제로, 원하는대로 전기를 흘리기 위해 저항기와 전기 접지와 같은 몇 가지 전기 부품이 필요합니다. 그러나 이 간단화된 버전은 일어나는 대부분의 것을 대표하고 있으며 주된 개념도 전달하고 있습니다.
 
@@ -91,7 +164,18 @@ AND 게이트의 경우, 참진리표는 명백하지만 더 복잡한 회로의
 
 이러한 고차 함수 중 많은 것들이 논리 게이트를 사용하여 구현될 수 있다는 것이 밝혀졌습니다. 예를 들어, 덧셈을 살펴보죠. AND와 XOR 두 개의 게이트만 사용합니다. XOR은 베타식 OR의 약자입니다. 입력 중 하나라도 1이면 XOR의 출력이 켜집니다. 그러나 모두 1이거나 아무도 아니면 출력은 0이 됩니다. XOR의 진리표는 다음과 같습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 서킷을 살펴보세요:
 
@@ -99,8 +183,18 @@ AND 게이트의 경우, 참진리표는 명백하지만 더 복잡한 회로의
 
 만약 하실 마음이 있다면 아래 진리표를 스스로 채워보세요. 머리 속에서 채워도 괜찮아요. 결과물이 궁금하시겠죠?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-23-HowDoComputersActuallyCompute_7.png)
 
@@ -110,11 +204,20 @@ AND 게이트의 경우, 참진리표는 명백하지만 더 복잡한 회로의
 
 0 과 1 은 어떤가요? XOR이 켜져 있고 AND는 꺼져 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 마크다운 형식으로 변경해야 합니다.
-
 
 <img src="/assets/img/2024-06-23-HowDoComputersActuallyCompute_9.png" />
 1 and 0 would be the same, then.
@@ -122,8 +225,18 @@ AND 게이트의 경우, 참진리표는 명백하지만 더 복잡한 회로의
 <img src="/assets/img/2024-06-23-HowDoComputersActuallyCompute_10.png" />
 What about 1 and 1? The XOR is off and AND is on!
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-23-HowDoComputersActuallyCompute_11.png" />
 
@@ -133,7 +246,18 @@ What about 1 and 1? The XOR is off and AND is on!
 
 # 마무리맺음
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이번 글에서는 트랜지스터가 논리 게이트를 만드는 데 어떻게 사용되는지 다루었으며, 논리 게이트가 결합되어 컴퓨터가 수행하는 계산 기능을 많이 생성하는 방법도 다뤘습니다. 아직 궁금증이 남아 계신다면 댓글에서 질문해 주세요! 하나 더 언급하지 못한 점은 진리 표에서 회로 설계로 어떻게 이어지는지 입니다. 이 글은 하드웨어 작동 방식보다는 설계 프로세스에 더 초점을 맞추었기 때문에 여기에는 잘 맞지 않는 부분이었습니다. 그러나 답변을 드리겠습니다. - 부울 대수를 사용합니다. 이 시리즈의 후속 섹션에서 부울 대수에 대해 다룰 예정입니다.
 

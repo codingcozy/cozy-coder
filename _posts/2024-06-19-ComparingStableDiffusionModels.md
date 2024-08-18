@@ -3,7 +3,7 @@ title: "안정적인 확산 모델 비교하기"
 description: ""
 coverImage: "/assets/img/2024-06-19-ComparingStableDiffusionModels_0.png"
 date: 2024-06-19 21:01
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-ComparingStableDiffusionModels_0.png
 tag: Tech
 originalTitle: "Comparing Stable Diffusion Models"
@@ -11,35 +11,40 @@ link: "https://medium.com/@promptingpixels/comparing-stable-diffusion-models-2c1
 isUpdated: true
 ---
 
-
-
-
-
 안녕하세요! 저희의 오픈소스 텍스트-이미지 모델 'Stable Diffusion'은 Stability AI에서 출시되었고, 생성적 AI 분야를 혁신했습니다.
 
 2022년 첫 출시 이후 몇 년 동안 여러번의 반복과 개선이 이루어졌습니다.
 
 주요 릴리스에 대해 알아야 할 내용은 다음과 같습니다:
 
-
-| 버전 번호    | 릴리스 날짜     |
-|-------------|----------------|
-| 1.1         | 2022년 6월     |
-| 1.2         | 2022년 6월     |
-| 1.3         | 2022년 6월     |
-| 1.4         | 2022년 8월     |
-| 1.5         | 2022년 10월    |
-| 2.0         | 2022년 11월    |
-| 2.1         | 2022년 12월    |
-| XL 1.0      | 2023년 7월     |
-| XL Turbo    | 2023년 11월    |
-| Cascade     | 2024년 2월     |
-| 3.0         | 곧 출시 예정    |
-
+| 버전 번호 | 릴리스 날짜  |
+| --------- | ------------ |
+| 1.1       | 2022년 6월   |
+| 1.2       | 2022년 6월   |
+| 1.3       | 2022년 6월   |
+| 1.4       | 2022년 8월   |
+| 1.5       | 2022년 10월  |
+| 2.0       | 2022년 11월  |
+| 2.1       | 2022년 12월  |
+| XL 1.0    | 2023년 7월   |
+| XL Turbo  | 2023년 11월  |
+| Cascade   | 2024년 2월   |
+| 3.0       | 곧 출시 예정 |
 
 더 필요한 정보가 있거나 궁금한 점이 있으면 언제든지 물어주세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Stable Diffusion 1.x 모델
 
@@ -49,7 +54,18 @@ Stable Diffusion 모델의 첫 번째 세대인 1.x 시리즈는 1.1, 1.2, 1.3, 
 
 1.x 모델은 총 8억 6000만 개의 매개변수를 가지고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 샘플 출력
 
@@ -61,7 +77,18 @@ Stable Diffusion 모델의 첫 번째 세대인 1.x 시리즈는 1.1, 1.2, 1.3, 
 
 이 모델을 사용하는 좋은 사례: 다양한 스타일과 주제를 생성합니다. 상대적으로 낮은 계산 요구 사항입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 모델의 부적절한 사용 사례: 약한 프롬프트 이해와 해결. 변형된 주제. 평평해 보이는 이미지.
 
@@ -71,7 +98,18 @@ Stable Diffusion 모델의 첫 번째 세대인 1.x 시리즈는 1.1, 1.2, 1.3, 
 
 포토 리얼리즘, 만화, 애니메이션 이미지 등을 포함한 수천 가지 특정 사용 사례에 대한 모델이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, DreamShaper, Juggernaut 및 RealCartoon은 안정적 확산 1.5를 기본 모델로 사용하지만 놀라운 결과를 제공하는 몇 가지 모델 중의 몇 가지입니다:
 
@@ -81,7 +119,18 @@ Stable Diffusion 모델의 첫 번째 세대인 1.x 시리즈는 1.1, 1.2, 1.3, 
 
 2.x에서 사용된 다른 CLIP 모델로 인해 사람들이 1.x에서 마이그레이션하는 것이 어려워졌습니다. 사실 프롬프트가 그렇게 잘 전환되지 않아서 오픈 소스 커뮤니티에서의 널리 사용이 급격히 줄었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 텍스트를 친절한 한국어로 번역한 것입니다.
 
@@ -95,7 +144,18 @@ Stable Diffusion 모델의 첫 번째 세대인 1.x 시리즈는 1.1, 1.2, 1.3, 
 - 모델 카드
 - 라이선스: CreativeML Open RAIL++-M — 상업적 및 비상업적 사용
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 모델의 좋은 사용 사례: 1.x 모델과 비교하여 더 높은 해상도의 출력물. 복잡하고 표현력이 풍부한 프롬프트를 효율적으로 처리. 사람보다는 건축물과 풍경 소재에 대한 성능이 뛰어남. 다양한 색상의 동적 범위를 제공함.
 
@@ -105,7 +165,18 @@ Stable Diffusion 모델의 첫 번째 세대인 1.x 시리즈는 1.1, 1.2, 1.3, 
 
 안정적인 확산 2.0 및 2.1은 오픈 소스 커뮤니티에서 1.5만큼 널리 채택되지 않았습니다. 그러나 세분화된 모델은 일부 존재합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Stable Diffusion XL 1.0
 
@@ -115,19 +186,41 @@ Stable Diffusion 모델의 첫 번째 세대인 1.x 시리즈는 1.1, 1.2, 1.3, 
 
 ![Stable Diffusion Models](/assets/img/2024-06-19-ComparingStableDiffusionModels_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 샘플 출력
 
 # 주요 사항
 
 - 해상도 (픽셀): 1024x1024
-- 모델 카드  
+- 모델 카드
 - 라이선스: CreativeML Open RAIL++-M 라이선스 — 상업적 및 비상업적 사용 가능
 
 이 모델의 좋은 사용 사례: 안정적인 확산 모델 중에서 가장 높은 해상도 출력. 개선된 색상 깊이, 구성, 전체 이미지 품질. 복잡한 프롬프트와 개념의 이해가 더 좋아짐.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 모델의 적합하지 않은 사용 사례: 로컬에서 실행하려면 상당한 계산 자원이 필요합니다. 소비자급 하드웨어에서 실행하기 어려울 수도 있습니다. 손과 같은 것들은 아직 완벽하지 않을 수 있습니다.
 
@@ -137,7 +230,18 @@ Stable Diffusion 모델의 첫 번째 세대인 1.x 시리즈는 1.1, 1.2, 1.3, 
 
 Juggernaut XL, DreamShaper XL, RealVisXL, Animagine XL 등이 인기가 많으며 다양한 사용 사례를 제공할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # SDXL Turbo
 
@@ -147,7 +251,18 @@ SDXL Turbo은 SD XL 1.0의 간추린 버전으로, 512x512 픽셀 이미지를 �
 
 # 주요 사실:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 해상도 (픽셀): 512x512
 - 모델 카드
@@ -159,7 +274,18 @@ SDXL Turbo은 SD XL 1.0의 간추린 버전으로, 512x512 픽셀 이미지를 �
 
 # 세밀하게 조정된 모델
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2.1처럼 SDXL Turbo의 오픈 소스 모델 생태계는 제한적입니다. 모델은 존재하지만, 대부분의 제작자들이 SDXL 및 SD 1.5와 같이 더 인기 있는 기본 모델에 노력을 기울이고 있습니다.
 
@@ -169,7 +295,18 @@ Stable Cascade은 Würstchen 아키텍처를 사용하는 독특한 모델로, �
 
 ![Stable Cascade](/assets/img/2024-06-19-ComparingStableDiffusionModels_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Stages C (10억 또는 36억 개의 매개변수) 및 B (7억 또는 15억 개의 매개변수)은 상호 교환 가능하며 하드웨어 요구 사항 및/또는 제한에 따라 다양한 모델을 사용할 수 있습니다.
 
@@ -179,7 +316,18 @@ SDXL Turbo와 마찬가지로 Stable Cascade은 연구용 모델입니다.
 
 ## 주요 사실:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 해상도 (픽셀): 1024x1024
 - 모델 카드
@@ -191,7 +339,18 @@ SDXL Turbo와 마찬가지로 Stable Cascade은 연구용 모델입니다.
 
 # 세밀하게 조정된 모델들
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 Stable Cascade에 대해 Fein-tuned 모델은 매우 적습니다.
 

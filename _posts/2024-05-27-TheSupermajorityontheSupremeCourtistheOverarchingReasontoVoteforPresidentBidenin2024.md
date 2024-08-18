@@ -3,17 +3,13 @@ title: "슈프림 코트의 슈퍼매이져리티는 2024년 대통령 선거에
 description: ""
 coverImage: "/assets/img/2024-05-27-TheSupermajorityontheSupremeCourtistheOverarchingReasontoVoteforPresidentBidenin2024_0.png"
 date: 2024-05-27 15:42
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-TheSupermajorityontheSupremeCourtistheOverarchingReasontoVoteforPresidentBidenin2024_0.png
 tag: Tech
 originalTitle: "The Supermajority on the Supreme Court is the Overarching Reason to Vote for President Biden in 2024*"
 link: "https://medium.com/@richardvanwagoner/the-supermajority-on-the-supreme-court-is-the-overarching-reason-to-vote-for-president-biden-in-a16616b0ed4e"
 isUpdated: true
 ---
-
-
-
-
 
 ![image](/assets/img/2024-05-27-TheSupermajorityontheSupremeCourtistheOverarchingReasontoVoteforPresidentBidenin2024_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 대법원이 돕스로로 르 전환하여 50년의 생식 자율성을 정부의 개입에서 제거하기 전에, 트럼프와 대법원 판사들은 를 결정된 사법라는 것을 의심하게 만들었습니다. 돕스에서는 제도적인 타당한 절차의 소멸을 볼 수 있으며 이것은 "결혼, 생식, 피임, 가족 관계, 육아 및 교육과 관련된 개인적인 결정을 보호하는 헌법 교리"입니다. 대법원의 수렴점에서 "생활 중에서 사람이 할 수 있는 가장 가까운 또는 개인적인 선택 사항들, 존엄과 자율성의 핵심, ...자유의 중추"는 이제 의심의 대상이 될 뿐만 아니라 "십사번째 수정안에 의해 보호받을 수 없게 되었으며 ... 자유의 핵심"은 더 이상 "자신의 존재, 의미, 우주, 그리고 생명의 미스터리를 정의하는 권리"를 보장하지 않습니다. 앤트니 케네디 재판관, 남동부 펜실베니아 계획모성단체. 케시.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 법정의 초과다수는 정부의 간섭으로부터 개인 자율권의 중요한 추가적인 권리, 즉 피임권(최근 트럼프가 의문을 제기한), 인종간 결혼, 성적 활동, 동의하는 성인 간의 성관계, 동성 결혼, 그리고 부모가 자녀의 보호, 양육, 교육, 보살핌, 그리고 통제를 지시하는 권리를 위협하고 있습니다. 만일 토마스 대법관의 의견이 받아들여진다면, 법정은 1965년에 판결된 커네티컷 주 그리스월드 대 커네티컷 사건부터 시작하여 모든 중요한 정당한 절차/사생활권 사건을 재검토하고 뒤집을 것입니다. (그리스월드 사건에서 법정은 결혼한 부부가 주의 간섭 없이 피임에 대한 헌법적 사생활권을 갖고 있다고 판결했습니다.)
 
@@ -34,7 +40,18 @@ isUpdated: true
 
 보수주의자들은 대사법 판사들을 혐오하지만, 그렇지 않을 때도 있습니다. 법정의 보수파 다수는 "주요 질문 규범"을 통해 기존 입법의 해체와 강화를 가속화하고 있으며, 수십 년 동안 유지된 권력 구조를 실질적으로 변화시키고 있어 의회에서 더 많은 교착 상태를 초래하고 있으며 미국 국민의 건강, 안전, 복지를 위협하고 있습니다. 행정부가 법률을 제정하고 행정하고 이를 "활동주의적 보수파 초과다수"의 만족에 어울리게 하는 연방 정부의 능력은 심각하게 손상되어 있거나 불가능하게 되어가고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 “주요 질문 주의”는 미국 행정법 사례에 적용되는 법률 해석 원칙으로, 법원이 의회가 주요 정치적 또는 경제적 중요성으로 라벨링한 문제들을 행정 기관에 위임하지 않는다고 가정합니다. 만일 슈퍼마이어리티가 연방 기관이 마음에 들지 않는 규제를 집행하고 있다면, 법원은 단지 집행물의 주제가 의회가 행정 기관에 위임하지 않은 “주요 질문”에 속한다고 결론지을 필요가 있습니다.
 
@@ -44,7 +61,18 @@ isUpdated: true
 
 “조 바이든 대통령이 취임한 이후로 연방 주택 정책을 효과적으로 통제해 왔으며, 어떤 근로자가 코로나바이러스 19 예방접종을 받아야 하는지 결정하고, 환경문제 대응을 위한 EPA의 권한을 상당 부분 박탈하였으며, 교육 장관이 학생 대출을 수정하거나 사면할 수 있는 연방 법률을 다시 쓰기도 하였습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "현재 다수파로 이해되는 대법원의 주요 질문 원칙은 지난 몇 년 동안 거의 공중에서 나타났습니다. 민주당 행정부가 만든 정책을 무효화하기 위해 공화당 임명 판사들에 의해 거의 배타적으로 사용되었습니다. 이 원리는 헌법 어디에도 언급되지 않았습니다. 연방 법령에도 언급되어 있지 않습니다. 선출되지 않은 판사들이 연방 정책에 지나친 통제력을 행사하려는 것으로 보입니다.
 
@@ -54,7 +82,18 @@ isUpdated: true
 
 ![image](/assets/img/2024-05-27-TheSupermajorityontheSupremeCourtistheOverarchingReasontoVoteforPresidentBidenin2024_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 미국의 슈퍼매이조리티는 인종 중심의 지역구 획정을 승인하는 등 소수결정을 유지하고 보존합니다.
 
@@ -64,7 +103,18 @@ isUpdated: true
 
 1월 6일 폭동에서 '하늘에 호소' 깃발이 기독교 국민주의의 상징으로서 부각되고 있다는 사실을 배우고 있으며, 기독교 국민주의가 폭동을 계획하고 실행하는 데 중추적인 역할을 한 사실을 알고 있습니다. 최고법원판사 알리토, 연방주의회 회장 레오 루시, 하원의원 마이클 존슨을 비롯한 더 많은 지지자들에 대해 더 많은 정보를 알게 되고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 알리토의 신념 체계와 2023년 5월 23일 목요일 발표된 연방 대법원 판결인 Alexander v. South Carolina State Conference of the NAACP에 공통된 주제는 엘리 마이스탈이 이야기한 것처럼, 이렇다: 유일하게 자격 있는 미국 시민, 즉 백인들만이 완전한 시민권과 책임을 부여받아야 하며, 희석되지 않은 투표권, 존중받을 가치 있는 목소리를 가지고 있어야 한다는 것입니다. 알리토의 공개된 백인 크리스찬 국민주의를 기반으로 한 나는 한 걸음 더 나가서, 낙태, 동성 결혼, 트랜스젠더 권리, 그리고 정부에서 종교를 배제하는 것을 지지하는 사람들, 각성한 자유주의자, 이념주의자, 무신론자, 그리고 하위 품종, 인종, 민족, 종교를 가진 사람들은 자격 없다고 생각합니다.
 
@@ -74,7 +124,18 @@ isUpdated: true
 
 Alexander 사례에서 사우스 캐롤라이나 의회는 2020년 인구조사를 기반으로 국회 의석구역을 다시 그렸습니다. 재선거는 20만 명의 흑인 유권자를 새로운 선거구로 분산시켰으며, "[제1 국회의 지역]을 대부분의 찰스턴으로부터 제거함으로써 도시의 120년 역사를 끊었습니다." NAACP는 이 지도가 헌법적으로 인종주의적 지시도정이라고 주장했습니다. 대법원은 사우스 캐롤라이나 지도 사례에 대해 판결했습니다. 아프하한 증거 청취 후, 세 명의 연방 지방법원 패널은 NAACP의 주장을 받아들이며, 사실이 지도가 헌법에 위반되는 인종주의적 지시도정임을 압도적으로 입증했다고 결정했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 알리토 재판관이 쓴 6-3 다수결 의견에 따르면, 상급 법원은 하급 법원이 사실적인 결정을 뒤엎었는데, 이를 “분명히 잘못되었던 사실적인 판단”이라 하며 상급 법원이 일반적으로 하지 않는 일을 했습니다. 그들은 사실을 재검토하고 “극명하게 다른 결론”에 이른 것입니다. 2019년 5-4 다수결에 근거하여 정치적인 아웃라이어 재구획을 허용한 것이 연방 법원의 관할 범위를 벗어난다고 판단한 알리토의 다수파는 재구획이 정치적인 것으로 규정하고 이에 따라 합법적이라고 명명했습니다. 남부 지역에서 흑인과 백인 유권자가 역사적으로 높은 극성을 띄고 있음에도 불구하고, 그들의 투표 패턴은 강력하게 인종과 관련이 있으며 증거가 분명하게 그 재구획이 인종을 기반으로 한 것임을 입증했습니다. 그리고 투표권 보호 법 1965년은 특히 다수파가 사우스캐롤라이나에게 흑인 투표권을 약화시키는 것을 허용한 것과 정확히 반대하도록 통과됐습니다. 남부 의원 중 누군가가 지도를 다시 그릴 때 인종이 고려되지 않았다고 주장한다면, 법원에 충분할 것입니다. 최고 법원은 인종적 재구획 선례를 해체했습니다.
 
@@ -82,7 +143,18 @@ Alexander 사례에서 사우스 캐롤라이나 의회는 2020년 인구조사�
 
 카건 재판관은 "오늘의 다수파가 청구인들에게 불리한 결론을 내리기 위해 사실과 법률을 왜곡할 수 있는 사례를 찾은 것 이외에는 목격한 모든 합리적인 법정 구경꾼들이 알고 있는 것을 기초로 원념 참배를 포함한 반대 의견을 마무리했습니다. 그분의 의견은 이렇게 말합니다: ‘다양한 방법으로, 오늘의 다수파는 도전자들을 상대로 덱을 쌓습니다. 상태가 ‘인종을 고력하지 않은’ 대해 가능한 이야기를 갖고 있었다는 것 때문에 도전자들이 패배해야 한다, 다수파는 말합니다 — 심지어 반대 이야기가 더 타당했을 경우라도. 그리고 다시 한번, 다수파는 말합니다, 그들이 본증명의 특정 형태를 제시하지 않았기 때문에 (이들에게는 그것이 중요할 것인지를 알아차리지 못한 상태에서이기도 하고 최근 이 법원이 원고로 하여금 필요하지 않다고 말한 것) 패배해야 한다. 도전자들이 주장한 것처럼 주 재구획 계획이 인종적 분류의 결과임을 증명하기 위해 전문적인 통계 분석을 포함한 방대한 증거를 제시했음에도 상태가 그것을 인종적 분류의 결과로 생각하기 위해 노력하고 어렵고 서투른 부인 이상의 것을 제시한 사실에도 불구하고. 상태의 거짓 주장을 믿기 어려운 것으로 생각한 세 명의 판사들이 그 논백이 사실상 믿을 수 없는 것이며, 원고의 증거에 덧입히지 않았다고 생각했다. 투표에서 인종적 분류가 논의되면, 다수파는 말합니다, 모든 의심은 상태의 편을 들어주는 것으로 해결되어야 하며, 그렇지 않으면 (하느님 금지인) ‘책망적이고 멸시적인’ 행태를 벌릴 수밖에 없다고 하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주 의회 의원들과 지도 제작자들에게 인종적 선거구 재편에 대한 메시지네요. 저는 이미 언급한 이유들로, 이러한 행위자들은 종종 정당 목적을 달성하기 위해 인종을 대리인으로 사용하는 동기를 갖는 경우가 많습니다. 때로는 소수 선거인플루언스를 직접 억제하고 싶을 수도 있습니다. 이번에는 이 법정이 주들에게 말합니다. 오늘 주들아, 앞으로 나아가세요. 인종을 사용하는 합법적인 이유, 예를 들어 평등한 투표권을 보장하는 법률을 준수하기 위한 것 같은 인정받는 사유가 없다 하더라도 앞으로 나아가세요. 당신이 (최선의 경우) 인종을 파티 이익을 가져오기 위한 단순한 수단으로 사용하고 있다 할지라도, 각각의 경우에 더 많은 공화당당원이든 더 많은 민주당당원이든 더 많은 정당원을 선출하기 위한 단축으로 인종을 사용할지라도 앞으로 나아가세요. 최종적으로 당신의 행적을 알리는 것은 충분히 쉽습니다: 인종 기반의 결정이 아닌 가능성을 제기하면 결정적입니다. 그래서 이 '혐오스러운' 시민 분류의 관행은 계속될 것입니다. 이 것은 인종 일반화에 근거를 두고 인종적 분할을 이용하는 것입니다. 특히 선거 영역에서는 '만연한 인종차별의 추악한 양상'이길래, 우리 스스로, 우리의 정치 대표자들, 특히 이 법정에게는 더 나은 것을 요구해야 합니다. 존경히 반대를 표합니다."
 
@@ -92,6 +164,17 @@ R.VanWagoner는 https://medium.com/@richardvanwagoner에 게시합니다. https:
 
 \*나의 형제인 매우 재능 있는 소설 작가이자 소설가, 로버트 호드슨 밴 왜너,가 https://medium.com/@richardvanwagoner에 대한 실용적이고 기술적 제안을 제공한 데에 상당한 공로가 있습니다. 로브의 두 번째 소설인 서스펜스 드라마는 2020년 11월 17일 출시되었습니다. 아마존, 바른스 앤 노블, 애플 북스토어, 그리고 여러분이 선호하는 지역 서점에서 이 소설인 "The Contortionists"는 농담적으로 몰몬지역 아동의 실종에 대해 다룬 심리적 페이지 터너입니다. 저는 이 소설을 두 번 읽고 오디오 버전을 두 번 들었습니다. 그것은 문학적 걸작입니다. 그러나 'The Contortionists'는 마음이 약한 사람들에겐 권하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **Richard J Van Wagoner**은 제 아버지입니다. 그의 영예, 상, 그리고 전문 협회 목록은 광범위합니다. 그는 웨버 주립 대학교의 명예 교수 (회화 및 드로잉)로 총 3회 시각 예술 학과 의장을 맡은 경력이 있습니다. 그는 다수의 대학에서 초청 강의와 지도를 하였으며 다수의 전시 및 전시회 심사위원도 역임했습니다. 그의 작품은 국내외 다수의 전시와 전시회로부터 초대를 받아 전시되었으며 그의 작품은 국내외로 다수의 여행전시에 참가했습니다. 저의 딸 Angela Van Wagoner는 프로 사진작가로서, 제 아버지 작품 중 500개 이상을 촬영했습니다. https://medium.com/@richardvanwagoner 에 게재된 아버지의 작품 사진은 그녀가 찍은 것입니다.

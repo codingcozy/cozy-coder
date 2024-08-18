@@ -3,17 +3,13 @@ title: "2024년에 알아야 할 TensorFlow와 PyTorch로 신경망 구현 방�
 description: ""
 coverImage: "/assets/img/2024-07-09-ImplementingNeuralNetworksinTensorFlowandPyTorch_0.png"
 date: 2024-07-09 23:12
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-ImplementingNeuralNetworksinTensorFlowandPyTorch_0.png
 tag: Tech
 originalTitle: "Implementing Neural Networks in TensorFlow (and PyTorch)"
 link: "https://medium.com/towards-data-science/implementing-neural-networks-in-tensorflow-and-pytorch-3c1f097e412a"
 isUpdated: true
 ---
-
-
-
-
 
 환영합니다, 깊은 학습 그림 시리즈의 실용적인 실행 가이드로 여러분을 초대합니다. 이번 시리즈에서는 이전 글에서 탐구한 신경망 개념을 실제로 적용하여 이론과 실무 사이의 간극을 줄일 것입니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 먼저 시작해볼까요: TensorFlow가 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 TensorFlow는 기계 학습 애플리케이션을 구축하고 배포하기 위한 풍부한 도구, 라이브러리 및 커뮤니티 리소스의 종합 생태계입니다. 구글에서 개발된 TensorFlow는 유연하고 효율적으로 설계되어 다양한 플랫폼에서 CPU부터 GPU, 심지어 TPU와 같은 특수 하드웨어에서 작동할 수 있습니다. "TensorFlow"라는 이름은 그 핵심 개념인 tensor flow에서 유래했습니다. 텐서는 다차원 배열로, 훈련 및 추론 과정 중에 계산 그래프를 통해 흐릅니다.
 
@@ -33,7 +40,18 @@ TensorFlow는 기계 학습 애플리케이션을 구축하고 배포하기 위�
 
 먼저, 이전에 사용한 아이스크림 매출 데이터를 번역해 보겠습니다…
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 신경망에 적합한 형식으로 변경되었습니다:
 
@@ -52,8 +70,18 @@ y_train = np.array(revenue)
 
 이렇게하면 우리의 입력 특성인 X_train이 생성됩니다…
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![The first image](/assets/img/2024-07-09-ImplementingNeuralNetworksinTensorFlowandPyTorch_1.png)
 
@@ -63,8 +91,18 @@ y_train = np.array(revenue)
 
 ## Step 2: Standardize the data
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로 데이터를 표준화할 것입니다. 데이터를 표준화하는 것은 평균이 0이고 표준 편차가 1이 되도록 특성을 변환하는 중요한 전처리 단계입니다.
 
@@ -80,7 +118,18 @@ X_train_scaled = scaler.fit_transform(X_train)
 
 ## 단계 3: 신경망 구축
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이번 단계에서는 우리의 신경망 모델을 정의합니다. 이전에 우리는 하나의 은닉층과 두 개의 뉴런, ReLU 활성화 함수를 사용한 하나의 출력 뉴런으로 구성된 구조로 결정했습니다.
 
@@ -102,7 +151,18 @@ model.add(Dense(2, input_dim=2, activation='relu'))
 model.add(Dense(1, activation='relu'))
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시퀀셜 모델은 레이어 스택을 구축할 수 있게 해줍니다. Dense 레이어들은 완전히 연결된 레이어로, 한 레이어의 각 뉴런이 다음 레이어의 모든 뉴런과 연결됩니다.
 
@@ -115,7 +175,18 @@ model.add(Dense(1, activation='relu'))
 model.compile(optimizer='adam', loss='mean_squared_error')
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컴파일은 학습 과정을 구성하는 중요한 단계입니다. 여기서 우리는 다음을 지정합니다:
 
@@ -124,12 +195,22 @@ model.compile(optimizer='adam', loss='mean_squared_error')
 
 이제 모델을 학습할 수 있습니다:
 
-
 # 모델 학습
+
 history = model.fit(X_train_scaled, y_train, epochs=100, verbose=1)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 The fit method is where the actual learning happens. First, we need to specify the input features (X_train_scaled), target values (y_train), and the number of training cycles (epochs). By adjusting the verbose parameter, we can control the level of output during training.
 
@@ -148,7 +229,18 @@ plt.show()
 
 ![Training Loss](/assets/img/2024-07-09-ImplementingNeuralNetworksinTensorFlowandPyTorch_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 플롯은 시간이 지남에 따라 손실(예측 오차)가 줄어드는 것을 보여줍니다. 학습 과정에 대한 통찰을 제공합니다.
 
@@ -164,7 +256,18 @@ from sklearn.metrics import mean_squared_error
 print("훈련 데이터에서 예측된 수익:", 예측)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Here, we're using our trained model to forecast ice cream sales using the input features. To evaluate the accuracy of our predictions, we can employ the Mean Squared Error (MSE) as a measure of our model's precision.
 
@@ -176,7 +279,18 @@ print("Mean Squared Error on Training Data:", mse)
 
 ![Image](/assets/img/2024-07-09-ImplementingNeuralNetworksinTensorFlowandPyTorch_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 MSE 값은 우리가 희망했던 것만큼 낮지는 않지만, 괜찮아요. 이건 매우 기본적인 신경망이고, 전체적으로 복잡성을 추가하고 아키텍처를 조정해 결과를 향상시키는 것이 목적입니다.
 
@@ -186,7 +300,18 @@ MSE 값은 우리가 희망했던 것만큼 낮지는 않지만, 괜찮아요. �
 
 이제 TensorFlow를 사용해 모델을 구현하는 방법을 보았으니, 다른 강력한 프레임워크 PyTorch로 동일한 결과를 이끌어내는 방법을 살펴봅시다. Facebook의 AI 연구소에서 개발된 PyTorch는 유연성과 효율성으로 유명하여 많은 사람들에게 인기가 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이게 다야! TensorFlow와 PyTorch를 사용하여 아이스크림 판매를 예측하는 간단한 신경망을 구현하는 방법을 배웠어요. 다음 기사에서는 두 프레임워크 모두에서 합성곱 신경망(CNN)을 구현하는 방법을 다룰 거예요.
 

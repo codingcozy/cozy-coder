@@ -3,17 +3,13 @@ title: "로봇들이 제멋대로 현재와 미래에 우려할 이유가 있을
 description: ""
 coverImage: "/assets/img/2024-06-19-RobotsGoneWildIsThereReasonforConcernNowandintheFuture_0.png"
 date: 2024-06-19 18:34
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-RobotsGoneWildIsThereReasonforConcernNowandintheFuture_0.png
 tag: Tech
 originalTitle: "Robots Gone Wild: Is There Reason for Concern Now and in the Future?"
 link: "https://medium.com/datadriveninvestor/robots-gone-wild-is-there-reason-for-concern-now-and-in-the-future-65cbf61cba7b"
 isUpdated: true
 ---
-
-
-
-
 
 인공 지능이 비즈니스의 모든 영역에서 발전하고 있지만, 만약 그것이 "야생"이 된다면 무슨 일이 벌어질지에 대한 심각한 우려가 있습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 최근 자율주행차량 전체가 도로에서 내려온 일이 있었습니다. 그 이유는 차량의 센서가 도로 상의 다친 보행자를 인식하지 못했기 때문입니다. 차량이 보행자를 치고 그를 자율주행차량의 경로로 던졌습니다. 그 자율주행차량은 그녀를 치고 난 후 도로를 따라 20피트를 끌고 그녀를 차 밑에 묶어 남겼습니다. 그 결과 그녀는 위험한 상태로 중상을 입었습니다. 이제 거리를 건너는 것이 완전히 안전하지 않을 수도 있습니다. 보행자가 보도를 건널 때 자율주행차량이 멈추지 않은 것에 관한 연방 조사가 진행 중입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 정부가 승인한 자율 주행 자동차용 안전 절차가 명확히 정해져 있지 않습니다. 특히 자율 주행 자동차가 도로 중간에 갑자기 멈추는 경향은 교통을 방해하고 응급 서비스의 지연을 일으켜 주의를 불러일으키는 부분입니다. 샌프란시스코에서는 관리자들이 여러 사건을 기록해 왔습니다. 또한, 운전자 없는 자동차가 유아 수레에 부딪히는 것과 식료품 카트에 부딪히는 것 중 어떤 선택을 할지 결정해야 하는 로보틱스 전문가의 문제라는 난제도 있습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 캐나다의 무지개 다리를 건너려던 벤틀리가 폭발하는 사건으로 AI의 치명적인 사고에 대한 조사가 재개되었습니다. 이 고급차 회사는 오래된 모델(2020년-2023년)용 리콜을 여러 차례 내부적으로 실시해 왔는데, 이 특별한 사고의 차량 역시 오래된 모델이었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로봇이 우리에게 HAL이 하는 명령 거부의 불길한 소리를 들으면 어떻게 될까요? "2001년 우주 여행"에서 Hal이 말했던 "Dave, 미안하지만 그걸 할 수 없어"라는 말처럼. 이제 우리는 단순한 작업을 하는 로봇들과 함께, 센서가 사람과 같이 고장나면 비극이 일어날 수 있습니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 미국 정부는 이러한 사건들을 기록하고 있지만 소비자들은 잘 참조하지 않습니다. 그러나 이것은 우리가 알아야 하는 정보를 제공합니다. 각 사건은 "직원이 스폿용접 로봇이 눌러 죽을 때", "직원이 오크라 로봇 팔 사이에 끼여 죽음", 또는 "직원이 타 오르는 기계에 의해 눌려 죽음"으로 나타내고 있습니다. 아니요, 기계는 생각하지 않습니다. 그들은 고장이 납니다. 이는 안전장치 부족 때문일 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1981년, 제조 로봇과 관련된 최초의 사고 중 하나가 가장 가와사키 공장에서 발생했습니다. 작업자가 수리하기 위해 유닛 주변의 울타리를 무시하고 접촉했을 때, 우연히 "켜기" 스위치에 닿아 로봇 팔이 그를 잡아 기어를 절단하는 기계로 밀었습니다. 동료들이 구할 수 없었습니다. 그는 사망했습니다. 이 사건 이전에는 1979년 포드 공장에서 창고선반을 쌓는 로봇이 작업자를 죽였는데, 그 작업자에게로봇을 빨리 움직이라는 지시를 받았을 때 발생했습니다. 그는 가파르게 올라가 희생되었습니다.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 주요 문제는 무엇일까요? 로봇의 경우 고려하지 않은 사항을 고려하지 못하는 것으로 보입니다. 이러한 부상이나 사망은 단지 비극뿐만 아니라 사전에 고려되어야 했으며 그에 대한 안전장치가 로봇 코드에 삽입되어야 했습니다. 그러나 무엇이 잘못될 수 있는지 깊게 고려하지 않는다면, 어떻게 그것을 방지할 코드를 작성할 수 있을까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 DDIntel에 가입해 주세요.
 
@@ -63,7 +103,18 @@ DDIntel에 가입해 주세요.
 
 DDIntel은 주요 사이트와 인기있는 DDI Medium 출판물에서 주목할 만한 콘텐츠를 모으고 있습니다. 우리 커뮤니티의 풍부한 작업을 더 자세히 살펴보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 DDI 공식 텔레그램 채널: [https://t.me/+tafUp6ecEys4YjQ1](https://t.me/+tafUp6ecEys4YjQ1)
 

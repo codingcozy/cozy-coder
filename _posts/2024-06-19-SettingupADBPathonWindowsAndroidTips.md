@@ -3,17 +3,13 @@ title: "윈도우에서 ADB 경로 설정하기 안드로이드 팁"
 description: ""
 coverImage: "/assets/img/2024-06-19-SettingupADBPathonWindowsAndroidTips_0.png"
 date: 2024-06-19 15:37
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-SettingupADBPathonWindowsAndroidTips_0.png
 tag: Tech
 originalTitle: "Setting up ADB Path on Windows: Android Tips."
 link: "https://medium.com/@theflutterist/setting-up-adb-path-on-windows-android-tips-5b5cdaa9084b"
 isUpdated: true
 ---
-
-
-
-
 
 ADB(Android Debug Bridge)는 안드로이드 앱 개발자들에게 필수적인 도구로, 컴퓨터에서 안드로이드 기기와 통신할 수 있게 해줍니다. ADB를 효과적으로 사용하려면 Windows 환경에서 ADB 경로를 설정해야 합니다. 아래 단계별 안내를 따라 시작해보세요:
 
@@ -25,7 +21,18 @@ ADB(Android Debug Bridge)는 안드로이드 앱 개발자들에게 필수적인
 - 페이지를 스크롤하여 "SDK Platform-Tools for Windows" 섹션을 찾으세요.
 - "Windows 플랫폼 도구 다운로드" 링크를 클릭하여 ADB 및 기타 도구가 포함된 ZIP 파일을 다운로드하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 2: ZIP 파일 추출
 
@@ -38,7 +45,18 @@ ADB(Android Debug Bridge)는 안드로이드 앱 개발자들에게 필수적인
 - ZIP 파일의 내용을 추출한 폴더로 이동해주세요. 이 폴더에는 “adb.exe” 파일이 포함되어 있어야 합니다.
 - 상단에 있는 폴더의 주소 표시줄을 클릭해주세요. 해당 폴더의 전체 경로가 표시됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-SettingupADBPathonWindowsAndroidTips_1.png" />
 
@@ -49,7 +67,18 @@ ADB(Android Debug Bridge)는 안드로이드 앱 개발자들에게 필수적인
 
 ## 단계 5: "Path" 변수 편집하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - “환경 변수” 창에서 “시스템 변수” 섹션 아래에서 “Path” 변수를 찾아 선택하세요.
 - “편집” 버튼을 클릭하세요.
@@ -62,7 +91,18 @@ ADB(Android Debug Bridge)는 안드로이드 앱 개발자들에게 필수적인
 
 ## 단계 7: ADB 설치 확인
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 명령 프롬프트(cmd) 또는 PowerShell을 엽니다.
 - "adb"를 입력하고 Enter 키를 누릅니다.
@@ -74,7 +114,18 @@ ADB(Android Debug Bridge)는 안드로이드 앱 개발자들에게 필수적인
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Windows 환경에서 ADB 경로를 설정하는 것은 안드로이드 앱 개발자에게 매우 중요한 단계입니다. 이를 통해 컴퓨터에서 안드로이드 기기와 원활하게 통신할 수 있어 앱 개발 및 디버깅 작업이 훨씬 효율적으로 진행됩니다.
 

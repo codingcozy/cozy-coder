@@ -3,17 +3,13 @@ title: "2024년에 데이터 엔지니어가 되기 위한 조건은 무엇일�
 description: ""
 coverImage: "/assets/img/2024-06-23-WhatDoesitTaketoGetintoDataEngineeringin2024_0.png"
 date: 2024-06-23 16:28
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-WhatDoesitTaketoGetintoDataEngineeringin2024_0.png
 tag: Tech
 originalTitle: "What Does it Take to Get into Data Engineering in 2024?"
 link: "https://medium.com/towards-data-science/what-does-it-take-to-get-into-data-engineering-in-2024-5efb9c41865b"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-23-WhatDoesitTaketoGetintoDataEngineeringin2024_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 사실 왜 데이터 분석이나 데이터 과학이 아니고 데이터 엔지니어링을 선택하는 걸까요? 저는 이 역할의 본질에 답이 있다고 생각해요. 데이터 엔지니어가 되기 위해서는 소프트웨어 엔지니어링과 데이터베이스 디자인, 기계 학습(ML) 모델, 그리고 데이터 모델링과 비즈니스 인텔리전스(BI) 개발을 배워야 해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 엔지니어링은 DICE에 따르면 가장 빠르게 성장하는 직업입니다. 그들은 갭을 보여주기 위해 연구를 수행했습니다. 빨리 움직이세요.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 데이터 엔지니어링이 매우 복잡하기 때문에 급여와 혜택 package는 다른 기술 분야보다 훨씬 더 좋아보입니다. 실제로, 데이터가 잡다하고 지루한 데이터 조작 작업인 것처럼 보여 소프트웨어 엔지니어 중에는 데이터를 피하는 것을 선호하는 사람들도 많이 있습니다. 이로 인해 데이터 엔지니어링은 데이터 플랫폼 및 데이터 파이프라인 디자인 패턴을 배우려는 사람들에게 수익성 있는 목표가 되고 있습니다. 데이터 엔지니어링은 데이터 조작 및 프로세스 조정에 관한 것입니다. 데이터는 정제되고 테스트되고 승인되어 사용자에게 적시에 전달되어야 합니다. 이는 ML 및 BI가 그것을 많이 의존하는 이유입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 이야기에서는, 2~3개월 안에 달성할 수 있는 기술 세트와 가능한 프로젝트를 요약해 보려고 합니다. 상상해보세요, 몇 달 동안 적극적인 학습을 한 후에는 첫 직장 면접 준비가 완료되어 있게 됩니다.
 
@@ -43,7 +61,18 @@ STEM(과학, 기술, 공학, 수학) 배경 없이 데이터 엔지니어링에 
 
 일상적으로 업무를 수행하면서 여가 시간에만 소프트웨어 엔지니어링을 배워야 했던 어려움이 있었던 것도 기억이 나네요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나는 Fiverr과 PeoplePerHour에서 프로젝트를 찾아보며 기업들이 데이터에 대해 어떤 것을 필요로 하는지 살펴보았던 기억이 납니다. 지금 생각해보면 이것이 많은 고객들의 진정한 고통 포인트를 이해하는 데 많은 도움이 되었고 아마도 가장 효율적인 학습 방법이었을 것입니다.
 
@@ -53,7 +82,18 @@ STEM(과학, 기술, 공학, 수학) 배경 없이 데이터 엔지니어링에 
 
 ## 계획
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 쉬는 시간을 가져가서 진정으로 그것이 필요한지 생각해보세요. 만약 답이 '예' 라면 필요한 건 계획 뿐입니다. 이 곳에서 목표는 속도가 아닙니다. 가능하다면 아무런 고통 없이 "데이터 엔지니어링에 진입하는 방법"을 실현 가능한 해결책으로 기록하는 것이 이제의 목표입니다.
 
@@ -63,7 +103,18 @@ STEM(과학, 기술, 공학, 수학) 배경 없이 데이터 엔지니어링에 
 
 첫 두 주 동안 실제로 배우면서 이 습관을 습득하고자 할 것입니다. 조금씩 하되 꾸준히 합니다. 학습의 습관을 형성해야 합니다. 예를 들어, 저는 Google Professional Data Engineer 시험 준비를 하면서 이렇게 했습니다. 매일 아침에 체육관에서 사이클을 타면서 책을 읽었죠. 아침이 가장 생산적인 시간이기 때문에 그 때 진행했습니다. 이 2020년의 글은 여전히 유효합니다. 많은 것들이 실제로 변한 게 많지 않고, 학습은 주로 데이터 엔지니어링의 기본 원칙에 대해 집중했습니다. 물론, 제품 특정 질문이 많았지만, 이 글은 빠르게 학습하는 방법에 대한 지침서입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 엔지니어링은 다음과 같은 기술 영역들에 관련이 있어요:
 
@@ -79,7 +130,18 @@ STEM(과학, 기술, 공학, 수학) 배경 없이 데이터 엔지니어링에 
 
 일단 SQL에 집중해 볼게요. 목록에서 첫 번째 항목은 아니지만 저는 이것이 가장 보편적이라고 생각해요. SQL 방언은 데이터 모델링에서 널리 사용되어 왔기 때문에 이제 데이터 조작의 표준으로 간주될 수 있어요. 처음 두 주 동안 해야 할 것은 다양한 SQL 쿼리를 실행해보고 어떤 데이터 파이프라인에서 사용될 수 있는지 상상하는 거에요. 여기서 다시 정리하고 싶은 것들은 아마도 다음과 같을 거에요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - SQL을 사용하여 테이블을 만드는 방법
 - 공통 테이블 표현식을 사용하는 방법
@@ -128,7 +190,7 @@ using (
             user_id
         ,   max(timestamp) as last_online
 
-        from 
+        from
             connection_data
         where
             date(_partitiontime) >= date_sub(current_date(), interval 1 day)
@@ -148,7 +210,18 @@ select * from last_online
 ;
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 주 3–4: 현대 데이터 스택
 
@@ -162,7 +235,18 @@ select * from last_online
 - 비즈니스 인텔리전스 또는 데이터 시각화 플랫폼
 - 기계 학습 및 데이터 과학 기능
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앞선 두 주 동안 SQL을 사용하여 데이터를 변환하고 조작하는 방법을 이미 배웠어요. 이제 이 전략적인 지식을 활용하는 방법을 알게 됐으니, 그에 맞게 활용해봐요.
 
@@ -172,20 +256,39 @@ select * from last_online
 
 지금은 파이썬에 대한 지식을 되짚거나 살짝 배우는 시기예요. 파이썬은 정말 배우기 쉬운 방법이죠. 스크립트 형식이라 코드를 읽기 쉽고 유용한 라이브러리가 많습니다. 이 모든 특징들로 인해 데이터 엔지니어링에서 프로그래밍 언어로 많이 선택되었어요. 반복문, 함수, 조건문, 오류 처리, 그리고 데이터 구조와 같은 기본적인 프로그래밍 개념에 초점을 맞출 거예요. 데이터 엔지니어링에서는 이런 것들을 자주 사용할 거라고 생각해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제안드리는 바는 데이터 API 및 요청을 통해 시작하는 것입니다. 이러한 지식을 클라우드 서비스와 결합하면 미래에 필요한 모든 ETL 프로세스를 위한 매우 좋은 기반이 마련됩니다.
 
 전형적인 데이터 파이프라인 [5]은 Python 함수(또는 오퍼레이터)의 연쇄이며 다음과 같이 보일 것입니다:
 
-
 ![pipeline](/assets/img/2024-06-23-WhatDoesitTaketoGetintoDataEngineeringin2024_3.png)
-
 
 우리는 Python 함수를 사용하여 데이터를 처리하며, 결과적으로 다음과 같은 파이프라인을 얻을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-23-WhatDoesitTaketoGetintoDataEngineeringin2024_4.png)
 
@@ -195,8 +298,18 @@ More examples can be found here:
 
 이해API 요청 방법은 중요합니다. 이것은 ETL 서비스가 다른 서비스와 상호 작용하는 주요 방법이기 때문입니다. 즉, 데이터를 추출합니다. 데이터 엔지니어는 API 서비스에 요청을 보내어 데이터를 요청할 때 많이 사용합니다. 그런 다음 실제로 변환 (ETL)하는 데이터를 페이징하거나 스트림으로 응답합니다. 아래 예제를 고려해보십시오. 이 예제는 NASA 소행성 API에서 데이터를 추출하는 방법을 설명합니다. 이는 매우 간단한 예제이며 매우 배우기 쉬운 이유입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 # nasa.py
@@ -220,8 +333,18 @@ print(response.status_code)
 
 파이썬과 SQL을 조금 배우면 실제 데이터를 추출하고 클라우드 어딘가에 저장할 수 있습니다. AWS, GCP 및 Azure와 같은 클라우드 서비스 제공업체들이 시장을 선도하고 있으며 그 중 적어도 하나에 익숙해지는 것이 필수적입니다. 그래서 이제 우리는 실제로 첫 번째 데이터 파이프라인을 만들고 싶어할 것입니다. 이것은 간단한 함수일 수 있습니다. NASA 소행성 데이터를 추출하여 AWS S3에 저장하는 것이다. 그게 다입니다! 아주 간단하지만 이것이 우리의 첫 번째 데이터 파이프라인이며 매일, 매 시간 등으로 실행되도록 예약할 수 있습니다. 서버리스 마이크로서비스로 배포하고 무료로 실행되어 클라우드 저장 공간에서 데이터를 추출 및 보존합니다. AWS 웹 UI를 사용하여 쉽게 배포할 수 있습니다. 그러나 서비스를 배포하는 더 선호되는 방법은 인프라스트럭처 코드입니다. 해당 주제는 본질적으로 이해하기 어려우며 초보자이신 경우 깊게 파고들지 않는 것이 좋습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 몇 주 동안은 명령줄 도구에 주로 초점을 맞추고 클라우드 기능을 배포하고 클라우드에서 리소스를 프로비저닝하는 몇 가지 트릭을 익히는 것을 추천합니다.
 
@@ -245,7 +368,18 @@ lambda create-function \
 
 예를 들어, AWS CLI를 사용하여 ETL 서비스를 호출할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 aws lambda invoke \
@@ -267,7 +401,18 @@ FROM FILES(
 )
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한 AWS CLI의 기본을 배우고 싶다면 이 기사를 시도해보실 수도 있습니다 [9]
 
@@ -282,7 +427,18 @@ def etl(item):
     return item.lower()
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Python 스크립트를 실행하기만 하면 간단히 이 작업을 수행할 수 있습니다 [10]:
 
@@ -309,7 +465,18 @@ def is_prime(num):
     return True
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 unittest을 사용하면 간단해요. 다음과 같이 테스트할 거예요:
 
@@ -329,30 +496,41 @@ class TestPrime(unittest.TestCase):
 ```js
 import json
 import boto3
- 
+
 # 다른 Lambda를 호출하기 위한 AWS Lambda 클라이언트
 client = boto3.client('lambda')
- 
+
 def lambda_handler(event, context):
- 
+
     # 다른 Lambda로 전달할 데이터
     data = {
         "ProductName": "iPhone SE"
     }
- 
+
     response = client.invoke(
         FunctionName='arn:aws:lambda:eu-west-1:12345678:function:etl-service-lambda',
         InvocationType='RequestResponse',
         Payload=json.dumps(data)
     )
- 
+
     response = json.load(response['Payload'])
- 
+
     print('\n')
     print(response)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 더 알고 싶다면, AWS Step Functions 및 Infrastructure as Code와 관련된 고급 튜토리얼이 있습니다.
 
@@ -362,7 +540,18 @@ ML 기본 지식을 배우세요. 데이터를 추출하고 ETL을 수행하는 
 
 아래 튜토리얼을 살펴보세요. 이 튜토리얼은 사용자 이탈을 다루고 행동 데이터를 사용하여 사용자 이탈을 예측하는 방법을 설명합니다. 몇 시간 만에 완료할 수 있지만 이탈에 대한 구체적인 내용을 깊게 파고들고 싶다면 더 많은 시간이 걸릴 수 있습니다. 모든 머신 러닝 모델을 알 필요는 없습니다. 우리는 머신 러닝 및 데이터 과학 분야에서 아마존 및 구글과 경쟁할 수는 없지만, 사용하는 방법을 알아야 합니다. 클라우드 서비스 제공 업체들이 제공하는 다양한 관리형 ML 서비스가 있으며, 그것들에 친숙해져야 합니다. 데이터 엔지니어들은 이러한 서비스를 위해 데이터 세트를 준비하며, 이에 대해 몇 개의 튜토리얼을 진행하는 것이 유용할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 결론
 
@@ -372,7 +561,18 @@ ML 기본 지식을 배우세요. 데이터를 추출하고 ETL을 수행하는 
 
 [1] https://www.linkedin.com/pulse/linkedin-jobs-rise-2023-25-uk-roles-growing-demand-linkedin-news-uk/
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [2] [Google Professional Data Engineer 시험을 2020년에 통과한 방법](https://towardsdatascience.com/how-i-passed-google-professional-data-engineer-exam-in-2020-2830e10658b6)
 
@@ -382,8 +582,18 @@ ML 기본 지식을 배우세요. 데이터를 추출하고 ETL을 수행하는 
 
 [5] [데이터 파이프라인 디자인 패턴](https://towardsdatascience.com/data-pipeline-design-patterns-100afa4b93e3)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [6] [Python for Data Engineers](https://towardsdatascience.com/python-for-data-engineers-f3d5db59b6dd)
 
@@ -393,7 +603,18 @@ ML 기본 지식을 배우세요. 데이터를 추출하고 ETL을 수행하는 
 
 [9] [Mastering AWS CLI](https://medium.com/geekculture/mastering-aws-cli-5454ad5e685c)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [10] [Python을 사용한 데이터 파이프라인 테스트 안내](https://towardsdatascience.com/a-guide-to-data-pipeline-testing-with-python-a85e3d37d361)
 

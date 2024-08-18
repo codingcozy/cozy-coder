@@ -3,17 +3,13 @@ title: "리눅스 보안 여정  SGID 저장된 그룹 ID 이해하기"
 description: ""
 coverImage: "/assets/img/2024-06-23-TheLinuxSecurityJourneySGIDSavedGroupID_0.png"
 date: 2024-06-23 15:17
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-TheLinuxSecurityJourneySGIDSavedGroupID_0.png
 tag: Tech
 originalTitle: "The Linux Security Journey — SGID (Saved Group ID)"
 link: "https://medium.com/@boutnaru/the-linux-security-journey-sgid-saved-group-id-07b4507b319e"
 isUpdated: true
 ---
-
-
-
-
 
 이 문맥에서 SGID는 "Saved Group ID"의 약자이며 SGID 비트와는 다릅니다. 이는 루트와 같은 고권한(하지만 그에 국한되지는 않는) 상태에서 일을 하다가 무권한으로 무언가를 수행해야 하는 경우 사용됩니다. 우리는 "최소한의 권한" 원칙을 따르고자 하기 때문에 높은 권한은 반드시 필요한 경우에만 사용해야 합니다.
 
@@ -23,7 +19,17 @@ isUpdated: true
 
 다음 글에서 다시 만나요 ;-) 트위터(@boutnaru)를 통해 제 소식을 확인할 수 있습니다. 또한 매체(medium)에서 다른 글도 읽을 수 있습니다. 무료 eBook은 https://TheLearningJourneyEbooks.com에서 찾을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-06-23-TheLinuxSecurityJourneySGIDSavedGroupID_0.png](/assets/img/2024-06-23-TheLinuxSecurityJourneySGIDSavedGroupID_0.png)

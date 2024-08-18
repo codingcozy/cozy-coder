@@ -3,18 +3,13 @@ title: "VSCode 대신 해커들이 선택하는 Vim 활용법"
 description: ""
 coverImage: "/assets/img/2024-07-09-VimAHackyAlternativeToVSCode_0.png"
 date: 2024-07-09 10:01
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-VimAHackyAlternativeToVSCode_0.png
 tag: Tech
 originalTitle: "Vim: A Hacky Alternative To VSCode"
 link: "https://medium.com/@pedrovidal27/vim-a-hacky-alternative-to-vscode-9eb1c74c5acc"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![Vim Screenshot](/assets/img/2024-07-09-VimAHackyAlternativeToVSCode_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 Vim Plug, NERDTree 및 몇 가지 플러그인을 설치하며 여러 번의 주기를 반복했어요. 전체적으로 얼마나 모듈식인지 놀라워했지만, 내 텍스트 편집기가 무언가를 제대로 하지 않을 때 또는 다른 문제가 발생했을 때 짜증이 나면서 결국 마이크로소프트의 좀 더럽고 작은 손에 근사하게 다시 돌아왔어요.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내가 부족했던 것은 Vim의 신에 대한 헌신이었고, 지난 몇 주 동안 그것을 보충하기로 했어요. "ThePrimeagen"이라는 신사의 몇 개 영상을 보고 Vim 여정을 다시 시작하기로 영감을 받았는데, 이번에는 성과를 거뒀어요.
 
@@ -35,7 +40,18 @@ Vim Plug, NERDTree 및 몇 가지 플러그인을 설치하며 여러 번의 주
 
 최종적으로, 전환을 해야 할 이유가 있는지에 대한 결정은 여러분이 해야 할 일이에요. 내가 할 수 있는 일은 내 전환 이유를 여러분에게 제공하는 것 뿐이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 대학 시절 첫 번째 C 프로그램부터 첫 직장까지 항상 VSCode를 사용해왔어요. 이 작업 도구를 사용해 온 것이죠. 이 기사가 발행된 날짜를 기준으로 Vim과 VSCode를 사용하는 효율성을 평가한다면, 제가 이제는 익숙해진 기존 텍스트 에디터로 더 효과적일 것 같아요. 그러나 Microsoft의 텍스트 편집기에는 제한 사항이 있습니다:
 
@@ -47,7 +63,18 @@ Vim Plug, NERDTree 및 몇 가지 플러그인을 설치하며 여러 번의 주
 
 ## 워크스페이스 배경을 이해하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이번에 Vim에 대한 나의 접근 방식은 다르게 했어요. 지금까지 나는 명령어를 활용해왔지만, 이번에는 내 코드 편집기 뒤에 숨겨진 원리를 이해하려고 노력했어요. 코드를 입력할 때 모든 이 옵션이 왜 있는 걸까요? 스니펫은 무엇인가요? 왜 내 코드가 자동완성되는 걸까요? LSP가 뭔가요?
 
@@ -57,7 +84,18 @@ Vim Plug, NERDTree 및 몇 가지 플러그인을 설치하며 여러 번의 주
 
 ![Vim: VS Code에 대체할 만한 재미난 선택지](/assets/img/2024-07-09-VimAHackyAlternativeToVSCode_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째 단계는 설치할 Vim 버전을 선택하는 것이었습니다. 저는 Neovim을 선택했어요. 이는 Vim을 확장 가능하고 유지보수하기 쉬운 형태로 재구성한 야심찬 Vim 포크입니다. Neovim은 Vim을 경험하는 좋은 방법입니다. 일반적으로 플러그인에 대한 더 나은 지원을 제공하며, 그리고 여기에 보너스로 플러그인에 대한 대부분의 API는 루아, 전 세계 오픈 소스 개발자들의 자부심 중 하나인 루아를 사용해요. Neovim을 사용하면 함께 해킹하기 위해 루아에 대해 조금 배우게 될 거에요.
 
@@ -67,7 +105,18 @@ Vim Plug, NERDTree 및 몇 가지 플러그인을 설치하며 여러 번의 주
 
 Lazy.nvim은 Vim 커뮤니티에 여러 기여를 한 folke가 개발했습니다. 그의 GitHub을 확인해보세요. Lazy.nvim의 주요 기능은 다음과 같아요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 플러그인을 관리하는 내장 UI
 - Lazy loading: 필요할 때만 플러그인을 로드합니다.
@@ -80,7 +129,18 @@ Vim을 위한 여러 플러그인 관리자가 있지만, Lazy.nvim이 확실히
 
 기본 Neovim 구성을 설정했으니, 이제 저와 같은 여정을 시작할 준비가 되었습니다. 내 플러그인을 설정하는 방법에 대한 상세한 지침을 제공하지 않겠으며, 내 구성 파일을 공유하지 않습니다. 인터넷에서 완전한 도트 파일을 복사하는 것은 별로 도움이 되지 않습니다. 직접 구성해야 합니다. 그렇지 않으면 이해하지 못하거나 사용하지 않을 기능과 키 바인딩으로 혼란스러워질 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 할 수 있는 일 중 하나는 몇 가지 플러그인 추천을 드려서 VSCode의 기능을 어디서 찾아야 하는지 알 수 있게 하는 것입니다:
 
@@ -95,6 +155,17 @@ Vim을 위한 여러 플러그인 관리자가 있지만, Lazy.nvim이 확실히
 
 ## 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이번 Vim 여정은 정말 많은 것을 가르쳐 주었습니다. 개발자로서 도구를 이해하는 것이 매우 중요하다는 것을 깨달았어요. 목수가 톱을 이해하듯, 대장장이가 모울을 이해하듯, 개발자도 코드 편집기를 이해해야 해요. Vim을 사용하면 일하는 도구와 그 주변 기술에 대해 더 나은 이해를 할 수 있게 되었습니다.

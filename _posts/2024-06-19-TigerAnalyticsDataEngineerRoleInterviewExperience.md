@@ -3,17 +3,13 @@ title: " Tiger Analytics 데이터 엔지니어 역할 면접 경험 "
 description: ""
 coverImage: "/assets/img/2024-06-19-TigerAnalyticsDataEngineerRoleInterviewExperience_0.png"
 date: 2024-06-19 01:45
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-TigerAnalyticsDataEngineerRoleInterviewExperience_0.png
 tag: Tech
 originalTitle: "Tiger Analytics Data Engineer Role Interview Experience"
 link: "https://medium.com/@bvsarathc06/tiger-analytics-data-engineer-role-interview-experience-610e4b78932d"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-19-TigerAnalyticsDataEngineerRoleInterviewExperience_0.png" />
 
@@ -24,16 +20,39 @@ Tiger Analytics와의 데이터 엔지니어링 인터뷰 경험 공유: 🐯 �
 - Naukri.com을 통해 지원했고, 다음 날에 리크루터로부터 전화를 받았습니다.
 - 대화 중에 리크루터가 총 경험 및 관련 경력, 현재 및 예상 보수, 그리고 통보 기간과 같은 세부 사항을 요청했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ---
+
 ### 코딩 라운드: (60분 소요)
 
 이 라운드는 중간 수준 이상이었으며 빠른 완료가 필요한 시간이 많이 소요되는 라운드였어요.
 
 **파이썬, SQL 및 스파크 시나리오:**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **Spark 코딩:**
 
@@ -49,7 +68,18 @@ Tiger Analytics와의 데이터 엔지니어링 인터뷰 경험 공유: 🐯 �
 - 중첩된 리스트를 재귀적으로 해체하고 숫자 범위를 사용하여 리스트를 연결하기 위해 Python을 활용했습니다.
 - Hadoop 아키텍처, SQL, Spark 아키텍처, Spark 변환 및 Spark 최적화 기술에 관련된 이론 질문에 답했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 기술 토론 (소요 시간: 60분):
 
@@ -65,7 +95,18 @@ Tiger Analytics와의 데이터 엔지니어링 인터뷰 경험 공유: 🐯 �
 
 ### 인사담당자 인터뷰:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - HR 라운드는 친근하게 진행되었습니다. 기본 소개로 시작하여 위치 및 급여에 대한 논의로 이어졌어요.
 - Tiger의 정책을 논의하고 급여 조건을 협상했어요.

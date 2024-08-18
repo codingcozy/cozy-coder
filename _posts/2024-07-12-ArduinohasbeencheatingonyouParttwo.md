@@ -3,17 +3,13 @@ title: "아두이노가 당신을 속였다 파트 2"
 description: ""
 coverImage: "/assets/img/2024-07-12-ArduinohasbeencheatingonyouParttwo_0.png"
 date: 2024-07-12 23:01
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-ArduinohasbeencheatingonyouParttwo_0.png
 tag: Tech
 originalTitle: "Arduino has been cheating on you. Part two"
 link: "https://medium.com/@carlosaldea/arduino-has-been-cheating-on-you-6cca2568c6ca"
 isUpdated: true
 ---
-
-
-
-
 
 "번역기"
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 컴파일러
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신이 손에 쥔 CPU를 알게 되었다면(1장에서 보았던 것처럼), 다음 단계는 그 CPU에서 SW를 빌드하는 데 필요한 도구를 구하는 것입니다.
 
@@ -34,7 +41,18 @@ isUpdated: true
 
 # "빌드"를 클릭하세요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그것이 바로 당신의 컴파일된 이진 파일을 플래시 메모리에 올릴 준비가 된 유일한 것입니다.
 
@@ -44,7 +62,18 @@ isUpdated: true
 
 # 크로스 및 비크로스 컴파일러
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금까지 "컴파일러"와 "크로스컴파일러"에 대해 이야기했습니다. 이 두 개녀은 간단한 용어로 설명하겠습니다.
 
@@ -54,7 +83,18 @@ isUpdated: true
 
 a) 컴파일러가 실행되는 CPU(이 예시에서는 인텔 CPU)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 b) 프로그램이 컴파일러에 의해 생성될 CPU(이 경우, 같음)는 동일합니다. 컴파일러가 생성하는 프로그램은 동일한 기계에서 실행됩니다.
 
@@ -64,7 +104,18 @@ b) 프로그램이 컴파일러에 의해 생성될 CPU(이 경우, 같음)는 �
 
 "일반" 컴파일러가 어떻게 작동하는지 설명한 논리를 따르면, 크로스 컴파일러가 무엇을 하는지 이미 알고 계실 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자, 아두이노 보드로 돌아가 봅시다. Atmel CPU를 장착한 납작한 녀석이죠. 저희가 사용할 모든 도구(아두이노 IDE, 컴파일러 등)는 우리 멋진 노트북(x86 또는 amd64)에 설치되어 있습니다.
 
@@ -75,7 +126,18 @@ a) 특정 CPU(아키텍처)에서 실행
 
 b) 다른 CPU(아키텍처)를 위한 코드 생성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 마지막으로
 
@@ -85,7 +147,18 @@ b) 다른 CPU(아키텍처)를 위한 코드 생성
 
 계속 주목해 주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5개의 무료 기사에 빨리 다다르는 것에 지쳤나요?
 

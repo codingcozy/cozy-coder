@@ -3,17 +3,13 @@ title: "로컬 고급 RAG 시스템 구축, 평가, 추적 방법  Mistral 7b  L
 description: ""
 coverImage: "/assets/img/2024-07-13-BuildingEvaluatingandTrackingaLocalAdvancedRAGSystemMistral7bLlamaIndexWB_0.png"
 date: 2024-07-13 03:34
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-BuildingEvaluatingandTrackingaLocalAdvancedRAGSystemMistral7bLlamaIndexWB_0.png
 tag: Tech
 originalTitle: "Building, Evaluating and Tracking a Local Advanced RAG System | Mistral 7b + LlamaIndex + W,B"
 link: "https://medium.com/towards-data-science/building-evaluating-and-tracking-a-local-advanced-rag-system-mistral-7b-llamaindex-w-b-5c9c69059f92"
 isUpdated: true
 ---
-
-
-
-
 
 ![Image](/assets/img/2024-07-13-BuildingEvaluatingandTrackingaLocalAdvancedRAGSystemMistral7bLlamaIndexWB_0.png)
 
@@ -23,7 +19,18 @@ Retrieval Augmented Generation (RAG)은 대규모 언어 모델과 지식에 대
 
 우리는 다음의 주요 측면을 다룰 것입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Mistral-7b와 LlamaIndex를 활용해 로컬 RAG 시스템의 기본 구축 중입니다.
 - 충실성과 관련성 측면에서 성능을 평가하고 있습니다.
@@ -36,7 +43,18 @@ GitHub에서 자세한 주석과 코드를 포함한 완벽한 노트북을 확�
 
 ![이미지](/assets/img/2024-07-13-BuildingEvaluatingandTrackingaLocalAdvancedRAGSystemMistral7bLlamaIndexWB_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 LlamaIndex 라이브러리를 설치해주세요. 저희는 환경 설정하고 실험에 사용할 문서를 불러오는 작업부터 시작할 것입니다. LlamaIndex는 유연한 데이터 통합을 가능케 하는 다양한 사용자 정의 데이터 로더를 지원합니다.
 
@@ -57,49 +75,64 @@ documents = loader.load_data(file=Path("./Mixtral.pdf"))
 ```js
 git clone https://github.com/ggerganov/llama.cpp
 cd llama.cpp
-make 
+make
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서는 Mistral-7b 모델을 사용합니다. 이 실험을 더 빠르고 모든 사람들에게 이용 가능하게 하기 위해 이 모델의 양자화된 버전을 사용할 것입니다. 품질 손실이 극히 낮은 2비트 양자화까지 지원하는 QuIP 양자화된 모델을 확인하는 것을 적극 권장합니다.
 
-
 from llama_index import (
-    SimpleDirectoryReader,
-    VectorStoreIndex,
-    ServiceContext,
+SimpleDirectoryReader,
+VectorStoreIndex,
+ServiceContext,
 )
 from llama_index.llms import LlamaCPP
 from llama_index.llms.llama_utils import (
-    messages_to_prompt,
-    completion_to_prompt,
+messages_to_prompt,
+completion_to_prompt,
 )
 
-llm = LlamaCPP(
-    # 자동으로 다운로드할 GGML 모델의 URL을 전달할 수 있습니다.
-    model_url="https://huggingface.co/ikawrakow/various-2bit-sota-gguf/blob/main/mistral-7b-2.20bpw.gguf",
-    # 선택적으로, model_url 대신 미리 다운로드한 모델의 경로를 설정할 수 있습니다.
-    model_path=None,
-    temperature=0.1,
-    max_new_tokens=512,
-    # llama2의 콘텍스트 창은 4096 토큰이지만, 약간의 여유 공간을 남기기 위해 낮게 설정하였습니다.
-    context_window=3900,
-    generate_kwargs={},
-    # 최소 1로 설정하여 GPU를 사용합니다.
-    model_kwargs={"n_gpu_layers": 1},
-    # 입력을 Llama2 형식으로 변환합니다.
-    messages_to_prompt=messages_to_prompt,
-    completion_to_prompt=completion_to_prompt,
-    verbose=False,
+llm = LlamaCPP( # 자동으로 다운로드할 GGML 모델의 URL을 전달할 수 있습니다.
+model_url="https://huggingface.co/ikawrakow/various-2bit-sota-gguf/blob/main/mistral-7b-2.20bpw.gguf", # 선택적으로, model_url 대신 미리 다운로드한 모델의 경로를 설정할 수 있습니다.
+model_path=None,
+temperature=0.1,
+max_new_tokens=512, # llama2의 콘텍스트 창은 4096 토큰이지만, 약간의 여유 공간을 남기기 위해 낮게 설정하였습니다.
+context_window=3900,
+generate_kwargs={}, # 최소 1로 설정하여 GPU를 사용합니다.
+model_kwargs={"n_gpu_layers": 1}, # 입력을 Llama2 형식으로 변환합니다.
+messages_to_prompt=messages_to_prompt,
+completion_to_prompt=completion_to_prompt,
+verbose=False,
 )
-
 
 다음으로, 문서를 벡터화하고 벡터 DB를 생성하며, 검색 시스템을 설정해보겠습니다.
 
 ## 단계 #1 | ServiceContext
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ServiceContext는 LlamaIndex에서 모델과 콜백의 라이프사이클을 관리합니다. 필수 설정으로 로컬 모델을 사용하여 설정합니다. LlamaIndex는 사용 가능한 GPU를 자동으로 감지할 것입니다. M-프로세서를 사용하는 맥북이라면 걱정하지 마세요.
 
@@ -117,34 +150,53 @@ service_context = ServiceContext.from_defaults(
 
 VectorStore는 LLAMAIndex에서 문서 벡터의 쪼개기, 임베딩, 저장을 담당합니다. 여기서 VectorStore를 생성하고 설정합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 문서 처리를 위한 VectorStoreIndex 생성
+
 index = VectorStoreIndex.from_documents(documents, service_context=service_context)
 
 # 검색을 위한 쿼리 엔진으로 인덱스 변환
-query_engine = index.as_query_engine()
 
+query_engine = index.as_query_engine()
 
 ## 테스트해 봅시다
 
-
 def query_and_display(question):
-    response = query_engine.query(question)
-    display_response(response)
+response = query_engine.query(question)
+display_response(response)
 
 query_and_display("누가 믹스트럴 논문을 썼나요?")
 query_and_display("Sparse MoE가 무엇인가요?")
 query_and_display("Sparse MoE에 몇 명의 전문가가 사용되나요?")
 
-
 최종 응답: 믹스트럴 논문은 알버트 Q. 장, 알렉산드르 사블라울 등 연구자 팀이 썼습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-최종 응답: Sparse Mixture of Experts (MoE)은 입력 시퀀스의 각 토큰이 여러 서브 네트워크 또는 전문가들에 의해 처리되는 신경망 아키텍처 유형을 가리킵니다. 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+최종 응답: Sparse Mixture of Experts (MoE)은 입력 시퀀스의 각 토큰이 여러 서브 네트워크 또는 전문가들에 의해 처리되는 신경망 아키텍처 유형을 가리킵니다.
 
 최종 응답: Sparse MoE에서 사용되는 전문가의 특정 수는 제공되지 않습니다. 🚩 🚩 🚩 (실제로는, 8이 정답입니다)
 
@@ -152,7 +204,18 @@ query_and_display("Sparse MoE에 몇 명의 전문가가 사용되나요?")
 
 ![이미지](/assets/img/2024-07-13-BuildingEvaluatingandTrackingaLocalAdvancedRAGSystemMistral7bLlamaIndexWB_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 알겠어요. 좋아요. 그럼, 얼마나 잘 작동하고 있나요? 이제 우리는 RAG 설정의 성능을 평가할 단계로 이동하게 됩니다. 여기서는 메트릭스를 사용하여 RAG 시스템의 성능을 평가하고 또 다른 LLM을 사용할 것입니다 🙂
 
@@ -162,50 +225,72 @@ query_and_display("Sparse MoE에 몇 명의 전문가가 사용되나요?")
 
 평가하기 위해 질문이 필요합니다. 솔직히 말하자면, 우리는 직접 이를 작성하는 것이 귀찮아요. 그러니 이미 구비된 Llamaindex + GPT-3.5 Api 내의 QuestionsGenerator를 사용하여 질문을 생성하도록 하겠습니다. 또는 로컬 LLM 모델을 사용할 수도 있습니다. llm 객체를 간단히 바꿔주기만 하면 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 문서 설정 및 평가용 질문 생성하기
 
 임의의 문서 = 문서의 복제(deep copy)
 
 # 문서를 섞고 5개의 임의의 문서 선택하기. 평가를 빠르게 진행하기 위함
+
 random.shuffle(임의의 문서)
 임의의 문서 = 임의의 문서[:5]
 
 # GPT를 locall llm으로 대체할 수 있음
+
 llm_eval = OpenAI(온도=0, 모델="gpt-3.5-turbo")
 
 # GPT API 사용으로 인해 새로운 서비스 컨텍스트 생성. 기존 컨텍스트를 사용할 수도 있음
-서비스_컨텍스트 = 기본값에서 가져온 서비스_컨텍스트(
-    llm=llm_eval, 
-    embed_model=embed_model, 
+
+서비스*컨텍스트 = 기본값에서 가져온 서비스*컨텍스트(
+llm=llm_eval,
+embed_model=embed_model,
 )
 
 # 평가를 위해 문서에서 질문 생성
-데이터_생성자 = 문서에서_데이터셋_생성기(
-    임의의 문서, 서비스_컨텍스트=서비스_컨텍스트, 개별_청크당_질문_수=2
+
+데이터*생성자 = 문서에서*데이터셋*생성기(
+임의의 문서, 서비스*컨텍스트=서비스*컨텍스트, 개별*청크당*질문*수=2
 )
 
 # Async 코드를 실행하기 위해 nest_asyncio 적용
-nest_asyncio.apply()
-평가_질문 = 데이터_생성자.generate_questions_from_nodes()
 
+nest*asyncio.apply()
+평가*질문 = 데이터\_생성자.generate_questions_from_nodes()
 
 그리고 마침!
 
-
-평가_질문[:3]
+평가\_질문[:3]
 
 ['Agieval 벤치마크의 목적은 무엇입니까?',
- '전문가 선택 라우팅을 사용한 Mixture-of-experts 접근법이 신경 정보 처리 시스템 분야에 어떻게 기여하나요?',
- '라우팅 분석에서 선택된 전문가의 분포는 다른 도메인 간에 어떻게 변하는가?']
-
+'전문가 선택 라우팅을 사용한 Mixture-of-experts 접근법이 신경 정보 처리 시스템 분야에 어떻게 기여하나요?',
+'라우팅 분석에서 선택된 전문가의 분포는 다른 도메인 간에 어떻게 변하는가?']
 
 ## 단계 #2 | 메트릭스 가져오기
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 BatchEvalRunner을 사용하여 FaithfulnessEvaluator와 RelevancyEvaluator로 평가를 수행합니다. BatchEvalRunner은 여러 쿼리를 동시에 처리할 수 있도록 설계되어 있습니다. 대규모 질문 세트에 대해 RAG 시스템을 평가할 때 특히 유용한 대량 처리 기능입니다.
 
@@ -246,7 +331,18 @@ faithfulness_df["score"].mean(), relevancy_df["score"].mean()
 >> (0.9166666666666666, 0.9166666666666666)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 📋 실험 추적 중 | W&B
 
@@ -258,7 +354,18 @@ faithfulness_df["score"].mean(), relevancy_df["score"].mean()
 !pip install wandb
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 평가 결과를 추적하고 적절히 저장해봐요.
 
@@ -280,7 +387,18 @@ wandb.log({"faithfulness": faithfulness_table, "relevancy": relevancy_table})
 
 ![Dashboard Image](https://yourwebsite.com/assets/img/2024-07-13-BuildingEvaluatingandTrackingaLocalAdvancedRAGSystemMistral7bLlamaIndexWB_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 귀하가 소중한 지표를 추적하는 데 유용한 것은 좋은 점수의 평균과 같은 지표를 추적하는 것입니다. 또한 대시보드에 사용자 정의 차트를 추가할 수도 있습니다. 이 예시에서는 이전에 생성한 평가 질문을 저장하는 방법을 소개합니다.
 
@@ -294,39 +412,61 @@ wandb.log({"relevancy_mean": relevancy_df["score"].mean()})
 
 대용량 파일(체크포인트, 텍스트 또는 IndexStore(벡터화된 데이터베이스))을 저장하는 데도 유용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # W&B을 사용하여 질문을 CSV 파일에 유지하고, 나중에 로드할 수 있게 합니다.
+
 # Artifact 객체 생성
+
 artifact = wandb.Artifact(name="eval-questions", type="text")
 
 # 질문 목록을 artifact에 파일로 추가합니다.
+
 with artifact.new_file("questions.txt", mode="w") as f:
-    f.write("\n".join(eval_questions))
+f.write("\n".join(eval_questions))
 
 # Artifact를 W&B에 기록합니다.
-wandb.log_artifact(artifact)
 
+wandb.log_artifact(artifact)
 
 ![Artifact Image1](/assets/img/2024-07-13-BuildingEvaluatingandTrackingaLocalAdvancedRAGSystemMistral7bLlamaIndexWB_6.png)
 
-
 # W&B 초기화
+
 wandb_args = {"project": WANDB_PROJECT, "name": "baseline-evaluation"}
 wandb_callback = WandbCallbackHandler(run_args=wandb_args)
 callback_manager = CallbackManager([wandb_callback])
 
 service_context = ServiceContext.from_defaults(
-    ...
-    callback_manager=callback_manager # 여기에 W&B 핸들러가 있습니다.
+...
+callback_manager=callback_manager # 여기에 W&B 핸들러가 있습니다.
 )
-
 
 ![Artifact Image2](/assets/img/2024-07-13-BuildingEvaluatingandTrackingaLocalAdvancedRAGSystemMistral7bLlamaIndexWB_7.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 🏎️ 고급 RAG
 
@@ -336,7 +476,18 @@ service_context = ServiceContext.from_defaults(
 
 ![이미지](/assets/img/2024-07-13-BuildingEvaluatingandTrackingaLocalAdvancedRAGSystemMistral7bLlamaIndexWB_9.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 서로 다른 계층 구조에서 문서 청크 트리를 구축하기 위한 계층 노드 파서를 만듭니다. 이는 VectorStore에 색인화됩니다. 초기 검색 후, 교차 인코더를 사용하여 결과를 다시 순위 지정합니다. 이렇게 함으로써 쿼리와 컨텍스트 간의 세밀한 관계를 포착하는 데 도움이 됩니다.
 
@@ -366,7 +517,18 @@ print(leaf_nodes[0].text)
 우리는 Sparse Mixture of Experts (SMoE) 언어 모델인 Mixtral 8x7B를 소개합니다. Mixtral은 Mistral 7B와 동일한 아키텍처를 가지며 각 레이어가 구성되는 것이 다른 차이가 있습니다.
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 이 계층 구조에서 색인을 만들어봅시다.
 
@@ -403,8 +565,8 @@ automerging_retriever = automerging_index.as_retriever(
 # AutoMergingRetriever 생성
 # hierarchical 노드 파서가 있는 Index에서 retriever를 전달하는 것에 주목하세요
 retriever = AutoMergingRetriever(
-    automerging_retriever, 
-    automerging_index.storage_context, 
+    automerging_retriever,
+    automerging_index.storage_context,
     verbose=True,
 )
 
@@ -413,27 +575,49 @@ rerank = SentenceTransformerRerank(top_n=4, model="BAAI/bge-reranker-base")
 
 # 쿼리 엔진 래퍼 생성. 후처리기를 넣기위해 래퍼가 필요합니다.
 auto_merging_engine = RetrieverQueryEngine.from_args(
-    automerging_retriever, 
-    node_postprocessors=[rerank], 
-    verbose=True, 
+    automerging_retriever,
+    node_postprocessors=[rerank],
+    verbose=True,
     service_context=auto_merging_context
 )
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 완료했어요, 테스트해보죠
 
 ```js
-response = auto_merging_engine.query("Sparse MoE에서 전문가는 몇 명 사용되나요?")
-display_response(response)
+response = auto_merging_engine.query("Sparse MoE에서 전문가는 몇 명 사용되나요?");
+display_response(response);
 ```
 
 최종 응답: Mixtral 8x7B에서 각 레이어는 8개의 피드포워드 블록 또는 전문가로 구성됩니다. 따라서 전문가는 총 8명입니다. ✅
 
 우리는 이 시스템을 기준선과 동일한 방식으로 평가할 수 있어요. 기준선보다 개선된 점을 확인할 수 있어요. W&B에 결과를 기록한 뒤, 각 실행 사이의 비교 차트를 관찰할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![BuildingEvaluatingandTrackingaLocalAdvancedRAGSystemMistral7bLlamaIndexWB_10.png](/assets/img/2024-07-13-BuildingEvaluatingandTrackingaLocalAdvancedRAGSystemMistral7bLlamaIndexWB_10.png)
 

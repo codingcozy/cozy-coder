@@ -3,16 +3,13 @@ title: "텍스트를 움직여 발견한 시의 이야기"
 description: ""
 coverImage: "/assets/img/2024-05-27-TheStoryofaPoemIFoundbyMovingTextAround_0.png"
 date: 2024-05-27 13:46
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-TheStoryofaPoemIFoundbyMovingTextAround_0.png
 tag: Tech
 originalTitle: "The Story of a Poem I Found by Moving Text Around"
 link: "https://medium.com/the-diy-diaries/the-story-of-a-poem-i-found-by-moving-text-around-930bdc7532d6"
 isUpdated: true
 ---
-
-
-
 
 ## 창의성
 
@@ -22,11 +19,33 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-05-27-TheStoryofaPoemIFoundbyMovingTextAround_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 태그를 마크다운 형식으로 변경하십시오.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그대의 곁 — 선물같은 근접함을 얻어,
 문을 두드리며 함께해요. 방 안에서
@@ -37,7 +56,18 @@ isUpdated: true
 
 특히 손글씨와 인쇄체 텍스트를 조합하는 것을 특히 좋아해요. 텍스트를 이리저리 움직여 나의 단어가 새로운 아이디어를 불러들이는 더 무작위한 단어들과 상호 작용하게 되어 시인으로서 더 창의적이고 몰입된 느낌을 받을 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-27-TheStoryofaPoemIFoundbyMovingTextAround_2.png)
 
@@ -47,8 +77,18 @@ isUpdated: true
 
 테이블에 시를 펼친 다음, 사진을 찍고 컴퓨터 파일에 저장할 텍스트를 타이핑해요. 그리고 물리적인 텍스트를 어떻게/어디에 붙이고 저장할지 결정해요. 항상 저장하지는 않아요 — 때로는 텍스트 줄들을 다시 잘라내기 모아 둔 모음집에 넣기도 해요. 하지만 대부분의 경우에는 어렵지 않게 내 붙이기 같은 작은 수제 책(짠) 만들기 위해 글 붙이를 꺼내고 줄들을 플라스틱으로 엮은 잡지에서 찢어진 한 장으로 접은 책을 만들어 붙여요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이동하는 텍스트로 찾은 시 이야기](/assets/img/2024-05-27-TheStoryofaPoemIFoundbyMovingTextAround_3.png)
 
@@ -58,8 +98,18 @@ isUpdated: true
 
 나에게 중요한 이 작업의 다른 부분은 시를 출력하고 한 줄씩 자르는 과정을 통해, 개인적으로 너무 민감하다고 느껴지거나 원래 완성된 형태로는 (적어도 지금은) 공개하거나 발표하기가 어려웠던 시를 다시 작업해 볼 수 있다는 것입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 노트북에서 손으로 쓴 글도 이런 방식으로 사용할 수 있어요. 보통 나의 일기에서 편집되지 않은 글을 공유하지는 않지만, 라인을 잘라내고 그것들이 가끔 어떻게 새로운 시의 맥락에서 작동할 수 있는지 찾아내는 과정이 좋아요. 이 과정을 통해 서로 다른 텍스트 조각들을 교차로 배치하면서 형성되는 시를 통해 아이디어와 테마에 대해 더 의식적으로 생각하게 됩니다.
 
@@ -67,7 +117,18 @@ isUpdated: true
 
 이러한 공예적 과정을 통해 나에게 개인적이고 독특한 글을 쓸 수 있지만, 작품에 대한 작은 예술적 거리를 두어 나의 시에 쉽게 가져오지 못했던 경험과 감정에 대해 쓰는 데 더 편안함을 느끼게 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 글을 읽는 독자들에게 너무 간접적일 수 있지만, 저는 최종적으로 공유하게 된 시에 숨어있는 레이어들을 알고 있어요. 이야기에서 선택한 시를 읽어 주셔서 감사드리며, 그 창작 과정에 대한 설명까지 함께 공유하게 되어 기쁩니다.
 

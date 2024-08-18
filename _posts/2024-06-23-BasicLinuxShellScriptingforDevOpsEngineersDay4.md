@@ -3,17 +3,13 @@ title: "DevOps 엔지니어를 위한 기본적인 리눅스 쉘 스크립팅 Da
 description: ""
 coverImage: "/assets/img/2024-06-23-BasicLinuxShellScriptingforDevOpsEngineersDay4_0.png"
 date: 2024-06-23 15:28
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-BasicLinuxShellScriptingforDevOpsEngineersDay4_0.png
 tag: Tech
 originalTitle: "Basic Linux Shell Scripting for DevOps Engineers (Day4)"
 link: "https://medium.com/@araizbinsaqib/day-4-task-basic-linux-shell-scripting-for-devops-engineers-c5b867bc8960"
 isUpdated: true
 ---
-
-
-
-
 
 안녕하세요 여러분!
 이전 토론에서는 AWS에서 데브옵스 엔지니어를 위한 Linux를 다루었습니다. 아직 확인하지 않으셨다면 [여기]에서 확인해보세요.
@@ -24,7 +20,18 @@ isUpdated: true
 
 데브옵스를 위한 셸 스크립팅은 Bash (Bourne Again Shell) 또는 다른 호환되는 셸과 같은 셸 언어를 사용하여 개발 및 운영과 관련된 작업을 자동화하는 스크립트를 작성하는 것을 말합니다. 이러한 작업은 시스템 구성 및 관리부터 배포 및 모니터링 프로세스까지 데브옵스 환경에서 가능합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## #!/bin/bash은 무엇인가요?
 
@@ -34,7 +41,18 @@ isUpdated: true
 
 오늘은 AWS Ubuntu Linux 서버에서 실행된 명령어 몇 가지를 살펴보겠습니다. 여기에 몇 가지 예시가 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 메시지 출력:
 
@@ -47,8 +65,18 @@ echo "I will complete #90DaysOfDevOps challenge"
 
 예시
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지1](/assets/img/2024-06-23-BasicLinuxShellScriptingforDevOpsEngineersDay4_0.png)
 
@@ -58,8 +86,18 @@ echo "I will complete #90DaysOfDevOps challenge"
 
 사용자 입력과 인수를 활용하여 Shell Script를 작성하고 변수를 출력합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 #!/bin/bash
@@ -85,8 +123,18 @@ echo "안녕하세요, 저는 $1입니다."
 
 ![image2](/assets/img/2024-06-23-BasicLinuxShellScriptingforDevOpsEngineersDay4_3.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## If-Else Example
 
@@ -109,8 +157,18 @@ fi
 
 예제
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image 1](/assets/img/2024-06-23-BasicLinuxShellScriptingforDevOpsEngineersDay4_4.png)
 

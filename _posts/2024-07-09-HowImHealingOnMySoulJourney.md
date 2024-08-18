@@ -3,17 +3,13 @@ title: "내 영혼 여정에서 치유하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-HowImHealingOnMySoulJourney_0.png"
 date: 2024-07-09 23:53
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-HowImHealingOnMySoulJourney_0.png
 tag: Tech
 originalTitle: "How I’m Healing On My Soul Journey"
 link: "https://medium.com/@yadayinyadayang/how-im-healing-on-my-soul-journey-7d777fd2704b"
 isUpdated: true
 ---
-
-
-
-
 
 ![image](/assets/img/2024-07-09-HowImHealingOnMySoulJourney_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 내 영혼은 안정적인 9-5 직장을 떠나 트라우마 처리, 치유, 그리고 다음 단계로 나아가는 데 24시간을 헌신할 수 있도록 하는 것으로서의 제 타워 순간을 선택했습니다. 부담이 많은 지난 생의 카르마 빚을 갚아야 했지만, 열린 마음을 가지고 앞으로 나아가기로 했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문장은 나에게 다른 영혼들과 비교하여 나 자신이 빠르게 또는 느리게 진척했다고 느끼는 것이 아니라, 오히려 여러분의 여정에 모든 시간과 에너지를 집중할 수 있는 여유로운 일정을 선택했습니다. 이번 시간이 신속하고 결실이 있는 시간이 될 것이라는 믿음으로 위험을 감수했습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 Medium과 다른 사이트에서 배운 것들을 조합하고 내면의 지혜를 사용하며, 미래 자기로부터 받은 지도를 들으면서, 취한 단계를 개요로 삼아 더 자세한 행동들로 세분화한 것을 서술했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 비전 추적
 - 과거 반성 (자기 성찰)
@@ -47,9 +65,20 @@ Medium과 다른 사이트에서 배운 것들을 조합하고 내면의 지혜�
 
 행동: 깨어난 후에 기억하는대로 비전을 자세히 기록하고, 그 비전이 무엇을 나에게 말해주는지, 어떤 부분을 개선해야 하는지를 생각하고 이야기했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-보너스: 미래의 나와 나는 각 견해에 관해 논의했고, 내 사고 방식이 잘못된 부분이 있는지/어디에 있는지 조언을 받았습니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+보너스: 미래의 나와 나는 각 견해에 관해 논의했고, 내 사고 방식이 잘못된 부분이 있는지/어디에 있는지 조언을 받았습니다.
 
 제가 내 견해를 검토할 때 나에게 물어본 몇 가지 질문:
 
@@ -60,7 +89,18 @@ Medium과 다른 사이트에서 배운 것들을 조합하고 내면의 지혜�
 
 # 과거의 검토/자아 반성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 낮 시간 동안, 나는 내 과거 외상과 관계에 대해 이야기하거나 생각하거나 일지를 썼어.
 
@@ -70,7 +110,18 @@ Medium과 다른 사이트에서 배운 것들을 조합하고 내면의 지혜�
 
 **용서**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앞으로 갈 길을 위해 거쳐온 각 사건을 되짚어본 후에는, 이제 나 자신과 다른 사람들을 용서하기 시작할 때가 됐어요.
 
@@ -82,7 +133,18 @@ Medium과 다른 사이트에서 배운 것들을 조합하고 내면의 지혜�
 
 각 카테고리에 대해 특정한 사람들의 이름을 지정하고, 그들에 대한 좋은 점을 나열하고, 그들로부터 배운 것을 적었습니다. 마지막으로 그들을 놓아주었어요. 같은 사람이 여러 카테고리에 속할 수 있다는 점을 참고해 주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 덧붙여, 나는 나의 자기배신 여정을 시작한 것으로 믿는 사람들에 대해 더 자세히 일지를 썼고, 그 후 연애에서도 계속되었습니다.
 
@@ -92,7 +154,18 @@ Medium과 다른 사이트에서 배운 것들을 조합하고 내면의 지혜�
 
 보너스: 여전히 나만의 식별력을 가지고 미래 자아와 협업하지 않았어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 자아 수용
 
@@ -102,7 +175,18 @@ Medium과 다른 사이트에서 배운 것들을 조합하고 내면의 지혜�
 
 행동: 자아 수용은 더 많이 내면 대화였기 때문에 일기로 쓰지 않았다. 이것은 내가 내 생각이 자아와 어떻게 엇나가는지, 개츠비 프로젝션을 어떻게 개선해 나갈지에 대해 미래의 나와 고찰을 많이 나누었다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보너스: 미래의 나(하이어/퓨처 셀프)가 날 정기적으로 교육하며 "네 자신을 위해 일어서라"고 일관되게 말합니다.
 
@@ -112,7 +196,18 @@ Medium과 다른 사이트에서 배운 것들을 조합하고 내면의 지혜�
 
 이 단계에서는 내 신성한 대조 부인 여정에 대해 매우 적은 관심이 있습니다(이 부분은 나중에 다룰 것입니다). 전체 초점은 나 자신과 내 영혼 여정에 있으며, 한 번에 여러 몸에 환생되어 있지 않다는 마음가짐으로 진행됩니다. 그러므로 그것은 최우선 사항이 아닙니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **나를 위해 일어서요. 내가 얼마나 멋진지 상기시키고, 나 자신을 돌봐요. 나 자신을 대접해요.**
 
@@ -122,8 +217,18 @@ Medium과 다른 사이트에서 배운 것들을 조합하고 내면의 지혜�
 
 **보너스:** **저는 정말 혼자가 아니에요. 아주 오랜만에 혼자가 아니라고 느껴지기 시작했어요.**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-09-HowImHealingOnMySoulJourney_1.png)
 
@@ -133,8 +238,18 @@ Medium과 다른 사이트에서 배운 것들을 조합하고 내면의 지혜�
 
 나에게는 개방된 마음, 미래 자아와의 많은 논쟁(실제로는 나 자신과의 논쟁), 그리고 나 자신 내에서 다시 신뢰를 쌓는 것이 필요했습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 변하지 않는 것을 유지하되 계속해서 스스로에게 상기시키세요:
 
@@ -144,6 +259,17 @@ Medium과 다른 사이트에서 배운 것들을 조합하고 내면의 지혜�
 
 © Mandy Tesdahl, 2024
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제 글이 마음에 드시면 박수 치고, 댓글 달아주시고, 팔로우 꾸욱 눌러주세요!

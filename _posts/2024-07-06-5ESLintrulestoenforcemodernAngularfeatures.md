@@ -3,18 +3,13 @@ title: "Angular 모던 기능을 강화하는 5가지 ESLint 규칙"
 description: ""
 coverImage: "/assets/img/2024-07-06-5ESLintrulestoenforcemodernAngularfeatures_0.png"
 date: 2024-07-06 03:11
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-06-5ESLintrulestoenforcemodernAngularfeatures_0.png
 tag: Tech
 originalTitle: "5 ESLint rules to enforce modern Angular features"
 link: "https://medium.com/javascript-everyday/5-eslint-rules-to-enforce-modern-angular-features-c3f6e66d7c9e"
 isUpdated: true
 ---
-
-
-
-
-
 
 /assets/img/2024-07-06-5ESLintrulestoenforcemodernAngularfeatures_0.png
 
@@ -24,8 +19,18 @@ Angular은 최근 새로운 많은 기능을 소개했는데, 살펴볼 가치�
 
 본 블로그 포스트에서는 angular-eslint 패키지에서 여러분의 Angular 애플리케이션에 활성화할 고려해야 할 다섯 가지 ESLint 규칙에 대해 논의할 것입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자가 닫히는 컴포넌트 태그
 
@@ -54,7 +59,18 @@ module.exports = tseslint.config(
 );
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 게다가, 이 규칙은 자동 수정을 지원합니다. 이를 통해 ng lint --fix를 실행하여 쉽게 self-closing 태그로 전환할 수 있습니다.
 
@@ -86,7 +102,18 @@ module.exports = tseslint.config(
 );
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안전한 쪽이 나중에 후회하는 것보다 나아요.
 
@@ -96,7 +123,18 @@ angular.json (nx.json) 파일에서 기본값을 설정할 수 있어요. 그러
 
 이미지 최적화
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앵귤러에서는 이미지 자산과 관련된 일반적인 문제를 해결하기 위해 NgOptimizedImage 지시문을 도입했어요. 이 지시문은 Largest Contentful Paint (LCP)와 Cumulative Layout Shift (CLS)와 같은 핵심 웹 핵심 지표를 개선하는 데 초점을 맞추면서 전반적인 모범 사례를 준수하도록 설계되었어요. 지시문을 사용하는 것이 원시 src 속성보다 나은 선택임은 의심할 여지가 없어요.
 
@@ -125,7 +163,18 @@ module.exports = tseslint.config(
 
 내장된 제어 흐름 구문
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 유명한 NgFor 구조 지시문은 이제 더 이상 구성 요소의 템플릿에서 항목 집합을 반복하는 데 권장되지 않습니다. for 루프를 포함한 내장 제어 흐름 구문이 이제 선호됩니다. 이 대안은 더 직관적인 구문뿐만 아니라 중요한 성능 향상도 제공합니다.
 
@@ -154,7 +203,18 @@ module.exports = tseslint.config(
 
 zoneless change detection
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Angular 18은 zoneless 변경 감지를 실험적으로 지원하기 시작했습니다. 제 이전 블로그 게시물에서 언급했듯이, 코드가 OnPush 변경 감지 전략과 호환되는 경우, 이후에 출시될 zoneless 미래에 대비하여 준비가 되어 있습니다.
 
@@ -186,7 +246,18 @@ module.exports = tseslint.config(
 
 게다가, 이를 angular.json (또는 nx.json) 파일의 기본값으로 설정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요약하자면, Angular-eslint 패키지에서 가져온 다섯 가지 ESLint 규칙은 Angular 애플리케이션의 개발을 크게 향상시킬 수 있습니다. 이 규칙들은 최상의 실천 방법을 시행하고, 특히 다수의 기여자가 있는 대규모 코드베이스에서 코드 일관성을 유지하는 데 도움이 됩니다.
 

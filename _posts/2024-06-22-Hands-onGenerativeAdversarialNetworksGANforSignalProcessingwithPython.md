@@ -3,17 +3,13 @@ title: "파이썬을 사용한 신호처리를 위한 생성적 적대 신경망
 description: ""
 coverImage: "/assets/img/2024-06-22-Hands-onGenerativeAdversarialNetworksGANforSignalProcessingwithPython_0.png"
 date: 2024-06-22 21:43
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-Hands-onGenerativeAdversarialNetworksGANforSignalProcessingwithPython_0.png
 tag: Tech
 originalTitle: "Hands-on Generative Adversarial Networks (GAN) for Signal Processing, with Python"
 link: "https://medium.com/towards-data-science/hands-on-generative-adversarial-networks-gan-for-signal-processing-with-python-ff5b8d78bd28"
 isUpdated: true
 ---
-
-
-
-
 
 ## 몇 줄의 코드로 신호 처리를 위한 생성형 딥러닝 모델을 만드는 방법
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 코드가 완성되면, 제가 Medium에 이 기사를 쓰기 시작했고, 항상 하는 것처럼 적절한 소개로 시작하는 최상의 문구를 찾으려 했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자, 이제부터 질문을 스스로에게 던지기 시작합니다:
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 제목에서 짐작하실 수 있듯이, 우리는 시그널 처리를 위해 생성적 적대 신경망(Generative Adversarial Networks)을 사용할 것입니다. 이번에 할 게임은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 실험을 진행하고 있다고 상상해보세요. 이 실험의 설치는 생성기에 의해 이루어집니다. 이 생성기의 출력물은 시계열 데이터(즉, 신호)입니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-22-Hands-onGenerativeAdversarialNetworksGANforSignalProcessingwithPython_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희 대리 모델인 연핑크 뇌를 보십시오. 특히, 이 대리 모델은 기계 학습 모델입니다. 이름에서 알 수 있듯이, 이 기계 학습 모델은 적대적 생성 신경망(GAN)입니다.
 
@@ -55,33 +84,65 @@ isUpdated: true
 
 제가 기대되는 만큼 당신도 신나길 바라요. 함께해요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 1. 실험에 관하여
 
-전기/기계 공학자가 설정한 대부분의 신호는 사인 파형 신호입니다.*
+전기/기계 공학자가 설정한 대부분의 신호는 사인 파형 신호입니다.\*
 
 즉, 출력 신호는 이렇게 어떤 모양인 것입니다:
 
 ![image](/assets/img/2024-06-22-Hands-onGenerativeAdversarialNetworksGANforSignalProcessingwithPython_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위와 같은 표를 Markdown 형식으로 변경합니다.
 
-| Variable | Description                              |
-|----------|------------------------------------------|
-| A        | 신호의 진폭                               |
-| omega    | 주파수                                   |
-| b        | 편향                                    |
+| Variable | Description |
+| -------- | ----------- |
+| A        | 신호의 진폭 |
+| omega    | 주파수      |
+| b        | 편향        |
 
 실제 세계 실험에서는 노이즈 요소가 있습니다.
 지금은 다양한 종류의 노이즈가 있으며, 각각 색상이 지정되어 있습니다(white noise, pink noise, blue noise, green noise 등). 가장 전형적인 노이즈 중 하나는 가우시안 백색 소음으로, 모든 주파수에서 존재하며 가우시안 분포를 갖는 노이즈입니다.
 
 따라서 대상 신호는 다음과 같이 보입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-06-22-Hands-onGenerativeAdversarialNetworksGANforSignalProcessingwithPython_4.png)
 
@@ -93,8 +154,18 @@ Now, in practice:
 
 So at the end of the day, it looks more like this:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-Hands-onGenerativeAdversarialNetworksGANforSignalProcessingwithPython_5.png" />
 
@@ -109,7 +180,18 @@ So at the end of the day, it looks more like this:
 - 주파수는 1부터 2까지의 범위 내에서 0.001씩 증가합니다.
 - 잡음의 진폭은 고정되어 있으며 0.3입니다 (잡음의 랜덤성은 그 확률 분포에 있습니다)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 이러한 무작위성을 통합하려면 다음 코드 라인을 사용할 수 있습니다:
 
@@ -119,7 +201,18 @@ So at the end of the day, it looks more like this:
 
 그러면 머신 러닝부터 시작합시다 🤗
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2. 머신 러닝에 대해
 
@@ -130,7 +223,18 @@ GAN에 대한 설명과 함께 신호 처리에 관한 이 기사를 정말 원�
 GAN이 Deepfake에 사용되는 모델이라고 생각해보세요.
 이것은 이름에서 느낄 수 있듯이 생성 모델로, 생성 부분과 구별자를 훈련시켜 구현됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 생성 부분은 실제 모델과 가능한 가까운 모델을 생성하려고 노력합니다. 그게 전부라면 일반적인 인코더-디코더와 다르지 않을 것입니다. "진짜 거래"는 식별 부분의 존재입니다.
 
@@ -141,7 +245,18 @@ GAN이 Deepfake에 사용되는 모델이라고 생각해보세요.
 지금, GAN의 매우 흔한 사용은 조건부 GAN입니다. 조건부 GAN은 특정 입력과 관련된 생성 모델입니다.
 입력이 문자열이라고 말해봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 출력물은 다음 이미지입니다:
 
@@ -152,7 +267,18 @@ GAN이 Deepfake에 사용되는 모델이라고 생각해보세요.
 
 생성 모델의 구조는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 식별 모델의 아키텍처입니다:
 
@@ -161,8 +287,18 @@ GAN이 Deepfake에 사용되는 모델이라고 생각해보세요.
 생성 모델은 다음과 같이 설명할 수 있습니다:
 LSTM 모델은 무작위 잡음 벡터(3차원 벡터)를 입력으로 받고, 이상적으로는 원하는 신호인 300개의 요소로 이루어진 벡터를 출력합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image1](/assets/img/2024-06-22-Hands-onGenerativeAdversarialNetworksGANforSignalProcessingwithPython_9.png)
 
@@ -172,20 +308,41 @@ The discriminative model distinguishes a real (from the training data) and a fak
 
 The hands-on implementation of this GAN is the following:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 입력의 길이는 모델의 매개변수입니다:
 
 ```js
-LENGHT_INPUT = 300
+LENGHT_INPUT = 300;
 ```
 
 그리고 노이즈 벡터의 차원은 latent_dim 매개변수입니다.
 
 이제 데이터셋을 생성해야 합니다. 이는 n개의 신호를 생성하는 함수를 작성하는 것을 의미합니다. 또한 주어진 차원의 n개의 무작위 노이즈 입력을 생성해야 하며, n개의 무작위 노이즈 신호를 사용하여 가짜 신호를 생성하는 코드를 작성해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로, 저희는 기차 함수를 구축해야 합니다.
 
@@ -195,7 +352,18 @@ LENGHT_INPUT = 300
 
 전체 스크립트입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 데이터셋을 생성합니다
 - GAN 모델을 구축합니다
@@ -207,7 +375,18 @@ LENGHT_INPUT = 300
 
 이제 100,000개의 랜덤 신호를 생성해볼게요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대박이에요. 각 실험이 0.5달러 든다고 가정해보세요. 그러면 50,000달러를 "절약"한 셈이에요. 또한 각 실험이 1분이 걸린다고 가정해보세요. 그러면 70일을 "절약"한 셈이죠. 이것이 GANs 모델을 사용하는 목적입니다: "시간과 노력을 절약하기 위해".
 
@@ -217,9 +396,18 @@ LENGHT_INPUT = 300
 
 ## 4. 요약
 
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사에서는:
 
@@ -232,7 +420,18 @@ LENGHT_INPUT = 300
 
 # 5. 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 이 기사를 좋아하셨고 머신 러닝에 대해 더 알고 싶거나, 단순히 저에게 질문을 하고 싶다면 아래 방법으로 연락해 주세요:
 

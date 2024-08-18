@@ -3,17 +3,13 @@ title: "페도라 40에서 AMD ROCm을 활용한 Running Llama와 Stable Diffusi
 description: ""
 coverImage: "/assets/img/2024-06-19-RunningLlamaandStableDiffusionwithAMDROCmonFedora40_0.png"
 date: 2024-06-19 04:33
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-RunningLlamaandStableDiffusionwithAMDROCmonFedora40_0.png
 tag: Tech
 originalTitle: "Running Llama and Stable Diffusion with AMD ROCm on Fedora 40"
 link: "https://medium.com/@seancheo/running-generative-ai-on-amd-in-fedora-40-28aa3bebb187"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-06-19-RunningLlamaandStableDiffusionwithAMDROCmonFedora40_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 작년에 자신의 PC에서 LLM을 실행하려고 시도했을 때 많은 문제를 마주쳤습니다. Fedora에서 AMD의 ROCm을 설정하는 방법에 대해 Anvesh G. Jhuboo의 안내에 따랐습니다. 동작했지만 소프트웨어가 너무 새로웠습니다. 하위 응용 프로그램들이 아직 업데이트되지 않았기 때문에 ROCm을 성공적으로 설치했다는 멋진 화면이 나왔지만 아무것도 실행할 수 없었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당시로부터 많은 변화가 있었고, Stable Diffusion, Ollama, llama.cpp를 실행하려는 경험에 대해 써보기로 결심했어요.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 Nvidia가 CUDA를 출시한 것이 2007년에 모든 것이 시작되었어요. 당시에는 그래픽 카드가 단순히 그래픽 카드였고, 이를 다른 용도로 확장하는 아이디어가 나왔어요. 특히 CPU보다 유리한 분야인 병렬 컴퓨팅 또는 동시에 많은 계산을 수행하는 곳에서 그들의 이점을 확장하려고 했죠. 각각의 계산이 CPU보다 느리더라도, 그래픽 카드는 한 번에 더 많은 계산을 수행할 수 있기 때문에 총 처리량이 훨씬 높아지는 것이죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 해 후에 스티브 잡스는 오랜 OpenGL과 구분되는 대안인 OpenCL을 공개 표준 산업 단체인 크로노스 그룹에서 발표했습니다. 애플은 AMD, Nvidia 및 인텔과 같은 다른 회원들의 지원을 받으며 이 표준을 개발하고 홍보하는 데 큰 역할을 했습니다.
 
@@ -43,7 +61,18 @@ OpenCL은 애플에게 AMD와 Nvidia 사이의 그래픽 카드 파트너를 자
 
 한편 AMD도 2016년 말에 ROCm 플랫폼과 Radeon Instinct 하드웨어를 출시하는 등 머신 러닝을 위한 기업 솔루션을 확대하고 있었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Khronos는 더 개방적인 방향을 향해 가고자 하는 SYCL이라는 새로운 표준을 다시 출시할 것입니다. 이에 Intel의 그래픽 및 기계 학습 솔루션이 이에 맞추어 발전할 것입니다.
 
@@ -53,7 +82,18 @@ Khronos는 더 개방적인 방향을 향해 가고자 하는 SYCL이라는 새�
 
 둘째로, Nvidia는 모두에 비해 9년의 선도를 보유하고 있으며, 그들에게는 그에 대한 인정이 필요합니다. 그들의 도구들은 더욱 성숙해지고 있으며, 대부분의 대학과 연구자들이 CUDA를 사용할 것입니다. 일반적으로, 최첨단 연구를 위해서는 Nvidia와 CUDA가 기본이 될 것이지만, 대안들도 속도를 내고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # (간단하게) 생성적 AI 스택
 
@@ -63,7 +103,18 @@ Khronos는 더 개방적인 방향을 향해 가고자 하는 SYCL이라는 새�
 
 ![이미지](/assets/img/2024-06-19-RunningLlamaandStableDiffusionwithAMDROCmonFedora40_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본적으로 TextGen WebUI와 같은 프론트 엔드를 설치하고 백엔드를 별도로 설정하거나 LM Studio나 kobold.cpp와 같은 통합 솔루션을 선택할 수 있습니다. 프롬프트를 보내면 백엔드는 어떻게 처리할지 결정해야 합니다. 이는 PyTorch와 같은 딥 러닝 프레임워크를 사용하여 올바른 컴퓨팅 플랫폼을 사용하도록 설정해야 할 수 있습니다. 또는 프레임워크를 완전히 배제하고 요청을 직접 컴퓨팅 플랫폼으로 보낼 수도 있습니다.
 
@@ -75,9 +126,20 @@ Khronos는 더 개방적인 방향을 향해 가고자 하는 SYCL이라는 새�
 
 저는 Windows와 Linux을 장착한 듀얼 부팅 시스템을 사용하고 있습니다. 일반적으로 Windows는 더 제한적이지만 사용 가능한 옵션이 번거롭지 않고, Linux는 성능이 뛰어나며 더 많은 옵션이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-저는 제 Linux 배포판으로 Fedora를 선택했어요. 개인적으로 저는 bleeding-edge 패키지를 갖고 있는 배포판이 실험적인 AI 작업에 가장 적합하다고 느꼈고, Fedora가 ROCm 관련 모든 것을 잘 패키징한다는 점도 좋아해요. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+저는 제 Linux 배포판으로 Fedora를 선택했어요. 개인적으로 저는 bleeding-edge 패키지를 갖고 있는 배포판이 실험적인 AI 작업에 가장 적합하다고 느꼈고, Fedora가 ROCm 관련 모든 것을 잘 패키징한다는 점도 좋아해요.
 
 ## 시작하기 전에
 
@@ -87,7 +149,18 @@ Anvesh의 가이드에서 언급한 대로, 권한 설정과 재정의 몇 단�
 sudo usermod -a -G video $LOGNAME
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로, ROCm을 올바르게 설치합니다. 저는 여기서 hipblas만 호출하여 바로 가기를 사용할 것입니다. 이것은 LLMs의 계산의 기본인 행렬 곱셈을 위한 주요 라이브러리입니다. hipblas는 대부분의 다른 ROCm 패키지를 의존성으로 설치할 것입니다. 필요시 진단을 위해 rocminfo도 추가하였습니다.
 
@@ -99,7 +172,18 @@ sudo dnf install rocminfo hipblas
 
 RX 7000 시리즈:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export HSA_OVERRIDE_GFX_VERSION=11.0.0
@@ -113,7 +197,18 @@ export HSA_OVERRIDE_GFX_VERSION=10.3.0
 
 # ROCm을 사용하여 Fedora 40에서 Ollama와 Open WebUI 설정하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Ollama는 LLMs를 실행하는 데 시작하기 쉽고 다듬어진 방법 중 하나입니다. 설치는 GitHub 페이지에 명시된 대로 간단합니다:
 
@@ -125,7 +220,18 @@ curl -fsSL https://ollama.com/install.sh | sh
 
 ![이미지](/assets/img/2024-06-19-RunningLlamaandStableDiffusionwithAMDROCmonFedora40_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 거기서 다음과 같이 실행할 수 있어요:
 
@@ -139,7 +245,18 @@ ollama run llama3
 docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 같은 기기에서 Open WebUI와 Ollama를 실행할 경우 문제가 발생할 수 있습니다. 문제 해결 페이지에서는 Open WebUI를 성공적으로 시작하려면 --network=host를 사용하는 방법에 대해 다루고 있습니다.
 
@@ -151,7 +268,18 @@ Open WebUI는 더 많은 통계를 노출할 것입니다. 8bn 파라미터를 �
 
 <img src="/assets/img/2024-06-19-RunningLlamaandStableDiffusionwithAMDROCmonFedora40_4.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 거의 끝났어요, 한 가지만 더 해야 합니다. Ollama은 시스템 부팅 시 systemd 서비스로 설치됩니다. systemd 서비스는 bashrc 이전에 로드됩니다. 다시 말해, 재부팅 후에 이전의 bashrc 명령을 완전히 놓칠 수 있으며 CPU 전용 모드로 실행되어 모델을 느리게 만들 수 있습니다.
 
@@ -163,8 +291,18 @@ Environment=”HSA_OVERRIDE_GFX_VERSION=10.3.0"
 
 이렇게 보여야 합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-19-RunningLlamaandStableDiffusionwithAMDROCmonFedora40_5.png)
 
@@ -174,8 +312,18 @@ Ollama 및 Open WebUI는 쉽지만 무거운 것으로 간주될 수 있습니�
 
 문서는 충분히 간단합니다:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 git clone https://github.com/ggerganov/llama.cpp
@@ -190,7 +338,18 @@ sudo dnf install rocm-hip-devel hipblas-devel rocblas-devel
 
 이러한 패키지를 설치한 후 AMD 지원으로 컴파일하는 명령을 사용하세요. 필요한 경우 오버라이드가 활성화되었는지 확인하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 make LLAMA_HIPBLAS=1
@@ -204,7 +363,18 @@ make LLAMA_HIPBLAS=1
 ./llama-server --port 11434 -m models/DeepSeek-V2-Lite-Chat.Q4_K_M.gguf -c 4096 -ngl 999
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 llama.cpp가 ROCm과 함께 작동하는지 확인하는 두 가지 방법이 있습니다. 먼저 시작할 때 시스템 정보를 표시할 때 BLAS = 1이라고 나와야 합니다.
 
@@ -214,7 +384,18 @@ llama.cpp가 ROCm과 함께 작동하는지 확인하는 두 가지 방법이 �
 
 ![모델 GPU로 로드됨 확인](/assets/img/2024-06-19-RunningLlamaandStableDiffusionwithAMDROCmonFedora40_7.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 llama.cpp 서버가 실행 중이면 Open WebUI는 llama.cpp 백엔드와 함께 작동할 수 있습니다. 설정 → 연결로 이동하여 "OpenAI API" 아래에 서버 IP를 입력하고 끝에 "v1"을 추가하고 API 키를 "none" 또는 서버에 지정한 것으로 설정하면 됩니다.
 
@@ -224,7 +405,18 @@ llama.cpp 서버가 실행 중이면 Open WebUI는 llama.cpp 백엔드와 함께
 
 그 후 연결을 새로고침하면 작동해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Mikupad 사용법
 
@@ -238,8 +430,18 @@ open mikupad.html
 
 그럼 웹 페이지가 열릴 것입니다. 서버 세부 정보가 정확한지 확인하고 준비가 되면 Predict를 클릭하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-RunningLlamaandStableDiffusionwithAMDROCmonFedora40_9.png)
 
@@ -250,8 +452,18 @@ Stable Diffusion WebUI(이하 SDWebUI)의 문서는 간단해 보이지만 몇 �
 - Python 3.10 가상 환경을 생성하려고 하는데 Fedora는 Python 3.12를 사용합니다.
 - 기본적으로 이전 버전의 PyTorch를 설치하려고 하는데, 해당 버전은 ROCm 5.6이 필요하나 Fedora는 ROCm 6.0을 사용합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 문제가 해결되었습니다. 여기에 사용 중인 해결 방법이 있어요.
 
@@ -263,8 +475,18 @@ sudo dnf install conda
 
 그리고 이제 SDWebUI가 잘 작동하도록 가상 환경을 생성해볼게요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 conda create -n “diffusion-installer” python=3.10.6
@@ -279,8 +501,18 @@ conda install -c conda-forge gcc=12.1.0
 
 그런 다음 수동으로 설치해야 합니다. 자동 스크립트를 사용하면 오래된 PyTorch를 바로 다운로드하게 되어 발생하는 귀찮은 중복을 피할 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러면 저장소를 받아서 새롭게 만든 폴더로 들어가 보겠습니다.
 
@@ -295,13 +527,22 @@ cd stable-diffusion-webui
 export TORCH_COMMAND="pip install torch==2.3.0+rocm6.0 torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/rocm6.0"
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래와 같이 작성해보세요:
 
-
 ![이미지](/assets/img/2024-06-19-RunningLlamaandStableDiffusionwithAMDROCmonFedora40_10.png)
-
 
 이제 손가락 교차해보세요!
 
@@ -309,7 +550,18 @@ export TORCH_COMMAND="pip install torch==2.3.0+rocm6.0 torchvision torchaudio --
 ./webui.sh
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Ollama나 llama.cpp와 다르게, SDWebUI는 GPU로 성공적으로 로드되었는지 여부를 명시적으로 알려주지 않습니다. 그러나 SDWebUI가 ROCm을 사용하는 PyTorch의 특정 버전을 다운로드했기 때문에 두 가지 중 하나가 발생할 수 있습니다.
 
@@ -320,7 +572,18 @@ Ollama나 llama.cpp와 다르게, SDWebUI는 GPU로 성공적으로 로드되었
 
 ![image](/assets/img/2024-06-19-RunningLlamaandStableDiffusionwithAMDROCmonFedora40_11.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 앞으로 볼 것들
 
@@ -330,7 +593,18 @@ Intel은 여전히 자체 공장을 보유하고 있지만, 일부 CPU에는 TSM
 
 AI 자체는 아직 멀은 길이 남아 있습니다. 모든 사람들의 관심이 LLM에 집중되어 있지만, 의약품 발견, 의료 진단 및 스칼렛 요한슨과 똑같이 묘한 목소리가 나오는 가상 음성처럼 주목받지 않는 더 많은 분야에도 AI가 사용되고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최종적으로 건강하고 성공적인 경쟁을 선호합니다. 더 많은 경쟁은 주요 플레이어들이(제조업체 뿐만 아니라 OpenAI, Meta, Anthropic과 같은 플랫폼 소유자들) 모여 일부 응용 프로그램에 대한 오픈 표준에 합의하는 것이 전부 소유권으로 남아 있는 것보다 더 큰 가능성을 의미합니다.
 

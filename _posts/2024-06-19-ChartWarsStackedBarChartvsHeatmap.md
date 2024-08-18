@@ -3,17 +3,13 @@ title: "차트 전쟁 - 쌓인 막대 차트 대 히트맵"
 description: ""
 coverImage: "/assets/img/2024-06-19-ChartWarsStackedBarChartvsHeatmap_0.png"
 date: 2024-06-19 05:07
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-ChartWarsStackedBarChartvsHeatmap_0.png
 tag: Tech
 originalTitle: "Chart Wars — Stacked Bar Chart vs. Heatmap"
 link: "https://medium.com/towards-data-science/chart-wars-stacked-bar-chart-vs-heatmap-959423de6fee"
 isUpdated: true
 ---
-
-
-
-
 
 ## 빠른 성공 데이터 과학
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 "스택된 막대 차트"라고 생각했다면, 그것은 이해할 수 있어요. 어쩌면 시간이 부족한 상황이었으니까요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스택된 막대 차트는 금방 혼잡해지기 쉽습니다. 여기에는 미국 노동통계국의 공개 도메인 데이터를 사용한 예시가 있습니다. 두 가지 범주형 변수는 소비 유형(예: 식품 및 교통)과 연령대입니다. 수치 변수는 전체 지출의 백분율입니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 그룹화된 막대 차트를 사용하면 조금 더 나아지지만 여전히 읽기 어려울 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-ChartWarsStackedBarChartvsHeatmap_2.png" />
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 <img src="/assets/img/2024-06-19-ChartWarsStackedBarChartvsHeatmap_3.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 히트맵은 막대 차트보다 여러 가지 개선 사항을 가지고 있어요. 우선, 환영 느낌이 들어서, 복잡한 막대 차트보다 혐오스럽지 않아요. 각 셀의 크기가 같아서 작은 항목이 눈에 잘 띄게 축소되지 않아요. 실제 값들을 게시할 공간도 있어요.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 다음 섹션에서, 저는 Python, pandas 및 Plotly Express를 사용해 이 히트맵을 어떻게 생성했는지 확인할 거에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 히트맵 코드
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 이 프로젝트에서는 외부 라이브러리 팬더스와 Plotly Express를 사용할 것입니다. 이전 링크에서 설치 지침을 찾을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GIST에서 URL 주소를 사용하여 CSV 파일을 로드할 거예요. 그리고 DataFrame의 인덱스를 "Expenditure Type" 열로 설정해서 편하게 플로팅할 거예요.
 
@@ -81,7 +132,18 @@ display(df)
 
 각 카테고리의 총 지출 비율을 나타내는 값이에요. 다시 한 번 언급하자면, 약간의 작은 카테고리는 제외했기 때문에 100%에 완전히 더해지지는 않을 거예요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 히트맵 그리기
 
@@ -91,9 +153,9 @@ Plotly Express는 Matplotlib의 Seaborn과 같은 라이브러리인 Plotly 라�
 
 ```js
 # 히트맵 생성:
-fig = px.imshow(df, 
-                labels=dict(x="연령대", 
-                            y="지출 유형", 
+fig = px.imshow(df,
+                labels=dict(x="연령대",
+                            y="지출 유형",
                             color="지출 비율"),
                 color_continuous_scale='Greys',
                 title='<br><br>\
@@ -102,15 +164,15 @@ fig = px.imshow(df,
 # 셀 값 주석 추가:
 for i, expenditure_type in enumerate(df.index):
     for j, age_bracket in enumerate(df.columns):
-        fig.add_annotation(x=j, y=i, 
-                           text=str(df.loc[expenditure_type, age_bracket]), 
+        fig.add_annotation(x=j, y=i,
+                           text=str(df.loc[expenditure_type, age_bracket]),
                            showarrow=False)
-fig.update_annotations(font=dict(family="Arial", 
-                                 size=12, 
+fig.update_annotations(font=dict(family="Arial",
+                                 size=12,
                                  color="firebrick"))
 
 # 그림 크기 및 여백 설정:
-fig.update_layout(width=600, height=1000, 
+fig.update_layout(width=600, height=1000,
                   margin=dict(l=20, r=10, t=20, b=20))
 
 # 축 레이블을 굵게 설정:
@@ -121,7 +183,18 @@ fig.update_xaxes(tickfont_family="Arial Black")
 fig.update(layout_coloraxis_showscale=False)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 히트맵은 Plotly Express의 imshow() 메서드에 의해 생성됩니다. 해당 인수에는 데이터프레임, x-y 라벨 및 히트맵 셀 색상(딕셔너리 데이터 형식으로 전달), 색상 스케일 및 제목이 포함됩니다.
 
@@ -131,7 +204,18 @@ fig.update(layout_coloraxis_showscale=False)
 
 나머지 코드는 플롯을 형식화하고 주석 덕분에 더 이상 필요하지 않은 색상 스케일을 해제하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 회색-빨강 색상 체계의 히트맵입니다:
 
@@ -141,7 +225,18 @@ Plotly Express는 팝업 호버 창과 같은 유용한 기능이 있는 동적 
 
 ![동적 시각화](/assets/img/2024-06-19-ChartWarsStackedBarChartvsHeatmap_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 hover 창들은 색상이나 주석이 해석하기 어려울 때 명확성을 더해줍니다. 또한 시각화에 직접적으로 포함되지 않은 DataFrame 열의 값과 같은 추가 정보를 표시할 수 있습니다.
 
@@ -151,7 +246,18 @@ Plotly Express는 팝업 호버 창과 같은 유용한 기능이 있는 동적 
 
 다른 시각화인 쌓인 막대 차트와 같은 경쟁 시각화는 지나치게 복잡해질 수 있는 반면, 히트맵은 접근하기 쉽습니다. 모든 셀이 동일한 크기이므로 작은 기여도가 "줄어들지 않고" 모든 데이터 포인트가 명확하게 주석 처리될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Plotly Express에는 pandas DataFrame에서 쉽게 heatmap을 생성하는 내장 메소드가 있습니다. 이 hover 창 기능을 사용하면 표를 조사하고 DataFrame에 저장된 추가 데이터를 표시할 수 있습니다.
 
@@ -161,7 +267,18 @@ Plotly Express에는 pandas DataFrame에서 쉽게 heatmap을 생성하는 내�
 
 # 더 나은 쌓인 막대 차트
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스텍 바 차트 모두 좋은 것은 아닙니다. "Marimekko" 차트라는 변형은 꽤 매력적일 수 있어요:
 

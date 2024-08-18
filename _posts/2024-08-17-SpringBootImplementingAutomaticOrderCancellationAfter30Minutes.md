@@ -3,7 +3,7 @@ title: "Spring Boot 30분 후 자동 주문 취소 기능 구현 방법"
 description: ""
 coverImage: "/assets/img/2024-08-17-SpringBootImplementingAutomaticOrderCancellationAfter30Minutes_0.png"
 date: 2024-08-17 00:22
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-17-SpringBootImplementingAutomaticOrderCancellationAfter30Minutes_0.png
 tag: Tech
 originalTitle: "Spring Boot Implementing Automatic Order Cancellation After 30 Minutes"
@@ -11,7 +11,6 @@ link: "https://medium.com/stackademic/spring-boot-implementing-automatic-order-c
 isUpdated: true
 updatedAt: 1723863800995
 ---
-
 
 <img src="/assets/img/2024-08-17-SpringBootImplementingAutomaticOrderCancellationAfter30Minutes_0.png" />
 
@@ -21,7 +20,18 @@ updatedAt: 1723863800995
 
 # 방법 1: 예약된 작업
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 @Scheduled 주석을 사용하면 주기적으로 주문 레코드를 스캔하는 예약된 작업을 쉽게 구현할 수 있습니다.
 
@@ -50,7 +60,18 @@ public class OrderSchedule {
 
 # 방법 2: 지연된 큐
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 메시지 대기열을 사용할 때 주문이 생성되면 주문 ID가 30분의 만료 시간으로 설정된 지연 대기열에 푸시됩니다.
 
@@ -92,7 +113,18 @@ public class OrderDelayConsumer {
 
 # 방법 3: Redis 만료 이벤트
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Redis 키 만료 이벤트를 사용하면 주문이 생성될 때 Redis에 30분 만료 시간을 갖는 키가 저장됩니다.
 
@@ -122,7 +154,18 @@ public class OrderService {
 
 참고: Redis 키 만료 알림은 전형적인 발행-구독 패턴을 따릅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Redis에서는 특정 이벤트, 예를 들어 키 만료와 같은 이벤트에 구독할 수 있습니다.
 
@@ -132,7 +175,18 @@ Redis에서는 특정 이벤트, 예를 들어 키 만료와 같은 이벤트에
 
 세 가지 접근 방식 모두 주문이 30분 이내에 지불되지 않으면 자동으로 취소되는 요구 사항을 충족할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특정 비즈니스 요구 사항, 시스템 부하 및 기타 요소에 따라 시스템에 가장 잘 맞는 구현 방법을 선택할 수 있습니다.
 

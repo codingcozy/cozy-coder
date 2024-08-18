@@ -3,7 +3,7 @@ title: " 웹사이트를 전문가 수준으로 보이게 만들어주는 간�
 description: ""
 coverImage: "/assets/img/2024-08-17-HowaSimpleCSSOne-linerCanMakeYourWebsiteLookLikeaDesignPros_0.png"
 date: 2024-08-17 00:03
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-17-HowaSimpleCSSOne-linerCanMakeYourWebsiteLookLikeaDesignPros_0.png
 tag: Tech
 originalTitle: "How a Simple CSS One-liner Can Make Your Website Look Like a Design Pros"
@@ -11,8 +11,6 @@ link: "https://medium.com/gitconnected/how-a-simple-css-one-liner-can-make-your-
 isUpdated: true
 updatedAt: 1723863710112
 ---
-
-
 
 ![How a Simple CSS One-liner Can Make Your Website Look Like a Design Pro](/assets/img/2024-08-17-HowaSimpleCSSOne-linerCanMakeYourWebsiteLookLikeaDesignPros_0.png)
 
@@ -22,8 +20,18 @@ The best part? You can do it with just one line of CSS code!
 
 In this short guide, I will show you how.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 왜 배경 흐림을 사용해야 하나요?
 
@@ -35,7 +43,18 @@ In this short guide, I will show you how.
 
 # 배경 흐림을 위한 간단한 CSS 코드
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 배경을 흐리게 만드는 CSS 한 줄이 있어요:
 
@@ -47,7 +66,18 @@ backdrop-filter: blur(10px);
 
 ## 사용 방법
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에 이 코드를 프로젝트에 사용하는 방법이 있어요:
 
@@ -61,12 +91,23 @@ backdrop-filter: blur(10px);
 
 그리고 CSS를 추가해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 .blurred-background {
-    backdrop-filter: blur(10px);
-    background: rgba(255, 255, 255, 0.3); /* Adds a frosted glass effect */
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.3); /* Adds a frosted glass effect */
 }
 ```
 
@@ -76,8 +117,18 @@ backdrop-filter: blur(10px);
 
 backdrop-filter CSS 속성은 크롬, 엣지, 사파리, 파이어폭스를 포함한 대부분의 최신 브라우저에서 지원됩니다. 그러나 오래된 브라우저나 일부 모바일 브라우저에서는 작동하지 않을 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인터넷 익스플로러와 오페라 미니에서는 지원되지 않습니다.
 
@@ -87,7 +138,18 @@ backdrop-filter CSS 속성은 크롬, 엣지, 사파리, 파이어폭스를 포�
 
 그겣이에요! 단 한 줄의 CSS로 웹사이트에 멋진 유리 효과를 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신의 디자인이 보다 현대적이고 세련된 느낌을 줄 수 있는 쉬운 방법입니다. 다양한 블러 값으로 실험해보며 당신의 사이트에 완벽한 룩을 찾아보세요.
 

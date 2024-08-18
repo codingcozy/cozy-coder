@@ -3,17 +3,13 @@ title: "초고속 행렬 곱셈 필요 없는 LLMs대규모 언어 모델 드디
 description: ""
 coverImage: "/assets/img/2024-06-22-SuperfastMatrix-Multiplication-FreeLLMsAreFinallyHere_0.png"
 date: 2024-06-22 21:03
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-SuperfastMatrix-Multiplication-FreeLLMsAreFinallyHere_0.png
 tag: Tech
 originalTitle: "Superfast Matrix-Multiplication-Free LLMs Are Finally Here"
 link: "https://medium.com/gitconnected/superfast-matrix-multiplication-free-llms-are-finally-here-cac5b78a4fa7"
 isUpdated: true
 ---
-
-
-
-
 
 최근 ArXiv에 발표된 연구 논문은 오늘날 우리가 알고 있는 LLM(Large Language Model)에 대해 대대적인 변화를 제안했습니다.
 
@@ -23,11 +19,33 @@ isUpdated: true
 
 이것은 단 하나의 최적화로 가능해진 거대한 변화입니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 표 태그를 Markdown 형식으로 변경해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 행렬 곱셈은 첫 번째 행렬의 열 수가 두 번째 행렬의 행 수와 같아야 하는 조건 하에 두 행렬을 곱하여 세 번째 행렬을 생성하는 대수 연산입니다.
 
@@ -37,7 +55,18 @@ isUpdated: true
 
 행렬 곱셈(MatMul)은 LLMs에서 수행되는 핵심 수학 연산입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, MatMul은 입력 텍스트에서 토큰과 위치 임베딩을 생성하는 데 사용됩니다.
 
@@ -47,7 +76,18 @@ isUpdated: true
 
 다음으로, MatMul은 입력값, 가중치 및 편향에 적용되어 (비선형 활성화 함수를 거친) 밀집 피드포워드 네트워크 내의 출력을 생성합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-SuperfastMatrix-Multiplication-FreeLLMsAreFinallyHere_1.png" />
 
@@ -57,7 +97,18 @@ isUpdated: true
 
 CUDA 및 cuBLAS와 같은 라이브러리를 사용하여 MatMul 연산을 강력한 GPU를 사용하여 병렬화하고 가속화하여 효율적으로 수행됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 LLMs의 훈련 및 추론 단계에서 계산 비용의 가장 큰 비율을 차지하고 있다.
 
@@ -67,7 +118,18 @@ CUDA 및 cuBLAS와 같은 라이브러리를 사용하여 MatMul 연산을 강�
 
 하지만, 우리가 전진해 이해하기 전에 이 MatMul-free LLMs에 대해 자세히 알아야 할 전통적인 LLMs를 이루는 구성 요소에 대해 더 배워보아야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 전통 LLM 구성 요소 이해하기
 
@@ -77,7 +139,18 @@ CUDA 및 cuBLAS와 같은 라이브러리를 사용하여 MatMul 연산을 강�
 
 이 구성 요소는 순서열 내에서 서로 다른 토큰 간의 관계를 처리합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전통적인 LLMs에서의 토큰 혼합은 Self-attention 메커니즘을 사용하여 달성됩니다.
 
@@ -87,7 +160,18 @@ CUDA 및 cuBLAS와 같은 라이브러리를 사용하여 MatMul 연산을 강�
 
 채널 혼합은 위치별 피드포워드 네트워크를 사용하여 달성되며, 이는 토큰 혼합 단계에서 추출된 피처를 정제하고 통합합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Transformer 아키텍처에서 이 두 단계를 아래에서 확인할 수 있어요.
 
@@ -97,7 +181,18 @@ Transformer 아키텍처에서 이 두 단계를 아래에서 확인할 수 있�
 
 # 새로운 LLM 아키텍처에서 MatMul은 어떻게 제거되나요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 MatMul이 없는 LLM은 전통적인 LLM 아키텍처에 세 가지 주요 변경을 가한 후 만들어 졌어요.
 
@@ -109,7 +204,18 @@ MatMul이 없는 LLM은 전통적인 LLM 아키텍처에 세 가지 주요 변�
 
 ## 1. MatMul이 없는 밀도 레이어
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비트넷에 영감을 받아, 밀도 레이어들을 먼저 비트린어 모듈로 대체했습니다.
 
@@ -119,7 +225,18 @@ MatMul이 없는 LLM은 전통적인 LLM 아키텍처에 세 가지 주요 변�
 
 ## 하드웨어 효율적인 융합된 비트린어 레이어
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 원래의 BitNet에서의 BitLinear 레이어는 BitLinear 입력에 앞서 RMSNorm 활성화를 적용합니다.
 
@@ -129,7 +246,18 @@ MatMul이 없는 LLM은 전통적인 LLM 아키텍처에 세 가지 주요 변�
 
 ## 2. MatMul-free Token Mixer
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 셀프 어텐션 토큰 믹서는 Query(Q), Key(K) 및 Value(V) 매트릭스 간의 MatMul을 포함하고 있는데, 수정된 게이트 순환 유닛(GRU) 아키텍처로 교체되었습니다.
 
@@ -142,7 +270,18 @@ MatMul이 없는 LLM은 전통적인 LLM 아키텍처에 세 가지 주요 변�
 - LSTM 아키텍처에서 영감을 받아 은닉 상태와 출력 사이에 데이터 종속적인 출력 게이트가 추가되었습니다.
 - 모든 가중치가 -1, 0 및 +1 세 가지 가능한 값을 갖는 삼진 가중치로 대체되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3. 매트릭스 곱셈 없이 채널 믹서
 
@@ -152,7 +291,18 @@ GLU와 함께 삼진 가중치를 다시 사용하여 매트릭스 곱셈을 간
 
 ![이미지](/assets/img/2024-06-22-SuperfastMatrix-Multiplication-FreeLLMsAreFinallyHere_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # MatMul 미사용 LLM이 얼마나 잘 수행되었는지
 
@@ -162,8 +312,18 @@ Llama-2와 같은 많은 인기 있는 LLM에 사용된 Transformer ++ 구조와
 
 MatMul을 사용하지 않은 27억 개 LLM은 ARC-Challenge 및 OpenbookQA 벤치마크에서 Transformer++ 대응 모델보다 뛰어난 성과를 거뒀다는 점을 기억할 수 있습니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-22-SuperfastMatrix-Multiplication-FreeLLMsAreFinallyHere_5.png)
 
@@ -173,8 +333,18 @@ MatMul을 사용하지 않은 27억 개 LLM은 ARC-Challenge 및 OpenbookQA 벤�
 
 ![이미지](/assets/img/2024-06-22-SuperfastMatrix-Multiplication-FreeLLMsAreFinallyHere_6.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 연구자들은 자사의 Fused BitLinear 구현과 일반적인 BitLinear 구현을 비교하여 LLM 훈련 속도를 25.6% 향상시키고 메모리 소비량을 61.0% 감소시켰다고 언급했습니다!
 
@@ -184,8 +354,18 @@ MatMul을 사용하지 않은 27억 개 LLM은 ARC-Challenge 및 OpenbookQA 벤�
 
 특히, 그들의 13W 파워를 사용하는 13억 개 파라미터 모델은 인간의 독해 속도를 달성하며, 인간 두뇌의 전력 소비와 유사한 효율성을 달성했습니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![SuperfastMatrix-Multiplication-FreeLLMsAreFinallyHere](/assets/img/2024-06-22-SuperfastMatrix-Multiplication-FreeLLMsAreFinallyHere_8.png)
 
@@ -195,9 +375,18 @@ MatMul을 사용하지 않은 27억 개 LLM은 ARC-Challenge 및 OpenbookQA 벤�
 
 이것은 수조 개 또는 수조 매개변수로 확장되는 미래 MatMul-free LLMs에 매우 유망한 속보입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-22-SuperfastMatrix-Multiplication-FreeLLMsAreFinallyHere_9.png)
 
@@ -207,8 +396,18 @@ MatMul을 사용하지 않은 27억 개 LLM은 ARC-Challenge 및 OpenbookQA 벤�
 
 이에 대한 당신의 생각은 무엇인가요? 댓글에서 알려주세요.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 더 많은 자료
 

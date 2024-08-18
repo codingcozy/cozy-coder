@@ -3,17 +3,13 @@ title: "게임을 하며 리눅스 마스터하기"
 description: ""
 coverImage: "/assets/img/2024-06-19-MasteringLinuxwhilePlayingGames_0.png"
 date: 2024-06-19 08:32
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-MasteringLinuxwhilePlayingGames_0.png
 tag: Tech
 originalTitle: "Mastering Linux while Playing Games"
 link: "https://medium.com/@audrey_evans/mastering-linux-while-playing-games-11e3919e7096"
 isUpdated: true
 ---
-
-
-
-
 
 ## 테르미너이터
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 리눅스 서바이벌은 서로 다른 주제를 다루는 네 가지 모듈로 구성되어 있습니다. 각 모듈 이후에 퀴즈 세션이 있어 지식을 테스트할 수 있습니다. 게임을 하려면 계정을 만들 필요는 없지만, 계정을 만들면 진행 상황을 추적할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Over The Wire: 전쟁 게임
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 리눅스 여정은 초보자와 숙련자 모두에게 동일하게 유용한 자원을 제공합니다. 지식을 확인하고 기술을 더 깊이 파고들고 실습 경험도 풍부하게 할 수 있는 퀴즈 및 연습 세션을 제공합니다. 모든 자료는 텍스트를 기반으로 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 명령 줄 영웅: BASH
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 슬픈 서버들은 리눅스에 대한 심층적인 이해를 가진 고급 사용자를 위한 현실적인 시나리오로 구성된 시간 제한 해결 도전 과제들로 이루어져 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 명령어 챌린지
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 ![게임 화면](/assets/img/2024-06-19-MasteringLinuxwhilePlayingGames_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Bash Crawl
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 ## Command Line Murder Mystery
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Noah Veltman의 GitHub 페이지를 방문하고 이를 다운로드해야 합니다. 이 게임에서 당신은 탐정이 되어 Linux 명령어를 사용하여 폴더와 파일을 탐색하여 살인 사건 플롯을 해결해야 합니다. 힌트 파일과 솔루션 파일이 각각 분리되어 있습니다.
 

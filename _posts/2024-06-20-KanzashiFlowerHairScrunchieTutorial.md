@@ -3,17 +3,13 @@ title: "간자시 꽃 머리 스크런치 만들기 안내"
 description: ""
 coverImage: "/assets/img/2024-06-20-KanzashiFlowerHairScrunchieTutorial_0.png"
 date: 2024-06-20 17:24
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-KanzashiFlowerHairScrunchieTutorial_0.png
 tag: Tech
 originalTitle: "Kanzashi Flower Hair Scrunchie Tutorial"
 link: "https://medium.com/@sparksasha/kanzashi-flower-hair-scrunchie-tutorial-14b4904e6edf"
 isUpdated: true
 ---
-
-
-
-
 
 🔍 지금 칸자시 꽃 헤어 스크런치 만들기 튜토리얼을 확인해보세요! 이 📁 소잉 패턴을 살펴보고 여기에서 🆓 무료 다운로드 혜택을 받아보세요. 함께 공예를 시작해봐요! 🚀
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-20-KanzashiFlowerHairScrunchieTutorial_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Kanzashi Flower Hair Scrunchie Tutorial Part 2](/assets/img/2024-06-20-KanzashiFlowerHairScrunchieTutorial_2.png)
 

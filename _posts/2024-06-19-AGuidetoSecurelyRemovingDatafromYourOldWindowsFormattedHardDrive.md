@@ -3,17 +3,13 @@ title: "이전 Windows 포맷된 하드 드라이브에서 데이터를 안전�
 description: ""
 coverImage: "/assets/img/2024-06-19-AGuidetoSecurelyRemovingDatafromYourOldWindowsFormattedHardDrive_0.png"
 date: 2024-06-19 15:22
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-AGuidetoSecurelyRemovingDatafromYourOldWindowsFormattedHardDrive_0.png
 tag: Tech
 originalTitle: "A Guide to Securely Removing Data from Your Old Windows Formatted Hard Drive"
 link: "https://medium.com/@veritysystems/a-guide-to-securely-removing-data-from-your-old-windows-formatted-hard-drive-214f1f571c26"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-19-AGuidetoSecurelyRemovingDatafromYourOldWindowsFormattedHardDrive_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 삭제가 필요한 내용 이해하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터를 삭제하고자 하는 유형은 개인적인 필요와 저장된 정보의 민감성(개인 또는 전문적인 정보인지)에 따라 다릅니다.
 
@@ -38,7 +45,18 @@ isUpdated: true
 
 Windows HDD에서 안전한 데이터 삭제 방법
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 Windows 형식의 하드 드라이브에서 데이터를 제거하는 세 가지 인기있는 방법이 있습니다:
 
@@ -48,7 +66,18 @@ Windows HDD에서 안전한 데이터 삭제 방법
 
 2. 덮어쓰기 (중간 보안 수준):
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 방법은 하드 드라이브 전체에 무작위 데이터를 반복적으로 작성하는 것을 포함합니다. 기존 데이터를 덮어씌워 데이터를 복구하기 어렵게 만듭니다. DBAN(Darik Boot and Nuke)과 같은 무료 소프트웨어 도구는 안전한 덮어쓰기 기능을 제공합니다. 그러나 일부 데이터 복구 기술은 덮어씌워진 데이터에 여전히 접근할 수 있을 수 있으며, 특히 민감한 정보나 비밀을 추출하려는 국가 주체들이 그렇습니다.
 
@@ -60,7 +89,18 @@ Windows HDD에서 안전한 데이터 삭제 방법
 - 디가우징 서비스는 제공되지만 폐기 비용을 높일 수 있습니다.
 - 디가우징은 하드 드라이브를 영구적으로 손상시켜 나중에 사용할 수 없게 만듭니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SSD 폐기 - 다른 접근 방식
 
@@ -72,7 +112,18 @@ Solid-State Drive(SSD)는 플래시 메모리를 사용하여 저장하며 디�
 
 적절한 방법 선택하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 귀하의 요구에 가장 적합한 방법은 데이터 민감도, 예산 및 하드 드라이브 유형(HDD 또는 SSD)에 따라 다릅니다. 전통 HDD에서 높은 보안 데이터 제거를 위해 디가우싱이 신뢰할만한 옵션이 될 수 있습니다. 그러나 HDD와 SSD 모두에 대한 궁극적인 보안 및 완전한 데이터 소거를 위해서는 산업용 파쇄나 분쇄가 선호되는 선택입니다.
 

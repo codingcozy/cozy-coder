@@ -3,18 +3,13 @@ title: "중간 자식이라서 싫어요"
 description: ""
 coverImage: "/assets/img/2024-06-20-ihatebeingthemiddlechild_0.png"
 date: 2024-06-20 18:06
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-ihatebeingthemiddlechild_0.png
 tag: Tech
 originalTitle: "i hate being the middle child"
 link: "https://medium.com/@andengxzs_/i-hate-being-the-middle-child-fae3acb9512d"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![Middle Child](/assets/img/2024-06-20-ihatebeingthemiddlechild_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 그 부분에 동감합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어릴 때, 가족 속에서 종종 무시당한 느낌을 받았어. 내 늙은 형제는 항상 먼저 주목을 받고 책임을 맡았고, 내 어린 동생은 가족의 막내로 열심히 돌봐주는 했다. 자주 그냥 숨겨진 사람처럼 느껴졌어 – 새로운 장난감을 받는 마지막 사람, 들어들어줄 때 가장 늦게 들어주는 사람, 나의 요구를 충족시켜주는 마지막 사람.
 
@@ -35,7 +40,18 @@ isUpdated: true
 
 그 순간 내 마음은 너무 행복했어. 그때는 그렇게 생각이 많이 안 들었어, 왜냐하면 우리 모두 새로운 장난감을 받았기 때문이었어. 사실, 그것에 대해 정말 행복했었어.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그때 나는 깨달았어요,
 
@@ -45,7 +61,18 @@ isUpdated: true
 
 그날을 기억해요. 농장에서 놀다가 넘어졌을 때, 급히 일어섰다가 집으로 가요. 무릎을 베어 부스러졌다고, 다친 줄 알려줘야 했거든.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 집에 도착하면 혼내기를 받았어요.
 
@@ -55,7 +82,18 @@ isUpdated: true
 
 계속 피가 나는 상처들.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그때부터 나는 그저 조용히 물러섰어. 나 홀로 나를 동맹으로 삼기로 했지. 누군가의 도움을 요청하지 않고 스스로를 위해 모든 일을 처리했어. 나 홀로 내 눈물을 닦는 법을 배웠지. 내 짐을 스스로 짊어지는 법을 배웠지.
 
@@ -65,7 +103,18 @@ isUpdated: true
 
 그러나 이제, 나는 믿어.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕,
 
@@ -75,7 +124,18 @@ isUpdated: true
 
 주목받지 않아. 보이지 않아.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 내가 쓴 그 가면 뒤에는 내 존재의 상처받은 부분들이 있다. 나는 그것을 가족에게 숨기기로 했었는데, 그들이 단지 "그게 그거야"라고 할까 봐 두려웠기 때문이다. 그래서 나는 모든 것을 내게 묵은 채로 유지하기로 했다.
 

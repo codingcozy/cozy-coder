@@ -3,17 +3,13 @@ title: "파이썬에서 return을 사용할 때 발생하는 잘못된 구문 �
 description: ""
 coverImage: "/assets/img/2024-05-27-PythonReturnInvalidSyntaxError_0.png"
 date: 2024-05-27 13:53
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-PythonReturnInvalidSyntaxError_0.png
 tag: Tech
 originalTitle: "Python Return Invalid Syntax Error"
 link: "https://medium.com/@fixitblog/solved-python-return-invalid-syntax-error-b44078761163"
 isUpdated: true
 ---
-
-
-
-
 
 라즈베리 파이에서 간단한 파이썬 프로그램을 작성 중이며 파이썬 프로그래밍이 처음이라고 하셨군요. GetMessage라는 매개변수가 없고 data라는 변수를 반환하는 함수를 정의했는데, 다음과 같은 오류가 발생하고 있다고 하셨군요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 해당 오류가 발생하는 이유와 어떻게 해결할 수 있는지 알려드리겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 수정 사항: 전역 변수로 데이터를 정의했고, 지금 발생한 오류는
 
@@ -35,7 +42,18 @@ isUpdated: true
 
 코드에 여러 구문 문제가 있습니다. 코드 구문을 이해하지 못할 때 발생하는 SyntaxError 예외의 특성 때문에 오류 메시지가 문제의 원인인 적절한 줄을 식별하지 못할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제가 먼저 발견한 구문 오류는 GetMessage 함수에서 반복문 내에 없는 상태에서 break를 사용하고 있다는 것입니다. break 문은 for 또는 while 블록 내에서만 유용하며, 다른 곳에서 사용하는 것은 구문 오류입니다.
 
@@ -45,7 +63,18 @@ isUpdated: true
 
 추가 문제들도 있지만 구문 오류는 아닙니다. 예를 들어, 함수를 정의하기 전에 상위 코드에서 함수를 호출하는 것이 있으며, DecodeInput에는 아무 작업도 수행하지 않는 SetPower 표현이 있는데, 아마도 인수를 전달하여 SetPower를 호출하길 원할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 희망을 가질 때 올바른 방향으로 나아갈 수 있기를 바랍니다.
 

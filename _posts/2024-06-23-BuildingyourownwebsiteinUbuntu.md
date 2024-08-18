@@ -3,17 +3,13 @@ title: "Ubuntu에서 웹사이트 구축하는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-23-BuildingyourownwebsiteinUbuntu_0.png"
 date: 2024-06-23 18:21
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-BuildingyourownwebsiteinUbuntu_0.png
 tag: Tech
 originalTitle: "Building your own website in Ubuntu"
 link: "https://medium.com/@timothy.halim/setting-up-web-server-in-ubuntu-8ac1a3b36a7d"
 isUpdated: true
 ---
-
-
-
-
 
 요즘 오렌지 파이를 샀는데 취미로 웹 서버를 만들어보기로 결정했어요. 만약 당신의 ISP가 공인 IP를 허용한다면, 온라인으로 접속할 수도 있을 거에요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 저는 루트 디렉토리에 폴더를 만들어 시작하는 것부터 시작해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```shell
 cd /
@@ -43,7 +50,18 @@ python3 -m venv .venv
 
 다음으로 원하는 IDE(통합 개발 환경)나 텍스트 편집기를 사용할 수 있어요. 저는 Visual Studio Code를 사용해서 폴더를 여는 게 좋아요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 code .
@@ -55,10 +73,20 @@ code .
 
 현재 폴더에 있는 가상 환경을 선택한 후 터미널을 열면 (ctrl+shift+`) 이 접두사가 나와야 해요 (.venv)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 Markdown 형식으로 표현된 코드입니다.
-
 
 <img src="/assets/img/2024-06-23-BuildingyourownwebsiteinUbuntu_1.png" />
 
@@ -70,8 +98,18 @@ python -m pip install flask
 
 이 가이드를 따라하여 hello.py 파일을 생성합니다. 파일 내용은 아래와 같습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 from flask import Flask
@@ -91,7 +129,18 @@ flask run --app hello
 
 웹 브라우저에서 localhost:5000을 열어주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-23-BuildingyourownwebsiteinUbuntu_2.png" />
 
@@ -101,7 +150,18 @@ flask run --app hello
 
 다음으로는 Nginx를 설정하여 역방향 프록시를 처리할 거에요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째 단계는 Nginx를 설치하는 것입니다.
 
@@ -115,7 +175,18 @@ sudo nginx -V
 
 ![이미지](/assets/img/2024-06-23-BuildingyourownwebsiteinUbuntu_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 반드시 보안을 위해 방화벽을 설치하는 것을 잊지 마세요.
 
@@ -130,8 +201,18 @@ sudo ufw allow from <router_ip> to any port 443
 
 다음으로, 서버를 온라인에서 액세스할 수 있도록 포트를 열어야 해요. 라우터 IP 주소로 이동해서 로컬 머신 IP 주소를 찾으세요. 저의 경우에는 192.168.20.4예요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-23-BuildingyourownwebsiteinUbuntu_4.png" />
 
@@ -141,9 +222,18 @@ sudo ufw allow from <router_ip> to any port 443
 
 서비스 이름, 로컬 머신 IP 주소 및 포트를 입력한 후 저장을 누릅니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Screenshot](/assets/img/2024-06-23-BuildingyourownwebsiteinUbuntu_6.png)
 
@@ -153,9 +243,18 @@ Once done, it should look like this. Please note that the display may vary depen
 
 After setting up nginx and opening the port, you can test accessing your machine online by searching for your public IP on Google as shown below:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-23-BuildingyourownwebsiteinUbuntu_7.png)
 
@@ -165,9 +264,18 @@ After setting up nginx and opening the port, you can test accessing your machine
 
 Nginx가 작동하면 사이트를 설정할 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 cd /etc/nginx/sites-enabled
@@ -198,12 +306,20 @@ server {
 
 그런 다음 Nginx 서버를 재시작하고 브라우저를 새로고침하세요.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 sudo systemctl restart nginx.service
-
 
 ![Building your own website in Ubuntu](/assets/img/2024-06-23-BuildingyourownwebsiteinUbuntu_8.png)
 

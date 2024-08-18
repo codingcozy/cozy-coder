@@ -3,7 +3,7 @@ title: "구글 AMP 비활성화 후에 트리뷴 퍼블리싱에서 일어난 �
 description: ""
 coverImage: "/assets/img/2024-08-03-WhathappenedwhenwedisabledGoogleAMPatTribunePublishingShockinglylittleSoyoushouldtryittoo_0.png"
 date: 2024-08-03 20:39
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-03-WhathappenedwhenwedisabledGoogleAMPatTribunePublishingShockinglylittleSoyoushouldtryittoo_0.png
 tag: Tech
 originalTitle: "What happened when we disabled Google AMP at Tribune Publishing Shockingly little So you should try it, too"
@@ -11,17 +11,24 @@ link: "https://medium.com/@kurtgessler/what-happened-when-we-disabled-google-amp
 isUpdated: true
 ---
 
-
-
-
-
 2021년 6월 알고리즘 업데이트를 앞두고 구글은 검색 순위 결정에 전반적인 페이지 경험을 강조하기 위해 올리는 앰프(AMP)를 선호하지 않겠다는 중요한 발표를 했습니다.
 
 AMP는 모바일 기기에서 성능을 높이기 위해 최적화된 가벼운 페이지를 제공하는 구글이 만든 오픈 소스 HTML 프레임워크입니다. 이는 효율적인 행동을 장려하면서 디자인을 제한하고 콘텐츠 수준의 페이지 경험을 통일시키는 특징을 가지고 있습니다. 2016년 최초로 등장한 AMP 페이지는 빠른 로딩 시간 뿐만 아니라 구글이 "상위 이야기" 캐러셀과 같은 주요 모바일 검색 위치에서 비-AMP 페이지를 차단함으로써 미국 대부분의 뉴스 발행인에 의해 빠르게 도입되었습니다.
 
 2017년 트위터도 iOS 및 Android 앱에서 AMP 페이지로 연결했습니다. AMP는 페이스북 인스턴트 아티클과 마찬가지로 어디에나 있었으며, 이로 인해 많은 발행사들이 거절할 수 없는 제안이 되었죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 2021년 5월 말에는 사용자 경험 제어를 잃었다는 계속된 불만과 구독 통합 악몽으로 구글은 2021년 6월 본격적인 알고리즘 업데이트에서 AMP 의무 사항을 종료할 것이라고 밝혔습니다.
 
@@ -31,7 +38,18 @@ AMP는 모바일 기기에서 성능을 높이기 위해 최적화된 가벼운 
 
 그러나 성공한 경우에는 온페이지 경험을 완전히 제어할 수 있을 뿐만 아니라 AMP를 유지하고 업데이트하는 기술 부채에 시달리지 않아도 될 것입니다. 이는 Barry Schwartz가 Search Engine Land에서 언급한 바와 같이 매력적인 제안이었습니다. 그리고 가장 중요한 것은, 우리의 모바일 웹 페이지가 방문자를 구독자로 전환하는 데 AMP보다 더 우수하다는 사실입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 커트오버
 
@@ -41,7 +59,18 @@ AMP는 모바일 기기에서 성능을 높이기 위해 최적화된 가벼운 
 
 ![그림](/assets/img/2024-08-03-WhathappenedwhenwedisabledGoogleAMPatTribunePublishingShockinglylittleSoyoushouldtryittoo_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 차트에 나와 있듯이, 일반적인 검색에서 약간의 전체 손실이 있었지만, AMP를 이용한 사용자들은 미끄러짐 없이 모바일 웹 검색 페이지로 이동했습니다. 전체적으로 1월 1일부터 7월 31일까지 중간 일일 검색 사용자는 AMP 이후에만 12.41% 감소했으며, 이 손실의 대부분은 1월의 연간 최고치에 기인합니다.
 
@@ -51,7 +80,18 @@ AMP는 모바일 기기에서 성능을 높이기 위해 최적화된 가벼운 
 
 볼티모어와 비슷하게, AMP가 중지되면 모바일 웹 검색이 그 부족을 메꾸었습니다. AMP 이후 중간 일일 모바일 검색 사용자는 16.23% 감소했는데, 전체적으로 지속적인 변동이 있었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4월 15일, 시카고 트리뷴에서 AMP가 비활성화되었습니다. 트리뷴은 AMP 사용률이 가장 낮았으며, 이동 키워드 검색 사용자 중 37.5%만이 AMP 페이지를 이용했습니다. 그러나 전체 검색 리퍼럴의 수준은 가장 높았습니다.
 
@@ -59,7 +99,18 @@ AMP는 모바일 기기에서 성능을 높이기 위해 최적화된 가벼운 
 
 마지막으로 4월 22일, 뉴욕 데일리 뉴스에서 AMP를 비활성화했습니다. 이는 위험부담이 가장 큰 제안이었으며, 이동 키워드 검색 사용자 중 73.4%가 AMP 페이지를 이용했습니다. 데일리 뉴스의 전체 검색 트래픽 중 모바일 사용량이 데스크탑 사용량보다 높습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 Markdown 형식으로 변경한 내용입니다.
 
@@ -71,8 +122,18 @@ AMP는 모바일 기기에서 성능을 높이기 위해 최적화된 가벼운 
 
 모든 요소를 고려할 때 깔끔한 검색 영향 분석을 수행하는 것은 불가능합니다. AMP를 폐지하는 동안 리디자인과 코드베이스 변경도 이뤄졌습니다. 우리는 장기간의 유기적 검색 하락 경향에서 벗어나고 있습니다. 뉴스 센트릭 사이트에서의 뉴스 피로가 얼마나 큰 영향을 미쳤을까요? 그리고 대부분 안정적이었지만, 일부 사이트에서는 2022년에 매월 게시되는 기사 수가 AMP 이후 줄어든 요인이 전반적인 검색 이전을 의미 있게 영향을 줄 수 있을 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-08-03-WhathappenedwhenwedisabledGoogleAMPatTribunePublishingShockinglylittleSoyoushouldtryittoo_5.png)
 

@@ -3,17 +3,13 @@ title: "윈도우 함수의 해부학"
 description: ""
 coverImage: "/assets/img/2024-06-19-AnatomyofWindowsFunctions_0.png"
 date: 2024-06-19 16:08
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-AnatomyofWindowsFunctions_0.png
 tag: Tech
 originalTitle: "Anatomy of Windows Functions"
 link: "https://medium.com/towards-data-science/anatomy-of-windows-functions-08f04938b12b"
 isUpdated: true
 ---
-
-
-
-
 
 ## 소극적으로 여겨지는 SQL 작업의 이론과 실무
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 IT 분야는 매일 새로운 도구, 새로운 프레임워크, 새로운 클라우드 제공업체, 그리고 새로운 LLM이 생성되는 등 끊임없는 변화로 유명합니다. 그러나 이 바쁜 세계에서도 몇 가지 원칙, 패러다임, 그리고 도구는 '모든 것이 영원하지 않다'는 상태 쿼를 도전하는 것처럼 보입니다. 특히 데이터 분야에서는 SQL 언어만큼 강제적인 예가 없습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 80년대에 탄생한 이후 데이터 웨어하우스 시대를 지나 Hadoop/Data-lake/Big Data로 활용되어 Hive로 거듭난 뒤 지금은 Spark API 중 하나로 살아 숨 쉬고 있어요. 세상은 많이 변했지만 SQL은 여전히 중요하고 존재감이 크죠.
 
@@ -33,7 +40,18 @@ IT 분야는 매일 새로운 도구, 새로운 프레임워크, 새로운 클�
 
 # 윈도우 함수란 무엇인가
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전통적이고 가장 유명한 SGBD(PostgreSQL, MySQL 및 Oracle)는 관계 대수 개념에 기반을 두고 있습니다. 여기에는 행이 튜플로 불리며 테이블은 관계로 불립니다. 관계란 튜플들의 집합으로, 즉 튜플 간의 순서 또는 연결이 없습니다. 그래서 테이블 내의 행에 대한 기본적인 순서가 없으며, 한 행에 수행된 계산은 다른 결과에 영향을 주지 않으며 다른 결과에도 영향을 받지 않습니다. ORDER BY와 같은 절조차도 테이블만을 정렬할 뿐, 다른 행의 값을 기반으로 한 행에서의 계산을 수행하는 것은 불가능합니다.
 
@@ -43,7 +61,18 @@ IT 분야는 매일 새로운 도구, 새로운 프레임워크, 새로운 클�
 
 1- 집계 함수 사용하지 않고 집계하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Windows 함수를 이해하는 가장 단순한 예는 '집계하지 않고 집계하는' 능력입니다.
 
@@ -55,7 +84,18 @@ Windows 함수를 이해하는 가장 단순한 예는 '집계하지 않고 집�
 SELECT SUM(value) AS total FROM myTable
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Windows 함수를 사용하면 아래와 같이 만들 수 있어요:
 
@@ -68,7 +108,18 @@ SELECT *, SUM(value) OVER() FROM myTable
 
 ![윈도우 함수의 구조](/assets/img/2024-06-19-AnatomyofWindowsFunctions_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로운 테이블을 생성하는 대신, 집계 값은 새로운 열에 반환됩니다. 값은 같지만 테이블이 '요약'되지 않았습니다. 원본 레코드가 유지되었고 계산된 집계를 집계하지는 않았다는 것을 주목하세요 ;)
 
@@ -78,7 +129,18 @@ OVER 절은 윈도우 함수를 생성함을 나타냅니다. 이 절은 계산�
 
 실제 케이스에서는 회사 부서별로 비용이 있는 예처럼 특정 카테고리에 대한 자세한 내용이 필요할 수 있습니다. 다시 말해서, 각 부서별 총 지출을 간단한 GROUP BY로 얻을 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 myTable에서 depto 및 총합(value)을 그룹화하여 SELECT합니다.
@@ -90,8 +152,18 @@ myTable을 PARTITION BY depto로 지정하여 SELECT 및 SUM(value)을 실행합
 결과를 확인하세요.
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![AnatomyofWindowsFunctions_2](/assets/img/2024-06-19-AnatomyofWindowsFunctions_2.png)
 
@@ -101,8 +173,18 @@ myTable을 PARTITION BY depto로 지정하여 SELECT 및 SUM(value)을 실행합
 
 2 — 시간과 순서의 인식
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가끔은 다른 행의 값에 기반하여 하나의 행 안의 열의 값을 계산해야 할 때가 있습니다. 전형적인 예로 현재 값과 이전 값에서 계산한 국가의 GDP의 연간 증가율이 있습니다.
 
@@ -112,11 +194,22 @@ myTable을 PARTITION BY depto로 지정하여 SELECT 및 SUM(value)을 실행합
 
 ![테이블 스냅샷](/assets/img/2024-06-19-AnatomyofWindowsFunctions_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-SELECT 
-  year, height, 
+SELECT
+  year, height,
   LAG(height) OVER (ORDER BY year) AS height_last_year
 FROM myTable
 ```
@@ -127,13 +220,23 @@ LAG('column') 함수는 이전 행의 'column' 값을 참조하는 역할을 합
 
 전통적인 SQL 함수와 대조적으로 분석 함수(LAG과 같은)는 행들 사이에 순서가 존재한다고 가정합니다 — 이 순서는 OVER() 안에 있는 ORDER BY 절에 의해 정의됩니다, 즉, 처음, 두 번째, 세 번째 행 등의 개념은 OVER 키워드 내에서 정의됩니다. 이러한 함수들의 주요 특징은 현재 행과 상대적인 다른 행을 참조할 수 있는 능력입니다: LAG는 이전 행을 참조하고, LEAD는 다음 행을 참조하고, FIRST는 분할 내 첫 번째 행을 참조하고, 등등이 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LAG 및 LEAD의 멋진 점 중 하나는 두 번째 인수인 오프셋을 받아들인다는 것입니다. 이 오프셋은 LEAD의 경우 앞으로 몇 개의 행(LEAD) 또는 뒤로 몇 개의 행(LAG)을 살펴볼지를 지정합니다.
 
 ```js
-SELECT 
+SELECT
     LAG(height,  2) OVER (ORDER BY year) as height_two_years_ago,
     LAG(height,  3) OVER (ORDER BY year) as height_three_years_ago,
     LEAD(height)    OVER (ORDER BY year) as height_next_year
@@ -143,17 +246,28 @@ FROM ...
 또한 이러한 함수들로 계산을 수행하는 것도 완벽하게 가능합니다:
 
 ```js
-SELECT 
-    100*height/(LAG(height) OVER (ORDER BY year)) 
+SELECT
+    100*height/(LAG(height) OVER (ORDER BY year))
     AS "annual_growth_%"
 FROM ...
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3 - 시간 인식과 집계
 
-시간과 공간은 하나라고 아인슈타인이 한번 말했던 적이 있는데, 그런 느낌인 것 같아요. 잘 모르겠어요 ¯\_(ツ)_/¯
+시간과 공간은 하나라고 아인슈타인이 한번 말했던 적이 있는데, 그런 느낌인 것 같아요. 잘 모르겠어요 ¯\_(ツ)\_/¯
 
 이제 파티션 분할과 정렬하는 방법을 알았으니, 두 가지를 함께 사용할 수 있어요! 이전 예제로 돌아와서, 그 표 위에 더 많은 아이들이 있다고 상상해 봅시다. 우리는 각 아이의 성장률을 계산해야 할 때가 왔어요. 매우 간단해요. 정렬과 파티션을 결합해 보세요! 년도별로 정렬하고 아이 이름별로 파티션하면 되겠네요.
 
@@ -161,7 +275,18 @@ FROM ...
 SELECT 1-height/LAG(height) OVER (ORDER BY year PARTITION BY name) ...
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-AnatomyofWindowsFunctions_4.png" />
 
@@ -171,7 +296,18 @@ SELECT 1-height/LAG(height) OVER (ORDER BY year PARTITION BY name) ...
 
 4-순위 및 위치
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Windows 함수는 세 가지 카테고리로 나뉠 수 있는데, 그 중 두 가지에 대해 이미 이야기했습니다: 집계 함수 ( COUNT, SUM, AVG, MAX, ... )와 분석 함수 ( LAG, LEAD, FIRST_VALUE, LAST_VALUE, ... ).
 
@@ -183,7 +319,18 @@ SELECT row_number() OVER(ORDER BY score)
 
 순위 함수는 이름에서 알 수 있듯이 그룹 내 라인의 위치에 따라 값이 반환되며, 정렬 기준에 따라 정의된 그룹입니다. ROW_NUMBER, RANK 및 NTILE이 가장 많이 사용되는 함수 몇 가지입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 이미지에서 각 플레이어의 점수에 기반한 행 번호가 생성됩니다.
 
@@ -191,7 +338,18 @@ SELECT row_number() OVER(ORDER BY score)
 
 5-창 크기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재까지 소개된 모든 함수들은 결과를 계산할 때 파티션/그룹 내의 모든 행을 고려합니다. 예를 들어, 첫 번째 예제에서 설명한 SUM() 함수는 총계를 계산할 때 모든 부서의 행을 고려합니다.
 
@@ -205,7 +363,18 @@ SELECT
 OVER (ORDER BY date_reference)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 더 우아하게 동일한 결과를 얻을 수 있습니다. 프레임 개념을 사용하여:
 
@@ -214,7 +383,7 @@ SELECT
 AVG(n_cases)
 OVER (
  ORDER BY date_reference
- ROWS BETWEEN 2 PRECEDING AND CURRENT ROW 
+ ROWS BETWEEN 2 PRECEDING AND CURRENT ROW
 )
 ```
 
@@ -228,7 +397,18 @@ OVER (
 )
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 Markdown 형식으로 변경하세요.
 
@@ -243,7 +423,18 @@ ROWS BETWEEN UNBOUDED PRECEDING AND CURRENT ROW
 
 이 소개가 윈도우 함수가 무엇이고, 어떻게 작동하며, 실제 구문은 어떻게 되는지 더 잘 이해하도록 도와드리기를 바랍니다. 당연히 윈도우 함수에는 많은 다른 키워드가 추가될 수 있지만, 이미 다룬 명령어들이 일상 생활에서 많이 사용될 것으로 생각합니다. 이제 제가 일상에서 문제를 해결하기 위해 사용하는 흥미로운 실용적인 응용 프로그램 중 일부를 살펴보겠습니다 — 아주 흥미로운 것들이 있답니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Windows 함수의 흥미로운 사용 사례
 
@@ -253,7 +444,18 @@ ROWS BETWEEN UNBOUDED PRECEDING AND CURRENT ROW
 
 매월 당신의 급여가 나와 있는 표가 있다고 상상해보세요. 각 달에 얼마를 벌었는지 누적으로 알고 싶다면(이전 달 모두를 고려하여), 이것이 작동하는 방식입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아주 쉽죠?
 
@@ -261,7 +463,18 @@ ROWS BETWEEN UNBOUDED PRECEDING AND CURRENT ROW
 
 ## 로그 테이블의 이벤트 지속 시간
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제가 최근에 작성한 포스트인 "덕DB의 My First Billion (of Rows)"에서는 브라질의 전자 투표 기계에서 로그를 조작하는 내용을 다뤘어요. 대량의 데이터 처리에 관심이 있다면 한 번 확인해보세요.
 
@@ -271,7 +484,18 @@ ROWS BETWEEN UNBOUDED PRECEDING AND CURRENT ROW
 
 ## 누락된 값 채우기 (마지막 발생으로)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 판다스를 활용한 머신 러닝 클래식! fillna, bfill 또는 다른 방법으로 널 값을 채우는 것만으로도 데이터 처리를 해결할 수 있어요.
 
@@ -281,7 +505,18 @@ SQL에서는 이를 어떻게 할까요? 간단해요!
 
 머신 러닝을 처음 공부할 때는 판다스와 같은 고수준의 함수들을 많이 사용하곤 해요. 하지만 실제 프로젝트를 진행할 때는 데이터 양이 매우 많아 판다스를 사용할 수 없는 경우가 많아요. 그럴 때는 PySpark, Snowflake, Hive+hadoop 등의 도구를 사용해야 하는데, 이들은 어떤 식으로든 SQL에서 작업이 가능해요. 그렇기 때문에 SQL에서 이러한 처리와 전처리를 어떻게 하는지 배우는 것이 중요하다고 생각해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 누락된 값 채우기 (앞 행의 평균으로)
 
@@ -291,7 +526,18 @@ SQL에서는 이를 어떻게 할까요? 간단해요!
 
 이 예는 윈도우 함수가 복잡하고 특별한 것으로 보일지라도 일반 열처럼 사용할 수 있다는 것을 강조합니다! CASE에 포함시킬 수 있고, 계산에 활용할 수 있습니다. 알고 있는 제한 사항 중 일부는 WHERE 절에 직접적으로 배치할 수 없다는 것뿐입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```sql
 SELECT * FROM
@@ -304,7 +550,18 @@ WHERE SUM() OVER() > 10 -- 이 기능은 postgres에서는 불가능합니다.
 
 물론 SQL에서는 DISTINCT 절을 사용할 수 있지만, 이는 전체 행이 중복될 때만 작동합니다. 테이블에 같은 ID 열의 값이지만 나머지 열에서는 다른 값이 있는 여러 행이 있는 경우 다음 로직을 사용하여 중복을 제거할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-AnatomyofWindowsFunctions_11.png" />
 
@@ -324,19 +581,41 @@ SELECT
     *
 FROM
 (
-  SELECT 
-    name, 
+  SELECT
+    name,
     row_number() OVER (PARTITION BY id ORDER BY DATE DESC) AS row_number
   FROM myTable
 ) AS subquery
 WHERE row_number = 1
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <table> 태그를 Markdown 형식으로 변경해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 여러분, Windows 함수의 흥미로운 케이스가 있나요? 공유하고 싶은 내용이 있다면 댓글에 남겨주세요!
 
@@ -346,7 +625,18 @@ SQL이 고전적이거나 클래식하다고 말할 수 없겠죠. 이런 용어
 
 그렇지만 SQL로만 해결하기 어려운 문제들이 몇 가지 있을 수도 있습니다. 이럴 때는 언어와 그 능력에 대한 좋은 이해가 정말 중요합니다. Windows 함수가 없다면, Python 관점에서는 보편적으로 간주되는 많은 문제들이 매우 어려우거나 심지어 불가능할 수도 있습니다. 하지만 우리가 도구를 올바르게 사용하는 방법을 안다면 마법을 부릴 수 있습니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 게시물이 Windows 기능이 작동하는 방식과 실제로 해결할 수 있는 문제 유형을 더 잘 이해하는 데 도움이 되었으면 좋겠습니다. 여기에 제시된 모든 자료는 주로 PostgreSQL 구문을 기반으로 하고 있으며, 다른 데이터베이스에서는 바로 작동하지 않을 수 있지만 가장 중요한 것은 논리 자체입니다. 항상 전문가가 아니며, 해당 주제에 관심이 있는 모든 분들에게 깊이 있는 학습 및 많은 실습을 권장합니다.
 
@@ -362,6 +652,17 @@ SQL이 고전적이거나 클래식하다고 말할 수 없겠죠. 이런 용어
 [6] 윈도우 함수. (미상). SQLite 공식 문서.
 [7] 윈도우 함수. (2014, July 24). PostgreSQL 문서.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 게시물의 모든 이미지는 저자가 제작했습니다.

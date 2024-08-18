@@ -3,17 +3,13 @@ title: "크로셰를 내재를 탐구하는 도구로 활용하는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-19-HowtoUseCrochetAsaToolforIntrospection_0.png"
 date: 2024-06-19 18:07
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-HowtoUseCrochetAsaToolforIntrospection_0.png
 tag: Tech
 originalTitle: "How to Use Crochet As a Tool for Introspection"
 link: "https://medium.com/the-diy-diaries/how-to-use-crochet-as-a-tool-for-introspection-f87526b2e927"
 isUpdated: true
 ---
-
-
-
-
 
 ## DIY
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 수천 명의 구독자를 보유한 YouTube 채널과, 책, 그리고 아마도 아직 발견하지 못한 것들까지 크로셰의 모든 이점에 대해 가르치거나 논하는 것들이 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 크로셰는 종종 "단지" 취미 또는 창의적인 발산으로 생각되지만, 우리는 주로 우리의 할머니들이나 어릴 적 우리 자신이 재미로 크로셰를 하던 것을 떠올립니다. 그러나 크로셰는 내성과 자아 발견을 위한 강력한 도구로 작용할 수도 있습니다. 왜냐하면 갈고리를 통해 양을 루핑하는 리듬적인 움직임을 통해 자신의 생각, 감정 및 가장 내적인 반성에 깊이 파고들 수 있는 독특한 기회가 있다는 것이기 때문입니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 작년에, 당시 여덟 살이던 아들이 크로셰를 배우는 방법을 찾아올립니다. 저의 여동생이 그를 위해 몇 가지를 뜨개질하여 아들과 또 다른 아들을 위해 몇 가지를 만들어 주었고, 그는 자신의 장난감을 만들기에 매우 호기심 많고 열정적이 되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모씨 엄마와 함께 매일 등교하면서 우연히 우리는 짜기와 뜨개질하는 곳의 문 앞을 지나가게 됐어요. 그래서 아들과 함께 그 모임에 가입할 날이 왔네요.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 # 동기화
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 팔월까지면 내 아들이 뜨을 잊고 학교에 가면 뜨에 흥미를 떨치지 않을 것이라고 생각했어. 그런데 의왹에 반했대. 문제는 뜨가 여전히 주로 40대 후반 여성들이 하는 활동임을 나타내는 것이었어. 여름에는 몇몇 사람만 있는데 구월에는 수다스럽고 바쁜 여성들로 가득 찼어. 그래서 그가 여기서 너무 압도되었고, 여기서 내가 나섰지.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 # 외상으로부터 회복하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나는 사람들과의 관계가 서서히 나빠지고 있다는 것을 인지해야 했지만 그 사실을 깨닫지 못했습니다. 팬데믹 기간 동안 내 언어학교를 폐쇄했을 때 문제가 드러나기 시작했습니다.
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 지난 4년간 신규 사업 아이덴티티를 찾는 것이 내 주요 목표였고, 많은 외부 지원을 통해 극복하고 있긴 하지만 아직 나 혼자서 할 일이 남아 있답니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 분석가가 확인해준대로, 나는 존재적 위기를 겪고 있었어요.
 
@@ -73,7 +124,18 @@ isUpdated: true
 
 사교적인 측면 뿐만 아니라, 이전에 언급한 것처럼, 크로셰는 또한 나를 내 어린 시절과 다시 연결시켜주고 있습니다. 이것은 정신과 분석 심리학자 칼 G. 정을 공부하면서 함께 온 동기적인 일이었어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그의 책인 "추억, 꿈 그리고 반영"에서는 어른이 된 그가 어린이 놀이를 하면서 자신만의 신화를 "발견"하게 된 순간에 대해 이야기합니다. 그는 다시 자신의 건설 게임을 하는 것이 "환상의 흐름을 풀어" 주고, 이후에는 "적은 것"이 되었던 것을 알게 되었으며, 이것이 평생 계속되는 전 과정의 시작이 되었습니다.
 
@@ -83,7 +145,18 @@ isUpdated: true
 
 분석심리학은 무의식의 탐구와 자아의 다른 측면을 통합하는 것을 강조합니다. 창조적이고 예술적인 작품은 우리를 무의식의 부분과 매우 섬세한 방법으로 연결하게 하는 운동들입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 다시 취미로 니팅을 시작한 이후 느꼈던 혜택들 중 몇 가지를 소개해드릴게요. 여러분에게도 도움이 될 수 있기를 바라며요:
 
@@ -97,7 +170,18 @@ isUpdated: true
 
 가끔 우리의 깊은 문제의 해법이 우리 안에 있다는 것을 깨닫지 못할 때가 있죠. 이런 경우, 어린 시절부터 알고 있는 활동, 이 경우에는 니팅 속에 있을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 다시 시작하는 옛 취미나 처음 배우기로 결정한 익숙한 것들은 종종 더 깊은 수준에서 무언가를 의미합니다.
 
@@ -107,6 +191,17 @@ isUpdated: true
 
 생각해야 할 유일한 것은 당신의 창작물과 당신이 뭘 만들고 있는지에 대한 감정입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제가 하는 일과 다른 사람들이 여정에 잘 적응하도록 어떻게 도와주는지 더 알고 싶다면, 제 '소개' 페이지를 방문해주세요:

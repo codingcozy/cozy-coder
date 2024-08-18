@@ -3,17 +3,13 @@ title: "AI 아트 프롬프트의 구성 요소 분석"
 description: ""
 coverImage: "/assets/img/2024-06-22-TheAnatomyofanAIArtPrompt_0.png"
 date: 2024-06-22 21:46
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-TheAnatomyofanAIArtPrompt_0.png
 tag: Tech
 originalTitle: "The Anatomy of an AI Art Prompt"
 link: "https://medium.com/@pdelsignore/the-anatomy-of-an-ai-art-prompt-dcf7d124406d"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-06-22-TheAnatomyofanAIArtPrompt_0.png)
 
@@ -23,7 +19,18 @@ UI 도구를 사용하여 프롬프트를 작성할 수 있지만, 자신의 프
 
 물론 모든 지침을 따르지 않고도 놀라운 결과물을 얻을 수 있습니다. 단순한 단어나 구절에서 생성된 멋진 이미지를 보았습니다. 그러나 일관성을 원하고 결과물을 향상시키려면 AI가 언어 패턴에 어떻게 응답하는지 배워야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나는 커뮤니티 포럼과 디스코드 채널에서 팔로우하는 AI 아티스트들이 이 기술을 숙달했으며, 그들이 어떻게 프롬프트를 작성하는지 공부하는 것이 나의 프롬프트 작성 능력 향상에 도움이 되었습니다.
 
@@ -33,7 +40,18 @@ UI 도구를 사용하여 프롬프트를 작성할 수 있지만, 자신의 프
 
 나는 프롬프트의 해부학을 네 가지 구분으로 생각하고 특정한 순서로 배치하는 것을 좋아합니다 (순서가 출력물의 AI 우선 순위에 영향을 미침을 주의하세요).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 콘텐츠 유형
 - 설명
@@ -46,7 +64,18 @@ UI 도구를 사용하여 프롬프트를 작성할 수 있지만, 자신의 프
 
 미술 작품을 만드는 방식을 고려할 때, 먼저 생각해야 할 것은 어떤 유형의 작품을 만들고 싶은지입니다. 사진, 드로잉, 스케치 또는 3D 렌더 중 어느 것인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 네 아래와 같이 시작하시면 됩니다.
 
@@ -58,7 +87,18 @@ UI 도구를 사용하여 프롬프트를 작성할 수 있지만, 자신의 프
 
 설명은 주제, 주제 특성 및 환경/장면을 정의하는 것을 의미합니다. 형용사를 사용하여 더 구체적으로 설명할수록 결과물이 더 좋아집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단한 설명은 이렇게 생겼을 거에요…
 
@@ -70,7 +110,18 @@ UI 도구를 사용하여 프롬프트를 작성할 수 있지만, 자신의 프
 
 ![image](/assets/img/2024-06-22-TheAnatomyofanAIArtPrompt_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 나은 설명은 환경/장면 설명과 함께 주제 속성을 추가하는 것입니다.
 
@@ -82,7 +133,18 @@ UI 도구를 사용하여 프롬프트를 작성할 수 있지만, 자신의 프
 
 ![이미지](/assets/img/2024-06-22-TheAnatomyofanAIArtPrompt_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 이미지 URL과 함께 텍스트 설명을 포함하여 시각적 영감으로 활용할 수 있습니다.
 
@@ -92,7 +154,18 @@ UI 도구를 사용하여 프롬프트를 작성할 수 있지만, 자신의 프
 
 이 예시에서는 적용되지 않지만, 설명에 중요한 측면 중 하나는 포착하려는 시대나 역사적 시기입니다. 따라서 해당 이미지에 사람이나 건물이 있는 경우 "언제"라는 맥락이 중요할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 원시 사회, 고대, 중세, 르네상스, 현대 세계, 현대, 미래
@@ -104,7 +177,18 @@ UI 도구를 사용하여 프롬프트를 작성할 수 있지만, 자신의 프
 
 조명, 디테일 및 아트 스타일.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 조명에 사용할 수 있는 단어 몇 가지가 있어요:
 
@@ -116,21 +200,39 @@ UI 도구를 사용하여 프롬프트를 작성할 수 있지만, 자신의 프
 
 여기 세부사항에 사용할 수 있는 몇 가지 단어가 있어요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 고도로 세밀하고 질감이 풍부한, 현실적인, 언리얼 엔진, 옥타네 랜더, 보케, Vray, 후디니 랜더, 퀵셀 메가스캔, 초점 깊이(또는 DoF), 아놀드 랜더, 8K UHD, 광선 추적, CGI, 루멘 반사, CGSociety, 초 현실적인, 부피적 안개, 오버글라즈, 아날로그 사진, 폴라로이드, 100mm, 필름 사진술, DSLR, Cinema4D, 스튜디오 품질
-
 
 미술 양식은 다른 기술들의 설명일 수도 있고, 역사적인 미술 장르로 정의될 수도 있어요.
 
 다음은 역사적 미술 양식을 위한 단어들입니다:
 
-
 추상, 중세 미술, 르네상스, 바로크, 로코코, 신고전주의, 낭만주의, 인상파, 후기 표현주의, 쿠비즘, 퓨처리즘, 아르트 데코, 추상표현주의, 현대, 팝 아트, 초현실주의, 판타지
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아름다운 기술과 자료에 관한 몇 가지 용어들입니다:
 
@@ -144,8 +246,18 @@ UI 도구를 사용하여 프롬프트를 작성할 수 있지만, 자신의 프
 안개 낀 숲 속에서 분노한 전신 늑대의 사진, 황혼, 언리얼 엔진, 8K
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-06-22-TheAnatomyofanAIArtPrompt_3.png)
 
@@ -158,7 +270,18 @@ UI 도구를 사용하여 프롬프트를 작성할 수 있지만, 자신의 프
 안개 낀 숲 속에서 성난 전신 통통한 늑대의 사진, 팝 아트
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스타일이 결과물에 미치는 영향을 확인할 수 있습니다:
 
@@ -168,7 +291,18 @@ UI 도구를 사용하여 프롬프트를 작성할 수 있지만, 자신의 프
 
 미술 스타일에 관한 가장 인기 있는 형태는 AI가 정말 좋아하는 아티스트 이름의 사용입니다. 스타일 변화를 탐구하기 위해 둘 이상의 아티스트 이름을 사용하는 것도 일반적입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기를 클릭하면 Midjourney 커뮤니티가 유지하는 놀라운 예술가와 스타일 자원이 나옵니다.
 
@@ -180,7 +314,18 @@ UI 도구를 사용하여 프롬프트를 작성할 수 있지만, 자신의 프
 알렉스 홀리-오를란델리에 의한 안개 낀 숲 속의 화난 늑대 사진, 바스티앙 르쿠프-드하름, 황혼, 세피아,
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 이것이 결과입니다:
 
@@ -190,7 +335,18 @@ UI 도구를 사용하여 프롬프트를 작성할 수 있지만, 자신의 프
 
 남은 요소는 구성이며 이는 ...
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 화면 비율, 카메라 뷰 및 해상도.
 
@@ -200,7 +356,18 @@ UI 도구를 사용하여 프롬프트를 작성할 수 있지만, 자신의 프
 
 ![이미지](/assets/img/2024-06-22-TheAnatomyofanAIArtPrompt_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 카메라 시점은 이미지의 관점에 관한 것입니다. 여러분의 작품은 가까이서 찍은 사진이나 광각 사진, 피시아이, 등과 같이 어떤 시점을 선택할 건가요?
 
@@ -208,11 +375,20 @@ UI 도구를 사용하여 프롬프트를 작성할 수 있지만, 자신의 프
 
 다음은 카메라 시점에 사용할 수 있는 몇 가지 단어입니다.
 
-
 울트라 광각, 광각, 항공 시점, 대규모 규모, 길거리 수준, 풍경, 파노라마, 보케, 피시아이, 네덜란드각, 저각도, 초장거리 샷, 장거리 샷, 가까이서 촬영, 극한 가까이서 촬영
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상세, 품질 및 원하는 크기에 대한 해상도를 적용할 것입니다. 해상도에 사용할 수 있는 단어는 다음과 같습니다:
 
@@ -224,7 +400,18 @@ UI 도구를 사용하여 프롬프트를 작성할 수 있지만, 자신의 프
 
 MidJourney, Stable Diffusion 및 DALL-E 2와 같은 각 AI 생성기는 결과물을 더욱 정교하게 만들기 위한 추가 명령 매개변수를 갖게 됩니다. 예를 들어, Midjourney는 다음과 같은 추가 매개변수를 가지고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 --beta = 더 높은 품질의 출력을 위한 실험 알고리즘
@@ -241,7 +428,18 @@ MidJourney, Stable Diffusion 및 DALL-E 2와 같은 각 AI 생성기는 결과�
 
 이 프롬프트 생성 과정을 통해 도움이 되었기를 바랍니다. 프롬프트를 배열하는 방법을 이해하고 나면 정말 재미있을 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요청 내용의 해부학 분석을 여기 안내해 드리겠어요:
 
@@ -251,7 +449,18 @@ MidJourney, Stable Diffusion 및 DALL-E 2와 같은 각 AI 생성기는 결과�
 
 프롬프트 작성은 계속 발전하는 기술이지만, 반드시 필요한 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 이 기사를 좋아하셨다면, 조금의 Medium 사랑을 표현해 주세요... 박수를 치거나 댓글을 달아 주시고, 반드시 팔로우해 주세요.
 

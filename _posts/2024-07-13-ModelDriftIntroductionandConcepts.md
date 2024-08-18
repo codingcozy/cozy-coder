@@ -3,17 +3,13 @@ title: "모델 드리프트 입문 및 개념 이해하기"
 description: ""
 coverImage: "/assets/img/2024-07-13-ModelDriftIntroductionandConcepts_0.png"
 date: 2024-07-13 02:46
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-ModelDriftIntroductionandConcepts_0.png
 tag: Tech
 originalTitle: "Model Drift Introduction and Concepts"
 link: "https://medium.com/towards-data-science/model-drift-introduction-and-concepts-e32c5305da2a"
 isUpdated: true
 ---
-
-
-
-
 
 그 카드 그림을 Markdown 형식으로 변경해주세요.
 
@@ -25,7 +21,18 @@ isUpdated: true
 - 모델은 운영 환경으로 들어간 후에 다르게 동작해요 (일반적으로 좀 더 나빠져요).
 - 시간이 지남에 따라 모델의 성능이 저하되어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 몇 년이 지난 후에는 모델의 성능이 처음에 개발했을 때보다 훨씬 나쁠 가능성이 높습니다. 이는 다양한 이유로 발생할 수 있지만, 근본적인 원인은 세상이 변화하기 때문입니다.
 
@@ -35,7 +42,18 @@ isUpdated: true
 
 # 데이터 분포 변화
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Data distribution shift은 모델 드리프트의 가장 흔한 원인입니다.
 
@@ -45,7 +63,18 @@ Data distribution shift은 모델 드리프트의 가장 흔한 원인입니다.
 
 앱 이탈이란 고객이 서비스 이용을 중단하기로 결정하는 행위를 말합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 뭐야, 친구! 시간 t에 모델을 개발했던 기억이 나? 이제 한 해 후에 사용자 그룹의 연령 분포가 아래처럼 변할 거라고 상상해 봐봐:
 
@@ -55,7 +84,18 @@ Data distribution shift은 모델 드리프트의 가장 흔한 원인입니다.
 
 이 효과는 특히 feature 분포에 높이 의존하는 모델을 사용할 때 심화돼. (예를 들어, 트리 기반 모델은 가지 자르기를 하기 위해 분포 샘플 크기를 사용해.)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 수백 가지의 특성을 갖는 모델들을 고려해 보세요. 각 특성이 분포 변화로 인해 영향을 받을 것입니다. 이는 여러분의 모델에 엄청난 영향을 미칠 수 있어요.
 
@@ -67,7 +107,18 @@ Data distribution shift은 모델 드리프트의 가장 흔한 원인입니다.
 
 MLFlow나 Azure Machine Learning Studio와 같은 모니터링 도구를 사용하면 특성 데이터 분포를 추적할 수 있어요. 이러한 도구를 사용하면 특정 분포 변화를 기반으로 모델을 자동으로 재학습하기도 매우 편해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 엣지 케이스
 
@@ -77,7 +128,18 @@ MLFlow나 Azure Machine Learning Studio와 같은 모니터링 도구를 사용�
 
 이러한 엣지 케이스 상황은 매우 명백하지만, 때로는 엣지 케이스를 식별하기가 더 어려울 수 있습니다. 일반적으로 우리가 다루는 기본 현상에 대한 심층적인 이해력이 필요합니다. 그럼에도 불구하고 할 수 있는 몇 가지 조치가 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 분포를 확인하는 것 외에도 변수에서 명백한 이상점을 확인하세요. 우리가 보통 유일한 차원의 가장자리 경우라고 부르는 것이에요.
 - 또한, 변수와 특징들의 조합을 살펴보세요. 이들이 함께 볼 때 가장자리 걸림돌이 될 수 있어요. 보통 우리는 이를 다중 차원의 가장자리 경우라고 부르죠.
@@ -88,7 +150,18 @@ MLFlow나 Azure Machine Learning Studio와 같은 모니터링 도구를 사용�
 
 특정 시나리오에서는 모델이 다른 모델의 기능이나 심지어 자체 기능에 영향을 미칠 수 있어요, 시계열 모델의 경우처럼요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반적으로 모델 출력이 특징으로 작동하는 경우, 이는 어느 정도의 피드백 루프를 생성할 것입니다. 모델의 출력 값을 확인하고 분포를 계속 추적한다면 피드백 루프 발생 가능성을 이해하는 데 충분할 것입니다.
 
@@ -98,7 +171,18 @@ MLFlow나 Azure Machine Learning Studio와 같은 모니터링 도구를 사용�
 
 모델 개발 파이프라인에서 일반적으로 결측값 보완과 관련된 단계를 수행하며, 모델이 존재하지 않는 정보를 처리할 수 있도록 합니다. 모델 개발 중에는 특징들의 결측값 개수를 검토하고, 해당 열의 결측 데이터 비율이 특정 임계값 아래로 떨어질 때만 이를 처리하고 그 값을 초과할 경우 특징을 버리는 것이 일반적인 실천 방법입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로덕션 환경에 모델을 적용하면서 일반적으로 한 가지 문제가 발생합니다. 그 중 하나의 피처가 예상보다 더 많은 결측값을 받기 시작할 때 어떻게 될까요? 결국 여러분은 결측 정보(및 보완 방법)을 주로 기반으로 예측하게 됩니다!
 
@@ -108,7 +192,18 @@ MLFlow나 Azure Machine Learning Studio와 같은 모니터링 도구를 사용�
 
 분포 추적만으로는 결측값을 피처로 사용하는 상황을 알아내는 데 충분하지 않습니다. 파이프라인에서 보완 단계 이전에 모델로 들어가는 결측값의 %를 명시적으로 모니터링해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이상입니다! 이 포스트를 읽어주셔서 감사합니다. 모델 드리프트는 최근에 활발히 연구되고 있는 분야 중 하나입니다. 즉, 자동 트리거를 사용하여 모델을 다시 학습시키거나 처음부터 새로운 모델을 학습해야 하는지 이해하는 방법에 대해 연구하고 있습니다.
 
@@ -120,7 +215,18 @@ MLFlow나 Azure Machine Learning Studio와 같은 모니터링 도구를 사용�
 
 다음 포스트에서 만나요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제 유튜브 채널, Udemy 프로필 또는 서브스택을 방문해 주세요:
 

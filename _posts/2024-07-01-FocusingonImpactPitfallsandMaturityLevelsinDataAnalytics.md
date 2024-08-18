@@ -3,17 +3,13 @@ title: "데이터 분석의 함정과 성숙도 레벨 성과를 중심으로"
 description: ""
 coverImage: "/assets/img/2024-07-01-FocusingonImpactPitfallsandMaturityLevelsinDataAnalytics_0.png"
 date: 2024-07-01 21:37
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-01-FocusingonImpactPitfallsandMaturityLevelsinDataAnalytics_0.png
 tag: Tech
 originalTitle: "Focusing on Impact: Pitfalls and Maturity Levels in Data Analytics"
 link: "https://medium.com/philips-technology-blog/focusing-on-impact-pitfalls-and-maturity-levels-in-data-analytics-d47698235094"
 isUpdated: true
 ---
-
-
-
-
 
 매일 데이터와 AI 전문가들에게 수많은 도전이 찾아옵니다. 기술의 영향력이 커지면서 분석 팀은 기업에 미치는 영향을 계속 증명해야 합니다. 필립스의 데이터 분석 분야에서 일하는 나는 상업적으로 초점을 맞춘 데이터 팀의 가장 흔한 관찰 결과를 공유하고, 회사 내 신뢰 강화를 위한 세 가지 실용적인 권고 사항을 제공하고 싶습니다:
 
@@ -25,7 +21,18 @@ isUpdated: true
 
 이러한 기본 문제 영역을 보다 자세히 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Domain Knowledge, Business Relevance, and Expectations
 
@@ -36,7 +43,18 @@ Leandro Carvalho가 데이터 제품 캔버스 기사에서 요약한 바에 따
 
 데이터 분석에서 종종 비즈니스 요구 사항의 진정한 본질이 표면적 요청 아래에 감추어져 있을 수 있습니다. 중요한 것은 더 깊이 파고 들어가 궁금증의 문화를 유지하여 이러한 요구 사항의 근본 원인을 찾아내는 것입니다. 테스트된 방법론은 근본적인 문제가 드러날 때까지 계속해서 “왜”라는 질문을 하는 겁니다. 예를 들어, 누군가 새로운 데이터 제품을 요청한다면 “왜 X가 필요한가요/원하시는가요/X를 할 수 없는 이유가 무엇인가요?”와 같은 질문을 통해 가치 있는 통찰력을 얻을 수 있습니다. 이 반복적인 과정을 통해 데이터 팀은 비즈니스 부서나 제품 그룹이 직면한 실제 도전과 요구 사항을 발견할 수 있습니다. 이러한 세세한 점을 이해함으로써 데이터 팀은 비즈니스의 특정한 요구 사항에 효과적으로 대응할 수 있는 솔루션을 개발할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 팀 내에서 도메인 전문 지식이 부족한 경우 진전을 방해하는 또 다른 장애가 될 수 있습니다. 조직적인 격리나 분석 프로세스에 도메인 지식을 통합하지 못한 실패 등으로 인해, 이 결핍은 행동 가능한 통찰력을 생산하는 팀의 능력을 저해할 수 있습니다. 산업과 비즈니스 역학에 대한 심도 있는 이해 없이 데이터 분석이 핵심 요소를 간과하거나 트렌드를 오해할 수 있습니다. 이러한 요구는 JP Morgan, Delivery Hero, Intuit 등 다양한 산업에 데이터 메시/허브-앤-스포크 구조의 등장으로 이어졌습니다. 이 아이디어는 간단합니다: 중앙에서 인프라와 데이터 플랫폼을 제공하면서 (허브), 비즈니스 지식을 데이터 제품에 통합하려면 비즈니스 팀이 이를 분산 방식으로 책임져야 합니다 (스포크). 이는 협력과 신뢰를 촉진합니다.
 
@@ -46,7 +64,18 @@ Leandro Carvalho가 데이터 제품 캔버스 기사에서 요약한 바에 따
 
 두 번째 어려움의 영역은 데이터 자체를 중심으로 합니다. 분석가가 자주 마주치는 도전 중 하나는 사용하는 데이터의 신뢰성을 보장하는 것입니다. 의미 있는 분석을 위해 정확한 데이터에 대한 접근이 중요하지만, 많은 분석가들이 데이터 품질과 접근성에 관련된 장애물에 직면하고 있습니다. 환경이 커지면, 어떤 데이터가 존재하는지 또는 누구에게 물어야 하는지 모르는 위험성도 높아지며, 분석을 위한 데이터가 좋은 상태가 아닌 위험도 높아집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 신뢰는 중요합니다. 원시 데이터가 신뢰할 수 없다고 여겨지면 분석 결과에 의심이 들어 스테이크홀더들의 회의를 불러일으키고, 데이터 팀의 작업이 의미 있는 결과로 이끌어지는 가능성을 줄입니다. 그러므로 명확한 데이터 지배 구조를 수립하는 것이 중요합니다: 데이터 팀은 데이터 소유주가 누구이고 어디서 찾을 수 있는지 알아야 합니다. 명확한 소유권은 데이터 품질에도 도움이 될 수 있습니다. 데이터 분석가들이 프로젝트에 가장 믿을 만한 데이터가 무엇인지 확신할 수 없을 때, 스테이크홀더들에게 도움을 요청해야 합니다. 그들은 자신들의 영역에 어떤 데이터가 의미가 있고 어떤 데이터가 그렇지 않은지에 대한 의견을 갖고 있을 가능성이 높습니다.
 
@@ -56,24 +85,46 @@ Leandro Carvalho가 데이터 제품 캔버스 기사에서 요약한 바에 따
 
 Gartner 성숙도 프레임워크는 잘 알려진 모델이지만 (기술적 설명부터 지시적 설명까지), 비즈니스 스테이크홀더에게 좋은 비즈니스 파트너가 되는 프로세스보다는 데이터 분석 방법론에 보다 관심을 기울입니다. 그러므로 데이터 팀의 성숙도 수준을 다음과 같이 요약할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-![Image](/assets/img/2024-07-01-FocusingonImpactPitfallsandMaturityLevelsinDataAnalytics_1.png)  
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+![Image](/assets/img/2024-07-01-FocusingonImpactPitfallsandMaturityLevelsinDataAnalytics_1.png)
 
 - 레벨 1: 정확한 보고
-기본 기반으로, 데이터 팀은 데이터 요구 사항에 대해 '간편한' 기관으로 인식되어야합니다. 이로 인해 일반 이해관계자를 위한 진리의 근원 역할을 하는 여러 잘 알려진 보고서를 실행할 수 있습니다.
+  기본 기반으로, 데이터 팀은 데이터 요구 사항에 대해 '간편한' 기관으로 인식되어야합니다. 이로 인해 일반 이해관계자를 위한 진리의 근원 역할을 하는 여러 잘 알려진 보고서를 실행할 수 있습니다.
 - 레벨 2: 통찰 페실리테이터
-데이터가 신뢰할 수 있어지면 분석가는 통찰력 페실리테이터로 행동하여 분석 및 비즈니스 문제를 해결할 수 있습니다. 그들은 더 이상 숫자만 보고하는 것이 아니라 의미 있는 맥락에 넣으려고하기 때문에 결국 데이터 기반 의사 결정으로 이어집니다.
+  데이터가 신뢰할 수 있어지면 분석가는 통찰력 페실리테이터로 행동하여 분석 및 비즈니스 문제를 해결할 수 있습니다. 그들은 더 이상 숫자만 보고하는 것이 아니라 의미 있는 맥락에 넣으려고하기 때문에 결국 데이터 기반 의사 결정으로 이어집니다.
 - 레벨 3: 병목 현상 극복
-좋은 데이터와 스마트한 분석가의 단점은 인기를 얻고 요청이 너무 많아진다는 것입니다. 이는 능력을 확장하고 셀프 서비스 기능에 투자하며 조직 구조 변경 및 더 나은 인프라를 고려할 때입니다.
+  좋은 데이터와 스마트한 분석가의 단점은 인기를 얻고 요청이 너무 많아진다는 것입니다. 이는 능력을 확장하고 셀프 서비스 기능에 투자하며 조직 구조 변경 및 더 나은 인프라를 고려할 때입니다.
 - 레벨 4: 적극적인 비즈니스 파트너
-마지막 단계에서 데이터 팀은 반응적에서 적극적으로 변화됩니다. 이제 이해관계자들을 도전하고 지원하기 위해 가설을 생성하기 시작할 때입니다. 그들이 중요하다고 하는 것을 따르는 대신에는 지속적인 지원을 제공하는 것입니다.
+  마지막 단계에서 데이터 팀은 반응적에서 적극적으로 변화됩니다. 이제 이해관계자들을 도전하고 지원하기 위해 가설을 생성하기 시작할 때입니다. 그들이 중요하다고 하는 것을 따르는 대신에는 지속적인 지원을 제공하는 것입니다.
 
-시간이 지남에 따라 데이터 팀이 성장할 때, 기초를 중시하는 것이 중요하다: 작게 시작하고 신뢰를 중시하는 것입니다. 기본 데이터가 신뢰할 수 없거나 팀이 신뢰할 수 있는 데이터 파트너로 인식되지 않는다면 셀프 서비스 기능이 인정 받을 가능성이 적습니다. 조직의 요구에 대응하여 시간이 지남에 따라 적극적인 데이터 기관으로 변화하는 것이 마지막 단계입니다. 
+시간이 지남에 따라 데이터 팀이 성장할 때, 기초를 중시하는 것이 중요하다: 작게 시작하고 신뢰를 중시하는 것입니다. 기본 데이터가 신뢰할 수 없거나 팀이 신뢰할 수 있는 데이터 파트너로 인식되지 않는다면 셀프 서비스 기능이 인정 받을 가능성이 적습니다. 조직의 요구에 대응하여 시간이 지남에 따라 적극적인 데이터 기관으로 변화하는 것이 마지막 단계입니다.
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 회사의 분석 문제를 해결하려는 것은 압도적일 수 있습니다. 특히 대규모 기관에서는 데이터 품질 문제를 홀로 해결하기는 불가능합니다. 팀은 외부 요인에 지나치게 의존하는 것보다 직접적으로 영향을 줄 수 있는 것에 더 집중해야 합니다.
 
@@ -83,6 +134,17 @@ Gartner 성숙도 프레임워크는 잘 알려진 모델이지만 (기술적 �
 
 마지막으로, 팀의 성숙도가 시간이 흘러도 성장하고 기본 사항이 견고하게 갖춰져 있는 것이 중요합니다. 성공적인 (AI) 응용 프로그램은 단단한 데이터 기반과 우수한 데이터 품질에 의존합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Philips에서의 테크 업무에 대해 궁금하신가요? 자세한 내용은 여기를 참조해보세요!

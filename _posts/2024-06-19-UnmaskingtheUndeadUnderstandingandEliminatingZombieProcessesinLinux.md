@@ -3,17 +3,13 @@ title: "언데드의 정체 노출하기 리눅스에서의 좀비 프로세스 
 description: ""
 coverImage: "/assets/img/2024-06-19-UnmaskingtheUndeadUnderstandingandEliminatingZombieProcessesinLinux_0.png"
 date: 2024-06-19 08:42
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-UnmaskingtheUndeadUnderstandingandEliminatingZombieProcessesinLinux_0.png
 tag: Tech
 originalTitle: "Unmasking the Undead: Understanding and Eliminating Zombie Processes in Linux"
 link: "https://medium.com/it-security-in-plain-english/unmasking-the-undead-understanding-and-eliminating-zombie-processes-in-linux-6ce70fc6e009"
 isUpdated: true
 ---
-
-
-
-
 
 ![링크 텍스트](/assets/img/2024-06-19-UnmaskingtheUndeadUnderstandingandEliminatingZombieProcessesinLinux_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 좀비 프로세스 또는 defunct 프로세스는 실행을 완료했지만 프로세스 테이블에 여전히 기록이 남아 있는 프로세스입니다. 이것은 부모 프로세스가 종료된 프로세스의 종료 상태를 아직 읽지 않았기 때문에 발생합니다. 결과적으로, 프로세스는 "좀비" 상태에 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 좀비 프로세스는 어떻게 생성되나요?
 
@@ -33,45 +40,87 @@ isUpdated: true
 
 좀비 프로세스를 식별하기 위해 ps, top, htop 등의 명령어를 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용하실 때는 아래와 같이 Markdown 형식의 테이블로 변환해주시면 됩니다.
 
-
 | 명령어 |
-| --- |
+| ------ | ------ |
 | ps aux | grep Z |
-
 
 출력 결과에서 STAT 열에 "Z"가 있는 경우에는 좀비 프로세스를 나타냅니다.
 
 Using top
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 top 명령에서 좀비 프로세스는 Z 상태로 표시됩니다.
 
 ```js
-top
+top;
 ```
 
 Shift + z를 눌러 top 인터페이스에서 좀비 프로세스를 강조할 수 있습니다.
 
 htop을 사용하여
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 htop에서 좀비 프로세스는 상태 열에 Z로 표시됩니다.
 
 ```js
-htop
+htop;
 ```
 
 ## 예시와 시나리오
 
 예시 1: 좀비 프로세스 생성하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단한 시나리오를 만들어 좀비 프로세스가 어떻게 생성되는지 이해해봅시다. 다음과 같은 C 프로그램을 고려해보세요:
 
@@ -105,7 +154,18 @@ gcc -o zombie_example zombie_example.c
 ./zombie_example
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 부모 프로세스가 sleep 중일 때, 좀비 프로세스를 관찰하기 위해 ps 또는 top을 사용해보세요.
 
@@ -115,7 +175,18 @@ gcc -o zombie_example zombie_example.c
 
 이전 프로그램을 수정하여 SIGCHLD 시그널을 처리하는 예시를 아래에 제시합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```cpp
 #include <stdio.h>
@@ -154,7 +225,18 @@ int main() {
 
 실제 시나리오에서 여러 응용 프로그램에 의해 생성된 좀비 프로세스를 만날 수 있습니다. 아래는 좀비 프로세스를 관리하고 제거하는 데 도움이 되는 몇 가지 스크립트입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스크립트 1: 좀비 프로세스 감시 및 보고
 
@@ -174,8 +256,18 @@ done
 
 이 스크립트를 monitor_zombies.sh로 저장하고, 실행 가능하도록 만든 후 실행하세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 chmod +x monitor_zombies.sh
@@ -193,10 +285,20 @@ for ppid in $ZOMBIE_PARENTS; do
     echo "Killing parent process $ppid of zombie processes"
     kill -9 $ppid
 done
-``` 
+```
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 스크립트를 kill_zombie_parents.sh로 저장하고 실행 가능하게 만들어서 실행하세요:
 

@@ -3,17 +3,13 @@ title: "다운타임과 작별하자 pg_upgrade로 PostgreSQL 14에서 16으로 
 description: ""
 coverImage: "/assets/img/2024-06-19-SayGoodbyetoDowntimeUpgradePostgreSQL14to16Effortlesslywithpg_upgrade_0.png"
 date: 2024-06-19 15:02
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-SayGoodbyetoDowntimeUpgradePostgreSQL14to16Effortlesslywithpg_upgrade_0.png
 tag: Tech
 originalTitle: "Say Goodbye to Downtime: Upgrade PostgreSQL 14 to 16 Effortlessly with pg_upgrade"
 link: "https://medium.com/@malymohsem/say-goodbye-to-downtime-upgrade-postgresql-14-to-16-effortlessly-with-pg-upgrade-42ef4dbf8524"
 isUpdated: true
 ---
-
-
-
-
 
 # 목차
 
@@ -26,7 +22,18 @@ isUpdated: true
 
 데이터베이스 업그레이드와 다운타임 스트레스로 고생하는 것 지겨우신가요? 걱정 마세요, 개발자 여러분! 본 블로그 포스트에서는 PostgreSQL 14에서 PostgreSQL 16으로의 막연한 전환을 가능케 하는 강력한 도구인 pg_upgrade의 비밀 무기를 소개합니다. 한 줄의 코드도 놓치지 않고 데이터베이스에 터보를 걸겠습니다. 함께 가즈아~!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕히 가세요:
 
@@ -38,7 +45,18 @@ pg_upgrade가 여러분 곁에 있다면, PostgreSQL 14에서 16으로 원활하
 
 # PostgreSQL 16에서 여러분을 기다리는 것은 무엇일까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 성능 향상: 쿼리가 개선된 인덱싱과 실행 계획으로 속도를 높이는 것을 지켜보세요.
 - 강화된 보안: 더 강력한 액세스 제어와 암호화 옵션으로 소중한 데이터가 안전하게 보호되고 있음을 안심하세요.
@@ -50,7 +68,18 @@ pg_upgrade가 여러분 곁에 있다면, PostgreSQL 14에서 16으로 원활하
 
 단계 1: PostgreSQL 16을 환영합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희 공연의 주인공 PostgreSQL 16을 설치해보세요. 마법이 펼쳐질 겁니다!
 
@@ -73,7 +102,18 @@ sudo apt-get -y install postgresql-16
 
 pg_lsclusters 명령어를 사용하여 서버가 자랑스럽게 PostgreSQL 14와 PostgreSQL 16을 모두 호스팅하고 있는지 확인해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 sudo pg_lsclusters
@@ -87,7 +127,18 @@ Step 3: 업그레이드를 준비합니다.
 sudo pg_dropcluster 16 main --stop
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Step 4: 업그레이드 프로세스 시작
 
@@ -99,11 +150,20 @@ sudo pg_upgradecluster 14 main
 
 프로세스를 모니터링하고 성공적으로 완료되면 이전 버전을 자신있게 제거하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 sudo pg_dropcluster 14 main
-
 
 단계 5: 마지막 작업 — 이전 패키지 제거
 
@@ -113,7 +173,18 @@ PostgreSQL 14의 잔해를 제거하여 이전 패키지를 정리합니다.
 sudo apt purge postgresql-14 postgresql-client-14
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스텝 6: 확인 - 성공적인 업그레이드 확인하기
 
@@ -125,7 +196,18 @@ sudo pg_lsclusters
 
 # RHEL/AlmaLinux/RockyLinux
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단계 1: 디지털 하늘 점검
 
@@ -137,7 +219,18 @@ ping google.com
 
 단계 2: 우주 본질 포착 - 데이터베이스 백업
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여러분의 데이터의 본질을 보존하기 위해 강력한 pg_dumpall 명령을 사용하여 천체적 백업을 만들어 보세요.
 
@@ -151,37 +244,58 @@ exit
 
 우리 우주 쇼의 주인공을 소개합니다 — PostgreSQL 16! 그의 뜨거운 소개를 준비하여 그의 웅대한 데뷔를 위한 무대를 준비하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 클러스터 초기화
+
 sudo su
 yum install postgresql16-server postgresql16
 /usr/pgsql-16/bin/postgresql-16-setup initdb
 
 # 포트 5432에서 5433으로 수정
+
 sudo su - postgres
 vim /var/lib/pgsql/16/data/postgresql.conf
 
 # 시작
-sudo systemctl start postgresql-16
 
+sudo systemctl start postgresql-16
 
 제 4단계: 대코스믹 변화 — pg_upgrade 심포니
 
 우주의 장엄한 공연 중 하이라이트 — 멋진 pg_upgrade 유틸리티! 버전 14에서 우주의 PostgreSQL 16로의 원활한 전환을 경험해보세요.
 
-
 /usr/pgsql-16/bin/pg_upgrade \
-  -b /usr/pgsql-14/bin/ \
-  -B /usr/pgsql-16/bin/ \
-  -d /var/lib/pgsql/14/data/ \
-  -D /var/lib/pgsql/16/data/ \
-  -o ' -c config_file=/var/lib/pgsql/14/data/postgresql.conf' \
-  -O ' -c config_file=/var/lib/pgsql/16/data/postgresql.conf'
+ -b /usr/pgsql-14/bin/ \
+ -B /usr/pgsql-16/bin/ \
+ -d /var/lib/pgsql/14/data/ \
+ -D /var/lib/pgsql/16/data/ \
+ -o ' -c config_file=/var/lib/pgsql/14/data/postgresql.conf' \
+ -O ' -c config_file=/var/lib/pgsql/16/data/postgresql.conf'
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단계 5: 천왕의 조화 - pg_hba.conf 편곡
 
@@ -191,7 +305,18 @@ sudo systemctl start postgresql-16
 
 PostgreSQL 16을 위해 일어설 박수를 시작하세요. 박수가 서버 환경에 울려 퍼지도록 해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 sudo systemctl start postgresql-16
@@ -205,7 +330,18 @@ PostgreSQL 16이 우주적인 빛 속에서 빛나도록 해주세요.
 bashCopy 코드sudo systemctl status postgresql-16
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단계 8: 유성 연결 - 데이터베이스 연결 테스트
 
@@ -217,7 +353,18 @@ psql -h localhost -p 5433 -U your_username -d your_database
 
 단계 9: 커튼콜 - 은하 무대 청소
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최종 행위가 펼쳐지면서, 우주 시대를 위해 오래된 PostgreSQL 버전을 우아하게 제거해보세요.
 
@@ -230,6 +377,17 @@ yum remove postgresql14-server postgresql14
 
 더 많이 배우고 싶나요? 이 블로그 포스트는 업그레이드 낙원으로 가는 길을 안내해줄 것입니다. 처음 준비부터 업그레이드 후 확인까지 과정을 단계별로 안내하여, 여러분이 새로운 높이로 프로젝트를 이끌 준비가 된 세련된, 강력한 PostgreSQL 16 데이터베이스에 도달하도록 보장합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서, 함께하는 개발자 여러분들, 다운타임 문제를 버리고 pg_upgrade 혁명을 받아들이세요. PostgreSQL 16의 모든 잠재력을 발휘하기 위해 함께 하십시오. 당신의 사용자들은 중단되지 않는 데이터베이스 햇빛을 누릴 수 있을 것입니다. 함께 즐거운 여정에 참여해 보세요!

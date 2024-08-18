@@ -3,17 +3,13 @@ title: "유튜브 영상 하나로 자전거 타이어 갈아끼우기 초간단
 description: ""
 coverImage: "/assets/img/2024-06-23-HowIChangeaBicycleTireAfterWatchingOneYouTubeVideo_0.png"
 date: 2024-06-23 17:51
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-HowIChangeaBicycleTireAfterWatchingOneYouTubeVideo_0.png
 tag: Tech
 originalTitle: "How I Change a Bicycle Tire After Watching One YouTube Video"
 link: "https://medium.com/the-haven/how-i-change-a-bicycle-tire-after-watching-one-youtube-video-ccd0d8949b30"
 isUpdated: true
 ---
-
-
-
-
 
 ## 풍자
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 영상의 지시대로, 진지한 분위기의 작업대 주변에 흩뿌려진 도구들 중에서 무작위로 도구를 선택해요. 바로 작업에 필요한 도구를 찾았어요. 제가 토끼 풀에서 뿔난 토끼들의 거미집에 덮인 차고 바닥에 있는 도구 가방 속에서 반 시간을 낭비했다 하는 소리를 들을 일은 절대 없어요. 도구를 찾자마자, 예상치 못하게 가지고 있는 자전거 스탠드에 걸린 엎드린 자전거를 칭찬해요. 이런 자세로 자전거를 올리는 건 쉽고 직관적이에요. 바퀴를 손으로 돌려보면서 테스트도 하는데요. 딴 생각에 빠져 바퀴가 잘 도는 것을 살펴보다가, 파트너가 따뜻한 컵에 검은 커피를 가져다 주죠. 제가 커피를 즐기려면 크리머가 필요하지 않아요. 왜냐하면 나는 존재의 더 높은 차원으로 상승했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제가 개발자 입니다. 위의 텍스트를 친근한 톤으로 한국어로 번역해 드리겠습니다.
 
@@ -35,7 +42,18 @@ isUpdated: true
 
 물론, 처음부터 비프라손으로 강제로 분해하지는 않은 후식 브레이크를 다시 달아야 하지만 후식 브레이크를 재조립하려면 엄지손가락이 있어서는 거의 필요하지 않아요. 몇 초만에 부품을 클립하고 브레이크는 새 것처럼 정상적으로 작동해요. 손가락을 잃는 데 위험을 감수하지 않아도 되고, 긴급한 금속 와이어에 찔리지 않아요. 작업실 바닥에 젖은 나무에 천천히 스며들어있는 혈액으로 자연스레 잭슨 폴락의 그림처럼 보이는 것도 없어요. 무엇보다, 내가 개조한 브레이크는 확실히 작동하기 때문에 "조심해! 브레이크 없어!"라고 외치지 않아도 되고, 초등학교 구역을 통과하는 픽업트럭에 들이받히지 않도록 발바닥으로 브레이크를 하는 일도 없죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자전거 수리를 너무 빨리 끝내서 집 주변의 다른 이상한 작업들을 마무리할 시간이 아직 많아요. 혹은 다녀온 후에 아이들을 데리러 가기 전에 집에서 직접 만든 과일 잼 몇 병을 만들 수도 있겠죠. 마무리할 시간이 있다 보니 서둘러야 하는 줄 알았는데 얼른 야구 모자를 쓰고, 그리고 부정말로 더럽힌 손을 비비는 수고도 하지 않아도 되요. 자전거를 타고 학교로 달려가는 중에, 바쁜 길을 건널 때 새 타이어가 거의 떨어질 뻔한 일도 없구요. 그리고 자전거에서 내려와서 앞바퀴만 갖고 걸어가며 주위에서 멈춘 차들을 탄 운전자들이 불쌍한 눈초리로 나를 쳐다보는 일도 없겠지요.
 

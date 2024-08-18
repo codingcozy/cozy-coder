@@ -3,17 +3,13 @@ title: "macOS M1 M2 ARM64 CPU에서 Docker Desktop을 Podman으로 바꾸는 방
 description: ""
 coverImage: "/assets/img/2024-06-23-SwitchingfromDockerDesktoptoPodmanonmacOSM1M2ARM64CPU_0.png"
 date: 2024-06-23 15:31
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-SwitchingfromDockerDesktoptoPodmanonmacOSM1M2ARM64CPU_0.png
 tag: Tech
 originalTitle: "Switching from Docker Desktop to Podman on macOS M1 M2 ARM64 CPU"
 link: "https://medium.com/rahasak/switching-from-docker-desktop-to-podman-on-macos-m1-m2-arm64-cpu-7752c02453ec"
 isUpdated: true
 ---
-
-
-
-
 
 ## 친절한 쿠버네티스 클러스터와 함께
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이전 글에서는 macOS에서 이전 AMD64 아키텍처 기반 머신에 Minikube와 Hyperkit을 사용하여 Docker Desktop을 대체하는 방법에 대해 논의했습니다. 그러나 ARM64 아키텍처 CPU를 사용하는 새로운 M1/M2 머신이 등장하면서 Hyperkit은 이러한 새로운 머신과 호환되지 않습니다. 이 문제를 해결하기 위해 macOS M1/M2 머신에서 Docker Desktop을 Podman으로 대체하고 Kind를 사용하여 쿠버네티스 로컬 클러스터를 생성했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # macOS M1/M2 ARM64 아키텍처
 
@@ -33,7 +40,18 @@ ARM64 아키텍처의 주요 장점 중 하나는 와트 당 성능 향상입니
 
 AMD64/x86 인텔 아키텍처와 비교하면, ARM64 아키텍처는 더 새롭고 확립되지 않은 아키텍처입니다. AMD64/x86은 많은 해 동안 주도적인 아키텍처이지만, ARM64는 특히 모바일 기기와 서버에서 더 많은 인기를 얻고 있습니다. 그러나 ARM64 아키텍처에 대한 더 많은 응용 프로그램과 소프트웨어의 최적화가 이루어지면, 앞으로 더 많은 ARM64 기반 컴퓨터를 볼 수 있을 것입니다. 성능 측면에서, ARM64 아키텍처는 특정 작업 부하에 대해 AMD64/x86 아키텍처와 비교 가능하거나 더 빠를 수 있지만, 이는 구체적인 사용 사례 및 소프트웨어 최적화에 따라 다를 수 있습니다. 최종적으로 두 아키텍처 모두 강점과 약점을 가지고 있으며, 그것들 사이의 선택은 사용자나 조직의 구체적인 요구 사항에 달려 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 맥OS M1/M2 기기는 ARM64 아키텍처에서 실행되도록 특별히 설계되었으며, 이 아키텍처에 최적화된 소프트웨어와 도구가 필요하여 효율적으로 실행할 수 있습니다. x86 아키텍처에서 실행되도록 설계된 일부 소프트웨어는 macOS M1/M2 기기에서 제대로 작동하지 않을 수 있으므로, 개발자와 사용자는 호환성과 최적 성능을 보장하기 위해 ARM64 아키텍처용 도구와 소프트웨어를 사용해야 합니다.
 
@@ -43,7 +61,18 @@ macOS에서 Docker Desktop은 Docker 컨테이너를 사용하여 애플리케�
 
 Docker Desktop은 컨테이너화에 강력한 도구를 제공하지만, 단점도 있습니다. Docker Desktop 사용의 주요 단점 중 하나는 백그라운드에서 실행되는 별도의 데몬 프로세스를 필요로 한다는 점인데, 이는 상당한 시스템 리소스를 소비할 수 있습니다. 또한, Docker Desktop은 일부 애플리케이션 및 운영 체제와 가끔 호환성 문제가 있어 사용자들에게 다운타임과 귀찮음을 초래할 수 있습니다. 게다가, 최근 Docker Desktop의 라이선스 요구사항 변경으로 많은 사용자가 대안을 찾고 있습니다. 결과적으로, Podman과 같은 대체 솔루션들이 이 기기에서 컨테이너화 요구를 충족하는 데 더 인기를 얻고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Podman
 
@@ -53,7 +82,18 @@ Podman은 ARM64 아키텍처에 최적화되어 개발자와 IT 전문가들에�
 
 macOS M1/M2 기계에서 Podman을 사용하는 주요 이점 중 하나는 가상 머신을 사용하지 않아도 된다는 점입니다. 대신, Podman은 ARM64 아키텍처의 네이티브 컨테이너화 기능을 활용하여 더 효율적이고 간소화된 경험을 제공합니다. Podman은 ARM64 아키텍처를 기반으로 하는 macOS M1/M2 기계에서 Docker Desktop에 대한 유망한 대안입니다. 최적화된 성능과 간소화된 컨테이너화 기능을 갖춘 Podman은 이러한 기계에서 컨테이너를 빌드, 관리 및 실행해야 하는 개발자와 IT 전문가들에게 강력한 도구를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로운 macOS M1/M2 기기에서 ARM64 아키텍처를 사용하는 Podman을 설정하는 가이드입니다. 이를 통해 더 가벼우면서도 효율적인 컨테이너화 도구로 Docker 및 Docker Desktop을 대체할 수 있습니다.
 
@@ -131,7 +171,18 @@ podman-machine-default-root  ssh://root@localhost:50985/run/podman/podman.sock  
 ❯❯ podman machine rm -f podman-machine-default
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2. Podman Commands
 
@@ -164,7 +215,18 @@ CONTAINER ID  IMAGE                              COMMAND     CREATED        STAT
 ## 3. Create Docker Alias
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Podman은 Docker와 매우 유사한 명령줄 인터페이스를 제공하여 Docker에서 Podman으로 쉽게 전환할 수 있습니다. 실제로 Podman과 Docker를 동일하게 사용할 수 있도록 Docker에 대한 별칭을 Podman으로 만들 수 있습니다. 예를 들어, 다음 Alias를 ~/.zshrc 파일에 추가하여 Podman의 docker alias를 만들 수 있습니다.
 
@@ -189,7 +251,18 @@ CONTAINER ID  IMAGE                              COMMAND     CREATED        STAT
 6ee93adb00d1  docker.io/library/postgres:latest  postgres    4 minutes ago  Up 4 minutes  0.0.0.0:5432->5432/tcp  postgres
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 4. Podman REST API에 액세스하기
 
@@ -197,7 +270,18 @@ podman.sock은 Podman 데몬이 Podman 클라이언트로부터 요청을 수신
 
 다음 예제에서는 podman.sock 유닉스 소켓을 socat을 사용하여 TCP 포트 2375에 바인딩하는 방법을 보여줍니다. 이를 통해 호스트 기기에서 이 포트에 연결하고 podman REST API를 외부에 노출시킬 수 있습니다. 설정이 완료되면 REST 클라이언트가 포트 2375에 연결하여 Podman REST API에 액세스할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 5. ARM64 CPU 아키텍처 이미지 실행하기
 
@@ -207,7 +291,18 @@ Podman을 사용하여 컨테이너 이미지를 실행할 때, 컨테이너는 
 
 이 제한을 극복하기 위해, multi-architecture 컨테이너 이미지를 사용할 수 있습니다. 이러한 이미지에는 여러 CPU 아키텍처의 이진 파일과 라이브러리가 포함되어 있어, 동일한 이미지가 다른 아키텍처의 머신에서 실행될 수 있습니다. Docker와 Podman은 모두 multi-architecture 이미지를 지원합니다. multi-architecture 이미지를 가져올 때, Podman은 자동으로 호스트 머신에 맞는 올바른 아키텍처를 선택하고 해당 아키텍처로 컨테이너를 실행합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 mquery 도구를 사용하면 공개 컨테이너 저장소의 모든 공개 이미지를 쿼리하여 미디어 유형, 다이제스트 및 플랫폼 지원을 확인할 수 있습니다. 또한 도커 이미지의 사용 가능한 CPU 아키텍처를 확인하는 데 사용할 수 있습니다. 이 도구는 estesp/mquery라는 이름의 Docker 이미지로 제공됩니다. 해당 이미지를 실행하여 어떤 도커 이미지의 CPU 아키텍처를 확인할 수 있습니다. 결과에는 이미지를 지원하는 플랫폼이 표시되며, 해당 아키텍처, 운영 체제 및 버전이 포함됩니다. 시스템의 CPU 아키텍처와 호환되는지 확인하는 데 유용할 수 있습니다.
 
@@ -238,7 +333,18 @@ Image: postgres:latest (digest: sha256:50a96a21f2992518c2cb4601467cf27c7ac852542
 
 Podman에서 AMD64와 같은 다른 CPU 아키텍처용으로 빌드된 도커 이미지를 macOS M1/M2 ARM64 CPU에 실행하려고 하면 에러가 발생하여 실패할 것입니다. 이는 이미지가 호스트 머신의 CPU 아키텍처와 호환되지 않기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # mysql:8.0.23은 amd64 아키텍처 이미지만 사용 가능합니다
@@ -276,9 +382,20 @@ config sha256:cbe8815cbea8fb86ce7d3169a82d05301e7dfe1a8d4228941f23f4f115a887f2 �
     - MYSQL_RANDOM_ROOT_PASSWORD
 
 --arch 옵션이 작동하지 않는 경우, multiarch/qemu-user-static을 사용한 해결책이 있습니다. 이 글에서 그 해결책에 대해 자세히 설명합니다.
-``` 
+```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 podman machine ssh
@@ -301,7 +418,18 @@ func main() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 FROM golang:1.16-alpine as builder
@@ -356,7 +484,18 @@ vim-go
 
 다음은 Podman을 사용하여 arm64 아키텍처로 이미지를 빌드하는 예제 명령입니다. 이 명령은 --arch 플래그를 사용하여 ARM64 아키텍처를 지정합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # arm64 CPU 아키텍처로 도커 이미지 빌드
@@ -389,7 +528,7 @@ KIND_EXPERIMENTAL_PROVIDER=podman
 
 # 클러스터 생성
 # 클러스터 이름은 'kind'로 지정됩니다.
-❯❯ kind create cluster 
+❯❯ kind create cluster
 
 # kubectl 컨텍스트인 kind-kind가 추가됩니다.
 ❯❯ kubectl config get-contexts
@@ -410,7 +549,18 @@ KIND_EXPERIMENTAL_PROVIDER=podman
 ❯❯ kind delete cluster
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 9. Google Container Registry 인증
 
@@ -479,7 +629,18 @@ INFO[0000] podman filtering at log level debug
 
 이전 방법은 Podman이 Docker GCR 인증 구성을 사용하여 Google Container Registry와 인증하는 방법을 설명했습니다. 그러나 Podman은 직접 컨테이너 레지스트리에 로그인하기 위한 podman login이라는 명령도 제공합니다. 이 명령은 Container Registry와 함께 사용할 수 있는 단기간의 OAuth 액세스 토큰을 사용하여 인증합니다. 이 토큰은 60분 동안만 유효하므로 Container Registry에 연결하기 전 1시간 이전에 요청해야 합니다. 토큰이 만료되면 다시 로그인해야 하며, 그렇지 않으면 권한 없음: 인증 실패 오류가 발생할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```yaml
 # 웹 플로우를 통해 gcloud 서비스에 로그인해주세요
@@ -495,7 +656,7 @@ INFO[0000] podman filtering at log level debug
 ❯❯ gcloud auth print-access-token
 
 # 액세스 토큰으로 gcr에 로그인
-# 이렇게 짧게 유지되는 OAuth 액세스 토큰을 사용하여 Container Registry와 인증합니다. 
+# 이렇게 짧게 유지되는 OAuth 액세스 토큰을 사용하여 Container Registry와 인증합니다.
 # 토큰은 60분 동안 유효하며, Container Registry에 연결하기 전에 한 시간 이내에 요청해야 합니다.
 # 토큰 만료 시, 아래 명령어를 다시 실행하고 다시 로그인해야 합니다. 그렇지 않으면 권한이 없음: 인증 실패 오류가 발생합니다.
 ❯❯ gcloud auth print-access-token | podman login -u oauth2accesstoken --password-stdin eu.gcr.io
@@ -503,19 +664,21 @@ INFO[0000] podman filtering at log level debug
 # ~/.config/containers/auth.json에 인증 파일이 생성됩니다
 ❯❯ cat .config/containers/auth.json
 ```
+
 {
- "auths": {
-  "eu.gcr.io": {
-   "auth": "<액세스 토큰>"
-  }
- }
+"auths": {
+"eu.gcr.io": {
+"auth": "<액세스 토큰>"
+}
+}
 }
 
 # 이제 podman은 docker 자격 증명을 사용하여 gcr에 액세스할 수 있습니다(자격 증명 도우미 gcloud 사용)
+
 ❯❯ docker pull eu.gcr.io/rahasak-build/aplos:0.1 --log-level=debug
 INFO[0000] log level debug에서 podman 필터링
 DEBU[0000] pull.PersistentPreRunE(podman pull eu.gcr.io/rahasak-build/aplos:0.1 --log-level=debug) 호출
-DEBU[0000] DoRequest 메서드: GET URI: http://d/v4.4.2/libpod/_ping
+DEBU[0000] DoRequest 메서드: GET URI: http://d/v4.4.2/libpod/\_ping
 DEBU[0000] "/etc/containers/registries.conf"에서 레지스트리 구성로드
 DEBU[0000] 자격 증명 도우미 containers-auth.json에서 /Users/lambda.eranga/.config/containers/auth.json 파일의 eu.gcr.io 자격 증명 찾음
 DEBU[0000] DoRequest 메서드: POST URI: http://d/v4.4.2/libpod/images/pull
@@ -531,8 +694,8 @@ blob sha256:e83609f677899ddd7e01f03fd3f797d98fb18e3307a236b55b218a59f5cf7b9b 복
 blob sha256:88c7c603b3faedd122305543eb17d6968a16399c7a93f67b3486196b2440c846 복사 중
 
 # 로그인 취소
-❯❯ podman logout eu.gcr.io
 
+❯❯ podman logout eu.gcr.io
 
 # 참고
 

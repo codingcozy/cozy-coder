@@ -3,17 +3,13 @@ title: "NLP와 지식 그래프를 활용한 2024 최신 오피오이드 연구 
 description: ""
 coverImage: "/assets/img/2024-06-22-HarnessingthePowerofNLPandKnowledgeGraphsforOpioidResearch_0.png"
 date: 2024-06-22 21:38
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-HarnessingthePowerofNLPandKnowledgeGraphsforOpioidResearch_0.png
 tag: Tech
 originalTitle: "Harnessing the Power of NLP and Knowledge Graphs for Opioid Research"
 link: "https://medium.com/john-snow-labs/harnessing-the-power-of-nlp-and-knowledge-graphs-for-opioid-research-2be5129d6c61"
 isUpdated: true
 ---
-
-
-
-
 
 ## 오피오이드 연구에서 인공지능과 지식 그래프 통합을 통한 혁신
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 NLP와 지식 그래프를 활용한 연구는 오피오이드 위기와의 전쟁에서 강력한 도구로 부상했습니다. 이런 최첨단 기술을 활용함으로써 연구자들은 과학문헌, 임상 노트, 의료 보고서, 그리고 소셜 미디어 토론 등 방대한 양의 비정형 데이터 저장소에 숨겨진 다양한 정보를 발굴할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 NLP 기술은 비구조적 소스에서 구조화된 정보를 추출할 수 있게 해주어, 약물, 질병, 부작용과 같은 개체들 그리고 그들 사이의 관계를 식별하는 데 도움을 줍니다. 이 능력은 특히 오피오이드 연구 분야에서 여러 요소 간의 복잡한 관계를 이해하는 데 중요합니다.
 
@@ -33,7 +40,18 @@ Neo4j는 그래프 없이는 불가능한 연결된 데이터를 분석하는 �
 
 NLP와 지식 그래프의 결합은 중독에 기여하는 다양한 요인을 포괄적으로 이해함으로써 오피오이드 연구의 혁신을 약속합니다. 잠재적인 위험 요소를 식별하고 더 효과적인 예방 및 치료 전략을 개발하는 데 도움을 줄 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 게시물에서는 John Snow Labs의 Healthcare NLP 라이브러리에서 사전 학습된 모델을 사용하여 오피오이드 관련 엔티티 및 그들의 부작용을 추출하고, Neo4J를 사용하여 오피오이드 약물, 증상 및 연구 논문 간의 복잡한 관계를 나타내는 지식 그래프를 구축하는 방법에 대해 다룹니다. Neo4J를 사용하여 오피오이드 약물, 관련 조건 (효과) 및 관련 PubMed 논문과 같은 엔티티를 노드로, 그들의 관계를 엣지로 나타내면, Neo4J가 오피오이드의 부작용과 해당 약물 및 상태가 언급된 PubMed 기사에 대한 통찰을 제공할 수 있습니다. 전체적으로, Neo4J의 고도로 연결된 데이터를 처리할 수 있는 능력은 지식 관리부터 운영 분석 및 의사 결정 지원까지 다양한 의료 분야에서 가치 있는 도구로 작용합니다.
 
@@ -43,7 +61,18 @@ NLP와 지식 그래프의 결합은 중독에 기여하는 다양한 요인을 
 
 헬스케어 라이브러리는 John Snow Labs의 Spark NLP 플랫폼의 강력한 구성 요소로, 의료 분야 내에서 NLP 작업을 용이하게 하는 데 설계되었습니다. 이 라이브러리는 의료 데이터에 특화된 2,200개 이상의 사전 학습된 모델 및 파이프라인을 제공하여 정확한 정보 추출, 임상 및 의학적 개념을 위한 NER 및 텍스트 분석 능력을 제공합니다. 정기적으로 업데이트되고 첨단 알고리즘으로 구성된 이 헬스케어 라이브러리는 전자 의료 기록, 임상 노트 및 생물 의학 문헌과 같은 구조화되지 않은 의료 데이터 원본에서 보다 깊은 통찰을 제공하여 의료 전문가들에게 정보 처리를 간소화하고 강력한 통찰력을 제공하는 것을 목표로 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 존 스노우 랩의 GitHub 저장소는 협업 플랫폼 역할을 하며 사용자들이 스파크 NLP 및 관련 도구의 이해와 활용을 더욱 향상시키기 위해 코드 샘플, 튜토리얼 및 프로젝트와 같은 오픈 소스 자원에 액세스할 수 있는 곳입니다.
 
@@ -53,7 +82,18 @@ NLP와 지식 그래프의 결합은 중독에 기여하는 다양한 요인을 
 
 ## 아편 연구의 이유
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 옵이오이드 전염병은 모든 수명을 앗아가고 심각한 고통을 초래하여 공중보건 위기를 야기했습니다. 이 위기와의 싸움이 격렬해지면서, 연구원과 보건의료 전문가들은 더 심층적인 통찰을 얻고 옵이오이드 중독과 그에 미치는 넓은 영향에 대응할 수 있는 더 효과적인 전략을 개발하기 위해 혁신적인 방법을 모색하고 있습니다.
 
@@ -63,7 +103,18 @@ NLP와 지식 그래프의 결합은 중독에 기여하는 다양한 요인을 
 
 ## 임상 노트로부터 종양학 관련 개체 추출
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예명(entity) 인식(Named Entity Recognition, NER) 모델 또는 대규모 언어 모델(Large Language Models, LLMs)을 사용하여 비구조화된 텍스트 데이터에서 오피오이드 관련 정보를 추출하는 것은 분석에서 중요한 단계입니다. 전자 의료 기록(EHRs), 임상 노트 및 의학 문헌과 같은 비구조화 데이터 소스에는 많은 가치 있는 정보가 포함되어 있지만 구조화되지 않은 형식으로 제공되기 때문에 중요한 도전이 존재합니다. NER 모델은 특히 이러한 도전에 대응하기 위해 훈련되어 텍스트 내에서 개체를 사전 정의된 범주(라벨링)로 식별하고 분류하는 방식으로 작동합니다.
 
@@ -73,7 +124,18 @@ NLP와 지식 그래프의 결합은 중독에 기여하는 다양한 요인을 
 
 비구조화 데이터에서 관련 있는 오피오이드 관련 개체들을 성공적으로 추출한 후, 다음 중요 단계는 이러한 개체들 간의 관계를 수립하는 것입니다. 여기서 지식 그래프(Knowledge Graphs)가 중요한 역할을 합니다. 지식 그래프는 추출된 데이터를 구조화된 형식으로 정리하고, 네트워크 형식의 다른 개체 간의 관계를 매핑합니다. 예를 들어 특정 오피오이드 약물을 해당하는 부작용과 연결하거나, 환자 증상을 특정 오피오이드 처방과 연관시키거나, 환자가 복용 중인 다른 약물과의 상호 작용을 강조할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 과정은 NER 모델이 텍스트 데이터에서 엔티티를 추출하는 것으로 시작합니다. 예를 들어, "환자가 만성 통증으로 옥시코돈을 처받았지만 심한 변비와 호흡 억제 증상이 발생했습니다"라는 임상 노트로부터 엔티티로 "옥시코돈", "만성 통증", "변비", "호흡 억제"를 식별할 것입니다. 이후, 지식 그래프는 "알펜타닐"과 "신생아 호흡 억제 증후군" 사이의 caused_by와 "옥시코돈"과 "변비" 및 "호흡 억제" 사이의 caused_by와 같은 관계를 설정할 것입니다.
 
@@ -83,7 +145,18 @@ NLP와 지식 그래프의 결합은 중독에 기여하는 다양한 요인을 
 
 Healthcare NLP 라이브러리의 NER 모델을 사용하여 생성된 엔티티를 빠르게 시각화하는 능력은 생성된 결과를 조사하는 데 매우 유용한 기능입니다. Spark NLP Display는 Spark NLP로 생성된 추출된 및 레이블이 지정된 엔티티를 시각화하기 위한 오픈 소스 Python 라이브러리입니다. NerVisualizer는 추출된 네임드 엔티티를 강조하고 분석된 텍스트 위에 레이블을 장식으로 표시합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 예시에서는 오피오이드 관련 엔터티를 추출하기 위해 특별히 훈련된 모델(ner_opioid)이 두 가지 오피오이드 의약품을 식별했습니다: 만성 통증에 처방된 옥시코돈(Oxycodone)과 발작 통증에 사용되는 펜티넬 패치(Fentanyl patch). 시각화 도구는 당뇨병 관리에 사용되는 메트포르민(Metformin)과 고혈압에 사용되는 리시노프릴(Lisinopril)과 같은 비오피오이드 의약품을 식별했습니다. 의약품은 타입별(오피오이드 의약품 및 기타 의약품)로 명확하게 분류되었습니다. 또한 의약품의 의도된 용도 또는 관련 상황(일반 증상, 다른 질병)도 추출되어 레이블이 지정되었습니다.
 
@@ -93,7 +166,18 @@ Healthcare NLP 라이브러리의 NER 모델을 사용하여 생성된 엔티티
 
 ## 지식 그래프 결과
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사이퍼는 Neo4j의 그래프 쿼리 언어로, 그래프에서 데이터를 검색할 수 있는 SQL과 유사합니다. 다른 언어와 직관적인 유사성으로 인해 가장 쉽게 학습할 수 있는 그래프 언어입니다.
 
@@ -103,7 +187,18 @@ Healthcare NLP 라이브러리의 NER 모델을 사용하여 생성된 엔티티
 
 이러한 시각화는 연구에서 주요 연구 영역, 연구의 잠재적 공백, 그리고 데이터 관계의 전반적인 구조를 식별하는 데 유용합니다. 의료 조건, 약물 참조 및 학술 논문의 상호 연결된 성질을 이해하는 데 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 시각화는 노드와 관계에 대한 더 자세한 정보를 제공하여 데이터의 포괄적인 매핑을 보여줍니다. Alfentanil은 합성, 단순 작용성 아편 진통제로, 펜타닐의 소분자 유도체로 분류됩니다.
 
@@ -113,7 +208,18 @@ article_of와 mentioned_in의 밀집된 네트워크는 이 데이터 집합 내
 
 이 시각화는 호흡기 질환과 해당 질환을 유발하거나 관련시킬 수 있는 다양한 아편 진통제 간의 관계에 초점을 맞추고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 수족의 인정, 펜타닐 시트랏, 듀라게식, 코드인, 옥시코돈 등이 호산구 진통제이거나 호흡 기능을 악화시키거나 어떤 방식으로든 호흡 기능과 연결된 다른 물질일 수 있습니다.
 
@@ -123,7 +229,18 @@ article_of와 mentioned_in의 밀집된 네트워크는 이 데이터 집합 내
 
 쿼리는 호산구 간에 공유된 상태를 반환합니다. 예를 들어, 모르핀과 MS 콘틴은 만성 통증 질환 및 인지 저하와 같은 상태를 공유합니다. 반면 돌로핀과 메타돈은 인지 기능 장애와 불안 증상과 같은 상태를 공유합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 방법은 의료 전문가들이 공유된 부작용과 치료 목적에 대해 이해하는 데 도움이 될 수 있습니다. 또한 공유된 조건을 기반으로 의약품의 부작용을 예측하는 데도 도움이 될 수 있습니다.
 
@@ -133,7 +250,18 @@ article_of와 mentioned_in의 밀집된 네트워크는 이 데이터 집합 내
 
 요약하자면, NLP와 지식 그래프의 결합은 오피오이드 연구를 가속화하고 강화하는 강력한 방법을 제공합니다. 이러한 기술을 사용하여 바이오의학 정보의 대량을 효율적으로 추출, 정리 및 연결함으로써 연구자들은 다음을 할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 약물, 부작용 및 생물학적 경로 사이의 숨겨진 관계를 발견하세요.
 - 통증 관리를 위한 잠재적인 새로운 대상 식별

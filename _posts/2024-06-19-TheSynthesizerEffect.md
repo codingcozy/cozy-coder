@@ -3,17 +3,13 @@ title: "신서사이저 효과"
 description: ""
 coverImage: "/assets/img/2024-06-19-TheSynthesizerEffect_0.png"
 date: 2024-06-19 19:28
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-TheSynthesizerEffect_0.png
 tag: Tech
 originalTitle: "The Synthesizer Effect"
 link: "https://medium.com/@mikeyd/the-synthesizer-effect-66a4e70a5289"
 isUpdated: true
 ---
-
-
-
-
 
 또는, 왜 생성적 AI가 모두도 일부 시간을 속여 거짓말을 하고, 모두도 아예 거짓말을 하지 않는지입니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 그렇다면 얼마나 가까워야 신경 쓰지 않을 정도일까요? 이는 어떤 도메인에 대해 얼마나 많이 알고 있는지에 따라 매우 다르다는 것 같습니다. 이것이 뭔가를 생각나게 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 초등학교 밴드에서 색소폰을 연주했어요. 그리고 의외로 예산이 높은 전자 음악 스튜디오를 갖춘 작은 대학에 다녀왔어요. 70년대부터 최신 기술의 악기까지 다양한 악기들이 있었어요. 이 중 많은 악기들은 스스로 말 그대로 소리가 나도록 설계되었지만, 대부분의 경우 신디사이저는 이미 알고 있는 악기들을 시뮬레이트하기 위해 최선을 다해요. 키보드로 연주하는 피아노가 가장 많이 사용되지만, 여기에는 피아노뿐만 아니라 플루트, 트럼본, 마림바, 스틸 드럼, 관음악, 그리고 상상할 수 있는 모든 것에 대한 모델(여기서는 패치라고 부름)이 있어요.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ![Synthesizer Effect](/assets/img/2024-06-19-TheSynthesizerEffect_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 흥미로운 점은 이제 멍청한 표현의 20년이 지났다는 점인데, 기술의 많은 세대가 지나갔음에도 경험은 변하지 않았습니다. 피아노 전문가가 아닌 사람에게는 현재 합성된 피아노 소리가 완벽하게 잘 들립니다. 20년 전과 마찬가지로요. 피아노 전문가에게는 롤랜드 JV-1080보다 조금 더 나은 소리일지도 모르지만, 결국 피아노를 대체할 수는 없습니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 이것이 바로 "합성기 효과"라는 말의 의미야: 아주 잘 알고 있다면, 기계는 당신을 속일 수 없어요. 모르면, 아주 속일 수도 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실제로 꽤 많은 사람들이 합성기 효과로 LLM에 대한 너무 과대한 기대를 갖고 있어서 혹은 흥분하거나 패닉에 빠지는 것 같아요. CEO들은 LLM이 엔지니어를 대체할 수 있다고 생각해요. 엔지니어들은 LLM이 세일즈 직원을 대체할 수 있다고 생각해요. 세일즈 직원들은 LLM이 CEO를 대체할 수 있다고 생각해요. 예술가들은 LLM이 다른 모든 사람을 대체할 수 있다고 생각하고, 그 외 모든 사람은 LLM이 예술가를 대체할 수 있다고 생각해요. 어느 정도 이것은 우리의 오래된 친구 Dunning과 Krueger와 관련이 있어요. X를 하기에 능숙하지 않은 사람은 기계가 생성한 X의 품질을 판단할 능력도 없는 것이죠.
 

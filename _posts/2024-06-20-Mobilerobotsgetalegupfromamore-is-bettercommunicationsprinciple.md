@@ -3,17 +3,13 @@ title: "모바일 로봇, 더 많으면 더 좋다는 통신 원칙을 잘 활�
 description: ""
 coverImage: "/assets/img/2024-06-20-Mobilerobotsgetalegupfromamore-is-bettercommunicationsprinciple_0.png"
 date: 2024-06-20 17:49
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-Mobilerobotsgetalegupfromamore-is-bettercommunicationsprinciple_0.png
 tag: Tech
 originalTitle: "Mobile robots get a leg up from a more-is-better communications principle"
 link: "https://medium.com/the-conversation/mobile-robots-get-a-leg-up-from-a-more-is-better-communications-principle-544204976445"
 isUpdated: true
 ---
-
-
-
-
 
 ## 한 연구에서 발견된바 미끄럼 방지 장치를 가지고 있는 것보다 지면 주변 상황에 대한 감각이 뛰어날 때 모바일 로봇에 더 도움이 된다고 해요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 주변 환경에 대한 최소한의 인식력을 가진 로봇에 다리를 추가하면, 어려운 지형에서 로봇이 더 효율적으로 작동할 수 있다는 것을 저와 제 동료들이 발견했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 수학자이자 엔지니어인 클로드 샤넌의 통신 이론에서 영감을 받았습니다. 먼 거리를 통해 신호를 전송하는 방법에 대해 그의 이론을 참고했습니다. 완벽한 전선을 구축하기 위해 엄청난 비용을 지출하는 대신, 샤넌은 잡음이 많은 통신 채널을 통해 정보를 신뢰할 수 있게 전달하는 데 중복성을 사용하는 것이 충분하다는 것을 보여 주었습니다. 우리는 화물을 로봇을 통해 운송하는 것에 대해 같은 접근법을 적용할 수 있을지 궁금해졌습니다. 즉, 우리가 "잡음이 많은" 지형을 통해 화물을 운송하려면, 쓰러진 나무와 큰 바위와 같은 지형에서 이를 로봇의 다리를 추가함으로써 센서와 카메라 없이 수행할 수 있을까요?
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 다리 수가 증가함에 따라 로봇은 센서 없이도 지형을 이동할 때 높은 민첩성을 보였습니다. 그 성능을 추가로 평가하기 위해 실제 지형에서 야외 테스트를 수행하여 더 현실적인 조건에서의 성능을 확인했는데, 그 결과도 좋았습니다. 많은 다리를 가진 로봇을 농업, 우주 탐사 및 수색 및 구조 작업에 사용할 수 있는 잠재력이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 왜 중요한가요
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 다른 연구자들은 최근 몇 년 동안 더욱 민첩해진 인간형 로봇과 로봇 개를 개발해왔습니다. 이러한 로봇은 자신이 어디에 있는지와 자신 앞에 무엇이 있는지 정확한 센서에 의존하여 이를 알고, 그 뒤에 어떻게 항해할지에 대한 결정을 내립니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 그들의 환경 인식에 대한 강한 의존으로, 예측할 수 없는 환경에서는 제한될 수 있습니다. 예를 들어, 수색 및 구조 작업에서 센서가 손상을 입을 수 있고 환경이 변할 수 있습니다.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 우리는 백종 로봇의 기능적 측면을 이해하고 있지만, 계속되는 노력은 외부 센싱에 의존하지 않고 움직임에 필요한 최적의 다리 수를 결정하는 데 집중되어 있습니다. 우리의 목표는 비용 효율성과 시스템의 혜택을 유지하는 사이의 균형을 맞추는 것입니다. 현재 우리는 이 로봇이 효과적으로 작동하려면 최소 12개의 다리가 필요하다는 것을 보여 주었지만, 아직 이상적인 수를 조사 중에 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사는 학술 전문가의 지식을 공유하기 위해 전논허 비영리 뉴스 기관인 더 컨버세이션(The Conversation)에서 제공한 것입니다. 저희에 대해 더 알고 싶으시거나 주간 과학 편집자 선정 기사를 구독하고 싶으시다면 저희 웹사이트를 방문해주세요.
 

@@ -3,17 +3,13 @@ title: "ShunyaCTF Trust Issues 문제 풀이 및 해설"
 description: ""
 coverImage: "/assets/img/2024-07-09-TrustIssuesShunyaCTFwrite-up_0.png"
 date: 2024-07-09 09:57
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-TrustIssuesShunyaCTFwrite-up_0.png
 tag: Tech
 originalTitle: "Trust Issues ShunyaCTF write-up"
 link: "https://medium.com/@tavilefty/trust-issues-shunyactf-write-up-2c38ece7aa33"
 isUpdated: true
 ---
-
-
-
-
 
 지난 주 nCreeps에서 첫 번째 오프라인 CTF인 ShunyaCTF를 주최했는데, 이 이벤트의 주최자로써 이벤트를 위해 CTF 도전 과제를 만들 기회가 있었어요. 그래서 제가 만든 도전 과제 중 하나인 Trust Issues에 대해 이야기할게요. 이는 허니팟(스포일러), 함정 그리고 신뢰 문제를 기반으로 한 리눅스 박스예요 😋
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 포괄적인 해법 방법
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도전 과제를 몇 가지 부분으로 나눠볼게요:
 
@@ -36,7 +43,18 @@ isUpdated: true
 
 음... 그러면, 대상은 aalu이고 ssh 브루트 포싱과 관련이 있다네요. 비밀번호 목록은 munged password에 대한 위키피디아 문서에서 가져와야 합니다. 'rock him' 부분은 아마 rockyou.txt의 사용을 제안하는 것 같네요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 시스템과 상호작용하기
 
@@ -46,7 +64,18 @@ isUpdated: true
 
 sudo를 왜 사용해야 하나요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 네, nmap은 기본적으로 대상에 대해 TCP 스캔을 수행하며 TCP는 3-way 핸드셰이크를 필요로 합니다. 이에 우리의 친절한 nmap은 다음 포트로 넘어가기 전에 3-way 핸드셰이크를 완료할 것을 확실히 합니다. 그러나 핸드셰이크를 완료하는 것은 좋은 제스처이지만 (ACK 패킷을 기다리는 포트를 방치하지 않게 됩니다) 많은 시간이 걸립니다. 이는 대회에서 원치 않을 일이죠!
 
@@ -54,7 +83,18 @@ sudo를 왜 사용해야 하나요?
 
 포트 22가 열려 있고 nmap은 이것이 ssh 서비스라고 말하고 있습니다. 이제 포트 22에 대해 공격적인 스캔을 해봅시다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 적극적인 스캔은 다음을 수행합니다:
 
@@ -67,20 +107,40 @@ sudo를 왜 사용해야 하나요?
 
 아마 이 글이 aalu의 ssh의 열쇠일 거에요? (이 쿼리로 얻은 것인데, 아주 테크니컬하죠, 그렇죠?) 이제 이 글을 스크랩해야 하며, 챌린지에 "임의의 단어를 비밀번호로 선택했다"고 되어 있습니다 (적어도 8자리이며 123이 추가된 총 11자/11자 이상이 되도록) 우리는 8자리 길이의 단어를 확실히 스크랩해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당하는 Markdown 양식으로 표를 변경할 수 있습니다.
 
-
 document.designMode = "on";
 document.execCommand("selectAll");
-
 
 이렇게 작성하면 기사의 모든 텍스트가 선택됩니다. 또한 cmd+A, cmd+C도 사용할 수 있어요.
 
 CeWL을 사용했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 쿼리를 실행했습니다:
 
@@ -90,7 +150,18 @@ cewl -d0 -m8 https://en.wikipedia.org/wiki/Munged_password -w aalu.txt
 
 작은 파이썬 스크립트를 실행했습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 # 단어 목록에 각 단어에 '123'을 추가하는 함수
@@ -127,8 +198,18 @@ append_suffix_to_wordlist(input_file, output_file)
 
 제 단어 목록이 잘못된 것일까요? 아마 그렇지 않겠죠? 왜냐하면 CeWL은 위키피디아(크롤링 허용)에서 잘 작동합니다. 심지어 js 콘솔 방법을 사용해도 작동하지 않아요. 뭔가 빠트린 게 있을 것 같네요!
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 노트: 사용자들은 스크립트도 사용할 수 있어요. 위키피디아의 파이썬 라이브러리를 사용한 이 기사는 정말 멋지네요.
 
@@ -139,7 +220,18 @@ append_suffix_to_wordlist(input_file, output_file)
 
 1번 옵션이 믿음의 도약처럼 보인다면, 2번 단계를 따라해봐요 (이건 사실, 도전의 원래 작동 방식이에요).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 무언가 흥미로운 것을 찾기 위해 전체 nmap 스캔을 시도해 봐요 (다른 방법이 뭘까요?)
 
@@ -149,17 +241,40 @@ append_suffix_to_wordlist(input_file, output_file)
 
 가끔 nmap이 놓치는 일이 있으니 2-3번 스캔을 하는 것을 제안해요, 어라, nmap은 이제 우리에게 불신을 줘? :(
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 nmap에서 때때로 놓치는 이유가 뭘까요? nmap은 서버로 패킷을 보내고 일정 시간 동안 대기한 다음, 해당 시간 내에 패킷이 도착하지 않으면 포트를 필터링하거나 닫힌 것으로 표시합니다. 그래서 주로 도구에 의존해서는 안 되고, 의존하게 된다면 그 도구에 대해 꽤 익숙해져야 합니다.
 
 다음과 같은 것을 할 수 있어요:
+
 - --max-retries(기본값 10): 포기하기 전에 포트로 패킷을 보낼 때 몇 번 시도할지 정의합니다.
 - --min-rate: 스캔 속도의 기준을 설정합니다. 너무 빠르면 실제로 시스템을 DoS할 수 있습니다. 비슷하게 --max-rate는 한 번에 보내는 패킷의 최대 제한을 설정합니다. 레거시 시스템에서 작업 중이라면 이러한 값을 적절히 조정해주세요.
 
 이제 nmap이 열려 있는 포트를 닫혀 있다고 표시할 수 있는 이유를 이해했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 포트 420에서 서비스를 스캔하고 확인했어요, smpte야. 구글링해보니 더 이상 사용되지 않는다고 하네요. 괜찮아요, 그럼 이 포트와 어떻게 상호작용할까요? 아마도 netcat을 통해 배너 그래빙을 해볼까요?
 
@@ -169,7 +284,18 @@ nmap에서 때때로 놓치는 이유가 뭘까요? nmap은 서버로 패킷을 
 
 nmap은 각 포트를 서비스에 매핑하고, 오픈된 포트를 보면 해당 포트에 매핑된 서비스만 보여주죠. 제발, nmap! 믿음문제를 일으키고 있어요😔
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앞으로 나아가기 전에 포트 22가 무엇인지 확인해 봅시다.
 
@@ -179,7 +305,18 @@ nmap은 각 포트를 서비스에 매핑하고, 오픈된 포트를 보면 해�
 
 ![image](/assets/img/2024-07-09-TrustIssuesShunyaCTFwrite-up_7.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아우 너! TCP/22번 포트의 ssh 암호는 'fuckyou' (매우 무례한 암호)야.
 
@@ -189,7 +326,18 @@ nmap은 각 포트를 서비스에 매핑하고, 오픈된 포트를 보면 해�
 
 그리고 사용자는 자신이 속은 걸 깨달았고 이게 SSH 서버가 아닌 것을 알게 될 거야!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 네, 설명이 맞았네요! aalu.txt는 ssh 서버가 아니기 때문에 작동하지 않습니다. 시스템 어딘가에는 ssh 서버가 있습니다.
 
@@ -199,7 +347,18 @@ nmap은 각 포트를 서비스에 매핑하고, 오픈된 포트를 보면 해�
 
 ![이미지](/assets/img/2024-07-09-TrustIssuesShunyaCTFwrite-up_8.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 시작해 볼까요! aalu의 SSH 비밀번호는 protection123 입니다.
 
@@ -209,8 +368,18 @@ nmap은 각 포트를 서비스에 매핑하고, 오픈된 포트를 보면 해�
 
 Linpeas를 사용하여 일부 특징이나 권한 상승 지표를 찾을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-09-TrustIssuesShunyaCTFwrite-up_9.png" />
 
@@ -220,8 +389,18 @@ find / -perm -u=s 2`/dev/null
 
 이 명령은 루트 디렉토리에서 SUID 비트가 설정된 것을 찾아서 오류를 /dev/null에 넣을 것입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SUID 비트를 이해해 봅시다. 이는 권한 상승의 단순한 통로입니다.
 
@@ -231,8 +410,18 @@ root 사용자가 아닌 사용자 A의 예제를 살펴본 이유는 종종 위
 
 또한, '/dev/null`을 보면 이는 모든 오류를 의미합니다 (find가 aalu의 소유가 아닌 파일을 읽을 수 없어 오류가 발생한다고 볼 수 있으며 /dev/null로 이동합니다. 이는 아무것도 존재하지 않는 곳으로, 모든 입력을 소멸시킵니다. '1`은 오류가 아닌 표준 출력을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-09-TrustIssuesShunyaCTFwrite-up_10.png)
 
@@ -242,8 +431,18 @@ root 사용자가 아닌 사용자 A의 예제를 살펴본 이유는 종종 위
 
 ![이미지](/assets/img/2024-07-09-TrustIssuesShunyaCTFwrite-up_11.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아마도 이진수인 것 같아요. 실행해보죠:
 
@@ -253,7 +452,18 @@ root 사용자가 아닌 사용자 A의 예제를 살펴본 이유는 종종 위
 
 os 라이브러리를 사용하여 사용자 ID(UID)를 0으로 설정했습니다. (womp 바이너리는 SUID가 설정되어 있어 0이 일반적으로 루트의 사용자 ID입니다. 그리고 이를 허용합니다.) 그런 다음 bash 쉘을 생성했습니다. 저는 중괄호 확장, 명령 치환 등을 지원하는 bash를 사용했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리들 진입 성공했어요!!
 
@@ -263,7 +473,18 @@ os 라이브러리를 사용하여 사용자 ID(UID)를 0으로 설정했습니�
 
 /root 디렉토리로 이동해서 ls 명령어를 입력하면 400개 파일만 나오네요. 하지만 여기서 CTF 중이라면 ls만 한다고 끝일까요? NO! ls -a를 입력해 추가 파일들을 확인해봐요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ls -l 명령어를 사용하면 파일 크기에 대한 감을 얻을 수 있어요. 조금 일관성 없어 보이지만요.
 
@@ -279,7 +500,18 @@ grep -rl `shunya` . | xargs cat
 <img src="/assets/img/2024-07-09-TrustIssuesShunyaCTFwrite-up_14.png" />
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 깃발을 획득했어요! shunyaCTF'1_10v3_h0n3y'입니다.
 
@@ -289,7 +521,18 @@ grep -rl `shunya` . | xargs cat
 
 ![이미지](/assets/img/2024-07-09-TrustIssuesShunyaCTFwrite-up_15.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제가 좋아하는 명령어 중 하나는 포트와 열린 파일을 확인하기 위한 lsof입니다. lsof -i :22 명령을 실행하면 포트 22에서 실행 중인 서비스를 확인할 수 있습니다. 보통 twistd인 것 같네요.
 
@@ -299,7 +542,18 @@ grep -rl `shunya` . | xargs cat
 
 ![이미지](/assets/img/2024-07-09-TrustIssuesShunyaCTFwrite-up_16.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 관심 있는 파일인 honeyfs와 etc/ (일반적으로 구성 파일)를 볼 수 있어요.
 
@@ -309,7 +563,18 @@ grep -rl `shunya` . | xargs cat
 
 userdb.txt 파일은 사용자 이름과 암호가 평문으로 나열된 파일이라는 것을 볼 수 있어요. 더불어, cowrie.cfg 파일에는 이러한 내용이 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [ssh]
 
@@ -320,7 +585,18 @@ listen_endpoints=tcp:22:interface=0.0.0.0
 
 이것은 /home/cowrie/cowrie/honeyfs/etc/shadow 파일이 보여주는 것이며, 이것은 22번 포트 ssh에서 shadow 파일 내용을 cat으로 확인했을 때 언뜻 보기에 비슷한 것이다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 파일에는 이렇게 나와 있습니다... 이것은 허니팟이었어요!
 
@@ -330,7 +606,18 @@ listen_endpoints=tcp:22:interface=0.0.0.0
 
 허니팟은 포트에서 실행되는 서비스로, 여기서는 SSH를 흉내내지만 텔넷이나 심지어 HTTP도 흉내낼 수 있습니다. 이들은 공격자에게 자신이 진짜 서버에서 하는 것처럼 착각하게 함으로써 실제 시스템을 복제합니다. 공격자의 각 단계를 캡처하고 나중에 다시 그에 대한 조치를 취할 수 있게 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 잼난 사실: FBI는 불법 서비스를 찾는 사람들을 유인하기 위해 꿀 덫 사이트를 사용해서 그들을 주시하고 있답니다.
 
@@ -340,13 +627,35 @@ listen_endpoints=tcp:22:interface=0.0.0.0
 
 카우리를 분해해 보고 싶다면, /cowrie/src/cowrie/commands로 가서 그 명령들이 어떻게 작동하는지 확인할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 요약입니다.
 알림! 기술적 한계로 인해 몇 가지 교정이 필요합니다.
 신속하게 확인하여 수정하겠습니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 nmap 이외에도 Rustscan 이라는 다른 포트 스캐닝 도구가 있어요. 이 도구는 nmap 보다 뛰어나고 빠르며, 잘못된 양성/음성 결과가 덜 발생해요. Rustscan 은 빠른 속도를 제공하는데, 이는 Rust 언어를 기반으로하기 때문이에요. 그러나 이 도구는 실제 시스템에 사용하기보다는 CTF(캡처 더 플래그)에 맞게 개발되었어요.
 
@@ -356,7 +665,18 @@ Rustscan 을 사용하려면 nmap, Rust 및 cargo 가 설치되어 있어야 하
 
 ## 권한 상승
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 네 맞아요, 사실 womp 바이너리를 검사할 필요 없이 권한 상승을 할 수 있다고 하면 어떨까요?
 
@@ -366,7 +686,18 @@ lxd는 컨테이너를 실행해서 시스템 서비스를 제공하는 데 사�
 
 lxd에 사용자가 속해 있는 것은 우분투 18.04에서 실제 취약점으로 나타났었지만, 우분투 20.04에서는 이게 문제가 될 것이라고 생각하지 않았어요. 하지만 그렇게 됐죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일부 참가자들은 실제로 lxd를 사용하여 권한을 상승시켰어요.
 
@@ -376,7 +707,18 @@ lxd에 사용자가 속해 있는 것은 우분투 18.04에서 실제 취약점�
 
 우리에게 상자가 주어지면 첫 번째 본능은 `ip`를 nmap하는 것인데, 실제 시나리오에서 '애매모호한 방식으로 보안'도 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내가 만든 상자는 실제 아키텍처를 상당히 시뮬레이트하며 펜테스팅이 어떻게 수행되는지를 잘 보여줍니다. 기본 포트에서 실행 중인 SSH는 전 세계의 봇이 IP를 스캔하고 서버를 공격하고 있다는 것을 의미합니다. 키 기반 인증을 사용하더라도 SSH를 표준이 아닌 포트에서 실행하는 것은 로그를 조직하는 좋은 아이디어입니다(실패한 시도가 적을 것입니다).
 
@@ -386,7 +728,18 @@ lxd에 사용자가 속해 있는 것은 우분투 18.04에서 실제 취약점�
 
 # 이 상자 재현하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 공식 웹 사이트에서 Ubuntu 서버 다운로드: https://releases.ubuntu.com/focal/ (ubuntu 20.04)
 - virtualbox 다운로드 (쉽게 .ova 파일을 제공해줍니다. vmware는 잘 모르겠네요): https://www.virtualbox.org/wiki/Downloads
@@ -405,13 +758,24 @@ lxd에 사용자가 속해 있는 것은 우분투 18.04에서 실제 취약점�
 
 - 특히 TCP/22 및 TCP/420 포트에 대한 포트 제한을 구현하십시오. rustscan 처럼 동작하는 사용자를 1차 시도에서 차단할 수 있도록 ufw를 사용하세요.
 - 잘못된 시도가 금지되도록 420번 포트에서 방화벽을 사용하십시오. 이를 위해 fail2ban을 사용하세요. 의도된 방법은 IP 변경기를 사용하는 것이나 난이도를 바꿀 수 있습니다.
-https://github.com/fail2ban/fail2ban
+  https://github.com/fail2ban/fail2ban
 - LXD 그룹에서 대상 사용자인 aalu를 제거하세요!!!
 - python 이왠지 다른 언어를 사용할 수 있습니다. 저는 rust를 시도했지만 의존성 문제 때문에 실패했습니다. 예를 들어 golang을 시도해볼 수 있습니다.
 - privEsc 프로세스를 3번째 사용자를 포함하여 길게 만들 수 있습니다. aalu를 감염한 후, 공격자는 우리가 제공한 privEsc 방법을 통해 3번째 사용자를 감염시켜 root 액세스를 얻기 위해 crontab 취약점을 사용해야 합니다.
 - 플래그를 단락으로 넣어 수동으로 플래그를 찾는 것이 어려워지도록 만들어보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 할 일이 많지만, 다음 상자의 작성에 포함될 예정이에요.
 

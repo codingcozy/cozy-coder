@@ -3,7 +3,7 @@ title: "Python으로 LLaMA 3 처음부터 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-07-BuildingLLaMA3FromScratchwithPython_0.png"
 date: 2024-07-07 22:56
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-BuildingLLaMA3FromScratchwithPython_0.png
 tag: Tech
 originalTitle: "Building LLaMA 3 From Scratch with Python"
@@ -11,17 +11,24 @@ link: "https://medium.com/gitconnected/building-llama-3-from-scratch-with-python
 isUpdated: true
 ---
 
-
-
-
-
 LLaMA 3은 Mistral 이후 가장 유망한 오픈 소스 모델 중 하나로 다양한 작업을 해결합니다. 이전에 LLM을 LLaMA 아키텍처를 사용하여 2.3백만 개가 넘는 매개변수로 처음부터 만드는 방법에 대한 블로그를 Medium에 작성했습니다. 이제 LLaMA-3이 출시되었으므로 조금 더 간단하게 재현하겠습니다.
 
 이 블로그에서는 GPU를 사용하지는 않지만, 15GB 이상의 파일을 로드해야 하므로 적어도 17GB RAM이 필요합니다. 이 점이 문제라면 Kaggle을 해결책으로 사용할 수 있습니다. GPU가 필요하지 않기 때문에 Kaggle은 CPU 코어만 가속기로 사용하면서도 30GB RAM을 제공합니다.
 
 이 블로그에서 코드를 복사하여 붙여 넣는 것을 피하기 위해 GitHub 저장소에 노트북 파일과 모든 코드 및 정보가 포함된 링크가 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 LLM(대규모 언어 모델)을 처음부터 만드는 방법을 안내하는 블로그 링크가 있어요:
 
@@ -30,10 +37,10 @@ LLaMA 3은 Mistral 이후 가장 유망한 오픈 소스 모델 중 하나로 �
 - 선행 요구 사항
 - LLaMA 2와 LLaMA 3의 차이
 - LLaMA 3의 트랜스포머 아키텍처 이해
-∘ RMSNorm을 사용한 사전 정규화
-∘ SwiGLU 활성화 기능
-∘ Rotary Embeddings (RoPE)
-∘ Byte Pair Encoding (BPE) 알고리즘
+  ∘ RMSNorm을 사용한 사전 정규화
+  ∘ SwiGLU 활성화 기능
+  ∘ Rotary Embeddings (RoPE)
+  ∘ Byte Pair Encoding (BPE) 알고리즘
 - 무대를 설정하기
 - 파일 구조 이해하기
 - 입력 데이터 토큰화
@@ -49,7 +56,18 @@ LLaMA 3은 Mistral 이후 가장 유망한 오픈 소스 모델 중 하나로 �
 
 # 선행 요구 사항
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 좋은 소식은 객체 지향 프로그래밍(OOP) 코딩을 사용하지 않을 것이며, 순수한 파이썬 프로그래밍만 사용할 것이라는 것입니다. 그러나 신경망과 트랜스포머 구조에 대한 기본적인 이해가 필요합니다. 이 두 가지만 알고 있다면 블로그를 따라오는 데 문제가 없을 것입니다.
 
@@ -59,7 +77,18 @@ LLaMA 3은 Mistral 이후 가장 유망한 오픈 소스 모델 중 하나로 �
 
 LLaMA 2와 LLaMA 3에 관한 중요한 몇 가지 포인트를 소개합니다. 이미 그들의 아키텍처에 익숙하다면:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## LLaMA 3의 Transformer 아키텍처 이해하기
 
@@ -69,7 +98,18 @@ LLaMA 2와 LLaMA 3에 관한 중요한 몇 가지 포인트를 소개합니다. 
 
 ### 1. RMSNorm을 사용한 Pre-normalization:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LLaMA 3 방식에서 LLaMA 2와 동일하게, 각 트랜스포머 서브 레이어의 입력을 정규화하는 기술인 RMSNorm을 사용합니다.
 
@@ -79,7 +119,18 @@ LLaMA 3 방식에서 LLaMA 2와 동일하게, 각 트랜스포머 서브 레이�
 
 이것은 ChatGPT와 같은 대형 언어 모델(LLMs)에 대해 RMSNorm을 사용한 사전 정규화가 등장하는 곳입니다. 이는 각 장에 중요도를 부여하는 것과 같습니다. 주제에 필수적인 장은 높은 가중치를 받고, 중요하지 않은 장은 낮은 가중치를 받습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 딥하게 공부에 들어가기 전에, 각 챕터의 중요도에 따라 공부 계획을 조절하는 거지. 더 중요한 챕터에는 더 많은 시간과 노력을 투자해서, 핵심 개념을 철저히 이해하는 걸 보장하는 거야.
 
@@ -89,7 +140,18 @@ LLaMA 3 방식에서 LLaMA 2와 동일하게, 각 트랜스포머 서브 레이�
 
 ## 2. SwiGLU 활성화 함수:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LLaMA이 SwiGLU 활성화 함수를 소개합니다. 이는 PaLM에서 영감을 받았습니다.
 
@@ -99,7 +161,18 @@ LLaMA이 SwiGLU 활성화 함수를 소개합니다. 이는 PaLM에서 영감을
 
 SwiGLU는 ChatGPT와 같은 대형 언어 모델(LLM)을 위한 그 마법 펜과 같은 것입니다. 텍스트를 생성하기 전에 SwiGLU는 각 단어나 구문의 문맥과의 관련성에 기초하여 중요도를 조정합니다. 마법 펜이 필기의 크기와 스타일을 조정하는 것처럼, SwiGLU는 각 단어나 구문의 강조를 조정합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-07-BuildingLLaMA3FromScratchwithPython_2.png)
 
@@ -109,7 +182,18 @@ So, when the Language Model generates text, it can give more prominence to the i
 
 로테이션 임베딩 또는 RoPE는 LLaMA 3에서 사용되는 위치 임베딩의 한 유형입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 수업실 안에 있다고 상상해보세요. 학생들에게 그룹 토론을 위한 좌석을 배치하고 싶습니다. 일반적으로 행과 열로 좌석을 배치하여 각 학생이 고정된 위치를 갖게 할 수 있습니다. 하지만 경우에 따라서는, 학생들이 더 자유롭게 움직이고 상호 작용할 수 있는 더 동적인 좌석 배치를 만들고 싶을 수도 있습니다.
 
@@ -119,7 +203,18 @@ ROPE은 각 학생이 상대적인 위치를 유지하면서 회전하고 위치
 
 그래서 텍스트를 처리할 때, ROPE는 위치 임베딩을 고정되고 정적으로 다루는 대신, 회전 요소를 도입하여 시퀀스 내 단어 사이의 동적 관계를 캡처하는 더 유연한 표현을 제공합니다. 이 유연성은 ChatGPT와 같은 모델이 자연스럽게 흘러가고 일관성을 유지하는 텍스트를 이해하고 생성하는 데 도움이 됩니다. 마치 동적인 좌석 배치가 수업실에서 더 활발한 토론을 유도하는 것처럼요. 수학적 세부사항에 관심이 있는 분들은 RoPE 논문을 참고할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 4. 바이트 페어 인코딩 (BPE) 알고리즘
 
@@ -129,7 +224,18 @@ LLaMA 3에서는 OpenAI에서 소개된 tiktoken 라이브러리의 바이트 �
 
 다음으로, 텍스트 코퍼스에서 각 문자의 빈도를 계산합니다. 이 예제에서 각 문자의 빈도는 '“a”: 1, “b”: 3, “c”: 3, “d”: 2, “e”: 1'입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 병합 과정을 시작합니다. 원하는 크기의 어휘 사전을 얻을 때까지 다음 단계를 반복합니다:
 
@@ -144,19 +250,39 @@ LLaMA 3에서는 OpenAI에서 소개된 tiktoken 라이브러리의 바이트 �
 
 # 준비 단계 설정
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작은 범위의 Python 라이브러리를 사용할 것이지만 "모듈을 찾을 수 없음" 오류를 피하기 위해 설치하는 것이 좋습니다.
 
-
 pip install sentencepiece tiktoken torch blobfile matplotlib huggingface_hub
-
 
 필요한 라이브러리를 설치한 후에는 몇 가지 파일을 다운로드해야 합니다. llama-3-8B의 아키텍처를 복제할 예정이므로 HuggingFace에 계정을 갖고 있어야 합니다. 또한 llama-3는 게이트된 모델이므로 해당 모델 콘텐츠에 액세스하려면 약관에 동의해야 합니다.
 
 아래는 진행해야 할 단계입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이 링크를 통해 HuggingFace 계정을 만들어주세요.
 - 이 링크를 통해 'llama-3-8B'의 약관에 동의해주세요.
@@ -167,7 +293,18 @@ pip install sentencepiece tiktoken torch blobfile matplotlib huggingface_hub
 
 ![BuildingLLaMA3FromScratchwithPython_3](/assets/img/2024-07-07-BuildingLLaMA3FromScratchwithPython_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 (options 2: 코딩) 이전에 설치한 hugging_face 라이브러리를 사용하여 이 파일들을 모두 다운로드할 수 있습니다. 그러나 먼저 작업 노트북에서 HF Token을 사용하여 HuggingFace Hub에 로그인해야 합니다. 새 토큰을 만들거나 이 링크에서 액세스할 수 있습니다.
 
@@ -205,29 +342,53 @@ for filename in filenames:
     )
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 파일을 다운로드하면, 이 블로그 전체에서 사용할 라이브러리를 가져와야 합니다.
 
-
 # Tokenization library
+
 import tiktoken
 
 # BPE loading function
+
 from tiktoken.load import load_tiktoken_bpe
 
 # PyTorch library
+
 import torch
 
 # JSON handling
-import json
 
+import json
 
 다음으로, 각 파일이 어떻게 사용될지 이해해야 합니다.
 
 # 파일 구조 이해하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 라마-3의 정확한 복제를 목표로 하고 있기 때문에, 입력 텍스트는 의미 있는 결과를 내야 합니다. 예를 들어, "태양의 색깔은?" 이라는 입력이 주어지면 결과는 "흰색"이어야 합니다. 이를 달성하기 위해서는 거대한 데이터셋에서 LLM을 훈련해야 하는데, 이는 높은 계산 능력이 필요하여 우리에게는 실현하기 어려운 과제입니다.
 
@@ -237,48 +398,74 @@ import json
 
 tokenizer.model — 우리가 이전에 논의한 대로, LLaMA-3은 tiktoken에서 훈련된 Byte Pair Encoding (BPE) 토크나이저를 사용하고, 이는 15조 개의 토큰을 가진 데이터셋에서 학습되었으며, 이는 LLaMA-2에 사용된 데이터셋보다 7배 큽니다. 이 파일을 로드하여 내용을 살펴봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # llama-3-8B 토크나이저를 불러오는 중입니다.
+
 tokenizer_model = load_tiktoken_bpe("tokenizer.model")
 
 # 토크나이저 모델의 길이를 얻습니다.
+
 len(tokenizer_model)
+
 # 출력: 128000
 
 # `tokenizer_model` 객체의 타입을 확인합니다.
-type(tokenizer_model)
-# 출력: dictionary
 
+type(tokenizer_model)
+
+# 출력: dictionary
 
 토크나이저 모델의 길이 속성은 학습 데이터의 문자 수를 나타내며, 고유한 문자의 총 개수를 보여줍니다. tokenizer_model의 타입은 dictionary입니다.
 
-
 # 토크나이저 모델의 첫 10개 아이템을 출력합니다.
+
 dict(list(tokenizer_model.items())[5600:5610])
 
-#### 출력 ####
+#### 출력
+
 {
- 
-  b'mitted': 5600,
-  b" $('#": 5601,
-  b' saw': 5602,
-  b' approach': 5603,
-  b'ICE': 5604,
-  b' saying': 5605,
-  b' anyone': 5606,
-  b'meta': 5607,
-  b'SD': 5608,
-  b' song': 5609
+
+b'mitted': 5600,
+b" $('#": 5601,
+b' saw': 5602,
+b' approach': 5603,
+b'ICE': 5604,
+b' saying': 5605,
+b' anyone': 5606,
+b'meta': 5607,
+b'SD': 5608,
+b' song': 5609
 
 }
-#### 출력 ####
 
+#### 출력
 
 랜덤으로 10개의 아이템을 출력하면, 이전에 논의한 예시와 같이 BPE 알고리즘을 사용하여 형성된 문자열을 볼 수 있습니다. 키는 BPE 훈련에서 생성된 Byte 시퀀스를 나타내며, 값은 빈도수에 기반한 병합 순위를 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `consolidated.00.pth` 파일은 Llama-3-8B의 학습된 매개변수(가중치)를 포함하고 있어요. 이러한 매개변수에는 모델이 언어를 이해하고 처리하는 방법에 대한 정보가 포함되어 있어요. 예를 들어, 모델이 토큰을 어떻게 표현하며, 어텐션을 계산하고, 피드포워드 변환을 수행하며, 출력을 정규화하는지에 대한 정보가 있어요.
 
@@ -311,65 +498,96 @@ list(model.keys())[:11]
 
 `params.json` 파일은 다양한 매개변수 값을 포함하고 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 파라미터 JSON 파일 열기
+
 with open("params.json", "r") as f:
-    config = json.load(f)
+config = json.load(f)
 
 # 내용 출력
+
 print(config)
 
-#### 출력 결과 ####
-{
- 'dim': 4096,
- 'n_layers': 32,
- 'n_heads': 32,
- 'n_kv_heads': 8,
- 'vocab_size': 128256,
- 'multiple_of': 1024,
- 'ffn_dim_multiplier': 1.3,
- 'norm_eps': 1e-05,
- 'rope_theta': 500000.0
-}
-#### 출력 결과 ####
+#### 출력 결과
 
+{
+'dim': 4096,
+'n_layers': 32,
+'n_heads': 32,
+'n_kv_heads': 8,
+'vocab_size': 128256,
+'multiple_of': 1024,
+'ffn_dim_multiplier': 1.3,
+'norm_eps': 1e-05,
+'rope_theta': 500000.0
+}
+
+#### 출력 결과
 
 이러한 값들은 우리가 나중에 사용할 수 있도록 르라마-3 아키텍처를 복제하는 데 도움이 될 것입니다. 헤드 수, 임베딩 벡터의 차원 등과 같은 세부 정보를 지정하는 것입니다.
 
 나중에 사용할 수 있도록 이러한 값을 저장합시다.
 
-
 # 차원
+
 dim = config["dim"]
 
 # 레이어
+
 n_layers = config["n_layers"]
 
 # 헤드
+
 n_heads = config["n_heads"]
 
-# KV_헤드
+# KV\_헤드
+
 n_kv_heads = config["n_kv_heads"]
 
 # 어휘 크기
+
 vocab_size = config["vocab_size"]
 
 # 배수
+
 multiple_of = config["multiple_of"]
 
 # 배율
+
 ffn_dim_multiplier = config["ffn_dim_multiplier"]
 
 # 엡실론
+
 norm_eps = config["norm_eps"]
 
 # RoPE
+
 rope_theta = torch.tensor(config["rope_theta"])
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 토크나이저 모델, 가중치가 담긴 아키텍처 모델 및 설정 매개변수를 갖고 있으니, 우리만의 Llama-3를 처음부터 코딩해 보겠습니다.
 
@@ -392,7 +610,18 @@ special_tokens = [
 ] + [f"<|reserved_special_token_{i}|>" for i in range(5, 256 - 5)]  # 향후 사용을 위해 예약된 많은 수의 토큰 집합입니다.
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로, 입력 텍스트의 다양한 부분 문자열 유형에 맞는 패턴을 지정하여 텍스트를 토큰으로 분할하는 규칙을 정의합니다. 아래는 그 방법입니다.
 
@@ -405,10 +634,21 @@ tokenize_breaker = r"(?i:'s|'t|'re|'ve|'m|'ll|'d)|[^\r\n\p{L}\p{N}]?\p{L}+|\p{N}
 
 TikToken BPE를 사용하여 간단한 토크나이저 함수를 작성해야 합니다. 이 함수는 tokenizer_model, tokenize_breaker, special_tokens 세 가지 입력을 받습니다. 이 함수는 우리의 입력 텍스트를 인코딩/디코딩할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 설정된 매개변수로 토크나이저를 초기화합니다.
+
 tokenizer = tiktoken.Encoding(
 
     # tokenizer.model 파일의 경로를 설정해주세요.
@@ -422,46 +662,62 @@ tokenizer = tiktoken.Encoding(
 
     # 특수 토큰에 인덱스를 할당합니다.
     special_tokens={token: len(tokenizer_model) + i for i, token in enumerate(special_tokens)},
+
 )
 
 # "hello world!"를 인코딩하고 토큰을 문자열로 디코딩합니다.
+
 tokenizer.decode(tokenizer.encode("hello world!"))
 
-#### 결과 ####
-hello world!
-#### 결과 ####
+#### 결과
 
+hello world!
+
+#### 결과
 
 우리의 인코더 함수가 정확히 작동하는지 확인하기 위해 "Hello World"를 전달합니다. 먼저 텍스트를 숫자 값으로 변환하여 인코딩하고, 이후 다시 텍스트로 디코딩하여 "hello world!"로 결과를 얻습니다. 이것은 함수가 올바르게 작동함을 확인합니다. 이제 입력 텍스트를 토큰화해 봅시다.
 
-
 # 입력 프롬프트
+
 prompt = "the answer to the ultimate question of life, the universe, and everything is "
 
 # 토크나이저를 사용하여 프롬프트를 인코딩하고 특수 토큰(128000)을 앞에 추가합니다.
+
 tokens = [128000] + tokenizer.encode(prompt)
 
-print(tokens)  # 인코딩된 토큰을 출력합니다.
+print(tokens) # 인코딩된 토큰을 출력합니다.
 
 # 토큰 목록을 PyTorch 텐서로 변환합니다.
+
 tokens = torch.tensor(tokens)
 
 # 각 토큰을 해당하는 문자열로 다시 디코딩합니다.
+
 prompt_split_as_tokens = [tokenizer.decode([token.item()]) for token in tokens]
 
-print(prompt_split_as_tokens)  # 디코딩된 토큰을 출력합니다.
+print(prompt_split_as_tokens) # 디코딩된 토큰을 출력합니다.
 
+#### 결과
 
-#### 결과 ####
 [128000, 1820, 4320, 311, ... ]
 ['<|begin_of_text|>', 'the', ' answer', ' to', ... ]
-#### 결과 ####
 
+#### 결과
 
 입력 텍스트 "the answer to the ultimate question of life, the universe, and everything is "를 특수 토큰으로 시작하여 인코딩하였습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 각 토큰에 대한 임베딩 생성
 
@@ -485,34 +741,59 @@ print(dim)
 #### 출력 ####
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리의 입력 벡터는 현재 (17x1) 차원을 가지고 있습니다. 각 토큰화된 단어에 대한 임베딩으로 변환해야 합니다. 이는 (17x1) 토큰들이 각각 길이가 4096인 임베딩으로 변환될 것을 의미합니다.
 
-
 # 어휘 크기와 임베딩 차원을 지정하여 임베딩 레이어 정의
+
 embedding_layer = torch.nn.Embedding(vocab_size, dim)
 
 # 사전 훈련된 토큰 임베딩을 임베딩 레이어에 복사
-embedding_layer.weight.data.copy_(model["tok_embeddings.weight"])
+
+embedding*layer.weight.data.copy*(model["tok_embeddings.weight"])
 
 # 주어진 토큰들에 대한 토큰 임베딩을 가져와서 torch.bfloat16 형식으로 변환
+
 token_embeddings_unnormalized = embedding_layer(tokens).to(torch.bfloat16)
 
 # 결과 토큰 임베딩의 형태 출력
+
 token_embeddings_unnormalized.shape
 
+#### 결과
 
-#### 결과 ####
 torch.Size([17, 4096])
-#### 결과 ####
 
+#### 결과
 
 이러한 임베딩은 정규화되지 않았으며, 이를 정규화하지 않으면 심각한 영향을 미칠 수 있습니다. 다음 섹션에서는 입력 벡터에 정규화를 수행할 것입니다.
 
 # RMSNorm을 사용한 정규화
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전에 RMSNorm에 본 것과 동일한 공식을 사용하여 입력 벡터를 정규화할 것입니다.
 
@@ -524,31 +805,43 @@ def rms_norm(tensor, norm_weights):
 
     # 마지막 차원을 따라 텐서 값의 제곱의 평균 계산
     squared_mean = tensor.pow(2).mean(-1, keepdim=True)
-    
+
     # 0으로 나누는 것을 피하기 위해 작은 값 추가
     normalized = torch.rsqrt(squared_mean + norm_eps)
-    
+
     # 정규화된 텐서에 제공된 정규화 가중치를 곱함
     return (tensor * normalized) * norm_weights
 ```
 
-우리는 미정규화된 임베딩을 정규화하기 위해 레이어_0에서 어텐션 가중치를 사용할 것입니다. 레이어_0을 사용하는 이유는 LLaMA-3 트랜스포머 아키텍처의 첫 번째 레이어를 만들고 있기 때문입니다.
+우리는 미정규화된 임베딩을 정규화하기 위해 레이어\_0에서 어텐션 가중치를 사용할 것입니다. 레이어\_0을 사용하는 이유는 LLaMA-3 트랜스포머 아키텍처의 첫 번째 레이어를 만들고 있기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # RMS normalization 및 제공된 정규화 가중치 사용
-token_embeddings = rms_norm(token_embeddings_unnormalized, 
-                            model["layers.0.attention_norm.weight"])
+
+token_embeddings = rms_norm(token_embeddings_unnormalized,
+model["layers.0.attention_norm.weight"])
 
 # 결과 토큰 임베딩의 형태 출력
+
 token_embeddings.shape
 
+#### 결과
 
-#### 결과 ####
 torch.Size([17, 4096])
-#### 결과 ####
 
+#### 결과
 
 이미 알고 계실 수도 있겠지만, 차원이 변하지 않는 이유는 벡터만을 정규화하기 때문입니다.
 
@@ -556,9 +849,18 @@ torch.Size([17, 4096])
 
 먼저, 모델로부터 쿼리, 키, 값 및 출력 벡터를 로드해 보겠습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 무게를 측정한 결과 모델의 쿼리 무게 모양은 torch.Size([4096, 4096])입니다. 키 무게 모양은 torch.Size([1024, 4096])이고, 값 무게 모양은 torch.Size([1024, 4096])이며, 출력 무게 모양은 torch.Size([4096, 4096])입니다.
 
@@ -568,8 +870,18 @@ torch.Size([17, 4096])
 
 여기서 32는 Llama-3의 어텐션 헤드 수를 나타내며, 128은 쿼리 벡터의 크기, 4096은 토큰 임베딩의 크기입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째 레이어의 첫 번째 헤드의 쿼리 가중치 행렬에 접근할 수 있어요:
 
@@ -599,7 +911,18 @@ torch.Size([17, 128])
 #### 출력 ####
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 쿼리 벡터들은 질문 내에서 자신의 위치를 본질적으로 모르기 때문에 RoPE를 사용하여 위치를 알립니다.
 
@@ -620,9 +943,20 @@ torch.Size([17, 64, 2])
 #### 결과 ####
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-[17x64x2] 사이즈의 벡터가 있습니다. 이 벡터는 128 길이의 쿼리를 각 프롬프트 토큰에 대해 64개의 쌍으로 분할한 것을 나타냅니다. 각 쌍은 해당 토큰의 위치에 따라 m*theta만큼 회전될 것입니다. 여기서 m은 회전시킬 쿼리를 나타내는 토큰의 위치입니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+[17x64x2] 사이즈의 벡터가 있습니다. 이 벡터는 128 길이의 쿼리를 각 프롬프트 토큰에 대해 64개의 쌍으로 분할한 것을 나타냅니다. 각 쌍은 해당 토큰의 위치에 따라 m\*theta만큼 회전될 것입니다. 여기서 m은 회전시킬 쿼리를 나타내는 토큰의 위치입니다.
 
 벡터를 회전시키기 위해 복소수의 점곱을 사용할 것입니다.
 
@@ -647,132 +981,188 @@ tensor([0.0000, 0.0156, 0.0312, 0.0469, 0.0625, 0.0781, 0.0938, 0.1094, 0.1250,
 
 분할 단계 이후, 이를 계산하여 주파수를 구할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 파워 연산을 사용하여 주파수 계산하기
-freqs = 1.0 / (rope_theta ** zero_to_one_split_into_64_parts)
+
+freqs = 1.0 / (rope_theta \*\* zero_to_one_split_into_64_parts)
 
 # 계산된 주파수 출력
+
 freqs
 
-#### OUTPUT ####
-tensor([1.0000e+00, 8.1462e-01, 6.6360e-01, 5.4058e-01, 4.4037e-01, 3.5873e-01,
-        2.9223e-01, 2.3805e-01, 1.9392e-01, 1.5797e-01, 1.2869e-01, 1.0483e-01,
-        8.5397e-02, 6.9566e-02, 5.6670e-02, 4.6164e-02, 3.7606e-02, 3.0635e-02,
-        2.4955e-02, 2.0329e-02, 1.6560e-02, 1.3490e-02, 1.0990e-02, 8.9523e-03,
-        7.2927e-03, 5.9407e-03, 4.8394e-03, 3.9423e-03, 3.2114e-03, 2.6161e-03,
-        2.1311e-03, 1.7360e-03, 1.4142e-03, 1.1520e-03, 9.3847e-04, 7.6450e-04,
-        6.2277e-04, 5.0732e-04, 4.1327e-04, 3.3666e-04, 2.7425e-04, 2.2341e-04,
-        1.8199e-04, 1.4825e-04, 1.2077e-04, 9.8381e-05, 8.0143e-05, 6.5286e-05,
-        5.3183e-05, 4.3324e-05, 3.5292e-05, 2.8750e-05, 2.3420e-05, 1.9078e-05,
-        1.5542e-05, 1.2660e-05, 1.0313e-05, 8.4015e-06, 6.8440e-06, 5.5752e-06,
-        4.5417e-06, 3.6997e-06, 3.0139e-06, 2.4551e-06])
-#### OUTPUT ####
+#### OUTPUT
 
+tensor([1.0000e+00, 8.1462e-01, 6.6360e-01, 5.4058e-01, 4.4037e-01, 3.5873e-01,
+2.9223e-01, 2.3805e-01, 1.9392e-01, 1.5797e-01, 1.2869e-01, 1.0483e-01,
+8.5397e-02, 6.9566e-02, 5.6670e-02, 4.6164e-02, 3.7606e-02, 3.0635e-02,
+2.4955e-02, 2.0329e-02, 1.6560e-02, 1.3490e-02, 1.0990e-02, 8.9523e-03,
+7.2927e-03, 5.9407e-03, 4.8394e-03, 3.9423e-03, 3.2114e-03, 2.6161e-03,
+2.1311e-03, 1.7360e-03, 1.4142e-03, 1.1520e-03, 9.3847e-04, 7.6450e-04,
+6.2277e-04, 5.0732e-04, 4.1327e-04, 3.3666e-04, 2.7425e-04, 2.2341e-04,
+1.8199e-04, 1.4825e-04, 1.2077e-04, 9.8381e-05, 8.0143e-05, 6.5286e-05,
+5.3183e-05, 4.3324e-05, 3.5292e-05, 2.8750e-05, 2.3420e-05, 1.9078e-05,
+1.5542e-05, 1.2660e-05, 1.0313e-05, 8.4015e-06, 6.8440e-06, 5.5752e-06,
+4.5417e-06, 3.6997e-06, 3.0139e-06, 2.4551e-06])
+
+#### OUTPUT
 
 이제 각 토큰의 쿼리 요소에 복소수를 할당하고 위치에 따라 회전시키기 위해 닷 프로덕트를 사용합니다.
 
-
 # 토큰 당 쿼리를 복소수로 변환
+
 q_per_token_as_complex_numbers = torch.view_as_complex(q_per_token_split_into_pairs)
 
 q_per_token_as_complex_numbers.shape
+
 # 출력: torch.Size([17, 64])
 
 # 각 토큰의 주파수 계산하기 - arange(17)과 freqs의 외적 사용
+
 freqs_for_each_token = torch.outer(torch.arange(17), freqs)
 
 # 극좌표를 사용하여 freqs_for_each_token에서 복소수 계산
+
 freqs_cis = torch.polar(torch.ones_like(freqs_for_each_token), freqs_for_each_token)
 
 # 주파수에 따라 복소수 회전
-q_per_token_as_complex_numbers_rotated = q_per_token_as_complex_numbers * freqs_cis
+
+q_per_token_as_complex_numbers_rotated = q_per_token_as_complex_numbers \* freqs_cis
 
 q_per_token_as_complex_numbers_rotated.shape
-# 출력: torch.Size([17, 64])
 
+# 출력: torch.Size([17, 64])
 
 회전된 벡터를 얻은 후, 복소수를 다시 실수로 볼 때 원래 쿼리로 돌아갈 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 회전된 복소수를 다시 실수로 변환
+
 q_per_token_split_into_pairs_rotated = torch.view_as_real(q_per_token_as_complex_numbers_rotated)
 
 # 결과 텐서의 모양 출력
+
 q_per_token_split_into_pairs_rotated.shape
 
-#### 출력 ####
-torch.Size([17, 64, 2])
-#### 출력 ####
+#### 출력
 
+torch.Size([17, 64, 2])
+
+#### 출력
 
 이제 회전된 페어가 병합되어 새로운 쿼리 벡터(회전된 쿼리 벡터)를 만들었습니다. 이 벡터의 모양은 [17x128]이며, 여기서 17은 토큰 수이고 128은 쿼리 벡터의 차원입니다.
 
-
 # 회전된 토큰 쿼리를 원래 모양에 맞게 다시 변형
+
 q_per_token_rotated = q_per_token_split_into_pairs_rotated.view(q_per_token.shape)
 
 # 결과 텐서의 모양 출력
+
 q_per_token_rotated.shape
 
-#### 출력 ####
-torch.Size([17, 128])
-#### 출력 ####
+#### 출력
 
+torch.Size([17, 128])
+
+#### 출력
 
 키에 대해서도 프로세스는 유사하지만, 키 벡터가 128차원임을 염두에 두세요. 쿼리와 비슷하게 키는 1/4분의 가중치 수를 가지며, 연산을 최소화하기 위해 한 번에 4개의 헤드에 공유됩니다. 또한 키 또한 위치 정보를 포함하여 회전됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 모델의 첫 번째 레이어에서 어텐션 메커니즘의 키에 대한 가중치 텐서를 추출합니다.
+
 k_layer0 = model["layers.0.attention.wk.weight"]
 
 # 어텐션의 첫 번째 레이어에 대한 키 가중치를 헤드별로 분리하려면 reshape합니다.
+
 k_layer0 = k_layer0.view(n_kv_heads, k_layer0.shape[0] // n_kv_heads, dim)
 
 # reshape된 키 가중치 텐서의 형태를 출력합니다.
-k_layer0.shape  # 출력: torch.Size([8, 128, 4096])
+
+k_layer0.shape # 출력: torch.Size([8, 128, 4096])
 
 # 어텐션의 첫 번째 레이어의 첫 번째 헤드에 대한 키 가중치를 추출합니다.
+
 k_layer0_head0 = k_layer0[0]
 
 # 첫 번째 헤드에 대한 추출된 키 가중치 텐서의 형태를 출력합니다.
-k_layer0_head0.shape  # 출력: torch.Size([128, 4096])
+
+k_layer0_head0.shape # 출력: torch.Size([128, 4096])
 
 # 토큰 임베딩과 키 가중치 간의 행렬 곱으로 토큰 당 키를 계산합니다.
+
 k_per_token = torch.matmul(token_embeddings, k_layer0_head0.T)
 
 # 각 토큰에 대한 키를 나타내는 결과 텐서의 형태를 출력합니다.
-k_per_token.shape  # 출력: torch.Size([17, 128])
+
+k_per_token.shape # 출력: torch.Size([17, 128])
 
 # 키를 쌍으로 분할하고 float로 변환합니다.
+
 k_per_token_split_into_pairs = k_per_token.float().view(k_per_token.shape[0], -1, 2)
 
 # 쌍으로 분할 후 텐서의 형태를 출력합니다.
-k_per_token_split_into_pairs.shape  # 출력: torch.Size([17, 64, 2])
+
+k_per_token_split_into_pairs.shape # 출력: torch.Size([17, 64, 2])
 
 # 키를 복소수로 변환합니다.
+
 k_per_token_as_complex_numbers = torch.view_as_complex(k_per_token_split_into_pairs)
 
 # 키를 복소수로 나타내는 결과 텐서의 형태를 출력합니다.
-k_per_token_as_complex_numbers.shape  # 출력: torch.Size([17, 64])
+
+k_per_token_as_complex_numbers.shape # 출력: torch.Size([17, 64])
 
 # 주파수에 따라 복소수로 된 키를 회전합니다.
-k_per_token_split_into_pairs_rotated = torch.view_as_real(k_per_token_as_complex_numbers * freqs_cis)
+
+k_per_token_split_into_pairs_rotated = torch.view_as_real(k_per_token_as_complex_numbers \* freqs_cis)
 
 # 회전된 복소수로 된 키의 형태를 출력합니다.
-k_per_token_split_into_pairs_rotated.shape  # 출력: torch.Size([17, 64, 2])
+
+k_per_token_split_into_pairs_rotated.shape # 출력: torch.Size([17, 64, 2])
 
 # 회전된 키를 원래의 형태에 맞게 재구성합니다.
+
 k_per_token_rotated = k_per_token_split_into_pairs_rotated.view(k_per_token.shape)
 
 # 회전된 키의 형태를 출력합니다.
-k_per_token_rotated.shape  # 출력: torch.Size([17, 128])
 
+k_per_token_rotated.shape # 출력: torch.Size([17, 128])
 
 이제 모든 토큰에 대한 회전된 쿼리와 키를 얻었는데, 각각의 크기는 [17x128]입니다.
 
@@ -780,47 +1170,72 @@ k_per_token_rotated.shape  # 출력: torch.Size([17, 128])
 
 쿼리와 키 행렬을 곱하면 각 토큰을 다른 토큰에 매핑하는 점수가 생성됩니다. 이 점수는 각 토큰의 쿼리와 키 간의 관계를 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 토큰별 쿼리-키 내적 계산
-qk_per_token = torch.matmul(q_per_token_rotated, k_per_token_rotated.T) / (head_dim) ** 0.5
+
+qk_per_token = torch.matmul(q_per_token_rotated, k_per_token_rotated.T) / (head_dim) \*\* 0.5
 
 # 쿼리-키 내적 결과 텐서의 형태 출력
+
 qk_per_token.shape
 
+#### 결과
 
-#### 결과 ####
 torch.Size([17, 17])
-#### 결과 ####
 
+#### 결과
 
 [17x17] 형태는 어텐션 점수를 나타냅니다(qk_per_token). 여기서 17은 프롬프트에 있는 토큰 수를 나타냅니다.
 
 쿼리-키 점수를 마스킹해야 합니다. 훈련 중에는 미래 토큰 쿼리-키 점수를 마스킹해야 합니다. 이는 우리가 과거 토큰을 사용하여 토큰을 예측하는 것만을 학습하기 때문입니다. 따라서 추론 중에는 미래 토큰을 제로로 설정합니다.
 
-
 # 음수 무한대 값으로 채워진 마스크 텐서 생성
+
 mask = torch.full((len(tokens), len(tokens)), float("-inf"), device=tokens.device)
 
 # 마스크 텐서의 상삼각부분을 음수 무한대로 설정
+
 mask = torch.triu(mask, diagonal=1)
 
 # 결과 마스크 텐서 출력
+
 mask
 
+#### 결과
 
-#### 결과 ####
 tensor([[0., -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf],
-        [0., 0., -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf],
-        [0., 0., 0., -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf],
-        [0., 0., 0., 0., -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf],
-        [0., 0., 0., 0., 0., -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf],
-        [0., 0., 0., 0., 0., 0., -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf],
-        [0., 0., 0., 0., 0., 0., 0., -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf],
-        [0., 0., 0., 0., 0., 0., 0., 0., -inf, -inf, -
+[0., 0., -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf],
+[0., 0., 0., -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf],
+[0., 0., 0., 0., -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf],
+[0., 0., 0., 0., 0., -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf],
+[0., 0., 0., 0., 0., 0., -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf],
+[0., 0., 0., 0., 0., 0., 0., -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf, -inf],
+[0., 0., 0., 0., 0., 0., 0., 0., -inf, -inf, -
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 토큰 벡터마다 쿼리-키에 마스크를 적용해야 합니다. 추가로 상위에 softmax를 적용하여 출력 점수를 확률로 변환하고 싶습니다. 이는 모델 어휘에서 가장 가능성 있는 토큰 또는 토큰 순서를 선택하는 데 도움이 되며, 모델의 예측이 언어 생성 및 분류와 같은 작업에 더 이해하기 쉽고 적합하게 만듭니다.
 
@@ -849,7 +1264,18 @@ torch.Size([8, 128, 4096])
 #### OUTPUT ####
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 첫 번째 레이어와 첫 번째 헤드에 대한 값 행렬을 얻는 방법과 비슷한 방식으로 쿼리 매트릭스와 키 매트릭스에 대한 값 행렬을 얻을 수 있습니다.
 
@@ -881,7 +1307,18 @@ torch.Size([17, 128])
 #### 출력 ####
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 다음과 같이 수행하여 결과 주목 행렬을 얻을 수 있습니다:
 
@@ -902,7 +1339,18 @@ torch.Size([17, 128])
 
 # Multi-Head Attention 구현하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 계산을 반복 수행하는 루프를 실행하면 첫 번째 레이어의 각 헤드에 대한 동일한 계산이 수행됩니다.
 
@@ -916,44 +1364,44 @@ for head in range(n_heads):
     q_layer0_head = q_layer0[head]
     k_layer0_head = k_layer0[head//4]  # 키 가중치는 4개의 헤드 간에 공유됩니다.
     v_layer0_head = v_layer0[head//4]  # 값 가중치는 4개의 헤드 간에 공유됩니다.
-    
+
     # 매트릭스 곱셈을 통해 각 토큰의 쿼리 계산
     q_per_token = torch.matmul(token_embeddings, q_layer0_head.T)
-    
+
     # 매트릭스 곱셈을 통해 각 토큰의 키 계산
     k_per_token = torch.matmul(token_embeddings, k_layer0_head.T)
-    
+
     # 매트릭스 곱셈을 통해 각 토큰의 값 계산
     v_per_token = torch.matmul(token_embeddings, v_layer0_head.T)
-    
+
     # 쿼리를 쌍으로 분할하고 회전합니다.
     q_per_token_split_into_pairs = q_per_token.float().view(q_per_token.shape[0], -1, 2)
     q_per_token_as_complex_numbers = torch.view_as_complex(q_per_token_split_into_pairs)
     q_per_token_split_into_pairs_rotated = torch.view_as_real(q_per_token_as_complex_numbers * freqs_cis[:len(tokens)])
     q_per_token_rotated = q_per_token_split_into_pairs_rotated.view(q_per_token.shape)
-    
+
     # 키를 쌍으로 분할하고 회전합니다.
     k_per_token_split_into_pairs = k_per_token.float().view(k_per_token.shape[0], -1, 2)
     k_per_token_as_complex_numbers = torch.view_as_complex(k_per_token_split_into_pairs)
     k_per_token_split_into_pairs_rotated = torch.view_as_real(k_per_token_as_complex_numbers * freqs_cis[:len(tokens)])
     k_per_token_rotated = k_per_token_split_into_pairs_rotated.view(k_per_token.shape)
-    
+
     # 각 토큰의 쿼리-키 닷 프로덕트 계산
     qk_per_token = torch.matmul(q_per_token_rotated, k_per_token_rotated.T) / (128) ** 0.5
-    
+
     # 음수 무한대 값으로 채워진 마스크 텐서 생성
     mask = torch.full((len(tokens), len(tokens)), float("-inf"), device=tokens.device)
     # 마스크 텐서의 상삼각 부분을 음수 무한으로 설정
     mask = torch.triu(mask, diagonal=1)
     # 쿼리-키 닷 프로덕트에 마스크 추가
     qk_per_token_after_masking = qk_per_token + mask
-    
+
     # 마스킹 후 두 번째 차원을 따라 softmax 적용
     qk_per_token_after_masking_after_softmax = torch.nn.functional.softmax(qk_per_token_after_masking, dim=1).to(torch.bfloat16)
-    
+
     # 매트릭스 곱셈을 통해 QKV 어텐션 계산
     qkv_attention = torch.matmul(qk_per_token_after_masking_after_softmax, v_per_token)
-    
+
     # 현재 헤드의 QKV 어텐션을 저장
     qkv_attention_store.append(qkv_attention)
 
@@ -981,7 +1429,18 @@ torch.Size([17, 4096])
 #### 출력 ####
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 레이어 0 주의의 마지막 단계 중 하나는 가중치 행렬과 쌓인 QKV 행렬을 곱하는 것입니다.
 
@@ -1013,28 +1472,51 @@ torch.Size([17, 4096])
 #### 출력 결과 ####
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 편집된 임베딩의 변경 사항이 정규화되었고, 이후 피드포워드 신경망을 통해 실행됩니다.
 
-
 # 제공된 가중치를 사용하여 제곱 평균 정규화를 수행한 편집된 임베딩
+
 embedding_after_edit_normalized = rms_norm(embedding_after_edit, model["layers.0.ffn_norm.weight"])
 
 # 정규화된 임베딩의 결과 형태 출력
+
 embedding_after_edit_normalized.shape
 
-#### 출력 결과 ####
-torch.Size([17, 4096])
-#### 출력 결과 ####
+#### 출력 결과
 
+torch.Size([17, 4096])
+
+#### 출력 결과
 
 # SwiGLU 활성화 함수 구현
 
 이전 섹션에서 SwiGLU 활성화 함수에 익숙해졌으므로, 여기서 이전에 학습한 방정식을 적용하겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-07-BuildingLLaMA3FromScratchwithPython_5.png)
 
@@ -1060,21 +1542,31 @@ torch.Size([17, 4096])
 
 이제 모든 준비가 끝났으니, 코드를 통합하여 31개의 새로운 레이어를 생성해야 합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 최종 임베딩 초기화 단계는 정규화되지 않은 토큰 임베딩으로 이루어져 있어요
+
 final_embedding = token_embeddings_unnormalized
 
 # 각 레이어를 순회하면서
-for layer in range(n_layers):
-    # 각 헤드의 QKV 어텐션을 저장할 리스트 초기화
-    qkv_attention_store = []
-    
+
+for layer in range(n_layers): # 각 헤드의 QKV 어텐션을 저장할 리스트 초기화
+qkv_attention_store = []
+
     # root mean square 정규화를 사용하여 최종 임베딩을 정규화하고, 현재 레이어의 가중치를 활용해요
     layer_embedding_norm = rms_norm(final_embedding, model[f"layers.{layer}.attention_norm.weight"])
-    
+
     # 현재 레이어의 어텐션 메커니즘에 필요한 쿼리, 키, 값 및 출력 가중치를 가져와요
     q_layer = model[f"layers.{layer}.attention.wq.weight"]
     q_layer = q_layer.view(n_heads, q_layer.shape[0] // n_heads, dim)
@@ -1083,43 +1575,55 @@ for layer in range(n_layers):
     v_layer = model[f"layers.{layer}.attention.wv.weight"]
     v_layer = v_layer.view(n_kv_heads, v_layer.shape[0] // n_kv_heads, dim)
     w_layer = model[f"layers.{layer}.attention.wo.weight"]
-    
+
     # 각 헤드를 순회하면서
     for head in range(n_heads):
         # 현재 헤드에 대한 쿼리, 키, 밸류 가중치를 추출해요
         q_layer_head = q_layer[head]
         k_layer_head = k_layer[head//4]  # 키 가중치는 4개의 헤드 간에 공유돼요
         v_layer_head = v_layer[head//4]  # 밸류 가중치는 4개의 헤드 간에 공유돼요
-        
+
         # 행렬 곱셈을 통해 각 토큰에 대한 쿼리 계산
         q_per_token = torch.matmul(layer_embedding_norm, q_layer_head.T)
-        
+
         # 행렬 곱셈을 통해 각 토큰에 대한 키 계산
         k_per_token = torch.matmul(layer_embedding_norm, k_layer_head.T)
-        
+
         # 행렬 곱셈을 통해 각 토큰에 대한 밸류 계산
         v_per_token = torch.matmul(layer_embedding_norm, v_layer_head.T)
-        
+
         ...
 
 # 결과 생성
 
-이제 우리는 다음 토큰을 맞추기 위한 모델의 최종 임베딩을 갖게 되었어요. 
+이제 우리는 다음 토큰을 맞추기 위한 모델의 최종 임베딩을 갖게 되었어요.
 그 형태는 일반 토큰 임베딩과 같아요, [17x4096], 17개의 토큰과 4096의 임베딩 차원을 갖고 있어요.
 
 final_embedding을 제공된 가중치를 사용해 정규화해볼게요.
 final_embedding = rms_norm(final_embedding, model["norm.weight"])
 
 # 결과로 나온 정규화된 최종 임베딩의 형태 출력
+
 print(final_embedding.shape)
 
-#### 출력 ####
+#### 출력
+
 torch.Size([17, 4096])
-#### 출력 ####
 
+#### 출력
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 임베딩을 토큰 값으로 해석할 수 있어요.
 
@@ -1148,36 +1652,59 @@ torch.Size([128256])
 #### 출력 ####
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 마지막 차원에서 최댓값의 인덱스를 찾아 다음 토큰을 결정하세요
+
 next_token = torch.argmax(logits, dim=-1)
 
 # 다음 토큰의 인덱스 출력
+
 next_token
 
-#### 결과 ####
-tensor(2983)
-#### 결과 ####
+#### 결과
 
+tensor(2983)
+
+#### 결과
 
 토큰 ID에서 생성된 텍스트를 얻으려면
 
-
 # 토크나이저를 사용하여 다음 토큰의 인덱스를 디코딩합니다
+
 tokenizer.decode([next_token.item()])
 
+#### 결과
 
-#### 결과 ####
 42
-#### 결과 ####
 
+#### 결과
 
 그래서 우리의 입력은 "인생, 우주, 그리고 모든 것에 대한 궁극적인 질문의 답은 "이고, 그 결과는 "42"입니다. 이게 정답이죠.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마법사 여러분! 이제 코드 라인을 본 영어 텍스트로 교체해보세요. 그 외 코드는 그대로 유지됩니다!
 

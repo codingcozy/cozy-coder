@@ -3,18 +3,13 @@ title: "파키스탄의 인터넷 방화벽 개요"
 description: ""
 coverImage: "/assets/img/2024-06-19-TheInternetFirewallinPakistanAnOverview_0.png"
 date: 2024-06-19 05:33
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-TheInternetFirewallinPakistanAnOverview_0.png
 tag: Tech
 originalTitle: "The Internet Firewall in Pakistan: An Overview"
 link: "https://medium.com/@dailytrendingnow/the-internet-firewall-in-pakistan-an-overview-5172eaffed6b"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![image](/assets/img/2024-06-19-TheInternetFirewallinPakistanAnOverview_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 ## 인터넷 방화벽의 목적
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파키스탄의 인터넷 방화벽의 주요 목표는 다음과 같습니다:
 
@@ -37,7 +42,18 @@ isUpdated: true
 
 PTA가 주요 규제 기관으로서 인터넷 방화벽의 실행과 유지를 담당합니다. 방화벽은 기술적인 방법을 결합하여 운영됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - URL 차단: 금지된 콘텐츠를 호스팅하는 특정 URL이 차단됩니다.
 - 키워드 필터링: 특정 키워드를 포함하는 웹 페이지가 걸러집니다.
@@ -50,7 +66,18 @@ PTA가 주요 규제 기관으로서 인터넷 방화벽의 실행과 유지를 
 - 파키스탄 전자 범죄법 (PECA) 2016: 이 법은 PTA에게 법을 위반하는 콘텐츠를 차단하고 제거할 권한을 부여합니다.
 - 통신 정책: 이 정책은 ISPs의 PTA를 위해 콘텐츠 규제에 도움을 주는 책임을 개요화합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 인터넷 사용자에 미치는 영향
 
@@ -62,7 +89,18 @@ PTA가 주요 규제 기관으로서 인터넷 방화벽의 실행과 유지를 
 
 ## 논란과 비판
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파키스탄의 인터넷 방화벽은 논쟁과 비판의 대상이 되었습니다:
 
@@ -74,7 +112,18 @@ PTA가 주요 규제 기관으로서 인터넷 방화벽의 실행과 유지를 
 
 파키스탄의 많은 사용자들은 다양한 도구와 기술을 활용하여 방화벽을 우회하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 가상 사설 네트워크 (VPN): VPN은 사용자의 IP 주소를 가릴 때 일반적으로 사용되며 차단된 콘텐츠에 접속할 수 있습니다.
 - 프록시 서버: 프록시 서버는 차단된 사이트에서 콘텐츠를 가져오기 위한 중개 역할을 합니다.

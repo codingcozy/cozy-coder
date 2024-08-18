@@ -3,17 +3,13 @@ title: "기존의 GPT-4보다 뛰어난 성능을 자랑하는 스탠포드 대�
 description: ""
 coverImage: "/assets/img/2024-05-27-BetterThanGPT-4theStanfordteamslargemodelthatcanberunonmobilephonesbecamepopularwithover2kdownloadsovernight_0.png"
 date: 2024-05-27 14:30
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-BetterThanGPT-4theStanfordteamslargemodelthatcanberunonmobilephonesbecamepopularwithover2kdownloadsovernight_0.png
 tag: Tech
 originalTitle: "Better Than GPT-4, the Stanford team’s large model that can be run on mobile phones became popular, with over 2k downloads overnight"
 link: "https://medium.com/gitconnected/better-than-gpt-4-the-stanford-teams-large-model-that-can-be-run-on-mobile-phones-became-popular-bc958501ec01"
 isUpdated: true
 ---
-
-
-
-
 
 ![Octopus v2](/assets/img/2024-05-27-BetterThanGPT-4theStanfordteamslargemodelthatcanberunonmobilephonesbecamepopularwithover2kdownloadsovernight_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 200억 개의 파라미터를 갖는 Octopus v2는 정확도와 대기 시간 측면에서 GPT-4를 능가하며, 콘텍스트 길이를 95% 줄였습니다. 또한, Octopus v2는 Llama7B + RAG 구성보다 36배 빠릅니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 많은 네티즌들이 한탄했습니다: 디바이스 측 인공지능 에이전트 시대가 도래했습니다!
 
@@ -36,7 +42,18 @@ isUpdated: true
 
 모델 개요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 옥토퍼스-V2-2B는 안드로이드 API에 맞게 설계된 20 억 개의 매개변수를 가진 오픈 소스 언어 모델로, 안드로이드 기기에서 원활하게 실행되며 안드로이드 시스템 관리에서 여러 기기 및 다양한 응용 프로그램의 조작까지 확장하는 데 사용됩니다.
 
@@ -46,7 +63,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-05-27-BetterThanGPT-4theStanfordteamslargemodelthatcanberunonmobilephonesbecamepopularwithover2kdownloadsovernight_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문어-V2-2B는 다양한 복잡한 시나리오에서 개별, 중첩 및 병렬 함수 호출을 생성할 수 있습니다.
 
@@ -58,8 +86,18 @@ isUpdated: true
 - 적절한 기능 구성요소에서 관련이 없는 쿼리 생성;
 - Google Gemini을 통한 이진 검증 지원.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-05-27-BetterThanGPT-4theStanfordteamslargemodelthatcanberunonmobilephonesbecamepopularwithover2kdownloadsovernight_4.png)
 
@@ -81,9 +119,18 @@ def get_trending_news (category=None, region='US', language='en', max_results=5)
 
 모델 개발 및 훈련
 
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 연구는 프레임워크에서 Google Gemma-2B 모델을 사전 학습 모델로 사용하며 두 가지 다른 훈련 방법을 채택합니다: 전체 모델 훈련과 LoRA 모델 훈련.
 
@@ -93,7 +140,18 @@ LoRA 모델 훈련은 전체 모델 훈련과 동일한 옵티마이저와 학�
 
 두 훈련 방법 모두 에포크 수는 3으로 설정됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 코드를 사용하면 단일 GPU에서 Octopus-V2-2B 모델을 실행할 수 있습니다.
 
@@ -133,7 +191,18 @@ print("latency:", time.time() - start_time, "초")
 
 벤치마크 테스트에서 Octopus-V2-2B는 단일 A100 GPU에서 "Llama7B + RAG 솔루션"보다 36배 빠른 탁월한 추론 속도를 보여주었습니다. 게다가, Octopus-V2-2B는 클러스터화된 A100/H100 GPU에 의존하는 GPT-4-turbo보다 168% 빠릅니다. 이 효율적인 개선은 Octopus-V2-2B의 기능 토큰 디자인에 기인합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Octopus-V2-2B](/assets/img/2024-05-27-BetterThanGPT-4theStanfordteamslargemodelthatcanberunonmobilephonesbecamepopularwithover2kdownloadsovernight_5.png)
 
@@ -143,7 +212,18 @@ print("latency:", time.time() - start_time, "초")
 
 관심 있는 독자들은 연구 내용에 대한 원본 논문을 읽어서 더 많이 알아볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 참고: [https://mp.weixin.qq.com/s/qnFZOPLpdRxW42_cLUcImA](https://mp.weixin.qq.com/s/qnFZOPLpdRxW42_cLUcImA)
 

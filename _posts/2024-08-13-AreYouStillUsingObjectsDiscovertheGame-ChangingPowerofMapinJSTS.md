@@ -3,7 +3,7 @@ title: "JavaScript와 TypeScript에서 Map 활용 방법"
 description: ""
 coverImage: "/assets/img/2024-08-13-AreYouStillUsingObjectsDiscovertheGame-ChangingPowerofMapinJSTS_0.png"
 date: 2024-08-13 11:17
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-13-AreYouStillUsingObjectsDiscovertheGame-ChangingPowerofMapinJSTS_0.png
 tag: Tech
 originalTitle: "Are You Still Using Objects Discover the Game-Changing Power of Map in JS TS"
@@ -11,8 +11,6 @@ link: "https://medium.com/javascript-in-plain-english/are-you-still-using-object
 isUpdated: true
 updatedAt: 1723863049095
 ---
-
-
 
 ![이미지](/assets/img/2024-08-13-AreYouStillUsingObjectsDiscovertheGame-ChangingPowerofMapinJSTS_0.png)
 
@@ -22,8 +20,18 @@ updatedAt: 1723863049095
 
 객체는 자리가 있지만, Map은 우리의 코드를 더 효율적이고 표현력 있게 만들어줄 다양한 이점을 제공합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사에서는 Map의 주의 사항, 장점 및 단점에 대해 살펴보고, 객체 대신에 Map을 사용하는 시점에 대해 논의할 것입니다.
 
@@ -33,7 +41,18 @@ Map은 키-값 쌍을 저장할 수 있는 내장 객체입니다. 일반적으�
 
 ## Maps 사용의 장점
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 유연한 키 유형: 객체보다 Map의 가장 중요한 장점 중 하나는 키 유형에 대한 유연성입니다. 객체에서는 키가 문자열이나 심볼이어야 합니다. Map에서는 키가 프리미티브 값부터 복잡한 객체까지 모든 유형이 될 수 있습니다.
 
@@ -43,7 +62,18 @@ Map은 키-값 쌍을 저장할 수 있는 내장 객체입니다. 일반적으�
 
 ![이미지](/assets/img/2024-08-13-AreYouStillUsingObjectsDiscovertheGame-ChangingPowerofMapinJSTS_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 자주 추가/제거할 때 성능이 향상됨: Map은 key-value 쌍을 자주 추가하거나 제거할 때 최적화되어 있습니다. 반면에 객체는 특히 많은 항목이 있는 경우 속성을 자주 추가 또는 제거할 때 성능 문제가 발생할 수 있습니다.
 - Size Property: Map에는 맵에 포함된 요소 수를 제공하는 size 속성이 있습니다. 이는 Object.keys(obj).length를 사용하여 객체의 크기를 계산하는 것보다 효율적이며, 이는 전체 키 세트를 훑어야 하기 때문입니다.
@@ -54,7 +84,18 @@ Map은 키-값 쌍을 저장할 수 있는 내장 객체입니다. 일반적으�
 
 ![이미지](/assets/img/2024-08-13-AreYouStillUsingObjectsDiscovertheGame-ChangingPowerofMapinJSTS_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 맵 사용이 항상 최 우선 사항이 아닌 이유 ⚓
 
@@ -64,7 +105,18 @@ Map은 키-값 쌍을 저장할 수 있는 내장 객체입니다. 일반적으�
 
 ![이미지](/assets/img/2024-08-13-AreYouStillUsingObjectsDiscovertheGame-ChangingPowerofMapinJSTS_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반 객체와 달리, Map은 JSON으로 직접 직렬화할 수 없습니다. 데이터를 직렬화해야 한다면, 먼저 Map을 객체나 배열로 변환해야 합니다.
 
@@ -74,7 +126,18 @@ Map은 키-값 쌍을 저장할 수 있는 내장 객체입니다. 일반적으�
 
 ![이미지](/assets/img/2024-08-13-AreYouStillUsingObjectsDiscovertheGame-ChangingPowerofMapinJSTS_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 자주 추가 및 제거되는 항목: 항목이 자주 추가 또는 제거되는 컬렉션의 경우, Maps가 더 나은 성능을 제공합니다.
 - 순서가 중요한 컬렉션: 항목의 순서가 중요한 경우, Maps는 객체와 달리 삽입 순서를 유지합니다.
@@ -85,7 +148,18 @@ Map은 키-값 쌍을 저장할 수 있는 내장 객체입니다. 일반적으�
 
 ![이미지](/assets/img/2024-08-13-AreYouStillUsingObjectsDiscovertheGame-ChangingPowerofMapinJSTS_7.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 직렬화 필요: 데이터를 JSON으로 자주 직렬화해야 하는 경우, Map은 추가 변환을 필요로하기 때문에 객체가 더 편리할 수 있습니다.
 
@@ -95,7 +169,18 @@ Map은 키-값 쌍을 저장할 수 있는 내장 객체입니다. 일반적으�
 
 여기 Map을 효과적으로 사용하는 방법이 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 고급 기능 이해를 보여줍니다: Map을 활용하면 현대 JavaScript 및 TypeScript 기능에 정통하다는 것을 보여줍니다. 이는 기본을 넘어서 언어의 더 고급 측면을 이해한다는 것을 시사합니다.
 - 문제 해결 능력을 나타냅니다: Map을 성능상의 이점이나 복잡한 키 유형을 처리할 수 있는 능력 때문에 선택할 때, 업무에 맞는 적절한 도구를 선택할 수 있는 능력을 반영합니다. 이러한 의사 결정 과정은 면접 중 문제 해결 시나리오에서 중요합니다.
@@ -108,7 +193,18 @@ Map은 키-값 쌍을 저장할 수 있는 내장 객체입니다. 일반적으�
 
 # 2024년에 Map의 인기 💎
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2024년 현재, Maps는 TypeScript 및 JavaScript 커뮤니티 전반에서 점점 더 인기를 얻고 있습니다. 성능, 유연성, 그리고 내장 메서드 측면에서의 장점으로 인해 많은 개발자들에게 선호되는 선택지가 되었습니다.
 
@@ -118,7 +214,18 @@ Map은 키-값 쌍을 저장할 수 있는 내장 객체입니다. 일반적으�
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자바스크립트와 타입스크립트의 기본 요소인 객체들은, 맵은 키-값 쌍을 다루는 강력한 대안을 제공합니다.
 
@@ -128,7 +235,18 @@ Map은 키-값 쌍을 저장할 수 있는 내장 객체입니다. 일반적으�
 
 건배 🍺
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 평이한 영어 커뮤니티의 일원이 되어 주셔서 감사합니다! 떠나시기 전에:
 

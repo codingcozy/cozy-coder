@@ -3,17 +3,13 @@ title: "집에서 양자 컴퓨터 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-23-HowDoIBuildaQuantumComputerinMyHouse_0.png"
 date: 2024-06-23 17:52
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-HowDoIBuildaQuantumComputerinMyHouse_0.png
 tag: Tech
 originalTitle: "How Do I Build a Quantum Computer in My House?"
 link: "https://medium.com/qiskit/how-do-i-build-a-quantum-computer-in-my-house-1c7e9dc0c242"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-23-HowDoIBuildaQuantumComputerinMyHouse_0.png" />
 
@@ -23,7 +19,18 @@ Qiskit과 같은 개방 접근 프레임워크를 사용하면 클라우드를 �
 
 시작하기 전에 언급해야 할 점은 기술적으로, 집에서 양자 알고리즘을 실행하는 완전히 기능하는 양자 컴퓨터를 만들 수는 없다는 것입니다(수백만 달러, 제조 및 연구 시설 접근 권한, 그리고 많은 투자된 시간이 필요합니다. 이런 경우, 여러분이 도와주시는 것이 필요할 것입니다. 그렇지 않다면 반대로 도움을 받아야 할 상황이겠죠). 그러나 큰 예산, 여유 시간 및 DIY 광학 및 전자 기술에 대한 강의를 듣는다면, 간단한 양자 시스템을 만들고 몇 가지 양자 게이트를 실행할 수 있습니다. 심지어 Qiskit을 사용하여 장치를 제어할 수도 있습니다. 그러니 시작해봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 양자 컴퓨터란 무엇인가요?
 
@@ -33,7 +40,18 @@ Qiskit과 같은 개방 접근 프레임워크를 사용하면 클라우드를 �
 
 양자 컴퓨터의 능력은 계산 도중, 큐비트가 전자나 광자와 같은 아주 작은 입자들이 행동하는 수학적 원리를 이용하여 상호 작용하기 때문입니다. 이 제약된 형태의 선형 대수학과 확률은 큐비트가 "중첩"되어 동시에 여러 상태를 가지는 효과, "얽힘"으로 두 큐비트의 양자 상태가 빔뭉치 동전 한 짝보다 강하게 상관되어 있는 효과, 그리고 "간섭"으로 특정 큐비트 상태 조합이 측정 시 더 가능성이 높거나 반드시 금지될 수 있는 효과를 설명합니다. 양자 계산의 결과는 항상 0과 1일 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 양자 시스템을 조종하는 것은 말하기가 하는 것보다 훨씬 쉽지 않아요. 물리학자 David DiVincenzo는 유명하게 "양자 컴퓨터"라는 이름을 정말로 얻기 위해 장치가 충족해야 하는 다섯 가지 기준을 제안했어요. 진정으로 양자 컴퓨터라는 별칭을 받기 위해 그들이 제어할 수 있는 큐비트를 구성할 수 있어야 하며, 확장할 수 있고, 실제로 계산을 수행할 정도로 그들의 양자성을 오랜 시간 유지할 수 있어야 하며, 유니버설한 연산(게이트) 집합을 수행할 수 있어야 하며, 각각을 측정할 수 있어야 해요. 수십 년의 연구와 많은 자금 투입 끝에, 연구자들은 이러한 기준을 충족할 수 있는 장치를 드디어 최근에 생산하기 시작했어요.
 
@@ -41,7 +59,18 @@ Qiskit과 같은 개방 접근 프레임워크를 사용하면 클라우드를 �
 
 **광자와 광학 구성요소로부터 큐비트 구축하기**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오늘, 학술 기관, 국립 연구소, 그리고 기업의 물리학자들은 빛 입자인 광자의 특성에 데이터를 저장하는 광자 양자 컴퓨팅이라는 양자 컴퓨팅 구조를 연구하고 있습니다. 광학 구성품이 비교적 쉽게 구할 수 있는 것을 감안하면, 광자 양자 컴퓨터는 직접 만들어 볼만한 좋은 양자 시스템입니다.
 
@@ -51,7 +80,18 @@ Qiskit과 같은 개방 접근 프레임워크를 사용하면 클라우드를 �
 
 단지 광자를 섭종체로 넣는 것은 어렵지 않습니다. 진정한 어려움은 광자가 상호 작용하지 않기 때문에 얽힘을 생성하는 것입니다. 레일버레인(Riverlane) 회사의 연구 소프트웨어 개발자 알렉스 모일렛은 광자를 광섬유의 연속체를 통해 이동시킨 후 상태 변화를 적용하여 얽힘을 생성합니다. 그 이후에는 관측자가 사후 선택 기구를 적용해야 합니다. 기본적으로, 어떤 얽힘이 발생했는지를 증명하지 않는 계산 결과는 폐기됩니다. 다른 적응형 체계는 계산 초기에 일부 광자를 측정하고, 얽힘이 성공할 때까지 게이트를 반복적으로 적용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 광학 구성 요소보다 조금 덜 익숙한 것을 원했다면, 어쩌면 다른 입자의 양자 특성, 즉 전자의 스핀을 제어하고 조작해 볼 수 있을 겁니다.
 
@@ -61,7 +101,18 @@ Qiskit과 같은 개방 접근 프레임워크를 사용하면 클라우드를 �
 
 양자 컴퓨팅 아키텍처에서 초기 주자로 손꼽혀온 것은 핵 자기 공명(NMR)이었습니다 — 바로 MRI 장치 뒤에 있는 개념입니다. NMR 장치는 오늘날의 초전도 및 포획 이온 양자 컴퓨터만큼은 강력하지 않지만, 과학자들은 여전히 NMR 양자 컴퓨팅에서 가져온 기술을 현대 장치에서 사용하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 NMR 양자 컴퓨터는 주로 액체로 이루어진 매체를 사용하며, 강력하고 꾸준한 자기장 안에서 특별히 튜닝된 무선 주파수 펄스를 이용하여 교란합니다. 이 컴퓨터는 원자 핵의 고유한 양자 속성인 스핀 상태에 정보를 부호화하는데, 이는 물질의 자기성의 기본 단위로 생각할 수 있습니다. 물자의 자기성 정보의 기본 단위로 볼 수 있습니다. 물과 탄소-13 속의 수소 원자와 같이 일부 원자 동위원소는 일반적으로 위와 아래로 불리는 두 가지 스핀 상태를 가진 개별 큐빗 역할을 할 수 있습니다. 무선 주파수 펄스는 이러한 큐빗의 상태를 변경하거나 핵 간에 엉킨 상태를 일으킬 수 있습니다.
 
@@ -71,7 +122,18 @@ NMR 양자 컴퓨터는 주로 액체로 이루어진 매체를 사용하며, �
 
 명백히 NMR 양자 컴퓨터를 구축하는 데에는 가능한 가장 강력한 전자자석이 필요하며, 분자로부터 얻는 신호를 극대화하기 위해서입니다. 그 자석 속에서는 비교적 간단한 설정을 만들 수 있습니다 - 다른 솔레노이드로 전기선이 연결되어 LC 회로에 연결되어 그 장치를 알맞은 주파수로 조정하고 펄스에 대한 분자의 반응을 읽어낼 수 있습니다. RF 신호 발생기와 펄스를 사용자 정의하기 위한 FPGA도 필요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 매체를 자유롭게 실험해보세요. 에탄올, 아세톤, 글리세린, 탄소-13이 풍부한 염화클로로폼 또는 물 속을 떠다니는 수소 원자 등 다양한 가능성이 있어요 (해당 경우에는 큐빗이 하나밖에 없을 거에요). 디바이스를 만드는 데 투자하는 금액은 사용할 자석 및 전자 기기에 달렸지만, 기본 사항을 함께 구성하는 데 도움이 되는 다양한 튜토리얼이 있어요. 궁금한 경우 펄스 NMR 장치를 사서 분해하는 방법도 있어요.
 
@@ -81,7 +143,18 @@ NMR 양자 컴퓨터는 주로 액체로 이루어진 매체를 사용하며, �
 
 그렇다면 어떻게 하면 뉴스 매체에서 가장 주목받는 고급 양자 컴퓨터를, 기업이 서로 경쟁하면서 만드는 컴퓨터를 만들 수 있을까요? 가능할까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금 가장 진보된 양자 아키텍처는 아마도 초전도 및 갇힌 이온 양자 컴퓨터일 것입니다. 초전도 퀀비트는 많은 특수 제작 구성 요소와 희석 냉장고가 필요하기 때문에 취미로서는 너무 벗어난 분야일지 모릅니다. 그러나 적어도 한 명의 창의적인 해커인 앙 알렝(Yann Allain)은 "99% 할인"가격으로 갇힌 이온 양자 컴퓨터를 만들려고 노력하고 있습니다.
 
@@ -91,7 +164,18 @@ NMR 양자 컴퓨터는 주로 액체로 이루어진 매체를 사용하며, �
 
 더 놀라운 것을 만들려면 대학원에 다시 진학하여 물리학 학위를 얻는 것은 좋은 변명이 될 수 있습니다. 아마 IBM의 양자 컴퓨터에 참여할 수도 있겠네요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 이 장치를 어떻게 제어할까요?
 
@@ -101,7 +185,18 @@ NMR 양자 컴퓨터는 주로 액체로 이루어진 매체를 사용하며, �
 
 IBM 양자 소프트웨어 전담 담당자인 Paul Nation은 "어떤 큐비트를 얘기하는지와 상관없이, 게이트 기반 계산을 수행하고 Qiskit이 게이트를 이해한다면 작동해야 합니다."라고 말했습니다. 그러나 귀하에게는 많은 작업이 요구될 것입니다. IBM의 장치를 위해, Qiskit 코드를 초전도 큐비트에 펄스를 생성하는 웨이브폼으로 변환하는 여러 백엔드 단계가 있습니다. 귀하의 기기에서는 X-게이트(두 큐비트 상태 사이를 뒤집는 게이트)나 Hadamard 게이트(두 상태의 큐비트를 동등한 최면 상태로 넣는 게이트)와 같은 간단한 양자 게이트를 적용하는 것이 정확히 무엇을 의미하는지 결정하고, Qiskit 및 귀하의 장치가 서로 대화할 수 있도록 인터페이스를 생성해야 합니다. Qiskit Pulse 기능을 사용하여 큐비트의 공명 시간을 보정하고 계산하고, 펄스 모양, 주파수 및 지속 시간을 제어할 수 있는 사용자 정의 펄스를 보낼 수 있습니다. 양자 장치와 Qiskit 간의 인터페이스 및 OpenPulse 언어에 대해 자세히 알아보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 —
 

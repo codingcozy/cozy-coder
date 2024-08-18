@@ -3,17 +3,13 @@ title: "로봇이 나는 로봇이 아닙니다란 상자를 클릭할 수 없�
 description: ""
 coverImage: "/assets/img/2024-06-19-WhyRobotsCantClicktheImNotaRobotBoxTheCleverTrickBehindCAPTCHA_0.png"
 date: 2024-06-19 02:03
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-WhyRobotsCantClicktheImNotaRobotBoxTheCleverTrickBehindCAPTCHA_0.png
 tag: Tech
 originalTitle: "Why Robots Can’t Click the “I’m Not a Robot” Box: The Clever Trick Behind CAPTCHA"
 link: "https://medium.com/@sohaibrumy/why-robots-cant-click-the-i-m-not-a-robot-box-the-clever-trick-behind-captcha-11337ce1babf"
 isUpdated: true
 ---
-
-
-
-
 
 인공지능 (AI)이 체스에서부터 창의적인 글쓰기까지 모든 것을 습득하는 세상에서 로봇들이 웹사이트에서 간단한 "로봇이 아닙니다" 확인란을 클릭하지 못하는 이유에 대해 궁금했던 적이 있나요? 그 이유는 인간의 직관과 가장 고급화된 봇을도 속일 수 있는 정교한 알고리즘의 조합에 있다고 할 수 있습니다.
 
@@ -25,7 +21,18 @@ CAPTCHA는 ‘Completely Automated Public Turing test to tell Computers and Huma
 클릭 이상의 것
 "로봇이 아닙니다" 확인란을 클릭할 때, 그게 전부인 줄 알았을 수도 있습니다. 그러나 시스템이 단순히 클릭을 등록하는 것 이상의 작업을 수행하고 있습니다. 보통 어떤 일이 배경에서 벌어지는지를 살펴봅니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 행동 분석: CAPTCHA 시스템은 클릭하기 직전에 페이지에서의 귀하의 행동을 분석합니다. 인간 사용자는 마우스를 약간 예측할 수 없는 방법으로 움직이고 특정 지점에서 주저하며 봇이 모방하기 어려운 방식으로 페이지와 상호 작용합니다.
 - 타이밍: 마우스를 체크 상자로 이동하고 클릭하는 데 걸리는 시간도 요인입니다. 인간은 반응 시간에 자연스러운 차이가 있지만, 봇은 비인간적으로 정확한 시간에 작용하는 경향이 있습니다.
@@ -40,7 +47,18 @@ CAPTCHA 시스템은 봇을 탐지하는 능력을 향상시키기 위해 기계
 CAPTCHA의 미래
 AI가 계속 발전함에 따라 CAPTCHA 시스템도 발전할 것입니다. 미래 버전은 더 정교한 행동 분석, 생체 인식 데이터 또는 실시간 비디오 확인을 포함할 수도 있습니다. 목표는 항상 봇을 한 발 앞서 나아가는 것으로, 인간이 웹 사이트에 안전하게 접속할 수 있도록 보장하면서 악의적인 자동화된 트래픽을 차단하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 왜 중요한가
 봇과 CAPTCHA 간의 전투는 기술적인 도전만큼이나 인터넷 보안의 중요한 측면입니다. 웹사이트를 자동 공격으로부터 보호하는 것은 사기, 스팸 및 다른 악의적인 활동을 방지해 서비스를 방해하고 데이터를 compromise 하는 것을 방지하는 데 도움이 됩니다.

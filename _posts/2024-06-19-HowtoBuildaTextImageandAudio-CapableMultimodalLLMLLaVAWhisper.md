@@ -3,17 +3,13 @@ title: "텍스트, 이미지 및 오디오를 지원하는 멀티모달 LLM LLaV
 description: ""
 coverImage: "/assets/img/2024-06-19-HowtoBuildaTextImageandAudio-CapableMultimodalLLMLLaVAWhisper_0.png"
 date: 2024-06-19 19:50
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-HowtoBuildaTextImageandAudio-CapableMultimodalLLMLLaVAWhisper_0.png
 tag: Tech
 originalTitle: "How to Build a Text, Image, and Audio-Capable Multimodal LLM (LLaVA + Whisper)"
 link: "https://medium.com/gitconnected/how-to-build-a-text-image-and-audio-capable-multimodal-llm-llava-whisper-bc88353b3a66"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-06-19-HowtoBuildaTextImageandAudio-CapableMultimodalLLMLLaVAWhisper_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 오디오는 whisper 모델을 활용하여 전사되어 모델로 텍스트 입력을 제공해요. 그럼 모델은 텍스트 컨텐츠를 생성하고, gTTS (Google 변역 텍스트 음성 합성) 패키지를 활용하여 텍스트 콘텐츠를 오디오로 변환해요. 기본적으로 결과는 텍스트와 오디오 형식으로 표시돼요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## LLaVA 모델:
 
@@ -33,7 +40,18 @@ LLaVA는 비전 인코더와 Vicuna를 결합하여 시각 및 언어 이해를 
 
 ![이미지](/assets/img/2024-06-19-HowtoBuildaTextImageandAudio-CapableMultimodalLLMLLaVAWhisper_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모델 워크플로우는 네트워크 아키텍처를 통해 이해할 수 있습니다. 비전 인코더는 입력 이미지에서 특징을 추출하는 데 사용됩니다. 특징과 입력 텍스트 명령은 벡터로 변환되며, 이 벡터 값은 모델에서 처리되어 관련 콘텐츠가 출력됩니다.
 
@@ -43,7 +61,18 @@ LLaVA는 비전 인코더와 Vicuna를 결합하여 시각 및 언어 이해를 
 
 ## 휘스퍼 모델:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 번째 모델은 휘스퍼입니다. 이 모델은 OpenAI에서 개발되었습니다. 휘스퍼는 웹에서 수집된 68만 시간의 다국어 및 다작업 감독 데이터로 훈련된 자동 음성 인식(ASR) 시스템으로 일반 목적의 음성 인식 모델입니다.
 
@@ -53,8 +82,18 @@ LLaVA는 비전 인코더와 Vicuna를 결합하여 시각 및 언어 이해를 
 
 ![이미지](/assets/img/2024-06-19-HowtoBuildaTextImageandAudio-CapableMultimodalLLMLLaVAWhisper_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 작업들은 전통적인 음성 처리 파이프라인의 여러 단계를 대체하는 단일 모델이 가능하도록, 디코더에 의해 예측될 토큰 시퀀스로 공동으로 표현됩니다. 멀티태스크 트레이닝 형식은 특별한 토큰 세트를 사용하여 태스크 지정자 또는 분류 대상으로 작용합니다.
 
@@ -64,7 +103,18 @@ LLaVA는 비전 인코더와 Vicuna를 결합하여 시각 및 언어 이해를 
 
 첫 번째 단계는 우리 환경에 필요한 패키지를 설치하는 것입니다. transformer 라이브러리는 모델 파이프라인을 생성하는 데 사용되며, bitsandbytes 라이브러리는 CUDA 사용자 지정 함수 (특히 8비트 최적화기, 행렬 곱셈 (LLM.int8()) 및 8 + 4비트 양자화 함수)의 가벼운 Python 래퍼입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그런 다음 OpenAI 휘스퍼 모델을 사용하여 음성을 텍스트로 변환하고, gTTs 패키지를 사용하여 텍스트를 음성으로 변환합니다. Gradio 라이브러리를 사용하여 모델을 위한 사용자 인터페이스를 만듭니다.
 
@@ -97,7 +147,18 @@ import base64
 import numpy as np
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 세 번째 단계는 "BitsAndBytesConfig" 모듈을 사용하여 모델 양자화 매개변수를 설정하는 것입니다. 모델 양자화는 모델 매개변수를 표현하는 데 사용되는 숫자의 정밀도를 줄이는 과정입니다. 이는 모델 크기를 크게 줄이고 추론 속도를 높여주어, 특히 자원이 제한된 하드웨어에서 효율적으로 실행할 수 있습니다.
 
@@ -107,21 +168,25 @@ import numpy as np
 
 모델 파이프라인에서는 이미지에서 텍스트로의 생성 작업을 위해 LLaVA 1.5B 매개변수 모델을 사용하고 양자화 구성을 전달했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-quant_config = BitsAndBytesConfig(
-    load_in_4bit = True,
-    bnb_4bit_compute_dtype = torch.float16
-)
+quant_config = BitsAndBytesConfig((load_in_4bit = True), (bnb_4bit_compute_dtype = torch.float16));
 
-model_id = "llava-hf/llava-1.5-7b-hf"
+model_id = "llava-hf/llava-1.5-7b-hf";
 
-pipe = pipeline(
-    "image-to-text",
-    model = model_id,
-    model_kwargs={"quantization_config": quant_config}
-)
+pipe = pipeline("image-to-text", (model = model_id), (model_kwargs = { quantization_config: quant_config }));
 ```
 
 네 번째 단계는 시스템 계산 단위를 "DEVICE" 변수로 구성하는 것입니다. 이것은 속삭임 모델을 로드하기 위한 필수 매개변수입니다. 그 후, 우리는 속삭임 모델을 다운로드하고, 39M (작음), 74M (베이스), 244M (작은), 769M (중간), 1550M (큰)과 같이 다양한 매개변수 수가 있는 모델이 나왔습니다. 우리는 769M 매개변수를 가진 속삭임-중간 모델을 사용하고 있습니다.
@@ -140,7 +205,18 @@ print(
 )
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 코드는 현재 날짜와 시간을 기준으로 고유한 이름을 가진 로그 파일에 텍스트 항목을 작성하는 로깅 시스템을 생성하는 데 사용됩니다. 이는 이벤트 추적, 디버깅 또는 타임스탬프와 함께 일련의 작업 또는 메시지를 기록해야 하는 상황에 유용할 수 있습니다.
 
@@ -197,12 +273,22 @@ def img2txt(input_text, input_image):
     return reply
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "transcribe" 기능은 whisper 모델을 사용합니다. 이 기능은 오디오를 입력으로 받아서 전사된 텍스트를 출력으로 반환합니다. 전사된 텍스트는 모델의 입력으로 사용됩니다.
 
 Markdown 형식으로 표를 변경하겠습니다.
-
 
 def transcribe(audio):
 
@@ -225,12 +311,10 @@ def transcribe(audio):
 
     return result_text
 
-
 "text_to_speech" 함수는 gTTs 패키지를 사용하여 텍스트와 파일 경로를 인수로 취합니다. 텍스트는 오디오로 변환되고, 그 오디오 파일은 지정된 파일 경로에 저장됩니다.
 
-
 def text_to_speech(text, file_path):
-    language = 'en'
+language = 'en'
 
     audioobj = gTTS(text=text,
                     lang=language,
@@ -240,8 +324,18 @@ def text_to_speech(text, file_path):
 
     return file_path
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 워크플로의 마지막 단계는 이미 만들어진 모든 기능을 통합하여 사용자 인터페이스를 생성하는 것입니다. "process_inputs" 함수는 모든 함수를 활용합니다. 사용자로부터 두 가지 입력을 받습니다: 하나는 이미지이고, 또 다른 하나는 이미지 기반 음성 입력입니다.
 
@@ -286,7 +380,18 @@ iface = gr.Interface(
 iface.launch(debug=True)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Gradio 인터페이스를 실행한 후, 모델과 상호 작용할 수 있는 사용자 인터페이스가 나타납니다.
 
@@ -296,7 +401,18 @@ Gradio 인터페이스를 실행한 후, 모델과 상호 작용할 수 있는 �
 
 더 알고 싶다면:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - LLaVA: [링크](https://huggingface.co/llava-hf/llava-1.5-7b-hf)
 - Whisper: [링크](https://github.com/openai/whisper)

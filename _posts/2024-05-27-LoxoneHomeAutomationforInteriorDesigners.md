@@ -3,17 +3,13 @@ title: "인테리어 디자이너를 위한 Loxone 홈 자동화"
 description: ""
 coverImage: "/assets/img/2024-05-27-LoxoneHomeAutomationforInteriorDesigners_0.png"
 date: 2024-05-27 13:24
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-LoxoneHomeAutomationforInteriorDesigners_0.png
 tag: Tech
 originalTitle: "Loxone Home Automation for Interior Designers"
 link: "https://medium.com/@jaaaco/loxone-home-automation-for-interior-designers-5ef0a47667f3"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-05-27-LoxoneHomeAutomationforInteriorDesigners_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # Loxone 조명
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Loxone 시스템 조명을 사용해보는 것을 고려해보세요. 옵션에는 흰색, 안트라싯, 그리고 골드 색상의 내장형 스팟 라이트, 표면 장착형 스팟 라이트, 행거형 등과 화장실 천장 조명(내장 모션 센서 탑재)이 포함되어 있습니다.
 
@@ -39,7 +46,18 @@ Loxone 시스템 조명을 사용해보는 것을 고려해보세요. 옵션에�
 
 또한, 알람 시계 뒷면은 어떤 색상이든 원하는 밝기로 빛나며, 이를 통해 야간 조명이나 분위기 조명 시나리오를 실행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-27-LoxoneHomeAutomationforInteriorDesigners_1.png" />
 
@@ -54,7 +72,18 @@ Loxone 시스템 조명을 사용해보는 것을 고려해보세요. 옵션에�
 - CRI 90%의 RGBW 컬러 빛을 제공함
 - 조명 온도를 낮과 높을 때에 맞게 조절할 수 있음 (아침에는 쿨 빛, 저녁에는 웜 빛)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Loxone의 조명으로만 조명을 결정할 필요는 없어요. 시스템은 자유롭게 혼합할 수 있고 표준 조명원 또는 DALI 및 DALI2 프로토콜 기반의 전문 조명 시스템도 작동할 거예요. 24V LED 조명을 도입하는 것도 고려해볼 수 있어요. 예를 들어 Minalox 전구를 기반으로 한 LED 조명은 매끄럽게 조절할 수 있어요. 많은 230V LED 전구들이 할 수 있는 것과 달리, 시시각각 깜빡이거나 귀찮은 소리를 내며 조절할 수밖에 없는 거랍니다.
 
@@ -64,7 +93,18 @@ Loxone의 조명으로만 조명을 결정할 필요는 없어요. 시스템은 
 
 밤 조명도 계획해 보세요. 침실에서 화장실이나 주방으로 가는 길을 밤에 이동할 때 편하게 이동할 수 있는 조명이 있으면 도움이 될 거예요. 조절 가능한 밝기나 색상을 가진 LED 스트립이나 다른 조명원 중 하나일 수 있어요. 마침내 Touch Pure Tree 스위치 자체(유리로 만들어진, 내장형 밤 조명이 있는 스위치입니다. 아래에서 자세히 읽으실 수 있어요)가 밤 조명으로 작동할 수도 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 벽 스위치 배치
 
@@ -79,7 +119,18 @@ Loxone 스위치는 여러 기능을 동시에 수행합니다:
 - 유리 버전에는 추가적인 야간 조명이 제공됩니다,
 - 침실에 설치할 수 있는 이산화탄소 센서가 장착된 스위치의 유리 버전도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 스위치를 어떻게 배치합니까?
 
@@ -93,7 +144,18 @@ Loxone 스위치는 여러 기능을 동시에 수행합니다:
 
 Loxone은 다양한 소스(Spotify, AirPlay, 인터넷 라디오 및 기타 등)로 음악을 재생하는 것 외에도 다중 방 오디오 시스템을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 방송 알림 (예: 알람 잠금, 창문 열림, 집을 나갈 때 인덕션 히터 켜둔 것 알림)
 - 무음 설정이 가능한 도어벨 알림 및 조명을 이용한 알림 기능
@@ -105,7 +167,18 @@ Loxone은 다양한 소스(Spotify, AirPlay, 인터넷 라디오 및 기타 등)
 
 ![이미지](/assets/img/2024-05-27-LoxoneHomeAutomationforInteriorDesigners_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 창문과 차양
 
@@ -115,7 +188,18 @@ Loxone은 다양한 소스(Spotify, AirPlay, 인터넷 라디오 및 기타 등)
 
 울타리가 있는 집이건 아파트이건, 현관에 대화면 및 선택적으로 NFC 코드 잠금장치를 배치할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지붕 자체에서 전기 스트라이크를 계획하는 것이 좋습니다 (24V DC 솔루션을 권장합니다). 현관문에는 액추에이터가있는 전기 잠금장치를 설치하는 것이 좋습니다 (지문 판독기나 코드 잠금장치와 같은 솔루션 없이 별도로 설치합니다 - 이러한 장치는 홈 자동화 시스템과 통합되지 않습니다). 고객들은 종종 택배원이 소포를 놓을 수있는 공간을 계획합니다 - 소포 보관함, 집 나머지에 전기 잠금장치가 있는 복도 또는 감시용 차고 출입구가 될 수 있습니다.
 
@@ -125,7 +209,18 @@ Loxone 자동화 시스템은 정원의 조명 및 관수 시스템을 성공적
 
 # 사우나 / 수영장 / 자쿠지
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사우나 안에서 난방, 오디오 및 조명을 동일한 시스템으로 쉽게 관리할 수 있습니다.
 
@@ -135,7 +230,18 @@ Loxone 시스템은 수영장 솔루션에서도 훌륭한 성과를 내며 전�
 
 ![이미지](/assets/img/2024-05-27-LoxoneHomeAutomationforInteriorDesigners_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 중요한 팁
 

@@ -3,17 +3,13 @@ title: "라즈베리 파이 클러스터 설정 Kubernetes와 Airflow, Ansible �
 description: ""
 coverImage: "/assets/img/2024-06-23-RaspberryPiClusterwithKubernetesandAirflowConfiguringAnsible_0.png"
 date: 2024-06-23 18:09
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-RaspberryPiClusterwithKubernetesandAirflowConfiguringAnsible_0.png
 tag: Tech
 originalTitle: "Raspberry Pi Cluster with Kubernetes and Airflow: Configuring Ansible"
 link: "https://medium.com/@robronayne/raspberry-pi-cluster-with-kubernetes-and-airflow-configuring-ansible-a713476d9b87"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-23-RaspberryPiClusterwithKubernetesandAirflowConfiguringAnsible_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 시작하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 초기화 스크립트에 접근하기 위해 Git 저장소를 복제하세요
 
@@ -36,7 +43,18 @@ cd PiClusterFlow
 
 ## microSD 카드에 Raspberry Pi OS 설치하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1. Raspberry Pi Imager 다운로드하기:
 
@@ -47,7 +65,18 @@ cd PiClusterFlow
 - SanDisk 32GB microSD 카드를 컴퓨터에 삽입하세요.
 - microSD 카드를 boot로 이름을 변경하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-23-RaspberryPiClusterwithKubernetesandAirflowConfiguringAnsible_1.png" />
   
@@ -58,7 +87,18 @@ cd PiClusterFlow
 
 - Pi OS의 최근 변경 사항은 SSH용 비밀번호 설정을 필요로 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-23-RaspberryPiClusterwithKubernetesandAirflowConfiguringAnsible_2.png" />
 
@@ -71,7 +111,18 @@ cd PiClusterFlow
 
 1. microSD 카드 장착:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 컴퓨터에 microSD 카드를 삽입하세요.
 - diskutil list를 사용하여 디스크 식별자(/dev/diskX)를 확인하세요.
@@ -85,7 +136,18 @@ diskutil mountDisk /dev/diskX
 ls /Volumes
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. setup_node.sh 스크립트 실행
 
@@ -97,17 +159,28 @@ chmod +x setup_node.sh
 
 - 각 microSD 카드가 어떤 노드에 해당하는 지에 따라 스크립트를 한 번씩 실행하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 마스터 노드 마이크로SD 카드용
-sudo ./setup_node.sh master 
+sudo ./setup_node.sh master
 ```
 
 ```js
 # 워커 노드 마이크로SD 카드용
-sudo ./setup_node.sh worker1 
-sudo ./setup_node.sh worker2 
+sudo ./setup_node.sh worker1
+sudo ./setup_node.sh worker2
 sudo ./setup_node.sh worker3
 ```
 
@@ -115,7 +188,18 @@ sudo ./setup_node.sh worker3
 
 3. 마이크로SD 카드를 추출하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 스크립트가 완료되면 마이크로SD 카드를 제거해 주세요
 
@@ -128,7 +212,18 @@ diskutil unmountDisk /dev/diskX
 - 각 준비된 마이크로SD 카드를 해당 라즈베리 파이 기기에 넣어주세요.
 - 각 라즈베리 파이를 켜고 이더넷으로 네트워크에 연결해 주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 의존성 설치
 
@@ -140,7 +235,18 @@ diskutil unmountDisk /dev/diskX
 
 2. Ansible 설치:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 brew install ansible
@@ -154,7 +260,18 @@ brew install nmap
 
 3. Ansible과의 SSH 인증을 위해 sshpass 설치하기:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 brew install sshpass
@@ -170,7 +287,18 @@ chmod +x ./init_ansible.sh
 sudo ./init_ansible.sh
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이 스크립트는 Pi의 IP 주소를 동적으로 검색하여 ansible/hosts 파일에 저장합니다. 또한 각 IP 주소의 SSH 키를 ~/.ssh/known_hosts 파일에 추가합니다.
 
@@ -182,7 +310,18 @@ sudo ./init_ansible.sh
 export ANSIBLE_SSH_PASS='여러분의_ssh_암호_여기에'
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 확인
 
@@ -195,11 +334,20 @@ cd ansible
 ansible all -m ping
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 마크다운 형식으로 변경한 표입니다.
-
 
 ![Raspberry Pi Cluster](/assets/img/2024-06-23-RaspberryPiClusterwithKubernetesandAirflowConfiguringAnsible_6.png)
 

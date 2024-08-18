@@ -3,17 +3,13 @@ title: "RAGAS 해석 해부 검색-보완 생성 파이프라인 평가의 심�
 description: ""
 coverImage: "/assets/img/2024-06-19-DemystifyingRAGASADeepDiveintoEvaluatingRetrieval-AugmentedGenerationPipelinesPart1Introduction_0.png"
 date: 2024-06-19 06:56
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-DemystifyingRAGASADeepDiveintoEvaluatingRetrieval-AugmentedGenerationPipelinesPart1Introduction_0.png
 tag: Tech
 originalTitle: "Demystifying RAGAS: A Deep Dive into Evaluating Retrieval-Augmented Generation Pipelines (Part 1: Introduction)"
 link: "https://medium.com/@bishalbose294/demystifying-ragas-a-deep-dive-into-evaluating-retrieval-augmented-generation-pipelines-part-1-f8a6f28927c6"
 isUpdated: true
 ---
-
-
-
-
 
 # 기계의 부상... 약간의 도움과 함께
 
@@ -23,7 +19,18 @@ AI가 창의적인 텍스트 형식을 생성하는 것뿐만 아니라 현실 �
 
 GPT-3 및 Jurassic-1 Jumbo와 같은 LLM은 인상적인 공학적 업적으로, 인간 수준의 텍스트를 생성하고 언어를 번역하며 다양한 종류의 창의적 콘텐츠를 작성할 수 있는 능력을 갖췄습니다. 그러나 그들의 지식은 종종 그들이 훈련받은 방대한 양의 데이터로 제한됩니다. 이는 특정 사실적 정확도나 현실 세계 맥락을 필요로하는 프롬프트에 직면했을 때 결함으로 이어질 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LLM은 뛰어난 똑똑하고 책임적인 학생으로 생각할 수 있습니다. 그들은 노출된 정보를 기반으로 멋진 에세이를 쓸 수 있지만, 도서관이나 역사적 자료와 같은 외부 자료를 참고해야 하는 질문에 어려움을 겪을 수도 있습니다.
 
@@ -35,7 +42,18 @@ LLM은 뛰어난 똑똑하고 책임적인 학생으로 생각할 수 있습니�
 - 생성된 텍스트의 일관성과 집중력 향상. 명확한 맥락을 가지고 있으면, LLM은 주제를 잘 따라갈 수 있고 관련 없는 변칙을 피할 수 있습니다.
 - 출력물의 전반적인 품질과 정보성 향상. RAG가 제공하는 파워를 받은 LLM은 보다 포괄적이고 통찰력 있는 응답을 제공할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 평가 도전 과제: RAG 시스템이 모든 기능을 완벽히 수행하는지 확인하기
 
@@ -47,7 +65,18 @@ RAG 파이프라인을 개발하는 것은 흥미로운 일이지만, 실제로 
 
 # RAGAS 소개: RAG 평가를 변화시키는 게임 체인저
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 RAGAS 프레임워크는 이러한 문제에 직면하여 RAG 파이프라인을 평가하는 자동화된 객관적 방법을 제공함으로써 독자적으로 대응합니다. RAGAS를 두드러지게 만드는 이유는 다음과 같습니다:
 

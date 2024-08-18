@@ -3,17 +3,13 @@ title: "리눅스 개념 여정  디렉토리 파일 완벽 가이드"
 description: ""
 coverImage: "/assets/img/2024-07-07-TheLinuxConceptJourneyDirectoryFile_0.png"
 date: 2024-07-07 02:49
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-TheLinuxConceptJourneyDirectoryFile_0.png
 tag: Tech
 originalTitle: "The Linux Concept Journey — Directory File"
 link: "https://medium.com/@boutnaru/the-linux-concept-journey-directory-file-74ba52001fc5"
 isUpdated: true
 ---
-
-
-
-
 
 Linux에서 사용되는 일곱 가지 다른 파일 유형이 있음을 아시죠 (https://medium.com/@boutnaru/the-linux-concept-journey-linux-file-types-4cb622887331). 이 중 "디렉토리" 파일 유형이 있습니다. 이를 파일과 같이 생각할 수 있으며 해당 콘텐츠로 파일 이름과 해당 i-node 번호를 보유하는 파일입니다 (https://medium.com/@boutnaru/linux-what-is-an-inode-7ba47a519940).
 
@@ -23,7 +19,17 @@ Linux에서 사용되는 일곱 가지 다른 파일 유형이 있음을 아시�
 
 다음 글에서 뵙겠습니다 ;-) 트위터에서 저를 팔로우하실 수 있습니다 — @boutnaru (https://twitter.com/boutnaru). 또한, 저의 다른 글을 읽을 수 있는 Medium 프로필을 방문하세요 — https://medium.com/@boutnaru. 무료 eBook은 https://TheLearningJourneyEbooks.com에서 찾아보실 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-07-07-TheLinuxConceptJourneyDirectoryFile_0.png)

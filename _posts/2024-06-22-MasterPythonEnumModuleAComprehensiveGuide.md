@@ -3,17 +3,13 @@ title: "파이썬 Enum 모듈 완벽 가이드 마스터하기 위한 모든 것
 description: ""
 coverImage: "/assets/img/2024-06-22-MasterPythonEnumModuleAComprehensiveGuide_0.png"
 date: 2024-06-22 17:26
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-MasterPythonEnumModuleAComprehensiveGuide_0.png
 tag: Tech
 originalTitle: "Master Python Enum Module: A Comprehensive Guide"
 link: "https://medium.com/python-in-plain-english/master-python-enum-module-a-comprehensive-guide-22f1fad08687"
 isUpdated: true
 ---
-
-
-
-
 
 ## 파이썬의 Enum 모듈로 코드를 향상시키세요
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 다재다능하면서 널리 사용되는 프로그래밍 언어인 Python은 Enumerations의 생성과 관리를 간단하게 해주는 강력한 enum 모듈을 포함하고 있습니다. 상태 관리, 데이터 유효성 검사 또는 pandas Series 내에서 데이터를 분류하는 경우에도 Python의 enum 모듈이 중요한 역할을 할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글에서는 Python의 enum 모듈에 대해 자세히 살펴보고 그 기능, 실제 적용 및 모범 사례를 탐구할 것입니다. 이 글을 마치면 Python 프로젝트에서 Enum을 활용하여 더 깨끗하고 유지보수가 쉬운 코드를 작성하는 방법에 대해 철저히 이해하게 될 것입니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 <img src="/assets/img/2024-06-22-MasterPythonEnumModuleAComprehensiveGuide_1.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Enumeration (Enum)이란 무엇인가요?
 
@@ -43,7 +61,18 @@ Enumeration 또는 Enum으로 줄여 부르는 것은 요소 또는 멤버라고
 
 Enums는 다음과 같은 시나리오에서 특히 유용합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 상태 관리: 객체의 상태를 추적할 때, 프로세스의 단계(예: 보류 중, 처리 중, 완료)를 말합니다.
 - 구성 옵션: 특정 옵션 집합에 제한된 구성 값을 설정할 때 사용됩니다(예: 낮음, 중간, 높음).
@@ -57,7 +86,18 @@ Enums는 다음과 같은 시나리오에서 특히 유용합니다:
 - 안전성: Enum은 잘못된 값을 할당하는 것을 방지하여 오류 발생 가능성을 줄입니다.
 - 유지 관리: 특히 관련된 상수 집합을 다룰 때, Enum은 유지보수와 업데이트가 더 쉽습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 예시 코드
 
@@ -92,7 +132,18 @@ print(is_weekend(Day.WEDNESDAY)) # 출력: False
 
 코드 설명
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Enum 정의하기: 우리는 enum 모듈에서 Enum 클래스를 사용하여 Day라는 새로운 Enum을 정의합니다. 각 Enum 멤버는 연결된 정수 값과 함께 주의 하루를 나타냅니다.
 - 멤버에 접근하기: 우리는 Enum의 멤버에 이름(Day.MONDAY)을 사용하여 접근할 수 있습니다. 각 멤버는 이름과 값 속성을 가지고 있습니다.
@@ -104,7 +155,18 @@ Python의 enum 모듈은 Python 3.4에서 도입되어 열거형을 만드는 �
 
 # enum 모듈의 주요 기능
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 클래스 기반 Enum: Enum은 클래스로 정의되어 있어 객체지향 코드에 통합하고 이해하기 쉽습니다.
 - 형 안전성: Enum은 변수가 미리 정의된 값만 가질 수 있도록 보장하여 오류 발생 위험을 줄입니다.
@@ -118,7 +180,18 @@ Python 3.4 이상을 사용하는 경우 enum 모듈이 표준 라이브러리�
 pip install enum
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 기본 Enum 생성
 
@@ -128,7 +201,18 @@ Python에서 Enum을 만드는 것은 간단합니다. Enum 클래스를 상속�
 
 Enum 모듈의 또 다른 예제를 살펴봅시다. 이 예제에서는 로그와 함께 enum 모듈을 사용하여 Enum을 정의하고 사용하는 방법을 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 from enum import Enum
@@ -172,8 +256,18 @@ log_message(LogLevel.ERROR, "이것은 오류 메시지입니다.")
 
 # Enum 멤버 및 속성
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Enum의 각 구성원은 두 가지 키 속성을 가지고 있어요:
 
@@ -204,7 +298,18 @@ print(is_favorite_fruit(Fruit.CHERRY))  # 출력: True
 print(is_favorite_fruit(Fruit.BANANA))  # 출력: False
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 속성에는 각각 .name 및 .value 속성을 사용하여 액세스할 수 있습니다.
 
@@ -231,7 +336,18 @@ for status in StatusCode:
 
 코드 설명
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Enum 정의: HTTP 상태 코드를 나타내기 위해 StatusCode라는 Enum을 정의합니다. 각 멤버는 연관된 정수 값이 있습니다.
 - 멤버 순회: for 루프를 사용하여 StatusCode Enum의 멤버를 순회하고 이름과 값들을 출력합니다.
@@ -242,7 +358,18 @@ Enum은 함수의 인수로 전달될 수 있어서 코드를 더 가독성 있�
 
 함수에서 Enum 사용을 보여주기 위해 StatusCode Enum 예제를 확장해봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 from enum import Enum
@@ -276,8 +403,18 @@ print(get_status_message(StatusCode.SERVER_ERROR)) # 결과: 내부 서버 오�
 
 # 조건문과 함께 Enum 사용하기
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Enum을 사용하면 코드의 가독성과 유지 보수성을 높일 수 있어요. Enum 멤버를 비교하여 Enum 값에 따라 특정 코드를 실행할 수 있어요.
 
@@ -307,7 +444,18 @@ print(requires_license(VehicleType.CAR))        # 출력: True
 print(requires_license(VehicleType.BICYCLE))    # 출력: False
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드 설명
 
@@ -319,7 +467,18 @@ print(requires_license(VehicleType.BICYCLE))    # 출력: False
 
 Enum은 반복과 비교를 지원하여 다양한 응용 프로그램에 유용합니다. Enum의 멤버를 반복하고 표준 비교 연산자를 사용하여 비교할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Enum 멤버를 반복하고 비교하는 예제를 살펴보겠습니다:
 
@@ -364,8 +523,18 @@ print(compare_severity(Severity.LOW, Severity.LOW))         # 출력: LOW와 LOW
 - 멤버 비교: 두 개의 Severity Enum 멤버를 인자로 받아서 두 심각도 레벨을 비교하는 compare_severity 함수를 정의합니다.
 - 비교 함수 사용: compare_severity 함수를 다른 Severity 멤버와 함께 호출하여 사용법을 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-MasterPythonEnumModuleAComprehensiveGuide_2.png" />
 
@@ -375,8 +544,18 @@ print(compare_severity(Severity.LOW, Severity.LOW))         # 출력: LOW와 LOW
 
 Enum을 사용하여 데이터를 유효성 검사할 수 있습니다. 이는 특정 값을 허용하는 미리 정의된 집합에 속하는지 확인하여 데이터를 인증하는 데 특히 유용합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 데이터 유효성을 위해 Enum을 사용하는 예제입니다:
 
@@ -410,7 +589,18 @@ except ValueError as e:
 - 유효성 확인 함수: role을 인수로 받아서 유효한 UserRole 멤버인지 확인하는 validate_user_role 함수를 정의합니다. 유효하지 않을 경우 ValueError를 발생시킵니다.
 - 유효성 확인 함수 사용: 다른 역할로 validate_user_role 함수를 호출하여 사용법을 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 상태 관리에서의 Enums
 
@@ -455,7 +645,18 @@ except ValueError as e:
     print(e)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드 설명
 
@@ -468,7 +669,18 @@ except ValueError as e:
 
 # 판다스 시리즈에서의 Enum들
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 아마 기다리고 계셨던 순간입니다. 여기서는 Enum이 pandas Series와 함께 데이터 범주화에 어떻게 활용될 수 있는지 살펴보겠습니다. Enum을 사용하면 DataFrame 전체에서 일관된 범주를 유지할 수 있어 데이터 조작과 분석을 더 구조화되고 오류가 없게 만들 수 있습니다.
 
@@ -478,7 +690,18 @@ Enum은 pandas에서 범주형 데이터를 다룰 때 특히 유용할 수 있�
 
 다음은 pandas Series와 Enum을 사용하는 방법을 보여주는 예제입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import pandas as pd
@@ -518,7 +741,18 @@ print(df)
 
 ## Pandas에서 Enum 사용의 장점
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 일관성: Enum을 사용하면 미리 정의된 카테고리만 사용하므로 오타와 불일치의 위험을 줄입니다.
 - 가독성: Enum을 사용하면 카테고리에 대한 명확하고 설명적인 이름을 제공하여 코드를 더 읽기 쉽게 만듭니다.
@@ -577,7 +811,18 @@ print(df)
 # 2  사과         식품
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드 설명
 
@@ -590,7 +835,18 @@ print(df)
 
 Enum은 변수가 미리 정의된 값 집합으로 제한되어야 하는 경우에 이상적입니다. Enum이 특히 유용한 몇 가지 상황을 살펴보겠습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 고정 상수 집합: 주간, 월, 또는 사용자 역할과 같이 변경될 가능성이 거의 없는 관련 상수 집합이 있는 경우에 사용합니다.
 - 상태 관리: 주문 상태, 프로세스 단계 또는 UI 상태와 같은 응용 프로그램이나 시스템에서 상태를 관리해야 할 때 사용합니다.
@@ -604,7 +860,18 @@ Enum은 강력하고 유용하지만, 피해야 할 몇 가지 일반적인 함�
 - 변경 가능한 Enum: Enum은 고정된 변경할 수 없는 값의 집합을 나타내어야 합니다. 런타임에서 Enum을 수정하는 것은 예상치 못한 동작 및 오류를 유발할 수 있으므로 피하세요.
 - 형식 혼합: Enum 내 모든 값이 동일한 형식이어야 합니다. 형식을 혼합하면 (예: 문자열 및 정수) 혼란과 오류가 발생할 수 있으니 주의하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 팁 및 권장 사항
 
@@ -617,7 +884,18 @@ Enum은 강력하고 유용하지만, 피해야 할 몇 가지 일반적인 함�
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 열거형(Enum)은 파이썬에서 가독성, 안전성 및 유지보수성을 향상시키는 강력한 기능입니다. 이름이 지정된 상수 집합을 정의함으로써, 열거형은 유효한 값들을 강제하고 오류를 줄이며 코드를 이해하기 쉽게 만듭니다.
 
@@ -631,7 +909,18 @@ Enum은 강력하고 유용하지만, 피해야 할 몇 가지 일반적인 함�
 
 파이썬 코드에 열거형을 도입하면 더 명확하고 신뢰할 수 있는 결과를 얻을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 마지막으로:
 
@@ -641,7 +930,18 @@ Enum은 강력하고 유용하지만, 피해야 할 몇 가지 일반적인 함�
 
 함께 테크놀로지, 데이터 및 더 나아가는 세계를 탐험해 봅시다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비슷한 글이나 업데이트를 보려면 내 Medium 프로필을 방문해보세요. https://medium.com/@casavoullis
 
@@ -651,7 +951,18 @@ Enum은 강력하고 유용하지만, 피해야 할 몇 가지 일반적인 함�
 
 # 내 소셜 미디어에서 나와 연락하기를 주저하지 마세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LinkedIn: [Casavoullis](https://www.linkedin.com/in/casavoullis/)  
 GitHub: [GitHub Profile](https://bit.ly/3WrMzgm)
@@ -662,7 +973,18 @@ SQL, 데이터베이스 및 데이터 엔지니어링 콘텐츠에 더 관심이
 
 아래 댓글란에 의견을 남겨주세요... 또는 아래가 아니라 위에 남기셔도 됩니다. 🙃
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 친절한 한국어로 번역해 드립니다 🚀
 

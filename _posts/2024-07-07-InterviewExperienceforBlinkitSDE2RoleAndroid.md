@@ -3,17 +3,13 @@ title: "Blinkit SDE2 안드로이드 개발자 면접 경험 2024 최신"
 description: ""
 coverImage: "/milky-road.github.io/assets/no-image.jpg"
 date: 2024-07-07 20:04
-ogImage: 
+ogImage:
   url: /milky-road.github.io/assets/no-image.jpg
 tag: Tech
 originalTitle: "Interview Experience for Blinkit SDE2 Role (Android)"
 link: "https://medium.com/@rajagupta07042000/interview-experience-for-blinkit-sde2-role-android-b35907ff0821"
 isUpdated: true
 ---
-
-
-
-
 
 **Blinkit SDE2 역할 면접** 대화가 친근한 간단한 소개로 시작됐어요. 인터뷰어가 처음부터 편안하게 느끼게 해줬더니 처음에 느낀 긴장감도 풀리는 느낌이었어요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ### 프래그먼트 작업
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 조각 추가 및 교체 작업에 대한 것이었습니다. 면접관은 이러한 작업의 지식과 fragment 트랜잭션을 관리하는 addToBackStack 메서드의 중요성을 이해하고 싶어했습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ## 아키텍처 패턴 및 LiveData
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 The interviewer delved into the distinctions between MVVM and MVP architectural patterns, as well as the significance of LiveData in Android development, emphasizing how these frameworks are practically applied and the advantages they offer.
 
@@ -43,7 +61,18 @@ Next, we delved into the realm of Kotlin coroutines and concurrency. Our discuss
 
 ### Advanced Kotlin Concepts
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인터뷰어는 확장 함수, 인라인 함수, 동반 객체, lazy 및 lateinit와 같은 고급 Kotlin 개념에 대해 이야기했어요. 그리고 확장 함수와 동반 객체 내의 함수를 호출하는 방법의 차이에 대해서도 물었어요.
 
@@ -53,7 +82,18 @@ Next, we delved into the realm of Kotlin coroutines and concurrency. Our discuss
 
 ## 프로젝트 토론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인터뷰는 내 프로젝트에 대한 상세한 토론으로 마무리되었습니다. 이 주제에 대해 약 30분 정도를 소요했는데, 내가 참여한 프로젝트와 직면한 어려움, 그리고 내가 구현한 해결책에 대해 설명했습니다. 그녀는 특히 내 문제 해결 접근 방식과 기술적 지식을 실제 상황에 어떻게 적용하는지에 대해 흥미를 가졌던 것 같았습니다.
 
@@ -63,6 +103,17 @@ Next, we delved into the realm of Kotlin coroutines and concurrency. Our discuss
 
 ## 팁: 내부 구현에 대해 깊이 파고들어 보세요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 면접에서 뛰어나기 위해서는 안드로이드 구성 요소와 코틀린 기능의 내부 구현에 깊이 파고들어야 합니다. 근본적인 메커니즘을 이해하면 복잡한 질문에 대답하고 주제에 대한 강력한 지식을 입증하는 데 도움이 됩니다.

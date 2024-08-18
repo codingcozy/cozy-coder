@@ -3,17 +3,13 @@ title: "오픈소스 수경재배에서의 3D 스캐닝의 잠재력"
 description: ""
 coverImage: "/assets/img/2024-06-20-ThePotentialof3DScanninginOpenSourceHydroponics_0.png"
 date: 2024-06-20 16:32
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-ThePotentialof3DScanninginOpenSourceHydroponics_0.png
 tag: Tech
 originalTitle: "The Potential of 3D Scanning in Open Source Hydroponics"
 link: "https://medium.com/@mahesh.kommareddi/the-potential-of-3d-scanning-in-open-source-hydroponics-7e81db6b333a"
 isUpdated: true
 ---
-
-
-
-
 
 지속가능성과 혁신이 중요시되는 시대에는, 3D 스캐닝과 오픈 소스 수경재배의 융합이 식품 생산 혁명을 이끌고 있습니다. 세계가 인구 증가로 식량 공급 문제와 환경 영향 최소화를 해결하려는 도전과 맞서는 가운데, 이 첨단 접근 방식은 지역 사회와 개인 모두에게 혁신적인 해결책을 제공합니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 3D 스캐닝의 중요한 역할
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3D 스캐닝 기술은 오픈 소스 수경재배 생태계에서 필수적인 도구로 자리 잡았습니다. 이 기술을 통해 사용자들은 다양한 구성 요소와 요소들의 매우 정확한 3D 모델을 만들 수 있게 되었습니다. 이 능력은 특정한 필요와 요구 사항에 맞게 맞춤화 및 최적화된 부품을 디자인하고 제작할 수 있도록 열어 주었습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 # 떠오르는 추세와 기술
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오픈 소스 수경재배 운동이 계속 가속화되는 가운데, 그 미래 방향을 결정하는 몇 가지 흥미로운 동향과 신흥 기술이 있습니다:
 
@@ -47,7 +65,18 @@ isUpdated: true
 
 오픈 소스 수경재배에서 3D 스캐닝의 통합이 놀라운 진전을 이룩했지만, 여전히 해결해야 할 도전들이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 표준화 및 상호 운용성: 생태계가 계속 성장함에 따라, 다양한 기여자로부터의 다양한 구성 요소 간 호환성과 원활한 통합을 보장하는 것이 점점 더 중요해지고 있습니다. 3D 모델 형식, 치수 및 인터페이스에 대한 보편적으로 채택된 표준 및 지침을 수립함으로써, 오픈 소스 수경 시스템의 사용성과 확장 가능성을 크게 향상시킬 수 있습니다.
 - 접근성과 가용성: OpenScan과 같은 이니셔티브는 저렴하고 모듈식 3D 스캐닝 솔루션을 제공하는 것을 목표로 함에도, 이 분야에서의 추가 발전은 기술을 민주화하고 수경재배 커뮤니티에 보다 널리 이용 가능하게 할 수 있을 것입니다. 특히 자원 제약이 있는 지역에서의 활동을 보다 활성화할 수 있습니다.
@@ -61,7 +90,18 @@ isUpdated: true
 
 이 기술의 민주화는 특히 도시 지역 및 경지나 전통적인 농업 방법에 제한된 지역에서 식품 생산을 혁신할 수 있는 잠재력을 가지고 있습니다. 오픈 소스 수경재배는 신선한 농산물의 효율적이고 지속 가능한 재배를 가능케 함으로써 식량 안보를 향상시키고 환경 영향을 줄이며 자립성을 높일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한, 오픈 소스 운동의 협력적 성격은 아이디어와 지식을 활발하게 교환하며 혁신을 가속화하고 새로운 해결책을 개발하는 데 기여합니다. 더 많은 개인과 조직이 전문지식과 창의성을 기여함에 따라 수경 시스템 설계, 자동화 및 자원 최적화의 혁신적 발전 가능성이 기하급수적으로 증가합니다.
 
@@ -71,7 +111,18 @@ isUpdated: true
 
 기후 변화, 도시화 및 자원 부족 등의 과제를 극복하며, 오픈 소스 수경로포닉스 운동은 지속 가능하고 견고한 식품 시스템을 만들어 나가는 데 참여하게 하는 희망의 등대 역할을 합니다. 3D 스캐닝, 자동화 및 협력 플랫폼의 지속적인 발전을 통해, 이 산업이 번성하고 영구한 영향을 미칠 가능성은 매우 큽니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 혁명을 받아들이고 오픈 소스 수경재배 커뮤니티에 참여하여 우리 행성을 양분하고 혁신과 자급자족을 육성하는 솔루션의 일부가 되어보세요.
 

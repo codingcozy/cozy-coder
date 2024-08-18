@@ -3,17 +3,13 @@ title: "엔티티-리졸브드 지식 그래프란 - 2024 최신 기술 분석 �
 description: ""
 coverImage: "/assets/img/2024-06-22-Entity-ResolvedKnowledgeGraphs_0.png"
 date: 2024-06-22 21:01
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-Entity-ResolvedKnowledgeGraphs_0.png
 tag: Tech
 originalTitle: "Entity-Resolved Knowledge Graphs"
 link: "https://medium.com/towards-data-science/entity-resolved-knowledge-graphs-6b22c09a1442"
 isUpdated: true
 ---
-
-
-
-
 
 ## 새로운 용어. 오래된 개념. 결국, 데이터 융합에 관한 이야기입니다.
 
@@ -23,7 +19,18 @@ ER. Entity-resolution (별칭 식별 해결, 데이터 매칭, 또는 레코드 
 
 KG. 지식 그래프는 데이터를 개체와 그들 간의 관계로 시각적으로 나타내는 지식 표현 방식입니다. 개체는 사람, 회사, 개념, 유형 자산, 지리적 위치 등이 될 수 있습니다. 관계는 정보 교환, 커뮤니케이션, 여행, 은행 거래, 계산 거래 등이 될 수 있습니다. 개체와 관계는 그래프 데이터베이스에 저장되며 사전에 연결되어 노드와 엣지로 시각적으로 나타냅니다. 다음과 같이 보입니다...
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-Entity-ResolvedKnowledgeGraphs_0.png" />
 
@@ -33,18 +40,39 @@ ERKG. 여러 데이터셋을 포함하고 있으며 엔티티가 연결되고 �
 
 우리가 만든 첫 번째 ERKG입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-22-Entity-ResolvedKnowledgeGraphs_1.png)
 
-2016년에 그래프 데이터베이스로 두 데이터셋을 가져왔어요. 하나는 외국 자산 통제국 (OFAC)의 국제 제재 목록에 있는 개인(파란색), 다른 하나는 이름을 밝히지 않을 회사의 고객(분홍색)들이에요. 분명히, 회사의 목적은 OFAC의 데이터베이스를 수동으로 검색하지 않고도 국제 제재된 개인이 고객 중에 있는지 찾는 것이었죠. 이 그래프를 통한 엔티티 해결 프로세스는 이 작업에 지나침이 될 수도 있지만 설명적인 모습이에요. 
+2016년에 그래프 데이터베이스로 두 데이터셋을 가져왔어요. 하나는 외국 자산 통제국 (OFAC)의 국제 제재 목록에 있는 개인(파란색), 다른 하나는 이름을 밝히지 않을 회사의 고객(분홍색)들이에요. 분명히, 회사의 목적은 OFAC의 데이터베이스를 수동으로 검색하지 않고도 국제 제재된 개인이 고객 중에 있는지 찾는 것이었죠. 이 그래프를 통한 엔티티 해결 프로세스는 이 작업에 지나침이 될 수도 있지만 설명적인 모습이에요.
 
 그래프 속 다수의 해결된 엔티티들은 동일 데이터셋 내에서 두 개 이상의 개인 사이에 있어요 (파란색-파란색 또는 분홍색-분홍색). 이들은 아마도 중복 레코드를 나타냅니다 (이전에 언급한 Tom Riddle vs. T.M. Riddle 문제처럼요). 경우에 따라, 중복 제거가 극단적인 경우도 있어요. 이미지 상단에 있는 분홍색 클러스터들처럼요. 이곳에서 우리는 고객 데이터셋에 있는 한 사람이 5-10개의 별도 레코드로 나타나는 것을 볼 수 있어요. 그러므로, 최소한 회사가 자체 고객 데이터 보유량 내에서 중복 제거 프로세스가 필요하다는 것을 알 수 있어요.
 
 흥미로운 부분은 이미지 상단에서 식별된 파란색-분홍색 관계에 있어요. 회사가 찾던 것이 바로 여기 있어요: 데이터셋 간의 엔티티 해결. 회사의 몇몇 고객들은 아마 국제적으로 제재된 개인일 가능성이 높아요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-Entity-ResolvedKnowledgeGraphs_2.png" />
 
@@ -54,8 +82,18 @@ ERKG. 여러 데이터셋을 포함하고 있으며 엔티티가 연결되고 �
 
 자긍ㄹ이 감지 않는 피해자를 식별하기에는 퍼지 매칭만으로 충분하지 않습니다. 특히, 단일 별칭을 사용하여 신원을 은폐하려는 범죄자를 찾거나 제재나 기타 규정을 회피하려는 사례에는 ER 프로세스에 머신러닝 기반 접근 방식과 이름 이상의 추가 메타데이터를 고려하는 더 복잡한 방법이 필요합니다. 모든 것이 NLP만 있는 것은 아닙니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래프 기반 개체 해결(ER)과 데이터셋 수준의 ER 사이에는 많은 논쟁이 있습니다. 가장 높은 충실도의 그래프 기반 분석을 위해서는 두 가지 모두가 필요합니다. 데이터셋이 그래프 데이터베이스로 가져올 때 데이터셋 내부 및 데이터셋 간의 개체를 해결함으로써 1) 계산 비용이 많이든 대규모 그래프 작업을 최소화하고, 2) 그래프에는 처음에만 해결된 개체(중복 없음)만 포함되어 전체 그래프 아키텍처에 대한 큰 비용 절감을 제공합니다.
 
@@ -69,6 +107,17 @@ ERKG는 강력하고 시각적으로 직관적인 분석 도구가 될 수 있�
 - 데이터 중복 제거 및 명시적인 연결의 시각적 표현
 - 데이터셋 내부 및 데이터셋 간의 잠재적인 연결(예측된 링크)을 제어할 수 있는 예측 확률 임계치 설정 가능
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ERKG는 주어진 도메인을 여러 데이터 세트를 통해 표현하는 활발하게 상호 연결된 탐구를 그릴 수 있는 분석 캔버스가 됩니다. 이는 데이터 퓨전 솔루션이자 매우 직관적인 것입니다.

@@ -3,17 +3,13 @@ title: "라즈베리 파이 5에서 쿠버네티스 - 3부 마스터 노드에 K
 description: ""
 coverImage: "/assets/img/2024-06-19-KubernetesonRaspberryPi5Part3InstallK3Sonmasternode_0.png"
 date: 2024-06-19 18:16
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-KubernetesonRaspberryPi5Part3InstallK3Sonmasternode_0.png
 tag: Tech
 originalTitle: "Kubernetes on Raspberry Pi 5 — Part 3 Install K3S on master node"
 link: "https://medium.com/@ionutbanu/kubernetes-on-raspberry-pi-5-part-3-install-k3s-on-master-node-f95ea35a8b1c"
 isUpdated: true
 ---
-
-
-
-
 
 래즈베리 파이 4를 쿠버네티스 호스트로 약 두 년간 사용해 왔어요. 최근에 새로운 라즈베리 파이 5를 구매했어요. 새로 구매한 라즈베리 파이 5에도 쿠버네티스를 설정해 클러스터를 구성할 계획이에요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 부분 2 외부 저장소 연결하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-KubernetesonRaspberryPi5Part3InstallK3Sonmasternode_0.png" />
 
@@ -35,7 +42,18 @@ cmdline.txt 파일에는 부팅 프로세스 중에 커널에 전달되는 명�
 sudo nano /boot/firmware/cmdline.txt
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 줄에 매개변수 세트가 포함되어 있습니다. 줄 끝에 다음 매개변수를 추가하세요:
 
@@ -49,7 +67,18 @@ cgroup_enable=cpuset cgroup_memory=1 cgroup_enable=memory
 sudo reboot
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 마스터 노드 설정
 
@@ -67,7 +96,18 @@ k3s 마스터 노드가 될 장치에 연결하세요. k3s를 설치하기 전�
 - disable-helm-controller: k3s가 Helm 컨트롤러를 배포하고 사용하는 것을 방지합니다. Kubernetes 애플리케이션을 관리하는 데 Helm 차트를 수동으로 관리하거나 Helm을 사용하지 않는 경우 유용합니다.
 - cluster-init: 첫 번째 서버 노드를 설정해 새로운 Kubernetes 클러스터를 초기화하는 데 사용됩니다. 이 노드는 초기 제어 평면 노드 역할을 하고 클러스터를 위해 etcd 데이터 저장소를 준비합니다. 이 옵션은 새 클러스터를 생성할 때 중요하며, 고 가용성 설정이나 클러스터를 복구할 때 특히 유용합니다. --cluster-init로 클러스터를 초기화한 후 추가 서버 및 에이전트 노드가 클러스터에 참여하여 완전히 기능하는 Kubernetes 환경을 구성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export K3S_NODE_NAME="pi-master"
@@ -91,7 +131,18 @@ export INSTALL_K3S_EXEC="server --node-ip=<MASTER_NODE_IP> \
 curl -sfL https://get.k3s.io | sh -
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 k3s 서비스가 실행 중인지 확인하려면 다음 명령을 실행하십시오:
 
@@ -107,7 +158,18 @@ sudo systemctl status k3s
      Active: active (running) since Sat 2024-06-08 12:55:15 EEST; 20h ago
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 K3S_KUBECONFIG_MODE="600을 사용했기 때문에 아직 kubectl을 사용할 수 없습니다. 환경 변수로 설정한 구성 파일을 복사해야 합니다.
 
@@ -122,7 +184,18 @@ chmod 600 "$KUBECONFIG"
 
 이제 kubectl을 사용할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 kubectl get pods -A
@@ -139,7 +212,18 @@ metrics-server-54fd9b65b-kv4s4            1/1     Running   4 (31m ago)   44h
 
 3. 원격으로 kubectl 설정하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 귀하의 머신에서 K3S 클러스터에 연결하려면 kube 구성 파일이 필요합니다.
 
@@ -151,6 +235,17 @@ scp pi@<MASTER_NODE_IP>:~/.kube/config ~/.kube/config
 
 이제 원격으로 kubectl 명령을 실행할 수 있을 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 완료했습니다!

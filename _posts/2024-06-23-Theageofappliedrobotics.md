@@ -3,17 +3,13 @@ title: "로봇 공학 적용의 시대"
 description: ""
 coverImage: "/assets/img/2024-06-23-Theageofappliedrobotics_0.png"
 date: 2024-06-23 18:32
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-Theageofappliedrobotics_0.png
 tag: Tech
 originalTitle: "The age of applied robotics"
 link: "https://medium.com/enrique-dans/the-age-of-applied-robotics-9f377d7cd55e"
 isUpdated: true
 ---
-
-
-
-
 
 ![Amazon Sparrow](/assets/img/2024-06-23-Theageofappliedrobotics_0.png)
 
@@ -23,7 +19,18 @@ Sparrow는 창고에서 두 가지 가장 중요한 기능을 자동화하는 �
 
 그리고 다루고 포장하는 일은 매우 복잡했어요. 왜냐하면 매우 다양한 치수, 재료 등을 다루기 위해서 적응적 능력이 필요했기 때문이죠. 그러므로 그 기술적 요소들을 제어할 수 있는 로봇 팔을 디자인하는 방법은 무엇인가요? 그에 대한 답은 하나뿐이에요: 기계 학습이죠. 창고의 모든 제품에 대한 참조가 있는 거대한 카탈로그에서 물체를 인식할 수 있는 알고리즘을 사용하여, 제품의 특성에 따라 올바른 흡입컵, 부품 및 필요한 힘으로 제품을 조작할 수 있게 되는 거죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기계 학습은 로봇 공학을 새로운 수준으로 끌어올리고 있습니다. 동시에 전 세계적으로 수백만 개의 직업이 위험에 처해 있다는 것도 사실입니다. 아마존은 이에 대해 걱정할 필요가 없다고 말하며, 자사의 역사를 통해 자동화를 지속해왔고 거대한 기계화된 군대를 구축하면서 동시에 사람을 고용해왔다는 주장을 펼치고 있습니다(팬데믹 이후를 제외하고). 동시에, 우리는 인간들이 더 이상 편안하게 수행하기를 원치 않는 작업들의 기계화에 대해 이야기하고 있으며, 이로 인해 불만족한 직원들이 자신의 급여와 근무 조건에 반발하기도 합니다.
 

@@ -3,17 +3,13 @@ title: "넷플릭스 아키텍처로 알아보는 최신 시스템 설계 트렌
 description: ""
 coverImage: "/assets/no-image.jpg"
 date: 2024-07-29 13:49
-ogImage: 
+ogImage:
   url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "10 System Design Lessons from Netflixs Architecture"
 link: "https://medium.com/javarevisited/10-system-design-lessons-from-netflixs-architecture-19ece2191a03"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*PB7v7MmW9NpdNn-_mfTj_A.gif" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 넷플릭스는 2억 4천7백만 명을 구독자들을 보유하고 있으며, 원활한 스트리밍과 탁월한 사용자 경험을 보장하는 탁월한 시스템 아키텍처를 전시하고 있습니다. 그러나 그들은 이것을 어떻게 하는 걸까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3주 전에 넷플릭스 아키텍처에 대해 배우기 시작했어요. 제 첫 번째 정착지는 유튜브였고, 많은 넷플릭스 아키텍처 관련 동영상들을 만났어요. 이 기사에서는 제가 배운 교훈들과 함께 해당 동영상도 함께 공유할 거에요.
 

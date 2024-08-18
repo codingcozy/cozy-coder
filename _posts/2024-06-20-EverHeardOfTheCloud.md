@@ -3,17 +3,13 @@ title: "구름을 들어봤어요"
 description: ""
 coverImage: "/assets/img/2024-06-20-EverHeardOfTheCloud_0.png"
 date: 2024-06-20 14:24
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-EverHeardOfTheCloud_0.png
 tag: Tech
 originalTitle: "Ever Heard Of The Cloud?"
 link: "https://medium.com/@thecloudcrowd/ever-heard-of-the-cloud-736ab8389f7c"
 isUpdated: true
 ---
-
-
-
-
 
 안녕하세요, 클라우드 열정가👋🏼💜
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 혹시 클라우드 열정가가 아니신가요? 이 글을 우연히 발견하셨거나 왜 이 글을 아직도 읽고 계신지 이해가 안 가시는 분 일 수도 있겠네요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼요 (손을 비벼들며 악의적인 웃음을 짓습니다), 만약 그렇다면, 구름이란 무엇인지 알려드릴게요.😌
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 오늘날의 디지턀 시대에 있어서, 구름이란 하늘의 한 곳뿐만이 아니라, 우리의 삶과 일하는 방식을 혁신하는 강력한 기술입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 WhatsApp부터 Instagram, Twitter (죄송해요, X🌚)까지 LinkedIn, Slack, TikTok, Discord...인터넷에 액세스하는 모든 것이 클라우드를 사용합니다.
 

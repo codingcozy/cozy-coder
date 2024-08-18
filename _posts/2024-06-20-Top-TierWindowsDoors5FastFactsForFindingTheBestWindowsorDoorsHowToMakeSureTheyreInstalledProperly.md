@@ -3,17 +3,13 @@ title: "차원이 다른 창문, 문 최고의 창문 또는 문을 찾는 데 �
 description: ""
 coverImage: "/assets/img/2024-06-20-Top-TierWindowsDoors5FastFactsForFindingTheBestWindowsorDoorsHowToMakeSureTheyreInstalledProperly_0.png"
 date: 2024-06-20 14:55
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-Top-TierWindowsDoors5FastFactsForFindingTheBestWindowsorDoorsHowToMakeSureTheyreInstalledProperly_0.png
 tag: Tech
 originalTitle: "Top-Tier Windows , Doors: 5 Fast Facts For Finding The Best Windows or Doors , How To Make Sure They’re Installed Properly"
 link: "https://medium.com/@jim.garner78/top-tier-windows-doors-5-fast-facts-for-finding-the-best-windows-or-doors-how-to-make-sure-5e8bbc393d0d"
 isUpdated: true
 ---
-
-
-
-
 
 얼마 전에 아내가 문자를 보내와서 창문이 얼었다고 했어요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 물론 농담이죠 — 제 아내는 컴퓨터와 공예 천재에요. 그녀 덕분에 이 기사를 쓰게 되었어요. 창문과 문에 대해 올바른 선택을 하는 방법을 알려드릴게요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 창문은 빛이나 공기의 원천 이상일 수 있다는 것을 보여 주었어요 — 그리고 문에 대해 이야기하자니... 선택 사항, 스타일, 그리고 고급 디자인들이 정말 다양하답니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 우리가 다루게 될 것은 구매 전 알아야 할 5가지 핵심 정보입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1. 옛 기술, 새로운 디자인
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 그래서 제 조언은 중간 길을 찾아 최선의 방법을 선택하는 거예요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여러분은 경험 많은 비즈니스를 원하시는 것 같은데, 그것이 가능하면서도 어려운 일입니다.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 만약 그렇다면 아마 여러분도 모두와 똑같은 문을 원하실 겁니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 그렇다면, 왜 이제 모두를 똑같이 만들기 시작하나요?
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-20-Top-TierWindowsDoors5FastFactsForFindingTheBestWindowsorDoorsHowToMakeSureTheyreInstalledProperly_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3. 모든 옵션
 
@@ -73,7 +124,18 @@ isUpdated: true
 
 이는 맞춤형 작업을 넘어서 모두 구비한 것을 얻는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이렇게 생각해 볼 수 있어요: 자신만의 디자인을 만들어가는 것은 멋지지만, 소재, 크기, 스타일 등에 제한이 있는 경우 그리 멀리 나아갈 수 없어요.
 
@@ -83,7 +145,18 @@ isUpdated: true
 
 결국 모든 사람이 창문 및 문 전문가가 아니라는 사실이 안타까운 일이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가끔은 최선의 옵션이 무엇인지, 어떻게 결정해야 하는지 알기 어려울 때가 있죠. 그럴 땐 쉬운 방법을 택하라고 말하죠.
 
@@ -93,7 +166,18 @@ isUpdated: true
 
 ## 5. 타협하지 마세요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자주 듣는 최악의 소식 중 하나는 누군가가 문이나 창문에 덜 투자했다는 것이고, 그들이 영원히 후회할 것이라는 것입니다.
 
@@ -103,7 +187,18 @@ isUpdated: true
 
 그러니 가치 있게, 웅장하게, 그리고 당신만의 것으로 만드세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 창문은 여러분이 집 안으로 그것을 들여보내고 싶을 때 더 넓은 세상으로의 창구입니다.
 
@@ -113,6 +208,17 @@ isUpdated: true
 
 적절한 창문과 문은 집이나 비즈니스에서 모든 차이를 만들어줄 수 있습니다 - 그들은 실내와 실외의 세계 사이의 인터페이스입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 리틀 스타트업에 오신 걸 환영합니다! 테이블 태그를 마크다운 형식으로 변경하시려면 다음과 같이 하시면 됩니다:

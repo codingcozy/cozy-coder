@@ -3,7 +3,7 @@ title: "머신 러닝으로 성범죄를 예방하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-UsingMachineLearningtoCombatSexualAbuse_0.png"
 date: 2024-07-09 11:35
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-UsingMachineLearningtoCombatSexualAbuse_0.png
 tag: Tech
 originalTitle: "Using Machine Learning to Combat Sexual Abuse"
@@ -11,17 +11,24 @@ link: "https://medium.com/ai-in-plain-english/using-machine-learning-to-combat-s
 isUpdated: true
 ---
 
-
-
-
-
 안녕하세요! 어린 시절은 즐거움, 탐험, 그리고 성장의 시기로 존재합니다. 하지만 너무 많은 어린이들에게는 성학대의 고통스러운 경험이 이 시기의 즐거움을 빼앗아갑니다. 성학대가 사진과 동영상으로 기록되고 다른 사람들과 공유될 때, 해로운 사이클은 계속됩니다. 이러한 콘텐츠를 아동 성학대 자료(CSAM)라고 합니다.
 
 요즘에는 생성적 AI 도구가 접근하기 쉬워지면서 CSAM의 확산이 가속화되고 있습니다.
 
 핸즈온 성학대를 복구한지 여러 년이 지난 후에도 매년 수천 번씩 성학대가 공유되어온 생존자들이 존재합니다. 이 이미지가 공유될 때마다 피해자는 다시 성폭행당합니다. 대중에게 널리 알려진 CSAM에서 식별된 아동 피해자의 과반이 성조기 전의 어린이들입니다. 그들은 말할 수조차 없는 어린 나이일 수도 있습니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오늘은 기계 학습과 인공 지능이 여러 분야에서 도움을 주고 있다는 것을 보실 수 있습니다. 연구부터 예술까지, 미디어 제작부터 엔터테인먼트까지 기술이 큰 파장을 일으키고 있습니다. 그러나 스탠포드 대학의 Women In Data Science (WiDS) 컨퍼런스에 참석한 후 기술이 성적 학대와의 싸움에도 사용될 수 있다는 것을 배웠습니다.
 
@@ -31,7 +38,18 @@ Thorn은 아동들을 인터넷 상에서의 성적 학대로부터 보호함으
 
 인기 있는 콘텐츠 호스팅 플랫폼인 Flickr도 Safer - Thorn의 CSAM Classifier 통합 버전을 사용하고 있습니다. 사용자가 업로드한 이전에 감지되지 않은 2000개의 파일을 Safer가 시간내에 CSAM으로 플래그 처리했습니다. 이 사례는 그 후에 수사 기관에 소속된 당국에 이송되었는데, 그 기관은 수사를 시작하여 피해자를 찾아 구조를 하고 가해자를 체포했습니다. 이는 Thorn과 기술 전반에 대한 큰 승리였습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![How Thorn’s CSAM Classifier Works](/assets/img/2024-07-09-UsingMachineLearningtoCombatSexualAbuse_1.png)
 
@@ -39,7 +57,18 @@ Thorn은 아동들을 인터넷 상에서의 성적 학대로부터 보호함으
 
 ![How Thorn’s CSAM Classifier Works](/assets/img/2024-07-09-UsingMachineLearningtoCombatSexualAbuse_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 첫 번째로, 데이터셋은 훈련 및 테스트 세트로 나누어집니다. 훈련 세트는 감독 모델을 통해 전달되고 테스트 세트는 예측 모델을 통해 전달됩니다. 이후 이러한 결과는 분류 결과로 정의되어 평가 단계를 거칩니다.
 
@@ -49,7 +78,18 @@ Thorn은 아동들을 인터넷 상에서의 성적 학대로부터 보호함으
 
 - 아동학대 및 성착취물(CSAM) 데이터 획득 및 저장
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 To create a powerful ML model, you need a substantial amount of data. However, in Thorn's case, this can be a bit tricky because storing CSAM data is illegal. They had to collaborate with relevant authorities and seek legal assistance to navigate this challenge.
 
@@ -59,7 +99,18 @@ Perpetrators tend to be quick to adopt new technologies. There's a risk they mig
 
 **# Thorn’s Achievements**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - CSAM Classifier 사용자들은 32%의 응급 처리 시간을 절약했습니다.
 - 2019년 이후 고객 플랫폼에서 2.8백만개 이상의 잠재적인 CSAM 파일이 식별되었습니다.
@@ -72,7 +123,18 @@ Perpetrators tend to be quick to adopt new technologies. There's a risk they mig
 
 가기 전에:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 반드시 작가를 박수로 응원해 주시고 팔로우해주세요! 👏
 - 팔로우하기: X | LinkedIn | YouTube | Discord | 뉴스레터

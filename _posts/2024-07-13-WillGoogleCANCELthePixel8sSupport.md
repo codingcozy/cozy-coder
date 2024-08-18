@@ -3,17 +3,13 @@ title: "구글, Pixel 8 지원 중단할까"
 description: ""
 coverImage: "/assets/img/2024-07-13-WillGoogleCANCELthePixel8sSupport_0.png"
 date: 2024-07-13 00:22
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-WillGoogleCANCELthePixel8sSupport_0.png
 tag: Tech
 originalTitle: "Will Google CANCEL the Pixel 8’s Support?"
 link: "https://medium.com/@michaelswengel/will-google-cancel-the-pixel-8s-support-21a5f230fd85"
 isUpdated: true
 ---
-
-
-
-
 
 ![Will Google CANCEL the Pixel 8's Support](/assets/img/2024-07-13-WillGoogleCANCELthePixel8sSupport_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 그러나 이 발표를 받은 후 몇몇은 정당한 이유로 이 질문을 던져왔어요: 구글은 이 약속을 지킬 수 있을까요, 아니면 철회할 것인가 — 그리고 아마는 심지어 픽셀 라인을 종료할 가능성까지 생각하게 되었어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 친구들, 정말 공평한 질문이에요. 특히 Google이 지난 몇 년 동안 종료한 많은 프로젝트와 서비스를 고려할 때 말이죠. 만약 여전히 Pixel Pass에 대해 쓸쓸해하고 계신다면, 난 당신을 이해합니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 지금까지 대부분의 안드로이드 기기는 출시 후 몇 년 후에 소프트웨어 업데이트를 받았죠. 예를 들어, 폰이 출시된 후 3~4년 동안 보안 업데이트가 약속되지만 주요 OS 업그레이드는 2~3년 동안만 약속되는 것이 흔한 일이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Apple의 표준 방침은 적어도 다섯 또는 여섯 년 이상의 주요 OS 업그레이드와 보안 업데이트를 지원하는 것이지만, 그 저보다 긴 시간 동안 지원을 받은 적도 있죠.
 
@@ -43,7 +61,18 @@ Apple의 표준 방침은 적어도 다섯 또는 여섯 년 이상의 주요 OS
 
 Google가 이를 지켜낼까요? 그것이 문제입니다. 아니면 이 약속된 업그레이드 계획이 Google의 다른 폐기된 프로젝트가 되어 버릴까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 기기 지원에 필요한 것은 무엇인가요?
 
@@ -53,7 +82,18 @@ Google가 이를 지켜낼까요? 그것이 문제입니다. 아니면 이 약�
 
 업데이트를 출시하기 전에, 각 해당 기기와 호환성을 테스트하고 필요할 때마다 조정해야 합니다. 이 작업은 상상할 수 있는 대로 시간과 비용이 소요됩니다. Pixel 7, Pixel 7 Pro, Pixel 8 및 Pixel 8 Pro의 펌웨어는 약간씩 다릅니다. 그러한 차이가 고려되어야 한다면…
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 회사가 한 번에 지원하는 기기가 많을수록, 해당 기기를 지원하는 데 소비되는 시간과 돈이 많아진다는 것을 잊지 마세요. 한 번에 적은 수의 기기는 비용이 적게 들며, 더 많은 노력을 각 모델을 지원하는 데 집중시킬 수 있습니다.
 
@@ -63,7 +103,18 @@ Apple은 이 사실을 잘 알고 있습니다. 삼성은 2022년에 52대의 �
 
 하지만 구글은 삼성만큼 많은 핸드폰을 연론하지 않았으며 소수의 모델에 중점을 두는 반면, Apple은 동일한 정도로 제3자 하드웨어 공급업체에 의존해야 했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 픽셀 8 및 픽셀 8 프로는 구글의 첫 번째 시도가 아니에요. 심지어 픽셀 라인이 출시되기 전에 구글은 넥서스 라인을 가졌습니다. 저는 넥서스 5를 소유했었고 정말 좋아했어요. (멋진 핸드폰이었지만, 카메라는 별로였죠.) 그 이후로 넥서스 5X가 출시되었는데요,
 
@@ -73,7 +124,18 @@ Apple은 이 사실을 잘 알고 있습니다. 삼성은 2022년에 52대의 �
 
 지금까지, 소프트웨어와 그 소프트웨어가 작동하는 하드웨어를 모두 통제하는 애플의 주요 장점이었는데, 이는 두 가지 간의 호환성을 보장하는 데 있어서 주요 장애물을 제거하는 데 도움이 되죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Pixel 8이 Google의 맞춤형 Tensor G3 칩을 탑재했습니다. 2021년에 출시된 원본의 후속 제품이자 2022년에 G2가 출시되었습니다. 그러나 Pixel 6과 Pixel 7도 Google Tensor 칩을 사용했습니다. 각각 원본과 G2를 장착했는데요. 그렇다면 왜 이제서야 더 많은 지원 연도를 제공하기 시작했을까요?
 
@@ -83,7 +145,18 @@ Pixel 8이 Google의 맞춤형 Tensor G3 칩을 탑재했습니다. 2021년에 �
 
 혹은 아직 완전한 7년간의 약속을 하기에 준비가 되지 않았을 수도 있습니다. 그러면 우리가 지금 그들이 빠져 나가지 않을 것을 보장받을 수 있는 보증이 뭘까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # "픽셀 패스를 기억하시나요?"
 
@@ -93,7 +166,18 @@ Pixel 8이 Google의 맞춤형 Tensor G3 칩을 탑재했습니다. 2021년에 �
 
 그 중 일부는 환상적이었지만 어떤 이유로 인해 구글에 의해 취소되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 왜 그 중 하나가 취소되었는지 최종적으로는 추측만 할 수 있습니다. 그러나 조기 종료된 프로젝트의 무덤은 우리에게 구글이나 팀 픽셀로부터 듣는 미래 지원의 약속을 고려할 때 옳은 신중함을 줍니다.
 
@@ -103,7 +187,18 @@ Pixel 8이 Google의 맞춤형 Tensor G3 칩을 탑재했습니다. 2021년에 �
 
 "그렇다면, Michael씨, 왜 구글이 이 프로젝트도 중단하지 않을까요?"
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 구글의 이전 작업물들을 살펴보면 망가진 프로젝트, 취소된 프로젝트, 그리고 잊혀진 프로젝트들이 많기 때문에 그것은 합리적인 의문입니다. 하지만 나는 구글이 Pixel 8을 7년간 지원할 것이라는 약속을 신뢰할 만한 몇 가지 이유가 있다고 생각해요.
 
@@ -118,7 +213,18 @@ Pixel 8이 Google의 맞춤형 Tensor G3 칩을 탑재했습니다. 2021년에 �
 
 # 진짜 시험은 내년에 나올 거에요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 개인적으로는 Google이 이 기기들을 실제로 7년간의 완전한 지원을 제공할 것이라고 생각합니다. 하지만 제 머릿속에서의 시험은 이것이 아닙니다. 여러 가지 요소에 따라 Google이 이 긴 지원 기간을 한 번에만 하는 것, 픽셀 8 및 픽셀 8 Pro에만 해당하는 독특한 경우로 만들 수도 있습니다.
 
@@ -128,7 +234,18 @@ Google이 언젠가는 여기서 많은 것을 물어뜯다고 생각하고 한 
 
 솔직히 5년이라도 충분할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 현재로서 우리가 할 수 있는 일은 추측뿐입니다.
 
@@ -138,7 +255,18 @@ Google이 언젠가는 여기서 많은 것을 물어뜯다고 생각하고 한 
 
 그 동안 이렇게 긴 지원 기간이 Android폰 대신 아이폰을 선택하는 확실한 이유였습니다. 제 소망은 구글이 실제로 이 약속을 이행하고 미래로 이어 나갈 것이라는 점입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 가능하다면, 안드로이드를 선택하는 사람들에게 프리미엄이면서 오랫동안 사용할 수 있는 기기를 원하지만 애플의 고가를 지불하고 싶지 않은 사람들에게 큰 도움이 될 것 같아요.
 
@@ -148,7 +276,18 @@ Google이 언젠가는 여기서 많은 것을 물어뜯다고 생각하고 한 
 
 # 어떻게 생각하시나요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 단계에서 할 수 있는 일은 추측하는 것뿐이에요. 구글이 이전에 종료된 프로젝트의 무덤을 만들어 놓은 것은 부인할 수 없어요. 이것도 그 중 하나가 될 수 있을까요? 픽셀 라인 자체가 그 중 하나가 되거나 말까요?
 

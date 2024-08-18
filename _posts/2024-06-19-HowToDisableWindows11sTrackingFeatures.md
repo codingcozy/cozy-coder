@@ -3,17 +3,13 @@ title: "Windows 11의 추적 기능을 비활성화하는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-19-HowToDisableWindows11sTrackingFeatures_0.png"
 date: 2024-06-19 09:03
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-HowToDisableWindows11sTrackingFeatures_0.png
 tag: Tech
 originalTitle: "How To Disable Windows 11’s Tracking Features"
 link: "https://medium.com/@endasheridan/how-to-disable-windows-11s-tracking-features-7ffa7de82aa1"
 isUpdated: true
 ---
-
-
-
-
 
 Windows 11에서 개인 정보 보호 보장: 단계별 안내서
 
@@ -23,7 +19,18 @@ Windows 11은 이전의 마이크로소프트 운영 체제와 마찬가지로 �
 
 # 맞춤 광고 비활성화하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 개인 맞춤형 광고를 해제하려면:
 
@@ -39,7 +46,18 @@ Windows 11은 이전의 마이크로소프트 운영 체제와 마찬가지로 �
 
 위 설정을 비활성화하면 여전히 광고를 볼 수 있지만 사용자 행동에 기반한 대상 지정이 되지 않습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 진닑 데이터 수집 줄이기
 
@@ -53,7 +71,18 @@ Windows 11은 이전의 마이크로소프트 운영 체제와 마찬가지로 �
 
 # 활동 추적 비활성화하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 활동 추적은 개인 정보 보호에 관련된 중요한 문제가 될 수 있습니다:
 
@@ -65,7 +94,18 @@ Windows 11은 이전의 마이크로소프트 운영 체제와 마찬가지로 �
 
 분실된 기기를 찾는 데 유용하지만, 내 기기 찾기도 위치 데이터를 업로드합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 개인정보 및 보안에서 '내 기기 찾기'를 선택하세요.
 - Microsoft가 위치를 추적하지 않으려면 스위치를 끄세요.
@@ -79,7 +119,18 @@ Edge에서 브라우징할 때 추적기를 차단하려면:
 - 왼쪽 패널에서 '개인정보, 검색 및 서비스'를 선택하세요.
 - 추적 방지 기능을 활성화하고 필요에 맞는 수준을 선택하세요. 일반 사용자를 위해 균형있게 권장하는 것이 바람직하지만, 엄격한 수준은 대부분의 추적기를 차단하지만 일부 웹사이트 기능을 깨뜨릴 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 마이크로소프트 계정에서 데이터 지우기
 

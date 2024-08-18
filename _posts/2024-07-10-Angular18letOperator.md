@@ -3,7 +3,7 @@ title: "Angular 18  let 연산자 살펴보기"
 description: ""
 coverImage: "/assets/img/2024-07-10-Angular18letOperator_0.png"
 date: 2024-07-10 00:58
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-10-Angular18letOperator_0.png
 tag: Tech
 originalTitle: "Angular 18 : @let Operator"
@@ -11,17 +11,24 @@ link: "https://medium.com/@anasmasti10/angular-18-let-operator-62013eaab2e3"
 isUpdated: true
 ---
 
-
-
-
-
 Angular 18.1은 새로운 흥미로운 기능을 가져왔어요: @let 연산자. JavaScript의 let 키워드를 알고 있다면, Angular 템플릿에서 @let 연산자를 사용하는 것이 직관적이고 강력한 것을 발견할 거예요. 그래서, 이 새로운 기능은 무엇을 할까요?
 
 ## @let 연산자는 무엇인가요?
 
 @let 연산자는 Angular 템플릿 안에서 변수를 정의하고 할당할 수 있게 해줍니다. 이는 특히 비동기 데이터를 사용할 때 코드를 효율적으로 만드는 데 도움이 될 수 있어요. 가장 큰 장점 중 하나는 async 파이프를 사용할 때 옵저버블을 수동으로 구독 해제할 필요가 없다는 것이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 실용적인 예시
 
@@ -41,7 +48,18 @@ Angular 18.1은 새로운 흥미로운 기능을 가져왔어요: @let 연산자
 
 이 예시에서는 @let을 사용하여 사용자 데이터 및 로그인 상태를 템플릿 내에서 직접 관리합니다. 이렇게 하면 템플릿 코드를 깔끔하고 읽기 쉽게 유지할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## @let을 사용하지 말아야 할 때
 
@@ -51,7 +69,18 @@ Angular 18.1은 새로운 흥미로운 기능을 가져왔어요: @let 연산자
 
 ## Angular의 진화에 발맞추기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앵귤러는 계속 발전하고 있습니다. @let 연산자와 같은 기능들은 개발 경험을 향상시키기 위해 설계되었습니다. 이러한 업데이트는 웹 애플리케이션을 더 쉽고 즐겁게 구축할 수 있게 해줍니다.
 

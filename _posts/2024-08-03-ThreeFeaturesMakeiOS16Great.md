@@ -3,17 +3,13 @@ title: "iOS 16을 훌륭하게 만드는 3가지 기능"
 description: ""
 coverImage: "/assets/no-image.jpg"
 date: 2024-08-03 19:58
-ogImage: 
+ogImage:
   url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "Three Features Make iOS 16 Great"
 link: "https://medium.com/five-hundred-words/three-features-make-ios-16-great-93b509a9cea7"
 isUpdated: true
 ---
-
-
-
-
 
 지난 몇 주간 iOS 16 공개 베타를 사용해 왔어요. 상당히 안정적이라는 것이 좋았어요. 하지만 일상적으로 사용하는 데 많이 다르지는 않다고 솔직히 말하면, 세 가지 정말 중요하고 정말 멋진 변화를 제외하고요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 그리고 꼭 해야 해요, 왜냐하면 정말 좋으니까요. 이런 것 중 하나는 한 번 켰다면 그 기능이 없는 기기로 갈아타기 힘들어질 거예요. 아주 좋아요. 제가 이런 게 불가능한 기기로 타이핑하는 것을 계속 하고 있기 때문에 알아요. 제 아이패드 미니에는 이런 엔진이나 기능이 없어서 뭔가 고장난 것 같아요. 아마도 애플이 이 기능을 기본적으로 켜지 않게 하는 이유일 거에요. 다른 애플 기기에서 글래스 타이핑이 망가지기 때문일 수도 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 음향과 함께 사용하는 것도 좋을 것 같아요. 즉, 음향을 켜는 거죠. 제 핸드폰은 거의 항상 소리 없이 조용한데요, 그렇지만 iOS 키보드의 가짜 "클릭" 소리를 오래 사랑해왔어요. 그 소리만 켜놓고 싶은 마음이 들었죠. 이제 진동 피드백도 더 원하게 됐어요. 기기에서 타이핑하는 게 거의 재미있어지니까요. 살짝 까다로운 느낌이에요.
 
@@ -33,7 +40,18 @@ iOS 16의 두 번째 슈퍼 기능은 정말 대단해요. 새로운 잠금 화�
 
 사실, 애플 워치로부터 많은 것을 빌려온다면 이게 큰 놀라움이 아니겠죠? 비슷한 규칙을 가진 애플 워치는 상당히 획기적이에요. 애플은 기능 및 한계에서 파생되는 폼으로 애플 워치를 위한 UI를 만들었어요. 하지만 이것들은 규모를 키워도 아주 훌륭하게 작동해요. 정보 표시는 훌륭해요. 아직 베타 단계에서는 다양성이 제한적이긴 하지만, 사진의 주제에 대한 초점과 시간을 겹쳐 표시하는 것이 멋지게 보이거든요. 그리고 이 깊이 효과는 화면이 밝아질 때 먼저 주제가 화면에 나오게 해요. 정말 멋지죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한 놀라운 것은 새로운 타이포그래피 옵션입니다. 보통 같아 보일 수 있지만, 15년 동안 같은 기본 잠금 화면 디자인을 바라보고 있었을 때, 이는 거대한 변화입니다. 색상 옵션도 추가되었고, Apple은 좋은 조합을 제안하는 데 탁월한 일을 합니다. 사랑스럽죠.
 
@@ -43,7 +61,18 @@ iOS 16의 두 번째 슈퍼 기능은 정말 대단해요. 새로운 잠금 화�
 
 15년 전 첫 날부터 iPhone 배경 화면을 꾸준히 바꾸는 데 집착하고 있던 한 사람으로서, 이 새로운 기능은 어마어마한 도움이 됩니다. 그리고 Apple이 이 작업을 하는 방법에 놀라운 점이 주로 감명깊습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 이게 전부가 아니에요.
 
@@ -53,7 +82,18 @@ iOS 16의 두 번째 슈퍼 기능은 정말 대단해요. 새로운 잠금 화�
 
 배경색을 아트워크와 일치시키는 것은 애플로부터 기대할 만한 섬세한 손길입니다. 또한 원하는 경우 앨범 아트워크를 "최소화"하여 어떠한 이유로든 락스크린 배경화면을 중심으로 유지할 수 있는 것도 좋아요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 다른 고려하지 않았던 것 중 하나는 iPhone에서 다른 것을 듣는 데 이 변경사항이 얼마나 더 좋게 만드는지입니다. 예를 들어 팟캐스트에 대한 것인데, 이제 대형 표지 아트로 볼 수 있을 뿐만 아니라, Ben Thompson의 Stratechery와 같이 콘텐츠에 연결된 아트워크가 있는 팟캐스트의 경우 정말 멋집니다. 그림이 얘기되는 내용에 따라 잠금 화면에 크게 나타납니다. The Economist와 같은 경우도 마찬가지입니다. 그들의 앱을 통해 자주 듣는데, 기사 이미지가 듣는 동안 표시됩니다.
 

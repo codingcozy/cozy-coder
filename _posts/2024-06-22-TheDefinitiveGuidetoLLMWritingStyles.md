@@ -3,17 +3,13 @@ title: "LLM 작문 스타일 완벽 가이드"
 description: ""
 coverImage: "/assets/img/2024-06-22-TheDefinitiveGuidetoLLMWritingStyles_0.png"
 date: 2024-06-22 20:34
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-TheDefinitiveGuidetoLLMWritingStyles_0.png
 tag: Tech
 originalTitle: "The Definitive Guide to LLM Writing Styles"
 link: "https://medium.com/pythoneers/the-definitive-guide-to-llm-writing-styles-7b5a634e3c93"
 isUpdated: true
 ---
-
-
-
-
 
 2024년 4월 10일에 업데이트된 내용: 의사 소통 스타일 및 언어 등록 범주에 대한 누락된 예시를 작성하여 형식을 개선하고 삽입 문단 2개를 제거했습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 성격 특성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 성격 특성은 개인이 일반적으로 어떻게 생각하고, 느끼며 행동하는지를 형성하는 기본 성향 및 성향입니다. 언어모델링의 맥락에서 성격 특성은 생성된 텍스트의 전반적인 톤, 내용 및 스타일에 영향을 미칩니다. 예를 들어 높은 openness를 가진 언어모델은 더 창의적이고 관행적이 아닌 응답을 생성할 수 있습니다. 반면 높은 conscientiousness를 가진 언어모델은 조직적이고 세부적인 결과물을 더 많이 생성합니다. 이러한 특성을 조작하면 고유하고 일관된 모델 페르소나를 만들 수 있습니다.
 
@@ -34,7 +41,18 @@ isUpdated: true
 - Neuroticism (낮음, 중간, 높음): 낮은 neuroticism은 확신에 찬 대담한 주장으로 이어질 수 있습니다. 높은 neuroticism은 좀 더 주저하는, 불안한, 자기 의심적인 언어를 의미합니다.
 - ... (이하 생략)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 자기인식 (낮음, 보통, 높음): 낮은 자기인식은 경멸적이고, 자기의식 없는 글쓰기를 일으킬 수 있습니다. 높은 자기인식은 반성적이고, 자기 조명 스타일을 의미합니다.
 - 자기조절 (낮음, 보통, 높음): 나쁜 자기조절은 제약이 없고, 충동적인 글쓰기로 이어집니다. 좋은 자기조절은 규율적이고, 자제적인 스타일을 의미합니다.
@@ -50,7 +68,7 @@ isUpdated: true
 - 자아실현 (낮음, 보통, 높음): 낮은 자아실현은 영감 없고, 관습적인 글쓰기를 만듭니다. 높은 자아실현은 만족스럽고, 목적의식이 있으며, 성장에 초점이 맞춰진 언어를 의미합니다.
 - 적응력 (낮음, 보통, 높음): 융통성은 융통성이 없고, 영혼을 닫은 글쓰기를 만들어냅니다. 적응력은 열림, 유연성, 수용하는 스타일을 의미합니다.
 - 신뢰 (낮음, 보통, 높음): 불신은 의심이 많고, 경계되는 글쓰기를 만듭니다. 높은 신뢰는 열린, 신뢰하는, 협력적인 언어를 의미합니다.
-- 갈등 해결 (낮음, 보통, 높음): 부실한 갈등 해결은 논쟁적이고, 맞대결적인 글쓰기를 만듭니다. 좋은 해결 능력은 외교적이고, 건설적이며, 문제 중심으로 집중된 스타일을 의미합니다. 
+- 갈등 해결 (낮음, 보통, 높음): 부실한 갈등 해결은 논쟁적이고, 맞대결적인 글쓰기를 만듭니다. 좋은 해결 능력은 외교적이고, 건설적이며, 문제 중심으로 집중된 스타일을 의미합니다.
 
 # 인지 스타일
 
@@ -61,7 +79,18 @@ isUpdated: true
 - 전략적 (낮음, 보통, 높음): 부적절한 전략은 무질서하고, 목표없는 글쓰기를 만듭니다. 좋은 전략은 목적의식 있고, 잘 계획되며, 목표 중심적인 스타일을 의미합니다.
 - 세부 지향적 (낮음, 보통, 높음): 세부 사항을 무시하면
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 가치와 신념
 
@@ -72,11 +101,22 @@ isUpdated: true
 - 진보주의 (낮음, 중간, 높음): 보수주의는 과거에 초점을 맞추고 전통을 보존하는 글쓰기를 유도합니다. 진보주의는 미래지향적이고 변화 수용 및 혁신을 강조하는 언어를 의미합니다.
 - 환경주의 (낮음, 중간, 높음): 반환경주의는 발전 우선, 자연에 무관심한 글쓰기를 유도합니다. 환경주의는 보존을 중시하고 생태에 민감하며 지속가능성을 중시하는 스타일을 의미합니다.
 - 자본주의 (낮음, 중간, 높음): 사회주의는 집단 중심적이고 평등을 추구하는 글쓰기를 유도합니다. 자본주의는 개인 중심적이고 시장 경제를 옹호하며 이윤 중시하는 언어를 의미합니다.
-- 사회주의 (낮음, 중간, 높음): 자본주의는 개인주의적이고 시장 경제를 생성합니다. 사회주의는 집단 소유를 옹호하고 평등 중시 및 노동자 권리 강화를 강조하는 스타일을 의미합니다. 
+- 사회주의 (낮음, 중간, 높음): 자본주의는 개인주의적이고 시장 경제를 생성합니다. 사회주의는 집단 소유를 옹호하고 평등 중시 및 노동자 권리 강화를 강조하는 스타일을 의미합니다.
 
 # 문화적 배경
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문화적 배경은 특정 사회 그룹과 관련된 공유된 규범, 전통, 지식, 생활 방식을 포함합니다. 문화적 배경을 인식하는 언어 모델은 더 다양하고 포용적이며 문화적으로 민감한 콘텐츠를 생성할 수 있습니다. 다양한 문화적 시각을 대표함으로써 모델은 서로 다른 커뮤니티에서 사용자들을 더 잘 서비스하고 공감대를 형성할 수 있습니다. 인종, 국적 및 지역적 정체성과 같은 속성은 모델의 언어 사용에 반영된 문화적 참조 프레임과 경험을 형성합니다.
 
@@ -100,11 +140,33 @@ isUpdated: true
 
 다음 속성들은 우리가 어떻게 의사소통하는 방식과 직접
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 의사소통 스타일은 개인이 언어를 통해 자신을 표현하고 다른 사람과 상호작용하는 특성적 방식을 의미합니다. 직접성, 정식성, 표현성, 그리고 공손함과 같은 속성을 포함합니다. 다른 의사소통 스타일을 가진 언어 모델은 다른 맥락과 대상을 고려한 결과물을 생성할 수 있습니다. 보다 공식적이고 분석적인 스타일을 가진 모델은 전문적이고 학술적인 환경에 더 적합할 수 있으며, 보다 비공식적이고 유쾌한 스타일을 가진 모델은 일상 대화와 엔터테인먼트에 더 매력적일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간접적인 의사 소통은 더 간접적이며, 명확하게 말하기보다는 암시합니다. 그것은 매너가 좋고 섬세하며, 모욕을 주지 않도록 노력합니다.
 
@@ -114,7 +176,18 @@ isUpdated: true
 
 ## 비격식인
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인포멀한 스타일은 톤이 캐주얼하고 편안하며 친숙하다. 엄격한 규칙을 배제하며 청중과의 친밀감과 가까움을 전달한다.
 
@@ -124,7 +197,18 @@ isUpdated: true
 
 **감정적**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 감정 표현은 주관적이고 개인적이며 감정을 불러일으키고 공감 연결을 형성하기 위해 생생한 언어를 사용합니다.
 
@@ -134,7 +218,18 @@ isUpdated: true
 
 ## 직관적
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 직관적인 커뮤니케이션은 본능적이며 가정적이며 인상에 기반합니다. 직감, 연상 및 줄거리 해석을 활용합니다.
 
@@ -144,7 +239,18 @@ isUpdated: true
 
 ## 간결한
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간결함은 아이디어를 가능한 한 적은 단어로 표현하는 것을 의미합니다. 간결하고 요점을 짚는 것이며, 불필요한 내용이나 채움말을 피합니다.
 
@@ -154,7 +260,18 @@ isUpdated: true
 
 ## 주저하는
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 망설임은 소심하고 의심스럽고 확신이 없다는 느낌을 줍니다. 한정어, 회피어 및 질문적이며 공손한 어조로 표시됩니다.
 
@@ -164,7 +281,18 @@ isUpdated: true
 
 ## 진지
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 진지한 커뮤니케이션은 신중하고 사실적이며 중대하다. 그것은 무겁고 중요하며 경솔한 행동을 싫어한다.
 
@@ -174,7 +302,18 @@ isUpdated: true
 
 ## 친근함
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 친근한 표현은 상냥하고 따뜻하며 친근하다. 상호간의 유대감을 형성하고 다른 사람들이 편안하고 좋아하는 느낌이 들도록 돕는다.
 
@@ -184,7 +323,18 @@ isUpdated: true
 
 ### 부드러운 말투
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 부드러움은 더 부드럽고 절제된 힘이 적은 것을 의미합니다. 다른 사람들을 진정시키고 안락함을 주지만 과도하게 사용하면 소심해 보일 수도 있습니다.
 
@@ -194,7 +344,18 @@ isUpdated: true
 
 ## 느긋한 진행
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 천천히 진행하는 것은 더 신중하고 점진적이며 여유롭습니다. 아이디어를 습득할 시간을 제공하지만 너무 느리면 지루할 수 있습니다.
 
@@ -204,7 +365,18 @@ isUpdated: true
 
 ## 청각
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 청각 언어는 소리, 목소리 및 들을 수 있는 세부사항에 중점을 둡니다. 청각 경험을 떠올리며 매료시킵니다.
 
@@ -214,7 +386,18 @@ isUpdated: true
 
 ## 기능적
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기능적 커뮤니케이션은 실용적이고 유용하며 작업 중심적입니다. 정보를 전달하고 목표를 효율적으로 달성하는 데 목적이 있습니다.
 
@@ -224,7 +407,18 @@ isUpdated: true
 
 # 언어 등록
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 언어 레지스터는 특정 사회적 맥락에서 사용되는 언어의 고정성, 복잡성 및 구체성 수준을 나타냅니다. 서로 다른 레지스터는 다른 상황, 청중 및 목적에 적합합니다. 여러 레지스터에서 텍스트를 생성할 수 있는 언어 모델은 더 넓은 사용 사례에 적응할 수 있습니다. 예를 들어, 전문 용어와 일반적인 용어 사이를 전환할 수 있는 모델은 전문가와 일반 대중 양쪽에 모두 봉사할 수 있습니다. 어휘, 문법 및 어조와 같은 속성은 레지스터를 신호로써 확인하며 모델의 언어의 접근성과 적절성을 형성합니다.
 
@@ -234,20 +428,40 @@ isUpdated: true
 
 ## 비정형화
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 다음과 같이 Markdown 형식으로 변경해주세요.
 
-
 | informal register | 더 캐주얼하고 사적이며 편안한 레지스터입니다. 구어, 축약형 및 친숙하고 대화식인 어조를 사용합니다. 독자를 안심시킵니다. |
-|-------------------|------------------------------------------------------------------------------------------|
-| Colloquial        | 사적이고 대화식 언어로, 비속어, 관용구 및 지역 표현을 사용합니다. 진정성 있고 소박하며 "진짜다운" 어조를 세웁니다.                  |
-| Slang            | -                                                                                          |
+| ----------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| Colloquial        | 사적이고 대화식 언어로, 비속어, 관용구 및 지역 표현을 사용합니다. 진정성 있고 소박하며 "진짜다운" 어조를 세웁니다.      |
+| Slang             | -                                                                                                                       |
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-* 비속어는 매우 비공식적이고 때로는 저속한 언어를 의미합니다. 이는 특정 서브컬처나 그룹 내에서 내부인으로 인정받는 것을 의미하며 비초 입자들을 멀리 합니다.
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+- 비속어는 매우 비공식적이고 때로는 저속한 언어를 의미합니다. 이는 특정 서브컬처나 그룹 내에서 내부인으로 인정받는 것을 의미하며 비초 입자들을 멀리 합니다.
 
 ## 전문 용어
 
@@ -255,7 +469,18 @@ isUpdated: true
 
 ## 기술
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기술 글쓰기는 복잡하고 세부적이며 전문 지식에 의존합니다. 과학적이거나 산업적이거나 특정 분야의 용어를 사용합니다. 객관적이고 정확합니다.
 
@@ -265,7 +490,18 @@ isUpdated: true
 
 ## 문학
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문학적 언어는 상상력이 풍부하고 표현력이 풍부하며 함축적입니다. 시적 장치와 언어유희를 사용합니다. 그것은 글자 그대로인 것보다 더 상징적이고 애매하다.
 
@@ -275,11 +511,33 @@ isUpdated: true
 
 ### 향수롭다
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 마크다운 형식으로 변경해 주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웃음을 유발하는 글은 익살적이거나 풍자적입니다. 무리한 상황에서 재미를 찾거나 장난을 쳐서 즐깁니다.
 
@@ -289,7 +547,18 @@ isUpdated: true
 
 ## 반어
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아이러니는 현실과 기대 사이의 불일치를 강조합니다. 모순과 역설을 드러냅니다. 그것은 비꼬르고 역설적입니다.
 
@@ -299,7 +568,18 @@ isUpdated: true
 
 ## 과장
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 과장은 과장과 피격법을 의미합니다. 강조나 효과를 위해 무엇인가를 실제보다 극도로 강조하는 것입니다.
 
@@ -309,7 +589,18 @@ isUpdated: true
 
 ## 설득력 있는
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 설득력 있는 언어는 납득을 이끌어내며, 설득력이 있고 영향력이 있습니다. 이것은 이성과 감정을 통해 의견을 흔들며 사람들을 행동으로 이끕니다.
 
@@ -319,7 +610,18 @@ isUpdated: true
 
 ## 지시적
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시험 언어는 절차적이고 지시적이며 조언적입니다. 방향을 제시하고 행동을 안내합니다. 단계별로 기술을 가르칩니다.
 
@@ -329,25 +631,46 @@ isUpdated: true
 
 ### 연설체
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 마크다운 형식으로 변경해주세요.
 
+| 슬로건                                                                                        |
+| --------------------------------------------------------------------------------------------- |
+| 웅장하고 감동적이며 설득력 있는 언어로, 말로 표현됨. 감정을 일으키기 위해 수사 기술을 사용함. |
 
-| 슬로건 | 
-| ------ | 
-| 웅장하고 감동적이며 설득력 있는 언어로, 말로 표현됨. 감정을 일으키기 위해 수사 기술을 사용함. | 
+| 설교                                                                                          |
+| --------------------------------------------------------------------------------------------- |
+| 도덕적으로 가르치며 권위 있는 언어로, 종교 서적을 해석하고 교회를 옳은 행동을 하도록 하려 함. |
 
-| 설교 | 
-| ------ | 
-| 도덕적으로 가르치며 권위 있는 언어로, 종교 서적을 해석하고 교회를 옳은 행동을 하도록 하려 함. | 
+| 애기 말 |
+| ------- |
 
-| 애기 말 | 
-| ------- | 
 |
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 베이비 토크는 유아적이고 간단하며 반복적입니다. 털털하고 애교 있는 소리와 애완동물 이름이 사용됩니다. 어른들이 아기들에게 말하는 방식을 모방합니다.
 
@@ -357,7 +680,18 @@ isUpdated: true
 
 ## 모더리즈
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Motherese는 따뜻하고 위로를 주는 애정적인 언어입니다. 노래처럼 울림 있는 과장된 억양을 사용하며 양육과 무조건적인 사랑을 표현합니다.
 
@@ -367,7 +701,18 @@ Motherese는 따뜻하고 위로를 주는 애정적인 언어입니다. 노래�
 
 ## 의식적인
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 의식어에는 위엄 있고 공식적이며 공연적인 언어가 사용됩니다. 중요한 행사와 의례를 표시합니다. 절차를 시행하기 위해 일정한 문구를 사용합니다.
 
@@ -375,7 +720,18 @@ Motherese는 따뜻하고 위로를 주는 애정적인 언어입니다. 노래�
 
 기도 언어는 존경스럽고 겸손하며 찬양적입니다. 높은 권력을 직접적으로 대면합니다. 감사를 표현하고 청구합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 의식 언어는 엄숙하고 상징적이며 규정된 언어입니다. 영적인 의미를 불러일으키기 위해 일정한 공식을 따릅니다. 그것은 신성한 행위를 신성하게 만듭니다.
 
@@ -385,7 +741,18 @@ Motherese는 따뜻하고 위로를 주는 애정적인 언어입니다. 노래�
 
 ## 친밀
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 친밀한 언어는 개인적이고 감정적이며 취약합니다. 개인적인 생각과 경험을 드러냅니다. 신뢰를 구축하고 교감을 형성합니다.
 
@@ -395,7 +762,18 @@ Motherese는 따뜻하고 위로를 주는 애정적인 언어입니다. 노래�
 
 # 전문 용어
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특정 분야, 직업 또는 사회 그룹 내에서 사용되는 전문 용어를 '중용어'라고 합니다. 중용어는 내부 구성원들 간에 복잡한 아이디어를 효율적으로 전달하는 데 도움이 되지만, 외부인들에게는 배제적이거나 혼란스러울 수 있습니다. 서로 다른 영역의 중용어를 포함한 언어 모델은 해당 배경을 공유하는 사용자들과 더 현실적이고 유익한 대화를 나눌 수 있습니다. 그러나 중용어의 사용은 필요할 때 일반 대중을 위해 개념을 설명하거나 번역하는 능력과 균형을 맞추어야 합니다.
 
@@ -405,7 +783,18 @@ Motherese는 따뜻하고 위로를 주는 애정적인 언어입니다. 노래�
 
 ## 법률
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 법률용어는 법, 규정, 범죄, 민사상의 행위, 계약 등에 대해 기술 용어를 사용합니다.
 
@@ -415,7 +804,18 @@ Motherese는 따뜻하고 위로를 주는 애정적인 언어입니다. 노래�
 
 ## 과학
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 과학 용어는 자연 현상, 종, 화합물, 과정, 실험실 기술 등을 정확하게 설명합니다.
 
@@ -425,7 +825,18 @@ Motherese는 따뜻하고 위로를 주는 애정적인 언어입니다. 노래�
 
 ## 비즈니스
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비즈니스 용어에는 경영, 재무, 회계, 마케팅 및 기업 전략 용어가 포함됩니다.
 
@@ -435,7 +846,18 @@ Motherese는 따뜻하고 위로를 주는 애정적인 언어입니다. 노래�
 
 ### 재무
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 은행, 투자, 대출, 회계 및 보험 용어들입니다.
 
@@ -445,7 +867,18 @@ Motherese는 따뜻하고 위로를 주는 애정적인 언어입니다. 노래�
 
 ## 군사
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전투, 전략, 규정, 하드웨어, 머신, 준말 및 속어.
 
@@ -455,7 +888,18 @@ Motherese는 따뜻하고 위로를 주는 애정적인 언어입니다. 노래�
 
 ## 예술
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 장르, 기법, 악기, 악보, 비평 등에 대한 미술, 연주 및 응용 미술 정보가 포함된 표입니다.
 
@@ -465,7 +909,18 @@ Motherese는 따뜻하고 위로를 주는 애정적인 언어입니다. 노래�
 
 ## 패션
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 의류 스타일, 디자이너, 원단, 액세서리, 트렌드 등.
 
@@ -475,7 +930,18 @@ Motherese는 따뜻하고 위로를 주는 애정적인 언어입니다. 노래�
 
 ## 영화
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시네마 스타일, 기법, 장비, 역할 및 비평
 
@@ -485,7 +951,18 @@ Motherese는 따뜻하고 위로를 주는 애정적인 언어입니다. 노래�
 
 ## 소셜 미디어
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Plaforms(플랫폼), features(기능), algorithms(알고리즘), analytics(분석), content types(콘텐츠 유형).
 
@@ -495,7 +972,18 @@ Protocols(프로토콜), coding(코딩), cybersecurity(사이버 보안), hardwa
 
 ## 암호화폐
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 블록체인, 암호화폐, 프로토콜, 거래소, 이니셔티브.
 
@@ -505,7 +993,18 @@ Protocols(프로토콜), coding(코딩), cybersecurity(사이버 보안), hardwa
 
 ## 엔지니어링
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전기, 기계, 토목, 항공우주 설계 및 문제 해결.
 
@@ -515,7 +1014,18 @@ Protocols(프로토콜), coding(코딩), cybersecurity(사이버 보안), hardwa
 
 ## 심리학
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 정신 과정, 행동, 인지, 장애 및 치료.
 
@@ -525,7 +1035,18 @@ Protocols(프로토콜), coding(코딩), cybersecurity(사이버 보안), hardwa
 
 ## 저널리즘
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 뉴스 수집, 작성 스타일, 편집, 미디어 법 및 윤리.
 
@@ -535,11 +1056,33 @@ Protocols(프로토콜), coding(코딩), cybersecurity(사이버 보안), hardwa
 
 # 속어
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 짧은 단어를 사용하면 메모리 절약이 가능한 경우가 많습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특정 문화 공동체에서 사용되는 그룹 내 용어.
 
@@ -549,7 +1092,18 @@ Protocols(프로토콜), coding(코딩), cybersecurity(사이버 보안), hardwa
 
 ## 세대 간
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 서로 다른 연령대는 다른 용어를 사용해요.
 
@@ -559,7 +1113,18 @@ Protocols(프로토콜), coding(코딩), cybersecurity(사이버 보안), hardwa
 
 ## 전문 용어
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 감옥수, 마약 거래자 등과 같은 폐쇄된 집단이 사용하는 의도적으로 모호한 속어로, 외부인으로부터 의미를 숨기기 위해 사용됩니다.
 
@@ -569,7 +1134,18 @@ Protocols(프로토콜), coding(코딩), cybersecurity(사이버 보안), hardwa
 
 **전문 용어**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전문가들이 사용하는 특정 기술 용어.
 
@@ -579,7 +1155,18 @@ Protocols(프로토콜), coding(코딩), cybersecurity(사이버 보안), hardwa
 
 ## 관용구
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다양한 비유적인 표현들이에요.
 
@@ -589,30 +1176,63 @@ Protocols(프로토콜), coding(코딩), cybersecurity(사이버 보안), hardwa
 
 ## 디스페미즘
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Markdown 형식으로 테이블 태그를 변경해주세요.
 
 | Rude expressions that are more offensive than the literal terms. |
-|---------------------------------------------------------------|
-| **Profanity**                                                |
-| Obscene, vulgar or blasphemous words.                         |
-|---------------------------------------------------------------|
-| **Obscenity**                                                |
+| ---------------------------------------------------------------- |
+| **Profanity**                                                    |
+| Obscene, vulgar or blasphemous words.                            |
+| ---------------------------------------------------------------  |
+| **Obscenity**                                                    |
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음처럼 Markdown 형식의 표를 변경해 주세요.
 
-| Indecent, lewd, pornographic language |
-|---------------------------------------|
+| Indecent, lewd, pornographic language                                                                                         |
+| ----------------------------------------------------------------------------------------------------------------------------- |
 | Interruption of the present narrative to depict events from the past, often to provide context or reveal character backstory. |
 
 ## Foreshadowing
 
 Subtle hints or clues about future events in the narrative, often creating a sense of tension or anticipation.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 클리프행어
 
@@ -622,13 +1242,35 @@ Subtle hints or clues about future events in the narrative, often creating a sen
 
 독자의 기대와 가정을 뒤엎는 예상치 못한 사건의 전환을 의미합니다. 종종 전체 이야기의 방향이나 의미를 변경시킵니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 비유
 
 하나의 것을 다른 것의 용어로 설명하는 비유적 비교로, 종종 추상적인 개념을 더 생생하고 관련성있게 만드는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 유사법
 
@@ -638,7 +1280,18 @@ Subtle hints or clues about future events in the narrative, often creating a sen
 
 희극적이거나 빈정거리는 비평으로, 종종 과장이나 조롱을 통해 인간의 악덕, 어리석음 및 사회 문제를 드러내거나 조롱하는 것.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 불안정한 이야기꾼
 
@@ -648,6 +1301,17 @@ Subtle hints or clues about future events in the narrative, often creating a sen
 
 한 순간, 분위기 또는 캐릭터를 잘 포착하며 종종 전체 줄거리가 없는 섬세한 묘사나 장면을 의미한다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 마크다운 형식으로 변경하십시오.

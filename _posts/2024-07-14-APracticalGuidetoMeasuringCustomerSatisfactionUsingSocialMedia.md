@@ -3,17 +3,13 @@ title: "소셜 미디어를 사용해 고객 만족도를 측정하는 실용적
 description: ""
 coverImage: "/assets/img/2024-07-14-APracticalGuidetoMeasuringCustomerSatisfactionUsingSocialMedia_0.png"
 date: 2024-07-14 02:00
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-14-APracticalGuidetoMeasuringCustomerSatisfactionUsingSocialMedia_0.png
 tag: Tech
 originalTitle: "A Practical Guide to Measuring Customer Satisfaction Using Social Media"
 link: "https://medium.com/venturehq/a-practical-guide-to-measuring-customer-satisfaction-using-social-media-66697e4ebf8e"
 isUpdated: true
 ---
-
-
-
-
 
 ## 비즈니스 인텔리전스
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 성공적인 비즈니스를 운영하는 가장 어려운 부분 중 하나는 고객의 고유한 요구를 이해하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 고객들이 비즈니스 제품 및 서비스에 대한 태도는 시간이 지남에 따라 변화하는 진화하는 과정입니다. 이에 따라 태도 강도 분석을 기반으로 한 기술을 통해 고객 만족도를 측정하는 것은 어려운 과제일 수 있습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 데이터 분석가 도구상자는 고객 만족도를 측정하기 위한 다양한 기술에 기반할 수 있습니다. 이에는 다음이 포함됩니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **이미지 태그를 마크다운 형식으로 변경**
 
@@ -49,7 +67,18 @@ isUpdated: true
 
 컴퓨터 과학에서 자주 측정되는 심리학적 개념인 태도를 나타내는 것은 감정이라고 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 강력한 측정은 고객 만족도의 정도를 결정할 수 있는 계산 가능한 수단을 제공합니다. 심리학적 개념들이 많이 있지만 비물질적 성질 때문에 측정하기 어려울 수 있기 때문에, 센티먼트 분석은 제품, 서비스, 브랜드 및 회사 전체에 대한 만족도와 태도의 간략한 시각을 제공할 수 있습니다.
 
@@ -59,7 +88,18 @@ isUpdated: true
 
 소비자 만족도 분석을 시작하는 과정은 비즈니스에 대한 핵심 질문을 하고 데이터를 확보한 후 데이터를 분석하고 통찰을 얻는 것으로 시작됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 과정의 근본은 물론 올바른 질문을 하는 것입니다. 그러나 가장 어려운 작업은 종종 데이터를 입수하는 것입니다.
 
@@ -69,7 +109,18 @@ isUpdated: true
 
 조사, 온라인 행동 데이터 및 소셜 미디어 모두 편리한 데이터 출처로 제공될 수 있습니다. 그러나 소셜 미디어가 자연어 처리 기술을 사용하여 분석하는 데 가장 접근하기 쉬운 데이터 출처이다. 🌟
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 평상시 사회적 미디어 데이터를 얻는 일반적인 소스로는 내부 데이터베이스, 공개 API 및 웹 사이트가 있습니다.
 
@@ -79,7 +130,18 @@ isUpdated: true
 
 전형적인 예로는 고객 포럼 게시물을 가져오는 것이 있습니다. 제목과 본문, 작성자, 그리고 댓글의 날짜/시간과 같은 키 정보를 얻는 것이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한번 텍스트 데이터를 획득했다면, 자연어 처리가 시작될 수 있어요.
 
@@ -89,29 +151,51 @@ isUpdated: true
 
 이 과정에는 텍스트 내에서 단어를 토큰화하여 용어를 표준화하고, 전부 소문자로 변환하고, 구두점, 숫자, URL 및 텍스트 내의 다른 특수 기호를 제거하는 것이 포함돼요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 고객 웹 사이트에서 텍스트 데이터 수집하기.
+
 df <- extract_data_from_url('https://business.com')
 
 # 토큰화하고 정규화하기 (소문자로 만들고 구두점 제거).
+
 df_tokens <- unnest_tokens(df, word, title, token = ‘words’)
 
 # 불용어 제거하기.
-df_tokens <- filter(anti_join(df_tokens, stop_words, by = ‘word’), nchar(word) >= 3)
 
+df_tokens <- filter(anti_join(df_tokens, stop_words, by = ‘word’), nchar(word) >= 3)
 
 # 가장 자주 사용된 용어 식별하기
 
 데이터를 토큰화하여 수치 분석을 진행한 후, 말뭉치 내에서 가장 자주 등장하는 용어를 식별할 수 있습니다.
 
-
 # 상위 20개 가장 빈도가 높은 토큰들.
+
 top20 <- head(arrange(count(df_tokens, word), desc(n)), 20)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Tarot Image](/assets/img/2024-07-14-APracticalGuidetoMeasuringCustomerSatisfactionUsingSocialMedia_1.png)
 
@@ -121,20 +205,41 @@ top20 <- head(arrange(count(df_tokens, word), desc(n)), 20)
 
 문서용어 행렬은 텍스트 집합 전반에 걸쳐 발생하는 용어의 빈도를 설명하기 위해 사용되는 텍스트 데이터의 수학적 표현입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 내의 행은 문서(예: 포럼 게시물 또는 문장)에 해당하며, 열은 개별 단어에 해당합니다. 각 셀은 해당 단어가 문서에 나타나는 횟수를 나타냅니다.
 
 문서용어 행렬은 비구조적인 데이터를 구조화된 형식으로 변환하여 기계 학습 알고리즘과 함께 사용하기 전에 자연어 처리를 수행하는 편리한 방법을 제공합니다.
 
-
 # 문서용어 행렬 생성.
-dtm <- cast_dtm(count(df_tokens, row_num, word), row_num, word, n)
 
+dtm <- cast_dtm(count(df_tokens, row_num, word), row_num, word, n)
 
 # LDA와 함께 하는 토픽 모델링
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문서용어 행렬이 생성되면, 단어 빈도를 Latent Dirichlet Allocation (LDA)를 사용하여 처리할 수 있습니다.
 
@@ -143,10 +248,21 @@ LDA는 본문 내에서 "주제"를 설명하는 데 사용되는 생성 통계 
 LDA를 사용할 때 주제의 수가 지정됩니다 (즉, k = 3은 세 가지 주제를 식별합니다) 결과 용어 (및 문서)가 해당 주제에 따라 범주로 그룹화됩니다.
 
 ```js
-lda <- LDA(dtm, k = 3, control = list(seed = 12))
+lda < -LDA(dtm, (k = 3), (control = list((seed = 12))));
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 주제 및 단어 확률 계산하기
 
@@ -166,7 +282,18 @@ data <- mutate(top_terms, term = reorder_within(term, beta, topic))
 data$topic <- as.factor(data$topic)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 키워드로 주제 라벨링하기
 
@@ -176,7 +303,18 @@ LDA는 특정 주제에 속한 각 텍스트 조각의 용어 목록을 제공�
 
 ![Image](/assets/img/2024-07-14-APracticalGuidetoMeasuringCustomerSatisfactionUsingSocialMedia_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 LDA 결과에서 예를 들어, 우리는 세 가지 주제를 식별했습니다. 각 주제는 가장 자주 발생하는 용어와 함께 플롯되었습니다.
 
@@ -186,7 +324,18 @@ LDA는 특정 주제에 속한 각 텍스트 조각의 용어 목록을 제공�
 
 LDA는 문서 세트에서 구성된 키워드를 포함한 각 주제에 대한 강력한 시각을 제공합니다. 그러나 의미 있는 인간적 레이블을 적용하는 기능은 부족합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 주제 내에서 키워드를 분석하여 각 그룹에 합리적인 이름을 결정할 수 있습니다.
 
@@ -196,7 +345,18 @@ LDA는 문서 세트에서 구성된 키워드를 포함한 각 주제에 대한
 
 **주제 2: 기타**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가운데 그룹에는 "질문", "안전", "IRA", "계획"과 같은 키워드들이 포함되어 있습니다. 이 주제는 다양한 주제와 관련된 다른 키워드들과 함께 혼자 떨어져 소그룹으로 라벨링될 수도 있습니다.
 
@@ -206,7 +366,18 @@ LDA는 문서 세트에서 구성된 키워드를 포함한 각 주제에 대한
 
 # 워드 클라우드 시각화
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 고객 만족도 데이터 세트의 가장 일반적으로 사용되는 용어 그래프는 행동의 강력한 시각적 표현이 될 수 있습니다. 하지만 단어 구름을 사용하여 더 다양한 용어를 시각화하는 데도 사용할 수 있습니다.
 
@@ -232,20 +403,31 @@ tdm <- TermDocumentMatrix(corpus)
 m <- as.matrix(tdm)
 
 # 단어 빈도수 얻기
-word_freqs <- sort(rowSums(m), decreasing=TRUE) 
+word_freqs <- sort(rowSums(m), decreasing=TRUE)
 
 # 단어와 빈도수를 포함하는 데이터프레임 만들기
 df <- data.frame(word=names(word_freqs), freq=word_freqs)
 
 # 단어 구름 생성
 wordcloud(words = df$word, freq = df$freq, min.freq = 1,
-          max.words=200, random.order=FALSE, rot.per=0.35, 
+          max.words=200, random.order=FALSE, rot.per=0.35,
           colors=brewer.pal(8, "Dark2"))
 ```
 
 위의 코드에서는 텍스트 말뭉치를 만들고 데이터를 정제하며 용어-문서 매트릭스를 통해 단어 빈도수 수집을 생성하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Social network graphing](/assets/img/2024-07-14-APracticalGuidetoMeasuringCustomerSatisfactionUsingSocialMedia_3.png)
 
@@ -255,7 +437,18 @@ wordcloud(words = df$word, freq = df$freq, min.freq = 1,
 
 이는 고객, 제품 및 비즈니스 내의 다른 주체들 간의 관계를 이해하는 데 중요할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사회 네트워크는 노드와 간선으로 구성되어 있으며 네트워크 그래프 내의 역할을 나타냅니다. 마찬가지로 관계를 연결하는 관계, 엣지, 그리고 링크가 표시됩니다.
 
@@ -265,7 +458,18 @@ wordcloud(words = df$word, freq = df$freq, min.freq = 1,
 
 사회 네트워크 그래프는 흥미로운 노드 클러스터(클리크)에 대한 통찰을 제공하며, 연결 중심성을 측정하기 위해 연결도, 매개 중심성, 근접도를 통해 측정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 고객 만족도 측정의 흔한 함정들
 
@@ -280,7 +484,18 @@ wordcloud(words = df$word, freq = df$freq, min.freq = 1,
 - 개인정보 보호 — 데이터가 분석에 사용될 수 있는가?
 - 법적 책임 — 데이터 처리에 대한 법적 의무는 무엇인가?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전체 소스 코드는 여기에서 확인하실 수 있습니다.
 

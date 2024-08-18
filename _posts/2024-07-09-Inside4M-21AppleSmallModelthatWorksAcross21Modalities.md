@@ -3,17 +3,13 @@ title: "다양한 21가지 모드에서 작동하는 Apple의 소형 모델 4M-2
 description: ""
 coverImage: "/assets/img/2024-07-09-Inside4M-21AppleSmallModelthatWorksAcross21Modalities_0.png"
 date: 2024-07-09 11:25
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-Inside4M-21AppleSmallModelthatWorksAcross21Modalities_0.png
 tag: Tech
 originalTitle: "Inside 4M-21: Apple Small Model that Works Across 21 Modalities"
 link: "https://medium.com/towards-artificial-intelligence/inside-4m-21-apple-small-model-that-works-across-21-modalities-2416ab96a39e"
 isUpdated: true
 ---
-
-
-
-
 
 ## 새로운 모델은 애플의 장치 내 AI 전략의 기반이 될 수 있습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 하지만 이것은 변화하기 시작했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지난 주, Apple이 4M-21을 발표하고 오픈 소스로 공개했습니다. 저는 이것을 작은 장치용 모델 중에서 가장 인상적인 작업으로 간주합니다. 4M-21은 21가지 다양한 방식에서 매끄럽게 작동하는 다중 모달 모델입니다! 이 작업은 분명히 Apple의 장치 내 모델 전략을 시그널하는 것이며, 막대한 수의 다중 모달 기능은 꽤 충격적입니다. 그러나 이 작업은 Apple이 몇 달 전에 발표한 4M 모델을 기반으로 구축되었습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 4M 프레임워크는 Massively Multimodal Masked Modeling의 약자로, 여러 작업과 모달리티를 처리할 수 있는 모델을 훈련하는 데 사용됩니다. 이 모델들은 추가 조정 없이도 다양한 시각 작업에서 뛰어나며, 새로운 작업을 위해 세심하게 조정될 때 더욱 우수한 성과를 거둡니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **4M**은 하나의 통합된 Transformer 인코더-디코더를 활용한 포괄적인 훈련 체계입니다. 이 시스템은 텍스트, 이미지, 기하학적/의미적 데이터, 신경망 특징 맵을 포함한 다양한 입력/출력 모드에서 마스킹 모델링 목표를 사용하여 훈련됩니다. 모든 모드를 이산 토큰으로 변환함으로써 4M은 작은 임의의 토큰 하위 집합에서 다중 모달 마스킹 모델링을 수행합니다.
 
@@ -41,7 +59,18 @@ isUpdated: true
 
 - 직접 다양한 시각 작업 다룰 수 있음.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 새로운 작업이나 유형에 민감하게 조정되어 성능을 향상합니다.
 
@@ -51,7 +80,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-07-09-Inside4M-21AppleSmallModelthatWorksAcross21Modalities_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4M 모델은 다른 것들의 어떤 조합에서도 어떠한 모달리티도 생성할 수 있습니다. 심지어 부분적인 입력에서도 가능합니다. 하나의 모달리티로부터 여러 모달리티를 예측할 때, 4M은 각 모달리티를 순차적으로 예측하며, 완전히 생성된 출력을 다시 입력으로 통합합니다. 이 접근 방식은 모든 훈련 모달리티에 걸쳐 일관된 예측을 보장합니다.
 
@@ -61,7 +101,18 @@ isUpdated: true
 
 4M-21은 여러 범주로 그룹화된 다양한 모달리티에 대해 훈련합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - RGB: 이미지의 토큰화 및 픽셀 버전과 색 팔레트가 포함되어 있어요.
 
@@ -71,7 +122,18 @@ isUpdated: true
 
 - Edges: 장면 레이아웃 및 의미론을 위한 Canny 및 SAM 엣지가 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 특징 맵: CLIP, DINOv2 및 ImageBind에서의 임베딩.
 - 메타데이터: RGB 이미지 및 기타 모달리티에서 다양한 유형의 메타데이터.
@@ -80,7 +142,18 @@ isUpdated: true
 
 ## 토큰화
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4M-21의 가장 중요한 기여 분야 중 하나는 토큰화 체계입니다. 토큰화는 다양한 형태와 작업을 이산 토큰의 시퀀스로 변환하여 그 표현 공간을 통합합니다.
 
@@ -90,7 +163,18 @@ i. ViT 토크나이저: 이미지와 유사한 형태에 대해 사용됩니다.
 
 ii. MLP 토크나이저: 인간의 포즈와 전역 임베딩에 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 iii. 텍스트 토크나이저: 텍스트 및 바운딩 박스 및 메타데이터와 같은 다른 모달리티를 인코딩하는 데 사용됩니다.
 
@@ -100,8 +184,18 @@ iii. 텍스트 토크나이저: 텍스트 및 바운딩 박스 및 메타데이�
 
 4M-21 아키텍처는 모달리티 임베딩을 사용한 트랜스포머 인코더-디코더를 사용합니다. 매스킹 전략에는 안정적인 훈련을 보장하기 위해 다중 모달 랜덤 매스킹 및 스팬 매스킹이 포함됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Inside4M-21AppleSmallModelthatWorksAcross21Modalities_5.png](/assets/img/2024-07-09-Inside4M-21AppleSmallModelthatWorksAcross21Modalities_5.png)
 
@@ -111,8 +205,18 @@ Apple은 4M-21의 제로샷 성능을 평가했습니다. 표면 법선 및 깊�
 
 ![Inside4M-21AppleSmallModelthatWorksAcross21Modalities_6.png](/assets/img/2024-07-09-Inside4M-21AppleSmallModelthatWorksAcross21Modalities_6.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 변환 작업에서도 훌륭한 성과를 거뒀으며, 특히 3D 객체 감지와 같은 첨단 작업에서 뛰어난 성과를 보였어요.
 

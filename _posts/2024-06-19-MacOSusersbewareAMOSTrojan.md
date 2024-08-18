@@ -3,7 +3,7 @@ title: "macOS 사용자들 주의하세요 AMOS Trojan"
 description: ""
 coverImage: "/assets/img/2024-06-19-MacOSusersbewareAMOSTrojan_0.png"
 date: 2024-06-19 04:46
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-MacOSusersbewareAMOSTrojan_0.png
 tag: Tech
 originalTitle: "MacOS users beware! AMOS Trojan"
@@ -11,17 +11,24 @@ link: "https://medium.com/xaviemirmon/macos-users-beware-amos-trojan-2f03c0848b1
 isUpdated: true
 ---
 
-
-
-
-
 며칠 전, 전에 경험한 일이 있었어요 — MacOS에서 트로이 목마에 감염된 적이 있었는데, 정말 좋지 않았어요...
 
 저는 평생 MacOS 사용자로서 항상 해커들이 일반적으로 Windows를 MacOS보다 공격한다는 사실에 안심하며 쉬어왔어요. 그럼에도 불구하고, 웹 개발을 하는 저 같은 사람에게는 종종 OS에 대한 추가 저수준 액세스가 필요하기 때문에 안전성 프로그램을 설치하는 습관은 항상 가지고 있었어요.
 
 최근 프로젝트를 위해 자신을 준비하기로 결정하여 Notion 앱을 사용하기로 했어요. 평소와 같이 Google에 가서 "Notion Mac 앱"을 입력했어요. 결과 목록에는 후원 링크가 있었는데, 그것을 클릭하여 .dmg 설치 파일을 다운로드했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인스톨러를 열었더니 브랜딩의 일부가 빠져 있어서 이상하게 보였지만, 크게 신경 쓰지 않고 설치했어요.
 
@@ -31,7 +38,18 @@ isUpdated: true
 
 터미널 창이 열리고 오류가 표시되는 걸 보고 뭔가 이상하다고 생각했어요. 이런 행동은 표준 MacOS 인스톨러에서 전혀 예상되지 않는 행동이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 파일 조사 중
 
@@ -41,7 +59,18 @@ isUpdated: true
 
 상당히 놀라운 일이지만, 2023년 8월 21일에 이 피해를 입은 시점에서 언제나 그랬듯이 백신 도구가 두 가지밖에 설치되어 있지 않았습니다 (2023년 4월에 뉴스에 소개되었음에도 불구하고). Avast와 AVG 도구가 스캔에 포함되어 있었는데, 후자를 설치하기로 결정하고 트로이 목마를 제거하는 데에 성공했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 어떻게 속았을까요?
 
@@ -51,11 +80,22 @@ isUpdated: true
 
 https://notion.so로 향하는 링크를 클릭하면서 .pw로 향하는 것이 어떻게 사기꾼의 사이트에 도착했는지 궁금해졌어요. Notion 사이트를 살펴보니, Next.js와 Contentful을 사용하여 구축되었는데, 이것은 상대적으로 안전한 설정이지만 결코 완전히 취약하지는 않아요. 거기서 왔다고 생각되지는 않지만, 오히려 광고 자체와 구글이 링크가 올바른 도메인을 가리키고 있는지 제대로 확인하지 않았을 수도 있어요. Malwarebytes에서 나온 기사는 내가 경험한 것이 정확하다고 보여주며, 패키지가 '악성 광고'를 통해 확산된다고 합니다. 그 의심을 더하려면, 위의 URL에는 끝에 'lpurl=https://www.notion.so/help/guides'이라는 쿼리 매개변수가 포함되어 있어요. "lpurl"은 내가 클릭한 Google 광고에 표시된 것으로, 그것은 저를 침해된 사이트로 리디렉트하기 전에 유효한 Notion URL이었어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # AMOS Stealer란 무엇인가요?
 
-Atomic MacOS (AMOS) 스틸러는 저장된 비밀번호, 브라우저 히스토리/세션 및 암호화폐 지갑을 노린 고급 트로이 목마 바이러스입니다. 
+Atomic MacOS (AMOS) 스틸러는 저장된 비밀번호, 브라우저 히스토리/세션 및 암호화폐 지갑을 노린 고급 트로이 목마 바이러스입니다.
 
 이는 트레이딩 뷰, 노션, 포토샵 CC와 같은 인기 앱들로 위장합니다.
 
@@ -63,7 +103,18 @@ AMOS는 매월 $1,000에 어울리는 프라이빗 텔레그램 채널을 통해
 
 ![AMOS Trojan](/assets/img/2024-06-19-MacOSusersbewareAMOSTrojan_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "9-to-5 Mac" 논문은 AMOS와 관련된 모든 것을 잘 보여줍니다.
 
@@ -73,7 +124,18 @@ AMOS는 매월 $1,000에 어울리는 프라이빗 텔레그램 채널을 통해
 
 ## 광고 신고하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가장 먼저 해야 했던 일은 구글에 광고를 삭제해 달라는 것이었습니다. 이를 위해 제가 한 일은 후원된 결과의 점 세 개 아이콘을 클릭하는 것이었습니다.
 
@@ -83,7 +145,18 @@ AMOS는 매월 $1,000에 어울리는 프라이빗 텔레그램 채널을 통해
 
 ![이미지](/assets/img/2024-06-19-MacOSusersbewareAMOSTrojan_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## WHOIS 및 남용 신고 수행
 
@@ -93,7 +166,18 @@ DomainTools에서 WHOIS 조회를 수행하여 도메인/서버의 악의적 활
 
 등록기관에 이메일을 보낼 때, ProtonMail과 같은 익명 이메일 서비스를 사용하는 것을 권장합니다. 상대방이 누구인지 확신할 수 없기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 암호를 변경하고 TFA 활성화하기
 
@@ -103,7 +187,18 @@ DomainTools에서 WHOIS 조회를 수행하여 도메인/서버의 악의적 활
 
 Facebook 광고가 작성되었고 사용자가 내 계정에 추가되었음을 알았습니다. 이와 같은 이메일로 덮쳐졌습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![표](/assets/img/2024-06-19-MacOSusersbewareAMOSTrojan_6.png)
 
@@ -113,7 +208,18 @@ TFA를 활성화한 후에 사용자 추가 흐름이 멈추었습니다. 이는
 
 유감스럽게도, 저는 번복을 하였음에도 불구하고 그들이 제 요청을 닫았고, 이 문제를 해결하기 위해 직접 은행에 가야 했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

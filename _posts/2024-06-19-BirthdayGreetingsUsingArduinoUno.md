@@ -3,17 +3,13 @@ title: "아두이노 Uno를 사용한 생일 축하 메시지"
 description: ""
 coverImage: "/assets/img/2024-06-19-BirthdayGreetingsUsingArduinoUno_0.png"
 date: 2024-06-19 17:47
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-BirthdayGreetingsUsingArduinoUno_0.png
 tag: Tech
 originalTitle: "Birthday Greetings Using Arduino Uno"
 link: "https://medium.com/@syahrulmahar92/birthday-greetings-using-arduino-uno-d818a48b8099"
 isUpdated: true
 ---
-
-
-
-
 
 아두이노 Uno를 사용하여 독특한 생일 축하 인사를 만드는 흥미진진한 튜토리얼에 오신 것을 환영합니다! 여러분이 전문 전자기기 애호가이든 호기심 많은 초보자이든, 이 프로젝트는 창의성과 기술을 절묘하게 결합하는 환상적인 방법입니다. 사랑하는 사람들에게 깜짝 놀라운 생일 메시지를 전달하는 것을 상상해보세요. 깜박이는 LED, 사용자 지정 멜로디 또는 다양한 텍스트 표시를 통해 맞춤식 생일 메시지를 전달할 수 있습니다. 이 튜토리얼에서는 아두이노 설정, 코드 작성 및 구성 요소 조립 단계별로 안내하여 특별한 생일 인사를 만들어보세요. 시작해보고 기술의 마법으로 생일을 더욱 기억에 남도록 만들어봅시다!
 
@@ -29,7 +25,18 @@ isUpdated: true
 
 ## 회로도
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-BirthdayGreetingsUsingArduinoUno_0.png" />
 
@@ -40,7 +47,18 @@ isUpdated: true
 
 이제 코드로 들어가 보겠습니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 #include <LiquidCrystal_I2C.h>      // LCD I2C 라이브러리 포함
@@ -119,7 +137,18 @@ void loop() {
 
 이제 void setup 함수로 빠르게 들어가보면, 화면() 함수가 무엇인지 궁금해질 수 있습니다. 위에 작성된 화면() 함수는 Arduino IDE 내에서 새로운 스케치에 생성한 새로운 함수로서 코드 해석을 어렵게 만드는 것을 방지하기 위해 만든 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전에 생성한 screen() 함수로 도입해 봅시다!
 
@@ -175,7 +204,18 @@ void greeting() {
 
 함수를 생성할 때, 우리는 LED와 LCD 화면을 켜는 코드를 작성하는 것입니다. 마지막 블록에서는 이미 생일 축하 메시지를 표시할 greeting 함수를 만들었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드를 Arduino Uno 보드에 업로드하고 결과를 확인해보세요.
 이 가이드가 유용했으면 좋겠어요. 계속 실험하고 Arduino로 끝없는 가능성을 탐험해보세요. 즐거운 코딩과 창작하세요!

@@ -3,17 +3,13 @@ title: "앱 평점 48 이상 꾸준히 받는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-28-HowtoConsistentlyGet48AppRatings_0.png"
 date: 2024-07-28 13:49
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-28-HowtoConsistentlyGet48AppRatings_0.png
 tag: Tech
 originalTitle: "How to Consistently Get 48 App Ratings"
 link: "https://medium.com/entrepreneur-s-handbook/how-to-consistently-get-4-8-app-ratings-0f51af8cea91"
 isUpdated: true
 ---
-
-
-
-
 
 트위터에서 나를 팔로우해주세요!
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 쉽다는 것이 아닌, 간단한 것이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 믿지 않겠다고요? 끝에서 증명하겠습니다. 수학적으로, 이해해야 할 개념은 딱 2가지뿐입니다. 하나는 기술적인 것이고, 다른 하나는 디자인입니다:
 
@@ -34,7 +41,18 @@ isUpdated: true
 
 사용자가 원하는 것을 하는 데 방해하는 경우마다, 사용자들이 실망하게 만들고 평점을 낮추는 위험이 있어요. 이에 대해 논의하려 한 건 아니에요. 그건 간단하죠 — 절대로 충돌하지 마세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-28-HowtoConsistentlyGet48AppRatings_0.png" />
 

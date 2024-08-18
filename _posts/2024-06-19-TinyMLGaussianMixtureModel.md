@@ -3,17 +3,13 @@ title: "작고 강력한 TinyML  가우시안 혼합 모델"
 description: ""
 coverImage: "/assets/img/2024-06-19-TinyMLGaussianMixtureModel_0.png"
 date: 2024-06-19 02:22
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-TinyMLGaussianMixtureModel_0.png
 tag: Tech
 originalTitle: "TinyML — Gaussian Mixture Model"
 link: "https://medium.com/@thommaskevin/tinyml-gaussian-mixture-model-9730693fb8a4"
 isUpdated: true
 ---
-
-
-
-
 
 수학적 기초부터 엣지 구현까지
 
@@ -26,7 +22,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-19-TinyMLGaussianMixtureModel_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 개요
 
@@ -36,7 +43,18 @@ isUpdated: true
 
 예를 들어, 사람들의 키 데이터를 모델링한다고 가정해 봅시다. 일반적으로, 키는 성별별로 정규 분포로 모델링되며, 남성은 평균적으로 약 5`10"이고 여성은 5`5"입니다. 개별 데이터 포인트의 성별 할당을 미리 알 수 없는 경우, 모든 키의 분포는 두 개의 정규 분포의 결합으로 개념화됩니다. 각각 다르게 스케일되고(서로 다른 분산을 가짐) 이동(다른 평균을 가짐)된 두 개의 정규 분포를 포함하는 모델은 가우시안 혼합 모델(GMM)의 예시입니다. 물론, GMM은 두 가지 이상의 구성 요소를 포함할 수 있습니다. GMM을 데이터 모델링에 사용할 때, 개별 정규 분포 구성 요소의 매개변수를 추정하는 것이 핵심적인 도전입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GMM은 음성 데이터에서의 특징 추출을 포함한 다양한 분야에서 응용 프로그램을 찾습니다. 또한 GMM은 여러 객체가 포함된 객체 추적 시나리오에서 널리 사용됩니다. 이러한 경우에서 혼합 구성 요소의 수와 각각의 평균은 비디오 시퀀스 내 각 프레임에서 객체 위치를 예측하는 데 도움이 됩니다.
 
@@ -46,7 +64,18 @@ GMM은 음성 데이터에서의 특징 추출을 포함한 다양한 분야에�
 
 ![image](/assets/img/2024-06-19-TinyMLGaussianMixtureModel_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 구성 요소의 가중치가 학습되지 않은 경우, 그들은 구성 요소에 대한 사전 분포로 해석될 수 있으며, 데이터 점 x가 구성 요소 Ck에 의해 생성될 확률인 ϕk로 표현될 수 있습니다. 그러나 학습된 경우, 그들은 데이터를 통해 주어진 구성 요소 확률의 사후 추정치를 나타냅니다.
 
@@ -54,7 +83,18 @@ GMM은 음성 데이터에서의 특징 추출을 포함한 다양한 분야에�
 
 ![image](/assets/img/2024-06-19-TinyMLGaussianMixtureModel_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래에 표가 있습니다:
 
@@ -63,7 +103,18 @@ GMM은 음성 데이터에서의 특징 추출을 포함한 다양한 분야에�
 
 가우시안 확률 밀도 함수를 대체하면:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 확률의 합이 11이 되도록 확인하였습니다:
 
@@ -73,7 +124,18 @@ GMM은 음성 데이터에서의 특징 추출을 포함한 다양한 분야에�
 
 혼합 모델의 구성 요소 K가 알려진 경우, 기대 최대화 (EM)는 모델의 매개변수를 추정하는 데 사용되는 주요 기술입니다. 빈도론적 확률 이론에서 모델은 일반적으로 최대 우도 추정 방법을 통해 학습됩니다. 이러한 방법은 모델 매개변수가 주어진 경우 데이터를 관찰할 가능성 또는 확률을 최대화하기 위해 노력합니다. 그러나 혼합 모델에 대한 최대 우도 솔루션을 로그 우도의 미분을 통해 얻고 영의 값을 구하는 것은 흔히 분석적으로 불가능합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Expectation maximization (EM)는 최대 우도 추정을 위한 수치적 접근을 제공합니다. 해당 방법은 모델 파라미터를 업데이트하는 닫힌 형식의 표현이 유도될 때 사용됩니다. EM은 각 반복에서 데이터의 최대 우도가 꾸준히 향상되는 유리한 특성을 갖는 반복적인 알고리즘입니다. 이러한 특성은 알고리즘이 지역 최댓값 또는 안장점으로 수렴하게 함을 보장합니다.
 
@@ -84,7 +146,18 @@ Expectation maximization (EM)는 최대 우도 추정을 위한 수치적 접근
 - Expectation 단계 (E 단계): 이 단계에서 알고리즘은 현재의 모델 파라미터인 ϕk, μk, σk를 고려하여 각 데이터 지점 xi에 대한 구성 요소 할당의 기대값 p(Ck∣xi)을 계산합니다.
 - Maximization 단계 (M 단계): 이 단계는 E 단계에서 계산된 기대값을 모델 파라미터에 대해 최대화하는 것을 포함합니다. 이는 ϕk, μk, σk의 값을 업데이트하는 것을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 반복적인 과정은 알고리즘이 수렴할 때까지 계속되며 최대 우도 추정치를 생성합니다. 이 알고리즘의 합리적인 근거는 구성 요소 할당인 p(Ck∣xi)를 알고 있으면 ϕk, μk, σk를 해결하는 작업을 단순화하고, 이러한 매개변수를 알면 p(Ck∣xi)의 추론을 용이하게 합니다. E 단계는 후자의 경우에 해당하며, M 단계는 전자에 해당합니다. 특정 값을 고정된 값이나 이미 알려진 값으로 처리하며 알고리즘은 미지의 매개변수의 최대 우도 추정치를 효율적으로 계산합니다.
 
@@ -94,7 +167,18 @@ Expectation maximization (EM)는 최대 우도 추정을 위한 수치적 접근
 
 ![이미지](https://miro.medium.com/v2/resize:fit:720/0*UFmfHWAXR3iI-xz5.gif)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 초기화: 데이터를 기반으로 모델 매개변수 ϕk, μk 및 σk를 합리적인 값으로 초기화합니다.
 - 반복적인 E 단계: 각 데이터 점 xi에 대해 현재 매개변수 추정치를 사용하여 각 구성 요소 Ck에 대한 사후 확률 p(Ck∣xi)를 계산합니다:
@@ -105,7 +189,18 @@ Expectation maximization (EM)는 최대 우도 추정을 위한 수치적 접근
 
 ![image](/assets/img/2024-06-19-TinyMLGaussianMixtureModel_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 수렴 확인: 매개변수 추정치가 수렴할 때까지 E 단계와 M 단계를 반복합니다. 즉, 모든 매개변수 θ^t에 대해 ∣θ^t−θ^t−1∣≤ϵ이 될 때까지 반복합니다. 여기서 ϵ은 사용자가 정의한 허용 오차입니다.
 
@@ -115,17 +210,39 @@ EM 알고리즘은 E와 M 단계 사이를 반복하면서 수렴합니다. 이�
 
 지도 학습과 달리 군집 분석에는 다양한 군집화 알고리즘의 결과를 평가하는 데 적용할 수 있는 견고한 평가 메트릭이 부족합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1.3.1 - Likelihood Ratio Test
 
-우도비 검정 (Likelihood Ratio Test, LRT)은 클러스터링 모델의 맥락에서도 적용할 수 있으며, 서로 다른 클러스터링 솔루션의 적합성을 비교하는 데 사용될 수 있습니다. 
+우도비 검정 (Likelihood Ratio Test, LRT)은 클러스터링 모델의 맥락에서도 적용할 수 있으며, 서로 다른 클러스터링 솔루션의 적합성을 비교하는 데 사용될 수 있습니다.
 
 k개 클러스터를 갖는 하나의 클러스터링 솔루션(더 간단한 모델)과 k+1개 클러스터를 갖는 다른 클러스터링 솔루션(더 복잡한 모델)이 있다고 가정해 보겠습니다. LRT를 사용하여 더 복잡한 모델이 더 간단한 모델에 비해 데이터 적합성을 유의하게 향상시키는지 확인할 수 있습니다.
 
 다음과 같이 표기해 봅시다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - k 클러스터를 갖는 더 간단한 모델의 데이터 가능성인 L(θ0).
 - k+1 클러스터를 갖는 더 복잡한 모델의 데이터 가능성인 L(θ).
@@ -136,7 +253,18 @@ k개 클러스터를 갖는 하나의 클러스터링 솔루션(더 간단한 �
 
 이전과 마찬가지로, 어떤 가정 하에 카이제곱 분포를 따르는 통계량을 구하기 위해 -2ln을 사용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 데이터에 두 클러스터링 모델을 적합시켜 보세요.
 - 각 모델에서 데이터의 가능도를 계산하세요.
@@ -150,7 +278,18 @@ k개 클러스터를 갖는 하나의 클러스터링 솔루션(더 간단한 �
 
 베이지안 정보 기준(BIC)은 한정된 모델 집합 사이의 모델 선택 기준입니다. 이는 모델의 적합도와 사용된 매개변수 수를 균형있게 고려합니다. BIC는 모델 내의 매개변수 수가 표본 크기에 비해 크지 않은 상황에서 특히 유용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 BIC 공식은 다음과 같습니다:
 
@@ -162,7 +301,18 @@ BIC 공식은 다음과 같습니다:
 - k는 모델 내의 매개변수 수입니다.
 - n은 샘플 크기입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 BIC은 더 많은 매개변수를 가진 모델을 벌점을 부여하여 오버피팅을 억제합니다. 벌점 항인 k⋅log(n)은 매개변수 수와 샘플 크기 둘 다에 비례하여 증가하며, 샘플 크기가 크지 않은 경우에는 간단한 모델을 선호하도록 합니다.
 
@@ -172,16 +322,27 @@ BIC는 베이지안 원리에서 유도되었지만 베이지안 모델 선택 �
 
 # 2 — TinyML 구현
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예시를 통해 ESP32, Arduino, Raspberry 및 기타 다양한 마이크로컨트롤러 또는 IoT 장치에서 머신러닝 알고리즘을 구현할 수 있습니다.
 
 2.1 — 라이브러리 가져오기
 
 ```js
-import numpy as np 
-import pandas as pd 
-import matplotlib.pyplot as plt 
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly as py
 import plotly.graph_objs as go
@@ -193,7 +354,18 @@ warnings.filterwarnings('ignore')
 
 2.2 — 데이터셋 불러오기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 df = pd.read_csv('./data/Mall_Customers.csv')
@@ -208,12 +380,23 @@ df.info()
 
 ![Image](/assets/img/2024-06-19-TinyMLGaussianMixtureModel_10.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ---
+
 ```js
-df.describe()
+df.describe();
 ```
 
 ![Visualization](/assets/img/2024-06-19-TinyMLGaussianMixtureModel_11.png)
@@ -233,22 +416,41 @@ for x in ['Age', 'Annual Income (k$)', 'Spending Score (1-100)']:
 plt.show()
 ```
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-19-TinyMLGaussianMixtureModel_12.png)
 
 ```js
-sns.pairplot(df, vars=['Spending Score (1-100)', 'Annual Income (k$)', 'Age'])
+sns.pairplot(df, (vars = ["Spending Score (1-100)", "Annual Income (k$)", "Age"]));
 ```
 
 ![image](/assets/img/2024-06-19-TinyMLGaussianMixtureModel_13.png)
 
 2.4 — Evaluation Methods
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 X = df[['나이', '지출 점수 (1-100)']].iloc[:, :].values
@@ -270,16 +472,27 @@ for i in range(len(bic_scores) - 1):
 ```
 
 ```js
-plt.figure(figsize=(16, 6))
-plt.subplot(1, 2, 1)
-plt.plot(range(1, len(lrts) + 1), lrts, marker='o')
-plt.xlabel('구성 요소 수')
-plt.ylabel('우도 비율 검정 통계량')
-plt.title('우도 비율 검정')
-plt.grid()
+plt.figure((figsize = (16, 6)));
+plt.subplot(1, 2, 1);
+plt.plot(range(1, len(lrts) + 1), lrts, (marker = "o"));
+plt.xlabel("구성 요소 수");
+plt.ylabel("우도 비율 검정 통계량");
+plt.title("우도 비율 검정");
+plt.grid();
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-TinyMLGaussianMixtureModel_14.png" />
 
@@ -295,44 +508,73 @@ plt.title('베이지안 정보 기준 (BIC)')
 plt.grid()
 ```
 
-<img src="/assets/img/2024-06-19-TinyMLGaussianMixtureModel_15.png" />  
+<img src="/assets/img/2024-06-19-TinyMLGaussianMixtureModel_15.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 가설 검정 수행
+
 threshold = 3.84 # 자유도가 1이고 유의수준 alpha=0.05 일 때 카이제곱 분포의 임계값
 num_components = np.argmax(lrts) + 1 # 최대 우도를 갖는 구성 요소의 수
 print("선택된 구성 요소(클러스터) 수:", num_components)
 
-
 2.5 — 가우시안 혼합 모델
 
-
-algorithm = (GaussianMixture(n_components=num_components, init_params='k-means++', max_iter=300, 
-                        tol=0.0001, random_state=42))
+algorithm = (GaussianMixture(n_components=num_components, init_params='k-means++', max_iter=300,
+tol=0.0001, random_state=42))
 algorithm.fit(X)
-
 
 ![이미지](/assets/img/2024-06-19-TinyMLGaussianMixtureModel_16.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-y_GMM = algorithm.fit_predict(X)
+y_GMM = algorithm.fit_predict(X);
 ```
 
 ```js
-df['cluster'] = pd.DataFrame(y_GMM)
-df.head()
+df["cluster"] = pd.DataFrame(y_GMM);
+df.head();
 ```
 
 <img src="/assets/img/2024-06-19-TinyMLGaussianMixtureModel_17.png" />
 
 2D Visualization
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 클러스터 레이블 예측
@@ -371,46 +613,65 @@ plt.show()
 
 ```js
 trace1 = go.Scatter3d(
-    x= df['나이'],
-    y= df['소비 점수 (1-100)'],
-    z= df['연간 소득 (k$)'],
-    mode='markers',
-     marker=dict(
-        color = df['클러스터'], 
-        size= 10,
-        line=dict(
-            color= df['클러스터'],
-            width= 18
-        ),
-        opacity=0.8
-     )
-)
-data = [trace1]
+  (x = df["나이"]),
+  (y = df["소비 점수 (1-100)"]),
+  (z = df["연간 소득 (k$)"]),
+  (mode = "markers"),
+  (marker = dict(
+    (color = df["클러스터"]),
+    (size = 10),
+    (line = dict((color = df["클러스터"]), (width = 18))),
+    (opacity = 0.8)
+  ))
+);
+data = [trace1];
 layout = go.Layout(
-    title= '나이, 소득 및 소비 점수에 대한 클러스터',
-    scene = dict(
-            xaxis = dict(title  = '나이'),
-            yaxis = dict(title  = '소비 점수'),
-            zaxis = dict(title  = '연간 소득')
-        ),
-    width=1200,  
-    height=800,  
-)
-fig = go.Figure(data=data, layout=layout)
-py.offline.iplot(fig)
+  (title = "나이, 소득 및 소비 점수에 대한 클러스터"),
+  (scene = dict(
+    (xaxis = dict((title = "나이"))),
+    (yaxis = dict((title = "소비 점수"))),
+    (zaxis = dict((title = "연간 소득")))
+  )),
+  (width = 1200),
+  (height = 800)
+);
+fig = go.Figure((data = data), (layout = layout));
+py.offline.iplot(fig);
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-마크다운 형식으로 코드를 옮기기 위해 테이블 태그를 변경할게요. 아래는 C++ 코드를 JavaScript로 변환하는 함수입니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+마크다운 형식으로 코드를 옮기기 위해 테이블 태그를 변경할게요. 아래는 C++ 코드를 JavaScript로 변환하는 함수입니다.
+
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-means = algorithm.means_
-covariances = algorithm.covariances_
-coefficients = algorithm.weights_
-cpp_code = convert_to_cpp_code(means, covariances, coefficients)
+means = algorithm.means_;
+covariances = algorithm.covariances_;
+coefficients = algorithm.weights_;
+cpp_code = convert_to_cpp_code(means, covariances, coefficients);
 ```
 
 ```js
@@ -491,7 +752,18 @@ with open('./GMM/GMM.h', 'w') as file:
     file.write(cpp_code)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2.8 — Arduino 스케치 완성
 
@@ -505,7 +777,7 @@ void setup() {
 }
 void loop() {
   // 입력 값
-  float input[] = {15, 39}; 
+  float input[] = {15, 39};
   // 예측
   int cluster = k_means.predict(input);
   // 찾은 클러스터 출력
@@ -517,7 +789,18 @@ void loop() {
 
 2.9 — 결과
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-TinyMLGaussianMixtureModel_20.png" />
 
@@ -527,6 +810,17 @@ void loop() {
 
 Bitcoin address: bc1qzydjy4m9yhmjjrkgtrzhsgmkq79qenvcvc7qzn
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![TinyML Gaussian Mixture Model](/assets/img/2024-06-19-TinyMLGaussianMixtureModel_21.png)

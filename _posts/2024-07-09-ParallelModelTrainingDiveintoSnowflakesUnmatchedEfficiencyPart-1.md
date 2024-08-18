@@ -3,17 +3,13 @@ title: "병렬 모델 학습 Snowflake의 비할 데 없는 효율성 탐구 1�
 description: ""
 coverImage: "/assets/img/2024-07-09-ParallelModelTrainingDiveintoSnowflakesUnmatchedEfficiencyPart-1_0.png"
 date: 2024-07-09 11:26
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-ParallelModelTrainingDiveintoSnowflakesUnmatchedEfficiencyPart-1_0.png
 tag: Tech
 originalTitle: "Parallel Model Training: Dive into Snowflake’s Unmatched Efficiency (Part -1)❄️"
 link: "https://medium.com/@maseedilyas9848/parallel-model-training-dive-into-snowflakes-unmatched-efficiency-%EF%B8%8F-b4aeb3469f56"
 isUpdated: true
 ---
-
-
-
-
 
 ![image](/assets/img/2024-07-09-ParallelModelTrainingDiveintoSnowflakesUnmatchedEfficiencyPart-1_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Snowflake의 병렬 처리가 이런 효율성을 발휘하는 방법을 살펴보고, 혜택을 소개하며 여러분이 머신 러닝 프로젝트를 더욱 빠르게 완성할 수 있도록 도와드릴 거에요. 그러니 훈련 시간의 우울증을 떨쳐버리고 Snowflake를 통해 병렬 처리의 힘을 펼치기 준비하세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 해결책에 접근하기 전에 지금 다루고 있는 사용 사례에 대해 이야기해 보겠습니다. 이 특정 블로그에서는 특히 여러 매장 간 판매를 예측하는 소매 업계의 매출 예측 사용 사례를 살펴볼 것입니다.
 
@@ -33,7 +40,18 @@ Snowflake의 병렬 처리가 이런 효율성을 발휘하는 방법을 살펴�
 
 이제 Snowflake에서 병렬 처리가 어떻게 작동하는지 알아보겠습니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 눈꽃 가상 데이터 창고는 병렬로 워크로드를 실행할 수 있는 매우 강력한 컴퓨팅 엔진입니다. 일반적으로 눈꽃 데이터 창고는 노드 클러스터로 구성됩니다. 예를 들어 —
 
@@ -43,7 +61,18 @@ Snowflake의 병렬 처리가 이런 효율성을 발휘하는 방법을 살펴�
 
 일반적으로 눈꽃에서 머신러닝 모델을 훈련시키기 위해, 우리는 파이썬 기반의 저장 프로시저를 사용할 수 있습니다. 그리고 저장 프로시저는 눈꽃에서 단일 노드 작업이기 때문에 모든 가능한 코어를 활용할 수 없습니다. 이 문제를 해결하기 위해 우리는 UDTF(즉, 사용자 정의 테이블 함수)를 활용할 수 있습니다. 이것이 작동하는 방식입니다: UDTF는 지능적인 데이터 프로세서 역할을 합니다. 데이터를 변환하는 것뿐만 아니라 데이터셋 내 각 상점에 대해 고유한 결과를 생성할 수 있습니다. 이를 통해 각 상점에 맞는 개별 훈련 데이터셋을 생성하여 그 위치의 특정 판매 동향과 패턴을 포착하는 모델을 학습할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 진정한 마법은 데이터 파티셔닝으로 펼쳐집니다. UDTF(사용자 정의 테이블 함수)는 선택한 열, 예를 들어 STORE_ID를 기반으로 데이터를 똑뗉하게 분할할 수 있습니다. 이로써 특정 상점에 관련된 정보가 담긴 별도의 데이터 파티션들이 생성됩니다.
 
@@ -53,7 +82,18 @@ Snowflake의 병렬 처리가 이런 효율성을 발휘하는 방법을 살펴�
 
 UDTF를 구축하는 데는 데이터 파티셔닝과 모델 학습을 효과적으로 처리할 기술적 전문 지식이 필요할 수 있습니다. 2-노드 웨어하우스를 사용하면 2개의 모델을 동시에 학습할 수 있습니다. 상점 수가 많다면 웨어하우스를 확장하여 병렬 처리 능력을 더욱 가속화할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Screenshot](/assets/img/2024-07-09-ParallelModelTrainingDiveintoSnowflakesUnmatchedEfficiencyPart-1_1.png)
 
@@ -63,7 +103,18 @@ UDTF를 구축하는 데는 데이터 파티셔닝과 모델 학습을 효과적
 
 UDTF는 테이블 형태의 결과를 반환하는 사용자 정의 함수(UDF)입니다. 다양한 유형의 UDTF에 대한 자세한 정보는 내 이전 블로그인 Snowpark 마스터리를 참조하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Python UDTF를 만들려면 Snowflake가 UDTF를 호출할 때 호출할 메서드가 구현된 클래스를 작성해야 합니다. 샘플 UDTF는 아래와 같이 보일 것입니다.
 
@@ -95,11 +146,22 @@ $$;
 - process 메서드는 각 입력 행을 처리하고 튜플로 된 탭릿값을 반환합니다. 위 예제에서는 각 입력 행에 대해 비용을 계산하고 symbol과 cost 두 열을 튜플로 반환합니다. process 메서드는 UDTF가 수신하는 각 입력 행에 대해 호출됩니다. yield 키워드를 사용하여 발생자 객체를 반환합니다.
 - End partition 메서드는 입력 파티션 처리를 완료하고 튜플로 된 탭릿값을 반환합니다. 위 예제에서는 입력 데이터의 각 symbol에 대해 파티션당 총 비용을 계산합니다. UDTF의 end partition 메서드는 선택 사항이며 입력 데이터를 파티션으로 나눌 필요가 있는 경우에만 필요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프리파플이 여러분을 안내해요! 아래는 파티션별로 실행되는 코드가 포함된 경우 우리 핸들러에 대한 호출 순서를 설명하고 있어요.
 
-- Snowflake는 파티션 처리가 시작될 때, 첫 번째 행이 처리되기 전에 핸들러 클래스의 __init__ 메서드를 사용하여 클래스의 인스턴스를 생성해요.
+- Snowflake는 파티션 처리가 시작될 때, 첫 번째 행이 처리되기 전에 핸들러 클래스의 **init** 메서드를 사용하여 클래스의 인스턴스를 생성해요.
 - 여기서 우리는 파티션 범위의 상태를 설정할 수 있어요. 예를 들어, 우리는 파티션의 행에서 계산된 값을 보관하는 인스턴스 변수를 초기화할 수 있어요.
 - 각 파티션의 각 행에 대해, Snowflake는 process 메서드를 호출해요.
 - 메서드가 실행될 때마다, 상태 값을 변경할 수 있어요. 예를 들어, process 메서드를 통해 인스턴스 변수의 값을 업데이트할 수 있어요.
@@ -109,13 +171,22 @@ $$;
 
 먼저, 다루고 있는 데이터에는 아래 열이 있어요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지 링크를 Markdown 형식으로 변경해보세요.
 
-
 ![이미지](/assets/img/2024-07-09-ParallelModelTrainingDiveintoSnowflakesUnmatchedEfficiencyPart-1_2.png)
-
 
 데이터 세트에는 약 10 개의 서로 다른 상점 ID가 있으며 각 상점마다 하나의 머신러닝 모델을 병렬로 훈련하고 싶습니다.
 
@@ -132,7 +203,18 @@ class ParallelTraining:
         self.total_sales=[]
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 상단 구조체 메서드는 모든 변수를 리스트로 초기화하는 데 사용됩니다. 이러한 리스트는 각 파티션에 대한 모든 입력 데이터를 저장하는 데 사용됩니다.
 
@@ -150,26 +232,37 @@ def process(self, product_id, store_id, order_quarter, order_month, order_year, 
 
 process 메서드는 각 입력 행을 처리하고 구조체 메서드에서 생성한 리스트에 데이터를 추가합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Finally, let's define our `end_partition` method:
 
 ```python
 def end_partition(self):
     df = pd.DataFrame(zip(self.product_id, self.store_id, self.order_quarter, self.order_month, self.order_year, self.total_sales), columns=['product_id', 'store_id', 'order_quarter', 'order_month', 'order_year', 'total_sales'])
-    
+
     # Splitting the dataset
     X_train, X_test, y_train, y_test = train_test_split(df.drop(["total_sales"], axis=1), df["total_sales"], test_size=0.2)
-    
+
     # Training the model
     model = LinearRegression()
     model.fit(X_train, y_train)
-    
+
     # Making predictions
     y_pred = model.predict(X_test)
-    
+
     random_string = str(uuid.uuid4())
-    
+
     pred_df = pd.DataFrame({"predicted_orders": y_pred})
     for idx, row in pred_df.iterrows():
         yield (row["predicted_orders"], random_string)
@@ -179,7 +272,18 @@ The `end_partition` method is called after processing the last row in the partit
 
 Let's bring all the pieces together to complete the process.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 코드는 파티션 당 하나의 모델을 학습하고 학습된 모델을 사용하여 예측을하는 최종 UDTF 코드입니다. 이 모든 과정은 병렬로 이루어집니다.
 
@@ -197,7 +301,18 @@ table(parallel_training(product_id,store_id,order_quarter, order_month, order_ye
  over (partition by store_id));
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 쿼리를 실행하면 다음과 같은 결과가 나타납니다.
 
@@ -207,7 +322,18 @@ table(parallel_training(product_id,store_id,order_quarter, order_month, order_ye
 
 각 파티션마다 사용한 model_name (끝 부분 파티션 방식으로 사용한 랜덤 문자열)이 다르게 보입니다. 그리고 모든 파티션 내의 모든 행에서 model_name이 동일하다는 것을 확인할 수 있습니다. 이는 UDTF가 각 파티션을 별도로 처리하고 병렬로 실행했다는 것을 의미합니다. 또한 10개의 모델을 병렬로 훈련하고 예측을 수행하는 데 7.3초가 소요되었습니다. 반면에, ML 모델을 순차적으로 훈련시켜야 할 경우 (하나씩), 저장 프로시저를 사용한다면 모델을 훈련하는 데 몇 분이 소요될 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이렇게하면 눈펌프의 강력한 UDTF를 활용하여 병렬로 여러 모델을 훈련시킬 수 있어요. 그런데 잠깐, 잔디가 항상 푸릇푸릇한 것만은 아니에요. 이 방법에는 다음과 같은 제한 사항도 있어요
 
@@ -217,7 +343,18 @@ table(parallel_training(product_id,store_id,order_quarter, order_month, order_ye
 
 ![이미지](/assets/img/2024-07-09-ParallelModelTrainingDiveintoSnowflakesUnmatchedEfficiencyPart-1_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 블로그 포스트에서는 이 제약을 극복할 다른 방법을 살펴보겠습니다! 그러니 기대해 주세요!
 

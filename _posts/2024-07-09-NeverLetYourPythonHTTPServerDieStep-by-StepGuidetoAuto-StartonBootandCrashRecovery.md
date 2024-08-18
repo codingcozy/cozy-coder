@@ -3,17 +3,13 @@ title: "Python HTTP 서버 절대 멈추지 않게 하기 부팅 시 자동 시�
 description: ""
 coverImage: "/assets/img/2024-07-09-NeverLetYourPythonHTTPServerDieStep-by-StepGuidetoAuto-StartonBootandCrashRecovery_0.png"
 date: 2024-07-09 22:58
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-NeverLetYourPythonHTTPServerDieStep-by-StepGuidetoAuto-StartonBootandCrashRecovery_0.png
 tag: Tech
 originalTitle: "Never Let Your Python HTTP Server Die: Step-by-Step Guide to Auto-Start on Boot and Crash Recovery"
 link: "https://medium.com/@ponnala/never-let-your-python-http-server-die-step-by-step-guide-to-auto-start-on-boot-and-crash-recovery-1f7b0f94401e"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-07-09-NeverLetYourPythonHTTPServerDieStep-by-StepGuidetoAuto-StartonBootandCrashRecovery_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Python의 내장 HTTP 서버는 정적 파일을 빠르고 쉽게 제공하는 방법입니다. 개발 및 소규모 프로젝트에 적합합니다. 그러나 기본적으로 시스템 재부팅이나 서버 충돌 시 자동으로 시작하지 않습니다. 이것이 이 가이드가 유용한 이유입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 배울 내용:
 
@@ -37,7 +44,18 @@ Python의 내장 HTTP 서버는 정적 파일을 빠르고 쉽게 제공하는 �
 - 명령 줄에 대한 기본 지식
 - 시스템에 Python이 설치되어 있어야 함(Python 3 권장)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 1: 정적 사이트 구성하기
 
@@ -51,8 +69,18 @@ touch index.html styles.css script.js
 
 index.html에 내용을 추가하여 테스트해보세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -69,7 +97,6 @@ index.html에 내용을 추가하여 테스트해보세요:
 </body>
 </html>
 
-
 # 단계 2: Python HTTP 서버 시작하기
 
 사이트 디렉토리로 이동하여 다음 명령어로 서버를 시작하세요:
@@ -77,10 +104,20 @@ index.html에 내용을 추가하여 테스트해보세요:
 ```bash
 cd /path/to/my_static_site
 python3 -m http.server 8000
-``` 
+```
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 브라우저를 열고 http://localhost:8000 로 이동하세요. 여러분의 사이트가 표시될 겁니다!
 
@@ -90,7 +127,18 @@ python3 -m http.server 8000
 
 새 서비스 파일을 생성하세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 sudo nano /etc/systemd/system/static-site.service
@@ -117,7 +165,18 @@ WantedBy=multi-user.target
 
 `/path/to/your/static/site`을 실제 사이트 디렉토리 경로로 바꿔주세요. `your-username` 및 `your-group`을 실제 사용자 이름 및 그룹으로 바꿔주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 4: systemd 다시 로드
 
@@ -129,7 +188,18 @@ sudo systemctl daemon-reload
 
 # 단계 5: 서비스 활성화
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 부팅 시 서비스를 시작하도록 설정하세요:
 
@@ -141,7 +211,18 @@ sudo systemctl enable static-site.service
 
 서비스를 즉시 시작하세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 sudo systemctl start static-site.service
@@ -155,7 +236,18 @@ sudo systemctl start static-site.service
 sudo systemctl status static-site.service
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신은 개발자이십니다. 제가 도와드리겠습니다.
 

@@ -3,18 +3,13 @@ title: "맥 미니 서버에 오래된 MacOS를 리눅스로 교체하는 방법
 description: ""
 coverImage: "/assets/img/2024-06-23-HowtoReplaceOldMacOSWithLinuxonMacMiniServer_0.png"
 date: 2024-06-23 15:41
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-HowtoReplaceOldMacOSWithLinuxonMacMiniServer_0.png
 tag: Tech
 originalTitle: "How to Replace Old MacOS With Linux on Mac Mini Server"
 link: "https://medium.com/by-devops-for-devops/how-to-replace-old-macos-with-linux-on-mac-mini-server-cc618d1052a8"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![macos-linux-replacement](/assets/img/2024-06-23-HowtoReplaceOldMacOSWithLinuxonMacMiniServer_0.png)
 
@@ -28,8 +23,18 @@ isUpdated: true
 
 어린 시절의 맥 미니에 우분투를 설치하는 것은 기기의 수명을 연장하고 더 많은 이점을 얻을 수 있는 좋은 방법일 수 있습니다. 그러나 맥 미니에 우분투를 설치하는 것은 복잡할 수 있으며 몇 가지 기술적인 단계가 필요할 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 설치 단계
 
@@ -46,7 +51,18 @@ sudo dd if=ubuntu-22.04.2-live-server-amd64.iso of=/dev/rdiskN bs=1m
 diskutil eject /dev/diskN
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. USB 드라이브에서 부팅하기: USB 드라이브를 맥 미니에 연결하고 시스템을 다시 시작하세요. 시스템이 다시 시작될 때 옵션 키를 눌러 부팅 메뉴로 진입하고 USB 드라이브를 부팅 장치로 선택하세요.
 
@@ -56,7 +72,18 @@ diskutil eject /dev/diskN
 
 5. 시스템을 다시 시작하기: 설치가 완료되면 시스템을 다시 시작하라는 메시지가 나타납니다. 다시 시작한 후 맥 미니가 Ubuntu로 부팅되어야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 선택 사항
 
@@ -71,24 +98,42 @@ ip r
   10.0.1.1 dev enp4s0f0 proto dhcp scope link src 10.0.1.75 metric 100
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 원격으로 Ubuntu로 SSH를 사용할 수 있습니다:
 
-
 ssh <user_name>@10.0.1.75
-
 
 현재 볼륨 그룹 이름을 확인하세요:
 
-
 sudo -s
 vgs
-  VG        #PV #LV #SN Attr   VSize    VFree
-  ubuntu-vg   1   1   0 wz--n- <462.71g <362.71g
+VG #PV #LV #SN Attr VSize VFree
+ubuntu-vg 1 1 0 wz--n- <462.71g <362.71g
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째 열인 "VG" 아래를 보세요. 만약 Ubuntu 설치 프로그램이 만들었다면, 이름은 "-vg"와 같을 것입니다.
 
@@ -104,7 +149,18 @@ wipefs --all --backup /dev/sdb
 
 두 번째 드라이브를 물리적 볼륨으로 표시하고, 볼륨 그룹에 추가하세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 pvcreate /dev/sdb
@@ -124,7 +180,18 @@ pvs
 
 새로운 논리 볼륨을 생성하고 /data 아래에 마운트하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 lvcreate --size 300G --stripes 2 --stripesize 4096 --name data ubuntu-vg
@@ -155,7 +222,18 @@ cat /etc/fstab
 
 그리고 `/data`를 마운트하십시오.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 마운트 /data
@@ -182,7 +260,17 @@ lvs -a -o name,lv_size,devices
 
 # 결론
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전 Mac Mini 서버를 버리지 마세요. 보시다시피 Linux 서버(Ubuntu를 사용하는 경우)로 변환하는 것이 어렵지 않습니다. 꽤 좋은 하드웨어를 갖추고 있으며, 공간을 적게 차지하며 전기를 적게 소비하며 조용합니다.

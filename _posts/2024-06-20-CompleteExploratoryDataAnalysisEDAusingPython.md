@@ -3,17 +3,13 @@ title: "파이썬을 사용한 탐색적 데이터 분석EDA 완료하기"
 description: ""
 coverImage: "/assets/img/2024-06-20-CompleteExploratoryDataAnalysisEDAusingPython_0.png"
 date: 2024-06-20 15:10
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-CompleteExploratoryDataAnalysisEDAusingPython_0.png
 tag: Tech
 originalTitle: "Complete Exploratory Data Analysis(EDA) using Python"
 link: "https://medium.com/@navamisunil174/exploratory-data-analysis-of-breast-cancer-survival-prediction-dataset-c423e4137e38"
 isUpdated: true
 ---
-
-
-
-
 
 ## 유방암 생존 예측 데이터 집합의 EDA 단계별 안내서
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이 블로그에서는 유방암 생존 예측을 중심으로 한 데이터 집합에 EDA 기술을 적용하는 데 초점을 맞출 것입니다. 유방암 생존 예측 데이터 집합을 탐색함으로써 생존률에 영향을 미치는 요인에 대한 통찰을 얻고자 합니다. 요약 통계 및 시각화와 같은 EDA 기술을 사용하여 유용한 정보를 발굴하여 유방암 진닝 및 치료에 대한 이해에 기여할 것입니다. 데이터 집합에는 수술 시 환자의 나이, 수술 연도, 양성 겨드랑이 노드 수 및 생존 상태와 같은 다양한 정보가 포함되어 있습니다. Python과 pandas 라이브러리를 사용하여 데이터 집합 내의 신비를 해결하고 유방암 진닝 및 치료에 대한 이해에 기여할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 데이터셋에서 얻은 통찰
 
@@ -33,7 +40,18 @@ isUpdated: true
 df.shape
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당하는 텍스트는 다음과 같습니다:
 
@@ -41,10 +59,21 @@ df.shape
 
 head()를 사용하여 데이터셋의 상위 5개 관측치를 표시하겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-df.head()
+df.head();
 ```
 
 ![Exploratory Data Analysis using Python](https://www.example.com/assets/img/2024-06-20-CompleteExploratoryDataAnalysisEDAusingPython_2.png)
@@ -52,24 +81,44 @@ df.head()
 head( )와 비슷하게 tail( )을 사용할 수 있습니다. 이를 통해 마지막 5개의 관측값을 표시합니다. 만약 마지막 10개를 표시하고 싶다면, 괄호 안에 숫자를 지정하면 됩니다.
 
 ```js
-df.tail(10)
+df.tail(10);
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-20-CompleteExploratoryDataAnalysisEDAusingPython_3.png)
 
 데이터에 대해 더 잘 이해하기 위해 각 열의 비 널 레코드 수, 데이터 유형, 데이터 세트의 메모리 사용량을 확인하기 위해 info()를 사용합니다.
 
 ```js
-df.info()
+df.info();
 ```
 
 ![image](/assets/img/2024-06-20-CompleteExploratoryDataAnalysisEDAusingPython_4.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터셋은 각각 다른 데이터 유형으로 구분되는 다양한 기능을 포함하고 있어요. 'Patient_ID,' 'Marital_Status,' 'Radiation_Therapy,' 'Chemotherapy,' 및 'Hormone_Therapy'와 같은 범주형 기능들은 객체 (문자열)로 표현돼요.
 
@@ -79,7 +128,18 @@ df.info()
 
 DataFrame에서 각 열에 대응하는 고유 값 수를 찾기 위해 nunique( )를 사용해요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 for column in df.columns:
@@ -93,7 +153,18 @@ for column in df.columns:
 
 우리 데이터셋에는 언급된대로 10가지의 피처가 포함되어 있습니다. 각각의 피처를 자세히 살펴보고 그들이 얼마나 관련이 있는지 확인해 봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 환자 ID:
 
@@ -105,7 +176,18 @@ for column in df.columns:
 - 범위: 30세에서 84세
 - 설명: 유방암에 영향을 받는 다양한 연령대를 반영합니다. 나이는 예후와 치료 결정에 중요한 요소이며, 생존 패턴을 이해하기 위해 탐색하기에 중요한 요소입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결혼 상태:
 
@@ -119,7 +201,18 @@ for column in df.columns:
 - 범위: 1958년부터 1970년까지
 - 설명: 거의 백 년에 걸쳐 역사적 관점을 캡처합니다. 이 속성을 통해 의학적 실천의 발전이 시간을 통해 생존 결과에 어떤 영향을 미쳤는지 조사할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 양성 겨드랑이 림프절 (림프절):
 
@@ -130,7 +223,18 @@ for column in df.columns:
 
 # 종양 크기:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 유형: 숫자 (부동 소수점)
 - 범위: 0.5에서 5.0
@@ -144,7 +248,18 @@ for column in df.columns:
 
 ## 생존 상태:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 유형: 이진 (정수)
 - 값: 1 (생존), 2 (사망)
@@ -155,10 +270,21 @@ for column in df.columns:
 데이터 세트에는 앞서 설명한 모든 속성의 값들이 포함되어 있습니다. 데이터 세트의 기술적인 통계 분석을 수행하기 위해 describe()를 사용하여 시작해봅시다.
 
 ```js
-df.describe(include="all")
+df.describe((include = "all"));
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `include` 속성에 'all' 값을 할당하여 범주형 피처도 결과에 포함되도록합니다.
 
@@ -168,7 +294,18 @@ df.describe(include="all")
 
 # 데이터 정리
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터에는 다양한 품질 문제가 발생할 수 있습니다. 그러므로 데이터를 정리하는 것이 중요합니다. 방이 지저분하면 좋지 않은 것처럼 데이터도 지저분하게 되면 분석 결과에 오류가 생기거나 부적절한 결과가 발생할 수 있습니다. 이러한 문제는 데이터 분석 전에 해결해야 합니다. 다양한 데이터 정리 기술이 있으며, 일부는 아래에서 설명했습니다:
 
@@ -178,7 +315,18 @@ df.describe(include="all")
 
 누락된 데이터에는 세 가지 주요 유형이 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Missing completely at random (MCAR)
 - Missing at random (MAR)
@@ -187,24 +335,46 @@ df.describe(include="all")
 데이터셋에서 누락된 값의 양을 파악하기 위해 isnull() 함수를 사용할 것입니다.
 
 ```js
-df.isnull().sum()
+df.isnull().sum();
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터셋에는 ‘Age’에서 10개, ‘Marital_Status’에서 6개의 결측값이 있음을 보여줍니다.
 
 데이터셋의 결측값 백분율을 찾기 위해 다음을 사용합니다:
 
 ```js
-missing_percentage = df.isnull().mean() * 100
-print("각 열의 결측값 백분율:")
-print(missing_percentage)
+missing_percentage = df.isnull().mean() * 100;
+print("각 열의 결측값 백분율:");
+print(missing_percentage);
 ```
 
 # 결측값 시각화
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 의심할 여지 없이 데이터셋에서 NaN 값이 어떻게 분포되어 있는지를 잘 이해해야 합니다. Missingno 라이브러리는 NaN 값의 분포를 시각화하는 데 효율적인 방법을 제공합니다. 이 라이브러리는 파이썬 라이브러리로 Pandas와 호환됩니다.
 
@@ -216,7 +386,18 @@ pip install missingno
 
 데이터셋에서 누락된 값을 시각화하는 프로그램
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import pandas as pd
@@ -230,8 +411,18 @@ msno.bar(df)
 
 # 누락된 값 보완하기
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 가지 가능한 해결책은 누락된 데이터가 포함된 관측값을 제거하는 것입니다. 그러나 이렇게 하면 중요한 정보를 잃을 수 있습니다. 더 나은 전략은 누락된 값을 보충하는 것입니다. 다시 말해, 우리는 기존 데이터의 일부에서 누락된 값을 추론해야 합니다.
 
@@ -239,9 +430,20 @@ msno.bar(df)
 
 ## 누락된 값 보충 방법
 
-암 생존 데이터셋에서 '환자_ID', '결혼 여부', '방사선 치료', '화학 요법' 및 '호르몬 치료' 특성은 객체(문자열)로 표현됩니다. '나이', '수술 연도', '양성 겉 부분 림프절', '생존 상태'에 대해 정수 데이터 유형(int64)이 할당됩니다. '종양 크기'는 부동소수점(float64)으로 표시됩니다.
+암 생존 데이터셋에서 '환자\_ID', '결혼 여부', '방사선 치료', '화학 요법' 및 '호르몬 치료' 특성은 객체(문자열)로 표현됩니다. '나이', '수술 연도', '양성 겉 부분 림프절', '생존 상태'에 대해 정수 데이터 유형(int64)이 할당됩니다. '종양 크기'는 부동소수점(float64)으로 표시됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 기능 내 누락된 값을 처리하는 여러 가지 방법이 존재합니다.
 
@@ -254,7 +456,18 @@ msno.bar(df)
 
 'Age' (숫자형 특성)에 대한 보충:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 평균을 사용하여 'Age' 열의 결측값 보정
@@ -270,12 +483,23 @@ df['Marital_Status'].fillna(df['Marital_Status'].mode()[0], inplace=True)
 
 이러한 대체 작업을 완료한 후에는 'Age' 및 'Marital_Status'의 모든 결측값이 처리되었는지 확인하기 위해 데이터셋을 다시 확인할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-missing_after_imputation = df.isnull().sum()
-print("Imputation 후 누락된 값:")
-print(missing_after_imputation)
+missing_after_imputation = df.isnull().sum();
+print("Imputation 후 누락된 값:");
+print(missing_after_imputation);
 ```
 
 ## 2. 관련 없는 속성 제거
@@ -284,10 +508,21 @@ print(missing_after_imputation)
 
 예를 들어, 데이터 세트의 'Patient_ID' 열은 의존 변수를 예측하는 데 예측력이 없다고 가정할 때 제거할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-df = df.drop('Patient_ID', axis=1)
+df = df.drop("Patient_ID", (axis = 1));
 ```
 
 # 3. 중복 행 제거
@@ -295,12 +530,23 @@ df = df.drop('Patient_ID', axis=1)
 중복된 데이터를 처리하는 것은 데이터 정리 과정에서 중요한 단계로, 데이터셋에 중복 정보가 없는지 확인하는 것이 중요합니다. 데이터셋에서 중복된 행 또는 관측치를 식별하고 제거하는 방법은 다음과 같습니다:
 
 ```js
-duplicates = df[df.duplicated()]
-print("중복된 행:")
-print(duplicates)
+duplicates = df[df.duplicated()];
+print("중복된 행:");
+print(duplicates);
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 사진은:
 
@@ -310,7 +556,18 @@ drop_duplicates() 함수는 DataFrame에서 중복된 행을 제거합니다. �
 
 해당 행이 중복으로 보입니다. 데이터셋에서 이 행을 제거해 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 중복 행 제거 및 데이터프레임 업데이트
@@ -323,7 +580,18 @@ df_cleaned = df.drop_duplicates()
 
 이상치는 데이터 포인트 중 전체 데이터셋의 패턴에서 크게 벗어나며 비정상적이거나 드문 경우를 나타낼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 의료 데이터에서 이상값은 일반적인 패턴과 크게 벗어나는 독특한 케이스나 이상 현상을 나타낼 수 있으며, 이들의 존재는 예상할 수 있는 것입니다.
 
@@ -333,13 +601,24 @@ df_cleaned = df.drop_duplicates()
 
 1. 상자그림: 상자그림을 사용하여 각 수치적 특성의 분포를 시각화합니다. 상자 그림의 "수염"을 넘어간 점들은 잠재적인 이상값으로 간주될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import seaborn as sns 
+import seaborn as sns
 import matplotlib.pyplot as plt
 
-plt.figure(figsize=(8, 6)) 
+plt.figure(figsize=(8, 6))
 sns.boxplot(x=df['Positive_Axillary_Nodes'], color='lightgreen')
 ```
 
@@ -354,25 +633,45 @@ abs_z_scores = np.abs(z_scores)
 outliers = (abs_z_scores > 3).all(axis=1)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Exploratory Data Analysis](/assets/img/2024-06-20-CompleteExploratoryDataAnalysisEDAusingPython_11.png)
 
 3. IQR (Interquartile Range): 이상치를 IQR을 기반으로 식별합니다. IQR 바깥의 일정 범위를 벗어나는 포인트는 이상치로 간주될 수 있습니다.
 
 ```js
-Q1 = df.quantile(0.25)
-Q3 = df.quantile(0.75)
-IQR = Q3 - Q1
+Q1 = df.quantile(0.25);
+Q3 = df.quantile(0.75);
+IQR = Q3 - Q1;
 
-outliers = ((df < (Q1 - 1.5 * IQR)) | (df > (Q3 + 1.5 * IQR))).any(axis=1)
+outliers = ((df < Q1 - 1.5 * IQR) | (df > Q3 + 1.5 * IQR)).any((axis = 1));
 ```
 
 ![Exploratory Data Analysis](/assets/img/2024-06-20-CompleteExploratoryDataAnalysisEDAusingPython_12.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희 데이터셋에 이상값이 확인되었습니다. 의료 데이터에서 이상값은 데이터셋 내 전형적인 패턴에서 현저하게 벗어나는 비정상적이거나 극단적인 관측치를 나타낼 수 있습니다. 이러한 관측치는 독특한 사례, 드문 조건 또는 대부분의 데이터와 다른 특성을 나타내는 이상점을 가리킬 수 있습니다. 이상값은 종종 일부 데이터셋에서 노이즈나 오류로 간주되지만, 의료 데이터에서는 중요한 임상적 영향을 미칠 수 있습니다.
 
@@ -382,7 +681,18 @@ outliers = ((df < (Q1 - 1.5 * IQR)) | (df > (Q3 + 1.5 * IQR))).any(axis=1)
 
 # 일변량 분석
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 암 생존 예측 데이터셋을 탐색하면서 데이터 분석 여정에서 중요한 단계인 일변량 분석으로 시작합니다. 일변량 분석은 단일 변수의 분포와 특성을 이해하는 데 도움이 되며, 패턴 인식, 요약 및 통계적 탐색에 기여합니다. 선택한 시각화 방법은 데이터의 성격에 따라 달라지며, 이산형 데이터에는 막대 차트, 연속형 데이터에는 히스토그램, 범주별 분석에는 파이 차트 등을 사용할 수 있습니다.
 
@@ -392,45 +702,86 @@ outliers = ((df < (Q1 - 1.5 * IQR)) | (df > (Q3 + 1.5 * IQR))).any(axis=1)
 
 - 질문: 환자들의 겸상림부 림프절의 분포는 어떻게 되는가?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-sns.histplot(df['Positive_Axillary_Nodes'], bins=15, kde=True, color='lightgreen')
+sns.histplot(df["Positive_Axillary_Nodes"], (bins = 15), (kde = True), (color = "lightgreen"));
 ```
 
 ![Exploratory Data Analysis in Python](/assets/img/2024-06-20-CompleteExploratoryDataAnalysisEDAusingPython_13.png)
 
 "kernel density estimate (kde=True)"의 존재는 부드러운 확률 밀도 함수를 나타내며, 기저 분포 패턴에 대한 통찰을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 분석: 분포가 왼쪽으로 치우쳐져 있는 것으로 보이며, 양성 겨릭 림프절 수가 약 0에서 가장 빈번하게 나타납니다. 분포의 상단에는 최대 50개의 양성 겨릭 림프절에 대한 데이터 포인트도 있습니다. 분포의 왼쪽 꼬리가 오른쪽 꼬리보다 긴 것으로, 양성 겨릭 림프절 수가 적은 데이터 포인트가 더 많음을 의미합니다.
 
 - 질문: 데이터셋이 다양한 결혼 상태에 분포되어 있고, 각 카테고리에 속한 환자의 백분율은 어떻게 되나요?
 
-
 marital_counts = df['Marital_Status'].value_counts()
 plt.figure(figsize=(10, 6))
 plt.pie(marital_counts, labels=marital_counts.index, autopct='%1.1f%%', startangle=90, colors=sns.color_palette('Blues'))
 
-
 ![Marital Status Distribution](/assets/img/2024-06-20-CompleteExploratoryDataAnalysisEDAusingPython_14.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 분석: 데이터셋에서 결혼한 사람은 70.4%이고 싱글인 사람은 29.6%입니다.
 
 - 질문: 암 생존 예측 데이터셋의 연령대 누적 분포는 무엇이며, 이는 다른 연령 그룹 간 환자 전체 분포를 어떻게 보여줄까요?
 
 ```js
-plt.figure(figsize=(10, 6))
-sns.ecdfplot(df['Age_Group'], color='purple')
+plt.figure((figsize = (10, 6)));
+sns.ecdfplot(df["Age_Group"], (color = "purple"));
 ```
 
 <img src="/assets/img/2024-06-20-CompleteExploratoryDataAnalysisEDAusingPython_15.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 이변량 및 다변량 분석
 
@@ -440,7 +791,18 @@ sns.ecdfplot(df['Age_Group'], color='purple')
 
 # 1. 히트맵
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터셋을 더 자세히 살펴보고 데이터셋 내 다른 피처들 간의 관계를 깊게 이해하기 위해 상관 분석을 수행할 수 있습니다. 히트맵은 데이터셋 내 피처 변수들 간의 상관 관계를 시각화하는 강력한 도구입니다. 이들은 회귀 분석이나 기타 통계 모델링 작업의 맥락에서 변수 간의 패턴과 관계를 식별하는 직관적인 방법을 제공합니다.
 
@@ -452,7 +814,18 @@ sns.ecdfplot(df['Age_Group'], color='purple')
 
 # 데이터 변환
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제는 숫자가 아닌(범주형) 값이 포함된 데이터 세트에 대한 히트맵을 작성하려고 할 때 발생합니다. 상관 계수는 숫자 데이터를 기반으로 계산되며, 숫자가 아닌 값이 포함되면 오류가 발생할 수 있습니다.
 
@@ -465,7 +838,18 @@ from sklearn.preprocessing import LabelEncoder
 label_encoder = LabelEncoder()
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 객체 유형의 열을 숫자 표현으로 변환합니다
@@ -488,8 +872,18 @@ plt.figure(figsize=(12, 8))
 sns.heatmap(corr_matrix, annot=True, cmap='coolwarm', square=True)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-CompleteExploratoryDataAnalysisEDAusingPython_16.png" />
 
@@ -499,8 +893,18 @@ sns.heatmap(corr_matrix, annot=True, cmap='coolwarm', square=True)
 
 다변량 분석
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 열지도를 사용하여 데이터를 분석하는 방법은 무엇인가요?
 
@@ -510,7 +914,18 @@ sns.heatmap(corr_matrix, annot=True, cmap='coolwarm', square=True)
 
 열지도를 통해 연령 그룹의 동적 및 연도별 분포를 확인할 수 있습니다. 이는 정보를 토대로 한 비즈니스 결정에 중요한 세부사항과 패턴을 알려줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특정 연도와 연령 그룹의 조합이 두드러지게 나타납니다. 예를 들어, X-축의 '1964'와 Y-축의 '70-75' 조합이 가장 높은 값을 갖습니다. 이는 1964년에 70-75세 연령 그룹에서 수술을 받은 환자 수가 많았다는 것을 시사합니다. 반면에, '1963'과 '80-85'의 조합은 가장 낮은 값을 갖는데, 해당 연도에 해당 연령 그룹의 환자 수가 적다는 것을 의미합니다.
 
@@ -520,12 +935,23 @@ sns.heatmap(corr_matrix, annot=True, cmap='coolwarm', square=True)
 
 상자 그림은 데이터셋의 분포를 시각적으로 효과적으로 나타내는 간결하고 정보를 제공하는 방법입니다. 최솟값, 최댓값, 중앙값, 그리고 사분위수를 포함한 주요 통계 측정치를 요약합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일부 상자 플롯을 그려볼까요?
 
 ```js
-plt.figure(figsize=(15, 4))
+plt.figure((figsize = (15, 4)));
 ```
 
 ```js
@@ -542,7 +968,18 @@ sns.boxplot(x='Survival_Status', y='Positive_Axillary_Nodes', data=df, hue='Surv
 
 질문:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 생존한 환자와 그렇지 않은 환자 사이의 연령 분포가 다른가요? 서로 다른 생존 결과에 대해 중앙 연령이나 연령 분포에 뚜렷한 차이가 있나요?
 - 환자들의 생존 상태에 따라 수술 연도 분포에 어떤 추이나 패턴이 있나요? 상자 그림(boxplot)을 통해 생존한 환자와 그렇지 않은 환자들 간의 수술 연도에 뚜렷한 차이가 있나요?
@@ -554,7 +991,18 @@ sns.boxplot(x='Survival_Status', y='Positive_Axillary_Nodes', data=df, hue='Surv
 
 암 생존의 맥락에서 양성 겨드랑이 림프절의 이상치는 환자들이 유난히 높은 수의 양성 겨드랑이 림프절을 가지고 있었던 경우를 시사할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3. 바이올린 플롯
 
@@ -576,7 +1024,18 @@ for feature in selected_features:
     plt.show()
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 생존한 환자와 그렇지 않은 환자 사이의 연령 분포는 어떻게 다른가요?
 - 서로 다른 생존 결과를 가진 환자들의 수술 연도에 관한 어떤 통찰을 얻을 수 있나요?
@@ -588,7 +1047,18 @@ for feature in selected_features:
 
 - 대부분의 환자(두 클래스 모두)의 양성 겨드랑이 림프 노드가 적게 감지된다는 것을 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 관찰은 이전 섹션에서 우리가 한 관찰과 일관성이 있습니다.
 
@@ -598,10 +1068,21 @@ for feature in selected_features:
 
 이 분석에서 우리는 변수 간의 관계를 시각화하는 것뿐만 아니라 생존 상태에 따라 패턴을 구별하기 위해 쌍 플롯을 사용했습니다. 환자가 생존했는지 여부에 따라 데이터 포인트를 색상으로 구분함으로써, 특정 변수 조합이 더 나은 결과 또는 더 나쁜 결과와 연관이 있는지 여부를 파악할 수 있습니다. 이 접근 방식을 통해 우리는 유방암 생존에 영향을 미치는 요인들의 복잡한 상호작용을 보다 심층적으로 탐구할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-sns.pairplot(df, hue='Survival_Status')
+sns.pairplot(df, (hue = "Survival_Status"));
 ```
 
 ![Pair Plot](/assets/img/2024-06-20-CompleteExploratoryDataAnalysisEDAusingPython_20.png)
@@ -610,8 +1091,18 @@ sns.pairplot(df, hue='Survival_Status')
 
 Pair plot의 대각선 플롯은 각 구체적인 특징의 단일 변수 분포를 시각적으로 나타내는 커널 밀도 부드러운 히스토그램을 보여줍니다. 이를 통해 각 변수의 분포를 살펴볼 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 우리의 쌍 플롯에서 주목할 만한 관측 결과는 두 기능 간의 상당한 중첩이 있다는 것인데, 이는 이러한 기능 쌍을 고려할 때 클래스 레이블 간의 명확한 구분이 부족하다는 것을 나타냅니다.
 
@@ -621,11 +1112,28 @@ Pair plot의 대각선 플롯은 각 구체적인 특징의 단일 변수 분포
 
 - 질문: Tumor_Size와 Positive_Axillary_Nodes의 수 사이에 상관 관계가 있습니까?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-plt.figure(figsize=(7, 6))
-sns.scatterplot(x='종양_크기', y='양성_겨드랑이_림프_절', data=df, hue='생존_상태', palette='pastel')
+plt.figure((figsize = (7, 6)));
+sns.scatterplot(
+  (x = "종양_크기"),
+  (y = "양성_겨드랑이_림프_절"),
+  (data = df),
+  (hue = "생존_상태"),
+  (palette = "pastel")
+);
 ```
 
 ![이미지](/assets/img/2024-06-20-CompleteExploratoryDataAnalysisEDAusingPython_21.png)
@@ -634,8 +1142,18 @@ sns.scatterplot(x='종양_크기', y='양성_겨드랑이_림프_절', data=df, 
 
 # 6. 조인트 플롯
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시본의 Joint Plot은 두 개의 그래프가 한 번에 표시됩니다! 이는 두 개의 숫자 변수에 대한 다각적인 시각을 제공하여 산점도와 유익한 히스토그램이 우아하게 결합됩니다. 산점도는 변수 간의 잠재적 상관 관계와 패턴을 보여주며, 축을 따라 나타나는 히스토그램은 각각의 분포를 보여줌으로써 한 눈에 이해할 수 있는 시각화를 제공합니다. 상관 계수와 함께 제공되는 Joint Plot은 선형 관계의 강도와 방향을 측정하여 초기 데이터 탐색과 가설 생성을 돕습니다.
 
@@ -651,7 +1169,18 @@ plt.show()
 
 <img src="/assets/img/2024-06-20-CompleteExploratoryDataAnalysisEDAusingPython_22.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 통찰력:
 
@@ -664,7 +1193,18 @@ plt.show()
 
 분포 플롯은 연속 변수의 분포를 시각적으로 나타내는 확률 밀도 함수(PDF) 플롯으로 종종 언급됩니다. 이는 변수 내에서 다른 값들의 빈도수 또는 확률에 대한 통찰력을 제공합니다. 일반적으로 플롯은 분포의 모양과 특성을 보여줌으로써 분석가가 데이터의 중심 경향, 분산 및 잠재적인 패턴을 이해할 수 있게 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 질문: 생존한 환자와 그렇지 않은 환자 간의 연령 그룹 분포가 어떻게 다른가요?
 
@@ -675,7 +1215,18 @@ plt.show()
 - 모든 연령 그룹 중 50세 미만의 환자들이 가장 많아요.
 - 클래스 레이블 간에 많은 중첩이 있어요. 이는 수술 후 환자의 생존 상태를 환자의 나이로 확인할 수 없다는 것을 의미해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 8. Contour plot
 
@@ -685,19 +1236,41 @@ plt.show()
 
 환자의 나이
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시각화한 결과가 멋지네요! seaborn 라이브러리를 사용하여 환자의 나이를 x축으로, 수술 년도를 y축으로 하는 등고선 그림을 그렸어요 —
 
 ```js
-sns.jointplot(x='patient_age', y='operation_year', data=df, kind='kde', fill=True)
-plt.show()
+sns.jointplot((x = "patient_age"), (y = "operation_year"), (data = df), (kind = "kde"), (fill = True));
+plt.show();
 ```
 
 결과:
 ![Image](/assets/img/2024-06-20-CompleteExploratoryDataAnalysisEDAusingPython_25.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인사: 위의 등고선 그래프에서 1961년부터 1963년까지 58세에서 75세 사이의 환자들이 더 많이 관찰되었음을 알 수 있습니다.
 

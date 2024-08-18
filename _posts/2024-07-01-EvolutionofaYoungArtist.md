@@ -3,17 +3,13 @@ title: "젊은 예술가의 성장 과정 성공과 도전의 여정"
 description: ""
 coverImage: "/assets/img/2024-07-01-EvolutionofaYoungArtist_0.png"
 date: 2024-07-01 17:43
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-01-EvolutionofaYoungArtist_0.png
 tag: Tech
 originalTitle: "Evolution of a Young Artist"
 link: "https://medium.com/the-diy-diaries/evolution-of-a-young-artist-85a34fc01d42"
 isUpdated: true
 ---
-
-
-
-
 
 ## 자기주도 학습
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 아마도 이 인정이 적어도 일부는 어린 시절 내내 예술가가 될 것이라는 자신감을 갖게 해준 것이며, 이것은 절대로 요동이 없었어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내가 성장함에 따라, 나는 내 목표에 대해 단호했고 노트북에서 스케치하고 그림을 그려 나가며 이를 추구했다. 전공 수업을 선택할 때, 나는 항상 미술 수업을 택했고, 거기서 색상 활용, 1점 및 2점 원근 등 젊은 예술가들이 기술을 향상시키도록 고안된 기술들에 대해 배웠다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 첫 미술 박물관을 방문했을 때는 정확히 언제였는지는 기억이 안 나지만, 그 경험은 분명 감탄스러웠다. 흰 벽에 걸린 위대한 예술가들의 그림들을 목격하는 것은 언제나 나에게 영감을 줬고, 집에 돌아가 종이를 꺼내어 그렸다. 오늘날까지, 미술 박물관을 방문하는 것은 내가 가장 좋아하는 활동 중 하나이며, 나는 한 작품에 완전히 빠져들기도 한다. 나를 발견할지도 모르겠다. 그때는 붓질, 빛과 그림자, 그리고 색상 사용에 매료되어 그냥 그대로 서 있을지도 몰라.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예술을 경험함으로써 예술에 대한 사랑이 더해지고, 계속해서 스케치와 그림을 그리고 싶게 만들어주었어요— 창의성의 아름다운 나선으로 이어지는 것 같아요.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 두 번째 해의 예술 수업에서 어떤 깨달음을 얻었어요. 전문 예술가의 작품을 배우면서 나만의 작품을 창작하는데, 내 내면에서 생각했던 열정과 헌신이 없는 것을 깨달았어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그림 그리기와 스케치에는 물론이고, 보통 하나의 작품을 한 번에 마무리하는 것을 선호했어요(가능하다면). 수십 시간을 들여 몇 달이나 몇 년 동안 섬세한 디테일로 작품을 완성하는 것에는 흥미가 없었죠.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 항상 예술가였다는 게 사실이긴 해도, 오히려 더 읽는 사람이라고 말할 수 있을 거예요. 저는 열정적으로 책을 읽었죠—어머니께서 어릴 적 제가 혼자서 쉬고 있어도 걱정할 필요가 없다고 자주 얘기하곤 했는데요. 왜냐면 책을 읽는 게 반가웠기 때문에 엄마가 돌아오면 제가 아직 그 자리에 앉아 있을 거라고 확신하셨거든요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내가 예술을 좋아하는 것 보다 말에 대한 사랑이 더 크다. 어린 시절에는 지금처럼 이야기, 시, 에세이, 기사를 쓰는 일이 나에게 이를 추구할 수 있는 길일 수 있다는 생각이 전혀 들지 않았다. 그러나 내 예술에 대한 갑작스러운 깨달음은 나로 하여금 추구할 다른 길을 찾게 하였고, 이것이 바로 나의 글쓰기에 대한 열정을 열어준 문이 되었고, 수천 시간을 쏟아부을 기관을 가진 공예로써 쓰기를 추구할 수 있는 길로 열어주었다.
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 나의 예술하는 것을 사랑하는 마음은 결코 내게서 떠나가지 않을 것이며, 순수한 기쁨과 즐거움을 유지하기 위해 치열하게 보호하고 있다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재의 자본주의 상태에서, 우리가 하는 모든 창의적인 일을 돈 버는 것으로 전환시키려는 경향이 종종 있습니다. 더 많은 돈을 벌어야 하고, 자유를 얻어야 하며, 알고리즘 기계를 유지해야 합니다. 생산량에 대한 지속적인 압박이 있으며, 이것은 저도 내 글쓰기 경력에서 분명히 느끼는 것입니다.
 
@@ -73,6 +124,17 @@ isUpdated: true
 
 미술은 내 삶과 경력에서 오는 스트레스를 덜어내기 위해 하는 일입니다. 스케치를 그리고, 그림을 그리고, 만드는 일들은 저를 진정시키고 영혼을 달래줍니다. 이는 탐험과 놀이, 기쁨에 관한 것이며, 그 기쁨을 자본주의의 만족할 줄 모르는 욕망으로부터 언제나 지키겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Note, 이 작품은 "과거에 무엇을 했는지"라는 프롬프트에 대한 답변으로 쓰여졌습니다. 이 DIY 다이어리에 실린 이 에세이를 출판해준 Amanda Laughtland에게 감사드립니다.

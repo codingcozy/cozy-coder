@@ -3,17 +3,13 @@ title: "대형 언어 모델LLM의 미스테리 코딩은 잘하지만 숫자 �
 description: ""
 coverImage: "/assets/img/2024-06-22-TheCuriousCaseofLLMsLLMsCanCodebutNotCount_0.png"
 date: 2024-06-22 20:54
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-TheCuriousCaseofLLMsLLMsCanCodebutNotCount_0.png
 tag: Tech
 originalTitle: "The Curious Case of LLMs: LLMs Can Code but Not Count"
 link: "https://medium.com/@gcentulani/the-curious-case-of-llms-llms-can-code-but-not-count-14513d9532e1"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-22-TheCuriousCaseofLLMsLLMsCanCodebutNotCount_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이 역설은 LLMs의 본질과 그들의 근본적인 추론 과정에 대해 흥미로운 질문을 던집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 본 문서에서는 이 모순을 강조하는 매력적인 사례 연구를 제시할 것입니다. 특정 작업을 위한 코드를 생성하도록 LLM에 요청한 실험을 살펴보겠습니다 - 주어진 텍스트에서 특정 문자의 발생 횟수를 세는 것입니다. LLM은 코드 솔루션을 성공적으로 작성할 수 있지만, 동일한 작업을 직접 실행하려고 할 때 어려움에 직면합니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 LLM의 흥미로운 모순을 탐구하기 위해, 특정 작업을 처리하는 능력과 한계를 드러내는 실험을 설계했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실험은 LLM에 텍스트 기반 도전 과제를 제공하고 생성된 코드를 생성하고 과제를 직접 실행하는 성능을 관찰하는 것을 중심으로 진행됩니다.
 
@@ -43,7 +61,18 @@ LLM에게 과제 제시하기
 
 LLM에게 제시된 과제는 세 가지 주요 구성요소로 구성되어 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 텍스트의 총 문자 수 세는 것: 첫 번째 목표는 주어진 텍스트 샘플 내의 총 문자 수를 결정하는 것입니다. 이는 모든 알파벳 및 숫자, 공백, 그리고 구두점을 포함합니다. LLM은 텍스트의 전체 문자 길이를 정확하게 세는 것으로 예상됩니다.
 
@@ -57,7 +86,18 @@ LLM에 이 세 가지 목표를 제시함으로써, LLM이 문자 및 문자 수
 
 LLM에 코드 솔루션을 제공하도록 요청하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LLM의 코딩 능력을 평가하기 위해 주어진 작업에 대한 코드 솔루션을 생성하는 프롬프트를 준비했습니다. LLM은 실험에서 설명된대로 문자 계산, "a" 문자 계산 및 텍스트 강조 테스크를 정확하게 수행하는 기능적인 코드 스니펫을 생성하기를 기대했습니다.
 
@@ -67,8 +107,18 @@ LLM으로부터 코드 솔루션을 받은 후, 구조, 논리 및 구문을 주
 
 결과물의 형식이 요청한 대로 되지 않아 몇 번의 수정을 거쳤지만 솔직히 말해서 제공한 지시사항이 많지 않았습니다. 이것이 최종 결과물이었습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-22-TheCuriousCaseofLLMsLLMsCanCodebutNotCount_3.png)
 
@@ -78,9 +128,18 @@ LLM으로부터 코드 솔루션을 받은 후, 구조, 논리 및 구문을 주
 
 제시된 2가지 예제를 보면 결과가 실제로 옳았음을 알 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-22-TheCuriousCaseofLLMsLLMsCanCodebutNotCount_5.png)
 
@@ -90,8 +149,18 @@ LLM으로부터 코드 솔루션을 얻은 후, 동일한 문제를 프롬프트
 
 ![이미지](/assets/img/2024-06-22-TheCuriousCaseofLLMsLLMsCanCodebutNotCount_6.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작업을 위해 코드를 생성할 수 있는 LLM에 있어서 문자를 정확히 세는, "a"라는 글자의 발생을 식별하는 데 어려움을 겪었거나 텍스트 내에서 "a"를 제대로 강조하고 세는 데 어려움을 겪고 있습니다.
 
@@ -99,7 +168,18 @@ LLM으로부터 코드 솔루션을 얻은 후, 동일한 문제를 프롬프트
 
 LLM의 코딩 능력과 스스로 실행하는 능력 사이의 이러한 불일치는 실험의 핵심에서 역설을 더욱 부각시킵니다. 이는 LLM의 근본적인 추론 과정과 글자 수준에서 직접 텍스트를 조작하고 분석하는 능력에 대한 의문을 던집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LLM의 성능을 코드 생성 및 직접 작업 실행 두 가지 측면에서 살펴보며, 언어 모델링의 복잡성과 LLM이 문자 수준 추론을 필요로 하는 간단한 작업에 직면했을 때 발생하는 어려움에 대해 알아보려고 합니다.
 
@@ -109,7 +189,18 @@ LLM의 성능을 코드 생성 및 직접 작업 실행 두 가지 측면에서 
 
 LLM에서의 토큰 기반 추론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실험에서 관측된 역설을 이해하기 위해서는 LLMs가 어떻게 언어를 처리하고 이해하는지를 이해하는 것이 중요합니다.
 
@@ -119,7 +210,18 @@ LLMs는 "토큰"이라 불리는 기본 단위에서 작동합니다. 토큰은 
 
 LLMs가 토큰과 함께 작업함으로써 언어 내에서 패턴, 관계 및 종속성을 포착하고 학습할 수 있습니다. 이 접근법을 통해 LLMs는 맥락을 이해하고 일관된 응답을 생성하며 다양한 언어 작업을 높은 능률로 수행할 수 있습니다. 토큰 기반 추론은 LLMs가 자연어 상호작용에 참여하는 핵심입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 토큰 기반 추론의 한계
 
@@ -129,7 +231,18 @@ LLMs가 토큰과 함께 작업함으로써 언어 내에서 패턴, 관계 및 
 
 특정 시나리오에서 문자 수준 정밀도의 필요성: 실험에서 제시된 것과 같이 특정 작업은 정확한 문자 수준 조작과 분석을 필요로 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문자 수를 세거나 특정 글자의 발생을 식별하고 텍스트 내에서 강조하는 것은 토큰 기반 추론이 제공하지 못하는 세밀함을 요구합니다.
 
@@ -139,7 +252,18 @@ LLMs가 토큰과 함께 작업함으로써 언어 내에서 패턴, 관계 및 
 
 LLM의 코드 이해 및 생성 능력: 실험의 흥미로운 측면 중 하나는 주어진 작업에 대한 코드 생성 능력이었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코든 솔루션을 제공하라는 요청에 대해, LLM은 문제를 이해하고 기능적인 코드 스니펫을 생성했습니다. 이는 모델이 프로그래밍 개념, 구문 및 논리를 이해하고 지정된 요구 사항을 해결하는 코드를 생성할 수 있는 능력을 보여줍니다.
 
@@ -149,7 +273,18 @@ LLM의 코드 이해 및 생성 능력: 실험의 흥미로운 측면 중 하나
 
 실험에서 강조된 이 모순은 LLM의 추론 프로세스의 본질과 토큰 기반 방법의 한계에 대한 중요한 질문을 제기합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드 능력과 자체 실행 간의 간극을 좁히기 위해 추가 연구 및 개발이 필요함을 강조하며, LLM이 코드를 생성하는 능력뿐만 아니라 필요한 경우 문자 수준에서 효과적으로 추론하고 작동할 수 있도록 하는 것이 중요합니다.
 
@@ -159,7 +294,18 @@ LLM의 코드 이해 및 생성 능력: 실험의 흥미로운 측면 중 하나
 
 ![이미지](/assets/img/2024-06-22-TheCuriousCaseofLLMsLLMsCanCodebutNotCount_9.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 미래 LLM이 문자 수준 추론을 다루는 능력을 개선할 가능성에 대해 논할 수 있습니다.
 
@@ -169,7 +315,18 @@ LLM의 코드 이해 및 생성 능력: 실험의 흥미로운 측면 중 하나
 
 이러한 발전은 문자 수준 임베딩, 주의 메커니즘 또는 다른 기술을 통합하여 LLM이 토큰 및 문자 수준에서 효과적으로 추론할 수 있도록 하는 것을 포함할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문자 수준의 추론과 토큰 기반 처리의 통합: 미래 LLM에 대한 한 가지 유망한 방법은 문자 수준의 추론 기능을 기존의 토큰 기반 처리와 통합하는 것입니다. 토큰 수준과 문자 수준의 추론 두 가지 강점을 활용한 혼합 접근 방식을 개발함으로써, LLM은 언어에 대한 보다 포괄적인 이해를 달성할 수 있습니다.
 
@@ -179,7 +336,18 @@ LLM의 코드 이해 및 생성 능력: 실험의 흥미로운 측면 중 하나
 
 LLM이 계속 발전함에 따라, 토큰 기반 효율성과 문자 수준 정확성 사이의 균형을 맞추는 것이 중요해질 것입니다. 토큰 기반 추론이 여러 언어 작업에 매우 효과적이라는 것은 확인되었지만, 문자 수준의 정확성에 대한 필요성도 간과해서는 안 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 미래 LLM들은 토큰 기반 처리의 강점을 활용하면서 필요할 때 문자 수준의 추론 능력을 통합하여 조화롭게 통합하도록 노력해야 합니다. 이 균형은 LLM이 효율성과 정확성을 갖추며 다양한 어플리케이션과 사용 사례의 다양한 요구에 부응할 수 있도록 할 것입니다.
 
@@ -189,7 +357,18 @@ GPT-5 및 Claude 4와 같은 LLM의 지속적인 발전
 
 각 반복에서, LLM은 정확한 문자 수준 조작과 분석이 필요한 작업을 처리하는 데 보다 능숙해질 것으로 예상됩니다. 미래 모델의 개발에서 문자 수준 추론의 통합은 토큰 기반 처리와 함께 주요 초점이 될 것으로 예상되며, 언어 이해와 생성에서 더 높은 정확도와 다재다능성을 달성하도록 돕게 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **다양한 응용 및 사용 사례에 미칠 잠재적인 영향**
 
@@ -199,7 +378,18 @@ GPT-5 및 Claude 4와 같은 LLM의 지속적인 발전
 
 ## 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LLM이 코딩은 할 수 있지만 계산은 못 하는 신기한 사례는 그들의 추론 능력에 대한 모순을 드러냅니다.
 
@@ -209,6 +399,17 @@ LLM은 언어 이해와 생성에서 놀라운 능력을 보여주었지만, 문
 
 토큰과 문자 수준에서 효과적으로 추론하는 능력은 다양한 응용 분야와 사용 사례에 중요한 영향을 미치며, LLM은 더욱 정확하고 신뢰할 수 있는 언어 작업을 다양하게 수행할 수 있는 기회를 얻을 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 분야의 연구 및 개발이 진행됨에 따라 LLMs가 문자 수준 작업을 처리하는 능력이 점점 더 향상될 것으로 기대됩니다.이는 자연어 처리의 새로운 가능성을 개척하고 언어 기반 AI 시스템으로 달성 가능한 영역을 넓히게 될 것입니다.

@@ -3,17 +3,13 @@ title: "부분최소제곱법PLS으로 다변량 분석의 격차 메우기"
 description: ""
 coverImage: "/assets/img/2024-07-12-PartialLeastSquaresBridgingtheGapinMultivariateAnalysis_0.png"
 date: 2024-07-12 23:28
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-PartialLeastSquaresBridgingtheGapinMultivariateAnalysis_0.png
 tag: Tech
 originalTitle: "Partial Least Squares: Bridging the Gap in Multivariate Analysis"
 link: "https://medium.com/ai-mind-labs/partial-least-squares-bridging-the-gap-in-multivariate-analysis-5376df6baaa0"
 isUpdated: true
 ---
-
-
-
-
 
 ## 소개
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## PLS의 탄생과 발전
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 20세기 후반에 탄생한 PLS(부분 최소 제곱)는 초기에 전통적인 통계적 방법이 높은 상관성 데이터나 예측 변수가 관측치보다 많은 시나리오와 같은 제약에 부딪힐 때 개발되었습니다. 이 방법은 차원 축소와 잠재 변수 모델링에 대한 뛰어난 접근 방식을 통해 초기 응용을 초월하며, 화학측정학, 감각분석, 금융 및 사회과학 분야를 포함한 다양한 학문 분야에서 유용성을 발견했습니다.
 
@@ -33,7 +40,18 @@ PLS의 핵심은 예측 변수 집합(X)과 하나 이상의 반응 변수(Y) �
 
 ## 차원 축소: PLS의 핵심
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 PLS의 특징 중 하나는 차원 축소에 대한 강력한 접근 방식이다. 주성분 분석(PCA)이 예측자 행렬에만 주로 초점을 맞춘 반면, PLS는 잠재 변수를 최적화하여 예측자 및 응답 행렬의 분산을 설명한다. 이 이중 포커스는 추출된 구성 요소가 데이터 구조를 대표하는 것뿐만 아니라 결과 변수를 매우 예측하기에도 효과적인지를 보장한다.
 
@@ -43,7 +61,18 @@ PLS의 다재다능함은 다양한 응용 분야에서 나타난다. 화학 측
 
 ## 전통적인 방법에 대한 장점
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 PLS(부분최소제곱)는 기존의 다변량 방법에 비해 여러 가지 장점을 제공합니다. 다변량 예측변수들 간에 높은 상관관계가 있을 때에도 사전 변수 선택을 필요로 하지 않고 다룰 수 있는 능력은 많은 상황에서 선호되는 선택지로 만들었습니다. 더불어, 예측변수의 수가 관측값의 수를 초과하는 경우에도 강건성을 유지하여 대규모 데이터셋이 특징인 현대 데이터 분석에서 상당한 이점을 제공합니다.
 
@@ -53,7 +82,18 @@ PLS(부분최소제곱)는 기존의 다변량 방법에 비해 여러 가지 �
 
 ## Code
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이썬에서 합성 데이터셋을 사용하여 Partial Least Squares (PLS) 회귀를 설명하기 위해, numpy 라이브러리를 사용하여 데이터를 생성하고 scikit-learn 라이브러리로 PLS 모델을 적용할 것입니다. 이 예제에서는 합성 데이터셋을 만들고 PLS 회귀를 적용하며, 결과를 matplotlib로 시각화하는 과정을 안내하겠습니다.
 
@@ -104,7 +144,18 @@ plt.show()
 R^2 점수: 0.95
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 완벽한 코드 스니펫은 파이썬에서 합성 데이터셋을 사용한 PLS 회귀의 기본적인 사용법을 보여줍니다. PLS 모델의 구성 요소(n_components)를 조정하여 모델의 성능에 어떤 영향을 미치는지 확인할 수 있습니다. 시각화를 통해 모델이 만들어낸 예측의 정확성을 이해하는 데 도움이 됩니다.
 
@@ -114,7 +165,18 @@ R^2 점수: 0.95
 
 ## AI Mind로부터의 메시지
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Tarot](https://miro.medium.com/v2/resize:fit:500/0*5Wm7sOfTpe5DEbhg.gif)
 

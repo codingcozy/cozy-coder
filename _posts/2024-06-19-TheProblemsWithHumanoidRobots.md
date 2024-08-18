@@ -3,17 +3,13 @@ title: "인간형 로봇의 문제점"
 description: ""
 coverImage: "/assets/img/2024-06-19-TheProblemsWithHumanoidRobots_0.png"
 date: 2024-06-19 06:36
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-TheProblemsWithHumanoidRobots_0.png
 tag: Tech
 originalTitle: "The Problems With Humanoid Robots"
 link: "https://medium.com/@bp_64302/the-problems-with-humanoid-robots-9d8684d62008"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-19-TheProblemsWithHumanoidRobots_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Boston Dynamics의 Atlas도 놀라운데, 그 구동기의 강력함과 로봇 제어 루틴의 품질만큼이나 인상적해요. Agility Robotics의 Digit 또한 놀라운 로봇이자 멋진 공학 작품입니다. Shadow Dextrous Hand도 마찬가지로 멋진 공학 작품이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 시장에는 다른 기업도 있지만, 이 기업들은 현재 다른 기업들보다 훨씬 앞서 나가 있습니다. 멋진 로보틱스 비디오들이 있긴 하지만 (사람을 로봇 코스튬에 넣지 않아도), 좋은 비디오가 제품화된 솔루션을 제공하는 것은 아닙니다. 워이어드가 보스턴 다이내믹스 아틀라스가 파쿠르 루틴을 수행하는 것을 보도한 후, 그들만이 더 심층적으로 파헤쳐보고 시연이 실제로 작동하는 건 20번 중 1번 정도 된다는 사실을 알아냈습니다. 애자일리티는 최근에 땅에서 일어설 수 있는 능력을 시연했는데, 인상적이고 중요하지만 결국 기본적인 문제를 다시 한 번 확인합니다... 그들의 로봇들은 넘어질 수 있는 존재입니다.
 
@@ -35,7 +42,18 @@ Boston Dynamics의 Atlas도 놀라운데, 그 구동기의 강력함과 로봇 �
 
 첫 번째 문제에 대해 이야기해보죠. 로봇을 위한 견고한 컨트롤러들은 어렵습니다. 전년에 스탠포드에서 후원하는 제어 과학 워크숍에 참석했습니다. 이 행사에서 스티븐 보이드 박사가 인상적인 발표를 했습니다. 보이드 박사에 대한 예의를 기리며, 그의 의도와는 다를 수 있지만 제가 받아들인 내용을 간략하게 정리해보겠습니다. 전반적으로 이 발표는 강화 학습을 비롯한 다양한 제어 기법들을 비교하고, 이들이 볼록 최적화 문제로 축소될 수 있음을 명확하게 해주어 문제 공간을 크게 단순화할 수 있다는 것을 명확히 보여주었습니다. 하지만 그는 흥미로운 발언을 했습니다 (직역하면 이런 느낌이었는데, 제가 제대로 받아 썼길 바라며), "그래서 차원을 6 이하로 줄이면 이 문제들은 고전적으로 해결 가능해집니다."
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그거 대단한 포인트였죠. 정확히 우리가 로보틱스에서 하는 일이에요. 우리는 문제의 차원을 6개의 제어 구동 이하로 줄이고, 몇 가지 수학, 볼록 최적화, 강화학습 또는 유사한 기술을 결합하여 컨트롤러를 유도해요. 쿼드콥터 드론은 4개의 구동을 갖고 일반적으로 IMU(IMU)를 갖추고 있어요. 자동차는 스로틀, 브레이크, 스티어링을 갖고 있어요. 비행기는 일반적으로 에일러론, 루더, 엘리베이터, 스로틀을 갖고 있어요. Agility가 아름답게 해낸 것은 보행의 물리학을 간단하게 만들어서 컨트롤러를 스프링-매스 시스템으로 모델링할 수 있다는 것이에요. Boston Dynamics가 인상적으로 해낸 것은 한 제어 규칙에서 다른 것으로 매끄럽게 전환이 가능하다는 것이에요. 그러나 각 컨트롤러는 단순화돼 있어요. 생산에 성공한 핸드 컨트롤러들은 아이겐핸드 또는 저차원 제어 공간으로 차원을 축소했어요.
 
@@ -45,7 +63,18 @@ Boston Dynamics의 Atlas도 놀라운데, 그 구동기의 강력함과 로봇 �
 
 여기서 두 번째 문제로 이어져요. 하드웨어는 비싸요. 그리고 복잡한 하드웨어는 정말 비싸요. 개방적이고 해결되지 않은 AI 문제와 복잡한 하드웨어 공학 비용을 결합하면 자금 요건이 끝없이 늘어날 수밖에 없어요. 인간형 로봇에 일하려면 균형 문제를 해결하지 않고는 할 수 없는 것처럼요. 어쩌면 일부 인간형 로봇은 바퀴베이스를 사용하고 있지만, 그들은 본질적으로 안정적이지 않아요... 중심 질량이 여전히 너무 높아 안전하지 않아요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 벤처 생태계에 충분한 자금이 있을까요? 아마도 있을 것입니다. 소프트뱅크는 가장 큰 자금력을 가지고 있으며 로봇에 많은 투자를 했습니다. 구글도 마찬가지입니다. 그러나 지금까지 그 투자로 얻은 수익은 다소 실망스럽습니다.
 
@@ -55,7 +84,18 @@ Boston Dynamics의 Atlas도 놀라운데, 그 구동기의 강력함과 로봇 �
 
 바퀴는 물류, 제조업, 병원, 공항, 경기장, 인도, 오피스 건물 및 거의 모든 상업 환경에서 올바른 답입니다. 또한, 안정성을 갖추어야 합니다. 땅에 적어도 3개의 접촉 점, 가능하면 4개의 접촉 점을 가져야 합니다. 로봇 앞에 동력을 보내거나 오버헤드하는 대신 안정 쏘포무렁에 적재물을 두는 것이 더 나은 방법입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 아마존의 접근 방식이 옳았다고 믿습니다... 오늘날 로봇이 무엇을 할 수 있는지 이해하고 현재 최첨단 기술을 대규모로 신속하게 배치한 후 기계 학습과 AI의 발전을 활용하여 운영을 더 개선하고 효율화하는 것이죠. 이것이 로봇을 세상으로 가져오는 실용적인 방법입니다. 75만 대 이상의 로봇이 배치된 아마존은 규모에 있어서 세계에서 가장 성공적인 기업입니다. 그 팀이 하는 일에 대해 자랑스럽고 영감을 얻고, 그 가속화를 이끈 나의 시간을 기억하며 뒤돌아보고 있습니다.
 

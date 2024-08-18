@@ -3,17 +3,13 @@ title: "안전한 원격 접속 간소화 리눅스 서버 간 패스워드 없�
 description: ""
 coverImage: "/assets/img/2024-06-22-StreamliningSecureRemoteAccessAGuidetoPasswordlessSSHConnectionsBetweenLinuxServers_0.png"
 date: 2024-06-22 16:10
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-StreamliningSecureRemoteAccessAGuidetoPasswordlessSSHConnectionsBetweenLinuxServers_0.png
 tag: Tech
 originalTitle: "Streamlining Secure Remote Access: A Guide to Passwordless SSH Connections Between Linux Servers"
 link: "https://medium.com/@prateek.malhotra004/streamlining-secure-remote-access-a-guide-to-passwordless-ssh-connections-between-linux-servers-8c26bb008af9"
 isUpdated: true
 ---
-
-
-
-
 
 ---markdown
 ![SSH Connection](/assets/img/2024-06-22-StreamliningSecureRemoteAccessAGuidetoPasswordlessSSHConnectionsBetweenLinuxServers_0.png)
@@ -24,9 +20,21 @@ isUpdated: true
 
 - 두 대의 Linux 서버 (서버 A 및 서버 B)
 - 두 서버 모두에 대한 관리 액세스
+
 ---
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 1: 서버 A에서 SSH 키 쌍 생성하기
 
@@ -40,7 +48,18 @@ ssh-keygen -t rsa
 
 키 쌍의 기본 위치를 사용하려면 Enter를 누르시고, 인증을 위해 암호를 비워둘 경우 비밀번호 없는 인증을 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. Enter 키를 눌러 키 생성을 확인해주세요.
 
@@ -50,7 +69,18 @@ ssh-keygen -t rsa
 
 - ssh-copy-id 명령어를 사용하여 공개 키를 서버 B로 복사하세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ssh-copy-id user@serverB_IP
@@ -64,7 +94,18 @@ ssh-copy-id user@serverB_IP
 
 서버 A에서 서버 B로 SSH 연결을 시도해보세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ssh user@serverB_IP
@@ -76,12 +117,23 @@ ssh user@serverB_IP
 
 암호없는 연결이 작동하지 않는 경우, 다음 문제 해결 단계를 따라주세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 권한 확인: Server A 및 Server B의 .ssh 디렉토리가 올바른 권한을 가지고 있는지 확인해주세요. 사용자의 소유이어야 하며 제한된 권한을 가져야 합니다:
 
 ```js
-chmod 700 ~/.ssh 
+chmod 700 ~/.ssh
 chmod 600 ~/.ssh/authorized_keys
 ```
 
@@ -92,7 +144,18 @@ chmod 600 ~/.ssh/authorized_keys
 ssh-add ~/.ssh/id_rsa
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 방화벽 및 SELinux: 각 서버의 방화벽이 SSH 액세스를 차단하는지 확인하고 SELinux 권한이 문제를 일으키지 않도록 합니다.
 
@@ -105,7 +168,18 @@ tail -f /var/log/secure    # CentOS/RHEL에서
 
 5. 디버깅 모드: 더 많은 정보를 얻기 위해 SSH를 디버깅 모드로 실행할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ssh -v user@serverB_IP

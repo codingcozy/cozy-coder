@@ -3,17 +3,13 @@ title: "미세 조정에 대한 깊이 있는 탐구"
 description: ""
 coverImage: "/assets/img/2024-06-19-ADeepDiveintoFine-Tuning_0.png"
 date: 2024-06-19 03:55
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-ADeepDiveintoFine-Tuning_0.png
 tag: Tech
 originalTitle: "A Deep Dive into Fine-Tuning"
 link: "https://medium.com/towards-data-science/stepping-out-of-the-comfort-zone-through-domain-adaptation-a-deep-dive-into-dynamic-prompting-4860c6d16224"
 isUpdated: true
 ---
-
-
-
-
 
 ## "컴포트 존"을 벗어나는 것 - LLM에 대한 도메인 적응 접근 방식에 대한 심층 탐구 3/3
 
@@ -25,7 +21,18 @@ isUpdated: true
 부분 2: 컨텍스트 학습에 대한 심층 탐구
 부분 3: 파인튜닝에 대한 심층 탐구 - 여기 있습니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 참고: 모든 이미지는 별도로 언급되지 않는 한 저자가 제공했습니다.
 
@@ -35,19 +42,39 @@ isUpdated: true
 
 # 트랜스포머 101
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최첨단 LLM은 대부분 트랜스포머 아키텍처에 기반을 두고 있어요. 이 아키텍처는 2017년 Vaswani 등이 제안한 이후, 자연어 처리 분야를 혁명시킨 깊은 신경망 아키텍처의 가족입니다. 이 아키텍처 패밀리의 핵심 차별점은 콘텍스트에서 사용된 단어나 자연어의 더 큰 조각의 의미를 포착하는 데 뛰어난 "어텐션" 개념입니다.
 
 트랜스포머 아키텍처는 두 가지 근본적으로 다른 구성 요소로 구성되어 있어요. 한쪽에는 "인코더" 블록이 있어 자연어의 의미를 이른바 문맥화된 임베딩으로 번역하는 데 집중합니다. 이는 벡터 공간에서의 수학적 표현입니다. 인코더 모델은 이러한 벡터 표현을 하위 결정론적 또는 확률적 작업인 분류 문제, NER 또는 의미 검색과 같은 곳에서 활용하는 데 특히 유용합니다. 반면, 디코더 블록은 다음 토큰 예측에 훈련되어 있어, 재귀적으로 사용될 경우 텍스트를 생성할 수 있는 능력을 가지고 있습니다. 이 블록은 텍스트 생성에 의존하는 모든 작업에 사용될 수 있어요. 이러한 구성 요소는 서로 독립적으로 사용할 수 있지만, 조합해서 사용할 수도 있습니다. 오늘날 생성적 AI 분야에서 언급되는 대부분의 모델이 디코더 전용 모델입니다. 그래서 이 블로그 글은 이 유형의 모델에 초점을 맞출 거예요.
 
-
 ![ADeepDiveintoFine-Tuning](/assets/img/2024-06-19-ADeepDiveintoFine-Tuning_1.png)
-
 
 # E2E 파인 튜닝 파이프라인
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Fine-tuning은 LLaMA2와 같은 기본 모델에 특정 분야 전문성을 효율적으로 주입하기 위해 전이 학습을 활용합니다. 이 과정은 도메인별 데이터에 대한 모델의 가중치를 업데이트하면서 전체 네트워크 구조를 변경하지 않는 방식으로 이루어집니다. 대규모 데이터셋과 컴퓨팅 파워가 필요한 전체 사전 학습과는 달리, fine-tuning은 매우 샘플 및 컴퓨팅 효율적입니다. 전체적으로, 이 과정은 다음 단계로 분해될 수 있습니다:
 
@@ -57,7 +84,18 @@ Fine-tuning은 LLaMA2와 같은 기본 모델에 특정 분야 전문성을 효�
 
 LLM 사전 학습은 일반적으로 웹 스크랩 및 정돈된 말뭉치를 활용합니다. fine-tuning은 도메인 적응 방식으로 데이터셋이 주로 조직, 지식 또는 작업 특정 도메인의 레이블 또는 미레이블 데이터로 구성되어 있다는 것을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-ADeepDiveintoFine-Tuning_3.png" />
 
@@ -67,7 +105,18 @@ LLM 사전 학습은 일반적으로 웹 스크랩 및 정돈된 말뭉치를 �
 
 또 다른 중요한 차원은 훈련 데이터 집합을 라벨이 지정된(labeled) 및 지정되지 않은(unlabeled) 부분(선호도 포함)으로 분류하는 것입니다. 도메인 적응 미세 조정은 라벨이 지정되지 않은 텍스트 데이터가 필요합니다(그림 4를 참조하십시오). 다시 말해, 관련 콘텐츠와 충분한 품질로 간주되는 어떤 자연어의 전문 문서를 사용할 수 있습니다. 실제 사용 사례에 따라 사용자 매뉴얼, 내부 문서 또는 심지어 법적 계약서 등이 될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한편, 명시적으로 레이블이 지정된 데이터셋인 지시-맥락-응답 데이터셋과 같은 것들은 지도 미세 조정 방법에 사용될 수 있습니다. 최근에는 모델을 실제 사용자 피드백에 맞추기 위한 강화 학습 방법이 큰 성과를 보여주며, 이는 인간 또는 기계가 생성한 선호 데이터를 활용합니다. 예를 들어, 이진 인간 피드백(좋아요/싫어요)이나 다중 응답 순위와 같은 것들이 있습니다.
 
@@ -77,7 +126,18 @@ LLM 사전 학습은 일반적으로 웹 스크랩 및 정돈된 말뭉치를 �
 
 최근에는 합성 데이터 수집이 미세 조정 분야에서 점점 더 중요해지고 있습니다. 강력한 LLM(Large Language Model)을 사용하여 레이블이 지정된 데이터셋을 합성적으로 생성하는 것이 실제로 이루어지고 있습니다. 이는 SFT 또는 선호 정렬을 위한 것일 수 있습니다. 이 방법은 이미 유망한 결과를 보여주었지만, 현재로선 추가적인 연구가 더 필요하며, 실무에서 규모에 맞게 유용함을 입증해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 데이터 전처리: 선택한 데이터는 하류 학습 알고리즘에게 "잘 소화될 수 있도록" 전처리 되어야 합니다. 인기 있는 전처리 단계는 다음과 같습니다:
   - 품질 관련 전처리, 예를 들어 포맷 지정, 중복 제거, PII 필터링
@@ -95,7 +155,18 @@ LLM 사전 학습은 일반적으로 웹 스크랩 및 정돈된 말뭉치를 �
 이 섹션에서는 디코더 트랜스포머 모델을 학습하는 방법을 탐구합니다. 이는 사전 학습과 섬세 조정 모두에 적용됩니다.
 레이블이 지정되지 않은 데이터로 비지도 학습이나 레이블이 지정된 데이터로 지도 학습과 같은 전통적인 ML 학습 방식과 달리, 트랜스포머 모델의 학습은 자가지도 학습이라고 불리는 혼합 접근 방식을 활용합니다. 이는 레이블이 지정되지 않은 텍스트 데이터가 공급되더라도, 알고리즘이 실제로는 특정 입력 토큰을 가림으로써 내재적으로 자기 감독하고 있기 때문입니다. 아래의 입력 토큰 시퀀스 "Berlin is the capital of Germany."을 고려하면, 이는 y가 가려진 토큰이고 X가 나머지인 지도 학습 예제로 이어집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-ADeepDiveintoFine-Tuning_5.png" />
 
@@ -105,7 +176,18 @@ LLM 사전 학습은 일반적으로 웹 스크랩 및 정돈된 말뭉치를 �
 
 CLM 작업을 대리로 사용하여 예측과 실제 값이 생성되며, 이를 사용하여 예측 손실을 계산할 수 있습니다. 따라서 모델 어휘 전체의 토큰에 대한 예측 확률 분포는 그라운드 트루스인 실제 값과 비교되며, 실제 값을 나타내는 토큰에 대한 확률이 1.0인 희소 벡터입니다. 사용한 실제 손실 함수는 특정 모델 아키텍처에 따라 다르지만, 토큰 예측과 같은 범주형 문제 공간에서 잘 작동하는 교차 엔트로피나 헷갈림 손실과 같은 손실 함수가 일반적으로 사용됩니다. 손실 함수는 깊은 신경망 역전파에 의한 경사 하강을 수행하여 매 반복할 때마다 손실을 점진적으로 최소화하고 모델 가중치를 우리의 교육 목표로 최적화하는 데 활용됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 세밀한 조정 변형 - 시나리오
 
@@ -115,7 +197,18 @@ CLM 작업을 대리로 사용하여 예측과 실제 값이 생성되며, 이�
 
 제목이 나타내는 대로, 이 분야가 "계속된 사전 훈련"이라는 용어로 수렴하려고 하는 가운데, 이 섹션에서 논의되는 세밀한 조정 방법에 대한 명확한 용어는 아직 커뮤니티에서 합의되지 않은 상태입니다. 그렇다면 이 세밀한 조정 방법이 정확히 어떤 것을 의미하는 걸까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 바이오테크 분야의 연구 논문들은 글쓰기 스타일이 꽤 독특하며, 도메인 특화 지식과 산업 또는 기관 별 약어가 가득합니다 (예: Polack et al, 2020; Figure 7 참조).
 
@@ -125,7 +218,18 @@ CLM 작업을 대리로 사용하여 예측과 실제 값이 생성되며, 이�
 
 ![Figure 8](/assets/img/2024-06-19-ADeepDiveintoFine-Tuning_8.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-06-19-ADeepDiveintoFine-Tuning_9.png](/assets/img/2024-06-19-ADeepDiveintoFine-Tuning_9.png)
 
@@ -135,7 +239,18 @@ CLM 작업을 대리로 사용하여 예측과 실제 값이 생성되며, 이�
 
 # 파인 튜닝 변형 — 감독된 파인 튜닝 (SFT)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안타깝게도, 우리 사람들은 해결하고 싶은 문제를 순수한 텍스트 완성/토큰 예측 형태로 제시하는 것을 선호하지 않아요. 대화를 선호하며, 특히 일을 처리하고자 할 때에는 수다스럽거나 지시적인 행동을 하는 경향이 있는 사람들이랍니다.
 
@@ -145,7 +260,18 @@ CLM 작업을 대리로 사용하여 예측과 실제 값이 생성되며, 이�
 
 ![이미지](/assets/img/2024-06-19-ADeepDiveintoFine-Tuning_10.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에서 이해한 대로, SFT에는 레이블이 지정된 데이터셋이 필요합니다. 오픈 소스에는 일반 목적의 레이블이 지정된 데이터셋이 많이 있지만, 모델을 귀하의 특정 사용 사례, 산업 또는 지식 도메인에 가장 적합하게 맞추기 위해 사용자 정의 데이터셋을 수동으로 작성하는 것이 의미가 있을 수 있습니다. 최근에는 Claude 3나 GPT-4와 같은 강력한 LLM을 사용하여 이러한 데이터셋을 만드는 접근 방식이 인간 레이블링 대안으로 발전되어왔습니다.
 
@@ -162,7 +288,18 @@ CLM 작업을 대리로 사용하여 예측과 실제 값이 생성되며, 이�
 
 프롬프트 템플릿은 모델 패밀리에 따라 다양할 수 있으며, 일부 모델은 해시태그보다 HTML 태그나 다른 특수 문자를 선호할 수 있습니다. 이 절차는 데이터셋의 각 항목에 대해 적용되며, 모든 항목이 큰 텍스트 조각으로 연결되기 전에 수행됩니다. 최종적으로 위에서 설명한 NLP 특정 전 처리 후, 이 파일은 다음 토큰 예측을 활용하여 모델로 훈련될 수 있으며, CLM 기반의 훈련 목표를 사용할 것입니다. 이 특정 프롬프트 구조에 지속적으로 노출되므로 모델은 그에 따라 작동하고 해당 방식으로 행동하는 것을 배울 것입니다 — 이 경우에는 지시어를 따릅니다. BioLLaMA2를 dolly-15k 데이터셋에 맞춘 후, BioLLaMA2-instruct 모델은 프롬프트를 통해 제출된 지시를 철저히 따를 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 파인튜닝 변형 — 인간 선호도 조정 기술 (RLHF/PPO, DPO, KTO, ORPO)
 
@@ -172,8 +309,18 @@ BioLLaMA2와 함께, 우리는 생물 기술 연구 영역에 적합한 모델�
 
 이를 염두에 두고, 연구자들은 인간 피드백을 성능 향상에 통합하는 방법을 찾는 데 상당한 노력을 기울였습니다. 이에따라, 그들은 (심층적인) 강화 학습 (RL) 과 상당한 중첩이 있다는 것을 깨달았는데, 이것은 환경 내에서 행동을 수행하는 자율 에이전트들에 대한 것으로, 다음 상태를 생성하며 항상 보상과 결합됩니다. 에이전트들은 훈련 단계에서 보상을 극대화하기 위해 점진적으로 최적화된 정책이나 가치지도에 따라 행동합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-19-ADeepDiveintoFine-Tuning_12.png)
 
@@ -183,8 +330,18 @@ BioLLaMA2와 함께, 우리는 생물 기술 연구 영역에 적합한 모델�
 
 ## 인간 피드백에 대한 강화학습 (RLHF) 및 근접 정책 최적화 (PPO)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![여기에 이미지가 있습니다](/assets/img/2024-06-19-ADeepDiveintoFine-Tuning_13.png)
 
@@ -194,7 +351,18 @@ BioLLaMA2와 함께, 우리는 생물 기술 연구 영역에 적합한 모델�
 
 ![여기에 이미지가 있습니다](/assets/img/2024-06-19-ADeepDiveintoFine-Tuning_14.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단계 2 (그림 14): 새 보상 모델을 사용하여 실제 모델을 학습하는 단계로 넘어갑니다. 따라서 해당 모델을 조정하기 위해 다른 일련의 프롬프트가 모델을 통해 공급됩니다 (도면의 회색 상자), 결과적으로 각각 하나의 응답이 생성됩니다. 이후 이러한 응답은 각각 개별 보상을 검색하기 위해 보상 모델에 공급됩니다. 그런 다음, 보상이 할당된 모델의 답변을 최대화하기 위해 Proximal Policy Optimization (PPO)이라는 정책 기반 강화 학습 알고리즘이 사용되어 모델의 가중치를 점진적으로 조정합니다. CLM과는 달리, 그라디언트 하강 대신에 이 접근 방식은 이제 목표 (보상)를 최대화하려 하기 때문에 그라디언트 상승(또는 그라디언트 하강 오버 1 − 보상)을 활용합니다. 학습 중에 모델 동작의 지나친 드리프트를 방지하기 위한 알고리즘적 안정성을 높이기 위해서 PPO와 같은 강화 학습 기반 알고리즘에 의해 야기될 수 있는 너무 큰 드리프트를 예방하기 위해 예측 변화 벌점이 보상 항에 추가되어, 초기 언어 모델의 입력 프롬프트에 대한 예측 확률 분포에서 너무 많이 벗어나는 답변을 벌한다.
 
@@ -204,7 +372,18 @@ PPO와 함께 RLHF 이상의 다른 접근 방법이 개발되어 왔으며, 현
 
 직접 정책 최적화(Direct Policy Optimization, DPO)은 RLHF에서 유래한 선호 정렬 접근 방식으로, RLHF의 두 가지 주요 약점을 해결하는 것이 목표입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 먼저 보상 모델을 훈련하는 것은 추가적인 자원 투자를 필요로 하며, 보상 모델의 크기에 따라 상당히 중요할 수 있습니다.
 - PPO를 사용한 RLHF의 훈련 단계는 대규모 연산 클러스터가 필요합니다. 초기 LM, 조정된 LM, 보상 모델의 3개 복제본이 저지연 설정에서 동시에 호스팅 및 조정되어야 합니다.
@@ -216,7 +395,18 @@ DPO는 대안적인 선호 정렬 접근법으로 Rafailov 등(2023)에 의해 �
 
 ![image](/assets/img/2024-06-19-ADeepDiveintoFine-Tuning_16.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이는 선호도에 맞는 모델로 나아가면서 계산 및 알고리즘 복잡성을 줄입니다. 논문은 RLHF와 비교하여 성능 향상도 보여주고 있지만, 이 방법은 최근에 제안된 것이기 때문에 결과는 실질적인 증명을 필요로 합니다.
 
@@ -226,7 +416,18 @@ RLHF와 DPO와 같은 인간 피드백과 언어 모델을 조정하는 기존 �
 
 ![이미지](/assets/img/2024-06-19-ADeepDiveintoFine-Tuning_17.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 KTO(카네만-트버스키 최적화)는 세대의 상대적 "좋음"을 포착하는 보상 함수를 정의한 후, 모델을 최적화하여 카네만-트버스키 가치 함수하에서 이 보상의 기대값을 최대화하는 방식으로 작동합니다. 카네만과 트버스키의 전망 이론은 인간이 편향되었지만 명확히 정의된 방식으로 불확실한 결과에 대한 결정을 내리는 방법을 설명합니다. 이 이론은 이득에서 오목하고 손실에서 오목한 가치 함수에 의존하며, 수익과 손실을 분리하는 기준점이 존재합니다(17번 그림 참조). KTO는 선호도의 가능성을 극대화하는 것이 아니라 사람의 유틸리티 개념을 직접 최적화합니다.
 
@@ -234,7 +435,18 @@ KTO의 주요 혁신점은 선호 가능 여부에 대한 이진 신호만 필�
 
 KTO는 선호도 데이터가 부족하거나 비용이 많이 드는 상황에서 특히 유용하지만, 모델 출력의 품질에 대한 바이너리 피드백의 대량을 사용할 수 있는 경우입니다. 논문에 따르면, 모델 규모가 클 때 선호도 기반 방법인 DPO와 같은 성능을 극대화하거나 심지어 능가할 수 있습니다. 그러나 실제 환경에서 규모별로 확인되어야 합니다. KTO는 선호도 기능성을 극대화하는 것이 목표일 때 선호될 수 있습니다. 그러나 선호도 데이터가 노이즈가 적거나 추이가 없는 고 품질일 때라면 선호도 기반 방법이 여전히 더 나은 선택일 수 있습니다. KTO는 일부 경우에는 극도의 데이터 불균형을 처리하고 감독된 세밀 조정을 회피하는 측면에서 이론적 장점을 가지고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Odds Ration Preference Optimization (ORPO)
 
@@ -244,7 +456,18 @@ ORPO의 주된 동기는 기존의 선호 정렬 방법인 RLHF 및 DPO와 같�
 
 ORPO는 기존의 인과 언어 모델링에 연결된 손실(예: 교차 엔트로피 손실)에 오즈 비율이 기반된 처벌을 통합하는 혁신적인 선호 정렬 알고리즘을 소개합니다. ORPO의 목적 함수는 두 구성 요소로 이루어집니다: SFT 손실과 상대 비율 손실 (LOR). LOR 항목은 선호하는 응답과 비선호하는 응답을 생성하는 우도 사이의 오즈 비율을 최대화하여 모델에게 거부 응답에 높은 확률을 할당하는 것에 대한 처벌을 효과적으로 적용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-ADeepDiveintoFine-Tuning_20.png" />
 
@@ -254,7 +477,18 @@ ORPO는 미리 학습된 언어 모델을 세부 도메인이나 작업에 적�
 
 여러 미세 조정 접근 방식을 심층적으로 살펴본 후에 특정 요구사항에 따라 시작할 모델과 선택할 접근 방법에 대한 명확한 질문이 제기됩니다. 미세 조정 목적에 적합한 올바른 모델을 선택하기 위한 접근 방법은 두 단계 접근 방식입니다. 첫 번째 단계는 어떤 미세 조정 의도도 없는 기본 모델을 선택하는 과정과 유사하며, 다음 차원을 고려하여 보다 적합한 모델을 선택합니다(완전하지 않음):
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 사용할 플랫폼: 각 플랫폼은 해당 플랫폼을 통해 액세스할 수 있는 일련의 모델을 제공합니다. 이를 고려해야 합니다. 지역별 모델 가용성에 대한 차이가 있을 수 있음을 유의하십시오. 이에 대한 자세한 정보는 해당 플랫폼의 문서를 확인하시기 바랍니다.
 - 성능: 조직은 특정 작업에 최소한의 모델을 사용해야 합니다. 이에 대해 일반적인 지침은 제공되지 않지만 세밀한 조정은 모델의 성능을 크게 향상시킬 수 있습니다 (더 작은 세밀하게 조정된 모델이 더 큰 일반적인 모델보다 성능을 능가할 수 있음). 기본 모델의 평가 결과를 활용하는 것은 중요한 지표가 될 수 있습니다.
@@ -268,7 +502,18 @@ ORPO는 미리 학습된 언어 모델을 세부 도메인이나 작업에 적�
 
 <img src="/assets/img/2024-06-19-ADeepDiveintoFine-Tuning_21.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 따라서, 다음 차원을 고려해야 합니다:
 
@@ -282,7 +527,18 @@ ORPO는 미리 학습된 언어 모델을 세부 도메인이나 작업에 적�
 
 좀 더 명확히 이해하실 수 있도록 두 가지 예제를 제공해 드리겠습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-19-ADeepDiveintoFine-Tuning_22.png)
 
@@ -292,12 +548,23 @@ ORPO는 미리 학습된 언어 모델을 세부 도메인이나 작업에 적�
 
 예시 2: 이 예시에서는 채팅 모델을 사용하려고 합니다. 그러나 실제 사용자의 선호도에 부합되도록 조정하고 싶습니다. 시작점으로 LLaMA-2-7b 모델 패밀리를 선택합니다. Meta가 제공하는 사용자 지정 채팅 모델인 LLaMA-2-7b-chat을 시작점으로 사용할 수 있음을 알게 됩니다. 다음 단계에서는 모델을 실제 사용자의 선호도에 맞추고 싶습니다. 사용자로부터 선호도 데이터셋을 수집하고, 보상 모델을 훈련한 후 PPO를 사용하여 RLHF를 통해 모델을 선호도에 맞춥니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
 생성 모델 인공지능은 기업과 조직에 많은 흥미로운 사용 사례를 제공합니다. 그러나 이러한 응용 프로그램은 대개 개별 소비자용으로 레시피나 연설을 생성하는 것과 같은 것보다 훨씬 복잡합니다. 기업에서는 인공지능이 조직의 특정 도메인 지식, 프로세스 및 데이터를 이해해야 합니다. 기존 기업 시스템 및 애플리케이션과 통합되어야 합니다. 또한 다양한 직원과 역할에 맞는 맞춤형 경험을 제공하면서 안전하게 작동해야 합니다. 기업 환경에서 생성 모델 인공지능을 성공적으로 구현하려면 기술이 조직의 고유한 요구 사항에 맞게 신중하게 설계되고 맞춤화되어야 합니다. 일반적으로 공개적으로 학습된 모델을 사용하는 것만으로 충분하지 않을 것입니다.
 
-이 블로그 글에서는 도메인 적응이 모델이 "편안한 영역"을 벗어난 작업에 직면했을 때 이러한 갭을 메우는 데 도움이 되는 방법으로 어떻게 도메인 적응이 도움이 될 수 있는지에 대해 설명했습니다. 문맥 내 학습과 세밀한 조정을 통해 도메인 적응을 위한 두 가지 강력한 접근법에 대해 깊이 파고들었습니다. 마지막으로, 이러한 접근법 사이에서 선택할 때 고려해야 할 절충안에 대해 논의했습니다. 
+이 블로그 글에서는 도메인 적응이 모델이 "편안한 영역"을 벗어난 작업에 직면했을 때 이러한 갭을 메우는 데 도움이 되는 방법으로 어떻게 도메인 적응이 도움이 될 수 있는지에 대해 설명했습니다. 문맥 내 학습과 세밀한 조정을 통해 도메인 적응을 위한 두 가지 강력한 접근법에 대해 깊이 파고들었습니다. 마지막으로, 이러한 접근법 사이에서 선택할 때 고려해야 할 절충안에 대해 논의했습니다.
 
 강력한 인공지능 능력과 실제 비즈니스 요구 사항 사이의 이 갭을 성공적으로 메우는 것은 기업을 위해 생성 모델 인공지능의 궁극적인 잠재력을 발휘하는 데 중요합니다.

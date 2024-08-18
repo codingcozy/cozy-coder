@@ -3,17 +3,13 @@ title: "Hugging Face 탐구 조건 없는 이미지 생성 방법"
 description: ""
 coverImage: "/assets/img/2024-06-22-ExploringHuggingFaceUnconditionalImageGeneration_0.png"
 date: 2024-06-22 21:56
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-ExploringHuggingFaceUnconditionalImageGeneration_0.png
 tag: Tech
 originalTitle: "Exploring Hugging Face: Unconditional Image Generation"
 link: "https://medium.com/towardsdev/exploring-hugging-face-unconditional-image-generation-25a51b93c1cb"
 isUpdated: true
 ---
-
-
-
-
 
 ## 무조건적 이미지 생성
 
@@ -37,7 +33,18 @@ image = ddpm().images[0]
 image.save("ddpm_generated_image.png")
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ![Exploring HuggingFace Unconditional Image Generation](/assets/img/2024-06-22-ExploringHuggingFaceUnconditionalImageGeneration_1.png)
@@ -61,7 +68,7 @@ def generate(generator, seed):
         plt.imshow(generated_images[i, :, :, :])
         plt.axis('off')
     plt.savefig("samples.png")
-    
+
 generate(generator, seed)
 
 ![Exploring HuggingFace Unconditional Image Generation](/assets/img/2024-06-22-ExploringHuggingFaceUnconditionalImageGeneration_2.png)
@@ -69,7 +76,18 @@ generate(generator, seed)
 ## 추가 정보
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 참고 자료
 
@@ -77,6 +95,17 @@ generate(generator, seed)
 - [huggingface.co - 디퓨저(en) 문서 - 무조건 훈련](https://huggingface.co/docs/diffusers/en/training/unconditional_training)
 - [huggingface.co - 구글/ddpm-cifar10-32](https://huggingface.co/google/ddpm-cifar10-32)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 https://huggingface.co/huggan/crypto-gan

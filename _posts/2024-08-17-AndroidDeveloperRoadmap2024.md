@@ -3,7 +3,7 @@ title: "2024년 안드로이드 개발자 최신 로드맵"
 description: ""
 coverImage: "/assets/img/2024-08-17-AndroidDeveloperRoadmap2024_0.png"
 date: 2024-08-17 00:28
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-17-AndroidDeveloperRoadmap2024_0.png
 tag: Tech
 originalTitle: "Android Developer Roadmap 2024"
@@ -11,7 +11,6 @@ link: "https://medium.com/@daniel.atitienei/android-developer-roadmap-2024-c0f88
 isUpdated: true
 updatedAt: 1723863565413
 ---
-
 
 커피 한 잔 마시고 ☕, 안드로이드 개발자가 되기 위해 배워야 하는 것을 살펴봐요.
 
@@ -21,7 +20,18 @@ updatedAt: 1723863565413
 
 # 프로그래밍 언어
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 의견으로는 Kotlin이 이미 잘 알려지고 대부분의 애플리케이션에서 사용되기 때문에 Java를 배우지 말아야 한다고 생각해요. 미래에는 Java가 선택 사항이 되지 않을 것이라고 생각해요. 여기서 두 언어를 비교한 내용을 읽을 수 있어요.
 
@@ -31,7 +41,18 @@ Jetpack Compose은 Google이 만든 선언적 프레임워크로 앱을 만드�
 
 XML은 앱을 구축하는 명령적인 방식이에요. XML 파일을 사용하여 UI를 구축한 다음 Fragment/Activity에 연결하는 방식으로 작동해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 XML에서 스크롤 가능한 목록을 만드는 방법의 예제입니다. 제공된 코드는 문서에서 가져온 것이며 여기에서 찾을 수 있습니다.
 
@@ -88,7 +109,18 @@ fun MyList() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 그래 그럼 어느 것이죠?
 
@@ -98,7 +130,18 @@ fun MyList() {
 
 # 애플리케이션 수명주기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## onCreate()
 
@@ -108,7 +151,18 @@ fun MyList() {
 
 사용자에게 앱이 표시될 때 트리거됩니다. 예를 들어 앱을 다시 시작하면 onStart()가 트리거되고 onResume()으로 전달됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## onResume()
 
@@ -118,7 +172,18 @@ fun MyList() {
 
 이 이벤트는 앱이 사용자에게 보이지 않을 때 트리거됩니다. 예를 들어, 앱을 백그라운드로 넣을 때 이벤트가 트리거되며 onStop()으로 전달됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## onStop()
 
@@ -128,7 +193,18 @@ fun MyList() {
 
 앱이 중지되었고 시작할 준비가 된 경우 호출됩니다. 예를 들어, 백그라운드에 있던 앱으로 다시 들어갈 때 이 이벤트가 발생하며 onStart()에 의해 전달됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## onDestroy()
 
@@ -138,7 +214,18 @@ fun MyList() {
 
 코루틴은 스레드와 비슷하지만 훨씬 가벼우며 일반적으로 더 효율적이고 사용하기 쉽습니다. Kotlin 코루틴 가이드가 여기 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 인터넷에서 데이터 가져오기
 
@@ -148,7 +235,18 @@ fun MyList() {
 
 # 로컬 데이터베이스
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앱이 가지고 있는 또 다른 중요한 기능으로는 로컬 데이터베이스를 사용할 수 있다. 이를 위해 Room, Realm 또는 SQLite 데이터베이스를 사용하는 방법을 배울 수 있습니다. 이들은 데이터를 저장하고 네트워크가 사용 불가능할 때 앱에서 데이터를 불러오는 데 사용될 수 있습니다.
 
@@ -158,7 +256,18 @@ fun MyList() {
 
 ## 아키텍처
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 안드로이드 개발 세계에서 매우 많이 사용되는 아키텍처 패턴이 있습니다. 여기에는 일반적으로 사용되는 몇 가지 패턴이 있습니다:
 
@@ -171,7 +280,18 @@ fun MyList() {
 
 네트워크에서 이미지를 로드하는 것은 Coil, Glide 또는 Picasso와 같은 다른 종속성을 사용하여 수행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 코드 분석
 
@@ -181,7 +301,18 @@ fun MyList() {
 
 # 디버깅
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 앱에서 오류를 쉽게 감지할 수 있도록 도와주는 몇 가지 디버깅 의존성이 있습니다.
 
@@ -194,7 +325,18 @@ fun MyList() {
 
 테스트는 앱이 다양한 시나리오에서 올바르게 작동하는지 확인할 수 있는 중요한 작업입니다. 유닛 테스트(Unit Testing)와 인스트루먼테이션 테스팅(Instrumented Testing) 두 가지 유형의 테스트가 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단위 테스트
 
@@ -206,7 +348,18 @@ fun MyList() {
 
 ## Instrumented Testing
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 유형의 테스트는 에뮬레이터에서 앱을 실행하여 수행됩니다. 앱의 특정 화면을 테스트하고 상호 작용하거나 전체 앱 플로우를 테스트하는 E2E(End-To-End)를 작성할 수 있습니다. 이곳에는 몇 가지 인스트루먼테이션 테스트 종속성이 있습니다.
 
@@ -218,7 +371,18 @@ fun MyList() {
 
 이것은 지속적 통합(Continuous Integration) 및 지속적 전달/배포(Continuous Delivery/Deployment)를 의미합니다. CI는 코드 변경을 공유 소스 코드 저장소에 자동으로 통합하는 프로세스를 자동화합니다. CD는 코드 변경의 통합, 테스트 및 전달을 의미하는 프로세스입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## CI/CD 도구
 

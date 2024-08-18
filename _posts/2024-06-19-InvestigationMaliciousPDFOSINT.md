@@ -3,17 +3,13 @@ title: "조사 악성 PDF  OSINT"
 description: ""
 coverImage: "/assets/img/2024-06-19-InvestigationMaliciousPDFOSINT_0.png"
 date: 2024-06-19 04:21
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-InvestigationMaliciousPDFOSINT_0.png
 tag: Tech
 originalTitle: "Investigation: Malicious PDF + OSINT"
 link: "https://medium.com/@princeprafull/investigation-malicious-pdf-osint-37380fd2b67f"
 isUpdated: true
 ---
-
-
-
-
 
 이 블로그는 다양한 기술과 자원을 활용하여 악성 PDF 파일을 분석하는 데 도움이 될 것입니다. OSINT 방법을 사용하여 조사를 개선하는 방법에 대해 이야기할 것입니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 PDF는 객체의 조합입니다. 이해해야 할 일부 용어가 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 헤더: PDF에서 처음 나오는 줄로, PDF의 버전에 대해 말합니다.
 - 객체: PDF는 여러 섹션으로 나누어진 객체로 구성됩니다. 각 항목을 식별하기 위해 번호가 할당됩니다.
@@ -35,7 +42,18 @@ PDF는 객체의 조합입니다. 이해해야 할 일부 용어가 있습니다
 
 # ⚒️도구 및 요구 사항:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - PdfID
 - Pdf-Parser
@@ -49,7 +67,18 @@ PDF는 객체의 조합입니다. 이해해야 할 일부 용어가 있습니다
 - 호스트 머신에서 악의적인 스크립트 실행
 - PDF를 사용하여 외부 도메인에서 악성 소프트웨어 다운로드
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 두 가지 방법을 블로그에서 다룰 거에요. 기대해 주세요.
 
@@ -59,7 +88,18 @@ PDF는 객체의 조합입니다. 이해해야 할 일부 용어가 있습니다
 
 - pdfid를 사용하여 PDF에 있는 모든 객체를 찾아보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-InvestigationMaliciousPDFOSINT_1.png" />
 
@@ -69,8 +109,18 @@ PDF는 객체의 조합입니다. 이해해야 할 일부 용어가 있습니다
 
 위의 이미지처럼 이 PDF에는 여러 개의 스트림이 있습니다. JS 또는 인코딩된 문자열을 포함한 모든 스트림 및 객체에 대한 정보를 확인해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![encoded object one by one](/assets/img/2024-06-19-InvestigationMaliciousPDFOSINT_3.png)
 
@@ -78,14 +128,35 @@ opening encoded object one by one
 
 ![better view in VScode or any other code editor tool](/assets/img/2024-06-19-InvestigationMaliciousPDFOSINT_4.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 Javascript 코드에서 우리는 pdf가 stale.exe를 다운로드하고 WScript.Shell을 사용하여 실행한다는 것을 쉽게 이해할 수 있습니다.
 
 이제 Virustotal을 사용하여 stale.exe가 다운로드되는 URL을 확인합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오 이런, 악성 URL입니다. 어서 이제 exe 파일의 점수를 확인해 봐야 해요.
 
@@ -95,7 +166,18 @@ Virustotal의 세부 정보를 확인하고 exe 파일의 해시를 열어야 �
 
 ![image 2](/assets/img/2024-06-19-InvestigationMaliciousPDFOSINT_8.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 시나리오 2:
 
@@ -105,8 +187,18 @@ Virustotal의 세부 정보를 확인하고 exe 파일의 해시를 열어야 �
 
 이 PDF에서 몇 개의 스트림이 보입니다. 표시된 PDF 트리는 흐름 이해에 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![InvestigationMaliciousPDFOSINT_10](/assets/img/2024-06-19-InvestigationMaliciousPDFOSINT_10.png)
 
@@ -116,9 +208,18 @@ we see uri in one of the object. Lets investigate into that:
 
 what virustotal says about this URL:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-InvestigationMaliciousPDFOSINT_12.png)
 
@@ -128,9 +229,18 @@ what virustotal says about this URL:
 
 VT 커뮤니티 섹션에서 파일 스캔 보고서를 발견했습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-InvestigationMaliciousPDFOSINT_15.png)
 
@@ -141,8 +251,18 @@ VT 커뮤니티 섹션에서 파일 스캔 보고서를 발견했습니다.
 - [샘플1](https://bazaar.abuse.ch/download/c1290b6740600c80533b4e8f8172f15ca4b3d6d4faab96b56912782a98ac5518/)
 - [샘플2](https://bazaar.abuse.ch/download/3779f1b904ee4cf41f4a266505490682559d09337deb30a2cc08793c2e69385c/)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 🤙 연락처 :
 

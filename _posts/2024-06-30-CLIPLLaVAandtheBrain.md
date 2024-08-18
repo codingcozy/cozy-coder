@@ -3,17 +3,13 @@ title: "CLIP, LLaVA, 그리고 뇌 2024 최신 AI 모델 비교 분석"
 description: ""
 coverImage: "/assets/img/2024-06-30-CLIPLLaVAandtheBrain_0.png"
 date: 2024-06-30 23:53
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-30-CLIPLLaVAandtheBrain_0.png
 tag: Tech
 originalTitle: "CLIP, LLaVA, and the Brain"
 link: "https://medium.com/towards-data-science/clip-llava-and-the-brain-2073dfb33d7e"
 isUpdated: true
 ---
-
-
-
-
 
 ## DEEP LEARNING AND THE BRAIN
 
@@ -23,7 +19,18 @@ Hey there! Ever wondered how cutting-edge multimodal transformer networks like C
 
 One fascinating aspect that caught my attention is how vision transformers, CLIP, and LLaVA seem to mimic a form of processing akin to the pre-attentive visual processing observed in the brain. This initial processing occurs during the forward visual responses to a stimulus even before any recursive actions take place. While a significant amount of tasks can be handled via this forward process, research indicates that the brain encounters challenges with pre-attentive processing in the following areas:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 유사한 유형의 물체의 신분이나 특성을 뚜렷하게 구별하려고 할 때 특히 물체들이 서로 가깝거나 혼잡하거나 물체들이 자연이 아니거나 인공적인 경우 (VanRullen 2007).
 - 더 복잡한 작업들은 세는 작업이거나 미로나 곡선 추적 작업과 같은 것이다.
@@ -35,11 +42,22 @@ One fascinating aspect that caught my attention is how vision transformers, CLIP
 
 대부분의 현재 심층학습(Deep learning) 아키텍처에서 활동은 한 방향으로 전파됩니다. 예를 들어, 이미지가 네트워크에 입력으로 제공되고 그런 다음 계층별로 전파되어 분류가 출력으로 나올 때까지입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-30-CLIPLLaVAandtheBrain_1.png)
 
-안녕하세요! 
+안녕하세요!
 
 이 문구는 선형 전달 모델보다 더 흥미로운 두뇌의 역할을 설명하는 것입니다. 시각 체계에서 자극은 처음에는 하위 수준에서 상위 수준 시각 영역으로 선형 전달 방식으로 전파되고, 그 다음 상위 수준 영역이 하위 수준 영역에 영향을 미친다고 그림 1에 나와 있어요.
 
@@ -49,7 +67,18 @@ One fascinating aspect that caught my attention is how vision transformers, CLIP
 
 제 마음을 놓아 주셔서 감사합니다! 🌟
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자동 무의식적 피드백의 한 예는 시각 영역 V2의 방향 선택적 뉴런 약 절반에서 관찰되는 경계 소유권 코딩입니다(Zhou et al. 2000, Williford and von der Heydt 2013). 이러한 뉴런들은 약 40ms 안에 지역 정보를 부호화하며, 이 초기 응답 이후 약 10ms만에 전역 맥락을 통합하여 베둘러를 해결합니다. 이 과정은 배경을 가리는 물체들이 어떤 경계를 만들고 있는지에 대한 정보를 유지합니다.
 
@@ -57,7 +86,18 @@ One fascinating aspect that caught my attention is how vision transformers, CLIP
 
 두 방향으로 상호작용을 볼 수 있는 한 가지 방법은 각 뉴런이 항상 사용 가능한 예측 신호를 탐욕스럽게 활용한다는 것입니다. 특히 시각적 경계가 중요한 1차 대조 가장자리와 일치하지 않을 때 더 높은 수준의 영역이 예측적일 수 있다는 것을 생각해 볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Transformers
 
@@ -67,7 +107,18 @@ One fascinating aspect that caught my attention is how vision transformers, CLIP
 
 ![CLIP](/assets/img/2024-06-30-CLIPLLaVAandtheBrain_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Radford과 OpenAI 팀은 2021년 논문 "Learning Transferable Visual Models from Natural Language Supervision"에서 CLIP을 소개했습니다. CLIP의 아이디어는 간단하며 Figure 3에서 보여집니다. 이는 인터넷에서 이미지와 캡션 쌍을 가져와 이미지를 이미지 인코더에, 텍스트를 텍스트 인코더에 주입합니다. 그런 다음 이미지와 텍스트의 인코딩을 동일한 쌍에 사용할 때 서로 가까이 모으는 손실을 사용하며, 그렇지 않으면 인코딩의 거리를 증가시킵니다. 여기에 CLIP이 제공하는 것이 있습니다: 텍스트와 이미지 간 유사성을 비교할 수 있는 능력입니다. 이것은 Figure 4에서 나타나는 것처럼 zero-shot 분류에 사용될 수 있습니다. CLIP은 이미지로부터 텍스트 설명을 생성하지는 않습니다.
 
@@ -77,7 +128,18 @@ Radford과 OpenAI 팀은 2021년 논문 "Learning Transferable Visual Models fro
 
 # LLaVA
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![LLaVA](/assets/img/2024-06-30-CLIPLLaVAandtheBrain_5.png)
 
@@ -87,7 +149,18 @@ LLaVA는 CLIP에서 이미지 인코딩을 위해 훈련된 ViT-L/14 비전 트�
 
 LLaVA 훈련 방법에 대해 자세히 설명은 생략하겠지만, Figure 5의 캡션(Xc)을 확장하여 이미지에 대한 지침(Hq) 및 응답(Xₐ 훈련에 사용)을 형성하고 바운딩 박스 정보를 사용하는 방법이 흥미롭다는 것에 주목할 만합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지난 2024년에 발표된 LLaVA 1.5 버전에서는 여러 가지 개선 사항이 있습니다:
 
@@ -98,7 +171,18 @@ LLaVA 훈련 방법에 대해 자세히 설명은 생략하겠지만, Figure 5�
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LLaVA와 CLIP는 양방향 및 내부 상태에서의 재발 및 재발을 제한하여 그들의 처리를 방해합니다. 이는 이미지 처리에 특히 사실입니다. 이미지 처리는 텍스트 지시사항과 독립적으로 수행되기 때문입니다. 대부분의 합성곱 신경망도 이러한 제한을 공유합니다. 이것이 내 추측으로 이어집니다:
 
@@ -106,7 +190,18 @@ LLaVA와 CLIP는 양방향 및 내부 상태에서의 재발 및 재발을 제�
 
 일부 네트워크는 선행적인 피드포워드 네트워크에 제한되지 않지만 현재 대부분의 아키텍처는 트랜스포머의 뒤를 뒤쫓고 있습니다. 이는 LSTM(Long-Short Term Memory) 모델 및 더 최근에는 여러 이점이 있는 Mamba 아키텍처를 포함합니다 (Gu and Dao 2024). 연장된 LSTM(Beck et al. 2024, Alkin et al. 2024)이 최근에 제안되어 트랜스포머와 LSTM 간의 균형을 맞추는 데 도움이 되었습니다. 확산 모델은 반복 사용 사이에 상태로 이미지를 사용하는 유형의 제한된 종류의 재발을 가지고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 B. Alkin, M. Beck, K. Pöppel, S. Hochreiter, and J. Brandstetter가 함께 쓴 "Vision-LSTM: xLSTM as Generic Vision Backbone" (2024) 논문 번호는 http://arxiv.org/abs/2406.04303 입니다.
 
@@ -116,7 +211,18 @@ A. Gu 와 T. Dao가 쓴 "Mamba: Linear-Time Sequence Modeling with Selective Sta
 
 H. Liu, C. Li, Y. Li, 그리고 Y. J. Lee의 "Improved Baselines with Visual Instruction Tuning" (2024)은 IEEE/CVF CVPR 학회에서 발표되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 H. Liu, C. Li, Q. Wu, and Y. J. Lee, Visual Instruction Tuning (2023), [DOI: 10.48550/arXiv.2304.08485]
 
@@ -126,7 +232,18 @@ A. Radford, J. W. Kim, C. Hallacy, A. Ramesh, G. Goh, S. Agarwal, G. Sastry, A. 
 
 R. VanRullen, The Power of the Feed-Forward Sweep (2007) Advances in Cognitive Psychology
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 A. Vaswani, N. Shazeer, N. Parmar, J. Uszkoreit, L. Jones, A. N. Gomez, Ł. Kaiser, and I. Polosukhin의 'Attention Is All You Need' (2017)은 NeurIPs에서 발표되었습니다.
 

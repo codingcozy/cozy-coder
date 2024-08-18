@@ -3,7 +3,7 @@ title: "올바른 Google Pixel을 구매하는 간단한 가이드"
 description: ""
 coverImage: "/assets/img/2024-07-13-ASimpleGuidetoBuyingtheRightGooglePixel_0.png"
 date: 2024-07-13 00:26
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-ASimpleGuidetoBuyingtheRightGooglePixel_0.png
 tag: Tech
 originalTitle: "A Simple Guide to Buying the Right Google Pixel"
@@ -11,17 +11,24 @@ link: "https://medium.com/macoclock/a-simple-guide-to-buying-the-right-google-pi
 isUpdated: true
 ---
 
-
-
-
-
 지금의 구글 스마트폰 중 어떤 것이 당신에게 적합할까요?
 
 외관상으로는 픽셀 8 프로에 일부 디자인 요소와 큰 디스플레이를 제외하고는 대부분 동일한 장치입니다. 동일한 칩을 공유하며 많은 인공지능 기능, 매우 유사한 카메라 시스템, 그리고 동일한 오디오 하드웨어를 공유합니다.
 
 하지만 항상 스마트폰 비교를 할 때는 조금 더 심층적으로 파고들면서 알게 되는 것처럼, 구글 픽셀 8과 픽셀 8 프로는 두 가지 매우 다른 장치임을 발견할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Pixel 8 Pro 대 Pixel 8: 가격 및 저장 공간 비교
 
@@ -31,7 +38,18 @@ isUpdated: true
 
 그러므로, 저장 공간이 중요하고 예산이 충분하다면, Pixel 8 Pro를 선택하시길 권해드립니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예산이 낮은 편이고 로컬 저장공간보다는 클라우드를 더 많이 사용하는 경우(저는 최근에는 후자를 강하게 선호합니다), Pixel 8은 훌륭한 구매입니다.
 
@@ -41,7 +59,18 @@ isUpdated: true
 
 두 기기 모두 새롭게 출시된 Tensor G3 칩을 탑재했습니다. 원시 성능 측면에서의 유일한 차이점은 Pixel 8이 8GB RAM을 사용하고 있는 반면, Pixel 8 Pro는 12GB를 사용한다는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 G3는 교체하는 G2 칩보다 모든 내부 구성 요소가 업그레이드되었습니다. 그러나 특히 Google이 노력한 분야가 하나 있습니다: AI.
 
@@ -51,17 +80,39 @@ Pixel 8 및 8 Pro에는 경쟁 기기와 구분되는 많은 흥미로운 새로
 
 Google 어시스턴트도 인간의 언어 미묘함을 더 잘 이해하고, 요청을 넘기는 동안 '음'과 '그'로 말하는 횟수에 관계없이 당신이 문장을 끝낼 때까지 기다릴 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-**AI 기능 중 가장 유용한 것은 두 기기 모두 웹페이지를 보는 동안 전원 버튼을 길게 누르면 Google 어시스턴트가 해당 웹페이지를 읽어 주는 기능입니다. 이 기능은 항상 작동하며, 듣기 좋고 사람처럼 자연스러운 억양으로 읽어 줍니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+\*\*AI 기능 중 가장 유용한 것은 두 기기 모두 웹페이지를 보는 동안 전원 버튼을 길게 누르면 Google 어시스턴트가 해당 웹페이지를 읽어 주는 기능입니다. 이 기능은 항상 작동하며, 듣기 좋고 사람처럼 자연스러운 억양으로 읽어 줍니다.
 
 하지만 이 AI의 실질적인 능력 — 그리고 이 두 기기 사이의 큰 차이점 중 일부 —은 새로운 카메라 시스템에서 나타납니다.
 
 ## Pixel 8 Pro 대 Pixel 8: 카메라
 
-먼저 카메라 하드웨어를 살펴보겠습니다.**
+먼저 카메라 하드웨어를 살펴보겠습니다.\*\*
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 픽셀 8과 픽셀 8 Pro는 같은 메인 카메라를 사용합니다. 이는 시야각 82도, f1.68 조리개 및 광학적 이미지 안정화가 적용된 50MP 유닛입니다.
 
@@ -71,7 +122,18 @@ Google 어시스턴트도 인간의 언어 미묘함을 더 잘 이해하고, �
 
 그래서, 픽셀 8 Pro는 광학적으로 더 멀리 갈 수 있으며 전체 초점 거리에서 낮은 조명 상황에서 더 잘 대응합니다. 하지만 두 제품 간 이미지 품질의 차이는 대부분 구별하기 어렵습니다. 단, 매우 낮은 조명 하에서 촬영하거나 추가적인 줌이 필요할 때 차이가 나타납니다. 두 제품 모두 제가 선호하는 휴대전화 카메라 시스템 중 픽셀 '룩'을 갖고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Pixel 8 Pro의 카메라 업그레이드가 추가 $300을 정당화하는가? 카메라 팬들에게는 절대 그렇습니다. 그러나 좀 더 설득력이 필요하다면, 우리는 다시 AI라는 주제로 돌아갑니다.
 
@@ -81,7 +143,18 @@ Pixel 8 Pro의 카메라 업그레이드가 추가 $300을 정당화하는가? �
 
 첫째로, Pixel 8과 Pixel 8 Pro는 시장에서 가장 멋진 AI 이미지 기교를 제공하고 있으며, G3 칩 덕분에 성능이 한층 향상되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "베스트 테이크는 최근 출시된 제품으로 여러 그룹 사진에서 가장 좋은 표현을 하나의 이미지로 겹쳐 넣을 수 있게 해줍니다. 그래서 대이브가 눈을 깜빡거리거나 새라가 색줄기를 바라보고 있을 때 셔터가 떨어질 때 고칠 수 있어요. 그리고 정말 잘 작동합니다.
 
@@ -91,7 +164,18 @@ G3 칩 업데이트의 일환으로, Magic Eraser 기능(사진에서 객체나 
 
 픽셀 8 Pro는 더 멋진 카메라 관련 기능들을 가져오고 있습니다. 먼저, 별도로 조정 가능한 ISO, 초점, 화이트 밸런스 등의 프로 컨트롤과 50MP의 RAW 이미지 촬영 기능을 이용할 수 있습니다. 올해 나중에 되면 플래그십 픽셀은 비디오 부스터 업데이트를 받아 환상적인 영상을 만들 수 있는 장치 내 및 클라우드 기반의 HDR+ 이미지 처리 파이프라인이 추가될 예정입니다."
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당연히 도착했을 때 확인해 볼 거야. 그리고 또 다른 약속된 기능 업데이트인 Night Sight Video도 있을 테니까. 이 기능은 Pixel 8 Pro의 저조도 비디오 품질을 크게 향상시켜줄 거야.
 
@@ -101,7 +185,18 @@ G3 칩셋의 멋진 점은 새로운 픽셀폰에서 AI 기반 기능 중 많은
 
 이 부분은 간단해. 새로운 두 픽셀폰 모두 지문 해제, 얼굴 인식, 그리고 무료 VPN을 제공하는 Titan M2 칩을 탑재하고 있어.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래 우리 믿음직한 생체인식 보안 장치 둘 다 잘 작동해!
 
@@ -111,7 +206,18 @@ Pixel 8과 Pixel 8 Pro 사이에 또 하나의 중요한 차이점은 이 두 �
 
 내 소견엔 구글이 딱 맞춘거야. Pixel 8 Pro는 플래그십에 걸맞은 광택 있는 알루미늄 프레임으로 장식되었고, Pixel 8은 그만큼 근사하지만 조금 덜 화려한 매트 알루미늄을 선택했어.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모두 Edgeless Corning Gorilla Glass Victus 2로 만들어진 매트 리어를 갖고 있는데, 이 것들은 세 가지 다른 색으로 구성할 수 있어요. Pixel 8 Pro는 베이 블루(제 최애), 옵시디언(블랙), 그리고 포셀린(거의 화이트) 색상 중에서 선택이 가능하며, Pixel 8 소유자들은 헤이즐, 옵시디언, 혹은 로즈 중에서 선택할 수 있어요.
 
@@ -121,7 +227,18 @@ Pixel 8 Pro는 Pixel 8보다 상당히 큰 장치에요. 더 긴 높이와 너�
 
 Pixel 8에는 구글의 새로운 Actua OLED 디스플레이가 탑재되어 있으며, 6.2인치 사이즈에 1080 x 2400 해상도 및 최대 2,000 닛의 피크 밝기를 제공해요. 이 매우 밝은 디스플레이와 다이나믹한 120Hz 리프레시 비율의 조합은 Pixel 8 Pro를 중급 대의왕자로 만들어주며, 이 가격대에서 iPhone 15를 명백히 압도합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Pixel 8 Pro는 Super Actua OLED 디스플레이로 장착되어 있습니다. 이 디스플레이는 6.7인치 크기이며 해상도는 1344 x 2992이며 최대 2,400 닛의 최대 밝기를 가지고 있습니다. 시장에서 가장 밝은 화면 중 하나로, 직사광선 아래서 Apple과 Samsung의 최선의 노력을 제압할 수 있습니다.
 
@@ -131,7 +248,18 @@ Pixel 8 Pro의 화면 주사율도 Pixel 8에 비해 업그레이드되어 최�
 
 서류상으로는, Pixel 8과 Pixel 8 Pro 사이에 배터리 수명 측면에서는 차이가 없습니다. 전자가 약간 더 큰 5,050mAh 배터리를 가지고 있더라도요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Both last beyond 24 hours and can achieve up to 72 hours with Extreme Battery Saver enabled.
 
@@ -141,7 +269,18 @@ In my prior experience with Pixels, the Pro version does seem to be a little bet
 
 The decision between the Pixel 8 and Pixel 8 Pro ultimately boils down to one thing: budget. This is the key factor in all smartphone purchasing choices. The secret lies in pinpointing any standout features that justify spending those extra pennies.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 구글 픽셀 8과 픽셀 8 Pro에 대해 이야기하자면, 레귤러 8 대비 두 가지 업그레이드가 주목받을 만하네요.
 
@@ -151,7 +290,18 @@ The decision between the Pixel 8 and Pixel 8 Pro ultimately boils down to one th
 
 픽셀 8 Pro를 선택한다면 또 다른 보너스도 있어요. 팬, 액체, 표면, 음식의 표면 온도를 측정할 수 있는 온도 센서가 함께 제공됩니다. 구글은 이를 인간의 온도를 측정할 용도로 FDA에 승인 요청까지 했답니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 일반적인 Pixel 8을 선택하더라도 실망하지 않을 것입니다. 이 기기가 형제 모델과 비교했을 때 가진 그런 '부족함'은 일상에서 느껴지기 어렵습니다. 특히 스마트폰 사진 찍기를 즐기시는 분들이 아니라면요.
 
@@ -161,6 +311,17 @@ The decision between the Pixel 8 and Pixel 8 Pro ultimately boils down to one th
 
 손익분기점을 찾는 온라인 창작자로 성장하기에 도움되는 정보를 얻고 싶으시다면 제 Substack 뉴스레터에 가입해주세요! 이 게시물에는 제휴 링크가 포함되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2023년 10월 12일에 https://markellisreviews.com에서 원래 발행되었습니다.

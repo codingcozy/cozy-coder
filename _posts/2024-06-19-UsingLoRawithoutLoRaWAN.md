@@ -3,17 +3,13 @@ title: "로라WAN 없이 LoRa 사용하기"
 description: ""
 coverImage: "/assets/img/2024-06-19-UsingLoRawithoutLoRaWAN_0.png"
 date: 2024-06-19 16:43
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-UsingLoRawithoutLoRaWAN_0.png
 tag: Tech
 originalTitle: "Using LoRa without LoRaWAN"
 link: "https://medium.com/@prajzler/using-lora-without-lorawan-48dfeefed4d2"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-19-UsingLoRawithoutLoRaWAN_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 자세한 내용은 이전 게시물을 참조하십시오. 간단히 말하면: 나의 LoRa 여정은 약 10년 전 (2023년 11월 기준) IBM 연구소에서 시작되었으며, 거기서 제 전직 동료 두 명이 실제로 LoRaWAN 표준을 (공동으로) 작성한 것을 확인할 수 있습니다 — LoRaWAN 1.0의 두 번째 페이지를 확인하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # LoRa를 사용하려면 LoRaWAN이 필요한가요?
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 귀하의 사용 사례가 광역 네트워크가 아니라면, LoRaWAN이 필요하지 않을 확률이 높아요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # LoRa가 스스로 서 있을 수 있는 곳은?
 
@@ -43,7 +61,18 @@ LoRaWAN은 스타 형태의 네트워크이지만, 필요에 따라 LoRa 위에 
 
 LoRa는 대부분 ~900MHz 대역에서 사용되지만, 규제가 허용하는 한 다른 주파수에서도 작동시킬 수 있습니다. 이를테면 비지구 네트워크 중 일부가 실제로 그렇게 했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반화하는 것은 여기까지입니다. 이제 LoRa를 물리적 계층으로 사용하는 몇 가지 구체적인 사용 사례를 살펴보겠습니다.
 
@@ -53,7 +82,18 @@ LoRa는 대부분 ~900MHz 대역에서 사용되지만, 규제가 허용하는 �
 
 Amazon Echo 중 많은 제품이 내장 LoRa 라디오를 사용한다는 사실을 알고 계셨나요? 이 라디오 위에서 실행되는 네트워크는 Sidewalk라고 합니다. 상세 내용이 공식적으로 발표되기 전에 예전에 저는 그에 대해 글을 썼습니다. Sidewalk는 LoRaWAN과 많은 유사점이 있지만 LoRaWAN은 아닙니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LoRaWAN을 사용하지 않는 이유에 대한 추측은 게이트웨이 칩의 비용 때문이라고 생각해요. Echos는 값싼 가격에 판매되고 있기 때문에, SX130x를 사용하면 상업적으로 가능한 범위를 넘어설 수 있을 거에요.
 
@@ -63,7 +103,18 @@ LoRa 위에 메쉬 네트워크를 운영할 수 있다고 했나요? 사실 LoR
 
 제가 아는 바로는, Meshtastic은 주로 이동통신망 범위가 없는 지역이나, 사람들에게 연락이 어렵거나 비상 시에 사용됩니다. 자원봉사자들이 지원하고 있기 때문에 비천연적인 솔루션의 서비스 수준을 비교할 수 없지만, LoRa의 좋은 비용 효율적 사용 사례라고 할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 링크 랩스
 
@@ -73,7 +124,18 @@ LoRa 위에 메쉬 네트워크를 운영할 수 있다고 했나요? 사실 LoR
 
 ## 차량이동식 스마트 미터링
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전에는 도로변 스마트 미터링 유즈 케이스에 참여하여, 정기적인 LoRaWAN 게이트웨이 인프라가 필요하지만 불가능한 것으로 판명되었어요.
 
@@ -83,7 +145,18 @@ LoRa 위에 메쉬 네트워크를 운영할 수 있다고 했나요? 사실 LoR
 
 [비꼬는 말] 아직도 이 유즈 케이스가 동네 주변을 비행하는 자율 드론으로 고도화되어 미터링 데이터를 수집하기를 기다리고 있어요. [비꼬는 말 끝]
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 스마트 조명
 
@@ -93,7 +166,18 @@ LoRa 위에 메쉬 네트워크를 운영할 수 있다고 했나요? 사실 LoR
 
 다행히도 배터리 전원이 고갈되는 것에 대해 걱정할 필요가 없습니다. 최종적으로, 저는 작업한 사용 사례에서 게이트웨이를 신뢰할 수 있는 방식으로 모든 조명을 커버하도록 배치하려는 것보다, LoRa 프레임을 거리 조명에서 거리 조명으로 홉할 수 있는 브로드캐스트/멀티캐스트 가능한 망를 배치하는 것이 더 쉽다는 것을 알게 되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 개의 메쉬 노드가 메쉬를 관리 시스템에 연결하는 게이트웨이 역할을 하게 됩니다.
 
@@ -103,7 +187,18 @@ LoRa 위에 메쉬 네트워크를 운영할 수 있다고 했나요? 사실 LoR
 
 2.4 GHz용 LoRaWAN 규격이 없다는 점을 감안하면, 어떤 경우에도 자체 프로토콜을 개발해야 합니다. 물론 LoRaWAN의 재사용 가능한 부분을 2.4 GHz 물리 계층(PHY)으로 이식할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어쨌든, 2.4 GHz PHY는 서브-GHz 대응편과는 다른 전략을 가지고 있어요.
 
@@ -113,7 +208,18 @@ LoRa 위에 메쉬 네트워크를 운영할 수 있다고 했나요? 사실 LoR
 
 마지막으로 소개할 비-LoRaWAN 사용 사례는 위성과 직접 통신하는 것이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위성의 문제는 그들이 많은 잡음을 듣는다는 것입니다. 그들의 시야는 정말 세계 밖이기 때문이죠. 그게 아니라, 우주에서 대규모 장치 집단으로 다운링크를 보내는 것은 어렵습니다. 그것은 그 거리에서 좁은 무선 빔으로 단일 장치를 타겟팅하는 것이 어려워서입니다.
 
@@ -125,7 +231,18 @@ LoRaWAN을 통해 비디오를 스트리밍할 수 없습니다.
 실제로 LoRaWAN을 통해 오디오를 스트리밍하면 안 됩니다.
 그리고 파일을 보내면 안 됩니다 - 비둘기가 더 빠를 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반적으로, 스트리밍으로 레이블 지정할 수 있는 모든 사용 사례는 LoRaWAN과는 잘 맞지 않습니다. 킬로바이트나 메가바이트보다는 수십바이트를 생각해보세요.
 

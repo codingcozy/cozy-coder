@@ -3,17 +3,13 @@ title: "컴퓨터 프로그래머이자 15년간 ChatGPT에 대해 전문적으�
 description: ""
 coverImage: "/assets/img/2024-06-20-ImaComputerProgrammerandWroteProfessionallyaboutChatGPTfor15YearsHeresHowProWritersCanBeOkay_0.png"
 date: 2024-06-20 18:32
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-ImaComputerProgrammerandWroteProfessionallyaboutChatGPTfor15YearsHeresHowProWritersCanBeOkay_0.png
 tag: Tech
 originalTitle: "I’m a Computer Programmer and Wrote Professionally about ChatGPT for 1.5 Years — Here’s How Pro Writers Can Be Okay"
 link: "https://medium.com/writing-cooperative/computer-programmer-and-pro-writer-explains-why-chatgpt-isnt-a-threat-to-writers-4c8604f7b59f"
 isUpdated: true
 ---
-
-
-
-
 
 ![alt text](/assets/img/2024-06-20-ImaComputerProgrammerandWroteProfessionallyaboutChatGPTfor15YearsHeresHowProWritersCanBeOkay_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 그 후로, 나는 내가 판매하는 프리랜싱 플랫폼에서 ChatGPT의 훌륭함에 대해 글을 쓰도록 제안을 받았습니다. 이 회사는 세계적으로 프리랜서 일을 타격할 것으로 예상되었던 "AI-파멸"에 대응하여 콘텐츠 전략을 강화하기로 결정했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그들의 전략 중 일부는 ChatGPT 및 다양한 GenAI 도구에 대해 수많은 기사를 쓰는 것이 포함되어 있었고, 이로 인해 이러한 주제에 대한 SEO 트래픽을 이용하여 방문자들을 자신들의 프리랜서 서비스로 유도했습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 2019년, 저는 프리랜서 작가로서 성공을 꿈꾸는 절박한 소설 작가였습니다. 저는 성공을 이루기 위해 무엇을 해야 하는지 배울 수 있도록 Writing Cooperative라는 출판물을 꾸준히 참고했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 수익이 많은 작가들로부터 가장 흔히 본 조언 중 하나는 전문화하는 것이었습니다. 저는 $0.25/단어 이상을 받는 프로 작가들의 기사에서 반복해서 읽었습니다. 그 당시에는 사랑하는 일을 하면서 $0.25/단어를 받는다는 것이 꿈 같았습니다. 하지만 오늘날에는 당연한 수준입니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 또한 AI에 대해 글을 써보게 되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 고스트라이터로 일찍 배운 것은 뭔가를 알고 있다고 속이는 것은 좋지 않은 글을 쓰도록 이끈다는 것이었습니다. 전문가가 글을 쓰면 사람들은 글쓰기보다는 전문성을 더 감상합니다. 고스트라이터가 하는 주요 실수 중 하나는 그들의 화려한 문장이 정확도보다 중요하다고 생각하는 것입니다. 하지만 그렇지 않습니다.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 사람들은 그것을 존중합니다. 이 태도로 몇 년 동안 일을 유지해 왔습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # AI의 내부를 배우기
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 그것이 AI, 머신 러닝, 그리고 모델 아키텍처에 대해 배우는 멋진 토끼굴로 이끈거든요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ChatGPT이 "작동"하는 방식을 완전히 이해하게 되어서, 그것의 응답에 대한 신비를 풀어주고, 이 기계가 이유할 능력이 전혀 없다는 것이 밝혀졌어요. 그렇죠.
 
@@ -75,7 +126,18 @@ GPT란 다음을 의미합니다:
 - Pretrained: 야생으로 방출되기 전에 데이터에서 패턴을 찾아 "학습"하는 "훈련" 과정을 거칩니다. 이 "사전 훈련" 이후, 수많은(수백만?) 답변 중에서 사람들이 "올바른" 답변인지 틀린 답변인지를 "미세 조정"합니다. 전체 교육 과정은 답변에 "가중치"를 더하여, 시스템이 통계 분석을 기반으로 더 정확하게 올바른 답변을 예측할 수 있도록 합니다. 다시 말해, 만약 사람이 90%의 정확도로 한 답변을 올바르다고 표시했다면, 시스템은 그것이 "정답"이라 "배웠다"는 것입니다. 만약 사전 훈련 데이터가 90%의 시간을 같은 부정확성을 가졌다면, AI 시스템은 그 답변을 "정답"으로 고려할 것입니다. 바보 같죠?
 - Transformer: 시스템이 데이터를 순차적으로 처리하는 대신 병렬로 처리할 수 있는 AI 아키텍처를 가리킵니다. (Transformer 아키텍처는 구글 엔지니어들에 의해 만들어진 시대의 획기였는데 지금 보고 있는 금 러시로 이끌었습니다.) 예를 들어, "bat"이라는 단어는 포유류나 막대기를 의미할 수 있습니다. "The bat was hungry"라는 맥락에서 "bat"이 "포유류"라는 것을 추론할 수 있습니다. Transformer 아키텍처는 데이터를 동시에("병렬로") 처리하여, 순차적으로 처리할 때보다 훨씬 더 맥락을 추출할 수 있습니다. 이것이 Transformer 아키텍처가 (그리고 ChatGPT뿐만 아니라 다른 Transformer 아키텍처들도 있습니다) 일반적으로 맥락을 올바르게 이해하는 이유입니다. (IBM Technology 유튜브 채널이 지금까지 발견한 것 중에 Transformer와 다른 AI 개념에 대한 가장 좋은 설명을 제공합니다.)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앞서 말한 것만으로도 몇 가지 경고 신호를 눈치채셨을지도 모르겠어요. ChatGPT에 대해 더 많은 기사를 쓰면서 저는 느끼기 시작한 몇 가지를 여기서 설명해 드릴게요:
 
@@ -89,11 +151,33 @@ GPT란 다음을 의미합니다:
 
 요점은요: 폐쇄적인 회사가 사람들을 직접 훈련하여 언어 모델을 만든 다음, 그 언어 모델이 통계적으로 가능성 높은 방식으로 답변을 건진다는 점입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 변환된 표를 Markdown 형식으로 바꿔주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 작가들이 이해해야 할 중요한 측면은 AI가 사고할 수없다는 것입니다. 이것을 이해해야 합니다. AI는 생각하지 않습니다. 데이터셋과 "미세 조정"에 기반한 통계적으로 가능성이 높은 답변을 반복합니다.
 
@@ -103,7 +187,18 @@ GPT란 다음을 의미합니다:
 
 AI와 ChatGPT를 이해하기 위해 하는 작업 중, AI를 높은 위치에 두고 있는, 그러나 부정확한 단어를 반복해서 만나게 되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 “신경망”과 “뉴런”: 이 단어들은 조심스럽게 다뤄야 하는 가장 위험한 용어 중 하나입니다. 왜냐하면 인공지능을 인간 사고와 관련된 것으로 위치시킨다는 점에서 그렇습니다 — 하지만 그렇지 않습니다.
 
@@ -113,7 +208,18 @@ AI와 ChatGPT를 이해하기 위해 하는 작업 중, AI를 높은 위치에 �
 
 만약 뇌를 연구하는 사람들이 인간 뇌가 어떻게 작동하는지 명확하고 확실하게 설명할 수 없다면, 대기업 기술 회사들은 어떻게 할 수 있을까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 번역해 드리겠습니다.
 
@@ -125,7 +231,18 @@ AI와 ChatGPT를 이해하기 위해 하는 작업 중, AI를 높은 위치에 �
 
 저는 기술에 흥미를 갖는 사람입니다. 회로 기판을 분해하며 자랐습니다. 누군가 기계에 대해 이야기할 때, 제게는 그것을 어떻게 만들 것인지 알고 싶습니다. 이러한 정의들은 어떻게 신경망을 만들지에 대해 말해 주지 않았습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 많은 연구 끝에 제가 개발한 정의는 다음과 같습니다:
 
@@ -135,9 +252,20 @@ AI와 ChatGPT를 이해하기 위해 하는 작업 중, AI를 높은 위치에 �
 
 - 신경망은 상호 연결된 인공 뉴런으로 구성된 계산 모델로, 각 뉴런은 여러 개의 가중치 입력을 처리하여 비선형 변환을 통해 하나의 출력을 생성합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-그게 더 좋아 보이죠? 실행 가능하니까요. 한정된 내용이고요. 수수께끼가 없어요. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+그게 더 좋아 보이죠? 실행 가능하니까요. 한정된 내용이고요. 수수께끼가 없어요.
 
 그리고 사실적입니다.
 
@@ -145,7 +273,18 @@ AI와 ML에 관한 글을 쓸 때 원래 위의 정의들을 사용했었지만 
 
 신경망과 뉴런을 그들의 계산적 의미로 정의하면 그들을 이상한, 페라오의 의미에서 벗어나게 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AI는 가중 입력을 처리하고 단일 출력을 생성하는 도구인 'AI'를 올바른 위치에 배치합니다.
 
@@ -155,7 +294,18 @@ AI는 가중 입력을 처리하고 단일 출력을 생성하는 도구인 'AI'
 
 '환각'이라는 용어가 잘못 정의되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GenAI의 환각 성향은 잘 알려져 있습니다. 그 환각은 법정 문서에서 가짜 사례를 사용해 벌금을 부과받은 변호사들이 여러 명 생겼습니다.
 
@@ -165,7 +315,18 @@ GenAI의 환각 성향은 잘 알려져 있습니다. 그 환각은 법정 문�
 
 소프트웨어를 작성할 때, 개발자들은 일반적으로 "제어 구조"라고 하는 일련의 프로세스를 논리적으로 따릅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 만약 입력값이 "1"이면
@@ -183,8 +344,18 @@ GenAI의 환각 성향은 잘 알려져 있습니다. 그 환각은 법정 문�
 
 다층 신경망은 다르게 작동합니다. 제가 너무 단순하게 설명했다면 죄송합니다. 프로그래밍에 대한 논문을 쓰는 것이 목적이 아니라 고수준 개념을 설명하여 이해하는 데 도움을 주는 것이 목표입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 생성적 AI에서는 무수히 많은 입력이 동시에 처리되기 때문에 신경망 내부에서 무슨 일이 일어나고 있는지의 흐름을 포착하는 것이 불가능합니다. 이를 늦추면 AI의 기본 구조가 맥락을 포착하지 못하게 되어 정확한 답변을 제공하는 능력이 감소합니다.
 
@@ -194,7 +365,18 @@ GenAI의 환각 성향은 잘 알려져 있습니다. 그 환각은 법정 문�
 
 널리 알려진 대로, 생성적 AI는 재정과 같이 높은 정확도를 요구하는 상황에서는 전혀 사용할 수 없습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 정말? 그가 진짜 마법이라고 말했다고요? 어머나요.
 
@@ -202,7 +384,18 @@ GenAI의 환각 성향은 잘 알려져 있습니다. 그 환각은 법정 문�
 
 비코더들을 당황하게 만드는 또 다른 주요 개념은 언어 모델과 수학입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대형 언어 모델은 수학 계산을 수행할 수 없어요. 물리적으로 불가능한 일인데, 그 이유는 컴퓨터의 특정 부분에 입력 값을 연산할 수 있는 곳으로 보내지 않기 때문이에요.
 
@@ -212,7 +405,18 @@ OpenAI의 대표 Greg Brockman이 ChatGPT 4를 시연할 때, "TaxGPT"라는 귀
 
 실례지만 - 뭐라구요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앞서 언급한 대로, ChatGPT는 문장에서 다음 단어를 예측합니다. 이 단어들을 이해하지는 않습니다. ChatGPT는 1, "1" 또는 "one" 사이의 차이를 이해하지 못합니다. 만약 인터넷에 "1 + 1 = 2"와 같은 패턴을 따르는 충분한 텍스트가 있다면, ChatGPT는 "1 + 1 ="으로 시작하는 텍스트 라인 끝에 "2"를 출력할 가능성이 높습니다.
 
@@ -222,7 +426,18 @@ OpenAI의 대표 Greg Brockman이 ChatGPT 4를 시연할 때, "TaxGPT"라는 귀
 
 "정신적인 계산"은 없습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 계산기가 없어요.
 
@@ -232,7 +447,18 @@ OpenAI의 대표 Greg Brockman이 ChatGPT 4를 시연할 때, "TaxGPT"라는 귀
 
 챗지피티에 대해 기사를 쓰는 일을 받았던 때에는 대략적인 구상을 만들거나 질문에 답변하는 데 널리 사용했었어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 초반에는 열정 가득했지만, 그 결과물을 거의 사용하지 않게 되었다. 사용했을 때도 많이 편집했다.
 
@@ -242,7 +468,18 @@ OpenAI의 대표 Greg Brockman이 ChatGPT 4를 시연할 때, "TaxGPT"라는 귀
 
 전문가들의 조언을 따라 "더 나은 프롬프트 만들기"를 시도했다. JSON(JavaScript Object Notation)이라 불리는 "프로그래밍 스타일" 언어를 사용한 프롬프트를 작성하기도 했는데, ChatGPT가 이해하기 쉬울 것이라 생각했다. (JSON은 텍스트를 구조화된 방식으로 작성할 수 있게 해주어 프로그래밍 작업에 더 적합하다.)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 변동이 거의 없었네요.
 
@@ -252,7 +489,18 @@ OpenAI의 대표 Greg Brockman이 ChatGPT 4를 시연할 때, "TaxGPT"라는 귀
 
 한편으로 Claude.ai를 발견했는데, OpenAI보다 윤리적인 면에서 높게 평가되는 회사가 만들었어요. 그럼에도 결국에는 동일하게 실망스러웠고, 저도 그 도구를 거의 사용하지 않게 되었어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # ChatGPT은 비작가들에게 유용하며, Canva와 CapCut은 비디자이너들에게 유용합니다.
 
@@ -262,7 +510,18 @@ OpenAI의 대표 Greg Brockman이 ChatGPT 4를 시연할 때, "TaxGPT"라는 귀
 
 그 대답은 명확했습니다. 아니에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그것은 깨워주는 순간이었어요. 내가 내 작업에 대해 지불하길 원하지 않았다면, 내 고객들은 왜 할 것이라고 생각할까?
 
@@ -272,7 +531,18 @@ ChatGPT는 지루하고 단조로운 반복적이고 지루한 글쓰기를 테�
 
 많은 회사들이 필사적으로 만들고 싶어하는 “SEO 목적 콘텐츠”들은 바로 ChatGPT가 제공하는 것이에요. 그리고 이건 무료로 제공돼요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아무도 그런 것을 읽는 것을 좋아하지 않는다고 생각해요. 하지만 Google 순위를 성스럽게 여기는 절박한 많은 CEO들과 대화를 나눈 적이 있어요. 그들은 그 순위를 위해 모든 것을 쓸 것이라고 말해요. 그들에게는 트래픽을 가져다줄 뿐인 기사 내용이 무엇이든 상관이 없어요.
 
@@ -282,7 +552,18 @@ ChatGPT는 지루하고 단조로운 반복적이고 지루한 글쓰기를 테�
 
 저에게 글쓰기 요금을 지불하는 일에 대해서는 — SEO 콘텐츠로 통하는 쓰레기에 대해 $250를 지불하지 않을 테지만, 제 분야에서 리더로서의 위치를 강조하고 비즈니스 문을 여는 기사라면 두 배나 네 배의 금액을 지불할 의향이 충분해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다양한 품질의 콘텐츠입니다.
 
@@ -292,7 +573,18 @@ ChatGPT는 지루하고 단조로운 반복적이고 지루한 글쓰기를 테�
 
 프로 디자이너와 비디오 편집자는 아마도 내 소셜 미디어 콘텐츠를 보고 싫어할 것입니다. 그러나 그것은 우리 모두가 공존할 수 있는 행복한 중간지대입니다. 언젠가 부유하고 돈이 많이 번 다면, 누군가에게 일을 맡기겠지요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금은 프로급 디자인 및 비디오 편집 작업을 제공하는 사람들의 올바른 타깃 시장이 아닙니다.
 
@@ -302,7 +594,18 @@ ChatGPT는 지루하고 단조로운 반복적이고 지루한 글쓰기를 테�
 
 그런 종류의 글을 쓰는 게 싫고, 제가 하는 글은 훨씬 더 즐겁답니다. 퀄리티가 훨씬 높아서 도전적이지만 보람도 커요. 그리고 더 많이 벌어들일 수 있죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "나는 '싼 가격' 경쟁을 그만뒀어. 그건 그냥 맨 밑바닥으로 달려가는 경주라고 생각해.
 
@@ -310,7 +613,18 @@ ChatGPT는 지루하고 단조로운 반복적이고 지루한 글쓰기를 테�
 
 그런 다음 사이에 있는 사람들 — 중상위 고객들이 있어: 그들은 괜찮은 콘텐츠를 존중하지만 여전히 ChatGPT가 그들을 위해 만들어 줄 수 있다고 바라는 사람들이다. 왜냐면 사람들의 후기로 그렇게 들었기 때문이야."
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 과장된 혹평으로 인해 잠재적 고객에게 제품을 판매하기 어려워졌어요. 하지만 매출 사이클이 어렵게 되는 건 이 과장이라는 것을 알아야 해요. 품질 때문은 아니에요. 만약 매출 사이클을 개선한다면 여전히 중간 계층 고객을 끌어들일 수 있는 기회가 있어요.
 
@@ -320,6 +634,17 @@ AI가 전문 작가의 작품과 비슷할 리 없다는 걸 확신할 수 있�
 
 다른 사람들에게 이것들을 설득하기 위해선 이런 사실에 대해 개인적 확신을 얻어야 했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제 목표는 예술가와 작가들을 위해 힘을 실어주는 것입니다. 매일 올라오는 격려가 담긴 콘텐츠를 받고 싶다면, 즐겨 사용하는 소셜 미디어 채널에서 저를 팔로우해주세요.

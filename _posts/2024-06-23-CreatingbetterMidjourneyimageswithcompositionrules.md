@@ -3,7 +3,7 @@ title: "구도 규칙을 사용하여 Midjourney 이미지를 개선하는 방�
 description: ""
 coverImage: "/assets/img/2024-06-23-CreatingbetterMidjourneyimageswithcompositionrules_0.png"
 date: 2024-06-23 20:13
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-CreatingbetterMidjourneyimageswithcompositionrules_0.png
 tag: Tech
 originalTitle: "Creating better Midjourney images with composition rules"
@@ -11,17 +11,24 @@ link: "https://medium.com/@aivaras.a.grauzinis/creating-better-midjourney-images
 isUpdated: true
 ---
 
-
-
-
-
 모든 사진 작가는 가장 아름다운 주제, 완벽한 조명, 그리고 멋진 배경을 가졌다 하더라도, 좋은 구도가 없다면 보기 좋은 이미지를 얻을 수 없을 수도 있다는 것을 알고 있어요.
 
 사진과 예술에서의 이미지 구도 규칙들은 인간 심리와 생리학에 깊게 뿌리를 두고 있습니다. 우리 뇌와 몸이 시각 자극을 해석하는 방식을 반영하고 있죠. 이 중 하나인 삼분의 규칙은 이미지를 두 개의 동일한 간격을 두고 수평 및 수직으로 균일하게 나눠 아홉 부분으로 나누는데, 이 구도 지침은 인간 눈이 이미지 내 특정 지점으로 유인되는 자연적 경향과 일치합니다. 시선 추적 연구에 따르면 시청자들의 눈은 이 교차점으로 자연스럽게 이끌리며, 주요 요소를 이 지점에 배치하는 것이 더 균형을 이루고 매력적인 구도를 만들 수 있다는 것을 시사합니다. 이 현상은 복잡한 정보를 효율적으로 처리하는 우리 뇌의 선호성과 관련이 있다고 생각되어, 전체 장면에 압도당하지지 않고 중요한 요소에 집중할 수 있게 합니다.
 
 생리학적으로, 눈과 뇌가 이미지 처리를 함께 하는 방식은 구도 규칙에 영향을 미칩니다. 예를 들어, 선도라는 개념은 이미지 내 자연스러운 선을 활용해 시청자의 눈길을 특정 초점지점으로 이끕니다. 이 기술은 선과 가장자리가 처리되는 시각 체계가 어떻게 작용하는지를 활용하는데, 이것은 인간 눈의 구조와 시각 정보를 해석하는 신경 경로에 뿌리를 두고 있는 시각 인식의 근본적인 측면입니다. 또한 대칭과 패턴의 사용은 조화와 질서감을 조성해 우리의 균형을 선호함에 부합합니다. 이 선호성은 생존에 중요한 패턴을 찾고 예측하고자 하는 우리 뇌의 욕구와 관련이 있다고 생각되어집니다. 이 심리학적이고 생리학적인 기초를 이해하면 사진 작가나 예술가들은 시청자의 깊게 와닿는 구도를 만들어내며, 감정적 반응을 불러일으키고 시각적 흥미를 유지하게 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 Midjourney의 이미지에 관해서는 AI 자체나 사용자들도 구성 규칙에 대해 크게 신경 쓰지 않는 것 같아요. 그것은 나쁜 일이에요; 그래서 Midjourney로 만들어진 몇몇 그 외 완벽한 이미지들이 심심하고 흥미로워 보이지 않는 이유가 되죠.
 
@@ -31,7 +38,18 @@ Midjourney는 이미지의 주제를 중앙에 배치하려고 할 거예요. �
 
 사진과 예술 구성에는 많은 규칙이 있어요. 유감스럽게도 Midjourney는 그 중 많은 규칙을 따르지 않겠지만, 몇 가지 기본 규칙을 추가하면 이미지가 훨씬 더 나아 보일 거에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 구성 규칙의 기본 키워드 목록이 있어요:
 
@@ -50,8 +68,18 @@ Midjourney의 구성 가이드와 함께 결과를 살펴보겠습니다. 이렇
 
 결과를 살펴보세요. 이미지에는 여성, 등지고 있는 거리, 오래된 도시가 모두 포함되어 있어요. 그런데 지루하고 나쁜 이미지에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-23-CreatingbetterMidjourneyimageswithcompositionrules_2.png)
 
@@ -60,8 +88,18 @@ Midjourney의 구성 가이드와 함께 결과를 살펴보겠습니다. 이렇
 
 ![이미지](/assets/img/2024-06-23-CreatingbetterMidjourneyimageswithcompositionrules_3.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 이미지는 훨씬 더 나아졌어요. 여자가 이미지 가로의 세분의 하나 지점에 위치하고 있어서 눈이 자연스럽게 그녀를 향해 갑니다. 또한 중앙 공간을 비워두어 거리의 깊이로 이어지는 모습을 만들어 더 흥미로운 이미지로 만들었어요.
 
@@ -71,7 +109,18 @@ Midjourney의 구성 가이드와 함께 결과를 살펴보겠습니다. 이렇
 
 ![이미지](/assets/img/2024-06-23-CreatingbetterMidjourneyimageswithcompositionrules_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떤 사진이 좋네요. 등잔과 포장된 도로가 시선을 우리 레이디 쪽으로 이끌어줍니다. 이미지 너비의 1/3 지점에 여전히 그녀를 배치하고, 밝은 물체와 넓은 공간이 있더라도 그녀는 분명한 주목의 중심입니다.
 
@@ -81,7 +130,18 @@ Midjourney의 구성 가이드와 함께 결과를 살펴보겠습니다. 이렇
 
 가끔은 이미지 중앙에 대상을 두고 싶을 수도 있습니다. 특정 상황에서는 합리적이며 흥미로운 이미지를 만들기도 합니다. 하지만 규칙은 그대로입니다: 눈길을 대상물 쪽으로 이끌 것이 있어야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 경우에는 대칭 구성과 선도 사용하여 작업을 완료할 수 있습니다.
 
@@ -91,12 +151,34 @@ Midjourney의 구성 가이드와 함께 결과를 살펴보겠습니다. 이렇
 
 작업에 대칭 구성 규칙을 의존하는 대신, 이미지에 효과나 요소를 추가하여 시선을 주제로 이끄는 것도 가능합니다. 여기에 빛을 이용한 나선 모양 페인팅을 이미지에 추가한 예시가 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마크다운 포맷으로 테이블 태그를 변경하십시오.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-간단한 구성 규칙과 지침을 활용하여 훨씬 강력하고 흥미로운 Midjourney 이미지를 만들 수 있어요. 그리고 그 규칙을 활용하고 Midjourney를 더 높은 수준으로 이끌어내는 것을 즐기시길 바래요. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+간단한 구성 규칙과 지침을 활용하여 훨씬 강력하고 흥미로운 Midjourney 이미지를 만들 수 있어요. 그리고 그 규칙을 활용하고 Midjourney를 더 높은 수준으로 이끌어내는 것을 즐기시길 바래요.
 
 Aivaras Grauzinis

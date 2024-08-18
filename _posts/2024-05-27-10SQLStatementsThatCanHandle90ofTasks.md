@@ -22,7 +22,16 @@ isUpdated: true
 
 # SQL의 중요성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SQL은 관계형 데이터베이스와 상호 작용하기 위한 표준 언어입니다. 데이터를 검색하거나 데이터베이스 구조를 수정하는 등 다양한 작업을 수행할 수 있습니다. SQL을 이해하는 것은 데이터 작업을 하는 사람에게 필수적이며, 데이터 분석, 보고 및 애플리케이션 개발을 위한 기초를 제공합니다.
 
@@ -32,7 +41,16 @@ SQL은 관계형 데이터베이스와 상호 작용하기 위한 표준 언어�
 
 SELECT 문은 하나 이상의 테이블에서 데이터를 검색하는 데 사용됩니다. 검색할 열을 지정하고 결과를 필터링할 조건을 추가할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 -- 테이블에서 모든 열을 검색합니다
@@ -51,7 +69,16 @@ SELECT product_name, price FROM products WHERE price > 50;
 
 INSERT INTO 문을 사용하면 테이블에 새로운 데이터 행을 추가할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 -- 단일 행 삽입
@@ -70,7 +97,16 @@ INSERT INTO orders (order_date, total_amount) VALUES
 
 UPDATE 문은 테이블의 기존 데이터를 수정하는 데 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 -- 하나의 행 업데이트하기
@@ -86,7 +122,16 @@ UPDATE employees SET manager_id = 105 WHERE department = 'Sales';
 
 DELETE 문은 테이블에서 행을 제거하는 데 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 -- 한 행 삭제
@@ -102,7 +147,16 @@ DELETE FROM orders WHERE order_date < '2023-01-15';
 
 CREATE TABLE 문은 지정된 열과 데이터 유형을 가진 새 테이블을 생성하는 데 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 
 CREATE TABLE products (
@@ -120,7 +174,16 @@ ALTER TABLE 문을 사용하면 기존 테이블을 추가, 수정 또는 삭제
 
 
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```sql
 -- 새 열 추가
@@ -136,7 +199,16 @@ ALTER TABLE customers ALTER COLUMN phone_number VARCHAR(15);
 
 DROP TABLE 문은 기존 테이블과 해당 데이터를 모두 삭제하는 데 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```sql
 -- 테이블 삭제
@@ -149,7 +221,16 @@ DROP TABLE products;
 
 WHERE 절은 지정된 조건에 따라 행을 필터링하는 데 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 -- 가격이 50보다 큰 제품 조회
@@ -165,7 +246,16 @@ SELECT first_name, last_name FROM employees WHERE department = 'Sales';
 
 JOIN 절을 사용하여 서로 관련된 열을 기반으로 두 개 이상의 테이블에서 행을 결합합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```sql
 -- 고객 이름과 주문 조회하기
@@ -180,7 +270,16 @@ JOIN orders AS o ON c.customer_id = o.customer_id;
 
 GROUP BY 절은 특정 열의 값을 가진 행을 그룹화하는 데 사용되며, 종종 SUM 및 COUNT와 같은 집계 함수와 함께 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```sql
 -- 각 제품별 총 매출 계산
@@ -195,7 +294,16 @@ GROUP BY product_id;
 
 이 10가지 SQL 문은 관계형 데이터베이스 작업 시 대부분의 작업을 다룹니다. 이 문장들을 이해하고 숙달함으로써 데이터베이스 관리 및 데이터 조작에 대한 견고한 기초를 갖게 될 것입니다. SQL은 다양한 기능을 제공하는 언어이며, 데이터 작업에 더욱 강력한 방법을 발견하면서 더욱 쉽게 작업할 수 있을 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # SQL 기초 지식
 

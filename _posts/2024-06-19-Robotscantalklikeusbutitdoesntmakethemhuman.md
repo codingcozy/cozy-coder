@@ -3,17 +3,13 @@ title: "로봇들도 우리처럼 말할 수 있지만, 그렇다고 해서 그�
 description: ""
 coverImage: "/assets/img/2024-06-19-Robotscantalklikeusbutitdoesntmakethemhuman_0.png"
 date: 2024-06-19 18:39
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-Robotscantalklikeusbutitdoesntmakethemhuman_0.png
 tag: Tech
 originalTitle: "Robots can talk like us, but it doesn’t make them human"
 link: "https://medium.com/enrique-dans/robots-can-talk-like-us-but-it-doesnt-make-them-human-9cd701169e58"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-19-Robotscantalklikeusbutitdoesntmakethemhuman_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 물론 우리는 항상 기술을 의인화해 왔습니다. 그러나 이 기술의 발전이 음성을 만들어내고, 또한 개인적인 관계와 비슷한 대화를 나눌 수 있게 한다면, 이것이 무례한 기업들에 의해 일반화의 한 형태로 선보인다면 우리는 재해와 취약한 사람들에게 심리적 문제를 만들 수 있다는 가능성을 고려해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아이돌들에 대한 청소년들의 중요성을 알고 있는 사람이나 개인 문제를 가진 어른이 알고리즘을 치료로 사용해볼 때 어떤 영향이 있을지 고려하는 사람은 바로 화제의 중심에 있음을 이해할 것입니다. 제약이 거의 없고 가끔 환각이 발생할 수 있는 상황에서 난처한 상황에 놓이게 되어 있다는 것을 알 수 있습니다. 요약하면, 이러한 가상 관계는 단순히 고장 발생 가능성이 높아질 뿐만 아니라 유지하는 사람들의 행동에 영향을 미치도록 조절될 가능성이 있다는 것을 이해하고 있습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 미디어에서 자주 본 어떤 사람을 만나는 것은 언제나 이상한 느낌을 줬습니다. “내 거실에 이 사람이 있는 것 같다”라는 느낌은 종종 처음 만나는 사람에 대한 내 가정과는 다르게 익숙하다고 오해하게 했습니다. 예를 들어 매일 뉴스를 보는 사람과의 대화와 같이 완전히 비대칭적인 관계를 완전히 받아들이는 것은 이해력, 교육, 판단력이 필요한 작업입니다. 만약 매일 자신의 아이돌로 위장하는 generative algorithm과 이야기하고 있는 사람이 진짜 그 사람을 만나거나 그 대화를 실제로 받아들이게 되었을 때 어떤 일이 일어날까요? 그리고 네트워크 정보를 재조합하는 generative algorithm인데도 불구하고 어떤 성격을 부여하는 사람이 등장했을 때는 어떻게 될까요? 그리고 이 모든 것이 불확실한 규정적 맥락에서 운영되는 상황에서, 이러한 도구가 어떻게 작동하는지나, 어떻게 조정되어야 하는지에 대한 경험이 없을 뿐만 아니라 심리적 장애에 대한 경험이 전혀 없는 상황에서 어떻게 할 것인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제는 기술이 발전하는 속도가 아니라, 일부 무책임한 사람들이 적정한 조치를 취하지 않고 시장에 내놓는 제품들입니다. 우리는 제품과 서비스를 기반으로 한 것으로 수익을 창출하려는 얼간이들의 활동을 제한하기 위한 일탈적인 접근이 아닌, 이 기술에 대한 명확하고 정확한 규정이 필요합니다. 이미 많은 문제를 발생시킨 "빨리 움직이고 무언가를 망가뜨리는" 접근이 이제는 더 무서운 곳으로 나아가고 있습니다.
 

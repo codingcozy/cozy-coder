@@ -3,17 +3,13 @@ title: "ChatGPT로 손글씨 노트를 디지털화 및 정리해야 하는 이�
 description: ""
 coverImage: "/assets/img/2024-07-13-HeresWhyChatGPTIsTheSuperiorChoiceForDigitizingOrganizingYourHandwrittenNotes_0.png"
 date: 2024-07-13 23:27
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-HeresWhyChatGPTIsTheSuperiorChoiceForDigitizingOrganizingYourHandwrittenNotes_0.png
 tag: Tech
 originalTitle: "Here’s Why ChatGPT Is The Superior Choice For Digitizing , Organizing Your Handwritten Notes"
 link: "https://medium.com/generative-ai/heres-why-chatgpt-is-the-superior-choice-for-digitizing-organizing-your-handwritten-notes-a9e40e55ab24"
 isUpdated: true
 ---
-
-
-
-
 
 ## 강화된 메모 기능
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 하지만 인터넷 세대의 아이랍니다. 저는 온라인에서 커왔죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 펜과 종이 또는 Apple Pencil이 없는 나를 찾아볼 수 없어요. 손글씨로 메모를 하는 느낌이 참 좋아요. 그러나 몇 년 동안 나의 손글씨는 더 빨라지면서 읽기 어려워졌어요. 남들이 읽을 수 있는 메모를 만드는 것이 부담스럽고, 솔직히, 몇 주나 몇 년이 지나면 가끔 내 자신도 헷갈리곤 해요.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 이 예시에서는 랜덤한 일일 노트를 사용했지만, 개인적으로 매일 기록하는 일지나 무엇이든 다 손글씨로 남기고 이를 변환하곤 해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Apple Notes
 
@@ -41,9 +59,20 @@ Apple Pencil과 iPad Pro로 손으로 메모를 작성하는 것은 정말 쉬�
 
 손으로 작성된 내용을 텍스트로 변환하려면, 다른 텍스트를 선택할 때와 마찬가지로 손가락으로 텍스트를 강조해야 해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-우선, context 메뉴에서 하이라이트를 텍스트로 복사하는 옵션을 선택해주세요. 그러면 변환된 텍스트를 어디에든 붙여넣을 수 있어요. 일반적으로 제가 필기한 노트 아래로 붙여넣는 편이에요. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+우선, context 메뉴에서 하이라이트를 텍스트로 복사하는 옵션을 선택해주세요. 그러면 변환된 텍스트를 어디에든 붙여넣을 수 있어요. 일반적으로 제가 필기한 노트 아래로 붙여넣는 편이에요.
 
 이 방법은 예시에서 보듯이 정말 잘 동작해요. 하지만 만약 필기가 정말 좋지 않다면, 변환 작업이 어려워질 수 있어요 (위에서도 확인할 수 있어요).
 
@@ -51,7 +80,18 @@ Apple Pencil과 iPad Pro로 손으로 메모를 작성하는 것은 정말 쉬�
 
 # ChatGPT와 함께하는 GPT-4o
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자 이제, 기초산에서 대부분이 다 사용하는 멀티모달 옴니 모델 GPT-4o가 발표되었고, 이 모델은 이와 같은 작업에 훨씬 빠릅니다. 그래서 나는 모든 노트 변환 작업을 ChatGPT로 전환했어. 게다가, 이건 Apple Notes보다 더 많은 일을 할 수 있어.
 
@@ -61,7 +101,18 @@ Apple Pencil과 iPad Pro로 손으로 메모를 작성하는 것은 정말 쉬�
 
 노트를 변환하고 싶다면, iPad 노트의 스크린샷을 찍어 (당연히 iPad에서도 가능하고, 새 macOS ChatGPT 앱으로도 매우 쉽게 가능해). 새 Mac 앱을 사용하는 방법은 이렇게야:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ChatGPT iOS 앱 내부에서 종이 노트의 사진을 찍었어요.
 
@@ -71,7 +122,18 @@ ChatGPT iOS 앱 내부에서 종이 노트의 사진을 찍었어요.
 
 첫 번째 방법으로, ChatGPT에게 노트를 검토해 달라고 요청하면 됩니다. 이 방법은 완벽하게 작동하고, 지금까지는 심지어 제 정말 형편없는 필체조차도 오류 없이 인식돼요. 이 점이 정말 기뻐요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 평소에 후속 요청을 추가하곤 해요. 매일 할 일 목록의 경우, 하루 안에 이것이 가능한지 물어보고 어떤 순서로 하는 게 좋을지 ChatGPT에게 물어봐요.
 
@@ -81,7 +143,18 @@ ChatGPT iOS 앱 내부에서 종이 노트의 사진을 찍었어요.
 
 질문을 하고, 하루를 계획하고, 심지어 작업을 작은 작업들로 나눌 수도 있어요. 그러면 알맞은 위치에 매일 할 일 목록에 넣어주죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어제 잊었던 작업을 추가할 수도 있어요. 일반적으로 제 말을 계속 이어가요 (적어도 일주일 동안), 그래서 ChatGPT가 제가 무엇을 말하고 있는지 정확히 알 수 있어요.
 
@@ -91,7 +164,18 @@ ChatGPT iOS 앱 내부에서 종이 노트의 사진을 찍었어요.
 
 ![이것이 좋은 예시에요.](/assets/img/2024-07-13-HeresWhyChatGPTIsTheSuperiorChoiceForDigitizingOrganizingYourHandwrittenNotes_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 네, 이게 당연한 거 같지만, ChatGPT를 통해 디지털화된 노트와 계속 상호작용할 수 있는 방법을 제공한다는 것을 보여줍니다.
 
@@ -99,8 +183,19 @@ ChatGPT iOS 앱 내부에서 종이 노트의 사진을 찍었어요.
 
 이렇게 하면 손글씨 노트를 훨씬 효과적으로 활용할 수 있는 워크플로우가 생깁니다. 이미 그 용도로 ChatGPT를 사용해보신 적이 있으신가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-이야기는 제너레이티브 AI에서 발행되었습니다. 최신 AI 이야기 소식을 받으시려면 LinkedIn에서 저희와 연결하고 Zeniteq를 팔로우해주세요. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+이야기는 제너레이티브 AI에서 발행되었습니다. 최신 AI 이야기 소식을 받으시려면 LinkedIn에서 저희와 연결하고 Zeniteq를 팔로우해주세요.
 
 최신 generative AI 뉴스와 업데이트를 받으시려면 뉴스레터를 구독해주세요. 우리 함께 미래를 함께 만들어봐요!

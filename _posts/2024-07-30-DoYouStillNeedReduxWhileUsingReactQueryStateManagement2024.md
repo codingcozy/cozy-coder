@@ -3,18 +3,13 @@ title: "2024년 상태 관리 트렌트인 React Query 개념 및 정리"
 description: ""
 coverImage: "/assets/img/2024-07-30-DoYouStillNeedReduxWhileUsingReactQueryStateManagement2024_0.png"
 date: 2024-07-30 17:25
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-30-DoYouStillNeedReduxWhileUsingReactQueryStateManagement2024_0.png
 tag: Tech
 originalTitle: "Do You Still Need Redux While Using React Query  State Management 2024"
 link: "https://medium.com/javascript-in-plain-english/do-you-still-need-redux-while-using-react-query-state-management-2024-f4d0ce881946"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![이미지](/assets/img/2024-07-30-DoYouStillNeedReduxWhileUsingReactQueryStateManagement2024_0.png)
 
@@ -24,8 +19,18 @@ Redux의 예측 가능한 상태 컨테이너와 강력한 생태계는 몇 년 
 
 그러나 프론트엔드 생태계가 발전함에 따라 우리의 도구와 방법론도 발전하고 있습니다. 여기에 React Query가 등장했는데, 이 강력한 데이터 가져오기 라이브러리는 상당한 인기를 얻고 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2024년, React Query를 사용하는 동안 Redux를 여전히 필요로 할까요?
 
@@ -35,7 +40,18 @@ Tanner Linsley가 만든 React Query는 React 애플리케이션에서 서버 �
 
 ![이미지](/assets/img/2024-07-30-DoYouStillNeedReduxWhileUsingReactQueryStateManagement2024_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 서버 데이터를 관리하는 복잡성을 간소화하여 데이터 가져오기, 캐싱, 동기화 및 서버 상태 업데이트에 대한 후크를 제공합니다.
 
@@ -49,7 +65,18 @@ Tanner Linsley가 만든 React Query는 React 애플리케이션에서 서버 �
 
 ![이미지](/assets/img/2024-07-30-DoYouStillNeedReduxWhileUsingReactQueryStateManagement2024_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # React Query의 단점
 
@@ -61,7 +88,18 @@ Tanner Linsley가 만든 React Query는 React 애플리케이션에서 서버 �
 
 반면에 Redux는 클라이언트 측 및 서버 측 상태를 모두 관리할 수 있는 강력하고 유연한 상태 관리 도구입니다. 단방향 데이터 흐름, 미들웨어 생태계 및 시간 여행 디버깅을 통해 대규모 애플리케이션에 대한 견고한 선택지입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Redux의 장점
 
@@ -75,7 +113,18 @@ Tanner Linsley가 만든 React Query는 React 애플리케이션에서 서버 �
 - 보일러플레이트 코드: Redux는 액션 생성자부터 리듀서까지 많은 보일러플레이트 코드가 필요한데, 이는 입문자에게는 혼란스럽고 소규모 프로젝트에서는 불편할 수 있습니다.
 - 간단한 사용 사례의 복잡성: 간단한 상태 관리가 필요한 애플리케이션의 경우, Redux는 과도한 엔지니어링 느낌을 줄 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # React Query와 Redux를 언제 사용해야 할까요?
 
@@ -87,7 +136,18 @@ Tanner Linsley가 만든 React Query는 React 애플리케이션에서 서버 �
 - 데이터 검색 단순화를 원할 때: React Query의 직관적인 후크(Hooks)는 서버 데이터 주변의 데이터 검색 및 상태 관리를 단순화합니다.
 - 전역 클라이언트 상태 관리가 필요 없을 때: 앱의 클라이언트 측 상태 관리가 최소화되고 React의 내장 상태 또는 Context API로 처리할 수 있는 경우, React Query는 훌륭한 선택입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 리덕스와 함께 사용할 때:
 
@@ -99,7 +159,18 @@ Tanner Linsley가 만든 React Query는 React 애플리케이션에서 서버 �
 
 2024년에는 React Query가 React 애플리케이션에서 데이터 가져오기를 위한 인기 있는 선택지로 자리를 굳혔습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Netflix, Walmart, 그리고 GitHub와 같은 기업들이 React Query를 도입하여 데이터 관리 프로세스를 간소화했습니다. 예를 들어 Netflix에서는 React Query가 복잡한 데이터 가져오기 요구사항을 처리하는 데 중요한 역할을 하여 UI의 장황함을 줄이고 성능을 향상시키는 데 도움이 되었습니다.
 
@@ -109,7 +180,18 @@ Netflix, Walmart, 그리고 GitHub와 같은 기업들이 React Query를 도입�
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프런트엔드 개발의 변화하는 풍경에서 React Query를 사용할 때 Redux가 필요한지는 애플리케이션의 특정 요구 사항에 따라 다릅니다. React Query는 서버 측 상태를 관리하고 데이터 가져오기를 간편하게 하며 보일러플레이트를 줄이는 데 빛을 발합니다.
 
@@ -119,7 +201,18 @@ Redux는 특히 복잡한 클라이언트 측 상태를 가진 대규모 애플�
 
 핵심은 각각의 강점을 활용하여 유지보수 가능하고 성능이 우수하며 확장 가능한 애플리케이션을 구축하는 데 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React Query를 사용하면서 Redux가 여전히 필요한가요? 때에 따라 다릅니다. 모두 당신의 애플리케이션의 고유한 요구 사항에 달려 있어요. 즐거운 코딩하세요!
 
@@ -129,7 +222,18 @@ React Query를 사용하면서 Redux가 여전히 필요한가요? 때에 따라
 
 In Plain English 커뮤니티의 일원이 되어 주셔서 감사합니다! 계속 읽기 전에:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 작가의 글에 박수를 보내고 팔로우해 주세요 👏
 - 팔로우하기: X | LinkedIn | YouTube | Discord | 뉴스레터

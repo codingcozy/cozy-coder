@@ -3,17 +3,13 @@ title: "텍스트 임베딩 종합 가이드 2024 최신"
 description: ""
 coverImage: "/assets/img/2024-06-23-TextEmbeddingsComprehensiveGuide_0.png"
 date: 2024-06-23 19:53
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-TextEmbeddingsComprehensiveGuide_0.png
 tag: Tech
 originalTitle: "Text Embeddings: Comprehensive Guide"
 link: "https://medium.com/towards-data-science/text-embeddings-comprehensive-guide-afd97fce8fb5"
 isUpdated: true
 ---
-
-
-
-
 
 ## 텍스트 임베딩의 진화, 시각화, 그리고 응용
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 그 후 몇 10년이 지난 후, 임베딩이 등장했습니다. 우리는 단어, 문장, 심지어 이미지에 대한 임베딩을 계산할 수 있습니다. 임베딩도 숫자의 벡터입니다만, 의미를 포착할 수 있습니다. 그래서 의미 검색을 수행하거나 다양한 언어로 된 문서를 다루는 데 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글에서는 임베딩 주제를 깊이 있게 다루어보고자 합니다:
 
@@ -37,7 +44,18 @@ isUpdated: true
 
 # 임베딩의 진화
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 텍스트 표현의 역사로 간단한 여행을 시작할 것입니다.
 
@@ -47,7 +65,18 @@ isUpdated: true
 
 단어 가방 벡터를 얻는 첫 번째 단계는 텍스트를 단어(토큰)로 나눈 다음, 단어를 기본 형태로 줄이는 것입니다. 예를 들어, "running"은 "run"으로 변환됩니다. 이 과정을 어간 추출(stemming)이라고 합니다. NLTK Python 패키지를 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 from nltk.stem import SnowballStemmer
@@ -74,14 +103,24 @@ print(stemmed_words)
 import collections
 bag_of_words = collections.Counter(stemmed_words)
 print(bag_of_words)
-# {'we': 2, 'are': 2, 'in': 2, 'lucki': 1, 'to': 1, 'live': 1, 
+# {'we': 2, 'are': 2, 'in': 2, 'lucki': 1, 'to': 1, 'live': 1,
 # 'an': 1, 'age': 1, 'which': 1, 'still': 1, 'make': 1, 'discoveri': 1}
 ```
 
 사실, 만약 텍스트를 벡터로 변환하고 싶다면, 텍스트에 있는 단어뿐만 아니라 전체 어휘를 고려해야 합니다. "i", "you", "study"도 어휘에 있다고 가정하고, 파인만의 명언에서 벡터를 만들어 봅시다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-23-TextEmbeddingsComprehensiveGuide_0.png)
 
@@ -91,7 +130,18 @@ print(bag_of_words)
 
 단어 가방 접근법의 약간 개선된 버전인 TF-IDF(Term Frequency — Inverse Document Frequency)입니다. 이것은 두 가지 지표의 곱셈입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Markdown Table](/assets/img/2024-06-23-TextEmbeddingsComprehensiveGuide_1.png)
 
@@ -101,7 +151,18 @@ print(bag_of_words)
 
 - 역문서 주파수는 단어가 얼마나 많은 정보를 제공하는지를 나타냅니다. 예를 들어, "a"나 "that" 같은 단어는 문서 주제에 대해 추가 정보를 제공하지 않습니다. 대조적으로, "ChatGPT"나 "생물정보학" 같은 단어는 도메인을 정의하는 데 도움이 될 수 있습니다 (하지만 이 문장에는 해당하지 않음). 이는 전체 문서 수와 해당 단어를 포함하는 문서 수의 비율의 로그함수로 계산됩니다. IDF가 0에 가까울수록 단어가 흔하고 제공하는 정보가 더 적습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-23-TextEmbeddingsComprehensiveGuide_3.png" />
 
@@ -111,7 +172,18 @@ print(bag_of_words)
 
 ## Word2Vec
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가장 유명한 밀집 표현 방법 중 하나는 구글이 2013년에 Mikolov 등이 제안한 "효율적인 단어 표현 추정을 위한 Word2Vec" 논문에서 소개한 word2vec입니다.
 
@@ -119,8 +191,18 @@ print(bag_of_words)
 
 밀집 벡터 표현의 핵심 아이디어는 두 모델을 훈련하는 것입니다: 인코더와 디코더. 예를 들어, Skip-gram의 경우 "christmas"라는 단어를 인코더에 전달할 수 있습니다. 그런 다음, 인코더가 "merry", "to", "you"와 같은 단어를 얻을 것으로 예상하여 디코더에 전달할 수 있는 벡터를 생성할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-06-23-TextEmbeddingsComprehensiveGuide_5.png)
 
@@ -130,8 +212,18 @@ print(bag_of_words)
 
 ## 트랜스포머와 문장 임베딩
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 진화는 Vaswani 등이 발표한 "Attention Is All You Need" 논문에서 소개된 트랜스포머 접근 방식과 관련이 있었습니다. 트랜스포머는 정보가 풍부한 밀집 벡터를 생성할 수 있었고 현대 언어 모델의 주요 기술로 자리 잡게 되었습니다.
 
@@ -141,7 +233,18 @@ print(bag_of_words)
 
 내부적으로 BERT는 여전히 word2vec과 유사한 토큰 수준에서 작동하지만, 우리는 여전히 문장 임베딩을 얻고 싶습니다. 따라서, 모든 토큰 벡터의 평균을 취하는 단순한 방법을 적용할 수 있습니다. 유감스럽게도, 이 방법은 좋은 성능을 보여주지 않습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2019년에 이 문제는 Sentence-BERT가 출시되면서 해결되었습니다. 이는 의미론적 텍스트 유사성 작업에서 이전 방법들을 모두 능가하며 문장 포함 벡터의 계산을 가능하게 했습니다.
 
@@ -151,7 +254,18 @@ print(bag_of_words)
 
 # 임베딩 계산
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사에서는 OpenAI 임베딩을 사용할 것입니다. 최근에 출시된 새로운 모델인 text-embedding-3-small을 시도해볼 것입니다. 이 새로운 모델은 text-embedding-ada-002보다 성능이 더 좋게 나타났습니다:
 
@@ -162,7 +276,18 @@ OpenAI는 또한 새로운 큰 모델인 text-embedding-3-large를 출시했습�
 
 데이터 소스로는 Stack Exchange Data Dump의 작은 샘플을 사용할 것입니다. 이는 Stack Exchange 네트워크에서 모든 사용자 기여 콘텐츠의 익명화된 덤프입니다. 저는 흥미로운 주제를 선택하고 각각에서 100개의 질문을 샘플링했습니다. 주제는 생성적 AI부터 커피 또는 자전거까지 다양합니다. 그래서 다양한 주제를 볼 수 있을 겁니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 모든 스택 오버플로우 질문에 대한 임베딩을 계산해야 합니다. 한 번 실행하고 결과를 로컬로 저장하는 것이 좋습니다(파일이나 벡터 저장소에). OpenAI Python 패키지를 사용하여 임베딩을 생성할 수 있습니다.
 
@@ -182,7 +307,18 @@ get_embedding("We are lucky to live in an age in which we are still making disco
 
 가장 궁금할 수 있는 주요 질문은 의미적으로 문장들이 얼마나 가까운지입니다. 답을 발견하기 위해 벡터 간의 거리 개념을 논의해 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 벡터 간 거리
 
@@ -195,20 +331,42 @@ get_embedding("We are lucky to live in an age in which we are still making disco
 - 내적 (Dot product),
 - 코사인 거리.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그들에 대해 이야기해 봅시다. 간단한 예로, 우리는 두 개의 2D 벡터를 사용할 것입니다.
 
 ```js
-vector1 = [1, 4]
-vector2 = [2, 2]
+vector1 = [1, 4];
+vector2 = [2, 2];
 ```
 
 ## 유클리디안 거리 (L2)
 
 두 지점(또는 벡터) 사이의 거리를 정의하는 가장 표준적인 방법은 유클리디안 거리 또는 L2 norm입니다. 이 측정 기준은 일상생활에서 가장 많이 사용되며, 예를 들어 2개의 도시 사이의 거리를 언급할 때 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 L2 거리에 대한 시각적 표현과 공식이 있습니다.
 
@@ -226,7 +384,18 @@ np.linalg.norm((np.array(vector1) - np.array(vector2)), ord = 2)
 # 2.2361
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 맨해튼 거리 (L1)
 
@@ -236,7 +405,18 @@ np.linalg.norm((np.array(vector1) - np.array(vector2)), ord = 2)
 
 우리는 이를 처음부터 구현하거나 numpy 함수를 사용하여 구현할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 sum(list(map(lambda x, y: abs(x - y), vector1, vector2)))
@@ -252,7 +432,18 @@ np.linalg.norm((np.array(vector1) - np.array(vector2)), ord = 1)
 
 <img src="/assets/img/2024-06-23-TextEmbeddingsComprehensiveGuide_8.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 sum(list(map(lambda x, y: x*y, vector1, vector2)))
@@ -269,7 +460,18 @@ np.dot(vector1, vector2)
 
 두 경우 모두 벡터가 일직선상에 있지만, 두 번째 경우에 내적은 10배 크게 나와요: 2 대 20.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 코사인 유사도
 
@@ -279,7 +481,18 @@ np.dot(vector1, vector2)
 
 이전처럼 직접 모든 것을 계산하거나 sklearn의 함수를 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 dot_product = sum(list(map(lambda x, y: x*y, vector1, vector2)))
@@ -293,7 +506,7 @@ dot_product/norm_vector1/norm_vector2
 from sklearn.metrics.pairwise import cosine_similarity
 
 cosine_similarity(
-  np.array(vector1).reshape(1, -1), 
+  np.array(vector1).reshape(1, -1),
   np.array(vector2).reshape(1, -1))[0][0]
 
 # 0.8575
@@ -305,8 +518,18 @@ cosine_similarity 함수는 2차원 배열을 기대합니다. 그래서 numpy �
 
 <img src="/assets/img/2024-06-23-TextEmbeddingsComprehensiveGuide_10.png" />
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 심지어 벡터 사이의 정확한 각도를 도 단위로 계산할 수도 있어요. 약 30도 정도의 결과를 얻었고, 꽤 합리적으로 보이네요.
 
@@ -321,7 +544,18 @@ math.degrees(math.acos(0.8575))
 
 우리는 두 벡터 사이의 거리를 계산하는 다양한 방법에 대해 토론해 왔고, 여러분은 어떤 방법을 사용할지 고려하기 시작할 수 있을 거예요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내가 가진 임베딩을 비교하기 위해 어떤 거리든 사용할 수 있어요. 예를 들어, 다른 클러스터 사이의 평균 거리를 계산했어요. L2 거리와 코사인 유사도 모두 비슷한 결과를 보여줘요:
 
@@ -332,7 +566,18 @@ math.degrees(math.acos(0.8575))
 
 <img src="/assets/img/2024-06-23-TextEmbeddingsComprehensiveGuide_12.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 NLP 작업에 대해서는 일반적으로 코사인 유사도를 사용하는 것이 최선의 방법입니다. 몇 가지 그 이유는:
 
@@ -344,7 +589,18 @@ math.degrees(math.acos(0.8575))
 
 간단히 설명드리겠습니다. OpenAI 임베딩 값의 분포를 계산하고 차원이 다른 300개의 벡터 집합을 생성했습니다. 그런 다음, 모든 벡터 사이의 거리를 계산하고 히스토그램을 그렸습니다. 차원이 증가함에 따라 벡터의 거리 분포가 좁아진다는 것을 쉽게 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-23-TextEmbeddingsComprehensiveGuide_13.png)
 
@@ -354,7 +610,18 @@ math.degrees(math.acos(0.8575))
 
 데이터를 이해하는 가장 좋은 방법은 시각적으로 나타내는 것이에요. 아쉽지만, 임베딩은 1536차원이 있어서 데이터를 살펴보기가 꽤 어려워요. 그러나, 한 가지 방법이 있어요: 차원 축소 기술을 사용하여 벡터를 이차원 공간에 투영하는 것이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## PCA
 
@@ -369,7 +636,18 @@ print(embeddings_array.shape)
 # (1400, 1536)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼, 우리는 PCA 모델을 n_components = 2로 초기화해야 해요 (2D 시각화를 생성하고 싶기 때문에), 전체 데이터에서 모델을 학습하고 새로운 값을 예측해야 해요.
 
@@ -388,7 +666,7 @@ print(pca_embeddings_values.shape)
 
 ```js
 fig = px.scatter(
-    x = pca_embeddings_values[:,0], 
+    x = pca_embeddings_values[:,0],
     y = pca_embeddings_values[:,1],
     color = df.topic.values,
     hover_name = df.full_text.values,
@@ -397,12 +675,23 @@ fig = px.scatter(
 )
 
 fig.update_layout(
-    xaxis_title = 'first component', 
+    xaxis_title = 'first component',
     yaxis_title = 'second component')
 fig.show()
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![img](/assets/img/2024-06-23-TextEmbeddingsComprehensiveGuide_14.png)
 
@@ -412,7 +701,18 @@ fig.show()
 
 PCA는 선형 알고리즘이지만, 대부분의 관계는 실제로는 비선형입니다. 그래서 비선형성 때문에 클러스터를 분리할 수 없을 수도 있습니다. 비선형 알고리즘인 t-SNE을 사용해보고 더 나은 결과를 보여줄 수 있는지 확인해봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 거의 동일한 코드를 사용했습니다. PCA 대신 t-SNE 모델을 사용했어요.
 
@@ -422,7 +722,7 @@ tsne_model = TSNE(n_components=2, random_state=42)
 tsne_embeddings_values = tsne_model.fit_transform(embeddings_array)
 
 fig = px.scatter(
-    x = tsne_embeddings_values[:,0], 
+    x = tsne_embeddings_values[:,0],
     y = tsne_embeddings_values[:,1],
     color = df.topic.values,
     hover_name = df.full_text.values,
@@ -431,7 +731,7 @@ fig = px.scatter(
 )
 
 fig.update_layout(
-    xaxis_title = 'first component', 
+    xaxis_title = 'first component',
     yaxis_title = 'second component')
 fig.show()
 ```
@@ -440,7 +740,18 @@ t-SNE 결과가 훨씬 좋아 보여요. 대부분의 클러스터가 분리되�
 
 <img src="/assets/img/2024-06-23-TextEmbeddingsComprehensiveGuide_15.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 시각화를 보면 임베딩이 의미적 의미를 인코딩하는 데 상당히 효과적임을 확인할 수 있어요.
 
@@ -451,7 +762,7 @@ tsne_model_3d = TSNE(n_components=3, random_state=42)
 tsne_3d_embeddings_values = tsne_model_3d.fit_transform(embeddings_array)
 
 fig = px.scatter_3d(
-    x = tsne_3d_embeddings_values[:,0], 
+    x = tsne_3d_embeddings_values[:,0],
     y = tsne_3d_embeddings_values[:,1],
     z = tsne_3d_embeddings_values[:,2],
     color = df.topic.values,
@@ -466,16 +777,27 @@ fig.show()
 
 ![3D 시각화](/assets/img/2024-06-23-TextEmbeddingsComprehensiveGuide_16.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 바코드
 
 임베딩을 이해하는 방법은 몇 개를 바코드처럼 시각화하여 상관 관계를 확인하는 것입니다. 나는 세 가지 임베딩 예시를 선택했습니다: 두 개는 서로에게 가장 가깝고, 나머지 하나는 데이터 세트에서 가장 멀리 떨어져 있는 예시입니다.
 
 ```js
-embedding1 = df.loc[1].embedding
-embedding2 = df.loc[616].embedding
-embedding3 = df.loc[749].embedding
+embedding1 = df.loc[1].embedding;
+embedding2 = df.loc[616].embedding;
+embedding3 = df.loc[749].embedding;
 ```
 
 ```js
@@ -484,28 +806,39 @@ import matplotlib.pyplot as plt
 embed_len_thr = 1536
 
 sns.heatmap(np.array(embedding1[:embed_len_thr]).reshape(-1, embed_len_thr),
-    cmap = "Greys", center = 0, square = False, 
+    cmap = "Greys", center = 0, square = False,
     xticklabels = False, cbar = False)
 plt.gcf().set_size_inches(15,1)
 plt.yticks([0.5], labels = ['AI'])
 plt.show()
 
 sns.heatmap(np.array(embedding3[:embed_len_thr]).reshape(-1, embed_len_thr),
-    cmap = "Greys", center = 0, square = False, 
+    cmap = "Greys", center = 0, square = False,
     xticklabels = False, cbar = False)
 plt.gcf().set_size_inches(15,1)
 plt.yticks([0.5], labels = ['AI'])
 plt.show()
 
 sns.heatmap(np.array(embedding2[:embed_len_thr]).reshape(-1, embed_len_thr),
-    cmap = "Greys", center = 0, square = False, 
+    cmap = "Greys", center = 0, square = False,
     xticklabels = False, cbar = False)
 plt.gcf().set_size_inches(15,1)
 plt.yticks([0.5], labels = ['바이오인포매틱스'])
 plt.show()
-```  
+```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-23-TextEmbeddingsComprehensiveGuide_17.png)
 
@@ -515,7 +848,18 @@ plt.show()
 
 # 실용적인 응용
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 물론, 임베딩의 주요 목표는 텍스트를 숫자의 벡터로 인코딩하거나 시각화하기 위해서만 하는 것이 아닙니다. 우리는 텍스트의 의미를 포착하는 능력에서 많은 이점을 얻을 수 있습니다. 실용적인 예제들을 함께 살펴보겠습니다.
 
@@ -525,7 +869,18 @@ plt.show()
 
 가장 기본적인 클러스터링 알고리즘 중 하나인 K-평균을 사용할 것입니다. K-평균 알고리즘을 위해서는 클러스터의 개수를 지정해야 합니다. 실루엣 스코어를 사용하여 최적의 클러스터 수를 정의할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2부터 50까지의 k (클러스터 수)를 시도해 보겠습니다. 각 k에 대해 모델을 훈련하고 실루엣 점수를 계산할 것입니다. 실루엣 점수가 높을수록, 더 좋은 클러스터링 결과를 얻을 수 있습니다.
 
@@ -536,21 +891,21 @@ import tqdm
 
 silhouette_scores = []
 for k in tqdm.tqdm(range(2, 51)):
-    kmeans = KMeans(n_clusters=k, 
-                    random_state=42, 
+    kmeans = KMeans(n_clusters=k,
+                    random_state=42,
                     n_init='auto').fit(embeddings_array)
     kmeans_labels = kmeans.labels_
     silhouette_scores.append(
         {
             'k': k,
-            'silhouette_score': silhouette_score(embeddings_array, 
+            'silhouette_score': silhouette_score(embeddings_array,
                                                  kmeans_labels, metric='cosine')
         }
     )
 
 fig = px.line(pd.DataFrame(silhouette_scores).set_index('k'),
               title='<b>K-means 클러스터링을 위한 실루엣 점수</b>',
-              labels={'value': '실루엣 점수'}, 
+              labels={'value': '실루엣 점수'},
               color_discrete_sequence=plotly.colors.qualitative.Alphabet)
 fig.update_layout(showlegend=False)
 ```
@@ -559,7 +914,18 @@ fig.update_layout(showlegend=False)
 
 <img src="/assets/img/2024-06-23-TextEmbeddingsComprehensiveGuide_18.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 클러스터를 시각화해 보는 t-SNE를 이용한 차원 축소를 이미 이전에 수행한 것처럼 해보겠습니다.
 
@@ -568,7 +934,7 @@ tsne_model = TSNE(n_components=2, random_state=42)
 tsne_embeddings_values = tsne_model.fit_transform(embeddings_array)
 
 fig = px.scatter(
-    x = tsne_embeddings_values[:,0], 
+    x = tsne_embeddings_values[:,0],
     y = tsne_embeddings_values[:,1],
     color = list(map(lambda x: '클러스터 %s' % x, kmeans_labels)),
     hover_name = df.full_text.values,
@@ -576,7 +942,7 @@ fig = px.scatter(
     color_discrete_sequence = plotly.colors.qualitative.Alphabet_r
 )
 fig.update_layout(
-    xaxis_title = '첫 번째 성분', 
+    xaxis_title = '첫 번째 성분',
     yaxis_title = '두 번째 성분')
 fig.show()
 ```
@@ -585,7 +951,18 @@ fig.show()
 
 <img src="/assets/img/2024-06-23-TextEmbeddingsComprehensiveGuide_19.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 사실적인 주제 라벨을 가지고 있으므로, 클러스터링이 얼마나 좋은지를 심층적으로 판단할 수도 있어요. 각 클러스터에 대한 주제 혼합을 살펴봅시다.
 
@@ -599,7 +976,7 @@ cluster_stats_df = cluster_stats_df.apply(
   lambda x: 100*x/cluster_stats_df.sum(axis=1))
 
 fig = px.imshow(
-    cluster_stats_df.values, 
+    cluster_stats_df.values,
     x=cluster_stats_df.columns,
     y=cluster_stats_df.index,
     text_auto='.2f', aspect="auto",
@@ -614,7 +991,18 @@ fig.show()
 
 대부분의 경우, 클러스터링은 완벽하게 작동했어요. 예를 들어, 클러스터 5에는 거의 자전거에 관한 질문만 있고, 클러스터 6은 커피에 관한 것이에요. 그러나 유사한 주제를 구별하지 못했어요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - "ai," "genai," and "datascience"은 동일한 클러스터에 있습니다.
 - "economics"와 "politics"은 같은 그룹에 속합니다.
@@ -625,7 +1013,18 @@ fig.show()
 
 임베딩을 분류 또는 회귀 작업에 사용할 수 있습니다. 예를 들어 고객 리뷰 감정을 예측하는 (분류)이나 NPS 점수를 예측하는 (회귀) 등 다양한 작업에 활용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 분류 및 회귀는 지도 학습이므로 레이블이 필요합니다. 다행히도, 우리는 질문의 주제를 알고 있으므로 모델을 적합시켜 예측할 수 있습니다.
 
@@ -652,7 +1051,18 @@ y_pred = class_model.predict(X_test)
 
 모델의 성능을 추정하기 위해 혼동 행렬을 계산해 보겠습니다. 이상적인 상황에서는 비대각 요소가 모두 0이어야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 from sklearn.metrics import confusion_matrix
@@ -660,11 +1070,11 @@ cm = confusion_matrix(y_test, y_pred)
 
 fig = px.imshow(
   cm, x = class_model.classes_,
-  y = class_model.classes_, text_auto='d', 
-  aspect="auto", 
+  y = class_model.classes_, text_auto='d',
+  aspect="auto",
   labels=dict(
-      x="predicted label", y="true label", 
-      color="cases"), 
+      x="predicted label", y="true label",
+      color="cases"),
   color_continuous_scale='pubugn',
   title = '<b>혼동 행렬</b>', height = 550)
 
@@ -677,7 +1087,18 @@ fig.show()
 
 하지만 전체적으로 91.8%의 정확도를 달성했으며, 이는 꽤 좋은 성과입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 이상 징후 찾기
 
@@ -697,7 +1118,18 @@ topic_df[topic_df.is_anomaly == -1][['full_text']]
 
 여기에서, 여행 주제에 대한 가장 흔하지 않은 댓글을 찾았습니다 (원본).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 로마 구역의 곳곳에 있는 분수에서 물을 마셔도 안전한가요?
@@ -713,8 +1145,18 @@ t-SNE 시각화에서 찾아보면 실제로 커피 클러스터에 가까운 �
 
 ![이미지](/assets/img/2024-06-23-TextEmbeddingsComprehensiveGuide_22.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## RAG — 검색 증가 생성
 
@@ -726,7 +1168,18 @@ t-SNE 시각화에서 찾아보면 실제로 커피 클러스터에 가까운 �
 - 우리는 토큰을 구매해야 하므로 모든 정보를 항상 전달하는 것이 더 비십니다.
 - LLM은 더 큰 컨텍스트에서 성능이 떨어집니다. 자세한 내용은 "바늘 찾기" - LLM의 압력 테스트를 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대규모 지식 베이스와 함께 작업할 수 있도록 RAG 방법론을 활용할 수 있어요:
 
@@ -738,7 +1191,18 @@ RAG에 대해 더 자세히 알고 싶다면 여기에 더 많은 내용을 담�
 
 # 요약
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사에서는 텍스트 임베딩에 대해 많은 세부 내용을 논의했습니다. 이제 여러분은 이 주제에 대해 완전하고 심도 있는 이해를 가졌을 것입니다. 저희 여정을 간단히 요약하면 다음과 같습니다:
 
@@ -751,7 +1215,18 @@ RAG에 대해 더 자세히 알고 싶다면 여기에 더 많은 내용을 담�
 
 이 기사에서는 크리에이티브 커먼즈 라이센스 하에 공개된 스택 엑스체인지 데이터 덤프에서 데이터 세트를 사용했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글은 다음 강좌에서 영감을 받았습니다:
 

@@ -3,17 +3,13 @@ title: "애플, 현대 기술 역사상 가장 놀라운 이벤트 개최"
 description: ""
 coverImage: "/assets/img/2024-07-14-AppleJustHeldItsMostMind-blowingEventInModernTechHistory_0.png"
 date: 2024-07-14 00:26
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-14-AppleJustHeldItsMostMind-blowingEventInModernTechHistory_0.png
 tag: Tech
 originalTitle: "Apple Just Held Its Most Mind-blowing Event In Modern Tech History"
 link: "https://medium.com/the-gray-area/apples-just-held-its-most-mind-blowing-event-in-modern-tech-history-520603b24303"
 isUpdated: true
 ---
-
-
-
-
 
 아이폰, 아이패드, 또는 애플 실리콘의 최초 출시라도 잊어버리세요. 의심할 여지 없이 매우 영향력 있는 애플 이벤트이며, 이 모든 것 덕분에 오늘 우리는 전에 상상도 못 했던 것들을 훨씬 더 많이 하고 더 유연하고 창의적으로 할 수 있게 되었습니다. 그러나 그 모든 것이 상대적으로 지금은 매우 인상적하지 않은 것처럼 느껴집니다. WWDC 2023 키노트 이벤트에 비해 말이죠. 이번 해의 업데이트들을 독특하게 만든 모든 것에 대해 다루려 하지 않겠습니다. 그 대신, 오늘 애플 팬들을 정말 기쁘게 만든 요소에 초점을 맞출 것이고, 어떤 기술 회사도 시도하지 않았을 정도로 개인 컴퓨팅을 끌어올릴 것이라 생각하는 점에 대해 이야기해보겠습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 예상치 못한 일이 일어났습니다. 우리는 새로운 맥 프로를 얻었고, 발송 준비가 완료되었습니다. 이로써 애플 실리콘 전환을 마무리 지었습니다. 그것을 듣게 되어 참으로 기쁩니다. 물론, 나는 우리가 맥 프로 기계가 필요하지 않다고 주장했던 것이 잘못되었음을 의미하기도 합니다. 그것은 그저 내 "필요"에 대한 평가였습니다. 나는 결론을 내렸지만, 소수의 사용자들이 그것을 활용할지도 모르며, 애플은 그들을 대상으로 시도하기로 결정했습니다. 이것은 M2 울트라를 사용하는 기계로, 8.5K에서 시작하여 14K까지 확장됩니다(Ireland에서). 이곳에서 가장 중요한 소식은 아마도 72코어 GPU와 192GB 통합 메모리, 확장 슬롯, USB 및 HDMI 포트가 많다는 것일 것입니다. 이게 여러분에게 충분한 컴퓨팅 파워가 아니라면, 이 순간의 프로슈머들을 위해 존재하지도 모를 다른 것으로 이동해야 할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-14-AppleJustHeldItsMostMind-blowingEventInModernTechHistory_0.png)
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ## 새로운, 마침내 유용해진 소프트웨어 업데이트
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사람들이 보통 Apple 소프트웨어 업데이트에 크게 흥분하지 않는 편이에요. 물론 업데이트는 항상 환영받지만, 쉽게 감동받지는 않는 편이죠. 하지만 놀랍게도, WWDC 2023은 예상보다 훨씬 흥미로웠어요.
 
@@ -43,7 +61,18 @@ Apple은 우리가 핸드폰과 태블릿을 주로 의사소통에 사용한다
 
 하지만 이 모든 것이 아니랍니다. 위젯이 상호작용적이 되고 활동이 실시간으로 바뀌며, 우리가 항상 가져야 했던 여러 타이머를 동시에 실행할 수 있는 능력을 얻게 됐어요. 마침내요. 아, 그 위젯들, macOS 소노마에서도 작동해요. “소도마”와 불편하게 비슷한 이름이라는 게 좀 그래요. 그냥 말이에요, Apple, 당신의 마케팅 팀이 생각하는 것만큼 좋을지도 몰라요. 😉
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요약하자면, Mac은 몇 년째 AppleTV에서 가지고 있던 스크린 세이버를 받게 되었고, Safari는 "웹 앱"을 받게 되었는데, 개인적으로는 그냥 PWA가 마침내 인정받은 것 같은 느낌이네요. 그리고 저에게 가장 중요한 것은 카메라 이펙트의 프리젠터 모드입니다. 어떻게 작동하는지는 아직 알 수 없는 상태입니다.
 
@@ -53,7 +82,18 @@ Apple은 우리가 핸드폰과 태블릿을 주로 의사소통에 사용한다
 
 내 예측이 틀리지 않았다는 것을 보니 기쁩니다. 전혀 틀리지 않았어요. 아마 저는 다음 Mark Gurman이 되어야 할지도 모르겠어요. 사실, 그런 생각은 버리고, 제 스타일이 더 좋아요. 제가 그냥 제 자신이 되어서 많은 이들이 또 다른 iPhone 순간이라고 부를 순간을 축하할게요. 그것은 그 이상이었다고 생각해요. Vision Pro는 이전 iPhone보다 더 매료되게 만들었어요. Apple이 그것을 그토록 오랫동안 가장했던 이유와 Meta가 그것을 해내지 못했던 이유가 마침내 분명해졌네요. 하지만 그에 대해서는 향후 게시물에서 다뤄보도록 하겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 그 말이 대담한 주장이라면, Apple에 대한 이 순간이 얼마나 중요한지 정말로 이해하려면 전체 키노트 세그먼트를 봐야 합니다. ChatGPT는 잊고, Vision Pro가 진정한 인기 아이템이라는 것을 알게 될 겁니다. 우리 모두는 Apple이 상당히 다듬어진 증강 현실 솔루션을 선보일 것이라고 예상했지만, Vision Pro는 우리 모두의 기대를 뛰어넘었습니다. 아직도 Apple이 혁신을 이루지 않는다고 주장하는 비평가들이 있다면, 나는 포기하겠습니다. 35박스에 이르는 비용이 들지만, Apple의 증강 현실 헤드셋은 순수한 혁신입니다.
 
@@ -63,7 +103,18 @@ Vision OS라는 특수 운영 체제를 탑재한 이 장치는 2024년 초에 �
 
 가장 멋진 기능은 투명 효과인데, 외부 사람들이 사용자의 디지털 투영물을 유리를 통해서 마치 그 자신 눈을 보는 것처럼 볼 수 있습니다. 이것은 세부 사항에 대한 주의를 나타내는 좋은 예시로, 착용자와 외부 세계 간에 양방향, 원활하고 가로막힘이 없는 통신을 가능하게 합니다. 네, 미래적으로 보이지만, 좋은, 거의 유기적인 방식으로요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 WWDC 2023은 나에게 기억에 남는 가장 붐비는 애플 이벤트였고, 우리가 오랫동안 회상할 것이기도 합니다. 새로운 맥북이 나왔는데, 예상치 못한 제품도 있었고, 소프트웨어 업데이트는 정말 유용하고 혁신적이었으며, 우리가 여러 해 동안 지적해 왔던 부분을 메꾸었습니다. 이제 "Hey Siri"는 그저 "Siri"로만 되었고, Vision Pro는 세계를 놀라게 했습니다.
 

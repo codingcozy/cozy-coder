@@ -3,17 +3,13 @@ title: "Exit-Intent 사용자 참여를 유도하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-10-Exit-IntentAUserEngagementTactic_0.png"
 date: 2024-07-10 00:44
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-10-Exit-IntentAUserEngagementTactic_0.png
 tag: Tech
 originalTitle: "Exit-Intent: A User Engagement Tactic"
 link: "https://medium.com/@louistrinh/exit-intent-a-user-engagement-tactic-b0639eaf25f2"
 isUpdated: true
 ---
-
-
-
-
 
 ![exit-intent](/assets/img/2024-07-10-Exit-IntentAUserEngagementTactic_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 종료 의도 팝업은 다음과 같은 경우에 유용한 도구일 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 방문자 유지: 마지막 순간의 인센티브나 리마인더를 제공하여 사용자들이 귀하의 사이트에 남아서 뉴스레터 구독이나 구매와 같은 원하는 작업을 완료하도록 유도할 수 있습니다.
 - 사용자 피드백 수집: 종료 의사 결정 팝업을 사용하여 사용자들이 사이트를 떠나기 전에 피드백을 요청할 수 있으며, 이를 통해 사이트를 방문했다가 떠나는 이유에 대한 소중한 통찰을 제공할 수 있습니다.

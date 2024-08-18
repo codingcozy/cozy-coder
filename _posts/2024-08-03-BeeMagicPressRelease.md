@@ -3,17 +3,13 @@ title: "꿀벌 마법 최신 소식 2024년 기대되는 변화와 혁신"
 description: ""
 coverImage: "/assets/img/2024-08-03-BeeMagicPressRelease_0.png"
 date: 2024-08-03 20:02
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-03-BeeMagicPressRelease_0.png
 tag: Tech
 originalTitle: "Bee Magic Press Release"
 link: "https://medium.com/@nuvobloggo/bee-magic-press-release-e0896cc42a83"
 isUpdated: true
 ---
-
-
-
-
 
 그래서, 매달 블로그 포스트를 작성하려고 했는데, 다른 것들 중에서 비 매직에 대한 계획을 이야기하는 포스트를 작성하기로 했습니다. 이 포스트는 완전히 비 매직에 대해 이야기하는 것으로 끝났으므로... 이걸 “보도자료”라고 부르죠. 왜냐하면요.
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 마법사의 비 (Bee Magic), 주문을 시전하기 위해 움직이는 퍼즐 게임이 2024년 8월 7일에 출시됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-08-03-BeeMagicPressRelease_0.png)
 
@@ -34,10 +40,20 @@ isUpdated: true
 
 # 놀라운 소식 1: 브랜드 변경!
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-잠시 만남은 비디오 게임 개발을 위한 LLC를 시작하고 (가능하다면 다른 일들을 위해서도) 이미  많은 시간을 워하고 있어요. 그리고 2024 년 6 월 26 일 오전 11시 28 분 현재까지 시작하지 못했어요! 하지만 공식적으로 예약된 비즈니스 이름을 가지고 있어요. 그래서 나름대로 사용해볼까 해요.
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+잠시 만남은 비디오 게임 개발을 위한 LLC를 시작하고 (가능하다면 다른 일들을 위해서도) 이미 많은 시간을 워하고 있어요. 그리고 2024 년 6 월 26 일 오전 11시 28 분 현재까지 시작하지 못했어요! 하지만 공식적으로 예약된 비즈니스 이름을 가지고 있어요. 그래서 나름대로 사용해볼까 해요.
 
 여러분, Nuvo Facto를 만나보세요.
 
@@ -45,7 +61,18 @@ isUpdated: true
 
 현재 Nuvo Facto는 미래에 내가 내놓을 "큰" 게임들을 위한 "브랜드 이름"이에요. 그게 제게 게임에 사용할 미래 LLC의 이름도 될 것을 희망해요. 사실, 인디애나주는 LLC에 "LLC-S"가 포함되어야 한다고 요구한다고 생각해요 (변호사가 아니니 참고, 잘못 될 수 있음 등 연락처 있게 써요.) 그래서 공식 이름을 "Nuvo Facto LLC-S"로 만들어야 할 수도 있어요 (이전 괄호 참조). 하지만, 제 마음속에서는 여전히 "Nuvo Facto"일 거에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이유가 무엇일까요? LLC의 비즈니스적 이점 외에도 제가 큰 프로젝트에 사용할 수 있는 개인적인 "브랜드"를 원합니다. 온라인 브랜딩이 얼마나 일관성 없었는지는 제가 아는 바입니다.
 
@@ -55,7 +82,18 @@ Bee Magic은 이 브랜드로 출시될 첫 번째 게임입니다. 이전 작�
 
 # 깜짝 소식 2: PC 출시!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 브라우저에서 실행 가능한 Bee Magic에 추가로 윈도우 컴퓨터를 공식적으로 지원할 예정이에요. 그래서 웹 브라우저에서 플레이할 필요 없이 윈도우 PC에서 직접 실행할 수 있어요. 스트리머 여러분 환영해요! :3
 
@@ -65,7 +103,18 @@ Bee Magic은 이 브랜드로 출시될 첫 번째 게임입니다. 이전 작�
 
 또한, 네이티브 리눅스 지원은 큰 의문입니다. Proton이나 WINE(윈도우 호환 도구, 음료수가 아니에요)과 호환되지 않는 것은 버그로 여기기 때문에 필요하면 언제든지 저에게 물어봐 주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 놀랄 만한 3번째 소식: 스팀 출시 없음! (아직)
 
@@ -75,7 +124,18 @@ Bee Magic은 이 브랜드로 출시될 첫 번째 게임입니다. 이전 작�
 
 걱정하지 마세요. 여전히 웹 게임을 만들 계획이며, “누보 팩토” 게임들 중 일부는 스팀 출시를 할지라도 웹을 통해도 출시될 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나중에 스팀에서 Bee Magic을 출시할 수도 있지만, 확신할 수는 없어요.
 
@@ -85,7 +145,18 @@ Bee Magic은 이 브랜드로 출시될 첫 번째 게임입니다. 이전 작�
 
 다양한 이유(그 중 많은 이유들이 "놀람이 아닌 3"에서 논의되었습니다)로 인해 아직 이를 위한 준비가 되지 않았어요. 기술적으로, Armor Games, Coolmath Games, 그리고 Kongregate에 올린 게임들의 "유료" 버전을 지불하게 되는 것이죠. (사실적으로, Kongregate에 대한 것은 광고 수익 공유지만, 직접적인 지불과는 다릅니다.)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나는 itch.io에 무료로 게시된 Nuvo Facto 게임에 "이 게임 지원하기" 기부 버튼을 가벼운 마음으로 올릴지도 모르겠어요. 하지만 그렇다고 해서 기부할 의무가 있다고 느끼지 마세요. 이 글을 읽고 계신다면, 여러분은 이미 제게 요청할 수 있는 지원 이상의 지원을 해주고 계십니다.
 
@@ -95,7 +166,18 @@ Bee Magic은 이 브랜드로 출시될 첫 번째 게임입니다. 이전 작�
 
 # 요약:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Bee Magic은 2024년 8월 7일에 출시됩니다.
 - 이것은 "Nuvo Facto" 게임이며, 이것은 "큰" 것에 대한 제 브랜드가 될 것입니다.

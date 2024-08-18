@@ -3,17 +3,13 @@ title: "스트림 프로세싱 엔진과 스트리밍 데이터베이스의 차�
 description: ""
 coverImage: "/assets/img/2024-06-22-DifferencesBetweenStreamProcessingEnginesandStreamingDatabases_0.png"
 date: 2024-06-22 17:32
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-DifferencesBetweenStreamProcessingEnginesandStreamingDatabases_0.png
 tag: Tech
 originalTitle: "Differences Between Stream Processing Engines and Streaming Databases"
 link: "https://medium.com/illumination/differences-between-stream-processing-engines-and-streaming-databases-f062af042da9"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-22-DifferencesBetweenStreamProcessingEnginesandStreamingDatabases_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 그럼 스트림 처리 엔진과 스트리밍 데이터베이스를 서로 교환해서 사용할 수 있을까요? 이 기사는 각각의 설계 원칙에 대해 알아보며, 이러한 흥미로운 기술들의 차이점, 유사성, 사용 사례, 그리고 잠재적인 미래 전망을 탐구합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 디자인 원칙
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 데이터베이스 시스템은 60년 이상의 시간 동안 연구되어 왔지만, 배치 처리 및 스트림 처리를 포괄하는 컴퓨팅 엔진은 비교적 최근의 혁신입니다. 현대 스트림 처리로의 여정은 2004년 구글의 MapReduce 논문 발표로 시작되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 MapReduce는 최고의 성능을 위해 상품용 기계 네트워크를 효율적으로 최적화하는 것을 목표로 했습니다. 이 높은 목표는 MapReduce에서 두 가지 주요 기능, Map과 Reduce,을 갖춘 세련된 저수준 프로그래밍 인터페이스의 도입으로 이어졌습니다. 이러한 설계는 유경험 프로그래머에게 핵심 기능에 직접 액세스할 수 있게 해주어 특정 비즈니스 논리를 구현하고 프로그램 병렬 처리를 제어하며 다른 복잡한 세부사항을 자체적으로 관리할 수 있도록 했습니다.
 
@@ -45,7 +63,18 @@ MapReduce를 독특하게 만든 점은 데이터 저장을 원격 분산 파일
 - 회사는 상품용 기계에 충분히 액세스할 수 있어야 합니다.
 - 회사는 숙련된 소프트웨어 엔지니어 집단을 고용해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 세 가지 조건은 맵리듀스가 2004년에 소개될 때 대부분의 기업들이 달성하기 어려웠던 벽이었습니다. 소셜 네트워크와 모바일 인터넷의 폭발적인 성장으로 2010년 이후에야 첫 번째 조건이 충족되기 시작했습니다. 이러한 변화로 주요 기업들은 스트림 처리 기술에 관심을 기울이고, 두 번째와 세 번째 전제 조건을 충족하기 위해 크게 투자했습니다. 이 투자는 2010년쯤부터 시작된 스트림 처리 엔진의 발전 시대를 의미했습니다. 이 기간 동안 Apache Storm, Apache Samza, Apache Flink 등 다수의 탁월한 스트림 처리 엔진이 등장했습니다.
 
@@ -56,7 +85,18 @@ MapReduce를 독특하게 만든 점은 데이터 저장을 원격 분산 파일
 
 이 디자인은 빅데이터 시대에 적합하게 개조되었습니다. 일반적으로 대량 데이터 처리를 필요로 하는 기술 기업들은 자체 데이터 센터와 전문 엔지니어링 팀을 보유했습니다. 이 기업들이 필요로 한 것은 성능 향상과 더 다채로운 프로그래밍 패러다임이었습니다. 전문 엔지니어링 팀과 함께하면 보통 분산 파일 시스템을 배포하여 방대한 데이터 스토리지를 처리할 수 있었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 2015년 이후 클라우드 컴퓨팅 기술의 혁신적인 발전으로 풍경이 변화하기 시작했습니다. 기술적 배경이 부족한 기업들조차도 스트림 처리 기술에 접근하고자 했습니다. 이 수요에 대응하여 스트림 처리 엔진은 SQL을 채택해 간결하고 폭넓게 인정받는 프로그래밍 언어가 되었습니다. 이 적응으로 인해 더 많은 사용자들이 스트림 처리 기술의 혜택을 누릴 수 있게 되었습니다. 그 결과, 오늘날 주요한 스트림 처리 엔진은 사용자 상호작용에 계층적 접근 방식을 제공하며 Java와 Scala와 같은 낮은 수준의 프로그래밍 인터페이스와 더 접근성 있는 고수준의 SQL 프로그래밍 인터페이스를 제공합니다.
 
@@ -66,7 +106,18 @@ MapReduce를 독특하게 만든 점은 데이터 저장을 원격 분산 파일
 
 1. 유연성과 사용 편의성 사이의 균형 유지
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 능숙한 프로그래머들은 Java와 Scala와 같은 저수준 인터페이스가 제공하는 풍부한 표현 능력을 누릴 수 있습니다. Turing-complete 언어인 Java, Scala 및 유사한 언어는 이론적으로 사용자가 어떤 로직이든 표현할 수 있도록 합니다. 기존 Java 및 Scala 라이브러리를 보유한 기업에게는 특히 유리합니다.
 
@@ -76,7 +127,18 @@ MapReduce를 독특하게 만든 점은 데이터 저장을 원격 분산 파일
 
 저수준 인터페이스는 기술 중심 사용자에게 더 많은 유연성을 제공하며, 스트리밍 데이터베이스의 SQL 인터페이스는 비즈니스 중심 사용자를 위해 특별히 설계되어 사용 편의성을 강조합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 유연성과 성능의 균형
 
@@ -86,7 +148,18 @@ MapReduce를 독특하게 만든 점은 데이터 저장을 원격 분산 파일
 
 요약하면, 낮은 수준의 인터페이스를 갖춘 스트림 처리 엔진은 기술 중심 사용자가 성능 이점을 얻을 수 있도록 해줍니다. 반면 SQL 인터페이스를 제공하는 스트리밍 데이터베이스는 비즈니스 중심 사용자를 위해 맞춤화되어 있으며 복잡한 기술 전문 지식이 필요 없이도 더 높은 성능 경계를 달성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 데이터 저장
 
@@ -96,7 +169,18 @@ MapReduce를 독특하게 만든 점은 데이터 저장을 원격 분산 파일
 
 데이터 입력 측면에서 데이터 저장은 중요한 성능 이점을 제공합니다. 예를 들어, 데이터 입력을 저장하는 경우 성능상의 이점이 있습니다. 메시지 큐(예: Kafka)에서의 데이터 스트림과 원격 데이터베이스(예: MySQL)에 저장된 테이블을 결합하는 단순한 스트림 처리 엔진의 시나리오를 고려해 보겠습니다. 스트림 처리 엔진이 데이터 저장 기능이 없는 경우, 새로운 데이터 항목이 스트림에 들어올 때마다 연산을 수행하기 전에 원격 데이터베이스에서 데이터를 가져와야 합니다. 이 접근 방식은 초기 분산 스트림 처리 엔진에서 채택되었습니다. 시스템 아키텍처를 간단화하는 장점이 있지만, 성능이 급격히 저하된다는 단점이 있습니다. 서로 다른 시스템 간의 데이터 접근은 명백히 높은 지연 시간을 유발하며, 지연 시간에 민감한 스트림 처리 엔진에 높은 지연 작업을 도입하면 성능이 떨어지게 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스트림 처리 시스템 내부에 데이터를 저장(또는 캐싱)하면 시스템 간 데이터 접근을 피할 수 있어 성능을 향상시킬 수 있습니다. 내장 저장 기능을 갖춘 스트림 처리 시스템인 스트리밍 데이터베이스에서는 사용자가 필요에 따라 메시지 대기열에서 데이터 스트림을 가져와 원격 데이터베이스의 테이블과 결합해야 할 때 해당 테이블을 직접 스트리밍 데이터베이스로 복제할 수 있습니다. 이렇게 하면 모든 접근이 내부 작업으로 처리되어 효율적인 처리가 가능해집니다. 물론 이것은 단순화된 예시일 뿐입니다. 실제 시나리오에서는 원격 데이터베이스의 대규모 또는 동적으로 변화하는 테이블과 같은 문제가 발생할 수 있으나 이에 대해 자세히 다루지는 않겠습니다.
 
@@ -109,7 +193,18 @@ MapReduce를 독특하게 만든 점은 데이터 저장을 원격 분산 파일
 
 물론 공짜 점심은 없으며 소프트웨어 개발은 단순해 보이는 해결책을 제공하지 않습니다. 스트림 처리 엔진과 비교했을 때 저장 기능을 갖춘 스트리밍 데이터베이스는 아키텍처, 리소스 활용, 일관성 및 사용자 경험에서 많은 장점을 제공합니다. 하지만 그에 따라 어떤 것을 희생해야 할까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 가지 중요한 희생은 소프트웨어 설계의 복잡성입니다. MapReduce의 설계를 기억해보세요. MapReduce의 개념은 오라클과 IBM과 같은 거대 기업이 전체 데이터베이스 시장을 지배하던 시절에 뛰어났습니다. 왜냐하면 이들은 많은 보통 컴퓨터를 사용하는 기술 기업을 위해 대규모 병렬 컴퓨팅을 가능케 하는 간단한 모델을 효과적으로 활용했기 때문입니다.
 
@@ -119,7 +214,18 @@ MapReduce는 데이터베이스의 저장 및 연산 통합 개념을 직접 역
 
 # 활용 사례
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 계산 모델에서 유사성을 공유하고 있지만, 스트리밍 처리 엔진과 스트리밍 데이터베이스는 여전히 고유한 응용 및 기능으로 이어지는 세세한 점들이 있습니다. 이러한 기술들은 응용 분야에서 중첩되어 있지만, 최종 사용자의 초점에서 차이가 나타납니다.
 
@@ -129,7 +235,18 @@ MapReduce는 데이터베이스의 저장 및 연산 통합 개념을 직접 역
 
 요약하면, 이러한 기술들 간의 응용 시나리오에서의 공통점은 최종 사용자와 상호 작용 모드에 특정 초점이 있어 각 시스템 내에서 독특한 기능을 결과로 낳습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 역사적 차원으로 나아가는 거담아, 아니면 현재 시대의 트렌드일까요?
 
@@ -139,7 +256,18 @@ MapReduce는 데이터베이스의 저장 및 연산 통합 개념을 직접 역
 
 스트림 처리의 영역에서, 다음 질문이 등장합니다: 어떤 철학이 역사적으로 후퇴를 대표하고, 어떤 것이 현재 시대의 트렌드를 대변할까요? 저는 스트림 처리 엔진과 스트리밍 데이터베이스가 앞으로 최소 3~5년 동안 공존하고 계속 발전할 것으로 판단합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스트림 처리 엔진은 극한의 성능과 유연성에 중점을 둬 기술적으로 뛰어난 사용자들을 대상으로 합니다. 한편, 스트리밍 데이터베이스는 사용자 경험의 우아함과 높은 성능 그리고 섬세한 내부 구현을 균형있게 갖추고 있습니다. 이러한 철학 간 상호 통합 트렌드는 SQL 인터페이스를 도입해 사용자 경험을 향상시키는 컴퓨팅 엔진과 UDF 기능을 활용해 프로그래밍 적응성을 높이는 데이터베이스 등 양쪽을 모두 강화시킵니다.
 
@@ -149,7 +277,18 @@ MapReduce는 데이터베이스의 저장 및 연산 통합 개념을 직접 역
 
 빅 데이터 시대는 스트림 처리와 데이터베이스를 분리하고 오라클, IBM, Microsoft와 같은 세 거인의 독점을 무너뜨리는 트렌드를 경험했습니다. 최근 클라우드 시대에서는 2012년 전후부터 배치 처리 시스템 분야에서 Redshift, Snowflake, Clickhouse와 같은 시스템이 "컴퓨팅 엔진"을 "데이터베이스"로 돌아오게 하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금은 스트림 처리를 데이터베이스로 돌려보는 시기입니다. 이것이 현대 스트리밍 데이터베이스인 RisingWave와 Materialize의 주요 아이디어입니다. 그런데 왜 이 시점인 걸까요? 이 부분에서 자세히 분석해보겠습니다.
 
@@ -159,7 +298,18 @@ MapReduce는 데이터베이스의 저장 및 연산 통합 개념을 직접 역
 
 - 단일 엔진 접근
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 전략은 스트림 처리 및 일괄 처리 기능을 관리하기 위해 동일한 컴퓨팅 엔진을 사용하는 것을 포함합니다. 이의 장점은 비교적 간단한 실행 계획과 더 통합된 사용자 경험을 제공한다는 것입니다. 그러나 스트림 처리 및 일괄 처리는 최적화 및 계산 방법과 같은 실행 측면에서 상당한 차이가 있기 때문에 각각을 구분하여 최고의 성능을 달성하기 위한 처리가 종종 필요합니다.
 
@@ -169,7 +319,18 @@ MapReduce는 데이터베이스의 저장 및 연산 통합 개념을 직접 역
 
 3. 섞여서 시스템 접근 방식
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 세 번째 접근 방식은 새로운 이상적인 시스템을 만드는 대신 기존 시스템을 재활용하여 통합된 사용자 경험을 제공하는 것을 포함합니다. 엔지니어링에 가장 부담이 적을 수 있는 방법으로 보이지만, 매끄러운 사용자 경험을 제공하는 것은 매우 어려울 수 있습니다. 기존 시장 시스템은 인터페이스 지원에서 다양하며 SQL을 사용하더라도 다른 방언을 사용할 수 있습니다. 이러한 불일치로부터 사용자를 보호하는 것이 핵심적인 문제가 됩니다. 게다가, 여러 시스템을 조율하여 상호 작용하고, 서로 인식하도록 유지하는 것은 복잡한 엔지니어링 과제를 도입합니다.
 

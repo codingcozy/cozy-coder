@@ -3,17 +3,13 @@ title: "데이터 분석가가 되기 전 알았으면 하는 것들"
 description: ""
 coverImage: "/assets/img/2024-06-20-ThingsIwishIknewbeforebecomingaDataAnalyst_0.png"
 date: 2024-06-20 15:55
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-ThingsIwishIknewbeforebecomingaDataAnalyst_0.png
 tag: Tech
 originalTitle: "Things I wish I knew before becoming a Data Analyst"
 link: "https://medium.com/@asma.sithi/things-i-wish-i-knew-before-becoming-a-data-analyst-9dc92d0a3fdc"
 isUpdated: true
 ---
-
-
-
-
 
 데이터 분석가들을 위한 조언입니다. 제가 경험했던 것보다 더 잘 준비할 수 있도록 아래에 나열했어요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이 기사의 의도는 데이터 분석가로서 경력을 시작하는 전문가들을 두려워하게 하려는 것이 아니라, 실제 데이터와 실제 사람들과 일하는 것이 Kaggle이나 다른 온라인 데이터셋과 일하는 것과 약간 다를 수 있다는 것을 알려드리려는 것이에요. 저의 경험을 여기서 공유함으로써 데이터 분석가로서 꿈꾸는 분들과 초보자들이 여정을 더 잘 준비할 수 있기를 바라요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 데이터 분석가가 되기 전에 알았으면 하는 몇 가지 사항입니다:
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ## 2. 데이터 정제는 복잡하고 시간이 많이 소요되는 작업일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 분석에서 가장 놀라운 측면 중 하나는 작업할 데이터의 상태입니다. 데이터가 서로 다른 소스에서 올 수 있으며, 데이터는 종종 지저분하고 불완전하며, 분석을 위해 준비되기 전에 심각한 정리가 필요합니다. 데이터 준비에 많은 시간을 보내야한다고 생각하세요. 데이터 분석가로서, 유용한 통찰을 얻는 대신 정보를 수집하고 준비하는 데 대부분의 시간을 보내게 됩니다. 그럼에도 불구하고, 데이터 정리 과정은 데이터 중심 조직에 꼭 필요합니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 국제 기관에서 인사 데이터 분석가로 일하고 있다고 가정해 봅시다. 통찰을 얻기 위해 기술 스택을 활용하는 방법을 알아야 하는 것 외에, 인사의 KPI를 알고 있는 것이 도움이 됩니다. 예를 들어 직원 이탈률, 채용 시간, 직원 참여 점수 등이 있습니다. 이러한 지식은 상황을 이해하는 데 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 4. 데이터 탐정이 되어보세요
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 코딩은 데이터 분석가에게 중요한 기술이지만, 분석적 사고력이 훨씬 중요합니다. 코딩은 구글에서 검색하거나 온라인 플랫폼에서 배울 수 있지만, 데이터를 해석하고 패턴을 인식하며 실행 가능한 통찰력을 얻는 능력이 진정으로 성공적인 데이터 분석가를 구분짓는 것입니다. 따라서 분석 및 문제 해결 능력을 개발하는 것이 중요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 6. 커뮤니케이션과 이해 관계자
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 시간에 따라 회사 정치가 데이터 분석에 방해가 될 수 있습니다. 이해 관계자들은 편견을 가질 수 있으며, 그들의 의견을 지원하는 특정 데이터 포인트에 초점을 맞추도록 요구할 수 있습니다. 예를 들어, 판매 데이터를 분석할 때, 관리자는 전반적인 추세가 하락하는 경우라도 긍정적인 추세만 강조하여 경영진에게 더 유리한 상황을 제공하길 요구할 수 있습니다. 이러한 역학을 인식하는 것은 분석의 진정성을 유지하는 데 중요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 8. 모두가 아직 배우는 중입니다
 
@@ -73,7 +124,18 @@ isUpdated: true
 
 조직마다 역할과 책임이 다릅니다. 예를 들어, 'ABC' 기관에서는 이해관계자를 관리하고 시각화를 만들어 결과를 발표해야 할 수도 있지만 'XYZ' 기관에서는 통찰을 찾고 Ad Hoc 대시보드를 생성해야 할 수도 있습니다. 또한 귀하가 근무하는 회사의 규모, 팀 내 기술 인력 수 등에 따라 다를 수 있습니다. 귀하의 특정 역할에 필요한 요구 사항을 이해하고 해당 기대치를 충족하기 위해 적응할 준비를 해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 팁들이 데이터 분석가로서의 도전을 더 효과적으로 극복하는 데 도움이 되길 바랍니다. 여러분의 여정을 더 부드럽게 만들어줄 거예요.
 

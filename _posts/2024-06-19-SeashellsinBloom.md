@@ -3,17 +3,13 @@ title: "바다 속에서 활짝 핀 조개껍데기 "
 description: ""
 coverImage: "/assets/img/2024-06-19-SeashellsinBloom_0.png"
 date: 2024-06-19 18:01
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-SeashellsinBloom_0.png
 tag: Tech
 originalTitle: "Seashells in Bloom 🐚"
 link: "https://medium.com/@enchantedcshel/seashells-in-bloom-7de992804f52"
 isUpdated: true
 ---
-
-
-
-
 
 카사 드 엔찬티드 씨쉘스에서... 세상의 좋은 아빠들에게 행복한 아버지의 날을! 🐚
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 여기 이것이 시즌의 마지막 프리지아야; 너무나 소중해서 색과 향에 감탄하기 위해 안밖으로 데려와봤지만, 재채기를 시작할까 걱정돼 멀리 떨어진 곳에 놓여 외로이 쉬고 있어요. 보시다시피, 그녀는 기쁘게 제 다른 몇몇 조개친구들 사이에서 쉬고 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Seashells in Bloom](/assets/img/2024-06-19-SeashellsinBloom_0.png)
 
@@ -34,8 +40,18 @@ isUpdated: true
 
 ![Seashells in Bloom](/assets/img/2024-06-19-SeashellsinBloom_1.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결과에 만족했어요.
 
@@ -45,7 +61,18 @@ isUpdated: true
 
 ![이미지2](/assets/img/2024-06-19-SeashellsinBloom_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해변에서 발견한 조개껍질 화환에 영감을 받아 더욱 집중적인 프로젝트를 시작했어요. 손에 잡히는 접착제 총과 많은 접착제 스틱을 이용해서 만든 이 입구 거울은 예상보다 시간이 더 오래 걸렸지만, 결과물에 만족하고 있어요.
 

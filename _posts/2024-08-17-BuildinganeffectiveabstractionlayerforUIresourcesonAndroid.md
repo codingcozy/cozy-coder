@@ -3,7 +3,7 @@ title: "안드로이드에서 UI 리소스를 위한 효과적인 추상화 레�
 description: ""
 coverImage: "/assets/img/2024-08-17-BuildinganeffectiveabstractionlayerforUIresourcesonAndroid_0.png"
 date: 2024-08-17 00:26
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-17-BuildinganeffectiveabstractionlayerforUIresourcesonAndroid_0.png
 tag: Tech
 originalTitle: "Building an effective abstraction layer for UI resources on Android"
@@ -11,8 +11,6 @@ link: "https://medium.com/@michellbak/building-an-effective-abstraction-layer-fo
 isUpdated: true
 updatedAt: 1723863574662
 ---
-
-
 
 ![BuildinganeffectiveabstractionlayerforUIresourcesonAndroid](/assets/img/2024-08-17-BuildinganeffectiveabstractionlayerforUIresourcesonAndroid_0.png)
 
@@ -22,8 +20,18 @@ updatedAt: 1723863574662
 
 이 방법은 작동하지만, 몇 가지 단점이 있습니다:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 타입 안정성이 없어요
 - 단위 테스트가 어려워요
@@ -41,7 +49,18 @@ sealed class UiResource<T> : Serializable {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 기본 클래스를 갖고 있으니 이제 리소스별 코드를 추가할 시간입니다.
 
@@ -66,7 +85,18 @@ sealed class TextResource : UiResource<String>(), Parcelable, Serializable {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로운 클래스로 TextResource 객체를 생성하고 도메인 코드에서 사용할 수 있게 되었습니다.
 
@@ -113,8 +143,18 @@ data class Quantity(
 
 그리고 물론, 이러한 새로운 클래스들을 resolve(context: Context) 함수에서 처리할 수 있어야 합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 override fun resolve(context: Context): String {
@@ -142,8 +182,18 @@ Receivers don’t know and shouldn’t care what kind of text resource they’re
 
 As you can imagine, you can create many different TextResource subclasses.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아마도 텍스트 콘텐츠의 대문자로 변환하거나 모두 대문자 또는 소문자로 변경하는 변환 서브클래스 세트가 있으면 좋을 것 같습니다. 또는 숫자 인수를 사용하는 구현이 있으면 어떨까요?
 
@@ -157,7 +207,18 @@ operator fun plus(other: TextResource): TextResource {
 
 종합적으로 산술 연산자는 차원 리소스에 대해 매우 유용할 것입니다. 가능성은 (거의) 무한합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # UI 코드에서 리소스 해결하기
 
@@ -167,7 +228,18 @@ UI 코드에서 `TextResource` 객체를 사용하려면 `resolve(context: Conte
 
 만약 UI 코드가 뷰 기반인 경우, 이 작업은 매우 쉽고 간단합니다. 그냥 액티비티/프래그먼트/뷰 컨텍스트를 사용하면 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 Compose를 사용 중이라면 LocalContext를 사용해야 합니다. 하지만 매번 텍스트 리소스를 해결할 때마다 그것을 작성하는 것이 조금 귀찮을 수 있습니다. 대신에, 이와 같은 확장 함수를 사용할 수 있습니다:
 
@@ -182,7 +254,18 @@ fun TextResource.resolve(): String {
 
 # 도우미 함수들은 더욱 좋습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 항상 TextResource.RawString, TextResource.Resource 또는 TextResource.Quantity를 사용할 때마다 길고 지루한 작업이 될 수 있어요.
 
@@ -207,7 +290,18 @@ fun textResource(
 
 비슷하게, 확장 함수를 사용하여 추상화 계층의 사용성을 더 향상시킬 수도 있어요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 fun TextResource?.orEmpty() = this ?: textResource("")
@@ -221,8 +315,18 @@ fun TextResource.lowercase() = TextResource.Lowercase(this)
 
 문자열 자원 형식 매개변수와 함께 작업했다면, MissingFormatArgumentException을 언젠가는 마주쳤을 것이라고 확신합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 예외는 형식 지정자와 해당 인수가 없는 경우 또는 인수 인덱스가 존재하지 않는 인수를 참조하는 경우에 throw되는 런타임 예외입니다.
 
@@ -242,7 +346,18 @@ try {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드는 두 가지 확장 기능을 사용합니다:
 
@@ -285,7 +400,18 @@ fun Context.getResourceKey(@AnyRes resId: Int): String? {
 
 이 작은 변경으로 원래 예외를 catch하고 유용한 디버그 정보가 포함된 수정된 버전을 throw하게 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에 있습니다!
 
@@ -295,6 +421,17 @@ UiResource와 TextResource 추상화를 소개함으로써, 도메인 레이어 
 
 코딩 즐거움을 빕니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 PS. 저의 동료 프레드릭 젠센에게 큰 감사를 전합니다. 그는 이 추상화 레이어를 퍼블릭(Android 팀)에 소개해 주었어요.

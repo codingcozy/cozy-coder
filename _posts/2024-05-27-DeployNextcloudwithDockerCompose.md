@@ -3,17 +3,13 @@ title: "도커 컴포즈로 Nextcloud를 배포하기"
 description: ""
 coverImage: "/assets/img/2024-05-27-DeployNextcloudwithDockerCompose_0.png"
 date: 2024-05-27 13:46
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-DeployNextcloudwithDockerCompose_0.png
 tag: Tech
 originalTitle: "Deploy Nextcloud with Docker Compose"
 link: "https://medium.com/@chrisgrime/deploy-nextcloud-with-docker-compose-935a76a5eb78"
 isUpdated: true
 ---
-
-
-
-
 
 DIY, 실험, 그리고 학습을 즐기며, Google Drive와 One Drive를 대체하기 위해 Nextcloud 서버를 설정했어요. 몇 년 동안 제 Nextcloud 인스턴스는 백업된 파일, 연락처, 캘린더, 노트 등이 모두 모여 있는 집이 되었고, Collabora 덕분에 서버에는 사무실 스위트도 갖췄네요.
 
@@ -23,18 +19,29 @@ Nextcloud는 여러 서비스에 대한 멋진 오픈 소스 대안일 수 있�
 
 다음은 docker-compose.yml입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```yaml
 ---
-version: '3'
+version: "3"
 
 services:
   nextcloud:
     image: nextcloud
     container_name: nextcloud
     restart: unless-stopped
-    networks: 
+    networks:
       - cloud
     depends_on:
       - nextclouddb
@@ -61,7 +68,7 @@ services:
     container_name: nextcloud-db
     restart: unless-stopped
     command: --transaction-isolation=READ-COMMITTED --binlog-format=ROW
-    networks: 
+    networks:
       - cloud
     volumes:
       - ./nextclouddb:/var/lib/mysql
@@ -73,12 +80,12 @@ services:
       - MYSQL_PASSWORD=dbpassword
       - MYSQL_DATABASE=nextcloud
       - MYSQL_USER=nextcloud
-      
+
   collabora:
     image: collabora/code
     container_name: collabora
     restart: unless-stopped
-    networks: 
+    networks:
       - cloud
     environment:
       - PUID=1000
@@ -95,12 +102,12 @@ services:
     image: redis:alpine
     container_name: redis
     volumes:
-      - ./redis:/data  
-    networks: 
+      - ./redis:/data
+    networks:
       - cloud
-  
+
   nginx-proxy:
-    image: 'jc21/nginx-proxy-manager:latest'
+    image: "jc21/nginx-proxy-manager:latest"
     container_name: nginx-proxy
     environment:
       - PUID=1000
@@ -108,9 +115,9 @@ services:
       - TZ=America/Los_Angeles
     restart: unless-stopped
     ports:
-      - '80:80'
-      - '81:81'
-      - '443:443'
+      - "80:80"
+      - "81:81"
+      - "443:443"
     volumes:
       - ./data:/data
       - ./letsencrypt:/etc/letsencrypt
@@ -131,8 +138,18 @@ networks:
 - Redis - 메모리 캐싱입니다. 중요한 파일을 다음 클라우드에 의존할 계획이라면 Redis를 설정하는 것을 강력히 권장합니다.
 - Nginx Proxy Manager - 서버로 들어오는 요청을 처리하는 리버스 프록시 매니저입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 도커 컴포즈
 
@@ -148,7 +165,7 @@ nextcloud:
     networks: # 모든 컨테이너를 "cloud" 네트워크를 통해 연결합니다
       - cloud
     depends_on: # Nextcloud를 시작하기 전에 데이터베이스와 레디스 컨테이너가 준비될 때까지 기다립니다
-      - nextclouddb 
+      - nextclouddb
       - redis
     ports: # 서버에 여러 웹 서비스가 있다면 포트를 변경해야 합니다. 저는 Nextcloud를 포트 80에서 8081로 연결하고 있습니다
       - 8081:80
@@ -168,52 +185,74 @@ nextcloud:
       - REDIS_HOST=redis # 사용할 Redis 컨테이너
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Nextcloud 데이터베이스:
 
 ```yaml
 nextclouddb:
-    image: mariadb # 공식 mariadb 이미지
-    container_name: nextcloud-db 
-    restart: unless-stopped 
-    command: --transaction-isolation=READ-COMMITTED --binlog-format=ROW # 정말 기억이 나지 않아요. 알고 계시면 알려주세요.
-    networks: 
-      - cloud
-    volumes:
-      - ./nextclouddb:/var/lib/mysql
-    environment:
-      - PUID=1000 # 다른 컨테이너와 동일해야 함
-      - PGID=1000
-      - TZ=America/Los_Angeles
-      - MYSQL_RANDOM_ROOT_PASSWORD=true
-      - MYSQL_PASSWORD=dbpassword # Nextcloud 부분에 입력한 정보와 같아야 함
-      - MYSQL_DATABASE=nextcloud
-      - MYSQL_USER=nextcloud
+  image: mariadb # 공식 mariadb 이미지
+  container_name: nextcloud-db
+  restart: unless-stopped
+  command: --transaction-isolation=READ-COMMITTED --binlog-format=ROW # 정말 기억이 나지 않아요. 알고 계시면 알려주세요.
+  networks:
+    - cloud
+  volumes:
+    - ./nextclouddb:/var/lib/mysql
+  environment:
+    - PUID=1000 # 다른 컨테이너와 동일해야 함
+    - PGID=1000
+    - TZ=America/Los_Angeles
+    - MYSQL_RANDOM_ROOT_PASSWORD=true
+    - MYSQL_PASSWORD=dbpassword # Nextcloud 부분에 입력한 정보와 같아야 함
+    - MYSQL_DATABASE=nextcloud
+    - MYSQL_USER=nextcloud
 ```
 
 Collabora (선택 사항, 하지만 정말 멋짐):
 
 ```yaml
 collabora:
-    image: collabora/code:latest
-    container_name: collabora
-    restart: unless-stopped
-    networks: 
-      - cloud
-    environment:
-      - PUID=1000
-      - PGID=1000
-      - TZ=America/Los_Angeles # 다른 것과 동일해야 함
-      - password=password 
-      - username=nextcloud
-      - domain=example.com # Nextcloud가 있는 도메인
-      - extra_params=--o:ssl.enable=true # SSL을 사용하는 경우에 사용합니다. 꼭 사용해야 합니다.
-    ports:
-      - 9980:9980
+  image: collabora/code:latest
+  container_name: collabora
+  restart: unless-stopped
+  networks:
+    - cloud
+  environment:
+    - PUID=1000
+    - PGID=1000
+    - TZ=America/Los_Angeles # 다른 것과 동일해야 함
+    - password=password
+    - username=nextcloud
+    - domain=example.com # Nextcloud가 있는 도메인
+    - extra_params=--o:ssl.enable=true # SSL을 사용하는 경우에 사용합니다. 꼭 사용해야 합니다.
+  ports:
+    - 9980:9980
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Redis (선택 사항이지만, 진지하게, 추가하세요. 파일 잠금 문제가 나타날 수 있으며 Redis가 이를 방지해줄 것입니다):
 
@@ -222,8 +261,8 @@ redis:
     image: redis:alpine
     container_name: redis
     volumes:
-      - ./redis:/data  
-    networks: 
+      - ./redis:/data
+    networks:
       - cloud
 ```
 
@@ -247,7 +286,18 @@ nginx-proxy:
       - ./letsencrypt:/etc/letsencrypt
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Nginx Proxy Manager는 서버로 들어오는 트래픽을 Nextcloud로 전달하는 멋진 프로그램이에요. 새 호스트를 추가해보세요.
 
@@ -257,7 +307,18 @@ Scheme = http, Forward Hostname = 이용 중인 기기의 로컬 IP 주소(예: 
 
 자산 캐시, 일반적인 공격 차단, 웹소켓 지원은 모두 켜두시는 게 좋아요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "맞춤 위치" 탭에서 caldav와 carddav를 활성화하여 캘린더와 연락처에 대한 원격 액세스를 허용할 예정입니다.
 
@@ -270,7 +331,18 @@ Scheme = http, Forward Hostname = 이용 중인 기기의 로컬 IP 주소(예: 
 
 위치 2:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 위치 = /.well-known/carddav
 - scheme = html
@@ -283,10 +355,21 @@ Scheme = http, Forward Hostname = 이용 중인 기기의 로컬 IP 주소(예: 
 
 Nextcloud를 네트워크에서 액세스하려는 경우 Nextcloud의 로컬 IP 주소를 추가하는 것이 유용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-'trusted_domains' => 
+'trusted_domains' =>
 array (
  0 => 'example.com',
  1 => '192.168.1.12:8081',
@@ -299,7 +382,7 @@ Niginx Proxy Manager이 설정되어 있으므로 config.php 파일에 다음을
 
 ```js
 'default_phone_region' => 'US',
-'trustedproxies' => 
+'trustedproxies' =>
 array (
  0 => 'NginxProxyManager',
  1 => '192.168.0.145',
@@ -307,12 +390,22 @@ array (
 ```
 
 일부 경고를 해결하려면 다음을 수행해야 합니다:
-  
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
- 'default_phone_region' => 'US', 
+ 'default_phone_region' => 'US',
 ```
 
 메일 알림을 설정하려면 구성 파일에 다음을 추가해야 합니다. 필요한 값은 이메일 공급업체에서 얻어야 합니다.
@@ -332,8 +425,18 @@ array (
 
 ## 컨테이너 실행하기
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```yaml
 docker-compose up -d

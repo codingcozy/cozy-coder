@@ -3,17 +3,13 @@ title: "7분 만에 쉽게 이해하는 생성형 인공지능"
 description: ""
 coverImage: "/assets/img/2024-07-13-EasilyUnderstandGenerativeAIin7Minutes_0.png"
 date: 2024-07-13 00:03
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-EasilyUnderstandGenerativeAIin7Minutes_0.png
 tag: Tech
 originalTitle: "Easily Understand Generative AI in 7 Minutes"
 link: "https://medium.com/generative-ai/easily-understand-generative-ai-in-7-minutes-042185acf488"
 isUpdated: true
 ---
-
-
-
-
 
 ![Generative AI](/assets/img/2024-07-13-EasilyUnderstandGenerativeAIin7Minutes_0.png)
 
@@ -23,7 +19,18 @@ If you're here, chances are you're a user of ChatGPT, Bard, or Microsoft Co-Pilo
 
 AI has been making waves in various fields for some time now. However, what set ChatGPT apart and captured everyone's attention was its ability to engage in human-like conversations and generate content based on simple prompts.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 비즈니스에 가능성의 파도를 일으켰고 모두의 주목을 끌었습니다. 사람들은 '새로운' AI 또는 생성적 AI가 무엇이며 어떻게 작동하는지 묻기 시작했습니다.
 
@@ -33,7 +40,18 @@ AI has been making waves in various fields for some time now. However, what set 
 
 ![Image](/assets/img/2024-07-13-EasilyUnderstandGenerativeAIin7Minutes_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 시나리오를 상상해보세요. 로봇이 꽤 멋진 일을 하다가 녹색 사과를 만납니다. 이 로봇은 빨간 사과에 대해서만 프로그래밍되어 있었기 때문에 이제 녹색 사과를 어떻게 다뤄야 할지 모릅니다.
 
@@ -43,7 +61,18 @@ AI has been making waves in various fields for some time now. However, what set 
 
 ML은 기계가 데이터로부터 학습하는 능력을 의미합니다. 과일 분류 로봇 사례에서, 로봇에게 많은 사과와 바나나 사진을 보여줍니다. 기계는 그림 안의 패턴과 모양을 학습하여 사과와 바나나가 어떻게 생겼는지 추론합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로봇이 초록 사과를 만나면, 실제로 초록 사과의 이미지는 보여주지 않았지만, 다른 사과 관련 특성들을 학습했기 때문에 여전히 이것이 사과라는 것을 알고 있습니다.
 
@@ -53,7 +82,18 @@ ML은 기계가 데이터로부터 학습하는 능력을 의미합니다. 과�
 
 제너레이티브 AI는 한 걸음 더 나아갑니다. 패턴을 인식하는 것뿐만이 아니라, 알고 있는 것을 기반으로 새로운 것을 만들어냅니다. 우리 사과와 바나나 분류 로봇이 둘을 섞은 새로운 과일을 창조한다고 상상해보세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 딥러닝은 생성적 AI의 비밀 레시피입니다. 이는 대량의 데이터를 이해하고 그 안에 패턴을 찾을 수 있는 초지능 두뇌와 같습니다. 더 많은 데이터를 제공하면 그만큼 똑똑해집니다.
 
@@ -63,7 +103,18 @@ ML은 기계가 데이터로부터 학습하는 능력을 의미합니다. 과�
 
 이러한 모델은 GPT-3와 BERT와 같은 Foundation Models의 생성을 이끌었습니다. 이러한 모델은 많은 양의 데이터로 교육을 받았기 때문에 다양한 작업을 수행할 수 있는 슈퍼 유연한 도구와 같습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 ChatGPT가 어떻게 인간처럼 대화를 나누는지 궁금하신가요? 이것은 Large Language Models (LLMs)의 영역입니다. LLMs는 많은 텍스트 데이터로 훈련받은 Foundation Model 유형으로, 문장에서 다음에 올 단어를 예측할 수 있어서 인간처럼 쓰고 말하는 데 능숙합니다.
 
@@ -73,7 +124,18 @@ ML은 기계가 데이터로부터 학습하는 능력을 의미합니다. 과�
 
 ResNet과 같은 이미지 인식 모델의 경우, ImageNet과 같은 데이터셋에서 백만 개 이상의 이미지로 훈련됩니다. ImageNet은 20,000 가지 범주에 걸쳐 이루어진 1,400만 개가 넘는 손으로 주석이 달린 이미지를 포함합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이런 예시들은 재단 모델이 훈련을 받는 데이터 규모를 강조하며, 복잡한 패턴을 학습하고 그 지식을 다양한 작업과 시나리오에 적용할 수 있도록 합니다.
 
@@ -83,7 +145,18 @@ ResNet과 같은 이미지 인식 모델의 경우, ImageNet과 같은 데이터
 
 이 시점에서 당신은 아마 궁금해할지도 모릅니다: LLM은 정말로 이렇게 똑똑한가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 악랄한 마법사 LLMs는 우리 인간들처럼 인지 능력을 갖고 있지 않아요. 하지만 방대한 학습 데이터 덕분에, 다음 단어를 예측하는 데 능숙하답니다. 문장에서 다음 단어를 예측하고, 그 단어가 추가되면 다시 계산을 하고 다음 단어를 예측하죠. 이것이 LLMs가 기사를 쓰거나 우리와 대화하거나 텍스트를 요약하는 방법입니다.
 
@@ -93,7 +166,18 @@ ResNet과 같은 이미지 인식 모델의 경우, ImageNet과 같은 데이터
 
 트랜스포머 아키텍처는 컴퓨터가 인간 언어를 이해하고 생성하는 데 도와줍니다. 그들은 언어의 맥락을 이해하는 데 정말 뛰어나죠—한 단어의 의미가 주변 단어에 따라 달라질 수 있는 것처럼 말이에요. 그들은 보는 텍스트의 가장 관련성 높은 부분들에 더 많은 중요성을 주어 이를 가능케 해요. 그래서 기계들이 우리 인간들이 이해할 수 있는 방식으로 텍스트를 이해하고 생성하는 데 매우 중요하답니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 LLM들 (그리고 이와 유사한 기술들)이 창의적 AI를 촉진했습니다.
 
@@ -103,7 +187,18 @@ ResNet과 같은 이미지 인식 모델의 경우, ImageNet과 같은 데이터
 
 그렇다면, 질문은 무엇인가요? 창의적 AI가 무엇인가요? 창의적 AI를 이해하기 위해, 상황을 살펴보겠습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전통적인 AI 작동 방식은 이렇습니다: 차와 개를 구별할 수 있는 모델이 있습니다. 고양이 사진을 보여주면 그것을 고양이로 분류합니다.
 
@@ -113,7 +208,18 @@ ResNet과 같은 이미지 인식 모델의 경우, ImageNet과 같은 데이터
 
 ![image](/assets/img/2024-07-13-EasilyUnderstandGenerativeAIin7Minutes_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마침내, 창조적 AI는 인공 지능의 엄청난 발전을 상징합니다. 패턴을 인식하는 뿐만 아니라 새로운 콘텐츠를 만들어내는 이 혁신적인 기술은 미술, 음악부터 제품 디자인을 넘어 무수히 많은 산업을 혁신할 잠재력을 지니고 있습니다. 우리가 창조적 AI의 가능성을 계속 탐구함에 따라 기술의 미래는 이전보다 더욱 기대감이 높아지고 있습니다.
 
@@ -123,7 +229,18 @@ ResNet과 같은 이미지 인식 모델의 경우, ImageNet과 같은 데이터
 
 나는 주로 지능적인 과정 및 현대 비즈니스 구조가 어떻게 변화하고 있는지에 초점을 맞춘 기술과 비즈니스에 관한 글을 쓰는 것을 좋아합니다. 이러한 주제에 특히 흥미가 있다면, 특히 AI와 비즈니스에 대해 더 알아보고 싶다면, 나를 팔로우하고 내 이야기를 구독해 주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 관련 기술에 대해 더 알고 싶으시다면, 비전문가를 위한 제너레이티브 AI의 기초를 모두 배울 수 있는 강의를 소개합니다. 할인된 링크를 확인해보세요.
 

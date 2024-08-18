@@ -3,16 +3,13 @@ title: "Angular와 Firebase로 실시간 채팅 애플리케이션 구축 방법
 description: ""
 coverImage: "/assets/img/2024-07-06-BuildingaReal-TimeChatApplicationwithAngularandFirebase_0.png"
 date: 2024-07-06 03:09
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-06-BuildingaReal-TimeChatApplicationwithAngularandFirebase_0.png
 tag: Tech
 originalTitle: "Building a Real-Time Chat Application with Angular and Firebase"
 link: "https://medium.com/@md.mollaie/building-a-real-time-chat-application-with-angular-and-firebase-89f70ebdd5a1"
 isUpdated: true
 ---
-
-
-
 
 ![](/assets/img/2024-07-06-BuildingaReal-TimeChatApplicationwithAngularandFirebase_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 ## 실시간 통신이 필요한 시나리오들
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 소셜 미디어 및 메신저 앱: WhatsApp, Facebook Messenger, Slack과 같은 플랫폼은 사용자들이 즉각적으로 소통할 수 있도록 실시간 업데이트에 의존합니다.
 - 협업 도구: Google Docs, Trello와 같은 애플리케이션은 실시간 협업 기능을 제공하여 여러 사용자가 원활하게 함께 작업할 수 있습니다.
@@ -39,7 +47,18 @@ isUpdated: true
 - Firebase Realtime Database: 실시간으로 데이터를 업데이트하는 NoSQL 클라우드 데이터베이스입니다. 구현을 간소화하지만 복잡한 쿼리에는 유연하지 않을 수 있습니다.
 - Firebase Firestore: 더 고급 질의 기능과 실시간 데이터 동기화를 제공합니다. 확장 가능하며 복잡한 애플리케이션에 적합합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Angular과 Firebase 프로젝트 설정하기
 
@@ -52,7 +71,18 @@ ng new real-time-chat
 cd real-time-chat
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 필요한 Firebase 패키지를 설치해주세요:
 
@@ -65,7 +95,18 @@ ng add ngxtension
 
 Firebase 콘솔에서 Firebase 프로젝트를 만들고 Firebase 구성 객체를 가져옵니다. 이 구성을 Angular 환경 파일에 추가하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // src/environments/environment.ts
@@ -109,7 +150,18 @@ export const appConfig: ApplicationConfig = {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # **실시간 채팅 기능 구현하기**
 
@@ -245,7 +297,18 @@ export const useAuthStore = createInjectable(() => {
 });
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 5: Firestore 채팅 스토어
 
@@ -423,7 +486,18 @@ export const useChatStore = createInjectable(() => {
 
 ## 단계 6: UI 구성 요소 생성하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 회원 가입 구성 요소:
 
@@ -684,7 +758,16 @@ import {useAuthStore} from '../stores/auth.store';
       </div>
 
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 채팅 목록 컴포넌트:
 
@@ -888,7 +971,16 @@ export class NewChatComponent {
   }
 }
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

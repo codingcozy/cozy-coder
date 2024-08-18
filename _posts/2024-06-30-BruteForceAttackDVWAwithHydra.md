@@ -3,17 +3,13 @@ title: "Hydra로 DVWA에 브루트 포스 공격하는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-30-BruteForceAttackDVWAwithHydra_0.png"
 date: 2024-06-30 18:51
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-30-BruteForceAttackDVWAwithHydra_0.png
 tag: Tech
 originalTitle: "Brute Force Attack DVWA with Hydra"
 link: "https://medium.com/@andres.cabeza/brute-force-attack-dvwa-with-hydra-38a6b0dacca3"
 isUpdated: true
 ---
-
-
-
-
 
 안녕하세요! 오늘은 DVWA 브루트 포스 랩을 해킹하는 간단한 명령어를 두 가지 도구를 사용하여 소개하려고 해요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 본 자습서에서는 Ubuntu 머신을 사용하지만 Kali Linux도 사용할 수 있어요. 먼저 필요한 도구들을 설치해 봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 1: DVWA 설치 및 구성
 
@@ -35,7 +42,18 @@ sudo bash -c "$(curl --fail --show-error --silent --location https://raw.githubu
 
 ![이미지](/assets/img/2024-06-30-BruteForceAttackDVWAwithHydra_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 2: 하이드라 설치
 
@@ -52,7 +70,18 @@ hydra
 
 ![이미지](/assets/img/2024-06-30-BruteForceAttackDVWAwithHydra_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 3: 비밀번호 사전 준비하기
 
@@ -62,7 +91,18 @@ hydra
 
 대상 페이지를 검토하여 비밀번호 필드의 이름과 양식 제출 방법(GET인 경우)을 식별하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-30-BruteForceAttackDVWAwithHydra_2.png" />
 
@@ -72,7 +112,18 @@ hydra
 
 # 단계 5: 실패 메시지 가져오기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로그인에 실패한 경우에 나타나는 메시지를 확인해주세요. 예를 들어, "사용자 이름 또는 비밀번호가 올바르지 않습니다."와 같이 표시됩니다.
 
@@ -82,7 +133,18 @@ hydra
 
 ## 공격 실행
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Hydra를 사용한 브루트 포스 공격의 주요 명령어는 다음과 같아요:
 
@@ -101,7 +163,18 @@ hydra -L users.txt -P 100k-most-used-passwords-NCSC.txt localhost http-get-form 
 - /DVWA/vulnerabilities/brute/: 경로
 - 마지막으로 사용자 이름과 비밀번호 변수를 전달하여 시도해봐요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로, 우리가 얻은 결과는 다음과 같습니다
 
@@ -111,7 +184,18 @@ hydra -L users.txt -P 100k-most-used-passwords-NCSC.txt localhost http-get-form 
 
 이 내용을 통해 Hydra를 사용하여 DVWA에 대한 브루트 포스 공격을 수행하는 방법을 안내해 드렸습니다. 이 지식을 책임있게 활용해 주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 친절한 답변 감사합니다! 이 튜토리얼이 도움이 되었으면 좋겠어요. 이 도구들을 책임있게 사용해주세요. 🛡️💻
 

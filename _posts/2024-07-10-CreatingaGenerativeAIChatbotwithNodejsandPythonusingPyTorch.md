@@ -3,17 +3,13 @@ title: "Nodejs와 Python, PyTorch로 생성적인 AI 챗봇 만드는 방법"
 description: ""
 coverImage: "/issue-truck.github.io/assets/no-image.jpg"
 date: 2024-07-10 01:04
-ogImage: 
+ogImage:
   url: /issue-truck.github.io/assets/no-image.jpg
 tag: Tech
 originalTitle: "Creating a Generative AI Chatbot with Node.js and Python using PyTorch"
 link: "https://medium.com/@tc2018000487/creating-a-generative-ai-chatbot-with-node-js-and-python-using-pytorch-4b9f190199a6"
 isUpdated: true
 ---
-
-
-
-
 
 인공 지능(AI)은 모두가 챗봇을 개발하기 쉽게 만들어줬어요. 이를 통해 개발자들은 생성적 언어 모델을 사용하여 인간과 대화를 시뮬레이션할 수 있는 애플리케이션을 만들 수 있게 되었어요. 이 기사에서는 Node.js와 Python을 사용하여 생성적 챗봇을 만드는 방법을 살펴보고, PyTorch를 활용한 도구와 기술을 강조할 거예요. 이 챗봇에는 스페인어로 직업 테스트를 수행하는 기능도 포함돼 있을 거에요.
 
@@ -23,7 +19,18 @@ Node.js: 브라우저 외부에서 JavaScript 코드를 실행할 수 있는 Jav
 
 PyTorch: Facebook의 AI 연구실에서 개발한 오픈소스 머신 러닝 라이브러리로, 자연어 처리와 컴퓨터 비전과 같은 응용에 널리 사용돼요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GPT-3.5 Turbo: OpenAI에서 개발한 최첨단 생성 언어 모델로, 일관성 있고 문맥적으로 관련 있는 텍스트를 생성할 수 있습니다.
 
@@ -33,7 +40,18 @@ Node.js와 Python을 사용한 PyTorch를 이용하여 생성 대화형 챗봇�
 
 ## 환경 설정
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Node.js 프로젝트를 설정하고 종속 항목을 설치하세요:
 
@@ -42,24 +60,33 @@ Node.js와 Python을 사용한 PyTorch를 이용하여 생성 대화형 챗봇�
   cd chatbotpytorchtomas
   npm init -y
   npm install express openai body-parser
-  
 
 - Python 환경을 설정하고 종속 항목을 설치하세요:
 
   shell
   pip install torch transformers openai flask
-  
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## GPT-3.5 Turbo 모델 로딩
 
 Node.js: index.js 파일 생성:
 
 ```js
-const express = require('express');
-const { Configuration, OpenAIApi } = require('openai');
-const bodyParser = require('body-parser');
+const express = require("express");
+const { Configuration, OpenAIApi } = require("openai");
+const bodyParser = require("body-parser");
 ```
 
 ```js
@@ -111,7 +138,18 @@ app.listen(port, () => {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이썬: Create chatbotpytorch.py:
 
@@ -157,7 +195,18 @@ if __name__ == '__main__':
 
 # 웹 페이지: index.html
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <!DOCTYPE html>
@@ -231,10 +280,10 @@ if __name__ == '__main__':
         function sendMessage() {
             var user_input = $("#user_input").val();
             if(user_input.trim() === '') return;
-            
+
             $("#chatbox").append("<p class='user-message'><strong>You:</strong> " + user_input + "</p>");
             $("#user_input").val('');
-            
+
             $.post("/chat", { user_input: user_input }, function(data) {
                 $("#chatbox").append("<p class='bot-message'><strong>Bot:</strong> " + data.response + "</p>");
                 $("#chatbox").scrollTop($("#chatbox")[0].scrollHeight);
@@ -249,7 +298,18 @@ if __name__ == '__main__':
 
 유연성과 확장성: Node.js를 사용하면 이벤트 기반 아키텍처의 효율성과 확장성을 활용하여 다중 동시 사용자와 대량 데이터를 처리하는 챗봇 애플리케이션을 확장할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 빠른 개발: PyTorch와 Node.js의 조합을 통해 개발자들은 기계학습에 대한 깊은 지식이 없어도 빠르게 생성형 챗봇을 구현할 수 있습니다.
 

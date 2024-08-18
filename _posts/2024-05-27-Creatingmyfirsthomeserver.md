@@ -3,17 +3,13 @@ title: "내 첫 번째 홈 서버 만들기"
 description: ""
 coverImage: "/assets/img/2024-05-27-Creatingmyfirsthomeserver_0.png"
 date: 2024-05-27 12:19
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-Creatingmyfirsthomeserver_0.png
 tag: Tech
 originalTitle: "Creating my first home server"
 link: "https://medium.com/@tararhoseyn/creating-my-first-home-server-2104cc610514"
 isUpdated: true
 ---
-
-
-
-
 
 소프트웨어 및 제품 개발자로 일하고 있는데, 최근 몇 달간 컴퓨팅의 하드웨어/인프라 구성 요소에 대해 더 많이 배우고 있어요. 지식이 직접적인 영향을 미치지 않더라도, 일상적인 업무에 굉장히 중요한 컴퓨팅에 대한 일반적인 이해를 가지는 것이 도움이 될 것 같아요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 그래서 저는 주변에 버려져 있는 고장난 노트북을 살펴보기로 결정했어요. i5가 장착된 오래된 HP 노트북 g5 250이 있었어요. 몇 년 동안 사용하지 않은 이유는 배터리가 고장나고 두 번째 교체 배터리도 망가지고 하드 드라이브도 망가졌기 때문이에요. 그 노트북은 상태가 좋지 않아 보였어요. 하지만 가동시킬 수 있다면, 여러 서비스를 운영할 수 있는 저전력 서버로 완벽하지 않을까 생각했어요. 그래서 수리에 도전했죠!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 노트북 수리하기
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ## 우분투로 윈도우 교체하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 조금 논란적인 의견이 될 것 같아요... HP에 꽂은 드라이브에는 Windows 8이 설치되어 있었어요. 저는 Windows 운영 체제(OS)를 업데이트하거나 버전 8을 유지할 수도 있었지만, 나이가 든 하드웨어와 750GB 하드 드라이브만 가진 노트북을 위해 가벼운 OS가 필요했어요. 특히 하드 드라이브 한 개가 저장소와 OS 부팅 모두로 사용된다는 점을 감안하면요. 그래서 리눅스 길을 선택하기로 결정했어요. 리눅스를 사용해 본 적이 없어서 Ubuntu를 선택했어요. 초보자에게 좋은 선택인 것 같았거든요.
 
@@ -41,7 +59,18 @@ isUpdated: true
 
 여러분 중 기술에 능통한 분들은 이미 Ubuntu 서버가 아닌 Ubuntu 데스크탑을 선택한 이유에 궁금해할 수도 있어요. 단순한 답은 저는 처음 시도하는 것이라 GUI를 통해 쉽게 설정하고 유지보수하기 위해서였어요. 예전에 소프트웨어 공학 강의 중 한 교수님으로부터 소중한 약어를 배운 적이 있어요. 그것을 자주 뇌물에 하죠: KISS. Keep it simple, stupid.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 배터리를 완전히 제거하는 것
 
@@ -51,7 +80,18 @@ isUpdated: true
 
 작은 서버 구성을 연구하던 중 Zima Board라는 제품과 그 GUI 시스템인 CasaOS라는 오픈 소스 소프트웨어를 발견했습니다. 이 소프트웨어는 쉽게 Linux에서 실행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Casa는 서버 관리에 대한 완벽한 초보자용 안내서입니다. 노트북 구성이 24/7 전원으로 설정되었으며, Casa를 터미널에 설치했습니다 (추가 정보: 리눅스의 터미널 및 명령어의 편리함은 윈도우즈와 비교할 때 매우 인상적입니다).
 
@@ -61,7 +101,18 @@ Casa는 서버 관리에 대한 완벽한 초보자용 안내서입니다. 노�
 
 ![이미지](/assets/img/2024-05-27-Creatingmyfirsthomeserver_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저도 Casa의 대시보드가 매끄럽고 초보자 친화적이라는 점을 좋아해요. 그리고 독립된 IP에서 호스팅되어 있어서 집 내 모든 기기에서 대시보드(그에 따라 서버에서 실행 중인 모든 서비스)에 접속할 수 있어요. 시스템을 설정하고 나서, 스마트 TV에서 IP에 접속하여 소파에서 편안하게 나머지 설정을 마쳤어요!
 
@@ -74,7 +125,18 @@ Casa는 서버 관리에 대한 완벽한 초보자용 안내서입니다. 노�
 - qBittorent — 파일을 토렌트하는 데 사용돼요.
 - Wireguard — VPN 프로토콜이지만 설정에 문제가 있어서 다시 시도해봐야 할 것 같아요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 향후 개선 사항
 

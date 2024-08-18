@@ -3,17 +3,13 @@ title: "2024년에 선택해야 할 오픈소스 LLM은"
 description: ""
 coverImage: "/assets/img/2024-07-10-WhichOpen-SourceLLMShouldYouChoosein2024_0.png"
 date: 2024-07-10 00:32
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-10-WhichOpen-SourceLLMShouldYouChoosein2024_0.png
 tag: Tech
 originalTitle: "Which Open-Source LLM Should You Choose in 2024?"
 link: "https://medium.com/towards-artificial-intelligence/which-open-source-llm-should-you-choose-in-2024-c3901ce02271"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-07-10-WhichOpen-SourceLLMShouldYouChoosein2024_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # Transformer 모델
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 본래 Transformer 아키텍처는 두 부분으로 나뉩니다: 왼쪽에는 인코더가 있고 오른쪽에는 디코더가 연결되어 있습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 먼저 입력 문장을 토큰화해야 합니다; 즉, 단어(문자열)를 토큰(숫자)에 매핑해야 합니다. 예를 들어, 단어 "the"를 토큰 342로 매핑할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 토큰들은 고차원 임베딩 벡터로 변환됩니다. 비슷한 단어 임베딩은 이 고차원 벡터 공간에서 서로 가깝게 위치합니다. 따라서, 우리의 토큰 번호 342는 512차원 벡터로 인코딩됩니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 # LLM의 진화: 현재 기술 수준
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Yang 및 그 동료들은 최신 LLM의 진화를 나무로 기록했으며, 해당 모델들을 아키텍처 선택과 오픈 소스 여부에 따라 분류했습니다. 최신 정보는 https://github.com/JingfengYang/LLMsPracticalGuide에서 확인할 수 있습니다.
 
@@ -53,7 +82,18 @@ Yang 및 그 동료들은 최신 LLM의 진화를 나무로 기록했으며, 해
 
 ![이미지](/assets/img/2024-07-10-WhichOpen-SourceLLMShouldYouChoosein2024_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인코더-디코더 모델은 일련의 입력을 일련의 출력으로 변환하는 모델로도 불립니다. 사전 훈련 중에는 주어진 텍스트의 일부 단어가 가려지고, 모델은 그 가려진 단어를 예측해야 합니다. 이론적으로, 인코더-디코더 언어 모델은 번역, 텍스트 요약 및 생성적 질문 응답과 같은 작업에 가장 적합합니다.
 
@@ -63,7 +103,18 @@ Yang 및 그 동료들은 최신 LLM의 진화를 나무로 기록했으며, 해
 
 아래 표에는 최근 오픈 소스 트랜스포머 모델에 대한 요약과 추가 정보가 포함되어 있습니다. 이러한 모든 언어 모델은 다운로드하여 로컬에서 사용할 수 있습니다. 대부분의 모델은 허깅페이스의 Transformers API에서 제공됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-10-WhichOpen-SourceLLMShouldYouChoosein2024_4.png)
 
@@ -73,7 +124,18 @@ Yang 및 그 동료들은 최신 LLM의 진화를 나무로 기록했으며, 해
 
 # 모델 크기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파라미터 수와 양자화는 LLM 사용의 주요 제약사항으로 모델의 크기를 결정합니다.
 
@@ -83,7 +145,18 @@ LLM을 사용하려면 모델을 메모리에 맞춰야 합니다. 32비트 부�
 
 16비트 양자화(BFLOAT16 또는 FP16)를 사용하면 1개의 파라미터당 2바이트로 줄일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 8비트 정수(INT8)를 사용할 경우, 매개변수 당 1바이트의 RAM이 필요합니다.
 
@@ -93,7 +166,18 @@ LLM을 사용하려면 모델을 메모리에 맞춰야 합니다. 32비트 부�
 
 그러나 CUDA 커널을 로드하는 것만으로도 1~2GB의 메모리를 사용할 수 있습니다. 따라서 실제로는 매개변수로 GPU 메모리 전체를 채울 수 없을 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LLM을 훈련시키려면 GPU RAM이 더 많이 필요합니다. 옵티마이저 상태, 그래디언트 및 포워드 활성화는 매개변수 당 추가 메모리가 필요하기 때문이죠.
 
@@ -103,7 +187,18 @@ LLM을 선택할 때는 GPU의 메모리 용량을 확인하고, 그에 맞는 �
 
 만약 상업용 모델 비용을 지불하고 싶지 않지만 자신의 용도에 LLM을 사용하고 싶다면, 오픈 소스 LLM을 활용해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LLMs(Large Language Models)은 아직 상대적으로 새로운 기술이며 지속적으로 개선되고 있으므로 최근에 출시된 모델을 사용하는 것이 좋을 것 같아요.
 
@@ -113,12 +208,21 @@ LLMs(Large Language Models)은 아직 상대적으로 새로운 기술이며 지
 
 # 참고문헌
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **References:**
 
 - A. Vaswani et al., "Attention Is All You Need" (2017), [arXiv:1706.03762](https://arxiv.org/abs/1706.03762)
-  
 - J. Yang et al., "Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond" (2023), [arXiv:2304.13712](https://arxiv.org/abs/2304.13712)
-  
 - Hugging Face Documentation, "Anatomy of Model’s Operations" (2024)

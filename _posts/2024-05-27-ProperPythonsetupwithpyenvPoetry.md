@@ -3,16 +3,13 @@ title: "적절한 Python 설정 pyenv와 Poetry"
 description: ""
 coverImage: "/assets/img/2024-05-27-ProperPythonsetupwithpyenvPoetry_0.png"
 date: 2024-05-27 13:52
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-ProperPythonsetupwithpyenvPoetry_0.png
 tag: Tech
 originalTitle: "Proper Python setup with pyenv , Poetry"
 link: "https://medium.com/@douwevandermeij/proper-python-setup-with-pyenv-poetry-4d8baea329a8"
 isUpdated: true
 ---
-
-
-
 
 많은 경우, 사람들이 Python의 로컬(개발) 환경 설정에서 고민하는 것을 자주 볼 수 있어요. 솔직히 말하자면, 쉽지 않아요. 그러나 동시에 안정성과 문제 해결 능력을 위해 중요하답니다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 # pyenv
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## pyenv 설치
 
@@ -34,7 +42,18 @@ isUpdated: true
 curl https://pyenv.run | bash
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 pyenv은 ~/.pyenv 위치에 설치됩니다.
 
@@ -44,7 +63,18 @@ pyenv를 로드 경로에 추가해야하는 몇 가지 추가 단계가 나타�
 
 새 터미널에서 pyenv를 실행하여 테스트해보세요. 명령어 목록이 표시된다면 사용할 준비가 된 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Python 설치
 
@@ -57,7 +87,18 @@ pyenv를 로드 경로에 추가해야하는 몇 가지 추가 단계가 나타�
 
 이것은 OS와 함께 제공되는 표준 Python입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로 pyenv에서 Python 버전을 확인합니다:
 
@@ -70,7 +111,18 @@ pyenv를 로드 경로에 추가해야하는 몇 가지 추가 단계가 나타�
 
 pyenv를 통해 Python 버전을 설치하려면 몇 가지 의존성을 설치해야 합니다. 여러분의 운영 체제에 해당하는 의존성을 설치하려면 다음 문서를 참조해주세요: https://github.com/pyenv/pyenv/wiki#suggested-build-environment
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 상황에서:
 
@@ -89,7 +141,18 @@ Python-3.11.7.tar.xz 다운로드 중...
 Python-3.11.7 설치 중...
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 pyenv에서 Python 버전을 다시 확인해 봅시다:
 
@@ -103,8 +166,18 @@ Python-3.11.7 설치 중...
 
 이제 활성화하고 버전을 다시 확인해 봅시다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [~]$ pyenv global 3.11.7
 [~]$ pyenv versions
@@ -112,17 +185,25 @@ system
 
 - 3.11.7 (set by /home/vandermeij/.pyenv/version)
 
-
 지금은 Python 3.11.7이 활성화된 Python 버전으로, 전역적이며 시스템 전역으로 적용되었음을 확인했습니다.
 
 다시 한 번 기본 Python 버전을 확인해보세요:
 
-
 [~]$ which python
 /home/vandermeij/.pyenv/shims/python
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위치가 /usr/bin/python과 다르다는 것을 주목하세요. 이제 pyenv가 유지 관리하는 심볼릭 링크를 가리킵니다. 이건 좋은 일이에요! 이제 penv versions로 확인할 수 있듯이 선택한 Python 버전을 가리킵니다.
 
@@ -139,7 +220,18 @@ system
 
 ## 사용법
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 주로 pyenv를 주요 Python 배포 업체로 사용합니다. 기본 시스템 Python을 거의 사용하지 않아요. 저의 컴퓨터에서는 이렇게 나와요:
 
@@ -153,7 +245,18 @@ system
 
 testapp이라는 작은 프로젝트를 만든다고 가정해봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 [~]$ mkdir testapp
@@ -169,7 +272,18 @@ pyenv: version `3.12' not installed
 
 버전 3.12가 아직 설치되지 않았다고 알려줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 설치해보겠습니다:
 
@@ -190,7 +304,18 @@ Python-3.12.1을 설치 중...
 * 3.12.1 (설정 위치: /home/vandermeij/testapp/.python-version)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이썬 3.12.1이 활성화되어 있는 것을 확인할 수 있어요. 이는 이 폴더 내의 .python-version이라는 로컬 파일로 인해 터미널에서 특정 버전을 로드하도록 pyenv에 알려주기 때문이에요.
 
@@ -205,7 +330,18 @@ Python-3.12.1을 설치 중...
 
 pyenv를 사용하면 로컬 또는 전역 파이썬 버전에 관해 항상 사용 중인 파이썬 버전을 알 수 있고 완전한 제어권을 가질 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 적절한 개발 환경 설정 단계는 외부 라이브러리/의존성을 설치하기 위해 가상 환경을 사용하는 것입니다. 이렇게 함으로써 a) 우리의 pyenv Python 배포를 깨끗하게 유지할 수 있고, b) 다른 프로젝트와 충돌하지 않습니다. 이에 대해 저는 Poetry를 추천합니다.
 
@@ -215,7 +351,18 @@ pyenv를 사용하면 로컬 또는 전역 파이썬 버전에 관해 항상 사
 
 새로 설치한 pyenv Python 버전에 설치할 유일한 외부 라이브러리는 Poetry입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 [~]$ pip install poetry
@@ -232,7 +379,18 @@ pyenv: poetry: command not found
 
 ## 사용법
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새 프로젝트를 시작하려면 poetry init -q를 실행해 보세요. 이렇게 하면 pyproject.toml 파일이 생성됩니다.
 
@@ -248,7 +406,18 @@ Spawning shell within /home/vandermeij/.cache/pypoetry/virtualenvs/testapp-b6lGs
 
 이렇게 하면 가상 환경 (virtualenv)이 생성되고, 이미 존재하지 않는 경우 새 쉘이 생성되며 해당 가상 환경이 활성화됩니다. 프롬프트(PS1)에서 확인할 수 있습니다: (testapp-py3.12) [~/testapp]$.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 which python을 실행하면 가상 환경에 연결된 다른 심볼릭 링크를 볼 수 있습니다:
 
@@ -264,7 +433,18 @@ Spawning shell within /home/vandermeij/.cache/pypoetry/virtualenvs/testapp-b6lGs
 Python 3.12.1
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 가상 환경에서는 종속 항목을 설치할 것입니다.
 
@@ -277,18 +457,26 @@ Python 3.12.1
 
 이제 FastAPI와 같은 새로운 종속성을 추가할 수 있습니다. poetry add fastapi를 사용하거나 pyproject.toml 파일을 수동으로 편집할 수 있습니다. 일반적으로 후자를 사용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 패스트API를 수동으로 추가하겠습니다. 좋아하는 편집기로 pyproject.toml 파일을 열고 다음 줄을 변경하세요 (fastapi = "\*"):
 
-
 [tool.poetry.dependencies]
 python = "^3.12"
-fastapi = "*"
-
+fastapi = "\*"
 
 이제 Poetry 업데이트를 실행해보세요:
-
 
 (testapp-py3.12) [~/testapp]$ poetry update
 의존성 업데이트 중
@@ -296,20 +484,30 @@ fastapi = "*"
 
 패키지 작업: 9개 설치, 0개 업데이트, 0개 제거
 
-  • idna (3.6) 설치 중
-  • sniffio (1.3.0) 설치 중
-  • typing-extensions (4.9.0) 설치 중
-  • annotated-types (0.6.0) 설치 중
-  • anyio (4.2.0) 설치 중
-  • pydantic-core (2.14.6) 설치 중
-  • pydantic (2.5.3) 설치 중
-  • starlette (0.35.1) 설치 중
-  • fastapi (0.109.0) 설치 중
+• idna (3.6) 설치 중
+• sniffio (1.3.0) 설치 중
+• typing-extensions (4.9.0) 설치 중
+• annotated-types (0.6.0) 설치 중
+• anyio (4.2.0) 설치 중
+• pydantic-core (2.14.6) 설치 중
+• pydantic (2.5.3) 설치 중
+• starlette (0.35.1) 설치 중
+• fastapi (0.109.0) 설치 중
 
 잠금 파일 작성 완료
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가상 환경이 FastAPI 및 해당 종속성들로 풍부해졌어요. 보너스로, Poetry가 poetry.lock 파일을 생성했는데, 이 파일에는 설치된 각 (하위)종속성의 특정 버전이 포함되어 있어요.
 
@@ -321,7 +519,18 @@ fastapi = "*"
 
 이제 pyenv와 Poetry를 사용하여 깔끔하고 적절한 Python 개발 환경을 구축했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 가상 환경의 전체 개요를 보려면 poetry env list를 실행하세요:
 
@@ -337,7 +546,18 @@ testapp-b6lGsqOc-py3.12 (Activated)
 [~/testapp]$
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

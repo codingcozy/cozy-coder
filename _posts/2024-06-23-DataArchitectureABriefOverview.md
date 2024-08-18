@@ -3,17 +3,13 @@ title: "데이터 아키텍처 간단 개요"
 description: ""
 coverImage: "/assets/img/2024-06-23-DataArchitectureABriefOverview_0.png"
 date: 2024-06-23 16:18
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-DataArchitectureABriefOverview_0.png
 tag: Tech
 originalTitle: "Data Architecture : A Brief Overview"
 link: "https://medium.com/towards-data-engineering/data-architecture-a-brief-overview-a93286f3e1f7"
 isUpdated: true
 ---
-
-
-
-
 
 데이터 아키텍처는 성공적인 데이터 엔지니어링의 중요한 요소입니다. 조직 전반에서 데이터 수집, 저장, 처리 및 활용 방식의 기초를 제공합니다. 잘 설계된 데이터 아키텍처를 통해 기업은 원활한 데이터 통합, 높은 성능, 확장성 및 효과적인 데이터 거버넌스를 달성할 수 있습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 데이터 아키텍처는 조직 내에서 데이터가 수집, 저장, 관리되고 사용되는 방식을 개요로 설명하는 구조화된 프레임워크를 의미합니다. 데이터 흐름, 데이터 모델 및 데이터 처리에 사용되는 기술을 정의합니다. 견고한 데이터 아키텍처는 데이터가 다양한 비즈니스 요구에 대해 접근 가능하고 신뢰할 수 있으며 관련성이 있도록 보장하여 효율적인 의사 결정과 운영 효율성을 촉진합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 아키텍처는 기업 아키텍처의 하위 집합으로, 조직의 전체 IT 인프라 및 프로세스를 포괄합니다. 기업 아키텍처에는 비즈니스, 애플리케이션, 기술, 데이터 아키텍처와 같은 다양한 구성 요소가 포함됩니다. 기업 아키텍처의 더 넓은 맥락을 이해하면 데이터 아키텍처가 조직의 전체 전략 내에서 어떤 역할과 중요성을 발휘하는지를 이해할 수 있습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 과거 몇 10년 동안 데이터 아키텍처는 효율적인 데이터 분석의 필요성 증가와 데이터를 비즈니스 이익으로 활용하기 위한 데이터 전략의 현대화로 인해 상당한 변화를 겪었습니다. 이러한 진화는 각각이 특정 아키텍처 관행과 기술로 특징 지어지는 여러 중요한 단계로 나타납니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2000년 이전: 기업 데이터 웨어하우스 (EDW) 시대
 
@@ -45,7 +63,18 @@ isUpdated: true
 - 정의된 스키마를 가진 구조화된 데이터
 - 비즈니스 인텔리전스 및 보고에 초점을 맞춤
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한계:
 
@@ -57,7 +86,18 @@ isUpdated: true
 
 이 기간에는 전통적인 데이터 웨어하우스의 한계에 대한 대처 방향으로의 변화가 있었습니다. 조직들은 분산된 데이터와 데이터 실로에 대한 도전에 직면하며, 일관성 없고 조각난 분석을 유발했습니다. 데이터 마트가 인기를 얻게 되었는데, 이는 부서가 자체 데이터를 관리할 수 있게 해 주었지만, 더 많은 분열을 유발했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특징:
 
@@ -71,7 +111,18 @@ isUpdated: true
 - 기업 전체 통찰력을 위한 데이터 통합의 어려움
 - 여러 데이터 시스템 유지비용 증가
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2010년부터 2020년까지: 논리 데이터 웨어하우스 (LDW) 시대
 
@@ -83,7 +134,18 @@ isUpdated: true
 - 데이터 웨어하우스, 데이터 마트 및 데이터 레이크의 통합
 - 향상된 데이터 분석 기능
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 혜택:
 
@@ -97,7 +159,18 @@ isUpdated: true
 - Semantic 레이어 관리의 복잡성이 증가합니다.
 - LDW를 구현하고 유지하는 데 전문 기술이 필요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2020년부터의 시대: 증강 데이터 분석과 활성 메타데이터의 시대
 
@@ -110,7 +183,18 @@ isUpdated: true
 - 고급 데이터 조정 및 추천 엔진
 - 적응적인 실천과 활성 메타데이터 분석
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 혜택:
 
@@ -125,7 +209,18 @@ isUpdated: true
 - 비즈니스 메타데이터: 데이터의 비즈니스 의미와 사용에 대한 맥락 정보.
 - 소셜 메타데이터: 데이터 상호작용 및 사용 패턴에서 유도된 인사이트.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 활성 메타데이터는 데이터를 설명하는 것뿐만 아니라 시스템 간 작업을 식별하여 더 동적이고 지능적인 데이터 작업을 용이하게 합니다.
 
@@ -138,7 +233,18 @@ isUpdated: true
 
 활성 메타데이터와 증강 분석으로 발전하는 것은 데이터 아키텍처의 능력을 전통적인 방식을 넘어서게 하여 다양한 사용 사례에 걸쳐 더 정교한 데이터 관리와 분석을 가능케 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 주요 아키텍처 원칙과 개념
 
@@ -148,7 +254,18 @@ isUpdated: true
 
 주요 기업들은 자체 아키텍처 원칙을 따라 자신들의 시스템의 효과성과 효율성을 보장합니다. 예를 들어:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AWS 웰 아키텍처 프레임워크에는 여섯 가지 핵심이 있습니다:
 
@@ -167,7 +284,18 @@ AWS 웰 아키텍처 프레임워크에는 여섯 가지 핵심이 있습니다:
 - 깊이 우선 방어 실천
 - 항상 아키텍처 구축중임.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 프레임워크와 "데이터 엔지니어링 기본"과 같은 다른 리소스에서 영감을 받아, 여기에는 좋은 데이터 아키텍처를 설계하는 데 필수적인 몇 가지 조직화된 원칙과 개념이 있습니다.
 
@@ -177,7 +305,18 @@ AWS 웰 아키텍처 프레임워크에는 여섯 가지 핵심이 있습니다:
 
 혜택:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 조직적 명확성: 명확히 정의된 도메인과 서비스는 데이터와 프로세스를 조직화하는 데 도움이 됩니다.
 - 집중된 개발: 팀은 특정 서비스에 집중하여 효율성과 전문성을 향상시킬 수 있습니다.
@@ -188,7 +327,18 @@ AWS 웰 아키텍처 프레임워크에는 여섯 가지 핵심이 있습니다:
 
 혜택:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 확장성: 더 많은 노드를 추가하여 부하 처리 용이.
 - 신뢰성: 중복된 노드는 일부 노드가 실패해도 시스템 가용성을 보장합니다.
@@ -199,7 +349,18 @@ AWS 웰 아키텍처 프레임워크에는 여섯 가지 핵심이 있습니다:
 
 혜택:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 비용 효율성: 사용한 리소스에 대해서만 지불하세요.
 - 성능 최적화: 피크 시간에는 성능을 유지하고 낮은 사용량 기간에는 비용을 최적화하세요.
@@ -210,7 +371,18 @@ AWS 웰 아키텍처 프레임워크에는 여섯 가지 핵심이 있습니다:
 
 주요 지표:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 가동 시간: 시스템이 작동 중인 시간의 백분율.
 - 고장 사이의 평균 시간 (MTBF): 시스템 고장 사이의 평균 시간.
@@ -223,7 +395,18 @@ AWS 웰 아키텍처 프레임워크에는 여섯 가지 핵심이 있습니다:
 
 ## 이벤트 주도형 아키텍처
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이벤트 주도 아키텍처는 시스템이 이벤트나 상태 변경에 대응하는 설계 패러다임입니다. 이 접근 방식은 높은 결합도를 갖추고, 유연성과 확장성을 촉진합니다.
 
@@ -235,7 +418,18 @@ AWS 웰 아키텍처 프레임워크에는 여섯 가지 핵심이 있습니다:
 
 ## 사용자 액세스: 단일 vs. 멀티테넌트
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Single-tenant 아키텍처는 각 고객에게 소프트웨어 및 데이터베이스의 전용 인스턴스를 할당하며, 멀티테넌트 아키텍처는 다중 고객 사이에서 리소스를 공유합니다.
 
@@ -247,7 +441,18 @@ Single-tenant 아키텍처는 각 고객에게 소프트웨어 및 데이터베�
 
 이러한 원칙을 준수하고 이러한 개념을 이해하여 현대 비즈니스 환경의 요구 사항을 충족하면서 확장 가능하고 신뢰할 수 있으며 비용 효율적인 데이터 아키텍처를 설계할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 주요 데이터 아키텍처 패턴
 
@@ -257,7 +462,18 @@ Single-tenant 아키텍처는 각 고객에게 소프트웨어 및 데이터베�
 
 데이터 웨어하우스는 구조화된 데이터를 저장하고 보고 및 분석하기 위해 설계된 중앙 저장소입니다. 쿼리 성능과 데이터 집계에 최적화되어 있어 비즈니스 인텔리전스 애플리케이션에 이상적입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 해당 데이터 아키텍처에 대한 간략한 설명입니다:
 
@@ -269,7 +485,18 @@ Single-tenant 아키텍처는 각 고객에게 소프트웨어 및 데이터베�
 
 혜택:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 높은 성능: 복잡한 쿼리와 데이터 분석에 최적화되어 있습니다.
 - 데이터 통합: 다양한 소스에서 데이터를 통합하여 통일된 뷰를 제공합니다.
@@ -283,7 +510,18 @@ Single-tenant 아키텍처는 각 고객에게 소프트웨어 및 데이터베�
 
 ## 2. 데이터 레이크
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Data lakes는 방대한 양의 원시, 비구조화 및 반구조화 데이터를 저장합니다. 데이터 웨어하우스와 달리 데이터 레이크는 데이터에 엄격한 스키마를 부과하지 않아 데이터 수집 및 저장에 더 많은 유연성을 제공합니다.
 
@@ -295,7 +533,18 @@ Data lakes는 방대한 양의 원시, 비구조화 및 반구조화 데이터�
 - 확장성: 대량의 데이터를 처리할 수 있습니다.
 - 스키마형 읽기: 데이터 저장 시가 아닌 데이터를 읽을 때 스키마가 적용됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 장점:
 
@@ -308,7 +557,18 @@ Data lakes는 방대한 양의 원시, 비구조화 및 반구조화 데이터�
 - 데이터 관리: 적절한 관리 없이 데이터 레이크는 데이터 스왐프가 될 수 있습니다.
 - 성능: 데이터 웨어하우스와 비교하여 쿼리 성능이 느릴 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용 사례:
 
@@ -320,10 +580,20 @@ Data lakes는 방대한 양의 원시, 비구조화 및 반구조화 데이터�
 
 현대 데이터 스택은 데이터 통합, 변환, 저장 및 분석을 용이하게 하는 일련의 모듈식 클라우드 기반 도구의 집합을 가리킵니다. 이 방식은 기민성, 확장성 및 사용 편의성을 강조합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 마크다운 형식으로 변경한 내용입니다.
-
 
 ![Data Architecture Overview](/assets/img/2024-06-23-DataArchitectureABriefOverview_3.png)
 
@@ -336,8 +606,18 @@ Components:
 
 Benefits:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 모듈성: 쉽게 교체하거나 업그레이드할 수 있는 유연한 구성 요소입니다.
 - 확장성: 데이터 양과 사용량에 맞게 확장되는 클라우드 기반 솔루션입니다.
@@ -351,7 +631,18 @@ Benefits:
 
 ## 4. 통합 배치 및 스트리밍 아키텍처
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 통합 배치 및 스트리밍 아키텍처는 실시간 및 일괄 데이터를 하나의 프레임워크에서 처리하는 것을 목표로 합니다. 이 접근 방식은 데이터 처리 파이프라인을 간소화하고 일괄 및 스트리밍 데이터를 관리하기 위한 별도 시스템의 복잡성을 줄입니다.
 
@@ -362,7 +653,18 @@ Benefits:
 - 람다 아키텍처: 데이터 흐름을 별도 경로로 분리하여 일괄 및 스트리밍 처리를 결합합니다.
 - 카파 아키텍처: 모든 데이터를 스트림으로 처리함으로써 람다 아키텍처를 간소화합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 람다 아키텍처:
 
@@ -375,7 +677,18 @@ Benefits:
 - 포괄적인 데이터 처리: 과거 및 실시간 데이터를 처리합니다.
 - 장애 허용성: 배치 재처리를 통해 데이터 정확성을 보장합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도전:
 
@@ -386,7 +699,18 @@ Benefits:
 - 통합형 스트림 처리: 모든 데이터를 스트림으로 처리하여 아키텍처를 간소화합니다.
 - 재처리: 데이터 스트림을 재처리하여 과거 분석을 수행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 혜택:
 
@@ -397,7 +721,18 @@ Benefits:
 
 데이터 레이크하우스는 데이터 레이크와 데이터 웨어하우스의 기능을 결합하여, 데이터 레이크의 유연성과 데이터 웨어하우스의 성능 및 관리 기능을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-23-DataArchitectureABriefOverview_5.png" />
 
@@ -409,7 +744,18 @@ Benefits:
 
 혜택:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 유연성: 다양한 데이터 유형과 워크로드를 처리할 수 있습니다.
 - 성능: 고성능 쿼리 및 데이터 관리를 위해 최적화되었습니다.
@@ -423,7 +769,18 @@ Benefits:
 
 ## 6. 데이터 매쉬
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 메시는 도메인 주도 설계의 원칙을 데이터 관리에 적용한 분산형 데이터 아키텍처로, 중앙 집중식 데이터 레이크나 데이터 웨어하우스에서 데이터 소유 및 책임을 특정 비즈니스 도메인과 일치시키는 분산 모델로 전환합니다.
 
@@ -436,7 +793,18 @@ Benefits:
 - 셀프 서비스 데이터 인프라: 도메인이 자체적으로 데이터를 관리할 수 있도록 필요한 도구와 플랫폼을 제공합니다.
 - 연합된 지배 체계: 중앙 집중식 정책과 표준을 분산 방식으로 시행합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 혜택:
 
@@ -450,7 +818,18 @@ Benefits:
 - 데이터 거버넌스 및 품질을 향상시키려는 기업
 - 데이터 인프라를 확장하려는 조직
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 7. 데이터 패브릭
 
@@ -460,7 +839,18 @@ Benefits:
 
 특징:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 통합 액세스: 모든 데이터 원본에 대한 단일 액세스 포인트를 제공합니다.
 - 통합: 다양한 데이터 환경을 연결하여 데이터 이동 및 통합을 가능하게 합니다.
@@ -475,7 +865,18 @@ Benefits:
 
 사용 사례:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 하이브리드 데이터 환경을 가진 조직
 - 데이터 통합 및 관리를 개선하고자 하는 기업
@@ -513,7 +914,18 @@ Benefits:
 
 이것들은 저가 블로그 글 작성 중 살펴본 일부 자료입니다. 이들은 데이터 아키텍처의 개념과 모범 사례에 대한 추가 통찰력을 제공하고 깊게 이해하는 데 도움이 될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 요약
 

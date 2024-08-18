@@ -3,17 +3,13 @@ title: "ChatGPT vs Claude 35 Sonnet 2024년 최강 AI 챗봇 비교"
 description: ""
 coverImage: "/assets/img/2024-07-13-IsChatGPTFallingBehindClaude35Sonnet_0.png"
 date: 2024-07-13 00:01
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-IsChatGPTFallingBehindClaude35Sonnet_0.png
 tag: Tech
 originalTitle: "Is ChatGPT Falling Behind Claude 3.5 Sonnet?"
 link: "https://medium.com/ai-in-plain-english/is-chatgpt-falling-behind-claude-3-5-sonnet-702b4b4f64ae"
 isUpdated: true
 ---
-
-
-
-
 
 카드 미디움에게 호의적인 어조로 번역해 드리겠습니다.
 
@@ -25,7 +21,18 @@ isUpdated: true
 
 이 AI 공간을 따라 다니는 많은 분들이 클로드 3.5 소넷이 GPT-4o보다 우월하다고 이야기하고 있네요."
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그들은 어떤 모델이 어떤 추상적인 테스트에서 더 잘 수행하는지에 대해 이야기하지 않고 있어요.
 
@@ -35,7 +42,18 @@ isUpdated: true
 
 저는 오픈AI가 곧 GPT-5와 같은 멋진 것을 출시할 것을 희망하고 있지만, 누가 알겠어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저쪽에서 오픈에이아이(OpenAI)의 고위 경영진들이 떠나는 일에 대한 드라마가 많은 것 같아요.
 
@@ -45,7 +63,18 @@ isUpdated: true
 
 ## 뛰어난 글쓰기 및 편집 능력
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Tarot 전문가님, 안녕하세요! 이세상 모든 이들이 인공지능 (AI)를 사용하여 무언가를 쓸 때, Claude 3.5 Sonnet이 더 자연스럽게 글을 쓰는 데 뛰어나다고 합의하는 것 같아요. 거의 모든 사람들이 동의하고 있죠.
 
@@ -55,13 +84,35 @@ Tarot 전문가님, 안녕하세요! 이세상 모든 이들이 인공지능 (AI
 
 ## 유물 사이드바
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **Claude’s artifact sidebar** is my absolute favorite feature of any AI company's LLM.
 
 With the artifacts sidebar, you can view outputs and test code right within the same interface. If ChatGPT writes code, you'd have to cut and paste it elsewhere to see it run. But with Claude, you get to see the code in action thanks to the artifacts sidebar. It's a fantastic feature that's available for free users too! 🌟
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 코드 작성 (그리고 코드 편집)
 
@@ -71,7 +122,18 @@ Claude는 코드 작성에 뛰어나요. 이건 제 경험이기도 해요.
 
 두 LLMs 모두 무언가를 제공하는 것 같아요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 나는 클로드의 코드가 처음부터 잘 작동할 가능성이 더 높은 것 같아.
 
@@ -81,7 +143,18 @@ Claude는 코드 작성에 뛰어나요. 이건 제 경험이기도 해요.
 
 클로드는 새로운 기능을 도입하고 즉시 사용할 수 있게 만들어.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 OpenAI는 데모 중에 멋진 기능을 발표하는 것으로 유명한데요 - 그런데 며칠이 지나도 그 기능들이 아직 공개적으로 이용 가능하지 않게 되어버린다면 실망이겠죠?
 
@@ -91,7 +164,18 @@ Sora 같은 GPT-4o은 사람과 같이 소리를 내는 기술들도 마찬가�
 
 Claude 3.5 Sonnet은 ChatGPT보다 긴 문맥과 복잡한 작업을 더 잘 다루는 능력을 갖고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이해하고 세부적인 맥락을 유지할 수 있는 능력은 연속적이고 복잡한 작업에 더 효과적입니다.
 
@@ -101,7 +185,18 @@ Claude 3.5 Sonnet은 ChatGPT보다 긴 문맥과 복잡한 작업을 더 잘 다
 
 가끔 ChatGPT가 뭔가를 만들기 시작하고, 그 후에 세부 조정을 요청하면, 처음 몇 가지를 잊어버리곤 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 맞춤화 및 공유
 
@@ -111,7 +206,18 @@ Claude 3.5 Sonnet은 ChatGPT보다 긴 문맥과 복잡한 작업을 더 잘 다
 
 # 그러나 ChatGPT에는 클로드보다 몇 가지 장점이 여전히 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## ChatGPT은 다음을 갖추고 있습니다:
 
@@ -124,7 +230,18 @@ Claude 3.5 Sonnet은 ChatGPT보다 긴 문맥과 복잡한 작업을 더 잘 다
 
 LinkedIn에서 저를 팔로우해주세요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 어떤 이메일 마케팅 소프트웨어를 사용하고 있는지 궁금하다면, Beehiiv에 대한 내 리뷰를 여기에서 확인해보세요. 🐝
 
@@ -134,6 +251,17 @@ LinkedIn에서 저를 팔로우해주세요
 
 우리 웹사이트에서도 팔로우해주세요: AI Growth Guys
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 멋진 정보를 확인해 보세요. 인공지능 에이전트를 만들고 싶다면 유용할 거예요.

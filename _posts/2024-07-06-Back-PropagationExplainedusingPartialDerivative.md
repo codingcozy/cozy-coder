@@ -3,17 +3,13 @@ title: "부분 도함수를 사용한 역전파 쉽게 이해하기"
 description: ""
 coverImage: "/assets/img/2024-07-06-Back-PropagationExplainedusingPartialDerivative_0.png"
 date: 2024-07-06 11:00
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-06-Back-PropagationExplainedusingPartialDerivative_0.png
 tag: Tech
 originalTitle: "Back-Propagation Explained using Partial Derivative"
 link: "https://medium.com/@sagar4999/back-propagation-explained-using-partial-derivative-25279e52931c"
 isUpdated: true
 ---
-
-
-
-
 
 #### 백프로파게이션: 심층학습의 기본 컴포넌트
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 백프로파게이션 알고리즘은 두 단계로 구성됩니다: -
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **1. Forward pass**
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 가중치의 그래디언트를 계산하기 위해 오차를 네트워크를 통해 역방향으로 전파합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이해하기 위해 간단한 네트워크를 고려해 보겠습니다. 숨겨진 레이어가 없는 네트워크입니다.
 
@@ -43,7 +61,18 @@ X₁,X₂는 두 개의 입력값입니다. W₁, W₂는 두 개의 가중치�
 
 출력 레이어가 시그모이드 활성화 함수를 사용한다고 가정해 봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 /assets/img/2024-07-06-Back-PropagationExplainedusingPartialDerivative_2.png
 
@@ -53,7 +82,18 @@ S = X₁×W₁ + X₂×W₂ + b — — — — — (여기서 b는 편향)
 
 간단한 훈련 예시를 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 리딩을 시작해 볼까요?
 
@@ -65,7 +105,18 @@ W₁ = 0.5, W₂ = 0.2, b = 1.83
 
 전방 전달(pass)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 S = X₁×W₁ + X₂×W₂ + b
 
@@ -75,7 +126,18 @@ S = 1.94
 
 그런 다음 시그모이드 활성화 함수를 적용하면,
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이렇게하면 위에서 언급한대로 임의로 초기화된 가중치와 편향으로 학습 예제를 전달하면 0.8743이 예측 값으로 나옵니다.
 
@@ -83,7 +145,18 @@ S = 1.94
 
 ![이미지](/assets/img/2024-07-06-Back-PropagationExplainedusingPartialDerivative_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **뒤로 걸어가기**
 
@@ -93,7 +166,18 @@ S = 1.94
 
 함수의 편미분(두 개 이상 변수의 경우)은 다른 변수들을 모두 상수로 유지하면서 한 변수에 대한 도함수입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 멀티변수 함수인 Y = X²Z + H에 대해, X의 변화가 Y에 미치는 영향은 무엇인가요? 이를 위해 X에 대한 Y의 편미분을 가져와야 합니다. 이때 다른 모든 변수를 일정한 값으로 유지합니다.
 
@@ -103,7 +187,18 @@ S = 1.94
 
 ![image](https://miro.medium.com/v2/resize:fit:206/1*dh9ycx6HdraOA4G8VKFE2A.gif)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 예측 오차(E)와 가중치(W₁ 및 W₂)가 동시에 나타나는 직접적인 방정식이 없으므로 우리는 곱셈 연쇄 법칙을 사용합니다.
 
@@ -113,7 +208,18 @@ S = 1.94
 
 ![image](https://miro.medium.com/v2/resize:fit:348/1*YFZnx28fBV2Yrfg3rvh5Qg.gif)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 s = X₁×W₁ + X₂×W₂ + b
 
@@ -123,7 +229,18 @@ s = X₁×W₁ + X₂×W₂ + b
 
 그래서 W₁와 W₂의 가중치 변화가 예측 오차에 미치는 영향을 계산하려면, 위에서 언급한 세 개의 중간 편미분 값을 계산한 후 체인 곱셈 규칙을 적용해야 해요. 그래서 공식은 다음처럼 변해요,
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 한 장씩 계산해 보겠어요.
 
@@ -131,7 +248,18 @@ s = X₁×W₁ + X₂×W₂ + b
 
 ![이미지2](/assets/img/2024-07-06-Back-PropagationExplainedusingPartialDerivative_8.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 /assets/img/2024-07-06-Back-PropagationExplainedusingPartialDerivative_9.png
 
@@ -141,7 +269,18 @@ So, by utilizing equations 1 and 2,
 
 ![](https://miro.medium.com/v2/resize:fit:620/1*b-En22be-NcgPQL7rZZ8rQ.gif)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Derivatives showing a positive trend indicate that boosting the weights can also elevate the error.
 
@@ -151,7 +290,18 @@ When we adjust the weights and bias, we initiate a significant shift in the neur
 
 ![Image 2](/assets/img/2024-07-06-Back-PropagationExplainedusingPartialDerivative_11.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 새 가중치와 바이어스를 기반으로 새 예측과 오차를 계산할 것입니다.
 
@@ -159,7 +309,18 @@ When we adjust the weights and bias, we initiate a significant shift in the neur
 
 ![Back-PropagationExplainedusingPartialDerivative_14](/assets/img/2024-07-06-Back-PropagationExplainedusingPartialDerivative_14.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로운 오류가 조금 이전 것보다 나아졌어요. 오류의 개선은 학습 속도가 작기 때문에 작지만, 높은 학습 속도가 더 나은 것은 아니라는 뜻이에요. 학습 속도는 모델이 문제에 얼마나 빨리 적응하는지를 제어해요. 작은 학습 속도는 가중치에 가해지는 변화가 적기 때문에 더 많은 훈련 epoch를 필요로 하지만, 큰 학습 속도는 빠른 변화를 가져와 더 적은 훈련 epoch를 필요로 해요. 너무 큰 학습 속도는 모델이 너무 빨리 지나치게 최적해에 수렴하게 할 수 있고, 너무 작은 학습 속도는 과정을 멈출 수 있어요.
 

@@ -3,17 +3,13 @@ title: "2024년 DIY Microsoft Teams Room Console 구축 방법"
 description: ""
 coverImage: "/assets/img/2024-06-23-DIYMicrosoftTeamsRoomConsole_0.png"
 date: 2024-06-23 17:58
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-DIYMicrosoftTeamsRoomConsole_0.png
 tag: Tech
 originalTitle: "DIY Microsoft Teams Room Console"
 link: "https://medium.com/@thorstenjanssen/diy-microsoft-teams-room-console-e53ee259526e"
 isUpdated: true
 ---
-
-
-
-
 
 옛날 얘기지만... 약 2년 전, 저는 Crestron Teams Room 장치를 만져봤어요. 그리고 그것이 '그냥' 일부 주변 기기가 붙은 Intel NUC라는 사실에 놀랐죠. 그래서 우리가 실제로 인텔 NUC를 손에 쥐고 난 후(사실 유행병 기간중에 우리의 모든 NUC를 노트북으로 교체했죠), '나는 그 Microsoft Teams Room 콘솔을 처음부터 다시 만들 수 있을까?' 라는 생각이 들었어요.
 
@@ -25,7 +21,18 @@ isUpdated: true
 - 나중에 필요한 구성 XML을 저장할 다른 크기의 USB 스틱
 - Microsoft의 이 문서 요건
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 일부 하드웨어:
 
@@ -41,7 +48,18 @@ isUpdated: true
 - Windows 10 엔터프라이즈
 - Teams Room Standard
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 이제 모든 것을 준비했네요: 행운을 빕니다!
 
@@ -53,21 +71,30 @@ isUpdated: true
 - CreateSrsMedia.ps1 스크립트를 다운로드하여 d:\teams-room\ 등의 해당 폴더로 이동시켜주세요.
 - 관리자 권한으로 PowerShell을 열고 d:\teams-room\ 폴더로 이동해주세요.
 - 스크립트를 실행해주세요:
-a. 첫 번째 질문에 답해주실 때... OEM 사용자면, 어째서 이 블로그를 읽고 계신 거죠? 'Enterprise'라는 대답을 선택해주세요. 그것이 당신의 특성입니다. 그런데 말이지: 이는 설치 프로세스에 필요한 Windows 10 버전에 영향을 줍니다. OEM 사용자들은 계속 진행하기 위해 Windows 10 IoT Enterprise ISO를 사용해야 하지만, 평범한 기업 사용자는 액세스할 수 없어요.
-b. 스크립트가 어떤 드라이버를 설치할지 물으면, 'none'을 선택해주세요.
-c. 스크립트가 완료되기까지 기다려주세요 (약 20분 정도 소요될 거예요).
+  a. 첫 번째 질문에 답해주실 때... OEM 사용자면, 어째서 이 블로그를 읽고 계신 거죠? 'Enterprise'라는 대답을 선택해주세요. 그것이 당신의 특성입니다. 그런데 말이지: 이는 설치 프로세스에 필요한 Windows 10 버전에 영향을 줍니다. OEM 사용자들은 계속 진행하기 위해 Windows 10 IoT Enterprise ISO를 사용해야 하지만, 평범한 기업 사용자는 액세스할 수 없어요.
+  b. 스크립트가 어떤 드라이버를 설치할지 물으면, 'none'을 선택해주세요.
+  c. 스크립트가 완료되기까지 기다려주세요 (약 20분 정도 소요될 거예요).
 - 스크립트가 설치 미디어를 생성하는 동안, Microsoft 365 관리 센터로 가셔서 'Resources - Rooms & Equipment(자원 - 방 및 장비)'에서 '룸'을 만든 뒤, 'Teams Room Standard' 라이선스를 해당 룸에 할당해주세요.
-여기 작은 조언 하나: 룸의 주소를 표준 @[회사명].onmicrosoft.com 주소 이외의 다른 도메인 주소로 변경했다면, Teams 룸 콘솔을 인증할 때 이후에 작업을 해야 할 수 있어요. 대부분의 경우 로그인은 onmicrosoft로 할 거에요. 의문이 생기면, Azure AD에서 사용자 주체 이름을 확인해주세요.
+  여기 작은 조언 하나: 룸의 주소를 표준 @[회사명].onmicrosoft.com 주소 이외의 다른 도메인 주소로 변경했다면, Teams 룸 콘솔을 인증할 때 이후에 작업을 해야 할 수 있어요. 대부분의 경우 로그인은 onmicrosoft로 할 거에요. 의문이 생기면, Azure AD에서 사용자 주체 이름을 확인해주세요.
 - 설정 루틴은 몇몇 장치에서 조금 까다로울 수 있어요 (설치 프로세스의 끝에 Teams Room 콘솔을 도킹 스테이션에 놓으라고 권고하는데, 그때 실패할 수도 있어요). 우리는 여기서 설명된 것처럼 Teams Room Console 구성을 위한 구성 XML을 준비하고 있어요.
-제가 작업한 것은 아래와 같아요:
+  제가 작업한 것은 아래와 같아요:
 
 ```js
-<SkypeSettings>
-...생략...
-</SkypeSettings>
+<SkypeSettings>...생략...</SkypeSettings>
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 설치 절차를 시작하기 전에 NUC를 네트워크에서 분리하세요. 왜 그런지는 모르겠는데, 설치는 처음 몇 단계에서 네트워크가 없는 것이 신뢰할만 하다고 합니다. Microsoft도 장치를 분리하라고 권장하네요. 그냥 따르고 연결을 끊어보세요.
 - USB 스틱을 사용하여 기계에 설치하세요. 정말 할 일은 없어요. 그냥 구경하고 마음을 편히 하세요. 아직 7번에서 계정을 만들지 않았다면, 지금 만들어 보세요. 지금 할 일이 없을 테니까요.
@@ -87,8 +114,18 @@ c. 스크립트가 완료되기까지 기다려주세요 (약 20분 정도 소�
 
 기본 콘솔이 준비되면 나머지 장비와 함께 설정을 시작할 수 있습니다. 작은 허들 룸과 중간 규모의 회의실의 배선을 설명한 간단한 다이어그램을 함께 제공했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![DIY Microsoft Teams Room Console 0](/assets/img/2024-06-23-DIYMicrosoftTeamsRoomConsole_0.png)
 
@@ -98,8 +135,18 @@ c. 스크립트가 완료되기까지 기다려주세요 (약 20분 정도 소�
 
 더 큰 회의실용으로는 추가로 유선 마이크로폰이 있는 AVer 비디오-사운드바를 선택했습니다. 하지만 Logitech Rally나 Poly Studio와 같은 제품들도 잘 작동합니다. 원하는 대로 Jabra 750을 Jabra Speak 810 MS 솔루션으로 업그레이드할 수도 있습니다. 당신의 방, 당신의 선택입니다!
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 큰 USB-C 독 덕분에 이중 디스플레이 솔루션으로 갈아탈 수도 있어요. 이렇게 하면 모든 참가자를 한 화면에 넣고 다른 화면에 프레젠테이션을 볼 수 있어요.
 

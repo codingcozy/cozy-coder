@@ -3,17 +3,13 @@ title: "구독 모델이 온라인 광고를 시장에서 천천히 밀어내고
 description: ""
 coverImage: "/assets/img/2024-06-19-Howthesubscriptionmodelissteadilysqueezingonlineadvertisingoutofthemarket_0.png"
 date: 2024-06-19 21:43
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-Howthesubscriptionmodelissteadilysqueezingonlineadvertisingoutofthemarket_0.png
 tag: Tech
 originalTitle: "How the subscription model is steadily squeezing online advertising out of the market"
 link: "https://medium.com/enrique-dans/how-the-subscription-model-is-steadily-squeezing-online-advertising-out-of-the-market-3003fcce056f"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-19-Howthesubscriptionmodelissteadilysqueezingonlineadvertisingoutofthemarket_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 2023년 제4분기 결과 발표로 광고 시장의 하락이 강조되었습니다. 뉴욕 타임스와 같은 유명 기업들은 디지털과 인쇄 매체 양쪽 모두 광고 수익이 감소했다고 보도되었습니다. 이 신문은 운영 이익이 매우 건강한 39% 성장하는 반면, 디지털 및 인쇄 광고 수익이 8.4% 줄어 들었습니다. 더 많은 이익, 더 적은 지루한 광고를 경험해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가입 모델은 광고 수익 감소를 보상하는 데 점차 더 매력적인 대안으로 자리 잡고 있습니다. 지속 가능한 성장을 지원할 수 있는 능력을 갖추어 소비자 뿐만 아니라 분석가들에게도 보다 매력적으로 다가가고 있습니다. 사용자들과 믿음의 유대 관계를 구축하는 기업을 중요하게 생각하는 분석가들은 광고를 투하하거나 데이터를 최고 가격에 판매하는 기업보다 더 매력적으로 여깁니다. 이러한 추세는 디지털 미디어 분야 전반에 반영되어 있으며, 구독 수익은 꾸준히 감소하는 광고 수익과 동시에 증가하고 있습니다.
 
@@ -33,6 +40,17 @@ isUpdated: true
 
 온라인 광고 시장이 어떻게 계속 발전할지는 모르지만, 대다수의 사용자들이 혐오하는 제품을 제공하고 있는 상황에서는 새로운 현실을 확인하는 추세에 적응하는 기업이 중요해지리라고 생각합니다. 광고에 가능한 한 적게 의존하도록 소득원을 다각화할 수 있는 기업이야말로 미래에 존재감을 유지할 수 있는 기업이 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 표 태그를 Markdown 형식으로 변경해주세요.

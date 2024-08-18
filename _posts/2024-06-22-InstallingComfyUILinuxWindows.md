@@ -3,17 +3,13 @@ title: "ComfyUI 설치 가이드 Linux, Windows"
 description: ""
 coverImage: "/assets/img/2024-06-22-InstallingComfyUILinuxWindows_0.png"
 date: 2024-06-22 21:48
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-InstallingComfyUILinuxWindows_0.png
 tag: Tech
 originalTitle: "Installing ComfyUI (Linux , Windows)"
 link: "https://medium.com/@yushantripleseven/installing-comfyui-linux-windows-b59a57af61b6"
 isUpdated: true
 ---
-
-
-
-
 
 친절한 마음으로 설치 방법 알려드립니다.
 
@@ -25,7 +21,18 @@ Linux 또는 Windows에 ComfyUI를 수동으로 설치하세요.
 
 ## 전제조건
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Python 3.10
 Git
@@ -36,13 +43,22 @@ Git
 
 ![이미지](/assets/img/2024-06-22-InstallingComfyUILinuxWindows_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 Markdown 형식으로 표태그를 변경해주세요.
 
-
 <img src="/assets/img/2024-06-22-InstallingComfyUILinuxWindows_2.png" />
-
 
 Git을 사용하여 레포지토리를 클론해주세요. 클론이 완료되면 현재 작업 디렉토리를 ComfyUI로 설정해주세요.
 
@@ -54,7 +70,18 @@ git clone https://github.com/comfyanonymous/ComfyUI.git
 cd ComfyUI
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-22-InstallingComfyUILinuxWindows_3.png)
 
@@ -64,7 +91,18 @@ cd ComfyUI
 
 이제 가상 환경(venv)을 생성할 것입니다. 이 저장소의 설치 지침은 시스템 전역 수준에서 종속성을 설치하는 것을 제안하지만, 종속성 같은 것들은 다른 프로젝트들과 겹치는 영역을 피하기 위해 자체 venv 내에서 격리시키는 것이 더 나은 것 같아요. 다음 명령어를 사용할 거에요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 python -m venv을 사용하여 새로운 가상 환경을 만들 수 있어요. 가상 환경의 이름을 venv로 지정할게요. 가장 간단하게 설정하기 위해요.
 
@@ -90,8 +128,18 @@ source venv/bin/activate
 
 ![이미지](/assets/img/2024-06-22-InstallingComfyUILinuxWindows_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-22-InstallingComfyUILinuxWindows_6.png)
 
@@ -101,8 +149,18 @@ venv가 활성화된 상태에서는 설치된 파이썬 패키지가 venv 내�
 
 ## 단계 3: 의존성 설치
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 Torch를 설치해 주세요. 몇 분 정도 소요될 거에요.
 
@@ -116,7 +174,18 @@ pip install torch torchvision torchaudio --extra-index-url https://download.pyto
 pip install -r requirements.txt
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 4: ComfyUI 실행하기
 
@@ -142,7 +211,18 @@ source venv/bin/activate
 python3 main.py
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작업을 간편하게 하기 위해 위 두 가지를 배치 파일(Windows)이나 셸 스크립트(Linux) 안에 넣을 수 있습니다.
 
@@ -158,7 +238,18 @@ python main.py --listen
 
 파일을 저장한 후, launch.bat 파일을 더블 클릭하여 ComfyUI를 간편하게 시작할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리눅스용: 새 텍스트 파일을 만들어 launch.sh라는 이름을 지어주세요. 그 안에 다음 내용을 넣어주세요:
 
@@ -178,7 +269,18 @@ python3 main.py
 chmod +x launch.sh
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래와 같이 입력하여 실행하세요:
 

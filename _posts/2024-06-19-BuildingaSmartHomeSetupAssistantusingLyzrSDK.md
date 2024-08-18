@@ -3,17 +3,13 @@ title: "리즈 SDK를 활용한 스마트 홈 설정 도우미 구축"
 description: ""
 coverImage: "/assets/img/2024-06-19-BuildingaSmartHomeSetupAssistantusingLyzrSDK_0.png"
 date: 2024-06-19 17:01
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-BuildingaSmartHomeSetupAssistantusingLyzrSDK_0.png
 tag: Tech
 originalTitle: "Building a Smart Home Setup Assistant using Lyzr SDK"
 link: "https://medium.com/@akshaykeerthi007/building-a-smart-home-setup-assistant-using-lyzr-sdk-fb6a7ec657ab"
 isUpdated: true
 ---
-
-
-
-
 
 가정 자동화의 미래에 오신 것을 환영합니다! 최첨단 AI 기술과 실용적인 가정 기술이 교차하는 곳에서 저희 Smart Home Setup Assistant가 여러분이 스마트 디바이스를 가정에 통합하는 방식을 혁신하려고 합니다. 기술 애호가든 스마트 홈 세계에 처음 발을 딛은 분이든, 우리 어시스턴트는 여러분의 경험을 쉽고, 원활하고, 즐겁게 만들도록 설계되었습니다.
 
@@ -23,7 +19,18 @@ Smart Home Setup Assistant는 AI 기술을 활용한 도구로, 여러분이 스
 
 Lyzr SDK를 사용하는 이유는 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Lyzr.ai SDK를 사용하면 자체 GenAI 어플리케이션을 만드는 것이 매우 간단합니다. 빠르게 설정하고 실행하기 위해 몇 줄의 코드만 필요합니다.
 
@@ -35,7 +42,18 @@ Lyzr SDK를 확인해보세요.
 input = st.text_input("걱정사항을 입력해주세요:", placeholder="여기에 입력하세요")
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드 조각은 스마트홈 기기나 특정 걱정 사항을 나열할 수 있는 텍스트 입력 필드를 생성합니다. 이 입력을 기반으로 어시스턴트가 당신의 요구에 맞게 자문을 제공할 것입니다.
 
@@ -45,16 +63,27 @@ input = st.text_input("걱정사항을 입력해주세요:", placeholder="여기
 
 ```js
 open_ai_text_completion_model = OpenAIModel(
-    api_key=st.secrets["apikey"],
-    parameters={
-        "model": "gpt-4-turbo-preview",
-        "temperature": 0.2,
-        "max_tokens": 1500,
-    },
-)
+  (api_key = st.secrets["apikey"]),
+  (parameters = {
+    model: "gpt-4-turbo-preview",
+    temperature: 0.2,
+    max_tokens: 1500,
+  })
+);
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 스니펫은 OpenAI 모델을 구성하는 부분인데, 이 모델은 어시스턴트를 구동합니다. 온도와 최대 토큰과 같은 매개변수를 지정하여, 어시스턴트가 일관되고 간결한 응답을 제공할 수 있도록 설정하고 있어요.
 
@@ -82,7 +111,18 @@ def generation(input):
 
 이 함수는 사용자가 제공한 입력을 기반으로 어시스턴트의 응답을 생성합니다. 특정 역할과 페르소나로 에이전트를 설정하고, 응답 생성 프로세스를 안내하기 위해 자세한 프롬프트를 작성합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 if st.button("도와주세요!"):
@@ -96,8 +136,18 @@ if st.button("도와주세요!"):
 
 앱 링크: https://smarthomeassistant-lyzr.streamlit.app/
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 소스 코드: https://github.com/isakshay007/Smart_Home_Assistant
 

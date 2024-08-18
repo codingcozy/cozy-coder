@@ -3,17 +3,13 @@ title: "iPhone이 Sony Xperia 1 VI에서 배울 수 있는 5가지 기술"
 description: ""
 coverImage: "/assets/img/2024-07-07-WhatCantheiPhoneLearnFromtheSonyXperia1VI_0.png"
 date: 2024-07-07 03:14
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-WhatCantheiPhoneLearnFromtheSonyXperia1VI_0.png
 tag: Tech
 originalTitle: "What Can the iPhone Learn From the Sony Xperia 1 VI?"
 link: "https://medium.com/macoclock/what-can-the-iphone-learn-from-the-sony-xperia-1-vi-2ddc886e4a63"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-07-07-WhatCantheiPhoneLearnFromtheSonyXperia1VI_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 좋은 소식은 거의 한 달 동안 소니 엑스페리아 1 VI를 소지하고 있다는 거에요. 아직 소니의 최신 플래그십폰을 사야 할지 망설이시는 분들이 분명히 계시겠죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-07-WhatCantheiPhoneLearnFromtheSonyXperia1VI_1.png)
 

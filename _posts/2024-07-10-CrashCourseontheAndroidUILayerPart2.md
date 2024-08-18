@@ -3,17 +3,13 @@ title: "안드로이드 UI 레이어 속성 집중 분석  2부"
 description: ""
 coverImage: "/assets/img/2024-07-10-CrashCourseontheAndroidUILayerPart2_0.png"
 date: 2024-07-10 01:30
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-10-CrashCourseontheAndroidUILayerPart2_0.png
 tag: Tech
 originalTitle: "Crash Course on the Android UI Layer | Part 2"
 link: "https://medium.com/bumble-tech/crash-course-on-the-android-ui-layer-part-2-2335171467e0"
 isUpdated: true
 ---
-
-
-
-
 
 ## 상태 보유자 및 상태 저장
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이제 Part 2로 넘어가겠습니다! 상태 보유자와 안드로이드에서 UI 상태를 저장하는 방법 등 다른 UI 레이어 관련 주제를 다룰 예정입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 비디오 형식으로 이 콘텐츠를 섭취하고 싶다면 Droidcon London 2023에서 제가 진행한 강연을 확인해보세요:
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 구현 세부 사항을 결정하려면 먼저 안드로이드 앱에서 일반적으로 발견되는 로직 유형을 식별해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 논리의 종류
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 예를 들어 일반적인 앱에서는 상세 화면을 표시하는 것이 휴대폰에서 실행될 때에는 탐색을 포함할 수 있습니다. 그러나 태블릿에서 실행될 때 다른 요소를 옆에 표시하는 것을 포함할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-07-10-CrashCourseontheAndroidUILayerPart2_0](/assets/img/2024-07-10-CrashCourseontheAndroidUILayerPart2_0.png)
 
@@ -54,7 +83,18 @@ isUpdated: true
 
 예를 들어, 하단 표시줄 또는 네비게이션 레일을 표시할지 여부를 결정하는 UI 로직은 화면 크기 구성 변경 후에 다시 실행하거나 다시 평가해야 합니다. 반면에 특정 관심사를 따르거나 그들을 새로 고침해야 하는 비즈니스 로직은 사용자가 장치를 회전하거나 펼쳤다고 해서 취소되거나 다시 시작되어서는 안 됩니다. 그러한 중단은 좋은 사용자 경험을 제공하지 못할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 로직을 처리해야 할 장소
 
@@ -64,7 +104,18 @@ UI 레이어에서 비즈니스 로직은 화면 레벨에 가능한 가까이 �
 
 UI 로직의 경우, 로직과 상태가 상대적으로 간단한 경우 UI 자체에서 처리하는 것이 적합합니다. 그러나 UI가 더 복잡해지면 UI 로직 복잡성을 평범한 클래스 상태 홀더로 위임하는 것이 좋습니다. 이 경우 상태 홀더는 androidX.ViewModel에서 확장되지 않을 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 섹션에서 더 자세히 다룰 예정이에요! 이제 각 상태와 로직 유형이 어떻게 관련되어 있는지 알아봅시다:
 
@@ -74,7 +125,18 @@ UI 로직의 경우, 로직과 상태가 상대적으로 간단한 경우 UI 자
 
 # 비즈니스 로직 처리하기 — androidX.ViewModel
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 androidX.ViewModel 또는 Architecture Components ViewModel 클래스를 화면 레벨 상태 보관함의 구현 세부사항으로 상세히 설명해 왔습니다.
 
@@ -102,7 +164,18 @@ class InterestsViewModel @Inject constructor(
 
 하지만, 왜 ViewModel이 이에 적합한 위치일까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 안드로이드X.ViewModel의 장점
 
@@ -112,7 +185,18 @@ class InterestsViewModel @Inject constructor(
 
 또 다른 이점은 다른 Jetpack 라이브러리와의 원활한 통합에 있습니다. 특히 Jetpack Navigation과의 통합은 매우 원활합니다. Navigation은 대상이 백 스택의 일부인 경우에 ViewModel의 동일한 인스턴스를 메모리에 유지합니다. 이를 통해 백 스택 내의 대상 간을 왕복하면서 데이터가 즉시 화면에 사용 가능하며 해당 대상으로 다시 이동할 때마다 데이터를 다시로드할 필요가 없습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Jetpack Navigation은 목적지가 더 이상 백 스택의 일부가 아닌 경우 ViewModel의 인스턴스를 자동으로 파괴합니다. 이는 화면에 이전 사용자 데이터를 표시하지 않고 이전 목적지로 이동하는 것을 안전하게 만듭니다.
 
@@ -122,7 +206,18 @@ Jetpack Navigation은 목적지가 더 이상 백 스택의 일부가 아닌 경
 
 ViewModel의 범위 설정은 이 유형을 화면 수준 상태 보유자의 구현 세부 정보로 적합하게 만드는 요소입니다. 그러나 이 권한을 남용해서는 안 됩니다. 이 클래스를 사용할 때 염두에 둘 가장 좋은 방법은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 화면 수준에서 사용하세요. 재사용 가능한 UI 요소의 복잡성을 처리하기 위해 ViewModel을 사용하지 마세요. 동일한 ViewModel 범위 내에서 동일한 UI 요소를 사용하면 동일한 ViewModel 인스턴스를 얻게 됩니다. 대부분의 경우, 이는 바람직하지 않습니다.
 - ViewModel을 충분히 범용적으로 만들어서 모든 UI 폼 팩터를 수용할 수 있도록 하세요. ViewModel은 자신을 사용하는 UI가 어떤 것인지 인식해서는 안 됩니다. ViewModel의 API 표면(노출된 화면 UI 상태 및 노출된 기능)은 처리하는 애플리케이션 데이터를 대표하도록 유지하세요. 예를 들어, 데이터를 로딩 중임을 나타낼 때, 화면 UI 상태에는 showLoadingSpinner가 아닌 isLoading이라는 필드를 포함할 수 있습니다. UI가 사용자에게 데이터 로딩을 어떻게 전달하는지는 UI에만 관련이 있습니다.
@@ -136,7 +231,18 @@ ViewModel 영역에서 모든 것이 완벽한 것은 아닙니다. 특히 ViewM
 - viewModelScope를 사용하여 시작된 작업은 ViewModel이 메모리에 있는 동안 계속 실행됩니다. 이는 좋지만 작업이 긴 시간 동안 실행될 경우 문제가 발생할 수도 있습니다. 10초 이상 소요될 수 있는 긴 작업의 경우 WorkManager와 같은 다른 대안을 고려해보세요. 백그라운드 작업에 대한 자세한 내용은 문서에서 확인하세요.
 - viewModelScope에 의해 트리거된 작업을 단위 테스트하는 경우, 테스트 환경에서 추가 설정이 필요합니다. 테스트에서 MainDispatcher를 대체해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## AndroidX.ViewModel를 사용하는 방법
 
@@ -146,7 +252,18 @@ ViewModel 영역에서 모든 것이 완벽한 것은 아닙니다. 특히 ViewM
 
 # UI 로직 처리 — 간단한 상태 보유자 클래스
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컴포넌트의 복잡성이 증가할 때 상태 보유 클래스를 소개해야 합니다. 기준은 여러분과 여러분의 팀에 달려 있습니다. UI를 간소화할 필요를 느낄 때입니다.
 
@@ -172,7 +289,18 @@ fun <T> NiaDropdownMenuButton(items: List<T>, ...) {
 
 UI에서 더 많은 상태가 필요하고 관련 로직이 더 복잡해지면 상태 보유자를 도입하세요. 이것은 바로 Compose 라이브러리가 일부 컴포넌트에 대해 수행하는 작업입니다. 다음 코드 스니펫은 다양한 Drawer 컴포저블의 상태 보유자에 속합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 @안정적
@@ -204,8 +332,18 @@ UI에서 더 많은 상태가 필요하고 관련 로직이 더 복잡해지면 
 
 Compose가 이러한 상태 보유체를 제공하는 것처럼, 프로젝트에서 비슷한 패턴을 구현하여 UI를 단순화할 수 있습니다. 다음 코드 스니펫은 NiaApp 복합 함수의 상태 보유체 인 NiaAppState에 속합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 @안정적
@@ -233,8 +371,18 @@ class NiaAppState(
 
 재사용 가능한 UI 구성 요소에 대한 상태 보유자를 생성하는 것이 좋습니다. 이는 UI의 재사용성을 향상시키고 외부 제어를 제공합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 생명주기 관련 API의 참조를 보유할 수 있는 Plain state holder 클래스입니다. 이러한 인스턴스는 UI 생명주기를 따릅니다. UI가 구성 변경을 거치면 상태 홀더의 새 인스턴스가 생성됩니다. 따라서 Context나 Resources에 대한 참조를 보유해도 메모리 누수가 발생하지 않습니다. Jetpack Compose에서 이러한 상태 홀더는 Composition에도 범위가 지정됩니다.
 
@@ -244,7 +392,18 @@ class NiaAppState(
 
 ViewModel이 여러 크기의 UI 요소의 비즈니스 로직 복잡성을 처리하고 있을 때, 이는 크고 관리 및 이해하기 어려워질 수 있습니다. ViewModel을 어떻게 단순화할 수 있을까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 도메인 레이어를 소개해보겠습니다. ViewModel의 비즤크 로직 복잡성을 처리하는 유즈케이스에 위임하여 다양한 저장소와 상호작용을 다룹니다. 그러나 이 접근 방식은 여전히 의존해야 할 유즈케이스 목록이 많은 ViewModel을 만들어낼 수 있습니다.
 - UI의 다양한 요소들을 위한 여러 상태 보유자를 작성하고, UI의 ViewModel에서 이들을 올려놓아 모든 장점을 누릴 수 있습니다. ViewModel은 기본적으로 환경 구성 변경을 견딜 수 있는 상태 끌어올리기 메커니즘이 됩니다.
@@ -256,7 +415,18 @@ ViewModel이 여러 크기의 UI 요소의 비즈니스 로직 복잡성을 처�
 
 간단히 요약하면: UI에서 1) 전혀 상태가 없을 수 있고, 2) UI 자체에 상태가 있을 수 있으며, 3) UI를 간단하게하기 위해 상태를 보유자에 두거나 4) 상태를 더 높은 UI 트리로 끌어올려 다른 호출자나 조상이 상태를 제어하게 할 수 있고, 5) 비즈니스 로직에서 필요한 경우 상태를 ViewModel에 끌어올릴 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 비즈니스 로직에 상태가 필요한 경우, 읽기 또는 쓰기를 위해서라도, 화면 수준의 상태 홀더에 위치시켜야 합니다. 필요 없다면, 적절한 UI 트리 노드에 배치되어야 합니다.
 
@@ -267,7 +437,18 @@ ViewModel이 여러 크기의 UI 요소의 비즈니스 로직 복잡성을 처�
 - 화면 UI 상태는 비즈니스 로직을 적용하기 위해 ViewModel (#5)에 위치시켜야 합니다.
 - LazyList는 MessageList가 아닌 ConversationScreen의 일부이며, 사용자가 UserInput에서 새 메시지를 보낼 때 가장 최신 메시지로 스크롤하는 등 화면에 추가 기능이 필요한 이유로 해당 상태가 필요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 주제에 대해 더 알고 싶다면, Alejandra Stamato로부터의 Compose 세션에서 상태 끌어올리기에 대해 살펴보세요.
 
@@ -277,7 +458,18 @@ ViewModel이 여러 크기의 UI 요소의 비즈니스 로직 복잡성을 처�
 
 SavedState API는 구성 변경 및 시스템에서 시작된 프로세스 종료를 통해 상태를 계속 유지할 수 있게 합니다. 시스템은 이 데이터를 묶음에 저장하며, 데이터를 저장하기 위해 묶음으로 만들어야 합니다. 일반적으로 사용자 입력이나 탐색에 의존하는 일시적인 UI 상태를 저장합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금까지 위에서 언급된 사항 뿐만 아니라 예상치 못한 앱 종료(예: 사용자가 앱을 강제로 종료하는 경우)에도 살아남기 위해서는 영구 저장소를 활용할 수 있습니다. 이는 디스크 공간 제약 조건을 준수해야 하며 일반적으로 응용 프로그램 데이터 저장에 사용됩니다.
 
@@ -287,7 +479,18 @@ SavedState API는 구성 변경 및 시스템에서 시작된 프로세스 종�
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 UI 레이어에 대한 이 간편 안내서를 읽은 후에는, 이 레이어 내에서 발생하는 프로세스와 상태 및 로직을 효과적으로 관리하기 위해 필요한 도구에 대한 일반적인 이해가 있어야합니다.
 

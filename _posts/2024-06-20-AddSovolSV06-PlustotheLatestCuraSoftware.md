@@ -3,17 +3,13 @@ title: "최신 Cura 소프트웨어에 Sovol SV06-Plus 추가하기"
 description: ""
 coverImage: "/assets/img/2024-06-20-AddSovolSV06-PlustotheLatestCuraSoftware_0.png"
 date: 2024-06-20 16:42
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-AddSovolSV06-PlustotheLatestCuraSoftware_0.png
 tag: Tech
 originalTitle: "Add Sovol SV06-Plus to the Latest Cura Software"
 link: "https://medium.com/@drjonesy/add-sovol-sv06-plus-to-the-latest-cura-software-88f44dd4d415"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-20-AddSovolSV06-PlustotheLatestCuraSoftware_0.png" />
 요즘 소벌 SV06-Plus 3D 프린터를 4학년 학생들을 위한 교실에 구입했는데, 처음 몇 개의 인쇄물에서 문제가 발생했습니다. 몇 차례 시행착오 끝에, 문제는 Ultimaker Cura 슬라이싱 소프트웨어 구성과 관련되어 있음을 깨달았습니다.
@@ -22,7 +18,18 @@ isUpdated: true
 
 # 튜토리얼 시작
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 튜토리얼은 두 부분으로 나뉩니다. 먼저, 절대 초보자를 위해 설치 과정을 안내합니다. 이미 최신 버전의 Ultimaker Cura를 설치한 경우에는 'The Sovol SV06-Plus Profile 추가' 섹션으로 건너뛰세요.
 
@@ -32,7 +39,18 @@ isUpdated: true
 
 ## Cura Version 5 + Sovol SV06 Plus
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 공식 웹사이트: [https://sovol3d.com/products/sovol-sv06-plus](https://sovol3d.com/products/sovol-sv06-plus)
 
@@ -44,7 +62,18 @@ isUpdated: true
 - Windows 10
 - Windows 11
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1 — https://ultimaker.com/에 방문해 보세요.
 
@@ -54,7 +83,18 @@ isUpdated: true
 
 3 — 이후에 Download For Free 버튼을 클릭하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-AddSovolSV06-PlustotheLatestCuraSoftware_4.png" />
 
@@ -64,7 +104,18 @@ isUpdated: true
 
 3. 6번 - .dmg 파일을 두 번 클릭하여 설치하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 7 - 창이 나타납니다. 약관에 동의하고 설치를 계속하세요.
 
@@ -74,7 +125,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-20-AddSovolSV06-PlustotheLatestCuraSoftware_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 9. 컴퓨터 속도에 따라 진행 표시 막대를 볼 수 있을 수 있습니다.
 
@@ -84,7 +146,18 @@ isUpdated: true
 
 11. Ultimaker Cura 애플리케이션을 엽니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 12 — Cura를 열고 싶어하는지 물어보는 팝업이 나타날 수 있습니다. 이것은 인터넷에서 다운로드한 앱이라는 것을 알려줍니다. '열기'를 클릭하세요.
 
@@ -94,7 +167,18 @@ isUpdated: true
 
 14 — 클릭하고 동의하세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 15 - 다음을 클릭하세요.
 
@@ -104,7 +188,18 @@ isUpdated: true
 
 17 - 다음으로, 프린터 추가를 요청합니다. 우리는 아직 SVO6 Plus를 위한 프로필 구성 파일을 가져오지 않았기 때문에, 임시 커스텀 프린터를 만들겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 18 — 선택하세요: UltiMaker 프린터가 아닌 프린터
 
@@ -114,7 +209,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-20-AddSovolSV06-PlustotheLatestCuraSoftware_11.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 20 — 다음으로 UltiMaker가 선택된 브랜드 목록을 볼 수 있습니다. 다음 브랜드인 Custom으로 스크롤하여 선택하세요: Custom FFF
 
@@ -124,7 +230,18 @@ isUpdated: true
 
 22 — 기계 설정에 대해 [다음]을 클릭하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 23 — 새로운 내용을 보려면 건너뛰기를 클릭하세요
 
@@ -134,7 +251,18 @@ isUpdated: true
 
 ![Cura 애플리케이션 창](/assets/img/2024-06-20-AddSovolSV06-PlustotheLatestCuraSoftware_13.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # + Sovol SV06-Plus 프로필 추가하기
 
@@ -144,13 +272,23 @@ isUpdated: true
 
 2 — 이제 폴더를 추출/해제하십시오. 추출된 폴더에는 다음과 같은 폴더와 파일이 포함되어 있어야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```json
 definition > SV06_Plus.def.json
-extruders  > SV06_extruder_0.def.json 
-images     > sovolbackplate.png 
+extruders  > SV06_extruder_0.def.json
+images     > sovolbackplate.png
 meshes     > sovol_300_300_platform.obj
 ```
 
@@ -160,8 +298,18 @@ meshes     > sovol_300_300_platform.obj
 
 5. 드롭다운이 나타납니다. '설정 폴더 표시'를 선택해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-20-AddSovolSV06-PlustotheLatestCuraSoftware_14.png)
 
@@ -171,8 +319,18 @@ meshes     > sovol_300_300_platform.obj
 
 ![이미지](/assets/img/2024-06-20-AddSovolSV06-PlustotheLatestCuraSoftware_15.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 8 - 이제 파일을 드래그 앤 드롭하거나 복사하여 붙여 넣으세요.
 
@@ -190,18 +348,40 @@ meshes     > sovol_300_300_platform.obj
 '/5.3/meshes'로 '/meshes'를 복사
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 9. Cura 애플리케이션을 닫고 다시 열어주세요.
 
 10. 새로운 Sovol SV06 Plus 프린터를 추가해 봅시다. 두 가지 방법으로 진행할 수 있어요. [Custom] 버튼을 클릭하거나 상단 네비게이션에서 다음을 선택하세요:
-설정 ` 프린터 ` 프린터 추가
+    설정 `프린터` 프린터 추가
 
 ![2024-06-20-AddSovolSV06-PlustotheLatestCuraSoftware_17.png](/assets/img/2024-06-20-AddSovolSV06-PlustotheLatestCuraSoftware_17.png)
 
 ![2024-06-20-AddSovolSV06-PlustotheLatestCuraSoftware_18.png](/assets/img/2024-06-20-AddSovolSV06-PlustotheLatestCuraSoftware_18.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 11— 이제 이전과 마찬가지로 선택하세요:
 
@@ -212,7 +392,18 @@ meshes     > sovol_300_300_platform.obj
 
 ![이미지](/assets/img/2024-06-20-AddSovolSV06-PlustotheLatestCuraSoftware_19.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 13 - 그것을 선택하면 동일한 이름을 부여받습니다. 그런 다음 [추가]를 클릭하세요.
 

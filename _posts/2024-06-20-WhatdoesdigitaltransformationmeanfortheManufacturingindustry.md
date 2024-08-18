@@ -3,7 +3,7 @@ title: "제조 산업에 대한 디지털 변환은 무엇을 의미하는가  �
 description: ""
 coverImage: "/assets/img/2024-06-20-WhatdoesdigitaltransformationmeanfortheManufacturingindustry_0.png"
 date: 2024-06-20 16:06
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-WhatdoesdigitaltransformationmeanfortheManufacturingindustry_0.png
 tag: Tech
 originalTitle: "What does digital transformation mean for the Manufacturing industry?"
@@ -11,17 +11,24 @@ link: "https://medium.com/@rautsan/what-does-digital-transformation-mean-for-the
 isUpdated: true
 ---
 
-
-
-
-
 제작업계에 대한 디지턀 변화는 모든 제작 과정 영역에 고급 디지털 기술을 통합하여 기업이 운영하고 고객에게 가치를 전달하는 방식을 근본적으로 변화시키는 것을 의미합니다.
 
 이 섹터에서 디지털 변화의 주요 측면과 영향에 대해 알아보겠습니다:
 
 1. 자동화 및 로봇 기술
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 향상된 생산 효율성: 생산 프로세스를 최적화하기 위해 로보틱스 및 자동화 시스템을 활용하여 인적 실수를 줄이고 생산 속도를 높입니다.
 - 스마트 공장: 산업 4.0 원칙을 적용하여 기계 및 시스템이 연결되어 실시간 데이터 공유와 자율적 의사 결정이 가능하도록 합니다.
@@ -33,7 +40,18 @@ isUpdated: true
 
 3. 빅 데이터와 분석
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 데이터 기반 의사 결정: 대규모 데이터 분석을 활용하여 생산 과정을 최적화하고 제품 품질을 향상시키며 폐기물을 줄입니다.
 - 실시간 모니터링: 생산 라인과 공급망의 지속적인 모니터링으로 비효율성 또는 문제를 신속히 식별하고 해결합니다.
@@ -45,7 +63,18 @@ isUpdated: true
 
 5. 디지털 트윈스
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 가상 복제품: 제조 공정을 모의하고 최적화하기 위해 물리적 자산의 디지털 트윈을 만드는 것.
 - 수명 주기 관리: 디지털 트윈을 활용하여 제품의 디자인부터 생산, 유지보수 및 폐기까지 전 과정을 관리하는 것.
@@ -57,7 +86,18 @@ isUpdated: true
 
 7. 부가 제조(3D 프린팅)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 프로토타이핑 및 생산: 신속한 프로토타이핑을 위해 3D 프린팅 채택 및 복잡한 부품의 생산 요청에 대응
 - 맞춤화: 대규모 맞춤 제품 제공 능력으로 대규모 재고 필요를 줄임
@@ -69,7 +109,18 @@ isUpdated: true
 
 9. 증강 현실(AR) 및 가상 현실(VR)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **10. 고객중심적 접근**
 
@@ -78,7 +129,18 @@ isUpdated: true
 
 제조업에서 디지턈 변혁의 혜택
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 생산성 향상: 자동화 및 최적화로 인한 높은 생산성과 효율성
 - 비용 절감: 고도화된 프로세스, 예방 정비, 및 낭비 감소로 운영 비용 절감

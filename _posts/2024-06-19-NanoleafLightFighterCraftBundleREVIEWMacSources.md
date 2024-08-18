@@ -3,17 +3,13 @@ title: "나노리프 라이트 파이터 크래프트 번들 리뷰 - MacSources
 description: ""
 coverImage: "/assets/img/2024-06-19-NanoleafLightFighterCraftBundleREVIEWMacSources_0.png"
 date: 2024-06-19 17:07
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-NanoleafLightFighterCraftBundleREVIEWMacSources_0.png
 tag: Tech
 originalTitle: "Nanoleaf Light Fighter Craft Bundle REVIEW — MacSources"
 link: "https://medium.com/@macsources/nanoleaf-light-fighter-craft-bundle-review-macsources-3069547bd617"
 isUpdated: true
 ---
-
-
-
-
 
 # 나놀리프 라이트 패널 번들로 공간을 변신시키세요.
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 오늘 나놀리프의 환경은 많이 바뀌었습니다. 온라인에서 공유되는 수많은 아이디어가 있고, 나놀리프는 특정 디자인을 얻는 편리한 방법으로 일부 디자인 번들을 제작했습니다. 이러한 번들 중에서 특히 내가 눈여겨 보았던 것은 라이트 파이터와 다크 파이터 크래프트 번들입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![NanoleafLightFighterCraftBundleREVIEWMacSources_1](/assets/img/2024-06-19-NanoleafLightFighterCraftBundleREVIEWMacSources_1.png)
 
@@ -34,8 +40,18 @@ isUpdated: true
 
 Light Fighter Craft Bundle은 스타 워즈 프랜차이즈에 헌정된 Nanoleaf 세트의 일부입니다. 더 오래된 형제인 Dark Fighter Craft Bundle은 Light Fighter보다 조금 더 큰 전투기로 만드는 2개의 추가 삼각 패널을 제공합니다. Ultra Black Triangles와 패널 수를 제외하면 두 세트 사이의 유일한 차이점입니다. 이 키트는 다른 모든 Nanoleaf 제품과 마찬가지로 Apple HomeKit, Google Home, Amazon Alexa뿐만 아니라 Razer Chroma 또는 Signal RGB와 같은 일부 PC 소프트웨어와 완전히 호환됩니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Connect+ 기술
 - 레이아웃 어시스턴트
@@ -54,7 +70,18 @@ Light Fighter Craft Bundle은 스타 워즈 프랜차이즈에 헌정된 Nanolea
 
 다크 파이터 크래프트 번들 → $349.97 $314.98 번들 가격
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Shapes 한정판 울트라 블랙 삼각형 스마터 키트 (9 패널) $199.99
 - Shapes 한정판 울트라 블랙 삼각형 확장 세트 (3 패널) $59.99
@@ -68,7 +95,18 @@ Light Fighter Craft Bundle은 스타 워즈 프랜차이즈에 헌정된 Nanolea
 
 ![이미지](/assets/img/2024-06-19-NanoleafLightFighterCraftBundleREVIEWMacSources_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 요금 및 가용성
 
@@ -78,11 +116,33 @@ Light Fighter Craft Bundle은 스타 워즈 프랜차이즈에 헌정된 Nanolea
 
 # 사용자 경험
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래와 같이 생각하시듯이 인생에서도 나노리프 설치를 시작할 때 끝을 목표로 설정하는 것이 좋습니다. 이 번들은 실제로 세 가지 다른 종류의 조명 패널이 섞여 있는 것이기 때문에 벽에 부착하기 전에 모든 패널을 개봉해 바닥에 펼쳐놓고 나서 작업을 시작했습니다. 레이아웃이 준비되면 벽에 패널을 배치할 위치를 정하기 위해 정확한 치수를 측정했습니다. 내 책상 근처의 모서리에 동작할 것이라는 것을 발견해서 정말 기쁠 때가 있었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 패널을 설치하기 위해 공간을 준비하기 위해 인형 선반을 제거하고 부드러운 만능 세정제로 벽을 닦아내었습니다. 그런 제품이 없다면 촉촉한 천으로도 충분할 것 같아요. 목표는 벽에 밀착 스트립이 확실히 벽에 고정되지 않게 하는 먼지를 제거하는 것이에요.
 
@@ -92,7 +152,18 @@ Light Fighter Craft Bundle은 스타 워즈 프랜차이즈에 헌정된 Nanolea
 
 모든 조각을 벽에 설치하는 데 약 30분 정도 걸렸고, 네트워크와 홈 앱에 연결하고 펌웨어를 업데이트하는 데 추가로 5-10분이 걸렸어요. 때로는 Nanoleaf 제품이 네트워크와 앱에 연결하는 데 약간 까다로울 수 있지만, 이번에는 아무 문제가 없었어요. 설치한 후에 켜서 공간에 잘 맞는 조명 장면으로 설정했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

@@ -3,17 +3,13 @@ title: "Gradient Descent 알고리즘과 맞춤형 웨이포인트로 AWS DeepRa
 description: ""
 coverImage: "/assets/img/2024-06-23-EnhancingYourAWSDeepRacerPerformancewithGradientDescentAlgorithmandPersonalizedWaypoints_0.png"
 date: 2024-06-23 18:29
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-EnhancingYourAWSDeepRacerPerformancewithGradientDescentAlgorithmandPersonalizedWaypoints_0.png
 tag: Tech
 originalTitle: "Enhancing Your AWS DeepRacer Performance with Gradient Descent Algorithm and Personalized Waypoints"
 link: "https://medium.com/@yangkewenvigorous/enhancing-your-aws-deepracer-performance-with-gradient-descent-algorithm-and-personalized-waypoints-2e5db6ceab63"
 isUpdated: true
 ---
-
-
-
-
 
 # AWS DeepRacer에 대해
 
@@ -23,7 +19,18 @@ AWS DeepRacer는 Amazon Web Services (AWS)의 흥미로운 프로젝트로, 자�
 
 DeepRacer 커뮤니티 레이스는 AWS DeepRacer 생태계 내에서 참여자들 간의 커뮤니티와 경쟁 의식을 촉진하기 위해 디자인된 매력적이고 협업적인 프로그램입니다. 이 흥미진진한 프로젝트는 모든 수준의 참가자들을 초대하여 그들의 AI 레이싱 스킬을 겨룰 수 있게 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![DeepRacer Performance](/assets/img/2024-06-23-EnhancingYourAWSDeepRacerPerformancewithGradientDescentAlgorithmandPersonalizedWaypoints_0.png)
 
@@ -33,7 +40,18 @@ DeepRacer 커뮤니티 레이스는 AWS DeepRacer 생태계 내에서 참여자�
 
 ![DeepRacer GIF](https://miro.medium.com/v2/resize:fit:1200/1*7vcRCVvk4TG3Hy_9AzB9KQ.gif)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 최적 경로 계획
 
@@ -43,19 +61,52 @@ AWS Invent:2018 트랙 레이스를 위한 나의 모델 훈련은 핵심 작업
 
 그 후 알고리즘의 목표는 자동차의 최적 경로를 계산하는 것이었습니다. 이때의 주요 목표는 트랙의 직선 구간을 최대화하는 것이었습니다. 이 전략적인 접근 방식은 급한 회전을 줄여주어 자동차가 장기간 최대 속도를 유지할 수 있게 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로, AWS에서 제공한 미리 정의된 웨이포인트를 계획된 경로 위에 겹쳤습니다.
 
 그로 인해 차량이 가속해야 하는 최적 구간과 회전을 준비하기 위해 감속해야 하는 지역을 명확히 식별할 수 있었습니다. 이 포괄적인 이해는 내 보상 함수 개발의 기초가 되었습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 경로 계획에 이어 트랙상의 각 인덱스에 적합한 속도를 결정하는 과정이 집중적으로 다루어졌습니다. 최적의 성능을 보장하기 위해 속도 범위는 1.5에서 4.0 사이로 제한했습니다. 특히, U턴 및 중요 지점 근처에서 계산된 속도가 낮아지는 것을 관찰할 수 있는데, 이는 차량이 정밀하게 이 도전적인 섹션을 운행할 수 있도록 도와줍니다.
 
 이 방식을 활용하여 차량의 속도를 다양한 트랙 구간에 맞게 섬세하게 조절할 수 있는 폭넓은 속도 값 범위를 포착했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-23-EnhancingYourAWSDeepRacerPerformancewithGradientDescentAlgorithmandPersonalizedWaypoints_6.png" />
 
@@ -65,8 +116,18 @@ AWS Invent:2018 트랙 레이스를 위한 나의 모델 훈련은 핵심 작업
 
 이 트랙에 118개의 인덱스가 존재하지만 할당할 수 있는 작업은 단 30개뿐이므로, 속도와 작업 가능성을 더 관리할 수 있는 집합으로 압축하기 위해 클러스터링 접근 방법이 필요했습니다. 이를 위해 K-means 클러스터링 방법을 선택하여 작업을 13개의 구분된 클러스터로 효과적으로 줄였습니다. 이 접근 방법을 통해 모델이 학습하고 레이싱 결정 중에 적용할 수 있는 보다 간결하고 실용적인 작업 집합이 보장되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-23-EnhancingYourAWSDeepRacerPerformancewithGradientDescentAlgorithmandPersonalizedWaypoints_7.png)
 
@@ -76,8 +137,18 @@ AWS Invent:2018 트랙 레이스를 위한 나의 모델 훈련은 핵심 작업
 
 # 모델 훈련
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 강화 학습을 탐험하면서, 상대적으로 새로운 개념인데도 불구하고, 그 근본적인 원리에 대해 파고들어 내 나름대로의 이해로 정리했습니다:
 
@@ -87,7 +158,18 @@ AWS Invent:2018 트랙 레이스를 위한 나의 모델 훈련은 핵심 작업
 
 총 30시간 정도의 시간을 들여, 모델을 복제하고 훈련하여 비교적 안정된 상태에 이르렀습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-23-EnhancingYourAWSDeepRacerPerformancewithGradientDescentAlgorithmandPersonalizedWaypoints_10.png" />
 
@@ -97,7 +179,18 @@ AWS Invent:2018 트랙 레이스를 위한 나의 모델 훈련은 핵심 작업
 
 <img src="/assets/img/2024-06-23-EnhancingYourAWSDeepRacerPerformancewithGradientDescentAlgorithmandPersonalizedWaypoints_11.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 데이터 분석으로 보상 기능 향상하기
 
@@ -109,10 +202,20 @@ AWS Invent:2018 트랙 레이스를 위한 나의 모델 훈련은 핵심 작업
 
 이러한 플롯들은 훈련 진행 상황에 대한 종합적인 시각을 제공하며 최적의 결과를 위해 모델 수정을 도와줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래와 같이 Markdown 형식으로 수정하세요.
-
 
 ![이미지](/assets/img/2024-06-23-EnhancingYourAWSDeepRacerPerformancewithGradientDescentAlgorithmandPersonalizedWaypoints_12.png)
 
@@ -122,8 +225,18 @@ AWS Invent:2018 트랙 레이스를 위한 나의 모델 훈련은 핵심 작업
 
 당연히, 훈련 트랙을 시각화할 수 있는 능력은 최적 경로를 설계하는 데만 있는 것이 아니라, 훈련 과정에 대한 보다 깊은 통찰력을 얻을 수 있는 귀중한 자원입니다. "Training_analysis.ipynb"를 탐험하는 것을 강력히 권장합니다. 이 파일은 이러한 유용한 플롯 생성을 자동화하여 분석을 단순화하고, 모델을 더욱 개선하기 위한 데이터 기반 의사결정을 도와줍니다. DeepRacer 여정에서 귀하의 성공에 크게 기여할 수 있는 강력한 도구입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 코드 세부 정보
 
@@ -262,7 +375,18 @@ def reward_function(params):
     return reward_object.reward_function(params)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드 구현의 세부 사항에 관심이 있는 분들을 위해, 제 GitHub 저장소를 살펴보실 것을 초대합니다:
 
@@ -272,7 +396,18 @@ def reward_function(params):
 
 이 GitHub 저장소를 완성하는 데 중요한 참고 자료로 사용된 두 명의 저자 dgnzlz 및 GitHub 사용자 oscarYCL의 역할에 감사의 의미를 표합니다. Capstone_AWS_DeepRacer 및 deepracer-waypoints-workshop이라는 저장소는 그들의 창의성과 기여가 귀중했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로, 이겪은 것은 팀워크입니다. 제 동료들과 함께 이 모델을 개발하는 과정을 즐겼습니다.
 

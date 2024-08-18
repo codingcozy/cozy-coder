@@ -3,17 +3,13 @@ title: "CoAP에 관한 필드 가이드 - 제1부"
 description: ""
 coverImage: "/assets/img/2024-06-19-AFieldGuidetoCoAPPart1_0.png"
 date: 2024-06-19 16:55
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-AFieldGuidetoCoAPPart1_0.png
 tag: Tech
 originalTitle: "A Field Guide to CoAP — Part 1"
 link: "https://medium.com/@jonathanberi/a-field-guide-to-coap-part-1-75576d3c768b"
 isUpdated: true
 ---
-
-
-
-
 
 IoT를 시작할 때 알았더라면 좋았을 제한된 응용 프로그램 프로토콜(CoAP)과 관련된 모든 것
 
@@ -23,7 +19,18 @@ IoT를 시작할 때 알았더라면 좋았을 제한된 응용 프로그램 프
 
 많은 개발자들은 이 유연한 도구를 잘 모를 수 있습니다. HTTP나 MQTT와 같은 프로토콜에 대해 들어본 적이 있을 수 있지만, CoAP의 인식은 덜 흔한 것 같습니다. 종종 "왜 CoAP를 사용해야 하는가?" 또는 "MQTT 대신 x에 사용하면 안 되는 이유를 설명해줘"라는 질문을 받곤 합니다. 왜 일부 프로토콜이 다른 것보다 더 알려진지는 잘 모르지만, 이 게시물을 통해 그것을 바로잡는 것이 제 목표 중 하나입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # CoAP에 대해
 
@@ -35,7 +42,18 @@ CoAP은 제한된 응용 프로그램 프로토콜로 공식적으로 RFC 7252�
 
 RFC 7228에서 "제한된"이 더 자세하게 정의되어 있지만 간략하게 언급하면:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 제한된 메모리, 저장 공간 및 계산 능력 (100KB & 10MHz)
 - 배터리 전원
@@ -48,7 +66,18 @@ RFC 7228에서 "제한된"이 더 자세하게 정의되어 있지만 간략하�
 
 CoAP의 마지막 목표는 구현하기 쉬움입니다. 디바이스 및 서버를 위한 libcoap 및 californium 라이브러리를 포함하여 사실상 디바이스 및 서버를 위한 참조 구현이 거의 모든 디바이스 및 클라우드 프로그래밍 언어에서 구현되어 있습니다. 그러나 UDP를 사용하고 페이로드 크기를 절약하기 위해 콤팩트한 메시지 형식을 사용하는 등 제한된 환경에서 구현하기 쉽게 설계된 프로토콜 내에 특정 설계 특징이 있습니다. 그러나 이러한 세부 사항은 곧 다룰 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # CoAP 기본 사항
 
@@ -58,7 +87,18 @@ CoAP은 HTTP의 요청/응답, 클라이언트/서버 모델을 따른 것입니
 
 앞으로 RFC 7252의 모든 것을 "기본"으로 간주하고, 다른 사양의 일부 공통 기능을 "기본++"으로 간주하고, 나머지 모든 것을 "고급"으로 간주할 것입니다. 걱정하지 마세요 - 우리는 곧 고급 내용에 대해 다뤄볼 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 CoAP 사용자로서 알아야 할 가장 유용한 정보입니다:
 
@@ -68,7 +108,18 @@ CoAP는 더 넓은 인터넷과 HTTP와 같이 클라이언트/서버 메시징 
 
 CoAP는 다른 클라이언트/서버 모델과 마찬가지로 비동기적이며, IoT 네트워크의 특성으로 인해 그 방향으로 기울어져 있습니다. 장치는 계획된 및 예기치 않은 이유로 오프라인 상태로 전환될 수 있으며, CoAP는 이러한 사항을 Tokens(요청 일치 기능) 및 Message ID(캐싱 및 중복 제거 기능)와 같은 기능을 통해 고려합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CoAP의 메시징 모델에 대해 이해해야 할 마지막 포인트는 모든 설계 결정이 효율성에 관한 것이라는 점입니다. 효율성은 메시지의 크기, 메시지 전송 빈도와 같은 요소뿐만 아니라 메시지가 사용하는 배터리 양이나 암호화 유형에 대한 연산 비용과 같은 심층 기술적 고려 사항까지 포함됩니다. CoAP이 효율적일 수 있도록 노력하는 몇 가지 예시는 다음과 같습니다:
 
@@ -80,7 +131,18 @@ CoAP이 효율적으로 동작하도록 노력하는 다양한 방법이 있습�
 
 ## 요청/응답 의미론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CoAP은 HTTP와 많은 의미론적으로 유사한 점들을 공유합니다. 중복해서 언급했듯이 많은 유사한 기능들이 있어요:
 
@@ -93,7 +155,18 @@ CoAP은 HTTP와 많은 의미론적으로 유사한 점들을 공유합니다. �
 
 ## 보안
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 보안에 대해 이야기하지 않았다면 뜬금없을 것입니다. 결국, IoT의 "S"는 보안을 의미하죠 (농담이에요!) 이전에 말했듯이 안전한 CoAP URI에는 기본 프로토콜로 coaps://와 포트 번호로 5684가 사용됩니다. 그렇다면 보안은 어떻게 구현되는 걸까요? CoAP는 기본적으로 UDP를 사용하므로 전송 계층을 보호하기 위해 DTLS (Datagrams용 TLS)를 선택했습니다. DTLS를 기반으로 CoAP는 네 가지 보안 모드를 정의합니다:
 
@@ -106,7 +179,18 @@ RFC 7252에서 여러 보안 고려 사항이 논의되어 있습니다. 최근 
 
 보안은 매우 중요한 주제이고, 다행히도 이 분야에서 많은 좋은 노력이 벌어지고 있습니다. 이 시리즈에서 나중에 더 심층적으로 다룰 예정입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # CoAP 시작하기
 
@@ -120,7 +204,18 @@ CoAP을 시작하는 가장 쉬운 방법은 터미널에서 바로 시작하는
 
 요즘에는 Go를 선호하고 있으니, go-coap에서 간단한 클라이언트/서버 예제를 소개해 드리겠습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도움을 받을 수 있는 좋은 장소는 Stack Overflow, Reddit, CoRE 메일링 리스트 또는 특정 라이브러리의 이슈 목록을 사용하는 것입니다.
 
@@ -130,7 +225,18 @@ CoAP을 시작하는 가장 쉬운 방법은 터미널에서 바로 시작하는
 
 훨씬 덜 무섭게 보이죠! 그것이 목적입니다 :) CoAP는 기본 프로토콜로 간단하고 쉽게 이해할 수 있습니다. 이 게시물만으로도 CoAP를 다음 프로젝트나 제품의 기본 구성 요소로 사용할 준비가 되었습니다. 하지만 논의할 주제가 더 많이 있습니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 다음에 올 내용
 
@@ -142,7 +248,18 @@ CoAP을 시작하는 가장 쉬운 방법은 터미널에서 바로 시작하는
 
 그러나 이 글에 대한 피드백과 커버하고 싶은 내용에 대한 의견을 주시면 정말 감사하겠어요! 아래에 댓글을 남겨주시거나 트위터/링크드인으로 메시지 보내주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 텍스트를 친근한 톤으로 한국어로 번역해 드리겠습니다.
 

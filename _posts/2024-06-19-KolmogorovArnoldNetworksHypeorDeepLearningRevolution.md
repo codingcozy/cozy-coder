@@ -3,17 +3,13 @@ title: "콜모고로프-아놀드 네트워크 혹평인가, 딥 러닝 혁명�
 description: ""
 coverImage: "/assets/img/2024-06-19-KolmogorovArnoldNetworksHypeorDeepLearningRevolution_0.png"
 date: 2024-06-19 20:01
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-KolmogorovArnoldNetworksHypeorDeepLearningRevolution_0.png
 tag: Tech
 originalTitle: "Kolmogorov–Arnold Networks: Hype or Deep Learning Revolution?"
 link: "https://medium.com/@machine-learning-made-simple/understanding-kolmogorov-arnold-networks-possible-successors-to-mlps-4f2a912e69df"
 isUpdated: true
 ---
-
-
-
-
 
 ## 더 좋은 해석 가능성, 작은 네트워크 크기 및 학습 가능한 활성화 함수가 MLPs를 무너뜨리게 될까요?
 
@@ -23,28 +19,61 @@ Substack 그룹 채팅, LinkedIn 등에서 생각을 공유해 준 모든 분들
 
 Kolmogorov–Arnold Networks 및 그들이 과학적 기능을 모델링하는 데 특히 유리할 수 있는 잠재력에 대해 많은 이야기가 되었습니다. 본 기사에서는 KANs 및 그들이 새로운 세대의 딥 러닝에서의 타당성에 대해 탐구할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![KANs 이미지](/assets/img/2024-06-19-KolmogorovArnoldNetworksHypeorDeepLearningRevolution_0.png)
 
 먼저, KANs와 그들을 가능하게 하는 이론에 대해 간단히 살펴보겠습니다.
 
-콜모고로프-아놀드 표현 정리: 모든 무서운 방정식과 정의를 건너뛰고 간단한 설명으로 해결합시다. KART는 여러 입력을 가진 연속 함수는 단일 입력 (사인이나 제곱과 같은)의 간단한 함수들을 결합하고 더하는 것으로 생성할 수 있다는 것을 말합니다. 예를 들어, 다중 변수 함수 f(x,y)= x*y는 ( (x + y)² — (x² +y²) ) / 2로 표현할 수 있습니다. 이는 덧셈, 뺄셈 및 제곱 연산(단일 입력 함수)만 사용합니다. 실제 KART는 뺄셈을 덧셈으로 다시 구성하는 것이 포함되지만 여기서는 이를 간단하게 유지하겠습니다.
+콜모고로프-아놀드 표현 정리: 모든 무서운 방정식과 정의를 건너뛰고 간단한 설명으로 해결합시다. KART는 여러 입력을 가진 연속 함수는 단일 입력 (사인이나 제곱과 같은)의 간단한 함수들을 결합하고 더하는 것으로 생성할 수 있다는 것을 말합니다. 예를 들어, 다중 변수 함수 f(x,y)= x\*y는 ( (x + y)² — (x² +y²) ) / 2로 표현할 수 있습니다. 이는 덧셈, 뺄셈 및 제곱 연산(단일 입력 함수)만 사용합니다. 실제 KART는 뺄셈을 덧셈으로 다시 구성하는 것이 포함되지만 여기서는 이를 간단하게 유지하겠습니다.
 
 KANs (콜모고로프-아놀드 네트워크) - 기존의 MLP (다층 퍼셉트론)과 달리 고정된 노드 활성화 함수를 갖는 MLPs와 달리, KANs는 가장자리에 학습 가능한 활성화 함수를 사용하여 선형 가중치를 비선형 가중치로 대체합니다. 이는 KANs를 보다 정확하고 해석 가능하게 만들어주며, 특히 학문적 응용 및 일상생활에서 자주 발견되는 희소한 합성 구조와 관련이 있는 함수에 유용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-06-19-KolmogorovArnoldNetworksHypeorDeepLearningRevolution_1.png)
 
-와우, 구성 요소 구조가 뭔지 궁금하셨나요? 제처럼 gawaar(무지한 사람)이라면 "희소한 구성 요소 구조"라는 말에 혼란스러울 수 있습니다. 그럼 이건 뭐길래요, 그렇게 중요한가요? 간단히 말하자면- 특정 함수가 몇 개의 간단한 함수로 구성되어 있고 각 함수가 입력 변수 중 일부에만 의존할 때 그 함수는 희소한 구성 요소 구조를 갖고 있습니다. 예를 들어, 함수 f(x, y, z) = sin(x) * exp(y) + z는 구성 요소가 희소합니다.
+와우, 구성 요소 구조가 뭔지 궁금하셨나요? 제처럼 gawaar(무지한 사람)이라면 "희소한 구성 요소 구조"라는 말에 혼란스러울 수 있습니다. 그럼 이건 뭐길래요, 그렇게 중요한가요? 간단히 말하자면- 특정 함수가 몇 개의 간단한 함수로 구성되어 있고 각 함수가 입력 변수 중 일부에만 의존할 때 그 함수는 희소한 구성 요소 구조를 갖고 있습니다. 예를 들어, 함수 f(x, y, z) = sin(x) \* exp(y) + z는 구성 요소가 희소합니다.
 
 - 세 가지 간단한 함수인 sin(x), exp(y), z로 이루어져 있습니다.
 - 각 간단한 함수는 하나의 입력 변수(x, y, z 중 하나)에만 의존합니다.
 
-비교적으로, f(x, y, z) = x² * y³ + sin(x + y + z)와 같은 함수는 덜 희소하다고 볼 수 있습니다. 왜냐하면 더 복잡한 연산(x² * y³와 같은)이 필요하며 sin 함수에서 모든 세 가지 입력 변수를 결합해야하기 때문입니다.
+비교적으로, f(x, y, z) = x² _ y³ + sin(x + y + z)와 같은 함수는 덜 희소하다고 볼 수 있습니다. 왜냐하면 더 복잡한 연산(x² _ y³와 같은)이 필요하며 sin 함수에서 모든 세 가지 입력 변수를 결합해야하기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 수학적으로 엄격한 정의를 원하는 경우, "딥러닝의 기초: 계산 가능한 함수의 복합 희박성"에서 발견한 정의는 다음과 같습니다.
 
@@ -54,18 +83,41 @@ KANs (콜모고로프-아놀드 네트워크) - 기존의 MLP (다층 퍼셉트�
 
 KAN과 스플라인- KAN의 또 다른 흥미로운 특성은 스플라인의 활용입니다. 우리의 목적을 위해, 스플라인은 곡선에 맞게 구부러질 수 있는 유연한 자 등처럼 생각해야 합니다. 이들은 부드럽게 연결된 여러 다항 조각들로 이루어져 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](https://miro.medium.com/v2/resize:fit:576/0*9JUhBPlynwlgU86F.gif)
 
 스플라인을 활성화 함수로 사용함으로써 KAN은 입력 변수 간의 복잡한 관계를 학습할 수 있으면서 해석 가능성과 지역적인 제어를 유지할 수 있습니다. 뒤에 나오는 기사에서는 스플라인에 대해 더 자세히 설명하겠습니다.
 
 KAN에는 장단점이 있습니다. 먼저, 세 가지 주목할 만한 단점이 있습니다.
+
 - 연구 부족 - 새로운 아이디어인만큼 이해하지 못하는 것은 용서될 수 있지만, 새로운 아이디어를 살펴볼 때는 항상 이를 기억하는 것이 중요합니다. AI 연구 분야에서 천재아이디어에서 비실용적인 물건이 된 사례가 흔한 일입니다. 우리가 알기론 KAN에는 특정한 시점을 넘어서 발전하기 어렵게 하는 근본적인 장애물이 있을 수도 있습니다.
 - 시장 적합성 - 현재는 트랜스포머와 NN에 특화된 하드웨어가 만들어지고 있습니다. 이러한 개발은 KAN에 대한 강력한 선택 편향을 만들 수 있으며, 결국 그들의 수용을 방해할 수 있습니다 (이 훌륭한 의견을 제공해준 Patrick McGuinness에게 감사드립니다).
 - 훈련 속도가 느림 - KAN 훈련은 NN보다 10배 느립니다. 작업 중이신 내용에 따라 이는 그들을 부정할 수도 있고 큰 문제가 되지 않을 수도 있습니다. 수용/연구가 더 많아짐에 따라 해결되기도 할 것입니다 (혹시 여러분 중 누가 이 문제를 해결하게 된다면 좋겠네요). 하지만 현재로서는 더 많은 주류 방향으로의 수용을 막을 것이며 이는 규모 측면에서 주도되고 있는 곳에 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 KANs은 여러 가지 장점을 가지고 있습니다:
 
@@ -75,7 +127,18 @@ KANs은 여러 가지 장점을 가지고 있습니다:
 
 - 유리한 스케일링 법칙: 더 빠른 신경 스케일링 법칙을 나타내며, 모델 크기가 커짐에 따라 성능 향상이 더 큽니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-KolmogorovArnoldNetworksHypeorDeepLearningRevolution_4.png)
 
@@ -85,7 +148,18 @@ KANs은 여러 가지 장점을 가지고 있습니다:
 
 - 설명 가능성- KANs는 더 설명 가능하며, 특정 분야에 매우 유리합니다. 저희 그룹 채팅 참가자 중 한 명이 그룹 채팅에서 다음과 같이 말했습니다-
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 상호작용성 - 사람들이 KAN과 조작하여 다양한 결과를 달성할 수 있는 근본적인 수준에서 상호작용할 수 있습니다. 네트워크 내에서 도메인 전문 지식을 입력하는이 사용법은 나에게 매우 유망해 보이며, 더 많은 사람들이 그에 대해 이야기하지 않는 것에 놀랍습니다. 제 반응이 과하게 반응인가요? 당신의 생각을 듣고 싶어요
 
@@ -95,7 +169,18 @@ KANs은 여러 가지 장점을 가지고 있습니다:
 
 이 기사의 나머지 부분은 KAN이 작동하는 속성을 조사할 것입니다. 기대하는 대로, 논의할 많은 포인트가 있으며, 때로는 이 기사가 약간 압도적일 수 있습니다. 이 분해 방법을 다루기 위해 우리는 적어도 느림을 준다는 구태의 없는 말을 사용할 것입니다. 우리는 현재의 신경망 기반 아키텍처에 대한 심층 학습의 이론적 기초와 그 파급 효과로 시작합시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 다양한 컨설팅 및 자문 서비스를 제공합니다. 함께 일할 수 있는 방법을 탐색하고 싶다면 여기 있는 내 소셜 미디어를 통해 저에게 연락하거나 이 이메일에 답장해주세요.
 
@@ -105,7 +190,18 @@ KANs은 여러 가지 장점을 가지고 있습니다:
 
 ## A. 유니버설 근사 정리와 딥 러닝
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Universal Approximation Theorem (UAT)는 시그모이드 활성화 함수를 사용하는 뉴럴 네트워크가 한정된 수의 뉴런을 가진 단일 은닉층을 포함하여, 임의의 정확도로 제한된 세트의 연속 함수를 근사화할 수 있다고 말합니다. 우리가 해야 할 일은 비선형 함수의 다양한 조합을 계속해서 쌓아가는 것 뿐입니다. 그렇게 함으로써 우리가 원하는 함수의 근사치를 얻을 수 있습니다. (ML 모델에 데이터를 제공할 때, 우리는 모든 특징과 그들의 타겟과의 관계를 모델링하는 함수를 원합니다.)
 
@@ -115,13 +211,35 @@ Universal Approximation Theorem (UAT)는 시그모이드 활성화 함수를 사
 
 계속하기 전에, 많은 사람들이 종종 간과하는 중요한 점이 있습니다. 모든 데이터셋/도메인이 연속 함수로 모델링될 수 있는 것은 아니라는 것입니다. 예를 들어, 더욱 울퉁불퉁한 의사결정 경계를 가진 특정 데이터셋이 있습니다. 이러한 경우, 신경망은 보다 매끄러운 의사결정 경계를 선호하므로 랜덤 포레스트와 같은 트리 기반 알고리즘이 더 나은 선택일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 논문의 부록에서 저자들은 위 시각화에 관한 다음 문장을 제시했습니다-
 
 이제 이산적인 결정 공간을 다루는 매우 중요한 사용 사례도 있습니다. 여기서 신경망과 그래디언트 기반 방법은 대단히 Yamcha'ed 됩니다. 정부 검열에 대항하기 위한 제네바 프로젝트가 좋은 예입니다. 인공지능은 정부 검열을 회피하기 위해 창의적인 방법으로 4가지 기능을 결합하려고합니다. 이에 대해 자세히 알아 보려면 저희의 기사인 "AI를 사용하여 검열에 맞서는 방법" (이 프로젝트에 대한 깊은 살펴 보기) 또는 "인터넷을 다시 제어하는 방법" (인터넷의 기관적 조작의 영향을 줄이기 위해 적용할 수있는 몇 가지 AI 기술에 대한 살펴 보기)를 읽으실 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것이 중요한 이유는 신경망 및 그 구현에 대한 토론에서 종종 간과되는 세세한 부분이기 때문에 강조하고 있습니다. KAN(콜모고로프-아놀드 Representation Theorem)이 더 일반화되면서 비슷한 일이 발생할 수 있다는 걱정이 듭니다. 이 중요한 포인트를 언급했으니, KAN의 이야기로 넘어가겠습니다.
 
@@ -131,7 +249,18 @@ Universal Approximation Theorem (UAT)는 시그모이드 활성화 함수를 사
 
 <img src="/assets/img/2024-06-19-KolmogorovArnoldNetworksHypeorDeepLearningRevolution_10.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최근 연구에 따르면, 과학 응용 프로그램에서 많이 사용되는 다변량 함수들은 매끄럽고 희소한 구조를 가지며, 효과적인 실제 구현을 가능하게 합니다. 이것이 왜 KAN이 우리 과학계 사람들 사이에서 인기가 높아 보이는지 알겠죠. 이 부분은 이해하셨으니, 이제 KART의 매우 흥미로운 함의로 넘어가 봅시다.
 
@@ -141,7 +270,18 @@ Universal Approximation Theorem (UAT)는 시그모이드 활성화 함수를 사
 
 KAN은 단변량 함수에 의존하고 합성 구조를 활용할 수 있기 때문에 차원의 저주를 완화할 수 있는 잠재력이 있습니다. 이것은 정말 멋지지만, 저는 현재 더 큰 규모와 더 많은 다양성이 통합된 상황에서 어떻게 잘 유지될지에 대해 의심하고 있습니다. 그럼에도 불구하고, 그들이 어떻게 진전될지에 대해 조심스럽게 낙관적입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기반이 마련되었으니 이제 실제 KAN 구조와 그 작동을 이루는 다른 부분들에 대해 이야기해 보겠습니다.
 
@@ -151,7 +291,18 @@ KAN은 단변량 함수에 의존하고 합성 구조를 활용할 수 있기 �
 
 ## A. KANs의 아키텍처
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 페이퍼의 2.2절에는 많은 정의와 표기법이 나와 있어서, 한 걸음씩 세밀히 설명해보겠습니다. 먼저, 일부 배경 정보-
 
@@ -161,8 +312,18 @@ KAN은 단변량 함수에 의존하고 합성 구조를 활용할 수 있기 �
 
 우리는 KAN 레이어를 다음과 같이 정의할 수 있습니다-
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-19-KolmogorovArnoldNetworksHypeorDeepLearningRevolution_13.png)
 
@@ -172,8 +333,18 @@ KAN의 형태는 배열로 표시됩니다: [n0, n1, …, nL], 여기서 ni는 i
 
 KAN(x) = (ΦL−1 ◦ ΦL−2 ◦ … ◦ Φ1 ◦ Φ0)x. 이는 출력이 입력 레이어부터 시작하여 각 레이어의 활성화 함수를 순차적으로 적용하여 얻어진다는 의미입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래와 같이 다시 작성할 수도 있습니다.
 
@@ -183,7 +354,18 @@ KAN(x) = (ΦL−1 ◦ ΦL−2 ◦ … ◦ Φ1 ◦ Φ0)x. 이는 출력이 입력
 
 ![Image 2](/assets/img/2024-06-19-KolmogorovArnoldNetworksHypeorDeepLearningRevolution_15.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 KAN 레이어를 최적화하는 중요한 몇 가지 팁이 있어요.
 
@@ -193,7 +375,18 @@ KAN 레이어를 최적화하는 중요한 몇 가지 팁이 있어요.
 
 우리는 다음과 같이 설정합니다- 𝑏⁢(𝑥)=silu⁢(𝑥)=𝑥/(1+𝑒^−𝑥)(2.11)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반적으로, spline⁢(𝑥)는 B-스플라인의 선형 조합으로 매개화됩니다. 이 조합은 다음과 같습니다:
 
@@ -203,18 +396,41 @@ KAN 레이어를 최적화하는 중요한 몇 가지 팁이 있어요.
 
 스플라인 격자의 업데이트: "입력 활성화에 따라 각 격자를 업데이트하여, 활성화 값이 훈련 중 고정된 영역을 벗어나는 문제를 해결합니다."
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 KAN이 기본적으로 더 복잡하기 때문에, 동일 크기의 MLP보다 매우 많은 매개변수를 가지게 됩니다. 간단히 말하자면, 다음과 같은 네트워크를 가정해 봅시다.
-1) 깊이가 L인,
-2) 너비가 n0 = n1 = · · · = nL = N 인 층,
-3) 각 spline이 주로 k(일반적으로 k = 3)차이며 G 구간(G + 1개의 그리드 포인트)에서 
+
+1. 깊이가 L인,
+2. 너비가 n0 = n1 = · · · = nL = N 인 층,
+3. 각 spline이 주로 k(일반적으로 k = 3)차이며 G 구간(G + 1개의 그리드 포인트)에서
 
 ![image](/assets/img/2024-06-19-KolmogorovArnoldNetworksHypeorDeepLearningRevolution_17.png)
 
 하지만, KAN은 보통 MLP보다 훨씬 작은 𝑁이 필요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 매개변수를 줄임으로써,
 - 더 나은 일반화를 달성합니다
@@ -225,7 +441,18 @@ KAN이 기본적으로 더 복잡하기 때문에, 동일 크기의 MLP보다 �
 
 지금까지 오셨으면, 확실히 KANs에서 많이 보이는 스플라인을 알아차릴 수 있었을 것입니다. 그리고 당신은 틀리지 않았습니다- 스플라인은 KANs의 매우 중요한 부분입니다. 그래서 다음으로 그것들에 대해 논의할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## B. 스플라인 매개 변수화 및 KANs
 
@@ -235,7 +462,18 @@ KAN이 기본적으로 더 복잡하기 때문에, 동일 크기의 MLP보다 �
 
 이러한 매듭은 곡선을 세그먼트로 나누고, 각 세그먼트 내에서 B-스플라인은 특정 차수의 다항식입니다. 매력은 이러한 세그먼트들이 매끄럽게 연결되어 원하는 수준의 부드러움을 가진 연속적인 곡선을 만든다는 데 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 B-스플라인은 매우 멋지기 때문에 그들의 유연성에서 Camavinga의 스타일을 띠고 있습니다. 매우 부드러운 곡선을 원한다면 더 높은 차수의 B-스플라인을 사용해야 합니다. 곡선의 모양에 대한 유연성과 제어를 더 원한다면 매듭의 위치를 조절할 수 있습니다. 이러한 이유로 B-스플라인은 다양한 함수를 표현하는 데 놀라운 유연성을 제공합니다. 그래서 다음 번에 "문화인" 여러분들 중 한 분이 선호하는 애니메이션, AI 또는 심지어 포토샵으로 가공한 모델에 대한 갈망이 생길 때, B 스플라인의 신에게 감사하는 것을 잊지 마세요.
 
@@ -246,7 +484,18 @@ B-스플라인은 KANs에서 중요한 역할을 합니다. 왜냐하면 엣지�
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/0*OhuCnxJme6EnYIWX.gif)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 해석 가능성: B-스플라인은 구간 다항식으로 구성되어 있기 때문에 블랙박스 신경망보다 시각적으로 직관적이며 이해하기 쉽습니다. 이는 학습된 활성화 함수가 더 해석 가능하며 과학적 발견을 용이하게 합니다. "우리는 KAN이 매듭 이론(4.3절)과 응축물질 물리의 상 전이 경계(4.4절) 모두를 (재)발견할 수 있다는 것을 입증합니다. KAN은 정확성(마지막 절)과 해석 가능성(이 절)으로 인해 AI+과학의 기초 모델이 될 수 있습니다."
 
@@ -256,8 +505,18 @@ Splines를 최상의 성능으로 작동하기 위해서는 그들을 지원하�
 
 Grid Extension 기술은 KAN의 중요한 구성 요소로, 스플라인에 내재된 제한된 해상도를 해결합니다. 스플라인은 유한한 점 그리드 상에 정의되어 있으므로 정확도는 그리드의 밀도에 따라 달라집니다. Grid Extension 기술은 모델이 기반이 되는 함수의 점점 미세한 세부사항들을 학습할 수 있도록 훈련 중에 그리드 밀도를 증가시킴으로써 이를 해결합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-KolmogorovArnoldNetworksHypeorDeepLearningRevolution_20.png)
 
@@ -267,8 +526,18 @@ Grid Extension 기술은 KAN의 중요한 구성 요소로, 스플라인에 내�
 
 KANs에 대한 해석 가능성이 얼마나 중요한지 고려할 때, 가능한 한 우리의 KANs가 해석 가능하도록 보장할 수 있는 방법에 대해 이야기해 보겠습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## D. 해석 가능성을 위한 KAN 단순화
 
@@ -280,7 +549,18 @@ KAN의 기본 아키텍처는 해석 가능성을 촉진하지만 활성화 함�
 
 <img src="/assets/img/2024-06-19-KolmogorovArnoldNetworksHypeorDeepLearningRevolution_22.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 해석가능성의 주요 이점은 사람들(사용자, 전문가 등)이 프로세스/훈련 중간에서 AI를 결정으로 이끌 수 있도록 하는 것입니다. 이 상호작용은 AI 솔루션을 구축하는 가장 간과된 측면 중 하나이며, 대부분의 팀이 이를 구축하는 데 아무것도 하지 않거나 거의 하지 않습니다. 그러나 제대로 하면 게임 체인저가 될 수 있습니다. 그러니 KAN과 그들의 상호작용을 어떻게 만들 수 있는지에 대해 이야기해보겠습니다.
 
@@ -288,7 +568,18 @@ KAN의 기본 아키텍처는 해석 가능성을 촉진하지만 활성화 함�
 
 KAN의 주요 이점 중 하나는 그들의 고유한 상호작용성입니다. 시각화 도구와 상징적 조작 기능을 활용하여 사용자는 학습된 표현을 개량하고 근본적인 관계에 대한 보다 깊은 통찰력을 얻기 위해 모델과 협업할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 대화식 방식을 통해 사용자는 모델의 학습 과정을 안내할 수 있습니다.
 
@@ -300,7 +591,18 @@ KAN의 주요 이점 중 하나는 그들의 고유한 상호작용성입니다.
 
 그리고 그로써 코끼리 번식이 해결되었다고 생각해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 이 기사가 마음에 드셨고 공유하고 싶으시다면 아래 가이드라인을 참조해 주세요.
 
@@ -310,7 +612,18 @@ KAN의 주요 이점 중 하나는 그들의 고유한 상호작용성입니다.
 
 저는 정보를 제공하고 유용하며, 부당한 영향으로부터 독립된 작품을 만드는 데 많은 노력을 기울였습니다. 제 글을 지원하고 싶으시다면, 이 뉴스레터의 유로 구독자가 되는 것을 고려해 주세요. 이를 통해 더 많은 노력을 기울여 쓰기/연구를 할 수 있고, 더 많은 사람들에게 도달하며, 제 치명적인 초콜릿 우유 중독을 지원할 수 있습니다. 매주 10만 명이 넘는 독자들에게 인공지능 연구와 엔지니어링의 가장 중요한 아이디어들을 대중화하는 데 도와주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 초콜릿 우유를 사주실래요?
 
@@ -322,7 +635,18 @@ PS- 우리는 "자신의 능력에 맞게 지불"하는 모델을 따릅니다. 
 
 # 언제든지 연락주세요~
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 링크를 사용하여 다른 콘텐츠를 확인하거나 튜터링에 대해 더 알아보거나 프로젝트에 대해 연락하거나 인사를 전하실 수 있습니다.
 
@@ -332,7 +656,18 @@ AI 뉴스레터 - [artificialintelligencemadesimple.substack.com](https://artifi
 
 제 할머니가 좋아하는 기술 뉴스레터 - [codinginterviewsmadesimple.substack.com](https://codinginterviewsmadesimple.substack.com/)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 다른 기사들도 확인해보세요. : [https://rb.gy/zn1aiu](https://rb.gy/zn1aiu)
 
@@ -342,6 +677,17 @@ LinkedIn에서 연락해요. 함께 소통해요: [https://rb.gy/m5ok2y](https:/
 
 내 인스타그램: [https://rb.gy/gmvuy9](https://rb.gy/gmvuy9)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제 트위터: [https://twitter.com/Machine01776819](https://twitter.com/Machine01776819)

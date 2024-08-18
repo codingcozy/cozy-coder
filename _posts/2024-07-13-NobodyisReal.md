@@ -3,17 +3,13 @@ title: "아무도 진짜가 아니다 현실을 의심하게 만드는 진실"
 description: ""
 coverImage: "/assets/img/2024-07-13-NobodyisReal_0.png"
 date: 2024-07-13 22:26
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-NobodyisReal_0.png
 tag: Tech
 originalTitle: "Nobody is Real"
 link: "https://medium.com/write-a-catalyst/nobody-is-real-4c6372665056"
 isUpdated: true
 ---
-
-
-
-
 
 ![Tarot Image](/assets/img/2024-07-13-NobodyisReal_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 최근 몇 년 동안 이 이론에 대한 관심이 상당히 증가하고 있습니다. 몇몇 과학자와 철학자들은 우리가 배제할 수 없는 가능성일 수 있다고 주장하고 있죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![NobodyisReal_1](/assets/img/2024-07-13-NobodyisReal_1.png)
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 자극가설에 따르면, 이 시뮬레이터는 매우 정교한 컴퓨터 프로그램, 첨단 기술 또는 초자연적인 존재일 수 있습니다. 전제는 우리가 겪는 모든 일, 우리의 상호작용, 감정 및 생각을 포함한 모든 것이 복잡한 스토리에 의해 미리 결정된다는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 그렇다면 사람들이 실재가 아니라면 그들은 무엇일까요?
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 우리의 세계가 시뮬레이션이라면, 우리는 모두 우리가 미리 정해진 역할을 연기하는 배우들일 것입니다. 우리의 선택과 행동은 우리의 성격, 능력 및 경험의 미리 프로그래밍 된 버전에 의해 결정될 것입니다. 이것은 의식과 자유의지의 본질을 의문 지어줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 특히, 우리가 무슨 행동을 취하든 다른 사람들에게 영향을 끼칩니다. 때로는 그 행동으로 인해 그들의 삶에 회복할 수 없는 손상을 입히기도 합니다. 그로 인해 그들의 존재에 고통을 안겨주는 일도 있습니다.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 예를 들어, 당신이 인생에서 다른 사람들을 위해 있었을 때를 생각해보세요. 그때 당신에게는 작은 문제가 있을 때에도 더 많은 친구들이 있었고, 모두가 당신과 어울리고 싶어했습니다. 그런데 뭔가 나쁜 일이 생기자 거의 모든 친구들이 당신을 외로이 남겨두죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-13-NobodyisReal_3.png)
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 현실 세계의 행동들은 우리 삶에 많은 결과를 가져와요. 이것들은;
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **우울증:**
 
@@ -73,7 +124,18 @@ isUpdated: true
 
 다친 사람은 다시 사람들을 신뢰하기 어려워할 것입니다. 이것은 좋은 소식일 수도 있고, 나쁜 소식일 수도 있습니다. 왜냐하면 실제 사람들과 배우(가장하는 사람)들은 비슷하게 행동할 수 있으나, 최종 결과가 그들이 선한지 악한지 알려주게 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 사람이 변할 수 있습니다:
 
@@ -83,7 +145,18 @@ isUpdated: true
 
 # 결론:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사람들에게 어리석게 착한 척하지 마세요. 자신을 보호하려 노력하세요. 자신을 지켜주는 사람이 없기 때문이죠. 세상은 탐욕과 악의로 가득 차 있습니다. 그들의 행동은 우리의 삶에 부정적으로나 긍정적으로 영향을 줄 수 있어요. 좋은 마음가짐만으로는 세상을 바꿀 수 없습니다. 긍정적인 변화에 저항하고 부정성을 받아들이는 사람들도 있기 때문이죠. 혹시 모두가 가짜가 아닐까요? 우리는 모두 역할을 연기하는 배우들인 것입니다. 이 가설을 반박하는 경험을 솔직히 공유해 주세요. 다른 이들도 그것에서 배울 수 있습니다.
 

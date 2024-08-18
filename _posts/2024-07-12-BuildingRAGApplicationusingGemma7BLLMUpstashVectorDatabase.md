@@ -3,17 +3,13 @@ title: "Gemma 7B LLM과 Upstash 벡터 데이터베이스를 활용한 RAG 애�
 description: ""
 coverImage: "/assets/img/2024-07-12-BuildingRAGApplicationusingGemma7BLLMUpstashVectorDatabase_0.png"
 date: 2024-07-12 23:21
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-BuildingRAGApplicationusingGemma7BLLMUpstashVectorDatabase_0.png
 tag: Tech
 originalTitle: "Building RAG Application using Gemma 7B LLM , Upstash Vector Database"
 link: "https://medium.com/towards-artificial-intelligence/building-rag-application-using-gemma-7b-llm-upstash-vector-database-ff50b715d906"
 isUpdated: true
 ---
-
-
-
-
 
 Retrieval-Augmented Generation (RAG)은 외부 지식 출처에서 큰 언어 모델(Large Language Models, LLMs)에게 추가 정보를 제공하는 개념입니다. 이를 통해 그들은 더 정확하고 맥락적인 답변을 생성하면서 환각을 줄일 수 있습니다. 이 글에서는 구글 젬마 7B와 Upstash 서버리스 벡터 데이터베이스를 활용해 완전한 RAG 애플리케이션을 만드는 단계별 안내를 제공할 것입니다.
 
@@ -28,7 +24,18 @@ Retrieval-Augmented Generation (RAG)은 외부 지식 출처에서 큰 언어 �
 - Gemma 7B LLM 소개 및 활용
 - RAG 애플리케이션 질의하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 여기서 Upstash Vector Database를 무료로 사용해보실 수 있어요:
 
@@ -37,10 +44,21 @@ Retrieval-Augmented Generation (RAG)은 외부 지식 출처에서 큰 언어 �
 RAG 애플리케이션을 구축하는 첫 번째 단계는 작업 환경을 준비하는 것입니다. 애플리케이션을 구축할 때 사용할 패키지를 다운로드하는 것부터 시작해보겠어요:
 
 ```bash
-%pip install -q -U langchain torch transformers sentence-transformers datasets tiktoken upstash_vector 
+%pip install -q -U langchain torch transformers sentence-transformers datasets tiktoken upstash_vector
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로 사용할 패키지와 라이브러리를 가져오겠습니다:
 
@@ -63,7 +81,18 @@ from langchain.chains import RetrievalQA
 - 검색: 정보 검색(IR) 구성 요소는 방대한 텍스트 데이터(일반적으로 문서 또는 단락)를 탐색하여 특정 사용자 쿼리에 대한 가장 관련 있는 정보를 식별합니다. 이 과정은 시스템이 문서 뿐만 아니라 쿼리 의도와 일치하는 특정 텍스트 단락도 검색하는 밀집 통로 검색과 같은 기술을 포함합니다.
 - 생성: 검색된 단락은 강력한 언어 처리 엔진 역할을 하는 LLM에 입력됩니다. LLM은 이러한 단락을 분석하고 언어적 이해를 활용하여 사용자 쿼리에 종합적으로 대답하는 응답을 생성합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자가 LLM에게 질문을 하면 LLM에 직접 물어볼 대신 이 질의에 대한 임베딩을 생성한 후, 유지되는 지식 라이브러리에서 관련 데이터를 검색한 다음 그 문맥을 사용하여 답변을 반환합니다.
 
@@ -73,7 +102,18 @@ from langchain.chains import RetrievalQA
 
 [다이어그램](/assets/img/2024-07-12-BuildingRAGApplicationusingGemma7BLLMUpstashVectorDatabase_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2. Cosmopedia 데이터셋 다운로드 및 분할하기
 
@@ -83,7 +123,18 @@ from langchain.chains import RetrievalQA
 
 이 신중하게 편집된 데이터셋에는 교과서, 블로그 게시물, 서술, 소셜 미디어 글 및 WikiHow 기사 등 다양한 합성 텍스트 소스가 포함되어 있습니다. Mixtral-8x7B-Instruct-v0.1 모델에 의해 생성된 Cosmopedia는 감동적인 컬렉션이며, 3천만 개 이상의 개별 파일과 놀라운 250억 개의 토큰을 자랑합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 규모와 포괄성 자체가 현재 사용 가능한 가장 큰 오픈 합성 데이터셋으로 이를 보면 자연어 처리 및 생성에서의 혁신적 노력에 활용할 수 있는 풍부한 자료가 제공됩니다.
 
@@ -100,7 +151,18 @@ Cosmopedia 데이터셋에는 8개 하위 데이터셋이 포함되어 있습니
 
 우리는 ‘Stanford’ 하위 데이터셋과 계속 작업할 것입니다. 데이터셋을 로드하기 위해 datasets 라이브러리를 활용할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로 pandas dataframe으로 변환하고 CSV 파일로 저장할 거에요.
 
@@ -112,61 +174,103 @@ data.head()
 
 ![Image](/assets/img/2024-07-12-BuildingRAGApplicationusingGemma7BLLMUpstashVectorDatabase_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오늘 우리는 시스템에 데이터셋을 저장한 후 LangChain CSVLoader 메소드를 사용하여 이 데이터셋을 로드할 것입니다.
 
 ```js
-loader = CSVLoader(file_path='./stanford_dataset.csv')
-data = loader.load()
+loader = CSVLoader((file_path = "./stanford_dataset.csv"));
+data = loader.load();
 ```
 
 이제 데이터가 로드되었으니, 데이터 안의 문서들을 모델의 컨텍스트 윈도우에 맞게 작은 조각들로 나눌 필요가 있습니다.
 
 긴 텍스트를 다루어야 할 때는 이를 조각내는 것이 필요합니다. 이런 작업은 간단히 들리지만 그 안에는 잠재적인 복잡성이 많이 있습니다. 의미론적으로 관련된 텍스트 조각들을 함께 유지하도록 하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LangChain에는 문서를 쉽게 분할, 병합, 필터링 및 기타 조작할 수 있는 다양한 문서 변환기가 내장되어 있습니다. 우리는 RecursiveCharacterTextSplitter를 사용할 것인데, 이는 재귀적으로 다양한 문자로 분할을 시도하여 작동하는 문자를 찾아냅니다. 청크 크기 = 1000으로 설정하고 청크 중복 = 150으로 설정할 것입니다.
 
 ```js
-text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=150)
-docs = text_splitter.split_documents(data)
+text_splitter = RecursiveCharacterTextSplitter((chunk_size = 1000), (chunk_overlap = 150));
+docs = text_splitter.split_documents(data);
 ```
 
 # 3. 문장 Transformer 모델을 사용하여 임베딩 생성
 
 ![이미지](/assets/img/2024-07-12-BuildingRAGApplicationusingGemma7BLLMUpstashVectorDatabase_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 단계는 불러온 텍스트에 대한 임베딩을 생성하는 것입니다. 임베딩을 생성하는 것은 RAG 애플리케이션을 구축하는 데 필수적인 단계로, 텍스트에 대한 의미와 맥락을 인코딩하여 의미와 문맥을 이해하는 데 중요합니다. 이는 질문과 문서 임베딩을 비교하여 검색 정확도를 향상시키는 검색 및 생성 프로세스에 도움이 됩니다.
 
 우리는 SentenceTransformers의 all-MiniLM-L6-v2 임베딩 모델을 사용하여 임베딩을 생성할 것입니다. 먼저, 아래 코드를 사용하여 이를 초기화할 것입니다:
 
 ```js
-modelPath = "sentence-transformers/all-MiniLM-l6-v2"
-model_kwargs = {'device':'cpu'}
-encode_kwargs = {'normalize_embeddings': False}
+modelPath = "sentence-transformers/all-MiniLM-l6-v2";
+model_kwargs = { device: "cpu" };
+encode_kwargs = { normalize_embeddings: False };
 embeddings = HuggingFaceEmbeddings(
- model_name=modelPath, 
- model_kwargs=model_kwargs, 
- encode_kwargs=encode_kwargs 
-)
+  (model_name = modelPath),
+  (model_kwargs = model_kwargs),
+  (encode_kwargs = encode_kwargs)
+);
 ```
 
 이를 초기화한 후에 우리는 이를 문서에 적용하여 임베딩을 생성할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 텍스트 조각마다 임베딩 생성하기
-chunk_embeddings = []
-for doc in docs:
-    # 각 조각에 대한 임베딩 생성
-    chunk_embedding = embeddings.encode(doc)
-    chunk_embeddings.append(chunk_embedding)
 
+chunk_embeddings = []
+for doc in docs: # 각 조각에 대한 임베딩 생성
+chunk_embedding = embeddings.encode(doc)
+chunk_embeddings.append(chunk_embedding)
 
 임베딩을 생성한 후에는 벡터 데이터베이스에 저장해야 합니다. 벡터 데이터베이스는 임베딩과 같은 고차원 데이터에 대해 최적화된 인덱싱 및 클러스터링 기술을 지원하며, 이는 검색 효율성과 정확도를 더욱 향상시킬 수 있습니다. 우리는 Uptstash 벡터 데이터베이스를 사용하여 임베딩을 저장할 것입니다.
 
@@ -174,8 +278,18 @@ for doc in docs:
 
 ![이미지](https://example.com/assets/img/2024-07-12-BuildingRAGApplicationusingGemma7BLLMUpstashVectorDatabase_5.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 이전에 생성된 벡터 임베딩을 저장하기 위해 Upstash Vector 데이터베이스를 사용할 것입니다. Upstash Vector는 벡터 임베딩과 함께 작업하기 위해 설계된 서버리스 벡터 데이터베이스입니다.
 
@@ -185,13 +299,24 @@ for doc in docs:
 
 ![Image](/assets/img/2024-07-12-BuildingRAGApplicationusingGemma7BLLMUpstashVectorDatabase_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 벡터 인덱스를 생성한 후 벡터 REST URL 및 벡터 REST 토큰에 액세스할 수 있게 됩니다. 코드에서 이들을 정의하여 생성된 벡터 데이터베이스에 액세스할 수 있게 됩니다.
 
 ```js
-UPSTASH_VECTOR_REST_URL="<YOUR_UPSTASH_VECTOR_REST_URL>"
-UPSTASH_VECTOR_REST_TOKEN="<YOUR_UPSTASH_VECTOR_REST_TOKEN>"
+UPSTASH_VECTOR_REST_URL = "<YOUR_UPSTASH_VECTOR_REST_URL>";
+UPSTASH_VECTOR_REST_TOKEN = "<YOUR_UPSTASH_VECTOR_REST_TOKEN>";
 ```
 
 생성된 임베딩을 벡터 데이터베이스에 삽입하기 위해 그들을 벡터 객체로 변환해야 합니다. 아래의 코드를 사용하여 이 작업을 수행할 것입니다:
@@ -218,7 +343,18 @@ for i in trange(0, len(chunks), batch_count):
         vectors.append(vec)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 벡터를 생성한 후에는 한꺼번에 모든 벡터를 색인에 올릴 수 있습니다. Upstash는 무료 인덱스 당 1000개의 벡터를 지원합니다.
 
@@ -240,7 +376,18 @@ index.upsert(vectors)
 
 ![BuildingRAGApplicationusingGemma7BLLMUpstashVectorDatabase_7.png](/assets/img/2024-07-12-BuildingRAGApplicationusingGemma7BLLMUpstashVectorDatabase_7.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Gemma는 Gemini를 기반으로 한 Google의 새로운 LLM 모델 패밀리로 4가지 모델이 있습니다. Gemma에는 2가지 크기가 있으며, 각각 베이스(Pretrained)와 인스트럭션 튜닝 버전이 있습니다.
 
@@ -253,45 +400,73 @@ Gemma는 Gemini를 기반으로 한 Google의 새로운 LLM 모델 패밀리로 
 
 Gemma 모델을 사용하려면 Hugging Face에서 약관에 동의해야 합니다. 그 후에는 Hugging Face 토큰을 로그인할 때 전달해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로, 저희는 토크나이저와 모델을 초기화할 거에요
 
 ```js
-model = AutoModelForCausalLM.from_pretrained("google/gemma-7b")
-tokenizer = AutoTokenizer.from_pretrained("google/gemma-7b", padding=True, truncation=True, max_length=512)
+model = AutoModelForCausalLM.from_pretrained("google/gemma-7b");
+tokenizer = AutoTokenizer.from_pretrained("google/gemma-7b", (padding = True), (truncation = True), (max_length = 512));
 ```
 
 텍스트 생성 파이프라인을 만들어봐요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 pipe = pipeline(
- "text-generation", 
- model=model, 
- tokenizer=tokenizer,
- return_tensors='pt',
- max_length=512,
- max_new_tokens=512,
- model_kwargs={"torch_dtype": torch.bfloat16},
- device="cuda"
+"text-generation",
+model=model,
+tokenizer=tokenizer,
+return_tensors='pt',
+max_length=512,
+max_new_tokens=512,
+model_kwargs={"torch_dtype": torch.bfloat16},
+device="cuda"
 )
-
 
 Tarot readers, get ready to unlock the mystic powers of the LLM with this simple initialization! 🌟
 
-
 llm = HuggingFacePipeline(
- pipeline=pipe,
- model_kwargs={"temperature": 0.7, "max_length": 512},
+pipeline=pipe,
+model_kwargs={"temperature": 0.7, "max_length": 512},
 )
-
 
 Let's delve into the realm of unknown possibilities by harnessing the vector store and the LLM for captivating question-answering revelations! 🔮✨
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 6. RAG 어플리케이션에서 답변을 조회하는 방법
 
@@ -301,7 +476,7 @@ Let's delve into the realm of unknown possibilities by harnessing the vector sto
 
 ```js
 def ask_question(question):
-    
+
     # 질문에 대한 임베딩 가져오기
     question_embedding = embeddings.encode(doc)
 
@@ -320,12 +495,23 @@ def ask_question(question):
     return answer[0]['generated_text']
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 The RAG pipeline is now ready, and we can pass an input query to observe the output and its performance.
 
 ```js
-ask_question("Write an educational story for young children.")
+ask_question("Write an educational story for young children.");
 ```
 
 ## If you enjoyed the article and would like to support me, please take the following actions:
@@ -336,7 +522,18 @@ ask_question("Write an educational story for young children.")
 - 📰 View more content on my Medium profile.
 - 🔔 Follow Me: LinkedIn | Youtube | GitHub | Twitter
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 내 뉴스레터 '데이터 & 비욘드'를 구독하시면 제 기사에 대한 전체적이고 일찍 접근할 수 있습니다:
 

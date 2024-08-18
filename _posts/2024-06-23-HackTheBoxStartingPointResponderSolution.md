@@ -3,18 +3,13 @@ title: "Hack The Box - Responder 초반 해결 방법"
 description: ""
 coverImage: "/assets/img/2024-06-23-HackTheBoxStartingPointResponderSolution_0.png"
 date: 2024-06-23 15:27
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-HackTheBoxStartingPointResponderSolution_0.png
 tag: Tech
 originalTitle: "Hack The Box — Starting Point “Responder” Solution"
 link: "https://medium.com/rakulee/hack-the-box-starting-point-responder-solution-d0fa2ea77a56"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![image](/assets/img/2024-06-23-HackTheBoxStartingPointResponderSolution_0.png)
 
@@ -24,22 +19,39 @@ Responder는 Hack The Box 플랫폼의 Starting Point 시리즈에서 Tier 1 중
 
 TASK 1 — IP 주소를 사용하여 웹 서비스를 방문할 때, 우리가 리디렉트되는 도메인은 무엇입니까?
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 브라우저를 통해 IP 주소에 액세스하려고 하면 unika.htb로 리디렉션되지만 연결이 성공하지 않을 것입니다.
 
-
 ![image1](/assets/img/2024-06-23-HackTheBoxStartingPointResponderSolution_1.png)
-
 
 웹 페이지를 보려면 대상 IP를 /etc/hosts 파일에 추가해야 합니다. 그런 다음 터미널에서 텍스트 파일 편집기를 열고 페이지의 호스트 이름과 IP 주소를 입력하십시오.
 
-
 ![image2](/assets/img/2024-06-23-HackTheBoxStartingPointResponderSolution_2.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 Markdown 형식의 텍스트입니다.
 
@@ -51,7 +63,18 @@ TASK 1 — IP 주소를 사용하여 웹 서비스를 방문할 때, 우리가 �
 
 TASK 2 — 서버에서 웹페이지를 생성하는데 사용된 스크립팅 언어는 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Nmap 스캔을 실행하여 사용 가능한 포트 목록을 생성 중입니다. 결과에 따르면, 웹 서비스용 포트 80이 활성화되어 있으며 서비스에 대한 세부 정보가 제공되었습니다. 또한, 아파치가 PHP를 사용하여 웹 페이지를 생성하고 있다고 언급했습니다.
 
@@ -61,7 +84,18 @@ Nmap 스캔을 실행하여 사용 가능한 포트 목록을 생성 중입니�
 
 다른 언어로 전환하려면 페이지 매개 변수를 사용합니다. 언어가 변경되면 주소 표시줄의 URL이 변경되는 것을 확인할 수 있습니다. 아래 예시를 참고하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-06-23-HackTheBoxStartingPointResponderSolution_6.png](/assets/img/2024-06-23-HackTheBoxStartingPointResponderSolution_6.png)
 
@@ -71,7 +105,18 @@ Nmap 스캔을 실행하여 사용 가능한 포트 목록을 생성 중입니�
 
 ![2024-06-23-HackTheBoxStartingPointResponderSolution_7.png](/assets/img/2024-06-23-HackTheBoxStartingPointResponderSolution_7.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **TASK 5** — `page` 매개변수에 다음 중 어떤 값이 원격 파일 포함(Remote File Include, RFI) 취약점을 악용한 예시인가요: “french.html,” “//10.10.14.6/somefile”, “../../../../../../../../windows/system32/drivers/etc/hosts”, “minikatz.exe”?
 
@@ -81,7 +126,18 @@ Nmap 스캔을 실행하여 사용 가능한 포트 목록을 생성 중입니�
 
 **TASK 6** — NTLM은 무엇의 약자인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 NTLM은 Microsoft Windows를 위해 설계된 보안 프로토콜 그룹인 New Technology LAN Manager의 약자입니다. NTLM은 클라이언트 및 서버를 인증하기 위해 도전-응답 메커니즘을 사용합니다. 그러나 현재의 응용 프로그램에서는 암호화 부족 때문에 NTLM 사용을 권장하지 않습니다.
 
@@ -91,7 +147,18 @@ Responder는 네트워킹 인터페이스를 지정하기 위해 -I로 표시된
 
 ![Resonder Flag](/assets/img/2024-06-23-HackTheBoxStartingPointResponderSolution_9.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, "ip a |grep + 네트워크 인터페이스" 명령어를 사용하여 IP를 확인하세요.
 
@@ -101,7 +168,18 @@ Responder가 제대로 작동하는지 확인하기 위해 Responder가 이벤�
 
 ![이미지](/assets/img/2024-06-23-HackTheBoxStartingPointResponderSolution_11.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Responder가 작동 중인 터미널에서 NTLM 정보에는 클라이언트의 IP, 사용자 이름 및 암호 해시가 포함되어 있습니다.
 
@@ -111,7 +189,18 @@ Responder가 작동 중인 터미널에서 NTLM 정보에는 클라이언트의 
 
 암호 해독 도구 John의 전체 이름은 John the Ripper입니다. 이 랩에서 사용자 암호를 찾는 데 곧 사용될 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해시를 복사한 후 "echo" 명령어를 사용하여 파일로 전송하세요. 그런 다음 "ls" 명령어를 사용하여 디렉터리를 확인하여 파일이 저장되었는지 확인하세요.
 
@@ -121,19 +210,39 @@ Responder가 작동 중인 터미널에서 NTLM 정보에는 클라이언트의 
 
 ![image](/assets/img/2024-06-23-HackTheBoxStartingPointResponderSolution_14.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "john" 명령을 사용하여 워드리스트를 실행하고 해당 패스워드 해시 파일과 일치시켰어요.
 
-
 ![image](/assets/img/2024-06-23-HackTheBoxStartingPointResponderSolution_15.png)
-
 
 할일 9 — 관리자 사용자의 비밀번호는 뭔가요?
 
 1단계에서 착안한 단계별 지시 사항을 통해 관리자 사용자의 비밀번호는 "badminton"이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **TASK 10** — 윈도우 서비스(즉, 상자에서 실행 중인)를 사용하여 복구한 비밀번호를 사용하여 Responder 머신에 원격으로 액세스할 것입니다. 이 서비스가 청취하는 TCP 포트는 무엇인가요?
 
@@ -143,21 +252,39 @@ Responder가 작동 중인 터미널에서 NTLM 정보에는 클라이언트의 
 
 **플래그 제출**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 악성-winrm을 활용하여 플래그 사냥을 진행해봅시다. 해당 패키지에는 대상 컴퓨터에 액세스하기 위한 Windows 원격 관리가 포함되어 있습니다. 마침내 IP 주소, 사용자 이름 및 비밀번호를 포함한 모든 필요한 정보를 모았습니다.
 
-
 ![이미지](/assets/img/2024-06-23-HackTheBoxStartingPointResponderSolution_17.png)
-
 
 디렉터리 및 폴더 간 이동에는 "cd" 명령을 사용할 수 있으며, 폴더 내용은 "dir"을 사용하여 나열할 수 있습니다. 사용자 Mike에게 숨겨진 플래그가 있습니다.
 
-
 ![이미지](/assets/img/2024-06-23-HackTheBoxStartingPointResponderSolution_18.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 깃발을 확인하려면 "type" 명령어를 사용하세요.
 
@@ -167,8 +294,18 @@ Responder가 작동 중인 터미널에서 NTLM 정보에는 클라이언트의 
 
 제공된 이미지의 모든 작업에 대한 답안을 가지고 있어요. Pweding Responder 머신은 정말 재미있는 경험이었습니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![HackTheBoxStartingPointResponderSolution_21.png](/assets/img/2024-06-23-HackTheBoxStartingPointResponderSolution_21.png)
 

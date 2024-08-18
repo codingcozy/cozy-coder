@@ -3,17 +3,13 @@ title: "해상 통신을 위한 LoRa 기술 활용법 범선에서의 새로운 
 description: ""
 coverImage: "/assets/img/2024-06-23-BeyondtheGridLoRaforSailboatCommunication_0.png"
 date: 2024-06-23 17:37
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-BeyondtheGridLoRaforSailboatCommunication_0.png
 tag: Tech
 originalTitle: "Beyond the Grid: LoRa for Sailboat Communication"
 link: "https://medium.com/@mulitfariousguy/beyond-the-grid-lora-for-sailboat-communication-6544db8e18b4"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-23-BeyondtheGridLoRaforSailboatCommunication_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 그래서 나는 이에 대한 대안적인 통신 수단을 찾고 있었습니다. 그래서 나왔다고 하는 것이 LoRa와 Meshtastic입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 가능한 해결책
 
@@ -34,9 +41,20 @@ LoRa (Long Range)은 미국에서 915MHz 주파수에서 작동하는 라디오 
 
 첫째, 이것이 우리의 요구 사항을 충족시킬 것이라는 보장은 없지만, 시도할 가치가 있는 실험이라고 생각됩니다. 또한, 어릴 때 해머디오 라이선스를 취득했기 때문에 라디오 하드웨어와 노는 것을 즐겼던 시절로 돌아가는 향수 여행이기도 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-다음 시나리오를 고려해 봅시다; 우리는 휴대폰 수신이 가능한 지역 가장자리에 정박해 있고, 우리 중 한 명이 보트를 타고 마을로 가서 장보러 가야 합니다. 마을은 가깝지만 몇 건물만 떨어져 있어도 휴대용 VHF 라디오를 사용할 수 없을 수 있습니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+다음 시나리오를 고려해 봅시다; 우리는 휴대폰 수신이 가능한 지역 가장자리에 정박해 있고, 우리 중 한 명이 보트를 타고 마을로 가서 장보러 가야 합니다. 마을은 가깝지만 몇 건물만 떨어져 있어도 휴대용 VHF 라디오를 사용할 수 없을 수 있습니다.
 우리가 리스트에 팝콘을 잊어먹었다는 걸 어떻게 알려줄까요? 이럴 때 LoRa가 필요합니다.
 
 # 장비
@@ -45,7 +63,18 @@ LoRa (Long Range)은 미국에서 915MHz 주파수에서 작동하는 라디오 
 
 저는 LoRa 보드를 아마존에서 주문했는데, 편리하게도 2개 팩키지로 판매하고 있습니다. 저는 WiFi와 블루투스가 장착된 제품을 선택했으나 GPS는 없는 제품입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 USB-C 커넥터로 전원을 공급할 수 있는데, 동시에 내장형 LiPo 배터리 관리자가 있어서 이에 맞는 배터리를 구입했습니다. 보드의 전체 사양을 원하신다면 여기서 찾아볼 수 있어요.
 
@@ -55,7 +84,18 @@ USB-C 커넥터로 전원을 공급할 수 있는데, 동시에 내장형 LiPo �
 
 <img src="/assets/img/2024-06-23-BeyondtheGridLoRaforSailboatCommunication_2.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 조각들을 모두 맞추기
 
@@ -66,7 +106,18 @@ USB-C 커넥터로 전원을 공급할 수 있는데, 동시에 내장형 LiPo �
 
 # 라디오 설정
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안테나가 설치되어 있어 라디오를 설정해야 했습니다. USB-C 커넥터를 사용하는 라디오와 노트북 및 USB 케이블이 있어 전원을 공급하는 것은 쉬웠어요. 부팅 시퀀스가 완료되면 위의 화면이 표시됩니다. 이제 메스타스틱 플랫폼을 장치에 플래시해야 했어요. 메스타스틱은 장치를 메쉬 네트워크의 노드로 변환하는 소프트웨어 및 하드웨어 통신 프로토콜을 제공합니다.
 
@@ -76,7 +127,18 @@ USB-C 커넥터로 전원을 공급할 수 있는데, 동시에 내장형 LiPo �
 
 구성은 웹 클라이언트, iOS 또는 Android 클라이언트 또는 CLI를 사용하여 설정할 수 있습니다. 블루투스, 무선 또는 시리얼 연결을 받아들입니다. 저는 간단한 텍스트 메시지를 보내기 위해 사용할 것이므로 안드로이드 클라이언트를 설치하고 블루투스로 연결했어요. 이제 첫 번째 작동하는 라디오가 준비되었습니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 배터리와 두 번째 라디오
 
@@ -86,7 +148,18 @@ USB-C 커넥터로 전원을 공급할 수 있는데, 동시에 내장형 LiPo �
 
 이제 두 번째 라디오에 대한 라디오 설정을 반복해야 했습니다. 두 번째 시도 때는 확실히 빨랐어요. 금방 충전했습니다. 두 장치 간에 작은 텍스트 메시지를 주고받도록 실험한 뒤 결국 핸드폰의 GPS 위치를 라디오와 공유하는 방법을 찾았습니다. 그래서 통신하는 노드와의 거리를 나타내는 작은 화살표가 보이게 했습니다. 정확하지는 않지만 귀엽고, 내가 배에서 얼마나 떨어져 있는지 알고 싶을 때 유용할 것 같았습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-23-BeyondtheGridLoRaforSailboatCommunication_7.png" />
 

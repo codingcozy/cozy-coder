@@ -3,17 +3,13 @@ title: "내 끝내지 못한 프로젝트에 대한 추모"
 description: ""
 coverImage: "/assets/img/2024-05-27-Amemorialtomyunfinishedproject_0.png"
 date: 2024-05-27 13:48
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-Amemorialtomyunfinishedproject_0.png
 tag: Tech
 originalTitle: "A memorial to my unfinished project"
 link: "https://medium.com/the-diy-diaries/a-memorial-to-my-unfinished-project-and-everything-else-ive-ever-thrown-away-cdca3e445e64"
 isUpdated: true
 ---
-
-
-
-
 
 # 모든 것 그리고 내가 버린 모든 것)
 
@@ -23,9 +19,20 @@ isUpdated: true
 
 <img src="/assets/img/2024-05-27-Amemorialtomyunfinishedproject_0.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-일단, 얀 염색 로트가 일치하지 않았어요. 앞 패널의 절반은 다른 카디건 부분의 푸르스름한 회색 대신 분홍 회색이었어요. 낮에는 색 차이가 뚜렷했어요. 마치 주머니에 빨간 양말이 들어있는 채로 세탁기에 세탁된 것처럼 보였어요. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+일단, 얀 염색 로트가 일치하지 않았어요. 앞 패널의 절반은 다른 카디건 부분의 푸르스름한 회색 대신 분홍 회색이었어요. 낮에는 색 차이가 뚜렷했어요. 마치 주머니에 빨간 양말이 들어있는 채로 세탁기에 세탁된 것처럼 보였어요.
 
 그리고 한 쪽 앞 패널이 다른 쪽보다 짧았어요. 그것도 조금이 아니라, 약 다섯 인치나 짧았어요. 얼룩의 긴장이 감정 수준의 지표이라면, 그 때 저는 정말 스트레스가 많았나 봐요.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 완전히 좌절하여, 공예 물품 바구니에 프로젝트를 놓고 나중에 돌아오자고 다짐했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 훨씬, 훨씬 후에.
 
@@ -43,17 +61,39 @@ isUpdated: true
 
 마침내 그것으로 돌아왔어요. 보관 중에 약간 먼지가 쌓였고, 내게는 쓰릴 듯한 쓸쓸함이 모였어요. 모든 장인은 재료가 싸지 않다는 걸 알아요. 그런데 비용을 어떻게 상환할 수 있을지는 몰라도, 나의 시간과 노력은 다시 얻을 수 없어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 물론, 제 분노의 진짜 대상은 제 프로젝트가 아니라 제 자신의 나쁜, 잘못된 결정이었습니다. 선택을 해야 했어요. 제 분노와 후회에 집착할 수도 있었고, 영원히 놓아줄 수도 있었어요.
 
 그래서 난 가디건을 쓰레기통에 넣었어요.
 
-쓰레기통 위를 맴돌며, 나는 얼마나 많은 사람들이 같은 경험을 했는지 궁금했어요. 공예가로만이 아니라 물건을 사고 소유한 사람으로서 일반적으로 경험했을지도 몰랐어요. 난 얼마나 많은 다른 사람들이 원치 않는 비용이 많이든 물건을 범죄자처럼 쓰레기통에 버린 적이 있는지 궁금해졌어요. 
+쓰레기통 위를 맴돌며, 나는 얼마나 많은 사람들이 같은 경험을 했는지 궁금했어요. 공예가로만이 아니라 물건을 사고 소유한 사람으로서 일반적으로 경험했을지도 몰랐어요. 난 얼마나 많은 다른 사람들이 원치 않는 비용이 많이든 물건을 범죄자처럼 쓰레기통에 버린 적이 있는지 궁금해졌어요.
 
 ![이미지](/assets/img/2024-05-27-Amemorialtomyunfinishedproject_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 이 순간을 범죄 현장이 아닌 기념비로 취급하기로 결심했어요. 시간과 재료가 낭비된 것은 사실이지만, 이로부터 얻은 경험은 낭비되지 않았답니다.
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 하지만 그 구멍에 왕따지기하지 마세요. 배우고 나아갈 때가 훨씬 좋아요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 이제 안녕, 옛 카디건! 안녕, 미완성 작품! 내게 함께한 시간이 끝났지만, 너희의 교훈은 계속되리라.
 

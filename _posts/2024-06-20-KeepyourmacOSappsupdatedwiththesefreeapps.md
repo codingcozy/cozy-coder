@@ -3,17 +3,13 @@ title: "맥OS 앱을 업데이트하는 데 도움이 되는 무료 앱들을 �
 description: ""
 coverImage: "/assets/img/2024-06-20-KeepyourmacOSappsupdatedwiththesefreeapps_0.png"
 date: 2024-06-20 14:34
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-KeepyourmacOSappsupdatedwiththesefreeapps_0.png
 tag: Tech
 originalTitle: "Keep your macOS apps updated with these free apps"
 link: "https://medium.com/@ulysess/keep-your-macos-apps-updated-with-these-free-apps-1c5983e2ea99"
 isUpdated: true
 ---
-
-
-
-
 
 ![image](/assets/img/2024-06-20-KeepyourmacOSappsupdatedwiththesefreeapps_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 많은 앱을 가지려 하지 않지만, 설치한 앱들은 최신 업데이트가 필요해요. 어떻게 해야 할까요? 그 임무를 도와주는 앱들이 있어요. 어떤 앱들인지 알고 싶나요? 계속 읽어보세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 최신 정보
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 한 번에 한 번의 클릭으로 업데이트하거나 하나씩 업데이트할 수 있습니다. Mac App Store에서 다운로드한 앱과 업데이트를 위해 Sparkle을 사용하는 앱을 지원하며, 시장의 대부분의 앱을 커버합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앱이 지원되지 않을 경우 Latest를 통해 앱을 열어 수동으로 업데이트를 확인할 수 있습니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-20-KeepyourmacOSappsupdatedwiththesefreeapps_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그것은 홈브루 앱을 빠르게 관리할 수 있는 GUI입니다!
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 그냥 잘 작동합니다 & 앱을 최신 상태로 유지하는 훌륭한 도구입니다. 점.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 링크: github.com ` Cork
 
@@ -63,13 +103,24 @@ isUpdated: true
 
 mac-cleanup-py는 macOS용 강력한 정리 스크립트입니다. 다음 작업에서 도움을 줍니다: 휴지통 비우기, 불필요한 로그 및 파일 삭제, OS 또는 일부 앱에서 캐시 지우기. Xcode나 Android Studio와 같은 특정 앱들을 지우도록 설정할 수 있습니다. 실행하기 전에 무엇을 할 지 미리 보는 매우 유용한 dry 모드가 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 링크: github.com ` mac-cleanup-py
 
 # 사용자 정의 함수
 
-저는 모든 개발자가 자신의 .*rc 파일에 가져야 할 것 같은 간단한 함수가 있다고 생각해요: 설치된 앱들의 업데이트 가능 여부를 확인하는 함수. 예를 들어, 저는 이 함수를 제 .zshrc 파일에서 사용해요:
+저는 모든 개발자가 자신의 .\*rc 파일에 가져야 할 것 같은 간단한 함수가 있다고 생각해요: 설치된 앱들의 업데이트 가능 여부를 확인하는 함수. 예를 들어, 저는 이 함수를 제 .zshrc 파일에서 사용해요:
 
 ```js
 update_all() {
@@ -84,7 +135,18 @@ update_all() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

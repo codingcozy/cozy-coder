@@ -3,7 +3,7 @@ title: "Firebase와 Redux를 이용해 Web Socket 무료 호스팅 뚫는 방법
 description: ""
 coverImage: "/assets/img/2024-08-17-IhackedFirebasewithReduxtogetfreeWebSockethostingsorryPusher_0.png"
 date: 2024-08-17 00:46
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-17-IhackedFirebasewithReduxtogetfreeWebSockethostingsorryPusher_0.png
 tag: Tech
 originalTitle: "I hacked Firebase with Redux to get free Web Socket hosting sorry Pusher"
@@ -11,8 +11,6 @@ link: "https://medium.com/coding-beauty/firebase-websocket-hack-e7c60fc5a79c"
 isUpdated: true
 updatedAt: 1723863731630
 ---
-
-
 
 <img src="/assets/img/2024-08-17-IhackedFirebasewithReduxtogetfreeWebSockethostingsorryPusher_0.png" />
 
@@ -22,8 +20,18 @@ updatedAt: 1723863731630
 
 그래서 Redux의 혁신적인 트릭을 사용해 Firebase를 해킹해서 무료 웹 소켓을 사용했지요. Pusher 죄송해요.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 소켓은 정말 좋아요.
 
@@ -33,7 +41,18 @@ updatedAt: 1723863731630
 
 Firestore는 데이터 중심이자 클라이언트 중심이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 웹 소켓은 행동 중심적이고 서버 중심적입니다.
 
@@ -43,7 +62,18 @@ Firestore는 데이터 중심이자 클라이언트 중심이에요.
 
 ![이미지](/assets/img/2024-08-17-IhackedFirebasewithReduxtogetfreeWebSockethostingsorryPusher_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이어스토어에서는 데이터를 데이터베이스에 덤프하고 끝납니다. 클라이언트는 원하는대로 저장할 수 있습니다. URL을 가지고 있다면 누구나 데이터베이스의 모든 것에 액세스할 수 있습니다.
 
@@ -53,7 +83,18 @@ Firestore는 데이터 중심이자 클라이언트 중심이에요.
 
 하지만 이는 Pusher와 같은 실제 웹 소켓 서버의 유연성과 원격 제어와는 비교할 수 없이 부족합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 Pusher를 사용했지만 무료 동시 연결 수량이 적었습니다. 이 앱에서는 모든 사용자가 서버에 영구적으로 연결되어 있어야 했는데, 그러다가 앱을 닫을 때에도 포함입니다.
 
@@ -63,7 +104,18 @@ Firestore는 데이터 중심이자 클라이언트 중심이에요.
 
 그래서 그 일이 언젠가 일어날 때, 상당히 많은 금액을 지불해야 할 것을 알고 있었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 Firebase Firestore를 실제 서버처럼 작동하도록 만들고 데이터를 완전히 제어할 수 있다면 어떨까요?
 
@@ -73,7 +125,18 @@ Firestore는 데이터 중심이자 클라이언트 중심이에요.
 
 Firestore를 데이터 중심에서 행동 중심으로 변환해야 했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 정확히 어떻게 해야 할까요? Firestore에 채널을 가져오고 데이터를 조절하는 데 필요한 모든 권한을 갖춘 종류의 "서버"를 만들 수 있을까요?
 
@@ -83,10 +146,20 @@ Firestore를 데이터 중심에서 행동 중심으로 변환해야 했습니�
 
 음, 바로 Redux가 순수한 React를 데이터 중심으로 변형하는 데 도움이 되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래와 같이 변경해주세요:
-
 
 <img src="/assets/img/2024-08-17-IhackedFirebasewithReduxtogetfreeWebSockethostingsorryPusher_4.png" />
 
@@ -96,8 +169,18 @@ Firestore를 데이터 중심에서 행동 중심으로 변환해야 했습니�
 
 이제 데이터를 수정하는 책임은 리듀서의 손에 있습니다. 마치 웹 소켓 또는 HTTP 서버와 같이요.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 작업: 클라이언트에서 서버로 채널에 실시간 메시지를 보내기
 - 리듀서: 메시지를 처리하고 웹 소켓 서버의 데이터를 수정하기
@@ -108,7 +191,18 @@ Firestore를 데이터 중심에서 행동 중심으로 변환해야 했습니�
 
 작업과 작업 디스패치를 복제하기 위해 서로 다른 주제의 채널에 대한 Firestore 콜렉션을 생성했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 채널은 사용자가 실시간 메시지를 수신하기 위한 각각의 하위 컬렉션을 가진 Firestore 문서입니다.
 
@@ -118,7 +212,18 @@ Firestore를 데이터 중심에서 행동 중심으로 변환해야 했습니�
 
 ![이미지2](/assets/img/2024-08-17-IhackedFirebasewithReduxtogetfreeWebSockethostingsorryPusher_7.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것을 함수로 추상화하여 재사용하기 쉽도록 만들 수 있습니다:
 
@@ -128,7 +233,18 @@ Firestore를 데이터 중심에서 행동 중심으로 변환해야 했습니�
 
 # 리듀서들
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 데이터 수정을 위한 작업 처리를 추가해야 했습니다.
 
@@ -138,20 +254,39 @@ Firestore를 데이터 중심에서 행동 중심으로 변환해야 했습니�
 
 ![이미지](/assets/img/2024-08-17-IhackedFirebasewithReduxtogetfreeWebSockethostingsorryPusher_10.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아무 사용자도이 데이터에 직접 액세스 할 수 없습니다. 보안 규칙에 따라 사용자는 채널 컬렉션의 하위 컬렉션을 통해 메시지를 전송할 수 있습니다.
 
-
 ![이미지](/assets/img/2024-08-17-IhackedFirebasewithReduxtogetfreeWebSockethostingsorryPusher_11.png)
-
 
 # 서버로부터 실시간 메시지 수신
 
 나는 클라이언트로부터 서버 이벤트 전용으로 각 채널 내에 특별한 하위 컬렉션을 생성합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-08-17-IhackedFirebasewithReduxtogetfreeWebSockethostingsorryPusher_12.png)
 
@@ -161,11 +296,20 @@ Firestore를 데이터 중심에서 행동 중심으로 변환해야 했습니�
 
 한 가지 주요 차이점은 이 클라이언트를 위해 의도된 메시지만 가져 오도록 targetIds로 필터링한 것입니다:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 Markdown 형식으로 표 태그를 변경한 것입니다.
-
 
 ![Image 1](/assets/img/2024-08-17-IhackedFirebasewithReduxtogetfreeWebSockethostingsorryPusher_13.png)
 
@@ -175,8 +319,18 @@ And I could also abstract this logic into a function to use it several times:
 
 ![Image 3](/assets/img/2024-08-17-IhackedFirebasewithReduxtogetfreeWebSockethostingsorryPusher_15.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서 이를 통해 돈을 들이지 않고 Firebase에서 실시간 서버 중심 웹 소켓 기능을 완벽하게 복제했습니다.
 
@@ -187,8 +341,18 @@ And I could also abstract this logic into a function to use it several times:
 모든 뉘앙스를 알고 있다고 생각했을 때.
 자바스크립트가 하는 모든 미친 짓은 자바스크립트의 세밀한 함정과 잘 알려지지 않은 부분에 대한 매혹적인 안내서로, 귀찮은 버그를 피하고 소중한 시간을 절약하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Get a free copy here today.
 

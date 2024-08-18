@@ -3,17 +3,13 @@ title: "세계 최대 데이터 침해사고의 중심에 있는 Snowflake"
 description: ""
 coverImage: "/assets/img/2024-06-19-Snowflakeatcentreofworldslargestdatabreach_0.png"
 date: 2024-06-19 04:18
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-Snowflakeatcentreofworldslargestdatabreach_0.png
 tag: Tech
 originalTitle: "Snowflake at centre of world’s largest data breach"
 link: "https://medium.com/doublepulsar/snowflake-at-central-of-worlds-largest-data-breach-939fc400912e"
 isUpdated: true
 ---
-
-
-
-
 
 Cloud AI 데이터 플랫폼 Snowflake는 어려운 한 달을 보내고 있습니다. 십대 위협 가해자들과 고객들의 사이버 보안 문제 때문에... 그리고 시각적으로도 자사의 사이버 보안에 대한 문제가 있습니다.
 
@@ -23,20 +19,39 @@ Cloud AI 데이터 플랫폼 Snowflake는 어려운 한 달을 보내고 있습�
 
 또한, 다른 회사들에서도 이러한 사건이 발생하고 있으며, Snowflake의 고객인 다른 여러 회사에서는 완전한 데이터베이스가 탈취되었습니다. 5월에 Snowflake를 통해 중요한 데이터 유출 사례가 있었다고 여러 산업의 대기업에서 이야기를 나누고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 호주 보안 서비스에서 안내를 발행했습니다:
 
-
 ![Snowflake](/assets/img/2024-06-19-Snowflakeatcentreofworldslargestdatabreach_0.png)
-
 
 그들은 Snowflake 환경을 이용한 여러 회사의 성공적인 침해 사례를 인식하고 있다고 말했습니다.
 
 Snowflake사는 지난 주말 "위협 활동"에 관한 침해 사례 지표를 발표했으며, 사용자 에이전트 "rapeflake"로부터 플랫폼으로의 연결을 확인해보라고 말했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-06-19-Snowflakeatcentreofworldslargestdatabreach](/assets/img/2024-06-19-Snowflakeatcentreofworldslargestdatabreach_1.png)
 
@@ -44,8 +59,18 @@ Snowflake사는 지난 주말 "위협 활동"에 관한 침해 사례 지표를 
 
 위협 배우자는 의심스러운 주장을 계속하지만, 어쨌든 Snowflake는 일부 내용이 사실이라고 확인했습니다. 그러나 이 블로그는 사실이 아니라고 매체와 고객들에게 주장하고 있습니다. 이것은 쇠오빠의 블로그입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 있는 위협 요소들은 내가 파악한 바로는 어느 정도 활동한 청소년 범죄 그룹인 것 같아요. 이 그룹은 Telegram에서 장시간 활동한 것으로 보입니다.
 
@@ -55,7 +80,18 @@ Snowflake사는 지난 주말 "위협 활동"에 관한 침해 사례 지표를 
 
 Snowflake은 AI 데이터 플랫폼으로, 방대한 양의 데이터를 넣고 활용할 수 있는 플랫폼이에요. 실제로 거의 보안이 없이 이를 할 수 있도록 해줘요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인간적인 측면에서 Snowflake가 나쁜 상황에 있다는 게 안타깝네요. 이 상황은 그들에게는 잠재적으로 파산으로 이어질 수 있는 사건인데요. 그래서 그들은 책임을 회피하기 위해 가능한 모든 수단을 동원해서 자사 고객들을 부주의한 "rapeflake" 활동으로 비난해야 합니다. 확실한 건 이 중 일부는 고객의 책임이죠.
 
@@ -65,7 +101,18 @@ SaaS 시대에는 여러분의 공급업체가 스스로를 구하기 위해 여
 
 여러분이 판매된 것과 실제로 받는 것이 항상 일치하지 않는 경우가 많습니다. 저는 클라우드 공급업체에서 일한 적이 있는데, 소세지가 어떻게 만들어지는지 보고 싶지 않을 거예요 (하지만 Microsoft의 CSRB 보고서에서 읽을 순 있습니다). 그리고 공급업체에 대한 진정한 책임이 없는 점도 문제입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앞으로 클라우드 데이터 제공 업체들이 더 많은 서비스를 제공할 것이라는 이야기야.
 
@@ -75,7 +122,18 @@ Snowflake는 Hudson Rock 블로그가 부정확하다고 주장했지만(그리�
 
 Snowflake가 말하길:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스노우플레이크에는 이상 사태 대응이 설정돼 있으며, 크라우드스트라이크(Mandiant도 관여됨)가 관련되어 있습니다.
 
@@ -86,7 +144,18 @@ Snowflake가 말하길:
 
 요컨대, 정보 도난자는 정보 도용 말웨어를 사용하여 고객의 도용된 자격 증명을 사용하여 스노우플레이크 데이터베이스에 액세스했으며, 클라이언트 이름 rapeflake을 사용했습니다 (위협 행위자에게 그 이름에 관해 부각: 정말?).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스노우플레이크는 데모 환경에서 다중 요소 인증을 사용하지 않고 퇴사자의 액세스를 비활성화하지 않는 등 함정에 빠졌습니다. 일이 일어나기 마련이죠. 사고가 발생하기도 하고, 스노우플레이크는 플랫폼 침해가 없었다고 주장할 수 있지만, 그들 자신도 동일한 문제에 빠져들었으며, 외면적으로 보면 그리 좋지 않습니다. 즉, 고객들이 엉망을 만들었다고 지적할 수는 있지만, 그들 역시 실수를 했다는 것이죠.
 
@@ -96,8 +165,18 @@ Snowflake가 말하길:
 
 이 주말 Mandiant는 인포스틸러에 대해 다음과 같이 말했습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-19-Snowflakeatcentreofworldslargestdatabreach_3.png)
 
@@ -107,8 +186,18 @@ Snowflake를 사용한다면, 먼저 다단계 인증을 활성화하고 데이�
 
 Infostealers는 심각한 문제입니다. 실제 세계에서는 오랫동안 봇넷 등을 앞지르고 있으며, 진정한 해결책은 견고한 다단계 인증(그리고 안전한 인증으로 암호를 완전히 대체하는 것이 이상적)입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 회사들 중에는 서비스를 제공하는 곳이 있는데, 거기서 자신의 도난당한 자격 증명을 사다가 사용자의 암호를 변경할 수 있다고 합니다. 저는 이 방식을 좋아하지 않아요. 그 이유는 이런 판매업자들이 종종 '자격 증명 중개업체'로부터 이 자격 증명을 사들이는데, 이는 처음부터 그것을 도난당한 범죄적 해커들에게 자금을 제공한다는 것을 의미합니다. 고객으로서는 문제에 대처하려는 위협 요소들의 자금지원자가 되는 셈이에요. 게다가 비밀번호를 변경하는 것은 사용자에게 큰 영향을 미치고, 문제를 해결하지 못해요.
 
@@ -118,7 +207,18 @@ Infostealers는 심각한 문제입니다. 실제 세계에서는 오랫동안 �
 
 인증과 관련해서 Snowflake에서 무슨 문제가 있는지 이상합니다. Snowflake 자체가 이 사건의 피해자가 되었지만, 데모 테넌트로 발생한 사건입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 엔지니어링 및 설계 수준에서, 인증이 어떻게 작동하는지 되돌아가 다시 검토해야 합니다. 피해자 수와 침해 규모를 고려하면 상황이 잘못되었음을 명백히 알 수 있습니다. 안전한 인증은 선택사항이 아니어야 합니다. 그리고 이 사건을 통해 강화하고 있는 절차에 대해 완전히 투명해야 합니다.
 
@@ -128,6 +228,17 @@ Infostealers는 심각한 문제입니다. 실제 세계에서는 오랫동안 �
 
 마지막으로, 한 곡을 추천합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 방금 게시한 후 닌자 수정: 이 이야기에는 공개된 것보다 더 많은 내용이 있다고 나에게 언급하는 사람들이 있습니다. 알고 있어요. 이 이야기는 계속 발전될 것이고 모두가 Snowflake에 주목할 것입니다.

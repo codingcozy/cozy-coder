@@ -3,17 +3,13 @@ title: "데이터 엔지니어링 세계를 여행하며 발견한 것들"
 description: ""
 coverImage: "/assets/img/2024-06-20-MyjourneyintheDataEngineeringworld_0.png"
 date: 2024-06-20 15:32
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-MyjourneyintheDataEngineeringworld_0.png
 tag: Tech
 originalTitle: "My journey in the Data Engineering world"
 link: "https://medium.com/@priyanka-/my-journey-in-the-data-engineering-world-184d56e0a169"
 isUpdated: true
 ---
-
-
-
-
 
 ![image](/assets/img/2024-06-20-MyjourneyintheDataEngineeringworld_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 데이터 엔지니어링 분야로 진입하는 방법
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 위성 데이터 분석에 중점을 둔 원격 감지 업체에서 경력을 시작했는데, R, Python 및 일부 SQL을 활용하는 경험을 쌓았습니다. 우리는 소규모로 데이터 엔지니어링을 활용했지만, 코딩에 더 많은 관심을 갖게 되었습니다. 이 열정이 저를 대담한 결정을 내리게끔 만들었습니다: 일자리 제안 없이도 나가서 Python 개발자나 코딩 분야의 경력을 쫓기로 했습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 면접에서 여러 차례 거절을 당했지만, 조금씩 데이터 엔지니어링이 무엇인지와 전형적으로 무엇이 물어보는지를 배우게 되었습니다. 특정 데이터 엔지니어링 면접 중에 SQL과 Python에 초점을 맞춘 초기 라운드를 성공적으로 통과했습니다. 두 번째 라운드에서는 제 이전 프로젝트, SQL, AWS 서비스, Python뿐만 아니라 의도치 않게 Docker에 대해 다뤄야 했습니다. Docker에 대해 익숙하지 않았고 이것이 심사에서 나를 배척할 것이라 두려워했지만, 놀랍게도 제안을 받았습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 데이터 엔지니어링 경력의 시작이었습니다. 일을 시작하기 전에 2~3 주가 있었는데, 그 기간 동안 가능한 많은 지식을 습득하는 데 전념했습니다. 처음에는 분야가 낯설어 학습 곡선이 가파르게 느껴졌습니다. 저는 자주 늦은 밤과 주말을 일하면서 일을 해내기 위해 노력했어요. 점차적으로 데이터 웨어하우스와 데이터 마트를 처음부터 구축하고, 프로젝트를 주도하고, 전체 파이프라인을 관리하며, 심지어 제 작업에 대한 상을 받기도 했어요.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 저는 꾸준히 무료 강좌를 활용하고 Udemy의 할인 이벤트를 이용하여 추가 강좌를 구매했습니다. 다음은 사용한 자료의 목록입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Python-
 
@@ -59,7 +88,18 @@ SQL-
 - Namaste SQL [link](https://website.com)
 - SQL Tutorial [link](https://website.com)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하둡과 빅 데이터 -
 
@@ -69,7 +109,18 @@ Airflow -
 
 - Apache Airflow 완전 실무 입문 - 🔗
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AWS-
 
@@ -84,7 +135,18 @@ Kafka-
 - Apache Kafka Series — Learn Apache Kafka for Beginners v3 -🔗
 - The Big Data Show — 🔗
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Spark-
 
@@ -101,7 +163,18 @@ Data Warehousing concept-
 - [The Data Warehouse Toolkit (Book by Ralph Kimball)](link)
 - [Tech Coach](link)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 DSA-
 
@@ -116,7 +189,18 @@ DSA-
 - Exponent-🔗
 - Gaurav Sen-🔗
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결론
 

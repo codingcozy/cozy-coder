@@ -3,17 +3,13 @@ title: "프린치페사 메뉴"
 description: ""
 coverImage: "/assets/img/2024-06-19-PrincipessaMenu_0.png"
 date: 2024-06-19 17:58
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-PrincipessaMenu_0.png
 tag: Tech
 originalTitle: "Principessa Menu"
 link: "https://medium.com/@leejunhe/principessa-menu-a10fe5206f98"
 isUpdated: true
 ---
-
-
-
-
 
 🔍 지금 Principessa 메뉴를 확인해보세요! 이 📁 봄 3D SVG 공예품을 탐험하고 여기에서 🆓 무료 다운로드를 받으세요. 함께 공예를 시작해봐요! 🚀
 
@@ -23,6 +19,17 @@ isUpdated: true
 
 3D SVG Crafts의 Creative Fabrica에서 촬영된 사진
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 고지: 이 기사에는 제휴 링크가 포함되어 있습니다. 이 링크를 통해 구매를 하시는 경우 추가 비용 없이 수수료를 지급받을 수 있습니다.

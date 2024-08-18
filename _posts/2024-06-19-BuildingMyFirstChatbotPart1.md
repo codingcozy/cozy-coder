@@ -3,17 +3,13 @@ title: "나의 첫 번째 챗봇 만들기 - 파트 1"
 description: ""
 coverImage: "/assets/img/2024-06-19-BuildingMyFirstChatbotPart1_0.png"
 date: 2024-06-19 02:05
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-BuildingMyFirstChatbotPart1_0.png
 tag: Tech
 originalTitle: "Building My First Chatbot — Part 1"
 link: "https://medium.com/@aleksmilanov/building-my-first-chatbot-part-1-b27534e98bae"
 isUpdated: true
 ---
-
-
-
-
 
 ![2024-06-19-BuildingMyFirstChatbotPart1_0.png](/assets/img/2024-06-19-BuildingMyFirstChatbotPart1_0.png)
 
@@ -25,7 +21,18 @@ isUpdated: true
 
 업무 외적으로는 기술의 내부 작동 방식을 이해하는 데에 열정이 큽니다. 이를 토대로 약 10년 전 소비자 중심의 홈 자동화 솔루션을 실현하기 위한 여정을 시작했습니다. 이 탐구는 많은 길을 걸어가게 했고, 결과적으로 처음 선택한 제품에 만족하지 못했음을 깨달았습니다. 또 다른 소비자 제품/생태계를 시도해볼지 (제거하기가 매우 어려웠던 것으로 입증된) 또는 완전히 오픈소스 솔루션으로 전환할지 선택해야 했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요기에는 전문 소프트웨어 개발자가 아니라는 점을 강조하고 싶습니다. 과거에는 VBA를 스스로 가르쳤지만 주 업무는 아니었습니다. 소비자 시스템을 구현한 후에는 화려한 비디오와 마케팅 자료에서 약속된 것을 받기 위해 LUA를 배워야 했으며, 그 과정에서 홈 오토메이션 및 디바이스 통합에 대한 새로운 개념들을 배워야 했는데, 그런 부분들은 처음 스스로 자동화된 집을 구축하겠다는 결심을 한 때 상상하지 못한 일이었습니다.
 
@@ -35,7 +42,18 @@ isUpdated: true
 
 그 깨달음 이후, 저는 오픈 소스를 기반으로 완전히 자동화된 집을 구축하였고, 지팡이를 휘둘러 가리킬 수 있는 모든 기술, 도구, 제품 등을 활용했지만, 어쨌든 리스트를 만들어보겠습니다. 그런데, 우선, 이 모든 것이 무슨 의미인지 한 번 살펴볼까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 가정에 300대 이상의 연결된 장치가 있으며 중요한 기능은 다음과 같습니다:
 
@@ -47,7 +65,18 @@ isUpdated: true
 
 그리고 소프트웨어 통합에는 Open Weather Map, Pushover, Alexa, Google 캘린더, 사진 및 비디오 프레임을 Samba 파일 서버에, 음성 인식 (STT), 텍스트 음성 변환 (TTS) 등이 포함됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 매우 많은 종류의 센서가 있습니다: 움직임, 존재, 온도, 조도, 습도 및 공기 품질을 감지하는 센서가 있습니다.
 
@@ -57,7 +86,18 @@ isUpdated: true
 
 마지막으로, 도구 및 소프트웨어로 돌아가기 위해 다음과 같이 요약할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - VueJS (프론트엔드)
 - Ionic Vue 및 Android Studio (모바일)
@@ -79,19 +119,42 @@ isUpdated: true
 배경 내용을 마치자면, 제가 떠올린 아이디어에 대해 이야기해보겠습니다... 나만의 챗봇을 만들 수 있을까요?
 
 # 나만의 첫 번째 챗봇 만들기
+
 Part 1 — 간단한 챗봇 만들기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-BuildingMyFirstChatbotPart1_2.png" />
 
-요즘 우리를 휩쓸고 있는 인공지능에 대한 모든 환호 때문에, 나는 기존의 오픈소스 홈 오토메이션 프로젝트를 확장하여 ChatGPT를 통합하기로 결정했어. 이 여정은 여러 가지 도전과 발견을 거쳐, 최종적으로 가족을 위한 챗봇을 만드는데 영감을 주는데 이르렀어. 기본 아이디어부터 시작해 가족을 위해 흥미로운 사실을 제공하는 대화형 UI를 갖춘 간단한 챗봇을 만들 수 있을까? 
+요즘 우리를 휩쓸고 있는 인공지능에 대한 모든 환호 때문에, 나는 기존의 오픈소스 홈 오토메이션 프로젝트를 확장하여 ChatGPT를 통합하기로 결정했어. 이 여정은 여러 가지 도전과 발견을 거쳐, 최종적으로 가족을 위한 챗봇을 만드는데 영감을 주는데 이르렀어. 기본 아이디어부터 시작해 가족을 위해 흥미로운 사실을 제공하는 대화형 UI를 갖춘 간단한 챗봇을 만들 수 있을까?
 
 이 시리즈의 포스트에서는 나의 경험을 따라가며, 시간이 지남에 따라 어떻게 기대가 변화되었는지 그리고 그 과정에서 한 흥미로운 발견들을 살펴볼 거야.
 
 # 시작하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-06-19-BuildingMyFirstChatbotPart1_3](/assets/img/2024-06-19-BuildingMyFirstChatbotPart1_3.png)
 
@@ -101,7 +164,18 @@ Part 1 — 간단한 챗봇 만들기
 
 # Open AI API에 연결하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-BuildingMyFirstChatbotPart1_4.png" />
 
@@ -111,7 +185,18 @@ Node-Red를 OpenAI에 직접 연결하는 것이 완전히 가능하지만, 나�
 
 첫 번째 결정은 시작하기에 매우 유연한 방법인 Assistants API를 사용하기로 했습니다. OpenAI 사이트에서 인용한 것처럼 말하면:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 데이터 흐름 설계
 
@@ -127,7 +212,18 @@ Node-Red를 OpenAI에 직접 연결하는 것이 완전히 가능하지만, 나�
 각 단계는 inductiv의 노드에서 지원되며 각 단계에서 올바른 입력만 제공하면 됩니다. 여기에 입력 및 출력의 수가 많은 만큼 자세히 설명하기는 하지 않겠습니다. 단순히 시작하도록 GitHub에서 inductiv가 제공하는 매우 유용한 기본 흐름이 있다는 점을 언급하겠습니다.
 다음에 논의하고 싶은 중요한 시작점은 어시스턴트의 데이터 구조를 정의하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 데이터 모델 및 결정
 
@@ -168,7 +264,18 @@ Node-Red를 OpenAI에 직접 연결하는 것이 완전히 가능하지만, 나�
 
 대부분의 키는 자명할 것이며, 일부는 필수이며, 일부는 어시스턴트를 추적하기 위해 제가 만들었습니다. 예를 들어:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - botId: 앞단에 생성한 고유한 ID로, 봇을 식별하는 데 사용됩니다.
 - retry_count: API로부터 응답을 받아올 때 타임아웃되기 전까지의 시간(초)을 저장하는 값입니다.
@@ -179,16 +286,39 @@ Node-Red에서 데이터 구조를 설정하면 다음 단계는 테스트를 �
 - instructions: 이것이 모두 중요한 부분입니다. 가끔 '시스템' 메시지라고도 불리며, 보조 프롬프트로 효과적으로 사용됩니다. 프롬프트 엔지니어링은 별도의 세계이며, 간단한 프롬프트로 시작하였습니다:
 
 ```js
-var instructions = "어린 아이들이 있는 가족과 대화하는 일반 목적을 갖는 챗봇이에요. 가족에게 흥미로운 이야기를 전하며 시작해 보세요.";
+var instructions =
+  "어린 아이들이 있는 가족과 대화하는 일반 목적을 갖는 챗봇이에요. 가족에게 흥미로운 이야기를 전하며 시작해 보세요.";
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-시간을 많이 소비하면서도, 실제로 챗봇의 간단한 성격을 고려할 때 크게 진화시킬 필요가 없어요. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+시간을 많이 소비하면서도, 실제로 챗봇의 간단한 성격을 고려할 때 크게 진화시킬 필요가 없어요.
 
 - 온도: 다른 게시물을 소개할 만한 가치가 있는 온도는, 보기에 따라서는 아주 결정적이고 지루할 수 있는 0부터 실컷 올라가는 11까지, 실제로 2까지입니다. 저는 비교적 균형잡힌 0.7의 온도를 유지하기로 결정했어요. 제 경험상 1.6을 넘어가는 값은 도움이 되지 않는다는 걸 확인했어요. 값이 매우 높게 설정되는 이유는 아직 명확하지 않아요. 테스트 목적을 제외하고는 사용되지 않을 것 같아요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 비즈니스 종착점
 
@@ -197,12 +327,23 @@ API를 통해 요청을 보내고 "1. 어시스턴트 만들기"부터 "6. 메�
 물론 여러 번의 시행착오가 있었습니다. 쉽지 않았죠. 많은 난해한 부분과 타임아웃 뒤에, Node-Red의 Context Data Panel에 들어가 봤을 때, Chat GPT 3.5 Turbo에서 화려한 응답을 받았어요:
 
 ```js
-var content = "안녕하세요! 저는 신사 제너럴 봇-봇, 당신의 신뢰할 수 있는 가족용 챗봇입니다. 
-  당신은 가장 큰 눈송이가 1887년 미국 몽태나주 포트 키오에서 떨어져 38센티미터 
+var content = "안녕하세요! 저는 신사 제너럴 봇-봇, 당신의 신뢰할 수 있는 가족용 챗봇입니다.
+  당신은 가장 큰 눈송이가 1887년 미국 몽태나주 포트 키오에서 떨어져 38센티미터
   너비와 20센티미터 두께였다는 것을 알고 계셨나요? 눈 내리는 날에 그걸 입으로 받쳐 보는 것을 상상해보세요!";
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 챗봇의 정의된 데이터 구조를 보면 history라는 객체 배열에 메시지를 저장하고 있음을 알 수 있을 거예요.
 
@@ -212,7 +353,18 @@ OpenAI로부터 응답을 받을 때 messages.sender는 botName을 저장하고,
 
 이제 이것을 실제 사람들이, 어린이 포함, 사용할 수 있는 곳에 노출시키고 싶어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 프로젝트 중 대다수와 마찬가지로, 이러한 메시지를 표시하기 위한 프론트엔드를 구축하는 것은 친구들과 동료들이 새겨 넣은 여러 가지 아이디어로 이뤄진 나만의 삶을 살게 되었습니다. 결과적으로 나는 "가족 앱"이라고 부르는 것을 만들었어요. 홈 오토메이션 UI에 연결된 단일 웹 페이지로, 몇 가지 구성 요소가 있지만 현재는 GPT 부분에 초점을 맞춘 상태이죠. 상호 작용은 굉장히 간단합니다:
 
@@ -222,7 +374,18 @@ OpenAI로부터 응답을 받을 때 messages.sender는 botName을 저장하고,
 
 스마트 TV에서 실행할 수 있도록 디자인했기 때문에 글꼴 크기가 크고 멀리서도 읽기 쉽고, 나의 TV에서 사용하는 원격 레이저 포인터와 함께 훌륭하게 작동해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 아름다운 시작이었습니다. 이제 TV 원격 제어의 버튼을 클릭하면 하루에 흥미로운 사실을 제공하는 챗봇을 이용할 수 있게 되었습니다. 이것은 저의 아이들과 함께 토론의 주제로 사용하거나, 그들의 삶에 아이디어와 개념을 소개할 수 있게 해주는 초석이 될 수 있습니다. 이렇게 간단한 아이디어임에도 불구하고, 그 당시에는 기분이 좋았습니다.
 
@@ -232,7 +395,18 @@ OpenAI로부터 응답을 받을 때 messages.sender는 botName을 저장하고,
 
 이 여정의 첫 걸음으로, 다른 동작을 얻기 위해 지침과 모델을 수정하는 것은 만족스럽고 놀랍습니다. 많은 시간을 한 가지 메시지를 세밀하게 조정하는 데 소비할 수 있지만, 아마도 이 작업은 미술보다 과학적이라기보다는, 사실 내가 무엇이 근본적인 "규칙"인지 알아가면서 배우는 것 일 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 모두가 그 값어치가 있었을까요?
 

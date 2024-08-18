@@ -3,16 +3,13 @@ title: "따뜻한 기후에서 온 러너들이 더 더운 봄 마라톤에서 �
 description: ""
 coverImage: "/assets/img/2024-05-27-DoRunnersFromWarmClimatesDoBetterinHotSpringMarathons_0.png"
 date: 2024-05-27 12:41
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-DoRunnersFromWarmClimatesDoBetterinHotSpringMarathons_0.png
 tag: Tech
 originalTitle: "Do Runners From Warm Climates Do Better in Hot, Spring Marathons?"
 link: "https://medium.com/runners-life/do-runners-from-warm-climates-do-better-in-hot-spring-marathons-3ce4f764258f"
 isUpdated: true
 ---
-
-
-
 
 ![DoRunnersFromWarmClimatesDoBetterinHotSpringMarathons](/assets/img/2024-05-27-DoRunnersFromWarmClimatesDoBetterinHotSpringMarathons_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 날씨가 더 나빴던 해가 있었을 것이 분명하지만, 올해의 레이스는 완주자에게 부정적인 영향을 미치었습니다. 러너들과 대화를 나누었거나 레이스 리포트를 읽었거나, 완주 시간을 한 번 확인해 보았다면 그것이 명백하게 나타납니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 이 경기에 대한 토의 중에 내 관심을 끈 주장을 여러 사람이 했어요:
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 경기 시기는 나무랄데 없는 실험을 제공하는데요. 국내 일부 지역이 따뜻하고 일부 지역이 추운 초봄에 열리기 때문이죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 질문에 대한 통찰을 얻기 위해 데이터를 찾아보겠습니다.
 
@@ -42,7 +61,18 @@ isUpdated: true
 
 보스턴 선수 경기 협회(BAA)는 경주 결과를 다운로드할 수 있도록 제공하며, 저는 이 다운로드 가능한 결과 목록으로 시작했습니다. 이는 어떤 중요한 인구 통계 정보(나이, 성별, 우편번호)와 성적 데이터(완주 시간)를 제공했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 완주 시간 자체만으로는 정보가 부족합니다. BAA는 분할 데이터를 제공하지만 검색 결과에서만 확인할 수 있습니다. 자세한 분할 결과(5km 단위)는 확인할 수 있지만 한 번에 25개씩만 볼 수 있습니다. 간편함을 위해 여기 결과 세트에서 중간 지점의 분할 결과를 가져왔습니다.
 
@@ -52,7 +82,18 @@ isUpdated: true
 
 4월 1일부터 4월 15일까지 경주 직전 2주간의 데이터를 수집했는데, 이 기간에는 매일 최저, 최고, 평균 온도를 포함했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 정리 및 준비를 마친 후에 해당 데이터를 Kaggle의 공개 데이터 세트로 공유했습니다. 여러분은 생 데이터를 확인하고 직접 분석해보세요.
 
@@ -62,7 +103,18 @@ isUpdated: true
 
 이 가설은 일차적으로 어떤 러너들은 4월 초에 비교적 따뜻한 기후에 사는 반면, 다른 사람들은 상대적으로 서늘한 기후에 사는 것을 전제로 합니다. 이를 테스트하는 것은 꽤 단순합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 우편번호별 날씨 데이터를 살펴보고, 러너들이 더 따뜻하고 시원한 기후로 분산되는 경향을 판단할 수 있습니다.
 
@@ -72,7 +124,18 @@ isUpdated: true
 
 내가 찾은 가장 가까운 대리인은 레이스의 전반부와 후반부 사이의 페이스 변동을 살펴보는 것이었습니다. 아마도, 레이스의 첫 번째 절반에서의 러너의 페이스는 그들이 희망했던 경기 시간을 어느 정도 나타낼 것으로 예상됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 번째 반에 선수가 속도를 줄였는지 여부에 따라 그들이 그 기대치를 충족했는지 결정할 수 있습니다.
 
@@ -82,7 +145,18 @@ isUpdated: true
 
 # 4월 초에 온도 변화는 얼마나 큽니까?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 가설의 첫 부분을 검토하기 위해, 관련 기상 데이터의 지도부터 살펴볼 수 있습니다.
 
@@ -92,7 +166,18 @@ isUpdated: true
 
 ![2024-05-27-DoRunnersFromWarmClimatesDoBetterinHotSpringMarathons_1.png](/assets/img/2024-05-27-DoRunnersFromWarmClimatesDoBetterinHotSpringMarathons_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 지도는 2024 보스턴 마라톤 참가자들이 사는 각 우편번호를 나타냅니다. 색깔은 4월 1일부터 15일까지의 평균 최저 기온을 보여줍니다.
 
@@ -102,7 +187,18 @@ isUpdated: true
 
 기온의 범위는 다양하지만, 대부분의 참가자들은 지도의 서쪽에 있는 시원한 곳에서왔습니다 — 뉴 잉글랜드, 중서부 및 태평양 북서부. 보스턴 마라톤 2024년 참가자 분석을 통해 참가자들이 사는 위치에 대한 아이디어를 얻을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 히스토그램은 완주자 수를 나타내며, 그 기준은 우편 번호의 평균 최저 온도입니다.
 
@@ -112,7 +208,18 @@ isUpdated: true
 
 그러나 우리 작은 실험의 잠재적인 단점 중 하나입니다. 만약 따뜻한 기후 출신의 러너가 충분하지 않다면, 비교를 위한 신뢰할 수있는 데이터셋을 확보할 수 없을 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 최고 기온과 일일 평균 기온을 살펴봐서 다른 결과를 얻을 수 있는지도 확인해봤어요. 이 온도들은 분명히 높았지만, 최소와 최대 사이의 간격은 꽤 안정적이었어요 — 대략 10도 차이가 나거나 그 이상은 나지 않았어요. 그래서 세 가지 통계 중 아무거나 사용하고 마지막에 비슷한 분석을 얻을 수 있어요.
 
@@ -122,7 +229,18 @@ isUpdated: true
 
 먼저 전반적인 상황을 살펴보겠습니다. 러너들은 이 경기에서 얼마나 긍정적인 스플릿을 보였을까요? 아래 히스토그램이 분포를 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 왼쪽에는 매우 적은 수의 러너들(이 데이터셋의 약 17,000 중 500명 가량)이 음수 스플릿을 달성했습니다. 더 많은 비율의 러너들이 작은 양의 양수 스플릿(0에서 5%)을 달렸지만, 그래도 소수의 러너들이었습니다.
 
@@ -132,7 +250,18 @@ isUpdated: true
 
 하지만 대부분의 러너들은 그들의 속도가 10% 이상 증가한 것을 보였고, 많은 경우 25%를 훨씬 초과했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 달리는 중에 달리기 속도가 느려지는 것에 영향을 미치는 것은 어떤 요소일까요? 모든 사람들이 좋아하는 언덕 이외에요!
 
@@ -142,7 +271,18 @@ isUpdated: true
 
 분명히 말하자면—이것은 잃어버린 시간의 양에 관한 것이 아닙니다. 이 관계는 속도와 잃어버린 시간의 백분율 사이에 있습니다. 그래서 더 느린 러너는 더 빠른 러너보다 더 많이 느려졌다는 것이죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 산점도는 35세 이하의 남성 러너들을 강조합니다. y축은 레이스 전반을 완주하는 데 걸린 시간(초)을 나타내고, x축은 후반전에서의 속도 변화를 퍼센트로 보여줍니다.
 
@@ -152,7 +292,18 @@ isUpdated: true
 
 이 러너들의 대다수는 0%에서 10% 사이의 양수 분할을 보았습니다. 6,000초(1시간 40분) 이상을 시작한 보다 느린 러너들 중에서도, 대다수가 10% 이상의 양수 분할을 보았습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 표는 나이 그룹과 성별에 따라 분해된 전반부와 속도 변화 비율 간의 상관 계수를 보여줍니다.
 
@@ -173,7 +324,18 @@ isUpdated: true
 
 Tableau에서 시각화를 다양한 성별 및 연령 그룹을 더 자세히 탐색해볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 날씨가 얼마나 중요한가요?
 
@@ -183,7 +345,18 @@ Tableau에서 시각화를 다양한 성별 및 연령 그룹을 더 자세히 �
 
 위의 시각적 표는 연령 그룹, 성별 및 평균 최저 기온에 따른 속도 변화의 백분율을 설명합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 색은 서로 다른 온도를 나타냅니다. 왼쪽에서 오른쪽으로 증가하는 온도입니다. 왼쪽 세 막대는 쌀쌀한 날씨입니다. 네 번째 막대는 쌀쌀하고 따뜻한 사이에 있으며 가장 오른쪽(노란색) 막대는 따뜻한 날씨(평균 최저 온도 60도 이상)를 나타냅니다.
 
@@ -193,7 +366,18 @@ Tableau에서 시각화를 다양한 성별 및 연령 그룹을 더 자세히 �
 
 드롭다운 상자를 사용하여 남성 결과로 전환하면 비슷한 혼합된 결과를 얻을 수 있습니다. 명확한 방향이 나타나지 않습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 산점도는 각 러너의 성별과 나이 대비 평균 최저 온도의 변화량을 보여줍니다. 이 시각화는 35세 미만의 여성에만 초점을 맞추고 있습니다.
 
@@ -201,19 +385,29 @@ Tableau에서 이 시각화를 확인하면 성별 및 연령 그룹의 다양�
 
 추세선은 약간 하향 추세가 있지만 이 그래프의 R² 값(35세 미만의 여성 대상)은 0.05 미만으로 매우 약합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-| Age Group   |    Men |   Women |
-|-------------|--------|---------|
-| Under 35    | -0.052 |  -0.071 |
-| 35-39       | -0.001 |   0.024 |
-| 40-44       | -0.043 |   0.022 |
-| 45-49       |  0.020 |  -0.013 |
-| 50-54       |  0.008 |  -0.084 |
-| 55-59       |  0.003 |   0.024 |
-| 60-64       |  0.055 |   0.013 |
-| 65-69       |  0.023 |   0.131 |
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+| Age Group | Men    | Women  |
+| --------- | ------ | ------ |
+| Under 35  | -0.052 | -0.071 |
+| 35-39     | -0.001 | 0.024  |
+| 40-44     | -0.043 | 0.022  |
+| 45-49     | 0.020  | -0.013 |
+| 50-54     | 0.008  | -0.084 |
+| 55-59     | 0.003  | 0.024  |
+| 60-64     | 0.055  | 0.013  |
+| 65-69     | 0.023  | 0.131  |
 
 And if you look at this full table of correlation coefficients — between average min temperature and percent change in pace — there’s a real mixed bag between weak negative correlations and weak positive correlations.
 
@@ -221,17 +415,24 @@ I looked at the same tables based on correlations involving the max temp and the
 
 Based on this data, it’s hard to conclude that living in a warm climate has a significant impact on how well a runner performs in a warm, spring marathon — compared to a runner living in a cool climate.
 
-
-
-
 여기 평균 최저 온도와 속도 변화 비율 사이의 상관 계수에 대한 전체 표를 보면, 약한 음의 상관 관계와 약한 양의 상관 관계 사이에 혼합된 결과가 있습니다.
 
 최대 온도 및 평균 일일 온도와 관련된 상관 관계를 기반으로 한 동일한 표를 살펴보았는데, 강한 상관 관계는 더 강해지지 않았습니다. 시간에 맞게 자격을 취득한 빠른 러너에 제한해도, 많은 경우에는 관련성이 완전히 사라집니다.
 
 이 데이터를 기반으로, 따뜻한 기후에서 살면 따뜻한 봄 마라톤에서 어떤 선수가 성과에 미치는 영향이 서늘한 기후에서 사는 선수와 비교해 유의미한 차이가 있는지 결론을 내리기 어렵습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 가능한 설명과 추가 질문
 
@@ -241,7 +442,18 @@ Based on this data, it’s hard to conclude that living in a warm climate has a 
 
 올해 초에 미국 올림픽 트라이얼 마라톤에 대한 시리즈를 썼습니다. 그 시리즈에서 인용한 연구에 따르면, 보스턴에서 올해 경험한 것과 같은 60도대의 온도는 상당한 성능 저하를 일으킬 수 있습니다. 또한 비슷한 따뜻한 날씨에서 훈련하는 것이 도움이 된다고 생각하는 것은 완전히 논리적입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 올해 보스턴 마라톤 데이터의 결과 (또는 그 반대)를 설명하는 것은 무엇일까요?
 
@@ -251,7 +463,18 @@ Based on this data, it’s hard to conclude that living in a warm climate has a 
 
 만약 온도가 일관되게 70도 이상이었다면, 아마 이러한 러너들은 서늘한 날씨 러너들과 비교했을 때 더 나은 성적을 올릴 수도 있었을 것입니다. 현재 상황에서는, 따뜻한 날씨 스포츠 선수들이 아직 완전한 열 적응을 이루지 못했을 수도 있습니다. 4월 대신 5월에 경주를 했다면 결과가 달라졌을지도 모릅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 둘째, 따뜻한 기후에서는 많은 선수들이 활동하지 않습니다. 만약 50도와 60도가 어떤 식으로든 적응할만큼 충분히 따뜻한 범위로 가정한다면, 여전히 안정적인 분포를 만들기 위해 충분한 규모의 인구가 필요합니다.
 
@@ -261,7 +484,18 @@ Based on this data, it’s hard to conclude that living in a warm climate has a 
 
 국제적인 도시와 국가를 위도와 경도로 변환하는 도구 세트를 찾을 수 있었을 것이지만, 조금 더 추가 작업이 필요했을 것입니다. 이렇게 하면 데이터 집합이 확대되었을 것이며, 아마도 더 다양한 온도 범위를 제시할 수도 있었을 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그만큼 중남미 및 남미 북부 지역 출신의 완주자들이 상당히 많았습니다.
 
@@ -271,7 +505,18 @@ Based on this data, it’s hard to conclude that living in a warm climate has a 
 
 # 탐구할 가치 있는 추가 질문들
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제가 이 글을 한국어로 번역해 드리겠습니다.
 
@@ -284,7 +529,18 @@ Based on this data, it’s hard to conclude that living in a warm climate has a 
 
 이 분석을 통해, 이 특정 질문에 대해 살펴볼 다른 방법이 하나 더 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 성별과 연령대별로 데이터를 분류하는 대신, 아마도 시간 제한을 채워야 하는 완주자들을 분리하고 싶어요. 첫 번째 절반 경주 속도를 기반으로, 해당 성별 및 연령대 그룹에 대한 보스턴 예선 시간을 충족할 것으로 예상되는 러너들을 식별할 수 있어요.
 
@@ -294,7 +550,18 @@ Based on this data, it’s hard to conclude that living in a warm climate has a 
 
 이런 질문에 관심이 있거나, 마라톤에 관한 다른 데이터 기반 이야기에 관심이 있으시다면, 반드시 이메일 업데이트를 구독하세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 열렬한 러너이자 데이터 괴짜입니다. 올해의 보스턴 마라톤에는 커트라인에 걸려 참가하지 못했지만, 2025년에는 반드시 참가할 예정입니다. 제 활동을 계속해서 지켜볼 수 있는 방법을 알려드릴게요:
 

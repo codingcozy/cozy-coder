@@ -3,17 +3,13 @@ title: "RAG에서 검색 최적화하기 언제, 무엇을, 어떻게 진행해�
 description: ""
 coverImage: "/assets/img/2024-07-09-OptimizingRetrievalinRAGWhenWhatandHow_0.png"
 date: 2024-07-09 23:43
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-OptimizingRetrievalinRAGWhenWhatandHow_0.png
 tag: Tech
 originalTitle: "Optimizing Retrieval in RAG: When, What and How"
 link: "https://medium.com/ai-in-plain-english/optimizing-retrieval-in-rag-when-what-and-how-bff2bb8356bf"
 isUpdated: true
 ---
-
-
-
-
 
 인공지능 소프트웨어가 사용되어 이 기사의 텍스트 문법, 흐름 및 가독성을 향상시켰습니다.
 
@@ -23,7 +19,18 @@ RAG (Retrieval Augmented Generation)는 대규모 언어 모델(LLMs)을 외부 
 
 ## 지식 기반 생성의 핵심 과제
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현대적인 LLM들은 자연어 생성에서 놀라운 능력을 보여주고 있지만, 종종 사실상의 모순, 환각, 그리고 이들의 훈련 데이터에 존재하지 않는 다량의 외부 지식에 접근해야 하는 작업에서 실패하는 경향이 있습니다. 이는 질문 응답, 분석, 의사 결정 지원 시스템과 같은 지식 집약적인 영역에서 이들의 유용성을 제한합니다.
 
@@ -35,7 +42,18 @@ RAG 시스템은 세 가지 핵심 구성 요소로 구성됩니다:
 - 검색 모듈로 출처에서 관련 지식 단편을 식별하고 검색하는 기능
 - 검색된 지식을 소비하는 언어 모델과 입력을 사용하여 지식에 기반한 출력물을 생성합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 최적화된 검색의 중요성
 
@@ -48,7 +66,18 @@ RAG는 인상적인 결과를 보여줬지만, 그 성능은 검색 구성요소
 
 그러므로, 검색을 최적화하기 위해 트리거를 언제 작동시킬지 신중하게 결정하고, 무엇을 검색해야 하는지 정확하게 명시하고, 그 컨텍스트를 검색하는 효과적인 메커니즘을 개발하는 것이 RAG의 전체 잠재력을 실현하는 데 중요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 이슈는 LLM(Large Language Models) 및 지식 원본들이 규모와 복잡성이 증가함에 따라 더욱 중요해집니다. 더 긴 맥락을 분석하고 지식 그래프와 같이 더 복잡한 지식 표현을 다루는 대규모 언어 모델들을 고려할 때, 최적화된 검색 전략은 처리 가능하고 고품질의 지식 기반을 만드는 데 필수적입니다.
 
@@ -58,7 +87,18 @@ RAG는 인상적인 결과를 보여줬지만, 그 성능은 검색 구성요소
 
 # 언제 검색해야 하는가: 실시간 정보 요구 감지
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 회수 강화 생성 시스템에서 가장 중요한 결정 중 하나는 회수 모듈을 활성화하고 외부 소스에서 추가 지식을 가져오는 최적의 타이밍을 결정하는 것입니다. 이 타이밍을 올바르게 맞추는 것은 섬세한 균형조정 작업입니다. 회수를 너무 자주 트리거하면 지나친 노이즈와 계산 오버헤드가 발생할 수 있고, 필요할 때 회수하지 않으면 언어 모델의 정확하고 지식 기반의 출력 능력에 제약을 줄 수 있습니다.
 
@@ -71,7 +111,18 @@ Markdown format 변경:
 - 토큰 수준 회수: LLM이 생성한 각 n 개의 토큰마다 회수를 활성화합니다.
 - 문장 수준 회수: LLM이 각 완전한 문장을 생성한 후 회수를 트리거합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 직관적이지만, 정적이고 간격 기반의 접근법은 언어 모델의 동적 정보 요구에 적응하지 못할 수 있습니다. 입력, 문맥 및 현재 생성 상태에 따라 상당히 다를 수 있기 때문입니다.
 
@@ -81,7 +132,18 @@ Markdown format 변경:
 
 대형 언어 모델은 내부 지식만으로도 유의미한 콘텐츠를 자주 생성할 수 있는 매우 능숙한 시스템입니다. 복잡한 추론 도전이나 지식 간격을 만났을 때에만 외부 검색이 필요합니다. 그들의 정보 요구는 현재 문맥과 밀접하게 연관되어 있으며, 동일한 생성 과정 내에서도 빠르게 변할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "When to retrieve" 전략은 동적이고 맥락에 민감해야 합니다. 실시간 요구 사항을 종합적으로 이해하여 LLM이 지식 증강이 필요한 경우를 정확히 파악할 수 있어야 합니다. 이를 하지 않으면 너무 많은 중복된 검색을 유발하여 계산 부하를 증가시키지만 실질적인 가치를 추가하지 않을 수도 있고, 더 나쁜 경우에는 지식 기초를 놓치게 되어 불완전하거나 부정확한 결과를 초래할 수 있습니다.
 
@@ -94,7 +156,18 @@ DRAGIN (LLM의 정보 요구 기반 동적 검색 증강 생성) 프레임워크
 - 후속 문맥에 미치는 영향: LLM의 자기주의 분포를 조사함으로써 RIND는 각 토큰이 후속 문맥 생성에 미치는 영향을 평가할 수 있습니다.
 - 생성 복잡성: RIND는 또한 개념의 추상성, 필요한 추론 유형 (예: 다중 점프, 가상 사실) 및 정보 다양성과 같은 속성을 분석하여 생성 과정의 전반적인 복잡성과 지식 요구 사항을 평가합니다."
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 요인을 종합적으로 모델링하고 절도 있게 결합함으로써, RIND는 외부 지식 검색이 언어 모델의 생성 능력을 최적으로 보완하고 뿌리내릴 필요가 있는지에 대해 세심한 판단을 할 수 있습니다.
 
@@ -104,7 +177,18 @@ RIND의 맥락 풍부한 방식과 대조적으로, 주로 토큰 불확실성�
 
 # 검색할 내용: Self-Attention을 통해 쿼리 작성하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결정적인 위치로 돌아가는 것을 활성화하기로 결정되었을 때, 다음 중요한 단계는 외부 지식 원천으로부터 정확히 어떤 문맥 또는 정보를 검색해야 하는지 결정하는 것입니다. 불완전하거나 관련 없는 정보를 검색하는 것은 아예 검색하지 않는 것만큼 해로울 수 있습니다. 왜냐하면 이는 언어 모델을 오도하거나 생성 프로세스에 소음을 도입할 수 있기 때문입니다.
 
@@ -115,7 +199,18 @@ RIND의 맥락 풍부한 방식과 대조적으로, 주로 토큰 불확실성�
 - 마지막 몇 단어: LLM에 의해 생성된 마지막 몇 개의 토큰만 사용하여 쿼리를 형성합니다.
 - 이전 문장: LLM이 이전에 생성한 문장을 쿼리로 사용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 직관적이지만 협소한 지역 창에 기반한 이러한 접근 방식은 보다 광범위한 글로벌 맥락을 포착하지 못하고 LLM의 실제 정보 요구를 정확히 파악하지 못할 수 있습니다. 이는 입력의 다양한 부분에 걸쳐 있는 정보를 포괄적으로 이해하는 데 중요한 알렉산더 대왕의 전투와 전략에 대한 맥락을 포괄하지 못하고 "청취해야 할 정보를 회색 영역에서 좁게 정의하는 허여운 질의를 만들 수 있습니다.
 
@@ -125,17 +220,39 @@ RIND의 맥락 풍부한 방식과 대조적으로, 주로 토큰 불확실성�
 
 트랜스포머와 같은 대형 언어 모델은 자가주의 메커니즘을 통해 전체 입력 컨텍스트를 분석하며, 현재 생성 요구에 따라 다른 세그먼트에서 정보를 동적으로 집중하고 결합합니다. 이를 통해 그들의 자가주의 분포는 효과적인 검색 질의를 구성하는 데 가장 관련성 있는 입력의 어떤 측면이 가장 중요한지에 대한 매우 풍부한 정보원으로 나타납니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-**DRAGIN 프레임워크의 QFS (자기 주의를 기반으로 하는 쿼리 형성) 구성 요소는 이를 활용하여 LLM의 입력 토큰에 대한 자기 주의 분포를 조사함으로써 이를 이용합니다. 로컬 컨텍스트에만 초점을 맞추는 대신, QFS는 LLM이 현재 생성 상태에 가장 중요하다고 판단하는 토큰 즉, 가장 높은 주의 가중치를 갖는 토큰을 식별합니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+\*\*DRAGIN 프레임워크의 QFS (자기 주의를 기반으로 하는 쿼리 형성) 구성 요소는 이를 활용하여 LLM의 입력 토큰에 대한 자기 주의 분포를 조사함으로써 이를 이용합니다. 로컬 컨텍스트에만 초점을 맞추는 대신, QFS는 LLM이 현재 생성 상태에 가장 중요하다고 판단하는 토큰 즉, 가장 높은 주의 가중치를 갖는 토큰을 식별합니다.
 
 이러한 높은 주의를 받은 토큰들을 우선적으로 결합하여 쿼리를 구성함으로써, QFS는 LLM의 정보 요구 사항을 전체적인 맥락 내에서 정확하게 포착할 수 있습니다. 이를 통해 부정확하거나 주변 정보 대신 목표로 하는 관련 지식 요소를 검색할 수 있습니다.
 
-예를 들어, 이전 예시에서 QFS는 높은 자기 주의 토큰을 우선순위로 두어 "알렉산더 대왕의 군사 캠페인 전략이 체육 황제같은 후대 정복자에게 영향을 주었다"와 같은 풍부한 쿼리를 형성할 수 있습니다. 이를 통해 알렉산더의 전략, 그 영향 및 다른 정복자들에 대한 관련 컨텍스트에 대한 포관적인 정보를 검색하여, LLM의 실제 정보 요구 사항을 최대한 충족시킬 수 있습니다.**
+예를 들어, 이전 예시에서 QFS는 높은 자기 주의 토큰을 우선순위로 두어 "알렉산더 대왕의 군사 캠페인 전략이 체육 황제같은 후대 정복자에게 영향을 주었다"와 같은 풍부한 쿼리를 형성할 수 있습니다. 이를 통해 알렉산더의 전략, 그 영향 및 다른 정복자들에 대한 관련 컨텍스트에 대한 포관적인 정보를 검색하여, LLM의 실제 정보 요구 사항을 최대한 충족시킬 수 있습니다.\*\*
 
 **구조화된 지식에 대한 쿼리 형성**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 텍스트 말뭉치는 흔히 알려진 정보 원본이지만, 지식 그래프와 같은 보다 구조화된 원본을 활용하는 데 관심이 증가하고 있습니다. 이러한 경우, 효과적인 쿼리 작성이 더욱 중요해지며, 부정확한 쿼리는 지식 원본에서 상세하지 않거나 관련이 없는 하위 그래프를 검색할 수 있습니다.
 
@@ -145,7 +262,18 @@ QFS의 self-attention 기반 접근 방식은 이러한 상황에 특히 적합�
 
 또는 적절한 개체/관계/컨텍스트 제약 조건의 조합을 지정하여 구조화된 원본에서 정보를 최대로 관련 있는 하위 그래프를 검색할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금까지 주로 사용되던 로컬 창에만 초점을 맞춘 이전의 방법론들은 전역적인 맥락 속에서 필요한 정보를 정확하게 찾아내기 어렵습니다.
 
@@ -155,9 +283,20 @@ QFS의 self-attention 기반 접근 방식은 이러한 상황에 특히 적합�
 
 또한, 정보 필요성 감지 및 서브그래프 추출/요약 기술과 같은 다른 구성 요소와 쿼리 형성을 밀접하게 통합하는 데 추가 연구가 필요합니다 (“검색 방법” 섹션에 다루어짐). RIND가 검색이 필요한 시점을 이해하는 능력을 QFS의 필요한 사항을 정확하게 명시하는 기능과 결합하고, 해당 정보를 실제로 검색하고 처리하여 더 나은 응답으로 구성하는 최적화를 통해, 지식 기반 언어 생성의 품질과 유틸리티를 극대화할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-Tarot expert로서, 자주 묻는 질문 중 하나가 "정확하고 목표 지향적인 쿼리를 작성하고 LLM이 필요로 하는 정보를 정확히 검색하는 데 있어 핵심이 되는 자기 주의적 컨텍스트 모델링은 믿을 만하고 신뢰할 수 있는 지식 중심 AI 시스템의 길을 열어줍니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+Tarot expert로서, 자주 묻는 질문 중 하나가 "정확하고 목표 지향적인 쿼리를 작성하고 LLM이 필요로 하는 정보를 정확히 검색하는 데 있어 핵심이 되는 자기 주의적 컨텍스트 모델링은 믿을 만하고 신뢰할 수 있는 지식 중심 AI 시스템의 길을 열어줍니다.
 
 # 검색하는 방법: 구조화된 지식 소스와 그래프 검색
 
@@ -165,7 +304,18 @@ Tarot expert로서, 자주 묻는 질문 중 하나가 "정확하고 목표 지�
 
 이러한 명시성과 구조화된 특성은 LLM의 추론, 다중 홉 처리 및 연결된 정보 흐름 처리를 향상시킬 수 있는 더 풍부한 표현을 가능하게 합니다. 그러나 이는 지식 소스에서 관련 있는 서브그래프를 탐색하고 추출할 수 있는 보다 고급 검색 패러다임을 필요로 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 From Text Retrieval to Graph Retrieval
 
@@ -177,7 +327,18 @@ From Text Retrieval to Graph Retrieval
 
 **Knowledge Graph Retrieval Pipeline**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지식 그래프를 효과적으로 활용하기 위해 RAG 프레임워크는 특화된 그래프 검색 파이프라인을 포함해야 합니다. 다음과 같은 기술을 활용해야 합니다:
 
@@ -187,7 +348,18 @@ From Text Retrieval to Graph Retrieval
 
 3. 그래프 분석 강화: 핵심 서브그래프는 구조화된 표현을 활용하는 그래프 분석 알고리즘을 통해 더욱 세밀하게 개선되고 확장될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 링크 예측: 노드 사이의 잠재적 관계를 매핑하지 않은 상태에서 탐색해보세요.  
 노드 임베딩: 직접적인 링크 이상으로 관련 엔티티를 추천합니다.  
@@ -200,7 +372,18 @@ From Text Retrieval to Graph Retrieval
 
 그라운딩된 추론을 위한 구조화된 지식
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 RAG 시스템은 지식 그래프에서 가져온 풍부하고 상호 연결된 맥락을 통해 텍스트만으로는 어려운 심층적 추론 능력을 가능하게 할 수 있습니다.
 
@@ -213,7 +396,18 @@ RAG 시스템은 지식 그래프에서 가져온 풍부하고 상호 연결된 
 
 건강 관련 예시
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래프 검색의 힘을 설명하기 위해, 지식 그래프로 표현된 FHIR (Fast Healthcare Interoperability Resources) 데이터 표준 상의 의료 질문 응답 시스템을 고려해 보죠:
 
@@ -223,7 +417,18 @@ RAG 시스템은 지식 그래프에서 가져온 풍부하고 상호 연결된 
 
 링크 예측은 진단과 처방된 새 약물과 같은 매핑되지 않은 관계를 제안하여 이를 더욱 풍부하게 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 노드 임베딩은 직접적인 링크 이상의 관련 조건들을 검색할 수 있습니다.
 
@@ -233,7 +438,18 @@ FHIR 지식 그래프에서 검색된 이 상호 연결된 다면적 맥락은 L
 
 앞으로의 길
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지식 그래프 및 다른 구조화된 표현물이 다양한 분야에서 더욱 널리 사용됨에 따라, 발전된 그래프 검색 능력을 개발하는 것이 차세대 RAG 시스템에 중요하게 작용할 것입니다. 벡터 검색, 표현력 있는 그래프 쿼리, 구조화된 표현물 상에서 추론, 그리고 맥락에 기반한 제약 조건 결합은 LLMs가 필요로 하는 관련 지식 서브그래프를 정확하게 검색할 수 있도록 할 것입니다.
 
@@ -243,7 +459,18 @@ FHIR 지식 그래프에서 검색된 이 상호 연결된 다면적 맥락은 L
 
 하지만 분명한 것은 검색 보강 생성의 미래가 풍부한 구조화된 표현물로부터 관련 지식을 원활하게 탐색하고 추출할 수 있는 전체적인 파이프라인을 개발하는 데에 있을 것이라는 것입니다. 그래프 검색의 "어떻게"를 정복하는 것이 지식 기반 언어 생성의 전체 잠재력을 발휘하는 열쇠가 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 유망한 방향과 앞으로의 길
 
@@ -257,7 +484,18 @@ FHIR 지식 그래프에서 검색된 이 상호 연결된 다면적 맥락은 L
 
 신뢰할 수 있는 AI 시스템의 미래가 바로 다음 세대 지식 소스에서 정립된 풍부하고 구조화된 지식과 대형 언어 모델의 추론 능력을 조화롭게 결합하는 RAG 프레임워크 개발에 있을 것입니다. 검색하는 방법, 시점, 그리고 방식을 최적화하는 것이 이 잠재력을 발휘하는 데 중요한 역할을 할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # In Plain English 🚀
 

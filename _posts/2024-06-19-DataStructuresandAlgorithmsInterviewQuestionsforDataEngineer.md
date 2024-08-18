@@ -3,17 +3,13 @@ title: "데이터 엔지니어를 위한 자료 구조와 알고리즘 면접 �
 description: ""
 coverImage: "/assets/img/2024-06-19-DataStructuresandAlgorithmsInterviewQuestionsforDataEngineer_0.png"
 date: 2024-06-19 09:44
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-DataStructuresandAlgorithmsInterviewQuestionsforDataEngineer_0.png
 tag: Tech
 originalTitle: "Data Structures and Algorithms Interview Questions for Data Engineer"
 link: "https://medium.com/@vishalbarvaliya/data-structures-and-algorithms-interview-questions-for-data-engineer-7d81bad6901c"
 isUpdated: true
 ---
-
-
-
-
 
 데이터 엔지니어링 면접 준비는 데이터 구조와 알고리즘(DSA)에 대한 튼튼한 이해력이 필요합니다. 여러분이 잘 준비될 수 있도록, 자주 물어지는 DSA 면접 질문들을 정리한 목록을 제공해 드립니다. 연습 문제 링크가 포함되어 있어 다양한 주제를 다루며 다음 면접에 잘 준비될 수 있습니다.
 
@@ -72,6 +68,17 @@ isUpdated: true
 - 쌍으로 노드 교환: [문제 링크](https://leetcode.com/problems/swap-nodes-in-pairs/)
 - 두 수 II: [문제 링크](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문제들을 연습함으로써, 데이터 엔지니어링 인터뷰에서 가장 일반적인 자료 구조와 알고리즘 문제에 대비할 준비가 더 잘 될 것입니다. 행운을 빕니다!

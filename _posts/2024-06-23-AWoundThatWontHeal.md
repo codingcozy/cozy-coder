@@ -3,17 +3,13 @@ title: "아물지 않는 상처를 치료하는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-23-AWoundThatWontHeal_0.png"
 date: 2024-06-23 18:41
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-AWoundThatWontHeal_0.png
 tag: Tech
 originalTitle: "A Wound That Won’t Heal"
 link: "https://medium.com/@ispeakmymind/a-wound-that-wont-heal-28fdee8c70f3"
 isUpdated: true
 ---
-
-
-
-
 
 ## 시간이 흐르고도 마음의 상처가 멈추지 않는 이유는 무엇일까요?
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 부모님께서 당신 앞에서 말다툼을 하실 때 어떻게 하시나요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 빠른 초기 반응은 울음일 거라고 생각하실 거에요, 맞죠? 저도 그랬어요. 어린 시절, 부모님들이 부엌에서 다투는 걸 보고 순간적으로 울음이 터져나왔어요. 왜 그런지 모르겠지만 마음이 찢기는 듯한 느낌이었어요. 제가 울면 그들이 싸움을 그만 둘지도 모를 것 같다는 생각이 들었거든요. 그러나 속은 찢어진 채로 지속되던 상황은 11살이 될 때까지 이어졌어요.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 저는 상처받았어요. 너무 많이 상처 받았어요. 나조차 버려진 느낌이 들었어요. 내 존재를 의심했어요. "가족의 일원이 아닌 걸까? 왜 결정에 참여하지 못하는 걸까?" 오랜 기간 동안 상처받았어요. 어워드 시상식에서 외로웠고, 학교 모임에서 두 부모가 함께 참석해야하는 자리에서도 외로웠고, 부모님이 함께 참석하길 바랐던 대회에서도 외로웠어요. 하지만 제가 더 이상 울지 않았어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그것은 여전히 나를 괴롭히고 슬프게 만들어. 특히 양 부모가 이미 새로운 파트너를 만났을 때는 더 그럽니다. 처음에는 충격을 받았고, 화가 나있었고, 상처받았는데 여전히 그들이 넘어가는 것이 내 안 깊이 아프다는 생각에 충격을 받았다. 그러나 시간이 지남에 따라 나는 이에 익숙해졌어. 두 부모가 주위에 없는 것에 익숙해지고, 내가 달성한 모든 이정표에서 한 명만 참석했다. 내가 그것에 대해 통고하지 않은 것은 나에게 이미 받아 들였음을 알았기 때문에 나는 그 위로 잘 받아들였다. 나는 고등학교 시절에 예상보다 덜 신경 쓰게 됐습니다.
 
@@ -43,9 +61,20 @@ isUpdated: true
 
 나에게는 좋은 하루였는데, 그 문장을 읽었을 때 그런 기분이었다. 그것이 내게 얼마나 큰 영향을 미쳤는지를 깨달았을 때 나는 우는 소리가 나왔다. 나는 그런 일들로부터 치유받지 못했다는 것을 깨달았고, 얼마나 망가졌는지 알게 됐다. 나는 그것을 혐오한다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-아포리즘 "시간이 모든 종류의 상처를 치유한다"는 미신입니다. 상처는 치유되지 않습니다. 우리 안에서 계속 퍼져나가서 그 상처가 낫기 전에 우리 전체 존재가 그 상처에 의해 소멸될 때까지 기다립니다. 그래서 나에게 있어서 그 고통이 너에게 가해졌을 때가 몇 년이 지났는지 상관없이, 그것은 끝나지 않습니다. 네 고통은 끝나지 않을 것입니다. 다행인 것은, 몇 번이나 그것을 직면하더라도, 아무리 그것이 나았다 생각하고 넘어갔다고 생각해도, 당신은 그저 자신을 속이고 있는 것뿐입니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+아포리즘 "시간이 모든 종류의 상처를 치유한다"는 미신입니다. 상처는 치유되지 않습니다. 우리 안에서 계속 퍼져나가서 그 상처가 낫기 전에 우리 전체 존재가 그 상처에 의해 소멸될 때까지 기다립니다. 그래서 나에게 있어서 그 고통이 너에게 가해졌을 때가 몇 년이 지났는지 상관없이, 그것은 끝나지 않습니다. 네 고통은 끝나지 않을 것입니다. 다행인 것은, 몇 번이나 그것을 직면하더라도, 아무리 그것이 나았다 생각하고 넘어갔다고 생각해도, 당신은 그저 자신을 속이고 있는 것뿐입니다.
 
 어느 날, 수십 년 전에 일어났던 일의 일부를 기억하게 되는 순간, 그때와 같이 다시 전부 무너지게 될 것입니다. 고통은 끊임없이, 영원히 계속됩니다. 끝이 없습니다.
 

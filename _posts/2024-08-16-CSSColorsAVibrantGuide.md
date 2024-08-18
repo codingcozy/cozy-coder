@@ -3,7 +3,7 @@ title: "CSS 색상을 제대로 사용하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-16-CSSColorsAVibrantGuide_0.png"
 date: 2024-08-16 23:59
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-16-CSSColorsAVibrantGuide_0.png
 tag: Tech
 originalTitle: "CSS Colors A Vibrant Guide"
@@ -11,7 +11,6 @@ link: "https://medium.com/stackademic/css-colors-a-vibrant-guide-6c2b44ba135a"
 isUpdated: true
 updatedAt: 1723863460599
 ---
-
 
 안녕하세요 디자이너님, 여기서는 디자인에 대해 AI와 경쟁하거나 활용할 수 있는 공간입니다.
 
@@ -21,7 +20,18 @@ updatedAt: 1723863460599
 
 이 블로그에서는 CSS에서 색상을 지정하는 다양한 방법에 대해 다루고, 색상을 뛰어난 방법으로 활용한 멋진 웹사이트 몇 가지를 소개할 예정입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요 디자이너님, 여기서는 디자인에 대해 AI와 경쟁하거나 사용할 수 있어요.
 
@@ -31,7 +41,18 @@ CSS는 레드, 블루, 그린, 옐로우와 같은 140가지 사전 정의된 �
 
 CSS
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 body {
@@ -45,7 +66,18 @@ body {
 
 CSS
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 h1 {
@@ -59,12 +91,22 @@ RGB 값은 rgb() 함수를 사용하여 색상을 지정하며, 각각 0부터 2
 
 CSS
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 p {
-    color: rgb(255, 99, 71); /* Tomato */
+  color: rgb(255, 99, 71); /* Tomato */
 }
 ```
 
@@ -74,12 +116,22 @@ RGBA 값은 RGB 값과 유사하지만 투명도를 나타내는 알파 채널�
 
 CSS
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 div {
-    background-color: rgba(255, 99, 71, 0.5); /* Semi-transparent Tomato */
+  background-color: rgba(255, 99, 71, 0.5); /* Semi-transparent Tomato */
 }
 ```
 
@@ -89,12 +141,22 @@ HSL (Hue, Saturation, Lightness) 값은 hsl() 함수를 사용하여 색상을 �
 
 CSS
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 a {
-    color: hsl(9, 100%, 64%); /* 토마토 */
+  color: hsl(9, 100%, 64%); /* 토마토 */
 }
 ```
 
@@ -104,12 +166,22 @@ HSLA 값은 HSL 값에 투명성을 위한 알파 채널을 추가하여 확장�
 
 CSS
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 button {
-    background-color: hsla(9, 100%, 64%, 0.5); /* 반투명 토마토 */
+  background-color: hsla(9, 100%, 64%, 0.5); /* 반투명 토마토 */
 }
 ```
 
@@ -119,7 +191,18 @@ button {
 
 해피 휴즈는 다양한 색상 팔레트를 탐색할 수 있는 환상적인 자료입니다. 웹 디자인에서 다양한 색 구성표를 효과적으로 활용하는 실제 예시를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2. Awwwards
 
@@ -129,7 +212,18 @@ Awwwards는 놀라운 디자인을 가진 수상작 웹사이트를 소개합니
 
 ## 3. Dribbble
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 드리블은 디자이너들이 자신의 작품을 공유하는 커뮤니티로, 웹 디자인 프로젝트를 포함하고 있어요. 창의적인 색상 활용 및 혁신적인 디자인 아이디어의 다양한 예시를 찾아볼 수 있어요.
 
@@ -139,7 +233,18 @@ Behance는 디자인 프로젝트를 발견하기 위한 또 다른 훌륭한 �
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS 색상을 효과적으로 이해하고 활용하면 웹 사이트의 시각적 매력을 크게 향상시킬 수 있습니다. 색상 이름, 16진수 값, RGB, RGBA, HSL 또는 HSLA를 선호하든, CSS는 여러 옵션을 제공하여 디자인 요구 사항에 맞게 선택할 수 있습니다. 위에서 언급한 웹사이트의 예시들을 살펴보면서, 영감을 얻고 색상을 창의적으로 적용하는 방법을 배울 수 있습니다.
 

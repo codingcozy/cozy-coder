@@ -3,17 +3,13 @@ title: "CPU, GPU, NPU 인공지능에 필요한 중요한 차이점과 역할 �
 description: ""
 coverImage: "/assets/img/2024-06-22-CPUGPUandNPUUnderstandingKeyDifferencesandTheirRolesinArtificialIntelligence_0.png"
 date: 2024-06-22 19:16
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-CPUGPUandNPUUnderstandingKeyDifferencesandTheirRolesinArtificialIntelligence_0.png
 tag: Tech
 originalTitle: "CPU, GPU, and NPU: Understanding Key Differences and Their Roles in Artificial Intelligence"
 link: "https://medium.com/@levysoft/cpu-gpu-and-npu-understanding-key-differences-and-their-roles-in-artificial-intelligence-2913a24d0747"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-22-CPUGPUandNPUUnderstandingKeyDifferencesandTheirRolesinArtificialIntelligence_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 그러나 고강도 그래픽 응용프로그램 및 과학적 시뮬레이션에 필요한 대규모 병렬 처리 수요의 증가로 인해, CPU 및 수학 부호 처리 장치의 한계가 드러나게 되었습니다. 이는 1990년대에 GPU(그래픽 처리 장치)의 개발로 이어졌습니다. 이후 GPU는 대용량 데이터의 병렬 처리에 중요하고 전문적인 역할을 하게 되었습니다. 수백 개나 수천 개의 작은 전용 코어(ALU: 산술 논리 장치)로 구성된 GPU(통합 그래픽 칩이나 독립형 그래픽 카드로 제공)는 여러 작업을 동시에 수행할 수 있어서 그래픽 렌더링 및 최근에는 딥러닝 모델의 교육 및 배포에 이상적입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최근 몇 년 동안 우리는 새로운 유형의 처리 장치의 등장을 목격했습니다: NPU(신경 처리 장치). 수학 부가 처리 장치 및 GPU는 부동 소수점 연산 및 대량 데이터 부분 처리를 가속화했지만, NPU는 행렬 곱셈 및 덧셈을 효율적으로 처리하기 위해 설계되었습니다. 이는 인공지능(AI) 및 기계 학습(ML)과 관련된 작업에 필수적인 작업 부하를 위해 이미지 인식, 자연어 처리 및 기계 학습과 같은 작업에 효율적으로 처리할 수 있습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ## 인공지능에서의 행렬
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인공 지능에서 특히 딥 러닝에서는 데이터 처리를 위해 행렬 곱셈과 덧셈(일반적으로 GEMM, "General Matrix Multiplication"으로 알려짐)이 중요합니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 언어 모델에서는 어떻게 활용될까요? 대규모 언어 모델(LLMs)에서는 토큰을 나타내고 변환하는 데 행렬을 사용합니다. 토큰은 단어나 기호와 같은 텍스트의 작은 부분을 말합니다. 이러한 토큰을 숫자로 변환하고 행렬로 조직화합니다. 이러한 행렬 연산을 통해 모델은 단어나 토큰 간의 관련성을 이해하고, 텍스트의 문맥과 의미를 파악하는 데 도움을 줍니다. 예를 들어, AI 모델이 문장을 처리할 때 각 단어가 다른 단어와 어떻게 연결되는지 이해하는 데 행렬이 도움이 되어 응답을 생성하거나 텍스트를 일관되게 계속할 수 있습니다. LLMs 개념을 깊이 파고들고 싶으시다면, 기술 용어 없이 어떻게 인공 지능의 대규모 언어 모델이 작동하는지 설명하는 Arstechnica의 방대하고 유일무이한 기사를 추천합니다. 또는 Stephen Wolfram이 어떻게 ChatGPT가 작동하는지 설명한 다른 흥미로운 기사도 살펴볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요약하면, 행렬 곱셈과 덧셈은 인공지능 모델이 원시 데이터를 유용한 결과로 변환하는 데 따르는 레시피와 같습니다. 이미지에서 객체를 인식하거나 문장을 이해하는 등의 결과물을 만들어냅니다. 앞서 언급했듯이, 이것이 바로 NPU가 중요한 역할을 하는 곳입니다. 왜냐하면 NPUs는 특히 행렬 형태로 표현된 대량의 데이터에 대해 빠르게 연산을 수행할 수 있는 것으로 특별히 설계되었기 때문에, 인공지능 애플리케이션에 대해 극도로 효과적입니다.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 NPUs의 아키텍처는 CPU와 GPU와는 크게 다릅니다. CPU는 여러 가지 명령을 순차적으로 실행하는 데 설계되었고, GPU는 병렬 연산을 수행하는 데 중점을 둔 반면, NPUs는 기계 학습 작업을 특별히 가속화하기 위해 설계되었습니다. 이는 다음을 통해 달성됩니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 전문화된 컴퓨트 유닛: NPUs는 신경망 모델의 교육 및 추론에 필수적인 곱셈 및 누산 작업을 위한 전용 하드웨어를 통합합니다.
 - 고속 온칩 메모리: 메모리 접근과 관련된 병목 현상을 최소화하기 위해 NPUs에는 높은 속도의 통합형 메모리가 탑재되어 있어서 모델 데이터 및 가중치에 신속하게 접근할 수 있습니다.
@@ -65,7 +105,18 @@ NPU의 특별한 종류는 TPU(텐서 처리 유닛)입니다. 이는 Google이 
 
 ## 인공 지능에서 TOPS란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-06-22-CPUGPUandNPUUnderstandingKeyDifferencesandTheirRolesinArtificialIntelligence_3](/assets/img/2024-06-22-CPUGPUandNPUUnderstandingKeyDifferencesandTheirRolesinArtificialIntelligence_3.png)
 
@@ -75,13 +126,35 @@ TOPS는 NPU 또는 기타 AI 전용 프로세서의 컴퓨팅 용량을 측정�
 
 TOPS는 완벽한 측정 지표가 아니며 여러 변수가 시스템이 AI 작업을 수행하는 데 성능에 영향을 미칩니다만, 칩 제조업체는 제품을 홍보하기 위해 이 매개변수에 의존하며, 기본적으로 성능 측정을 단순화하고 구매자가 무엇을 얻는지 이해할 수 있도록 돕습니다. 다음과 같은 TOPS를 계산하는 공식은 NPU의 속도를 빠르게 평가하고 다른 장치들과 비교하는 데 빠른 참고 자료를 제공합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 - 표시된 테이블을 마크다운 형식으로 변경하십시오.
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## GPU와 NPU의 TOPS 간 차이점
 
@@ -91,7 +164,18 @@ NVIDIA RTX 4090과 같은 데스크톱 GPU는 1,300 이상의 TOPS 성능을 자
 
 반면에 NPU는 특정 AI 작업만을 최적화하는 데 특화되어 있으며, 행렬 곱셈 및 기타 딥러닝 작업과 같은 AI 작업에만 능력을 집중시킵니다. GPU보다 낮은 TOPS 수를 갖고 있더라도, NPUs는 각각의 특정 도메인에서 더 효율적입니다. 따라서 Qualcomm Snapdragon 프로세서나 Copilot+를 탑재한 Intel 시스템에 통합된 40-45 TOPS의 NPU는 신경망과 같은 특정 AI 계산을 수행하기 위해 최적화되어 있지만, GPU와 같이 다양한 응용분야를 갖지는 않습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또 하나의 고려해야 할 차이점이 있습니다: GPU는 그래픽 및 AI 계산 성능을 극대화하기 위해 다른 정밀도(FP32, FP16 등)에서 작동할 수 있지만, NPU는 효율성을 최적화하고 전력 소비를 줄이기 위해 낮은 정밀도(INT8, INT4)에서 작동하는 경우가 많습니다. 따라서 RTX 5000 Ada에 보고된 682 TOPS와 같은 값은 FP8과 같은 정밀도를 사용하는 Tensor Cores의 특정 AI Tensor 성능을 나타냅니다.
 
@@ -101,7 +185,18 @@ NVIDIA RTX 4090과 같은 데스크톱 GPU는 1,300 이상의 TOPS 성능을 자
 
 NPU의 등장 이전에는 NVIDIA와 같은 회사가 생산한 GPU 및 Apple의 M 시리즈와 같은 프로세서의 통합 솔루션이 로컬 AI 분야를 주도했습니다. 특히 CUDA 및 Tensor Core 아키텍처를 갖춘 NVIDIA 제품들은 병렬 아키텍처와 대량의 병렬 계산을 짧은 시간 내에 수행할 수 있는 능력으로 인해 머신러닝 모델의 훈련 및 추론에서 사실상의 표준이었습니다. 이러한 GPU는 PC뿐만 아니라 데이터 센터 서버도 구동하여 대규모 딥러닝 모델 훈련을 가능하게 하였으며, 데이터 센터 GPU 부문에서 약 98%의 시장 점유율을 차지하여 2023년에 376만 개의 GPU가 선적되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 NPUs(인공 지능 가속기로도 알려져 있음)은 처음에 후아웨이와 애플이 Mate 10 Pro 및 iPhone X 모델로 도입되었습니다. 이러한 특수 칩은 인공 지능 및 머신 러닝을 위한 복잡한 계산을 수행하여 성능과 에너지 효율성을 크게 향상시켰습니다. 특히, 애플의 경우 iPhone X와 함께 소개된 A11 Bionic AI 칩은 SoC(시스템 온 칩)의 그래픽 가속기를 지원하여 스튜디오 품질의 애니메이션을 만들고 Face ID 얼굴 인식 및 animoji를 생성했습니다. 후아웨이의 경우, "분산 컴퓨팅" 구조를 갖춘 AI Kirin 970 칩은 이미지 분석, 음성 요청 처리 및 배터리 수명에 과도한 영향을 미치지 않고 실시간 번역을 담당했습니다.
 나중에 쿼클롬의 AI SoC인 스냅드래곤 845가 출시되어 반복적이고 집중적인 작업을 처리하며 주 프로세서의 효율성을 향상시키고 스마트폰의 전반적인 작동 속도를 높였습니다.
@@ -113,7 +208,18 @@ NPUs(인공 지능 가속기로도 알려져 있음)은 처음에 후아웨이�
 M 시리즈 프로세서(M1, M2, M3 및 최신 M4와 같은)가 도입되면서 애플은 소비자 기기에서 로컬 인공 지능을 새로운 수준으로 끌어올렸습니다. 이러한 프로세서는 고급 GPU 및 신경 엔진을 통합하여 클라우드 서비스 없이 기기에서 직접 AI 작업을 가속화합니다. 이는 음성 및 얼굴 인식, 계산 사진술 및 증강 현실 어플리케이션과 같이 대기 시간이 적고 에너지 효율성이 높은 어플리케이션에 특히 유용합니다.
 애플의 AI에 최적화된 코어를 통합된 솔루션은 하드웨어가 머신 러닝 워크로드를 처리하도록 특별히 설계될 수 있는 방법을 보여주는 사례로, 이전 솔루션과 비교하여 성능과 에너지 효율성을 크게 향상시킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Apple M4 vs Snapdragon X Elite
 
@@ -123,7 +229,18 @@ M 시리즈 프로세서(M1, M2, M3 및 최신 M4와 같은)가 도입되면서 
 
 TOPS 값은 연산 유형과 정확도를 고려하지 않으면 완전한 의미가 없음을 인지해야 합니다. 퀄컴의 45 TOPS와 애플의 38 TOPS는 모두 INT8 연산(8비트 정수)에 기반하고 있으며, 전문가인 벤 바자린이 확인했습니다. 이는 퀄컴이 AI 컴퓨팅 능력 측면에서 우위에 있다는 것을 나타냅니다. 그러나 애플은 인텔과 AMD와 비교하여 소비자 칩셋에서 선두 주자로 남아 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사실, 더 분석해 보면, Apple M4는 Snapdragon X Elite와 비교할 때 우수한 CPU 성능을 제공하는데, 최고급 X Elite 변형보다 23% 빠른 속도를 보여줍니다. 심지어 그래픽 부문에서도 Snapdragon X Elite의 6코어 Adreno GPU가 Apple M4의 10코어 GPU와 경쟁할 수 없습니다.
 
@@ -133,7 +250,18 @@ TOPS 값은 연산 유형과 정확도를 고려하지 않으면 완전한 의�
 
 ![이미지](/assets/img/2024-06-22-CPUGPUandNPUUnderstandingKeyDifferencesandTheirRolesinArtificialIntelligence_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최근에 Microsoft가 인공지능을 위해 특별히 설계된 Copilot+ PC라는 새로운 윈도우 PC 카테고리를 소개했습니다. 이 PC는 놀라운 성능을 자랑하는 새로운 칩을 탑재했는데, 초당 40조 회 이상의 작업을 실행할 수 있는 능력을 가지고 있습니다. 이 PC는 처음에 Qualcomm Snapdragon X 시리즈 칩으로 출시될 예정이지만, Intel은 곧 Lunar Lake 프로세서도 출시할 예정입니다. 이 프로세서는 40 TOPS NPU뿐만 아니라 60 GPU TOPS 이상의 성능을 제공하여 총 100 플랫폼 TOPS를 제공할 것입니다. AMD도 50 TOPS 신경 처리장치를 탑재한 새로운 Strix 칩을 개발 중이며, 이는 2024년 7월에 출시될 예정입니다.
 Copilot+ PC는 고급 인공지능 모델을 실행하기 위해 신경 처리 장치(NPU)를 활용하여 Recall로 정보 검색, Cocreator로 실시간 이미지 생성, 및 Live Captions로 40여 개 언어로 오디오 번역 등의 혁신적인 경험을 제공합니다.
@@ -144,8 +272,18 @@ Copilot+ PC는 2024년 6월 18일부터 출시되며, 999달러부터 시작하�
 
 ## Windows 작업 관리자에서 NPU 모니터링하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-06-22-CPUGPUandNPUUnderstandingKeyDifferencesandTheirRolesinArtificialIntelligence_7.png)
 
@@ -155,8 +293,18 @@ Copilot+ PC는 2024년 6월 18일부터 출시되며, 999달러부터 시작하�
 
 ![Image](/assets/img/2024-06-22-CPUGPUandNPUUnderstandingKeyDifferencesandTheirRolesinArtificialIntelligence_8.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 당신이 NPUs가 고급 컴퓨터 전용이라고 생각했다면, 라즈베리 파이 재단이 최근에 라즈베리 파이 5용 AI KIT을 70달러에 출시했다는 것에 놀랄 것입니다. 이 패키지는 라즈베리 파이 M.2 HAT+ (초기에는 NVMe 장치 및 기타 PCIe 액세서리에 연결하기 위해 개발된)과 NPU를 탑재한 AI Hailo-8L M.2 가속 모듈로 구성되어 있습니다. 이 NPU는 작은 프로세서에 13 TOPS(테라 오퍼레이션/초)의 컴퓨팅 파워를 제공할 수 있습니다. 이전에는 구글이 Google Coral과 같은 AI 가속 모듈을 제공했지만, 그 파워는 4 TOPS였습니다.
 라즈베리 파이 5용 AI HAT은 아직 대용량 언어 모델(LLM) 실행에 상당한 성능 향상을 제공하지는 못하지만(LLaMA와 같이 수십억 개의 파라미터를 가진 모델), 내장 컴퓨팅에서 가벼운 및 특정 AI 응용 프로그램에 이상적입니다. TensorFlow, TensorFlow Lite, Keras, PyTorch 및 ONNX와 같은 주요 AI 프레임워크 외에도 Hailo-8L M.2 모듈은 음성 인식, 물체 인식을 위한 컴퓨터 비전, 얼굴 감지 및 장면 분석과 같은 응용 프로그램에 이상적입니다. 이때 소형 감시, 자율 주행 차량 및 비디오 분석을 위해 실시간으로 유지하면서 저전력 소비도 유지합니다.
@@ -167,7 +315,18 @@ Copilot+ PC는 2024년 6월 18일부터 출시되며, 999달러부터 시작하�
 
 ## 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 신경 처리 장치(NPUs)는 컴퓨팅 환경을 재정의하며, 인공 지능 애플리케이션의 증가하는 요구를 충족하는 데 필수적인 역할을 하고 있습니다. 기계 학습과 인공 지능을 가속화하기 위해 특화된 구조를 갖춘 NPUs는 다양한 분야에서 효율성과 성능을 크게 향상시킵니다.
 

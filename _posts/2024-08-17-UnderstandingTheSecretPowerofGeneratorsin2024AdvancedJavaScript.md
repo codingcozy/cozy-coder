@@ -3,7 +3,7 @@ title: "자바스크립트 고수가 되고 싶다면 알아야할 제네레이�
 description: ""
 coverImage: "/assets/img/2024-08-17-UnderstandingTheSecretPowerofGeneratorsin2024AdvancedJavaScript_0.png"
 date: 2024-08-17 00:42
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-17-UnderstandingTheSecretPowerofGeneratorsin2024AdvancedJavaScript_0.png
 tag: Tech
 originalTitle: "Understanding The Secret Power of Generators in 2024  Advanced JavaScript"
@@ -11,7 +11,6 @@ link: "https://medium.com/javascript-in-plain-english/understanding-the-secret-p
 isUpdated: true
 updatedAt: 1723863848135
 ---
-
 
 # 소개
 
@@ -21,7 +20,18 @@ updatedAt: 1723863848135
 
 오늘은 여러분을 하나의 기능인 Generators를 통해 여행시켜보고 싶습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JavaScript의 생성기는 처음에는 특정 도구처럼 보일 수 있지만, 한번 그들의 진정한 잠재력을 이해하면, 2024년이라 해도 왜 그들이 여전히 중요하고 강력한지 알게 될 겁니다.
 
@@ -31,7 +41,18 @@ JavaScript의 생성기는 처음에는 특정 도구처럼 보일 수 있지만
 
 한 번에 위에서 아래로 실행되는 일반 함수와 달리, 생성기는 호출 컨텍스트로 제어를 양도하며, 실행 흐름을 더 세밀하게 제어할 수 있게 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 간단한 예제가 있어요:
 
@@ -41,7 +62,18 @@ JavaScript의 생성기는 처음에는 특정 도구처럼 보일 수 있지만
 
 # 제너레이터의 마법: 언제 그리고 왜 사용할까요? 🐌
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 궁금해하고 있는 것이 있을 수 있습니다. "프라미스 대신 제너레이터를 언제 사용해야 할까요?" 좋은 질문이네요! 제너레이터는 실행 흐름을 세밀하게 제어해야 하는 경우에 특히 유용합니다. 여기 몇 가지 구체적인 사용 사례가 있습니다:
 
@@ -51,7 +83,18 @@ JavaScript의 생성기는 처음에는 특정 도구처럼 보일 수 있지만
 
 ![이미지](/assets/img/2024-08-17-UnderstandingTheSecretPowerofGeneratorsin2024AdvancedJavaScript_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예시에서, 발생자(generator)는 무한한 숫자 시퀀스를 생성하지만, 필요할 때만 다음 값을 계산합니다. 이 접근 방식은 메모리를 절약하고 성능을 향상시킵니다.
 
@@ -61,7 +104,18 @@ JavaScript의 생성기는 처음에는 특정 도구처럼 보일 수 있지만
 
 ![이미지](/assets/img/2024-08-17-UnderstandingTheSecretPowerofGeneratorsin2024AdvancedJavaScript_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 시나리오에서 제너레이터는 fetchDataFromAPI 프라미스가 해결될 때까지 "일시 중지"하여 실행을 수행한 후 검색된 데이터로 계속합니다. 이 방법은 async/await이 표준이 되기 전에 특히 인기가 있었으며, async/await이 제공하는 것보다 더 많은 제어가 필요할 때 유용합니다.
 
@@ -71,7 +125,18 @@ JavaScript의 생성기는 처음에는 특정 도구처럼 보일 수 있지만
 
 <img src="/assets/img/2024-08-17-UnderstandingTheSecretPowerofGeneratorsin2024AdvancedJavaScript_3.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 방식은 응용 프로그램 로직의 다양한 상태를 처리하는 명확하고 유지 보수가능한 방법을 제공합니다.
 
@@ -81,7 +146,18 @@ JavaScript의 생성기는 처음에는 특정 도구처럼 보일 수 있지만
 
 ## 제너레이터의 장점
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 섬세한 제어: 제너레이터를 사용하면 함수 실행을 멈추거나 다시 시작할 수 있어요. 이것은 게으른 평가, 사용자 정의 반복 논리 또는 복잡한 제어 흐름과 같은 시나리오에서 게임 체인저가 될 수 있어요.
 - 메모리 효율성: 제너레이터는 필요한 값만 생성하기 때문에 대용량 데이터나 스트림 처리와 같은 작업에 특히 유용한 메모리 효율적인 기능을 제공해요.
@@ -95,7 +171,18 @@ JavaScript의 생성기는 처음에는 특정 도구처럼 보일 수 있지만
 
 ## 언제 어떤 것을 선택해야 할까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 생성기를 사용하는 경우:
 
@@ -109,7 +196,18 @@ JavaScript의 생성기는 처음에는 특정 도구처럼 보일 수 있지만
 - 동시 작업을 처리해야 할 때.
 - 더 간단하고 직관적인 오류 처리가 필요할 때.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2024년 제너레이터 사용의 최상의 방법 ⛅
 
@@ -119,7 +217,18 @@ JavaScript의 생성기는 처음에는 특정 도구처럼 보일 수 있지만
 
 제너레이터는 코드를 복잡하게 만들 수 있으므로 신중하게 사용하세요. 작업을 프로미스나 async/await로 쉽게 처리할 수 있다면, 제너레이터를 사용할 필요가 없습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2. 약속과 함께 최대 효과를 뽑아보세요
 
@@ -129,7 +238,18 @@ JavaScript의 생성기는 처음에는 특정 도구처럼 보일 수 있지만
 
 반복을 위해 제너레이터를 사용할 때는 항상 멈춰야 할 때를 주의 깊게 살펴보세요. 제너레이터에서의 무한 루프는 제대로 관리되지 않으면 실제로 머리 아플 수 있습니다. 제너레이터가 무한히 실행될 수 있는 가능성이 있다면 명확한 종료 조건이 있는지 확인해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 4. 철저히 테스트하세요
 
@@ -139,8 +259,18 @@ JavaScript의 생성기는 처음에는 특정 도구처럼 보일 수 있지만
 
 TypeScript로 코드를 작성하고 있다면, 제너레이터 함수에 대한 타입을 정의해야 합니다. 이는 컴파일 시점에서 잠재적인 문제를 감지하는 추가적인 안전성 계층을 제공해줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Generators](/assets/img/2024-08-17-UnderstandingTheSecretPowerofGeneratorsin2024AdvancedJavaScript_4.png)
 
@@ -150,8 +280,18 @@ TypeScript로 코드를 작성하고 있다면, 제너레이터 함수에 대한
 
 정확한 실행 흐름 제어 능력과 메모리 효율성이 결합된 제너레이터는 개발자들에게 소중한 도구로 작용합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 약속과 async/await도 중요하지만, 제너레이터는 복잡한 작업을 단순화하고 성능을 최적화하는 독특한 관점을 제공합니다.
 
@@ -161,7 +301,18 @@ TypeScript로 코드를 작성하고 있다면, 제너레이터 함수에 대한
 
 건배!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 쉽게 말해 🚀
 

@@ -3,17 +3,13 @@ title: "스마트 기기와 그렇지 못한 사용자들에 대한 고찰"
 description: ""
 coverImage: "/assets/img/2024-06-23-Smartdevicesandnot-so-smartusers_0.png"
 date: 2024-06-23 17:14
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-Smartdevicesandnot-so-smartusers_0.png
 tag: Tech
 originalTitle: "Smart devices and not-so-smart users"
 link: "https://medium.com/@01fueledbyramen99/smart-devices-and-not-so-smart-users-1f8413e715aa"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-23-Smartdevicesandnot-so-smartusers_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 매일 아침 손목에서 진동하며 깨우는데 사용됩니다. 예전에는 부모님들이 기상 시 알람 시계를 사용했었죠. 믿을 수 있나요? 알람을 설정하는 데만 사용할 수 있었던 `알람` 시계. 정말 어리석은 일이죠!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오늘 밤 잠을 자러 갈 때 마음을 편히 쉴 것 같아요. 어젯밤은 정확히 8시간 23분 동안 잤다가 (그 중 2시간 19분은 깊은 잠을 취했어요. 제가 잠을 많이 자는 것에 대해서 평가하지 말아 주세요.) 지내게 되어, 천장을 바라보며 1시간 12분 동안 와드를 들어 다른 밤에 스트레스를 받는 일에 대해 생각할 필요는 없을 거예요. 스마트워치 덕분에 알게 되었어요. 아니었다면, 이런 정보를 전혀 알지 못했겠죠.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 마지막으로, 스마트 조명과 전구는 편리함과 에너지 효율성을 함께 제공해요. 원격으로 밝기, 색상 및 일정을 조정할 수 있는 능력으로 우리는 어떤 상황에든 완벽한 분위기를 조성할 수 있어요. 아늑한 영화 시간을 위해 조명을 어둡게 하거나 우리가 집을 비울 때 활동을 모방할 타이머를 설정할 때까지, 스마트 조명은 전기 스위치를 건드릴 필요가 없도록 해줘요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스마트 홈 스피커(예: Alexa 또는 HomePod(Siri))와 함께 이 모든 것들을 결합하면 집이 집 같지 않아요. 마치 항상 듣고 대부분 명령을 따르는 다른 사람과 함께 살고 있는 것 같아요.
 

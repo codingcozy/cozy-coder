@@ -3,7 +3,7 @@ title: "프론트엔드 웹 개발에 필요한 실습 방법 5가지"
 description: ""
 coverImage: "/assets/img/2024-07-23-PracticeMakesPerfectinSoftwareDevelopment_0.png"
 date: 2024-07-23 21:46
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-23-PracticeMakesPerfectinSoftwareDevelopment_0.png
 tag: Tech
 originalTitle: "Practice Makes Perfect in Software Development"
@@ -11,19 +11,26 @@ link: "https://medium.com/@tsecretdeveloper/practice-makes-perfect-in-software-d
 isUpdated: true
 ---
 
-
-
-
-
 `<img src="/assets/img/2024-07-23-PracticeMakesPerfectinSoftwareDevelopment_0.png" />`
 
 소프트웨어 개발에는 비밀이 있습니다. 위의 밈에서도 알려졌습니다.
 
-훌륭한 소프트웨어 개발자가 되려면 소프트웨어를 만드는 연습을 해야 합니다. 
+훌륭한 소프트웨어 개발자가 되려면 소프트웨어를 만드는 연습을 해야 합니다.
 
 다음은 그 방법입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 연습, 연습, 연습
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 공학자들이 공학을 하는 것은 다소 이상한 일입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 소프트웨어 개발이 의학과 법률과 같이 전문직으로 성장하기를 원한다면, 우리는 소프트웨어를 생성하는 것에 대해 그냥 하는 것이 아닌 연습이 필요한 전문 분야로 생각해야 합니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 ## 전문가 표준을 위한 변론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 성공적으로 연습하려면 무엇을 공부하고 배워야 하는지 알아야 합니다.
 
@@ -53,9 +82,20 @@ isUpdated: true
 
 그렇게 하면 이 명확한 기준에 대해 우리의 성공을 측정할 수 있을 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-제가 바꿔드릴게요. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+제가 바꿔드릴게요.
 
 ## 스스로를 위해
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 소프트웨어 엔지니어로서는 우리 스스로를 위해 해야 합니다. 방법은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 정기적인 코딩 연습
 
@@ -73,7 +124,18 @@ isUpdated: true
 
 투자하는 시간이 많든 적든, 문제 해결 능력을 유지하는 것은 중요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 업데이트 유지하기
 
@@ -83,7 +145,18 @@ isUpdated: true
 
 “스스로를 위해 하는 일”이라는 섹션에서 우린 함께 해야 할 것이 있다고 주장하겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 코드 리뷰에 긍정적으로 참여하고, 코딩 스킬을 향상시키기 위해 페어 프로그래밍을 활용해야 합니다. 우리보다 더 잘하는 사람들로부터 배우고, 우리보다 더 주니어인 사람들로부터도 배울 수 있습니다.
 
@@ -93,7 +166,18 @@ isUpdated: true
 
 이것들도 공부하고 연습할 수 있습니다. 언제나 기억하세요, 코딩은 팀 스포츠이며 다른 사람들과 함께 일하는 것이 코드베이스를 향상시키는 것만큼 (아니면 그 이상으로) 중요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -103,7 +187,18 @@ isUpdated: true
 
 # 저자 관련
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로 개발자인 "The Secret Developer"는 Twitter에서 @TheSDeveloper 계정을 통해 찾을 수 있으며 주로 Medium.com을 통해 기사를 정기적으로 게시합니다.
 

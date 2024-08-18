@@ -3,17 +3,13 @@ title: "AlphaFold를 사용하여 단백질 상호작용에 미치는 돌연변�
 description: ""
 coverImage: "/assets/img/2024-07-14-HowIPredictedtheEffectofMutationsonProteinInteractionsUsingAlphaFold_0.png"
 date: 2024-07-14 01:36
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-14-HowIPredictedtheEffectofMutationsonProteinInteractionsUsingAlphaFold_0.png
 tag: Tech
 originalTitle: "How I Predicted the Effect of Mutations on Protein Interactions Using AlphaFold"
 link: "https://medium.com/towards-data-science/protein-interactions-alphafold-04eeb8f56d79"
 isUpdated: true
 ---
-
-
-
-
 
 ![How I Predicted the Effect of Mutations on Protein Interactions Using AlphaFold](/assets/img/2024-07-14-HowIPredictedtheEffectofMutationsonProteinInteractionsUsingAlphaFold_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 (특히, 워터루 대학 코옵 학생에게 강력한 GPU 클러스터에 무료 이용, 세계적 수준의 지도 및 어떤 접근 방법이든 추구하도록하는 자유를 줄 때)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 XGBoost와 첨단 딥 러닝 소프트웨어 AlphaFold-Multimer (AF-M), 그리고 47,000개 이상의 SLURM 작업을 활용하여 단백질 상호작용에 대한 미스 sense 돌연변이의 영향을 예측하는 다중 분류기 모델을 만들었어요. AUC가 91%인 이 모델은 정말 훌륭한 결과를 내놨죠.
 
@@ -38,7 +45,18 @@ XGBoost와 첨단 딥 러닝 소프트웨어 AlphaFold-Multimer (AF-M), 그리�
 - ASD 관련 단백질에 대한 사례 연구: 자폐 스펙트럼 장애 관련 단백질에 초점을 맞춘 두 가지 특정 모델 결과에 대한 심층 분석
 - 마지막으로 한 마디와 교훈들: 결론, 주요 포인트, 이 프로젝트의 방향성에 대한 미래 전망들
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **만약 생물정보학이나 분자생물학에 관심이 있고 연구에 기계학습을 접목하고 싶다면 — 이 글을 읽어보세요.**
 
@@ -48,7 +66,18 @@ XGBoost와 첨단 딥 러닝 소프트웨어 AlphaFold-Multimer (AF-M), 그리�
 
 **이 섹션에서 다룰 내용:**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 연구 중인 질문입니다.
 - 이 질문을 선택한 이유입니다.
@@ -60,7 +89,18 @@ XGBoost와 첨단 딥 러닝 소프트웨어 AlphaFold-Multimer (AF-M), 그리�
 
 그러니까, 특정 돌연변이가 PPIs에 어떤 영향을 미치는지 이해할 수 있다면, 우리가 할 수 있는 일이 많습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Hi there!
 
@@ -70,7 +110,18 @@ Now, you might be curious, why the emphasis on missense variants, which are sing
 
 Warm regards,
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - AF-M은 포인트 돌연변이로부터 매크로 레벨 구조적 변화를 예측할 수 없어요. 다시 말해, 알려진 구조 파손 돌연변이가 있는 서열을 주더라도 펼쳐진 서열을 생성하지 못할 거에요.
 - 그러나 단백질-단백질 상호작용의 인터페이스에서의 물리적 변화는 (ChimeraX와 같은 프로그램을 통해 관측 가능한) 측정 가능한 변화를 가질 수 있어요.
@@ -81,7 +132,18 @@ Warm regards,
 
 # 방법론 및 접근법
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 이 섹션에서 다룰 내용은:
 
@@ -94,7 +156,18 @@ AF-M이 생성하는 3D 구조는 독점적이고 관찰 가능한 특성을 가
 - 형태 상보성
 - 도킹 점수
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 PDB 구조로부터만 관측할 수 있는 흥미로운 데이터입니다. 3D 구조의 힘을 감안하여 다음 방법론에 도달했습니다:
 
@@ -103,11 +176,20 @@ AF-M이 생성하는 3D 구조는 독점적이고 관찰 가능한 특성을 가
 
 이러한 복합체의 구조적 특징 사이의 차이를 감지하고 이를 특정 미생성 변이와 관련시킬 수 있다면, 다음과 같은 관련성을 찾을 수 있습니다:
 
-
 PPI에 미치는 영향 ~ (구조적 특징)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다시 말해, 구조적 특징에 따른 PPI에 미치는 영향에 대해 말해볼게요.
 
@@ -117,7 +199,18 @@ PPI에 미치는 영향 ~ (구조적 특징)
 
 하지만 여기에 더 많은 기회가 있습니다: 만일 해당 구조 데이터를 변형 주석으로 보강해본다면 어떻게 될까요? 아래는 이에 대한 예시들입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - CADD, REVEL, AlphaMissense를 통한 병원성 예측
 - ClinVar에서의 병원성 주석
@@ -131,7 +224,18 @@ PPI에 미치는 영향 ~ f(x₁, x₂, …, xn).
 
 데이터 수집 과정에서, 저는 구조적 특징 위에 40가지 이상의 비구조적 특징을 추가할 수 있었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 XGBoost 분류기 모델에 대한 우수한 훈련 데이터로 사용되었으며, 이 모델은 주어진 변형의 PPI에 대한 영향을 다음 네 가지 클래스 중 하나로 예측할 수 있습니다:
 
@@ -142,7 +246,18 @@ PPI에 미치는 영향 ~ f(x₁, x₂, …, xn).
 
 아마 궁금해하고 계실 것입니다. 왜 이런 미생물 변이와 PPI 효과를 매치시킨 데이터를 얻었는지, 그리고 왜 XGBoost를 분류기 모델로 선택했는지에 대해 설명해 드리겠습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 데이터 획득 및 처리
 
@@ -153,7 +268,18 @@ PPI에 미치는 영향 ~ f(x₁, x₂, …, xn).
 
 ## IntAct 돌연변이 데이터베이스
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 IntAct 돌연변이 데이터베이스(라이선스 CC0로 이용 가능)에서 제 훈련 데이터를 모았어요. 이 데이터베이스는 수천 개의 missense 변형이 이진 단백질 상호 작용에 관여한 것을 주석으로 담고 있는 거대한 레코드예요.
 
@@ -161,7 +287,18 @@ IntAct 돌연변이 데이터베이스(라이선스 CC0로 이용 가능)에서 
 
 하지만 이 데이터셋에는 구조적인 특징 정보나 다른 변형 주석이 포함되어 있지 않다는 점을 주목하실 거예요. 그런 정보는 제가(즉, AF-M) 개입하는 부분이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 The database has ~12,000 eligible data points. To save compute and ensure balanced data classes, I randomly subsampled variants until I had ~1,000 for each class.
 
@@ -171,7 +308,18 @@ I then wrote a script that generated FASTA files for the wildtype and missense c
 
 ![Image 2](/assets/img/2024-07-14-HowIPredictedtheEffectofMutationsonProteinInteractionsUsingAlphaFold_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 그림에서 보시는 대로 각 단백질 복합체에 대해 두 가지 PDB 버전이 남아 있습니다: 와일드타입과 미생물 변이 버전입니다. 이를 천 개 이상의 이진 상호작용과 47,000개 이상의 SLURM 작업에 곱하면 작업할 데이터가 약 20TB가 됩니다.
 
@@ -181,7 +329,18 @@ I then wrote a script that generated FASTA files for the wildtype and missense c
 
 ![image](/assets/img/2024-07-14-HowIPredictedtheEffectofMutationsonProteinInteractionsUsingAlphaFold_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 The AF-M pipeline I used, called AlphaPulldown, is designed to mimic a pulldown assay by running the folding process of multiple protein complexes simultaneously. It also incorporates a feature extraction pipeline that calculates various important structural parameters:
 
@@ -196,21 +355,43 @@ And many more. Additionally, I introduced some custom features, along with insig
 
 ## Pathogenicity predictions
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 I've been exploring pathogenicity predictions and came across two interesting examples:
 
 1. **AlphaMissense Annotations:** These predictions cover every possible missense mutation in the human proteome. Exciting stuff!
-   
 2. **REVEL Pathogenicity Predictions:** REVEL compiles scores from various pathogenicity prediction tools to give an overall average. How cool is that?
 
 I found these predictions particularly useful because:
+
 - They could be key indicators of protein-protein interaction (PPI) disruptions caused by pathogenic missense variants.
-- I converted IntAct mutations into a VEP-readable format to access and analyze these predictions effectively. 
+- I converted IntAct mutations into a VEP-readable format to access and analyze these predictions effectively.
 
 How awesome is it to uncover such insights through these predictions? Keep exploring, friends! 🌟
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## gnomAD frequencies
 
@@ -221,7 +402,18 @@ How awesome is it to uncover such insights through these predictions? Keep explo
 - 변형 빈도 데이터는 PPI 영향을 끼치는 병변에 공통 또는 드물게 발생하는 변형이 더 흔한지 배울 수 있습니다.
 - IntAct 돌연변이를 VEP에서 읽을 수 있는 형식으로 변환하여 이러한 값들을 찾아냈습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 관련 비율
 
@@ -232,7 +424,18 @@ How awesome is it to uncover such insights through these predictions? Keep explo
 - 비지도 학습 알고리즘은 도움 없이도 이러한 종류의 계산을 수행할 수 있지만 XGBoost와 같은 지도 모델은 이러한 비율에서 이득을 볼 수 있습니다.
 - 직관적으로 생각해보면, 인터페이스 영역 대 총 표면적의 비율이 줄어든다면, 약해진 상호 작용을 관찰하고 있다고 예측할 수 있습니다. (이것은 단지 한 예입니다).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 무료 에너지
 
@@ -242,7 +445,18 @@ EvoEF2 (MIT 라이센스 하에 사용 가능)를 사용하여 단백질 복합�
 
 - PPI를 방해하는 돌연변이를 가진 복합체에서 높은 무료 에너지 예측을 기대하며, 보다 불안정한 상호작용을 시사할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 과정을 마친 후에는 다음과 같이 조금씩 보이는 테이블 데이터셋이 있었습니다:
 
@@ -252,7 +466,18 @@ EvoEF2 (MIT 라이센스 하에 사용 가능)를 사용하여 단백질 복합�
 
 # 기계 학습 모델
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 섹션에서는 다음을 다룰 거에요:
 
@@ -263,7 +488,18 @@ EvoEF2 (MIT 라이센스 하에 사용 가능)를 사용하여 단백질 복합�
 
 XGBoost은 경사 부스팅된 의사결정 트리 모델이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결정트리는 임계값 기반 노드에서 데이터를 분할하는 그래프입니다. 오늘 밖에서 놀아야 할지 말아야 할지를 결정하는 간단한 모델이 있습니다:
 
@@ -273,7 +509,18 @@ XGBoost은 경사 부스팅된 의사결정 트리 모델이에요.
 
 XGBoost는 이 특별한 작업에 대해 몇 가지 이점을 가진, 가벼운 빠른 훈련 모델입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 정규화된 데이터가 필요하지 않아. 이것은 몇 가지 이유로 훌륭해. 일단, 나에게 더 적은 작업을 의미해. 그러나 더 중요한 것은, 모델이 결론에 도달하는 방법을 해석하는 것이 훨씬 더 간단해진다는 것이야.
 - 다양한 데이터 유형을 처리할 수 있어. 이에는 범주형과 명목형 데이터도 포함돼 — 이것은 좀 더 실험적인 기능이긴 하지만, 나는 단순히 범주형 데이터에 대해 더미 변수를 사용했어.
@@ -286,7 +533,18 @@ XGBoost는 이 특별한 작업에 대해 몇 가지 이점을 가진, 가벼운
 
 어떤 머신러닝 모델에도 내부 매개변수가 있을 거야 — 내부 분류에 대한 가중치와 편향들이야.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 ML 모델에는 하이퍼파라미터도 있어요. 이것들은 전반적인 모델의 높은 수준의 구조적 설정이에요. 이러한 매개변수들은 학습 전에 설정되고 정확도 결과에 큰 영향을 줄 수 있어요.
 
@@ -299,9 +557,20 @@ XGBoost는 이 특별한 작업에 대해 몇 가지 이점을 가진, 가벼운
 
 우리는 최적의 하이퍼파라미터를 테스트하여 최상의 결과를 내는 것을 선택함으로써, 다시 말해 튜닝을 통해 결정해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-To add even more robustness to the model training, I implemented a k-fold cross-validation step. Wondering what that is? 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+To add even more robustness to the model training, I implemented a k-fold cross-validation step. Wondering what that is?
 
 Let's dive in!
 
@@ -311,7 +580,18 @@ Let's dive in!
 
 ![Image](/assets/img/2024-07-14-HowIPredictedtheEffectofMutationsonProteinInteractionsUsingAlphaFold_8.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 매 조합별로 작업을 반복하며, 가능한 최상의 정확도 모델을 확보합니다.
 
@@ -321,21 +601,43 @@ Let's dive in!
 
 이 섹션에서는 다음을 다룰 거에요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-오라클 전문가입니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-모델의 정확도는 얼마나 정확한지를 나타내는 지표이며, 그 정확도 메트릭은 무엇을 의미하는지 살펴보겠습니다. 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+오라클 전문가입니다.
+
+모델의 정확도는 얼마나 정확한지를 나타내는 지표이며, 그 정확도 메트릭은 무엇을 의미하는지 살펴보겠습니다.
 
 그리고 각 클래스별로, 어떤 특성이 가장 강력한 예측 변수인지 알아보겠습니다.
 
 ## 혼동 행렬 & ROC 곡선
 
-멀티 클래스 분류기의 품질을 평가하기 위해 일반적으로 혼동 행렬을 사용할 것입니다: 
+멀티 클래스 분류기의 품질을 평가하기 위해 일반적으로 혼동 행렬을 사용할 것입니다:
 
 ![image](/assets/img/2024-07-14-HowIPredictedtheEffectofMutationsonProteinInteractionsUsingAlphaFold_9.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 The confusion matrix visualizes the test set. At the bottom are the model's predictions for each protein complex, and on the y-axis, the actual values are shown.
 
@@ -347,7 +649,18 @@ The lighter the shade on the diagonal, the more accurate the model.
 
 The confusion matrix provides insights into the model's accuracy. Another useful tool is the ROC curve:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![How I Predicted the Effect of Mutations on Protein Interactions Using AlphaFold](/assets/img/2024-07-14-HowIPredictedtheEffectofMutationsonProteinInteractionsUsingAlphaFold_10.png)
 
@@ -358,7 +671,18 @@ ROC 곡선은 FPR 대 TPR을 그래프로 나타냅니다:
 
 곡선 상의 점들은 서로 다른 임계값 설정을 나타냅니다. 임계값은 우리가 양성과 음성 사례를 구별하는 기준점입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 멀티 클래스 ROC 곡선에서 양성 케이스는 주어진 클래스이며, 음성 케이스는 다른 모든 클래스들입니다 (one-vs-all). 대각선 (파선)은 무작위 확률을 나타내며, 모든 임계값에서 TPR = FPR입니다. 정확도를 생각하는 한 가지 방법은 이 직선으로부터 멀리 떨어질수록 모델이 더 좋다는 것입니다.
 
@@ -370,17 +694,39 @@ ROC 곡선은 FPR 대 TPR을 그래프로 나타냅니다:
 - TPR = ∑cTPc / ∑c(TPc+FNc)
 - FPR = ∑cFPc / ∑c(FPc+TNc)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 클래스의 TP, FN 및 TN을 합산한 후, 각 클래스의 곡선을 함께 살펴봤습니다.
 
-우리는 모델의 전반적인 성능을 파악할 수 있습니다. 비교를 표준화하기 위해 曰 UIGraphics曰 AUC를 계산합니다. 1에 가까울수록 더 정확합니다. 그림 2에서 확인할 수 있듯이, 우리는 미크로평균 AUC가 0.91임을 달성했습니다.
+우리는 모델의 전반적인 성능을 파악할 수 있습니다. 비교를 표준화하기 위해 曰 UIGraphics 曰 AUC를 계산합니다. 1에 가까울수록 더 정확합니다. 그림 2에서 확인할 수 있듯이, 우리는 미크로평균 AUC가 0.91임을 달성했습니다.
 
 또한 클래스 0 및 1에 대한 곡선을 통해 혼돈 행렬에서 확인한 내용을 확인할 수 있습니다. 전반적으로, 우리는 꽤 정확한 모델을 가지고 있습니다. 그러나 이제 재미있는 부분이 등장합니다—바이오로지를 통해 무엇을 알 수 있을까요?
 
 ## SHAP 값들
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SHAP 값을 사용하면 모델의 각 예측에 기능이 얼마나 기여했는지 확인할 수 있어요.
 
@@ -390,7 +736,18 @@ SHAP 값을 사용하면 모델의 각 예측에 기능이 얼마나 기여했�
 
 제 분석 결과 흥미로운 발견이 있었어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 첫째로, 미생물 돌연변이로 인해 발생하는 아미노산인 시스테인(C)의 영향은 놀라울 만큼 설명하기 어려웠습니다.
 - AlphaMissense 병원성 점수의 중요성은 그리 놀라운 것은 아니었지만, AlphaPulldown 및 AlphaMissense는 (한 방법 또는 다른 방법으로) AlphaFold의 MSA에 의존한다는 점을 고려해보면 중요합니다.
@@ -402,7 +759,18 @@ SHAP 값을 사용하면 모델의 각 예측에 기능이 얼마나 기여했�
 
 왼쪽에 있는 특징 중요도 플롯은 각 특징이 모델의 결과에 미치는 평균적인 영향을 보여줍니다. 이 그래프는 비교적 쉽게 해석할 수 있습니다. 막대가 클수록 영향의 규모가 큽니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 On the right, we see a beeswarm plot. This kind of plot helps us visualize two important factors:
 
@@ -414,7 +782,18 @@ By combining these two factors, we can deepen our understanding of feature effec
 - Red dots to the right of the center: When "Resulting_sequence_A" has a high value, it increases the likelihood of predicting class 0.
 - Blue dots to the left of the center: When "Resulting_sequence_A" has a low value, it decreases the likelihood of predicting class 0.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 알라닌은 미생물 리듀스섬이미스센스 잔존물로 자연 언어로서 상호작용 강도를 감소시키는 강력한 영향을 미치는 것처럼 보입니다. 직관적으로 이는, 알라닌이 측면체로 메틸기만 가진 작은 아미노산이기 때문입니다.
 
@@ -424,7 +803,18 @@ By combining these two factors, we can deepen our understanding of feature effec
 
 우리는 모양 보완성(sc) 특성에서 몇 가지 예상치 못한 결과를 보고 있습니다. sc는 두 단백질이 서로 얼마나 잘 맞는지를 측정하며, sc가 낮을 때 두 단백질 간 상호작용 강도가 감소할 가능성이 높아질 것으로 예상합니다. 그러나, 이는 사실이 아닙니다: 더 높은 sc가 상호작용 강도를 감소시키는 것으로 보이고, 그 반대도 마찬가지입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 섹션에서는 내가 흥미로운 몇 가지 특징을 소개할 것이다:
 
@@ -435,7 +825,18 @@ By combining these two factors, we can deepen our understanding of feature effec
 
 ## 클래스 2: 상호 작용 강도 증가
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Resulting_sequence_A: 어떤 이유에서인지 싸이스틴 잔기로 인한 미생물 돌연변이는 상호작용 강도를 높이는 가능성에 놀랍도록 강한 긍정적 영향을 미칩니다. 싸이스틴은 이중체 사이에 이산화황 결합을 형성할 수 있어, 이는 더 강한 결합 중 하나입니다. 이로 인해 상호작용이 강화될 수 있지만, 왜 이것이 가장 중요한 특징인지 궁금합니다.
 - iptm & iptm_ptm: 이 값들은 AlphaFold 모델의 신뢰도를 측정합니다. 만약 두 단백질이 복합체에서 `의미 있는` 관계를 가진다면(높은 iptm_ptm으로 표시됨), 강한 상호작용을 보일 것으로 보입니다. 그와 반대되는 경우, 만약 AlphaFold가 구조에 대해 낮은 신뢰를 갖는다면, 이는 이러한 단백질이 복합체에서 부자연스러운 것일 수 있으며, 이는 class 2 예측의 가능성을 줄일 수 있습니다. 그러나, 이것은 단순히 3D 모델이 부정확하며 무시되어야 할 수도 있습니다 — 제가 명확한 결론을 내릴 수는 없습니다.
@@ -448,7 +849,18 @@ By combining these two factors, we can deepen our understanding of feature effec
 
 모두가 흥미로운 결과입니다. 이제 새로운 단백질 복합체에 이 모델을 적용하여 새로운 정보를 얻을 수 있는지 확인해 봅시다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 케이스 스터디: ASD 관련 단백질 복합체
 
@@ -459,7 +871,18 @@ By combining these two factors, we can deepen our understanding of feature effec
 
 이 모든 게 즐겁고 흥미로우니까, 분자 생물학에서 머신 러닝의 목적이 무엇일까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 프로젝트의 응용 부분에서는, 저는 MSSNG 데이터베이스로부터 몇 가지 코딩 미생체 변이를 분석하기 위해 모델을 사용했습니다. MSSNG은 자폐 스펙트럼 장애(ASD) 연구를 위해 설계된 전체 게놈 서열 및 주석 데이터 저장소로, Scherer 연구실은 ASD 유전체를 연구하는데 특화되어 있습니다.
 
@@ -472,7 +895,18 @@ MSSNG은 방대한 데이터 집합이기 때문에, 저는 다음 기준을 충
 
 이 하위 집합에서 두 가지 두드러진 변이가 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 남성 호르몬 수용체 & 티로신 단백질 키나제 (AR:YES1.p.Q234R)
 - 전사 공동활성화제 & 아연 손가락 단백질 (YAP1:GLIS3.p.G448D)
@@ -483,7 +917,18 @@ MSSNG은 방대한 데이터 집합이기 때문에, 저는 다음 기준을 충
 
 ![이미지](/assets/img/2024-07-14-HowIPredictedtheEffectofMutationsonProteinInteractionsUsingAlphaFold_13.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요량만 준비해봤어요:
 
@@ -496,7 +941,18 @@ MSSNG은 방대한 데이터 집합이기 때문에, 저는 다음 기준을 충
 - AR과 YES1 사이의 상호 작용이 손상되어 타이로신 인산화가 감소함으로써 암 발병 위험이 줄어들었습니다.
 - 역상병성을 가진 ASD와 전립선 암 사이의 관계가 이 돌연변이가 자폐증에서의 역할을 설명할 수 있을 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안타깝게도 여기 몇 가지 문제가 있습니다:
 
@@ -508,7 +964,18 @@ MSSNG은 방대한 데이터 집합이기 때문에, 저는 다음 기준을 충
 
 ![How I Predicted the Effect of Mutations on Protein Interactions Using AlphaFold](/assets/img/2024-07-14-HowIPredictedtheEffectofMutationsonProteinInteractionsUsingAlphaFold_14.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 전사 활성화 단백질 및 아연 손가락 단백질 (YAP1:GLIS3.p.G448D)
 
@@ -521,7 +988,18 @@ MSSNG은 방대한 데이터 집합이기 때문에, 저는 다음 기준을 충
 - 여러 GLIS3 결합부위가 신경병리학적인 현상과 관련이 있어 신경계 발달 및 시냅스 전달에 영향을 줄 수 있음(Calderari et al., 2018).
 - GLIS3는 자가포식 조절에도 영향을 줄 수 있음(Calderari et al., 2018).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 가지 가능한 이야기가 여기 있어요:
 
@@ -531,7 +1009,18 @@ MSSNG은 방대한 데이터 집합이기 때문에, 저는 다음 기준을 충
 
 다시 한 번, 여기 이 SHAP 값들이 있어요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지 태그를 Markdown 형식으로 바꿔보겠습니다.
 
@@ -543,7 +1032,18 @@ MSSNG은 방대한 데이터 집합이기 때문에, 저는 다음 기준을 충
 
 ## 향후 방향
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 TCAG에서 이 프로젝트에 약 네 달 동안을 보냈는데, 대부분의 시간을 훈련 데이터 수집에 할애했어요. (이전에 AF-M에 적응하기 위해 거기서 보낸 네 달은 언급조차 하지 않을게요.)
 
@@ -554,10 +1054,20 @@ MSSNG은 방대한 데이터 집합이기 때문에, 저는 다음 기준을 충
 - 모델을 기전 예측 대신 병원성 예측에 사용. 현재 모델은 IntAct 돌연변이 데이터베이스에서 PPI(단백질 상호작용)에 미치는 영향을 예측합니다. 대안적 접근법은 REVEL처럼 병원성 예측을 위해 풍부한 데이터를 사용하는 것이겠죠.
 - 더 많은 설명되지 않은 변이에서 모델을 테스트. 현재까지는 의심스러운 의미없는 변이들에 대해 모델을 테스트할 수밖에 없었어요. 더 많은 PPI를 분석한다면 더 많은 연구 가능성을 만들 수 있을 겁니다.
 
-
 하지만 이 시간 동안 얻은 성취와 배운 것들에 대해 자랑스러워요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 결론 및 주요 포인트
 
@@ -567,7 +1077,18 @@ MSSNG은 방대한 데이터 집합이기 때문에, 저는 다음 기준을 충
 
 그래서 나름대로 감사한 마음을 표현하고 싶어요. (브렛 트로스트 박사, 리처드 윈틀 박사, 스티븐 셰러 박사 등) 관련된 모든 분들에게 감사드립니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Scherer Lab에서 일한 경험을 통해 연구가 따분하고 느리고 지루할 필요는 없다는 것을 알게 되었어요. 올바른 팀과 비전이 있다면, 빠르고 역동적이며 최신 기술을 적용할 수도 있답니다.
 

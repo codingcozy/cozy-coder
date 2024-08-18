@@ -3,17 +3,13 @@ title: "LLM은 어떻게 창의적인가요"
 description: ""
 coverImage: "/assets/img/2024-06-19-HowareLLMscreative_0.png"
 date: 2024-06-19 03:52
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-HowareLLMscreative_0.png
 tag: Tech
 originalTitle: "How are LLMs creative?"
 link: "https://medium.com/towards-artificial-intelligence/how-are-llms-creative-c9a348a0e354"
 isUpdated: true
 ---
-
-
-
-
 
 ## LLMs의 창의성에 대한 과학 - Softmax, 온도
 
@@ -23,7 +19,18 @@ GPT, Llama 등의 생성 모델을 사용해 보았다면 '온도'라는 용어�
 
 우선, '온도'는 생성된 콘텐츠의 창의성을 제어하는 매개변수입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 기다려봐, 그건 엄청나게 소위 '너드' 같지 않나요? 처음에 이를 들었을 때 나는 분명히 멋진 물리학적 현상이 일어나고 있을 것이라고 생각했어요. 그리고 왜냐하면 대부분의 사람들이 온도와 연결짓는 것이기 때문이죠.
 
@@ -33,8 +40,18 @@ GPT, Llama 등의 생성 모델을 사용해 보았다면 '온도'라는 용어�
 
 LLMs은 한 번에 전체 문장을 생성할 수 없다는 것을 알아두어야 합니다. 왜냐하면 그들은 다음 토큰을 예측하는데 사용되는 자기 회귀형 모델이기 때문입니다. 이 토큰은 입력에 추가되어 다른 토큰을 생성하기 위해 사용되며, 그 체인은 'EOT'란 끝 토큰이 생성될 때까지 계속됩니다. 이는 모델에게 생성을 중단하도록 신호를 보냅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/1*mrIpGPlXZHL_K-e640HFaw.gif)
 
@@ -44,8 +61,18 @@ LLMs은 한 번에 전체 문장을 생성할 수 없다는 것을 알아두어�
 
 LLM의 어휘 사전 크기가 100이면, 한 번에 이 100개의 토큰 중 하나만 생성할 수 있습니다. 이 100개의 토큰 각각에 대해 해당 토큰이 다음 시퀀스에서 얼마나 가능성 있는지를 나타내는 확률 점수가 반환됩니다. 실제로, 어휘 사전 크기는 훨씬 더 큽니다. 예를 들어, GPT-4V는 32K 토큰의 어휘 사전 크기를 가지고 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 마디로 LLM은 토큰 시퀀스를 입력으로 받아 처리하고, 어휘 사전의 각 토큰에 대한 확률 목록을 출력합니다. 일반적으로, 가장 높은 확률을 가진 토큰이 다음 세대의 토큰으로 반환됩니다.
 
@@ -55,7 +82,18 @@ LLM의 어휘 사전 크기가 100이면, 한 번에 이 100개의 토큰 중 �
 
 일단 소프트맥스를 내려놓고 효율적으로 확률을 생성하기 위한 자체 함수를 만들어봅시다. 우리의 함수는 특정 기준을 충족해야 합니다. 성공하면 왜 소프트맥스를 사용해야 하죠?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 1. 입력 벡터를 가져와 동일한 크기의 출력 벡터를 생성합니다.
 - 2. 출력 벡터의 각 요소가 음수가 아닌지 확인합니다(확률은 음수일 수 없음).
@@ -68,7 +106,18 @@ eˣ 함수는 위의 모든 조건(1~3)을 모두 만족합니다.
 
 [이미지](/assets/img/2024-06-19-HowareLLMscreative_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리의 전략은 입력 벡터의 각 요소에 eˣ 함수를 적용하여, 길이는 동일하지만 모든 양수인 숫자로 이루어진 벡터를 생성합니다.
 
@@ -78,7 +127,18 @@ eˣ 함수는 위의 모든 조건(1~3)을 모두 만족합니다.
 
 출력 벡터의 값들이 1보다 큽니다. 곡선에서 볼 수 있듯이, x = 0일 때 y = 1이고, x가 0을 초과하면 y가 1을 초과합니다. 이는 우리의 경우에 맞지 않는데, 확률이 필요하기 때문입니다. 각 값이 1보다 작아야 하고, 모든 값이 합쳐서 1이 되어야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문제를 해결하기 위해 출력 벡터의 모든 요소를 출력 벡터의 모든 요소의 합으로 나눌 수 있습니다. 이렇게하면 각 값이 1보다 작아지고 모두 1로 합산됩니다. 이 단계를 정규화라고 합니다.
 
@@ -88,7 +148,18 @@ eˣ 함수는 위의 모든 조건(1~3)을 모두 만족합니다.
 
 참고: 변환 함수는 미분 가능해야 하므로 손실을 전파할 수 있습니다. 이것이 소프트맥스에서 'e'를 선택하는 또 다른 이유입니다. 사실 지수 함수의 도함수를 계산하는 것이 가장 쉬운 일이라고 믿습니다. :)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 우리는 Softmax 함수를 사용하여 LLM에서 확률이 어떻게 생성되는지 이해했어요. 모델에 어떻게 창의성을 도입할 수 있는지 알아보겠어요.
 
@@ -98,8 +169,18 @@ eˣ 함수는 위의 모든 조건(1~3)을 모두 만족합니다.
 
 ![이미지](/assets/img/2024-06-19-HowareLLMscreative_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-HowareLLMscreative_6.png)
 
@@ -109,8 +190,18 @@ LLM에 입력되는 내용:
 
 “대화를 완성하세요.”
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 A: "안녕, 어떻게 지내니?"
 
@@ -118,7 +209,18 @@ B: "LLM은 이제 B가 말하는 첫 번째 토큰을 예측하도록 지정되�
 
 간단하게 하기 위해 단어 vocab을 5개만 고려합시다."
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 모델은 이 입력을 처리하여 로짓 벡터를 생성하며, 이 벡터는 소프트맥스에 의해 확률로 변환됩니다. 소프트맥스 레이어의 입력인 로짓 벡터는 [0.1, 0,0.5,1, 4, 0.6]이며, 토큰[‘Ni Hao’, ‘Konnichiwa’, ‘Hola’, ‘Namaste’, ‘Hello’, ‘Ciao’]에 대한 출력은 [0.01, 0.01 0.02 0.04 0.86 0.02]입니다.
 
@@ -128,7 +230,18 @@ B: "LLM은 이제 B가 말하는 첫 번째 토큰을 예측하도록 지정되�
 
 “Hello”가 선택될 가능성은 여전히 높지만, 이전보다 다른 토큰들도 좋은 기회를 갖고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 경우, 모델이 일반적인 "안녕"을 생성하는 것에서 조금 벗어나 "남테", "올라" 등을 시도할 여지가 있습니다. 기본적으로 약간의 무작위성을 통합하는 것이죠. 이는 파급 효과를 일으키며 대화 전체가 가장 예상치 못한 방향으로 전개될 수 있습니다. 예를 들어, B가 일본어로 말하고 A가 A가 한 언어를 알아보려고 노력하는 상황 등이 발생할 수 있습니다. 이 창조적으로 들리지 않나요? 저에게는 더 나은 정의가 없어요 :-)
 
@@ -138,7 +251,18 @@ B: "LLM은 이제 B가 말하는 첫 번째 토큰을 예측하도록 지정되�
 
 소프트맥스 함수는 각 요소를 입력 벡터에서 eˣ로 변환합니다. 이를 통해 eˣ 함수를 살펴봐야 한다는 아이디어가 얻어집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가장 간단한 예로서 2차원 입력 벡터 [1,2]를 살펴보고, 이를 이해하기 위해 Softmax를 적용해 봅시다.
 
@@ -148,17 +272,39 @@ B: "LLM은 이제 B가 말하는 첫 번째 토큰을 예측하도록 지정되�
 
 그리고 최종 Softmax 결과는 [2.71/(2.71+7.39), 7.39/(2.71+7.39)]이 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 = [0.25, 0.75]
 
-두 번째 항목이 50%의 큰 마진으로 우세함을 나타냅니다. 
+두 번째 항목이 50%의 큰 마진으로 우세함을 나타냅니다.
 
 그러나 우리의 목표는 두 값의 소프트맥스 출력을 가깝게 만드는 것이죠, 그렇지 않나요?
 
 eˣ 곡선을 살펴보면 이 차이가 주로 eˣ 곡선의 성질 때문인 것으로 추측할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그렇다면, 이제 우리의 목표는 eˣ 함수를 조정하여 eˣ(1)과 eˣ(2)의 차이가 크지 않도록 만드는 것으로 전환됩니다. 만약 ||eˣ(1) - eˣ(2) ||가 작다면, 그것은 확률 간의 차이를 작게 만들 것이고 이것은 본질적으로 확률의 평탄화라고 불리게 됩니다. 다시 말해, eˣ 곡선의 가파른 정도를 줄입니다.
 
@@ -168,7 +314,18 @@ eˣ 곡선을 살펴보면 이 차이가 주로 eˣ 곡선의 성질 때문인 �
 
 주황색 곡선: eˣ 함수
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파란색 곡선: e^(1/2 ⋅ x) 함수, 우리는 분모를 온도 'T'라 부르며, 이 경우에는 2와 같습니다.
 
@@ -178,8 +335,18 @@ eˣ 곡선을 살펴보면 이 차이가 주로 eˣ 곡선의 성질 때문인 �
 
 파란색 곡선을 사용한 Softmax 과정(T=2)은 다음과 같을 것입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-HowareLLMscreative_9.png" />
 
@@ -205,7 +372,18 @@ OUTPUT:
 [0.450166 0.549834]        #T = 5
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Mistral 7B 모델에게 네팔에 대해 작성하도록 요청했어요. 첫 번째 텍스트에서 온도 'T'를 1로 설정했고, 두 번째 텍스트에서는 온도 'T'를 2로 설정했어요.
 
@@ -215,7 +393,18 @@ T = 0.5
 
 네팔은 중국과 인도 사이에 위치한 아름다우며 다양한 나라로 알려져 있어요. 세계에서 가장 높은 산인 에베레스트를 비롯해 멋진 산악 풍경으로 유명해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 T = 2
 
@@ -225,10 +414,32 @@ T = 2
 
 한 마디로, 물리학적으로 온도는 분자의 무작위성의 정도이며, 이를 통해 우리에게 몸체에 함유된 열 에너지에 대한 감각을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 표 태그를 마크다운 형식으로 변경해 주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 https://en.wikipedia.org/wiki/Softmax_function

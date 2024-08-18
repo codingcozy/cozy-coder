@@ -3,17 +3,13 @@ title: "LLMs을 활용한 문맥적 추론 검색 보강 사고 방법"
 description: ""
 coverImage: "/assets/img/2024-07-12-ContextualReasoningwithLLMsRetrievalAugmentedThoughts_0.png"
 date: 2024-07-12 23:19
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-ContextualReasoningwithLLMsRetrievalAugmentedThoughts_0.png
 tag: Tech
 originalTitle: "Contextual Reasoning with LLMs: Retrieval Augmented Thoughts"
 link: "https://medium.com/ai-in-plain-english/contextual-reasoning-with-llms-retrieval-augmented-thoughts-b3c59a90eb1f"
 isUpdated: true
 ---
-
-
-
-
 
 인공 지능 소프트웨어가 이 기사의 텍스트의 문법, 흐름 및 가독성을 향상시키는 데 사용되었습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이러한 문제를 완화하고 LLM의 전체 잠재력을 발휘하기 위해 연구자들은 모델의 본질적 능력을 외부 지식 검색 및 구조화된 추론 과정과 함께 보완하기 위한 기술을 탐색해 왔습니다. 그 중 하나가 희망이 붙어 있는 접근법은 검색 기반 강화된 생각(RAT)입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-12-ContextualReasoningwithLLMsRetrievalAugmentedThoughts_0.png)
 
@@ -36,7 +43,18 @@ isUpdated: true
 - 요약할 정보나 문서 세트
 - 수학적 추론에서의 숫자나 작업 순서
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 생각들은 서로 연결되어 있으며, 각 단계는 이전 단계를 기반으로하여 이해 구조나 흐름을 형성합니다.
 
@@ -46,7 +64,18 @@ isUpdated: true
 
 RAT는 검색 보강 생성과 사고의 체인 (CoT) 추론 두 가지 핵심 요소를 협동하는 프레임워크를 소개합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 핵심 아이디어는 LLM의 다단계 추론 프로세스를 강화하고 근거를 제공하기 위해 외부 지식 소스를 활용하는 것입니다. 이는 환각과 사실 불일치의 위험을 줄입니다.
 
@@ -59,7 +88,18 @@ RAT 프레임워크는 두 단계로 운영됩니다:
   - 구성된 쿼리를 사용하여 외부 지식 원본(예: 위키백과, 도메인별 데이터베이스)에서 관련 정보를 검색
   - 검색된 정보를 기반으로 현재 사고 단계를 개선하고 수정된 버전을 생성합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 외부 지식 검색을 추론 프로세스에 통합함으로써 RAT는 LLM의 사고를 사실적인 정보에 바탕을 두어 환각 가능성을 줄이고 생성된 결과물의 전반적인 품질과 일관성을 향상시킵니다.
 
@@ -69,7 +109,18 @@ RAT 프레임워크는 두 단계로 운영됩니다:
 
 LLM을 다단계 추론 프로세스를 안내하는 여러 기법이 개발되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Chain-of-Thought (CoT) Prompting: 이 접근 방식은 입력과 출력 사이에 명시적인 중간 "추론 단계"를 소개하여 LLM이 최종 해결책에 도달할 수 있도록 개략적인 사고 과정을 안내합니다.
 
@@ -79,7 +130,18 @@ Graph-of-Thought (GoT): GoT는 가장 복잡한 토폴로지를 나타내며, �
 
 ## RAT 및 Tree-of-Thought (ToT):
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 RAT은 Tree-of-Thought (ToT) 방법론과 결합하여 동시에 여러 가지 추리 경로를 탐색할 수 있습니다.
 
@@ -89,7 +151,18 @@ RAT은 일련의 CoT를 정제하는 대신, ToT 구조 내 각 노드(사고)�
 
 ## RAT과 Graph-of-Thought (GoT):
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 The Graph-of-Thought (GoT) topology embodies a highly intricate network of interconnected thoughts, featuring unbounded relationships between different ideas.
 
@@ -99,13 +172,35 @@ By engaging in the retrieval mechanism, potential conflicts or inconsistencies s
 
 By melding the organized reasoning structures of techniques like CoT, ToT, and GoT with RAT's capacity for external knowledge retrieval, LLMs stand to gain from a collaborative approach that harnesses both internal expertise and external factual insights.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **자가 발견과 함께 추론 과정을 증진시키기**
 
 자가 발견 접근 방식은 검색 증가된 사상(RAT)과 매우 상호 보완적이며, 전반적인 프레임워크에 통합하여 더욱 높은 능력을 갖게 할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이탈릭체있는TEXT를입력할수있습니다. RAT는 초기 사고 연결과정(CoT)을 생성한 다음 외부 지식 원본에서 검색된 정보를 사용하여 각 사고 단계를 반복적으로 정제하는 방식으로 작동됨을 기억해 주세요. 이 과정을 통해 LLM의 추론이 사실적인 정보에 근거하여 현실감을 유지하고 모순을 완화합니다.
 
@@ -115,7 +210,18 @@ SELF-DISCOVER는 이 과정에 적응성과 과제에 특화된 최적화 수준
 
 적응형 추론 모듈: SELF-DISCOVER는 과제 요구에 따라 선택, 조정, 조합할 수 있는 일련의 원자적 추론 모듈(예: "하위 작업으로 분해", "비판적 사고 사용")을 활용합니다. 이 모듈은 LLM이 문제에 가장 적합한 방식으로 조립할 수 있는 구성 요소로 볼 수 있어, 고정된 추론 토폴로지에 비해 큰 유연성과 맞춤화를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 발견된 이유 구조는 SELF-DISCOVER에 의해 발견되었으며 RAT 프레임워크에 통합될 수 있습니다. 미리 결정된 CoT 또는 트리/그래프 구조를 개선하는 대신, RAT는 SELF-DISCOVER가 구성한 맞춤형 이유 구조를 개선하며, 계획의 각 단계에서 검색된 정보를 통합할 수 있습니다.
 
@@ -125,7 +231,18 @@ SELF-DISCOVER는 이 과정에 적응성과 과제에 특화된 최적화 수준
 
 게다가, SELF-DISCOVER에 의해 발견된 추론 구조의 해석 가능성은 LLM의 사고 과정을 이해하고 분석하는 데 도움이 되며, 인간-인공지능 협력을 촉진하고 더 투명하고 신뢰할 수 있는 추론 시스템을 가능하게 할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 효율적 추론을 위한 몬테카를로 트리 탐색
 
@@ -135,7 +252,18 @@ SELF-DISCOVER는 이 과정에 적응성과 과제에 특화된 최적화 수준
 
 RAT과 SELF-DISCOVER 프레임워크에서, 추론 과정은 상호 연결된 생각들의 토폴로지(체인, 트리 또는 그래프)로 구성됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **탐험을 이끄는 추론 경로:**
 
@@ -145,7 +273,18 @@ MCTS는 새로운 경로를 탐험하면서 유망한 경로를 활용하는 것
 
 모든 가능한 추론 경로를 철저하게 평가하는 대신, MCTS는 시뮬레이션 결과 및 점수 기능을 기반으로 가장 유망한 궤적에 집중할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **검색과 추론 통합**
 
@@ -155,7 +294,18 @@ MCTS의 선택 및 확장 단계는 RAT의 검색 프로세스에 의해 안내�
 
 융통성 있는 추론 구조:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **자가발견(Self-Discover)**은 MCTS 탐사 과정의 초석 역할을 하는데 활용될 수 있어요.
 
@@ -165,7 +315,18 @@ MCTS가 추론 공간을 탐색하면서 SELF-DISCOVER에 피드백을 제공하
 
 MCTS는 평가 함수나 보상 모델을 활용하여 다양한 추론 경로의 품질과 잠재력을 효율적으로 평가할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **점수 기능은 이유 과정의 원하는 속성을 포착하기 위해 학습하거나 설계될 수 있습니다. 예를 들어 사실적 정확성, 논리 일관성 또는 작업별 목표 등이 있습니다.**
 
@@ -175,7 +336,18 @@ MCTS는 평가 함수나 보상 모델을 활용하여 다양한 추론 경로�
 
 **이 확장성은 복잡한 이유 작업이나 대규모 이유 토폴로지를 다룰 때 특히 유용할 수 있습니다.**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 MCTS와 RAT, 그리고 SELF-DISCOVER을 결합함으로써 얻어지는 프레임워크는 각 구성 요소의 강점을 활용할 수 있습니다:
 
@@ -183,7 +355,18 @@ MCTS와 RAT, 그리고 SELF-DISCOVER을 결합함으로써 얻어지는 프레�
 - SELF-DISCOVER는 적응형이자 과제별 추론 구조를 구성할 수 있게 해줍니다.
 - MCTS는 추론 공간을 효율적으로 탐색하도록 안내하며, 검색된 정보와 점수화 기능을 활용하여 탐사와 개척을 균형있게 조절합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 상호작용적인 방식은 LLMs에 대한 더 효율적이고 정확하며 확장 가능한 추론 시스템을 이끌어냅니다. 이러한 시스템은 복잡한 작업에 대처하면서도 일관성, 사실적 정확성, 그리고 여러 단계에서의 논리 일관성을 유지할 수 있습니다.
 
@@ -193,7 +376,18 @@ RAT 프레임워크는 다양한 외부 지식 소스를 활용할 수 있지만
 
 구조화된 지식 표현: 지식 그래프는 지식을 구조화되고 의미적으로 풍부하게 표현하여 엔티티, 그들의 속성, 그리고 이들 간의 관계를 인코딩합니다. 이 구조화된 형식은 비구조화된 텍스트 소스와 비교하여 더 정확하고 명확하게 검색할 수 있도록 지원합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 논리 제약 조건과 추론: 그래프 구조와 명시적인 관계 표현은 논리적 질의와 제약 조건을 만들어낼 수 있습니다. 이 능력은 RAT 시스템이 특정 조건을 기반으로 논리적 추론과 검색을 수행하도록 허용하는데, 예를 들어 현재의 사고에 언급된 다른 개체들과의 특정 속성 또는 관계를 가진 개체를 찾는 등의 작업이 가능합니다.
 
@@ -203,7 +397,18 @@ RAT 프레임워크는 다양한 외부 지식 소스를 활용할 수 있지만
 
 지식 통합과 추론: 지식 그래프는 다양한 지식 원본을 통합하는 것을 용이하게 합니다. 이는 RAT 시스템이 포괄적이고 일관된 지식 기반에서 추론을 할 수 있게 해 줍니다. 이 통합은 여러 원본에서의 정보가 그래프 구조 내에서 합쳐지고 조화되기 때문에 보다 정확하고 일관된 추론을 이끌어낼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **해석 가능성과 투명성**: 지식 그래프에서 지식을 명시적으로 표현함으로써, 추론 프로세스의 해석 가능성과 투명성을 향상시킬 수 있습니다. 검색된 엔티티와 관계를 추적함으로써, RAT 시스템은 추론 단계에 대해 인간이 해석 가능한 설명을 제공할 수 있으며, 신뢰성과 책임성을 높일 수 있습니다.
 
@@ -213,8 +418,18 @@ RAT 프레임워크는 다양한 외부 지식 소스를 활용할 수 있지만
 
 여기에는 우리가 논의한 다양한 구성 요소들 - 검색 증강된 생각 (RAT), SELF-DISCOVER, 몬테 카를로 트리 탐색 (MCTS) 및 지식 그래프 검색 - 을 큰 언어 모델 (LLMs)을 위한 일관된 추론 프레임워크로 통합한 코딩 모의 실행이 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코딩 모의 구성은 다양한 구성 요소들의 통합을 보여줍니다:
 
@@ -226,8 +441,18 @@ RAT 프레임워크는 다양한 외부 지식 소스를 활용할 수 있지만
 
 이 모의 구성은 제안된 추론 프레임워크 구현을 위한 기반으로 제공되며, RAT(지식 그래프 검색), SELF-DISCOVER(적응 추론 구조), MCTS(추론 공간의 효율적 탐색)의 강점을 통합합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -237,7 +462,18 @@ RAT, SELF-DISCOVER 및 MCTS와 같은 기법들은 구조화된 추론 토폴로
 
 이 분야의 연구가 계속되면, LLM의 장점을 활용하면서 그 한계를 완화하는 보다 진보된 기술들을 기대할 수 있으며, 이를 통해 복잡한 현실 세계 문제에 대처할 수 있는 강력하고 능력있는 AI 시스템이 걸음을 내딛게 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **In Plain English 🚀**
 

@@ -3,18 +3,13 @@ title: "BigQuery에서 함수형 데이터 엔지니어링 가이드"
 description: ""
 coverImage: "/assets/img/2024-06-22-AGuidetoFunctionalDataEngineeringinBigQuery_0.png"
 date: 2024-06-22 17:17
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-AGuidetoFunctionalDataEngineeringinBigQuery_0.png
 tag: Tech
 originalTitle: "A Guide to Functional Data Engineering in BigQuery"
 link: "https://medium.com/decode-data/a-guide-to-functional-data-engineering-in-bigquery-9c0065d76749"
 isUpdated: true
 ---
-
-
-
-
-
 
 <img src="/assets/img/2024-06-22-AGuidetoFunctionalDataEngineeringinBigQuery_0.png" />
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 함수형 데이터 엔지니어링은 수학과 소프트웨어 엔지니어링의 함수 개념을 반영한 데이터 작업 방식입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 막심 보셰만(Maxime Beauchemin)은 Apache Airflow 및 Apache Superset의 창립자로, 2018년 발표한 'Functional Data Engineering — a modern paradigm for batch data processing'에서 데이터에 대한 기능적 엔지니어링 원칙의 목표와 실제 적용을 설명했습니다.
 
@@ -35,7 +40,18 @@ isUpdated: true
 
 데이터 공간에서 우리는 지속적으로 엔트로피와 싸움을 벌이고 있습니다. 데이터 소스 및 도구의 증식, 데이터 번성, 문서화 흩어짐, 일관되지 않고 잘못 계획된 명명 규칙, 스파게티처럼 얽힌 의존성 맵 등. 시스템은 뒤죽박죽으로 변화할 수 있습니다.하지만 이 저항할 수 없는 진전의 반대에 에너지와 의지를 투입하지 않는 한 요구되는 엔트로피 증가에는 버팁을 세우게 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단함은 엔트로피를 막기 위해 우리가 사용하는 무기입니다.
 
@@ -45,7 +61,18 @@ isUpdated: true
 
 이 기사에서는 Google Cloud 데이터 스택에서 BigQuery를 중심으로 이를 어떻게 구현할 수 있는지 소개하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 상황
 
@@ -55,7 +82,18 @@ isUpdated: true
 
 수학적 함수의 정의부터 시작해보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떤 함수에 대해서 입력과 출력 사이에 1:1 매핑이 있습니다. 이건 직관적으로 이해되지만, 애플리케이션에서 '요소'가 실제로 무엇인지 정의하는 것이 중요할 것입니다.
 
@@ -65,7 +103,18 @@ isUpdated: true
 
 함수는 다른 함수들로 구성될 수 있으며, 값들을 다른 값들로 매핑합니다. 좀 더 자세히 읽어보면:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 동일한 입력이 제공되면 항상 동일한 출력을 반환하는 함수를 의미합니다 (즉, 결정적인 함수입니다).
 
@@ -75,7 +124,18 @@ isUpdated: true
 
 실제로, 데이터 파티셔닝은 데이터를 원래 수신된 시간을 기준으로 별도의 파티션으로 물리적으로 분리합니다. 이렇게 함으로써 하향 작업이 특정 쿼리나 작업에 필요한 파티션만을 대상으로 쿼리할 수 있도록 만들어줍니다. 이는 파티션 프루닝이라 불리는 작업입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파티셔닝 시간 단위는 데이터의 양과 속도에 따라 다를 수 있지만, 많은 경우 도착 날짜별로 데이터를 파티션으로 나누는 것이 합리적입니다. 이 기사에서는 날짜를 기반으로 한 데이터 배치를 다루고 있다고 가정하겠습니다.
 
@@ -85,7 +145,18 @@ isUpdated: true
 
 기능적 데이터 엔지니어링의 본질은 어떤 데이터 엔지니어링 작업도 입력 데이터, 변환 로직 및 출력 데이터로 축소하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![AGuidetoFunctionalDataEngineeringinBigQuery_1](/assets/img/2024-06-22-AGuidetoFunctionalDataEngineeringinBigQuery_1.png)
 
@@ -95,7 +166,18 @@ isUpdated: true
 
 첫 번째 기본 원칙은 데이터 소스 파티션이 시스템에 들어오면 영구적이며 결코 삭제될 수 없다는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 날짜 파티션은 변경할 수 없는 객체로 간주되며, 행을 UPDATE, DELETE 또는 INSERT할 수 없습니다.
 
@@ -105,7 +187,18 @@ isUpdated: true
 
 결정론적 논리는 동일한 입력을 주면 항상 똑같은 응답을 반환하는 함수를 의미합니다. 이는 LLMs의 특정 상황에서 흥미로울 것입니다. 왜냐하면 LLM은 본성상 결정론적이 아니기 때문에 동일한 프롬프트라도 다른 응답을 반환합니다. 그러나 응답 구조 자체가 결정론적이라면 LLM 응답을 여전히 기능적 데이터 엔지니어링 워크플로에 활용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아이덴포턴시는 두 번째 중요한 제약 사항으로, 반복된 논리적 실행이 초기 실행에서 발생한 최종 상태를 변경하지 않는다는 것을 본질적으로 의미합니다. 간단한 INSERT 문을 고려해 보겠습니다: 이를 여러 번 실행하면 의도적으로든 우연히든 중복된 행이 생성되는 원치 않는 부작용이 발생합니다. 이는 INSERT가 아이덴포턴트 작업이 아님을 의미합니다. 아이덴포턴시는 특정 날짜 파티션을 작성하거나 덮어쓰기만 할 수 있도록 작업의 허용된 출력을 제한함으로써 달성됩니다.
 
@@ -115,7 +208,18 @@ isUpdated: true
 
 결과 데이터를 직접 버전 관리하는 것과는 다르지만, 영구적이고 변경할 수 없는 입력 데이터에 버전 관리된 로직을 적용하는 것은 출력 데이터 파티션을 버전 관리하는 것과 사실상 동일해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3. 변경할 수 없는, 교체 가능한, 분할된 출력 데이터
 
@@ -125,7 +229,18 @@ isUpdated: true
 
 날짜 파티션 필드의 선택은 중요하며, 트레이드오프가 필요할 수 있습니다. 출력 데이터를 입력 데이터와 동일한 필드로 분할함으로써, 메타데이터 쿼리만을 기반으로 모니터링 및 자동화 작업을 진행할 수 있습니다. 이는 효율적이고 예측 가능하며 기본 데이터의 잠재적으로 비싼 스캔이 필요하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 구현 로직
 
@@ -135,7 +250,18 @@ isUpdated: true
 
 실행 트리거는 요청에 따라, 일정에 따라 또는 이벤트 기반(예: 새로운 들어오는 데이터 감지)일 수 있으며, 실행 논리는 그 후에 변환 논리가 어떻게 배포되며 필요 시 어떤 출력 데이터 파티션이 덮어쓰여야 하는지를 결정합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 점진적 접근 방식은 메타데이터를 확인하여 입력 데이터 파티션 날짜가 아직 출력 데이터에 없는 경우를 식별하고, 그런 다음 변환 로직을 적용하여 새로운 출력 데이터 파티션을 만드는 것을 의미합니다. 그러나 이 작업은 새로 도착한 날짜 파티션에 대해서만 수행됩니다.
 
@@ -145,7 +271,18 @@ isUpdated: true
 
 # 실행
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 제약 조건과 구현 논리를 고려할 때, 이 패러다임을 BigQuery에서 구현하는 운영 프레임워크의 각 측면을 정의하는 것은 실제로 매우 간단합니다. BigQuery 및 관련 기술에 대한 맥락을 고려하면, 다음 기사는 우리가 사용할 수있는 Google Cloud 리소스에 대한 넓은 개요를 제공합니다:
 
@@ -162,7 +299,18 @@ isUpdated: true
 
 ## 1. 인바운드 데이터
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 많은 BigQuery 데이터를 가져오는 메커니즘이 있지만, 입력 데이터가 분할되어야 하고 영구적이며 변경될 수 없다는 제약 조건으로 인해 다음 옵션이 선호됩니다:
 
@@ -172,19 +320,41 @@ isUpdated: true
 
 이를 지원하기 위한 메커니즘 중 하나는 흡수 시간에 의한 파티셔닝이며, 특정 데이터 집합 권한을 설정하여 데이터가 삭제되지 않고 영구적이 되도록 해야 합니다. 파티션된 테이블은 BigQuery 사용자 인터페이스에서 간단한 몇 번의 클릭으로 삭제할 수 있으므로 이를 방지하기 위한 보호장치가 마련되어야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 날짜별 샤딩된 테이블
 
-날짜별 샤딩된 테이블은 Google에서 관리하는 가져오기 작업(예: GA4 BigQuery 내보내기)을 할 때 자주 만날 수 있습니다. 이들은 날짜별로 파티셔닝된 테이블과 유사하지만, 실제로는 접두사를 공유하고 날짜를 기반으로 한 접미사를 가진 기술적으로 별개의 테이블입니다. 이들의 주요 이점은 날짜별로 파티셔닝된 테이블에서 가능한 효율적인 쿼리 패턴을 달성할 수 있는 와일드카드 및 _TABLE_SUFFIX를 결합하여 질의할 수 있다는 것입니다.
+날짜별 샤딩된 테이블은 Google에서 관리하는 가져오기 작업(예: GA4 BigQuery 내보내기)을 할 때 자주 만날 수 있습니다. 이들은 날짜별로 파티셔닝된 테이블과 유사하지만, 실제로는 접두사를 공유하고 날짜를 기반으로 한 접미사를 가진 기술적으로 별개의 테이블입니다. 이들의 주요 이점은 날짜별로 파티셔닝된 테이블에서 가능한 효율적인 쿼리 패턴을 달성할 수 있는 와일드카드 및 \_TABLE_SUFFIX를 결합하여 질의할 수 있다는 것입니다.
 
 저장소 폴더 구조
 
 Google Cloud Storage와 BigQuery 외부 테이블을 결합한 접근 방식은 데이터 상호작용과 관리 사이의 분리를 제공하면서 불변성과 영속성 제약 조건을 달성하기에 매우 견고하고 효과적입니다. GCS 버킷에 파일로 저장된 데이터는 직접 쿼리할 수 있지만 BigQuery에서 삭제할 수는 없어 데이터 삭제에 대한 추가적인 보안 계층을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-_FILE_NAME 가상 열을 변환 로직에 포함시킬 수 있습니다. 이는 추가 입력 메타데이터를 제공하기 위해 구문 분석될 수 있습니다. 이는 잘 설계된 날짜 기반 폴더 구조(서로 다른 파일 유형을 별도 계층으로 구분)와 결합되어, 이 방법은 날짜별 파티셔닝 또는 날짜별 샤딩된 테이블이 달성할 수 있는 효율적인 쿼리 패턴을 복제하는 데 사용될 수 있습니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+\_FILE_NAME 가상 열을 변환 로직에 포함시킬 수 있습니다. 이는 추가 입력 메타데이터를 제공하기 위해 구문 분석될 수 있습니다. 이는 잘 설계된 날짜 기반 폴더 구조(서로 다른 파일 유형을 별도 계층으로 구분)와 결합되어, 이 방법은 날짜별 파티셔닝 또는 날짜별 샤딩된 테이블이 달성할 수 있는 효율적인 쿼리 패턴을 복제하는 데 사용될 수 있습니다.
 
 ## 2. 변환 로직
 
@@ -192,7 +362,18 @@ BigQuery 뷰는 임의의 SQL을 데이터의 기저에있는 개요 데이터�
 
 쿼리시 뷰는 항상 모든 기저 데이터를 쿼리하고 다시 계산하므로 매우 비효율적입니다. 뷰는 종종 주기적으로 전체 하위 테이블을 다시 빌드하는 데 사용되며, 이는 불필요하게 비싼 방법이며, 입력 데이터 양이 증가함에 따라 비용이 증가할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 Table Functions을 사용하여 날짜 분할 기능을 추가하면 Views의 대부분의 긍정적인 특성을 활용할 수 있습니다.
 
@@ -202,7 +383,18 @@ Table Functions은 Views와 논리적으로 동일하지만 한 가지 중요한
 
 이 인수들은 Table Function SQL의 구조적 부분(예: 열 또는 테이블 이름)을 형성할 수 없다는 점에 유의하십시오.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 날짜 범위 테이블 함수
 
@@ -212,7 +404,18 @@ Table Functions은 Views와 논리적으로 동일하지만 한 가지 중요한
 
 다음 예제 논리 구조는 날짜 범위 테이블 함수의 시퀀스에서 구성됩니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 외부 쿼리가 최종 Table Function(TF12)을 호출할 때, 쿼리 데이터 범위를 start_date 및 end_date 인수로 전달하면 해당 인수가 Table Functions의 일련의 순서를 통해 상위로 전파되며 입력 데이터에서 특정 날짜 범위만 쿼리됩니다. 변환 로직은 이후 이 날짜 범위에만 적용되고, Table Function은 변환된 데이터 분할을 반환하여 검사, 분석 또는 출력 테이블의 기존 분할에 덮어쓸 준비가 됩니다.
 
@@ -220,7 +423,18 @@ Table Functions은 Views와 논리적으로 동일하지만 한 가지 중요한
 
 변환 로직은 일반적으로 데이터 구조 변경, 조인, 집계 및 계산을 포함하나, BigQuery는 입력 데이터에서 출력 데이터 분할로 전달되는 데이터를 더욱 증강하는 강력한 도구 세트를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자 정의 함수 (UDF)
 
@@ -230,7 +444,18 @@ BigQuery ML: AI 함수
 
 BigQuery ML (머신 러닝)에는 강력한 ML 모델을 바로 호출할 수 있게 하는 여러 내장 함수가 있습니다. 이 함수들은 입력부터 출력으로 흘러가는 데이터를 개선할 수 있도록 ML.UNDERSTAND_TEXT, ML.TRANSLATE, ML.ANNOTATE_IMAGE, ML.TRANSCRIBE 및 ML.PROCESS_DOCUMENT을 포함합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 경우에 대해 번역하면 다음과 같습니다.
 
@@ -242,7 +467,18 @@ BigQuery ML: 생성적 AI 기능
 
 BigQuery ML.GENERATE_TEXT 함수를 사용하면 간단한 SQL 쿼리를 통해 Google LLMs(gemini-1.5-flash, gemini-1.5-pro, gemini-pro, gemini-pro-vision,text-bison,text-bison-32,text-unicorn)에 직접 액세스할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기능을 사용하면 추가 비용이 발생할 수 있으며 안정적인 성능을 얻기 위해 일괄 처리 전략이 필요할 수도 있습니다.
 
@@ -252,7 +488,18 @@ BigQuery ML.GENERATE_TEXT 함수를 사용하면 간단한 SQL 쿼리를 통해 
 
 원격 함수는 Cloud Functions에 대한 액세스 포인트를 제공하여 다양한 언어로 사용자 정의 코드를 작성하고 외부 시스템과 상호 작용한 다음 BigQuery에서 응답을 인라인으로 반환할 수 있습니다. 이를 통해 BigQuery의 영역을 데이터 이상 및 자동화 사용 사례에 대한 Google 및 외부 API의 광범위한 세계에 확장할 수 있습니다. 그러나 Cloud Functions은 추가 개발, 인프라, 모니터링, 권한 및 디버깅 오버헤드가 따르므로 내장 또는 사용자 정의 함수를 사용하는 것이 더 좋습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 4. 출력 데이터
 
@@ -262,7 +509,18 @@ BigQuery ML.GENERATE_TEXT 함수를 사용하면 간단한 SQL 쿼리를 통해 
 
 날짜별 테이블은 기능적 데이터 엔지니어링에서 선호하는 출력 구조입니다. 필요에 따라 클러스터링된 고카디널리티 열로 구성되며, 추가 필터링이 적용될 것으로 예상되는 열로 클러스터링될 수 있습니다. 파티션 가지치기를 통해 효율적인 쿼리 수행이 가능하며 (필요한 특정 데이터 파티션만 쿼리함), 쿼리할 데이터양이 줄어듭니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파티셔닝된 테이블 메타데이터는 INFORMATION_SCHEMA.PARTITIONS 뷰를 통해 조회할 수도 있습니다. 이는 모니터링 및 자동화 활동에 중요합니다.
 
@@ -272,7 +530,18 @@ BigQuery ML.GENERATE_TEXT 함수를 사용하면 간단한 SQL 쿼리를 통해 
 
 출력 데이터는 EXPORT DATA 문을 사용하여 다양한 파일 및 압축 형식으로 Google Cloud Storage 버킷에 내보낼 수도 있습니다. 그런 다음 이 데이터는 BigQuery에서 외부 테이블을 사용하여 압축 파일의 일반적으로 더 낮은 비용의 저장소인 Cloud Storage에서 액세스할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Google Cloud Storage 버킷 내용은 Object Tables을 사용하여 BigQuery에서 나열할 수 있습니다. 이를 통해 모니터링 및 자동화 기능의 기초로 활용해볼 수 있습니다. 그러나 모니터링 및 자동화는 URI(전역적으로 고유한 파일 경로)에서 날짜 메타데이터를 구문 분석하는 것에 따라 약간 복잡할 수 있습니다.
 
@@ -282,7 +551,18 @@ Google Cloud Storage 버킷 내용은 Object Tables을 사용하여 BigQuery에�
 
 기능 데이터 엔지니어링 워크플로우의 논리적 실행은 두 가지 핵심 BigQuery 기능에 의해 주도됩니다: 리소스 메타데이터에 액세스하기 위한 INFORMATION_SCHEMA 뷰 및 원하는 결과에 따라 기능 작업을 실행하기 위한 PROCEDURES입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 메타데이터 비교
 
@@ -292,14 +572,25 @@ Google Cloud Storage 버킷 내용은 Object Tables을 사용하여 BigQuery에�
 
 입력 데이터 테이블의 날짜 파티션 또는 샤드 배열을 반환하는 데 필요한 SQL을 수동으로 작성하는 것은 가능하지만, 우리의 선호하는 접근 방식은 그 자체로 기능적입니다. SQL 사용자 정의 함수(UDF)를 활용하여 SQL 컴파일 및 프로시저를 실행하기 위한 프로시저를 사용함으로써 자동화에 기능적 데이터 엔지니어링 접근을 지원하는 일부 유틸리티 함수에 액세스할 수 있습니다. 파티션된 테이블의 최신 날짜 파티션을 가져오기 위한 예시 기능 사용 코드는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 DECLARE source_table_id STRING;
 DECLARE last_partition_date DATE;
 
 SET source_table_id = 'myproject.mydataset.mypartitioned_table';
-CALL [project].[region].get_last_partition_date (source_table_id, last_partition_date) 
+CALL [project].[region].get_last_partition_date (source_table_id, last_partition_date)
 ```
 
 이 예시에서 get_last_partition_date를 성공적으로 실행한 후, source_table_id로 참조된 테이블에 유효한 날짜 분할이 있는 경우, get_last_partition_date DATE 변수는 최신 날짜 값을 설정하고 후속 논리 단계에서 사용할 수 있습니다.
@@ -308,8 +599,18 @@ CALL [project].[region].get_last_partition_date (source_table_id, last_partition
 
 실행 모드
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기능 데이터 엔지니어링 플로우의 개발, 디버깅, 업데이트 및 유지 관리를 도와주는 여러 실행 모드가 있습니다. 첫 번째 두 가지는 다음과 같습니다:
 
@@ -322,7 +623,18 @@ CALL [project].[region].get_last_partition_date (source_table_id, last_partition
 - 최신 정보 새로고침 — 특정 날짜까지의 파티션 덮어쓰기
 - 시작 날짜 새로고침 — 특정 날짜부터 파티션 덮어쓰기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 실행 모드의 조합은 함수형 데이터 엔지니어링 흐름의 실행에 대한 세밀한 제어를 제공합니다.
 
@@ -332,7 +644,18 @@ CALL [project].[region].get_last_partition_date (source_table_id, last_partition
 
 메타데이터 함수에도 동일한 방식을 적용하고 SQL UDF(User-Defined Functions), 프로시저(Procedures), 트랜잭션을 결합하여 날짜 파티션을 덮어쓰는 함수를 방한 방법으로 구축합니다. 이는 덮어쓰기 함수가 사실 DELETE 및 INSERT DML 문으로 구성되지만, 이것이 TRANSACTION 내에서 발생한다는 사실은 어떤 실패가 발생하더라도 롤백되므로 트랜잭션이 방한적이라는 것을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기능 권한
 
@@ -343,7 +666,18 @@ CALL [project].[region].get_last_partition_date (source_table_id, last_partition
 
 즉, 사용자는 외부 프로젝트의 단일 데이터 세트에 대한 BigQuery Viewer 액세스를 부여받을 수 있으며, 해당 데이터 세트에 대한 권한만 있으면 데이터 세트 함수와 그에 허용된 종속 함수를 성공적으로 실행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 6. 트리거 로직
 
@@ -353,7 +687,18 @@ CALL [project].[region].get_last_partition_date (source_table_id, last_partition
 
 실행 함수는 필요에 따라 호출될 수 있으며, 후속 활동 직전에 BigQuery 콘솔에서 배포된 함수를 실행함으로써 실행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **예약된 쿼리**
 
@@ -363,7 +708,18 @@ CALL [project].[region].get_last_partition_date (source_table_id, last_partition
 
 이벤트 기반 트리거
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 빅쿼리에 데이터가 도착할 때 함수나 쿼리를 트리거하는 간단하고 기본 메커니즘이 없습니다. 이상적으로는 PubSub 주제를 테이블이나 데이터 세트에 연결하여 새 테이블이나 파티션에 도착할 때 트리거되고, 다른 임의의 함수 실행을 트리거할 수 있으면 좋을 것입니다. 그러나 현재는 이를 외부 도구 없이 실행할 수 없으므로 일반적으로 출력 데이터의 원하는 데이터 신선도와 일치하는 빈도로 예약된 실행 쿼리를 배포합니다.
 
@@ -373,7 +729,18 @@ CALL [project].[region].get_last_partition_date (source_table_id, last_partition
 
 메타데이터 모니터링
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 The INFORMATION_SCHEMA views can be used to monitor resource metadata in order to manage and optimize resource, partition, and storage infrastructure.
 
@@ -383,11 +750,33 @@ The INFORMATION_SCHEMA.JOBS view is used to monitor query patterns, compute volu
 
 Query Labelling
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 Markdown 형식으로 변경해 주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저장된 쿼리는 BigQuery 내에서 버전 관리를 구현하는 초보자용 방법이지만, 정의된 프로세스를 엄격히 준수하여 사용해야 합니다. 현재 BigQuery에서 코드 버전을 관리하는 강인한 독립형 솔루션이 아닙니다.
 
@@ -397,7 +786,18 @@ Git 저장소 통합
 
 # 구현
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기까지 오신 여러분은 BigQuery에서의 기능적 데이터 엔지니어링에 관심이 있는 분들이시군요... 멋지네요!
 
@@ -407,7 +807,18 @@ Git 저장소 통합
 
 이 자료에서 여러분이 BigQuery 여정에서 도움이 될만한 유용한 자료가 있다면, 저희에게 문의해 주세요. 도움이 필요한 사항이 있다면 언제든지 연락해 주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 행복한 기능성 데이터 엔지니어링!
 
@@ -417,7 +828,18 @@ Git 저장소 통합
 
 빅쿼리 프로그래밍에 대한 깊은 전문 지식을 가지고 있기 때문에, 기능적 데이터 엔지니어링, 빠른 능력 개발 및 비용/보안 감사를 지원하기 위해 빅쿼리 기능을 확장하는 라이브러리를 구축합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 내부 원격 함수 라이브러리에서 배포할 수도 있고, 사용 사례에 맞춰 BigQuery 기능을 확장하기 위해 사용자 정의 함수를 개발할 수도 있습니다.
 

@@ -3,17 +3,13 @@ title: "데이터 분석 프로젝트  스마트폰 데이터 분석"
 description: ""
 coverImage: "/assets/img/2024-06-19-ADataAnalysisProjectSmartPhonesDataAnalysis_0.png"
 date: 2024-06-19 16:37
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-ADataAnalysisProjectSmartPhonesDataAnalysis_0.png
 tag: Tech
 originalTitle: "A Data Analysis Project — Smart Phones Data Analysis."
 link: "https://medium.com/towards-artificial-intelligence/a-data-analysis-project-smart-phones-data-analysis-381ed9be26ff"
 isUpdated: true
 ---
-
-
-
-
 
 ## SQL 및 SSMS를 사용하여 스마트폰 데이터의 통찰력 추출
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 주어진 데이터 세트에는 다양한 스마트폰 세부 정보에 관한 정보가 포함되어 있습니다. 아래에서 언급된 것과 같이 다양한 정보를 전달하는 열이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 i. 스마트폰 브랜드 이름 및 모델.
 ii. 스마트폰 가격, 평가, 5g, 그리고 ir 블라스트의 세부 정보.
@@ -37,7 +44,18 @@ v. 스마트폰 화면 크기, 주사율, 후면 카메라 수, 운영 체제, �
 
 여기 내 YouTube 채널이 있습니다. 더 많은 정보를 받고 최신 업데이트를 즉시 확인하려면 구독해 주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 -----1. 상점에서 브랜드 및 모델 수 그리고 브랜드 당 모델 수를 찾아보세요.
@@ -47,7 +65,7 @@ select count(distinct brand_name) as Number_of_brands from SmartPhones_data;
 select count(distinct model) as number_of_models from SmartPhones_data;
 
 with cte as(
-select brand_name, count(distinct model) as number_of_models from SmartPhones_data 
+select brand_name, count(distinct model) as number_of_models from SmartPhones_data
 group by brand_name)
 select c.*, sum(c.number_of_models) over(order by number_of_models desc, brand_name asc) as total_number_of_models from cte c
 
@@ -68,30 +86,48 @@ select brand_name, total_cost_by_brand from cte3 where rnk=1
 ----3. 최고 평점을 받은 상위 3개 브랜드와 모델을 찾아보세요.
 sql
 select brand_name, model from(
-select distinct brand_name, model, rating, dense_rank() over(order by rating desc) as rnk from SmartPhones_data)a 
+select distinct brand_name, model, rating, dense_rank() over(order by rating desc) as rnk from SmartPhones_data)a
 where a.rnk<=3 order by rnk
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
-이 데이터를 사용하여 안전하지만 5G는 아닌 더 빠른 모델을 선택할 수 있습니다. 이는 5G 모델이 아닙니다. 
+이 데이터를 사용하여 안전하지만 5G는 아닌 더 빠른 모델을 선택할 수 있습니다. 이는 5G 모델이 아닙니다.
 
 ---4. 5g를 갖고 있지 않거나 ir 블라스터를 갖고 있는 모바일 기기.
 select 모델 from SmartPhones_data where has_5g = 0 and has_ir_blaster = 1
 
 select count(distinct processor_brand) number_of_processor_brands from smartphones_data
 
-select processor_brand, count(모델) from SmartPhones_data where processor_brand is not null 
+select processor_brand, count(모델) from SmartPhones_data where processor_brand is not null
 group by processor_brand
-order by 2 desc 
+order by 2 desc
 
 ---6. 모델당 코어 수. 코어 수에 따라 순위를 매깁니다.
 select distinct 모델, num_cores as number_of_cores from SmartPhones_data
 
 select * from (
-select distinct 모델, num_cores as number_of_cores, dense_rank() over(order by num_cores desc) as rank from 
+select distinct 모델, num_cores as number_of_cores, dense_rank() over(order by num_cores desc) as rank from
 SmartPhones_data)a order by 3
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ----7. 브랜드와 모델별로 가장 높은 프로세서 속도.
 select brand_name, model, processor_speed from(
@@ -102,7 +138,7 @@ from SmartPhones_data)a where a.rnk=1
 
 ----8. 가장 높은 배터리 용량을 가진 상위 5개 모델 및 그들의 브랜드.
 select brand_name, model, battery_capacity from (
-select brand_name, model, battery_capacity, dense_rank() over(order by battery_capacity desc) as rnk 
+select brand_name, model, battery_capacity, dense_rank() over(order by battery_capacity desc) as rnk
 from SmartPhones_data )a where a.rnk<=5
 
 ----9. 가장 높은 RAM 용량과 내부 메모리를 가진 상위 5개 브랜드 및 모델 나열.
@@ -110,7 +146,16 @@ select brand_name, model, ram_capacity, internal_memory from(
 select brand_name, model, ram_capacity, internal_memory, dense_rank() over(order by ram_capacity desc, internal_memory desc) as
 rnk from smartphones_data)a where rnk <=5
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ---10. 화면 크기가 작은 상위 10개 모델 및 브랜드를 나열합니다.
 select brand_name, model, screen_size from(
@@ -125,7 +170,16 @@ where a.rnk<=10
 # 데이터 분석 프로젝트 시리즈:
 
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 i. 데이터 분석 프로젝트 - 커피숍 매출 분석.
 
@@ -135,7 +189,16 @@ iii. 데이터 분석 프로젝트 - 전기 차량 보급 데이터.
 
 iv. 데이터 분석 프로젝트 - 데이터 과학 채용 공고.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사가 SQL을 사용한 데이터 분석을 진행하고 기본 개념을 적용하는 데 도움이 되기를 바랍니다.
 
@@ -145,7 +208,16 @@ iv. 데이터 분석 프로젝트 - 데이터 과학 채용 공고.
 
 포트폴리오를 구축하고 다양한 클라이언트의 신뢰를 얻기 위해 최소 요율로 프리랜서로서 나의 서비스를 제공하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 개인(1:1) 트레이닝 전 세계 어디서나 가능하며 Zoom을 통해 연결할 거에요.
 
@@ -154,3 +226,4 @@ mahendraee204@gmail.com 으로 연락주세요.
 저를 팔로우하면 중요한 소식을 놓치지 않을 수 있어요.
 
 감사합니다 :)
+```

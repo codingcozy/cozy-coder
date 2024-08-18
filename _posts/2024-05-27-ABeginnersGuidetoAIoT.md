@@ -3,17 +3,13 @@ title: " AIoT에 대한 초보자를 위한 안내"
 description: ""
 coverImage: "/assets/img/2024-05-27-ABeginnersGuidetoAIoT_0.png"
 date: 2024-05-27 13:18
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-ABeginnersGuidetoAIoT_0.png
 tag: Tech
 originalTitle: "👾 A Beginner’s Guide to AIoT"
 link: "https://medium.com/@vancx/a-beginners-guide-to-aiot-5fa94c4dca68"
 isUpdated: true
 ---
-
-
-
-
 
 ## 핵심 아이디어, 응용 및 AI-기반 IoT 솔루션 개발에 대한 직접적인 관련 내용
 
@@ -27,7 +23,18 @@ AI와 IoT가 있죠? 이 둘을 결합하면 'AIoT'가 됩니다. 기본적으�
 - 학습하고 똑똑해지기: 이러한 장치들은 매일 정보를 수집하고 개선하기 위해 사용합니다. 스마트 워치는 당신의 피트니스 진행 상황을 추적하고 당신의 걸음걸이, 건강 상태 및 목표에 맞는 맞춤화된 운동을 제안할 수 있습니다.
 - 그리 새로운 것은 아닙니다: 당신은 무심코 지나치는 것일 수 있지만, AIoT는 꽤 오랫동안 존재해 왔습니다. 식료품을 추적하고 레시피를 제안하는 스마트 냉장고부터 제품 품질을 개선하는 데 도움이 되는 제조 라인 센서까지, 이러한 기술들은 많은 년 동안 사용되어 왔습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # AIoT 디바이스는 어떻게 작동할까요?
 
@@ -37,7 +44,18 @@ AI와 IoT가 있죠? 이 둘을 결합하면 'AIoT'가 됩니다. 기본적으�
 
 도시 곳곳에 설치된 센서를 상상해보세요. 마치 정보를 수집하는 눈과 귀처럼 동작합니다. 이러한 IoT 디바이스는 교통 패턴이나 소비자 선호도와 같은 정보를 수집합니다. 마찬가지로, 피트니스 트래커나 스마트폰에도 센서가 있어서 동일한 작업을 수행합니다. 이러한 초기 데이터는 모든 통찰력의 기반이 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2. 데이터 이동 : 전송
 
@@ -47,7 +65,18 @@ AI와 IoT가 있죠? 이 둘을 결합하면 'AIoT'가 됩니다. 기본적으�
 
 대부분의 경우 여기에 "AI" 부분이 나타납니다. 센서로부터의 원시 데이터가 중앙 허브로 전송된 후, 처리되어 유용한 정보로 변환됩니다. AI는 패턴을 식별하고 트렌드를 예측하며, 이러한 처리된 데이터를 기반으로 결정을 내릴 수 있도록 도와줍니다. 내장형 AI 기능을 갖춘 엣지 디바이스는 이에 예외입니다. 이러한 장치에는 AI가 직접 내장되어 있어 중앙 허브로의 전송이 필요하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 4. 의사 결정: 최적화
 
@@ -57,7 +86,18 @@ AI와 IoT가 있죠? 이 둘을 결합하면 'AIoT'가 됩니다. 기본적으�
 
 이 과정은 거기서 끝나지 않습니다. AIoT 시스템은 성능을 향상시키기 위해 지속적으로 피드백을 수집합니다. 이 피드백은 알고리즘을 개선하고 전체 시스템을 시간이 흐름에 따라 더 똑똑하게 만드는 데 사용됩니다. 새로운 데이터와 사용자 상호작용에서 계속 배우면서, AIoT 시스템은 적응하고 학습하여 성능을 개선할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 다양한 산업에서의 AIoT
 
@@ -67,7 +107,18 @@ AI와 IoT 기술의 결합은 많은 산업을 변화시켜 더 효율적이고 
 
 제조업에서 AIoT 시스템은 기계를 모니터하여 결함을 감지하고 품질을 보장합니다. 이러한 스마트 시스템은 라이브 비디오 피드를 분석하여 결함을 식별하여 제품이 높은 기준을 충족하는지 확인합니다. AIoT 솔루션은 제조를 더 효율적이고 신뢰성 있게 만들어줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 📦 스마트 리테일
 
@@ -77,7 +128,18 @@ AI와 IoT 기술의 결합은 많은 산업을 변화시켜 더 효율적이고 
 
 IoT 센서와 AI를 결합함으로써, AIoT 시스템은 에너지 사용을 모니터링하고 최적화하여 낭비를 줄이고 에너지 요구를 예측할 수 있습니다. 이러한 시스템은 에너지 관리를 자동화하여 기업이 비용을 절감하고 가정이 더 경제적으로 운영할 수 있도록 돕습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 🚜 스마트 농업
 
@@ -87,7 +149,18 @@ AIoT 기술은 데이터 기반 방법으로 농업을 변화시키고 있습니
 
 AIoT 기술은 교통 제어, 폐기물 관리 및 가로등 조명과 같은 서비스가 중앙에서 관리되는 스마트 시티 발전에 중요합니다. IoT 센서가 데이터를 수집하고, AI가 이를 처리하여 미래 요구 사항과 공공 이동을 예측합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 🏃‍♀️ 건강 및 피트니스 장치
 
@@ -97,7 +170,18 @@ AIoT 기술은 교통 제어, 폐기물 관리 및 가로등 조명과 같은 �
 
 항공 분야에서 AIoT는 항공기 시스템을 모니터링하고 정비 필요를 예측하여 안전과 효율성을 향상시킵니다. IoT 센서는 엔진 성능, 연료 수위 및 기타 중요한 매개변수에 대한 데이터를 수집합니다. AI는 이 데이터를 분석하여 잠재적인 고장을 예측하고 정비 일정을 선제적으로 계획하여 비행의 안전성과 신뢰성을 보장합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 🏎️ 스포츠 및 게임
 
@@ -107,7 +191,18 @@ AIoT는 고급 센서와 AI 분석을 통합하여 스포츠와 게임을 변화
 
 이렇게 상상해보세요. 몇 분 안에 가상 회의가 예정되어 있고 카페에서 자리를 찾아야 합니다. 가장 가까운 카페로 가서 도착하자, 모든 자리가 다 차 있습니다. 이제 다른 장소를 찾기에는 너무 늦었고 회의에 늦게 될 것 같습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 실시간으로 좌석 이용 가능 여부를 확인할 수 있는 방법이 있다면 얼마나 편리할까요?
 
@@ -117,7 +212,18 @@ AIoT는 고급 센서와 AI 분석을 통합하여 스포츠와 게임을 변화
 
 다음은 이 AIoT 개발 프로세스를 진행하는 방법에 대한 개요입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-27-ABeginnersGuidetoAIoT_1.png" />
 
@@ -132,7 +238,18 @@ AIoT는 고급 센서와 AI 분석을 통합하여 스포츠와 게임을 변화
 
 주요 목표: 좌석에 부착할 수 있는 간단한 장치를 개발하여 네트워크에 연결하고 실시간 좌석 점유 데이터를 제공하는 것입니다. 이 시스템은 데이터를 저장할 데이터베이스와 이를 표시할 웹 인터페이스를 포함해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **목표:**
 
@@ -144,7 +261,18 @@ AIoT는 고급 센서와 AI 분석을 통합하여 스포츠와 게임을 변화
 
 ## **목표 선택 및 구성하기**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ➡ IoT 장치 (좌석 점유 감지 센서) — 이 IoT 장치는 좌석이 점유되었는지 또는 이용 가능한지를 감지하는 역할을 합니다. 이 IoT 장치를 만들기 위해 다음 구성 요소가 필요합니다:
 
@@ -161,7 +289,18 @@ AIoT는 고급 센서와 AI 분석을 통합하여 스포츠와 게임을 변화
 - 전원 공급 — Raspberry Pi를 구동하여 지속적인 작동을 보장하기 위한 오래가는 소형 배터리입니다.
 - 데이터 저장소 (선택 사항) — 데이터를 웹 서버에 업로드하기 전에 로컬에 데이터를 저장하는 데 사용되는 SD 카드나 외부 저장 장치입니다. 이것은 버퍼링 및 백업 목적으로 유용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ➡ 웹 서버—웹 서버는 중앙 허브에서 전달된 데이터가 전달되는 곳입니다. 실시간 좌석 이용률을 표시하는 웹 인터페이스를 제공합니다. 웹 서버를 설정하려면 다음 구성 요소가 필요합니다:
 
@@ -173,7 +312,18 @@ AIoT는 고급 센서와 AI 분석을 통합하여 스포츠와 게임을 변화
 
 ## ‣‣ 중앙 허브 설정 부분
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## ‣‣ 파트 5: 서버 및 대시보드 생성
 

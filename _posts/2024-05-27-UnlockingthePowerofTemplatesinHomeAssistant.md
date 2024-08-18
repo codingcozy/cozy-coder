@@ -3,17 +3,13 @@ title: "홈 어시스턴트의 템플릿 파워 언락하기"
 description: ""
 coverImage: "/assets/img/2024-05-27-UnlockingthePowerofTemplatesinHomeAssistant_0.png"
 date: 2024-05-27 13:20
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-UnlockingthePowerofTemplatesinHomeAssistant_0.png
 tag: Tech
 originalTitle: "Unlocking the Power of Templates in Home Assistant"
 link: "https://medium.com/@vmannoor/unlocking-the-power-of-templates-in-home-assistant-75a08d0ad205"
 isUpdated: true
 ---
-
-
-
-
 
 ![2024-05-27-UnlockingthePowerofTemplatesinHomeAssistant_0.png](/assets/img/2024-05-27-UnlockingthePowerofTemplatesinHomeAssistant_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 템플릿의 다양성과 강력함을 보여주기 위해 저 자신이 집에서 사용하는 몇 가지 예시를 소개하겠습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1. 사용자 정의 센서 만들기
 
@@ -37,12 +44,23 @@ template:
       - name: "Home Temperature"
         unit_of_measurement: "°C"
         state: >
-          { (states('sensor.living_room_temperature') | float + 
-              states('sensor.bedroom_temperature') | float + 
+          { (states('sensor.living_room_temperature') | float +
+              states('sensor.bedroom_temperature') | float +
               states('sensor.kitchen_temperature') | float) / 3 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예제에서는 각각의 온도 센서 상태를 얻어와서 float 숫자 유형으로 변환한 다음 값들을 더하고, 센서의 개수로 나누어 평균을 구하는 방법에 대해 설명합니다. Home Assistant는 모든 센서 값을 문자열로 저장하기 때문에 먼저 이를 숫자 값으로 변환해야 합니다. "| float"는 정확히 그 역할을 합니다. 템플릿 센서에 익숙하지 않은 경우 Home Assistant 공식 통합 페이지에서 기본 사항을 읽어볼 수 있습니다.
 
@@ -54,7 +72,7 @@ template:
       - name: "Home Temperature"
         unit_of_measurement: "°C"
         state: >
-          { (states.sensor 
+          { (states.sensor
             | selectattr('attributes.device_class', 'eq','temperature')
             |rejectattr('state','in','unavailable,unknown')
             | map(attribute='state') | map('float', 0)| average)|round(2) }
@@ -62,7 +80,18 @@ template:
 
 위 코드가 그 역할을 합니다. 먼저 템플릿은 'states.sensor'를 통해 센서 도메인의 모든 엔티티의 상태를 선택한 다음 두 개의 필터를 적용합니다: 첫 번째 필터는 'device_class'가 'temperature'인 엔티티만 포함하고, 두 번째 필터는 'unavailable' 또는 'unknown'인 엔티티를 거부합니다. 해당 엔티티들의 상태를 'float' 숫자로 매핑하고 해당 숫자들의 평균을 취합니다. 마지막으로 결과를 표시하기 전에 소수점 둘째 자리까지 반올림합니다. 따라서 새로운 센서가 추가되거나 어느 하나의 센서가 오프라인 상태가 되면 템플릿이 즉시 재계산되어 센서 값을 변경합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 여기에 작은 문제가 있습니다. 프로세서용 온도 센서도 설정한 경우를 상상해 보죠. 위 템플릿에는 해당 센서의 디바이스 클래스도 'temperature'이기 때문에 이를 평균에 포함시킬 것입니다. 이 문제를 해결할 수 있는 다양한 방법이 있습니다. 이 중 하나는 아래와 같습니다:
 
@@ -72,7 +101,7 @@ template:
       - name: "Home Temperature"
         unit_of_measurement: "°C"
         state: >
-          { (states.sensor 
+          { (states.sensor
             | selectattr('attributes.device_class', 'eq','temperature')
             | rejectattr('state','in','unavailable,unknown')
             | selectattr('entity_id','search','room|kitchen')
@@ -83,7 +112,18 @@ template:
 
 ## 2. 자동화에서
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
     - 별칭: 배터리 부족 알림
@@ -96,22 +136,22 @@ template:
       condition:
         - condition: template
           value_template: >
-            { (states.sensor 
+            { (states.sensor
               | selectattr('attributes.device_class', 'eq','battery')
-              | selectattr('attributes.unit_of_measurement', '==', '%') 
+              | selectattr('attributes.unit_of_measurement', '==', '%')
               |rejectattr('state','in','unavailable,unknown')
               | map(attribute='state') | map('int')
-              |select('<=',5) |list|length)>0 }           
+              |select('<=',5) |list|length)>0 }
       action:
         - delay: "00:30:00"
         - service: notify.telegram_vm
           data:
             title: "{ '\U0001F50B' } *낮은 배터리*"
             message: >
-              { set batteries = states.sensor 
-                | selectattr('entity_id', 'has_value') 
+              { set batteries = states.sensor
+                | selectattr('entity_id', 'has_value')
                 |rejectattr('state','in','unavailable,unknown')
-                | selectattr('attributes.device_class', '==', 'battery') 
+                | selectattr('attributes.device_class', '==', 'battery')
                 | selectattr('attributes.unit_of_measurement', '==', '%') | list }
               { set low_battery = batteries | map(attribute='state') | map('int') | select('<=', 5) | map('string') | list }
               { batteries | selectattr('state', 'in', low_battery) | map(attribute='name') | list | join('\n') }
@@ -123,8 +163,18 @@ template:
 
 액션 부분에서 메시지도 유사한 방법을 사용하여 생성됩니다. Home Assistant는 센서 상태를 문자열로 저장하므로 먼저 저전력 배터리 센서 목록을 가져 와서 두 번째 단계에서 해당 센서 이름을 다시 필터링해야 합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

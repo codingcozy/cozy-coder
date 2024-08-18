@@ -3,17 +3,13 @@ title: "파이썬에서 SQLite3를 활용하여 시작하기 테이블 생성 �
 description: ""
 coverImage: "/assets/img/2024-06-19-GetStartedwithSQLite3inPythonCreatingTablesandFetchingRows_0.png"
 date: 2024-06-19 16:21
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-GetStartedwithSQLite3inPythonCreatingTablesandFetchingRows_0.png
 tag: Tech
 originalTitle: "Get Started with SQLite3 in Python, Creating Tables and Fetching Rows"
 link: "https://medium.com/towards-data-science/get-started-with-sqlite3-in-python-creating-tables-fetching-rows-a52bdf41e52a"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-19-GetStartedwithSQLite3inPythonCreatingTablesandFetchingRows_0.png" />
 
@@ -27,7 +23,18 @@ isUpdated: true
 - 데이터베이스에서 행 가져오기
 - 마무리
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현대 IT 전문가들에게 가장 중요한 핵심 기술 중 하나는 구조화된 질의 언어(SQL)입니다. 이는 관계형 데이터베이스와 상호 작용하기 위해 사용되는 선언형 언어입니다. 데이터 엔지니어와 분석가들은 주로 SQL을 사용하여 데이터 파이프라인을 실행하고 데이터 내에서 유용한 관계를 조사합니다.
 
@@ -38,7 +45,18 @@ SQL 경험이 없을 때는 PostgreSQL 또는 MySQL과 같은 일반적인 데�
 - CREATE TABLE, INSERT INTO, 그리고 SELECT — FROM과 같은 가장 기본적이고 유용한 SQL 명령어 사용 방법.
 - 어떻게 프로그래밍 언어(우리의 경우 Python)를 사용하여 관계형 데이터베이스와 상호 작용할 수 있는지.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SQLite 데이터베이스를 설정하고 Python에서 sqlite3를 사용하여 데이터베이스 연결을 만들고 데이터범들을 삽입/검색할 것입니다. SQL 전문가가 되는 것이 목표는 아니고, SQL이 어떻게 사용되는지 보고 시작하기 위한 몇 가지 기본 명령을 배우는 것입니다. 더 배우고 싶다면, 이 블로그 포스트와 같이 시작하는 8개의 무료 YouTube 비디오가 있습니다.
 
@@ -48,7 +66,18 @@ SQLite 공식 웹페이지에서 SQLite 다운로드에 대한 정보를 찾을 
 
 이미 모든 것이 설치되어 있는지 확인하려면 새로운 Python 파일을 열고 다음 단일 명령어를 작성하십시오:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import sqlite3
@@ -63,7 +92,18 @@ import 단계 이후, 데이터베이스에 연결을 생성해야 합니다. �
 connection = sqlite3.connect("music.db")
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 connect() 함수에 전달된 인수는 데이터베이스의 이름이 될 것입니다. 아직 데이터베이스가 없기 때문에, 이는 우리를 위해 새 데이터베이스를 단순히 생성할 것입니다. 이제 Python 파일을 실행하면, 작업 중인 디렉토리에 music.db라는 새 파일이 나타날 것입니다. 이것이 우리의 데이터베이스입니다!
 
@@ -76,7 +116,18 @@ connect() 함수에 전달된 인수는 데이터베이스의 이름이 될 것�
 cursor = connection.cursor()
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 변수 cursor에는 데이터베이스에서 데이터를 삽입하고 가져올 수 있는 커서 개체가 포함되어 있습니다. 지금까지 다음 코드를 작성했어야 합니다:
 
@@ -94,7 +145,18 @@ cursor = connection.cursor()
 
 우선 데이터베이스에 테이블이 필요합니다. 우리는 80년대 노래를 나타내는 데이터를 사용할 것입니다. 커서 개체에서 execute() 메서드를 호출하여 SQL 문을 실행할 수 있습니다. 우리가 배울 첫 번째 문은 CREATE TABLE 문입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 테이블 만들기
@@ -107,7 +169,18 @@ cursor.execute("CREATE TABLE IF NOT EXISTS songs(name, artist, album, year, dura
 
 Python 파일을 실행한 후에 당신의 첫 번째 생각은 현재 디렉토리에 있는 music.db 데이터베이스 파일을 열어서 어떤 일이 발생했는지 조사하는 것이 될 것입니다. 그러나 music.db 파일의 정보는 이렇게 직접 열어서 확인할 목적으로는 설정되지 않았습니다. 여기에 있는 정보는 열람하려는 목적으로는 표시되지 않은 형식으로 보일 것입니다. 우리는 데이터베이스의 정보를 읽기 위해 더 많은 SQL 명령어를 작성해야 할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SQL 명령어를 처음 배우셨군요! SQL 명령어와 Python 라이브러리 sqlite3을 구분해야 합니다. SQL 명령어는 CREATE TABLE ... 이라는 문장 뿐입니다. 연결(connection)과 커서(cursor)는 데이터베이스와 상호 작용하는 데 사용되는 Python 객체입니다.
 
@@ -126,7 +199,18 @@ songs = [
 ]
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 튜플에는 노래 테이블의 열과 대응하는 다섯 부분이 있음을 확인할 수 있습니다. 첫 번째 노래에 대해 다음과 같습니다:
 
@@ -140,7 +224,18 @@ songs = [
 
 이 작업을 수행하는 한 가지 방법은 한 번에 한 개의 행을 테이블에 삽입하는 것입니다. 다음 코드는 첫 번째 노래를 테이블에 삽입합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 데이터베이스에 단일 값을 삽입합니다
@@ -159,7 +254,18 @@ for song in songs:
     connection.commit()
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이곳에는 새로운 SQL 명령이 없습니다. 노래 테이블에 모든 행이 삽입되도록 하는 몇 가지 Python 논리만 있습니다.
 
@@ -173,7 +279,18 @@ cursor.executemany("INSERT INTO songs VALUES(?, ?, ?, ?, ?)", songs)
 connection.commit()
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터베이스 music.db에 테이블 songs가 있고 몇 개의 행이 이미 삽입되어 있습니다. 지금까지 작성한 코드(주석 제외)는 다음과 같습니다:
 
@@ -204,7 +321,18 @@ connection.commit()
 
 이렇게 하면 다른 결과가 나오지 않도록 합니다. 위의 Python 파일을 실행하면 데이터베이스 상태를 재설정하고 다음 섹션에서 동일한 결과를 얻어야 합니다. 프로덕션 시스템에서 이런 문을 사용하면 행을 삽입할 때마다 전체 테이블이 다시 만들어져 매우 비용이 발생할 수 있습니다. 그러나 여기서 하는 실험에는 적합합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 데이터베이스에서 행을 불러오는 중
 
@@ -218,11 +346,22 @@ single_song = cursor.execute("SELECT * FROM songs").fetchone()
 print(single_song)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-보통은 SQL 문을 실행하기 위해 커서 개체에 .execute() 메서드를 사용합니다. 문 SELECT * FROM songs는 데이터베이스에서 모든 열과 모든 행을 불러옵니다. 그러므로 이는 모든 것을 우리에게 제공합니다. 그러나 sqlite3에서 .fetchone() 메서드를 사용하여 이러한 행 중 하나만 불러옵니다. 이렇게 하면 우리가 Python 파일을 실행할 때 하나의 노래만 출력하게 됩니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-와일드카드 심볼 *을 사용하여 모든 열을 다시 검색했습니다. 일부 열만 필요한 경우 다음과 같이 지정할 수 있습니다:
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+보통은 SQL 문을 실행하기 위해 커서 개체에 .execute() 메서드를 사용합니다. 문 SELECT \* FROM songs는 데이터베이스에서 모든 열과 모든 행을 불러옵니다. 그러므로 이는 모든 것을 우리에게 제공합니다. 그러나 sqlite3에서 .fetchone() 메서드를 사용하여 이러한 행 중 하나만 불러옵니다. 이렇게 하면 우리가 Python 파일을 실행할 때 하나의 노래만 출력하게 됩니다.
+
+와일드카드 심볼 \*을 사용하여 모든 열을 다시 검색했습니다. 일부 열만 필요한 경우 다음과 같이 지정할 수 있습니다:
 
 ```js
 # 하나의 노래의 이름과 아티스트 열만 불러오기
@@ -232,7 +371,18 @@ print(name_and_artist)
 
 .fetchone() 메서드 외에도 .fetchmany(number_of_rows) 및 .fetchall() 메서드를 사용하여 더 많은 행을 가져올 수 있습니다. 다음 코드는 .fetchall() 메서드를 사용하여 모든 노래를 선택합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 모든 행과 열을 다시 가져오기
@@ -253,7 +403,18 @@ print(f"평균 80년대 노래 재생 시간은 {int(average_duration // 60)}분
 
 우리는 조금 많이 오고 간다고 생각할 수도 있습니다. 이미 파이썬 스크립트에 원본 노래 목록이 있으므로, 왜 먼저 이를 데이터베이스에 삽입한 다음 다시 검색해야 할까요? 이것은 튜토리얼이 조금 인위적인 부분입니다. 실제로 데이터베이스로부터 데이터를 삽입하고 검색하는 파이썬 스크립트가 동일하지는 않습니다. 데이터베이스에 데이터를 삽입하는 여러 파이썬 스크립트(또는 다른 인터페이스)가 있을 수도 있습니다. 따라서 데이터베이스에서 데이터를 가져오고 평균 재생 시간을 계산하는 것이 이 정보를 얻는 유일한 방법일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로, 작업을 마무리하기 전에 데이터베이스 연결을 닫아야 합니다. 이전에 connection() 함수로 데이터베이스에 연결을 열었습니다. 이를 닫지 않으면 계속 열려 있어 복잡한 애플리케이션에서 성능 및 지속성 문제를 일으킬 수 있습니다. 데이터베이스 연결이 항상 닫혀 있는지 확인하는 것이 좋은 관행입니다. sqlite3에서는 연결 객체의 .close() 메서드를 사용하여 이 작업을 수행할 수 있습니다:
 
@@ -297,7 +458,18 @@ print(f"평균 80년대 노래의 재생 시간은 {int(average_duration // 60)}
 connection.close()
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 마무리
 
@@ -307,7 +479,18 @@ connection.close()
 
 제 글이 마음에 드셨나요? 더 많은 콘텐츠를 보시려면 제 다른 글도 확인해보세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 데이터 과학자로 성공하기 위해 필요한 소프트 스킬
 - 데이터 과학자로서 고품질 파이썬 쓰는 법

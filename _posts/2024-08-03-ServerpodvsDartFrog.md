@@ -3,17 +3,13 @@ title: "Serverpod vs Dart Frog 2024년 최신 백엔드 프레임워크 비교"
 description: ""
 coverImage: "/assets/img/2024-08-03-ServerpodvsDartFrog_0.png"
 date: 2024-08-03 20:30
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-03-ServerpodvsDartFrog_0.png
 tag: Tech
 originalTitle: "Serverpod vs Dart Frog"
 link: "https://medium.com/serverpod/serverpod-vs-dart-frog-2507df893273"
 isUpdated: true
 ---
-
-
-
-
 
 우리는 Dart 백엔드 프레임워크인 Serverpod와 다른 인기 있는 Dart Frog를 비교해 보기로 했어요. 이를 위해 Frog의 웹사이트에서 Todos 예제를 복제했어요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Dart Frog는 데이터 직렬화를 위한 네이티브 방식을 제공하지 않아요. 대신, json_serializable와 같은 서드파티 패키지를 활용하여 모델을 읽고 쓰도록 의존하고 있어요. 이것은 모델에 로직을 포함하고 싶을 때 유용할 수 있지만, 다른 컴퓨터 언어 간에 작동하지는 않아요. 이것은 Todos 예제의 모델이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // Dart Frog - 데이터 모델
@@ -91,8 +98,18 @@ fields:
 
 # 엔드포인트
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로는 다트 프로그와 Serverpod를 사용하여 엔드포인트와 메소드를 작성하는 방법을 살펴보겠습니다. 두 프레임워크는 매우 다른 접근 방식을 취합니다. 다트 프로그는 직렬화와 HTTP 요청을 수동으로 처리해야 하지만, Serverpod는 원격 메소드 호출을 사용합니다.
 
@@ -115,7 +132,18 @@ Handler middleware(Handler handler) {
 
 그 다음으로는 /todos 경로를 설정합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // Dart Frog - /todos 경로
@@ -224,8 +252,18 @@ Future<Response> _delete(RequestContext context, String id) async {
 
 그래서, 이러한 작업을 Serverpod로 어떻게 수행합니까? Serverpod에서는 엔드포인트 메서드를 Endpoint에 추가합니다. Serverpod는 서버 코드를 분석하여 필요한 서버 측 코드를 자동으로 생성합니다. 이 예제에서는 Dart Frog 예제와 동일하게 InMemoryTodosDataSource를 사용합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import 'package:serverpod/serverpod.dart';
@@ -263,7 +301,18 @@ Serverpod을 사용하는 장점 중 하나는 모든 것이 엄격히 유형화
 
 Dart Frog은 Flutter에서 서버를 호출할 때 거의 도움이 되지 않습니다. 이를 위해 HTTP 호출을 수행하고 데이터를 직렬화해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // Dart Frog - 클라이언트 코드
@@ -301,7 +350,17 @@ var newTodo = await client.todo.create(todo);
 
 # 결론
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Serverpod과 Dart Frog는 Dart 백엔드를 설계하고 구축하는 데 매우 다른 방식을 취합니다. Dart Frog는 서버 엔드포인트를 구조화하는 데 추가적인 유연성을 제공할 수 있지만, Serverpod는 백엔드를 최소한의 코드로 설정하는 실용적이고 견고한 방법을 제공합니다.

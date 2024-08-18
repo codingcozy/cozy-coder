@@ -3,17 +3,13 @@ title: "새로운 모바일 엔지니어링 포지션에서 성공하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-13-HowtoThriveataNewMobileEngineeringPosition_0.png"
 date: 2024-07-13 23:34
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-HowtoThriveataNewMobileEngineeringPosition_0.png
 tag: Tech
 originalTitle: "How to Thrive at a New Mobile Engineering Position"
 link: "https://medium.com/better-programming/how-to-make-the-most-of-your-first-month-at-a-new-mobile-engineering-position-8f9e2870d1f7"
 isUpdated: true
 ---
-
-
-
-
 
 안녕하세요! 🌟
 
@@ -25,7 +21,18 @@ isUpdated: true
 
 새로운 모바일 엔지니어링 역할에 대한 원활한 전환을 위한 조언들이 도움이 되었길 바라요! 🌿💡
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 디버그 메뉴가 있을까요?
 
@@ -36,7 +43,18 @@ isUpdated: true
 이것들은 새로운 이미지 자산을 가져오는 Gradle 작업부터 대량의 테스트 데이터를 생성하는 내부 웹 앱에 이르기까지 다양합니다.
 이러한 요소들은 종종 입사 시 교육과정에서 배제되기도 하는데, 이유는 이를 모두 다루기에는 지나치게 방대하다고 여겨지기 때문입니다. 중요한 것들 중 가장 필수적인 것은 동료에게 물어보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 디자인 시스템 문서 찾기
 
@@ -46,7 +64,18 @@ isUpdated: true
 
 제품 기반 팀을 갖고 있는 회사에서는 백엔드 및 웹 팀원이 종종 모바일 릴리스 진행 상황에 대해 질문하는 경우가 있습니다. 앱의 최신 버전을 어디서 찾을 수 있는지 배우고 채택 상황을 모니터링하는 것은 이 정보에 대해 다른 팀원들의 참고 자료가 될 수 있게 합니다. 당신의 온보딩 멘토나 같은 플랫폼에서 다른 동료에게 물어보세요 — 대개 대시보드나 Slack 채널이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 요청 권한 사전에 요청하기
 
@@ -56,7 +85,18 @@ isUpdated: true
 
 Sourcegraph, Livegrep, Glean과 같은 몇 가지 도구를 사용하면 회사의 모든 저장소를 검색할 수 있어요. 다른 저장소 또는 서비스와 상호 작용이 필요한 작업에 유용해요. 예를 들어 백엔드에서 deeplink가 어디에서 사용되는지 찾거나 백엔드 응답에서 enum 필드에 대한 가능한 값들을 찾을 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 테스트 장치가 필요한지 알아보세요
 
@@ -66,7 +106,18 @@ Sourcegraph, Livegrep, Glean과 같은 몇 가지 도구를 사용하면 회사�
 
 풀 리퀘스트 설명에 스크린샷이 필요한가요? 리뷰어가 미세한 코멘트만 있는 경우, 그것들을 작성자가 해결할 것을 신뢰하고 승인해도 괜찮을까요? 아니면 변경을 요청해야 할까요? 기대되는 회신 시간은 얼마인가요? 이에 대해 온보딩 멘토에게 물어보세요. 실제 풀 리퀘스트들을 살펴보면 문화가 어떻게 형성되어 있는지 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Slack 문화 알아보기
 
@@ -76,7 +127,18 @@ Sourcegraph, Livegrep, Glean과 같은 몇 가지 도구를 사용하면 회사�
 
 입사하면 팀이 중요한 채널에 여러분을 추가할 것입니다. 하지만 나머지 채널을 찾는 것은 여러분에게 달려있습니다. 프로그래밍 언어, 취미, 랜덤 커피 모임 채널, 동료들이 언급한 프로젝트, 특정 사무실... 처음 몇 주는 많은 채널에 가입한 후, 몇 주 뒤에 유용하지 않아 보이면 나가는 것을 좋아합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 회사 길드와 커뮤니티 살펴보기
 
@@ -86,7 +148,18 @@ Sourcegraph, Livegrep, Glean과 같은 몇 가지 도구를 사용하면 회사�
 
 나는 새로운 직장에 입사할 때마다 누락된 중요한 팀 미팅이 하나 또는 두 개 있었어요. 대부분 원격 작업일 때, 모든 팀이 동시에 자리에서 사라지는 것은 명백하지만, 그렇게 하기 어려울 때도 있죠. 아쉽게도 모든 팀 미팅을 나열하라고 말씀드리는 것만으로는 부족할 수 있어요. 왜냐하면 그들도 모든 것을 기억하지 못하기 때문이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **달력 확인하기**
 
@@ -98,7 +171,18 @@ Sourcegraph, Livegrep, Glean과 같은 몇 가지 도구를 사용하면 회사�
 
 ## 크래시 모니터링 및 사건 처리 방법 확인하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새 회사가 모바일을 위한 사고 처리 절차를 갖고 있다면 이 정보는 매우 유용할 거에요. 회사가 Crashlytics, Bugsnag, Sentry 또는 다른 무언가를 사용하는지 알아보세요. 처음 입사했을 때 팀이 사고를 겪지 않았으면 좋겠지만, 만약 사고가 발생한다면 해당 플랫폼에 미치는 영향을 조사하고 해결에 도움을 주는 데는 책임감과 능동성을 보일 수 있어요.
 
@@ -108,6 +192,17 @@ Sourcegraph, Livegrep, Glean과 같은 몇 가지 도구를 사용하면 회사�
 
 제가 언급한 모든 것을 살펴보면, 강조해야 할 주요 주제는 호기심을 갖고 패턴을 인식하는 것이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로운 회사의 문화와 코드베이스에 몰두하는 것을 개인적으로 즐깁니다. 새로 배워야 할 것들이 쏟아지는데 때로는 압도될 수도 있지만, 그 경험을 즐까 봅니다. 독자 여러분도 입사 프로세스를 즐기시고, 이 글이 도움이 되기를 바랍니다!

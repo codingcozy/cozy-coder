@@ -3,7 +3,7 @@ title: "내 짝꿍이 세상을 떠났어요 - 그 후 삶은 어떻게 달라�
 description: ""
 coverImage: "/assets/img/2024-07-13-MyCounterpartPassedAway_0.png"
 date: 2024-07-13 22:28
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-MyCounterpartPassedAway_0.png
 tag: Tech
 originalTitle: "My Counterpart Passed Away"
@@ -11,11 +11,7 @@ link: "https://medium.com/@yadayinyadayang/my-counterpart-passed-away-d09a32cbae
 isUpdated: true
 ---
 
-
-
-
-
-![My Counterpart Passed Away Image](/assets/img/2024-07-13-MyCounterpartPassedAway_0.png )
+![My Counterpart Passed Away Image](/assets/img/2024-07-13-MyCounterpartPassedAway_0.png)
 
 ## 나와의 만남 (원래) 상대방
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 당시 제가 아직 각성되지 않은 상태였기 때문에, 그가 내 상대반이거나 상대방이 있다는 것을 몰랐어요. 별자리 운세를 가끔 읽는 것 말고는 영적인 것들에 대해 잘 몰랐었죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희의 관계는 대부분 그저 그가 대학에 갔기 전 여름 동안의 일종의 문다 안에서 발생했어요.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 # 제 이야기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비록 우리의 반대편이 서로 다른 고등학교에 다녔고 고향의 다른 지역 출신이었지만, 당시 나의 베스트 프렌드는 어떻게 되어 이 아이를 알고 있었다.
 
@@ -43,11 +61,22 @@ isUpdated: true
 
 그게 사실인지 물었을 때, 그녀는 그것을 부인하고 그가 거짓말을 했다고 말했다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-아니, 안녕하세요! 손님들, 오늘은 한 장의 카드로 만난 이야기를 통해 우정과 로맨틱한 관계에 대해 이야기하려고 해요. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-당시에는 그 사람이 로맨틱한 파트너 후보에서 목록 상단에 올라가지 못할 것이 분명했고, 우리의 우정은 그 후로 눈살을 찌푸리게 할 것이라고 생각했어요. 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+아니, 안녕하세요! 손님들, 오늘은 한 장의 카드로 만난 이야기를 통해 우정과 로맨틱한 관계에 대해 이야기하려고 해요.
+
+당시에는 그 사람이 로맨틱한 파트너 후보에서 목록 상단에 올라가지 못할 것이 분명했고, 우리의 우정은 그 후로 눈살을 찌푸리게 할 것이라고 생각했어요.
 
 하지만 그 당시에는 알지 못했죠. 그 사건이 제가 깨어나기까지 25년이라는 세월이 흘러가는 동안 제 우정과 로맨틱한 관계에 대한 태도를 변화시키는 계기가 될 거라는 걸요.
 
@@ -55,7 +84,18 @@ isUpdated: true
 
 그의 입장이 어땠는지 함께 살펴보도록 할까요? 🌟
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 내가 알고 있는 내용에 따르면 (의식을 잃은 상태에서 최근 받은 정보), 그녀는 그와 대화하러 그의 집으로 갔지만, 그가 그와 나에 대해 이야기하는 대신 벗고 그의 침대에 누웠다네.
 
@@ -65,7 +105,18 @@ isUpdated: true
 
 그 후 그는 그 일이 벌어진 사실을 시인하고 자신을 설명하기 위해 나에게 전화했지만, 내가 그에게 기회를 주지 않았어.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 그가 세상을 떠났어요
 
@@ -75,7 +126,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-07-13-MyCounterpartPassedAway_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 이별은 환상일 뿐입니다
 
@@ -85,7 +147,18 @@ isUpdated: true
 
 내 현재 상대와는 무슨 일이 벌어질지는 말씀 드릴 수 없어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🌟 **내 현실 속으로 아직도 그것을 끌어당기고 있고, 자유의지가 어떻게 여정을 변화시키는지 이제 알게 되어서, 난 하루를 하루씩만 살아갈 수밖에 없어. 그게 바로 그것 아닐까?**
 
@@ -95,10 +168,32 @@ isUpdated: true
 
 🔮 **우리를 믿어요.**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나는 집단 의식을 믿어요. 친구들 - 너희를 보고, 듣고, 느끼고 있어. -Mandy © Mandy Tesdahl, 2024
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제 글을 좋아해주시면 박수를 치고 댓글을 남기고 팔로우 해주세요!

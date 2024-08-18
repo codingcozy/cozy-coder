@@ -3,17 +3,13 @@ title: "LLM API 비교 모델별 가격 분석"
 description: ""
 coverImage: "/assets/img/2024-06-23-LLMAPIsPriceComparisonbyModel_0.png"
 date: 2024-06-23 19:58
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-LLMAPIsPriceComparisonbyModel_0.png
 tag: Tech
 originalTitle: "LLM APIs: Price Comparison by Model"
 link: "https://medium.com/@Experto_AI/llm-apis-price-comparison-by-model-66d1c7bd259d"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-23-LLMAPIsPriceComparisonbyModel_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이 게시물을 쉽게 참조하기 위해 즐겨찾기해 두고, 새로운 LLM API 모델을 제안하거나 제공된 정보의 부정확성을 지적해 주십시오.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비교의 세부 사항에 대해 파헤치기 전에 맥락 개요부터 시작해보죠...
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ## 제공자는 어떻게 선택되나요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일단 모델을 식별하면 다양한 공급업체에서 그 모델을 추적합니다. 여기서는 각 모델에 대한 최상의 가격 옵션을 제시합니다. 추론용 API 공급업체가 없는 경우 목록에서 제거됩니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 ## 모델별 LLM API 요금 살펴보기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가장 강력한 LLM 모델들의 표:
 

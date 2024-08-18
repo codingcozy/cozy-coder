@@ -3,17 +3,13 @@ title: "아이폰 사용자 필독 필수 치트 시트 모음 2024"
 description: ""
 coverImage: "/assets/no-image.jpg"
 date: 2024-07-30 16:45
-ogImage: 
+ogImage:
   url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "IOS CHEAT SHEET DUMP"
 link: "https://medium.com/programming1/ios-cheat-sheet-dump-ade3e5b160dc"
 isUpdated: true
 ---
-
-
-
-
 
 # 포괄적인 iOS 개발 치트시트
 
@@ -25,7 +21,18 @@ isUpdated: true
 
 ## Xcode 기초
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 새 프로젝트: 파일 - 새로 만들기 - 프로젝트
 - 프로젝트 실행: Cmd + R
@@ -47,7 +54,18 @@ isUpdated: true
 var 변수명 = 값
 let 상수명 = 값
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 유형:
 
@@ -68,38 +86,69 @@ func functionName(parameterName: ParameterType) -> ReturnType {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 마크다운 형식으로 바꿔주세요.
 
-
 | Header 1 | Header 2 | Header 3 |
-|----------|----------|----------|
+| -------- | -------- | -------- |
 | Data 1   | Data 2   | Data 3   |
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 루프:
 
 ```js
-for item in collection {     // 루프 내용 }  
-while condition {     // 루프 내용 }  
-repeat {     // 루프 내용 } 
+for item in collection {     // 루프 내용 }
+while condition {     // 루프 내용 }
+repeat {     // 루프 내용 }
 while condition
 ```
 
 옵셔널:
 
 ```js
-var optionalString: String? = "안녕" 
+var optionalString: String? = "안녕"
 print(optionalString!) // 강제 언래핑
-if let unwrappedString = optionalString {     
+if let unwrappedString = optionalString {
     print(unwrappedString) // 옵셔널 바인딩
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 에러 처리:
 
@@ -123,7 +172,18 @@ do {
 
 뷰 구조:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 struct ContentView: View {     var body: some View {         Text("Hello, World!")     } }
@@ -137,40 +197,64 @@ Text("Hello, World!") Image(systemName: "star") Button(action: {     // action }
 
 Modifiers:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 Text("Hello, World!")     .font(.largeTitle)     .foregroundColor(.blue)
 ```
 
-
 Stacks:
-
 
 ```js
 VStack {     Text("First")     Text("Second") }  HStack {     Text("First")     Text("Second") }  ZStack {     Text("First")     Text("Second") }
 ```
 
-
 Navigation:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
-NavigationView {     NavigationLink(destination: AnotherView()) {         Text("다른 뷰로 이동")     } }
-
+NavigationView { NavigationLink(destination: AnotherView()) { Text("다른 뷰로 이동") } }
 
 Lists:
 
-
-List(items) { item in     Text(item.name) }
-
+List(items) { item in Text(item.name) }
 
 Forms:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 Form {     TextField("이름을 입력하세요", text: $name)     Toggle("알림 활성화", isOn: $isEnabled) }
@@ -184,19 +268,30 @@ Form {     TextField("이름을 입력하세요", text: $name)     Toggle("알�
 
 ObservableObject:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```swift
-class ViewModel: ObservableObject {  
-    @Published var text: String = "Hello" 
+class ViewModel: ObservableObject {
+    @Published var text: String = "Hello"
 }
 
-struct ContentView: View {  
-    @ObservedObject var viewModel = ViewModel() 
-  
-    var body: some View {         
-        Text(viewModel.text)     
-    } 
+struct ContentView: View {
+    @ObservedObject var viewModel = ViewModel()
+
+    var body: some View {
+        Text(viewModel.text)
+    }
 }
 ```
 
@@ -205,15 +300,26 @@ struct ContentView: View {
 View Controllers:
 
 ```swift
-class ViewController: UIViewController {     
-    override func viewDidLoad() {         
-        super.viewDidLoad()         
-        // setup code     
-    } 
+class ViewController: UIViewController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // setup code
+    }
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반적인 UI 요소:
 
@@ -237,24 +343,35 @@ let viewController = AnotherViewController()
 navigationController?.pushViewController(viewController, animated: true)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 뷰:
 
 ```swift
 class ViewController: UIViewController, UITableViewDataSource {
     let tableView = UITableView()
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.dataSource = self
         view.addSubview(tableView)
     }
-    
+
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return items.count
     }
-    
+
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         cell.textLabel?.text = items[indexPath.row].name
@@ -268,17 +385,17 @@ class ViewController: UIViewController, UITableViewDataSource {
 ```swift
 class ViewController: UIViewController, UICollectionViewDataSource {
     let collectionView: UICollectionView
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         collectionView.dataSource = self
         view.addSubview(collectionView)
     }
-    
+
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return items.count
     }
-    
+
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath)
         // 셀 구성
@@ -287,7 +404,18 @@ class ViewController: UIViewController, UICollectionViewDataSource {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스토리보드:
 
@@ -303,7 +431,18 @@ class ViewController: UIViewController, UICollectionViewDataSource {
 
 - URLSession:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 let url = URL(string: "https://api.example.com/data")!
@@ -330,33 +469,54 @@ let items = try? decoder.decode([Item].self, from: data)
 
 ## Core Data
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Core Data 스택 설정하기:
 
 ```swift
-import CoreData  
+import CoreData
 
-lazy var persistentContainer: NSPersistentContainer = {     
-    let container = NSPersistentContainer(name: "ModelName")     
-    container.loadPersistentStores { description, error in         
-        if let error = error {             
-            fatalError("Core Data 스택을 불러오는 데 실패했습니다: \(error)")         
-        }     
-    }     
-    return container 
+lazy var persistentContainer: NSPersistentContainer = {
+    let container = NSPersistentContainer(name: "ModelName")
+    container.loadPersistentStores { description, error in
+        if let error = error {
+            fatalError("Core Data 스택을 불러오는 데 실패했습니다: \(error)")
+        }
+    }
+    return container
 }()
 ```
 
 페치 요청:
 
 ```swift
-let fetchRequest: NSFetchRequest<EntityName> = EntityName.fetchRequest() 
+let fetchRequest: NSFetchRequest<EntityName> = EntityName.fetchRequest()
 let items = try? context.fetch(fetchRequest)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저장된 컨텍스트:
 
@@ -372,7 +532,18 @@ do {
 
 발행자와 구독자:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 import Combine class ViewModel: ObservableObject { @Published var text: String = "Hello" } let viewModel = ViewModel() let cancellable = viewModel.$text.sink { newValue in print("Text changed to \(newValue)") }

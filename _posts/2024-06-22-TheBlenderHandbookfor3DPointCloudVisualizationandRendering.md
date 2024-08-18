@@ -3,17 +3,13 @@ title: "포인트 클라우드 시각화 및 렌더링을 위한 블렌더 핸�
 description: ""
 coverImage: "/assets/img/2024-06-22-TheBlenderHandbookfor3DPointCloudVisualizationandRendering_0.png"
 date: 2024-06-22 16:51
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-TheBlenderHandbookfor3DPointCloudVisualizationandRendering_0.png
 tag: Tech
 originalTitle: "The Blender Handbook for 3D Point Cloud Visualization and Rendering"
 link: "https://medium.com/towards-data-science/the-blender-handbook-for-3d-point-cloud-visualization-and-rendering-1700ebe69c7b"
 isUpdated: true
 ---
-
-
-
-
 
 ## BLENDER
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이 도구는 Blender라고 합니다. 다양한 데이터 시각화 기술을 실험하여 복잡한 분석 시나리오에 대응할 수 있습니다. 그리고 이것이 바로 저희를 함께 모이게 한 이유입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 블렌더의 확장된 데이터 시각화 능력과 결합하여 리얼리티 캡처 데이터셋(포인트 클라우드 형태)을 처리하는 최상의 기본적인 워크플로우는 무엇인가요?
 
@@ -31,7 +38,18 @@ isUpdated: true
 
 이 가이드에서는 아래에 설명된 9단계의 프로세스로 나누어 설명하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 데이터 시각화를 위한 분석 내용으로 여러 경로 추출 시갠 제품을 생성하도록 해줍니다. 하지만 바로 시작하기 전에, 데이터 시각화에 대해 어떻게 생각하시나요?
 
@@ -39,7 +57,18 @@ isUpdated: true
 
 # 데이터 시각화를 위한 분석
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 무언가를 생각할 때 어떤 시각적 표현을 만들어 놓는다고 느끼시나요? 희귀종인 나르월(Monodon monoceros) 같은 것을 언급한다면 이미 알고 있는 "데이터/지식 점"이 있다면, 바로 이 '바다의 유니콘'으로 불리는 이 생물의 긴 나선 모양의 엄니를 떠올리게 될 것입니다.
 
@@ -49,7 +78,18 @@ isUpdated: true
 
 하지만 더욱 강력한 건 현대 컴퓨팅 시스템을 통해 실제 물체를 나타내는 3D 지오메트리와 속성을 다루는 능력입니다. 실제로, 이것은 우리가 좀더 관련성을 갖고 설정한 목표에 맞는 더 나은 시각화를 만들 수 있도록 하는 필수적인 도구로 작용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 중요성에 대해 이야기할 때, 자크 베르탱(1918~2010)에 대해 들어보셨나요? 벨기에 가수 자크 브렐이나 프랑스 전 대통령 자크 시라크, 해군 장교 자크 쿠스토가 아니라 자크 베르탱에 관해 한 번 이야기해 보렐까요?
 
@@ -59,7 +99,18 @@ isUpdated: true
 
 이 시각 변수들은 매력적인 시각화를 디자인하기 위한 구조화된 프레임워크를 제공합니다. 이러한 변수들을 전략적으로 선택하고 결합함으로써, 우리는 복잡한 정보를 효과적으로 전달하는 시각적 표현물을 만들어 낼 수 있습니다. 이를 통해 시청자가 데이터를 이해하고 해석하기 쉽게 만들어줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🦊 플로랑: 내가 너의 마음에 이 작은 씨앗을 심음으로써, 너가 이 글을 읽으면서 다양한 렌더링 옵션들과 놀면서 변수가 데이터 시각화 제품의 목표에 전달되는 메시지에 어떻게 영향을 미치는지에 대해 어떤 평행을 유발할 수 있기를 바란다!
 
@@ -69,8 +120,18 @@ isUpdated: true
 
 우리의 환경을 설정하는 것으로 시작해보겠습니다. 이를 위해 브라우저를 열고 Blender를 검색하세요. Blender 웹사이트에 도착하면 다운로드 섹션으로 이동하여 Blender를 다운로드하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*Duf49e4mj8YYS2Bj9S2wJg.gif)
 
@@ -80,8 +141,18 @@ Blender의 버전은 적어도 3.6 이상이어야 합니다. 이 버전은 특�
 
 OS에 Blender 3.6.4 이상을 성공적으로 다운로드했다면, 설치를 해보세요. 이 튜토리얼에서는 Windows를 사용하겠지만, Linux나 MacOS에서도 동일하게 작동해야 합니다. Blender를 설치했다면, 두 번째 단계로 넘어가서 3D 포인트 클라우드 데이터셋을 수집할 차례입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 2. 3D 포인트 클라우드 전처리
 
@@ -91,7 +162,18 @@ OS에 Blender 3.6.4 이상을 성공적으로 다운로드했다면, 설치를 �
 
 🦚 참고: "PLY" 파일 형식은 "다각형 파일 형식"을 나타내며 3D 기하학 데이터를 저장하는 데 널리 사용됩니다. 이 형식은 Stanford 대학의 Greg Turk와 Marc Levoy에 의해 개발되었으며 3D 모델을 정점(공간상의 점)과 다각형(일반적으로 삼각형 또는 사각형이지만, 다른 다각형 유형도 사용할 수 있음)의 집합으로 표현할 수 있습니다. 이는 다양하며 각 정점 또는 면과 관련된 데이터 속성 범위를 지원하며 색상, 법선 벡터, 텍스처 좌표 등을 포함할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 포인트 클라우드의 경우, 우리는 얼굴이 없고 점만 가지고 있습니다. 이 점들은 공간에서의 x, y, z 좌표로 정의되는 3D 점들입니다. "PLY" 파일을 준비할 때, 각 점이 연관된 하나의 추가 속성(색상)을 가지도록 합니다.
 
@@ -101,7 +183,18 @@ OS에 Blender 3.6.4 이상을 성공적으로 다운로드했다면, 설치를 �
 
 ![이미지](/assets/img/2024-06-22-TheBlenderHandbookfor3DPointCloudVisualizationandRendering_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 초기 장면을 하위 요소로 효율적으로 분할해서 관심 지점을 담고 있는 "레이어"로 데이터를 준비할 수 있었어요.
 
@@ -111,8 +204,18 @@ OS에 Blender 3.6.4 이상을 성공적으로 다운로드했다면, 설치를 �
 
 이 분할된 요소를 사용하기 전에, 전체 포인트 클라우드를 하나의 entity로 내보내기도 했어요. 여기서 다운로드할 수 있어요: [포인트 클라우드 데이터 다운로드](Point Cloud Data Download).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-22-TheBlenderHandbookfor3DPointCloudVisualizationandRendering_4.png)
 
@@ -122,8 +225,18 @@ Step 3 이동 전에 전체 포인트 클라우드 데이터 세트를 다운로
 
 이제 3D 데이터 세트와 Blender가 모두 설치되었으므로 사용할 시간입니다!
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🦊Florent: 블렌더 내에서 3D 포인트 클라우드를 가져오는 것은 도전적일 수 있으며, 최상의 및 가장 빠른 방법을 찾는 데 시간이 걸렸어요. 그러나, 적어도 10시간 이상의 복잡한 시행착오를 거칠 필요 없이 작동하는 방법을 발견했답니다. Blender 버전 (3.6.4+)을 사용하면 색상 정보가 포함된 포인트 클라우드를 가져올 수 있게 되었는데, 이전에는 불가능했어요.
 
@@ -133,8 +246,18 @@ Blender 3.6을 실행하려면, 프로그램을 그냥 열어주세요. 안으�
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*A8Ih-UvMf1OViKKcwz7k3Q.gif)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/1*3Q10Ik1O01ccdsxOVjD0Sg.gif)
 
@@ -144,8 +267,18 @@ Blender 3.6을 실행하려면, 프로그램을 그냥 열어주세요. 안으�
 
 ![이미지](/assets/img/2024-06-22-TheBlenderHandbookfor3DPointCloudVisualizationandRendering_5.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 이전에 다운로드한 .PLY 데이터 세트를 가져올 수 있습니다. 파일을 클릭하여 가져오세요. 가져온 후 1500만 점의 포인트 클라우드를 로드하는 데 몇 초만 소요됨을 알 수 있습니다. 세부 사항을 더 잘 확인하려면 휠을 사용하여 회전 및 확대할 수 있습니다.
 
@@ -155,7 +288,18 @@ Blender 3.6을 실행하려면, 프로그램을 그냥 열어주세요. 안으�
 
 # 단계 4. 3D 데이터 시각화를 위한 블렌더 UI 설정
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 블렌더 UI를 초기 레이아웃보다 더 잘 정리해 봅시다. 여기서는 조금 기술적이니 충분한 집중력과 에너지가 필요할 거에요!
 
@@ -165,7 +309,18 @@ Blender 3.6을 실행하려면, 프로그램을 그냥 열어주세요. 안으�
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/1*B2Bde5Z9sSLC4oojCbjkgg.gif)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼요, 이제 시작할 준비가 모두 완료되었습니다. 우리는 포인트 클라우드를 성공적으로 로드했지만 모두 검은 색으로 보입니다. 그러나 걱정하실 필요는 없어요. 곧 이 문제를 해결할 거에요. 중요한 점은 이제 카메라, 메시 및 광원이 포함된 씬 콜렉션을 갖고 있다는 것입니다.
 
@@ -175,7 +330,18 @@ Blender 3.6을 실행하려면, 프로그램을 그냥 열어주세요. 안으�
 
 우리의 목표는 이 메시 객체를 포인트 클라우드 객체로 변환하고 각 포인트의 색상을 읽는 것입니다. 이를 위해 지오메트리 노드를 생성할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🦊Florent: 간단히 적어둡니다. Control+C 및 Control+V와 같은 키보드 바로 가기는 마우스 위치에만 작동합니다. 특정 영역에서 무언가를 복사하고 붙여넣기하려면 마우스가 해당 영역에 있는지 확인하세요.
 
@@ -185,7 +351,18 @@ Blender의 Geometry 노드는 사용자가 3D 지오메트리를 절차적으로
 
 먼저 메시를 선택한 후 Geometry 노드 창으로 이동해야 합니다. 거기서 "New"를 클릭하여 지오메트리 노드를 생성합니다. 이를 간단히 설명하겠습니다. 그것은 geometry라는 두 개의 그룹 입력과 출력으로 구성됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "지오메트리를 수정하기 위해 "메쉬를 포인트로" 노드를 추가할 거에요. 추가하면 노드가 자동으로 연결되어, 마법같은 일이 일어날 거예요. 모든 포인트에는 공 모양의 지오메트리가 부착되고, 각 공의 반지름을 0.01 (1센티미터)로 설정하여 수정할 수 있어요. 보시다시피, 모든 포인트가 노드에 표시돼 있어요.
 
@@ -195,7 +372,18 @@ Blender의 Geometry 노드는 사용자가 3D 지오메트리를 절차적으로
 
 <img src="/assets/img/2024-06-22-TheBlenderHandbookfor3DPointCloudVisualizationandRendering_6.png" />"
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 렌더링된 디스플레이 미리보기는 재질을 설정한 후에 작동합니다. 하지만 우리는 아직 재질을 하나도 가지고 있지 않기 때문에 작동하지 않습니다. 따라서 논리적으로 다음 단계는 각 포인트에 재질을 부착하는 것입니다.
 
@@ -205,7 +393,18 @@ Geometry Nodes에 해당하는 것으로 Shader Nodes가 있습니다. 이들은
 
 재질은 물체가 빛과 상호 작용하는 방식을 결정하여 외관을 부여합니다. Shader Nodes는 Shader Editor에서 편집됩니다. 이는 Blender 내에서 전용 워크스페이스로, 노드를 사용하여 재료를 만들고 편집하는 시각적 인터페이스를 제공합니다. 이제 시작해보죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Shader Editor에서 "새로운 재질"을 만듭니다. "새로 만들기" 버튼을 클릭하여 'material.001'이라는 이름의 재질을 만들 수 있습니다. 이 재질에는 주요 BSDF와 재질 출력이 포함되어 있습니다. 그러나 사용하기 위해서는 몇 가지 속성을 추가해야 합니다. 속성을 추가하기 위해 "추가" 버튼을 클릭하고 "속성" 옵션을 찾습니다. 그런 다음 컬러 매개변수를 선택하고 이를 우리의 주요 BSDF의 베이스 컬러 매개변수에 연결합니다.
 
@@ -213,8 +412,18 @@ Shader Editor에서 "새로운 재질"을 만듭니다. "새로 만들기" 버�
 
 다음 단계는 색상에 대한 올바른 속성을 읽고 설정하는 것입니다. 스프레드시트 뷰에서는 더 이상 메쉬가 아닌 "Col" 속성이 있는 포인트 클라우드 유형으로 나타납니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-TheBlenderHandbookfor3DPointCloudVisualizationandRendering_7.png" />
 
@@ -224,8 +433,18 @@ Shader Editor에서 "새로운 재질"을 만듭니다. "새로 만들기" 버�
 
 우리의 지오메트리에 새 재료를 부착하려면, "Set material"이라는 새로운 노드를 지오메트리 노드에서 만들어야 합니다. 이 과정은 간단합니다. 노드를 가운데에 놓으면 자동으로 간격을 맞출 것입니다. 그러고나서 드롭다운에서 재료를 선택하면 끝입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*Ph-9AagMnvT_HvdXcdv0wQ.gif)
 
@@ -235,8 +454,18 @@ Shader Editor에서 "새로운 재질"을 만듭니다. "새로 만들기" 버�
 
 해당 단계를 완료했다면 여전히 화면에 아무것도 보이지 않아서 답답할 수 있습니다. 포인트 클라우드를 다루고 있기 때문에 특정 유형의 후처리 렌더러 인 Cycles가 필요합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🦊 Florent: 싸이클(Cycles)은 Blender에서 사용되는 렌더링 엔진으로 현실적인 이미지를 생성하는 데 사용됩니다. 이는 빛의 행동을 시뮬레이션하는 패스 추적 렌더러로, 반사, 굴절, 그리고 전체 조명 같은 복잡한 효과를 가능하게 합니다. 싸이클은 고품질 출력으로 유명하며 Blender에서 사실적인 장면을 만드는 데 널리 사용됩니다. 저는 정말 좋아해요.
 
@@ -246,7 +475,18 @@ Shader Editor에서 "새로운 재질"을 만듭니다. "새로 만들기" 버�
 
 이제 렌더러를 설정했으므로 최종 결과물을 보기 위해 미리보기 렌더링을 클릭할 수 있습니다. 결과가 마음에 들지 않는다면 재미있는 상황이네요. 하하, 그것은 함정이었어요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시각적으로 조명이 필요합니다! 재료가 빛에 반응하는 효과를 얻기 위해 장면에 조명을 추가해야 합니다. 준비되셨나요?
 
@@ -256,8 +496,18 @@ Blender에서 조명은 장면을 현실적으로 조명하기 위해 조명 소
 
 먼저, 조명을 선택하고 움직이기 아이콘을 클릭하여 원하는 위치로 정확히 이동시킵니다. 이렇게 하면 모든 것이 부드럽고 더 현실적으로 보이게 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![](https://miro.medium.com/v2/resize:fit:1400/1*_CNOkMDpuqilMNLkjkKJcQ.gif)
 
@@ -267,8 +517,18 @@ Blender에서 조명은 장면을 현실적으로 조명하기 위해 조명 소
 
 ![](https://miro.medium.com/v2/resize:fit:1400/1*_RuwKTykijg3v-VhZ4uISQ.gif)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 거기서는 이미 하얀색인 점들에 대한 빛 효과를 수정할 수 있어요. 빛을 움직이면 실시간으로 변화를 관찰할 수 있어요.
 
@@ -278,7 +538,18 @@ Blender에서 조명은 장면을 현실적으로 조명하기 위해 조명 소
 
 # 단계 8. 스토리보드 정의
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 좋아요, 이제 무거운 주제에 들어가 봅시다. 이 새로운 기술 세트를 구체적인 응용 프로그램에 사용해 보겠습니다: 추출 경로 계획.
 
@@ -288,7 +559,18 @@ Blender에서 조명은 장면을 현실적으로 조명하기 위해 조명 소
 
 당신의 연락망 덕분에 그곳의 3D 스캔 자료를 손에 넣었고, 이제 추출의 성공을 보장하기 위한 최적의 네비게이션 지도를 작성할 차례입니다. 이를 달성하기 위해 최초로 추출 계획에 포함해야 할 다섯 가지 주요 포인트를 포함한 명세서를 설정했어요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 초기 포인트 클라우드의 다양한 (3-5) 관점 뷰
 - 관심 대상의 다양한 돋보인 객체로 아티팩트의 상대적인 공간 안에 잘 배치
@@ -302,7 +584,18 @@ Blender에서 조명은 장면을 현실적으로 조명하기 위해 조명 소
 
 프로세스를 시작하기 전에, 제 Step 2 (포인트 클라우드 사전 처리)에서 분해된 하위 요소들을 다운로드하는 것을 권장합니다. 그런 다음, 모든 포인트 클라우드를 로드하고 위에서 언급한 단계를 따라 각 포인트 클라우드를 다음과 같이 얻을 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-TheBlenderHandbookfor3DPointCloudVisualizationandRendering_9.png" />
 
@@ -312,7 +605,18 @@ Blender에서 조명은 장면을 현실적으로 조명하기 위해 조명 소
 
 ## 1. 포인트 클라우드 렌더링
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다양한 관점을 생성하기 위해서는 장면을 탐색하여 교차점을 명확히 보여줄 수 있는 최적의 장소를 찾아야 합니다. 예를 들어 먼저 아래에 표시된 대로 다양한 장소에 조명을 추가해야 할 수도 있습니다.
 
@@ -322,7 +626,18 @@ Blender에서 조명은 장면을 현실적으로 조명하기 위해 조명 소
 
 🧙‍♂️ 전문가: 카메라 설정을 조정하고 싶다면 초점 거리(Focal Length)를 변경하여 할 수 있습니다. 아래 그림에서처럼 저는 25mm 초점 거리를 사용했습니다. 또한 점의 반경도 독립적으로 조절할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 거기서 Render Image 탭 버튼을 누르면 현재 카메라 위치에서 이미지를 내보낼 수 있습니다.
 
@@ -332,7 +647,18 @@ Blender에서 조명은 장면을 현실적으로 조명하기 위해 조명 소
 
 ## 2. 관심 대상
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 목표는 테이블 위의 의자, 가스 탱크, 양털 기계 및 목표물을 강조하여 공간과 목표를 보다 명확하게 전달하는 것입니다. 자크 베르탱의 작업을 따라 가능한 조정할 수 있는 매개변수를 조정할 수 있습니다. 저는 각 개별 객체에 부여한 기본 색상으로 새로운 소재를 만들었습니다:
 
@@ -342,7 +668,18 @@ Blender에서 조명은 장면을 현실적으로 조명하기 위해 조명 소
 
 ![각 객체에 대해 이렇게 함으로써 우리 눈을 더 잘 이끌 수 있는 렌더를 생성할 수 있습니다:](/assets/img/2024-06-22-TheBlenderHandbookfor3DPointCloudVisualizationandRendering_11.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🌱 성장 중: 전달된 메시지를 어떻게 개선할 수 있을까요? 변수 조정(색상)의 선택이 타당하다고 생생하십니까?
 
@@ -352,8 +689,18 @@ Blender에서 조명은 장면을 현실적으로 조명하기 위해 조명 소
 
 우선, 원뿔 메시 오브젝트를 생성해야 합니다. '메쉬' - '원뿔 추가' 옵션으로 이동하여 씬의 중심에 원뿔 메시를 생성할 수 있습니다. 그 다음, 해당 원뿔을 선택한 후, 크기를 조절하고 왼쪽에 있는 버튼을 사용하여 회전시키십시오. 마지막으로, 아래에 표시된 대로 목표물 위에 오브젝트의 위치를 변경하고 재료를 부여하면 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](https://miro.medium.com/v2/resize:fit:1400/1*73JNEOXDwlsNfg2M6xqIwg.gif)
 
@@ -363,8 +710,18 @@ Beautiful! It's time to get onto the extraction route.
 
 ## 4. Top-down Extraction Route
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Grease Pencil을 사용하면 마우스로 그림을 그릴 수 있어요. 올바르게 사용하려면 먼저 `Grease Pencil`을 추가해야 해요. 그 다음 "Top View"로 이동해서 "Draw Mode"를 눌러 경로를 그릴 수 있어요. 경로를 그린 후에는 Object Mode로 돌아가서 그리스 경로를 적절한 위치로 이동시켜야 해요. 아래 이미지를 참고해주세요.
 
@@ -374,7 +731,18 @@ Grease Pencil을 사용하면 마우스로 그림을 그릴 수 있어요. 올�
 
 ![그림2](https://miro.medium.com/v2/resize:fit:1400/1*mE_t1JPB6wJvlHk8ECXSzQ.gif)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 있습니다. 우리는 추출 경로의 매력적인 전경을 얻기 위해 렌더링을 실행합니다!
 
@@ -384,17 +752,39 @@ Grease Pencil을 사용하면 마우스로 그림을 그릴 수 있어요. 올�
 
 마지막 단계는 경로의 일인칭 시점을 얻는 것입니다. 만약 직접 렌더링을 한다면, 다음과 같은 결과물이 나올 것입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-TheBlenderHandbookfor3DPointCloudVisualizationandRendering_13.png" />
 
-사실 그리스 펜슬에는 깊이 테스트가 없습니다. 여기서 또 다른 꿀팁을 알려드릴게요. Z-깊이 테스트를 활성화하려면 ` 에디터 패널 ` 뷰 레이어 속성 ` 패스 -` 데이터로 이동하여 Z를 활성화하세요.
+사실 그리스 펜슬에는 깊이 테스트가 없습니다. 여기서 또 다른 꿀팁을 알려드릴게요. Z-깊이 테스트를 활성화하려면 `에디터 패널` 뷰 레이어 속성 ` 패스 -` 데이터로 이동하여 Z를 활성화하세요.
 
 <img src="/assets/img/2024-06-22-TheBlenderHandbookfor3DPointCloudVisualizationandRendering_14.png" />
 
 이렇게 하면 렌더를 다시 생성할 때 가려지는 부분 테스트를 통과할 수 있어서 포인트 클라우드를 처리하는 데 훌륭합니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -404,7 +794,18 @@ Grease Pencil을 사용하면 마우스로 그림을 그릴 수 있어요. 올�
 
 🦊 플로랑: 블렌더의 강력한 도구와 새로운 전문 지식을 바탕으로, 몰입감 있고 고품질의 실내 시각화를 위한 가능성이 이제 여러분 손안에 있습니다. 그래서 이 안내서를 들고 자신감 있게 여러분의 다음 3D 여정에 돌입해보세요. 원시 포인트 데이터를 멋진 시각적 표현으로 변환할 수 있다는 것을 인지하며, 행복한 블렌딩이 되길 바랍니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 참고 자료
 
@@ -415,7 +816,18 @@ Grease Pencil을 사용하면 마우스로 그림을 그릴 수 있어요. 올�
 
 # 🔷기타 자료
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 🍇 데이터에 액세스하려면 여기를 방문하세요: 3D 데이터셋
 - 👨‍🏫 3D 온라인 데이터 과학 코스: 3D 아카데미

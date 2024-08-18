@@ -3,18 +3,13 @@ title: "에어비앤비 숙소에서 숨겨진 카메라를 발견했어요"
 description: ""
 coverImage: "/assets/img/2024-06-19-IFoundaHiddenCamerainMyAirbnb_0.png"
 date: 2024-06-19 04:28
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-IFoundaHiddenCamerainMyAirbnb_0.png
 tag: Tech
 originalTitle: "I Found a Hidden Camera in My Airbnb"
 link: "https://medium.com/long-sweet-valuable/i-found-a-hidden-camera-in-my-airbnb-fa0ba4704424"
 isUpdated: true
 ---
-
-
-
-
-
 
 <img src="/assets/img/2024-06-19-IFoundaHiddenCamerainMyAirbnb_0.png" />
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 침실에 있는 선반 위로 빛이 비쳤을 때, 작은 빛이 반사돼 다시 내게 돌아왔어요.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그게 뭐에요?
 
@@ -35,7 +40,18 @@ isUpdated: true
 
 ## Airbnb와 숨겨진 카메라
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 에어비앤비에서 감정했는데 Hidden카메라라는 기사가 많이 있었어요. 하지만 그 경고를 심각하게 생각한 적은 없었어요. 카메라가 드물고 걱정할 건 없다고 생각했거든요. 누가 나를 구경하고 싶어할까요?
 
@@ -45,7 +61,18 @@ isUpdated: true
 
 집의 보안을 모니터링하고 무단 출입객을 방지하려는 호스트들을 위해, 외부 카메라는 여전히 허용되고 있어요. 이러한 카메라의 존재와 일반적인 위치는 방 명세에 공개돼야 해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 손님이 감시받기를 원치 않는다면, 다른 곳에 머물 수 있습니다.
 
@@ -55,7 +82,18 @@ isUpdated: true
 
 미국에서는 15개 주만이 보안 카메라에 관한 특정 법을 갖고 있으며, 캘리포니아가 하나에 속합니다. 이 주의 공공질서 법은 "화장실, 탈의실, 태닝 부스 또는 사생활을 예상할 수 있는 장소에서 사람을 비밀리에 촬영하는 데 숨겨진 캠코더, 영화 카메라 또는 사진 카메라를 사용하는 것을 금지합니다."
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 에어비앤비의 침실을 포함합니다.
 
@@ -65,7 +103,18 @@ isUpdated: true
 
 ## 앞으로의 계획
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제는 호텔에서만 숙박을 합니다. 호텔 객실에도 숨겨진 카메라가 있을 수 있지만, 기업의 감시가 있을 때 더 안전하다고 느껴요. 또한 각 방이 동일하다면 숨기기가 더 어려울 것 같아요.
 
@@ -75,7 +124,18 @@ isUpdated: true
 
 누군가가 지켜보고 있는 건 아닐까 걱정이 돼요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저도 호스트로서 좋은 경험을 하지 못했던 이야기를 읽어보세요:
 

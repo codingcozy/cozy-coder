@@ -3,16 +3,13 @@ title: "당신의 이야기를 위한 시각적 서술 만들기 ChatGPT, 중간
 description: ""
 coverImage: "/assets/img/2024-05-27-CreatingVisualNarrativesforYourStoriesChatGPTMidJourneyMagic_0.png"
 date: 2024-05-27 15:27
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-CreatingVisualNarrativesforYourStoriesChatGPTMidJourneyMagic_0.png
 tag: Tech
 originalTitle: "Creating Visual Narratives for Your Stories: ChatGPT , MidJourney Magic"
 link: "https://medium.com/the-generator/creating-visual-narratives-for-your-stories-chatgpt-midjourney-magic-f84d9d899453"
 isUpdated: true
 ---
-
-
-
 
 당신에게 익숙한 소리인가요? 혈관을 타고 카페인이 흘러 들어오며, 완벽한 단어들의 전성기가 화면 위에 머물기 시작하고, 마침내 지금 막 미디엄의 낯선 세계에 최신 작품을 펼쳐보려는 찰나, 벽에 부딪치는 순간. 이것은 작가의 블록이 아니라, 똑같이 악랄하고 영혼을 파괴하는 무언가요 - 완벽한 이미지를 찾는 탐험.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 몇 달 전, 좌절에 격려로부터 영감을 받은 한 순간에, MidJourney AI 마술과 우리 자신의 작가적 조합을 결합하여 맞춤 이미지를 만드는 것에 대해 썼습니다. 넓은 인터넷 황무지를 헤매는 시간을 절약했고, 우리 단어가 실제로 자신만의 시각적 요소를 만들어 냈기 때문에 그것이 어딘가 멋있었습니다. 거의 3천 회의 조회수와 약간의 미디엄 부스트 마법을 거치면서, 그 글은 인기가 있어 보였습니다. 자, 알겠나요? 저는 연구실에서 바쁘게 지내고 있었습니다 (아니요, 사실 제가 연구실이 없어, 그런데 뭔가 공식적이죠) 새롭고 개선된 버전을 연마해서 이제 여러분에게 공개할 준비가 되었습니다. 그러니 커피를 마시고 자신의 두뇌를 켜세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # AI로 무장하기
 
@@ -32,7 +40,18 @@ ChatGPT: 저는 ChatGPT의 고급 데이터 분석 모드를 활용하고 있어
 
 MidJourney: 현재 가장 진보된 생성형 AI 미술 도구 중 하나일 수 있지만, 무료가 아니에요. 또한 MidJourney에는 사용하기 어려운 사용자 인터페이스가 있어서 Discord를 통해서 사용해야 해요. 만약 이 말이 헷갈리는데도 깊이 들어가 보려 한다면, 혼자서 시도하시는 것이 좋아요. MidJourney를 사용하지 못하는 경우에는 무료 도구인 Playground.ai를 대신 사용해 볼 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 둘은 함께하면 이 기사 전체를 효과적으로 전달해주는 다이내믹한 듀오야. 그리고 내 이전 글에서 MidJourney 방법이 시간을 아낄 만큼 멋지다고 열폭을 토했는데, 그걸 ChatGPT의 분석 능력과 결합하면? 우와, 여러분 말야, 이제 우리가 틀을 깨버릴 준비가 됐어.
 
@@ -42,7 +61,18 @@ MidJourney: 현재 가장 진보된 생성형 AI 미술 도구 중 하나일 수
 
 여기 우리 목표를 다시 강조해볼게요: 우리가 하는 건 우리가 작성한 멋진 글을 가져다가 독특하고 원본 이미지 4장을 만들어내서 사용하는 거에요. 이미지들은 모두 동일한 창의적 주제와 관련이 있을 것이고, 이는 당신의 기사 콘텐츠와 분위기와 관련이 있을 거에요. 이제 이 방법을 따라가는 데에는 시간이 걸리겠지만, 익숙해지면 다른 글에도 몇 분 안에 반복적으로 할 수 있어. 멋지죠!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 우리는 쓴 글 중 하나를 선택해야 해요. 거의 모든 기사든 상관 없어요 — 하지만 더 열정적이면 결과를 더 즐길 거예요. 저는 몇 년 전에 쓴 "Beneath Office Rivalries Lurks an Evil Pleasure"라는 제목의 글을 선택했어요. 그때 골랐던 멋진 스톡 이미지 헤더가 있어요. 분명히 기억이 나요 — 저는 아기 여자아이의 기저귀를 갈아입히고 요랑에 넣었고, 이미지를 찾아 기사를 제출하기 위해 늦게까지 일했어요. 그런데 갑자기, 딸의 첫 고등학교 첫 날이 왔어요. 그때 발견할 수 있는 좋은 이미지를 찾는 데 오래 걸렸어요!
 
@@ -52,7 +82,18 @@ MidJourney: 현재 가장 진보된 생성형 AI 미술 도구 중 하나일 수
 
 # 단계 2: ChatGPT 분석
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 넵, ChatGPT에게 이야기나 기사를 소개할 시간이에요. AI가 깊숙히 파고들어 단어의 본질을 흡수하고 여러분의 말과 함께 하도록 하고 싶어요. 그래서 나는 고급 데이터 분석 모드를 사용하는 걸 좋아해요. 그것이 그렇게 잘할 것 같아 보이기 때문이에요. 그게 사실인지에 대한 경증적 증거는 없지만, 직감이라고 하죠. 그리고 나는 살짝 이상한 사람이라서 고급 모드로 물건을 만지작거리는 것을 좋아해요. 아마도 그게 왜 내 삶이 항상 복잡한지도 모르겠죠.
 
@@ -60,9 +101,9 @@ MidJourney: 현재 가장 진보된 생성형 AI 미술 도구 중 하나일 수
 
 - 내 탁월한 프롬프트(아래)를 ChatGPT 입력란에 복사해넣어. 지금은 세부 사항에 빠져들지 말고요; 나중에 각 단계를 더 자세히 살펴 볼 거에요. 그리고 지금은 엔터를 누르지 말고 "메시지 보내기"도 클릭하지 마세요! 제발 참을성 좀 가져 주세요.
 
+| 작업 명세서 |
+| ----------- |
 
-| 작업 명세서|
-| ------------ |
 | 당신은 디테일에 뛰어난 창조적인 디자이너이자, 단어와 이야기를 몰입적인 이미지와 아트워크로 해석하는 능력을 지녔네요. 당신의 작업은 아래의 작업을 하나씩 수행하는 거에요:
 
 1. 첨부된 전체 기사를 분석해주세요. 분석 결과를 바탕으로, 기사의 분위기와 맥락을 이해한 뒤, 이 기사에 대한 이미지와 아트워크를 만들기 위해 적용할 창조적 스타일을 추천해주세요. 유명한 예술 표현, 트렌드, 스타일, 시기, 방법 등의 조합을 사용하여 창조적 스타일을 설명해주세요. 이미지 스타일은 실제 사진이 아닌, 기사의 맥락에 잘 어울리는 창조적 표현이어야 합니다.
@@ -75,8 +116,18 @@ MidJourney: 현재 가장 진보된 생성형 AI 미술 도구 중 하나일 수
 
 한 작업을 끝내고 다음 작업을 시작하기 전에 제 승인을 받아주세요.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 챗GPT 입력 상자의 작은 "+" 아이콘을 클릭하세요. 이렇게 하면 기사가 포함된 텍스트 파일을 업로드할 수 있게 됩니다. 파일을 선택하고 업로드가 완료될 때까지 기다리면 됩니다. 몇 초 정도 소요될 거에요. 당신이 논문을 썼나요? 어쩌면 당신은 격인가봐요.
 
@@ -86,23 +137,54 @@ MidJourney: 현재 가장 진보된 생성형 AI 미술 도구 중 하나일 수
 
 작업 1 - 창의적인 스타일 추천
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기, 우리는 ChatGPT에게 우리의 작품 내용을 분석하고 기사의 톤과 맥락에 따라 이미지와 아트워크에 적용할 창의적인 스타일을 제안해 달라고 요청하고 있어. 나의 결과는 다음과 같아:
 
-
 <img src="/assets/img/2024-05-27-CreatingVisualNarrativesforYourStoriesChatGPTMidJourneyMagic_1.png" />
-
 
 와우, 나는 이미 좋아해. 표현주의와 명암과도조명이 만나 초현실주의와 추상 상징주의가 만난다. 뭔가 비뚤어진 데이비드 리치 영화 같아.
 
 이 모든 정보는 분명히 우리의 미래 MidJourney 프롬프트에 포함하기에 너무 많다는 것이 분명하니까, 그것이 바로 작업 2의 목적이야.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ChatGPT, proceed with condensing the creative style description into keywords suitable for the MidJourney prompt. Thank you!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 태스크 1에서 스타일 설명을 모두 정리해서 이렇게 되었어요:
 
@@ -112,7 +194,18 @@ ChatGPT, proceed with condensing the creative style description into keywords su
 
 태스크 3 — 창의적 이미지로 전환할 구절을 찾으세요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 The rubber’s really hittin’ the road now. ChatGPT은 우리 이야기를 살펴보고, 화려한 이미지를 만들어낼 수 있는 구문들을 추려냅니다. ChatGPT가 모든 찬사를 받고 있는 것 같아, 하지만 거기에는 나의 지시가 있었다는 것을 잊지 말아주세요. 구문을 추출할 때, 우리는 그 구문을 시각화할 수 있는 방식으로 설명하도록 요청했습니다 - 이것은 MidJourney가 구문과 관련된 더 많은 시각적 콘텐츠를 생성할 때 도움이 됩니다. 적어도 내 경험으로는요, 거의 완벽한 경험이라고 해야겠네요. 여기 나에게 대한 결과물이에요:
 
@@ -122,7 +215,18 @@ The rubber’s really hittin’ the road now. ChatGPT은 우리 이야기를 살
 
 Task 4 — MidJourney를 위한 생성형 AI 아트 프롬프트 구축
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 ChatGPT 프롬프트의 최종 목적지입니다. 여기서 우리는 AI에게 task 2와 task 3에서의 발견을 병합하여, MidJourney에서 사용할 네 개의 이미지 프롬프트를 작성하도록 요청했습니다. 우리의 프롬프트에는 MidJourney에 몇 가지 매개변수를 덧붙이도록 지시합니다. 이들은 다음과 같습니다:
 
@@ -132,7 +236,18 @@ Task 4 — MidJourney를 위한 생성형 AI 아트 프롬프트 구축
 
 --c 40 | 이것은 혼돈 매개변수입니다. 숫자가 높을수록 MidJourney가 단일 프롬프트에서 반환하는 네 개의 초기 이미지 각각에 대한 다양성이 높아집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 조합 스타일라이즈와 카오스 매개 변수의 조합으로 우리는 적어도 하나의 탁월한 창의적인 스타일을 얻을 것이라고 생각합니다. 숫자를 바꿔보세요. 제 최종 프롬프트는 아래에 있습니다. 여러분의 프롬프트는 어떤가요?
 
@@ -142,7 +257,18 @@ Task 4 — MidJourney를 위한 생성형 AI 아트 프롬프트 구축
 
 감염되는 비트가 있는 노래들이 있죠. 그리고 "와, 이건 리믹스하면 멋질 것 같다!" 라고 생각하시잖아요? 그렇다면 MidJourney의 "리믹스" 기능은 음악과는 전혀 상관이 없습니다. 미안해요, 그냥 멋진 오프닝 후크처럼 들렸던 것 뿐이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 응, 좋아, 한 번 해볼게요… MidJourney 리믹스 기능의 마법은 서로 다른 이미지에 일관된 예술적 스타일을 적용하는 능력에 있어요. 마치 음악 비트가 노래 리믹스 전체에 일관되게 펼쳐지는 것처럼요 (이게 작동됐나요?). 그 의미는 뭐냐면, 동일한 멋진 세트에 속한 것처럼 모든 이미지가 보이도록 전체 이미지 컬렉션을 설정할 수 있다는 거예요. 그리고 모두가 동일한 멋진 창조자에 의해 디자인된 것처럼 말이죠. 기사에 있는 이미지를 살아있게 만드는 꽤 괜찮은 방법이죠. 거의 그런 의도로 한 것처럼! (참고: 정말 그렇게 하고 싶었어요.)
 
@@ -152,8 +278,18 @@ Task 4 — MidJourney를 위한 생성형 AI 아트 프롬프트 구축
 
 가장 먼저 할 일은 소소한 설정 조정입니다 — 리믹스 모드가 켜져 있는지 확인하세요. 디스코드의 프롬프트 상자에 /prefer remix를 입력하여 이 작업을 수행하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-05-27-CreatingVisualNarrativesforYourStoriesChatGPTMidJourneyMagic_5.png)
 
@@ -163,8 +299,18 @@ Now, whack in the first prompt ChatGPT served up to you. For me, it’s this one
 
 Here’s what MidJourney served up:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![CreatingVisualNarrativesforYourStoriesChatGPTMidJourneyMagic_6](/assets/img/2024-05-27-CreatingVisualNarrativesforYourStoriesChatGPTMidJourneyMagic_6.png)
 
@@ -174,7 +320,18 @@ Here’s what MidJourney served up:
 
 확대가 완료되면 다음 이미지를 만들 수 있어요. 여기서 리믹스 기능을 켜는 게 중요하게 작용해요. 따라서 'Vary (강력)' 버튼을 클릭해서 리믹스 프롬프트를 활성화해 보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금 할 일은 ChatGPT의 다음 프롬프트를 리믹스 입력란에 넣는 것입니다. 실제로 여기서 바꾸는 것은 첫 몇 단어뿐입니다—시각화에 대한 ChatGPT가 선택한 짧은 구절—나머지는 동일합니다. 그러니, "Half Angel Devil duality"가 "Shadowy Figure dancing"로 바뀝니다.
 
@@ -184,7 +341,18 @@ Here’s what MidJourney served up:
 
 ![image](/assets/img/2024-05-27-CreatingVisualNarrativesforYourStoriesChatGPTMidJourneyMagic_7.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 왼쪽 상단 이미지처럼 "그림자처럼 춤추는 모습"을 나타내는 이미지는 없죠? 저는 이 우울한 집단 중에서 확대하고 사용할 이미지로 선택할 것입니다.
 
@@ -194,7 +362,18 @@ Here’s what MidJourney served up:
 
 # 최종 임무
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 모든 결과물의 결론은 무엇일까요? 여러분의 말을 더 강화하는 일관된 시각적 내러티브가 만들어집니다. 독자들은 여러분의 이야기에 몰입할 뿐만 아니라, 여러분의 심미적 솜씨가 그들을 시각적으로 감명시킬 것입니다.
 
@@ -205,7 +384,18 @@ Here’s what MidJourney served up:
 - 루시퍼 효과: 이름에 과연한, 천사적인 존재에서 타락한 존재로의 변화를 표현할 수 있습니다.
 - 선 안의 선과 악: 좌우로 나뉘는 팽팽한 줄 혹은 균형 막대로 시각화될 수 있습니다. 한 쪽은 어둠으로 이어지고, 다른 한 쪽은 빛으로 이어질 것이며, 아마 어떤 방향으로 기울어야 하는지를 고민하는 존재가 있을 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 함께 보면 정말 멋지잖아요? 당신이 작품의 분위기를 완벽하게 캡처하는 이미지 스타일을 가졌을 때 — 빈티지 세피아 룩, 추상적인 페인트 스왈, 네온 느낌의 느낌, 또는 위에 있는 것이 뭔지 모르겠지만 — 다른 사람들이 하는 것보다 훨씬 뛰어난 노력을 한 것 같은 느낌이 들어요. 비록, 아마도... 사실은 그렇지 않을지라도요. 당신의 작품이 돋보이도록 도와주는 것은 좋은 일이라고 생각하시죠?
 
@@ -215,7 +405,18 @@ Here’s what MidJourney served up:
 
 그래서, 주식 사진 사이트로 빠져들지 않고 이미지 게임을 높이는 방법을 찾고 있었다면, 우리가 유용한 워크플로우를 발견한 것 같아요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고, 알다시피 AI로 생성된 예술에는 반대 의견을 가진 사람들이 있죠. 아마도 "네가 스스로와 어떻게 살아?" 같은 댓글을 조금 받게 될지도 모르겠어요. 나는 MidJourney가 만들어 내는 모든 예술작품이 바람에서 날아올라온 게 아니라는 것을 알고 있어요. 그것은 그것이 훈련된 무수한 이미지, 스타일 및 영향으로부터 생겨난 결과물이에요. 그리고 이것이 백만 달러(또는 적어도 수천 단어의 미디엄 기사)의 질문에 우리를 이끌어요: AI로 생성된 예술에 대한 권리는 누구의 것인가? 지적 재산권이 침해되는 것은 누구의 것인가요?
 
@@ -225,7 +426,18 @@ Here’s what MidJourney served up:
 
 내가 이 MidJourney에 관심을 두게 된 계기가 궁금해요? 제가 방금 말했듯이, 나는 조금이나마 격었어요. 순진한 열정으로, 나는 올해 초에 MidJourney의 가장 높은 계층에 가입한 연간 요금제에 신청했고, 이 멋진 기술을 활용할 창의적인 폭풍우와 사업 아이디어의 풍부함을 기대했어요. 현실은 무엇인가요? 나는 다량의 크레딧과 약간의 후회만 가득하게 되었어요. 하지만, 어쨌든! 위대한 힘(혹은 크레딧)과 함께 오는 큰 책임이 있죠. 그래서, 나는 내 연간 $1000 투자에 대한 어느 정도의 수익을 얻고 남들과 공유하기 위해 최대한 배우고 있어야한다고 생각했어요 - 그것이 바로 너희들이죠!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 이렇게 해서 우리가 여기에 도착한 거예요. 건강하지 않은 미드지니 크레딧을 갖고 있는 취미 작가가 이것을 만들었다면, 여러분도 할 수 있어요. 다음에 또 만나요. 즐겁게 창작하세요.
 

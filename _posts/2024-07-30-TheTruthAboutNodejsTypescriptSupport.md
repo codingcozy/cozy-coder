@@ -3,17 +3,13 @@ title: " Nodejs TypeScript 지원의 진실"
 description: ""
 coverImage: "/assets/img/2024-07-30-TheTruthAboutNodejsTypescriptSupport_0.png"
 date: 2024-07-30 16:51
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-30-TheTruthAboutNodejsTypescriptSupport_0.png
 tag: Tech
 originalTitle: " The Truth About Nodejs Typescript Support"
 link: "https://medium.com/@tomaszs2/the-truth-about-node-js-typescript-support-8602f690ee69"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-07-30-TheTruthAboutNodejsTypescriptSupport_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 <img src="/assets/img/2024-07-30-TheTruthAboutNodejsTypescriptSupport_1.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 이 뉴스는 잘못된 정보이며 가짜 뉴스입니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 즉, 플래그를 사용하여 Typescript 파일을 실행할 수 있다는 것을 의미합니다. 그러나 이러한 파일은 타입 체크되지 않고 변환되지 않습니다. 그러나 Typescript 타입은 코드에서 제거되어 마치 그곳에 없었던 것처럼 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 백엔드와 프론트엔드 팀이 TypeScript로 작성된 공통 코드를 공유할 때 유용합니다. 그러나 백엔드 팀은 TypeScript를 다루기 싫어해서 순수한 Javascript로 작성합니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 이제 Node.js로 TypeScript를 실행하는 것은 이미 가능했습니다. 따라서 여기서는 아무 변화가 없습니다. TypeScript 변환기를 사용하여 코드를 JavaScript로 변환하고 Node.js로 실행할 수 있습니다. 이를 수행하는 방법에 대한 안내도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 대부분의 개발자들은 ts-node 패키지를 사용하여 모든 작업을 처리하므로 Typescript를 수동으로 JavaScript로 컴파일할 필요가 없습니다.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 그렇다면, 정말 TypeScript에 관심이 많으신가요! 저는 TypeScript 카드 게임 'Summon The JSON: TypeScript'을 디자인했습니다. 우연한 일이네요! 지금 주문할 수 있습니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 타입스크립트를 좋아하시나요? 소셜 미디어에서 박수, 구독, 좋아요, 그리고 공유해보세요!
 

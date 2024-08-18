@@ -3,17 +3,13 @@ title: "빠른 프로그래밍을 위해 알아야 할 Android Studio 모든 단
 description: ""
 coverImage: "/assets/img/2024-07-13-AndroidStudioallkeyboardshortcutsyoushouldknowforfastprogramming_0.png"
 date: 2024-07-13 00:25
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-AndroidStudioallkeyboardshortcutsyoushouldknowforfastprogramming_0.png
 tag: Tech
 originalTitle: "Android Studio all keyboard shortcuts you should know for fast programming 🚀"
 link: "https://medium.com/@niranjanky14/android-studio-all-keyboard-shortcuts-you-should-know-for-fast-programming-0dcda08918bd"
 isUpdated: true
 ---
-
-
-
-
 
 # 🚀안드로이드 스튜디오 단축키가 필요한 이유?
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 🚀단축키 사용의 장점은 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 🚀 색인:
 
@@ -40,7 +47,18 @@ isUpdated: true
 
 ![](/assets/img/2024-07-13-AndroidStudioallkeyboardshortcutsyoushouldknowforfastprogramming_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 🚀주요 내용:
 
@@ -52,7 +70,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-07-13-AndroidStudioallkeyboardshortcutsyoushouldknowforfastprogramming_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 🚀코드 생성 및 리팩토링:
 
@@ -62,7 +91,18 @@ isUpdated: true
 
 ![Link to the second image](/assets/img/2024-07-13-AndroidStudioallkeyboardshortcutsyoushouldknowforfastprogramming_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 🚀Build and Version Control:
 

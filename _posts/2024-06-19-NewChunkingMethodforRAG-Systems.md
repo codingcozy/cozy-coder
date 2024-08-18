@@ -3,17 +3,13 @@ title: "RAG 시스템을 위한 새로운 청킹 방법"
 description: ""
 coverImage: "/assets/img/2024-06-19-NewChunkingMethodforRAG-Systems_0.png"
 date: 2024-06-19 03:33
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-NewChunkingMethodforRAG-Systems_0.png
 tag: Tech
 originalTitle: "New Chunking Method for RAG-Systems"
 link: "https://medium.com/datadriveninvestor/new-chunking-method-for-rag-systems-2eb3523d0420"
 isUpdated: true
 ---
-
-
-
-
 
 ## 문서 분할 개선
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # RAG 시스템
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 검색 보완 생성 (Retrieval-Augmented Generation, RAG) 시스템은 검색 기반 및 생성 기반 방법을 결합하여 출력물의 품질과 관련성을 향상시키는 기계 학습 모델입니다. 먼저 입력 쿼리에 기반하여 대규모 데이터셋에서 관련 문서나 정보를 검색합니다. 그런 다음, 검색된 정보를 활용하여 일관된 컨텍스트에 적합한 응답이나 내용을 생성하기 위해 변환기 기반 언어 모델과 같은 생성 모델을 사용합니다. 이 하이브리드 방식은 모델이 정확하고 유익한 응답을 제공하는 능력을 향상시킵니다, 특히 복잡하거나 지식 집약적인 작업에서 더욱 유용합니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 LangChain은 주로 대규모 언어 모델을 적용하기 위해 설계된 견고한 프레임워크로, 다양한 자연어 처리(NLP) 작업을 지원합니다. 그 중 하나인 문서 분할은 사용자가 대형 문서를 작은 관리 가능한 청크로 쪼개는 기능입니다. 아래는 LangChain의 문서 분할의 주요 기능 및 예시를 소개한 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # LangChain의 문서 분할 핵심 기능
 
@@ -47,7 +65,18 @@ LangChain은 주로 대규모 언어 모델을 적용하기 위해 설계된 견
 
 ## 1. 재귀적 문자 텍스트 분할기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 from langchain.text_splitter import RecursiveCharacterTextSplitter
@@ -73,8 +102,18 @@ for chunk in chunks:
 
 ## 3. 문장 분할기
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 from langchain.text_splitter import SentenceSplitter
@@ -100,8 +139,18 @@ for chunk in chunks:
 
 ## 5. Markdown Splitter
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 from langchain.text_splitter import MarkdownSplitter
@@ -119,8 +168,18 @@ for chunk in chunks:
 
 ## 핵심 도전 과제
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대규모 문서, 예를 들어 학술 논문, 긴 보고서 및 상세한 기사는 복잡하며 여러 주제를 포함하고 있습니다. 간단한 규칙 기반 방법부터 고급 기계 학습 알고리즘까지 다양한 전통적인 분할 기술들은 주제 전환의 정확한 지점을 식별하는 것에 어려움을 겪습니다. 이러한 방법들은 종종 섬세한 전환점을 놓치거나 잘못 식별하여 단편화된 또는 겹치는 섹션을 야기할 수 있습니다.
 
@@ -130,7 +189,18 @@ for chunk in chunks:
 
 ## 1. 문장 임베딩 사용
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 임베딩 생성:
 
@@ -142,7 +212,18 @@ for chunk in chunks:
 - 문장 간의 유사도는 코사인 유사도 또는 맨해튼 또는 유클리드 거리와 같은 다른 거리 측정을 사용하여 측정됩니다.
 - 동일한 주제 내의 문장은 유사한 임베딩을 갖게 되며, 서로 다른 주제의 문장은 유사도가 감소하는 것을 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2. 갭 점수 계산
 
@@ -153,7 +234,18 @@ for chunk in chunks:
 
 코사인 유사도 계산:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 문서의 각 위치에 대해, 알고리즘은 현재 위치 앞 뒤 n개의 문장을 추출합니다.
 - 그런 다음 이러한 시퀀스의 임베딩 간 코사인 유사도, 즉 '간격 점수'를 계산합니다.
@@ -165,7 +257,18 @@ for chunk in chunks:
 
 노이즈 처리:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 텍스트의 미세한 변동으로 인해 기존 갭 점수는 소음이 발생할 수 있습니다. 이를 보정하기 위해 평활화 알고리즘을 적용합니다.
 - 평활화에는 매개변수 k로 정의된 창을 통해 갭 점수를 평균화하는 과정이 포함됩니다.
@@ -177,7 +280,18 @@ for chunk in chunks:
 
 ![이미지](/assets/img/2024-06-19-NewChunkingMethodforRAG-Systems_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 4. 경계 감지
 
@@ -188,7 +302,18 @@ for chunk in chunks:
 
 임계값 c 설정하기:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 유의미한 경계를 결정하는 임계값 c를 사용합니다. 높은 c 값은 더 적고 더 의미 있는 세그먼트를 만들어내며, 낮은 c 값은 더 많고 더 작은 세그먼트를 만들어냅니다.
 - 평균 깊이 점수보다 표준 편차의 c 배 이상을 초과하는 경계는 유효한 분할 지점으로 간주됩니다.
@@ -199,7 +324,18 @@ for chunk in chunks:
 
 반복된 주제 다루기:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 긴 문서는 서로 다른 지점에서 유사한 주제를 재방문할 수 있습니다. 이를 해결하기 위해 알고리즘은 유사한 콘텐츠를 가진 세그먼트를 클러스터링합니다.
 - 이 과정은 세그먼트를 임베딩으로 변환하고 클러스터링 기술을 사용하여 유사한 세그먼트를 병합하는 것을 포함합니다.
@@ -210,7 +346,18 @@ for chunk in chunks:
 
 # 알고리즘 의사 코드
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 갭 스코어 계산:
 
@@ -220,7 +367,18 @@ for chunk in chunks:
 
 ![이미지](/assets/img/2024-06-19-NewChunkingMethodforRAG-Systems_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 경계 감지:
 
@@ -231,7 +389,18 @@ for chunk in chunks:
 
 이 연구는 이 방법을 향상시키기 위해 추가 연구를 위한 여러 영역을 개요로 설명합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 자동 매개변수 최적화: 기계 학습 기술을 사용하여 매개변수를 동적으로 조정합니다.
 - 보다 광범위한 데이터 집합 실험: 다양하고 대규모 데이터셋에서의 방법을 테스트합니다.
@@ -248,7 +417,18 @@ for chunk in chunks:
 
 논문: https://ieeexplore.ieee.org/document/10467643
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 DataDrivenInvestor.com에서 저희를 방문해주세요.
 
@@ -258,7 +438,18 @@ DDIntel을 여기서 구독해보세요.
 
 저희 창작자 생태계에 참여해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 DDI 공식 텔레그램 채널: [https://t.me/+tafUp6ecEys4YjQ1](https://t.me/+tafUp6ecEys4YjQ1)
 

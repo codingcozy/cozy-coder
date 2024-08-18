@@ -3,17 +3,13 @@ title: "안타레스 이지 제품 개발 비하인드 우수성을 창출하기
 description: ""
 coverImage: "/assets/img/2024-06-27-BehindtheProductofAntaresEazyNavigatingChallengestoCreateExcellence_0.png"
 date: 2024-06-27 18:52
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-27-BehindtheProductofAntaresEazyNavigatingChallengestoCreateExcellence_0.png
 tag: Tech
 originalTitle: "Behind the Product of Antares Eazy: Navigating Challenges to Create Excellence"
 link: "https://medium.com/@telkomdesign/behind-the-product-of-antares-eazy-navigating-challenges-to-create-excellence-20db8ee4d106"
 isUpdated: true
 ---
-
-
-
-
 
 # 안타레스를 알아보기
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 도전 과제
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리의 삶을 진정으로 향상시키는 최고급 제품을 전달하는 것은 쉬운 일이 아닙니다; 무수한 도전과 지속적인 혁신으로 가득한 여정입니다. 여기에는 제품 뒤의 비밀에 대해 이야기해 줄 안타레스 이지의 UX 리드인 엠바 샤니살람 Wpp가 있습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 # 우리 팀이 도전을 어떻게 극복했는지
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어려움을 극복하는 일은 도전적일 수 있지만 걱정하지 마세요. 최고의 팀이 이 도전을 정복하기 위해 노력할 거에요. 팀 간의 원활한 커뮤니케이션을 확립하고 모든 이해관계자가 문제 상황을 정확히 이해하는 것이 중요합니다. 긴급도에 따라 작업을 우선순위에 따라 정하는 것이 매우 효과적인 전략임이 입증되었습니다. Telkom의 PDP Law 과제 팀과 밀접히 협력하여 규정을 완전히 준수하도록 하는 등의 부서들과의 긴밀한 협력은 팀이 문제를 효과적으로 관리하고 해결할 수 있도록 돕고 있습니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 # 최신 안타레스 혁신 소개!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안타레스에서 여러분의 만족도를 극대화하기 위한 흥미진진한 업데이트를 공개하게 되어 기쁩니다. 함께 살펴봅시다.
 
@@ -56,7 +85,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-27-BehindtheProductofAntaresEazyNavigatingChallengestoCreateExcellence_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로운 편의성과 연결성을 재정의하는 이러한 획기적인 오퍼링을 소개합니다!
 
@@ -66,6 +106,17 @@ isUpdated: true
 
 <img src="/assets/img/2024-06-27-BehindtheProductofAntaresEazyNavigatingChallengestoCreateExcellence_2.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 IoT 제품 디자인에 관련된 더 많은 통찰력을 찾고 계신가요? 운좋게도! 텔콤 디자인(Telkom Design)에서 인도네시아를 위한 솔루션을 어떻게 만드는지 뒷이야기를 더 확인하려면 저희 웹사이트, Instagram, LinkedIn 또는 YouTube를 esearch하십시오. #TakeALeap를 이해하고 #DigitizeTheNation에 기여하여 디지털 변형을 가속화하는 방법을 지속적으로 업데이트하십시오!

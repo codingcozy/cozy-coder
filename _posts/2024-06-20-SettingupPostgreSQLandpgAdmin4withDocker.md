@@ -3,17 +3,13 @@ title: "도커를 사용하여 PostgreSQL 및 pgAdmin 4 설치하기"
 description: ""
 coverImage: "/assets/img/2024-06-20-SettingupPostgreSQLandpgAdmin4withDocker_0.png"
 date: 2024-06-20 15:53
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-SettingupPostgreSQLandpgAdmin4withDocker_0.png
 tag: Tech
 originalTitle: "Setting up PostgreSQL and pgAdmin 4 with Docker"
 link: "https://medium.com/@marvinjungre/get-postgresql-and-pgadmin-4-up-and-running-with-docker-4a8d81048aea"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-20-SettingupPostgreSQLandpgAdmin4withDocker_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Docker를 설치하는 방법은 사용 중인 운영 체제에 따라 다릅니다. 운영 체제에 따라 지침에 따라 설치하세요 (Docker에는 유료 버전도 있지만 무료 버전으로 우리 목적에는 충분합니다):
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # PostgreSQL 설정하기
 
@@ -35,7 +42,18 @@ Docker에 PostgreSQL을 설치하려면 운영 체제에 따라 터미널, 명�
 docker pull postgres
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 Docker 데스크톱 애플리케이션에서 이미지 탭에서 PostgreSQL 이미지를 볼 수 있어요.
 
@@ -45,7 +63,18 @@ Docker 이미지를 다운로드한 후에는 Docker 컨테이너를 시작하�
 
 Docker 컨테이너는 애플리케이션의 필요한 종속성, 구성 및 코드를 캡슐화한 가벼우면서 격리된 런타임 환경으로, 다양한 시스템에서 일관되게 실행할 수 있게 해줘요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 명령어를 사용하여 도커 컨테이너를 생성하세요 (비밀번호는 꼭 바꾸세요):
 
@@ -57,7 +86,18 @@ docker run --name sqltutorial -e POSTGRES_PASSWORD=marviniscool -p 5432:5432 -d 
 
 <img src="/assets/img/2024-06-20-SettingupPostgreSQLandpgAdmin4withDocker_2.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도커 run 명령어를 사용하여 컨테이너를 생성했어요. 우리는 이름을 선택하기 위해 -e를 사용해 환경 변수를 설정하고, 이 경우에는 데이터베이스 비밀번호를 "marviniscool"로 설정했어요 (비밀번호를 변경하는 걸 잊지 마세요). 마지막으로 -d를 사용해 컨테이너를 분리된 모드로 실행하고, 우리가 Postgres 이미지를 사용하고자 한다고 명시했어요. 이 명령어에서는 컴퓨터의 포트 5432를 컨테이너 내부의 포트 5432에 매핑하여 데이터베이스에 나중에 포트 관련 혼란 없이 액세스할 수 있어요. 또한 "POSTGRES_USER=mycustomuser"를 추가하여 "postgres"에서 원하는 이름으로 사용자 이름을 바꿀 수 있어요. 도커나 도커 run 명령어에 대해 더 알고 싶다면 문서를 확인해보세요:
 
@@ -69,7 +109,18 @@ docker ps
 
 위와 같은 결과를 보면 컨테이너가 올바르게 작동 중인 걸 확인할 수 있어요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-SettingupPostgreSQLandpgAdmin4withDocker_3.png" />
 
@@ -79,7 +130,18 @@ docker ps
 
 설치 프로세스는 PostgreSQL을 설치하는 프로세스와 유사합니다. 우리는 Docker를 사용하여 pgAdmin 4 이미지를 가져와서 설정 프로세스를 단순화할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 터미널에 다음 명령어를 입력하여 pgAdmin 4를 설치할 수 있어요:
 
@@ -91,7 +153,18 @@ docker pull dpage/pgadmin4
 
 이미지를 다운로드한 후에는 Docker 컨테이너를 생성하고 실행할 수 있어요. 아래 명령어는 새로운 'pgadmin-container' Docker 컨테이너를 설정하며, 당신의 컴퓨터의 포트 5050을 컨테이너의 포트 80에 매핑하고, pgAdmin 4 인터페이스에 액세스할 수 있는 기본 이메일과 비밀번호를 설정해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 pgAdmin 4 도커 컨테이너를 실행하는 명령어입니다:
 
@@ -103,7 +176,18 @@ docker run --name pgadmin-container -p 5050:80 -e PGADMIN_DEFAULT_EMAIL=user@dom
 
 # pgAdmin 4를 사용하여 데이터베이스 컨테이너에 연결하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## pgAdmin 4에 로그인하기
 
@@ -113,7 +197,18 @@ docker run --name pgadmin-container -p 5050:80 -e PGADMIN_DEFAULT_EMAIL=user@dom
 
 그런 다음 로그인 프롬프트가 표시되며, 이전에 지정한 이메일 주소와 비밀번호로 로그인할 수 있습니다. 이 경우 "user@domain.com" 및 "catsarecool"입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 데이터베이스 컨테이너에 연결하기/ 서버 추가
 
@@ -123,7 +218,18 @@ docker run --name pgadmin-container -p 5050:80 -e PGADMIN_DEFAULT_EMAIL=user@dom
 
 그리고 데이터베이스에 연결할 관련 정보를 입력하세요. 이름 필드에는 pgAdmin에서 데이터베이스를 참조하기 위한 별칭을 선택할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-SettingupPostgreSQLandpgAdmin4withDocker_6.png" />
 
@@ -135,7 +241,18 @@ docker inspect -f '{range .NetworkSettings.Networks}{.IPAddress}{end}' sqltutori
 
 저희 경우에는 IP 주소 172.17.0.2를 반환했습니다 (이것이 여러분에게도 해당될 수도 있고 아닐 수도 있습니다). 이제 모든 연결 정보를 입력합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 호스트 이름/주소: 172.17.0.2 (당신에게는 다를 수 있음)
 - 포트: 5432
@@ -150,7 +267,18 @@ docker inspect -f '{range .NetworkSettings.Networks}{.IPAddress}{end}' sqltutori
 
 ![이미지](/assets/img/2024-06-20-SettingupPostgreSQLandpgAdmin4withDocker_8.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 축하합니다! 이제 환경이 구동 중이어야 합니다. pgAdmin 4에 관한 질문이 있으면 문서를 참조하세요:
 
@@ -160,7 +288,18 @@ docker inspect -f '{range .NetworkSettings.Networks}{.IPAddress}{end}' sqltutori
 
 ## pgAdmin 4에서 데이터베이스 및 테이블 생성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ‘Databases’를 마우스 오른쪽 버튼으로 클릭하고 ‘만들기' - ` '데이터베이스'를 선택하십시오. 데이터베이스에 이름을 지정하고 ‘my_new_database’와 같이 이름을 지어주신 후에 ‘저장’을 클릭하십시오.
 
@@ -170,7 +309,18 @@ docker inspect -f '{range .NetworkSettings.Networks}{.IPAddress}{end}' sqltutori
 
 ![이미지](/assets/img/2024-06-20-SettingupPostgreSQLandpgAdmin4withDocker_10.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터베이스를 생성한 후 테이블을 만들겠습니다. 이를 위해 catbase -` 스키마 -` public -` 테이블 -` 생성 -` 테이블을 선택합니다...
 
@@ -180,7 +330,18 @@ docker inspect -f '{range .NetworkSettings.Networks}{.IPAddress}{end}' sqltutori
 
 <img src="/assets/img/2024-06-20-SettingupPostgreSQLandpgAdmin4withDocker_12.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 다음 단계에서 두 개의 열을 생성할 것입니다. 첫 번째 열은 id 열로서, 이는 우리의 주 키입니다 (이것이 무엇인지 모르더라도 걱정하지 마세요. 나중에 자습서에서 설명하겠습니다). 두 번째 열은 고양이의 이름을 나타내는 텍스트 열입니다. 우리는 "Not Null?"과 같은 제약 조건을 지정할 수도 있습니다. 이는 이 열의 모든 셀이 값을 가질 수 있음을 보장합니다.
 
@@ -190,8 +351,18 @@ docker inspect -f '{range .NetworkSettings.Networks}{.IPAddress}{end}' sqltutori
 
 저장을 클릭합니다. 이제 테이블을 생성했으므로 데이터의 하나의 행을 추가하려고 합니다. SQL을 사용하여도 되지만, 일관성을 유지하기 위해 이 경우에도 pgAdmin을 사용할 것입니다. 우리는 오른쪽 클릭해야합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 - `데이터 보기/편집 -` 모든 행
 
@@ -201,8 +372,18 @@ docker inspect -f '{range .NetworkSettings.Networks}{.IPAddress}{end}' sqltutori
 
 <img src="/assets/img/2024-06-20-SettingupPostgreSQLandpgAdmin4withDocker_15.png" />
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 텍스트 필드를 클릭하고 "Bam Bam"과 같은 멋진 고양이 이름으로 이름을 설정할 것입니다. 다음 단계에서는 행을 데이터베이스에 저장할 것입니다. (키 필드에 값을 입력할 필요가 없다는 점을 유의해주세요. 데이터 유형을 시리얼라이저로 설정했으므로 id가 자동으로 선택됩니다)
 
@@ -212,7 +393,18 @@ docker inspect -f '{range .NetworkSettings.Networks}{.IPAddress}{end}' sqltutori
 
 pgAdmin 4에서 데이터베이스와 테이블을 설정한 후, 터미널로 전환하여 테이블에서 데이터를 읽어봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 도커 컨테이너 내의 데이터베이스 서버에 연결해야 해요:
 
@@ -226,7 +418,18 @@ docker exec -it sqltutorial psql -U postgres
 \c catbase
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로, 테이블에서 모든 행을 선택하기 위해 select 문을 사용할 수 있습니다:
 
@@ -238,7 +441,17 @@ SELECT * FROM CATTABLE;
 
 여기에 있습니다! pgAdmin 4와 터미널이 Docker 컨테이너 내의 PostgreSQL 데이터베이스와 성공적으로 상호 작용하고 있다는 것을 확인할 수 있습니다. 'catbase' 내 'cattable'의 내용이 표시됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-06-20-SettingupPostgreSQLandpgAdmin4withDocker_18](/assets/img/2024-06-20-SettingupPostgreSQLandpgAdmin4withDocker_18.png)

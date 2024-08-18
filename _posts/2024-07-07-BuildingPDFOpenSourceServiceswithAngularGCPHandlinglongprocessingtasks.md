@@ -3,17 +3,13 @@ title: "Angular와 GCP를 활용한 오픈 소스 PDF 서비스 구축 - 긴 처
 description: ""
 coverImage: "/assets/img/2024-07-07-BuildingPDFOpenSourceServiceswithAngularGCPHandlinglongprocessingtasks_0.png"
 date: 2024-07-07 13:32
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-BuildingPDFOpenSourceServiceswithAngularGCPHandlinglongprocessingtasks_0.png
 tag: Tech
 originalTitle: "Building PDF Open Source Services with Angular , GCP — Handling long processing tasks"
 link: "https://medium.com/itnext/building-pdf-open-source-services-with-angular-gcp-handling-long-processing-tasks-e15cb4e511d3"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-07-07-BuildingPDFOpenSourceServiceswithAngularGCPHandlinglongprocessingtasks_0.png" />
 
@@ -26,7 +22,18 @@ isUpdated: true
 데모: https://pdfun.xyz
 Angular Tiny Conf의 YouTube 토크를 확인해보세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해결책은 GCP 생태계를 기반으로 구축되어 있으므로 프로젝트를 GCP에 배포하는 것이 좋습니다. 이렇게 하면 GCP의 서비스에 액세스할 수 있습니다. 해결책은 두 부분으로 나뉩니다:
 
@@ -37,7 +44,18 @@ PDF 서비스를 구축하는 과정에서 PDF 파일을 업로드, 다운로드
 
 # 일반 API 요청과 그 함정들
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반적으로 클라이언트가 API 요청을 보내면 서버가 요청을 처리하고 응답을 보냅니다. 이 동기식 접근 방식은 짧은 작업에는 잘 작동합니다. 그러나 긴 처리 작업에 대해선 자신의 함정이 있습니다.
 
@@ -47,7 +65,18 @@ PDF 서비스를 구축하는 과정에서 PDF 파일을 업로드, 다운로드
 
 # 클라이언트 측에서의 최대 시간 초과
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 API 요청의 최대 타임아웃은 클라이언트 측 라이브러리나 브라우저에 따라 다릅니다. 예를 들어, Angular의 HttpClient의 기본 타임아웃은 0으로, 응답이 올 때까지 무한정 기다립니다. 그러나 Chrome이나 Firefox 같은 브라우저는 대략 300초(5분)로 최대 타임아웃을 가지고 있습니다. 이 시간 내에 서버가 응답하지 않으면 요청이 종료됩니다.
 
@@ -60,7 +89,18 @@ API 요청의 최대 타임아웃은 클라이언트 측 라이브러리나 브�
 - 웹소켓(WebSockets): 클라이언트와 서버 사이에 지속적이고 양방향 통신 채널을 설정하여, 서버가 작업이 완료되면 응답을 보낼 수 있습니다.
 - 서버-보내는-이벤트(Server-Sent Events): 서버가 클라이언트에 업데이트를 보내는 단일, 장기적인 연결을 통해 통신합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 방법들은 효과적일 수 있지만, 더 복잡해지고 자원의 비효율성이 증가하는 등의 단점도 있습니다.
 
@@ -86,7 +126,7 @@ timer(0, this.INTERVAL)
   )
   .subscribe({
     next: (res: any) => {
-      if (res.status === 'SUCCEED') {
+      if (res.status === "SUCCEED") {
         this.stopTimer$.next(true);
       }
       this.data.set(res);
@@ -97,7 +137,18 @@ timer(0, this.INTERVAL)
   });
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 rxjs를 사용하여 타이머 연산자를 활용한 함수를 만들어, getData()를 사용하여 서버에서 데이터를 가져오는 간격(2초)을 실행합니다. 컴포넌트가 소멸되거나 원하는 데이터가 검색되면 stopTimer$를 emit하여 멈출 수 있습니다.
 
@@ -109,22 +160,33 @@ rxjs를 사용하여 타이머 연산자를 활용한 함수를 만들어, getDa
 // server (Analogjs - Nitro server)
 
 export default defineEventHandler(async (event) => {
-    const eventStream = createEventStream(event);
+  const eventStream = createEventStream(event);
 
-    const interval = setInterval(async () => {
-        await eventStream.push(`Message @ ${new Date().toLocaleTimeString()}`);
-    }, 1000);
+  const interval = setInterval(async () => {
+    await eventStream.push(`Message @ ${new Date().toLocaleTimeString()}`);
+  }, 1000);
 
-    eventStream.onClosed(async () => {
-        clearInterval(interval);
-        await eventStream.close();
-    });
+  eventStream.onClosed(async () => {
+    clearInterval(interval);
+    await eventStream.close();
+  });
 
-    return eventStream.send();
+  return eventStream.send();
 });
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 createEventStream을 활용하여 스트림을 생성하고 간격(1초)을 설정하여 서버에서 클라이언트로 문자열 데이터를 스트리밍하는 예시입니다.
 
@@ -149,7 +211,18 @@ export default defineEventHandler(async (event) => {
 
 EventSource를 사용하여 서버를 가리키는 이벤트 소스를 만듭니다. 그 후 this.eventSource.onmessage 콜백 메서드를 사용하여 서버로부터 데이터를 수신할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # GCP 클라우드런과 Firestore를 활용하여 긴 요청 처리하기
 
@@ -159,7 +232,18 @@ PDF 리사이즈 서비스의 아키텍처 흐름은 다음과 같습니다:
 
 ![PDF 리사이즈 서비스의 아키텍처 흐름](/assets/img/2024-07-07-BuildingPDFOpenSourceServiceswithAngularGCPHandlinglongprocessingtasks_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 PDF 크기 조정 서비스에 대해 더 자세히 이해하기 위해 첫 번째 기사를 읽었습니다.
 
@@ -190,8 +274,19 @@ downloadUrl$ = this.pdf().pipe(
   )
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-우리가 해야 할 일은 프런트엔드 코드에서 리스너를 생성하면, 서버가 데이터를 준비되면 다시 돌려줄 것이에요! https://pdfun.xyz에서 테스트해 볼 수 있어요. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+우리가 해야 할 일은 프런트엔드 코드에서 리스너를 생성하면, 서버가 데이터를 준비되면 다시 돌려줄 것이에요! https://pdfun.xyz에서 테스트해 볼 수 있어요.
 
 결론적으로, 웹 개발에서 긴 처리 작업을 다루는 것은 어려울 수 있지만, 올바른 도구와 전략을 활용하면 분명히 관리할 수 있어요. Angular와 GCP의 힘을 활용하여 긴 처리 작업을 효과적이고 효율적으로 처리하는 견고한 PDF 오픈 소스 서비스를 구축할 수 있어요. 즐거운 코딩되세요!

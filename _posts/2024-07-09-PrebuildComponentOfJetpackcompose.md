@@ -3,17 +3,13 @@ title: "2024년에 알아두어야 할 Jetpack Compose 미리 빌드된 컴포�
 description: ""
 coverImage: "/milky-road.github.io/assets/no-image.jpg"
 date: 2024-07-09 10:42
-ogImage: 
+ogImage:
   url: /milky-road.github.io/assets/no-image.jpg
 tag: Tech
 originalTitle: "Prebuild Component Of Jetpack compose"
 link: "https://medium.com/@adityatheprogrammer/prebuild-component-of-jetpack-compose-4705edfc0aa7"
 isUpdated: true
 ---
-
-
-
-
 
 🌟 안녕하세요! 이쪽은 아디티야입니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 기본적으로 UI를 두 부분으로 나눌 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 구성 요소
 - 레이아웃
@@ -39,44 +46,73 @@ fun SimpleText() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제트팩 코킷에서 png, jpg, 벡터 리소스 등과 같이 로컬에서 사용 가능한 모든 이미지를 보여주고 싶다면 Image Composable을 사용하면 됩니다. 아래는 이에 대한 예시입니다.
 
 ```js
 Image(
-    painter = painterResource(id = R.drawable.dog),
-    contentDescription = stringResource(id = R.string.dog_content_description)
-)
+  (painter = painterResource((id = R.drawable.dog))),
+  (contentDescription = stringResource((id = R.string.dog_content_description)))
+);
 ```
 
 하지만 서버에 저장된 원격 이미지를 보여주고 싶다면 AsyncImage Composable이나 Coil, Glide와 같은 써드파티 라이브러리를 사용해야 합니다.
 
 AsyncImage의 간단한 예시를 살펴보죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AsyncImage(
-    model = "https://example.com/image.jpg",
-    contentDescription = "이미지가 포함하고 있는 내용에 대한 번역된 설명"
+model = "https://example.com/image.jpg",
+contentDescription = "이미지가 포함하고 있는 내용에 대한 번역된 설명"
 )
-
 
 젯팩 컴포즈에서는 Button 컴포저블이 미리 빌드되어 있기 때문에 처음부터 만들 필요가 없습니다. Button을 사용하려면 Button Composable을 사용해야 합니다. Jetpack Compose는 Filled, Filled Tonal, Elevated, Outlined, Text 등 5가지 다른 유형의 버튼을 제공합니다.
 
 Button의 작은 예시를 살펴보겠습니다.
 
-
 @Composable
 fun FilledButtonExample(onClick: () -> Unit) {
-    Button(onClick = { onClick() }) {
-        Text("Filled")
-    }
+Button(onClick = { onClick() }) {
+Text("Filled")
+}
 }
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 젯팩 코믹스(Compose)에서는 카드 뷰가 마테리얼 디자인 컨테이너처럼 작용하며, 이를 예시로는 쇼핑 카트의 제품이나 뉴스 애플리케이션의 뉴스 스토리 등을 볼 수 있습니다.
 
@@ -93,7 +129,18 @@ fun CardMinimalExample() {
 
 젯팩 코믹스에서 체크박스를 구현할 때는 CheckBox를 사용할 수 있습니다. 체크박스를 사용하면 사용자가 목록에서 하나 이상의 항목을 선택할 수 있습니다. 온라인에서 약관에 동의하는 동안 체크박스를 탭해야 하는 예시를 본 적이 있을 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작은 체크박스 예제를 살펴보겠습니다.
 
@@ -124,7 +171,18 @@ fun CheckboxMinimalExample() {
 
 작은 스위치 예제를 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 @Composable
@@ -146,8 +204,18 @@ fun SwitchMinimalExample() {
 
 3가지 표준 레이아웃이 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Jetpack Compose을 사용하면 항목을 수평 방향으로 설정하려면 Row Composable을 사용할 수 있습니다. 사용하기 쉽고 verticalAlignment, horizontalArrangement 속성이 내장되어 있어 항목의 위치를 더 유연하게 조정할 수 있습니다.
 
@@ -168,7 +236,18 @@ fun ArtistCardArrangement(artist: Artist) {
 
 Jetpack Compose을 사용하면 항목을 수직 방향으로 설정하려면 Column Composable을 사용할 수 있습니다. 사용하기 쉽고 verticalArrangement, horizontalAlignment 속성이 내장되어 있어 항목의 위치를 더 유연하게 조정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 예시를 살펴보세요:
 
@@ -186,7 +265,18 @@ fun ArtistCardColumn() {
 
 아래 예시를 살펴보겠습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **Tarot Expert's Reading:**
 

@@ -3,17 +3,13 @@ title: "오픈SCAD에서 3D 프린팅을 위한 다중 엑스트루더 디자인
 description: ""
 coverImage: "/assets/img/2024-06-19-CreatingMulti-ExtruderDesignsinOpenSCADfor3DPrinting_0.png"
 date: 2024-06-19 02:14
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-CreatingMulti-ExtruderDesignsinOpenSCADfor3DPrinting_0.png
 tag: Tech
 originalTitle: "Creating Multi-Extruder Designs in OpenSCAD for 3D Printing"
 link: "https://medium.com/@nextjeff/creating-multi-extruder-designs-in-openscad-for-3d-printing-6c43a002ef64"
 isUpdated: true
 ---
-
-
-
-
 
 작년부터 OpenSCAD를 사용하여 흥미로운 기하학적 패턴을 디자인하고 Prusa MK4 프린터를 사용하여 직물에 출력해 왔어요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이 작업은 거의 수동으로 하지 않았어요 — 5개의 STL 파일을 OpenSCAD에서 생성하여 PrusaSlicer에 모두 불러오고, 슬라이스 처리를 한 다음 프린팅을 시작했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 본문에서 배경 정보를 소개하고 첫 번째 실패한 경험을 공유하며 마지막 기술을 소개하고 추가 개발 아이디어를 제시하고 싶습니다. 여러분의 피드백을 받아보고 이 기술을 더 나아가는 방법이 있는지 확인하고 싶습니다.
 
@@ -33,7 +40,18 @@ PrusaSlicer에는 모델을 가져와 다중 색상 또는 다중 소재 프린�
 
 ![이미지](/assets/img/2024-06-19-CreatingMulti-ExtruderDesignsinOpenSCADfor3DPrinting_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 The painting tool works well, but it didn't quite meet my needs:
 
@@ -45,7 +63,18 @@ The painting tool works well, but it didn't quite meet my needs:
 
 Please know that I don't intend this feedback as criticism of PrusaSlicer—the painting tool is impressive and robust. We are facing a situation where popular file formats and tools have somewhat restricted us. STL files lack color information, while other less-known formats do include it, but unfortunately, I lack the tools to work with them.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 조금 더 추상적인 수준에서, 전체적인 OpenSCAD 객체 - 큐브, 구, 원기둥 등과 같은 것들 -을 영역이나 삼각형이 아닌 부분을 색칠할 수 있어야 한다는 것이 분명해졌습니다.
 
@@ -55,7 +84,18 @@ Please know that I don't intend this feedback as criticism of PrusaSlicer—the 
 
 ![](/assets/img/2024-06-19-CreatingMulti-ExtruderDesignsinOpenSCADfor3DPrinting_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 PrusaSlicer에 여러 개의 STL 파일을 쉽게 가져올 수 있어요. 처음에는 OpenSCAD를 수정하여 특정 색상의 객체만 선택적으로 렌더링하고, 각 색상에 대해 하나의 STL 파일을 생성하도록 반복하기로 생각했어요. 실제로 OpenSCAD 소스를 깊이 파헤쳐서 이 작업을 어떻게 수행할 수 있는지 알아내려고 시간을 보냈어요.
 
@@ -65,7 +105,18 @@ OpenSCAD 서브레딧의 관련 없는 게시물을 읽는 도중 children 함�
 
 ![이미지](/assets/img/2024-06-19-CreatingMulti-ExtruderDesignsinOpenSCADfor3DPrinting_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 방금 언급한 "또는 실행하지 않을"-부분이 핵심인 것 같아요. OpenSCAD 커스터마이저 내에서 설정할 수 있는 값을 기반으로 자식 객체를 렌더링할지 결정하는 보다 복잡한 모듈을 만들었어요:
 
@@ -75,7 +126,18 @@ OpenSCAD 서브레딧의 관련 없는 게시물을 읽는 도중 children 함�
 
 ![이미지](/assets/img/2024-06-19-CreatingMulti-ExtruderDesignsinOpenSCADfor3DPrinting_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 작업을 완료하고 준비를 마쳤어요:
 
@@ -85,7 +147,18 @@ OpenSCAD 서브레딧의 관련 없는 게시물을 읽는 도중 children 함�
 
 # 프로토타입부터 본격 생산화
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 조금 시간을 들여 접근 방식을 다듬었고, 테스트로 랜덤한 높이의 랜덤 사각형 그리드를 만들기로 결정했습니다. 이 과정에서 색상 대신 첨가물을 참조하도록 일반화함으로써, 다중 재료 프린트로 전환해도 여전히 의미가 통할 수 있도록 했습니다.
 
@@ -98,7 +171,18 @@ _WhichExtruder = "All"; // ["All", 1, 2, 3, 4, 5]
 
 다음으로, 첨가물의 값을 OpenSCAD 내에서 렌더링에 사용할 색상으로 매핑합니다. 실제 프린트와는 무관하며, 개발 중에 서로를 구별하기 위한 것입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // _WhichExtruder의 값을 OpenSCAD 색상으로 매핑하는 함수
@@ -111,7 +195,7 @@ _WhichExtruder = "All"; // ["All", 1, 2, 3, 4, 5]
                       "purple" ;
 ```
 
-그런 다음 Extruder 모듈은 _WhichExtruder의 값에 따라 자식 노드를 렌더링하거나 렌더링하지 않습니다:
+그런 다음 Extruder 모듈은 \_WhichExtruder의 값에 따라 자식 노드를 렌더링하거나 렌더링하지 않습니다:
 
 ```js
 // _WhichExtruder가 "All"인 경우 또는 "All"이 아니고 요청된 엑스트루더와 일치하는 경우 자식 노드 렌더링
@@ -130,30 +214,40 @@ _WhichExtruder = "All"; // ["All", 1, 2, 3, 4, 5]
 
 실제 그리기 코드는 Extruder 모듈을 사용하여 원하는 엑스트루더를 설정합니다:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-Extruder(Ex)
+Extruder(Ex);
 {
-   cube([_SquareWidth, _SquareDepth, Hi], center=false);
+  cube([_SquareWidth, _SquareDepth, Hi], (center = false));
 }
 ```
 
 그게 다에요!
 
-할 일은 _WhichExtruder를 다섯 가지 값 중 하나로 설정하고 렌더링하고 저장하는 것 뿐이에요. 이 과정은 일괄 처리나 스크립트 파일을 사용하여 더 자동화할 수 있어요. 아래는 저의 매우 간단한 스크립트 파일이에요:
+할 일은 \_WhichExtruder를 다섯 가지 값 중 하나로 설정하고 렌더링하고 저장하는 것 뿐이에요. 이 과정은 일괄 처리나 스크립트 파일을 사용하여 더 자동화할 수 있어요. 아래는 저의 매우 간단한 스크립트 파일이에요:
 
 ```js
-@ECHO OFF 
+@ECHO OFF
 REM 주어진 OpenSCAD 파일의 5개의 레이어 모두 렌더링합니다.
 REM 파일 이름에 .scad 확장자가 있거나 없을 수 있습니다.
 
-set BASE=%~n1% 
+set BASE=%~n1%
 set OSC="C:\Program Files\OpenSCAD\openscad.exe"
 
-echo %OSC% 
-echo %BASE% 
+echo %OSC%
+echo %BASE%
 
 REM 5번 반복
 %OSC% -D "_WhichExtruder=1" %BASE%.scad -o %BASE%_1.stl
@@ -163,7 +257,18 @@ REM 5번 반복
 %OSC% -D "_WhichExtruder=5" %BASE%.scad -o %BASE%_5.stl
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 다섯 가지 STL 파일이 어떻게 조합되는지에 대한 설명이 있습니다:
 
@@ -173,7 +278,18 @@ REM 5번 반복
 
 ![STLs](/assets/img/2024-06-19-CreatingMulti-ExtruderDesignsinOpenSCADfor3DPrinting_8.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 중요한 안전 팁
 
@@ -183,6 +299,17 @@ REM 5번 반복
 
 이게 현재 나의 위치입니다. 아직 탐험 중이며, 이 기술을 극한까지 발전시키는 것을 기대하고 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떻게 생각하시는지 알려주세요! 그리고 만들어 보신 것을 보여주세요!

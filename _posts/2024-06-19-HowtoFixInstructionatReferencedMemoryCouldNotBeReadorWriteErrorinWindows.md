@@ -3,17 +3,13 @@ title: "윈도우에서 발생하는 참조된 메모리의 명령을 읽거나 
 description: ""
 coverImage: "/assets/img/2024-06-19-HowtoFixInstructionatReferencedMemoryCouldNotBeReadorWriteErrorinWindows_0.png"
 date: 2024-06-19 04:58
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-HowtoFixInstructionatReferencedMemoryCouldNotBeReadorWriteErrorinWindows_0.png
 tag: Tech
 originalTitle: "How to Fix “Instruction at Referenced Memory Could Not Be Read or Write” Error in Windows"
 link: "https://medium.com/@windows101tricks/how-to-fix-instruction-at-referenced-memory-could-not-be-read-or-write-error-in-windows-11e15ccd3c07"
 isUpdated: true
 ---
-
-
-
-
 
 ![Instruction at Referenced Memory Could Not Be Read or Write Error](/assets/img/2024-06-19-HowtoFixInstructionatReferencedMemoryCouldNotBeReadorWriteErrorinWindows_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 "참조된 메모리의 명령을 읽거나 쓸 수 없습니다" 오류는 시스템의 메모리 액세스 프로토콜 내부의 중요한 문제를 나타냅니다. 오염된 시스템 파일, 소프트웨어 간 충돌, 일시적인 메모리 글리치 또는 하드웨어 고장을 포함한 다양한 요소가이 오류를 유발할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 클린 부트 실행하기
 
@@ -38,7 +45,18 @@ isUpdated: true
 
 ## 시스템 파일 검사기 (SFC)와 DISM 실행하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시스템 파일이 손상되었거나 누락된 경우 시스템의 안정성에 큰 영향을 미칠 수 있습니다. 시스템 파일 검사기(SFC)는 사용자가 손상된 Windows 시스템 파일을 검사하고 복원할 수 있는 유틸리티입니다. 이를 배경화면 이미지 서비스 및 관리 도구(DISM)와 결합하면 Windows 이미지를 복구하여 시스템 무결성을 더욱 향상시킬 수 있습니다. 이러한 도구를 실행하면 Windows PC에 발생하는 대부분의 문제를 해결할 수 있습니다.
 
@@ -49,7 +67,18 @@ SFC 스캔:
 
 DISM 스캔:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 동일한 터미널에서 DISM /Online /Cleanup-Image /RestoreHealth를 입력하고 Enter 키를 눌러주세요. 완료될 때까지 기다려주세요.
 
@@ -60,7 +89,18 @@ DISM 스캔:
 - Windows 터미널이나 명령 프롬프트를 관리자 권한으로 엽니다.
 - chkdsk /f를 입력하고 Enter 키를 눌러주세요. 다음 시스템 재부팅 시 점검을 예약하라는 메시지가 표시되면 Y를 입력하고 컴퓨터를 다시 시작해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 메모리 진단 도구 실행하기
 
@@ -71,7 +111,18 @@ DISM 스캔:
 
 ## 가상 메모리 설정 조정하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가상 메모리 또는 페이징 파일은 물리적 RAM의 확장으로 작동하여 하드 디스크 공간을 사용합니다. 가상 메모리 부족은 특히 메모리 집약적 작업 중에 오류를 일으킬 수 있습니다. 시스템의 가상 메모리 설정을 조정하여 할당된 공간을 늘리면 이러한 오류를 완화할 수 있으며 작업에 대한 더 많은 '공간'을 제공할 수 있습니다.
 
@@ -85,7 +136,18 @@ DISM 스캔:
 
 악성 코드 감염은 시스템 프로세스를 방해하고 메모리 관련 오류를 일으킬 수 있습니다. 안티바이러스 소프트웨어를 사용하여 전체 시스템 스캔을 수행하면 악성 소프트웨어를 감지하고 제거하여 오류를 해결할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 안티바이러스 소프트웨어를 열고 전체 시스템 스캔을 실행하는 옵션을 선택해주세요.
 - 발견된 악성 코드를 제거하기 위해 화면 안내에 따라 진행해주세요.
@@ -98,6 +160,17 @@ DISM 스캔:
 - 시스템 속성 창에서 시스템 복원을 클릭해주세요.
 - 오류가 발생하기 전의 복원 지점을 선택하고 시스템을 복원하기 위해 안내에 따라 진행해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 소스: https://windows101tricks.com/memory-could-not-be-read/

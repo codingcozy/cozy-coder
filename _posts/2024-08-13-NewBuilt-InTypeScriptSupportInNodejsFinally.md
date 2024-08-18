@@ -3,7 +3,7 @@ title: "Nodejs에서 기본적으로 타입스크립트 사용하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-13-NewBuilt-InTypeScriptSupportInNodejsFinally_0.png"
 date: 2024-08-13 11:14
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-13-NewBuilt-InTypeScriptSupportInNodejsFinally_0.png
 tag: Tech
 originalTitle: "New Built-In TypeScript Support In Nodejs  Finally"
@@ -11,7 +11,6 @@ link: "https://medium.com/coding-beauty/new-node-typescript-support-e0cfcdede6ac
 isUpdated: true
 updatedAt: 1723863112500
 ---
-
 
 <img src="/assets/img/2024-08-13-NewBuilt-InTypeScriptSupportInNodejsFinally_0.png" />
 
@@ -21,7 +20,18 @@ updatedAt: 1723863112500
 
 나도 TypeScript와 ts-node를 쓰는 걸 그만두기 좋은 때인 것 같아요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 변경 전:
 
@@ -31,21 +41,39 @@ Node.js는 JavaScript 파일에만 신경을 썼어요.
 
 <img src="/assets/img/2024-08-13-NewBuilt-InTypeScriptSupportInNodejsFinally_1.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위와 같이 표 태그를 변경하면 이러한 불쾌한 오류가 발생합니다:
 
-
 ![image](/assets/img/2024-08-13-NewBuilt-InTypeScriptSupportInNodejsFinally_2.png)
-
 
 최선의 방법은 TypeScript를 설치하고 tsc로 컴파일하는 것이었습니다.
 
-
 ![image](/assets/img/2024-08-13-NewBuilt-InTypeScriptSupportInNodejsFinally_3.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 수백만 명의 개발자들이 이것이 꽤 괜찮은 옵션이라고 동의했습니다:
 
@@ -55,7 +83,18 @@ Node.js는 JavaScript 파일에만 신경을 썼어요.
 
 JS로의 추가 컴파일 단계와 TypeScript 구성 및 관련 사항을 처리해야했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 종종 짜증이 나는 일이죠 — 특히 테스트를 조금 진행 중일 때 말이에요.
 
@@ -65,7 +104,18 @@ JS로의 추가 컴파일 단계와 TypeScript 구성 및 관련 사항을 처�
 
 ![이미지](/assets/img/2024-08-13-NewBuilt-InTypeScriptSupportInNodejsFinally_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 독립 노드 명령어로 수행하는 것처럼 즉석에서 대화식 세션을 시작할 수도 있어요:
 
@@ -75,7 +125,18 @@ JS로의 추가 컴파일 단계와 TypeScript 구성 및 관련 사항을 처�
 
 ![image2](/assets/img/2024-08-13-NewBuilt-InTypeScriptSupportInNodejsFinally_7.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 여전히 추가 종속성이 있었고, 여전히 TypeScript를 설치해야 했습니다.
 
@@ -85,7 +146,18 @@ JS로의 추가 컴파일 단계와 TypeScript 구성 및 관련 사항을 처�
 
 모든 이 변화는 이제 노드의 모든 새로운 업그레이드로 인해 변경됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - TypeScript를 네이티브로 지원합니다.
 - 의존성이 없습니다.
@@ -97,7 +169,18 @@ JS로의 추가 컴파일 단계와 TypeScript 구성 및 관련 사항을 처�
 
 웹팩을 즐겨 사용하는 도구 리스트에 넣은 사람은 거의 없지만 그래도…
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 얼른 좋은 소식이네요! 이렇게 하면 prettier.config.ts를 지원하는 pull request가 이미 있다는 걸 알았어요. 이번 새로운 발전 덕분에 더 큰 발전을 이루고 있어요.
 
@@ -107,13 +190,35 @@ TypeScript 지원은 점진적으로 이루어질 거예요. 현재는 유형만
 
 내부적으로 @swc/wasm-typescript 도구를 사용해 TypeScript 파일의 모든 유형을 제거하고 있답니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이렇게 바뀝니다:
 
 <img src="/assets/img/2024-08-13-NewBuilt-InTypeScriptSupportInNodejsFinally_10.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Node.js에서 TypeScript를 사용하는 방법
 
@@ -123,7 +228,18 @@ TypeScript 지원은 점진적으로 이루어질 거예요. 현재는 유형만
 
 이것은 곧 출시될 예정입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 마무리 생각
 
@@ -133,7 +249,18 @@ Bun이나 Deno처럼 매끄럽지는 않지만, 아직 지원이 완벽하지 �
 
 # JavaScript가 하는 모든 미친 짓
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여러분이 모든 특이사항을 알고 있었다고 생각했을 때, 좀 더 알아두어야 할 부분이 있다는 것을 알게 될 겁니다. Every Crazy Thing JavaScript Does은 자바스크립트의 미묘한 함정과 잘 알려지지 않은 부분들에 대한 매혹적인 안내서로, 괴로운 버그를 피하고 소중한 시간을 절약하세요.
 

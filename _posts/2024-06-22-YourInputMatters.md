@@ -3,17 +3,13 @@ title: "최고의 입력을 받는 5가지 방법"
 description: ""
 coverImage: "/assets/img/2024-06-22-YourInputMatters_0.png"
 date: 2024-06-22 16:34
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-YourInputMatters_0.png
 tag: Tech
 originalTitle: "Your Input Matters"
 link: "https://medium.com/@mohitdodeja513/embarking-on-my-cybersecurity-journey-day-0-8fc41d536970"
 isUpdated: true
 ---
-
-
-
-
 
 나의 사이버보안 여정을 시작하며: Day 0
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이 여정을 시작하며, 8개월 안에 OSCP(Offensive Security Certified Professional) 자격증을 달성하는 야심찬 목표를 세우고 상세한 로드맵을 설계했어요. 다음은 내가 따를 계획입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1. CompTIA Network+: 네트워킹 분야의 강한 기초를 구축하는 것은 시스템과 네트워크 간에 데이터가 어떻게 이동하는지를 이해하는 데 중요합니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 4. TCM Windows PrevEsc and TCM Linux PrevEsc: Windows 및 Linux 시스템에서 권한 상승에 대해 학습함으로써 시스템 보안에 대한 이해를 더욱 깊게 할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5. TryHackMe (THM) 랩: TryHackMe의 랩은 통제된 환경에서 실용적인 경험을 제공합니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 이것을 왜 하고 있는 걸까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사이버 보안 분야는 저를 매혹시킵니다. 이 분야는 공격에 대처하는 것뿐만 아니라 계속해서 학습하고 적응하며 잠재적 위협에 선제적으로 대비하기 위해 해커처럼 사고하는 것이기 때문입니다. 문제 해결과 기술에 열정적인 저로서는 이 분야가 도전과 혁신을 완벽하게 결합한 영역이라고 생각합니다.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 이 여정에 함께해주세요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 경계! 당신이 경험이 풍부한 사이버 보안 전문가이든, 신참이든, 이 분야에 관심이 있는 사람이든 상관없이 함께해요. 함께 배우고, 경험을 공유하며 서로 영감을 주어 우리의 한계를 뛰어넘을 수 있게 도와줍시다.
 
@@ -63,6 +103,17 @@ isUpdated: true
 
 지금은 여기서 물러나겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SoulfulZeus

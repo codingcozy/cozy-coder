@@ -3,17 +3,13 @@ title: "대형 언어 모델 LLMs 이해하기  어떻게 문제를 해결할까
 description: ""
 coverImage: "/assets/img/2024-06-22-UnderstandingLargeLanguageModelsLLMsHowDoTheySolveProblems_0.png"
 date: 2024-06-22 20:52
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-UnderstandingLargeLanguageModelsLLMsHowDoTheySolveProblems_0.png
 tag: Tech
 originalTitle: "Understanding Large Language Models (LLMs) — How Do They Solve Problems?"
 link: "https://medium.com/@hugmanskj/understanding-large-language-models-llms-how-do-they-solve-problems-3c94720714c5"
 isUpdated: true
 ---
-
-
-
-
 
 이 게시물의 한국어 버전을 다음 링크에서 찾을 수 있습니다. 😊
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 하지만 대형 언어 모델이 이 모든 기능을 어떻게 수행하는 걸까요? 지난 몇 년 동안 어떤 일이 일어나서 가능해졌을까요? 이 글에서는 대형 언어 모델이 일상생활에서 우리가 마주하는 다양한 문제들을 어떻게 해결하는지 살펴보고, 모든 이러한 기능을 통합하는 중요한 모델링 접근 방식을 소개할 거에요. 🚀
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # LLM 이전의 AI 대 LLM 기반 AI
 
@@ -45,7 +52,18 @@ isUpdated: true
 - 최종 서비스 구축
 - 세밀하게 조정된 모델을 사용하여 최종 감성 분석 서비스를 구축하고, 웹 서비스 또는 API로 제공할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LLM 이전에 AI를 사용하는 과정은 특정 작업을 수행하기 위해 많은 단계와 많은 수동 작업을 필요로 했습니다. 충분한 훈련 데이터를 수집해야 했고, 모델링 프로세스를 진행해야 했으며, 입력과 출력이 기존 모델의 형식과 일치해야 했습니다. 다시 말해, 데이터 파이프라인은 문제 자체가 아닌 모델의 입출력 형식을 중심으로 구축되어야 했습니다.
 
@@ -55,7 +73,18 @@ LLM 이전에 AI를 사용하는 과정은 특정 작업을 수행하기 위해 
 
 요컨데, 개발자들은 문제와 데이터를 모델의 강점에 맞게 맞춰야 했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## LLM 기반 AI
 
@@ -77,7 +106,18 @@ LLM은 문제 해결 과정을 간소화합니다. 특히 GPT와 같은 디코�
 - 최종 서비스 구축하기.
 - LLM을 사용하여 감성 분석 서비스를 구축하고 웹 서비스나 API로 제공할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에 표시된 대로, LLM을 사용하면 복잡한 전처리, 모델 선택 또는 세부 조정 과정 없이 감성 분석을 쉽게 수행할 수 있습니다. 모든 과정은 통합 모델에 의해 처리될 수 있어 개발자와 사용자에 대한 부담을 크게 줄일 수 있습니다. 가장 큰 장점은 입력과 출력이 모두 '텍스트'로 통합된다는 점으로, 복잡한 벡터 해석이나 처리가 필요 없다는 점입니다. 이는 다음과 같이 설명할 수 있습니다:
 
@@ -87,7 +127,18 @@ LLM은 문제 해결 과정을 간소화합니다. 특히 GPT와 같은 디코�
 
 이제 LLM, 특히 디코더를 사용하는 생성 모델이 통합적인 관점에서 다양한 문제를 해결하는 방법을 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 난 생성 모델 LLM이 특정 목표로 훈련되고 예측하는 방식을 알아볼 거야.
 
@@ -106,7 +157,18 @@ LLM은 문제 해결 과정을 간소화합니다. 특히 GPT와 같은 디코�
 - A가 있는 타임스텝은 B를 생성해야 해.
 - 각 타임스텝에서 손실을 계산하고 누적해, 이를 기반으로 트랜스포머를 훈련해.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 과정은 다음과 같이 시각화될 수 있습니다:
 
@@ -119,7 +181,18 @@ LLM은 문제 해결 과정을 간소화합니다. 특히 GPT와 같은 디코�
 - P(C | `S`, A, B)
 - P(`/S` | `S`, A, B, C)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서 우리의 "생성 언어 모델"은 궁극적으로 다음 목표를 완성하는 데 최적화되어 있어요.
 
@@ -130,7 +203,18 @@ LLM은 문제 해결 과정을 간소화합니다. 특히 GPT와 같은 디코�
 [문장 완성]
 저희 언어 모델은 기본적으로 문장을 완성하도록 훈련되어 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 예시에서 보는 것처럼, Transformer 디코더는 입력 "This is a wonderful" 후에 가장 타당한 단어 "world"을 생성합니다. 그런 다음 "This is a wonderful world" 후에 "isn't"를, 그리고 "This is a wonderful world, isn't" 후에 "it?"을 생성합니다. 기본적으로 문장의 시작이 주어지면 가장 타당한 나머지 부분을 완성합니다.
 
@@ -139,7 +223,18 @@ LLM은 문제 해결 과정을 간소화합니다. 특히 GPT와 같은 디코�
 
 ![](/assets/img/2024-06-22-UnderstandingLargeLanguageModelsLLMsHowDoTheySolveProblems_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 생성 언어 모델은 문장뿐만 아니라 단락도 완성할 수 있습니다. 초기 내용을 바탕으로 단락의 나머지 부분을 완성합니다.
 
@@ -151,7 +246,18 @@ LLM은 문제 해결 과정을 간소화합니다. 특히 GPT와 같은 디코�
 
 간단히 다양한 정보 규모를 문서로 설명하면, 우리는 LLM을 주어진 문서 조각에 가장 적합한 나머지 조각을 생성하는 엔진으로 정의할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-UnderstandingLargeLanguageModelsLLMsHowDoTheySolveProblems_5.png" />
 
@@ -161,7 +267,18 @@ LLM은 문제 해결 과정을 간소화합니다. 특히 GPT와 같은 디코�
 
 ## LLMs의 핵심 — 가능성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LLM들이 Q/A 및 번역과 같은 다양한 응용 프로그램을 처리하기 위해 이 자동완성 기능을 사용하는 방법은 데이터의 힘에 있습니다.
 
@@ -171,7 +288,18 @@ LLM들이 Q/A 및 번역과 같은 다양한 응용 프로그램을 처리하기
 
 질문 Q에 대한 답변 A를 제공하는 것은 Q/A 시스템을 형성합니다. 교육을 위해 우리는 Q/A 쌍을 단일 문서로 생각할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 문서 D = [Q;A]
 
@@ -181,11 +309,33 @@ LLM(Language Model)이 수십억 개의 이러한 Q/A 문서로 훈련받는다�
 
 - LLM(Dₚ=Q) -` Dₙ
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 표 태그를 Markdown 형식으로 변경해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시스템적으로 보면 다음과 같습니다:
 
@@ -197,7 +347,18 @@ LLM(Language Model)이 수십억 개의 이러한 Q/A 문서로 훈련받는다�
 
 - D = [C; S; T]
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 수십억 건의 번역 요청 및 결과 문서를 사용하여 훈련된 언어 모델은 자연스럽게 Dₚ = [C; S]를 Dₙ = T와 함께 완성할 수 있는 능력을 개발합니다. 본질적으로 번역기를 생성하는 대신, 우리는 번역 문서의 일부를 가져와 입력하고 자동 완성 기곕이 나머지를 채우도록 허용했습니다.
 
@@ -207,7 +368,18 @@ LLM(Language Model)이 수십억 개의 이러한 Q/A 문서로 훈련받는다�
 
 음악 작곡, 소설 쓰기, 영화 제작, 시험 문제 제출 및 해결, 경제 시뮬레이션, 수학 문제 해결, 철학적 논쟁, 인류의 미래 예측 - 우리가 가진 거의 모든 질문은 "가장 타당한" 결과를 제공함으로써 답변될 수 있습니다. 그리고 그 타당한 결과가 바로 LLM, 자동완성 기곕이 제공하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

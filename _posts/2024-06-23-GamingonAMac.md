@@ -3,17 +3,13 @@ title: "맥에서 게임 즐기는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-23-GamingonAMac_0.png"
 date: 2024-06-23 15:34
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-GamingonAMac_0.png
 tag: Tech
 originalTitle: "Gaming on A Mac"
 link: "https://medium.com/@kukucourses/gaming-on-a-mac-188de86ca343"
 isUpdated: true
 ---
-
-
-
-
 
 ## Mac 게임 경험담
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 제 Mac 구성이 높다고 해서 낮은 구성의 Mac으로 게임을 즐길 수 없다는 건 아니에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 맥에서 게임을 많이 했어요
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 그래서 제와 같이 맥에서 작업 중에 게임으로 어떤 즐거움을 느끼고 싶다면, 언제든지 맥 게임을 환영합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 맥 머신을 사용하더라도 자신을 프로 게이머로 생각하지 마세요, 마음을 맑게 유지하는 것에 좋을 뿐입니다.
 
@@ -45,7 +63,18 @@ isUpdated: true
 - Crossover (유료)
 - Parallels (유료)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 소프트웨어는 Mac App Store에 없는 게임을 플레이하는 데 도움이 될 것입니다.
 
@@ -55,7 +84,18 @@ GTA, 컨터스트라이크, 배틀필드, 콜 오브 듀티 등과 같은 게임
 
 Crossover는 Windows 애플리케이션 또는 게임을 맥에서 실행하는 데 도움이 됩니다. 맥 자원을 완전히 활용하여 게임을 원활하게 실행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 크로스오버를 구할 수 있어요.
 
@@ -65,7 +105,18 @@ Crossover는 Windows 애플리케이션 또는 게임을 맥에서 실행하는 
 
 크로스오버로 지원되는 게임 목록을 확인해 보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Parallels For Mac
 
@@ -75,7 +126,18 @@ Parallels는 맥에서 윈도우 애플리케이션이나 게임을 실행하는
 
 게임을 위한 Parallels 설정 방법을 가르쳐 주는 동영상을 아래에서 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 Parallels를 구입할 수 있어요.
 
@@ -85,7 +147,18 @@ Parallels를 설정한 후에, 이제 아래에 있는 Battlefield 4 튜토리�
 
 Parallels에서 지원되는 게임 목록을 확인해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -95,7 +168,18 @@ Parallels에서 지원되는 게임 목록을 확인해보세요.
 
 게임플레이가 정말 멋지고 매우 부드럽게 이루어져서 기분이 좋아요. 또한 제 맥북의 성능도 높아서요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 맥북에서도 꽤 재미있는 게임을 즐길 수 있어요.
 
@@ -105,7 +189,18 @@ Parallels에서 지원되는 게임 목록을 확인해보세요.
 
 💰 맥북에 게임 기탁해주세요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 여러분의 기부금으로, 저는 Mac에서 다양한 게임을 구매하고 테스트할 것입니다.
 - 그 다음 그 게임을 단계별로 설정하는 방법에 대한 YouTube 자습서를 만들 것입니다.

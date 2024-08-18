@@ -3,17 +3,13 @@ title: "인과 AI로 마케팅 믹스 모델링 향상시키는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-22-EnhancingMarketingMixModellingwithCausalAI_0.png"
 date: 2024-06-22 21:15
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-EnhancingMarketingMixModellingwithCausalAI_0.png
 tag: Tech
 originalTitle: "Enhancing Marketing Mix Modelling with Causal AI"
 link: "https://medium.com/towards-data-science/enhancing-marketing-mix-modelling-with-causal-ai-77f638bce3a9"
 isUpdated: true
 ---
-
-
-
-
 
 ## 인과적 AI, 인과 추론을 기계 학습에 통합하는 것을 탐구합니다
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Causal AI에 관한 내 시리즈에 오신 것을 환영합니다. 여기서는 인과 추론을 기계 학습 모델에 통합하는 것을 탐구할 것입니다. 다양한 비즈니스 맥락에서 실용적 응용 프로그램을 탐구할 것을 기대해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지난 기사에서는 합성 통제 방법의 인과 영향을 유효성 검증한 내용을 다루었습니다. 이번 기사에서는 Causal AI를 활용하여 마케팅 믹스 모델링을 개선하는 방법에 대해 알아보겠습니다.
 
@@ -33,7 +40,18 @@ Causal AI에 관한 내 시리즈에 오신 것을 환영합니다. 여기서는
 
 디지털 추적에 대한 지속적인 과제로 최근에 마케팅 믹스 모델링(MMM)의 부상이 있었습니다. 최근 Causal AI 컨퍼런스에서 Judaea Pearl은 마케팅이 Causal AI를 채택할 첫 번째 산업일 수도 있다고 제안했습니다. 그래서 지난 7년간의 경험을 통해 MMM, Causal AI 및 실험이 어떻게 교차하는지에 대해 쓰기로 결정했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-EnhancingMarketingMixModellingwithCausalAI_1.png" />
 
@@ -46,7 +64,18 @@ Causal AI에 관한 내 시리즈에 오신 것을 환영합니다. 여기서는
 
 전체 노트북은 여기에서 찾을 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # MMM은 무엇인가요?
 
@@ -56,7 +85,18 @@ MMM은 각 마케팅 채널이 매출에 기여하는 정도를 추정하는 데
 
 회귀 모델은 종속 변수/대상(보통 매출)이 다양한 독립 변수/특성을 기반으로 예측되는 방식으로 구성됩니다. 이에는 일반적으로 다양한 마케팅 채널에 대한 지출 및 수요에 영향을 미칠 수 있는 외부 요인이 포함됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-EnhancingMarketingMixModellingwithCausalAI_2.png" />
 
@@ -66,7 +106,18 @@ MMM은 각 마케팅 채널이 매출에 기여하는 정도를 추정하는 데
 
 ## 광고 재고
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 광고 재고란 마케팅 지출(또는 광고 지출)이 소비자 행동에 미치는 잔류 효과를 가리킵니다. 장기적인 마케팅 효과를 모델링하는 데 도움이 됩니다. 브랜드에 대해 처음 들었을 때 제품을 즉시 구매하러 달려가는 것은 흔한 행동이 아닙니다 — 광고 재고의 개념은 마케팅 효과가 누적된다는 것입니다.
 
@@ -76,7 +127,18 @@ MMM은 각 마케팅 채널이 매출에 기여하는 정도를 추정하는 데
 
 ## 포화
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마케팅에서 포화는 점차적인 수익 절감을 의미합니다. 마케팅 지출을 증가시키면 고객 확보가 가능하지만, 시간이 지나면 새로운 관객에 영향을 미치기가 더 어려워집니다.
 
@@ -86,7 +148,18 @@ MMM은 각 마케팅 채널이 매출에 기여하는 정도를 추정하는 데
 
 # 인과 AI가 MMM을 어떻게 강화시킬까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 MMM 프레임워크는 일반적으로 평평한 회귀 모델을 사용합니다. 그러나 마케팅 채널이 서로 상호 작용하는 방법에는 몇 가지 복잡성이 있습니다. 저희 Causal AI 도구 상자에서 이를 돕기 위한 도구가 있을까요?
 
@@ -96,7 +169,18 @@ MMM 프레임워크는 일반적으로 평평한 회귀 모델을 사용합니�
 
 인과 그래프에 대해 익숙하지 않다면, 이전 기사를 활용하여 습득해보세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 마케팅 그래프 이해하기
 
@@ -106,7 +190,18 @@ MMM 프레임워크는 일반적으로 평평한 회귀 모델을 사용합니�
 
 아래에서는 몇 년간 마케팅 전문가들과 일해오면서 얻은 지식을 공유하고 있습니다...
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-EnhancingMarketingMixModellingwithCausalAI_5.png" />
 
@@ -119,7 +214,18 @@ MMM 프레임워크는 일반적으로 평평한 회귀 모델을 사용합니�
 
 여전히 당신의 프레임워크에 광고 재고 및 포화 변환을 통합하는 가치가 있음을 언급해 두고 싶습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 삼각 측량을 완료하기 위해 어떤 실험을 진행할 수 있을까요?
 
@@ -129,7 +235,18 @@ MMM 프레임워크는 일반적으로 평평한 회귀 모델을 사용합니�
 
 Facebook이나 Snapchat과 같은 소셜 플랫폼에서 전환 증가 테스트를 진행할 수 있습니다. 이는 처리 그룹 대 대조 그룹을 사용하여 전환 증대를 측정하는 AB 테스트입니다. 이러한 테스트는 소셜 지출에 대한 인과 그래프의 대안을 평가하는 데 매우 유용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 지오 리프트 테스트
 
@@ -139,7 +256,18 @@ Facebook이나 Snapchat과 같은 소셜 플랫폼에서 전환 증가 테스트
 
 PPC 캠페인은 시간별로 꺼졌다 켜질 수 있습니다. 이는 스위치백 테스트를 수행하기에 좋은 기회를 제공합니다. 몇 주 동안 시간별로 PPC 캠페인을 꺼졌다 켜는 것을 예약하고, 그 후 꺼진 vs 켜진 기간 동안의 PPC + SEO 클릭 수 차이를 계산하십시오. 이를 통해 PPC의 얼마나 많은 부분이 SEO에 의해 캡처될 수 있는지 이해하고, 따라서 PPC 지출에 대한 인과 그래프에서 대조사실을 평가할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실험을 실행하는 것은 인과 그래프를 조정하고 자신감을 얻는 좋은 방법이라고 생각해요. 그러나 결과는 모델을 보정하는 데도 사용할 수 있어요. PyMC 팀이 이를 어떻게 다루는지 살펴보세요:
 
@@ -149,7 +277,18 @@ PPC 캠페인은 시간별로 꺼졌다 켜질 수 있습니다. 이는 스위�
 
 ![EnhancingMarketingMixModellingwithCausalAI_6](/assets/img/2024-06-22-EnhancingMarketingMixModellingwithCausalAI_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 수요 예측을 따라 지출하기 — 마케팅 비용이 매출량과 높은 상관 관계를 가지는 이유 중 하나는 마케팅 팀이 수요 예측에 따라 지출하는 것일 수 있습니다. 여기서 한 가지 해결책은 매주 지출을 무작위로 -10%에서 +10%씩 변동시켜 일정을 더하려는 것입니다. 마케팅 팀은 대개 이 접근법을 좋아하지 않는다는 점에 유의해야 합니다!
 - 수요 추정 — 수요는 우리 모델에서 중요한 변수입니다. 그러나 수집하기가 매우 어려울 수 있습니다. 제품과 관련된 검색어에 대한 구글 트렌드 데이터를 추출하는 것이 합리적인 선택일 수 있습니다.

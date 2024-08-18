@@ -3,17 +3,13 @@ title: "데이터 메시에 대한 도전 과제 및 해결책  3부"
 description: ""
 coverImage: "/assets/img/2024-06-22-ChallengesandSolutionsinDataMeshPart3_0.png"
 date: 2024-06-22 17:11
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-ChallengesandSolutionsinDataMeshPart3_0.png
 tag: Tech
 originalTitle: "Challenges and Solutions in Data Mesh — Part 3"
 link: "https://medium.com/towards-data-science/challenges-and-solutions-in-data-mesh-part-3-dacb917f3c91"
 isUpdated: true
 ---
-
-
-
-
 
 '연합된 계산 기반 거버넌스'는 안전하고 신뢰할 수 있으며 상호 운용 가능한 데이터 메시를 보장합니다. 상호 운용성으로부터 추가 가치는 종종 "전체가 부분의 합보다 더 크다"는 구절로 요약됩니다. HTTP와 같은 표준 프로토콜, 효율적인 데이터 전송 메커니즘, 그리고 구성 요소의 포괄적인 버전 관리와 같은 기술적 측면을 설정하는 것이 상호 운용성을 활성화하는 데 중요하다면, 여기서 우리의 초점은 전체적인 데이터 일관성과 호환성 유지에 있을 것입니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 그렇다면, 우리는 어떻게 거버넌스를 변경하여 분산된 팀에 가치를 제공하고 동시에 참여를 촉진할 수 있을까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 지배 규칙을 유용한 프레임워크로 변환하고 커뮤니티 기반의 아이디어와 시장 기반의 메커니즘을 활용함으로써 이를 달성할 수 있습니다. 이러한 전략은 참여와 가이드라인 준수를 효과적으로 장려할 수 있습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 예전에야후는 웹의 정보를 구조화하는 데 중앙에서 분류 체계를 작성하고 정리하는 것이 옳은 방식이라고 믿었습니다. 그러나 구글은 분산된 자동화 검색 기능으로 월드 와이드 웹의 정보를 보다 획기적으로 처리하여 더 큰 성공을 거두었습니다. 구글의 방식은 작업을 분배하고 자동화를 통해 아래에서 위로 데이터를 합치는 것을 지원했기 때문에 더욱 효과적이었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹의 비구조화된 다양한 정보는 대기업의 명확성 부족을 반영하기도 하지만, 우리는 여전히 조직 내에서 선제적으로 행동할 기회가 있습니다. 그러나 Google 검색 엔진과 같은 하위 검색 기능은 마술처럼 누락된 메타데이터를 생성하거나 일관성 없는 데이터를 일관성 있게 만들어 줄 수 없습니다. 따라서 데이터가 일관되게 정의되고 비즈니스 컨텍스트를 위한 메타데이터가 데이터 제품에 통합되도록 선제적으로 행동하고 보장하는 것이 중요합니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 이러한 포괄적 모델 개발의 불가능성에 대한 이야기가 많이 나오지만, 많은 프로젝트에서 실용적인 접근 방식이 성공을 거두었습니다. 중요한 것은 도메인별 데이터 모델을 통합할 온톨로지(프레임워크)를 수립하는 것입니다. DDD 용어로 말하면, "Context Maps"를 통해 Bounded Contexts의 명확하게 인식된 중첩 목록이 필요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다시 말해, 핵심 비즈니스 컨셉에 대한 지표를 제공하고 개요를 제공하는 고수준 비즈니스 모델입니다. 개별 도메인 모델의 상세한 디자인은 온톨로지의 범위를 벗어납니다. 온톨로지는 다수의 도메인 모델을 통합하고 비즈니스 도메인 전반에 걸쳐 유효한 공통점과 추상화를 설명합니다. 다의어를 정의하는 것뿐만 아니라 공통 비즈니스 용어, 객체 및 관계를 식별하는 데 중점을 둡니다.
 
@@ -53,16 +82,27 @@ isUpdated: true
 
 기존 모델을 활용하고 새로운 모델을 만드는 두 가지 접근법을 균형 있게 조화시키는 것은 많은 프로젝트에서 긍정적인 결과를 이끌어냈습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사에서 발견된 풍부한 조언들을 완전히 다 다루지는 못하지만, 두 가지 주요 아이디어를 강조하겠습니다:
 
 - 온톨로지에서 비즈니스 참여 활성화
-비즈니스 정보를 성공적으로 통합하기 위해서는, 여러 영역을 중심으로 조정할 수 있다는 오해를 피해야 합니다. 그러나 중앙 감독 없이는 조정될 수 없습니다. 그리고 중앙화된 IT 데이터 모델러 팀은 종종 각각의 비즈니스 도전에 대한 구체적인 지식이 부족할 수 있습니다. 따라서, 비즈니스 전문가들을 참여시키는 것이 중요합니다.
-연합 접근 방식을 유지하기 위해서, 모델링 팀은 IT 데이터 모델링 전문가들이 중재하는 모든 비즈니스 영역의 전문가들을 포함해야 합니다. 그 목표는 비즈니스에 대한 통합적이고 고수준의 이해를 달성하는 것입니다. 기억하세요, 데이터 모델링은 근본적으로 비즈니스 모델링이라는 것을.
+  비즈니스 정보를 성공적으로 통합하기 위해서는, 여러 영역을 중심으로 조정할 수 있다는 오해를 피해야 합니다. 그러나 중앙 감독 없이는 조정될 수 없습니다. 그리고 중앙화된 IT 데이터 모델러 팀은 종종 각각의 비즈니스 도전에 대한 구체적인 지식이 부족할 수 있습니다. 따라서, 비즈니스 전문가들을 참여시키는 것이 중요합니다.
+  연합 접근 방식을 유지하기 위해서, 모델링 팀은 IT 데이터 모델링 전문가들이 중재하는 모든 비즈니스 영역의 전문가들을 포함해야 합니다. 그 목표는 비즈니스에 대한 통합적이고 고수준의 이해를 달성하는 것입니다. 기억하세요, 데이터 모델링은 근본적으로 비즈니스 모델링이라는 것을.
 
 - 고수준 유지 및 세부 사항 연방화
-Ontology는 고수준의 공통점에 관한 것입니다. 핵심 개체 및 관계를 작업하기 위해 추상 모델링 패턴을 사용하세요, 예를 들어 다음과 같은 것들.
+  Ontology는 고수준의 공통점에 관한 것입니다. 핵심 개체 및 관계를 작업하기 위해 추상 모델링 패턴을 사용하세요, 예를 들어 다음과 같은 것들.
 
 | 주체 & 역할: 비즈니스 역할을 수행하는 개인 또는 조직 (예: 고객, 에이전트, 공급업체).
 | 위치: 지리적 위치, 건물 또는 지역.
@@ -75,9 +115,20 @@ Ontology는 고수준의 공통점에 관한 것입니다. 핵심 개체 및 관
 | 제품: 고객에게 제공되는 상품 및 서비스.
 
 - 이러한 모델링 패턴은 다음과 같은 관계를 가지고 있습니다.
-제품 -` 주체가 활용하는 -` 합의를 체결한 -` 계정을 용이하게 하는 합의 -` 위치에 유지된 -` 자원의 장소이고, 그렇게하여야 된다.
+  제품 -` 주체가 활용하는 -` 합의를 체결한 -` 계정을 용이하게 하는 합의 -` 위치에 유지된 -` 자원의 장소이고, 그렇게하여야 된다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 희망을 통해 일반적인 개념을 제공했기를 바랍니다 — 참조 도서에서 더 자세하고 유용한 조언을 찾을 수 있을 거에요. 일반적인 패턴은 비즈니스 개념을 설명하는 상향식 프레임워크를 제공하여 다양한 영역간의 이해를 통합하는 데 도움이 됩니다. 자세한 비즈니스 도메인 모델은 상향식으로 개발된 상위 온톨로지에 명시적으로 연결되는 분산 도메인 팀에 의해 아래에서 위로 보완되어야 합니다. 이는 다양한 관점을 조화시키기 위한 강력한 토론 없이는 성공할 수 없는 창의적인 과정입니다.
 
@@ -87,7 +138,18 @@ Ontology는 고수준의 공통점에 관한 것입니다. 핵심 개체 및 관
 
 # 참여를 활발하게 하는 동기부여
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 메시 내에서 효율적인 거버넌스는 참여자들이 데이터 기여를 온톨로지에 맞추도록 장려하며, 기업 전체의 이익과 개별 또는 부서별 목표를 균형 있게 조율합니다.
 
@@ -97,7 +159,18 @@ Ontology는 고수준의 공통점에 관한 것입니다. 핵심 개체 및 관
 
 오픈 소스 운동에서 배울 점이 있습니다. 오픈 소스 운동의 철학에 부합하여, 데이터 모델의 특정 부분의 소유권이 아닌 일관된 전체적인 협력에 대한 작업이 중요합니다. 협업은 정보를 공유하는 것이며, 따라서 데이터 모델에 대한 모든 변경 사항은 시간이 지남에 따라 공개되고 문서화되어야 합니다. 거버넌스 프로세스는 이러한 공유를 가장 간단하고 보상적으로 만들어야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오픈 소스 개발에서는 Git과 같은 코드 저장소를 활용하여 배포 및 업데이트 작업을 투명하게 처리하고 코드의 전체 내용을 분산하여 업데이트할 수 있습니다. 개발자들은 제품 상태에 대한 포괄적인 개요를 언제든 확인할 수 있습니다. 풀 리퀘스트를 사용하면 코드 변경에 대한 다양한 관점을 토론하고 중재할 수 있는 가치 있는 플랫폼을 구축할 수 있습니다.
 
@@ -107,20 +180,42 @@ Ontology는 고수준의 공통점에 관한 것입니다. 핵심 개체 및 관
 
 ## 데이터 제품 시장
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 알truistic 동기 외에도, 시장 기반 메커니즘은 기업 내 분산 모델링 노력에 참여를 동기부여할 수 있습니다. 이러한 메커니즘은 데이터 제품을 위한 고객을 찾는 데 도움을 주는 것뿐만 아니라 데이터의 명확한 정의와 구조화를 장려합니다.
 
 참여 동기:
 
 - 생산자와 고객에게 부가 가치 제공
-생산자는 기업 내에서 자신의 응용 프로그램의 중요성과 가시성을 높여 혜택을 얻습니다. 반면에 고객은 자신의 데이터 요구를 효율적으로 충족시켜주는 것으로, 생산자와 직접 소통할 수 있는 명확한 개요를 얻을 수 있습니다.
+  생산자는 기업 내에서 자신의 응용 프로그램의 중요성과 가시성을 높여 혜택을 얻습니다. 반면에 고객은 자신의 데이터 요구를 효율적으로 충족시켜주는 것으로, 생산자와 직접 소통할 수 있는 명확한 개요를 얻을 수 있습니다.
 - 참여를 간소화하고 민주화
-프로세스를 간소화하기 위해 자동화된, 셀프 서비스 데이터 패브릭을 구현합니다. 정확한 정보 매핑에 대한 긴 조정은 데이터 제품을 빠르게 출시하고 싶은 생산자들에게 장벽이 될 수 있습니다. 이 프로세스를 간소화함으로써 참여를 장려하여 지각된 장벽을 줄입니다.
+  프로세스를 간소화하기 위해 자동화된, 셀프 서비스 데이터 패브릭을 구현합니다. 정확한 정보 매핑에 대한 긴 조정은 데이터 제품을 빠르게 출시하고 싶은 생산자들에게 장벽이 될 수 있습니다. 이 프로세스를 간소화함으로써 참여를 장려하여 지각된 장벽을 줄입니다.
 
 마켓플레이스에 제공되는 데이터 제품의 경우, 시장 메커니즘을 활용하여 데이터 제품의 가치를 결정할 수 있습니다. 본문에서 상세한 가치 평가 방법에 대해 다룰 수 없지만, 사용자 사용량을 추적하고 평가 및 리뷰와 같은 소비자 피드백을 가능하게 함으로써 간단하면서도 효과적인 접근 방법이 있습니다. 이러한 메커니즘들은 참여를 장려할 뿐만 아니라 데이터 제품의 품질을 평가하고 개선하기 위한 가치 있는 통찰을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기업 데이터 모델을 만드는 것이 어려운 일로 여겨졌지만, 이제는 고품질 데이터 제품을 위한 자체 지속 경쟁으로 변모했습니다.
 
@@ -133,7 +228,18 @@ Ontology는 고수준의 공통점에 관한 것입니다. 핵심 개체 및 관
 
 이로써 데이터 메쉬의 도전과 해결책에 관한 세 번의 시리즈가 마무리됩니다. 종합적으로, Zhamak Dehghani의 정의에 따라 데이터 메쉬를 개선하기 위해 다음과 같은 조언을 제공했습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 부분 1
 
@@ -144,7 +250,18 @@ Ontology는 고수준의 공통점에 관한 것입니다. 핵심 개체 및 관
 - '데이터 제품'을 스마트 데이터 구조로 구현하여 전체 데이터 계보와 비즈니스 컨텍스트를 포함하도록 하고, 자체 생성이 가능한 새로운 '슈퍼 객체'로 사용하지 않도록 합니다.
 - 데이터 메시의 하부에 데이터 제품 인프라를 제공하여 느슨하게 결합된 운영 및 분석 시스템 간에 데이터 제품을 원활하게 교환할 수 있도록 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파트 3
 

@@ -3,17 +3,13 @@ title: "MacOS에서 Docker로 SQL 서버 설정하는 방법  단계별 가이�
 description: ""
 coverImage: "/assets/img/2024-06-22-SettingUpSQLServerwithDockeronMacOSAStep-by-StepGuide_0.png"
 date: 2024-06-22 16:17
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-SettingUpSQLServerwithDockeronMacOSAStep-by-StepGuide_0.png
 tag: Tech
 originalTitle: "Setting Up SQL Server with Docker on MacOS — A Step-by-Step Guide"
 link: "https://medium.com/@ugurelsevket/setting-up-sql-server-with-docker-on-macos-a-step-by-step-guide-8742c725a63e"
 isUpdated: true
 ---
-
-
-
-
 
 # 단계 1: Docker와 Azure Data Studio 다운로드하기
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Docker를 시작하고 사용자 계정을 만들어 시작하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 3: SQL Server 이미지 다운로드하기
 
@@ -35,7 +42,18 @@ docker pull mcr.microsoft.com/azure-sql-edge
 
 ![이미지](/assets/img/2024-06-22-SettingUpSQLServerwithDockeronMacOSAStep-by-StepGuide_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다운로드가 완료되면 확인 메시지가 나타납니다.
 
@@ -47,8 +65,18 @@ docker pull mcr.microsoft.com/azure-sql-edge
 docker run -e "ACCEPT_EULA=1" -e "MSSQL_SA_PASSWORD=reallyStrongPwd123" -e "MSSQL_PID=Developer" -e "MSSQL_USER=SA" -p 1433:1433 -d --name=sql mcr.microsoft.com/azure-sql-edge
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-22-SettingUpSQLServerwithDockeronMacOSAStep-by-StepGuide_1.png)
 
@@ -60,8 +88,18 @@ docker container ls
 
 이미지 섹션에는 생성된 컨테이너가 표시됩니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 5: Azure Data Studio와 연결하기
 
@@ -73,7 +111,18 @@ Azure Data Studio를 열고 "Create a Connection" 옵션을 사용하여 다음 
 
 "Remember Password" 옵션을 확인하고 "Connect"를 클릭하세요. 연결 확인은 왼쪽 상단에 나타날 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 6: 컨테이너 중지
 
@@ -82,4 +131,5 @@ Azure Data Studio를 열고 "Create a Connection" 옵션을 사용하여 다음 
 ```js
 docker container stop container_id
 ```
+
 이제 SQL Server가 Docker에서 가동 중이며, Azure Data Studio를 사용하여 연결을 설정할 수 있습니다. 이 지침을 따라 개발 또는 테스트 환경을 빠르게 구축하고 관리할 수 있습니다.

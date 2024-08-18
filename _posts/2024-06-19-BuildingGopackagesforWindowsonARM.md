@@ -3,17 +3,13 @@ title: "윈도우용 ARM용 Go 패키지 빌드하기"
 description: ""
 coverImage: "/assets/img/2024-06-19-BuildingGopackagesforWindowsonARM_0.png"
 date: 2024-06-19 15:34
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-BuildingGopackagesforWindowsonARM_0.png
 tag: Tech
 originalTitle: "Building Go packages for Windows on ARM"
 link: "https://medium.com/@x1unix/building-go-packages-for-windows-on-arm-d181fa4e3bfc"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-19-BuildingGopackagesforWindowsonARM_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 본 기사는 Q&A 섹션으로 구성되어 있어 해당 주제를 간략히 설명하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # WoA는 x86을 에뮬레이션할 수 있나요?
 
@@ -33,7 +40,18 @@ simdjson과 같은 라이브러리를 사용하는 사람들은 위험에 노출
 
 # Go는 이미 크로스 컴파일을 지원하지 않나요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Go는 ARM64를 Windows용으로 포함한 즉시 교차 컴파일 지원을 제공합니다. 그러나 이에는 CGO가 포함되지 않습니다.
 
@@ -43,7 +61,18 @@ Go는 ARM64를 Windows용으로 포함한 즉시 교차 컴파일 지원을 제�
 
 윈도우 및 리눅스에서의 교차 컴파일을 위한 가장 인기 있는 솔루션은 MinGW입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안타깝게도 MinGW는 ARM64 타겟을 지원하지 않습니다.
 
@@ -53,7 +82,18 @@ MSYS2 툴체인은 ARM을 지원하지만 Windows 전용이기 때문에 사용�
 
 # 그렇다면 CGO를 통해 WoA용 프로그램을 어떻게 빌드할까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 걱정 마세요, 이미 대응되었습니다.
 
@@ -63,7 +103,18 @@ WoA를 지원하는 llvm-mingw라는 대안 도구 체인이 있습니다.
 
 llvm-mingw를 더 편리하게 사용할 수 있는 방법이 있을까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 네, 확실해요!
 
@@ -73,7 +124,18 @@ llvm-mingw를 더 편리하게 사용할 수 있는 방법이 있을까요?
 
 이 이미지는 x86용으로 MinGW를 사용하고, arm64 타겟용으로는 llvm-mingw를 사용해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 사용 방법
 
@@ -131,7 +193,18 @@ func main() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 도커 이미지를 사용한 예제를 만들어 봅시다:
 
@@ -149,8 +222,18 @@ docker run --rm -it -e GOARCH=arm64 \
 
 프로그램을 빌드한 후에는 Windows on Arm이 설치된 어떤 VM 안에서 실행해 보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![그림](/assets/img/2024-06-19-BuildingGopackagesforWindowsonARM_1.png)
 
@@ -160,7 +243,17 @@ docker run --rm -it -e GOARCH=arm64 \
 
 이것은 일반적인 Docker 이미지이기 때문에 GitHub Actions 및 Gitlab CI에서 손쉽게 사용할 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CI 템플릿은 여기에서 확인하실 수 있습니다.

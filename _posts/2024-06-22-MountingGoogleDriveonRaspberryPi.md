@@ -3,17 +3,13 @@ title: "라즈베리 파이에서 구글 드라이브 마운트하는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-22-MountingGoogleDriveonRaspberryPi_0.png"
 date: 2024-06-22 19:22
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-MountingGoogleDriveonRaspberryPi_0.png
 tag: Tech
 originalTitle: "Mounting Google Drive on Raspberry Pi"
 link: "https://medium.com/@artur.klauser/mounting-google-drive-on-raspberry-pi-dd15193d8138"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-22-MountingGoogleDriveonRaspberryPi_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 어떤 소프트웨어를 사용해야 할까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 결정해야 할 것은 어떤 소프트웨어를 사용할지입니다. Linux 환경에서 Google 드라이브를 연결하기 위한 소프트웨어를 찾을 때 여러 가지 다른 기능과 요구 사항을 가진 프로젝트들을 만날 수 있습니다. 일부는 다른 것보다 더 잘 관리됩니다. 저는 여기서 꾸준히 관리되고 많은 기능을 제공하는 rclone을 선택했습니다. 특히 FUSE 사용자 영역 파일 시스템 계층의 도움으로 Google 드라이브를 Linux 파일 시스템의 일부로 마운트하여 Pi에서 클라우드 스토리지를 간단하게 사용할 수 있습니다. 이 지침은 대부분의 다른 Debian Linux 기반 배포판에서도 적용될 것으로 예상되며 거의 또는 전혀 변경하지 않고 사용할 수 있습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 # 라즈비안(Raspbian)에 Rclone 설치
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 rclone을 설치하는 가장 쉬운 방법은 사전 컴파일된 Debian 패키지를 사용하는 것입니다:
 
@@ -50,7 +68,18 @@ sudo apt install ./rclone-v1.59.2-linux-arm-v7.deb
 rm rclone-v1.59.2-linux-arm-v7.deb
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Rclone 구성하기
 
@@ -60,7 +89,18 @@ Google 드라이브의 경우 추가 사항이 있습니다. 기본 구성을 �
 
 ## Google 드라이브 클라이언트 ID 가져오기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 브라우저에서 Google 개발자 콘솔로 이동하여 Google 계정으로 로그인하세요. 이 작업을 Raspberry Pi에서 할 필요는 없습니다. 어떤 컴퓨터에서든 괜찮아요.
 
@@ -98,7 +138,18 @@ Google 드라이브의 경우 추가 사항이 있습니다. 기본 구성을 �
 - — — CREATE을 클릭하세요
 - — — OAuth client created가 포함된 확인 팝업이 표시됩니다. 클라이언트 ID와 클라이언트 시크릿을 복사하세요. rclone 구성에 필요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Rclone 구성 설정하기
 
@@ -110,7 +161,18 @@ rclone config
 
 다음 답변을 선택하세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 원격이 발견되지 않았습니다 - 새로 만드시겠어요?
@@ -148,15 +210,25 @@ client_secret> GOCXXXXXXXXXXXXXXXXXyXc
 
 이게 앞서 저장한 클라이언트 시크릿입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 옵션 스코프.
 드라이브에서 액세스를 요청할 때 rclone이 사용해야 하는 스코프.
 아래 숫자 중 하나를 선택하거나 직접 값을 입력하십시오.
 비워두고 Enter를 눌러두십시오.
 1 / 애플리케이션 데이터 폴더를 제외한 모든 파일에 대한 전체 액세스.
-  \ (drive)
+\ (drive)
 ... 생략 ...
 스코프> 1
 옵션 service_account_file.
@@ -171,12 +243,12 @@ y) Yes
 n) No (기본값)
 y/n> n
 자동 구성을 사용하시겠습니까?
- * 확신이 없으면 Y를 선택하십시오
- * 리모트나 무화면 기기에서 작업 중이라면 N을 선택하십시오
-y) Yes (기본값)
-n) No
-y/n> y
 
+- 확신이 없으면 Y를 선택하십시오
+- 리모트나 무화면 기기에서 작업 중이라면 N을 선택하십시오
+  y) Yes (기본값)
+  n) No
+  y/n> y
 
 Google은 더 이상 클라이언트를 구성하는 외부 밴드(Out-of-Band, OOB) 방법을 제공하지 않습니다. 과거에는 이 방법이 가장 편리한 옵션이었지만, rclone 설명서에서도 좋은 개요를 찾을 수 있습니다. 여기서 여러 옵션이 가능합니다:
 
@@ -186,7 +258,18 @@ Google은 더 이상 클라이언트를 구성하는 외부 밴드(Out-of-Band, 
 
 여기서 여러분이 1b 상태, 즉 SSH로 로그인하고 이전 질문에서 Yes(자동 구성)를 선택한 것으로 가정하겠습니다. Rclone 구성 계속:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 알림: 사용자 정의 구성에서 리디렉션 URL을 "http://127.0.0.1:53682/"로 설정했는지 확인하세요.
@@ -205,7 +288,18 @@ ssh -L localhost:53682:localhost:53682 <your-pi-user>@<your-pi-host>
 
 이전에 화면에 출력된 URL(http://127.0.0.1:53682/auth?state=5l4XXXXXXXXX-Iw)을 데스크톱 컴퓨터의 새 브라우저 창에 복사하여 붙여넣으십시오. 이어지는 페이지에서 사용자 계정을 선택한 후(필요한 경우) Google 드라이브에 애플리케이션 액세스를 부여하고자 하는지 확인하십시오. 마침내 Google 드라이브에 액세스할 수 있는 웹 페이지로 이동하게 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 성공!
@@ -230,7 +324,18 @@ y/n> n
 
 위의 마지막 섹션은 $HOME/.config/rclone/rclone.conf 구성 파일에 입력될 정보의 복사본입니다. 모든 것이 올바르게 보인다면 이를 수락하고 구성 메뉴를 종료할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 "gdrive" 원격을 유지하시겠습니까?
@@ -260,7 +365,18 @@ rclone ls --max-depth 1 gdrive:
 
 이 rclone 명령은 Google 드라이브의 최상위 디렉토리에 있는 모든 일반 파일을 표시해야 합니다. 다음 단계는 Google 드라이브를 파일 시스템으로 마운트하여 테스트하는 것입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 cd ~
@@ -276,7 +392,18 @@ ls -l ~/mnt/gdrive
 
 이제 Google 드라이브의 최상위 디렉토리에 있는 모든 파일을 다시 나열해야 합니다. 이제 클라우드 스토리지가 일반 파일 시스템의 일부이므로 Pi의 모든 프로그램이 다른 파일과 마찬가지로 액세스할 수 있습니다. 이 테스트를 완료한 후 첫 번째 터미널에서 위의 rclone 명령을 Ctrl-C로 중지하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Google 드라이브 자동 마운트
 
@@ -286,7 +413,18 @@ ls -l ~/mnt/gdrive
 
 systemd에게 무엇을 해야 하는지 알려주려면 일부 표준 위치의 구성 파일에 의존합니다. systemd가 사용자 구성 파일을 찾는 위치 중 하나는 $HOME/.config/systemd/user입니다. 로그인시 rclone FUSE 파일 시스템이 자동으로 마운트되도록 하려면 다음 내용을 포함하는 ~/.config/systemd/user/rclone@.service 파일을 만드세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 [Unit]
@@ -310,8 +448,18 @@ WantedBy=default.target
 
 구성 파일을 작성한 후에는 새로운 gdrive rclone 원격 구성에 대한 새 구성에 대해 systemd에 알리는 작업이 필요합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 systemctl --user enable rclone@gdrive
@@ -325,7 +473,18 @@ systemctl --user enable rclone@gdrive
 systemctl --user start rclone@gdrive
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한번 켜지면, 마운트된 디렉토리 목록을 확인하려면
 
@@ -337,19 +496,41 @@ ls -l ~/mnt/gdrive
 
 이 시점에서 우리가 이룬 것은 대화식 사용자 세션에 아주 잘 작동합니다. Raspberry Pi에 사용자로 로그인할 때마다 Google Drive를 설정한 사용자로 자동으로 마운트하여 클라우드 저장소의 내용에 액세스할 수 있게 해줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 부팅 시 사용자 시스템디 시작하기
 
 몇 가지 경우에는 사용자 로그인 시간에 마운트하는 것만으로는 충분하지 않을 수 있습니다. 예를 들어, 저는 R 프로그래밍 언어를 위한 웹 IDE 인 RStudio Server를 실행하는 시스템을 사용합니다. RStudio Server 웹 인터페이스는 사용자를 인증하기 위해 먼저 로그인 페이지를 제시합니다. 사용자 자격 증명을 확인한 후에는 사용자를 위해 rsession을 시작합니다. 그러나 인증된 사용자의 UID로 rsession을 시작하는 것은 사용자의 로그인 또는 세션이 아닙니다. 따라서 systemd 사용자 세션이 시작되지 않고 클라우드 스토리지를 마운트하는 작업이 수행되지 않아 RStudio IDE가 사용자의 클라우드 스토리지 디렉토리에 액세스할 수 없습니다.
 
-그러나 이 문제에 대한 해결책이 있습니다. 다음 명령을 사용하여 systemd에 부팅 시간에 로그인 시간이 아닌 사용자 세션을 시작하도록 지시할 수 있습니다: 
+그러나 이 문제에 대한 해결책이 있습니다. 다음 명령을 사용하여 systemd에 부팅 시간에 로그인 시간이 아닌 사용자 세션을 시작하도록 지시할 수 있습니다:
 
 ```js
 loginctl enable-linger $USER
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 라즈베리 파이가 부팅될 때마다 해당 사용자에 대한 systemd 사용자 세션이 즉시 시작되며, 구성된 구글 드라이브가 장착되고 위에서 언급한 RStudio Server와 같은 사용 사례가 활성화됩니다.
 

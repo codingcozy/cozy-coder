@@ -3,17 +3,13 @@ title: "데이터 사이언티스트가 되기 위해 9600만원을 썼다 초�
 description: ""
 coverImage: "/assets/img/2024-07-14-ISpent96kToBecomeaDataScientistHereAre5CrucialLessonsAllBeginnersMustKnow_0.png"
 date: 2024-07-14 01:30
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-14-ISpent96kToBecomeaDataScientistHereAre5CrucialLessonsAllBeginnersMustKnow_0.png
 tag: Tech
 originalTitle: "I Spent $96k To Become a Data Scientist. Here Are 5 Crucial Lessons All Beginners Must Know"
 link: "https://medium.com/towards-data-science/i-spent-96k-to-become-a-data-scientist-heres-5-crucial-lessons-all-beginners-must-know-7a13ef389285"
 isUpdated: true
 ---
-
-
-
-
 
 저는 비즈니스 배경을 가지고 있어 데이터 과학에 대해 전혀 알지 못했기 때문에 많은 돈을 썼어요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 5년 전 초보자였던 제가 받았으면 좋았을 정보를 여러분께 제공하기 위해 여기 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오늘은 NYU를 포함한 선배 학교에서 데이터 과학 교육을 받은 3년간과 Spotify에서 근무한 3년간의 경험으로부터 얻은 중요한 5가지 교훈을 공유합니다. 데이터 과학 초보자가 가능한 빨리 알아야 할 5가지 교훈입니다!
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 # 교훈 1. 데이터 과학의 다양한 커리어 경로 이해하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-07-14-ISpent96kToBecomeaDataScientistHereAre5CrucialLessonsAllBeginnersMustKnow_0.png)
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 데이터 과학 교육을 계획할 때, AI의 영향 아래 데이터 과학 직업 내에서 일어나는 다양한 변화를 고려해야 해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이해하는 데는 본인에게 가장 잘 맞는 직업 경로를 찾는 것이 먼저입니다. 선택에 따라 데이터 과학 교육을 관리하는 방식이 다를 것입니다.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 데이터 과학 관련 직업 목록은 날이 갈수록 확장되고 있습니다. 하지만 전반적으로 그 모든 것들은 아래의 카테고리 중 하나에 속하며, 목표에 따라 그 중 하나에 집중해야 할 것입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 카테고리 1: 데이터 과학자 직업
 
@@ -71,7 +111,18 @@ isUpdated: true
 → 데이터 과학자와 의사 결정 과학자는 더 넓은 전략적 결정에 데이터를 활용합니다.
 → 비즈니스 애널리스트와 양적 애널리스트는 기술을 비즈니스나 금융 맥락에 직접적으로 적용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Category 2: 기계 학습 전문가들
 
@@ -87,7 +138,18 @@ isUpdated: true
 
 그러나 이러한 기술의 적용은 달라집니다. 핵심 교육은 유사하지만, 전문가들은 기계 학습의 다양한 측면에 집중합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Category 3: 데이터 과학 분야의 연구과학자들
 
@@ -101,7 +163,18 @@ isUpdated: true
 
 여기서 유일한 차이점은 그들의 초점이 있는 분야인데, 마치 머신 러닝 전문가들이 전문화하는 것과 유사하네요. 무엇이든지 궁금한 게 있다면 언제든지 물어봐 주세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그렇게 되면, 당신이 되고자 하는 데이터 과학자 유형이라면, 교육 방향을 맞추기 위해 교육 과정에서 수학과 컴퓨터 과학을 중점적으로 공부하도록 하세요. 만약 대형 기술 직책을 노려보고 있다면, 박사 학위 획득에 헌신해야 합니다.
 
@@ -111,7 +184,18 @@ isUpdated: true
 
 ![Link to the image resource](/assets/img/2024-07-14-ISpent96kToBecomeaDataScientistHereAre5CrucialLessonsAllBeginnersMustKnow_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저 시절 제가 갖고 있던 기술 세트에는 잘 맞지 않는 학위였습니다. 왜냐하면 1. 코딩을 할 줄 몰랐고, 2. 수학을 알고 있는 정도로는 부족했기 때문이죠.
 
@@ -121,7 +205,18 @@ isUpdated: true
 
 입문자라면, 다른 입문자들과 비교할 때 당신만의 기술 세트를 가져오게 됩니다. 그러니 현재 기술 세트와 일치하는 프로그램을 찾아야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 이렇게 해서 목표를 달성할 수 있어요:
 
@@ -134,7 +229,18 @@ isUpdated: true
 
 미국의 최고 대학 중 하나인 NYU에서 제 첫 학위를 받았어요. 그러나 미국에서 취업 및 인턴십을 신청할 때 그 이름은 큰 도움이 되지 않았어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 It's amazing how different perspectives can be around the world. In some places, like here, skills speak louder than anything else.
 
@@ -142,7 +248,18 @@ Over in Europe, particularly in France, prestigious names like Ecole Polytechniq
 
 ## Here's a valuable tip to keep in mind while exploring programs:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 If you are applying to a top school in the U.S. with hopes that the institution's reputation will secure you lucrative job opportunities, you might want to reconsider. Keep in mind that while it may not necessarily help in the U.S., these prestigious degrees can certainly give you an advantage in other parts of the world.
 
@@ -150,7 +267,18 @@ When pursuing a degree, it's crucial to reassess your expectations regarding the
 
 # Lesson #3. Learn Maths First. Not Machine Learning
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Unpopular opinion but I think machine learning is overhyped. It`s not the core of the data science job, mathematics is.
 
@@ -160,7 +288,18 @@ Machine learning can only get you so far in the field.
 
 Most data science jobs belong to the first category I mentioned earlier, that of data scientists, and in that group:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만일 최상위 테크 기업에서의 직장을 희망한다면, 수학 공부는 우선이자 필수입니다. 머신 러닝만으로는 멀리 갈 수 없어요.
 
@@ -170,7 +309,18 @@ Most data science jobs belong to the first category I mentioned earlier, that of
 
 대부분 초보자들이 직접 머신 러닝에 집중하는 것을 보지만 기억해야 할 것은:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 제품으로서의 머신 러닝 vs. 도구로서의 머신 러닝
 
@@ -180,7 +330,18 @@ Most data science jobs belong to the first category I mentioned earlier, that of
 
 비즈니스 세계에서 머신 러닝에는 두 가지 사용 사례가 있고, 사람들은 두 가지를 쉽게 혼동하곤 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 참레리 아이니요~
 요즘 한국 타로계 믿어지는 전문가와 이야기하고 계시니까, 초심자들은 머신러닝을 제품이 아닌 도구로 인식하는 걸 생각해보시면 좋을 거예요.
@@ -192,7 +353,18 @@ Most data science jobs belong to the first category I mentioned earlier, that of
 
 저는 최고의 기업에서 일하는 많은 데이터 과학자들이 머신러닝에 대해 특별히 깊이있는 지식을 갖고 있지 않다는 것을 알고 있어요. 그렇다면 궁금한 건 무엇이라고 생각하세요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 MATHS!
 
@@ -204,17 +376,39 @@ MATHS!
 
 All in all, knowing ML will always be a good plus, but proficiency in maths, especially statistics, remains the fundamental backbone of data science.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마법 같은 수학! 노력만 한번 들이자면 계속해서 열매를 거두게 됩니다. 그 사실을 잊지 마세요.
 
 **레슨 #4. 비즈니스 프로젝트가 당신을 빛나게 만들어 줄 거에요**
 
-스포티파이 첫날, 한 동료가 내 이력서를 직접 고른 것을 알게 되었어요. 당연히 왜 내 이력서가 눈에 띄었는지 물어 봤죠. 
+스포티파이 첫날, 한 동료가 내 이력서를 직접 고른 것을 알게 되었어요. 당연히 왜 내 이력서가 눈에 띄었는지 물어 봤죠.
 
 그의 대답은 비지니스 노하우와 기술 전문성이 혼합되었기 때문이라고 했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지: [link](/assets/img/2024-07-14-ISpent96kToBecomeaDataScientistHereAre5CrucialLessonsAllBeginnersMustKnow_3.png)
 
@@ -224,7 +418,18 @@ All in all, knowing ML will always be a good plus, but proficiency in maths, esp
 
 ## 여기서 비즈니스 통찰력이 왜 중요한지 알아보세요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대부분의 데이터 과학 직군은 비즈니스 전문 지식을 요구합니다.
 
@@ -234,7 +439,18 @@ Spotify나 FAANG과 같은 선도 기술 기업에서는 데이터 과학자들�
 
 ## 비즈니스가 있는 곳, 커뮤니케이션도 있다
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 커뮤니케이션은 모든 비즈니스 분야에서 필수 기술입니다. 리더를 차별화하는 중요한 역량이죠.
 
@@ -244,7 +460,18 @@ Spotify나 FAANG과 같은 선도 기술 기업에서는 데이터 과학자들�
 
 카글 경연은 그렇게 큰 도움이 되지 않을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 비밀이 있어요: 제가 인생에서 진짜 캐글 경진대회를 한 적이 없어요. 항상 하고 싶었지만 게으름이 승리했죠.
 
@@ -256,7 +483,18 @@ Spotify나 FAANG과 같은 선도 기술 기업에서는 데이터 과학자들�
 - 사람들과 소통하는 경험을 쌓으세요. 다양한 대중을 대상으로 발표하는 것이 필요한 활동에 참여해보세요. 이는 공개 연설 능력을 갖추고, 복잡한 개념을 알기 쉽게 설명하는 능력을 향상시켜줍니다. FAANG나 Spotify와 같은 기업에서 데이터 과학을 비전문가들에게 설명하는 것이 중요한 역할일 때 필요한 능력이에요.
 - 실무 경험은 취직 경쟁에서 엣지를 가질 수 있어요. 이상적으로는, 현장에서 직접 기술을 습득할 수 있는 인턴십이나 직무 경험을 찾아보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 가지 더, 이 프로젝트들을 이력서에서 가장 많이 강조해 주세요. 특히 데이터 과학자 직업에 해당하는 일자리를 찾을 때는요.
 
@@ -266,7 +504,18 @@ Spotify나 FAANG과 같은 선도 기술 기업에서는 데이터 과학자들�
 
 데이터 과학은 이제 예전처럼 누구든지 CSV 파일을 데이터프레임으로 변환할 수 있다면 기관이 그들을 환영하는 낙원이 아니에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서 데이터 과학 분야에서 여정을 시작하려고 한다면, 취업 시장의 치열함에 대비할 준비를 해야 해요.
 
@@ -276,7 +525,18 @@ Spotify나 FAANG과 같은 선도 기술 기업에서는 데이터 과학자들�
 
 네트워크를 통해 성공했답니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 알고 싶은가요? 아래는 그것을 기반으로 한 네트워킹의 완전 가이드입니다:
 
@@ -286,7 +546,18 @@ Spotify나 FAANG과 같은 선도 기술 기업에서는 데이터 과학자들�
 
 잔인한 진실은, 덜 자격이 있는 사람들이 네트워킹의 불편함을 받아들이기 때문에 당신보다 그 직업을 얻게 될 수도 있다는 것입니다. 직업 목표를 달성하고 싶다면 관계를 형성하는 법을 배워야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예전에는 노력만으로도 기회를 얻을 수 있을 거라고 생각했어요.
 
@@ -296,7 +567,18 @@ Spotify나 FAANG과 같은 선도 기술 기업에서는 데이터 과학자들�
 
 네트워킹은 더 많은 기회를 얻을 수 있도록 넓게 확산시키는 방법이에요. 마침내 한 마리 물고기는 미끼를 잡아먹을 테니까요. 🌟
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에서 배우는 것은 무엇일까요? 현재에서는 네트워킹이 어떠한 성공적인 취직 전략의 중요 요소로 자리 잡았다는 것이죠. 이미 게임의 규칙이 정해져 있으니, 취직 시장의 이 측면에 맞춰야 합니다.
 
@@ -306,7 +588,18 @@ Spotify나 FAANG과 같은 선도 기술 기업에서는 데이터 과학자들�
 
 # 그 가치가 있었을까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래요!
 
@@ -316,7 +609,18 @@ Spotify나 FAANG과 같은 선도 기술 기업에서는 데이터 과학자들�
 
 좋은 소식은 당신이 커리어에서 성공하기 위해 10만 달러를 쓸 필요는 없다는 거에요. 제가 대신 해주었으니까 상상해보세요. 그러니 앞으로 교육 접근 방식과 관리에 주의를 기울이는 것만 남겼습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 어떻게?
 
@@ -330,7 +634,18 @@ Spotify나 FAANG과 같은 선도 기술 기업에서는 데이터 과학자들�
 
 제 뉴스레터 K's DataLadder에 가입하면 일상 업무에서 매일 사용하는 모든 쿼리가 포함된 궁극적인 SQL 치트 시트와 또 다른 비밀 선물을 받게 될 거예요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 매주 데이터 과학자로서의 삶을 공유하고 있어요. 실용적인 팁, 기술, 이야기 등을 통해 여러분이 더 나아질 수 있도록 돕고 있어요. 왜냐면 직접 경험해보기 전까지는 아무도 정확히 알지 못하기 때문이죠!
 

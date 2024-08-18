@@ -3,7 +3,7 @@ title: "HTML 엔티티를 사용한 특수 문자 사용하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-17-HTMLTips23HTMLEntitiesSpecialCharactersandSymbols_0.png"
 date: 2024-08-17 00:09
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-17-HTMLTips23HTMLEntitiesSpecialCharactersandSymbols_0.png
 tag: Tech
 originalTitle: "HTML Tips 23 HTML Entities Special Characters and Symbols"
@@ -11,7 +11,6 @@ link: "https://medium.com/dev-genius/html-tips-23-html-entities-special-characte
 isUpdated: true
 updatedAt: 1723863673658
 ---
-
 
 <img src="/assets/img/2024-08-17-HTMLTips23HTMLEntitiesSpecialCharactersandSymbols_0.png" />
 
@@ -21,7 +20,18 @@ HTML 엔티티의 기본 사항을 다루고 일반 엔티티와 그 사용법�
 
 여기서 HTML의 전체 무료 강의를 찾을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # HTML 엔티티란 무엇인가요?
 
@@ -33,7 +43,18 @@ HTML 엔티티는 HTML에서 특수한 의미를 가지는 문자들이나 표�
 - 특수 기호: 엔티티를 사용하면 ©, €, ™와 같은 기호를 포함할 수 있습니다.
 - 문자 인코딩: HTML 엔티티를 사용하면 문자가 서로 다른 시스템과 브라우저에서 일관되게 표시되도록 보장할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # HTML 개체의 기본 구문
 
@@ -43,7 +64,18 @@ HTML 개체는 앰퍼샌드(&)로 시작하여 세미콜론(;)으로 끝납니�
 
 - 예시: ©의 경우 &copy;
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 숫자 엔티티: 이들은 문자를 나타내는 숫자 코드를 사용합니다.
 
@@ -53,7 +85,18 @@ HTML 개체는 앰퍼샌드(&)로 시작하여 세미콜론(;)으로 끝납니�
 
 ## 예약된 문자
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일부 문자는 HTML에서 특별한 의미를 가지고 있어서 인코드되어야 합니다:
 
@@ -73,7 +116,18 @@ HTML 개체는 앰퍼샌드(&)로 시작하여 세미콜론(;)으로 끝납니�
 - 도 기호: &deg; 또는 &#176;
 - 섹션 기호: &sect; 또는 &#167;
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 문서에서 HTML 엔티티 사용하기
 
@@ -83,7 +137,18 @@ HTML 엔티티는 다양한 시나리오에서 널리 사용됩니다. 예를 �
 
 HTML에 예약된 문자를 포함하려면 해당 엔티티를 사용하십시오. 예를 들어 HTML에서 'div'를 HTML 태그로 해석되지 않고 표시하려면:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <p>분할을 만들려면 &lt;div&gt; 태그를 사용하세요.</p>
@@ -97,7 +162,18 @@ HTML에 예약된 문자를 포함하려면 해당 엔티티를 사용하십시�
 <p>&copy; 2024 귀하의 회사</p>
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 텍스트에 기호 포함하기
 
@@ -110,7 +186,18 @@ HTML에 예약된 문자를 포함하려면 해당 엔티티를 사용하십시�
 
 # HTML 엔티티의 고급 사용법
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 엔티티 결합하기
 
@@ -120,11 +207,22 @@ HTML에 예약된 문자를 포함하려면 해당 엔티티를 사용하십시�
 - &copy; 2024 Your Company
 - 가격: &euro;49.99
 - 상표: &trade;
-``` 
+```
 
 # JavaScript에서 문자 인코딩하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자바스크립트를 사용할 때 문자열에서 HTML 엔티티를 인코딩해야 할 수도 있습니다. 예를 들어:
 
@@ -137,10 +235,21 @@ document.getElementById("example").innerHTML = text;
 
 종합적인 문자 지원을 위해 HTML 문서가 UTF-8 문자 인코딩을 사용하도록 확인하세요. 이를 통해 HTML 엔티티가 필요하지 않고 직접 다양한 문자를 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```html
-<meta charset="UTF-8">
+<meta charset="UTF-8" />
 ```
 
 # XML에서 Entity 인코딩
@@ -152,11 +261,24 @@ XML이나 XHTML과 함께 작업하는 경우 HTML 엔티티를 사용하여 특
   <to>Tove</to>
   <from>Jani</from>
   <heading>Reminder &copy;</heading>
-  <body>Don't forget me this weekend!</body>
+  <body>
+    Don't forget me this weekend!
+  </body>
 </note>
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 가이드라인
 
@@ -166,7 +288,18 @@ HTML 엔티티는 유용하지만 과도하게 사용하면 코드가 혼란스�
 
 # 2. 여러 브라우저에서 테스트하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HTML 엔티티가 다양한 브라우저와 기기에서 올바르게 렌더링되도록 보장하세요. 이들은 널리 지원되지만 다양한 변형이 있을 수 있습니다.
 
@@ -176,7 +309,18 @@ HTML 엔티티가 다양한 브라우저와 기기에서 올바르게 렌더링�
 
 ## 4. 엔티티 업데이트 유지하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로운 HTML 엔티티 및 문자 인코딩 표준 업데이트에 대해 계속 알아두세요. 이렇게 하면 웹 콘텐츠가 최신이고 호환 가능하게 유지될 수 있습니다.
 
@@ -186,8 +330,18 @@ HTML 엔티티가 다양한 브라우저와 기기에서 올바르게 렌더링�
 
 폼을 생성할 때 레이블이나 플레이스홀더 텍스트에 특수 문자를 포함해야 할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <form>
     <label for="email">이메일 주소 (예: example@example.com):</label>
@@ -195,11 +349,9 @@ HTML 엔티티가 다양한 브라우저와 기기에서 올바르게 렌더링�
     <button type="submit">제출하기 ©</button>
 </form>
 
-
 # 예시 2: 내비게이션 메뉴에 기호 표시
 
 내비게이션 메뉴에 기호를 포함시키면 사용자 경험과 디자인이 향상될 수 있습니다:
-
 
 <nav>
     <ul>
@@ -209,8 +361,18 @@ HTML 엔티티가 다양한 브라우저와 기기에서 올바르게 렌더링�
     </ul>
 </nav>
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 예제 3: 메타 태그에 엔터티 포함하기
 
@@ -226,7 +388,18 @@ HTML 엔티티가 다양한 브라우저와 기기에서 올바르게 렌더링�
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 개발에서 HTML 엔티티는 특수 문자 및 기호를 포함할 수 있도록 해주는 중요한 요소입니다. 이를 올바르게 이해하고 사용함으로써 웹 콘텐츠가 정확하고 일관되게 표시되도록 할 수 있습니다.
 

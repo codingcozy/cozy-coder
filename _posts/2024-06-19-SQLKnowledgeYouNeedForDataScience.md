@@ -3,17 +3,13 @@ title: "데이터 과학을 위해 필요한 SQL 지식"
 description: ""
 coverImage: "/assets/img/2024-06-19-SQLKnowledgeYouNeedForDataScience_0.png"
 date: 2024-06-19 05:28
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-SQLKnowledgeYouNeedForDataScience_0.png
 tag: Tech
 originalTitle: "SQL Knowledge You Need For Data Science"
 link: "https://medium.com/towards-data-science/sql-knowledge-you-need-for-data-science-5cf0c15515e4"
 isUpdated: true
 ---
-
-
-
-
 
 ![SQL Knowledge](/assets/img/2024-06-19-SQLKnowledgeYouNeedForDataScience_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 음, 데이터 과학자로 취직하고 싶다면 SQL은 필수 기술이며, 이를 보유하고 있다면 취직할 기회가 더 커질 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글에서는 입문 수준 데이터 과학 직무를 얻기 위해 가져야 하는 SQL 지식에 대해 이야기하고, SQL을 배울 때 도움이 된 자료 및 조언을 제공할 것입니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 예를 들어, ETL(추출 변환 로드) 파이프라인을 생성하거나 데이터베이스를 관리하는 것은 일반적으로 데이터 과학자의 업무 범위를 벗어나 데이터 엔지니어의 작업입니다. 그러나 이러한 유형의 작업에 흥미가 있다면 이를 배우지 말아야 한다는 제한은 없습니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 개요
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 ## 기본 기능
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 솔직히 말해서, 일할 때 질의할 때 95%의 시간은 기본 SQL 함수를 사용해요. 이전에 말했듯이, 데이터 과학자로서 SQL을 주로 사용해서 데이터를 가져오고 기본 변환 작업을 해요.
 
@@ -51,17 +80,26 @@ isUpdated: true
 
 어쨌든, 알아야 할 주요하고 가장 중요한 SQL 명령어는 다음과 같아요:
 
+SELECT \* FROM (표준 쿼리)
 
-SELECT * FROM (표준 쿼리)
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 SELECT * FROM Employees
 ```
 
-이 명령은 테이블에서 열을 선택합니다. * 명령어는 테이블 직원의 모든 열을 가져옵니다.
+이 명령은 테이블에서 열을 선택합니다. \* 명령어는 테이블 직원의 모든 열을 가져옵니다.
 
 ALTER, INSERT, CREATE (테이블 수정)
 
@@ -84,7 +122,18 @@ ALTER TABLE Employees
 ADD Department VARCHAR(50);
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 우리는 Employees라는 테이블을 만들고 기본 키와 함께 열을 정의합니다. 그런 다음 INSERT INTO를 사용하여 이 데이터 프레임에 새로운 행을 추가합니다. 마지막으로 ALTER를 사용하여 Department라는 새 열을 추가합니다.
 
@@ -103,7 +152,18 @@ ORDER BY LastName ASC, FirstName ASC;
 
 이 명령어들은 꽤 명확합니다. ORDER BY 명령어는 테이블을 열을 기준으로 정렬하고 GROUP BY는 열로 집계합니다. 여기서 우리는 부서별로 직원 수를 계산합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 WHERE, AND, OR, BETWEEN, IN, HAVING (테이블 필터링)
 
@@ -131,11 +191,22 @@ WHERE와 HAVING 명령문은 열을 기준으로 데이터프레임을 필터링
 
 AVG, COUNT, MIN, MAX, SUM (집계 함수)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```sql
 -- AVG, COUNT, MIN, MAX, SUM
-SELECT 
+SELECT
     AVG(Salary) AS AverageSalary,
     COUNT(EmployeeID) AS NumberOfEmployees,
     MIN(Salary) AS MinimumSalary,
@@ -153,7 +224,18 @@ DISTINCT
 SELECT DISTINCT Department FROM Employees;
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 한 column에 중복된 항목이 있다면, DISTINCT 명령어를 사용하여 고유한 값만 얻을 수 있어요.
 
@@ -175,13 +257,24 @@ FROM Employees;
 
 여기에서 DATEADD는 생일에 1년을 추가하고, DATEDIFF는 직원의 나이를 계산하며 출생일과 현재 날짜 사이의 연도 차이를 얻어내고, DATEPART는 생일로부터 출생 연도를 가져옵니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CASE (기본적으로 다른 언어에서의 if-else 문)
 
 ```js
-SELECT EmployeeID, FirstName, LastName, 
-    CASE 
+SELECT EmployeeID, FirstName, LastName,
+    CASE
         WHEN Salary > 60000 THEN '고'
         WHEN Salary BETWEEN 40000 AND 60000 THEN '중간'
         ELSE '저'
@@ -193,7 +286,18 @@ CASE는 조건부 if-else와 같이 작동합니다. 이 경우에는 급여가 
 
 FULL JOIN, LEFT JOIN, RIGHT JOIN, INNER JOIN, UNION(모든 종류의 조인)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 -- INNER JOIN
@@ -228,7 +332,18 @@ JOIN 작업은 아마 가장 어려울 것이므로 꼭 이해해야 합니다! 
 
 이러한 기본 함수를 알고 있다면, SQL 연습 문제가 포함된 입사 시 데이터 과학 인터뷰에 합격할 수 있을 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 고급 기능
 
@@ -253,7 +368,18 @@ FROM Employees
 WHERE Salary > (SELECT AVG(Salary) FROM Employees);
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에서 하는 일은 SalesCTE라는 새 테이블을 생성한 다음 이 새 테이블을 Employee에 조인하는 것입니다. 이것은 CTE의 예입니다.
 
@@ -278,7 +404,18 @@ SELECT dbo.GetEmployeeFullName(EmployeeID) AS FullName
 FROM Employees;
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 UDFs(사용자 정의 함수)는 다른 언어의 일반 함수와 매우 유사하게 작동합니다. 여기에서는 직원의 전체 이름을 가져와 단일 열로 반환하는 함수를 만듭니다.
 
@@ -303,7 +440,18 @@ FROM Employees;
 
 윈도우 함수는 현재 분석 중인 행과 관련된 여러 행 전체에 대한 계산을 생성합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 경우에는 ROW_NUMBER()를 사용하여 각 부서의 급여에 따라 직원들을 번호를 매깁니다.
 
@@ -313,11 +461,22 @@ DENSE_RANK()는 다시 비슷하지만 동일한 급여를 받는 두 직원의 
 
 문자열 작업 및 정규 표현식
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```sql
 -- 문자열 조작: CONCAT, SUBSTRING, REPLACE 등.
-SELECT 
+SELECT
     CONCAT(FirstName, ' ', LastName) AS FullName,
     SUBSTRING(FirstName, 1, 1) AS FirstInitial,
     REPLACE(LastName, 'a', 'o') AS ModifiedLastName
@@ -340,8 +499,18 @@ LIKE를 통해 `J%`는 J로 시작하는 값들을 검색합니다.
 
 마지막으로, PATINDEX(`%[0-9]%`, LastName) > 0은 LastName에 0부터 9 사이의 숫자 중 하나가 포함된 첫 번째 발생을 찾기 위한 패턴 인덱스 검색입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다른 배울 것들이 많지만, 이러한 고급 기술들은 데이터 과학자로서 가장 자주 사용하는 것들입니다. 당신의 산업과 조직에 따라 다른 것들이 나타날 수 있을 거예요.
 
@@ -351,7 +520,18 @@ LIKE를 통해 `J%`는 J로 시작하는 값들을 검색합니다.
 
 솔직히 말해서, 이러한 주제들에 대해 깊이있는 이해가 없습니다. 왜냐하면 이것들은 데이터 엔지니어가 데이터 과학자보다 더 관리하는 주제들이기 때문입니다. 하지만 이런 것들에 흥미가 있다면, 배우는 것에 대해 편하게 생각해보세요! 나도 미래 언젠가 이를 다뤄볼 계획이 있으며, 그것은 나를 보다 폭넓은 데이터 과학자로 만들어 가치를 증대시킬 것입니다. 하지만, 항상 말했듯이, 모든 것을 배울 수는 없어요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 자료
 
@@ -361,7 +541,18 @@ LIKE를 통해 `J%`는 J로 시작하는 값들을 검색합니다.
 
 이 숫자에 대해 너무 걱정하실 필요는 없어요. 각자의 속도에 따라 50개보다 더 많거나 적게 필요할 수 있어요. 중요한 건 이해에 초점을 맞추고, 여러분이 편안하다고 느낄 때 알 수 있답니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 조언
 
@@ -373,7 +564,18 @@ SQL을 배우기 시작하는 사람들에게 제가 주고 싶은 세 가지 �
 
 이 글이 당신이 입문 수준 데이터 과학 직군을 확보할 필요한 SQL 지식을 제공했기를 바랍니다! SQL을 배우려면 파이썬보다 요구되는 기술들이 적고 배우는 데 소요되는 시간도 더 짧습니다. SQL은 다소 관리하기 쉬운 작은 언어이지만, 그래도 필수적인 언어입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 또 다른 것!
 

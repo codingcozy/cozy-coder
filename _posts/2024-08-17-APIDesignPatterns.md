@@ -3,7 +3,7 @@ title: "프론트엔드 개발자가 알아야 할 10가지 API 디자인 패턴
 description: ""
 coverImage: "/assets/img/2024-08-17-APIDesignPatterns_0.png"
 date: 2024-08-17 01:02
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-17-APIDesignPatterns_0.png
 tag: Tech
 originalTitle: "API Design Patterns"
@@ -11,8 +11,6 @@ link: "https://medium.com/@vikas.taank_40391/how-api-evolves-using-java-completa
 isUpdated: true
 updatedAt: 1723863555208
 ---
-
-
 
 ![API evolution](/assets/img/2024-08-17-APIDesignPatterns_0.png)
 
@@ -22,9 +20,18 @@ API 발전.
 
 # 아래 API는 동기 작업으로 가격을 검색합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![API Design Patterns](/assets/img/2024-08-17-APIDesignPatterns_1.png)
 
@@ -55,9 +62,18 @@ public class SynchronousAPI {
 
 이제 동일한 코드를 비동기 방식으로 가격 검색이 이루어지게 하려면 CompletableFuture를 사용하여 API 호출을 별도의 스레드에서 실행하고 supplyAsync 메서드를 사용할 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-08-17-APIDesignPatterns_2.png" />
 
@@ -101,9 +117,18 @@ public class AsynchronousPriceAPI {
 
 이제 다른 상점에서 가격을 받아 오고 병렬로 작업을 진행하려면 어떻게 해야 할까요?
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-08-17-APIDesignPatterns_3.png" />
 

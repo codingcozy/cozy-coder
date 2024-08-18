@@ -3,17 +3,13 @@ title: "데이터 시각화 330주 나의 여정과 주요 교훈"
 description: ""
 coverImage: "/assets/img/2024-06-23-330WeeksofDataVisualizationsMyJourneyandKeyTakeaways_0.png"
 date: 2024-06-23 15:57
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-330WeeksofDataVisualizationsMyJourneyandKeyTakeaways_0.png
 tag: Tech
 originalTitle: "330 Weeks of Data Visualizations: My Journey and Key Takeaways"
 link: "https://medium.com/towards-data-science/330-weeks-of-data-visualizations-my-journey-and-key-takeaways-93f824714dd1"
 isUpdated: true
 ---
-
-
-
-
 
 2018년에 풀타임 데이터 과학 직업을 시작한 이후 매주 한 가지 시각화를 만들고 있어요. 이제 330주가 넘는 시간이 흘렀는데, 이것이 정말 자랑스러운 성취라고 생각해요. 커피 시간에 사람들이 자주 물어보는 내용이라서 이를 영감으로 삼아 이 기사를 쓰고 여러분과 나누기로 결심했어요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 저는 첫 풀타임 직장을 시작할 때, 테이블로 전문가인 멘토가 MakeOverMonday 프로젝트를 소개해 주었어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 놀라운 커뮤니티는 Tableau 데이터 시각화 영감을 찾고 있다면 강력히 추천할 만합니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ## 데이터 시각화할 데이터셋 찾는 방법.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최초에는 MakeOverMonday가 매주 게시하는 데이터셋을 따랐어요. 그러나 프로젝트는 2021년 9월에 1년 간 중단되었어요. 매주 커뮤니티를 운영하는 것은 큰 의무이기 때문에 쉬어야 한다는 필요성을 완전히 이해해요. 따라서 2021년 10월부터 매주 시각화할 데이터셋을 찾기 시작했어요.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 <img src="/assets/img/2024-06-23-330WeeksofDataVisualizationsMyJourneyandKeyTakeaways_1.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 시각화 뉴스레터: 저는 Chartr과 Statista와 같은 뉴스레터를 구독합니다. 이 뉴스레터들은 훌륭한 시각화 아이디어와 흥미로운 데이터 주제를 제공해줍니다. 그들의 시각화가 효과적인 이유를 분석하고 어떻게 다른 것(또는 더 나은 것)을 만들 수 있는지 고민하는 것을 즐깁니다.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 ![image](/assets/img/2024-06-23-330WeeksofDataVisualizationsMyJourneyandKeyTakeaways_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. 다른 신뢰할 만한 데이터 출처: 미국 노동 통계국과 YouGov와 같은 시장 조사 기업과 같은 권위 있는 기관은 정기적으로 고품질의 데이터셋을 게시합니다. 많은 주와 도시들도 놀라운 데이터를 이용할 수 있는 공개 데이터 포털을 운영하고 있습니다.
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 6. 내 개인 데이터: 데이터 과학자로서, 나는 스스로에 대한 데이터를 수집하는 것을 좋아합니다. 예를 들어, 저는 매일 지출 내역을 추적하여 재정을 더 잘 관리하고 있습니다. 아래 차트에서는 Apple Watch에서 내보낸 건강 데이터를 살펴보았는데, 이를 통해 재택근무가 제 활동 수준에 미친 영향에 대해 이해하고자 했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-23-330WeeksofDataVisualizationsMyJourneyandKeyTakeaways_5.png)
 
@@ -73,7 +124,18 @@ isUpdated: true
 
 저는 매주 시각화하기 위해 Tableau를 사용하는데, 주로 첫 직장에서 대시보드 및 보고용으로 사용했기 때문입니다. 그러나 다른 다양한 옵션들도 많이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 의견으로는 Tableau는 가장 맞춤화가 잘 되어 있으면서도 직관적인 시각화 도구입니다. 시각적으로 매력적이고 창의적인 시각화물을 만드는 데 이상적입니다. Tableau Viz of the Day에서 강조된 대시보드들에 항상 감명을 받습니다. Tableau는 풍부한 튜토리얼과 추천 사항이 있는 활발한 커뮤니티를 갖고 있습니다. 기업용 라이선스 비용은 비싸지만 개인용으로 필요한 대부분의 기능을 갖춘 무료 데스크톱 앱을 제공합니다. 이전에는 시각화물을 Tableau Public에만 저장할 수 있었는데, 이것이 무료 앱에 대한 제일 큰 불만점이었지만, 최신 버전에서 로컬 저장이 가능해졌습니다.
 
@@ -83,7 +145,18 @@ isUpdated: true
 
 # 내 데이터 시각화 이정표
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Week 1(2018–01–08): MakeOverMonday과 함께 처음 주간 시각화를 시작했어요.
 - Week 100 (2019–11–25): 100번째 주간 시각화를 완료했어요.
@@ -100,7 +173,18 @@ isUpdated: true
 - 데이터 분석과 이야기 전달 연습: 제 주간 블로그 포스트에서 데이터셋을 설명하고, 시각화를 보여주며, 인사이트를 요약해요. 데이터 질문을 형성하고, 데이터셋을 찾고, 시각화를 생성하는 이 과정은 매일의 데이터 과학 작업에 필수적이며, 주간으로 이를 실행하면 데이터 이야기 스킬이 향상되어요.
 - 포트폴리오 구축: 주간 시각화를 게시하면 제 데이터 과학 기술을 보여주고 경력 발전에 도움을 줄 수 있는 포트폴리오가 풍부해져요. 심지어 제 포트폴리오 사이트를 본 채용 담당자가 LinkedIn을 통해 연락해왔어요. 데이터 과학 포트폴리오 웹사이트 구축 팁을 공유할 다음 포스트를 작성할 계획입니다. 기대해 주세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 데이터 시각화를 희망하는 분들을 위한 팁
 
@@ -113,6 +197,17 @@ isUpdated: true
 
 # 마지막으로 생각할 것들
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 매주 시각화물을 만들며 한 번도 경험하지 못한 놀라운 학습 경험을 한 것은 정말 대단한 일입니다. 지속성의 힘을 실감하게 되었죠. 이 경험이 제 스킬을 향상시키고 시야를 넓혔으며 데이터 애호가들의 활기찬 커뮤니티와 접속되게 했습니다. 데이터 시각화에 열정이 있거나 데이터 스토리텔링 기술을 향상시키고 싶다면, 비슷한 여정에 나서보기를 권장합니다. 즐거운 시각화 시간 보내세요!

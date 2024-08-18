@@ -3,17 +3,13 @@ title: "클라이언트 측 데이터-저니 분석기로 스마트 디버깅 �
 description: ""
 coverImage: "/assets/img/2024-08-03-SmartdebuggingusingData-JourneyAnalyzersontheclientside_0.png"
 date: 2024-08-03 18:24
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-03-SmartdebuggingusingData-JourneyAnalyzersontheclientside_0.png
 tag: Tech
 originalTitle: "Smart debugging using Data-Journey Analyzers on the client side"
 link: "https://medium.com/@ethicalhacker365/smart-debugging-using-data-journey-analyzers-on-client-side-d66edbe8dd94"
 isUpdated: true
 ---
-
-
-
-
 
 당신의 앱이 새벽 3시에 데이터베이스 마이그레이션을 예약하거나 정기적인 간격으로 동기화를 수행하는 상황에서 QA 팀이 일부 사용자가 데이터가 올바르게 마이그레이션되지 않는 심각한 버그를 겪고 있다고 보고했습니다. 사용자의 기기에서 이렇게 발생할 수 있는 방법에 대해 전혀 감이 없습니다. 이 버그나 잘못된 상태를 일으킬 수 있는 레이스 조건을 재현할 수있는 가능성은 90%입니다. 이를 어떻게 디버깅할 것인가요?
 
@@ -27,8 +23,18 @@ isUpdated: true
 - 이제 데이터는 3회의 재시도 후 또는 한 번에 가져왔을 수 있습니다.
 - 데이터를 성공적으로 가져온 후, 새 데이터를 위한 공간을 확보하고 그곳에 두기 위해 캐시를 정리합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-08-03-SmartdebuggingusingData-JourneyAnalyzersontheclientside_0.png)
 
@@ -38,8 +44,18 @@ isUpdated: true
 
 이름 그대로 시스템 내 데이터의 각 Journey를 추적하고, 예상된 흐름에 따라 유효성을 검사하고 의심이 생기면 서버로 오류를 푸시합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 캐싱 예시에서 알고리즘은 다음과 같이 작동합니다:
 
@@ -78,11 +94,22 @@ private val eventJourney = mutableListOf<EventSnapshot>()
 
 여정 지도가 채워지기 시작하면 핫스팟 이벤트를 찾아야 합니다. 이 경우에는 캐시에 데이터를 넣는 것이 핫스팟 이벤트일 것입니다 (사용 사례에 따라 다름).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 블로그의 흥미로운 부분인 이벤트 접근 방식을 분석해 보겠습니다.
 
-앱의 사용 사례에 따라 달라지겠지만, 한 가지 분석 알고리즘은 다음과 같을 수 있습니다: 
+앱의 사용 사례에 따라 달라지겠지만, 한 가지 분석 알고리즘은 다음과 같을 수 있습니다:
 
 - KEY_PUTTING_INTO_CACHE 키를 가진 이벤트가 데이터 구조에 푸시되면 해당 인덱스를 표시합니다.
 - 더 많은 이벤트가 발생할 때까지 기다린 후 복사 목록을 만듭니다 (이렇게 하면 데이터 구조에서 발생하는 다른 작업을 동기화할 필요가 없습니다).
@@ -96,7 +123,18 @@ private val eventJourney = mutableListOf<EventSnapshot>()
 
 Signal은 데이터베이스 마이그레이션을 실행한 후 비슷한 마이그레이션 검사기를 실행하고 이상한 점이 있는 경우 이를 로그로 남깁니다. 텔레그램은 단편 스택이 비어 있는지 또는 화면이 비어 있는지 확인하고 이에 따라 서버로 로그를 푸시합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 분석기들은 프로덕션 환경에서 레이스 조건을 디버그하려고 할 때 자신만으로는 재현할 수 없을 때 정말 유용합니다. 이를 반복해서 사용하여 사용자의 이용자 경로를 보다 잘 이해할 수 있도록 클릭 히트 맵을 만들어낼 수 있습니다.
 

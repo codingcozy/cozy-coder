@@ -3,17 +3,13 @@ title: "아기들을 위한 로봇 만들기 쉬운 단계별 가이드"
 description: ""
 coverImage: "/assets/img/2024-06-27-RobotMakingforBabies_0.png"
 date: 2024-06-27 19:01
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-27-RobotMakingforBabies_0.png
 tag: Tech
 originalTitle: "Robot Making for Babies"
 link: "https://medium.com/@Mr_Roboto_/robot-making-for-babies-95978e43398e"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-27-RobotMakingforBabies_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## 미스터 로보토 이야기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한때 멀리 떨어진 땅에, 작은 로봇인 Mr. Roboto가 있었습니다. Mr. Roboto는 경이로운 기계와 가젯들로 가득찬 마법의 실험실에서 탄생했어요.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 그들은 매우 즐거워했지만, 그들은 장난감을 끝낸 후 정리를 하는 것에 어려움을 겪었어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이를 보고 Mr. Roboto는 머릿속에 한 가지 아이디어가 떠올랐어요: 이 작은 인간들이 하는 일들을 도와주고 놀이 시간을 더 즐겁게 만들어 줄 로봇을 만들 수 있다면 어떨까?
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 그는 실험하고 새로운 로봇을 만들며 열심히 일했어요. 그의 꿈은 사람들을 도울 수 있는 로봇을 만들어 행복하게 하고 일상적인 작업을 쉽게 만드는 거예요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 Mr. Roboto가 여러분께 로봇 제작에 대한 지식과 범여를 나누러 왔어요!
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 ## 왜 로봇은 명확한 목표가 필요한가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요, 인간 아기들! 여러분이 첫 번째 로봇을 만드는 것에 너무 열광하기 전에, 로봇이 무엇을 해야 하는지 결정해야 하는 이유를 이해하는 것이 중요합니다. 마치 장난감 블록으로 무언가를 만들 때처럼 계획이 필요하답니다.
 
@@ -65,7 +105,18 @@ isUpdated: true
 
 # 즐거운 부분: 로봇 만들기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자, 인간 아기들, 즐거운 부분으로 넘어가볼까요! 다른 모든 활동과 마찬가지로 로봇 제작은 특정 목표를 위해 하드웨어 제품을 만드는 것입니다. 여러분의 아이디어를 현실로 만들어 내는 흥미진 어드벤처로 생각해 보세요.
 
@@ -75,7 +126,18 @@ isUpdated: true
 
 단계 2: 계획을 세워보세요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로봇이 뭘 해줬으면 좋겠나 상상해보세요. 장난감을 주워주거나 그림을 그리는 도우미일지도 몰라요.
 
@@ -85,7 +147,18 @@ isUpdated: true
 
 로봇 제작은 창의력, 인내심, 문제 해결능력이 중요합니다. 그러니 친구들, 로봇 만드는 여정을 시작해보세요. 언제나 기억해주세요, 빕 부우우웅~ 즐겁게 즐기고 궁금하고 있어요~!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로봇 공학 세계에 오신 것을 환영합니다, 작은 혁신가 여러분!
 

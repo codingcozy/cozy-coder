@@ -3,17 +3,13 @@ title: " 변화가 다가오고 있어요"
 description: ""
 coverImage: "/assets/img/2024-06-19-Changeiscoming_0.png"
 date: 2024-06-19 02:48
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-Changeiscoming_0.png
 tag: Tech
 originalTitle: "Change is coming"
 link: "https://medium.com/arondite-blog/change-is-coming-f61cc26e633b"
 isUpdated: true
 ---
-
-
-
-
 
 ## Arondite가 만들고 있는 것을 주도하는 두 가지 큰 트렌드는 무엇인가요?
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ### 두 가지 큰 트렌드
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것들은:
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 로봇 및 자율 시스템의 수가 빠르게 증가하면서 데이터 및 미션 관리의 복잡도가 기하급수적으로 증가하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한편, 엣지 컴퓨팅 및 전력 효율성의 지속적인 발전은 전자 전투에 빈번히 영향을 받는 전투 공간과 교차하고 있습니다. 결과적으로, 인공지능의 시스템 능력을 정의하는 능력이 가속화되고 있습니다.
 
@@ -43,7 +61,18 @@ AI 기술의 발전이 로봇 및 자율 시스템의 영역으로 흘러들면�
 
 1960년대 후반에는 컴퓨터가 크고 비싼 장비였습니다. 그래서 군사 본부, 학술 연구소 및 대규모 기술 기업으로 한정되었습니다. 그러나 1970년대 후반에는 패러다임이 바뀌었습니다. 마찬가지로, 저희는 로봇 및 자율 시스템이 자신들의 개인용 컴퓨터 시대를 맞이하고 있다고 믿습니다. 컴퓨팅의 민주화가 새로운 기회와 도전을 가져왔던 것처럼, 로봇 및 자율 시스템의 민주화도 마찬가지입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기회와 도전
 
@@ -53,7 +82,18 @@ AI 이해와 통제. 로봇 및 자율 시스템의 보다 광범위한 사용�
 
 데이터 복잡성과 보안. 방어는 또한 데이터 관리와 임무 관리에서의 신생 복잡성에 맞서야 하며, 고객이 데이터와 AI를 활용하면서도 보안을 희생하지 않도록 해야 합니다. 이로 인해 몇 가지 중요한 질문이 제기됩니다. 어떻게 점점 더 복잡한 시스템의 혼합물 간에 쉬운 협업을 가능하게 할 수 있을까요? 얼마나 보안을 저해하지 않고 동맹국과 기업이 AI를 함께 개발할 수 있을까요? 어떻게 적절한 AI 모델이 올바른 위치에 배치되는지 보장할 수 있을까요? AI가 예상대로 작동 중이며 실제 세계 피드백을 자동으로 캡처하여 모델 신뢰성과 성능을 향상시킬 수 있을까요? 저희에게는 이러한 종류의 기능이 선택사양이 아니라 문제를 해결하는 중요한 부분임을 보증합니다. 이 없이는 복잡한 데이터 환경에서 신뢰를 유지하거나 고객에게 조직 전체로 제품을 안전하게 확장할 자신감을 줄 수 없습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **동적 팀 구성.** 변화 속도가 높아질수록, 인간-기계 팀도 동적으로 형성되고 재구성되어야 합니다. 로봇 시스템이 협업하는 것이 인간들이 협업하는 것만큼 쉬워져야 한다고 믿습니다. 이는 센서, 로봇 또는 자율 시스템과 연결해야 하는 사용자가 세계를 모델링할 수 있는 완전히 새로운 방법을 구축하는 것을 의미합니다. 사용자는 그런 다음 예기치 못한 작업을 수행하기 위해 다양한 기계들을 유연한 팀으로 결합할 수 있어야 합니다.
 

@@ -3,17 +3,13 @@ title: "Meta AI, 고급 코드 및 컴파일러 최적화를 위한 LLM Compiler
 description: ""
 coverImage: "/assets/img/2024-07-09-MetaAIUnveilsLLMCompilerforAdvancedCodeandCompilerOptimization_0.png"
 date: 2024-07-09 11:30
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-MetaAIUnveilsLLMCompilerforAdvancedCodeandCompilerOptimization_0.png
 tag: Tech
 originalTitle: "Meta AI Unveils LLM Compiler for Advanced Code and Compiler Optimization"
 link: "https://medium.com/syncedreview/meta-ai-unveils-llm-compiler-for-advanced-code-and-compiler-optimization-ce001c32cce7"
 isUpdated: true
 ---
-
-
-
-
 
 마크다운 형식으로 이미지 태그를 변경하겠습니다.
 
@@ -25,6 +21,17 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-07-09-MetaAIUnveilsLLMCompilerforAdvancedCodeandCompilerOptimization_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 The LLM Compiler는 컴파일러 중간 표현 (IRs) 및 어셈블리의 의미론을 이해하기 위해 훈련된 기본 모델로 구성되어 있습니다. 이 모델들은 컴파일러를 흉내내며 특정 하향식 컴파일러 최적화 작업을 위해 수행할 수 있습니다. LLM Compiler 모델은 전문화된 버전으로, 추가 데이터 없이도 특정 하향식 컴파일러 최적화 작업을 위한 세부 조정이 가능합니다.

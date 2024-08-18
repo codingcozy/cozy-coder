@@ -3,17 +3,13 @@ title: "바쁜 엄마가 PC 팬 코르시-로젠탈 박스를 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-23-BusymombuildsaPCfanCorsi-Rosenthalbox_0.png"
 date: 2024-06-23 18:05
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-BusymombuildsaPCfanCorsi-Rosenthalbox_0.png
 tag: Tech
 originalTitle: "Busy mom builds a PC fan Corsi-Rosenthal box"
 link: "https://medium.com/its-airborne/busy-mom-builds-a-pc-fan-corsi-rosenthal-box-c64a56bae528"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-23-BusymombuildsaPCfanCorsi-Rosenthalbox_0.png" />
 
@@ -23,7 +19,18 @@ DIY 공기 청정기를 만드려는 관심에 감사드립니다! 2021년 여�
 
 이 글은 자세하고 상세합니다. 주문한 부품, 상자 하나를 만드는 과정을 보여주는 사진과 함께 상세한 설명, 자원이 제한적인 부모/옹호자/일반인으로서 박스 팬 Corsi-Rosenthal 박스 대 PC 팬 버전에 대한 제 생각, 사용한 정보 자료 및 끝에 다른 대기질 자료 목록 등을 다룰 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요즘 결과물을 보여주는 몇 장의 사진이 있어요:
 
@@ -33,7 +40,18 @@ DIY 공기 청정기를 만드려는 관심에 감사드립니다! 2021년 여�
 
 ## 그래서, 이것을 어떻게 만들었고 비용은 얼마인지 궁금하신가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다른 사람들이 제작한 내용을 읽어본 것이 다행이었어요. PC 팬 버전은 더 복잡해 보였기 때문에 많은 도움이 되었습니다.
 
@@ -43,7 +61,18 @@ DIY 공기 청정기를 만드려는 관심에 감사드립니다! 2021년 여�
 
 제 주요 조언은 이에요: DIY 공기 청정기를 많이 제작해야 하거나 급하게 필요하다면, 일반 박스 팬 Corsi-Rosenthal 박스 디자인을 선택하세요. 20x20인치 MERV-13 필터 4개와 20인치 박스 팬이 필요해요. 이런 부품들을 찾는 데 시간이 덜 걸리고, 그 스타일로 제작하는 것이 더 직관적이고 저렴할 거예요. 결국 캐나다에서 일반 박스 팬 DIY 공기 청정기를 제작하는데 소요되는 비용은 대개 $100~150이고 한 어른이 30분이면 제작이 가능해요. PC 팬 버전은 비용이 약 $230~250이 들고 제가 3~3.5시간이 걸려요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 돈과 시간이 충분하다면 PC 팬 버전을 만들어 보세요! 만들 때는 급하긴 하지 말고 충분한 시간을 투자해 보세요. PC 팬을 구동하는 데 처음이라면 조립하기 전에 모든 연결 방법을 확인하기 위해 먼저 시험해 보는 것이 좋습니다.
 
@@ -53,7 +82,18 @@ DIY 공기 청정기를 만드려는 관심에 감사드립니다! 2021년 여�
 
 팬 (8개)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전원 공급
 
@@ -63,7 +103,18 @@ DIY 공기 청정기를 만드려는 관심에 감사드립니다! 2021년 여�
 
 팬을 부착할 무언가(나무 또는 폼)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이프 또는 접착제 (나는 가퍼 테이프를 사용하지만, 아마존에서 퀄리티가 낮은 가퍼 테이프에 주의하세요)
 
@@ -73,7 +124,18 @@ DIY 공기 청정기를 만드려는 관심에 감사드립니다! 2021년 여�
 
 ## 필터
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떤 사람들은 HEPA 또는 IKEA 필터를 사용하고 다른 사람들은 난로 필터를 사용해요. 저는 United Filter Canada에서 대량 구매한 MERV-13 필터를 사용했어요.
 
@@ -83,7 +145,18 @@ DIY 공기 청정기를 만드려는 관심에 감사드립니다! 2021년 여�
 
 제가 한 것처럼 2개의 필터 디자인을 만든 경우, 3개월마다 필터를 교체해야 해요. 일반 Corsi-Rosenthal 박스보다 필터가 적기 때문에 필터가 더 빠르게 더 많이 적재될 거에요. 원한다면 상단의 박스 팬을 9개의 PC 팬으로 교체하여 4개 필터 버전을 만들 수도 있습니다. 그럼 4개 필터의 경우 6~12개월 주기로 교체할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최근에 2개의 필터 디자인을 사용한 교체 시간이 빨라진 사실과 훨씬 저렴한 United Filter 필터의 잠재적인 문제에 대해 최근에 알게 되었습니다. 이는 더 비싼 필터(3M)로 자주 교체해야 하며, 이로 인해 예상보다 운영 비용이 증가함을 의미합니다. 저에게는 DIY 공기 청정 또는 Honeywell 제품과 같은 HEPA 필터링 구입 중 선택이 있습니다. Honeywell은 HEPA 필터(매년 교체; 대형 장치는 2개 필터 사용), 프리 필터(매 3개월 교체) 및 운영 비용(전력 사용량)이 필요합니다. 올바르게 제작된 경우 DIY 필터링은 일반적으로 Honeywell이나 동등한 HEPA보다 더 높은 CADR을 제공하며, PC 팬 공기 청정기의 경우 소음이 적고 전력 소비량이 적습니다. 따라서 PC 팬 버전의 필터 비용이 증가하더라도 여전히 DIY 공기 청정의 장점이 있습니다.
 
@@ -93,7 +166,18 @@ DIY 공기 청정기를 만드려는 관심에 감사드립니다! 2021년 여�
 
 대부분의 건축가들은 12 또는 14cm 컴퓨터 케이스 팬(120mm 또는 140mm)을 권장합니다. 팬을 한 세트에 판매하거나 “데이지 체인”으로 팬을 서로 연결할 수 있는 버전을 구매할 수 있습니다. 이를 통해 모든 팬을 구동하기 위해 스플리터를 별도로 구매할 필요가 없습니다. 위스만은 필터가 먼지로 적재되기 시작할 때 140mm이 조금 더 강력하고 오랫동안 최적으로 작동할 것이라고 권장합니다. 참고: 140mm 팬 가드는 구하기 어렵거나 건설 당시 어려웠습니다. 120mm 가드는 저렴하게 많이 구할 수 있습니다. 3D 프린터에 접근할 수 있다면 팬 가드를 3D 프린팅할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 옵션
 
@@ -102,7 +186,18 @@ DIY 공기 청정기를 만드려는 관심에 감사드립니다! 2021년 여�
 - Arctic 120mm 데이지 체인 버전 (PWM PST) in black
 - Arctic 140mm 데이지 체인 버전 (PWM PST) in black
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5팩을 링크드해서 더 저렴하고 팬이 많이 필요할 것 같아서 추천해요. 물론 개별적으로도 구매할 수 있어요. 아마존이 아닌 다른 곳에서도 판매하고 있으니 Arctic에서 직접 주문할 수도 있어요.
 
@@ -112,7 +207,18 @@ DIY 공기 청정기를 만드려는 관심에 감사드립니다! 2021년 여�
 
 다른 회사에서 다른 팬 옵션이 있지만, 사람들은 Arctic 팬이 좋은 품질에 합리적인 가격으로 판매되고 있다고 동의하고 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제 사진들은 어린이 방에 사용된 PC 팬 빌드 사진들인데, 사진 속 주 DIY 공기 청정기는 Corsair RGB 팬을 사용하고 있어요. 나중에 해당 글에서 링크된 Wissmann의 테스트 결과를 보면, 일부 RGB 팬은 필터가 더 많이 물려있을수록 성능이 떨어진다는 것을 알 수 있는데요. 그 점도 고려해야 할 사항입니다. 필터를 3개월마다 교체하는 것이 그러한 염려를 줄일 수 있습니디까? Wissmann은 이전 필터로 테스트했는데, 그만큼 고려해보세요.
 
@@ -122,7 +228,18 @@ DIY 공기 청정기를 만드려는 관심에 감사드립니다! 2021년 여�
 
 구입한 팬 크기에 따라 120mm 또는 140mm 팬 그릴 또는 팬 보호대를 찾아보세요. "망" 형태의 스크린을 구할 수도 있지만, 제가 살펴본 사양에 따르면 공기 흐름에 더 많은 영향을 줍니다. 팬의 공기 유속을 크게 감소시키면 DIY 공기 청정기의 효과가 줄어들게 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아마존에서 그릴을 살려고 했는데 너무 비싸보이고 대량 구매할만한 좋은 옵션이 없어요. 대부분의 PC 팬 필터 빌드는 최소한 6개의 팬을 사용하는데, 워프 코어 형태로 쌓지 않는 한 많은 그릴이 필요할 것 같아요. Digikey에서 더 많은 옵션을 찾게 되어 기뻤어요.
 
@@ -132,7 +249,18 @@ DIY 공기 청정기를 만드려는 관심에 감사드립니다! 2021년 여�
 
 어떤 사람이 이것을 추천했어요. 일부 사람들은 달러 상점이나 공예 용품 가게에서 구할 수도 있었어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나의 비용: 10개의 보드에 $58.80이 듭니다. 만약 20x30 필터를 사용 중이라면, 20x30 폼 보드를 사용하시면 좋습니다. 필터와 가능한 가까운 크기의 폼 보드를 찾으셔야 합니다. 만약 길이가 일치한다면 많은 절단을 할 필요가 없습니다. 폼 코어를 선풍기 폭보다 약간 넓게 자르시면, 필터 가장자리에 부착할 공간과 전선이 붙이거나 다른 곳에 숨겨질 공간이 확보됩니다. 만약 20x30 필터를 사용하지 않는다면, 20x30 폼 코어를 구매할 필요는 없지만, 저는 이것을 구매하여 현재까지 만족했습니다. 폼 코어를 사용하고 싶지 않다면, 나무나 튼튼한 판지를 사용할 수 있습니다. 어떤 사람들은 하드보드를 사용하기도 합니다. 선거 표지판을 재활용하는 사람들도 있다고 합니다.
 
@@ -142,7 +270,18 @@ DIY 공기 청정기를 만드려는 관심에 감사드립니다! 2021년 여�
 
 선풍기는 벽 콘센트에 연결할 수 있는 것(또는 휴대용 파워 뱅크, 차량 전원 콘센트 등)에 연결되어야 합니다. 제품으로 제공되는 선풍기는 컴퓨터 마더보드에 연결되도록 설계되어 있기 때문에 직접 콘센트에 꽂을 수 없습니다. 전원을 구매할 때, UL 인증이 되어 있는지 확인해야 합니다. 또한 선풍기를 전원 공급 장치에 연결할 수 있는 어댑터도 구매했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어댑터
 
@@ -152,7 +291,18 @@ USB에 선풍기를 연결할 수 있는 어댑터 - 이 제품의 가격이 꽤
 
 Rob Wissmann의 정보를 바탕으로, 많은 선풍기를 구동할 예정이었기 때문에 UL 인증 받은 2A 전원 공급기를 선택했습니다. 더 적은 선풍기로 작은 걸 만드시는 경우 1A 전원 공급기를 선택할 수 있어요. (제 비용: 전원 공급기 당 $10)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다른 옵션
 
@@ -162,7 +312,18 @@ Rob Wissmann의 정보를 바탕으로, 많은 선풍기를 구동할 예정이�
 
 RGB 라이트가 있는 팬을 선택했다면, 라이트와 라이트 허브를 공급해야 합니다. 이것은 조금 더 복잡하며 팬과 라이트를 공급해야 하므로 두 가지를 연결해야 합니다. 이것은 Alex가 작성한 RGB 라이트를 공급하는 방법에 대한 설명입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 12월에 Corsair 브랜드를 세일해서 사용 중이에요. 참고로, 리모컨은 따로 안 오니까 무지개 색상으로 변하는 팬이에요. (제품 설명에 언급된 소프트웨어로 제어하려면 팬이 실제로 마더보드에 연결되어야 하는 거 같은데요. 공기 청정기 안에만 있을 때는 Corsair 팬 색상을 제어할 방법이 없어요.) 전원 공급은 SATA에서 USB 어댑터가 필요해요. 이에 관한 내용은 바로 위에 연결된 Alex의 스레드에서 다루고 있어요.
 
@@ -172,7 +333,18 @@ RGB 라이트가 있는 팬을 선택했다면, 라이트와 라이트 허브를
 
 ## Splitter
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 올바른 팬을 얻으면 분배기 없이 데이지 체인을 할 수 있어요. 처음에는 올바른 팬을 구하지 못해서 분배기를 구해야 했어요. 사용하지 않는 팬 연결이 있다면 전기 테이프로 연결을 덮어두는 것이 좋을 수도 있어요. 이에 대해 전기 훈련을 받은 전문가와 상의하세요.
 
@@ -182,7 +354,18 @@ RGB 라이트가 있는 팬을 선택했다면, 라이트와 라이트 허브를
 
 아마존 이외의 옵션입니다. (1에서 4 분배기용으로 $9.57)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 하드웨어
 
@@ -192,7 +375,18 @@ RGB 라이트가 있는 팬을 선택했다면, 라이트와 라이트 허브를
 
 너트
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 볼트: 옵션 1 또는 옵션 2
 
@@ -202,7 +396,18 @@ RGB 라이트가 있는 팬을 선택했다면, 라이트와 라이트 허브를
 
 향후 제작 시 팬 그릴과 하드웨어를 더 싸게 구할 수 있어서 비용을 좀 더 낮출 수 있었습니다. 필터는 대량 주문으로 인한 절감도 있습니다. 친구와 대량 주문을 나누거나 많은 장치를 제작하는 것이 개별 장치 비용을 줄일 수 있습니다. 다만 대량 필터 주문을 할 수 있을 때까지 저축이 필요합니다. 만약 United Filter 옵션의 팬이 품질이 나쁘다면, 캐나다인들이 대량 MERV-13 필터를 어디서 구할 수 있는지 모르겠습니다. 사진에 나온 장치는 RGB 팬 비용 때문에 훨씬 더 비쌌습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 PC 팬 버전은 상자형 팬 CR 박스 버전에 비해 초기 비용이 비싸지만 둘 다 가격 대비 탁월한 가치를 제공합니다. PC 팬 자체는 6~8년 이상 또는 계속해서 작동해도 지속될 수 있습니다. 좋은 점은 부품이 매우 모듈식이라는 것입니다. 디바이스를 분해하고 다시 조립할 수 있습니다. 처음에 팬딜리어를 만들었지만 실패해서 전체 테이프를 제거하고 (테이프를 낭비했지만) 중력과 내 테이프가 잘 맞지 않아서 단순히 공중에 매달린 팬딜리어 대신 대지에 설치된 PC 팬 CR 박스로 재조립했습니다.
 
@@ -212,7 +417,18 @@ PC 팬 버전은 등가 비용 상용 HEPA 필터에 비해 여전히 많은 여
 
 크기, 소음, 전력 소모의 교환을 고려할 때 이는 상당한 가격 차이입니다. 그러나 상자형 팬 CR 박스의 소음이 사용을 막아서거나 크기가 큐브 모양 때문에 불편하다면, 분명히 더 높은 비용을 지불해야 하는 경우에도 더 조용한 PC 팬 버전이 더 합리적일 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나의 집에서 가장 작은 방에는 PC 팬 버전이 제공하는 유연성에 감사하다. 이 버전은 공간에서 덜 눈에 띄며 놀라울 만큼 조용하다. 침대에서 몇 피트밖에 떨어지지 않은 곳에서 밤낮으로 작동하는 PC 팬 DIY 공기 청정기에는 아무도 문제를 제기하지 않는다. 큐브 크기로 제한받지 않고 길고 납작한 DIY 공기 청정기를 만들 수 있다는 것은 정말 편리하다.
 
@@ -222,7 +438,18 @@ PC 팬 버전은 등가 비용 상용 HEPA 필터에 비해 여전히 많은 여
 
 # 건설 프로세스
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시작하기 전에, 필요한 모든 자료를 확인했어요. 다양한 곳에서 주문해서 도착하는 데 시간도 다르게 걸렸죠. 핫도그와 빵처럼, 부품들이 항상 같은 양으로 오지 않는 걸 보면서, 동시에 여러 가지를 만들고 있기 때문에 가지고 있는 부품의 수, 배송 중인 것, 그리고 "한정 환원제"가 무엇인지 계속 파악해야 했어요 — 필터가 먼저 다 떨어질까요, 아니면 선풍기가? 종종 볼트나 와셔였죠!
 
@@ -232,11 +459,33 @@ PC 팬 버전은 등가 비용 상용 HEPA 필터에 비해 여전히 많은 여
 
 ![image](/assets/img/2024-06-23-BusymombuildsaPCfanCorsi-Rosenthalbox_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이번 빌드에서는 20x30 필터를 사용하려고 했지만 아직 도착하지 않아 20x20을 사용했어요. 8개의 팬을 사용했는데, 그 중 6개는 RGB 팬이었고 2개는 일반 팬이었어요. 20x30 폼 보드는 기기의 4면(위와 아래가 닫힌 패널 및 환풍구가 파여진 옆패널 2면)을 만드는 데 완벽한 크기였어요. 로브 위스만은 팬의 다양한 방향을 테스트했어요. 이 경우에는 팬을 반대편에(왼쪽과 오른쪽) 놓은 디자인을 선택했어요. 제가 사용한 이 120mm 팬은 제가 가지고 있는 것이기 때문에 선택했어요. 140mm는 장단점이 있지만 140mm 팬 가드를 얻기 어렵다는 것을 알았어요. 3D 프린터가 있었다면 제가 직접 만들었을 텐데요. 비-필터 측면(닫힌 패널 2면과 팬을 놓을 환풍구가 파인 2면)의 너비를 결정하기 위해 팬을 놓고 옆에 필터를 두고 사이에 1cm 간격을 둔 후 다른 쪽에 대해서도 반복했어요. 로브의 팬 성능을 비교한 쓰레드 중 하나인 링크를 첨부했어요. 그는 어떤 RGB 팬들은 사용 후 몇 달이 지나면 필터가 적용된 후 성능이 떨어진다는 것을 발견했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간격을 두는 이유는 케이블에 공간을 제공하고 실수 여지를 남기기 위해서에요 😅
 
@@ -246,7 +495,18 @@ PC 팬 버전은 등가 비용 상용 HEPA 필터에 비해 여전히 많은 여
 
 팬을 4개씩 각 면에 딱 맞게 배치해야 했기 때문에 여유 공간을 확보하기 위한 작업이 필요했어요. 모든 팬이 작동하는지 확인한 후, 다음 단계는 폼 보드를 잘라내어 어디에 자를지 결정하는 것이었죠. 팬을 서로 가깝게 배치하여 모두 맞출 수 있도록했어요. 20x30 필터를 사용하면 팬 사이의 공간을 조금 더 확보할 수 있어요. 컴퍼스 커터를 사용해 팬의 지름으로 설정하고 원형 구멍을 자르기 시작했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 팬이 12cm이므로 매 6cm마다 팬의 끝이거나 중심일 것입니다. 팬 센터가 나타내는 긴 선이 있는 6cm마다 선을 그어 나침반을 사용하여 원을 자릅니다.
 
@@ -256,11 +516,33 @@ PC 팬 버전은 등가 비용 상용 HEPA 필터에 비해 여전히 많은 여
 
 혹시 장치에 다른 디자인을 원한다면, 폼 보드 위에 스티커를 붙이거나, 서랍 라이너나 다른 디자인을 넣을 수도 있습니다. 또는 종이를 붙여서 색칠하거나 그림을 그리거나 어린이 스티커를 붙일 수도 있습니다. 폼을 잘라내는 데 있어서 저는 가장 세게 자르지는 않으니까 보통 한 쪽을 자르고, 뒤집어서 다시 재서 반대쪽도 자르곤 해요. 그러면 쉽게 떨어져 나와요. 날이 달린 나침반 없이 이걸 하겠다고 상상할 수 없네요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <table> 태그를 Markdown 형식으로 변경하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 팬 브랜드를 확인해서 공기가 어느 쪽으로 나가는지 확인하는 것이 좋아요. 지금까지 예쁜 로고 쪽이 공기를 빨아들이는 것 같아요. 하지만 모두가 해당하는 것은 아닐 수도 있어요.
 
@@ -270,7 +552,18 @@ PC 팬 버전은 등가 비용 상용 HEPA 필터에 비해 여전히 많은 여
 
 팬 가드를 바깥쪽에 설치하고 팬을 안쪽에 설치했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일부 사용된 하드웨어:
 
@@ -280,8 +573,18 @@ PC 팬 버전은 등가 비용 상용 HEPA 필터에 비해 여전히 많은 여
 
 아래는 배선 사진들입니다. 이 이미지들은 처음에 이 단계의 좋은 사진을 얻지 못하여 다른 빌드에서 가져왔습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-23-BusymombuildsaPCfanCorsi-Rosenthalbox_10.png" />
 
@@ -291,8 +594,18 @@ PC 팬 버전은 등가 비용 상용 HEPA 필터에 비해 여전히 많은 여
 
 공기 청정기에서 전원 케이블을 꺼내려면 발포 패널 하나에 구멍을 뚫어야 합니다. 그 후, 구멍 주위에 테이프를 붙여 기기를 밀봉할 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막 단단한 패널을 누르기 전에 모든 것이 작동하는지 확인하기 위해 장치를 연결했습니다. 이전에 모든 선풍기를 테스트했기 때문에 모두 작동할 것이라고 확신했습니다. 성공!
 
@@ -302,7 +615,18 @@ PC 팬 버전은 등가 비용 상용 HEPA 필터에 비해 여전히 많은 여
 
 난 NIOSH 앱을 사용하여 데시벨을 측정했습니다. 선풍기 쪽으로부터 1m 떨어진 곳에서 45 dB이었지만 주변 가족 소음이 기여했습니다. 필터로부터 1m 떨어진 곳에서는 40 dB였습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저에게는 PC 팬의 놀라운 조용함이 꽤 중독적인 것 같아요. PC 팬과 배선, 하드웨어를 구매할 자금과 구멍을 잘라서 조립할 시간이 있다면, 좋은 DIY 공기 청정기를 만들 수 있는 만족스러운 프로젝트가 될 거예요. 이 글이 여러분이 가지고 있는 옵션을 이해하고 PC 팬 Corsi-Rosenthal 박스를 만드는 데 도움이 되기를 바래요.
 
@@ -312,7 +636,18 @@ PC 팬 버전은 등가 비용 상용 HEPA 필터에 비해 여전히 많은 여
 
 어떤 기업들은 컴퓨터 팬 옵션을 선호할 수도 있어요. 이 옵션은 더 작고 조용하기 때문이죠. 다른 공간에서 전통적인 상자 선풍기 버전을 옹호하는 것이 간단해요. 상자 선풍기를 열거나 그 구성 요소를 수정할 필요가 없어서 팬과 그 부품의 무결성이 완전히 유지되고 위험이 없을 거예요. 이 글의 맨 아래에는 EPA 보고서와 환경 보건 국립 협력 센터(National Collaborating Centre for Environmental Health)의 CR 박스의 안전성과 유효성에 관한 보고서 링크를 걸어놨어요. PC 팬 버전의 경우 빌더가 전원 어댑터를 구해야 하기 때문에 DIY 공기 청정기의 PC 팬 버전을 받아들이는 데 좀 더 망설임이 있을 수 있다고 이해해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 참고 자료
 
@@ -322,7 +657,18 @@ PC 팬 버전은 등가 비용 상용 HEPA 필터에 비해 여전히 많은 여
 
 Rob Wissmann이 IKEA HEPA 필터로 하나를 만드는 YouTube 동영상
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앤드루 도비
 
@@ -332,14 +678,36 @@ Rob Wissmann이 IKEA HEPA 필터로 하나를 만드는 YouTube 동영상
 
 그의 웹사이트에 게시된 정보 중 HEPA 필터 소음 문제에 대한 글이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제 생방송 스레드에서 공유하는 중요한 링크:
 
 - [Ontario Society of Professional Engineers 실내공기질 보고서](링크)
 - [Canadian Aerosol Transmission Coalition](링크)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Corsi-Rosenthal Foundation
 
@@ -349,7 +717,18 @@ Joey Fox의 웹사이트
 
 캐나다 십대 Shiven Taneja의 웹사이트에는 CR 상자 지침서 및 아이들을 위한 활동북이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 Old House가 CR 상자를 건설했어요. [링크](https://youtu.be/wh4AxNkZyrE)
 
@@ -359,7 +738,18 @@ CDC 건물 환기
 
 ASHRAE 교육 시설을 위한 설계 지침: 고급 실내 공기 질에 대한 우선순위 설정
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 직업 건강 클리닉 (OHCOW) — COVID 19 자료
 
@@ -369,7 +759,18 @@ Clean Air Crew
 
 EPA DIY 공기 청정기 안전 및 효과성 연구
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 National Collaborating Centre for Environmental Health Do-it-yourself (DIY) air cleaners: Evidence on effectiveness and considerations for safe operation
 

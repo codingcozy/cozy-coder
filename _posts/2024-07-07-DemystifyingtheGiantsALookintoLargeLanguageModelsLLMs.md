@@ -3,17 +3,13 @@ title: "거대 언어 모델 LLMs 완전 정복 이해하기 쉽게 살펴보기
 description: ""
 coverImage: "/assets/img/2024-07-07-DemystifyingtheGiantsALookintoLargeLanguageModelsLLMs_0.png"
 date: 2024-07-07 02:57
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-DemystifyingtheGiantsALookintoLargeLanguageModelsLLMs_0.png
 tag: Tech
 originalTitle: "Demystifying the Giants: A Look into Large Language Models (LLMs)"
 link: "https://medium.com/@vdwayne/demystifying-the-giants-a-look-into-large-language-models-llms-8cff7cc8b018"
 isUpdated: true
 ---
-
-
-
-
 
 ![DemystifyingtheGiantsALookintoLargeLanguageModelsLLMs_0](/assets/img/2024-07-07-DemystifyingtheGiantsALookintoLargeLanguageModelsLLMs_0.png)
 
@@ -23,7 +19,18 @@ LLM의 풍경 속으로:
 
 언어를 번역할 뿐만 아니라 다양한 창의적 컨텐츠를 쓰고, 질문에 정보적으로 답하며, 서로 다른 쓰기 스타일을 생성할 수 있는 AI 시스템을 상상해보세요. 그것이 LLMs의 잠재력입니다. 이러한 복잡한 알고리즘들은 텍스트와 코드의 대규모 데이터셋에서 훈련을 받아 언어의 세부 사항을 배우고 인간 수준의 텍스트 형식을 생성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 LLM(Large Language Models)이 강력한 이유에 대한 해석이에요:
 

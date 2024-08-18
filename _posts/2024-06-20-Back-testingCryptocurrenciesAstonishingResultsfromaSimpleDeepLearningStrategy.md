@@ -3,17 +3,13 @@ title: "암호화폐 백테스팅 간단한 딥 러닝 전략의 놀라운 결�
 description: ""
 coverImage: "/assets/img/2024-06-20-Back-testingCryptocurrenciesAstonishingResultsfromaSimpleDeepLearningStrategy_0.png"
 date: 2024-06-20 18:11
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-Back-testingCryptocurrenciesAstonishingResultsfromaSimpleDeepLearningStrategy_0.png
 tag: Tech
 originalTitle: "Back-testing Cryptocurrencies: Astonishing Results from a Simple Deep Learning Strategy"
 link: "https://medium.com/@jsgastoniriartecabrera/backtesting-cryptocurrencies-astonishing-results-from-a-simple-deep-learning-strategy-584e06e6998c"
 isUpdated: true
 ---
-
-
-
-
 
 암호화폐 시장의 급격한 변동 속에서 백테스팅은 투자 전략을 검증하는 데 중요한 역할을 합니다. 본 연구는 비트코인, 이더리움, 바이낸스 코인, 솔라나 및 엑스알피와 같은 주요 암호화폐를 간단한 딥 러닝 모델을 활용해 평가하는 데 초점을 맞췄습니다. 놀랍게도, 이 방법은 다음과 같이 매우 뛰어난 성과 지표를 제시합니다:
 
@@ -26,7 +22,18 @@ isUpdated: true
 
 따라서, 우리는 바이낸스의 다섯 가지 암호화폐 쌍에 대해 (새 전략으로 불리는) 간단한 전략을 사용하여 백테스팅을 진행했습니다. 결과는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 BTCUSDT
 
@@ -36,7 +43,18 @@ BTCUSDT
 
 ETHUSDT
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 BNBUSDT
 
@@ -46,7 +64,18 @@ XRPUSDT
 
 # ETH/USDT 백테스팅 성능 지표 분석
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단한 딥 러닝 전략을 사용하여 ETH/USDT의 백 테스팅 결과는 다음과 같은 성능 지표를 보여줍니다:
 
@@ -64,7 +93,18 @@ XRPUSDT
 
 이것은 단지 예시일 뿐이며, 충분한 데이터가 있다면 바이낸스나 다른 거래소의 모든 심볼에서도 좋은 결과를 얻을 수 있을 것이라고 생각합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리플레이 결과
 
@@ -105,7 +145,7 @@ def descargar_datos(symbol, timeframe='1d', start_date='2004-01-01T00:00:00Z', e
     # 두 데이터 모두 타임존이 설정되어 있는지 확인하거나 필요한 경우 변환
     if df.index.tz is None:
         df.index = df.index.tz_localize('utc')
-    
+
     df = df[df.index <= end_date_timestamp]
     print(df)
     return df['close'].values
@@ -155,9 +195,9 @@ early_stopping = callbacks.EarlyStopping(
 )
 # 최적의 모델 저장할 체크포인트 설정
 checkpoint = ModelCheckpoint(
-    'best_model.h5', 
-    monitor='val_loss', 
-    save_best_only=True, 
+    'best_model.h5',
+    monitor='val_loss',
+    save_best_only=True,
     save_weights_only=False
 )
 
@@ -187,7 +227,18 @@ print(f"train_loss={train_loss:.3f}, train_rmse={train_rmse:.3f}")
 print(f"test_loss={test_loss:.3f}, test_rmse={test_rmse:.3f}")
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 백테스팅
 
@@ -368,3 +419,4 @@ plt.xlabel('날짜')
 plt.ylabel('Drawdown')
 plt.title(f'{symbol} 전략 Drawdown')
 plt
+```

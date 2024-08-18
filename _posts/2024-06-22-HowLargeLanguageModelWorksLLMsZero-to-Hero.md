@@ -3,17 +3,13 @@ title: "대형 언어 모델LLM 작동 방식 완벽 가이드 기초부터 고�
 description: ""
 coverImage: "/assets/img/2024-06-22-HowLargeLanguageModelWorksLLMsZero-to-Hero_0.png"
 date: 2024-06-22 20:56
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-HowLargeLanguageModelWorksLLMsZero-to-Hero_0.png
 tag: Tech
 originalTitle: "How Large Language Model Works (LLMs: Zero-to-Hero)"
 link: "https://medium.com/@waylandzhang/how-large-language-model-works-llms-zero-to-hero-d2a8c1ac0e1e"
 isUpdated: true
 ---
-
-
-
-
 
 제 ‘제로 투 히어로’ 시리즈의 두 번째 기사입니다. 이 기사에서는 대형 언어 모델 (LLM)이 작동하는 방식을 쉽게 설명해 드릴 예정입니다.
 
@@ -23,12 +19,23 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-22-HowLargeLanguageModelWorksLLMsZero-to-Hero_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자 프롬프트:
 
 ```js
-바나나는
+바나나는;
 ```
 
 모델 응답:
@@ -37,7 +44,18 @@ isUpdated: true
 납작하고 먹을 수 있는 과일
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼, 문서 생성기 모델은 이렇게 작동합니다:
 
@@ -49,7 +67,18 @@ isUpdated: true
 나는 새 차를 사고 싶어요
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "테이블 태그를 Markdown 형식으로 바꿔주세요."
 
@@ -57,7 +86,18 @@ isUpdated: true
 
 첫 번째 모델은 문서 완성기로, 다음 문자가 될 가능성이 가장 높은 것을 찾아서 프롬프트만 완성합니다. 이 모델은 인터넷 데이터의 일부분을 학습한 것으로, 기본 모델이라고 불립니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 번째 모델은 문서 생성기입니다. 이 모델은 프롬프트 질문을 기반으로 한 인간과 유사한 응답을 생성합니다. 이것은 ChatGPT 모델입니다.
 
@@ -67,7 +107,18 @@ ChatGPT 모델은 프롬프트 질문을 기반으로 한 응답을 생성할 �
 
 이것은 인공 지능 혁명의 핵심이자 실제 마법이 일어나는 곳입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모델을 훈련하는 것은 많은 데이터를 제공하고 그것으로부터 배우는 과정입니다.
 
@@ -77,19 +128,39 @@ GPT-3 논문에 설명된 대로, 기본 모델은 인터넷 데이터의 대량
 
 LLM 훈련 뒤에 있는 혁신은 Transformer 아키텍처의 도입에 있습니다. 이를 통해 모델은 광범위한 데이터에서 배우면서 입력의 서로 다른 부분 간의 중요한 맥락적 관골을 유지할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 연결을 유지함으로써 모델은 제공된 문맥을 기반으로 새로운 통찰력을 효과적으로 추론할 수 있습니다. 이 문맥은 개별 단어, 문장, 문단 또는 그 이상일 수 있습니다. 이 능력을 통해 LLM 훈련은 자연어 처리 및 생성 작업에 대한 새로운 기회를 열어주어 기계가 인간의 의사 소통에 더 잘 이해하고 응답할 수 있도록 합니다.
 
 기본 모델을 훈련하는 데 사용된 트랜스포머 아키텍처는 아래에 표시됩니다:
 
-
 ![LLM](/assets/img/2024-06-22-HowLargeLanguageModelWorksLLMsZero-to-Hero_2.png)
-
 
 이는 일부 이전 및 새로운 기법을 사용하여 훈련된 신경망 모델입니다: 토큰화, 임베딩, 위치 인코딩, 피드포워드, 정규화, 소프트맥스, 선형 변환 및 가장 중요한 것은 멀티헤드 어텐션입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 부분은 당신과 저 모두가 대부분 관심을 가지고 있는 부분이에요. 우리는 아키텍처 뒤의 아이디어와 교육 과정이 정확히 어떻게 이루어졌는지 명확하게 이해하고 싶어해요. 그래서 다음 글부터는 논문, 코드, 그리고 기본 모델을 훈련하는 데 사용된 수학적인 부분을 자세히 살펴볼 거에요.
 
@@ -99,7 +170,18 @@ Fine-tuning은 아주 똑똑한 구현이에요. 아마 OpenAI에 의해 처음 
 
 이 과정을 Fine-tuning이라고 해요. 그 10만 개의 대화 샘플 데이터가 모델에 훈련되면 뭔 일이 벌어질까요? 모델이 인간처럼 응답하기 시작할 거에요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 샘플 레이블 대화를 살펴보겠습니다:
 
@@ -124,7 +206,18 @@ Q: 영화 타이타닉의 줄거리를 요약해주세요.
 A: 영화 타이타닉은 바다에서 침몰하는 배에 관한 이야기입니다.
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 와, 이 샘플 Q&A들은 우리가 서로 대화하는 방식을 조롱하고 있는 것 같아요.
 
@@ -134,7 +227,18 @@ A: 영화 타이타닉은 바다에서 침몰하는 배에 관한 이야기입�
 
 우리는 여기서 어시스턴트 모델을 얻었다고 말할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 기본 모델을 사전 훈련에서 보조 모델을 미세 조정하는 과정 중 일부 강조 사항을 보여주는 다이어그램입니다:
 
@@ -144,8 +248,18 @@ A: 영화 타이타닉은 바다에서 침몰하는 배에 관한 이야기입�
 
 2022년 1월, OpenAI는 언어 모델을 지시 사항을 따르도록 조정하는 연구를 발표했습니다. 블로그 게시물에서 그들은 모델이 인간 피드백으로 더욱 미세하게 조정된 방법을 설명했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-22-HowLargeLanguageModelWorksLLMsZero-to-Hero_4.png)
 
@@ -155,7 +269,18 @@ A: 영화 타이타닉은 바다에서 침몰하는 배에 관한 이야기입�
 
 우리 모델을 보다 안전하고 유용하며 일치하게 만들기 위해 기존 기술인 인간 피드백 강화 학습 (RLHF)을 사용합니다. API에 고객이 제출한 프롬프트에서, 우리의 레이블러는 원하는 모델 행동을 시연하고 모델에서 여러 출력을 순위 매깁니다. 그런 다음 우리는 이 데이터를 사용하여 GPT-3를 세밀하게 조정합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에 베이스 모델 대 미세 조정/RLHF 응답 비교가 있어요:
 
@@ -165,7 +290,18 @@ A: 영화 타이타닉은 바다에서 침몰하는 배에 관한 이야기입�
 
 # 프롬프트 엔지니어링
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 세밀한 조정과 RLHF를 사용하더라도 모델은 여전히 원하는 응답을 얻기 위해 도움이 필요합니다. 그리고 이것이 바로 프롬프트 엔지니어링이 필요한 이유입니다.
 
@@ -175,7 +311,18 @@ A: 영화 타이타닉은 바다에서 침몰하는 배에 관한 이야기입�
 
 이제 예시를 살펴보겠습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 The sky is
@@ -183,16 +330,38 @@ The sky is
 
 blue.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 테이블을 Markdown 형식으로 변경해 주세요.
 
 | 이름 | 나이 | 성별 |
-|------|-----|-----|
-| 민수 | 25 | 남성 |
-| 지영 | 22 | 여성 |
+| ---- | ---- | ---- |
+| 민수 | 25   | 남성 |
+| 지영 | 22   | 여성 |
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 낮에는 파란색이고 밤에는 어두운 색입니다.
@@ -204,21 +373,41 @@ blue.
 
 프롬프트:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-6살 때 내 언니 나이의 절반이었어. 지금 나는 70살, 내 언니 몇 살일까? 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
+6살 때 내 언니 나이의 절반이었어. 지금 나는 70살, 내 언니 몇 살일까?
 
 결과:
 
 ```js
-35
+35;
 ```
 
 답은 틀렸어요. 정답은 67살이에요. 모델은 질문을 이해하는 것 같지만 논리적 추론 대신 수학 계산을 참고한 것 같네요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 미세 조정 및 RLHF 없이도 프롬프트에 더 많은 예제 지침을 추가하는 것만으로도 올바른 답을 얻을 수 있습니다:
 
@@ -247,7 +436,18 @@ A:
 
 결과:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 6살 때 내 언니는 저의 나이의 절반, 즉 3살이어서 3살이었습니다. 이제 저는 70살이므로, 언니는 70 - 3 = 67살입니다. 정답은 67입니다.
@@ -261,7 +461,18 @@ output 2:
 
 두 번째 답변도 정확합니다! 우리는 문제에 대한 논리적 설명 예시를 추가하여 모델이 질문을 이해하고 올바르게 답변할 수 있도록 했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 예시는 Wang 등(2022)에 의해 소개된 것으로, 최종 답안을 계산하는 과정은 몇 단계로 이루어져 있습니다.
 
@@ -271,7 +482,18 @@ output 2:
 
 # 요약
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기까지 읽어주셔서 정말 감사합니다. 특히 LLM 세계에 처음 접하는 분들에게는 모든 정보를 소화하는 데 시간이 걸릴 것이라고 확신합니다.
 

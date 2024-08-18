@@ -3,17 +3,13 @@ title: "AI 역사의 쉬운 이해 일반인의 관점에서 보는 기술 발�
 description: ""
 coverImage: "/assets/img/2024-07-10-ALaypersonsHistoryofAI_0.png"
 date: 2024-07-10 00:08
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-10-ALaypersonsHistoryofAI_0.png
 tag: Tech
 originalTitle: "A Layperson’s History of AI"
 link: "https://medium.com/on-technology/a-laypersons-history-of-ai-0654e55a3811"
 isUpdated: true
 ---
-
-
-
-
 
 ## 인공지능 연구 논문, 쉽게 설명해 드립니다
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 🤔 인공지능의 주요 발전 단계들은 무엇이며, 그것들이 현재의 인공지능 역사를 만들었을까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자세한 답변에 관심이 있다면 계속 읽어보세요.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ⭐ 더 기술적인 세부 내용에 관심이 있다면 제 (더 고급) 5부작 기사 시리즈 "인공지능의 역사"를 읽어보세요 (부록 참조).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 1️⃣ 간단한 시작부터 스마트 컴퓨터로 (1950-2000)
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 ## 역전파: 기계에게 더 잘 배우게 가르치기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1986년, 과학자들은 작은 뇌세포들을 효율적으로 훈련하는 더 좋은 방법을 소개했습니다. 이 방법은 역전파라고 불리며, 컴퓨터가 내부 설정을 조정함으로써 실수로부터 배울 수 있게 도와주었습니다. 이 개선은 딥러닝에 필수적인 다계층 네트워크를 만드는 데 계기를 제공하였습니다.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 ## 숨겨진 마코프 모델: 순서를 이해하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1989년, Hidden Markov Models (HMMs)라 불리는 새로운 접근 방식이 등장했습니다. 이 방법은 컴퓨터가 음성 패턴과 같은 시퀀스를 이해하는 데 도움이 되었습니다. 이 방법은 음성 인식과 같은 응용 프로그램에서 중요한 역할을 하며, 말을 텍스트로 해독하는 데 도움이 됩니다.
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 ## 서포트 벡터 머신: 선 긋기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1992년, 서포트 벡터 머신(SVMs)이 나왔어. SVMs은 컴퓨터가 데이터를 분류하는 데 도움이 되는 알고리즘들이야. 서로 다른 카테고리 사이에서 최적의 경계를 찾아주는 거야. SVMs은 이미지 인식이나 생물정보학과 같은 작업들에서 인기를 얻었어.
 
@@ -73,7 +124,18 @@ isUpdated: true
 
 **합성곱 신경망(Convolutional Neural Networks): 인간처럼 보기**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1998년, 합성곱 신경망(Convolutional Neural Networks, CNNs)이 개발되었습니다. 이 네트워크들은 이미지를 인식하는 데 특히 뛰어나며, 이는 인간 두뇌와 유사한 방식으로 시각 데이터를 처리할 수 있기 때문입니다. CNNs가 숫자 인식 및 이미지 분류와 같은 작업에 필수적인 역할을 하게 되었습니다.
 
@@ -83,7 +145,18 @@ isUpdated: true
 
 2001년, Random Forests는 여러 결정 트리를 결합하여 정확성을 향상시켰습니다. 이 방법은 여러 전문가가 의견을 내어 최종 결과를 믿을 수 있도록 한 것과 비슷합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 진화 알고리즘: 생존자들의 생존
 
@@ -93,7 +166,18 @@ isUpdated: true
 
 2003년, 잠재 디리클레 할당(LDA)이라는 기술이 컴퓨터가 대량의 텍스트 모음에서 숨겨진 주제를 발견하는 데 도움을 주었습니다. 이 방법은 문서 분류 및 추천 시스템과 같은 응용 프로그램에서 유용하게 사용되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **차원 축소: 데이터 단순화**
 
@@ -103,17 +187,39 @@ isUpdated: true
 
 2008년, t-SNE라는 새로운 기술이 등장하여 고차원 데이터를 두 가지 또는 세 가지 차원으로 시각화할 수 있게 되었습니다. 이 방법은 복잡한 데이터의 지도를 만드는 것과 같아서 패턴과 구조를 더 쉽게 파악할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## ImageNet: Building a Massive Image Database
 
-2009년, ImageNet 프로젝트가 레이블이 달린 거대한 이미지 데이터베이스를 만들었어요. 이 모음집은 AI 모델을 훈련하고 테스트하는 데 중요한 자원이 되었고, 이미지 인식 기술의 중요한 발전을 이끌게 되었어요. 
+2009년, ImageNet 프로젝트가 레이블이 달린 거대한 이미지 데이터베이스를 만들었어요. 이 모음집은 AI 모델을 훈련하고 테스트하는 데 중요한 자원이 되었고, 이미지 인식 기술의 중요한 발전을 이끌게 되었어요.
 
 # 3️⃣ 딥 러닝의 시대 (2010–2014)
 
 ## AlexNet: 이미지 인식의 돌파구
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2012년, AlexNet이라 불리는 딥 뉴럴 네트워크가 이미지 분류에서 새로운 기록을 세웠어요. AlexNet은 다층과 강력한 GPU(병렬 작업을 수행할 수 있는 강력한 컴퓨터 프로세서)를 사용하여 이미지 속 객체를 놀랄만한 정확도로 인식할 수 있었죠. 이는 더 복잡한 AI 모델의 길을 열어주었습니다.
 
@@ -123,7 +229,18 @@ isUpdated: true
 
 ## 변이 오토인코더: 새로운 데이터 생성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2013년, VAE(변분 오토인코더)가 인공지능이 새로운 데이터를 생성하는 방법을 제공했습니다. 이러한 모델은 데이터의 근본적인 구조를 학습함으로써 현실적인 이미지, 음악 및 텍스트를 만들어낼 수 있었습니다.
 
@@ -133,7 +250,18 @@ isUpdated: true
 
 **Dropout: 오버피팅 방지**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2014년에 드롭아웃이라는 기술이 등장했는데, 이 기술은 신경망이 데이터의 소음에 혼동받지 않도록 도와주는 데 도움이 되었습니다. 훈련 중에 임의로 유닛을 제거함으로써, 드롭아웃은 신경망을 보다 견고하게 만들고 새로운 데이터에서의 성능을 향상시켰어요.
 
@@ -147,7 +275,18 @@ isUpdated: true
 
 ## 소프트-어라인: 관련 부분에 집중
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2014년에는 관심 메커니즘이 도입되어 모델이 출력물을 생성할 때 입력의 관련 부분에 집중할 수 있었습니다. 이 방법은 모델이 중요한 정보를 동적으로 강조함으로써 기계 번역과 같은 작업을 개선했습니다.
 
@@ -157,7 +296,18 @@ isUpdated: true
 
 # 4️⃣ 실시간 및 정확한 인공 지능 (2015–2016)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 배치 정규화: 빠른 훈련
 
@@ -167,7 +317,18 @@ isUpdated: true
 
 2015년, 인셉션 모델은 최대한의 컴퓨팅 자원을 활용하는 새로운 아키텍처를 도입했습니다. 여러 스케일에서 동시에 이미지를 처리함으로써, 이 모델은 이미지 분류에서 최신 기술 성능을 달성했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 깊은 Q-러닝: 비디오 게임 마스터하기
 
@@ -177,7 +338,18 @@ isUpdated: true
 
 2015년, Faster R-CNN은 영역 제안과 감지를 하나의 네트워크로 통합하여 객체 감지를 개선했습니다. 이 방법은 높은 정확성으로 실시간 감지를 가능케 하였으며 컴퓨터 비전 분야의 다양한 응용프로그램에 영향을 미쳤습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## U-Net: 정밀 이미지 세분화
 
@@ -187,7 +359,18 @@ isUpdated: true
 
 2015년, 잔차 학습은 매우 깊은 네트워크를 훈련하는 도전에 대처했습니다. 잔차 함수를 학습함으로써, 이러한 네트워크는 최적화하기 쉬워져 시각 인식 작업에서 높은 정확도를 달성했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## YOLO: 실시간 객체 감지
 
@@ -197,7 +380,18 @@ isUpdated: true
 
 ## Transformers: 언어 모델 간소화
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2017년에 Transformer 모델이 복잡한 신경망을 단순한 주의 기반 아키텍처로 대체했습니다. 이 모델은 번역 및 요약과 같은 작업을 개선하여 다양한 고급 AI 응용 프로그램의 기반이 되었습니다.
 
@@ -207,7 +401,18 @@ isUpdated: true
 
 ### GPT-3: 소수 학습
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 202`년에 GPT-3은 대규모 언어 모델의 힘을 입증했습니다. 1750억 개의 파라미터를 보유한 GPT-3은 최소한의 예제로도 다양한 작업을 수행할 수 있어 모델을 확장하여 더 좋은 결과를 달성할 수 있는 잠재력을 보여 주었습니다.
 
@@ -217,7 +422,18 @@ isUpdated: true
 
 ## 알파폴드: 단백질 구조 예측하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2021년에 알파폴드(AlphaFold)가 단백질 구조를 정확하게 예측함으로써 오랫동안 해결되지 못했던 과학적 문제를 해결했습니다. 이 업적은 인공지능이 생물학과 의학 분야에서의 잠재력을 증명하며 연구와 약물 발견을 가속화했습니다.
 
@@ -227,7 +443,18 @@ isUpdated: true
 
 # 2022년 이후의 전망은?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2022년부터 현재까지(기사 작성 시간인 2024년 7월) 여러 중요한 발전이 있었습니다. 하지만 아직 이들이 분야에 미친 영향을 완전히 파악하기에는 너무 일러서 기사에서는 이를 생략하기로 결정했습니다. 지금은 1950년부터 2022년까지의 기간을 다루어 인공지능의 진화에 대한 포괄적인 이해를 제공하겠습니다.
 

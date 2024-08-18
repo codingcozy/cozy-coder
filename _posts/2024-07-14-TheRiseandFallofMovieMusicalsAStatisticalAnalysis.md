@@ -3,17 +3,13 @@ title: "영화 뮤지컬의 흥망성쇠 통계적 분석"
 description: ""
 coverImage: "/assets/img/2024-07-14-TheRiseandFallofMovieMusicalsAStatisticalAnalysis_0.png"
 date: 2024-07-14 01:24
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-14-TheRiseandFallofMovieMusicalsAStatisticalAnalysis_0.png
 tag: Tech
 originalTitle: "The Rise and Fall of Movie Musicals. A Statistical Analysis"
 link: "https://medium.com/fan-fare/the-rise-and-fall-of-movie-musicals-a-statistical-analysis-795107279b73"
 isUpdated: true
 ---
-
-
-
-
 
 ![TheRiseandFallofMovieMusicalsAStatisticalAnalysis](/assets/img/2024-07-14-TheRiseandFallofMovieMusicalsAStatisticalAnalysis_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 작년 7월, 워너 브라더스사는 오랫동안 기다려진 Wonka 뮤지컬의 첫 예고편을 공개했어요. 이 화려한 두 분 동안 춤, 화려한 세트, 연출된 춤이 있었지만 노래는 보이지 않았어요. Wonka의 뮤지컬적 요소가 빠진 것은 영화 뮤지컬 마케팅에서 나타나는 새로운 트렌드를 보여주었죠 — "뮤지컬" 부분이 빠진 반짝이는 광고였어요. 몇 주 전에는 브로드웨이의 The Color Purple을 영화화한 예고편이 노래 부분을 상당히 중요하지 않게 다뤘는데, 노래와 춤 숫자의 잠재적인 장면만 깜박이고 극을 연극적으로 표현한 장면은 거의 없었어요. 순수한 극장 애호가라면 Wonka와 The Color Purple이 뮤지컬임을 이해했을 지도 모르지만 평범한 영화관객이 이를 알아차릴 수 있을까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작년 11월, 미 국가에서 'Mean Girls' 뮤지컬 예고편이 올리비아 로드리고의 곡으로 배경 음악이 되어 출시되면서 일이 더 이상해졌습니다. 이 영화의 음악이 아닌 새로운 곡이 사용된 것에 대한 혼란으로 인터넷이 폭발했습니다. NBC 뉴스는 “Mean Girls 영화 뮤지컬 예고편, 음악 부재에 혼란 가중”이라고 보도했고, HuffPost는 “Mean Girls 영화 뮤지컬 예고편, 음악만 빼고 모두 소개”라며 장난기가 섞인 칼럼을 발표했습니다. 분명히, 이 예고편 제작진은 관객들이 이것이 'Mean Girls'의 리메이크라고 믿을 것으로 여겼는데, 결과적으로 레지나 조지가 노래하기 시작할 때 놀랐을 것입니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 # 영화 뮤지컬의 부상
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스크린에서 최초로 말한 말은 뮤지컬에서 나왔어요. 1927년 워너 브라더스는 싱크로된 대화와 음악이 있는 최초의 장편 영화인 『재즈 싱어』를 발표했어요. 이것은 영화 산업을 혁신하고 무성영화에서 "토크픽"으로의 전환을 알리는 중요한 순간이었어요. 영화 속에서 예술가 알 조슨은 "너 아직 아무것도 듣지 않았어"라는 불후의 대사를 외치고 노래와 춤을 시작했어요. 이 일은 관객들을 매혹시킨 업적이었죠.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 ![image](/assets/img/2024-07-14-TheRiseandFallofMovieMusicalsAStatisticalAnalysis_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 뮤지컬 영화의 성공은 그 이야기의 반밖에 되지 않아요. 1937년, 모든 주의를 애니메이션 단편에서 장편 영화로 옮긴 디즈니는 최초로 오리지널 음악을 최초로 도입한 작품, 백설공주와 일곱 난장이에 성공을 거두었어요. 백설공주의 엄청난 성공과 음악의 인기는 디즈니에게 선례를 제시했고, 디즈니 스튜디오는 영화에 음악을 시그니처 스토리텔링 요소로 계속 통합해나갔어요.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-07-14-TheRiseandFallofMovieMusicalsAStatisticalAnalysis_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 영화 뮤지컬의 모든 시대에서 가장 성공한 작품들을 살펴볼 때(실사와 애니메이션 모두), 조정된 박스 오피스로 측정했을 때 디즈니의 지배기간과 브로드웨이 적응의 성공 시대로 나뉘어진 것을 볼 수 있습니다.
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-07-14-TheRiseandFallofMovieMusicalsAStatisticalAnalysis_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1960년대, 1970년대, 1980년대는 디즈니에게 어려웠던 시기였습니다. 그런데 이 시기에 My Fair Lady, Grease, The Sound of Music와 같은 대작 브로드웨이 영화의 성공으로 거대한 인기를 얻었습니다.
 
@@ -73,7 +124,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-07-14-TheRiseandFallofMovieMusicalsAStatisticalAnalysis_8.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1970년대 이래로 디즈니 이외의 몇 개 뮤지컬 작품이 상업적, 비평적 성공을 거두었습니다. 2002년에는 '시카고'가 최우수 작품상을 수상했고, 2016년에는 '라라 랜드'가 5분 동안 최우수 작품상을 수상했으며, '레미제라블'은 러셀 크로우의 최악의 가창력에도 불구하고 많은 수익을 올렸습니다.
 
@@ -83,7 +145,18 @@ isUpdated: true
 
 # 영화 뮤지컬의 쇠락
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 20세기 후반에는 영화 뮤지컬 제작이 급격히 감소했습니다. 디즈니는 매년 1~2편의 애니메이션 뮤지컬을 출시해 왔고 (아마 영원히 그렇게 할 것입니다), 반면 실사 프로젝트의 수는 현저하게 감소했습니다. 1930년대에는 모든 영화 중 약 10%가 뮤지컬이었지만, 오늘날 그 수치는 1% 미만으로 떨어졌습니다.
 
@@ -93,7 +166,18 @@ isUpdated: true
 
 영화 뮤지컬에 대한 온라인 평점을 살펴보면, 1970년대 이후 출시된 영화들의 평가가 계속해서 하락하는 것을 볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 선율 분석은 영화 뮤지컬의 부상과 몰락에 대한 21세기 온라인 리뷰들을 다루고 있어. 주디 가랜드, 진 켈리, 프레드 아스테어와 같은 시대로부터 먼 자리에 기록된 이 온라인 리뷰들은 그 형식의 이상적인 제시(장르로부터 사람들이 기대하는 것)을 확인할 것이야. 라이브 액션 무비 뮤지컬을 생각할 때 나는 오즈의 마법사, 웨스트 사이드 스토리, 싱잉 인 더 레인 같은 대작 스펙터클 영화들을 상상해. 1930년부터 1970년 사이에 발표된 영화의 캐논인 이 작품들은 할리우드의 황금 시대 대규모 예산 영화야 — 스튜디오 사운드 스테이지가 제공하는 극장용 설정에서 번성한 포맷은 영화 기술이 발전함에 따라 적응하고 중요성을 유지하기 어렵게 되었어.
 
@@ -101,7 +185,18 @@ isUpdated: true
 
 현대 무비 뮤지컬은 오늘날의 박스 오피스 환경에서 자리를 잡는 데 어려움을 겪어왔어 — 이는 이 형식에만 해당하는 것은 아니야(로맨틱 코미디와 중간 예산 영화들도 성과가 뒷받침 되지 않았으니까). 통채로 장르가 살아남을 수 있는 지침에는 불행히도 경제적 현실이 있다. 1960년대에는 무비 뮤지컬이 거대한 수익을 보았지만, 20세기 말까지 매출이 급격히 줄어들었어.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![The Rise and Fall of Movie Musicals: A Statistical Analysis - Image 13](/assets/img/2024-07-14-TheRiseandFallofMovieMusicalsAStatisticalAnalysis_13.png)
 
@@ -111,7 +206,18 @@ isUpdated: true
 
 그 결과, 실사 뮤지컬은 어느 정도 중간에서 막힌 상태에 갖혀 있습니다. 시기적절하게 성공을 거두는 정도의 인기를 얻지만 보수주의적인 스튜디오들에게는 표준 프로젝트가 아닙니다. 더 나쁜 점은 뮤지컬에 대한 분란을 일으키는 반응이 할리우드가 이 장르를 좋아하는 정도를 더욱 혼란스럽게 만든다는 점입니다. 일부 사람들은 멋지지 않게 브로드웨이를 싫어하고, 다른 일부는 스트라이샌드와 이디나 멘젤을 숭배합니다(이들이 누군지 이해하지 못했다면, 아마도 전자 카테고리에 속해 있을 것입니다).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전 글에서는 영화 커뮤니티 MovieLens라는 사이트에서 사용자들이 평점과 영화에 태그를 달아 분석한 평가 요소들을 살펴보았습니다. 이 사이트는 사용자들이 1에서 5까지의 등급으로 영화에 평점을 매기도록 허용하며, 이야기, 출연진, 배경, 기술 등의 세부 정보로 영화에 태그를 달도록 장려합니다. 사용자 태그별 등급 차이를 분석할 때, "뮤지컬"은 혼합 평가를 받은 프로젝트들과 관련된 스토리텔링 특성이었습니다.
 
@@ -121,7 +227,18 @@ isUpdated: true
 
 대신, 실사 뮤지컬은 이제 드물어지면서, 장르의 희소성으로 인해 형식에 대한 관심이 줄어드는 악순환을 일으키고 있습니다. 지난 20년 동안 "무비 뮤지컬"에 대한 온라인 검색 양은 현저히 감소했으며, 해밀턴과 La La Land의 영향으로 2016년에 급증한 기간과 스티븐 스필버그의 웨스트 사이드 스토리에 영향을 받아 2021년에 약간 증가한 추세를 보이고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지 태그를 Markdown 형식으로 변경하였습니다.
 
@@ -131,7 +248,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-07-14-TheRiseandFallofMovieMusicalsAStatisticalAnalysis_17.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나의 오빠 여동생은 브로드웨이와 관련된 모든 것에 광적으로 빠져 있습니다. 그래서 저는 작은 동생으로써 그녀가 본 모든 것을 강제적으로 시청했습니다. 따라서, 여러 버전의 레미제라블을 모두 봤고, 록키 호러 픽쳐 쇼를 열 번 이상 시청했으나 (아직 엔딩을 못 봤죠), 많은 브로드웨이 디바들의 이름도 알고 있습니다. 저는 브로드웨이와 영화 뮤지컬 지지자입니다.
 
@@ -141,7 +269,18 @@ isUpdated: true
 
 몇 주 전, 아내와 영화를 보러 갔을 때 악명 높은 비 뮤지컬 '뮨 걸' 예고편을 보았습니다. 브로드웨이를 좋아하지 않는 제 아내는 '뮨 걸' 리메이크 소식에 열광했습니다. 그 순간, 즉시 그것이 사실 뮤지컬일 거라고 전하게 되어 안타까운 기쁨을 느꼈습니다. "왜 그러지?" 심취 했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 But something interesting happened. A few weeks later, my wife surprised me by saying she now wanted to watch the Mean Girls movie. Could this new approach to marketing musical movies be effective? Had the film studios succeeded in stealthily introducing song and dance into the hearts of regular moviegoers? It's a possibility. Last December, Wonka and The Color Purple dominated the box office, both hidden musicals that brought in positive returns, a hopeful (although a bit perplexing) sign for this genre.
 

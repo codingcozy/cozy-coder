@@ -3,17 +3,13 @@ title: "에 대한 탐색적 데이터 분석을 민주화할 것인가요"
 description: ""
 coverImage: "/assets/img/2024-06-19-HowLLMsWillDemocratizeExploratoryDataAnalysis_0.png"
 date: 2024-06-19 03:29
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-HowLLMsWillDemocratizeExploratoryDataAnalysis_0.png
 tag: Tech
 originalTitle: "How LLMs Will Democratize Exploratory Data Analysis"
 link: "https://medium.com/towards-data-science/how-llms-will-democratize-exploratory-data-analysis-70e526e1cf1c"
 isUpdated: true
 ---
-
-
-
-
 
 ## 혹은, 삶이 너무 어렵다고 느낄 때, 클로드와 이야기해보세요
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 우리가 Growth 팀과 분석을 살펴본 결과, 그들은 혼란스러웠습니다. 로지스틱 회귀 계수는 선형이 아닌 척도를 가지고 있어 해석하기 어려웠으며, 가장 예측력이 뛰어난 특징들은 Growth 팀이 쉽게 제어할 수 없는 것들이었습니다. 우리는 다 같이 잠시 깊이 생각해 보고 이에 대한 후속 분석을 위한 작업을 시작했지만, 자주 그랬던 것처럼 두 팀 모두 빨리 다음 활기 넘치는 아이디어로 넘어가버렸습니다. 데이터 과학자는 검색 순위 알고리즘에 대한 중요 작업이 있었고, 실제적으로 Growth 팀은 분석 자체를 쓰레기통에 버리기로 결정했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 운동에 대해 계속 생각 중이에요 — 우리가 너무 일찍 포기했나요? 피드백 루프가 더 타이트했다면 어땠을까요? 두 당사자가 계속 발굴했다면 어땠을까요? 두 번째나 세 번째 시도에서 무엇이 나타났을까요?
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ![image](/assets/img/2024-06-19-HowLLMsWillDemocratizeExploratoryDataAnalysis_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 탐색적 질문이 어떻게 열린 문제에 대한 이해를 향상시키려는지 주목해보세요. 탐색적 분석은 종종 더 많은 주기와 "도메인 전문가"와 실제 분석을 수행하는 사람 사이의 긴밀한 협력을 필요로 합니다. 위 이야기에서는 협력이 충분히 강조되지 않았으며, 피드백 루프가 충분히 짧지 않았으며, 충분한 주기를 할애하지 않았습니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 이것이 분석 공간에서 LLMs가 제공하는 기회입니다. 기술 분석가와 함께 탐색적 분석을 수행할 수 있는 능력이라는 약속입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것이 실제로 어떻게 나타날 수 있는지 살펴보겠습니다. 다음 사례 연구와 데모는 도메인 전문가인 의사 결정자가 데이터를 쿼리하고 시각화할 수 있는 AI 분석가와 효과적으로 협업하는 방법을 보여줍니다. ChatGPT의 4o 모델의 데이터 탐색 경험과 Tableau를 사용한 수동 분석을 비교하여 잠재적인 환각에 대한 오류 점검도 수행할 것입니다.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 이렇게 상상해보세요: 전자 상거래 의류 웹사이트의 바쁜 임원인 당신. 미리 정의된 고수준 KPI들로 이루어진 Exec Summary 대시보드가 있지만 어느 날 아침, 보시기에는 문제가 있는 것 같습니다. 월간 마케팅 수익이 45% 감소했지만 왜 그런지 바로 알기 어렵습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-19-HowLLMsWillDemocratizeExploratoryDataAnalysis_2.png)
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 이러한 개방형 질문에 대한 답을 제공하려면, 중간 복잡도의 다변량 분석을 수행해야 합니다. 이는 AI 분석가가 도와줄 수 있는 정확한 유형의 연습입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 진단 분석
 
@@ -73,7 +124,18 @@ isUpdated: true
 
 총 수익을 다양한 입력 지표로 분해:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 총 메시지 발송 횟수: 메시지를 더 적게 보냈나요?
 - 오픈률: 수신자들이 메시지를 열었나요? 즉, 메시지 제목에 문제가 있었나요?
@@ -87,7 +149,18 @@ isUpdated: true
 
 이 경우에는 LLM이 이 두 시기 동안에 보낸 메시지 유형에 큰 차이를 식별할 수 있었습니다. 특히 7월에 진행된 50% 할인 세일이 8월에는 진행되지 않았다는 점을 확인했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Ad Hoc Data Visualization
 
@@ -97,7 +170,18 @@ isUpdated: true
 
 이러한 도구들은 파이썬 라이브러리를 활용해서 정적 데이터 시각화뿐만 아니라 대화식 차트까지도 생성하고 렌더링할 수 있어요. 자연어를 통해 이러한 시각화를 조정하고 반복하는 능력은 매우 원활해요. 코드 모듈, 이미지 렌더링, 대화식 차트 요소의 도입으로, 채팅 인터페이스는 주피터 노트북으로 대중화된 익숙한 "노트북" 형식과 유사해지고 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가끔 몇 가지 프롬프트만으로도 Tableau와 같은 데이터 시각화 도구의 고급 사용자인 것처럼 데이터 시각화를 쉽게 설정할 수 있습니다. 이 경우, Tableau의 듀얼 축 차트 작동 방법을 배우려고 도움 문서를 참조할 필요조차 없었습니다.
 
@@ -107,7 +191,18 @@ isUpdated: true
 
 # 계절성 및 예측
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "새로운 도착 상품"이 인기가 있어 보이는 것 같은데, 다음 달에 반드시 출시해야 할 새로운 도착 상품 유형은 무엇인가요? 9월이 다가오고 있으며, 이 시기에 고객 구매 패턴이 어떻게 변화하는지 알고 싶습니다. 어떤 상품 카테고리가 증가할 것으로 예상되나요? 감소할 것으로 예상되나요?
 
@@ -117,7 +212,18 @@ isUpdated: true
 
 # Market Basket Analysis
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 달에 어떤 제품 카테고리가 증가할 가능성이 높은지 알았으니, 몇 가지 교차 판매 추천을 더 구체화하고 싶을 수도 있습니다. 그래서, 남성 운동용 아우터웨어 제품이 가장 큰 증가를 보일 예정이라면, 이 제품들과 가장 일반적으로 함께 구매되는 다른 카테고리는 어떻게 확인할 수 있을까요?
 
@@ -127,7 +233,18 @@ isUpdated: true
 
 위의 데모는 LLMs가 대규모 데이터 기반 의사 결정을 지원하는 방법의 몇 가지 예를 보여줍니다. 주요 플레이어들은 이 기회를 확인했으며, 생태계는 빠르게 진화하여 LLMs를 분석 워크플로에 통합하고 있습니다. 다음을 고려해보세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 작년 OpenAI가 "코드 인터프리터" 베타 버전을 출시했을 때, 이 기능은 빠르게 "고급 데이터 분석"으로 이름이 변경되었으며 초기 채택자들이 이 기능을 사용하는 방식에 부합하도록 조정되었습니다.
 - GPT4o를 통해 OpenAI는 이제 상호작용 가능한 차트 렌더링을 지원하며, 색상 코딩 변경, 마우스 호버 시 툴팁 렌더링, 차트 정렬/필터링, 차트 열 선택 및 계산 적용 등의 기능을 제공합니다.
@@ -141,7 +258,18 @@ isUpdated: true
 
 LLM이 분석에 대한 주요 장점은...
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 자연어를 코드로 변환하기(Python, R, SQL)
 - 데이터셋을 지능적으로 정리하기
@@ -153,7 +281,18 @@ LLM이 분석에 대한 주요 장점은...
 
 규모에 맞게 AI 분석가들이 기업에서 채택하는 가장 큰 장애물은 데이터 개인 정보 보호에 대한 우려일 것입니다. 이러한 우려는 다양한 방법으로 성공적으로 해결될 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주요 LLM 공급업체들은 견고한 개인정보 보호 정책을 시행 중이지만, 데이터 공유는 주요 걱정 요소가 될 것입니다. 그러나 이미 탐구 중인 해결책들이 있습니다. LLM 공급업체들은 향상된 개인정보 보호 및 보안 조치가 적용된 전용 인스턴스를 실험하기 시작했습니다. 다른 해결책으로는 API를 통해 데이터를 공유할 때 암호화/복호화하거나 더미 데이터를 공유하고 코드 생성을 위해 LLM을 사용하는 등 여러 방법이 있을 수 있습니다.
 
@@ -163,7 +302,18 @@ LLM 공급업체와 클라우드 데이터베이스 공급업체들 간의 수�
 
 주요 LLM 공급업체들은 높은 속도와 정확도로 성능을 개선하고 있습니다. 전문화와 선택적 맥락(기억, 도구 접근 및 좁은 지침)에서 보다 특화된 분석 사용 사례가 혜택을 받을 것으로 기대됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기업들은 보다 깊은 통합과 비용 절감이 발생함에 따라 LLM 기반의 분석에 투자할 동기를 얻게 될 것입니다.
 
@@ -173,7 +323,18 @@ BI 팀은 분석 요청에 대한 서비스보다는 기반 데이터 아키텍�
 
 한 번 LLM이 일정 수준의 조직적 신뢰를 얻게 되면, 분석은 대부분 자체 서비스가 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "데이터 사전"은 오랫동안 BI 기관에게는 보조적인 관심사였지만, 앞으로는 AI 분석가를 활용하고자 하는 모든 기관에게 필수 요소가 될 것입니다.
 
@@ -183,7 +344,18 @@ LLM의 능력을 통해 복잡한 데이터 변환을 실시간으로 수행할 
 
 여기서의 반론은 raw 데이터 집합이 더 크다는 것이고, 따라서 입력으로 전송해야 하는 토큰의 양이 많아지므로 더 높은 비용이 발생할 것입니다. 이것은 중요한 트레이드오프이며, leverage LLM API에 대한 비용 모델에 좌우됩니다."
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 음성 기술은 Siri나 Alexa와 같은 음성 어시스턴트를 통해 실은 크게 사용되지 않아 왔습니다. 그러나 GPT 4o의 출시와 실시간 대화형 음성 기능을 고려하면, 음성 상호작용이 주류로 받아들여지게 될 것입니다.
 
@@ -191,7 +363,18 @@ LLM의 능력을 통해 복잡한 데이터 변환을 실시간으로 수행할 
 
 인간의 뇌가 시각 정보를 처리하는 데 다른 매체보다 효율적이라는 것은 잘 알려져 있습니다. 탐색적 분석의 사용자 경험은 음성/시각 패턴을 따르게 되며, 인간이 질문을 하고 AI 분석가가 가능한 데에서 정보를 시각화할 것으로 예상됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가장 효율적인 LLM 분석 시스템은 한 제공업체에서 여러 모델을 활용하여 특정 작업에 필요한 가장 단순한 모델을 지혜롭게 사용함으로써 토큰 비용을 절약할 수 있습니다.
 
@@ -201,7 +384,18 @@ LLM 제공업체가 지속적으로 새로운 모델을 출시함에 따라 모�
 
 LLM의 컨텍스트 창 크기는 입력으로 전달할 수 있는 정보 양을 결정합니다. 데이터 분석과 같은 RAG (검색 증강 생성) 사용 사례의 경우 특히 높을 수 있습니다. 더 큰 컨텍스트 창은 더 많은 정보를 전달하고 더 긴 대화 교환을 가능하게 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금은 Google의 Gemini 1.5 모델이 LLM 중에서 가장 큰 context window을 가지고 있습니다.
 
@@ -211,7 +405,18 @@ LLM의 컨텍스트 창 크기는 입력으로 전달할 수 있는 정보 양�
 
 분석용 LLM을 실험해 보고 싶다면 초기 설정이 필요합니다. 최상의 성능을 얻고 일반적인 함정을 피하는 몇 가지 팁을 읽어보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 초기 설정
 
@@ -222,7 +427,18 @@ LLM의 컨텍스트 창 크기는 입력으로 전달할 수 있는 정보 양�
 - 이벤트 데이터 세트 예시
 - 마케팅 성과 데이터 세트 예시
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 데이터 연결
 
@@ -234,7 +450,18 @@ LLM과 데이터를 공유하는 방법은 사용 중인 모델에 따라 다양
 
 # 데이터 개인 정보 보호
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금은 Meta의 Llama와 같은 오픈 소스 LLM을 설치하고 로컬에서 실행하는 경우를 제외하고는, 데이터를 LLM으로 보내려면 위의 방법 중 하나를 사용해야 합니다. 이로 인해 몇 가지 명백한 보안 및 데이터 개인정보에 대한 우려가 생깁니다.
 
@@ -244,7 +471,18 @@ LLM과 데이터를 공유하는 방법은 사용 중인 모델에 따라 다양
 
 본문에 언급된 모델들의 개인 정보 보호 정책을 확인할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - OpenAI: [OpenAI Privacy Policy](https://openai.com/policies/privacy-policy/)
 - Anthropic: [Anthropic Privacy and Legal](https://support.anthropic.com/en/collections/4078534-privacy-legal)
@@ -256,7 +494,18 @@ LLM과 데이터를 공유하는 방법은 사용 중인 모델에 따라 다양
 
 내 경험상 AI 분석가에게 다음과 같은 지침이 유용할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 신원: LLM에게 자신의 신원을 알려주세요. 예시: "당신은 전문 비즈니스 인텔리전스 분석가로서 전자상거래 의류 소매업체에 대한 질문을 대답할 것입니다."
 - 데이터 세트: 일관된 데이터 세트를 사용할 계획이 있다면, LLM에게 데이터 세트의 성격에 대한 추가 콘텐츠를 제공하는 것이 좋습니다. 이는 데이터 사전을 보완하고 데이터에 대한 LLM의 이해를 명확히 합니다. 예시: "이 데이터 세트에는 2022년 7월부터 8월까지 기록된 전자상거래 의류 소매업체의 모든 구매 데이터가 포함되어 있습니다. 각 행은 하나의 구매 이벤트를 나타내며, 구매된 제품 및 구매를 한 고객에 대한 데이터가 포함되어 있습니다."
@@ -270,7 +519,18 @@ LLM과 데이터를 공유하는 방법은 사용 중인 모델에 따라 다양
 
 처리 시간: GPT는 때로는 응답 생성에 꽤 오랜 시간이 걸릴 수 있습니다. 위의 데모는 길이와 명확성을 위해 편집되었습니다. 시스템이 처리하는 총 부하에 따라 LLM이 데이터를 분석하는 동안 조금만 기다려야 할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 에러 메시지: LLM(언어 모델) 분석에 처음 실험을 시작할 때 사용자 지정 지침을 조정하고 프롬프트를 개선하는 과정에서 빈번한 에러 메시지를 만날 수 있습니다. 종종 LLM이 에러를 만나면 자동으로 재시도하여 성공적으로 정상 진행될 수 있습니다. 다른 경우에는 단순히 실패할 수도 있습니다. 이럴 때는 사용 중인 코드를 검토하고 직접 문제 해결을 해야 할 수도 있습니다.
 
@@ -280,7 +540,18 @@ LLM과 데이터를 공유하는 방법은 사용 중인 모델에 따라 다양
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LLM(Large Language Models)은 질의 및 시각화 워크플로를 자동화하여 분석 영역을 근본적으로 뒤바꿀 것으로 예상됩니다. 다음 2-3년 동안 LLM을 분석 워크플로에 통합하고 BI팀을 이 새로운 기술을 지원하는 방향으로 재정렬하는 기관들은 전략적 의사 결정에서 큰 장점을 얻을 것입니다. 여기에 있는 잠재적 가치는 데이터 개인 정보 보호와 사용자 경험 주변의 초기적인 도전을 극복하기에 충분합니다.
 

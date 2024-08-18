@@ -3,7 +3,7 @@ title: " Docker로 Apache Spark와 Minio를 사용하여 Apache Iceberg 활용�
 description: ""
 coverImage: "/assets/img/2024-06-22-UsingApacheIcebergwithApacheSparkandMinioDocker_0.png"
 date: 2024-06-22 17:09
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-UsingApacheIcebergwithApacheSparkandMinioDocker_0.png
 tag: Tech
 originalTitle: "🖥️Using Apache Iceberg with Apache Spark and Minio — Docker"
@@ -11,19 +11,26 @@ link: "https://medium.com/towardsdev/%EF%B8%8Fusing-apache-iceberg-with-apache-s
 isUpdated: true
 ---
 
-
-
-
-
 <img src="/assets/img/2024-06-22-UsingApacheIcebergwithApacheSparkandMinioDocker_0.png" />
 
 이 게시물에서는 Apache Iceberg(데이터 테이블 형식), 분산 처리 엔진인 Apache Spark, 고성능 객체 저장 솔루션인 Minio를 결합하는 방법에 대해 탐구합니다. 주요 초점은 이러한 구성 요소를 Docker 컨테이너 내에 설정하여 통제된 환경에서 격리된 환경을 제공하는 데 있습니다. 이러한 기술을 결합하여 ACID 트랜잭션, 스키마 진화 및 Minio 내에서 효율적인 데이터 파티셔닝을 통한 효율적인 데이터 관리 기능을 확보할 수 있습니다.
 
 # 아키텍처 개요
 
-<img src="https://miro.medium.com/v2/resize:fit:1400/1*gM-qHwR03S6IEh32mgJpjA.gif" />  
+<img src="https://miro.medium.com/v2/resize:fit:1400/1*gM-qHwR03S6IEh32mgJpjA.gif" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 컴포넌트 개요 이론적 개요📖
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 - Apache Iceberg: 차세대 데이터 테이블 형식
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 데이터 레이크 및 데이터 웨어하우스용으로 설계됨: Iceberg는 대규모 데이터의 복잡성을 처리하도록 특별히 구축되었습니다. 데이터 레이크와 데이터 웨어하우스 내에서 강력한 데이터 관리 기능을 제공하면서 분석 워크로드의 성능을 최적화합니다.
 - ACID 트랜잭션: Iceberg는 ACID(원자성, 일관성, 고립성, 지속성) 트랜잭션을 지원하여 동시 쓰기 시나리오에서도 데이터 무결성과 일관성을 보장합니다. 이는 동일한 데이터에 여러 애플리케이션이나 프로세스가 동시에 쓰기를 하는 경우에 데이터 유효성을 유지하고 데이터 손상을 방지하는 데 중요합니다.
@@ -52,7 +70,18 @@ isUpdated: true
 - 머신러닝 및 스트림 처리: 전통적인 분석 이상으로 Spark는 머신러닝 파이프라인 및 실시간 데이터 처리까지 확장됩니다. Spark는 TensorFlow, PyTorch와 같은 인기있는 머신러닝 라이브러리를 효율적인 모델 훈련 및 배포를 위해 통합합니다. 또한 Apache Flink와 같은 스트림 처리 프레임워크를 지원하여 거의 실시간 데이터 분석을 수행할 수 있습니다.
 - Iceberg와의 원활한 통합: Spark는 네이티브 Iceberg 지원을 제공하여 Spark 애플리케이션에서 Iceberg 테이블을 직접 읽고 쓰기 및 쿼리할 수 있습니다. 이를 통해 Spark 워크플로우 내에서 데이터 관리를 간편하게 할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. Minio: 고성능 객체 저장 서버
 
@@ -65,7 +94,18 @@ isUpdated: true
 
 4. Docker 통합
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-UsingApacheIcebergwithApacheSparkandMinioDocker_4.png" />
 
@@ -76,7 +116,18 @@ isUpdated: true
 
 도커를 활용하면 이동성이 뛰어나고 격리된 개발 또는 프로덕션 환경을 구축할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 도커 컴포즈 구성
 
@@ -124,7 +175,18 @@ volumes:
 
 # Docker Compose 파일 설명
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Minio 서비스: Minio 서버를 실행하여 포트 9000(API)과 9001(콘솔)을 노출합니다. Minio 데이터는 minio_data라는 이름의 Docker 볼륨에 저장됩니다.
 - Spark Master 서비스: Delta Lake 및 Iceberg를 위한 패키지가 포함된 Spark 마스터 노드를 실행합니다. Spark UI 및 마스터 통신을 위한 포트 7077 및 8080이 노출됩니다.
@@ -138,7 +200,18 @@ volumes:
 docker-compose up -d
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 서비스가 정상적으로 작동 중이거나 문제가 발생한 경우 알림이 표시됩니다 (문제가 발생하지 않기를 희망합니다 😄)
 
@@ -148,7 +221,18 @@ docker-compose up -d
 
 먼저 http://localhost:9001/browser를 방문하여 아래 이미지를 확인해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-UsingApacheIcebergwithApacheSparkandMinioDocker_7.png" />
 
@@ -158,7 +242,18 @@ docker-compose up -d
 
 다음의 Python 코드는 Minio와 상호 작용하고 Iceberg를 사용하여 Spark를 사용하는 방법을 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Minio 클라이언트 초기화
 
@@ -176,7 +271,18 @@ client = Minio(
 
 ## 설명
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Minio 초기화: 이 코드는 Minio 클라이언트를 초기화하여 127.0.0.1의 9000 포트에서 실행 중인 Minio 서버에 연결합니다. 액세스 키와 시크릿 키로 minioadmin을 사용하고, SSL을 사용하지 않는 연결이므로 secure를 False로 설정합니다.
 
@@ -191,7 +297,18 @@ if not found:
     client.make_bucket(minio_bucket)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 설명
 
@@ -202,7 +319,18 @@ if not found:
 
 Minio에 지정된 버킷에 CSV 파일을 업로드합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 목적지_파일 = 'data.csv'
@@ -216,8 +344,18 @@ client.fput_object(minio_bucket, 목적지_파일, 원본_파일)
 
 ## 코드 실행 후🎦
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/1*rZUjqaNCls7_73eojd2RQw.gif)
 
@@ -241,7 +379,18 @@ iceberg_builder = SparkSession.builder \
     .enableHiveSupport()
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 설명
 
@@ -257,10 +406,21 @@ iceberg_builder = SparkSession.builder \
 
 Iceberg 테이블과 상호 작용하기 위한 Spark 세션을 빌드합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-iceberg_spark = iceberg_builder.getOrCreate()
+iceberg_spark = iceberg_builder.getOrCreate();
 ```
 
 ## 설명
@@ -269,20 +429,41 @@ iceberg_spark = iceberg_builder.getOrCreate()
 
 # 데이터 로드
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스파크 데이터프레임으로 CSV 파일을 읽습니다.
 
 ```js
-df = iceberg_spark.read.format('csv').option('header', 'true').option('inferSchema', 'true').load(source_file)
+df = iceberg_spark.read.format("csv").option("header", "true").option("inferSchema", "true").load(source_file);
 ```
 
 ## 설명
 
 - CSV 파일 읽기: ./data/data.csv 파일을 스파크 데이터프레임으로 로드합니다. header 옵션은 첫 번째 행을 열 이름으로 사용하도록 설정되었고, inferSchema 옵션은 데이터 유형을 자동으로 추정하도록 설정되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 아이스버그 테이블 위치 정의
 
@@ -294,7 +475,18 @@ iceberg_table_location = f"s3a://{minio_bucket}/iceberg_data/default"
 
 ## 설명
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Iceberg Table 위치: Minio에 Iceberg 테이블 데이터를 저장하는 데 사용되는 S3 경로를 정의합니다. 경로는 버킷 이름과 하위 디렉터리 iceberg_data/default을 사용하여 구성됩니다.
 
@@ -309,7 +501,18 @@ df.write \
     .saveAsTable("iceberg_table_name")  # Iceberg 테이블의 이름
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 설명
 
@@ -319,7 +522,18 @@ df.write \
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*oUTGnwgU4yk2nG31-kuIWA.gif" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Iceberg 테이블에서 읽기
 
@@ -333,7 +547,18 @@ iceberg_df.show()
 
 ## 설명
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 아이스버그 테이블 읽기: 아이스버그 테이블에서 데이터를 읽어와 DataFrame에로드합니다.
 - 스키마 출력: DataFrame의 스키마를 표시합니다.
@@ -345,7 +570,18 @@ iceberg_df.show()
 
 # 전체 코드🖥️
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 from minio import Minio
@@ -416,8 +652,18 @@ iceberg_df.show()
 
 # Summary
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 설정을 사용하면 Spark 및 Iceberg로 대규모 데이터를 효율적으로 관리하고 처리할 수 있고, 확장 가능한 객체 저장소로 Minio를 사용할 수 있습니다. Docker를 활용하면 이러한 구성 요소의 배포와 관리가 간편하고 재현 가능해집니다.
 

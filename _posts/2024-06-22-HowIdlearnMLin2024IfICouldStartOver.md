@@ -3,17 +3,13 @@ title: "2024년에 머신러닝을 처음 시작한다면 이렇게 배우세요
 description: ""
 coverImage: "/assets/img/2024-06-22-HowIdlearnMLin2024IfICouldStartOver_0.png"
 date: 2024-06-22 20:10
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-HowIdlearnMLin2024IfICouldStartOver_0.png
 tag: Tech
 originalTitle: "How I’d learn ML in 2024 (If I Could Start Over)"
 link: "https://medium.com/@iamdgarcia/how-id-learn-ml-in-2024-if-i-could-start-over-105e10f60362"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-22-HowIdlearnMLin2024IfICouldStartOver_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 함께 시작해볼까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Python
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 Python은 기계 학습 분야의 거의 모든 사람들에게 가장 많이 사용되는 프로그래밍 언어이며, 여기서 언급된 모든 후속 단계의 기초 역할을 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드 목록이나 사전과 같은 개념에 익숙하지 않은 초보자들이나 if-else 문이나 for 루프와 같은 기본적인 프로그래밍 구조를 아직 잘 익히지 않은 사람들에게 특히 유용합니다. 내 의견으로는, 리스트 내포나 클래스 상속과 같은 개념을 이해하는 것도 중요합니다.
 
@@ -43,7 +61,18 @@ Python은 기계 학습 분야의 거의 모든 사람들에게 가장 많이 �
 
 Python으로 ML에 뛰어들어 재미있게 시작해보세요. 하지만 아직 세부 사항에 깊이 빠지지는 마세요. 분명히 수학 부분은 결국 필요해지겠지만, 지금은 너무 걱정할 필요가 없습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가끔, "어차피 팬시한 Python 라이브러리가 모든 작업을 대신 처리해 주니까 수학이 필요 없겠지!"라고 생각할 수 있을 거예요. 그런데 사실 그게 어느 정도 맞아요. 하지만 대부분의 머신러닝 개념을 제대로 이해하려면 미적분학, 선형 대수학, 그리고 확률 같은 기본 수학 개념을 이해해야 해요.
 
@@ -53,7 +82,18 @@ Python으로 ML에 뛰어들어 재미있게 시작해보세요. 하지만 아�
 
 또는, 물론 대학에 가서 기초 수학 수업을 듣는 방법도 있죠. 요령을 선택해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내가 신경망을 위한 내 절대적인 즐겨찾기 수학 자료를 나중에 소개할게. 그런데 지금은 그냥 기억해둬, 네가 모든 수학 강좌를 서둘러 이수할 필요는 없어. 천천히 하거나 그렇지 않으면 마음을 먹지 않게 만들어 버리고 모든 재미를 뺏어갈 거야.
 
@@ -63,7 +103,18 @@ Python으로 ML에 뛰어들어 재미있게 시작해보세요. 하지만 아�
 
 # ML 개발자 스택
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 좋아, 파이썬 기본 사항을 알고 있군요. 그러면 다음 단계는 무엇일까요? 아직 시도하지 않은 경우, 주피터 노트북과 판다스, 넘파이, 맷플롯립과 같은 멋진 도구들을 활용해 보는 것이 좋을 거예요.
 
@@ -73,7 +124,18 @@ Python으로 ML에 뛰어들어 재미있게 시작해보세요. 하지만 아�
 
 이제 판다스에 대해 이야기해봐요. 판다스는 ML에서 자주 마주하게 될 테이블 형식의 데이터를 다루는 데 탁월한 라이브러리에요. 판다스를 사용하면 이러한 유형의 데이터를 손쉽게 조정하고 시각화할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 라이브러리들은 주피터 노트북과 함께 사용될 때 마치 빵과 버터처럼 필수적이에요. 여러분의 머신러닝 여행에 꼭 필요한 요소입니다.
 
@@ -83,7 +145,18 @@ Python으로 ML에 뛰어들어 재미있게 시작해보세요. 하지만 아�
 
 # 머신러닝 배우기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금까지 잘 따라오셨죠? 이동속도를 유지하고 계셨다면, 시작 점과 투자한 시간에 따라 몇 주 동안 진행해 왔을 것입니다.
 
@@ -93,7 +166,18 @@ Python으로 ML에 뛰어들어 재미있게 시작해보세요. 하지만 아�
 
 이 시리즈에서는 sci-kit learn과 TensorFlow와 같은 멋진 머신 러닝 프레임워크에 깊이 파고들 것입니다. 제가 약간 파이토치를 선호하는 편인데요 — 제 개인 취향일 뿐입니다. 하지만 멋진 점은, 한 프레임워크를 잘 이해하게 되면 다른 것을 배우는 것도 그리 어렵지 않습니다. 이 코스는 정말 가치 있는 골드이며, 놀랍게도 무료입니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 그저 초보자를 위한 일반적인 강좌가 아닙니다. 필수적인 머신러닝 개념들이 가득 담겨 있어요. 이런 내용들은 머신러닝 채용 면접을 통과하는 데 필요한 내용들입니다.
 
@@ -103,7 +187,18 @@ Python으로 ML에 뛰어들어 재미있게 시작해보세요. 하지만 아�
 
 Huggingface에 더 궁금하다면, 특히 NLP 분야에서, Huggingface의 NLP 강좌가 좋은 선택일 것입니다. 이 강좌는 고급 NLP 주제에 더 깊이 파고들기에 완벽합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서 이것들이 내 추천 중 상위 몇 과목이야 — 너의 시간과 노력을 아주 값진 것으로 여기게 될 거야.
 
@@ -113,7 +208,18 @@ Huggingface에 더 궁금하다면, 특히 NLP 분야에서, Huggingface의 NLP 
 
 일단, Kaggle에 들러봐. 그 곳은 모든 종류와 크기의 데이터 과학자들을 위한 놀이터 같은 곳이야. 영감을 유지하기 위해 쉬운 챌린지부터 시작해봐. 상금이 있는 더 치열한 챌린지로 곧 바로 뛰어들고 싶을 수도 있지만, 네 기대를 조절해야 해. 우승은 쉽지 않고 보통 상당한 계산 자원이 필요해.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 카글에서 경험 쌓으신 후에는, 거대한 도전에 대비하세요: 연구 논문을 재구현하고 결과를 복제하는 것! 네, 힘들지만 배우는 보상은 커요. 이를 성취하면 머신러닝 포트폴리오를 극적으로 빛나게 할 수 있어요. PapersWithCode를 참고하여 최첨단 모델과 그들의 구현을 확인해보세요.
 
@@ -127,6 +233,17 @@ Huggingface에 더 궁금하다면, 특히 NLP 분야에서, Huggingface의 NLP 
 - 제 최신 글을 읽어보세요: https://medium.com/@iamdgarcia
 - 구독하여 새 글이 올라올 때마다 이메일을 받아보세요. 링크는 여기에
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 주제에 대해 더 읽고 싶다면 다음 자료를 참고해보세요:

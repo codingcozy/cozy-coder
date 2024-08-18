@@ -3,17 +3,13 @@ title: "Python LEGB 규칙이란 왜 중요한가"
 description: ""
 coverImage: "/assets/img/2024-07-14-WhatisthePythonLEGBRuleWhyItisImportant_0.png"
 date: 2024-07-14 01:50
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-14-WhatisthePythonLEGBRuleWhyItisImportant_0.png
 tag: Tech
 originalTitle: "What is the Python LEGB Rule? Why It is Important?"
 link: "https://medium.com/towards-data-science/what-is-the-python-legb-rule-why-it-is-important-1fdcfecfd62f"
 isUpdated: true
 ---
-
-
-
-
 
 다른 프로그래밍 언어들과 마찬가지로, 파이썬에도 변수와 함수가 정의된 다양한 스코프가 있습니다. 물론, 이러한 스코프 간의 동작을 결정하는 몇 가지 규칙과 계층 구조가 존재합니다. 예를 들어, 함수 내에서 정의된 변수를 외부에서 접근할 수 없습니다.
 
@@ -23,9 +19,20 @@ isUpdated: true
 
 # 1. 파이썬의 LEGB 규칙이란?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-![What is the Python LEGB Rule and Why It is Important](/assets/img/2024-07-14-WhatisthePythonLEGBRuleWhyItisImportant_0.png) 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+![What is the Python LEGB Rule and Why It is Important](/assets/img/2024-07-14-WhatisthePythonLEGBRuleWhyItisImportant_0.png)
 
 Before diving into any demonstrations, let's first get a clear understanding of what L (Local), E (Enclosing), G (Global), and B (Built-in) mean in Python. These are the four scopes of objects in Python that have crucial roles during compiling and runtime. In this segment, I'll give a simple example for each term.
 
@@ -33,7 +40,18 @@ Feel free to skip this part if you're already familiar with them.
 
 ## 1.1 Local Scope
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이썬 초심자이고 "로컬 스코프(local scope)" 개념에 대해 들어본 적이 없다면 걱정하지 마세요. 확실히 로컬 스코프에서 변수를 사용해 본 적이 있을 거에요. 그것이 바로 "로컬 변수(local variable)"입니다. 매우 전형적으로, 함수 내부의 변수는 로컬 변수입니다.
 
@@ -47,7 +65,18 @@ def func():
 
 ![Click here to view the image](/assets/img/2024-07-14-WhatisthePythonLEGBRuleWhyItisImportant_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 지역 범위에 어떤 객체가 있는지 확인하는 꿀팁이 있어요. 하지만 이건 해당 범위 안에서만 확인할 수 있어요 (예: 함수 내부). 그것은 locals() 함수를 실행하는 것이죠.
 
@@ -63,7 +92,18 @@ func()
 
 ## 1.2 Enclosing Scope
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **내부/외부 함수와 파이썬 LEGB 규칙**
 
@@ -79,7 +119,18 @@ Markdown 형식으로 이미지를 첨부했습니다. 이미지를 확인해 �
 
 ![LEGB Rule](/assets/img/2024-07-14-WhatisthePythonLEGBRuleWhyItisImportant_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 저수준 함수들은 보통 흔하지 않아요. 그래서 이 글의 후반부에서 이 주제에 집중할 섹션이 있을 거예요.
 
@@ -94,7 +145,18 @@ def func():
     print(global_var)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **1.4 내장 범위**
 
@@ -104,7 +166,18 @@ def func():
 print(len('abc'))
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이썬의 많은 내장 함수들은 사실 널리 알려지지 않고 사용되지 않는데, 그중 일부는 꽤 유용합니다. 관심이 있다면 아래의 기사를 확인해보세요.
 
@@ -114,7 +187,18 @@ print(len('abc'))
 
 LEGB 네임스페이스에 대해 이해한 후에 알아야 할 가장 중요한 규칙은 이름 해결 순서입니다. 즉, 파이썬이 변수 이름을 만나면 먼저 지역 범위를 찾은 다음, 감싸는 범위, 전역 범위, 마지막으로 내장 범위를 찾습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## LEGB 이름 해석 순서를 시연해보겠습니다.
 
@@ -125,11 +209,11 @@ a = "Global"
 
 def outer():
     a = "Enclosing"
-    
+
     def inner():
         a = "Local"
         print("a - inner:", a)
-    
+
     inner()
     print("a - outer:", a)
 
@@ -139,7 +223,18 @@ print("a - global:", a)
 
 ![LEGB rule](/assets/img/2024-07-14-WhatisthePythonLEGBRuleWhyItisImportant_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 inner() 함수 안에서 변수 a를 출력할 때, Python은 먼저 지역 스코프를 확인합니다. 그리고 지역 스코프에 a 변수가 있기 때문에, 다른 스코프에서의 a 변수가 있더라도 우리는 지역 버전을 얻게 됩니다.
 
@@ -149,7 +244,18 @@ outer 함수를 호출한 후, 변수 a를 다시 출력하고 싶을 때, 전�
 
 ## 내장 스코프가 마지막 순서에 있는 것을 어떻게 증명할 수 있을까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 예제에서는 내장 범위가 없었습니다. 이를 수행하기 위해 또 다른 코드 예제를 작성할 수 있습니다.
 
@@ -167,7 +273,18 @@ test_print()
 
 이 test_print() 함수에서 print라는 변수를 정의하고 문자열을 할당했습니다. 그런 다음 print() 함수를 호출하면 이제 print가 문자열이므로 함수가 아니기 때문에 예외가 발생합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 예외 블록에서 print() 함수를 사용할 수 있는 이유가 궁금하시다구요? globals()[`__builtins__`] 리스트에서 내장 함수 print()을 명시적으로 가져와서 덮어쓴 적이 있기 때문이랍니다. 그래서 내장 print() 함수는 항상 존재하지만, 우리가 로컬 변수를 정의해서 그걸 먼저 찾고 사용하기 때문에 그렇지요.
 
@@ -177,7 +294,18 @@ test_print()
 
 LEGB 규칙의 순서를 이해하면 성능 고려 사항을 이해하기 쉬워집니다. 즉, 가능한 경우 지역 변수 대신 전역 변수를 사용하는 것이 좋습니다. 이렇게 하면 프로그램을 빠르게 만드는 데 도움이 될 거예요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 아래 코드에서는 변수에 대해 일부 계산을 수행하는 함수가 정의되어 있습니다. 첫 번째 버전은 전역 변수를 사용하고, 두 번째 버전은 지역 변수를 사용합니다.
 
@@ -203,7 +331,18 @@ def sum_numbers_local():
 
 ![Performance Test](/assets/img/2024-07-14-WhatisthePythonLEGBRuleWhyItisImportant_8.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지역 변수를 사용하면 성능이 약 30% 향상된다는 것을 보여줍니다. 그러나 위 예제에서는 함수 내에서 전역 변수에 명시적으로 액세스하기 위해 전역 키워드를 사용해야 합니다. 이는 보통의 사용 사례에서는 매우 흔하지는 않습니다. 이제 좀 더 일반적인 사례를 살펴보겠습니다.
 
@@ -219,7 +358,18 @@ for i in range(100):
     results.append(i * factor)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단순한 for-loop은 쉽게 리스트 컴프리헨션으로 다시 작성할 수 있어요. 아래와 같이 수정해보세요.
 
@@ -228,11 +378,22 @@ factor = 2
 results = [i * factor for i in range(100)]
 ```
 
-성능을 비교해보면, 매우 다를 수 있어요. 
+성능을 비교해보면, 매우 다를 수 있어요.
 
 ![image](/assets/img/2024-07-14-WhatisthePythonLEGBRuleWhyItisImportant_9.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리스트 컴프리헨션의 성능이 더 좋은 이유 중 하나는 리스트 컴프리헨션이 변수 i를 로컬 변수로 컴파일하기 때문이라고 합니다. 한편 for 루프 내의 변수 i는 전역 변수로 작용한다는 차이가 있습니다.
 
@@ -242,7 +403,18 @@ results = [i * factor for i in range(100)]
 
 ![Image](/assets/img/2024-07-14-WhatisthePythonLEGBRuleWhyItisImportant_10.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제, 이미 알고 있는 LEGB 규칙을 바탕으로 디자인 영향과 최적의 실천 방법을 살펴보겠습니다.
 
@@ -252,7 +424,18 @@ results = [i * factor for i in range(100)]
 
 어플리케이션에서 아이템 목록을 필요로 한다고 가정해보겠습니다. 몇 가지 로직을 함수에 캡슐화해야 합니다. 간단하게 설명하면 목록에 아이템을 추가하는 함수와 모든 아이템을 지우는 함수가 필요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 items = []
@@ -278,7 +461,18 @@ The code snippet above is error-free and will run smoothly. However, when incorp
 
 For instance, unintended modifications may occur if the items list is accessed elsewhere. Additionally, if these functions are utilized in multiple locations, concurrency issues may arise.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서, 아래와 같이 클래스를 정의하는 것을 권장합니다. 그러면 모든 위험 요소가 완화됩니다.
 
@@ -307,24 +501,43 @@ print(manager.items)
 
 ## 언제 주변 네임스페이스를 사용해야 할까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LEGB 규칙 중에서, enclosing namespace은 가장 일반적이지 않을 수도 있습니다. 실제로, 이것은 전역 변수의 사용을 더욱 최소화하는 데 도움이 될 수 있는데요.
 
 예를 들어, 함수가 호출된 횟수를 세는 "카운터"를 정의하고 싶다고 가정해보죠. 이 경우, 로컬 변수만으로는 이 요구사항을 해결할 수 없습니다. enclosing namespace에 대한 지식이 없다면, 다음과 같이 전역 변수를 사용해야 할 수 있습니다.
 
-
 call_count = 0
 
 def function_to_track():
-    global call_count
-    call_count += 1
-    # 함수 로직
-
+global call_count
+call_count += 1 # 함수 로직
 
 이 방법으로도 문제를 해결할 수 있습니다. 하지만, 앞서 언급한 것처럼, 다음과 같이 enclosing 변수를 사용하여 이 문제를 해결할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 바깥쪽 함수 call_counter(func)를 정의했습니다. 이 함수는 카운트 변수에 1을 추가하는 내부 함수를 정의하고 전달된 함수를 반환합니다. 따라서 내부 함수는 전달된 함수에서 아무것도 변경하지 않고 카운트를 추가하는 역할을 합니다. 그런 다음, 상위 네임스페이스에 카운터를 정의하고 0으로 초기화합니다.
 
@@ -332,7 +545,18 @@ def function_to_track():
 
 !(/assets/img/2024-07-14-WhatisthePythonLEGBRuleWhyItisImportant_13.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 내장 객체를 가리지 마세요
 
@@ -342,7 +566,18 @@ def function_to_track():
 
 ![image](/assets/img/2024-07-14-WhatisthePythonLEGBRuleWhyItisImportant_14.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Summary
 

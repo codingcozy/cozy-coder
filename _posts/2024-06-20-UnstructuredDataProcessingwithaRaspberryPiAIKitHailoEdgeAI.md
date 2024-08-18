@@ -3,17 +3,13 @@ title: "라즈베리 파이 AI 키트를 사용한 비구조화 데이터 처리
 description: ""
 coverImage: "/assets/img/2024-06-20-UnstructuredDataProcessingwithaRaspberryPiAIKitHailoEdgeAI_0.png"
 date: 2024-06-20 17:27
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-UnstructuredDataProcessingwithaRaspberryPiAIKitHailoEdgeAI_0.png
 tag: Tech
 originalTitle: "Unstructured Data Processing with a Raspberry Pi AI Kit — Hailo Edge AI"
 link: "https://medium.com/@tspann/unstructured-data-processing-with-a-raspberry-pi-ai-kit-c959dd7fff47"
 isUpdated: true
 ---
-
-
-
-
 
 비구조화된 데이터 처리, Raspberry Pi 5, Raspberry Pi AI-Kit, Milvus, Zilliz, 데이터, 이미지, 컴퓨터 비전, 딥 러닝, 파이썬
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Raspberry Pi 5와 NVIDIA Jetson Orin Nano와 같은 장치의 성능 덕분에 소규모 예산으로도 Edge AI 사용 사례를 구축할 수 있습니다. 최근에 Raspberry Pi AI Kit이 RPI5 플랫폼용으로 출시되었으므로 한 번 사용해보기로 했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AI 키트는 초당 13 테라 오퍼레이션(TOPS)을 처리할 수 있는 신경망 추론 가속기를 추가합니다. 이것은 70달러에 구매할 수 있어서 정말 좋은 거죠. 이 M.2 Hat에 부착된 Hailo-8L M.2 Entry-Level 가속 모듈은 우리에게 AI 기능을 제공할 겁니다.
 
@@ -33,7 +40,18 @@ AI 키트는 초당 13 테라 오퍼레이션(TOPS)을 처리할 수 있는 신�
 
 ![이미지](/assets/img/2024-06-20-UnstructuredDataProcessingwithaRaspberryPiAIKitHailoEdgeAI_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 라즈베리 파이 5에서 진행 중인 라이브 실행
 
@@ -43,7 +61,18 @@ AI 키트는 초당 13 테라 오퍼레이션(TOPS)을 처리할 수 있는 신�
 
 우리의 이미지는 MinIO에 업로드되었습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image 1](/assets/img/2024-06-20-UnstructuredDataProcessingwithaRaspberryPiAIKitHailoEdgeAI_3.png)
 
@@ -53,8 +82,18 @@ AI 키트는 초당 13 테라 오퍼레이션(TOPS)을 처리할 수 있는 신�
 
 가장 중요한 것은 메타데이터와 벡터를 업로드했고 이미 매우 빠른 검색을 위해 사용 가능합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-20-UnstructuredDataProcessingwithaRaspberryPiAIKitHailoEdgeAI_5.png)
 
@@ -64,8 +103,18 @@ Now, we can begin querying our vectors, and I will demonstrate how to do it usin
 
 ![image](/assets/img/2024-06-20-UnstructuredDataProcessingwithaRaspberryPiAIKitHailoEdgeAI_6.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 이 데모 실행 화면을 녹화했으니, 실시간으로 무슨 일이 일어나는지 확인해 보실 수 있습니다.
 
@@ -75,7 +124,18 @@ Now, we can begin querying our vectors, and I will demonstrate how to do it usin
 
 # 데모 패킹 목록
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 MinIO/S3, Milvus, Slack, Python, Boto3, OpenCV2, Pytorch, Sci-Kit Learn, TIMM, Hailo, YOLOv6n, Object Detection, Raspberry Pi AI Kit, Raspberry Pi 5 with 8GB RAM, logi webcam, resnet34, Torchvision, PyMilvus, Hailo8L M.2 module, M.2 M-Key Hat, Heat Sink.
 
@@ -84,7 +144,7 @@ MinIO/S3, Milvus, Slack, Python, Boto3, OpenCV2, Pytorch, Sci-Kit Learn, TIMM, H
 하드웨어를 추가한 후 (아래의 비디오 및 링크를 참조하세요), 라이브러리를 설치하고 재부팅하시면 준비가 된 것입니다.
 
 ```js
-tspann@five:/opt/demo $ 
+tspann@five:/opt/demo $
 hailortcli fw-control identify
 
 장치에서 실행 중: 0000:01:00.0
@@ -98,7 +158,7 @@ hailortcli fw-control identify
 파트 번호: HM21LB1C2LAE
 제품 이름: HAILO-8L AI ACC M.2 B+M KEY MODULE EXT TMP
 
-tspann@five:/opt/demo $ 
+tspann@five:/opt/demo $
 dmesg | grep -i hailo
 
 [    3.155152] hailo: 모듈 초기화. 드라이버 버전 4.17.0
@@ -118,9 +178,18 @@ dmesg | grep -i hailo
 [    3.427885] hailo 0000:01:00.0: Probing: 보드 1e60-2864 추가, /dev/hailo0
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-20-UnstructuredDataProcessingwithaRaspberryPiAIKitHailoEdgeAI_8.png)
 
@@ -130,8 +199,18 @@ dmesg | grep -i hailo
 
 # 모델 동물원
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-20-UnstructuredDataProcessingwithaRaspberryPiAIKitHailoEdgeAI_10.png)
 
@@ -148,7 +227,18 @@ ls /dev/video*
 ffplay -f v4l2 /dev/video0
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 자료
 
@@ -157,7 +247,18 @@ ffplay -f v4l2 /dev/video0
 
 보시는 것이 마음에 드셨다면, 어떻게 개선할 수 있는지 댓글로 알려주세요. 또 다음에 어떤 것을 보여드려야 할지도 알려주시면 감사하겠습니다. 프린스턴, 필라델피아, 뉴욕시에서의 밋업이나 유튜브에서 뵙기를 기대합니다.👋
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Milvus로 오세요!
 
@@ -167,7 +268,18 @@ Milvus로 오세요!
 
 https://www.linkedin.com/company/zilliz/
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 https://www.linkedin.com/in/timothyspann/
 

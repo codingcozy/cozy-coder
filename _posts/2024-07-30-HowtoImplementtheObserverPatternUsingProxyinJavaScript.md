@@ -3,17 +3,13 @@ title: "자바스크립트에서 프록시를 사용하여 옵저버 패턴 구�
 description: ""
 coverImage: "/assets/img/2024-07-30-HowtoImplementtheObserverPatternUsingProxyinJavaScript_0.png"
 date: 2024-07-30 17:27
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-30-HowtoImplementtheObserverPatternUsingProxyinJavaScript_0.png
 tag: Tech
 originalTitle: "How to Implement the Observer Pattern Using Proxy in JavaScript"
 link: "https://medium.com/javascript-in-plain-english/how-to-implement-the-observer-pattern-using-proxy-in-javascript-d8fdebd04862"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-07-30-HowtoImplementtheObserverPatternUsingProxyinJavaScript_0.png" />
 
@@ -23,7 +19,18 @@ JavaScript에서는 Proxy 개체를 활용하여 Observer Pattern을 구현할 �
 
 이 문서에서는 JavaScript에서 Proxy를 사용하여 Observer Pattern을 구현하는 방법을 점진적으로 설명합니다. Observer 클래스를 생성하고 핸들러 개체를 정의하며 관찰 가능한 개체를 생성할 것입니다. 또한, 이 패턴이 적용된 일반적인 프론트엔드 시나리오를 보여줌으로써 Proxy 기반 옵저버 구현을 사용하여 문제를 해결하는 방법을 설명할 것입니다. 마지막으로, 이 문서를 요약하겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 1. 옵저버 패턴이란?
 
@@ -33,33 +40,44 @@ JavaScript에서는 Proxy 개체를 활용하여 Observer Pattern을 구현할 �
 
 ## 단계 1: 옵저버 클래스 생성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 관찰자(Observer) 클래스를 생성해야 합니다. 이 클래스에는 관찰자를 추가, 제거, 그리고 알림을 보내는 메서드가 포함될 것입니다.
 
 ```js
 class Observer {
-    constructor() {
-        this.observers = [];
-    }
+  constructor() {
+    this.observers = [];
+  }
 
-    addObserver(observer) {
-        this.observers.push(observer);
-    }
+  addObserver(observer) {
+    this.observers.push(observer);
+  }
 
-    removeObserver(observer) {
-        this.observers = this.observers.filter(obs => obs !== observer);
-    }
+  removeObserver(observer) {
+    this.observers = this.observers.filter((obs) => obs !== observer);
+  }
 
-    notifyObservers(message) {
-        this.observers.forEach(observer => observer.update(message));
-    }
+  notifyObservers(message) {
+    this.observers.forEach((observer) => observer.update(message));
+  }
 }
 
 class ConcreteObserver {
-    update(message) {
-        console.log('Received message:', message);
-    }
+  update(message) {
+    console.log("Received message:", message);
+  }
 }
 ```
 
@@ -67,17 +85,28 @@ class ConcreteObserver {
 
 ## 단계 2: 핸들러 객체 정의
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로, 관측 가능한 객체에서의 작업을 가로채고 처리하는 핸들러 객체를 정의합니다.
 
 ```js
 const handler = {
-    set(target, property, value, receiver) {
-        target[property] = value;
-        target.notifyObservers({ property, value });
-        return true;
-    }
+  set(target, property, value, receiver) {
+    target[property] = value;
+    target.notifyObservers({ property, value });
+    return true;
+  },
 };
 ```
 
@@ -85,26 +114,48 @@ const handler = {
 
 ## 단계 3: 관측 가능한 객체 생성하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러면 관찰 가능한 객체를 생성하고 Proxy로 래핑합니다.
 
 ```js
 class Observable extends Observer {
-    constructor(target) {
-        super();
-        return new Proxy(target, handler);
-    }
+  constructor(target) {
+    super();
+    return new Proxy(target, handler);
+  }
 }
 
-const observableObject = new Observable({ name: 'John', age: 30 });
+const observableObject = new Observable({ name: "John", age: 30 });
 ```
 
 이 예제에서 Observable 클래스는 Observer 클래스를 확장하고 대상 객체를 Proxy로 감싸서 속성 작업을 가로채고 처리합니다.
 
 # 3. 프런트엔드 시나리오에서 옵서버 패턴 적용하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로, Observer Pattern을 구현하기 위해 Proxy를 사용하는 클래식 프론트엔드 데이터 바인딩 시나리오를 보여드리겠습니다. 간단한 HTML 폼이 있고 양방향 데이터 바인딩을 구현해야 한다고 가정해봅시다.
 
@@ -175,7 +226,18 @@ const observableObject = new Observable({ name: 'John', age: 30 });
 
 Proxy를 사용하여 Observer Pattern을 구현함으로써 객체의 속성 작업을 효과적으로 가로채고 처리하여 양방향 데이터 바인딩과 반응적인 업데이트를 가능하게 할 수 있습니다. 이 글에서는 Observer Pattern의 기본 개념을 소개하고 JavaScript에서 Proxy를 사용하여 이를 구현하는 방법을 자세히 설명했습니다. 이 글이 여러분이 프로젝트에서 이 강력한 디자인 패턴을 더 잘 이해하고 적용하는 데 도움이 되기를 바랍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 친절한 한국어로 🚀
 

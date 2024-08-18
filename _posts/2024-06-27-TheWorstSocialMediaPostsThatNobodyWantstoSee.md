@@ -3,17 +3,13 @@ title: "아무도 보고 싶어 하지 않는 최악의 소셜 미디어 게시�
 description: ""
 coverImage: "/assets/img/2024-06-27-TheWorstSocialMediaPostsThatNobodyWantstoSee_0.png"
 date: 2024-06-27 18:50
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-27-TheWorstSocialMediaPostsThatNobodyWantstoSee_0.png
 tag: Tech
 originalTitle: "The Worst Social Media Posts That Nobody Wants to See"
 link: "https://medium.com/bouncin-and-behavin-blogs/the-worst-social-media-posts-that-nobody-wants-to-see-7f63791cac20"
 isUpdated: true
 ---
-
-
-
-
 
 ## 이건 정말 이상해요
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 소셜 미디어에 올라오는 글들을 많이 봐왔어요. 아직도 강아지와 고양이 사진을 즐기고 있어요. 웃긴 밈을 사랑해요. 귀여운 아이들의 첫 등교나 졸업식 사진 등을 보는 걸 좋아해요. 누군가가 승진을 하거나 목표를 위해 노력하거나 사회 정의를 지지하는 이야기를 듣는 걸 좋아해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 뒷면도 있습니다. 몇 가지는 너무나 많이 본만큼 참을 수 없게 됩니다. 아래 항목에 대한 게시물을 볼 때마다 전편성이 되어버립니다. 다음은 날 미치게 만드는 종류의 소셜 미디어 게시물입니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 우리 중 가장 오래된 것 중 하나일 것 같습니다. MySpace에서 오리입술 포즈를 본 기억이 납니다. 이 포즈는 귀엽거나 섹시할 게 없습니다. 이것은 2006년식인데, 이미 경의를 표하며 조용하게 사라지게 해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이거 쓰는 젊은 여자 아이들이 여전히 있는 게 웃겨요. 엄마들이 사용했던 게 이렇게 오랜 시간이 지났다는 걸 생각하면, 딸들은 어머니의 예전 소셜 미디어 게시물을 보고 볼 수 있어요. 제가 태어나기도 전에 엄마들이 이걸 하고 있었다는 게 좀 웃기죠. 저라면 과거에 부모님이 사용했던 유행을 되풀이하고 싶지 않아요. 그냥 이상하게 느껴져요.
 
@@ -43,17 +61,39 @@ isUpdated: true
 
 저리 가라 참 별것 다 아냐. 근데 자신과 닮았다는 건 알겠다. 저는 20년 동안 면허를 가진 부동산 중개인이었어요. 소셜 미디어에서 몇 번 "축복 받았다"고 했냐구요? 제로 죠. 아무도 그런 걸 듣고 싶어하지 않아요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특히 처음 집을 사려는 사람들이 두세 명의 친구와 함께 같은 부동산에 투자하지 않으면 주택을 사 볼 수 없는 과하게 높은 가격의 부동산 시장에서, 일부 중개업자들의 특혜 요구는 분명하게 드러나며 공개적으로 표출됩니다.
 
-근처 리조트 타운에 있는 오두막, 멋진 새 보트로 새롭게 올린 게시물에 대한 이중성이 발생합니다. 다수가 집세도 간신히 넉넉히 갚을때, 얼마나 훌륭하게 잘 지내는지에 대해 평범한 조 시민들은 신경 쓰지 않습니다. 뽑시다가 되풀이나지 마세요. 실력보다 외모와 인기에 더 중점을 둔 산업에서 허세 부리는 것보다 겸손해지세요. 
+근처 리조트 타운에 있는 오두막, 멋진 새 보트로 새롭게 올린 게시물에 대한 이중성이 발생합니다. 다수가 집세도 간신히 넉넉히 갚을때, 얼마나 훌륭하게 잘 지내는지에 대해 평범한 조 시민들은 신경 쓰지 않습니다. 뽑시다가 되풀이나지 마세요. 실력보다 외모와 인기에 더 중점을 둔 산업에서 허세 부리는 것보다 겸손해지세요.
 
 # 소셜 미디어에서 전 남자친구 비하
 
 ![이미지](/assets/img/2024-06-27-TheWorstSocialMediaPostsThatNobodyWantstoSee_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 지금까지 보았던 베이비마마/베이비대디 비난 게시물들에 대한 각각 1달러가 있다면, 누구의 어린이 지원금도 따라잡을 수 있을 텐데요. 이 부정적인 에너지로 인해 여러분의 아이들이 안타깝게도 영향을 받고, 그들도 언젠가는 십대 혹은 어른이 된 후 이런 게시물들을 볼 수도 있을 거예요.
 
@@ -63,8 +103,18 @@ isUpdated: true
 
 # “모든 생명 중요하다”에 대해 이야기하는 사람들
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-06-27-TheWorstSocialMediaPostsThatNobodyWantstoSee_3.png](/assets/img/2024-06-27-TheWorstSocialMediaPostsThatNobodyWantstoSee_3.png)
 
@@ -74,8 +124,18 @@ isUpdated: true
 
 그러한 주장은 혼자만 알아두고, 변화를 위한 동맹자가 되어 주세요. 진보와 사회 정의에 반대하는 적이 아니라 변화의 지지자가 되어 주세요.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 도날드 트럼프와 그의 재선에 대한 찬양 게시물
 
@@ -85,7 +145,18 @@ isUpdated: true
 
 이제 도날드 트럼프의 지속적인 인종 차별적이고 편협한, 동성애 적인, 성차별적, 외화 적인 쓰레기를 지지하는 사람들은 제 적수가 되었어요. 제 딸은 게이이고, 혼혈 신부와 아이들이 있으며, 정의를 사랑하고 무지와 헛소리에 대한 인내심을 가지고 있어요. 어떤 플랫폼에서도 트럼프 지지 게시물을 볼 욕구가 없어요. 지난 8~10년 동안 이를 훨씬 너무 많이 보았거든요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 머리로 사냥한 동물을 든 사진
 
@@ -95,9 +166,20 @@ isUpdated: true
 
 사냥은 스포츠가 아닙니다. 당신이 그들의 서식지에서 살아가며 하루를 즐기고 삶을 즐기던 무방비한 동물에 총알을 맞춘다고 해서 '진정한 남자'가 되는 것은 아닙니다. 머리, 가슴, 폐 부위에 총알을 맞는 거죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
- 만약 당신이 가족을 먹이기 위해 이런 무방비한 동물들을 죽인다면, 괜찮아요. 그러나 카메라 앞에서 그들의 죽은 시체를 들고 바보 같이 웃고 있으면 그들의 죽음에 경례를 표하지 마세요. 이런 사진을 올린다고 해서 다른 도랑 같은 사람들 외에는 누구도 감탄하지 않아요.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+만약 당신이 가족을 먹이기 위해 이런 무방비한 동물들을 죽인다면, 괜찮아요. 그러나 카메라 앞에서 그들의 죽은 시체를 들고 바보 같이 웃고 있으면 그들의 죽음에 경례를 표하지 마세요. 이런 사진을 올린다고 해서 다른 도랑 같은 사람들 외에는 누구도 감탄하지 않아요.
 
 # 상처나 끔찍한 부상 사진
 
@@ -105,7 +187,18 @@ isUpdated: true
 
 국물통을 열다가 엄지손가락에 상처를 내셨군요. 거대한 샴푸병이 발가락에 떨어져서 이젠 바니 엉덩이처럼 보라색이 되었어요. 수술로 남은 흉터가 프랑켄슈타인 머리랑 맞먹는 수준인가 봅니다. 스포일러 경보: 우리는 그것을 보고 싶어하지 않아요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떤 어려움이라도 있으면 말해줘. 내가 생각과 기도를 잠재워 놓았으니 언제든지 방아쇠를 당기라고. 다만, 혼자서 혈액, 뼈, 근육 같은 고통스러운 부상은 꼭 보고 싶지 않아.
 
@@ -115,7 +208,18 @@ isUpdated: true
 
 무기들이 한 장소에 모여있는 당신의 사진을 보면 두렵고 불안한 마음이 많이 드러나는 것 같아. 새로운 무기를 샀고 흥분되는 거야? 멋져. 하지만 여러 개의 무기를 같은 사진에 올리면 난 QAnon에 가입하려고 하고 있거나 와코와 루비 릿지의 사건을 이론으로 분석하고 있는 건 아닌지 궁금해져.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 플리마켓에서 산 얼굴 마스크, 방탄조끼, 검 등은 하나도 인상적이지 않아. 이것들은 탱크, 미사일, 폭탄 또는 정부(국내 외)가 널 제거하려고 결정하면 실제 훈련받은 민병대를 막을 수 없어. 스타터 세트 무기에 열중하지 마, 람보야. 이건 천재 인도나 베트남이 아니야.
 
@@ -125,7 +229,18 @@ isUpdated: true
 
 소셜 미디어에 공유되는 음식 사진들을 사랑해. 아침, 점심, 저녁을 올려봐. 칵테일, 와인 한 잔도 좋아. 술에 취한 삼촌이 맥주를 마시는 사진도 좋아. 그냥 건강식을 올리지 마. 지루하고 맛이 없어.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나는 당신의 음식이 글루텐프리인지는 신경 쓰지 않아요. 카로브 칩 쿠키는 진짜 싫어. 내 피드에 콜리플라워 와플이 나오면 즉시 차단할 거야.
 
@@ -135,7 +250,18 @@ isUpdated: true
 
 ![2024-06-27-TheWorstSocialMediaPostsThatNobodyWantstoSee_9.png](/assets/img/2024-06-27-TheWorstSocialMediaPostsThatNobodyWantstoSee_9.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 잘 이해해주세요. 운동을 즐기고 있어요. 많은 해 동안 운동을 해 왔어요. 건강과 피트니스에 신경을 쓰는 분들을 존경해요. 하지만 여러분이 한 허그 시간동안의 모든 운동 기록을 보고 싶지는 않아요. 다른 사람들이 벤치 프레스나 스쿼트를 하는 걸 이미 많이 봤거든요.
 
@@ -145,7 +271,18 @@ isUpdated: true
 
 # 그래서 소셜 미디어에 글 올리는 분들아...
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](https://miro.medium.com/v2/resize:fit:1280/0*1NtfDY3bbpaZY0KW.gif)
 

@@ -3,17 +3,13 @@ title: "SQL과 No-SQL 솔루션 중 어떤 것을 선택해야 할까요"
 description: ""
 coverImage: "/assets/img/2024-06-19-HowIchoosebetweenSQLandNo-SQLsolutions_0.png"
 date: 2024-06-19 01:46
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-HowIchoosebetweenSQLandNo-SQLsolutions_0.png
 tag: Tech
 originalTitle: "How I choose between SQL and No-SQL solutions"
 link: "https://medium.com/@martin.hodges/how-i-choose-between-sql-and-no-sql-solutions-63463b6e65b9"
 isUpdated: true
 ---
-
-
-
-
 
 이 기사에서는 솔루션을 선택하기 위해 SQL 및 No-SQL 데이터베이스 중 어떤 것을 선택할 것인지에 대해 설명하고 있습니다. 이 결정의 일환으로, 구조화된 및 비구조화된 데이터가 결정에 어떤 영향을 미치는지 및 기타 요소를 탐구합니다. 이것은 복잡한 결정일 수 있습니다 [소프트웨어 관리에 관한 기사].
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 나는 내 엔지니어링 경력을 돌아보았을 때, 그가 옳았다는 것을 알 수 있었습니다. 기술에 대한 결정은 기술이 작업에 적합한지 여부만큼 비용에 대한 문제도 중요합니다. 둘 다 옳아야 결정을 내릴 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 No-SQL 대 SQL을 결정할 때도 같은 것이 적용됩니다.
 
@@ -33,7 +40,18 @@ No-SQL 대 SQL을 결정할 때도 같은 것이 적용됩니다.
 
 그런 다음에는 결정의 비기술적 측면을 살펴볼 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 구조화된 데이터 vs 구조화되지 않은 데이터
 
@@ -43,7 +61,18 @@ No-SQL 대 SQL을 결정할 때도 같은 것이 적용됩니다.
 
 그렇다면 구조화된 데이터 또는 구조화되지 않은 데이터가 무엇을 의미하는 걸까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 구조화된 데이터인지 비구조화된 데이터인지 결정할 수 있는 두 가지 방법이 있어요:
 
@@ -54,7 +83,18 @@ No-SQL 대 SQL을 결정할 때도 같은 것이 적용됩니다.
 
 텍스트 페이지를 예로 들어볼게요. 이는 일반적으로 비구조화물로 분류돼요. 이게 좀 이상하게 들릴 수 있지만, 그것은 매우 잘 구조화돼 있어요. 한정된 기호 집합을 사용하여 언어로 작성되었고(일반적으로) 해당 언어의 문법 규칙을 따라 쓰여졌기 때문이죠. 이 모든 것은 우리의 비구조화된 텍스트 페이지가 매우 구조화된 메타데이터를 갖고 있다는 것을 보여줘요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 텍스트의 실제 의미는 무엇이든 될 수 있습니다. 따라서 의미론적으로 구조화되지 않았습니다.
 
@@ -64,7 +104,18 @@ No-SQL 대 SQL을 결정할 때도 같은 것이 적용됩니다.
 
 다양한 기능을 갖춘 솔루션을 위해 소프트웨어는 데이터나 해당 메타데이터가 구조화되어 있다고 가정합니다. 이를 깨달았을 때, 구조화되거나 구조화되지 않은 데이터가 있는지에 대해 이야기하는 것은 중요하지 않습니다. 아마도 둘 다 가지고 있을 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 데이터 유동성
 
@@ -74,7 +125,18 @@ No-SQL 대 SQL을 결정할 때도 같은 것이 적용됩니다.
 
 만약 데이터가 어떤 타입 규칙에도 적합하지 않는다면, 그것은 물과 같이 유동적인 것으로 간주될 수 있어요. 그 구조는 정의되지 않았으며 사실상 무작위적이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 데이터의 유동성을 살펴볼 차례입니다. 의심의 여지 없이 벽과 물 사이 어딘가에 해당될 것이며, 젤리(또는 젤로)에 더 가까울 것입니다.
 
@@ -84,19 +146,39 @@ No-SQL 대 SQL을 결정할 때도 같은 것이 적용됩니다.
 
 이전에 No-SQL 대 SQL에 관한 결정은 실제로 데이터베이스 기술 또는 지속성 계층에 관한 결정이라고 언급했습니다. 이게 무슨 의미인지 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약에 구조화된 vs 비구조화된에 대해 구글링을 하면, 대부분의 설명이 데이터가 데이터베이스에 저장(또는 보존)되는 방식과 관련이 있다는 것을 알 수 있을 거에요. 이 정의를 보면 SQL 기반 데이터베이스가 구조화된 데이터(벽돌과 같은)를 저장하는 데 사용되는 반면, NoSQL 기반 데이터베이스는 비구조화된 데이터(물과 같은)를 저장하는 데 사용된다는 것을 알 수 있을 거에요.
 
 이게 어떻게 작용하는지 살펴봐요.
 
-
 ![이미지](/assets/img/2024-06-19-HowIchoosebetweenSQLandNo-SQLsolutions_1.png)
-
 
 ## SQL 데이터베이스의 구조화된 데이터
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 구조화된 데이터는 고정된 데이터 정의(또는 스키마)를 갖습니다. 데이터베이스는 각각의 새로운 데이터(또는 레코드)를 테이블의 행으로 저장합니다. 레코드 내의 각 필드는 행 안의 열로 저장됩니다. 각 열은 특정 유형의 데이터입니다. 이렇게하여 모든 구조화된 데이터가 테이블, 행 및 열의 고정된 3차원 그리드 내에 저장됩니다.
 
@@ -106,7 +188,18 @@ No-SQL 대 SQL을 결정할 때도 같은 것이 적용됩니다.
 
 비구조화된 데이터는 정의된 스키마가 없습니다. 데이터베이스는 레코드가 무엇을 포함하거나 어떻게 보이는지에 대한 엄격한 정의가 없습니다. 완전히 중립적이며 데이터가 무엇인지는 중요하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 스스로에게 물을 수 있을 것입니다. "구조가 없다면 데이터에 어떻게 접근할까요?"
 
@@ -116,7 +209,18 @@ No-SQL 대 SQL을 결정할 때도 같은 것이 적용됩니다.
 
 이제 매우 유동적인 데이터가 NoSQL 데이터베이스에 훨씬 더 적합하다는 것이 분명해졌을 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 관계형 데이터베이스
 
@@ -126,7 +230,18 @@ SQL 데이터베이스에 대해 이야기할 때, 실제로는 관계형 데이
 
 관계형 데이터베이스는 이러한 관계를 이해하고 데이터 레코드 간의 참조를 사용하여 해당 관계를 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 관계가 매우 중요하기 때문에 RDBMS는 관계들을 특별히 관리하며, 참조 무결성 규칙을 사용하여 참조가 영원히 깨지지 않도록 합니다.
 
@@ -136,7 +251,18 @@ SQL 데이터베이스에 대해 이야기할 때, 실제로는 관계형 데이
 
 진정한 비구조화 데이터 세트에서는 데이터 간에 정의된 관계가 없습니다. 예를 들어 도서관의 책들을 생각해보십시오. 이들은 어떠한 방식으로도 서로 관련되어 있지 않을 수 있습니다. 그들은 단지 문서(책)의 모음(도서관)일 뿐입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 구조가 없으면 비구조화된 데이터에 액세스하려면 SQL의 대안이 필요합니다. SQL은 상당히 표준화되어 있지만, No-SQL 쿼리 언어는 기본 저장 기술에 더 의존합니다. 그들이 모두 No-SQL이라고 불리는 것은 공통점이 있습니다.
 
@@ -146,7 +272,18 @@ No-SQL 데이터베이스의 데이터(문서)가 다른 문서와 관련이 없
 
 #일하는 데 가장 적합한 기술
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금까지 데이터가 일반적으로 완전히 구조화되지 않았고 완전히 구조화되지 않았다고 언급했습니다. SQL 데이터베이스는 둘 다 처리할 수 있고 No-SQL 데이터베이스도 둘 다 처리할 수 있다는 것을 설명했습니다.
 
@@ -156,7 +293,18 @@ No-SQL 데이터베이스의 데이터(문서)가 다른 문서와 관련이 없
 
 한 가지 더 고려해야 할 시나리오가 있습니다. 때로는 데이터의 구조를 아직 알 수 없지만 저장해야 하는 경우가 있을 수 있습니다. 구조를 식별하는 데 더 나아질 때까지 처리할 것입니다. 이 경우 데이터의 유동성 수준을 아직 모르기 때문에 No-SQL 데이터베이스를 사용하는 것이 더 나을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 흐음, 아마도 이미 알고 계시겠지만, 데이터가 유동적인 경우, 대부분의 데이터는 한쪽 극단에 있지 않고 중간에 위치합니다. 한쪽 끝에 더 가까울 수도 있고 그 반대에 더 가까울 수도 있으므로 적절한 경우 SQL 또는 No-SQL 데이터베이스를 선택하게 될 것입니다.
 
@@ -166,7 +314,18 @@ No-SQL 데이터베이스의 데이터(문서)가 다른 문서와 관련이 없
 
 이전에 언급했듯이, SQL 데이터베이스는 일반적으로 비구조화된 데이터를 처리할 수 있습니다. 그들은 데이터의 덩어리로서 처리할 수 있습니다. 파일처럼, 덩어리는 모든 유형의 데이터를 포함할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대체로, 테이블 형식으로 저장하는 대신 텍스트 필드로도 저장할 수 있습니다. 일반적으로 JSON 형식의 문자열로 텍스트 필드 내에 저장하는 것이 일반적입니다. JSON은 유동적인 데이터를 위한 흔한 형식입니다 (실제로 엄격한 구조를 갖고 있습니다).
 
@@ -176,7 +335,18 @@ No-SQL 데이터베이스의 데이터(문서)가 다른 문서와 관련이 없
 
 ## No-SQL 데이터베이스의 구조화된 데이터
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그런 반면, No-SQL 데이터베이스를 선택했을 수 있지만 여전히 사용하기 위해 일정한 구조가 필요할 수 있습니다.
 
@@ -186,13 +356,35 @@ SQL 데이터베이스와 마찬가지로 선택 사항이 있습니다.
 
 이렇게 하면 코드 내에서 데이터의 구조를 신뢰할 수 있게 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또 다른 고려 사항은 저장 기술 결정 시 일관성이 필요하다는 점입니다.
 
 예를 들어 한 사용자가 데이터를 변경하면 다른 사용자는 그 변경 사항을 어떻게 경험하나요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주요한 두 가지 경험이 있습니다:
 
@@ -202,7 +394,18 @@ SQL 데이터베이스와 마찬가지로 선택 사항이 있습니다.
 
 두 번째 옵션은 일관성을 보장하기 위해 일시적으로 데이터가 일관성이 없다는 것을 의미하는 '즉시 일관성'이라고 합니다. 문제가 발생할 경우 데이터가 일관성이 없거나 잘못된 상태에 남아 있을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아마도 이미 알아챘겠지만, SQL 데이터베이스는 옵션 1을 제공하고 No-SQL 데이터베이스는 옵션 2를 제공합니다.
 
@@ -212,7 +415,18 @@ SQL 데이터베이스와 마찬가지로 선택 사항이 있습니다.
 
 솔루션에서 '최종 일관성'을 왜 허용해야 하는지 궁금해 할 수도 있습니다. 결국 컴퓨터를 사용하는 이유가 그 정확성을 제공하기 때문이 아닌가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실제로, 마이크로서비스 아키텍처를 채택하고 비동기 이벤트 또는 메시징 대기열을 지원하는 경우 이미 결국 일관성을 수용하는 유효한 설계로 인식했을 것입니다. 대부분의 솔루션에서는 수용 가능한 전략으로 보입니다.
 
@@ -222,7 +436,18 @@ SQL 데이터베이스와 마찬가지로 선택 사항이 있습니다.
 
 지금까지 특정 문제와 해결책에 대해 고려하고 한 기술 또는 다른 기술을 선택했을 것입니다. 그러나 기억하세요, 일을 수행할 수 있는 능력뿐만 아니라 얼마나 비용이 소요될지도 중요하다고 말했었죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 비용은 솔루션을 개발하는 비용뿐만 아니라 운영 및 지원 비용까지 포함됩니다. 이 둘이 합쳐져 총 소유 비용(TCO)을 형성합니다. TCO는 시간에 따른 비용을 고려하므로 다음과 같은 비용을 포함할 수 있습니다:
 
@@ -239,8 +464,18 @@ SQL 데이터베이스와 마찬가지로 선택 사항이 있습니다.
 
 이러한 비용들은 다음과 같이 넓게 분류될 수 있습니다:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 출시 시기
 - 개발 노력
@@ -252,7 +487,18 @@ SQL 데이터베이스와 마찬가지로 선택 사항이 있습니다.
 
 모든 프로젝트에는 마감 기한이 있습니다. 시장 조건을 충족하거나 수익 목표, 비용 절감 또는 다른 종속성을 충족해야 할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 마감 기한을 놓치면 회사에는 금전적인 영향이 있을 수 있어요.
 
@@ -262,7 +508,18 @@ SQL 데이터베이스와 마찬가지로 선택 사항이 있습니다.
 
 이러한 결정은 기술적 부채 수준이 높아지도록 할 수 있지만, 모든 부채와 마찬가지로 현재의 비즈니스 목표를 더 빨리 달성할 수 있도록 해 줄 수 있을 거예요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 개발 노력
 
@@ -272,8 +529,18 @@ No-SQL 데이터베이스를 도입하면 저장 계층을 설계하고 구현�
 
 No-SQL 데이터베이스는 알 수 없는 데이터 구조와 비즈니스 요구 사항을 선호하는 경향이 있습니다. 이는 지금 당장 솔루션이 필요하지만 나중에 확인되지 않을 요구 사항이 있는 상황에 이상적입니다. No-SQL 데이터베이스를 사용하면 이러한 결정으로 인해 발생하는 기술 부채의 양을 줄일 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기술을 결정하기 전에 개발 팀을 고려해야 합니다. 시장 진입 시기, 솔루션의 품질(기능, 비기능 및 보안 요구 사항 측면) 및 기술 부채 감소를 고려할 때, 개발팀이 알고 있는 기술을 사용하는 것이 더 나아요.
 
@@ -283,7 +550,18 @@ No-SQL 데이터베이스는 알 수 없는 데이터 구조와 비즈니스 요
 
 좋아요, 현재 기술과는 다른 기술을 선택하고 그것을 중심으로 솔루션을 개발했습니다. 모든 것이 잘 진행되었고 결정에 만족하고 있습니다. 솔루션을 운영 환경에 적용하고 나면 문제가 시작됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 유지보수 지원 비용이 증가한다는 것을 알게 됩니다. 새 기술 라이선싱이 기존 계약에 해당하지 않아 추가 비용이 발생합니다.
 
@@ -293,7 +571,18 @@ No-SQL 데이터베이스는 알 수 없는 데이터 구조와 비즈니스 요
 
 모든 이는 비즈니스에 영향을 줄 수 있으며, 기술 변경을 고려할 때 고려해야 할 사항(및 계획)입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 모두 묶어서
 
@@ -307,7 +596,18 @@ No-SQL 데이터베이스는 알 수 없는 데이터 구조와 비즈니스 요
 
 매일 No-SQL과 SQL 데이터베이스 간의 차이와 격차가 좁아지고 있다는 것을 보여 드렸으면 좋겠습니다. 각각이 프로젝트에 도움이 될 수 있는 서로 다른 특성을 갖고 있지만, 전반적으로 이러한 고유한 이점들이 점점 더 작아지고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기술적으로 모든 것이 동등한 경우 비즈니스 영향으로 돌아가는데, 일반적으로 재무 영향으로 이어집니다. 초록밭 프로젝트의 여유가 있거나 새로운 개발 팀을 모집할 수 있는 상황이 아니라면, 기존 인수기술을 선호하는 요소가 있을 것입니다.
 
@@ -317,7 +617,18 @@ No-SQL 데이터베이스는 알 수 없는 데이터 구조와 비즈니스 요
 
 이야기로 나오는 증거에 따르면 소프트웨어는 대체되기 전에 5-8년 안에 구식이 됩니다. 이 시간 기간은 전체 현대적 아키텍처의 변화, 시장 변동, 공급업체가 기술을 향상시키도록 압박하는 경쟁자의 압력 등을 기반으로 합니다. 5년 후에 사라지는 신용카드를 어떻게 사용하겠습니까?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위해 No-SQL과 SQL 중에서 선택할 때, 다음 우선순위를 결정하는 데 도움이 될 것 같아요:
 
@@ -331,7 +642,18 @@ No-SQL 데이터베이스는 알 수 없는 데이터 구조와 비즈니스 요
 
 두 가지 다른 프로젝트를 가정해봅시다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트 #1은 유동적인 데이터 세트이며 데이터 일관성이 필요하지 않으며 대규모 확장이 필요합니다.
 
@@ -344,7 +666,18 @@ No-SQL 데이터베이스는 알 수 없는 데이터 구조와 비즈니스 요
 
 # 요약
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사에서는 No-SQL과 SQL 데이터베이스 사이를 결정할 때 고려하는 몇 가지 요소들을 살펴보았습니다.
 
@@ -354,7 +687,18 @@ No-SQL 데이터베이스는 알 수 없는 데이터 구조와 비즈니스 요
 
 새로운 기술을 도입하는 비즈니스 케이스를 정당화하는 것은, 기술적인 측면에 '위기요소'가 없다는 가정하에 이미 보유한 것을 활용하는 것보다 훨씬 어려운 일임을 주목해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 프로젝트, 비즈니스 및 의사 결정 프레임워크는 다릅니다. 그러나 제가 고려해야 할 요소에 대해 조명을 켰기를 바랍니다.
 

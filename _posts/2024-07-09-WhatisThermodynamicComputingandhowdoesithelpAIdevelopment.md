@@ -3,17 +3,13 @@ title: "열역학 컴퓨팅이란 무엇이며 AI 개발에 어떻게 도움이 
 description: ""
 coverImage: "/assets/img/2024-07-09-WhatisThermodynamicComputingandhowdoesithelpAIdevelopment_0.png"
 date: 2024-07-09 23:17
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-WhatisThermodynamicComputingandhowdoesithelpAIdevelopment_0.png
 tag: Tech
 originalTitle: "What is Thermodynamic Computing and how does it help AI development?!"
 link: "https://medium.com/@thebojda/what-is-thermodynamic-computing-and-how-does-it-help-ai-development-1dd3b75a9ee6"
 isUpdated: true
 ---
-
-
-
-
 
 ![스타일](/assets/img/2024-07-09-WhatisThermodynamicComputingandhowdoesithelpAIdevelopment_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 근본적인 문제는 자연이 확률적(예측할 수 없음)이라는 것입니다. 이 곳에서 이야기하는 것은 양자 역학적 효과만을 말하는 것이 아닙니다. 환경적 영향, 열 잡음 및 기타 혼란스러운 요소들이 회로 설계 시 고려되어야 합니다. 트랜지스터의 경우, 그것이 결정론적으로(예측 가능하게) 작동할 것을 기대합니다. 만약 한 알고리즘을 연속으로 100번 실행한다면, 매번 동일한 결과를 얻어야 합니다. 현재 트랜지스터는 그들의 작동에 영향을 미치지 않는 정도로 충분히 커서 이러한 요소들이 문제가 되지 않습니다. 그러나 그 크기가 작아지면, 이러한 문제들이 점점 더 중요해질 것입니다. 그렇다면 기술은 어느 방향으로 나아가야 할까요? "일반적인" 대답은 양자 컴퓨터입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-09-WhatisThermodynamicComputingandhowdoesithelpAIdevelopment_2.png)
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ![image](/assets/img/2024-07-09-WhatisThermodynamicComputingandhowdoesithelpAIdevelopment_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 매우 간단한 예는 찬 물과 뜨거른 물을 섞을 때 발생합니다. 각 입자의 무작위 운동을 추적하는 것은 불가능할 것입니다. 어떤 입자는 더 빨리 움직이고, 다른 것은 더 느리게 움직입니다. 가끔씩 입자들은 충돌하여 에너지를 교환합니다. 이 시스템은 완전히 혼돈스럽고, 시뮬레이션을 위해 엄청난 컴퓨팅 능력이 필요합니다. 그럼에도 불구하고, 우리는 짧은 시간이 지난 뒤 물이 균일한 온도에 이르게 될 것을 정확하게 예측할 수 있습니다. 이 또한 입자 수준에서 매우 복잡한, 그러나 물리학의 법칙과 통계학의 규칙에 의해 완전히 예측 가능한 간단한 자기조직화 시스템입니다. 마찬가지로, 세포 분열은 복잡한 화학 과정과 무작위 운동의 결과로 예측 가능해집니다. 물론, 오류가 발생할 수 있습니다. DNA가 올바르게 복사되지 않을 수도 있고, 돌연변이가 발생할 수도 있으며, 다른 오류가 발생할 수도 있습니다. 그래서 시스템은 매우 중복되어 있습니다. 오류가 발생할 경우 몇 가지 과정이 세포를 파괴할 것입니다 (세포 사멸), 그러므로 불량 단위들이 문제를 일으키는 것을 방지합니다 (또는 매우 드물게만 그렇게 합니다. 이것이 암 등의 질병이 발전하는 방식입니다).
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 열역학적 컴퓨팅의 기초는 유사합니다. 물리적 과정의 확률적 특성을 없애려는 대신, 우리는 그것을 활용합니다. 그러나 작동이 결정론적이 아닌 컴퓨터로 무엇을 할 수 있을까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사실 머신 러닝 분야에서는 많은 랜덤 구성 요소가 있습니다. 예를 들어, 신경망의 경우 초기 가중치는 무작위로 초기화됩니다. 오버피팅을 방지하는 드롭아웃 계층도 입력을 무작위로 제거합니다. 그러나 더 높은 수준에서, 확산 모델들도 작동에 랜덤 노이즈를 사용합니다. 예를 들어 Midjourney의 경우, 모델은 주어진 지침을 고려해 랜덤 노이즈에서 이미지를 생성하도록 훈련되었습니다.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 현재 시스템에서는 결정론적 트랜지스터를 얻기 위해 랜덤 열 노이즈를 제거한 다음, 이러한 결정론적 트랜지스터에서 뉴럴 네트워크의 작동에 필요한 무작위성을 시뮬레이션합니다. 시뮬레이션하는 대신, 자연의 무작위성을 활용하는 것은 어떨까요? 이 아이디어는 아날로그 컴퓨터와 유사합니다. 주어진 프로세스를 디지털적으로 모사하는 대신, 우리는 자연이 제공하는 기회를 활용하고 아날로그 방식으로 실행해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스타트업 Extrophic은 이러한 칩의 개발에 착수하고 있습니다. Google과 마찬가지로, 이 회사는 Guillaume Verdon과 Trevor McCourt 두 사람에 의해 설립되었습니다. 이 두 사람은 회사를 설립하기 전에 양자 컴퓨팅 분야에서 일한 경험이 있으며, 그들의 칩은 전통적 통합 회로와 양자 컴퓨터 사이 어딘가에 위치하고 있습니다.
 
@@ -61,7 +101,18 @@ Extropic의 회로는 아날로그 방식으로 작동합니다. 시작 상태�
 
 이 아날로그 회로는 훨씬 빠르고 더 적은 에너지를 소비하며, 열 잡음은 양자 컴퓨터가 필요로 하는 특수 조건이 필요하지 않을 뿐만 아니라 작동의 필수 구성 요소입니다. 이 칩들은 기존 생산 기술을 사용하여 제조될 수 있으므로, 몇 년 안에 상용 시장에 진입할 수 있을 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에서 본 것처럼, 익스트로픽의 기술은 매우 유망합니다. 그러나 개인적으로 흥미를 끈 점은 이 기술이 생물학적으로 더 타당하다는 것입니다. 물론, 인공 신경망의 뉴런들이 인간 뇌의 뉴런들과 관련이 있다고 생각하지는 않습니다. 이 둘은 전혀 다른 시스템입니다. 그러나 인간 뇌는 경사 하강을 통해 학습하지 않습니다. 생물학적 학습은 전혀 다른 것이고, 우연은 그 중요한 역할을 하지요.
 

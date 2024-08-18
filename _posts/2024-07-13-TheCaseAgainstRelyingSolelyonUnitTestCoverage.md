@@ -3,17 +3,13 @@ title: "단위 테스트 커버리지에만 의존하지 말아야 하는 이유
 description: ""
 coverImage: "/assets/img/2024-07-13-TheCaseAgainstRelyingSolelyonUnitTestCoverage_0.png"
 date: 2024-07-13 23:32
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-TheCaseAgainstRelyingSolelyonUnitTestCoverage_0.png
 tag: Tech
 originalTitle: "The Case Against Relying Solely on Unit Test Coverage"
 link: "https://medium.com/better-programming/the-case-against-relying-solely-on-unit-test-coverage-1cb3977e38ac"
 isUpdated: true
 ---
-
-
-
-
 
 ![TheCaseAgainstRelyingSolelyonUnitTestCoverage](/assets/img/2024-07-13-TheCaseAgainstRelyingSolelyonUnitTestCoverage_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 유닛 테스트가 코드 일부를 커버한다고 해서 버그가 없음을 보장하는 것은 당연하지 않을 수 있습니다. 유닛 테스트는 개발자의 기대에 따라 제어된 환경에서 실행됩니다. 불행하게도, 실제 환경은 예측할 수 없는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비즈니스 로직은 동일한 코드 라인을 실행하는 여러 복잡한 상태를 가질 수 있습니다. 하나의 조건만을 테스트하는 것은 코드를 철저히 테스트하지 않는다는 것을 의미합니다. 비록 커버리지 숫자가 그렇게 말해주지만요.
 
@@ -44,7 +51,18 @@ fun foo(val x: Int, val y: Int) : Int {
 
 이 함수에는 두 가지 조건문이 있어 네 가지 가능한 상태를 발생시킵니다. 우리는 하나의 상태만을 cover해도 100% 코드 커버리지를 달성할 수 있습니다. 이것을 보여주는 테스트 함수가 여기 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @Test
@@ -73,8 +91,18 @@ fun divideByFoo(val x: Int, val y: Int, val z: Int ) : Int {
 
 한 번의 테스트로 100% 커버리지를 달성해 봅시다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 @Test
@@ -93,8 +121,18 @@ fun divideByFooTest() {
 
 다시 한 번 예를 살펴봅시다
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 @Test
@@ -112,8 +150,18 @@ fun fooTest() {
 
 ## 돌연변이로 테스트하라
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금까지 우리는 100% 커버리지를 달성하면서도 경우를 놓치는 테스트를 작성하는 것이 얼마나 쉬운지 살펴보았습니다. 만약 이러한 테스트를 찾아내는 방법이 있다고 말한다면 어떨까요? 바로 돌연변이 테스트입니다.
 
@@ -123,7 +171,18 @@ fun fooTest() {
 
 만약 여러분의 테스트가 실패하지 않았다면, 그건 나쁜 것만은 아닙니다. 돌연변이가 관련이 없는 줄을 변경했을 수도 있습니다. 그러나 일반적으로 돌아남은 돌연변이는 더 나은 테스트를 작성해야 한다는 것을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **충분한 검사를 보장하기 위해, 여러 분의 유전자 변형체를 생성하는 것이 좋습니다. 각각은 작은 변화 중 하나만 가지고 있어야 합니다. 테스트 스위트에 변이를 적용하는 것을 쉽게 만들어 주는 많은 라이브러리와 프레임워크가 있습니다. 우리 팀에서는 새로운 테스트가 병합되기 전에 자동으로 변이에 의해 검토됩니다. 우리는 모든 생존한 변이를 제거하려 하지 않지만, 그것들은 표시됩니다.**
 
@@ -133,7 +192,18 @@ fun fooTest() {
 
 **커버리지 지표는 목표가 되었을 때만 속이는 것입니다. 엔지니어들은 자신들의 영향을 양적으로 표현하는 것을 좋아합니다. 코드 커버리지는 낮은 과일처럼 쉽게 얻을 수 있는 것입니다. "프로젝트 코드 커버리지를 x% 증가시켰다"라고 성과 평가에서 써 넣는 것은 실제로는 생성자를 호출하는 테스트를 작성한 것뿐이기 때문에 누구에게도 도움이 되지 않습니다.**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테스트 전략의 결과물로 높은 코드 커버리지를 가져와야 하며, 최종 목표가 되어서는 안 됩니다. 각 엣지 케이스를 철저하게 테스트하면 높은 커버리지 수치에 도달하게 될 겁니다. 시간을 적당히 투자하여 테스트 전략을 계획하는 것이 중요합니다. 테스트 주도 개발을 채택할 필요는 없습니다.
 
@@ -143,7 +213,18 @@ fun fooTest() {
 
 높은 커버리지 수치와 견고한 단위 테스트 스위트를 갖고 있더라도, 통합 테스트는 필수입니다. 소프트웨어는 거의 결합된 부분들의 모음이 아닙니다. 이러한 부분들은 보통 함께 작동해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 유닛 테스트가 모든 상황에 대한 해답이어서는 안 됩니다. 어떤 코드는 유당 테스트로 철저히 테스트하기 어려울 수도 있습니다. 데이터베이스 트랜잭션이나 비즈니스 로직 확인만큼 간단한 것이 아니기 때문입니다. 이러한 상황은 테스트 도구 상자에서 다른 것을 찾도록 신호를 주어야 합니다.
 
@@ -158,7 +239,18 @@ fun simpleTest() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 에스프레소는 강력한 것들을 매우 적은 코드로 처리할 수 있는 몇 가지 추가적인 프레임워크가 내장되어 있습니다. 예를 들어, 사용자의 저장 목록에 항목을 추가하고 변경 사항이 UI에 반영되는지 확인하는 이와 같은 테스트가 만들어질 수 있습니다. 이 과정은 데이터베이스 트랜잭션, API 호출, UI 레이어 및 비즈니스 로직에 의존하는 흐름일 가능성이 높습니다.
 
@@ -177,7 +269,18 @@ fun addToSavedListTest() {
 
 ## 교훈
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테스트 커버리지는 제대로 활용할 때 가치 있는 지표가 될 수 있어요. 결함을 발견하고 트렌드를 강조하며 전반적인 테스트 강도를 엿볼 수도 있죠. 하지만 완벽한 것이 아니며, 너무 의존하면 오히려 해로울 수 있어요.
 

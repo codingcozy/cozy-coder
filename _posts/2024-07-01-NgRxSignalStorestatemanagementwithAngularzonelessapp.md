@@ -3,17 +3,13 @@ title: "Zoneless Angular 앱에서 NgRx SignalStore 상태 관리 방법"
 description: ""
 coverImage: "/assets/img/2024-07-01-NgRxSignalStorestatemanagementwithAngularzonelessapp_0.png"
 date: 2024-07-01 20:39
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-01-NgRxSignalStorestatemanagementwithAngularzonelessapp_0.png
 tag: Tech
 originalTitle: "NgRx SignalStore state management with Angular zoneless app."
 link: "https://medium.com/@serhiizhydetskyi/ngrx-signalstore-state-management-with-angular-zoneless-app-01ddc7e78571"
 isUpdated: true
 ---
-
-
-
-
 
 ![2024-07-01-NgRxSignalStorestatemanagementwithAngularzonelessapp_0.png](/assets/img/2024-07-01-NgRxSignalStorestatemanagementwithAngularzonelessapp_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 서버에서 가져온 책 목록이 있는 상황을 상상해보겠습니다. 이들을 상태로 유지하고, 제거하거나 책을 추가할 수 있는 페이지에 표시하는 작업을 수행해야 합니다(NgRx 문서에서 가져온 케이스입니다).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 할 수 있는 일은 무엇일까요? 우리는 모든 복잡성을 갖춘 NgRx 스토어를 사용할 수 있고, ngneat/elf store와 같은 더 간단한 솔루션을 사용할 수도 있어요. 이러한 기술을 사용하면 여전히 데이터 스트림(옵저버블)과 zone.js와 함께 작업할 것이지만, Angular의 마지막 18번째 버전은 zoneless change detection 접근 방식을 제안하고 있어요. 네, 현재는 실험적인 부분이라고 할 수 있지만, Ivy의 경우를 상기해보세요. Angular 8에서는 선택 사항이었지만, Angular 9에서는 표준이 되었고 View Engine을 사용하려면 다시 거슬러 올라가야 했어요. 그래서, 지금부터는 이 공개된(NgRx 팀이 발표한) 새로운 도구를 사용해 보려고 해요 (이 글을 작성하는 시점에는 RC 상태에요). 이제부터는 더 많은 코드와 간결한 설명으로 진행할게요 :)
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 서버에서 책 목록을 반환, 추가, 삭제하는 DataService가 있어요. 우리의 경우에는 서버 요청 수명을 흉내내기 위해 하드 코딩된 책 목록과 지연된 응답이 있는 서비스가 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import {Injectable} from "@angular/core";
@@ -113,27 +131,38 @@ export const BooksStore = signalStore(
 )
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금은 상태를 유지하기에 충분합니다. 이것을 어떤 컴포넌트에 주입하여 사용할 수 있습니다.
 
 ```js
 @Component({
-    selector: 'app-root',
-    standalone: true,
-    template: `
+  selector: "app-root",
+  standalone: true,
+  template: `
+    <div>
+      @for (book of booksStore.entities(); track book.id) {
       <div>
-          @for (book of booksStore.entities(); track book.id) {
-              <div>
-                  <div>{ book.name }</div>
-              </div>
-          }
+        <div>{ book.name }</div>
       </div>
+      }
+    </div>
   `,
-    providers: [BooksStore]
+  providers: [BooksStore],
 })
 export class App {
-    booksStore = inject(BooksStore);
+  booksStore = inject(BooksStore);
 }
 ```
 
@@ -143,7 +172,18 @@ export class App {
 - BooksStore에 책을 추가하는 함수 추가
 - BooksStore에서 책을 제거하는 함수 추가
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예시에서는 스토어에 있는 모든 책을 가져오는 것을 제안합니다. 이는 BooksStore가 Angular 컴포넌트에 주입될 때 서버에서 데이터를 가져오기 시작한다는 것을 의미합니다. (엄격하게 판단하지 마세요, SignalStore 훅을 보여주기 위해 이렇게 작성되었지만, 단순히 훅에서 메서드로 이동할 수 있습니다. 책을 추가하거나 제거하는 기능처럼).
 
@@ -156,7 +196,7 @@ export const BooksStore = signalStore(
         onInit(store, dataService = inject(DataService)) {
             dataService.getAllBooks().pipe(
                 takeUntilDestroyed(),
-                tap(books => patchState(store, setEntities(books))), 
+                tap(books => patchState(store, setEntities(books))),
             ).subscribe();
         },
         onDestroy(store) {
@@ -168,7 +208,18 @@ export const BooksStore = signalStore(
 
 이제, 책을 추가하고 제거하는 기능을 추가해봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export const BooksStore = signalStore(
@@ -176,7 +227,7 @@ export const BooksStore = signalStore(
     withHooks({
         onInit(store, dataService = inject(DataService)) {
             dataService.getAllBooks().pipe(
-                takeUntilDestroyed(), 
+                takeUntilDestroyed(),
                 // 서버에서 새 책 목록으로 상점을 패치하는 부분
                 tap(books => patchState(store, setEntities(books))),
             ).subscribe();
@@ -186,7 +237,7 @@ export const BooksStore = signalStore(
         },
     }),
     withMethods((store, dataService = inject(DataService)) => ({
-        
+
         // 책 추가 함수
         add: rxMethod<IBook>(
             pipe(
@@ -196,7 +247,7 @@ export const BooksStore = signalStore(
                         tapResponse({
                             next: (book) => {
                                 // 상태 패치
-                                // 책이 추가 또는 업데이트 될 것임 
+                                // 책이 추가 또는 업데이트 될 것임
                                 patchState(store, addEntity(book))
                             },
                             error: console.error,
@@ -206,7 +257,7 @@ export const BooksStore = signalStore(
                 })
             )
         ),
-        
+
         // 책 삭제 함수
         remove: rxMethod<IBook>(
             pipe(
@@ -279,7 +330,18 @@ export const BooksStore = signalStore(
 );
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 빙고를 외쳐 보세요! 우리는 SignalStore를 entities가 아닌 books라는 속성을 가진 객체와 함께 사용할 수 있습니다. 이 속성은 책의 배열인데요. 하지만 안타깝게도, 만약 add(book: IBook) 또는 update(book: IBook) 메소드를 추가한다면, books 배열에서 단일 책 항목을 패치할 수 없게 됩니다. 그래서 우리는 새로운 필터링되거나 확장된 책 배열로 booksStore.books 시그널 속성을 덮어쓸 수밖에 없습니다.
 
@@ -287,7 +349,18 @@ export const BooksStore = signalStore(
 
 따라서, 이 기사를 위한 BooksStore의 최종 버전은 다음과 같이 보일 것입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import {patchState, signalStore, withHooks, withMethods} from "@ngrx/signals";
@@ -364,48 +437,57 @@ BooksStore 클래스 작성이 완료되었습니다. 이제 사용 방법을 �
 
 ```js
 @Component({
-    selector: 'app-root',
-    standalone: true,
-    template: `
-      @if (bookStore.isLoading()) {
-          <div class="backdrop">
-              <div class="spinner"></div>
-          </div>
-      }
+  selector: "app-root",
+  standalone: true,
+  template: `
+    @if (bookStore.isLoading()) {
+    <div class="backdrop">
+      <div class="spinner"></div>
+    </div>
+    }
+    <div>
+      @for (book of booksStore.entities(); track book.id) {
       <div>
-          @for (book of booksStore.entities(); track book.id) {
-              <div>
-                  <div>{ book.name }</div>
-                  <button (click)="booksStore.remove(book)">remove book</button>
-              </div>
-          }
-          <button (click)="addBook()">Add book</button>
+        <div>{ book.name }</div>
+        <button (click)="booksStore.remove(book)">remove book</button>
       </div>
+      }
+      <button (click)="addBook()">Add book</button>
+    </div>
   `,
-    providers: [BooksStore]
+  providers: [BooksStore],
 })
 export class App {
-    booksStore = inject(BooksStore);
+  booksStore = inject(BooksStore);
 
-    addBook() {
-        this.booksStore.add({
-            id: RandomHelper.getRandomInt(10000, 99999),
-            name: RandomHelper.getRandomString(5),
-            pageCount: 0
-        });
-    }
+  addBook() {
+    this.booksStore.add({
+      id: RandomHelper.getRandomInt(10000, 99999),
+      name: RandomHelper.getRandomString(5),
+      pageCount: 0,
+    });
+  }
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보시다시피 상점 사용법은 꽤 간단합니다. 프로젝트 전반에 걸쳐 데이터 저장소를 사용해야 할 경우, 그것은 꽤 좋고 안정적이며 빠르게 사용할 수 있는 방법입니다. 페이지의 변경 사항은 Angular의 존리스(Zoneless) 접근 방식을 통해 자동으로 적용됩니다.
 
 ```js
 bootstrapApplication(AppComponent, {
-    providers: [
-        provideExperimentalZonelessChangeDetection()
-    ]
+  providers: [provideExperimentalZonelessChangeDetection()],
 }).then();
 ```
 
@@ -413,47 +495,58 @@ bootstrapApplication(AppComponent, {
 
 일부 Observable을 구독할 때 하는 것과 같이 변경 사항에 코드를 실행해야 할 필요가 있다면, Angular Signal 효과로 쉽게 할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @Component({
-    selector: 'app-root',
-    standalone: true,
-    template: `
+  selector: "app-root",
+  standalone: true,
+  template: `
+    <div>
+      @for (book of booksStore.entities(); track book.id) {
       <div>
-          @for (book of booksStore.entities(); track book.id) {
-              <div>
-                  <div>{ book.name }</div>
-                  <button (click)="booksStore.remove(book)">remove book</button>
-              </div>
-          }
-          <button (click)="addBook()">Add book</button>
+        <div>{ book.name }</div>
+        <button (click)="booksStore.remove(book)">remove book</button>
       </div>
+      }
+      <button (click)="addBook()">Add book</button>
+    </div>
   `,
-    providers: [BooksStore]
+  providers: [BooksStore],
 })
 export class App {
-    booksStore = inject(BooksStore);
+  booksStore = inject(BooksStore);
 
-    constructor() {
-        effect(() => {
-            const isLoading = this.booksStore.isLoading();
+  constructor() {
+    effect(() => {
+      const isLoading = this.booksStore.isLoading();
 
-            if (isLoading) {
-                console.log('Books loading')
-            } else {
-                console.log('Books loaded', untracked(this.booksStore.entities()))
-            }
-        });
-    }
+      if (isLoading) {
+        console.log("Books loading");
+      } else {
+        console.log("Books loaded", untracked(this.booksStore.entities()));
+      }
+    });
+  }
 
-    addBook() {
-        this.booksStore.add({
-            id: RandomHelper.getRandomInt(10000, 99999),
-            name: RandomHelper.getRandomString(5),
-            pageCount: 0
-        })
-    }
+  addBook() {
+    this.booksStore.add({
+      id: RandomHelper.getRandomInt(10000, 99999),
+      name: RandomHelper.getRandomString(5),
+      pageCount: 0,
+    });
+  }
 }
 ```
 
@@ -464,7 +557,18 @@ effect()에 전달된 화살표 함수는 this.booksStore.isLoading()의 변경 
 
 다음 글이 제가 작성한 다양한 형식과 데이터 서비스로 프로젝트 간에 사용할 수 있는 추상화된 스토어 로직에 관한 글이 필요하시다면 알려주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 예시 ( git & stackblitz )
 
@@ -474,7 +578,18 @@ effect()에 전달된 화살표 함수는 this.booksStore.isLoading()의 변경 
 
 ![GIF](https://miro.medium.com/v2/resize:fit:1200/1*7FTwCxciVW1J0WIMOenfpA.gif)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 유용한 링크:
 
@@ -482,7 +597,18 @@ effect()에 전달된 화살표 함수는 this.booksStore.isLoading()의 변경 
 - Angular zoneless: [여기를 클릭하세요](https://angular.dev/guide/experimental/zoneless)
 - NgRx SignalStore 문서: [여기를 클릭하세요](https://ngrx.io/guide/signals/signal-store)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 DeepSignal: [https://ngrx.io/api/signals/DeepSignal](https://ngrx.io/api/signals/DeepSignal)
 

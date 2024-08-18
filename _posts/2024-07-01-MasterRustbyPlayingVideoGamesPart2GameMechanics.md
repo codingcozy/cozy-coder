@@ -3,17 +3,13 @@ title: "비디오 게임으로 러스트 마스터하기 2부  게임 메커닉 
 description: ""
 coverImage: "/assets/img/2024-07-01-MasterRustbyPlayingVideoGamesPart2GameMechanics_0.png"
 date: 2024-07-01 17:46
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-01-MasterRustbyPlayingVideoGamesPart2GameMechanics_0.png
 tag: Tech
 originalTitle: "Master Rust by Playing Video Games (Part 2) — Game Mechanics"
 link: "https://medium.com/@jonte-osterberg/master-rust-by-playing-video-games-part-2-game-mechanics-110173e9986a"
 isUpdated: true
 ---
-
-
-
-
 
 1부를 아직 안 읽으셨나요? 확인해보세요!
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-07-01-MasterRustbyPlayingVideoGamesPart2GameMechanics_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 멋져요! 이제 우리가 만들고 있는 로봇을 이해해야 합니다. 로봇은 빌딩 화면에서 선택할 4개의 구성 요소가 있습니다. 현재 우리 로봇은 4개의 라이플을 가지고 있습니다. 이러한 구성 요소는 아래 이미지에 표시된 대로 숫자로 식별됩니다. 여기서 0은 앞, 1은 위, 2는 왼쪽, 3은 아래를 나타냅니다. 이는 머리의 방향에 기반합니다. 나중에 머리를 회전시킬 것입니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ![로봇 모듈](/assets/img/2024-07-01-MasterRustbyPlayingVideoGamesPart2GameMechanics_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼, 첫 번째 강력한 머신을 만드는 것으로 들어가 봅시다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 그래서 여기 커다란 무서운 코드 덤프 입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```rust
 #![allow(unused_must_use)]
@@ -80,14 +109,25 @@ pub fn main() {
 <img src="https://miro.medium.com/v2/resize:fit:1152/1*hDUUgh1Dy2iWkOXtpkviBQ.gif" />
 
 아아아아!? 무서워!! 하지만 걱정 마세요, 모두 함께 해결해 나갈 거에요. 한 걸음씩.
- 
+
 메인: 먼저, 우리의 main 함수를 살펴봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```rust
 pub fn main() {
-  
+
 }
 ```
 
@@ -101,7 +141,18 @@ loop {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 루프는 코드를 여러 번 반복해서 실행하는 데 정말 좋은 도구에요. 계속해서 반복해서 반복해서 반복해서 반복해서 반복해서 반복해서 반복해서… 이렇게 이해하시죠. '...' 안에 있는 내용이 계속해서 반복되죠. 멋지죠! 로봇이 끊임없이 작업을 실행하도록 원할 때 매우 유용한 기능이에요.
 
@@ -113,7 +164,18 @@ rbot::modules::await_module(rbot::modules::Module::Radar);
 
 로봇 명령어: 이제 레이다를 안전하게 사용하고 로봇으로부터 센서의 읽기 값이 돌아올 수 있어요. 이 메시지에는 적 로봇의 위치에 대한 정보가 포함되어 있어요. 이 정보를 통해 그 적을 조준하고 파괴할 수 있어요! 😈
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 let radar_msg = rbot::modules::radar().unwrap();
@@ -127,7 +189,18 @@ let angle = rbot::conversions::xy_to_angle(radar_msg.x, radar_msg.y);
 
 For-loop: Loop와 비슷하게, for-loop는 코드를 여러 번 반복해서 호출하는 데 사용됩니다. Loop와 for-loop의 차이점은 우리가 블록을 몇 번 실행할지를 지정할 수 있다는 것입니다. 이 경우에는 블록을 4번 실행할 것입니다. 또한 몇 번째 반복 중에 있는지를 나타내는 변수 i를 가지고 있을 것입니다. 이렇게 하면 모든 컴포넌트(조준하고 발사하는 등)에 대해 동일한 절차를 수행할 수 있습니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로봇 명령: 이 명령은 로봇이 지정된 각도를 향하도록 하는 것을 명령합니다. 로봇이 각도를 향할 때까지 코드는 실행을 멈추며, 허용 오차는 0.5도입니다. 한 번 로봇이 각도를 향했을 때, 코드는 계속 실행됩니다. 우리는 조준한 후에만 발포하길 원하기 때문에 정말 좋은 방법이죠! for 루프에서 i에 주목해주세요! 이전에 기사에서 설명한 대로 '0,1,2,3' 구성요소를 사용 중입니다.
 
@@ -141,7 +214,18 @@ rbot::await_aim(i, angle, 0.5);
 rbot::await_component(i);
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로봇 명령: 발사! 이제 우리는 소총으로 쏠 수 있어요! 우리 총알이 적에 맞아 가는 걸 지켜보고 승리의 달콤함을 누려보세요! 참고로, "false"는 로봇에게 소총을 계속 발사하지 말라고 말해요. 우리는 한 번만 쏘기를 원해요!
 
@@ -153,7 +237,18 @@ rbot::use_component(i, false);
 
 친절하게, 로봇을 컴파일하는 것을 기억해 주세요!!! 코드를 업데이트하더라도 아무것도 바뀌지 않는다고 생각하신다면, 아마 컴파일을 잊은 것일 겁니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 서버에 코드를 업로드하려면 뒤로 가기 버튼을 누르고 실행 버튼을 눌러주세요! 당신의 로봇은 랭킹에 따라 실력에 맞는 로봇과 대결하게 될 것입니다. 이기면 이기는 만큼 로봇의 랭킹이 올라갑니다.
 
@@ -163,7 +258,18 @@ rbot::use_component(i, false);
 
 이 기사는 많이 진전되었죠. 제가 알고 있어요! 우리는 일어날 수 있는 최소한의 장벽을 넘어야 했을 뿐입니다. 걱정하지 마세요, 앞으로 우리는 천천히 속도를 줄여 뒤로 한 걸음 물러서며 천천히 전진할 겁니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 기사를 기대해주세요! 거기에서는 Rust, 프로그래밍 및 로봇 공학 세계를 더 깊이 파헤쳐볼 예정이에요!
 

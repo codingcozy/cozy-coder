@@ -3,17 +3,13 @@ title: "LLM을 위한 지시어 파인 튜닝에 대한 포괄적인 소개"
 description: ""
 coverImage: "/assets/img/2024-06-19-AComprehensiveIntroductiontoInstructionFine-TuningforLLMs_0.png"
 date: 2024-06-19 03:09
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-AComprehensiveIntroductiontoInstructionFine-TuningforLLMs_0.png
 tag: Tech
 originalTitle: "A Comprehensive Introduction to Instruction Fine-Tuning for LLMs"
 link: "https://medium.com/towards-artificial-intelligence/a-comprehensive-introduction-to-instruction-fine-tuning-for-llms-c9d66e4bae08"
 isUpdated: true
 ---
-
-
-
-
 
 지시 튜닝은 큰 언어 모델(LLM)의 능력을 특정 지시를 따르도록 개선하기 위해 사용되는 과정입니다. InstructGPT의 작업은 먼저 지시 미세 조정에 대한 작업을 소개했습니다.
 
@@ -23,7 +19,18 @@ InstructGPT는 인간 지시를 더 잘 따르도록 GPT-3를 미세 조정하�
 
 ![image](/assets/img/2024-06-19-AComprehensiveIntroductiontoInstructionFine-TuningforLLMs_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 목차:
 
@@ -37,7 +44,18 @@ InstructGPT는 인간 지시를 더 잘 따르도록 GPT-3를 미세 조정하�
 
 큰 LLMs 및 GPT3와 같은 기본 모델들은 프롬프트에 포함된 지시사항을 식별하고 올바르게 zero-shot 추론을 수행할 수 있지만, 더 작은 LLMs와 같은 다른 모델들은 작업을 수행하지 못할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, "불어로 이 문장을 번역해주세요: '안녕, 어떻게 지내세요?'"라는 지시를 받으면 능력있는 LLM은 비슷한 번역 예시를 볼 필요 없이 올바른 번역 "Bonjour, comment ça va?"를 생성할 수 있습니다.
 
@@ -48,7 +66,18 @@ InstructGPT는 인간 지시를 더 잘 따르도록 GPT-3를 미세 조정하�
 - 프롬프트: "이 문장을 독일어로 번역해주세요: '좋은 아침.' 예시: '어떻게 지내세요?' - ` 'Wie geht es dir?'""
 - 모델 출력: "Guten Morgen."
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 모델은 제공된 예시를 사용하여 "Good morning"을 올바르게 번역하는 방법을 추론합니다.
 
@@ -59,7 +88,18 @@ InstructGPT는 인간 지시를 더 잘 따르도록 GPT-3를 미세 조정하�
 
 몇 가지 예시를 제공함으로써, 모델은 번역 작업에 대한 더 나은 이해를 얻고 정확한 결과를 내놓습니다. 파인 튜닝은 LLM의 가중치를 업데이트하기 위해 레이블이 지정된 예시를 사용하여 기본 모델을 더 학습시키는 솔루션을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2. 지시 사항 세부 조정 과정
 
@@ -69,13 +109,24 @@ InstructGPT는 인간 지시를 더 잘 따르도록 GPT-3를 미세 조정하�
 
 다양한 작업에 대한 지시 사항 세부 조정 예시:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 텍스트 분류:
 
-   - 작업: 영화 리뷰의 감정 분류
-   - 프롬프트: "이 리뷰의 감정을 분류하세요: '나는 이 영화를 정말 좋아했어요! 처음부터 끝까지 멋있었어요.'"
-   - 완료: "감정: 긍정적"
+  - 작업: 영화 리뷰의 감정 분류
+  - 프롬프트: "이 리뷰의 감정을 분류하세요: '나는 이 영화를 정말 좋아했어요! 처음부터 끝까지 멋있었어요.'"
+  - 완료: "감정: 긍정적"
 
 2. 텍스트 요약:
 
@@ -83,7 +134,18 @@ InstructGPT는 인간 지시를 더 잘 따르도록 GPT-3를 미세 조정하�
    - 프롬프트: "다음 기사를 요약하세요: '주식 시장은 역대급 성장을 보여주었으며, 주요 지수가 사상 최고치를 기록했습니다. 투자자들은 경제의 회복에 대해 낙관적입니다.'"
    - 완료: "요약: 경제 회복에 대한 낙관주의 속에서 주식 시장이 사상 최고치를 경신했습니다."
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 번역:
 
@@ -97,7 +159,18 @@ InstructGPT는 인간 지시를 더 잘 따르도록 GPT-3를 미세 조정하�
 - 프롬프트: “다음 글을 읽고 질문에 답하십시오: ‘중국의 만리장성은 세계에서 가장 유명한 구조물 중 하나입니다. 침입으로부터 보호하기 위해 건설되었습니다.’ 질문: 만리장성은 왜 지어졌습니까?”
 - 완료: “만리장성은 침입으로부터 보호하기 위해 건설되었습니다.”
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5. Named Entity Recognition (NER):
 
@@ -111,7 +184,18 @@ InstructGPT는 인간 지시를 더 잘 따르도록 GPT-3를 미세 조정하�
 - 향상된 정확도: 파인튜닝은 모델이 훈련된 작업에 대한 정확도를 크게 향상시키며 명확한 지침과 예시를 통해 학습합니다.
 - 문맥 처리 효율: 파인튜닝 후에는 프롬프트 내에서 여러 예시를 요구하지 않아도 되므로, 문맥 창에서 다른 관련 정보를 위한 공간을 절약할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3. 지시 데이터 세트 준비
 
@@ -122,7 +206,18 @@ InstructGPT는 인간 지시를 더 잘 따르도록 GPT-3를 미세 조정하�
 - Hugging Face의 NLP Datasets: Hugging Face는 자연어 처리 (NLP) 데이터 세트의 방대한 컬렉션을 제공하며, 이 중 많은 데이터 세트에 미리 정의된 프롬프트 템플릿이 함께 제공됩니다. 이 템플릿을 사용하면 사용자가 원시 데이터 세트를 지시 기반 프롬프트 형식으로 변환할 수 있습니다.
 - OpenAI의 GPT Prompt Engineering: OpenAI는 지시 엔지니어링을 위한 자원과 도구를 제공하며, 특정 작업에 맞춘 프롬프트 라이브러리를 포함합니다. 이러한 라이브러리는 분류, 텍스트 생성 및 요약과 같은 작업을 위한 사용 준비가 완료된 템플릿을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 라이브러리와 도구를 사용하면 지시용 데이터 세트를 만들 수 있습니다:
 
@@ -135,7 +230,18 @@ InstructGPT는 인간 지시를 더 잘 따르도록 GPT-3를 미세 조정하�
 
 지시 데이터 세트를 준비했다면, 이를 훈련, 검증 및 테스트 세트로 나눕니다. 세밀 조정 중에는 훈련 데이터 세트에서 프롬프트를 선택하고 LLM에 전달하여 완성본을 생성합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LLM 완성 결과를 교육 데이터에 지정된 응답과 비교하여 표준 교차 엔트로피 함수를 사용하여 손실을 계산하고 역전파를 통해 모델 가중치를 업데이트하십시오.
 
@@ -145,7 +251,18 @@ LLM 완성 결과를 교육 데이터에 지정된 응답과 비교하여 표준
 
 표준 지도 학습과 마찬가지로, 보유 검증 데이터 세트를 사용하여 LLM 성능을 측정하는 별도의 평가 단계를 정의하여 검증 정확도를 얻습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 미세 조정을 완료한 후, 테스트 정확도를 얻기 위해 홀드아웃 테스트 데이터셋을 사용하여 최종 성능 평가를 수행하십시오. 이때, 이메일 보완보상평가(BLEU) 및 ROUGE(Recall-Oriented Understudy for Gisting Evaluation)은 긴 통역모델 (LLM) 지침 미세 조정을 평가하는 데 사용되는 인기있는 두 평가 지표 중 하나입니다.
 
@@ -156,7 +273,18 @@ LLM 완성 결과를 교육 데이터에 지정된 응답과 비교하여 표준
 
 2. ROUGE (Recall-Oriented Understudy for Gisting Evaluation) 스코어:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 정의: 자동 요약 및 기계 번역을 평가하는 메트릭스 세트입니다. 이는 모델 출력물과 참조 텍스트 간의 n-gram의 중첩을 측정합니다.
 - 예시: 요약 작업의 경우, 높은 ROUGE 점수는 모델이 생성한 요약과 인간이 작성한 요약 간에 높은 중첩이 있음을 나타냅니다.
@@ -167,7 +295,18 @@ LLM 완성 결과를 교육 데이터에 지정된 응답과 비교하여 표준
 
 ## 만약 이 문서를 좋아하셨고 저를 지원하고 싶으시다면, 확인해주십시오:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 👏 이 이야기에 박수를 보내주세요 (50번 클랩!) 이 기사가 주목받을 수 있도록 도와주세요
 - To Data & Beyond 뉴스레터를 구독해주세요
@@ -182,6 +321,17 @@ LLM 완성 결과를 교육 데이터에 지정된 응답과 비교하여 표준
 - 멘토링 세션: [링크](https://lnkd.in/dXeg3KPW)
 - 장기적 멘토링: [링크](https://lnkd.in/dtdUYBrM)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-06-19-AComprehensiveIntroductiontoInstructionFine-TuningforLLMs_1.png)

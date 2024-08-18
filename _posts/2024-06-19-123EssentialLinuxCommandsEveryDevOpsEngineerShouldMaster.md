@@ -3,17 +3,13 @@ title: "모든 데브옵스 엔지니어가 숙달해야 할 123가지 필수 Li
 description: ""
 coverImage: "/assets/img/2024-06-19-123EssentialLinuxCommandsEveryDevOpsEngineerShouldMaster_0.png"
 date: 2024-06-19 04:38
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-123EssentialLinuxCommandsEveryDevOpsEngineerShouldMaster_0.png
 tag: Tech
 originalTitle: "123 Essential Linux Commands Every DevOps Engineer Should Master"
 link: "https://medium.com/@nidhiashtikar/essential-linux-commands-every-developer-should-master-a86905726d4a"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/1*BD9mlZ9FUpq8_NjXR-HPVQ.gif)
 
@@ -25,7 +21,18 @@ isUpdated: true
 
 # 파일 시스템 탐색 기본 (ls, cd, pwd):
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - ls: 현재 디렉토리의 내용을 나열합니다.
 - cd: 현재 디렉토리를 변경합니다. 예를 들어, cd Documents는 "Documents" 디렉토리로 이동합니다.
@@ -41,7 +48,18 @@ isUpdated: true
 
 ## 기본 텍스트 편집 (nano, vim):
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - nano: 사용하기 간편한 텍스트 편집기입니다. 파일을 편집하려면 nano 파일이름을 사용하세요. 기본 작업에 대한 화면 설명을 제공합니다.
 - vim: 강력하고 사용자 정의가 가능한 텍스트 편집기이지만 학습 곡선이 가파릅니다. 파일을 열려면 vim 파일이름을 사용하세요. 편집을 위해 삽입 모드로 진입하려면 i를 누르세요. 삽입 모드를 나가려면 Esc를 누르세요. 저장하고 나가려면 :wq를 입력하세요.
@@ -53,7 +71,18 @@ isUpdated: true
 - useradd: 시스템에 새 사용자 계정을 추가합니다. 구문: useradd 사용자명.
 - adduser: 사용자 친화적인 인터페이스로 사용자를 추가하며 추가 구성 옵션을 제공하기도 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자 삭제:
 
@@ -64,18 +93,40 @@ isUpdated: true
 
 - usermod: 사용자 계정 속성을 수정합니다. 예: 사용자명, 홈 디렉토리 또는 그룹 멤버십. 구문: usermod 옵션 사용자명.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자 암호 변경하기:
 
 - passwd: 사용자가 자신의 암호를 변경할 수 있도록 합니다. 관리자로서 다른 사용자의 암호를 변경하려면 passwd 사용자명을 입력하세요.
 
 사용자 정보 보기:
-   
+
 - id: 사용자 및 그룹 ID와 특정 사용자에 대한 추가 정보를 표시합니다. 구문: id 사용자명.
 - finger: 로그인 이름, 실제 이름, 터미널 등 자세한 사용자 정보를 제공합니다. 구문: finger 사용자명.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자 전환:
 
@@ -86,7 +137,18 @@ isUpdated: true
 - who: 현재 로그인한 사용자에 대한 정보를 표시합니다.
 - w: 현재 로그인한 사용자에 대해 자세한 정보를 제공하며, 그들이 무엇을 하는지도 포함합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 시스템 정보:
 
@@ -96,7 +158,18 @@ isUpdated: true
 
 시스템 하드웨어 정보보기:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - lscpu: CPU 아키텍처 및 프로세서 세부 정보를 제공합니다.
 - lshw: 메모리, 프로세서, 디스크 및 네트워크 정보를 포함한 자세한 하드웨어 구성을 나열합니다. 루트 권한 또는 sudo 액세스가 필요합니다.
@@ -111,7 +184,18 @@ isUpdated: true
 
 시스템 메모리 사용량 확인하기:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - free: 시스템에서 사용 가능한 메모리 및 사용 중인 메모리 양을 표시합니다. 전체, 사용 중 및 빈 메모리뿐만 아니라 버퍼 및 캐시에 대한 정보도 표시합니다.
 - vmstat: 프로세스, 메모리, 페이징, 블록 IO, 트랩 및 CPU 활동에 대한 정보를 보고합니다.
@@ -123,7 +207,18 @@ isUpdated: true
 
 네트워크 정보 보기:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - ifconfig 또는 ip addr: IP 주소, MAC 주소 및 네트워크 구성을 포함한 네트워크 인터페이스 정보를 표시합니다.
 - netstat: 네트워크 연결, 라우팅 테이블, 인터페이스 통계, 마스커레이드 연결 및 멀티캐스트 멤버십을 표시합니다.
@@ -141,7 +236,18 @@ Debian/Ubuntu 기반 시스템 (APT 사용):
 - apt search `키워드`: 지정된 키워드와 일치하는 패키지를 검색합니다.
 - apt list --installed: 모든 설치된 패키지를 나열합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Red Hat/CentOS 기반 시스템(YUM 또는 DNF 사용):
 
@@ -157,7 +263,18 @@ Red Hat/CentOS 기반 시스템(YUM 또는 DNF 사용):
 - rpm -qa: Red Hat/CentOS 기반 시스템에서 설치된 모든 패키지를 나열합니다.
 - dpkg -l: 데비안/우분투 기반 시스템에서 설치된 모든 패키지를 나열합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 파일 관리:
 
@@ -173,7 +290,18 @@ Red Hat/CentOS 기반 시스템(YUM 또는 DNF 사용):
 
 네트워크 구성:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - ifconfig 또는 ip addr: IP 주소, MAC 주소 및 네트워크 구성을 포함한 네트워크 인터페이스를 표시하거나 구성합니다.
 - iwconfig: 무선 네트워크 인터페이스를 구성합니다.
@@ -189,7 +317,18 @@ Red Hat/CentOS 기반 시스템(YUM 또는 DNF 사용):
 
 DNS 구성 및 해상도:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - dig: 다양한 DNS 레코드를 조회하고 DNS 서버를 쿼리하는 유틸리티입니다.
 - nslookup: 도메인 이름을 해결하기 위해 DNS 서버를 쿼리하는 또 다른 DNS 조회 유틸리티입니다.
@@ -202,7 +341,18 @@ DNS 구성 및 해상도:
 
 네트워크 진단:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - arp: IP-to-MAC 주소 변환 테이블을 표시하거나 조작합니다.
 - tcpdump: 리얼타임으로 네트워크 패킷을 캡처하고 분석합니다.
@@ -216,7 +366,18 @@ DNS 구성 및 해상도:
 
 기타 유틸리티:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 호스트 이름: 시스템의 호스트 이름을 표시하거나 설정합니다.
 - 라우트: IP 라우팅 테이블을 표시하거나 조작합니다.
@@ -232,7 +393,18 @@ DNS 구성 및 해상도:
 - pgrep: 이름 또는 다른 속성에 기반하여 프로세스를 찾고 해당 프로세스 ID를 출력합니다.
 - pstree: 프로세스의 계층적 관계를 보여주는 프로세스의 트리 다이어그램을 표시합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로세스 종료하기:
 
@@ -247,7 +419,18 @@ DNS 구성 및 해상도:
 - fg: 백그라운드로 전환된 프로세스를 포그라운드로 가져옵니다.
 - jobs: 현재 쉘과 연관된 활성 작업(백그라운드 프로세스)을 나열합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로세스 우선순위 및 제어:
 
@@ -263,7 +446,18 @@ DNS 구성 및 해상도:
 - pgrep: 이름 및 기타 속성에 따라 프로세스를 검색하고 해당 프로세스 ID를 출력합니다.
 - killall: PID가 아닌 이름으로 프로세스를 종료합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시스템 리소스 사용량:
 
@@ -275,7 +469,18 @@ DNS 구성 및 해상도:
 
 시스템 서비스 관리하기:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 systemctl: systemd 서비스를 제어하는 명령어로, 서비스를 시작하고 중지하며, 다시 시작하고, 활성화하고 비활성화하며, 서비스 상태를 확인할 수 있습니다. 예를 들어:
 
@@ -295,19 +500,41 @@ service: 전통적인 SysVinit 시스템에서 자주 사용되는 시스템 서
 - 서비스 활성화: sudo service 서비스명 enable
 - 서비스 비활성화: sudo service 서비스명 disable
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시스템 백업과 복원:
 
 백업:
 
 - tar: 파일을 단일 파일(타 볼)로 아카이빙하고 선택적으로 압축하는 명령입니다. 예를 들어:
-    - 타볼 생성: tar -cvf backup.tar /백업/경로
+  - 타볼 생성: tar -cvf backup.tar /백업/경로
 - rsync: 파일 및 디렉토리를 다양한 위치간에 동기화하는 명령으로, 주로 백업용으로 사용됩니다. 예를 들어:
 
 백업 파일: rsync -av /원본/디렉토리/ /대상/디렉토리/
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 복구를 위해 파일을 복원하는 방법입니다:
 
@@ -319,7 +546,18 @@ service: 전통적인 SysVinit 시스템에서 자주 사용되는 시스템 서
 
 디스크 관리:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - fdisk: 디스크 파티션을 조작하는 명령줄 유틸리티입니다. 디스크 파티션을 생성, 삭제 및 관리할 수 있습니다. 예를 들어:
 
@@ -329,7 +567,18 @@ fdisk 시작하기: sudo fdisk /dev/sdX
 
 ext4 파일 시스템으로 파티션 포맷: sudo mkfs.ext4 /dev/sdX1
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - mount: 파일 시스템을 디렉터리 트리에 장착하여 접근 가능하게 합니다. 예를 들어:
 
@@ -339,7 +588,18 @@ ext4 파일 시스템으로 파티션 포맷: sudo mkfs.ext4 /dev/sdX1
 
 디스크 공간 사용량 표시: df -h
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 주제:
 
@@ -360,7 +620,18 @@ greeting="Hello, world!"
 echo $greeting
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 원격 관리 (SSH, rsync):
 
@@ -374,7 +645,18 @@ ssh username@hostname
 - Rsync는 파일과 디렉토리를 효율적으로 동기화하는 유틸리티입니다.
 - 예시:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 rsync -av /로컬/경로/ username@원격호스트:/원격/경로/
@@ -386,8 +668,18 @@ rsync -av /로컬/경로/ username@원격호스트:/원격/경로/
 
 - 방화벽 규칙을 구성하기 위해 iptables (레거시) 또는 firewalld (현대)와 같은 도구가 사용됩니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SELinux (보안 강화된 리눅스):
 
@@ -399,7 +691,18 @@ AppArmor:
 - 프로그램 기능을 제한하는 의무적 액세스 제어 프레임워크입니다.
 - 상태를 확인하기 위한 apparmor_status 및 정책을 시행하기 위한 aa-enforce와 같은 명령어가 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가상화 및 컨테이너화 (VirtualBox, Docker):
 
@@ -410,7 +713,18 @@ VirtualBox:
 
 Docker:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 컨테이너에서 응용 프로그램을 개발, 배포 및 실행하는 플랫폼입니다.
 - 명령어에는 컨테이너가 실행되는 도커 런, 이미지를 빌드하는 도커 빌드, 여러 컨테이너 응용 프로그램을 위한 도커 컴포즈가 포함됩니다.
@@ -421,7 +735,18 @@ Docker:
 
 더 많은 학습을 원하시면 이렇게 🤗 함께하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특정 주제에 대해 궁금한 점이 있으면 개인적인 노트나 코멘트를 남겨주세요. 당신의 관심사를 더 탐구하는 데 도움을 드리기 위해 여기 있어요!
 

@@ -3,17 +3,13 @@ title: "라즈베리 파이 파일 및 미디어 서버 구축하기 홈 콘텐�
 description: ""
 coverImage: "/assets/img/2024-06-20-BuildingaRaspberryPiFileandMediaServerADIYGuideforSeamlessHomeContentSharing_0.png"
 date: 2024-06-20 17:33
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-BuildingaRaspberryPiFileandMediaServerADIYGuideforSeamlessHomeContentSharing_0.png
 tag: Tech
 originalTitle: "Building a Raspberry Pi File and Media Server: A DIY Guide for Seamless Home Content Sharing"
 link: "https://medium.com/@jayant.walvekar/building-a-raspberry-pi-file-and-media-server-a-diy-guide-for-seamless-home-content-sharing-edb9e275454c"
 isUpdated: true
 ---
-
-
-
-
 
 집 컴퓨터에 흩뿌려진 동영상과 사진들의 바다 속에서, 가족 간 콘텐츠 공유와 접근이 조금 꼬였죠. Windows, Linux, macOS, Android, 심지어 우리 TV와 호환되는 파일 및 미디어 서버 역할을 할 수 있는 중앙 허브가 필요했습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이후, OpenMediaVault를 우연히 발견했는데 처음에는 유망해 보였습니다. 알고 보니 exFAT과 잘 어우러지지 않았어요. 시간이 지날수록 오류를 다루고, 포맷을 하고, RaspberryOS를 다시 설치하는 등의 번거로움에 좌절했죠. 연결 문제의 연속 끝에, OpenMediaVault를 포기하고 파일 공유에는 SMB를, 미디어는 MiniDLNA를 활용해 직접 설정하기로 결심했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리눅스 터미널에 익숙해지긴 했지만, 좀 더 사용자 친화적인 것을 찾고 있었어요. 그래서 Cockpit 프로젝트를 발견하게 되었죠. "파일 공유"로 Samba와 NFS를 관리하는 편리한 애드온과, 세련된 파일 관리자인 "Navigator", 그리고 웹 기반 터미널 에뮬레이터까지 함께 사용하니 정말 편리했어요. 이제 Cockpit과 MiniDLNA로 만든 솔루션이 원활하게 작동하며, 라즈베리 파이가 가족들을 위한 콘텐츠 허브로 변모했어요.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 내 솔루션은 다음과 같은 하드웨어와 소프트웨어를 사용해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Raspberry Pi 4 Model B Rev 1.4, 쿼드 코어 CPU, 8GB RAM
 - 라즈베리 파이 OS Lite Legacy (Bullseye, Server)가 설치된 32GB SD 카드
@@ -48,7 +66,18 @@ isUpdated: true
 
 ![라즈베리 파이 설정](/assets/img/2024-06-20-BuildingaRaspberryPiFileandMediaServerADIYGuideforSeamlessHomeContentSharing_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 연결이 안전하게 완료되었는지 확인하고 라즈베리 파이를 켭니다. 최적의 안정성을 위해 WiFi보다는 유선 LAN 연결을 선택하는 것이 좋습니다. 왜냐하면 WiFi 연결은 추가적인 문제 해결 단계를 요구하는 구성에서 도전이 될 수 있습니다. 라즈베리 파이가 가동된 후에는 SSH 연결을 설정하기 위해 해당 IP 주소를 찾아야 합니다. 집 라우터에 액세스할 수 있다면, 라우터의 DHCP 클라이언트 목록에서 손쉽게 라즈베리 파이의 IP 주소를 찾을 수 있습니다.
 
@@ -58,7 +87,18 @@ isUpdated: true
 
 # 라즈베리 파이 OS 업데이트
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 확인해야 할 사항으로 운영 체제가 완전히 최신 상태인지 확인하는 것이 중요합니다.
 
@@ -71,7 +111,18 @@ sudo apt-get upgrade
 
 exFAT는 Microsoft에서 플래시 메모리용으로 개발한 파일 시스템입니다. 이는 프로프리어터리 파일 시스템으로 Linux의 공식적인 부분이 아닙니다. FUSE를 통해 exFAT 포맷을 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 명령어를 사용하여 FUSE를 설치하세요.
 
@@ -84,19 +135,41 @@ sudo apt-get install exfat-utils
 
 하드 디스크가 RPi에 전원 USB 허브를 통해 연결되었는지 확인하고 RPi의 USB 3 포트에 연결되었는지 확인하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째 단계는 하드 디스크가 감지되었는지 확인하는 것입니다. 다음 명령어는 연결된 모든 디스크를 나열합니다.
 
 ```js
-lsblk
+lsblk;
 ```
 
 저는 USB 하드 디스크 하나만 가지고 있으며 "sda"로 나타납니다. 이 디스크에는 하나의 파티션이 있고 "sda1"로 나타납니다.
 
 이 디스크를 어떤 폴더에 장착하여 디스크에 액세스할 수 있게 합니다. 폴더를 생성하고 소유권을 현재 사용자 "admin"에게 변경해줍시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 sudo mkdir /media/exthdd
@@ -111,10 +184,21 @@ sudo mount -t exfat /dev/sda1 /media/exthdd
 
 모든 것이 잘 되면 다음 명령어를 사용하여 디스크의 내용을 볼 수 있어야 합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-ls /media/exthdd
+ls / media / exthdd;
 ```
 
 라즈베리 파이 부팅 시 이 디스크를 자동으로 마운트하도록 구성할 것입니다. 먼저 디스크를 언마운트하세요.
@@ -125,7 +209,18 @@ sudo umount /media/exthdd
 
 구성에 필요한 UUID를 알아내야 합니다. 아래 명령어를 실행해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 sudo blkid
@@ -139,7 +234,18 @@ sudo blkid
 
 다음 단계를 위해 UUID인 “0AC8-A364”가 필요합니다. /etc/fstab 파일을 수정하고 마운트를 구성하십시오.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 sudo vi /etc/fstab
@@ -153,7 +259,18 @@ UUID=0AC8-A364 /media/exthdd exfat rw,user,dmask=0000,fmask=0000,nosuid,nodev,no
 
 이번에는 fstab을 사용하여 다시 마운트해 보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 sudo mount -a
@@ -162,14 +279,25 @@ sudo mount -a
 다시 한 번 디스크에 접근할 수 있는지 확인해 봅시다. 또한 테스트 파일을 생성하고 삭제하여 디스크에 쓰기 작업이 가능한지도 확인해 봅시다.
 
 ```js
-ls /media/exthdd
-touch /media/exthdd/test.txt
-rm -f /media/exthdd/test.txt
+ls / media / exthdd;
+touch / media / exthdd / test.txt;
+rm - f / media / exthdd / test.txt;
 ```
 
 모든 작업이 잘 되었다면, 재부팅 후에도 디스크가 마운트되어 접근 가능한 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Samba 설정
 
@@ -181,7 +309,18 @@ rm -f /media/exthdd/test.txt
 sudo apt-get install samba samba-common-bin
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 모든 사람들과 함께 전체 폴더 /media/exthdd를 공유할 수 있지만, 공유를 원하지 않는 다른 데이터를 저장할 수 있도록 별도의 공유 폴더를 유지하는 것이 좋습니다. "media-library"라는 이름의 공유 폴더를 만들어봅시다.
 
@@ -196,7 +335,18 @@ sudo adduser family
 sudo passwd family
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자 "admin"과 "family"에 Samba 액세스 권한을 부여할 것입니다. 이 명령어들은 Samba 액세스용 별도의 비밀번호를 입력하도록 요청할 것입니다.
 
@@ -211,7 +361,18 @@ sudo smbpasswd -a family
 sudo vi /etc/samba/smb.conf
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 현재 파일에 추가할 섹션입니다. 파일을 저장해주세요.
 
@@ -229,7 +390,18 @@ public=no
 
 서비스를 재시작해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 sudo systemctl restart smbd
@@ -243,8 +415,18 @@ net use Z: "\\rpi-home\media-library /user:<username> <password>
 
 macOS에서는 “smb:\\rpi-home\media-library” URL을 사용하여 Finder에서 서버에 연결할 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 미디어 서버 설정하기
 
@@ -256,7 +438,18 @@ sudo apt-get install minidlna
 
 미디어 서버의 이름을 설정하고 폴더를 노출시키기 위해 miniDLNA를 구성해야 합니다. 구성 파일을 편집해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 sudo vi /etc/minidlna.conf
@@ -274,7 +467,18 @@ media_dir=V,/media/exthdd/media-library/videos
 
 이 예시에서는 데이터를 이러한 방식으로 구조화했기 때문에 음악, 사진 및 비디오를 위한 별도 폴더를 추가했습니다. A, P 및 V는 해당 폴더를 각각 오디오, 이미지 및 비디오로 노출할 것을 미디어 서버에 전달하는 파일 유형입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 서비스를 다시 시작해 주세요.
 
@@ -286,7 +490,18 @@ sudo systemctl restart minidlna
 
 <img src="/assets/img/2024-06-20-BuildingaRaspberryPiFileandMediaServerADIYGuideforSeamlessHomeContentSharing_1.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 단계들로 충분히 시작할 수 있지만, 모든 설정 및 유지 관리는 터미널과 ssh를 통해 진행해야 합니다. 그러나 cockpit을 사용하면 웹 UI를 통해 모든 작업을 관리할 수 있는 도구들이 있습니다.
 
@@ -296,7 +511,18 @@ Cockpit은 리눅스 서버를 관리하기 위해 설계된 사용자 친화적
 
 우선 cockpit을 설치하고 다음 명령어로 정상 작동하는지 확인해봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 sudo apt install cockpit
@@ -314,7 +540,18 @@ sudo apt install cockpit-navigator
 sudo apt install cockpit-file-sharing
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Cockpit 콘솔의 파일 공유 메뉴에서 기존의 samba.conf 파일을 가져와서 Samba를 Cockpit에서 관리할 수 있습니다.
 

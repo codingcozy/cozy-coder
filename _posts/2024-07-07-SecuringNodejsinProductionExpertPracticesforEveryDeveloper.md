@@ -3,18 +3,13 @@ title: "Nodejs 프로덕션 환경 보안 모든 개발자를 위한 전문가�
 description: ""
 coverImage: "/assets/img/2024-07-07-SecuringNodejsinProductionExpertPracticesforEveryDeveloper_0.png"
 date: 2024-07-07 19:59
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-SecuringNodejsinProductionExpertPracticesforEveryDeveloper_0.png
 tag: Tech
 originalTitle: "Securing Node.js in Production: Expert Practices for Every Developer"
 link: "https://medium.com/javascript-in-plain-english/securing-node-js-in-production-expert-practices-for-every-developer-9343c1ee0f79"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![Node.js Security Guide](/assets/img/2024-07-07-SecuringNodejsinProductionExpertPracticesforEveryDeveloper_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 Node.js나 다른 웹 서버를 루트 사용자로 실행하면 중대한 보안 위험이 발생할 수 있습니다. 하나의 취약점이 공격자에게 서버 전체를 완전히 제어할 수 있는 권한을 부여할 수 있습니다. 대신 환경을 최소 권한으로 실행하도록 설정하세요.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 구현 통찰:
 
@@ -38,7 +43,18 @@ adduser --disabled-login nodejsUser
 
 Node.js 애플리케이션을 위한 샘플 Dockerfile
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 FROM node:18-alpine
@@ -59,7 +75,18 @@ CMD ["npm", "start"]
 
 Node.js 생태계의 의존성은 이중 검을 수 있습니다. 개발 속도를 크게 가속화하는 반면 취약점을 소개할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 구현 통찰력:
 
@@ -72,7 +99,18 @@ npm update && npm audit fix
 
 Snyk 통합:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Snyk은 취약점을 스캔하고 수정 사항이나 해결책을 제공하여 의존성 보안에 선제적으로 접근합니다.
 
@@ -87,7 +125,18 @@ snyk test
 
 # 3. 쿠키 이름 사용자 정의: 기술 스택 세부 정보 가리기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본적인 쿠키 이름을 변경하면 악당들이 공격을 조정하는 데 더 쉬워지는 앱의 기술적 특성을 쉽게 노출시킬 수 있습니다.
 
@@ -96,18 +145,31 @@ snyk test
 기본 세션 쿠키 이름을 기술이나 프레임워크와 관련없는 고유한 이름으로 변경하세요.
 
 ```js
-const express = require('express');
-const session = require('express-session')
-app.use(session({
-  // 세션 쿠키에 사용자 정의 이름 설정
-  name: 'siteSessionId',
-  // 세션 암호화를 위한 안전한 비밀 키
-  secret: 'complex_secret_key',
-  // 추가 세션 구성...
-}));
+const express = require("express");
+const session = require("express-session");
+app.use(
+  session({
+    // 세션 쿠키에 사용자 정의 이름 설정
+    name: "siteSessionId",
+    // 세션 암호화를 위한 안전한 비밀 키
+    secret: "complex_secret_key",
+    // 추가 세션 구성...
+  })
+);
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4. Helmet을 사용한 안전한 HTTP 헤더 구현: 방어 강화
 
@@ -117,23 +179,47 @@ app.use(session({
 
 Helmet.js는 기본적으로 안전한 HTTP 헤더를 설정하는 미들웨어입니다. 앱의 요구 사항에 맞게 사용자 정의할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 헬멧() 미들웨어는 자동으로 안전하지 않은 헤더를 제거하고 X-XSS-Protection, X-Content-Type-Options, Strict-Transport-Security, 그리고 X-Frame-Options를 포함한 새로운 헤더를 추가합니다. 이러한 설정은 최상의 사례를 강제하며 일반적인 공격으로부터 응용 프로그램을 보호하는 데 도움이 됩니다.
 
 ```js
-const helmet = require('helmet');
+const helmet = require("helmet");
 
-app.use(helmet({
-  // 여기에 사용자 정의 헬멧 구성 추가
-}));
+app.use(
+  helmet({
+    // 여기에 사용자 정의 헬멧 구성 추가
+  })
+);
 ```
 
 Mozilla Observatory와 같은 도구를 사용하여 정기적으로 헤더의 보안을 검토해보세요.
 
 # 5. 요청 속도 제한: 남용 방지
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 레이트 제한은 애플리케이션을 브루트 포스 공격과 DDoS로부터 보호하기 위해 사용자가 특정 시간 내에 요청할 수 있는 횟수를 제한하는 데 필수적입니다.
 
@@ -142,7 +228,7 @@ Mozilla Observatory와 같은 도구를 사용하여 정기적으로 헤더의 �
 express-rate-limit와 같은 라이브러리를 활용하여 손쉽게 레이트 제한을 설정할 수 있습니다.
 
 ```js
-const rateLimit = require('express-rate-limit');
+const rateLimit = require("express-rate-limit");
 
 const limiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15분
@@ -152,28 +238,50 @@ const limiter = rateLimit({
 app.use(limiter);
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 정상 사용자 행동을 기반으로 한 임계값을 설정하고 필요에 따라 조정하세요.
 
 ## 6. 강력한 인증 정책 강화: 비밀번호 이상
 
-인증 메커니즘은 공격자의 대상이 되는 경우가 많습니다. 견고한 인증 방법을 구현하는 것은 사용자 계정의 보안에 중요합니다. 
+인증 메커니즘은 공격자의 대상이 되는 경우가 많습니다. 견고한 인증 방법을 구현하는 것은 사용자 계정의 보안에 중요합니다.
 
 구현 통찰:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 안전한 암호 해싱을 위해 bcrypt를 구현합니다.
 - 암호 복잡성 요구 사항을 강제합니다.
 - 다단계 인증 (MFA)을 활용하여 더 많은 보안 층을 추가합니다.
 
 ```js
-const bcrypt = require('bcrypt');
+const bcrypt = require("bcrypt");
 const saltRounds = 10;
 
 // 비밀번호 해싱
-bcrypt.hash('userPassword', saltRounds, function(err, hash) {
+bcrypt.hash("userPassword", saltRounds, function (err, hash) {
   // 해시를 사용자의 비밀번호 데이터베이스에 저장합니다.
 });
 ```
@@ -182,7 +290,18 @@ bcrypt.hash('userPassword', saltRounds, function(err, hash) {
 
 # 7. 오류 세부 정보 최소화: 정보 누출 피하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자세한 오류 메시지는 공격자에게 귀하의 애플리케이션 아키텍처에 대한 통찰을 제공할 수 있어서 특정 공격을 용이하게 할 수 있습니다.
 
@@ -194,9 +313,20 @@ bcrypt.hash('userPassword', saltRounds, function(err, hash) {
 app.use((err, req, res, next) => {
   res.status(500).json({ error: "내부 서버 오류" });
 });
-``` 
+```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 서버 측에서 디버깅을 위해 자세한 오류를 기록하되, 사용자에게는 일반적인 메시지를 유지해주세요.
 
@@ -206,12 +336,23 @@ app.use((err, req, res, next) => {
 
 구현 통찰:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 애플리케이션 성능 모니터링(APM) 도구를 통합하여 애플리케이션 동작을 추적하고 보안 침해의 징후인 이상을 식별하세요.
 
 ```js
-const apmTool = require('apm-tool-of-choice');
+const apmTool = require("apm-tool-of-choice");
 
 apmTool.start({
   // 구성 옵션
@@ -222,7 +363,18 @@ apmTool.start({
 
 # 9. HTTPS 전용 정책 채택: 데이터 이동 중 암호화
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HTTPS는 서버와 사용자 사이의 데이터가 암호화되어 도청과 중간자 공격으로부터 보호된다는 것을 보장합니다.
 
@@ -239,7 +391,18 @@ app.use((req, res, next) => {
 });
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 무료 SSL/TLS 인증서를 받으려면 Let’s Encrypt와 같은 도구를 사용하세요.
 
@@ -249,17 +412,25 @@ app.use((req, res, next) => {
 
 구현 통찰:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 라이브러리 express-validator를 사용하여 사용자 입력에 대한 유효성 검사 규칙을 정의하세요.
 
 ```js
-const { body, validationResult } = require('express-validator');
+const { body, validationResult } = require("express-validator");
 
-app.post('/register', [
-  body('email').isEmail(),
-  body('password').isLength({ min: 5 })
-], (req, res) => {
+app.post("/register", [body("email").isEmail(), body("password").isLength({ min: 5 })], (req, res) => {
   const errors = validationResult(req);
   if (!errors.isEmpty()) {
     return res.status(400).json({ errors: errors.array() });
@@ -273,7 +444,18 @@ app.post('/register', [
 
 # 11. 보안 린터 활용
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드에서 잠재적인 보안 위험 요소를 자동으로 식별할 수 있는 도구를 사용하세요.
 
@@ -289,7 +471,18 @@ app.post('/register', [
 npm install eslint eslint-plugin-security --save-dev
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```json
 {
@@ -306,7 +499,18 @@ npx eslint .
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Node.js 어플리케이션을 보호하는 것은 방어층을 여러 겹으로 갖는 지속적인 과정입니다. 이 안내서에서 제시된 사례를 실행함으로써, Node.js 어플리케이션의 보안을 크게 향상시킬 수 있습니다. 최신 보안 위협에 대해 알아두고 계속해서 보안 사례를 업데이트하여 변화하는 위험에 대비하세요.
 

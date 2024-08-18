@@ -3,17 +3,13 @@ title: "MLOps 로드맵  2024년 MLOps 엔지니어가 되는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-23-MLOpsRoadmapHowToBecomeMLOpsEngineerin2024_0.png"
 date: 2024-06-23 18:46
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-MLOpsRoadmapHowToBecomeMLOpsEngineerin2024_0.png
 tag: Tech
 originalTitle: "MLOps Roadmap | How To Become MLOps Engineer in 2024"
 link: "https://medium.com/@deasadiqbal/mlops-roadmap-how-to-become-mlops-engineer-in-2024-76196b1dbdf6"
 isUpdated: true
 ---
-
-
-
-
 
 2024년에 MLOps 엔지니어가 되기 위한 포괄적인 MLOps 로드맵
 
@@ -23,7 +19,18 @@ AI 분야에 계시고 머신 러닝에 대해 궁금해하시나요? MLOps에 �
 
 MLOps는 신비한 용어처럼 들릴 수도 있지만 걱정 마세요! 🤔 이 MLOps 로드맵에서 함께 MLOps의 신비를 탐험해보겠습니다. 🌟
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제가 도와드릴 수 있어요! 명확한 계획을 제시해드릴게요. MLOps가 무엇인지 설명하고 한 단계씩 안내하여 MLOps를 이해할 수 있도록 도와드릴 거에요.💼
 
@@ -33,7 +40,18 @@ MLOps는 신비한 용어처럼 들릴 수도 있지만 걱정 마세요! 🤔 �
 
 ![MLOpsRoadmap](/assets/img/2024-06-23-MLOpsRoadmapHowToBecomeMLOpsEngineerin2024_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Python
 - R
@@ -46,7 +64,18 @@ MLOps는 신비한 용어처럼 들릴 수도 있지만 걱정 마세요! 🤔 �
 - 쉽게 배우고, 쉽게 사용: Python의 명확한 구문과 초보자 친화적인 특성은 MLOps 여정을 시작하는 사람들에게 좋은 선택지에요. 금방 익숙해질 거예요!
 - 다른 도구들과 잘 어울려요: Python은 인기 있는 데이터 과학 및 소프트웨어 개발 도구와 완벽하게 통합되어, 여러분의 MLOps 파이프라인을 워크플로우의 다른 부분과 쉽게 연결할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## MLOps을 위한 R
 
@@ -56,9 +85,20 @@ MLOps는 신비한 용어처럼 들릴 수도 있지만 걱정 마세요! 🤔 �
 
 # 2- 기계 학습:
 
-<img src="/assets/img/2024-06-23-MLOpsRoadmapHowToBecomeMLOpsEngineerin2024_2.png" />  
+<img src="/assets/img/2024-06-23-MLOpsRoadmapHowToBecomeMLOpsEngineerin2024_2.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기계 학습(ML)은 MLOps의 기초입니다. 이것은 컴퓨터가 데이터로부터 배우고 명시적인 프로그래밍 없이 예측하거나 결정을 내릴 수 있는 기적입니다. 그런데 기계 학습은 MLOps에 어떻게 맞는 걸까요? 함께 살펴봅시다:
 
@@ -75,7 +115,18 @@ MLOps를 기름칠한 기계로 상상해보세요:
   - 딥 러닝: 인간 두뇌에서 영감을 받은 딥 러닝은 이미지 인식이나 자연 언어 처리와 같은 복잡한 작업에 뛰어납니다.
 - MLOps는 엔지니어 역할을 합니다: ML 모델을 교육하고 배포하며 성능을 모니터링하고 최신 상태를 유지하도록 자동화합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3- 클라우드 플랫폼 - MLOps를 강화하세요
 
@@ -88,7 +139,18 @@ MLOps 파이프라인을 구축하고 관리할 때, 클라우드 플랫폼은 �
 - 자동화된 워크플로우: 클라우드 플랫폼은 모델 훈련, 배포, 모니터링과 같은 MLOps 작업을 자동화하는 데 능숙합니다. 이는 팀이 더 전략적인 이니셔티브에 집중할 수 있도록 해줍니다.
 - 비용 효율성: 클라우드 플랫폼을 사용하면 사용한 리소스만 지불하면 됩니다. 이는 유지 관리 비용이 비실 수 있는 기존 온프레미스 인프라에 비해 상당한 장점입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인기있는 클라우드 플랫폼 중에서 강력한 MLOps 기능을 제공하는 몇 가지가 있습니다:
 
@@ -100,7 +162,18 @@ MLOps 파이프라인을 구축하고 관리할 때, 클라우드 플랫폼은 �
 
 ![이미지](/assets/img/2024-06-23-MLOpsRoadmapHowToBecomeMLOpsEngineerin2024_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 놀라운 MLOps 파이프라인을 구축하고 있을 때 작은 변경으로 모든 것이 망가지는 일이 발생하면 어떨까요! 그럴 때 버전 관리가 구조를 구할 수 있어요.
 
@@ -113,7 +186,18 @@ MLOps 파이프라인을 구축하고 관리할 때, 클라우드 플랫폼은 �
 
 MLOps에서 버전 관리가 어떻게 작동하는지 Çómo funciona el control de versiones en MLOps
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 간단한 내용이에요:
 
@@ -128,7 +212,18 @@ MLOps를 위한 인기 있는 버전 관리 시스템:
 - DVC (데이터 버전 관리): 데이터 과학 프로젝트를 관리하기 위해 특별히 설계된 DVC는 데이터셋과 모델의 버전을 관리하기 위해 Git과 원활하게 작동합니다.
 - MLflow: ML 라이프사이클을 관리하기 위한 오픈 소스 플랫폼으로, 모델과 실험의 버전 관리를 포함합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 버전 관리는 모든 MLOps 실무자에게 필수적인 도구입니다. 안정성, 협업 및 실험 및 학습 능력을 보장합니다. 버전 관리를 통해 견고하고 신뢰할 수 있는 MLOps 파이프라인을 구축하여 실질적인 가치를 제공할 수 있습니다.
 
@@ -138,7 +233,18 @@ MLOps를 위한 인기 있는 버전 관리 시스템:
 
 최신 AI 모델을 대량으로 생산하는 공장을 구축한다고 상상해보세요. 그것이 바로 MLOps 파이프라인이 하는 일인데, 물리적인 기계 대신 소프트웨어 자동화를 사용합니다. 이때 CI/CD (지속적 통합 및 지속적 전달/배포)가 비밀 무기로 작용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 MLOps에서의 CI/CD는 미리 정리된 것처럼 잘 짜여진 조립 라인의 역할을 합니다:
 
@@ -153,7 +259,18 @@ MLOps에서의 CI/CD는 미리 정리된 것처럼 잘 짜여진 조립 라인�
 
 MLOps의 CI/CD의 장점:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 빠른 혁신: 파이프라인 자동화를 통해 모델을 더 빠르게 개선하며 성능을 지속적으로 향상시킬 수 있습니다.
 - 오류 감소: 자동화된 테스트는 버그를 조기에 발견하여 제품 모델에 영향을 미치지 않도록 합니다.
@@ -166,7 +283,18 @@ CI/CD 배우기:
 
 # 6- 컨테이너화:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![MLOps Roadmap](/assets/img/2024-06-23-MLOpsRoadmapHowToBecomeMLOpsEngineerin2024_6.png)
 
@@ -179,7 +307,18 @@ CI/CD 배우기:
 - 격리로 정리를 유지합니다: 컨테이너는 서로와 호스트 시스템과 격리됩니다. 이는 서로 다른 모델이나 라이브러리 간 충돌을 방지하여 MLOps 파이프라인을 안정적이고 안전하게 유지합니다.
 - 확장성 승리! 더 많은 데이터나 예측을 처리해야 한다면? 문제 없습니다! 파이프라인에 더 많은 컨테이너를 추가하기만 하면 됩니다. 컨테이너는 여러분의 요구에 기반하여 쉽게 확장하거나 축소할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 도구:
 
@@ -189,7 +328,18 @@ CI/CD 배우기:
 
 내 글을 읽어 주셔서 감사합니다; 내 컨텐츠가 마음에 들었다면 Patreon에서 지원하는 것이 최선입니다 —
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-23-MLOpsRoadmapHowToBecomeMLOpsEngineerin2024_7.png" />
 

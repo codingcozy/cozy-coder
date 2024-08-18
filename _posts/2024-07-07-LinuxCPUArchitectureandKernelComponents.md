@@ -3,17 +3,13 @@ title: "리눅스  CPU 아키텍처와 커널 구성 요소 이해하기"
 description: ""
 coverImage: "/assets/img/2024-07-07-LinuxCPUArchitectureandKernelComponents_0.png"
 date: 2024-07-07 22:32
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-LinuxCPUArchitectureandKernelComponents_0.png
 tag: Tech
 originalTitle: "Linux — CPU Architecture and Kernel Components"
 link: "https://medium.com/@tonylixu/linux-cpu-architecture-and-kernel-components-062e05c44614"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-07-07-LinuxCPUArchitectureandKernelComponents_0.png" />
 
@@ -23,6 +19,17 @@ isUpdated: true
 
 # BIOS (Basic Input/Output System):
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 BIOS는 컴퓨터가 부팅될 때 사용되는 미리 설치된 프로그램입니다. 컴퓨터 메인보드의 칩에 저장되어 있으며 전원이 켜질 때 가장 먼저 실행되는 소프트웨어입니다. BIOS는 시스템을 준비하고 하드웨어를 확인하며 운영 체제가 컴퓨터 하드웨어에서 실행되도록 합니다. 또한 시스템 시간 및 부팅 순서와 같은 다양한 설정을 관리할 수 있게 합니다. BIOS는 널리 사용되지만 부팅 시간이 느리고 하드 디스크 크기에 제한이 있는 등 특정 제한이 있습니다.

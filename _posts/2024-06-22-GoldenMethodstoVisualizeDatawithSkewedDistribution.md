@@ -3,17 +3,13 @@ title: "치우친 분포 시각화에 유용한 데이터 시각화 기법 5가�
 description: ""
 coverImage: "/assets/img/2024-06-22-GoldenMethodstoVisualizeDatawithSkewedDistribution_0.png"
 date: 2024-06-22 16:38
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-GoldenMethodstoVisualizeDatawithSkewedDistribution_0.png
 tag: Tech
 originalTitle: "Golden Methods to Visualize Data with Skewed Distribution"
 link: "https://medium.com/@yuanbo.faith/golden-methods-to-visualize-data-with-skewed-distribution-13f0b2a0db99"
 isUpdated: true
 ---
-
-
-
-
 
 ## 클러스터링된 데이터에서 숨겨진 패턴을 발견하는 주요 기술
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 투명도, 비어 있는 원, 색상 및 주변 분포를 사용하여 클러스터링된 데이터 패턴 드러내기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 왼쪽의 scatterplot은 주택 판매량과 가격 간의 관계를 보여줍니다. 높은 판매량에서의 희소한 데이터 포인트는 대부분의 데이터를 플롯의 왼쪽 가장자리로 쫓아가게 합니다. 이는 중요한 데이터 포인트 클러스터링 및 겹침으로 이어지며 기저 분포 패턴을 가리게 만듭니다.
 
@@ -36,7 +43,18 @@ isUpdated: true
 - 색상은 데이터 패턴을 드러내는 데 중요한 도구입니다. 이 경우 다른 도시의 점들을 다양한 색상으로 보여줌으로써 도시가 가격과 판매에 미치는 영향이 데이터 변동성의 중요한 소스임을 강조합니다.
 - 단변량 분포의 주변 시각화는 비대칭성의 원인을 보여줍니다. 여기서는 판매량 (x 축) 및 가격 (y 축)의 분포를 바코드 이미지와 밀도 플롯으로 표시했습니다. 이를 통해 판매량이 주요하게 비대칭된 변수임을 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 데이터를 각 왜도 소스별로 서브플롯으로 분할하기
 
@@ -46,7 +64,18 @@ isUpdated: true
 
 도시 변수를 데이터 왜도의 중요한 소스로 식별하고, 각 도시별로 서브플롯을 만들어 데이터 왜도를 줄인 데 운이 좋았지만, 다른 데이터 시각화 작업에서 이렇게 할 수 있는 것은 항상 쉽거나 가능한 것은 아닙니다. 또한, 고집 센 이상치는 단일 변수 내에서 존재할 수 있으며, 서브플롯을 만들어 해결할 수 없습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 토론에서는 도시 변수의 서브플롯에 의존하지 않고, 왜곡된 데이터셋을 시각화하는 기술을 직접 시연할 것입니다.
 
@@ -56,7 +85,18 @@ isUpdated: true
 
 ![2D 히스토그램으로 왜곡된 데이터 시각화하기](/assets/img/2024-06-22-GoldenMethodstoVisualizeDatawithSkewedDistribution_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2D 밀도 플롯 생성
 
@@ -66,7 +106,18 @@ isUpdated: true
 
 <img src="/assets/img/2024-06-22-GoldenMethodstoVisualizeDatawithSkewedDistribution_3.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 💡 보다 눈에 띄게 희소한 데이터를 보기 쉽게 만들기 위해, 먼저 밀도 값을 세제곱근으로 변환했습니다. 이 값들을 색상 스케일에 매핑했습니다. 세제곱근 변환은 밀도 값을 소수점 숫자의 값으로 증가시키지만 (밀도 값의) 영(零)에는 영향을 주지 않습니다. 이러한 방식으로 변환된 데이터는 배경 위에 "높게" 떠 있어서 더욱 쉽게 구별할 수 있도록 해주며, 밀집된 데이터 중심과 희소한 데이터 지역을 아주 잘 드러내줍니다. (그러나 소수점 숫자의 팽창 효과는 경우에 따라 원하지 않는 시각적 효과를 초래할 수 있음을 나중 예제에서 보여드릴게요.)
 
@@ -76,9 +127,20 @@ isUpdated: true
 
 히트맵은 제곤지북 반경 당 아프리카 인구를 보여줍니다: 최소 밀도는 0(지도상의 이집트 대부분 지역 등)이며, 0.0000004에서 20,000까지의 비영(非零)값 범위가 있습니다. 대부분의 밀도 값은 제한된 지리적 지역에서만 발견됩니다. 밀도는 클래식 버리디스 색상 스케일로 반영되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-만약 데이터 변환을 하지 않은 상태에서는 지도가 완전히 검게 나옵니다 (왼쪽 플롯 참조): 매우 흩어진 대 값들(밝은 색으로 표시되는)이 작은 숫자들의 대부분에 의해 압도당하고 무시당합니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+만약 데이터 변환을 하지 않은 상태에서는 지도가 완전히 검게 나옵니다 (왼쪽 플롯 참조): 매우 흩어진 대 값들(밝은 색으로 표시되는)이 작은 숫자들의 대부분에 의해 압도당하고 무시당합니다.
 
 <img src="/assets/img/2024-06-22-GoldenMethodstoVisualizeDatawithSkewedDistribution_4.png" />
 
@@ -86,7 +148,18 @@ isUpdated: true
 
 의사 로그 변환은 큰 수를 위한 전통적인 로그 연산을 수행하나 값이 0에 접근할 때 선형 스케일로 점진적으로 전환됩니다. 큰 값과 분수적인 값, 그리고 0(음수 값 포함)을 부드럽게 처리합니다. 이러한 변환은 주요 지리적 위치와 지도상의 광활한 사하라 사막의 가혹한 환대를 강조한 잘 정의된 데이터 패턴을 보여주는 인상적인 히트맵을 생성합니다. 놀라운 기법의 자세한 내용은 이 기사에서 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 의사로그 변환과 비교하면, 높은 베이스(예: 7 ~ 10)를 가진 루트 변환은 유사한 시각적 효과를 얻습니다. 그러나 이집트와 일부 다른 장소는 검게 처리됩니다. 이는 루트 변환 때문에 분수를 팽창시키지만 0은 영향을 받지 않기 때문입니다. 이로 인해 변환된 분수와 0 사이에 급격한 불연속성이 발생하여, 이집트와 주변 지역 사이에 갑작스러운 색상 전환으로 반영됩니다. (더 많은 토론은 위에 링크된 동일한 기사에서 찾을 수 있습니다)
 
@@ -96,8 +169,18 @@ isUpdated: true
 
 이제 부동산 매매 가격 예시로 다시 돌아가봅시다. 아래 그래프들에서 x축은 10을 기준으로 한 로그 스케일로 변환됩니다. 이렇게 하면 보통 매우 모여 있는 데이터 포인트들이 데이터 구조를 밝혀내기 위해 더 넓은 범위로 펼쳐집니다. 재미를 더하기 위해 같은 데이터로 두 그래프를 만들었는데, 왼쪽은 각 포인트의 이웃 번호를 색상 스케일로 선형 매핑한 산점도이며, 오른쪽 그래프는 콘투어 서클로 이산화된 2D 히스토그램이며, 연속으로 확률 밀도 함수를 그리고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Golden Methods to Visualize Data with Skewed Distribution](/assets/img/2024-06-22-GoldenMethodstoVisualizeDatawithSkewedDistribution_5.png)
 
@@ -107,8 +190,18 @@ isUpdated: true
 
 수학적 변환은 분포 프로필을 항상 변경하지는 않음을 유의하세요. 예를 들어, 평균으로 중심화하고 표준 편차로 스케일링하여 표준화된 z-점수로 변환하거나 [0, 1] 범위로 정규화하여 최솟값을 뺀 다음 최대값과 최소값의 차이로 스케일링하는 것은 이러한 맥락에서 분포 패턴을 변경하지 않습니다. 이러한 방법은 (다변량 모델링 및 주성분 분석과 같은 관련 시각화에서 중요하지만) 비대칭 데이터를 시각화하는 데 효과적이지 않습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 클러스터린된 데이터 지역 확대
 

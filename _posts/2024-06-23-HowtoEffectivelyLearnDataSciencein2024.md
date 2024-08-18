@@ -3,17 +3,13 @@ title: "2024년 데이터 사이언스를 효과적으로 배우는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-23-HowtoEffectivelyLearnDataSciencein2024_0.png"
 date: 2024-06-23 16:07
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-HowtoEffectivelyLearnDataSciencein2024_0.png
 tag: Tech
 originalTitle: "How to Effectively Learn Data Science in 2024"
 link: "https://medium.com/illumination/how-to-effectively-learn-data-science-in-2024-b3f508db4f67"
 isUpdated: true
 ---
-
-
-
-
 
 ## 데이터 과학 직업 준비를 위한 자기 학습 안내서
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 당신은 어떠신가요? 당신도 스스로 학습하는 길을 걷고 계신가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 친구야, 너에게 흥미로운 이야기 하나를 전하고 싶어. 오늘날의 셀프 러닝은 내 초창기때와 비교하면 정말 산만해졌어. 핵심은? - AI 도구, 특히 ChatGPT야.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 이 여정에 도전할 준비가 됐니? 함께 뛰어드는 거야!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 기초 이해하기
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 이제, 자기 학습자들이 데이터 과학에 뛰어들 때 자주 하는 큰 실수에 대해 이야기해봐요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자주 그들은 "통계"를 건너뛰고 Python, SQL 또는 다른 기술적인 것으로 바로 가곤 합니다.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 이게 왜 중요한지 궁금하시다구요? 제 글을 확인해 보세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🎯 통계를 위한 할 일 체크리스트:
 a. 확률 이론
@@ -67,7 +107,18 @@ d. 통계 기계 학습
 
 통계에 감을 잡았다면요? 좋아요! 다음 단계는 데이터 과학 스킬을 향상시키기 위한 프로그래밍 언어를 선택하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 선택할 수 있는 좋은 두 가지 옵션이 있어요: Python과 R.
 
@@ -77,7 +128,18 @@ d. 통계 기계 학습
 
 왜냐면? — Python은 너무 다재다능하고 익히기 쉬운데요. 게다가 Python은 다양한 라이브러리가 채워져 있어요. 이들은 데이터 처리, 복잡한 계산을 하거나 다른 작업을 수행할 때 일을 훨씬 더 쉽게 만들어주는 도구상자와 같아요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한편, R은 정말 대단해요. 특히 통계에 관심이 많다면 더욱 좋아할 거예요. 통계 분석을 위한 언어로 R을 선택하는 것이 좋죠. 하지만 기억하세요, R은 주로 통계에 관한 것에 집중되어 있어요.
 
@@ -92,7 +154,18 @@ c. 시각화 (Matplotlib 및 Seaborn 라이브러리)
 d. 데이터 수집 (BeautifulSoup, Scrapy, Selenium 또는 Requests 라이브러리)
 e. 에러 처리와 디버깅
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 📚 자료: 초보자를 위한 파이썬 데이터 분석 50일: 궁극의 도전서
 
@@ -102,7 +175,18 @@ e. 에러 처리와 디버깅
 
 데이터 과학에 입문한 사람으로써, 데이터에 뛰어들어 눈을 뜨게 하는 통찰을 찾는 것만이 전부인 줄 착각하기 쉽습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대부분의 시간을 데이터 분석이나 복잡한 모델 작성에 소비하는 것이 유혹적일 수 있습니다.
 
@@ -112,7 +196,18 @@ EDA는 모든 회사의 데이터 과학 작업의 기초입니다.
 
 데이터를 정리, 요약, 변환 및 시각화하는 것이 포함됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 작업들은 모델을 구축하는 것만큼 화려하지 않을지도 모릅니다만, 그들은 중요합니다.
 
@@ -122,7 +217,18 @@ EDA는 모든 회사의 데이터 과학 작업의 기초입니다.
 
 효과적인 EDA를 수행하는 방법을 배우고 싶다면, 이 문서를 읽어보세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 📝 제 블로그 글:
 a. 효과적인 탐색적 데이터 분석 (EDA) 진행 방법
@@ -138,7 +244,18 @@ d. 데이터 시각화
 
 ## 4. SQL (데이터 조작 및 추출)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이썬에 이어 프로그래밍 세계에서 또 다른 중요한 요소인 SQL(구조화된 질의 언어)이 있습니다.
 
@@ -148,7 +265,18 @@ SQL은 모든 산업에서 열광적으로 수요되는 기술입니다. 데이�
 
 SQL 쿼리를 읽고 쓰며 최적화하는 능력은 데이터를 추출하고 조정하는 데 중요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 정말 데이터 게임을 끌어올리는 기술이에요!
 
@@ -164,7 +292,18 @@ d. 저장된 프로시저(Stored Procedures)
 a. 데이터 위저드를 위한 SQL "CASE WHEN" 마스터하는 궁극의 안내서
 b. SQL "윈도우 함수" 마스터하기: 궁극의 안내서
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 좋아요! 우리가 이야기한 모든 스킬을 습득했다면, "데이터 분석가"가 될 준비가 된 것이야.
 
@@ -174,7 +313,18 @@ b. SQL "윈도우 함수" 마스터하기: 궁극의 안내서
 
 # 고급 스킬
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서부터는 학습 경로가 조금 더 어렵고 복잡해집니다. 왜냐하면 이러한 주제들은 초보자에게 적합하지 않기 때문이죠.
 
@@ -184,7 +334,18 @@ b. SQL "윈도우 함수" 마스터하기: 궁극의 안내서
 
 기초를 마스터했으니 이제 데이터 스크래핑, 정제 및 통계 분석과 같은 기술을 갖추었습니다. 함께 하면 됩니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 알려줬던 대로 진행하면 돼요: 원시 데이터를 유용한 정보로 변환하는 일.
 
@@ -194,7 +355,18 @@ b. SQL "윈도우 함수" 마스터하기: 궁극의 안내서
 
 여기서 "머신 러닝"이 지향하는 바가 나옵니다. 이는 컴퓨터에게 사고하고 데이터로부터 학습하는 법을 가르치는 것이 중요한데, 마치 인간과 같죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여정은 단순한 선형 회귀부터 복잡한 신경망(즉, 딥러닝)과 같은 다양한 알고리즘을 이해하는 것을 포함합니다.
 
@@ -210,7 +382,18 @@ d. 분류 알고리즘 (로지스틱 분류, SVM, 나이브 베이즈 등)
 e. 클러스터링 알고리즘 (주로 K-means)
 f. 딥러닝 개념 (인공 신경망, 합성곱 신경망, 순환 신경망, 트랜스포머, 파이토치/텐서플로 기초)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 📚 자료: 작업 중입니다. 2개월 후(2024년 시작) 여기에서 사용할 수 있게 될 것입니다 — 알림을 받기 위해 구독 유지해주세요.
 
@@ -220,7 +403,18 @@ f. 딥러닝 개념 (인공 신경망, 합성곱 신경망, 순환 신경망, �
 
 내부에서 이 모델이 어떻게 작동하는지는 상당히 복잡할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그것이 모델을 평가하는 중요성이 들어갑니다.
 
@@ -230,7 +424,18 @@ f. 딥러닝 개념 (인공 신경망, 합성곱 신경망, 순환 신경망, �
 
 이것에 대해 이해해야 하는 정보는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - "다양한 상황에 가장 적합한 평가 방법은 무엇인가,"
 - "모델을 평가하는 방법은 무엇인가," 그리고 마지막으로,
@@ -247,7 +452,18 @@ b. 정밀도, 재현율 및 F1 점수
 c. 교차 검증
 d. 과적합, 과소적합
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 📚 리소스: 작업 중이에요. 2개월 후에 여기서 이용 가능할 거예요 (2024년부터 시작) — 알림을 받으려면 구독하세요.
 
@@ -257,7 +473,18 @@ d. 과적합, 과소적합
 
 하지만 더 기다려 주세요. 기초를 넘어서, 데이터 엔지니어들에게 중요한 고급 주제가 하나 더 있어요. 그것은 바로:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3. Big Data Technologies:
 
@@ -267,7 +494,18 @@ d. 과적합, 과소적합
 
 데이터의 '공학' 측면을 처리하는 것입니다. 이는 다양한 원본에서 데이터 수집 및 자동화된 프로세스 설정과 같은 작업을 포함합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본적으로, 그들은 모든 이 데이터를 한 곳에 수집하기 위해 데이터 흐름이나 파이프라인을 구축합니다. 여기서 '빅 데이터 기술'에 대해 배우는 것이 중요해집니다.
 
@@ -277,7 +515,18 @@ d. 과적합, 과소적합
 
 이를 관리하기 위해서는 여러 기술에 익숙해져야 합니다. 알아듣기에는 많은 것처럼 들릴 수도 있지만요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 여기 친절한 조언이 있어요: 이러한 기술을 배울 때, 기본적인 개념을 이해하는 데 집중해 보세요.
 
@@ -288,9 +537,18 @@ d. 과적합, 과소적합
 제 논문에서 더 많은 정보를 찾아보세요:
 데이터 엔지니어링에 진입하는 방법: 2024
 
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🎯 빅데이터 기술을 위한 할 일 체크리스트:
 a. 빅데이터 소개
@@ -305,7 +563,18 @@ e. 클라우드 컴퓨팅
 
 ![이미지](/assets/img/2024-06-23-HowtoEffectivelyLearnDataSciencein2024_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 📚 지금 eBook 다운로드하세요: 데이터 과학 학습을 위한 ChatGPT
 
@@ -316,7 +585,18 @@ e. 클라우드 컴퓨팅
 
 # ChatGPT 프롬프트를 원하는 대로 사용할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1. 개념 명확히하기
 
@@ -326,7 +606,18 @@ e. 클라우드 컴퓨팅
 
 ## 2. 실습 문제
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 “[파이썬 코드 예시/통계 문제 해결책]을(를) 위한 예제를 제공할 수 있을까요? 이 작업은 [초급/중급/고급] 기술을 가진 사람에게 적합해야 합니다. 코드에 주석이나 단계별 설명을 포함하여 사고 과정을 명확히 해주세요.
 
@@ -336,7 +627,18 @@ e. 클라우드 컴퓨팅
 
 “[알고리즘 이름]에 대한 자세한 설명을 제공해 주실 수 있을까요? 이 설명에는 [작동 원리, 사용 사례, 장단점 및/또는 다른 유사한 알고리즘과의 비교]을 포함해야 합니다. 알고리즘에 대한 [기본적/중급적/고급적] 이해를 가진 사람을 대상으로 설명해 주세요.”
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 4. 코드 디버깅
 
@@ -348,7 +650,18 @@ e. 클라우드 컴퓨팅
 이전 시도: [선택 사항: 이미 시도한 해결 방법을 언급해주세요.]
 구체적인 질문: [선택 사항: 디버깅 문제와 관련된 구체적인 질문을 하세요.]
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 여기까지!
 
@@ -363,7 +676,18 @@ e. 클라우드 컴퓨팅
 
 그래서 여기서요. 계속 학습하고 호기심을 가져요, 분명히 성공할 거에요. 여러분의 여정에서 모두 최고의 행운을 빕니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 만약 제 글을 즐기신다면, 저를 지원해주세요:
 

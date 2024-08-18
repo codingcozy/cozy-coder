@@ -3,18 +3,13 @@ title: "사함이 없이 나는 누구일까요"
 description: ""
 coverImage: "/assets/img/2024-06-20-ngunitsinoakokungwalangmedalya_0.png"
 date: 2024-06-20 18:17
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-ngunitsinoakokungwalangmedalya_0.png
 tag: Tech
 originalTitle: "ngunit sino ako kung walang medalya?"
 link: "https://medium.com/@andengxzs_/ngunit-sino-ako-kung-walang-medalya-61a2a1535d39"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![Img](/assets/img/2024-06-20-ngunitsinoakokungwalangmedalya_0.png)
 
@@ -24,8 +19,18 @@ Ito ang mga salitang madalas kong marinig saanman. Mga salitang nakakataba ng pu
 
 Ngunit sa sandaling iyon, hindi maiwasan na itanong sa sarili—sino nga ba ako kung walang medalya?
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어릴 적에는 저의 꿈이 그냥 많은 장난감을 가지고 놀고, 잔디밭에서 놀고, 그네를 타고, 들판을 뛰어다니는 것이었어요. 모든 것에 능숙해질 필요가 있을 거라는 생각은 전혀 들지 않았고, 상을 받을 생각은 하지 않았어요. 그때의 제 삶은 단순했어요. 그냥 숙제를 해결할 수 있기만 하면 충분했어요. 수학 숙제를 살아남는 것만 하는 것이라도 말이에요.
 
@@ -36,7 +41,18 @@ Ngunit sa sandaling iyon, hindi maiwasan na itanong sa sarili—sino nga ba ako 
 
 “막 통과만 하면 될 거야”라는 말로 만족했던 어린이가 더 이상 실패를 겁내는 존재가 된 줄 누가 알았을까요? 장난감을 가지는 것만 꿈꿨던 어린이가 이제는 수상과 메달을 받는 꿈을 꿀 줄 누가 알았을까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 elementary 학교 때부터 우수생이 되기 시작했는데 그 때는 신경 쓰지 않았어요. 그런데 고등학교에 들어서니 항상 앞서가려는 개처럼 달리기를 하듯 했어요. 대회에서 이기면 주위 사람들로부터 메달, 증명서, 그리고 칭찬을 받았죠.
 
@@ -46,7 +62,18 @@ elementary 학교 때부터 우수생이 되기 시작했는데 그 때는 신�
 
 옛날에는 꿈이 간단했어요 - 탐험하고 배우고, 그 순간 속에서 즐거움을 찾는 거였죠. 그런데 어느 순간 모든 게 변해버렸어요. 다른 사람들의 높은 기대치에 부응하기 위해 우수하게 나아가고, 최고가 되어야 한다는 필요성이 저를 흡수했죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내가 한때 소중히 여기던 메달과 성취들이 이제는 무거운 짐이 되어, 끊임없이 성과를 거듭 증명하고 가치를 입증해야 하는 압박으로 나를 뒤덮고 있다. 내가 정말 내 인생을 살고 있는 것인지, 아니면 누군가의 성공 이상을 쫓고 있는 것인지 의심하기도 한다.
 
@@ -56,6 +83,17 @@ elementary 학교 때부터 우수생이 되기 시작했는데 그 때는 신�
 
 메달과 인증서 없이 나를 알 수는 없지만, 왜 그러했는지는 안다. 내가 받은 각각의 메달에는 이야기가 있다. 이것은 내 목에 매다는 단순한 메달이 아니다. 이것은 내 정체성을 가진 존경스러운 것이다. 그것을 얻기 위해 내 눈물, 피, 땀을 바쳤기 때문이다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나의 소중한 어린이, 널 내가 세운 높은 벽 안에 감췄지만 이제는 널 자유롭게 놓아줄게. 내가 너를 어두운 길로 이끌었던 점 용서해줘.

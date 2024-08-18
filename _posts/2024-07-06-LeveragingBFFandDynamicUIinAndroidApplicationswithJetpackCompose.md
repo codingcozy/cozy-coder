@@ -3,7 +3,7 @@ title: "Jetpack Compose를 사용한 Android 애플리케이션에서 BFF와 동
 description: ""
 coverImage: "/assets/img/2024-07-06-LeveragingBFFandDynamicUIinAndroidApplicationswithJetpackCompose_0.png"
 date: 2024-07-06 03:19
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-06-LeveragingBFFandDynamicUIinAndroidApplicationswithJetpackCompose_0.png
 tag: Tech
 originalTitle: "Leveraging BFF and Dynamic UI in Android Applications with Jetpack Compose"
@@ -11,21 +11,26 @@ link: "https://medium.com/@basaransuleyman/leveraging-bff-and-dynamic-ui-in-andr
 isUpdated: true
 ---
 
-
-
-
-
 기사를 시작하기 전에 BFF와 Dynamic UI에 대해 간단히 소개한 후, 안드로이드용 Jetpack Compose를 사용하여 사용 및 장점에 대해 논의하고, 마지막으로 코드 도전 과제를 다룰 것입니다.
 
 Backend for Frontend (BFF)는 모바일 애플리케이션의 고유한 요구 사항을 충족시키기 위해 특별히 설계된 디자인 패턴입니다. 모바일 요구 사항에 최적화된 백엔드 레이어를 제공함으로써, BFF는 보다 성능이 탁월하고 확장 가능한 애플리케이션의 개발을 용이하게 합니다.
 
 Dynamic UI 또는 Remote Configured UI로도 알려진 것은 전통적인 백엔드의 기능을 확장하여 데이터뿐만 아니라 UI를 어떻게 렌더링해야 하는지 제어하는 것입니다. 이 접근 방식은 Google Play와 같은 플랫폼에서 애플리케이션의 새 릴리스 없이 백엔드 업데이트를 통해 UI 변경을 허용하는 등 의미 있는 장점을 제공합니다.
 
-
 ![이미지](/assets/img/2024-07-06-LeveragingBFFandDynamicUIinAndroidApplicationswithJetpackCompose_0.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # BFF와 Dynamic UI의 이점
 
@@ -35,7 +40,18 @@ Dynamic UI 또는 Remote Configured UI로도 알려진 것은 전통적인 백�
 
 Jetpack Compose는 보일러플레이트 코드를 줄여 개발자들이 비즈니스 로직에 더 집중할 수 있게 해줍니다. BFF와 결합하면 백엔드 레이어가 모바일 앱의 요구에 특별히 맞춰져 데이터 처리가 더 효율적으로 이루어집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## - 데이터 처리 최적화
 
@@ -45,7 +61,18 @@ Jetpack Compose는 보일러플레이트 코드를 줄여 개발자들이 비즈
 
 동적 UI는 응용 프로그램을 다시 배포할 필요 없이 사용자 인터페이스를 실시간으로 업데이트할 수 있습니다. 이는 빠른 프로토타이핑, A/B 테스팅 및 사용자 피드백 구현에 특히 유용합니다. 젯팩 콤포즈의 선언적인 특성을 활용하여 백엔드에서 모바일로 변경 사항을 통합하는 과정이 원활해집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## - 코드 유지 보수성
 
@@ -55,8 +82,18 @@ Jetpack Compose는 보일러플레이트 코드를 줄여 개발자들이 비즈
 
 BFF와 젯팩 콤포즈를 사용하면 백엔드에서 UI 컴포넌트의 속성을 동적으로 관리할 수 있어 앱을 재배포하지 않고도 UI 변경이 가능해집니다. 백엔드에서 가한 변경사항이 즉시 앱에 반영되어 사용자 경험을 지속적으로 업데이트할 수 있습니다. 이 접근 방식은 콘텐츠 관리, 동적 폼, 그리고 다양한 사용자 그룹을 위해 사용자 지정 UI를 제공하는 데 특히 적합합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image 1](/assets/img/2024-07-06-LeveragingBFFandDynamicUIinAndroidApplicationswithJetpackCompose_1.png)
 
@@ -66,8 +103,18 @@ Let’s focus on the Home page, a vital component across all applications in the
 
 Imagine we have successfully communicated with the backend for BFF and Dynamic UI integration. We then receive a response like this:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-06-LeveragingBFFandDynamicUIinAndroidApplicationswithJetpackCompose_3.png)
 
@@ -77,7 +124,18 @@ Imagine we have successfully communicated with the backend for BFF and Dynamic U
 
 구체적인 섹션 알 필요 없음: 클라이언트는 각 섹션의 세부 내용을 알 필요가 없습니다. 각 섹션을 그들의 유형에 따라 처리하면 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 유형 기반 처리: 클라이언트는 JSON 응답에서 제공된 유형에 따라 섹션을 동적으로 처리합니다. 이는 클라이언트가 새로운 섹션 유형을 백엔드에서 코드를 변경하지 않고 추가할 수 있음을 의미합니다. 클라이언트가 새로운 유형을 처리하는 방법을 알고 있으면 됩니다.
 
@@ -87,17 +145,39 @@ Imagine we have successfully communicated with the backend for BFF and Dynamic U
 
 **중요: 백엔드 서비스를 개발하고 반환된 JSON을 직접 만들었기 때문에 null 검사가 없습니다.**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-우리는 테이터 레이어와 도메인 레이어에서 데이터를 다루는 부분에 대한 자세한 내용은 이전 글에서 설명했기 때문에 이를 넘어가겠습니다. 대신, 이동하는 데이터의 응답에 대한 동적인 변화를 강조하고 모바일에서의 데이터 응답 클래스를 공유하겠습니다. 이미지의 제목에서 메시지를 확인하고 Jetpack Compose에 초점을 맞출 것입니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-*참고: 객체 내부의 필드에 대해 고민할 필요는 없습니다. 이는 가짜 json입니다.
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+우리는 테이터 레이어와 도메인 레이어에서 데이터를 다루는 부분에 대한 자세한 내용은 이전 글에서 설명했기 때문에 이를 넘어가겠습니다. 대신, 이동하는 데이터의 응답에 대한 동적인 변화를 강조하고 모바일에서의 데이터 응답 클래스를 공유하겠습니다. 이미지의 제목에서 메시지를 확인하고 Jetpack Compose에 초점을 맞출 것입니다.
+
+\*참고: 객체 내부의 필드에 대해 고민할 필요는 없습니다. 이는 가짜 json입니다.
 
 API를 통해 운반된 데이터는 데이터 레이어의 데이터 소스, 저장소, 도메인 레이어의 유즈 케이스와 매퍼를 거쳐 아래와 같이 프리젠테이션에 도달하며, 뷰 모델에서 처리됩니다.
 
 ![이미지](/assets/img/2024-07-06-LeveragingBFFandDynamicUIinAndroidApplicationswithJetpackCompose_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 홈 화면 구성
 
@@ -107,7 +187,18 @@ API를 통해 운반된 데이터는 데이터 레이어의 데이터 소스, �
 
 콘텐츠 레이어를 다음과 같이 보여주고 데이터 전송을 더 잘 이해할 수 있도록 했습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 홈 내용
 
@@ -117,7 +208,18 @@ API를 통해 운반된 데이터는 데이터 레이어의 데이터 소스, �
 
 viewType: 각 섹션 유형에 대한 BFF에서 핸드셰이크 식별자인 정수 값입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## UI Model
 
@@ -127,8 +229,18 @@ viewType: 각 섹션 유형에 대한 BFF에서 핸드셰이크 식별자인 정
 
 ## Compose 섹션
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-07-06-LeveragingBFFandDynamicUIinAndroidApplicationswithJetpackCompose_9.png)
 
@@ -140,19 +252,39 @@ viewType: 각 섹션 유형에 대한 BFF에서 핸드셰이크 식별자인 정
 
 그리고 마지막으로, 각 어댑터 및 뷰 홀더와 그들의 XML 대신에 샘플 섹션 구조가 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 P.S. 오류를 최소화하려면 키를 자체 구조에 따라 처리할 수 있습니다.
 
 ## 섹션 예시
 
-
 ![VerticalItemCard](/assets/img/2024-07-06-LeveragingBFFandDynamicUIinAndroidApplicationswithJetpackCompose_10.png)
 
 위 섹션의 내용인 VerticalItemCard를 자신만의 디자인에 맞게 구성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **P.S.** `foreach`를 사용한 이유는 JSON을 개발한 사람이기 때문에 데이터의 수를 알고 있다는 것입니다.
 
@@ -162,7 +294,18 @@ P.S. 오류를 최소화하려면 키를 자체 구조에 따라 처리할 수 �
 
 우선, 동적 속성을 포함하도록 JSON 구조를 확장해봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 카드 공유 방법
 
@@ -170,7 +313,18 @@ P.S. 오류를 최소화하려면 키를 자체 구조에 따라 처리할 수 �
 
 ![Image](/assets/img/2024-07-06-LeveragingBFFandDynamicUIinAndroidApplicationswithJetpackCompose_11.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

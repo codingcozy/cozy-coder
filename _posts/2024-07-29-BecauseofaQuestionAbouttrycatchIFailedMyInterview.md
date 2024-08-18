@@ -3,17 +3,13 @@ title: "프론트엔드 개발 면접 단골 질문 trycatch 문"
 description: ""
 coverImage: "/assets/img/2024-07-29-BecauseofaQuestionAbouttrycatchIFailedMyInterview_0.png"
 date: 2024-07-29 14:05
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-29-BecauseofaQuestionAbouttrycatchIFailedMyInterview_0.png
 tag: Tech
 originalTitle: "Because of a Question About trycatch, I Failed My Interview"
 link: "https://medium.com/stackademic/because-of-a-question-about-try-catch-i-failed-my-interview-2cea0225820c"
 isUpdated: true
 ---
-
-
-
-
 
 ![image](/assets/img/2024-07-29-BecauseofaQuestionAbouttrycatchIFailedMyInterview_0.png)
 
@@ -23,12 +19,23 @@ try...catch에 관해 이야기할 때는 매우 친근한 느낌을 받습니�
 
 질문은 다음 코드에 문제가 있습니까? 그렇다면 어떻게 수정해야 합니까?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 try {
   setTimeout(() => {
-    throw new Error('err')
+    throw new Error("err");
   }, 200);
 } catch (err) {
   console.log(err);
@@ -36,8 +43,8 @@ try {
 
 try {
   Promise.resolve().then(() => {
-    throw new Error('err')
-  })
+    throw new Error("err");
+  });
 } catch (err) {
   console.log(err);
 }

@@ -3,17 +3,13 @@ title: "AI 혁명 3D 모델링과 모션 캡처"
 description: ""
 coverImage: "/assets/img/2024-06-20-TheAIRevolution3DModelingandMotionCapture_0.png"
 date: 2024-06-20 16:33
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-TheAIRevolution3DModelingandMotionCapture_0.png
 tag: Tech
 originalTitle: "The AI Revolution: 3D Modeling and Motion Capture"
 link: "https://medium.com/@singularitynetambassadors/the-ai-revolution-3d-modeling-and-motion-capture-37da84a55d53"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-06-20-TheAIRevolution3DModelingandMotionCapture_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 라이언에 따르면, 인공지능 덕분에 3D 스캐닝 및 렌더링 기술이 상당히 발전했습니다. 새로운 기술을 사용하면 이제 사람들이 스마트폰을 사용하여 고품질 스캔물을 만들고 심지어 인공지능을 이용하여 모델을 개선할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 라이언은 AI, VR, 뉴로테크 및 3D 제조 분야를 전문으로 하는 전문가로, 최신 3D 스캐닝 개발에 대한 통찰을 공유합니다. 특히 포토그램메트리를 사용하여 사진으로부터 3D 모델을 만드는 것을 강조하며, 이 기술이 비디오 게임 및 역사 보존을 포함한 다양한 응용 분야에서의 중요성을 강조했습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 이 기술은 작은 물체 스캔, 방 스캔, 심지어 텍스처 및 물리적 기반 렌더링(PBR)을 포함한 다양한 스캔 파이프라인을 처리할 수 있어서 스캔물이 더욱 현실적으로 보입니다. 그는 대부분의 핸드폰이 3D 스캔을 직접 처리할 수 없기 때문에 클라우드로 데이터를 업로드해 처리하는 것이 필요하다고 언급했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 몇 년 전에는 중대한 처리 요구 사항 때문에 불가능했지만, 이제 회사들이 3D 스캔의 무료 익스포트를 제공하여 프로세스가 더 접근 가능해졌습니다.
 
@@ -43,7 +61,18 @@ Ryan Sternlicht의 인사이트는 인공지능 기술에 기반한 3D 스캔 �
 
 스마트폰 기반 스캐닝에서 인공지능의 원활한 통합, 스캐닝 파이프라인의 정교화, 그리고 인공지능 생성 포토그램메트리 모델의 등장으로 3D 스캔의 환경이 재구성되어, 이전보다 더 접근 가능하고 효율적으로 만들어졌습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 라이언은 3D 스캔 기술의 발전에 대해 이야기하며 특히 무료와 유료 모델 간의 차이점을 집중적으로 다루고 있습니다. 무료 버전은 가벼운 공간 스캔과 로우 폴리 변환 사용이 가능하며, 유료 버전에는 쿼드 메쉬와 PBR 소재를 포함한 리탑로지, AI 기반의 무특징 물체 모드가 포함되어 있습니다.
 
@@ -53,7 +82,18 @@ Ryan Sternlicht의 인사이트는 인공지능 기술에 기반한 3D 스캔 �
 
 ## NeRF 소개
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 라이언은 3D 스캔 기술의 발전, 특히 NeRF (신경 방사 조연체)에 대해 이야기합니다. 이 기술은 처리를 보다 효율적으로 만들어 GPU 부담을 줄여 프로세스를 혁신했습니다. 이 새로운 방법을 사용하여 과거의 3D 스캔 및 사진을 재처리할 수 있기 때문에 거꾸로 호환됩니다.
 
@@ -63,7 +103,18 @@ NeRF는 고급 AI 주도의 사진측량 방법론이며 전통적인 사진측�
 
 # 3D 프린팅 및 모델링 혁신
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AI는 3D 프린팅 프로세스를 간소화하고 오류 교정 메커니즘을 강화하며 모델 생성을 가속화하는 데 어떤 역할을 하는지 심층적인 대화가 이어지고 있어요.
 
@@ -73,7 +124,18 @@ AI를 통한 실시간 오류 교정 및 AI 알고리즘을 3D 프린팅 기계�
 
 ## 3D 가우시안 스플레팅 소개
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 AI 기술은 발전하여 분실된 정보를 검색하고 새로운 데이터를 추론하는 것이 가능해졌으며, 3D 가우시안 스플래팅과 같은 더 효율적인 기술의 개발을 이끌었습니다. 지난해 8월에 소개된 이 기술은 머신 러닝을 사용하여 이전의 NeRF 스캐닝과 같은 방법보다 정보를 더 효율적이고 효과적으로 처리합니다. 가상 세계에서 객체를 생성하는 데 사용되는 다양한 방법에도 불구하고, 렌더링된 후에는 환경 내의 보통 객체처럼 나타납니다.
 
@@ -83,7 +145,18 @@ AI를 통한 실시간 오류 교정 및 AI 알고리즘을 3D 프린팅 기계�
 
 ![이미지](/assets/img/2024-06-20-TheAIRevolution3DModelingandMotionCapture_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 아바타 생성 및 실시간 렌더링
 
@@ -93,7 +166,18 @@ Deemos Tech과 같은 기업들은 AI로 생성된 아바타의 개발을 선도
 
 ## NeRFs, 3D Gaussian Splatting 및 SMERF가 사진측량 및 AI 모델 혁명을 일으킵니다
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실시간 렌더링 기술의 발전으로 Neural Radiance Fields (NeRF) 및 3D Gaussian splatting과 같은 기술이 3D 모델 시각화를 혁신하며, 이에 따른 현실감과 상호작용성이 향상되고 있습니다.
 
@@ -103,8 +187,18 @@ Deemos Tech과 같은 기업들은 AI로 생성된 아바타의 개발을 선도
 
 라이언은 이를 실시간으로 랩탑과 브라우저에서 보여줌으로써 각종 씬들이 실행되는 모습을 시연합니다. 이 모델에 사용된 파일 형식은 네이티브가 아니지만, Unity와 같은 다양한 도구를 사용하여 생성할 수 있습니다. NeRF와 3D Gaussian splatting은 전통적인 포토그래메트리에 비해 투명도와 반사 처리 등에서 상당한 개선을 제공하며, 이전에는 불가능했던 처리도 가능합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-06-20-TheAIRevolution3DModelingandMotionCapture_4](/assets/img/2024-06-20-TheAIRevolution3DModelingandMotionCapture_4.png)
 
@@ -114,8 +208,18 @@ Ryan은 3D 프린팅 모델의 실시간 오류 보정 기술에 대한 발전�
 
 Ryan은 속도보트 경주를 언급하기도 하는데, 가장 빨리 표준 3D 모델을 인쇄하는 경쟁이며, 현재 세계 기록은 딱 2분이라고 합니다. 기계 학습을 주로 기반으로 한 오류 보정 과정이 프린팅 중에 발생하는 오류를 예측하고 조정하므로 품질이 향상되고 생산 시간이 빨라집니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 라이언은 3D 프린팅 기술의 발전에 대해 이야기했어요. 특히, AI 알고리즘이 내장된 400달러짜리 기계로 빠르게 만드는 과정을 소개했어요. 이 기계는 속도가 빨라 카메라가 속도를 촬영하기 어렵다고 해요. 또한, 3D 프린팅된 물체와 웨어러블 또는 가상 의류 간의 연결에 대해 언급했어요. Marvelous Designers와 Style 3D 같은 기업들이 AI를 사용하여 옷 이미지를 3D 모델로 변환하여 비디오 게임 캐릭터에 입히는 작업을 진행 중이라고 해요. 게다가, 비디오 게임에서 AI 기술을 사용하여 아바타를 개선하는 데 초점을 맞추고 있다고 해요. 라이언은 GDC 컨퍼런스에서 이에 대한 인상적인 시연을 보았다고 전했어요.
 
@@ -123,7 +227,18 @@ Ryan은 속도보트 경주를 언급하기도 하는데, 가장 빨리 표준 3
 
 라이언은 이미지와 텍스트에서 3D 모델을 생성하기 위해 AI를 사용하는 것에 대해 이야기했어요. 라이언은 사진으로부터 3D 모델을 생성하는 경험을 공유했는데, 좋은 결과를 얻기 위해 명확하고 정면의 이미지의 중요성을 강조했어요. 또한 텍스트에서 3D 모델을 생성하는 가능성에 대해 언급했지만 시도하려면 로그인이 필요하다고 하였다. 그 비디오는 베타 버전의 멀티모달 3D 검색 엔진을 소개하는데, 이는 사용자가 이미지를 업로드하고 온라인에서 유사한 3D 모델을 검색할 수 있게 해줍니다. 얼굴 래깅 및 실시간 얼굴 캡처 도구로 3D 모델을 생성 및 처리하기 위한 파이프라인이 더 자동화되어 작업이 덜 복잡해졌다고 해요. 라이언은 이 발전을 V튜빙의 인기와 더 사실적인 아바타에 대한 열망에 귀속시켰다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 토론은 마커리스 동작 캡처 기술까지 확장되었는데, 인공지능 알고리즘이 비싼 장비와 마커의 필요성을 없애고 있습니다.
 
@@ -133,7 +248,18 @@ AR-51의 마커리스 추적 시스템과 같은 혁신적인 솔루션을 통�
 
 라이언은 또한 특히 GDC에서 AR 51의 기술을 소개한 마커리스 모션 캡처에 대해 언급하며, 마커나 비싼 슈트가 필요 없이 전신 모션 캡처가 가능하다는 것을 강조합니다. Vicon과 OptiTrack과 같은 전통적인 모션 캡처 시스템은 카메라가 움직임을 추적할 수 있도록 몸에 마커를 사용하지만 이러한 시스템은 비용이 많이 들 수 있습니다. 라이언은 3D 프린팅이 더 비용 효율적인 해결책이 될 수 있다고 제안합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 라이언은 AI를 활용한 마커 없는 동작 캡처 기술의 발전에 대해 이야기합니다. 마커 없는 동작 캡처 기술은 반사 마커와 비싼 장비가 필요 없어 IMU(관성 측정 장치) 기반 동작 캡처에 비해 비용 효율적인 대안이 됩니다.
 
@@ -143,7 +269,18 @@ AR-51의 마커리스 추적 시스템과 같은 혁신적인 솔루션을 통�
 
 토론은 가상 현실(VR)에서 전신 동작 추적을 실시하는 도전과 AI 알고리즘 및 저렴한 카메라를 활용한 마커 없는 추적의 잠재적 해결책에 관한 내용으로 진행됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 라이언은 GDC에서 14대의 고급 카메라를 이용한 모션 트래킹 부스를 만난 경험을 언급합니다. 이는 대부분의 개인들에게 비용적으로 부담스럽고 비현실적이라고 합니다. 그러나 최근 AI 기술의 발전으로 싱글 웹캠과 거울만 사용하여 저렴한 비용으로 전신 모션 트래킹을 할 수 있게 되었다고 합니다.
 
@@ -153,7 +290,18 @@ AR-51의 마커리스 추적 시스템과 같은 혁신적인 솔루션을 통�
 
 라이언은 최근 출시된 4K PTZ 웹캠 'Tail Pro'에 대한 언급도 합니다. 이 제품은 AI 추적 및 제스처 기반 제어 기능을 제공하며 500달러 정도로 가격이 비싼 회의실용 카메라 대안으로 더 저렴한 선택지가 될 수 있다고 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 라이언은 AR-51의 마커리스 모션 캡처 기술에 대해 이야기합니다. 이 기술은 특별한 수트나 마커 없이 실시간으로 사람들의 움직임을 추적할 수 있습니다. 이 기술은 저가 및 고가 카메라에 모두 사용되며 VR 설정을 포함합니다. 또한 마커 모션 캡처보다 상당히 저렴합니다.
 
@@ -163,7 +311,18 @@ AR-51의 마커리스 추적 시스템과 같은 혁신적인 솔루션을 통�
 
 라이언은 3D 디스플레이 분야의 하드웨어 현황을 논의하며 독립형 3D 디스플레이의 미래에 대한 열정을 토로합니다. 그는 소프트웨어의 발전으로 실시간 홀로그래피 및 뷰에 독립적인 3D 콘텐츠의 표시가 쉬워질 것이므로 하드웨어 개선이 필요하지 않을 수 있다고 언급합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 라이언은 5월에 열리는 디스플레이 위크 컨퍼런스를 기대하고 있습니다. 그곳에서는 더 나은 처리 및 라이트 필드 기술을 통해 이 분야에서의 진전을 보고 싶어합니다. 그는 VR을 위한 더 나은 디스플레이의 중요성을 강조하며, 현재의 디스플레이들은 밝은 빛에서 심지어 고급 제품들도 고전하는 것을 지적했습니다.
 
@@ -173,9 +332,20 @@ AR-51의 마커리스 추적 시스템과 같은 혁신적인 솔루션을 통�
 
 아무리 고급 제품들도 밝은 빛에서 고전한다는 사실을 감안할 때, 디스플레이 개선이 무엇보다도 중요함을 잊지 말아주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-Mindplex 팟캐스트 팀에서 여러분을 초대합니다. 함께 이 매혹적인 세상에 대해 사색하고 배우게 될 것입니다. 서로 돕고 이해를 돕는 것을 기대하며, 함께하면서 백인으로 일하는 도중에 마주친 모든 도전의 진정한 본질을 이해하고자 합니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+Mindplex 팟캐스트 팀에서 여러분을 초대합니다. 함께 이 매혹적인 세상에 대해 사색하고 배우게 될 것입니다. 서로 돕고 이해를 돕는 것을 기대하며, 함께하면서 백인으로 일하는 도중에 마주친 모든 도전의 진정한 본질을 이해하고자 합니다.
 
 Mindplex 팟캐스트와 Mindplex 매거진은 모두 SingularityNet에 의해 제공된 Mindplex 탈중앙화 미디어 플랫폼 파생입니다.
 
@@ -183,7 +353,18 @@ Mindplex 웹사이트를 방문하여 프로필을 설정하고 매거진에 기
 
 # 팔로우해 주세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Mindplex Magazine을 방문해주세요
 - 저희 텔레그램에 가입해주세요

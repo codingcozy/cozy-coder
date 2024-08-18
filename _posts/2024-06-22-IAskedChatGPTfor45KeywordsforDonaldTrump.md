@@ -3,17 +3,13 @@ title: "ChatGPT에게 도널드 트럼프에 대한 45개의 키워드를 부탁
 description: ""
 coverImage: "/assets/img/2024-06-22-IAskedChatGPTfor45KeywordsforDonaldTrump_0.png"
 date: 2024-06-22 20:27
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-IAskedChatGPTfor45KeywordsforDonaldTrump_0.png
 tag: Tech
 originalTitle: "I Asked ChatGPT for 45 Keywords for Donald Trump"
 link: "https://medium.com/deans-list/i-asked-chatgpt-for-45-keywords-for-donald-trump-f98b18d4fb2c"
 isUpdated: true
 ---
-
-
-
-
 
 ## 정치, 챗지피티 트럼프
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ChatGPT가 제공한 키워드와 각 키워드에 대한 내 코멘트는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 대통령 (네, 대통령이었습니다. 아직 여기에 남아있어서 운이 좋습니다.)
 - 사업가 (의견이 분분할 만한데, 뉴욕 및 다른 곳에서의 사기 역사를 보면 사업가로 설명하기 어려울 수 있습니다. 트럼프는 사업을 하기 원하지 않는 사업가입니다.)

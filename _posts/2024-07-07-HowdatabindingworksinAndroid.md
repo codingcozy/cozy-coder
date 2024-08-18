@@ -3,17 +3,13 @@ title: "안드로이드에서 데이터 바인딩이 작동하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-07-HowdatabindingworksinAndroid_0.png"
 date: 2024-07-07 23:15
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-HowdatabindingworksinAndroid_0.png
 tag: Tech
 originalTitle: "How data binding works in Android"
 link: "https://medium.com/@sandeepkella23/how-data-binding-works-in-android-7e9bbdb47a0d"
 isUpdated: true
 ---
-
-
-
-
 
 ![HowdatabindingworksinAndroid_0.png](/assets/img/2024-07-07-HowdatabindingworksinAndroid_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 먼저, 안드로이드 프로젝트에서 데이터 바인딩을 활성화해야 해요. 이건 마치 퍼피트 극장을 준비하는 것과 비슷해요. 이걸 build.gradle 파일에서 하게 돼요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 타로 전문가인 저는 여러분을 위해 한국어로 번역해드리겠습니다.
 
@@ -33,30 +40,29 @@ isUpdated: true
 
 ```js
 <layout xmlns:android="http://schemas.android.com/apk/res/android">
-    <data>
-        <variable
-            name="user"
-            type="com.example.User"/>
-    </data>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-        
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@{user.name}"/>
-        
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@{user.age}"/>
-    </LinearLayout>
+  <data>
+    <variable name="user" type="com.example.User" />
+  </data>
+  <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@{user.name}" />
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@{user.age}" />
+  </LinearLayout>
 </layout>
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 스텝 3: 스크립트 작성
 
@@ -68,7 +74,18 @@ data class User(val name: String, val age: Int)
 
 # 스텝 4: 퍼펫을 생동감 있게 만들기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신의 활동이나 조각에서는 데이터를 뷰에 바인딩합니다. 여기서 마법이 일어납니다 — 스크립트를 인형에 연결하여 공연을 시작할 수 있도록 만드는 것이죠:
 
@@ -89,7 +106,18 @@ class MainActivity : AppCompatActivity() {
 
 데이터 바인딩의 가장 멋진 점 중 하나는 스크립트가 변경될 때 자동으로 업데이트된다는 것입니다. 이것을 달성하기 위해 데이터 클래스를 observable로 만들 수 있습니다. Observable을 사용하여 간단히 이렇게 할 수 있어요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 class User : BaseObservable {
@@ -111,8 +139,18 @@ class User : BaseObservable {
 
 마무리로, 데이터 바인딩이 퍼펫티어 비유와 어떻게 작동하는지 요약해 봅시다:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "무대 설정: build.gradle에서 데이터 바인딩 활성화하기.
 대본과 인형 준비: XML 레이아웃을 `layout` 태그로 감싸고 데이터 변수를 정의합니다.
@@ -128,6 +166,17 @@ class User : BaseObservable {
 - 데이터 바인딩 라이브러리 소개
 - 양방향 데이터 바인딩"
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 당신의 데이터 스크립트의 조종으로 편안하게 무대에 오르도록 UI를 춤꾼들로 만들어 보세요! 🎭📜

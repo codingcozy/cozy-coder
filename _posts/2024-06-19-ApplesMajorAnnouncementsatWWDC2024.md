@@ -3,17 +3,13 @@ title: "애플의 WWDC 2024에서의 주요 발표내용"
 description: ""
 coverImage: "/assets/img/2024-06-19-ApplesMajorAnnouncementsatWWDC2024_0.png"
 date: 2024-06-19 15:12
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-ApplesMajorAnnouncementsatWWDC2024_0.png
 tag: Tech
 originalTitle: "Apple’s Major Announcements at WWDC 2024"
 link: "https://medium.com/@tarekalkhatibb/apples-latest-announcements-at-wwdc-2024-0793189d8c6b"
 isUpdated: true
 ---
-
-
-
-
 
 애플의 Worldwide Developers Conference(WWDC)는 기술 애호가, 개발자 및 소비자들의 주목을 끌지 않는다는 보장이 없습니다. 올해에는 애플이 생태계 전반에 걸쳐 혁신적인 업데이트를 제공하여 놀라운 소식을 전해주었습니다. 이곳에서는 WWDC 2024에서의 중요 발표 사항을 종합적으로 살펴보겠습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 애플은 iOS 18 발표를 통해 "애플 인텔리전스"를 도입하여 새로운 스마트 기술 시대로 돌입했습니다. 이 강력한 AI 프레임워크는 선도적인 기계 학습 기술을 직접 운영 체제에 통합하여 사용자 경험을 향상시키기 위해 고안되었습니다. 일반적인 클라우드 기반 AI와는 다르게, 애플 인텔리전스는 기기 내에서 데이터를 처리하여 개인 정보 보호와 보안을 강화합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## iOS 18의 주요 기능:
 
@@ -37,7 +44,18 @@ isUpdated: true
 
 # macOS 15 Sequoia: 강력함과 우아함
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위대한 시쿼이아 나무를 따라 이름 지어진 macOS 15 시쿼이아는 이전 버전을 기반으로 파워, 효율성, 그리고 매끈한 통합에 초점을 맞추었습니다. 새로운 OS는 생산성과 창조성을 향상시키기 위한 여러 기능을 소개합니다.
 
@@ -50,7 +68,18 @@ isUpdated: true
 
 <img src="/assets/img/2024-06-19-ApplesMajorAnnouncementsatWWDC2024_2.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # iPadOS 18: 창의성을 극대화하는 최고의 캔버스
 
@@ -63,8 +92,18 @@ Apple은 iPadOS 18을 통해 태블릿과 컴퓨터 사이의 구분을 희미�
 - 애플 인텔리전스: iOS 18에서의 AI 기능도 여기에서 제공되며, 더 스마트한 앱 제안과 효율적인 워크플로우를 제공합니다. 이에는 손으로 쓴 필기를 텍스트로 변환하는 AI 기반 필기 인식도 포함되어 있습니다.
 - 게임 개선: iPadOS 18는 게임에도 초점을 맞추며, 콘솔 품질의 게임을 지원하고 친구들과의 연결 및 경쟁을 더 쉽게 만드는 새로운 게임 센터 기능도 지원합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-ApplesMajorAnnouncementsatWWDC2024_3.png)
 
@@ -74,8 +113,18 @@ Apple Watch는 watchOS 11을 통해 건강, 피트니스 및 연결성에 중점
 
 ## watchOS 11의 주요 기능:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 생체 신호 앱: 심박수, 혈중 산소 농도, 호흡 속도와 같은 주요 신호를 추적하는 종합 건강 모니터링 도구입니다. 생체 신호 앱은 사용자가 건강을 유지하도록 도와주는 통찰력을 제공하며 심각해지기 전 잠재적인 건강 문제에 대한 경고를 줄 수 있습니다.
 - 트레이닝 로드: 선수 및 피트니스 애호가를 위해, 이 기능은 운동 강도와 회복 시간을 추적하여 최적의 성능을 보장합니다. 근무량과 회복력에 대한 자세한 피드백을 제공하여 트레이닝 중과 부상을 방지하는 데 도움이 됩니다.
@@ -88,7 +137,18 @@ Apple Watch는 watchOS 11을 통해 건강, 피트니스 및 연결성에 중점
 
 WWDC 2024에서 가장 중요한 주제 중 하나는 Apple 인텔리전스의 소개였습니다. Apple 인텔리전스는 모든 Apple 운영 체제에 통합된 AI 기능 스위트로, 기기와의 상호 작용을 직관적이고 효율적이며 맞춤화된 것으로 만들며 사용자 개인 정보 보호에 강한 중점을 두고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Apple Intelligence의 기능:
 
@@ -101,7 +161,18 @@ WWDC 2024에서 가장 중요한 주제 중 하나는 Apple 인텔리전스의 �
 
 # 추가 주목할 만한 발표
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 iOS, macOS, iPadOS 및 watchOS의 업데이트가 주목을 받았지만, Apple은 또 다른 명백한 발표 몇 가지를 했습니다.
 
@@ -112,7 +183,18 @@ iOS, macOS, iPadOS 및 watchOS의 업데이트가 주목을 받았지만, Apple�
 
 ## AirPods 및 HomePods:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Dolby Atmos Support: AirPlay가 이제 Dolby Atmos를 지원하며 호환되는 기기에 더 몰입감 있는 오디오 경험을 제공합니다.
 - 홈팟을 위한 소셜 기능: 홈팟은 소셜 업그레이드를 받아 사용자가 음악과 재생 목록을 친구와 가족과 더 쉽게 공유할 수 있게 되었습니다.

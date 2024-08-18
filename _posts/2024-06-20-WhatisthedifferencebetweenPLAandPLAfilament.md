@@ -3,17 +3,13 @@ title: "PLA와 PLA 필라멘트의 차이는 무엇인가요"
 description: ""
 coverImage: "/assets/img/2024-06-20-WhatisthedifferencebetweenPLAandPLAfilament_0.png"
 date: 2024-06-20 16:39
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-WhatisthedifferencebetweenPLAandPLAfilament_0.png
 tag: Tech
 originalTitle: "What is the difference between PLA and PLA+ filament?"
 link: "https://medium.com/@esun3d/what-is-the-difference-between-pla-and-pla-filament-d312aea90f8b"
 isUpdated: true
 ---
-
-
-
-
 
 PLA (Polylactic Acid) 및 PLA+ (PLA 플러스)은 부가 제조 분야에서 일반적으로 사용되는 3D 프린터 필라멘트 유형입니다. 비슷한 점을 공유하지만 두 제품 사이에는 몇 가지 주요 차이가 있습니다.
 
@@ -23,7 +19,18 @@ PLA (Polylactic Acid) 및 PLA+ (PLA 플러스)은 부가 제조 분야에서 일
 
 ![PLA and PLA+ 차이](/assets/img/2024-06-20-WhatisthedifferencebetweenPLAandPLAfilament_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인쇄 온도: PLA+는 일반 PLA에 비해 일반적으로 더 높은 인쇄 온도를 가지고 있어요. 보통 PLA 필라멘트는 190~220°C 정도에서 잘 인쇄되지만, PLA+ 필라멘트는 약간 더 높은 온도 범위, 일반적으로 210~235°C 정도를 요구하죠. 두 종류의 3D 프린터 필라멘트를 전환할 때 인쇄 설정을 적절하게 조정하는 것이 중요해요.
 
@@ -31,6 +38,17 @@ PLA (Polylactic Acid) 및 PLA+ (PLA 플러스)은 부가 제조 분야에서 일
 
 인쇄 용이성: 일반적으로 PLA+ 필라멘트는 표준 PLA 필라멘트에 비해 조금 더 어려운 인쇄로 간주됩니다. 향상된 강도와 높은 인쇄 온도로 인해 3D 프린터의 정밀한 캘리브레이션과 인쇄 설정의 조정이 더 많이 필요할 수 있어요. 그러나 적절한 조정을 하면 대부분의 일반 소비자용 3D 프린터에서도 신뢰할 수 있게 PLA+를 인쇄할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다른 제조사들은 PLA+의 조성에 차이를 둘 수 있으므로 각 브랜드마다 특정 속성과 특징이 달라질 수 있음을 유의해야 합니다. 최적의 인쇄 설정과 결과를 보장하기 위해 항상 각 3D 프린터 필라멘트에 대한 제조사의 권장사항과 지침을 참고하는 것이 좋습니다.

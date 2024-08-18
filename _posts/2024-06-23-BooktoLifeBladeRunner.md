@@ -3,17 +3,13 @@ title: "소설에서 영화까지 블레이드 러너의 모든 것"
 description: ""
 coverImage: "/assets/img/2024-06-23-BooktoLifeBladeRunner_0.png"
 date: 2024-06-23 18:31
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-BooktoLifeBladeRunner_0.png
 tag: Tech
 originalTitle: "Book to Life: Blade Runner"
 link: "https://medium.com/@khmeyers_52075/book-to-life-blade-runner-b9309f5b1a27"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-23-BooktoLifeBladeRunner_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 내가 성숙해지면서, 흥미는 디스토피아와 과학 소설로 옮겼어. 이제 “1984”, “Dune”, “Blade Runner”와 같은 책들에서 삶의 교훈을 찾고 있어.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Denis Villeneuve의 "블레이드 러너 2049"는 아직 보지 않았지만, 다가오는 몇 주 안에는 계획 중에 있습니다. Philip K. Dick의 공상 과학 소설 "블레이드 러너: 안드로이드는 전기양을 꿈꾸는가?"는 특히 정신적으로 자극적이었습니다. 과학 소설을 읽을 때, 세계를 생생하게 상상하며, 단 3일 안에 완독한 후 완전히 몰입했어요. 이 소설은 250쪽 미만으로 짧지만 의미가 풍부하여 결말은 예측 가능하지만 만족스럽다고 느꼈어요. 약 한 달 전에 완독한 "1984" 이후 처음으로 완독한 책이에요.
 
@@ -33,7 +40,18 @@ Denis Villeneuve의 "블레이드 러너 2049"는 아직 보지 않았지만, �
 
 Philip K. Dick이 창조한 세계는 매혹적입니다. 이 디스토피아에서는 세계 전쟁 종말(WWT)로 인해 대부분의 생명체가 위험에 처하거나 멸종됐습니다. Kipple, 방사능 물질과 먼지로 지구를 덮어 애완동물이 귀한 보물이 되었어요. 많은 사람들은 일정한 사회적 지위를 투영하기 위해 전자 동물을 소유하게 되었어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 과학 소설 우주에서 Dick이 상상하는 것들:
 
@@ -47,7 +65,18 @@ Philip K. Dick이 창조한 세계는 매혹적입니다. 이 디스토피아에
 
 Penfield 감정 장기는 흥미롭게 느껴지지만, 인간 감정 조작에 대한 제 도덕적 입장과 상충됩니다. 정신 질환을 가진 사람들에게 도움이 될 수 있지만 소설에서는 Rick의 우울증을 앓는 아내에게 효과적이지 않다고 나옵니다. 이것은 정신 질환을 치료할 수 없다는 것을 시사할 수 있으며, 기계는 일시적인 안위만 제공합니다. 경제적인 관점에서는 그런 장치의 퇴보하는 한계 효용에 대해 의문을 품고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로켓 기반 교통 수단은 현실적이면서도 현실적이지 않습니다. 긴급 여행에 유용할 수 있지만, 필요한 훈련과 비용은 일등급 비행기 표와 비교했을 때 비싼 만큼 실용적이지 않습니다. 파이콘 9 좌석에 드는 5500만 달러의 우주 관광 비용(파이콘 9의 페이로드 당 1,200달러)은 이러한 모험의 금전적으로 방해되는 비용을 강조합니다.
 

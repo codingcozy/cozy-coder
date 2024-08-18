@@ -3,17 +3,13 @@ title: "복원력은 기술 이상의 개념입니다"
 description: ""
 coverImage: "/assets/img/2024-06-19-Resiliencyismorethanjusttechnology_0.png"
 date: 2024-06-19 04:17
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-Resiliencyismorethanjusttechnology_0.png
 tag: Tech
 originalTitle: "Resiliency is more than just technology"
 link: "https://medium.com/slalom-business/resiliency-is-more-than-just-technology-2477c3f936ad"
 isUpdated: true
 ---
-
-
-
-
 
 ## Change Healthcare 랜섬웨어 공격에서 배운 점
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 Verizon의 연례 데이터 침해 조사 보고서(DBIR)는 전 세계적으로 사이버 사고 및 데이터 침해에 대한 광범위한 정보를 제공합니다. 항상 흥미로운 동시에 놀라운 정보를 담고 있습니다. 2023년에는 랜섬웨어가 정보 기밀성, 무결성 또는 가용성에 대한 변경(사고)과 정보의 공개(침해)와 관련된 조치의 15.5%를 차지했으며, 정보 공개와 관련된 조치의 24%를 차지했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-06-19-Resiliencyismorethanjusttechnology_1.png)
 
@@ -34,8 +40,18 @@ DBIR 보고서에 따르면, 올해 랜섬웨어는 약간 감소했지만, 사�
 
 이 추세는 고가용성 아키텍처, 업무 지속 계획 및 재해 복구를 넘어가는 접근 방식이 필요합니다. 이것이 새로운 접근 방식인 회복력입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Change Healthcare 사건 개요
 
@@ -49,7 +65,18 @@ UnitedHealth Group (UHG)에 인수된 헬스케어 기술 기업인 Change Healt
 - 3월 1일: 250 Bitcoin의 보상 요구가 지불
 - 3월 20일: 비즈니스 중요 시스템 및 운영이 복구
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요약하면, 전체 시스템이 다운된 날이 25일이 있었으며, 2천 2백만 달러의 비트코인 결제가 이루어졌습니다. 이 사건의 실제 영향을 정확하게 예측하는 것은 불가능하지만, 우리는 몇 가지 지표를 가지고 있어 예상 비용이 수십억 달러에 달할 것으로 추정됩니다:
 
@@ -62,7 +89,18 @@ UnitedHealth Group (UHG)에 인수된 헬스케어 기술 기업인 Change Healt
 
 고객 영향에 대해 잊어선 안 됩니다. 단기적으로는 약물 접근성에 명백한 영향이 있었으며 연결된 비용에 대한 불확실성이 있었습니다. 장기적으로는 치료 지속성과 환경의 안정성에 관해 의문이 있습니다. 고객들은 자신의 치료 환경이 회복될 것이며, 만약 회복된다면 장기적인 영향은 무엇일지 궁금해합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사이버공격으로 산업 단체와 연방 정부가 신속히 대응하였고, 영향을 받은 제공업체에게 지원 프로그램과 안내가 제공되었습니다. UHG는 영향을 받은 의료 공급 업체를 돕기 위한 임시 자금 지원 프로그램을 설립했고, 연방 기관들은 위협 인텔리전스 및 지원을 제공하기 위해 협력했습니다. 이 사건은 의료 기관들에 대한 견고한 회복력 조치와 예비 계획의 중요성을 강조하며, 고도로 안전한 데이터 관행과 적극적인 업무 연속성 계획이 필요함을 강조합니다.
 
@@ -73,7 +111,18 @@ UnitedHealth Group (UHG)에 인수된 헬스케어 기술 기업인 Change Healt
 - 고가용성(HA)은 기존 구성 요소의 일부가 실패할 때 시스템이 작동할 수 있도록 하는 것을 목표로 합니다. 이러한 구성 요소는 일반적으로 서버, 데이터베이스, API 또는 기탠 구성 요소입니다.
 - 재해 복구(DR)는 정보 기술 능력에 장애가 발생했을 때 사용할 복구 환경을 제공합니다. 장애는 데이터 센터 손실, 적지의 컴퓨팅 리소스 손실, 네트워크 장애 또는 랜섬웨어 등을 포함할 수 있습니다. DR은 업무 기능 손실이 발생할 것을 인정하며, "운영으로 복귀" 측정 기준에 따라 합의됩니다. 랜섬웨어의 경우, DR은 암호화되지 않은 백업을 찾고 악성 코드를 격리시킨 경우에만 효과적입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 탄력성은 정보 기술 능력이나 시스템 구성 요소보다는 비즈니스 프로세스에 중점을 둡니다. 이 의미에서 탄력성은 비즈니스 연속성(BC)과 일치합니다. 그 차이는 목표에 있습니다: BC의 목표는 회복하는 것이지만, 탄력성의 목표는 프로세스의 지속적 기능성입니다.
 
@@ -83,7 +132,18 @@ UnitedHealth Group (UHG)에 인수된 헬스케어 기술 기업인 Change Healt
 
 내부 프로세스에 대해:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 보통 사용되는 기술 이외에 지원할 수 있는 하위 프로세스가 있을까요?
 - 사용할 수 있는 수동 하위 프로세스가 있을까요?
@@ -98,7 +158,18 @@ UnitedHealth Group (UHG)에 인수된 헬스케어 기술 기업인 Change Healt
 
 # 다음 단계는 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 복구력 성장을 위한 로드맵은 중요한 비즈니스 기능 및 해당 기능을 지원하는 상하위 종속성을 이해하는 것으로 시작합니다. 현재 이러한 기능의 상태를 명확히 파악한 후 그들의 복구력을 향상시키기 위한 로드맵을 개발하는 것이 중요합니다.
 
@@ -108,6 +179,17 @@ UnitedHealth Group (UHG)에 인수된 헬스케어 기술 기업인 Change Healt
 
 마지막으로, 복구력은 문화적 사고 변화를 요구합니다. 언제든지 사람들이 일상적인 업무 부하에 없던 새로운 작업으로 전환해야 할 수 있습니다. 이는 조직 변화와 인재 관리에 대한 지원이 필요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 슬라럼은 비즈니스, 기술 및 인간성이 교차하는 지점에서 가치를 창출하는 차세대 프로페셔널 서비스 회사입니다. 자세히 알아보고 오늘 문의하세요.

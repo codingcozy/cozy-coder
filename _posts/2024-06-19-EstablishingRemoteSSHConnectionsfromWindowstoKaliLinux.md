@@ -3,17 +3,13 @@ title: "윈도우에서 Kali Linux로의 원격 SSH 연결 설정하기"
 description: ""
 coverImage: "/assets/img/2024-06-19-EstablishingRemoteSSHConnectionsfromWindowstoKaliLinux_0.png"
 date: 2024-06-19 04:57
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-EstablishingRemoteSSHConnectionsfromWindowstoKaliLinux_0.png
 tag: Tech
 originalTitle: "Establishing Remote SSH Connections from Windows to Kali Linux"
 link: "https://medium.com/bugbountywriteup/establishing-remote-ssh-connections-from-windows-to-kali-linux-545c71793fae"
 isUpdated: true
 ---
-
-
-
-
 
 리모트 Kali Linux VM에 SSH 키 설정하기
 
@@ -23,12 +19,23 @@ isUpdated: true
 
 Windows 상의 PowerShell에서 키 생성하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어드민 PowerShell을 열고 다음을 입력해주세요.
 
 ```js
-ssh-keygen
+ssh - keygen;
 ```
 
 cat 명령어를 사용하여 공개 키를 확인해보실 수 있습니다. 공개 키는 다음 경로에 위치해 있어야 합니다.
@@ -37,7 +44,18 @@ cat 명령어를 사용하여 공개 키를 확인해보실 수 있습니다. �
 C:\Users\<username>/.ssh/id_rsa.pub
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 공개 키는 Kali Linux 상에서 인증을 하는 데 사용될 것입니다. 이를 복사하여 Kali Linux 상의 authorized_keys 파일에 붙여넣으시면 됩니다. 사용자가 이미 상자에 접속한 경우이고 sudo 사용자로 SSH 키를 설정할 수 있는 권한이 있으시면 이 과정은 쉽습니다. 그냥 텍스트 편집기를 사용하여 파일을 수정하면 됩니다.
 
@@ -51,7 +69,18 @@ Windows에서 Kali Box에 연결하기
 
 이제 Windows 상의 PowerShell을 열고, -i 옵션을 사용하여 키 파일 (id_rsa)이 어디에 있는지 지정하여 Kali 상자에 연결하실 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ssh -i C:\Users\<username>/.ssh/id_rsa <username>@<Server_IP>
@@ -63,7 +92,18 @@ ssh -i C:\Users\<username>/.ssh/id_rsa <username>@<Server_IP>
 
 PowerShell에서 새 함수와 별칭을 만드는 것은 간단한 프로세스입니다. 새 함수를 정의하려면 function 명령어를 사용하고 실행할 코드가 포함된 스크립트 블록을 사용하면 됩니다. 예를 들어, Connect-Kali라는 함수를 생성하려면 다음 구문을 사용하면 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 function Connect-Kali { ssh -i C:\Users\<username>/.ssh/id_rsa <username>@<Server_IP> }
@@ -72,15 +112,26 @@ function Connect-Kali { ssh -i C:\Users\<username>/.ssh/id_rsa <username>@<Serve
 새 별칭을 생성하려면 먼저 PowerShell 프로필이 있는지 확인해야 합니다. PowerShell 인스턴스를 열고 다음 명령을 사용하세요.
 
 ```js
-Test-Path $PROFILE 
+Test-Path $PROFILE
 ```
 
 명령이 False를 반환하면 다음 문법을 사용하여 프로필을 만들어야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-New-Item -type file -path $PROFILE -force 
+New-Item -type file -path $PROFILE -force
 ```
 
 <img src="/assets/img/2024-06-19-EstablishingRemoteSSHConnectionsfromWindowstoKaliLinux_1.png" />
@@ -91,7 +142,18 @@ New-Item -type file -path $PROFILE -force
 notepad.exe $PROFILE
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로필에 다음 함수 및 별칭 라인을 추가하세요 (경로 세부 정보로 수정)
 
@@ -105,7 +167,18 @@ function Connect-Kali { ssh -i C:\Users\<사용자이름>/.ssh/id_rsa <사용자
 - -Name kali: 별칭 kali의 이름을 지정합니다.
 - -Value Connect-Kali: 이는 앞서 정의된 Connect-Kali 함수의 값입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로필을 다시 불러오세요:
 
@@ -117,7 +190,18 @@ function Connect-Kali { ssh -i C:\Users\<사용자이름>/.ssh/id_rsa <사용자
 
 맺음말:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 있습니다. SSH 키를 사용하여 인증하는 것이 패스워드보다 더 안전하며 복잡하고 더 어렵게 해킹할 수 있습니다. 이 방법을 사용하면 Kali Linux 시스템으로의 안전한 패스워드 없는 원격 로그인이 가능해져 브루트포스 공격을 무력화시킵니다. 또한, SSH 에이전트를 사용하면 여러분의 개인 키로 일회성 인증을 허용하여 자격 증명을 반복해서 입력하지 않고도 매끄럽고 안전한 연결을 구현할 수 있습니다.
 

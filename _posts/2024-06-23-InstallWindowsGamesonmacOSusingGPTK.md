@@ -3,17 +3,13 @@ title: "GPTK를 사용해 macOS에 윈도우 게임 설치하는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-23-InstallWindowsGamesonmacOSusingGPTK_0.png"
 date: 2024-06-23 15:45
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-InstallWindowsGamesonmacOSusingGPTK_0.png
 tag: Tech
 originalTitle: "Install Windows Games on macOS using GPTK"
 link: "https://medium.com/@chandrus03/install-windows-games-on-macos-using-gptk-63caddc219aa"
 isUpdated: true
 ---
-
-
-
-
 
 맥북을 사용하는 동안 주변 사람들이 AAA 타이틀을 즐기는 동안 Asphalt 9만 플레이할 수 있다는 것은 후회스러울 수 있어요.
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 이전에 Apple Silicon을 사용하는 Mac에서 Windows 게임을 플레이할 수 있는 두 가지 옵션이 있었습니다. 하나는 Parallels를 사용하여 Windows 가상 머신 (VM)을 만들고 가상 플랫폼에 게임을 설치하는 것이었습니다. 하지만 이 방법은 대개 하드웨어 자원을 상당히 많이 사용하기 때문에 게임 플레이가 최적화되지 않는 경우가 흔합니다. 두 번째 옵션은 CodeWeavers의 CrossOver를 사용하여 Windows 게임을 macOS에 직접 설치하는 것이었습니다. CrossOver는 Windows 명령을 Mac 명령으로 번역하는 역할을 하면서 사용자들이 Windows 소프트웨어를 마치 Mac용으로 디자인된 것처럼 실행할 수 있게 해줍니다. CrossOver는 생산성 도구, 유틸리티 프로그램, 게임 등 다양한 종류의 소프트웨어를 하나의 애플리케이션 내에서 작동시킬 수 있는 다재다능한 기능을 제공합니다. 하지만 무료로 사용할 수 없고 매년 구독료가 부과됩니다. 여러분과 함께 Apple이 소개한 Game Porting Toolkit을 사용하여 macOS에 Windows 게임을 설치하는 프로세스에 대해 자세히 알아보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Game Porting Toolkit](/assets/img/2024-06-23-InstallWindowsGamesonmacOSusingGPTK_0.png)
 
@@ -34,8 +40,18 @@ Game Porting Toolkit은 2023년 6월 6일에 출시된 Apple의 새로운 번역
 
 Game Porting Toolkit을 설치하려면 Mac이 새로운 macOS Sonoma 버전이어야 합니다. 이전 macOS Ventura에서 Game Porting Toolkit을 사용하면 오류가 발생할 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Apple 개발자 다운로드 사이트를 방문해보세요. 이 파일들은 이제 로그인한 Apple 계정으로 무료로 다운로드하여 사용할 수 있습니다.
 - Xcode 15용 Command Line Tools를 검색해서 dmg 파일을 다운로드하고 포함된 pkg 파일을 실행해보세요.
@@ -51,7 +67,18 @@ sudo rm -rf /Library/Developer/CommandLineTools
 
 # Homebrew
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 터미널을 열어주세요 (macOS에서는 Spotlight에서 검색).
 
@@ -63,7 +90,18 @@ softwareupdate --install-rosetta
 
 다음 단계를 Rosetta 환경에서 진행하려면 x86_64 쉘로 들어가세요. 이후의 모든 명령어는 이 쉘 안에서 실행되어야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 arch -x86_64 zsh
@@ -77,7 +115,18 @@ arch -x86_64 zsh
 
 경로를 설정하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 (echo; echo 'eval "$(/usr/local/bin/brew shellenv)"') >> ~/.zprofile
@@ -92,7 +141,18 @@ which brew
 
 만약 이 명령어가 /usr/local/bin/brew를 출력하지 않는다면, 다음 명령어를 사용해야 합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 export PATH=/usr/local/bin:${PATH}
@@ -106,7 +166,18 @@ export PATH=/usr/local/bin:${PATH}
 brew tap apple/apple http://github.com/apple/homebrew-apple
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 게임 이식 툴킷 공식 버전을 설치해보세요. 이 공식 버전은 여러 대형 소프트웨어 프로젝트를 다운로드하고 컴파일합니다. 이 작업은 컴퓨터의 속도에 따라 시간이 달라집니다. Mac의 속도에 따라 1시간 이상 소요될 수 있습니다. M1 기기의 경우 스펙에 따라 90분 정도가 걸릴 수 있습니다.
 
@@ -120,7 +191,18 @@ brew -v install apple/apple/game-porting-toolkit
 brew update ; brew -v install apple/apple/game-porting-toolkit
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 툴킷이 이미 최신 버전인지 확인해주세요
 
@@ -132,7 +214,18 @@ arch -x86_64 zsh
 
 Homebrew를 실행하여 가능한 업데이트를 수집하고 Apple의 GPTK 공식을 업그레이드하세요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 brew update && brew upgrade apple/apple/game-porting-toolkit
@@ -144,7 +237,18 @@ brew update && brew upgrade apple/apple/game-porting-toolkit
 
 이전에 다운로드한 게임 포팅 툴킷 dmg 파일이 /Volumes/Game Porting Toolkit-1.1에 마운트되어 있는지 확인해주세요. 이 스크립트를 사용하여 게임 포팅 툴킷 라이브러리 디렉토리를 Wine의 라이브러리 디렉토리로 복사하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /Volumes/Game\ Porting\ Toolkit-1.1/redist/lib/를 `brew --prefix game-porting-toolkit`/lib/로 복사하세요.
@@ -156,7 +260,18 @@ brew update && brew upgrade apple/apple/game-porting-toolkit
 다음 명령어를 사용하여 Game Porting Toolkit DMG의 3개 스크립트를 /usr/local/bin에 넣으세요.
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 cp /Volumes/Game\ Porting\ Toolkit*/gameportingtoolkit* /usr/local/bin
@@ -170,7 +285,18 @@ cp /Volumes/Game\ Porting\ Toolkit*/gameportingtoolkit* /usr/local/bin
 WINEPREFIX=~/my-game-prefix $(brew --prefix game-porting-toolkit)/bin/wine64 winecfg
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - "Wine configuration" 창이 화면에 나타날 것입니다.
 - Windows 버전을 Windows 10으로 변경하세요.
@@ -182,7 +308,18 @@ Epic Games에서 게임을 설치하려면 https://heroicgameslauncher.com/에�
 
 설치 후 Epic Games 계정에 로그인하거나 새로 만드세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-23-InstallWindowsGamesonmacOSusingGPTK_1.png" />
 
@@ -192,7 +329,18 @@ Epic Games에서 게임을 설치하려면 https://heroicgameslauncher.com/에�
 
 윈도우 버전의 Steam을 다운로드하여 다운로드 폴더에 넣어주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 gameportingtoolkit ~/my-game-prefix ~/Downloads/SteamSetup.exe

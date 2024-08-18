@@ -3,17 +3,13 @@ title: "생성 인공 지능과 LLM을 활용하여 감지 쓰기 자동화하�
 description: ""
 coverImage: "/assets/img/2024-06-19-UtilizingGenerativeAIandLLMstoAutomateDetectionWriting_0.png"
 date: 2024-06-19 21:27
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-UtilizingGenerativeAIandLLMstoAutomateDetectionWriting_0.png
 tag: Tech
 originalTitle: "Utilizing Generative AI and LLMs to Automate Detection Writing"
 link: "https://medium.com/@dylanhwilliams/utilizing-generative-ai-and-llms-to-automate-detection-writing-5e4ea074072e"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-19-UtilizingGenerativeAIandLLMstoAutomateDetectionWriting_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이 블로그에서는 이 기술을 사용하는 데 배운 몇 가지 유용한 팁과 함께, 직접 시도해볼 수 있는 실용적인 안내서를 제공하겠습니다. 계속 진행하기 전에, 이 블로그의 목적을 위해 여기서 "위협 인텔리전스"로 본다는 것을 명확히 하고 싶습니다: 전술, 기술, 절차 또는 행위와 같이 계층적인 고통 피라미드에서 높은 위치에 있는 것이라면 관심이 있습니다. 이 범주에 속하지 않는 것은 위협 기획에 적합하지 않으며 이 기사의 목적에 맞지 않습니다. 나는 StreamAlert에서 검출을 작성할 것입니다. StreamAlert는 Jack Naglieri, David French 및 Kyle Bailey와 같은 분들이 인기를 얻은 검출-대-A 코드 원칙을 따르는 무료 및 오픈소스 프레임워크입니다. 그러나 감안해야 할 점은 검출을 작성하는 데 무수히 많은 방법이 있기 때문에, 귀하가 속한 조직에서 검출 로직을 위해 사용하는 도구로 대체할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 어찌나 고생이 많았는지, 아팠으니
 
@@ -38,7 +45,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-19-UtilizingGenerativeAIandLLMstoAutomateDetectionWriting_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 계속하기 전에 성공을 어떻게 측정할 건지 알아야 해요? InfoSec 블로그, 위협 인텔 보고서, 오픈소스 탐지 콘텐츠, 상대방 에뮬레이션 도구, 내 팀이 내부적으로 고안한 특별한 위협 등과 같은 위협 아이디어에서 출발해야 함을 명확히 만들어야 해요. 저는 이 실험에서 클라우드 위협에만 초점을 맞추었기 때문에, 작성할 탐지 사항은 CloudTrail 로그, Okta 로그 또는 Kubernetes 감사 로그와 같은 소스에서 나올 거에요. 그래서 이제 질문은 LLM에게 이 내용을 전달하고 완성된 탐지 사항을 돌려 받을 수 있을까요? 더 중요한 것은 내 부티크 구현에서 이것을 수행할 수 있을까요?
 
@@ -48,7 +66,18 @@ isUpdated: true
 
 이 과정 동안 배운 모든 것을 공유할 거에요. 따라서 LLM을 사용하여 자체 탐지 작성에 관심이 있는 경우 상당한 시간을 절약할 수 있을 거에요. 이 자료는 보물과 같은 가치가 있어요. 아래는 하우 투(How-to)에 대한 간단하고 실용적인 안내서에요. 필자는 꼭 이 순서대로 단계를 따르고 필요할 때 다시 반복하는 것을 추천하고 있어요. 이 용어를 처음 들어보시는 분들을 위해 말씀드리자면, Prompt 엔지니어링은 모델에 전송하는 프롬프트 또는 질문을 작성하는 과정입니다. 이건 1, 2, 3 단계 진행하면 끝이 아닙니다. 오히려 결과에 만족할 때까지 반복적으로 계속 해야 해요. 친구 베이컨을 믿고 과학적 방법을 따르세요. 그 베이컨이 아니라, 이 베이컨을 믿으세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1. LLM이 스스로 프롬프트를 작성하게 하기
 
@@ -58,7 +87,18 @@ isUpdated: true
 
 이 단계는 몇 가지 다른 단계와 함께 가장 중요할 것입니다. 저희 경우에는 TTP들과 그에 해당하는 탐지의 고품질과 다양성 있는 예시를 제공하고 싶습니다. 예를 들어, Okta 탐지, CloudTrail 탐지 및 Kubernetes 탐지 각각 2~3가지 예시를 제공하고 특정한 로그 필드와 그 값들 간에 다양성을 최대한 유지하려고 노력합니다. 결과를 향상시키기 위해 예시의 수와 품질을 실험해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3. Chain of Thought (CoT)
 
@@ -68,7 +108,18 @@ isUpdated: true
 
 첫 번째 초안을 마치면 팀에게 동일한 지침을 제공하여 명확성과 세부 사항에 대한 피드백을 요청할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로 팁: 모델의 논리를 디버그하기 위해 스텝 사이에서 결과를 출력하도록 설정하세요. 예를 들어, "당신의 추론을 설명해보세요"와 같이 모델에 요청하세요. 프롬프트가 커져서 복잡해진 경우, 이것은 어떤 스텝이 환영이나 오버피팅을 일으키는지 식별하는 데 도움이 됩니다.
 
@@ -78,7 +129,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-19-UtilizingGenerativeAIandLLMstoAutomatedetectionWriting_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 5. 모델별 프롬프팅
 
@@ -88,7 +150,18 @@ ChatGPT가 다른 모델을 위해 프롬프트를 작성하도록하지 마세�
 
 모델에게 "모르겠어요"라고 말할 기회를 제공하여 인간처럼 행동하십시오. 적절한 정보가 없으면 당연히 대답할 수 없을 것입니다. 예를 들어, 사람이 제공한 위협 아이디어가 불완전한 경우 (즉, 보안 데이터의 위협 증거에 관한 충분한 정보가 포함되어 있지 않은 경우)에는 모델이 탐지를 완료하지 않고 더 많은 정보가 필요하다고 알려줄 수 있도록 하고 싶습니다. 또한 모델을 올바른 방향으로 이끌기 위해 이 방법을 사용할 수 있습니다. 제 경우에는 CloudTrail, Okta 또는 Kubernetes 감사 로그를 사용할 수있는 잠재적인 탐지 결과에만 관심이 있습니다. Linux 또는 Windows의 TTP만 포함 된 보고서를 제공하면 모델이 무시하도록하고 싶습니다. 또한 모델이 만나는 협박 정보 중에서 로그 필드 이름과 같은 중요한 정보가 누락된 경우 로그 스키마를 참조하여 정보를 완성하도록 모델에 지시하는 단계별 지침에서 이 기술을 사용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 7. RAG을 사용할 것인가 말 것인가
 
@@ -98,7 +171,18 @@ ChatGPT가 다른 모델을 위해 프롬프트를 작성하도록하지 마세�
 
 저의 사용 사례에서는 다음과 같은 질문으로 결정되는 것 같습니다: 사용하는 외부 데이터는 자주 변경되는가요? 모델이 작업을 완료하는 데 정말 많은 데이터가 필요한가요? RAG 대 매우 큰 문맥 창을 사용하는 것에 대한 논쟁이 많습니다. 이것이 정확도에 미치는 영향도 있습니다. 우리의 사용 사례로 돌아와서, 어떤 결과가 가장 좋았을까요? 200개의 탐지 + RAG를 사용하는 것이 좋을까요, 아니면 각 로그 소스 당 2-3개의 고품질 다양한 예제를 프롬프트에 하드 코딩하는 것이 좋을까요? 이 질문을 스스로에게 물어보세요. (사람이) 의미 검색보다 문맥을 수동으로 선택하는 데 더 능숙한가요? 이 모든 것이 결국 RAG가 하는 것입니다: 외부 데이터의 의미 검색 및 프롬프트 증강. 자녀이 문맥 및 예제를 수동으로 선택하고 프롬프트에 하드 코딩하는 것이 더 나은 결과를 가져온다면 그렇게 하는 것이 좋습니다. 이 사용 사례에서는 탐지 로직 작성 방식 (예: Python, KQL, SPL) 및 보안 데이터 구조가 일반적으로 자주 변경되지 않습니다. 확신이 들지 않는다면, 프롬프트 엔지니어링만으로 결과를 비교하고 RAG와 RAG 결과에 사용된 데이터의 원본을 확인하세요. 이 사용 사례에서는 프롬프트 엔지니어링만으로도 매우 성공적인 결과를 얻을 수 있었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 고급 프롬프트 엔지니어링
 
@@ -108,7 +192,18 @@ ChatGPT가 다른 모델을 위해 프롬프트를 작성하도록하지 마세�
 
 대부분의 모델에 대해 조정할 수있는 매개변수가 소수 있습니다. 이들은 전반적으로 두 가지를 제어합니다: 무작위성과 다양성입니다. 온도(0 ~ 1)를 변경하여 모델의 응답이 결정적인지 무작위적인지에 따라 조정할 수 있습니다. 예를 들어 저의 사용 사례의 경우, JSON 및 python 파일의 구조 때문에 결과물이 일관되고 예측 가능하게 나오기를 원하므로 온도가 0에 가까운 것이 더 적합합니다. 이는 탐욕 디코딩이라고 불리는 것의 한 예이며 여기서의 타협은 더 광범위한 확률 공간을 놓치게 된다는 것입니다. 모델이 감지 논리를 효율적이거나 창의적인 방법으로 구현할 수 있을 수도 있습니다. 예를 들어, 다양한 온도 값을 시도하고 특정 사용 사례에 가장 적합한 값을 찾아보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Top P과 Top K는 모델이 응답을 작성할 때 사용하는 "어휘 크기"를 제어합니다. 질문을 한 후에, 상위 50개 또는 상위 1500개에서 선택할 수 있습니다. 감지를 작성하는 목적으로, 더 결정론적인 응답을 갖는 것이 좋다고 생각했습니다. 감지 로직을 일관적으로 유지하려면 가능한 한 무작위성을 줄이는 것이 좋습니다.
 
@@ -118,7 +213,18 @@ Top P과 Top K는 모델이 응답을 작성할 때 사용하는 "어휘 크기"
 
 ## 10. 자기일관성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에서 언급한 대로, 매개변수의 값을 변경함으로써, 이러한 모델들로부터 얻는 응답의 종류를 변경할 수 있습니다. 실제로 이를 시도하는 한 가지 방법은 자일일성 기법을 사용하는 것입니다. 동일한 TTP에 대한 탐지를 다섯 사람이 모두 작성한다고 상상해보세요. 탐지 논리를 구현하는 방법은 매우 다양하기 때문에, 세 개의 아주 다른 탐지가 나올 수 있지만 모두 위협을 올바르게 식별할 수 있습니다. 이 개념은 모델이 온도, 상위 k 등 다양한 변수에 기반하여 여러 가지 답변을 생성하도록 하고 그 중에서 "최선"을 선택하도록 하는 방식으로 사용할 수 있습니다.
 
@@ -128,7 +234,18 @@ Top P과 Top K는 모델이 응답을 작성할 때 사용하는 "어휘 크기"
 
 결과를 살펴보겠습니다! D.I.A.N.A. (신규 경보에 대한 탐지 및 정보 분석)를 소개합니다. 예를 들어, Sigma의 CloudTrail 규칙, Stratus Red Team, Anvilogic의 무기고 등의 내용을 모두 가져와 내가 선택한 언어로 그들을 위한 탐지 규칙을 작성하고 싶을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 개인적으로 나는 블로그나 기사에서 가장 좋은 탐지 아이디어를 찾는 경향이 있어요. 그래서 모델에게 이것들도 주는 게 좋을 것 같아요: Invictus IR, Permiso Security, Gem Security.
 
@@ -138,10 +255,21 @@ Top P과 Top K는 모델이 응답을 작성할 때 사용하는 "어휘 크기"
 
 이 특정 사용 사례에서 StreamAlert를 사용했지만, 이를 대체할 수 있는 다른 쿼리나 탐지 언어를 사용하여 동일한 목표를 달성할 수 있도록 프롬프트 템플릿을 제공하고 싶었어요. 예를 들어, 모든 탐지 및 로그 예제를 제외한 후 남은 나의 프롬프트는 약 11k 토큰이었어요 (이는 대략 7500 단어이고 Claude에는 200k 토큰 컨텍스트 창이 있는 것을 감안하면 모델에게 제공하고 다시 받을 수 있는 토큰 수인거예요).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-사람: 귀하에게 주어진 작업은 사이버 보안 위협 인텔리전스를 StreamAlert.io 규칙으로 변환하고 이에 해당하는 JSON 테스트 파일을 작성하는 것입니다. GitLab, CloudTrail, Okta, AWS EKS 등과 같은 다양한 로그 소스에 대한 JSON 테스트 파일을 작성해주세요. 
+사람: 귀하에게 주어진 작업은 사이버 보안 위협 인텔리전스를 StreamAlert.io 규칙으로 변환하고 이에 해당하는 JSON 테스트 파일을 작성하는 것입니다. GitLab, CloudTrail, Okta, AWS EKS 등과 같은 다양한 로그 소스에 대한 JSON 테스트 파일을 작성해주세요.
 귀하의 위협 인텔리전스는 탐지, 위협 인텔리전스 보고서, 적대적 에뮬레이션 도구 또는 적대자의 기술, 전술 또는 절차를 설명하는 텍스트와 같은 형태로 제공될 것입니다. 이 위협 인텔리전스는 귀하의 입력으로 <question> 태그에서 제공될 것입니다.
 귀하의 출력물은 마크다운 형식의 streamalert 규칙과 해당하는 JSON 파일일 것입니다. 나에게 명확하게 보이도록 streamalert_rule.py와 streamalert_rule.json과 같이 나눠주세요.
 
@@ -210,8 +338,18 @@ streamalert 규칙과 해당하는 json 파일을 분리해서 제공하여 명�
 도움이 되었기를 바랍니다.
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지를 여기에 넣어주세요](/assets/img/2024-06-19-UtilizingGenerativeAIandLLMstoAutomateDetectionWriting_7.png)
 
@@ -221,8 +359,18 @@ streamalert 규칙과 해당하는 json 파일을 분리해서 제공하여 명�
 
 만약 결과물의 품질을 개선할 수 없고 막힌 상황에 있다면, 여러분의 프롬프트가 너무 복잡하거나 너무 길었을 수 있습니다. 프롬프트가 너무 짧을 수도 있고 지시 사항 또는 세부 사항이 충분하지 않을 수도 있습니다. 이런 경우에는 모델에게 프롬프트를 다시 쓰도록 요청하세요. 처음에는 (아마도 아직도) 내 지침에 많은 중복이 있어서 명확성이 오히려 감소할 것입니다. 이것은 균형 맞추기 행위이며, 여기에는 그 달콤한 지점을 찾기 위해 많은 실험이 필요할 것입니다. 위에서 말한 것처럼 모델에게 "소리치는 것"을 하도록 요청하여 걸음별 사고를 디버깅할 수 있습니다. 이렇게 함으로써 프롬프트의 어떤 부분이 오류를 일으키는지 확인하고 작업을 정확하게 완료하기 위해 더 많은 정보나 명확성이 필요한지 알 수 있을 것입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-UtilizingGenerativeAIandLLMstoAutomateDetectionWriting_8.png" />
 
@@ -232,7 +380,18 @@ streamalert 규칙과 해당하는 json 파일을 분리해서 제공하여 명�
 
 # 다음은 무엇일까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보안 전문가들에게 LLM을 더 쉽게 이해할 수 있도록 이 게시물을 작성했지만, 무엇보다도 그들이 어떻게 사용하는지에 대한 실용적인 안내서를 제공하기 위해서예요. 이 기술은 정말 놀라울 뿐만 아니라, 올바르게 적용되면 올바른 문제에 대해 상당한 효과를 얻을 수 있어요.
 
@@ -242,7 +401,18 @@ streamalert 규칙과 해당하는 json 파일을 분리해서 제공하여 명�
 
 # 참고문헌
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 문제를 연구하고 LLM이 작동하는 방식을 이해하는 데 사용한 대부분의 자료를 찾고 싶다면 아래 정보를 참고해보세요.
 

@@ -3,18 +3,13 @@ title: "다양한 용도로 활용 가능한 GenAI 기반 챗봇 만들기 방�
 description: ""
 coverImage: "/assets/img/2024-06-23-BuildingaMulti-PurposeGenAIPoweredChatbot_0.png"
 date: 2024-06-23 20:05
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-BuildingaMulti-PurposeGenAIPoweredChatbot_0.png
 tag: Tech
 originalTitle: "Building a Multi-Purpose GenAI Powered Chatbot"
 link: "https://medium.com/towards-data-science/building-a-multi-purpose-genai-powered-chatbot-db20f1f81d90"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![이미지](/assets/img/2024-06-23-BuildingaMulti-PurposeGenAIPoweredChatbot_0.png)
 
@@ -24,7 +19,18 @@ isUpdated: true
 
 심지어 하나의 모델을 호스팅하는 것은 계산적으로 많은 비용이 소요되며, 대형 GPU 인스턴스가 필요합니다. 여러 LLM을 보유하면 모두에 대한 지속적인 엔드포인트/하드웨어가 필요할 것입니다. 이는 또한 여러 엔드포인트를 관리하고 인프라를 제공하기 위해 추가 비용이 발생한다는 것을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SageMaker 추론 컴포넌트를 사용하여이 문제를 해결할 수 있습니다. 추론 컴포넌트를 사용하면 단일 엔드포인트에 여러 가지 모델을 호스팅 할 수 있습니다. 각 모델은 고유 한 컨테이너를 가지고 있으며 모델별로 일정한 하드웨어를 할당하고 확장할 수 있습니다. 이를 통해 단일 엔드포인트 뒤에 두 개의 모델을 가지고 비용과 성능을 최적화 할 수 있습니다.
 
@@ -38,7 +44,18 @@ SageMaker 추론 컴포넌트를 사용하여이 문제를 해결할 수 있습�
 
 이제 다룰 다양한 구성 요소를 이해했으니 예제로 바로 들어가 봅시다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 주의: 본 기사는 Python, LLMs 및 Amazon SageMaker 인퍼런스에 대한 중급 이해를 전제로 합니다. Amazon SageMaker 인퍼런스를 시작하는 데 도움이 될 것으로 보입니다.
 
@@ -53,7 +70,18 @@ SageMaker 추론 컴포넌트를 사용하여이 문제를 해결할 수 있습�
 - Streamlit UI 생성 및 데모
 - 추가 자료 및 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 1. 설정 및 엔드포인트 생성
 
@@ -85,14 +113,25 @@ smr_client = boto3.client("sagemaker-runtime")
 
 추론 구성 요소를 만들기 전에 먼저 SageMaker 실시간 엔드포인트를 만들어야 합니다. 여기에서 인스턴스 유형, 수량 및 엔드포인트 수준에서 관리되는 AutoScaling을 활성화합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 표를 마크다운 형식으로 변경해 주세요.
 
 우녕하세울나, 이것은 모델/추론 컴포넌트 수준에서 AutoScaling을 활성화하는 방법과는 다릅니다. 거기서는 각 추론 컴포넌트마다 AutoScaling 정책을 적용하여 모델 복사본 수를 조절할 수 있습니다. 각 모델 복사본은 추론 컴포넌트에 할당된 하드웨어 양을 유지합니다. 엔드포인트 수준에서 관리되는 AutoScaling을 설정하면 활성화한 추론 컴포넌트 수준의 스케일링을 처리할 충분한 컴퓨팅 자원이 있는지 확인해야 합니다. 엔드포인트 수준에서 자체 AutoScaling 정책을 정의할 수도 있지만, 여기에서 컴포넌트 및 엔드포인트 수준의 정책 간의 충돌 가능성에 유의해야 합니다.
 
 ```js
-# Container Parameters, increase health check for LLMs: 
+# Container Parameters, increase health check for LLMs:
 variant_name = "AllTraffic"
 instance_type = "ml.g5.12xlarge" # 하나의 인스턴스 당 4개의 GPU
 model_data_download_timeout_in_seconds = 3600
@@ -139,7 +178,18 @@ create_endpoint_response = client.create_endpoint(
 print("엔드포인트 Arn: " + create_endpoint_response["EndpointArn"])
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내부에서 우리의 엔드포인트를 만든 후에는 두 가지 다른 모델을 나타내는 두 가지 추론 컴포넌트를 추가할 수 있습니다.
 
@@ -149,7 +199,18 @@ print("엔드포인트 Arn: " + create_endpoint_response["EndpointArn"])
 
 ### a. Llama7B 채팅 추론 컴포넌트 생성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "Llama7B Chat"에는 DJL Serving에서 제공되는 LMI 컨테이너를 사용할 예정입니다. LMI 컨테이너를 사용하면 serving.properties 파일을 지정하여 작업 중인 모델과 일괄 처리 및 양자화와 같은 기타 최적화를 지정할 수 있습니다.
 
@@ -177,7 +238,18 @@ tar czvf mymodel.tar.gz mymodel/
 rm -rf mymodel
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 이미지 가져오기
@@ -232,7 +304,18 @@ print("IC Llama Arn: " + create_llama_ic_response["InferenceComponentArn"])
 
 추론 컴포넌트를 생성한 후 샘플 추론을 실행하여 추론 컴포넌트 이름을 헤더로 지정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import json
@@ -278,14 +361,25 @@ create_model_response = sm_client.create_model(
     ModelName=bart_model_name,
     ExecutionRoleArn=role,
     # 이 경우 HF Hub로 직접 모델 데이터를 가리키는 데이터 포인트 없음
-    PrimaryContainer={"Image": hf_transformers_image_uri, 
+    PrimaryContainer={"Image": hf_transformers_image_uri,
                       "Environment": env},
 )
 model_arn = create_model_response["ModelArn"]
 print(f"생성된 모델: {model_arn}")
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 번 더 SageMaker Model 객체를 Inference 구성 요소에 전달하고 모델에 필요한 하드웨어를 지정합니다.
 
@@ -318,7 +412,18 @@ Inference 구성 요소가 모두 생성되면 SageMaker Studio UI에서 시각�
 
 <img src="/assets/img/2024-06-23-BuildingaMulti-PurposeGenAIPoweredChatbot_1.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3. Streamlit UI 생성 및 데모
 
@@ -339,7 +444,18 @@ os.environ["bart_ic_name"] = "여기에 bart IC 이름 입력"
 
 또한 사용자 입력, 모델 출력 및 채팅 대화를 유지하기 위해 Streamlit 세션 상태 변수를 설정합니다. 대화를 지우는 클리어 버튼을 만들어 이 버튼을 클릭하면 우리가 정의한 상태 변수를 재설정합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 # 세션 상태 변수에 사용자 및 모델 입력을 저장합니다.
@@ -385,8 +501,18 @@ if submit_button and user_input:
 
 다음 명령으로 앱을 시작하면 UI를 볼 수 있으며 작동 중인 질문 응답 채팅 모델을 확인할 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 streamlit run app.py
@@ -397,11 +523,21 @@ streamlit run app.py
 사이드에는 요약 버튼도 만들어 봅시다:
 
 ```js
-summarize_button = st.sidebar.button("대화 요약", key="summarize")
+summarize_button = st.sidebar.button("대화 요약", (key = "summarize"));
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-23-BuildingaMulti-PurposeGenAIPoweredChatbot_3.png" />
 
@@ -411,8 +547,18 @@ summarize_button = st.sidebar.button("대화 요약", key="summarize")
 
 "chat_history" 상태 변수에 입력 및 출력을 모두 캡처하여 모델에 맞게 형식화하고 BART Inference Component를 호출합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 요약을 위한
@@ -444,9 +590,19 @@ if summarize_button:
 
 전체 예제 코드는 위 링크에서 찾을 수 있습니다. 다중 LLM(Large Language Model)을 실제 사례에 대해 비용 효율적이고 성능 효율적으로 활용하는 방법을 보여주는 좋은 예제였기를 희망합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-위에서 논의한 주제와 그 외에도 더 다뤄볼 GenAI/AWS 기사와 심층적인 내용을 기대해주세요. 항상 읽어주셔서 감사합니다. 의견이 있으시면 언제든지 남겨주세요. 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+위에서 논의한 주제와 그 외에도 더 다뤄볼 GenAI/AWS 기사와 심층적인 내용을 기대해주세요. 항상 읽어주셔서 감사합니다. 의견이 있으시면 언제든지 남겨주세요.
 
 이 기사가 마음에 드셨다면 LinkedIn에서 저와 연결하고 제 Medium 뉴스레터를 구독해보세요.

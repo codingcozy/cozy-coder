@@ -3,17 +3,13 @@ title: "6가지 방법으로 LLMs를 로컬에서 실행하는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-19-6WaystoRunLLMsLocally_0.png"
 date: 2024-06-19 21:41
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-6WaystoRunLLMsLocally_0.png
 tag: Tech
 originalTitle: "6 Ways to Run LLMs Locally"
 link: "https://medium.com/@semaphoreci/6-ways-to-run-llms-locally-fa25be0797e5"
 isUpdated: true
 ---
-
-
-
-
 
 상용 AI 및 대규모 언어 모델(LLM)은 한 가지 큰 단점이 있습니다: 개인 정보 보호 문제! 민감하거나 자사 데이터를 다룰 때 이러한 도구를 활용할 수 없습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 기대치 설정
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오픈 소스는 다양한 모델이 제공되므로 Meta와 같은 대규모 조직에서 제공하는 모델부터 개별 열정가들이 개발한 모델까지 수천 가지가 있습니다. 그러나 이러한 모델을 실행하는 것은 고유의 일련의 도전 과제를 제시할 수 있습니다:
 
@@ -35,7 +42,18 @@ Google의 유출 문서에 따르면 오픈 소스와 폐쇄 소스 모델 간�
 
 ![이미지](/assets/img/2024-06-19-6WaystoRunLLMsLocally_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 1. Hugging Face와 Transformers
 
@@ -48,7 +66,18 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 tokenizer = AutoTokenizer.from_pretrained("microsoft/DialoGPT-medium", padding_side='left')
@@ -74,7 +103,18 @@ Transformers 장점:
 
 Transformers 단점:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - ML 및 NLP에 대한 좋은 이해가 필요합니다.
 - 코딩 및 구성 기술이 필요합니다.
@@ -85,9 +125,20 @@ Transformers 단점:
 
 ```js
 from langchain.llms.huggingface_pipeline import HuggingFacePipeline
-``` 
+```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 hf = HuggingFacePipeline.from_model_id(
@@ -109,7 +160,18 @@ LangChain Pros:
 
 LangChain Cons:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 속도가 제한되어 있어 Transformers와 동일합니다
 - 여전히 애플리케이션 로직을 코딩하거나 적합한 UI를 만들어야 합니다.
@@ -120,7 +182,18 @@ Llama.cpp은 LLM을 위한 C 및 C++ 기반 추론 엔진으로, Apple 실리콘
 
 저장소를 복제하고 프로젝트를 빌드한 후에는 다음을 사용하여 모델을 실행할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 $ ./main -m /path/to/model-file.gguf -p "안녕하세요!"
@@ -134,7 +207,18 @@ Llama.cpp의 장점:
 
 Llama.cpp의 단점:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 제한된 모델 지원
 - 도구 빌딩이 필요합니다
@@ -145,7 +229,18 @@ Mozilla에서 개발한 람파파일은 LLM(?)을 실행하는 사용자 친화�
 
 람파파일을 다운로드한 후 GGUF 형식의 모델과 함께 사용하면 로컬 브라우저 세션을 시작할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 $ ./llamafile -m /path/to/model.gguf
@@ -158,7 +253,18 @@ Llamafile 장점:
 
 Llamafile 단점:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 프로젝트는 아직 초기 단계에 있어요.
 - 모든 모델이 지원되는 것은 아니에요. Llama.cpp가 지원하는 모델만 지원돼요.
@@ -171,7 +277,18 @@ Ollama는 Llama.cpp와 Llamafile에 대한 더 사용하기 쉬운 대안이에�
 $ ollama run llama2
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Ollama는 모델을 다운로드하고 대화형 세션을 시작할 것입니다.
 
@@ -183,7 +300,18 @@ Ollama 장점:
 
 Ollama 단점:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 모델 라이브러리 제공이 제한적입니다.
 - 모델을 스스로 관리하며, 사용자 지정 모델을 재사용할 수 없습니다.
@@ -196,7 +324,18 @@ GPT4ALL은 직관적인 GUI를 갖춘 사용하기 쉬운 데스크톱 응용 �
 
 ![이미지](/assets/img/2024-06-19-6WaystoRunLLMsLocally_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 장점:
 
@@ -208,7 +347,18 @@ GPT4ALL은 직관적인 GUI를 갖춘 사용하기 쉬운 데스크톱 응용 �
 - 모델 선택이 제한적
 - 일부 모델은 상업적 이용 제약이 있음
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

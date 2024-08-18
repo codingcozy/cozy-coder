@@ -3,16 +3,13 @@ title: "데이터 폭풍 속을 해마하는 여정 정교한 레이크하우스
 description: ""
 coverImage: "/assets/img/2024-05-27-NavigatingtheDataDelugeAJourneytoCraftingaSophisticatedLakehousePlatform_0.png"
 date: 2024-05-27 12:55
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-NavigatingtheDataDelugeAJourneytoCraftingaSophisticatedLakehousePlatform_0.png
 tag: Tech
 originalTitle: "Navigating the Data Deluge: A Journey to Crafting a Sophisticated Lakehouse Platform"
 link: "https://medium.com/@menis_77397/navigating-the-data-deluge-a-journey-to-crafting-a-sophisticated-lakehouse-platform-7a1d7a147149"
 isUpdated: true
 ---
-
-
-
 
 ![이미지](/assets/img/2024-05-27-NavigatingtheDataDelugeAJourneytoCraftingaSophisticatedLakehousePlatform_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 대용량의 원시 데이터를 원래 형식 그대로 저장할 수 있는 유연성으로 기업들에게 빠르게 적응하고 효율적으로 확장할 수 있는 도구로써 데이터 레이크가 부각되었습니다. 그러나 계속 진행함에 따라 데이터 관리에 더 구조적인 접근이 필요하다는 것을 깨달았고, 그로 인해 레이크하우스 구조를 채택하게 되었습니다. 이 하이브리드 모델은 데이터 레이크의 확장성과 유연성을 데이터 웨어하우스의 관리 기능과 결합하여 데이터 전략을 향상시킵니다. 이 이야기는 이러한 기술을 활용하기 위해 우리가 취한 실질적인 단계를 살펴보며, 데이터 레이크를 레이크하우스 프레임워크로 통합함으로써 데이터 주도 기업에게 혁신적인 자산이 될 수 있는 방법을 밝힐 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 레이크하우스 이전의 데이터 전략
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 또한 다양한 팀과 프로젝트가 발전함에 따라 Superset 내에서 여러 데이터셋이 생성되었는데, 각각이 특정한 분석 요구에 맞게 조정되었습니다. 불행히도, 이로 인해 여러 데이터셋에 중복 변환 요소가 코딩되어 복잡성이 증가했을 뿐만 아니라 이러한 변환을 유지하고 업데이트하는 것이 점점 더 부담스러워졌습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 데이터 아키텍처 결정: Lake, Warehouse 또는 Lakehouse?
 
@@ -42,7 +61,18 @@ isUpdated: true
 
 • **데이터 웨어하우스**: 이것은 질의 및 분석에 최적화된 구조화된 형식으로 데이터를 저장하는 시스템입니다. 데이터 웨어하우스는 구조화된 데이터에 대한 빠른 쿼리 성능에 뛰어나지만 변경사항 및 새로운 데이터 유형의 수용에 있어서 덜 유연할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 • Lakehouse: 데이터 레이크와 데이터 웨어하우스의 장점을 결합한 하이브리드 모델입니다. 데이터 레이크의 넓은 저장 공간과 유연성을 제공하면서 데이터 웨어하우스의 효율적인 쿼리 기능을 갖추고 있습니다.
 
@@ -52,7 +82,18 @@ isUpdated: true
 
 2. 단순화된 아키텍처: 처음에는 기존의 ETL 프로세스를 데이터 웨어하우스와 데이터 레이크에 별도로 구축하는 것을 고려했지만, 두 개의 별도 시스템을 유지할 명확한 이유를 찾지 못했습니다. 레이크하우스 모델은 강력한 쿼리 및 저장 기능을 하나의 보다 관리하기 쉬운 시스템으로 통합한 간소화된 접근 방식을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 주요 구성 요소에 대한 개요입니다:
 
@@ -62,11 +103,20 @@ Our Data Lakehouse stack
 
 이미지를 Markdown 형식으로 변경했습니다.
 
-
 ![Lakehouse Overview](/assets/img/2024-05-27-NavigatingtheDataDelugeAJourneytoCraftingaSophisticatedLakehousePlatform_1.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **데이터 저장:**
 
@@ -78,7 +128,18 @@ Our Data Lakehouse stack
 
 실버 및 골드 레이어에서는 쿼리 성능을 최적화하기 위해 데이터 파일을 Parquet 파일로 저장합니다. Parquet의 효율적인 열 지향 저장 형식 덕분에 쿼리 성능이 최적화됩니다. 또한, 이러한 Parquet 파일 위에서 Apache Iceberg를 활용하여 레이크하우스 아키텍처에 여러 가지 중요한 기능을 제공합니다. Apache Iceberg를 사용하면 데이터 레이크를 전통적인 데이터베이스처럼 다루되 더 큰 유연성과 확장성을 갖습니다. 스냅샷, 트랜잭션, 업서트 및 삭제와 같은 복잡한 작업을 지원함으로써 데이터 레이크를 더 동적이고 다재다능한 시스템으로 변환할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 카탈로그:
 
@@ -88,7 +149,18 @@ Our Data Lakehouse stack
 
 데이터 액세스 및 쿼리 엔진:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AWS Athena는 주요 쿼리 엔진으로 사용되며 AWS Glue 카탈로그와 원활하게 통합됩니다. 이 간편한 설정을 통해 데이터 레이크를 효과적으로 쿼리할 수 있어 Athena는 우리 데이터 아키텍처의 중요한 구성 요소입니다. Athena를 사용하는 주요 장점 중 하나는 비용 효율성입니다. Athena는 쿼리 중 스캔된 데이터 양에 따라 요금이 부과되기 때문에 현재 우리의 쿼리는 과도한 데이터 양을 스캔하지 않아 비용을 상당히 낮게 유지할 수 있었습니다.
 
@@ -98,7 +170,18 @@ AWS Athena는 주요 쿼리 엔진으로 사용되며 AWS Glue 카탈로그와 �
 
 데이터 거버넌스:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AWS Lake Formation은 저희 데이터 거버넌스에 중요한 역할을 합니다. 레이크하우스 아키텍처에서 데이터 보안과 권한 관리를 크게 향상시킵니다. 이는 PHI 및 민감한 데이터를 다루는 데 핵심적인 엄격한 접근 제어를 시행하는 데 도움이 됩니다.
 
@@ -112,7 +195,18 @@ AWS Lake Formation은 저희 데이터 거버넌스에 중요한 역할을 합�
 
 각 데이터베이스와 테이블에 여러 태그를 적용하여 세밀한 역할 기반 접근 제어를 가능하게 합니다. 예를 들어, 우리 애플리케이션에서 데이터를 쿼리하는 고객을 위한 역할은 client_facing: true, data_lake_layer: gold, 그리고 environment: prod와 같은 태그 조합을 통해 액세스 권한을 부여받을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최초에 AWS Lake Formation을 설정하는 것은 간단하지 않았습니다. 이 플랫폼은 강력하지만 직관적이지 않았고, 권한 행동을 우리의 거버넌스 요구에 맞게 조정하는 데 상당한 노력과 시간이 걸렸습니다. 이러한 도전을 극복하기 위해서는 가파른 학습 곡선이 필요했는데, 다양한 구성을 실제로 실험해야 했고, 우리가 필요로 하는 상세한 액세스 제어를 효과적으로 구현하고 관리하는 방법을 이해해야 했습니다.
 
@@ -122,7 +216,18 @@ AWS Lake Formation은 저희 데이터 거버넌스에 중요한 역할을 합�
 
 우리는 단순하게 사용할 수 있고 기관 전체의 데이터를 수집해야 할 필요가 있는 미래의 요구를 예측하여 다양한 커넥터를 지원하는 플랫폼을 찾았습니다. 두 플랫폼인 Airbyte(오픈 소스 솔루션)와 Rivery(SaaS 솔루션)을 비교하는 POC를 진행한 후, 몇 가지 설득력있는 이유로 Airbyte를 선택했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 저희의 결정은 데이터 양에 따라 청구되지 않는 비용 효율적인 솔루션에 더 기울였습니다. 저희는 증가하는 비용을 걱정하지 않고 자유롭게 데이터를 가져오길 선호했습니다. 게다가 Airbyte의 개발 도구는 특히 인상적이었습니다. 플랫폼의 Connector Builder SDK는 Connector Builder UI와 로우코드 커넥터 개발 환경이 모두 포함되어 있어 필요한 간편함과 유연성을 제공했습니다. 이 기능 덕분에 우리는 우리의 특정 요구에 맞게 데이터 커넥터를 쉽게 구축하고 맞춤화할 수 있었습니다.
 
@@ -132,7 +237,18 @@ Airbyte는 대규모이자 활발한 커뮤니티를 자랑하지만 제품에 �
 
 이러한 어려움에도 불구하고 Airbyte는 효과적으로 우리의 요구 사항을 모두 충족시켰습니다. 오늘날, Airbyte를 사용하여 약 15가지 다른 데이터 소스를 데이터 레이크에 성공적으로 통합했으며, 데이터 수집 능력과 전체 데이터 전략을 크게 향상시켰습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 처리:
 
@@ -142,18 +258,27 @@ Airbyte는 대규모이자 활발한 커뮤니티를 자랑하지만 제품에 �
 
 dbt에서 테이블 속성을 구성하는 것은 직관적이고 유연하며, 우리의 데이터 관리 능력을 크게 향상시킵니다. 예를 들어, 증분 테이블을 널리 사용하는데, 이는 새 데이터 또는 변경된 데이터만 효율적으로 가져오는 데 중요합니다. Iceberg 테이블 형식을 활용하여 병합 증분 전략을 채택하면 데이터세트를 중복 처리 없이 원활하게 업데이트할 수 있습니다. 또한, dbt에서 데이터 파티션을 관리하는 것도 간단해졌습니다. 파티션은 테이블 속성 내에서 직접 선언할 수 있습니다. 아래는 우리의 골드층 테이블에 대한 테이블 속성 구성 예시입니다. 우리가 재료화 전략, 파티셔닝 및 데이터 형식을 어떻게 지정하는지 보여주고 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 { config(
-    materialized='incremental',
-    incremental_strategy='merge',
-    unique_key=['session_id'],
-    partitioned_by=['day'],
-    table_type='iceberg',
-    format='parquet'
+materialized='incremental',
+incremental_strategy='merge',
+unique_key=['session_id'],
+partitioned_by=['day'],
+table_type='iceberg',
+format='parquet'
 ) }
-
 
 우리는 dbt에 대해 매우 만족하고 있습니다; 이 도구는 우리의 데이터 변환을 어떻게 관리하는지에 혁명을 일으켰습니다. 이 도구는 견고한 버전 관리, 코드의 재사용성 및 데이터 흐름의 명확한 문서화를 제공하여 복잡한 변환 작업을 관리하고 레이크하우스 아키텍처 전반에서 데이터 무결성을 유지하는 것을 크게 간소화합니다.
 
@@ -161,9 +286,18 @@ dbt와의 성공을 토대로, 우리는 현재 데이터 관리 역량을 더�
 
 Montara에 감명을 받았습니다; 이 도구는 우리의 dbt 워크플로우를 크게 간소화시켜 팀 전체에서 데이터 변환을 보다 접근 가능하고 관리하기 쉽게 만듭니다. 이 도구가 비교적 새로운 것이며 여전히 발전 중이므로 가끔씩 일부 문제와 기능의 빈틈을 겪기도 하지만, 우리의 경험은 전반적으로 매우 긍정적입니다. Montara 팀은 우수한 지원을 제공하며 우리와 긴밀히 협력하여 발생하는 어려움을 신속하게 해결하고 계속되는 제품 향상에 우리의 피드백을 통합합니다. 이 협력적인 접근은 문제를 신속하게 해결할 뿐만 아니라 Montara.io가 우리의 데이터 인프라 요구와 완벽하게 일치하도록 발전하도록 보장합니다.
 
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 분석 및 BI 도구:
 
@@ -173,7 +307,18 @@ Apache Superset은 저희가 선택한 분석 및 비즈니스 인텔리전스 �
 
 현재, 일부 차트는 브론즈 계층의 데이터에 직접 접근하여 실시간으로 변환 작업을 수행합니다. 그러나 더 이상 원시 데이터 쿼리의 부하를 줄이기 위해 이 접근 방식을 수정 중이며, 최종적으로 LF-tags를 사용하여 브론즈 계층의 액세스를 제한할 계획입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Superset은 대시보딩에 편리하고 효과적인 도구라고 생각하지만, 시간이 지남에 따라 생성된 데이터셋이 증가하면 어느 정도 어수석해질 수 있습니다. Superset의 각 데이터셋은 개별적으로 구성되어 있어 대시보드의 수와 복잡성이 증가함에 따라 중복과 관리 도전이 발생할 수 있습니다. 그럼에도 불구하고, 이러한 어려움에도 불구하고, Superset은 우리의 요구 사항을 잘 충족시켜 주며 조직 전반에서 데이터를 시각화하고 상호 작용하는 다재다능한 플랫폼을 제공합니다.
 
@@ -183,7 +328,18 @@ Apache Airflow는 데이터 환경 내에서 워크플로우를 조정하고 관
 
 현재, 저희는 저희 레이크하우스 운영에 필수적인 세 가지 주요 DAGs (방향이 있는 비순환 그래프)를 관리하고 있습니다. 첫 번째 DAG는 AirbyteOperator를 활용하여 동기화를 위해 필요한 모든 업무를 트리거하여 브론즈 레이어에 데이터를 효율적으로 삽입하는 작업을 담당합니다. 두 번째 DAG는 dbt 변환을 실행하여 데이터를 처리하고 실버 및 골드 레이어로 옮기는 업무를 담당합니다. 세 번째 DAG는 전체 워크플로를 감독하며 데이터 처리의 원활한 흐름을 유지하기 위해 순차적으로 삽입 DAG 및 이후에 dbt DAG를 트리거합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한, 이러한 워크플로우 내에 Slack 알림을 통합했습니다. 이 설정은 DAG(작업 방향성 비순환 그래프) 실패 시 실시간 알림을 제공하여 지속적인 운영 및 데이터 무결성 유지를 위해 즉각적인 모니터링과 대응이 가능하게 합니다.
 
@@ -193,7 +349,17 @@ Apache Airflow는 데이터 환경 내에서 워크플로우를 조정하고 관
 
 이러한 도구들은 우리의 운영 효율을 향상시키는데 그치지 않고 회사 전반에서 더 통찰력있는 데이터 분석과 보고의 길을 열었습니다. 우리의 데이터 인프라를 계속 발전시키면서, 우리는 데이터 능력을 더욱 향상시킬 수 있는 새로운 기술과 방법을 탐구하는 데 헌신하겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 비슷한 여정을 걸어가고 있는 독자들로부터의 피드백과 질문을 환영합니다. LinkedIn에서 저와 연락하셔서 더 자세한 토론을 나누거나 아이디어를 교환해 주세요.
-

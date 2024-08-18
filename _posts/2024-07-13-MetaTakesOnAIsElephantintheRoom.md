@@ -3,17 +3,13 @@ title: "메타가 해결하는 AI의 주요 문제점 "
 description: ""
 coverImage: "/assets/img/2024-07-13-MetaTakesOnAIsElephantintheRoom_0.png"
 date: 2024-07-13 02:56
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-MetaTakesOnAIsElephantintheRoom_0.png
 tag: Tech
 originalTitle: "Meta Takes On AI’s Elephant in the Room"
 link: "https://medium.com/@ignacio.de.gregorio.noblejas/meta-takes-on-ais-elephant-in-the-room-4e2511265afd"
 isUpdated: true
 ---
-
-
-
-
 
 미래에 AI가 직면할 거대한 위협은 에너지 제약입니다. 현재 수준에서는 세계의 에너지 그리드가 예상된 AI 제품 수요를 충족시키기 어려울 것으로 예상됩니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이를 알아차린 Meta는 MobileLLM을 만들기 위해 다양한 알고리즘 혁신을 제안했습니다. 이것은 곧 이 규모에서 표준이 되어 위대한 약속들이 AI 애호가들이 상상하는 것 그 이상이 되지 못하도록 방지할 것으로 예상됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 문제의 긴 꼬리
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ## 공급 문제
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 기술적으로는 상황이 그대로라면, 곧 실제 GPU 부족 현상에 직면할 수 있습니다.
 
@@ -43,18 +61,40 @@ isUpdated: true
 
 Meta에서 (부록 I 참조), 대부분의 사람들이 하루 중 5%만 LLM을 사용하는 미래에서, 우리는 GPT-4를 서비스하기 위해 백만 개의 NVIDIA H100 GPU가 필요할 것입니다. 이는 매우 짧은 평균 시퀀스 길이를 전제로 한 50 토큰/초의 수용 가능한 지연 시간이라는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 숫자가 사소한 것처럼 들릴 수 있지만, 그 사용량이 실제로 실현될 미래는 멀지 않은 곳에 있습니다. 예를 들어, LLMs가 주류로 사용되는 분야 중 하나는 인터넷 검색일 것입니다. 예를 들어, AI 개괄과 같은 예시들이 있습니다. 그러니 좀 더 자세한 개념을 얻기 위해 몇 가지 숫자를 확인해 봅시다:
 
 - 구글은 하루에 약 85억 번 검색됩니다.
 - SemiAnalysis의 연구에 따르면, GenAI 강화 검색은 평균 9 와트/시간의 비용이 발생할 수 있습니다.
-  
+
 적어도 모든 검색 중 60% 이상 (아마도 보수적인 추정이 될 것입니다)이 GenAI 세대에 기반하고 있다고 가정하면, 해당 서비스의 총 에너지 수요량은 17 TWh이고, 2GW 데이터 센터가 필요합니다.
 
-그 데이터 센터는 얼마나 큰 걸까요? 엄청나게 큽니다. 
+그 데이터 센터는 얼마나 큰 걸까요? 엄청나게 큽니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 참고로, xAI의 다가오는 100,000개의 NVIDIA H100 GPU 클러스터는 세계에서 가장 큰 규모로, 14MW의 전력이 필요합니다. 따라서 2024년에 건설할 예정인 최대 데이터 센터보다 14배 큰 규모의 설명을 하고 있습니다.
 
@@ -64,7 +104,18 @@ Meta에서 (부록 I 참조), 대부분의 사람들이 하루 중 5%만 LLM을 
 
 모델의 현재 컴퓨팅 및 메모리 비용 복잡성 (실행 및 저장에 얼마나 비싼지)이 계속된다고 가정할 때, 대부분의 경우의 수행 순서 길이에 비례하여 이차적으로 증가한다고 가정할 때(입력 순서를 두 배로 늘리면 LLM에 대한 계산 및 메모리 요구 사항이 네 배로 증가하며, 입력을 세 배로 하면 9배 증가함), 이전 세그먼트에서 한 평가가 충분하지 않을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LLM들은 기억력에서 성공을 거두었지만 (그들은 대부분의 인터넷 데이터를 자신있게 복제할 수 있음), 그들의 추론 능력은 매우, 아주 겸손합니다.
 
@@ -72,17 +123,39 @@ LLM들은 기억력에서 성공을 거두었지만 (그들은 대부분의 인�
 
 이 패러다임은 토큰 생산의 평균치를 엄청난 수준으로 증가시킬 뿐만 아니라, 해결책을 찾는 중 작성자가 발생하는 각 생각을 검증하는 추가 모델, 확인자도 필요할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만일 이것이 인공지능의 미래라면, 우리가 위에서 보았던 숫자는 분명히 미흡할 것입니다. 이전에 논의한 9Wh 를 훨씬 초과하는 요청들이 있을 것입니다.
 
 그럼에도 불구하고 국제 에너지 기구 (IEA)에 따르면, 미국, EU, 중국의 데이터 센터 수요는 2026년까지 연간 약 710 TWh 로 늘어날 것으로 예상됩니다.
-   
+
 참고로, 그것은 2022년 프랑스와 이탈리아의 결합된 에너지 소비량 (720 TWh)만큼 거의 큰 규모입니다.
 
 ![2024-07-13-MetaTakesOnAIsElephantintheRoom_0.png](/assets/img/2024-07-13-MetaTakesOnAIsElephantintheRoom_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 이유들로 인해 (그리고 개인정보 문제 때문에도), 많은 사람들이 엣지 AI 또는 "장치 내" 언어 모델을 가능한 해결책으로 삼고 있습니다. 그런 모델들은 우리 개인 장치의 배터리에서 작동할 수 있어 GPU 데이터 센터를 필요로하지 않습니다.
 
@@ -92,7 +165,18 @@ LLM들은 기억력에서 성공을 거두었지만 (그들은 대부분의 인�
 
 ## 수학이 맞지 않을 때
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대규모 데이터 센터에서 LLMs를 실행하는 것은 마치 예술 작품을 만드는 것과 같아요. 개인 장치에서 상황이 더 쉬운 가운데, 우리는 다른 적들과 싸워야 해요: 품질과 배터리에 대처해야 해요.
 
@@ -102,7 +186,18 @@ LLM들은 기억력에서 성공을 거두었지만 (그들은 대부분의 인�
 
 특히 스마트폰에서는 이러한 작업 부하가 DRAM 메모리 세그먼트에 저장되어야 해요. DRAM 메모리는 6GB에서 12GB로 구성되어 있고, 모델을 플래시 메모리에 저장하면 메모리 계층구조의 그 부분에서 극도로 낮은 메모리 대역폭 (1GB/s)으로 인해 견딜 수 없는 지연이 발생하게 되요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 상황에서 iPhone의 DRAM 크기가 6GB이라는 것을 염두에 두고, 장치의 전체 사용을 방해하지 않기 위해 LLM 모델은 총 DRAM의 10% 또는 600MB를 초과해서는 안 됩니다.
 
@@ -110,7 +205,18 @@ Apple Intelligence의 기기 내 LLM, OpenELM은 약 1.5GB(4비트 정밀도의 
 
 하지만 그것이 전부가 아닙니다. 배터리도 고려해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 메타 연구원들은 0.1 J/토큰 소비로 (아이폰이 완전히 충전된 상태에서 약 50 KJ의 배터리 수명을 보유한다) 10 토큰/초 처리량으로 토큰을 출력하는 LLM이 전체 배터리를 2시간 안에 고갈시킨다고 계산했습니다. (약 8 단어/초, 합리적인 처리량이지만 놀라운 것은 아닙니다)
 
@@ -120,7 +226,18 @@ Apple Intelligence의 기기 내 LLM, OpenELM은 약 1.5GB(4비트 정밀도의 
 
 # 다양한 답의 매뉴얼
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 산업 동향으로 보아 언어 모델의 하위 10억 파라미터 범위는 대부분 미개척된 상태라는 것을 상상할 수 있습니다.
 
@@ -130,7 +247,18 @@ Apple Intelligence의 기기 내 LLM, OpenELM은 약 1.5GB(4비트 정밀도의 
 
 이를 하나씩 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-07-13-MetaTakesOnAIsElephantintheRoom_2.png)
 
@@ -140,7 +268,18 @@ Apple Intelligence의 기기 내 LLM, OpenELM은 약 1.5GB(4비트 정밀도의 
 
 그렇다면 활성화 함수는 무엇에 사용되는 걸까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 신경망은 모든 변수 관계를 숨겨진 유닛 또는 뉴런이라고 불리는 임의의 수의 중간 유닛을 사용하여 근사할 수 있는 보편적 근사 이론을 따릅니다.
 
@@ -150,11 +289,33 @@ Apple Intelligence의 기기 내 LLM, OpenELM은 약 1.5GB(4비트 정밀도의 
 
 따라서 예측에 참여하려면 뉴런은 활성화(또는 발화)될 수 있도록 일정한 임계값에 도달해야 하며, 활성화 함수가 뉴런이 발화하는지 여부를 결정하는 요소입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-이 논문에서 더 중요한 통찰 중 하나는 "당신이 작은 것을 따른다면, 맹그로 가야 한다" 입니다.  # 넓은 것 보다는 깊게, 내장 공유와 GQA
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+이 논문에서 더 중요한 통찰 중 하나는 "당신이 작은 것을 따른다면, 맹그로 가야 한다" 입니다. # 넓은 것 보다는 깊게, 내장 공유와 GQA
+
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 팀은 뉴런 수를 줄이고 레이어 수를 늘리는 방향으로 깊게 들어가는 것이 더 나은 것으로 결론 내렸습니다. 이는 더 흔한 접근법과는 다르게 높은 정확성을 가진 '날씬한' (길지만 얇은) 네트워크를 만들어 냅니다.
 
@@ -162,7 +323,18 @@ Apple Intelligence의 기기 내 LLM, OpenELM은 약 1.5GB(4비트 정밀도의 
 
 이어서, 또 다른 중요한 변화는 같은 임베딩/비임베딩 레이어를 사용했다는 것입니다. 일반적인 Transformer 기반 언어 모델의 경우, 첫 번째 스텝과 마지막 스텝은 서로 반대인 변환을 하는 것으로:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 임베딩 레이어는 모든 단어/토큰을 벡터 형태(임베딩)로 변환하여 모델이 처리할 수 있도록 합니다.
 - 언임베딩 레이어는 반대로, 출력 분포에서 샘플링된 토큰을 가져와 자연어로 변환하여 사용자에게 되돌려주는 작업을 수행합니다.
@@ -173,7 +345,18 @@ Apple Intelligence의 기기 내 LLM, OpenELM은 약 1.5GB(4비트 정밀도의 
 
 매우 큰 LLM의 경우 이러한 매개변수가 총 크기의 매우 작은 부분이기 때문에 이는 의미가 없지만, 우리의 규모에서는 두 레이어 모두 동일한 매개변수를 사용하면 정확도에 거의 영향을 주지 않으면서 두 자리수의 메모리 절약 효과를 가져옵니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내가 최근에 발표 된 대부분의 모델과 같이, 팀은 Grouped-Query Attention을 사용하여 KV 캐시 제한을 상당히 줄입니다.
 
@@ -183,7 +366,18 @@ Apple Intelligence의 기기 내 LLM, OpenELM은 약 1.5GB(4비트 정밀도의 
 
 언어 모델에서 전체 대기 시간의 상당부분은 인공지능 가속기 (GPU/NPU 프로세서)와 메모리 (모델이 저장되는 곳) 간의 지속적인 통신 오버헤드로 설명할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전 글 중 하나에서 본 바와 같이, 여러분은 가속기에 실제로 가까워질수록 크기가 작아지고 대역폭 통신 처리량이 높아진다는 계층적인 메모리를 갖게 됩니다.
 
@@ -193,7 +387,18 @@ Apple Intelligence의 기기 내 LLM, OpenELM은 약 1.5GB(4비트 정밀도의 
 
 놀랍게도, 이것은 서로 다른 메모리 계층 간의 통신 오버헤드를 줄이면서 예상치 못한 정확도 향상을 가져다주었습니다. 이는 놀라운 발견입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 In general, MobileLLM has proven to be quite effective.
 
@@ -203,7 +408,18 @@ Just a reminder, we are discussing models that are significantly smaller compare
 
 ![Meta Takes on AI's Elephant in the Room](/assets/img/2024-07-13-MetaTakesOnAIsElephantintheRoom_7.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 중요한 것은 이 연구를 통해 Meta가 우리가 있어야 할 곳, 실용주의에 초점을 맞추고 있다는 점입니다.
 
@@ -213,9 +429,20 @@ AGI, 초인공지능 및 위험한 AI에 대한 끝없는 의미없는 이야기
 
 요약하자면, 기존 기업과 시장은 'AI 신'의 약속에 완전히 속아넘어가거나 정신적으로 조종당했으며, 현재 AI가 주로 사회에 현저한 가치를 전달해야 한다는 사실을 잊어버린 상황입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-게다가 'AGI 도달에 초점을 맞추는 것은 자본을 효율적으로 활용하는 데 해로울 뿐만 아니라, 더 강력한 소형 모델이 클라우드 서비스에 대한 예상 수요의 많은 부분을 완화하지 않는 한 에너지적으로 실현 가능하지 않습니다(LLMs가 대량 데이터 센터에서 실행됨). 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+게다가 'AGI 도달에 초점을 맞추는 것은 자본을 효율적으로 활용하는 데 해로울 뿐만 아니라, 더 강력한 소형 모델이 클라우드 서비스에 대한 예상 수요의 많은 부분을 완화하지 않는 한 에너지적으로 실현 가능하지 않습니다(LLMs가 대량 데이터 센터에서 실행됨).
 
 오해하지 마십시오, 'GPT-5'를 가장 기대하는 사람은 저뿐인데도:
 

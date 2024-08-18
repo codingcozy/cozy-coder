@@ -3,17 +3,13 @@ title: "안드로이드 WorkManager 완벽 가이드 처음부터 고수가 되�
 description: ""
 coverImage: "/assets/img/2024-07-07-FromZerotoHerowithWorkManagerinAndroid_0.png"
 date: 2024-07-07 20:02
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-FromZerotoHerowithWorkManagerinAndroid_0.png
 tag: Tech
 originalTitle: "From Zero to Hero with WorkManager in Android"
 link: "https://medium.com/nerd-for-tech/from-zero-to-hero-with-workmanager-in-android-22cf6a185791"
 isUpdated: true
 ---
-
-
-
-
 
 안녕하세요, 카드 전문가입니다.
 
@@ -24,6 +20,7 @@ WorkManager는 안드로이드 Jetpack에서 제공하는 API로, 예약 가능�
 
 **Q2: WorkManager에 적합한 작업 유형은 무엇인가?**
 WorkManager는 보장된 실행이 필요한 작업에 이상적입니다. 예를 들어 다음과 같은 작업에 적합합니다:
+
 - 주기적인 데이터 동기화
 - 로그 또는 분석 업로드
 - 알림 전송
@@ -31,7 +28,18 @@ WorkManager는 보장된 실행이 필요한 작업에 이상적입니다. 예�
 
 행복한 하루 되세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실시간 또는 즉시 실행이 필요한 작업에는 적합하지 않아요.
 
@@ -43,7 +51,18 @@ A: 먼저 build.gradle 파일에 WorkManager 종속성을 추가하세요. 그�
 Q4: WorkManager는 작업 실행 전에 가져야하는 작업 제약 조건을 어떻게 처리하나요?
 A: WorkManager를 사용하면 네트워크 가용성, 디바이스 충전 상태, 디바이스 대기 상태, 배터리 레벨과 같은 적절한 조건 하에서 작업이 실행되도록 제약 조건을 설정할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요구사항 설정하는 예시를 보여드릴게요:
 
@@ -59,7 +78,18 @@ A: WorkManager는 작업 실행을 보장하기 위해 다음과 같은 방법�
 Q7: WorkManager를 사용하여 작업을 연결하는 방법은 무엇인가요?
 A: beginWith() 및 then() 메서드를 사용하여 여러 작업을 연속적으로 실행할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 A8: 나의 작업 상태를 어떻게 관찰할 수 있을까요?
 A: WorkInfo 옵저버를 연결하여 작업 상태를 관찰할 수 있습니다.
@@ -72,10 +102,22 @@ A: 실패한 작업에 대한 재시도를 처리하기 위해 백오프 정책�
 
 A11: PeriodicWorkPolicy는 무엇이며 주기적 작업에 어떤 영향을 미치나요?
 A: `PeriodicWorkPolicy`는 동일한 고유 이름을 가진 새 주기적 작업이 큐에 들어올 때 기존 주기적 작업의 동작을 결정합니다. 사용할 수 있는 두 가지 정책이 있습니다:
+
 - KEEP: 동일한 이름을 가진 기존 주기적 작업이 있는 경우 새 요청은 무시됩니다.
 - REPLACE: 기존 주기적 작업이 취소되고 새 요청으로 대체됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 `PeriodicWorkPolicy`를 사용한 예제가 있습니다:
 

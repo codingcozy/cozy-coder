@@ -3,17 +3,13 @@ title: "Kotlin에서 인라인 함수로 함수 호출 강화하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-07-EnhanceYourFunctionCallswithInlineFunctionsinKotlin_0.png"
 date: 2024-07-07 03:12
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-EnhanceYourFunctionCallswithInlineFunctionsinKotlin_0.png
 tag: Tech
 originalTitle: "Enhance Your Function Calls with Inline Functions in Kotlin"
 link: "https://medium.com/@mahbubmridha07/enhance-your-function-calls-with-inline-functions-in-kotlin-dfe1d938648d"
 isUpdated: true
 ---
-
-
-
-
 
 ![Image](/assets/img/2024-07-07-EnhanceYourFunctionCallswithInlineFunctionsinKotlin_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 인라인 함수는 코틀린에서 해당 함수의 바이트 코드를 직접 호출 지점에 삽입하는 방식으로, 함수 호출이 필요 없게 만드는 함수입니다. 고계 함수(다른 함수를 매개변수로 취하는 함수)가 포함된 경우 특히 성능 향상을 이끌어 낼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인라인 함수의 장점
 
@@ -35,7 +42,18 @@ isUpdated: true
 
 함수 정의의 시작 부분에 inline 키워드를 추가하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 ## 예제로 이해해보죠:
@@ -66,7 +84,16 @@ fun calculateSum(from: Int): Int {
     return sum
 }
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 설명:
 
@@ -78,7 +105,16 @@ fun calculateSum(from: Int): Int {
 
 # 코드를 디컴파일하여 JVM에서의 차이점을 관찰하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코틀린에서 인라인 함수를 사용할 때 바이트 코드의 차이를 시연하겠습니다. 먼저, 인라인 키워드 없이 코드를 디컴파일하고 바이트 코드를 관찰합니다. 그런 다음, 함수에 인라인 키워드를 추가하고 다시 디컴파일하여 바이트 코드가 어떻게 변경되는지 확인해 봅니다.
 
@@ -90,7 +126,16 @@ fun calculateSum(from: Int): Int {
 
 ![Image](/assets/img/2024-07-07-EnhanceYourFunctionCallswithInlineFunctionsinKotlin_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 프로세스마다 새 Function0() 객체가 생성된다는 것을 알 수 있어요. 이러한 객체들은 힙 메모리에 할당되며, 이는 메모리와 성능 측면에서 비용이 발생할 수 있어요. 이제 우리는 inline 키워드를 추가하면 어떻게 되는지 알아볼게요.
 
@@ -100,7 +145,16 @@ inline 키워드를 추가한 후:
 
 inline 키워드를 추가한 후, 함수가 호출 함수로 직접 복사되어 객체 생성이 필요 없어졌어요. 이로써 메모리 사용량과 성능이 최적화되었답니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Inline 함수의 장점
 
@@ -112,7 +166,16 @@ inline 키워드를 추가한 후, 함수가 호출 함수로 직접 복사되�
 
 Inline 함수의 주요 기능 중 하나는 람다에서 바로 반환할 수 있는 능력입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **Tarot Reading:** 🌟
 
@@ -136,7 +199,18 @@ fun main() {
 이 카드가 당신에게 주는 메시지를 잘 생각해보세요. 좋은 하루 보내세요! 🌙🔮
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Noinline과 Crossinline
 
@@ -152,7 +226,18 @@ inline fun inlineFunction(noinline block: () -> Unit) {
 
 만약 람다가 비로컬 반환을 사용하지 못하도록 보장하려면, crossinline 키워드로 표시할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 inline fun inlineFunctionWithCrossinline(crossinline block: () -> Unit) {
@@ -178,8 +263,18 @@ inline fun execute(crossinline action: () -> Unit, noinline callback: () -> Unit
 
 ## 사용 사례와 한계
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **하이어오더 함수:** 다른 함수를 인자로 받는 함수는 인라인화를 통해 가장 큰 이점을 얻을 수 있습니다.
 
@@ -192,7 +287,18 @@ inline fun execute(crossinline action: () -> Unit, noinline callback: () -> Unit
 
 # 요약
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코틀린의 인라인 함수는 고차 함수를 최적화하고 비지역 반환 및 실체화된 타입 매개변수를 허용하는 강력한 기능입니다. 이들은 함수 호출의 오버헤드를 줄여 코드를 더 효율적으로 만들어 줍니다. 그러나 코드 크기를 불필요하게 늘리지 않도록 신중하게 사용해야 합니다.
 

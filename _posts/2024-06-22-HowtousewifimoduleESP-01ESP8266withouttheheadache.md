@@ -3,17 +3,13 @@ title: "두통 없이 WiFi 모듈 ESP-01 ESP8266 사용하는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-22-HowtousewifimoduleESP-01ESP8266withouttheheadache_0.png"
 date: 2024-06-22 18:43
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-HowtousewifimoduleESP-01ESP8266withouttheheadache_0.png
 tag: Tech
 originalTitle: "How to use wifi module ESP-01 ESP8266 without the headache"
 link: "https://medium.com/@codyexho/how-to-use-wifi-module-esp-01-esp8266-without-the-headache-fa69ab83c06c"
 isUpdated: true
 ---
-
-
-
-
 
 요즘, ESP32와 Arduino UNO 보드를 통합하여 스마트 홈 시스템을 만드는 것을 시도해보고 있어요. 집의 식물을 위한 보습 장치 같은 거 말이죠. 여기에는 그 여정과 그 과정에서 주요한 고충 포인트에 대해 설명하겠어요. 그리고 왜 NodeMCU의 ESP8266을 사용하게 된 이유에 대해서도 언급할게요.
 
@@ -25,7 +21,18 @@ isUpdated: true
 
 # ESP-01
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것을 조사하기 시작했을 때, ESP-01에 대한 아주 좋은 아이디어라고 생각했어요. 작고 저렴하면서 필요한 기능을 모두 갖추고 있거든요.
 
@@ -35,7 +42,18 @@ ESP-01은 Arduino를 이용해 RX/TX 핀을 통해 AT 프로토콜을 사용하�
 
 게다가, ESP 기반 컨트롤러는 IO 핀을 가지고 있어요. 이러한 핀을 Arduino에 연결하는 수고를 덜며 문제를 해결할 수 있어요. 그래서 ESP를 Arduino에서 제어해야 할까요? 그렇지 마세요! 이렇게 하지 마세요. 반드시 그렇게 해야 하는 것은 아니에요. 이 글이 다른 사람들이 제 실수를 반복하는 것을 막아줄 수 있기를 바라요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래에서 ESP를 올바르게 사용하는 방법을 볼 수 있습니다.
 
@@ -45,7 +63,18 @@ ESP-01은 Arduino를 이용해 RX/TX 핀을 통해 AT 프로토콜을 사용하�
 
 ESP-01의 사용은 Arduino와 함께 여러 문제가 위에서 설명된 것과 맞닿아 있습니다 !!!!!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 반면에, NodeMCU의 ESP8266은 쉽게 다가갈 수 있는 친구에요. ESP 모듈이 내장되어 있고 좋은 컴퓨팅 성능을 갖추고 있습니다. 또한 배선이 필요하지 않아요.
 
@@ -55,7 +84,18 @@ ESP-01의 사용은 Arduino와 함께 여러 문제가 위에서 설명된 것�
 
 시스템에서 시리얼을 보이도록 CH340G 드라이버를 설치해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - macOS
 - Linux
@@ -67,7 +107,18 @@ ESP-01의 사용은 Arduino와 함께 여러 문제가 위에서 설명된 것�
 
 그 후, ESPAsyncTCP와 ESPAsyncWebServer 라이브러리를 설치해야 합니다. 저장소를 복제하고 이름에서 "-master"를 제거하세요. 그 폴더들을 Arduino/libraries/ 폴더로 이동하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코딩을 시작할 준비가 모두 완료되었어요.
 
@@ -80,7 +131,18 @@ const char* ssid = "ESP8266-Access-Point";
 const char* password = "123456789";
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 서버 액세스시 반환할 HTML 페이지:
 
@@ -100,7 +162,7 @@ const char index_html[] PROGMEM = R"rawliteral(
       h2 {
         font-size: 3.0rem;
       }
-      p { 
+      p {
         font-size: 3.0rem;
       }
       .units {
@@ -142,7 +204,18 @@ const char index_html[] PROGMEM = R"rawliteral(
 
 connectToWifi 함수는 POST 요청으로 데이터를 서버로 전송합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요청을 처리할 서버를 설정해 봅시다.
 
@@ -154,7 +227,18 @@ AsyncWebServer server(80);
 
 접속 지점 함수를 만들어 주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 void createAccessPoint() {
@@ -201,7 +285,18 @@ WiFi.softAP(ssid, password);
 
 이 부분은 시작 시 SSID 및 비밀번호가 전달되어 액세스 포인트를 생성합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 IPAddress IP = WiFi.softAPIP();
@@ -221,7 +316,18 @@ server.on("/", HTTP_GET, [](AsyncWebServerRequest *request) {
 
 HTTP GET 요청을 처리하고 HTML 페이지를 반환합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 server.on("/", HTTP_POST, [](AsyncWebServerRequest *request){},NULL, [](AsyncWebServerRequest *request, uint8_t *data, size_t len, size_t index, size_t total) {
@@ -254,7 +360,18 @@ server.on("/", HTTP_POST, [](AsyncWebServerRequest *request){},NULL, [](AsyncWeb
 
 ssidIndex는 0이며, 이는 데이터의 시작 주소입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 패스워드 인덱스는 33입니다. 이는 SSID 최대 길이가 32바이트이며, 하나의 바이트가 문자열의 길이로 예약되어 있기 때문입니다. 이를 writeEEPROM 함수에서 확인할 수 있습니다:
 
@@ -284,7 +401,18 @@ String readEEPROM(int address) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 255- 이는 비어 있는 데이터를 나타냅니다. 여기서는 먼저 데이터 길이에 할당된 첫 번째 바이트를 받아 그 후의 데이터를 읽고 결과를 반환합니다.
 
@@ -323,6 +451,17 @@ void loop() {
 
 여기까지입니다. 하드코딩 없이 wifi 자격 증명을 설정할 수 있는 웹페이지가 있는 서버를 시작하는 작동하는 시스템이 준비되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 GitHub의 작동 예제 링크를 변경하십시오.

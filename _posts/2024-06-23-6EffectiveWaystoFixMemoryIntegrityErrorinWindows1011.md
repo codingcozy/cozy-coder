@@ -3,17 +3,13 @@ title: "Windows 10, 11 메모리 무결성 오류를 해결하는 6가지 효과
 description: ""
 coverImage: "/assets/img/2024-06-23-6EffectiveWaystoFixMemoryIntegrityErrorinWindows1011_0.png"
 date: 2024-06-23 15:50
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-6EffectiveWaystoFixMemoryIntegrityErrorinWindows1011_0.png
 tag: Tech
 originalTitle: "6 Effective Ways to Fix Memory Integrity Error in Windows 10 11"
 link: "https://medium.com/@laners.org/6-effective-ways-to-fix-memory-integrity-error-in-windows-10-11-711a9c8dd5db"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-23-6EffectiveWaystoFixMemoryIntegrityErrorinWindows1011_0.png" />
 
@@ -23,7 +19,18 @@ Windows 10/11은 악성 위협으로부터 시스템을 보호하기 위한 다�
 
 # 메모리 무결성이란?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 메모리 무결성은 Windows 10 및 11의 보안 기능으로, 악성 공격으로부터 컴퓨터를 보호하는 데 도움이 됩니다. 이는 가상화 기술을 사용하여 운영 체제의 중요한 부분을 위한 안전한 환경을 만듭니다.
 
@@ -33,7 +40,18 @@ Windows 10/11은 악성 위협으로부터 시스템을 보호하기 위한 다�
 
 참고로: Windows 10/11에서 화면 분할하는 방법을 알아보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 윈도우에서 메모리 무결성이 꺼져 있는 오류 해결하는 방법
 
@@ -43,7 +61,18 @@ Windows 10/11은 악성 위협으로부터 시스템을 보호하기 위한 다�
 
 # 해결 방법 1: Windows 보안에서 메모리 무결성 활성화
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 메모리 무결성이 해제된 오류 메시지에 대한 첫 번째이자 가장 쉬운 해결책은 Windows 보안에서 메모리 무결성을 활성화하는 것입니다. 이를 위해 다음 단계를 따르세요:
 
@@ -53,7 +82,18 @@ Windows 10/11은 악성 위협으로부터 시스템을 보호하기 위한 다�
 
 단계 2: 검색 결과에서 Windows Security 앱을 클릭하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Step 3: Windows Security 앱에서 장치 보안 옵션을 클릭하세요.
 
@@ -63,7 +103,18 @@ Step 4: Core isolation 섹션 아래의 Core isolation details 링크를 클릭�
 
 ![Core isolation Details Link](/assets/img/2024-06-23-6EffectiveWaystoFixMemoryIntegrityErrorinWindows1011_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5단계: 메모리 무결성 옵션을 켭니다.
 
@@ -73,7 +124,18 @@ Step 4: Core isolation 섹션 아래의 Core isolation details 링크를 클릭�
 
 # 해결 방법 2: 호환되지 않는 드라이버 검토
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "메모리 무결성을 활성화할 수 없는 한 가지 이유 중 하나는 드라이버 문제 때문일 수 있습니다. 메모리 무결성을 활성화하는 데 제한을 받는 구식이거나 손상된 드라이버일 수 있습니다.
 
@@ -84,7 +146,18 @@ Step 4: Core isolation 섹션 아래의 Core isolation details 링크를 클릭�
 
 ![이미지](/assets/img/2024-06-23-6EffectiveWaystoFixMemoryIntegrityErrorinWindows1011_5.png)"
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - **Device Security**을(를) 클릭하세요.
 
@@ -94,7 +167,18 @@ Step 4: Core isolation 섹션 아래의 Core isolation details 링크를 클릭�
 
 ![이미지](/assets/img/2024-06-23-6EffectiveWaystoFixMemoryIntegrityErrorinWindows1011_7.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 메모리 무결성 아래에서 호환되지 않는 드라이버를 검토하려면 테이블 태그를 마크다운 형식으로 변경하십시오.
 
@@ -104,7 +188,18 @@ Step 4: Core isolation 섹션 아래의 Core isolation details 링크를 클릭�
 
 ![2024-06-23-6EffectiveWaystoFixMemoryIntegrityErrorinWindows1011_9.png](/assets/img/2024-06-23-6EffectiveWaystoFixMemoryIntegrityErrorinWindows1011_9.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 게시/제품 이름을 확인하신 후 드라이버를 업데이트하거나 제거해야 합니다.
 
@@ -114,7 +209,18 @@ Windows는 드라이버 제거를 권장하지 않으므로 먼저 드라이버�
 
 메모리 무결성을 활성화하기 위해 위에 언급된 오래된 드라이버들을 업데이트해 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Windows 키와 X 키를 눌러서 장치 관리자를 선택하세요.
 - 보기를 클릭하고 드라이버별 장치를 선택하세요.
@@ -125,20 +231,42 @@ Windows는 드라이버 제거를 권장하지 않으므로 먼저 드라이버�
 
 ![이미지2](/assets/img/2024-06-23-6EffectiveWaystoFixMemoryIntegrityErrorinWindows1011_11.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 만약 발행 이름을 찾지 못한다면,
 
 - 관리 권한으로 명령 프롬프트를 엽니다.
 - 다음 명령어를 입력하고 Enter 키를 눌러주세요:
-dism /online /get-drivers /format:table
+  dism /online /get-drivers /format:table
 
 - 호환되지 않는 드라이버를 확인하려면 발행 이름 열과 해당 제공 업체 이름을 확인하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 제조업체 이름을 알게 되면 드라이버를 검색하여 장치 관리자를 사용하여 설치하세요.
-만일 드라이버를 찾을 수 없다면, 애플리케이션을 업데이트해보세요. 자동으로 최신 드라이버가 설치될 것입니다.
+  만일 드라이버를 찾을 수 없다면, 애플리케이션을 업데이트해보세요. 자동으로 최신 드라이버가 설치될 것입니다.
 
 # 호환되지 않는 드라이버 삭제
 
@@ -146,7 +274,18 @@ dism /online /get-drivers /format:table
 
 명령 프롬프트를 사용하여요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 단계는 호환되지 않는 드라이버 목록에 Published 이름이 있는 경우에만 적용됩니다. 호환되지 않는 드라이버에 게시된 이름 값이 없으면 다음 방법을 시도할 수 있습니다.
 
@@ -158,7 +297,18 @@ dism /online /get-drivers /format:table
 
 Autoruns 사용하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Autoruns에서 오동작하는 드라이버를 확인하려면 해당 공개 이름을 사용하는 드라이버를 사용하는 애플리케이션을 찾아야 합니다. 이를 위해 DISM 명령을 사용할 수 있습니다.
 
@@ -173,8 +323,18 @@ Autoruns에서 오동작하는 드라이버를 확인하려면 해당 공개 이
 - 드라이버 탭으로 이동합니다.
 - 제공자 이름 또는 단계 3에서 확인한 제품 이름을 사용하여 호환되지 않는 드라이버를 검색합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-23-6EffectiveWaystoFixMemoryIntegrityErrorinWindows1011_15.png)
 
@@ -186,8 +346,18 @@ Autoruns에서 오동작하는 드라이버를 확인하려면 해당 공개 이
 
 참고: Windows 11에서 날씨 위젯 비활성화하는 방법도 확인해 보세요.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 수정 3: 컴퓨터를 악성 코드로 검사하세요
 
@@ -197,8 +367,18 @@ Autoruns에서 오동작하는 드라이버를 확인하려면 해당 공개 이
 
 단계 2: 검색 결과에서 Windows Security 앱을 클릭하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Step 3](/assets/img/2024-06-23-6EffectiveWaystoFixMemoryIntegrityErrorinWindows1011_17.png)
 
@@ -208,8 +388,18 @@ Step 3: In the app, click Virus & threat protection.
 
 Step 4: Click Scan options.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5단계: 모든 스캔을 선택하고 지금 스캔을 클릭하세요.
 
@@ -219,7 +409,18 @@ Step 4: Click Scan options.
 
 7단계: 컴퓨터를 다시 시작하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 참조: Windows 11 노트북에서 배터리 상태 확인하는 방법
 
@@ -229,7 +430,18 @@ Step 4: Click Scan options.
 
 호환되지 않는 드라이버를 사용하는 애플리케이션을 확인하려면 Autoruns를 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 윈도우 + R 키를 눌러주세요.
 - 여기에 appwiz.cpl을 입력하고 Enter 키를 눌러주세요.
@@ -240,7 +452,18 @@ Step 4: Click Scan options.
 
 ![이미지](/assets/img/2024-06-23-6EffectiveWaystoFixMemoryIntegrityErrorinWindows1011_21.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 삭제 프로세스를 따르세요.
 - PC를 다시 시작하여 애플리케이션의 캐시 파일을 완전히 제거하세요.
@@ -252,8 +475,18 @@ Memory Integrity가 꺼져 있는 문제를 해결하기 위해, 마이크로소
 
 단계 1: Win + S를 눌러 검색 창에 설정을 입력하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Step 2: Open the Settings application.](/assets/img/2024-06-23-6EffectiveWaystoFixMemoryIntegrityErrorinWindows1011_22.png)
 
@@ -261,8 +494,18 @@ Step 3: Under Settings, click on Windows Update.
 
 ![Step 3: Under Settings, click on Windows Update.](/assets/img/2024-06-23-6EffectiveWaystoFixMemoryIntegrityErrorinWindows1011_23.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5단계: 마지막으로, '업데이트 확인'을 클릭하세요.
 
@@ -272,7 +515,18 @@ Step 3: Under Settings, click on Windows Update.
 
 추가로 읽기: Windows 11에서 God 모드 활성화하는 방법
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 해결 6: BIOS에서 가상화 기술 활성화하기
 
@@ -282,7 +536,18 @@ Step 3: Under Settings, click on Windows Update.
 
 단계 2: BIOS 키를 누르세요. 이 키는 장치 제조사에 따라 다르지만 일반적으로 F2, F10, F12 또는 Delete 키입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3단계: BIOS에서 가상화 또는 Intel VT-x 옵션을 찾으세요.
 
@@ -292,7 +557,18 @@ Step 3: Under Settings, click on Windows Update.
 
 5단계: 수행한 변경 사항을 저장하고 BIOS를 종료하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 6단계: 프로세스를 완료하려면 장치를 다시 시작하세요.
 
@@ -302,7 +578,18 @@ Step 3: Under Settings, click on Windows Update.
 
 Memory Integrity는 Windows 10/11 내에서 사용되는 보안 속성으로, 가상화 기반 보안 기술을 활용하여 중요한 시스템 파일과 메모리를 다른 프로세스로부터 격리시킵니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. Windows 10/11 기기에서 Memory Integrity가 비활성화 된 이유는 무엇인가요?
 
@@ -312,7 +599,18 @@ Windows 10/11 기기에서 Memory Integrity가 비활성화 된 경우에는 하
 
 Windows 10/11 기기에서 Memory Integrity를 활성화하려면 Windows Security, Device Security, Core isolation details, Memory integrity로 이동하여 옵션을 토글해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. 메모리 무결성이 비활성화된 오류가 계속 발생하는 경우 어떻게 해야 하나요?
 
@@ -320,9 +618,20 @@ Windows 10/11 기기에서 Memory Integrity를 활성화하려면 Windows Securi
 
 5. 가상화 기반 보안을 지원하지 않는 장치에서 메모리 무결성을 사용할 수 있나요?
 
-메모리 무결성은 핵심 시스템 파일과 메모리를 다른 프로세스로부터 격리하기 위해 가상화 기반 보안 기술이 필요합니다. 따라서 장치가 가상화 기반 보안을 지원하지 않는 경우, 메모리 무결성 기능을 활용할 수 없습니다. 
+메모리 무결성은 핵심 시스템 파일과 메모리를 다른 프로세스로부터 격리하기 위해 가상화 기반 보안 기술이 필요합니다. 따라서 장치가 가상화 기반 보안을 지원하지 않는 경우, 메모리 무결성 기능을 활용할 수 없습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -332,7 +641,18 @@ Windows 10/11 장치에서 메모리 무결성이 비활성화된 오류 메시�
 
 참고: 이 정보는 최신 상태입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음도 함께 읽어보세요:
 

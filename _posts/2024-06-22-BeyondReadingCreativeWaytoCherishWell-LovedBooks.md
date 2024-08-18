@@ -3,18 +3,13 @@ title: "책을 소중히 여기는 창의적인 방법 5가지 단순한 독서�
 description: ""
 coverImage: "/assets/img/2024-06-22-BeyondReadingCreativeWaytoCherishWell-LovedBooks_0.png"
 date: 2024-06-22 19:06
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-BeyondReadingCreativeWaytoCherishWell-LovedBooks_0.png
 tag: Tech
 originalTitle: "Beyond Reading: Creative Way to Cherish Well-Loved Books"
 link: "https://medium.com/drop-a-line-pub/beyond-reading-creative-way-to-cherish-well-loved-books-f90d68e2507c"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![Beyond Reading Creative Way to Cherish Well-Loved Books](/assets/img/2024-06-22-BeyondReadingCreativeWaytoCherishWell-LovedBooks_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 큰 딸은 이제 거의 12살인데, 책을 마치 박물관 보존가처럼 다루죠. 그중에서도 가장 사랑받고 자주 만지는 책들은 여전히 거의 새 책처럼 보이네요. 이것은 새로운 변화이며, 벨벳틴 토끼처럼 사랑받아 낡은 책들이 훨씬 더 많습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 8살 미들은 정반대에요. 책을 너무 좋아해서 일주일 안에 갈면 진 책처럼 보입니다. 표지 주름지고 등 구겨지고 페이지 접혔다. 놀이터를 뛰면서 책을 끌어다니고, 넘치는 배낭에 무자비하게 밀어넣고, 마치 자신의 보물처럼 책 위에 눕니다.
 
@@ -35,7 +40,18 @@ isUpdated: true
 
 빅은 지난 주에 내게 고백했어요. 만일 그녀가 읽은 첫 번째 책이라면 그 책을 공유하거나 돌려주는 게 싫다고요. 나도 이해해요. 내 책장에는 여전히 어릴 적에 읽었던 그리운 '그린 게이블의 안나'가 자리를 차지해요. 구입할 당시에도 낡은 책이었어요. 지금은 망가져서 읽을 수가 없지만 페이지가 부서지고 표지가 벗겨져서도 그 책을 포기하지 않아요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문제에 대한 부분적인 해결책을 발견했어요. 일부 책들은 다른 형태로 만들어질만큼 소중하지 않을 수 있어서, 부분적인 해결책이라고 말하고 싶어요. 만약에 누군가가 나의 개인적으로 매우 소중한 책인 All Creatures Great and Small의 사본을 조각하여 다른 형태로 만들면, 그것에 대해 영원히 원한을 품을 것 같아요. 이 책을 10살 때 처음 읽고 제 인생 동안 12번 더 읽은 것을 포함해 지금까지 여러 번 읽은 경험이 있어요.
 
@@ -47,7 +63,18 @@ isUpdated: true
 - 쓰레기 일기장/앨범. 저는 줄어든 일기들을 사용하는 대신에 직접 내용을 바인딩하는 것을 즐기는데, 우리 마허간 그림책을 사용하기 시작한 것은 요아나 클라우(Johanna Clough)를 YouTube에서 발견한 후였어요. 그녀의 빈티지 스타일의 쓰레기 일기장에는 자신의 가족과 아이들에 대해 쓰는 배경으로 그림책의 많은 페이지가 포함돼 있어요. 그녀로부터 많은 것을 배웠는데, 그녀의 꼬리표를 숨기는 데 잘라낸 그림들을 이용해 내 저널에 덮개를 만드는 방법도 포함돼 있어요. 이는 아이들의 최고의 어린 시절 기억과 가장 사랑하는 책을 다시 살아낼 수 있는 아이의 세대에게 전해 줄 수 있는 가치 있는 앨범을 만들어낼 수 있는 제일 좋아하는 방법 중 하나에요.
 - 프레임된 예술. 이 마지막 방법은 아주 단순해서 공예의 기준에 맞지 않을 정도인데, 의미 있으면서 복잡하지 않아도 괜찮아요! 이 아이디어는 아만다 블레이크 수를(Amanda Blake Soule)의 책인 The Creative Family 에서 떠올랐어요. 가족의 즐거운 장면들을 포함한 것들을 우리의 프레임 아트에 전시하는 것에 대해 이야기하는데, 이는 종종 어린이가 성인만큼 즐길 만한 것도 포함되어 있는 가족의 집임을 염두에 두었다고 해요. 또한 우리 아이들이 만든 특별한 작품들을 어떻게 보존할지에 대해 여러 제안도 해줍니다(예를 드면 배개책이나 차 수건에 자식들이 만든 특별한 작품들을 자수로 옮기는 것 등). 저는 이 아이디어를 받아들여 몇 권의 우리가 좋아하는 그림책 페이지를 내 아이들이 그림을 추가한 프레임에 격자로 만들었어요. 많은 어른들이 자기 아이들에게 책에 그림을 그리게 하는 것을 반대하지만, 제 아이들은 대부분 책을 파괴하는 행동을 하지 않는다는 것을 발견했어요. 대부분 그들은 책에 자신을 추가하거나 그와 같은 것들을 하고 있기 때문에요. 무분별한 투자로 인해서 ("책은 우리의 친구야!") 그들이 무분별한 그림을 그리는 경우에 대해서는 말해 줘야 하지만, 대부분 그것을 아이 버전의 주해라고 생각해요. 그래서 이제 "나와 푸" 같은 몇 가지 사랑스러운 프레임 예술
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제가 읽을 수 없는 특별한 책의 몇 가지 사본에 대한 더 많은 아이디어를 탐색할 계획입니다. 다음 시도는 내 하드백 중 하나로 지갑을 만드는 것이 될 것 같아요.
 

@@ -3,17 +3,13 @@ title: "주식 예측에서 머신러닝이 실패하는 주요 이유 파트 01
 description: ""
 coverImage: "/assets/img/2024-06-23-majorreasonswhymachinelearningfailsinstockpredictionpart-01_0.png"
 date: 2024-06-23 19:47
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-majorreasonswhymachinelearningfailsinstockpredictionpart-01_0.png
 tag: Tech
 originalTitle: "major reasons why machine learning fails in stock prediction: part -01"
 link: "https://medium.com/@ved933409/major-reasons-why-machine-learning-fails-in-stock-prediction-part-01-479834eb891d"
 isUpdated: true
 ---
-
-
-
-
 
 이 블로그 시리즈에서는 머신 러닝이 주식 가격을 예측하는 데 실패하는 이유 또는 일반적으로 머신 러닝 기반 투자 펀드가 실패하는 이유에 대해 논의하려 합니다. 이 블로그의 내용은 Marcos Lopez de Prado의 "금융 머신 러닝 발전"이라는 책에서 가져왔습니다. 이 책은 금융에 관심 있는 모든 사람들에게 필독서입니다. 이 책은 금융 데이터를 처리하는 동안 머신 러닝 실무자들이 범한 모든 실수를 언급합니다. 이 블로그를 통해 이 책에서의 학습 내용을 요약하려고 합니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![Image](/assets/img/2024-06-23-majorreasonswhymachinelearningfailsinstockpredictionpart-01_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 차이를 만들면 데이터가 정체성을 띄게 됩니다. 그러나 1차 차이를 구할 때는 데이터의 모든 과거적인 패턴을 잃어버리게 됩니다(그림 참조). 이로 인해 그 데이터의 내용을 잃게 됩니다. 그리고 기억력은 모델의 예측 능력을 결정하는 중요한 요소입니다. 데이터를 정체성을 갖도록 만드는 중간 과정에서 기억력을 잃게 됩니다. 이런 실수가 학술 논문이나 업무 현장에서 많이 발생합니다. 그렇다면 어떻게 데이터를 정체성을 갖게 하면서도 정보를 완전히 잃지 않을 수 있을까요? 그 대답은 없습니다. 따라서 더 많이 정체성을 갖도록 만드는 경우에는 더 많은 기억력을 잃게 됩니다. 릴라이언스의 과거 가격을 통해 이러한 경우를 이해해봅시다.
 
@@ -33,13 +40,35 @@ isUpdated: true
 
 ![image](/assets/img/2024-06-23-majorreasonswhymachinelearningfailsinstockpredictionpart-01_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에서 보시다시피 주문 차이를 확장했습니다. 이제 만약 d=0.3의 값을 넣으면 0.2의 분수 차이 값이 나올 것입니다. 이것은 무한급수이므로 어떤 지점까지 값을 취할 수 있고, 그 이후에는 시리즈를 잘라내도 괜찮습니다. 왜냐하면 B^n 계수 값이 높아질수록 거의 제로에 가까워질 것이기 때문입니다. 아래 그래프는 일정 지점 이후에 서로 다른 d 값에 대한 B^n 계수를 보여줍니다.
 
 이제 동일한 플롯을 동일한 차수의 분수 차이로 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상단 차트에서 확인할 수 있듯이, 차분의 순서를 증가할수록 점점 더 많은 메모리를 잃고 더욱 안정화됩니다. 차분이 0일 때는 모든 메모리를 가지고 있지만, 시리즈는 안정적이지 않고 차분이 1일 때는 시리즈가 메모리를 가지고 있지 않지만 완전히 안정화됩니다. 그래서 우리는 어느 정도의 메모리를 잃으면서 데이터를 의미 있는 확률로 안정화할지 교환해야 합니다. 그래서 이제 d값을 어떻게 찾아야 할까요?
 
@@ -47,18 +76,40 @@ isUpdated: true
 
 2. 이유 2: 비효율적인 샘플링
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다른 많은 실무자와 학술 논문 작성자들이 하는 또 다른 흔한 실수는 데이터 샘플링이 비효율적인 것입니다. 대부분의 경우 그들은 데이터를 시간 간격마다 샘플링합니다. 예를 들어, 5분마다 또는 10분마다 데이터를 샘플링합니다. 시간 프레임에 기반한 데이터 샘플링 시 주요 문제점이 있습니다.
 
 - 시장이 정규시간 간격에 맞춰 정보를 처리하지 않기 때문에 문제가 발생합니다. 예를 들어 시장은 오픈할 때보다 정오에 활동성이 높으므로, 높은 활동성 시간 동안 정보를 과소샘플링하고 낮은 활동성 시간 동안 정보를 과대샘플링합니다.
 - 시간 샘플링된 데이터는 연쇄상관, 이분산성 및 수익의 비정상성과 같은 부정적인 통계적 특성을 보입니다.
 
-이 문제를 극복하기 위해 다양한 바(bar)가 정의될 것입니다. 
+이 문제를 극복하기 위해 다양한 바(bar)가 정의될 것입니다.
 
 - 틱 바(Tick bar): 타임스탬프, 거래량, 오픈 가격, 종가 등의 모든 변수를 일정 거래 횟수 이후 추출합니다. 예를 들어, 1000 거래가 이루어진 후 모든 변수를 샘플링합니다. Mandelbrot 및 Taylor [1967]은 거래 횟수에 따른 샘플링이 우수한 통계적 특성을 보인다는 것을 처음으로 깨달았습니다: "고정된 거래 횟수에 따른 가격 변동이 가우시안 분포를 가질 수 있습니다."
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-23-majorreasonswhymachinelearningfailsinstockpredictionpart-01_6.png)
 
@@ -69,10 +120,21 @@ isUpdated: true
 
 다음 파트에서는 정보 주도의 일부 고급 정보 바에 대해 이야기해보겠습니다. 즉, 시장에 새로운 정보가 들어오면 정보를 샘플링하는 것을 의미합니다. 다음 블로그 시리즈에서 정보 주도형 바에 대해 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 블로그를 좋아하신다면 꼭 의겢이나 좋아요를 클릭해 주세요!
 
 참고:
 
-1) Marcos López de Prado의 금융 기계 학습 발전
+1. Marcos López de Prado의 금융 기계 학습 발전

@@ -3,17 +3,13 @@ title: "모든 문제를 해결하는 하나의 계층  시맨틱 레이어란 �
 description: ""
 coverImage: "/assets/img/2024-06-22-SemanticLayerOneLayertoServeThemAll_0.png"
 date: 2024-06-22 17:05
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-SemanticLayerOneLayertoServeThemAll_0.png
 tag: Tech
 originalTitle: "Semantic Layer — One Layer to Serve Them All"
 link: "https://medium.com/@axel.schwanke/semantic-layer-one-layer-to-serve-them-all-d0ef7eff1ffa"
 isUpdated: true
 ---
-
-
-
-
 
 ## 기술과 비즈니스 간의 간극을 메우다
 
@@ -24,7 +20,18 @@ isUpdated: true
 
 # 목차
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 소개
 
@@ -32,7 +39,18 @@ isUpdated: true
 
 시맨틱 레이어를 도입함으로써 이러한 문제를 해결할 수 있습니다. 비즈니스 데이터의 일관된 표현으로 작용하면서 복잡한 데이터 구조를 익숙한 비즈니스 용어로 변환함으로써 조직 전체에서 데이터의 통합된 관점이 만들어지며, 접근이 간소화되고 일관성이 보장됩니다. 전문가들은 데이터 엔지니어링과 비즈니스 분석 사이의 간극을 좁히는 중요성을 강조하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사는 시맨틱 레이어의 정의와 기능을 살펴보고 기업 데이터를 조직화하고 추상화하여 의사 결정 프로세스를 용이하게 하는 중추적 역할을 설명합니다. 시맨틱 레이어를 구현하는 다양한 이점을 탐구하며 데이터 일관성, 거버넌스 및 민첩성이 향상되는 등의 이점을 논의합니다. 현대 기업 데이터와 AI 관리의 복잡성을 다루면서, 시맨틱 레이어는 운영 효율성 향상과 더 많은 정보에 기반한 의사 결정 능력을 약속하는 중심 요소로 등장합니다.
 
@@ -48,7 +66,18 @@ Micah Horner (TimeXtender)는 간결히 설명합니다. 그는 시맨틱 레이
 - 데이터 거버넌스 및 규정 준수 위험: 일관되지 않은 데이터 관리는 기업 거버넌스와 규정 준수에 위험을 초래하며, 법적 및 재정적 결과가 발생할 수 있습니다.
 - 소실된 통찰과 경쟁 우위: 접근할 수 없는 데이터와 공유된 이해 부재로 인해 시장에서의 놓친 통찰과 경쟁 우위가 감소합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Kieran O’Driscoll(AtScale), Kyle Hale and Soham Bhatt (Databricks)가 블로그 글에서 대부분의 기업이 여전히 데이터 민주화에 어려움을 겪고 있다고 설명합니다.
 
@@ -58,7 +87,18 @@ Kieran O’Driscoll(AtScale), Kyle Hale and Soham Bhatt (Databricks)가 블로�
 
 다양한 마트, 데이터 웨어하우스 및 보고 도구에 데이터를 저장하면 단일 진실의 버전을 유지하는 것이 어렵습니다. 이로 인해 데이터 이동, ETL, 보안 및 복잡성이 증가하며 데이터 거버넌스 문제가 발생하고 잠재적으로 오래된 데이터에 의존하게 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AtScale은 기업이 의사소통의 간극을 좁히기 위해 시멘틱 레이어가 필요한 이유를 매우 명확하게 설명하는 예를 사용합니다.
 
@@ -68,7 +108,18 @@ Donald Farmer(AtScale)은 데이터 엔지니어와 비즈니스 분석가 간�
 
 시멘틱 레이어는 다양한 작업 스타일을 수용하는 통합 플랫폼을 제공하며 협업, 데이터 거버넌스 및 혁신을 강화합니다. 엔지니어가 데이터에 프로그래밍적으로 액세스하고 조작하는 데 사용할 수 있는 견고한 API를 제공하여 워크플로에 원활하게 통합됩니다. 동시에, 기술 전문지식이 많이 필요하지 않는 분석가를 위한 직관적 인터페이스를 제공합니다. 이 통합된 기반은 일관된 정의와 지표를 보장하며 더 나은 의사소통과 조정을 촉진합니다. 공유 작업 영역, 버전 관리 및 주석 기능과 같은 기능은 협업과 지식 공유를 촉진하며 조직이 효과적으로 데이터를 활용하고 비즈니스 가치를 실현할 수 있도록 돕습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 시맨틱 레이어란 무엇인가요
 
@@ -78,8 +129,18 @@ AtScale에서는 시맨틱 레이어를 다음과 같이 정의합니다:
 
 그리고 추가 설명...
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-06-22-SemanticLayerOneLayertoServeThemAll_1.png)
 
@@ -89,8 +150,18 @@ and further …
 
 Summarizing these definitions, the semantic layer can be defined as follows:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시맨틱 레이어는 복잡한 기업 데이터를 친숙한 비즈니스 용어로 번역하고 서로 다른 데이터 원본을 매핑하고 데이터 관계를 관리하여 통합된 보기를 제공합니다. 사용자를 위해 데이터 모델을 간소화하며 구조화된, 비구조화된 및 반구조화된 데이터를 포함합니다. 메타데이터 레이어 역할을 하여 콘텐츠의 관리와 분석을 향상시킵니다. 데이터베이스와 최종 사용자 사이에 추상화 레이어 역할을 하며 일관된 데이터 뷰를 제공하고 SQL 지식 없이 직관적인 쿼리를 지원합니다. 또한 접근 제어, 데이터 품질 보증 및 정책 강제를 통해 데이터 관리를 지원합니다.
 
@@ -102,7 +173,18 @@ Summarizing these definitions, the semantic layer can be defined as follows:
 - 간소화된 데이터 액세스: 시맨틱 레이어는 복잡한 데이터 구조의 간소화된 통합 보기를 제공하며 사용자가 심도 있는 기술 지식 없이 데이터에 액세스하고 이해하는 것을 용이하게 합니다. 이로써 기업에서 데이터 액세스를 민주화할 수 있습니다.
 - 분석과 AI의 민주화: 데이터 분석이 확대됨에 따라 모든 요구 사항에 대해 단일 BI 또는 ML 플랫폼에 의존하는 것은 비현실적입니다. 시맨틱 레이어 플랫폼은 다양한 데이터 플랫폼, 프로토콜 및 도구를 연결하여 데이터와 사용을 분리하고 분석 및 ML의 민주화를 가능하게 합니다. [계속]
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 시맨틱 레이어 구현
 
@@ -112,7 +194,18 @@ Summarizing these definitions, the semantic layer can be defined as follows:
 
 Micah Horner (TimeXtender)는 시맨틱 레이어의 구성 요소를 설명하며 복잡한 데이터 구조를 직관적인 사용자 경험으로 손쉽게 전환하는 방법을 소개합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1. 데이터 수집
 
@@ -123,7 +216,18 @@ Micah Horner (TimeXtender)는 시맨틱 레이어의 구성 요소를 설명하�
 - 데이터 변환 및 준비: 수집된 데이터를 정리, 유효성 검사하고 변환하여 정확성과 분석에 사용하기 쉬운 신뢰할 수 있는 데이터 세트를 만듭니다.
 - 데이터의 차원 모델링: 데이터를 차원과 사실로 구조화하여 복잡한 관계를 단순화하며 의미 있는 통찰력을 제공하는 언어 계층 구축에 중요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 데이터 전달
 
@@ -137,7 +241,18 @@ David P. Mariani(AtScale)은 A16Z 데이터 스택의 메트릭 레이어에서 
 - 분석 성능을 최적화하고 클라우드 자원 소비를 모니터링 및 최적화
 - 액세스 제어, 정의, 성능 및 자원 소비와 관련된 거버넌스 정책 강화
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-22-SemanticLayerOneLayertoServeThemAll_2.png)
 
@@ -147,7 +262,18 @@ David P. Mariani(AtScale)은 A16Z 데이터 스택의 메트릭 레이어에서 
 
 데이터 모델링: 데이터 모델링은 데이터 레이크하우스나 창고의 논리적 데이터 개념을 물리적 구조에 매핑하는 과정을 말합니다. 비주얼 프레임워크나 코드 기반 언어를 사용할 수 있습니다. 중요한 활동에는 데이터를 "분석용으로 준비함", 일관된 차원 정의, 메트릭 설계가 포함됩니다. 이는 비즈니스 의미론을 데이터 모델에 포함시키며, 복합적인 분석 접근을 통해 일관성, 거버넌스 및 혁신을 촉진합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 워크플로우 관리: 워크플로우 관리는 의미론적 레이어를 위한 물리적 변환을 조율하여 비용과 성능을 최적화합니다. 사용자는 데이터 집계물 생성이 필요한 최소한의 쿼리 대기 시간을 요구하는데, 이는 클라우드 규모의 데이터로 인한 것입니다. 성능 관리는 자동으로 생성물을 처리하며, 클라우드 및 노동 비용을 고려하면서 동적으로 적응합니다. 의미론적 레이어 데이터를 활용하여 워크플로우 관리는 성능과 비용을 최적화합니다.
 
@@ -157,7 +283,18 @@ David P. Mariani(AtScale)은 A16Z 데이터 스택의 메트릭 레이어에서 
 
 David P. Mariani은 또한 모던 데이터 스택의 레이어가 주변 레이어와 원활하게 통합되어야 한다고 언급합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 의미 계층은 데이터 플랫폼, 분석 및 출력 계층, 그리고 메타데이터 및 서비스 계층과 깊게 통합되어야 합니다.
 
@@ -167,22 +304,47 @@ David P. Mariani은 또한 모던 데이터 스택의 레이어가 주변 레이
 
 변환 오케스트레이션: 뷰를 물리적 테이블로 재질화하며, 데이터 플랫폼 내에서 성능 및 비용을 최적화합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-### 워크플로 오케스트레이션: 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+### 워크플로 오케스트레이션:
+
 데이터 플랫폼 내에서 새로운 데이터 또는 메타데이터를 생성하며, 사용자 또는 AI/ML 상호 작용을 기반으로 합니다.
 
-### 사용자 정의 함수 (UDF): 
+### 사용자 정의 함수 (UDF):
+
 클라우드 데이터 플랫폼의 함수 라이브러리를 활용하여 분석 및 출력을 수행하여 시맨틱 레이어 기능을 향상시킵니다.
 
-### 메타데이터 및 지원 서비스: 
+### 메타데이터 및 지원 서비스:
+
 시맨틱 레이어는 메타데이터 및 지원 서비스와 통합하여 데이터 패브릭 생태계의 다양한 도구들과 협력합니다.
 
 - 시맨틱 레이어는 기업용 데이터 카탈로그 도구에 메트릭 및 데이터 모델 검색을 위한 메타데이터 및 계보를 공유해야 합니다.
 - 시맨틱 레이어는 다른 도구로부터 메타데이터를 가져와 시맨틱 데이터 모델을 자동화하고 표준화하기 위한 능력이 있어야 합니다.
 - 시맨틱 레이어에는 사용자 액세스, 가동 시간 및 시스템 성능을 관리하기 위한 모니터링 엔드포인트가 있어야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## AtScale과 Databricks를 활용한 의미론적 레이크하우스 구축
 
@@ -192,7 +354,18 @@ AtScale의 의미론적 레이어는 분석 도구와 Databricks 레이크하우
 
 AtScale의 Universal Semantic Layer는 쿼리 패턴을 식별하고 자동으로 집계를 관리하는 자율 성능 최적화를 사용합니다. 이로써 수동 노력을 없애고 Delta Lake에서 "Diamond Layer" 집계를 생성하여 BI 보고 성능을 향상시키고 분석 데이터 파이프라인과 엔지니어링을 단순화합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 툴에 독립적인 의미론적 레이크하우스를 만들기
 
@@ -202,7 +375,18 @@ Databricks 레이크하우스 플랫폼은 데이터, 분석 및 AI 워크로드
 
 AtScale의 유니버설 의미론적 레이어는 BI 및 AI/ML 팀을 통합하여 기업 데이터에 일관된 액세스를 제공합니다. 엑셀을 사용하는 비즈니스 사용자와 노트북을 사용하는 데이터 과학자들이 Databricks 레이크하우스의 모든 기능을 활용할 수 있도록 보장합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 데이터 분석의 의미론적 층
 
@@ -213,10 +397,21 @@ AtScale의 유니버설 의미론적 레이어는 BI 및 AI/ML 팀을 통합하�
 - 데이터 표현 방법을 빠르고 쉽게 변경
 - 비즈니스 요구 사항의 변화에 대응
 - 다양한 소스에서 데이터에 쉽게 액세스하고 분석
-- 기존 보고서에서 쉽게 보이지 않는 추세, 이상점 및 다른 통찰력 식별 
+- 기존 보고서에서 쉽게 보이지 않는 추세, 이상점 및 다른 통찰력 식별
 - 협업 데이터 분석 프로젝트에 더 쉽게 참여
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 분석의 유연성이 기업이 비즈니스 환경 변화에 신속히 대응하고 데이터 분석 및 보고서 작성에서 혁신을 유발하는 데 도움이 됩니다. 다양한 데이터 원본과 분석 요구 사항을 수용하는 다재다능한 도구를 제공하여, 기업은 경쟁력을 향상시키고 데이터 가치를 극대화할 수 있습니다.
 
@@ -226,7 +421,18 @@ AtScale의 유니버설 의미론적 레이어는 BI 및 AI/ML 팀을 통합하�
 
 ## 데이터 분석에서 의미 계층의 혜택
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Sean Leslie (data.world)은 의미론적 레이어가 데이터 분석에 도움이 되는 여러 이유 중에 다음을 강조합니다:
 
@@ -236,7 +442,18 @@ Sean Leslie (data.world)은 의미론적 레이어가 데이터 분석에 도움
 
 데이터 지배 및 보안을 용이하게 합니다: 의미론적 레이어는 데이터 일관성을 위해 비즈니스 규칙을 적용하고 데이터 무결성을 유지하며 역할에 따라 액세스 컨트롤을 시행하여 안전하고 규정 준수된 데이터 액세스를 보장합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 의미 계층이 데이터 거버넌스에 미치는 영향
 
@@ -252,7 +469,18 @@ Sean Leslie (data.world)은 의미론적 레이어가 데이터 분석에 도움
 - 데이터 정책 강화: 강력한 데이터 거버넌스를 통해 조직은 각 기능 및 사업 단위 전반에서 데이터 정책의 준수를 보장할 수 있습니다.
 - 비용 절감: 효과적인 데이터 거버넌스를 통해 부정확한 데이터 의사 결정, 신뢰할 수 없는 분석 및 데이터 중복으로 인한 비용을 줄일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 거버넌스는 조직 내 데이터 품질과 데이터 관리에 상당한 영향을 미칩니다. 빅데이터와 생성적 AI의 급격한 증가로 인해 그 중요성은 높아지고 있으며, 성장하는 정보 양을 효과적으로 처리하기 위한 적응 가능한 데이터 전략이 필요합니다.
 
@@ -262,7 +490,18 @@ Sean Leslie (data.world)은 의미론적 레이어가 데이터 분석에 도움
 
 데이터의 명확한 정의: 의미론적 레이어는 데이터의 일관된 이해를 보장하여 명확한 정의와 문맥을 통해 일관성 부족으로 인한 혼돈과 오류를 제거합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 향상된 데이터 품질: 시맨틱 레이어는 데이터 일관성과 정확성을 보장하여 에러를 최소화하고 데이터 품질을 향상시킵니다. 표준화된 정의는 결정 신뢰성, 효율성, 고객 경험을 향상시키며 에러를 방지하고 정확한 데이터 관리와 검색을 용이하게 합니다.
 
@@ -272,7 +511,18 @@ Sean Leslie (data.world)은 의미론적 레이어가 데이터 분석에 도움
 
 변경 관리: 시맨틱 레이어는 데이터 정의를 중앙 집중화하여 변경 관리를 간소화하고 여러 소스 간에 수동 업데이트를 제거하여 효율성을 향상시키고 일관성을 보장합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 감사 기능: 시맨틱 레이어는 데이터 접근을 규제하여 감사 기능을 향상시키며, 사용자 활동 추적을 가능하게 하고 책임 소지 및 데이터 사용 및 관리의 투명성을 촉진합니다.
 
@@ -282,7 +532,18 @@ Sean Leslie (data.world)은 의미론적 레이어가 데이터 분석에 도움
 
 향상된 데이터 계보: 시맨틱 레이어는 데이터 계보 추적을 가능하게 하여 소스에서 비즈니스 개념 매핑을 단순화하고 변환을 투명하게 문서화합니다. 이로써 조기 오류 탐지를 통해 데이터 품질, 규정 준수 및 개선된 의사 결정을 보장하여 거버넌스를 강화합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간소화된 데이터 감사: 의미론적 레이어를 통해 더 나은 데이터 거버넌스를 위해 세밀한 수준에서 데이터를 추적하고 감사할 수 있습니다. 이를 통해 데이터의 오류와 불일치를 식별하기가 더 쉬워집니다.
 
@@ -292,7 +553,18 @@ Sean Leslie (data.world)은 의미론적 레이어가 데이터 분석에 도움
 
 거버넌스 및 감사: 범용적인 의미론적 레이어를 사용하면 변경 이력을 기록하고 명확한 소유권을 파악할 수 있습니다. 또한 새로운 메트릭을 정의할 수 있는 사용자를 명시하거나 제한하는 것이 더 쉬워집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 향상된 규정 준수: 더 나은 데이터 거버넌스를 통해 의미론적 계층은 모든 데이터가 규정 요구 사항에 따라 처리되도록 보장하여 데이터 침해의 위험을 줄입니다.
 
@@ -302,21 +574,43 @@ Sean Leslie (data.world)은 의미론적 레이어가 데이터 분석에 도움
 
 AtScale의 David P. Mariani는 선도적인 데이터 기관이 진단형, 예측형, 권고형 분석을 통합하는 AI와 함께 증강 분석에 중점을 두고 있다고 지적하며, 데이터 이동을 줄이며 효율성을 향상시키기 위해 데이터 과학/기계 학습 플랫폼을 통합한다고 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이문 찌리(Progress)는 기업 데이터와 생성 AI를 통합하는 것이 신뢰성, 투명성, 보안을 향상시키며 데이터 품질과 확장성을 향상시킬 수 있다고 강조했습니다. 의미론적 레이어를 활용하면 기업은 오류를 줄이고 신뢰성을 보장하며 거버넌스 표준을 준수하면서 혁신적인 비용 절감 기회를 창출하고 의사 결정 및 운영 효율성을 향상시킬 수 있습니다. 의미론적 레이어의 두 가지 주요 이점:
 
-\[ \begin{aligned} 
-1. 생성 AI의 결과물에서 환각 감소: \end{aligned} \]
-생성 AI 모델은 종종 인간의 추론과 이해 부족으로 인해 알려진 환각이라고 불리는 잘못된 답변을 생성합니다. 이러한 오류는 15-20%의 확률로 발생하며 의미론적 데이터 플랫폼을 사용하여 데이터를 맥락화하고 조화시킴으로써 감소할 수 있습니다. 적절한 데이터 정리, 정리 및 모델링은 AI의 정확성을 향상시키는 데 필수적입니다.
+\[ \begin{aligned}
 
-\[ \begin{aligned} 
-2. 생성 AI의 결과물의 신뢰성과 신뢰성 향상: \end{aligned} \]
+1. 생성 AI의 결과물에서 환각 감소: \end{aligned} \]
+   생성 AI 모델은 종종 인간의 추론과 이해 부족으로 인해 알려진 환각이라고 불리는 잘못된 답변을 생성합니다. 이러한 오류는 15-20%의 확률로 발생하며 의미론적 데이터 플랫폼을 사용하여 데이터를 맥락화하고 조화시킴으로써 감소할 수 있습니다. 적절한 데이터 정리, 정리 및 모델링은 AI의 정확성을 향상시키는 데 필수적입니다.
+
+\[ \begin{aligned} 2. 생성 AI의 결과물의 신뢰성과 신뢰성 향상: \end{aligned} \]
 생성 AI 모델은 종종 비관련, 부정확 또는 편향적인 결과물을 생성하는데, 이는 중요한 비즈니스 결정에 문제를 일으킬 수 있습니다. 기업 의미론적 데이터 시스템과 생성 AI를 통합함으로써 기업은 AI 결과물의 정확성과 신뢰성을 향상시킬 수 있습니다. 사설 의미론적으로 태그된 데이터를 사용해 생성 AI는 조직의 고유한 맥락에 대한 깊은 통찰력을 얻게 됩니다. 이 통합으로 인해 AI 시스템은 실시간 업데이트된 데이터에 접근하여 "훈련 데이터 차단" 문제를 해결하고 생성된 답변의 전반적인 품질을 향상할 수 있습니다.
 
 큐브는 대규모 언어 모델(LLM)에 대한 핵심적인 맥락을 제공하는 의미론적 레이어가 AI 기반 데이터 경험에서 중요하다고 강조합니다. 데이터를 의미 있는 비즈니스 정의로 조직하고 쿼리 인터페이스를 제공하여 LLM이 데이터의 맥락을 이해하도록 보장함으로써 오류와 환각을 줄이고 혁신적인 AI 응용프로그램을 가능하게 하며 쿼리 프로세스를 간소화합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LLMs은 혁신적이지만, "입력이 쓰레기면 출력도 쓰레기" 문제 때문에 정확한 결과물을 생성하는 데 한계가 있습니다. LLMs는 환각을 일으킬 수 있습니다. 그들에게 단순히 데이터베이스 스키마를 공급하는 것만으로 올바른 SQL을 생성하는 데 충분하지 않습니다. 데이터 컨텍스트를 포함하여 데이터를 개념적으로 이해하기 위해 의미론적 계층이 필요합니다. 이 계층은 쿼리를 위해 데이터를 비즈니스 정의로 구성하고, LLM이 이를 통해 쿼리할 수 있도록하여 정확성을 보장합니다. 따라서 의미론적 계층은 LLM이 환각하는 문제를 해결함으로써 필요한 컨텍스트를 제공하고, 쿼리와 데이터 출력의 정확성을 보장합니다.
 
@@ -326,7 +620,18 @@ LLMs와 의미론적 계층을 결합하면 새로운 AI 주도 데이터 경험
 
 ![이미지](/assets/img/2024-06-22-SemanticLayerOneLayertoServeThemAll_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 의미론적 계층 데이터 모델은 LLM이 데이터를 이해하고 올바른 쿼리를 생성하기 위한 맥락으로 사용하는 구조와 정의를 제공합니다. 복잡한 조인 및 계산을 추상화하여, 의미론적 계층은 비즈니스 수준 용어를 기반으로 한 단순화된 인터페이스를 제공하여 오류를 줄이고 환각을 방지합니다.
 
@@ -336,7 +641,18 @@ LLMs와 의미론적 계층을 결합하면 새로운 AI 주도 데이터 경험
 
 적용된 AI의 부상: AI의 보급은 대규모 플랫폼뿐만 아니라 도메인별 응용 프로그램으로도 확대되면서, 일관되고 정확한 데이터를 위해 통합된 의미론적 계층이 필요해졌습니다. 의미론적 계층은 입력이 정확하고 관련성이 있으며 일관되도록 보장합니다. 이는 AI 주도 경험에서 정확한 결과와 경쟁 우위를 위해 중요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AI에 준비된 범용 의미론적 층의 장점: AI에 준비된 범용 의미론적 층은 다양한 데이터 플랫폼을 연결하고, 데이터 민주화를 촉진하며 고객을 대상으로 하는 애플리케이션을 지원하는 데 필수적입니다.
 
@@ -346,8 +662,18 @@ Patrk Liu Tran(Validio)은 의미론적 층이 AI 및 LLM과 혁신적인 데이
 
 # 미래 지향 및 신흥 트렌드
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Tomasz Tunguz(Theory Ventures)은 시맨틱 모델이 중요한 추세로 떠오를 것이라며, 조직간의 정의를 통일하여 사람의 이해와 대형 언어 모델의 의미 합성을 위한 단순화된 분석을 개선하고 재사용성과 구성 가능성을 향상시킬 것이라고 언급했습니다.
 
@@ -357,7 +683,18 @@ AtScale은 시맨틱 레이어가 계속해서 중요성을 갖게 될 것으로
 
 GenAI와 같은 책임 있는 AI 도입은 투명성과 편향과 같은 윤리적 측면을 우선시합니다. AI 관리자와 같은 신생 직무들은 윤리적인 실행을 보장합니다. 기업은 점점 데이터를 제품으로 취급하며 맞춤형 비즈니스 결과를 위해 재사용 가능한 데이터 제품을 만들어냅니다. 생성적 AI와 대규모 언어 모델(LLMs)의 통합은 데이터 탐색을 변형시키며, MDX 생성은 쿼리 유연성을 높이고 자연 언어 인터페이스는 데이터 접근을 민주화합니다. 예측과 이상 탐지와 같은 AI 기능들은 의사 결정력을 강화하여 분석 접근성을 넓히고 통찰력을 심화시켜 혁신을 이끌어갈 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -367,7 +704,18 @@ GenAI와 같은 책임 있는 AI 도입은 투명성과 편향과 같은 윤리�
 
 AtScale 및 Databricks를 활용한 의미적 레이크하우스 구축
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **범용 의미 계층의 힘**
 
@@ -377,7 +725,18 @@ AtScale 및 Databricks를 활용한 의미적 레이크하우스 구축
 
 데이터 전략에서 의미 계층이 차지하는 위치
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시맨틱 레이어가 데이터 거버넌스에 미치는 영향
 
@@ -387,7 +746,18 @@ AtScale 및 Databricks를 활용한 의미적 레이크하우스 구축
 
 유니버설 시맨틱 레이어로 현대 비즈니스 인텔리전스를 재구축하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현대 데이터 스택의 의미론적 레이어
 
@@ -397,7 +767,18 @@ AtScale 및 Databricks를 활용한 의미적 레이크하우스 구축
 
 의미론적 레이어란 무엇인가요? (구성 요소 및 기업 애플리케이션)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AtScale은 AI, GenAI 모델을 위한 의미론적 레이어 지원 추가
 
@@ -407,7 +788,18 @@ AtScale은 AI, GenAI 모델을 위한 의미론적 레이어 지원 추가
 
 의미론적 레이어는 AI 기반 분석을 위한 빠져있던 조각입니다
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기업을 위한 생성 AI의 혜택과 의미론적 데이터 통합
 
@@ -417,6 +809,17 @@ AtScale은 AI, GenAI 모델을 위한 의미론적 레이어 지원 추가
 
 기업 분석과 생성 AI를 위한 2024 의미론적 레이어 혁신
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현대 데이터 인프라를 위한 신흥 아키텍처

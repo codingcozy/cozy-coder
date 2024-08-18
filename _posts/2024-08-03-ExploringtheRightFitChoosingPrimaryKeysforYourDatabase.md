@@ -3,17 +3,13 @@ title: "데이터베이스 기본 키 선택을 위한 설계 방법"
 description: ""
 coverImage: "/assets/img/2024-08-03-ExploringtheRightFitChoosingPrimaryKeysforYourDatabase_0.png"
 date: 2024-08-03 20:26
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-03-ExploringtheRightFitChoosingPrimaryKeysforYourDatabase_0.png
 tag: Tech
 originalTitle: "Exploring the Right Fit Choosing Primary Keys for Your Database"
 link: "https://medium.com/towards-data-science/exploring-the-right-fit-choosing-primary-keys-for-your-database-64f5754f1515"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-08-03-ExploringtheRightFitChoosingPrimaryKeysforYourDatabase_0.png" />
 
@@ -23,8 +19,18 @@ Postgres에서 작업 중인 것을 유념해야 해요. 대부분의 이 기사
 
 내 작업은 기존 성숙한 시스템에 새로운 기능을 통합하는 데 초점을 맞추었어요. 즉, 이미 연관 엔티티에 대한 중요한 맥락이 이미 많이 존재해요. 다음 그림과 가정은 설계 과정 중 사용한 간소화된 모델의 스냅샷을 제공해요. 주요 키를 선택하는 데 고려한 사고 과정과 고려 사항을 공유함으로써 데이터베이스 디자인의 이 측면에 대한 지속적인 토론을 개요화하고자 해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Exploring the Right Fit: Choosing Primary Keys for Your Database](/assets/img/2024-08-03-ExploringtheRightFitChoosingPrimaryKeysforYourDatabase_1.png)
 
@@ -39,8 +45,18 @@ Postgres에서 작업 중인 것을 유념해야 해요. 대부분의 이 기사
 
 이러한 요소를 기반으로 다음과 같은 가정을 도출했습니다:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 테이블 분할: 인프라 제약조건에 따라 테이블은 수직 또는 수평으로 분할될 것입니다.
 - 테이블 클러스터링: 테이블은 읽기/쓰기 메트릭에 기반하여 클러스터링될 수 있으며 성능을 최적화할 수 있습니다.
@@ -50,11 +66,22 @@ Postgres에서 작업 중인 것을 유념해야 해요. 대부분의 이 기사
 
 # 주요 키 데이터 유형에 대한 회고: 기준 형식화
 
-위 설계를 위한 일반적인 주요 키 데이터 유형에 대해 생각하고 정보를 모은 후, 문제를 다시 살펴보고 내재적으로 고려한 기준을 형식화하려고 노력했습니다. 이 회고는 내가 주요 키에서 어떤 것을 찾고 있었는지 명확히하기 위한 것입니다. 고유성과 개략성과 같은 필수 기준 대신 충분한 기준에 특히 초점을 맞추고 있음을 유념해 주세요. 
+위 설계를 위한 일반적인 주요 키 데이터 유형에 대해 생각하고 정보를 모은 후, 문제를 다시 살펴보고 내재적으로 고려한 기준을 형식화하려고 노력했습니다. 이 회고는 내가 주요 키에서 어떤 것을 찾고 있었는지 명확히하기 위한 것입니다. 고유성과 개략성과 같은 필수 기준 대신 충분한 기준에 특히 초점을 맞추고 있음을 유념해 주세요.
 
 ## 간결함
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본 키의 복잡성은 관리 가능하고 대상을 고려해야 합니다. 복잡성은 숨겨질 수 있지만, 기본 키가 데이터베이스 관리자와 개발자에게 이해 가능하고 사용 가능하도록 보장하는 것이 중요합니다. 이 특성의 하위 집합은 기본 키의 외형인데, 특정한 경우에 관련이 있습니다. 예를 들어 URL 단축기의 경우, 128비트 UUID는 하이픈 때문에 여러 행에 걸쳐 나타날 수 있고 복사 및 붙여넣기가 어려울 수 있지만, 단순한 정수는 이 문제가 없습니다.
 
@@ -64,7 +91,18 @@ Postgres에서 작업 중인 것을 유념해야 해요. 대부분의 이 기사
 
 ## 확장성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스케일링 가능한 주요 키는 조정자가 필요 없어야 하며, 그렇지 않으면 병목 현상이 발생할 수 있습니다. 주요 키는 수평 스케일링을 효율적으로 지원해야 합니다. 스케일링의 더 넓은 측면은 주로 키 생성의 동기화 수단과 함께 논의됩니다. 이는 클라이언트가 다음 키를 받기 위해 기본적으로 대기해야 한다는 것을 의미하며, 이는 경쟁이 치열한 분산 설정에서 스케일링에 문제가 될 수 있습니다.
 
@@ -74,7 +112,18 @@ Postgres에서 작업 중인 것을 유념해야 해요. 대부분의 이 기사
 
 ## 인덱스 성능
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주요 키를 순차적으로 정렬하면 인덱스 성능을 향상시킬 수 있습니다. 그러나 이는 생성 방법에 따라 다릅니다. 예를 들어 순차적이지 않은 순서로 키를 생성하는 경우(예: 1보다 2를 먼저 생성) B-트리의 성능을 저하시킬 수 있습니다. 특히 UUID는 무작위성 때문에 대규모 데이터셋에서 성능이 저하될 수 있습니다.
 
@@ -84,7 +133,18 @@ Postgres에서 작업 중인 것을 유념해야 해요. 대부분의 이 기사
 
 ## 채택
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 선택한 기본 키 데이터 유형을 네이티브로 지원해야 합니다. 키를 비효율적인 형식(예: 문자열로)으로 저장하는 것을 피하고, 데이터베이스와 클라이언트 라이브러리가 유효성 검사와 정렬을 올바르게 처리할 수 있도록 보장하고 싶습니다. 또한, 잘 지원되고 검증된 클라이언트 라이브러리를 사용하는 것이 유익합니다.
 
@@ -94,9 +154,20 @@ Postgres에서 작업 중인 것을 유념해야 해요. 대부분의 이 기사
 
 데이터 설계를 시작할 때, 자연식별자가 인위적인 키의 모호성을 도입하지 않으면서 많은 요구 사항을 충족시키기 때문에 유리하다는 것을 배웠습니다. 그러나 제 경험상 자연식별자는 유용한 방식으로 발생하는 경우가 거의 없습니다. 특정 경우에서, 충분한 정확도를 갖춘 타임스탬프를 기본 키로 사용하는 것은 처음에 매력적으로 보였습니다. 그러나 의미론적인 측면에서, 타임스탬프만으로는 이벤트를 고유하게 식별하지 못합니다. 충돌과 충분한 정확성을 고려해도 이것은 항상 사용자와 시간의 조합이 고유한 이벤트를 형성한다는 뜻입니다. 여기서 전제는 사용자가 동시에 여러 이벤트를 발생시키지 않는다는 것입니다. 이는 타당한 가정이며, 발생 가능성이 낮은 충돌의 결과는 무시할 만합니다. 반면, 서로 다른 사용자로부터 '정확히' 동시에 발생하는 두 이벤트의 가능성은 훨씬 높습니다. 수학적 추정에 대해 깊이 파지 않아도 될 만한 타당한 가정 없이 숫자 놀음일 수도 있지만, 타임스탬프만으로는 기본 키로 적합하지 않아 보입니다. 타임스탬프를 완전히 포기하고 복합 키로 이동하기 전에, 타임스탬프만을 사용하는 것에는 다른 어려움도 존재함을 강조해야 합니다. 예를 들어 데이터베이스가 키를 생성하도록 할 때, 트랜잭션이 now()로 설정된 기본값으로 각 행에 대해 동일한 타임스탬프를 생성할 수 있습니다. 이러한 요소들을 고려하면, 타임스탬프만을 기본 키로 의존하는 것은 최선의 방법이 아닐 수 있다는 것이 분명해집니다. 대신, 복합 키를 탐구하거나 사용자 정보와 같은 추가 고유 식별자를 통합한 대안 전략을 탐색하여 시스템에서 이벤트를 고유하게 식별하는 더 견고하고 의미 있는 솔루션을 제공할 수 있을 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-다음 단계는 일반적으로 복합 키라고 하는 고유 기본 키를 만들기 위해 열을 결합하는 것인 것 같아요. 이 접근 방식은 의미론적으로 자연 키의 간단함을 유지하면서 기본 키를 처리할 때 상당한 복잡성을 도입하게 됩니다. 저는 개인적으로 합성 키를 다루는 것이 항상 즐거운 경험은 아니었어요. 때로는 성능에 대한 영향을 완전히 무시하더라도요. 그래서 전체적으로 그들을 거의 사용하지 않아요. 그럼에도 불구하고 저는 개인적인 취향을 기반으로 옵션을 단순히 배제하고 싶지 않아요. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+다음 단계는 일반적으로 복합 키라고 하는 고유 기본 키를 만들기 위해 열을 결합하는 것인 것 같아요. 이 접근 방식은 의미론적으로 자연 키의 간단함을 유지하면서 기본 키를 처리할 때 상당한 복잡성을 도입하게 됩니다. 저는 개인적으로 합성 키를 다루는 것이 항상 즐거운 경험은 아니었어요. 때로는 성능에 대한 영향을 완전히 무시하더라도요. 그래서 전체적으로 그들을 거의 사용하지 않아요. 그럼에도 불구하고 저는 개인적인 취향을 기반으로 옵션을 단순히 배제하고 싶지 않아요.
 
 제 경우에는 사용자, 방, 타임스탬프의 조합이 가능한 합성 키일 수 있어요. 이 조합은 사용자가 한 번에 한 방에만 있을 수 있고, 그리고 앞서 언급한대로 단일 사용자가 동시에 여러 이벤트를 생성할 수 없는 가정하에 이루어진 거예요. 하지만 결과적인 데이터 처리 시에 심플한 작업조차도 복잡해질 수 있어요. 대표적인 예는 외래 키 관계인데요, 해당하는 테이블이 합성 키의 모든 열을 포함해야만 해요. 게다가, 합성 키 유지는 시간이 많이 걸릴 수 있어요. 새로운 열을 추가하는 경우 주 키를 수정해야 할 수도 있는데, 이는 직접적으로는 불가능한 일이죠. 저는 이미 왜 개인적으로 합성 키를 선호하지 않는지 아주 명백하다고 믿어요.
 
@@ -104,8 +175,18 @@ Postgres에서 작업 중인 것을 유념해야 해요. 대부분의 이 기사
 
 ## Auto-Increments에 대한 사례
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자동 증가 정수는 인공 기본 키의 잘 알려진 소스입니다. 나는 이것이 관계형 데이터를 다룰 때 가장 흔히 사용하는 방법 중 하나라는 것을 내 경력에서 가장 많이 접했습니다. 그러나 최근 몇 년간 나의 작업은 더 분산된 아키텍처로 이동했기 때문에 다른 유형의 키가 점점 더 많이 사용되고 있습니다.
 
@@ -115,7 +196,18 @@ Postgres에서 작업 중인 것을 유념해야 해요. 대부분의 이 기사
 
 이로부터 유래된 다른 주장은 비즈니스 관점이며 암묵적인 정보 누출과 함께 간주됩니다. 식별자가 데이터와 함께 증가할 때 데이터셋의 특성을 자연스럽게 노출시킬 때, 행을 전달할 때 데이터 세트의 특성을 노출시킵니다. 예를 들어, 블로그 API에서 950번 댓글을 받았을 때, 최소한 949개의 댓글을 받은 것으로 추론할 수 있습니다. 이는 특정 비즈니스에서는 염치 없는 일입니다. 그러나 고객이 볼 수 있는 식별자에서 아무 것도 유추할 수 없도록 숫자를 가리기 위한 기술이 있습니다. 지금까지 이러한 전략이 잘 맞는 상황을 기다리고 있지만 언급할 가치가 있는 것들입니다. Knuth의 곱셈 정수 해시 사용 등 몰입할 수 있는 기술 중 하나는 무작위 정수에 정수 키를 매핑하여 도메인 정보를 유지하거나 노출하지 않는 방법입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 채팅 디자인에 대한 제 주요 관심사 중 하나는 확장성 특성과 기타 요구 사항이었습니다. 먼저, 분산 시스템에서 기본 키의 필요성이 중앙 조정자 하나인 상황에서 문제가 발생했습니다. 고유성을 달성하기 위해 숫자를 증가시키는데, 이는 상태 유지 작업입니다. 증가시키려면 이전 단계를 알아야 하며 동시에 여러 경쟁 주체에 대해 동시에 증가시키기 어렵습니다. 따라서 식별자 생성은 데이터베이스에서 중앙적으로 이뤄지거나 다른 복잡한 조율이 필요합니다. 특히 여러 다른 부분이 서로를 차단하지 않고 유효한 행을 구성할 수 있어야 하는 경우 이런 문제가 발생합니다.
 
@@ -125,7 +217,18 @@ Postgres에서 작업 중인 것을 유념해야 해요. 대부분의 이 기사
 
 일반적으로 UUID는 중괄호나 하이픈으로 된 16진수로 표시되며, 세 번째 그룹의 첫 번째 번호는 버전 번호를 나타냅니다. Postgres 출력 함수는 하이픈이 있는 레이아웃을 사용하지만 기술적으로 UUID는 단지 128비트 레이블일 뿐입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Exploring the Right Fit: Choosing Primary Keys for Your Database](/assets/img/2024-08-03-ExploringtheRightFitChoosingPrimaryKeysforYourDatabase_2.png)
 
@@ -135,7 +238,18 @@ Postgres에서 작업 중인 것을 유념해야 해요. 대부분의 이 기사
 
 데이터베이스에서 순전히 무작위 식별자를 사용하는 것에 대한 주된 반대 의견은 데이터베이스가 데이터를 구성하고 무작위 값의 국소성과 관련이 있습니다. 주요 키는 데이터베이스가 해당 데이터를 "다루는"데 있어서 결정적인 요소입니다. MySQL (InnoDB)와 같은 일부 데이터베이스는 주요 키를 기준으로 데이터를 순서대로 저장합니다. Postgres에서 해당하는 것은 클러스터 인덱스입니다. 순서대로 저장된 데이터를 다루면서 무작위 값이 삽입되면 대규모에서 문제가 발생합니다. 무작위 값이 저장되면 조각화, 페이지의 지속적인 재정렬 및 상당한 I/O 오버헤드로 이어집니다. 이는 데이터베이스 엔진이 주요 키가 지시하는 순서를 유지하기 위해 데이터를 지속적으로 재배치해야 하기 때문입니다. 결과적으로 데이터베이스는 더 많은 디스크 탐색 및 읽기/쓰기 작업을 수행해야 하며, 특히 데이터 세트가 커지면 성능에 상당한 영향을 줄 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터가 순서대로 저장되지 않더라도 무작위 삽입은 인덱싱에 최적이 아닙니다. 인덱스를 관리하는 데 흔히 사용되는 B-트리 데이터 구조는 유익한 특성을 유지하기 위해 계속 리밸런싱하는 그래프 구조입니다. 트리를 자주 재밸런싱하는 것을 피하기 위해 단조로운 삽입이 선호됩니다. 이러한 종류의 삽입은 트리 구조의 자연 순서를 유지하기 때문에 B-트리를 자주 리밸런싱하게 하지 않습니다. 단조로 증가하거나 감소하는 순서로 키를 삽입할 때 새 키는 각각 B-트리의 오른쪽 또는 왼쪽 최하위 노드에 항상 추가됩니다. 이는 새 키가 트리의 기존 키보다 항상 크기 때문입니다. 결과적으로 B-트리 구조는 대부분 변경되지 않고 트리는 잎 노드가 가득 차며 분할된 경우에만 리밸런싱해야 합니다. 이 리밸런싱 및 노드 분할 과정은 비교적 드물며 트리의 작은 부분에만 영향을 미칩니다. 반면, 무작위 삽입은 거의 모든 삽입 시에 트리를 리밸런싱하게 합니다. 각 삽입마다 새 키를 위한 적절한 위치를 찾기 위해 트리를 탐색해야 하며, 노드가 가득 차면 분할되고 키가 재분배되어야 합니다. 이 리밸런싱 및 노드 분할 과정은 성능 저하로 이어집니다. 기본 키에 B-트리 인덱스를 사용해야만 하는 것은 아니지만 종종 기본 선택지인 이유가 있습니다. B-트리 인덱스는 효율적인 범위 쿼리와 고유 제약 조건 강제 등 기본 키에 중요한 유익한 특성을 제공합니다.
 
@@ -145,7 +259,18 @@ Postgres에서 작업 중인 것을 유념해야 해요. 대부분의 이 기사
 
 무작위성은 순서, 정렬 및 값 비교를 의미 있는 방식으로 보장할 수 없다는 것을 의미합니다. UUID의 텍스트 표현을 고려할 때는 사전적으로 정렬할 수 있지만 시간이나 공간과 같은 특성으로는 불가능합니다. 따라서 보조 인덱스 없이 주 키는 쿼리 요구 사항을 고려했을 때 매우 유연하지 않습니다. 이러한 제한 사항들은 RFC 9562에서 잘 알려져 있으며 요약되어 있습니다. RFC는 이 식별자들의 진화에 대한 아이디어를 얻기에 좋은 자료입니다. 제공된 문제와 다른 UUID 특정 측면들이 이전 문제들의 일부를 해결하는 새로운 버전의 명세로 이어지게 됩니다. Universally Unique Lexicographically Sortable Identifier (ULID)와 같은 명세가 RFC 9562의 개발에 고려되었습니다. UUID의 제 7 버전은 명시적으로 순서와 무작위성을 결합하는 식별자의 좋은 예시로, 두 특성이 모두 필요한 사용 사례에 적합합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전에 식별자 변형에 대해 탐구하기 전에, 이 글에서 주로 사용하는 용어인 "순서" 또는 "정렬"이라는 용어가 매우 포괄적으로 사용된다는 점을 지적하고 싶습니다. 그러나 세부 사항을 살펴보면, 이 문제 도메인은 더 정확한 정렬 개념인 k-정렬이라는 용어를 가지고 있습니다. 시퀀스가 k-정렬된 것으로 간주되는 경우, 각 요소는 올바르게 정렬된 위치에서 최대 k 거리 이내에 있습니다. 다시 말해, k-정렬된 시퀀스의 요소를 정렬하려면 해당 요소가 최종 정렬된 위치에 도달하기 위해 왼쪽이나 오른쪽으로 최대 k 위치 이동해야 합니다. 이는 식별자가 정렬 가능하거나 정렬되어 있다고 주장할 때 종종 "대략적으로 정렬 가능하다"는 것을 의미합니다. 식별자에 타임스탬프 구성 요소를 포함하는 식별자를 고려할 때 k-정렬의 개념이 특히 관련이 있습니다. 시계 드리프트와 제한된 정밀도로 인해 식별자의 순서가 완벽하지 않을 수 있지만, 여전히 대략적으로 정렬되어 있어 각 요소가 시퀀스에서 올바른 위치에 근접해 있습니다. 이는 엄격한 순서가 필요하지 않은 많은 사용 사례에 충분하며, 일반적인 순서 개념은 유익합니다.
 
@@ -155,9 +280,20 @@ Postgres에서 작업 중인 것을 유념해야 해요. 대부분의 이 기사
 
 재미있게도, 해당 명세는 토론할 가치가 있는 몇 가지 매개변수를 설명합니다. 첫 48 비트는 Unix Epoch Timestamp이며, 나머지 74 비트는 무작위 값으로 채워집니다. 그러나 명세는 경우에 따라 다른 방법을 제안합니다. 단조성이 더 중요한지 또는 무작위성이 더 중요한지. 사용 사례가 더 많은 엔트로피를 요구하는지, 무작위성을 위해 더 많은 공간을 사용해야 하는지 또는 강력한 알고리즘 보증서가 필요한지. 사용 사례가 더 강력한 단조성을 요구하는지, 무작위로 시드가 이용된 카운터를 사용하세요. 이전에 토론한 단점을 고려할 때, 트레이드오프가 반복됩니다. 무작위성이 늘어날수록 성능이 떨어지지만, 점점 정확한 단조성은 성능을 높이지만 예측 가능성을 도입합니다. 이것은 Cuid2와 같은 식별자를 살펴볼 때 토론의 중요한 부분으로 보입니다. 그들의 GitHub 저장소에서는 단조성에 반대하는 주장을 강조하고 있습니다. 이에 대한 가까운 친척인 ULID는 UUID의 제7 버전을 일부 영감을 받은 것으로 보입니다. ULID와 UUID를 비교할 때, 두 가지 모두 시간 기반 구성 요소를 도입한다는 개념을 가지고 있지만, UUID는 사양에서 더 엄격하려고 합니다. ULID는 분산 생성 기능과 사양의 간격에 대한 몇 가지 개방된 이슈가 있습니다. 따라서 일반적으로 생각해 볼 때, 다른 ULID 구현보다 UUID를 사용하는 것이 좋다고 생각합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-컴포지션 식별자 개념을 기반으로, 여러 호스트에 걸쳐 분산 동시 생성을 우선시하는 디자인을 탐색해볼 수 있습니다. 이러한 변형에는 타임스탬프 구성요소 대신 또는 함께 기계 식별자를 포함하는 것이 포함됩니다. 예를 들어 UUID는 기계 식별자를 포함하거나 타임스탬프 구성요소와 함께 제공하는 변형을 제공합니다. 이 접근 방식은 Snowflake 식별자로 대표적으로 나타납니다. 이들은 UUID보다는 더 간결하며 다른 구조를 가지며 세 가지 주요 부분으로 구성됩니다:  
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+컴포지션 식별자 개념을 기반으로, 여러 호스트에 걸쳐 분산 동시 생성을 우선시하는 디자인을 탐색해볼 수 있습니다. 이러한 변형에는 타임스탬프 구성요소 대신 또는 함께 기계 식별자를 포함하는 것이 포함됩니다. 예를 들어 UUID는 기계 식별자를 포함하거나 타임스탬프 구성요소와 함께 제공하는 변형을 제공합니다. 이 접근 방식은 Snowflake 식별자로 대표적으로 나타납니다. 이들은 UUID보다는 더 간결하며 다른 구조를 가지며 세 가지 주요 부분으로 구성됩니다:
 
 ![image](/assets/img/2024-08-03-ExploringtheRightFitChoosingPrimaryKeysforYourDatabase_4.png)
 
@@ -167,7 +303,18 @@ Postgres에서 작업 중인 것을 유념해야 해요. 대부분의 이 기사
 
 이 구조는 UUID와 여러 측면에서 다릅니다. 첫째, Snowflake 식별자에는 순전히 무작위 구성요소가 포함되지 않습니다. 대신, 정렬 가능하고 분산 방식으로 생성 가능한 고유 식별자를 생성하기 위해 타임스탬프, 워커 식별자 및 일련 번호를 결합합니다. 둘째, UUID가 사용하는 128비트 대비 64비트만을 사용하여 더 간결합니다. Snowflake의 타임스탬프, 워커 식별자 및 일련 번호 조합은 여러 이점을 제공합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 단조 수열: 타임스탬프 구성 요소는 ID가 단조적으로 증가하는 순서로 생성되므로 대략적으로 정렬 가능하다.
 - 의미론적 순서: 타임스탬프는 엔티티의 생성 시간을 나타내므로 식별자의 순서에 의미를 부여한다.
@@ -179,7 +326,18 @@ Postgres에서 작업 중인 것을 유념해야 해요. 대부분의 이 기사
 
 ![이미지](/assets/img/2024-08-03-ExploringtheRightFitChoosingPrimaryKeysforYourDatabase_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내가 알기로 이 디자인의 주요 관심사는 식별자의 명확성 또는 투명성입니다. 고객 식별자는 도메인의 깊은 지식 없이 즉시 고객 엔티티와 연관시킬 수 있습니다. 그러나 이 개념은 데이터베이스 레이어에 접두사가 통합되지 않은 경우 UUID 또는 해당 식별자와 호환성을 유지할 수 있습니다. 이 개념의 범용화의 좋은 예는 typeid입니다.
 
@@ -189,7 +347,18 @@ Postgres에서 작업 중인 것을 유념해야 해요. 대부분의 이 기사
 
 이 문제에 대처하기 위해, 서버가 별도의 주 키를 생성하되 클라이언트가 낙관적 업데이트에 UUID를 사용할 수 있도록 하는 메커니즘을 고안했습니다. 사용자가 새 메시지를 보낼 때 클라이언트가 UUID를 생성하고 채팅 인터페이스에 메시지를 낙관적으로 표시합니다. 클라이언트는 UUID를 메시지 데이터와 함께 서버로 보냅니다. 그러면 서버가 클라이언트 제공 UUID를 사용하여 메시지 레코드를 생성하고 메시지용 별도 주 키를 생성하여 UUID와 주 키를 모두 데이터베이스 레코드에 저장합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 메시지 레코드를 성공적으로 생성한 후, 서버는 생성된 기본 키를 응답의 일부로 클라이언트에게 전송합니다. 클라이언트는 미래 참조를 위해 UUID와 함께 기본 키를 저장합니다. 메시지와 관련된 편집이나 삭제와 같은 후속 작업을 위해 클라이언트는 UUID 또는 기본 키 중 하나를 서버로 전송할 수 있습니다. 서버는 빠르게 메시지 레코드를 데이터베이스에서 찾기 위해 기본 키를 사용하고, 제공된 기본 키가 저장된 UUID와 일치하는지 확인합니다. 일치하는 경우, 서버는 요청된 작업을 계속합니다. 일치하는 항목이 없으면 서버는 요청을 거부하며 잠재적인 데이터 불일치나 변조 시도를 나타냅니다.
 
@@ -199,7 +368,18 @@ UUID에 기반한 빠른 조회를 가능하게 하기 위해, 서버에 UUID와
 
 # 일부 마무리할 생각들
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글을 쓴 후에는 이 도메인의 콘텐츠가 대부분 표면적이고 모호한 이유를 깨달았어요. 처음 보면 간단해 보이지만, 올바른 기본 키 선택은 상당히 많은 트레이드오프, 변형, 기술적 세부 사항 및 영향을 동반합니다. 하지만 이 글은 이 주제의 내 나뉜 메모의 화려한 버전에 불과하며, 주요 키 선택에 대해 깊이 있는 이해를 얻고자 하는 다른 사람들에게 추가 가치를 제공하기를 바랍니다. 목표는 전형적인 고수준 조언을 넘어서 특정 데이터베이스 테이블이나 엔티티에 적합한 기본 키를 선택하는 데 고려해야 할 세세한 점과 고려 사항에 대해 탐구하는 것이었습니다. 다양한 종류의 키, 그들의 장단점 및 가장 적합한 시나리오를 살펴보면, 독자들은 데이터베이스 설계의 이 기본적인 측면에 대해 보다 포괄적인 시각을 얻을 것입니다.
 

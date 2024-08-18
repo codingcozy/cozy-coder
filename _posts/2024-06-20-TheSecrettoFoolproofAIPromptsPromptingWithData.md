@@ -3,17 +3,13 @@ title: "합리적인 AI 프롬프트의 비밀 데이터와 함께 프롬프팅"
 description: ""
 coverImage: "/assets/img/2024-06-20-TheSecrettoFoolproofAIPromptsPromptingWithData_0.png"
 date: 2024-06-20 18:31
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-TheSecrettoFoolproofAIPromptsPromptingWithData_0.png
 tag: Tech
 originalTitle: "The Secret to Foolproof AI Prompts: Prompting With Data"
 link: "https://medium.com/@bernardbad/the-secret-to-foolproof-ai-prompts-prompting-with-data-4e2ea2d8ed68"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-20-TheSecrettoFoolproofAIPromptsPromptingWithData_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이게 뭔지 궁금하시다면, 이제 알아보도록 하죠. 함께 파헤쳐봐요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 데이터 기반 프롬프팅
 
@@ -35,7 +42,18 @@ isUpdated: true
 
 여기에 이 기술을 사용한 프롬프트의 예시가 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-TheSecrettoFoolproofAIPromptsPromptingWithData_1.png" />
 
@@ -45,7 +63,18 @@ isUpdated: true
 
 첫 번째 단계는 첫걸음을 내는 것입니다. 내 경우에는 데이터를 찾는 것이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 블로그 게시물, PDF, 이미지 또는 ChatGPT에서 받아들일 수 있는 다른 형식일 수 있어요.
 
@@ -55,7 +84,18 @@ isUpdated: true
 
 다음 단계는 프롬프트를 작성하는 것이에요. 채워야 할 중요한 두 부분이 있어요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 템플릿: 이것은 AI의 출력 형식을 안내합니다.
 - 데이터: 이것은 필요한 맥락과 제약을 제공합니다.
@@ -66,21 +106,41 @@ isUpdated: true
 
 한 번 시도해보고 싶다면 전체 프롬프트는 여기에 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 텍스트를 친절하게 한국어로 번역해 드리겠습니다.
 
-
-| 파일 이름                                            | 설명                              |
-|-------------------------------------------------|--------------------------------|
+| 파일 이름                                                       | 설명                                        |
+| --------------------------------------------------------------- | ------------------------------------------- |
 | 2024-06-20-TheSecrettoFoolproofAIPromptsPromptingWithData_3.png | AIPrompt 데이터 사용 방법을 보여주는 이미지 |
 
 정말 멋지죠? 간단하면서도 마법처럼 잘 작동합니다.
 
 ## 3/ 직접 해보기
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 코드로 표를 마크다운 형식으로 바꿔보세요.
 

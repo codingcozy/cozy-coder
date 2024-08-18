@@ -3,17 +3,13 @@ title: "대시보드의 역사 마차부터 KPI까지"
 description: ""
 coverImage: "/assets/img/2024-06-19-TheHistoryofDashboardsFromCarriagestoKPIs_0.png"
 date: 2024-06-19 05:00
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-TheHistoryofDashboardsFromCarriagestoKPIs_0.png
 tag: Tech
 originalTitle: "The History of Dashboards: From Carriages to KPIs"
 link: "https://medium.com/@rahulsenps4/the-history-of-dashboards-from-carriages-to-kpis-feaeff72bfb0"
 isUpdated: true
 ---
-
-
-
-
 
 대시보드는 현대 데이터 분석 및 의사결정 프로세스의 핵심 요소가 되었습니다. 실시간으로 데이터를 시각화하는 강력한 도구로서, 개인 및 조직이 신속하게 정보에 기반한 결정을 내릴 수 있도록 도와줍니다. 대시보드의 역사에 대한 이 자세한 살펴봅니다. 기원부터 진화, 현재 상태까지 살펴보면 이 도구들이 어떻게 우리의 데이터 중심 세계에서 중요해졌는지 통찰력을 제공할 것입니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 "대시보드"라는 단어는 원래 말마차의 앞부분에 놓인 물리적 장벽을 가리켰습니다. 이 장벽은 말에 의해 일으키는 진흙과 부스러기로부터 운전자를 보호하는 역할을 했습니다. 본질적으로 안전과 편의를 위한 실용적 도구로 작용했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![img](/assets/img/2024-06-19-TheHistoryofDashboardsFromCarriagestoKPIs_1.png)
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 자동차 기술이 발전함에 따라 대시보드도 발전했습니다. 20세기 중반에는 자동차 대시보드가 여러 게이지와 다이얼을 포함하도록 발전했습니다. 이 아날로그 장치들은 속도계, 탁도계, 연료 게이지 및 온도 지시기와 같은 다양한 데이터를 한 눈에 제공했습니다. 이 대시보드는 운전자가 차량의 상태와 성능을 빠르게 파악할 수 있도록 직관적으로 설계되었습니다. 다양한 데이터 포인트를 조직화되고 접근하기 쉬운 방식으로 제시하는 능력은 우리가 오늘 사용하는 대시보드로 나아가는 중요한 발전을 이루었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-TheHistoryofDashboardsFromCarriagestoKPIs_2.png)
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 비즈니스 인텔리전스와 디지털 대시보드의 등장
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1990년대는 비즈니스 인텔리전스(BI) 도구의 등장을 목격했는데, 이는 기관이 데이터를 관리하고 활용하는 방식을 변화시켰습니다. SAP, 오라클, 마이크로소프트와 같은 기업들은 대량의 데이터를 집계하고 대시보드를 통해 의미 있게 표현할 수 있는 정교한 소프트웨어를 개발했습니다. 이러한 디지털 대시보드는 강력한 분석 도구가 되어 기업이 성과 지표를 추적하고 추세를 식별하며 데이터 기반의 결정을 내릴 수 있도록 돕습니다. 여러 데이터 원천을 통합하고 일관된 방식으로 시각화하는 능력은 비즈니스 영역과 전략을 혁명적으로 변화시켰습니다.
 
@@ -51,7 +80,18 @@ isUpdated: true
 
 인터넷 보급과 기술 발전으로 대시보드는 매우 상호작용적이며 실시간 데이터 업데이트를 제공할 수 있는 기능을 갖추게 되었습니다. Tableau, Power BI, QlikView와 같은 도구를 통해 구동되는 현대적인 대시보드는 사용자들이 자신의 뷰를 사용자화하거나 특정 데이터 포인트를 자세히 살펴볼 수 있고 이전에는 불가능했던 방식으로 데이터와 상호 작용할 수 있게 합니다. 이 대시보드는 데이터베이스, 클라우드 서비스, API 등 다양한 소스에서 데이터를 가져와 사용자에게 세심하고 최신의 메트릭스를 제공합니다. 상호 작용성과 실시간 데이터에 대한 강조는 이러한 도구들을 많은 분야에서 반가운 도구로 만들었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다양한 분야의 대시보드
 
@@ -61,7 +101,18 @@ isUpdated: true
 
 금융: 금융 대시보드는 시장 트렌드, 투자 성과, 위험 관리로부터 통찰을 제공합니다. 실시간으로 금융 건강상태와 전략적 계획을 모니터링할 수 있게 돕습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 교육: 교육 기관은 학생 성적, 출석 및 행정 지표를 추적하는 대시보드를 사용합니다. 이러한 대시보드는 개선할 부분을 식별하고 교육 성과를 최적화하는 데 도움을 줍니다.
 
@@ -71,7 +122,18 @@ isUpdated: true
 
 앞으로 대시보드의 미래는 인공 지능 (AI) 및 기계 학습 (ML)의 발전에 의해 형성될 것으로 예상됩니다. 이러한 기술은 예측 분석, 자동화된 통찰력 및 자연어 처리 (NLP) 능력을 제공하여 대시보드를 향상시킬 수 있습니다. AI 기반 대시보드는 사용자의 요구를 예측하고 추천을 제공하며 데이터를 더 직관적인 방식으로 제시할 수 있을 것입니다. 또한 가상 현실 (VR) 및 증강 현실 (AR)의 통합은 몰입형 데이터 시각화 경험을 이끌어내어 복잡한 데이터셋과 상호 작용하는 것을 더 쉽게 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결론
 

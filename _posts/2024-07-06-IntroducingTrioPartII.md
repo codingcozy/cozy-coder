@@ -3,17 +3,13 @@ title: "트리오 소개  2부"
 description: ""
 coverImage: "/assets/img/2024-07-06-IntroducingTrioPartII_0.png"
 date: 2024-07-06 11:14
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-06-IntroducingTrioPartII_0.png
 tag: Tech
 originalTitle: "Introducing Trio | Part II"
 link: "https://medium.com/airbnb-engineering/introducing-trio-part-ii-fe836013a798"
 isUpdated: true
 ---
-
-
-
-
 
 ## 에어비앤비 Android 앱에서 컴포즈 기반 아키텍처를 만드는 방법, 매버릭과 함께하는 두 번째 이야기
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이 시리즈의 이전 게시물에서 우리는 안드로이드용 Jetpack Compose 화면 아키텍처 프레임워크인 Trio를 소개했습니다. Trio의 장점 중 일부는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 복잡한 앱에서 모듈 간 통신 시 안전한 타입을 보장합니다.
 - ViewModel의 사용 및 공유 방법과 화면 간 인터페이스에 대한 기대를 명확히 합니다.
@@ -36,7 +43,18 @@ Trio에 대해 다시 보거나 이 프레임워크에 대해 처음 알게 되�
 
 ## Trio로 네비게이션하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 디자인에서의 독특한 접근 방식은 Trios가 ViewModel의 State에 저장된다는 것입니다. 이 State는 스크린이 UI에 노출하는 다른 모든 데이터와 함께 저장됩니다. 예를 들어, 일반적인 사용 사례는 화면 스택을 나타내기 위해 Trios의 목록을 저장하는 것입니다.
 
@@ -50,7 +68,18 @@ PersistState 주석은 Mavericks의 메커니즘으로, 프로세스의 종료�
 
 ViewModel은 이 상태를 제어하며, 새로운 화면을 추가하거나 화면을 꺼내는 함수를 노출할 수 있습니다. ViewModel은 Trios 목록을 직접 제어하기 때문에 화면의 순서를 바꾸거나 여러 화면을 삭제하거나 모든 화면을 클리어하는 등 복잡한 네비게이션 변경도 쉽게 수행할 수 있습니다. 이것은 네비게이션을 매우 유연하게 만듭니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 class ParentViewModel : TrioViewModel {
@@ -75,7 +104,18 @@ override fun TrioRenderScope.Content(state: ParentState) {
 
 ## Navigation을 조정하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Store 클래스 Trio에 Trios를 왜 저장해야 할까요? 대안적인 방법으로는 Compose UI에서 navigator object를 사용할 수 있습니다. 그러나 State에 애플리케이션의 네비게이션 그래프를 표현하는 것은 ViewModel이 데이터와 네비게이션을 한 곳에서 업데이트할 수 있게 해줍니다. 이는 네트워크 요청과 같은 비동기 작업이 완료된 후에 네비게이션 변경을 지연해야 할 때 매우 유용할 수 있습니다. Fragments로는 이 작업을 쉽게 처리할 수 없었으며, Trio의 접근 방식을 통해 네비게이션이 더 간단하고 명시적이며 테스트하기 쉬워진다는 것을 발견했습니다.
 
@@ -99,7 +139,18 @@ class CounterViewModel : TrioViewModel {
 
 ![이미지](/assets/img/2024-07-06-IntroducingTrioPartII_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 UI 계층구조가 더 복잡해지면, 애플리케이션 UI 계층구조는 ViewModel 및 그 상태의 연쇄로 모델링됩니다. 상태가 렌더링되면, 해당 Compose UI 계층구조가 생성됩니다.
 
@@ -109,7 +160,18 @@ Trio는 중첩된 화면 및 섹션을 포함한 임의의 크기의 UI 요소�
 
 또 다른 장점은 네비게이션 계층구조가 Compose UI에서 분리되어 있기 때문에, 미리 필요한 Trios를 초기화함으로써 예상된 Trios를 미리로드할 수 있다는 것입니다. 이로써, 화면 사전로드를 통해 성능 최적화가 훨씬 간단해졌습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 매버릭스 상태는 일반적으로 Trio와 같은 라이프사이클이 있는 복잡한 객체가 아닌 간단한 데이터 클래스를 보유합니다. 그러나 이러한 접근 방식이 가져다주는 혜택은 추가 복잡성을 충분히 상쇄한다는 것을 발견할 수 있습니다.
 
@@ -119,7 +181,18 @@ Trio는 중첩된 화면 및 섹션을 포함한 임의의 크기의 UI 요소�
 
 초기화 중에 Trio ViewModel은 초기화 프로세스를 통해 활동의 Flow를 받게 됩니다. 이 Flow는 ViewModel이 연결된 현재 활동을 제공하며, 활동이 다시 생성되는 동안과 같이 분리될 때 null을 제공합니다. Trio 내부에서 Flow를 관리하여 항상 최신 상태로 유지하고 활동이 누출되지 않도록 보장합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 필요할 때 ViewModel은 awaitActivity suspend 함수를 통해 다음으로 null이 아닌 액티비티 값을 접근할 수 있습니다. 예를 들어, 네트워크 요청이 완료된 후 새로운 액티비티를 시작하는 데 사용할 수 있습니다.
 
@@ -149,7 +222,18 @@ suspend fun awaitActivity(): ComponentActivity {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 조금 독특하지만, 이 패턴을 사용하면 활동 기반 탐색을 ViewModel의 다른 비즈니스 로직과 함께 놓을 수 있습니다.
 
@@ -159,7 +243,18 @@ suspend fun awaitActivity(): ComponentActivity {
 
 우리의 프로젝트 구조에서 각 모듈은 접두사와 접미사로 표시된 특정 유형을 가지며, 이를 통해 모듈의 목적을 정의하고 다른 모듈이 의존할 수 있는 규칙 집합을 강제합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Feature 모듈은 "feat"로 접두사가 붙어 있으며 Trio 스크린을 포함하고 있습니다. 응용 프로그램의 각 화면은 자체 모듈에 살 수 있습니다. 순환 종속성을 방지하고 빌드 속도를 향상시키기 위해 기능 모듈이 서로에게 의존하지 않도록합니다.
 
@@ -169,7 +264,18 @@ Feature 모듈은 "feat"로 접두사가 붙어 있으며 Trio 스크린을 포�
 
 /assets/img/2024-07-06-IntroducingTrioPartII_2.png
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Routing](https://miro.medium.com/v2/resize:fit:600/1*yTEItzOwdvBn3soU3phGzg.gif)
 
@@ -185,12 +291,23 @@ class DecimalRouters : RouterDeclarations() {
   @Parcelize
   data class DecimalArgs(val count: Double) : Parcelable
 
-  object DecimalScreen 
+  object DecimalScreen
     : TrioRouter<DecimalArgs, NavigationProps, NoResult>
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 A Router 객체는 Trio의 공개 인터페이스를 정의하는 유형으로 구성됩니다: 인스턴스화하는 데 사용되는 Arguments, 활성 통신에 사용되는 Props, 그리고 필요한 경우 Trio가 반환하는 Result입니다.
 
@@ -200,16 +317,25 @@ Arguments는 종종 화면에 대한 시작 값으로 사용되는 기본 데이
 
 기능 모듈의 해당 Trio 클래스에서는 @TrioRouter 주석을 사용하여 Trio가 어떤 Router에 매핑되는지 지정합니다. 우리의 KSP 프로세서는 컴파일 시간에 이들을 일치시키고 코드를 생성하여 런타임에서 각 Router에 대한 Trio 목적지를 찾을 수 있게 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 // In feat.decimal
 
 @TrioRouter(DecimalRouters.DecimalScreen::class)
 class DecimalScreen(
-  initializer: Initializer<DecimalArgs, ...>
+initializer: Initializer<DecimalArgs, ...>
 ) : Trio<DecimalArgs, NavigationProps, ...>
-
 
 컴파일 시간에 프로세서는 라우터의 Arguments와 Props가 Trio의 타입과 일치하며, 각 라우터가 하나의 대응 목적지를 갖는지를 유효성 검사합니다. 이는 우리의 내비게이션 시스템에서 런타임 타입 안전성을 보장합니다.
 
@@ -217,8 +343,18 @@ class DecimalScreen(
 
 Trios를 수동으로 인스턴스화하는 대신에, 라우터에게 처리해주도록 합니다. 라우터는 적절한 Arguments의 유형이 제공되었는지 확인하고, Dagger 그래프에서 해당 Trio 클래스를 찾아서 초기화 프로세스를 묶어주는 클래스를 만들고, 마지막으로 Reflection을 사용하여 Trio의 생성자를 호출합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 라우터에서 createTrio 함수를 통해 이 기능을 사용할 수 있습니다. 이 함수는 ViewModel에서 호출할 수 있어요. 이를 통해 우리는 Trio의 새 인스턴스를 쉽게 만들어 Trio 스택에 넣을 수 있어요. 아래 예시에서 Props 인스턴스는 Trio가 부모에게 다시 호출해 이 푸시를 수행할 수 있도록 합니다. 이 Props에 대해 우리는 시리즈의 제3부에서 자세히 살펴볼 거예요.
 
@@ -241,13 +377,24 @@ class CounterViewModel : TrioViewModel {
     val activity = awaitActivity()
     val intent = DecimalRouters.DecimalScreen
                     .newIntent(activity, DecimalArgs(count))
-    
+
     activity.startActivity(intent)
   }
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로운 활동에서 트리오가 시작되면, 우리는 간단히 인텐트에서 Parcelable Trio 인스턴스를 추출하고, 해당 인스턴스를 활동 콘텐츠의 루트에 표시하면 됩니다.
 
@@ -275,7 +422,18 @@ class DecimalRouters : RouterDeclarations() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 경우에는 ViewModel에 "launcher" 속성이 포함되어 있습니다. 이 속성은 새로운 활동을 시작하는 데 사용됩니다.
 
@@ -298,7 +456,18 @@ class CounterViewModel : TrioViewModel {
 
 ## Fragment 상호 운용
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 트리오 화면이 기존 프래그먼트 화면과 상호 운용 가능하도록 만드는 것이 저희에게 매우 중요했습니다. 저희는 Trio로의 이관이 수 년이 걸리는 작업이며, 트리오와 프래그먼트는 쉽게 공존할 수 있어야 합니다.
 
@@ -308,60 +477,77 @@ class CounterViewModel : TrioViewModel {
 
 우리의 Router 객체는 다른 프래그먼트에서 Trio를 쉽게 만들고 표시할 수 있도록 도와주며, 단일 함수 호출만으로 가능합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 이전 버전 조각: MavericksFragment {
 
-  fun showTrioScreen() {        
-    showFragment(
-      CounterRouters
-             .CounterScreen
-             .newInteropFragment(SharedCounterViewModelPropsAdapter::class)
-    )
-  }
+fun showTrioScreen() {  
+ showFragment(
+CounterRouters
+.CounterScreen
+.newInteropFragment(SharedCounterViewModelPropsAdapter::class)
+)
 }
-
+}
 
 루터는 셸 Fragment를 만들고 그 안에 Trio를 렌더링합니다. 위 예시에서 SharedCounterViewModelPropsAdapter와 같은 선택적인 어댑터 클래스는 Fragment에 전달될 수 있으며, Trio가 액티비티의 다른 Fragment에서 사용되는 Mavericks ViewModel과 어떻게 통신할지를 지정합니다. 이 어댑터를 사용하면 Trio가 액세스하려는 ViewModel을 지정하고 해당 ViewModel 상태를 Trio가 사용하는 Props 클래스로 변환하는 StateFlow를 생성할 수 있습니다.
 
-
 ## 사용된 SharedCounterViewModelPropsAdapter : LegacyViewModelPropsAdapter<SharedCounterScreenProps> {
-    
+
 override suspend fun createPropsStateFlow(
-  legacyViewModelProvider: LegacyViewModelProvider,
-  navController: NavController<SharedCounterScreenProps>,
-  scope: CoroutineScope
+legacyViewModelProvider: LegacyViewModelProvider,
+navController: NavController<SharedCounterScreenProps>,
+scope: CoroutineScope
 ): StateFlow<SharedCounterScreenProps> {
-         
-  // 액티비티 ViewModel 조회
-  val sharedCounterViewModel: SharedCounterViewModel = legacyViewModelProvider.getActivityViewModel()
-         
-  // 필요한 경우 여러 ViewModel 조회 가능
-  val fragmentClickViewModel: SharedCounterViewModel = legacyViewModelProvider.requireExistingViewModel(viewModelKey = {
-    SharedCounterViewModelKeys.fragmentOnlyCounterKey
-  })
 
-  // 상태 업데이트를 Trio의 Props로 결합하고, StateFlow로 반환합니다.
-  // 이는 어떤 상태 Flow가 새 상태 객체를 가질 때마다 호출됩니다.
-  return combine(sharedCounterViewModel.stateFlow, fragmentClickViewModel.stateFlow) { sharedState, fragmentState ->
-            SharedCounterScreenProps(
-                navController = navController,
-                sharedClickCount = sharedState.count,
-                fragmentClickCount = fragmentState.count,
-                increaseSharedCount = {
-                    sharedCounterViewModel.increaseCounter()
-                }
-            )
-    }.stateIn(scope)
-  }
+// 액티비티 ViewModel 조회
+val sharedCounterViewModel: SharedCounterViewModel = legacyViewModelProvider.getActivityViewModel()
+
+// 필요한 경우 여러 ViewModel 조회 가능
+val fragmentClickViewModel: SharedCounterViewModel = legacyViewModelProvider.requireExistingViewModel(viewModelKey = {
+SharedCounterViewModelKeys.fragmentOnlyCounterKey
+})
+
+// 상태 업데이트를 Trio의 Props로 결합하고, StateFlow로 반환합니다.
+// 이는 어떤 상태 Flow가 새 상태 객체를 가질 때마다 호출됩니다.
+return combine(sharedCounterViewModel.stateFlow, fragmentClickViewModel.stateFlow) { sharedState, fragmentState ->
+SharedCounterScreenProps(
+navController = navController,
+sharedClickCount = sharedState.count,
+fragmentClickCount = fragmentState.count,
+increaseSharedCount = {
+sharedCounterViewModel.increaseCounter()
 }
-
+)
+}.stateIn(scope)
+}
+}
 
 ## 결론
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사에서는 Trio에서 탐색이 작동하는 방법을 이야기했습니다. 우리는 사용자 정의 라우팅 시스템을 사용하거나 ViewModel에서 활동에 액세스할 수 있는 기능, 그리고 Trios를 ViewModel State에 저장하여 모듈화, 상호 운용성을 달성하고 탐색 논리에 대해 간단하게 이해하기 쉽도록 하는 목표를 달성합니다.
 

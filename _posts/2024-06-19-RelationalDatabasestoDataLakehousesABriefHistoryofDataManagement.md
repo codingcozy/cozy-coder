@@ -3,17 +3,13 @@ title: "관계형 데이터베이스에서 데이터 레이크하우스로 데�
 description: ""
 coverImage: "/assets/img/2024-06-19-RelationalDatabasestoDataLakehousesABriefHistoryofDataManagement_0.png"
 date: 2024-06-19 09:43
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-RelationalDatabasestoDataLakehousesABriefHistoryofDataManagement_0.png
 tag: Tech
 originalTitle: "Relational Databases to Data Lakehouses: A Brief History of Data Management"
 link: "https://medium.com/@lukianovihor/a-brief-history-of-data-management-from-relational-databases-to-data-lakehouses-b76edcafe866"
 isUpdated: true
 ---
-
-
-
-
 
 ## 데이터 관리의 진화 및 데이터 엔지니어링을 위한 솔루션
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-19-RelationalDatabasestoDataLakehousesABriefHistoryofDataManagement_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1980년대
 
@@ -34,7 +41,18 @@ isUpdated: true
 - 더 빠른 비즈니스 인텔리전스 (BI) 프로세스.
 - 구조화된 데이터와 효율적으로 작업할 수 있는 능력.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 주목할만한 단점들도 있었어요:
 
@@ -46,7 +64,18 @@ isUpdated: true
 
 ## 2000–2010년대
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2000년대에 대형 데이터가 등장하면서 전통적인 데이터 웨어하우스에 도전이 제기되었습니다. Google과 Yahoo와 같은 기업들은 구조화되지 않은 대량의 데이터를 생성했는데, 이는 구조화된 데이터 웨어하우스로는 효과적으로 처리할 수 없는 양이었습니다. 게다가 대규모의 구조화되지 않은 데이터(예: 이미지)가 필요한 머신 러닝의 등장은 기존 데이터 관리 시스템의 한계를 더욱 부각시켰습니다.
 
@@ -59,11 +88,33 @@ isUpdated: true
 - 유연한 데이터 저장.
 - 스트리밍 데이터 처리.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 따라서, 테이블 태그를 마크다운 형식으로 변경하면 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2020년대
 
@@ -73,7 +124,18 @@ isUpdated: true
 
 이 접근을 옹호하는 회사가 Databricks이지만, 대부분의 도구가 오픈 소스이기 때문에 클라우드에서 이러한 솔루션을 독립적으로 구축하는 것도 가능합니다. 데이터 레이크하우스 시스템을 다룰 때는 저장 수준에서 적절한 기술을 갖추는 것이 중요합니다. 이러한 시스템은 table formats으로 언급되며, Apache Iceberg, Delta Lake, Apache Hudi와 같은 가장 일반적으로 사용되는 형식들이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기타 측면에서는 이전 솔루션과 유사하며 변환을 위해 Spark를 사용하는 것이 일반적입니다. 그러나 구체적인 툴킷은 회사마다 및 서로 다른 클라우드 제공업체 사이에 상당히 다를 수 있습니다. 데이터 레이크하우스는 지속적으로 발전하고 있으며 매년 새로운 기술이 등장하여 대규모 데이터를 처리하기가 더 쉬워지고 있습니다.
 
@@ -83,7 +145,18 @@ isUpdated: true
 
 요약하자면, 데이터 관리 솔루션의 진화에 대한 완전한 여정을 완료했습니다, 주로 분석을 위한 것입니다. 모든 접근 방식에는 고유의 사용 사례가 있으며 전 세계의 기업 및 팀에서 적극적으로 활용되고 있습니다. 내 의견으로는 데이터 웨어하우스가 가장 이해하기 쉬운 것으로, SQL 관계형 데이터베이스와 매우 유사합니다. 그러나 데이터 레이크하우스도 SQL을 언어 중 하나로 사용하지만 기술은 더 복잡합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 선택을 할 때는 다음 질문을 고려해 보세요:
 

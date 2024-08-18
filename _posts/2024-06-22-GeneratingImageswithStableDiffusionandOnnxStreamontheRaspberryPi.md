@@ -3,17 +3,13 @@ title: "Raspberry Pi에서 Stable Diffusion과 OnnxStream으로 이미지 생성
 description: ""
 coverImage: "/assets/img/2024-06-22-GeneratingImageswithStableDiffusionandOnnxStreamontheRaspberryPi_0.png"
 date: 2024-06-22 19:20
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-GeneratingImageswithStableDiffusionandOnnxStreamontheRaspberryPi_0.png
 tag: Tech
 originalTitle: "Generating Images with Stable Diffusion and OnnxStream on the Raspberry Pi"
 link: "https://medium.com/towards-data-science/generating-images-with-stable-diffusion-and-onnxstream-on-the-raspberry-pi-f126636b6c0c"
 isUpdated: true
 ---
-
-
-
-
 
 ## 라즈베리 파이에서 Stable Diffusion XL Turbo를 사용하여 이미지를 생성하는 방법을 배워보세요!
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # OnnxStream
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 OnnxStream은 Vito Plantamura가 만든 오픈 소스 프로젝트로, 초기 의도는 메모리 소비를 최소화하여 라즈베리 파이 제로 2에서 Stable Diffusion 1.5(SD1.5)를 실행하는 것이었습니다. 이로 인해 추론 대기 시간/처리량이 증가할 수 있지만 가능한 한 메모리 소비를 최소화하는 것이 목표입니다.
 
@@ -33,7 +40,18 @@ OnnxStream은 Vito Plantamura가 만든 오픈 소스 프로젝트로, 초기 �
 
 # 기술적 요구 사항
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음만 있으면 됩니다:
 
@@ -45,7 +63,18 @@ OnnxStream은 Vito Plantamura가 만든 오픈 소스 프로젝트로, 초기 �
 
 # OnnxStream 설정하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 안내는 GitHub 리포지토리에서 나온 것이지만, 좀 더 자세히 설명하고 있어요.
 
@@ -63,7 +92,18 @@ cmake -DXNNPACK_BUILD_TESTS=OFF -DXNNPACK_BUILD_BENCHMARKS=OFF ..
 cmake --build . --config Release
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 XNNPack을 빌드하는 데 몇 분 정도 소요될 것입니다. 커피 한 잔 마시거나 다른 일을 하세요.
 
@@ -81,7 +121,18 @@ cmake -DMAX_SPEED=ON -DXNNPACK_DIR=<XNNPACK이 클론된 디렉토리 경로> ..
 cmake --build . --config Release
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `DIRECTORY_WHERE_XNNPACK_WAS_CLONED`를 XNNPack가 복제된 경로로 교체해주세요 (빌드 폴더가 아닙니다). 제 경우에는 /home/admin/XNNPACK/에 있었습니다.
 
@@ -94,7 +145,18 @@ git lfs install
 git clone --depth=1 https://huggingface.co/AeroX2/stable-diffusion-xl-turbo-1.0-onnxstream
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아직 git-lfs를 설치하지 않았다면 먼저 설치해주세요. 모델 가중치가 상당히 크기 때문에 이전 단계보다 시간이 훨씬 더 걸릴 것입니다. 점심 시간 동안 가져가세요!
 
@@ -104,7 +166,18 @@ git clone --depth=1 https://huggingface.co/AeroX2/stable-diffusion-xl-turbo-1.0-
 
 # 이미지 생성 중
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래의 코드 블록을 실행하여 이미지를 생성하세요:
 
@@ -117,7 +190,18 @@ cd ~/OnnxStream/src/build/
 
 SDXL Turbo를 제외한 다른 두 모델에는 네거티브 프롬프트를 위해 사용할 수 없지만, 생성 단계 수를 설정하는 --steps 및 무작위 시드를 설정하는 --seed와 같은 다른 인수도 전달할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모델의 종류에 따라 필요한 인수가 변경될 수 있으니, SDXL Turbo 이외의 것을 사용하는 경우 전달해야 하는 인수의 전체 목록은 OnnxStream의 GitHub 리포지토리를 확인해 주세요.
 
@@ -127,7 +211,18 @@ SDXL Turbo를 제외한 다른 두 모델에는 네거티브 프롬프트를 위
 
 ![image](/assets/img/2024-06-22-GeneratingImageswithStableDiffusionandOnnxStreamontheRaspberryPi_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 동일한 시드를 사용하여 1단계부터 10단계까지 동일한 프롬프트의 비교 및 진전이 있습니다. 단 한 걸음의 향상으로도 이미 생성된 이미지가 이미 매우 잘 완료되었음을 볼 수 있습니다. 이는 SDXL이나 SD1.5와는 대조적이며 해당 품질에 도달하기 위해서는 상당히 많은 단계가 필요합니다.
 
@@ -137,9 +232,20 @@ SDXL Turbo를 제외한 다른 두 모델에는 네거티브 프롬프트를 위
 
 ![이미지](/assets/img/2024-06-22-GeneratingImageswithStableDiffusionandOnnxStreamontheRaspberryPi_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-저에게 가장 명백하고 재미있는 사용 사례는 몇 분마다 새 이미지를 생성하는 변화무쌍한 사진 프레임입니다. 실제로 GitHub의 rvdveen이 OnnxStream을 사용한 이와 비슷한 프로젝트가 있습니다. 라즈베리 파이 제로 2 W에서 OnnxStream을 사용하여 뉴스 기사 이미지를 생성하고 전자잉크 디스플레이를 통해 사진 프레임에 표시하는 프로젝트입니다. 물론 실시간으로 보여주는 사진 프레임이 반드시 필요한 것은 아니지만, 라즈베리 파이 제로 2 W에서 이미지를 생성하는 데 약 5시간이 소요되며 SD1.5가 필요합니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+저에게 가장 명백하고 재미있는 사용 사례는 몇 분마다 새 이미지를 생성하는 변화무쌍한 사진 프레임입니다. 실제로 GitHub의 rvdveen이 OnnxStream을 사용한 이와 비슷한 프로젝트가 있습니다. 라즈베리 파이 제로 2 W에서 OnnxStream을 사용하여 뉴스 기사 이미지를 생성하고 전자잉크 디스플레이를 통해 사진 프레임에 표시하는 프로젝트입니다. 물론 실시간으로 보여주는 사진 프레임이 반드시 필요한 것은 아니지만, 라즈베리 파이 제로 2 W에서 이미지를 생성하는 데 약 5시간이 소요되며 SD1.5가 필요합니다.
 
 또는 로컬에서 호스팅되는 이미지 생성기를 원할 수도 있습니다. 네트워크에서 주요 계산 장치를 점유하지 않고도 양호한 품질의 이미지를 생성할 수 있습니다.
 

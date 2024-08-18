@@ -3,17 +3,13 @@ title: "AI는 이제 Apple Intelligence로도 불립니다"
 description: ""
 coverImage: "/assets/img/2024-06-19-AIIsNowAlsoKnownasAppleIntelligence_0.png"
 date: 2024-06-19 15:19
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-AIIsNowAlsoKnownasAppleIntelligence_0.png
 tag: Tech
 originalTitle: "AI Is Now Also Known as Apple Intelligence"
 link: "https://medium.com/the-daily-cuppa-grande/ai-is-now-also-known-as-apple-intelligence-1fdcee417e4a"
 isUpdated: true
 ---
-
-
-
-
 
 당신의 iPhone 또는 Mac이 디바이스일 뿐만 아니라 정말로 당신을 이해하는 스마트 동반자가 되는 세상을 상상해 보세요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 어젯밤, 엠피얼은 iOS 18, iPadOS 18 및 macOS Sequoia에 탑재된 새로운 AI를 소개하여 이 비전을 실현하겠다고 약속했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 시리: 당신의 똑똑한 동반자
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 Medium의 작가로서 이런 서비스를 사랑하실 겁니다. Apple의 인공지능이 글쓰기를 위한 고급 도구를 소개했습니다. 새 이야기를 기획하거나 이전 이야기를 편집하더라도, 이 인공지능은 여러분의 스타일에 맞는 제안을 도와주고 맞춤법을 교정하며 서식을 지원합니다. 마치 가상 편집자가 여러분의 곁에 있는 것처럼, 여러분의 콘텐츠가 빛나도록 도와줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 완벽한 사진 찍기
 
@@ -43,7 +61,18 @@ Medium의 작가로서 이런 서비스를 사랑하실 겁니다. Apple의 인�
 
 Apple의 AI는 당신에게 중요한 것을 우선순위를 두어 중요한 알림을 놓치지 않도록 도와줍니다. 소음을 걸러내면서 당신의 상호작용을 통해 학습하므로 시간이 지날수록 당신에게 가장 중요한 사항을 더 잘 알아차리게 됩니다. 중요한 이메일이나 다음 사진 촬영을 위한 날씨 경보와 같이 중요한 정보를 받아들이면서도 압도당하지 않고 소식을 받아볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기술이 조금 더 사람다운, 직관적이고, 재미있게 느껴지도록 하는 게 중요하죠.
 

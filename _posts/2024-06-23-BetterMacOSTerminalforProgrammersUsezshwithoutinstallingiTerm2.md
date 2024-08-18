@@ -3,17 +3,13 @@ title: "프로그래머를 위한 더 나은 MacOS 터미널 iTerm2 없이 zsh �
 description: ""
 coverImage: "/assets/img/2024-06-23-BetterMacOSTerminalforProgrammersUsezshwithoutinstallingiTerm2_0.png"
 date: 2024-06-23 15:40
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-BetterMacOSTerminalforProgrammersUsezshwithoutinstallingiTerm2_0.png
 tag: Tech
 originalTitle: "Better MacOS Terminal for Programmers: Use zsh without installing iTerm2"
 link: "https://medium.com/javarevisited/better-macos-terminal-for-programmers-use-zsh-without-installing-iterm2-41ce5e75296b"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-06-23-BetterMacOSTerminalforProgrammersUsezshwithoutinstallingiTerm2_0.png)
 
@@ -25,7 +21,18 @@ isUpdated: true
 echo $SHELL
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글에서는 MacOS의 내장 zsh 터미널을 구성하는 방법을 살펴볼 것입니다. Mac에서 zsh 터미널이 설치되어 있는지 확인하려면 다음 명령을 입력하십시오.
 
@@ -37,7 +44,18 @@ Mac에 zsh 셸이 설치되어 있는지 확인했다면 Mac 터미널을 다양
 
 # 🍺 Homebrew 설치하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 홈브루를 설치하려면 아래 안내에 따라 간단히 설치할 수 있어요.
 
@@ -51,19 +69,41 @@ Mac에 zsh 셸이 설치되어 있는지 확인했다면 Mac 터미널을 다양
 
 zsh 터미널이 없다면 cat /etc/shells | grep "zsh"를 실행했을 때, zsh가 나오지 않는다면 Homebrew로 zsh를 설치할 수 있어요. brew install zsh를 입력하여 zsh를 설치한 후, 다시 cat /etc/shells | grep "zsh"를 입력하여 zsh 터미널이 정상적으로 설치되었는지 확인하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 후 아래 명령어를 입력하여 기본 터미널을 zsh 터미널로 변경하세요.
 
 ```js
-chsh -s /bin/zsh
+chsh - s / bin / zsh;
 ```
 
 변경 사항이 올바르게 적용되었는지 확인하려면 터미널을 다시 시작하세요.
 
 # 🎨 oh-my-zsh
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 터미널에 색을 입혀봐요 🎨 아래 지시 사항을 따라주세요.
 
@@ -78,9 +118,20 @@ chsh -s /bin/zsh
 
 터미널을 아름답게 만드는 것 외에도, zsh 터미널에서도 자동 제안 기능을 사용할 수 있어요. 자동 제안 기능을 사용하려면 아래 지시 사항을 따라주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-- git 저장소를 복제하고 설치하세요 → git clone https://github.com/zsh-users/zsh-autosuggestions $'ZSH_CUSTOM:-~/.oh-my-zsh/custom'/plugins/zsh-autosuggestions 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+- git 저장소를 복제하고 설치하세요 → git clone https://github.com/zsh-users/zsh-autosuggestions $'ZSH_CUSTOM:-~/.oh-my-zsh/custom'/plugins/zsh-autosuggestions
 - .zshrc 파일을 업데이트하세요 → plugins=(zsh-autosuggestions) (이미 플러그인 섹션에 git이 있는 경우에는 plugins=(git zsh-autosuggestions)로 작성)
 - .zshrc 파일을 소스하세요 → source ~/.zshrc
 

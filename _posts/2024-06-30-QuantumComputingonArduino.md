@@ -3,17 +3,13 @@ title: "Arduino로 퀀텀 컴퓨팅 구현하기 가이드 및 팁"
 description: ""
 coverImage: "/assets/img/2024-06-30-QuantumComputingonArduino_0.png"
 date: 2024-06-30 19:04
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-30-QuantumComputingonArduino_0.png
 tag: Tech
 originalTitle: "Quantum Computing on Arduino"
 link: "https://medium.com/@dakk/quantum-computing-on-arduino-0c67eab4fdfc"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1000/0*fA_-0zuJ81UEVDTs.gif)
 
@@ -23,14 +19,25 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-30-QuantumComputingonArduino_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금, 아마 “그런데 구글의 Sycamore 프로세서는 53큐빗을 가지고 있지 않나요? IBM의 최신 양자 컴퓨터는 433큐빗을 자랑하지 않나요?” 라고 생각하실 수도 있습니다. 물론, 만약에 기술적으로 모든 것에 대해 깊이 이해하고 싶다면 말이죠. 하지만 여기 한 가지 묻고 싶은 게 있어요: 그들의 양자 컴퓨터가 LED를 깜박일 수 있나요? 제 생각에는 안 될 것 같네요.
 
 우리의 활기찬 아두이노 양자 에뮬레이터는 여러분이 즐겨 사용하는 모든 양자 게이트를 지원해요: Hadamard, CNOT, X, Y, S, T 그리고 Z. 심지어 GHZ 상태를 “양자 얽힘” 이라고 매우 느리게 말할 때보다 빠르게 준비할 수 있답니다.
 
 ```js
-H(0);  
+H(0);
 for(int i = 0; i < NUM_QUBITS - 1; i++) {
   CX(i,i+1);
 }
@@ -38,7 +45,18 @@ for(int i = 0; i < NUM_QUBITS - 1; i++) {
 
 <img src="https://miro.medium.com/v2/resize:fit:1000/0*U2A8oH-Ril25vd52.gif" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가장 멋진 부분은 뭘까요? 다른 양자 컴퓨터들은 박사 학위를 가진 물리학자 팀이 운영해야하는 반면, 우리의 아두이노 양자 에뮬레이터는 C++의 기본 이해와 실제 양자 역학에 대한 완전한 무관심만 있으면 누구나 프로그래밍할 수 있습니다.
 
@@ -50,7 +68,18 @@ randomSeed(analogRead(0));
 
 지금, 여러분이 생각할 수 있는 것을 알아요. "이것은 혁명적이네요! 비용은 얼마나 드나요?" 잘 준비되세요. 다른 양자 컴퓨터가 수백만 달러에 이르는 반면, 여러분은 저렴한 가격으로 이 양자 파워하우스를 약 25달러(또는 더 저렴한 Elegoo 포함 시 10달러)에 제작할 수 있습니다. 네, 좋은 식사 비용으로 양자 컴퓨팅 혁명에 함께 참여할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요약하자면, 다른 연구자들이 대수적으로 큰 숫자를 인수분해하거나 복잡한 양자 시스템을 시뮬레이션하는 등의 사소한 문제에 시간을 낭비하는 도중에 우리는 여기서 5볼트로 동작하는 LED를 중첩시킬 것입니다. 양자 컴퓨팅의 미래는 이미 여기에 있고, 그것은 5볼트로 운영됩니다.
 

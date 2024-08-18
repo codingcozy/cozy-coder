@@ -3,7 +3,7 @@ title: "Angular 시그널 시대에 들어서다"
 description: ""
 coverImage: "/assets/img/2024-07-10-AngularEnterTheSignalsEra_0.png"
 date: 2024-07-10 00:35
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-10-AngularEnterTheSignalsEra_0.png
 tag: Tech
 originalTitle: "Angular: Enter The Signals Era"
@@ -11,13 +11,20 @@ link: "https://medium.com/@mrkrsticmilos/angular-enter-the-signals-era-357b5c8d8
 isUpdated: true
 ---
 
-
-
-
-
 Angular 이 선보인 기능 중 몇 가지를 소개해 드리겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 시그널
 - 새로운 제어 흐름
@@ -32,7 +39,18 @@ Angular 이 선보인 기능 중 몇 가지를 소개해 드리겠습니다.
 
 Angular 커뮤니티를 따르고 있다면, 신호에 대해 들어보거나 읽은 적이 있을 것입니다. 그리고 JavaScript가 신호를 네이티브로 지원할 것으로 예상되어 큰 일이라고 할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제안된 표준과 Angular의 구현 사이에는 약간의 차이가 있지만, 그에 대해 얘기하려고 온 것은 아닙니다.
 
@@ -44,8 +62,18 @@ const count = signal(0);
 
 시그널의 값 읽기도 간단합니다. 이렇게 getter 함수를 호출하면 됩니다:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 console.log(`현재 카운트 값은 ${count()}`);
@@ -59,14 +87,25 @@ count.set(1);
 console.log(`설정 후: ${count()}`);
 // 설정 후: 1
 
-count.update(currentValue => currentValue + 1);
+count.update((currentValue) => currentValue + 1);
 console.log(`업데이트 후: ${count()}`);
 // 업데이트 후: 2
 ```
 
 템플릿에서 시그널의 값을 표시하려면 위의 예시처럼 getter 함수를 호출하기만 하면 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @Component({
@@ -92,8 +131,18 @@ export class App {
 
 ## React
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아니요, 저는 인기가 높지만 덜 성숙한 Frontend 도구인 React에 대해 얘기하고 있지 않아요. 농담은 떠나서, 두 도구 모두 놀라운 기능을 가지고 있지만 제 의견으로는 서로 다른 목적을 제공하고 있어요. :)
 
@@ -103,7 +152,18 @@ export class App {
 
 계산된 신호와 이펙트 함수를 살펴보도록 하죠. 반응형 요소들이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 계산
 
@@ -115,7 +175,18 @@ const isEven = computed(() => count() % 2 === 0);
 
 이전에 정의된 가변(count) 신호의 getter 함수를 호출했다는 점을 주목해주세요. 계산된 신호는 제공된 함수 내에서 읽은 신호의 값 변경을 추적하며, 신호가 변경될 때마다 새 값이 계산됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @컴포넷({
@@ -151,7 +222,18 @@ constructor() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에서 count 및 isEven 신호 게터를 모두 호출했음을 알 수 있습니다. count가 변경되면 isEven도 변경됩니다. count를 1에서 2로 업데이트하면 isEven도 count와 동기화되어 계산되며 모든 것이 다시 안정되면 효과가 트리거됩니다. 이는 RxJS 및 동기 값을 해결하는 데 문제가 있는 다이아몬드 문제를 해결하는 매우 멋진 방법입니다.
 
@@ -161,7 +243,18 @@ constructor() {
 
 신호 소개로 인해 구성요소 및 디렉티브에 대한 새로운 신호 기반 입력 및 신호와 함께 더 예쁜보이는 새로운 출력 함수 API가 생겼습니다. 구 방식과 새 방식을 비교해 봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 이전 방식: Input 및 Output 데코레이터와 함께
@@ -191,10 +284,20 @@ value = model<number>(0);
 <child [(value)]="value"/>
 ```
 
-input`T`()와 model`T`()의 차이점은 model이 쓰기 가능한 신호이고 input이 읽기 전용이라는 점입니다. 두 가지 모두 다른 사용 사례에서 유용합니다. 
+input`T`()와 model`T`()의 차이점은 model이 쓰기 가능한 신호이고 input이 읽기 전용이라는 점입니다. 두 가지 모두 다른 사용 사례에서 유용합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로, 새로운 출력 기능은 신호에 기반하지 않습니다.
 
@@ -204,7 +307,18 @@ input`T`()와 model`T`()의 차이점은 model이 쓰기 가능한 신호이고 
 
 또한 이 글이 유익하게 느껴진다면, 다른 누군가에게도 유용할 것이라고 생각하신다면, 동료나 네트워크와 공유해 주시면 감사하겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나의 멘토들에게 이 쓰기 과정을 이끌어 주셔서 특별한 감사를 드립니다.
 

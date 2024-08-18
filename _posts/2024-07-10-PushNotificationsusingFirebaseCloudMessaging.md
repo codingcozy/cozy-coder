@@ -3,17 +3,13 @@ title: "Firebase Cloud Messaging으로 푸시 알림 설정하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-10-PushNotificationsusingFirebaseCloudMessaging_0.png"
 date: 2024-07-10 01:51
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-10-PushNotificationsusingFirebaseCloudMessaging_0.png
 tag: Tech
 originalTitle: "Push Notifications using Firebase Cloud Messaging"
 link: "https://medium.com/@gaffaryucel/push-notifications-using-firebase-cloud-messaging-53d3baf28683"
 isUpdated: true
 ---
-
-
-
-
 
 ![Image](/assets/img/2024-07-10-PushNotificationsusingFirebaseCloudMessaging_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이 가이드를 마치면 Firebase Cloud Messaging 설정, 수신 메시지 처리, 그리고 알림을 원활하게 표시하는 방법을 이해할 것입니다. 우리는 종속성을 효율적으로 관리하기 위해 Hilt를 활용할 것이며, 클린하고 유지보수가 용이한 코드를 보장할 것입니다. 사용자들에게 정보를 제공하고 참여도를 높이는 데 도움이 되는 푸시 알림을 구현하는 중요한 내용에 대해 깊이 파고들어 봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Firebase Cloud Messaging 설정하기
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ## Firebase 프로젝트 만들기:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 파이어베이스 콘솔에 들어가주세요.
 - 새로운 파이어베이스 프로젝트를 만들기 위해 설정 마법사를 따라가세요.
@@ -47,30 +65,48 @@ isUpdated: true
 - 앱 수준의 build.gradle 파일을 열어주세요.
 - Firebase 클라우드 메시징 의존성을 추가하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지 태그를 Markdown 형식으로 변경해주세요.
 
-
 implementation 'com.google.firebase:firebase-messaging:23.0.0'
-
 
 # AndroidManifest.xml 구성:
 
 - AndroidManifest.xml 파일을 엽니다.
 - 필요한 권한 및 서비스 선언을 추가하세요:
 
-
 <service
     android:name=".MyFirebaseMessagingService"
     android:exported="false">
-    <intent-filter>
-        <action android:name="com.google.firebase.MESSAGING_EVENT" />
-    </intent-filter>
+<intent-filter>
+<action android:name="com.google.firebase.MESSAGING_EVENT" />
+</intent-filter>
 </service>
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 코드를 사용해 Firebase 메시징 서비스를 구현하는 방법에 대해 살펴보겠습니다.
 
@@ -134,7 +170,18 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
 
 이제 당신만의 서비스 클래스 이름으로 변경하세요. 재미있는 프로젝트를 만드는 데 도움이 되길 바랄게요! 🌟
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 푸시 알림 데이터 클래스 생성
 
@@ -156,7 +203,18 @@ data class NotificationData(
 
 ## FCM API 통합을 위한 Retrofit
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 FCM 서버와 상호 작용하기 위한 인터페이스를 정의하는 Retrofit을 사용해보세요:
 
@@ -183,7 +241,18 @@ interface NotificationAPI {
 
 사용자 지정 애플리케이션 클래스를 만들고 @HiltAndroidApp으로 주석을 달아보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 package com.example.myapp
@@ -202,7 +271,18 @@ public class MyApp extends Application {
 
 FirebaseRepository.kt라는 인터페이스를 만들어, 알림을 보내는 메서드를 정의하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## FirebaseRepositoryImpl 구현하기
 
@@ -227,7 +307,18 @@ class FirebaseRepositoryImpl @Inject constructor(
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 힐트 모듈 정의:
 
@@ -274,7 +365,18 @@ object AppModule {
 
 ## 설명
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 파이어베이스 뷰모델 만들기
 
@@ -313,7 +415,18 @@ class FirebaseViewModel @Inject constructor(
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 파이어베이스 프래그먼트 구현
 
@@ -368,7 +481,18 @@ class FirebaseFragment : Fragment() {
 
 해설
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - **FirebaseViewModel:** FirebaseRepository를 사용하여 알림을 보내는 비즈니스 로직을 처리하는 ViewModel입니다.
 - **FirebaseFragment:** 사용자가 알림 전송 프로세스를 시작하기 위해 UI와 상호 작용하는 Fragment입니다.
@@ -382,7 +506,18 @@ class FirebaseFragment : Fragment() {
 
 프로젝트가 의존성 주입을 위해 Hilt로 올바르게 구성되어 있고 Firebase Cloud Messaging (FCM)이 앱과 올바르게 설정되어 있는지 확인하세요. 플레이스홀더 (FCM_DEVICE_TOKEN, 알림 제목 및 메시지)을 앱 로직에 적합한 실제 값으로 대체해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

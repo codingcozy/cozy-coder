@@ -3,17 +3,13 @@ title: "3D 모델링의 7가지 주요 용도"
 description: ""
 coverImage: "/assets/img/2024-06-22-Whatis3Dmodelingusedfor_0.png"
 date: 2024-06-22 18:37
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-Whatis3Dmodelingusedfor_0.png
 tag: Tech
 originalTitle: "What is 3D modeling used for?"
 link: "https://medium.com/@szrashed/what-is-3d-modeling-used-for-425c56832f01"
 isUpdated: true
 ---
-
-
-
-
 
 3D 모델은 영화, 게임, 건축, 제품 디자인 등에서 사용됩니다. 엔터테인먼트 산업과 가상 현실에서 3D 모델을 예상할 수 있지만, 많은 다른 산업에서도 3D 모델이 사용된다는 사실에 놀라실지도 모릅니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 다음은 일반적인 3D 모델링 예시입니다. 이러한 모델들은 때로는 너무 사실적하여 처음에 렌더링된 이미지를 보고 있다는 것을 알아차리기 어려울 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3D 모델링 Fiverr에서 전문 프리랜서를 고용해보세요!
 
@@ -33,7 +40,18 @@ Workpaa에서 데이터 분석가 전문 프리랜서를 고용하세요!
 
 3D 모델링은 VFX, 비디오 게임, 영화 및 TV에서 광범위하게 활용됩니다. 3D 소프트웨어를 사용하여 완전히 만들어진 제작물을 자주 볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2. 건축 및 부동산
 
@@ -43,7 +61,18 @@ Workpaa에서 데이터 분석가 전문 프리랜서를 고용하세요!
 
 3D 모델링은 프로토타입을 개발하고 제품 아이디어를 시각화하며 생산 전 기능을 시뮬레이션하기 위한 효율적이고 환경 친화적인 방법입니다. 디자이너들은 제품이 확정되기 전에 아이디어를 정제하고 무수히 많은 반복을 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4. 자동차 및 항공우주 산업
 
@@ -53,7 +82,18 @@ Workpaa에서 데이터 분석가 전문 프리랜서를 고용하세요!
 
 데이터 분석가 전문가를 고용하세요 on Workpaa
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 5. 의료 및 보건
 
@@ -63,7 +103,18 @@ Workpaa에서 데이터 분석가 전문 프리랜서를 고용하세요!
 
 3D 모델링은 몰입형 경험을 만드는 데 중요합니다. VR 및 AR은 여러 산업에서 활용되며 거의 모든 분야에서 사용될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 7. 교육 및 훈련
 
@@ -73,7 +124,18 @@ Workpaa에서 데이터 분석가 전문 프리랜서를 고용하세요!
 
 ![Image 2](/assets/img/2024-06-22-Whatis3Dmodelingusedfor_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 한눈에 보는 3D 모델링 과정.
 
@@ -83,7 +145,18 @@ Workpaa에서 데이터 분석가 전문 프리랜서를 고용하세요!
 
 아이디어 떠올리기에서 시작하여 소프트웨어로 직접 들어가서 기본 모양을 사용하여 아이디어를 블록 처리하는 것이든, 이 단계에서 시간을 보내는 것은 중요합니다. 아이디어에 너무 많은 시간을 들이기 전에 해당 아이디어에 헌신할 수 있는지 확인하는 것이 매우 유용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3D 모델링을 위해 전문 프리랜서를 고용하세요.
 
@@ -95,7 +168,18 @@ Workpaa에서 데이터 분석가 전문 프리랜서를 고용하세요!
 
 이 단계에서는 선택한 소프트웨어를 사용하여 실제 3D 모델링 작업이 진행됩니다. 폴리곤 모델링을 사용하는 경우, 버텍스, 엣지, 그리고 면을 조작하여 면체를 구축해야 합니다. 또 다른 접근 방식은 Substance 3D Modeler와 같은 소프트웨어를 사용하는 것인데, 이를 통해 다양한 도구와 조각 방법을 사용하여 디지털 클레이를 정확하게 조각할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 텍스처링
 
@@ -105,7 +189,18 @@ Workpaa에서 데이터 분석가 전문 프리랜서를 고용하세요!
 
 모델이 완성되고 텍스처가 적용되면, 3D 모델링 과정의 마지막 단계는 조립 및 렌더링입니다. 렌더링은 조명, 음영 및 다른 시각 효과를 고려한 고품질 이미지 또는 시퀀스 애니메이션을 생성하는 것을 포함합니다. 이는 계산적으로 매우 요구되는 프로세스일 수 있습니다. 후처리는 렌더 이후에 최종 출력을 더욱 향상시키기 위해 사용될 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-Whatis3Dmodelingusedfor_3.png" />
 
@@ -115,7 +210,18 @@ Workpaa에서 데이터 분석가 전문 프리랜서를 고용하세요!
 
 <img src="/assets/img/2024-06-22-Whatis3Dmodelingusedfor_4.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프리랜서 전문가를 고용해보세요. Fiverr에서 3D 모델링을, Workpaa에서 3D 모델링을 해보세요.
 
@@ -123,7 +229,18 @@ Workpaa에서 데이터 분석가 전문 프리랜서를 고용하세요!
 
 Hugo Boss가 3D를 사용하여 프로세스를 향상하는 방법을 확인해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2. 제품 디자인.
 
@@ -133,7 +250,18 @@ Puma와 INDG가 Substance 3D 앱과 AR을 활용하여 놀라운 신발을 디�
 
 아름다운 프로젝트 'End of Summer'는 Adobe의 재능 있는 아티스트들이 주로 Substance 3D 도구를 사용하여 어떤 것이 가능한지 보여주는 작품입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3D 모델링에 대한 팁.
 
@@ -143,7 +271,18 @@ Puma와 INDG가 Substance 3D 앱과 AR을 활용하여 놀라운 신발을 디�
 
 기본 3D 모델링 원칙에 견고한 기반을 다지고 소프트웨어에서 제공되는 도구를 효율적으로 사용하는 법을 배우는 것은 필수적입니다. 모델이 더 깔끔해지고 시간도 더 효과적으로 사용할 수 있게 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2. 키보드 단축키와 워크플로우 최적화에 대해 배워보세요.
 
@@ -153,7 +292,18 @@ Puma와 INDG가 Substance 3D 앱과 AR을 활용하여 놀라운 신발을 디�
 
 참조 자료를 사용하는 것은 프로젝트를 계획하고 시각화하는 데 도움을 주는 좋은 방법일뿐만 아니라, 3D 모델이 현실적이고 정확한 비율, 모양 및 디테일을 갖추도록 보장하는 데도 도움이 됩니다. 참조 자료는 견고한 기반을 제공하고 시각적 충실성을 유지하는 데 도움을 줍니다. 창의성을 자극하고 아이디어 생성을 장려하기 위해 여러 다양한 참조 자료로 이루어진 모드 보드를 작성하는 것도 고려해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4. 다양한 기술들을 탐험해보세요.
 
@@ -163,7 +313,18 @@ Puma와 INDG가 Substance 3D 앱과 AR을 활용하여 놀라운 신발을 디�
 
 당신의 3D 모델링을 위해 전문 프리랜서를 고용하세요. Workpaa에서
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 콘텐츠를 얻고 영감을 얻고 창의성을 발휘하세요.
 
@@ -173,7 +334,18 @@ Puma와 INDG가 Substance 3D 앱과 AR을 활용하여 놀라운 신발을 디�
 
 # 자주 묻는 질문
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3D 모델링은 무엇에 사용되나요?
 

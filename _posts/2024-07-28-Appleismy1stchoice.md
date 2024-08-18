@@ -3,18 +3,13 @@ title: "애플이 나의 첫 번째 선택인 이유"
 description: ""
 coverImage: "/assets/img/2024-07-28-Appleismy1stchoice_0.png"
 date: 2024-07-28 13:48
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-28-Appleismy1stchoice_0.png
 tag: Tech
 originalTitle: "Apple is my 1st choice"
 link: "https://medium.com/macoclock/apple-is-my-1st-choice-74c4e45a9c2f"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![Apple's latest product](/assets/img/2024-07-28-Appleismy1stchoice_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 나는 그들의 뚱한 괴롭힘 전술에 대해 글을 쓰는 데 주저하지 않았지만, 이번에는 동등하게 그들을 위해 공을 쳐주고 싶다는 생각이 듭니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가장 최근의 공격은 미국 법무부(DOJ)와 16개 주 및 지방검찰 총장들이 스마트폰 시장에서 불법 독점을 운영하고 있다며 애플을 비난했습니다.
 

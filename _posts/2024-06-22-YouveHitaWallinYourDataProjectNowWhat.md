@@ -3,7 +3,7 @@ title: "데이터 프로젝트에서 벽에 부딪혔다면 이제 어떻게 해
 description: ""
 coverImage: "/assets/img/2024-06-22-YouveHitaWallinYourDataProjectNowWhat_0.png"
 date: 2024-06-22 17:53
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-YouveHitaWallinYourDataProjectNowWhat_0.png
 tag: Tech
 originalTitle: "You’ve Hit a Wall in Your Data Project, Now What?"
@@ -11,19 +11,26 @@ link: "https://medium.com/towards-data-science/youve-hit-a-wall-in-your-data-pro
 isUpdated: true
 ---
 
-
-
-
-
 ![img](/assets/img/2024-06-22-YouveHitaWallinYourDataProjectNowWhat_0.png)
 
 우리 모두가 익숙한 시나리오를 경험했을 것입니다: SQL 쿼리를 개발하거나 데이터 파이프라인을 구축하거나 예측 모델을 작성 중이면서 최종 출력 데이터 집합이라고 생각되는 지점에서 코드를 실행하면 의도하지 않은 결과가 나오는 것이다. 레코드 수가 이상하게 반환된다거나, 필드가 올바르게 채워지지 않는다거나, 모델이 예상치 못한 결과를 생성할 수도 있습니다.
 
-어떤 문제가 발생했음을 알지만 코드에는 문제가 발생한 원인에 대한 오류 메시지나 명확한 표시가 없을 때 어떻게 문제 해결에 접근해야 할까요? 
+어떤 문제가 발생했음을 알지만 코드에는 문제가 발생한 원인에 대한 오류 메시지나 명확한 표시가 없을 때 어떻게 문제 해결에 접근해야 할까요?
 
 지난 6년 이상의 다양한 분석 업무에서 얻은 경험으로 말씀드리면, 새로운 개발 문제를 해결하며 자주 벽에 부딪힐 것이라고 확신합니다. 그러나 이러한 장애물을 극복하고 더 강인한 전문가로 나아가기 위해 채택한 효과적인 전략이 있습니다. 다음 섹션에서는 내게 가장 성공적으로 입증된 몇 가지 기술을 공유하겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## "재부팅을 시도해 보셨나요?"
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 예를 들어, 파이썬 함수를 사용해서 데이터 포인트를 올바르게 출력하려는 문제를 겪고 있을 수도 있어요. 하지만 더 중요한 것은, 함수가 왜 필요한지, 어떤 종속성이 있는지, 그리고 함께 상호작용해야 하는 다른 데이터들이 무엇인지에 대한 초점을 잃었을 수 있다는 거죠. 때때로 이러한 방법이 문제를 해결하는 길로 다시 돌아가는 가장 좋은 방법일 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 가정을 다시 바라보기
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 위의 장애물의 근본 원인은 내가 호출한 필드에 대해 가정을 한 점이었습니다. 내가 생각했던 대로 데이터를 쿼리했지만, 잘못된 데이터에 대한 내 가정이 결국 우리 둘 간의 지표와의 5% 차이의 원인이었습니다. 되돌아보면, 차이가 발생하는 곳을 이해하기 위해 소스 테이블로 역추적하는 것이 더 나은 방법이었을 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반적으로 이 단계에 있을 때 다음을 고려해보세요:
 
@@ -55,7 +84,18 @@ isUpdated: true
 
 SQL 작업 시, 나의 즐겨찾는 방법은 코드 세그먼트를 공통 테이블 표현으로 분리하고 각각을 개별적으로 쿼리하는 것입니다. 이 형식은 처음에 DBT를 사용할 때 발견했고, 그들의 문서에서 더 많은 정보를 확인할 수 있습니다. 다음과 같은 예시를 살펴보세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 WITH customer_acq AS (
@@ -79,14 +119,24 @@ WITH customer_acq AS (
 SELECT * FROM main
 ```
 
-마지막 줄에 있는 SELECT * FROM main 부분이 불필요해 보일 수 있지만, 이 구조를 통해 코드 세그먼트의 문제 해결을 쉽게 할 수 있음을 보증할 수 있어요. 여기서 마지막 줄에서 우리는 각 CTE의 출력을 쿼리하여 각각에서 무엇이 잘못되고 있는지 확인할 수 있어요. 이 기술은 특히 쿼리의 출력이 의도치 않게 0개의 레코드를 반환할 때 매우 효과적으로 증명되었어요. 여기서 "main"이라는 마지막 단어를 다른 CTE 이름으로 변경함으로써 모든 레코드를 필터링하는 원인 CTE를 결정할 수 있어요.
+마지막 줄에 있는 SELECT \* FROM main 부분이 불필요해 보일 수 있지만, 이 구조를 통해 코드 세그먼트의 문제 해결을 쉽게 할 수 있음을 보증할 수 있어요. 여기서 마지막 줄에서 우리는 각 CTE의 출력을 쿼리하여 각각에서 무엇이 잘못되고 있는지 확인할 수 있어요. 이 기술은 특히 쿼리의 출력이 의도치 않게 0개의 레코드를 반환할 때 매우 효과적으로 증명되었어요. 여기서 "main"이라는 마지막 단어를 다른 CTE 이름으로 변경함으로써 모든 레코드를 필터링하는 원인 CTE를 결정할 수 있어요.
 
 CTE가 쿼리 최적화에 부담을 준다는 것은 일반적인 오해입니다. 실제로 (적어도 눈에 띄는 차이를 만들 만큼만이라도) 현대 클라우드 데이터 웨어하우스 공급업체와 함께 작업하는 경우 CTE가 쿼리 최적화에 미칠 영향은 상당하지 않아요.
 
 ## 하나의 예시 레코드 격리하기
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기술을 사용하여 원본 시스템의 한 예제 레코드, 원본 데이터베이스 테이블 및 코드의 출력에서 하나의 예제 레코드를 살펴보고자 합니다. 이를 통해 A.) 원본 시스템에서 데이터베이스로 데이터가 이동하는 과정에 어떤 문제가 있는지와 B.) 적용한 로직이 이 한 레코드에 어떤 영향을 미치는지를 결정할 수 있습니다. 하나를 분리함으로써 우리는 개별 입력이 개발한 코드를 통해 어떻게 흐르는지 더 명확하게 이해할 수 있습니다. 이 단계에서 다음 사항을 평가할 수 있습니다:
 
@@ -97,7 +147,18 @@ CTE가 쿼리 최적화에 부담을 준다는 것은 일반적인 오해입니�
 
 ## 더 이상 추측하지 마세요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제 명세서에 대해 포괄적인 시각을 가져야 합니다. 대시보드가 올바르게 채워지지 않는 상황에 처해 있을 때, 소규모 수정(필터 조건 변경 등)을 하고 대시보드를 새로고침하여 최선을 바라는 습관에 빠지기 쉬울 수 있습니다. 이것은 마치 주사위를 던지는 것과 다를바 없으며, 여러 계층의 문제를 효과적으로 해결하는 방법이 아닙니다.
 
@@ -111,7 +172,18 @@ CTE가 쿼리 최적화에 부담을 준다는 것은 일반적인 오해입니�
 
 이러한 질문에 대답할 수 없다면, 도움을 요청하거나 데이터에 대한 팀원 또는 전문가와 소통하는 것도 괜찮습니다. 데이터에 대한 친숙함은 가치 있는 해결책을 제공하는 데 중요하므로 필요하다면 비즈니스 컨텍스트를 더 잘 이해하기 위해 필요한 시간을 투자하는 것이 중요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

@@ -3,17 +3,13 @@ title: "작은 시간 혼합기 TTM IBM의 강력한 제로샷 예측 모델"
 description: ""
 coverImage: "/assets/img/2024-06-19-TinyTimeMixersTTMAPowerfulZero-ShotForecastingModelbyIBM_0.png"
 date: 2024-06-19 03:07
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-TinyTimeMixersTTMAPowerfulZero-ShotForecastingModelbyIBM_0.png
 tag: Tech
 originalTitle: "Tiny Time Mixers (TTM): A Powerful Zero-Shot Forecasting Model by IBM"
 link: "https://medium.com/towards-data-science/tiny-time-mixers-ttm-a-powerful-zero-shot-forecasting-model-by-ibm-576b0e0af583"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-06-19-TinyTimeMixersTTMAPowerfulZero-ShotForecastingModelbyIBM_0.png)
 
@@ -23,7 +19,18 @@ LLM(Large Language Models)에 대한 최신 연구를 따라가보면 주로 두
 
 둘째, 연구자들은 양자화와 같은 기술을 사용하여 작고 빠른 모델을 만들어냅니다 — 강력한 일반적인 성능을 유지하면서요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 일부 작업에서 더 작은 모델이 훨씬 큰 모델보다 더 나은 성과를 내는 흥미로운 일이 발생합니다. 예를 들어, Llama 3-8B는 MMLU 작업에서 더 큰 Llama 2-70B보다 우수한 성과를 냈습니다!
 
@@ -35,7 +42,18 @@ IBM에서 소개한 Tiny Time Mixers (TTM)[1]은 두 번째 접근 방식을 따
 - TTM을 특별하게 만드는 혁신적인 기능.
 - 다른 모델과의 벤치마킹 결과를 비교한 결과.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시작해요!
 
@@ -49,7 +67,18 @@ TTM의 주요 특징은 다음과 같습니다:
 - 빠르고 강력함: TTM은 Monash 데이터 세트의 244백만개 샘플로 사전 훈련되었으며, 6대의 A100 GPU를 사용하여 8시간 이내에 훈련되었습니다.
 - 우수한 제로샷 예측: TTM은 사전 훈련되어 있으며, 미처 본 적 없는 데이터에 대한 우수한 제로샷 예측을 수행하여 큰 SOTA 모델을 능가합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 중요한 사항:
 
@@ -61,7 +90,18 @@ TTM은 여러 혁신적인 기능을 소개합니다:
 - 적응형 패치 적용: 단일 패치 길이 대신 TTM은 서로 다른 레이어 간에 여러 패치 길이를 학습합니다. 각 시계열이 특정 패치 길이에서 최적으로 작동하기 때문에 적응형 패치는 모델이 다양한 데이터에 대해 더 잘 일반화되도록 도와줍니다.
 - 해상도 접두사 튜닝: 다른 주파수(예: 주간, 일별 데이터)는 전통적인 시계열 모델에 어려운 부분입니다. TTM은 시계열 주파수를 인코딩하기 위한 추가 임베딩 레이어를 사용하여 모델이 신호의 주파수에 따라 정확하게 예측을 조건부로 설정할 수 있도록 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Tiny Time Mixers — 아키텍처
 
@@ -71,7 +111,18 @@ TTM은 TSMixer를 구성 요소로 사용하여 새로운 기능을 도입함으
 
 TTM의 아키텍처는 그림 1에 나와 있습니다. 우리는 두 단계, 사전 훈련(왼쪽)과 파인튜닝(오른쪽)에 대해 설명할 것입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-19-TinyTimeMixersTTMAPowerfulZero-ShotForecastingModelbyIBM_1.png)
 
@@ -87,7 +138,18 @@ TTM의 아키텍처는 그림 1에 나와 있습니다. 우리는 두 단계, �
 - 예측 선형 헤드에는 1개의 완전 연결 계층이 있으며 최종 예측을 생성합니다 (그런 다음 역정규화됨).
 - MSE 손실은 예측 기간 fl 동안 계산됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Feat-Tuning
 
@@ -100,7 +162,18 @@ TTM의 아키텍처는 그림 1에 나와 있습니다. 우리는 두 단계, �
 
 TTM의 핵심 구성 요소는 TTM 백본입니다. 이는 Resolution Prefix Tuning과 Adaptive Patching을 가능하게 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 컴포넌트를 자세히 살펴보자면 그 기능을 이해할 수 있어요 (그림 2에 표시됨):
 
@@ -114,7 +187,18 @@ TTM의 핵심 구성 요소는 TTM 백본입니다. 이는 Resolution Prefix Tun
 
 # 외부 믹서
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 미래의 알려진 변수가 있는 경우, Exogenous Mixer를 활성화할 수 있습니다. 이 모듈은 Figure 3에 표시되어 있으며, TTM 아키텍처에서의 위치는 Figure 1에 표시되어 있습니다:
 
@@ -124,7 +208,18 @@ Exogenous Mixer 블록은 간단합니다: 시계열의 미래 값(y3와 y4; Fig
 
 # TTM 교육 세부 정보 및 데이터세트
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저자들은 다양한 문맥과 예측 길이에 대해 5가지 TTM 버전을 만들었습니다. 이는 (512,96), (512,192), (512, 336), (512,720), (96,24) 입니다.
 
@@ -138,7 +233,18 @@ Exogenous Mixer 블록은 간단합니다: 시계열의 미래 값(y3와 y4; Fig
 - 배치 크기 = 3천
 - 에폭 = 20
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 학습 및 파인 튜닝 구성에 대한 자세한 내용은 원 논문을 참조해 주세요.
 
@@ -148,7 +254,18 @@ TTM 대 최신 기법 모델
 
 그 다음, 저자들은 Zero-shot 및 5% Few-shot 버전의 TTM을 다른 최신 기법 모델과 비교했습니다. 이때 사용된 평가 메트릭은 MSE였습니다. 결과는 다음과 같은 표 1에서 확인할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 너무 인상적입니다:
 
@@ -156,17 +273,40 @@ TTM 대 최신 기법 모델
 
 또한 TTM은 작년에 소개된 새로운 기반 시계열 모델인 GPT4TS를 앞서 나갔습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 TMT 이외에도 다음으로 높은 순위의 모델은 GPT4TS, PatchTST 및 TSMixer입니다. 모두 패치(patching)를 활용합니다. 최근 시계열 예측 연구에서 패치(patching)가 매우 유익한 기술임이 입증되었습니다.
 
 TTM 대 foundation 모델
 
 저자들은 TTM을 독립적으로 평가하며 특히 GPT4TS와 LLMTime과 비교합니다.
+
 - LLMTime은 GPT-3과 LLaMa-2를 사용하여 시계열 예측을 위해 특정 수정을 가한 모델입니다.
 - GPT4TS는 다양한 작업(예측, 분류 등)을 위해 범용 시계열 모델이며, 기본 모델로 GPT-2를 사용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비교 결과는 표시됩니다. Table 2 (LLMTime)와 Table 3 (GPT4TS):
 
@@ -176,7 +316,18 @@ TTM 대 foundation 모델
 
 LLMTime은 제로샷 예측 시나리오에서 평가되었고, GPT4TS는 퓨샷 예측기로 동작했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 두 가지 비교에서 TTM이 명확한 승자입니다.
 - 게다가 TTM은 훨씬 빠르며 리소스를 상당히 적게 필요로 합니다. 이는 TTM이 GPT4TS와 같은 무거운 트랜스포머 계산을 사용하지 않기 때문에 예상된 결과입니다.
@@ -187,7 +338,18 @@ LLMTime은 제로샷 예측 시나리오에서 평가되었고, GPT4TS는 퓨샷
 
 TTM의 저자들은 이와 같은 변수를 사용함으로써 TTM이 어떻게 향상되는지 조사했습니다 (해당하는 경우). 구체적으로 제로샷 TTM, 일반 TTM 및 외생 변수를 사용하는 채널 혼합 (TTM-CM)을 비교했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그들은 TSMixer와 그 채널 혼합 변형을 평가했습니다. 결과는 다음과 같이 Table 4에 표시되어 있습니다:
 
@@ -197,7 +359,18 @@ TTM의 저자들은 이와 같은 변수를 사용함으로써 TTM이 어떻게 
 
 채널 혼합 속성을 사용하는 TSMixer 변형은 2위를 차지했습니다. 또한, 제로-샷 TTM이 최악의 성능을 보입니다. 보조 변수가 있는 경우 모델 성능을 향상시키는 데 사용되어야 함이 명백합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Tiny Time Mixers 실무 활용
 
@@ -226,7 +399,18 @@ finetune_forecast_model = TinyTimeMixerForPrediction.from_pretrained("ibm/TTM", 
 
 따라서 transformers 라이브러리의 익숙한 Trainer 모듈을 사용하여 TTM을 세밀 조정할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 finetune_forecast_trainer = Trainer(
@@ -247,10 +431,20 @@ predictions_test = finetune_forecast_trainer.predict(test_dataset)
 
 이후에는 사적 데이터셋을 통해 예측을 받은 후 결과를 플롯합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 테이블 태그를 마크다운 형식으로 변경하도록 했습니다.
-
 
 <img src="/assets/img/2024-06-19-TinyTimeMixersTTMAPowerfulZero-ShotForecastingModelbyIBM_9.png" />
 
@@ -260,8 +454,18 @@ Tiny Time Mixer (TTM)은 다른 접근 방식을 따른 혁신적인 모델로�
 
 특히, TTM은 어텐션을 사용하지 않았고 여전히 강력한 시계열(Time Series) 기반 모델을 구축할 수 있다는 것을 입증했습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최초로 MLP만 사용한 메타러닝 기능을 갖춘 시계열 모델은 N-BEATS와 N-HITS였어요. 이 트렌드가 어떻게 이어지는지 한번 살펴봐요.
 
@@ -271,7 +475,18 @@ Tiny Time Mixer (TTM)은 다른 접근 방식을 따른 혁신적인 모델로�
 
 # 읽어주셔서 감사합니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 제 LinkedIn 팔로우해 주세요!
 - 제 뉴스레터, AI Horizon Forecast를 구독해 주세요!

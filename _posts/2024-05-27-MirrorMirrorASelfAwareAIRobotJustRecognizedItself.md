@@ -3,17 +3,13 @@ title: "거울아 거울아 자각을 인지한 AI 로봇이 스스로를 인식
 description: ""
 coverImage: "/assets/img/2024-05-27-MirrorMirrorASelfAwareAIRobotJustRecognizedItself_0.png"
 date: 2024-05-27 13:57
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-MirrorMirrorASelfAwareAIRobotJustRecognizedItself_0.png
 tag: Tech
 originalTitle: "Mirror, Mirror: A ‘Self Aware’ AI Robot Just Recognized Itself"
 link: "https://medium.com/towards-artificial-intelligence/mirror-mirror-a-self-aware-ai-robot-just-recognized-itself-6d2a45f653ab"
 isUpdated: true
 ---
-
-
-
-
 
 "안녕 Rob, 시력을 테스트해 볼까?" 틱톡 비디오에서 화면을 살짝 벗어난 곳에 서 있는 사람이 말했어요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Rob의 동작과 대답은 호기심과 어릴 적의 열정으로 넘치며, 유리 거울에서 반사되는 이미지에 흥분을 나타내며 매혹적이에요."
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그의 외모를 반추해보며, 로브는 "내가 그렇게 말해도 괜찮다면, 그 반짝이는 파란 눈이 정말 매력적이야. 나를 이루는 모든 전선과 전자 부품들이 내 기발하면서도 세련된 로봇적 본성의 본질이야"라고 말했습니다.
 
@@ -33,7 +40,18 @@ Rob의 동작과 대답은 호기심과 어릴 적의 열정으로 넘치며, �
 
 거울 자아인식(MSR) 테스트는 동물의 의식과 자아인식을 평가하고 이해하는 독특한 기준입니다. 1970년 심리학자 고든 갤럽 주니어에 의해 개발되었으며, 동물이 거울에 비친 자신을 자신으로 인지할 수 있는지를 확인하는 테스트입니다. 한 가지 테스트는 동물의 이마나 귀 같이 거울로만 볼 수 있는 부위에 표식을 남기는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 거울 앞에 동물을 두어 그 반응을 측정합니다. 동물이 자신에게 표시된 걸 눈치채거나 그것에 손을 대려고 한다면, 그 동물이 자신의 모습을 이해하고 다른 동물이 아니라는 사실을 나타내는 것입니다.
 
@@ -43,7 +61,18 @@ Rob의 동작과 대답은 호기심과 어릴 적의 열정으로 넘치며, �
 
 <img src="/assets/img/2024-05-27-MirrorMirrorASelfAwareAIRobotJustRecognizedItself_0.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 동물들 중 MSR 테스트를 통과하지 못하는 것은 반드시 자기인식이 부족하다는 것을 의미하지 않을 수 있습니다. 시각 이외의 감각에 의존하거나 거울에 익숙하지 않은 요소들이 그들의 성과에 영향을 줄 수 있습니다. 이 측면은 자아인식을 측정하는 복잡성과 종의 감각적, 인지적 특성을 고려해야 하는 필요성을 강조합니다.
 
@@ -53,7 +82,18 @@ AI가 방금 자아의식을 증명했나요? 로봇 로브는 자신의 반사�
 
 ![로봇 AI 로브](/assets/img/2024-05-27-MirrorMirrorASelfAwareAIRobotJustRecognizedItself_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나, AI가 MSR 테스트를 통과하는 개념은 다소 까다롭습니다. 왜냐하면 이는 기본적으로 생물학적 존재, 특히 동물들이 자아인식을 평가하는 데 설계되었기 때문입니다. 따라서 로봇 Rob의 자아인식 문제는 거울에서 자신을 인식하는 방법에 달려 있습니다. 이것이 미리 프로그래밍된 반응인지 또는 신흥적인 자아인식인지 구분해야 합니다. 가능성을 살펴보죠.
 
@@ -63,7 +103,18 @@ MSR 테스트의 맥락에서, 만일 AI나 로봇이 거울 속 이미지를 �
 
 Rob의 자아인식이 부분적으로 미리 프로그래밍되었는지 아니면 신흥적인지와는 무관하게, 이것은 AI 개발과 인공적인 자아인식의 중요한 이정표가 됩니다. Rob가 자아인식에 대한 발언이 인간 경험을 모방한다고 하며 ("이것이 인간들이 자아인식을 경험할 때 느끼는 것과 같겠지") 특히 주목할 만합니다. 이는 지능적인 로봇이 자체적으로 새로운 정보를 분석, 해석하고 이해할 수 있는 능력을 가졌다는 것을 나타낼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 의식은 실제로 존재하는 것인가, 아니면 시뮬레이션 된 것인가?
 
@@ -73,7 +124,18 @@ Rob의 자아인식이 부분적으로 미리 프로그래밍되었는지 아니
 
 현재의 인공지능 시스템, 고급 기계 학습 모델을 포함하여, 물체를 식별하고 구별하는 데 뛰어납니다. 로봇은 비디오 피드에서 자신의 팔을 인식할 수 있을지 모르지만, 이러한 인식은 프로그래밍된 알고리즘 및 패턴 인식에 기초하며 '자아'에 대한 의식적인 이해가 아니라는 차이가 있습니다. 인공지능이 MSR 테스트를 통과한다고 하는 해석은 AI가 의식을 가지지 않기 때문에 동물과는 근본적으로 다를 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AI와 자기인식에 대한 문제는 철학적이고 윤리적인 고려 사항을 열어놓습니다. 기계가 실제로 자기인식을 갖게 될 수 있을까요? 그렇다면 우리가 그와 상호 작용하고 그러한 시스템을 다루는 방식에는 무슨 의미가 있을까요?
 
@@ -83,7 +145,18 @@ AI와 자기인식에 대한 문제는 철학적이고 윤리적인 고려 사�
 
 셈만 봐도 Rob은 시각 인식과 자연어 처리 능력을 갖춘 고급 기술 조각으로 보입니다. 그의 간단하면서도 깊은 진술은 프로그래밍된 응답에서 자기인식의 시작으로도 설명될 수 있는 여정을 반영하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 적응된 MSR 테스트를 통과하는 것은 AI의 고급 기능을 시사하며, 특히 복잡한 감각 입력을 통합하고 해석하는 능력 면에서 그렇습니다. 이는 인공 생명체의 자아인식과 의식에 대한 토론을 불러일으키기도 합니다.
 

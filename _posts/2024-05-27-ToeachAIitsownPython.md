@@ -3,16 +3,13 @@ title: "각 AI에게 맞는 Python"
 description: ""
 coverImage: "/assets/img/2024-05-27-ToeachAIitsownPython_0.png"
 date: 2024-05-27 13:44
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-ToeachAIitsownPython_0.png
 tag: Tech
 originalTitle: "To each AI its own Python"
 link: "https://medium.com/generative-ai/to-each-ai-its-own-python-4294596886c6"
 isUpdated: true
 ---
-
-
-
 
 ![2024-05-27-ToeachAIitsownPython_0](/assets/img/2024-05-27-ToeachAIitsownPython_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 5가지 다른 파이썬 버전을 설치하지 않고도 문제를 해결할 수 있는 방법을 찾았습니다. 이제 한 번에 모든 문제를 해결할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 파이썬 임베디드 만나보기
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 하지만 우리가 pip를 사용할 수 있다고 가정해 봅시다... 여전히 소스에서 패키지를 빌드할 수 없습니다: 이미 컴파일된 휠 패키지를 얻으면 문제가 전혀 없지만 설치에 빌드가 필요한 경우에는 할 수 없습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 이 문제에 대한 해결책이 있습니다.
 
@@ -42,7 +61,18 @@ isUpdated: true
 
 동시에, 웹 서버를 구축하는 동안 Protobuf가 모든 API 호출을 망가뜨리는 바람에 Streamlit 버전 1.27.0 이전을 사용해야 했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 어떻게 해야 할까요? Windows 기계에 여러 Python 버전을 설치하는 것은 Linux/Mac OS보다 조금 까다로울 수 있습니다. PATH에 추가해야 하며, 이는 명령어로 작업하는 데 영향을 줄 것입니다.
 
@@ -52,7 +82,18 @@ isUpdated: true
 
 컴파일해야 할 패키지가 없다는 것을 알면 이 옵션이 가장 안전합니다. 공식 ZIP 파일을 추출하고, 약간의 해킹을 한 후에 작업이 끝납니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시: OpenAI 호환 API에 연결되는 Streamlit 앱을 만들어보세요.
 
@@ -62,7 +103,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-05-27-ToeachAIitsownPython_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금 ZIP 파일을 python311이라는 하위 폴더로 푸실 수 있어요.
 
@@ -74,11 +126,20 @@ Expand-Archive -Force .\python-3.11.7-embed-amd64.zip .\python311
 
 이제 새로운 Python 인터프리터를 바로 사용하실 수 있어요! pythontests 폴더에서 터미널을 열고 아래 명령어를 실행하면 됩니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 .\python311\python.exe
-
 
 ![ToeachAIitsownPython_2](/assets/img/2024-05-27-ToeachAIitsownPython_2.png)
 
@@ -86,11 +147,20 @@ This portable version cannot install pip dependencies. Try and you will see an a
 
 ![ToeachAIitsownPython_3](/assets/img/2024-05-27-ToeachAIitsownPython_3.png)
 
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
-## 내장 Python에 pip를 설치하는 것은 쉽습니다. 먼저 새롭게 추출한 python311 디렉토리 내부의 python311._pth 파일을 편집해야 합니다.
+## 내장 Python에 pip를 설치하는 것은 쉽습니다. 먼저 새롭게 추출한 python311 디렉토리 내부의 python311.\_pth 파일을 편집해야 합니다.
 
 ![이미지](/assets/img/2024-05-27-ToeachAIitsownPython_4.png)
 
@@ -98,7 +168,18 @@ This portable version cannot install pip dependencies. Try and you will see an a
 
 ![이미지](/assets/img/2024-05-27-ToeachAIitsownPython_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 python311 폴더 안으로 이동하여 터미널에서 아래 curl 명령어를 실행하여 get-pip.py 파일을 설치하세요. 이 파일은 임베디드 파이썬에 pip 지원을 추가하는 데 필요합니다.
 
@@ -112,23 +193,45 @@ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 
 지금은 pip 패키지를 설치하는 것이 평소와 같습니다. 임베디드 Python 폴더에서 Python 실행 파일을 사용하는지 확실하게 확인하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어:
 
-
 # 메인 프로젝트 디렉토리인 pythontests 안에서
+
 .\python311\python.exe -m pip install streamlit==1.34.0
 
 # python311 디렉토리에서
-python.exe -m pip install openai
 
+python.exe -m pip install openai
 
 참고: 여기서는 아주 잘 작동하지만 여전히 문제가 있습니다. 미리 빌드된 휠을 제공하지 않는 종류의 패키지를 설치할 수 없습니다. 예를 들어, 저는 llama-cpp-python의 팬인데, 최신 버전 0.2.75는 미리 빌드된 휠이 제공되지 않습니다.
 
 어떻게 사용해야 하나요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이썬 프로젝트를 함께 보내려면 동료나 친구들에게 venv을 전달할 수 없습니다. 장치된 Python 디렉토리에 종속성을 설치하면 상대 경로로 종속성을 유지하며... 주요 폴더를 이동하더라도 아무것도 깨지지 않습니다.
 
@@ -138,7 +241,18 @@ python.exe -m pip install openai
 
 개인적으로 생각해보면, 이 두 번째 옵션이 적어도 로컬 프로토타이핑에 있어서 선호되는 옵션입니다. 기본적으로 장치된 Python을 사용하여 선택한 Python 버전으로 가상 환경을 만드는 방법입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 세팅을 봐볼까요:
 
@@ -149,33 +263,60 @@ python.exe -m pip install openai
 
 쉽죠!! 여기에서 Python 3.12를 위한 임베디드 Python을 다운로드합시다. ZIP 파일 다운로드를 위해 동일한 pythontests 디렉토리를 사용해볼까요? 터미널에서도 같은 작업을 할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 wget https://www.python.org/ftp/python/3.12.2/python-3.12.2-embed-amd64.zip -OutFile python-3.12.2-embed-amd64.zip
 
-
 터미널에서 ZIP 파일을 새 폴더로 압축 해제할 수도 있어요:
-
 
 Expand-Archive -Force .\python-3.12.2-embed-amd64.zip .\python312
 
-
 지금은 우리의 테스트 폴더에 pip 패키지와 이미 몇 개의 다른 패키지(streamlit, openai, llama-cpp-python)가 설치된 python311과 아직 pip조차 지원하지 않는 새로운 휴대용 Python이 있어요...
 
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-27-ToeachAIitsownPython_7.png)
 
 그리고 가상 환경을 지원하지 않습니다!
 
-그래서 첫 번째 단계는 python312가 pip 패키지를 다운로드할 수 있는지 확인하는 것입니다. python312 디렉토리로 이동하고 python312._pth를 이전과 동일하게 변경하십시오.
+그래서 첫 번째 단계는 python312가 pip 패키지를 다운로드할 수 있는지 확인하는 것입니다. python312 디렉토리로 이동하고 python312.\_pth를 이전과 동일하게 변경하십시오.
 
 ![이미지](/assets/img/2024-05-27-ToeachAIitsownPython_8.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 터미널 창 안에서 python312 디렉토리 내에서 유명한 get-pip.py를 다운로드하고 명령을 실행합니다.
 
@@ -191,7 +332,18 @@ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 
 내장된 Python에는 venv 도구가 필요합니다. 전통적인 방식으로 Python을 설치하면 이미 이 도구가 함께 제공됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희 경우에는 해당하는 기능이 없지만 간단히 다음과 같이 할 수 있어요.
 
@@ -203,7 +355,18 @@ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 
 이제 이 단계에 주의해야 해요. python312로 venv를 생성하려면 가상 환경을 만들 폴더의 메인 폴더에 있어야 해요. 가상 환경을 main directory인 pythontests 폴더 안에 만들고 싶다고 가정해봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 터미널에서 프로젝트 폴더를 열고 다음을 실행합니다:
 
@@ -217,8 +380,18 @@ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 venv\Scripts\activate
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-27-ToeachAIitsownPython_9.png)
 
@@ -231,9 +404,18 @@ Python 3.12.2
 
 # 결론
 
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이썬으로 작업하는 것은 즐겁고 항상 새로운 모험이에요. 이 프로그래밍 언어는 놀라울 만큼 쉽고 인공 지능 애플리케이션을 만드는 데 매우 편리해요.
 
@@ -248,7 +430,18 @@ Python 3.12.2
 - Medium에서 저를 팔로우하기
 - 내 최신 기사 읽기 https://medium.com/@fabio.matricardi
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 많은 내용을 보시려면 몇 가지 아이디어가 있습니다:
 
@@ -258,7 +451,17 @@ Python 3.12.2
 
 최신 뉴스 및 생성 AI에 대한 업데이트를 받으시려면 뉴스레터를 구독해주세요. 함께 AI의 미래를 함께 만들어봅시다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-05-27-ToeachAIitsownPython_11.png](/assets/img/2024-05-27-ToeachAIitsownPython_11.png)
-

@@ -3,18 +3,13 @@ title: "약물 발견의 출발점으로서 방대한 화학 공간을 구조 �
 description: ""
 coverImage: "/assets/img/2024-06-23-Structure-basedvirtualscreeningofvastchemicalspaceasastartingpointfordrugdiscovery_0.png"
 date: 2024-06-23 19:33
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-Structure-basedvirtualscreeningofvastchemicalspaceasastartingpointfordrugdiscovery_0.png
 tag: Tech
 originalTitle: "Structure-based virtual screening of vast chemical space as a starting point for drug discovery"
 link: "https://medium.com/@mykola.protopopov/structure-based-virtual-screening-of-vast-chemical-space-as-a-starting-point-for-drug-discovery-fc7daab2642b"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![Structure-based virtual screening](/assets/img/2024-06-23-Structure-basedvirtualscreeningofvastchemicalspaceasastartingpointfordrugdiscovery_0.png)
 
@@ -25,8 +20,18 @@ isUpdated: true
 
 거대 라이브러리 도킹 방법은 여기서 논의된 다른 방법 중 약물 개발에 가장 오랫동안 사용된 방법 중 하나입니다. 높은 활성 물질 수가 이 방법으로 발견되어 왔으며, 서브나노 몰 활동까지 초점이 맞춰졌습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 초대형 라이브러리 도킹에 필요한 두 가지 필수 입력은 대상 구조와 스크리닝 데이터범입니다.
 
@@ -36,7 +41,18 @@ isUpdated: true
 
 도킹 모델이 교정된 후 분자 라이브러리를 가상으로 스크리닝할 수 있습니다. 분자들과 단백질 결합부위의 상호작용은 점수 함수를 사용하여 계산됩니다. 얻은 예측은 필터링되고 클러스터링됩니다. 이러한 필터는 주요 도킹 함수에서 놓친 문제 있는 특징을 포착하고, 알려진 리간드와의 상이함을 보장하며, 우선순위가 있는 화합물들 사이에서 다양성을 촉진할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로, 획득한 리간드-생물학적 타겟 복합체를 시각적으로 검사합니다. 표적 단백질 결합 부위와 주요 상호작용을 형성하는 분자들은 후속 실험적 검증을 위해 선택됩니다.
 
@@ -46,7 +62,18 @@ isUpdated: true
 
 # 기계 학습 가속 가상 스크리닝
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가상 스크리닝 파이프라인에 머신 러닝 방법을 통합하면 가장 큰 사용 가능한 온디맨드 라이브러리를 효율적으로 탐색할 수 있습니다. 이 접근 방식은 100배까지 다양한 화합물을 축소하고 동시에 최상위 점수화된 분자를 풍부하게 만들기로 입증되었습니다.
 
@@ -56,7 +83,18 @@ isUpdated: true
 
 **# 프래그먼트 기반 가상 스크리닝**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 분자 단편의 내재적으로 낮은 분자 복잡성은 그들이 대상 단백질 결합 부위를 보완하고 vitro에서 테스트될 가능성을 높입니다. 그러나 대형 분자와는 달리 단편은 높은 효능이나 선택성을 갖지 않으며, 추후 광범위한 화학적 발전이 필요하여 선도 후보를 얻기 위해. 새로운 단편 기반 가상 선별 방법으로 이 과정을 최적화하는 것이 가능해졌습니다.
 V-SYNTHES 방법은 대규모 화합물 모델링 도전을 작은 단계로 분해하여 현재 명시적 도킹으로 달성할 수 있는 것보다 몇 차원 더 큰 라이브러리 탐색으로 탐색합니다. 이러한 방법은 대형 라이브러리 도킹의 주요 한계인 화학 공간 크기에 선형적으로 비례하는 컴퓨팅 리소스의 상당한 증가를 다룹니다.

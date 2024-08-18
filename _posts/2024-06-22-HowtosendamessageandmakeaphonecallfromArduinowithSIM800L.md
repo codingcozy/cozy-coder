@@ -3,17 +3,13 @@ title: "SIM800L로 Arduino에서 메시지를 보내고 전화 거는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-22-HowtosendamessageandmakeaphonecallfromArduinowithSIM800L_0.png"
 date: 2024-06-22 18:49
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-HowtosendamessageandmakeaphonecallfromArduinowithSIM800L_0.png
 tag: Tech
 originalTitle: "How to send a message and make a phone call from Arduino with SIM800L?"
 link: "https://medium.com/@robotamateur123/how-to-send-a-message-and-make-a-phone-call-from-arduino-with-sim800l-f65db28a5c60"
 isUpdated: true
 ---
-
-
-
-
 
 이 기사에서는 아두이노로 문자 메시지를 보내고 전화를 거는 방법을 공유하고 싶습니다. 그 방법으로 "SIM800L"을 사용할 겁니다.
 
@@ -23,7 +19,18 @@ SIM800L은 세계에서 가장 작은 GSM(Global System for Mobile communication
 
 이것은 취미 프로젝트에 아주 좋은 저렴한 가격의 솔루션이에요! 아래 링크를 통해 구입할 수 있습니다 (스폰서가 아니에요, 제가 Aliexpress에서 구입했는데 아주 잘 작동합니다!):
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 하드웨어 구매 링크:
 
@@ -37,7 +44,18 @@ SIM800L은 세계에서 가장 작은 GSM(Global System for Mobile communication
 
 만약 이 튜토리얼의 비디오 버전을 선호한다면, 제 YouTube 채널을 방문해 주세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 1: 보드에 솔더링하기!
 
@@ -47,7 +65,18 @@ SIM800L은 세계에서 가장 작은 GSM(Global System for Mobile communication
 
 ![이미지2](/assets/img/2024-06-22-HowtosendamessageandmakeaphonecallfromArduinowithSIM800L_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SIM800L를 외부에서 사용할 계획이라면 나선형 안테나를 사용할 수 있어요. 나선형 안테나를 사용하기 위해서는 전자 기판에 납땜을 해야 해요.
 
@@ -57,8 +86,18 @@ SIM800L를 외부에서 사용할 계획이라면 나선형 안테나를 사용�
 
 ![image](/assets/img/2024-06-22-HowtosendamessageandmakeaphonecallfromArduinowithSIM800L_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![SIM800L](/assets/img/2024-06-22-HowtosendamessageandmakeaphonecallfromArduinowithSIM800L_4.png)
 
@@ -68,8 +107,18 @@ The pins of SIM800L that we are going to use are:
 
 ![SIM800L Pins](/assets/img/2024-06-22-HowtosendamessageandmakeaphonecallfromArduinowithSIM800L_5.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SIM800L을 사용하여 문자 메시지를 보내려면 아래와 같이 아두이노 메가에 연결해야 합니다:
 
@@ -79,7 +128,18 @@ SIM800L을 사용하여 문자 메시지를 보내려면 아래와 같이 아두
 
 여기서는 10 kOhm의 3개의 저항을 배선도에 사용하여 전압을 5V에서 3.3V로 나눕니다. SIM800L 모듈은 3.3V 논리 수준을 갖고 있지만 아두이노는 5V 논리 수준을 갖고 있기 때문에 모듈의 Rx 핀을 아두이노의 디지턈 핀에 직접 연결할 수 없습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희 프로젝트에서는 SoftwareSerial 라이브러리를 사용할 예정입니다. 이 라이브러리를 이용하면 아두이노 보드의 다른 디지털 핀을 사용하여 시리얼 통신이 가능하며, 이 기능을 소프트웨어로 구현하여 이름이 "SoftwareSerial"인 것입니다. 다만, 이 라이브러리에는 제약 사항이 있습니다. 메가 및 메가 2560 보드의 모든 핀이 변경 인터럽트를 지원하지 않기 때문에 RX로 사용할 수 있는 핀은 다음과 같습니다: 10, 11, 12, 13, 14, 15, 50, 51, 52, 53, A8 (62), A9 (63), A10 (64), A11 (65), A12 (66), A13 (67), A14 (68), A15 (69). 이에 따라 저희의 배선도에서 핀 10과 핀 11을 사용하고 있습니다.
 
@@ -89,7 +149,18 @@ SIM800L을 사용하여 문자 메시지를 보내려면 아래와 같이 아두
 
 코드를 테스트하기 전에 SIM800L의 LED 표시등을 확인해 보겠습니다. 이 LED는 셀룰러 네트워크의 상태를 나타내기 위해 다른 속도로 깜박입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 1초마다 깜빡입니다: 칩은 실행 중이지만 아직 셀룰러 네트워크에 연결되지 않았습니다.
 - 2초마다 깜빡입니다: 요청된 GPRS 데이터 연결이 활성화되었습니다.
@@ -101,7 +172,18 @@ SIM800L의 작동 전압은 3.4V - 4.4V입니다. 하지만, SMS를 보내거나
 
 이 프로젝트에서는 최대 5V와 3A를 제공하는 충전 보조 배터리를 사용했습니다. 보드는 잘 작동하지만, 이상적으로는 동작 전압 범위(3.4V - 4.4V) 내에 공급 전압이 들어오도록 DC-DC 컨버터를 추가하는 것이 좋습니다. 과도한 공급 전력은 보드를 손상시킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Baud Rate
 
@@ -111,7 +193,18 @@ SIM800L의 작동 전압은 3.4V - 4.4V입니다. 하지만, SMS를 보내거나
 
 # 연결 코드 테스트
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 Arduino 보드에 다음 코드를 업로드할 수 있습니다:
 
@@ -124,7 +217,7 @@ void setup()
 {
   // Arduino 및 Arduino IDE (시리얼 모니터)와의 시리얼 통신 시작
   Serial.begin(9600);
-  
+
   // Arduino 및 SIM800L과의 시리얼 통신 시작
   sim800l.begin(9600);
 
@@ -149,11 +242,11 @@ void loop()
 void updateSerial()
 {
   delay(500);
-  while (Serial.available()) 
+  while (Serial.available())
   {
     sim800l.write(Serial.read()); // Serial이 전달한 내용을 소프트웨어 시리얼 포트로 전달합니다.
   }
-  while(sim800l.available()) 
+  while(sim800l.available())
   {
     Serial.write(sim800l.read()); // 소프트웨어 시리얼이 수신한 내용을 시리얼 포트로 전달합니다.
   }
@@ -164,8 +257,18 @@ void updateSerial()
 
 Arduino IDE의 시리얼 모니터는 다음 메시지를 반환해야 합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![How to send a message and make a phone call from Arduino with SIM800L - Part 9](/assets/img/2024-06-22-HowtosendamessageandmakeaphonecallfromArduinowithSIM800L_9.png)
 
@@ -175,8 +278,18 @@ Arduino IDE의 시리얼 모니터는 다음 메시지를 반환해야 합니다
 
 "AT+CCID" 명령어를 입력하면 xxxxxxxxxxxxxxxxxx (20자리 숫자)가 반환됩니다. 이 명령어는 설치된 SIM 카드의 고유 통합 회로 카드 식별자(ICCID)를 반환합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "AT+CREG?"은 0, 1을 반환합니다. SIM800L이 홈 네트워크에 등록되었음을 의미합니다.
 
@@ -186,7 +299,18 @@ Arduino IDE의 시리얼 모니터는 다음 메시지를 반환해야 합니다
 
 ![이미지](/assets/img/2024-06-22-HowtosendamessageandmakeaphonecallfromArduinowithSIM800L_11.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 당신의 SIM800L의 전원 공급이 2A를 제공할 수 없다면 LED 표시등은 1초에 한 번 깜박일 것입니다. 그러나 연결 테스트는 다음과 같은 메시지를 반환할 것입니다:
 
@@ -196,7 +320,18 @@ Arduino IDE의 시리얼 모니터는 다음 메시지를 반환해야 합니다
 
 <img src="/assets/img/2024-06-22-HowtosendamessageandmakeaphonecallfromArduinowithSIM800L_12.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 2: SIM800L로 텍스트 메시지 보내기
 
@@ -212,11 +347,11 @@ void setup()
 {
   // Arduino 및 Arduino IDE (시리얼 모니터)와의 시리얼 통신 시작
   Serial.begin(9600);
-  
+
   // Arduino 및 SIM800L과의 시리얼 통신 시작
   sim800l.begin(9600);
 
-  Serial.println("초기화 중..."); 
+  Serial.println("초기화 중...");
   delay(1000);
 
   sim800l.println("AT"); // 핸드셰이크 테스트 성공 시 OK로 돌아갑니다.
@@ -235,14 +370,14 @@ void loop()
 {
 }
 
-void updateSerial()  
+void updateSerial()
 {
   delay(500);
-  while (Serial.available()) 
+  while (Serial.available())
   {
     sim800l.write(Serial.read()); // 시리얼이 수신한 내용을 소프트웨어 시리얼 포트로 전달합니다.
   }
-  while(sim800l.available()) 
+  while(sim800l.available())
   {
     Serial.write(sim800l.read()); // 소프트웨어 시리얼이 수신한 내용을 시리얼 포트로 전달합니다.
   }
@@ -251,8 +386,18 @@ void updateSerial()
 
 모든 것이 잘 작동하면 시리얼 모니터에서 아래 메시지를 볼 수 있어야 합니다. 모듈 LED 표시등은 3초마다 한 번씩 깜박이고 있어야 합니다. 그리고 아래와 같이 핸드폰으로 "Hello from Robot Amateur!!!" 텍스트 메시지를 받아야 합니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-06-22-HowtosendamessageandmakeaphonecallfromArduinowithSIM800L_13.png)
 
@@ -262,9 +407,18 @@ void updateSerial()
 
 예를 들어, 제 경우에는 "AT+CMGF= "+전화 번호"" 명령어로 "ERROR"라는 메시지를 받고 있었습니다. 이는 텍스트 메시지가 성공적으로 전송되지 않았음을 의미합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image 1](/assets/img/2024-06-22-HowtosendamessageandmakeaphonecallfromArduinowithSIM800L_14.png)
 
@@ -274,8 +428,18 @@ One potential reason may be: your sim card is locked with a pin.
 
 You have 2 solutions:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - SIM 카드 핀 제거하기:
 
@@ -285,7 +449,18 @@ You have 2 solutions:
 
 “SIM 카드 잠금 해제” 슬라이드 버튼을 클릭하여 비활성화하세요. SIM 카드의 잠금을 해제하기 위해 핀 코드를 입력해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![img1](/assets/img/2024-06-22-HowtosendamessageandmakeaphonecallfromArduinowithSIM800L_17.png)
 
@@ -295,7 +470,18 @@ You have 2 solutions:
 
 2. `setup()` 함수에 SIM 카드 핀을 보내요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대신, SIM 카드 핀을 설정() 함수에 보내어 잠금을 해제할 수도 있습니다. 예를 들어, 핀이 1234인 SIM 카드를 잠금 해제하려면 설정() 루프에 다음 코드를 추가해야 합니다:
 
@@ -317,7 +503,7 @@ void setup()
 {
   // 아두이노 및 아두이노 IDE(시리얼 모니터)와의 시리얼 통신 시작
   Serial.begin(9600);
-  
+
   // 아두이노와 SIM800L 간의 시리얼 통신 시작
   sim800l.begin(9600);
 
@@ -359,7 +545,18 @@ void updateSerial()
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 모든 것이 제대로 작동한다면, 시리얼 모니터는 아래와 같이 보일 것입니다:
 
@@ -369,7 +566,18 @@ void updateSerial()
 
 제 경우에는 SIM 카드의 PIN 코드가 1234이기 때문에 "AT+CPIN=1234"를 보냈습니다. 여러분은 여러분의 PIN 코드로 숫자를 조정할 수 있습니다. 이 명령은 OK를 반환하는데, 이는 PIN 코드가 성공적으로 전송되었음을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "AT+CMGF=1"을 입력하고 OK가 반환되면, 텍스트 메시지를 보내는 모드가 성공적으로 설정되었음을 의미합니다.
 
@@ -379,8 +587,18 @@ void updateSerial()
 
 전화를 걸기 위해, 먼저 핸드셰이크를 위해 sim800l.println("AT")을 사용합니다. 그 후에, 전화를 걸기 위해 sim800l.println("ATD+ +ZZxxxxxxxxxx;")를 사용합니다. 괄호 안에 제공된 전화 번호로 전화를 걸고, 마지막으로 sim800l.println("ATH")을 사용하여 전화를 끊어줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 #include <SoftwareSerial.h>
 
@@ -389,28 +607,28 @@ SoftwareSerial sim800l(11, 10); // SIM800L의 Tx와 Rx를 아두이노의 11번 
 
 void setup()
 {
-  // 아두이노 및 아두이노 IDE (시리얼 모니터)와의 시리얼 통신 시작
-  Serial.begin(9600);
-  
-  // 아두이노와 SIM800L 간의 시리얼 통신 시작
-  sim800l.begin(9600);
+// 아두이노 및 아두이노 IDE (시리얼 모니터)와의 시리얼 통신 시작
+Serial.begin(9600);
 
-  Serial.println("초기화 중..."); 
-  delay(1000);
+// 아두이노와 SIM800L 간의 시리얼 통신 시작
+sim800l.begin(9600);
 
-  sim800l.println("AT"); // 핸드셰이크 테스트 성공시 OK로 돌아옵니다
-  updateSerial();
+Serial.println("초기화 중...");
+delay(1000);
 
-  String SIM_PIN_CODE = String("1234");
-  sim800l.print("AT+CPIN=");
-  sim800l.println(SIM_PIN_CODE);
-  updateSerial();
-  
-  sim800l.println("ATD+ +ZZxxxxxxxxxx;"); // ZZ에 국가 코드, xxxxxxxxxxx에 전화 걸 번호를 입력하세요
-  updateSerial();
-  delay(20000); // 20초 동안 대기합니다...
-  sim800l.println("ATH"); // 전화 끊기
-  updateSerial();
+sim800l.println("AT"); // 핸드셰이크 테스트 성공시 OK로 돌아옵니다
+updateSerial();
+
+String SIM_PIN_CODE = String("1234");
+sim800l.print("AT+CPIN=");
+sim800l.println(SIM_PIN_CODE);
+updateSerial();
+
+sim800l.println("ATD+ +ZZxxxxxxxxxx;"); // ZZ에 국가 코드, xxxxxxxxxxx에 전화 걸 번호를 입력하세요
+updateSerial();
+delay(20000); // 20초 동안 대기합니다...
+sim800l.println("ATH"); // 전화 끊기
+updateSerial();
 }
 
 void loop()
@@ -419,17 +637,16 @@ void loop()
 
 void updateSerial()
 {
-  delay(500);
-  while (Serial.available()) 
-  {
-    sim800l.write(Serial.read()); // 시리얼이 수신한 내용을 소프트웨어 시리얼 포트로 전달
-  }
-  while (sim800l.available()) 
-  {
-    Serial.write(sim800l.read()); // 소프트웨어 시리얼이 수신한 내용을 시리얼 포트로 전달
-  }
+delay(500);
+while (Serial.available())
+{
+sim800l.write(Serial.read()); // 시리얼이 수신한 내용을 소프트웨어 시리얼 포트로 전달
 }
-
+while (sim800l.available())
+{
+Serial.write(sim800l.read()); // 소프트웨어 시리얼이 수신한 내용을 시리얼 포트로 전달
+}
+}
 
 이 코드를 업로드한 후 시리얼 모니터에 다음과 같은 메시지가 출력되었습니다. 모듈 LED 표시등은 3초마다 한 번 깜박여야 합니다. "AT+CPIN=1234" 명령이 "ERROR"를 반환했지만, "ATD+ +ZZxxxxxxxxxx;" 명령은 OK를 반환하여 전화가 성공적으로 걸렸음을 의미합니다.
 
@@ -437,8 +654,18 @@ void updateSerial()
 
 ![아두이노 SIM800L을 사용하여 메시지 보내고 전화 걸기](/assets/img/2024-06-22-HowtosendamessageandmakeaphonecallfromArduinowithSIM800L_22.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

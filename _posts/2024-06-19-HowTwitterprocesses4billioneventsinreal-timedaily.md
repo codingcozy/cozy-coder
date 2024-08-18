@@ -3,17 +3,13 @@ title: "트위터가 매일 40억 건의 이벤트를 실시간으로 처리하�
 description: ""
 coverImage: "/assets/img/2024-06-19-HowTwitterprocesses4billioneventsinreal-timedaily_0.png"
 date: 2024-06-19 01:40
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-HowTwitterprocesses4billioneventsinreal-timedaily_0.png
 tag: Tech
 originalTitle: "How Twitter processes 4 billion events in real-time daily"
 link: "https://medium.com/data-engineer-things/how-twitter-processes-4-billion-events-in-real-time-daily-942db8f7d7b5"
 isUpdated: true
 ---
-
-
-
-
 
 ## 람다에서 카파로
 
@@ -26,7 +22,18 @@ isUpdated: true
 
 # 소개
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 몇 주 전에는 우리가 어떻게 Uber가 실시간 인프라를 처리하여 매일 수백만 건의 이벤트를 처리하는지 배웠습니다. 이번 주에는 데이터 실시간 처리 요구 사항에 대한 다른 대형 기술 회사의 처리 방법을 살펴볼 것입니다: 트위터.
 
@@ -36,7 +43,18 @@ isUpdated: true
 
 기술의 견고성에도 불구하고 데이터의 성장은 인프라에 압력을 가합니다; 가장 현저한 예는 상호 작용 및 참여 파이프라인인데, 이는 대규모 데이터를 배치 및 실시간으로 처리합니다. 이 파이프라인은 Tweet와 사용자 상호 작용 데이터를 다양한 수준의 집계 및 메트릭스 차원을 사용하여 추출하기 위해 다양한 실시간 스트림 및 서버 및 클라이언트 로그에서 데이터를 수집하고 처리합니다. 이 파이프라인의 집계 데이터는 트위터의 광고 수익과 다양한 데이터 제품 서비스의 진실의 원천 역할을 합니다. 따라서 이 파이프라인은 낮은 지연 시간과 높은 정확성을 보장해야 합니다. 트위터가 이 임무를 처리하는 방법을 살펴봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 오래된 아키텍처
 
@@ -46,7 +64,18 @@ isUpdated: true
 
 트위터는 처음에 람다 아키텍처를 사용했습니다. 이는 정확한 일괄 데이터 뷰를 제공하는 일괄 처리와 온라인 데이터를 보여주는 실시간 스트림 처리 두 개의 별도 파이프라인이 있습니다. 두 뷰 출력은 하루가 끝날 때 합쳐집니다. 트위터는 다음과 같이 아키텍처를 구축했습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Summingbird Platform: 제가 이해한 바로는, 이 플랫폼에는 Scalding과 Heron과 같은 여러 분산 엔진들과 MapReduce 로직을 정의하고 이를 해당 엔진에서 실행할 수 있도록 허용하는 전용 라이브러리가 포함되어 있습니다.
 - TimeSeries AggregatoR: 견고하고 확장 가능한 실시간 이벤트 시계열 집계 프레임워크.
@@ -60,7 +89,18 @@ isUpdated: true
 
 뿐만 아니라, 백프레셔로 인해 많은 Heron 스트림 매니저 (스트림 매니저는 토폴로지 구성 요소 간의 데이터 라우팅을 관리함)가 실패할 수 있습니다. Twitter의 해결책은 스트림 매니저를 다시 시작하여 스트림 매니저를 복구하는 것입니다. 그러나, 재시작은 행사 손실을 일으킬 가능성이 있어 파이프라인의 전반적 정확성을 줄일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 새 아키텍처
 
@@ -70,7 +110,18 @@ isUpdated: true
 
 새로운 접근 방식으로 트위터는 Kappa 아키텍처를 사용하여 하나의 실시간 파이프라인으로 솔루션을 간소화했습니다. 이 아키텍처는 트위터 내부 및 Google Cloud Platform 솔루션을 활용할 것입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 온프레미스: 그들은 카프카 토픽 이벤트를 구글 파브섭 이벤트 형식으로 변환하는 전처리 서비스를 구축했습니다.
 - 구글 클라우드: 이벤트 들어오기 위해 파브섭을 사용하고, 중복 제거 및 실시간 집계에는 Dataflow 작업을 활용하며, 결과를 저장하기 위해 BigTable을 사용합니다.
@@ -85,7 +136,18 @@ isUpdated: true
 
 # 평가
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 새로운 접근 방식의 성취
 
@@ -101,7 +163,18 @@ isUpdated: true
 
 <img src="/assets/img/2024-06-19-HowTwitterprocesses4billioneventsinreal-timedaily_2.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 트위터는 두 개의 별도 Dataflow 파이프라인을 생성합니다: 하나는 Pubsub에서 원시 데이터를 직접 BigQuery로 전달하고, 다른 하나는 중복 제거된 이벤트 카운트를 BigQuery로 내보냅니다. 이 방식으로 Twitter는 중복 이벤트 백분율 및 중복 제거 후의 백분율 변경을 모니터링할 수 있습니다.
 
@@ -114,7 +187,18 @@ isUpdated: true
 - 중복 카운트를 비교하기 위해 예약된 쿼리를 실행합니다.
 - 결과는 새로운 파이프라인 결과 중 95% 이상이 이전 배치 파이프라인과 정확히 일치한다는 것입니다. 5%의 차이는 주로 원래 배치 파이프라인이 지연된 이벤트를 버린 반면, 새 파이프라인은 효율적으로 포착할 수 있기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 마무리말
 
@@ -124,6 +208,17 @@ Twitter가 새로운 Kappa 아키텍처로 전환함으로써, 예전 아키텍�
 
 # 참고문헌
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [1] Lu Zhang and Chukwudiuto Malife, 트위터에서 실시간으로 수십억 개의 이벤트 처리하기 (2021)

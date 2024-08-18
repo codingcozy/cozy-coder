@@ -3,7 +3,7 @@ title: "프론트엔드 개발자들도 잘 모르는 15가지 HTML 태그"
 description: ""
 coverImage: "/assets/img/2024-08-16-15HTMLTagsThatNoOneKnows_0.png"
 date: 2024-08-16 23:54
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-16-15HTMLTagsThatNoOneKnows_0.png
 tag: Tech
 originalTitle: "15 HTML Tags That No One Knows"
@@ -11,7 +11,6 @@ link: "https://medium.com/write-a-catalyst/15-html-tags-that-no-one-knows-dfe7fa
 isUpdated: true
 updatedAt: 1723863453273
 ---
-
 
 <img src="/assets/img/2024-08-16-15HTMLTagsThatNoOneKnows_0.png" />
 
@@ -21,7 +20,18 @@ updatedAt: 1723863453273
 
 # 1. `q` 태그
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `q` 태그는 그 안의 텍스트가 짧은 인라인 인용문임을 나타냅니다.
 
@@ -31,7 +41,18 @@ updatedAt: 1723863453273
 
 ## 3. `details` 태그
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `details` 태그는 사용자가 열거나 닫을 수 있는 공개 위젯을 만듭니다.
 
@@ -41,8 +62,18 @@ updatedAt: 1723863453273
 
 <img src="/assets/img/2024-08-16-15HTMLTagsThatNoOneKnows_1.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-08-16-15HTMLTagsThatNoOneKnows_2.png)
 
@@ -52,8 +83,18 @@ The `mark` tag highlights text for reference purposes.
 
 ## 6. The `ruby` tag
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `ruby` 태그는 동아시아 문법에서 문자의 발음을 보여주는 루비 주석을 나타냅니다.
 
@@ -63,7 +104,18 @@ The `mark` tag highlights text for reference purposes.
 
 ## 9. `bdi` 태그
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `bdi` (Bi-Directional Isolation) 태그는 외부 텍스트와 방향이 다른 형식으로 지정된 텍스트 스팬을 격리합니다. 이는 주로 다른 방향으로 읽히는 언어의 텍스트 스니펫을 삽입하는 데 유용합니다.
 
@@ -73,7 +125,18 @@ The `mark` tag highlights text for reference purposes.
 
 ## 11. `keygen` 태그
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `keygen` 태그는 키 쌍을 생성하며 양식에서 안전한 인증을 가능하게 하는 데 사용됩니다. 이 태그는 HTML5에서는 사용되지 않는 것에 유의하십시오. 그러나 역사적인 목적이나 이전 프로젝트를 다룰 때 유용합니다.
 
@@ -83,7 +146,18 @@ The `mark` tag highlights text for reference purposes.
 
 ## 13. `figure` 및 `figcaption` 태그
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `figure` 태그는 삽화, 다이어그램, 사진, 및 코드 목록과 같은 독립적인 내용에 사용되며, `figcaption` 태그는 `figure` 요소에 캡션을 제공하기 위해 사용됩니다.
 
@@ -102,7 +176,18 @@ The `mark` tag highlights text for reference purposes.
 </script>
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 15. `datalist` 태그
 
@@ -112,7 +197,18 @@ The `mark` tag highlights text for reference purposes.
 
 이 중 몇 가지 태그를 알고 계셨나요? 댓글 섹션에 적어주세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 많은 개발자들이 놓칠 수도 있고 알려지지 않은 15가지 희귀 HTML 태그를 소개했어요. 이 태그들은 특정 작업을 위한 독특한 기능을 제공해요. 만약 이 글을 즐겁게 읽었다면 비슷한 주제나 다른 기술 튜토리얼에 대한 추가 글을 원하신다면 박수를 치거나 댓글을 남겨주세요. 이 글을 친구나 동료들과 공유해서 서로 도전하고 점수를 비교해보세요!
 

@@ -3,17 +3,13 @@ title: "지능의 세계에서 AI와 IoT로 정의된 미래 관리하기"
 description: ""
 coverImage: "/assets/img/2024-06-19-ManaginganAIandIoT-DefinedFutureintheWorldofIntelligence_0.png"
 date: 2024-06-19 05:30
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-ManaginganAIandIoT-DefinedFutureintheWorldofIntelligence_0.png
 tag: Tech
 originalTitle: "Managing an AI and IoT-Defined Future in the World of Intelligence"
 link: "https://medium.com/generative-ai/managing-an-ai-and-iot-defined-future-in-the-world-of-intelligence-eea0cf3f8324"
 isUpdated: true
 ---
-
-
-
-
 
 지난 몇 년 동안 우리는 인공지능(AI)과 사물인터넷(IoT)의 결합된 영향으로 일상 생활, 경제 및 기업이 현저하게 변화하는 것을 목격했습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 그래서 여기서 사물인터넷과 인공지능이 가져다주는 장애물, 비즈니스의 특정 측면에 미치는 영향 및 이 흥미로운 현대 세계를 효과적으로 탐험하기 위해 극복해야 할 윤리적 고려사항을 살펴봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AI와 IoT의 협력 에너지
 
@@ -33,7 +40,18 @@ AI와 IoT의 협력 에너지
 
 이러한 발전이 “노련한 상황”에서 집합되면, 각 개인들이 서로 소통하고 자신의 주장을 내리는데 능숙해진다면 함께 발전할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가정 내의 AI 센터는 등을 연결할 수 있습니다. Web of Things (IoT) 장치들에게 조명, 실내 온도 조절기, 보안 시스템 등과 같이 센터가 거주자의 선호도에 대해 거의 모든 것을 배울 수 있도록 합니다.
 
@@ -43,7 +61,18 @@ AI와 IoT의 협력 에너지
 
 산업의 변화
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사물 인터넷(IoT)과 위조 인사이트의 영향은 다양한 산업 전반에 걸쳐 엄청납니다.
 
@@ -53,7 +82,18 @@ AI와 IoT의 협력 에너지
 
 이로 인해 지속적인 결과를 더 높일 수 있으면서도 회복 전문가들의 업무 부담을 줄일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 농업은 혜택을 창출하는 추가적인 부문입니다.
 
@@ -63,7 +103,18 @@ AI와 IoT의 협력 에너지
 
 결과적으로 재배 기술은 더욱 관리하기 쉬워졌고 수확량도 증가했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지능형 도시와 무인 자동차는 교통 섹터에서 인공 지능과 사물 인터넷 덕분에 더욱 천천히 개선되고 있어요.
 
@@ -73,7 +124,18 @@ AI와 IoT의 협력 에너지
 
 이러한 장치들은 과학 소설 개념에 그치지 않고, 전 세계적으로 개발되고 시험 중이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도전과 위험
 
@@ -83,7 +145,18 @@ AI와 IoT의 협력 에너지
 
 사물 인터넷에 연결된 장치들은 이로 인해 사이버 공격을 받을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하나의 기기에서의 침입은 전체 비즈니스에 치명적인 영향을 미칠 수 있습니다.
 
@@ -93,7 +166,18 @@ AI와 IoT의 협력 에너지
 
 엄격한 정보 보안 규정이 없다면 이러한 데이터가 남용될 수 있고 보안 침해로 이어질 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 강력하고 권위 있는 시스템 모니터링 정보 수집, 처리량 및 사용량 관련 시스템을 구축하여 사용자의 권리를 보호해야 합니다.
 
@@ -103,7 +187,18 @@ AI 프레임워크는 모호할 수 있으므로 특정 결과에 도달하는 �
 
 이러한 명확성에 대한 열망은 법적 인가 및 전략 선택과 같이 중요한 영역에서 선호 및 합리적이지 않은 결과를 불러올 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도덕과 신념을 유지하기 위해 인공 지능 프레임워크는 설명할 수 있고 공정하게 처리될 수 있어야 합니다.
 
@@ -113,7 +208,18 @@ AI와 IoT의 적용은 도덕적 고민을 철저히 분석해야 합니다.
 
 주요한 윤리적 우려는 자동화가 일부 직업에 미칠 수 있는 잠재적인 해를 들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 IoT 및 AI는 생산성과 수확을 높일 수 있지만 기업에서 종업원을 대체할 수 있는 잠재력을 지니고 있습니다.
 
@@ -123,7 +229,18 @@ IoT 및 AI는 생산성과 수확을 높일 수 있지만 기업에서 종업원
 
 토양 수분, 식물 건강, 그리고 퇴비 수준에 대한 실시간 정보가 IoT 장치를 통해 목지 경영자에게 제공될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 데이터를 보면 인공 지능이 수자원 시스템을 개발하고 벌레 유입을 예측하며 식물 심는 날짜와 수확 날짜를 제안할 수 있을 것입니다.
 
@@ -133,7 +250,18 @@ IoT 및 AI는 생산성과 수확을 높일 수 있지만 기업에서 종업원
 
 사물 인터넷 기능 활동 관리 시스템은 활동 스트림을 필터링하고 제어하여 배출량과 병목 현상을 최소화할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자율 주행 차량은 다양한 센서와 인공지능(AI) 안내 시스템 때문에 더 효율적이고 안전한 교통수단입니다.
 
@@ -143,7 +271,18 @@ IoT 및 AI는 생산성과 수확을 높일 수 있지만 기업에서 종업원
 
 다음은 고려해야 할 중요한 전략 몇 가지입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 안내 및 포인터: 정부는 AI 및 사물 인터넷 혁신의 개발과 사용을 위한 정밀한 법률과 지침을 수립해야 합니다. 이에는 엄격한 보안 프로토콜, 정보 보안 계획, 윤리적 AI 발전을 위한 기준이 포함되어야 합니다.
 - 교육 및 준비에 관한 추측: 사물 인터넷 및 AI 관련 능력에 대한 수요가 증가함에 따라 상당량의 자금이 교육 및 준비 작업에 할당되어야 합니다. 이는 공정한 전문화뿐만 아니라 이러한 기술에 행정 및 도덕을 적용하는 것을 포함합니다.
@@ -157,7 +296,18 @@ IoT 및 AI는 생산성과 수확을 높일 수 있지만 기업에서 종업원
 
 그러나 이러한 약속을 충분히 실현하기 위해서는 관련되는 위험과 윤리적 문제를 신중히 고려해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 미래를 만들 때 교활한 것이 아니라 공정하고 포괄적인 것을 원한다면, 사회는 강력한 리더십, 협력, 도덕적 발전에 초점을 맞춘 AI 및 IoT의 통제를 가할 수 있습니다.
 
@@ -167,7 +317,18 @@ IoT 및 AI는 생산성과 수확을 높일 수 있지만 기업에서 종업원
 
 이 이야기는 Generative AI에서 발행되었습니다. LinkedIn에서 저희와 연락하고 최신 AI 이야기를 전해가기 위해 Zeniteq를 팔로우해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최신 제너레이티브 AI 뉴스와 업데이트를 받아보려면 뉴스레터를 구독해주세요. 함께 AI의 미래를 함께 만들어요!
 

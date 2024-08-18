@@ -3,17 +3,13 @@ title: "스마트한 NgRX 사용 방법"
 description: ""
 coverImage: "/issue-truck.github.io/assets/no-image.jpg"
 date: 2024-07-09 10:30
-ogImage: 
+ogImage:
   url: /issue-truck.github.io/assets/no-image.jpg
 tag: Tech
 originalTitle: "SmartNgRX"
 link: "https://medium.com/@davembush_78433/smartngrx-d4fd2fb2382a"
 isUpdated: true
 ---
-
-
-
-
 
 ## 보일러플레이트를 제거하고 SmartNgRX가 대부분의 작업을 대신하도록 합시다! (원문: smart-ngrx 게시물에서 발췌)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 전체 문서는 SmartNgRX 문서 에서 확인하실 수 있지만, 작동 방식에 대해 간단히 설명드리겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 간단한 개요
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 SmartNgRX 효과에서 호출할 서비스를 정의하려면 EffectService를 만들어야 합니다. 이 서비스는 CRUD 작업이 서버와 상호 작용하는 방식을 제어하는 곳입니다. 이것과 셀렉터가 작성해야 할 유일한 코드입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 셀렉터에 대해 이야기해보겠습니다. NgRX의 createSelector 함수를 사용하는 대신 SmartNgRX의 createSmartNgRXSelector 함수를 사용할 겁니다. 이 함수는 부모 셀렉터와 해당 셀렉터가 가질 수 있는 모든 자식들 간의 관계를 정의합니다.
 

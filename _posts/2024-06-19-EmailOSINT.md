@@ -3,17 +3,13 @@ title: "이메일 OSINT"
 description: ""
 coverImage: "/assets/img/2024-06-19-EmailOSINT_0.png"
 date: 2024-06-19 21:46
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-EmailOSINT_0.png
 tag: Tech
 originalTitle: "Email OSINT"
 link: "https://medium.com/@snoop-ghost/email-osint-95004481b72a"
 isUpdated: true
 ---
-
-
-
-
 
 ## 안녕하세요 여러분 !!!
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 그렇다면 계속 읽는 것이 도움이 될 것입니다. 저는 이에 대한 완벽한 도구를 소개하겠습니다. 또한 이 도구들은 OSINT, 사이버 보안 전문가, 해커, 그리고 그들의 동료들이 모두의 정보를 수집하고 이메일과 관련된 모든 정보를 수집하여 대상의 프로필을 작성하는 데 사용하는 도구입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시작하기 전에, 알지 못하는 분들을 위해 온라인 안전을 유지할 수 있는 몇 가지 사이버-위생 도구와 주의사항을 공유하고 싶어요.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 # 모든 계정에 같은 이메일 주소를 사용하는 것을 피해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 왜요? 해커가 당신의 모든 계정에 대한 단일 이메일 주소를 가지고 있는 서버로 침입한다고 상상해봅시다. 오직 한 개의 이메일 주소 뿐이라면, 그가 이 주소와 연결된 모든 계정 및 데이터를 발견하기까지 시간 문제입니다. 이것은 무수히 많은 가능한 연결된 시나리오 중 하나에 불과합니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 - 발행 전에 여러 링크를 삭제해야 해서 놓친 것이 있을 수 있습니다. 부족한 부분은 아래에서 찾아볼 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 OOSINT [https://start.me/p/ME7aRA/oosint](https://start.me/p/ME7aRA/oosint)
 
@@ -53,7 +82,18 @@ OOSINT [https://start.me/p/ME7aRA/oosint](https://start.me/p/ME7aRA/oosint)
 
 - [https://epieos.com](https://epieos.com)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단한 웹사이트로 이메일 주소 또는 전화 번호에 관한 기본 정보를 수집합니다. Google, Email Checker(+200개 사이트), Skype, LinkedIn, Nike Run Club, Fitbit, GitHub, Duolingo, Asics Runkeeper, Adidas Runtastic, Strava, Vivino, Facebook, Proton Mail, Phone Checker, Etsy, Have I Been Pwned?, Dropbox, Foursquare, Flickr, Chess.com, Substack, Trello, Notion, Gravatar 등의 결과를 제공합니다.
 
@@ -63,7 +103,18 @@ OOSINT [https://start.me/p/ME7aRA/oosint](https://start.me/p/ME7aRA/oosint)
 
 # Dehashed
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - https://dehashed.com
 
@@ -73,7 +124,18 @@ OOSINT [https://start.me/p/ME7aRA/oosint](https://start.me/p/ME7aRA/oosint)
 
 # IRBIS
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - https://irbis.espysys.com
 
@@ -83,7 +145,18 @@ OOSINT [https://start.me/p/ME7aRA/oosint](https://start.me/p/ME7aRA/oosint)
 
 - https://intelx.io
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 플랫폼은 폭넓은 온라인 데이터 스크래핑 도구를 제공합니다. 무료 버전은 완전한 데이터셋을 제공하지는 않을 수 있지만, 위반 파일 이름을 노출하여 사용자가 추가적인 특정 검색을 수행할 수 있도록 합니다. 이 웹사이트는 이메일, 전화번호, 비트코인 지갑 등 다양한 소스에서 데이터를 추출할 수 있어서 중요한 대상 정보에 접근할 수 있도록 합니다.
 
@@ -93,18 +166,51 @@ OOSINT [https://start.me/p/ME7aRA/oosint](https://start.me/p/ME7aRA/oosint)
 
 - https://www.voilanorbert.com
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - [https://app.orbitly.io](https://app.orbitly.io)
 - [https://www.maltego.com](https://www.maltego.com)
 - [https://intel471.com/solutions/attack-surface-protection](https://intel471.com/solutions/attack-surface-protection)
 - [https://www.emailsherlock.com](https://www.emailsherlock.com)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 또한, 이제는 터미널, 클라우드 인스턴스, 도커, CLI OS 또는 가상 머신에 이상적인 GitHub 도구들을 확인해보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 블랙 타이거
 
@@ -114,7 +220,18 @@ OOSINT [https://start.me/p/ME7aRA/oosint](https://start.me/p/ME7aRA/oosint)
 
 # 홀히
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - [https://github.com/megadose/holehe](https://github.com/megadose/holehe)
 
@@ -124,7 +241,18 @@ OOSINT [https://start.me/p/ME7aRA/oosint](https://start.me/p/ME7aRA/oosint)
 
 - [https://github.com/jakecreps/poastal](https://github.com/jakecreps/poastal)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "P
 oastal"은 어떤 이메일 주소에 대해 포괄적인 정보를 제공하는 필수적인 이메일 OSINT(Open Source Intelligence) 도구입니다. 이 강력한 도구를 사용하면 이메일 소유자의 이름을 알아낼 수 있고, 전달 가능 여부를 확인하며, 일회용으로 사용되거나 스팸으로 간주되는지 확인하고, Facebook, Twitter, Snapchat 등 여러 인기 플랫폼에 등록되어 있는지도 확인할 수 있습니다. 이는 이메일 주소와 관련된 중요한 정보를 수집하는 데 유용한 자원입니다.
@@ -136,7 +264,18 @@ oastal"은 어떤 이메일 주소에 대해 포괄적인 정보를 제공하는
 G
 Hunt (v2)는 효율적인 진화에 중점을 둔 최신 안전 구글 프레임워크입니다. 이 도구는 현재 OSINT(Open Source Intelligence)에 특화되어 있지만 다양한 구글 관련 용도로 적용할 수 있습니다. 이 도구의 특징은 CLI 사용 및 모듈, Python 라이브러리 통합, 원활한 작동을 위한 전체 비동기 지원, JSON 내보내기 기능 및 간결한 로그인 절차를 위한 편리한 브라우저 확장 프로그램을 포함하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Seekr
 
@@ -146,7 +285,18 @@ Seekr은 사용자 친화적인 OSINT(Open Source Intelligence) 데이터를 수
 
 # 다른 옵션들...
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 많은 옵션을 원하시면 `https://start.me/p/ME7aRA/oosint`를 방문해보세요.
 
@@ -156,6 +306,17 @@ Seekr은 사용자 친화적인 OSINT(Open Source Intelligence) 데이터를 수
 
 # 아직 궁금한 점이 있으신가요? ¡
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래에, 아마 당신이 좋아할만한 것들이 있을 거에요! 😊

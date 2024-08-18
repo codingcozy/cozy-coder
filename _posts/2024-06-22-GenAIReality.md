@@ -3,17 +3,13 @@ title: "2024년 현실로 다가온 GenAI 기술과 그 영향"
 description: ""
 coverImage: "/assets/img/2024-06-22-GenAIReality_0.png"
 date: 2024-06-22 20:39
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-GenAIReality_0.png
 tag: Tech
 originalTitle: "GenAI Reality"
 link: "https://medium.com/@lynnlangit/ai-reality-c1335e677d31"
 isUpdated: true
 ---
-
-
-
-
 
 좋은 것, 나쁜 것, 흥미로운 것
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## 좋은 점: 가속화
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 매일 어떤 종류의 GenAI 도구를 사용하는 것은 제 작업, 창의성 및 일반적인 사고 속도를 높이는 데 도움이 되는 것뿐만 아니라 향상된 AI는 실제로 저를 가속시킵니다 (어찌됐든, 제 차를 말이죠).
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 또한, 차를 '활성' 모드로 설정하면 핸들을 움직일 때 약간 더 강하게 움직이게되어 제가 이 카메라 지원 모드로 운전 중이라는 것을 나타내는 햅틱 신호로 작동합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 활성 모드를 중지하려면 브레이크나 가속 페달을 밟거나, 조향 휠의 버튼을 클릭하면 됩니다. 시스템은 피드백과 다양한 인간 개입 방법을 제공합니다.
 
@@ -49,7 +67,18 @@ isUpdated: true
 - Gemini for BigQuery: 영어 프롬프트로부터 데이터 세트 쿼리를 생성하는 초기 SQL 코드 생성
 - Subaru Active Mode: 더 안전하게 운전하기.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 불량: 환각을 유발합니다
 
@@ -59,7 +88,18 @@ isUpdated: true
 
 LLMs는 인간 언어에 기반을 두고 있고, 저는 언어학자로 훈련을 받았어요. GenAI 도구의 문화와 구어체를 배우는 건 외국을 방문하는 것과 같은 느낌입니다 — 현지 사람들과 이야기를 나눠보면서 그 장소에 대해 조금씩 배우려고 노력해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 언어에도 여러 방언이 있는 것처럼 독일어에는 고지 독일어, 저지 독일어, 스위스 독일어 등이 있습니다. LLMs에는 채팅 도구, API, 앙상블 도구 등이 있으며, 따라서 동일한 모델이 다양한 도구나 인터페이스에서 작업할 때 다르게 응답할 수 있습니다.
 
@@ -69,7 +109,18 @@ LLMs는 인간 언어에 기반을 두고 있고, 저는 언어학자로 훈련�
 
 최근 테스트해본 가장 흥미로운 (그리고 유용한) GenAI 구현은 통합된 GenAI 기능 세트인 GitHub Copilot Workspace입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 큰 이유를 이해하려면 Copilot Workspace의 간단한 예시를 보여드릴게요. 레포지토리로 이동해서 ‘Code’를 클릭하고 ‘Copilot’ 팝업 창에 작업을 작성해보세요. 작업을 시작하면 GitHub Copilot은 관련 레포지토리의 데이터를 분석하여 컨텍스트를 파악해요.
 
@@ -79,7 +130,18 @@ LLMs는 인간 언어에 기반을 두고 있고, 저는 언어학자로 훈련�
 
 이후 변경 사항은 코드를 생성하여 구현돼요. 파일 차이점은 자동으로 확인을 위해 열려요. 제안된 변경 사항을 통합할 다양한 옵션이 제공돼요. 기본 옵션은 ‘풀 리퀘스트 생성’이지만, 다른 옵션들도 사용 가능해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 통합 방법을 선택한 후('현재 브랜치에 푸시'를 선택함), LLM은 검토를 위해 커밋 메시지 및 상세 설명을 생성합니다.
 
@@ -89,9 +151,20 @@ LLMs는 인간 언어에 기반을 두고 있고, 저는 언어학자로 훈련�
 
 ## 결론: 인간이 루프에 있어야 할 이유
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-AI로 완전히 관리되는 자율 주행 자동차는 현재 위험할 수 있습니다. 의료 자문, 수학 계산 또는 임무 중요성이 있는 다른 작업을 위해 검토되지 않은 LLM의 정보에 의존하는 것은 최선의 경우 어리석은 결정이며 여러 가지 방식으로 위험할 수 있습니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+AI로 완전히 관리되는 자율 주행 자동차는 현재 위험할 수 있습니다. 의료 자문, 수학 계산 또는 임무 중요성이 있는 다른 작업을 위해 검토되지 않은 LLM의 정보에 의존하는 것은 최선의 경우 어리석은 결정이며 여러 가지 방식으로 위험할 수 있습니다.
 
 그러나...
 

@@ -3,17 +3,13 @@ title: "소형 머신 러닝 - 주성분 분석"
 description: ""
 coverImage: "/assets/img/2024-06-20-TinyMLPrincipalComponentAnalysis_0.png"
 date: 2024-06-20 17:00
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-TinyMLPrincipalComponentAnalysis_0.png
 tag: Tech
 originalTitle: "TinyML — Principal Component Analysis"
 link: "https://medium.com/@thommaskevin/tinyml-principal-component-analysis-pca-5379d0874592"
 isUpdated: true
 ---
-
-
-
-
 
 From mathematical foundations to edge implementation
 
@@ -26,7 +22,18 @@ From mathematical foundations to edge implementation
 
 ![image](/assets/img/2024-06-20-TinyMLPrincipalComponentAnalysis_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 1 — PCA 알고리즘 이론
 
@@ -41,7 +48,18 @@ From mathematical foundations to edge implementation
 
 ## 1.1 — 데이터 적합성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "Adequacy of Data" 또는 "Data Suitability"는 일반적으로 사용 가능한 데이터가 특정 목적이나 분석에 적합하고 충분하며 관련성 있는지 여부를 나타냅니다. 그것은 손에 있는 데이터가 의도된 사용 또는 연구에 필요한 요구 사항과 기준을 충족하는지를 평가합니다.
 
@@ -52,7 +70,18 @@ Kaiser-Meyer-Olkin 측정치는 분석을 위한 표본의 적절성을 평가�
 - KMO가 0.5 이상일 경우: 주로 허용 가능하다고 간주되며, 데이터 집합이 요인 분석에 적합함을 나타냅니다.
 - KMO가 0.5 미만일 경우: 데이터 집합이 요인 분석에 적합하지 않을 수 있다는 것을 시사합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-TinyMLPrincipalComponentAnalysis_1.png" />
 
@@ -62,7 +91,18 @@ Bartlett의 구형성 검정은 요인 분석의 맥락에서 사용되는 통�
 
 다음은 Bartlett의 구형성 검정의 자세한 단계와 수학적 공식입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단계 1: 가설 설정
 
@@ -73,7 +113,18 @@ Bartlett의 구형성 검정은 요인 분석의 맥락에서 사용되는 통�
 
 바트렛의 구형성 검정 통계량은 카이제곱 (χ2) 분포를 따릅니다. 검정 통계량의 공식은 다음과 같습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-TinyMLPrincipalComponentAnalysis_2.png" />
 
@@ -86,7 +137,18 @@ Bartlett의 구형성 검정은 요인 분석의 맥락에서 사용되는 통�
 
 단계 3: 자유도 결정
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자유도(df)는 카이 제곱 분포의 경우 다음과 같이 계산됩니다:
 
@@ -96,7 +158,18 @@ Bartlett의 구형성 검정은 요인 분석의 맥락에서 사용되는 통�
 
 계산된 χ² 통계량을 선택한 유의 수준 (예: 0.05)에서 카이 제곱 분포 표의 임계값과 비교합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 단계 5: 결정 내리기
 
@@ -106,8 +179,18 @@ Bartlett의 구형성 검정은 요인 분석의 맥락에서 사용되는 통�
 
 변수 집합에 대한 Pearson 상관계수 행렬은 행렬 형태로 표현될 수 있습니다. n개의 변수를 X1,X2,…,Xn으로 표시한다고 가정해 봅시다. 이러한 변수에 대한 Pearson 상관계수 행렬 R은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-20-TinyMLPrincipalComponentAnalysis_4.png)
 
@@ -119,9 +202,18 @@ Here:
 
 The formula to compute rij (Pearson correlation coefficient between Xi and Xj) is given by:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-20-TinyMLPrincipalComponentAnalysis_5.png)
 
@@ -133,7 +225,18 @@ The formula to compute rij (Pearson correlation coefficient between Xi and Xj) i
 - r=−1: 완벽한 음의 상관 관계;
 - r=0: 선형 상관 관계 없음.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1.3 — 고유값과 고유벡터
 
@@ -144,7 +247,18 @@ The formula to compute rij (Pearson correlation coefficient between Xi and Xj) i
 - 고유값은 식 Av=λv이 비제로 해 v를 가지는 스칼라 λ입니다.
 - 종종 λ로 표시됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 고윳값을 찾는 방정식은 A를 원래 행렬에서 λI(단위 행렬)을 뺀 후 Determinant를 구하여 얻는 특성 방정식을 풀어야 합니다:
 
@@ -154,7 +268,18 @@ det(A−λI)=0
 
 1.3.2 —고유벡터 (v)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 고유벡터는 방정식 Av=λv를 만족하는 0이 아닌 벡터 v입니다.
 - 종종 v로 표기됩니다.
@@ -167,7 +292,18 @@ det(A−λI)=0
 - 고유값(λ) 구하기: 고유문자식을 해결하여 고유값 λ를 찾습니다.
 - 고유벡터(v) 찾기: 각 고유값 λ에 대해, (A−λI)v=0인 선형 방정식을 풀어 해당하는 고유벡터 v를 찾습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1.4 — 요인들
 
@@ -177,22 +313,42 @@ PCA에서 주성분(요인)을 형성하기 위해 원래 변수들의 선형 �
 
 ![이미지](/assets/img/2024-06-20-TinyMLPrincipalComponentAnalysis_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에는 Z가 표준화된 데이터 행렬이고, Vk는 k번째 고유값에 해당하는 고유벡터 행렬의 k번째 열입니다. Fk의 개별 요소는 다음과 같이 표현될 수 있습니다:
-
 
 | Fk1 |
 | Fk2 |
 | ... |
 | Fkn |
 
-
 이 식에서 Fki는 k번째 주성분의 i번째 관측값, Zij는 j번째 표준화된 변수의 i번째 관측값, Vjk는 j번째 고유벡터의 k번째 요소입니다.
 
 이 선형 결합을 사용하여 k번째 주성분을 원래 표준화된 변수들의 가중 합으로 표현할 수 있습니다. 가중치는 k번째 고유벡터의 요소로 제공됩니다. 각 주성분은 원래 변수들의 다른 선형 결합을 나타내며, 데이터의 최대 분산을 포착합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1.4.1 — 요인 수
 
@@ -203,7 +359,18 @@ PCA에서 주성분(요인)을 형성하기 위해 원래 변수들의 선형 �
 
 요인 부하는 특정 요인에 대한 각 원본 변수에 할당된 가중치를 의미합니다. 이러한 부하는 각 변수와 해당 요인간의 관계의 강도와 방향을 나타냅니다. 요인 부하의 수학적 설명을 살펴봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 PCA에서 요인 적재량은 표준화된 데이터의 공분산 행렬 또는 상관 행렬의 고유벡터에서 유도됩니다. Vk가 k번째 고유값에 연결된 고유벡터라고 가정해 봅시다. j번째 변수와 k번째 요인의 요인 적재량(λjk)은 Vk의 요소에서 얻어집니다.
 
@@ -211,27 +378,57 @@ PCA에서 요인 적재량은 표준화된 데이터의 공분산 행렬 또는 
 
 요인 모델에서 요인 적재량(λjk)은 원래 변수와 잠재적인 요인 사이의 관계를 나타내는 매개변수입니다. 이 모델은 다음과 같이 표현됩니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래와 같은 테이블을 Markdown 포맷으로 바꿔주세요.
 
-
-| 변수 | 설명 |
-|------|------|
-| Xj   | j번째 원본 변수 |
+| 변수 | 설명                                           |
+| ---- | ---------------------------------------------- |
+| Xj   | j번째 원본 변수                                |
 | λjk  | Xj와 k번째 요인 간의 관계를 나타내는 요인 로딩 |
-| Fk   | k번째 잠재 요인 |
-| εj   | j번째 변수와 연관된 오차 |
+| Fk   | k번째 잠재 요인                                |
+| εj   | j번째 변수와 연관된 오차                       |
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기존 변수에서 잠재 요인으로 설명되는 분산의 비율을 의미합니다. "공용성"의 수학적 설명을 살펴보겠습니다.
 
 만약 p개의 원래 변수 X1,X2,…,Xp가 있다면, j번째 변수 (Hj)의 공용성은 다음과 같이 계산됩니다:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - m은 인자의 수입니다.
 - λjk는 j번째 변수의 k번째 인자에 대한 인자 적재입니다.
@@ -242,7 +439,18 @@ PCA에서 요인 적재량은 표준화된 데이터의 공분산 행렬 또는 
 
 모든 변수의 공통성의 합계는 모델의 요인들에 의해 설명된 총 분산의 전반적인 지표입니다. 변수가 p개인 경우, 총 분산은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 요인에 의해 설명된 분산이며:
 
@@ -250,7 +458,18 @@ PCA에서 요인 적재량은 표준화된 데이터의 공분산 행렬 또는 
 
 요인에 의해 설명된 분산의 비율은 요인에 의해 설명된 분산을 총 분산으로 나누어 계산할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2— TinyML 구현
 
@@ -263,7 +482,18 @@ PCA에서 요인 적재량은 표준화된 데이터의 공분산 행렬 또는 
 !pip install factor_analyzer
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2 — 라이브러리 가져오기
 
@@ -286,7 +516,18 @@ from factor_analyzer import FactorAnalyzer
 
 Decathlon
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 41행 13열로 구성된 데이터베이스가 있습니다. 첫 10개 열은 각 선수의 10종목 경기 성적에 해당합니다. 열 11과 12는 각각 선수의 등급과 획득한 점수를 나타냅니다. 마지막 열은 2004년 올림픽 게임 또는 2004년 데카스론과 같은 종목에 해당하는 범주형 변수입니다.
 
@@ -303,12 +544,21 @@ Decathlon
 - Javeline (투창)
 - 1500m (1500m 달리기)
 
-
 patch = './data/decathlon.csv'
 df = pd.read_csv(patch, index_col=0)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 아래는 Markdown 형식으로 테이블의 변경 내용이 있습니다.
 
@@ -317,36 +567,67 @@ df = pd.read_csv(patch, index_col=0)
 4 — 데이터셋 시각화
 
 ```js
-sns.pairplot(df)
+sns.pairplot(df);
 ```
 
 <img src="/assets/img/2024-06-20-TinyMLPrincipalComponentAnalysis_14.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5- 데이터 표준화하기
 
 ```js
-columns_selected = ['100m', 'Long.jump', 'Shot.put', 'High.jump', '400m', '110m.hurdle',
-       'Discus', 'Pole.vault', 'Javeline']
+columns_selected = [
+  "100m",
+  "Long.jump",
+  "Shot.put",
+  "High.jump",
+  "400m",
+  "110m.hurdle",
+  "Discus",
+  "Pole.vault",
+  "Javeline",
+];
 
-X = df[columns_selected]
+X = df[columns_selected];
 ```
 
 ```js
-X_standardized = StandardScaler().fit_transform(X)
-df_X_standardized = pd.DataFrame(X_standardized, columns=columns_selected)
+X_standardized = StandardScaler().fit_transform(X);
+df_X_standardized = pd.DataFrame(X_standardized, (columns = columns_selected));
 ```
 
 6- 데이터의 상관 행렬 분석하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 6.1- 상관 행렬
 
 ```js
-corr = X.corr()
-corr
+corr = X.corr();
+corr;
 ```
 
 <img src="/assets/img/2024-06-20-TinyMLPrincipalComponentAnalysis_15.png" />
@@ -367,23 +648,44 @@ for i in range(len(corr.columns)):
 plt.show()
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-20-TinyMLPrincipalComponentAnalysis_16.png)
 
 6.2 — 고유값과 고유벡터
 
 ```js
-X = np.matrix(X)
-cov_matrix =  np.cov(np.transpose(X))
+X = np.matrix(X);
+cov_matrix = np.cov(np.transpose(X));
 ```
 
 ```js
-np.diagonal(cov_matrix)
+np.diagonal(cov_matrix);
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-TinyMLPrincipalComponentAnalysis_17.png" />
 
@@ -395,15 +697,26 @@ eigenvectors = eigenvectors[:, sorted_indices]
 ```
 
 ```js
-eigenvalues
+eigenvalues;
 ```
 
 <img src="/assets/img/2024-06-20-TinyMLPrincipalComponentAnalysis_18.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-고유벡터
+고유벡터;
 ```
 
 ![이미지](/assets/img/2024-06-20-TinyMLPrincipalComponentAnalysis_19.png)
@@ -412,7 +725,18 @@ eigenvalues
 
 7.1 — 카이저-마이어-올킨 (KMO)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # KMO 값 계산
@@ -437,8 +761,18 @@ plt.xticks(rotation=45, ha='right')  # 더 잘 보이도록 x축 레이블 회�
 
 ![image](/assets/img/2024-06-20-TinyMLPrincipalComponentAnalysis_21.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 7.2 — 바틀렛의 구 구형성 검정
 
@@ -462,24 +796,46 @@ plt.ylabel('값')
 plt.show()
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-TinyMLPrincipalComponentAnalysis_23.png" />
 
 ### 8 - 주성분 분석
 
 ```js
-X = np.asarray(X)
+X = np.asarray(X);
 ```
 
 ```js
-pca = PCA()
-pca.fit(X)
-autovalores = pca.explained_variance_
-autovetores = pca.components_
+pca = PCA();
+pca.fit(X);
+autovalores = pca.explained_variance_;
+autovetores = pca.components_;
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 8.1 — 카이젤의 법칙
 
@@ -507,12 +863,23 @@ plt.show()
 
 <img src="/assets/img/2024-06-20-TinyMLPrincipalComponentAnalysis_24.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 8.2 — 공유 분산의 분석
 
 ```js
-exp_var_cumul = np.cumsum(pca.explained_variance_ratio_)
+exp_var_cumul = np.cumsum(pca.explained_variance_ratio_);
 ```
 
 ```js
@@ -529,7 +896,18 @@ plt.show()
 
 <img src="/assets/img/2024-06-20-TinyMLPrincipalComponentAnalysis_25.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 8.3 — Plot Components
 
@@ -540,7 +918,7 @@ X_pca = model.fit(X)
 
 ```python
 components = model.fit_transform(X)
-components 
+components
 ```
 
 ```python
@@ -566,27 +944,47 @@ for i, feature in enumerate(columns_selected):
 fig.show()
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-06-20-TinyMLPrincipalComponentAnalysis_26.png)
 
 9 - Inverse Transform
 
 ```js
-X_reconstructed = model.inverse_transform(components)
-X_reconstructed
+X_reconstructed = model.inverse_transform(components);
+X_reconstructed;
 ```
 
 ![Image](/assets/img/2024-06-20-TinyMLPrincipalComponentAnalysis_27.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 10— 마이크로콘트롤러에 구현할 모델 획득
 
 ```js
-print(port(model))
+print(port(model));
 ```
 
 ```js
@@ -631,7 +1029,18 @@ namespace Eloquent {
 
 11— 템플릿을 .h 파일에 저장
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 with open('./PCA/PCA.h', 'w') as file:
@@ -676,7 +1085,18 @@ void loop() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결과:
 
@@ -686,7 +1106,18 @@ void loop() {
 
 구성요소 X2: [ 3.12393184, 5.77720022]
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 역변환 된 X2: [10.87825406, 7.38493559, 15.46230692, 2.0402022, 49.3172806, 14.30855419, 50.55463117, 4.68889837, 60.09039224]
 
@@ -696,10 +1127,20 @@ void loop() {
 
 ## 만약 마음에 드신다면, 제게 커피한 잔 ⚡️💰(Bitcoin)을 사주실래요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 Markdown 형식으로 변경된 코드입니다:
-
 
 code: bc1qzydjy4m9yhmjjrkgtrzhsgmkq79qenvcvc7qzn
 

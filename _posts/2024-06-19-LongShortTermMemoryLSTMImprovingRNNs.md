@@ -3,18 +3,13 @@ title: "장기 단기 메모리 LSTM  RNN 개선하기"
 description: ""
 coverImage: "/assets/img/2024-06-19-LongShortTermMemoryLSTMImprovingRNNs_0.png"
 date: 2024-06-19 18:53
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-LongShortTermMemoryLSTMImprovingRNNs_0.png
 tag: Tech
 originalTitle: "Long Short Term Memory (LSTM)— Improving RNNs"
 link: "https://medium.com/towards-data-science/long-short-term-memory-lstm-improving-rnns-40323d1c05f8"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![그림](/assets/img/2024-06-19-LongShortTermMemoryLSTMImprovingRNNs_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 LSTM은 RNN의 최신 버전으로, 산업 내에서 폭넓게 사용되며 우리가 오늘날 보는 모든 멋진 대형 언어 모델 (LLMs)의 기반이 됩니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 RNN 개요
 
@@ -33,8 +38,18 @@ Recurrent Neural Networks(RNN)은 일반적인 피드포워드 신경망의 변�
 
 이는 이전 입력과 출력을 다음 레이어로 전달하는 숨겨진 순환 뉴런을 가지고 수행됩니다. 아래는 예시입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-19-LongShortTermMemoryLSTMImprovingRNNs_1.png)
 
@@ -44,8 +59,18 @@ Recurrent Neural Networks(RNN)은 일반적인 피드포워드 신경망의 변�
 
 ![image](/assets/img/2024-06-19-LongShortTermMemoryLSTMImprovingRNNs_2.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래에서:
 
@@ -59,8 +84,18 @@ Recurrent Neural Networks(RNN)은 일반적인 피드포워드 신경망의 변�
 V, U 및 W의 가중 행렬은 시간에 걸쳐 백프로파게이션을 통해 찾아집니다. 이는 백프로파게이션 알고리즘의 한 변형에 불과합니다.
 시각적으로는 이렇게 보입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-19-LongShortTermMemoryLSTMImprovingRNNs_3.png)
 
@@ -70,8 +105,18 @@ If you want a full intro to RNNs then check out my previous blog.
 
 # Vanishing & Exploding Problem
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 RNN의 긍정적인 측면 중 하나는 각 계층이 U, W 및 V의 가중 행렬을 공유하지만, 정규 피드포워드 신경망은 각 계층마다 자체 가중 행렬을 갖는다는 것입니다. 이로 인해 RNN은 더 메모리를 효율적으로 사용할 수 있습니다.
 
@@ -81,8 +126,18 @@ RNN은 backpropagation through time (BPTT)라는 backpropagation 알고리즘의
 
 BPTT의 일반적인 공식은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image 1](/assets/img/2024-06-19-LongShortTermMemoryLSTMImprovingRNNs_4.png)
 
@@ -92,8 +147,18 @@ RNN은 일반적인 신경망보다 더 깊은 경향이 있습니다(각 시간
 
 ![image 2](/assets/img/2024-06-19-LongShortTermMemoryLSTMImprovingRNNs_5.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 관심 있는 독자를 위해, 왜 이런 일이 발생하는지의 수학적인 전체 분석은 여기서 찾을 수 있어요. 이것은 고유값과 야코비안 행렬과 같은 재미있는 것들이 관련돼 있습니다!
 
@@ -101,10 +166,21 @@ RNN은 일반적인 신경망보다 더 깊은 경향이 있습니다(각 시간
 
 사라지는 그라디언트와 폭발하는 그라디언트 문제를 잘 보여주는 좋은 예시는 Stanford의 CS224D 수업에서 제시되었습니다. 두 개의 문장을 생각해보세요:
 
-- "제인이 방으로 들어갔어요. 존도 들어왔어요. 제인이 ___에게 안녕했어요."
-- "제인이 방으로 들어갔어요. 존도 들어왔어요. 늦었고, 모두가 긴 하루 일과를 마치고 집으로 향했어요. 제인이 ___에게 안녕했어요."
+- "제인이 방으로 들어갔어요. 존도 들어왔어요. 제인이 \_\_\_에게 안녕했어요."
+- "제인이 방으로 들어갔어요. 존도 들어왔어요. 늦었고, 모두가 긴 하루 일과를 마치고 집으로 향했어요. 제인이 \_\_\_에게 안녕했어요."
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떤 경우에도 빈 공간은 아마도 존을 가리키는 것입니다. RNN은 이 맥락을 학습하여 두 문장 모두 출력이 존임을 이해해야 합니다.
 
@@ -114,7 +190,18 @@ RNN은 일반적인 신경망보다 더 깊은 경향이 있습니다(각 시간
 
 그래서, 이 문제에 대해 어떻게 해결할까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 롱-숏텀 메모리
 
@@ -124,13 +211,21 @@ LSTMs는 1997년 Hochreiter & Schmidhuber에 의해 소개되었으며, 그 기�
 
 일반적인 RNN에서는 순환 셀이 다음과 같이 보입니다:
 
+| Table | Tag |
+| ----- | --- |
 
-|  Table  |  Tag   |
-|---------|--------|
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
-
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Long Short Term Memory - LSTM Improving RNNs](/assets/img/2024-06-19-LongShortTermMemoryLSTMImprovingRNNs_6.png)
 
@@ -140,8 +235,18 @@ However, the LSTM cell is a lot more complicated:
 
 I appreciate there is a lot going on here, but lets break it down step by step.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 셀 상태
 
@@ -151,9 +256,20 @@ I appreciate there is a lot going on here, but lets break it down step by step.
 
 ## 잊기 게이트
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-LSTM의 첫 번째 단계는 forget gate입니다. 이 게이트는 이전 셀 상태 C_'t-1'에서 어떤 이전 정보를 삭제할지 결정하는 역할을 합니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+LSTM의 첫 번째 단계는 forget gate입니다. 이 게이트는 이전 셀 상태 C\_'t-1'에서 어떤 이전 정보를 삭제할지 결정하는 역할을 합니다.
 
 ![이미지](/assets/img/2024-06-19-LongShortTermMemoryLSTMImprovingRNNs_8.png)
 
@@ -161,24 +277,45 @@ LSTM의 첫 번째 단계는 forget gate입니다. 이 게이트는 이전 셀 �
 
 - σ: 시그모이드 활성화 함수.
 - W_f: forget gate의 가중치 행렬.
-- h_'t−1': 이전 시간 단계의 출력.
+- h\_'t−1': 이전 시간 단계의 출력.
 - x_t: 시간 단계 t의 입력.
 - b_f: forget gate의 편향.
 - f_t: 0과 1 사이의 값을 가지는 forget gate 출력.
 - X_t: 현재 입력.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-출력 f_t는 이전 셀 상태 C_'t-1'에 곱해져 어떤 요소를 잊어야 하는지 수정합니다. 시그모이드 함수 덕분에 값은 0과 1 사이에 있으며, 0은 잊기를 의미하고 1은 기억에 추가됩니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+출력 f*t는 이전 셀 상태 C*'t-1'에 곱해져 어떤 요소를 잊어야 하는지 수정합니다. 시그모이드 함수 덕분에 값은 0과 1 사이에 있으며, 0은 잊기를 의미하고 1은 기억에 추가됩니다.
 
 W_f 행렬에서 올바른 값을 찾아 역전파를 통해 이 정보를 학습합니다. 이를 통해 우리는 기억할지 잊을지를 결정할 수 있습니다.
 
 ## 입력 게이트 및 후보 셀 상태
 
-입력 게이트 i_t는 다음 단계이지만 현재 시간 단계에서 셀 상태에 추가할 새로운 기억을 결정합니다. 후보 셀 상태 C*_t는 셀 상태에 추가할 가능한 모든 정보를 보유합니다.
+입력 게이트 i_t는 다음 단계이지만 현재 시간 단계에서 셀 상태에 추가할 새로운 기억을 결정합니다. 후보 셀 상태 C\*\_t는 셀 상태에 추가할 가능한 모든 정보를 보유합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-19-LongShortTermMemoryLSTMImprovingRNNs_9.png)
 
@@ -190,25 +327,46 @@ Where:
 - W_c: 후보 셀 상태용 가중치 행렬.
 - b_i: 입력 게이트용 편향
 - b_c: 후보 셀 상태용 편향.
-- C*_t: 후보 셀 상태, -1과 1 사이의 출력 값.
+- C\*\_t: 후보 셀 상태, -1과 1 사이의 출력 값.
 - i_t: 0과 1 사이의 입력 게이트 출력.
-- h_'t-1': 이전 숨은 상태.
+- h\_'t-1': 이전 숨은 상태.
 - X_t: 현재 입력.
 
 tanh을 사용하면 셀 상태를 증가시키거나 감소시킬 수 있습니다. tanh는 출력을 -1과 1 사이로 압축하기 때문입니다. 시그모이드는 기억에 새로운 것을 추가하기 위해 이전 게이트와 유사한 이유로 사용됩니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-입력 게이트는 특히 이전 셀 상태C_'t-1'입니다.
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+입력 게이트는 특히 이전 셀 상태C\_'t-1'입니다.
 
 ## 셀 상태 업데이트
 
-우리는 후보 셀 상태 C*_t 에서 새로운 셀 상태 C_t로 관련 정보만 추가하려고 합니다. 이를 위해 후보 셀 상태를 입력 게이트 i_t 와 곱하고 이를 잊어버린 게이트 f_t 와 이전 셀 상태 C_'t-1' 의 곱과 더할 수 있습니다.
+우리는 후보 셀 상태 C\*_t 에서 새로운 셀 상태 C_t로 관련 정보만 추가하려고 합니다. 이를 위해 후보 셀 상태를 입력 게이트 i_t 와 곱하고 이를 잊어버린 게이트 f_t 와 이전 셀 상태 C_'t-1' 의 곱과 더할 수 있습니다.
 
 ![image](/assets/img/2024-06-19-LongShortTermMemoryLSTMImprovingRNNs_10.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 작업은 좀 더 친숙한 느낌을 주려고 세포 상태를 갱신했습니다. 관련 없는 정보는 잊어버리고 필요한 새로운 정보를 추가했어요.
 
@@ -218,8 +376,18 @@ tanh을 사용하면 셀 상태를 증가시키거나 감소시킬 수 있습니
 
 그 출력값은 새로운 셀 상태의 tanh 값과 곱해져서 원하는 값만을 출력합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-19-LongShortTermMemoryLSTMImprovingRNNs_11.png)
 
@@ -231,14 +399,24 @@ Where:
 - b_o: 편향.
 - o_t: 출력 상태.
 - h_t: 새로운 은닉 상태.
-- h_'t-1': 이전 은닉 상태.
+- h\_'t-1': 이전 은닉 상태.
 - X_t: 현재 입력.
 - C_t: 새로운 셀 상태.
 
 그게 전부에요! 언급할 중요한 점은 모든 가중치 행렬이 BPTT를 사용하여 어떤 요소를 잊고 기억할지 학습해야 한다는 것입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 변형
 
@@ -252,7 +430,18 @@ Where:
 
 이 글에서 이러한 모두를 다루는 것은 범위를 벗어나지만, 관심 있는 독자는 위에 제공된 링크에서 자세히 알아볼 수 있습니다. 다음 글에서는 게이트 순환 유닛에 대해 다룰 예정입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 요약 및 더 깊은 생각
 
@@ -262,7 +451,18 @@ LSTMs는 처음에는 무서워 보일 수 있지만, 이 글을 통해 조금 �
 
 저는 '데이터 소스 공유', 매주 공유하는 더 나은 데이터 과학자가 되는 팁, 업계에서의 일반적인 경험, 지난 주에 한 생각들을 나누는 무료 뉴스레터를 운영하고 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 나와 소통해요!
 

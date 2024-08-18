@@ -3,17 +3,13 @@ title: "직장에서 나쁜 하루를 극복하는 방법  효과적인 전략 �
 description: ""
 coverImage: "/assets/img/2024-07-25-HowtoDealWithaBadDayatWork_0.png"
 date: 2024-07-25 11:53
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-25-HowtoDealWithaBadDayatWork_0.png
 tag: Tech
 originalTitle: "How to Deal With a Bad Day at Work"
 link: "https://medium.com/code-like-a-girl/how-to-deal-with-a-bad-day-at-work-b23a3c3c3c1d"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-07-25-HowtoDealWithaBadDayatWork_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 한 가지 실수, 한 가지 불규칙, 하나의 기대치 불일치만 남겨두고는 마치 여러분의 일상이 무너져 내릴 것만 같은 느낌을 받을 것입니다. 모든 삶의 선택지를 의심하기 시작할 수 있습니다 - 비록 그것들이 무관하다 하더라도요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신이 현 상황이 불공평하거나 나쁘다고 생각할수록 기분이 나빠집니다. 종종 당신의 마음은 업무와 가정 사이를 전환하는 데 적응되어 있지 않아요, 그래서 업무가 잘 안 풀릴 때, 그 스트레스, 불안, 불행함이 개인 생활로 스며들어요. 업무에서 나쁜 하루를 견디고 집에서 행복한 표정을 짓는 건 그냥 할 수 없어요. 당신은 사람이고 로봇이 아니에요.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 당신이 업무에서 나쁜 하루를 보낼 때, 강렬한 감정이 당신의 마음과 몸을 장악해요. 가슴의 긴장, 빠른 심장 박동, 땀 넘어 오는 손, 식욕이 줄어들거나 다른 부작용을 느낄 수도 있어요. 당신이 몸에서 느끼는 것은 마음에도 영향을 미치고요 — 그 부정적인 감정을 일으킨 것이 마음에도 반복해서 들려오는 녹음 테이프처럼 재생돼요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 노아잠 스팬서는 오타바인 대학 심리학 교수이자 불안장애 치료를 전문으로 하는 임상 심리학자로, 이렇게 말합니다.
 
@@ -41,7 +59,18 @@ isUpdated: true
 
 노아는 감정 수용을 회피보다 더 나은 전략이라고 부르며, 감정을 수용하고 인식하며 흡수하는 것은 밀어내는 것보다 더 적은 에너지가 필요합니다. 대신 목표와 가치와 일치하는 행동을 추구할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그가 말하는 바는
 
@@ -53,18 +82,40 @@ isUpdated: true
 - 누구를 탓하지 말고, 불평하지 말고, 다음에 같은 문제가 다시 일어나지 않도록 어떻게 할 수 있는지를 꼭 생각해보세요.
 - 다른 사람 때문에 고통을 받고 있다면, 개인적으로 받아들이지 마세요. 남의 나쁜 행동은 당신이 누군지를 반영하는 것이 아닙니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 2: 스스로에게 느리게 가는 것을 허용하세요
 
 일을 한 나쁜 날이 당신의 일정을 사라지게 만들지는 않습니다. 그저 그 일정이 압도되는 것입니다. 내적 세계가 혼란스러울 때 미래는 어둡게 보입니다. 인지 자원이 부족하면 마음이 앞에 있는 모든 일에 집중할 수 없습니다 - 당신은 그렇지 않았다면 쉬운 작업에 고생하게 됩니다.
 
-이 상황에서 대부분의 사람들은 다음 중 하나를 합니다: 
+이 상황에서 대부분의 사람들은 다음 중 하나를 합니다:
 
 - 자기 비판에 빠지거나: 최선을 다하지 못했다고 자신에게 너무 엄격합니다.
 - 계속 전진하려고 노력하거나: 스스로에게 행동을 취하도록 강요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일이 잘 안 풀리는 날이면 자신을 꾸준히 깎아 내리는 것은 더욱 의욕을 상실시킬 뿐입니다. 옛날식 협박과 매듭은 효과적이지 않죠. 또한 스트레스를 풀고 나가라고 자신에게 말하는 것은 정신 건강과 개인의 복지에 영향을 줄 수 있습니다.
 
@@ -74,7 +125,18 @@ isUpdated: true
 
 연구 결과는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 자기동정은 감정적 회복력과 심리적 안녕감과 강력한 관련이 있습니다.
 - 이는 부정적인 감정이 발생할 때 발생하는 피하기 성향을 억제할 수 있습니다.
@@ -86,7 +148,18 @@ isUpdated: true
 
 일이 잘 안 풀릴 때, 자기를 활기차게 하는 어떤 일이라도 하는 것은 분위기를 바꾸는 데 도움이 됩니다. 단지 잠시라도 부정성에서 벗어나면, 처음에 보이는 것보다 모든 것이 그렇게 나쁘지 않음을 알 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 빅터 프랭클은 '의미 찾기'라는 책의 저자로 유명하며 —
 
@@ -96,7 +169,18 @@ isUpdated: true
 
 그 감정을 오래 유지하기 위해 당신의 강점과 기술, 과거의 성취 또는 잘한 일들을 고려해보세요. 그것들을 적어내면 당신의 마음속에 있는 부정적인 생각을 긍정적인 행동과 행위로 교체할 것입니다. 당신은 파괴적인 생각에서 건설적인 행동으로 전환하는 데 영감을 받을 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하루 일들로 실망했을 수도 있지만, 이 실망은 절망과 무력감으로 이어지지 않을 거에요. 한 가지 나쁜 일에 묶여 물러나는 대신 앞으로 나아갈 동기부여를 받게 될 거에요.
 
@@ -106,7 +190,18 @@ isUpdated: true
 
 현재 상황의 불쾌함이 마음을 사로잡으면 미래를 보기 힘들어요. 장기적으로 중요하지 않은 일에 집착하기 시작하고, 잘못된 것을 옳게 만드려고 하면서 시간과 주의를 할애할 가치 없는 문제를 해결하려고 분주해져요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 미래를 대비하며 매일을 같은 방식으로 대응하는 대신, 이런 질문들을 통해 이야기에 새로운 차원을 불어넣어보세요:
 
@@ -118,7 +213,18 @@ isUpdated: true
 
 앞으로 나쁜 날이 찾아왔을 때, 절망에 허물지 마세요. 이는 당신의 감정과 연결할 수 있는 기회로 삼아, 천천히 행동을 취하고, 재미있는 일을 하며 자신의 우선순위를 재평가해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 요약
 

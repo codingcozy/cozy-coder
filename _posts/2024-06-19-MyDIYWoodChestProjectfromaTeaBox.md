@@ -3,17 +3,13 @@ title: "내 차가운 차 상자에서 만든 DIY 목 장식 상자 프로젝트
 description: ""
 coverImage: "/assets/img/2024-06-19-MyDIYWoodChestProjectfromaTeaBox_0.png"
 date: 2024-06-19 02:39
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-MyDIYWoodChestProjectfromaTeaBox_0.png
 tag: Tech
 originalTitle: "My DIY Wood Chest Project from a Tea Box"
 link: "https://medium.com/the-diy-diaries/my-diy-wood-chest-project-from-a-tea-box-091582514c43"
 isUpdated: true
 ---
-
-
-
-
 
 ## THE DIY DIARIES/JAPANESE/TEA BOXES/RECYCLING
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 사람들은 여전히 "spoon(스푼)"이라고 말할까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 작은 일본집 근처에서 Chabako를 판매하는 곳을 발견했어요. Chabako는 루즈 티를 배송하는 데 사용되는 일본 목재 상자에요.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 우리 소파는 우리가 일본을 떠나고 난 후 동일한 가격에 도착한 부부에게 팔렸어요. 꽤 좋았어요 — 우리는 차도 그렇게 했거든.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우드는 잣목입니다. 배송 라벨을 제거한 후 상자를 갈아내고 다듬어서 아름답고 러스틱한 모습의 수납 상자들을 만들었어요. 이것들은 오늘까지 사용 중이며, 45년 전에는 멋진 엔드 테이블로 사용되었죠.
 
@@ -43,8 +61,18 @@ isUpdated: true
 
 측면의 건설 세부사항에 주목해주세요. 연결 부분은 나누어 놓았고, 상자는 매우 튼튼하여 국제적이고 국내적인 여러 번의 이사를 고르게 견디었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![My DIY Wood Chest Project from a Tea Box](/assets/img/2024-06-19-MyDIYWoodChestProjectfromaTeaBox_1.png)
 
@@ -54,8 +82,18 @@ isUpdated: true
 
 만약 한 개를 보게 되면, 그냥 사 버리세요.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 품질이 아주 좋아요. 아연 메탈 안쪽은 담는 물건을 안전하게 보호해주고 벌레가 들어가는 것을 막아줘요.
 
@@ -65,7 +103,18 @@ isUpdated: true
 
 그리고 저렴하게 구입할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 청동 모서리는 4개에 $9.59이었고 레트로 청동 잠금장치는 아마존에서 2개에 $7.99였어요.
 
@@ -75,7 +124,18 @@ isUpdated: true
 
 차바코 상자는 에도 시대에 형태를 갖추기 시작했는데, 그때부터 일본이 차를 수출 상품으로 발송하기 시작했기 때문이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스즈오카 현은 차 수출을 위한 차 박스가 개발되었고 대부분의 상자가 만들어진 중요한 차 생산지였습니다.
 
@@ -85,7 +145,18 @@ isUpdated: true
 
 일본 차에 대해 많이 이야기하다보니, 제가 차를 마시기로 결심했어요. 스타벅스 컵에서 마셔도 되는 건가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 적어도 도쿄 스타벅스 컵이라니요.
 
@@ -95,7 +166,18 @@ isUpdated: true
 
 분명히 있을 거예요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "Amanda Laughtland의 저술 "The DIY Diaries"에서 발행을 고려해보세요.
 

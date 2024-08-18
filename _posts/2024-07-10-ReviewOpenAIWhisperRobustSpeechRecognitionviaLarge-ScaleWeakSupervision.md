@@ -3,17 +3,13 @@ title: "리뷰  OpenAI Whisper 대규모 약식 감독을 통한 강력한 음�
 description: ""
 coverImage: "/assets/img/2024-07-10-ReviewOpenAIWhisperRobustSpeechRecognitionviaLarge-ScaleWeakSupervision_0.png"
 date: 2024-07-10 00:21
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-10-ReviewOpenAIWhisperRobustSpeechRecognitionviaLarge-ScaleWeakSupervision_0.png
 tag: Tech
 originalTitle: "Review — OpenAI Whisper: Robust Speech Recognition via Large-Scale Weak Supervision"
 link: "https://medium.com/@sh-tsang/review-openai-whisper-robust-speech-recognition-via-large-scale-weak-supervision-f7b9bb646356"
 isUpdated: true
 ---
-
-
-
-
 
 ## OpenAI Whisper for Speech-to-Text (STT)
 
@@ -23,7 +19,18 @@ Hey there! OpenAI Whisper for Speech-to-Text (STT) has achieved some amazing res
 
 Curious about the different versions of Whisper? Let's explore them further.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **위스퍼(Whisper)**의 여러 버전이 있습니다: 2022년 9월 (원본 시리즈), 2022년 12월 (large-v2) 및 2023년 11월 (large-v3).
 
@@ -33,7 +40,18 @@ Curious about the different versions of Whisper? Let's explore them further.
 
 **Whisper-v3**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 큰-v3의 Whisper-v3는 이전의 큰 모델과 동일한 구조를 가지고 있지만 다음과 같은 작은 차이가 있습니다:
 
@@ -44,7 +62,18 @@ Curious about the different versions of Whisper? Let's explore them further.
 
 # 개요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 속삭임 (원본 속삭임-v1 논문에서)
 - 결과
@@ -55,7 +84,18 @@ Curious about the different versions of Whisper? Let's explore them further.
 
 ## 1.1. 데이터셋
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 여기에는 여전히 많은 다른 단계들이 있습니다.
 
@@ -63,7 +103,18 @@ Curious about the different versions of Whisper? Let's explore them further.
 
 - 특징 정규화를 위해 입력은 사전 훈련 데이터셋 전체에 걸쳐 대략적으로 제로 평균을 갖도록 전역적으로 -1과 1 사이로 스케일 조정됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1.3. 모델
 
@@ -89,7 +140,18 @@ Curious about the different versions of Whisper? Let's explore them further.
 - 마지막으로, `|endoftranscript|` 토큰이 추가됩니다.
 - 위 그림은 예시를 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1.5. 훈련 세부 정보
 
@@ -101,7 +163,18 @@ Curious about the different versions of Whisper? Let's explore them further.
 
 # 2. 결과
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **2.1. 제로샷 평가**
 
@@ -111,7 +184,18 @@ Curious about the different versions of Whisper? Let's explore them further.
 
 - 제로샷 Whisper 모델은 LibriSpeech clean-test WER 지수가 2.5로, 현대의 감독된 기준선이나 2019년 중반의 최신 기술과 비슷한 수준의 성능을 보입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 모델의 zero-shot 및 out-of-distribution 평가는 특히 인간의 성능과 비교할 때 중요합니다. 기계 학습 시스템의 성능을 과대포장하지 않기 위해 오해를 일으킬 수 있는 비교를 피하기 위함이죠.
 
@@ -121,7 +205,18 @@ Curious about the different versions of Whisper? Let's explore them further.
 
 ![image](/assets/img/2024-07-10-ReviewOpenAIWhisperRobustSpeechRecognitionviaLarge-ScaleWeakSupervision_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2.3. 음성 번역
 
@@ -131,7 +226,18 @@ Curious about the different versions of Whisper? Let's explore them further.
 
 ![이미지](/assets/img/2024-07-10-ReviewOpenAIWhisperRobustSpeechRecognitionviaLarge-ScaleWeakSupervision_8.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2.5. 호함성 추가 소음
 
@@ -141,8 +247,18 @@ Curious about the different versions of Whisper? Let's explore them further.
 
 ## 2.6. 장문 전사
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-07-10-ReviewOpenAIWhisperRobustSpeechRecognitionviaLarge-ScaleWeakSupervision_10.png)
 
@@ -153,8 +269,18 @@ Curious about the different versions of Whisper? Let's explore them further.
 
 ## 2.7. 사람의 성능과 비교
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **2.8. Model Scaling**
 
@@ -162,11 +288,22 @@ Curious about the different versions of Whisper? Let's explore them further.
 
 **2.9. Dataset Scaling**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-**마법사의 비밀의 힘을 이용한 강력한 대규모 소음 지도를 통한 음성 인식**    
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+**마법사의 비밀의 힘을 이용한 강력한 대규모 소음 지도를 통한 음성 인식**
 
 - 라벨이 달린 오디오 시간이 68만 시간에 이르는 Whisper 데이터 세트는 지도 학습 음성 인식을 위해 만들어진 가장 큰 데이터 세트 중 하나입니다.
 - 전체 데이터 세트 크기의 0.5%, 1%, 2%, 4%, 8%에 대해 훈련이 이루어졌습니다.
 
-- (다른 실험들도 여전히 진행 중이니, 관심이 있다면 논문을 직접 읽어보세요.)  
+- (다른 실험들도 여전히 진행 중이니, 관심이 있다면 논문을 직접 읽어보세요.)

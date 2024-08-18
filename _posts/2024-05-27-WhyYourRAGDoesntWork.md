@@ -3,16 +3,13 @@ title: "왜 RAG가 작동하지 않는지"
 description: ""
 coverImage: "/assets/img/2024-05-27-WhyYourRAGDoesntWork_0.png"
 date: 2024-05-27 14:46
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-WhyYourRAGDoesntWork_0.png
 tag: Tech
 originalTitle: "Why Your RAG Doesn’t Work"
 link: "https://medium.com/@cdg2718/why-your-rag-doesnt-work-9755726dd1e9"
 isUpdated: true
 ---
-
-
-
 
 ## RAG은 아직 유망한 기술이지만, 오늘은 조금 힘든 상황이에요.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 우리의 목표는 Vanilla RAG가 실패하는 주요 이유를 해소하고, 귀하의 RAG를 생산 단계에 한 발 다가가게 하는 구체적인 전략과 전술을 제시하는 것이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 포스트에서는 다음을 다룰 것입니다:
 
@@ -35,7 +43,18 @@ isUpdated: true
 
 # 왜 RAG를 사용해야 하는가?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 RAG (Retrieval Augmented Generation)은 현재 하이프 사이클을 경험하고 있는 패러다임입니다. 명확하고 본질적으로 당신의 인공지능을 위한 검색 엔진인 것 같아요. 예전에 음악가가 되고 싶다고 했던 저로서는 누군가가 이것을 ROCK (Curated Knowledge의 검색?라도 부르는 게 더 좋았을 것 같아요.
 
@@ -45,8 +64,18 @@ RAG는 GPT-3이 대박 히트한 이후 급부상했습니다. LLM(언어모델)
 
 이론상으로는 좋아보였지만, 실제 생산용 RAG를 만드는 데 중요한 도전이 있었는데, 이를 다음 섹션에서 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-05-27-WhyYourRAGDoesntWork_0](/assets/img/2024-05-27-WhyYourRAGDoesntWork_0.png)
 
@@ -56,8 +85,18 @@ RAG is merely a framework, and a perfectly functioning RAG, no matter its backen
 
 ![2024-05-27-WhyYourRAGDoesntWork_1](/assets/img/2024-05-27-WhyYourRAGDoesntWork_1.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 아이디어들을 더 자세히 살펴봅시다.
 
@@ -67,7 +106,18 @@ RAG is merely a framework, and a perfectly functioning RAG, no matter its backen
 
 벡터는 널리 사용되며 매우 유용한 도구입니다. 왜냐하면 비양적인 요소들을 1) 다양한 차원으로 분해하고, 2) 양적으로 비교할 수 있기 때문입니다. 몇 가지 예시는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - (빨강, 초록, 파랑) 색상 팔레트는 각 값이 0부터 255 사이에 있는 벡터입니다.
 - Barra와 같은 산업 표준을 이용하면 주식을 넓은 미국 성장, 이자율 변화 등과 같은 경제 요인에 대한 민감도를 양적으로 나타낼 수 있는 벡터로 표현할 수 있습니다.
@@ -79,7 +129,18 @@ RAG is merely a framework, and a perfectly functioning RAG, no matter its backen
 
 그러나 코사인 유사도와 같은 벡터 비교 메트릭은 절대적인 의미가 없기 때문에 다루기 까다로울 수 있습니다. 값은 완전히 임베딩 모델 및 관련 텍스트의 맥락에 따라 달라집니다. 질문과 답변을 매치시켜 코사인 유사도가 0.73이 나왔다고 가정해 봅시다. 이것이 좋은 일치인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 빠른 예시로 "비란 무엇인가?"라는 질문을 들고, 관련성이 다른 세 가지 텍스트와 비교해 보겠습니다. 아래 표에서 두 가지 다른 OpenAI 모델을 사용한 코사인 유사도의 범위와 해석이 극명하게 다르다는 것을 확인할 수 있습니다. 첫 번째 모델에서 0.73은 완전히 관련 없는 매치를 나타내지만, 두 번째 모델에서는 0.73이 높은 관련성을 나타냅니다. 이는 잘 작동하는 RAG 시스템이 사용하는 이 점수의 의미를 이해하는 것이 필요하다는 것을 보여줍니다.
 
@@ -87,7 +148,18 @@ RAG is merely a framework, and a perfectly functioning RAG, no matter its backen
 
 바닐라 RAG와 관련된 여러 가지 문제는 의미적 불일치와 임베딩의 낮은 설명력으로 인해 발생할 수 있습니다. 의미적 불일치는 작업의 의도하는 의미, RAG의 그 이해 및 저장된 기본 지식 사이의 불일치를 의미합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떻게 작용하는 건가요?
 
@@ -97,7 +169,18 @@ RAG is merely a framework, and a perfectly functioning RAG, no matter its backen
 
 변호사가 수천 개의 문서에서 투자자 사기 증거를 찾아야 할 때를 상상해보세요. "어떤 증거가 Bob이 금융 사기를 저질렀다는 것을 보여줄까요?"라는 질문은 본질적으로 "Bob이 3월 14일에 주식 XYZ를 샀다"와는 의미적 중첩이 없습니다. (거기서 암시적으로 XYZ가 경쟁사이고 3월 14일은 수익 발표 일주 전임).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 벡터 임베딩과 코사인 유사도는 모호합니다
 
@@ -107,7 +190,18 @@ RAG is merely a framework, and a perfectly functioning RAG, no matter its backen
 
 인터넷에서 학습된 임베딩 모델은 당신의 비즈니스와 도메인에 대한 이해가 없습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 Stripe에서 일했었어요. Stripe에는 Connect, Radar, Link와 같은 제품들이 있었죠. 더불어 Direct이라는 단어는 제품에 따라 의미가 매우 다르게 해석되는 경우가 많아서, 직원들 사이에서 심지어 의미론적인 불일치가 눈에 띄었어요. 이는 Stripe 내에서조차 의사소통에 어려움을 줄 수 있다는 것을 의미합니다. 이는 자세히 탐구할 가치가 있는 중요한 주제이며, 별도의 블로그 포스트로 발행할만한 주제입니다.
 
@@ -117,7 +211,18 @@ RAG is merely a framework, and a perfectly functioning RAG, no matter its backen
 
 이 그림에서는 당신의 RAG에서 완전한 의미 불일치를 진단할 것입니다 - 즉, 비교 결과가 무작위 잡음과 일관성이 없어 신뢰할 수 없을 때입니다. 또한 추가적인 구조를 통해 성능을 향상시키는 조치의 초기 신호를 확인할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예시는 실제 사용 사례에서 나온 내용이지만, 이 블로그 글의 목적을 위해 일부러 단순화했습니다. 이런 식으로 자세하게 설명하면서 주요 포인트를 보여주려는 목적입니다.
 
@@ -127,7 +232,18 @@ RAG is merely a framework, and a perfectly functioning RAG, no matter its backen
 
 예를 들어, 내부 사용을 위한 RAG를 구축 중인 전자 상거래 스타트업의 사용 사례를 상상해보세요. 주어진 비즈니스 질문에 가장 적합한 SQL 테이블을 찾는 예시 설정을 아래에 보여드립니다. 이 예시의 설정은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1. ChatGPT를 사용하여 두 가지 다른 SQL 테이블 스키마를 만들었습니다.
 
@@ -141,7 +257,18 @@ RAG is merely a framework, and a perfectly functioning RAG, no matter its backen
 - 시간당 몇 초 이내에 비정상적인 행동이 있나요?
 - 뉴이어의 주요 이벤트 주변에 사용자 참여가 어떻게 변화하나요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. ChatGPT를 사용하여 생성된 추가 메타데이터는 다음을 포함합니다.
 
@@ -152,7 +279,18 @@ RAG is merely a framework, and a perfectly functioning RAG, no matter its backen
 
 5. 랭킹을 위해 네 가지 다른 검색 전략을 비교하여 입력과 "가장 의미론적으로 유사한" 텍스트 유형을 확인했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 전략 1: 테이블 스키마만
 - 전략 2: 테이블 스키마 + 간단한 설명
@@ -165,7 +303,18 @@ RAG is merely a framework, and a perfectly functioning RAG, no matter its backen
 
 ![이미지](/assets/img/2024-05-27-WhyYourRAGDoesntWork_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 네! 다시 작성하면 다음과 같습니다.
 
@@ -177,7 +326,18 @@ RAG is merely a framework, and a perfectly functioning RAG, no matter its backen
 
 주요 포인트
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요약하자면, 우리는 먼저 코사인 유사성 값의 기준 범위를 구축했습니다. 이 값은 무작위 쓰레기와의 비교를 나타냅니다. 그런 다음 네 가지 다른 검색 전략을 비교했습니다. 개발한 기준을 사용하여 두 전략이 잡음과 일관성이 있는 것으로 보였습니다. 최상의 전략은 비즈니스 질문을 원시 SQL 테이블에 직접 일치시키지 않고 테이블이 답변을 제공하는 예시 비즈니스 질문에 일치시켰습니다.
 
@@ -187,7 +347,18 @@ RAG is merely a framework, and a perfectly functioning RAG, no matter its backen
 
 데이터를 정리하여 사과와 사과를 비교할 수 있도록 만드는 것
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 예시에서 RAG를 개선할 수 있는 추가 구조를 사용할 수 있다는 조짐을 보았습니다. 이는 먼저 질문을 기존 질문 은행에 연결한 후 해당 은행이 올바른 답변을 제시하도록 하는 것을 의미합니다. 이 과정은 질문을 한 번에 올바른 텍스트에 직접 연결하는 것과는 다릅니다.
 
@@ -201,7 +372,18 @@ RAG is merely a framework, and a perfectly functioning RAG, no matter its backen
 - 올바른 문서와 두 번째 순위 문서 간의 코사인 유사도 차이가 가장 높은 질문들을 식별하여 가장 높은 품질의 질문들을 정렬
 - 인간에게 추가 검토를 요청
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시맨틱 + 관련성 순위 매기기
 
@@ -211,7 +393,18 @@ RAG is merely a framework, and a perfectly functioning RAG, no matter its backen
 
 rank = (코사인 유사성) + (가중치) x (관련성 점수)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AI를 사용할 때 쇠사슬이 아니라 면도날을 사용하듯이
 
@@ -221,7 +414,18 @@ ChatGPT 및 많은 신흥 생태계가 "어떤 텍스트를 주면 어떤 텍스
 
 분석을 예로 들면, 오늘날 아무도 임의의 데이터 질문을 받아 정확한 SQL 쿼리를 제공하는 약속을 이행하지 못했습니다. 그러나 풀리지 않을 것이라고 낙담하지 말고 여전히 놀랍도록 유용한 기술을 만들 수 있습니다. 예를 들어, 더 명확한 AI는 데이터 과학자가 선별한 SQL 테이블과 템플릿 쿼리의 고정된 데이터 우주에서 사용자들이 검색할 수 있도록 도와줄 수 있습니다. 더 나아가, 대부분의 데이터 중심 비즈니스 질문이 과거에 답변되었기 때문에, 여러분의 AI가 단순히 Slack에서 데이터 질문에 대한 검색 봇일 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 마무리 말씀
 

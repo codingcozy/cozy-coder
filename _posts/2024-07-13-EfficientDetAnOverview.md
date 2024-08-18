@@ -3,17 +3,13 @@ title: "EfficientDet 효율적인 객체 검출 모델 소개"
 description: ""
 coverImage: "/assets/img/2024-07-13-EfficientDetAnOverview_0.png"
 date: 2024-07-13 22:36
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-EfficientDetAnOverview_0.png
 tag: Tech
 originalTitle: "EfficientDet: An Overview"
 link: "https://medium.com/@zakhtar2020/efficientdet-an-overview-c51b65ed7fcb"
 isUpdated: true
 ---
-
-
-
-
 
 ![EfficientDet](/assets/img/2024-07-13-EfficientDetAnOverview_0.png)
 
@@ -33,7 +29,18 @@ Compound Scaling은 효율적인 모델 스케일링 방법으로, 다양한 모
 
 이렇게 이번에 EfficientDet에 대해 알아보았어요! 계속해서 함께 공부해요.🔮✨
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4. 효율적인 머리
 
@@ -43,7 +50,18 @@ Compound Scaling은 효율적인 모델 스케일링 방법으로, 다양한 모
 
 # 7. 예시
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 8. 결론
 

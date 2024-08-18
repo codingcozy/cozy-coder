@@ -3,17 +3,13 @@ title: "Windows에서 네트워크 폴더에서 파일 복원하는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-19-HowtoRestoreFilesfromNetworkFoldersonWindows_0.png"
 date: 2024-06-19 15:36
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-HowtoRestoreFilesfromNetworkFoldersonWindows_0.png
 tag: Tech
 originalTitle: "How to Restore Files from Network Folders on Windows"
 link: "https://medium.com/@kjavaman12/how-to-restore-files-from-network-folders-on-windows-907bf6a067bb"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-19-HowtoRestoreFilesfromNetworkFoldersonWindows_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 네트워크 폴더가 Windows Server에 있는 경우 "이전 버전" 기능 또는 Shadow Copies라고도 불리우는 기능을 활용할 수 있습니다. 이 기능은 시간에 따라 폴더의 스냅숏을 자동으로 생성하여 파일을 복원할 수 있게 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 네트워크 폴더로 이동하세요: 파일이 삭제된 네트워크 폴더에서 마우스 오른쪽 버튼을 클릭해주세요.
 - 폴더 속성에 액세스하세요: 컨텍스트 메뉴에서 "속성"을 선택하세요.
@@ -37,7 +44,18 @@ isUpdated: true
 - Windows 이외의 서버: 네트워크 저장소가 Windows 이외의 서버나 클라우드 서비스에 호스팅된 경우, 해당 서비스가 유사한 파일 복구 기능 또는 스냅샷을 제공하는지 확인하세요.
 - 제3자 솔루션: 네트워크 폴더를 위한 견고한 파일 복구 옵션을 제공하는 제3자 도구들이 있습니다. 이러한 도구는 Windows의 기본 기능 이상의 추가 기능을 제공할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 개요
 

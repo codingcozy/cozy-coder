@@ -3,17 +3,13 @@ title: "작은 머신러닝  XGBoost 회귀"
 description: ""
 coverImage: "/assets/img/2024-06-19-TinyMLXGBoostRegression_0.png"
 date: 2024-06-19 05:58
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-TinyMLXGBoostRegression_0.png
 tag: Tech
 originalTitle: "TinyML — XGBoost (Regression)"
 link: "https://medium.com/@thommaskevin/tinyml-xgboost-regression-d2b513a0d237"
 isUpdated: true
 ---
-
-
-
-
 
 수학적 기초부터 엣지 구현까지
 
@@ -26,7 +22,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-19-TinyMLXGBoostRegression_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 요약
 
@@ -36,7 +43,18 @@ isUpdated: true
 
 타겟 값 yᵢ와 샘플 xᵢ에 대한 모델 𝑡의 예측 ŷᵢᵗ을 고려하고, 평균 제곱 오차 (MSE) 등의 일반적인 오류 함수 l로 나타내고, 총 샘플 수를 n으로 표시할 때, 반복 t에서의 모델의 오류(또는 손실)는 다음과 같이 정의됩니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-TinyMLXGBoostRegression_1.png" />
 
@@ -46,7 +64,18 @@ isUpdated: true
 
 우리는 모델의 복잡성을 조절하는 데 기여하는 정규화항을 도입할 것이며(나중에 이 항의 구체적인 기능이 명확해질 것입니다).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 XGBoost의 기본 개념은 각 트리의 포함이 전략적이라는 것을 전제로 합니다: 목표는 항상 오차를 최소화하는 최적의 트리를 구축하는 것입니다. 이를 위해, 우리는 함수 L을 최적화 문제로 다룰 것이며, 결국 L을 최소화하는 fₜ를 결정하려고 합니다. 그러나 이 작업의 복잡성은 오차 함수 l을 선택하는 데 따라 다를 수 있습니다.
 
@@ -56,7 +85,18 @@ XGBoost의 기본 개념은 각 트리의 포함이 전략적이라는 것을 �
 
 중간 단계에서 시리즈를 자르면 함수의 근사치를 얻을 수 있습니다. 현재 상황에서는 확장을 둘째 차수에서 중지하기로 선택했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image1](/assets/img/2024-06-19-TinyMLXGBoostRegression_4.png)
 
@@ -66,8 +106,18 @@ gᵢ (gradient)와 hᵢ (Hessian)로 도함수를 대체할 것입니다:
 
 만약 이 방정식을 최소화하는 fₜ를 찾는 것이 목적이라면, 상수항인 l은 필요하지 않습니다. 따라서 l을 버리면 다음과 같이 됩니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![링크 텍스트](/assets/img/2024-06-19-TinyMLXGBoostRegression_6.png)
 
@@ -75,11 +125,20 @@ XGBoost의 주목할만한 특성 중 하나는 손실 함수가 두 번 미분 
 
 ## 1.1 — 의사 결정 트리
 
-의사 결정 트리의 작동을 고려할 때, 방정식 L을 다시 쓸 필요가 있습니다. 각 샘플 xᵢ가 leaf j와 연관되어 있음을 알 수 있습니다. 따라서 각 leaf에 대해 샘플이 포함된 집합 인덱스 Iⱼ를 만들 수 있습니다. 
+의사 결정 트리의 작동을 고려할 때, 방정식 L을 다시 쓸 필요가 있습니다. 각 샘플 xᵢ가 leaf j와 연관되어 있음을 알 수 있습니다. 따라서 각 leaf에 대해 샘플이 포함된 집합 인덱스 Iⱼ를 만들 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-19-TinyMLXGBoostRegression_7.png)
 
@@ -89,8 +148,18 @@ Iⱼ가 정의되어 있으며, Iⱼ에 속하는 각 인덱스 i에 대해 샘�
 
 ![image](/assets/img/2024-06-19-TinyMLXGBoostRegression_8.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 결과, 방정식의 일부 용어를 다시 정의할 수 있습니다:
 
@@ -100,7 +169,18 @@ Iⱼ가 정의되어 있으며, Iⱼ에 속하는 각 인덱스 i에 대해 샘�
 
 ![image](/assets/img/2024-06-19-TinyMLXGBoostRegression_10.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 정규화 항도 확장할 거에요:
 
@@ -110,8 +190,18 @@ Iⱼ가 정의되어 있으며, Iⱼ에 속하는 각 인덱스 i에 대해 샘�
 
 나무의 모든 리프를 고려하는 대신에, 특정 리프에 초점을 맞출 거에요. 이 리프는 j로 표시돼요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image 1](/assets/img/2024-06-19-TinyMLXGBoostRegression_12.png)
 
@@ -121,8 +211,18 @@ The objective is to find the set of weights w that minimizes L. This may seem ch
 
 As previously noted, our error function for a leaf is quadratic, implying that the minimum is determined by the inflection point of the curve, where the first derivative is equal to zero.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <table>
   <tr>
@@ -140,8 +240,18 @@ wᵈ를 고립시키면 다음과 같이 됩니다:
 
 이제 임의의 리프에 대해 최적 가중치를 제공하는 식을 확인했습니다. 따라서 L에 대한 우리의 식에 이 식을 대입함으로써 우리는 다음을 얻습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-19-TinyMLXGBoostRegression_16.png)
 
@@ -149,8 +259,18 @@ wᵈ를 고립시키면 다음과 같이 됩니다:
 
 ![image](/assets/img/2024-06-19-TinyMLXGBoostRegression_17.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1.3 — 하이퍼파라미터 튜닝
 
@@ -160,7 +280,18 @@ reg_lambda: 이 파라미터는 잎의 가중치에 영향을 미치며, 값이 
 
 ![이미지](/assets/img/2024-06-19-TinyMLXGBoostRegression_18.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - reg_alpha: 분모를 제로에 가깝게 만들어서 중요성이 적은 트리 또는 분할을 제외하는 효과가 있습니다. 유도된 값의 모듈리(0보다 작을 때 -1, 0보다 클 때 1)의 행동으로 인해 가중 함수가 두 가지 경우로 나누어짐을 언급해야 합니다.
 
@@ -170,7 +301,18 @@ reg_lambda: 이 파라미터는 잎의 가중치에 영향을 미치며, 값이 
 
 ![image](/assets/img/2024-06-19-TinyMLXGBoostRegression_20.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - learning_rate: 문 개선을 위해 각 가중치에 0에서 1 사이의 값을 곱하여 나무의 개별적인 중요성을 감소시키고 학습 과정을 늦춰 미래 나무의 포함 여지를 늘립니다.
 
@@ -180,8 +322,18 @@ reg_lambda: 이 파라미터는 잎의 가중치에 영향을 미치며, 값이 
 
 - max_delta_step: 각 반복의 최대 절대 가중치를 상수 𝛿로 제한하여 가중치의 부호를 항상 보존합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image 1](/assets/img/2024-06-19-TinyMLXGBoostRegression_22.png)
 
@@ -191,8 +343,18 @@ reg_lambda: 이 파라미터는 잎의 가중치에 영향을 미치며, 값이 
 
 여기서 Python 구현에 사용 가능한 매개변수 전체 목록을 찾을 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2— TinyML 구현
 
@@ -204,7 +366,18 @@ reg_lambda: 이 파라미터는 잎의 가중치에 영향을 미치며, 값이 
 !pip install -r requirements.txt
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2.1 — 라이브러리 가져오기
 
@@ -225,7 +398,18 @@ from xgboost import plot_tree
 
 당뇨병 데이터셋은 Bradley Efron, Trevor Hastie, Iain Johnstone 및 Robert Tibshirani가 스탠포드 대학에서 만들었습니다. 그들의 당뇨병 진행 예측 연구에 사용되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 데이터셋은 임상 및 인구 통계 변수인 열 개의 기준 변수로 구성되어 있습니다:
 
@@ -235,7 +419,18 @@ from xgboost import plot_tree
 
 3. 체질량 지수 (BMI)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. 평균 혈압
 
@@ -245,7 +440,18 @@ from xgboost import plot_tree
 
 7. S3 — HDL, 고밀도 리포닛
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 8. S4 - TCH, 총 콜레스테롤
 
@@ -255,7 +461,18 @@ from xgboost import plot_tree
 
 - 데이터셋에는 442개의 인스턴스(환자)가 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 대상 변수는 기준선 이후 1년 후의 질병 진행의 양을 양적으로 측정한 것입니다. 데이터 집합에 명시적으로 언급되지 않은 요소를 기반으로 질병 진행을 표현합니다. 이는 연속 변수입니다.
 
@@ -282,24 +499,44 @@ df_diabetes.head()
 df_diabetes.info()
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-19-TinyMLXGBoostRegression_25.png)
 
 ```js
-df_diabetes.describe()
+df_diabetes.describe();
 ```
 
 ![image](/assets/img/2024-06-19-TinyMLXGBoostRegression_26.png)
 
 2.3— Exploratory Data Analysis
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-sns.pairplot(df_diabetes)
+sns.pairplot(df_diabetes);
 ```
 
 ![image](/assets/img/2024-06-19-TinyMLXGBoostRegression_27.png)
@@ -310,7 +547,18 @@ sns.pairplot(df_diabetes)
 df = df_diabetes.iloc[:100,0:10]
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 X=df.to_numpy()
@@ -319,28 +567,50 @@ y=df_diabetes.iloc[:100,-1}
 ```
 
 ```js
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.3, random_state=42)
+X_train, X_test, y_train, (y_test = train_test_split(X, y, (test_size = 0.3), (random_state = 42)));
 ```
 
 2.5 — Create the regressor model
 
 ```js
-model = xgb.XGBRegressor(objective="reg:linear", random_state=42)
+model = xgb.XGBRegressor((objective = "reg:linear"), (random_state = 42));
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2.6 — 모델 훈련
 
 ```js
-model.fit(X_train, y_train)
+model.fit(X_train, y_train);
 ```
 
 2.7 — 모델 최적화
 
 RandomizedSearchCV는 scikit-learn 라이브러리에서 제공하는 함수로, 머신 러닝 모델의 하이퍼파라미터 튜닝을 위해 교차 검증을 통해 주로 사용됩니다. 이 기술은 하이퍼파라미터의 폭넓은 탐색 영역을 다룰 때 유용하며, 가장 효과적인 값을 결정하는 데 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단계별 설명
 
@@ -350,7 +620,18 @@ RandomizedSearchCV를 활용하기 전에, 모델의 하이퍼파라미터를 �
 
 2. 무작위 샘플링:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GridSearchCV와 같이 모든 가맹 별로 동시에 평가하는 것이 아니라, RandomizedSearchCV는 평가를 위해 일정한 조합을 무작위로 선택합니다. 이는 큰 탐색 공간을 다룰 때 유리합니다.
 
@@ -360,7 +641,18 @@ GridSearchCV와 같이 모든 가맹 별로 동시에 평가하는 것이 아니
 
 4. 성능 평가:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 성능은 특정 메트릭(예: 정확도, F1 점수)을 사용하여 측정됩니다. 목표는 주어진 문제에 따라 이 메트릭을 최대화하거나 최소화하는 하이퍼파라미터를 찾는 것입니다(예: 분류 문제에서 정확도를 최대화).
 
@@ -370,13 +662,24 @@ GridSearchCV와 같이 모든 가맹 별로 동시에 평가하는 것이 아니
 
 RandomizedSearchCV를 사용하면 대규모 탐색 공간을 다룰 때 특히 모든 가능한 조합을 평가하는 그리드 서치(GridSearchCV)와 비교하여 계산 시간을 단축할 수 있습니다. 이 효율성은 모든 가능한 조합을 평가하는 대신 하이퍼파라미터 공간의 무작위 샘플을 탐색하는 데서 비롯됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 params = {
     "colsample_bytree": uniform(0.7, 0.3),
     "gamma": uniform(0, 0.5),
-    "learning_rate": uniform(0.03, 0.3), # 기본값 0.1 
+    "learning_rate": uniform(0.03, 0.3), # 기본값 0.1
     "max_depth": randint(2, 6), # 기본값 3
     "n_estimators": randint(100, 150), # 기본값 100
     "subsample": uniform(0.6, 0.4)
@@ -406,59 +709,94 @@ def report_best_scores(results, n_top=3):
 ```
 
 ```js
-report_best_scores(best_model.cv_results_, 1)
+report_best_scores(best_model.cv_results_, 1);
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-06-19-TinyMLXGBoostRegression_29.png)
 
 ```js
-model =  xgb.XGBRegressor(objective="reg:linear", max_depth= 5, learning_rate= 0.29302969102852483, gamma = 0.38122934287034527)
-model.fit(X_train, y_train)
+model = xgb.XGBRegressor(
+  (objective = "reg:linear"),
+  (max_depth = 5),
+  (learning_rate = 0.29302969102852483),
+  (gamma = 0.38122934287034527)
+);
+model.fit(X_train, y_train);
 ```
 
 2.8 — Visualization
 
 ```js
-fig, ax = plt.subplots(figsize=(20, 10))
-plot_tree(model, num_trees=0, ax=ax)
-plt.show()
+fig, (ax = plt.subplots((figsize = (20, 10))));
+plot_tree(model, (num_trees = 0), (ax = ax));
+plt.show();
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-19-TinyMLXGBoostRegression_30.png)
 
 2.9— 훈련 데이터로 모델 평가
 
 ```js
-score = model.score(X_train, y_train)
-training_predict = model.predict(X_train)
-mse = mean_squared_error(y_train, training_predict)
+score = model.score(X_train, y_train);
+training_predict = model.predict(X_train);
+mse = mean_squared_error(y_train, training_predict);
 
-print("R-squared:", score)
-print("MSE: ", mse)
-print("RMSE: ", mse**(1/2.0))
+print("R-squared:", score);
+print("MSE: ", mse);
+print("RMSE: ", mse ** (1 / 2.0));
 ```
 
 ![image](/assets/img/2024-06-19-TinyMLXGBoostRegression_31.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-x_ax = range(len(y_train))
-plt.plot(x_ax, y_train, label="원본")
-plt.plot(x_ax, training_predict, label="예측된 값")
-plt.title("훈련 및 예측된 데이터")
-plt.xlabel('X축')
-plt.ylabel('Y축')
-plt.legend(loc='best', fancybox=True, shadow=True)
-plt.grid(True)
-plt.show()
+x_ax = range(len(y_train));
+plt.plot(x_ax, y_train, (label = "원본"));
+plt.plot(x_ax, training_predict, (label = "예측된 값"));
+plt.title("훈련 및 예측된 데이터");
+plt.xlabel("X축");
+plt.ylabel("Y축");
+plt.legend((loc = "best"), (fancybox = True), (shadow = True));
+plt.grid(True);
+plt.show();
 ```
 
 ![image](/assets/img/2024-06-19-TinyMLXGBoostRegression_32.png)
@@ -466,42 +804,62 @@ plt.show()
 2.10— 테스트 데이터로 모델 평가
 
 ```js
-score = model.score(X_test, y_test)
-test_predict = model.predict(X_test)
-mse = mean_squared_error(y_test, test_predict)
+score = model.score(X_test, y_test);
+test_predict = model.predict(X_test);
+mse = mean_squared_error(y_test, test_predict);
 
-print("R-squared:", score)
-print("MSE: ", mse)
-print("RMSE: ", mse**(1/2.0))
+print("R-squared:", score);
+print("MSE: ", mse);
+print("RMSE: ", mse ** (1 / 2.0));
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-TinyMLXGBoostRegression_33.png" />
 
 ```js
-x_ax = range(len(y_test))
-plt.plot(x_ax, y_test, label="original")
-plt.plot(x_ax, test_predict, label="predicted")
-plt.title("Testing and predicted data")
-plt.xlabel('X-axis')
-plt.ylabel('Y-axis')
-plt.legend(loc='best',fancybox=True, shadow=True)
-plt.grid(True)
-plt.show()
+x_ax = range(len(y_test));
+plt.plot(x_ax, y_test, (label = "original"));
+plt.plot(x_ax, test_predict, (label = "predicted"));
+plt.title("Testing and predicted data");
+plt.xlabel("X-axis");
+plt.ylabel("Y-axis");
+plt.legend((loc = "best"), (fancybox = True), (shadow = True));
+plt.grid(True);
+plt.show();
 ```
 
 <img src="/assets/img/2024-06-19-TinyMLXGBoostRegression_34.png" />
 
 2.11 — 테스트 데이터를 사용하여 모델 평가하기
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-code = m2c.export_to_c(model)
-print(code)
+code = m2c.export_to_c(model);
+print(code);
 ```
 
 ![Image](/assets/img/2024-06-19-TinyMLXGBoostRegression_35.png)
@@ -513,7 +871,18 @@ with open('./XGBRegressor.h', 'w') as file:
     file.write(code)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2.13 — 모델 배포
 
@@ -541,7 +910,18 @@ void loop() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3.12 — 결과
 
@@ -551,10 +931,21 @@ void loop() {
 
 ## 만약 마음에 드셨다면, 제 커피 한 잔 사주세요 ☕️💰 (Bitcoin)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-코드: bc1qzydjy4m9yhmjjrkgtrzhsgmkq79qenvcvc7qzn
+코드: bc1qzydjy4m9yhmjjrkgtrzhsgmkq79qenvcvc7qzn;
 
-![Image](/assets/img/2024-06-19-TinyMLXGBoostRegression_37.png)
+![Image](/assets/gim / 2024 - 06 - 19 - TinyMLXGBoostRegression_37.png);
 ```

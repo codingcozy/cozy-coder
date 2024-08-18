@@ -3,7 +3,7 @@ title: "ChatGPT에 대한 2024년 최신 진실"
 description: ""
 coverImage: "/assets/img/2024-06-30-ChatGPTisBullshit_0.png"
 date: 2024-06-30 19:09
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-30-ChatGPTisBullshit_0.png
 tag: Tech
 originalTitle: "ChatGPT is Bullshit."
@@ -11,17 +11,24 @@ link: "https://medium.com/@ignacio.de.gregorio.noblejas/chatgpt-is-bullshit-a0b3
 isUpdated: true
 ---
 
-
-
-
-
 원페이지가 하나의 이유로 산업계에서 큰 화제를 일으키고 있어요:
 
 그 이유가 뭔지, 그리고 그게 무슨 의미를 갖는지 알고 싶나요?
 
 # 인공지능의 진정한 본성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대형 언어 모델(Large Language Model, LLM)이 실수를 할 때, 우리는 그 모델이 '환각을 일으켰다'고 말합니다.
 
@@ -31,7 +38,18 @@ LLM은 확률론적(의사 난수 생성) 단어 생성기이기 때문에, 모�
 
 자연어로 같은 생각이나 감정을 표현하는 다양한 방법이 있기 때문에, 우리는 모델에 불확실성을 모델링하도록 훈련시킵니다. 이를 위해 우리는 새로운 예측마다 정확한 단어를 결정하도록 하지 않고, 모든 단어 어휘에 대한 확률 분포를 출력하도록 강제합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다시 말해, 아래에서 볼 수 있듯이, 모델은 입력 시퀀스에 대한 계속으로 통계적으로 합리적인 단어 (어휘)를 순위별로 나열합니다.
 
@@ -41,7 +59,18 @@ LLM은 확률론적(의사 난수 생성) 단어 생성기이기 때문에, 모�
 
 이는 모델의 창의력을 향상시키기 위해 수행되며, 때로는 이것이 바람직하며 모델의 언어 모델링 능력을 향상시키는 데 도움이 된다고 여겨집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 모델이 잘못된 가정을 내어놓고 어색한 주장을 하는 경우, 그것이 정말로 인간이 하는 것처럼 '환각'을 하는 것일까요?
 
@@ -51,13 +80,24 @@ LLM은 확률론적(의사 난수 생성) 단어 생성기이기 때문에, 모�
 
 환각은 세상을 잘못 인식하여 현실과 어긋난 주장을 만들어내는 것을 의미합니다. 그러나 이것이 바로 그 차이점입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ---
+
 새로운 데이터
 
-ChatGPT와 친숙해지기 위해 몇 가지 텍스트를 입력해보세요. 이것은 머신러닝 모델을 더 재미있고 유용하게 만들 수 있습니다.
----
+## ChatGPT와 친숙해지기 위해 몇 가지 텍스트를 입력해보세요. 이것은 머신러닝 모델을 더 재미있고 유용하게 만들 수 있습니다.
 
 LLM은 현실을 인식할 수 없어요.
 
@@ -67,7 +107,18 @@ LLM은 현실을 인식할 수 없어요.
 
 # ChatGPT의 목표 이해하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 연구자들은 'ChatGPT가 거짓말을 했다'고 말하는 것이 LLMs의 실제 본성을 왜곡한다고 주장합니다. 거짓말을 하려면 누군가가 어떤 것에 대한 진실을 알고 의도적으로 대체로 부정확한 주장을 해야 합니다.
 
@@ -77,7 +128,18 @@ LLM은 현실을 인식할 수 없어요.
 
 그런데 왜 그럴까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모델이 '진실을 말한다'는 점에서, 그 모델은 훈련 데이터의 진실성만큼 정확합니다.
 
@@ -87,7 +149,18 @@ LLM은 현실을 인식할 수 없어요.
 
 하지만 모델을 더 정확하게 만들 방법이 있을까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 진실을 찾아 나서며
 
@@ -97,7 +170,18 @@ LLM은 현실을 인식할 수 없어요.
 
 그렇다면, 아마도 진실성을 암묵적으로 향상시키는 방법이 있을 수 있습니다. 이는 연구자들이 엔트로피 최소화와, 최근에는 테스트 시 점진적인 미세 조정을 통해 오랫동안 조사해온 두 가지 방법입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 엔트로피 최소화에서는 모델이 엔트로피가 낮은 응답을 선호하는 귀납편향을 갖고 있습니다. 다시 말해, 여러 응답을 생성하고, 차별화 방법으로, 가능한 가정의 수가 가장 적은(즉, 가장 간단한) 응답을 가장 좋은 답이라고 취하는 가설을 적용합니다. 일부 분들께는 Ockham의 면도날과 유사하게 느껴질 것입니다.
 
@@ -107,11 +191,33 @@ LLM은 현실을 인식할 수 없어요.
 
 다시 말해, 더 똑똑한 검색 방법과 LLM은 더 나은, 더 사실적인 응답으로 이어질 수 있지만, 모델은 여전히 단순히 통계적으로 최적의 답변을 제공하는 목표를 실현하고 있으며, 거기에 반드시 응답의 진실성을 고려하지는 않습니다. 비록 논의된 귀납편향이 내제적으로 진실성을 향상시킬 수 있다고 하더라도요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앞서 설명한 바와 같이 모델들이 더 나은 품질의 데이터를 소화하고 압축 능력을 향상시키면, '참'이라고 할 수 있는 주장이 '거짓'이라고 할 때보다 모델에게 통계적으로 더 합리적일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 모델이 진실을 찾을 수 없는 한(그 존재를 모르기 때문에), 학습 데이터에서 미대표적인 진실은 모델이 가짜로 답변하게 유도하거나, 더 정확히 말하면 '헛소리로' 오도록 할 수 있습니다.
 

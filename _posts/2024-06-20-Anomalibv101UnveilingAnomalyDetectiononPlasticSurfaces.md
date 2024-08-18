@@ -3,17 +3,13 @@ title: "Anomalib v101 플라스틱 표면의 이상 감지 공개"
 description: ""
 coverImage: "/assets/img/2024-06-20-Anomalibv101UnveilingAnomalyDetectiononPlasticSurfaces_0.png"
 date: 2024-06-20 18:04
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-Anomalibv101UnveilingAnomalyDetectiononPlasticSurfaces_0.png
 tag: Tech
 originalTitle: "Anomalib v1.0.1: Unveiling Anomaly Detection on Plastic Surfaces"
 link: "https://medium.com/ai-advances/anomalib-v1-0-1-unveiling-anomaly-detection-on-plastic-surfaces-c91cd48d8806"
 isUpdated: true
 ---
-
-
-
-
 
 # 소개
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 본 문서에서는 OpenVINO의 Anomalib¹를 사용하여 이상 감지의 또 다른 사용 사례를 살펴보겠습니다. 다음 섹션에서는 훈련 및 테스트 단계를 다룹니다. Anomalib를 사용한 이미지 이상 감지의 최신 자습서를 찾고 계시다면 정확한 위치에 계십니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 실험
 
@@ -35,7 +42,18 @@ isUpdated: true
 - Python: v3.10
 - Anomalib: v1.0.1
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 데이터셋
 
@@ -46,7 +64,18 @@ isUpdated: true
 
 단, 훈련에는 정상 50개의 케이스만 참여한다는 점을 유의해 주세요. 비정상 샘플은 검증에 사용되며 모델 수렴에 기여하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 데이터셋
 
@@ -87,8 +116,18 @@ if __name__ == "__main__":
 
 위는 Anomalib을 기반으로 한 훈련 스크립트로, 데이터셋, 네트워크, 트레이너로 구성됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Anomalib](/assets/img/2024-06-20-Anomalibv101UnveilingAnomalyDetectiononPlasticSurfaces_1.png)
 
@@ -98,8 +137,18 @@ Anomalib에서는 Visa, MVTec 및 Kolektor와 같은 내장 데이터 세트뿐�
 
 Network
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Anomalib은 이상 감지에서 발행된 최신 네트워크를 통한 지속적인 업데이트로 유명합니다. Anomalib v1.0.1에는 이미지 이상의 17개 네트워크가 구현되어 있습니다. 이 연습에서는 2022년에 출시된 강력한 네트워크 중 하나인 EfficientAD를 선택했습니다. 이 네트워크는 높은 정확도를 보이는데 그치지 않고 효율성이 뛰어나어 GPU 없이도 학습이 가능합니다.
 
@@ -109,7 +158,18 @@ Trainer
 
 Anomalib에서 학습 과정은 다른 딥러닝 프레임워크와 마찬가지로 트레이너 클래스 엔진에 의해 이끌립니다. 우리는 에포크 수, 결과를 저장할 기본 디렉토리, 콜백 및 작업 유형과 같은 학습 매개변수를 구성할 수 있습니다. 이 과정에서 두 가지 주요 기능이 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Engine.fit(): 정의된 네트워크와 데이터셋을 기반으로 학습 프로세스를 시작합니다. 학습 과정에서 처음 세 번의 에포크에 대한 로그가 그림 3에 제공됩니다. 각 에포크의 끝에는 다음 정보가 출력됩니다:
 
@@ -121,7 +181,18 @@ EfficientAD 내의 세 가지 학습 내용에 대한 자세한 내용은 Effici
 
 Engine.export(): 학습 후 결과를 지정된 형식(OpenVINO/torch/onnx)으로 내보냅니다. 우리는 이 연습에서 IR 모델 및 메타데이터 파일을 포함하는 OpenVINO 형식(ExportType.OPENVINO)을 선택했습니다. 추가적으로, 학습된 가중치를 저장할 대상 디렉토리를 export_root 매개변수로 전달할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 추론
 
@@ -149,7 +220,18 @@ for img_path in img_paths:
 
 ## 결과
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모델 평가를 위해 16개의 샘플을 수집했습니다. 이상한 샘플들은 얼룩, 홀로그램, 그리고 스트로크가 있지만 정상 케이스에는 인식할 수 없는 이상이 포함되어 있지 않습니다. 예측된 이상 점수와 해당하는 샘플은 아래 그림 4에서 확인할 수 있습니다. 각 범주에서 모델에 의해 예측된 이상 점수를 기준으로 오름차순으로 정렬되어 있습니다.
 
@@ -159,7 +241,18 @@ for img_path in img_paths:
 
 ![Figure 5](/assets/img/2024-06-20-Anomalibv101UnveilingAnomalyDetectiononPlasticSurfaces_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한편, 수동 조작의 존재 여부를 식별할 기회를 발견하기를 원합니다. 다른 네 개의 샘플을 조작하고 원본 이미지와 수정된 이미지에 대해 추론을 실행합니다. 예상대로, 변조 후 이상 점수가 증가하는 것을 확인할 수 있습니다. 아래 그림에는 이미지와 해당 점수가 제공됩니다.
 
@@ -169,7 +262,18 @@ for img_path in img_paths:
 
 요약하면, 훈련한 EfficentAD 모델이 목적을 제대로 수행합니다. 그림 5에서 두 클래스의 분포가 뚜렷하게 분리되어 있는 것을 확인할 수 있으며, 수동으로 조작된 이미지의 이상 점수가 그림 6에서 더 높게 나타납니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 요약
 
@@ -179,7 +283,18 @@ for img_path in img_paths:
 
 # 참고
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [1] Anomalib 공식 저장소
 [2] EFFICIENTAD 탐구: 밀리초 수준의 정확한 시각적 이상 감지: 간단한 개요

@@ -3,17 +3,13 @@ title: "Nodejs 보안 웃긴 7단계로 헛간에서 요새로"
 description: ""
 coverImage: "/assets/img/2024-07-02-NodejsSecurityFromWide-OpenBarntoFortKnoxin7HilariousSteps_0.png"
 date: 2024-07-02 23:02
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-02-NodejsSecurityFromWide-OpenBarntoFortKnoxin7HilariousSteps_0.png
 tag: Tech
 originalTitle: "Node.js Security: From Wide-Open Barn to Fort Knox in 7 Hilarious Steps"
 link: "https://medium.com/stackademic/node-js-security-from-wide-open-barn-to-fort-knox-in-7-hilarious-steps-d51e67d29489"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-07-02-NodejsSecurityFromWide-OpenBarntoFortKnoxin7HilariousSteps_0.png" />
 
@@ -23,7 +19,18 @@ Node.js 어플리케이션을 할아버지 집처럼 상상해봐요 - 아늑하
 
 Node.js 어플리케이션은 바퀴, 엔진, 그리고 바나나 모양의 멋진 공기 청정제같은 외부 모듈들을 필요로 해요. 문제는 된다거나 취약한 의존성은 자동차에 사각형 바퀴를 달아놓는 것과 같아요 — 어느정도 길을 달려갈 수도 있겠지만 결국은 모든 것이 무너지고 (아마도 불꽃을 토해서 폭발하기도 하겠지만, 정말 아마도요).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마법같은 npm audit이 그 역할을 합니다. 코드용으로 꼭 필요한 매커니즘으로, 종속성을 모두 확인하고 업그레이드가 필요한 것에 대해 (비유적으로) 소리쳐요. 사용 방법은 이렇습니다:
 
@@ -35,7 +42,18 @@ npm audit
 
 이것을 정기적으로 실행하고, 위험한 종속성을 반짝반짝하고 안전한 것으로 교체할 준비를 해야 합니다. 아무도 보안 패치들을 싫어하지 않습니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인증 및 권한 부여: 당신이 올바른 비밀번호를 갖고 있지 않는 이상, 지나갈 수 없어요
 
@@ -45,7 +63,18 @@ npm audit
 
 데이터 보안: 해커들이 사용자 데이터를 사람징행으로하지 못하게 하세요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자 데이터 보호는 왕관 보물을 지키는 것과 같아요 (또는 할머니의 비밀 쿠키 레시피를 지키는 것). 위험한 눈을 피해 안전하게 유지하는 방법을 알려드릴게요:
 
@@ -57,7 +86,18 @@ npm audit
 
 오류 처리와 로깅: 적들에게 전략을 노출하지 마세요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 에러 메시지를 대충 작성하면 레이저 태그 게임 중에 전략을 실수로 외친 것과 같습니다. 해커가 이를 이용하여 무단 접속을 시도할 수 있습니다. 에러를 정중하게 처리하고, 민감한 세부 정보를 공개하지 않고 안전하게 로깅하고, 의심스러운 활동을 모니터링하세요 — 마치 삼촌 마스크를 쓴 채 새벽 3시에 앱에 접근하려는 사람처럼요 (희망적으로 단지 할머니가 다시 몽유부인 것이 아니기를).
 
@@ -67,12 +107,23 @@ API 키나 데이터베이스 비밀번호를 코드에 놓아두는 것은 큰 
 
 다음은 dotenv 패키지를 사용하여 .env 파일에서 환경 변수를 로드하는 예시입니다 (하지만 이 파일을 버전 관리에 커밋하지 마세요!):
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JavaScript
 
 ```js
-require('dotenv').config();
+require("dotenv").config();
 const PORT = process.env.PORT;
 const DATABASE_URL = process.env.DATABASE_URL;
 console.log("서버가 마치 보스처럼", PORT, "포트에서 들어오는 중이야.");
@@ -82,7 +133,18 @@ console.log("서버가 마치 보스처럼", PORT, "포트에서 들어오는 �
 
 위의 실천 지침을 따르면 안전한 Node.js 애플리케이션을 만드는 길에 잘 안내 받을 것이다. 그렇지만 보안은 계속되는 과정이며, 늘 성개성공을 유지해야 해요. 최신 위협을 환히 지켜보고, 공식 Node 보안 문서 (https://nodejs.org/en/learn/getting-started/security-best-practices)를 질문할 용기를 가져야 해요 — 이 문서는 악당을 멀리한 지혜로 가득 상자로써, 보안 관리를 위한 좋은 비법들이 담겨 있다는 것을 염두에 두세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자, 여기에요! 조금의 노력과 이 재미있고 (그리고 희망적으로 유익한) 팁들을 사용하여, 당신은 당신의 Node.js 애플리케이션을 보안 악몽에서 불침대로 바꿀 수 있어요. 이제 가서 가장 악명 높은 해커도 눈물을 흘릴 만한 보안 애플리케이션을 만드세요 (아니면 단지 포기하지 않을 수도 있어요). 기억하세요, Node.js 보안에서 경계심은 중요해요 (그리고 서버 룸 주변에 몇 개 전략적으로 배치된 바나나 껍질이 나쁘지 않을 수도 있어요).
 

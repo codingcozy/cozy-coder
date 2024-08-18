@@ -3,17 +3,13 @@ title: "NodeMCU ESP8266과 LM35 온도 센서를 사용해 웹 서버 구축하�
 description: ""
 coverImage: "/assets/img/2024-06-23-BuildingaWebServerwithNodeMCUESP8266andLM35TemperatureSensor_0.png"
 date: 2024-06-23 17:43
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-BuildingaWebServerwithNodeMCUESP8266andLM35TemperatureSensor_0.png
 tag: Tech
 originalTitle: "Building a Web Server with NodeMCU ESP8266 and LM35 Temperature Sensor"
 link: "https://medium.com/@bernard.adhitya/building-a-web-server-with-nodemcu-esp8266-and-lm35-temperature-sensor-d4db54bf6113"
 isUpdated: true
 ---
-
-
-
-
 
 환경 데이터를 간단한 웹 인터페이스를 통해 모니터링할 수 있는 능력은 굉장히 유용할 수 있습니다. 이 기사에서는 저가 참여한 프로젝트에 대해 소개하려고 합니다. NodeMCU ESP8266 모듈과 LM35 온도 센서를 사용하여 온도를 표시하는 웹 서버를 만들었습니다. 이 프로젝트는 IoT 원칙의 실용적인 응용뿐만 아니라 센서, 마이크로컨트롤러 및 웹 기술을 통합하는 쉬움을 보여줍니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이 프로젝트의 목표는 LM35 센서에서 온도 데이터를 읽고 해당 데이터를 지역 네트워크 내에서 접근 가능한 웹 페이지에 표시할 수 있는 NodeMCU ESP8266 웹 서버를 설정하는 것이었습니다. LM35 센서는 섭씨 온도에 직접 상응하는 간단한 출력으로 선택되어, 복잡한 보정이 필요하지 않은 우리의 요구에 이상적입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 필요한 재료
 
@@ -36,7 +43,18 @@ isUpdated: true
 
 LM35 온도 센서는 사용 편의성과 정확한 온도 측정으로 널리 애용되는 정밀 통합 회로 장치입니다. 복잡한 계산이나 교정 없이 온도를 직접 출력하기 때문에 저희 프로젝트와 같은 작업에 매우 유용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LM35 센서는 섭씨 온도에 비례하는 아날로그 전압을 출력하여 온도를 측정합니다. 스케일 팩터는 10 mV/°C이며, 이는 1도 섭씨 증가당 출력 전압이 10 밀리볼트 증가한다는 것을 의미합니다. 이 특성은 NodeMCU ESP8266과 같은 마이크로콘트롤러와 간편하게 통합할 수 있습니다.
 
@@ -44,11 +62,20 @@ LM35 센서는 섭씨 온도에 비례하는 아날로그 전압을 출력하여
 
 LM35에서의 아날로그 전압 측정값을 온도로 변환하기 위해 우리는 다음 공식을 사용합니다:
 
-
 ![이미지](/assets/img/2024-06-23-BuildingaWebServerwithNodeMCUESP8266andLM35TemperatureSensor_1.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희 NodeMCU ESP8266 세팅에서 ADC(아날로그-디지털 변환기) 참조 전압이 3.3V이고 해상도가 10비트인 경우, 최대 읽을 수 있는 전압은 3.3V(또는 3300mV)이며 1024등분(2¹⁰ = 1024)할 수 있습니다. 따라서 각 ADC 값을 나타내는 단위는 3300/1024 mV가 됩니다. 아래는 코드에서 이를 구현하는 방법입니다:
 
@@ -58,7 +85,18 @@ A0 핀에 연결된 LM35에서 아날로그 값을 읽습니다.
 
 <img src="/assets/img/2024-06-23-BuildingaWebServerwithNodeMCUESP8266andLM35TemperatureSensor_2.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전압을 온도로 변환해 주세요:
 
@@ -68,7 +106,18 @@ A0 핀에 연결된 LM35에서 아날로그 값을 읽습니다.
 
 # LM35 대체 옵션
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LM35 센서는 간단하고 정확한 온도 감시가 필요한 프로젝트에 우수한 선택입니다. 이는 우리가 단순성과 비용 효율성이 주요 고려 사항인 시나리오에 완벽하게 맞습니다.
 
@@ -79,7 +128,18 @@ LM35는 많은 응용 분야에 적합하지만 DS18B20 및 DHT11 / DHT22 센서
 
 # 단계 1: 회로 조립
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LM35를 NodeMCU에 연결하는 방법:
 
@@ -91,7 +151,18 @@ LM35를 NodeMCU에 연결하는 방법:
 
 이 간단한 설정을 통해 LM35는 감지한 온도에 비례하는 아날로그 전압을 NodeMCU로 전송할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 2: NodeMCU 프로그래밍
 
@@ -106,7 +177,18 @@ ESP8266 모듈은 내장 WiFi 기능을 이용하여 WiFi 네트워크에 연결
 - 웹 서버의 인스턴스를 특정 포트에 생성하고, HTTP의 경우 보통 포트 80을 사용합니다.
 - ESP8266가 전송된 연결을 수신하기 위해 server.begin()을 사용하여 서버를 시작합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```cpp
 #include <ESP8266WiFi.h>
@@ -149,8 +231,18 @@ ESP8266는 ESP8266WebServer 라이브러리를 사용하여 웹 서버로 작동
 
 웹 서버는 온도를 표시하는 간단한 HTML 페이지를 제공합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const char MAIN_page[] PROGMEM = R"=====(
@@ -164,7 +256,7 @@ const char MAIN_page[] PROGMEM = R"=====(
       <p1><b>Temperature Sensor LM35</b></p1>
       <br/>
       <p2>Temperature: #TEMPERATURE_VAL# &deg;C</p2>
-    </CENTER>  
+    </CENTER>
   </BODY>
 </HTML>
 )=====";
@@ -202,7 +294,18 @@ void loop(void) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 3: 회로 및 웹 서버 실행
 
@@ -212,6 +315,17 @@ void loop(void) {
 
 이 프로젝트는 IoT 하드웨어 및 소프트웨어에 대한 실습 경험이 제공되었을뿐만 아니라 NodeMCU ESP8266과 같은 마이크로컨트롤러가 유용한 웹 기반 응용 프로그램을 생성하는 데 어떻게 사용될 수 있는지를 보여주었습니다. 실시간 온도 데이터를 제공하는 웹 서버를 배포함으로써, 동일한 네트워크에 연결된 어떤 기기를 통해 환경 상황을 편리하게 모니터링할 수 있습니다. 이는 가정 자동화, 환경 모니터링 및 더 많은 가능성을 열어줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "table" 태그를 Markdown 형식으로 변경해주세요.

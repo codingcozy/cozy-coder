@@ -3,17 +3,13 @@ title: "라즈베리 파이에서 도커 스웜 도커 인 도커DinD로 스웜 
 description: ""
 coverImage: "/assets/img/2024-06-20-DockerSwarminaRaspberryPiSimulatingaSwarmwithDocker-in-DockerDinD_0.png"
 date: 2024-06-20 17:31
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-DockerSwarminaRaspberryPiSimulatingaSwarmwithDocker-in-DockerDinD_0.png
 tag: Tech
 originalTitle: "Docker Swarm in a Raspberry Pi: Simulating a Swarm with Docker-in-Docker (DinD)"
 link: "https://medium.com/@josejgp/docker-swarm-in-a-raspberry-pi-simulating-a-swarm-with-docker-in-docker-dind-04957770f8ca"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-06-20-DockerSwarminaRaspberryPiSimulatingaSwarmwithDocker-in-DockerDinD_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## 2) 매니저 설정하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3) 작업자를 배포하세요.
 
@@ -47,7 +54,18 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 sudo docker run hello-world
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 매니저 설정하기
 
@@ -57,7 +75,18 @@ sudo docker run hello-world
 
 저는 호스트 머신을 위해 하나의 큰 수평 창을 사용했고, 워커들을 위해 두 개의 수직 창을 사용했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 명령어 중 하나를 사용하여 IP를 확인해보세요.
 
@@ -78,8 +107,18 @@ docker swarm init --advertise-addr 192.168.99.100
 매니저를 추가하려면 'docker swarm join-token manager'를 실행하고 안내를 따르세요.
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-20-DockerSwarminaRaspberryPiSimulatingaSwarmwithDocker-in-DockerDinD_2.png)
 
@@ -91,7 +130,18 @@ docker swarm init --advertise-addr 192.168.99.100
 sudo docker pull alpine
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 아치를 사용해보려고 했는데 아치64용 빌드가 없었어요.
 
@@ -101,8 +151,18 @@ sudo docker pull alpine
 
 운영 체제 이미지를 받은 후에 워커들을 배포해야 해요. 여기서 두 가지 상황이 있어요. `sudo docker run alpine`으로 컨테이너를 만드는 경우 랜덤한 이름이 생성되므로, 이름을 얻으려면 `docker ps -a`를 사용하고, 그 후 새 이름으로 변경해야 해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 sudo docker rename helloworld.1.6mwtenk3wdxik9kpposg6hd3j Worker1
@@ -119,8 +179,18 @@ sudo docker exec -it worker2 /bin/sh
 
 이 방법은 VM이나 클러스터를 사용하는 경우에 적합하지만, 제 경우에는 도커 내부에서 도커를 실행해야 합니다:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 도커 인 디 도커 (DinD)를 사용하여 도커 스웜 시뮬레이션하기
 
@@ -147,7 +217,18 @@ sudo docker exec -it worker2 /bin/sh
 docker swarm join --token YOUR_TOKEN YOUR_IP_PORT
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-DockerSwarminaRaspberryPiSimulatingaSwarmwithDocker-in-DockerDinD_4.png" />
 
@@ -157,7 +238,18 @@ docker swarm join --token YOUR_TOKEN YOUR_IP_PORT
 
 # 참고사항:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 Alpine 컨테이너에 neofetch를 설치하는 방법입니다. Alpine의 커뮤니티 저장소를 활성화해야 합니다.
 
@@ -175,7 +267,18 @@ sudo docker stop worker1 worker2
 sudo docker rm worker1 worker2
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가상 머신/머신에 작업자를 배포하는 방법 안내서
 

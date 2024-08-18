@@ -3,17 +3,13 @@ title: "레진 3D 프린팅 vs 필라멘트 프린팅 장단점 비교"
 description: ""
 coverImage: "/assets/img/2024-06-22-TheProsandConsofResin3DPrintingvsFilamentPrinting_0.png"
 date: 2024-06-22 18:41
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-TheProsandConsofResin3DPrintingvsFilamentPrinting_0.png
 tag: Tech
 originalTitle: "The Pros and Cons of Resin 3D Printing vs Filament Printing"
 link: "https://medium.com/@killergrafix/the-pros-and-cons-of-resin-3d-printing-vs-filament-printing-314cea6ef89d"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-06-22-TheProsandConsofResin3DPrintingvsFilamentPrinting_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 3D 프린팅에 사용되는 다양한 재료 중 일반적으로 사용되는 것은 플라스틱 필라멘트와 레진입니다. 필라멘트 프린팅은 녹은 플라스틱을 노즐을 통해 압출하여 단계별로 물체를 쌓는 과정을 포함합니다. 반면 레진 프린팅은 미세한 소재로 만들어진 광반응성 액체 레진을 UV 광선(일반적으로 레이저 또는 LED)을 사용하여 층별로 경화시키고 고체화합니다. 필라멘트와 레진 프린팅은 각각 고유한 장단점이 있으며, 본 문서에서 자세히 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # II. 수지 3D 프린팅의 장점:
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 세부 사항과 정밀성 뿐만 아니라, 수지 프린트는 강하고 내구성이 뛰어난 것으로도 알려져 있습니다. 수지가 단계별로 경화되고 고체화되므로 층 간 강력한 결합을 유발하고 파괴나 왜곡에 저항하는 프린트물을 만들어낼 수 있습니다. 이는 응력이나 마모에 시달리는 기능적인 부품이나 물체를 만드는 데 좋은 선택이 되도록 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # III. Resin 3D 프린팅의 단점:
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 레진 프린팅의 또 다른 묵시적 문제는 프린트물이 인쇄 과정 중에 왜곡되거나 수축하는 경향이 있다는 것입니다. 이는 사용되는 레진의 종류, 프린트가 이루어지는 환경 또는 물체의 디자인과 같은 여러 요인에 의해 발생할 수 있습니다. 왜곡과 수축은 변형되거나 불균일한 프린트물로 이어질 수 있으며, 원하는 결과를 얻기 위해 추가 후처리 또는 보조 구조물이 필요할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # IV. 필라멘트 프린팅의 장점:
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 필라멘트 프린팅은 사용하기 쉽고 사용자 정의하기 쉽다는 점으로도 알려져 있습니다. 필라멘트는 프린터에서 쉽게 로드하고 언로드할 수 있으며, 다양한 색상, 속성 및 응용 프로그램을 지원하는 다양한 종류의 필라멘트가 있습니다. 이를 통해 출력물을 사용자 정의하고 다양한 제품을 생산하는 것이 쉬워집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # V. 필라멘트 프린팅의 단점:
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 필라멘트 프린팅은 또한 출력물 사이에 얇은 플라스틱 줄이 남아있는 스트링핑(stringing)과 출력물에 갭이나 구멍이 남는 등의 결함에 취약합니다. 이러한 결함은 필라멘트의 품질, 프린터의 보정, 또는 출력하려는 제품의 설계와 같은 다양한 요소로 인해 발생할 수 있습니다. 프린터를 신중하게 설정하고 조정함으로써 이러한 결함을 최소화하거나 제거할 수는 있지만, 일부 사용자에게는 여전히 답답함을 줄 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # VI. 결론:
 

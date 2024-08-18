@@ -3,17 +3,13 @@ title: "기계 학습 트레이딩 봇 CNN 모델을 사용한 3년간 9,883 수
 description: ""
 coverImage: "/assets/img/2024-07-09-9883Returnsin3yearsonCryptocurrencyusing2DConvolutionalNeuralNetworkCNNModelandshortlistingBestAssetsforTradingVishvaAlgoMachineLearningTradingBot_0.png"
 date: 2024-07-09 23:57
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-9883Returnsin3yearsonCryptocurrencyusing2DConvolutionalNeuralNetworkCNNModelandshortlistingBestAssetsforTradingVishvaAlgoMachineLearningTradingBot_0.png
 tag: Tech
 originalTitle: "9,883+% Returns in 3 years on Cryptocurrency using 2D Convolutional Neural Network (CNN) Model and short listing Best Assets for Trading — VishvaAlgo Machine Learning Trading Bot"
 link: "https://medium.com/@imbuedeskpicasso/9-883-returns-in-3-years-on-cryptocurrency-using-2d-convolutional-neural-network-cnn-model-and-2105ee7e2893"
 isUpdated: true
 ---
-
-
-
-
 
 ## 최대 수익을 위한 트레이딩 봇을 만들기 위해 신경망의 힘을 발휘하다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 우수성을 추구하는 과정에서, 최근에 저는 VishvaAlgo를 선보였습니다. 신경망 분류 모델을 활용한 머신러닝 기반의 알고리즘 트레이딩 시스템입니다. 이 차세대 플랫폼은 이미 탁월한 결과를 보여주며, 암호화폐 시장에서 거래자들에게 놀라운 수익을 제공하고 있습니다. 일련의 기사와 실제 시연을 통해 전통적인 알고리즘 트레이딩에서 현실적인 머신 러닝 모델로 전환하는 방법에 대한 통찰을 공유하며, 실제 거래 환경에서의 효과를 보여주고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사에서는 알고리즘 거래와 머신 러닝의 변혁적 잠재력에 대해 탐구합니다. 특히, 합성곱 신경망(CNN) 모델의 효과에 초점을 맞추며, 이전의 성공을 바탕으로 비트코인(BTC)과 이더리움(ETH)을 주요 자산으로 활용하여 고도의 머신 러닝 모델을 통해 실현 가능한 놀라운 수익성을 증명하려 합니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ![그림](/assets/img/2024-07-09-9883Returnsin3yearsonCryptocurrencyusing2DConvolutionalNeuralNetworkCNNModelandshortlistingBestAssetsforTradingVishvaAlgoMachineLearningTradingBot_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 우리의 알고리즘 트레이딩 대 머신 러닝 대 딥 러닝 여정은 지금까지?
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 ## "암호 화폐 선물을 위한 8787% 이상 ROI 알고리즘 전략 공개! 유명한 RSI, MACD, 볼린저 밴드, ADX, EMA로 혁신되었습니다" — 링크
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 7일 동안 동일한 내용으로 라이브 트레이딩을 드라이런 모드로 실행했고, 관련 내용은 다른 글에서 공유되었습니다.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 ## Stage 2:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 Freqtrade 설정 없이 독자적으로 전략을 개발해 왔습니다 (트레일링 스탑 로스를 피하며, 여러 자산을 병렬로 운용하며, 더 높은 위험 관리 설정을 무료로 제공하는 freqtrade 플랫폼에서 얻을 수 있는 것을 피하며). 시장에서 시험하고, 하이퍼 파라미터를 튜닝하여 최적화한 후, 전략에서 양의 수익을 얻게 되었습니다.
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 우리는 암호화폐 시장의 BTC/USDT 자산만을 테스트해본 상태입니다. 이전에 Freqtrade 전략을 개발할 때 사용한 총 자산을 나누어, 그들의 변동성에 따라 서로 다른 클러스터로 나눌 수 있는지 알고 싶었습니다. 특정하게 변동성이 높은 자산에 대해 거래를 할 때 쉬워지며, 코인의 변동성을 기반으로 구현하면 다른 자산에 대한 큰 손실을 피할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 Freqtrade 전략에서 사용하는 138가지 암호 자산 중 서로 다른 클러스터를 식별하기 위해 K-Nearest Neighbors(KNN Mean)를 사용했습니다. 백테스트 중에 8000% 이상의 수익을 올린 것이죠.
 
@@ -73,7 +124,18 @@ isUpdated: true
 
 이제 우리는 또 다른 무지도 학습 모델인 숨겨진 마르코프 모델(HMMs)을 소개하고자 합니다. 이 모델은 시장의 추세를 식별하고, 유리한 추세에서만 거래를 하고 시장에서의 급등, 급락을 피하며 부정적인 추세 또한 피하려고 합니다. 아래 설명에서 이에 대해 자세히 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## "하이퍼 최적화된 알고리즘 전략 대 머신 러닝 모델 파트 -2 (숨겨진 마르코프 모델 - HMM)" - 링크
 
@@ -83,7 +145,18 @@ XGBoost Classifier를 사용하여 옛 신호를 이용해 장기 및 단기 거
 
 ## "하이퍼 최적화된 알고리즘 전략 대 머신 러닝 모델 파트 -3 (XGBoost Classifier, LGBM Classifier, CatBoost Classifier, SVC, LSTM with XGB 및 다단계 하이퍼 최적화)" - 링크
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Stage 6:
 
@@ -93,7 +166,18 @@ For this stage, I've delved into utilizing the CatBoostClassifier alongside resa
 
 ## Stage 7:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 단계에서는 TCN과 LSTM 신경망 모델을 결합한 앙상블 방법이 다양한 데이터셋에서 우수한 성능을 보여주며 개별 모델을 능가하고 매수 및 보유 전략조차 능가하고 있습니다. 이는 앙상블 학습의 효과적인 예측 정확도와 견고성 향상을 강조합니다.
 
@@ -103,7 +187,18 @@ For this stage, I've delved into utilizing the CatBoostClassifier alongside resa
 
 VishvaAlgo v3.8로 미래의 거래를 경험하세요. 고급 기능, 비할 데 없는 리스크 관리 능력, ML 및 신경망 모형의 쉬운 통합을 갖춘 VishvaAlgo는 일관된 이익과 안정감을 추구하는 거래자들에게 최상의 선택입니다. 거래 여정을 혁신하고 싶은 거래자들에게 이 기회를 놓치지 마세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # “VishvaAlgo v3.0 — Live Cryptocurrency Trading에 빛을 발하는 변화와 기계학습(신경망) 모델 강화. 라이브 수익 화면 공유” — 링크
 
@@ -113,7 +208,18 @@ VishvaAlgo v3.8로 미래의 거래를 경험하세요. 고급 기능, 비할 �
 
 # 이미지 및 비디오 처리를 위한 CNN
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이미지 처리: CNN은 객체를 식별하고 얼굴을 감지하며 이미지 내에서 패턴을 인식하는 데 사용됩니다. 이들은 일련의 합성곱 계층, 풀링 계층 및 완전히 연결된 계층을 적용하여 특징을 추출하고 예측을 수행합니다.
 - 비디오 처리: 비디오 데이터에서 CNN은 행동 인식 및 비디오 분류와 같은 작업에 사용될 수 있습니다. 각 프레임을 이미지로 처리하고 시계열 계층을 사용하여 프레임의 순서를 캡처할 수 있습니다.
@@ -126,7 +232,18 @@ VishvaAlgo v3.8로 미래의 거래를 경험하세요. 고급 기능, 비할 �
 - 지역적 패턴 인식: 합성곱 필터는 시계열 데이터 내에서 지역적 패턴을 포착하여 단기간 트렌드와 변동이 중요한 금융 데이터에 중요합니다.
 - 차원 축소: 풀링 계층은 데이터의 차원을 축소시켜주며 최우선적인 특징을 유지하면서 계산 복잡성을 줄일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2차원 CNN으로 이더리움(ETH) 데이터 다중 분류하기
 
@@ -139,27 +256,45 @@ VishvaAlgo v3.8로 미래의 거래를 경험하세요. 고급 기능, 비할 �
 
 ## 모델 아키텍처 및 훈련
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 입력 형태: 모델의 입력 데이터는 2D 형식으로 구성되며, (샘플 수, 타임 스텝 수, 특성 수)의 모양을 갖습니다.
 - 합성곱 레이어: 이러한 레이어는 입력 데이터 전체에 합성곱 필터를 적용하여 지역적인 시간적 특성을 학습합니다.
 
-
 x = Conv2D(filters=64, kernel_size=(3, 3), activation='relu')(inputs)
-
 
 3. 풀링 레이어: 이러한 레이어는 특성 맵의 차원을 줄이면서 중요한 정보를 유지합니다.
 
-
 x = MaxPooling2D(pool_size=(2, 2))(x)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. 밀집 레이어: 완전 연결 레이어는 합성곱 레이어에서 추출된 특징을 해석합니다.
 
 ```python
-x = Flatten()(x) 
+x = Flatten()(x)
 x = Dense(units=128, activation='relu')(x)
 ```
 
@@ -169,20 +304,42 @@ x = Dense(units=128, activation='relu')(x)
 outputs = Dense(3, activation='softmax')(x)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 모델 훈련
 
 모델은 레이블이 지정된 시계열 데이터를 사용하여 훈련됩니다. 각 시계열 세그먼트는 0 (중립), 1 (길게), 또는 2 (짧게)로 레이블이 지정됩니다.
 
 ```javascript
-model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
-model.fit(X_train, y_train, epochs=50, batch_size=64, validation_split=0.2)
+model.compile((optimizer = "adam"), (loss = "categorical_crossentropy"), (metrics = ["accuracy"]));
+model.fit(X_train, y_train, (epochs = 50), (batch_size = 64), (validation_split = 0.2));
 ```
 
 ## 예제 코드
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 ETH 시계열 데이터의 다중 분류를 위한 2D CNN의 완전한 예시가 있어요:
 
@@ -221,7 +378,18 @@ model.fit(X_train, y_train, epochs=10, batch_size=64, validation_data=(X_val, y_
 - 속도: CNN은 대규모 데이터셋을 효율적으로 처리할 수 있어 고빈도 거래 전략에 중요합니다.
 - 정확도: 적절히 조정된 경우, CNN은 시장 움직임을 예측하는 데 높은 정확도를 달성하여 거래자가 정보에 기반한 결정을 내릴 수 있게 도와줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요약하자면, CNN은 기존에는 이미지 및 비디오 처리에 사용되었지만, 지역적 패턴을 포착하고 차원을 감소시키는 능력으로 인해 금융 시장에서의 시계열 분류에 매우 효과적입니다. 이러한 적응성은 암호화폐 시장과 같은 시장 움직임을 예측할 수 있는 강력한 모델을 가능하게 하며, 롱(long), 숏(short) 및 중립(neutral)과 같은 포지션 분류를 지원합니다.
 
@@ -287,47 +455,76 @@ from hyperopt import fmin, tpe, hp, STATUS_OK, Trials
 
 Import 문 (1-18행):
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **주의사항 (라인 1~4):**
 이 부분은 실행 중 나타날 수 있는 경고 메시지를 억제합니다. 훈련 중단 없이 진행하는 데 도움이 되지만, 보다 효과적인 디버깅 및 잠재적 문제 이해를 위해 경고 자체에 대해 조치하는 것이 좋습니다.
 
 **일반 라이브러리 (라인 5~7):**
+
 - numpy (np): 배열 연산 및 수학 함수에 자주 사용되는 숫자 연산 기능을 제공합니다. 문서 작성에 직접적으로 적용되지는 않습니다.
 - pandas (pd): 데이터 조작, 분석 및 시각화에 사용됩니다. 기사에서 구조화된 데이터(예: 표, 차트)를 다루는 데 필수적입니다.
 
 **머신러닝 라이브러리 (라인 8~13):**
+
 - catboost (명시적으로 여기에는 포함되지 않음): 머신러닝 작업을 위한 강력한 그래디언트 부스팅 라이브러리를 제공합니다. 특정 머신러닝 알고리즘을 논의하는 경우를 제외하고는 문서 작성과 직접적으로 관련이 없습니다.
 - scikit-learn (다양한 하위 모듈): 포괄적인 머신러닝 라이브러리입니다. 개념 설명이나 접근법 비교를 위해 다음과 같은 부분은 기사에서 유용할 수 있습니다:
-   - train_test_split: 모델 평가를 위해 데이터를 학습 및 테스트 세트로 분할합니다.
-   - RandomizedSearchCV, cross_val_score, RepeatedStratifiedKFold: 초매개변수 조정 및 모델 평가(cross-validation) 기술에 대한 기법.
-   - LogisticRegression: 선형 분류 모델로, 분류 알고리즘을 논의하는 경우 관련성이 있을 수 있습니다.
+  - train_test_split: 모델 평가를 위해 데이터를 학습 및 테스트 세트로 분할합니다.
+  - RandomizedSearchCV, cross_val_score, RepeatedStratifiedKFold: 초매개변수 조정 및 모델 평가(cross-validation) 기술에 대한 기법.
+  - LogisticRegression: 선형 분류 모델로, 분류 알고리즘을 논의하는 경우 관련성이 있을 수 있습니다.
 
 **앙상블 메소드 (라인 14~16):**
+
 - scikit-learn (하위 모듈): 여러 모델을 결합하여 성능을 향상시키는 기법입니다. 문서 작성과 직접적으로 관련이 없습니다.
 
 **샘플링 방법 (라인 17):**
+
 - imblearn: 클래스 크기가 다른 불균형 데이터셋을 처리하는 데 도움을 주는 도구를 제공합니다. 일반적으로 문서 작성 자체에서 사용되지는 않습니다.
 
 **스케일링 (라인 18):**
+
 - scikit-learn: 데이터를 정규화하거나 표준화하는 기술을 제공합니다. 머신러닝 모델에 필요한 경우가 많은데, 문서에서 데이터 전처리 단계를 설명하는 데 유용할 수 있습니다.
 
 **평가 지표 (라인 19~33):**
 
 **이진 분류 평가 지표 (라인 19~21):**
+
 - scikit-learn: 이진 분류(두 개의 클래스) 모델 성능을 평가하는 데 사용됩니다. 모델 평가 지표를 논의하는 경우를 제외하고는 문서 작성과 직접적으로 관련이 없습니다.
 
 **일반 지표 (라인 22~33):**
+
 - scikit-learn: 다양한 분류 작업에서 모델 성능을 평가하는 데 사용되는 여러 지표가 있습니다. 아래 내용은 모델 평가 방법을 설명하는 데 기사에서 유용할 수 있습니다:
-   - accuracy_score: 정확한 예측의 비율.
-   - precision_score: 예측된 긍정 중 실제 긍정의 비율.
-   - confusion_matrix: 각 클래스에 대해 올바르게 또는 잘못 분류된 인스턴스를 시각화합니다.
-   - classification_report: 각 클래스의 precision, recall, F1-score 및 지원을 포함한 모델 성능에 대한 상세 보고서.
-   - roc_curve, roc_auc_score: Receiver Operating Characteristic(ROC) 곡선을 평가하는 데 사용되는 측정 항목. 이는 모델이 클래스 간의 차별 능력을 평가하는 데 도움이 됩니다.
+  - accuracy_score: 정확한 예측의 비율.
+  - precision_score: 예측된 긍정 중 실제 긍정의 비율.
+  - confusion_matrix: 각 클래스에 대해 올바르게 또는 잘못 분류된 인스턴스를 시각화합니다.
+  - classification_report: 각 클래스의 precision, recall, F1-score 및 지원을 포함한 모델 성능에 대한 상세 보고서.
+  - roc_curve, roc_auc_score: Receiver Operating Characteristic(ROC) 곡선을 평가하는 데 사용되는 측정 항목. 이는 모델이 클래스 간의 차별 능력을 평가하는 데 도움이 됩니다.
 
 **보고 (라인 34~36):**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - matplotlib.pyplot (plt): 시각화 자료인 차트 및 그래프 작성에 사용됩니다. 기사에서 데이터 및 모델 결과를 제시하는 데 필수적입니다.
 
@@ -337,7 +534,18 @@ Backtesting (37-38행):
 
 Hyperparameter Optimization (39-42행):
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - hyperopt: 기계 학습 모델의 최적 설정을 찾는 하이퍼파라미터 튜닝을 위한 라이브러리입니다. 기사 작성에 직접적으로 적용되지는 않아요.
 
@@ -347,7 +555,18 @@ Hyperparameter Optimization (39-42행):
 
 다른 임포트 (44~50번째 줄):
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - json: JSON 데이터 형식을 다루기 위한 라이브러리입니다 (여기서 직접적으로 사용되지는 않음).
 - datetime: 날짜와 시간 객체를 다루기 위한 라이브러리입니다. 시계열 데이터를 처리하는 데 유용할 수 있습니다.
@@ -355,32 +574,54 @@ Hyperparameter Optimization (39-42행):
 - ccxt (여기서 명시적으로 불려지지 않음): 암호화폐 거래소와 상호 작용하는 데 사용되는 라이브러리입니다 (글쓰기에는 관련이 없음).
 
 맥락:
+
 - 각 라이브러리와 모듈은 데이터 수정, 머신 러닝, 평가, 시각화, 백테스팅, 하이퍼파라미터 최적화 등과 같이 특정 목적을 위해 불려집니다.
 - 이러한 라이브러리와 모듈은 데이터 전처리, 모델 학습, 평가, 최적화 및 시각화와 같은 다양한 작업에 코드 전반에 걸쳐 사용될 것입니다.
 
-
 # JSON 파일 경로 정의
+
 file_path = './ETH_USDT_USDT-15m-futures.json'
+
 # 파일 열고 데이터 읽기
+
 with open(file_path, "r") as f:
-    data = json.load(f)
+data = json.load(f)
 
 df = pd.DataFrame(data)
+
 # OHLC 데이터 추출 (필요에 따라 열 이름 조정)
+
 # ohlc_data = df[["date", "open", "high", "low", "close", "volume"]]
+
 df.rename(columns={0: "날짜", 1: "시가", 2: "고가", 3: "저가", 4: "수정 종가", 5: "거래량"}, inplace=True)
+
 # 타임스탬프를 날짜 시간 객체로 변환
+
 df["날짜"] = pd.to_datetime(df['날짜'] / 1000, unit='s')
 df.set_index("날짜", inplace=True)
+
 # 날짜 인덱스 형식 변경
+
 df.index = df.index.strftime("%m-%d-%Y %H:%M")
 df['종가'] = df['수정 종가']
+
 # print(df.dropna(), df.describe(), df.info())
+
 data = df
 data
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 역사적 가상 통화 선물 데이터를 분석하기 위해서, 우선 JSON 파일에서 데이터를 로드할 수 있습니다. 제공된 코드는 Python의 json 라이브러리를 사용하여 JSON 내용을 사전으로 파싱하는 방법을 보여줍니다. 그런 다음 이 사전을 pandas DataFrame으로 변환하여 더 쉬운 조작이 가능합니다. DataFrame은 열 이름 변경, 타임스탬프를 날짜시간 객체로 변환, 날짜를 인덱스로 설정하고 날짜 표시 양식을 변경하여 가독성을 높이도록 정리 및 변환됩니다.
 
@@ -391,7 +632,18 @@ data
 - 코드는 가상 통화 데이터 (아마도 USDT로 거래되는 이더리움 선물 계약의 Open-High-Low-Close-Volume 형식)를 포함하는 JSON 파일에 대한 파일 경로 (file_path)를 정의합니다.
 - 파일을 읽기 위해 열고 (with open(file_path, "r") as f:) json.load(f)를 사용하여 JSON 내용을 Python 사전 (data)으로 파싱합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. DataFrame으로 변환:
 
@@ -405,8 +657,18 @@ data
 - df.index.strftime("%m-%d-%Y %H:%M")을 사용하여 날짜 색인의 형식을 지정하여, 보다 가독성 있는 형식으로 날짜를 표시합니다 (예: "05-14-2024 16:35").
 - 마지막으로 "Adj Close"라는 열을 "Close"라는 변수에 할당하여 조금 더 명확한 참조를 위해서입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가정: 'Open', 'High', 'Low', 'Close', 'Adj Close', 'Volume' 열이 포함된 'df'라는 DataFrame이 있다고 가정합니다.
 target_prediction_number = 2
@@ -415,51 +677,65 @@ name_periods = [6, 8, 10, 12, 14, 16, 18, 22, 26, 33, 44, 55]
 df = data.copy()
 new_columns = []
 
-for period in time_periods:
-    for nperiod in name_periods:
-        df[f'ATR_{period}'] = ta.ATR(df['High'], df['Low'], df['Close'], timeperiod=period)
-        df[f'EMA_{period}'] = ta.EMA(df['Close'], timeperiod=period*2)
-        df[f'RSI_{period}'] = ta.RSI(df['Close'], timeperiod=period*0.5)
-        df[f'VWAP_{period}'] = ta.SUM(df['Volume'] * (df['High'] + df['Low'] + df['Close']) / 3, timeperiod=period) / ta.SUM(df['Volume'], timeperiod=period)
-        df[f'ROC_{period}'] = ta.ROC(df['Close'], timeperiod=period)
-        df[f'KC_upper_{period}'] = ta.EMA(df['High'], timeperiod=period*2)
-        df[f'KC_middle_{period}'] = ta.EMA(df['Low'], timeperiod=period*2)
-        df[f'Donchian_upper_{period}'] = ta.MAX(df['High'], timeperiod=period)
-        df[f'Donchian_lower_{period}'] = ta.MIN(df['Low'], timeperiod=period)
-        macd, macd_signal, _ = ta.MACD(df['Close'], fastperiod=(period + 12), slowperiod=(period + 26), signalperiod=(period + 9))
-        df[f'MACD_{period}'] = macd
-        df[f'MACD_signal_{period}'] = macd_signal
-        bb_upper, bb_middle, bb_lower = ta.BBANDS(df['Close'], timeperiod=period*0.5, nbdevup=2, nbdevdn=2)
-        df[f'BB_upper_{period}'] = bb_upper
-        df[f'BB_middle_{period}'] = bb_middle
-        df[f'BB_lower_{period}'] = bb_lower
-        df[f'EWO_{period}'] = ta.SMA(df['Close'], timeperiod=(period+5)) - ta.SMA(df['Close'], timeperiod=(period+35))
+for period in time*periods:
+for nperiod in name_periods:
+df[f'ATR*{period}'] = ta.ATR(df['High'], df['Low'], df['Close'], timeperiod=period)
+df[f'EMA_{period}'] = ta.EMA(df['Close'], timeperiod=period*2)
+df[f'RSI_{period}'] = ta.RSI(df['Close'], timeperiod=period*0.5)
+df[f'VWAP_{period}'] = ta.SUM(df['Volume'] * (df['High'] + df['Low'] + df['Close']) / 3, timeperiod=period) / ta.SUM(df['Volume'], timeperiod=period)
+df[f'ROC_{period}'] = ta.ROC(df['Close'], timeperiod=period)
+df[f'KC_upper_{period}'] = ta.EMA(df['High'], timeperiod=period*2)
+df[f'KC_middle_{period}'] = ta.EMA(df['Low'], timeperiod=period*2)
+df[f'Donchian_upper_{period}'] = ta.MAX(df['High'], timeperiod=period)
+df[f'Donchian_lower_{period}'] = ta.MIN(df['Low'], timeperiod=period)
+macd, macd*signal, * = ta.MACD(df['Close'], fastperiod=(period + 12), slowperiod=(period + 26), signalperiod=(period + 9))
+df[f'MACD_{period}'] = macd
+df[f'MACD_signal_{period}'] = macd_signal
+bb_upper, bb_middle, bb_lower = ta.BBANDS(df['Close'], timeperiod=period*0.5, nbdevup=2, nbdevdn=2)
+df[f'BB_upper_{period}'] = bb*upper
+df[f'BB_middle*{period}'] = bb*middle
+df[f'BB_lower*{period}'] = bb*lower
+df[f'EWO*{period}'] = ta.SMA(df['Close'], timeperiod=(period+5)) - ta.SMA(df['Close'], timeperiod=(period+35))
 
 df["Returns"] = (df["Adj Close"] / df["Adj Close"].shift(target_prediction_number)) - 1
 df["Range"] = (df["High"] / df["Low"]) - 1
 df["Volatility"] = df['Returns'].rolling(window=target_prediction_number).std()
 
 # 기반 데이터의 지표
+
 df['OBV'] = ta.OBV(df['Close'], df['Volume'])
 df['ADL'] = ta.AD(df['High'], df['Low'], df['Close'], df['Volume'])
 
 # 모멘텀 기반 지표
+
 df['Stoch_Oscillator'] = ta.STOCH(df['High'], df['Low'], df['Close'])[0]
 df['PSAR'] = ta.SAR(df['High'], df['Low'], acceleration=0.02, maximum=0.2)
 
 # 모든 열을 표시하기 위해 판다스 옵션 설정
+
 pd.set_option('display.max_columns', None)
 
 # 계산된 지표 출력
+
 print(df.tail())
 df.dropna(inplace=True)
 print("Length: ", len(df))
 df
 
-
 이 코드는 talib 라이브러리를 사용하여 다양한 기술적 지표를 계산하는 방법을 보여줍니다. 이 코드는 Average True Range (ATR), Exponential Moving Average (EMA), Relative Strength Index (RSI) 등의 지표를 계산합니다. 또한 시각적으로 표시하기 위한 판다스 옵션을 설정하고 계산된 지표를 출력합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 데이터 전처리 — 미래 예측 값 추정을 위한 "목표" 값 설정
 
@@ -499,7 +775,18 @@ return trendcat
 
 여기에 제공된 코드의 세부 사항입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 The provided code defines a function `mytarget` that aims to set target values (presumably for buying and selling) based on a trend classification. Let's dive into how this function works:
 
@@ -510,12 +797,23 @@ Parameters:
 
 Function Logic:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 초기화:
 
 - DataFrame의 길이를 가져옵니다 (length).
-- 고가, 저가, 종가 및 시가 ​​가격의 목록을 추출합니다 (고가, 저가, 종가, open_). open은 Python의 내장 open 함수와의 충돌을 피하기 위해 open_로 이름이 변경됩니다.
+- 고가, 저가, 종가 및 시가 ​​가격의 목록을 추출합니다 (고가, 저가, 종가, open*). open은 Python의 내장 open 함수와의 충돌을 피하기 위해 open*로 이름이 변경됩니다.
 - 길이 개수의 요소를 모두 None으로 설정한 trendcat 리스트를 초기화합니다. 이 리스트는 각 막대의 추세 카테고리 (상승 추세, 하락 추세 또는 추세 없음)를 나중에 저장합니다.
 
 ### 추세 분류 루프:
@@ -526,13 +824,22 @@ Function Logic:
 - valueOpenLow: 현재 막대의 오픈 가격과 다음 barsupfront + 1개의 막대에서의 최저가 사이의 최대 차이입니다.
 - valueOpenHigh: 현재 막대의 오픈 가격과 다음 barsupfront + 1개의 막대에서의 최고가 사이의 최소 차이입니다.
 - asset의 가격을 기준으로 한 pipdiff_percentage (비율의 백분율) 및 SLTPRatio에 따라 이러한 값을 확인합니다:
-- 만약 valueOpenLow가 당일 종가[line + 1] * pipdiff_percentage보다 크거나 같으면 (즉, 오픈 가격이 앞으로 다가올 최저가들보다 상당히 낮다는 것을 의미) AND -valueOpenHigh가 당일 종가[line + 1] * pipdiff_percentage / SLTPRatio보다 작거나 같으면 (즉, 오픈 가격이 앞으로 다가올 최고가들보다 상당히 높지 않다는 것을 의미), 해당 추세를 하락 추세로 분류합니다 (trendcat[line]이 2로 설정됨).
-- 반대로, valueOpenLow가 당일 종가[line + 1] * pipdiff_percentage / SLTPRatio보다 작거나 같으면 (즉, 오픈 가격이 앞으로 다가올 최저가들보다 상당히 높다는 것을 의미) AND -valueOpenHigh가 당일 종가[line + 1] * pipdiff_percentage보다 크거나 같으면 (즉, 오픈 가격이 앞으로 다가올 최고가들보다 상당히 낮지 않다는 것을 의미), 해당 추세를 상승 추세로 분류합니다 (trendcat[line]이 1로 설정됨).
+- 만약 valueOpenLow가 당일 종가[line + 1] _ pipdiff_percentage보다 크거나 같으면 (즉, 오픈 가격이 앞으로 다가올 최저가들보다 상당히 낮다는 것을 의미) AND -valueOpenHigh가 당일 종가[line + 1] _ pipdiff_percentage / SLTPRatio보다 작거나 같으면 (즉, 오픈 가격이 앞으로 다가올 최고가들보다 상당히 높지 않다는 것을 의미), 해당 추세를 하락 추세로 분류합니다 (trendcat[line]이 2로 설정됨).
+- 반대로, valueOpenLow가 당일 종가[line + 1] _ pipdiff_percentage / SLTPRatio보다 작거나 같으면 (즉, 오픈 가격이 앞으로 다가올 최저가들보다 상당히 높다는 것을 의미) AND -valueOpenHigh가 당일 종가[line + 1] _ pipdiff_percentage보다 크거나 같으면 (즉, 오픈 가격이 앞으로 다가올 최고가들보다 상당히 낮지 않다는 것을 의미), 해당 추세를 상승 추세로 분류합니다 (trendcat[line]이 1로 설정됨).
 - 두 조건 중 어느 것도 충족되지 않으면 명확한 추세가 없음으로 표시됩니다 (trendcat[line]은 0으로 유지됨).
 
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 회귀:
 
@@ -555,11 +862,22 @@ count_of_zeros_target = df['Target'].value_counts().get(0, 0)
 count_of_ones_target = df['Target'].value_counts().get(1, 0)
 percent_of_zeros_over_ones_and_twos = (100 - (count_of_zeros_target/ (count_of_zeros_target + count_of_ones_target + count_of_twos_target))*100)
 print(f' count_of_zeros = {count_of_zeros_target}\n count_of_twos_target = {count_of_twos_target}\n count_of_ones_target={count_of_ones_target}\n percent_of_zeros_over_ones_and_twos = {round(percent_of_zeros_over_ones_and_twos,2)}%')
-```  
+```
 
-![Returnsin3yearsonCryptocurrencyusing2DConvolutionalNeuralNetworkCNNModelandshortlistingBestAssetsforTradingVishvaAlgoMachineLearningTradingBot_2.png](/assets/img/2024-07-09-9883Returnsin3yearsonCryptocurrencyusing2DConvolutionalNeuralNetworkCNNModelandshortlistingBestAssetsforTradingVishvaAlgoMachineLearningTradingBot_2.png)  
+![Returnsin3yearsonCryptocurrencyusing2DConvolutionalNeuralNetworkCNNModelandshortlistingBestAssetsforTradingVishvaAlgoMachineLearningTradingBot_2.png](/assets/img/2024-07-09-9883Returnsin3yearsonCryptocurrencyusing2DConvolutionalNeuralNetworkCNNModelandshortlistingBestAssetsforTradingVishvaAlgoMachineLearningTradingBot_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Trend classifications(TARGET)는 mytarget 함수를 기반으로 할당하고 데이터 클리닝을 수행합니다. 이 과정에서 무한값을 처리하고 결측값이 있는 행을 제거합니다. 이후 히스토그램을 사용하여 TARGET 값의 분포를 분석하고, 각 트렌드 카테고리로 분류된 막대의 비율을 계산합니다. 이를 통해 데이터에서 명확한 상승 트렌드, 하락 트렌드 및 명확한 트렌드가 없는 기간 사이의 균형을 평가할 수 있습니다.
 
@@ -570,7 +888,18 @@ Trend classifications(TARGET)는 mytarget 함수를 기반으로 할당하고 �
 
 2. 무한값 및 결측값 처리:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 코드는 데이터프레임(df.replace([np.inf, -np.inf], np.nan, inplace=True))에서 양의 무한대와 음의 무한대(np.inf 및 -np.inf)를 NaN(숫자가 아님) 값으로 대체합니다. 이것은 일부 수학 연산이 무한대를 처리하지 못하기 때문에 필요합니다.
 - 그런 다음 데이터프레임에서 누락된 값(NaN)이 있는 행을 제거합니다(df.dropna(axis=0, inplace=True)) . 이는 추가 분석을 위해 깨끗한 데이터를 보장하기 위해 필요합니다.
@@ -581,7 +910,18 @@ Trend classifications(TARGET)는 mytarget 함수를 기반으로 할당하고 �
 
 4. 대상 분포 분석:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 코드는 `Target` 열의 히스토그램을 플롯합니다 (df[`Target`].hist()). 이를 통해 데이터 내 목표 값의 분포를 시각화하는 데 도움이 됩니다 (상승추세, 하락추세 또는 추세 없음).
 - 그런 다음 각 타겟 값 (1, 2 및 0)의 수를 value_counts()를 사용하여 계산합니다.
@@ -591,19 +931,25 @@ Trend classifications(TARGET)는 mytarget 함수를 기반으로 할당하고 �
 
 # 위의 코드가 생성된 “Target” 데이터에 대해 최상의 수익률을 제공하는지 확인하는 단계:
 
-
 # NaN 값 확인:
+
 has_nan = df['Target'].isnull().values.any()
 print("NaN 값이 있음:", has_nan)
+
 # 무한 값 확인:
+
 has_inf = df['Target'].isin([np.inf, -np.inf]).values.any()
 print("무한 값이 있음:", has_inf)
+
 # NaN 및 무한 값의 수를 계산:
+
 nan_count = df['Target'].isnull().sum()
 inf_count = (df['Target'] == np.inf).sum() + (df['Target'] == -np.inf).sum()
 print("NaN 값 수:", nan_count)
 print("무한 값 수:", inf_count)
+
 # NaN 및 무한 값의 인덱스 얻기:
+
 nan_indices = df['Target'].index[df['Target'].isnull()]
 inf_indices = df['Target'].index[df['Target'].isin([np.inf, -np.inf])]
 print("NaN 값의 인덱스:", nan_indices)
@@ -612,15 +958,15 @@ df = df.reset_index(inplace=False)
 df['Date'] = pd.to_datetime(df['Date'])
 df.set_index('Date', inplace=True)
 def SIGNAL(df):
-    return df['Target']
+return df['Target']
 from backtesting import Strategy
 class MyCandlesStrat(Strategy):  
-    def init(self):
-        super().init()
-        self.signal1 = self.I(SIGNAL, self.data)
-    
+ def init(self):
+super().init()
+self.signal1 = self.I(SIGNAL, self.data)
+
     def next(self):
-        super().next() 
+        super().next()
         if self.signal1 == 1:
             sl_pct = 0.025  # 2.5% 손절
             tp_pct = 0.025  # 2.5% 익절
@@ -633,13 +979,24 @@ class MyCandlesStrat(Strategy):
             sl_price = self.data.Close[-1] * (1 + sl_pct)
             tp_price = self.data.Close[-1] * (1 - tp_pct)
             self.sell(sl=sl_price, tp=tp_price)
-            
+
+
 bt = Backtest(df, MyCandlesStrat, cash=100000, commission=.001, exclusive_orders = True)
 stat = bt.run()
 stat
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-07-09-9883Returnsin3yearsonCryptocurrencyusing2DConvolutionalNeuralNetworkCNNModelandshortlistingBestAssetsforTradingVishvaAlgoMachineLearningTradingBot_3.png)
 
@@ -651,7 +1008,18 @@ stat
 
 2. Configuring the Backtesting Framework:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 위 코드는 단순히 `Target` 열 값들을 반환하는 SIGNAL(df) 함수를 정의합니다. 이 함수는 본질적으로 목표 분류(상승 추세 매수를 위한 1 및 하락 추세 매도를 위한 2)에 기반한 매수/매도 신호를 제공합니다.
 - 백테스팅 라이브러리에서 Strategy 클래스를 가져옵니다.
@@ -668,12 +1036,23 @@ stat
 
 이 코드는 목표 값의 효과를 명확하게 결정할까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 No, this code doesn’t definitively determine the effectiveness of the target values. Here’s why:
 
 **Parameter Optimization**: The stop-loss and take-profit percentages (sl_pct and tp_pct) are fixed in the code. Optimizing these parameters for the specific strategy and market conditions could potentially improve performance.
-  
+
 **Single Backtest Run**: Running the backtest only once doesn’t account for the inherent randomness in financial markets. Ideally, you’d run the backtest multiple times with different random seeds to assess its robustness.
 
 **How to improve the code for target evaluation?**
@@ -684,7 +1063,18 @@ No, this code doesn’t definitively determine the effectiveness of the target v
 
 - **Multiple Backtest Runs**: Run the backtest with different random seeds (e.g., using a loop) and analyze the distribution of performance metrics to assess the strategy’s consistency.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 향상된 내용을 통합하면, mytarget 함수의 대상 값이 백테스팅 프레임워크에서 얼마나 잘 수행되는지 보다 포괄적으로 이해할 수 있다. 기억해야 할 것은 백테스팅 결과가 미래 성과를 보장하는 것은 아니므로, 실제 자본을 할당하기 전에 실제 자금으로 전략을 배포하기 전에 실제 세계 테스트가 필수적이라는 것입니다.
 
@@ -720,17 +1110,39 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, shuffle
 
 1. 데이터 준비:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - **데이터 복사:**
-여기서는 원본 DataFrame을 수정하지 않기 위해 복사본을 만듭니다. (`df_model = df.copy()`)
+  여기서는 원본 DataFrame을 수정하지 않기 위해 복사본을 만듭니다. (`df_model = df.copy()`)
 
 - **특징과 타겟 분리:**
-특징(X)과 타겟(y)을 분리합니다. 여기서는 슬라이싱을 사용하여 특징(마지막 열 제외한 모든 열)과 타겟 변수(마지막 열)을 분리합니다. (`X = df_model.iloc[:, :-1]`, `y = df_model.iloc[:, -1]`)
+  특징(X)과 타겟(y)을 분리합니다. 여기서는 슬라이싱을 사용하여 특징(마지막 열 제외한 모든 열)과 타겟 변수(마지막 열)을 분리합니다. (`X = df_model.iloc[:, :-1]`, `y = df_model.iloc[:, -1]`)
 
 - **특징 스케일링:**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **4. 데이터 형태 재구성 (윈도잉):**
 
@@ -742,8 +1154,18 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, shuffle
 
 **5. 재구성된 데이터에 대상 맞추기:**
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 과잉 대상 값 제거: X_reshaped는 시간 단계 창을 고려하기 때문에 해당 대상 값은 조정이 필요합니다. y의 처음 time_steps - 1 대상 값을 버려 X와 정렬된 데이터(y_aligned = y[time_steps - 1:])와 일치시킵니다.
 
@@ -754,7 +1176,18 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, shuffle
 
 종합적으로, 이 코드는 시계열 예측 모델을 위한 데이터 준비의 주요 측면을 효과적으로 다룹니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 일부 알고리즘에 대해 모델 성능을 향상시키기 위해 일반 범위로 기능을 조정하는 것이 도움이 될 수 있어요.
 - 시간 단계로 3D 구조로 데이터를 재구성하면 모델이 과거 관측 값의 연속체로부터 학습할 수 있어요.
@@ -762,13 +1195,25 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, shuffle
 - shuffle=False로 훈련 및 테스트 세트로 데이터를 분할하면 시계열 예측을 위해 시간적 순서를 보존할 수 있어요.
 
 추가 고려 사항:
+
 - 스케일러의 선택(MinMaxScaler, StandardScaler 등)은 특정 모델 및 데이터 특성에 따라 다를 수 있어요.
 - 모델 성능에 어떻게 영향을 주는지 확인하기 위해 다른 창 크기(시간 단계)를 살펴볼 수 있어요.
 - 이러한 단계를 적용하기 전에 일부 시계열 데이터에 대해 안정성 확인 및 차이화와 같은 기법이 필요할 수 있어요.
 
 # 2D CNN 모델 수동 최적화
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 from sklearn.utils.class_weight import compute_class_weight
@@ -785,8 +1230,18 @@ import numpy as np
 
 ## 라이브러리 가져오기
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 모델 구축하기
 
@@ -812,20 +1267,29 @@ def build_model(hp):
 
 위의 코드는 모델을 구축하는 함수를 보여줍니다. `inputs`는 (timesteps 수, 피쳐 수, 1) 모양의 데이터를 받는 입력 레이어입니다. `Conv2D`는 하이퍼파라미터로 정해진 필터를 가진 합성곱 레이어로, 지역적 패턴을 추출합니다. `MaxPooling2D`는 공간적 차원을 줄이기 위한 풀링 레이어입니다. `Dense`는 추출된 특징을 해석하기 위한 완전 연결 층입니다. `Dropout`는 과적합을 방지하는 정규화 기술입니다. `Flatten`은 밀집층을 위해 2D 행렬을 1D 벡터로 변환합니다. `outputs`는 다중 클래스 분류를 위한 소프트맥스 활성화 함수를 가진 최종 출력 레이어입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 하이퍼파라미터 튜닝
 
-
 tuner = kt.Hyperband(
-    build_model,
-    objective=kt.Objective("val_recall", direction="max"),
-    max_epochs=20,
-    factor=3,
-    directory='my_dir',
-    project_name='hyperopt_cnn'
+build_model,
+objective=kt.Objective("val_recall", direction="max"),
+max_epochs=20,
+factor=3,
+directory='my_dir',
+project_name='hyperopt_cnn'
 )
-
 
 - Hyperband: 하이퍼파라미터 튜닝을 위한 케라스 튜너 알고리즘.
 - objective: 튜닝 중에 최적화할 메트릭(이 경우 검증 리콜).
@@ -835,7 +1299,18 @@ tuner = kt.Hyperband(
 
 ## 튜너 실행하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **하이퍼파라미터 탐색**
 
@@ -851,35 +1326,66 @@ tuner.search(X_train, y_train_one_hot, epochs=10, validation_split=0.2)
 best_hps = tuner.get_best_hyperparameters(num_trials=1)[0]
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 조정 중에 식별된 최상의 하이퍼파라미터를 검색합니다.
 
 ## 클래스 가중치 계산
 
 ```js
-class_weights = compute_class_weight('balanced', classes=np.unique(y_train), y=y_train)
-class_weight_dict = dict(enumerate(class_weights))
+class_weights = compute_class_weight("balanced", (classes = np.unique(y_train)), (y = y_train));
+class_weight_dict = dict(enumerate(class_weights));
 ```
 
 - compute_class_weight: 클래스 빈도에 반비례하는 가중치를 계산하여 클래스를 균형있게 맞춥니다.
 - class_weight_dict: 클래스 가중치의 사전입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 최적 하이퍼파라미터로 모델 구축하고 학습시키기
 
-
 best_cnn_model = tuner.hypermodel.build(best_hps)
 best_cnn_model.fit(X_train, y_train_one_hot, epochs=100, batch_size=18, validation_split=0.2, verbose=1)
-
 
 - build: 최적 하이퍼파라미터로 모델을 구축합니다.
 - fit: 훈련 데이터로 모델을 학습시킵니다.
 
 # 왜 2D CNN이 이 작업에 1D CNN보다 더 나을 수 있는지
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **특징 상호작용:**
 
@@ -891,7 +1397,18 @@ best_cnn_model.fit(X_train, y_train_one_hot, epochs=100, batch_size=18, validati
 - **2D CNN:** 특징 간의 공간적 관계를 이해하는 데 더 효과적이며, 관련된 다수의 특징이 존재할 때 가치가 있습니다.
 - **1D CNN:** 일차원 시퀀스에 집중하여, 다수의 특징 간 상호작용을 효과적으로 포착하지 못할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 디멘젼 압축:
 
@@ -903,7 +1420,18 @@ best_cnn_model.fit(X_train, y_train_one_hot, epochs=100, batch_size=18, validati
 - 2D CNN: 두 가지 차원(시간과 특징)에 걸쳐 필터를 적용하여 복잡한 패턴을 탐지할 수 있어 다중 특징 시계열 데이터에 유용합니다.
 - 1D CNN: 한 차원에서의 패턴 인식에 한정되어 복잡한 다중 특징 데이터셋에는 부족할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 결론
 
@@ -914,7 +1442,18 @@ best_cnn_model.fit(X_train, y_train_one_hot, epochs=100, batch_size=18, validati
 - 제공된 코드는 데이터와 원하는 성능에 따라 조정이 필요할 수 있습니다. 하이퍼파라미터 튜닝(예: 유닛 수, 드롭아웃 비율, 학습률)은 모델을 최적화하는 데 중요합니다.
 - 모델 성능을 향상시키기 위해 특성에 대한 정규화나 표준화와 같은 기법을 사용하는 것을 고려해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Further Exploration:
 
@@ -928,7 +1467,18 @@ Real-World Considerations:
 - 모델 예측을 안내로 삼고 절대적인 신호로 간주하지 마세요. 거래 결정을 내리기 전에 리스크 관리 전략과 기타 요소를 고려해야 합니다.
 - 역사적 데이터로 모델을 백테스트하여 다양한 시장 상황에서의 성능을 평가해 보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 import numpy as np
@@ -981,7 +1531,18 @@ print(confusion_matrix(y_test_classes, y_pred_classes))
    - `matplotlib.pyplot` (`plt`) and `seaborn` (`sns`) for creating the confusion matrix visualization.
    - `classification_report` from `sklearn.metrics` for generating a classification report.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 데이터 형태 재구성 (주석 처리):
 
@@ -991,7 +1552,18 @@ print(confusion_matrix(y_test_classes, y_pred_classes))
 
 - y_pred = model_cnn.predict(X_test)을 사용하여 훈련된 모델을 통해 테스트 데이터에 대한 예측을 수행합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. Post-processing Predictions:
 
@@ -1001,7 +1573,18 @@ print(confusion_matrix(y_test_classes, y_pred_classes))
 
 - `y_test_classes = y_test` assumes that your `y_test` dataset already includes class labels (0, 1, 2) for the test set.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 6. 혼동 행렬:
 
@@ -1011,7 +1594,18 @@ print(confusion_matrix(y_test_classes, y_pred_classes))
 
 - 이 코드는 seaborn을 사용하여 혼동 행렬의 히트맵 시각화를 생성합니다. 이를 통해 각 클래스의 모델 분류가 얼마나 잘 되었는지를 시각적으로 확인할 수 있습니다. 이상적으로, 당신은 올바른 분류를 나타내는 대각선상의 높은 값들을 보고 싶어합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 8. 분류 보고서:
 
@@ -1021,7 +1615,7 @@ print(confusion_matrix(y_test_classes, y_pred_classes))
 # 테스트 및 전체 데이터로 백테스트:
 
 ```js
-df_ens_test = df.copy() 
+df_ens_test = df.copy()
 
 df_ens = df_ens_test[len(X_train):]
 
@@ -1033,7 +1627,7 @@ df_ens = df_ens.dropna()
 
 df_ens['bcns']
 
-# df_ens = df.copy() 
+# df_ens = df.copy()
 
 # # df_ens = df_ens_test[len(X_train):]
 
@@ -1052,13 +1646,13 @@ df_ens.set_index('Date', inplace=True)
 def SIGNAL_2_6(df_ens):
     return df_ens['bcns']
 
-class MyCandlesStrat_2_6(Strategy):  
+class MyCandlesStrat_2_6(Strategy):
     def init(self):
         super().init()
         self.signal1_1 = self.I(SIGNAL_2_6, self.data)
-    
+
     def next(self):
-        super().next() 
+        super().next()
         if self.signal1_1 == 1:
             sl_pct = 0.055  # 10% stop-loss
             tp_pct = 0.055  # 2.5% take-profit
@@ -1072,14 +1666,24 @@ class MyCandlesStrat_2_6(Strategy):
             tp_price = self.data.Close[-1] * (1 - tp_pct)
             self.sell(sl=sl_price, tp=tp_price)
 
-            
+
 bt_2_6 = Backtest(df_ens, MyCandlesStrat_2_6, cash=100000, commission=.001)
 stat_2_6 = bt_2_6.run()
 stat_2_6
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 데이터 준비
 
@@ -1097,14 +1701,25 @@ df_ens = df_ens.dropna()
 - df_ens['bcns'] = df_ens['best_cnn_model_scaled'].shift(1).dropna().astype(int): 예측된 클래스 레이블을 한 위치씩 이동하여 미래 데이터를 사용하여 현재 단계의 예측을 하는 룩어헤드 편향을 방지합니다. 결과적으로 나타나는 NaN 값을 제거하고 시리즈를 정수로 변환합니다.
 - df_ens = df_ens.dropna(): 데이터프레임에 남은 NaN 값이 없도록 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 색인 및 날짜 형식 지정
 
 ```js
-df_ens = df_ens.reset_index(inplace=False)
-df_ens['Date'] = pd.to_datetime(df_ens['Date'])
-df_ens.set_index('Date', inplace=True)
+df_ens = df_ens.reset_index((inplace = False));
+df_ens["Date"] = pd.to_datetime(df_ens["Date"]);
+df_ens.set_index("Date", (inplace = True));
 ```
 
 - df_ens = df_ens.reset_index(inplace=False): 데이터프레임의 색인을 수정하지 않고 재설정합니다.
@@ -1113,11 +1728,21 @@ df_ens.set_index('Date', inplace=True)
 
 ## 시그널 함수
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```yaml
-def SIGNAL_2_6(df_ens):
-    return df_ens['bcns']
+def SIGNAL_2_6(df_ens): return df_ens['bcns']
 ```
 
 - SIGNAL_2_6(df_ens): 'bcns' 열을 반환하는 함수입니다. 이 열에는 이동된 클래스 라벨(신호)이 포함되어 있습니다.
@@ -1125,13 +1750,13 @@ def SIGNAL_2_6(df_ens):
 ## 사용자 정의 거래 전략
 
 ```yaml
-class MyCandlesStrat_2_6(Strategy):  
+class MyCandlesStrat_2_6(Strategy):
     def init(self):
         super().init()
         self.signal1_1 = self.I(SIGNAL_2_6, self.data)
-    
+
     def next(self):
-        super().next() 
+        super().next()
         if self.signal1_1 == 1:
             sl_pct = 0.055  # 5.5% 손절가
             tp_pct = 0.055  # 5.5% 익절가
@@ -1146,7 +1771,18 @@ class MyCandlesStrat_2_6(Strategy):
             self.sell(sl=sl_price, tp=tp_price)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 전략 백테스팅
 
@@ -1166,7 +1802,18 @@ stat_2_6
 
 위의 코드는 백테스팅을 수행하는 부분입니다. 준비된 데이터프레임 `df_ens`, 사용자 정의 전략 `MyCandlesStrat_2_6`, 초기 자금 잔액 100,000 단위, 그리고 수수료율 0.1%로 초기화된 백테스트를 실행하고 그 결과와 통계를 확인하는 부분입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2D CNN이 1D CNN보다 우세한 이유
 
@@ -1177,7 +1824,18 @@ stat_2_6
 
 차원 축소:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **2D CNN:** efficiently reduces dimensionality while preserving important features through pooling layers.
 
@@ -1191,14 +1849,24 @@ stat_2_6
 
 By using a 2D CNN, this approach leverages its ability to capture intricate patterns and interactions in multivariate time series data, potentially leading to better performance in predicting trading signals.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이썬 코드:
 
 from keras.models import save_model
 
-best_cnn_model.save(f"./models/best_cnn_model_2d_15m_ETH_SL55_TP55_ShRa_{round(stat_2_6['Sharpe Ratio'],2)}_time_{time.strftime('%Y%m%d%H%M%S')}.keras")
+best*cnn_model.save(f"./models/best_cnn_model_2d_15m_ETH_SL55_TP55_ShRa*{round(stat*2_6['Sharpe Ratio'],2)}\_time*{time.strftime('%Y%m%d%H%M%S')}.keras")
 
 설명:
 
@@ -1206,17 +1874,27 @@ best_cnn_model.save(f"./models/best_cnn_model_2d_15m_ETH_SL55_TP55_ShRa_{round(s
 
 - keras.models에서 save_model을 불러와 모델을 저장합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **2. 파일 이름 정의:**
 
 - 파일 이름은 f-string (포맷된 문자열 리터럴)을 사용하여 구성됩니다. 여러 세부 정보를 포함합니다:
 - 경로: ./models/: 모델을 저장할 디렉토리를 지정합니다.
 - 모델 이름: transformer_model: 모델의 기본 이름입니다.
-- 하이퍼파라미터: _55sl_55tp: 백테스팅 전략에서 사용된 손절가 (Stop-Loss, SL) 및 익절가 (Take-Profit, TP) 값을 나타내는 것으로 보입니다.
-- 데이터 정보: _eth_15m: 이더리움 (ETH) 가격과 15분 간격의 데이터를 가리킬 가능성이 있습니다.
-- 날짜: _may_13th: 모델이 훈련된 날짜 (5월 13일)를 나타냅니다.
+- 하이퍼파라미터: \_55sl_55tp: 백테스팅 전략에서 사용된 손절가 (Stop-Loss, SL) 및 익절가 (Take-Profit, TP) 값을 나타내는 것으로 보입니다.
+- 데이터 정보: \_eth_15m: 이더리움 (ETH) 가격과 15분 간격의 데이터를 가리킬 가능성이 있습니다.
+- 날짜: \_may_13th: 모델이 훈련된 날짜 (5월 13일)를 나타냅니다.
 - 성과 지표: _ShRa_'round(stat_1[`Sharpe Ratio`],2)': 백테스팅 결과(stat_1)에서 얻은 샤프 지수를 소수점 둘째 자리까지 반올림하여 추가합니다.
 - 파일 확장자: .keras: Keras 모델의 표준 확장자입니다.
 
@@ -1224,7 +1902,18 @@ best_cnn_model.save(f"./models/best_cnn_model_2d_15m_ETH_SL55_TP55_ShRa_{round(s
 
 - save_model(model_transformer, filename): 이 코드는 model_transformer를 지정된 파일에 구성된 파일 이름으로 저장합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 중요한 포인트:
 
@@ -1240,7 +1929,18 @@ from keras.models import load_model
 best_model = load_model('./models/cnn_model_2d_15m_ETH_May_16_SL55_TP55_ShRa_0.68_time_20240527170917.keras')
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **의도된 기능:**
 
@@ -1250,12 +1950,23 @@ best_model = load_model('./models/cnn_model_2d_15m_ETH_May_16_SL55_TP55_ShRa_0.6
 
 2. 모델 불러오기:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `./models/` 디렉토리에서 저장된 `transformer_model_55sl_55tp_eth_15m_may_13th_ShRa_0.78.keras` 파일을 로드하려는 코드입니다.
 
 ```python
-df_ens = df.copy() 
+df_ens = df.copy()
 
 # df_ens = df_ens_test[:len(X)]
 y_pred = best_model.predict(X)
@@ -1283,16 +1994,16 @@ def SIGNAL_0155(df_ens):
     return df_ens['ema_55']
 def SIGNAL_01108(df_ens):
     return df_ens['ema_108']
-class MyCandlesStrat_010(Strategy):  
+class MyCandlesStrat_010(Strategy):
     def init(self):
         super().init()
         self.signal1_1 = self.I(SIGNAL_010, self.data)
         self.ema_1_22 = self.I(SIGNAL_0122, self.data)
         self.ema_1_55 = self.I(SIGNAL_0155, self.data)
         self.ema_1_108 = self.I(SIGNAL_01108, self.data)
-    
+
     def next(self):
-        super().next() 
+        super().next()
         if (self.signal1_1 == 1) and (self.data.Close > self.ema_1_22) and (self.ema_1_22 > self.ema_1_55) and (self.ema_1_55 > self.ema_1_108):
             sl_pct = 0.025  # 10% stop-loss
             tp_pct = 0.025  # 2.5% take-profit
@@ -1318,7 +2029,7 @@ class MyCandlesStrat_010(Strategy):
             sl_price = self.data.Close[-1] * (1 + sl_pct)
             tp_price = self.data.Close[-1] * (1 - tp_pct)
             self.sell(sl=sl_price, tp=tp_price)
-            
+
 bt_010 = Backtest(df_ens, MyCandlesStrat_010, cash=100000, commission=.001)
 stat_010 = bt_010.run()
 stat_010
@@ -1328,7 +2039,18 @@ stat_010
 
 이 코드는 Transformer 모델 예측(`best_model`)과 지수 이동 평균(EMAs)을 사용하여 백테스트 전략을 생성하는 방식으로 이전 전략을 보완하고 있습니다. 위 코드를 분석해보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **데이터 준비:**
 
@@ -1345,7 +2067,18 @@ stat_010
 
 - 이러한 함수(SIGNAL_010, SIGNAL_0122 등)는 단순히 시그널을 생성하는 데 사용되는 DataFrame(`bm`, `ema_22` 등)에서 해당 열을 반환합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 백테스트 전략 클래스 (MyCandlesStrat_010):
 
@@ -1361,7 +2094,18 @@ stat_010
 - 만약 self.signal1_1이 2 (short)라면:
 - 현재 종가보다 3.5% 높은 가격에 손절과 2.5% 낮은 가격에 익절로 매도합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 5. 백테스팅과 결과:
 
@@ -1375,7 +2119,18 @@ stat_010
 - 다음 함수에서 다른 조건들을 실험하여 더 정교한 거래 전략을 만들어 볼 수 있습니다.
 - 백테스팅 결과는 미래 성과를 보장하지 않을 수 있으며, 실제 거래에서 적절한 리스크 관리가 중요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2D CNN 모델에 대한 결론:
 
@@ -1385,7 +2140,18 @@ stat_010
 
 여기서부터는 동일한 훈련된 모델을 사용하여 다른 자산에 대한 백테스트를 수행한 후 최상의 자산을 선정하는 방법에 대해 설명하겠습니다. 트레이딩뷰에서 데이터를 다운로드한 후 모든 자산에 대해 백테스트를 진행한 결과를 기반으로 최상의 자산을 선정하는 방법에 대해 설명하겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 필요한 패키지 가져오고 모델 및 거래소 API 설정하기
 
@@ -1466,7 +2232,18 @@ exchange.options = {'defaultType': 'future', # 'margin' 또는 'spot'
 
 Import:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 시간, 로깅, 데이터 조작 (판다스, 넘파이), 머신 러닝 (케라스, 사이킷런), 기술지표 (탈립), 쓰레딩 및 기타 표준 라이브러리
 
@@ -1478,7 +2255,18 @@ Import:
 
 거래소 연결하기:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 바이낸스 거래소와 상호 작용하기 위해 ccxt.binanceusdm 오브젝트(거래소)를 생성합니다.
 - API 자격 증명을 설정하고 책임 있는 API 이용을 위해 요율 제한을 활성화합니다.
@@ -1491,15 +2279,26 @@ Import:
 
 다음 단계:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 백테스팅 루프: 원하는 자산을 반복하는 루프를 구현해야합니다:
 
-   - 각 자산에 대한 거래소에서 historcal 데이터를 다운로드합니다 (exchange.fetch_ohlcv를 사용).
-   - 데이터를 전처리합니다 (스케일링, 특성 공학).
-   - 모델을 로드하여 예측을 수행합니다 (model.predict).
-   - 이전 예제와 유사한 예측 및 기술적 지표를 사용하여 백테스트 전략을 적용합니다.
-   - 각 자산에 대한 백테스트 결과를 저장합니다.
+  - 각 자산에 대한 거래소에서 historcal 데이터를 다운로드합니다 (exchange.fetch_ohlcv를 사용).
+  - 데이터를 전처리합니다 (스케일링, 특성 공학).
+  - 모델을 로드하여 예측을 수행합니다 (model.predict).
+  - 이전 예제와 유사한 예측 및 기술적 지표를 사용하여 백테스트 전략을 적용합니다.
+  - 각 자산에 대한 백테스트 결과를 저장합니다.
 
 - 선정 기준: 저장된 백테스트 결과를 분석하고 선택한 메트릭에 기반하여 필터/정렬을 적용하여 성능이 우수한 자산을 추립니다.
 - 리스크 관리: 백테스팅은 평가를 위한 것이며 앞으로의 성공을 보장하는 것이 아닙니다. 이러한 선정된 자산을 실제 거래에 사용하기 전에 적절한 리스크 관리 전략을 구현하세요.
@@ -1552,7 +2351,18 @@ def save_custom_assets(custom_assets):
             json.dump(custom_assets, txt_file, indent=4)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제공된 코드는 사용자 정의 자산을 관리하고 멀티스레드 백테스팅을 준비하는 데 초점을 맞추고 있어요. 여기에 대해 알아봅시다:
 
@@ -1562,20 +2372,41 @@ Imports:
 
 사용자 정의 자산 관리:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-친구들아~ 지금은 custom_assets 딕셔너리에 대해 이야기해볼게. 
-이 딕셔너리는 주로 백테스팅을 위한 사용자 정의 자산(아마도 심볼이나 이름들)을 저장해. 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+친구들아~ 지금은 custom_assets 딕셔너리에 대해 이야기해볼게.
+이 딕셔너리는 주로 백테스팅을 위한 사용자 정의 자산(아마도 심볼이나 이름들)을 저장해.
 
 여기 load_custom_assets 함수가 있어. 요 함수는 custom_assets.txt 파일이 있는지 확인해.
+
 - 파일이 존재하면, JSON 내용에서 딕셔너리를 로드하려 해. 잠재적인 JSON 디코딩 오류를 처리하도록 설정했어.
 - 파일이 없으면, 빈 딕셔너리를 초기화하고 저장한 뒤, 반환해.
 
 이렇게요! 이제 custom_assets와 load_custom_assets 함수에 대해 조금 더 이해가 가겠죠? 🌟
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 '카스터마이즈 자산' 함수:
 
@@ -1586,7 +2417,18 @@ Imports:
 
 - 백테스팅 함수: 백테스팅 로직을 위한 함수를 정의할 가능성이 높습니다. 이 함수는 다음과 같은 일을 할 것입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **주요 단골님의 심벌을 입력하세요.**
 
@@ -1603,9 +2445,20 @@ Imports:
 
 **추가 사항:**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-**안녕하세요!** 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+**안녕하세요!**
 
 아래는 훈련된 모델 파일의 실제 경로로 `best_model_tcn_1sl_1tp_2p5SlTp_success.pkl`을(를) 바꿔주시기 바랍니다.
 데이터 다운로드, 백테스팅 계산 중 발생할 수 있는 잠재적인 문제에 대한 오류 처리 및 로깅 메커니즘을 고려해주세요.
@@ -1617,15 +2470,26 @@ Imports:
 ```
 
 출력:
-'BTCUSDT.P', 'ETHUSDT.P', 'BCHUSDT.P', 'XRPUSDT.P', 'EOSUSDT.P', 'LTCUSDT.P', 'TRXUSDT.P', 'ETCUSDT.P', 
-'LINKUSDT.P', 'XLMUSDT.P', 'ADAUSDT.P', 'XMRUSDT.P', 'DASHUSDT.P', 'ZECUSDT.P', 'XTZUSDT.P', 'BNBUSDT.P', 
+'BTCUSDT.P', 'ETHUSDT.P', 'BCHUSDT.P', 'XRPUSDT.P', 'EOSUSDT.P', 'LTCUSDT.P', 'TRXUSDT.P', 'ETCUSDT.P',
+'LINKUSDT.P', 'XLMUSDT.P', 'ADAUSDT.P', 'XMRUSDT.P', 'DASHUSDT.P', 'ZECUSDT.P', 'XTZUSDT.P', 'BNBUSDT.P',
 ...
 
 이 코드 조각은 Binance Futures에서 사용 가능한 USDT 퍼펫쥴 계약 목록을 검색합니다. 만약 4xx 또는 5xx 상태 코드가 발생하면 예외를 발생시킵니다. 데이터를 받아와서 퍼펫쥴 USDT 계약 목록을 반환하게 됩니다. 실패할 시 적절한 에러 핸들링이 이루어집니다.
 
 언제든지 질문이 있으시면 말씀해주세요! 🙂
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기능:
 
@@ -1636,7 +2500,18 @@ Imports:
 
 try 블록 내부에서:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 바이낸스 API 엔드포인트에 GET 요청을 보냅니다.
 - 4xx(클라이언트 오류) 또는 5xx(서버 오류) 범위에 있는 상태 코드에 대해 예외를 발생시켜 실패를 나타냅니다.
@@ -1648,7 +2523,18 @@ try 블록 내부에서:
 
 다음 기준으로 자산을 필터링합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - `contractType` 값이 `PERPETUAL` 일 때는 무기한 계약을 나타냅니다.
 - `quoteAsset` 값이 `USDT` 일 때는 USDT로 인용된 계약을 나타냅니다.
@@ -1662,7 +2548,18 @@ try 블록 내부에서:
 
 추가 사항:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **이 접근 방식은 공식 바이낸스 API를 활용하며, 앞으로 요율 제한이나 변경 사항의 대상이 될 수 있습니다. 적절한 오류 처리 및 재시도 메커니즘을 구현하는 것을 고려해보세요.**
 
@@ -1683,7 +2580,18 @@ from tvDatafeed import TvDatafeed, Interval
 
 **Imports를 설정합니다:**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 비동기 프로그래밍을 위한 라이브러리(asyncio), 날짜 처리(datetime), 데이터 조작(pandas), 파일 처리(os, json)를 포함합니다.
 - TradingView와 상호 작용하기 위해 tvDatafeed에서 TvDatafeed 클래스를 가져옵니다.
@@ -1694,7 +2602,18 @@ TvDatafeed 오브젝트:
 
 타임프레임과 간격:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 데이터 다운로드를 위한 원하는 시간 프레임(timeframe) 설정 ("15m"은 15분 간격을 의미합니다).
 - 일련의 if 문을 사용하여 timeframe을 해당하는 Interval 열거형 값에 매핑합니다.
@@ -1705,7 +2624,18 @@ TvDatafeed 오브젝트:
 
 비동기 프로그래밍 설정:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "nest_asyncio.apply()`을 초기화하여 비동기 함수를 비-비동기 컨텍스트 내에서 사용할 수 있도록 합니다.
 
@@ -1715,7 +2645,18 @@ TvDatafeed 오브젝트:
 
 `tv.get_hist`를 사용하여 해당 심볼의 기록 데이터를 다운로드하려고 시도합니다:"
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이상적인 상항, 거래소(“바이낸스”), 간격, 바 수(20000), 그리고 확장된 세션(사전시장/사후시장 데이터를 캡처하기 위함)을 명시합니다.
 - 다운로드된 데이터(data)가 비어 있는지 확인합니다.
@@ -1723,7 +2664,7 @@ TvDatafeed 오브젝트:
 데이터가 있을 경우:
 
 - 인덱스(타임스탬프)를 “date”라는 새 열에 문자열로 변환합니다.
-- 다운로드된 데이터를 저장하기 위해 tradingview_crypto_assets_'timeframe'이라는 폴더를 생성합니다(없을 경우 생성).
+- 다운로드된 데이터를 저장하기 위해 tradingview*crypto_assets*'timeframe'이라는 폴더를 생성합니다(없을 경우 생성).
 - 파일명을 생성하기 위해 심볼에서 “.P”를 “/USDT:USDT”로 대체하고 “.json”을 추가합니다.
 - DataFrame을 to_dict(orient=`records`)를 사용해 사전으로 변환합니다.
 - 이 사전을 생성된 파일명으로 JSON으로 저장합니다.
@@ -1731,7 +2672,18 @@ TvDatafeed 오브젝트:
 
 데이터가 없는 경우:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마법사의 주문: 마법진 활성화 중...
 
@@ -1742,11 +2694,22 @@ TvDatafeed 오브젝트:
 
 - 다음을 정의하는 비동기 함수 main:
 - 데이터 목록에서 각 심볼에 대해 download_data를 호출하는 비동기 작업(tasks)의 목록을 생성합니다.
-- 모든 다운로드 작업을 동시에 실행하기 위해 asyncio.gather(*tasks)를 사용합니다.
+- 모든 다운로드 작업을 동시에 실행하기 위해 asyncio.gather(\*tasks)를 사용합니다.
 
 다운로드 실행 중: 🔮
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - main 함수 내에서 비동기 작업을 실행하기 위해 asyncio.run(main())을 사용합니다.
 
@@ -1758,24 +2721,39 @@ TvDatafeed 오브젝트:
 
 # 특정 ML/DL 모델을 위한 다중 자산의 초강점화:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드는 암호화폐 거래 전략을 백테스팅하는 관련된 파이썬 코드입니다. 여기서 코드의 기능을 요약해보겠습니다:
 
 1. 데이터 처리 및 분석:
+
    - JSON 파일을 읽어와서 데이터프레임으로 변환합니다.
    - 데이터프레임에 다양한 기술적 분석 지표를 계산하고 새로운 칼럼을 추가합니다.
    - 거래 기간(Timeframe)을 설정하고 필요한 전처리 및 데이터 변환을 수행합니다.
 
 2. 모델 및 전략 작성:
+
    - 주어진 매개변수를 사용하여 전략을 초기화하고 거래 시그널을 정의합니다.
    - 매매 조건, 손실 한도, 수익 한도, 레버리지, 롤링 스톱 등을 설정합니다.
 
 3. 백테스트 실행:
+
    - 백테스트를 실행하고 결과를 얻어와서 수익률, 드로다운, 승률, 최고 및 최악 거래 등을 평가합니다.
    - 최적의 매개변수를 찾기 위해 전략을 최적화하고 다시 백테스트를 실행합니다.
 
 4. 결과 저장 및 처리:
+
    - 각 자산의 백테스트 결과를 평가하고, 일정 기준을 충족하는 경우 사용자 정의 자산 목록(custom_assets)에 추가합니다.
    - 최종적으로 custom_assets를 JSON 파일로 저장하고 필요한 처리를 수행합니다.
 
@@ -1784,7 +2762,18 @@ TvDatafeed 오브젝트:
 
 이 코드는 암호화폐 거래 전략을 백테스팅하고 최적화하는 과정을 자동화하고 결과를 효율적으로 처리하는데 도움이 되는 전략입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 처리:
 
@@ -1802,22 +2791,44 @@ TvDatafeed 오브젝트:
 - 데이터 스케일링: 스크립트는 MinMaxScaler를 사용하여 모델의 성능을 향상시키기 위해 데이터를 스케일링합니다.
 - 데이터 재구성: 데이터는 거래 전략에 적합한 형식(예: 과거 가격 데이터의 시퀀스)으로 재구성됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 백테스팅 전략:
 
 - **SIGNAL_3 함수**: 이 함수는 어떤 기준에 따라 거래 신호를 정의할 것으로 보입니다.
 - **MyCandlesStrat_3 클래스**: 이 클래스는 Backtrader 라이브러리를 사용하여 거래 전략을 정의합니다. 핵심 요소는 다음과 같습니다:
 
-    - **손절가 및 익절가**: 이들은 long 및 short 포지션에 대해 미리 정의된 백분율(BEST_STOP_LOSS_sl_pct_long 등)에 기초하여 설정됩니다.
-    - **지정가 주문**: 주문 실행을 특정 가격 범위 내에서 보장하기 위해 사용됩니다.
-    - **트레일링 손절가**: 현재 이익을 기반으로 동적으로 조정되어 이익을 확보합니다.
-    - **시간 기반 수익 실현**: 일정 시간 동안 자산을 보유한 후에 수익이 자동으로 확정됩니다.
-    - **레버리지**: 전략은 미리 정의된 레버리지 배수(BEST_LEVERAGE_margin_leverage)를 사용합니다.
+  - **손절가 및 익절가**: 이들은 long 및 short 포지션에 대해 미리 정의된 백분율(BEST_STOP_LOSS_sl_pct_long 등)에 기초하여 설정됩니다.
+  - **지정가 주문**: 주문 실행을 특정 가격 범위 내에서 보장하기 위해 사용됩니다.
+  - **트레일링 손절가**: 현재 이익을 기반으로 동적으로 조정되어 이익을 확보합니다.
+  - **시간 기반 수익 실현**: 일정 시간 동안 자산을 보유한 후에 수익이 자동으로 확정됩니다.
+  - **레버리지**: 전략은 미리 정의된 레버리지 배수(BEST_LEVERAGE_margin_leverage)를 사용합니다.
 
 ### 백테스팅과 분석:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 백테스트: 이 스크립트는 MyCandlesStrat_3 전략을 사용하여 100,000의 초기 자본으로 처리된 데이터에 대한 백테스트를 수행합니다.
 - 성능 지표: 백테스트 결과에는 수익률, 샤프 지수, 승률 및 낙폭과 같은 다양한 성능 지표가 포함될 것으로 예상됩니다 (제공된 코드에 명시적으로 표시되지는 않음).
@@ -1829,7 +2840,18 @@ TvDatafeed 오브젝트:
 
 ThreadPoolExecutor 클래스의 사용: JSON 파일의 병렬 처리를 위해 ThreadPoolExecutor 클래스를 사용하는 방법. 다음은 그 기능에 대한 세부적 설명입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 스레드 워커 함수 (thread_worker):
 
@@ -1847,11 +2869,22 @@ ThreadPoolExecutor 클래스의 사용: JSON 파일의 병렬 처리를 위해 T
 - JSON 파일 목록을 반복하고 각 파일 경로를 executor.submit(thread_worker, file)를 사용하여 스레드 풀에 제출합니다. 이렇게하면 각 파일을 동시에 처리하는 작업이 생성됩니다.
 - 제출된 모든 작업(futures)이 완료될 때까지 기다렸다가 결과를 리스트(results)에 저장합니다.
 - 처리된 결과를 반복하면서:
-    - 결과가 None이면 다음 반복으로 건너뜁니다 (오류 처리 가능).
-    - 그렇지 않으면 결과를 풀어낸 후 (df, symbol_name 및 필요에 따라 custom_assets), 처리된 심볼과 사용자 지정 자산에 대한 정보를 출력합니다.
-    - 사용자 정의 데이터(custom_data)가 있으면 custom_assets를 추가 사용자 정의 데이터로 조건부 업데이트합니다 (논리는 완전히 표시되지 않음).
+  - 결과가 None이면 다음 반복으로 건너뜁니다 (오류 처리 가능).
+  - 그렇지 않으면 결과를 풀어낸 후 (df, symbol_name 및 필요에 따라 custom_assets), 처리된 심볼과 사용자 지정 자산에 대한 정보를 출력합니다.
+  - 사용자 정의 데이터(custom_data)가 있으면 custom_assets를 추가 사용자 정의 데이터로 조건부 업데이트합니다 (논리는 완전히 표시되지 않음).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 3. Continuous Loop Function (`run_continuous_loop`):
 
@@ -1863,7 +2896,18 @@ ThreadPoolExecutor 클래스의 사용: JSON 파일의 병렬 처리를 위해 T
 - The code spawns a new thread using `threading.Thread` and assigns its target to the `run_continuous_loop` function.
 - It then kicks off the thread, commencing the continuous processing loop.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Overall, this code snippet shows how JSON files can be processed in parallel using a thread pool based on CPU cores. The loop handles batches of files continuously.
 
@@ -1874,7 +2918,18 @@ The code presents a structure for backtesting a cryptocurrency trading strategy 
 - Always remember, backtesting results may not accurately reflect future performance.
 - Trading cryptocurrencies comes with substantial risks, so conducting thorough research before making any investment decisions is essential.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## custom_assets.txt 출력:
 
@@ -1984,7 +3039,16 @@ The code presents a structure for backtesting a cryptocurrency trading strategy 
         "Optimizer_used": "1st backtest - Expectancy",
         "model_name": "cnn_model_2d_15m_ETH_May_16_SL55_TP55_ShRa_0.91_time
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 화폐 쌍을 키로 사용하는 사전입니다 (예: "ATOM/USDT:USDT").
 
@@ -2009,7 +3073,16 @@ The code presents a structure for backtesting a cryptocurrency trading strategy 
 
 해석:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이 정보는 특정 암호화폐에 대한 특정 거래 전략을 평가한 백테스팅 도구에서 나온 가능성이 높습니다.
 - 결과는 각 자산에 대한 승률, 수익률 및 샤프 비율과 같은 성과 지표를 보여줍니다.
@@ -2019,10 +3092,19 @@ The code presents a structure for backtesting a cryptocurrency trading strategy 
 
 - 문서에는 "최종 선정된 자산"이 언급되지만 이들이 어떻게 식별되는지 명시적으로 표시되지는 않습니다. 백테스팅 결과를 기반으로 일정한 성과 기준을 충족하는 자산이 최종 선정된 자산으로 고려될 수 있다는 가능성이 있습니다.
 - 이 최종 선정된 자산은 "saved_assets.txt"라는 파일에 저장되며, 제공된 데이터 스니펫과 동일한 형식으로 저장될 수 있습니다.
- 
+
 면책 성명:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 백테스팅 결과는 미래 성과를 보장하는 것은 아닙니다.
 - 암호화폐 거래에는 상당한 위험이 딸립니다. 투자 결정 전 반드시 자신의 연구를 해야 합니다.
@@ -2033,7 +3115,16 @@ The code presents a structure for backtesting a cryptocurrency trading strategy 
 
 데이터 및 모델 훈련:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 시스템은 TradingView에서 바이낸스 선물거래소의 250개 이상의 암호화폐 자산에 대한 과거 데이터를 다운로드합니다.
 - 2D CNN 기반의 신경망 모델을 학습하여, 15분 간격으로 3년 동안 Ethereum (ETHUSDT) 에서 9,800% 이상의 수익을 달성했습니다. 모델 학습에는 10만 개 이상의 행, 193가지 이상의 피처를 사용하며, 중립, 매수, 매도를 결정하기 위해 분류 기반 2D CNN 모델을 사용했습니다. (중요한 점: 이러한 수익은 시스템과 학습된 데이터에 따라 다르며 재확인이 필요합니다).
@@ -2045,7 +3136,16 @@ The code presents a structure for backtesting a cryptocurrency trading strategy 
 
 VishvaAlgo — 거래 봇:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - VishvaAlgo는 훈련된 모델과 사전 정의된 매개변수를 사용하여 실시간 거래를 자동화하는 데 도움을 줍니다.
 - 이 봇은 다양한 신경망 모델과의 쉬운 통합을 제공합니다.
@@ -2059,7 +3159,16 @@ VishvaAlgo의 혜택:
 
 면책 조항: 거래에는 리스크가 따릅니다. 지난 성과는 미래 결과를 보장하지 않습니다. VishvaAlgo는 트레이더들을 돕기 위한 도구로써 수익을 보장하지 않습니다. 책임있게 거래를 하시고 투자 결정을 내리시기 전에 철저한 연구를 진행해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 정성 가득한 인사,
 
@@ -2069,10 +3178,20 @@ Linkedin - [Puranam Pradeep Picasso](https://www.linkedin.com/in/puranampradeepp
 
 Patreon - [Puranam Pradeep Picasso](https://patreon.com/pppicasso)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 If you want to connect with me on social media, you can find me on:
 
 Facebook - [Puranam P. Picasso](https://www.facebook.com/puranam.p.picasso/)
 
 Twitter - [@picasso_999](https://twitter.com/picasso_999)
+```

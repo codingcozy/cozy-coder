@@ -3,17 +3,13 @@ title: "React 앱과 Nodejs 서버를 Vercel에 배포하는 방법 정리"
 description: ""
 coverImage: "/assets/img/2024-08-04-StepsforDeployingReactappandNodejsServerinVercelAndRender_0.png"
 date: 2024-08-04 18:46
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-04-StepsforDeployingReactappandNodejsServerinVercelAndRender_0.png
 tag: Tech
 originalTitle: "Steps for Deploying React app and Nodejs Server in Vercel And Render"
 link: "https://medium.com/@kmahesh18001/steps-for-deploying-react-app-and-nodejs-server-in-vercel-and-render-494737535b5a"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-08-04-StepsforDeployingReactappandNodejsServerinVercelAndRender_0.png" />
 
@@ -27,7 +23,18 @@ isUpdated: true
 - 로그인 후 New 버튼을 클릭하고 Web Service를 선택하세요.
 - 배포할 저장소 이름을 선택하고 연결을 클릭하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Step 1](/assets/img/2024-08-04-StepsforDeployingReactappandNodejsServerinVercelAndRender_1.png)
 
@@ -37,30 +44,60 @@ isUpdated: true
 
 ![Step 3](/assets/img/2024-08-04-StepsforDeployingReactappandNodejsServerinVercelAndRender_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-08-04-StepsforDeployingReactappandNodejsServerinVercelAndRender_4.png)
 
 ## Vercel에 React 앱을 배포하는 단계:-
 
 7. 위 링크를 복사하고 해당 URL을 "localhost:8000" 대신 프론트엔드 파일에 붙여넣고, 아래 이미지 형식으로 파일을 생성하고 파일을 import합니다. 이렇게하면 링크 localhost:8000을 수동으로 추가하지 않아도 됩니다.
-   
+
 ![이미지](/assets/img/2024-08-04-StepsforDeployingReactappandNodejsServerinVercelAndRender_5.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-08-04-StepsforDeployingReactappandNodejsServerinVercelAndRender_6.png" />
 
-8. 이제, Atlas로 이동하여 ` Security ` Network Access ` Add IP Address ` Allow access ` Confirm을 클릭하세요.
+8. 이제, Atlas로 이동하여 `Security` Network Access `Add IP Address` Allow access ` Confirm을 클릭하세요.
 
 9. 프론트엔드에서 cmd를 엽니다.
 
 <img src="/assets/img/2024-08-04-StepsforDeployingReactappandNodejsServerinVercelAndRender_7.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-08-04-StepsforDeployingReactappandNodejsServerinVercelAndRender_8.png" />
 

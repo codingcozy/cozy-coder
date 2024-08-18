@@ -3,18 +3,13 @@ title: "JavaScript에서 consolelog할 때 줄 바꿈 안되게 하는 방법 "
 description: ""
 coverImage: "/assets/img/2024-07-29-HowtoconsolelogwithoutnewlineinJavaScript_0.png"
 date: 2024-07-29 14:05
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-29-HowtoconsolelogwithoutnewlineinJavaScript_0.png
 tag: Tech
 originalTitle: "How to consolelog without newline in JavaScript"
 link: "https://medium.com/coding-beauty/javascript-console-log-without-newline-20e7e63cca36"
 isUpdated: true
 ---
-
-
-
-
-
 
 <img src="/assets/img/2024-07-29-HowtoconsolelogwithoutnewlineinJavaScript_0.png" />
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 <img src="/assets/img/2024-07-29-HowtoconsolelogwithoutnewlineinJavaScript_1.png" />
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반 console.log는 작동하나요?
 
@@ -35,7 +40,18 @@ isUpdated: true
 
 그러면 어떻게 해야 하죠?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 하는 일은 `process.stdout.write`입니다.
 
@@ -45,7 +61,18 @@ isUpdated: true
 
 ![예시 이미지 2](/assets/img/2024-07-29-HowtoconsolelogwithoutnewlineinJavaScript_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # process.stdout.write와 console.log의 차이점은 무엇인가요?
 

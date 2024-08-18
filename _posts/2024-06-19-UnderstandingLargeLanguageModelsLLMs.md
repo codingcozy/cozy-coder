@@ -3,17 +3,13 @@ title: "대규모 언어 모델Large Language Models, LLMs 이해하기"
 description: ""
 coverImage: "/assets/img/2024-06-19-UnderstandingLargeLanguageModelsLLMs_0.png"
 date: 2024-06-19 19:56
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-UnderstandingLargeLanguageModelsLLMs_0.png
 tag: Tech
 originalTitle: "Understanding Large Language Models (LLMs)"
 link: "https://medium.com/gitconnected/understanding-large-language-models-llms-b27a9c035d54"
 isUpdated: true
 ---
-
-
-
-
 
 ![UnderstandingLargeLanguageModelsLLMs_0](/assets/img/2024-06-19-UnderstandingLargeLanguageModelsLLMs_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 LLMs는 자연어 텍스트를 처리하고 생성하기 위해 설계된 인공 지능 모델의 하위 집합입니다. 이러한 모델은 수억에서 수조에 이르는 많은 매개변수를 특징으로 하며, 이를 통해 인간과 유사한 텍스트를 높은 정확성과 일관성으로 생성하고 이해할 수 있습니다. LLMs에서의 "대형"이라는 용어는 이러한 모델을 훈련하기 위해 필요한 방대한 양의 데이터와 계산 능력을 가리킵니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # LLMs의 진화
 
@@ -33,13 +40,25 @@ LLMs의 여정은 1960년대 ELIZA와 같은 초기 자연 언어 처리(NLP) �
 
 1990년대에는 딥 러닝의 등장으로 패러다임이 전환되었습니다. 이 기계 학습 분야는 인간 뇌 구조를 모방한 인공 신경망을 활용하여 방대한 양의 데이터에서 학습합니다. 이로써 더 정교한 언어 모델의 개발이 가능해졌습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1997년에 핵심적인 개발이 이루어졌는데, Long Short-Term Memory (LSTM) 네트워크가 소개되었습니다. 텍스트와 같은 순차 데이터에 어려움을 겪는 전통적인 신경망과는 달리, LSTMs는 장기 의존성을 다룰 수 있어 문장 내 맥락을 파악할 수 있었습니다. 이로 인해 보다 큰 데이터셋에서 언어 모델을 훈련하고 언어의 미묘한 측면을 캡처할 수 있게 되었습니다.
 
 하지만, 신경망과 딥러닝이 2010년대에 도입되면서 중대한 발전이 이루어졌습니다.
 
 LLM 진화의 주요 이정표는 다음과 같습니다:
+
 - 단어 임베딩 (2013): Word2Vec과 같은 모델은 단어를 고차원 공간에서 연속적인 벡터로 표현하는 단어 임베딩 개념을 소개하여 의미론적 관계를 포착했습니다.
 - Sequence-to-Sequence 모델 (2014): Seq2Seq와 같은 모델의 발전은 특히 번역 작업에서 유용한 입력-출력 쌍 처리를 더 잘할 수 있게 해주었습니다.
 - Attention 메커니즘 (2017): Vaswani 등이 제안한 Transformer 모델은 어텐션 메커니즘을 통합하여 다양한 단어의 중요성을 가중치로 고려할 수 있는 NLP 혁명을 일으켰습니다.
@@ -47,7 +66,18 @@ LLM 진화의 주요 이정표는 다음과 같습니다:
 
 # 대형 언어 모델 예제
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 개발되어 사용 중인 유명한 LLM 중 일부를 살펴보겠습니다.
 
@@ -60,7 +90,18 @@ LLM 진화의 주요 이정표는 다음과 같습니다:
 
 # NLP와 LLM의 차이
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 NLP은 자연 언어 처리의 알고리즘 개발으로 이루어진 인공 지능(인공지능) 분야입니다. NLP는 알고리즘 및 기술로 이루어진 LLM보다 더 넓은 범위의 분야입니다. NLP는 기계 학습 및 언어 데이터 분석이라는 두 가지 접근 방식을 가지고 있습니다. NLP의 응용 분야는 다음과 같습니다.
 
@@ -74,7 +115,18 @@ NLP은 자연 언어 처리의 알고리즘 개발으로 이루어진 인공 지
 
 # 대규모 언어 모델의 장점은 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대형 언어 모델(LLM)은 여러 이점을 가지고 있어 다양한 응용 분야에서 널리 사용되고 성공을 거두는데 이바지합니다:
 
@@ -87,7 +139,18 @@ NLP은 자연 언어 처리의 알고리즘 개발으로 이루어진 인공 지
 
 LLM은 신경망 아키텍처를 기반으로 하며, 특히 Transformer 아키텍처에 기반합니다. 이러한 모델의 주요 구성 요소는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 임베딩: 단어 또는 토큰을 의미와 관계를 담은 밀집 벡터로 변환합니다.
 - 셀프 어텐션 메커니즘: 이 메커니즘은 모델이 입력 텍스트의 관련 부분에 초점을 맞추도록 하며, 다양한 단어의 중요성을 동적으로 가중치를 부여합니다.
@@ -101,7 +164,18 @@ Transformer 아키텍처에 대한 자세한 내용은 여기에서 읽어보세
 
 LLM의 다양한 용도로 인해 다양한 분야에서 채택되고 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 자연어 이해 (NLU): LLMs는 감성 분석, 엔티티 인식, 언어 번역과 같은 작업에서 뛰어나며 인간 언어를 더 잘 이해할 수 있게 합니다.
 - 텍스트 생성: 창의적 글쓰기와 코드 생성부터 이메일과 보고서 작성까지, LLMs는 일관된 문맥적인 텍스트를 생성할 수 있습니다.
@@ -115,7 +189,18 @@ LLM의 다양한 용도로 인해 다양한 분야에서 채택되고 있습니�
 
 대형 언어 모델의 능력을 직접 탐구하고 싶은 분들을 위해 몇 가지 접근 가능한 플랫폼과 모델이 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - OpenAI의 GPT-4: OpenAI는 GPT 모델의 여러 버전에 대한 액세스를 제공하며, 이 중 GPT-4는 사용자가 API를 통해 실험할 수 있습니다. 사용자는 OpenAI의 플랫폼(chat.openai.com 등)에 가입하여 응용 프로그램을 작성하거나 모델과 상호 작용하여 텍스트 생성, 질문에 답변 또는 코딩 능력을 이해할 수 있습니다.
 - Anthropics의 Claude 2: Anthropics는 안전과 유틸리티에 초점을 맞춘 Claude 2라는 흥미로운 모델을 제공합니다. 대화형 인공지능에 대한 독특한 관점을 제공하며 다양한 응용 프로그램을 위해 자사 플랫폼을 통해 액세스할 수 있습니다.
@@ -131,7 +216,18 @@ LLM의 다양한 용도로 인해 다양한 분야에서 채택되고 있습니�
 - 자원 집약적: LLM의 훈련 및 배포는 상당한 계산 자원이 필요하므로 높은 에너지 소비와 환경 영향을 초래할 수 있습니다.
 - 데이터 프라이버시: LLM의 훈련에 사용되는 방대한 데이터셋은 종종 민감한 정보를 포함하고 있어 데이터 프라이버시와 보안 문제를 제기합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 향후 방향
 
@@ -144,6 +240,17 @@ LLM의 미래는 희망적입니다. 현재의 한계를 해결하고 새로운 
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대형 언어 모델은 인공 지능의 중요한 발전을 나타내며, 다양한 산업 분야에서 혁신적인 잠재력을 제공합니다. 연구가 진행됨에 따라 초점은 점차 더 효율적이고 윤리적이며 지적인 모델을 만들어 인간들과 자연스럽게 상호작용하며 의미 있는 방식으로 우리의 능력을 확장할 것입니다. LLM의 복잡성을 이해하는 것은 점점 더 디지털 세계에서 그들의 힘을 책임있고 효과적으로 활용하기 위해 중요합니다.

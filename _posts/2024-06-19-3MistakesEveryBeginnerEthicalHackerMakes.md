@@ -3,17 +3,13 @@ title: "초보 윤리적 해커가 하는 3가지 실수"
 description: ""
 coverImage: "/assets/img/2024-06-19-3MistakesEveryBeginnerEthicalHackerMakes_0.png"
 date: 2024-06-19 08:40
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-3MistakesEveryBeginnerEthicalHackerMakes_0.png
 tag: Tech
 originalTitle: "3 Mistakes Every Beginner Ethical Hacker Makes"
 link: "https://medium.com/bugbountywriteup/3-mistakes-every-beginner-ethical-hacker-makes-f86fa5ee96c9"
 isUpdated: true
 ---
-
-
-
-
 
 "윤리적 해킹 경력을 시작하면서 피해야 할 세 가지 일반적인 함정을 피하는 방법
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 안녕하세요, 사이버 매버릭스!"
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도덕적 해커(침투 테스터)가 되기 위한 길을 걸어가고 있군요. 인증 시험 xyz를 합격하고 침투 테스터로 거듭나거나 가능한 한 빨리 해커가 되기를 열망하고 계시군요.
 
@@ -35,7 +42,18 @@ isUpdated: true
 - 펜테스터가 되기 위해 네트워킹, 운영 체제, 데이터베이스 또는 웹 앱에 깊이 파고들 필요가 없다고 생각하기. "그 눈썹을 짤 렛트 해킹 코스에 집중해요!".
 - 마지막으로, "당신의 과정에서 자료를 공부하면 된다고요!."
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특정 인증을 받을 수 있는 경우가 있지만 기본 개념을 확실히 이해하지 않고 빨리 둘러보면 장기적으로는 귀하의 경력에 해를 끼칠 수 있습니다. 펜 테스터는 견고한 기본 지식에 뿌리를 둔 다양한 영역을 다뤄야 합니다.
 
@@ -45,7 +63,18 @@ isUpdated: true
 
 # 1. 단축키를 사용하지 마세요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 글 때문에 정정적인 해킹을 하는 것으로 가정하면, 당신은 무엇보다도 물건을 부수고 어떻게 작동하는지 이해하고, 그것을 개선하여 고용주의 보안 체질을 향상시키는 데 열정적입니다.
 
@@ -57,12 +86,23 @@ isUpdated: true
 - 기본 스크립팅 또는 프로그래밍 배우기: 기본 프로그래밍 원리에 익숙해지고 코드를 읽고 이해할 수 있는 능력을 갖추어야 합니다. 스크립트를 작성할 수 있는 능력은 추가요소입니다. 시작할 때 Python, Bash, PowerShell을 권장합니다.
 - 웹 기초 배우기: HTTP 프로토콜, 웹 서버 및 웹 기술은 어디에나 있습니다. 웹 응용 프로그램은 가장 보편적이고 흔한 공격 표면 중 하나입니다. 대부분의 응용 프로그램이 웹이나 모바일로 이동하고 있기 때문에 웹에 익숙해져야 합니다.
 - 보안 기초 배우기: 섹시한 윤리적 해킹 연구로 건너뛸 수 있지만, 기본적이고 일반적인 사이버 보안 교육을 받지 않은 상태에서 발견과 권고사항을 전달할 수 없을 것입니다. 리스크 평가, 완화, 보안 제어, 데이터 보호 등과 같은 분야의 이해가 없다면요.
-Google 사이버 보안 전문가 및 CompTIA Security+ 자격증이 훌륭한 시작 지점입니다.
+  Google 사이버 보안 전문가 및 CompTIA Security+ 자격증이 훌륭한 시작 지점입니다.
 - 보충 도메인 지식 배우기: 상기 사항을 배웠다면, 자신의 관심 분야를 탐색하는 시간입니다. 초기에 선택한 분야에 노출되는 것이 좋습니다. 인기 있는 분야에는 네트워크 보안, IoT 디바이스, 웹 앱, 모바일 앱, 클라우드 등이 포함됩니다.
 
 스크립팅/프로그래밍 및 보충 도메인 지식의 기초를 파악하는 것이 중요하다는 것을 알지만, 노력을 우선시하는 것이 동일한 중요성을 갖는다는 것을 기억하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 Linux 및 네트워킹 그리고 기본 보안 개념에 집중해보세요. 이들은 깊은 학습을 위한 토대로 삼아 당신의 발판이 될 것입니다. 운영 체제와 웹이 작동하는 방식을 이해한 뒤, 프로그래밍 개념과 특정 도메인 지식을 이해하게 됩니다.
 
@@ -72,7 +112,18 @@ Linux를 배워야 하는 이유에 대해 더 알고 싶다면 '윤리적 해�
 
 # 2. 지속적인 학습
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 페네트레이션 테스터로서, 최신 전술, 기술 및 절차(TTPs)에 대해 항상 최신 정보를 스스로 업데이트하는 것이 중요합니다. 위협 환경은 계속 변화하고, 우리도 변화해야 합니다.
 
@@ -85,7 +136,18 @@ Linux를 배워야 하는 이유에 대해 더 알고 싶다면 '윤리적 해�
 - 사용하고 있는 도구들을 연습하면서 현재 필요에 더 적합한 새로운 혹은 향상된 도구들에 주의를 기울입니다.
 - 새로운 개념이나 기술이 등장할 때 기본 지식을 견고히 다지세요(Linux, 운영 체제, 네트워킹, 웹, 데이터베이스 등).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 중요한 자기 계발 및 역량 강화 노력은 여러 가지 형태로 나타날 수 있어요:
 
@@ -102,7 +164,18 @@ Linux를 배워야 하는 이유에 대해 더 알고 싶다면 '윤리적 해�
 관심과 열망이 있는 새로운 펜 테스트 전문가들이 무시하는 가장 과소평가된 기술은 "소프트 스킬"이에요. 지금부터 말씀드릴게요. 소프트 스킬이 중요하다는 거죠.
 펜 테스터로서 여러분은 어둠 속에서 시험하는 것이 아니라 기계와 상호 작용하는 것만이 아니에요. 상대편인 고객 또는 고용주가 여러분의 전문 지식에 대해 지불하고, 그들에게 발견한 사항을 전달하고, 개선 사항에 대해 조언해 주는 역할을 해야 한답니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 펜테스터가 보유해야 할 중요한 비기술 스킬:
 
@@ -114,7 +187,18 @@ Linux를 배워야 하는 이유에 대해 더 알고 싶다면 '윤리적 해�
 
 새로운 펜테스터로서, 아마도 계속 들어왔을 것입니다: 귀하의 펜테스트는 보고서만큼 좋을 뿐입니다. 고객은 보안 강화를 위한 권장 사항을 제공받기 위해 지불하는 것입니다. 따라서 소프트 스킬과 기술 전문성을 함께 개발하는 것이 중요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것이 지하실에서 햇볕을 피하며 직접적인 태양빛을 피하고 회사의 나머지 직원들로부터 격리된 후디를 입은 너드들과 차별화되는 데 도움이 될 겁니다. 😏
 
@@ -124,7 +208,18 @@ Linux를 배워야 하는 이유에 대해 더 알고 싶다면 '윤리적 해�
 
 윤리적 해킹 분야에서 성공적인 경력을 쌓기 위해서는 헌신, 인내, 그리고 계속된 학습에 대한 헌신이 필요합니다. 단축키를 피하고 산업 트렌드를 업데이트하며 기술적 및 소프트 스킬을 함께 갖추어 윤리적 해킹 분야에서 견고한 경력을 쌓고 선택한 분야에서 번창할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사가 여러분의 여정에 가치 있는 통찰과 안내를 제공했으면 좋겠습니다. 앞으로 기다리고 있는 멋진 경력에 대해 최선의 행운을 빕니다.
 
@@ -134,6 +229,17 @@ Linux를 배워야 하는 이유에 대해 더 알고 싶다면 '윤리적 해�
 
 압둘 이사
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "Markdown" 형식으로 테이블 태그를 변경해주세요.

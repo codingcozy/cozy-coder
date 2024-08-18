@@ -3,19 +3,13 @@ title: "파이썬 Streamlit과 GPT4 UNHCR 난민 데이터 매핑 방법"
 description: ""
 coverImage: "/assets/img/2024-06-19-PythonStreamlitAndGPT4HowToMapUNHCRRefugeeData_0.png"
 date: 2024-06-19 05:02
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-PythonStreamlitAndGPT4HowToMapUNHCRRefugeeData_0.png
 tag: Tech
 originalTitle: "Python Streamlit And GPT4: How To Map UNHCR Refugee Data"
 link: "https://medium.com/towards-artificial-intelligence/python-streamlit-and-gpt4-how-to-map-unhcr-refugee-data-8428a09d6593"
 isUpdated: true
 ---
-
-
-
-
-
-
 
 ![Python Streamlit](/assets/img/2024-06-19-PythonStreamlitAndGPT4HowToMapUNHCRRefugeeData_0.png)
 
@@ -25,8 +19,18 @@ isUpdated: true
 
 대부분의 경우, 제가 증명해줄 필요가 있죠. 그러니까 제가 어떻게 보여줄지 기대해 주세요.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 인터페이스에서 CSV 데이터 세트를 사용하여 다양한 데이터 시각화를 만들 수 있습니다. 추가로 슬라이더 및 드롭다운 메뉴와 같은 상호 작용 레이어를 여러 개 추가할 수도 있습니다. 이 모든 작업은 데이터세트와 GPT-4에 몇 가지 간단한 프롬프트만 필요합니다.
 
@@ -36,7 +40,18 @@ isUpdated: true
 
 UNHCR(UN High Commission for Refugees)는 전 세계적으로 난민의 움직임에 대한 통계를 추적합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터는 여기에서 자유롭게 액세스할 수 있어요.
 
@@ -46,7 +61,18 @@ UNHCR(UN High Commission for Refugees)는 전 세계적으로 난민의 움직�
 
 이 프로젝트에서는 각 난민의 출신 국가와 피난국을 검색해보겠어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 데이터셋은 Streamlit/Plotly 코드 생성의 힘을 보여주는 완벽한 데이터셋입니다.
 
@@ -57,8 +83,18 @@ UNHCR(UN High Commission for Refugees)는 전 세계적으로 난민의 움직�
 
 데이터셋을 다운로드하면 스프레드시트 형식으로 열어서 다루고 있는 내용을 확인할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-PythonStreamlitAndGPT4HowToMapUNHCRRefugeeData_2.png)
 
@@ -70,8 +106,18 @@ UNHCR(UN High Commission for Refugees)는 전 세계적으로 난민의 움직�
 
 출신 국가와 망명 국가 모두 코로플레스 맵을 만드는 데 사용할 수 있는 3자리 ISO 코드가 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 정말 유용하네요! 맵 생성을 크게 간소화해줍니다.
 
@@ -81,7 +127,18 @@ UNHCR(UN High Commission for Refugees)는 전 세계적으로 난민의 움직�
 
 먼저, 데이터셋에 있는 필드와 값에 대한 이해가 GPT-4에게 있는지 확인해야 합니다. 그러므로 먼저 파일을 채팅 창에 업로드하고 GPT-4의 분석을 요청해보겠습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![PythonStreamlitAndGPT4HowToMapUNHCRRefugeeData_3](/assets/img/2024-06-19-PythonStreamlitAndGPT4HowToMapUNHCRRefugeeData_3.png)
 
@@ -91,7 +148,18 @@ GPT-4는 각 필드에 대한 설명을 답변합니다.
 
 간결함을 위해 데이터 시각화에 필요한 필드만 포함했습니다. GPT-4의 답변에서 데이터 세트의 필드에 대한 확실한 이해가 엿보입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 좋아요 — 이제 GPT-4에게 데이터 시각화를 위한 입력을 준비했습니다.
 
@@ -101,7 +169,18 @@ GPT-4는 각 필드에 대한 설명을 답변합니다.
 
 GPT-4에게 알려주세요: 제공된 데이터 세트를 사용하여 사용자가 드롭다운 메뉴에서 국가를 선택할 수있는 Streamlit 애플리케이션을 만들어주세요. 이 애플리케이션은 '인정 결정' 필드를 사용하여 출신 국가의 숫자를 보여주는 Plotly express 코로플레스 맵을 표시해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결과 GPT-4에서 코드를 Markdown 형식으로 변경하였습니다:
 
@@ -149,7 +228,18 @@ st.write('Detailed Data:', grouped_data)
 
 해당 코드는 상호작용 웹 앱을 만드는 데 사용되는 streamlit, 데이터 조작 및 분석에 사용되는 pandas, 시각화를 만드는 데 사용되는 plotly.express 등 관련 라이브러리를 포함하고 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 업로드한 데이터 세트에 액세스하는 코드이며 이를 사용하여 데이터 프레임을 만듭니다(pandas 라이브러리 사용). 데이터 프레임은 데이터 시각화를 위한 가장 좋은 방법입니다. 데이터 프레임은 그런 다음 Plotly express 함수 choropleth()로로드되며 이 함수는 각 원본 국가의 숫자(인식된 결정)를 보여주는 전역 맵을 생성합니다.
 
@@ -159,7 +249,18 @@ st.write('Detailed Data:', grouped_data)
 
 ![Image](/assets/img/2024-06-19-PythonStreamlitAndGPT4HowToMapUNHCRRefugeeData_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 PyCharm을 사용하면 내장 터미널 창(보기/도구 창/터미널)을 사용하여 새 Streamlit 애플리케이션을 실행할 수 있습니다:
 
@@ -169,7 +270,18 @@ PyCharm을 사용하면 내장 터미널 창(보기/도구 창/터미널)을 사
 
 ![이미지](/assets/img/2024-06-19-PythonStreamlitAndGPT4HowToMapUNHCRRefugeeData_7.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 와우, 그냥 그렇게하면, 사용자가 원산지 국가를 선택할 수있는 인터랙티브 애플리케이션이 만들어졌어요. 애플리케이션에서 캐나다가 선택되어 있고, 원산지 국가들이 표시되어 있어요.
 
@@ -179,7 +291,18 @@ PyCharm을 사용하면 내장 터미널 창(보기/도구 창/터미널)을 사
 
 # 단계 3: 연도별로 표시하기 위한 슬라이더 추가
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 사용자가 연도를 선택할 수 있도록 슬라이더를 추가하여 세분화 수준을 한 단계 더 높일 수 있습니다(현재는 데이터 집합의 모든 연도를 표시 중입니다). GPT-4에 추가 작업을 요청해 보겠습니다.
 
@@ -189,7 +312,18 @@ GPT-4에 제안: 좋아요, 사용자가 연도를 선택할 수 있도록 슬�
 
 다음은 추가 코드의 예시입니다(간결하게 표현):
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 연도를 선택할 수 있는 슬라이더
@@ -213,7 +347,18 @@ grouped_data = filtered_data.groupby('Country of origin (ISO)').sum().reset_inde
 
 <img src="/assets/img/2024-06-19-PythonStreamlitAndGPT4HowToMapUNHCRRefugeeData_8.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신이 볼 수있듯이, 큰 변화는 물론, 사용자가 연도를 선택할 수 있도록 드롭다운 바로 아래에 슬라이더를 추가한 것입니다.
 
@@ -223,7 +368,18 @@ grouped_data = filtered_data.groupby('Country of origin (ISO)').sum().reset_inde
 
 # 단계 4: 두 번째 코로플레스 맵 추가하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 국가의 난민국가를 보여주는 두 번째 지도를 추가할 수 있습니다. 그리고 이것을 우리가 만든 첫 번째 지도 옆에 놓을 수 있습니다.
 
@@ -234,7 +390,18 @@ grouped_data = filtered_data.groupby('Country of origin (ISO)').sum().reset_inde
 
 GPT-4에게 지침: 슬라이더와 드롭다운을 사용하여 선택한 국가에 대한 피난지 국가를 표시하는 두 번째 지도를 추가하십시오(첫 번째 지도 옆에 놓으세요. 지도는 각각 자체 컨테이너에 있어야 합니다). 두 지도가 모두 초기 연도와 드롭다운에서 업데이트되도록 해주세요. 두 번째 지도의 색상 체계를 'YlOrRd'로 변경해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GPT-4가 코드를 생성해줍니다. 여러분은 자신이 선호하는 편집기에 다시 복사하여 붙여넣기/저장/실행할 수 있습니다 (저는 streamlit_map03.py라는 세 번째 파일을 만들었습니다).
 
@@ -244,7 +411,18 @@ GPT-4가 코드를 생성해줍니다. 여러분은 자신이 선호하는 편�
 
 ![이미지](/assets/img/2024-06-19-PythonStreamlitAndGPT4HowToMapUNHCRRefugeeData_9.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 와우, 정말 인상적이에요. 데이터셋과 3가지 모듈식 프롬프트로, 행성상 모든 국가 간 난민 이동을 볼 수 있는 대화형 웹 애플리케이션을 만들었어요.
 
@@ -254,7 +432,18 @@ GPT-4가 코드를 생성해줍니다. 여러분은 자신이 선호하는 편�
 
 # 요약하자면...
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 GPT-4 프롬프트 단계를 모듈식으로 따르면 대부분의 사람이 수동으로 코딩하는 데 소요되는 시간의 일부분에 웹 응용 프로그램을 매우 유용하게 개발할 수 있습니다.
 
@@ -264,7 +453,18 @@ GPT-4가 코드를 생성해줍니다. 여러분은 자신이 선호하는 편�
 
 전문가 팁: 마음에 드는 작동 코드 덩어리(레이아웃/색상 선택/기능 등)가 있으면, 다음 모듈식 단계에 사용하기 위해 이 코드를 GPT-4에 다시 피드해야 합니다. 이렇게 하면 GPT-4가 진로를 유지하는 데 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이런 프롬프트들을 한 번 시도해 보세요! 그리고 제게 어땠는지 꼭 알려주세요.
 

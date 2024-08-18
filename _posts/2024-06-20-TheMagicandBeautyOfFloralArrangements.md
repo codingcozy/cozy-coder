@@ -3,17 +3,13 @@ title: "꽃 다발의 마법과 아름다움"
 description: ""
 coverImage: "/assets/img/2024-06-20-TheMagicandBeautyOfFloralArrangements_0.png"
 date: 2024-06-20 17:17
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-TheMagicandBeautyOfFloralArrangements_0.png
 tag: Tech
 originalTitle: "The Magic and Beauty Of Floral Arrangements"
 link: "https://medium.com/@calendulacraft/the-magic-and-beauty-of-floral-arrangements-7305dd318a75"
 isUpdated: true
 ---
-
-
-
-
 
 자연주의 예술가로서, 저의 작업 방식 중 하나는 자연의 풍부함을 공영에 활용하는 것입니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 건조 화환을 만드는 것은 신선한 화환을 만드는 것과 비슷하지만 몇 가지의 어려움과 혜택이 있습니다. 건조 화환은 적절히 관리할 경우 최대 2년까지 가질 수 있습니다. 신선한 화환은 가장 이상적인 조건에서 2주간 가질 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 드라이 꽃다발을 만드는 데는 신선한 꽃다발보다 더 많은 식물 재료가 필요합니다. 줄기, 잎, 그리고 꽃들은 건조될수록 작아지곤 합니다. 원래 색상을 유지하는 꽃들도 있지만, 실험은 재미있는 부분 중 하나입니다.
 
@@ -33,8 +40,18 @@ isUpdated: true
 
 저는 이 꽃다발을 건조한 후에 자주 불태우곤 합니다. 허브의 연기는 치료 특성(그리고 마법적인 특성)을 가질 뿐만 아니라, 모기를 쫓아내는 데에도 큰 도움이 됩니다. 그러나 만족스럽지 않고 위험하거나 피부 접촉 시 바르거나 불태울 때 위험할 수 있는 유독한 식물은 피해 주십시오.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-06-20-TheMagicandBeautyOfFloralArrangements_2.png)
 
@@ -44,7 +61,17 @@ isUpdated: true
 
 ![Image](/assets/img/2024-06-20-TheMagicandBeautyOfFloralArrangements_3.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 정말 간단한 공예로 시간(그리고 약간의 끈)만 들 뿐이에요. 회색과 흐린 겨울 달들을 이겨내게 도와주고 생일의 친구들, 벨타인 같은 계절적인 휴일, 그리고 물론 어머니의 날에 사려 깊은 선물로 준비하기 좋아요.

@@ -3,17 +3,13 @@ title: "프론트엔드 기술 면접에서 반드시 알아야하는 React관�
 description: ""
 coverImage: "/assets/img/2024-08-04-MasteringReactInterviewsBeyondJustMakingItWork_0.png"
 date: 2024-08-04 18:39
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-04-MasteringReactInterviewsBeyondJustMakingItWork_0.png
 tag: Tech
 originalTitle: "Mastering React Interviews Beyond Just Making It Work"
 link: "https://medium.com/the-javascript/mastering-react-interviews-beyond-just-making-it-work-3b5ee98debd6"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-08-04-MasteringReactInterviewsBeyondJustMakingItWork_0.png" />
 
@@ -23,24 +19,35 @@ isUpdated: true
 
 면접 중 나의 친구는 React를 사용하여 시간 제한이 있는 작업을 수행해야 했습니다. 바 차트를 만들고 오름차순, 내림차순 및 기본(원래) 순서를 선택할 수 있는 드롭다운을 추가해야 했습니다. 바 차트의 데이터는 API에서 가져와야 했습니다. 초기 구현은 예상대로 작동했지만, 최종적으로 시니어 수준의 기대에 미치지 못해 거부당했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 초기 구현
 
 면접 중에 제출된 코드가 여기 있어요:
 
 ```js
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
 // 데이터를 가져오는 모의 함수
 const fetchData = () => {
   return new Promise((resolve) => {
     setTimeout(() => {
       resolve([
-        { name: 'A', value: 30 },
-        { name: 'B', value: 80 },
-        { name: 'C', value: 45 },
-        { name: 'D', value: 60 },
+        { name: "A", value: 30 },
+        { name: "B", value: 80 },
+        { name: "C", value: 45 },
+        { name: "D", value: 60 },
       ]);
     }, 1000);
   });
@@ -48,7 +55,7 @@ const fetchData = () => {
 
 const BarChart = () => {
   const [data, setData] = useState([]);
-  const [sortOrder, setSortOrder] = useState('default');
+  const [sortOrder, setSortOrder] = useState("default");
 
   useEffect(() => {
     fetchData().then((data) => setData(data));
@@ -57,11 +64,11 @@ const BarChart = () => {
   // 데이터를 정렬하는 함수
   const sortData = (order) => {
     let sortedData;
-    if (order === 'default') {
+    if (order === "default") {
       fetchData().then((data) => setData(data));
     } else {
       sortedData = [...data].sort((a, b) => {
-        if (order === 'asc') {
+        if (order === "asc") {
           return a.value - b.value;
         } else {
           return b.value - a.value;
@@ -73,20 +80,26 @@ const BarChart = () => {
 
   return (
     <div>
-      <select onChange={(e) => { setSortOrder(e.target.value); sortData(e.target.value); }} value={sortOrder}>
+      <select
+        onChange={(e) => {
+          setSortOrder(e.target.value);
+          sortData(e.target.value);
+        }}
+        value={sortOrder}
+      >
         <option value="default">Default</option>
         <option value="asc">Ascending</option>
         <option value="desc">Descending</option>
       </select>
       <div>
         {data.map((item, index) => (
-          <div key={index} style={{ marginBottom: '10px' }}>
+          <div key={index} style={{ marginBottom: "10px" }}>
             <div>{item.name}</div>
             <div
               style={{
-                height: '20px',
+                height: "20px",
                 width: `${item.value}px`,
-                backgroundColor: 'blue',
+                backgroundColor: "blue",
               }}
             ></div>
           </div>
@@ -101,24 +114,35 @@ export default BarChart;
 
 코드는 올바르게 작동하지만, 신중한 고려 없이 확장성, 최적화, 그리고 적절한 상태 관리가 미흡합니다. 이 부분은 시니어 개발자 역할에 매우 중요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 향상된 구현
 
 여기에는 고급 기술을 적용한 코드의 개선 버전이 있습니다:
 
 ```js
-import React, { useState, useMemo, useCallback, useEffect, useRef } from 'react';
+import React, { useState, useMemo, useCallback, useEffect, useRef } from "react";
 
 // Mock function to fetch data
 const fetchData = () => {
   return new Promise((resolve) => {
     setTimeout(() => {
       resolve([
-        { name: 'A', value: 30 },
-        { name: 'B', value: 80 },
-        { name: 'C', value: 45 },
-        { name: 'D', value: 60 },
+        { name: "A", value: 30 },
+        { name: "B", value: 80 },
+        { name: "C", value: 45 },
+        { name: "D", value: 60 },
       ]);
     }, 1000);
   });
@@ -128,7 +152,7 @@ const BarChart = () => {
   const [data, setData] = useState([]);
   const originalData = useRef([]);
   const [loading, setLoading] = useState(false);
-  const [sortOrder, setSortOrder] = useState('default');
+  const [sortOrder, setSortOrder] = useState("default");
 
   useEffect(() => {
     setLoading(true);
@@ -142,11 +166,11 @@ const BarChart = () => {
   // 데이터를 정렬하는 함수
   const sortData = useCallback(() => {
     let sortedData;
-    if (sortOrder === 'default') {
+    if (sortOrder === "default") {
       sortedData = originalData.current;
     } else {
       sortedData = [...data].sort((a, b) => {
-        if (sortOrder === 'asc') {
+        if (sortOrder === "asc") {
           return a.value - b.value;
         } else {
           return b.value - a.value;
@@ -172,13 +196,13 @@ const BarChart = () => {
       ) : (
         <div>
           {data.map((item, index) => (
-            <div key={index} style={{ marginBottom: '10px' }}>
+            <div key={index} style={{ marginBottom: "10px" }}>
               <div>{item.name}</div>
               <div
                 style={{
-                  height: '20px',
+                  height: "20px",
                   width: `${item.value}px`,
-                  backgroundColor: 'blue',
+                  backgroundColor: "blue",
                 }}
               ></div>
             </div>
@@ -194,7 +218,18 @@ export default BarChart;
 
 ## 향상 사항 설명
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 확장성:
 
@@ -206,7 +241,18 @@ export default BarChart;
 - useCallback 훅: 이를 이용하여 sortData 함수가 메모이제이션되어 데이터나 sortOrder가 변경될 때에만 재생성됩니다. 이렇게 해서 불필요한 다시 렌더링과 계산을 방지합니다.
 - useMemo 훅: 직접적으로 사용되지는 않지만, 값비싼 계산을 메모이제이션하는 데 유용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 적절한 로딩 상태:
 
@@ -218,7 +264,18 @@ export default BarChart;
 - useRef: 원본 데이터를 저장하는 데 사용되며 초기 상태로 쉽게 재설정 할 수 있도록 하고 다시 렌더링을 유발하지 않습니다.
 - useEffect: 컴포넌트가 마운트될 때 데이터 가져오기를 트리거하고 sortOrder가 변경될 때마다 정렬을 처리합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 주요 포인트
 

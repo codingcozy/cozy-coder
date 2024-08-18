@@ -3,17 +3,13 @@ title: " 리눅스가 내 램을 다 먹었어요"
 description: ""
 coverImage: "/assets/img/2024-06-22-Linuxatemyram_0.png"
 date: 2024-06-22 16:02
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-Linuxatemyram_0.png
 tag: Tech
 originalTitle: "📌 Linux ate my ram 📌"
 link: "https://medium.com/@devopslearning/linux-ate-my-ram-a15ed0288a84"
 isUpdated: true
 ---
-
-
-
-
 
 린역 케어킹이 어렵고 복잡하다고 느끼셨던 적이 있나요? 걱정하지 마세요! 당신의 램은 괜찮아요! 이 비디오를 통해 리눅스가 메모리를 어떻게 관리하는지, 왜 램이 가득 차있는 것처럼 보이며 걱정할 필요가 없는지 설명해 드릴게요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 🙋‍♂️ 다음 질문은, 왜 리눅스가 디스크 캐시를 사용할까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 디스크 캐싱은 시스템 성능을 향상시키는데 도움이 됩니다. 자주 액세스되는 데이터를 메모리에 유지함으로써 디스크에서 데이터를 읽는 데 걸리는 시간을 줄일 수 있어 시스템이 더 빠르게 반응합니다. 하지만 이에는 단점이 있을까요? 사용자들이 자신의 메모리가 부족하다고 오해하게 만들 수 있지만, 이는 사실이 아닙니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ✅ 사용 중인 메모리는 응용 프로그램에서 활발히 사용되는 메모리입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ✅ 사용되지 않은 메모리가 Free Memory입니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 🙋‍♂️ 또 다른 혼란스러운 질문은, Swap이 더 필요한가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아마도 그렇지 않을거에요. 디스크 캐싱은 유휴 상태의 RAM을 사용하고 필요할 때 애플리케이션에 반환합니다. 스왑은 물리적 RAM이 완전히 활용될 때 사용됩니다. 애플리케이션이 더 많은 메모리를 필요로 하는 경우 커널이 디스크 캐시로부터 다시 할당하여 최소한의 스왑 사용을 보장합니다.
 
@@ -51,11 +80,20 @@ isUpdated: true
 
 메모리 사용량을 정확하게 확인하려면 다음을 사용하세요:
 
-
 free -m 명령어
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "실제로 응용 프로그램에 사용 가능한 메모리 양을 확인하려면 '사용 가능' 열을 보세요. 이것이 메모리 사용량을 정확히 보여줍니다.
 
@@ -65,7 +103,18 @@ free -m 명령어
 
 ✅ 사용 가능한 메모리가 거의 0에 가까운 경우."
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ✅ 스왑 사용량이 계속해서 늘거나 변동하는 경우
 
@@ -75,7 +124,18 @@ free -m 명령어
 
 Linux가 메모리를 어떻게 관리하는지 이해하면 시스템 성능에 대한 불필요한 걱정이 덜어집니다. 디스크 캐싱은 시스템을 더 빠르고 반응성이 더 뛰어나게 만들며, 사용된 메모리는 즉시 애플리케이션을 위해 다시 확보할 수 있습니다. "사용 가능한" 메모리에 집중하면 시스템 상태에 대한 더 명확한 그림을 얻을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🖼 이미지 참고: [이미지](https://www.linuxatemyram.com/atemyram.png)
 

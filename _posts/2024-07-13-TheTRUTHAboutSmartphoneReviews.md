@@ -3,17 +3,13 @@ title: "스마트폰 리뷰의 진실, 여러분이 몰랐던 5가지 사실"
 description: ""
 coverImage: "/assets/img/2024-07-13-TheTRUTHAboutSmartphoneReviews_0.png"
 date: 2024-07-13 23:33
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-TheTRUTHAboutSmartphoneReviews_0.png
 tag: Tech
 originalTitle: "The TRUTH About Smartphone Reviews"
 link: "https://medium.com/macoclock/the-truth-about-smartphone-reviews-a1a425e74bae"
 isUpdated: true
 ---
-
-
-
-
 
 ![2024-07-13-TheTRUTHAboutSmartphoneReviews_0.png](/assets/img/2024-07-13-TheTRUTHAboutSmartphoneReviews_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 솔직히 이번에는 꽤 덜한 평가를 받았어. 최근 YouTube 비디오에서 아이폰에서 삼성 갤럭시 S23 울트라로 바꾼다는 제목으로 올린 동영상에 나쁜 코멘트가 별로 없었단 거야.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전환하지 않았어요. 비록 비디오 끝에서 그것을 분명히 했지만 (요즘 사람들이 반지의 제왕처럼 여덟 분짜리 비디오를 끝까지 보는 인내력이 부족한 것이 안타깝네요).
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 오늘은 제 이야기를 들려 드릴게요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 우리는 모두 스마트폰을 바꾸고 있어요 (그런데 사실은 아니에요)
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 그 '전환'은 대부분 리뷰 과정을 위한 것이었을 겁니다. 리뷰어가 몇 주 또는 몇 달간 계속할 수도 있지만, 만약 그 리뷰어가 이전에 iPhone을 선호했었다면, 아마도 애플의 기기가 그들의 주요 스마트폰으로 남아 있을 것이라고 확신할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나는 ‘스위치베이트’를 사용하여 조회수와 참여도를 얻은 기술 리뷰어들과 마찬가지로 스스로에게 언급하고 있습니다. 내 지난 몇 달간의 스마트폰 리뷰만 보면, 나는 단 몇 달 사이에 여러 기기로 전환했다는 결론을 낼 것입니다. 이는 정상적인 행동이 아니며, 지속적으로 스마트폰을 왔다갔다 하는 데 필요한 시간 면에서도 거의 불가능합니다.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 ## 클릭베이트를 노린 행위
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이번 주의 S23 Ultra 대 iPhone 비디오는 완전히 실패했어요. 최근 업로드된 열 개 비디오 중 가장 좋지 않은 성적을 거뒀어요.
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 유튜버로서, 열 개 중 최악의 상황에서 매우 유용한 두 가지 강력한 도구가 있어요. 바로 섬네일과 비디오 제목이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 비디오의 경우, 나는 섬네일을 그대로 남겨두었다. 나는 문제가 제목에 있을 것이라고 확신했고, 그것은 S23 울트라가 iPhone을 이기는 5가지 방법이었습니다. 분명히, 내 비디오를 피드에서 본 사람에게는 맞지 않는 내용이었습니다.
 
@@ -73,9 +124,20 @@ isUpdated: true
 
 비디오를 만들며 과정을 진심으로 사랑하고, 시청자를 크게 존중하는 콘텐츠 제작자로서, 이것은 짜증납니다. 클릭베이트가 얼마나 중요한지는 알지만, 나는 그것에 그렇게 의존하고 싶지 않습니다. 나는 원래 제목을 선호했습니다 (내 정기적인 시청자들도 그렇다고 확신합니다). 더 정확했고, 과장되지 않았으며, 훨씬 눈에 더 쾌적했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-하지만 그렇게 되지 않았어요. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+하지만 그렇게 되지 않았어요.
 
 이게 아주 웃긴 것이죠. 사람들은 클릭베이트를 싫어해요. 활발하게 혐오를 느끼죠. 클릭베이트를 알아챌 때, 그들은 종종 제작자에게 그가나 그녀가 관객을 불공평하게 속이고 있다고 알려줄 거예요. 그러나 클릭베이트 제목 덕분에 그 동영상을 발견 못했을 거예요.
 
@@ -83,7 +145,18 @@ isUpdated: true
 
 당신도 그랬을 거에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 규칙의 예외
 
@@ -93,7 +166,18 @@ isUpdated: true
 
 이러한 큰 크리에이터들은 제목에 대해 훨씬 더 창의적일 수 있으며, 사람들을 유혹하기 위해 도발적인 클릭베이트에 의존할 필요가 거의 없을 것입니다. 그러나 가끔 그들이 그렇게 하는 것을 볼 수 있지만, 그것은 언제나 저를 웃음 짓게 만듭니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 마무리
 
@@ -103,7 +187,18 @@ isUpdated: true
 
 그래서, 내 유튜브와 블로그 제목 중에 한두 개가 좀 찜찜했다면 — 미안해요. 그저 이 기술 리뷰어로서 우리가 이런 일을 하는 이유를 어느 정도 설명하길 바라요. 게다가, 이건 전혀 해롭지 않죠, 맞죠?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 떠나시기 전에
 

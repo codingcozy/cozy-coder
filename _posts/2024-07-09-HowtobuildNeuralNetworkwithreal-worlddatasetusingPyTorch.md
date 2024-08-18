@@ -3,17 +3,13 @@ title: "PyTorch로 실세계 데이터셋을 사용하여 신경망을 만드는
 description: ""
 coverImage: "/assets/img/2024-07-09-HowtobuildNeuralNetworkwithreal-worlddatasetusingPyTorch_0.png"
 date: 2024-07-09 23:47
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-HowtobuildNeuralNetworkwithreal-worlddatasetusingPyTorch_0.png
 tag: Tech
 originalTitle: "How to build Neural Network with real-world dataset using PyTorch"
 link: "https://medium.com/gopenai/how-to-build-neural-network-with-real-world-dataset-using-pytorch-45b34b4e9876"
 isUpdated: true
 ---
-
-
-
-
 
 ### 신경망을 구축하고 훈련하는 단계별 가이드: FitBit Fitness Tracker Dataset 활용
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 저희는 TotalSteps, TotalDistance, VeryActiveMinutes와 같은 익숙한 일상 사용자 활동을 데이터셋의 특징으로 사용하여 신경망 모델을 구축하고 훈련할 거예요. 그리고 새로운 데이터셋을 활용해 총 칼로리 소모에 대한 예측도 할 수 있답니다. 함께해요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 이번 글을 함께 따라오시는 분들께서는 Python, PyTorch, 그리고 신경망의 기본 개념을 알고 있다고 가정하고 진행하려고 합니다. 이 외에는 걱정하지 마세요. 이 포스트를 따라오시면 글을 끝까지 읽은 후에 여러분만의 신경망을 구축하고 학습시킬 수 있을 거에요. 또한 다른 사용 사례에 맞게 더 맞춤화할 수도 있답니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ## 단계 1: 필요한 라이브러리 가져오기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 필요한 클래스, 함수 및 모듈을 아래와 같이 가져와야 합니다. 각 항목에 대한 자세한 내용은 해당 구현 중에 후속적으로 제공될 것입니다. 아래의 가져오기 코드를 실행하기 전에 최신 버전의 Python 및 PyTorch가 설치되어 있는지 확인하십시오.
 
@@ -53,7 +71,18 @@ import matplotlib.pyplot as plt
 
 우선 FitBit Fitness Tracker 데이터 세트를 여기에서 다운로드하세요. 아래와 같이 `pandas` 함수를 사용하여 데이터셋 파일 `dailyActivity_merged.csv`을 DataFrame 변수에 로드하고 데이터가 성공적으로 로드되었는지 확인하십시오.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 # 사용자가 CSV 파일을 저장한 파일 경로를 제공할 수 있습니다
@@ -75,27 +104,48 @@ fitbit_df = fitbit_df[features]
 fitbit_df.head()
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우주 카드를 당겨 주셔서 감사합니다!
 
-여기서 어떤 작업을 수행해야 하는지 이미 잘 이해하신 것 같아요. 마법의 세계인 데이터 전처리를 통해 모델을 적합하게 만들어가는 과정을 함께 걸어나가는 건 정말 흥미롭죠. 데이터 품질이 매우 중요하다는 것을 잘 이해하셨군요. "내뱉지도 않고 듣지도 않는 쓰레기를 먹이면, 쓰레기만큼의 결과를 만들어낸다"고 하죠. 
+여기서 어떤 작업을 수행해야 하는지 이미 잘 이해하신 것 같아요. 마법의 세계인 데이터 전처리를 통해 모델을 적합하게 만들어가는 과정을 함께 걸어나가는 건 정말 흥미롭죠. 데이터 품질이 매우 중요하다는 것을 잘 이해하셨군요. "내뱉지도 않고 듣지도 않는 쓰레기를 먹이면, 쓰레기만큼의 결과를 만들어낸다"고 하죠.
 
 다음 단계로는 fitbit_df 필드를 입력 X와 출력 y로 분할하고 해당 값들을 PyTorch tensor로 변환하는 것이네요. 모든 데이터를 PyTorch tensor로 변환한다면 잠재적 데이터 타입 불일치 문제를 피할 수 있을 거에요.
-
 
 X = torch.tensor(fitbit_df.drop(columns=["Calories"], axis=1).to_numpy(), dtype=torch.float)
 y = torch.tensor(fitbit_df["Calories"].to_numpy(), dtype=torch.long)
 
 # X, y 값 확인
+
 print("Input tensors: ", X[:5], "\n")
 print("Output tensors: ", y[:5], "\n\n")
 
 print("입력 tensor의 형태: ", X.shape)
 print("출력 tensor의 형태: ", y.shape)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-09-HowtobuildNeuralNetworkwithreal-worlddatasetusingPyTorch_3.png" />
 
@@ -120,7 +170,18 @@ print("테스트 입력: ", X_test.shape, "테스트 출력: ", y_test.shape)
 
 <img src="/assets/img/2024-07-09-HowtobuildNeuralNetworkwithreal-worlddatasetusingPyTorch_4.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특성 정규화: TotalSteps 특성 값이 4자리 숫자 범위에 있고 TotalDistance, VeryActiveDistance와 같은 특성 값이 1자리 숫자 범위에 있다면 발견했을 것입니다. 이러한 범위의 엄청난 차이는 훈련 과정에 영향을 미쳐 매끄럽지 않게 만들 수 있으며 이 문제를 관리하지 않으면 발산을 초래할 수 있습니다. 그래서 이 문제를 해결하기 위해 데이터 정규화 작업을 수행했습니다.
 
@@ -149,7 +210,18 @@ print("정규화된 X_train: ", X_test[:5], "\n")
 
 [링크](/assets/img/2024-07-09-HowtobuildNeuralNetworkwithreal-worlddatasetusingPyTorch_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 훈련, 검증 및 테스트 텐서 데이터의 각 (입력, 출력) 쌍에 대한 TensorDataset을 생성할 것입니다. TensorDataset은 PyTorch 기능으로, 텐서를 감싸주는 역할을 합니다. 이 기능은 DataLoader를 생성할 때 매우 유용하며, 다음에 우리가 생성할 것입니다.
 
@@ -166,7 +238,18 @@ print(train_dataset[0])
 
 DataLoader는 데이터세트와 샘플러를 결합하고, 지정된 데이터세트에 대한 반복 가능 합니다. 훈련 데이터가 매우 많을 경우, 단일 훈련 데이터를 하나씩 반복하는 데는 많은 시간이 걸리며, 동시에 모든 데이터를 한꺼번에 훈련하는 것은 처리 리소스 제약으로 실제적으로 불가능할 수 있습니다. DataLoader는 배치 크기를 정의하여 한 번에 여러 훈련 데이터를 배치로 훈련할 수 있도록 한 문제를 해결했습니다. 이 모델을 위해 훈련, 검증 및 테스트 데이터세트 각각에 대한 DataLoader를 생성하고, 이 모델의 경우 배치 크기를 10으로 정의하겠습니다. shuffle=True는 배치 내 데이터의 발생 순서를 섞어 훈련과 학습을 더 잘 수행하게 도와줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 # 각각의 학습(train), 검증(val) 및 테스트(test) 데이터셋에 대한 데이터로더 생성하기
@@ -187,8 +270,18 @@ for X, y in train_loader:
 
 이제 PyTorch nn.Module에서 기능적인 모델을 정의하기 시작합니다. 각 레이어의 수와 각 레이어의 노드 수를 지정하는 구체적인 규칙은 없습니다. 일반적으로, 올바르게 작동하는 적절한 숫자를 찾기 위해 여러 번의 시행착오가 필요합니다. 한 가지 규칙은 네트워크가 빠르게 처리될 수 있을 만큼 충분히 작아야 하며, 동시에 의도한 문제를 높은 정확도로 해결할 수 있을 만큼 충분히 커야 한다는 것입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희 모델은 3개의 층, 3가지 활성화 함수 그리고 1개의 출력층으로 이루어져 있어요.
 
@@ -201,12 +294,12 @@ for X, y in train_loader:
 ```python
 class fitbit_model(nn.Module):
   def __init__(self, input_features, output_class):
-    super(fitbit_model, self).__init__()    
+    super(fitbit_model, self).__init__()
     self.layer1 = nn.Linear(in_features=input_features, out_features=64)
     self.activation1 = nn.ReLU()
     self.layer2 = nn.Linear(in_features=64, out_features=64)
     self.activation2 = nn.ReLU()
-    self.layer3 = nn.Linear(in_features=64, out_features=32)    
+    self.layer3 = nn.Linear(in_features=64, out_features=32)
     self.activation3 = nn.ReLU()
     self.output = nn.Linear(in_features=32, out_features=output_class)
 
@@ -218,10 +311,21 @@ class fitbit_model(nn.Module):
 ```
 
 - 모든 층은 fitbit_model 클래스 생성자 내에서 정의되어 있어요.
-- super(fitbit_model, self).__init__()는 fitbit_model 모델을 부트스트랩하기 위해 호출되는 부모 클래스 nn.Module 생성자에요.
+- super(fitbit_model, self).**init**()는 fitbit_model 모델을 부트스트랩하기 위해 호출되는 부모 클래스 nn.Module 생성자에요.
 - forward 함수는 입력 텐서를 받아 모델의 출력 텐서를 반환해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로, fitbit_model 생성자에 입력 특성 값과 출력 클래스 값을 제공하여 모델을 초기화합니다. 초기에는 가중치(weights)와 편향(biases) 매개변수가 모델 자체에 의해 자동으로 초기화되어 있습니다 (일부 랜덤 값으로 할당됨). 이러한 매개변수 값은 훈련 중에 이후에 업데이트될 것입니다.
 
@@ -246,7 +350,18 @@ print("레이어1의 편향 형태: ", model.layer1.bias.shape)
 
 ## 단계 4: 모델 훈련 및 평가
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 손실 함수(loss function), 옵티마이저(optimizer), 총 에폭 수 및 기타 변수들을 정의하여 준비를 시작할 거에요.
 
@@ -269,21 +384,29 @@ n_epochs = 100
 
 마지막으로, 모델을 100 에폭 동안 훈련하고 평가해 봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 모델 훈련 및 평가하기
 
-for epoch in range(n_epochs):
-    # 모델 훈련
-    model.train()
-    train_loss = 0.0
-    for x_batch, y_batch in train_loader:
-        # 순전파
-        y_pred = model(x_batch)
-        y_pred = torch.squeeze(y_pred)
-        y_batch = y_batch.float()
-        loss = loss_fn(y_pred, y_batch)
+for epoch in range(n_epochs): # 모델 훈련
+model.train()
+train_loss = 0.0
+for x_batch, y_batch in train_loader: # 순전파
+y_pred = model(x_batch)
+y_pred = torch.squeeze(y_pred)
+y_batch = y_batch.float()
+loss = loss_fn(y_pred, y_batch)
 
         # 역전파
         optimizer.zero_grad()
@@ -324,8 +447,18 @@ for epoch in range(n_epochs):
 
 ![How to build Neural Network with real-world dataset using PyTorch](/assets/img/2024-07-09-HowtobuildNeuralNetworkwithreal-worlddatasetusingPyTorch_9.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **5단계: 훈련 및 평가 결과 분석**
 
@@ -339,11 +472,22 @@ plt.ylabel("Epoch 당 손실")
 plt.xlabel("에폭")
 plt.legend()
 plt.show()
-```  
+```
 
 ![Plot Image](/assets/img/2024-07-09-HowtobuildNeuralNetworkwithreal-worlddatasetusingPyTorch_10.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 20번째 이폭 이후에는 훈련 손실과 검증 손실이 크게 감소했습니다. 이 결과는 상당히 인상적이에요. 더 나은 결과를 얻으려면 훈련 데이터와 이폭 수를 늘려보세요.
 
@@ -353,23 +497,32 @@ plt.show()
 
 이전에 준비한 test_dataset이라는 새 데이터셋을 사용할 거에요. 이전까지 사용하지 않았던 데이터셋이죠. 이제 이를 사용하여 예측해 봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 테스트 데이터셋 예측하기
+
 model.eval()
 pred_val = []
 target_val = []
 
 with torch.no_grad():
-  for x_test, y_test in test_loader:
-    y_test_pred = model(x_test)
-    pred_val.append(y_test_pred)
-    target_val.append(y_test)
-
+for x_test, y_test in test_loader:
+y_test_pred = model(x_test)
+pred_val.append(y_test_pred)
+target_val.append(y_test)
 
 새로운 테스트 데이터셋에 대한 예측 결과를 분석하기 위해 matplotlib.pyplot 라이브러리 함수를 사용하여 산점도를 그려보겠습니다.
-
 
 labels = torch.cat(target_val).flatten().tolist()
 predictions = torch.cat(pred_val).flatten().tolist()
@@ -377,22 +530,31 @@ predictions = torch.cat(pred_val).flatten().tolist()
 plt.scatter(labels, predictions)
 
 max_lim = max(max(predictions), max(labels))
-max_lim += max_lim * 0.1
+max_lim += max_lim \* 0.1
 
 plt.xlim(0, max_lim)
 plt.ylim(0, max_lim)
 
 plt.plot([0,max_lim], [0,max_lim], "b-")
 
-plt.xlabel("True Values") 
+plt.xlabel("True Values")
 plt.ylabel("Predicted Values")
 plt.tight_layout()
 
-
 ![Graph](/assets/img/2024-07-09-HowtobuildNeuralNetworkwithreal-worlddatasetusingPyTorch_11.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 산포도를 통해 우리 모델이 예측한 값과 데이터셋의 실제 값이 매우 근접해 있음을 확인할 수 있습니다. 따라서 우리가 구축하고 학습한 모델이 이 새로운 테스트 데이터셋에 대해 꽤 잘 일반화되었음을 입증합니다.
 

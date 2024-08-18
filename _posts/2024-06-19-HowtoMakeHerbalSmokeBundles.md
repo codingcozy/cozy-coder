@@ -3,17 +3,13 @@ title: "허브 스모크 번들 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-19-HowtoMakeHerbalSmokeBundles_0.png"
 date: 2024-06-19 17:58
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-HowtoMakeHerbalSmokeBundles_0.png
 tag: Tech
 originalTitle: "How to Make Herbal Smoke Bundles"
 link: "https://medium.com/the-diy-diaries/how-to-make-herbal-smoke-bundles-c44564b2f1d9"
 isUpdated: true
 ---
-
-
-
-
 
 ## DIY
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-19-HowtoMakeHerbalSmokeBundles_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 허브요법과 자연 중심 종교의 인기로 인해 팔로 산토와 흰색(또는 의식적인) 세이지와 같은 특정 허브에 대한 흡입 청소에 대한 관심이 증가했습니다. 그 두 가지 허브는 아주 좋은 향이 나긴 하지만, 너무 많이 수확된 두 가지 허브에 의존하는 것은 지속가능한 방법이 아닙니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ## Step 1 ~ Gather the herbs
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로즈매리, 가든 세이지, 머그워트, 레몬밤 등이 이 프로젝트에 적합한 훌륭한 식물들입니다. 대부분의 약용 허브가 작동할 것입니다. 하지만 확실하지 않다면, 조사를 하거나 약초 전문가 친구에게 해당 허브가 연소에 안전한지 물어보세요.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 ## 단계 2 - 트윈 선택하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 허브 자체 외에도, 이 작업에서 가장 중요한 재료는 끈 또는 두꺼운 줄입니다. 저는 면 끈을 사용하지만 양모 실도 잘 작용합니다. 그냥 나일론으로 만든 종류의 합성 끈을 사용하지 않도록 주의하세요. 그렇게 하면 전체 송이가 타면 연소 중인 플라스틱 냄새가 납니다.
 
@@ -53,9 +82,20 @@ isUpdated: true
 
 ## 3단계 ~ 송이를 감싸세요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-이 신선한 허브가 마르면 묶음의 지름이 줄어들기 때문에 줄을 꽉 조여놓는 것이 중요합니다. 나는 그들을 꽉 감싸고 리본을 묶어주지만 영구적인 매듭은 안 합니다. 몇 주 후 묶음들이 마르면 종종 줄을 조이고 모든 게 확실하게 고정되도록 진짜 매듭을 묶습니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+이 신선한 허브가 마르면 묶음의 지름이 줄어들기 때문에 줄을 꽉 조여놓는 것이 중요합니다. 나는 그들을 꽉 감싸고 리본을 묶어주지만 영구적인 매듭은 안 합니다. 몇 주 후 묶음들이 마르면 종종 줄을 조이고 모든 게 확실하게 고정되도록 진짜 매듭을 묶습니다.
 
 ![이미지](/assets/img/2024-06-19-HowtoMakeHerbalSmokeBundles_3.png)
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 ## 단계 4 ~ 허브를 건조하세요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 번들은 완전히 마르는 데 약 한 달이 소요됩니다. 나는 그것들을 평평한 바구니에 말리거나 뒤집어서 실내에서 매달아 말립니다.
 
@@ -73,6 +124,17 @@ isUpdated: true
 
 매우 자주 그것들을 며칠 및 몇 달 동안도 태우지 않는데, 이 작은 부케들은 물 없이 싱싱한 부케처럼 잔에 놓아 두거나 탁자에 아름다운 장식으로 사용할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모두들 즐거운 창작 하세요!

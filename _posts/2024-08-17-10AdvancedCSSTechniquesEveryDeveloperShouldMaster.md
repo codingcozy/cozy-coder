@@ -3,7 +3,7 @@ title: "마크업을 도와줄 10가지 CSS 기법"
 description: ""
 coverImage: "/assets/img/2024-08-17-10AdvancedCSSTechniquesEveryDeveloperShouldMaster_0.png"
 date: 2024-08-17 00:04
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-17-10AdvancedCSSTechniquesEveryDeveloperShouldMaster_0.png
 tag: Tech
 originalTitle: "10 Advanced CSS Techniques Every Developer Should Master"
@@ -11,7 +11,6 @@ link: "https://medium.com/@asierr/10-advanced-css-techniques-every-developer-sho
 isUpdated: true
 updatedAt: 1723863476568
 ---
-
 
 CSS (Cascading Style Sheets)은 웹 디자인의 기본이며 개발자들이 시각적으로 매력적이고 반응형인 웹사이트를 만들 수 있게 합니다. 개발자로서 고급 CSS 기술을 마스터하면 정교한 레이아웃, 애니메이션 및 상호작용을 만들 수 있는 능력이 크게 향상됩니다. 이 글에서는 웹 개발 실력을 한 단계 더 높이기 위해 개발자가 반드시 숙지해야 할 10가지 고급 CSS 기술을 살펴보겠습니다.
 
@@ -21,7 +20,18 @@ CSS (Cascading Style Sheets)은 웹 디자인의 기본이며 개발자들이 �
 
 CSS Grid 레이아웃은 복잡한 반응형 그리드 기반 레이아웃을 만들 수 있는 강력한 도구입니다. 전통적인 레이아웃 방법과 달리 CSS Grid를 이용하면 행과 열을 모두 정의할 수 있어 다양한 화면 크기에 맞게 레이아웃을 설계하는 것이 더 쉬워집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .container {
@@ -43,7 +53,18 @@ CSS Grid 레이아웃은 복잡한 반응형 그리드 기반 레이아웃을 �
 
 # 2. Flexbox
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Flexbox는 컨테이너 내 항목들의 정렬과 간격을 조절하는 데 도움이 되는 강력한 레이아웃 도구입니다. 반응형 디자인을 만들거나 요소들을 가운데 정렬하는 데 특히 유용합니다.
 
@@ -66,7 +87,18 @@ Flexbox는 컨테이너 내 항목들의 정렬과 간격을 조절하는 데 �
 - 1차원 레이아웃: 행 또는 열을 제어할 수 있습니다.
 - 정렬: 쉽게 수평 및 수직으로 항목들을 가운데 정렬할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3. CSS 변수
 
@@ -86,7 +118,18 @@ CSS 변수(또는 사용자 정의 속성)를 사용하면 값을 한 곳에 저
 
 ## 주요 기능
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 재사용성: CSS에서 값을 정의하고 재사용합니다.
 - 동적 업데이트: 변수의 값을 쉽게 변경하여 디자인을 업데이트할 수 있습니다.
@@ -113,7 +156,18 @@ a[href^="https"] {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 주요 기능
 
@@ -124,8 +178,18 @@ a[href^="https"] {
 
 CSS 전환과 애니메이션을 사용하면 상태간의 부드러운 전환을 추가하고 매력적인 애니메이션을 생성할 수 있습니다. 이러한 효과는 상호 작용을 더 부드럽고 시각적으로 매력적으로 만들어 사용자 경험을 향상시킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .button {
@@ -159,8 +223,18 @@ CSS 전환과 애니메이션을 사용하면 상태간의 부드러운 전환�
 
 # 6. 미디어 쿼리를 활용한 반응형 디자인
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 미디어 쿼리를 사용하면 화면 크기나 장치 특성에 따라 다른 스타일을 적용할 수 있어요. 이는 모든 장치에서 멋지게 보이는 반응형 디자인을 만드는 데 필수적이에요.
 
@@ -182,7 +256,18 @@ CSS 전환과 애니메이션을 사용하면 상태간의 부드러운 전환�
 - 반응형 스타일링: 장치나 화면 크기에 따라 다른 스타일 적용하요.
 - 최적화된 레이아웃: 웹사이트가 모든 장치에서 멋지게 보이도록 해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 7. CSS 모양과 클립 경로
 
@@ -199,7 +284,18 @@ CSS 모양과 클립 경로를 사용하면 사각형이 아닌 레이아웃과 
 
 ## 주요 기능
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 창의적인 레이아웃: 사각형이 아닌 모양의 디자인 요소.
 - 사용자 정의 경로: 사용자 지정 모양을 정의하기 위해 클립 경로를 사용합니다.
@@ -235,7 +331,18 @@ CSS 그리드 영역을 사용하면 그리드 레이아웃의 특정 섹션에 
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 주요 기능
 
@@ -246,7 +353,18 @@ CSS 그리드 영역을 사용하면 그리드 레이아웃의 특정 섹션에 
 
 CSS 카운터를 사용하면 목록과 요소에 대한 사용자 정의 카운터를 만들 수 있습니다. 이 기술은 번호 매겨진 목록, 사용자 지정 불릿 포인트 등을 만드는 데 유용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ol {
@@ -266,7 +384,18 @@ li::before {
 
 # 10. 그리드 및 플렉스박스 조합
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS Grid과 Flexbox를 결합하면 더 복잡하고 반응형 레이아웃을 만들 수 있어요. Grid는 전체 구조에 사용하고, Flexbox는 각 Grid 셀 내의 내용에 사용해요.
 
@@ -291,7 +420,18 @@ CSS Grid과 Flexbox를 결합하면 더 복잡하고 반응형 레이아웃을 �
 - 고급 레이아웃: Grid와 Flexbox를 조합하여 복잡한 레이아웃을 만들어보세요.
 - 반응형 디자인: 레이아웃이 다양한 화면 크기에 적응하도록 보장해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 고급 CSS 기술을 마스터하면 웹 디자인을 더 잘 제어할 수 있고 더 정교하고 반응형이며 시각적으로 매력적인 웹 사이트를 만들 수 있게 될 거예요. 단순한 프로젝트나 복잡한 웹 애플리케이션을 작업하더라도 이러한 기술은 CSS 기술을 높이고 고품질이고 유지보수 가능한 코드를 생성할 수 있게 도와줄 거예요. 계속해서 실험하고 창의적인 아이디어를 구현하기 위해 CSS를 활용하는 새로운 방법을 탐험해보세요.
 

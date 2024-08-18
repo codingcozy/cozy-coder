@@ -3,17 +3,13 @@ title: "파이썬을 사용한 인과 효과 추정 실습 방법"
 description: ""
 coverImage: "/assets/img/2024-07-08-Hands-onCausalEffectEstimationwithPython_0.png"
 date: 2024-07-08 00:02
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-08-Hands-onCausalEffectEstimationwithPython_0.png
 tag: Tech
 originalTitle: "Hands-on Causal Effect Estimation with Python"
 link: "https://medium.com/causality-in-data-science/hands-on-causal-effect-estimation-with-python-aac40ca2cae0"
 isUpdated: true
 ---
-
-
-
-
 
 ![Hands-onCausalEffectEstimationwithPython](/assets/img/2024-07-08-Hands-onCausalEffectEstimationwithPython_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 계속 읽기 전에 아래 개념들에 익숙하신지 확인해 주세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 친구들 안녕하세요! 오늘은 카지노 추정에 대한 이론적인 내용을 함께 알아보려고 해요. 이미 잘 알고 계신 분들은 tigramite 패키지를 사용한 카지노 효과 추정을 살펴보는 두 번째 부분으로 건너뛰셔도 좋아요.
 
@@ -31,7 +38,18 @@ isUpdated: true
 
 이번에는 원인과 결과 사이의 인과효과 추정에 대한 이론적인 내용을 다뤄볼 거에요. 만약 이미 잘 알고 계시다면 tigramite 패키지를 사용한 카지노 효과 추정을 보여주는 두 번째 부분으로 건너뛰어도 괜찮아요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 입문에서 이미 근본적인 질문에 qualitatively뿐만 아니라 quantitatively로도 대답해야 한다는 것을 확립했습니다. 다시 말해, 우리는 단순히 존재/비존재를 나타내는 인과 관계에서 이분법을 사용하고 싶어하지 않습니다. 대신, 특정 가능한 효과의 실제 크기를 얻고 싶어합니다. 인과 발견에서는 데이터로부터 인과 그래프를 추정하는 작업이 있는데, 이는 단지 인과 효과 추정을 바로 제공해주지 않습니다. 그럼에도 불구하고, 이들은 그것들로 가는 길에서의 근본적인 부분입니다. 조금 혼란스러워 보일 수 있나요? 걱정하지 마세요. 그렇게 어렵지 않습니다. 인과 효과 추정을 두 단계 프로세스로 상상해보세요. 먼저 인과 발견 방법(또는 사용 가능한 전문가 지식)을 사용하여 인과 그래프를 식별한 다음 발견된 효과의 크기를 결정하기 위해 발견된 그래프를 사용합니다. 그게 전부입니다! 물론 학습 없이 그래프를 이미 질적으로 알고 계시다면 더욱 좋습니다.
 
@@ -41,7 +59,18 @@ isUpdated: true
 
 시스템과 그것을 설명하는 인과 그래프가 주어졌다고 가정해 봅시다. Pearl의 프레임워크에서의 표준 문제는 알려진 인과 그래픽 모델을 기반으로 변수 X가 Y에 미치는 인과 효과를 추정하는 것입니다. Pearl의 프레임워크에서 X = x로 설정할 때의 Y에 대한 인과 효과는 개입 분포 p(Y|do(X=x))의 함수입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 이 표기에 익숙하지 않다면, 이 간단한 소개를 참고해주세요. 이 시점에서 do-표기법에 대한 간단한 요약이 적당할 것입니다. 분포 정의 내에서 "do()"를 발견하면, 이는 우리가 시스템에 개입하여 그 변수 중 하나를 특정 값으로 설정한다는 것을 의미합니다. 이러한 개입은 동일한 값에 대한 조건부와 근본적으로 다릅니다. 이를 명확히 하기 위해, 실제적인 측면에서 두 개념을 고려해보세요. 조건부는 시스템에서 일부 데이터를 샘플링한 후, 이제 X = x인 데이터만 선택한다는 것을 의미합니다. 결과적으로, X가 x가 아닌 값일 때의 모든 값들을 샘플에서 무시합니다.
 
@@ -51,7 +80,18 @@ isUpdated: true
 
 이 배경을 고려하면, Pearl의 프레임워크의 기초는 무작위 변수들 사이의 근본적 (하지만 알려지지 않은) 구조적 인과 모델(SCM) 가정입니다. 예를 들어,
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Hands-on Causal Effect Estimation with Python - Image 1](/assets/img/2024-07-08-Hands-onCausalEffectEstimationwithPython_1.png)
 
@@ -61,7 +101,18 @@ With f() being assignment functions, through which the value of a random variabl
 
 So how can we interpret p(Y|do(X=x)) in such a case? Intuitively, it is the (interventional) probability distribution of Y in the intervened SCM where the assignment equation of X is replaced such that the SCM becomes:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상단의 이미지는 "The Elements of Causal Inference"에서 설명된 "완벽한" 개입입니다. 더욱 진보된 그리고 매우 흥미로운 종류의 개입이 더 있음을 유의하십시오. 현재의 간단한 경우에 대해서는 상기한 것이 충분할 것입니다.
 
@@ -69,7 +120,18 @@ So how can we interpret p(Y|do(X=x)) in such a case? Intuitively, it is the (int
 
 그렇다면 이러한 실험의 개념을 따른다면 인과 효과에 대한 표준 개념은 어떻게 보일까요? 널리 사용되는 평균 처리 효과는 X에 대한 개입 후 Y의 분포 간의 차이로 정의됩니다. 간단히 말해서 X에 대한 한 값으로의 개입 후 Y의 분포와 X에 대한 다른 값으로의 개입 후 Y의 분포의 차이입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Hands-onCausalEffectEstimationwithPython](/assets/img/2024-07-08-Hands-onCausalEffectEstimationwithPython_4.png)
 
@@ -79,7 +141,18 @@ So how can we interpret p(Y|do(X=x)) in such a case? Intuitively, it is the (int
 
 실험을 실시할 수 있는 것은 항상 아닙니다. 우리는 이미 여러분 중 한 명과 같은 처음 게시물 중 하나에서 이 사실을 강조했습니다. 이는 인과 추론이 다루는 근본적인 문제 중 하나이기 때문입니다. 여기서 Pearl의 이론이 큰 도움이 되는 이유는 이론이 의도된 변수 V 사이에서 X가 Y에 미치는 인과 효과가 식별 가능한지(개입적 대상 쿼리를 작성할 수 있는지)를 특징화하기 위한 기준을 적용하는 데 순수한 그래프 지식을 활용할 수 있기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 이미지 태그를 Markdown 형식으로 변경해 주세요.
 
@@ -88,7 +161,18 @@ So how can we interpret p(Y|do(X=x)) in such a case? Intuitively, it is the (int
 
 ![Backdoor Adjustment Formula](/assets/img/2024-07-08-Hands-onCausalEffectEstimationwithPython_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신이 바로 가져야 할 변수들을 조정하고, 우리가 유효한 조정 집합이라고 부르는 것을 표준화하면, 우리는 우리 자신이 "진짜 개입"을 하지 않더라도 개입 분포가 어떻게 될지 계산할 수 있습니다. 마치 마술 같지만 굉장히 논리적이고 확실하게 증명된 것입니다. 다만, 이는 인과 그래프를 알고 있다는 가정에 기반하며, 거기서 조정 집합을 결정할 수 있습니다.
 
@@ -98,7 +182,18 @@ Perkovic 등 (2018)의 일반화된 후문 기준에 따르면, 조정 집합 Z�
 
 여기서 "forb"는 X와 Y 사이에 위치한 특정 중개자 노드 M이나 Y의 하속인 금지된 노드를 의미합니다. 두 번째 조건은 가짜 연관의 샌틀링을 방지하고 d-분리에 기반합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 인과 효과 추정을 위해 조정 세트 사용하기
 
@@ -108,7 +203,18 @@ Perkovic 등 (2018)의 일반화된 후문 기준에 따르면, 조정 집합 Z�
 
 우측의 기댓값들은 모두 개입문이 없는 기댓값입니다. 그러므로 우리는 이들을 우리의 관측 데이터 (X, Y, Z)를 사용하여 추정할 수 있습니다. 내부 기댓값을 추정하기 위해 우리는 통계적 학습 모델을 사용합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이는 X와 Z의 값을 고려할 때 Y의 편향되지 않은 추정치를 제공하는 모델을 의미합니다. 선형 경우에는 이는 기본 선형 회귀 모델인 sklearn에서 확인 가능하며, 더 정교한 확장이 물론 가능하며 때로는 필수적입니다.
 
@@ -116,16 +222,37 @@ Perkovic 등 (2018)의 일반화된 후문 기준에 따르면, 조정 집합 Z�
 
 ![image](/assets/img/2024-07-08-Hands-onCausalEffectEstimationwithPython_10.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-I mean, when you've worked out the expected value of your intervention, the next step is to find the average treatment effect. Try out different values for x and x`, take the expected values, and then subtract them. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+I mean, when you've worked out the expected value of your intervention, the next step is to find the average treatment effect. Try out different values for x and x`, take the expected values, and then subtract them.
 
 In a linear scenario, things get pretty exciting. You can determine the average treatment effect of an intervention on X by looking at the regression coefficient for X in a multivariate linear regression of Y on X and Z. It's like magic!
 
 When dealing with multivariate interventions in X (when X isn't just one variable but several), this approach really comes in handy.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-07-08-Hands-onCausalEffectEstimationwithPython_12.png)
 
@@ -135,8 +262,18 @@ from the regression model:
 
 # Part 2: Estimating Causal Effects with Python
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 시작하기:
 
@@ -146,7 +283,18 @@ from the regression model:
 
 터미널을 통해 사용하려는 디렉토리 내에서 다음 명령어를 사용하여 설치할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 pip install tigramite
@@ -159,7 +307,7 @@ Let's move on and download the necessary packages for the tutorial:
 import numpy as np
 import matplotlib
 from matplotlib import pyplot as plt
-%matplotlib inline     
+%matplotlib inline
 from scipy.stats import gaussian_kde
 import tigramite
 from tigramite import data_processing as pp
@@ -173,7 +321,18 @@ from sklearn.linear_model import LinearRegression
 
 To estimate basic causal effects in Tigramite, all you need are a few additional packages alongside tigramite itself. Those include numpy, matplotlib, and sklearn.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금까지 잘 진행되고 있어요. 인과 추정을 시작하기 전에 먼저 우리의 인과 추론 노력의 결과를 비교할 수 있는 참값 데이터를 생성해봅시다.
 
@@ -183,11 +342,11 @@ To estimate basic causal effects in Tigramite, all you need are a few additional
 def lin_f(x): return x
 coeff = .5
 links_coeffs = {
-                0: [], 
-                1: [((0, 0), coeff, lin_f), ((5, 0), coeff, lin_f)], 
+                0: [],
+                1: [((0, 0), coeff, lin_f), ((5, 0), coeff, lin_f)],
                 2: [((1, 0), coeff, lin_f), ((5, 0), coeff, lin_f)],
                 3: [((1, 0), coeff, lin_f), ((2, 0), coeff, lin_f), ((6, 0), coeff, lin_f), ((7, 0), coeff, lin_f)],
-                4: [((5, 0), coeff, lin_f), ((7, 0), coeff, lin_f)], 
+                4: [((5, 0), coeff, lin_f), ((7, 0), coeff, lin_f)],
                 5: [],
                 6: [],
                 7: [],
@@ -201,12 +360,23 @@ dataframe = pp.DataFrame(data)
 
 우리는 인과 효과를 추정하기 위해 개입을 평가해야하기 때문에 x1=x2=0으로 두 가지 개입 데이터도 생성합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 intervention2 = 0.*np.ones(T)
 intervention_data2, nonstat = toys.structural_causal_process(links_coeffs, T=T, noises=None, seed=7,
-                                            intervention={X[0][0]:intervention2, X[1][0]:intervention2}, 
+                                            intervention={X[0][0]:intervention2, X[1][0]:intervention2},
                                             intervention_type='hard',)
 # Time series no 7 is unobserved confounder
 intervention_data2 = intervention_data2[:, [0,1,2,3,4,5,6]]
@@ -219,10 +389,10 @@ tp.plot_timeseries(pp.DataFrame(intervention_data2)); plt.show()
 T = 10000
 intervention1 = np.ones(T)
 intervention_data1, nonstat = toys.structural_causal_process(
-                                       links_coeffs, T=T, 
-                                       noises=None, 
+                                       links_coeffs, T=T,
+                                       noises=None,
                                        seed=7,
-                                       intervention={X[0][0]:intervention1, X[1][0]:intervention1}, 
+                                       intervention={X[0][0]:intervention1, X[1][0]:intervention1},
                                        intervention_type='hard',)
 
 # Time series no 7 is unobserved confounder
@@ -232,8 +402,18 @@ tp.plot_timeseries(pp.DataFrame(intervention_data1)); plt.show()
 
 자, 이제 필요한 데이터가 준비되었습니다. 효과를 추정해 보겠습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 진정한 평균 처리 효과는 두 가지 서로 다른 데이터 프레임의 Y 값 차이의 평균입니다. 저희는 세 줄의 코드를 사용하여 계산하여 원인 효과 0.75가 나왔어요.
 
@@ -246,7 +426,18 @@ print("True effect = %.2f" % true_effect)
 
 Tigramite의 CausalEffects 클래스를 사용하여 인과 효과 측정을 수행하려면 다음과 같은 인수를 지정해야해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 그래프는 dtype='`U3`'의 문자열 배열로, 그래프 유형에 따라 다른 모양을 갖습니다:
 - graph_type='dag'는 그래프가 (N, N) 형태인 논-시계열 DAG를 나타내며, 여기서 N은 노드 수를 나타냅니다. 엣지는 들어오는 엣지를 나타내는 ← 또는 나가는 엣지를 나타내는 →가 될 수 있습니다.
@@ -265,11 +456,22 @@ graph = np.array([['', '-->', '', '', '', '', ''],
                   ['', '', '', '<->', '', '<--', ''],
                   ['', '-->', '-->', '', '-->', '', ''],
                   ['', '', '', '-->', '', '', '']], dtype='<U3')
-``` 
+```
 
 이 결과는 다음과 같은 그래프를 얻게 됩니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 tp.plot_graph(graph=그래프,
@@ -281,11 +483,11 @@ plt.show()
 
 ![이미지](/assets/img/2024-07-08-Hands-onCausalEffectEstimationwithPython_14.png)
 
-그래프, 그래프_타입, 그리고 숨겨진_변수가 정의된 후에 Tigramite의 CausalEffects 함수를 실행할 수 있습니다 (참고: 생성된 데이터는 아직 필요하지 않음).
+그래프, 그래프*타입, 그리고 숨겨진*변수가 정의된 후에 Tigramite의 CausalEffects 함수를 실행할 수 있습니다 (참고: 생성된 데이터는 아직 필요하지 않음).
 
 ```python
 # 위 배열에서의 위치 지정: X_1 = 첫 번째 하위 배열; X_2 = 두 번째 하위 배열
-X = [(0,0), (1,0)] 
+X = [(0,0), (1,0)]
 Y = [(3,0)]
 
 # CausalEffects 실행
@@ -295,7 +497,18 @@ causal_effects = CausalEffects(graph, graph_type='admg', X=X, Y=Y, S=None, hidde
 var_names = ['$X_1$', '$X_2$', '$M$', '$Y$', '$Z_1$', '$Z_2$', '$Z_3$']
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 이후에 get_optimal_set() 함수를 사용하여 결과적인 CausalEffects 객체를 얻을 수 있습니다. (참고: 우리는 어떤 조정 집합이 아니라, 최적의 조정 집합을 사용합니다. 즉, 노출과 결과 사이의 모든 역문 경로를 막아 최소의 점근적 평가자 분산을 초래하는 공변량 집합).
 
@@ -308,16 +521,27 @@ print("Oset = ", [(var_names[v[0]], v[1]) for v in opt])
 
 그래서 이 경우, 최적의 조정 집합은 Z3, Z2 그리고 Z1로 구성되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 우리는 최적 조정 세트를 활용한 시각적 일반화된 백도어 조정 기준을 사용하여 평균 처리 효과를 추정합니다. 이를 위해 fit_total_effect 및 predict_total_effect 함수를 사용합니다. 기본적으로 우리는 지정된 최적 조정 세트로 인과 효과 객체를 가져와서 (예: sklearn estimators) 추정기를 선택하고, 이론적 설명에서 정의한 유효한 조정 로직에 따라 DataFrame에 맞추게 됩니다. 따라서 귀하가 원하는 모델을 선택할 수 있습니다. 물론, 예상하는 함수 종속성의 종류에 따라 일부 추정기가 다른 것보다 유용할 수 있습니다. 예를 들어, 고도로 중첩된 인공신경망(ANNs)을 사용하여 매핑 함수의 복잡성을 임의로 증가시킬 수 있습니다. 이 단계에서는 편향과 분산을 균형있게 유지하는 것이 올바른 추정기를 선택하는 데 필수적입니다. 다행히도 통계/머신러닝 분야는 우리가 이 결정을 내릴 수 있도록 도와주는 방대한 문헌과 방법을 제공했습니다. 선형 회귀로 꽤 간단하게 시작하는 것이 최악의 생각이 아닐 수 있습니다:
 
 ```python
 causal_effects.fit_total_effect(
-        dataframe=dataframe, 
+        dataframe=dataframe,
         estimator=LinearRegression(),
         adjustment_set='optimal',
-        conditional_estimator=None,  
+        conditional_estimator=None,
         data_transform=None,
         mask_type=None,
         )
@@ -329,7 +553,18 @@ causal_effects.fit_total_effect(
 - intervention_data는 (1, len(X)) 모양의 개입 데이터로, 단일 값 X=x의 개입을 예측하거나 (T_x, len(X)) 모양의 개입으로 양 T_x 길이의 값 범위의 효과를 예측합니다.
 - conditions_data는 조건부 인과 효과를 추정하는 데 사용되며 여기서 더 이상 다루지 않습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다시 말해, X = 1 및 X = 0으로 설정하여 각각 0과 1의 배열을 생성하여 intervention_data를 만듭니다. 그런 다음 이를 인과 효과 모델에 입력으로 제공하여 이 개입값을 기반으로 한 y의 예상 값을 얻습니다.
 
@@ -350,7 +585,18 @@ beta = (y1 - y2)
 print("Causal effect = %.2f" % (beta))
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 원인 효과의 예상치가 있습니다:
 
@@ -360,7 +606,7 @@ print("Causal effect = %.2f" % (beta))
 
 ```python
 intervention_data = np.tile(np.linspace(-2, 2, 20).reshape(20, 1), (1, 2))
-estimated_causal_effects = causal_effects.predict_total_effect( 
+estimated_causal_effects = causal_effects.predict_total_effect(
         intervention_data=intervention_data,
 #         conditions_data=conditions_data,
         )
@@ -375,7 +621,18 @@ plt.show()
 
 이렇게 추가 분석을 통해 더 많은 진전을 이룰 수 있습니다. 좋은 작업하셨어요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Hands-on Causal Effect Estimation with Python](/assets/img/2024-07-08-Hands-onCausalEffectEstimationwithPython_16.png)
 
@@ -385,7 +642,18 @@ plt.show()
 
 오, 기쁜 날! 단순히 데이터에서 패턴을 학습하는 평범한 알고리즘 대신 더 신중한 방식을 택하여, 인과 추론에 기반을 둔 머신 러닝 모델을 만들었습니다. 특히 이전 글들을 모두 따라오셨다면, 이것은 통계적 학습과 인과 추론 사이의 경계에서 발전하는 이 분야의 연구를 탐구하기 위한 필수적인 기본 지식을 습득한 것입니다. 당신이 한 일은 당신의 기술 세트에 가치 있는 자산을 추가한 것입니다. 데이터를 통해 단순한 패턴을 배우는 대신, 더 견고하고 통찰력 있는 모델로 이어지는 더 신중한 방법을 선택했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 여정에서 함께 해 주셔서 감사드리며, 앞으로 이 플랫폼에 게시할 최신 방법들을 살펴보시고 머무르시기를 바랍니다.
 
@@ -395,6 +663,17 @@ plt.show()
 
 Kenneth Styppa는 독일 항공우주 연구소 데이터 과학 연구소의 인과 추론 그룹 소속이다. UC 버클리 및 제플린 대학에서 정보 시스템 및 기업가 정신 배경을 쌓았으며, 기계 학습과 관련된 창업 및 연구 프로젝트에 참여했다. Jakob과 협력하며 BMW, QuantumBlack와 같은 기업에서 데이터 과학자로 일한 Kenneth는 현재 하이델베르크 대학에서 응용 수학 및 컴퓨터 과학 석사 학위를 취득 중이다. 더 많은 정보: [Kenneth Styppa LinkedIn](https://www.linkedin.com/in/kenneth-styppa-546779159/)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **Jakob Runge** 교수님은 **드레스덴 공대**의 데이터 과학 교수입니다. 그의 인과 추론 그룹은 지구 시스템 과학 및 다른 많은 분야에 응용 가능한 인과 추론 이론, 방법 및 쉽게 접근 가능한 도구를 개발하고 있습니다. Jakob은 **훔볼트 대학 베를린**에서 물리학 박사 학위를 받았으며 인과 추론의 여정은 **포츠담 기후 변화 연구소**에서 시작되었습니다. 이 그룹의 방법은 **https://github.com/jakobrunge/tigramite.git**에서 공개되어 있습니다. 그룹에 대해 더 알고 싶다면 **www.climateinformaticslab.com**을 방문해주세요.

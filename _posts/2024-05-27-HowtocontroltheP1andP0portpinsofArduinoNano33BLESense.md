@@ -3,7 +3,7 @@ title: "아두이노 나노 33 BLE Sense의 P1 및 P0 포트 핀을 제어하는
 description: ""
 coverImage: "/assets/img/2024-05-27-HowtocontroltheP1andP0portpinsofArduinoNano33BLESense_0.png"
 date: 2024-05-27 13:42
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-HowtocontroltheP1andP0portpinsofArduinoNano33BLESense_0.png
 tag: Tech
 originalTitle: "How to control the P1 and P0 port pins of Arduino Nano 33 BLE Sense"
@@ -11,17 +11,24 @@ link: "https://medium.com/@samueladesola/how-to-control-the-p1-and-p0-port-pins-
 isUpdated: true
 ---
 
-
-
-
 안녕하세요! 이 간단한 안내서에 오신 것을 환영합니다. 바로 시작해 봅시다. 기존의 아두이노 보드인 UNO, 나노 등은 핀 번호매기기를 기준으로 배치되어 있습니다. 디지털 및 아날로그 핀을 쉽게 다룰 수 있으며 아두이노 스케치에서 GPIO 핀을 쉽게 다룰 수 있어요. 매핑(mapping)이나 핀 가용성에 대해 걱정할 필요가 없습니다.
 
 아두이노 나노 33 BLE Sense가 등장하면서 함께 공부해야할 것이 몇 가지 있습니다. 첫째, 이 보드는 마이크로컨트롤러 nrf52840을 사용하며 다양한 핀(약 48핀)을 가지고 있습니다. 우리는 이 중에서 아두이노 나노 33 BLE Sense가 지원하는 핀들을 제어할 수 있습니다. 둘째, 이 보드에는 Port 0 및 Port 1과 같이 두 가지 포트 핀이 있습니다. 마지막으로, 이 보드를 프로그래밍하는 두 가지 방법이 있습니다: 전통적인 아두이노 방법 또는 Real-Time Operating System (RTOS)을 사용하는 방법입니다. 이 방법이 더 나은 방법이며 권장되는 방법입니다.
 
 이제 아래 다이어그램을 살펴보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Arduino Nano 33 BLE Sense Pinout](/assets/img/2024-05-27-HowtocontroltheP1andP0portpinsofArduinoNano33BLESense_1.png)
 
@@ -44,7 +51,18 @@ void loop(){
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 대화는 기본적으로 일을 처리하는 간단한 방법이긴 하지만, Nano 33 BLE Sense 보드에는 권장되지 않습니다. 따라서 RTOS의 방식을 따라야 합니다. 현재 발생한 문제는 mbed.h 헤더 파일을 통해 RTOS를 사용하여 보드를 프로그래밍할 때 Arduino 핀 번호를 사용할 수 없다는 것입니다. 그렇다면 핀 번호를 어떻게 얻을까요? 위에서 언급한 도표로 돌아가 보겠습니다. P0.13 형태의 0번 포트 핀과 P1.02 형태의 1번 포트 핀을 사용할 것입니다.
 
@@ -54,7 +72,18 @@ void loop(){
 
 다시 말씀드리면:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 P1.14 = 32 \* 1 + 14 = 46 = p46;
 
@@ -82,7 +111,18 @@ myLed = 1;
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그게 다에요. 올바른 계산만 하면 Nano 33 BLE Sense 보드의 모든 GPIO 핀을 제어할 수 있어요.
 

@@ -3,17 +3,13 @@ title: "Dart 35에서 매크로 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-03-DeepdiveintowritingmacrosinDart35_0.png"
 date: 2024-08-03 20:31
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-03-DeepdiveintowritingmacrosinDart35_0.png
 tag: Tech
 originalTitle: "Deep dive into writing macros in Dart 35"
 link: "https://medium.com/@alexey.inkin/deep-dive-into-writing-macros-in-dart-3-5-a1dd50914a7d"
 isUpdated: true
 ---
-
-
-
-
 
 한 달 동안 전업으로 마크로를 만지작거리며 보냈는데, 여기서 빠르게 시작할 수 있는 모든 것이 있어요.
 
@@ -23,9 +19,20 @@ isUpdated: true
 
 이것은 첫 번째 부분을 읽었다는 것을 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-경고: 이 전체 Dart 기능은 현재 미리보기 상태이며 성숙 단계에 이르기 전에 많은 변경사항이 있을 것입니다. 기다리기만 하기에는 너무 재미있었어요. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+경고: 이 전체 Dart 기능은 현재 미리보기 상태이며 성숙 단계에 이르기 전에 많은 변경사항이 있을 것입니다. 기다리기만 하기에는 너무 재미있었어요.
 
 # 시작할 코드 선택
 
@@ -33,11 +40,33 @@ isUpdated: true
 
 우리의 경우, 다음 클래스에 매크로를 적용하고 싶습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Markdown 형식으로 테이블 태그를 변경해 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 매크로 적용 단계
 
@@ -47,7 +76,18 @@ Markdown 형식으로 테이블 태그를 변경해 보겠습니다.
 
 이것이 첫 번째 단계입니다. 이 단계에서 매크로는 클래스, 믹스인, 열거형, typedef 등 새로운 형식을 소개하는 코드를 생성할 수 있습니다. 이 단계에서 매크로는 프로그램의 다른 형식을 볼 수 있지만, 검사할 수는 없습니다. 왜냐하면 다른 매크로에 의해 생성된 다른 형식에 의해 그 형식이 가려질 수 있기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 선언 단계
 
@@ -59,7 +99,18 @@ final a = b;
 
 만약 다른 매크로가 b라는 이름의 게터를 소개하면 여전히 b가 가려질 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 정의 단계
 
@@ -69,7 +120,18 @@ final a = b;
 
 매크로는 어떤 단계에서 실행하려는지 결정할 수 있습니다. 이를 위해 미리 정의된 인터페이스 중 하나 이상을 구현함으로써 수행합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 및 인터페이스 선택
 
@@ -85,7 +147,18 @@ class HelloArgs {
 
 이 클래스를 생성해야 합니다. HelloArgsParser로 ArgParser 객체를 표준 args 패키지에서 생성하고 각 필드에 대해 옵션을 생성해야합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이는 매크로가 3개의 가능한 단계 중 2개에서 실행되어야 함을 의미합니다:
 
@@ -114,7 +187,18 @@ macro class Args implements ClassTypesMacro, ClassDeclarationsMacro {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 세 번째 단계를 위한 인터페이스는 ClassDefinitionsMacro라고 하며, 지금은 필요하지 않습니다.
 
@@ -125,7 +209,18 @@ macro class Args implements ClassTypesMacro, ClassDeclarationsMacro {
 - 매크로가 적용된 클래스의 선언.
 - 해당 단계에 대한 빌더 객체로, 프로그램을 검사하고 수정하는 방법입니다. 이것이 단계의 가시성과 권한이 부여되는 방식입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 프로그래밍 방식으로 클래스 생성하기
 
@@ -154,7 +249,18 @@ String _getParserName(ClassDeclaration clazz) {
 
 처음에는 이 클래스를 비어있는 상태로 만듭니다. 여기서 메서드와 속성을 생성할 수는 있지만, 우리는 두 번째 단계에서만 알 수 있는 데이터에 크게 의존하므로, 한 곳에서 모든 메서드를 생성하는 것이 더 타당합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 클래스 확장
 
@@ -177,7 +283,18 @@ Future<void> buildDeclarationsForClass(
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자기 성찰은 긴 이야기에요. 우선, intr 변수에 필요한 필드 정보가 모두 있는 것으로 가정하고 다른 것들을 설정해 보죠.
 
@@ -187,7 +304,18 @@ Future<void> buildDeclarationsForClass(
 
 저는 그것을 처리하고 많은 특별한 경우를 신경 써주는 @Constructor() 매크로를 만들었어요. Args 매크로에서는 이것만 하면 돼요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 미래<void> _declareConstructor(
@@ -202,9 +330,20 @@ Future<void> buildDeclarationsForClass(
 
 # 반복 작업 설정
 
-필드를 둘 이상 반복해야합니다:  
+필드를 둘 이상 반복해야합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 각 필드마다 표준 ArgParser에 옵션을 추가합니다.
 - 옵션에 대한 구문 분석된 값으로 데이터 개체를 구성합니다.
@@ -220,7 +359,18 @@ abstract class ArgumentVisitor<R> {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 두 가지 타입에 대한 두 클래스에 대한 매크로드를 사용해주세요:
 
@@ -256,7 +406,18 @@ class IntArgument extends Argument {
 
 ## 자기 설명을 돕는 도우미 객체 구축
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 여러 가지 정보를 수집해야 합니다: 데이터 클래스의 필드, 코드를 생성할 때 사용할 표준 식별자 등등에 관한 정보입니다.
 
@@ -282,7 +443,18 @@ Future<IntrospectionData> _introspect(
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 클래스의 모든 필드를 검사하는 것으로 시작됩니다. 이 일을 제대로 처리하는 데는 많은 작업이 필요합니다. 이 작업은 일반적이고 지루해서 macro_util 패키지로 이 작업을 추출했습니다. args macro에서는 다음과 같이 한 줄만 필요하며 각 필드에 대한 자세한 정보를 얻을 수 있습니다:
 
@@ -294,7 +466,18 @@ final fields = await builder.introspectFields(clazz);
 
 ## 필드 반복하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 ClassDeclaration이 있으면 다음과 같이 필드를 반복할 수 있습니다:
 
@@ -310,7 +493,18 @@ for (final field in fields) {
 
 이 클래스는 빌더에서 제공한 필드에 대한 정보를 포함합니다. 일반적으로 필드가 선언된 정보를 모두 가지고 있습니다. hasConst, hasFinal, hasStatic, hasInitializer 등과 같은 속성들이 있습니다. 우리에게 가장 중요한 것은 TypeAnnotation 객체를 반환하는 type 속성입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## TypeAnnotation
 
@@ -320,7 +514,18 @@ Foo foo;와 같은 필드를 분석할 때에는 Foo에 대한 참조를 가지�
 
 var a = 1;와 같은 필드를 분석할 때에는 유용하지 않지만 세 번째 단계에 있을 때 유형을 추론할 수 있는 핸들인 OmittedTypeAnnotation이 반환됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "final (a, b) = getRecord();"와 같은 특이한 선언을 위한 여러 하위 클래스가 많이 있지만, 우리는 신경 쓰지 않습니다.
 
@@ -328,10 +533,21 @@ var a = 1;와 같은 필드를 분석할 때에는 유용하지 않지만 세 �
 
 ## NamedTypeAnnotation
 
-NamedTypeAnnotation이 TypeAnnotation에 추가하는 가장 중요한 요소는 식별자 속성입니다. 
+NamedTypeAnnotation이 TypeAnnotation에 추가하는 가장 중요한 요소는 식별자 속성입니다.
 Foo foo;와 같은 선언에 대해 Identifier 객체를 반환합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 식별자
 
@@ -341,7 +557,18 @@ Foo foo; 라는 선언에서, namedTypeAnnotation.identifier는 "Foo"이며, 이
 
 print(); 와 같은 코드의 경우, 먼저 나오는 것은 함수를 가리키는 print 식별자입니다. 이는 코어 라이브러리의 함수를 참조합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 신원자가 무엇인지 알고 계시네요.
 
@@ -351,7 +578,18 @@ typedef가 관련된 경우에는 더 많은 내용이 있고, 나중에 지원�
 
 ![이미지](/assets/img/2024-08-03-DeepdiveintowritingmacrosinDart35_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다시 한번, macro_util 패키지가 이 작업을 대신해줍니다.
 
@@ -361,7 +599,18 @@ typedef가 관련된 경우에는 더 많은 내용이 있고, 나중에 지원�
 
 여기서는 더 많은 것을 해야 합니다. 생성된 코드는 ArgParser, List, String 및 int 클래스를 참조해야 합니다. 모든 이러한 식별자를 하나의 구조체에 그룹화하는 것이 가장 쉽습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 class Libraries {
@@ -413,8 +662,18 @@ class ResolvedIdentifiers {
 
 <img src="/assets/img/2024-08-03-DeepdiveintowritingmacrosinDart35_1.png" />
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래! 지금 배우고 있는 내용을 적용해서 지금 하는 일을 간단하게 만들어 봅시다!
 
@@ -438,7 +697,18 @@ final ids = ResolvedIdentifiers.resolve(builder);
 
 이것은 같은 macro_util 패키지에 있어요. 하지만 문제가 있어요. int, List, String 같은 코어 타입에 대한 사전은 만들 수 있지만, ArgParser와 같은 사용자 정의 패키지의 경우에는 명시적인 패키지 링크와 매크로가 아직 필드에 적용된 주석을 읽을 수 없어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요즘은 단순한 것들에 @ResolveIdentifiers() 매크로를 사용할 수는 있지만, 지금은 사용할 수 없어요. 우리는 ResolvedIdentifiers 클래스의 전체 중복 코드로 돌아가야 해요. 하지만 미래에는 훨씬 간단해질 거라 다행이에요.
 
@@ -486,7 +756,18 @@ Argument _fieldToArgument(
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 파서 확장
 
@@ -515,13 +796,24 @@ void _augmentParser(
 
 여기에는 나중에 생성된 코드에 연결될 코드 부품 목록을 반환하는 몇 가지 메서드가 있습니다. 첫 번째 글에서 기억하시죠? 코드 부분은 문자열 리터럴과 식별자의 혼합입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 우리는 곧 채울 표준 구문 분석기의 인스턴스를 보유할 **parser** 공개 필드를 선언합니다. 그리고나서 더 흥미로운 내용들이 있어요.
 
 ## 구문 분석기의 옵션으로 채우기
 
-**AddOptionsGenerator**는 인수에 대한 방문자입니다. **_addOptions()** 메서드를 생성하는 비공개 `_addOptions()` 메서드를 만듭니다:
+**AddOptionsGenerator**는 인수에 대한 방문자입니다. **\_addOptions()** 메서드를 생성하는 비공개 `_addOptions()` 메서드를 만듭니다:
 
 ```js
 List<Object> _getConstructor(ClassDeclaration clazz) {
@@ -570,13 +862,24 @@ class AddOptionsGenerator extends ArgumentVisitor<List<Object>> {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 _table_ 태그를 Markdown 형식으로 변경하십시오.
 
 ## 파싱된 데이터로 데이터 클래스 채우기
 
-이 _addOptions() 메서드는 이 파서 클래스의 생성자에서 호출됩니다.
+이 \_addOptions() 메서드는 이 파서 클래스의 생성자에서 호출됩니다.
 
 이것이 ParseGenerator 클래스가 수행하는 것입니다, 또 다른 인수 방문자:
 
@@ -624,7 +927,18 @@ class ParseGenerator extends ArgumentVisitor<List<Object>> {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 마크로를 사용할 수 있어요!
 
@@ -651,7 +965,18 @@ void main(List<String> argv) {
 
 그리고 실행해보세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 $ dart run --enable-experiment=macros lib/main.dart --name=Alexey --count=3
@@ -666,7 +991,18 @@ Hello, Alexey!
 
 우리의 매크로는 성공적인 시나리오만 처리하며, 뭔가를 좋아하지 않는다면 암호화된 오류를 발생시킵니다. 지원하지 않는 유형의 필드를 데이터 클래스에 추가해보세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @Args()
@@ -680,10 +1016,20 @@ class HelloArgs {
 매크로의 작동 원리가 사용자에게 전혀 알려져 있지 않기 때문에 매끄럽게 실패하는 것이 중요합니다. 이를 위해 두 가지 습관이 필요합니다:
 
 - 매크로에서 예외를 throw하지 말고 대신 컴파일러 진단 메시지를 보고합니다.
-- 오류를 보고할 때도 구문적으로 정확한 코드를 생성하여 부차적인 오류를 피합니다. 
+- 오류를 보고할 때도 구문적으로 정확한 코드를 생성하여 부차적인 오류를 피합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 컴파일러 진단 메시지 보고
 
@@ -703,7 +1049,18 @@ builder.report(
 
 이는 컴파일을 중단시키고 사용자에게 메시지를 보여줍니다. 내장 컴파일러 오류와 비슷하게 보입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 $ dart run --enable-experiment=macros lib/min.dart --name=Alexey --count=3
@@ -726,12 +1083,23 @@ builder.reportError(
 
 ## 우리가 다루고 싶은 사례들
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 지원되지 않는 유형에 대한 오류 표시.
 - 생략된 유형에 대한 오류 표시.
 - int 및 String을 가리는 클래스 필드에 대한 오류 표시.
-- _private 필드에 대한 오류 표시.
+- \_private 필드에 대한 오류 표시.
 - 초기화기가 있는 필드에 대한 오류 표시.
 
 이와 같은 모든 사항을 처리하는 향상된 버전은 여기에 있습니다. 변경된 내용을 확인하기 위해 이 두 브랜치를 diff해보는 것을 제안합니다:
@@ -740,7 +1108,18 @@ builder.reportError(
 
 변경사항을 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 지원되지 않는 유형에 대한 오류 음소거
 
@@ -752,7 +1131,18 @@ builder.reportError(
 static var _silenceUninitializedError;
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 동적으로 생성되는 형식이므로 컴파일 오류 없이 모든 생성자 매개변수로 전달할 수 있습니다. 실행하면 오류가 발생할 것이지만, 실행되지 않습니다. 왜냐하면 잘못된 필드에 대해 실행을 방지하는 오류 진단이 생성되기 때문입니다.
 
@@ -762,7 +1152,18 @@ dynamic 대신에 null 같은 값을 전달할 수도 있지만, 이는 동적 �
 
 ![image](/assets/img/2024-08-03-DeepdiveintowritingmacrosinDart35_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 class InvalidTypeArgument extends Argument {
@@ -794,7 +1195,18 @@ class AddOptionsGenerator extends ArgumentVisitor<List<Object>> {
 
 데이터 객체를 구성할 때는 이러한 필드에 저그러한 서언자를 전달해줍니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 class ParseGenerator extends ArgumentVisitor<List<Object>> {
@@ -875,8 +1287,18 @@ Argument _fieldToArgument(
 
 이 코드는 비공개 필드를 제외한 모든 에러를 공손하게 처리합니다. 곧 비공개 필드에 대해 설명하겠습니다. 그 전에 방금 사용한 유형 선언에 대한 간략한 투어를 진행하겠습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 필드의 TypeDeclaration 확인하기
 
@@ -893,7 +1315,18 @@ class HelloArgs {
 
 이는 타입의 이름만 확인하는 것으로 충분하지 않다는 것을 의미합니다. 라이브러리를 알아봐야 합니다. dart:core라면 괜찮지만, 그 외의 경우에는 오류를 표시해야 합니다. 위의 코드는 macro_util 패키지가 그 작업을 대신합니다. 어떻게 하는지 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금까지 타입에 대한 메모를 기억하고 계신가요? 관련 정보가 더 있어요:
 
@@ -903,12 +1336,21 @@ class HelloArgs {
 
 '문자열' 또는 '정수'를 포함하고 있던 식별자에 대해 기억하시나요? 그 이름만을 담고 있던 것이 아니라, 해당 라이브러리에서 선언된 실제 타입 선언을 끌어올 수 있는 핸들이기도 했어요. 그 타입 선언을 가져오는 방법은 다음과 같아요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-const typeDecl = await builder.typeDeclarationOf(
-  namedTypeAnnotation.identifier,
-);
+const typeDecl = await builder.typeDeclarationOf(namedTypeAnnotation.identifier);
 ```
 
 이것은 TypeDeclaration을 반환합니다. TypeAnnotation과는 달리 이것은 단순히 핸들(handle)이 아니라 라이브러리에서 선언된 실제 타입입니다. 이 클래스는 추상 클래스이며, 타입에 따라 하위 클래스를 얻을 수 있습니다.
@@ -917,8 +1359,18 @@ const typeDecl = await builder.typeDeclarationOf(
 
 저희에게 도움이 되는 또 다른 하위 클래스는 EnumDeclaration입니다. 필드에 대해 enums를 지원하고 사용자가 명령행 옵션에 대해 고정된 집합에서만 값을 제공할 수 있도록 하려고 합니다. 하지만 enums는 복잡하니 우선 단순한 유형들이 작동하도록 해봅시다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 typedef에 대한 TypeAliasDeclaration도 얻을 수 있습니다. 이 경우에는 별칭이 지정된 타입을 살펴보고 여전히 지원하는 타입에 도달할 수 있기 때문에 프로세스를 반복해야 합니다. 디별리징 전체 프로세스는 다음과 같습니다:
 
@@ -941,7 +1393,18 @@ while (typeDecl is TypeAliasDeclaration) {
 
 ## 라이브러리
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 TypeDeclaration 이 있는 경우, 해당 선언이로드된 라이브러리에 링크됩니다. 이것이 내장 int 와 사용자 정의 그림자 int를 구분할 수 있는 방법입니다.
 
@@ -951,7 +1414,18 @@ TypeDeclaration 이 있는 경우, 해당 선언이로드된 라이브러리에 
 
 # 개인 필드 처리
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 데이터 클래스에 private 필드가 있는 경우 어떻게 될까요?
 
@@ -966,7 +1440,18 @@ Dart에서는 함수에 대한 명명된 매개변수가 언더스코어로 시�
 
 데이터 클래스에 private 필드를 사용하는 것은 의미가 없으므로 해당 필드에 대한 오류를 표시해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 이러한 필드에 대한 InvalidTypeArgument를 생성하고 진단을 표시해야 합니다:
 
@@ -1038,19 +1523,41 @@ class ParseGenerator extends ArgumentVisitor<List<Object>> {
   }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서는 편리한 getter를 사용합니다.
 FieldIntrospectionData.constructorHandling
 
 이는 두 가지 중 하나입니다:
 
-- 필드가 언더스코어(_)로 시작하여 생성자의 위치 매개변수로만 사용될 수 있는 경우 positional입니다.
+- 필드가 언더스코어(\_)로 시작하여 생성자의 위치 매개변수로만 사용될 수 있는 경우 positional입니다.
 - 그렇지 않은 경우 namedOrPositional입니다.
 
 이 변경으로 매크로는 모든 오류를 안정하게 처리할 수 있게 되었습니다. 자체 진단만을 보고 다른 컴파일 오류를 보고하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 리스트 지원 및 유형 매개변수 검사
 
@@ -1060,8 +1567,18 @@ FieldIntrospectionData.constructorHandling
 
 해당 기능을 구현한 전체 코드는 여기에 있습니다. 변경된 내용을 확인하려면 이전 브랜치와 비교해보세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-08-03-DeepdiveintowritingmacrosinDart35_6.png)
 
@@ -1071,8 +1588,18 @@ FieldIntrospectionData.constructorHandling
 
 타입 인수를 얻으면 별칭 해제 및 타입 검사 프로세스를 실행하고 작업을 마칩니다:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 Future<Argument> _fieldToArgument(
@@ -1156,7 +1683,18 @@ class HelloArgs {
 enum Fruit { apple, banana, mango, orange }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 필드를 자세히 살펴보면 ClassDeclaration 대신 EnumDeclaration이 반환되어야 합니다. 그러나 현재 구현되어 있지 않습니다. 여전히 ClassDeclaration이 반환됩니다. Dart 팀이 해당 부분을 구현할 때까지 기다리거나 제가 한 것처럼 해결책을 사용해야 합니다.
 
@@ -1166,7 +1704,18 @@ enum Fruit { apple, banana, mango, orange }
 
 ![이미지](/assets/img/2024-08-03-DeepdiveintowritingmacrosinDart35_7.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## StaticType
 
@@ -1184,7 +1733,18 @@ if (await staticType.isSubtypeOf(enumStaticType)) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 아이디어를 이해했으니 enums를 지원하는 버전을 살펴보세요. 이전 버전과 비교해 변경 사항을 확인하세요:
 
@@ -1194,9 +1754,20 @@ if (await staticType.isSubtypeOf(enumStaticType)) {
 
 ## 정적 유형 해결
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-`macro_utils` 패키지는 각 필드에 대해 StaticType 객체를 해결하는 작업을 처리합니다. Enum 클래스에 대해 다른 필드와 비교하기 위해 해당 객체를 해결해야 합니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+`macro_utils` 패키지는 각 필드에 대해 StaticType 객체를 해결하는 작업을 처리합니다. Enum 클래스에 대해 다른 필드와 비교하기 위해 해당 객체를 해결해야 합니다.
 
 우리는 ResolvedIdentifiers 클래스와 동일한 접근 방식을 취합니다. 이 클래스에는 매크로가 필요로 할 모든 식별자가 포함되어 있습니다. 우리는 하나의 정적 타입만 가지고 있지만, 이 클래스에 정적 타입을 저장합니다:
 
@@ -1227,7 +1798,18 @@ class StaticTypes {
 
 이 객체를 최상위 내부 검사 데이터 클래스에 추가합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 class IntrospectionData {
@@ -1279,7 +1861,18 @@ Future<IntrospectionData> _introspect(
 
 ## 열거형 인수 생성하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비핵심 타입의 필드를 발견하면 이제 열거형일 수도 있으므로 해당 사항을 확인하세요:
 
@@ -1336,7 +1929,18 @@ Future<Argument> _fieldToArgument(
 
 위 코드에서 빌더의 확장 메서드를 사용했습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 class EnumIntrospectionData {
@@ -1394,8 +1998,18 @@ extension EnumIntrospectionExtension on DeclarationBuilder {
 
 어쨌든, EnumIntrospectionData 객체를 얻어서 EnumArgument에 전달합니다:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 class EnumArgument extends ResolvedTypeArgument {
@@ -1440,8 +2054,18 @@ class AddOptionsGenerator extends ArgumentVisitor<List<Object>> {
 
 데이터 구문 분석하기는 쉽습니다:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 class ParseGenerator extends ArgumentVisitor<List<Object>> {
@@ -1468,8 +2092,18 @@ IterableEnumArgument에 대해서도 크게 달라진 것이 없습니다.
 
 우리는 인자에 대한 기본값을 지원하기를 원합니다. 이를 표현하는 좋은 방법 중 하나는 기본값이 있는 필드입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @Args()
@@ -1492,8 +2126,18 @@ augment class HelloArgs {
 
 그러나 작성 시점에서 아직 이것이 구현되지 않았으므로 초기화자를 확장할 수 없습니다. 따라서 적절한 해결책을 기다리는 대신에 다시 한 번 해결책을 사용하겠습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로 좋은 방법은 해당 필드에 대한 최종 값을 포기하고 필수 필드만을 포함하는 객체를 생성한 다음 기본값이 재정의된 필드를 덮어쓰는 것입니다.
 
@@ -1503,7 +2147,18 @@ augment class HelloArgs {
 
 그래서 해결책은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 기본값이 없는 필드만 있는 두 번째 생성자를 만듭니다.
 - 이 생성자를 사용하여 mock 객체를 만듭니다. 이때 초기화값이 있는 필드는 기본값을 유지합니다. 필요한 필드에는 더미 값이 들어가도록 합니다.
@@ -1515,7 +2170,18 @@ augment class HelloArgs {
 
 ![이미지](/assets/img/2024-08-03-DeepdiveintowritingmacrosinDart35_9.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 변경 사항을 살펴보겠습니다.
 
@@ -1536,7 +2202,18 @@ Future<void> _declareConstructors(
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const _constructorName = 'withDefaults';
@@ -1562,8 +2239,18 @@ class MockDataObjectGenerator {
 
 이 새로운 클래스를 세 번째 ArgumentVisitor로 변환해봅시다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /// 데이터 클래스의 인스턴스를 생성하는 코드를 생성합니다.
@@ -1665,8 +2352,18 @@ class MockDataObjectGenerator extends ArgumentVisitor<List<Object>>
 
 이후에 매크로에서 이것을 호출합니다:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 _void _augmentParser(
@@ -1722,7 +2419,18 @@ class AddOptionsGenerator extends ArgumentVisitor<List<Object>> {
   // ...
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러면 모든 구문 분석 방법은 null 값을 고려해야 합니다:
 
@@ -1752,7 +2460,18 @@ class ParseGenerator extends ArgumentVisitor<List<Object>>
 
 ## 더 나은 오류 진단
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 한 필드에 여러 오류를 갖을 수 있습니다. 예를 들어, 이 예시에서 많은 것이 잘못되었습니다:
 
@@ -1769,7 +2488,18 @@ class HelloArgs {
 - List는 이름이 지정된 옵션이 전달되지 않을 때에는 단순히 빈 상태이기 때문에 null일 수 없습니다.
 - List 유형 매개변수는 각 요소가 성공적으로 구문 분석되거나 실행이 중단될 수 있으므로 non-nullable이어야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째 오류에서 멈추면 사용자는 그것을 수정하기만 해서 또 다른 오류에 당황해하고, 그리고 또 다른 오류에 빠지게 됩니다. 그들은 오류가 무한하고 매크로가 미흡하며 요구사항이 예측할 수 없다고 생각할 것입니다. 그래서 매크로의 기술에는 모든 잘못된 것을 미리 보여주는 것이 포함되어야 합니다. 따라서 사용자가 코드를 수정하는 동안
 
@@ -1784,7 +2514,18 @@ class HelloArgs {
 
 이를 가능하게 하기 위해서는 다음을 해야 합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 인수를 구문 분석할 때 isValid 로컬 플래그를 만드세요.
 - 잘못된 점이 있을 때 진단을 보고하고 플래그를 false로 설정하세요.
@@ -1809,7 +2550,18 @@ if (field.hasInitializer && field.hasFinal) {
 
 좋은 매크로는 오류에 따라 복잡한 분기로 발전합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 도움말 지원 메시지
 
@@ -1828,14 +2580,24 @@ class HelloArgs {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 $ dart run --enable-experiment=macros lib/min.dart --help
 사용법: [인수]
-    --name (필수)    출력할 이름.
-    --count          (기본값: "1") 이름을 출력할 횟수.
--h, --help           이용 가능한 옵션을 출력합니다.
+--name (필수) 출력할 이름.
+--count (기본값: "1") 이름을 출력할 횟수.
+-h, --help 이용 가능한 옵션을 출력합니다.
 
 안타깝게도 매크로는 필드의 문서 주석을 읽을 수 없습니다. 이 기능 요청을 좋아하신다면 추천해주세요.
 
@@ -1852,7 +2614,18 @@ class HelloArgs {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아직 이렇게 주석이 있는 것이 아니지만, 앞으로는 옵션 이름을 덮어쓸 수 있고, 정수의 범위를 제한할 수 있는 등의 주석이 지원되어야 합니다.
 
@@ -1871,7 +2644,18 @@ class HelloArgs {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기는 이를 지원하는 버전입니다. 이전 버전과 비교해 보세요:
 
@@ -1882,7 +2666,18 @@ class HelloArgs {
 - 정적 필드를 무시합니다(이전 버전에서는 끊어진 상태였습니다).
 - 상수 필드의 이름을 코드에서 직접 참조합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 유형 추론
 
@@ -1898,7 +2693,18 @@ class HelloArgs {
 
 필드를 final로 만들 수 있는 보완 기능이 완전히 출시되면 더욱 유혹스러울 것입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @Args()
@@ -1913,15 +2719,26 @@ class HelloArgs {
 ```js
 builder.declareInLibrary(
   DeclarationCode.fromParts([
-    'augment class $parserName {',
+    "augment class $parserName {",
     // ...
-  ]),
+  ])
 );
 ```
 
 세 번째 단계에서는 매크로가 적용된 클래스의 메서드 본문과 필드 초기화자를 대체하는 데 제한됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 가지 접근 방식을 취할 수 있습니다:
 
@@ -1942,20 +2759,42 @@ void main(List<String> argv) {
 
 이것은 지금 당장 할 수 있지만, 여기에 혼재된 관심사가 마음에 들지 않습니다. 데이터 객체의 클라이언트는 생성한 구문 분석 메서드에 대한 액세스 권한을 갖지 않아야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 세 번째로 떠오른 아이디어가 있어요:  
-첫 번째 접근 방식을 사용하되 두 개의 매크로를 사용하고 같은 @Args 매크로를 재사용하여 파서 클래스에 적용될 때 다른 작업을 할 수 있게 해 보세요. 이 방법은 조금 복잡할 수 있지만 사용자에게 제공되는 API는 최대한 깔끔하게 유지할 수 있어요.  
+첫 번째 접근 방식을 사용하되 두 개의 매크로를 사용하고 같은 @Args 매크로를 재사용하여 파서 클래스에 적용될 때 다른 작업을 할 수 있게 해 보세요. 이 방법은 조금 복잡할 수 있지만 사용자에게 제공되는 API는 최대한 깔끔하게 유지할 수 있어요.
 
-아직 확실하지 않아서 최종 매크로 API가 어떻게 보일지 확인해봐야 해요. 현재는 이 문제를 해결하지 않고 사용자가 명시적인 유형을 지정하도록 강제할 거예요.  
+아직 확실하지 않아서 최종 매크로 API가 어떻게 보일지 확인해봐야 해요. 현재는 이 문제를 해결하지 않고 사용자가 명시적인 유형을 지정하도록 강제할 거예요.
 
-더 깔끔한 경우가 있고 유형을 추론하고 싶다면 다음과 같이 수행할 수 있어요:  
+더 깔끔한 경우가 있고 유형을 추론하고 싶다면 다음과 같이 수행할 수 있어요:
 
 ```js
 typeAnnotation = await builder.inferType(omittedTypeAnnotation);
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 매크로 테스트
 
@@ -1967,7 +2806,18 @@ typeAnnotation = await builder.inferType(omittedTypeAnnotation);
 - 매크로를 일반 객체로 인스턴스화하고 인터페이스 메서드를 호출합니다.
 - 인보케이션이 원하는 코드를 생성하기 위해 필요한 모든 빌더 메서드 호출에 결과가 나왔는지 확인합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 작업에는 많은 노력이 필요합니다. 가짜 빌더는 식별자, StaticType 등을 해결해야 합니다. 아마도 Dart 팀에서 테스트 스위트를 기다려서 간소화하는 것이 좋을 것 같습니다.
 
@@ -1979,7 +2829,18 @@ typeAnnotation = await builder.inferType(omittedTypeAnnotation);
 - 이들을 실행
 - 출력 및 오류 메시지 확인
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 args_macro 패키지의 주 브랜치를 확인해보세요. 거기서 테스트가 어떻게 만들어졌는지 살펴봅시다.
 
@@ -1989,7 +2850,18 @@ args_macro 패키지의 주 브랜치를 확인해보세요. 거기서 테스트
 
 ![diff](/assets/img/2024-08-03-DeepdiveintowritingmacrosinDart35_11.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 테스트는 args_macro_test.dart에 있습니다.
 
@@ -1999,7 +2871,18 @@ args_macro 패키지의 주 브랜치를 확인해보세요. 거기서 테스트
 
 main.dart는 모든 기능과 패키지가 지원하는 30가지 다른 인수를 포함하는 아주 긴 파일입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 명령줄 인수가 잘못 설정되면 성공적으로 실행되거나 오류가 발생할 수 있습니다. 이를 테스트하는 코드는 다음과 같습니다.
 
@@ -2036,7 +2919,18 @@ group('int', () {
 
 ## 매크로 오류 진단 테스트
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 더 흥미로운 테스트입니다:
 
@@ -2073,7 +2967,18 @@ test('error_iterable_nullable', () async {
 
 컴파일러의 기계 판독 가능한 출력을 사용하지 않고 정규 출력을 분석하기 때문에 매우 신뢰성이 떨어집니다. 일부 예외 케이스나 형식이 변경된 경우 실패할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기억해야 할 몇 가지 사항이 있어요:
 
@@ -2084,7 +2989,18 @@ test('error_iterable_nullable', () async {
 
 이것은 제품 출시 준비가 된 상태가 아닙니다. API가 변경될 뿐만 아니라 규격에 맞게 구현되지 않은 것도 많이 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신이 일한 창의성의 효과를 연습한 것으로 생각해주세요.
 
@@ -2094,7 +3010,18 @@ test('error_iterable_nullable', () async {
 
 # 좋은 정보들 요약
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Dart **리소스**:
 

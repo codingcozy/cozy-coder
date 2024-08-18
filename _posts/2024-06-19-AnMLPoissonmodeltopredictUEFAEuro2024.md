@@ -3,17 +3,13 @@ title: "UEFA Euro 2024를 예측하기 위한 ML  포아송 모델"
 description: ""
 coverImage: "/assets/img/2024-06-19-AnMLPoissonmodeltopredictUEFAEuro2024_0.png"
 date: 2024-06-19 09:20
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-AnMLPoissonmodeltopredictUEFAEuro2024_0.png
 tag: Tech
 originalTitle: "An ML — Poisson model to predict UEFA Euro 2024"
 link: "https://medium.com/ai-mind-labs/a-machine-learning-poisson-model-to-predict-uefa-euro-2024-d7b22bacc06e"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-19-AnMLPoissonmodeltopredictUEFAEuro2024_0.png" />
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 최적의 λ 매개변수를 찾기 위해, 나의 회귀 모델은 홈팀과 원정팀이 경기에서 할 골의 예상 수를 예측했습니다. 각 팀의 예측된 값은 포아송 분포에서 λ로 사용되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![그림](/assets/img/2024-06-19-AnMLPoissonmodeltopredictUEFAEuro2024_1.png)
 
@@ -34,8 +40,18 @@ isUpdated: true
 
 2022년 월드컵 예측에 사용한 동일한 데이터셋을 사용했습니다: 지난 경기와 FIFA 순위. 둘 다 Kaggle에서 찾을 수 있으며, 결과는 2024년 6월 11일까지의 경기 결과가 포함되어 있습니다. 이 모델에서는 2019년 8월 1일 이후의 결과를 사용했습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ML 모델의 성능을 많이 향상시킬 수 있어요. 예상 골 같은 고급 축구 데이터와 슛, 코너, 그리고 프리킥과 같은 통계를 사용해 보면 좋을 거에요. 문제는 국제 경기용 이런 종류의 데이터를 구하는 것이 꽤 어렵다는 거죠.
 
@@ -46,7 +62,18 @@ ML 모델의 성능을 많이 향상시킬 수 있어요. 예상 골 같은 고�
 - home_weight_goals & away_weight_goals: 팀이 넣은 평균 골에 랭킹 차이를 곱한 값
 - home_weight_points & away_weight_points: 팀이 획득한 평균 포인트에 랭킹 차이를 곱한 값
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한 랭크 차이에 의한 가중치 버전의 골을 5경기 이동 평균으로 만들었습니다.
 
@@ -56,7 +83,18 @@ ML 모델의 성능을 많이 향상시킬 수 있어요. 예상 골 같은 고�
 
 다음 단계는 데이터를 분석하여 모델에 예측력이 있는 특성을 선택하는 것입니다. 현재 모델의 목적은 홈팀과 어웨이팀의 골 수를 예측하는 것이므로 WC 2022 예측 기사에서 만든 분석은 사용할 수 없지만, Rank 차이가 좋은 예측자임을 알 수 있었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째 분석은 가능한 특징과 목표(홈/원정에서 기록한 득점) 사이의 선형 회귀 그래프를 만들 것입니다. 이를 통해 우리는 가능한 선형 관계를 찾을 수 있을 것입니다.
 
@@ -66,13 +104,35 @@ ML 모델의 성능을 많이 향상시킬 수 있어요. 예상 골 같은 고�
 
 ![이미지2](/assets/img/2024-06-19-AnMLPoissonmodeltopredictUEFAEuro2024_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 그림은 홈 팀에 대한 첫 번째 분석을 보여줍니다. 예상대로, 어떤 특성도 명확한 선형 관계가 없었지만, 랭크 차이와 랭크 차이로 가중된 특성이 시각적으로 가장 영향을 받은 것으로 나타났습니다. 그래서 저는 이들 특성이 경기에서의 득점 수에 어떻게 영향을 받는지 확인해 보려고 합니다.
 
 위의 그림은 랭크 차이로 가중된 홈 팀의 평균 득점을 보여줍니다. 0, 1, 2, 3골 사이를 구분할 때 주로 득점 수에 영향을 받는 분포가 명확히 보입니다. 이는 또한 랭크 차이로 가중된 원정팀이 입은 평균 골과 홈팀과 원정팀이 획득한 점수 평균에도 동일하게 나타납니다. 이러한 특성들의 5경기 이동 평균 버전은 득점 수에 크게 영향을 받지 않습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 우리에게 어떤 일이 발생할 것인지에 대한 단서를 제공합니다. 그럼, 가중 특징으로만 가득 찬 평균만 사용하여 테스트하겠습니다.
 
@@ -82,7 +142,18 @@ ML 모델의 성능을 많이 향상시킬 수 있어요. 예상 골 같은 고�
 
 # 기계 학습 모델
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 기능을 갖춘 상태이므로, 홈 골과 어웨이 골을 예측하는 두 가지 모델을 개발해야 합니다. 선형 회귀, 랜덤 포레스트 회귀 및 그래디언트 부스팅 회귀 세 가지 모델을 테스트할 것입니다. 특성과 목표 간에 선형 관계가 명확하지 않기 때문에 모델 성능은 R2 스코어 대신 평균 제곱 오차(MSE)로 평가할 것입니다. 하지만 선택한 모델을 선정하는 주요 분석은 예측값의 분포와 잔차를 확인하는 것입니다.
 
@@ -90,7 +161,18 @@ ML 모델의 성능을 많이 향상시킬 수 있어요. 예상 골 같은 고�
 
 홈 팀의 경우, 선형 회귀와 랜덤 포레스트(선택한 모델)의 분석을 보여드리겠습니다. 왜 랜덤 포레스트를 선택했는지를 설명하겠습니다. 먼저 두 모델에 대한 실제 대 예측 값의 차이를 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-19-AnMLPoissonmodeltopredictUEFAEuro2024_8.png)
 
@@ -100,7 +182,18 @@ ML 모델의 성능을 많이 향상시킬 수 있어요. 예상 골 같은 고�
 
 물론, 선형 회귀가 예측한 값이 0 미만인 경우를 수동으로 0으로 설정할 수 있지만, 그렇게하는 것은 랜덤 포레스트보다 모델이 훨씬 좋은 성능을 발휘할 경우에만 의미가 있습니다. 그러기 위해 잔차를 분석해 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 회귀 모델의 잔차는 예측값과 실제 값의 차이입니다. 우리는 위에서 볼 수 있듯 랜덤 포레스트는 홈 팀의 골을 조금 더 과소 평가합니다. 하지만 이는 음수 예측값을 해결하기 위해 선형 회귀를 사용하는데 충분한 큰 차이가 아닙니다. 그래서 저는 랜덤 포레스트를 선택했습니다.
 
@@ -110,25 +203,44 @@ ML 모델의 성능을 많이 향상시킬 수 있어요. 예상 골 같은 고�
 
 이제 홈팀과 원정팀 분포를 예측하는 모델을 가지고 있으므로 홈 승리, 무승부 및 원정 승리의 확률을 계산할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그것을 하기 위해, 우선 독일과 스코틀랜드의 UEFA 유로 첫 번째 경기 예시로 0~10 골에 대한 포아송 확률을 계산합니다.
 
 이제 각 팀이 0~10 골을 넣는 확률을 가지고 있으므로, 각 정확한 결과의 확률을 계산할 수 있습니다. 아래 표에 표시되어 있습니다:
 
-
 | 골 수 | 스코틀랜드 승 확률 | 독일 승 확률 | 무승부 확률 |
-|-------|-------------------|-------------|-------------|
-|   0   |      0.100        |    0.200    |   0.150     |
-|   1   |      0.150        |    0.180    |   0.100     |
-|   2   |      0.120        |    0.150    |   0.080     |
-|  ...  |       ...         |     ...     |    ...      |
-
+| ----- | ------------------ | ------------ | ----------- |
+| 0     | 0.100              | 0.200        | 0.150       |
+| 1     | 0.150              | 0.180        | 0.100       |
+| 2     | 0.120              | 0.150        | 0.080       |
+| ...   | ...                | ...          | ...         |
 
 빨간색으로 표시된 것은 스코틀랜드가 이기는 시나리오의 확률입니다. 초록색으로 표시된 것은 독일이 이기는 시나리오이고, 노란색은 무승부입니다. 독일이 이기는 확률, 무승부 확률, 스코틀랜드가 이기는 확률을 알기 위해 매트릭스의 각 부분을 합산합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-19-AnMLPoissonmodeltopredictUEFAEuro2024_10.png)
 
@@ -138,8 +250,18 @@ ML 모델의 성능을 많이 향상시킬 수 있어요. 예상 골 같은 고�
 
 시뮬레이션된 경기의 결과는 아래에 표시되어 있어요:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그룹 스테이지 시뮬레이션을 완료한 후, 그룹 경기 결과를 계산했습니다. 아래는 모든 그룹을 포함한 전체 테이블입니다:
 
@@ -147,8 +269,18 @@ ML 모델의 성능을 많이 향상시킬 수 있어요. 예상 골 같은 고�
 
 이제는 챔피언십 스테이지를 시뮬레이션해야 합니다. UEFA Euro는 여러분이 여기서 찾아볼 수 있는 매우 독특한 매치 조합을 가지고 있습니다. 이것은 제 분석을 위한 코드 기반이 되었고, 아래에는 WC 2022 시뮬레이션을 위해 만든 동일한 차트에 결과가 표시되어 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![모델_스코어](/assets/img/2024-06-19-AnMLPoissonmodeltopredictUEFAEuro2024_12.png)
 
@@ -158,8 +290,18 @@ ML 모델의 성능을 많이 향상시킬 수 있어요. 예상 골 같은 고�
 
 프로젝트의 취지는 내가 가장 좋아하는 축구를 예측하기 위해 데이터 과학과 ML 지식을 활용하는 것이었습니다. 그러나 이번에는 제 첫 번째 모델이 갖고 있던 일부 결함도 수정하고자 했습니다. 예를 들어, 2022 월드컵 모델은 무승부를 예측하지 않았습니다!
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 이 목표가 달성되었다고 생각해요. 이 모델은 더 많은 과학적 근거를 바탕으로 하며 축구 예측의 최신 기술을 많이 반영하고 있어요. 또한, 이 모델은 다양한 용도로 활용할 수 있어요. 예를 들어, 한 경기에서 3골 이상이 나올 확률을 얻는 것이 가능해요.
 
@@ -169,7 +311,18 @@ ML 모델의 성능을 많이 향상시킬 수 있어요. 예상 골 같은 고�
 
 <img src="https://miro.medium.com/v2/resize:fit:500/0*5Wm7sOfTpe5DEbhg.gif" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 커뮤니티에 참여해 주셔서 감사합니다! 떠나시기 전에:
 

@@ -3,17 +3,13 @@ title: "로컬 AI를 사용하여 내 재정을 분석한 방법"
 description: ""
 coverImage: "/assets/img/2024-07-13-HowIAnalyzedMyFinanceWithALocalAI_0.png"
 date: 2024-07-13 03:16
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-HowIAnalyzedMyFinanceWithALocalAI_0.png
 tag: Tech
 originalTitle: "How I Analyzed My Finance With A Local AI"
 link: "https://medium.com/gitconnected/declutter-your-spending-with-local-ai-finance-insighter-049191711f9e"
 isUpdated: true
 ---
-
-
-
-
 
 봄이 들어와 집 청소 전통을 가져오면서, 나는 내 이스터 휴가를 활용하여 재정 상황을 잡고 비용을 줄이고 더 나은 재정 계획을 세우기로 결정했다.
 
@@ -23,7 +19,18 @@ ChatGPT에게 물어보거나 내 개인 정보를 OpenAI, Google 또는 기타 
 
 이름 그대로, 이 도구는 완전히 로컬에서 작동하며 인터넷 연결 없이도 사용할 수 있으며 귀하의 금융 데이터를 안전하게 보관한다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 지역 AI 금융 인사이터는 먼저 내 거래 데이터를 수집하여 수입 및 지출을 포함한 내 금융 상황을 분석하고, 그 후에는 내 라이프스타일과 금융 목표에 맞게 맞춤형 저축 팁을 제공하고 투자 계획을 제안합니다. 여기서 데모를 확인해보세요.
 
@@ -32,28 +39,50 @@ ChatGPT에게 물어보거나 내 개인 정보를 OpenAI, Google 또는 기타 
 ## 목차:
 
 - 애플리케이션, 디자인, 및 개발 스택 개요
-   - 애플리케이션 및 아키텍처 개요
-   - Ollama 및 오픈 소스 LLMs
-   - LangChain
-   - Streamlit
+  - 애플리케이션 및 아키텍처 개요
+  - Ollama 및 오픈 소스 LLMs
+  - LangChain
+  - Streamlit
 - 사전 준비 및 데이터셋 준비
 - 데이터 업로드 인터페이스 및 거래 데이터 처리 모듈 구축
 - 개인 재무 대시보드 및 맞춤화된 보고서 생성
 - 마무리 생각
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 어플리케이션, 디자인, 및 개발 스택 개요
 
 ## 어플리케이션 및 아키텍처 개요
 
-이 어플리케이션은 사용자 인터페이스로 streamlit을 사용하며, 핵심적으로 Langchain을 활용하여 지역 서버에 내장된 오픈소스 LLM 모델들과 상호 작용합니다. 
+이 어플리케이션은 사용자 인터페이스로 streamlit을 사용하며, 핵심적으로 Langchain을 활용하여 지역 서버에 내장된 오픈소스 LLM 모델들과 상호 작용합니다.
 
 이 어플리케이션에서 우리는 Mistral과 LLAVA 같은 가장 진보된 오픈소스 모델을 활용하여 다중 모달리티 기능을 해제하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-이 프로젝트에서는 LLM의 출력을 이용하여 "전문 재무 기획사의 의견"을 제시하기 위한 저축 및 투자 권고사항을 제공합니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+이 프로젝트에서는 LLM의 출력을 이용하여 "전문 재무 기획사의 의견"을 제시하기 위한 저축 및 투자 권고사항을 제공합니다.
 
 이 프로젝트에서 달성할 목표는 다음과 같습니다:
 
@@ -64,7 +93,18 @@ ChatGPT에게 물어보거나 내 개인 정보를 OpenAI, Google 또는 기타 
 
 그러나 기술 코딩에 들어가기 전에, 이 프로젝트에서 사용한 용어에 대한 소개가 있습니다. 이미 익숙하시다면 건너뛰셔도 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 올라마
 
@@ -74,7 +114,18 @@ ChatGPT에게 물어보거나 내 개인 정보를 OpenAI, Google 또는 기타 
 
 랭체인은 LLMs를 중심으로 구축된 오픈 소스 프레임워크입니다. 이는 챗봇, 요약 도구 등을 비롯한 GenAI 애플리케이션의 설계 및 개발을 크게 단순화합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 The library's fundamental concept is to "chain" various components to streamline intricate AI tasks and enable the creation of more advanced scenarios with LLMs. It provides seamless integration with Ollama's open-source models.
 
@@ -84,7 +135,18 @@ Streamlit is an open-source framework that empowers developers to swiftly create
 
 Streamlit's user-friendly interface makes it an ideal choice for rapid prototyping and intricate data dashboard projects.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 사전 준비 및 데이터셋 준비
 
@@ -94,8 +156,18 @@ Streamlit's user-friendly interface makes it an ideal choice for rapid prototypi
 
 Ollama를 설치한 후에 명령 터미널을 열고 다음 명령어를 입력하세요. 이 명령어들은 모델을 다운로드하고 로컬 머신에서 실행합니다. 이 프로젝트에서는 Mistral과 LLAVA를 사용할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ollama serve
 ollama pull mistral
@@ -103,11 +175,9 @@ ollama pull llava
 ollama run mistral
 ollama run llava
 
-
 ## 데이터셋 준비하기
 
 데모를 위해서, 제 개인 거래 데이터를 합성 데이터로 대체하겠습니다. 그래서 ChatGPT에게 1,000개의 거래를 생성하도록 요청했습니다. 아래는 여러분이 필요하다면 사용할 수 있는 테스트용 프롬프트입니다.
-
 
 Generate a realistic dataset of 1,000 financial transactions for a young professional working in finance, residing in Europe, covering the period from January 2022 to December 2023. Ensure a balanced representation of income and expenses across various categories typical for this demographic. Include the following four columns:
 
@@ -116,8 +186,18 @@ Name/Description: A unique and detailed description of each transaction (e.g., "
 Expense/Income: Clearly indicate whether the transaction is an expense (e.g., "Expense") or income (e.g., "Income")
 Amount(EUR): Transaction amount in Euros
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 생성된 데이터셋은 네 개의 열로 구성되어야 합니다:
 
@@ -130,7 +210,18 @@ Amount(EUR): Transaction amount in Euros
 
 # 데이터 업로드 인터페이스 및 거래 데이터 처리 모듈 구축하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 의존성 설치
 
@@ -143,7 +234,18 @@ pip install streamlit
 
 ## 데이터 업로드 모듈 설정
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로운 파이썬 파일 "Upload.py"를 만들어서 다음 코드를 추가해 보겠습니다. 여기서는:
 
@@ -165,14 +267,25 @@ categories_string = ",".join(categories)
 
 ## 거래 분류 기능 구축하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 거래 내역을 분류합니다: categorize_transactions 함수를 작성하세요. 이 함수는 거래 이름을 입력으로 받습니다. 우리는 LLM의 출력을 가이드하는 프롬프트 엔지니어링 기술을 사용할 것입니다. 거래 이름들을 프롬프트의 맥락 안에 포함시키고 LLM에게 미리 정의된 카테고리 목록에 따라 분류해 달라고 요청합니다. LLM의 출력을 받은 후에는 이 데이터를 구조화된 판다스 DataFrame으로 정리하여 변환할 것입니다.
 
 ```python
 def categorize_transactions(transaction_names, llm):
     prompt = f"""다음 경비에 적절한 카테고리를 추가하세요. 기본 목적 또는 성격을 기준으로 가장 관련성 높은 항목을 선택해야 합니다. {categories_string} 중에서 하나의 카테고리만 선택하십시오.\n
-        출력 형식은 항상 다음과 같아야 합니다: 거래명 - 카테고리. 예를 들어: Spotify #2 - 엔터테인먼트, Basic Fit Amsterdam Nld #3 - 피트니스/스포츠 \n 
+        출력 형식은 항상 다음과 같아야 합니다: 거래명 - 카테고리. 예를 들어: Spotify #2 - 엔터테인먼트, Basic Fit Amsterdam Nld #3 - 피트니스/스포츠 \n
         다음과 같이 분류할 거래내역들입니다: {transaction_names} \n"""
 
     print(prompt)
@@ -241,7 +354,18 @@ def process_data(df: pd.DataFrame):
     return new_df
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 스트림릿 웹 앱 만들기
 
@@ -254,7 +378,18 @@ uploaded_file = st.file_uploader("금융 데이터 업로드", type=("txt", "csv
 
 2. 업로드된 데이터 처리: 파일이 업로드되면 pandas DataFrame에 읽고 process_data 함수를 호출하여 거래를 분류합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 if uploaded_file:
@@ -271,21 +406,42 @@ if uploaded_file:
 
 # 개인 금융 대시보드 및 맞춤형 보고서 생성하기
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-우리의 모든 거래가 LLM Mistral에 의해 깔끔하게 정리되었으므로, 이제 재무 분석을 처리할 준비가 되었습니다. 재무 분석은 네 단계로 구성되어 있습니다:  
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
-- 양적 분석: 당신의 재무 건강 상태를 명확히 파악하기 위해 먼저 연간 소득 및 지출을 계산하고, 돈이 대부분 어디로 가고 있는지 등을 식별할 것입니다.  
-- 시각적 표현: 거래 데이터를 차트로 나타내어 추세와 패턴을 발견할 것입니다.  
-- LLM의 질적 분석: 우리가 수집한 주요 금융 지표 및 인사이트(그 멋진 그래프들 포함)를 Mistral에게 다시 공급할 것입니다. 신중하게 준비된 안내에 따라, 당신의 재정 상황에 대한 질적 분석을 요청할 것입니다.  
-- 맞춤형 절약 팁 및 투자 추천 생성: 양적 및 질적 분석에서 얻은 통찰을 바탕으로 Mistral이 당신을 위한 맞춤형 조언을 생성할 것입니다.   
+우리의 모든 거래가 LLM Mistral에 의해 깔끔하게 정리되었으므로, 이제 재무 분석을 처리할 준비가 되었습니다. 재무 분석은 네 단계로 구성되어 있습니다:
 
-라이브러리 가져오기 및 재무 분석 함수 생성   
+- 양적 분석: 당신의 재무 건강 상태를 명확히 파악하기 위해 먼저 연간 소득 및 지출을 계산하고, 돈이 대부분 어디로 가고 있는지 등을 식별할 것입니다.
+- 시각적 표현: 거래 데이터를 차트로 나타내어 추세와 패턴을 발견할 것입니다.
+- LLM의 질적 분석: 우리가 수집한 주요 금융 지표 및 인사이트(그 멋진 그래프들 포함)를 Mistral에게 다시 공급할 것입니다. 신중하게 준비된 안내에 따라, 당신의 재정 상황에 대한 질적 분석을 요청할 것입니다.
+- 맞춤형 절약 팁 및 투자 추천 생성: 양적 및 질적 분석에서 얻은 통찰을 바탕으로 Mistral이 당신을 위한 맞춤형 조언을 생성할 것입니다.
+
+라이브러리 가져오기 및 재무 분석 함수 생성
 
 먼저, "Finance_Dashboard.py"라는 새로운 파이썬 파일을 만들고 필요한 파이썬 라이브러리를 가져와 Ollama 모델을 초기화해 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 import os
@@ -329,7 +485,18 @@ def financial_analysis(data:pd.DataFrame):
 
 ## Forging the Plotting Spells: Bonding with the Data Spirits
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서는 재정 데이터를 시각화하는 기능을 구현할 거에요. 이에는 시간에 따른 수입 대 지출, 월별 저축률, 수입원, 그리고 카테고리별 소비에 관한 네 가지 플롯이 포함돼요.
 
@@ -387,7 +554,18 @@ def plot_category_wise_spending_analysis(data: pd.DataFrame):
 
 CSV 파일에서 재정 데이터를 읽어와 처리하고 분석할 준비를 해볼게요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 total_df = pd.DataFrame()
@@ -454,10 +632,20 @@ with st.container():
         plot_income_source_analysis(total_df)
     with col4:
         plot_category_wise_spending_analysis(total_df)
-``` 
+```
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 When you run Streamlit, you should see a dashboard like this:
 
@@ -467,7 +655,18 @@ When you run Streamlit, you should see a dashboard like this:
 
 Next, we'll provide Mistral with the quantitative and qualitative analysis we generated earlier so that it can develop personalized advice just for you!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 with st.container():
@@ -509,13 +708,22 @@ with st.spinner("Generating reports ..."):
 
 보고서는 잘 구성되어 있고 일관성이 있어 보이지만, 제가 원하는 것보다 더 길어요. 더 간결한 결과물을 얻기 위해 프롬프트를 더 다듬을 수 있습니다.
 
-
 <img src="/assets/img/2024-07-13-HowIAnalyzedMyFinanceWithALocalAI_4.png" />
 
 # 마무리
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서, 우리가 함께 만든 Local AI-Powered Finance Insighter를 소개합니다. 이를 통해 우리의 재정 상태를 더 잘 이해할 수 있습니다!
 
@@ -525,7 +733,18 @@ Generative AI의 힘을 활용하여 맞춤형 조언을 제공하는 방식으�
 
 처음에는 Thu Vu의 데이터 분석 관련 비디오에서 영감을 받아 시작했습니다. 그녀는 거래 데이터를 분류하기 위해 로컬 LLM을 사용하는 방법을 설명했습니다. 그러나 LLM은 창의적인 성격 때문에 대규모 데이터셋의 경우 일관된 분류에 어려움을 겪을 수 있다는 것을 발견했습니다! 좋은 결과를 얻기 위해 코드와 프롬프트를 조정해야 했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이번에는 일반 인공지능과 LLMs를 사용하여 통찰력 있는 분석, 보고서 및 맞춤형 팁을 생성하는 것이 매우 효과적임이 입증되었습니다.
 
@@ -535,7 +754,18 @@ Generative AI의 힘을 활용하여 맞춤형 조언을 제공하는 방식으�
 
 ## 떠나시기 전에! 🦸🏻‍♀️
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 이야기가 마음에 들었다면, 아래 방법들로 저를 지지해주세요:
 

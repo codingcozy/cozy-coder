@@ -3,16 +3,13 @@ title: "시간에 따른 변화를 시각화하는 멋진 전략들"
 description: ""
 coverImage: "/assets/img/2024-05-27-AwesomeStrategiestoVisualizeChangewithTime_0.png"
 date: 2024-05-27 12:44
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-AwesomeStrategiestoVisualizeChangewithTime_0.png
 tag: Tech
 originalTitle: "Awesome Strategies to Visualize Change with Time"
 link: "https://medium.com/@yuanbo.faith/awesome-strategies-to-visualize-change-with-time-f8a7fa8362f2"
 isUpdated: true
 ---
-
-
-
 
 이 기사는 두 시점을 대조하는 효과적인 전략을 시각화하는 방법을 요약하고, 영감을 주는 그래픽 예시(소스 코드 링크 포함)로 설명합니다.
 
@@ -22,8 +19,18 @@ isUpdated: true
 
 다음 그래프는 각 나라의 1800년과 2015년 인간의 수명 기대값, 인구 규모, 그리고 일인당 GDP를 비교합니다. 포인트는 다른 나라의 특정 시점을 나타내며, 선분은 각 나라에서 변화의 시각적 궤적을 제공합니다. 더불어 연한 회색 사각형의 사용은 두 시기 간의 차이를 강조하는 데 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![그래프](/assets/img/2024-05-27-AwesomeStrategiestoVisualizeChangewithTime_0.png)
 
@@ -33,9 +40,18 @@ isUpdated: true
 
 선분 외에도 화살표는 한 시점에서 다른 시점으로의 변화 방향을 강조하는 특징적인 요소입니다. 아래 그래프는 2000년부터 2020년까지 국회에서 여성들이 보유한 의석 변화를 보여주기 위해 이 전략을 사용하고 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-27-AwesomeStrategiestoVisualizeChangewithTime_1.png)
 
@@ -45,8 +61,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-05-27-AwesomeStrategiestoVisualizeChangewithTime_2.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 나라에서 시간에 따라 변화 추적하는 것 이외에도, 평균 추세선과 변동성 리본을 추가하여 시각 정보를 풍부하게 할 수 있습니다. 다음 그림에서는 각 나라의 인간 기대수명 변화를 나타냅니다. 대륙별로, 중앙 두꺼운 선은 평균 수명을 보여주고, 음영 처리된 리본은 이 평균 추세 주변의 변동성을 나타냅니다. 여기에는 평균을 중심으로 평균을 중심으로 한 표준편차의 값이 있습니다.
 
@@ -56,7 +82,18 @@ isUpdated: true
 
 위의 선 그래프는 각 나라의 동적인 변화를 보여주었습니다. 각 시간별 y 값의 누적 합이 관심사일 때, 영역 그래프를 사용하여 이 목표를 달성할 수 있습니다. 영역 그래프는 기본적으로 쌓인 선 플롯이며, 선들 사이를 채운 색깔로 연속적인 밴드나 리본을 형성합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 그래프는 지난 200년 동안 전 세계에서 미국으로의 이민 인구 변동을 나타냅니다. 각 시간 지점마다 국가별 및 총 인구 수를 보여줍니다.
 
@@ -66,8 +103,18 @@ isUpdated: true
 
 면적/알류비움 그래프의 변형인 스트림 플롯은 미적 강화를 더해줍니다. 다음 그래프는 지난 4개 십년 동안 영화 장르의 인기 변화를 보여줍니다. 멋진 R ggstream 패키지를 사용하여 만든 이 작품의 세부 사항은 David Sjoberg의 훌륭한 블로그 기사를 확인하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Heatmap](/assets/img/2024-05-27-AwesomeStrategiestoVisualizeChangewithTime_5.png)
 
@@ -77,8 +124,18 @@ isUpdated: true
 
 ![Yearly Incidences](/assets/img/2024-05-27-AwesomeStrategiestoVisualizeChangewithTime_6.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 표는 원래 Tynan DeBold와 Dov Friedman에 의해 WSJ에서 발표되었습니다. R ggplot2에서 이 작업의 재현을 보려면 여기를 확인하십시오.
 
@@ -88,7 +145,18 @@ isUpdated: true
 
 # 애니메이션을 통한 변화 시각화
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2007년 한스 로슬링이 전설적인 TED 토크 '당신이 본 적 없는 최고의 통계'에서 데이터 애니메이션을 유명하게 만들었습니다. 그럼에도 오늘날에도 데이터를 애니메이션으로 렌더링하는 것은 많은 데이터 분석가들에게 끔찍한 작업으로 여겨집니다. 그러나 괜찮아요! 멋진 R gganimate 패키지를 사용하면 정적 플롯을 애니메이션으로 렌더링하는 것은 시간 변수를 기반으로 데이터 집합을 "faceting"하는 추가 단일 코드 라인을 추가하는 것만큼 간단할 수 있습니다.
 

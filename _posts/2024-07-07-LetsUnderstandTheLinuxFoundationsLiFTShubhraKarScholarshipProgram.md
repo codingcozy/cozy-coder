@@ -3,17 +3,13 @@ title: "리눅스 재단의 LiFT 장학 프로그램 상세 가이드 Shubhra Ka
 description: ""
 coverImage: "/assets/img/2024-07-07-LetsUnderstandTheLinuxFoundationsLiFTShubhraKarScholarshipProgram_0.png"
 date: 2024-07-07 13:18
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-LetsUnderstandTheLinuxFoundationsLiFTShubhraKarScholarshipProgram_0.png
 tag: Tech
 originalTitle: "Let’s Understand — The Linux Foundation’s LiFT (Shubhra Kar) Scholarship Program 📃"
 link: "https://medium.com/@venilam09/lets-understand-the-linux-foundation-s-lift-shubhra-kar-scholarship-program-89f8b9aa2114"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-07-07-LetsUnderstandTheLinuxFoundationsLiFTShubhraKarScholarshipProgram_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 시작 이후 2,100명 이상의 장학금이 수여되었으며, 다양한 배경과 국가의 개인들에게 혜택을 주고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 왜 Shubhra Kar…?
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 LiFT 장학금의 주요 목적은 이러한 교육을 지불할 여력이 없을 수도 있는 개인들에게 재정 지원을 제공하는 것이며, Linux Foundation은 더 포용적인 환경을 육성하기 위해 노력하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 자격 요건 및 등록 — 📃
 
@@ -54,7 +72,18 @@ LiFT 장학금의 주요 목적은 이러한 교육을 지불할 여력이 없�
 - 하드웨어 히어로 🦸‍♂️
 - 사이버보안 챔피언 🏆
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # LiFT 장학금 신청과 발표 일정 ⌛
 
@@ -64,7 +93,18 @@ LiFT 장학금의 주요 목적은 이러한 교육을 지불할 여력이 없�
 
 정보를 놓치지 않으려면 Linux Foundation 웹사이트를 확인하기 위해 준비되어 계시기 바랍니다. ☑️
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 신청 방법
 
@@ -74,6 +114,17 @@ LiFT 장학금의 주요 목적은 이러한 교육을 지불할 여력이 없�
 
 ![이미지](https://miro.medium.com/v2/resize:fit:996/1*jgyQnOxT6G8XwzmqkWReDg.gif)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 프로그램을 통해 도움을 받았거나 적용하려고 하는 중이거나 이미 혜택을 받았다면 아래에 👏박수를 치거나 의견을 알려주세요.

@@ -3,17 +3,13 @@ title: "프롬프트 엔지니어링 최상의 실천 방법 반복적인 프롬
 description: ""
 coverImage: "/assets/img/2024-06-19-PromptEngineeringBestPracticesIterativePromptDevelopment_0.png"
 date: 2024-06-19 20:40
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-PromptEngineeringBestPracticesIterativePromptDevelopment_0.png
 tag: Tech
 originalTitle: "Prompt Engineering Best Practices: Iterative Prompt Development"
 link: "https://medium.com/towards-artificial-intelligence/prompt-engineering-best-practices-iterative-prompt-development-22759b309919"
 isUpdated: true
 ---
-
-
-
-
 
 대형 언어 모델을 사용하여 애플리케이션을 개발할 때, 첫 번째 시도에서 최종 애플리케이션에 사용할 프롬프트를 만들기 어려울 수 있습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![image](/assets/img/2024-06-19-PromptEngineeringBestPracticesIterativePromptDevelopment_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 목차:
 
@@ -37,8 +44,18 @@ isUpdated: true
 
 이전에 머신러닝 수업을 들었다면, 머신러닝 개발이 반복적인 과정이라는 다이어그램을 본 적이 있을 것입니다. 데이터를 얻어 모델을 훈련시킨 후 실험 결과를 얻게 됩니다. 그런 다음 출력물을 살펴보고 오류 분석을 수행하여 작동 여부를 파악하고 문제를 해결하거나 해결 방법을 접근하는 방식을 조정할 수도 있습니다. 구현을 변경한 후 다시 실험을 실행하여 효과적인 머신러닝 모델을 도출하기 위해 반복 작업을 거쳐야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Prompt Engineering Best Practices](/assets/img/2024-06-19-PromptEngineeringBestPracticesIterativePromptDevelopment_1.png)
 
@@ -48,8 +65,18 @@ isUpdated: true
 
 앤드루 엔지
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2. 작업 환경 설정 및 시작하기
 
@@ -77,7 +104,18 @@ def get_completion(prompt, model="gpt-3.5-turbo"):
 
 여기에는 노트북 기술 세부 정보가 포함된 팩트 시트가 있습니다. 구성에 대해 이야기하며, 치수, 노트북 옵션, 재료 등이 포함되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 fact_sheet_laptop = """
@@ -121,12 +159,23 @@ Windows 및 MacOS 기호를 모두 충족하는 운영 체제 옵션을 제공�
 
 """
 ```
+
 당신이 이 정보를 가지고 마케팅 팀이 온라인 소매 웹사이트 설명을 작성하는 것을 도와야 한다고 가정해보겠습니다. 여기서 말하는 프롬프트는, 기술사양을 기반으로 한 제품에 대한 소매 웹사이트 설명을 작성하는 마케팅 팀을 도와야 한다면 어떤 제품 설명을 작성할 것인지에 대한 정보를 쓰세요. 기술사양에 제공된 정보를 기반으로 제품 설명을 작성하세요.
 
 기술적 사양: {fact_sheet_laptop}
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 이걸 보면, 좀 긴 것 같다고 생각해. 정확히 요청한 대로 테크니컬 팩트 시트에서 시작하여 제품 설명을 작성하는 데 잘 해냈어. 하지만 이걸 보면, 좀 긴 것 같아. 아마 우리는 조금 더 짧게 원할지도 몰라.
 
@@ -148,19 +197,39 @@ response = get_completion(prompt)
 print(response)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 제품에 대한 아주 멋진 간단한 설명 같아요. 이 응답의 길이를 확인해볼게요. 나는 이 응답을 공백을 기준으로 나누고, 길이를 출력할 거에요.
 
 그러니까 47개의 단어에요. 나쁘지 않아요. 대형 언어 모델은 명확한 단어 수에 대한 지시를 따르는 데 꽤 괜찮지만, 때로는 60이나 65개의 단어로 무언가를 출력할 때도 있지만, 타당한 범위 내에 있어요. 할 수 있는 일 중 일부는 최대 세 문장을 사용하는 것이죠.
 
-
 len(response.split())
-
 
 # 4. 일부 세부사항에 집중하도록 LLM에 강제하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 텍스트를 웹 사이트에 계속 보왈하면서, 소비자에게 직접 판매하지 않는 웹 사이트인 것을 결정할 수 있습니다. 대신, 랩톱을 랩톱 소매업체에 판매하는 것이 목적이며, 이들은 랩톱의 기술적 세부 사항에 더 관심이 있을 것입니다.
 
@@ -168,15 +237,15 @@ len(response.split())
 
 ```js
 prompt = f"""
-마케팅 팀이 기술 사양서를 기반으로 한 
-제품에 대한 소개 설명을 작성하는데 도움을 
+마케팅 팀이 기술 사양서를 기반으로 한
+제품에 대한 소개 설명을 작성하는데 도움을
 주세요.
 
-기술 사양서에 제공된 정보를 기반으로 제품 
-설명을 작성하십시오. 제품이 구성된 재료에 
+기술 사양서에 제공된 정보를 기반으로 제품
+설명을 작성하십시오. 제품이 구성된 재료에
 중점을 두어 기술적 성격으로 작성되어야 합니다.
 
-설명의 끝에는 기술 사양서에서 7자리 제품 
+설명의 끝에는 기술 사양서에서 7자리 제품
 ID를 모두 포함하십시오.
 
 최대 50단어로 작성하십시오.
@@ -189,7 +258,18 @@ print(response)
 
 프롬프트를 변경함으로써 특정 문자와 특성에 더 초점을 맞출 수 있습니다. 설명 끝에 제품 ID를 추가할 것이라고 결정한 경우, 설명 프롬프트 끝에 기술 사양서에 있는 모든 7자리 제품 ID를 포함할 지시를 추가할 수 있습니다. 이렇게 하고 실행하여 결과를 확인해 보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 prompt = f"""
@@ -215,8 +295,18 @@ print(response)
 
 chatGPT의 능력에 대한 더 나은 이해를 위해 좀 더 복잡한 프롬프트를 살펴봅시다. 설명 뒤에 제품의 치수를 제공하는 테이블을 포함하도록 요청하고 모든 내용을 HTML로 형식화해야 합니다. 실제로 이러한 프롬프트를 얻기 위해서는 여러 번의 반복한 작업이 필요할 것입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 prompt = f"""
@@ -228,12 +318,12 @@ prompt = f"""
 
 기술 사양에 있는 모든 7자 제품 ID를 설명에 포함하세요.
 
-설명 뒤에 제품의 치수를 제공하는 표를 포함해 주세요. 표에는 두 개의 열이 있어야 합니다. 
+설명 뒤에 제품의 치수를 제공하는 표를 포함해 주세요. 표에는 두 개의 열이 있어야 합니다.
 첫 번째 열에는 치수의 이름을, 두 번째 열에는 인치 단위로 측정된 치수를 넣어주세요.
 
 표에 '제품 치수'라는 제목을 붙여주세요.
 
-웹사이트에서 사용할 수 있는 HTML 형식으로 모든 것을 서식화해주세요. 
+웹사이트에서 사용할 수 있는 HTML 형식으로 모든 것을 서식화해주세요.
 설명을 <div> 요소에 넣어주세요.
 
 기술 사양: {fact_sheet_laptop}
@@ -252,8 +342,18 @@ display(HTML(response))
 
 <img src="/assets/img/2024-06-19-PromptEngineeringBestPracticesIterativePromptDevelopment_2.png" />
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 만약 이 기사를 좋아하고 저를 지원하고 싶다면, 아래와 같은 내용을 확인해 주세요:
 
@@ -267,7 +367,18 @@ display(HTML(response))
 
 ## 데이터 과학과 인공지능에서의 경력을 시작하려는데 걸리는데 어려움을 겪고 계신가요? 데이터 과학 멘토링 세션과 장기적인 경력 멘토링을 제공하고 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 멘토링 세션: [링크](https://lnkd.in/dXeg3KPW)
 - 장기 멘토링: [링크](https://lnkd.in/dtdUYBrM)

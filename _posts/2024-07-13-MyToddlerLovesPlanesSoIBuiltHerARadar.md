@@ -3,7 +3,7 @@ title: "비행기를 좋아하는 우리 아이를 위해 만든 레이더 시�
 description: ""
 coverImage: "/assets/img/2024-07-13-MyToddlerLovesPlanesSoIBuiltHerARadar_0.png"
 date: 2024-07-13 01:28
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-MyToddlerLovesPlanesSoIBuiltHerARadar_0.png
 tag: Tech
 originalTitle: "My Toddler Loves Planes, So I Built Her A Radar"
@@ -11,17 +11,24 @@ link: "https://medium.com/gitconnected/my-toddler-loves-planes-so-i-built-her-a-
 isUpdated: true
 ---
 
-
-
-
-
 이 글은 영감의 이야기이자 비전이 형태를 갖는 과정, 그리고 가장 성급한 평가자인 2세 소녀의 신속한 피드백을 담은 이야기입니다.
 
 최종 제품으로 빨리 이동하고 싶으시다면 지금 바로 애플 앱 스토어에서 Aviator — Radar on your Phone 앱을 다운로드해보세요!
 
 # 영감을 주는
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 토드러를 이번 여름에 해외로 데리고 갔어요.
 
@@ -31,7 +38,18 @@ isUpdated: true
 
 그래서 이 일로 딸아이는 비행기에 대한 집착이 더해졌어요. 하늘에서 비행기를 찾아달라고 귀엽게 요청하고, 제가 찾아주면 기뻐해서 환하게 웃는답니다.✈️
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 문제 상황이 드러나다
 
@@ -41,7 +59,18 @@ isUpdated: true
 
 저는 FlightRadar24를 찾았어요. 이 사이트는 지도 위에 비행기의 위치를 표시해줘요. 꽤 잘 작동했지만, 눈으로 찾아야 하는 비행기 위치를 확인하기가 조금 번거로웠어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Plane](/assets/img/2024-07-13-MyToddlerLovesPlanesSoIBuiltHerARadar_1.png)
 
@@ -51,7 +80,18 @@ isUpdated: true
 
 그러니 우리는 여전히 문제를 안고 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오리엔테이션.
 
@@ -61,7 +101,18 @@ isUpdated: true
 
 아피지아 모바일 기술 리드로써, 제가 어린이에게 마음에 드는 앱을 만들어 주는 것을 막을 수 있는 것은 없었습니다. 하지만 우리 아이에게 말려하는 말대로, 제 딸을 위해 웅장한 앱을 만들기 시작하기에는 어디서부터 시작해야 할지도 모르겠다고 생각했었죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 비전이 형성되어 가는 중이에요
 
@@ -73,7 +124,18 @@ isUpdated: true
 - 비행기를 비행 높이에 따라 크기가 커지거나 작아져야 해요.
 - 앱은 재미있어야 하고, 진지한 비즈니스 앱보다는 오히려 레트로 아동용 장난감 같이 느껴져야 해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 요구 사항은 컨셉 증명의 일부를 형성하는 여러 이동 부분을 유발했습니다:
 
@@ -86,7 +148,18 @@ isUpdated: true
 
 컨셉을 증명한 후에는 정말 재미있는 부분인 멋진 레이더로 만들고 제 아이와 함께 테스트할 수 있는 작업에 착수할 수 있을 것입니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Concept Validation
 
@@ -96,7 +169,18 @@ isUpdated: true
 
 끝없는 의지력을 발휘해서, MVP가 완성될 때까지 앱 아이콘에 시간 낭비는 하지 않을 거예요. 하지만 시작할 프로젝트명은 이제 갖추게 되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 오리엔테이션
 
@@ -106,28 +190,39 @@ isUpdated: true
 
 내 LocationManager는 초기 설정에서 위치 권한 요청, 델리게이트 설정, 그리고 Core Location에 오리엔테이션 정보 전송 시작을 처리합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```swift
 final class LocationManager: CLLocationManager, CLLocationManagerDelegate {
-    
+
     static let shared = LocationManager()
-    
+
     private(set) var rotationAngleSubject = CurrentValueSubject<Double, Never>(0)
-    
+
     override init() {
         super.init()
         requestWhenInUseAuthorization()
         delegate = self
         startUpdatingHeading()
     }
-    
+
     func locationManager(_ manager: CLLocationManager, didUpdateHeading newHeading: CLHeading) {
         rotationAngleSubject.send(-newHeading.magneticHeading)
     }
 }
 
-SwiftUI 뷰에서 잘 동작하도록 하려면, Combine publisher를 통해 orientation 정보를 보내야 해요. rotationAngleSubject를 이용해서, 뷰 내에서 .onReceive로 반응적으로 처리하고, 로컬 @State 속성 rotationAngle을 설정할 수 있어요.  
+SwiftUI 뷰에서 잘 동작하도록 하려면, Combine publisher를 통해 orientation 정보를 보내야 해요. rotationAngleSubject를 이용해서, 뷰 내에서 .onReceive로 반응적으로 처리하고, 로컬 @State 속성 rotationAngle을 설정할 수 있어요.
 
 뷰 내에서 멋진 나침반 효과를 얻기 위해, rotationAngle과 함께 변하는 직사각형들을 그리고 있어요.
 
@@ -150,7 +245,16 @@ var body: some View {
     }
 }
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 장치에서 테스트해본 결과 정말 좋아 보이고 실제 위치에 완벽하게 반응합니다!
 
@@ -160,7 +264,16 @@ var body: some View {
 
 ## 비행 데이터 API
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 워밍업이 끝났어요.
 
@@ -170,7 +283,16 @@ var body: some View {
 
 https://opensky-network.org/api/states/all?lamin=51.0&lamax=52.0&lomin=-0.5&lomax=0.5
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 REST API는 잘 문서화되어 있지만, 키가 없는 구조로 되어 있어요. 데이터가 순차적으로 나열된 속성 목록으로 제공돼요.
 
@@ -180,15 +302,15 @@ REST API는 잘 문서화되어 있지만, 키가 없는 구조로 되어 있어
 
 struct Flight: Decodable {
 
-    let icao24: String 
+    let icao24: String
     let callsign: String?
-    let origin_country: String? 
+    let origin_country: String?
     let time_position: Int?
     let last_contact: Int
     let longitude: Double
     let latitude: Double
 
-    // ... 
+    // ...
 
     init(from decoder: Decoder) throws {
         var container = try decoder.unkeyedContainer()
@@ -204,14 +326,23 @@ struct Flight: Decodable {
     }
 }
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자의 위치 좌표를 기반으로 하는 GET 요청을 수행하는 간단한 API를 작성할 수 있어요.
 
 final class FlightAPI {
-    
+
     func fetchLocalFlightData(coordinate: CLLocationCoordinate2D) async throws -> [Flight] {
-        
+
         let lamin = String(format: "%.1f", coordinate.latitude - 0.25)
         let lamax = String(format: "%.1f", coordinate.latitude + 0.25)
         let lomin = String(format: "%.1f", coordinate.longitude - 0.5)
@@ -227,7 +358,16 @@ final class FlightAPI {
 
 항공 데이터는 메모리 내 Flight 객체의 배열로 아주 잘 파싱되었어요. 이제 이를 간단하게 다룰 수 있죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 비행기 그리기
 
@@ -237,7 +377,16 @@ final class FlightAPI {
 
 이제, 초기 컨셉 증명에서 가장 어려운 부분에 도달했습니다: 실제로 비행기 아이콘을 나의 위치와 비교하여 올바른 위치에 표시하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나의 첫 번째 시도는 직선적인 방법이었어: 상대적인 위도와 경도를 화면에 표시된 점수 값으로 고정하여 곱했어.
 
@@ -261,7 +410,16 @@ var airplanes: some View {
 
 ## 초기 결과
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비행기 그림의 정확성을 실제로 테스트하는 방법은 무엇인가요?
 
@@ -276,13 +434,22 @@ var airplanes: some View {
 
 var body: some View {
     ZStack {
-        Markdown(position: $cameraPosition) { } 
+        Markdown(position: $cameraPosition) { }
         airplanes
         compass
     }
 }
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 첫 심야 해커톤 결과물과 FlightRadar의 예측을 비교해봤어. 정말 흥미로운 걸 발견했어. 하늘에서 비행기의 수와 집합이 대체적으로 맞는 데 위치는 상당히 틀리네.
 
@@ -290,7 +457,16 @@ var body: some View {
 
 맵에 비행기를 주석을 이용해 그려야겠어!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # The MVP
 
@@ -300,7 +476,16 @@ var body: some View {
 
 ## 지도 주석
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 iOS 17에 나오는 기능 중에는 맵에 주석을 그리는 것이 쉽다고 하네요. FlightMapView를 리팩토링해보는 건 어떨까요?
 
@@ -308,9 +493,9 @@ import MapKit
 import SwiftUI
 
 struct FlightMapView: View {
-    
+
     @Binding var cameraPosition: MapCameraPosition
-    
+
     let flights: [Flight]
 
     var body: some View {
@@ -326,7 +511,16 @@ struct FlightMapView: View {
 
 ## 비행기 크기 결정
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오리엔테이션 이후, 사이징은 기존 솔루션에서 처리되지 못한 핵심 문제였습니다.
 
@@ -349,7 +543,16 @@ private var planeMapAnnotations: some MapContent {
     }
 }
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 사용자 연구
 
@@ -359,7 +562,16 @@ private var planeMapAnnotations: some MapContent {
 
 우리는 실제 지도 주석을 갖고 있으며 지도상에서 사용자의 위치와 방향을 표시합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가장 중요한 것은 비행기를 정확하게 찾아낸다는 것이죠!
 
@@ -369,7 +581,16 @@ MVP는 대성공을 거뒀어요. 딸과 함께 앱에서 확인할 수 있는 �
 
 첫째, 제 스케일링 논리가 역으로 되어 있다는 것이에요. 런던 시티 공항에 있는 작은 비행기를 보세요. 앱의 목적이 하늘에서 비행기를 찾는 것이기 때문에 스케일링을 역전시켜야 해요. 높이에 있는 비행기는 우리 눈으로 발견하기 쉬워야 하니까 더 커 보여야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 번째로, 내 유아는 지도에 관심을 두지 않고 비행기에만 관심이 있어요. 비행기를 찾는 데 주의를 집중하고 소음을 없애려면 지도를 제거해야 했죠. 그리고 레이더를 구축하기 시작했어요!
 
@@ -379,7 +600,16 @@ MVP는 대성공을 거뒀어요. 딸과 함께 앱에서 확인할 수 있는 �
 
 화면에 잘 어울리고 크기가 적당하게 분포되는 것을 확인하기 위해 몇 가지 시도 끝에 이 스케일링을 선택했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제 지역의 공중 스캔에서 이러한 스케일링이 나왔어요:
 
@@ -393,7 +623,16 @@ MVP는 대성공을 거뒀어요. 딸과 함께 앱에서 확인할 수 있는 �
 
 이 분포는 상당히 잘 작동하는 것 같아요. NOx를 제외하고는, 항공 여행 중심지에서 살 때 꽤 유용하답니다. 🌬️✈️
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 레이더 만들기
 
@@ -403,9 +642,18 @@ MVP는 대성공을 거뒀어요. 딸과 함께 앱에서 확인할 수 있는 �
 
 오픈 소스인 OpenSky API는 타임아웃이 발생하며 502 Bad Gateway 오류를 반환하거나 때로는 단순히 null 데이터를 가진 200 응답을 반환했다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
-프랭키, 괜찮아요 — 이 애플리케이션은 기업 비즈니스 앱이 아니니까, 이 멋진 API는 무료로 제공됩니다. SLA가 없고 제가 그런 것을 요구하지도 않아요. 
+프랭키, 괜찮아요 — 이 애플리케이션은 기업 비즈니스 앱이 아니니까, 이 멋진 API는 무료로 제공됩니다. SLA가 없고 제가 그런 것을 요구하지도 않아요.
 
 클라이언트 측의 신뢰성을 높이기 위해 API 호출에서 기본적인 재시도 논리를 구현했어요.
 
@@ -422,7 +670,16 @@ private func fetchFlights(at coordinate: CLLocationCoordinate2D, retries: Int = 
 
 다음 날, 그 API는 하루 종일 잘 작동했어요 — 특정 고트래픽 시간을 제외하고는 대부분 좋은 것으로 보여요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 지도를 가리는 작업
 
@@ -442,7 +699,7 @@ struct FlightMapView: View {
     }
 
     // ...
-    
+
     private func rectangle(around coordinate: CLLocationCoordinate2D) -> [CLLocationCoordinate2D] {
         [
             CLLocationCoordinate2D(latitude: coordinate.latitude - 1, longitude: coordinate.longitude - 1),
@@ -451,14 +708,23 @@ struct FlightMapView: View {
             CLLocationCoordinate2D(latitude: coordinate.latitude + 1, longitude: coordinate.longitude - 1)
         ]
     }
-    
+
     private func overlay(coordinate: CLLocationCoordinate2D) -> MKPolygon {
         let rectangle = rectangle(around: coordinate)
         return MKPolygon(coordinates: rectangle, count: rectangle.count)
     }
 }
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 소중한 행운을 소모하면서, 이 접근법이 아주 효과적으로 작동했어요! 이제 비행기를 볼 수 있지만 지도는 없고, 우리가 원하던대로예요!
 
@@ -468,7 +734,16 @@ struct FlightMapView: View {
 
 핵심 요구 사항 중 마지막 조각이 레이더 화면이었어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 본질적으로 세트의 선, 동심원, 그리고 20도의 회전 각도였어요. 저같은 SwiftUI 애호가에게는 간단한 작업이었죠.
 
@@ -478,7 +753,16 @@ struct FlightMapView: View {
 
 오늘의 핵심 시각적 변화 - 지도를 오버레이로 숨기고 레이더를위한 SwiftUI 뷰 몇 줄로 - 우리는 이제 원래의 비전에 빠르게 다가가고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하늘을 가득 채우는 비행기와 레이더 UI를 비교해 볼 때, 우리는 상당히 잘 어울립니다.
 
@@ -488,7 +772,16 @@ struct FlightMapView: View {
 
 우리는 개념을 증명했고, 핵심 초기 목표를 달성하는 MVP를 완성했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 앱 스토어에 올릴 준비를 시작해볼까요?
 
@@ -498,15 +791,33 @@ struct FlightMapView: View {
 
 ### 레이더를 돋보이게 만들기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
-제가 레이더에 만든 효과에 자랑스러웠어요. 
+제가 레이더에 만든 효과에 자랑스러웠어요.
 
 [하신 효과](https://miro.medium.com/v2/resize:fit:1152/1*jD2X69Yi6Glx-uV_0xDOeA.gif)는 마치 내가 하는 게 '멍청한 천재'라고 불렀다면서요.
 
 처음에는 삼각법과 타이머를 사용하여, 선이 건드릴 때마다 맵 주석을 재색칠하고 서서히 사라지게 만드는 방법을 고안했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 그때 내가 깨달았어. 내 라인은 단순히 초록에서 투명으로 이어지는 20도 폭의 각도 그라데이션일 뿐이라는 걸.
 
@@ -534,7 +845,16 @@ private var radarLine: some View {
         .animation(.linear(duration: 6).repeatForever(autoreverses: false), value: rotationDegree)
 }
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자주 그러한 경우 그러한 해결책이 가장 잘 작동합니다.
 
@@ -544,7 +864,16 @@ private var radarLine: some View {
 
 ## 레이더를 정말로 돋보이게 만들기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 UI가 지금 정리되어 보이지만 아직 레트로라고 말하기는 좀 이르네요.
 
@@ -560,32 +889,41 @@ using namespace metal;
     half4 color,
     float time
 ) {
-    
+
     if (all(abs(color.rgb - half3(0.0, 0.0, 0.0)) < half3(0.01, 0.01, 0.01))) {
         return color;
     }
-    
+
     const half scanlineIntensity = 0.2;
     const half scanlineFrequency = 400.0;
     half scanlineValue = sin((position.y + time * 10.0) * scanlineFrequency * 3.14159h) * scanlineIntensity;
     return half4(color.rgb - scanlineValue, color.a);
 }
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 C++에 대해 더 깊게 다루는 것은 다른 기사에 남겨둘 수 있을 것 같아요. 무료로 가져다 쓰셔도 좋습니다 — 가장 중요한 것은, 우리가 원하는 어떤 뷰에도 CRT 효과를 적용할 수 있는 뷰 수정자를 만들었다는 거에요!
 
 extension View {
-    
+
     func crtScreenEffect(startTime: Date) -> some View {
         modifier(CRTScreen(startTime: startTime))
     }
 }
-    
+
 struct CRTScreen: ViewModifier {
-    
+
     let startTime: Date
-    
+
     func body(content: Content) -> some View {
         content
             .colorEffect(
@@ -600,17 +938,35 @@ struct CRTScreen: ViewModifier {
 
 ![CRT Effect](https://miro.medium.com/v2/resize:fit:1200/1*w2X46UKHmjIzpO8ROWlRrA.gif)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 비상업적 이용
 
 오픈스카이 네트워크 웹사이트는 꽤 명확하지만, 제가 공손하게 하기 위해 메모를 보내어 어플스토어에 제가 올릴 것이 그들의 정책에 잘 부합하는지 확인했습니다.
 
-그들은 매우 친절히 20분 내에 답장을 주셨어요! 
+그들은 매우 친절히 20분 내에 답장을 주셨어요!
 
 ![이미지](/assets/img/2024-07-13-MyToddlerLovesPlanesSoIBuiltHerARadar_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 시각 너머
 
@@ -631,11 +987,20 @@ private func fetchFlights(coordinate: Coordinate, retries: Int = 2) async {
 
 때로는 새로운 haptic를 위한 메인 뷰에 sensorFeedback 수식어도 함께 사용해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```
-.sensoryFeedback(.levelChange, trigger: hapticTrigger)
 
+.sensoryFeedback(.levelChange, trigger: hapticTrigger)
 
 But you know what? As I was working on this code, a thought popped up in my mind. Not everyone might appreciate that beeping sound. So, I think it's time to introduce some customization options.
 
@@ -643,7 +1008,18 @@ But you know what? As I was working on this code, a thought popped up in my mind
 
 Let's start with a silent mode, which should be the first on the list.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 @AppStorage를 사용하여 몇 가지 간단한 사용자 정의도 가능합니다.
 
@@ -657,7 +1033,18 @@ Let's start with a silent mode, which should be the first on the list.
 
 그러나 가장 중요한 것은 제 아이를 위해 이것을 만들고 있기 때문에 SwiftUI 색상 선택기를 통해 레이더에 사용자 정의 색상을 선택하는 것이 절대적으로 필수적입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 드디어, 한 쌍의 애니메이션 SFSymbol이 없는 삶이 어떤 것인지 생각해보세요!
 
@@ -673,7 +1060,18 @@ private func toggleableIcon(state: Bool, iconTrue: String, iconFalse: String) ->
 
 ![Animated SFSymbol](https://miro.medium.com/v2/resize:fit:1200/1*wyixSZmnEn2o4QgbraNQ7w.gif)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 조금 리팩토링을 해야 하는데, 뷰를 각각의 파일로 옮겨야 할 것 같아요.
 
@@ -692,13 +1090,13 @@ var body: some View {
                 coordinate: coordinate
             )
         }
-    
+
         TimelineView(.animation) { context in
             RadarView()
                 .crtScreenEffect()
                 .negativeHighlight()
         }
-    
+
         ControlsView(errorMessage: errorMessage)
     }
 
@@ -708,12 +1106,33 @@ var body: some View {
 
 ## The Aviator Mascot
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 치즈! 지난 달에 Midjourney 비용 납부를 멈춰서, 무역용으로 무료 사용할 수 있는 제네크래프트의 생성기를 활용했어요. 다행히도, 독비 모자를 쓴 딸을 근사하게 재현했는데, 바로 원했던 느낌이더라구요! ![링크](/assets/img/2024-07-13-MyToddlerLovesPlanesSoIBuiltHerARadar_4.png) 덕분에 트위터에서 제 가장 성공적인 트윗을 남겼답니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-13-MyToddlerLovesPlanesSoIBuiltHerARadar_5.png)
 
@@ -722,11 +1141,20 @@ var body: some View {
 나는 개인적으로 여러 해 동안 애플 개발자 프로그램에 비용을 지불한 적이 없어.
 이 버려진 사이드 프로젝트 무덤을 봐.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지 주소가 있기 때문에 마크다운 형식으로 변경해 주세요.
-
 
 ![Image 6](/assets/img/2024-07-13-MyToddlerLovesPlanesSoIBuiltHerARadar_6.png)
 
@@ -736,8 +1164,18 @@ Welp. I’m £79 down and ready to hit publish.
 
 ## 최종 사용자 테스트
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일요일 오후까지 계속 기다리면서, 아이가 이제 UI 색상을 직접 선택할 수 있다는 사실에 완전히 기뻐하는 여동생과 함께 주말 사용자 테스트 몇 라운드 더 진행해 보겠습니다.
 
@@ -747,7 +1185,18 @@ Welp. I’m £79 down and ready to hit publish.
 
 ## 일요일 오후
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 이제 온라인 상태입니다!
 
@@ -757,7 +1206,18 @@ Welp. I’m £79 down and ready to hit publish.
 
 지금 바로 폰에 Aviator — Radar 앱을 다운로드 받아보세요 (평가도 하지 마세요)!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 다음 단계
 
@@ -773,8 +1233,19 @@ Welp. I’m £79 down and ready to hit publish.
 - 일부 거리 및 고도를 필터링하는 슬라이더 컨트롤을 구현합니다. 예를 들어, 아래에 있는 원격 항공기를 숨기기 위해 일부 거리 및 높이를 숨깁니다.
 - 레이더에 UFO, 거대한 벌레, 외계인을 렌더링하는 "우주모드"를 구현합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-피드백이나 당신만의 아이디어가 있다면, 댓글로 꼭 알려주세요! 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+피드백이나 당신만의 아이디어가 있다면, 댓글로 꼭 알려주세요!
 
 (진짜, 새로운 Medium 알고리즘에 따르면, 클랩과 댓글이 상당한 차이를 만들어냅니다!)

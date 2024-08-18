@@ -3,17 +3,13 @@ title: "대형 언어 모델의 작동 원리 이해하기"
 description: ""
 coverImage: "/assets/img/2024-07-01-HowLargeLanguageModelswork_0.png"
 date: 2024-07-01 21:39
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-01-HowLargeLanguageModelswork_0.png
 tag: Tech
 originalTitle: "How Large Language Models work"
 link: "https://medium.com/data-science-at-microsoft/how-large-language-models-work-91c362f5b78f"
 isUpdated: true
 ---
-
-
-
-
 
 대규모 언어 모델(Large Language Models, LLMs) 덕분에 인공지능이 이제 거의 모든 이의 관심을 사로 잡았습니다. 아마도 가장 유명한 LLM인 ChatGPT는 자연 언어가 최근의 인공지능의 폭발적인 발전을 모두에게 접근 가능하게 만든 자연스러운 인터페이스이기 때문에 즉각적으로 인기를 얻었습니다. 그럼에도 불구하고, LLM의 작동 방식은 데이터 과학자나 다른 AI 관련 직군에 속하지 않는 한 여전히 잘 알려지지 않은 부분이 있습니다. 본 글에서는 이를 바꿔보려고 합니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 우리는 모든 사소한 세부 사항에 대해 심층적으로 파헤치지는 않을 것이므로 여기서는 수학이나 이성보다는 직관과 가능한 한 시각적인 자료에 의존할 것입니다. 하지만 보게 되겠지만, 세부 사항에서는 분명히 매우 복잡하지만, LLM의 기본 메커니즘은 매우 직관적이며 그것만으로도 여기에서 아주 멀리 갈 수 있을 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글은 ChatGPT와 같은 LLM을 더 효과적으로 활용하는 데 도움이 될 것입니다. 실제로 유용한 응답을 얻기 위해 적용할 수 있는 몇 가지 멋진 팁을 배워보겠습니다. 최근에는 잘 알려진 AI 연구자이자 엔지니어인 Andrei Karparthy 라고 명확하게 말했듯이: "영어는 가장 뜨거운 새로운 프로그래밍 언어다."
 
@@ -36,7 +43,18 @@ AI 분야는 종종 다음과 같이 계층화되어 시각화됩니다:
 - 딥러닝은 텍스트와 이미지와 같은 구조화되지 않은 데이터에 중점을 둔 ML 내의 분야입니다. 인공 신경망에 의존하는데, 이는 (대략적으로) 인간 뇌에서 영감을 받은 방법입니다.
 - 대형 언어 모델(LLM)은 특히 텍스트를 다루며, 이번 글의 초점이 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 여기서 각 계층에서 관련 있는 부분을 수집하면서 나아갈 것입니다. 우리는 인공 지능(너무 일반적하기 때문에)만 건너 뛰고 바로 머신 러닝으로 넘어갈 것입니다.
 
@@ -46,7 +64,18 @@ AI 분야는 종종 다음과 같이 계층화되어 시각화됩니다:
 
 우리에게는 20곡의 노래가 있다고 가정해봅시다. 각 노래의 템포와 에너지, 즉 어떤 노래든 간단히 측정하거나 계산할 수 있는 두 개의 측정 지표를 알고 있습니다. 더불어 각각을 레게톤이나 R&B로 레이블하였습니다. 데이터를 시각화하면, 높은 에너지와 높은 템포의 노래들이 주로 레게톤인 반면, 낮은 템포와 낮은 에너지의 노래들은 대부분 R&B임을 알 수 있습니다. 이는 타당한 판단입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 우리는 장르를 수작업으로 계속 라벨링해야 하는 번거로움과 확장이 어려운 문제를 피하고 싶습니다. 대신, 노래의 측정 항목(템포, 에너지)과 장르 간의 관계를 배우고 오직 쉽게 사용 가능한 측정 항목만을 사용하여 예측할 수 있습니다.
 
@@ -56,7 +85,18 @@ AI 분야는 종종 다음과 같이 계층화되어 시각화됩니다:
 
 이게 어떻게 유용한가요? 이제 이 선을 알게 됐으므로, 새로운 노래에 대해 이 선의 어느 쪽에 해당하는지에 따라 레게톤인지 R&B인지 예측할 수 있습니다. 필요한 것은 우리가 더 쉽게 사용 가능하다고 가정한 템포와 에너지입니다. 이것은 각 노래에 대해 사람이 장르를 할당하는 것보다 훨씬 간단하고 확장 가능합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한 경계선으로부터 멀리 갈수록 우리가 정확하다고 확신할 수 있는 정도가 높아지는 것을 상상할 수 있겠지요. 따라서 우리는 종종 예측이 얼마나 정확한지에 대해 확신할 수 있는 정도를 경계선으로부터의 거리를 기반으로 진술할 수도 있습니다. 예를 들어, 우리의 새로운 저에너지, 저템포 노래가 98% 확률로 R&B 곡이라고 확신할 수 있으며, 2%의 가능성으로 레게톤이 될 수도 있겠죠.
 
@@ -66,7 +106,18 @@ AI 분야는 종종 다음과 같이 계층화되어 시각화됩니다:
 
 현실은 일반적으로 다른 한 가지 방식으로도 더 복잡해요. 위의 예시처럼 두 개의 입력뿐 아니라 흔히 수십, 수백 또는 수천 개의 입력 변수가 있을 수 있어요. 게다가 종종 두 개 이상의 클래스가 있습니다. 그리고 모든 클래스가 모든 이 입력들을 통해 놀랍도록 복잡한 비선형 관계를 가질 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현실에서는 빠르기와 에너지 외에도 여러 가지 잇점이 있기 때문에 더 많은 장르가 있다는 것을 알 수 있습니다. 이러한 요소들 사이의 관계도 그다지 간단하지 않을 것입니다.
 
@@ -76,7 +127,18 @@ AI 분야는 종종 다음과 같이 계층화되어 시각화됩니다:
 
 이제 약간 다른 문제로 넘어가 보겠습니다. 하지만, 이전에 살펴본 메타 모델을 적용하기만 하면 되는 문제입니다. 새로운 문제에서는 예를 들어, 이 봉지 속 귀여운 고양이 사진과 같은 이미지를 입력으로 받습니다 (고양이가 있는 예제는 언제나 최고니까요).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리의 결과물에 대해 말씀드리면, 이번에는 세 가지 가능한 레이블이 있다고 합시다: 호랑이, 고양이, 여우. 이 작업에 동기부여가 필요하다면, 양 무리를 보호하고 호랑이를 보면 경고음을 울리고 고양이나 여우를 보더라도 울리지 않도록 하려는 것으로 상상해 보시죠.
 
@@ -86,7 +148,18 @@ AI 분야는 종종 다음과 같이 계층화되어 시각화됩니다:
 
 그러나 이제 두 가지 문제에 직면하고 있습니다. 첫째, 작고 품질이 낮은 224x224 이미지라도 15만 개가 넘는 픽셀로 이루어져 있다는 것 (224x224x3). 기억하죠, 최대 수백 개의 입력 변수에 대해 이야기 했고(수천 개 이상은 거의 없었습니다), 그런데 이제 갑자기 적어도 15만 개 이상의 픽셀이 생기게 되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 번째로, 원시 픽셀과 클래스 레이블 간의 관계를 생각해보면, 적어도 기계 학습 관점에서는 믿을 수 없을 정도로 복잡합니다. 우리 인간 뇌는 호랑이, 여우, 고양이를 일반적으로 쉽게 구별하는 놀라운 능력을 갖고 있습니다. 그러나 당신이 15만 개의 픽셀을 하나씩 보게 된다면, 그 이미지에 무엇이 포함되어 있는지 전혀 알 수 없을 것입니다. 그러나 기계 학습 모델이 이렇게 보는 방식이기 때문에 이들 사이의 매핑 또는 관계를 처음부터 배워야 하며, 이는 쉬운 작업은 아닙니다.
 
@@ -96,7 +169,18 @@ AI 분야는 종종 다음과 같이 계층화되어 시각화됩니다:
 
 이전에 논의한 이미지 예제와 마찬가지로, 우리 인간은 자연스럽게 이 관계를 이해하지만, 기계 학습 모델에게 동일하게 가르칠 수 있을까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이에 대한 답변에 앞서, 우리는 시작할 때 단어를 기계 학습 모델에 숫자 입력으로 어떻게 변환할 수 있는지 명백하지 않다는 것을 다시 한 번 알 수 있습니다. 사실, 이는 이미 숫자로 구성된 이미지와는 달리 레벨이나 두 정도 복잡하다는 것을 알 수 있습니다. 이는 단어의 경우에는 이미 숫자로 구성되어 있는 이미지와는 다릅니다. 여기서 자세한 내용에 대해 다루지는 않겠지만 알아야 할 것은 모든 단어를 단어 임베딩으로 바꿀 수 있다는 것입니다.
 
@@ -106,7 +190,18 @@ AI 분야는 종종 다음과 같이 계층화되어 시각화됩니다:
 
 좋은데, 이제 시각적 입력과 마찬가지로 동일한 도전에 직면하게 됩니다. 긴 문장(또는 단락 또는 심지어 전체 문서)의 경우, 단어 임베딩의 크기가 크기 때문에 매우 많은 입력값에 빠르게 도달할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 번째 문제는 언어와 감정 간의 관골 관계로, 이는 복잡합니다 — 매우 복잡합니다. "그것은 훌륭한 하락이었습니다"라는 문장을 상상해 보면 그 해석 방법이 많다는 것을 알 수 있죠 (비꼼으로 하지 않았어도 말이에요).
 
@@ -116,17 +211,39 @@ AI 분야는 종종 다음과 같이 계층화되어 시각화됩니다:
 
 입력과 출력 간의 관계가 매우 복잡하거나 입력 또는 출력 변수의 수가 많을 경우(이전 이미지 및 언어 예시에서의 경우와 동일), 더 유연하고 강력한 모델이 필요합니다. 선형 모델이나 그와 유사한 모델은 이러한 시각적 또는 감정 분류 작업을 해결할 수 없습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 신경망이 등장하는 곳입니다.
 
 신경망은 임의로 복잡한 관계를 모델링할 수 있는 강력한 기계 학습 모델입니다. 이것들은 대규모 규모에서 이러한 복잡한 관계를 학습할 수 있는 엔진입니다.
 
-실제로 신경망은 뇌에서 영감을 받아 만들어졌지만, 실제 유사성은 논란이 많습니다. 그들의 기본 아키텍처는 비교적 간단합니다. 입력 신호가 결과 변수를 예측하기 위해 통과하는 연결된 "뉴런"의 일련의 층으로 구성되어 있습니다. 이를 여러 개의 선형 회귀 층이 쌓인 것으로 생각할 수 있으며 그 사이에 비선형성이 추가되어 있어 신경망이 매우 비선형 관계를 모델링할 수 있도록 합니다. 
+실제로 신경망은 뇌에서 영감을 받아 만들어졌지만, 실제 유사성은 논란이 많습니다. 그들의 기본 아키텍처는 비교적 간단합니다. 입력 신호가 결과 변수를 예측하기 위해 통과하는 연결된 "뉴런"의 일련의 층으로 구성되어 있습니다. 이를 여러 개의 선형 회귀 층이 쌓인 것으로 생각할 수 있으며 그 사이에 비선형성이 추가되어 있어 신경망이 매우 비선형 관계를 모델링할 수 있도록 합니다.
 
 신경망은 종종 매우 깊은 다층으로 이루어져 있어 (그래서 Deep Learning이라는 이름이 붙음) 극도로 크기가 커질 수 있습니다. 예를 들어 ChatGPT는 약 1000억 개의 뉴런을 포함하는 신경망을 기반으로 하고 있으며 이는 인간 뇌의 1000억 개의 뉴런보다 많습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서 이제부터는 우리가 기계 학습 모델로 신경망을 가정하고 이미지와 텍스트를 처리하는 방법도 배웠다고 가정하겠습니다.
 
@@ -136,7 +253,18 @@ AI 분야는 종종 다음과 같이 계층화되어 시각화됩니다:
 
 그것이 확립된 후, '언어 모델'이 무엇인가요? 다음에 이에 대해 논의해보겠습니다. 조금 뒤에는 ChatGPT의 GPT가 무엇을 의미하는지도 배우게 될 거에요. 하지만 한 걸음씩 진행하겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 아이디어를 가져와 기계 학습 문제로 만들어 봅시다: 주어진 단어 시퀀스에서 다음 단어는 무엇인가요, 즉, 문장이나 단락에서 다음 단어를 예측하는 방법을 배우려고 합니다. 이런식으로, 우리는 단순히 언제든지 다음 단어를 예측하는 법을 익히려고 합니다. 이 글의 앞부분을 통해, 우리는 이것을 기계 학습 문제로 표현하는 데 필요한 모든 것을 배웠습니다. 사실, 이 작업은 앞서 본 감정 분류와 매우 유사합니다.
 
@@ -146,7 +274,18 @@ AI 분야는 종종 다음과 같이 계층화되어 시각화됩니다:
 
 우리는 이 작업을 알고, 이제 신경망을 훈련시킬 데이터가 필요합니다. 사실 "다음 단어 예측" 작업을 위한 많은 데이터를 만드는 것은 어렵지 않습니다. 인터넷에는 풍부한 텍스트 자료가 있고, 책, 연구 논문에서도 찾아볼 수 있습니다. 그리고 우리는 이 모든 것으로 거대한 데이터셋을 쉽게 만들 수 있습니다. 우리는 데이터에 라벨을 붙일 필요조차 없는데, 왜냐하면 다음 단어 자체가 라벨이기 때문이며, 이것이 셀프-슈퍼바이즈드 학습이라고도 불리기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 이미지는 이 작업이 어떻게 이루어지는지 보여줍니다. 하나의 시퀀스는 훈련을 위해 여러 시퀀스로 나뉘어질 수 있습니다. 그리고 이와 같은 시퀀스들이 많이 있습니다. 중요한 점은 우리가 많은 짧은 시퀀스와 긴 시퀀스(수천 단어에 이르는 것도 있음)에 대해 이 작업을 수행하여, 모든 맥락에서 우리가 다음 단어가 무엇이어야 하는지 배우게 된다는 것입니다.
 
@@ -156,7 +295,18 @@ AI 분야는 종종 다음과 같이 계층화되어 시각화됩니다:
 
 이제 한 단어를 예측할 수 있게 되었으니, 그 확장된 시퀀스를 다시 LLM에 넣고 다른 단어를 예측할 수 있습니다. 다시 말해, 훈련된 LLM을 사용하여 이제 한 단어씩이 아닌 텍스트를 생성할 수 있습니다. 이것이 LLM이 제너레이티브 인공지능이라고 불리는 것의 예시입니다. 우리는 LLM에게 한 번에 한 단어씩 말하는 법을 가르쳤습니다, 말하자면.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이에 대해 더 중요한 사항 한 가지를 이해하는 것이 중요하다고 생각합니다. 우리는 꼭 가장 가능성이 높은 단어를 예측할 필요는 없습니다. 대신, 특정 시간에 가장 가능성이 높은 다섯 개의 단어 중에서 샘플링할 수 있습니다. 결과적으로 LLM에서 좀 더 창의성을 얻을 수도 있습니다. 일부 LLM은 실제로 출력물이 얼마나 결정론적 또는 창의적이어야 하는지 선택할 수 있도록 합니다. 이것이 ChatGPT에서는 동일한 답변을 재생산하지 않는 경우가 일반적한 이유이기도 합니다.
 
@@ -166,7 +316,18 @@ ChatGPT에 대해 이야기할 때, 이제 스스로에게 물을 수 있습니�
 
 여기서 T는 "Transformer"로, 영화에 나오는 그것이 아니라 (죄송합니다), 사용되고 있는 단순히 신경망 아키텍처의 유형입니다. 여기서 크게 신경 쓸 필요는 없지만, 궁금하고 주요 강점만 알고 싶다면, Transformer 아키텍처가 작동하는 이유는 언제나 입력 시퀀스의 주요한 부분에 주의를 집중할 수 있기 때문입니다. 이는 인간이 작동하는 방식과 유사하다고 주장할 수 있습니다. 우리도 작업에 가장 중요한 부분에 주의를 집중하고 나머지는 무시해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 P로 넘어가 봅시다, 그것은 "사전 훈련"을 나타냅니다. 우리는 갑자기 사전 훈련에 대해 이야기하고 훈련이 아니라 사전 훈련에 대해 언급하는 이유에 대해 다음에 설명합니다.
 
@@ -176,7 +337,18 @@ ChatGPT에 대해 이야기할 때, 이제 스스로에게 물을 수 있습니�
 
 첫 번째 단계는 사전 훈련이며, 바로 우리가 방금 경험한 것입니다. 이 단계는 다음 단어를 예측하기 위해 방대한 양의 데이터가 필요합니다. 이 단계에서 모델은 언어의 문법과 구문을 마스터하는 것뿐만 아니라 세계에 대한 많은 지식을 습득하고, 나중에 더 자세히 이야기하게 될 몇 가지 새로운 능력을 키우기도 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 이제 여러분들께 몇 가지 질문이 있어요: 첫째, 이런 종류의 사전 훈련에서 어떤 문제가 발생할 수 있을까요? 그렇습니다. 몇 가지 문제가 있을 테지만, 여기서 가르치려는 것은 LLM이 실제로 무엇을 배웠는지에 대한 문제입니다.
 
@@ -184,7 +356,18 @@ ChatGPT에 대해 이야기할 때, 이제 스스로에게 물을 수 있습니�
 
 이 모델은 도우미로서 행동하도록 배우지 않았기 때문에 지시에 따르지 못해요. 예를 들어, 지시 후 응답이라는 언어 구조는 훈련 데이터에서 그다지 흔하게 나오지 않기 때문에 지시를 따르지 못해요. 이런 종류의 구조는 Quora나 StackOverflow가 가장 유사한 훈련 자료일 수도 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 단계에서는 LLM이 인간의 의도와 일치하지 않는다고 말합니다. 정렬은 LLM에 대한 중요한 주제이며, 그 문제를 해결하는 방법을 상당부분 이해하게 됩니다. 사전 훈련된 LLM은 사실 매우 조정 가능한 것으로 밝혀졌습니다. 따라서 처음에는 명령에 잘 반응하지 않더라도 교육을 통해 그렇게 할 수 있다는 것을 알 수 있습니다.
 
@@ -194,7 +377,18 @@ ChatGPT에 대해 이야기할 때, 이제 스스로에게 물을 수 있습니�
 
 이 방법으로 모델은 단순히 텍스트 보충기일 뿐만 아니라 사용자의 의도에 일치하는 방식으로 지시를 따르고 응답하는 도움이 되는 보조 도구로 변하도록 배우게 됩니다. 이 지시 데이터 집합의 크기는 일반적으로 사전 훈련 세트보다 훨씬 작습니다. 이는 고품질의 지시-응답 쌍을 만드는 데 더 비용이 많이 드는 경향이 있기 때문입니다. 이러한 쌍은 일반적으로 인간으로부터 가져옵니다. 사전 훈련 때 사용한 저렴한 자가 지도 레이블과는 매우 다릅니다. 그래서 이 단계를 지도 지시 fine-tuning이라고도 부릅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일부 LLM(대형 언어 모델)들이 거치는 세 번째 단계인 '인간 피드백으로 강화학습'에 대해 이야기해 볼까요? 여기서 자세히 다루지는 않겠지만, 그 목적은 지침 세분화와 유사합니다. RLHF를 통해 LLM의 출력이 인간의 가치와 선호를 반영하도록 보장하며 조정을 돕습니다. 조기 연구 결과에 따르면 이 단계가 인간 수준의 성능을 달성하거나 능가하는 데 중요하다는 것을 보여주고 있습니다. 사실, 강화학습과 언어 모델링 분야를 결합하는 것이 특히 유망하며 현재 우리가 가지고 있는 LLM보다 상당한 개선을 이끌어낼 것으로 예상됩니다.
 
@@ -204,7 +398,18 @@ ChatGPT에 대해 이야기할 때, 이제 스스로에게 물을 수 있습니�
 
 그 이유를 이해하려면 훈련 데이터에 대해 생각해 봐야 합니다. 우연히도, 사람들은 종종 인터넷에서, 연구 논문에서, 책에서 등에서 요약을 작성합니다. 결과적으로, 해당 데이터로 훈련된 LLM은 그것을 하는 방법을 배우게 됩니다. 핵심 포인트에 초점을 맞추고 이를 간결한 텍스트로 요약하는 법을 익힙니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리서치 논문에서 결론이 제시되는 것과 마찬가지로, 요약이 생성되면 전체 텍스트는 LLM의 입력 시퀀스의 일부가 됩니다.  
 이것은 사전 학습 중에 이미 그 기술이 습득되었을 가능성이 높지만, 명확한 지침으로 세밀한 조정이 더 많은 기술 향상에 도움이 되었을 것입니다.  
@@ -212,7 +417,18 @@ ChatGPT에 대해 이야기할 때, 이제 스스로에게 물을 수 있습니�
 LLM이 일반 지식 질문에 답변하는 이유는 무엇일까요?  
 언급한대로, 조직적인 세부 튜닝과 RLHF로 적절하게 대응하고 학습하는 능력은 이미 사전 학습 중에 획득된 지식을 바탕으로 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당연히, 이제 또 다른 큰 질문이 생깁니다: 만일 LLM이 답을 모른다면 어떨까요? 불행히도, 그럴 경우 답을 그냥 창조할 수도 있습니다. 그 이유를 이해하려면, 다시 학습 데이터와 학습 목표를 생각해봐야 합니다.
 
@@ -222,7 +438,18 @@ LLM에 관한 용어 "환각"을 들어보셨을지도 모르겠는데, 이는 L
 
 그렇다고 해서 이는 현재 연구가 활발히 진행 중인 분야이며, 시간이 지나면 LLM이 점차적으로 환각에 취약하지 않을 수 있다고 기대할 수 있습니다. 예를 들어, 지시 조정 과정에서 LLM에게 어느 정도 환각을 자제하도록 가르치는 시도를 할 수 있지만, 이 문제를 완전히 해결할 수 있는지에 대해서는 시간이 말해줄 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금 우리가 함께 이 문제를 해결해보려고 한다는 사실에 놀랄지도 모르겠어요. 이미 우리에게는 적어도 부분적으로 도움이 되고 현재 광범위하게 사용되고 있는 해결책을 찾을 수 있는 지식이 있답니다.
 
@@ -233,7 +460,18 @@ LLM에게 다음과 같은 질문을 한다고 가정해 보세요: 콜롬비아
 
 그렇다면 이 문제를 해결할 방법은 무엇일까요? 해답은 모델에 일부 관련된 맥락을 제공하는 데 있습니다. 여기서의 이치는 LLM의 입력 시퀀스에 있는 모든 것이 처리 가능한 정보로 제공되는 반면, 사전 훈련에서 취득한 암시적인 지식은 검색하기가 더 어렵고 불안정할 수 있다는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 우리가 LLM에 대한 추가적인 맥락으로 콜롬비아의 정치 역사에 관한 위키백과 문서를 포함한다면, 현재 대통령을 포함한 맥락에서 이름을 추출할 수 있기 때문에 정확하게 답변할 가능성이 높아질 것입니다.
 
@@ -243,7 +481,18 @@ LLM에게 다음과 같은 질문을 한다고 가정해 보세요: 콜롬비아
 
 바로 Bing Chat과 다른 검색 기반 LLM들이 작동하는 방식입니다. 먼저 검색 엔진을 사용하여 웹에서 관련 맥락을 추출하고, 사용자의 초기 질문과 함께 LLM에게 모든 정보를 전달합니다. 이것이 어떻게 달성되는지 시각화된 이미지를 보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요즘에는 2023년 하반기를 기준으로 최신 기술인 LLMs의 주요 메커니즘을 대략적으로 이해하고 있을 거예요.
 
@@ -253,7 +502,18 @@ LLM에게 다음과 같은 질문을 한다고 가정해 보세요: 콜롬비아
 
 놀랍게도, 이러한 대형 LLMs는 심지어 명백히 훈련받지 않은 일들을 해결하고 수행하는 능력, 즉 새로운 능력을 보이기도 해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사의 마지막 부분에서는 이러한 신흥 능력 중 일부를 논의하고, 문제 해결에 활용하는 방법을 보여 드릴 거에요.
 
@@ -263,7 +523,18 @@ LLM에게 다음과 같은 질문을 한다고 가정해 보세요: 콜롬비아
 
 예를 들어, 'f'로 시작하는 단어로만 대답하라는 요청에 대해 LLM이 "Die Katze schläft gerne in der Box"라는 독일어 문장(뜻: 고양이는 상자에서 자는 것을 좋아해요)을 "Feline friend finds fluffy fortress"로 번역한다고 해봅시다. 정말 멋진 번역이죠, 제 생각에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 복잡한 작업의 경우, 제로샷 프롬프팅은 매우 자세한 지침이 필요하며, 그에도 불구하고 성능은 종종 완벽에서 멀다는 것을 빨리 깨달을 수 있습니다.
 
@@ -273,17 +544,39 @@ LLM에게 다음과 같은 질문을 한다고 가정해 보세요: 콜롬비아
 
 이 프롬프트를 사용하면 모델이 "스테이크: 24.99 미국 달러"와 같은 마지막 예시에서 잘 수행해야 하며, $24.99로 응답해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-요즘 계속된 예시 마저는 생략하였습니다. LLM은 여전히 텍스트 완성기라는 사실을 잊지 마세요. 일관된 구조를 유지하세요. 거의 모델이 원하는 것만 반응하도록 강요하는 것이 좋습니다.    
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-요약하자면, LLM이 과제에 어려움을 겪을 때는 제로샷 방식의 예시를 제공하는 것이 일반적으로 도움이 됩니다. 이는 LLM이 과제를 이해하는 데 도움이 되어 성능이 더 나아지고 믿을 만합니다.    
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
-LLM의 또 다른 흥미로운 능력은 인간의 지능을 연상시키는 것입니다. 특히 보다 복잡하고 여러 단계의 추론을 필요로 하는 과제일 때 유용합니다.    
+요즘 계속된 예시 마저는 생략하였습니다. LLM은 여전히 텍스트 완성기라는 사실을 잊지 마세요. 일관된 구조를 유지하세요. 거의 모델이 원하는 것만 반응하도록 강요하는 것이 좋습니다.
+
+요약하자면, LLM이 과제에 어려움을 겪을 때는 제로샷 방식의 예시를 제공하는 것이 일반적으로 도움이 됩니다. 이는 LLM이 과제를 이해하는 데 도움이 되어 성능이 더 나아지고 믿을 만합니다.
+
+LLM의 또 다른 흥미로운 능력은 인간의 지능을 연상시키는 것입니다. 특히 보다 복잡하고 여러 단계의 추론을 필요로 하는 과제일 때 유용합니다.
 
 "리오넬 메시가 태어나기 전 해에 누가 월드컵을 이겼을까요?" 라고 묻는다면 어떻게 할까요? 아마도 중간 해결책이 필요한 중간 단계를 적어가며 단계별로 이 문제를 해결할 것입니다. 그런데 바로 그것이 LLM도 할 수 있는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단순히 LLM에게 "단계별로 생각해 보세요"라고 말하는 것만으로 많은 작업에서 성능이 크게 향상된다는 사실이 밝혀졌습니다.
 
@@ -293,7 +586,18 @@ LLM에게 최종 답변을 만들기 위한 과정을 진행하도록 허용하�
 
 이때 중요한 점은 생성될 단어의 왼쪽에 있는 모든 내용이 모델이 의존할 수 있는 맥락이라는 것을 기억하는 것입니다. 따라서 위 이미지에서 보듯이, 모델이 "아르헨티나"라고 말할 때, 메시의 생일과 우리가 물은 월드컵의 연도는 이미 LLM의 작업 메모리에 저장되어 있기 때문에 정확하게 답변할 수 있게 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 결론
 
@@ -303,7 +607,18 @@ LLM에게 최종 답변을 만들기 위한 과정을 진행하도록 허용하�
 
 이 글이 LLM에 대한 이해와 이를 둘러싼 현재의 열풍을 이해하는 데 도움이 되고, AI의 잠재력과 위험에 대한 여러분의 의견 형성을 도울 수 있기를 바랍니다. AI 연구자와 데이터 과학자들만이 세상에 이익을 주기 위한 AI의 사용을 결정하는 것은 아닙니다; 모든 사람이 의견을 내야 합니다. 그래서 전문적인 배경 지식이 많이 요구되지 않는 글을 쓰고 싶었던 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사를 읽어주셨다면, 여러분은 2023년 가을을 기준으로 최신 LLM 기술이 어떻게 작동하는지 대략적으로 알게 된 것 같아요.
 

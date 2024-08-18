@@ -3,18 +3,13 @@ title: "인터넷 오브 씽스IoT란 무엇인가요"
 description: ""
 coverImage: "/assets/img/2024-06-19-WhatistheInternetofThings_0.png"
 date: 2024-06-19 16:41
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-WhatistheInternetofThings_0.png
 tag: Tech
 originalTitle: "What is the Internet of Things?"
 link: "https://medium.com/@ieeewiesusl/what-is-the-internet-of-things-9aefe344e3d7"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![What is the Internet of Things](/assets/img/2024-06-19-WhatistheInternetofThings_0.png)
 
@@ -24,8 +19,18 @@ IoT는 장치뿐만 아니라 클라우드 기반 서비스도 포함하며, 이
 
 IoT는 빠르게 성장하고 있는 기술 분야입니다. 2020년 말까지 30억 개의 IoT 장치가 배포되어 인터넷에 연결되었다고 추정됩니다. 미래를 전망해보면, 2025년까지 IoT 장치가 거의 80 젯바이트 또는 80조 기가바이트의 데이터를 수집하고 있다는 것이 추정됩니다. 정말 방대한 양의 데이터죠!
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # IoT 장치
 
@@ -35,7 +40,18 @@ IoT에서의 T는 '사물'을 나타냅니다. 주변의 물리적 세계와 상
 
 생산이나 상업용 장치인 소비자 피트니스 트래커나 산업용 기계 컨트롤러와 같은 장치들은 보통 맞춤형으로 제작됩니다. 특정 작업의 요구 사항을 충족시키기 위해 설계된 사용자 정의 회로 기판, 때로는 사용자 정의 프로세서를 사용할 수 있습니다. 그 작업이 팔목에 맞게 충분히 작고 높은 온도, 고압력 또는 높은 진동 공장 환경에서 작동하기 충분히 견고해야 할지라도요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 IoT나 장치 프로토타입을 만들 때는 개발 키트로 시작해야 합니다. 이들은 개발자를 위해 설계된 범용 IoT 장치로, 종종 제품 장치에는 없는 기능이 포함되어 있습니다. 예를 들어 센서나 구동기를 연결할 수 있는 외부 핀 세트, 디버깅을 지원하는 하드웨어, 대량 제조 시 불필요한 비용이 추가되는 추가 자원 등이 있습니다.
 
@@ -48,7 +64,18 @@ IoT는 여러 분야의 다양한 사용 사례를 아우르며, 크게 네 가�
 
 ## 소비자 IoT
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 소비자 IoT는 소비자가 구매하고 집 주변에서 사용하는 IoT 기기를 가리킵니다. 이러한 기기 중 일부는 매우 유용하며, 스마트 스피커, 스마트 난방 시스템 및 로봇 진공 청소기와 같습니다. 다른 기기는 의문을 일으키는데, 음성으로 제어되는 수전이 그것 때문에 소리가 크게 울리는 경우 끌 수 없다는 의미입니다.
 
@@ -58,7 +85,18 @@ IoT는 여러 분야의 다양한 사용 사례를 아우르며, 크게 네 가�
 
 상업용 IoT는 직장에서의 IoT 사용을 다룹니다. 사무실 환경에서는 조명과 난방을 관리하기 위한 층 점유 센서와 움직임 감지기가 있을 수 있습니다. 필요하지 않을 때에만 조명과 난방을 꺼두어 비용과 탄소 배출량을 줄일 수 있습니다. 공장에서는 IoT 기기가 안전 위험을 모니터링할 수 있습니다. 예를 들어, 작업자가 안전모를 쓰지 않거나 소음이 위험 수준에 도달한 경우입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 소매업에서 IoT 장치는 냉동보관의 온도를 측정하여, 냉장고나 냉동고가 필요한 온도 범위를 벗어나면 가게 주인에게 알릴 수 있습니다. 또는 선반에 있는 물품들을 모니터링하여 판매된 농산물을 보충할 때 직원을 안내하는 것도 가능합니다. 운송 산업은 차량 위치를 모니터링하거나 도로 사용자 요금 청구를 위해 도로 주행 마일리지를 추적하며, 운전자의 운전 시간 및 휴식 준수를 추적하고, 차량이 입고 또는 출고 준비를 위해 창고에 접근할 때 직원에게 통보하는 데 IoT를 점점 더 많이 활용하고 있습니다.
 
@@ -68,7 +106,18 @@ IoT는 여러 분야의 다양한 사용 사례를 아우르며, 크게 네 가�
 
 공장에서는 IoT 장치를 여러 센서로 모니터링하여 기계의 온도, 진동 및 회전 속도와 같은 것들을 추적할 수 있습니다. 이 데이터는 기계가 일정한 허용 한계를 넘어가게 되면 멈출 수 있도록 하기 위해 모니터링됩니다. 예를 들어 과열되면 종료되는 등의 상황이 있을 수 있습니다. 또한 이 데이터는 시간이 지남에 따라 수집되고 분석되어, AI 모델이 고장 발생 전 데이터를 분석하고, 이를 사용하여 다른 고장이 발생하기 전에 예측하는 예방 정비를 수행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 인프라 IoT
 
@@ -78,7 +127,18 @@ IoT는 여러 분야의 다양한 사용 사례를 아우르며, 크게 네 가�
 
 <img src="/assets/img/2024-06-19-WhatistheInternetofThings_2.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신이 주변에 가지고 있는 IoT 장치의 수에 대해 궁금할 만큼 놀랄 것입니다. 저는 집에서 이 글을 쓰고 있는데, 인터넷에 연결되어 스마트 기능을 가진 다음과 같은 장치들이 있어요. 앱 제어, 음성 제어, 또는 전화로 데이터를 보낼 수 있는 기능이 있는 장치들입니다.
 
@@ -96,6 +156,17 @@ IoT 장치의 예시
 - 가정용 엔터테인먼트 시스템 및 음성 제어 TV
 - 조명
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문서는 사한 비랑가가 작성했습니다.

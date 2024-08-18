@@ -3,7 +3,7 @@ title: "프론트엔드 애플리케이션에서 백엔드 API 보안을 강화�
 description: ""
 coverImage: "/assets/img/2024-07-07-SecuringBackendAPIsinFrontendApplications_0.png"
 date: 2024-07-07 13:37
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-SecuringBackendAPIsinFrontendApplications_0.png
 tag: Tech
 originalTitle: "Securing Backend APIs in Frontend Applications"
@@ -11,17 +11,24 @@ link: "https://medium.com/@cvinothkumar/securing-backend-apis-in-frontend-applic
 isUpdated: true
 ---
 
-
-
-
-
 웹 개발의 세계는 프론트엔드 애플리케이션과 백엔드 API 간의 원활한 상호 작용에 기반을 두고 있습니다. 매력적인 사용자 인터페이스가 최전방을 장식하는 동안, 강력한 API는 뒷면에서 마법을 연출합니다. 그러나 위대한 힘에는 큰 책임이 따르며, 백엔드 API를 보호하는 것이 중요합니다.
 
 이 글은 노출된 API를 피해를 입히는 취약성을 탐구하고, 프론트엔드 애플리케이션 내에서 이를 강화하기 위한 모범 사례를 제시합니다. 또한 코드 조각을 통해 구체적인 기술을 탐구하고, 프록시 서버를 활용하는 혜택을 알아볼 것입니다.
 
 노출된 API의 내재적인 취약성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프론트엔드 앱은 설계상 클라이언트 측에서 작동하여 누구나 웹 브라우저로 액세스할 수 있습니다. 이 투명성으로 동적 사용자 경험을 가능하게하지만, 백엔드로의 API 호출을 드러내기도 합니다. 악의적인 사용자가 잠재적으로:
 
@@ -32,7 +39,18 @@ isUpdated: true
 
 프론트엔드에서 API를 완전히 숨기는 것이 이상적으로 보일 수 있지만 항상 실행할 수 있는 것은 아닙니다. 프론트엔드 애플리케이션 내에서 방어층을 추가하는 방법과 일부 주요 실천 사례에 대한 코드 샘플은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프록시 서버를 통한 보안 강화:
 
@@ -44,7 +62,18 @@ isUpdated: true
 
 클라우드 기반 속도 제한:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AWS, CloudFlare 및 Imperva와 같은 인프라 제공 업체들은 클라우드 기반 솔루션을 제공하여 비정상적으로 효과적일 수 있는 속도 제한 기능을 제공합니다. 이러한 서비스는 다음과 같은 기능을 제공합니다:
 
@@ -57,31 +86,53 @@ AWS, CloudFlare 및 Imperva와 같은 인프라 제공 업체들은 클라우드
 - CloudFlare 구성: CloudFlare 대시보드에서 IP 주소, API 엔드포인트 또는 시간대별로 한정된 규칙을 설정하여 속도 제한 규칙을 설정합니다.
 - 프론트엔드 통합: 일반적으로 프론트엔드 측에서 코드 변경은 필요하지 않습니다. CloudFlare는 설정한 규칙을 기반으로 자동으로 속도 제한을 처리합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 원산지별 API 호출 제한
 
 인프라 및 백엔드 팀은 예상된 프론트엔드 도메인에서의 API 호출만을 제한하기 위해 함께 작업할 수 있습니다. 다음은 백엔드에서 Node.js를 사용한 예시입니다:
 
 ```js
-const express = require('express');
-const cors = require('cors');
+const express = require("express");
+const cors = require("cors");
 const app = express();
 // CORS 구성하여 'frontend.com' 원산지에서의 요청만 허용
 const corsOptions = {
- origin: 'https://frontend.com'
-}
+  origin: "https://frontend.com",
+};
 app.use(cors(corsOptions));
 // API 엔드포인트 (실제 API 로직으로 대체)
-app.get('/api/data', (req, res) => {
- // … 요청 처리 및 데이터 전송
+app.get("/api/data", (req, res) => {
+  // … 요청 처리 및 데이터 전송
 });
-app.listen(3000, () => console.log('서버가 3000번 포트에서 수신 대기 중'));
+app.listen(3000, () => console.log("서버가 3000번 포트에서 수신 대기 중"));
 ```
 
 이 코드 스니펫은 cors 미들웨어를 활용하여 'https://frontend.com'에서만 발신된 요청을 허용합니다. 실제 프론트엔드 도메인으로 교체하는 것을 잊지 마세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시간 제한 요청과 암호화된 헤더
 
@@ -91,7 +142,18 @@ app.listen(3000, () => console.log('서버가 3000번 포트에서 수신 대기
 
 이것은 참고용 기본적인 예제입니다. 실제 응용 프로그램에서는 암호화와 복호화에 안전한 라이브러리를 사용해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프론트엔드 (자바스크립트):
 
@@ -117,7 +179,18 @@ function decryptTimestampHeader(encryptedData, staticKey) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기억해 주세요: 이것들은 몇 가지 예시일 뿐이며, 구체적인 구현은 요구사항, 선택한 기술 및 인프라에 따라 다를 수 있습니다.
 

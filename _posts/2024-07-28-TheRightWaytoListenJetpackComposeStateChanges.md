@@ -3,17 +3,13 @@ title: "Jetpack Compose 상태 변경을 올바르게 감지하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-28-TheRightWaytoListenJetpackComposeStateChanges_0.png"
 date: 2024-07-28 13:47
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-28-TheRightWaytoListenJetpackComposeStateChanges_0.png
 tag: Tech
 originalTitle: "The Right Way to Listen Jetpack Compose State Changes"
 link: "https://medium.com/@efebu/the-right-way-to-listen-jetpack-compose-state-changes-281d8d47c2ec"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-07-28-TheRightWaytoListenJetpackComposeStateChanges_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## 시나리오
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Jetpack Compose에서 BottomSheetScaffold을 사용하고 있으며, 하단 시트가 숨겨질 때 작업을 실행해야 합니다.
 
@@ -47,7 +54,18 @@ BottomSheetScaffold(
 
 ## 해결 방법
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 snapshotFlow는 해결책입니다.
 
@@ -66,7 +84,18 @@ snapshotFlow의 좋은 점은 jetpack compose 상태에 모두 사용할 수 있
 
 여기 스크롤 상태에 대한 추가적인 샘플이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 val scrollState = rememberScrollState()

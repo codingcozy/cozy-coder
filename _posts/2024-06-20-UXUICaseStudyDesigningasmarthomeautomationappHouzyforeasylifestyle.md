@@ -3,17 +3,13 @@ title: "UIUX 사례 연구 편리한 라이프 스타일을 위한 스마트 홈
 description: ""
 coverImage: "/assets/img/2024-06-20-UXUICaseStudyDesigningasmarthomeautomationappHouzyforeasylifestyle_0.png"
 date: 2024-06-20 16:28
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-UXUICaseStudyDesigningasmarthomeautomationappHouzyforeasylifestyle_0.png
 tag: Tech
 originalTitle: "UX UI Case Study: Designing a smart home automation app(Houzy) for easy lifestyle"
 link: "https://medium.com/@komalmehra1204/ux-ui-case-study-designing-a-smart-home-automation-app-houzy-for-easy-lifestyle-78f15bb79526"
 isUpdated: true
 ---
-
-
-
-
 
 이것은 UX 학습을 위해 제가 수행한 케이스 스터디입니다. 이 프로젝트는 2022년 봄에 뱅갈로우에 위치한 DesignBoat UI/UX School에서 UI/UX 디자인 코스 중에 만들어졌습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 홈 자동화는 컴퓨터 기술을 활용하여 가정 가전제품을 제어하는 것을 의미합니다. 이는 보안, 안전, 사용 편의성을 제공하며 또한 가정 가전제품에 대한 원격 인터페이스를 제공하여 웹 브라우저에서 제어 및 모니터링을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 목표:
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 문제 명세:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 모두는 최소한의 수동 작업으로 쉽게 삶을 즐기고 싶어합니다. 요즘 사람들은 바쁜 업무 생활로 인해 집에 수동으로 관리할 시간이 거의 없습니다. 장치의 ON/OFF를 전환하거나 집안의 안전, 아이들을 모니터링하는 등 모든 것을 한 번의 클릭으로 처리하기를 원합니다.
 
@@ -45,7 +63,18 @@ isUpdated: true
 - 외출 중에도 집 안전과 보안을 책임집니다.
 - 중요한 상황 발생 시 알림을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 역할 및 책임:
 
@@ -55,7 +84,18 @@ isUpdated: true
 
 # 디자인 씽킹 프로세스:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 디자인 씽킹은 팀이 사용하는 비선형적이고 반복적인 프로세스입니다. 사용자를 이해하고 가정을 도전하며 문제를 재정의하고 혁신적인 솔루션을 만들어 프로토타입을 제작하고 테스트하는 작업에 사용됩니다.
 
@@ -65,7 +105,18 @@ isUpdated: true
 
 이것은 어떤 프로젝트의 첫 번째이자 중요한 단계입니다. 여기서 디자이너는 사용자를 알아보고 그들의 필요, 원하는 것, 그리고 목표를 이해하는 데 시간을 투자합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 디자인 전략:
 
@@ -75,7 +126,18 @@ isUpdated: true
 
 우리는 연구를 수행하기 위해 질적 연구 및 양적 연구 두 가지 방법을 사용했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제가 번역을 시작하기 전에, 사용자 유형을 다음과 같은 카테고리로 분류했습니다:-
 
@@ -85,7 +147,18 @@ b. 직업이 없는 사람들은 가전제품을 한 플랫폼에서 작동시�
 
 ## 양적 조사
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희는 약 70명 가까운 사람들이 우리의 질문에 답변한 온라인 설문조사를 실시했어요.
 
@@ -95,7 +168,18 @@ b. 직업이 없는 사람들은 가전제품을 한 플랫폼에서 작동시�
 
 인사이트: —
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 a. 사용자들은 자신의 집이 더 스마트해지기를 원합니다.
 b. 사용자들은 자신의 안전과 보안에 대해 걱정합니다.
@@ -109,7 +193,18 @@ e. 사용자들은 외출 중에도 집을 모니터링하고 싶어합니다.
 
 전화 통화와 채팅을 통해 다양한 연령대의 약 14명을 인터뷰했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 면접 결과:
 
@@ -119,7 +214,18 @@ e. 사용자들은 외출 중에도 집을 모니터링하고 싶어합니다.
 
 그들은 자신들의 고통, 좌절 및 필요를 밝혔습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 통찰: —
 
@@ -133,7 +239,18 @@ e. 사용자는 개인정보를 유지해야 하며, 무단으로 장치를 해�
 
 이 단계에서는 누구를 위해 디자인하는지와 사용자가 정말 필요로 하는 것을 종합하고 요약하는 데 도움이 되는 여러 방법을 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 유사성 매핑:
 
@@ -144,7 +261,18 @@ e. 사용자는 개인정보를 유지해야 하며, 무단으로 장치를 해�
 
 ![이미지](/assets/img/2024-06-20-UXUICaseStudyDesigningasmarthomeautomationappHouzyforeasylifestyle_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Insights: —
 
@@ -154,7 +282,18 @@ Insights: —
 
 Insights: —
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 사용자 페르소나:
 
@@ -164,7 +303,18 @@ Insights: —
 
 나중에 공감 지도를 그려 사용자 페르소나에 대해 우리가 알고 있는 내용을 명확히 표현하였습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **사용자의 요구 사항을 이해하도록 도와드립니다**
 
@@ -174,7 +324,18 @@ Insights: —
 
 나중에, 우리는 사용자 여정 지도를 만들어 다음을 파악했습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 a. 사용자가 저희 브랜드와 접촉했을 때 느끼는 감정 - 구매 전, 구매 중, 그리고 구매 후.
 
@@ -184,7 +345,18 @@ c. 고객이 행동을 취하지 못하도록 방해하는 장애물을 식별�
 
 ### 3. 아이디어 도출
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아이데이션은 디자인 씽킹 프로젝트에서 가장 흥미로운 단계 중 하나인데, 아이디에이션 과정에서 팀은 다양한 아이디어를 생성하여 가장 좋은, 실용적이거나 혁신적인 것들로 걸러내고 결정함으로써 새롭고 더 나은 디자인 솔루션과 제품을 영감받을 수 있습니다.
 
@@ -194,7 +366,18 @@ c. 고객이 행동을 취하지 못하도록 방해하는 장애물을 식별�
 
 - 집의 보안을 CCTV를 통해 유지할 수 있습니다. 모바일 알림 및 통지, 창문 및 유리 파손 센서를 통한 실시간 또는 녹화된 영상을 자신의 장치에서 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 b. 모든 가전제품을 동기화할 수 있도록 알렉사와 구글과 호환성을 가지게 하고, 각 가전제품에 개별 이름을 부여하여 사용할 수 있습니다.
 
@@ -204,7 +387,18 @@ c. 비상 상황에서 알림을 받을 수 있는 많은 방법이 있습니다
 
 사용자 흐름은 사용자 경험 프로세스의 솔루션 영역에 속합니다. 사용자 흐름이란 사용자가 사용자 인터페이스에서 작업을 완료하기 위해 시작점부터 목표 지점까지 이동하는 경로를 말합니다. 시작점은 사이트의 홈페이지일 수 있고, 목표 지점은 제품을 구매하는 것일 수 있습니다. 사용자 흐름은 사용자가 목표에 도달하기 위해 사용자 여정에서 따라가야 하는 모든 탐색 단계를 정의합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자 흐름은 이렇습니다 — 스플래시 화면에서 시작하여 설명서를 통해 안내 화면(가입, 로그인)으로 이동한 후 사용자는 공간을 선택하거나 만들도록 요청받은 후 홈 화면으로 이동합니다. 탭 바에서 사용자는 다섯 개의 탭(홈 페이지, 루틴, CCTV/스마트 잠금, 통계, 메뉴) 사이를 전환할 수 있습니다.
 
@@ -214,7 +408,18 @@ c. 비상 상황에서 알림을 받을 수 있는 많은 방법이 있습니다
 
 ## 정보 아키텍처:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 정보 아키텍처(IA)는 앱의 콘텐츠를 조직화하고 구조화하는 과학입니다.
 
@@ -224,7 +429,18 @@ c. 비상 상황에서 알림을 받을 수 있는 많은 방법이 있습니다
 
 ## 낮은 피들리티 와이어프레임 스케치:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 모든 연구를 활용할 수 있는 매우 흥미로운 단계였으며 앱이 모습을 드러내기 시작할 것입니다.
 
@@ -234,7 +450,18 @@ c. 비상 상황에서 알림을 받을 수 있는 많은 방법이 있습니다
 
 ![이미지](/assets/img/2024-06-20-UXUICaseStudyDesigningasmarthomeautomationappHouzyforeasylifestyle_7.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 고품질 와이어프레임:
 
@@ -244,7 +471,18 @@ c. 비상 상황에서 알림을 받을 수 있는 많은 방법이 있습니다
 
 ## 시각 디자인:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 IOS용 UI 화면:
 
@@ -254,7 +492,18 @@ Android용 UI 화면:
 
 ![Android UI](/assets/img/2024-06-20-UXUICaseStudyDesigningasmarthomeautomationappHouzyforeasylifestyle_10.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 5. 사용성 테스트
 
@@ -264,7 +513,18 @@ Android용 UI 화면:
 
 관찰:-
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 피드백:-
 
@@ -274,6 +534,17 @@ Android용 UI 화면:
 
 이것이 제 케이스 스터디 프로젝트의 마지막 부분입니다. 여기까지 읽어 주셔서 감사합니다. 제 짧은 케이스 스터디를 훑어 주신 시간을 감사히 여깁니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 UI/UX에 대한 지식을 향상시키기 위해 여러분의 비평과 제안을 매우 환영합니다!

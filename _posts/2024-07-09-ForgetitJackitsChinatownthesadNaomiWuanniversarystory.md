@@ -3,17 +3,13 @@ title: "다 잊어버려, 잭 여긴 차이나타운이야  슬픈 Naomi Wu의 �
 description: ""
 coverImage: "/assets/img/2024-07-09-ForgetitJackitsChinatownthesadNaomiWuanniversarystory_0.png"
 date: 2024-07-09 10:04
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-ForgetitJackitsChinatownthesadNaomiWuanniversarystory_0.png
 tag: Tech
 originalTitle: "„Forget it Jack, it’s Chinatown” — the sad Naomi Wu’ anniversary story"
 link: "https://medium.com/@sxe3dp/forget-it-jack-its-chinatown-the-sad-naomi-wu-anniversary-story-73b861b58fe5"
 isUpdated: true
 ---
-
-
-
-
 
 ## 3D 프린팅 역사
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 지금은 그녀에게 끝이 임박해 보입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이게 어떻게 된 거죠? YouTube 채널이 가장 큰 중국 출신의 멋진 기술 여자가 왜 갑자기 녹화를 중단하고 오랜 성공적인 경력을 끝내야만 했을까요?
 

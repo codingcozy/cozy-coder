@@ -3,17 +3,13 @@ title: "Angular 자식 컴포넌트에서 부모 컴포넌트의 버튼 비활�
 description: ""
 coverImage: "/issue-truck.github.io/assets/no-image.jpg"
 date: 2024-07-10 00:52
-ogImage: 
+ogImage:
   url: /issue-truck.github.io/assets/no-image.jpg
 tag: Tech
 originalTitle: "Angular passing a value from child component to disable button in parent component"
 link: "https://medium.com/@fixitblog/solved-angular-passing-a-value-from-child-component-to-disable-button-in-parent-component-349101a0943c"
 isUpdated: true
 ---
-
-
-
-
 
 부모 요소의 버튼을 비활성화하거나 활성화하기 위해 @Output 및 EventEmitter를 사용하는 방법을 이해하는 데 어려움을 겪고 있습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 다음은 코드입니다 - 이것이 자식 구성 요소입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @Output() buttonDisabledEvent = new EventEmitter<boolean>();
@@ -53,13 +60,25 @@ The parent html:
 
 원하는 내용이 명확히 전달되었기를 바라며, 무언가 부족한 점이 있으면 즉시 확인하고 수정하겠습니다. 도움 주셔서 많이 감사합니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 해결책
 
-자식 컴포넌트에서 `this.buttonDisabledEvent.emit(false);`라고 말한 후에 
+자식 컴포넌트에서 `this.buttonDisabledEvent.emit(false);`라고 말한 후에
 
 이제 ParentComponent HTML에서 이벤트를 캐치해야 합니다.
+
 ```js
 <app-child (buttonDisabledEvent)="onButtonDisabled($event)"></app-child>
 
@@ -72,7 +91,18 @@ The parent html:
 </button>
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 텍스트를 한국어로 번역해 드립니다:
 
@@ -92,6 +122,17 @@ export class ParentComponent {
 
 답변 확인자 — Mildred Charles (FixIt Admin)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 답변은 스택오버플로우에서 수집한 것으로, cc by-sa 2.5, cc by-sa 3.0 및 cc by-sa 4.0의 라이센스를 따릅니다.

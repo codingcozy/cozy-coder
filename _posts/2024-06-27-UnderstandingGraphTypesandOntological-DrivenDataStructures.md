@@ -3,17 +3,13 @@ title: "그래프 유형 및 온톨로지 기반 데이터 구조 이해하기"
 description: ""
 coverImage: "/assets/img/2024-06-27-UnderstandingGraphTypesandOntological-DrivenDataStructures_0.png"
 date: 2024-06-27 19:10
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-27-UnderstandingGraphTypesandOntological-DrivenDataStructures_0.png
 tag: Tech
 originalTitle: "Understanding Graph Types and Ontological-Driven Data Structures"
 link: "https://medium.com/@joehoeller/understanding-graph-types-and-ontological-driven-data-structures-185eb176c3c3"
 isUpdated: true
 ---
-
-
-
-
 
 안녕하세요 멋진 분들, 링크드인에서 그래프와 인공지능에 대한 일반적인 오해가 돌고 있다는 것을 알게 되어 몇 가지 통찰을 공유하는 것이 도움이 될 것 같아요. 이 정보가 유익하게 느껴지고 복잡한 AI 시스템을 효과적으로 구축하는 데 도움이 되기를 바라며 이해에 도움이 될 것입니다. 여러분과 함께 이에 대한 관련하여 활발한 토론를 기대하고 있어요 — 제 링크드인 페이지에서 만나요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 플로우차트는 프로세스 또는 워크플로우를 나타내는 다이어그램 유형으로, 종종 Directed Acyclic Graph (DAG)으로 시각화됩니다. DAG는 방향성이 있고 사이클이 없는 그래프로, 한 노드에서 다른 노드로의 단방향 경로가 있지만 루프는 없다는 것을 의미하여 "비순환적"이에요. 이는 작업흐름이나 계산과정의 단계와 같이 명확한 선형 진행을 가진 프로세스를 나타내는 데 적합하게 만들어 주어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 플로우차트는 DAG를 시각화하는 흔한 방법이지만, DAG 자체가 지식 그래프는 아니라는 점을 알아두는 것이 중요합니다. DAG는 일정정렬과 조합적 열거와 같은 다양한 알고리즘에서 활용되어 일정 조정, 데이터 처리 단계 등과 같은 문제를 해결하는 데 사용됩니다. DAG의 주요 관심사는 작업의 순서와 의존성에 있으며, 의미적 관계나 고수준 추론에 대한 것은 아닙니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 의미 지식 그래프의 핵심 기능은 엔티티 간의 관계를 설명하는 요소인 데이터 술어의 사용입니다. 이러한 술어는 상세 정보를 보다 폭넓은 개념에 연결시키는데 기여해 복잡한 쿼리와 추론을 가능케 합니다. DAG와 달리 의미 지식 그래프는 정보를 구조화하는 데 사용되는 체계적인 프레임워크인 온톨로지를 활용합니다. 온톨로지는 엔티티 유형, 관계, 추론 규칙을 정의하고 도메인 간 데이터 지점을 연결하며 하위 도메인 내에서 상호 연결되어 데이터의 보다 깊은 이해를 용이하게 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 레이블 속성 그래프 (LPGs)
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 이분 그래프는 교점이 없도록 두 개의 상이한 부분 집합으로 정점의 집합을 나눌 수 있는 특수한 그래프 유형입니다. 즉, 동일 부분 집합 내의 두 정점이 서로 인접하지 않습니다. 이는 그래프의 모든 엣지가 한 부분 집합에 속하는 정점을 다른 부분 집합에 속하는 정점에 연결한다는 것을 의미합니다. 이분 그래프는 노동자와 작업을 나타내는 것과 같이 두 가지 서로 다른 객체 클래스 사이의 관계를 모델링하는 데 특히 유용합니다. 여기서 하나의 부분 집합은 노동자를 나타내고 다른 부분 집합은 작업을 나타내며, 엣지는 어떤 노동자가 어떤 작업에 할당되어 있는지를 나타냅니다. 이분 그래프는 매칭 문제를 해결하거나 네트워크 흐름을 최적화하며, Hopcroft-Karp 알고리즘과 같은 이분 매칭 알고리즘을 위한 알고리즘을 설계하는 데도 필수적입니다. 이분 그래프의 구조는 많은 계산 문제를 단순화하여 많은 실용적 응용분야에서 강력한 도구로 작용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # RDF (Resource Description Framework) 트리플
 
@@ -57,7 +86,18 @@ RDF 트리플은 그래프는 아니지만 시맨틱 웹을 위한 데이터 구
 
 온톨로지 생성의 기초를 탐구하고 싶다면 다른 기사를 확인해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 그래프 구조 해제: 그래프 네트워크를 목적에 매핑하는 수학 공식들
 
@@ -67,7 +107,18 @@ RDF 트리플은 그래프는 아니지만 시맨틱 웹을 위한 데이터 구
 
 # DAGs에 대한 선형 프로세스
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 무사이클의 정점과 간선:
 
@@ -77,7 +128,18 @@ RDF 트리플은 그래프는 아니지만 시맨틱 웹을 위한 데이터 구
 
 ![Topological Sort](/assets/img/2024-06-27-UnderstandingGraphTypesandOntological-DrivenDataStructures_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 선형 관계:
 
@@ -87,19 +149,39 @@ RDF 트리플은 그래프는 아니지만 시맨틱 웹을 위한 데이터 구
 
 - 관계를 나타내는 세트:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-27-UnderstandingGraphTypesandOntological-DrivenDataStructures_4.png)
 
 2. 온톨로지가 도메인 간 데이터 포인트를 연결:
-   
+
    ![이미지](/assets/img/2024-06-27-UnderstandingGraphTypesandOntological-DrivenDataStructures_5.png)
 
 C는 개념을, R은 관계를 나타냅니다. 이러한 온톨로지는 복잡한, 상호 연결된 데이터 표현을 가능하게 하며, 고급 시맨틱 쿼리와 도메인 간 추론을 지원합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 레이블 속성 그래프 (LPG)는 이진 관계로 연결됩니다.
 
@@ -109,8 +191,18 @@ C는 개념을, R은 관계를 나타냅니다. 이러한 온톨로지는 복잡
 
 2. 속성을 가진 간선:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-27-UnderstandingGraphTypesandOntological-DrivenDataStructures_7.png)
 
@@ -120,8 +212,18 @@ C는 개념을, R은 관계를 나타냅니다. 이러한 온톨로지는 복잡
 
 - 최대 매칭:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![그림](/assets/img/2024-06-27-UnderstandingGraphTypesandOntological-DrivenDataStructures_8.png)
 
@@ -131,6 +233,17 @@ C는 개념을, R은 관계를 나타냅니다. 이러한 온톨로지는 복잡
 
 워크플로우 및 Named Entity Recognition (NER) 모델의 그래프 표현은 가치가 있으며 특정 사용 사례가 있지만, 올바른 구현과 적용을 인식하는 것이 중요합니다. 이러한 개념을 오해하면 그 기능과 목적에 대해 잘못된 결론을 내릴 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "이것이 AI 그래프를 활용하는 여정에서 도움이 되길 바라며, 읽어주셔서 감사합니다!"

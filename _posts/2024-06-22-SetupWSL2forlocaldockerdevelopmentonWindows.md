@@ -3,7 +3,7 @@ title: "윈도우에서 로컬 도커 개발을 위한 WSL2 설정 방법"
 description: ""
 coverImage: "/assets/img/2024-06-22-SetupWSL2forlocaldockerdevelopmentonWindows_0.png"
 date: 2024-06-22 16:31
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-SetupWSL2forlocaldockerdevelopmentonWindows_0.png
 tag: Tech
 originalTitle: "Setup WSL2 for local docker development on Windows"
@@ -11,18 +11,24 @@ link: "https://medium.com/@sociable_flamingo_goose_694/setup-wsl-for-local-docke
 isUpdated: true
 ---
 
-
-
-
-
 안녕하세요! 혹시 업무 중에 도커가 필요하고 관리해야 하는 상황이신가요?
 
 윈도우 기기를 사용 중이지만, 회사 보안 정책, 자금 부족, 또는 기기에 더 많은 소프트웨어를 추가하고 싶지 않아서 Docker Desktop과 같은 라이선스를 확보할 수 없는 상황이신가요?
 
 이 글은 여러분을 위한 것입니다. 개발자들이 리눅스 환경을 실행할 수 있도록 Windows의 기능인 WSL2(Windows 하위 시스템 for Linux)을 사용하여 로컬 기기를 도커 개발에 활성화하는 방법을 단계별로 안내해 드릴 거예요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Screenshot](/assets/img/2024-06-22-SetupWSL2forlocaldockerdevelopmentonWindows_0.png)
 
@@ -32,9 +38,18 @@ isUpdated: true
 
 Navigate on Windows to %UserProfile% in Windows Explorer
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Add, .wslconfig document (note: DOT (.) is in the front → .wslconfig)
 
@@ -58,8 +73,18 @@ Open the command prompt and execute the following commands:
 
 Choose Linux distro
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 wsl --list --online
@@ -73,39 +98,63 @@ wsl --install -d Ubuntu-20.04
 
 설치 확인하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 wsl --list --verbose
 
-
 버전 2로 업그레이드하세요.
-
 
 wsl --set-default-version 2
 wsl --set-version Ubuntu-20.04 2
 
-
 버전이 2로 설정되었는지 확인하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 명령어를 실행해 WSL 목록을 볼 수 있어요.
 
-
 wsl --list --verbose
-
 
 WSL을 다시 시작할 수 있어요.
 
-
 wsl --shutdown
-
 
 바시 셸 (Ubuntu)을 열 수 있어요. Windows 시작 → Ubuntu 검색해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 애플리케이션을 열어서 도커 엔진을 설치하러 이동해주세요.
 
@@ -115,7 +164,18 @@ wsl --shutdown
 
 리눅스 배포판에 로그인하신 후에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자를 sudo(관리자)로 추가하세요.
 
@@ -129,13 +189,35 @@ grep -E 'sudo|wheel' /etc/group
 sudo grep -E '%sudo|%wheel' /etc/sudoers
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 내용은 다음과 같이 번역됩니다:
 
 "테이블 태그를 마크다운 형식으로 변경해주세요."
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 sudo apt remove docker docker-engine docker.io containerd runc
@@ -155,7 +237,18 @@ sudo apt-get install \
     lsb-release
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도커 공식 GPG 키를 추가하세요.
 
@@ -171,7 +264,18 @@ echo \
   $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도커 엔진 설치하기
 
@@ -188,7 +292,18 @@ sudo groupadd docker
 sudo usermod -aG docker $USER
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도커 서비스를 실행하세요.
 
@@ -202,7 +317,18 @@ sudo service docker start
 sudo service docker status
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도커 컴포즈 (글 쓰는 시점의 최신 버전은 2.5.0입니다)를 설치해보세요.
 
@@ -216,7 +342,18 @@ sudo curl -L https://github.com/docker/compose/releases/download/1.27.4/docker-c
 sudo chmod +x /usr/local/bin/docker-compose
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 버전 확인
 
@@ -228,7 +365,18 @@ docker-compose --version
 
 이제 "wsl"을 사용하여 CMD/Powershell을 통해 도커를 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 wsl docker image ls
@@ -238,7 +386,18 @@ wsl docker image ls
 
 etc/docker/daemon.json 위치에서 daemon.json을 편집하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "hosts": [ "unix:///var/run/docker.sock","tcp://0.0.0.0:2375"]를 입력하고 저장하세요.
 
@@ -248,7 +407,18 @@ etc/docker/daemon.json 위치에서 daemon.json을 편집하세요.
 
 로그를 확인하여 위 사진의 호스트를 확인하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 잘 했어요! 도커와 도커 컴포즈를 사용하여 로컬 환경을 설정하고 생산적으로 사용할 수 있도록 세팅했네요 :)!
 

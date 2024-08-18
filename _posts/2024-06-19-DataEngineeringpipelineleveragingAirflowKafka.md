@@ -3,17 +3,13 @@ title: "특별한 알고리즘없이도 Python의 기초를 확인할 수 있는
 description: ""
 coverImage: "/assets/img/2024-06-19-DataEngineeringpipelineleveragingAirflowKafka_0.png"
 date: 2024-06-19 09:48
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-DataEngineeringpipelineleveragingAirflowKafka_0.png
 tag: Tech
 originalTitle: "Data Engineering pipeline leveraging Airflow , Kafka"
 link: "https://medium.com/@akhilmakol/data-engineering-pipeline-leveraging-airflow-kafka-063b3a1cd252"
 isUpdated: true
 ---
-
-
-
-
 
 # 소개
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # ETL 기본 원칙
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ETL은 데이터 웨어하우스 또는 데이터 마트와 같은 분석 환경을 위해 데이터 획득 및 준비를 자동화하는 데이터 파이프라인 엔지니어링 방법론인 추출, 변환, 로드를 의미합니다. 이는 다양한 소스에서 데이터를 수집하고 표준 형식으로 편집한 다음 시각화, 탐색 및 모델링을 위한 새로운 환경으로 로드하는 것을 포함하며, 자동화 및 의사 결정을 지원합니다.
 
@@ -33,7 +40,18 @@ ELT 프로세스는 추출, 로드 및 변환을 나타내며, 단곅하계의 �
 
 # ETL과 ELT 비교
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ETL과 ELT의 차이점: ETL 파이프라인에서는 변환 작업이 목적지에 도달하기 전에 데이터 파이프라인 내에서 발생하는 반면, ELT는 변환 작업을 분리하여 목적지 환경에서 필요한 대로 수행할 수 있습니다. ETL은 엄격하고 목적이 명확하지만, ELT는 유연하며 빅 데이터 처리에 대한 셀프 서비스 분석을 제공합니다.
 
@@ -43,7 +61,18 @@ ETL과 ELT의 차이점: ETL 파이프라인에서는 변환 작업이 목적지
 
 - 완전 수집 대 부분 수집
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 전체 로딩: 데이터베이스에 초기 히스토리를 로드합니다. 추적 데이터는 새 창고에서 시작됩니다.
 - 점진적 로딩: 새 데이터를 삽입하거나 이미 로드된 데이터를 업데이트합니다. 거래 히스토리를 누적하는 데 사용됩니다. 데이터 양과 속도에 따라 일괄 또는 스트림 로드될 수 있습니다.
@@ -55,7 +84,18 @@ ETL과 ELT의 차이점: ETL 파이프라인에서는 변환 작업이 목적지
 
 일괄 처리 vs. 스트림 로딩:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 배치 로딩: 시간별로 정의된 단위로 데이터를 로드하며 일반적으로 몇 시간에서 며칠 동안 누적됩니다.
 - 스트림 로딩: 데이터가 제공되는 즉시 실시간으로 로드됩니다.
@@ -68,7 +108,18 @@ ETL과 ELT의 차이점: ETL 파이프라인에서는 변환 작업이 목적지
 
 # 데이터 파이프라인이란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 파이프라인은 데이터의 이동 또는 수정에 특히 관련이 있어요. 이러한 파이프라인은 데이터를 한 곳이나 형식에서 다른 곳이나 형식으로 운송하는 것을 목표로 하며, 데이터를 추출하고 최종적으로 적재하기 위해 선택적 변환 단계를 통해 안내하는 시스템을 구성합니다.
 
@@ -79,7 +130,18 @@ ETL과 ELT의 차이점: ETL 파이프라인에서는 변환 작업이 목적지
 - 지연 시간: 데이터 패킷이 파이프라인을 통과하는 총 시간을 의미합니다. 지연 시간은 파이프라인 내 각 처리 단계에서 소요된 개별 시간의 합으로, 파이프라인 내 가장 느린 프로세스에 의해 제한됩니다. 예를 들어, 웹 페이지의 로딩 시간은 서버 속도에 따라 결정되며 인터넷 서비스 속도와 관계없이 서버 속도에 의해 제어됩니다.
 - 처리량: 이는 시간 단위당 파이프라인을 통해 처리될 수 있는 데이터 양을 의미합니다. 처리량을 증가시키는 것은 시간 단위당 더 많은 패킷을 처리하고 큰 상자를 차례차례 통과시키는 우리 친구 사슬 예시와 유사합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 파이프라인 응용:
 
@@ -94,7 +156,18 @@ ETL과 ELT의 차이점: ETL 파이프라인에서는 변환 작업이 목적지
 
 데이터 파이프라인 프로세스는 일반적으로 구조화된 일련의 단계를 따릅니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 추출: 하나 이상의 소스에서 데이터를 검색하는 과정입니다.
 - 투입: 추출된 데이터는 후속 처리를 위해 파이프라인에 투입됩니다.
@@ -112,7 +185,18 @@ ETL과 ELT의 차이점: ETL 파이프라인에서는 변환 작업이 목적지
 
 ![이미지](/assets/img/2024-06-19-DataEngineeringpipelineleveragingAirflowKafka_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 스케줄러: 예약된 워크플로우를 트리거합니다.
 - 실행기: 작업을 Worker에 할당하여 실행합니다.
@@ -126,7 +210,18 @@ DAG(유향 비순환 그래프)는 작업 간의 종속성과 실행 순서를 �
 
 ![이미지](/assets/img/2024-06-19-DataEngineeringpipelineleveragingAirflowKafka_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작업 상태:
 
@@ -145,7 +240,18 @@ DAG(유향 비순환 그래프)는 작업 간의 종속성과 실행 순서를 �
 
 Airflow DAG 스크립트의 논리 블록
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 라이브러리 가져오기: 필요한 Python 라이브러리 가져오기.
 - DAG 인수: DAG에 대한 기본 인수(시작 날짜와 같은 것) 정의.
@@ -159,7 +265,18 @@ Airflow DAG 스크립트의 논리 블록
 
 # Kafka를 활용한 스트리밍 파이프라인 구축
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이벤트는 이벤트 스트리밍의 맥락에서 엔티티의 관찰 가능한 상태 업데이트를 설명하는 데이터를 의미합니다. 예시로는 자동차의 GPS 좌표, 방 온도, 또는 응용 프로그램의 RAM 사용량 등이 있습니다.
 
@@ -171,7 +288,18 @@ Airflow DAG 스크립트의 논리 블록
 
 한 소스에서 한 대상으로: 이벤트 스트리밍은 소스(센서, 데이터베이스, 응용 프로그램)가 실시간 이벤트를 지속적으로 생성하고 이를 대상지(파일 시스템, 데이터베이스, 응용 프로그램)로 전달하는 것을 의미합니다. 이 과정은 이벤트 스트리밍이라고 불립니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 많은 출처에서 많은 대상으로: 다양한 통신 프로토콜(FTP, HTTP, JDBC, SCP)을 사용하는 여러 분산 이벤트 소스 및 대상을 관리하는 것은 도전이 될 수 있습니다. 이벤트 스트림 플랫폼(ESP)은 미들웨어로 작용하여 다양한 이벤트 기반 ETL의 처리를 간단하게 만듭니다.
 
@@ -183,7 +311,18 @@ ESP 구성 요소
 - 이벤트 저장소: 받은 이벤트를 저장하여 대상이 비동기적으로 검색할 수 있도록 합니다.
 - 분석 및 쿼리 엔진: 저장된 이벤트를 쿼리하고 분석합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이벤트 브로커는 중요한 컴포넌트입니다. 이는 다음과 같은 구성 요소들을 포함합니다:
 
@@ -199,7 +338,18 @@ ESP 구성 요소
 - Apache Spark
 - Apache Storm
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아파치 카프카: 독특한 기능과 광범위한 응용 시나리오를 갖춘 가장 인기 있는 ESP 중 하나입니다. 카프카는 분산 클라이언트-서버 모델을 따릅니다.
 
@@ -214,7 +364,18 @@ ESP 구성 요소
 - 영구적인 지속성: 이벤트를 영구적으로 저장하여 소비자의 편의에 맞게 사용할 수 있습니다.
 - 오픈 소스: 특정 요구 사항에 맞춰 사용자 정의가 가능하여 무료로 제공됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 카프카 아키텍처
 
@@ -224,7 +385,18 @@ ESP 구성 요소
 
 Kafka CLI를 사용한 주제 관리: 카프카 명령줄 인터페이스는 카프카 클러스터 내에서 주제를 생성, 나열, 설명 및 삭제하는 기능을 제공합니다. 명령에는 정의된 파티션 및 복제로 주제를 생성하고 주제 및 구성에 대한 자세한 정보를 얻는 등의 작업이 포함됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-DataEngineeringpipelineleveragingAirflowKafka_6.png)
 
@@ -234,7 +406,18 @@ Kafka CLI를 사용한 주제 관리: 카프카 명령줄 인터페이스는 카
 
 컨슈머로 이벤트 읽기: 컨슈머는 토픽에 가입하고 저장된 이벤트를 읽어 순차적으로 오프셋을 유지합니다. 오프셋을 재설정함으로써 컨슈머는 처음부터 이벤트를 다시 재생할 수 있습니다. 카프카 컨슈머와 프로듀서는 독립적으로 작동하여 동기화 없이 이벤트를 저장하고 소비할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 끝까지 이어지는 이벤트: 날씨 파이프라인
 
@@ -245,7 +428,18 @@ Kafka CLI를 사용한 주제 관리: 카프카 명령줄 인터페이스는 카
 - IBM Weather API: JSON 형식의 실시간 및 예보 날씨 데이터를 제공합니다.
 - Twitter API: JSON 형식의 실시간 트윗 및 언급을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단계 2: Kafka 토픽 구성
 
@@ -255,7 +449,18 @@ Kafka 클러스터에서 날씨 및 트위터 이벤트용 전용 토픽을 생�
 
 단계 3: 프로듀서 개발
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 이벤트 소스에 대해 특정한 프로듀서를 개발하세요. 이들은 JSON 데이터를 바이트로 직렬화하고 해당 Kafka 토픽으로 게시할 것입니다.
 
@@ -265,7 +470,18 @@ Kafka 클러스터에서 날씨 및 트위터 이벤트용 전용 토픽을 생�
 
 날씨 및 Twitter 이벤트용 전용 컨슈머를 생성하세요. 이 컨슈머들은 Kafka 토픽에서 바이트를 역직렬화하여 JSON 데이터로 변환한 후 처리할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-DataEngineeringpipelineleveragingAirflowKafka_9.png" />
 
@@ -289,7 +505,18 @@ record = {"event_type": "weather", "data": {"temperature": 25, "location": "NYC"
 write_to_database(record)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 6단계: SQL을 사용한 데이터베이스 상호작용
 
@@ -302,7 +529,18 @@ INSERT INTO events VALUES ('{"event_type": "weather", "data": {"temperature": 25
 
 7단계: 시각화 및 분석
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마침내, 수집하고 저장된 이벤트 데이터로부터 통찰력 있는 시각화와 분석을 위해 데이터베이스 레코드를 쿼리하세요. 수집된 이벤트 데이터로부터 가치 있는 통찰력을 얻기 위해 대시보드를 사용하는 것이 가장 좋습니다.
 

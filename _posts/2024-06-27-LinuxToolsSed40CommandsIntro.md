@@ -3,17 +3,13 @@ title: "리눅스 도구 Sed 40 기본 명령어 입문"
 description: ""
 coverImage: "/assets/img/2024-06-27-LinuxToolsSed40CommandsIntro_0.png"
 date: 2024-06-27 18:59
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-27-LinuxToolsSed40CommandsIntro_0.png
 tag: Tech
 originalTitle: "LinuxTools:Sed:4.0:Commands:Intro"
 link: "https://medium.com/@junkybirdbath/linuxtools-sed-4-0-commands-intro-2632c4f2181e"
 isUpdated: true
 ---
-
-
-
-
 
 이 노트 세트에서는 다양한 Sed 명령에 대해 논의를 시작하겠습니다. 그 명령들이 많기 때문에 명령에 대한 논의를 몇 개의 다른 게시물로 나눌 것입니다. 이 게시물에는 다음 내용이 포함됩니다:
 
@@ -25,7 +21,18 @@ isUpdated: true
 
 모든 다른 프로그래밍 언어와 마찬가지로 Sed에는 구문이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 설명서에 따르면 Sed 명령의 구문은 다음과 같습니다:
 
@@ -35,7 +42,18 @@ X는 한 글자 명령입니다. 모든 Sed 명령은 한 글자로만 구성됩
 
 [주소]는 명령 또는 명령 그룹 앞에 나오는 선택적 조건입니다. [주소]는 숫자, 정규 표현식 또는 이전에 설명한 둘 중 하나의 범위일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [command options]은 명령어 X를 제어하는 옵션입니다.
 
@@ -45,7 +63,18 @@ Sed 스크립트
 
 Sed 스크립트는 명령줄에 직접 제공하거나 하나 이상의 파일에 포함하여 Sed에 제공할 수 있습니다. 명령줄에서는 여러 스크립트를 -e 스크립트 또는 --expression=스크립트 명령줄 옵션으로 구분합니다. Sed는 -f 스크립트 | --file=스크립트 명령줄 옵션을 사용하여 파일에서 스크립트를 읽을 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 행에 여러 명령을 사용하려면 스크립트 내에서 ; 문자를 사용하여 구분합니다. 스크립트가 파일에 저장된 경우 \n도 명령 구분자로 작동합니다.
 
@@ -65,17 +94,28 @@ $ printf "${s}" | sed -n "/L1/p; /L2/p; /L3/p"
 L1
 L2
 L3
-$ ## You can also enter 1 or more commands 
+$ ## You can also enter 1 or more commands
 $ ## as separate scripts using the -e option
 $ printf "${s}" | sed -n -e "/L1/p" -e "/L2/p; /L3/p"
 L1
 L2
-L3 
+L3
 ```
 
 Sed 스크립트가 들어 있는 파일도 만들 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 이것은 demo.sed라는 파일에 저장된 Sed 스크립트입니다.
@@ -98,8 +138,18 @@ L3
 
 실행 가능한 Sed 스크립트 실행하기
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 표 태그를 Markdown 형식으로 변경할 수 있어요.
 
@@ -109,7 +159,7 @@ L3
 # Sed 스크립트 파일: demo.sed
 # -n - 자동 출력 비활성화
 # -E - 확장 정규 표현식 사용 가능
-# -f - 
+# -f -
 /L1/p
 /L2/p; /L3/p
 /L3/ { s/(.*)/\1\nThat's All Folks!!!/; p}
@@ -146,7 +196,18 @@ That's All Folks!!!!
 $ ## 정말 그게 다에요
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 조건문과 주소 지정
 
@@ -156,7 +217,18 @@ $ ## 정말 그게 다에요
 
 다음 명명 방식을 사용하여 명령을 그룹화할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **address** ' **address1** X1; **address2** X2; ... **addressn** Xn '
 
@@ -166,7 +238,18 @@ $ ## 정말 그게 다에요
 
 이렇게 함으로써 if-elseif-else 유형의 구조가 포함된 Sed 스크립트를 작성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 유용한 명령줄 옵션과 별명
 

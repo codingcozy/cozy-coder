@@ -3,7 +3,7 @@ title: "보안 데이터 플랫폼 구축 팀 구조 및 접근 전략에 대한
 description: ""
 coverImage: "/assets/img/2024-06-19-BuildingSecureDataPlatformsAGuideforTeamsStructureAccessStrategies_0.png"
 date: 2024-06-19 01:38
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-BuildingSecureDataPlatformsAGuideforTeamsStructureAccessStrategies_0.png
 tag: Tech
 originalTitle: "Building Secure Data Platforms: A Guide for Team’s Structure , Access Strategies"
@@ -11,19 +11,26 @@ link: "https://medium.com/data-engineer-things/building-secure-data-platforms-a-
 isUpdated: true
 ---
 
+몇 달 동안 데이터 솔루션을 개발하며, 엔지니어와 데이터 소유자들은 증가된 데이터 액세스 요청으로 인한 병목 현상에 직면할 수 있습니다(전체 테이블, 스키마, 서브셋, 민감한 데이터 등). 응용 프로그램 기술 사용자나 셀프 서비스 이용자와 관련이 있는 이러한 상황을 처리하는 것이 어렵거나 스트레스를 받을 수 있습니다.
 
-
-
-
-몇 달 동안 데이터 솔루션을 개발하며, 엔지니어와 데이터 소유자들은 증가된 데이터 액세스 요청으로 인한 병목 현상에 직면할 수 있습니다(전체 테이블, 스키마, 서브셋, 민감한 데이터 등). 응용 프로그램 기술 사용자나 셀프 서비스 이용자와 관련이 있는 이러한 상황을 처리하는 것이 어렵거나 스트레스를 받을 수 있습니다. 
-
-데이터 아키텍처, 데이터가 어떻게 구조화되고 모델링되는지, 데이터 액세스 전략과 패턴, 기술 등이 이러한 시나리오를 다루는 데 얼마나 어렵거나 원활한지에 영향을 미칩니다. 
+데이터 아키텍처, 데이터가 어떻게 구조화되고 모델링되는지, 데이터 액세스 전략과 패턴, 기술 등이 이러한 시나리오를 다루는 데 얼마나 어렵거나 원활한지에 영향을 미칩니다.
 
 이 기사에서는 조직이 데이터 제품을 구조화하고 데이터 플랫폼의 데이터 액세스 전략을 설계할 수 있는 방법에 대해 논의합니다. 유연하고 빠르며 안전한 데이터 소비를 보장합니다. 또한 데이터 아키텍처와 조직 구성이 확장 가능성에 영향을 미치는 다양한 전략과 잠재적인 아키텍처 및 전략을 통해 병목 현상에 대한 대응 전략을 살펴봅니다. 사용자와 팀의 액세스 수명주기 및 일부 기술이 프로세스를 용이하게 할 수 있는 방법에 대해 이야기합니다. 모든 동안 팀과 조직이 그러한 솔루션을 개발하고 적응하는 데 직면할 수 있는 제약 사항을 고려합니다.
 
 # 목차
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1. 소개
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 4. 팀 내 세밀한 액세스 제어
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5. 다국적 데이터 접근
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 # 1. 소개
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아키텍처와 솔루션을 상세히 설명하기 전에, 왜 이 주제를 다뤄야 하고 몇 분 동안이라도 이에 집중하는 것이 중요한 지 강조해보겠습니다.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 이 주제에 대한 중요성은 더 많은 최근 사건들을 살펴볼수록 더욱 빛을 발합니다. 민감한 고객 데이터가 유출된 사건들을 생각해보면요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 글로벌 기관이 개인 데이터를 처리하는 것에 대한 고객의 신뢰가 상실되었습니다. 몇 가지 이벤트로 인해 액세스 권한으로 인한 800만 명 이상의 사용자 데이터 유출이 발생했습니다. 직원들이 중요한 민감 데이터에 액세스하면서 소셜 엔지니어링에 속아들기도 했고, 때로는 정부 기관까지 영향을 끼쳤습니다. 이 같은 사례가 몇 년 동안 계속되었지만, 이해하셨을 것입니다.
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 # 2. 상황 설정
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특정 데이터 아키텍처에 대한 해결책을 제시하는 것은 쉽지만, 이는 현실을 반영하지 않습니다. 조직은 다양한 데이터 아키텍처(Data Mesh, 중앙 데이터 웨어하우스, Lakehouse 등)와 구성원 구조를 가지고 있어 구현 가능한 범위에 제한을 둡니다.
 
@@ -73,7 +124,18 @@ isUpdated: true
 
 기본 사용 사례는 다음과 같이 시작됩니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 중심이 되는 데이터 팀이 메달리온 기반 데이터 아키텍처를 관리합니다.
 - 데이터 통합 프로세스는 ETL 또는 ELT 방식을 따를 수 있습니다.
@@ -83,7 +145,18 @@ isUpdated: true
 
 우리가 답변하고자 하는 질문은 누가 무엇에 액세스할 것이며 어떻게 하는가인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 소규모 조직이나 스타트업에서 발견되는 전형적인 설정입니다.
 
@@ -95,7 +168,18 @@ isUpdated: true
 - 데이터 제품에는 고객/조직의 민감한 정보가 포함되어 있지 않습니다.
 - 액세스는 조직 내의 셀프 서비스 소비자에 대해 유연합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최종적으로, 데이터 이용자들은 Gold 단계 내에서 개발된 데이터 제품에 액세스할 수 있어야 합니다. 경우에 따라서는 업무 지속성과 확장을 보장하기 위해 용량이나 시간 제약 때문에 우회되기도 합니다.
 
@@ -105,7 +189,18 @@ isUpdated: true
 
 이와 같은 설정에서 준수하는 민감한 데이터 처리를 보장하는 주제는 다른 기사에서 다루고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 시나리오는 단기적으로는 작동할 수 있지만, 조직, 팀 구조 및 액세스 프로세스가 더 복잡해질 것입니다.
 
@@ -115,7 +210,18 @@ isUpdated: true
 
 아키텍처 설정에 대한 예상된 지형을 구성하는 것부터 시작해보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 분석가 분배: 분석가들은 부서/제품팀 사이에 나뉘어 있습니다.
 - 역할 계층구조: 엔지니어 및 분석가들은 조직 구조에 따라 주니어, 시니어 등으로 더 세분화됩니다.
@@ -130,7 +236,18 @@ isUpdated: true
 
 이러한 설정으로 시각적으로 어떻게 보일지 살펴보고, 그 후에 다이어그램 구성 요소를 명확히 설명해보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 팀 설정
 
@@ -140,7 +257,18 @@ isUpdated: true
 
 서브그룹은 읽기/쓰기 권한 및 민감한 데이터 보호를 위한 추가 보안 계층을 제공하는 데 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 팀의 분리 방법은 확정되어 있지 않습니다. 여러 범위와 수준을 자유롭게 시험해보세요. 그러나 효과적으로 관리하지 않으면 지나치게 복잡한 계층 구조가 될 수 있습니다.
 
@@ -150,7 +278,18 @@ isUpdated: true
 
 ## 데이터 레이크/하우스 구조화
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터가 데이터 레이크나 데이터 웨어하우스 내에서 구조화되고 조직화되는 방식은 액세스 제어 전략의 유연성을 지원하거나 제한할 수 있습니다.
 
@@ -160,8 +299,18 @@ isUpdated: true
 
 내가 경험한 또 다른 액세스 전략은 액세스를 제한하기 위해 뷰를 사용하는 것이었습니다. 이는 요구 사항을 충족시키지만, 병목 현상은 뷰를 작성하고 관리하는 데서 나타납니다. 필요한 그룹에 사용자를 간단히 추가하는 속도가 뷰에 비해 일부 시나리오에서 더 나은 결과를 도출할 수 있습니다 (성장 및 확장이 제한된 소규모 팀의 경우).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-BuildingSecureDataPlatformsAGuideforTeamsStructureAccessStrategies_0.png)
 
@@ -171,8 +320,18 @@ isUpdated: true
 
 세계적 규모로 운영하는 기업은 전 섹션에서 논의된 데이터 보안 및 규정 준수 주제에 관해서 다양한 어려움을 겪게 됩니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 분리 및 지역성 규칙을 다양한 법적 요구 사항에 맞추는 것은 도전적입니다. 다행히 현재는 액세스 측면을 논의하고 있으며 데이터 준수 법률 컨설팅은 아직 논의하지 않고 있습니다.
 
@@ -182,7 +341,18 @@ isUpdated: true
 
 일부 팀이 다국적으로 확장될 수 있다는 점도 보여주는 것이 중요합니다. 조직 구성에 따라 그룹은 적절하게 조정되어야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 관심이 있다면, 자동 설정 및 구성을 위해 관련 아키텍처를 자세히 살펴보고 싶다면, 주제에 대한 다른 기사를 확인하실 수 있습니다.
 
@@ -195,7 +365,18 @@ isUpdated: true
 - 법적 요구 사항은 데이터 아키텍처 및 액세스 그룹을 조정해야 할 수 있습니다.
 - 그룹에 대한 액세스를 쉽게 조절하고 변경할 수 있는 원활한 프로세스를 구축함으로써, 액세스 제어 전략을 관리하는 데 속도, 유연성, 확장성을 제공할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 구독하시면 새 이야기를 게시할 때 알림을 받을 수 있어요.
 LinkedIn에서 언제든지 연락 주시면 됩니다.

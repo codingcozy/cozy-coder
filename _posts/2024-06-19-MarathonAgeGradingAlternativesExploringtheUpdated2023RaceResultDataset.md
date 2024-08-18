@@ -3,18 +3,13 @@ title: "마라톤 나이 등급 대안 2023년 업데이트된 레이스 결과 
 description: ""
 coverImage: "/assets/img/2024-06-19-MarathonAgeGradingAlternativesExploringtheUpdated2023RaceResultDataset_0.png"
 date: 2024-06-19 15:47
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-MarathonAgeGradingAlternativesExploringtheUpdated2023RaceResultDataset_0.png
 tag: Tech
 originalTitle: "Marathon Age Grading Alternatives: Exploring the Updated 2023 Race Result Dataset"
 link: "https://medium.com/runners-life/marathon-age-grading-alternatives-exploring-the-updated-2023-race-result-dataset-84c935ccada3"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![마라톤 나이 그레이딩 대안 탐색](/assets/img/2024-06-19-MarathonAgeGradingAlternativesExploringtheUpdated2023RaceResultDataset_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 저는 약 2,000,000 개의 개별 마라톤 완주 정보를 포함한 대규모 데이터셋을 수집한 후, 서로 다른 시간에 대한 백분위수 및 z-점수를 계산하여 전통적인 나이 그레이딩 시스템의 대안을 만들었어요.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이번 시리즈를 마무리하려고 하는데, 업데이트된 데이터를 사용하고 싶었습니다. 원래 사용하던 데이터셋은 2010년부터 2019년까지의 레이스를 다룹니다.
 
@@ -35,7 +40,18 @@ isUpdated: true
 
 이번 시리즈를 두 가지 마지막 기사로 마무리 짓겠습니다. 이 기사에서는 데이터셋을 살펴보고 일반적인 관찰을 어떻게 할 수 있는지 알아볼 것입니다. 그 다음 기사에서는 z-점수 및 백분위 수 계산을 업데이트하고 최신 연령 등급 계산기를 만들어 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 데이터셋에는 무엇이 포함되어 있나요?
 
@@ -45,7 +61,18 @@ isUpdated: true
 
 결과를 정리한 후 몇 가지 성별 또는 나이 정보가 없는 결과를 제외하면 609개 레이스 전체에서 388,569개의 완주 기록이 남았습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 61 레이스에서는 1,000명 이상의 참가자가 있었습니다.
 - 108 레이스에서는 500명 이상의 참가자가 있었습니다.
@@ -57,7 +84,18 @@ isUpdated: true
 
 이 데이터셋은 이전 것보다 작습니다. 약 1년치의 결과를 포함하고 있지만, 세 달이 아닌 한 해 (2023년)에 한정되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 연령 그룹에서 충분한 수의 러너가 남아 있어 백분위 및 z-점수를 정확하게 계산할 수 있을까요?
 
@@ -67,7 +105,18 @@ isUpdated: true
 
 그러나 35세 이하의 러너가 가장 많은 그룹을 이루고 있다 해도, 러너의 약 50%가 40대 이상인 것은 중요한 사실입니다. 이는 연령 등급이 중요하다는 것을 상기시켜주는 좋은 예시입니다 — 왜냐하면 대부분의 러너가 마스터 연령 그룹에 속하기 때문이죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전 데이터셋을 탐색하면 분포가 약 1,000명의 러너 부근에서 약간 이상해지는 것 같습니다.
 
@@ -77,7 +126,18 @@ isUpdated: true
 
 나머지 연령 그룹인 남성 80세 이상, 여성 75-79세 그룹, 여성 80세 이상은 신뢰할 만한 결론을 내릴만큼 충분히 크지 않을 수도 있습니다. 최소한 이들에 대해서는 면밀히 살펴보기로 하죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 시간대가 중요한가요?
 
@@ -87,7 +147,18 @@ isUpdated: true
 
 데이터를 탐색하는 중에 눈에 띈 것 중 하나는 연도 내에 완주 횟수가 균등하게 분포되어 있지 않다는 것이었어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 절반 이상의 완주(201k)가 9월부터 11월에 개최된 레이스에서 발생했습니다. 그리고 조금 더 범위를 넓혀본다면, 하년 중 후반기(7월부터 12월)가 상반기보다 약 50% 더 많은 완주를 기록하고 있습니다.
 
@@ -97,7 +168,18 @@ isUpdated: true
 
 위 시각화는 각 나이 그룹별 평균 완주 시간을 네 가지 다른 시간대를 기준으로 비교합니다 — 원래의 9월부터 11월 기간, 상반기, 하반기, 전 연도.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 잠깐 차이점이 있어요. 9월부터 11월 또는 1월부터 6월에 초점을 맞추는 경우 평균이 약간 빨라질 때가 있습니다. 특히 연장된 러너들 사이의 차이가 더 커집니다.
 
@@ -107,7 +189,18 @@ isUpdated: true
 
 전체 연도는 가장 큰 샘플을 제공하며, 이는 더 신뢰할 수 있는 결과를 얻게 해 줄 것으로 기대됩니다(특히 연령이 많거나 적은 그룹의 경우).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 한 해 동안 여러 차례 경주하는 참가자는 얼마나 될까요?
 
@@ -117,22 +210,55 @@ isUpdated: true
 
 동명이인의 가능성이 있습니다 — 일치하는 이름을 가진 여러 사람이 있을 수 있습니다. 만약 40살인 두 남성이 Michael Johnson으로 이름이 동일하면, 실수로 같은 사람으로 표시될 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 잘하셨어요! 마크다운 형식의 테이블은 아래와 같습니다:
 
-| 사건 | 방지 |
-|-------------|---------|
-| 오탐 | 매칭 방해 |
-| 이름 변경 | 매칭 방해 |
-| 별명 사용 | 매칭 방해 |
+| 사건           | 방지      |
+| -------------- | --------- |
+| 오탐           | 매칭 방해 |
+| 이름 변경      | 매칭 방해 |
+| 별명 사용      | 매칭 방해 |
 | 연령 그룹 변경 | 매칭 방해 |
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하노이 표를 마크다운 형식으로 변경하십시오.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Henry Rueden. 88번의 레이스를 완주한 73~74세의 남성으로, 중간 완주 시간은 8시 31분이며 최고 시간은 6시 09분입니다.
 - Angela Tortorice. 63번의 레이스를 완주한 55~56세의 여성으로, 중간 완주 시간은 7시 43분이며 최고 시간은 5시 41분입니다.
@@ -143,7 +269,18 @@ isUpdated: true
 
 이 데이터에 관한 토론에서 사람들은 종종 연 1회 이상 레이스에 참가하는 사람들이 일반적으로 1회 참가자보다 빠르다고 주장합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그것은 합리적인 가정이에요. 그러나 지금 나는 이 문제에 빛을 볼 수 있는 준비된 데이터셋이 있으니, 그 질문을 하자는 것이 말이 된다고 생각했어요.
 
@@ -153,7 +290,18 @@ isUpdated: true
 
 연령 그룹을 횡단하면, 한 번, 두 번, 세 번 경주를 마치는 러너들을 분포를 비슷합니다. 위쪽에 더 자세히 나와있는 것과 유사하게, 대략 90% (1 경주), 9% (2 경주), 1% (3 경주)로 나눠지죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 약간의 차이가 있습니다. 여성은 한 종족에 약간 더 치우쳐 있습니다. 35세 미만의 러너들 중 여성의 비율은 93–6–1이며, 남성은 91–8–1입니다.
 
@@ -163,7 +311,18 @@ isUpdated: true
 
 2023년의 데이터를 수집하고 준비했으니, 이 시리즈를 마무리할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 기사를 위해 2023년의 시간을 기반으로 z-점수와 백분위를 위한 데이터를 준비할 거예요. 또한 새로운 연령 등급 계산기를 업데이트하여 이 새로운 데이터와 더 최근의 연령 등급 요소를 통합할 거예요.
 
@@ -175,7 +334,18 @@ isUpdated: true
 - 지난 스무 해 동안 완주 시간의 변화를 분석하는 이 기사를 업데이트하는 것
 - BAA의 연령 및 성별에 따른 예선 기준을 분석하는 것
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 내용 중에 관심이 있는 부분이 있다면, 이메일 소식을 구독해 주세요.
 

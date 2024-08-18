@@ -22,7 +22,16 @@ isUpdated: true
 
 본 기사에서는 Bash 스크립트에서 효율적으로 텍스트를 처리하는 데 사용할 수 있는 내장 문자열 조작 구문 몇 가지에 대해 설명하겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 부분 문자열 추출 및 대체
 
@@ -40,7 +49,16 @@ echo "${str::4}" # 2023
 echo "2022-${str:5}" # 2022-10-12
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음과 같이 오른쪽 기준으로 부분 문자열 계산도 할 수 있습니다.
 
@@ -64,7 +82,16 @@ echo "${str/bin/dist}" # odist-linux_x64_bin
 echo "${str//bin/dist}" # odist-linux_x64_dist
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일부 문자열(예: 파일 이름, 경로 등)을 작업할 때는 문자열의 접두사와 접미사를 대체해야 할 수도 있습니다. 파일 확장자를 다른 확장자로 바꾸는 것이 좋은 예시입니다. 다음 예시를 살펴보세요:
 
@@ -88,7 +115,16 @@ echo "${str/%.*/.bak}" # db_config_backup.bak
 echo "${str/#*_/new}" # newbackup.zip
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 방법은 정확한 부분 문자열을 모를 때 도움이 됩니다.
 
@@ -98,7 +134,16 @@ echo "${str/#*_/new}" # newbackup.zip
 
 다음의 코드 스니펫에서 보여지는 것처럼, if 조건문과 =~ 연산자를 사용하여 정규 표현식 일치를 수행할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 #!/bin/bash
@@ -118,7 +163,16 @@ fi
 
 Bash 해석기가 정규 표현식을 찾은 후에는 일반적으로 모든 일치 항목을 BASH_REMATCH 쉘 변수에 저장합니다. 이 변수는 읽기 전용 배열이며, 전체 일치 데이터를 첫 번째 인덱스에 저장합니다. 서브 패턴을 사용하는 경우, Bash는 그에 해당하는 일치 항목을 다른 인덱스에 차례대로 보관합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 #!/bin/bash
@@ -147,7 +201,16 @@ echo "${str/$re/new}.bak" # db_backup_new.bak
 
 
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자주 텍스트 처리 요구 사항에서는 원하는 부분 문자열을 제거하여 텍스트 세그먼트를 사전 처리해야 할 때가 있습니다. 예를 들어, v 접두사와 일부 빌드 번호를 포함한 버전 번호를 추출하고 주 버전 번호를 찾으려면 일부 부분 문자열을 제거해야 합니다. 똑같은 부분 문자열 교체 구문을 사용할 수 있지만, 문자열 제거를 위해 교체 문자열 매개변수를 생략할 수도 있습니다.
 
@@ -174,7 +237,16 @@ ver="${str//[a-z_]}"
 echo $ver # 5.02-2224
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 대 소문자 변환 및 대 소문자 기반 변수
 
@@ -194,7 +266,16 @@ echo $lower # 안녕 bash!
 echo $upper # 안녕 BASH!
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음처럼 특정 문자열의 첫 글자만 대문자 또는 소문자로 변경할 수도 있습니다:
 
@@ -223,7 +304,16 @@ echo $ver1 # v4.02.2
 echo $ver2 # V2.22.1
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 ver1 및 ver2 변수는 선언 시 case 속성을 받기 때문에 특정 변수에 값을 할당할 때마다 Bash는 변수 속성을 기반으로 텍스트 case를 변환합니다.
 
@@ -233,7 +323,16 @@ Bash는 declare 내장을 사용하여 색인 배열과 연관 배열을 정의�
 
 IFS와 read를 사용하는 것은 문자열을 분할하는 가장 간단하고 오류가 적은 방법 중 하나입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 #!/bin/bash
@@ -263,7 +362,16 @@ arr=(${str//,/ })
 echo "${#arr[@]}" # 현재 디렉토리의 내용이 포함되어 있음
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 
 지금까지 읽어 주셔서 감사합니다.
@@ -273,7 +381,16 @@ echo "${#arr[@]}" # 현재 디렉토리의 내용이 포함되어 있음
 우리 커뮤니티의 일원이 되어 주셔서 감사합니다! 마지막으로 하고 가기 전에:
 
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 👏 이야기에 박수를 보내고 저자를 팔로우하세요 👉
 - 📰 Level Up Coding 게시물에서 더 많은 콘텐츠 확인하기

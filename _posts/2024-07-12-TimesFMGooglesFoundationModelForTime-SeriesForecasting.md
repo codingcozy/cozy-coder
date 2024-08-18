@@ -3,17 +3,13 @@ title: "Google의 시간 시계열 예측을 위한 TimesFM 소개"
 description: ""
 coverImage: "/assets/img/2024-07-12-TimesFMGooglesFoundationModelForTime-SeriesForecasting_0.png"
 date: 2024-07-12 23:30
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-TimesFMGooglesFoundationModelForTime-SeriesForecasting_0.png
 tag: Tech
 originalTitle: "TimesFM: Google’s Foundation Model For Time-Series Forecasting"
 link: "https://medium.com/towards-data-science/timesfm-googles-foundation-model-for-time-series-forecasting-593a332dd08d"
 isUpdated: true
 ---
-
-
-
-
 
 ![image](/assets/img/2024-07-12-TimesFMGooglesFoundationModelForTime-SeriesForecasting_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 TimeGPT를 따르며, 여러 재단 예측 모델이 출시되었지만, 하나는 눈에 띄었어요. 최근에 구글은 현격한 결과를 보여주는 혁신적인 시계열 모델인 TimesFM을 공개했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 To be able to forecast accurately, a firm understanding of time series is crucial. It is a versatile tool used in various fields such as retail, energy demand, economics, healthcare, and more. A solid foundation in time series modeling can significantly improve predictive accuracy, just like how GPT-4 revolutionized text prediction.
 
@@ -37,7 +44,18 @@ In this blog post, we will delve into the following topics:
 
 Excited to explore further? Let's dive in!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Foundation Models for Time Series: Why They Pose a Challenge
 
@@ -50,7 +68,18 @@ The emergence of foundation models has been a significant development in NLP, ex
 
 Exploring the realms of time series modeling unveils a rich tapestry of complexities and intricacies awaiting solutions.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # TimesFM란 무엇인가요?
 
@@ -64,7 +93,18 @@ TimesFM은 더 구체적으로 다음과 같습니다:
 
 다음으로, TimesFM이 시계열 모델의 기초를 구축하는 과제를 어떻게 극복하는지 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # A) 거대한 양의 데이터 찾기
 
@@ -74,7 +114,18 @@ Monash 리포지토리와 같은 표준 벤치마크(예: 관광, 전력 데이�
 
 보편적 시계열 모델을 위한 이상적인 데이터셋은 아래와 같은 특징을 갖춰야 합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 수백만 개의 데이터가 포함된 대규모 데이터
 - 여러 도메인을 대표하는 다양한 데이터
@@ -88,7 +139,18 @@ TimesFM의 저자들은 공개 시계열 데이터에서 3가지 추가 자원�
 
 결과는 1000억 데이터포인트로 이루어진 데이터셋이었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 100B 데이터 포인트도 LLaMa의 1조 토큰에 비하면 작지만, 대규모 시계열 데이터셋을 만드는 좋은 시작입니다.
 
@@ -98,7 +160,18 @@ TimesFM의 저자들은 공개 시계열 데이터에서 3가지 추가 자원�
 
 대규모 트랜스포머가 범용 시간 패턴을 학습할 수 있을 것입니다. 하지만 컨텍스트 길이와 시야에 대해 어떤 가정을 해야 할까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 수평 길이의 연구 (예측 길이)
 LLMs는 다음 단어를 예측하는 데 최적화되어 있습니다 (자기회귀).
@@ -110,13 +183,25 @@ LLMs는 다음 단어를 예측하는 데 최적화되어 있습니다 (자기�
 
 TimesFM은 다른 성공적인 모델인 PatchTST에 의해 인기 있는 기술인 패칭을 활용하여 중간 지점을 찾습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **패칭의 작동 방식**
 
 TimesFM은 한 번에 하나의 데이터 포인트를 예측하지 않으며 전체 수평 길이를 예측하지도 않습니다. 대신, 컨텍스트와 수평 길이 모두를 패치로 나눕니다.
 
 만약 우리가 다음과 같은 것을 갖고 있다고 가정해 봅시다:
+
 - 크기 L의 컨텍스트 길이,
 - 그리고 크기 p의 패치,
 - 그러면 우리는 입력을 N = L/p 개의 패치로 분할합니다. 이러한 것들을 입력 패치라고 합니다.
@@ -125,7 +210,18 @@ TimesFM은 한 번에 하나의 데이터 포인트를 예측하지 않으며 �
 
 Figure 1은 TimesFM 아키텍처가 교육 중에 어떻게 보이는지 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **이미지 첨부**
 
@@ -139,7 +235,18 @@ Figure 1은 TimesFM 아키텍처가 교육 중에 어떻게 보이는지 보여�
 - 마찬가지로 단계 3의 출력은 출력 잔차 블록으로 전달됩니다. 따라서 예측적인 수평선인 출력 패치가 생성됩니다. 이 패치는 손실을 계산하기 위해 실제 데이터와 비교됩니다.
 - 다음 복호화 단계에서 모델은 다음 두 입력 패치를 처리하고 두 번째 출력 패치를 출력할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러므로 결론을 내릴 수 있습니다:
 
@@ -149,7 +256,18 @@ Figure 1은 TimesFM 아키텍처가 교육 중에 어떻게 보이는지 보여�
 
 마지막으로, 저자들은 TimesFM을 다른 SOTA 예측 모델(통계적인, 트리 기반, 딥러닝)과 비교하여 평가했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Also, the authors compared llmtime with another successful TS foundational model, using GPT-3 and LLaMa-2 with tailored modifications for time-series forecasting.
 
@@ -163,7 +281,18 @@ Here are the benchmark parameters:
 
 The evaluation results are displayed below:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **이미지 추가:**
 
@@ -174,7 +303,18 @@ The evaluation results are displayed below:
 
 여기서 TimesFM이 분명한 승자입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 TimesFM은 모든 벤치마크에서 상위 3개 모델 중 하나로 선정되었습니다. 또한 llmtime도 능가하고 있습니다.
 
@@ -184,7 +324,18 @@ TimesFM은 zero-shot 추론을 수행하는데, 즉 TimesFM은 학습 중에 해
 
 파인튜닝의 영향
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 TimesFM 논문은 세세한 세부사항이 부족합니다.
 
@@ -194,7 +345,18 @@ TimesFM 논문은 세세한 세부사항이 부족합니다.
 
 # 스케일링 법칙
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 TimesFM은 본질적으로 큰 사전 훈련된 디코더 전용 트랜스포머 모델이기 때문에 모델 크기를 기준으로 성능을 평가하는 것이 타당합니다. 간단히 말하면:
 
@@ -204,7 +366,18 @@ TimesFM은 본질적으로 큰 사전 훈련된 디코더 전용 트랜스포머
 
 당연히 TimesFM 저자들은 사전 훈련 데이터셋을 동일하게 사용하고 유사한 횟수의 반복까지 시도하여 17M, 70M 및 200M 매개 변수 크기의 3개의 TimesFM 모델을 훈련한 초기 스케일링 연구를 수행했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결과는 아래의 이미지에서 확인할 수 있어요:
 
@@ -216,17 +389,39 @@ TimesFM은 본질적으로 큰 사전 훈련된 디코더 전용 트랜스포머
 
 ![Figure 5](/assets/img/2024-07-12-TimesFMGooglesFoundationModelForTime-SeriesForecasting_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-안녕하세요! 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+안녕하세요!
 
 오늘은 또 다른 흥미로운 주제에 대해 이야기해보려고 해요. 연구에서 더 많은 세부사항과 함께 다른 관계들도 포함되었다면 더 흥미로웠을 텐데요. 특히 성능 대 데이터셋 크기 및 성능 대 학습 시간 관계가 좀 더 자세히 다뤄졌다면 좋겠네요.
 
-마지막으로, 저자들은 자신들의 구조적 선택이 어떤 영향을 미치는지 측정하기 위해 Ablation study를 실시했습니다. 
+마지막으로, 저자들은 자신들의 구조적 선택이 어떤 영향을 미치는지 측정하기 위해 Ablation study를 실시했습니다.
 
 새로운 정보들이 늘어나면서 지식을 더욱 풍부하게 만들어 가는 과정이 정말 흥미롭죠! 함께 공부하고 성장하는 것은 늘 즐거운 일이에요. 좋은 하루 되세요! 🌟
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 They mostly focus on the relationships between the performance of TimesFM and the sizes of the input and output patches.
 
@@ -236,7 +431,18 @@ Therefore, the authors measured how the performance and the size of input/output
 
 ![Figure 6](/assets/img/2024-07-12-TimesFMGooglesFoundationModelForTime-SeriesForecasting_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![TimesFM Model Image](/assets/img/2024-07-12-TimesFMGooglesFoundationModelForTime-SeriesForecasting_7.png)
 
@@ -246,7 +452,18 @@ Therefore, the authors measured how the performance and the size of input/output
 
 TimesFM은 Google의 놀라운 시계열 모델로서 — 시계열 기초 모델 카테고리에 중요한 추가입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 모델은 비공개 베타 상태에 있지만 구글은 이를 Google Cloud Vertex AI에서 이용할 수 있도록 계획 중입니다. 그러나 모델이나 훈련 데이터세트는 아직 공개되지 않았습니다 (구글은 모델을 오픈 소스로 공개할지 아직 고민 중입니다).
 
@@ -256,7 +473,18 @@ TimesFM은 Google의 놀라운 시계열 모델로서 — 시계열 기초 모�
 
 내 의견으로는, 앞으로 TS 기초 모델에 대한 막대한 잠재력이 있다고 생각합니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 읽어주셔서 감사합니다!
 
@@ -267,7 +495,18 @@ TimesFM은 Google의 놀라운 시계열 모델로서 — 시계열 기초 모�
 
 [1] Das et al., A decoder-only foundation model for time-series forecasting [2023]
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [2] RadFord et al., 언어 모델은 감독되지 않은 다중 작업 학습자입니다
 
@@ -277,7 +516,18 @@ TimesFM은 Google의 놀라운 시계열 모델로서 — 시계열 기초 모�
 
 [5] Jared Kaplan et al., 신경망 언어 모델의 확장 법칙들
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **(6) Jordan Hoffmann et al. Training Compute-Optimal Large Language Models**
 

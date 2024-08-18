@@ -3,17 +3,13 @@ title: "여성 개발자는 어디에 있나요"
 description: ""
 coverImage: "/assets/img/2024-07-14-WhereAreAlltheWomen_0.png"
 date: 2024-07-14 02:09
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-14-WhereAreAlltheWomen_0.png
 tag: Tech
 originalTitle: "Where Are All the Women?"
 link: "https://medium.com/towards-data-science/where-are-all-the-women-3c79dabfdfc2"
 isUpdated: true
 ---
-
-
-
-
 
 ![WhereAreAlltheWomen_0](/assets/img/2024-07-14-WhereAreAlltheWomen_0.png)
 
@@ -25,7 +21,18 @@ isUpdated: true
 
 저는 이전에 연구한 편향 중 하나가 역사적 사건에 관한 것이라는 것을 알게 되었습니다. LLMs를 탐구하여 주요 역사적 사건의 형태로 어떤 역사적 지식을 인코딩했는지 이해하려고 했습니다. 그 결과, 주요 역사적 사건을 이해하는 데 심각한 서양편향이 인코딩되어 있다는 것을 발견하였습니다. 🌍📚
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 유사한 주제로, 이 기사에서는 중요한 역사 인물에 대한 언어 모델의 이해력을 탐구합니다. 저는 중요한 역사 인물에 대해 가장 많이 언급된 사람들을 묻는 질문을 두 개의 LLM에게 했습니다. 이 프로세스를 10번 반복하여 10가지 다른 언어로 진행했습니다. 간디나 예수와 같은 일부 이름들이 매우 자주 나타나는 반면, 마리 퀴리나 클레오파트라와 같은 다른 이름들은 덜 자주 나타났습니다. 모델이 생성한 남성 이름의 수에 비해, 여성 이름은 극히 적었습니다.
 
@@ -37,17 +44,39 @@ isUpdated: true
 - 지리적 편향: 모델이 시작된 언어에 관계없이, 서양 역사 인물을 예측하는 편향이 있었습니다. GPT-4는 유럽의 역사 인물을 60%의 비율로 생성하고, 클로드는 52%의 비율로 생성했습니다.
 - 언어 편향: 일부 언어는 성별이나 지리적 편향에 더 영향을 받았습니다. 예를 들어, 러시아어로 프롬프트를 받았을 때, GPT-4와 클로드는 내 모든 실험에서 여성을 생성하지 않았습니다. 또한, 일부 언어의 경우 언어의 질이 낮았습니다. 아랍어로 프롬프트를 받았을 때 예를 들어, 모델들은 사람 대신 유명한 장소를 잘못 생성하는 경향이 있었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 실험
 
-저는 OpenAI의 GPT-4와 Anthropics의 Claude에게 10가지 다른 언어(영어, 한국어, 중국어, 일본어, 스페인어, 프랑스어, 이탈리아어, 독일어, 러시아어, 아랍어)로 중요한 역사적 인물 상위 10명을 나열하도록 지시했습니다. 원본 프롬프트와 번역본은 이 기사의 끝에 있습니다. 
+저는 OpenAI의 GPT-4와 Anthropics의 Claude에게 10가지 다른 언어(영어, 한국어, 중국어, 일본어, 스페인어, 프랑스어, 이탈리아어, 독일어, 러시아어, 아랍어)로 중요한 역사적 인물 상위 10명을 나열하도록 지시했습니다. 원본 프롬프트와 번역본은 이 기사의 끝에 있습니다.
 
 저는 생성된 모든 이름을 영어로 번역하고 같은 버전으로 표준화했습니다. 나열된 각 이름을 위키피디아에서 찾아 그 사람의 출생국, 성별, 직업과 같은 메타데이터를 얻었습니다. 이 정보를 사용하여 이 기사에서 분석을 실시했습니다. 이 과정에 대한 보다 자세한 기술적 설명은 이 기사의 끝에 있습니다.
 
 # 가장 인기 있는 남성은 누구였을까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![WhereAreAlltheWomen_1.png](/assets/img/2024-07-14-WhereAreAlltheWomen_1.png)
 
@@ -57,7 +86,18 @@ Most of the top historical figures chosen are men. Can you identify the one woma
 
 Throughout various languages, GPT-4 consistently presented figures like Gandhi, Martin Luther King Jr., and Einstein. (Scores of 11 may appear if a figure is generated twice in the top 10 list)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![WhereAreAlltheWomen_2](/assets/img/2024-07-14-WhereAreAlltheWomen_2.png)
 
@@ -67,7 +107,18 @@ Claude는 예수, 부처, 무함마드, 공자와 같은 종교적·철학적 �
 
 언어에 따라 인물 다양성이 다르게 나타납니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 클로드와 GPT-4에게 각각 10가지 언어에 대해 10번씩 자극을 주었더니, 많은 역사적 인물이 여러 언어에 걸쳐 반복되었습니다.
 
@@ -77,7 +128,18 @@ Claude는 예수, 부처, 무함마드, 공자와 같은 종교적·철학적 �
 
 ![이미지](/assets/img/2024-07-14-WhereAreAlltheWomen_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 성 차별
 
@@ -87,7 +149,18 @@ Claude는 예수, 부처, 무함마드, 공자와 같은 종교적·철학적 �
 
 ![WhereAreAlltheWomen_5](/assets/img/2024-07-14-WhereAreAlltheWomen_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 언어별 분석
 
@@ -97,7 +170,18 @@ Claude는 예수, 부처, 무함마드, 공자와 같은 종교적·철학적 �
 
 GPT-4에서 여성 역사적 인물의 비율이 언어별로 다양하게 변화했어요: 영어는 20%이고 러시아어는 0%였어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요즘 여성 역사인물 중에서도 가장 많이 언급된 인물은 클레오파트라(16회), 마리 퀴리(14회), 영국의 빅토리아 여왕(5회), 잉글랜드의 엘리자베스 1세(4회), 로사 파크스(3회), 쟌 다르크(3회), 버지니아 울프(1회), 성모 마리아(1회), 어머니 테레사(1회), 다이애나 왕세자비(1회), 카스티야의 이사벨라 1세(1회), 베나지르 부투(1회), 프리다 칼로(1회), 엘리자베스 2세(1회)
 
@@ -107,17 +191,39 @@ GPT-4에서 여성 역사적 인물의 비율이 언어별로 다양하게 변�
 
 클로드는 안전을 고려하여 훈련 받았지만, GPT-4보다 적은 여성을 생성했습니다. 사실, 영어로 유도된 여성 역사인물은 전혀 생성되지 않았습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여자 역사 인물 목록 중에서 생성된 횟수 순으로 정리해보았어요: 크레오파트라(8), 마리 퀴리(3), 어머니 테레사(2), 엘리너 루즈벨트(1), 마거릿 대처(1), 히폴리타(1), 유관순(1)
 
-* 여자 역사 인물 중 하나인 히폴리타는 신화 속 인물이에요
+- 여자 역사 인물 중 하나인 히폴리타는 신화 속 인물이에요
 
 ![이미지](/assets/img/2024-07-14-WhereAreAlltheWomen_7.png)
 
 모델들이 성별 편견을 보여줬지만, 이미 인터넷에 있는 것들과 크게 다르지 않았어요. 그래, 두 개의 작은 언어 모델들은 남성 역사 인물을 과도하게 생성했지만, 이게 놀랍을만한 일일까요? 인터넷에서 발견되는 텍스트로 주로 훈련되기 때문이 아니겠어요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인터넷에서 세 가지 다른 "역사상 가장 영향력 있는 100인" 목록을 발견했습니다:
 
@@ -127,7 +233,18 @@ GPT-4에서 여성 역사적 인물의 비율이 언어별로 다양하게 변�
 
 그 지리적 편향을 보면서, 각 LLM이 예측한 고유한 인물을 살펴보면, 각 지역별 서브지역 출신의 역사적 인물 비율이 어떻게 되는지 확인할 수 있을까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 서쪽 중심의 편견이 있을 거라 예상했지만 (역사적 사건에 대한 LLMs의 서쪽 중심적 이해 때문에), GPT-4에 의해 생성된 독특한 사람 중 1/3은 서유럽 또는 북아메리카에서 나왔다는 사실 역시 그랬어요.
 
@@ -137,7 +254,18 @@ GPT-4에서 여성 역사적 인물의 비율이 언어별로 다양하게 변�
 
 클로드에 의해 생성된 많은 동아시아 인물 가운데 대부분이 중국 출신이었어요 (중국 25명, 한국 3명, 일본 2명, 몽골 1명, 대만 1명, 티벳 1명).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 클라우드는 많은 독특한 동아시아 인물을 생성했지만, 이러한 인물들은 실제로 모델이 드물게 생성한 일회성 인물들입니다. 각 모델이 예측한 전체 인물 수를 살펴보면 이것이 명백해집니다. 예측된 인물들은 서유럽과 남유럽 출신일 가능성이 더 높습니다.
 
@@ -147,7 +275,18 @@ GPT-4에서 여성 역사적 인물의 비율이 언어별로 다양하게 변�
 
 이것은 이러한 모델들이 매우 서구 중심적인 역사에 대해 내포적 또는 명시적으로 이해하고 있다는 점을 강조합니다. 여기서는 역사의 중요 인물들이 유럽 출신인 것으로 인식되는 서구 중심의 역사 개념을 강조하고 있습니다. (비록 비유럽어로 프롬프트가 주어지더라도!)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 직업
 
@@ -157,7 +296,18 @@ GPT-4에서 여성 역사적 인물의 비율이 언어별로 다양하게 변�
 
 [이미지](/assets/img/2024-07-14-WhereAreAlltheWomen_10.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 토의 및 결론
 
@@ -167,7 +317,18 @@ GPT-4에서 여성 역사적 인물의 비율이 언어별로 다양하게 변�
 
 “가장 중요한 역사적 인물”에 대한 보편적으로 인정된 목록은 없으며 (그리고 아마도 없을 것입니다) 이것은 의도적으로 주관적인 질문입니다. 이 질문에 대한 답은 한 사람이 어떻게 대답하느냐(역사학자이든 아니든)의 문제는 문화적 맥락에 달렸습니다(예를 들어, 조지 워싱턴은 미국 역사에서 매우 중요하지만 한국 역사에서는 상대적으로 중요하지 않을 수 있음), 학문적 분야(이삭 뉴튼은 과학 역사에서 더 중요할 수 있지만 정치적 역사에서는 그렇지 않을 수 있음), 그리고 세계와 사회에 대한 개인적 이해에 따라 다릅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사를 통해 우리 일상의 많은 분야에서 여성의 부재에 대해 주목을 쏟고 싶었습니다. 고등학교 역사 교과서를 펼쳐보면, 역사적 인물들에 대한 성 차별이 대형 언어 모델의 결과만큼 편향되어 있다는 것을 확신합니다. 하지만 이것이 바로 핵심입니다. 이러한 결과는 사회에서 정상적이며 (최소한, 저는 현재 사는 서양 사회에서는) 흔한 것입니다.
 
@@ -177,7 +338,18 @@ GPT-4에서 여성 역사적 인물의 비율이 언어별로 다양하게 변�
 
 제 글을 읽어주시고 지원해 주셔서 감사합니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 포스트는 제 개인 블로그에 원래 게시된 내용입니다. 거기에는 더 자주 데이터와 AI 탐구 내용을 올립니다 :)
 
@@ -197,7 +369,18 @@ GPT-4에서 여성 역사적 인물의 비율이 언어별로 다양하게 변�
 이탈리아어: Le 10 figure storiche più importanti (solo nomi)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Entity Normalization
 

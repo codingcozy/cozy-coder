@@ -3,17 +3,13 @@ title: "호두 판매 사례 연구"
 description: ""
 coverImage: "/assets/img/2024-06-23-WalnutSalesCaseStudy_0.png"
 date: 2024-06-23 16:51
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-WalnutSalesCaseStudy_0.png
 tag: Tech
 originalTitle: "Walnut Sales Case Study"
 link: "https://medium.com/@shivaniwac/walnut-sales-case-study-cea9916a12c1"
 isUpdated: true
 ---
-
-
-
-
 
 호두 판매 탐험: 사례 연구 여정
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 데이터셋 획득 및 초기 설정~
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 캐글에서 포괄적인 월넛 판매 데이터셋을 확보하여 다양한 측면을 아우르도록 세심하게 정리했습니다. 이 데이터셋을 사용하여 `walnut_sales`라는 전용 데이터베이스를 설정하고 그 안에 철저히 구조화된 테이블을 만들었습니다. 각 테이블은 적합한 열과 데이터 유형으로 세심하게 설계되어 이후 분석을 위해 최적의 구성과 사용성을 보장합니다.
 
@@ -33,13 +40,25 @@ isUpdated: true
 
 기본 단계로, SQL 함수를 사용하여 `day_name` 및 `time_of_day`와 같은 보조 열을 생성했습니다. `DAYNAME()` 및 `MONTHNAME()`과 같은 기능을 활용하여 거래를 의미 있는 시간 및 요일 범주로 분류했습니다 — 아침, 오후, 저녁 또는 주중 구체적인 일 등. 이러한 분할은 자세한 시간적 분석과 추세 식별을 위한 기초를 마련했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-23-WalnutSalesCaseStudy_2.png" />
 
 초기 탐색적 분석
 
 분석의 초기 단계에서는 다음과 같은 핵심적인 통찰력을 발견하기 위해 노력했습니다:
+
 - 데이터셋에서 대표되는 독특한 도시와 지점 식별.
 - 고객들 사이에서 일반적인 결제 수단 분석.
 - 인기 있는 제품 라인과 해당 매출 분석.
@@ -47,7 +66,18 @@ isUpdated: true
 
 고급 분석 기술
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본 통찰력을 바탕으로, 나는 심층적인 통찰력을 추출하고 정교한 분석을 수행하기 위해 고급 SQL 기술을 활용했습니다:
 
@@ -59,7 +89,18 @@ isUpdated: true
 
 이 심도있는 사례 연구를 통해 SQL 쿼리 및 데이터베이스 관리에 대한 능숙성을 향상시키는 동시에 소비자 선호도부터 재정적 영향까지 왈넛 판매 역학에 대한 세심한 이해를 개발했습니다. 실무 경험은 내 기술 세트를 풍부하게 해줄 뿐만 아니라 다양한 분야에 적용 가능한 실용적인 통찰력을 제공했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 연구 중 수행된 SQL 쿼리 및 분석 내용을 자세히 살펴보려면 Walnut 케이스 스터디를 여기에서 확인해보세요.
 

@@ -3,17 +3,13 @@ title: "JavaScript에서 변수와 타입 제대로 이해하기"
 description: ""
 coverImage: "/assets/img/2024-08-04-UnderstandingVariablesandTypesinJavaScript_0.png"
 date: 2024-08-04 18:36
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-04-UnderstandingVariablesandTypesinJavaScript_0.png
 tag: Tech
 originalTitle: "Understanding Variables and Types in JavaScript"
 link: "https://medium.com/@eaglehead/understanding-variables-and-types-in-javascript-04b0b0aaa5ce"
 isUpdated: true
 ---
-
-
-
-
 
 ## 원시 및 참조 유형 소개
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## 변수란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 변수는 모든 프로그래밍 언어의 기초입니다. 이들은 코드 전체에서 변경하고 재사용할 수 있는 값을 저장하는 데 사용됩니다. JavaScript에서 변수는 다양한 유형의 값들을 보유할 수 있으며, 주된 목적은 참조하고 조작할 수 있는 데이터를 저장하는 것입니다.
 
@@ -38,7 +45,18 @@ age = 31;
 
 ## 기본 유형
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JavaScript에서는 여섯 가지 기본 데이터 유형이 있습니다:
 
@@ -60,7 +78,18 @@ let unassigned; // Undefined
 let id = Symbol("id"); // Symbol
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 참조 유형
 
@@ -70,12 +99,23 @@ let id = Symbol("id"); // Symbol
 
 ```js
 let person = {
-    name: "John",
-    age: 30
+  name: "John",
+  age: 30,
 };
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 배열의 예시:
 
@@ -87,7 +127,18 @@ let numbers = [1, 2, 3, 4, 5];
 
 원시 값은 변수가 접근하는 위치에 직접 저장됩니다. 이는 원시 값을 변수에 할당할 때, 실제 값이 해당 변수와 관련된 메모리 공간에 저장된다는 의미입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어:
 
@@ -101,7 +152,18 @@ let isActive = false;
 
 ## 참조 유형이 어떻게 저장되는지
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 참조 유형은 다르게 저장됩니다. 객체를 변수에 할당할 때, 변수는 객체 자체가 아닌 객체가 저장된 메모리 위치를 가리키는 참조(또는 포인터)를 저장합니다.
 
@@ -109,21 +171,32 @@ let isActive = false;
 
 ```js
 let car = {
-    make: "Toyota",
-    model: "Corolla"
+  make: "Toyota",
+  model: "Corolla",
 };
 ```
 
 여기서 car은 'make: "Toyota", model: "Corolla"' 객체를 직접 보관하지 않습니다. 대신, 이 객체가 저장된 메모리 위치를 가리키는 참조를 보관합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 실제 예시: 변수 복사
 
 참조 타입이 어떻게 작동하는지 설명하기 위해 객체를 복사하는 예시를 살펴보겠습니다:
 
 ```js
-let original = { 
+let original = {
   a: 10,
   b: 25,
   c: 40,
@@ -137,7 +210,18 @@ console.log(original.a); // 출력: 20
 
 이 예시에서 original과 copy 둘 다 메모리 내에서 동일한 객체를 가리킵니다. copy를 통해 값이 변경되면 original에도 영향을 미칩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 결론
 
@@ -148,7 +232,18 @@ console.log(original.a); // 출력: 20
 - 기본 타입: 메모리에 직접 저장됨 (문자열, 숫자, 부울, null, undefined, 심볼).
 - 참조 타입: 메모리 위치에 대한 참조로 저장됨 (객체, 배열, 함수).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금까지 자바스크립트 코드를 탐구하고 작성하는 과정에서 중요한 점을 기억해주세요. 이러한 개념을 숙달하면 응용프로그램에서 데이터를 효과적으로 관리할 수 있는 능력이 향상될 것입니다.
 

@@ -3,17 +3,13 @@ title: "유전자 편집 혁명을 이끄는 LLMs의 역할"
 description: ""
 coverImage: "/assets/img/2024-07-14-HowLLMsCanFuelGeneEditingRevolution_0.png"
 date: 2024-07-14 01:28
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-14-HowLLMsCanFuelGeneEditingRevolution_0.png
 tag: Tech
 originalTitle: "How LLMs Can Fuel Gene Editing Revolution"
 link: "https://medium.com/towards-data-science/how-llms-can-fuel-gene-editing-revolution-1b15663f697c"
 isUpdated: true
 ---
-
-
-
-
 
 ## |인공지능| LLM| 유전자 편집| 의학 AI|
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 지난 2년 동안의 혁명의 기초입니다. AlphaFold2를 시작으로 한 혁명은, 단백질 서열로 훈련된 언어 모델을 사용해 100년간 풀리지 않았던 문제를 해결한 것으로 시작되었습니다. 오늘날, AlphaFold2 덕분에 우리는 문자열만 가지고도 단백질의 구조를 재구성할 수 있게 되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비밀은 모델이 자체 학습(self-supervised learning)을 통해 데이터의 표현을 학습하고 이를 통해 작업을 수행할 수 있다는 것입니다. 단백질의 경우, 모델은 단백질과 그들의 서열 내에 존재하는 패턴을 학습하게 됩니다(이러한 서열은 텍스트 서열과 같이 무작위가 아닌 기능적 의미와 독특한 의미를 가지고 있습니다). 이 표현을 통해 우리는 단백질의 구조, 기능 또는 다른 매개 변수를 예측할 수 있습니다.
 
@@ -35,7 +42,18 @@ isUpdated: true
 - 효율성: 기능은 복잡하지 않아야 하며 가능한 최소한의 단계만 포함해야 합니다.
 - 구문적 정확성: 모델은 언어(파이썬)의 규칙을 준수해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 모든 것이 가능한 이유는 모델이 그 안에서 점차적으로 정교한 표현을 학습하기 때문입니다. 사실, 첫 번째 층은 텍스트의 서로 다른 부분 간의 간단한 관계(구문 구조, 품사 등)을 학습하며, 더 깊은 층은 복잡한 패턴(풍자, 수사 표현 등)을 학습합니다. 그런 다음, 모델은 추론을 할 때 이러한 패턴을 활용할 수 있습니다.
 
@@ -45,7 +63,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-07-14-HowLLMsCanFuelGeneEditingRevolution_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요즘은 초인공지능을 활용하여 연구자들이 자연에 존재하지 않는 서열을 갖는 기능성 단백질을 만들어내고 있는데, 이는 과학소설처럼 들릴 수 있습니다.
 
@@ -55,7 +84,18 @@ isUpdated: true
 
 DNA와 단백질은 무변동적이지 않고 우연한 돌연변이와 자연선택의 영향을 받은 결과입니다. 모든 생명체는 변이를 겪으며, 이 중 일부는 유익하고 일부는 해로운 것들입니다. 이 돌연변이는 후손에게 전달될 수 있으며, 여기에는 종이 진화하는 방식이 담겨 있습니다. 그러나 이 과정은 무작위적이며 통제될 수 없습니다. 게다가, 이러한 변이 중 많은 것들이 발병의 원인입니다(유전적 질환, 암 등).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금까지 본 것은 언어 모델을 이용하여 단백질의 구조를 예측하거나 인공 응용프로그램을 위해 단백질을 생성하는 등의 계산 작업에 활용 가능성을 보여주는 것입니다. 응용 가능성은 거의 무한하지만, 이는 우리가 질병을 치료할 수 있도록 하는 것은 아닙니다.
 
@@ -65,7 +105,18 @@ DNA와 단백질은 무변동적이지 않고 우연한 돌연변이와 자연�
 
 ![이미지](/assets/img/2024-07-14-HowLLMsCanFuelGeneEditingRevolution_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 성과는 인간 세포의 DNA를 수정하는 가능성을 혁신하게 한 새로운 방법론을 통해 이루어졌습니다. CRISPR-Cas9는 연구자들의 작업을 간단하고 튼튼하며 간결하게 편집할 수 있도록 도왔습니다.
 
@@ -75,7 +126,18 @@ DNA와 단백질은 무변동적이지 않고 우연한 돌연변이와 자연�
 
 우리가 이전에 말했듯이, 우리는 언어 모델을 단백질 서열로 훈련시키고, 그것을 활용하여 원하는 특성을 갖는 단백질을 생성할 수 있습니다. 사실, self-attention을 통해 변환기는 주어진 기능에 중요한 서열 구성요소를 배우게 됩니다. 이 모델을 사용하여 인문지식을 학습함으로써 모델은 특정 기능을 위해 서열을 설계하는 데 필요한 것을 기억하게 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여러 종류와 기능을 가진 단백질 서열을 생성할 수 있는 일반적인 LLM이 있습니다. 그러나 이 경우에는 특정한 응용 및 단백질을 위한 모델이 필요합니다. 이를 위해서는 텍스트 LLM에 대한 모델을 세부 조정할 수 있습니다. 이 연구에서는 단백질을 위한 일반 모델을 가져와서 전용 CRISPR-Cas 데이터셋을 통해 세밀 조정을 진행하여 CRISPR-Cas를 위해 적응시켰습니다.
 
@@ -85,7 +147,18 @@ DNA와 단백질은 무변동적이지 않고 우연한 돌연변이와 자연�
 
 요컨대, 생명공학과 의학은 혁명의 선순환에 서 있습니다. 인공 지능은 의료에 현실적인 영향을 미칠 것이지만, 많은 응용 프로그램은 종종 토의됩니다. LLM의 DNA와 단백질 서열에 미치는 영향은 그다지 논의되지 않는 것이 사실입니다. AlphaFold2와 기타 유사한 LLM은 연구자들이 단백질의 구조를 이해하고 이에 따라 약물을 디자인하는 데 도움을 줍니다. 이 모델들은 훈련 중에 단백질 구조와 기능에 대한 일반적인 규칙을 배우기 때문에 새로운 단백질을 생성하기 위해 생성적으로 사용될 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한편, 이러한 새로운 단백질은 환경 정화와 같은 새로운 응용 프로그램에 사용될 수 있지만, 질병 치료에는 어떻게 활용될 수 있는지는 아직 명확하지 않습니다. 다른 한편으로, AI와 CRISPR-Cas의 결합을 통해 유전자 편집이 거의 모든 질병을 치료하는 데 사용될 수 있는 미래를 상상할 수 있게 되었습니다.
 
@@ -95,7 +168,18 @@ DNA와 단백질은 무변동적이지 않고 우연한 돌연변이와 자연�
 
 ## 어떻게 생각하세요? LLMs가 건강 산업을 혁신할 것이라고 생각하시나요? 댓글로 알려주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 만약 이 글이 흥미로웠다면:
 
@@ -105,7 +189,18 @@ DNA와 단백질은 무변동적이지 않고 우연한 돌연변이와 자연�
 
 또는 최근 에서 쓴 글에 관심이 있을 수도 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 참고 자료
 

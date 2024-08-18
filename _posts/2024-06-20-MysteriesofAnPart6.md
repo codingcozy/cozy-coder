@@ -3,17 +3,13 @@ title: "An의 미스테리 파트 6"
 description: ""
 coverImage: "/assets/img/2024-06-20-MysteriesofAnPart6_0.png"
 date: 2024-06-20 16:30
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-MysteriesofAnPart6_0.png
 tag: Tech
 originalTitle: "Mysteries of An: Part 6"
 link: "https://medium.com/@anomalitism/mysteries-of-an-part-6-83da973903bd"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-20-MysteriesofAnPart6_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 '안의 신비'의 각 작품은 일관된 흥미진진한 이야기를 형성하는 대규모 캔버스의 한 부분입니다. 이러한 그림 속에서 안오멀라이트가 살아 움직이며 그들의 고대 이야기와 신비한 전설을 전합니다. 마법의 생물, 환상적인 풍경, 해결되지 않은 미스터리가 펼쳐지며 마법과 기술이 조화롭게 공존하는 세계에 당신을 몰입시킵니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-20-MysteriesofAnPart6_2.png)
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 이 지도의 안내 마크를 따라가면 여행자들은 훌륭한 발견과 마법적인 모험으로 가득한 행성 An의 숨겨진 모험을 발견할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에 들려주셔서 너무 고마워요! 내 예술 세계에 대해 알아보다니 너무 좋아요!
 

@@ -3,18 +3,13 @@ title: "새로운 홈랩 테스트하기"
 description: ""
 coverImage: "/assets/img/2024-06-19-TestingmynewHomeLab_0.png"
 date: 2024-06-19 08:43
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-TestingmynewHomeLab_0.png
 tag: Tech
 originalTitle: "Testing my new HomeLab"
 link: "https://medium.com/@josejgp/testing-my-new-homelab-427e433f1ca9"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![이미지](/assets/img/2024-06-19-TestingmynewHomeLab_0.png)
 
@@ -27,8 +22,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-19-TestingmynewHomeLab_1.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비관리 스위치는 관리 스위치보다 싸지만, MAC 주소 학습을 통해 네트워크 트래픽을 효율적으로 제어하여 허브에 비해 상당한 이점을 제공합니다. 허브가 모든 연결된 장치로 데이터를 브로드캐스트하는 반면, 비관리 스위치는 트래픽을 목적지에만 전달합니다. 이로써 네트워크 혼잡을 줄이고 전반적인 성능을 향상시킵니다. 그러나 이 이점은 제한된 제어 기능과 함께 제공됩니다. 관리 스위치와 달리, 비관리 스위치는 서비스 품질 (QoS) 또는 고급 보안 설정과 같은 기능을 구성할 수 없습니다. 또한 모니터링 기능이 없어서 문제 해결이 어려울 수 있습니다.
 
@@ -36,7 +41,18 @@ isUpdated: true
 
 어쨌든 관리 스위치는 저렴한 가격에 구할 수 있습니다 (아마존에서 30파운드쯤에 판매 중이며 비관리 버전은 반값입니다), 그래서 하나가 필요하다면 얼마든지 구입하세요. 큰 스위치의 아이디어는 미래에 내 라즈베리를 쉽게 연결할 수 있는 확장성입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-TestingmynewHomeLab_3.png" />
 
@@ -46,7 +62,18 @@ isUpdated: true
 
 <img src="/assets/img/2024-06-19-TestingmynewHomeLab_4.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 도커 풀 archlinux
@@ -69,6 +96,17 @@ nmap -Pn -sV --script=vulners
 
 집 서버를 실행하는 컨테이너를 손쉽게 설정할 수 있습니다. 다음 단계는 Docker 네트워크를 설정하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 확인해보세요: [https://www.redhat.com/sysadmin/quick-nmap-inventory](https://www.redhat.com/sysadmin/quick-nmap-inventory)

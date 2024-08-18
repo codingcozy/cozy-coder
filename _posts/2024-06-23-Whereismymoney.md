@@ -3,17 +3,13 @@ title: "내 돈은 어디에 있지"
 description: ""
 coverImage: "/assets/img/2024-06-23-Whereismymoney_0.png"
 date: 2024-06-23 17:16
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-Whereismymoney_0.png
 tag: Tech
 originalTitle: "Where is my money???"
 link: "https://medium.com/@sxe3dp/where-is-my-money-74804f5e9cd1"
 isUpdated: true
 ---
-
-
-
-
 
 ## PTS3D: 3D 프린팅 스트레스 장애
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 첫째로, 3DPrint.com의 편집장인 Joris Peels가 수 년 간 산업을 괴롭혔던 결함을 드러내는 일련의 기사를 쓰곤 했고, 최근에는 Alex Huckstepp가 Medium에 김적인 성격으로 누구에게도 희망없음이라는 환상도 제공하지 않았던 긴 글을 게시하여 모두를 충격에 빠뜨린 바 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실은 3D 비즈니스에 대규모 자금을 투입한 지 10년 만에, 사람들이 이제는 묻기 시작했습니다: "내 돈은 어디로 갔죠?"
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 그에 대한 대답은:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비록 이야기의 전환은 상당히 예상치 못한 일이지만(누구도 나쁜 소식에 대비할 준비가 되어 있지는 않습니다), 상기한 저자들에 의해 설명된 내용이 놀라운 것들이라고 말하는 것은 거짓말일 것입니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-23-Whereismymoney_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 악화된 상황은 연휴 바로 전인 Stratasys와 Desktop Metal이 합병을 통해 하나의 회사로 합병할 것을 발표한 때 시작되었습니다.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 결국 거대한 파장으로 끝이 났습니다. Stratasys가 Nano Dimension을 효과적으로 차단하며 최종적으로 협상에서 철수하게 만들었습니다. Stratasys는 3D Systems가 제출한 후속 제안을 효과적으로 거부하여 올해 9월에 이 주제에 대한 모든 협상을 확정적으로 종료시켰습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안타깝게도, 데스크톱 메탈과의 합병에서도 자사 주주들에 의해 막혀 실패를 경험했습니다. 변호사, 외부 컨설턴트, 분석가, PR 활동에 수백만 달러를 소비하며 몇 달 동안 큰 혼란 속에 있었다면서도, 모든 것은 예전 그대로였습니다.
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-23-Whereismymoney_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 회사가 이러한 혼란을 초래함으로써, 금융 부문의 관심을 끌었고 그들은 실제로 그들의 상태를 분석하기 시작했고 "황제가 옷을 입지 않았다” 는 결론에 도달했습니다.
 
@@ -73,7 +124,18 @@ isUpdated: true
 
 거기서부터 모든 게 가팔랐다...
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마크포지드와 데스크톱 메탈은 주가가 너무 낮다는 주식시장의 통보를 받았고, 급히 바로 조치를 취해야 했습니다 (이전에 Shapeways가 동일한 문제를 겪었습니다).
 
@@ -83,7 +145,18 @@ isUpdated: true
 
 # 어떻게 이렇게 크게 잘못될 수 있었을까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-23-Whereismymoney_3.png)
 
@@ -93,7 +166,18 @@ isUpdated: true
 
 주식 시장도 변화하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AM 산업 최상위에서 심각한 변화와 재편이 발생하지 않는 한, 투자자들의 신뢰는 회복되지 않을 것입니다. 누구도 더 높은 성능의 3D 프린터나 혁신적인 3D 프린팅 기술을 기다리는 것이 아니라 단순히 이윤을 원합니다.
 

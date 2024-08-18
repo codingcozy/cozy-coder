@@ -3,17 +3,13 @@ title: "Redis 설정 및 메모리 데이터베이스 구축 - Day 6 Redis 마�
 description: ""
 coverImage: "/assets/img/2024-07-07-SiloSettingupRedisformem-dbDay6_0.png"
 date: 2024-07-07 20:01
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-SiloSettingupRedisformem-dbDay6_0.png
 tag: Tech
 originalTitle: "Silo: Setting up Redis for mem-db — Day 6"
 link: "https://medium.com/@javascriptBard/silo-setting-up-redis-for-mem-db-day-6-fa0d6453fd8c"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-07-07-SiloSettingupRedisformem-dbDay6_0.png)
 
@@ -23,54 +19,76 @@ isUpdated: true
 
 실로는 세션 저장, 일부 캐싱, 그리고 발행/구독(pub/sub)과 같은 작업에 Redis를 사용할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 구현은 간단하며 이전 포스트에서 Cassandra를 만든 것과 일치합니다.
 
 클라이언트는 다음과 같이 생겼어요:
 
 ```js
-import { createClient } from 'redis'
+import { createClient } from "redis";
 
 class RedisClient {
   constructor(options) {
-    this.options = options
+    this.options = options;
   }
 
   async connect() {
     this.client = await createClient(this.options)
-      .on('error', err => console.log('Redis Client Error', err))
-      .connect()
+      .on("error", (err) => console.log("Redis Client Error", err))
+      .connect();
   }
 
   async get(key) {
-    return this.client.get(key)
+    return this.client.get(key);
   }
 
   async set(key, value, options = {}) {
-    return this.client.set(key, value, options)
+    return this.client.set(key, value, options);
   }
 
   async del(key) {
-    return this.client.del(key)
+    return this.client.del(key);
   }
 
   async quit() {
-    await this.client.quit()
+    await this.client.quit();
   }
 }
 
-export default RedisClient
+export default RedisClient;
 ```
 
 사용법은 이렇습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // RedisClient 및 config.js 임포트...
-const redisClient = new RedisClient(config.redis)
-await redisClient.connect()
+const redisClient = new RedisClient(config.redis);
+await redisClient.connect();
 
 // redisClient.get...
 // redisClient.set...
@@ -97,7 +115,18 @@ await redisClient.connect()
       - redisDB-data:/data
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아직 해야 할 일이 많고 정리해야 할 것도 더 많지만, 오늘의 목표는 매우 기본적인 작업을 완료하는 것이었습니다.
 
@@ -107,7 +136,18 @@ await redisClient.connect()
 
 ![image](/assets/img/2024-07-07-SiloSettingupRedisformem-dbDay6_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실로에서 Redis가 정말로 영구 데이터 저장 옵션으로 취급되지는 않겠지만, 드라이브를 사용하여 저장하면 Redis 컨테이너를 완전히 다시 시작할 때에도 어느 정도의 데이터 지속성이 보장될 것입니다. 지금으로서는 충분합니다.
 

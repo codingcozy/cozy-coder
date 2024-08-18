@@ -3,17 +3,13 @@ title: "ChatGPT는 얼마나 많이 알고 있을까 LLM의 지식 수준 공개
 description: ""
 coverImage: "/assets/img/2024-07-14-YouKnowNothingChatGPTHowMuchDoesYourLLMKnow_0.png"
 date: 2024-07-14 01:44
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-14-YouKnowNothingChatGPTHowMuchDoesYourLLMKnow_0.png
 tag: Tech
 originalTitle: "You Know Nothing, ChatGPT. How Much Does Your LLM Know?"
 link: "https://medium.com/gitconnected/you-know-nothing-chatgpt-how-much-does-your-llm-know-03ce79d4b925"
 isUpdated: true
 ---
-
-
-
-
 
 ## | LLM | 지식 | 스케일링 법칙 |
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## 이러한 난해한 질문들에 대해 시도해봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # LLM의 확장
 
@@ -33,25 +40,58 @@ isUpdated: true
 
 OpenAI의 저자들은 이 멱법칙을 정의했는데, 이는 성능을 예측하는 데 아키텍처보다 세 가지 요소가 더 중요하다는 것입니다. 또한 이러한 매개변수를 가지고 성능을 예측할 수 있습니다. 따라서 이론적으로 모델의 성능을 미리 예측할 수 있으며, 원하는 성능을 얻기 위해 모델과 필요한 데이터셋의 크기를 계산할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 According to the latest research findings, it's possible to derive scaling laws for various aspects of Large Language Models (LLMs). As an example, we can establish a scaling law for determining the amount of data required for fine-tuning an LLM. If we have an LLM originally trained on natural language text and wish to enhance its programming abilities, we can calculate the necessary data volume.
 
 Furthermore, OpenAI has shown that this scaling law isn't confined to just the realm of Natural Language Processing (NLP) but extends to other data modalities like images, videos, and even multimodal models. This principle also holds true for enhancing other model capabilities such as mathematical reasoning.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ---
+
 ![image](/assets/img/2024-07-14-YouKnowNothingChatGPTHowMuchDoesYourLLMKnow_4.png)
 
 첫 번째 스케일링 법칙은 매개변수의 수의 중요성에 특별한 강조를 두었지만, DeepMind의 스케일링 법칙은 대신 완전하고 품질 좋은 데이터셋의 중요성을 강조합니다.
 
 ![image](/assets/img/2024-07-14-YouKnowNothingChatGPTHowMuchDoesYourLLMKnow_5.png)
 
-이러한 스케일링 법칙들은 나중에 그들의 진실성을 의심하는 기사에 의해 도전받았습니다. 예를 들어, 이 기사는 데이터의 양 뿐만 아니라 구성도 중요하다고 말합니다:
----
+## 이러한 스케일링 법칙들은 나중에 그들의 진실성을 의심하는 기사에 의해 도전받았습니다. 예를 들어, 이 기사는 데이터의 양 뿐만 아니라 구성도 중요하다고 말합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 게다가 파이는 모델이 아주 작고 훨씬 적은 데이터로 훈련되었더라도 이러한 스케일링 법칙에 의해 예측된 행동이 더 큰 모델과 유사하다는 것을 보여줍니다:
 
@@ -59,7 +99,18 @@ Furthermore, OpenAI has shown that this scaling law isn't confined to just the r
 
 다시 말해, 이러한 스케일링 주장은 매개변수의 수를 충분히 조정하면 기억, 일반화, 추론 기술 등이 발생한다고 주장합니다. 실제로 이러한 스케일링 법칙은 정확하지 않으며 실제 실험에서는 쓸모가 없습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **지식의 확장 법칙**
 
@@ -69,7 +120,18 @@ Furthermore, OpenAI has shown that this scaling law isn't confined to just the r
 
 첫 번째 포인트는 무엇이 지식인가요? 명백히 이것은 어려운 질문입니다. 저자들은 "하나의 인간적 지식"을 정의하기 위한 간단한 개념에 주목합니다. 즉, 이름, 속성 및 값(예: Anya Forger, 생일, 1996년 10월 2일과 같은)으로 구성된 구조라고 정의했습니다. 그런 다음, 이러한 지식 조각들이 영어 설명에 포함되어 있는 합성 데이터셋을 구축했습니다. 이는 그들이 당시 다양한 언어 모델(GPT-2, LLaMA, Mistral 등)을 표준 자기회귀 학습을 사용하여 제로부터 훈련하기로 결정했기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 지식 스케일링 법칙을 이해하는 데 기준이 되는 이상적인 데이터셋입니다. 게다가, 지식은 저장으로 정의되지 않고 이 지식을 하류 작업에서 회상하고 사용하는 능력으로 정의됩니다 (“Anya Forger의 생일은 언제인가?”). 저자들에게 지식은 기준에서의 성능과 분리되어 있습니다. 한 모델이 다른 모델보다 30% 더 나은 성능을 보인다고 해서 이 모델이 30% 더 많은 지식을 갖고 있는 것은 아닙니다.
 
@@ -79,9 +141,20 @@ Furthermore, OpenAI has shown that this scaling law isn't confined to just the r
 
 저자들은 다양한 모델을 분석했습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-- GPT2의 회전 위치 임베딩(현대적인 변형)과 동일한 구조에 대한 다양한 레이어 및 헤드의 조합을 사용했습니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+- GPT2의 회전 위치 임베딩(현대적인 변형)과 동일한 구조에 대한 다양한 레이어 및 헤드의 조합을 사용했습니다.
 - LLaMA 아키텍처.
 - Mistral 아키텍처.
 
@@ -91,7 +164,18 @@ Furthermore, OpenAI has shown that this scaling law isn't confined to just the r
 
 ![image](/assets/img/2024-07-14-YouKnowNothingChatGPTHowMuchDoesYourLLMKnow_10.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 결과는 7B 모델이 14B 비트의 지식을 저장할 수 있다는 것을 의미합니다. 이는 영어 위키피디아와 교과서의 조합에서 찾을 수 있는 양보다 더 많은 양입니다. 또한, 이러한 지식은 후속 작업에서 활용될 수 있습니다.
 
@@ -103,7 +187,18 @@ Furthermore, OpenAI has shown that this scaling law isn't confined to just the r
 - Mistral은 더 큰 MLP 레이어를 가지고 있으며 더 빠른 추론을 위해 그룹-쿼리 어텐션을 사용합니다.
 - 저자들은 GPT-2의 원래 임베딩을 변경하고 드롭아웃을 제거했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결과가 흥미로운 것으로 나타났어요:
 
@@ -115,7 +210,18 @@ Furthermore, OpenAI has shown that this scaling law isn't confined to just the r
 
 역설적으로, 100회 노출로 볼 때 LLaMA/Mistral의 용량 비율은 GPT2의 것보다 1.3배 낮아요. 노력해봐도, 저자들은 GPT2를 따라가지 못했어요. 희귀한 데이터로는 MLPs를 완전히 제거하는 것이 비효율적이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에 추가적으로, 게이트드 MLP에서 표준 MLP로 전환함으로써 모델의 지식 저장 능력이 향상됩니다. 마찬가지로, 작은 모델의 경우 GPT2Tokenizer가 더 나은 선택입니다.
 
@@ -125,7 +231,18 @@ Furthermore, OpenAI has shown that this scaling law isn't confined to just the r
 
 ![이미지](/assets/img/2024-07-14-YouKnowNothingChatGPTHowMuchDoesYourLLMKnow_13.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이는 모델의 양자화 또는 가지치기를 수행할 때 고려되지 않는 흥미로운 측면입니다. 성능에 중요해 보이는 일부 레이어가 실제로 정보 저장에 중요할 수 있습니다.
 
@@ -135,7 +252,18 @@ Furthermore, OpenAI has shown that this scaling law isn't confined to just the r
 
 ![이미지](/assets/img/2024-07-14-YouKnowNothingChatGPTHowMuchDoesYourLLMKnow_14.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최종적으로, 저자들은 저품질 데이터의 존재가 스케일링 법칙에 어떤 영향을 미치는지에 대해 논의합니다. 예를 들어, 위키피디아는 지식의 훌륭한 출처이지만, 데이터 수집 시 이 지식은 훨씬 희석되어 있습니다 (인터넷의 많은 부분은 "쓰레기"입니다).
 
@@ -145,7 +273,18 @@ Furthermore, OpenAI has shown that this scaling law isn't confined to just the r
 
 ![이미지](/assets/img/2024-07-14-YouKnowNothingChatGPTHowMuchDoesYourLLMKnow_15.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 마무리 생각
 
@@ -155,7 +294,18 @@ Furthermore, OpenAI has shown that this scaling law isn't confined to just the r
 
 이 연구의 가치는 특정 케이스, 즉 지식 저장에 대한 LLMs의 행동을 자세히 연구한 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 연구는 다양한 하이퍼파라미터와 아키텍처 선택의 영향을 이해하는 데 도움이 됩니다. 더불어 양자화, 레이어 중복 및 쓸모없는 데이터의 영향을 조사합니다. 다시 말해서, 이 논문의 결과는 모델을 훈련하려는 사람들이나 사전 훈련된 모델에 양자화를 적용하려는 사람들에게 매우 유용합니다.
 
@@ -165,7 +315,18 @@ META가 가진 이러한 야심찬 프로그램 같은데요, 앞으로 이와 �
 
 # 흥미로운 내용이었다면:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다른 기사들도 참고하실 수 있어요. LinkedIn에서 저와 연결하거나 연락할 수도 있어요. 매주 업데이트되는 머신러닝 및 인공지능 뉴스가 담긴 저장소를 확인해보세요. 협업과 프로젝트에 대해 열려있고, LinkedIn에서 저에게 연락할 수도 있어요. 새로운 이야기를 게시할 때 알림을 받으려면 무료로 구독할 수도 있어요.
 
@@ -175,7 +336,18 @@ META가 가진 이러한 야심찬 프로그램 같은데요, 앞으로 이와 �
 
 # 참고
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 이 글을 쓰기 위해 참고한 주요 참고 자료 목록입니다. 각 논문의 제목은 따로 언급하지 않았어요.
 

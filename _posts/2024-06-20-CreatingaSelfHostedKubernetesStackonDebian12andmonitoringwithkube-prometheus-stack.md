@@ -3,7 +3,7 @@ title: "제목 Debian12에서 자체 호스팅 Kubernetes 스택 만들기 및 k
 description: ""
 coverImage: "/assets/img/2024-06-20-CreatingaSelfHostedKubernetesStackonDebian12andmonitoringwithkube-prometheus-stack_0.png"
 date: 2024-06-20 14:13
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-CreatingaSelfHostedKubernetesStackonDebian12andmonitoringwithkube-prometheus-stack_0.png
 tag: Tech
 originalTitle: "Creating a Self Hosted Kubernetes Stack on Debian12 and monitoring with kube-prometheus-stack"
@@ -11,15 +11,22 @@ link: "https://medium.com/@safewebbox/creating-a-self-hosted-kubernetes-stack-on
 isUpdated: true
 ---
 
-
-
-
-
 아래는 가정에서 Debian12 서버에서 Proxmox에 세 개 노드 Kubernetes 클러스터를 구축하는 지침입니다.
 
 이 문서의 목적은 저희가 집에서 실행 중인 도커 서비스를 도커에서 Kubernetes 클러스터로 옮기고 kube-Prometheus-stack을 사용하여 전체 시스템을 모니터링하고 경보를 설정하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 가이드는 저에게 도움이 되었고, 웹의 다양한 위치에서 뽑았습니다 (모든 참고자료는 아래에 있습니다).
 
@@ -29,7 +36,18 @@ isUpdated: true
 
 모든 것은 어디선가 시작되어야 하며, Kubernetes로 테스트/실행할 환경을 갖고 있는 것은 좋은 생각입니다. 하이퍼스케일러와 같은 타사 업체들은 인그레스와 영구 저장소가 모두 설정된 환경을 제공해줄 것입니다. 하지만 아래 정보는 Debian 12를 사용하여 로컬 베어 메탈 테스트 환경을 만드는 데 사용됩니다. 제 경우에는 Proxmox에서 가상 플랫폼을 사용하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요!
 
@@ -45,30 +63,50 @@ isUpdated: true
 
 도움이 되었기를 바랍니다. 추가로 도와드릴 내용이 있으면 언제든지 말씀해 주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3대의 서버가 구축되어 실행 중이며 다음과 같은 사양을 갖추고 있습니다.
 
-| 항목 | 설명 | 비고 |
-|---|---|---|
-| OS | Debian 12 | |
-| CPU/vCPU | 4 | 최소 2 |
-| RAM | 4GB | 최소 2GB |
-| 디스크 | 100GB | 최소 20GB |
-| IP | 정적 | DHCP 예약 |
-| 기타 | 각 노드는 다른 노드의 IP에 핑을 보낼 수 있습니다. |
+| 항목     | 설명                                              | 비고      |
+| -------- | ------------------------------------------------- | --------- |
+| OS       | Debian 12                                         |           |
+| CPU/vCPU | 4                                                 | 최소 2    |
+| RAM      | 4GB                                               | 최소 2GB  |
+| 디스크   | 100GB                                             | 최소 20GB |
+| IP       | 정적                                              | DHCP 예약 |
+| 기타     | 각 노드는 다른 노드의 IP에 핑을 보낼 수 있습니다. |
 
 ## 서버 설정
 
 이 환경에서는 다음과 같이 3대의 서버가 설정되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-Master Node - kube-master - 10.10.0.100 
-Worker Node 1 - kube-worker01 - 10.10.0.101 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+Master Node - kube-master - 10.10.0.100
+Worker Node 1 - kube-worker01 - 10.10.0.101
 Worker Node 2 - kube-worker02 - 10.10.0.102
-
 
 ## 기본 OS 설정
 
@@ -76,7 +114,18 @@ Worker Node 2 - kube-worker02 - 10.10.0.102
 
 외부 DNS 설정이있는 경우이를 사용하십시오. 이것은 테스트 환경이므로 서버가 어느 정도 자립 할 수 있도록하려고합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## sudo 설치
 
@@ -90,11 +139,22 @@ usermod -aG sudo <사용자명>
 
 ## 호스트 이름 설정
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-kube-master - sudo hostnamectl set-hostname "kube-master.local" kube 
-worker01 - sudo hostnamectl set-hostname "kube-worker01.local" kube 
+kube-master - sudo hostnamectl set-hostname "kube-master.local" kube
+worker01 - sudo hostnamectl set-hostname "kube-worker01.local" kube
 worker02 - sudo hostnamectl set-hostname "kube-worker02.local"
 ```
 
@@ -106,7 +166,18 @@ On all three nodes run
 sudo nano /etc/hosts
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파일 끝에 다음을 추가해주세요
 
@@ -120,7 +191,18 @@ sudo nano /etc/hosts
 
 Kubernetes는 Linux 스왑을 선호하지 않습니다. 모든 노드에서 스왑을 비활성화해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 sudo swapoff -a
@@ -133,7 +215,18 @@ UFW 또는 FirewallD가 기본적으로 설치되어 있지 않거나 활성화�
 
 마스터 노드에서 실행하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 sudo ufw allow 6443/tcp
@@ -156,7 +249,18 @@ sudo ufw reload
 
 ## Containerd 설치하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Containerd는 Kubernetes의 컨테이너 지원을 제공해요.
 
@@ -171,7 +275,18 @@ br_netfilter
 EOF
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```shell
 sudo modprobe overlay
@@ -191,7 +306,18 @@ sudo sysctl --system
 
 containerd 패키지를 설치하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 sudo apt update
@@ -206,7 +332,18 @@ containerd config default | sudo tee /etc/containerd/config.toml >/dev/null 2>&1
 
 마지막 명령어로 생성된 config.toml을 systemd를 사용하도록 수정하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 sudo nano /etc/containerd/config.toml
@@ -218,22 +355,40 @@ sudo nano /etc/containerd/config.toml
 ‘SystemdCgroup = false’
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시스템디C그룹 = true
-
 
 저장하고 나가기
 
 컨테이너디 다시 시작 및 활성화
 
-
 sudo systemctl restart containerd
 sudo systemctl enable containerd
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Kubernetes 설정
 
@@ -243,7 +398,18 @@ sudo systemctl enable containerd
 
 Kubernetes 패키지는 기본 리포지토리에 포함되어 있지 않으므로 추가해야 합니다
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 에코 "deb [signed-by=/etc/apt/keyrings/kubernetes-apt-keyring.gpg] <https://pkgs.k8s.io/core:/stable:/v1.28/deb/> /" | sudo tee /etc/apt/sources.list.d/kubernetes.list
@@ -260,7 +426,18 @@ sudo apt-mark hold kubelet kubeadm kubectl
 
 # Kubernetes 클러스터 설치
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 과거에는 kubelet이 명령줄 옵션을 허용했지만, 이러한 기능이 제거되었고 이제 YAML 파일을 사용하여 입력 옵션을 제공합니다.
 
@@ -270,7 +447,18 @@ sudo apt-mark hold kubelet kubeadm kubectl
 
 홈 폴더에 파일을 생성하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 나노 kubelet.yaml
@@ -284,7 +472,7 @@ kind: InitConfiguration
 ---
 apiVersion: kubeadm.k8s.io/v1beta3
 kind: ClusterConfiguration
-kubernetesVersion: "1.28.0" 
+kubernetesVersion: "1.28.0"
 controlPlaneEndpoint: "k8s-master"
 ---
 apiVersion: kubelet.config.k8s.io/v1beta1
@@ -293,7 +481,18 @@ kind: KubeletConfiguration
 
 참고:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 라인 kubernetesVersion: "1.28.0"에는 더 최근 버전이 있을 수 있습니다. 1.30.0으로 시도해 봤지만 kube 패키지가 충분히 최신 상태가 아니라는 메시지를 받았습니다.
 
@@ -303,7 +502,18 @@ kind: KubeletConfiguration
 
 마스터 노드에서만 실행하세요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 sudo kubeadm init --config kubelet.yaml
@@ -315,7 +525,18 @@ sudo kubeadm init --config kubelet.yaml
 
 참고:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Kubectl 액세스 설정
 
@@ -323,7 +544,18 @@ sudo kubeadm init --config kubelet.yaml
 
 마스터 노드에서만 실행해.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 루트(root)로 실행하지 마세요
 
@@ -337,7 +569,18 @@ sudo chown $(id -u):$(id -g) $HOME/.kube/config
 
 kubectl 명령어를 테스트할 수 있습니다
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마스터 노드에서만 실행되요 :)
 
@@ -353,7 +596,18 @@ NAME                          STATUS   ROLES           AGE   VERSION
 k8s-master.safewebbox.com     Ready    control-plane   24h   v1.28.11
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고
 
@@ -366,7 +620,18 @@ CoreDNS는 <https://k8s-master:6443/api/v1/namespaces/kube-system/services/kube-
 
 이전에 마스터 노드에서 kubeadm init 명령을 실행했을 때 고유한 문자열이 포함된 kubectl join 명령이 제공되었습니다. 이 kubeadm join 명령이 지금 사용될 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Join Command
 
@@ -376,7 +641,18 @@ CoreDNS는 <https://k8s-master:6443/api/v1/namespaces/kube-system/services/kube-
 
 당신의 명령어는 다를 것입니다. 이것을 그대로 복사하지 마세요. 이것은 마스터 노드에서의 출력을 예로 든 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 sudo kubeadm k8s-master:6443에 가입 --token 21nm87.x1lgd4jf0lqiiiau \\
@@ -389,7 +665,18 @@ sudo kubeadm k8s-master:6443에 가입 --token 21nm87.x1lgd4jf0lqiiiau \\
 
 마스터 노드에서 실행하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 kubectl get nodes
@@ -406,10 +693,20 @@ k8s-worker02.safewebbox.com   Ready    <none>          23시간   v1.28.11
 
 # Pod Networking
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-친구야, 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+친구야,
 팟 네트워킹, 프록시 등을 돕기 위해 calico를 설치해야 해요.
 
 ## Calico 설치
@@ -420,7 +717,18 @@ k8s-worker02.safewebbox.com   Ready    <none>          23시간   v1.28.11
 kubectl apply -f <https://raw.githubusercontent.com/projectcalico/calico/v3.26.1/manifests/calico.yaml>
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Calico 설치 확인
 
@@ -432,7 +740,18 @@ kubectl apply -f <https://raw.githubusercontent.com/projectcalico/calico/v3.26.1
 kubectl get pods -n kube-system
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 파드의 실행 상태를 확인하려면 약 5분이 소요될 수 있습니다. 아래 명령어를 실행해 주세요.
 
@@ -444,24 +763,33 @@ watch kubectl get pods -n kube-system
 
 모든 파드가 실행 중일 때 준비됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-이름                                                준비됨   상태    재시작      나이
-**calico-kube-controllers-7ddc4f45bc-sfjh5            1/1     실행중   0             24시간
-calico-node-r5x4f                                   1/1     실행중   0             24시간
-calico-node-wqmdq                                   1/1     실행중   0             24시간
-calico-node-x6r45                                   1/1     실행중   0**             24시간
-coredns-5dd5756b68-2mkb7                            1/1     실행중   0             24시간
-coredns-5dd5756b68-l4b7j                            1/1     실행중   0             24시간
-etcd-k8s-master.safewebbox.com                      1/1     실행중   0             24시간
-kube-apiserver-k8s-master.safewebbox.com            1/1     실행중   0             24시간
-kube-controller-manager-k8s-master.safewebbox.com   1/1     실행중   3 (23시간 전)   24시간
-kube-proxy-5t2sj                                    1/1     실행중   0             24시간
-kube-proxy-89ldw                                    1/1     실행중   0             24시간
-kube-proxy-ckwl2                                    1/1     실행중   0             24시간
-kube-scheduler-k8s-master.safewebbox.com            1/1     실행중   3 (23시간 전)   24시간
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
+이름 준비됨 상태 재시작 나이
+**calico-kube-controllers-7ddc4f45bc-sfjh5 1/1 실행중 0 24시간
+calico-node-r5x4f 1/1 실행중 0 24시간
+calico-node-wqmdq 1/1 실행중 0 24시간
+calico-node-x6r45 1/1 실행중 0** 24시간
+coredns-5dd5756b68-2mkb7 1/1 실행중 0 24시간
+coredns-5dd5756b68-l4b7j 1/1 실행중 0 24시간
+etcd-k8s-master.safewebbox.com 1/1 실행중 0 24시간
+kube-apiserver-k8s-master.safewebbox.com 1/1 실행중 0 24시간
+kube-controller-manager-k8s-master.safewebbox.com 1/1 실행중 3 (23시간 전) 24시간
+kube-proxy-5t2sj 1/1 실행중 0 24시간
+kube-proxy-89ldw 1/1 실행중 0 24시간
+kube-proxy-ckwl2 1/1 실행중 0 24시간
+kube-scheduler-k8s-master.safewebbox.com 1/1 실행중 3 (23시간 전) 24시간
 
 ## 노드 확인
 
@@ -469,8 +797,18 @@ kube-scheduler-k8s-master.safewebbox.com            1/1     실행중   3 (23시
 
 실행
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 kubectl get node
@@ -487,7 +825,18 @@ k8s-worker02.safewebbox.com  준비     <없음>          24시간 v1.28.11
 
 ## 사전 요구 사항
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 여정을 시작하기 전에 다음 사전 조건들을 갖추었는지 확인해주세요:
 
@@ -499,7 +848,18 @@ k8s-worker02.safewebbox.com  준비     <없음>          24시간 v1.28.11
 
 로컬 머신에서
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로컬 홈 폴더 아래에 .kube라는 폴더를 만들어 주세요.
 
@@ -512,7 +872,18 @@ mkdir .kube
 
 로컬 머신에서
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파일 admin.conf을 /etc/kubernetes/ 디렉토리에서 kube-master.local 서버로 가져와야 합니다.
 
@@ -524,7 +895,18 @@ scp user1@kube-master.local:/etc/kubernetes/admin.conf .kube/config
 
 참고:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 방법을 사용하면 로컬 머신을 사용하는 모든 사용자가 구성 파일을 가져와야 합니다.
 
@@ -534,27 +916,38 @@ scp user1@kube-master.local:/etc/kubernetes/admin.conf .kube/config
 
 구성 파일이 올바르게 보이는지 확인하세요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```yaml
 apiVersion: v1
 clusters:
-- cluster:
-    server: https://k8s-master:6443
-  name: kubernetes
+  - cluster:
+      server: https://k8s-master:6443
+    name: kubernetes
 contexts:
-- context:
-    cluster: kubernetes
-    user: kubernetes-admin
-  name: kubernetes-admin@kubernetes
+  - context:
+      cluster: kubernetes
+      user: kubernetes-admin
+    name: kubernetes-admin@kubernetes
 current-context: kubernetes-admin@kubernetes
 kind: Config
 preferences: {}
 users:
-- name: kubernetes-admin
-  user:
-    client-certificate-data: LS0tLS1CRUdJTiBDQVF8NC9FQS9FQURHQ0NBZ0VHQmJhbEJnVzJzZ0pzSERFUEhBdmrvUW9zYUM4bS9BTkJ3SUlxbnhBQVFWXjQKR0VBR01CRUdKQVNVQ0NRUWdVRHFKV3AwOUJMUWpRaXhxTU93WkljNW5kUU42MVl6TVJqVDlnREVzZUVJdEM0UkdBaktnZVFMUgpVZnlVeEIzVk1WOWJXRkpSRWh6UkVaUllXbDZiR0Y2YjJ4cGJteGhZMlJ2SUY5cmRYbDFZaTVZX2djaENjODBRakp0ClI5R1o2eG1KRXQ3R0cvaVd0WmMwRWdzY0d4Y00vM21jc1RuVFFJU1VUYkc2RUN0WTR6VEtxOW93bDBiTFJiYW1wbjRBUHMKZmxIcEt4ZFZYVDRNWGpGUHhnYWtaQkpIT01Iam5TWGlDRVdRcXE3WDdOYUdsS3ptN1FXX2tWeWw2Sjh3VHluNkJFbVd2cgp6SjIvUmdTc2J3TjU2V2JaSkJKUzFwTWJ5NCtpdG00OEVZdG1YaDduZW8vdGI2dURYNGJaeU85Ujgwb2I0YXNPM1pVcHoKTENHaFN3bUQ4ekRNNnpVSG1ubnNkMlRJVk42TDhYZXFqMVRBR0lJUVQ2TE02c0J6K1dxV1ppZjV6QU9VQ3pVSEFhCnbvNFNmVWlsbGc2NVVSVmNkbDZTaGZuN0ZpdjJOSGFiRW9aQnF3cG45bHZWYnkyNERhVDIvbFhQbDA0QkNpMWFDUk4KdEw4Z1FlbDBtTkhicGwrd3pFRno2b2hkN25ucGpHWHoxSW44Z3RwdnNnWWVnOGszbEd5NFgxTVJjM0krMFN6QmdrbAp6cUdaTVFqVnBzdkJkMzJSWTcxNmRlV3FJSEVEV1UyMjRBZmRoM3BRd0xHbUEyd1dEQjBHT3preUNYcTFFQWtMN2JICmJDcVdWcktOVTNpOGw5SktXQ2tML3dhMEdMOTNJMnNIVURRWHlXQmc0WUlvWTdPYURnOFB4bHlEbitqQlozb2RvTEIKalVXdmVYMjJ5TzMzT3BZVFN0cUErMDdIZjBiY0NmVVhCbnVTr1M2YUxMUDVkajQyb3BFbWttOGhxMUZUcTRRZwpHckpLMWtvR3lFdWVsM2VMMW01Qi9WL3RReWtZY1cwb0c3UVNudHIzY1RLcE1GSXFyQk81aTB0bmFzb3QzK3V3ClBWZVVGMmM3cG5hTnI0QmxsbzF2eE42T2dHczFNcndUb2lGSW1YK2NTMmZNL1NQckV3NUN4R0V6LzRYNDJGNFVCR25pCld0bzRWdFM3VUIyUmVvRDNZZUJaYkFNdnRYRExvT0QzNnczcTBtMllTWGorVU5WUjBYTk1aZ2tCQzdITWN2L29SQUkKS3I1VkpDM2ZRUGNjWURGcmVBd0tLb3hNdGd0SUpZMlBhZityaEV4cVZjYVJzQmZPMEVabGJPVTd1Mk5vMFQrUgp0Qlpnc29JdkozZFlUZktsZkZaNXg1NlE0Nk8rVWM4WC9kS1BzWkYweTVSNU9jWFFESmZkc3JGeWxRcWxzWmd3CmpiVEU5Qkhlb3p6cUR4V254Y1k2ZWNHcjFkeXpURE5yU2laekxHcHYwb1hwL3krajU2ZHRZbUJtUVJvUUFrN2kBWR7blEwcEt1eEkvNTZzNVlPcjRaZml2eThqbApmNDRMWEMraStSWWRRdWIzQ1NGQ0l3VVA1WE9VSFRPYk5HRkd3PS0tLS0tRU5EIFJTQSBQUklWQVRFIEtFWS0tLS0tCgLwRG9jdW1lbnQ=
-    client-key-data: LS0tLS1CRUdJTiBSU0EgUFJJVkFUREPLDd5OHjRFAErlk;sdjgghjkl;sjkl;dfhgjwlk;sjkl;dfghjkl;sdfghkl;sdghjkl;lsdfgjkl;sdfghklsdafgjhkjldfhgjlksdfghjlk;sdfghjlk;sdfgsFWlWaXpQdVjRUdjgMmR6YWV5Q2hh
+  - name: kubernetes-admin
+    user:
+      client-certificate-data: LS0tLS1CRUdJTiBDQVF8NC9FQS9FQURHQ0NBZ0VHQmJhbEJnVzJzZ0pzSERFUEhBdmrvUW9zYUM4bS9BTkJ3SUlxbnhBQVFWXjQKR0VBR01CRUdKQVNVQ0NRUWdVRHFKV3AwOUJMUWpRaXhxTU93WkljNW5kUU42MVl6TVJqVDlnREVzZUVJdEM0UkdBaktnZVFMUgpVZnlVeEIzVk1WOWJXRkpSRWh6UkVaUllXbDZiR0Y2YjJ4cGJteGhZMlJ2SUY5cmRYbDFZaTVZX2djaENjODBRakp0ClI5R1o2eG1KRXQ3R0cvaVd0WmMwRWdzY0d4Y00vM21jc1RuVFFJU1VUYkc2RUN0WTR6VEtxOW93bDBiTFJiYW1wbjRBUHMKZmxIcEt4ZFZYVDRNWGpGUHhnYWtaQkpIT01Iam5TWGlDRVdRcXE3WDdOYUdsS3ptN1FXX2tWeWw2Sjh3VHluNkJFbVd2cgp6SjIvUmdTc2J3TjU2V2JaSkJKUzFwTWJ5NCtpdG00OEVZdG1YaDduZW8vdGI2dURYNGJaeU85Ujgwb2I0YXNPM1pVcHoKTENHaFN3bUQ4ekRNNnpVSG1ubnNkMlRJVk42TDhYZXFqMVRBR0lJUVQ2TE02c0J6K1dxV1ppZjV6QU9VQ3pVSEFhCnbvNFNmVWlsbGc2NVVSVmNkbDZTaGZuN0ZpdjJOSGFiRW9aQnF3cG45bHZWYnkyNERhVDIvbFhQbDA0QkNpMWFDUk4KdEw4Z1FlbDBtTkhicGwrd3pFRno2b2hkN25ucGpHWHoxSW44Z3RwdnNnWWVnOGszbEd5NFgxTVJjM0krMFN6QmdrbAp6cUdaTVFqVnBzdkJkMzJSWTcxNmRlV3FJSEVEV1UyMjRBZmRoM3BRd0xHbUEyd1dEQjBHT3preUNYcTFFQWtMN2JICmJDcVdWcktOVTNpOGw5SktXQ2tML3dhMEdMOTNJMnNIVURRWHlXQmc0WUlvWTdPYURnOFB4bHlEbitqQlozb2RvTEIKalVXdmVYMjJ5TzMzT3BZVFN0cUErMDdIZjBiY0NmVVhCbnVTr1M2YUxMUDVkajQyb3BFbWttOGhxMUZUcTRRZwpHckpLMWtvR3lFdWVsM2VMMW01Qi9WL3RReWtZY1cwb0c3UVNudHIzY1RLcE1GSXFyQk81aTB0bmFzb3QzK3V3ClBWZVVGMmM3cG5hTnI0QmxsbzF2eE42T2dHczFNcndUb2lGSW1YK2NTMmZNL1NQckV3NUN4R0V6LzRYNDJGNFVCR25pCld0bzRWdFM3VUIyUmVvRDNZZUJaYkFNdnRYRExvT0QzNnczcTBtMllTWGorVU5WUjBYTk1aZ2tCQzdITWN2L29SQUkKS3I1VkpDM2ZRUGNjWURGcmVBd0tLb3hNdGd0SUpZMlBhZityaEV4cVZjYVJzQmZPMEVabGJPVTd1Mk5vMFQrUgp0Qlpnc29JdkozZFlUZktsZkZaNXg1NlE0Nk8rVWM4WC9kS1BzWkYweTVSNU9jWFFESmZkc3JGeWxRcWxzWmd3CmpiVEU5Qkhlb3p6cUR4V254Y1k2ZWNHcjFkeXpURE5yU2laekxHcHYwb1hwL3krajU2ZHRZbUJtUVJvUUFrN2kBWR7blEwcEt1eEkvNTZzNVlPcjRaZml2eThqbApmNDRMWEMraStSWWRRdWIzQ1NGQ0l3VVA1WE9VSFRPYk5HRkd3PS0tLS0tRU5EIFJTQSBQUklWQVRFIEtFWS0tLS0tCgLwRG9jdW1lbnQ=
+      client-key-data: LS0tLS1CRUdJTiBSU0EgUFJJVkFUREPLDd5OHjRFAErlk;sdjgghjkl;sjkl;dfhgjwlk;sjkl;dfghjkl;sdfghkl;sdghjkl;lsdfgjkl;sdfghklsdafgjhkjldfhgjlksdfghjlk;sdfghjlk;sdfgsFWlWaXpQdVjRUdjgMmR6YWV5Q2hh
 ```
 
 ## kubectl 설정 업데이트
@@ -563,11 +956,20 @@ users:
 
 내보내기 설정
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 export KUBECONFIG=~/.kube/config
-
 
 ## kubectl 명령어 테스트
 
@@ -575,7 +977,18 @@ export KUBECONFIG=~/.kube/config
 
 다음 명령어를 로컬 사용자(user1)로 실행하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 kubectl config view
@@ -607,8 +1020,18 @@ client-key-data: DATA+OMITTED
 
 ## Lens 설정
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 렌즈란 무엇인가요?
 
@@ -618,7 +1041,18 @@ https://k8slens.dev/
 
 ## 렌즈 실행하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로컬 머신에서
 
@@ -628,7 +1062,18 @@ Lens 설정을 실행하세요
 
 Lens 클라우드 계정 설정
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Lens에 Kubernetes 클러스터 추가하기
 
@@ -638,7 +1083,18 @@ Lens 클라우드 계정 설정
 
 .kube/config 파일의 내용을 붙여넣어주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```yaml
 apiVersion: v1
@@ -659,7 +1115,16 @@ users:
   user:
     client-certificate-data: LS0tLS1CRUdJTiBDfhjldfhjdfghjkl;dghjkl;szdg;hjzg;hjzdg;hjklzgZ0F3SUJBZ0lJSlFqYzlrb2hqZHN3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TkRBMk1UZ3hNREEyTkRWYUZ3MHlOVEEyTVRneE1ERXhORGRhTURReApGekFWQmdOVkJBb1REbk41YzNSbGJUcHRZWE4wWlhKek1Sa3dGd1lEVlFRREV4QnJkV0psY201bGRHVnpMV0ZrCmJXbHVNSUlCSWpBTkJna3Foa2lHOXcwQkFRRUZBQU9DQVE4QU1JSUJDZ0tDQVFFQXQ5c2dNeGt3Z0h1UTYrcU0KTTZ2VmlBY2Vmd1BCK0NGZzRkeVltelYxcEsrOEdBRWZ2Qjg1bmNhT1lVZzNPZHVPZXQ4V2JBcnBXM3JqZXVIRgpXQzlvd2hBRTVEeGNEK1h0TlZVaVZpelB1VkxMOEZ0REtCb1hwV3h5SFdIK2lNNkZFRmVrbVdiVDFlY3NJaXVMCkFlNWN3QkUrNitFa2VxUUtpWC9VdE9mNDlGaVJtdmhaS1BCYVlsZ1pjREdFYTVoeDNRM3JxYjcxYVB4Z0w3YUQKdURGNnpSRE5NUkt4VVZ1TjFROFJIei9Ia1FvNVNaUE1Lc1JtYzJ6MHpHN3gwWEVVM0s2cXA4UjJmMEFaT25LegpjdWFITkp3MFV2T25nYlpESUxQYTlXQ3dFclJKb2xxa0E2Zk1tRFRWY2dtYllYN0ZIWFMrZkg1YXB4engvK0Y4CkhDazlBUUlEQVFBQm8xWXdWREFPQmdOVkhROEJBZjhFQkFNQ0JhQXdFd1lEVlIwbEJBd3dDZ1lJS3dZQkJRVUgKQXdJd0RBWURWUjBUQVFIL0JBSXdBREFmQmdOVkhTTUVHREFXZ0JUVHY2SWxTQU5CZVBuU3llM0hTZVRvRVdDTDZqQVYKQmdOVkhSRUVEakFNZ2dwcmRXSmxjbTVsZEdWek1BMEdDU3FHU0liM0RRRUJDd1VBQTRJQkFRQkx1MW5nVDd6dApwZWZMMDVSRERQbEljWWd6NWVjcU9hb2FzMkd5SEtkZHhXK1IwdDRXanZIUVFoS3pzOE5JVW1GcTlndm80dUxECkx6dDRGTWFOL3RhUEsyM0pPVUp1RDhjNE1TdmpZenZCK2NOb2FIQThjWmRodXBIYy9ydzFJQUhaSWxaZ3M1NjEKK0VVUzlwNDd6cU1BbHQ1QmxBREwreGxLUExuZEdzSzhBTVJRMVAzVkNxS1QyN2dieEZnRFYwU3VWRDRoUEF4UApZaVRKWkhTaTV
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 뷰
 
@@ -669,9 +1134,19 @@ users:
 
 통계는 즉시 표시되지 않지만 Prometheus 설정이 설치되면 이 데이터가 표시됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```
+
 ![Image](/assets/img/2024-06-20-CreatingaSelfHostedKubernetesStackonDebian12andmonitoringwithkube-prometheus-stack_1.png)
 
 # 쿠버네티스 로드 밸런싱을 위해 MetaLB 설치
@@ -680,8 +1155,18 @@ users:
 
 하지만 자체 호스팅된 구성에서는 이러한 것들을 설정해주어야 합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 지침은 MetaLB를 인그레스 포인트로 설정하고 사용하는 방법을 다룹니다. 이것은 basically 서비스(nginx, haproxy, grafana, prmetheus 등)가 쿠버네티스에서 MetaLB를 사용하여 인터넷/외부에서 액세스할 수 있도록 설정하는 것을 의미합니다.
 
@@ -691,7 +1176,18 @@ chatGPT의 말을 인용하면,
 
 MetaLB는 클라우드 환경이 아닌 베어메탈에서 실행되는 Kubernetes 클러스터용 로드 밸런서 구현체입니다(클라우드 환경에서는 일반적으로 클라우드 제공업체가 로드 밸런서를 제공합니다). MetaLB는 온프레미스 Kubernetes 환경 내에서 로드 밸런서를 생성할 수 있는 필수 구성 요소를 제공하여 클라우드 기반 로드 밸런서가 작동하는 방식과 유사하게 클러스터 외부에 서비스를 노출할 수 있도록 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # MetalLB의 주요 기능
 
@@ -705,7 +1201,18 @@ MetaLB는 클라우드 환경이 아닌 베어메탈에서 실행되는 Kubernet
 - Layer 2 모드: 이 모드에서 MetalLB는 ARP(Address Resolution Protocol)를 사용하여 IP 주소를 로컬 네트워크에 알리게 합니다. 이를 통해 Kubernetes 서비스 IP가 네트워크에서 로컬 IP처럼 보이도록 합니다.
 - BGP 모드: BGP 모드에서 MetalLB는 BGP 프로토콜을 사용하여 서비스의 IP 주소를 네트워크 라우터에 광고합니다. 이를 통해 더 고급 라우팅 구성이 가능하며 대규모 및 복잡한 네트워크 환경에 적합합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 전형적인 사용 사례
 
@@ -717,7 +1224,18 @@ MetaLB는 클라우드 환경이 아닌 베어메탈에서 실행되는 Kubernet
 
 ## IP 서브넷
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 설정 중에는 네트워크에서 액세스할 수 있는 IP 주소 범위가 필요합니다.
 
@@ -729,7 +1247,18 @@ MetaLB는 클라우드 환경이 아닌 베어메탈에서 실행되는 Kubernet
 
 ## 쿠버네티스 클러스터 설정
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에서 해당 작업에 대한 지침을 찾을 수 있습니다.
 
@@ -739,7 +1268,18 @@ MetaLB는 클라우드 환경이 아닌 베어메탈에서 실행되는 Kubernet
 
 Kubernetes 외부의 인그레스가 올바르게 작동하는지 테스트하기 위해 테스트 nginx 서비스를 설정합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## NginX 배포 생성
 
@@ -751,7 +1291,18 @@ kubectl create deploy nginx --image=nginx:1.20
 
 다음과 같이 배포, 레플리카셋 및 파드를 나열합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```yaml
 kubectl get deploy,rs,po
@@ -770,7 +1321,18 @@ replicaset.apps/nginx-6d777db949   1         1         1       38sNAME          
 pod/nginx-6d777db949-sr8x6   1/1     Running   0          38s
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Nginx 배포를 확장하려면
 
@@ -784,32 +1346,48 @@ Nginx 배포를 3개 복제본으로 확장한 후, 예상 출력은
 kubectl get deploy,rs,po
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-**이름                    준비 상태   최신 상태   이용 가능   나이**
-deployment.apps/nginx   3/3        3           3           2분 8초
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
-이름                               원하는 상태   현재 상태   준비 상태   나이
-replicaset.apps/nginx-6d777db949   3            3          3          2분 8초
+**이름 준비 상태 최신 상태 이용 가능 나이**
+deployment.apps/nginx 3/3 3 3 2분 8초
 
-이름                         **준비 상태                        상태               다시 시작   나이**
-pod/nginx-6d777db949-jttpw   1/1         실행 중       0          23초
-pod/nginx-6d777db949-qmdk8   1/1         실행 중       0          23초
-pod/nginx-6d777db949-sr8x6   1/1         실행 중       0          2분 8초
+이름 원하는 상태 현재 상태 준비 상태 나이
+replicaset.apps/nginx-6d777db949 3 3 3 2분 8초
 
+이름 **준비 상태 상태 다시 시작 나이**
+pod/nginx-6d777db949-jttpw 1/1 실행 중 0 23초
+pod/nginx-6d777db949-qmdk8 1/1 실행 중 0 23초
+pod/nginx-6d777db949-sr8x6 1/1 실행 중 0 2분 8초
 
 위 배포에 대한 로드 밸런서 서비스를 생성해주세요
 
-
 kubectl expose deploy/nginx --type=LoadBalancer --port=80
-
 
 우리가 만든 nginx 서비스에 대해 설명해주세요
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 kubectl get svc
@@ -846,7 +1424,18 @@ External Traffic Policy:  Cluster
 Events:                   <none>
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Nginx 로드 밸런서 서비스의 외부 IP가 '보류 중'임을 알려드립니다. MetalLB 또는 유사한 로드 밸런서가 없는 경우 베어 메탈 K8s 클러스터에서 로드 밸런서 서비스는 외부 IP를 가져오지 못하므로 NodePort 서비스와 똑같이 작동하게 됩니다.
 
@@ -858,7 +1447,18 @@ nginx 배포를 0으로 축소하세요.
 kubectl scale deploy/nginx --replicas=0
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Kubernetes NGINX 배포가 완료되었습니다. 이것은 나중에 사용될 것입니다.
 
@@ -868,7 +1468,18 @@ Kubernetes NGINX 배포가 완료되었습니다. 이것은 나중에 사용될 
 
 MetalLB에는 BGP 및 Layer2 모드가 있습니다. 이 안내서는 Layer2 모드를 설정합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 네임스페이스 생성
 
@@ -880,7 +1491,18 @@ kubectl apply -fhttps://raw.githubusercontent.com/metallb/metallb/v0.11.0/manife
 
 ## 참고:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Metal LB의 내부 사용을 위해 일부 IP 주소를 할당해야 합니다. IP 주소가 이미 사용 중이지 않도록 확인해야 합니다.
 
@@ -890,7 +1512,18 @@ Metal LB의 내부 사용을 위해 일부 IP 주소를 할당해야 합니다. 
 
 로컬 머신에서
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 메탈로드밸런서 설정을 위한 YAML 파일을 생성하세요.
 
@@ -909,7 +1542,18 @@ data:
       - **10.10.0.240-10.10.0.250**
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 섹션은 위의 사전 준비 섹션에서 선택한 IP 범위를 사용합니다.
 
@@ -920,7 +1564,18 @@ addresses:
 
 ## 방화벽 설정
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3 노드 클러스터는 로컬 방화벽을 사용하지 않습니다. 여기에 참고용으로 추가했습니다.
 
@@ -937,7 +1592,18 @@ sudo firewall-cmd --list-all
 
 ## 클러스터에 MetaLB 배포하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로컬 머신에서
 
@@ -951,7 +1617,18 @@ metallb-system 네임스페이스 내에서 실행 중인 pod 목록을 나열�
 kubectl get pod -n metallb-system
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 이름                        준비 상태   상태      재시작    시간
@@ -967,7 +1644,18 @@ MetaLB를 설치한 후에 Nginx 테스트를 계속 진행하여 이 작동 방
 
 ## 레플리카 세트 확장하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Nginx 배포를 확장했습니다.
 
@@ -981,7 +1669,18 @@ kubectl scale deploy nginx --replicas=3
 deployment.apps/nginx scaled
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로드 밸런서 서비스를 설명하고 외부 IP가 할당되었는지 확인해보세요.
 
@@ -995,7 +1694,18 @@ kubectl expose deploy nginx --type=LoadBalancer --port=80
 service/nginx가 노출되었습니다
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 외부 IP가 할당되었는지 확인해 보세요
 
@@ -1010,7 +1720,18 @@ NAME    TYPE           CLUSTER-IP    **EXTERNAL-IP**       PORT(S)        AGE
 nginx   LoadBalancer   10.102.5.84   **10.10.0.240**       80:31829/TCP   5s
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이번에는 서비스를 보면 MetaLB가 해당 서비스에 대해 범위/풀에서 IP를 할당했습니다.
 
@@ -1045,7 +1766,18 @@ Events:
   Normal  nodeAssigned  16s   metallb-speaker     announcing from node "master.tektutor.org"
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에서 볼 수 있듯이, nginx 로드밸런서 서비스는 metallb 구성 맵에서 언급한 범위의 ExternalIP로 할당되었습니다.
 
@@ -1057,7 +1789,18 @@ curl <http://10.10.0.240>
 
 표시
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <!DOCTYPE html>
@@ -1089,7 +1832,18 @@ Commercial support is available at
 
 # 쿠버네티스 프로메테우스 모니터링 스택 설치
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3 노드 클러스터를 생성하고 Ingress를 위해 MetaLB를 클러스터에 설치하고 로컬 Linux 서버에서 클러스터에 원격 액세스를 설정했다면, 다음 단계는 모니터링을 배포하는 것입니다.
 
@@ -1099,7 +1853,18 @@ Prometheus 커뮤니티는 HELM을 사용하여 전체 모니터링 스택을 �
 
 ## Helm
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Helm이 설치되었습니다!
 
@@ -1109,7 +1874,18 @@ Helm을 설치하는 자세한 내용은 여기에서 확인할 수 있어요.
 
 ## Helm이란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 헬름은 쿠버네티스용 패키지 매니저로, 쿠버네티스 클러스터에 애플리케이션 및 서비스를 배포, 관리, 구성하는 데 사용됩니다. 헬름 차트를 사용하여 사용자가 복잡한 쿠버네티스 애플리케이션을 정의, 설치, 업그레이드할 수 있어 배포 프로세스를 단순화합니다.
 
@@ -1123,7 +1899,18 @@ Helm을 설치하는 자세한 내용은 여기에서 확인할 수 있어요.
 
 ## URL
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 서비스는 GitHub을 통해 제공됩니다.
 
@@ -1134,7 +1921,18 @@ Helm을 설치하는 자세한 내용은 여기에서 확인할 수 있어요.
 
 ## 네임스페이스 생성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 # 모니터링 스택을 위한 네임스페이스 생성
@@ -1146,7 +1944,18 @@ kubectl create ns monitoring
 
 helm을 사용하여 프로메테우스 스택을 위한 저장소를 추가해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 helm repo add prometheus-community <https://prometheus-community.github.io/helm-charts>
@@ -1160,7 +1969,18 @@ helm repo update
 
 Helm 설치에는 helm 패키지에 내장된 values.yaml 파일이 있습니다. 이 설치를 사용하면 기본값을 재정의할 수 있는 values.yaml 파일을 생성해야 합니다. 이 값을 install 명령어에 전달하여 기본값을 재정의할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 알림
 
@@ -1172,33 +1992,49 @@ nano values.yaml
 
 다음을 추가하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-ruleSelectorNilUsesHelmValues: false
-serviceMonitorSelectorNilUsesHelmValues: false
-podMonitorSelectorNilUsesHelmValues: false
-probeSelectorNilUsesHelmValues: false
-scrapeConfigSelectorNilUsesHelmValues: false
+ruleSelectorNilUsesHelmValues: false;
+serviceMonitorSelectorNilUsesHelmValues: false;
+podMonitorSelectorNilUsesHelmValues: false;
+probeSelectorNilUsesHelmValues: false;
+scrapeConfigSelectorNilUsesHelmValues: false;
 ```
 
 ```js
-grafana:
-  service:
-    type: LoadBalancer
-prometheus:
-  service:
-    type: LoadBalancer
-alertmanager:
-  service:
-    type: LoadBalancer
+grafana: service: type: LoadBalancer;
+prometheus: service: type: LoadBalancer;
+alertmanager: service: type: LoadBalancer;
 ```
 
 마지막 세 개의 "서비스"인 그라파나, 프로메테우스, 알람매니저는 기본 설정인 ClusterIP를 재정의하여 외부 IP를 LoadBalancer로 설정했습니다. MetaLB를 사용하여 우리가 정의한 범위/풀에서 외부 IP를 이 서비스에 할당할 수 있습니다.
 
 ## Helm 배포
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 kube-prometheus-stack을 Helm 업데이트 명령을 사용하여 배포하세요.
 
@@ -1212,7 +2048,18 @@ Kube-Prometheus 스택을 배포한 후에는 다음과 같은 기본 앱들을 
 - Prometheus
 - Alert Manager.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 배포 확인
 
@@ -1224,7 +2071,18 @@ kubectl get pod -n monitoring
 
 반응이 있어야 해요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 이름                                                        준비 상태    상태    재시작    시간
@@ -1246,7 +2104,18 @@ watch kubectl get pod -n monitoring
 
 위 명령을 사용해 주세요. 이 명령은 출력이 변경될 때마다 위의 결과를 업데이트합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 서비스 확인하기
 
@@ -1258,10 +2127,21 @@ kubectl get svc -n monitoring
 
 출력 결과 확인해보세요 (좌우 스크롤 바 유의)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-이 이름들은 존경스러운! 
+이 이름들은 존경스러운!
 
 각각의 접근 가능한 서비스는 외부 범위/풀에서 IP를 할당받아 TYPE = LoadBalancer로 지정되어야 합니다.
 
@@ -1270,13 +2150,22 @@ kubectl get svc -n monitoring
 서비스 모니터는 쿠버네티스에서 메트릭을 스크래핑하는 응용 프로그램을 정의합니다.
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래와 같이 YAML 파일을 만들어주세요.
 
-
 nano servicemonitor.yaml
-
 
 다음 내용을 추가해주세요.
 
@@ -1289,14 +2178,25 @@ metadata:
     app: kube-prometheus-stack-prometheus
 spec:
   endpoints:
-  - interval: 30s
-    port: web
+    - interval: 30s
+      port: web
   selector:
     matchLabels:
       app: kube-prometheus-stack-prometheus
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래와 같이 코드를 실행해주세요.
 
@@ -1310,7 +2210,18 @@ kubectl apply -f servicemonitor.yaml -n monitoring
 servicemonitor.monitoring.coreos.com/prometheus-self가 생성되었습니다.
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 인터페이스 보기
 
@@ -1320,7 +2231,18 @@ servicemonitor.monitoring.coreos.com/prometheus-self가 생성되었습니다.
 
 ### URL
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 10.10.0.243에서 확인부탁드립니다.
 
@@ -1330,8 +2252,18 @@ servicemonitor.monitoring.coreos.com/prometheus-self가 생성되었습니다.
 
 ## 사전 정의된 알림
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-20-CreatingaSelfHostedKubernetesStackonDebian12andmonitoringwithkube-prometheus-stack_3.png)
 
@@ -1341,8 +2273,18 @@ servicemonitor.monitoring.coreos.com/prometheus-self가 생성되었습니다.
 
 http://10.10.0.242:9093
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 홈
 
@@ -1352,7 +2294,18 @@ http://10.10.0.242:9093
 
 ## URL
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 http://10.10.0.241
 
@@ -1363,15 +2316,35 @@ http://10.10.0.241
 
 ## 사전 설치된 경고 규칙
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![PreInstalled Dashboards](/assets/img/2024-06-20-CreatingaSelfHostedKubernetesStackonDebian12andmonitoringwithkube-prometheus-stack_6.png)
 
 ![PreInstalled Dashboards](/assets/img/2024-06-20-CreatingaSelfHostedKubernetesStackonDebian12andmonitoringwithkube-prometheus-stack_7.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 시스로그를 위한 Promtail과 Loki 설치하기
 
@@ -1384,7 +2357,18 @@ helm repo add grafana <https://grafana.github.io/helm-charts>
 helm repo update
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Loki 설치하기
 
@@ -1396,7 +2380,18 @@ helm upgrade --install loki grafana/loki-distributed -n monitoring --set service
 
 # 포드 확인
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 watch kubectl get pods -n monitoring
@@ -1423,7 +2418,18 @@ prometheus-kube-prometheus-stack-prometheus-0               2/2     Running   0 
 
 시작할 때 변경 사항을 보기 위해 watch 명령어를 사용하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 watch kubectl get pods -n monitoring
@@ -1437,7 +2443,18 @@ watch kubectl get pods -n monitoring
 kubectl get services -n monitoring
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예상 결과
 
@@ -1466,7 +2483,18 @@ pro**metheus-operated                              ClusterIP      None          
 
 그라파나의 홈 → 연결 → 데이터 소스로 이동하여 Loki 데이터 소스를 추가하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로키를 데이터 소스로 선택하세요
 
@@ -1478,7 +2506,18 @@ pro**metheus-operated                              ClusterIP      None          
 
 # 이 작업은 자동으로 수행됩니다
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요고를 values.yaml에 추가하면 Loki를 자동으로 설정할 수 있을 것 같아요.
 
@@ -1497,7 +2536,18 @@ grafana:
 
 Promtail은 데이터를 Loki로 푸시합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 A values 파일이 promtail 구성에 필요합니다.
 
@@ -1511,11 +2561,22 @@ nano promtail-values.yaml
 ---
 config:
 clients:
-- url: "<http://loki-loki-distributed-gateway/loki/api/v1/push>"
+  - url: "<http://loki-loki-distributed-gateway/loki/api/v1/push>"
 ---
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 명령을 실행해보세요:
 
@@ -1529,7 +2590,18 @@ helm upgrade --install promtail grafana/promtail -f promtail-values.yaml -n moni
 kubectl get pods -n monitoring
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 원하는 표시
 
@@ -1559,7 +2631,18 @@ promtail-h9mrf                                              1/1     Running   0 
 watch kubectl get pods -n monitoring
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 서비스 확인
 
@@ -1571,7 +2654,18 @@ kubectl get services -n monitoring
 
 예상 결과
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 이름                                               유형            클러스터 IP       외부 IP         포트       생성된 시간
@@ -1600,11 +2694,33 @@ prometheus-operated                              ClusterIP      없음          
 
 Grafana를 열 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 테이블 태그를 마크다운 형식으로 변경해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 생각
 

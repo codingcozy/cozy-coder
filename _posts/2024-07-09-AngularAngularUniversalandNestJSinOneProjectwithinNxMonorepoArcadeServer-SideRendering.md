@@ -3,17 +3,13 @@ title: "Nx 모노레포에서 하나의 프로젝트로 Angular, Angular Univers
 description: ""
 coverImage: "/assets/img/2024-07-09-AngularAngularUniversalandNestJSinOneProjectwithinNxMonorepoArcadeServer-SideRendering_0.png"
 date: 2024-07-09 10:27
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-AngularAngularUniversalandNestJSinOneProjectwithinNxMonorepoArcadeServer-SideRendering_0.png
 tag: Tech
 originalTitle: "Angular, Angular Universal and NestJS in One Project within Nx Monorepo: Arcade Server-Side Rendering"
 link: "https://medium.com/@mohamedali.mnassar/angular-angular-universal-and-nestjs-in-one-project-within-nx-monorepo-arcade-ssr-59d6a7280f86"
 isUpdated: true
 ---
-
-
-
-
 
 앞으로 SPAs(Server-side rendering가 일반적이었던 시대에는 php, java 등을 사용해 일반적인 방식으로 작동했습니다. HTML, CSS, JS는 백엔드에서 생성되어 브라우저가 렌더링하고 일부 사용자 상호작용을 개선하는 데 사용되었습니다. 이제 사람들은 그런 설정으로 돌아가려고 하지만 SPA용으로 구축된 도구를 사용하면 효율적이지 않습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이 블로그에서 사용하는 각 프레임워크 또는 도구에 대한 간단한 소개입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Angular
 
@@ -33,7 +40,18 @@ Angular은 구글에서 개발 및 유지보수되는 인기 있는 오픈 소�
 
 Angular Universal은 Angular의 기능을 확장하여 Angular 애플리케이션의 서버 측 렌더링(SSR)을 가능하게 하는 기술입니다. SSR은 초기 HTML을 클라이언트가 아닌 서버에서 렌더링함으로써 웹 애플리케이션의 성능과 SEO를 향상시킵니다. Angular Universal의 주요 장점은:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 향상된 성능: 초기 페이지 로드가 빨라지고 사용자가 더 빠른 성능을 경험할 수 있습니다.
 - 향상된 SEO: 완전히 렌더링된 HTML 콘텐츠는 검색 엔진 크롤러에 더 쉽게 접근됩니다.
@@ -48,7 +66,18 @@ NestJS는 효율적이고 확장 가능한 서버 측 애플리케이션을 구�
 - 강력한 CLI: 코드 생성 및 관리를 위한 견고한 명령줄 인터페이스를 제공합니다.
 - 넓은 호환성: GraphQL, WebSockets 등 다양한 라이브러리 및 프레임워크와 원활하게 작동합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Nx Monorepo
 
@@ -61,17 +90,39 @@ Nx는 모노 레포(Monorepo)용 고급 확장 가능한 개발 도구 모음으
 
 다음 섹션에서는 이러한 기술들을 하나로 통합하여 조화로운 프로젝트로 통합하는 설정 프로세스에 대해 자세히 살펴볼 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-09-AngularAngularUniversalandNestJSinOneProjectwithinNxMonorepoArcadeServer-SideRendering_0.png)
 
-참고: 이 글은 글쓰기를 개선할 수 있지만, 더 나은 사용성을 위해 개선할 수 있다면 언제든 언급해 주세요. 
+참고: 이 글은 글쓰기를 개선할 수 있지만, 더 나은 사용성을 위해 개선할 수 있다면 언제든 언급해 주세요.
 
 # 0. Nx 워크스페이스 생성
 
 이미 동일 저장소에서 프로젝트를 관리하기 위해 Nx를 사용 중이지 않은 경우, 고려해 보시기를 권장합니다. 그러나 이 블로그는 학습 목적으로 작성되었으므로 언급해 두겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Nx를 시작하려면 공식 문서에 제공된 지침을 따르고 마음에 드는 기술 스택을 사용하여 모노레포를 생성할 수 있습니다.
 
@@ -83,7 +134,18 @@ npx create-nx-workspace@latest
 
 이 명령어를 사용하여 Nx 워크스페이스를 생성하고, 그 후에 유용하게 활용할 수 있도록 프로세스를 따르면 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 1. Nx 내부에서 Angular Microfrontend 생성하기
 
@@ -93,7 +155,18 @@ npx create-nx-workspace@latest
 npx nx g @nx/angular:application website-nest-mfe --directory website-nest/mfe --standalone false
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주의: 현재의 에세이는 NgModule을 사용하는 것을 원하시는 것으로 가정합니다 (즉, 독립적이지 않은 앱 구성 요소와 함께).
 
@@ -105,7 +178,18 @@ npx nx g @nx/angular:setup-ssr --project=website-nest-mfe
 
 여기서 우리는 Angular Universal을 추가하여 Angular Microfront에 ssr 기능을 사용하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 미크로프론트엔드의 프로젝트 이름은 관련된 project.json 안에서 찾을 수 있습니다.
 
@@ -116,42 +200,49 @@ npx nx g @nx/angular:setup-ssr --project=website-nest-mfe
 먼저, mfe 디렉토리 내부에 새 디렉토리를 생성하고 server라는 이름을 지어주세요.
 그런 다음, mfe/server 내부에 main.ts 파일을 다음 코드와 함께 생성해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-/**
- * 이것은 아직 제품 서버가 아닙니다!
- * 시작하는 데 필요한 최소한의 백엔드만 있는 것입니다.
- */
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
+/\*\*
+
+- 이것은 아직 제품 서버가 아닙니다!
+- 시작하는 데 필요한 최소한의 백엔드만 있는 것입니다.
+  \*/
 
 import { Logger } from '@nestjs/common';
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 
-
 async function bootstrap() {
-  const app = await NestFactory.create(AppModule);
-  const globalPrefix = '';
-  app.setGlobalPrefix(globalPrefix);
-  const port = process.env['PORT'] || 3000;
-  await app.listen(port);
-  Logger.log(
-    `🚀 Application is running on: http://localhost:${port}/${globalPrefix}`
-  );
+const app = await NestFactory.create(AppModule);
+const globalPrefix = '';
+app.setGlobalPrefix(globalPrefix);
+const port = process.env['PORT'] || 3000;
+await app.listen(port);
+Logger.log(
+`🚀 Application is running on: http://localhost:${port}/${globalPrefix}`
+);
 }
 
-
-// 웹팩은 'require'를 '__webpack_require__'로 대체합니다.
-// '__non_webpack_require__'는 Node 'require'에 대한 프록시입니다.
+// 웹팩은 'require'를 '**webpack_require**'로 대체합니다.
+// '**non_webpack_require**'는 Node 'require'에 대한 프록시입니다.
 // 아래 코드는 번들을 요구하지 않을 때에만 서버가 실행되도록 보장하기 위한 것입니다.
-declare const __non_webpack_require__: NodeRequire;
-const mainModule = __non_webpack_require__.main;
+declare const **non_webpack_require**: NodeRequire;
+const mainModule = **non_webpack_require**.main;
 const moduleFilename = (mainModule && mainModule.filename) || '';
-if (moduleFilename === __filename || moduleFilename.includes('iisnode')) {
-  bootstrap().catch((err) => console.error(err));
+if (moduleFilename === \_\_filename || moduleFilename.includes('iisnode')) {
+bootstrap().catch((err) => console.error(err));
 }
-
 
 이 파일은 NestJS 애플리케이션을 빌드하고 express를 사용하여 Angular의 index.html을 렌더링하는 역할을 할 것입니다.
 그러나 이 작업을 수행하려면 서버 디렉토리에 다른 파일을 추가해야 합니다. 그것이 바로 app.module.ts입니다.
@@ -159,26 +250,36 @@ if (moduleFilename === __filename || moduleFilename.includes('iisnode')) {
 mfe/server 내부의 기본 app.module.ts nestjs 파일은 다음과 같아야 합니다:
 
 ```js
-import { Module } from '@nestjs/common';
-import { AngularUniversalModule } from '@nestjs/ng-universal';
-import { join } from 'path';
-import { AppServerModule } from '../src/main.server';
+import { Module } from "@nestjs/common";
+import { AngularUniversalModule } from "@nestjs/ng-universal";
+import { join } from "path";
+import { AppServerModule } from "../src/main.server";
 // import { AppController } from './app.controller';
-
 
 @Module({
   imports: [
     AngularUniversalModule.forRoot({
       bootstrap: AppServerModule,
-      viewsPath: join(process.cwd(), '<dist-browser-folder>'),
+      viewsPath: join(process.cwd(), "<dist-browser-folder>"),
     }),
   ],
   // controllers: [AppController],
 })
 export class AppModule {}
-```  
+```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 mfe가 NestJS 코드를 해석할 수 있어야 하므로 tsconfig를 업데이트해야 합니다:
 mfe/tsconfig.app.json
@@ -199,22 +300,33 @@ mfe/tsconfig.app.json
 이제 Angular Universal의 mfe/server.ts도 업데이트하여 NestJS를 컴파일하도록 순서를 정해야 합니다:
 
 ```javascript
-import 'zone.js/node';
+import "zone.js/node";
 
-import './server/main';
+import "./server/main";
 
-export * from './src/main.server';
+export * from "./src/main.server";
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로, mfe/src/main.server.ts와 mfe/src/main.ts를 업데이트해야 합니다.
 #mfe/src/main.ts
 
 ```js
-import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
-import { AppModule } from './app/app.module';
-document.addEventListener('DOMContentLoaded', () => {
+import { platformBrowserDynamic } from "@angular/platform-browser-dynamic";
+import { AppModule } from "./app/app.module";
+document.addEventListener("DOMContentLoaded", () => {
   platformBrowserDynamic()
     .bootstrapModule(AppModule)
     .catch((err) => console.error(err));
@@ -224,16 +336,27 @@ document.addEventListener('DOMContentLoaded', () => {
 #mfe/src/main.server.ts
 
 ```js
-export { AppServerModule } from './app/app.server.module';
-export { renderModule, renderApplication } from '@angular/platform-server';
+export { AppServerModule } from "./app/app.server.module";
+export { renderModule, renderApplication } from "@angular/platform-server";
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4. 필요한 종속 항목 설치하기 (Nest, Angular)
 
 ```js
-npm i @nestjs/websockets @nestjs/microservices @nestjs/ng-universal @nestjs/common @nestjs/core  class-validator kafkajs mqtt nats ioredis amqplib amqp-connection-manager @nestjs/platform-socket.io --legacy-peer-deps 
+npm i @nestjs/websockets @nestjs/microservices @nestjs/ng-universal @nestjs/common @nestjs/core  class-validator kafkajs mqtt nats ioredis amqplib amqp-connection-manager @nestjs/platform-socket.io --legacy-peer-deps
 
 npm i class-transformer @nestjs/platform-express @grpc/grpc-js @grpc/proto-loader @grpc/grpc-js @grpc/proto-loader --legacy-peer-deps
 ```
@@ -243,7 +366,18 @@ npm i class-transformer @nestjs/platform-express @grpc/grpc-js @grpc/proto-loade
 우리 블로그를 신중히 따라왔다면 문제없이 적용되어 작동할 것입니다.
 애플리케이션을 빌드하기 위해
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npx nx run website-nest-mfe:server
@@ -257,7 +391,18 @@ node dist/website-nest/mfe/server/main.js
 
 개발 목적으로는 이 명령어를 사용하세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npx nx run website-nest-mfe:serve-ssr
@@ -269,7 +414,18 @@ nestjs에서 새로운 컨트롤러, 미들웨어, 모듈을 만들고 (server �
 
 진행하면 됩니다 :)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 주목해 주셔서 감사합니다
 

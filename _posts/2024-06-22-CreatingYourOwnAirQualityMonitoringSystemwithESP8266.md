@@ -3,17 +3,13 @@ title: "ESP8266로 만드는 나만의 공기질 모니터링 시스템 만들�
 description: ""
 coverImage: "/assets/img/2024-06-22-CreatingYourOwnAirQualityMonitoringSystemwithESP8266_0.png"
 date: 2024-06-22 18:55
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-CreatingYourOwnAirQualityMonitoringSystemwithESP8266_0.png
 tag: Tech
 originalTitle: "Creating Your Own Air Quality Monitoring System with ESP8266"
 link: "https://medium.com/@manuel.kienlein/creating-your-own-air-quality-monitoring-system-with-esp8266-3c75fe4b828a"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-22-CreatingYourOwnAirQualityMonitoringSystemwithESP8266_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 방 안의 공기 품질에 대한 데이터를 수집하는 장치뿐만 아니라 슬릭한 LCD 디스플레이와 편리한 웹 기반 대시보드에서 그 정보를 공유하는 장치가 있다고 상상해보세요. 당신은 환경에 대해 인식할 뿐만 아니라 건강에 대한 판단도 내릴 권리를 갖게 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글에서는 여러분께 자신만의 대기질 모니터링 시스템을 만드는 여정에 참여해 보시도록 하겠습니다. 하드웨어 설정, ESP8266 마이크로컨트롤러 프로그래밍, 그리고 수집된 데이터에 액세스하기 위한 RESTful API 개발에 대해 알아보겠습니다. 기술에 능통하신 분이든, IoT 여정을 막 시작한 분이든, 이 프로젝트는 여러분이 지금껏 경험하지 못한 방식으로 주거 공간을 관찰하고 분석할 수 있도록 돕기 위해 설계되었습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 이 프로젝트의 목표는 대기질 데이터를 수집하고 분석하는 IoT 장치를 만드는 것입니다. 구체적으로 환경에서 온도, 습도 및 가끔은 대기질 매개변수를 추적하고 이 데이터를 Thingspeak 같은 플랫폼이나 화면에 전송하는 것을 추구합니다. 또한 간단한 웹 서버를 설정하여 REST API를 통해 센서 데이터를 제공하는 방법에 대해서도 알아볼 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 하드웨어 요구 사항
 
@@ -51,7 +69,18 @@ isUpdated: true
 - 와이어
 - 브레드보드
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## ESP8266의 힘
 
@@ -61,7 +90,18 @@ isUpdated: true
 
 이 프로젝트에서는 두 가지 주요 센서인 DHT-11과 MQ-135 센서가 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - DHT-11 센서: 이 센서는 온도 및 습도 데이터를 제공하여 환경의 편안함 수준을 더 포괄적으로 파악하는 데 도움을 줍니다.
 - MQ-135 센서: MQ-135 센서는 공기 품질에 집중합니다. 암모니아, 이산화탄소, 메탄을 포함한 다양한 가스를 감지할 수 있어 실내 공기 품질을 측정하는 데 탁월한 선택지입니다.
@@ -72,7 +112,18 @@ isUpdated: true
 
 # 배선 및 연결
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트의 하드웨어 요구 사항은 최소한이며, 따라서 배선은 간단합니다. 회로도에 표시된 대로 부품을 브레드보드에 쉽게 설정할 수 있습니다. 전문적인 전자 기술 지식이 필요하지 않는 초보자 친화적인 프로젝트입니다.
 
@@ -82,7 +133,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-22-CreatingYourOwnAirQualityMonitoringSystemwithESP8266_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 소프트웨어 작성하기
 
@@ -276,7 +338,18 @@ void updateDisplay(){
 
 위의 소스 코드를 통해 대략적으로 우리가 무엇을 하려고 하는지 알 수 있을 것입니다. 그러나 간단히 시작해보겠습니다. 이제 한 단계씩 모든 것을 설명하겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Thingspeak
 
@@ -286,7 +359,18 @@ Thingspeak
 
 Wi-Fi
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인터넷을 통해 데이터를 송수신하려면 Wi-Fi 네트워크 이름과 암호를 입력해야 합니다:
 
@@ -299,7 +383,18 @@ Connections & Pins
 
 일반적으로 esp 보드를 센서와 디스플레이에 연결할 때 동일한 하드웨어와 동일한 포트를 사용했다면 코드에서 포트 구성을 조정할 필요가 없습니다. 제 I2C 디스플레이 주소는 0x27입니다. 그러나 표시기의 주소가 제 것과 다를 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 LiquidCrystal_I2C lcd(0x27, LCD_COLUMNS, LCD_ROWS);
@@ -311,7 +406,18 @@ LiquidCrystal_I2C lcd(0x27, LCD_COLUMNS, LCD_ROWS);
 
 첫 번째 단계는 센서를 보정하는 것입니다. 이를 위해서 센서를 회로에 연결하고 보정 프로세스를 완료하려면 센서를 24시간동안 전원에 연결한 채로 두어야 합니다. 이후 약 1시간 동안 20°C 정도의 외부 공기에 노출시켜 상대 습도가 35% 정도 되도록 합니다. 이 작업이 완료되면 보정 값이 잘 설정될 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 보정값을 얻으려면 다음 코드를 사용하십시오: rzero = gasSensor.getRZero();. 다음으로 중요한 단계는 보정 중에 결정한 값으로 기본 RZero 상수를 교체하는 것입니다. 이 값을 MQ135 센서 라이브러리의 파일 MQ135.h에서 찾고 #define RZERO 뒤에 특정 RZero 값을 넣어 교체하십시오. 각 센서마다 고유한 RZero 값이 있음을 기억하는 것이 중요합니다.
 
@@ -322,7 +428,18 @@ LiquidCrystal_I2C lcd(0x27, LCD_COLUMNS, LCD_ROWS);
 이는 JSON 형식으로 센서 데이터를 제공하는 웹 서버를 포함합니다.
 이 장치를 연결하면, 열화 후 IP 주소가 표시됩니다. 이 IP 주소를 즐겨 사용하는 브라우저에 넣으면 JSON 형식의 HTTP-API를 통해 센서 데이터를 수집할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 GET http://<IP-Address>/
@@ -341,7 +458,18 @@ GET http://<IP-Address>/
 
 이 프로젝트를 통해 주변 공기의 품질을 파악할뿐만 아니라 맞춤화 및 개선 가능성에 대한 무한한 가능성을 열 수 있습니다. 전자 취미로 활동하시는 분이든, 단순히 더 깨끗한 공기를 들이쉬고 싶은 분이든, 직접 Arduino 공기 센서를 제작하는 것은 재미있고 보람차며 깨달음을 얻을 수 있는 여정입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 DIY 아두이노 프로젝트에 대해 어떻게 생각하세요? 다른 멋진 프로젝트를 이미 만들어 보셨나요?
 

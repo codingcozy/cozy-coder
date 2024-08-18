@@ -3,17 +3,13 @@ title: "TRI의 로봇들이 오후에 새로운 조작 기술을 익힌 방법�
 description: ""
 coverImage: "/assets/img/2024-06-20-TRIsRobotsLearnNewManipulationSkillsinanAfternoonHeresHow_0.png"
 date: 2024-06-20 17:53
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-TRIsRobotsLearnNewManipulationSkillsinanAfternoonHeresHow_0.png
 tag: Tech
 originalTitle: "TRI’s Robots Learn New Manipulation Skills in an Afternoon. Here’s How."
 link: "https://medium.com/toyotaresearch/tris-robots-learn-new-skills-in-an-afternoon-here-s-how-2c30b1a8c573"
 isUpdated: true
 ---
-
-
-
-
 
 ## 작성자: Siyuan Feng, Ben Burchfiel, Toffee Albina, and Russ Tedrake
 
@@ -23,7 +19,18 @@ TRI는 로봇이 시연을 통해 새로운 미술적 행동을 습득할 수 �
 
 # 소개
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 TRI의 로봇공학 연구 부문의 미션은 신기술을 개발하여 다음 세대의 민첩한 로봇이 사람들을 지원하고 삶의 질을 향상시키는 데 기여하는 것입니다. 이를 위해서는 로봇이 구조화되지 않은 자연 환경에서 사람들과 함께 작동해야 합니다. 환장한 분들을 도와 요리 준비를 하거나 다친 사람을 의자에서 일어나게 하거나 작업 현장에서 일하는 사람들을 지원하는 것이 있을 수 있습니다. 미래의 로봇들은 세계 어디에서나 사람들의 삶에 엄청난 긍정적인 영향을 미칠 것입니다.
 
@@ -33,7 +40,18 @@ TRI의 로봇공학 연구 부문의 미션은 신기술을 개발하여 다음 
 
 이를 해결하기 위해 TRI는 최근 최첨단 생성 AI의 진보를 바탕으로 로봇에게 단 하루 만에 새로운 조작 능력을 가르칠 수 있는 능력을 개발했습니다. 동일한 로봇, 동일한 코드 및 동일한 설정을 사용하여 우리는 야채 껍질 벗기기, 핸드 믹서 사용, 스낵 준비 및 팬케이크 뒤집기와 같은 60가지 다른 민첩한 행동을 가르쳤습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금은 오늘의 가능성을 끌어올리기만 하는 것이 아니라 유연하고 적응 가능한 손재주를 가진 일반 목적의 로봇의 기반을 마련하기 위해 다양한 행동들의 광범위한 커리큘럼을 개발 중입니다.
 
@@ -43,7 +61,18 @@ TRI의 로봇공학 연구 부문의 미션은 신기술을 개발하여 다음 
 
 새로운 행동을 가르치기 위해 인간 작업자가 로봇을 원하는 작업을 시연하는 방식으로 원격으로 작동시킵니다. 보통 몇 시간의 가르침이 필요하며, 이로 인해 수십 개에서 수백 개의 시연이 이루어집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 학습 방식
 
@@ -53,7 +82,18 @@ TRI의 로봇공학 연구 부문의 미션은 신기술을 개발하여 다음 
 
 로봇 행동을 생성하는 데 디퓨전을 사용하는 것은 이전 방법들보다 세 가지 주요 이점을 제공합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 멀티 모달 시연에 대한 적합성. 이것은 인간 시연자들이 행동을 자연스럽게 가르치고 로봇이 혼란스러워하지 않아도 된다는 것을 의미합니다.
 - 고차원 행동 공간에 적합성. 이것은 로봇이 미래를 예측하고 단시간 행동을 피함에 도움이 되는 것을 가능하게 합니다.
@@ -65,8 +105,18 @@ TRI의 로봇공학 연구 부문의 미션은 신기술을 개발하여 다음 
 
 로봇이 테이블 위에 앉아 있는 T자 모양 블록을 목표 위치로 밀어야 하는 간단한 예시를 고려해 보겠습니다. 로봇은 블록을 미끄러뜨려 이동해야 하며 다양한 면에 도달하기 위해 블록 주위로 이동해야 합니다. 이 작업은 본질적으로 멀티모달성을 포함하고 있으며 블록을 좌측이나 우측으로 이동하는 것이 대개 합리적입니다. 두 가지 동등한 올바른 행동 모드가 있습니다. 이 해결책은 단일 행동을 예측하는 대신 행동 분포를 학습하는 것입니다. 확산 정책은 이러한 분포를 더 안정적이고 견고하게 배우며, 이전 방법보다 멀티모달성을 훨씬 잘 포착합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-20-TRIsRobotsLearnNewManipulationSkillsinanAfternoonHeresHow_2.png)
 
@@ -76,8 +126,18 @@ TRI의 로봇공학 연구 부문의 미션은 신기술을 개발하여 다음 
 
 확산은 고차원 출력 공간에 맞게 자연스럽게 적합합니다. 예를 들어 이미지를 생성하는 데는 수십만 개의 개별 픽셀을 예측해야 합니다. 로봇 공학에서 이것은 주요한 장점이며, 복잡한 다리를 가진 로봇에 우아하게 확산 기반 행동 모델을 확장할 수 있게 합니다. 또한 한 번의 단계가 아닌 의도된 행동 경로를 예측하는 능력을 제공합니다. 최근 작업 'DP, ACT'는 경로 예측이 종종 성능이 우수한 견고한 정책을 학습하기 위한 중요한 설계 기능임을 보여 주었습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 안정적인 교육
 
@@ -87,7 +147,18 @@ TRI의 로봇공학 연구 부문의 미션은 신기술을 개발하여 다음 
 
 ## 원격 작동
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로봇을 인간의 데모를 통해 가르치기 때문에, 어려운 미묘한 동작을 가르치는 데 중요한 것은 좋은 원격 조작(teleoperation) 인터페이스입니다. 저희의 로봇 학습 방법은 텔레오퍼레이션 장치의 선택에 중립적이며, 조이스틱과 같은 다양한 저가의 인터페이스를 사용해왔습니다. 보다 미묘한 동작을 위해 바이매뉼 햅틱(haptic) 장치를 사용하여 가르칩니다. 이때 텔레오퍼레이션 장치와 로봇 사이에 위치-위치 결합이 있습니다. 위치-위치 결합은 입력 장치가 측정된 자세를 명령으로 보내고 로봇이 이러한 자세 명령을 토크를 사용한 운동 공간 제어로 추적한다는 것을 의미합니다. 로봇의 자세 추적 오류를 힘이 변환한 후 이 힘을 선생님이 느낄 수 있도록 다시 입력 장치로 보냅니다. 이를 통해 선생님은 힘을 통해 로봇과의 피드백 루프를 닫을 수 있으며, 우리가 가르치는 가장 어려운 기술 중 많은 부분에 필수적입니다.
 
@@ -97,7 +168,18 @@ TRI의 로봇공학 연구 부문의 미션은 신기술을 개발하여 다음 
 
 ## 촉각 감지
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 장갑을 끼고 신발을 묶으려고 한 적이 있는 사람은 손의 감각이 얼마나 중요한지를 경험했을 것입니다. 꼼꼼한 작업을 할 때, 무슨 일이 일어나고 있는지 느낄 수 있다는 것은 성공에 중요한 추가 정보를 제공합니다. 우리는 로봇도 이와 마찬가지로 촉감을 갖는 것이 도움이 될 것이라고 믿습니다. 그래서 우리는 많은 플랫폼에서 TRI Soft-Bubble 센서를 사용하고 있습니다. 이러한 센서는 내부 카메라가 부풀어 오른 변형 가능한 외부 막을 관찰하는 것으로 구성되어 있습니다. 이러한 센서들은 희박한 힘 신호를 측정하는 것을 넘어 로봇이 접촉 패턴, 기하학, 미끄러짐 및 힘에 관한 공간적으로 밀집된 정보를 인식할 수 있도록 합니다.
 
@@ -107,7 +189,18 @@ TRI의 로봇공학 연구 부문의 미션은 신기술을 개발하여 다음 
 
 <img src="/assets/img/2024-06-20-TRIsRobotsLearnNewManipulationSkillsinanAfternoonHeresHow_3.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 안전하고 성능이 우수한 제어
 
@@ -117,7 +210,18 @@ TRI의 로봇공학 연구 부문의 미션은 신기술을 개발하여 다음 
 
 튼튼한 중간 제어자는 고품질의 행동 학습 파이프라인의 기초입니다. 이는 임피던스 제어 및 햅틱 피드백과 같은 임무 중요한 기능을 가능하게 하며 전반적인 시스템에 보다 훌륭한 안전 보호 기능을 제공하여 교사가 로봇을 물리적 한계까지 밀어낼 수 있도록 도와줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 현재 어디에 있나요
 
@@ -130,7 +234,18 @@ TRI의 로봇공학 연구 부문의 미션은 신기술을 개발하여 다음 
 - 테스트 시간에 훈련 중 만나지 못한 피조작물.
 - 방해물, 예를 들어 훈련 중에 없던 중요한 혼잡.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 해결책은 무엇일까요? 사람이 평생 경험을 토대로 배우듯이 점차 능력과 적응력이 향상되는 것처럼, 우리는 다양한 행동 교육과정이 유연하고 일반적인 로봇을 만드는 열쇠라고 믿습니다. 이를 위해 TRI는 신체 데이터에 기초한 강력한 행동 교육과정을 실제 로봇 그룹과 강력한 드레이크 시뮬레이션 스위트 모두에 투자하고 있습니다.
 
@@ -140,7 +255,18 @@ TRI의 로봇공학 연구 부문의 미션은 신기술을 개발하여 다음 
 
 다양한 기술 데이터셋에서 정책을 학습할 때 초기 성공의 조짐을 보았습니다. 한 예로, 상당히 정리된 장면에서 로봇에게 얼음이 담긴 머그잔을 싱크대로 비우도록 가르쳤습니다. 매우 혼잡한 상황에서 평가할 때, 이 데이터만 가지고 훈련된 정책은 거의 즉시 실패했습니다. 우리는 이 기술의 두 번째 버전을 얼음을 따르는 다른 15가지 작업과 함께 공동으로 가르쳤고, 로봇에게 원하는 행동에 대한 언어 설명을 조건으로 두었습니다. 어지럽힘에서 얼음을 붓는 동일한 시연자에게 접근할 수 있음에도 불구하고, 다중 작업 기술은 단일 작업 버전이 재앙적으로 실패한 매우 혼잡한 상황에서 성공했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 우리는 실제 로봇 데이터만으로는 진정으로 일반적인 손재주 로봇을 만들기에 충분하지 않을 것으로 예상합니다. 이 빈 공간을 채우기 위해, 우리는 Drake를 사용하여 강력한 시뮬레이션 전문 기술에 크게 의존하고 있습니다. Drake는 단단한 물체와 부드러운 물체 간 상세한 물리 상호작용을 정확하게 모델링할 수 있는 능력이 독특하며, 정교하고 복잡한 행동에 중요합니다.
 
@@ -150,6 +276,17 @@ TRI의 로봇공학 연구 부문의 미션은 신기술을 개발하여 다음 
 
 # 감사의 글
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 에릭 쿠지노, 나빈 쿠퍼스와미, 파루트 샤와 같은 우리의 다른 동료인 알렉스 알스팩, 라레스 암브루스, 맥스 바지라챠리야, 앤드류 보울리우, 아디티아 바트, 이샨 찬드라트레야, 청 치, 릭 코리, 샘 크리시, 홍카이 다이, 리처드 데니토, 잭 팡, 아드리앙 가이돈, 그랜트 굴드, 쿠니마쓰 하시모토, 브랜든 해서웨이, 앨리슨 헨리, 피비 호건, 제나 홀만, 유타로 이시다, 토마스 콜라, 데일 맥코낸키, 이안 맥마혼, 캘더 필립스-그래프린, 고든 리처드슨, 찰리 리히터, 타로 타카하시, 파벨 톡마코프, 제러드 윌슨, 트리스탄 휘팅, 블레이크 울프와 같은 컨트리뷰터들의 힘든 노력 없이는 이 작업이 가능하지 않았을 것입니다.

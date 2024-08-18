@@ -3,18 +3,13 @@ title: "2024년 3D 프린팅 회사들이 사라지는 이유"
 description: ""
 coverImage: "/assets/img/2024-07-07-3DPrintingCompaniesAreDying_0.png"
 date: 2024-07-07 19:47
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-3DPrintingCompaniesAreDying_0.png
 tag: Tech
 originalTitle: "3D Printing Companies Are Dying…"
 link: "https://medium.com/@alexhuckstepp/3d-printing-companies-are-dying-e604cf7a92c7"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![3D Printing Companies](/assets/img/2024-07-07-3DPrintingCompaniesAreDying_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 이러한 상태가 왜 치료가 불가능하고 퍼져나가는지에 대해 어떻게 생각하십니까?
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3D 프린팅 산업은 심각한 구조적 문제를 안고 있어요:
 
@@ -33,11 +38,22 @@ isUpdated: true
 - 지금은 너무 붐비고 있어요: 너무 많은 회사들이 너무 유사한 기술을 가지고 너무 작은 파이를 쫓고 있어요
 - 비즈니스 계획이 근본적으로 잘못되었어요: 특정한 문제를 해결하기 위한 일반 제조 솔루션을 찾는 상황에서.
 
-많은 기업들이 본격적인 재설정이 필요하기 때문에 악명높은 스타트업 사망의 고리에 빠질 가능성이 높아요: 
+많은 기업들이 본격적인 재설정이 필요하기 때문에 악명높은 스타트업 사망의 고리에 빠질 가능성이 높아요:
 
 ![이미지](/assets/img/2024-07-07-3DPrintingCompaniesAreDying_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 잘못된 일이 있었어요
 
@@ -47,15 +63,37 @@ isUpdated: true
 
 잘 소화되지 않았어요... 현재 시장 가치에 따르면, 대부분의 이 100억 달러 이상의 자금은 벤처캐피탈과 SPACs로부터 소모되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요즘 3D 프린팅 기업 중 가장 자금이 많이 투자된 세 곳을 살펴보겠습니다: Desktop Metal, Markforged 및 Velo3D. 이 기업들은 약 20 억 달러의 자금을 소비했습니다. 이들은 모두 지난 몇 년 간 상장했으며 현재 누적 시가총액은 약 4억 7000만 달러입니다(2023년 12월 11일 기준). 이 중 약 절반은 현금(부채 제외)으로, 기업 가치는 약 2억 3500만 달러로 남게 됩니다. 월스트리트는 이 비참한 상황에 대해 EV/매출 비율이 1배 이하라는 것을 보며 이 기업들이 망해버릴 가능성이 높다고 판단하고 있습니다. 지난 분기에 세 기업 모두 이윤을 내지 못한 채 수익이 줄어들고 있는 상태이므로, 그들이 옳을 수도 있습니다.
 
-이 세 기업이 힘들게 넘어가는 것이 심리적으로 힘든 일이지만, 이들이 보낼 수 있는 어렵게 아닌 또 다른.多종多양한 일들도 있어서 제발, 이해해주세요 잊지 마십시요 
+이 세 기업이 힘들게 넘어가는 것이 심리적으로 힘든 일이지만, 이들이 보낼 수 있는 어렵게 아닌 또 다른.多종多양한 일들도 있어서 제발, 이해해주세요 잊지 마십시요
 
 이런 안타까운 상황이 이외가 아니라 수익성을 달성했던 기업은 물론 지속 가능한 매출 성장도 달성한 기업을 찾기 어렵습니다. 투자자들은 이를 인지하고 지갑을 꺼내어 투자를 하고 있습니다. 예전에는 아름다운 유니콘들이 떼를 이루어 살아가던 풍부한 환경이 이제 묘지가 되어버렸습니다. 3D 프린팅 분야에 현재 유니콘이 한 마리도 남지 않았습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 세계적으로 3D 프린팅 회사의 대부분은 아직 비공개 상태로, 지금은 무지가 축복이죠. 그들의 가치평가는 현재 시장 상황의 현실에 대한 조정을 거치지 않았습니다. 그들은 절벽으로 향하고 있지만 대부분은 그것이 다가오고 있다는 것을 알아채지 못하고 있죠. 그것을 본다고 해서 어떤 차이가 있을까요… 공정하게 말하면, 일부는 그것을 보았고 3D 프린팅된 브레이크 페달을 밟았지만, 압력에 견디지 못하고 깨져 이제 움직이는 차량에서 벗어나려고 노력하고 있습니다. 일부는 창문을 향해 옆을 바라보며 지나가는 풍경을 즐기며 주변에서 문제가 다가오고 있다는 것을 알아챌 수 있었습니다. 일부는 잿빛 안경 렌즈로 해결할 수 없는 문제가 지킬 뿐이었습니다. 대부분은 뒷자리에서 싸우는 자녀(직원)에게 정신이 팔려 있습니다. 아니면 더 나쁜 경우, 눈을 감고 라디오로 틀어진 향수로운 고전을 따라부르며 운전을 하고 있습니다. 지난 시대의 간단한 시절을 회상하고 있는 것이죠.
 
@@ -65,7 +103,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-07-07-3DPrintingCompaniesAreDying_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에는 또 다른 횡포가 작용 중입니다. 이는 널리 알려지지 않았고 가장 정보가 풍부한 스타트업 직원들 사이에서만 비밀리에 속삭이는 요소입니다. 벤처 투자자들은 유동선우선권을 가지고 있어서 회사가 매각될 경우, 어떤 가격이건 먼저 전액으로 돌려 받게 됩니다 (때로는 여러 배의 금액으로까지). 투자자들은 "우선주"를 받는 반면 직원들은 "보통주"를 받게 됩니다. 많은 3D 프린팅 팀은 이제 자신들의 가치가 (직원들의) 지분이 어떤 가치가 있기 위해서는 그것을 초과해야 하는 "우선권 스택"을 바라보고 있습니다. 이것은 만일 대규모 매출을 이루지 못한다면 한 푼도 받지 못할 것이라는 충동을 부추기므로, 해변에 기도하는 마음으로 행동하게 만들기도 합니다. (참고: IPO의 경우에는 해당되지 않음)
 
@@ -75,7 +124,18 @@ isUpdated: true
 
 반대로, 많은 경쟁은 좋다는 것이 맞죠!? 우리는 모놀리들이 소비자, 시장 및 혁신에 유해하다고 모두 동의할 것이라고 확신합니다. 그러나 극단적으로 반대되는 것도 나쁩니다. 비슷한 제품 옵션을 가진 너무 많은 기업들이 한정된 고객을 위해 경쟁한다면, 부정적인 마케팅 주장, 과장된 기대( SPAC 투자자 데크 참조...), 고객 및 투자자의 혼란, 그리고 궁극적으로 불만족으로 이어집니다. 수요가 팽창되지 못하고 공급 기반이 부풀어 있다면, 이것은 최하위로의 경쟁이 될 것입니다. 마진이 사라지고 기업이 따라 나갑니다. 안타깝게도 우리가 지금 시작된 것을 보고 있습니다. 대부분의 3D 프린팅 기업이 쇠사랑을 하고 있는 것입니다. 그들은 좀비입니다. 그들은 걷는 죽은 자들입니다. 심지어 그들 스스로 그것을 모르고 있을지라도요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3D 프린팅 좀비 대유희를 만든 요인은 무엇인가요? 돈이 너무 많은 것이죠.
 
@@ -85,7 +145,18 @@ isUpdated: true
 
 대형 제1티어 투자자들은 2~3배의 이익에 흥미를 느끼지 않습니다. 그들은 다음 페이스북을 찾는 것에 관심을 두고 있습니다. 그들은 최대 이익을 얻고자 하며, 경영진을 낙타를 필드로 다스릴 수 있는 사람이라고 설득해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-07-3DPrintingCompaniesAreDying_7.png" />
 
@@ -98,7 +169,18 @@ isUpdated: true
 
 위험한 동역학을 창출하는 데 더해, 대부분의 VC는 하드웨어와 제조에 대한 경험이 부족합니다(일반적으로 3D 프린팅 기업도 마찬가지입니다). 일부 원인으로 스스로의 미비한 지도와 경영이 이뤄지며, 대부분의 관심과 자원이 성장에 집중되었으며 진정한 PMF를 먼저 찾고 확인하지 않은 technology 사업의 필수적인 기반이없이 성공학기기 위한 것이 필드입니다. 마크 앤드리슨이 말했듯이 "유일하게 중요한 것"입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3D 프린팅 회사들이 PMF를 찾지 못한 이유는 정작 찾고 싶어하지 않았기 때문입니다. 그들의 비즈니스 계획은 처음부터 잘못되어 있었죠...
 
@@ -108,26 +190,57 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-07-07-3DPrintingCompaniesAreDying_8.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당연히 제조업의 미래를 개척 중이죠... 누구에게나 언제든지 거의 모든 것을 만들어 낼 수 있는 3D 프린터. 본질적으로 스타 트렉 레플리케이터죠. 분명히 모든 포춘 1000 대 기업들은 이 차세대 제조 패러다임을 중심으로 제품과 비즈니스를 재설계한 후 새로운 공장을 건설하기 위해 이를 대량으로 필요로 할 것입니다.
 
 ![사진](/assets/img/2024-07-07-3DPrintingCompaniesAreDying_9.png)
 
-... 몇 년 후, 기술 팀은 드디어 어두운 창문이 없는 연구실에서 반짝이는 새로운 3D 프린터를 밖으로 밀고 나왔고, CEO가 큰 발표를 위해 채용한 영업 및 마케팅 팀 앞에서 급히 돌아갔습니다. 
+... 몇 년 후, 기술 팀은 드디어 어두운 창문이 없는 연구실에서 반짝이는 새로운 3D 프린터를 밖으로 밀고 나왔고, CEO가 큰 발표를 위해 채용한 영업 및 마케팅 팀 앞에서 급히 돌아갔습니다.
 
 CEO는 "배송할 준비가 됐어!"라고 선언했고, 그러나 프린터는 "하드웨어 완료"였지만 "프로세스 제어를 아직 작업 중"이라는 소소한 설명을 덧붙였습니다. 그럼에도 불구하고 투자자들이 참다 참다 결국 인내심을 잃고 앞으로 더 이상 "수익 전 사례"의 서류가 없을 것이기 때문에 판매를 시작해야 했습니다...
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-07-3DPrintingCompaniesAreDying_10.png" />
 “만세!” 영업 및 마케팅팀이 함성을 질렀다. 그런 다음, 긴 불편한 공백 후, 한 명이 신경 쓰이는 표정으로 “제품 사양이 있나요? 누구에게 판매하나요? 어떤 문제를 해결하나요?”라고 물었다.
 그때 CEO는 “그건 당신들의 일이잖아요! 빨리 움직이세요!”라고 대답했다.
 요약하자면: 새로운 기술 창출 - 복잡한 시스템/솔루션 구축 - 해결해야 할 문제 찾기
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 조금 역행적인 느낌이 들지 않나요? 아쉽게도, 이것이 3D 프린팅 플레이북입니다. 이것이 어떻게 작동해야 하는지요 (+ 사이에 시장 조사와 고객 피드백이 많이 들어가 있습니다):
 
@@ -137,7 +250,18 @@ CEO는 "배송할 준비가 됐어!"라고 선언했고, 그러나 프린터는 
 
 ![이미지](/assets/img/2024-07-07-3DPrintingCompaniesAreDying_12.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반 제조기계는 다목적 제조기계는 공장에서 찾아보기 어려울 거예요. 왜냐하면 대량 제조는 능력, 비용, 시간, 품질, 효율성, 위험, 확장 가능성 등 다변수 최적화의 탁월한 실무 연습이기 때문이에요. 이를 위해서는 특정 제품 및 프로그램 요구사항에 최적화된 장비와 공구가 필요하며, 수세기에 걸쳐 정말 똑똑하고 창의적인 엔지니어들에 의해 최적화된 여러 전통적인 제조과정과 기계가 있어 왔어요. 제조기계는 최적화되기 위해서는 반복 가능하고 예측 가능하며 조절 가능해야 합니다.
 
@@ -147,11 +271,33 @@ CEO는 "배송할 준비가 됐어!"라고 선언했고, 그러나 프린터는 
 
 #좋은 소식, 일부에게
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 표 태그를 Markdown 형식으로 변경해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 목표와 전략을 중심으로 비즈니스 및 인센티브 시스템을 다시 설계해야 합니다. 경영진, 직원, 이사회, 투자자, 파트너, 공급업체 및 고객이 모두 일치해야 합니다. 그 후에야 3D 프린팅 기술을 규모에 맞게 활용하여 제조업을 진정한 혁신으로 전환할 수 있습니다.
 

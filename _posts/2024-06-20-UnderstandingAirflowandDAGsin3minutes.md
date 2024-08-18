@@ -3,17 +3,13 @@ title: "3분 안에 Airflow와 DAG 이해하기"
 description: ""
 coverImage: "/assets/img/2024-06-20-UnderstandingAirflowandDAGsin3minutes_0.png"
 date: 2024-06-20 15:27
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-UnderstandingAirflowandDAGsin3minutes_0.png
 tag: Tech
 originalTitle: "Understanding Airflow and DAGs in 3 minutes"
 link: "https://medium.com/@swathireddythokala16/understanding-airflow-and-dags-in-3-minutes-9a8067b9233d"
 isUpdated: true
 ---
-
-
-
-
 
 ![Understanding Airflow and DAGs in 3 minutes](/assets/img/2024-06-20-UnderstandingAirflowandDAGsin3minutes_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 문제 1: 만약 어느 날 이 작업이 실패한다면 어떻게 될까요? 문제는 추출, 변환 또는 로딩 프로세스에서 발생한 것일까요? 문제 해결을 위해 흩어진 로그를 통해 쥐잡이 게임이 되어버립니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제 2: 이제 10에서 50개의 ETL 작업을 관리하는 시나리오로 확장해 봅시다. 의존 관계를 추적하고 단일 작업 실패가 혼란을 일으킬 수 있는 것을 방지하는 것은 어려운 과제가 됩니다.
 
@@ -33,7 +40,18 @@ Airflow를 당신의 명령 센터로 생각해보세요. 여기서 ETL 작업�
 
 DIRECTED ACYCLE GRAPH(DAG):
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Apache Airflow의 DAG는 각 작업을 나타내는 작업 단위로 구성되며 작업 간의 관계가 워크플로를 정의합니다.
 
@@ -45,7 +63,18 @@ Apache Airflow의 DAG는 각 작업을 나타내는 작업 단위로 구성되�
 
 (참고: 이러한 모든 작업은 Python으로 작성할 수 있으며 Airflow 자체가 Python으로 개발되었으며 주로 Python과 함께 작동합니다)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실행 순서는 중요합니다: 작업 A는 성공적으로 완료되어야 작업 B가 시작할 수 있고, 작업 B는 완료되어야 작업 C가 시작할 수 있습니다. 이 순차적인 흐름은 의존성을 존중하고 작업이 역행 없이 단방향으로 진행되도록 보장합니다 — 이것이 DAG의 "Directed" 측면입니다.
 
@@ -55,7 +84,18 @@ DAG 표현: 작업은 노드로 표시되고 작업 간의 의존성은 이러�
 
 ![Understanding Airflow and DAGs](/assets/img/2024-06-20-UnderstandingAirflowandDAGsin3minutes_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Airflow은 작업의 종속성과 지정된 논리에 따라 작업을 예약하고 모니터링하는 DAGs를 사용하여 복잡한 워크플로우를 쉽게 관리하고 시각화할 수 있습니다.
 
@@ -65,6 +105,17 @@ Airflow은 작업을 예약하고 모니터링하는 것뿐만 아니라 실패�
 
 Airflow 환경을 처음부터 설정하고 기본 ETL 파이프라인을 구현해 보고 싶다면 제 다른 글을 확인해보세요. 여기 링크입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 중요한 것은 테이블 태그를 마크다운 형식으로 변경하는 것입니다.

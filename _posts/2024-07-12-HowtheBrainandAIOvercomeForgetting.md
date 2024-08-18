@@ -3,17 +3,13 @@ title: "뇌와 AI가 망각을 극복하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-12-HowtheBrainandAIOvercomeForgetting_0.png"
 date: 2024-07-12 23:54
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-HowtheBrainandAIOvercomeForgetting_0.png
 tag: Tech
 originalTitle: "How the Brain and AI Overcome Forgetting"
 link: "https://medium.com/towards-data-science/how-the-brain-and-ai-overcome-forgetting-de1fa6de00af"
 isUpdated: true
 ---
-
-
-
-
 
 이미지 태그를 Markdown 형식으로 변경해 주세요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 AI와 재앙적 망각에 대해 자세히 살펴보기 전에, 우리는 먼저 인간 뇌가 기억을 어떻게 습득하고 유지하는지에 초점을 맞추어 세 가지 중요한 측면을 살펴보겠습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Declarative와 non-declarative 메모리의 시간적 시간 그래디언트: Declarative와 non-declarative 메모리의 시간적 측면은 인간 뇌가 정보를 시간에 따라 어떻게 조직화하는지에 대한 통찰을 제공합니다.
 - 인간 메모리의 고도로 규제되고 선택적인 성격: 인간 메모리는 정보의 보존과 검색에 영향을 미치는 고도의 규제와 선택성을 나타냅니다.
@@ -35,7 +42,18 @@ AI와 재앙적 망각에 대해 자세히 살펴보기 전에, 우리는 먼저
 
 **학습과 기억의 생물학적 기본 구성 요소**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 맨땅의 뇌 학습 단위는 뉴런 간 연결인 시냅스라고 하며, 시냅스는 전 시냅스 뉴런의 축삭에서 후 시냅스 뉴런의 수상돌기로 전기 신호를 전달합니다. 학습 과정에서 관여된 시냅스의 강도가 강화되어, 입력 축삭으로부터 동일한 자극을 받을 때 후 시냅스 세포에서 더 오래 지속되고 더 견고한 반응이 일어납니다. 이 현상을 장기 고양화(Long-Term Potentiation, LTP)라고 합니다.
 
@@ -45,7 +63,18 @@ LTP는 처음에 동물 뇌의 해마 영역에서 발견되었습니다. 나중
 
 ## 직관적 및 비직관적 기억과 시간적 그래디언트
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기억하는 방법을 이해하기 위해 우리가 어떻게 잊는지 연구하는 것은 놀라운 통찰력을 제공했습니다. 1957년, 신경과학자 브렌다 밀너는 헨리 몰라이슨(H.M.로 알려진 환자)의 깊고도 선택적인 기억 상실을 최초로 발표했습니다. 그는 양측 내측 측두엽을 제거하는 수술을 받은 후 이 현상을 겪었습니다. 이 수술은 H.M.의 일상 생활을 방해하던 심한 뇌전증을 완화하는 데 성공했습니다. 그러나 수술 전에 습득한 기억(수 분에서 몇 년까지 이어지는)과 새로운 기억 형성 능력을 잃었습니다. 수십 년간 그와 함께 일한 사람들은 그를 방문할 때마다 매번 자기 소개를 했습니다.
 
@@ -55,7 +84,18 @@ H.M. 사례는 기억 프로세스가 뇌에서 독특한 기능임을 시사했
 
 높은 수준에서 기억은 작업 기억, 서술적 기억 및 비서술적 기억으로 세 가지 유형으로 분류됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 워킹 메모리는 한정된 용량으로 정보를 일시적으로 보관하는 뇌 기능입니다. 이는 추론 및 정보를 정신적으로 조작하는 데 중요하지만 정보 저장 과정과는 구별됩니다. 가장 유명한 예시는 새 전화번호를 일정 시간 동안 기억할 수 있지만 주의가 흐트러지기 전까지입니다. H.M.의 워킹 메모리 역시 손상되지 않았는데, 이는 사고엽 기저이완의 다른 뇌 부위가 관여되었음을 시사합니다.
 
@@ -65,7 +105,18 @@ H.M. 사례는 기억 프로세스가 뇌에서 독특한 기능임을 시사했
 
 선언적 및 비선언적 메모리는 인간의 삶에 필수적이며 우리의 결정과 행동을 지원하기 위해 병렬로 작용합니다. H.M. 사례에서 드러나듯이 비선언적 메모리는 해마에 저장되지 않으며, 세련된뇌와 운동 피질을 비롯한 다른 부위에 저장됩니다. 그러나 선언적 메모리와 마찬가지로 신경 회로 수준에서의 구성 형태와 선언적 메모리와 유사한 단기적인 장기적인 시간 경사를 가지고 있습니다. 따라서 메모리에 대한 후속 논의는 현저한 차이점을 언급해야 할 때를 제외하고 두 유형 모두를 다룰 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-07-12-HowtheBrainandAIOvercomeForgetting_1.png)
 
@@ -75,7 +126,18 @@ H.M. 사례는 기억 프로세스가 뇌에서 독특한 기능임을 시사했
 
 또한 감정은 우리의 주의를 영향을 주고 기억을 형성합니다. 감정을 일으키는 자극은 우리의 주의 대부분을 끌어들이며, 인간은 정보를 습득하기 위해 동기부여 받아야 합니다. 일반적으로 감정적으로 격려하는 사건들은 감정적으로 중립적인 사건들보다 더 잘 기억합니다. 과거 사건이나 경험을 상기할 때 그때의 느낌은 기억의 중요한 부분을 이룹니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 감정은 기억을 강화시키며 뇌의 한 부위인 아미갈라와 신경 플라스틱성을 조절하는 여러 신경 분자, 즉 모듈레이터들이 관여함을 알고 계실겁니다. 전형적으로, 도파민은 동기부여를 할 때 분비되며, 노르에피네프린(NE)은 갑작스러운 놀라움이나 급한 스트레스(예: 찬물에 뛰어들 때)에 반응하여 분비됩니다. 이러한 신경 모듈레이터들은 네트워크가 한 번의 학습 경험 동안 강화되기 쉽도록 만들어 신경 플라스틱성을 상당히 증가시키며 기억 형성과 장기 강도 증진에 기여합니다.
 
@@ -85,7 +147,18 @@ H.M. 사례는 기억 프로세스가 뇌에서 독특한 기능임을 시사했
 
 단기 기억이 장기 기억으로 그리고 최종적으로 해콰포커스와 독립적으로 장기 기억으로 변환되기 위해서는 정체과정이 필요합니다. 이 기억 정체과정은 학습 행동이 완료된 뒤에 자리에서 일어납니다. 이는 사람에서 몇 일 또는 몇 달이 걸릴 수 있다. 해콰포커스와 신층 피질 사이의 상호 연결을 포함하며, 내부 표현의 재조직을 이끌어냅니다. H.M. 사례에서 보여진 기억 정체의 시간 배경적 성격은 동물에서도 확인되었는데, 종에 따라 다를 수 있습니다. 모든 증거들이 이 임의가 핵근 중요한 기간 동안 해콰포커스에 대한 방해(예: 전기 충격 또는 약물 개입)가 회상 기억을 유발할 수 있다는 것을 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 증거들은 기억 정착은 대부분의 경우 수면 중, 외부 정보가 과정을 방해하지 않을 때 주로 발생하는 기억 재생을 통해 달성된다는 것을 시사합니다. 구체적으로, 깊은 비빠른 안구 운동 수면(NREM)이라고도 하는 느린파 수면은 해마 및 신장피질을 포함한 여러 뇌 영역을 통해 기억 재생을 위한 중요한 역할을 하며, 명시적 및 절차적 기억의 정착을 담당합니다.
 
@@ -93,7 +166,18 @@ H.M. 사례는 기억 프로세스가 뇌에서 독특한 기능임을 시사했
 
 최근 몇 10년 동안, 인공 지능은 대량의 교육 데이터와 컴퓨팅 파워가 충분하면 다양한 작업을 학습할 수 있는 대형 심층 인공 신경망(ANNs)을 구현하는 데 상당한 발전을 이루었습니다. 그러나 ANNs는 새로운 정보를 학습한 후 이전에 학습한 작업들을 심각하게 잊어버리는 경향이 있습니다. 이 현상은 치명적 잊음 또는 치명적 간섭이라고 불리며, 새로운 학습이 이전 지식의 보존을 방해하거나 간섭하는 것을 의미합니다. 인간의 경우에는 다른 학습 경험들 사이의 간섭 정도가 상대적으로 적거나 없다는 점에서 대조됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 카타스트로피틱 포게팅은 네트워크의 용량과는 아무 상관이 없습니다. 왜냐하면 동일한 네트워크가 동시에 많은 작업을 학습할 수 있지만 작업들이 동일한 훈련 데이터에서 교대로 나타날 때 발생합니다. 이는 새로운 작업을 위한 훈련 데이터가 이전 작업이 학습된 후에 제시될 때 발생합니다. 네트워크를 더 깊이 들여다볼 때, 포게팅은 이전의 표현을 잃어버리는 문제입니다. 여기서 학습된 작업의 가중치가 새로운 목표로 학습하는 동안 은닉층에서 변경되기 때문에 이 문제가 발생합니다.
 
@@ -104,7 +188,18 @@ H.M. 사례는 기억 프로세스가 뇌에서 독특한 기능임을 시사했
 
 이제 이러한 카테고리를 보여주는 특정 연구들에 대해 자세히 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 네트워크 재활성화
 
@@ -117,7 +212,18 @@ Nature에 발표된 이 연구는 과거 정보를 학습하고 배운 표현을
 - 재생은 초기 훈련 데이터를 수용하는 입력 레이어가 아닌 딥 뉴럴 네트워크의 은닉 레이어에 적용됩니다.
 - 재생 중 비중요한 노드의 활동을 억제하여 작업 간 가중치 중첩을 줄이기 위한 문맥 종속 게이팅 (XdG) 메커니즘을 추가합니다. (참고: 이 XdG 메커니즘이 필수적인 보완적인 접근 방식으로 보입니다. 이는 다음 섹션에서 다시 언급될 것입니다.)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 수정 사항으로는 뇌 영감을 받은 재생 기능은 이전에 학습한 작업의 정확도를 90% 이상 유지하며, 딥 러닝 모델이 MNIST 데이터 세트와 방법론을 사용하여 순차적으로 100개의 필기 분류 작업을 학습합니다. 반면, 재생을 하지 않으면 모델의 성능은 15개의 작업 후에 제로로(완전히 망각) 기하 급수적으로 저하됩니다.
 
@@ -127,7 +233,18 @@ Nature에 발표된 이 연구는 과거 정보를 학습하고 배운 표현을
 
 ## 연결 가중치 중복 감소
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상기한대로, 인간과 동물 뇌에서 LTP는 강화된 시냅스에 세포적 및 분자적 변화를 유발하며 장기 기억의 신경 기반으로 시간이 지남에 따라 지속됩니다. 이러한 구조적 변화의 방해는 해당 기억을 지우게 됩니다. 신경망 관점에서, 하나의 작업에서 강화된 가중치 비율은 덜 가변적이 되어 장기적인 지식이 새로운 기억 습득에 방해받지 않고 지속될 수 있도록 합니다.
 
@@ -137,7 +254,18 @@ Nature에 발표된 이 연구는 과거 정보를 학습하고 배운 표현을
 
 네트워크 수준에서 이 EWC 메커니즘은 기억이 필요한 시점이 아닌 해당 기억의 확신에 의존합니다. 이는 네트워크가 가중치가 손상되지 않는 한 시간이 흐름에 따라 전문지식이나 지식을 유지할 수 있음을 시사합니다. 이는 인간 대뇌 피질에 저장된 우리의 장기 기억 개념과 일치합니다. 예를 들어, 인간 치매의 경우, 점차적으로 쇠약해지는 이러한 지속적인 시냅스가 오랜 세월 동안의 기억 손실을 야기하는 가장 가능성이 큽니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 연구의 한 가지 한계는 연속된 열 가지 작업만을 테스트했다는 점입니다. 시카고 대학의 과학자들이 실시한 연구에서는 100개의 연속된 작업에서 EWC 안정화 효과가 검토되었습니다. 초기 열 가지 작업에서 유사한 효과를 낼 수 있지만, 작업 수가 증가함에 따라 성능이 지속적으로 감소합니다.
 
@@ -147,7 +275,18 @@ Nature에 발표된 이 연구는 과거 정보를 학습하고 배운 표현을
 
 요약하면, 축적된 증거는 학습된 작업을 위한 특정 연결 가중치 하위 집합을 강화하고 다중 작업에서 이들의 중첩을 최소화함으로써 인공 신경망에서 재앙적인 잊혀짐을 효과적으로 완화할 수 있다는 것을 시사합니다. 결과는 생물학적 뇌에서 신경가소성이 더 큰 견고함과 정밀성으로 조절된다는 관찰과 일치합니다. 미래에 더 효과적이고 깊은 신경망에서 이러한 메커니즘을 확장하고 보다 복잡한 실제 사용 사례에 적용할 노력이 기대됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

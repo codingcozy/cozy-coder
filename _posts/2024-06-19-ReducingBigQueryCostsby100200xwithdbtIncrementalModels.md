@@ -3,17 +3,13 @@ title: "BigQuery 비용을 dbt 증분 모델로 100-200배 절감하기"
 description: ""
 coverImage: "/assets/img/2024-06-19-ReducingBigQueryCostsby100200xwithdbtIncrementalModels_0.png"
 date: 2024-06-19 16:23
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-ReducingBigQueryCostsby100200xwithdbtIncrementalModels_0.png
 tag: Tech
 originalTitle: "Reducing BigQuery Costs by 100–200x with dbt Incremental Models"
 link: "https://medium.com/stackademic/reducing-bigquery-costs-by-100-200x-with-dbt-incremental-models-c4375b945b69"
 isUpdated: true
 ---
-
-
-
-
 
 템퍼스(Temporus)에서 제 팀이 다루는 많은 모델은 크지만 "빅 데이터" 수준은 아닙니다. 보통 우리의 테이블은 수억 행 정도를 갖고 있으며, 가끔 10억 행을 넘기기도 하지만 성능에 대해 걱정할 만큼 자주 발생하지는 않습니다. 그러나 최근에 쿼리 중 하나가 2시간 후에 타임 아웃되었고, 한 테이블이 각 실행에 거의 9,000 슬롯 시간을 사용하고 있다는 것을 깨달았습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 여러 해 동안 소스 데이터가 빅 데이터에서 Big Data로 커졌습니다. 수십억 건의 구조화되지 않은 텍스트 페이지와 그 결과로 더 많은 행의 테이블 데이터가 포함되어 있습니다. 우리가 많은 양의 데이터를 생성하고 있기 때문에, dbt에서 일반적으로 사용하는 완전 갱신(full-refresh) 방식에서 벗어나 점진적인 방식을 활용해야 한다고 가정했었으나, 그로 인한 결과를 고려하지 않았습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 dbt 제한 시간인 2시간을 초과하면서, 우리는 원시 예측 이후의 테이블을 완전히 잘라내고 로드하는 현재 방식을 다시 검토해야 했습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 아래는 우리가 실행하던 쿼리의 단순화된 버전입니다 —
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 {
@@ -75,7 +93,18 @@ LEFT JOIN { ref('other_table') } AS cw on lake.id = cw.id
 
 이 중 주요 원인으로 눈에 띄는 항목이 있기를 바라며, 이미 dbt의 incremental 기능을 사용 중이라면 왜 쿼리에 시간이 오래 걸릴 수 있는지 살펴봅시다. 각각이 지연에 기여할 수 있는 이유를 살펴봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 열 클러스터링
 
@@ -85,7 +114,18 @@ LEFT JOIN { ref('other_table') } AS cw on lake.id = cw.id
 
 고유 키는 BigQuery에서 기본적으로 지원되지 않는 기능입니다. 그러나 증분 모델을 사용하는 경우 dbt를 사용하여 이를 구성할 수 있습니다. 이후 dbt는 고유 키에 따라 삽입을 통해 주 키 제약 조건을 효과적으로 적용하는 코드를 컴파일합니다. dbt/BigQuery에서 고유 키의 문제는 증분 로드 시 고유 키를 가진 모든 새로운 데이터를 기존 데이터의 고유 키와 비교하기 위해 전체 테이블 스캔을 수행한다는 점입니다. 전체 테이블 스캔 및 따라서 dbt의 고유 키 제약 조건은 비용이 많이 발생하며 실행 시간이 급격히 느려집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # DISTINCT 문
 
@@ -95,7 +135,18 @@ BigQuery의 DISTINCT 문은 각 열에 대해 GROUP BY를 실행하는 것보다
 
 조인에는 전체 테이블 스캔이 필요하며 WHERE 절도 필요합니다. 이 부분은 조금 더 명백하며 아마도 대부분의 사람들이 처음에 찾을 곳입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 WHERE 절이 is_incremental() 블록 안에 중첩되어 있기 때문에 쿼리가 효율적일 것으로 생각했어요. 이론적으로 BigQuery는 런타임에서 기존 테이블을 스캔하고 is_incremental() 블록에서 들어오는 새로운 데이터의 작은 하위 집합과 비교하게 될 거에요!
 
@@ -105,7 +156,18 @@ BigQuery의 DISTINCT 문은 각 열에 대해 GROUP BY를 실행하는 것보다
 
 쿼리의 다른 구성 요소 때문에 새로운 약 15백만 개의 행이 고유 키 절을 위반하는지 확인하기 위해 BigQuery가 거의 500억 개의 데이터 행을 계속 스캔하게 된 거예요. 새로운 접근 방식이 필요했답니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 문제 해결하기
 
@@ -115,7 +177,18 @@ BigQuery의 DISTINCT 문은 각 열에 대해 GROUP BY를 실행하는 것보다
 
 첫째, 우리의 실험은 파티션을 사용하는 것이 병합 작업을 돕는다는 점을 시사했습니다. 파티션을 사용하지 않은 실행의 성능이 느린 것을 볼 수 있었어요 (가장 오른쪽 및 상단 왼쪽 셀). 둘째, 데이터에서는 클러스터링이 성능을 저하시킬 수 있지만, 절대적으로 성능에 해를 끼치는 것은 아닌 것 같았어요. 마지막으로, BigQuery가 결정론적이지 않을 수 있다는 직관을 가졌는데, 여기서 일부 실행에서의 재현성 부족을 통해 그 대안을 확인했어요. 몇 가지 빠른 구글 검색 결과, LIMIT 절은 결정론적인 결과를 도출하지 않는다는 것을 알 수 있었고, 이것이 여기 일부 이상 현상을 설명해 줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최종적으로 이러한 실험들은 우리 문제를 즉각적으로 해결할 수 있는 내용을 밝혀내지 않았어요. 우리가 의존할 수 있는 단 하나의 해결책은 없었죠.
 
@@ -125,7 +198,18 @@ BigQuery의 DISTINCT 문은 각 열에 대해 GROUP BY를 실행하는 것보다
 
 우리는 데이터 프로파일링을 수행했고, 중복 데이터가 발생한 것은 24시간 단위였음을 발견했어요. 그래서 우리는 전날 데이터를 수정할 필요가 없었고, 그 데이터를 스캔할 필요도 없었을지도 몰라요! 대부분의 경우, 우리는 unique_key라는 개념을 버리고, 대신에 가장 최신 데이터가 고유하다는 것을 확실히 하는 데 집중할 수 있었어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 솔루션 구현
 
@@ -137,7 +221,18 @@ BigQuery의 DISTINCT 문은 각 열에 대해 GROUP BY를 실행하는 것보다
 
 그 결과는 다음과 같았습니다 —
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 {
@@ -175,7 +270,18 @@ SELECT DISTINCT * from lake_base
 
 참고: 매일 데이터를 한 번만 가져오고 따라서 매일 예측값을 생성하는 것입니다. dbt labs의 Jerco가 가르쳐준 것처럼 —
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인크리멘탈 전략은 구현하기 전에 면밀히 검토하는 것이 중요합니다. 아래 다이어그램은 insert_overwrite 전략이 무엇을 하는지 보여줍니다 —
 
@@ -185,7 +291,18 @@ SELECT DISTINCT * from lake_base
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 빅쿼리 비용은 슬롯 사용량을 기준으로 계산됩니다. 이는 일반적으로 쿼리 실행 시간과 밀접한 관련이 있습니다. 여기에는 일부 쿼리가 병렬 처리되어 더 많은 슬롯 시간을 사용할 수 있는 경우가 있는데요. 1시간 쿼리가 30분 쿼리보다 비싼 것은 아니지만, 대부분의 경우 그렇습니다.
 
@@ -195,7 +312,18 @@ SELECT DISTINCT * from lake_base
 
 빅쿼리 최적화에 더 관심이 있다면, 제가 작성한 이전 기사를 확인해보세요. 몇 가지 빠른 수정 사항을 강조하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Stackademic
 

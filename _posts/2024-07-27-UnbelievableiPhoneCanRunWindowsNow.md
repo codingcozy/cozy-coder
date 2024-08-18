@@ -3,17 +3,13 @@ title: "아이폰에서 윈도우를 실행시키는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-27-UnbelievableiPhoneCanRunWindowsNow_0.png"
 date: 2024-07-27 13:49
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-27-UnbelievableiPhoneCanRunWindowsNow_0.png
 tag: Tech
 originalTitle: "Unbelievable iPhone Can Run Windows Now"
 link: "https://medium.com/macoclock/unbelievable-iphone-can-run-windows-now-fd2f2e73a2fb"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-07-27-UnbelievableiPhoneCanRunWindowsNow_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 iOS가 기능과 경험 측면에서 안드로이드와 더 유사해지는 개념은 이제 더 이상 공상에 그치지 않습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 혁신적인 업적은 유명한 시스템 최적화 팀 NTDEV에 의해 이루어졌어요.
 
@@ -33,7 +40,18 @@ iPhone 화면에서 Windows 11 데스크톱을 보고 호기심이 생겼어요.
 
 그래서 이 기사는 이러한 질문을 탐구하기 위해 탄생했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 아이폰에 윈도우를 설치한 방법은 무엇인가요?
 

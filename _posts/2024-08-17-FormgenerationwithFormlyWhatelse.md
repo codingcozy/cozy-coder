@@ -3,7 +3,7 @@ title: "Formly를 사용해서 폼 쉽게 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-17-FormgenerationwithFormlyWhatelse_0.png"
 date: 2024-08-17 00:54
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-17-FormgenerationwithFormlyWhatelse_0.png
 tag: Tech
 originalTitle: "Form generation with Formly What else"
@@ -11,7 +11,6 @@ link: "https://medium.com/itnext/form-generation-with-formly-what-else-01f0694f0
 isUpdated: true
 updatedAt: 1723863651578
 ---
-
 
 우리는 양식이 필요해요, 만들어야 해요.
 
@@ -21,7 +20,18 @@ updatedAt: 1723863651578
 
 ![이미지](/assets/img/2024-08-17-FormgenerationwithFormlyWhatelse_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 체크리스트
 
@@ -31,7 +41,18 @@ updatedAt: 1723863651578
 
 최근 그들과 작은 문제를 열었고, 네, 유지보수가 되고 있습니다. 몇 일 안에 수정되었습니다. ✅
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 문제를 해결하나요?
 
@@ -41,7 +62,18 @@ updatedAt: 1723863651578
 
 만약 우리가 자체 디자인 프레임워크를 갖고 있지 않고 Formly에서 기본적으로 지원하는 프레임워크 중 하나를 사용하며, 일반적인 형식을 동적으로 생성하는 것이 우리에게 흔한 사용 사례라면, 확실히 💯
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트의 요구 사항을 항상 신중히 고려해야 합니다. 작은 프로젝트의 경우에는 거의 매우 쉬운 결정입니다. 예제를 사용하면 문제없이 이용할 수 있습니다.
 

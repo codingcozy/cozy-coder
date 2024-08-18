@@ -3,7 +3,7 @@ title: "생성형 AI 애플리케이션을 프로덕션 환경에 배포하는 �
 description: ""
 coverImage: "/assets/img/2024-07-13-ProductionizingGenerativeAIApplications_0.png"
 date: 2024-07-13 03:30
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-ProductionizingGenerativeAIApplications_0.png
 tag: Tech
 originalTitle: "Productionizing Generative AI Applications"
@@ -11,17 +11,24 @@ link: "https://medium.com/towards-artificial-intelligence/productionizing-genera
 isUpdated: true
 ---
 
-
-
-
-
 지난 일년 동안 고객을 대상으로 한 GenAI 애플리케이션을 구축하고 확장해 왔어. 이 블로그 글에서는 Large Language Model (LLM) GenAI 애플리케이션의 속도, 안전성, 그리고 신뢰성을 향상시킬 수 있는 다섯 가지 실용적인 팁과 코드 예제를 모았어.
 
 ## 1. 비동기 API로 LLM 앱 속도 70% 향상시키기
 
 이 간단한 트릭은 LLM 앱의 속도를 70% 향상시킬 수 있어! OpenAI API를 사용하는 LLM 앱은 IO 바운드로, 상당한 지연 문제를 야기해. API에 여러 동시 요청을 보내는 것으로 앱의 성능을 크게 향상시킬 수 있어. OpenAI 파이썬 라이브러리는 AsyncOpenAI를 통해 고 동시성을 네이티브로 지원해.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Async 애플리케이션은 이전 사용자 입력에 대한 응답을 기다리지 않고 새로운 사용자 입력을 병렬로 처리할 수 있습니다. 이러한 작업 중첩은 휴식 시간을 크게 줄여 전체 성능을 최적화합니다. 이는 동기 앱과 대조적으로, 각 작업이 이전 작업이 완료된 후에만 시작할 수 있는 동기 앱과 대조됩니다. 아래 그림에서 IO 바운드 애플리케이션에 대한 Async의 이점을 직관적으로 이해할 수 있습니다.
 
@@ -31,7 +38,18 @@ Async 애플리케이션은 이전 사용자 입력에 대한 응답을 기다�
 
 LLM 앱이 대규모 동시 요청 집합으로 확장하는 문제가 발생하면 Async를 사용하는 것이 좋습니다. 그러나 실제 응용 프로그램에서 Async를 사용하면 분당 토큰 및 분당 요청 속도 제한에 도달할 수 있습니다. 따라서 이러한 문제를 처리하기 위해 견고하고 종합적인 전략이 필요합니다. 다행히 OpenAI는 공식적인 Python 스크립트를 게시하여 요청률 제한 내에서 API 요청을 효과적으로 병렬 처리할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🔗 OpenAI의 공식 Python 스크립트를 사용한 API 요청 병렬화: [OpenAI Cookbook](https://github.com/openai/openai-cookbook/blob/3f8d3f34054526173c0c9cd110d21d90fe993c3f/examples/api_request_parallel_processor.py)
 
@@ -81,7 +99,18 @@ async_answers = asyncio.run(async_run_loop(questions[:10]))  # 2.459s. 70% faste
 
 LLM 애플리케이션은 확률적 성격 때문에 테스트하기가 까다롭습니다. 그러나 생성된 답변의 신뢰성을 보장하기 위해 고객을 대상으로 한 애플리케이션에 대한 테스트는 중요합니다. 그렇다면 LLM 앱을 효과적으로 어떻게 테스트할까요? MLFlow의 LLM Evaluate가 등장하면서, MLOps가 LLMOps로 나아가는 발판을 마련했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 MLFlow Evaluate의 주요 기능:
 
@@ -99,7 +128,18 @@ LLM 평가를 위한 내 권장사항:
 - CI/CD: 이러한 테스트를 CI/CD 파이프라인에서 자동으로 실행하여 매 코드와 프롬프트 변경이 무엇인가를 망가뜨리지 않도록 항상 확인하세요.
 - 가드레일: 몇 가지 빠른 테스트는 답변을 제공하기 전 사용자에게 대답하려는 모든 API 호출에 실행할 수 있습니다. 더 느린 테스트는 CI/CD에 남겨두세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🔗 MLFlow LLM Evaluate: [링크](https://mlflow.org/docs/latest/llms/llm-evaluate/index.html)
 
@@ -147,7 +187,18 @@ results.tables["eval_results_table"].head()
 
 ![](2024-07-13-ProductionizingGenerativeAIApplications_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3. 강사와 함께 하는 출력 구문 분석
 
@@ -158,7 +209,18 @@ LLM의 확률적인 성격은 마이크로서비스의 API 계약 강제 적용�
 
 오늘은 세 번째로, 아마도 더 견고한 옵션이 제안됩니다! LLM 응용 프로그램에서 Pydantic과 Instructor의 힘을 활용하여 4단계 안에 API 계약을 강제하는 방법을 소개합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 설치: pip install instructor을 사용해주세요.
 - OpenAI 클라이언트에 Instructor 패치: 이로써 OpenAI 클라이언트에 새로운 response_model argument가 도입됩니다.
@@ -214,7 +276,18 @@ print("응답:")
 print(response.model_dump())
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Presidio](/assets/img/2024-07-13-ProductionizingGenerativeAIApplications_4.png)
 
@@ -226,7 +299,18 @@ print(response.model_dump())
 - 클라우드 관리 LLM 서비스: Microsoft Azure OpenAI, Amazon Web Services (AWS) Bedrock 또는 Google Cloud VertexAI Studio를 가상 사설 클라우드 내에서 활용합니다. 클라우드 서비스 제공업체 사용 시 데이터 보호 법률을 준수하기 위해 언제나 법률 팀과 상의하십시오.
 - 입력 살식화: 사용자의 입력을 사전 처리하여 LLM API로 전송하기 전에 PII를 감지하고 삭제합니다. Microsoft의 Presidio 라이브러리는 전형적인 PII 범주를 효과적으로 처리하며 GenAI 백엔드에 독립적인 마이크로서비스로 통합할 수 있어 좋은 선택입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째 두 가지 옵션은 기업에 이상적이지만, 가능한 경우 개인 식별 정보를 수정하는 것은 항상 신중한 사이버 보안 조치입니다. 유명한 속담이 있죠. 안전이 최우선이죠!
 
@@ -245,7 +329,7 @@ from presidio_anonymizer.entities import OperatorConfig
 analyzer = AnalyzerEngine()
 anonymizer = AnonymizerEngine()
 
-original_text = """My name is Marie Stephen Leo, 
+original_text = """My name is Marie Stephen Leo,
 call me at (123) 456-7890 or email me at some_fake.address23@gmail.com"""
 
 # PII 데이터를 식별하기 위해 텍스트 분석
@@ -272,7 +356,18 @@ print(pii_sanitized_text.text)
 # 평균 실행 시간: 12.2 ms ± 1.06 ms (평균 ± 표준 편차, 7개 실행 중 100번 반복)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 5. Prompt Injection Attacks 방어하기
 
@@ -294,7 +389,18 @@ Prompt injection은 악의적인 사용자들이 응답을 조작하여 기대�
 
 실제로, 옵션 1-4는 모든 앱에게 간단하고 당연한 선택입니다. 한편, 옵션 5-7은 별도의 복잡성과 잠재적인 지연을 야기할 수 있습니다. 따라서 앱에 추가하기 전에 이러한 이점을 신중하게 고려해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마침내, 모든 대처 방법이 기술적일 필요는 없습니다. 제품 관점에서 보면, 봇 사용을 위해 로그인을 필요로하고 악의적인 행동을 하는 사용자를 금지함으로써 삶을 더 쉽게 만들 수 있습니다. 또한 법률 팀이 적절한 이용 약관을 작성하도록 할 필요가 있습니다.
 
@@ -302,6 +408,17 @@ Prompt injection은 악의적인 사용자들이 응답을 조작하여 기대�
 
 ![Conclusion](/assets/img/2024-07-13-ProductionizingGenerativeAIApplications_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로, 다음 GenAI 애플리케이션을 구축하는 데 도움이 되는 다섯 가지 실용적인 팁을 적용하는 것이 중요합니다. LLM을 사용하여 빠른 처리를 위해 비동기 API 호출을 하고, MLFlow를 사용하여 LLM 응답을 평가하며, Instructor를 사용하여 출력을 구문 분석함으로써 LLM 애플리케이션의 성능, 신뢰성 및 API 계약 준수를 크게 향상시킬 수 있습니다. 더 나아가, Presidio를 활용하여 PII 데이터를 필터링하고, Prompt Injection 보호를 위한 여러 전략을 구현함으로써 고객 애플리케이션에 안전한 앱을 만들 수 있습니다.

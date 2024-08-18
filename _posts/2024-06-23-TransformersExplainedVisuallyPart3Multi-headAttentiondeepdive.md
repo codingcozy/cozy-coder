@@ -3,17 +3,13 @@ title: "트랜스포머 쉽게 이해하기 Part 3 멀티-헤드 어텐션 심�
 description: ""
 coverImage: "/assets/img/2024-06-23-TransformersExplainedVisuallyPart3Multi-headAttentiondeepdive_0.png"
 date: 2024-06-23 20:02
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-TransformersExplainedVisuallyPart3Multi-headAttentiondeepdive_0.png
 tag: Tech
 originalTitle: "Transformers Explained Visually (Part 3): Multi-head Attention, deep dive"
 link: "https://medium.com/towards-data-science/transformers-explained-visually-part-3-multi-head-attention-deep-dive-1c1ff1024853"
 isUpdated: true
 ---
-
-
-
-
 
 ## 직관적인 트랜스포머 시리즈 NLP
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 시리즈에서 이전 및 다음 글에 대한 간단한 요약입니다. 내 목표는 무엇이 어떻게 작동하는지만 아는 것이 아니라, 왜 그런 방식으로 작동하는지 이해하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 기능 개요 (Transformer의 사용 방법 및 RNN보다 우수한 점. 아키텍처 구성 요소 및 훈련 및 추론 중의 동작)
 - 작동 방식 (내부 운영 end-to-end. 데이터 흐름 및 수행되는 계산, 행렬 표현 등)
@@ -37,7 +44,18 @@ isUpdated: true
 
 # Transformer에서 어떻게 Attention이 사용되는가
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Part 2에서 논의한 대로, 어텐션은 Transformer에서 세 곳에서 사용됩니다:
 
@@ -49,7 +67,18 @@ Part 2에서 논의한 대로, 어텐션은 Transformer에서 세 곳에서 사�
 
 어텐션 입력 매개변수 - 쿼리(Query), 키(Key), 값(Value)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주의 계층은 Query, Key 및 Value로 알려진 세 매개변수 형식으로 입력을 받습니다.
 
@@ -59,8 +88,18 @@ Part 2에서 논의한 대로, 어텐션은 Transformer에서 세 곳에서 사�
 
 입력 시퀀스는 입력 임베딩 및 위치 인코딩에 공급되어 각 입력 시퀀스의 각 단어에 대한 의미와 위치를 캡처하는 인코딩 표현을 생성합니다. 이것은 모두 Query, Key 및 Value 매개변수에 공급되며, 첫 번째 인코더의 셀프 어텐션에서 각 입력 시퀀스의 각 단어에 대한 인코딩 표현을 생성합니다. 이제 각 단어에 대한 어텐션 점수도 포함된 새 인코딩 표현입니다. 이것이 스택 내의 모든 인코더를 통과할 때마다 각 셀프 어텐션 모듈은 각 단어의 표현에 자체 어텐션 점수를 추가합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-23-TransformersExplainedVisuallyPart3Multi-headAttentiondeepdive_1.png)
 
@@ -70,8 +109,18 @@ Part 2에서 논의한 대로, 어텐션은 Transformer에서 세 곳에서 사�
 
 레이어 정규화를 거친 후, 이것은 첫 번째 디코더의 인코더-디코더 어텐션에서 Query 매개변수로 전달됩니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 에 대한 관심
 
@@ -81,7 +130,18 @@ Part 2에서 논의한 대로, 어텐션은 Transformer에서 세 곳에서 사�
 
 이것은 스택 내 모든 디코더를 통해 전달되므로, 각 Self-Attention 및 각 Encoder-Decoder Attention은 각 단어의 표현에 고유한 관심 점수를 추가합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 다중 어텐션 헤드
 
@@ -91,7 +151,18 @@ Transformer에서 어텐션 모듈은 병렬로 동시에 여러 번 계산을 �
 
 내부에서 데이터가 어떻게 처리되는지 정확히 이해하기 위해 Transformer를 훈련하여 번역 문제를 해결하는 과정에서 어텐션 모듈의 작동 방식을 살펴보겠습니다. 영어로 된 입력 시퀀스('You are welcome')와 스페인어로 된 대상 시퀀스('De nada')로 구성된 훈련 데이터의 샘플을 사용하겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 주목해야 할 하이퍼파라미터
 
@@ -103,7 +174,18 @@ Transformer에서 어텐션 모듈은 병렬로 동시에 여러 번 계산을 �
 
 또한 샘플의 수를 나타내는 배치 크기가 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 입력 레이어
 
@@ -113,8 +195,18 @@ Transformer에서 어텐션 모듈은 병렬로 동시에 여러 번 계산을 �
 
 시각화를 간단하게 만들기 위해 이미지에서 배치 차원을 제거하고 나머지 차원에 초점을 맞추겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-23-TransformersExplainedVisuallyPart3Multi-headAttentiondeepdive_4.png)
 
@@ -124,8 +216,18 @@ Transformer에서 어텐션 모듈은 병렬로 동시에 여러 번 계산을 �
 
 ## 어텐션 헤드별 데이터 분할
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 데이터가 여러 개의 Attention head로 분할되어 각각 독립적으로 처리됩니다.
 
@@ -135,8 +237,18 @@ Linear layer의 가중치는 head별로 논리적으로 분할됩니다.
 
 이 논리적인 분할은 입력 데이터와 Linear layer의 가중치를 Attention head별로 균등하게 분할함으로써 이뤄집니다. 위와 같이 Query Size를 선택함으로써 이를 달성할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Query Size = Embedding Size / Number of heads
 
@@ -146,8 +258,18 @@ In our example, that is why the Query Size = 6/2 = 3. Even though the layer weig
 
 ![Image 2](/assets/img/2024-06-23-TransformersExplainedVisuallyPart3Multi-headAttentiondeepdive_6.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 헤드에 대한 계산은 N 개의 별도 연산이 필요한 대신 단일 행렬 연산을 통해 달성할 수 있습니다. 이렇게 하면 계산이 효율적으로 이루어지고 모델이 단순해지며 선형 레이어가 더 적게 필요하지만 독립적인 어텐션 헤드의 힘을 여전히 발휘할 수 있습니다.
 
@@ -157,7 +279,18 @@ Q, K 및 V 행렬 재구성
 
 이 행렬은 다시 헤드와 시퀀스 차원을 교체하여 재구성됩니다. 배치 차원은 그림에 표시되지 않았지만, Q의 차원은 이제 (Batch, Head, Sequence, Query size)입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-23-TransformersExplainedVisuallyPart3Multi-headAttentiondeepdive_7.png)
 
@@ -167,7 +300,18 @@ Q, K 및 V 행렬 재구성
 
 ![이미지](/assets/img/2024-06-23-TransformersExplainedVisuallyPart3Multi-headAttentiondeepdive_8.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 어텐션 점수를 계산할 준비가 되어 있어요.
 
@@ -177,7 +321,18 @@ Q, K 및 V 행렬 재구성
 
 우리는 하나의 헤드에 대한 연산을 보여줄 거에요. 이때는 마지막 두 차원(시퀀스 및 쿼리 크기)만 사용하고 처음 두 차원(배치 및 헤드)은 건너뛸 거에요. 본질적으로, 우리는 보고 있는 연산이 각 헤드와 각 배치 샘플마다 "반복"되는 것으로 상상할 수 있어요 (물론 실제로는 반복문이 아니라 단일 행렬 작업으로 이루어지고 있어요).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째 단계는 Q와 K 사이의 행렬 곱셈을 수행하는 것입니다.
 
@@ -187,8 +342,18 @@ Q, K 및 V 행렬 재구성
 
 다른 마스크가 디코더 셀프 어텐션 및 디코더 인코더 어텐션에서 적용되며, 이에 대해서는 흐름에서 조금 뒤에 다룹니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Transformers Explained Visually Part 3](/assets/img/2024-06-23-TransformersExplainedVisuallyPart3Multi-headAttentiondeepdive_10.png)
 
@@ -198,8 +363,18 @@ The result is now scaled by dividing by the square root of the Query size, and t
 
 Another matrix multiplication is performed between the output of the Softmax and the V matrix.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-23-TransformersExplainedVisuallyPart3Multi-headAttentiondeepdive_12.png" />
 
@@ -209,19 +384,40 @@ Another matrix multiplication is performed between the output of the Softmax and
 
 # 각 헤드의 어텐션 점수를 병합합니다
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 헤드에 대해 별도의 주의 점수가 있습니다. 이것들을 한 가지 점수로 결합해야 합니다. 이 병합 작업은 본질적으로 분할 작업의 반대입니다.
 
 헤드 차원을 제거하여 결과 행렬을 단순히 재구성함으로써 수행됩니다. 이 과정은 다음과 같습니다:
 
 - Attention Score 행렬을 재구성하여 헤드 및 시퀀스 차원을 교환합니다. 다시 말해, 행렬 모양이 (배치, 헤드, 시퀀스, 쿼리 크기)에서 (배치, 시퀀스, 헤드, 쿼리 크기)로 변경됩니다.
-- 헤드 차원을 축소하여 (배치, 시퀀스, 헤드 * 쿼리 크기)로 재구성합니다. 이를 통해 각 헤드의 주의 점수 벡터를 단일 병합된 주의 점수로 연결합니다.
+- 헤드 차원을 축소하여 (배치, 시퀀스, 헤드 \* 쿼리 크기)로 재구성합니다. 이를 통해 각 헤드의 주의 점수 벡터를 단일 병합된 주의 점수로 연결합니다.
 
-임베딩 크기 = 헤드 * 쿼리 크기이므로 병합된 점수는 (배치, 시퀀스, 임베딩 크기)입니다. 아래 그림에서는 예제 점수 행렬에 대한 병합 과정을 자세히 볼 수 있습니다.
+임베딩 크기 = 헤드 \* 쿼리 크기이므로 병합된 점수는 (배치, 시퀀스, 임베딩 크기)입니다. 아래 그림에서는 예제 점수 행렬에 대한 병합 과정을 자세히 볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-23-TransformersExplainedVisuallyPart3Multi-headAttentiondeepdive_14.png" />
 
@@ -231,8 +427,18 @@ Putting it all together, this is the end-to-end flow of the Multi-head Attention
 
 <img src="/assets/img/2024-06-23-TransformersExplainedVisuallyPart3Multi-headAttentiondeepdive_15.png" />
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 다중 헤드 분할은 더 풍부한 해석을 제공합니다
 
@@ -242,7 +448,18 @@ Putting it all together, this is the end-to-end flow of the Multi-head Attention
 
 이것은 임베딩의 별도 섹션들이 시퀀스 내 다른 단어와의 관련성에 따라 각 단어의 의미의 다른 측면을 학습할 수 있다는 것을 의미합니다. 이를 통해 트랜스포머는 시퀀스의 보다 풍부한 해석을 제공할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 현실적인 예시가 아닐 수도 있지만 직관을 키우는 데 도움이 될 수 있습니다. 예를 들어, 하나의 섹션은 명사의 ‘성별’(남성, 여성, 중성)을 포함할 수 있고, 다른 하나는 명사의 ‘수’(단수 대 복수)를 포함할 수 있습니다. 이는 번역 중에 중요할 수 있는데, 많은 언어에서 사용해야 하는 동사가 이러한 요인에 따라 달라질 수 있습니다.
 
@@ -252,7 +469,18 @@ Putting it all together, this is the end-to-end flow of the Multi-head Attention
 
 ![이미지](/assets/img/2024-06-23-TransformersExplainedVisuallyPart3Multi-headAttentiondeepdive_17.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 같은 방법으로, Masking은 대상 시퀀스에서 패딩 단어를 가려냅니다.
 
@@ -262,7 +490,18 @@ Putting it all together, this is the end-to-end flow of the Multi-head Attention
 
 ![image](/assets/img/2024-06-23-TransformersExplainedVisuallyPart3Multi-headAttentiondeepdive_18.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 따라서 결과 Attention Score의 각 셀은 하나의 Q (즉, 대상 시퀀스 단어)와 모든 다른 K (즉, 입력 시퀀스) 단어 및 모든 V (즉, 입력 시퀀스) 단어 간 상호 작용을 나타냅니다.
 
@@ -272,7 +511,18 @@ Putting it all together, this is the end-to-end flow of the Multi-head Attention
 
 이를 통해 트랜스포머의 어텐션 모듈이 무엇을 하는지에 대한 좋은 감을 제공했기를 바랍니다. 두 번째 기사에서 확인한 트랜스포머의 end-to-end 흐름과 함께 조합하면 이제 전체 트랜스포머 아키텍처의 상세 운영을 다루었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 우리는 Transformer가 정확히 무엇을 하는지 이해했습니다. 그러나 Transformer의 Attention이 왜 그런 계산을 수행하는지에 대한 질문에 완전히 대답하지 않았습니다. 왜 Query, Key 및 Value 개념을 사용하고, 방금 본 것처럼 왜 행렬 곱셈을 수행하는 걸까요?
 
@@ -282,6 +532,17 @@ Putting it all together, this is the end-to-end flow of the Multi-head Attention
 
 마지막으로, 이 기사를 좋아하셨다면, 오디오 딥 러닝, 지리 위치 기계 학습 및 이미지 캡션 아키텍처에 대한 다른 시리즈도 즐기실 수 있을 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 계속해서 배워봐요!

@@ -3,17 +3,13 @@ title: "검색 강화 생성에서의 모듈러리티, 구조, 에이전시 강�
 description: ""
 coverImage: "/assets/img/2024-07-13-ModularityStructureandAgencyinRetrieval-AugmentedGenerationAPowerfulSynergy_0.png"
 date: 2024-07-13 22:24
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-ModularityStructureandAgencyinRetrieval-AugmentedGenerationAPowerfulSynergy_0.png
 tag: Tech
 originalTitle: "Modularity, Structure, and Agency in Retrieval-Augmented Generation: A Powerful Synergy"
 link: "https://medium.com/@alcarazanthony1/modularity-and-structure-in-retrieval-augmented-generation-6584e42c41ff"
 isUpdated: true
 ---
-
-
-
-
 
 인공지능 세계에서 혁명이 준비되고 있습니다. 우리는 대규모 언어 모델이 방대한 정보 풀을 기반으로 추론하는 방식에서 패러다임 전환을 목격하고 있습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 에이전틱 RAG은 모듈성, 구조화된 지식 표현, 지적 기능의 강력한 패러다임이 결합된 것을 나타냅니다. 이러한 결합은 AI 기반 정보 처리의 풍경을 다시 구성하는 시너지를 창출하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 RAG의 모듈성은 시스템을 전문화된 구성 요소로 나누는 것을 말합니다. AI용 스위스 아미 나이프를 상상해보세요. 한 도구는 응답을 기안하고, 다른 도구는 그를 확인합니다. 이러한 방식은 유연성을 향상시킴으로써 개별 모듈의 지속적인 개선을 가능하게 합니다.
 
@@ -33,7 +40,18 @@ RAG의 모듈성은 민첩성과 맞춤화에 관한 것입니다. 이는 기업
 
 이러한 유연성은 기업이 변화하는 시장 상황과 진화하는 데이터 환경에 빠르게 적응할 수 있도록 도와줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 구조화된 지식 표현은 추론을 위한 풍부하고 연결된 기반을 제공합니다.
 
@@ -43,7 +61,18 @@ RAG의 모듈성은 민첩성과 맞춤화에 관한 것입니다. 이는 기업
 
 이 두 가지 패러다임을 결합함으로써 그 결과는 그 자체의 합보다 더 큰 시너지를 만들어냅니다. 모듈식 구성 요소는 이제 구조화된 지식의 기반 위에서 작동하여 더 정확하고 문맥에 따른, 적응 가능한 AI 시스템을 가능하게 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 에이전트 레이어는 마법이 일어나는 곳입니다. 이곳에서 모듈식 구성 요소와 구조화된 지식 기반을 조율하여 부분들의 합보다 더 큰 시스템을 만들어냅니다.
 
@@ -56,7 +85,18 @@ RAG의 모듈성은 민첩성과 맞춤화에 관한 것입니다. 이는 기업
 - 더 깊은 통찰력: 이 조합은 특수 추론 모듈을 통해 지식 그래프를 가로지르는 다중 점프 추론을 가능케 합니다.
 - 효율성 증진: 구조화된 지식 기반의 모듈화된 설계는 병렬 처리와 최적화된 자원 할당을 가능케 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최신 기술인 Speculative RAG 및 GraphRAG은 이러한 접근 방법을 보여주고 있어요.
 
@@ -66,9 +106,20 @@ RAG의 모듈성은 민첩성과 맞춤화에 관한 것입니다. 이는 기업
 
 # RAG에서 모듈러리티의 힘
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-모듈성은 RAG 시스템을 혁신하고 있습니다. 이는 각 분야에서 좋은 디자인의 중추입니다. 모듈성은 복잡한 시스템을 작은 특화된 구성 요소로 나누는 것입니다. 이렇게 하면 개별적으로 개발, 최적화 및 업데이트할 수 있습니다. 이 방식은 AI 및 검색 증강 생성에 많은 이점을 제공합니다.  
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+모듈성은 RAG 시스템을 혁신하고 있습니다. 이는 각 분야에서 좋은 디자인의 중추입니다. 모듈성은 복잡한 시스템을 작은 특화된 구성 요소로 나누는 것입니다. 이렇게 하면 개별적으로 개발, 최적화 및 업데이트할 수 있습니다. 이 방식은 AI 및 검색 증강 생성에 많은 이점을 제공합니다.
 
 이번에는 Speculative RAG를 살펴보겠습니다. 이는 모듈성의 힘을 보여주는 혁신적인 방법입니다. 연구자들이 RAG 성능과 효율성을 향상하기 위해 개발하였습니다. Speculative RAG의 아키텍처에는 두 가지 주요 구성 요소가 있습니다:
 
@@ -77,7 +128,18 @@ RAG의 모듈성은 민첩성과 맞춤화에 관한 것입니다. 이는 기업
 
 이 모듈식 접근법은 주요 이점을 제공합니다. 이것은 게임 체인저입니다. 초안 작성과 검증을 분리함으로써 각 모델이 각자의 역할에서 빛을 발합니다. 전문가는 효율적인 초안 생성을 우수하게 처리합니다. 종합 RAG는 효과적인 검증을 위해 광범위한 지식을 활용합니다. 이 둘이 함께하면 전반적인 시스템의 성능이 향상됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모듈성은 업데이트와 개선을 더 쉽게 가능하게 합니다. 바람 같은 신선함이죠. 개별 구성 요소들을 전체적으로 바꾸지 않고 조정하거나 교체할 수 있습니다. 더 효율적인 초안 작성 알고리즘을 발견했나요? 전문가 모델에 간단히 통합하면 됩니다. 확인자는 건드리지 않아도 됩니다. 이 유연성은 혁신을 가속화시키며 지속적인 시스템 개선을 가능하게 합니다.
 
@@ -87,17 +149,39 @@ Speculative RAG는 기존 RAG의 한계에 도전합니다. 똑똑하죠. 초기
 
 복잡한 질문? 문제없어요. 전문가 모델은 관련 정보를 추출하고 타당한 응답을 생성합니다. 한편 일반 모델은 이러한 초안을 평가하고 수정하는 데 더 넓은 지식을 적용합니다. 이 노동 분배는 견고하고 정확한 출력물을 얻게 해줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-**모듈성의 힘은 핵심 구성 요소를 넘어서 확장됩니다. 탐구적 RAG는 문서 검색과 샘플링을 모듈화합니다. 다양한 관점의 전략을 활용하여 문서를 분류하고 다양한 클러스터에서 샘플링합니다. 이를 통해 다양한 정보를 다루고 검색 편향 위험을 줄일 수 있습니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+\*\*모듈성의 힘은 핵심 구성 요소를 넘어서 확장됩니다. 탐구적 RAG는 문서 검색과 샘플링을 모듈화합니다. 다양한 관점의 전략을 활용하여 문서를 분류하고 다양한 클러스터에서 샘플링합니다. 이를 통해 다양한 정보를 다루고 검색 편향 위험을 줄일 수 있습니다.
 
 # RAG에서 구조화된 지식의 역할
 
 RAG 시스템은 발전 중입니다. 점점 더 복잡한 작업을 다루고 있습니다. 그러면서 지식 표현이 중요해집니다. 그래프 기반 RAG(GraphRAG)가 등장합니다. 이것은 단순한 개선이 아니라 혁명입니다.
 
-그래프 기반 RAG는 검색 보강 생성에서의 엄청난 발전을 나타냅니다. 이것은 지식 그래프의 힘을 활용함으로써 가능해졌습니다. 이는 평범한 데이터 구조가 아닙니다. 이것이 진정한 기계 이해력을 개방하는 열쇠입니다.**
+그래프 기반 RAG는 검색 보강 생성에서의 엄청난 발전을 나타냅니다. 이것은 지식 그래프의 힘을 활용함으로써 가능해졌습니다. 이는 평범한 데이터 구조가 아닙니다. 이것이 진정한 기계 이해력을 개방하는 열쇠입니다.\*\*
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래프RAG는 중간 표현으로 지식 그래프를 사용합니다. 이는 전통적인 RAG 시스템과 대조적입니다. 그 시스템들은 단순한 벡터 표현에 의존합니다. 그래프RAG는 다음과 같은 많은 이점을 제공합니다:
 
@@ -108,18 +192,41 @@ RAG 시스템은 발전 중입니다. 점점 더 복잡한 작업을 다루고 �
 
 맥락적 이해: 단순한 키워드 매칭을 잊어버리세요. 그래프RAG는 풍부한 관계 웹을 탐색합니다. 그것은 정보가 어떻게 연결되는지를 이해합니다. 결과는 무엇일까요? 정확할 뿐만 아니라 깊이 있는 맥락을 갖춘 응답입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 멀티-홉 추론: 여기서 GraphRAG가 진정으로 빛을 발합니다. 전통 시스템은 복잡한 쿼리에 어려움을 겪지만 GraphRAG는 그렇지 않습니다. 지식 그래프에서 여러 홉을 걸쳐 "점을 이어줄" 수 있습니다. 이는 더 단순한 시스템에서 간과될 것들을 조현합니다.
 
 계층적 표현: 정보 검색에서 일상화된 접근 방식은 적합하지 않습니다. GraphRAG는 적응합니다. 고수준 개요가 필요한가요? 커뮤니티 수준 요약을 활용합니다. 구체적인 세부사항이 필요한가요? 개별 개체 및 관계로 깊이 파고듭니다. 그것은 유연하며 인간의 사고와 같습니다.
 
 GraphRAG의 장점은 이론적인 것 이상입니다. 입증되어 있습니다:
+
 - Data.world에서 비즈니스 질문 43개에 걸쳐 3배의 정확도 향상을 확인했습니다.
 - 마이크로소프트의 연구 결과, GraphRAG는 최대 97% 토큰을 사용하여 검색 품질을 크게 향상시켰습니다.
 - LinkedIn의 구현으로 고객 서비스 해결 시간이 28.6% 감소되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GraphRAG는 정확성뿐만 아니라 신뢰와 거버넌스에 관한 것입니다.
 
@@ -129,7 +236,18 @@ GraphRAG는 정확성뿐만 아니라 신뢰와 거버넌스에 관한 것입니
 
 보안 및 개인 정보 보호: GraphRAG는 세밀한 접근 제어를 허용합니다. 중요 정보를 보호하면서도 지식 그래프의 강점을 활용할 수 있습니다. 경계를 존중하는 AI입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GraphRAG의 미래는 밝습니다. Neo4j Knowledge Graph Builder와 LlamaIndex Property Graph Index와 같은 도구들의 발전을 보고 있습니다. 이들은 지식 그래프 생성을 이전보다 더 쉽게 만들어줍니다.
 
@@ -139,7 +257,18 @@ GraphRAG의 미래는 밝습니다. Neo4j Knowledge Graph Builder와 LlamaIndex 
 
 하지만 방향은 명확합니다. GraphRAG는 AI 기반 정보 검색 및 추론의 미래를 대표합니다. 이것은 RAG의 진화뿐만 아니라, 원시 데이터와 진정한 이해 간의 간극을 메우는 새로운 패러다임입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 에이젼트 구성 요소: 에이전트릭 RAG에서 지성을 조율하다
 
@@ -149,7 +278,18 @@ GraphRAG의 미래는 밝습니다. Neo4j Knowledge Graph Builder와 LlamaIndex 
 
 AI 전문가로 이뤄진 오케스트라를 이끄는 주자를 상상해보세요. 바로 에이전트릭 RAG의 에이전시 구성 요소의 역할입니다. 핵심에는 메타-에이전트가 있으며, 고수준의 AI로 특화된 하부-에이전트 팀을 감독하고 조정합니다. 각 하부-에이전트는 특정 문서 집합이나 작업을 담당하지만, 분산된 전문성을 어떻게 활용할지 결정하는 것은 메타-에이전트입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 When a query comes in, the meta-agent jumps into action. It analyzes the question, figures out which sub-agents are most relevant, and orchestrates their efforts to provide a thorough answer. This isn’t just about passing on tasks; it’s about cleverly combining information from various sources.
 
@@ -163,7 +303,18 @@ At the core of the agency element is the agentic loop, a recurring process that 
 - Observation: Results from sub-agents are gathered and analyzed.
 - Reranking and Synthesis: The meta-agent assesses and merges the results, often going through the loop multiple times for fine-tuning.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 This loop enables Agentic RAG to handle multi-step challenges that would typically be difficult for traditional RAG systems. It's capable of tackling questions that involve sequential reasoning, comparative analysis, or the integration of various types of data.
 
@@ -173,7 +324,18 @@ A major advantage of the agency component is its capacity for operating autonomo
 
 Thanks to this controlled autonomy, Agentic RAG can:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 수동 개입 없이 새로운 유형의 쿼리에 대응하기
 - 안전한 범위 내에서 창의적인 해결책 탐구하기
@@ -187,7 +349,18 @@ Thanks to this controlled autonomy, Agentic RAG can:
 - 모듈성을 위해: 메타 에이전트는 시스템을 동적으로 재구성할 수 있으며 필요에 따라 하위 에이전트를 활성화 또는 비활성화할 수 있습니다. 심지어 시스템 능력의 공백을 확인하면 새로운 특수 에이전트의 생성을 요청할 수도 있습니다.
 - 구조화된 지식을 위해: 에이전트는 지식 그래프를 탐색하고 보강하여 새로운 연결이나 불일치를 식별할 수 있습니다. 상호 작용에서 얻은 새로운 정보나 통찰로 기반을 둔 지식 구조 업데이트를 일으킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 현실 세계의 영향
 
@@ -199,7 +372,18 @@ Thanks to this controlled autonomy, Agentic RAG can:
 
 ## 도전과 미래 방향
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 강력한 것은, 에이전시 구성 요소 역시 어려움이 없지 않습니다. 다양한 쿼리 간 일관된 성능 보장, 하위 에이전트 간 일관성 유지, 계산 자원 관리는 계속되는 연구 분야입니다.
 
@@ -209,7 +393,18 @@ Thanks to this controlled autonomy, Agentic RAG can:
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모듈화와 구조화된 지식의 융합인 검색 증강 생성(RAG) 시스템은 정보 처리와 추론의 새로운 시대를 열고 있습니다. 이것은 단지 점진적인 개선이 아닙니다. 이는 패러다임 전환이죠.
 
@@ -219,7 +414,18 @@ Speculative RAG가 보여주는 모듈화는 AI 시스템에 전례없는 유연
 
 이러한 접근 방식 사이의 시너지는 마법이 일어나는 곳입니다. Speculative RAG의 민첩하고 특화된 모듈과 GraphRAG의 풍부한 맥락적 이해력을 결합한 시스템이 있다고 상상해 보세요. 그런 시스템은:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 전문 모듈을 사용하여 다양하고 문맥에 맞는 초안을 효율적으로 생성합니다.
 - 복잡한 관계를 세밀히 이해하여 이러한 초안을 검증합니다.
@@ -234,7 +440,18 @@ Speculative RAG가 보여주는 모듈화는 AI 시스템에 전례없는 유연
 - 비전문가가 이러한 복잡한 시스템의 능력을 이용할 수 있는 더 직관적인 인터페이스를 개발할 수 있을까요?
 - 이러한 강력한 정보 처리 능력의 윤리적 사용을 어떻게 보장할 수 있을까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 질문들이 RAG 시스템에서 혁신의 새로운 파도를 주도할 것입니다. Neo4j 지식 그래프 빌더와 LlamaIndex 속성 그래프 인덱스와 같은 도구들이 이러한 기술들을 보다 접근 가능하게 만들면, 산업 전반에 걸쳐 창의적인 응용 프로그램들이 폭발적으로 등장할 것으로 예상됩니다.
 

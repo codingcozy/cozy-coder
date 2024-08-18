@@ -3,17 +3,13 @@ title: "ChatGPT를 활용한 GAP Framework 다코타 로버트슨이 5분만에 
 description: ""
 coverImage: "/assets/img/2024-06-22-GAPFrameworkHowDakotaRobertsonCreates75ViralIdeasin5MinutesUsingChatGPT_0.png"
 date: 2024-06-22 20:38
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-GAPFrameworkHowDakotaRobertsonCreates75ViralIdeasin5MinutesUsingChatGPT_0.png
 tag: Tech
 originalTitle: "GAP Framework: How Dakota Robertson Creates 75 Viral Ideas in 5 Minutes Using ChatGPT"
 link: "https://medium.com/better-marketing/gap-framework-how-dakota-robertson-creates-75-viral-ideas-in-5-minutes-using-chatgpt-0c5dbf69d83d"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-22-GAPFrameworkHowDakotaRobertsonCreates75ViralIdeasin5MinutesUsingChatGPT_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 대부분의 사람들은 온라인에서 자신이 좋아하는 창조자들의 복사/붙여넣기 템플릿을 사용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대부분의 사람들이 다른 모두와 비슷하게 들리기 때문에 다른 사람들과 구분되지 않는다는 것을 의미합니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 "그러니까, 어떻게 흥미로운 아이디어를 생각할 수 있을까요?"
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다코타 로버튼슨은 X에서 최고의 크리에이터로, GAP 프레임워크라는 흥미로운 프레임워크를 개발했어요.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 다코타에 따르면, 세 가지 핵심 콘텐츠 유형을 반드시 다뤄야만 성공적인 개인 브랜드를 만들어갈 수 있다고 해요 — 당신의 목표가 무엇이든 상관없이.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 세 가지 콘텐츠 유형은 다른 사람들이 당신을 알게되고 좋아하며 신뢰할 수 있도록 돕는 데 중점을 두고 있어요.
 
@@ -53,7 +82,18 @@ Dakota의 말대로:
 
 각 형식에 대해 더 자세히 살펴보죠...
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Growth: 사람들이 당신을 알게 하는 방법
 
@@ -63,7 +103,18 @@ Dakota의 말대로:
 
 대부분의 사람들에게 가장 중요한 것들이기 때문에 그렇습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 트렌디한 주제, 현재 이슈, 유명 인물이나 기업에 관한 콘텐츠 등이 있습니다.
 
@@ -73,7 +124,18 @@ Dakota의 말대로:
 
 ## 신뢰성: 사람들로부터 신뢰를 얻는 방법
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 신뢰는 일관된 그리고 투명한 커뮤니케이션을 통해 구축됩니다.
 
@@ -85,7 +147,18 @@ Dakota의 말대로:
 
 누구도 당신이 말하려는 것에 큰 관심을 가질 것이 없습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신의 콘텐츠는 언제나 청중이 고통을 겪는 지점인 지점 A에서 원하는 결과를 달성한 지점 B로 이동하는 데 도움이 되도록 해야 합니다.
 
@@ -95,7 +168,18 @@ Dakota의 말대로:
 
 하지만 고품질의 권위 있는 콘텐츠를 통해 전달되어야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다코타의 말을 인용하자면, "권위 있는 콘텐츠는 유용하고 역량을 보여주는 것으로 신뢰를 구축한다."
 
@@ -105,7 +189,18 @@ Dakota의 말대로:
 
 ## 개인: 어떻게 사람들을 마음에 들게 할 것인가
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저자이자 동기 부여 강연가인 게리슨 윈은 한 번 다음과 같이 말했습니다. “사람들은 신뢰할 만한 사람으로부터 물건을 사고, 그들은 좋아하는 사람을 신뢰합니다.”
 
@@ -115,7 +210,18 @@ Dakota의 말대로:
 
 자신을 드러내는 것이 당신을 모든 것과 구분 짓는 요소입니다 — 인공지능과 능수능방 모조품을 포함하여요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이유는 온라인 사용자가 정보뿐만 아니라...
 
@@ -125,7 +231,18 @@ Dakota의 말대로:
 
 여기서 최고의 창조자들이 공간의 다른 사람들과 차별화를 만들어내는 곳입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # GAP 프레임워크 구현
 
@@ -135,7 +252,18 @@ Dakota의 말대로:
 
 ChatGPT를 사용하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 중요한 점은 AI가 콘텐츠를 작성하도록 하는 것이 아니라, 다른 사람들과 똑같이 들리지 않도록 하는 것입니다.
 
@@ -145,11 +273,33 @@ ChatGPT에게는 콘텐츠 아이디어를 유도하는 질문을 하도록 요�
 
 이것은 매우 간단합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 표를 Markdown 형식으로 변경해 주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 완료하셨나요? "Yes"라고 대답해주세요.
 
@@ -159,7 +309,18 @@ ChatGPT가 관련된 질문을 하려면 당신에 대해 조금 알아야 합�
 
 가능한 한 구체적이고 자세할수록 더 나은 질문을 할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이렇게 번역해주세요:
 
@@ -177,7 +338,18 @@ ChatGPT가 관련된 질문을 하려면 당신에 대해 조금 알아야 합�
 이해하셨다면 '네'라고 답변해주세요.
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 번 프롬프트를 입력하면 ChatGPT가 "예"라고 답할 거예요.
 
@@ -187,7 +359,18 @@ ChatGPT가 관련된 질문을 하려면 당신에 대해 조금 알아야 합�
 
 이렇게 하면 원하는 대상에 맞게 콘텐츠를 관련성 있게 유지할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에 있는 것을 보세요:
 
@@ -203,7 +386,18 @@ ChatGPT가 관련된 질문을 하려면 당신에 대해 조금 알아야 합�
 
 그러나 추가적인 영감이 필요하다면, Dakota가 무료 7일 교육용 이메일 코스에서 작성한 내용을 살펴보세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 내 대상 고객:
@@ -224,7 +418,18 @@ ChatGPT가 관련된 질문을 하려면 당신에 대해 조금 알아야 합�
 
 ChatGPT에게 방금 제공한 모든 정보를 로드하는 목적을 알려주어 이 작업을 수행합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어:
 
@@ -242,7 +447,18 @@ GAP 프레임워크를 사용하여, 이를 달성하는 각 GAP 프레임워크
 
 좋아하는 질문을 선택하고, 그에 대한 콘텐츠를 작성하면 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 최종 생각
 
@@ -252,7 +468,18 @@ GAP 프레임워크를 사용하여, 이를 달성하는 각 GAP 프레임워크
 
 소셜 미디어 플랫폼 전체에서 50만 명 이상의 팔로워를 보유한 Dakota에 따르면, 자신을 돋보이게 하는 열쇠는 콘텐츠 전략에서 중요한 3가지 축을 향하는 것이라고 한다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 다양한 관객에 도달할 수 있는 성장 콘텐츠.
 - 역량을 보여주고 사람들이 신뢰할 수 있는 근거를 제공하는 권위 있는 콘텐츠.
@@ -264,6 +491,17 @@ GAP 프레임워크를 사용하여, 이를 달성하는 각 GAP 프레임워크
 
 혼자 사업을 운영 중이지만 새로운 고객을 확보하는 데 어려움을 겪고 계신가요? 고수익 요소주의자가 되는 데 도움이 되는 무료 안내서를 다운로드하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 많은 마케팅 팁과 노하우를 원하세요? Better Marketing 뉴스레터 'The Marketing Memo'를 구독해보세요!

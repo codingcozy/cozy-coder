@@ -3,17 +3,13 @@ title: "AWS IoT Core  꼭 알아야 할 모든 것"
 description: ""
 coverImage: "/assets/img/2024-06-22-AWSIoTCoreEverythingYouNeedToKnow_0.png"
 date: 2024-06-22 17:59
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-AWSIoTCoreEverythingYouNeedToKnow_0.png
 tag: Tech
 originalTitle: "AWS IoT Core — Everything You Need To Know."
 link: "https://medium.com/@umerfarooqai/exploring-internet-of-things-iot-with-aws-iot-core-in-depth-part-i-overview-and-provisioning-20f914e195f"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-22-AWSIoTCoreEverythingYouNeedToKnow_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 창립자로써, 우리는 항상 제품을 빠르게 시장에 출시하길 원합니다. 백만 달러 제품으로 변할 아이디어가 떠오르면, 그 아이디어를 실현으로 바꿔야 합니다. 그리고 빨리! 기술은 시간이 지남에 따라 발전해 왔습니다. 요즘에는 기술적 발전 덕분에 비즈니스가 제품을 과거보다 훨씬 빠르게 시장에 출시할 수 있습니다. 특히 클라우드 기술은 응용 프로그램을 배포하는 데 더 간단하고 빠르게 만들어 주었습니다. 이제는 어디에서나 컴퓨팅 파워 및 다양한 저장소에 액세스할 수 있어 제품을 신속하게 시장에 출시하기가 더 쉬워졌습니다. 따라서 제품 개발 주기를 단축하려면 더 이상 볼 것이 없습니다 - 클라우드가 해답입니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비슷하게, 센서와 같은 물리적 장치가 있는 경우 다른 장치와 데이터를 교환하고 싶다면, 해당 센서와 동일한 위치에 존재할 수도 있고 그렇지 않을 수도 있는 다른 장치와 데이터를 교환하고 싶다면, 다시 말하면 — 클라우드가 해답입니다! 세계 한쪽에 센서를 설치하고 세계 다른 지역에 설치된 장치와 손쉽게 통신할 수 있습니다. 이것이 "사물 인터넷"의 세계입니다.
 
@@ -42,7 +49,18 @@ isUpdated: true
 - 정책 문서 — 장치 권한 부여
 - 장치 쉐도우
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 사물 인터넷 인프라
 
@@ -52,9 +70,20 @@ isUpdated: true
 
 ![](/assets/img/2024-06-22-AWSIoTCoreEverythingYouNeedToKnow_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-MQTT 브로커는 컴퓨터에 설치할 수 있는 애플리케이션입니다. 장치들은 MQTT 프로토콜을 사용하여 MQTT 브로커에 연결할 수 있습니다. "Mosquito MQTT 브로커"는 매우 일반적으로 사용되는 서비스로, 여러분의 컴퓨터에 설치할 수 있습니다. 설치하고 한 번 시도해보고 싶다면 이 링크를 따를 수 있습니다. 서버와 통신하기 위해 여러 라이브러리가 사용 가능하며(MQTT 프로토콜을 구현하는 여러 프로그래밍 언어에 따라), 예를 들어, Python을 좋아한다면 "paho-mqtt"를 설치하고 브로커와 통신을 시작할 수 있습니다. 아래는 MQTT 브로커에 연결하고 그런 다른 노드에서 데이터를 수신하기 시작할 Python 코드의 예시입니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+MQTT 브로커는 컴퓨터에 설치할 수 있는 애플리케이션입니다. 장치들은 MQTT 프로토콜을 사용하여 MQTT 브로커에 연결할 수 있습니다. "Mosquito MQTT 브로커"는 매우 일반적으로 사용되는 서비스로, 여러분의 컴퓨터에 설치할 수 있습니다. 설치하고 한 번 시도해보고 싶다면 이 링크를 따를 수 있습니다. 서버와 통신하기 위해 여러 라이브러리가 사용 가능하며(MQTT 프로토콜을 구현하는 여러 프로그래밍 언어에 따라), 예를 들어, Python을 좋아한다면 "paho-mqtt"를 설치하고 브로커와 통신을 시작할 수 있습니다. 아래는 MQTT 브로커에 연결하고 그런 다른 노드에서 데이터를 수신하기 시작할 Python 코드의 예시입니다.
 
 ```js
 import paho.mqtt.client as mqtt
@@ -84,7 +113,18 @@ client.loop_forever()
 
 위에서 설명한 대로 MQTT 브로커를 사용하여 수백만 달러 짜리 IoT 아이디어를 구현하려는 것에 너무 마음이 고요해지기 전에 고려해야 할 사항이 여러 가지 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 모든 노드는 통신하기 위해 MQTT 브로커에 액세스해야 합니다. 브로커가 설치된 기계는 공개되어 있고 보안이 강화되어 있어야 합니다. 일반적으로, 우리는 이를 위해 AWS EC2 인스턴스와 같은 가상 머신을 사용합니다.
 - 가상 서버를 사용할 때에도 서버 보안은 중요합니다. 서버가 공개되어 있다면 아무나 연결하여 남용할 수 있어 매달 큰 클라우드 요금이 발생할 수 있습니다.
@@ -103,7 +143,18 @@ client.loop_forever()
 
 # AWS IoT Core
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AWS IoT Core의 랜딩 페이지에 따르면 "AWS IoT Core를 사용하면 인프라를 관리하지 않고 수조 개의 IoT 장치를 연결하고 수십억 개의 메시지를 AWS 서비스로 라우팅할 수 있습니다." 이 개념은 "서버리스(Serverless)"라고도 합니다.
 
@@ -113,7 +164,18 @@ AWS IoT Core는 당신에게 IoT 네트워크 전반에 걸쳐 복잡한 기능�
 
 AWS IoT에 액세스하려면 AWS 계정에 로그인해야 합니다. AWS를 처음 사용하는 경우 무료로 새 계정을 등록할 수 있습니다. 그러나 등록에는 신용카드가 필요합니다. 등록하면 대부분의 서비스에 무료로 액세스할 수 있는 12개월 무료 티어 계정을 받게 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신의 계정에 로그인 한 후, 검색 창에서 "IoT Core"를 검색할 수 있어요. 그런 다음 "IoT Core"를 클릭하세요.
 
@@ -123,7 +185,18 @@ AWS IoT에 액세스하려면 AWS 계정에 로그인해야 합니다. AWS를 �
 
 ![AWS IoT Core 이미지](/assets/img/2024-06-22-AWSIoTCoreEverythingYouNeedToKnow_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AWS IoT Core은 본질적으로 추가 기능을 갖춘 MQTT 브로커입니다. 이전에 MQTT 브로커를 다뤘던 것처럼 AWS IoT Core는 저지연과 고처리량을 제공하는 관리형 MQTT 브로커를 제공합니다. 이 브로커의 설치, 유지 보수 또는 보안을 관리할 필요가 없습니다. 장치가 인가되면 안전하게 메시지를 송수신할 수 있습니다. IoT 네트워크의 확장성을 걱정할 필요가 없습니다. AWS에 의해 자동으로 관리되기 때문에 기본 리소스의 용량을 늘릴 필요 없이 IoT 장치의 수를 늘릴 수 있습니다. AWS IoT Core에서 제공하는 다양한 기능에 대한 개요는 다음과 같습니다:
 
@@ -139,7 +212,18 @@ AWS IoT Core은 본질적으로 추가 기능을 갖춘 MQTT 브로커입니다.
 
 <img src="/assets/img/2024-06-22-AWSIoTCoreEverythingYouNeedToKnow_4.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 테스트: 이 카테고리의 기능들은 미리 제공된 또는 사용자 정의 테스트 스위트로 IoT 노드를 테스트할 수 있습니다. 또한 원하는 페이로드를 어떤 주제로든 게시할 수 있는 인터페이스를 제공합니다. 구독을 직접 설정할 수도 있습니다. 이는 테스트용으로만 사용됩니다.
 
@@ -149,7 +233,18 @@ AWS IoT Core은 본질적으로 추가 기능을 갖춘 MQTT 브로커입니다.
 
 AWS IoT Core는 매우 사용자 친화적인 대시보드를 제공하여 기본적인 IoT 메트릭을 제공합니다. 좌측 탐색 막대에서 "모니터"를 클릭하여 성공적인 연결, 실행된 규칙 등과 같은 통계를 제공하여 IoT 네트워크의 문제를 식별하는 데 도움이 되는 다양한 메트릭을 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![AWS IoT Core](/assets/img/2024-06-22-AWSIoTCoreEverythingYouNeedToKnow_6.png)
 
@@ -160,7 +255,18 @@ AWS IoT Core는 매우 사용자 친화적인 대시보드를 제공하여 기�
 - 디바이스에 등록 — 노드를 하나씩 설정하려면 이 옵션을 선택하십시오. 단일 기기를 프로비저닝하려면 하단의 "시작하기" 버튼을 클릭할 수 있습니다.
 - 여러 기기에 등록 — 한 번에 여러 노드를 설정하려면 "템플릿"을 생성하여 노드가 어떻게 프로비저닝될지에 대한 모든 세부 정보를 제공할 수 있습니다. "템플릿 생성"을 클릭하여 프로세스를 시작할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-06-22-AWSIoTCoreEverythingYouNeedToKnow_7.png]
 
@@ -170,7 +276,18 @@ AWS IoT Core는 매우 사용자 친화적인 대시보드를 제공하여 기�
 
 다음 화면에서 플랫폼과 SDK를 선택할 수 있습니다. 이러한 옵션들은 필요한 라이브러리를 구성하고 설치하는 데 도움이 되도록 스크립트를 생성합니다. 마이크로 컨트롤러를 사용 중이라면 필요한 조합을 선택하고 "다음"을 클릭하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-06-22-AWSIoTCoreEverythingYouNeedToKnow_9.png](/assets/img/2024-06-22-AWSIoTCoreEverythingYouNeedToKnow_9.png)
 
@@ -180,7 +297,18 @@ AWS IoT Core는 매우 사용자 친화적인 대시보드를 제공하여 기�
 
 기본적으로 일부 선택적 구성은 숨겨져 있습니다. 이를 확장하려면 "선택적 구성 보기"를 클릭하면 됩니다. 이러한 옵션은 이 프로세스를 완료한 후에도 수정할 수 있습니다. 따라서 지금은 안심하고 무시해도 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-AWSIoTCoreEverythingYouNeedToKnow_11.png" />
 
@@ -192,7 +320,18 @@ AWS IoT Core는 매우 사용자 친화적인 대시보드를 제공하여 기�
 
 <img src="/assets/img/2024-06-22-AWSIoTCoreEverythingYouNeedToKnow_12.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 화면에서 확인하실 수 있듯이, 자동으로 "MyFirstThingName-Policy"라는 정책 문서가 생성되었습니다.이 문서는 노드가 MQTT 브로커에 연결하고 허용된 주제에 발행/구독할 수 있는 권한을 제공합니다. 정책 문서에 대해 더 알고 싶다면, 이 블로그의 "정책 문서 — 장치 인가" 섹션으로 이동해 보세요.
 
@@ -202,7 +341,18 @@ AWS IoT Core는 매우 사용자 친화적인 대시보드를 제공하여 기�
 
 네 개의 파일이 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - MyFirstThingName.cert.pem — 인증용 클라이언트 인증서
 - MyFirstThingName.private.key — IoT Core와의 안전한 통신을 위한 개인 키
@@ -215,10 +365,20 @@ AWS IoT Core는 매우 사용자 친화적인 대시보드를 제공하여 기�
 
 축하합니다! 몇 번의 클릭만으로 첫 번째 IoT 디바이스를 성공적으로 프로비저닝했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-![image](/assets/img/2024-06-22-AWSIoTCoreEverythingYouNeedToKnow_15.png) 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+![image](/assets/img/2024-06-22-AWSIoTCoreEverythingYouNeedToKnow_15.png)
 
 만약 자체 IoT 인프라를 구축한다면, 기기의 인증 및 보안이 꽤 어려울 수 있습니다. 보셨듯이, AWS IoT Core에서 기기 프로비저닝은 매우 쉽습니다. IoT 코어에 등록되거나 프로비저닝되지 않은 기기는 AWS IoT Core와 통신할 수 없습니다.
 
@@ -226,8 +386,18 @@ AWS IoT Core는 매우 사용자 친화적인 대시보드를 제공하여 기�
 
 수백 대 또는 수백만 대의 기기가 있다면, 각 기기를 개별적으로 프로비저닝하는 것은 고통스럽고 시간이 많이 소요될 수 있습니다. 주로 AWS IoT Core는 여러 기기를 프로비저닝하는 두 가지 방법을 제공합니다:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Just-in-time provisioning (JITP): JITP는 장치가 처음으로 AWS IoT에 연결될 때 장치를 프로비저닝하는 템플릿과 함께 이루어집니다. 많은 장치를 등록해야 하지만 대량 프로비저닝 목록으로 구성할 수 있는 정보가 없는 경우 이 옵션이 좋습니다. 이를 구성하려면 인증서, 인증서 서명 요청 및 AWS Lambda 함수에 대한 좋은 이해가 필요합니다. JITP에 대해 자세히 설명하는 곳이 있는데 이 블로그를 참고해보세요.
 - Bulk registration: 이 옵션을 사용하면 S3 버킷에 저장된 파일에서 단일 항목 프로비저닝 템플릿 값 목록을 지정할 수 있습니다. 이 접근 방식은 원하는 특성이 알려진 많은 장치들이 목록으로 구성될 때 잘 작동합니다.
@@ -238,7 +408,18 @@ AWS IoT Core는 매우 사용자 친화적인 대시보드를 제공하여 기�
 
 ![이미지2](/assets/img/2024-06-22-AWSIoTCoreEverythingYouNeedToKnow_17.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 가지씩 모든 필드에 대해 이야기해봐요.
 
@@ -251,7 +432,18 @@ AWS IoT Core는 매우 사용자 친화적인 대시보드를 제공하여 기�
 
 <img src="/assets/img/2024-06-22-AWSIoTCoreEverythingYouNeedToKnow_18.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - IAM Role: 이 옵션은 AWS의 작동 방식에 특화되어 있습니다. IAM 콘솔에 이동하여 새 역할을 생성하고 AWSIoTThingRegistration 및 AmazonS3FullAccess 정책을 연결할 수 있습니다. 역할의 이름을 자유롭게 지정할 수 있습니다. 이 예시에서는 역할 이름을 "TestRole"로 사용합니다. IAM 콘솔에서 TestRole의 세부 정보는 다음과 같습니다:
 
@@ -273,7 +465,7 @@ AWS IoT Core는 매우 사용자 친화적인 대시보드를 제공하여 기�
             "Default" : "LA"
         },
         "CertificateId" : {
-            "Type" : "String"    
+            "Type" : "String"
         }
     },
     "Resources" : {
@@ -288,7 +480,7 @@ AWS IoT Core는 매우 사용자 친화적인 대시보드를 제공하여 기�
                 "ThingTypeName" : "REPLACE",
                 "ThingGroups" : "DO_NOTHING"
             }
-        },  
+        },
         "certificate" : {
             "Type" : "AWS::IoT::Certificate",
             "Properties" : {
@@ -305,7 +497,18 @@ AWS IoT Core는 매우 사용자 친화적인 대시보드를 제공하여 기�
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 화면처럼 최종 구성이 보입니다. 작업을 완료하면 "등록 시작"을 클릭하세요.
 
@@ -315,7 +518,18 @@ AWS IoT Core는 매우 사용자 친화적인 대시보드를 제공하여 기�
 
 ![이미지](/assets/img/2024-06-22-AWSIoTCoreEverythingYouNeedToKnow_21.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 확인하려면 "foo"와 "bar"가 성공적으로 생성되었는지를 확인할 수 있습니다. Manage → Things로 이동해주세요.
 
@@ -325,7 +539,18 @@ AWS IoT Core는 매우 사용자 친화적인 대시보드를 제공하여 기�
 
 ## 노드 프로비저닝을 위한 대체 방법 — 모든 단계를 구성하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특정한 요구 사항이 있고 각 항목을 수동으로 구성하려면 '관리 → 사물'로 이동한 후 '사물 만들기' 버튼을 클릭해야 합니다. 이전에 따라한 과정과 유사하지만 더 많고 유연한 구성 옵션을 제공합니다. 이는 더 고급 사용자를 위한 것입니다.
 
@@ -335,7 +560,18 @@ AWS IoT Core는 매우 사용자 친화적인 대시보드를 제공하여 기�
 
 ![이미지](/assets/img/2024-06-22-AWSIoTCoreEverythingYouNeedToKnow_24.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "하나의 항목 생성"으로 진행해보겠습니다. 새 장치의 이름을 입력해주세요. "MySecondDevice"라고 부르겠습니다. 나머지 옵션은 기본값으로 남겨두세요.
 
@@ -345,7 +581,18 @@ AWS IoT Core는 매우 사용자 친화적인 대시보드를 제공하여 기�
 
 <img src="/assets/img/2024-06-22-AWSIoTCoreEverythingYouNeedToKnow_26.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 화면에서는 인증서를 구성해야 합니다. 여기서는 AWS가 인증서를 생성하거나 사용자 지정 인증서를 사용하거나 별도의 인증서 기관을 등록하고 인증서를 생성할 수 있는 옵션이 있습니다. 이 과정이 비용이 많이든다고 하니 AWS가 새로운 인증서를 자동으로 생성하게 두는 것이 좋습니다. 나중에 인증서를 생성하고 Thing에 연결할 수 있습니다. 계속하려면 "다음"을 클릭하세요.
 
@@ -355,7 +602,18 @@ AWS IoT Core는 매우 사용자 친화적인 대시보드를 제공하여 기�
 
 ![AWS IoT Core](/assets/img/2024-06-22-AWSIoTCoreEverythingYouNeedToKnow_28.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로운 팝업이 나타납니다. 제공된 모든 인증서를 컴퓨터의 안전한 위치에 다운로드해야 합니다.
 
@@ -365,7 +623,18 @@ AWS IoT Core는 매우 사용자 친화적인 대시보드를 제공하여 기�
 
 모든 인증서와 키를 다운로드한 후 “완료” 버튼을 누르세요. 이제 새로운 장치를 수동으로 성공적으로 생성했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 따라오셨다면, 지금 화면에 4개의 장치가 보일 것입니다.
 
@@ -375,13 +644,24 @@ AWS IoT Core는 매우 사용자 친화적인 대시보드를 제공하여 기�
 
 AWS IoT Core에서 장치를 프로비저닝 할 때, 프로비저닝되는 모든 Thing 또는 노드에 "정책" 문서를 첨부합니다. 정책 문서는 단순히 해당 장치에 연결하는 JSON 구조의 파일로, 해당 장치가 다음 작업을 수행하도록 승인합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - AWS IoT Core 브로커에 연결합니다 (iot:Connect 동작) — 필요에 따라 클라이언트ID 형식 등 다양한 조건을 추가할 수 있습니다.
 - 특정 노드가 MQTT 브로커에서 주어진 주제에서 발행/구독/수신할 수 있게 합니다. 동일한 노드가 발행할 수 없는 주제에 구독하는 동안 다른 주제에 발행할 수 있습니다.
 - AWS는 '$'iot:Connection.Thing.ThingName'과 같은 일부 IoT 변수를 제공하여 정책 문서에 추가하여 노드가 다른 노드에 발행하는 것을 제한할 수 있습니다.
 
-다음은 정책의 예시입니다. 이 예시 정책에서 노드는 $'iot:Connection.Thing.ThingName'/room*에서 데이터를 발행, 구독 및 수신할 수 있습니다.
+다음은 정책의 예시입니다. 이 예시 정책에서 노드는 $'iot:Connection.Thing.ThingName'/room\*에서 데이터를 발행, 구독 및 수신할 수 있습니다.
 
 ```js
 {
@@ -429,13 +709,22 @@ AWS IoT Core에서 장치를 프로비저닝 할 때, 프로비저닝되는 모�
 
 이미 생성된 정책을 확인하려면 Secure → Policies로 이동하세요. 따라왔다면, "MyFirstThingName-Policy"는 위자드를 사용하여 단일 장치를 프로비저닝할 때 생성된 정책입니다. 두 번째 정책은 대량 등록 프로세스를 통해 생성된 정책입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지 태그를 다음과 같이 변경해주세요.
 
-
 ![AWS IoT Core](/assets/img/2024-06-22-AWSIoTCoreEverythingYouNeedToKnow_31.png)
-
 
 "MyFirstThingName-Policy"를 클릭하세요. 다음 화면에서 "JSON" 토글 버튼을 클릭하여 정책 문서를 JSON 형식으로 볼 수 있습니다. 여기에서 정책을 수정하고 새 버전의 정책 문서를 게시할 수 있습니다. 이를 통해 이전 버전으로 되돌아가는 것이 가능합니다.
 
@@ -443,7 +732,18 @@ AWS IoT Core에서 장치를 프로비저닝 할 때, 프로비저닝되는 모�
 
 "MyFirstThingName-Policy"의 정책 문서를 수정하지 않았다면 다음과 같이 나타날 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```json
 {
@@ -451,11 +751,7 @@ AWS IoT Core에서 장치를 프로비저닝 할 때, 프로비저닝되는 모�
   "Statement": [
     {
       "Effect": "Allow",
-      "Action": [
-        "iot:Publish",
-        "iot:Receive",
-        "iot:RetainPublish"
-      ],
+      "Action": ["iot:Publish", "iot:Receive", "iot:RetainPublish"],
       "Resource": [
         "arn:aws:iot:us-east-2:906961234567:topic/sdk/test/java",
         "arn:aws:iot:us-east-2:906961234567:topic/sdk/test/Python",
@@ -465,9 +761,7 @@ AWS IoT Core에서 장치를 프로비저닝 할 때, 프로비저닝되는 모�
     },
     {
       "Effect": "Allow",
-      "Action": [
-        "iot:Subscribe"
-      ],
+      "Action": ["iot:Subscribe"],
       "Resource": [
         "arn:aws:iot:us-east-2:906961234567:topicfilter/sdk/test/java",
         "arn:aws:iot:us-east-2:906961234567:topicfilter/sdk/test/Python",
@@ -477,9 +771,7 @@ AWS IoT Core에서 장치를 프로비저닝 할 때, 프로비저닝되는 모�
     },
     {
       "Effect": "Allow",
-      "Action": [
-        "iot:Connect"
-      ],
+      "Action": ["iot:Connect"],
       "Resource": [
         "arn:aws:iot:us-east-2:906961234567:client/sdk-java",
         "arn:aws:iot:us-east-2:906961234567:client/basicPubSub",
@@ -498,7 +790,18 @@ AWS IoT Core에서 장치를 프로비저닝 할 때, 프로비저닝되는 모�
 
 AWS IoT Core 정책을 사용하면 각 노드에 대해 별도의 정책을 생성하거나 응용 프로그램의 필요에 따라 여러 노드에 동일한 정책을 공유할 수 있습니다. 이 기능은 매우 유용하며 콘솔을 사용하여 이러한 정책을 쉽게 관리할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 장치 그림자
 
@@ -527,7 +830,18 @@ AWS IoT Core의 매우 유용한 기능 중 하나는 장치 그림자입니다.
 
 "Thing"에 그림자를 추가하려면, 관리 → Things로 이동하여 이미 프로비저닝한 장치 중에서 선택하십시오. "장치 그림자"를 클릭하십시오. 이 서비스 없이 "MySecondDevice"를 만든 경우 기존의 그림자를 찾을 수 없습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-AWSIoTCoreEverythingYouNeedToKnow_33.png" />
 
@@ -538,7 +852,18 @@ AWS IoT Core의 매우 유용한 기능 중 하나는 장치 그림자입니다.
 
 <img src="/assets/img/2024-06-22-AWSIoTCoreEverythingYouNeedToKnow_34.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "Unnamed (classic) Shadow"을 선택하고 "만들기"를 클릭하세요.
 
@@ -548,7 +873,18 @@ AWS IoT Core의 매우 유용한 기능 중 하나는 장치 그림자입니다.
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AWS IoT 코어는 제품을 위한 IoT 인프라를 신속하게 배포할 수 있도록 하는 여러 기능을 제공합니다. 인프라, 보안 및 관리에 대해 걱정할 필요 없이 제품의 핵심 비즈니스 로직에 집중하세요. 이 블로그에서는 노드 프로비저닝, 대량 등록, 정책 구성, 그림자 등과 같은 중요한 기능을 논의했습니다.
 
@@ -558,6 +894,17 @@ AWS IoT Core의 요금 페이지에 따르면, 유럽(아일랜드) 지역에서
 
 ## 저자와 연락하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 👋 만나서 반가워요! 저랑 소통하고 싶으시면 저의 LinkedIn 계정에서 연락해주세요: [https://www.linkedin.com/in/umerfarooqai/](https://www.linkedin.com/in/umerfarooqai/). 질문이 있으면 언제든지 물어봐주세요! 함께 소통해요! ✨

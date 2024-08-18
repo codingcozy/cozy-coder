@@ -3,18 +3,13 @@ title: "잊힌 권리가 새롭고 무시무시한 방향을 향하다"
 description: ""
 coverImage: "/assets/img/2024-06-19-Therighttobeforgottentakesanewandsinisterturn_0.png"
 date: 2024-06-19 21:35
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-Therighttobeforgottentakesanewandsinisterturn_0.png
 tag: Tech
 originalTitle: "The “right to be forgotten” takes a new and sinister turn"
 link: "https://medium.com/enrique-dans/the-right-to-be-forgotten-takes-a-new-and-sinister-turn-8b5c296c054d"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![Image](/assets/img/2024-06-19-Therighttobeforgottentakesanewandsinisterturn_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 수세기에 걸쳐 뉴스에 등장한 사람들은 게재된 후 자신에 대해 잘못되거나 틀린 내용이 있으면 수정을 요청할 수밖에 없었습니다. 종종, 이러한 수정은 어찌됐던 유용하지 않았는데, 그것은 그날의 뉴스 사이에서 숨겨져 있고집단 상상력이 기억하는 것은 원래 뉴스였기 때문입니다, 비록 그것이 틀려도 오류가 있더라도 말이죠.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인터넷의 등장 이후에는, 원본 뉴스에 고침 사항이 고정되어 있어서 읽을 때마다 확인할 수 있도록 만들어져 신체적 세계에서 불가능한 것이지만 가상 세계에서 가능한 것이기 때문에, 유럽 연합의 사법부가 검색 엔진에게 해당 개인이 싫어하는 뉴스를 색인화하지 않도록 강제하기로 결정하였습니다. 다시 말해, 혹시 누군가를 행동에 대한 진실을 말함으로써 나쁘게 만든다면, 그들은 법적으로 검색 엔진이 그 항목을 색인화하지 않도록 강제하는 것을 요청할 수 있습니다.
 
@@ -35,7 +40,18 @@ isUpdated: true
 
 종종 강조해도 지나치지 않습니다: '잊혀지기에 대한 권리'는 없습니다. 잊기는 뇌가 무언가를 기억하는 것을 멈추는 생리적인 과정으로, 자발적으로 일어나는 것입니다. 누군가를, 어떤 사람이나 그룹을 특정 기억에서 잊으라고 법을 사용해서 강요할 수 없습니다. '잊혀지기에 대한 권리'는 단순히 존재하지 않으며, 무책임한 판사들이 만들어낸 상상력일 뿐입니다. 사람에 대한 거짓이나 잘못된 뉴스의 게시 효과를 완화할 정당한 것은 해당 뉴스 자체에 수정 링크를 게시함으로써 강요하는 것일 뿐입니다. 이것은 인터넷에서 쉽게 실시할 수 있지만, 절대로 없앨 수는 없습니다. 정보에 대해 암시하거나 접근을 방해함으로써 정의는 달성되지 않으며, 이를 시도하는 것은 무의미합니다. 이상한 권리를 창조하면 부정적인 결과를 낳을 뿐입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인터넷 상의 모든 것이 블록체인에 연결된다면 정말 재밌을 거에요! 그럼 그때 뭔가를 지우려면 행운을 빌어야겠네요!
 

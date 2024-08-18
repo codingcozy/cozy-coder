@@ -3,17 +3,13 @@ title: "우주 탐험 Midjourney AI로 NASA 급 우주 이미지 생성하는 �
 description: ""
 coverImage: "/assets/img/2024-06-23-ExploringtheCosmosCreatingNASA-WorthySpaceImageswithMidjourneyAI_0.png"
 date: 2024-06-23 20:15
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-ExploringtheCosmosCreatingNASA-WorthySpaceImageswithMidjourneyAI_0.png
 tag: Tech
 originalTitle: "Exploring the Cosmos: Creating NASA-Worthy Space Images with Midjourney AI"
 link: "https://medium.com/let-there-be-prompt/exploring-the-cosmos-creating-nasa-worthy-space-images-with-midjourney-ai-3cc2fe6804a9"
 isUpdated: true
 ---
-
-
-
-
 
 우주 이미지를 좋아해요. 허블 우주 망원경, 신 개발된 웹 우주 망원경, 그리고 카시니, 준호, 뉴 호라이즌스 임무에서 얻은 사진들이 정말 놀라웠어요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![우주 이미지](/assets/img/2024-06-23-ExploringtheCosmosCreatingNASA-WorthySpaceImageswithMidjourneyAI_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우주 흡수분자운에는 태양계보다 훨씬 큰 크기의 에틸포르메이트로 가득 차 있어요. 이것이 산딸기에 달콤한 향기를 주는 원인입니다. 거기에는 알코올과 설탕으로 이루어진 구름들도 있답니다.
 
@@ -33,8 +40,18 @@ isUpdated: true
 
 Midjourney는 제 기대를 저버리지 않았어요. 우주와 그 안에 있는 아름다운 현상들의 이미지를 만드는 데 꽤 많은 시간을 보냈죠. 그 이미지들 대부분이 "와우" 요소를 담고 있는 거죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-06-23-ExploringtheCosmosCreatingNASA-WorthySpaceImageswithMidjourneyAI_2.png)
 
@@ -44,8 +61,18 @@ Midjourney을 사용하여 놀라운 우주 이미지를 만드는 데 사용할
 
 - 나선 은하
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 수은 궤도
 
@@ -55,7 +82,18 @@ Midjourney을 사용하여 놀라운 우주 이미지를 만드는 데 사용할
 
 화성 궤도
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 퀘이사르
 
@@ -65,19 +103,39 @@ Midjourney을 사용하여 놀라운 우주 이미지를 만드는 데 사용할
 
 행성 링
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한편, Midjourney는 매우 복잡한 프롬프트 없이 공간 이미지를 잘 다루고 있다고 생각해요. "스타일화" 값이 높은 것도 도움이 된다고 생각해요.
 
 여기 몇 가지 나의 프롬프트 예시가 있어요:
 
-
 ![ExploringtheCosmos](/assets/img/2024-06-23-ExploringtheCosmosCreatingNASA-WorthySpaceImageswithMidjourneyAI_3.png)
-
 
 나는 우주 이미지를 만들 때 처음으로 새로운 "개인화된" 설정을 시도할 기회가 있었어요. Midjourney가 며칠 전에 소개했고, 나의 이미지 순위 설정에 기반을 두었어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제까지 9000개 이상의 이미지를 평가해 왔기 때문에, 내 개인 설정 효과는 시작해보고 최소 요구되는 200개의 이미지만 평가한 사람들과는 매우 다를 것이라고 생각해요.
 
@@ -89,7 +147,18 @@ Midjourney을 사용하여 놀라운 우주 이미지를 만드는 데 사용할
 
 좋은 소식은 다른 사람들의 개인화된 코드를 사용할 수 있다는 거에요. 만약 내 설정을 시도하고 싶다면, "— p 7fp27l4"를 입력해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나는 우주 이미지를 만드는 것을 너무 좋아하는 이유 중 하나는 상상력과 탐험을 위한 많은 공간이 주어진다는 것이에요.
 
@@ -99,7 +168,18 @@ Midjourney을 사용하여 놀라운 우주 이미지를 만드는 데 사용할
 
 그리고 Midjourney와 함께 만들어진 멋진 이미지들은 스타일 참조로도 사용될 수 있다는 걸 알았어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일련의 프롬프트 기술을 배우는 것도 좋은 방법이에요. 누구나 호스헤드 성운에 대해 알고 있어요. 우리만의 것을 만들어볼까요? 예를 들어 댄서 성운이나 강아지 머리 성운 같은 것 말이에요?
 
@@ -109,7 +189,18 @@ Midjourney을 사용하여 놀라운 우주 이미지를 만드는 데 사용할
 
 ![](/assets/img/2024-06-23-ExploringtheCosmosCreatingNASA-WorthySpaceImageswithMidjourneyAI_7.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그렇게 짧지만, 흥미로운 기사였길 바랍니다. 여러분의 우주 탐험 여행을 시작하는 데 도움이 되었으면 좋겠습니다.
 

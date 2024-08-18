@@ -3,17 +3,13 @@ title: "iOS 앱에 커스텀 팝오버 추가하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-22-HowtoAddCustomPopoverstoYouriOSApp_0.png"
 date: 2024-07-22 11:27
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-22-HowtoAddCustomPopoverstoYouriOSApp_0.png
 tag: Tech
 originalTitle: "How to Add Custom Popovers to Your iOS App"
 link: "https://medium.com/better-programming/how-to-add-custom-popovers-to-your-swiftui-ios-app-814bdfad73d0"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-07-22-HowtoAddCustomPopoverstoYouriOSApp_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 그래서... 만약 앱 내 알림이 필요하거나 PIP(화면 안 팝업 비디오)가 필요하거나 온보딩 팝업이 필요하다면 어떻게 해야 할까요? 여기서 맞춤형 팝오버가 필요해집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-22-HowtoAddCustomPopoverstoYouriOSApp_2.png)
 
@@ -35,7 +42,18 @@ Popovers 라이브러리를 사용할 것입니다. 솔직히 말해서, 저는 
 https://github.com/aheze/Popovers
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 시작해 봅시다!
 
@@ -45,7 +63,18 @@ https://github.com/aheze/Popovers
 
 <img src="https://miro.medium.com/v2/resize:fit:400/1*jHRE0isenb7Rr-8A5wo9Jg.gif" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 알았어요. 만약 버튼의 상단에 팝오버를 붙이고 싶다면 어떨까요? 조금의 간격도 활용해볼 수 있어요. 굉장히 간단하게 할 수 있답니다:
 
@@ -55,15 +84,37 @@ https://github.com/aheze/Popovers
 
 ![Customize Animation](https://miro.medium.com/v2/resize:fit:520/1*uoKsIJA5zQgnE81cDov0bg.gif)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-이제 바운시 팝오버가  생겼어요! 하지만 여기서 할 수 있는 것은 그저 표면일 뿐입니다. 아래에 모든 커스터마이징할 수 있는 속성들의 목록이 있어요. 이제 좀 더 고급 기능들을 살펴봅시다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+이제 바운시 팝오버가 생겼어요! 하지만 여기서 할 수 있는 것은 그저 표면일 뿐입니다. 아래에 모든 커스터마이징할 수 있는 속성들의 목록이 있어요. 이제 좀 더 고급 기능들을 살펴봅시다.
 
 # 고급 팝오버🔗
 
 내가 가장 좋아하는 SwiftUI의 기능 중 하나는 전환(transition)입니다. 뷰 구조가 동일한 한도 내에서 시각적으로 다른 뷰 사이를 애니메이션으로 전환할 수 있어요. 팝오버는 .popover(selection:) 수정자를 통해 이를 활용하여 다중 팝오버 사이를 부드럽게 전환할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 좋아요! 그런데 또 하나 해볼 게요! Popovers를 만들 때 가능한 한 맞춤화할 수 있도록 만들었어요. 만약 Popover를 기존 뷰에 연결하고 싶다면, 배경을 추가하고 PopoverReader를 넣어보세요. PopoverReader은 GeometryReader처럼 작동하지만 더 멋져요!
 
@@ -73,7 +124,18 @@ https://github.com/aheze/Popovers
 
 ![image](https://miro.medium.com/v2/resize:fit:520/1*JoHMaWvR4opLKCFzTq0FAQ.gif)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 메뉴 템플릿과 함께 소스에 포함된 다른 유틸리티 뷰와 메소드들이 있어요. 무엇보다도 더 멋진 것을 만들어보는 건 여러분에게 맡기겠어요.
 

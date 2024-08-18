@@ -3,17 +3,13 @@ title: "쉘 스크립팅"
 description: ""
 coverImage: "/assets/img/2024-06-19-ShellScripting_0.png"
 date: 2024-06-19 01:00
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-ShellScripting_0.png
 tag: Tech
 originalTitle: "Shell Scripting"
 link: "https://medium.com/@roddamgokul1999/shell-scripting-32368465e51c"
 isUpdated: true
 ---
-
-
-
-
 
 셸 스크립팅이란 무엇인가요?
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 서버에서 파일을 백업하는 것과 같이 일상적인 작업에서 인간의 노력을 줄여줄 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 종류별 쉘:
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 이식 가능하고 대부분 선호되는 쉘입니다. 그러나 산술 및 논리 표현 처리 등 일부 고급 기능이 부족합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 C 셸 (csh):
 
@@ -43,7 +61,18 @@ TENEX C 셸 (tcsh):
 
 철자 교정 및 프로그래밍 가능한 단어 완성과 같은 고급 기능을 갖춘 C 셸의 확장판입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 C 셸 사용자에게 친숙한 경험을 제공하면서 추가 기능이 있습니다.
 
@@ -53,7 +82,18 @@ Z 셸:
 
 효율적인 셸과 매우 구성 가능한 환경을 원하는 사용자들 사이에서 인기가 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 셸의 여러 종류가 있어요. 우리의 필요와 선호에 따라 그 중에서 선택할 수 있어요.
 
@@ -63,7 +103,18 @@ Z 셸:
 
 ![이미지](/assets/img/2024-06-19-ShellScripting_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 이미지에서 볼 수 있듯이, 우리는 사용자로부터 입력을 받기 위해 "read"를 사용할 수 있습니다.
 
@@ -73,8 +124,18 @@ Z 셸:
 
 echo 명령어에서 변수를 출력하려면 변수 앞에 "$" 기호를 사용해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![스크립트 실행 전 사용자 입력을 받을 수 있습니다](/assets/img/2024-06-19-ShellScripting_1.png)
 
@@ -84,8 +145,18 @@ echo 명령어에서 변수를 출력하려면 변수 앞에 "$" 기호를 사�
 
 여기서 num1=$1은, 우리가 bash scriptname.sh라는 명령어로 스크립트를 실행할 때 변수에 값을 제공할 것으로 예상됩니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저의 스크립트 이름을 med.sh로 지었기 때문에 이 bash med.sh value1 value2를 따를 수 있어요. 이렇게 하면 두 값이 num1과 num2에 할당됩니다.
 
@@ -95,8 +166,18 @@ echo 명령어에서 변수를 출력하려면 변수 앞에 "$" 기호를 사�
 
 아래 이미지처럼 쉘에서 "t"라는 변수를 값 10으로 초기화해 봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-ShellScripting_4.png)
 
@@ -106,9 +187,18 @@ echo 명령어에서 변수를 출력하려면 변수 앞에 "$" 기호를 사�
 
 echo 문이 작동하고 변수 값이 출력된 것을 확인할 수 있었어요. 이제 스크립트로 시도해 볼게요:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![ShellScripting_6](/assets/img/2024-06-19-ShellScripting_6.png)
 
@@ -118,8 +208,18 @@ It gives nothing, because variable "t" is not global. So, to make it global, we 
 
 ![ShellScripting_8](/assets/img/2024-06-19-ShellScripting_8.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위와 같이 보시다시피, 스크립트 내 echo 문은 "t" 값을 출력할 수 있습니다.
 
@@ -129,8 +229,18 @@ For 루프:
 
 여기에서 for 루프는 C 언어로 작성한 것과 동일합니다. 이 스크립트는 변수 n의 값들을 출력합니다. 매 반복마다 조건 n≤5를 확인하며, 참이면 해당 값을 출력합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-ShellScripting_10.png)
 
@@ -140,8 +250,18 @@ Bash 배열은 매우 특별합니다. 다른 프로그래밍 언어와 달리 �
 
 구문: array_name=()
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-ShellScripting_11.png" />
 
@@ -151,7 +271,18 @@ Bash 배열은 매우 특별합니다. 다른 프로그래밍 언어와 달리 �
 
 'gokul[@]'은:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 gokul은 우리가 참조하는 배열 이름입니다. @는 중괄호 내부에 있는 특수한 자리 표시자로, 배열을 공백으로 구분된 개별 요소로 확장하는 역할을 합니다. 'gokul[*]'도 사용할 수 있습니다.
 
@@ -161,8 +292,18 @@ gokul은 우리가 참조하는 배열 이름입니다. @는 중괄호 내부에
 
 함수를 사용하여 입력된 숫자를 더하고 빼고 나누는 스크립트를 만들어 봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 syntax : function_name()' — — — — — Code — — — — -'
 
@@ -172,8 +313,18 @@ function_name 함수를 통해 해당 함수를 필요한 곳 어디서든 호�
 
 저희는 각각 덧셈, 뺄셈, 나눗셈을 위한 sum, sub, div 3개의 함수를 생성했습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 함수 안에는 위 스크립트에 표시된 대로 논리 연산을 수행하는 논리가 포함되어 있습니다. 그리고 결과가 출력됩니다.
 
@@ -183,7 +334,18 @@ read 명령어를 사용하여 입력값으로 2개의 숫자를 받고, read �
 
 ![이미지](/assets/img/2024-06-19-ShellScripting_14.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Case :
 
@@ -197,7 +359,18 @@ Lets see example below.
 
 ![Shell Scripting Example](/assets/img/2024-06-19-ShellScripting_15.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스크립트는 기분 조건을 인수로 사용합니다.
 

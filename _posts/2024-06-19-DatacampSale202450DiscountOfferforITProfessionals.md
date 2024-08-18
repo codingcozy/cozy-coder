@@ -3,17 +3,13 @@ title: "데이터캠프 세일 2024 - IT 전문가를 위한 50 할인 혜택"
 description: ""
 coverImage: "/assets/img/2024-06-19-DatacampSale202450DiscountOfferforITProfessionals_0.png"
 date: 2024-06-19 05:22
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-DatacampSale202450DiscountOfferforITProfessionals_0.png
 tag: Tech
 originalTitle: "Datacamp Sale 2024 — 50% Discount Offer for IT Professionals"
 link: "https://medium.com/javarevisited/datacamp-sale-2024-50-discount-offer-for-it-professionals-1ff8a597426f"
 isUpdated: true
 ---
-
-
-
-
 
 ## 데이터 캠프 연간 요금제로 데이터와 AI 역량 강화를 무제한으로 이용하여 50% 할인 혜택을 받으세요
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 여러분과 기쁜 소식을 하나 전하고 싶어요. 현재 데이터 캠프에서 큰 세일을 진행 중이며 연간 요금제에 최대 50% 할인 혜택을 제공하고 있어요. 데이터 캠프에 항상 참여하고 싶었다면, 지금이 참여하기에 가장 좋은 시기입니다. 지금 가격의 절반을 절약할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 데이터캠프 가입해야 하는 이유
 
@@ -32,9 +39,20 @@ isUpdated: true
 AI 기술이 적용된 무제한 학습:
 
 - 파이썬, ChatGPT, SQL, R, Power BI 등 490개 이상의 코스에서 50% 할인 혜택을 받을 수 있습니다.
-- 포브스지 선정 1위 자격증 프로그램에 접속하여 여러분의 스킬을 인증하고 경력을 향상시킬 수 있습니다.  
+- 포브스지 선정 1위 자격증 프로그램에 접속하여 여러분의 스킬을 인증하고 경력을 향상시킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실전 학습 경험:
 
@@ -46,7 +64,18 @@ AI 기술이 적용된 무제한 학습:
 - 평가를 통해 맞춤 학습 경로를 받거나 처음부터 직업 궤적으로 뛰어들 수 있습니다.
 - 산업 리더가 설계한 코스로 자신의 속도에 맞게 학습하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 경력 전망을 넓히는 인증서:
 
@@ -60,7 +89,18 @@ AI 기술이 적용된 무제한 학습:
 - 데이터 엔지니어 인증서
 - SQL 어소시에이트 인증서
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 특별 혜택: 50% 할인!
 
@@ -70,7 +110,18 @@ AI 기술이 적용된 무제한 학습:
 
 지금 학습 여정을 시작해보세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 Datacamp에 50% 할인 혜택을 받을 수 있는 링크입니다.
 
@@ -85,7 +136,18 @@ AI 기술이 적용된 무제한 학습:
 - 파이썬 및 데이터 스킬 학습을 위한 무료 Datacamp 코스 10가지
 - DataCamp vs CodeCademy, 어느 쪽이 더 나은가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기까지 이 기사를 읽어주셔서 감사합니다. 만약 이 정보가 유용하시다면 친구나 동료와 공유해주세요. 이것은 모든 데이터 분석가, 데이터 과학자 및 데이터 전문가에게 유용한 훌륭한 도구입니다.
 

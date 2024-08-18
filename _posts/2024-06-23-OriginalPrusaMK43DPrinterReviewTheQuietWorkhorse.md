@@ -3,17 +3,13 @@ title: "Original Prusa MK4 3D 프린터 리뷰 조용한 일꾼의 성능 평가
 description: ""
 coverImage: "/assets/img/2024-06-23-OriginalPrusaMK43DPrinterReviewTheQuietWorkhorse_0.png"
 date: 2024-06-23 17:25
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-OriginalPrusaMK43DPrinterReviewTheQuietWorkhorse_0.png
 tag: Tech
 originalTitle: "Original Prusa MK4 3D Printer Review: The Quiet Workhorse"
 link: "https://medium.com/i-tried-that/prusa-mk4-early-look-be29e88b345f"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-23-OriginalPrusaMK43DPrinterReviewTheQuietWorkhorse_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이 프린터가 출시된 후에 실제로 얼마 동안 망설이며 다음을 고려했어요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 여기에는 오리지널 프루사 MK4가 있어요.
 - 저렴한 소볼 SV06 Plus도 있구요.
@@ -36,7 +43,18 @@ isUpdated: true
 
 대부분의 다른 제조업체들처럼 프루사도 수지 기반 프린터를 만들지만, 여기서는 FDM 또는 필라멘트 기반 인쇄만 살펴봅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 왜 Prusa일까요? MK4에 저를 끌어들인 몇 가지 요소가 있습니다:
 
@@ -51,7 +69,18 @@ isUpdated: true
 
 MK4(공식적으로 "Mark Four"로 발음하며 "em kay four"가 아닙니다)는 모든 Prusa 프린터와 마찬가지로 조립식 키트 혹은 조립 및 테스트된 형태로 구입할 수 있습니다. 키트를 조립하면 프린터가 실제로 어떻게 작동하는지에 대해 많은 것을 배울 수 있습니다. 그러나 거의 하루가 걸릴 것입니다. 더 비쌈에도 불구하고, 저는 이미 3D 프린터를 두 대 조립했고(둘 다 작동했지만 둘 다 100% 만족스럽지는 않았습니다), 상자에서 꺼내자마자 “바로 작동”할 가능성이 더 높은 무언가를 원했기 때문에 조립된 버전을 선택했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 공지의 시작에서 웹 사이트가 잘못된 6-7주의 백로그가 있다고 주장했습니다. Prusa Live #51에서 MK4 공지 이후에, Josef는 이것이 완전히 틀렸다고 말하고 그것을 그들의 CRM 소프트웨어 탓으로 돌렸습니다. 그러나 2023년 4월 18일에 주문한 시점에는 주문이 많아서 실제로 맞는 것으로 확인되었습니다. 주문하면 배송 백로그 예상 일정이 제공되지 않았다는 점이 약간 실망스러웠고, "당신의 돈을 받았다"라는 말 이외에 아무 정보도 듣지 못한 채 몇 일이 지났습니다. 돈 이야기를 하자면, 그들의 유럽 신용 카드 청구 공급업체가 어떤 이유로 나의 캐나다 신용 카드를 처리할 수 없었습니다. 몇 번 시도해 보았지만 결국 PayPal로 변경했습니다.
 
@@ -61,7 +90,18 @@ MK4(공식적으로 "Mark Four"로 발음하며 "em kay four"가 아닙니다)�
 
 아무 것도 놓치지 않기 위해, 여기에 prusa3d.com에서 직접 인용한 기능 목록을 제시해 드립니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 수상 경력에 빛나던 3D 프린팅 전문가 오리지널 프루사 MK3의 후속 모델
 - MK4에서의 즉각적이고 조용한 3D 프린팅. MK4에서 20분 미만의 벤치 비디오를 확인하세요!
@@ -82,8 +122,18 @@ MK4(공식적으로 "Mark Four"로 발음하며 "em kay four"가 아닙니다)�
 
 LCD 화면은 MK3보다 큰 개선점입니다. 컬러이며 고해상도입니다. 주요 에러가 발생할 때 (이미지 확인, 초기 셰이크다운 중 단 한번 발생한 일시적 에러), 그것을 이용할 때 이점을 얻을 수 있습니다. 화면 하드웨어는 터치 지원이 있지만 소프트웨어가 아직 그것을 활용하지 않습니다 (싱글 컨트롤 노브로 충분히 간단한 UI이므로 아마도 필요하지 않을 것입니다) [편집: 2024년 4월 이후 릴리스 된 6.0부터 터치 UI 작동함]. 전면 패널은 리셋 버튼과 장치의 유일한 사용자 접근 가능 디스크 저장 공간을 위한 USB-A 소켓으로 완성돼 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-06-23-OriginalPrusaMK43DPrinterReviewTheQuietWorkhorse_1](/assets/img/2024-06-23-OriginalPrusaMK43DPrinterReviewTheQuietWorkhorse_1.png)
 
@@ -93,8 +143,18 @@ LCD 화면은 MK3보다 큰 개선점입니다. 컬러이며 고해상도입니�
 
 프린터의 비키트 버전은 완전히 조립된 채 도착하기 때문에 초기화는 상자를 열고 프린터를 안정한 테이블로 이동시키고 일부 폼 패키지를 제거하고 프린터를 연결하고 켜고 간단한 자체 테스트를 실행하고 인쇄할 때까지로 이루어집니다. 이론상으로는... 음, 아니요. 실제로도 그렇습니다. 필라멘트와 모델을 넣고 인쇄 버튼을 누르세요. 그냥 작동합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 몇 모델 출력은 잘됐어요. 완벽한 첫 번째 층이 나왔죠. 그런 다음에 좀 어려운 것을 해보고 싶어졌는데, 곧 이야기하겠습니다. 먼저, 프린터에 출력 파일을 가져다 놓고 노즐을 살펴봅시다.
 
@@ -104,7 +164,18 @@ LCD 화면은 MK3보다 큰 개선점입니다. 컬러이며 고해상도입니�
 
 PrusaSlicer는 다음과 같은 기능을 갖춘 완전한 슬라이서입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 다양한 파일 유형 (STL, OBJ, 3MF 및 STEP 포함)을 가져올 수 있습니다.
 - Prusa 프린터뿐만 아니라 다양한 프린터를 위한 g-code 파일을 생성할 수 있습니다.
@@ -116,7 +187,18 @@ PrusaSlicer는 정기적으로 업데이트됩니다. 프린터 자체의 소프
 
 프린터는 유선 이더넷, 무선 (WiFi) 및 USB 드라이브 삽입을 지원합니다. 저는 유선 연결을 선호하므로 이더넷과 "스니커넷"(USB 드라이브를 컴퓨터에서 프린터로 이동)만 사용했습니다. 결과적으로 다른 사람들이 보고한 "느린 WiFi" 문제로 고생하지 않았습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 PrusaLink은 하나의 프린터를 로컬로 관리하는 웹 기반 프로그램이에요. 모든 현대 브라우저와 호환되며, 프린터에 파일을 업로드하고 인쇄를 시작하며 인쇄 작업을 모니터링하고 프린터의 USB 저장 공간에서 파일을 다운로드하거나 제거할 수 있어요. 제 경험 상 훌륭하게 작동해요.
 
@@ -126,7 +208,18 @@ PrusaConnect는 그들의 클라우드 기반 연결 서비스에요. 제겐 소
 
 클라우드에 대한 두려움을 설명하기 위해, 예를 들어, Bambu Labs가 중국 정부에 나의 최신 디자인을 공유하도록 허용하는 가능성 외에도, Bambu Labs는 완전히 자유롭게 인쇄 작업을 시작할 수 있는 클라우드 방식을 활용할 수 있도록 더 나아갔어요. 불행히도 그들(그리고 그들의 고객)을 위해, 그들의 클라우드 소프트웨어에서 버그로 인해 전 세계의 많은 고객 프린터가 뜻하지 않게 인쇄를 시작했는데, 이전 모델이 있는 경우에도 프린터가 고장이 나고 수리를 위해 DIY하거나 공장에서 수리를 받아야 했어요. 젊은 기업에게 빛나는 시작은 아니었죠!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 옥토프린트는 2012년부터 Gina Häußge가 개발한 프린터용 제3자 오픈소스 프로그램으로, 커뮤니티의 지원으로 이뤄졌어요. 라즈베리 파이에서 미리 구성되어 있어 옥토파이라고도 불리며, PrusaLink와 같은 기능을 갖추고 있지만 훨씬 더 많은 기능을 제공해요. 다양한 플러그인을 지원하며 라즈베리 파이 카메라 사용을 지원합니다. 이전 프린터에서 사용해봤어요. 엠케이4와는 아직 설정하지 않았지만 다른 사용자들은 설정을 해두었어요.
 
@@ -136,7 +229,18 @@ PrusaConnect는 그들의 클라우드 기반 연결 서비스에요. 제겐 소
 
 적절한 부품을 갖고 있다면 몇 초 안에 노즐을 교체할 수 있어요. 프린트 헤드 박스의 한 쪽에는 열리는 선풍기가 있어 내부에 접근할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 더 어려운 프린팅
 
@@ -146,7 +250,18 @@ PrusaConnect는 그들의 클라우드 기반 연결 서비스에요. 제겐 소
 
 ![이미지](/assets/img/2024-06-23-OriginalPrusaMK43DPrinterReviewTheQuietWorkhorse_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Thingiverse.com에서 가져온 이 주사위 타워는 제가 다음으로 진행한 프로젝트였는데요, 게이머 친구들에게 선물로 주려고 준비했어요. 주사위 타워는 약 400년 경부터 주사위를 공정하게 굴릴 수 있도록 보장하기 위해 사용되었습니다. PrusaSlicer 프로그램에 따르면 해당 프로젝트는 올바르게 출력하려면 "서포트"가 필요하다고 했어요. FDM 인쇄는 연속적인 층을 놓는 방식으로 작동합니다. 이전 층을 45도 이상 오버행하는 경우나 출력물의 일부가 공기 위에 돌출되는 경우에 서포트가 필요합니다. 그러나 타워의 디자이너인 Shin da Silva aka FresnelTHz는 "서포트가 필요 없다"고 합니다. 저는 디자이너의 말을 믿고 타워를 PLA로 완벽하게 출력했어요.
 
@@ -154,7 +269,18 @@ Thingiverse.com에서 가져온 이 주사위 타워는 제가 다음으로 진�
 
 테이블 태그를 Markdown 형식으로 변경해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 몇 번의 인쇄 실패를 경험했지만 대부분은 작업자 실수 때문인 것 같아요 — 필라멘트를 건조하지 않는 것, 빌드 플레이트를 충분히 자주 청소하지 않는 것과 같은 이유로 실패한 것 같아요.
 
@@ -164,7 +290,18 @@ MK4는 상태를 지속적으로 저장하여 전원이 꺼지면 이전 상태�
 
 # 추가 옵션
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "Nextruder" 엑스트루더는 프루사 자체 노즐을 사용하며, 몇 가지 지름의 노즐을 그들로부터 구입할 수 있습니다. 사람들은 한 공급 업체에 묶이고 싶지 않기 때문에, 프루사는 "E6 노즐 어댑터"를 발표하여 더 널리 사용되는(더 싼) "E6" 스타일의 노즐을 사용할 수 있게 했습니다. 또한, E6 스타일의 단단한 강철 노즐을 얻을 수 있지만, 아직 Nextruder 형식으로는 제공되지 않았습니다. 어댑터는 첫날에는 제공되지 않았지만, 지금은 수 개월간 제공되고 있습니다.
 
@@ -172,13 +309,20 @@ MK4의 가장 오랫동안 지연된 약속은 MMU3였으며, 이는 "멀티 머
 
 일부 3D 프린터는 "폐쇄형"이며, 채비 메커니즘이 있는 방에서 벽으로 둘러싸여 있습니다. 많은 다른 기종은 Original Prusa MK3/MK4 라인을 포함하여, 폐쇄물은 추가비용으로 제공됩니다. 3D 프린터를 폐쇄하는 것은 다음과 같은 혜택을 제공합니다:
 
--보다 신뢰할 수 있는 출력을 위해 일정한 온도를 유지하는 데 도움이 됩니다;
--일정한 온도는 전기 소비를 줄일 수 있습니다;
--소음을 차단합니다;
--먼지를 방지하여 프린터 작동 또는 냉각 중일 때 손목을 넣지 않아도 됩니다;
--일부 필라멘트가 방출하는 먼지나 유해 가스를 필터링하거나 외부로 배출하는 것을 허용합니다.
+-보다 신뢰할 수 있는 출력을 위해 일정한 온도를 유지하는 데 도움이 됩니다; -일정한 온도는 전기 소비를 줄일 수 있습니다; -소음을 차단합니다; -먼지를 방지하여 프린터 작동 또는 냉각 중일 때 손목을 넣지 않아도 됩니다; -일부 필라멘트가 방출하는 먼지나 유해 가스를 필터링하거나 외부로 배출하는 것을 허용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 MK3/MK4 가족이 오랫동안 사용되어 왔기 때문에 이를 위한 다양한 케이스가 있습니다:
 
@@ -193,7 +337,18 @@ MK3/MK4 가족이 오랫동안 사용되어 왔기 때문에 이를 위한 다�
 
 나는 Delack 케이스를 선택하고 설치했는데, 실제로 내 프린팅을 믿을 수 있게 만들어줬어. 나는 이에 대한 자세한 리뷰를 작성해 I Tried That에 게재했어. Delack의 부품을 모두 인쇄하는 데 시간이 걸렸지만, 다른 옵션과 비교해 돈을 절약할 수 있을 뿐만 아니라 다양한 케이스 옵션이 있고, 어떤 방향에서든 프린트물을 확인할 수 있으며, 멋지게 보여! 나는 MK3/MK4 사용자, 오리지널 프루사 미니 사용자, 그리고 이와 유사한 크기의 프린터를 가진 사람들에게 이 케이스를 추천해.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오리지널 프루사 MK4는 멋진 프린터에요! 이 프린터는 제가 시도해 본 다른 프린터들보다 훨씬 사용하기 쉽고 예측 가능하며 일관성이 있어요. 유럽에서 만들어졌고 중국이 아니기 때문에 가격이 더 비싸지만, 제 의견으로는 그 가치가 충분히 있다고 생각해요. 중국 제조업체들로부터의 경쟁이 앞으로 어떻게 전개될지 시간이 알려줄 거에요.
 
@@ -203,6 +358,17 @@ MK3/MK4 가족이 오랫동안 사용되어 왔기 때문에 이를 위한 다�
 
 이 프린터를 Prusa에서 직접 소매 가격으로 구매했고, 처음에는 리뷰를 할 것임을 알리지 않았어요. 전체적이고 상세한 글을 작성할 예정이라고 말씀드렸는데, 신속하게 처리해 주실 수 있느냐고 요청했지만 거절당했어요. 따라서 특별한 대우를 받지 않았고, 그 결과 이 리뷰가 지연되었어요. 하지만 광고를 리뷰로 위장한 "유료 영향력 있는 사람"은 아니기 때문에, 이 리뷰는 기대되는 대로 진행됐어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제품 사용 후에 공장에서 이 프린터를 직접 구매하려면 제 리뷰를 읽고 이 제휴 링크를 사용해주세요. 그러면 무료 Prusa 필라멘트 롤 또는 다른 잠재적인 Prusa 구매를 위한 Prusa 크레딧('prusameters')을 받을 수 있어요. 이는 'I Tried That'에서의 글쓰기를 지원하게 도와줍니다. 감사합니다!

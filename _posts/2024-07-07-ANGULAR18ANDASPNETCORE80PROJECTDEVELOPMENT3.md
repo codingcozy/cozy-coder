@@ -3,17 +3,13 @@ title: "Angular 18과 ASPNET Core 80으로 프로젝트 개발하는 방법 3가
 description: ""
 coverImage: "/assets/img/2024-07-07-ANGULAR18ANDASPNETCORE80PROJECTDEVELOPMENT3_0.png"
 date: 2024-07-07 13:36
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-ANGULAR18ANDASPNETCORE80PROJECTDEVELOPMENT3_0.png
 tag: Tech
 originalTitle: "ANGULAR 18 AND ASP.NET CORE 8.0 PROJECT DEVELOPMENT 3"
 link: "https://medium.com/@ahmetbilgic81/angular-18-and-asp-net-core-8-0-project-development-3-d9aa15a4c3d5"
 isUpdated: true
 ---
-
-
-
-
 
 ![2024-07-07-ANGULAR18ANDASPNETCORE80PROJECTDEVELOPMENT3_0](/assets/img/2024-07-07-ANGULAR18ANDASPNETCORE80PROJECTDEVELOPMENT3_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 [Angular 18 and ASP.NET 8.0 Project Development for Beginners](https://www.udemy.com/course/angular-18-and-aspnet-80-project-development-for-beginners/)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 Markdown 형식으로 변경되었습니다:
 ![2024-07-07-ANGULAR18ANDASPNETCORE80PROJECTDEVELOPMENT3_1.png](/assets/img/2024-07-07-ANGULAR18ANDASPNETCORE80PROJECTDEVELOPMENT3_1.png)
@@ -34,7 +41,18 @@ isUpdated: true
 
 이제 이 프로젝트에서 몇 가지 개발을 진행할 예정입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 해결 탐색기에서 angularapplication.client 프로젝트를 엽니다.
 
@@ -44,7 +62,18 @@ src/app/ 위치에서 app.component.ts 파일을 엽니다.
 
 이 파일에 다음 코드를 추가하세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { HttpClient } from '@angular/common/http';
@@ -171,8 +200,18 @@ export class AppComponent implements OnInit {
 
 여기서, 웹 API 프로젝트의 엔드포인트에 따라 apiUrl = ‘http://localhost:5252/api/Product`를 업데이트해야합니다. 엔드포인트를 확인하려면 스웨거 페이지를 사용하여 웹 API 프로젝트의 엔드포인트를 확인할 수 있습니다.위의 코드를 app.component.html 파일에 추가하십시오.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 필요한 모든 코드를 Angular 프로젝트에 추가했습니다.
 
@@ -180,8 +219,18 @@ export class AppComponent implements OnInit {
 
 ![이미지](/assets/img/2024-07-07-ANGULAR18ANDASPNETCORE80PROJECTDEVELOPMENT3_4.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 "제품 추가" 버튼을 클릭하고 팝업 창이 열립니다. 제품 정보를 입력하고 이 화면에 저장합니다.
 
@@ -191,7 +240,18 @@ export class AppComponent implements OnInit {
 
 ![이미지](/assets/img/2024-07-07-ANGULAR18ANDASPNETCORE80PROJECTDEVELOPMENT3_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 업데이트 버튼을 클릭하면 화면에 업데이트 팝업 모달이 표시됩니다.
 
@@ -201,7 +261,18 @@ export class AppComponent implements OnInit {
 
 ![제품 정보 업데이트](/assets/img/2024-07-07-ANGULAR18ANDASPNETCORE80PROJECTDEVELOPMENT3_8.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로, 우리는 삭제 버튼을 클릭하면 제품이 삭제됩니다.
 
@@ -211,7 +282,18 @@ export class AppComponent implements OnInit {
 
 종합하면, Angular와 ASP.NET Core를 사용하여 프로젝트를 개발하면 현대 웹 애플리케이션을 구축하기 위한 견고하고 확장 가능하며 유지보수가 쉬운 솔루션을 제공합니다. 이 기술 스택은 프론트엔드 기술과 백엔드 기술의 강점을 활용하여 개발자에게 강력한 도구, 커뮤니티 지원 및 다양한 프로젝트 요구 사항을 충족하기 위한 유연성을 제공합니다. Angular의 풍부한 클라이언트 측 기능과 ASP.NET Core의 강력한 서버 측 기능을 효과적으로 활용함으로써, 개발자는 현대 웹 개발 모베스트 프랙티스를 준수하는 반응성, 안전성 및 성능이 우수한 응용 프로그램을 제공할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 감사합니다. 이 기사를 읽어주셔서 감사합니다.
 

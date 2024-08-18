@@ -3,17 +3,13 @@ title: "지금이야말로 역-콘웨이-매뉴버를 실행할 때"
 description: ""
 coverImage: "/assets/no-image.jpg"
 date: 2024-07-18 11:40
-ogImage: 
+ogImage:
   url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "Its Time to Execute the Inverse-Conway-Maneuver"
 link: "https://medium.com/@drpicox/its-time-to-execute-the-inverse-conway-maneuver-3e132c395de3"
 isUpdated: true
 ---
-
-
-
-
 
 소프트웨어 아키텍처를 수개월에 걸쳐 재설계했지만 진전이 모든 면에서 막혔다는 것을 상상해보세요. 문제가 코드가 아닐 수도 있습니다. 회사의 구조일 수도 있습니다. 이것이 역 콘웨이 기동이 등장하는 곳입니다. 이 기사에서 당신은 조직 구조를 변경하는 것이 소프트웨어 아키텍처의 중요한 개선으로 이어질 수 있다는 이유를 발견할 것입니다. 이를 통해 개발 프로세스를 더 부드럽고 효과적으로 만들 수 있습니다.
 
@@ -23,21 +19,54 @@ isUpdated: true
 
 이 정확한 질문은 Melvin E. Conway가 1968년 4월에 제기했습니다. 그는 기사에서 회사의 조직 구조(아키텍처)가 소프트웨어로 스며들어 그 아키텍처에 영향을 주는 방식을 연구했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그의 연구에서 그의 결론을 요약하는 유명한 인용구가 나왔습니다: "흥미로운 질문은 Conway가 이 결론에 도달했고, 우리 조직에서 이것이 사실인지 확인하기 위해 유사한 접근법을 취할 수 있는지입니다." 어떻게 그가 이를 했을까요? 그는 아주 간단하지만 효과적인 몇 가지 단계를 따랐습니다. 이러한 단계는 다음과 같습니다: 1) 회사의 조직 방식과 소프트웨어의 조직 방식 사이에 유사성을 만들어 동일한 등급과 종속성 기준을 나타내었습니다. 예를 들어, 그는 위원회와 시스템, 하위 위원회와 하위 시스템, 그리고 조정자와 인터페이스 등의 유사성을 제안했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-2) 기관의 구조 - 조직도 - 및 소프트웨어의 구조 - 소프트웨어 아키텍처 - 그래프를 생성하십시오. 다양한 부분들이 어떻게 소통하는지에 따라서이 그래프를 만들어야 합니다. 기관의 경우, 이는 서로 다른 위원회들이 어떻게 소통하는지를 연구하는 것을 의미하며, 소프트웨어의 경우 다양한 시스템이 어떻게 상호 작용하는지를 의미합니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-3) 두 다이어그램을 비교하여 동일한 구조를 제시하는지 확인하십시오. 키워드는 동형사상을 확인하는 것이며, 이는 구조가 유사하다는 것을 의미합니다. 이는 초기 유사성을 매칭하고 나서 두 그래프 모두에서 관계가 동일한 구조를 따르는지를 검토함으로써 수행할 수 있습니다.
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+2. 기관의 구조 - 조직도 - 및 소프트웨어의 구조 - 소프트웨어 아키텍처 - 그래프를 생성하십시오. 다양한 부분들이 어떻게 소통하는지에 따라서이 그래프를 만들어야 합니다. 기관의 경우, 이는 서로 다른 위원회들이 어떻게 소통하는지를 연구하는 것을 의미하며, 소프트웨어의 경우 다양한 시스템이 어떻게 상호 작용하는지를 의미합니다.
+
+3. 두 다이어그램을 비교하여 동일한 구조를 제시하는지 확인하십시오. 키워드는 동형사상을 확인하는 것이며, 이는 구조가 유사하다는 것을 의미합니다. 이는 초기 유사성을 매칭하고 나서 두 그래프 모두에서 관계가 동일한 구조를 따르는지를 검토함으로써 수행할 수 있습니다.
 
 이러한 단계를 따라 Conway는 기관 구조와 소프트웨어 아키텍처 간의 상관 관계를 증명할 수 있었습니다. 이러한 관계를 이해하면 어떤 기관 내 소프트웨어 개발의 도전에 대한 진단 및 대응을 위한 소중한 통찰력을 얻을 수 있습니다.
 
 Conway의 논문에서 그는 이 세 가지 단계를 제안했을 뿐만 아니라 소프트웨어를 기관과 비교하는 구체적인 예시도 제시했습니다. 그는 당시 기술인 COBOL과 ALGOL을 사용했습니다. 그의 결론은 성공적으로 기관 구조와 소프트웨어 아키텍처 간의 관계를 증명했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이는 프로젝트가 작았던 시기였습니다 (하드웨어가 대규모 프로젝트를 지원할 수 없었기 때문에) 그러므로 더 적은 사람들이 동일한 프로젝트에 협업했습니다. 그 모든 것들이 수십 년 전의 이야기이므로, 지금은 무엇이 변했을까요?
 
@@ -47,7 +76,18 @@ Conway의 논문에서 그는 이 세 가지 단계를 제안했을 뿐만 아�
 
 이러한 맥락에서, 우리는 확실히 말할 수 있습니다. 좋은 아키텍처는 좋은 조직으로부터 시작된다는 것을.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 역컨웨이 매뉴버라는 것이 등장합니다.
 
@@ -57,7 +97,18 @@ Conway의 논문에서 그는 이 세 가지 단계를 제안했을 뿐만 아�
 
 만약 그렇다면, 소프트웨어 아키텍트에게 아키텍처 변경을 할 수 있는 능력을 주지만 조직을 변경할 수는 없다면, 그들을 재앙과 좌절에 빠뜨리고 있는 것이죠. 다시 말해, 소프트웨어 아키텍트의 역할 중 일부는 실제로 조직이 어떻게 기능하는지를 변경하는 것입니다. 이는 우리가 기계 수준에서 복제하길 원하는 인간 상호작용과 유사한 팀과 역학을 만드는 것을 포함합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 Inverse-Conway Maneuver입니다.
 
@@ -67,7 +118,18 @@ Conway의 논문에서 그는 이 세 가지 단계를 제안했을 뿐만 아�
 
 첫 번째 신호는 건축 수준에서 모든 노력에도 불구하고 변화가 반영되지 않는 것입니다. 모든 것이 엄청난 노력을 필요로 하며, 사물이 올바른 방향으로 발전하기 위해서는 높은 수준의 통제가 필요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기타 조직의 지표에는 팀 간의 지나친 의존도가 포함됩니다. 팀은 종종 다른 팀의 작업에 의해 중단되거나 영향을 받는 경우가 많습니다. 코드가 자주 변경되어 팀이 작업해야 하는 코드를 제대로 이해할 수 없는 경우가 있습니다. 팀은 제품을 개선하기 위해 외부 인물로부터 지속적인 안내를 필요로 합니다.
 
@@ -77,7 +139,18 @@ Conway의 논문에서 그는 이 세 가지 단계를 제안했을 뿐만 아�
 
 이 시점에서 우리는 반성하고 우리 스스로에게 솔직해져야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 긍정적으로 생각해 보자면, 조직을 변경하는 것은 정말 어려운 일이죠. 그렇지만 우리가 고민해야 할 점은, 조직적 지원 없이 아키텍처를 변경한다면 더 어려워질 수도 있다는 것이죠.
 
@@ -87,6 +160,17 @@ Conway의 논문에서 그는 이 세 가지 단계를 제안했을 뿐만 아�
 
 그러므로 저희는 우리의 조직을 철저히 조사해야 하며, 서로 다른 팀과 역할 간의 상호 작용을 이해하고, 그들 간의 관련성을 관찰해야 합니다. 이 작업을 완료한 후에는, 소프트웨어 아키텍처가 어떻게 작동하는지 비교해봐야 합니다. 우리가 현재 사용 중인 체계가 조직 구조의 결과인지, 조직 변경으로 생산성에 어떤 이점이 있을지 고려해 봐야 합니다. 다시 말해, 역-콘웨이 기법을 고려할 시기인지 생각해 볼 때인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 읽어 주셔서 감사합니다. 보통 저는 소프트웨어 엔지니어링을 이해하고 적용하는 방법에 대해 고민하며, 개선할 수 있는 부분에 대해 생각해 보기 위해 이야기를 쓰곤 합니다. 만약 이 글을 좋아하셨다면 박수나 댓글을 남겨주세요. 더 많은 통찰과 토론을 위해 제 매체에서 가장 성공적인 이야기들을 살펴보세요.

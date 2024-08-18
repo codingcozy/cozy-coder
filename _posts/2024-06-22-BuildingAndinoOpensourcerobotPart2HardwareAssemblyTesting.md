@@ -3,17 +3,13 @@ title: "안디노 만들기 - 오픈 소스 로봇 2부 하드웨어 조립 및 
 description: ""
 coverImage: "/assets/img/2024-06-22-BuildingAndinoOpensourcerobotPart2HardwareAssemblyTesting_0.png"
 date: 2024-06-22 18:34
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-BuildingAndinoOpensourcerobotPart2HardwareAssemblyTesting_0.png
 tag: Tech
 originalTitle: "Building Andino — Open source robot Part 2 Hardware Assembly , Testing"
 link: "https://medium.com/@robofoundry/building-andino-open-source-robot-part-2-hardware-assembly-testing-fcd26028031d"
 isUpdated: true
 ---
-
-
-
-
 
 이전 글에서는 호스트 컴퓨터 및 RPi를 설정하여 시뮬레이션 모드에서 로봇을 실행할 수 있는지 확인했습니다. 이번 글에서는 안디노 로봇의 하드웨어 구성에 중점을 두겠습니다. 안디노 로봇 하드웨어의 GitHub 저장소에는 상당히 좋은 다이어그램과 부품 목록이 있지만, 모든 것을 어떻게 조립하거나 조립하는 방법에 대한 구체적인 내용은 제공되지 않습니다. 또한 연결 다이어그램은 매우 고수준이며, 로봇을 처음으로 만들어 보는 사람들에게는 매우 혼란스러울 것입니다.
 
@@ -33,7 +29,18 @@ isUpdated: true
 
 게다가 몇 가지 더 필요한 것이 있을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 다양한 조합의 추가 디유폰트 와이어(수컷-수컷, 수컷-수메스 또는 수메스-수메스)가 함께 제공됩니다. 연결 방식에 따라 선택하세요.
 - 두 베이스 플레이트 사이의 높이를 늘리기 위해 추가 스탠드오프가 필요할 수 있습니다. 이렇게 하면 다양한 보드에서 튀어나오는 디유폰트 와이어가 들어갈 공간이 확보됩니다.
@@ -49,7 +56,18 @@ isUpdated: true
 - 상단 샤시 플레이트를 높은 스탠드오프를 사용하여 부착하여 모든 구성 요소의 높이를 맞추고, 디유폰트 와이어에 추가 공간을 제공합니다.
 - RPLidar, RPi 카메라, RPi 배터리 및 모터 배터리를 상단 샤시 플레이트 위에 부착합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희 제품의 각 층에 구성 요소를 부착하시는 경우, 아래 배선도에 따라 전선 연결을 시작하는 것이 좋습니다.
 
@@ -61,7 +79,18 @@ Top chassis plate를 추가하기 전에 다음 사항들이 작동하는지 확
 
 이 시점에서 Top chassis plate를 추가하고 RPLidar, RPi Camera를 부착하고 두 배터리를 설치할 수 있습니다. 이제 로봇을 케이블에 묶이지 않은 이동식으로 테스트할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 시점에서 실제로 이러한 일들을 시도해볼 수 있습니다:
 
@@ -73,7 +102,18 @@ Top chassis plate를 추가하기 전에 다음 사항들이 작동하는지 확
 
 Andino 로봇을 조립하려고 할 때, DFRobot의 나만의 L-Shape 모터와 그림 레포지토리의 Andino 챠시를 사용할 것을 알고 있었지만 그것은 내게 적합하지 않았습니다. 그래서 나는 FreeCAD를 사용하여 전체 챠시 플레이트를 처음부터 만들었고 이 STL 파일들을 내 Andino git 레포지토리의 내 분기에 추가할 것입니다. 또한, 어떤 구성 요소를 어디에 장착해야 하는지 식별하는 것이 어려워서, 다음 다이어그램에서 각 구성 요소에 대한 구멍을 색상 코드로 표시했습니다. 이렇게 하면 특정 구성 요소를 어디에 장착해야 하는지 따라갈 누군가에게 편리할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 잊지 말아야 할 몇 가지 추가 지점
 
@@ -88,7 +128,18 @@ Andino 로봇을 조립하려고 할 때, DFRobot의 나만의 L-Shape 모터와
 
 <img src="/assets/img/2024-06-22-BuildingAndinoOpensourcerobotPart2HardwareAssemblyTesting_0.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 바텀 샤시 플레이트 위에 구성 요소를 기계적으로 설치한 후, 즉 모터, RPi, L298N, 그리고 아두이노 UNO를 설치한 후에는 배선도와 아래 표를 따라서 모든 구성 요소가 올바르게 연결되었는지 확인하세요.
 
@@ -98,7 +149,18 @@ Andino 로봇을 조립하려고 할 때, DFRobot의 나만의 L-Shape 모터와
 
 ## 배선도
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Building Andino Opensource Robot](/assets/img/2024-06-22-BuildingAndinoOpensourcerobotPart2HardwareAssemblyTesting_1.png)
 
@@ -108,7 +170,18 @@ I used different pin numbers than specified in the Andino repository, as these p
 
 ![Building Andino Opensource Robot](/assets/img/2024-06-22-BuildingAndinoOpensourcerobotPart2HardwareAssemblyTesting_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 조립 중인 사진들
 
@@ -118,8 +191,18 @@ I used different pin numbers than specified in the Andino repository, as these p
 
 ![image3](/assets/img/2024-06-22-BuildingAndinoOpensourcerobotPart2HardwareAssemblyTesting_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image 6](/assets/img/2024-06-22-BuildingAndinoOpensourcerobotPart2HardwareAssemblyTesting_6.png)
 
@@ -129,8 +212,18 @@ I used different pin numbers than specified in the Andino repository, as these p
 
 호스트 컴퓨터 [노트북이나 데스크탑]을 USB 케이블을 사용하여 아두이노 UNO에 연결하세요. 그리고 아두이노 UNO에 andino_firmware를 업로드했는지 확인해주세요.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가장 간단한 방법은 플랫폼IO 명령줄 버전을 설치하는 것입니다. [아두이노 IDE를 사용하여 동일한 작업을 수행할 수도 있습니다].
 
@@ -165,9 +258,18 @@ m -700 -700
 m 0 0
 ```
 
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 모터의 회전 방향을 확인해야 합니다. 모터의 방향이 올바르지 않은 경우, M1 또는 M2 모터의 IN 핀을 교환하여 수정할 수 있습니다. 두 모터가 동일한 방향으로 이동할 때 엔코더 값 부호 [+ 또는 -]가 동일하지 않으면, 해당 모터의 엔코더 핀 [채널 A 및 B]을 교환하여 전진할 때 부호가 +이고 후진할 때 부호가 -가 되도록 설정할 수 있습니다.
 
@@ -177,18 +279,41 @@ m 0 0
 
 아래 두 명령어를 시리얼 모니터를 통해 아두이노 UNO에 전송해야 합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 다음과 같이 마크다운 형식으로 변경해주세요.
 
-|r|
-|---|
-|e|
+| r   |
+| --- |
+| e   |
+
 |r — 해당 명령은 인코더를 재설정하고, e — 해당 명령은 즉시 바로 실행하여 현재 값을 0 0으로 출력합니다. 이것이 우리가 원하는 바입니다.
 
 이제, 한 번에 한 바퀴씩 바퀴를 대략적으로 10번 회전해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그런 다음 명령 `e`을 다시 실행하고 각 바퀴에 대한 값들을 기록하세요. 각 바퀴에 대한 틱 수를 구하기 위해 마지막 틱수를 10으로 나누세요. 이제 각 모터의 초당 틱 수를 얻을 수 있습니다. 모터 명세서를 참고하여 초당 틱 수를 구할 수도 있습니다. [또는 광학적 RPM 측정기를 이용하여 모터 속도를 측정하고 틱 당 회전수에 분당 회전수를 곱할 수 있습니다.] 이렇게 계산하세요:
 
@@ -196,9 +321,20 @@ tpr [틱 당 회전수] — DFRobot에서 제시된 명세서에 따르면 1회�
 
 rpm [모터의 회전수] — DFRobot에서 제시된 명세서에 따르면 160 rpm
 
-초당 틱 수 = (tpr * rpm)/60 = (960 * 160)/60 = 2560 틱/초 최대
+초당 틱 수 = (tpr _ rpm)/60 = (960 _ 160)/60 = 2560 틱/초 최대
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Andino 리포지토리의 루트 디렉토리에서 RPi에서 모터를 테스트할 때 최대 틱 수를 사용하는 m 명령을 사용할 수 있습니다.
 
@@ -208,7 +344,18 @@ Andino 리포지토리의 루트 디렉토리에서 RPi에서 모터를 테스�
 
 RPi의 Andino 리포지토리 루트 디렉토리에 있을 때 ROS2 워크스페이스를 빌드하고 소스를 만드십시오.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 참고: 안디노 레포에 문서화된대로 "o" 명령어를 시도해 보았지만 어떤 이유로 인해 작동하지 않아서 "m" 명령어를 계속 사용하고 있습니다.
 
@@ -232,17 +379,28 @@ motor_driver_demo --serial_port=/dev/ttyACM0 --msg='e'
 # 2. 모터를 지정된 틱 수(예: 700)로 전진 방향으로 이동시키기
 motor_driver_demo --serial_port=/dev/ttyACM0 --msg='m 700 700'
 
-# 3. 모터 정지 
+# 3. 모터 정지
 motor_driver_demo --serial_port=/dev/ttyACM0 --msg='m 0 0'
 
 # 4. 모터를 지정된 틱 수(예: -700)로 후진 방향으로 이동시키기
 motor_driver_demo --serial_port=/dev/ttyACM0 --msg='m -700 -700'
 
-# 5. 모터 정지 
+# 5. 모터 정지
 motor_driver_demo --serial_port=/dev/ttyACM0 --msg='m 0 0'
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## ROS2와 조이스틱으로 모터 테스트하기
 
@@ -267,7 +425,18 @@ rqt&
 
 rqt 그래프는 다음과 같이 보일 것입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-22-BuildingAndinoOpensourcerobotPart2HardwareAssemblyTesting_8.png)
 
@@ -277,7 +446,18 @@ rqt 그래프는 다음과 같이 보일 것입니다:
 
 다음 기사에서는 이번 단계가 끝나면 로봇을 이동하고 SLAM 및 Nav2를 시도해 볼 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 즐거운 빌딩하세요!!!
 

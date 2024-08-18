@@ -3,17 +3,13 @@ title: "Nodejs에서 리소스 최적화 하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-07-ResourceoptimizationinNodejs_0.png"
 date: 2024-07-07 23:11
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-ResourceoptimizationinNodejs_0.png
 tag: Tech
 originalTitle: "Resource optimization in Node.js"
 link: "https://medium.com/pipedrive-engineering/resource-optimization-in-node-js-c90c731f9df4"
 isUpdated: true
 ---
-
-
-
-
 
 이 기사에서는 Node.js의 능력을 극대화하고 리소스 공유의 이점을 이해하여 모든 요청을 격리시켜야 한다는 가정을 반박합니다. Node.js의 모든 잠재력을 발견하고 리소스 최적화가 어떻게 애플리케이션의 성능과 효율성을 향상시킬 수 있는지 알아봅시다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![](/assets/img/2024-07-07-리소스최적화_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 API를 호출하는 엔드포인트가 동시에 여러 고객에 의해 호출된다고 상상해 봅시다. 따라서 데이터가 필요한 요청이 도착하여 해당 API를 호출하면 이미 대기 중인 첫 번째 요청과 정확히 동일한 API를 호출하는 두 번째 요청이 도착한다면, 그것을 공유하지 않을 이유가 무엇이죠?
 개발자들은 종종 Node.js 서버 작업 중에 각 요청이 다른 요청과 완전히 격리되어야 하며 각각은 나머지로부터 격리된 상태에서 호출하고 데이터베이스 요청을 수행해야 한다는 잘못된 가정을 만듭니다.
@@ -32,11 +39,22 @@ isUpdated: true
 
 일부 조건이 충족되면 요청은 동일한 리소스를 공유할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-- 고객별 데이터가 아니거나 고객 인증 토큰을 사용하지 않는 것을 확인했습니다(모든 요청을 연결해서는 안 됩니다. 누가 요청을 보냈는지 알아야 하는 책임성 때문입니다).  
-- 요청 데이터가 정확히 동일합니다.  
-- 오류가 발생할 경우, 기타 고객에게 정보가 누설되지 않도록합니다 (GDPR 문제를 일으킬 수 있으므로) 모든 대기 중인 약속에 일반 오류를 발생시키고 원래 오류를 로깅하여 방지할 수 있습니다.  
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+- 고객별 데이터가 아니거나 고객 인증 토큰을 사용하지 않는 것을 확인했습니다(모든 요청을 연결해서는 안 됩니다. 누가 요청을 보냈는지 알아야 하는 책임성 때문입니다).
+- 요청 데이터가 정확히 동일합니다.
+- 오류가 발생할 경우, 기타 고객에게 정보가 누설되지 않도록합니다 (GDPR 문제를 일으킬 수 있으므로) 모든 대기 중인 약속에 일반 오류를 발생시키고 원래 오류를 로깅하여 방지할 수 있습니다.
 - 마지막으로, 여러 사용자 요청에 대해 리소스 공유가 유익하다고 입증된 자주 발생하는 호출이어야 합니다. 그렇지 않으면 이점이 거의 눈에 띄지 않을 것입니다.
 
 요청이 어떻게 흘러가는지는 아래 그래프를 확인해주시면 됩니다. 각 행이 요청을 나타내고 각 색상 막대가 리소스를 사용하는 데 소요된 시간을 나타냅니다. 각 요청이 완전히 독립적이기 때문에 리소스를 공유하고 있지 않습니다. 이는 수천 개의 동시 요청을 처리하는 애플리케이션에서 중요한 문제로, 쉽게 해결하기 어려운 문제입니다.
@@ -45,7 +63,18 @@ isUpdated: true
 
 매우 특화된 서비스가 있는 경우 동일한 리소스를 요청하는 여러 요청이 있을 수 있습니다. 이는 우리 애플리케이션을 개선할 수 있는 기회입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래에서 알 수 있듯이 일부 호출이 Promises로 대체되었습니다. 이는 이미 가져온 동일한 리소스가 있기 때문에 다시 호출하는 대신 공유하기로 결정했기 때문입니다. 이는 해당 리소스에 대한 부하를 줄입니다.
 
@@ -55,7 +84,18 @@ Java와 같은 언어에서 개발자들은 리소스 액세스를 제어하기 
 
 물론 이 예에서는 서비스의 단일 인스턴스에 대해 언급했습니다. 서비스의 여러 인스턴스에서 이 작업을 수행하는 것은 조금 더 복잡하지만, 개념은 유사합니다(더 고급 분산 패턴 작업 중입니다).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 주제에 대해 흥미로운 점은 자원을 절약하는 것뿐만 아니라 실제로 애플리케이션을 더 빠르게 만든다는 것입니다. "어떻게?"라고 묻는다면? 우리가 한 작업이 200밀리초가 걸린다고 상상해 보겠습니다. 그리고 그 작업에 대한 이후의 모든 요청은 그것을 재사용합니다. 이는 이 초기 작업의 시작 후 1밀리초 또는 200밀리초 후 시작하는 경우에도 이 200밀리초 동안 수신되는 모든 요청이 해당 결과를 재사용한다는 것을 의미합니다. 따라서 평균적으로 재사용된 작업은 200밀리초/2=100밀리초가 걸립니다.
 
@@ -65,7 +105,18 @@ Java와 같은 언어에서 개발자들은 리소스 액세스를 제어하기 
 
 ![자원 최적화](/assets/img/2024-07-07-ResourceoptimizationinNodejs_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떻게 이룰 수 있을까요? 약속이 해답입니다!!!
 
@@ -75,7 +126,18 @@ Java와 같은 언어에서 개발자들은 리소스 액세스를 제어하기 
 
 이 코드를 실행하면 예상대로 결과를 얻게 됩니다. 함수를 6번 호출하고 각 호출에 200ms를 기다렸습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-07-ResourceoptimizationinNodejs_4.png" />
 
@@ -85,7 +147,18 @@ Java와 같은 언어에서 개발자들은 리소스 액세스를 제어하기 
 
 이 코드를 두 번째로 실행했을 때 어떤 일이 발생하는지 확인해보겠습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-07-ResourceoptimizationinNodejs_5.png)
 
@@ -95,7 +168,18 @@ Java와 같은 언어에서 개발자들은 리소스 액세스를 제어하기 
 
 요약:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 비록 이것이 항상 간단한 문제는 아니지만, 동시에 실행되는 애플리케이션에게는 중요한 차이를 만들어냅니다. 왜냐하면 리소스는 매우 소중한 자원이기 때문입니다. 더군다나, 이 기사에서 설명한 대로, 이는 리소스를 해방시키는 것뿐만 아니라 응용 프로그램 실행 시간을 개선시킵니다.
 - 이는 자주 호출되는 작업에 엄청난 영향을 미치지만, 더 중요한 것은 리소스를 절약하고 시스템의 안정성을 향상시킨다는 점입니다. 조금이라도 이득을 보는 것은 P99 응답 시간을 줄이는 데 도움이 되며, 이는 매우 중요합니다.

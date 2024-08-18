@@ -3,16 +3,13 @@ title: "NBA 네트워크 분석 Neo4j를 활용한 연결하기"
 description: ""
 coverImage: "/assets/img/2024-05-27-NBANetworkAnalysisConnectingtheDotswithNeo4j_0.png"
 date: 2024-05-27 12:40
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-NBANetworkAnalysisConnectingtheDotswithNeo4j_0.png
 tag: Tech
 originalTitle: "NBA Network Analysis: Connecting the Dots with Neo4j"
 link: "https://medium.com/@lucca.miorelli/nba-network-analysis-connecting-the-dots-with-neo4j-99cfbddd306b"
 isUpdated: true
 ---
-
-
-
 
 ## 두 NBA 선수 사이의 가장 짧은 링크를 찾는 동안... 그리고 그래프 데이터베이스로 놀아보기.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 NBA 경기를 관람하다가 해설자들이 가리키는 선수들 간의 예상치 못한 연결에 흥미를 느낀 적이 있나요? 이러한 즉흥적인 발언에 영감을 받아 우리는 프로젝트에 착수했습니다. 영화 역할을 통해 이질적인 배우들을 연결하는 '케빈 베이컨의 여섯 단계'의 개념과 마찬가지로 NBA 선수들을 비슷한 방식으로 연결하려고 노력했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 블로그 포스트에서는 우리가 그래프 데이터베이스를 탐험한 과정과 다른 세대의 NBA 선수들 간의 관계를 발견하는 데 Neo4j를 어떻게 활용했는지에 대해 안내해드릴 거에요.
 
@@ -32,7 +40,18 @@ NBA 경기를 관람하다가 해설자들이 가리키는 선수들 간의 예�
 
 우리의 목표는 명확했습니다: 서로 다른 NBA 선수들 간의 가장 짧은 경로를 식별하는 것이었어요. 이를 달성하기 위해 NBA 드래프트 데이터와 함께 작업하여, Neo4j를 사용해 복잡한 선수 간의 연결을 매핑하는 데 도움을 받았어요. 이 작업은 단순히 숫자들을 연산하는 데 그치는 것이 아니라, 데이터 안에 숨겨진 매력적이고 가끔은 꽤 재미있는 이야기들을 발견하는 데 관한 것이었어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 이 프로젝트를 복제하는 데 필요한 단계를 간략하게 설명합니다:
 
@@ -46,8 +65,18 @@ NBA 경기를 관람하다가 해설자들이 가리키는 선수들 간의 예�
 
 대부분의 데이터 애호가들처럼, 우리는 NBA 드래프트 데이터에 초점을 맞춘 Kaggle에서 데이터셋을 확보했습니다. 그런 다음 Python을 사용하여 이 데이터셋을 처리했습니다. 이 과정은 데이터를 그래프 데이터베이스에 필요한 형식에 맞게 변환하는 것을 포함했습니다: 엔티티를 노드로 분할하고 연결을 엣지로 나누는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](https://miro.medium.com/v2/resize:fit:608/0*eaiZYXxaq4pFOsiH.gif)
 
@@ -57,8 +86,18 @@ To increase the complexity of our ‘Six Degrees’ game though, we decided to o
 
 # Why Graph Databases?
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단히 말해서, 그래프 데이터베이스는 데이터를 노드에 저장하고 노드 간의 관계를 엣지를 사용하여 표현합니다. 이를 통해 NBA 선수 연결과 같이 복잡하게 연결된 데이터를 시각화하고 분석하는 데 적합합니다.
 
@@ -68,7 +107,18 @@ To increase the complexity of our ‘Six Degrees’ game though, we decided to o
 
 이 프로젝트에 사용한 도구는 Neo4j였습니다. 우리는 Neo4j의 무료 샌드박스를 활용했는데, 이는 비용 없이 이용할 수 있는 작고 임시적인 데이터베이스입니다. 인스턴스를 설정하고 그 가능성을 발견하고 싶다면 위 링크를 통해 시도해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음과 같이 노드가 생성되었습니다:
 
@@ -83,7 +133,18 @@ To increase the complexity of our ‘Six Degrees’ game though, we decided to o
 - IS_OF_DRAFT_SEASON: 선수와 드래프트 클래스를 연결합니다. (예: Jalen Brunson ↔ 2018)
 - IS_OF_ORG: 선수와 기관을 연결합니다. (예: Jalen Brunson ↔ Villanova)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 텍스트를 번역하면 다음과 같습니다.
 
@@ -99,7 +160,18 @@ RETURN n
 
 하나의 선수의 연결을 시각화하고 그리는 것은 비교적 쉽지만, 대량의 개체를 처리할 때 복잡해집니다. 여기서 그래프 데이터베이스의 강점이 정말로 드러나는 거죠!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 Markdown 형식으로 변환된 표입니다.
 
@@ -121,7 +193,18 @@ RETURN labels(n)[0] AS type, COUNT(*) AS amount
 ORDER BY amount DESC;
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 결과 요약입니다:
 
@@ -134,7 +217,18 @@ ORDER BY amount DESC;
 
 ### 연결 (24,320)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - IS_OF_DRAFT_SEASON: 8,454
 - DRAFTED_BY: 8,001
@@ -152,7 +246,18 @@ MATCH path=shortestPath(
 RETURN path
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 쿼리를 서로 다른 선수 ID에 대해 실행하여 NBA 선수들 간의 흥미로운 관계를 볼 수 있습니다. 어떤 관계는 간단하지만, 다른 것들은 조금 복잡할 수도 있어요:
 
@@ -162,7 +267,18 @@ RETURN path
 
 - 또한, 동일한 드래프트 클래스를 공유한 선수들, 즉 르브론 제임스와 듀에인 웨이드는 2003년 드래프트 클래스를 통해 연결되어 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-05-27-NBANetworkAnalysisConnectingtheDotswithNeo4j_3](/assets/img/2024-05-27-NBANetworkAnalysisConnectingtheDotswithNeo4j_3.png)
 
@@ -172,8 +288,18 @@ RETURN path
 
 지금까지 간단한 연결을 본 것처럼, 재미있는 부분은 LeBron James와 Kobe Bryant 사이의 연결과 같은 놀라운 연결을 찾는 것입니다. 이 두 거장이 직접적인 연결을 공유하지 않기 때문에, 그들을 연결하는 경로가 반드시 있어야 합니다. 어떻게 될까요? 🥁🥁🥁🥁🥁
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-05-27-NBANetworkAnalysisConnectingtheDotswithNeo4j_5.png)
 
@@ -183,8 +309,18 @@ Ever wondered how Zydrunas Ilgauskas, the Lithuanian center drafted by the Caval
 
 But if you’re a Cavaliers fan — or simply a curious individual who researched the 1996 NBA Draft, you’ll find that the Cavaliers had more than one pick; they had three. So, how can we show all possible shortest paths between Kobe and LeBron? We would need to modify our query slightly:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 레브론 제임스(2544)와 코비 브라이언트(977) ID 매치
@@ -200,9 +336,18 @@ RETURN path
 
 # 추가 정보: 몇 가지 추가적 탐색 데이터 분석
 
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 나아가 Bleacher Report에 따르면 역사상 가장 우수한 드래프트 클래스는 1984 년의 것으로, Michael Jordan, John Stockton, Charles Barkley, Hakeem Olajuwon 등의 이름이 소개되었습니다.
 
@@ -217,7 +362,18 @@ RETURN t.team_name AS Team, count(p) AS Drafts
 ORDER BY Drafts DESC
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결과에 따르면 사크라멘토 킹스가 최상의 위치를 차지했습니다(508명), 뒤를 이어 애틀랜타 호크스(489명)와 뉴욕 닉스(473명)가 있습니다. 킹스의 드래프트 픽 분포를 자세히 살펴봅시다...
 
@@ -235,7 +391,18 @@ RETURN path
 
 ![2024-05-27-NBANetworkAnalysisConnectingtheDotswithNeo4j_8](/assets/img/2024-05-27-NBANetworkAnalysisConnectingtheDotswithNeo4j_8.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오른쪽에 보시다시피 킹스가 픽을 하지 않은 드래프트 클래스들이 있습니다. NBA 창시 프랜차이즈인 킹스 팀이 픽을 하지 않은 것은 가능한 일일까요? 네, 70년대 초 이전에는 킹스 프랜차이즈가 로열스로 알려졌기 때문입니다. 1970년 이전에 이 프랜차이즈의 모든 드래프트 픽은 로열스 팀 노드에 할당되었습니다.
 
@@ -245,7 +412,18 @@ RETURN path
 
 이러한 다양한 관계를 탐색하는 것은 압도적이면서 매혹적일 수 있습니다. 저는 최종 이미지로 마무리하며, 이 그래프가 얼마나 멋질 수 있는지를 보여주는데, 그 복잡성과 아름다움에서 불꽃놀이를 연상케 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```json
 경로 = (p:Player) -[:DRAFTED_BY|IS_OF_DRAFT_SEASON*1..2]-> (t)
@@ -260,7 +438,18 @@ LIMIT 500
 
 이 프로젝트의 MVP인 João Pedro Boufleur에게 특별한 찬사를 보냅니다. 그의 기여는 이 모험의 성공에 필수적이었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 참고 자료
 

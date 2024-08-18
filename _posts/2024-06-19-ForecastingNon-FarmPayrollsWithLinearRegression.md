@@ -3,18 +3,13 @@ title: "선형 회귀를 사용한 비농업 부문 고용 예측"
 description: ""
 coverImage: "/assets/img/2024-06-19-ForecastingNon-FarmPayrollsWithLinearRegression_0.png"
 date: 2024-06-19 06:38
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-ForecastingNon-FarmPayrollsWithLinearRegression_0.png
 tag: Tech
 originalTitle: "Forecasting Non-Farm Payrolls With Linear Regression"
 link: "https://medium.com/@kaabar-sofien/forecasting-non-farm-payrolls-with-linear-regression-11ca69f8b0b8"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![image](/assets/img/2024-06-19-ForecastingNon-FarmPayrollsWithLinearRegression_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 # 비농업 실업자수란 무엇인가요?
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비농업 실업률(NFP)은 미국에서 중요하게 살펴보고 있는 경제 지표로, 미국 노동 시장의 건강 상태를 판단하는 중요한 기준 역할을 합니다. 매달 발표되는 이 취업 보고서는 미국의 고용 상황을 종합적으로 보여줍니다. 이 보고서에서는 농업 부문, 가정부 및 비영리 기관의 일자리를 제외한 미국 내 유료 종업원 수의 순 증가량이 공개됩니다.
 
@@ -35,7 +40,18 @@ isUpdated: true
 
 우리는 방향성 정확도 및 RMSE를 이용하여 예측을 평가할 것입니다. 이들이 의미하는 것은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 방향성 정확도는 NFP가 상승인 경우와 NFP가 하락인 경우를 비교하여 올바른 예측 수와 예측 수를 비교하는 단순한 이진 측정입니다.
 - RMSE는 평균 제곱근 오차를 의미합니다. 데이터 세트에서 예측 값과 실제 값 사이의 오차의 평균 크기를 측정하는 지표입니다.
@@ -46,7 +62,18 @@ isUpdated: true
 
 # 알고리즘 만들기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 알고리즘을 생성하기 전에 선형 회귀 알고리즘이 어떻게 작동하는지 알아보겠습니다.
 
@@ -56,7 +83,18 @@ isUpdated: true
 
 작업 계획은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 해당 GitHub 저장소에서 NFP 데이터를 다운로드하고 Python에 업로드하세요.
 - NFP 데이터의 차이를 취하세요. 이미 stationary 상태이지만 방향성 정확성을 측정하기 위해 이를 수행합니다.
@@ -88,8 +126,8 @@ def data_preprocessing(data, num_lags, train_test_split):
     y_train = y[:split_index]
     x_test = x[split_index:]
     y_test = y[split_index:]
-    
-    return x_train, y_train, x_test, y_test 
+
+    return x_train, y_train, x_test, y_test
 # 시간 인덱스가 설정되지 않았다면 설정하세요
 data = pd.read_excel('NFP.xlsx').values
 data = np.reshape(data, (-1))
@@ -117,7 +155,18 @@ print('방향성 정확도 = ', same_sign_count, '%')
 
 다음 그림은 실제 데이터와 예측 데이터를 비교합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 코드의 출력은 다음과 같습니다:
 
@@ -130,7 +179,17 @@ print('방향성 정확도 = ', same_sign_count, '%')
 
 개선은 특성을 더 추가하거나 래깅된 입력의 수를 변경하고 다른 조건을 추가하는 방식으로 이루어질 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Graph](/assets/img/2024-06-19-ForecastingNon-FarmPayrollsWithLinearRegression_2.png)

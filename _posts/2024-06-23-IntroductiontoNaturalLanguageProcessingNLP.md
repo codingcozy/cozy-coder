@@ -3,17 +3,13 @@ title: "자연어 처리NLP 입문 기본 개념과 활용 방법"
 description: ""
 coverImage: "/assets/img/2024-06-23-IntroductiontoNaturalLanguageProcessingNLP_0.png"
 date: 2024-06-23 20:04
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-IntroductiontoNaturalLanguageProcessingNLP_0.png
 tag: Tech
 originalTitle: "Introduction to Natural Language Processing (NLP)"
 link: "https://medium.com/@aidevhub/introduction-to-natural-language-processing-nlp-771c45686e2f"
 isUpdated: true
 ---
-
-
-
-
 
 ![image](/assets/img/2024-06-23-IntroductiontoNaturalLanguageProcessingNLP_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # NLP의 응용 프로그램
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 NLP는 다음과 같은 다양한 응용 프로그램을 포함하고 있습니다:
 
@@ -38,7 +45,18 @@ NLP는 다음과 같은 다양한 응용 프로그램을 포함하고 있습니�
 
 # 기본 NLP 작업
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 텍스트 분류 모델 구축에 들어가기 전에 몇 가지 기본 NLP 작업을 이해하는 것이 중요합니다: 토큰화, 어간 추출 및 표제어 추출.
 
@@ -56,7 +74,18 @@ tokens = word_tokenize(text)
 print(tokens)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 어간 추출
 
@@ -73,11 +102,23 @@ print(stemmed_words)
 
 # 표제어 추출
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 표 태그를 마크다운 형식으로 변경해주세요.
 
 `js`
+
 ```python
 from nltk.stem import WordNetLemmatizer
 nltk.download('wordnet')
@@ -93,7 +134,18 @@ print(lemmatized_words)
 
 이 섹션에서는 파이썬을 사용하여 간단한 텍스트 분류 모델을 구축할 것입니다. 머신러닝 모델을 사용하여 영화 리뷰를 긍정적 또는 부정적으로 분류할 것입니다. 이를 위해 sklearn 라이브러리를 사용할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 1: 라이브러리 및 데이터셋 불러오기
 
@@ -118,7 +170,18 @@ documents = [(movie_reviews.raw(fileid), category)
 
 # 단계 2: 데이터셋 준비하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 세트를 학습 및 테스트 세트로 분할해야 합니다.
 
@@ -134,7 +197,18 @@ X_학습, X_테스트, y_학습, y_테스트 = train_test_split(텍스트, 레�
 
 텍스트 데이터를 숫자 벡터로 변환하기 위해 TfidfVectorizer를 사용할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 텍스트 데이터를 TF-IDF 특성으로 변환합니다
@@ -153,7 +227,18 @@ classifier = MultinomialNB()
 classifier.fit(X_train_tfidf, y_train)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 5: 모델 평가하기
 
@@ -172,6 +257,17 @@ print(classification_report(y_test, y_pred))
 
 이 블로그에서 소개된 단계를 따르면, 이제 자연어 처리에 대한 기본적인 이해력과 기본적인 텍스트 분류 모델을 구축할 수 있는 능력이 생겼을 것입니다. 이것은 시작에 불과합니다. 자연어 처리 분야에서 더 많은 고급 기술과 모델을 탐험할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 기술과 도구를 활용해 더 정교한 NLP 애플리케이션을 구축해보세요. 즐거운 코딩 되세요!

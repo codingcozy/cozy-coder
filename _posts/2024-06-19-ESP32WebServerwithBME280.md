@@ -3,17 +3,13 @@ title: "ESP32와 BME280을 이용한 웹 서버"
 description: ""
 coverImage: "/assets/img/2024-06-19-ESP32WebServerwithBME280_0.png"
 date: 2024-06-19 05:53
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-ESP32WebServerwithBME280_0.png
 tag: Tech
 originalTitle: "ESP32 Web Server with BME280"
 link: "https://medium.com/@raflyhendrakusuma/esp32-web-server-with-bme280-ac98a4bda18a"
 isUpdated: true
 ---
-
-
-
-
 
 이 튜토리얼에서는 ESP32를 사용하여 BME280 센서 모듈의 측정 값을 표시하기 위한 웹 서버를 만드는 방법을 배울 것입니다. BME280 센서는 온도, 습도 및 기압을 측정하여 소형 기상 관측소를 구축하고 이러한 측정 값을 웹 서버를 통해 실시간으로 모니터링할 수 있게 합니다.
 
@@ -26,7 +22,18 @@ isUpdated: true
 
 ## BME280 센서 배선
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 BME280 센서는 I2C 또는 SPI 통신 프로토콜을 사용할 수 있습니다. 간편하게 I2C를 사용하겠습니다. 다음과 같이 센서를 ESP32에 연결해 주세요:
 
@@ -39,7 +46,18 @@ BME280 센서는 I2C 또는 SPI 통신 프로토콜을 사용할 수 있습니�
 
 ## 필요한 라이브러리 설치
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 BME280 센서에서 데이터를 읽으려면 Arduino IDE에 Adafruit_BME280 및 Adafruit_Sensor 라이브러리를 설치해야 합니다.
 
@@ -51,7 +69,18 @@ BME280 센서에서 데이터를 읽으려면 Arduino IDE에 Adafruit_BME280 및
 
 ## BME280 센서 테스트
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 센서가 올바르게 작동하는지 확인하기 위해 예제 스케치를 로드해주세요. 파일로 이동해서 `Examples` -> `Adafruit BME280 Library` -> `bme280test`로 이동해주세요.
 
@@ -92,7 +121,18 @@ void loop() {
 
 ## 웹 서버 생성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 웹 서버를 만들어 센서 읽기를 테이블 형식으로 표시해 보겠습니다.
 
@@ -175,17 +215,39 @@ void loop() {
 
 코드를 업로드하고 실행해 주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ESP32에 코드를 업로드하고, 시리얼 모니터를 115200의 보레이트로 열어주세요. 표시된 IP 주소를 메모해주세요.
 
 웹 서버에 액세스하기
 
-브라우저를 열고 시리얼 모니터에 표시된 IP 주소를 입력해주세요. 표 형식의 웹 페이지에서 온도, 습도, 기압, 고도 정보가 표시될 것입니다. 
+브라우저를 열고 시리얼 모니터에 표시된 IP 주소를 입력해주세요. 표 형식의 웹 페이지에서 온도, 습도, 기압, 고도 정보가 표시될 것입니다.
 
 ![ESP32 Web Server](/assets/img/2024-06-19-ESP32WebServerwithBME280_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 결론
 

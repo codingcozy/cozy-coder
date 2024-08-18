@@ -3,17 +3,13 @@ title: "2024 트렌드 우정팔찌 재유행의 이유"
 description: ""
 coverImage: "/assets/img/2024-06-23-FriendshipBraceletsAreBackWithaVengeance_0.png"
 date: 2024-06-23 17:57
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-FriendshipBraceletsAreBackWithaVengeance_0.png
 tag: Tech
 originalTitle: "Friendship Bracelets Are Back With a Vengeance"
 link: "https://medium.com/share-your-creativity/friendship-bracelets-are-back-with-a-vengeance-269fdc883d16"
 isUpdated: true
 ---
-
-
-
-
 
 ## 친구 브레이슬릿 | 공예 | 월간 도전
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 나는 약 12살 때 처음으로 친구 브레이슬릿을 만드는 법을 알게 됐어요. 그때 우리 여자애들은 계속 매듭을 묶고 있었죠. 현재 진행 중인 프로젝트를 바지에 고정시키고 쉬는 시간이나 점심시간, 그리고 하루 어느 순간이나 열심히 브레이슬릿에 작업을 하곤 했어요. 서로 교환해서 착용하고, 항상 팔목에 뭉텅이로 다발을 달고 다녔지요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 함께 천 마트에 가 고, 땡큐 베이비시팅 머니를 주머니에 넣었습니다. 우리는 자수 실을 보며 시간이 느는 것처럼 서 있고, 전시된 다양한 색상 중 몇 가지만 고르려 애썼습니다. 생각해보면 어려운 나이에 우정 팔찌를 만드는 것이 색 이론에 대해 배운 것 같았어요. 어떤 색상이 잘 어울리는지, 어떤 것이 어울리지 않는지를 알게 되었죠.
 
@@ -33,7 +40,18 @@ BC주 패울 리버에 있는 화랑을 운영할 때, 2017년 유목 생활을 
 
 어느 날 시장에서 쇼핑을 하다가 몇 개의 컬러풀한 줄을 발견했습니다. 그것은 자수 실은 아니었지만, 충분히 작아서 팔찌를 매는 데 사용할 수 있을 것이라고 생각했어요. 결과적으로 그것은 보통 어망을 매는 데 사용하는 줄이었어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 아이콘화된 팔찌를 만드는 방법을 여성분들께 가르쳐주고 싶었어요. 그들이 선물 가게에서 판매할 수 있는 좋은 상품이 될 것 같아서요. 그리고 아이들이 해볼 수 있는 쉬운 작업을 찾고 있었는데, 상품에 대해 배우기 시작할 수 있게 해주고 싶었죠.
 
@@ -41,7 +59,18 @@ BC주 패울 리버에 있는 화랑을 운영할 때, 2017년 유목 생활을 
 
 2022년 8월, 우리는 다시 터키로 올라갔는데 저는 곧바로 진짜 자수 실을 구입해서 더 만드는 것으로 돌아갔어요. 기차와 버스에서 시간을 보내는 좋은 방법이었고, 손에 쏙 들어가는 창의적이고 가벼운 일을 즐기며 즐겁게 시간을 보냈어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내가 가지고 다니던 팔찌들이 어느 날 불가리아에서 사람들과 만날 때까지 크게 신경 쓰지 않았어요. 그날 나는 내 비밀 창고를 꺼내어 놀랍게도 사람들의 관심을 받았어요. 사람들이 내 팔찌들을 가질 수 있냐고 물어오자, 나는 기꺼이 "물론이죠!"라고 대답했어요. 제가 만든 대부분의 팔찌들은 그 저녁 우연히 만난 낯선 사람들에게 선물했답니다.
 
@@ -49,7 +78,18 @@ BC주 패울 리버에 있는 화랑을 운영할 때, 2017년 유목 생활을 
 
 이것이 내 최근의 열정을 일으킨 것이며, 지난 몇 주 동안 나는 팔찌를 만드는 기계가 됐어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단한 패턴을 만들기 시작했어요. 언제나 만들었던 것과 똑같은 패턴이죠 (사진에 있는 것처럼요) 하지만 금방 다른 것도 해보아야겠다는 생각이 들더라구요. 다이아몬드 패턴이나 다른 디자인으로 만드는 법을 알았지만, 물론 그런 방법을 모르더라구요.
 
@@ -59,7 +99,18 @@ BC주 패울 리버에 있는 화랑을 운영할 때, 2017년 유목 생활을 
 
 당시에 크리스의 엄마 집에 머물렀었는데, 엄마는 수놓기를 많이 해서 자수 실이 있다고 했어요. 그러나 처음에는 찾아야 한다고 했어요. 까먹어버렸는데 며칠 후에 엄마의 계정 상에 자수 실 묶음이 나타났어요. 제가 곧바로 바쁘게 시작했죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 물론, 나는 빨간색 선택에 신속히 지루해지고, 갑자기 팔찌를 만들 필요가 있어 다양한 색상을 얻어야 한다는 것을 알았어요. 며칠 후, 우리는 월마트에 처음 갔을 때 거대한 색상 선택을 발견하여 너무 행복했어요. 약 12가지 새로운 색상을 구입해서 다시 뛰어드는 것을 시작했어요.
 
@@ -67,8 +118,18 @@ BC주 패울 리버에 있는 화랑을 운영할 때, 2017년 유목 생활을 
 
 어느 날, 크리스의 엄마와 함께 할 일이 있어 돌라라마에 갔어요. 미국에 이 체인이 있는지 확실하지 않지만, 중국에서 수입한 쓰레기로 가득찬 저렴한 가게라고 할 수 있어요. 예전에는 가벼운 미술용품을 살 때 가끔씩 가곤 했죠. 통로를 거닐다가 끈적거리는 가장 사랑스러운 비닐싸개를 발견했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Friendship Bracelets Are Back With a Vengeance](/assets/img/2024-06-23-FriendshipBraceletsAreBackWithaVengeance_4.png)
 
@@ -78,8 +139,18 @@ BC주 패울 리버에 있는 화랑을 운영할 때, 2017년 유목 생활을 
 
 이 소재를 사용하니 팔찌 만들기가 훨씬 쉬워졌다. 자수 실은 좋지만 약간 미끄러운 편이라 매듭이 때때로 풀릴 때가 있었다. 그러나 이 면은 약간 마찰력이 있어 매듭 묶기가 훨씬 쉬워졌다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 절로 손목에 더 복잡한 패턴의 팔찌를 저장하기 시작했어요. 우리가 여행할 때 가져가면 선물로 쓸 수 있어 좋다고 생각했거든요.
 
@@ -89,10 +160,20 @@ BC주 패울 리버에 있는 화랑을 운영할 때, 2017년 유목 생활을 
 
 ![Friendship Bracelets](/assets/img/2024-06-23-FriendshipBraceletsAreBackWithaVengeance_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래의 Markdown 형식으로 변경해 주세요.
-
 
 ![Friendship Bracelets 6](/assets/img/2024-06-23-FriendshipBraceletsAreBackWithaVengeance_6.png)
 
@@ -102,8 +183,18 @@ And then this.
 
 I guess next I should work on a fall color scheme seeing as fall has arrived!
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 정말 이 최신 집착이 언제 끝날지, 혹은 아예 끝나지 않을지 전혀 알 수가 없어요. 작고 가벼운 점이 여행 취미로 딱인 것 같아요. 또한, 팔찌들은 좋은 선물이 되니까요.
 
@@ -113,17 +204,39 @@ I guess next I should work on a fall color scheme seeing as fall has arrived!
 
 ![image](/assets/img/2024-06-23-FriendshipBraceletsAreBackWithaVengeance_8.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 "Share Your Creativity"에 처음이시라면, 저희와 함께 참여하고 현재 작업 중인 것을 보여주세요.
 
 작가가 되기 위해서는 여기를 읽어보세요:
-  
+
 또한, 회원 여러분들께는 "아티스트 이야기"를 작성할 것을 장려합니다. 제 이야기는 다음과 같습니다:
 
 창작의 즐거움이 함께 하길 바래요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요 Jill님
 

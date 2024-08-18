@@ -3,16 +3,13 @@ title: "개인정보 보호, 정치, 그리고 포르노"
 description: ""
 coverImage: "/assets/img/2024-05-27-Privacypoliticsandporn_0.png"
 date: 2024-05-27 15:45
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-Privacypoliticsandporn_0.png
 tag: Tech
 originalTitle: "Privacy, politics, and porn"
 link: "https://medium.com/user-experience-design-1/privacy-politics-and-porn-2524b8e68f25"
 isUpdated: true
 ---
-
-
-
 
 캐나다 정치가 아이스크림이라면, 저당량 네오폴리탄 맛일 것 같아요. 쇼콜라, 바닐라, 딸기 같은 세 가지 서로 다른 옵션이 있는데, 실제 맛과는 다르게 느껴질 수 있고 인공적인 후맛을 남길 수 있어요.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 1982년부터 시행된 우리의 비교적 새로운 권리와 자유 헌장은 우리의 표현의 자유가 절대적이지 않다고 규정해요. 헌장은 자유롭고 민주적인 사회에서 정당화된다면 특정 제약을 허용해요. 이는 캐나다 법이, 예를 들어 혐오 발언, 공공안전, 다른 권리와 자유를 보호하기 위해 필요하다면 표현에 제한을 가할 수 있다는 것을 의미해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리베럴당이 최근에 온라인 해심법안(C-63)을 도입하여 온라인 표현 규제를 확대하고 범죄 처벌을 강화했습니다. 이 법안은 성적 피해를 주거나 아동을 괴롭히는 콘텐츠, 폭력적 편견을 부추기거나 테러주의를 부추기는 콘텐츠, 즉 혐오를 조장하는 콘텐츠에 중점을 둔 디지털 안전위원회를 설립할 것입니다.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 보수당 지도자인 피에르 폴리에브르는 이 법안을 "표현의 자유를 침해하는 공격"으로 보기 때문에 이를 좋아하지 않습니다. 이 부분은 정당의 일부인 "소수의 소수 집단"이 "결코 받아들일 수 없는 견해"(예: Freedom Convoy)를 가지고 있을 수 있는데, 이미 그의 정당은 아동 보호에 대한 다른 영향을 가진 다른 접근 방식에 투자하고 있기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보수당과 신민주당의 지지를 받아 독립적인 퀘벡 센터인 미빌드샤느가 S-210이라는 법안을 발의했습니다. 이 법안은 사용자가 사이트를 이용하기 전에 나이 확인을 하지 않아도 포르노 사이트를 형사상 책임을 물을 수 있도록 하는 내용이 포함되어 있습니다. 이 법안은 일부 식별 부분을 해석에 맡기기 때문에, 입법적으로 매우 문제가 될 수 있습니다. 현재 이 법안은 하원에서 검토를 기다리고 있습니다.
 
@@ -42,7 +61,18 @@ isUpdated: true
 
 다시 말해, 캐나다 정치인이 시민을 위한 디지털 신분증에 대해 이야기할 때마다 러시아 해커들은 날개를 달 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 위험한 곳, "인터넷."
 
@@ -52,7 +82,18 @@ isUpdated: true
 
 오, 페르미, 순수한 너드! 외계인들이 우리를 피하는 이유는 인터넷에 접근할 수 있기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사이버 공간에 대한 것은, 당신이 더 큰 참혹한 악당과 악당들의 둥지를 더 이상 찾을 수 없다고 생각할 때, 더 나쁜 것으로부터 두 번의 클릭만 떨어져 있다는 점입니다. 만약 당신이 어둠의 레딧에 떨어진다면, E.T.의 충고를 따라 가능한 빨리 "집으로 돌아가"세요.
 
@@ -62,7 +103,18 @@ isUpdated: true
 
 당신이 당신이 이미 살고 있는 것보다 더 복잡한 성인 생활에 대비하기 위해 아이들에게 세계의 위험을 어떻게 노출시키나요? 현재의 보호장치와 더 많은 보호장치가 해답인가요, 아니면 모든 것이 교육, 기준 개발 및 자녀와 성숙한 대화에 관한 것인가요? 디자이너, 정부, 그리고 사회가 멈추고 부모들이 결정할 수 있는 지점은 어디인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나이와 교육수준은 디지털 소양(source)과 정치적 견해를 예측하는 좋은 지표입니다. 캐나다에서는 63%의 노인이 인터넷과 디지털 기술을 사용하지 않거나 기초적인 사용자로 분류되며, 고등학교 졸업생도 40%가 해당됩니다. 반면, 15~34세의 사용자 중 77%는 숙련이나 고급 사용자로 분류되며, 총주의자 학위 이상을 가진 캐나다인의 76%도 해당됩니다.
 
@@ -72,7 +124,18 @@ isUpdated: true
 
 "내 견해로는" = 편향을 인정하는 것.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 진짜 문제는 그들이 그것에 접근하는 방식이 정말로 좋은 의도, 비교립 체제가 아니며, 미래 중심적인지입니다.
 
@@ -82,7 +145,18 @@ isUpdated: true
 
 # 통계에 따르면: 포르노가 존재합니다
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 온라인 세계의 어느 정도가 포르노에 전념되어 있는지 어떻게 생각하십니까? 섹스와 관련된 모든 것과 마찬가지로, 현실은 종종 우리의 상상력과는 거리가 멉니다.
 
@@ -92,8 +166,18 @@ isUpdated: true
 
 글로벌로 가장 자주 방문되는 상위 100개의 웹사이트 중 4개가 성인 콘텐츠 플랫폼이라고 합니다. 포르노 관련 주제는 웹 검색량의 13%와 모바일 검색의 20%를 이끌고 있어서 아직 사람들이 북마크를 사용하는 방법을 잘 모르는 것 같습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Privacy, Politics, and Porn](/assets/img/2024-05-27-Privacypoliticsandporn_1.png)
 
@@ -103,8 +187,18 @@ isUpdated: true
 
 포르노 사이트 방문은 보통 짧고 달콤하죠. 미국인들의 평균 방문 시간은 9분 44초예요. "이탈률"에게 완전히 새로운 의미를 부여하고 있네요. (출처)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위오밍, 미시시피 및 알라바마는 포르노를 가장 오래 시청하는 미국 주입니다. 위오밍은 놀라운 평균 11분 3초를 소비하며, 미시시피와 알라바마는 각각 10분 51초와 10분 46초를 소비합니다.
 
@@ -114,7 +208,18 @@ isUpdated: true
 
 유타의 규정이 초래한 부작용 가운데, PornHub는 전체 주의 IP 주소를 차단하여 가상 사설망 (VPN) 사용이 967% 증가했습니다. (출처).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-27-Privacypoliticsandporn_2.png)
 
@@ -124,8 +229,18 @@ isUpdated: true
 
 가상 사설망은 웹의 표면 수준에서 익명성을 유지하는 방법입니다. 그러나 많은 사람들의 놀라움으로, 인터넷에는 공공 검토를 벗어나 익명성의 추가적인 층을 제공하는 영역인 딥 웹과 다크 웹이 발전해 왔습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![프라이버시, 정치 그리고 포르노그래피](/assets/img/2024-05-27-Privacypoliticsandporn_3.png)
 
@@ -135,8 +250,18 @@ isUpdated: true
 
 다크 웹은 깊은 웹의 일부이지만 동일하지는 않습니다. 자세한 내용은 생략하고, 사용자의 개인 정보보호와 익명성 유지로 잘 알려져 있으며 연결을 여러 서버를 통해 라우팅하고 각 단계에서 데이터를 암호화하여 처리합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다크 웹은 특별한 익명성을 제공합니다. 독재 정부에서의 언론의 자유를 위한 포럼, 부도덕한 행위에 대한 고발, 개인 보복이나 차별을 두려워하지 않고 커뮤니티에 참여하는 등 합법적인 활동을 지원할 수 있습니다. 또한 암호 화폐 개발의 기반을 마련해 주었습니다. 그들이 어떤 목적으로 사용했는지는 묻지 마세요.
 
@@ -146,7 +271,18 @@ isUpdated: true
 
 # 알고리즘은 후회가 아닌 참여를 추적합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인터넷이 우리로부터 정보를 수집하는 데 더 능동해지면 우리의 개인 및 전문적인 삶을 우리의 아바타와 분리하는 것은 거의 불가능해집니다. 그 논리는 간단합니다: 훌륭한 네티즌이라면 두려워할 것이 없고, 당신은 온라인 잘못 행동의 현실적인 결과를 피하기가 거의 불가능하므로 좋은 네티즌이 되어야 합니다.
 
@@ -156,7 +292,18 @@ isUpdated: true
 
 우리의 정의 개념은 디지털 무게에 대처하는 데 더 잘 적응되어야 합니다. 어떤 범죄, 예를 들어 상대방의 동의 없이 친밀한 사진을 공개하는 것과 같은 하나의 범죄는 수백만 번 복제되어 영원히 서버에 저장될 수 있습니다. 그런 결과가 어디서 일어났는지를 알 수 있을까요? 일반인들의 대답은 확실한 평생 수감 및 매년 소변마려운 일들을 받아들이는 세션이겠지만, 법적으로 맥락이 중요합니다. 이러한 위반사항들은 일반적으로 민형사적 범죄로 분류되며 벌금, 벌칙 피해배상 및 징역형이 가능합니다. 그러나 이들은 여전히 충분히 심각하게 대해주지 않아 많은 사례들이 신고되지 않습니다. (출처)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-27-Privacypoliticsandporn_4.png" />
 
@@ -167,7 +314,18 @@ isUpdated: true
 - 앨버타, 매니토바, 온타리오, 프린스 에드워드 아일랜드, 퀘벡, 사스카처외에는 18세
 - 브리티시컬럼비아, 뉴브런즈윅, 뉴펀들랜드 래브라도, 노스웨스트테리토리즈, 노바스코샤, 누나부트, 요콘 외에는 19세입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지역 간 불일치에 대한 통치법은 어떻게 합니까? 이전히 존재하는 잘못된 부분에 대한 설계는 어떻게 하나요? 디지털 정책의 미래를 탐색하는 데는 많은 주의가 필요하며 가끔은 민감한 대화와 잘 알고 있는 봉양이 필요합니다.
 
@@ -177,6 +335,17 @@ isUpdated: true
 
 이 미묘한 균형은 계속되는 대화, 혁신적 사고, 정부, 기술 기업 및 시민사회 간의 협력이 필요하며, 우리의 집단적 안전과 시민의 자유를 존중하면서도 디지털 정책의 미래를 탐색해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결백함과 개인 정보 보호는 하나의 공통점이 있습니다: 한 번 상실되면 다시 되찾을 수 없다는 것입니다.

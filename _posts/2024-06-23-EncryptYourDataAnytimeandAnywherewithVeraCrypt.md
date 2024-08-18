@@ -3,17 +3,13 @@ title: "VeraCrypt로 언제 어디서나 데이터를 암호화하는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-23-EncryptYourDataAnytimeandAnywherewithVeraCrypt_0.png"
 date: 2024-06-23 15:29
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-EncryptYourDataAnytimeandAnywherewithVeraCrypt_0.png
 tag: Tech
 originalTitle: "Encrypt Your Data Anytime and Anywhere with VeraCrypt"
 link: "https://medium.com/@_olsi/encrypt-your-data-anytime-and-anywhere-with-veracrypt-430d37a38b63"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-23-EncryptYourDataAnytimeandAnywherewithVeraCrypt_0.png" />
 
@@ -25,7 +21,18 @@ isUpdated: true
 - 비밀 정보, 예를 들어 비밀번호나 기타 민감한 데이터가 포함된 메모를 암호화하기;
 - 특히 사용자 프로필 데이터가 있는 데이터베이스 백업을 암호화하기.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # VeraCrypt 설치
 
@@ -35,7 +42,18 @@ isUpdated: true
 
 ## 설치 프로그램 다운로드
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우분투 / 데비안 예시
 
@@ -54,7 +72,18 @@ echo "alias veracrypt='/Applications/VeraCrypt.app/Contents/MacOS/VeraCrypt --te
 source ~/.zshrc
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 암호화된 볼륨 생성하기 (데이터를 담는 그릇)
 
@@ -63,13 +92,24 @@ source ~/.zshrc
 암호화된 파일에 접근하거나 새로운 파일을 추가하려면 해당 볼륨을 폴더에 마운트해야 합니다. 그렇게 하면 모든 데이터가 자동으로 복호화되어 일반적인 PC 폴더처럼 작업할 수 있습니다.
 
 ```js
-# 100 기가바이트 크기의 볼륨 생성 및 
+# 100 기가바이트 크기의 볼륨 생성 및
 # 현재 폴더에 my_100gb_secured라는 파일명으로 저장
-veracrypt --text --create my_100gb_secured --size 100G --encryption AES --hash SHA-256 --random-source /dev/random --pim 0 --volume-type normal --keyfiles="" --filesystem exfat 
+veracrypt --text --create my_100gb_secured --size 100G --encryption AES --hash SHA-256 --random-source /dev/random --pim 0 --volume-type normal --keyfiles="" --filesystem exfat
 # 볼륨에 대한 암호를 입력하라는 메시지가 나타납니다...
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 명령을 조각조각 나눠보겠습니다:
 
@@ -87,7 +127,18 @@ veracrypt --text --create my_100gb_secured --size 100G --encryption AES --hash S
 
 ## 파일 시스템 선택
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 fat32은 호환성이 좋고 모든 운영 체제에서 기본 지원되는 파일 시스템입니다. 이는 휴대폰과 카메라의 SD 및 microSD 카드에 사용되는 동일한 파일 시스템입니다. 단점은 fat32의 각 파일의 최대 크기가 4GB로 제한된다는 것입니다.
 
@@ -97,7 +148,18 @@ NTFS는 macOS에서 지원되지 않는 유일한 단점이 있지만, 뛰어난
 
 다른 옵션들도 있지만 특정 운영 체제에 특화되어 있으므로 macOS와 얼마나 자주 작업하는지에 따라 exfat과 NTFS 중 선택하는 것이 좋습니다. Windows 및 Linux가 기본 장치인 경우 NTFS가 좋은 선택이 될 수 있습니다. 확실하지 않고 가능한 한 유연하게 사용하고 싶다면 exfat을 선택하는 것이 좋습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 암호화된 볼륨을 마운트하기
 
@@ -113,7 +175,18 @@ mkdir ~/my_100gb_directory
 veracrypt --text --mount --keyfiles="" --pim 0 my_100gb_secured ~/my_100gb_directory
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 폴더를 건너뛰고 VeraCrypt가 볼륨을 하드 드라이브로 마운트합니다 (폴더에 마운트하는 것이 작동하지 않으면, 특히 macOS에서 일부 ~/my_100gb_directory를 제외하고 다시 시도해보세요)
 
@@ -123,7 +196,18 @@ veracrypt --text --mount --keyfiles="" --pim 0 my_100gb_secured ~/my_100gb_direc
 
 작업을 마친 후 — 모든 마운트된 볼륨을 비활성화하려면 다음을 입력하세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 veracrypt -d
@@ -135,6 +219,17 @@ veracrypt -d
 
 보너스로, 필요할 경우에 대비해 몇 가지 더 많은 VeraCrypt 명령어 플래그를 여기에 나열해두었습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 마크다운 형식으로 변경해주세요.

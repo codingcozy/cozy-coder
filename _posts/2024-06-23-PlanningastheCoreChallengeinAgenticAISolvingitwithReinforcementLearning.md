@@ -3,17 +3,13 @@ title: "에이전트 AI의 핵심 과제인 계획 문제 강화학습으로 해
 description: ""
 coverImage: "/assets/img/2024-06-23-PlanningastheCoreChallengeinAgenticAISolvingitwithReinforcementLearning_0.png"
 date: 2024-06-23 19:42
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-PlanningastheCoreChallengeinAgenticAISolvingitwithReinforcementLearning_0.png
 tag: Tech
 originalTitle: "Planning as the Core Challenge in Agentic AI: Solving it with Reinforcement Learning"
 link: "https://medium.com/@alcarazanthony1/planning-as-the-core-challenge-in-agentic-ai-solving-it-with-reinforcement-learning-00e2076203ee"
 isUpdated: true
 ---
-
-
-
-
 
 창의력을 발휘하여 복잡한 비즈니스 전략 문제를 해결하기 위해 원활하게 협업하는 AI 에이전트 팀을 상상해보세요. 시장 동향을 조사하는 한 명의 에이전트, 재무 데이터를 분석하는 다른 한 명, 그리고 권고 사항을 준비하는 세 번째 에이전트가 모두 공통 목표를 향해 노력하고 있습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 그러나 이 새로운 협업 AI 영역으로 나아가면 앤젠틱 시스템의 핵심에 있는 근본적인 도전 과제를 마주하게 됩니다: 계획.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AI 에이전트들이 효과적으로 행동을 계획하고 서로 협력하며 동적이고 개방적인 환경에서 자신들의 전략을 적응시킬 수 있게 하는 방법은 무엇일까요?
 
@@ -33,8 +40,18 @@ AI 에이전트들이 효과적으로 행동을 계획하고 서로 협력하며
 
 에이전트 AI에서 계획과 강화 학습의 상호작용을 이해함으로써, 지능적 자동화와 협력적인 인공지능의 미래에 대한 중요한 통찰을 얻을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Planning as the Core Challenge in Agentic AI: Solving it with Reinforcement Learning](/assets/img/2024-06-23-PlanningastheCoreChallengeinAgenticAISolvingitwithReinforcementLearning_0.png)
 
@@ -44,8 +61,18 @@ Agentic AI는 인공지능 시스템을 개념화하고 구현하는 방식에�
 
 이 Agentic AI 혁명의 전선에는 다수의 에이전트들 사이의 협력에 대한 독특한 접근 방식을 제공하는 여러 중요한 프레임워크들이 등장했다:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - CrewAI: 이 프레임워크는 특정 역할을 갖는 AI 팀을 설계할 수 있게 해 주어, 그들이 특정 작업에 따라 선별된 연구 및 분석 도구 세트를 갖추도록 돕습니다.
 - Langraph: Langraph는 더 구조화된 방식을 채택하여, 명시적인 방향 그래프를 사용하여 에이전트 간의 작업 흐름을 정의합니다. 이를 통해 개발자들은 에이전트 조정과 작업 할당에 대해 세밀한 제어를 할 수 있습니다.
@@ -57,7 +84,18 @@ Agentic AI는 인공지능 시스템을 개념화하고 구현하는 방식에�
 
 예를 들어 채용 상황에서, 크루는 기술 직군 연구, 인적 프로필 엔지니어링, 이력서 전략 및 면접 준비에 특화된 에이전트로 구성될 수 있습니다. 이러한 특화된 에이전트들이 함께 작업하여 단일 일반적 AI보다 개인을 고용 전 과정에서 효과적으로 안내할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 언어 모델과 외부 도구의 활용: 에이전트 AI 시스템에서 또 다른 중요한 패턴은 각 에이전트를 뒷받침하는 "두뇌"로서 대형 언어 모델(LLMs)을 사용하는 것입니다. 이러한 미리 학습된 모델은 에이전트가 열린 대화를 할 수 있게 하며 자연어 질의를 해석하고 유창한 응답을 생성하며 판단을 내릴 수 있도록 합니다.
 
@@ -67,7 +105,18 @@ Agentic AI는 인공지능 시스템을 개념화하고 구현하는 방식에�
 
 에이전트 상태 및 워크플로우 관리: 에이전트 AI 설계의 가장 다양한 측면은 플랫폼이 에이전트 팀의 상태와 워크플로우 오케스트레이션을 어떻게 다루는지입니다. 에이전트 작업은 종종 다수의 단계와 에이전트 출력 간의 의존성을 포함하므로 일관된 전역 상태와 제어 흐름을 유지하는 것이 중요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 도전 과제에 대한 접근 방식은 플랫폼마다 다양합니다. Langraph는 워크플로우를 정의하기 위해 명시적인 방향 그래프를 사용하여 개발자에게 세밀한 제어를 제공합니다. Autogen은 에이전트 간의 멀티턴 대화에서 발생하는 신흥 워크플로에 더 의존합니다. CrewAI는 상호 작용을 안내하는 고수준 태스크 플로우를 갖추고 있지만 에이전트들이 서브태스크를 자율적으로 위임하고 응답할 수 있는 유연성을 가지고 있습니다.
 
@@ -80,7 +129,18 @@ Agentic AI는 인공지능 시스템을 개념화하고 구현하는 방식에�
 
 보다시피, 에이전트 AI의 부상은 유연하고 지능적인 자동화의 엄청난 잠재력을 가져옵니다. 특화, 협업, 외부 데이터를 기반으로 한 언어 모델의 강점을 활용하여 이러한 시스템은 기존의 전통적인 AI 접근 방식으로는 이루기 힘든 복잡하고 개방적인 작업에 대처할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 이러한 잠재력은 상당한 도전과 함께 옵니다. 그 중에서도 가장 중요한 것은 계획 문제입니다. 어떻게 하면 다양한 AI 에이전트 팀이 효과적으로 행동을 조정하고 불확실성 하에서 결정을 내리며, 동적 환경에서 전략을 적응할 수 있도록 할 수 있을까요? 이것이 에이전트 AI 시스템의 핵심 도전에 대한 핵심을 담고 있습니다.
 
@@ -90,7 +150,18 @@ Agentic AI는 인공지능 시스템을 개념화하고 구현하는 방식에�
 
 왜 계획이 특히 복잡한가요, 특히 다중 에이전트 시나리오에서? 이러한 어려움에 기여하는 몇 가지 주요 요소가 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 고차원 상태 및 행동 공간: 에이전틱 인공지능에서 상태 공간(환경 및 에이전트의 모든 가능한 구성)과 행동 공간(에이전트가 취할 수 있는 모든 가능한 행동)은 매우 크고 복잡합니다. 이는 각각의 능력과 잠재적 행동을 갖는 여러 에이전트가 상호작용하는 경우 조합 폭발로 인한 것입니다.
 - 부분 관측성: 에이전트들은 종종 환경의 상태와 다른 에이전트의 행동에 대해 불완전한 정보를 갖습니다. 이러한 불확실성으로 인해 행동의 결과를 예측하고 효과적으로 계획하기 어려워집니다.
@@ -109,7 +180,18 @@ Agentic AI는 인공지능 시스템을 개념화하고 구현하는 방식에�
 - 할인 계수 (γ): 단기 vs. 장기적 보상의 우선순위
 - 문제 기간 (T): 허용되는 추론 단계의 최대 수
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 계획 문제를 MDP로 프레임화함으로써, 강화 학습 분야의 다양한 기술을 활용하여 AI의 계획 과제를 해결할 수 있습니다. 그러나 이 정식화는 계획 과정에서 근본적인 긴장을 강조하기도 합니다: 탐험-활용 딜레마.
 
@@ -120,7 +202,18 @@ Agentic AI는 인공지능 시스템을 개념화하고 구현하는 방식에�
 
 탐험과 활용 사이의 적절한 균형을 찾는 것은 에이전트 AI 시스템에서의 효과적인 계획에 중요합니다. 탐험이 과도하면 낭비되는 컴퓨팅 자원과 일관성 없는 성능을 야기할 수 있으며, 활용이 지나치다면 최적의 솔루션을 허술하게 만들거나 새로운 상황에 적응하지 못하는 문제를 야기할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전통적인 계획 접근 방식인 상징적 AI나 철저한 검색을 기반으로 한 방법은 종종 에이전틱 AI의 맥락에서 이러한 도전 과제를 해결하는 데 어려움을 겪는다. 이러한 방법들은 일반적으로 환경의 완전한 지식, 결정론적 행동 결과, 명확히 정의된 목표 상태에 의존하는데, 이는 에이전틱 AI가 활동하는 복잡하고 불확실하며 개방적인 도메인에서 거의 적용되지 않는 가정들이다.
 
@@ -135,7 +228,18 @@ Agentic AI는 인공지능 시스템을 개념화하고 구현하는 방식에�
 
 여기서 강화 학습이 등장하여 에이전틱 AI 시스템이 제기하는 독특한 계획 도전 과제를 해결하기에 적합한 강력한 기법 세트를 제공한다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 강화 학습 및 고급 기술로서의 솔루션
 
@@ -149,7 +253,18 @@ Agentic AI는 인공지능 시스템을 개념화하고 구현하는 방식에�
 - 장기 계획: 많은 RL 알고리즘은 명시적으로 장기 보상을 최적화하기 위해 설계되어 있어, 긴 시간 대역으로 계획을 수립하고 행위 간의 복잡한 종속성을 포착할 수 있습니다.
 - 적응성: RL 에이전트들은 새로운 경험을 기반으로 전략을 지속적으로 업데이트할 수 있어, 변동성 있는 환경에 적합합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특히 계획 도전 과제를 해결하는 데 유망한 강화 학습 기법 중 하나는 몬테 카를로 트리 탐색(Monte Carlo Tree Search, MCTS)입니다. MCTS는 휴리스틱 탐색 알고리즘이며, 랜덤 샘플링과 트리 탐색을 결합하여 복잡한 공간에서 결정을 내립니다. 이 기법은 다양한 분야에 성공적으로 적용되었으며, 알파고(AlphaGo)와 같은 게임 플레이 인공지능에서 사용되었습니다.
 
@@ -162,7 +277,18 @@ Agentic AI는 인공지능 시스템을 개념화하고 구현하는 방식에�
 
 이러한 단계를 반복적으로 적용함으로써, MCTS는 검색 공간의 가장 유망한 지역에 계산 리소스를 집중할 수 있어 에이전틱 인공지능 계획에서 마주치는 고차원 상태 및 행동 공간에 적합합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다른 중요한 강화 학습 개념 중 하나는 에이전틱 AI 계획에 적용할 수 있는 Q-러닝입니다. Q-러닝은 모델이 없는 강화 학습 알고리즘으로, 주어진 상태에서 특정 행동을 취했을 때 기대되는 누적 보상(Q-값)을 추정하는 방법을 학습합니다. 에이전틱 AI 환경에서는 Q-러닝을 사용하여 다양한 사고 과정이나 문서 검색의 가치를 추정할 수 있습니다.
 
@@ -170,34 +296,67 @@ Agentic AI는 인공지능 시스템을 개념화하고 구현하는 방식에�
 
 또한 특히 유망한 세 가지 혁신적 기술을 살펴보겠습니다:
 
-## Q*: 딥러닝 계획을 통한 다단계 추론 개선
+## Q\*: 딥러닝 계획을 통한 다단계 추론 개선
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-Wang 및 다른 사람(2024)이 소개한 Q* 프레임워크는 대형 언어 모델(Large Language Models, LLMs)의 다단계 추론 능력을 향상시키는 데 중요한 발전을 이끌어냅니다. Q*는 A* 검색의 능력을 결합하여 학습된 Q-value 모델로 LLMs을 복잡한 추론 작업 중에서 가장 유망한 다음 단계를 선택하도록 안내합니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-Q*의 주요 특징은 다음과 같습니다:
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+Wang 및 다른 사람(2024)이 소개한 Q* 프레임워크는 대형 언어 모델(Large Language Models, LLMs)의 다단계 추론 능력을 향상시키는 데 중요한 발전을 이끌어냅니다. Q*는 A\* 검색의 능력을 결합하여 학습된 Q-value 모델로 LLMs을 복잡한 추론 작업 중에서 가장 유망한 다음 단계를 선택하도록 안내합니다.
+
+Q\*의 주요 특징은 다음과 같습니다:
 
 - 각 노드가 주어진 문제에 대한 부분 솔루션을 나타내는 그래프로 추론 프로세스를 모델링합니다.
-- A* 검색을 위한 학습된 Q-value 모델을 휴리스틱 함수로 사용하여, 전체 문제를 해결하는 데 각 잠재적인 다음 단계가 얼마나 유망한지를 추정합니다.
+- A\* 검색을 위한 학습된 Q-value 모델을 휴리스틱 함수로 사용하여, 전체 문제를 해결하는 데 각 잠재적인 다음 단계가 얼마나 유망한지를 추정합니다.
 - 가능한 추론 경로의 방대한 공간을 효율적으로 탐색하기 위해 몬테카를로 트리 탐색(Monte Carlo Tree Search, MCTS)을 사용합니다.
 - LLM이 자체 정제된 답변에 대한 점수를 매기는 자가 평가 메커니즘을 통합하여 추론 프로세스를 지속적으로 향상시킬 수 있습니다.
 
-Q* 프레임워크는 에이전트 AI 계획에서 몇 가지 중요한 도전에 대처합니다:
+Q\* 프레임워크는 에이전트 AI 계획에서 몇 가지 중요한 도전에 대처합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-- 긴 콘텍스트 처리: Q*는 전통적인 LLM의 고정된 콘텍스트 창의 제약을 극복하기 위해 지식 원본에서 대규모 문서 배치를 처리할 수 있습니다.
-- 무관한 정보에 대한 견고성: 다양한 추론 분기를 탐색함으로써 Q*는 실패한 정보 검색 및 오도된 문서에 대해 저항력을 갖습니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+- 긴 콘텍스트 처리: Q\*는 전통적인 LLM의 고정된 콘텍스트 창의 제약을 극복하기 위해 지식 원본에서 대규모 문서 배치를 처리할 수 있습니다.
+- 무관한 정보에 대한 견고성: 다양한 추론 분기를 탐색함으로써 Q\*는 실패한 정보 검색 및 오도된 문서에 대해 저항력을 갖습니다.
 - 적응성: 이 프레임워크는 기본 LLM의 작업별 특정 조정 없이 다양한 추론 작업에 적용할 수 있습니다.
 
-실험 결과에 따르면 Q*는 다양한 수학적 추론 및 코드 생성 작업에서 기준선 방법을 크게 앞섰으며, 지식 기반 AI 시스템의 계획 및 추론 능력을 향상시킬 잠재력을 입증했습니다.
+실험 결과에 따르면 Q\*는 다양한 수학적 추론 및 코드 생성 작업에서 기준선 방법을 크게 앞섰으며, 지식 기반 AI 시스템의 계획 및 추론 능력을 향상시킬 잠재력을 입증했습니다.
 
 ## 병렬 함수 호출을 위한 LLM 컴파일러
 
-Q*가 추론 프로세스 자체를 개선하는 데 초점을 맞추고 있을 때, LLM 컴파일러 접근 방식은 에이전틱 AI 계획의 또 다른 중요한 측면을 다룹니다: 병렬 함수 호출의 효율적인 조율. 이 기법은 고전 컴파일러 설계에서 영감을 받아 대규모 언어 모델에서 여러 함수 호출을 실행을 최적화하는 것을 목표로 합니다.
+Q\*가 추론 프로세스 자체를 개선하는 데 초점을 맞추고 있을 때, LLM 컴파일러 접근 방식은 에이전틱 AI 계획의 또 다른 중요한 측면을 다룹니다: 병렬 함수 호출의 효율적인 조율. 이 기법은 고전 컴파일러 설계에서 영감을 받아 대규모 언어 모델에서 여러 함수 호출을 실행을 최적화하는 것을 목표로 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LLM 컴파일러 방식의 주요 측면은 다음과 같습니다:
 
@@ -212,7 +371,18 @@ LLM 컴파일러는 공별한 AI 계획에서 여러 중요한 도전 과제를 
 - 확장성: 이 방식은 다수의 함수 호출과 데이터 의존성이 포함된 대규모 및 복잡한 작업을 다루도록 설계되었습니다.
 - 유연성: 컴파일러는 다양한 종류의 LLM 및 작업 부하에 적응할 수 있어 다양한 AI 응용 프로그램에 대한 다재다능한 도구가 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 초기 결과에 따르면, LLM 컴파일러는 순차 실행 방법과 비교하여 상당한 속도 향상을 달성할 수 있다는 것이 밝혀졌습니다. 최대 3.7배의 대기 시간 개선과 일부 작업에서 최대 6.7배까지의 비용 절감이 가능합니다.
 
@@ -222,7 +392,18 @@ LLM 컴파일러는 공별한 AI 계획에서 여러 중요한 도전 과제를 
 
 MCTSr의 주요 기능은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 대규모 언어 모델과 몬테카를로 트리 탐색을 통합하여 문제 해결 능력을 향상시킵니다.
 - 선택, 자가 세부화, 자가 평가 및 역전파 단계를 포함하는 반복적인 과정입니다.
@@ -237,9 +418,20 @@ MCTSr은 수학적 추론과 계획에서 여러 가지 도전에 대응합니�
 
 실험 결과에서는 MCTSr이 LLaMA-3 8B와 같은 훨씬 작은 모델을 사용하여 수학 올림피아드 문제에서 GPT-4 수준의 성능을 달성할 수 있다는 것을 입증하였으며, 이는 인공지능 시스템의 추론 능력을 혁신적으로 향상시킬 잠재력을 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-이 세 가지 접근법인 Q*, LLM Compiler 및 MCTSr은 에이전틱 AI의 계획 및 추론 기술의 최신 동향을 대표합니다. 이러한 방법들은 강화 학습 원칙과 혁신적인 탐색 및 최적화 전략을 결합하여 AI 주도 문제 해결에서 가능한 범위를 넓히고 있습니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+이 세 가지 접근법인 Q\*, LLM Compiler 및 MCTSr은 에이전틱 AI의 계획 및 추론 기술의 최신 동향을 대표합니다. 이러한 방법들은 강화 학습 원칙과 혁신적인 탐색 및 최적화 전략을 결합하여 AI 주도 문제 해결에서 가능한 범위를 넓히고 있습니다.
 
 그러나 이러한 고급 기술을 에이전틱 AI 계획에 적용하는 데는 다음과 같은 도전 과제가 있습니다:
 

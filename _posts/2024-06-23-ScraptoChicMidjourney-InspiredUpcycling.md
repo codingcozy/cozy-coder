@@ -3,17 +3,13 @@ title: "업사이클링의 색다른 변신 Midjourney 스타일 적용하기"
 description: ""
 coverImage: "/assets/img/2024-06-23-ScraptoChicMidjourney-InspiredUpcycling_0.png"
 date: 2024-06-23 20:25
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-ScraptoChicMidjourney-InspiredUpcycling_0.png
 tag: Tech
 originalTitle: "Scrap to Chic: Midjourney-Inspired Upcycling"
 link: "https://medium.com/let-there-be-prompt/scrap-to-chic-midjourney-inspired-upcycling-03c68f2c8be6"
 isUpdated: true
 ---
-
-
-
-
 
 나는 오래된 쓰레기를 좋아해. 녹슨 제리캔과 통, 오래된 철로 못과 철 도구, 드리프트우드, 그리고 고장 난 의자들을 좋아해. 안타깝게도, 나의 반쪽이 그런 물건을 좋아해서, 우리는 업사이클링할 물건들을 모아두게 되었어.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 결국 Midjourney가 아이디어를 도와주는 데에 상당히 능숙한 사실을 알았어. 사실, Midjourney는 나의 업사이클링 프로젝트 몇 개에 대해 희망을 잃어버렸던 일부 좋은 아이디어를 내놓았어.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Midjourney를 사용할 때, 이러한 프로젝트에 대해 모드를 “표준”으로 설정하고 “포장” 매개변수를 적어도 500으로 늘리곤 해요. 일반적으로 버전 6을 사용하지만, 버전 5.2와 Niji도 몇 가지 흥미로운 디자인 아이디어를 제공할 수 있어요.
 
@@ -33,8 +40,18 @@ Midjourney를 사용할 때, 이러한 프로젝트에 대해 모드를 “표�
 
 그리고 생성된 이미지 중에서 흥미로운 것을 찾아보아요. 아마도 아직 생각하지 않은 무언가를 발견할 수도 있고, 만들어보면 흥미로운 결과를 얻을 거예요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image 1](/assets/img/2024-06-23-ScraptoChicMidjourney-InspiredUpcycling_1.png)
 
@@ -44,8 +61,18 @@ Tin cans are great objects to upcycle. So we can try the prompt “decoration ob
 
 ![Image 2](/assets/img/2024-06-23-ScraptoChicMidjourney-InspiredUpcycling_2.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가끔 Midjourney는 캔으로 만들어지지 않고 만들기 쉽지 않은 물건을 만들어, 하지만 그 물건들은 디자인의 가능성이 무궁무진하죠. 저는 그러한 이미지들을 미래를 위해 보관하거나 Midjourney와 함께 사용할 이미지 참조 자료로 보관하기도 해요.
 
@@ -55,7 +82,18 @@ Tin cans are great objects to upcycle. So we can try the prompt “decoration ob
 
 ![이미지 2](/assets/img/2024-06-23-ScraptoChicMidjourney-InspiredUpcycling_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 Midjourney에 더 구체적인 지시 사항을 주면 가장 좋은 결과물이 나오게 됩니다. 예를 들어;
 
@@ -65,7 +103,18 @@ Tin cans are great objects to upcycle. So we can try the prompt “decoration ob
 
 ![image](/assets/img/2024-06-23-ScraptoChicMidjourney-InspiredUpcycling_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 문구로부터 얻은 멋진 디자인입니다. "비어 있는 드리프트우드 가지로 만든 램프".
 
@@ -75,8 +124,18 @@ Tin cans are great objects to upcycle. So we can try the prompt “decoration ob
 
 여기 절묘한 아이디어로 낡은 대나무 의자를 재활용하는 방법을 보여주는 이미지가 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-06-23-ScraptoChicMidjourney-InspiredUpcycling_8](/assets/img/2024-06-23-ScraptoChicMidjourney-InspiredUpcycling_8.png)
 
@@ -86,8 +145,18 @@ Tin cans are great objects to upcycle. So we can try the prompt “decoration ob
 
 ![2024-06-23-ScraptoChicMidjourney-InspiredUpcycling_9](/assets/img/2024-06-23-ScraptoChicMidjourney-InspiredUpcycling_9.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 이렇게 Midjourney를 사용하는 것을 좋아해요. 이러한 이미지들이 드래곤을 탄 소녀보다 더 유용하다고 생각하고, 이러한 프로젝트를 진행하며 제 독려 능력을 향상시킬 수 있어서 이는 상호 이득적인 일이에요.
 

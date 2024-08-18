@@ -3,17 +3,13 @@ title: "AWS EC2에 Tiny-Llama 배포하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-13-DeployTiny-LlamaonAWSEC2_0.png"
 date: 2024-07-13 22:38
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-DeployTiny-LlamaonAWSEC2_0.png
 tag: Tech
 originalTitle: "Deploy Tiny-Llama on AWS EC2"
 link: "https://medium.com/towards-data-science/deploy-tiny-llama-on-aws-ec2-f3ff312c896d"
 isUpdated: true
 ---
-
-
-
-
 
 ![Tiny Llama](/assets/img/2024-07-13-DeployTiny-LlamaonAWSEC2_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이 프로젝트에 사용한 도구 목록:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 딥노트(Deepnote): 협업 데이터 과학 프로젝트에 좋고 프로토타이핑에 좋은 클라우드 기반 노트북 서비스입니다.
 - FastAPI: Python으로 API를 구축하는 웹 프레임워크입니다.
@@ -38,7 +45,18 @@ Tiny Llama-1.1B는 3조 토큰에 대한 1.1B Llama 사전훈련을 목표로 �
 
 현재의 대형 언어 모델은 인상적인 능력을 가지고 있지만 하드웨어 측면에서 매우 비용이 듭니다. 많은 분야에서 우리는 하드웨어가 제한되어 있습니다. 스마트폰이나 위성을 생각해 보세요. 따라서 에지 장치에 배포될 수 있도록 작은 모델을 만드는 연구가 많이 진행되고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 인기를 얻고 있는 "small" 모델 목록이 있어요:
 
@@ -50,7 +68,18 @@ Tiny Llama-1.1B는 3조 토큰에 대한 1.1B Llama 사전훈련을 목표로 �
 
 ## FastAPI 서비스 개발하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트를 배포하기 전에 물론 만들어야 합니다. 만약 원하신다면, 내 GitHub 저장소를 직접 사용하여 이 글의 첫 부분을 건너뛸 수 있습니다.
 
@@ -60,7 +89,18 @@ Tiny Llama-1.1B는 3조 토큰에 대한 1.1B Llama 사전훈련을 목표로 �
 
 이제 HTTP 연결 URL을 복사하고, 저장소를 복제하여 좋아하는 IDE(VScode ❤️)로 엽니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-13-DeployTiny-LlamaonAWSEC2_2.png" />
 
@@ -78,7 +118,18 @@ pydantic_core==2.14.6
 
 터미널에서 이 명령어를 실행하여 requirements 파일로부터 모든 패키지를 동시에 설치해 보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 pip install -r requirements.txt
@@ -86,12 +137,22 @@ pip install -r requirements.txt
 
 그래요. 이제 코딩을 시작할 수 있어요! 👨‍💻
 
-저는 tiny-llama-1B 모델을 인스턴스화하고 싶어요. 해당 모델과 모델 카드는 HuggingFace(HF)에서 쉽게 찾을 수 있어요. 
+저는 tiny-llama-1B 모델을 인스턴스화하고 싶어요. 해당 모델과 모델 카드는 HuggingFace(HF)에서 쉽게 찾을 수 있어요.
 
 모델 카드는 모델이 어떻게 작동하는지 이해하고 사용하는 방법을 잘 파악할 수 있게 도와줘요. 그래서 HuggingFace에서 좋은 설명이 함께 제공되지 않는 프로젝트들을 항상 의심해요. 🌟
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 HF에서 모델 카드에 나와 있는 대로 영감을 받아 입력 쿼리를 바탕으로 답변을 생성하는 함수를 만들었다. 이 작업은 model.py라는 새 파일에서 수행했다.
 
@@ -145,13 +206,25 @@ if __name__ == "__main__":
     print(model_query("tell me a joke about politicians"))
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 완벽합니다. 당신의 기능을 갖추었어요. 단지 API를 통해 이 기능을 사용할 수 있는 웹 서비스를 만들면 누구나 모델에 연결하여 사용할 수 있어요.
 
 이를 위해 Flask, Django와 같은 여러 프레임워크가 있지만, 여기서는 FastAPI를 사용할 거에요.
 
 main.py 파일을 만들어 API의 엔드포인트를 설정해뒀어요.
+
 ```python
 from fastapi import FastAPI
 from model import model_query
@@ -172,7 +245,18 @@ async def root(query: Query):
     return {"message": f"{res}"}
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 경우에서 가장 중요한 API는 "/query" 경로 아래에 있는 것입니다. 이 API는 위에서 정의된 Query 유형의 객체를 입력으로 받습니다. 기본적으로 프롬프트가 정의된 JSON 객체이며, 모델 메시지가 포함된 JSON을 반환합니다.
 
@@ -184,8 +268,18 @@ uvicorn main:app --reload
 
 로컬호스트에 방금 생성한 서비스에 액세스할 수 있는 링크가 나타납니다. 이 링크를 클릭해 보세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Screenshot 1](/assets/img/2024-07-13-DeployTiny-LlamaonAWSEC2_3.png)
 
@@ -195,8 +289,18 @@ If you click on that link, you should see a screen with the messaging set on the
 
 A very useful feature of FastAPI is that typing a “/docs” next to the URL will show us all the APIs developed and allow us to use them without using external services such as Postman.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **![DeployTiny-LlamaonAWSEC2_5.png](/assets/img/2024-07-13-DeployTiny-LlamaonAWSEC2_5.png)**
 
@@ -206,7 +310,18 @@ A very useful feature of FastAPI is that typing a “/docs” next to the URL wi
 
 (모델을 다운로드하는 데 시간이 오래 걸릴 거라고 기억해주세요)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 모델의 응답이 있어요.
 
@@ -214,12 +329,23 @@ A very useful feature of FastAPI is that typing a “/docs” next to the URL wi
 
 모델 응답이 입력 쿼리가 반복되는 형태로 깔끔하지 않다는 걸 알 수 있어요. 원한다면 결과를 더 처리하고 구문 분석하여 개선할 수 있지만, 이 기사의 목적은 아니라서 일단 너무 많은 시간을 허비하기는 원치 않아요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트가 준비되었어요. 이제 모든 것을 GitHub에 저장해야 해요. 코드를 푸시할 때 다음 명령어를 사용해요.
 
 ```js
-git add . 
+git add .
 git commit -m "feat: api endpoints for model query"
 git push origin main
 ```
@@ -228,7 +354,18 @@ git push origin main
 
 ![GitHub Repo](/assets/img/2024-07-13-DeployTiny-LlamaonAWSEC2_8.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## AWS EC2 Instance에 배포하기
 
@@ -238,7 +375,18 @@ git push origin main
 
 EC2는 특정 리소스(예: RAM, CPU, GPU 등)를 사용하여 가상 머신을 빌릴 수 있는 서비스입니다. 몇 번의 클릭으로 더 많은 리소스를 요청하여 쉽게 확장할 수 있습니다. 인스턴스를 생성하면 로컬에서 작업하는 것처럼 정상적으로 작업할 수 있는 터미널이 제공되므로 특별한 능력이 필요하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자 그럼 출발해 봅시다!
 
@@ -248,7 +396,18 @@ EC2는 특정 리소스(예: RAM, CPU, GPU 등)를 사용하여 가상 머신을
 
 ![이미지](/assets/img/2024-07-13-DeployTiny-LlamaonAWSEC2_9.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 이미지를 통해 프로젝트를 위한 새로운 인스턴스를 생성하는 방법을 확인할 수 있어요. 그런 다음 "인스턴스 시작" 버튼을 클릭해주세요.
 
@@ -258,7 +417,18 @@ EC2는 특정 리소스(예: RAM, CPU, GPU 등)를 사용하여 가상 머신을
 
 ![간단한 설정](/assets/img/2024-07-13-DeployTiny-LlamaonAWSEC2_11.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 지금 사용 중인 인스턴스 유형은 "t3_micro"이며 무료 티어를 제공합니다. 그래서 우리는 앱을 무료로 테스트할 수 있어요. 사용 가능한 한도를 초과하면 사용량에 따라 요금을 지불해야 합니다. 모델을 지원하지 않는 경우에는 약간 더 강력한 인스턴스를 쉽게 사용할 수 있습니다.
 
@@ -268,15 +438,37 @@ EC2는 특정 리소스(예: RAM, CPU, GPU 등)를 사용하여 가상 머신을
 
 이 화면이 표시될 겁니다. 여기서 키페어 이름을 지정해야 합니다. 저는 "fastapi_ec2_pair"라는 이름을 사용할 거에요. (이 이름으로 이미 키페어를 만든 적이 있어서 빨간색이 표시되었습니다). 나머지 설정은 기본값으로 남기고 키파법를 생성해요. 브라우저가 파일을 다운로드하는 것을 확인하실 거에요. 이 파일은 나중에 작업 디렉토리에서 사용해야 할 파일입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-이제 각 옵션 SSH, HTTP, HTTPS에서 트래픽을 활성화해야 해요. 마지막으로 인스턴스를 시작할게요. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+이제 각 옵션 SSH, HTTP, HTTPS에서 트래픽을 활성화해야 해요. 마지막으로 인스턴스를 시작할게요.
 
 [이미지](/assets/img/2024-07-13-DeployTiny-LlamaonAWSEC2_14.png)
 
 우리의 인스턴스들을 시각화해 볼까요? "모든 인스턴스 보기"를 클릭해 주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이렇게 제 새로운 인스턴스가 보입니다! 설정을 시각화하려면 클릭해 보세요.
 
@@ -284,8 +476,18 @@ EC2는 특정 리소스(예: RAM, CPU, GPU 등)를 사용하여 가상 머신을
 
 이 인스턴스의 IP 주소는 "Public_IPv4_address" 텍스트 아래에 표시됩니다. 저의 경우에는 13.48.46.248입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image1](/assets/img/2024-07-13-DeployTiny-LlamaonAWSEC2_17.png)
 
@@ -295,8 +497,18 @@ Let's explore what happens when we click on the generated IP. An error appears b
 
 On the previous screen where we were introduced to our AWS instance, there was a tab in the upper right corner labeled "connect." Clicking on it provides instructions on how to connect to the created instance via SSH connection.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 해야 할 다음 단계는 터미널을 조금 사용해야 합니다. 기본 터미널 명령어에 익숙하지 않은 경우 이 안내서를 참고해 주세요.
 
@@ -304,7 +516,18 @@ AWS에 SSH를 통해 연결하려는 노트북의 폴더를 만들어 주세요.
 
 ![image](/assets/img/2024-07-13-DeployTiny-LlamaonAWSEC2_20.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 터미널을 열어 이 폴더 내에서 위치를 찾아보세요.
 
@@ -316,7 +539,18 @@ chmod 400 fastapi_ec2_key.pem
 
 AWS 연결 창에서 찾은 연결 문자열을 복사하세요 (이미지 두 장 위에 있는 부분).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 경우에는 이 문자열입니다: (연결을 확인하느냐고 물으면 yes를 입력하세요)
 
@@ -328,21 +562,39 @@ ssh -i "fastapi_ec2_key.pem" ubuntu@ec2-16-171-176-76.eu-north-1.compute.amazona
 
 ![2024-07-13-DeployTiny-LlamaonAWSEC2_21](/assets/img/2024-07-13-DeployTiny-LlamaonAWSEC2_21.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-Let's update all repositories on your machine. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+Let's update all repositories on your machine.
 
 sudo apt-get update
 
-
 Next, we need to install `pip` and `nginx`. We use `pip` to install Python libraries for our project, and `nginx` is a service that helps connect our FastAPI service to the AWS instance's IP address. This way, when visitors access the IP address, they will be directed to FastAPI.
-
 
 sudo apt install -y python3-pip nginx
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 설치가 성공적으로 완료되었는지 확인해 주세요.
 
@@ -354,7 +606,18 @@ sudo vim /etc/nginx/sites-enabled/fastapi_nginx
 
 Vim을 사용해보지 않았다면 조금 어려울 수 있습니다. "i"를 눌러 쓰기 모드로 전환하고 원하는 내용을 입력해 보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 To save and exit, press "esc," then type ":" followed by "wq" and press enter.
 
@@ -372,7 +635,18 @@ server {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 제 터미널 스크린샷이에요.
 
@@ -384,23 +658,41 @@ server {
 sudo service nginx restart
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 거의 끝나갑니다!
 이 순간에는 깃허브 프로젝트를 복제할 수 있어요.
 복제하는 방법은:
 
-
 git clone http_link_of_yout_github_project
-
 
 복제한 프로젝트로 이동하세요.
 
-
 cd tiny-llm-ec2/
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 요구 사항에 포함시킨 라이브러리들을 설치해 주세요.
 
@@ -412,38 +704,60 @@ pip install -r requirements.txt
 
 우리 인스턴스에는 자원이 제한적이어서 필요한 라이브러리가 너무 크기 때문에 오류가 발생할 수 있습니다. 이 경우에는 pip를 사용하여 한 번에 하나의 라이브러리만 설치하는 것을 제안합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 CPU에 PyTorch만 필요하다면 torch 전체를 설치하는 대신 CPU 버전만 설치할 수 있어요.
 
 이렇게 하면 모든 것을 설치할 수 있을 거에요.
 
-
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
-
-
 
 pip install uvicorn
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 pip install fastapi
 
-
-
 pip install transformers
-
-
 
 pip install accelerate
 
-
 Now let's launch the web service and the created API using uvicorn.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 When you run the command `python3 -m uvicorn main:app` in your terminal, if you access the IP address in your browser, you might encounter a black screen. This occurs because FastAPI does not support HTTPS by default, allowing only HTTP.
 
@@ -451,7 +765,18 @@ When you run the command `python3 -m uvicorn main:app` in your terminal, if you 
 
 To fix this, simply change the URL to start with `http://ip`.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 FastAPI의 초기 메시지를 볼 수 있을 겁니다. URL http://ip/docs를 입력하면 API를 사용할 수 있어요.
 
@@ -461,7 +786,18 @@ To fix this, simply change the URL to start with `http://ip`.
 
 ## 메모리 오류가 나타날까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 할 수 있는 건 인스턴스를 변경하고 더 큰 것을 사용하는 것이에요. 인스턴스를 중지한 후 액션을 클릭하고 인스턴스 설정 - `인스턴스 유형 변경을 선택해주세요.
 
@@ -473,7 +809,18 @@ To fix this, simply change the URL to start with `http://ip`.
 sudo vim /etc/nginx/sites-enabled/fastapi_nginx
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지 태그를 Markdown 형식으로 변경해주세요.
 
@@ -486,7 +833,18 @@ sudo service nginx restart
 또 다른 오류가 발생할 수 있습니다. 서버가 CPU에서 LLM을 사용하기 때문에 실행하는 데 시간이 오래 걸리면 기본값으로 timeout 오류가 발생할 수 있습니다.
 최대 timeout을 변경하여 3분으로 설정하도록 nginx 설정을 수정해봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 번 더 설정을 변경해 보겠습니다:
 
@@ -510,7 +868,18 @@ server {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 uvicorn을 실행하면 모든 것이 완벽하게 작동해야 합니다!
 
@@ -520,7 +889,18 @@ python3 -m uvicorn main:app
 
 잠시 기다리시면 API를 사용하고 모델의 응답을 받을 수 있을 거에요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **이제 성공했어요!**
 
@@ -528,7 +908,18 @@ python3 -m uvicorn main:app
 
 **지금까지 훌륭한 일을 해냈습니다!** 🌟
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 최종 생각
 
@@ -538,6 +929,17 @@ python3 -m uvicorn main:app
 
 이 기사가 마음에 든다면 저를 Medium에서 팔로우해주세요! 😁
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🌟 Linkedin ️| 🐦 Twitter | 💻 Website

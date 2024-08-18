@@ -3,17 +3,13 @@ title: "지피에 초보이신가요 이제 첫 네트워크를 만들어 보세
 description: ""
 coverImage: "/assets/img/2024-06-20-AreyouabeginnerinGephiMakeyourfirstnetworknow_0.png"
 date: 2024-06-20 15:06
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-AreyouabeginnerinGephiMakeyourfirstnetworknow_0.png
 tag: Tech
 originalTitle: "Are you a beginner in Gephi? Make your first network now!"
 link: "https://medium.com/@vespinozag/are-you-a-beginner-in-gephi-make-your-first-network-now-3768d35c733e"
 isUpdated: true
 ---
-
-
-
-
 
 2024년 6월 19일, 브로니카 에스피노자 박사
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 소개
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Gephi란?
 
@@ -33,7 +40,18 @@ Gephi는 그래프를 탐색하고 이해하려는 데이터 분석가와 과학
 
 # Gephi 인터페이스
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Gephi의 주요 섹션입니다.
 
@@ -42,7 +60,18 @@ Gephi의 주요 섹션입니다.
 
 😉 Gephi에 대해 더 알고 싶다면, 이 이야기를 읽어보세요: Gephi란 무엇인가요? 유용한 네트워크 분석 도구를 만나보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🌐 Gephi를 여기서 다운로드하세요: [https://gephi.org/](https://gephi.org/)
 
@@ -52,7 +81,18 @@ Gephi의 주요 섹션입니다.
 
 저도 이 튜토리얼에서 사용할 동일한 GEXF 파일을 공유하므로 여러분도 연습을 따라 할 수 있습니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 👉 이 연습을 위한 GEXF 파일을 다운로드하세요.
 
@@ -62,7 +102,18 @@ Gephi의 주요 섹션입니다.
 
 # 🏁 시작해 봅시다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 1. 통계 적용: 모듈러리티 실행
 
@@ -73,17 +124,39 @@ Gephi의 주요 섹션입니다.
 
 여기에서 모듈러리티 알고리즘에 대해 알아보세요: [링크1](링크 주소) 및 [링크2](링크 주소)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🎦 아래는 이 단계의 데모입니다. 파일을 열어보세요 — 통계 적용: 모듈성 실행.
 
-![미리보기](https://miro.medium.com/v2/resize:fit:1400/1*NUdHo3fKobSTJ52OYFoSFg.gif) 
+![미리보기](https://miro.medium.com/v2/resize:fit:1400/1*NUdHo3fKobSTJ52OYFoSFg.gif)
 
 # 단계 2. 외형 조정.
 
 개요 탭 / 외형 섹션:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 모듈러리티에 따라 노드 색상 지정하기 (경로: 색상 아이콘 ➡ 노드 ➡ 파티션 ➡ 모듈러리티 클래스 선택 ➡ 적용 ▶)
 
@@ -93,7 +166,18 @@ Gephi의 주요 섹션입니다.
 
 ![이미지](/assets/img/2024-06-20-AreyouabeginnerinGephiMakeyourfirstnetworknow_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 팔로워별로 글꼴 크기를 조정하세요. (경로: 레이블 크기 아이콘 ➡ 노드 ➡ 랭킹 ➡ 팔로워 선택 ➡ 최소 크기: 0.3, 최대 크기: 0.5 조정 ➡ 적용 ▶)
 
@@ -103,7 +187,18 @@ Gephi의 주요 섹션입니다.
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/1*-QRqxxCeH3YMy0UPxfbltw.gif)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 3. 레이아웃 적용
 
@@ -115,7 +210,18 @@ Gephi의 주요 섹션입니다.
 
 이 논문에서 ForceAtlas 2 레이아웃 알고리즘에 대해 알아보기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래에서는 이 단계인 "레이아웃 적용"의 데모가 제공됩니다.
 
@@ -125,7 +231,18 @@ Gephi의 주요 섹션입니다.
 
 미리보기 탭 / 미리보기 설정 섹션:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 프리셋 — 기본값 선택.
 
@@ -135,7 +252,18 @@ Gephi의 주요 섹션입니다.
 
 ![이미지](/assets/img/2024-06-20-AreyouabeginnerinGephiMakeyourfirstnetworknow_8.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 렌더러 탭 관리하기 ➡ "기본 노드 라벨"을 가장 먼저 위치로 이동 ⬆ ➡ 새로 고침.
 
@@ -145,7 +273,18 @@ Gephi의 주요 섹션입니다.
 
 ![이미지](/assets/img/2024-06-20-AreyouabeginnerinGephiMakeyourfirstnetworknow_10.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🎦 이 단계를 보여주는 동영상입니다 - 미리보기 설정 조정.
 
@@ -155,7 +294,18 @@ Gephi의 주요 섹션입니다.
 
 미리보기 탭
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - **Export를 클릭하세요 (SVG / PDF / PNG).**
 
@@ -165,7 +315,18 @@ Gephi의 주요 섹션입니다.
 
 ![이미지](/assets/img/2024-06-20-AreyouabeginnerinGephiMakeyourfirstnetworknow_12.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🎦 아래는 이번 단계의 데모입니다 - 귀하의 네트워크를 저장하세요.
 
@@ -175,7 +336,18 @@ Gephi의 주요 섹션입니다.
 
 ![Network](/assets/img/2024-06-20-AreyouabeginnerinGephiMakeyourfirstnetworknow_13.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -185,7 +357,18 @@ Gephi의 주요 섹션입니다.
 
 귀하의 파일을 업로드하고 검토했던 다양한 매개변수를 조정해보며 실험해 보기를 장려합니다. 또한 다른 레이아웃으로 전환하여 네트워크가 어떻게 보이는지 확인할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한 미리보기 탭에서 파일을 보기에 적합하다고 생각되는 모든 조정 사항을 시도해보세요.
 
@@ -195,7 +378,18 @@ Gephi의 주요 섹션입니다.
 
 😉이 이야기를 읽어 주셔서 감사합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 👉 내가 쓴 더 많은 이야기를 찾아보세요
 
@@ -205,8 +399,18 @@ Gephi의 주요 섹션입니다.
 
 ✔ 웹사이트: www.nethabitus.org
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-20-AreyouabeginnerinGephiMakeyourfirstnetworknow_14.png)
 
@@ -216,18 +420,39 @@ Gephi의 주요 섹션입니다.
 
 💠 Do you want to continue learning more about Gephi? Check out all the stories I’ve written about Gephi here.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 📕 이야기에서 네트워크 과학에 관한 무료 자료를 찾아보세요: Network Science: Open access resources (books, chapters, articles, tools & more)
 
-📄 다음 논문을 읽어보세요: Fast unfolding of communities in large networks 
+📄 다음 논문을 읽어보세요: Fast unfolding of communities in large networks
 
-✅ 깃허브: Modularity Github-Gephi 
+✅ 깃허브: Modularity Github-Gephi
 
 🗄️ 데이터셋 찾기: Gephi 샘플 데이터셋을 다양한 형식(GEXF, GDF, GML, NET, GraphML, DL, DOT)으로 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 👨‍💻 Gephi 커뮤니티를 팔로우하세요! Gephi FB 그룹, 트위터, Reddit 등 다양한 소셜 네트워크에서 만나보세요.
 
@@ -237,6 +462,17 @@ Gephi의 주요 섹션입니다.
 
 [1] Bastian M., Heymann S., Jacomy M. (2009). Gephi: exploring and manipulating networks을 위한 오픈 소스 소프트웨어. 웹로그 및 소셜 미디어 국제 AAAI 컨퍼런스
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [2] Gephi - 오픈 그래프 시각화 플랫폼 [인터넷]. [2024년 6월 15일에 확인]. 이용 가능한 링크: https://gephi.org/

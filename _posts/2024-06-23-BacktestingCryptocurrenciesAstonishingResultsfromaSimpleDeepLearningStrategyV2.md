@@ -3,17 +3,13 @@ title: "간단한 딥러닝 전략으로 암호화폐 백테스팅 결과 공개
 description: ""
 coverImage: "/assets/img/2024-06-23-BacktestingCryptocurrenciesAstonishingResultsfromaSimpleDeepLearningStrategyV2_0.png"
 date: 2024-06-23 18:42
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-BacktestingCryptocurrenciesAstonishingResultsfromaSimpleDeepLearningStrategyV2_0.png
 tag: Tech
 originalTitle: "Back testing Cryptocurrencies Astonishing Results from a Simple Deep Learning Strategy V2"
 link: "https://medium.com/@jsgastoniriartecabrera/back-testing-cryptocurrencies-astonishing-results-from-a-simple-deep-learning-strategy-v2-54d55b4f5048"
 isUpdated: true
 ---
-
-
-
-
 
 과거 글이 많은 댓글을 유발하고 의심스럽다는 점을 감안해 코드를 수정하고 결과를 보여드렸어요. 만약 수정할 부분을 발견하시면 알려주세요. 코드나 ONNX 모델이 필요하면 Github 페이지 링크를 남겨드릴게요.
 
@@ -39,7 +35,18 @@ SMA 제곱근 평균 제곱 오차(RMSE): 30.88072668067209
 SMA R-제곱(R2): 0.6086608043283657
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 설명 동영상입니다:
 
@@ -111,33 +118,33 @@ while current_date < end_date:
     # 현재 날짜 이전 120일 데이터 선택
     end_idx = data[data['timestamp'] < current_date].index[-1]
     start_idx = end_idx - sequence_length + 1
-    
+
     if start_idx < 0:
         print(f"{current_date}일에 대한 충분한 데이터가 없습니다.")
         break
-    
+
     # 정규화된 데이터 윈도우 가져오기
     window = data['close_normalized'].values[start_idx:end_idx+1]
-    
+
     if len(window) < sequence_length:
         print(f"{current_date}일에 대한 충분한 데이터가 없습니다.")
         break
-    
+
     # 모델을 위한 데이터 준비
     input_window = np.array(window).astype(np.float32)
     input_window = np.expand_dims(input_window, axis=0)  # 배치 사이즈 차원 추가
     input_window = np.expand_dims(input_window, axis=2)  # 특성 차원 추가
-    
+
     # 추론 실행
     output = ort_session.run(None, {input_name: input_window})
     prediction = output[0][0][0]
-    
+
     # 예측값 역정규화
     prediction = prediction * (max_close - min_close) + min_close
-    
+
     # 예측값 저장
     predictions_list.append({'date': current_date, 'prediction': prediction})
-    
+
     # 날짜 증가
     current_date += pd.Timedelta(days=1)
 
@@ -226,9 +233,19 @@ plt.savefig(f"{symbol.replace('/', '_')}_drawdown.png")
 plt.show()
 print(f"'{symbol.replace
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```
+
 import ccxt
 import pandas as pd
 from datetime import datetime, timedelta
@@ -243,11 +260,12 @@ from tensorflow.keras import callbacks
 from tensorflow.keras.callbacks import ModelCheckpoint
 
 # Binance 데이터를 다운로드하는 함수
+
 def descargar_datos(symbol, timeframe='1d', start_date='2000-01-01T00:00:00Z', end_date='2024-01-01T00:00:00Z'):
-    exchange = ccxt.binance({'enableRateLimit': False})
-    since = exchange.parse8601(start_date)
-    end_date_timestamp = pd.to_datetime(end_date, utc=True)
-    all_data = []
+exchange = ccxt.binance({'enableRateLimit': False})
+since = exchange.parse8601(start_date)
+end_date_timestamp = pd.to_datetime(end_date, utc=True)
+all_data = []
 
     while since < end_date_timestamp.timestamp() * 1000:
         ohlc = exchange.fetch_ohlcv(symbol, timeframe=timeframe, since=since)
@@ -261,33 +279,38 @@ def descargar_datos(symbol, timeframe='1d', start_date='2000-01-01T00:00:00Z', e
     # 두 시간대가 timezone-aware하지 않으면 변환
     if df.index.tz is None:
         df.index = df.index.tz_localize('utc')
-    
+
     df = df[df.index <= end_date_timestamp]
     print(df)
     return df['close'].values
 
 # 데이터 불러오기
+
 data = descargar_datos('SOL/USDT')
 
 # 데이터 정규화
+
 scaler = MinMaxScaler(feature_range=(0, 1))
 data = scaler.fit_transform(data.reshape(-1, 1))
 
 # 시퀀스에서 샘플을 생성하는 함수
+
 def crear_muestras(dataset, pasos_de_tiempo=120):
-    X, y = [], []
-    for i in range(pasos_de_tiempo, len(dataset)):
-        X.append(dataset[i-pasos_de_tiempo:i, 0])
-        y.append(dataset[i, 0])
-    return np.array(X), np.array(y)
+X, y = [], []
+for i in range(pasos_de_tiempo, len(dataset)):
+X.append(dataset[i-pasos_de_tiempo:i, 0])
+y.append(dataset[i, 0])
+return np.array(X), np.array(y)
 
 # 훈련 및 테스트 데이터 준비
+
 pasos_de_tiempo = 120
 X, y = crear_muestras(data, pasos_de_tiempo)
-X = X.reshape(X.shape[0], X.shape[1], 1)  # LSTM에 맞게 재구성
+X = X.reshape(X.shape[0], X.shape[1], 1) # LSTM에 맞게 재구성
 
 # 데이터 분할 (훈련용 80%)
-split = int(0.8 * len(X))
+
+split = int(0.8 \* len(X))
 X_train, X_test = X[:split], X[split:]
 y_train, y_test = y[:split], y[split:]
 
@@ -304,24 +327,28 @@ model.add(Dense(units=1, activation = 'sigmoid'))
 model.compile(optimizer='adam', loss= 'mse' , metrics = [tf.keras.metrics.RootMeanSquaredError(name='rmse')])
 
 # 조기 종료 설정
+
 early_stopping = callbacks.EarlyStopping(
-    monitor='val_loss',
-    patience=5,
-    restore_best_weights=True,
-)
-# 가장 좋은 모델 저장
-checkpoint = ModelCheckpoint(
-    'best_model.h5', 
-    monitor='val_loss', 
-    save_best_only=True, 
-    save_weights_only=False
+monitor='val_loss',
+patience=5,
+restore_best_weights=True,
 )
 
+# 가장 좋은 모델 저장
+
+checkpoint = ModelCheckpoint(
+'best_model.h5',
+monitor='val_loss',
+save_best_only=True,
+save_weights_only=False
+)
 
 # 300 에포크로 모델 훈련
+
 history = model.fit(X_train, y_train, epochs = 300 , validation_data = (X_test,y_test), batch_size=32, callbacks=[early_stopping, checkpoint], verbose=2)
 
 # 훈련 이력 그래프
+
 plt.figure(figsize=(10, 5))
 plt.plot(history.history['loss'], label='Train Loss')
 plt.plot(history.history['val_loss'], label='Validation Loss')
@@ -331,18 +358,19 @@ plt.title('Model Training History')
 plt.xlabel('Epochs')
 plt.ylabel('Loss/RMSE')
 plt.legend()
-plt.savefig('SOLUSDT.png')  # 그래프를 이미지 파일로 저장
+plt.savefig('SOLUSDT.png') # 그래프를 이미지 파일로 저장
 
 # 모델을 ONNX로 변환
-onnx_model, _ = tf2onnx.convert.from_keras(model, opset=13, output_path="model_solusdt.onnx")
+
+onnx*model, * = tf2onnx.convert.from_keras(model, opset=13, output_path="model_solusdt.onnx")
 print("ONNX 모델을 'model_solusdt.onnx'로 저장했습니다.")
 
 # 모델 평가
+
 train_loss, train_rmse = model.evaluate(X_train, y_train, verbose=0)
 test_loss, test_rmse = model.evaluate(X_test, y_test, verbose=0)
 print(f"train_loss={train_loss:.3f}, train_rmse={train_rmse:.3f}")
 print(f"test_loss={test_loss:.3f}, test_rmse={test_rmse:.3f}")
-
 
 github: Back-testing Cryptocurrencies Astonishing Results from a Simple Deep Learning Strategy
 

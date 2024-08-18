@@ -3,17 +3,13 @@ title: "사용자의 허가 없이 인증 정보를 요구하는 피싱 사이�
 description: ""
 coverImage: "/assets/img/2024-06-19-FeedingthePhishes_0.png"
 date: 2024-06-19 21:12
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-FeedingthePhishes_0.png
 tag: Tech
 originalTitle: "Feeding the Phishes"
 link: "https://medium.com/specter-ops-posts/feeding-the-phishes-276c3579bba7"
 isUpdated: true
 ---
-
-
-
-
 
 ## 사기 교실
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 지난 몇 년 동안, 링크 자체를 기반으로 한 사기 탐지에 대한 관심이 늘어나는 것을 알아봤어요 - 또는 적어도, 매우 인기 있는 SEG 중 몇몇은 이메일에 링크의 존재에 매우 높은 가중치를 두는 것을 알았어요. 그렇게 많이 보아와서 SEG가 나를 차단할 때 이런 종류의 감지를 내 처음으로 해결해야 하는 단계 중 하나로 만들었어요. 단순히 이메일에서 모든 링크를 제거하고 메시지 내용이 통과되는지 확인해봅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 적어도 한 번에 SEG를 만난 적이 있는데, 어떠한 내용이든 상관없이 어떤 미인식된 도메인에 대한 링크가 포함된 이메일을 차단하는 SEG가 있었습니다. 이 경우에는 내 고객이 허용된 도메인 목록을 관리하고 SEG에게 나머지 모든 것을 차단하도록 지시한 것으로 알고 있습니다. 이는 극단적인 조치일 수 있지만, 매우 타당한 우려라고 생각합니다. 링크가 포함된 이메일은 링크가 없는 이메일보다 기본적으로 더 위험하므로, 대부분의 현대적인 SEG들은 링크를 포함하는 메시지의 SPAM 점수를 증가시키고 종종 링크 자체에 추가적인 검토를 적용할 것입니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ![FeedingthePhishes_0](/assets/img/2024-06-19-FeedingthePhishes_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떤 다른 경험 많은 소프트웨어 엔지니어도 정규 표현식은 매우 강력하지만 실수하기 쉽다는 것을 빨리 상기시켜줄 것입니다:
 
@@ -41,21 +59,41 @@ isUpdated: true
 
 예를 들어, 스택오버플로에서 링크를 구문 분석하기 위해 발견한 몇 가지 최고의 정규 표현식 필터 중 일부는 다음과 같습니다:
 
+(http|ftp|https):\/\/([\w_-]+(?:(?:\.[\w_-]+)+))([\w.,@?^=%&:\/~+#-]\*[\w@?^=%&\/~+#-])
 
-(http|ftp|https):\/\/([\w_-]+(?:(?:\.[\w_-]+)+))([\w.,@?^=%&:\/~+#-]*[\w@?^=%&\/~+#-])
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
-(?:(?:https?|ftp|file):\/\/|www\.|ftp\.)(?:\([-A-Z0–9+&@#\/%=~_|$?!:,.]*\)|[-A-Z0-9+&@#\/%=~_|$?!:,.])*(?:\([-A-Z0-9+&@#\/%=~_|$?!:,.]*\)|[A-Z0-9+&@#\/%=~_|$])
+(?:(?:https?|ftp|file):\/\/|www\.|ftp\.)(?:\([-A-Z0–9+&@#\/%=~_|$?!:,.]_\)|[-A-Z0-9+&@#\/%=~_|$?!:,.])_(?:\([-A-Z0-9+&@#\/%=~_|$?!:,.]\*\)|[A-Z0-9+&@#\/%=~_|$])
 
 (?:(?:https?|ftp):\/\/)?[\w/\-?=%.]+\.[\w/\-&?=%.]+
 
-([\w+]+\:\/\/)?([\w\d-]+\.)*[\w-]+[\.\:]\w+([\/\?\=\&\#\.]?[\w-]+)*\/?
+([\w+]+\:\/\/)?([\w\d-]+\.)_[\w-]+[\.\:]\w+([\/\?\=\&\#\.]?[\w-]+)_\/?
 
-(?i)\b((?:[a-z][\w-]+:(?:/'1,3'|[a-z0–9%])|www\d'0,3'[.]|[a-z0-9.\-]+[.][a-z]'2,4'/)(?:[^\s()``]+|\(([^\s()``]+|(\([^\s()``]+\)))*\))+(?:\(([^\s()``]+|(\([^\s()``]+\)))*\)|[^\s`!()\[\]'';:’”.,``?«»“”‘’]))
+(?i)\b((?:[a-z][\w-]+:(?:/'1,3'|[a-z0–9%])|www\d'0,3'[.]|[a-z0-9.\-]+[.][a-z]'2,4'/)(?:[^\s()``]+|\(([^\s()``]+|(\([^\s()``]+\)))_\))+(?:\(([^\s()``]+|(\([^\s()``]+\)))_\)|[^\s`!()\[\]'';:’”.,``?«»“”‘’]))
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 내용 중 이해하기 어렵더라도 걱정하지 마세요. 나는 정규 표현식에 대해 꽤 익숙한 편이지만, 여기에 있는 옵션 중 어떤 것이 더 좋을지에 대한 의견조차 없습니다. 그러나 여기 예시들로부터 주목할 몇 가지 사항이 있습니다:
 
@@ -66,7 +104,18 @@ isUpdated: true
 
 부연 설명: 이 유명한 URL 파서 중 일부는 FTP를 고려하고 일부는 고려하지 않는 것을 보셨나요? 대부분의 브라우저가 FTP 공유에 연결할 수 있다는 것을 알고 계셨나요? 익명 FTP 링크를 통해 피싱 페이로드를 전달해 본 적이 있나요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 링크 필터링이 작동하는 방식 - 링크 필터링
 
@@ -77,7 +126,18 @@ isUpdated: true
 
 도메인 평판을 확인하는 것은 꽤 간단합니다; 링크를 나누어 첫 번째 두 슬래시("/")와 다음 슬래시("/") 사이에 있는 내용을 확인한 다음 해당 도메인이나 서브도메인을 Virustotal이나 유사한 곳에서 찾아봅니다. 많은 SEG는 악성 도메인으로 식별된 경우 다른 보안 제품과 정보를 공유할 것이며 그 반대도 마찬가지입니다. 당신의 도메인이 악성으로 식별된 경우, SEG는 해당 이메일을 차단하거나 링크를 제거할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 링크가 "어떻게 보이는지" 확인하는 데는 대부분의 SEG(이메일 보안 게이트웨이)들이 요즘 인공 지능 또는 머신 러닝(즉, AI/ML)을 사용하여 링크를 악의적인지 또는 선행된 것으로 분류합니다. 이러한 AI 모델은 악성 링크의 대량의 알려진 데이터로 훈련되어 SPAM 작성자들이 일반적으로 사용하는 주제와 패턴을 감지할 수 있습니다. 사이버 사기범으로서, 우리는 그 명언의 "알려진 악의적인" 부분에 집중하는 것이 중요하다고 생각합니다.
 
@@ -87,7 +147,18 @@ isUpdated: true
 
 # 링크 필터 우회하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 링크 필터가 작동하는 방식에 대해 알게 된 지금, 필터를 우회하는 데 사용할 수 있는 두 가지 주요 전략이 있습니다:
 
@@ -98,7 +169,18 @@ isUpdated: true
 
 # 파서 우회하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 앵커 태그 사용하지 마세요
 
@@ -113,7 +195,18 @@ for link in links:
 
 이 접근 방식을 사용하여 링크를 구문 분석하는 SEG는 앵커 태그 바깥에 있는 URL을 보지 못할 것입니다. 클릭 가능한 링크가 아닌 URL은 최종 사용자에게 약간 이상할 수 있지만, 이 우회 방법이 작동할 때는 일반적으로 이런 절충이 가치 있다고 할 수 있습니다. 많은 경우에 메일 클라이언트들은 앵커 태그 안에 있지 않더라도 URL을 하이퍼링크로 구문 분석하고 표시할 것이기 때문에, 이 기술을 사용하는 것에는 대개 거의 또는 전혀 단점이 없습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Base Tag 사용법 (a.k.a BaseStriker 공격)
 
@@ -123,7 +216,18 @@ for link in links:
 
 이 기술이 작동하는 이유는 사실상 링크를 두 부분으로 나누기 때문입니다: 도메인은 HTML 헤더에 있고 URL의 나머지 부분은 본문의 앵커 태그에 있습니다. 앵커 태그의 href는 "https://"로 시작하지 않기 때문에 링크로 감지되지 않습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 작은 우회 계획
 
@@ -135,7 +239,18 @@ URI = scheme ":" ["//" authority] path ["?" query] ["#" fragment]
 
 이미 언급한 바와 같이, URL을 감지하는 더 효과적인 방법 중 하나는 scheme인 것처럼 보이는 것을 찾는 것입니다 (예: "http://" 또는 "https://"), 그 뒤에 URL에서 허용되는 문자 시퀀스가 따르는 것입니다. 만약 scheme을 빼 놓는다면, 많은 링크 파서들은 우리의 URL을 감지할 수 없을 수도 있지만, 그래도 이것은 사람에게 URL처럼 보일 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 accounts.goooogle.com/login?id=34567
 
@@ -145,7 +260,18 @@ https://en.wikipedia.org/wiki/List_of_URI_schemes
 
 여기에서 몇 가지 피싱 링크로서 매우 유용한 것들이 포함되어 있을지도 몰라요 ;)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## QR 낚시
 
@@ -155,7 +281,18 @@ https://en.wikipedia.org/wiki/List_of_URI_schemes
 
 # 필터 우회
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 링크 숨김 기능 사용하지 마세요
 
@@ -165,7 +302,18 @@ https://en.wikipedia.org/wiki/List_of_URI_schemes
 
 많은 링크 필터러는 미분류된 도메인이나 악성으로 분류된 도메인, 최근에 등록된 도메인을 차단하거나 삭제합니다. 따라서 주로 분류가 완료된 도메인을 사용하는 것이 좋은 생각일 수 있어요. 이미 "원 피쉬, 투 피쉬, 레드팀이 피쉬를 토하다"에서 이에 대해 언급했기 때문에 좋은 도메인을 얻는 과정은 생략하겠어요. 그래도 여기서도 동일한 규칙이 적용된다는 것을 알아두세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## "합법적인" 도메인 사용하기
 
@@ -175,7 +323,18 @@ https://en.wikipedia.org/wiki/List_of_URI_schemes
 
 신뢰할 수 있는 도메인에 피싱 사이트를 호스트하는 것과 같은 방식으로 신뢰할 수 있는 도메인을 사용하여 피싱 사이트로 리디렉션을 할 수 있습니다. 이러한 전형적인 예시 중 하나는 TinyURL과 같은 링크 단축 서비스입니다. TinyURL은 SPAM으로 남용되었기 때문에 대부분의 보안 게이트웨이(SEG)가 TinyURL 링크를 차단할 것으로 예상되지만, TinyURL은 임의의 리디렉션의 유용성을 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 임의의 리디렉트 우회하기 위한 더 유용한 형식은 'window.location' 변경을 지정할 수 있게 해주는 크로스사이트 스크립팅(XSS) 취약점이 존재하는 URL 또는 HTTP GET 매개변수를 통해 페이지 리디렉트를 지정할 수 있는 URL입니다. 제 정찰 단계에서는 대상의 주요 웹사이트에서 이러한 종류의 취약점을 찾기 위해 몇 분 이상을 투자하는 것을 좋아합니다. 이러한 취약점들은 놀랍게도 흔하며, 웹 애플리케이션 페네트레이션 테스트 보고서에서 임의의 리디렉트는 낮은 위험으로 여겨질 수 있지만 피싱과 결합하면 매우 유용할 수 있습니다. 여러분의 링크는 대상 조직의 주요 웹사이트에 대한 URL을 가리킬 것입니다. 링크 필터나 심지어 사람도 그 위험을 알아차리기는 극히 힘듭니다. 경우에 따라 대상 조직이 SEG(Secure Email Gateway)에서 도메인을 가리키는 링크에 대한 명시적 허용 목록을 구성해 놓은 경우가 있을 수도 있습니다.
 
@@ -185,7 +344,18 @@ https://en.wikipedia.org/wiki/List_of_URI_schemes
 
 ## 전화하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 블로그는 사회 공학 전법을 우회하는 우리의 "메시지 수신" 제어를 마무리 짓습니다. 모두가 알 수 있는 가장 간단한 우회 중 하나를 언급하지 않고는 완벽하지 않을 것입니다:
 
@@ -195,7 +365,18 @@ https://en.wikipedia.org/wiki/List_of_URI_schemes
 
 이와 같이 줌 통화, 팀 채팅, 링크드인 메시징 및 거의 모든 일반적인 비즈니스 의사 소통 채널들은 이메일보다 훨씬 적은 제어 대상이 될 것입니다. 이메일보다 전화통화를 선호하여 워크플로를 크게 단순화시키는 레드 팀원들을 몇 명 훈련해왔는데, 목표 환경에 접근하기 위해서는 몇 번의 어색한 통화만 하면 충분할 때가 많습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보다 인터랙티브한 의사 소통 방식인 전화 통화 같은 것들은 목표물이 실시간으로 당신의 구실에 대해 어떻게 느끼는지 판단할 수 있도록 해줍니다. 몇 초 안에 상대방이 당신을 믿고 도와주려 한다는 것을 알 수도 있고, 아니면 상대방이 당신을 속인다고 생각하고 끊을 시간이 되었음을 알 수도 있습니다. 또한 전화 통화를 사용하여 목표물을 계속해서 이메일을 통해 연락하는 것으로 인식되는 정당성을 더할 수도 있습니다. 사용자에게 메시지를 전달하는 것이 전투의 반에 해당하며, 사회 공학 전화 통화는 강력한 지름길이 될 수 있습니다.
 
@@ -206,6 +387,17 @@ https://en.wikipedia.org/wiki/List_of_URI_schemes
 - 링크가 링크가 아닌 것처럼 보이도록 만들기
 - 링크가 "정당한" 링크로 보이도록 만들기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이메일에서 여전히 링크를 많이 사용해요. 그냥 "진짜" 링크와 섞이면 필터를 속일 수 있어요. 정말 급한 상황이라면 대상을 직접 전화해보세요. 더 개인적으로 느껴질지도 몰라요, 하지만 일을 빨리 처리할 수 있답니다.

@@ -3,7 +3,7 @@ title: "Spring Boot 332 벤치마크 Web, Reactive, CDS, AOT, Virtual Threads, J
 description: ""
 coverImage: "/assets/img/2024-08-17-SpringBoot332BenchmarkWebReactiveCDSAOTVirtualThreadsJVMandNative_0.png"
 date: 2024-08-17 01:03
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-17-SpringBoot332BenchmarkWebReactiveCDSAOTVirtualThreadsJVMandNative_0.png
 tag: Tech
 originalTitle: "Spring Boot 332 Benchmark Web, Reactive, CDS, AOT, Virtual Threads, JVM, and Native"
@@ -11,7 +11,6 @@ link: "https://medium.com/itnext/spring-boot-3-3-2-benchmark-web-reactive-cds-ao
 isUpdated: true
 updatedAt: 1723863794066
 ---
-
 
 ## 스프링 부트 | 웹 | 리액티브 | CDS | AOT | 가상 스레드 | JVM | 네이티브
 
@@ -21,7 +20,18 @@ updatedAt: 1723863794066
 
 간략히 말하자면, 우리는 Spring Web과 Spring Reactive를 갖춘 두 개의 스프링 부트 애플리케이션을 구현했습니다. 그들의 이름은 각각 'spring-boot-greeting-api-web'과 'spring-boot-greetings-api-reactive'입니다. 또한, 다양한 설정에 대한 JVM과 네이티브 도커 이미지를 구축했습니다. 이 설정에는 가상 스레드, CDS, AOT 여부에 따른 옵션이 포함되어 있었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ivangfr/web-reactive-jvm-native-cds-aot-virtual-threads GitHub 저장소에서 소스 코드를 확인하실 수 있습니다. 자세한 내용은 주요 문서를 참조해주세요.
 
@@ -31,7 +41,18 @@ ivangfr/web-reactive-jvm-native-cds-aot-virtual-threads GitHub 저장소에서 �
 
 각 반복에 대해 우리는:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 도커 컨테이너를 시작하세요.
 - 100, 300, 900 및 마지막으로 2700개의 동시 요청으로 OHA 테스트 진행
@@ -43,7 +64,18 @@ ivangfr/web-reactive-jvm-native-cds-aot-virtual-threads GitHub 저장소에서 �
 
 이 성능 벤치마크에는 Java 버전 21과 Spring Boot 버전 3.3.2를 사용했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Docker 이미지 및 컨테이너 이름
 
@@ -53,7 +85,18 @@ ivangfr/web-reactive-jvm-native-cds-aot-virtual-threads GitHub 저장소에서 �
 
 ## JVM 인사 API 웹
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Docker 이미지 이름: ivanfranchin/spring-boot-greetings-api-web:3.3.2-21-jvm;
 
@@ -64,7 +107,18 @@ Docker 이미지 이름: ivanfranchin/spring-boot-greetings-api-web:3.3.2-21-jvm
 
 ## JVM Greetings API Web with CDS enabled
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도커 이미지 이름: ivanfranchin/spring-boot-greetings-api-web:3.3.2-21-jvm-cds;
 
@@ -75,8 +129,18 @@ Docker 이미지 이름: ivanfranchin/spring-boot-greetings-api-web:3.3.2-21-jvm
 
 ## JVM Greetings API Web with CDS and AOT enabled
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도커 이미지 이름: ivanfranchin/spring-boot-greetings-api-web:3.3.2–21-jvm-cds-aot;
 
@@ -86,8 +150,18 @@ Docker 이미지 이름: ivanfranchin/spring-boot-greetings-api-web:3.3.2-21-jvm
 
 도커 이미지 이름: ivanfranchin/spring-boot-greetings-api-web:3.3.2–21-jvm-cds-aot-vt;
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Docker 컨테이너 이름은 sb-web-jvm-cds-aot-vt를 사용하고 있어요.
 
@@ -97,7 +171,18 @@ Docker 컨테이너 이름은 sb-web-jvm-cds-aot-vt를 사용하고 있어요.
 
 Docker 컨테이너 이름: sb-web-native를 사용하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 네이티브 그리팅 API 웹에 가상 스레드 기능이 활성화된 버전입니다
 
@@ -107,10 +192,20 @@ Docker 컨테이너 이름: sb-web-native를 사용하고 있습니다.
 
 ## JVM 그리팅 API 반응형 웹
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 Markdown 형식으로 표현된 내용입니다.
-
 
 - Docker 이미지 이름: ivanfranchin/spring-boot-greetings-api-reactive:3.3.2–21-jvm;
 - 해당 이미지를 사용하는 Docker 컨테이너 이름: sb-reactive-jvm.
@@ -119,12 +214,33 @@ Docker 컨테이너 이름: sb-web-native를 사용하고 있습니다.
 
 - Docker 이미지 이름: ivanfranchin/spring-boot-greetings-api-reactive:3.3.2–21-jvm-cds;
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래에 있는 표를 Markdown 형식으로 바꿔주실 수 있나요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 네이티브 인사 API 리액티브 웹
 
@@ -134,7 +250,18 @@ Docker 컨테이너 이름: sb-web-native를 사용하고 있습니다.
 
 # 도커 컨테이너 메모리 제한
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도커 컨테이너를 실행할 때마다 메모리 제한을 1024MB로 설정했습니다.
 
@@ -145,7 +272,18 @@ Docker 컨테이너 이름: sb-web-native를 사용하고 있습니다.
 - 프로세서: 1.7 GHz 쿼드코어 인텔 코어 i7
 - 메모리: 16GB 2133MHz LPDDR3
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 Docker Desktop v4.29.0을 사용하고 있어요. 사용 가능한 모든 CPU와 메모리가 할당되어 있어요.
 
@@ -193,7 +331,16 @@ Docker 컨테이너 이름: sb-web-native를 사용하고 있습니다.
 ......................... + ........ + ...... + .......... + .............. + ................. + ................. + ................. + ........... |
          sb-web-native-vt |      100 |    100 |     100.00 |        1.0352 |            1.0328 |
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 시작 시간 및 최대 CPU 및 메모리 소비량을 보여주는 이미지입니다:
 
@@ -216,7 +363,16 @@ Docker 컨테이너 이름: sb-web-native를 사용하고 있습니다.
 
 ## 각 요청별 평균 응답 시간
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Spring Boot Benchmark Results](/assets/img/2024-08-17-SpringBoot332BenchmarkWebReactiveCDSAOTVirtualThreadsJVMandNative_1.png)
 
@@ -226,7 +382,16 @@ Docker 컨테이너 이름: sb-web-native를 사용하고 있습니다.
 
 900개와 2700개의 동시 요청에서, 가상 스레드가 없는 sb-web-* 앱은 확장성에 어려움을 겪으면서 평균 응답 시간이 각각 2.9217초와 7.3914초가 되었습니다. 가상 스레드를 사용하는 sb-web-*-vt 앱은 요청을 더 잘 처리하여 평균 응답 시간이 각각 1.6993초와 2.6023초가 되었습니다. 반면에, sb-reactive-* 앱은 더 효율적으로 높은 부하를 처리하며, 각각 1.2584초와 1.7051초의 평균 응답 시간을 유지했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 스타트업 시간
 
@@ -236,7 +401,16 @@ Docker 컨테이너 이름: sb-web-native를 사용하고 있습니다.
 
 CDS 및 CDS+AOT를 적용하면 웹 및 리액티브 앱의 스타트업 시간이 줄어드는 것도 데이터에서 확인할 수 있습니다. 예를 들어, sb-web-jvm은 1.778초가 소요됩니다. CDS를 적용하면 sb-web-jvm-cds는 1.153초에 시작하여 35.15% 빠릅니다. CDS 및 AOT를 모두 적용하면 sb-web-jvm-cds-aot는 0.823초에 시작하여 sb-web-jvm보다 53.71% 빠릅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가상 스레드를 활성화해도 시작 시간에는 영향을 미치지 않는다는 것을 확인할 수 있습니다. 이는 가상 스레드가 처리량을 향상시키는 데 의도된 것이기 때문에 이해할 만합니다.
 
@@ -246,7 +420,16 @@ CDS 및 CDS+AOT를 적용하면 웹 및 리액티브 앱의 스타트업 시간�
 
 sb-web-* 앱을 분석한 결과, sb-web-native이 최소 메모리 소비량을 가집니다. CDS를 활성화한 경우 (sb-web-jvm-cds) 또는 CDS+AOT (sb-web-jvm-cds-aot)를 적용한 경우 sb-web-jvm에 비해 최대 메모리 사용량이 약간 감소합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가상 스레드가 웹 앱에서 활성화되면 최대 메모리 소비량이 평균적으로 약 50% 증가합니다. 예를 들어, sb-web-jvm-cds-vt는 sb-web-jvm-cds와 비교했을 때 64% 증가하며 최대 메모리 사용량이 가장 높습니다.
 
@@ -256,7 +439,16 @@ sb-reactive-* 앱의 경우, 모두 평균 최대 메모리 소비량이 약 221
 
 ![이미지](/assets/img/2024-08-17-SpringBoot332BenchmarkWebReactiveCDSAOTVirtualThreadsJVMandNative_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 네이티브 이미지 sb-web-native, sb-web-native-vt 및 sb-reactive-native은 CPU 소비량이 매우 낮습니다.
 
@@ -266,7 +458,16 @@ sb-reactive-jvm* 앱의 경우, sb-reactive-jvm이 이 비교에서 모든 앱 �
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글에서는 Spring Web (Spring MVC with Apache Tomcat)을 사용한 Spring Boot 애플리케이션과 Spring Reactive Web (Spring WebFlux with Netty)을 사용한 다른 애플리케이션을 구현했습니다. 다양한 설정을 위해서 JVM 및 Native Docker 이미지를 모두 빌드하여 가상 쓰레드, CDS, AOT 최적화 옵션 등을 비교하고 각 방법의 장단점을 이해하였습니다.
 
@@ -276,7 +477,16 @@ Spring Reactive가 전반적으로 가장 좋은 옵션이었습니다. 프로�
 
 CDS 및 AOT 최적화를 활성화하면 Web 및 Reactive 애플리케이션 모두 시작 시간을 더 빨리 달성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 전통적인 Spring Web 애플리케이션을 사용하고 있고 서버.tomcat.threads.max 속성을 계속 조정하거나 Spring Reactive로 리팩토링하는 것이 싫다면, 이미 Java 21을 사용 중이 아니라면 업그레이드하고 애플리케이션 구성 파일에 한 줄 추가하여 가상 스레드를 활성화하는 것을 고려해보세요. 이렇게 하면 애플리케이션이 가상 스레드를 생성하여 더 많은 동시 요청을 처리하는 데 도움이 되어 평균 응답 시간을 예상 범위 내로 유지할 수 있습니다. 그러나 CPU 사용량이 증가하고 더 많은 메모리가 필요할 수 있습니다.
 
@@ -288,3 +498,4 @@ CDS 및 AOT 최적화를 활성화하면 Web 및 Reactive 애플리케이션 모
 - 🌐 나의 이야기를 소셜 미디어에 공유해주세요;
 - 🔔 Medium | LinkedIn | Twitter | GitHub에서 저를 팔로우해주세요;
 - ✉️ 최신 게시물을 놓치지 않도록 뉴스레터를 구독해주세요.
+```

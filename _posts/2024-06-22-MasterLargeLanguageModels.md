@@ -3,17 +3,13 @@ title: "거대한 언어 모델 마스터하는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-22-MasterLargeLanguageModels_0.png"
 date: 2024-06-22 20:58
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-MasterLargeLanguageModels_0.png
 tag: Tech
 originalTitle: "Master Large Language Models"
 link: "https://medium.com/@dawoodsarfraz.cs/master-large-language-models-166f847d254f"
 isUpdated: true
 ---
-
-
-
-
 
 ![MasterLargeLanguageModels](/assets/img/2024-06-22-MasterLargeLanguageModels_0.png)
 
@@ -26,7 +22,18 @@ isUpdated: true
 - 책과 유익한 기사: AI와 LLM 분야의 선도적인 전문가들이 저술한 종합적인 자료와 기사들을 탐색해보세요. 이러한 자료들은 LLMs를 숙달하는 데 필요한 깊은 지식, 사례 연구, 그리고 실용적인 조언을 제공합니다. LLM 개념, 응용 프로그램, 그리고 분야에서의 최신 발전사항에 대한 자세한 탐구에 몰두하세요. 이 기사들은 LLM의 기초부터 윤리적 영향, 그리고 미래 방향을 포함한 여러 주제를 다룹니다.
 - GitHub 저장소: LLMs를 실험해볼 수 있는 다양한 실무 프로젝트, 코드 샘플, 그리고 도구들을 탐색해보세요. 이러한 저장소들은 실무 경험과 LLMs가 실제 시나리오에서 어떻게 구축되고 사용되는지에 대한 통찰을 제공합니다. 사전 훈련된 모델, 세부 조정 스크립트, 그리고 혁신적인 애플리케이션을 찾아 공부하고 수정해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 자료는 LLM(Large Language Models)에 대한 기초부터 최신 기술까지 철저히 이해할 수 있도록 설계되었습니다. 학생, 연구원 또는 산업 전문가이든, 이 안내서를 통해 LLM을 숙달하는 데 필요한 지식과 도구를 제공할 것입니다.
 
@@ -36,7 +43,18 @@ isUpdated: true
 
 ![LLM 이미지](/assets/img/2024-06-22-MasterLargeLanguageModels_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 링크: Machine Learning 전문화 프로그램
 
@@ -46,7 +64,18 @@ isUpdated: true
 
 이 3개 과정으로 이루어진 전문화는 Andrew가 선도적으로 개선한 머신 러닝 과정의 업데이트된 버전으로, 2012년에 시작되어 현재까지 4.8백만 명 이상의 학습자가 수강한 만족도 평가 4.9점을 받았습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. Stanford CS229: Machine Learning Course YouTube by Andrew Ng
 
@@ -56,7 +85,18 @@ Link: [YouTube Playlist](https://www.youtube.com/playlist)
 
 Description: 첫 강의인 Andrew Ng의 기계 학습 강의를 듣습니다. 이 강의는 기계 학습과 통계적 패턴 인식에 대한 폭넓은 소개를 제공합니다. 지도 및 비지도 학습, 학습 이론, 강화 학습 그리고 제어에 대해 배울 수 있습니다. 최근 기계 학습 응용 및 기계용 알고리즘을 설계 및 개발해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 딥 러닝 전문화 - Coursera
 
@@ -66,7 +106,18 @@ Description: 첫 강의인 Andrew Ng의 기계 학습 강의를 듣습니다. �
 
 설명: 딥 러닝 전문화는 딥 러닝의 능력, 도전, 결과를 이해하고 선두주자 AI 기술 발전에 참여할 수 있도록 준비하는 기초 프로그램입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 특화과정에서는 합성곱 신경망, 순환 신경망, LSTM, 트랜스포머 등의 신경망 아키텍처를 구축하고 훈련시키는 방법을 배울 것입니다. 또한 Dropout, BatchNorm, Xavier/He 초기화 등의 전략을 활용하여 이를 개선하는 방법도 배우게 됩니다. 이론적 개념과 해당 산업적 응용을 파이썬과 TensorFlow를 이용하여 숙달하고, 음성 인식, 음악 합성, 챗봇, 기계 번역, 자연어 처리 등과 같은 실제 사례에 대처할 준비를 하세요.
 
@@ -76,7 +127,18 @@ Description: 첫 강의인 Andrew Ng의 기계 학습 강의를 듣습니다. �
 
 링크: Stanford CS224N: NLP with Deep Learning
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 설명: 이것은 NLP에 대한 최신 연구에 대한 철저한 소개와 지식의 보고서 대상지로, 귀하에게 지식의 보고서 대상지와 초심자를 위한 자료 보고서 대상지입니다. 본 강좌는 기계 학습 교수인 Christopher Manning Thomas M. Siebel 교수님에 의해 가르쳐지며, 언어학과 컴퓨터 과학 교수이자 스탠포드 인공지능 연구소 소장입니다.
 
@@ -86,7 +148,18 @@ Description: 첫 강의인 Andrew Ng의 기계 학습 강의를 듣습니다. �
 
 링크: [허깅페이스 트랜스포머 강의](링크 주소)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Description: 이 강좌는 HuggingFace 생태계의 라이브러리를 사용하여 NLP를 가르칩니다. HuggingFace의 다음 라이브러리의 내부 작업 및 사용법을 다룹니다:
 
@@ -99,7 +172,18 @@ Description: 이 강좌는 HuggingFace 생태계의 라이브러리를 사용하
 
 Abubakar Abid는 스탠포드 대학에서 응용 기계 학습 분야에서 박사 학위를 받았습니다. 박사 과정 중에 그는 Gradio를 설립했는데, 이는 60만 개 이상의 머신 러닝 데모를 구축하는 데 사용되는 오픈 소스 Python 라이브러리입니다. Gradio는 Hugging Face에 의해 인수되었으며, 현재 Abubakar는 여기서 머신 러닝 팀 리드로 근무하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 매튜 카리건은 허깅페이스에서 머신러닝 엔지니어로 일하고 있습니다. 아일랜드 더블린에 살며, 이전에는 Parse.ly에서 ML 엔지니어로 일했으며, 그 전에는 트리니티 대학교에서 박사 후 연구원으로 일했습니다. 기존 구조를 확장하여 AGI에 도달할 것이라고 믿지 않지만, 로봇 불멸에 대한 높은 희망을 품고 있습니다.
 
@@ -109,7 +193,18 @@ Abubakar Abid는 스탠포드 대학에서 응용 기계 학습 분야에서 박
 
 다우드 칸은 허깅페이스에서 머신러닝 엔지니어로 일하고 있습니다. 뉴욕 출신이며, 뉴욕 대학교에서 컴퓨터 과학을 전공했습니다. 몇 년간 iOS 엔지니어로 일한 후 다우드는 동료 창업자들과 함께 Gradio를 시작했습니다. Gradio는 결국 허깅페이스에 인수되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Lewis Tunstall은 Hugging Face의 기계 학습 엔지니어로, 오픈 소스 도구를 개발하고 널리 사용할 수 있도록 하는 데 중점을 두고 있습니다. 또한 O'Reilly의 책 "Transformers와 함께하는 자연어 처리"의 공동 저자입니다.
 
@@ -119,7 +214,18 @@ ChatGPT 개발자를 위한 프롬프트 엔지니어링 - Coursera
 
 ![이미지](/assets/img/2024-06-22-MasterLargeLanguageModels_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 링크: ChatGPT 프롬프트 엔지니어링 코스
 
@@ -129,7 +235,18 @@ ChatGPT 개발자를 위한 프롬프트 엔지니어링 - Coursera
 
 - LLM 대학 — Cohere
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-22-MasterLargeLanguageModels_7.png)
 
@@ -139,7 +256,18 @@ ChatGPT 개발자를 위한 프롬프트 엔지니어링 - Coursera
 
 2. Stanford CS324: 대형언어모형 — Stanford 사이트
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-22-MasterLargeLanguageModels_8.png)
 
@@ -149,7 +277,18 @@ ChatGPT 개발자를 위한 프롬프트 엔지니어링 - Coursera
 
 3. Princeton COS597G: Understanding Large Language Models — Princeton Site
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-22-MasterLargeLanguageModels_9.png)
 
@@ -159,7 +298,18 @@ ChatGPT 개발자를 위한 프롬프트 엔지니어링 - Coursera
 
 4. 풀 스택 LLM 부트캠프 — 풀 스택
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![LLM Bootcamp](/assets/img/2024-06-22-MasterLargeLanguageModels_10.png)
 
@@ -169,8 +319,18 @@ ChatGPT 개발자를 위한 프롬프트 엔지니어링 - Coursera
 
 5. ETH Zurich: 대 언어 모델(LLM) - RycoLab
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-22-MasterLargeLanguageModels_11.png)
 
@@ -180,8 +340,18 @@ ChatGPT 개발자를 위한 프롬프트 엔지니어링 - Coursera
 
 6. 대규모 언어 모델 파인 튜닝 — Coursera
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-22-MasterLargeLanguageModels_12.png)
 
@@ -191,7 +361,18 @@ Description: 파인튜닝은 대형 언어 모델 (LLMs)을 사용자의 특정 
 
 # 3. 기사 / 책
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - ChatGPT이 하는 일은 무엇이며 왜 작동하는 걸까? — 스티븐 월프램
 
@@ -201,7 +382,18 @@ Description: 파인튜닝은 대형 언어 모델 (LLMs)을 사용자의 특정 
 
 설명: 명성 높은 과학자인 스티븐 월프램은 ChatGPT의 기본 측면을 탐구하는 짧은 책을 썼습니다. 그는 신경망에서의 기원부터 변압기, 주의 메커니즘 및 자연어 처리를 통해 진보한 과정을 추적합니다. 이 책은 대형 언어 모델의 기능과 한계를 이해하고 싶은 사람들에게 강력히 추천됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 시리즈 기사: 대형 언어 모델 — Jay Alammar
 
@@ -211,7 +403,18 @@ Description: 파인튜닝은 대형 언어 모델 (LLMs)을 사용자의 특정 
 
 설명: Jay Alammar의 블로그는 대형 언어 모델(LLM)과 트랜스포머를 공부하는 사람들에게 지식의 보물창고입니다. 그의 블로그는 시각화, 직관적 설명, 그리고 주제에 대한 포괄적인 다룸이 돋보여 독특합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. 프로덕션용 LLM 애플리케이션 구축 — Chip Huyen
 
@@ -221,7 +424,18 @@ Description: 파인튜닝은 대형 언어 모델 (LLMs)을 사용자의 특정 
 
 설명: 이 기사에서는 LLMs를 프로덕션에 적용하는 도전을 논의합니다. 작업 조합성에 대한 통찰을 제공하며 유망한 사용 사례를 소개합니다. 실용적인 LLM에 관심 있는 모든 사람들에게 정말 가치 있는 내용입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4. 깃허브 저장소
 
@@ -231,7 +445,18 @@ Description: 파인튜닝은 대형 언어 모델 (LLMs)을 사용자의 특정 
 
 링크: [Awesome-LLM](https://github.com/username/Awesome-LLM)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 설명: ChatGPT를 중심으로 초대형 언어 모델(LLM)에 초점을 맞춘 논문, 프레임워크, 도구, 강좌, 튜토리얼 및 리소스가 정리된 컬렉션입니다.
 
@@ -241,7 +466,18 @@ Description: 파인튜닝은 대형 언어 모델 (LLMs)을 사용자의 특정 
 
 설명: LLMs의 방대한 영역을 탐색하는 실무자들을 돕는데 도움이 됩니다. ChatGPT를 다룬 연구 논문인 "ChatGPT 및 그 이상에 대한 실무에서 LLMs의 힘을 이용하기: ChatGPT 및 이상에 대한 조사"와 이 블로그를 기반으로 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. LLMSurvey (9.4k⭐)
 
@@ -251,7 +487,18 @@ Description: 파인튜닝은 대형 언어 모델 (LLMs)을 사용자의 특정 
 
 4. Awesome Graph-LLM (1.4k⭐)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 링크: Awesome-Graph-LLM
 
@@ -261,7 +508,18 @@ Description: 파인튜닝은 대형 언어 모델 (LLMs)을 사용자의 특정 
 
 링크: awesome-langchain
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 설명: LangChain은 LLM 프로젝트에 대한 빠르고 효율적인 프레임워크이며 이 저장소는 LangChain 생태계와 관련된 계획 및 프로젝트를 추적하는 중심입니다.
 

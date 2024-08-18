@@ -3,17 +3,13 @@ title: "모듈러 안드로이드 앱을 위한 SOLID 기초 가이드 투어"
 description: ""
 coverImage: "/assets/img/2024-07-09-SOLIDFoundationsforModularAndroidAppsAGuidedTour_0.png"
 date: 2024-07-09 10:46
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-SOLIDFoundationsforModularAndroidAppsAGuidedTour_0.png
 tag: Tech
 originalTitle: "SOLID Foundations for Modular Android Apps: A Guided Tour"
 link: "https://medium.com/@vikassuriyal/solid-foundations-for-modular-android-apps-a-guided-tour-a03cd9462d00"
 isUpdated: true
 ---
-
-
-
-
 
 ![SOLID principles](/assets/img/2024-07-09-SOLIDFoundationsforModularAndroidAppsAGuidedTour_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 모듈화 아키텍처와 완벽하게 일치:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Single Responsibility Principle (SRP):
 상상해 보세요. 각 도구가 고유한 목적을 제공하는 공구 상자가 있다고 생각해 보세요. 마찬가지로 SRP를 따르는 모듈은 한 가지 명확한 작업에 집중합니다. 이 원칙은 각 모듈이 단 하나의 책임만 다루도록 보장하여 코드베이스를 깔끔하게, 이해하기 쉽게, 그리고 유지보수하기 쉽게 만듭니다. 특정 기능을 격리하여 효율적인 테스트를 가능하게 함으로써 테스트 가능성도 향상시킵니다.
@@ -35,7 +42,18 @@ Open/Closed Principle (OCP):
 
 예시: 기존의 "LoginModule" 옆에 "SocialLoginModule"을 소개하여 소셜 로그인 기능을 추가할 수 있습니다. 이를 통해 핵심 인증 로직을 변경하지 않고 앱의 안정성과 무결성을 유지할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 의존성 역전 원칙(DIP):
 의존성 역전 원칙은 모듈 간의 의존성을 줄이기 위해 구상(인터페이스와 같은)에 의존하도록 변경함으로써 모듈을 유연하고 유지보수하기 쉽도록 만드는 것을 말합니다.
@@ -47,7 +65,18 @@ Open/Closed Principle (OCP):
 
 모듈화 설계를 지원하는 원칙:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모듈 아키텍처에 직접적으로 필수는 아니지만 이러한 원칙들은 모듈의 디자인과 유지보수를 크게 향상시킵니다:
 
@@ -59,7 +88,18 @@ LSP는 모듈 계층 구조 내 하위 클래스와 상위 클래스 간에 원�
 인터페이스 분리 원칙 (ISP):
 잘 사용하지 않는 도구로 가득 찬 공구 상자를 상상해보세요. ISP는 각 모듈의 Bedn에 맞는 더 작고 구체적인 인터페이스를 생성하는 것을 권장합니다. 이 접근 방식은 복잡성을 줄이고 모듈 간의 느슨한 결합을 촉진하여 유지보수성을 향상시킵니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 에제: 여러 기능을 갖춘 거대한 "DatabaseManager" 인터페이스 대신에 모듈은 "ReadableDatabase"와 "WritableDatabase" 같은 별도의 인터페이스를 사용할 수 있습니다. 이렇게 함으로써 모듈 디자인을 간소화하고 코드베이스를 이해하고 유지보수하기 쉽게 만들 수 있습니다.
 

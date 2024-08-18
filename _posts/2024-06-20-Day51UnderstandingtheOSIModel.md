@@ -3,17 +3,13 @@ title: "51일차 OSI 모델 이해하기"
 description: ""
 coverImage: "/assets/img/2024-06-20-Day51UnderstandingtheOSIModel_0.png"
 date: 2024-06-20 16:03
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-Day51UnderstandingtheOSIModel_0.png
 tag: Tech
 originalTitle: "Day 51: Understanding the OSI Model"
 link: "https://medium.com/@int0x33/day-51-understanding-the-osi-model-f22d5f3df756"
 isUpdated: true
 ---
-
-
-
-
 
 참고: 이 편집이 혼란스러웠습니다. 최종적으로 OSI 모델 안내서로 변경될 예정이니, 이 안내서를 개선하는 동안 조금만 기다려 주세요. 감사합니다!
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 물리 계층은 통신 채널을 통해 원시 비트를 전송합니다. 이 계층은 한 쪽이 1 비트를 보내면 다른 쪽이 0 비트가 아니라 1 비트로 수신받을 수 있도록 해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 전형적인 설계 문제
 
@@ -37,7 +44,18 @@ isUpdated: true
 
 ## 물리 계층 역할
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 통신 채널을 통해 물리적으로 전송될 수 있도록 신호를 한 형태에서 다른 형태로 변환하는 과정을 조절합니다.
 - 비트 단위로 전송
@@ -64,7 +82,18 @@ isUpdated: true
 
 # 데이터 링크 층
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 링크 계층의 주요 역할은 원시 전송 설비를 감지되지 않는 전송 오류가 없는 것처럼 보이는 라인으로 변환하는 것입니다. 이를 위해 실제 오류를 가리고 네트워크 계층이 그것들을 보지 못하도록 합니다. 이 작업은 송신자가 입력 데이터를 데이터 프레임(일반적으로 몇 백 또는 몇 천 바이트)으로 분할하고 프레임을 순차적으로 전송하는 방식으로 수행됩니다. 서비스가 신뢰할 수 있다면, 수신자는 각 프레임의 정상 수신을 확인하기 위해 승인 프레임을 다시 보내 확인합니다. 데이터 링크 계층에서 발생하는 다른 문제 중 하나(또한 대부분의 상위 계층에서도)는 빠른 송신자가 느린 수신자를 데이터로 물에 잠기게 막는 방법입니다. 송신자가 수신자가 더 많은 데이터를 수용할 수 있는 시점을 알 수 있도록 하는 교통 조절 메커니즘이 필요할 수 있습니다. 방송 네트워크에는 데이터 링크 계층에서 추가 문제가 있습니다: 공유 채널에 대한 액세스 제어 방법은 무엇인가요. 데이터 링크 계층의 특별한 하위 계층 인 매체 액세스 제어 하위 계층은 이러한 문제를 다룹니다.
 
@@ -74,7 +103,18 @@ isUpdated: true
 
 ## 데이터 링크 계층 업무
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 비트 전송 오류로 발생하는 문제를 처리합니다.
 - 발신 및 수신 장치가 과도한 속도로 데이터가 흐르는 것을 방지합니다.
@@ -86,7 +126,18 @@ isUpdated: true
 
 ## 데이터 링크 계층 — 네트워크 토폴로지
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 네트워크 토폴로지 사양은 네트워크에서 기기가 어떻게 연결되는지를 나타냅니다. 일부 매체는 버스 토폴로지로 기기를 연결할 수 있지만, 다른 것들은 링 토폴로지를 요구합니다. 버스 토폴로지는 Juniper Networks 기기에서 지원되는 Ethernet 기술에서 사용됩니다.
 
@@ -96,7 +147,18 @@ isUpdated: true
 
 ## 데이터 링크 계층 — 프레임 시퀀싱
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 링크 계층의 프레임 순차화 기능을 통해 전송 중에 순서가 바뀐 프레임을 수신 측에서 재정렬할 수 있습니다. 패킷의 무결성은 Layer 2 헤더의 비트를 통해 확인할 수 있으며, 이 헤더는 데이터 페이로드와 함께 전송됩니다.
 
@@ -106,7 +168,18 @@ isUpdated: true
 
 ## 데이터 링크 계층 - 데이터 링크 서브계층
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 링크 계층은 두 개의 하위 계층인 논리 링크 제어(LLC)와 미디어 액세스 제어(MAC)로 나뉩니다. LLC 하위 계층은 네트워크의 단일 링크 상에서 장치 간 통신을 관리합니다. 이 하위 계층은 링크 계층 프레임의 필드를 지원하여 여러 상위 계층 프로토콜이 단일 물리 링크를 공유할 수 있게 합니다.
 
@@ -116,7 +189,18 @@ MAC 하위 계층은 프로토콜이 물리 네트워크 매체에 액세스하�
 
 MAC 주소는 장치 어댑터에 영구적으로 저장된 일련 번호로, 장치를 고유하게 식별합니다. MAC 주소는 데이터 링크 계층에서 작동하며, IP 주소는 네트워크 계층에서 작동합니다. 장치의 IP 주소는 네트워크 내에서 이동하면서 서로 다른 IP 서브넷으로 변경될 수 있지만, MAC 주소는 장치에 물리적으로 연결되어 있기 때문에 변하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 IP 네트워크 내에서 장치들은 주소 확인 프로토콜(ARP)을 통해 각 MAC 주소를 해당 구성된 IP 주소와 일치시킵니다. ARP는 네트워크의 각 MAC 주소에 대한 매핑을 유지하는 테이블을 가지고 있습니다.
 
@@ -126,7 +210,18 @@ IP 네트워크 내에서 장치들은 주소 확인 프로토콜(ARP)을 통해
 
 MAC-48 주소는 대부분의 네트워크에서 가장 일반적으로 사용되는 MAC 주소입니다. 이들 주소는 일반적으로 다음과 같은 형식 중 하나로 보이며, 12자리 16진수 숫자(길이가 48비트)입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - MM:MM:MM:SS:SS:SS
 - MM-MM-MM-SS-SS-SS
@@ -137,9 +232,20 @@ MAC-48 주소는 대부분의 네트워크에서 가장 일반적으로 사용�
 
 TCP/IP 모델의 링크 계층은 호스트가 연결된 로컬 네트워크 세그먼트(링크)에서만 작동하는 네트워킹 프로토콜의 서술적 영역입니다. 이러한 프로토콜 패킷은 다른 네트워크로 라우팅되지 않습니다. 링크 계층에는 로컬(링크에서) 네트워크 노드 간 통신을 정의하는 프로토콜이 포함됩니다. 이들은 일반적으로 링크 유형에 특정한 패킷 형식 지정을 기반으로 하는 프로토콜들을 사용하여 로컬 노드 간의 링크 상태를 유지하는 목적을 달성합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-인터넷 공학 작업군(IETF)이 정의한 핵심 프로토콜은 이 계층에서 사용됩니다. 주소 해상도 프로토콜(ARP), 역 주소 해상도 프로토콜(RARP), 이더넷 인접 디스커버리 프로토콜(NDP) 등이 있습니다. NDP는 IPv6를 위한 ARP와 유사한 기능을 제공합니다. IPv6가 등장한 이후에는 Open Shortest Path First (OSPF)도 동작하는 것으로 간주되며, 이전에는 IPv4 버전의 프로토콜이 인터넷 계층에서 고려되었습니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+인터넷 공학 작업군(IETF)이 정의한 핵심 프로토콜은 이 계층에서 사용됩니다. 주소 해상도 프로토콜(ARP), 역 주소 해상도 프로토콜(RARP), 이더넷 인접 디스커버리 프로토콜(NDP) 등이 있습니다. NDP는 IPv6를 위한 ARP와 유사한 기능을 제공합니다. IPv6가 등장한 이후에는 Open Shortest Path First (OSPF)도 동작하는 것으로 간주되며, 이전에는 IPv4 버전의 프로토콜이 인터넷 계층에서 고려되었습니다.
 
 IS-IS (RFC 1142)는 이 계층에 맞는 다른 링크 상태 라우팅 프로토콜이지만 TCP/IP 모델에서는 고려되지만 OSI 참조 스택 내에서 개발되었으며, Layer 2 프로토콜로 분류됩니다. 인터넷 표준이 아닙니다.
 
@@ -147,7 +253,18 @@ IS-IS (RFC 1142)는 이 계층에 맞는 다른 링크 상태 라우팅 프로�
 
 네트워크 계층은 서브넷의 작동을 제어합니다. 주요한 설계 문제 중 하나는 패킷을 출발지에서 목적지로 어떻게 라우팅할지 결정하는 것입니다. 경로는 네트워크에 '고정된' 정적 테이블을 기반으로 할 수도 있으며, 자동으로 업데이트되어 고장 부품을 피할 수 있습니다. 또한 각 대화의 시작 시에, 예를 들어 원격 컴퓨터에 로그인하는 터미널 세션에서, 결정될 수도 있습니다. 마지막으로 매우 동적일 수 있으며, 각 패킷마다 새롭게 결정되어 현재 네트워크 부하를 반영할 수 있습니다. 서브넷에 동시에 많은 패킷이 존재하면 서로 방해하여 병목 현상을 일으킵니다. 혼잡을 처리하는 것도 네트워크 계층의 책임 중 하나이며, 네트워크에 적재하는 부하를 조절하는 상위 계층과 협력합니다. 더 일반적으로 제공되는 서비스 품질(지연, 전송 시간, 지터 등)도 네트워크 계층의 문제입니다. 패킷이 목적지에 도달하기 위해 두 네트워크 사이에서 이동해야 하는 경우 다양한 문제가 발생할 수 있습니다. 두 번째 네트워크에서 사용하는 주소지정이 첫 번째 네트워크에서 사용하는 것과 다를 수 있습니다. 두 번째 네트워크가 패킷을 수용하지 않을 수도 있습니다. 프로토콜이 다를 수 있습니다 등등. 모든 이 문제들을 극복하여 이질적인 네트워크를 연결할 수 있도록 하는 것은 다 네트워크 계층에 달려 있습니다. 방송 네트워크에서는 라우팅 문제가 간단하기 때문에 네트워크 계층이 얇거나 없을 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 네트워크 계층은 오픈 시스템 상호연결 모델(OSI 모델)의 세 번째 수준으로, 네트워크 통신을 위한 데이터 라우팅 경로를 제공하는 계층입니다. 데이터는 논리적 네트워크 경로를 통해 패킷 형식으로 전송되며, 네트워크 계층에 의해 제어된 순서화된 형식으로 전달됩니다.
 
@@ -157,7 +274,18 @@ IS-IS (RFC 1142)는 이 계층에 맞는 다른 링크 상태 라우팅 프로�
 
 네트워크 프로토콜은 "링크 서비스"라고 불리는 것을 제공합니다. 이러한 프로토콜은 주소 지정 및 경로 정보 처리, 오류 검사, 재전송 요청 등을 다룹니다. 네트워크 프로토콜은 또한 Ethernet이나 Token Ring과 같은 특정 네트워킹 환경에서 통신하기 위한 규칙을 정의합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 IP - 인터넷 프로토콜의 약자로, OSI 네트워크 계층에서 동작하며 레이어 3 패킷을 전달하는 라우팅 프로토콜입니다.
 
@@ -167,7 +295,18 @@ IPX - NetWare의 패킷 전달 및 라우팅을 위한 프로토콜입니다.
 
 전송 계층의 기본 기능은 상위에서 데이터를 받아 이를 필요에 따라 작은 단위로 분할하고 이를 네트워크 계층으로 전달하여 다른 쪽에서 모든 조각들이 정확하게 도착하도록 하는 것입니다. 더불어, 모든 작업은 효율적으로 처리되어야 하며 시간이 흐름에 따른 하드웨어 기술의 변화로 인한 상위 계층의 격리도 보장되어야 합니다. 전송 계층은 또한 세션 계층 및 네트워크 사용자에게 제공할 서비스 유형을 결정합니다. 가장 인기 있는 전송 연결 유형은 메시지나 바이트를 보낸 순서대로 전달하는 오류가 없는 point-to-point 채널입니다. 그러나 다른 종류의 전송 서비스도 가능합니다. 예를 들어, 메시지의 순서 전달을 보장하지 않는 독립적인 메시지 전송 및 다중 목적지로 메시지를 브로드캐스트하는 것이 있습니다. 서비스 유형은 연결 설정 시 결정됩니다. (참고로 오류 없는 채널은 완벽하게 달성할 수 없습니다. 이 용어가 실제로 의미하는 것은 실제 실무에서 무시할 수 있을 만큼 오류가 낮다는 것입니다.) 전송 계층은 소스로부터 대상까지 데이터를 전달하는 true end-to-end 계층입니다. 다시 말해, 소스 머신의 프로그램은 메시지 헤더와 제어 메시지를 사용하여 대상 머신의 유사한 프로그램과 대화를 수행합니다. 하위 계층에서 각 프로토콜은 머신과 그 즉각적인 이웃 사이에 있으며 궁극적으로 소스와 대상 머신 사이에 있는 여러 라우터로 분리되어 있는 것이 아닙니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 서비스
 
@@ -182,7 +321,18 @@ IPX - NetWare의 패킷 전달 및 라우팅을 위한 프로토콜입니다.
 
 ## 운송 계층 프로토콜
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 목록은 인터넷 프로토콜 스위트, OSI 프로토콜 스위트, NetWare의 IPX/SPX, AppleTalk 및 광섬유 채널의 전송 계층에 일반적으로 배치되는 일부 프로토콜을 보여줍니다.
 
@@ -206,7 +356,18 @@ IPX - NetWare의 패킷 전달 및 라우팅을 위한 프로토콜입니다.
 
 # 세션 계층
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 세션 계층은 서로 다른 기계에서 사용자들이 세션을 설정할 수 있게 합니다. 세션은 대화 제어(누가 전송할 차례인지 추적), 토큰 관리(두 당사자가 동시에 중요한 작업을 시도하는 것을 방지), 및 동기화(장애 및 후속 복구 사건에서 장기 전송을 체크포인트 처리하여 이전 위치에서 다시 시작할 수 있도록 함)과 같은 다양한 서비스를 제공합니다.
 
@@ -232,7 +393,18 @@ IPX - NetWare의 패킷 전달 및 라우팅을 위한 프로토콜입니다.
 
 # 표현 계층
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하위 계층이 주로 비트를 이동하는 데 관심을 두는 반면, 프리젠테이션 계층은 전송된 정보의 구문과 의미에 관심을 가집니다. 내부 데이터 표현이 다른 컴퓨터가 통신할 수 있도록 하기 위해, 교환할 데이터 구조는 추상적으로 정의될 수 있으며, '와이어 상에서' 사용될 표준 인코딩과 함께 정의될 수 있습니다. 프리젠테이션 계층은 이러한 추상적인 데이터 구조를 관리하고 더 높은 수준의 데이터 구조(예: 은행 기록)를 정의하고 교환할 수 있게 합니다.
 
@@ -245,7 +417,18 @@ IPX - NetWare의 패킷 전달 및 라우팅을 위한 프로토콜입니다.
 
 # 애플리케이션 계층
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 응용 계층에는 사용자가 흔히 필요로 하는 다양한 프로토콜이 포함되어 있어요. 널리 사용되는 응용 프로토콜 중 하나는 웹의 기초인 HTTP(HyperText Transfer Protocol)입니다. 브라우저가 웹 페이지를 원할 때, HTTP를 사용하여 해당 페이지의 이름을 호스팅 서버로 보내요. 서버는 그런 다음 페이지를 다시 보내주죠. 파일 전송, 전자 메일, 네트워크 뉴스에 대해 다른 응용 프로토콜을 사용하기도 해요.
 

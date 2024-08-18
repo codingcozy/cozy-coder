@@ -3,17 +3,13 @@ title: "배터리게이트는 없다 제대로 교육받지 못한 애플 사용
 description: ""
 coverImage: "/assets/img/2024-07-13-ThereIsNoBatterygateJustPoorlyEducatedAppleUsers_0.png"
 date: 2024-07-13 23:59
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-ThereIsNoBatterygateJustPoorlyEducatedAppleUsers_0.png
 tag: Tech
 originalTitle: "There Is No “Batterygate”, Just Poorly Educated Apple Users"
 link: "https://medium.com/bricksnbrackets/there-is-no-batterygate-just-poorly-educated-apple-users-85acf788e51d"
 isUpdated: true
 ---
-
-
-
-
 
 오, 전문가들이 모든 것을 #SomethingGate로 불러서 추가 돈을 버거나 좋아요를 더 받으려고 하는 모습을 정말 싫어하죠. 애플이 실수를 저지르기도 하지만, 그때면 참 부끄러운 일이죠. #BendGate는 확실히 기억해야 할 사건 중 하나입니다. 하지만 iPhone 6이 사람들의 후면 주머니에 넣으면서 아이폰이 바나나폰으로 변한다는 이야기가 퍼지기 시작하면서, 누구든지 어떤 상황을 #AppleGate로 불러내려 할 정도로 모든 사람들이 비극적인 눈으로 살펴봅니다. 가장 최근의 #BatteryGate가 그 중 하나라고 생각해요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ### 그런데 우리는 그걸로부터 배웠을 거라고 생각했을 텐데요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예측이 맞았네요. 그래서 이 기사가 나왔습니다. 거의 10년 전 애플이 그 결정을 내린 것에 대해 사람들이 정당하게 분개한 것은 사실입니다. 저는 항상 고객들이 그 결정이 당사용에 부정적 영향을 미치지 않는 한, 회사가 내리는 모든 결정을 알 필요는 없다고 생각해 왔어요. 몇 분 동안 재부팅하는 폰보다 하루 종일 작동하는 느린 폰을 가지는 게 훨씬 나은 것 같아요. 당신은 어떻게 생각하시나요? 지금까지 성공적으로 이루어진 소송의 수를 보면, 아마 그렇지 않을 거에요.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 새로운 #BatteryGate는 실제로 배터리의 최대 용량에 대해 말하고 있는데, 실제로 배터리가 얼마나 오래 지속되는지보다는 연결된 부분이죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 얼마 전에, 일부 고객들이 최대 배터리 용량을 나타내는 수치가 80%에서 90% 사이로 낮다고 주장했습니다. 그리고 '충격적인 발견'이라는 말을 들었을 때 전혀 놀라지 않았어요. 저에게는 한 해 후에도 검은 말이 여전히 말이라고 주장하는 농부의 이야기처럼 보였습니다. 아주 예상 가능한 일이죠. 그 배터리가 당근이나 유니콘으로 변할 일은 없어요. 그냥 말로 남을 뿐이에요. 배터리의 용량이 일 년 동안 10~20% 감소할 것이란 사실은 어떻게 알게 됐을까요? 제가 바로 이 기분 좋은 인포그래픽을 통해 알게 되었어요. 최근에 산 멋진 책 페이지 중의 하나에요.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 MaxTech와 AppleTrack은 이상한 주장을 하지만, 조금 더 심층적으로 들여다보면 빨리 붕괴될 것입니다. 이 주장은 Pro iPhone 모델의 이전 버전들도 배터리 건강도와 충전 여부를 검사했을 때 비슷한 최대 용량을 가지고 있다고 하죠, 그것을 확인할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 iPhone 13 Pro을 사용하고 있습니다. 정확히 2년이 된 이 기기의 배터리 용량은 89%입니다. 오늘 오전 9시부터 자정까지 사용해 35%의 배터리를 소모했어요. 제 경우에는 이 정도 사용량이 꽤 표준적입니다. 2년을 사용한 후에도 보통 2일에 한 번씩 충전을 하곤 해요. 다만 여행 중에는 일일 충전이 필요하죠.
 
@@ -53,7 +82,18 @@ iPhone 13 Pro을 사용하고 있습니다. 정확히 2년이 된 이 기기의 
 
 말한 바와 같이, 배터리는 500회의 충전 주기를 넘기면 반드시 80% 미만의 배터리 용량을 가지게 됩니다. 이것은 애플의 문제가 아니라 상용 리튬이온 배터리의 특성입니다. 제가 말한 것을 믿지 않는다면 위로 스크롤해서 인포그래픽을 다시 확인해보세요. 그 숫자만 놓고 본다면, 12개월 이내에 80~90%의 배터리 용량에 도달하는 것은 완벽하게 기준 내에 들어옵니다. 대부분의 사람들은 전화를 매일 충전하는데, 이는 매년 250~300회의 충전 주기를 만들어 냅니다. 누군가는 하루에 두 번 또는 2일에 세 번 충전을 해 1년에 500회의 충전 주기를 만들 수도 있답니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 벌레가 없는 캔을 열고 싶어하는 사람들도 있을 것 같아요. 그래서 iPhone 13 Pro와 iPhone 14 Pro 간에 용량 차이가 발생할 수 있는 이유를 살펴봅시다.
 
@@ -67,7 +107,18 @@ iPhone 13 Pro을 사용하고 있습니다. 정확히 2년이 된 이 기기의 
 
 아마도 나열된 것보다 배터리가 더 빨리 소모되는 이유가 더 많을 수도 있어요. 만약 여러분이 알고 계신다면 댓글로 알려주세요. 그렇지만 무슨 이유든간에 배터리는 항상 소비되는 대상이며, 수명은 사용된 기술과 사용자의 습관에 의존한다는 것은 분명한 사실입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 하루를 마무리하며...
 
@@ -77,6 +128,17 @@ iPhone 13 Pro을 사용하고 있습니다. 정확히 2년이 된 이 기기의 
 
 독자에게 하고싶은 말: 기술 리뷰어를 면밀히 신뢰하지 마세요, 저도 포함해서요. 한 가지 의견보다는 둘 이상을 보거나 읽어보고, 이상하거나 너무 좋아 보이는 것이 있다면 조금씩 자세히 조사하고, 가장 중요한 것은 기초적인 기술에 대해 이해하는 것입니다. 나중에 스스로에게 감사할 거예요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-***Attila Vago*** - **하나의 코드 줄씩 세상을 개선하는 소프트웨어 엔지니어. 평생 멋진 개발자로, 코드와 블로그 작성자, 웹 접근성 옹호자, LEGO 팬, 비닐 레코드 수집가. 청귤 크래프트 맥주를 좋아합니다!** **저의 인사 이야기를 여기에서 읽어보세요!** **LEGO, 기술, 코딩 및 접근성에 관한 더 많은 이야기를 구독하세요!** **가끔 들르시는 독자를 위해 랜덤 소소한 이야기와 글도 씁니다.**
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+**_Attila Vago_** - **하나의 코드 줄씩 세상을 개선하는 소프트웨어 엔지니어. 평생 멋진 개발자로, 코드와 블로그 작성자, 웹 접근성 옹호자, LEGO 팬, 비닐 레코드 수집가. 청귤 크래프트 맥주를 좋아합니다!** **저의 인사 이야기를 여기에서 읽어보세요!** **LEGO, 기술, 코딩 및 접근성에 관한 더 많은 이야기를 구독하세요!** **가끔 들르시는 독자를 위해 랜덤 소소한 이야기와 글도 씁니다.**

@@ -3,17 +3,13 @@ title: "Matter v13에서 무엇이 새로워졌을까요"
 description: ""
 coverImage: "/assets/img/2024-06-20-WhatsNewwithMatterv13_0.png"
 date: 2024-06-20 16:18
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-WhatsNewwithMatterv13_0.png
 tag: Tech
 originalTitle: "What’s New with Matter v1.3?"
 link: "https://medium.com/@tcaflisch/whats-new-with-matter-v1-3-960bc3f51da6"
 isUpdated: true
 ---
-
-
-
-
 
 2024년 6월 10일
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Matter는 이 모든 것을 오픈 소스 기반의 IP 프로토콜을 통해 가능케 하고 있으며, 이 프로토콜은 신뢰할 수 있고 안전한 스마트 홈 생태계를 만드는 데 도움이 되는 통합 표준으로 만들어졌습니다. 또한 Matter는 스마트 홈 장치 제조업체들이 Apple HomeKit, Amazon Alexa, Google Home, Samsung SmartThings 등 각 기업의 스마트 홈 생태계별 제품을 만드는 대신 단일 프로토콜에 기반한 제품을 제작할 수 있도록 도와주는 것으로 설계되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지난 보고서 이후에 Matter에 중요한 업그레이드 사항이 있었습니다. Connectivity Standards Alliance (CSA)는 Matter 프로토콜 사양의 버전 1.3을 발표했습니다. CSA에 따르면, 이번 새 릴리스에서는 다음을 지원합니다:
 
@@ -33,7 +40,18 @@ Matter는 이 모든 것을 오픈 소스 기반의 IP 프로토콜을 통해 �
 
 전기 자동차 충전
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Matter 1.3의 에너지 기능은 새로운 에너지 중심 기기를 가능하게 합니다. 그 중 첫 번째로 Electric Vehicle Supply Equipment (EVSE)가 있습니다. 이를 통해 전기 자동차 충전 장비 제조업체들은 소비자가 언제 어떻게 충전할지를 제어할 수 있도록 사용하기 편리한 방법을 제시할 수 있습니다. 이는 수동으로 충전을 시작하거나 중지할 수 있는 능력, 충전 속도를 조절할 수 있는 능력, 또는 출발 시간까지 추가할 마일 수를 지정할 수 있는 능력을 특징으로 하며, 충전 스테이션을 통해 가장 저렴하고 탄소 배출이 적은 시간에 충전하도록 자동으로 최적화할 수 있습니다.
 
@@ -43,7 +61,18 @@ Matter 1.3의 에너지 기능은 새로운 에너지 중심 기기를 가능하
 
 새로운 장치 유형 지원
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Matter 1.3는 전자레인지, 오븐, 가스레인지, 배현기, 그리고 세탁기 건조기에 대한 지원을 추가했어요.
 
@@ -53,7 +82,18 @@ Matter 1.3는 전자레인지, 오븐, 가스레인지, 배현기, 그리고 세
 
 다양한 스마트 홈 기기 제조업체들이 Matter를 구현하는 또 다른 흥미로운 측면은 Matter 프로토콜을 직접 제품에 내장하는 기업이 있다는 것이에요. 한편, 다른 기기 제조업체들은 Matter 브릿지 제품을 제품 라인업에 추가하여 Matter 프로토콜과 회사의 기존 API 간에 통신하기 위한 브릿지 역할을 한다는 점이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 처음에는 Matter 브리지가 기업이 기존 제품에 빠르게 Matter 지원을 추가할 수 있는 방법으로 보였습니다. 시간이 지남에 따라 브리지는 각 제품에 Matter 지원이 추가되면 자연스럽게 없어질 것으로 생각되었습니다. 하지만 이러한 경우가 아닐 수도 있습니다.
 
@@ -63,7 +103,18 @@ Matter 1.3는 전자레인지, 오븐, 가스레인지, 배현기, 그리고 세
 
 Matter 브리지는 이러한 문제들을 해결합니다. Matter 브리지는 다른 업데이트를 거치는 회사의 다른 제품이 있더라도 한 번만 인증되면 됩니다. 이는 Matter를 구현하는 비용을 줄일 수 있습니다. 또한 회사는 Matter 브리지를 통해 기본 제어 기능만 사용 가능하더라도 해당 제품의 기존 API를 통해서만 제공되는 고유하고 혁신적인 기능을 제공할 수 있습니다. 이를 통해 회사는 제품을 경쟁사와 차별화하는 고유한 기능을 계속해서 제공할 수 있습니다. 따라서 Matter 프로토콜 지원을 직접 제품에 통합하기보다 Matter 브리지를 제공하는 기업의 선택에 놀라지 마세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어쨌든, Matter 프로토콜은 계속해서 발전하고 있습니다. 버전 1.3에는 에너지 관리와 새로운 기기 지원을 포함한 여러 가지 새로운 기능이 포함되어 있습니다. 장치 제조업체가 프로토콜을 어떻게 구현하는지도 계속 발전하고 있습니다. Matter 브리지는 제조업체가 프로토콜을 비용 효율적으로 구현하는 데 중요한 도구가 되고 있습니다.
 
@@ -73,6 +124,17 @@ SmartHomeOnTheRange.com
 
 ![이미지](/assets/img/2024-06-20-WhatsNewwithMatterv13_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기능을 사용자가 편리하게 사용할 수 있도록 제공하는 것이 목적입니다. 각 링크를 클릭하고 제품을 구매한 경우에도 이로부터 수익을 창출하지 않습니다. 이 사실을 명심하시고 쾌적한 쇼핑 경험을 즐기세요.

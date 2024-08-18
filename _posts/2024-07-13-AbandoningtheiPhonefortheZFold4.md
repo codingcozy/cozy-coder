@@ -3,17 +3,13 @@ title: "아이폰 대신 Z Fold4로 갈아타는 이유"
 description: ""
 coverImage: "/assets/img/2024-07-13-AbandoningtheiPhonefortheZFold4_0.png"
 date: 2024-07-13 00:44
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-AbandoningtheiPhonefortheZFold4_0.png
 tag: Tech
 originalTitle: "Abandoning the iPhone for the Z Fold4"
 link: "https://medium.com/macoclock/abandoning-the-iphone-for-the-z-fold4-b83d2284e7fe"
 isUpdated: true
 ---
-
-
-
-
 
 ![ZFold4](/assets/img/2024-07-13-AbandoningtheiPhonefortheZFold4_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 그래서, '멋지다'고 생각해서 이동 전화기에 거의 2,000달러를 쓰기는 힘들었습니다. 그러나 그것을 리뷰하는 가치 또한 보이지 않았습니다. Z 폴드4는 대다수 일반인에게는 도달하기 어렵고 궁극적으로 결함이 대단하기 때문에 나의 시간이 완전히 낭비되었을 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오, 얼마나 틀렸던지요.
 
@@ -33,9 +40,20 @@ isUpdated: true
 
 ## 과연 전 갈아탔을까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-친구들아, 전에도 언급했듯이 리뷰어들이 자신이 사랑하는 아이폰을 다른 제품으로 "전환했다"고 말한다면, 그게 곧 그들이 완전히 다른 제품으로 넘어간다는 것은 아니에요. 그렇게 할 수가 없죠. 그들은 핸드폰 리뷰어니까요. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+친구들아, 전에도 언급했듯이 리뷰어들이 자신이 사랑하는 아이폰을 다른 제품으로 "전환했다"고 말한다면, 그게 곧 그들이 완전히 다른 제품으로 넘어간다는 것은 아니에요. 그렇게 할 수가 없죠. 그들은 핸드폰 리뷰어니까요.
 
 단지 그 다른 핸드폰을 한 동안 사용했을 뿐이에요. 아마도 그들은 그동안 아이폰을 곁에 두고 사용한 거겠죠. 그래도 그들이 믿을 수 없다는 얘기도 아니에요 — 그들이 하는 직업이 그렇거든요.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 내 경우에는 지난 3개월 동안 거의 항상 Z 폴드4를 사용해왔어요. 그럼에도 불구하고, 아이폰 14 Pro Max가 제 주요 장치로 남아 있었죠, 제 작업 프로세스에서 중요한 역할을 하기 때문이에요. 올해 초부터 몇 가지 다른 스마트폰도 리뷰했는데, 그 때는 Z 폴드4를 한동안 떠나 있었지요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 한 번도 삼성의 책 같은 폴더블 스마트폰을 내 기기 서랍에 넣을 생각이 든 적이 없었습니다.
 
@@ -53,9 +82,20 @@ Z Fold4는 빠르고 멋진 스마트폰입니다. 스냅드래곤 8+ Gen 1로 �
 
 따라서 삼성은 Z Fold4에서 바로 성공을 거뒀습니다. 만약 이 제품이 초고속이 아니고 프리미엄 같지 않았다면 즉각적으로 실패작이 되었을 것입니다. 기억하세요, 이 제품은 매우 비싼 것이죠?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-The Z Fold4's camera captures stunning photos. I won’t delve too deep into its performance, as it's consistent with Samsung's quality, which I've discussed in my recent coverage of the S23 Ultra. In the right conditions, the Z Fold4's camera truly excels. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+The Z Fold4's camera captures stunning photos. I won’t delve too deep into its performance, as it's consistent with Samsung's quality, which I've discussed in my recent coverage of the S23 Ultra. In the right conditions, the Z Fold4's camera truly excels.
 
 ![Image 1](/assets/img/2024-07-13-AbandoningtheiPhonefortheZFold4_1.png)
 
@@ -63,7 +103,18 @@ However, it still struggles with overexposing blue skies and lacks reliability i
 
 ![Image 2](/assets/img/2024-07-13-AbandoningtheiPhonefortheZFold4_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 세잔이나 그런 것들을 용서할 수 있어요. Z Fold4의 카메라는 저를 거의 실망시키지 않아요. 또한, 이 기기가 이렇게 특이하고 흥미로운 장치이기 때문에 모든 단점을 늘 앞섭니다.
 
@@ -73,9 +124,20 @@ Z Fold4를 사용하고 끝냈을 때, 닫는 것이 무척 만족스럽고 완�
 
 ## Z Fold4: 안 좋은 것들
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-The Z Fold4 is definitely a smartphone that sparks a lot of discussion, and I can see why. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+The Z Fold4 is definitely a smartphone that sparks a lot of discussion, and I can see why.
 
 To truly appreciate this device, you need to be fully committed, especially considering the hefty price tag (opting for the 1TB version could cost well over £2,000). The Z Fold4 offers a unique smartphone experience, but it may not appeal to everyone.
 
@@ -83,7 +145,18 @@ There are a few technical issues to consider. With its folding display, there's 
 
 Another aspect to consider is the impact of the form factor on the front display. While the Z Fold4 is more compact and easier to fit in your pocket than devices like the iPhone 14 Pro Max, the narrow width when closed can make the front keyboard almost unusable. Some Samsung fans have told me that you can adjust it, but I have yet to find a setting that makes it comfortable to use.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 배터리 수명도 더 나아질 수 있었어요. 이 폰은 2일 이상 가는 랜드에 있는 폰 중에서 하루 간 사용할 수 있는 폰입니다. 결과적으로 Z Fold4를 다른 기기보다 훨씬 더 자주 충전해야 한다는 느낌을 받게 됩니다. 다음 버전은 정말 S23 Ultra 수준의 배터리 성능에 도달해야 할 것입니다.
 
@@ -93,7 +166,18 @@ Another aspect to consider is the impact of the form factor on the front display
 
 Apple은 분명히 오랜 시간 동안 폴딩 아이폰을 테스트해 왔지만, 아직 출시된 것을 보지 못한 이유가 두 가지 있다고 생각해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째 이유는 기술적으로 단순히 '애플에 적합하지 않다'는 것입니다. 그 주름과 그것이 열릴 때 녹슨 상자 뚜껑 소리를 내기 쉬운 성향은 애플의 테스트의 첫 단계를 통과하지 못할 것입니다.
 
@@ -103,7 +187,18 @@ Apple은 분명히 오랜 시간 동안 폴딩 아이폰을 테스트해 왔지�
 
 오해하지 마세요 - 만약 내일 폴딩 아이폰이 출시된다면 기뻐할 것이지만, 이 제품 라인업 안에서의 혼란스러운 위치와 iPad 미니 판매량을 새우는 사실에 대해서도 약간 애원할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이건 정말 난해한 문제라서 Apple에서 접이식 iPhone을 출시할지는 미지수입니다. 아래에서 당신의 생각을 알려주세요!
 
@@ -113,6 +208,17 @@ Apple은 분명히 오랜 시간 동안 폴딩 아이폰을 테스트해 왔지�
 
 제 글을 즐기셨다면, 제가 Medium에서 작성한 다른 내용들도 마찬가지겠지요. 제가 지불 회원 자신이며 가입을 적극 추천합니다. [여기를 클릭하여 가입하세요](이곳에 사이트 주소를 입력하세요) (회원비의 일부가 제게 전달되어 직접적으로 제 작업을 지원하게 됩니다!).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2023년 4월 18일에 https://markellisreviews.com에 게시된 글입니다.

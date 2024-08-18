@@ -3,17 +3,13 @@ title: "예외를 사용하지 마세요 대신 이것을 시도해 보세요 "
 description: ""
 coverImage: "/assets/img/2024-07-24-StopUsingExceptionsTryThisInstead_0.png"
 date: 2024-07-24 11:57
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-24-StopUsingExceptionsTryThisInstead_0.png
 tag: Tech
 originalTitle: "Stop Using Exceptions Try This Instead "
 link: "https://medium.com/@kmorpex/stop-using-exceptions-try-this-instead-a35c0f4d30ad"
 isUpdated: true
 ---
-
-
-
-
 
 ## 개발 팁
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 예외는 일반적으로 앱이 회복할 수 없는 상태에 직면했을 때와 같은 예상치 못한 상황을 처리하기 위한 것입니다. 그러나 개발자가 프로그램 흐름을 제어하기 위해 사용할 때 발생하는 문제는 성능에 심각한 영향을 미칠 수 있습니다. 예외의 잘못된 사용은 코드를 복잡하게 만들고 앱의 실행 속도를 늦출 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예외를 흐름 제어에 사용하는 것이 나쁜 이유에 대해 이야기해봐요:
 
@@ -35,7 +42,18 @@ isUpdated: true
 
 ![SubscriptionService 예시](/assets/img/2024-07-24-StopUsingExceptionsTryThisInstead_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 해결 방법
 
@@ -47,7 +65,18 @@ isUpdated: true
 코드 — 앱에서 에러의 고유한 이름.
 설명 — 개발자 친화적인 에러 정보.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```csharp
 public sealed record Error(string Code, string Name)
@@ -67,19 +96,19 @@ public class Result
 
     private Result(bool isSuccess, Error error)
     {
-        if (isSuccess && error != Error.None) 
+        if (isSuccess && error != Error.None)
             throw new InvalidOperationException();
-        if (!isSuccess && error == Error.None) 
+        if (!isSuccess && error == Error.None)
             throw new InvalidOperationException();
 
         IsSuccess = isSuccess;
         Error = error;
     }
 
-    public static Result Success() 
+    public static Result Success()
         => new Result(true, Error.None);
 
-    public static Result Failure(Error error) 
+    public static Result Failure(Error error)
         => new Result(false, error);
 }
 ```
@@ -88,8 +117,18 @@ Result 인스턴스를 만들려면 정적 메서드를 사용해야 합니다:
 Success - 성공적인 결과 생성
 Failure - 지정된 Error로 실패 결과 생성하기
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 직접 Result 클래스를 만드는 것이 귀찮다면 FluentResults 라이브러리를 확인해보세요.
 
@@ -99,7 +138,18 @@ Failure - 지정된 Error로 실패 결과 생성하기
 
 SubscriptionService의 리팩토링된 버전이 여기 있습니다. 몇 가지 사항을 주목해 보세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 더 이상 예외를 던지지 않습니다
 - 결과 반환 형식이 명시적입니다
@@ -111,7 +161,18 @@ SubscriptionService의 리팩토링된 버전이 여기 있습니다. 몇 가지
 
 ## 앱 오류 문서화
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앱에서 발생 가능한 모든 오류를 문서화하고자 한다면 Error 클래스를 사용할 수 있습니다. 한 가지 방법은 static Errors 클래스를 생성하는 것입니다. 이 클래스에는 특정 오류 유형을 가진 중첩 클래스가 포함될 것입니다.
 
@@ -130,7 +191,18 @@ public static class SubscriptionErrors
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 정적 필드를 사용하는 대신에 오류를 반환하는 정적 메서드를 사용할 수도 있습니다. 이러한 메서드를 사용하려면 오류 인스턴스를 얻기 위해 특정 인수를 전달해야 합니다.
 
@@ -146,7 +218,18 @@ public static class SubscriptionErrors
 
 결과 객체는 최종적으로 ASP.NET Core의 Minimal API(또는 컨트롤러)에 도달할 것입니다. Minimal API는 IResult 응답을 반환하고, 컨트롤러는 IActionResult 응답을 반환합니다. 그러나 어떤 경우에도 결과 객체를 적절한 API 응답으로 변환해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 효율적인 접근법을 취하는 좋은 방법이 있어요. 각 결과 상태에 도달할 때 콜백을 호출하도록 Match 확장 메서드를 사용할 수 있어요. 그러면 Match 메서드가 관련 있는 콜백을 실행하고 결과를 제공할 거예요.
 
@@ -180,7 +263,18 @@ app.MapPost(
     });
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -190,6 +284,17 @@ app.MapPost(
 
 👏 만약 이 콘텐츠가 도움이 되었다면, 클랩(clap) 버튼을 눌러주세요 (버튼을 누른 채로 유지하면 여러 번 클릭할 수 있습니다). 또한, 여러분의 생각과 제안을 댓글에 남겨주시기를 권장합니다. 함께 이 주제를 논의해 나가도록 합시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 읽어주셔서 감사합니다.

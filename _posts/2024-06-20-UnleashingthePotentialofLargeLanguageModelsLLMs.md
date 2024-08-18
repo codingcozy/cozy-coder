@@ -3,17 +3,13 @@ title: "대형 언어 모델 LLM의 잠재력 발휘하기"
 description: ""
 coverImage: "/assets/img/2024-06-20-UnleashingthePotentialofLargeLanguageModelsLLMs_0.png"
 date: 2024-06-20 19:04
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-UnleashingthePotentialofLargeLanguageModelsLLMs_0.png
 tag: Tech
 originalTitle: "Unleashing the Potential of Large Language Models (LLMs)"
 link: "https://medium.com/@salma.elhaimer028/unleashing-the-potential-of-large-language-models-llms-9796053ca8e5"
 isUpdated: true
 ---
-
-
-
-
 
 인공 지능의 지속적인 발전 속에서, 대형 언어 모델 (LLM)은 혁신적인 혁명을 일으키며 기계가 인간 언어를 이해하고 생성하는 방법을 혁신하고 있습니다.
 
@@ -23,7 +19,18 @@ LLM은 인간 언어를 처리하고 이해하기 위해 방대한 매개 변수
 
 ## LLM의 진화
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LLM의 발전은 GPT 모델 시리즈 내에서 특히 중요한 이정표로 기록되어 있습니다:
 
@@ -36,7 +43,18 @@ LLM의 발전은 GPT 모델 시리즈 내에서 특히 중요한 이정표로 �
 
 LLM은 Transformer와 같은 아키텍처를 활용하는 딥러닝 원리에 기반합니다. LLM은 방대한 데이터셋에서 훈련되며, feedforward, embedding 및 attention 레이어와 같은 레이어로 구성됩니다. Self-attention과 같은 attention 메커니즘을 통해 LLM은 시퀀스 내 다른 토큰들의 중요성을 가중치로 삼아 복잡한 종속성과 관계를 포착할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## LLM 아키텍처의 주요 구성 요소
 
@@ -54,7 +72,18 @@ LLM은 Transformer와 같은 아키텍처를 활용하는 딥러닝 원리에 �
 
 LLM은 다양한 도메인에서 폭넓은 응용 분야를 가지고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 자연어 이해 (NLU): 고급 챗봇과 가상 어시스턴트를 구동합니다.
 - 콘텐츠 생성: 인간과 유사한 텍스트 및 코드 단편을 생성합니다.
@@ -71,7 +100,18 @@ LLM은 다양한 도메인에서 폭넓은 응용 분야를 가지고 있습니�
 
 ### LLM 훈련에서의 도전과제
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 높은 계산 비용: 교육에 상당한 자원이 필요합니다.
 - 데이터 요구 사항: 대량의 텍스트 말뭉치를 획득하는 것은 어려울 수 있습니다.

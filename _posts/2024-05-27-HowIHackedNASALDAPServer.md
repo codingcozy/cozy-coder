@@ -3,16 +3,13 @@ title: "NASA LDAP 서버를 해킹한 방법"
 description: ""
 coverImage: "/assets/img/2024-05-27-HowIHackedNASALDAPServer_0.png"
 date: 2024-05-27 15:34
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-HowIHackedNASALDAPServer_0.png
 tag: Tech
 originalTitle: "How I Hacked NASA LDAP Server"
 link: "https://medium.com/@maxcyber882/how-i-hacked-nasa-ldap-server-b7cbb8cd0eee"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-05-27-HowIHackedNASALDAPServer_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 LDAP에 대해 잘 모르는 사람들을 위해 간단히 설명하겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LDAP은 (Lightweight Directory Access Protocol)의 약자입니다. 이는 열린, 공급업체 중립적인, 분산 디렉터리 정보 서비스에 접근하고 유지하는 업계 표준 응용 프로그램 프로토콜으로서 인터넷 프로토콜(IP) 네트워크 상에서 사용됩니다. LDAP은 사용자 이름과 암호를 저장할 중앙 위치를 제공하고, 응용 프로그램이 이 디렉터리에 연결하여 사용자를 확인할 수 있도록 해줍니다.
 
@@ -32,7 +40,18 @@ LDAP은 (Lightweight Directory Access Protocol)의 약자입니다. 이는 열�
 
 ![이미지](/assets/img/2024-05-27-HowIHackedNASALDAPServer_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 내가 이용한 취약점은 LDAP 익명 null 바인드였고, 이 취약점을 이용하기 위해 파이썬 스크립트 코드를 사용했어.
 
@@ -42,8 +61,18 @@ LDAP은 (Lightweight Directory Access Protocol)의 약자입니다. 이는 열�
 
 네이밍 컨텍스트의 결과를 얻은 후에 나는 마지막 코드를 사용하기로 결정했어.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![NASALDAPServer](/assets/img/2024-05-27-HowIHackedNASALDAPServer_3.png)
 
@@ -53,8 +82,18 @@ LDAP은 (Lightweight Directory Access Protocol)의 약자입니다. 이는 열�
 
 이제 여기서 멈추기로 결정했고 개인 정보 침해 및 정책 위반으로 더 이상 악용하지 않기로 하고 NASA에 보고했으며 3일 이내에 보안팀으로부터 응답을 받았어요.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 마침내 감사 편지를 받았어요
 

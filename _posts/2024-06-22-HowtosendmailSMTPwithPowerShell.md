@@ -3,7 +3,7 @@ title: "PowerShell을 사용해 SMTP로 메일 보내는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-22-HowtosendmailSMTPwithPowerShell_0.png"
 date: 2024-06-22 16:32
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-HowtosendmailSMTPwithPowerShell_0.png
 tag: Tech
 originalTitle: "How to send mail SMTP with PowerShell"
@@ -11,21 +11,26 @@ link: "https://medium.com/@devopslite/how-to-send-mail-smtp-with-powershell-b0eb
 isUpdated: true
 ---
 
-
-
-
-
 파워셸로 이메일을 SMTP로 보내는 방법은 어떻게 해야 하나요? 오랜 시간 리눅스 사용자인 저에게 윈도우로 돌아오는 것은 새로운 경험이죠.
 
 작업 중에 애플리케이션이 이메일을 보내지 못하는 이유를 알 수 없어 곤란할 때가 종종 있죠. 컴퓨터에서 메일 연결을 테스트하여 제대로 작동하는지 확인하고 싶을 것입니다.
 
 자, 이제 PowerShell을 사용하여 인증된 SMTP로 메일을 보내는 테스트를 해볼 거에요.
 
-
 # 먼저 SMTP 정보를 가져오세요
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우선, 이메일 SMTP를 테스트하여 메일 서버를 인증하는 계정으로 전송할 것입니다. 따라서 아래와 같은 정보를 얻어야 합니다:
 
@@ -41,7 +46,18 @@ isUpdated: true
 - SMTP 서버: retail.smtp.com (smtp.com을 사용)
 - SMTP 포트: 25
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # PowerShell을 사용하여 이메일 SMTP 전송하기
 
@@ -57,7 +73,18 @@ $mycreds = New-Object System.Management.Automation.PSCredential ($username, $sec
 Send-MailMessage -Credential $mycreds -SmtpServer retail.smtp.com -Port 25 -From usertest@devopslite.com -To ghost@gmail.com -Subject test -Body test
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - $username: 이 줄은 사용자 이름을 정의합니다.
 - $password: 이 줄은 암호를 정의합니다.
@@ -77,7 +104,18 @@ Send-MailMessage -Credential $mycreds -SmtpServer retail.smtp.com -Port 587 -Use
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단한 명령어 몇 개만 사용하면 Windows에서 PowerShell을 사용하여 SMTP로 이메일을 보낼 수 있어요. 제 데모에서는 Windows 11 OS를 사용하고 있어서 다른 OS에서도 잘 동작할 거예요.
 

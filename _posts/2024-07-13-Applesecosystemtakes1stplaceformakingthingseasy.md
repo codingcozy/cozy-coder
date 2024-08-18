@@ -3,17 +3,13 @@ title: "애플 생태계, 쉽게 사용할 수 있는 1위 비결"
 description: ""
 coverImage: "/assets/img/2024-07-13-Applesecosystemtakes1stplaceformakingthingseasy_0.png"
 date: 2024-07-13 01:00
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-Applesecosystemtakes1stplaceformakingthingseasy_0.png
 tag: Tech
 originalTitle: "Apple’s ecosystem takes 1st place for making things easy"
 link: "https://medium.com/macoclock/apples-ecosystem-takes-1st-place-for-making-things-easy-eb329ed3050a"
 isUpdated: true
 ---
-
-
-
-
 
 ![Apple’s ecosystem](/assets/img/2024-07-13-Applesecosystemtakes1stplaceformakingthingseasy_0.png)
 
@@ -23,7 +19,18 @@ As you probably already know a month ago I added to my hoard of Apple gear when 
 
 And it was when I was working on it one night this week that I realized a couple of things. First, just how much I love working on iMacs, and second, how seamless it is to work on any of the Macs and not miss a beat.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Apple 생태계 구축
 
@@ -33,7 +40,18 @@ And it was when I was working on it one night this week that I realized a couple
 
 사진은 우리 모두에게 큰 의미를 지니죠. 그것은 우리의 기억, 감정, 삶의 소중한 순간들이자 제격의 일격이었어요. 그것이 바로 저를 놀라게 한 것이었고, 아마 여러분들도 그럴 겁니다. 물론, iPhone에 사진을 여러 장 저장하기 시작하면, 그 사진들은 iCloud 라이브러리에 저장되고, 이것은 어디서든 접근할 수 있게 해주지만, 무엇보다도 모든 애플 기기들에서 그 사진들을 얻을 수 있다는 것이 매우 중요하게 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Apple ecosystem](/assets/img/2024-07-13-Applesecosystemtakes1stplaceformakingthingseasy_1.png)
 
@@ -43,7 +61,18 @@ And it was when I was working on it one night this week that I realized a couple
 
 핸드폰으로 사진을 찍고 오피스에 도착할 때 이미 기다리고 있을 수 있는 사실은 더 이상 iOS 사용자에게만 유일한 것이 아니지만, 중요한 점은 Apple이 최초였다는 것입니다. 2000년대 초에는 악마의 일로 보였고, 나를 매료시켰습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 사진은 단지 첫 번째 훅일 뿐이었어요. 음악이 뒤를 이었습니다.
 
@@ -53,7 +82,18 @@ And it was when I was working on it one night this week that I realized a couple
 
 ![img](/assets/img/2024-07-13-Applesecosystemtakes1stplaceformakingthingseasy_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 애플 및 iOS 사용자의 가장 큰 장점은 원활한 통합입니다. 소중한 순간과 추억은 어디서나 슈퍼 쉬운 액세스로 항상 최신 상태 및 완벽하게 동기화되어 있습니다. 플랫폼과 장치를 초월하며 시간이 지나도 변함없이 함께합니다.
 
@@ -63,7 +103,18 @@ And it was when I was working on it one night this week that I realized a couple
 
 첫 번째 HomePod는 집 안에서 쉽게 음악을 들을 수 있게 했고, 점차 HomePod 미니가 더 저렴한 가격에 추가되었습니다. 그리고 애플은 단지 이에 카플레이를 추가했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Apple ecosystem](/assets/img/2024-07-13-Applesecosystemtakes1stplaceformakingthingseasy_3.png)
 
@@ -73,17 +124,39 @@ Playlists, streaming, podcasts, and albums from your collection are always avail
 
 The other day, I pondered about the numerous ways Apple enriches and influences my daily life.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 잠 잘 못 자는 편이라서 iPhone은 팟캐스트 듣는 데에 사용돼요. 산책하거나 뛰는 중에도 iPhone이나 Apple Watch를 챙기고, 물론 AirPods도 필수 아이템이죠.
 
-주방에서는 HomePod 미니를 사용하고, 거실에선 Apple TV 4K와 HomePod를 두고 있고, 차 안에서는 CarPlay와 Apple Maps를 사용합니다. 
+주방에서는 HomePod 미니를 사용하고, 거실에선 Apple TV 4K와 HomePod를 두고 있고, 차 안에서는 CarPlay와 Apple Maps를 사용합니다.
 
-그래서 생태계가 실제로 중요하다는 말이 무슨 뜻인지 알겠죠… 
+그래서 생태계가 실제로 중요하다는 말이 무슨 뜻인지 알겠죠…
 
 ![image](/assets/img/2024-07-13-Applesecosystemtakes1stplaceformakingthingseasy_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 숨겨진 보석들
 
@@ -93,7 +166,18 @@ The other day, I pondered about the numerous ways Apple enriches and influences 
 
 Handoff는 macOS/iOS의 숨겨진 보석 중 하나인데요. 많은 주목을 받지는 않지만 매일 사용합니다. 폰에서 맥으로만이 아니라, 폰에서 HomePod로 전송하는 경우도 있는데, 다시 한번 Apple의 간편함이 돋보이네요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나는 '고장이 나지 않았다면 고치지 마라' 규칙으로 삶을 이끌어가. 잘 돌아간다면 대안을 찾는 이유가 뭐가 있을까? 나는 애플만을 믿어 - 노트, 리마인더, 캘린더, 페이지 및 넘버스. 엑셀을 자주 사용하는 분들에게는 고유의 장점이 있을텐데, 나에게는 커다란 요구가 없는 한 넘버스만으로 충분하다는 걸 알았어.
 
@@ -103,17 +187,39 @@ Handoff는 macOS/iOS의 숨겨진 보석 중 하나인데요. 많은 주목을 �
 
 한 번에 여러 대의 맥을 작업하는 경우가 종종 있는데 - 실제로 지금도 그렇게 하고 있어 - 유니버설 컨트롤은 내게 큰 장점이야. 모든 맥에 마우스 하나만으로 조작할 수 있고 파일을 드래그앤드롭할 수도 있어 - 그럼 나는 이걸로 할게...
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 아마도 가장 중요한 기능인...AirDrop입니다. 하루에 사용할 때마다 1파운드씩 받았다면 지금쯤 팀 쿡만큼 부유할지도 모르겠어요!
 
 # 큰 화면에서
 
-FaceTime은 이제 tvOS에 번들로 포함되어 있어서 TV 앞의 소파에서 LCD/OLED 대화면 즐거움을 느끼면서 통화를 할 수 있어요. 
+FaceTime은 이제 tvOS에 번들로 포함되어 있어서 TV 앞의 소파에서 LCD/OLED 대화면 즐거움을 느끼면서 통화를 할 수 있어요.
 
 ![이미지](/assets/img/2024-07-13-Applesecosystemtakes1stplaceformakingthingseasy_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 애플의 OS가 출시될 때마다, 삶을 더 편리하고 나은 형태로 만들어주는 작은 기능이나 특징이 늘 있습니다. 연속 촬영 기능은 TV에서 FaceTime 통화를 할 수 있게 해주는 기능입니다. 하지만 이 기능은 동시에 iPhone을 훌륭한 웹캠으로 변신시키기도 합니다. 왜냐하면 iPhone의 카메라가 아마 당신이 소유한 최고의 카메라일 것이기 때문에, Mac 위에 놓아 사용할 수 있다는 사실은 매우 합리적입니다. 그리고 다음으로 넘어가기 전에, 당신이 이제 무엇을 말하려는지 알 것 같죠? 물론, 이것도 쉽습니다.
 
@@ -123,7 +229,18 @@ FaceTime은 이제 tvOS에 번들로 포함되어 있어서 TV 앞의 소파에�
 
 안드로이드 사용자들 중 일부는 애플의 생태계에 종속된 무모한 양형이라고 우리를 비난하기도 합니다 - 하지만 알아요, 나는 그게 얼마나 내게 잘 작동하는지 잘 알고 있기 때문에 그런 말은 씁쓸하게 받아들이겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Apple Ecosystem](/assets/img/2024-07-13-Applesecosystemtakes1stplaceformakingthingseasy_7.png)
 
@@ -133,7 +250,18 @@ FaceTime은 이제 tvOS에 번들로 포함되어 있어서 TV 앞의 소파에�
 
 ![Apple Ecosystem](/assets/img/2024-07-13-Applesecosystemtakes1stplaceformakingthingseasy_8.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자동 전환을 처리하는 것만큼 아이폰맥 사용자가 가장 원하는 기능이지만, 심지어 애플조차 이루기 어려운 것 같아요!
 

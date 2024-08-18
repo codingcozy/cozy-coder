@@ -3,17 +3,13 @@ title: "프라이버시를 더 강화해야 할까요, 아니면 더 나은 법�
 description: ""
 coverImage: "/assets/img/2024-06-19-DoWeNeedMorePrivacyorBetterLaws_0.png"
 date: 2024-06-19 04:29
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-DoWeNeedMorePrivacyorBetterLaws_0.png
 tag: Tech
 originalTitle: "Do We Need More Privacy or Better Laws?"
 link: "https://medium.com/tech-and-me/do-we-need-more-privacy-or-better-laws-bc502f1ea2fb"
 isUpdated: true
 ---
-
-
-
-
 
 ## 비밀 공간
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## 우리의 개인정보 지금
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Google과 대부분의 회사들이 지금은 개인 정보 보호 정책을 업데이트합니다. 대부분의 사람들은 그 중 어떤 것도 읽지 않는데, 왜냐면 우리가 사용당하고 학대당한 느낌을 받게 된다면 어찌할 바를 모르기 때문이죠. 우리는 회사들을 더 필요로 하지만, 그들이 우리보다 더 필요한 상황에서 그 모든 법적인 용어를 읽기는 그저 또 다른 형태의 운명스크롤링일 뿐입니다.
 
@@ -33,7 +40,18 @@ Google과 대부분의 회사들이 지금은 개인 정보 보호 정책을 업
 
 ## 무해할까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일부는 정말 무해할 수도 있어요. 그렇다고 말하더라구요. 집계된, 익명화된, 왜곡된, 분리된, 균질화된, 혼합된 정보들이에요. 아들아, 거기서 뭐 봐야 할 것도 없어. 다 괜찮아요.
 
@@ -43,7 +61,18 @@ Google과 대부분의 회사들이 지금은 개인 정보 보호 정책을 업
 
 ## 덜 개인 정보 보호가 더 좋을까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 데이터가 공개되었다면 어떨까요?
 
@@ -53,7 +82,18 @@ Google과 대부분의 회사들이 지금은 개인 정보 보호 정책을 업
 
 내가 반 얼구증 때문에 제안하는 것은, 누구나 어디서든 우리를 관찰할 수 있지만 누가 우리를 관찰했는지 모두가 알 수 있다는 것입니다. 누가 언제 어디서 우리를 보았는지, 그리고 그들이 얼마나 오래 우리를 관찰했는지에 대한 통지를 받을 거예요. 우리는 그들의 동기에 대해 더 알아보기 위해 보고자 할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그런 세계에서는 많은 것을 잃을 것이고, 대부분의 사람들이 오웰식 존재에 자발적으로 가기를 상상할 수 없습니다.
 
@@ -63,7 +103,18 @@ Google과 대부분의 회사들이 지금은 개인 정보 보호 정책을 업
 
 그리고 감시가 당신에게 보고되어야 한다는 법을 만드는 것이 사생활 침해를 줄일 수도 있을까요? 물론 그런 법은 잘 작동하려면 강력한 법정 규정이 필요하지만, 그 일부는 기록 기술 자체에서 이루어지고 일부는 인터넷 수준에서 이루어질 수 있습니다. 누군가는 속임수를 찾을 것입니다. 그들은 항상 그렇게 하니까요. 그렇지만 그것을 발각당하게 만들어 놓는다면 약간은 방해가 될 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 정부와 기업들이 당신을 감시하려고 합니다
 
@@ -73,7 +124,18 @@ Google과 대부분의 회사들이 지금은 개인 정보 보호 정책을 업
 
 극도로 걱정하는 사람들은 그 날이 왔다고 말할지도 모르지만, 실제로 아무것도 바뀐 것이 없다고 생각합니다. 사생활은 결코 존재하지 않았습니다. 집 밖으로 나가면 사람들이 나를 볼 수 있습니다. 말을 하려고 입을 열면 사람들이 듣습니다. 때로는 사람들이 내 모습이나 말하는 것을 마음에 들어하지 않을 수도 있습니다. 언젠가, 어떤 디스토피안 세계에서 내 과거와 현재의 말이나 행동이 불법일 수도 있습니다. 사실, 오늘날 우리 모두가 어떤 수준에서 우연히 위반자일 수도 있는 매우 난해한 법들이 많다는 것을 지적한 바 있습니다. 그리고 그 중 일부 위반 행위는 상당히 심각할 수도 있습니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 해결책은 개인정보 보호법이 아닙니다
 
@@ -83,7 +145,18 @@ Google과 대부분의 회사들이 지금은 개인 정보 보호 정책을 업
 
 우리가 정말 원하는 게 아닌가요? 물론 이건 추상적으로는 쉽지만, 실천에서는 지옥과도 같이 어려운 일이지만, 우리의 목표는 바로 이겁니다: 우리의 삶에 무단으로 개입당하지 않고 자유롭게 살 수 있는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 나의 비즈니스는 내 비즈니스
 
@@ -93,7 +166,18 @@ Google과 대부분의 회사들이 지금은 개인 정보 보호 정책을 업
 
 그렇다면 해답은 있을까요? 언제나 그렇듯이, 나는 상식이 없습니다. 귀하의 정부가 당신을 감시하고 있는 것은 누군가가 분노하거나, 호기심이 생겼거나, 욕심부리거나, 혹은 두려움을 느낀 것 때문입니다. 그들은 권력을 얻고, 처벌하고, 보호하고 싶어합니다. 그들의 동기는 이기적일 수도 있고 이타적일 수도 있으며, 하나의 동기를 다른 것과 구분짓는 것이 매우 어려울 수 있습니다. 그럼에도 불구하고, 그것은 일어날 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 공개 시즌을 더 나아지게 할 수 있을 것 같아요
 
@@ -103,7 +187,18 @@ Google과 대부분의 회사들이 지금은 개인 정보 보호 정책을 업
 
 ## 우리는 이를 막지 못할 수도 있어요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또는 아니요. 깨지지 않는 암호화를 추구하는 과정에서 컴퓨터 프라이버시가 곧 불가능해질 수도 있다는 경고가 있습니다. 무서워요? 그건 그 이상입니다! 이에 대한 영향은 개인 프라이버시를 넘어서며 매우 깊숙한 결과를 낳을 수 있습니다. 인터넷의 많은 부분을 효과적으로 중단시키고, 전자 상거래(은행 업무 포함)를 불가능하게 만들 것입니다 — 우리가 알고 있는 삶을 파괴하고 상업을 수백 년 전으로 돌릴 수도 있습니다. 이는 심각한 문제입니다: 만약 여러분이 패러노이아 죽음의 날 종류라면, 현재 숨어두었던 통조림이 이를 추구하는 원동력만큼 미친 것으로 여기지 않을 수도 있습니다.
 
@@ -113,7 +208,18 @@ Google과 대부분의 회사들이 지금은 개인 정보 보호 정책을 업
 
 "그런 일이 일어나지 않기를 바라겠다"라고 말할 수도 있겠지만, MIT의 전문가들이 틀렸다 해도 시간의 평가에서만 틀린 것입니다. 그 선구자적인 암호화 기술이 뚫릴 것이고 양자 암호화에 대한 이야기는 지나치게 멀리 있을 뿐만 아니라 일반 사용에는 비현실적일 수도 있습니다. 어떤 정부 기관에 의해 스파이당하는 것이 여러분을 염려스럽게 만들 수 있지만, 범죄자에 의해 감시를 당하는 것은 대부분의 사람들에게 더 위험한 문제가 될 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인터넷 초기 이탈자들이 옳은 것일지도 모르겠다고 생각해봤어요. 그들이 말한 이유는 아니지만 뭔가 옳을 수도 있겠죠. 웹이 없던 시대를 기억하고 있어요.. 아마 우리 모두가 인터넷을 이탈하는 게 좋을지도 모르겠어요?
 

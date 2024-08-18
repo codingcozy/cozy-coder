@@ -3,17 +3,13 @@ title: "리눅스에서 Windows 가상 머신Docker을 실행하는 대안적인
 description: ""
 coverImage: "/assets/img/2024-05-27-AlternativewaytorunWindowsVMonLinuxDocker_0.png"
 date: 2024-05-27 12:15
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-AlternativewaytorunWindowsVMonLinuxDocker_0.png
 tag: Tech
 originalTitle: "Alternative way to run Windows VM on Linux (Docker)"
 link: "https://medium.com/@elnurbda/alternative-way-to-run-windows-vm-on-linux-docker-6d9828b3586c"
 isUpdated: true
 ---
-
-
-
-
 
 리눅스 사용자로서 주로 윈도우용 소프트웨어를 실행하거나 다양한 윈도우 전용 애플리케이션을 테스트해야 하는 경우가 많이 있어요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 그래서 발견한 해결책을 소개하려고 해요: 도커(Docker)에서 윈도우를 실행하는 방법이 바로 그것이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 도커
 
@@ -40,7 +47,18 @@ yay -S docker
 
 그리고 다음 이미지를 사용할 것입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - https://hub.docker.com/r/dockurr/windows
 
@@ -50,7 +68,18 @@ yay -S docker
 
 docker-compose.yml이라는 파일을 만든 다음 (선택 사항으로) Windows 이미지 파일을 저장할 storage 폴더를 만들고 호스트 및 가상 머신간에 공유되는 폴더를 위한 shared 폴더를 만듭니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로, docker-compose.yml을 수정해야 합니다. 제 구성은 아래와 같습니다:
 
@@ -84,13 +113,35 @@ services:
 docker compose up -d
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ( 이 테이블 태그를 Markdown 형식으로 변경하세요. )
 
 개발자가 되신 것을 축하드립니다! 여기서는 한국어 번역을 지원해 드립니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹에서 머신을 사용하거나 더 선호되는 RDP로 연결할 수 있습니다. 도커로 머신의 IP를 가져오려면 도커 inspect 47bb78f908a0 | grep IPAddress를 사용하시면 됩니다.
 
@@ -102,7 +153,18 @@ docker compose up -d
 xfreerdp /u:docker /v:172.18.0.2 /dynamic-resolution
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기, 도커 컨테이너에서 Windows를 실행하는 법입니다:
 
@@ -112,7 +174,18 @@ xfreerdp /u:docker /v:172.18.0.2 /dynamic-resolution
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로, 다른 구성을 위한 도커 이미지의 설명서를 확인하는 것을 제안합니다. 또한, Windows를 시작 및 중지하는 두 개의 스크립트를 포함하는 https://github.com/ElnurBDa/win10dockerconfig 레포지토리를 확인해보세요. 이를 키보드 단축키에 바인딩할 수 있습니다.
 

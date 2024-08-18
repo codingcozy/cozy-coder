@@ -3,17 +3,13 @@ title: "절대 초보자를 위한 신경망 직접 코딩 기초부터 구현�
 description: ""
 coverImage: "/assets/img/2024-06-30-CodingaNeuralNetworkfromScratchforAbsoluteBeginners_0.png"
 date: 2024-06-30 19:11
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-30-CodingaNeuralNetworkfromScratchforAbsoluteBeginners_0.png
 tag: Tech
 originalTitle: "Coding a Neural Network from Scratch for Absolute Beginners"
 link: "https://medium.com/@minhaskamal/coding-a-neural-network-from-scratch-for-absolute-beginners-1e68bb0461db"
 isUpdated: true
 ---
-
-
-
-
 
 쌀선별기에 대해 알고 계신가요? 여기에 그 이미지가 있어요-
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 멋져요! 이제 쌀선별기로 돌아가보죠. 이 기계는 벼를 받아들이고 그 후에 어떤 처리(탈곡)를 해요. 마지막에 쌀과 견과가 출력으로 나와요-
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Coding a Neural Network from Scratch for Absolute Beginners](/assets/img/2024-06-30-CodingaNeuralNetworkfromScratchforAbsoluteBeginners_1.png)
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ![Coding a Neural Network from Scratch for Absolute Beginners](/assets/img/2024-06-30-CodingaNeuralNetworkfromScratchforAbsoluteBeginners_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실생활에서는 날씨 예측이 복잡한 과정입니다. 여기서는 어두운 구름과 온도 감소가 모두 있는 경우에만 폭풍이 발생한다고 예측할 것입니다. 이 문제를 간단한 'if/else' 문으로 해결할 수 있습니다. 아래는 파이썬 코드입니다-
 
@@ -54,7 +72,18 @@ print(predict(0, 0))
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*itmi_oBBInInevageKOOxw.gif)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실전에서는 무작위 예측으로 시작하여 그것을 점진적으로 개선해나갑니다. 모든 것이 괜찮은데, 그럼 뉴런이 무엇인가요?! 뉴런은 여러 입력을 받아들이고, 일종의 마법을 부리며 결과물을 출력하는 함수와 같습니다.
 
@@ -68,7 +97,18 @@ def predict(dark_clouds, temperature_drop):
 
 ![이미지](/assets/img/2024-06-30-CodingaNeuralNetworkfromScratchforAbsoluteBeginners_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 두 개의 입력이 있기 때문에 각각에 대한 두 개의 가중치를 유지해야 합니다. 따라서, 필요한 가중치와 predict() 함수를 가진 neuron 클래스를 생성할 수 있습니다.
 
@@ -95,42 +135,75 @@ print(neuron.predict(0, 0))
 
 제발, 그냥 글을 읽지 말아주세요. 읽기만으로는 깊은 직관력을 갖출 수 없습니다; 연습이 필요합니다. 아직 하지 않으셨다면, Python 편집기나 GoogleColab을 열고 코드를 직접 실행해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금은 w1을 2로 설정하고 w2를 0.5로 설정해 봅시다. 코드를 실행하면 다음 결과가 나올 것입니다-
 
 ```js
-1
-1
-0
-0
+1;
+1;
+0;
+0;
 ```
 
 여기서 오직 한 가지 실수가 있는 것을 알 수 있습니다- 2번째 예측값은 0이어야 합니다. 이제 두 가중치를 모두 3으로 설정해 봅시다. 그러면, w1=3이고 w2=3이 됩니다. 이제 우리는 다음 결과를 얻습니다-
 
 ```js
-1
-1
-1
-0
+1;
+1;
+1;
+0;
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Ups! 지금 두 가지 오류가 있어요 - 2번째와 3번째 예측이 틀렸어요. w1=0.6, w2=0.8로 설정해보겠습니다 -
 
 ```js
-1
-0
-0
-0
+1;
+0;
+0;
+0;
 ```
 
 와우! 이제 모든 정답을 맞췄어요. 다른 가중치 값을 사용해서 정확한 결과를 얻을 수 있는지 확인해보세요.
 
 지금까지 알게 된 것은 - 가중치를 변경함으로써 입력-출력 패턴에 맞게 예측 함수를 조정할 수 있습니다. 따라서, 두 입력과 출력값을 받아 가중치를 조정하기 위해 어떤 매직(다시 한번)을 하는 학습 함수가 필요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 일부 무작위 값으로 가중치를 초기화하겠습니다 (여기서 예측 함수는 다음과 같이 최소화됩니다 [...])-
 
@@ -165,7 +238,18 @@ class Neuron:
         self.w2 -= 오차 * temperature_drop / 100
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 너무 많은 변화를 원하지 않아요. 솔루션으로 나아가기 위해 작은 단계를 나아갈 거예요 (큰 단계는 종종 발산을 일으킵니다). 그래서 가중치를 업데이트할 때 에러를 100으로 나눠줘요.
 
@@ -201,7 +285,18 @@ print(neuron.predict(0, 0))
 
 알 수 있듯이, 모든 올바른 출력을 얻을 때까지 훈련을 실행하고 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-30-CodingaNeuralNetworkfromScratchforAbsoluteBeginners_4.png" />
 
@@ -237,43 +332,82 @@ while True:
     runTraining(neuron)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드를 여러 번 실행하면 매번 해결책에 도달하기 위해 필요한 단계가 다를 수 있어요. 이는 가중치를 초기화하는 데 사용되는 랜덤 값 때문입니다. 때로는 한 단계만으로도 해결에 도달할 수 있을 수도 있어요.
 
 자, 이제 다른 출력값들과 놀아볼까요? 두 번째 출력값을 1로 변경하고 코드를 여러 번 실행해보세요 -
 
 ```js
-data = [[1, 1, 1],
-        [1, 0, 1],
-        [0, 1, 0],
-        [0, 0, 0]]
+data = [
+  [1, 1, 1],
+  [1, 0, 1],
+  [0, 1, 0],
+  [0, 0, 0],
+];
 ```
 
 이번에는 해결책에 도달하기 위해 더 많은 단계가 소요되나요? 그런 이유가 무엇일까요? 시간을 내서 곰곰히 생각해보세요. 각 훈련 단계 이후에 가중치를 출력하여 변화를 분석해볼 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제, 첫 번째 출력을 0으로 설정하고 다시 실행해보겠습니다.
 
 ```js
-data = [[1, 1, 0],
-        [1, 0, 1],
-        [0, 1, 0],
-        [0, 0, 0]]
+data = [
+  [1, 1, 0],
+  [1, 0, 1],
+  [0, 1, 0],
+  [0, 0, 0],
+];
 ```
 
 해결책에 도달하는 데 더 적은 단계가 필요한가요? 아니면 더 많은 단계가 필요한가요? 이해하는 것은 인공 뉴런의 기본 메커니즘을 이해하는 데 매우 유용합니다.
 
 이제, 모든 출력을 1로 설정해보겠습니다 -
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-데이터 = [[1, 1, 1],
-        [1, 0, 1],
-        [0, 1, 1],
-        [0, 0, 1]]
+데이터 = [
+  [1, 1, 1],
+  [1, 0, 1],
+  [0, 1, 1],
+  [0, 0, 1],
+];
 ```
 
 무슨 일이 일어나고 있나요? 컴퓨터가 다운되었나요? 아니면 응답하지 않는 건가요? 사실, while 루프에 갇혔습니다. 모든 올바른 출력을 얻지 못하기 때문입니다. 문제는 4번째 행인 [0, 0, 1]에 발생합니다. 그리고 그 이유를 이해하는 것은 쉽습니다 - 입력 값이 둘 다 0(영)이기 때문입니다. 그렇기 때문에 어떤 가중치를 곱해도 0이 됩니다. 따라서, predict() 함수의 조건인 `(dark_clouds*self.w1 + temperature_drop*self.w2) ` 1`은 절대 충족되지 않을 것입니다.
@@ -282,13 +416,26 @@ data = [[1, 1, 0],
 
 여기서 문제가 되는 것은 조건에서의 임계점인 1(하나)입니다. 1 대신 -1(음수 1)을 임계점으로 사용할 수 있습니다- `(dark_clouds*self.w1 + temperature_drop*self.w2) ` -1` . 이렇게 하면 문제가 해결됩니다. 그러나 그렇게 되면 모든 0(영) 출력에 대한 문제가 발생할 것입니다-
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-데이터 = [[1, 1, 0],
-        [1, 0, 0],
-        [0, 1, 0],
-        [0, 0, 0]]
+데이터 = [
+  [1, 1, 0],
+  [1, 0, 0],
+  [0, 1, 0],
+  [0, 0, 0],
+];
 ```
 
 따라서 해당 임계값을 조정해야 합니다. 임계값에 랜덤 값을 설정하고 가중치를 학습한 방식과 동일한 방법으로 학습할 수 있습니다. 여기에 코드 전체가 있습니다-
@@ -338,7 +485,18 @@ while True:
 
 와우! 놀랄만한 여정이었어요! 기계 학습(ML)의 세계에 오신 것을 환영합니다. 이제 어떤 어려운 ML 용어를 알아보도록 하죠-
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 편향: 머신 러닝에서 임계값 t를 단순히 편향이라고 부릅니다.
 
@@ -348,7 +506,18 @@ while True:
 
 학습률: 함수 learn()에서 매개변수를 조정하는 동안 값들을 100으로 나눕니다. 이를 0.01로 곱하는 것으로 생각할 수 있습니다. 이 0.01을 학습률이라고 부르며, 종종 알파(α)로 표시됩니다. 학습률은 매우 중요한 하이퍼파라미터입니다(사람이 설정하는 값으로, 학습을 통해 학습되지 않는 값).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그레디언트 디센트: 우리가 learn() 함수에서 실행한 알고리즘은 매개변수(가중치와 편향)를 조정하기 위한 그레디언트 디센트라고 합니다. 더 구체적으로는 확률적 경사 하강법(SGD)입니다.
 
@@ -358,15 +527,28 @@ while True:
 
 위 코드는 두 가지 입력만을 고려했습니다. 그러나 배열을 사용하여 어떤 수의 입력이라도 쉽게 업그레이드할 수 있습니다. 전체 코드는 여기에서 찾을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리에게는 마지막 테스트가 하나 더 있어요 :D
 
 ```js
-data = [[1, 1, 0],
-        [1, 0, 1],
-        [0, 1, 1],
-        [0, 0, 0]]
+data = [
+  [1, 1, 0],
+  [1, 0, 1],
+  [0, 1, 1],
+  [0, 0, 0],
+];
 ```
 
 이곳에는 하나의 뉴런만 있어요. 그리고 이 문제를 해결할 수 있는 뉴런이 한 개만 있다는 것이 증명되었어요. 이 문제를 해결하기 위해 여러 개의 뉴런(또는 신경망)이 필요할 거예요. [곧 연속되는 파트가 나올 거에요...]

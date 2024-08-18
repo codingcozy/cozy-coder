@@ -3,17 +3,13 @@ title: "필라멘트 압출기 제작 파트 2 단계별 가이드"
 description: ""
 coverImage: "/assets/img/2024-06-23-Part2BuildingFilamentExtruder_0.png"
 date: 2024-06-23 17:30
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-Part2BuildingFilamentExtruder_0.png
 tag: Tech
 originalTitle: "Part 2: Building Filament Extruder"
 link: "https://medium.com/endless-filament/building-filament-extruder-9cad8df7d357"
 isUpdated: true
 ---
-
-
-
-
 
 첫 번째 게시물에서는 집에서 필라멘트를 만드는 것의 타당성에 대해 논의했어요. 필라멘트를 만들어 돈을 절약하는 것도 중요하지만, 지역 플라스틱 재활용 업체들이 플라스틱 잔재를 분쇄, 세척하여 펠릿으로 변환하는 데 도움을 줄 수 있으면 좋겠죠. 주로 기능적인 부품과 신속한 프로토타입을 출력하는데, 우리가 출력하는 물건 중 80%는 쓰레기통으로 이어지죠. 이를 지역적으로 다시 필라멘트로 재활용하여 30-40%의 순수 펠릿과 혼합한다면 환경에 도움이 될 수 있을 거에요.
 
@@ -26,7 +22,18 @@ isUpdated: true
 
 그래서, 앞으로의 게시물에서 한 번에 하나씩 만들어 보겠습니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 외출더
 
@@ -38,7 +45,18 @@ isUpdated: true
 
 # 스크류, 배럴, 그리고 노즐
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-23-Part2BuildingFilamentExtruder_0.png" />
 
@@ -48,7 +66,18 @@ isUpdated: true
 
 이 웹사이트에서 구매할 수 있어요. 저는 여기서 좋은 품질의 스크류/배럴을 구입했어요. 노즐도 같은 웹사이트에서 샀어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 배럴에 홀이 있는 것에 유의해주세요. 거기에 PETG로 만든 3D 프린팅 허퍼를 설치할 예정입니다.
 
@@ -58,7 +87,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-23-Part2BuildingFilamentExtruder_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ABS 5kg 당 1HP 모터입니다. 5kg/시간의 라인부터 시작하는 것을 제안합니다.
 
@@ -68,7 +108,18 @@ ABS 5kg 당 1HP 모터입니다. 5kg/시간의 라인부터 시작하는 것을 
 
 가격: 100달러 (새 제품)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 기어박스
 
@@ -78,7 +129,18 @@ ABS 5kg 당 1HP 모터입니다. 5kg/시간의 라인부터 시작하는 것을 
 
 가격: $125 (새 제품)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # AC 드라이브
 
@@ -88,7 +150,18 @@ ABS 5kg 당 1HP 모터입니다. 5kg/시간의 라인부터 시작하는 것을 
 
 가격: $150 (새 제품)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 밴드 히터, 열전 대, 온도 조절기
 
@@ -98,7 +171,18 @@ ABS 5kg 당 1HP 모터입니다. 5kg/시간의 라인부터 시작하는 것을 
 
 ![Band Heater Image 2](/assets/img/2024-06-23-Part2BuildingFilamentExtruder_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 필요한 열전대는 표준 K 타입 열전대입니다.
 
@@ -108,17 +192,39 @@ ABS 5kg 당 1HP 모터입니다. 5kg/시간의 라인부터 시작하는 것을 
 
 찾은 각 컨트롤러/열전대 세트는 $20에 판매 중입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대부분의 DIY ekstruders는 3개의 히팅 존을 사용하기 때문에 3개의 컨트롤러, 열전대, 히터가 필요합니다.
 
-3개의 컨트롤러/열전대/SSR에 $20 * 3 = $60, 그리고 3개의 히터에 $15를 사용합니다.
+3개의 컨트롤러/열전대/SSR에 $20 \* 3 = $60, 그리고 3개의 히터에 $15를 사용합니다.
 
 비용: $75
 
 # 모두 함께 조립하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 장치는 보통 3개의 가열 존이 있지만, 이 장치는 4개의 가열 존을 가지고 있습니다. 또한, 3개의 디스플레이 유닛이 있습니다. 이 유닛들은 PID 컨트롤러 REX C100입니다. 여기에서 ABS를 녹이기 위한 온도를 설정할 수 있습니다. 이후 게시물에서 온도 설정에 대해 이야기할 예정이에요. 컨트롤러 아래에 있는 조절 다이얼은 온도를 설정하는 데 사용됩니다. 그리고 마지막에 있는 표시가 있는 다이얼은 모터/스크류 속도를 제어하는 데 사용되며, AC 드라이브에 연결되어 있습니다.
 
@@ -128,7 +234,18 @@ ABS 5kg 당 1HP 모터입니다. 5kg/시간의 라인부터 시작하는 것을 
 
 히터가 배럴 벽을 가열하고, 배럴 벽은 나사에 의해 호퍼로부터 운반된 플라스틱에 열을 전달합니다. 단열된 배럴은 열의 빠른 손실로 인한 온도 변동을 줄이고 전력 소비를 줄일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 배럴 주변에 유리섬유 밴드 롤을 사서 몇 번 감아주세요. 긴 알루미늄 호일 조각을 여러 번 접어 다층 밴드를 만들어주세요. 이제 유리섬유 단열 배럴 주변에 감아주세요. 마지막으로 모든 것을 Kapton 테이프 한 층으로 고정시켜주세요.
 
@@ -138,7 +255,18 @@ ABS 5kg 당 1HP 모터입니다. 5kg/시간의 라인부터 시작하는 것을 
 
 기어박스와 모터와 같은 무거운 물품은 현지에서 구매하세요. 중고로 구매하면 20% 더 싸게 구입할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 이 기계의 가장 비싼 부분입니다. 풀러/위더라도 $100 이하로 구입할 수 있어요. 이에 대해 우리는 향후 게시물에서 다룰 거예요.
 

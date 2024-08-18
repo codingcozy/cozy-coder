@@ -3,17 +3,13 @@ title: "React Native 앱 성능은 과장인가"
 description: ""
 coverImage: "/assets/img/2024-07-10-ReactNativeAppperformanceisamyth_0.png"
 date: 2024-07-10 01:34
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-10-ReactNativeAppperformanceisamyth_0.png
 tag: Tech
 originalTitle: "React Native App performance is a myth?"
 link: "https://medium.com/@anil-gudigar/react-native-app-performance-is-a-myth-dfe7b141b812"
 isUpdated: true
 ---
-
-
-
-
 
 `<img src="/assets/img/2024-07-10-ReactNativeAppperformanceisamyth_0.png" />`
 
@@ -23,7 +19,18 @@ JavaScript와 React를 사용하여 크로스 플랫폼 모바일 앱을 구축�
 
 # 구식 아키텍처: 브릿지와 일괄 브릿지
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React Native의 이전 아키텍처는 JavaScript와 네이티브 환경을 연결하는 브릿지 메커니즘을 활용하여 데이터 직렬화, 스레딩 및 동기화를 관리했습니다. 그러나 이 브릿지는 성능과 개발자 경험에 영향을 미치는 단점과 병목 현상을 도입했습니다.
 
@@ -33,7 +40,18 @@ React Native의 이전 아키텍처는 JavaScript와 네이티브 환경을 연�
 
 ● 네이티브 스레드: 네이티브 UI 렌더링 및 사용자 이벤트 처리 (클릭, 스와이프 등)가 네이티브 스레드에서 실행됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **이것이 리액트 네이티브 브릿지입니다.**
 
@@ -43,7 +61,18 @@ React Native의 이전 아키텍처는 JavaScript와 네이티브 환경을 연�
 
 ![React Native Bridge](/assets/img/2024-07-10-ReactNativeAppperformanceisamyth_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React Native 브릿지는 데이터를 JSON 형식으로 변환합니다. 사용자가 모바일 화면에서 작업을 수행하면 UI 스레드가 주 JavaScript 스레드로 보고합니다. 데이터를 JSON 메시지로 묶어서 JS 스레드로 전송합니다.
 
@@ -53,7 +82,18 @@ React Native 브릿지는 데이터를 JSON 형식으로 변환합니다. 사용
 
 JavaScriptCore + ReactJS + 브릿지가 합쳐져 React Native이 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 다이어그램은 JavaScript 모듈이 호출되거나 실행되는 방식을 보여줍니다.
 
@@ -63,27 +103,60 @@ JavaScriptCore + ReactJS + 브릿지가 합쳐져 React Native이 됩니다.
 
 - BridgeNative 코드는 네이티브 모듈을 관리하고 JS 코드가 호출할 수 있는 해당 JS 모듈 정보를 생성합니다. 각각의 기능적 JS 레이어 캡슐화는 주로 ReactJS에 적응되어 네이티브 모듈의 기능이 ReactJS를 사용하여 호출되기 쉽도록 합니다. MessageQueue.js는 JS 레이어에서 Bridge의 프록시이며, 모든 JS2N 및 N2JS 호출은 이를 통해 전달됩니다. JS와 Native 간의 포인터 전달은 없으며, 모든 매개변수는 문자열로 전달됩니다. 모든 인스턴스는 JS와 Native 양쪽에서 번호가 매겨지고, 매핑이 수행된 후 번호/문자열 번호가 교차 개체를 찾는 기준으로 사용되어 경계를 넘나드는 개체를 찾습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 The graph visualizes a snapshot of JavaScript execution mid-process.
 
 ![Graph](/assets/img/2024-07-10-ReactNativeAppperformanceisamyth_5.png)
 
-The sequence usually begins from native code* calling into JS. As it proceeds, methods are called on NativeModules, prompting the queuing of calls for execution on the native side. After JS completes its part, the native side processes the enqueued calls. During this phase, callbacks and bridge calls (utilizing the _bridge instance from a native module to perform enqueueJSCall:args:) are employed to trigger calls back into JS.
+The sequence usually begins from native code\* calling into JS. As it proceeds, methods are called on NativeModules, prompting the queuing of calls for execution on the native side. After JS completes its part, the native side processes the enqueued calls. During this phase, callbacks and bridge calls (utilizing the \_bridge instance from a native module to perform enqueueJSCall:args:) are employed to trigger calls back into JS.
 
 From JavaScript to Java calls
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **MessageQueue.js**  
 여기서 두 곳 사이의 모든 통신이 처리됩니다. 메시지는 JSON-RPC와 비슷한 형식을 가지며, JavaScript에서 네이티브로의 메서드 호출 및 네이티브에서 JavaScript로의 콜백 전달을 처리합니다. 이것이 JavaScript 컨텍스트와 네이티브 컨텍스트 사이의 유일한 연결입니다. 모든 것이 MessageQueue를 통해 전달되며, 모든 네트워크 요청, 네트워크 응답, 레이아웃 측정, 렌더 요청, 사용자 상호작용, 애니메이션 순서 지시, 네이티브 모듈 호출, I/O 작업 등이 해당됩니다. MessageQueue가 혼잡하지 않도록 유지하는 것은 앱이 원활하게 작동하는 것을 보장하는 데 중요합니다.
 
 **이미지 태그 Markdown 형식으로 변환**  
-![이미지](/assets/img/2024-07-10-ReactNativeAppperformanceisamyth_7.png)  
+![이미지](/assets/img/2024-07-10-ReactNativeAppperformanceisamyth_7.png)
 
 사용자가 클릭한 내용이 네이티브에서 어떻게 처리되는지에 대한 전체 시각화입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 성능 문제와 제한 사항은 무엇인가요?
 
@@ -101,7 +174,18 @@ From JavaScript to Java calls
 
 # 새로운 아키텍처: JSI, Fabric 및 Turbo Modules
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 선결 조건
 
@@ -112,7 +196,18 @@ From JavaScript to Java calls
 
 ## JSI (JavaScript Interface)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JSI (JavaScript Interface)는 C++로 작성되었습니다. 이는 구식 아키텍처에서의 브릿지를 대체하고 JavaScript 객체 및 함수에 대한 직접적인 네이티브 인터페이스를 제공했습니다.
 
@@ -122,7 +217,18 @@ JSI (JavaScript Interface)는 C++로 작성되었습니다. 이는 구식 아키
 
 JSI를 통해 네이티브 메서드는 C++ 호스트 객체를 통해 JavaScript에 노출될 것입니다. JavaScript는 이러한 객체에 대한 참조를 유지할 수 있습니다. 그리고 해당 참조를 사용하여 메서드를 직접 호출할 수 있습니다. 이는 JavaScript 코드가 웹에서 DOM 요소에 대한 참조를 보유하고 해당 요소에서 메서드를 호출할 수 있는 것과 비슷합니다. 예를 들어: 다음과 같이 작성하면:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 컨테이너는 JavaScript 변수이지만 아마도 C++에서 초기화된 DOM 요소에 대한 참조를 보유하고 있습니다. "컨테이너" 변수에 대해 어떤 메소드를 호출하면, DOM 요소에서 해당 메소드를 호출하게 될 것입니다. JSI는 비슷한 방식으로 작동합니다.
 
@@ -132,7 +238,18 @@ JSI를 통해 네이티브 메서드는 C++ 호스트 객체를 통해 JavaScrip
 
 # Turbo Modules
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Turbo Modules는 이전 네이티브 모듈 시스템을 대체한 네이티브 모듈 시스템입니다.
 
@@ -142,7 +259,18 @@ Turbo Modules는 이전 네이티브 모듈 시스템을 대체한 네이티브 
 
 구(舊) 아키텍처에서, JavaScript가 사용하는 모든 네이티브 모듈(예: 블루투스, 위치 정보, 파일 저장소, 카메라 등)는 앱이 여는 동안 초기화되어야 합니다. 이 말은 즉, 사용자가 특정 모듈이 필요하지 않더라도 시작할 때 초기화되어야 한다는 것을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 터보 모듈은 예전 네이티브 모듈들을 향상시킨 것입니다. 지난 글에서 보신 것처럼 이제부터 자바스크립트는 이러한 모듈에 대한 참조를 가질 수 있게 되었습니다. 이는 JS 코드가 각 모듈이 필요할 때만 로드할 수 있게 해줍니다. 이는 리액트 네이티브 앱의 시작 시간을 크게 개선할 것입니다.
 
@@ -153,7 +281,18 @@ Turbo Modules는 이전 네이티브 모듈 시스템을 대체한 네이티브 
 
 # 패브릭 (새로운 렌더링 엔진)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Fabric은 디바이스에서 UI를 렌더링하는 데 책임을지는 UIManager입니다. 지금의 차이는 Fabric이 브릿지를 통해 JavaScript와 통신하는 대신, Fabric이 JavaScript를 통해 자체 기능을 노출하여 JS 측과 Native 측이 ref 함수를 통해 직접 통신할 수 있다는 것입니다. 양쪽 간에 데이터를 전송하는 것이 뛰어날 것입니다.
 
@@ -164,7 +303,18 @@ React Native 렌더러는 React 로직을 호스트(예: iOS, Android) 플랫폼
 - Fabric은 브릿지를 사용하지 않고 Hermes 및 네이티브 코드와 통신하기 위해 JSI를 사용합니다.
 - Fabric은 React Native의 새로운 렌더링 시스템으로, 프레임워크의 호스트 플랫폼(네이티브 측 플랫폼인 Android 또는 iOS 같은 플랫폼)과의 상호 운용성을 향상시키고 JavaScript와 네이티브 스레드 간 통신을 개선하고자 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 렌더 파이프라인은 일반적으로 세 가지 단계로 나눌 수 있습니다:
 
@@ -174,7 +324,18 @@ React Native 렌더러는 React 로직을 호스트(예: iOS, Android) 플랫폼
 
 “CodeGen”은 적절한 기둥은 아니지만 많은 반복 코드를 작성하는 것을 피할 수 있는 도구입니다. “CodeGen”을 사용하는 것은 강제적이지 않습니다. 그것으로 생성된 모든 코드는 수동으로 작성할 수도 있습니다. 그러나 많은 시간을 절약해 줄 수 있는 프레임워크 코드를 생성합니다. “CodeGen”은 iOS 또는 Android 앱을 빌드할 때 React Native에 의해 자동으로 호출됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![React Native Performance](/assets/img/2024-07-10-ReactNativeAppperformanceisamyth_13.png)
 
@@ -187,7 +348,18 @@ React Native 렌더러는 React 로직을 호스트(예: iOS, Android) 플랫폼
 
 이렇게 코드를 번역해보았어요! 다른 궁금한 거 있으면 언제든 물어보세요. 😉
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "네이티브 코드"를 생성합니다:
 
@@ -197,7 +369,18 @@ React Native 렌더러는 React 로직을 호스트(예: iOS, Android) 플랫폼
 
 # 새 아키텍처의 장점은 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 성능 개선: JSI(Javascript Interface)는 직렬화 및 역직렬화의 부담을 제거하여 CPU 시간과 메모리 사용량을 줄입니다. Fabric은 동시 렌더링을 가능하게 하여 React가 주 스레드를 차단하지 않고 여러 구성 요소를 동시에 렌더링할 수 있습니다. Turbo Modules는 동기식 네이티브 호출을 가능하게하여 대기 시간을 줄이고 응답 시간을 개선합니다.
 - 개발자 경험 향상: JSI를 통해 개발자들은 Hermes 또는 JSC와 같은 원하는 JavaScript 엔진을 사용할 수 있습니다. Fabric은 Suspense, Concurrent Mode, Server Components 등 React 18의 모든 기능을 지원합니다. Turbo Modules는 추가 래퍼나 어댑터가 필요 없이 이미지, 비디오, 스트림 등과 같은 더 많은 네이티브 기능과 유형을 지원합니다.

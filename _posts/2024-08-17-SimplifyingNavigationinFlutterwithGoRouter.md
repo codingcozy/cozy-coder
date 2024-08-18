@@ -3,7 +3,7 @@ title: "GoRouter로 Flutter 내비게이션 간편하게 구현하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-17-SimplifyingNavigationinFlutterwithGoRouter_0.png"
 date: 2024-08-17 00:20
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-17-SimplifyingNavigationinFlutterwithGoRouter_0.png
 tag: Tech
 originalTitle: "Simplifying Navigation in Flutter with GoRouter"
@@ -11,7 +11,6 @@ link: "https://medium.com/@syedabdulbasit7/simplifying-navigation-in-flutter-wit
 isUpdated: true
 updatedAt: 1723863789469
 ---
-
 
 # 플러터 앱에서 GoRouter를 구현하는 포괄적인 안내서
 
@@ -21,7 +20,18 @@ updatedAt: 1723863789469
 
 "플러터에서는 화면과 페이지를 route(경로)라고 부릅니다."
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Navigator 클래스는 스택 방식을 사용하여 일련의 하위 위젯을 관리하며, 앱에서 다른 화면 간에 탐색이 가능하게 합니다.
 
@@ -40,7 +50,18 @@ class MyApp extends StatelessWidget {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로 GoRouter 생성자를 가진 클래스를 생성하세요:
 
@@ -65,10 +86,21 @@ final _router = GoRouter(
 # 주의할 점
 
 - 네비게이터 메서드 대체: 기존 경로에서 context.pushReplacementNamed를 사용 중이라면 context.go()로 대체하십시오.
-사용법: context.go(`/home-screen`);
+  사용법: context.go(`/home-screen`);
 - 스택 관리: context.go()를 사용하여 splash에서 home으로 이동하면 스플래시 화면이 스택에 새 화면을 푸시하는 대신 홈 화면으로 대체됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # GoRouter을 사용한 중첩 경로
 
@@ -123,7 +155,18 @@ final router = GoRouter(
 
 # 경로 및 이름 설정
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래와 같이 RoutePath와 RouteName을 앞에 슬래시가 없는 상태로 초기화해주세요. GoRouter가 이를 처리합니다:
 
@@ -135,16 +178,27 @@ static const routePath = routeName;
 # context.go()와 context.goNamed() 사용법
 
 - OnBoardingScreen에서 PhoneScreen으로 이동:
-context.go(`/$'PhoneScreen.routePath'`);
-context.goNamed(PhoneScreen.routePath);
+  context.go(`/$'PhoneScreen.routePath'`);
+  context.goNamed(PhoneScreen.routePath);
 - PhoneScreen에서 VerificationScreen으로 이동:
-context.go(`/$'PhoneScreen.routePath'/$'VerificationScreen.routePath'`);
-context.goNamed(VerificationScreen.routePath);
+  context.go(`/$'PhoneScreen.routePath'/$'VerificationScreen.routePath'`);
+  context.goNamed(VerificationScreen.routePath);
 - PhoneScreen에서 SkipScreen으로 이동 (동일한 레벨):
-context.go(`/$'SkipScreen.routePath'`);
-context.goNamed(SkipScreen.routePath);
+  context.go(`/$'SkipScreen.routePath'`);
+  context.goNamed(SkipScreen.routePath);
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 매개변수
 
@@ -164,7 +218,18 @@ GoRoute(
 );
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 경로에서는 :phoneId가 경로 매개변수로 사용됩니다. 이 경로로 이동할 때 phoneId에 대한 값을 제공해야 합니다.
 
@@ -183,7 +248,18 @@ GoRoute(
 
 이 경로로 이동할 때 URL에 쿼리 매개변수를 포함할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시 사용법:
 
@@ -200,7 +276,18 @@ context.goNamed(
 
 여기서 phoneId는 경로 매개변수이고, phoneName은 쿼리 매개변수입니다. 이 접근 방식을 통해 다음 화면으로 자세한 정보를 전달하여 앱의 탐색을 더 동적이고 유연하게 만들 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 동적 라우팅 구성
 
@@ -263,7 +350,18 @@ void addNewRoute() {
 
 # 쉘 라우트를 사용한 중첩 내비게이션
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 추가 Navigator를 추가하려면 ShellRoute를 사용하고 위젯을 반환하는 빌더를 제공하세요:
 
@@ -408,7 +506,18 @@ class DetailsScreen extends StatelessWidget {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

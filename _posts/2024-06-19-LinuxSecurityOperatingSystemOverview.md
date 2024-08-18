@@ -3,18 +3,13 @@ title: "Linux 보안  운영 체제 개요"
 description: ""
 coverImage: "/assets/img/2024-06-19-LinuxSecurityOperatingSystemOverview_0.png"
 date: 2024-06-19 15:06
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-LinuxSecurityOperatingSystemOverview_0.png
 tag: Tech
 originalTitle: "Linux Security — Operating System Overview"
 link: "https://medium.com/@cybersecuritystephen/linux-security-operating-system-overview-99e9bacb1616"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![Linux Security Operating System Overview](/assets/img/2024-06-19-LinuxSecurityOperatingSystemOverview_0.png)
 
@@ -24,8 +19,18 @@ Windows와 Linux을 비교하는 통계 기사에 따르면, Linux 운영 체제
 
 Linux의 모든 보안 기능에 대해 탐구하기 전에 시간을 내어 Linux가 어떻게 발전해 왔는지 살펴봅시다. "Linux는 초기에 1990년대 초에 Unix 운영 체제의 클론으로 개발되었습니다. 따라서 Linux는 핵심 Unix 보안 모델인 Discretionary Access Control (DAC)의 형태를 계승합니다."²
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 DAC은 데이터 소유자가 누가 무엇에 액세스할 수 있는지에 대한 정책을 설정할 수 있도록 합니다. 소유자, 특정 그룹 및 기타 사람들(다른 사용자들)은 데이터에 대한 액세스 권한이 다를 수 있습니다. 이는 액세스 제어 목록(ACLs)의 상대적으로 간단한 형태입니다. 그리고 슈퍼 유저라고 불리는 한 명의 특별한 사용자가 더 있습니다. 슈퍼 유저는 시스템에 로그인할 때 어떤 작업도 제한받지 않습니다.
 
@@ -35,7 +40,18 @@ Linux 커널에 새로운 보안 기능을 통합할 때의 중요한 설계 제
 
 # 보안 기능
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리눅스 운영 체제는 운영 체제 자체의 설계로부터 보안을 제공합니다. 오픈 소스이므로 매우 유연하고 구성 가능하며 다양합니다. 모든 사람이 소스 코드에 액세스할 수 있기 때문에 취약점은 보통 짧은 기간동안 존재합니다. 또한 리눅스 소스 코드는 전 세계 오픈 소스 커뮤니티 구성원들에 의해 지속적으로 철저히 검토되어 발견된 모든 취약점을 수정하는 과정을 가속화합니다. 역사에서 언급했듯이 리눅스는 매우 엄격한 권한 모델을 통해 루트 액세스를 엄격하게 제한하는 것으로도 알려져 있습니다. 슈퍼유저만 모든 권한을 가지고 있고, 일반 사용자는 제한적인 액세스 권한을 갖습니다.
 
@@ -45,7 +61,18 @@ Linux 커널에 새로운 보안 기능을 통합할 때의 중요한 설계 제
 
 리눅스는 안티바이러스 소프트웨어가 기본으로 제공되지 않기 때문에 온라인 보안을 유지하기 위해서는 적절한 것을 다운로드하는 것이 중요합니다. Security.org의 기사에 따르면 각 사용자의 필요에 따라 최고의 안티바이러스 소프트웨어를 선택했습니다. 혼합 플랫폼 IT 솔루션용 최고의 안티바이러스는 Kaspersky Antivirus이며, 중소기업용 최고의 소프트웨어는 Bitdefender Antivirus입니다. 파일 서버를 보호하려면 Avast Antivirus가 최적입니다. 기업을 위한 최고의 안티바이러스 소프트웨어는 McAfee Antivirus이며, 개인용으로는 ESET Antivirus가 최선입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Best Practices
 
@@ -93,8 +120,18 @@ Linux 커널에 새로운 보안 기능을 통합할 때의 중요한 설계 제
 
 이 목록이 다소 방대하다는 것을 알지만, 이러한 관행을 따른다면 리눅스 시스템의 보안 수준에 대해 자신감을 가질 수 있을 것입니다. 이러한 관행이 초보자 친화적이지는 않지만, 자체적으로 리눅스 환경을 탐색하며 이러한 아이디어에 익숙해질 수 있습니다. IT 분야에서의 자기 학습이 모든 과정의 일부입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Linux Security](/assets/img/2024-06-19-LinuxSecurityOperatingSystemOverview_2.png)
 
@@ -104,8 +141,18 @@ Linux 운영 체제는 다양한 내장 보안 기능을 제공하지만, 최종
 
 # 참고문헌
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 (1) W3Techs. (없음). 웹 사이트에 대한 Linux 대 Windows 사용 통계 비교. 2023년 4/8일에 https://w3techs.com/technologies/comparison/os-linux,os-windows 에서 검색함
 
@@ -115,6 +162,17 @@ Linux 운영 체제는 다양한 내장 보안 기능을 제공하지만, 최종
 
 (4) 비그더만, 알리자. (2022, 10월 19일). Linux용 최고의 백신 소프트웨어. 보안. https://www.security.org/antivirus/best/linux/
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 (5) PhoenixNAP. (2023, 3월 16일). Linux 보안 통계, 도구 및 모범 사례. [링크](https://phoenixnap.com/kb/linux-security)

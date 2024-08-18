@@ -3,17 +3,13 @@ title: "Arduino에서 Quectel EC200을 사용해 HTTP POST 요청 보내는 방�
 description: ""
 coverImage: "/assets/img/2024-06-23-QuectelEC200HTTPpostinArduino_0.png"
 date: 2024-06-23 17:38
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-QuectelEC200HTTPpostinArduino_0.png
 tag: Tech
 originalTitle: "Quectel EC200 HTTP post in Arduino"
 link: "https://medium.com/@gmainapro/quectel-ec200-http-post-in-arduino-f70166a11376"
 isUpdated: true
 ---
-
-
-
-
 
 ![image](/assets/img/2024-06-23-QuectelEC200HTTPpostinArduino_0.png)
 
@@ -25,11 +21,22 @@ Quectel HTTP 애플리케이션 노트에서는 데이터를 보내는 두 가�
 
 ## 1. HTTP 구성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1. HTTP context id를 설정하세요: AT+QHTTPCFG="contextid",1
 2. 포스트 URL을 설정하세요: AT+QHTTPCFG="url","`URL`"
-URL은 꼭 프로토콜인 HTTP 또는 HTTPS를 포함해야 합니다. 그렇지 않으면 에러 메시지가 전송됩니다.
+   URL은 꼭 프로토콜인 HTTP 또는 HTTPS를 포함해야 합니다. 그렇지 않으면 에러 메시지가 전송됩니다.
 3. 요청 헤더를 설정하세요: AT+QHTTPCFG="header","`header`"
 
 ## 2. 포스트 데이터 전송
@@ -38,7 +45,18 @@ URL은 꼭 프로토콜인 HTTP 또는 HTTPS를 포함해야 합니다. 그렇�
 
 추가로 입력 시간 초과 및 응답 시간 초과를 설정하는 데 사용할 수 있는 선택적 매개변수로 AT+QHTTPPOST=`data_length`[,`input_time`,`rsptime`]을 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 만약 위 단계에서의 응답이 "CONNECT"인 경우, 페이로드를 입력하시면 됩니다.
 
@@ -60,7 +78,7 @@ String user_agent= "Quectel Modem";
 void QUECTEL_POST(String url, String headers[], int header_size, const String &data, int data_length);
 
 void setup()
-{ 
+{
   delay(10000); // 모뎀이 네트워크에 등록될 때까지 대기
 
   Serial.begin(57600);
@@ -69,7 +87,7 @@ void setup()
   // HTTP 헤더 설정
   String Quectel_headers[4];
   Quectel_headers[0] = "User-Agent" + user_agent;
-  Quectel_headers[1] = "Authorization: Token " + token;   
+  Quectel_headers[1] = "Authorization: Token " + token;
   Quectel_headers[2] = "X-node: " + node_id;
   Quectel_headers[3] = "Content-Type: " + String(contentType); // 30
 
@@ -88,7 +106,7 @@ void loop(){
 
 void QUECTEL_POST(String url, String headers[], int header_size, const String &data, int data_length)
 {
-   
+
     String HTTP_CFG = "AT+QHTTPCFG=\"url\",\"http://" + url + "\""; // URL 앞에 프로토콜을 설정해야 함
     Serial.print("Quectel URL 설정: ");
     Serial.println(HTTP_CFG);
@@ -98,7 +116,7 @@ void QUECTEL_POST(String url, String headers[], int header_size, const String &d
     quectel_serial.println("AT+QHTTPCFG=\"requestheader\",0");  // POST 본문에 요청 헤더 비활성화
     quectel_serial.println("AT+QHTTPCFG=\"responseheader\",1"); // 응답 헤더 사용
     quectel_serial.println("AT+QHTTPCFG=\"rspout/auto\",1");    // 자동 응답 및 HTTPREAD "비활성화"
-    
+
     // 사용자 지정 헤더 설정
     for (int i = 0; i < header_size; i++)
     {
@@ -117,7 +135,18 @@ void QUECTEL_POST(String url, String headers[], int header_size, const String &d
 
 문제가 없다면 20x HTTP 응답 코드를 수신해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 참고 자료
 

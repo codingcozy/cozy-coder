@@ -3,7 +3,7 @@ title: "FreeRTOS  이벤트 그룹을 사용하여 간단한 세마포어 구현
 description: ""
 coverImage: "/assets/img/2024-06-23-FreeRTOSSimplesemaphoreimplementationusingeventgroup_0.png"
 date: 2024-06-23 17:31
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-FreeRTOSSimplesemaphoreimplementationusingeventgroup_0.png
 tag: Tech
 originalTitle: "FreeRTOS — Simple semaphore implementation using event group"
@@ -11,26 +11,31 @@ link: "https://medium.com/@sergio.arrighi/freertos-simple-semaphore-implementati
 isUpdated: true
 ---
 
-
-
-
-
-
 ![Image](/assets/img/2024-06-23-FreeRTOSSimplesemaphoreimplementationusingeventgroup_0.png)
 
-웹 소프트웨어 엔지니어인 저와 같은 경우에는 실시간 프로그래밍 개념을 이해하기 어려울 수 있습니다. 
+웹 소프트웨어 엔지니어인 저와 같은 경우에는 실시간 프로그래밍 개념을 이해하기 어려울 수 있습니다.
 이 짧은 기사에서는 여러 멀티스레딩 작업의 완료를 기다리기 위한 세마포어 패턴을 구현하는 쉬운 기술을 소개하겠습니다.
 
 # 정의
 
 - FreeRTOS 작업
-FreeRTOS 작업은 FreeRTOS 실시간 운영 체제 내에서 실행되는 작고 독립적인 프로그램 세그먼트입니다. 각 작업은 특정 작업을 수행하도록 설계되었으며 FreeRTOS 스케줄러에 의해 관리되는 다른 작업과 준동시에 작동합니다. FreeRTOS의 작업은 우선 순위를 부여할 수 있어, 스케줄러가 작업 우선 순위에 따라 실행 흐름을 관리하고 시간에 민감한 작업을 효과적으로 처리할 수 있게 합니다. 이를 통해 응용 프로그램은 여러 작업 간에 작업을 나누어 다루므로 다양한 응용 프로그램 요구 사항을 처리할 수 있습니다.
+  FreeRTOS 작업은 FreeRTOS 실시간 운영 체제 내에서 실행되는 작고 독립적인 프로그램 세그먼트입니다. 각 작업은 특정 작업을 수행하도록 설계되었으며 FreeRTOS 스케줄러에 의해 관리되는 다른 작업과 준동시에 작동합니다. FreeRTOS의 작업은 우선 순위를 부여할 수 있어, 스케줄러가 작업 우선 순위에 따라 실행 흐름을 관리하고 시간에 민감한 작업을 효과적으로 처리할 수 있게 합니다. 이를 통해 응용 프로그램은 여러 작업 간에 작업을 나누어 다루므로 다양한 응용 프로그램 요구 사항을 처리할 수 있습니다.
 
 - 카운팅 세마포어
-FreeRTOS의 카운팅 세마포어는 공유 리소스에 대한 액세스를 관리하거나 가용성에 따라 작업을 동기화하는 동기화 메커니즘입니다. 두 가지 상태만을 갖는 이진 세마포어와 달리 카운팅 세마포어는 가용 리소스의 개수나 이벤트가 발생하기 전에 실행 흐름을 차단/해제하는 횟수를 나타내는 값을 유지합니다.
+  FreeRTOS의 카운팅 세마포어는 공유 리소스에 대한 액세스를 관리하거나 가용성에 따라 작업을 동기화하는 동기화 메커니즘입니다. 두 가지 상태만을 갖는 이진 세마포어와 달리 카운팅 세마포어는 가용 리소스의 개수나 이벤트가 발생하기 전에 실행 흐름을 차단/해제하는 횟수를 나타내는 값을 유지합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # TL;DR — The code
 
@@ -108,7 +113,18 @@ void loop() {}
 
 # 자세한 설명
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이벤트 그룹 핸들이 선언되었습니다.
 
@@ -126,7 +142,18 @@ const EventBits_t TASK_2_BIT = (1 << 1); // 00000010
 const EventBits_t TASK_3_BIT = (1 << 2); // 00000100
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 주요 작업은 작업 번호를 매개변수로 전달하여 세 가지 작업을 생성합니다.
 
@@ -153,7 +180,18 @@ int taskNumber = ((int)pvParameters);
 EventBits_t taskBit = (1 << (taskNumber - 1));
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 작업이 완료되면 그룹에 신호를 보내고 자체를 삭제합니다.
 
@@ -171,15 +209,26 @@ vTaskDelete(NULL);
 // 모든 작업이 비트를 설정 할 때까지 대기
 Serial.println("작업이 완료 될 때까지 대기 중 ...");
 xEventGroupWaitBits(
-    eventGroup,                          // 테스트되는 이벤트 그룹.
-    TASK_1_BIT | TASK_2_BIT | TASK_3_BIT, // 대기해야 하는 이벤트 그룹 내의 비트.
-    pdTRUE,                              // 종료시 비트 지우기.
-    pdTRUE,                              // 모든 비트를 대기합니다.
-    portMAX_DELAY                        // 무기한 대기.
+  eventGroup, // 테스트되는 이벤트 그룹.
+  TASK_1_BIT | TASK_2_BIT | TASK_3_BIT, // 대기해야 하는 이벤트 그룹 내의 비트.
+  pdTRUE, // 종료시 비트 지우기.
+  pdTRUE, // 모든 비트를 대기합니다.
+  portMAX_DELAY // 무기한 대기.
 );
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 마침내 이벤트 그룹이 삭제되었습니다.
 

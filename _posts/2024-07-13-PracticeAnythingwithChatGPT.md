@@ -3,7 +3,7 @@ title: "ChatGPT로 무엇이든 연습해보기"
 description: ""
 coverImage: "/assets/img/2024-07-13-PracticeAnythingwithChatGPT_0.png"
 date: 2024-07-13 23:28
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-PracticeAnythingwithChatGPT_0.png
 tag: Tech
 originalTitle: "Practice Anything with ChatGPT"
@@ -11,13 +11,9 @@ link: "https://medium.com/@jordan_gibbs/practice-anything-with-chatgpt-42ca177c2
 isUpdated: true
 ---
 
-
-
-
-
 ![Practice with ChatGPT](/assets/img/2024-07-13-PracticeAnythingwithChatGPT_0.png)
 
-안녕하세요! 카드 전문가 여러분! 
+안녕하세요! 카드 전문가 여러분!
 
 ChatGPT를 활용하여 거의 모든 상황에 대해 연습할 수 있어요. 이는 '연습 엔진'으로 조작할 수 있으며, 사용자가 어떤 상황에 대해 연습할 수 있는 일반화된 시스템이 될 수 있어요.
 
@@ -27,7 +23,18 @@ Nathan Fielder처럼 너무 자주 말하긴 싫어하지만, 이것이 완벽�
 
 어서 확인해보세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 채용 면접 연습
 
@@ -42,15 +49,24 @@ Nathan Fielder처럼 너무 자주 말하긴 싫어하지만, 이것이 완벽�
 
 여기 시작할 수 있는 프롬프트를 알려 드리겠습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 타로 전문가 여러분!😊
 
 아래는 Markdown 형식으로 변환된 이미지 링크에요.
 
-
 ![Practice Anything with ChatGPT](/assets/img/2024-07-13-PracticeAnythingwithChatGPT_1.png)
-
 
 번거로울 수 있지만 제대로 설정해 질문을 하고 결과가 있는 실제 인터뷰 흐름으로 빠져들기는 조금 귀찮을 수도 있어요. 이것이 저희 회사인 Elevora가 출시한 무료로 어떤 직무에도 효과적인 직무 인터뷰 연습 플랫폼이 제공되는 중요한 이유 중 하나에요.
 
@@ -60,19 +76,39 @@ Nathan Fielder처럼 너무 자주 말하긴 싫어하지만, 이것이 완벽�
 
 언제든지 질문이나 추가 정보가 필요하시면 언제든 말씀해주세요! 🌟✨💖
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 귀하의 참여를 위한 프롬프트가 있습니다:
 
 여기 샘플 출력입니다:
 
-
 ![PracticeAnythingwithChatGPT_2](/assets/img/2024-07-13-PracticeAnythingwithChatGPT_2.png)
 
 # 공개 연설 연습
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저런, 연설이나 프레젠테이션 준비 중이시군요? 걱정 마세요. 저를 통해 성능을 향상시키는 팁을 얻을 수 있습니다.
 
@@ -85,8 +121,18 @@ Nathan Fielder처럼 너무 자주 말하긴 싫어하지만, 이것이 완벽�
 
 사용해야 하는 프롬프트는 이렇습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![](/assets/img/2024-07-13-PracticeAnythingwithChatGPT_3.png)
 
@@ -100,8 +146,18 @@ Nathan Fielder처럼 너무 자주 말하긴 싫어하지만, 이것이 완벽�
 - 협상을 시작하세요!
 - GPT가 피드백을 제공할 것입니다
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 당신이 시작할 수 있는 빠른 프롬프트 스키마가 있어요:
 
@@ -111,7 +167,18 @@ Nathan Fielder처럼 너무 자주 말하긴 싫어하지만, 이것이 완벽�
 
 # 어려운 대화들
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **ChatGPT**는 어렵고 힘든 대화를 연습할 수 있게 도와줄 뿐만 아니라, 다른 상대 역할을 맡아 예기치 못한 상황을 대처하고 자신감을 키울 수 있도록 도와줄 수 있어요.
 
@@ -121,7 +188,18 @@ Nathan Fielder처럼 너무 자주 말하긴 싫어하지만, 이것이 완벽�
 
 # GPT 연습에 대한 마무리언어
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GPT와 연습할 수 있는 다른 상호 작용이 많이 있습니다. 여기 몇 가지 더 있어요:
 
@@ -139,7 +217,18 @@ GPT와 연습할 수 있는 다른 상호 작용이 많이 있습니다. 여기 
 - 음성 기능을 사용하는 경우, 항상 "시작하기 전에 '시작'이라고 할 때까지 기다려주세요"라고 말씀해주세요
 - 모바일을 사용해서 말로 표현해주세요. 연습 효과가 훨씬 더 좋아집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 세 가지 원칙을 따라서, 당신은 무엇이든 연습할 자신이 있을 거에요. 좋은운을 빕니다!
 

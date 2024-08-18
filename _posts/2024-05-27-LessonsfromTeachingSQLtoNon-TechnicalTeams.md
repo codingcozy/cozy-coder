@@ -3,17 +3,13 @@ title: "비기술 직군 팀에 SQL을 가르치면서 얻은 교훈"
 description: ""
 coverImage: "/assets/img/2024-05-27-LessonsfromTeachingSQLtoNon-TechnicalTeams_0.png"
 date: 2024-05-27 13:06
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-LessonsfromTeachingSQLtoNon-TechnicalTeams_0.png
 tag: Tech
 originalTitle: "Lessons from Teaching SQL to Non-Technical Teams"
 link: "https://medium.com/towards-data-science/lessons-from-teaching-sql-to-non-technical-teams-7bd8fc9f8289"
 isUpdated: true
 ---
-
-
-
-
 
 ## 조정된 방식에서 더 맞춤화된 방식으로 — 그리고 먼 거리에서의 코칭이 미래라고 생각하는 이유
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이 기사의 목표는 내가 내부 SQL 교육을 운영하면서 처한 내 여정과 배운 점을 전달하여 전체적으로 비기술적인 (또는 적어도 SQL을 잘 알지 못하는) 팀에게 가르칠 수 있는 방법을 알려주어, 당신의 조직에서 지식의 선물을 나누고 나처럼 유사한 기쁨을 느낄 수 있기를 희망합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-27-LessonsfromTeachingSQLtoNon-TechnicalTeams_0.png" />
 
@@ -34,7 +41,18 @@ isUpdated: true
 - 역량 강화 필요: 조직 내에서 SQL 역량 부족으로 인해 한계에 부딪히는 경우가 있습니다. 이는 여러 도구와 스프레드시트를 사용하여 최종 보고서에 도달하기 위한 혼잡한 프로세스의 출현으로 일반적으로 드러납니다. 당연히 해결책이 항상 SQL 쪽에 있는 것은 아니지만, 제 경험상 시간이 많이 소요되는 다중 단계 프로세스 중 하나를 보유하고 있고 내면에 더 나은 방법이 있다고 생각한다면, 아마도 그 방법이 있을 확률이 높습니다.
 - 자원 부족: 분석 관련 자원이 부족한 조직에서는 "이웃 스킬"을 갖춘 개인들(즉, 스프레드시트 및 데이터 작업에 익숙한 사람들)을 식별하고 역량 개발을 제안하는 것이 조직과 개인 양쪽에 매우 유익하다고 생각했습니다. 개인의 시야를 확대하면서 사업에 더 많은 가치를 창출할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 교육을 진행하고 싶은 이유는 다양할 수 있습니다 (위 목록이 전부가 아닙니다; 이는 상호배타적인 것도 아니라는 주장이 나올 수 있습니다). 이곳에서 이루고자 하는 목표를 명확히 하는 것이 중요합니다. 목표에 따라 교육을 실행하는 방식이 크게 달라질 수 있습니다.
 
@@ -42,14 +60,26 @@ isUpdated: true
 
 2015년의 초기 버전에서 저는 점진적인 방식을 시도해 보았습니다. 보통의 교실 형식으로, X주 동안의 프로그램을 제공했습니다. 매주 1시간씩 수업을 진행했으며(항상 같은 요일 같은 시간에), SQL을 배우고자 하는 모든 관심 있는 사람들에게 열려 있었습니다. 주로 SQL에 초점을 맞춰 진행되었습니다.
 
-- 매주 그룹은 무언가 새로운 것을 배웠으며, SQL의 "Hello World"부터 시작해 (SELECT * FROM TABLE LIMIT 1) CTE 여러 개로 윈도우 함수를 사용하는 방법, 쿼리 최적화까지 모두 포함했습니다.
+- 매주 그룹은 무언가 새로운 것을 배웠으며, SQL의 "Hello World"부터 시작해 (SELECT \* FROM TABLE LIMIT 1) CTE 여러 개로 윈도우 함수를 사용하는 방법, 쿼리 최적화까지 모두 포함했습니다.
 - 각 수업 간에 그룹은 수업에서 배우는 지식을 시험하고 고착화하기 위해 숙제를 수행해야 했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일부 사람들은 끝까지 계속했지만 성공률(성공은 누군가가 교육 후에 새롭게 습득한 SQL 기술을 계속 사용하는 경우로 정의됨)은 극히 낮았습니다. 매 세션마다 오는 사람들이 점점 줄어들었습니다. 수업 외에 제안된 연습을 하는 사람은 소수였습니다. 사실적으로 말하자면 성공하지 못했어요.
 
 하지만 이로부터 많은 교훈을 얻었습니다:
+
 - 멘토링을 즐겼습니다: 다른 사람들에게 새로운 기술을 가르치고 지도하는 즐거움에 대해 배웠고, 결국 이 블로그와 다른 다양한 활동을 통해 보상을 얻었다.
 - SQL이 "너무 기술적이다"는 두려움: 많은 사람들이 그 무료 교육에 참여하지 않았거나 매우 첫 번째 장애물에서 포기했던 이유는 SQL을 기술적인 사람들만을 위한 것으로 생각했기 때문이고, 그들은 자신을 기술적인 사람으로 생각하지 않았기 때문입니다.
 - "유지" 메커니즘 없이 교육을 실시하는 것은 실패할 운명이다: 사람들이 이 교육을 완수할 수 있을 것이라는 사람들의 자율을 믿는 것은 합리적인 생각이 아님을 이해하게 되었습니다. 어떤 조직에서든 지속적인 교육을 완수하지 않을 수 있는 많은 경쟁 우선 순위와 사유가 있습니다. 따라서 학생들을 찾아내어 교육을 듣기 위해 강한 내재적 동기부여가 있는 사람들(예: SQL을 배우기 위한 명확한 목표가 있는 경우)이나 강력한 외부적 동기부여를 제공해야 합니다(예: 그들의 매니저가 SQL을 배우라고 요구하여 더 기술적인 프로젝트를 맡을 것을 기대하는 경우).
@@ -61,7 +91,18 @@ isUpdated: true
 - 쿼리를 작성하는 동안, 컴퓨팅 비용을 주시하고 쿼리를 실행하기 전에 필요에 따라 다시 구조를 잡아야 합니다.
 - 등등. 만약 이러한 요소들을 가르치지 않는다면, 학생들이 SQL을 사용하기 어려울 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 모든 배움이 나의 프로그램을 개선하는 데 길을 열었다 - 더 맞춤화된 방식으로.
 
@@ -71,7 +112,18 @@ isUpdated: true
 
 프로그램은 여전히 누구에게나 열려 있었지만, 이제는 참여할 수 있는 사람을 선정하는 프로세스가 있었습니다. "들어가고 싶은" 사람들은 다음을 보여 주어야 했습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - SQL 학습에 대한 명확한 필요성: 잠재적인 학생들은 SQL을 배우고 싶은 이유와 SQL이 필요한 프로젝트를 설명하는 양식을 작성해야 했습니다(예: "X 보고서를 자동화하고 싶어요, Y 대시보드를 구축하고 싶어요"). 선택되면, 이 프로젝트가 프로그램 전체 기간 동안 작업할 프로젝트가 되었을 것입니다.
 - 이미 있는 인접한 기술들: 잠재적인 학생들은 "인접 기술"이라고 부르는 것을 보여줘야 했습니다. 즉, SQL이나 데이터 분석을 위한 필요한 기술과 유사한 기술들을 보여주어야 했습니다.
@@ -83,7 +135,18 @@ isUpdated: true
 
 위의 첫 번째 단계가 완료되면, 우리는 다음 마일스톤을 향해 노력할 것입니다. 예를 들어, 대시보드를 구축하고 싶은 사람을 위해 프로젝트를 분할해보면:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - SQL 기초 학습
 - 적절한 데이터셋 및 쿼리 로직 찾기 (필요한 정보 획득 방법 학습)
@@ -102,7 +165,18 @@ isUpdated: true
 - (4) 그러나 시간을 투자하고 도전을 하나씩 극복하겠고, 궁극적으로 승리할 것입니다
 - 사람들에게 SQL 학습 방법을 가르치는 것 대 SQL을 가르치는 것: 마지막으로 — 이 주요 변경 사항이 프로그램에서 큰 차이를 만들었습니다. 이것은 사용자들이 필요한 핵심 정보를 찾아내고 실험하며 배우면서 익숙해지도록 했습니다. 그들이 더 자립적이 되어 계속成长할 수 있도록 했고, 프로그램이 종료된 후에도 지속적으로 발전할 수 있도록 했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금까지 위의 방법은 제가 시도한 가운데 가장 성공적인 하나입니다. 그러나 시간이 많이 소요되고 개선할 여지가 많이 보입니다.
 
@@ -114,7 +188,18 @@ isUpdated: true
 - 각 단계마다: 각 장애물에 접근하는 가장 좋은 방법에 대한 조언을 했습니다. 만약 막힌다면, 어떻게 해제할지에 대한 지침을 제공했습니다.
 - 프로그램 전반에 걸쳐: 그들의 승리를 축하하고 도전하며, 힘들 때 동기부여를 시도했지만, 동시에 그들이 설정한 일정 내에 무슨 일을 해야 하는지 제시했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 내용을 자동화하는 것은 어렵지 않을까요? 혹은 혹시 LLMs를 이용해서 가능할지도 모르겠네요. 요즘 세상은 뭐가 되는지 모르겠어요. 그래도 어떻게든 표준화하고 최적화할 수 있고, 비동기적으로 많은 작업을 처리할 수 있으니 매주 회의를 필요로 하지 않는 방식으로 개선할 수 있을 거예요. 다음 반복에서 저는 학생 당 소요 시간을 줄여서 더 많은 학생들을 교육할 수 있는 방법을 시도해보고 싶네요.
 
@@ -126,7 +211,18 @@ isUpdated: true
 - 이제는 선생님인 학생들이 이해해야 할 핵심 개념을 내재화하고 자신의 이해의 빈틈을 찾아낼 수 있게 도와줄 거에요
 - 거대한 지식 베이스를 시작할 수 있고, 그러면 프로그램에 참여할 수 없는 고도로 동기 부여된 개인들을 위한 자기 서비스 접근 방식을 더 활용할 수 있게 될 거에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 항상 그렇지만, 아이디어는 쉽게 얻을 수 있어요. 실행 단계에서 어떤 것이 잘 작동하고 어떤 것이 그렇지 않은지를 이해하게 돼요. 곧 그것을 실험해 보고, 나중에 미래의 글에서 결과를 공유할 예정이에요.
 
@@ -136,7 +232,18 @@ isUpdated: true
 
 지금 나의 진정한 도전은 그 방법을 확장하는 것이에요. 어떻게 하면 선택된 개인들을 위해 최대한 가치를 창출하는 데 집중하기 위해 모든 불필요한 것을 단순화하고 제거할 수 있을까요? 그렇게 하면 그들이 자신의 조직에서 일으키는 영향력을 10배로 향상시킬 수 있게 될 거에요. 아마도 피트니스 인플루언서들이 뭔가를 알고 있을지도 몰라요…
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 이 글을 즐겁게 읽으셨기를 바랍니다! 공유하고 싶은 조언이 있으시면 댓글 섹션에 남겨주세요!
 

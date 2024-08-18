@@ -3,17 +3,13 @@ title: "사람들은 왜 공포 영화를 좋아할까 통계 분석으로 알�
 description: ""
 coverImage: "/assets/img/2024-07-13-WhyDoPeopleLikeHorrorFilmsAStatisticalAnalysis_0.png"
 date: 2024-07-13 03:19
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-WhyDoPeopleLikeHorrorFilmsAStatisticalAnalysis_0.png
 tag: Tech
 originalTitle: "Why Do People Like Horror Films? A Statistical Analysis"
 link: "https://medium.com/fan-fare/why-do-people-like-horror-films-a-statistical-analysis-746c2bd925fe"
 isUpdated: true
 ---
-
-
-
-
 
 ![Why Do People Like Horror Films](/assets/img/2024-07-13-WhyDoPeopleLikeHorrorFilmsAStatisticalAnalysis_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 최근에 아내와 함께 Denis Villeneuve의 'Prisoners'를 봤습니다. 이 영화는 니체적인 긴장감을 유발하는, 종종 혈액이 넘치는 끔찍한 스릴러로, 일부 호러 요소를 가진다고 할 수 있습니다. 영화는 낮에 두 소녀가 납치되는 이야기를 다루며, 그들을 구하기 위해 사나운 (그리고 상당히 폭력적인) 노력들이 벌어집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 이 영화를 몇몇 열광적인 추천에 기반해 결정했습니다:
 
@@ -35,7 +42,18 @@ isUpdated: true
 
 여기서 프리즈너스의 "공포 요소"가 드러납니다; 이 영화는 2시간 반에 이르는 긴장감이 솟는 공포의 지옥으로, 학살, 가정 침입, 폭력적인 납치, 그리고 미성년자에 대한 학대가 등장합니다. 이 영화를 사랑하지만, 그만큼 강렬하다는 점을 강조해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![WhyDoPeopleLikeHorrorFilmsAStatisticalAnalysis_1.png](/assets/img/2024-07-13-WhyDoPeopleLikeHorrorFilmsAStatisticalAnalysis_1.png)
 
@@ -45,7 +63,18 @@ isUpdated: true
 
 그녀의 답답함으로 나는 공포 팬덤의 본질에 대해 생각하게 되었어요. 확실히, 'Prisoners'는 진정한 공포 영화는 아니지만, 사람들이 끔찍한 콘텐츠(예를 들어 'Prisoners' 같은 콘텐츠)를 좋아하게 만드는 요인은 무엇인가요? 왜 사람들은 공포를 좋아할까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오늘은 공포 영화의 부상, 공포 팬덤 뒤의 특이한 동기, 그리고 이 영화를 소중히 여기는 사람들의 유형에 대해 알아보겠습니다.
 
@@ -55,7 +84,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-07-13-WhyDoPeopleLikeHorrorFilmsAStatisticalAnalysis_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 영화에 대한 반응을 가장 잘 설명하면 "미친"으로 할 수 있을 걸요:
 
@@ -67,7 +107,18 @@ isUpdated: true
 
 당연하게도, 2022년 YouGov이 1,000명의 미국인을 대상으로 한 여론조사에서 공포나 영화 장르는 참가자들로부터 독보적으로 사랑과 혐오의 혼합을 받으며, 가장 분란 스러운 영화 장르로 선정되었어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Here are the images you shared in Markdown format:
 
@@ -79,13 +130,35 @@ Despite the general aversion towards horror movies, they have managed to carve a
 
 Horror films typically operate on smaller budgets compared to other genres like adventure, Sci-Fi, and animation, which receive five times more funding. Consequently, horror movies don't need massive box office earnings to be profitable.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **더 나아가서, 공포 영화에 대해 이야기할 때 프로젝트의 평론가들에게 인정받는 정도와 박스 오피스 성적 사이에는 거의 어떠한 상관관계도 없다. 공포 영화는 슈퍼히어로 프랜차이즈나 스타 워즈의 스핀 오프와 마찬가지로 충실한 기존 팬층을 가지고 있으며, 이러한 팬덤은 종종 품질이 기껏해도 극심한 성과를 내는 극작들을 제외한 영화까지 상당히 실지로 극장에 출몰한다. 우리가 사용자 평점의 평균을 기준으로 영화를 분류하고 퀄리티 사분위수로 나눌 때, 공포 영화는 낮은 점수를 받은 프로젝트들에 대해 강력한 성과를 거두면서 평가받는 작품들에 대해서는 뛰어난 성과를 기록하며, 다른 장르들을 크게 앞서는 것으로 나타난다.**
 
 **나쁜 공포 영화는 좋은 투자가 되고, 그에 비해 괜찮은 드라마는 생산자들에게 돈을 많이 잃게 할 가능성이 높다.**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 호러 영화는 매년 매출이 줄어드는 영화 산업에서도 안정적인 인기를 누리는 몇 안 되는 작품 중 하나에 속합니다. 이는 주로 이 장르만의 독특한 팬베이스로 인해 가능한 현상입니다. 동시에 이 사실은 깊은 질문을 불러일으킵니다. 과연 무엇이 사람들로 하여금 호러 팬이 되게 하는 걸까요? 이 독특하고 강렬한 장르를 좋아하게 되는 것은 무슨 의미를 갖는 걸까요?
 
@@ -95,7 +168,18 @@ Horror films typically operate on smaller budgets compared to other genres like 
 
 ![Image](/assets/img/2024-07-13-WhyDoPeopleLikeHorrorFilmsAStatisticalAnalysis_7.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마침내, 「스키나 마링크(Skinamarink)」에 대한 관심이 프로젝트를 15,000달러의 예산으로 2.1백만 달러의 티켓 매출로 이끌었어요(투자 대비 13,900%의 수익률). 그리고「스키나 마링크」는 공포 영화의 극명한 효과를 보여주는 대표적인 사례지만, 영화 관객 간의 이분법적 상황을 잘 보여주는 사례입니다. 사람들은 이 장르를 사랑하거나 싫어합니다.
 
@@ -105,7 +189,18 @@ Horror films typically operate on smaller budgets compared to other genres like 
 
 ![Image](/assets/img/2024-07-13-WhyDoPeopleLikeHorrorFilmsAStatisticalAnalysis_8.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-13-WhyDoPeopleLikeHorrorFilmsAStatisticalAnalysis_9.png)
 
@@ -115,7 +210,18 @@ Horror films typically operate on smaller budgets compared to other genres like 
 
 ![이미지](/assets/img/2024-07-13-WhyDoPeopleLikeHorrorFilmsAStatisticalAnalysis_10.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 곳에서는 공포 접근자들이 쉽게 있는 것을 상상할 수 있고, 공포 회피자들은이 스펙트럼의 끝에 앉아 있습니다. 이 관계는 저와 공포 영화 장르와의 내 경험과 일치합니다.
 
@@ -126,7 +232,18 @@ Horror films typically operate on smaller budgets compared to other genres like 
 
 시카고 대학의 연구원인 Coltan Scrivner은 공포, 범죄, 그리고 심연한 호기심에 대한 과학에 대한 선도적 전문가로, 공포의 매력에 대한 폭넓은 연구를 실시했습니다. 그는 시청자들이 주로 아드레날린 중독자, 화이트 너클러, 그리고 다크 코퍼라는 세 가지 명확한 그룹에 속한다고 밝혔습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 아드레날린 중독자: 아드레날린 중독자들은 새로운, 복잡하며 강렬한 경험을 원합니다. 아드레날린 중독자들은 경험에 더 몰입함으로써 자극을 높입니다.
 - 화이트 너클러: 화이트 너클러들은 공포 영화를 진정으로 두려워하며 이러한 영화의 긴장감을 특별히 즐기지는 않습니다. 아드레날린 중독자와는 달리, 화이트 너클러들은 자극을 낮추려고 합니다.
@@ -138,11 +255,22 @@ Horror films typically operate on smaller budgets compared to other genres like 
 
 스크리브너의 연구는 또한 이러한 아처타입들이 이러한 공포적 경험을 독특하게 처리하고 맥락화하는 것을 발견했는데, 일부는 기분이 좋아지고 다른 사람들은 자아 발견이나 자기 학습감을 느꼈습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![img](/assets/img/2024-07-13-WhyDoPeopleLikeHorrorFilmsAStatisticalAnalysis_12.png)
 
-안녕하세요! 저는 오늘 공포 영화에 대한 통계 분석을 본 후에 감상했던 내용을 공유하려고 해요. 
+안녕하세요! 저는 오늘 공포 영화에 대한 통계 분석을 본 후에 감상했던 내용을 공유하려고 해요.
 
 몇 가지 사람들은 공포를 좋아하는 이유에 대해 설명하는데, 아드레날린 중독자들은 두려움을 느끼는 경험에서 기분이 상승한다고 합니다. 반면, '화이트 너클러'는 이러한 상황을 개인적인 성장과 학습의 기회로 이유를 찾아냅니다. '다크 코퍼'들은 이 기회를 통해 다양한 이유들로 공포에서 의미를 찾는군요. 이들은 실로 이상하고 모호한 인격을 자랑하네요. 저는 분명히 '다크 코퍼'에 속하지 않는다고 확신할 수 있어요.
 
@@ -150,7 +278,18 @@ Horror films typically operate on smaller budgets compared to other genres like 
 
 '화이트 너클러'와 '다크 코퍼'에 대한 연구를 깊이 파헤치면서, 무엇이 이러한 지점에 사람들을 이끌었을까 하는 의문이 들기 시작했어요. 어떻게 하면 아드레날린 중독자가 될 수 있을까요? 어떤 요소들이 사람들을 공포 영화로 끌어들이며 이러한 유형을 형성하는 걸까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Horror 영화를 좋아하는 사람들은 누구일까요?
 
@@ -160,7 +299,18 @@ Horror films typically operate on smaller budgets compared to other genres like 
 
 ![2024-07-13-WhyDoPeopleLikeHorrorFilmsAStatisticalAnalysis_13.png](/assets/img/2024-07-13-WhyDoPeopleLikeHorrorFilmsAStatisticalAnalysis_13.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 참을성 있게 말해도, 나는 항상 공포가 어린이들을 위해 더 많이 기울어졌다고 생각했어. 그래서 이 연구 결과들은 다소 놀라웠어. 아마도 무서운 영화는 초기 성인기와 중년의 위험들로부터 탈출하는 선호도가 있는 것일지도 몰라 (하지만 이건 내 추측일 뿐이야). 교육 수준과의 연관은 있었는데, 영화 애호가들은 보통 이 장르를 내레벨의 응겁으로 여기더라고. 어쩌냐, 영화 애호가들아 — 극장에서 계속해서 독창적인 이야기들을 보고 싶다면 의견을 바꾸는 게 좋을 거야. 공포는 여기 남아 있어; 다른 장르들과 예산 범위는 천천히 사라지고 있어.
 
@@ -170,7 +320,18 @@ UPenn과 케임브리지 연구자들에 의한 2020년도 연구는 Big Five �
 
 ![Why Do People Like Horror Films?](/assets/img/2024-07-13-WhyDoPeopleLikeHorrorFilmsAStatisticalAnalysis_14.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 순간 나는 혼란스러워졌다. "신경 쇠약"한 사람은 무서움과 고통을 피하고 싶어할 텐데? 그럼 이 사람은 슬립리스 인 시애틀이나 데이즈드 앤 컨퓨즈드를 계속 보는 게 더 낫지 않을까? 분명히, 이 발견은 실수일 수밖에 없겠지.
 
@@ -180,7 +341,18 @@ UPenn과 케임브리지 연구자들에 의한 2020년도 연구는 Big Five �
 
 추가적인 질적 연구에서는 높아진 불안감을 가진 사람들이 안전한 환경에서 공포 영화를 통해 두려움에 맞서고 통제하려는 관행을 보일 수 있다고 나타났다. 시카고 대학의 콜튼 스크리브너와 그의 동료들은, 스트레스 상황에서 공포 영화를 통해 상상 속 위협과 맞서 싸우며, 이를 통해 사실상 항복하는 대신 심리적으로 더 강하게 나타나는 공포 영화 팬들이 많다고 제안했다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2020년에 Scrivner와 오르후스 대학의 Recreational Fear Lab이 수행한 분석에 따르면, 공포 팬덤과 COVID-19 팬데믹으로 인한 스트레스 대응능력 사이에 강력한 관련성이 있음을 발견했습니다. 호러 영화 소비자로 자신을 정의하거나 "병적 호기심"을 나타낸 사람들은 긍정적인 회복력과 낮은 심리적 스트레스 수준을 동시에 가지고 있습니다.
 
@@ -190,7 +362,18 @@ UPenn과 케임브리지 연구자들에 의한 2020년도 연구는 Big Five �
 
 ![Image 2](/assets/img/2024-07-13-WhyDoPeopleLikeHorrorFilmsAStatisticalAnalysis_17.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이들은 우연히 글로벌 재앙에 대비하고 자신의 탄력성을 키웠어요. Saw II, Contagion, Hereditary를 계속 보며요. 한편 나는 Lady Bird와 Call Me By Your Name을 보고 있었죠. 미성숙함과 섬세한 긴장감을 즐기며. 불필요한 언급이겠지만, 전염병 대비 능력 평가에서는 상당히 낮은 점수를 받겠네요.
 
@@ -200,7 +383,18 @@ YouGov 조사에 따르면, 공포를 좋아하는 부모를 가진 사람은 �
 
 [이미지: 왜 사람들은 공포 영화를 좋아할까? 통계 분석](/assets/img/2024-07-13-WhyDoPeopleLikeHorrorFilmsAStatisticalAnalysis_18.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어쩌면 누군가의 공포에 대한 욕망은 생물학적으로 비롯된 것이거나 혹은 이러한 선호성이 가족 의식주와 함께 자식들이 할로윈과 스크림을 부모님과 다시 보면서 전해진 것일지도 모릅니다. 아마도 둘 다를 조합한 것으로 생각됩니다. 전통과 유전을 통해 지속되는 특징일 것입니다.
 
@@ -210,7 +404,18 @@ YouGov 조사에 따르면, 공포를 좋아하는 부모를 가진 사람은 �
 
 ![이미지](/assets/img/2024-07-13-WhyDoPeopleLikeHorrorFilmsAStatisticalAnalysis_19.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그때 제가 열두 살 때, '더 링'이라는 영화를 보게 된 실수를 저질렀어요. '더 링'을 아직 보지 않은 분들은 운이 좋다고 할 수 있어요. 왜냐하면 이 영화는 정말으로 무서운 영화거든요. 이 영화의 기본적인 줄거리는, 만약 누군가가 보게 되면 정확히 7일 후에 끔찍한 죽음으로 이끌어진다는 킬러 비디오테이프에 관한 것이에요. 이 영화를 보면서 느꼈던 심리적인 경험이 두려웠고, 영화를 본 후 7일 후에 죽을 것 같다는 공포에 시달리게 되었어요.
 
@@ -220,7 +425,18 @@ YouGov 조사에 따르면, 공포를 좋아하는 부모를 가진 사람은 �
 
 그런데 몇 년 후에, 이 경험에 다르게 대응했더라면 했던 점이 나를 아쉽게 만들어요. 나는 왜냐하면 호러 영화를 즐겼으면 하는데요. 호러는 현대 영화 랜드스케이프에서 오리지널한 이야기와 영화 실험을 즐길 수 있는 소수의 예외 중 하나에요. 이 장르는 별도의 독립 스트리밍 서비스와 영화 축제를 지배하며, A24와 Blumhouse 같은 인디 스튜디오들은 자사의 제작 라인업의 50% 이상을 호러 컨셉에 투자해요. 불행히도, 이 창의적인 결과물은 나에게는 상관이 없어요. 왜냐하면 나는 호러 영화를 좋아하지 않는 부모님에게 호러 영화가 싫어하는 사람이거든요. 어쩌면 나는 이 장르에 대한 감사함을 즐겨야 할 수도 있어요 — 31세의 두려움을 피하는 사람이 어떻게든 Scream VI나 The Texas Chainsaw Massacre와 같은 영화를 좋아하는 분야를 향해 성공적인 이야기가 될 수도 있지 않을까요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 호러 장르를 좋아한다면, 축하합니다! 극장을 자주 방문하면서 소비하는 콘텐츠와 의미 있는 유대관계를 형성할 수 있습니다. 카타르시스를 느끼거나 즐거운 아드레날린 고조를 경험하게 될지도 모르죠. 한편 나는 고질적인 고급 메디오크리티처럼 고질적으로 구닥다리한 영화인 고질라x콩: 뉴 엠파이어를 보며, 영화에서 즐거운 시간을 보냈다고 자기선례를 하려고 애쓰게 될 것입니다.
 

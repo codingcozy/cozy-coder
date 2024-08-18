@@ -3,17 +3,13 @@ title: "2024년 7월 19일 CrowdStrike Windows 버그 완벽 해설"
 description: ""
 coverImage: "/assets/img/2024-08-03-TheJuly19thCrowdStrikeWindowsGlitchExplained_0.png"
 date: 2024-08-03 20:19
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-03-TheJuly19thCrowdStrikeWindowsGlitchExplained_0.png
 tag: Tech
 originalTitle: "The July 19th CrowdStrike Windows Glitch Explained"
 link: "https://medium.com/code-like-a-girl/the-july-19th-crowdstrike-windows-glitch-explained-c9eb77c49bdc"
 isUpdated: true
 ---
-
-
-
-
 
 ## 할머니와 할아버지도 이해하기 쉽게
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 최근 윈도우 중단 사태와 관련된 CrowdStrike를 들었을 때, 15년 전 블랙베리를 위해 윈도우 드라이버를 개발했던 경험이 떠올랐습니다. 당시, 셀 수 없이 많은 블루 스크린과 충돌을 다뤘기 때문에 무엇이 잘못됐을지 잘 알 것 같습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지난 금요일 발생한 문제는 복잡하며, 소프트웨어 개발에 익숙하지만 Windows 드라이버나 커널 공간에 익숙하지 않은 사람들에게는 명확히 해야 할 수도 있습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ## 사용자 공간
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 잘 이해하기 위해, Windows 컴퓨터를 당신의 집이라고 가정해 봅시다. 당신의 집 안에는 부엌, 거실, 침실과 같은 방들이 있습니다. 이곳은 일상 활동을 하는 장소로, 식사를 만들거나 TV를 시청하고 휴식을 취하는 곳입니다. 이들은 집의 기능과 직접 상호작용하는 가시적이고 접근 가능한 공간입니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 당신의 집 안에는 숨겨진 세계도 있습니다. 벽 뒤 시스템에는 기초, 배관, 전기, 난방이 포함됩니다. 이것들은 일상 생활 중에는 볼 수 없지만, 모든 것이 올바르게 작동하도록 하는 데 중요합니다. 이들은 물과 전기 공급을 처리하고 집의 운영을 유지하는 중요한 기능을 담당합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신 집의 내부 인프라입니다. 컴퓨터에서 이 영역은 커널 스페이스라고 합니다.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 스마트 온도 조절기와 같이 새로운 기능을 추가하는 것을 고려해보세요. 이 최신 기능은 처음부터 집에 있던 것은 아니지만 기존의 난방 및 냉방 시스템(내부 인프라)과 연결되어 정상적으로 작동해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 집 안의 온도를 모니터링하고 기존 인프라와 효과적으로 작동하는 콤포넌트를 가지고 있습니다. 사용자나 집을 원래 짓는 사람이 이 구성 요소(온도 조절 장치)를 만들지 않았기 때문에 이를 제3자 애플리케이션이라고 부릅니다.
 
@@ -63,7 +103,18 @@ Microsoft나 사용자에 의해 만들어지지 않았기 때문에 Falcon은 �
 
 # 인증 프로세스
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 구글과 같은 기업이 홈 스마트 서모스탯(Nest)을 만들 때는 해당 제품이 고객의 난방 및 냉방 시스템과 작동할 것임을 인증해야 합니다. 그 후 제품을 판매할 수 있죠.
 
@@ -73,7 +124,18 @@ Microsoft나 사용자에 의해 만들어지지 않았기 때문에 Falcon은 �
 
 Windows 기기에서 커널 스페이스에 액세스하는 어떤 응용 프로그램은 해당 기기에서 실행되기 전에 Windows에 의해 인증되어야 합니다. 인증을 받지 못하면 실행할 수 없죠. 하지만 때로는 신속히 발견된 큰 보안 위험들이 있어 Falcon의 업데이트가 필요할 때도 있지요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가끔 기업들은 애플리케이션을 커널 공간에서 작동하는 부분과 사용자 공간에서만 작동하는 부분으로 나눕니다. 커널 공간에 있는 부분은 인증이 필요하지만 사용자 공간에 있는 부분은 필요하지 않아요.
 
@@ -83,7 +145,18 @@ Windows 기기에서 커널 스페이스에 액세스하는 어떤 응용 프로
 
 어디로 향하고 있는지 보이나요? .....
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 어떻게 모든 것이 잘못되었을까요?
 
@@ -93,7 +166,18 @@ Windows 기기에서 커널 스페이스에 액세스하는 어떤 응용 프로
 
 여기서 문제가 발생합니다: 업데이트된 앱은 새로운 기능 또는 설정을 소개하여 조절기와 작동할 것으로 예상됩니다. 그러나 난방 및 냉방을 관리하는 조절기의 핵심 제어 시스템은 변경 사항을 예상대로 처리하지 못했습니다. 소프트웨어 개발자들은 기존 인프라와 이 변경 사항을 테스트하는 것을 잊었으며 올바르게 작동하려면 변경 사항이 필요하다는 것을 깨닫지 못했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요즘 앱을 사용하여 온도를 설정하면 업데이트된 데이터가 서열열기기 제어 시스템에 전달됩니다. 그러나 코어 시스템이 업데이트되지 않았기 때문에 이러한 새로운 데이터를 올바르게 해석하거나 처리할 수 없었습니다. 이 불일치로 인해 온도계는 난방 및 냉방 시스템에 잘못된 신호를 보내게 됩니다. 결과적으로 난방이 이미 따뜻할 때 켜지거나, 냉방 시스템이 뜨거울 때 작동하지 않아 집이 불편해질 수 있습니다.
 
@@ -103,7 +187,18 @@ Windows 기기에서 커널 스페이스에 액세스하는 어떤 응용 프로
 
 팔콘의 커널 공간 드라이버가 업데이트된 사용자 공간 구성 요소로부터 데이터를 가져오면 호환성 문제로 인해 중대한 장애가 발생할 수 있습니다. 이를 해결하기 위해서는 컴퓨터를 안전 모드로 수동으로 재부팅하고(온도계를 수동으로 수정하는 것과 같음), 문제가 되는 드라이버를 제거한 다음 컴퓨터를 정상적으로 재부팅해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이건 7월 19일 금요일에 정확히 일어난 사건이에요. CrowdStrike Falcon 애플리케이션의 업데이트로 인해 Kernel Space에서 심각한 오류가 발생했고, 설치된 모든 Windows 기기에서 블루 스크린 오브 데스가 발생했어요!
 
@@ -113,7 +208,18 @@ Windows 기기에서 커널 스페이스에 액세스하는 어떤 응용 프로
 
 이 사례는 온도 조절기든 컴퓨터든 시스템의 모든 부분을 동기화하여 원활한 작동을 보장하기 위해 유지하는 것이 왜 중요한지를 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 더 자세한 내용을 원하시나요?
 

@@ -3,17 +3,13 @@ title: "자율 주행에서 감지 엔지니어를 위한 플래닝 크래시 �
 description: ""
 coverImage: "/assets/img/2024-06-30-ACrashCourseofPlanningforPerceptionEngineersinAutonomousDriving_0.png"
 date: 2024-06-30 23:46
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-30-ACrashCourseofPlanningforPerceptionEngineersinAutonomousDriving_0.png
 tag: Tech
 originalTitle: "A Crash Course of Planning for Perception Engineers in Autonomous Driving"
 link: "https://medium.com/towards-data-science/a-crash-course-of-planning-for-perception-engineers-in-autonomous-driving-ede324d78717"
 isUpdated: true
 ---
-
-
-
-
 
 ## 기획과 결정을 위한 기본
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-30-ACrashCourseofPlanningforPerceptionEngineersinAutonomousDriving_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다중 이유가 있습니다. 사람이 만든 프레임워크에 기반을 둔 고전적인 스택은 기계 학습 기반 기능보다 설명 가능성이 높으며 현장 시험 문제를 빠르게 해결하기 위해 빠르게 반복할 수 있습니다(수 시간 내). 그러나 사용 가능한 인간 주행 데이터를 방치하는 것은 합리적이지 않습니다. 또한, 컴퓨팅 파워를 증가하는 것이 엔지니어링 팀을 확장하는 것보다 더 확장 가능합니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 본 게시물의 목표 독자는 특히 자율 주행 분야에서 활동하는 AI 실무자, 특히 인지 엔지니어를 대상으로 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 목차가 있는 긴 기사입니다 (11100 단어), 키워드로 빠르게 검색하고자 하는 분들께 도움이 될 것 같아요.
 
@@ -41,35 +59,46 @@ Table of Contents (ToC)
 
 왜 계획을 배워야 하는가?
 계획이란 무엇인가?
-   문제 정의
-   계획 용어집
-   행동 계획
-   Frenet vs 카테시안 시스템
+문제 정의
+계획 용어집
+행동 계획
+Frenet vs 카테시안 시스템
 고전적 도구 - 계획의 삼총사
-   탐색
-   샘플링
-   최적화
+탐색
+샘플링
+최적화
 산업 현장에서의 계획 실천
-   경로 - 속력 분리된 계획
-   공간-시간적 결합된 계획
+경로 - 속력 분리된 계획
+공간-시간적 결합된 계획
 의사 결정
-   무엇과 왜?
-   MDP와 POMDP
-   가치 반복과 정책 반복
-   알파고와 MCTS - 신경망과 트리의 만남
-   자율주행에서의 MPDM (및 후속작)
+무엇과 왜?
+MDP와 POMDP
+가치 반복과 정책 반복
+알파고와 MCTS - 신경망과 트리의 만남
+자율주행에서의 MPDM (및 후속작)
 산업 현장에서의 의사 결정
-   트리
-   트리 없이
+트리
+트리 없이
 자기 성찰
-   왜 계획에서 신경망인가?
-   e2e NN 플래너는 무엇인가?
-   예측 없이도 할 수 있을까?
-   트리 없이도 신경망만으로 할 수 있을까?
-   의사 결정을 위해 LLM을 사용할 수 있을까?
+왜 계획에서 신경망인가?
+e2e NN 플래너는 무엇인가?
+예측 없이도 할 수 있을까?
+트리 없이도 신경망만으로 할 수 있을까?
+의사 결정을 위해 LLM을 사용할 수 있을까?
 진화 트렌드
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제 해결적인 시각에서, 여러분의 고객들의 어려움을 더 잘 이해한다면, 인지 엔지니어로서 하향식 고객들에게 더 효과적으로 서비스를 제공할 수 있을 것입니다. 주요 관심을 인지 작업에 두지만, 새로운 도구를 도메인 지식과 결합하는 것이 문제를 해결하는 가장 효율적인 방법입니다. 특히 튼튼한 수학적 공식을 갖는 도메인 지식에 영감을 받은 학습 방법은 더 많은 데이터 효율성을 가질 것입니다. 계획이 규칙 기반에서 머신 러닝 기반 시스템으로 전환되면서 초기 프로토타입과 종단간 시스템의 제품이 도로에 등장하더라도, 계획과 머신 러닝의 기본을 깊이 이해할 수 있는 엔지니어가 필요합니다. 이러한 변화에도 불구하고, 고전적인 방법과 학습 방법이 상당 기간 동안 공존할 가능성이 높습니다. 아마 8:2에서 2:8로 이동하는 것일지도 모릅니다. 이 분야에서 일하는 엔지니어에게는 양쪽 세계를 이해하는 것이 거의 필수적입니다.
 
@@ -77,7 +106,18 @@ Table of Contents (ToC)
 
 또한, 계획은 자율 주행뿐만 아니라 모든 자율 에이전트에 중요한 부분입니다. 계획이 무엇인지, 어떻게 작동하는지를 이해한다면, 더 많은 머신 러닝 재능이 이 흥미로운 주제에 참여하여 자율 에이전트, 자동차든 다른 형태의 자동화든 발전에 기여할 수 있을 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 계획이란 무엇인가요?
 
@@ -87,7 +127,18 @@ Table of Contents (ToC)
 
 계획 시스템에 대한 입력은 정적 도로 구조물, 동적 도로 에이전트, 점유 네트워크에서 생성된 빈 공간, 그리고 교통 대기 조건을 포함한 모든 인지 출력물이 필요합니다. 계획 시스템은 부드러운 궤적을 위해 가속도와 거칠기를 모니터링하고 상호작용과 교통 예의를 고려하여 차량 안락성을 보장해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 계획 시스템은 자아 차량의 저수준 컨트롤러가 추적하기 위해 일련의 웨이포인트 형식의 궤적을 생성합니다. 구체적으로 이러한 웨이포인트는 미래의 자아 차량 위치를 일련의 고정된 시간 스탬프에서 나타냅니다. 예를 들어, 각 포인트는 0.4초 간격으로, 8초 계획 수평을 커버하며 총 20개의 웨이포인트가 생성될 수 있습니다.
 
@@ -97,7 +148,18 @@ Table of Contents (ToC)
 
 ![image](/assets/img/2024-06-30-ACrashCourseofPlanningforPerceptionEngineersinAutonomousDriving_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 계획 용어집
 
@@ -122,7 +184,18 @@ Table of Contents (ToC)
 - 의미 있는 동작(Semantic Action): 명확한 인간 의도를 가진 동작 (예: 차량 추격, 가로막기, 옆 통행, 양보, 추월)의 고수준 추상화입니다. 의도, 정책, 조종 또는 기본 동작으로도 개별적으로 참조됩니다.
 - 동작(Action): 고정된 의미가 없는 용어입니다. 제어(구동기가 실행할 고주파 스티어링, 스로틀 및 브레이크 명령)의 출력 또는 계획(경로 중요점)의 출력으로 참조될 수 있습니다. 의미 있는 동작은 동작 예측의 출력으로 참조됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다양한 문헌에서는 각기 다른 표기법과 개념을 사용할 수 있습니다. 몇 가지 예시를 살펴보겠습니다:
 
@@ -134,7 +207,18 @@ Table of Contents (ToC)
 
 ## 행동 계획
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기계 학습 엔지니어로, 행동 계획 모듈이 매우 수작업으로 만들어진 중간 모듈임을 알 수 있습니다. 정확한 형식과 내용에 대한 합의가 없습니다. 구체적으로, 행동 계획의 출력물은 참조 경로 또는 이고 동작에 대한 객체 라벨링일 수 있습니다 (예: 왼쪽 또는 오른쪽에서 지나가기, 통과 또는 양보). "의미 행동"이라는 용어에는 엄격한 정의나 고정된 방법이 없습니다.
 
@@ -144,7 +228,18 @@ Table of Contents (ToC)
 
 프레네트 좌표계는 자신만의 소개 섹션을 가치 있게 여길 만큼 널리 사용되는 시스템입니다. 프레네트 프레임은 머리를 따라 경로에 대한 측면 및 종횡 운동을 독립적으로 관리함으로써 궤적 계획을 간단화합니다. sss 좌표는 종횡 편향 (도로를 따라 이동 거리)을 나타내며, lll (또는 ddd) 좌표는 경로에 대한 측면 위치 (참조 경로와의 상대적 위치)를 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Frenet은 카테시안 좌표계에서 곡선 경로를 직선 터널 모델로 간단화합니다. 이 변환은 곡선 도로의 비선형 경계 제약을 선형 제약으로 변환하여 후속 최적화 문제를 크게 간소화합니다. 또한 인간은 종방향 및 횡방향 움직임을 다르게 인식하며, Frenet 프레임은 이러한 움직임을 분리하고 더 유연하게 최적화할 수 있도록 합니다.
 
@@ -154,7 +249,18 @@ Frenet 좌표계는 낮은 곡률의 정형화된 도로 그래프가 필요합�
 
 항구, 광산 지역, 주차장 또는 가이드 라인이 없는 교차로와 같은 비정형 도로의 경우, 더 유연한 카테시안 좌표계를 권장합니다. 카테시안 시스템은 고곡률 및 구조화되지 않은 시나리오를 더 효과적으로 처리할 수 있기 때문에 이러한 환경에 더 적합합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 고전적 도구 — 계획의 삼총사
 
@@ -164,7 +270,18 @@ Frenet 좌표계는 낮은 곡률의 정형화된 도로 그래프가 필요합�
 
 고전적인 그래프 검색 방법은 계획에서 인기가 있으며 구조화된 도로 상의 경로/미션 계획이나 구조화되지 않은 환경에서 최적의 경로를 찾기 위해 직접 모션 계획에 사용됩니다(주차장이나 도시 교차로와 같은 맵이 없는 시나리오). Dijkstra 알고리즘에서 A*(에이 스타)로 그리고 하이브리드 A*로 발전 경로가 명확하게 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Dijkstra's algorithm is like a thorough explorer examining every possible route to find the shortest one. It's a diligent method that guarantees the best path but can be a bit slow in practice. The algorithm shown in the image below meanders around in search of the optimal path. Essentially, it's similar to a broad and far-reaching search, considering the costs involved in moving to each location. To make this process more efficient, factoring in the destination location can help narrow down the search area.
 
@@ -174,27 +291,60 @@ In contrast, the A* algorithm utilizes clever strategies to prioritize paths tha
 
 For autonomous driving scenarios, the hybrid A* algorithm takes a step further by incorporating vehicle dynamics. A* alone may not adhere to the vehicle's movement restrictions and might not track accurately (for instance, maintaining the steering angle within a specific range like 40 degrees). While A* treats both the state and action spaces as a grid, the hybrid A* distinguishes between them, keeping the state in a grid-like structure but allowing smooth continuous actions based on the vehicle's dynamics.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-타로 전문가님 안녕하세요! 하이브리드 A*에서 제안된 핵심 혁신 중 하나인 분석 확장(목표로 향한 슛)이 있습니다. A*에 대한 자연스러운 개선 방법은 최근에 탐색한 노드를 목표 지점에 이어지는 충돌하지 않는 직선으로 연결하는 것입니다. 이를 가능하게 한다면, 우리는 해결책을 찾은 것입니다. 하이브리드 A*에서는 이 직선이 Dubins 및 Reeds-Shepp(RS) 커브로 대체되며, 이는 차량 키네마틱스를 준수합니다. 이 초기 중지 방법은 최적성과 실현 가능성 사이의 균형을 이루며, 더 나아가 실현 가능성에 더 초점을 맞춥니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-하이브리드 A*는 주차 상황 및 지도 없는 도심 교차로에서 적극적으로 활용됩니다. 여기에 주차 상황에서 그 작동 방식을 시연한 매우 멋진 동영상이 있습니다.
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+타로 전문가님 안녕하세요! 하이브리드 A*에서 제안된 핵심 혁신 중 하나인 분석 확장(목표로 향한 슛)이 있습니다. A*에 대한 자연스러운 개선 방법은 최근에 탐색한 노드를 목표 지점에 이어지는 충돌하지 않는 직선으로 연결하는 것입니다. 이를 가능하게 한다면, 우리는 해결책을 찾은 것입니다. 하이브리드 A\*에서는 이 직선이 Dubins 및 Reeds-Shepp(RS) 커브로 대체되며, 이는 차량 키네마틱스를 준수합니다. 이 초기 중지 방법은 최적성과 실현 가능성 사이의 균형을 이루며, 더 나아가 실현 가능성에 더 초점을 맞춥니다.
+
+하이브리드 A\*는 주차 상황 및 지도 없는 도심 교차로에서 적극적으로 활용됩니다. 여기에 주차 상황에서 그 작동 방식을 시연한 매우 멋진 동영상이 있습니다.
 
 ![video](/assets/img/2024-06-30-ACrashCourseofPlanningforPerceptionEngineersinAutonomousDriving_5.png)
 
 ## 샘플링
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다른 인기있는 계획 방법 중 하나는 샘플링입니다. 유명한 몬테카를로 방법은 무작위 샘플링 방법입니다. 본질적으로 샘플링은 많은 후보를 무작위로 선정하거나 사전에 따라 선택한 다음, 정의된 비용에 따라 최적의 후보를 선택하는 것을 포함합니다. 샘플링 기반 방법에서는 많은 옵션을 빠르게 평가하는 것이 중요합니다. 왜냐하면 이는 자율 주행 시스템의 실시간 성능에 직접적인 영향을 미치기 때문이죠.
 
-샘플링은 이미 주어진 문제나 하위 문제에 대한 해석적 솔루션이 이미 알려져 있는 매개 변수화된 솔루션 공간에서 발생할 수 있습니다. 예를 들어, 일반적으로 시간에 따른 위치 p(t)의 세 번째 미분(삼차 도함수)인 제르크(가속도의 세 번째 미분)의 제곱의 시간 적분을 최소화하는 것을 원합니다. 
+샘플링은 이미 주어진 문제나 하위 문제에 대한 해석적 솔루션이 이미 알려져 있는 매개 변수화된 솔루션 공간에서 발생할 수 있습니다. 예를 들어, 일반적으로 시간에 따른 위치 p(t)의 세 번째 미분(삼차 도함수)인 제르크(가속도의 세 번째 미분)의 제곱의 시간 적분을 최소화하는 것을 원합니다.
 
 ![Image](/assets/img/2024-06-30-ACrashCourseofPlanningforPerceptionEngineersinAutonomousDriving_6.png)
 
 수학적으로 증명될 수 있습니다. 이차 도학수의 제어 상태 사이의 최적의 연결을 제공하는 것은 신차(5차) 다항식이며, 추가된 비용 요소를 고려할 때에도 마찬가지입니다. 5차 다항식의 매개 변수 공간에서 샘플링함으로써 최소 비용을 갖는 것을 찾아 근사 솔루션을 얻을 수 있습니다. 비용은 속도, 가속도, 제르크 제한 및 충돌 확인과 같은 요소를 고려합니다. 이 방법은 본질적으로 샘플링을 통해 최적화 문제를 해결합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지 tag를 Markdown 형식으로 변경해주세요.
 
@@ -204,7 +354,18 @@ Sampling-based methods have inspired numerous ML papers, including CoverNet, Lif
 
 Optimization
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최적화는 특정 제약 조건 하에서 목표 함수를 최대화하거나 최소화하여 문제에 대한 최상의 해법을 찾는 것을 의미합니다. 신경망 훈련에서는 경사 하강법과 역전파를 사용하여 네트워크의 가중치를 조정하는 유사한 원리가 적용됩니다. 그러나 신경망 이외의 최적화 작업에서는 일반적으로 모델이 덜 복잡하며 경사 하강법보다 효과적인 방법이 종종 사용됩니다. 예를 들어, 경사 하강법은 이차 프로그래밍에 적용될 수 있지만, 일반적으로 가장 효율적인 방법은 아닙니다.
 
@@ -214,7 +375,18 @@ Optimization
 
 ![이미지](/assets/img/2024-06-30-ACrashCourseofPlanningforPerceptionEngineersinAutonomousDriving_9.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 계획 수립은 많은 지역 최적점을 갖는 매우 비볼록 최적화를 포함하므로 초기 솔루션에 매우 의존합니다. 게다가 볼록 최적화는 일반적으로 더 빨리 실행되므로 자율 주행과 같은 실시간 애플리케이션에선 선호됩니다. 전형적인 방법론은 다른 방법들과 함께 볼록 해법 공간을 먼저 개요화하기 위해 볼록 최적화를 사용하는 것입니다. 이것이 행동 계획과 모션 계획을 분리하는 수학적 기초이며, 좋은 초기 솔루션을 찾는 것은 행동 계획의 역할입니다.
 
@@ -224,7 +396,18 @@ Optimization
 
 ![Image 2](/assets/img/2024-06-30-ACrashCourseofPlanningforPerceptionEngineersinAutonomousDriving_11.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그런 결정을 어떻게 내릴까요? 비볼록 문제를 해결하기 위해 앞서 언급한 탐색 또는 샘플링 방법을 사용할 수 있습니다. 샘플링 기반 방법은 매개 변수 공간에 많은 옵션을 흩뿌려 비볼록 문제를 효과적으로 처리하며, 마치 탐색하는 것과 유사합니다.
 
@@ -234,7 +417,18 @@ Optimization
 
 #계획의 산업 실천 방법
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다양한 계획 시스템의 중요한 차별 요인 중 하나는 시공간적으로 분리되어 있는지 여부입니다. 구체적으로 시공간적으로 분리된 방법은 먼저 공간 차원에서 경로를 생성한 다음 이 경로의 속도 프로필을 계획합니다. 이 접근 방식은 경로-속도 분리로도 알려져 있습니다.
 
@@ -242,8 +436,18 @@ Optimization
 
 분리된 해결책은 구현하기 쉽고 문제의 약 95%를 해결할 수 있습니다. 반면 결합된 해결책은 높은 이론적 성능 한계를 가지나 구현하기 어렵습니다. 더 많은 매개변수를 조정해야 하며 매개변수 조정에 보다 원칙적인 접근이 필요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-06-30-ACrashCourseofPlanningforPerceptionEngineersinAutonomousDriving_13.png)
 
@@ -253,8 +457,18 @@ Baidu Apollo's EM planner is a great example of path-speed decoupled planning sy
 
 The EM planner simplifies the computational complexity by breaking down a three-dimensional station-lateral-speed problem into two two-dimensional problems: station-lateral and station-speed. The core of Apollo’s EM planner consists of an iterative Expectation-Maximization (EM) step, which includes path optimization and speed optimization. Each step involves an E-step (projection and formulation in a 2D state space) and an M-step (optimization in the 2D state space). The E-step requires projecting the 3D problem into either a Frenet SL frame or an ST speed tracking frame.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-30-ACrashCourseofPlanningforPerceptionEngineersinAutonomousDriving_14.png)
 
@@ -264,7 +478,18 @@ Dynamic Programming employs a sampling or searching algorithm to create an initi
 
 Using our defined terminology, Path DP corresponds to lateral BP, Path QP to lateral MP, Speed DP to longitudinal BP, and Speed QP to longitudinal MP. This process involves executing Basic Planning (BP) first, followed by Master Planning (MP) in both path and speed optimization steps.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Autonomous Driving Planning](/assets/img/2024-06-30-ACrashCourseofPlanningforPerceptionEngineersinAutonomousDriving_15.png)
 
@@ -274,7 +499,18 @@ Using our defined terminology, Path DP corresponds to lateral BP, Path QP to lat
 
 예를 들어, 좁은 공간 통과 시, 최적의 행동은 양보하기 위해 감속하거나 지나가기 위해 가속하는 것일 수 있습니다. 이러한 행동은 분리된 해결 공간 내에서 실현할 수 없으며, 공간과 속도를 동시에 고려하여 복잡한 동적 상호작용을 효과적으로 처리하는 것을 요구합니다. 공간적 시간적 결합 최적화는 더 통합된 접근 방식을 가능하게 하며, 경로와 속도를 동시에 고려하여 복잡한 동적 상호작용을 효과적으로 다룰 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-06-30-ACrashCourseofPlanningforPerceptionEngineersinAutonomousDriving_16.png)
 
@@ -284,7 +520,18 @@ Now, let's discuss two methods for solving these challenges: brute force search 
 
 Brute force search involves direct exploration in a 3D spatiotemporal space (2D in space and 1D in time) and can be conducted in either XYT (Cartesian) or SLT (Frenet) coordinates. Let's take SLT as an example. In SLT space, the layout resembles an elongated energy bar, stretched in the L dimension and flattened in the ST face. For brute force search, we can apply the hybrid A-star algorithm, where the cost consists of a combination of progress cost and cost to go. Throughout optimization, we must adhere to search constraints that prevent backward movements in both the s and t dimensions.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-30-ACrashCourseofPlanningforPerceptionEngineersinAutonomousDriving_17.png)
 
@@ -294,7 +541,18 @@ SSC는 여전히 BP (Behavior Planning) 모듈이 필요하여 초기 운전 경
 
 ![image](/assets/img/2024-06-30-ACrashCourseofPlanningforPerceptionEngineersinAutonomousDriving_18.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 의사 결정
 
@@ -304,7 +562,18 @@ SSC는 여전히 BP (Behavior Planning) 모듈이 필요하여 초기 운전 경
 
 고급 계획 도구가 사용 가능한 경우 의사 결정의 필요성에 대해 의문을 제기할 수 있습니다. 그러나 불확실성과 상호 작용이라는 두 가지 주요 측면은 주로 동적 객체의 존재로 인해 확률적인 성격을 환경으로 도입합니다. 상호 작용은 자율 주행의 가장 어려운 부분으로, 일반 로보틱스와 구별짓습니다. 자율 주행 차량은 길을 따라 다니는 것 뿐만 아니라 다른 요소들의 행동을 예측하고 반응하기 위해서도 해야 하므로 안전하고 효율적인 의사 결정이 필수적입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결정적인(순수하게 기하학적인) 상호 작용이 없는 세계에서는 결정을 내리는 것이 불필요하며, 검색, 샘플링, 최적화를 통한 계획이 충분합니다. 3D XYT 공간에서의 무차별 검색은 일반적인 해결책으로 기능할 수 있습니다.
 
@@ -314,7 +583,18 @@ SSC는 여전히 BP (Behavior Planning) 모듈이 필요하여 초기 운전 경
 
 계획의 세 가지 중요한 목표 중 하나인 안전, 편의, 효율 중에서, 결정을 통해 주로 효율성이 향상됩니다. 보수적인 행동은 안전과 편의를 극대화할 수 있지만, 다른 도로 주체들과의 효과적인 협상은 결정을 통해야만 최적의 효율성을 달성할 수 있습니다. 효과적인 결정은 또한 지능을 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## MDP과 POMDP
 
@@ -324,7 +604,18 @@ Markov Process (MP)는 정적인 확률이 아닌 동적인 랜덤 현상을 다
 
 Markov Decision Process (MDP)는 Markov Process를 의사 결정을 포함시킴으로써 확장한 것입니다. MDP는 결과가 부분적으로 무작위이고 부분적으로 의사 결정자 또는 에이전트에 의해 제어되는 상황을 모델링합니다. MDP는 다섯 가지 요인으로 모델링될 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 상태 (S): 환경의 상태.
 - 행동 (A): 에이전트가 환경에 영향을 미치기 위해 취할 수 있는 행동.
@@ -338,7 +629,18 @@ Markov Decision Process (MDP)는 Markov Process를 의사 결정을 포함시킴
 
 ![Image](/assets/img/2024-06-30-ACrashCourseofPlanningforPerceptionEngineersinAutonomousDriving_19.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파셜 옵저버블 마르코프 의사결정 프로세스(POMDP)는 상태가 직접 관찰되지 않고 옵저베이션을 통해 추론되는 복잡성을 추가합니다. POMDP에서 에이전트는 환경의 상태를 추정하기 위해 가능한 상태에 대한 확률 분포인 '신념'을 유지합니다. 자율 주행 시나리오는 환경의 부분적 가시성과 내재적 불확실성으로 인해 POMDP에 의해 더 잘 표현됩니다. 옵저베이션이 상태를 완벽하게 노출하는 특수한 경우인 MDP는 POMDP의 특별한 경우로 볼 수 있습니다.
 
@@ -346,7 +648,18 @@ Markov Decision Process (MDP)는 Markov Process를 의사 결정을 포함시킴
 
 POMDP는 정보를 적극적으로 수집하여 필요한 데이터를 수집하는 행동을 이끌어내어 이러한 모델의 지능적인 행동을 나타낼 수 있습니다. 이 능력은 특히 교차로에서 대기하는 상황과 같은 시나리오에서 가치 있습니다. 다른 차량의 의도와 신호등의 상태에 대한 정보를 수집함으로써 안전하고 효율적인 결정을 내리는 데 중요하기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가치 반복과 정책 반복은 MDP 또는 POMDP 문제를 해결하는 체계적인 방법입니다. 이러한 방법은 복잡성 때문에 실제 응용에서는 흔히 사용되지는 않지만, 이를 이해하면 정확한 해결책과 어떻게 간소화될 수 있는지에 대한 통찰력을 제공합니다. 예를 들어, 알파고의 MCTS 사용이나 자율 주행에서의 MPDM과 같은 방법이 실제 적용됩니다.
 
@@ -356,7 +669,18 @@ MDP에서 최적 정책을 찾기 위해서는 상태에서 취하는 행동으�
 
 ![image](/assets/img/2024-06-30-ACrashCourseofPlanningforPerceptionEngineersinAutonomousDriving_21.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 벨만 최적성 방정식으로부터 최적 정책을 추출하는 것은 최적 가치 함수가 있을 때 비교적 간단합니다. 하지만 이 최적 가치 함수를 어떻게 찾을까요? 이때 가치 반복이 구원을 줍니다.
 
@@ -366,7 +690,18 @@ MDP에서 최적 정책을 찾기 위해서는 상태에서 취하는 행동으�
 
 ![Image Description](/assets/img/2024-06-30-ACrashCourseofPlanningforPerceptionEngineersinAutonomousDriving_23.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가치 반복은 유한 상태 공간에 대해 수렴이 보장됩니다. 상태에 할당된 초기 값에 관계없이 수렴합니다(자세한 증명은 RL의 성경을 참조하세요). 할인 요소(gamma)가 0으로 설정되면 즉각적 보상만 고려하므로 한 번의 반복 후에 수렴합니다. 보다 작은 gamma는 고려 범위가 짧아져 빠른 수렴을 이끌지만, 구체적인 문제 해결을 위한 최상의 옵션이 항상 되지는 않습니다. 할인 요소를 균형있게 설정하는 것이 엔지니어링 실무에서 중요합니다.
 
@@ -376,7 +711,18 @@ MDP에서 최적 정책을 찾기 위해서는 상태에서 취하는 행동으�
 
 그러나 가치 반복은 비효율성도 갖습니다. 각 반복에서 모든 가능한 행동을 고려하여 최적 행동을 취해야 하므로 Dijkstra의 알고리즘과 유사합니다. 기본적인 접근 방식으로 실행 가능성을 보여줍니다만, 실제 응용 프로그램에는 typ이하지 않는 것이 일반적입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 경찰 조치는 현재 정책에 따라 행동을 취하고 벨만 방정식(벨만 최적 방정식이 아님)에 따라 업데이트하여 정책 개선을 하는 것으로 향상됩니다. 정책 반복은 정책 평가를 정책 개선과 분리하여 훨씬 빠른 해결책을 만들어 냅니다. 각 단계는 목적을 극대화하는 행동을 찾기 위해 모든 가능한 행동을 탐색하는 대신 주어진 정책을 기반으로 취합니다. 정책 반복의 각 반복은 정책 평가 단계 때문에 계산적으로 더 많을 수 있지만, 전반적으로 빠른 수렴으로 이어집니다.
 
@@ -384,7 +730,18 @@ MDP에서 최적 정책을 찾기 위해서는 상태에서 취하는 행동으�
 
 ## 알파고와 MCTS - 신경망과 트리가 만날 때
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 모두는 2016년 알파고가 최고의 인간 플레이어를 이긴 놀라운 이야기를 들어왔습니다. 알파고는 바둑 게임을 MDP로 정의하고 몬테 카를로 트리 탐색(MCTS)으로 해결합니다. 하지만 왜 가치 반복이나 정책 반복을 사용하지 않을까요?
 
@@ -394,7 +751,18 @@ MDP에서 최적 정책을 찾기 위해서는 상태에서 취하는 행동으�
 
 ![image](/assets/img/2024-06-30-ACrashCourseofPlanningforPerceptionEngineersinAutonomousDriving_26.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **MCTS (Monte Carlo Tree Search)**은 현재 상태로부터의 의사 결정을 중점적으로 하는 정책 평가 방법입니다. 한 번의 반복은 선택, 확장, 시뮬레이션(또는 평가), 백업으로 구성됩니다.
 
@@ -407,7 +775,18 @@ MDP에서 최적 정책을 찾기 위해서는 상태에서 취하는 행동으�
 
 알파고의 MCTS는 두 개의 신경망에 의해 향상됩니다. **Value Network**는 주어진 상태(판의 구성)의 승률을 평가합니다. **Policy Network**는 모든 가능한 이동에 대한 조치 분포를 평가합니다. 이러한 신경망들은 MCTS의 효과적인 깊이와 너비를 줄임으로써 개선을 이룹니다. 정책 신경망은 조치 샘플링에 도움을 주어 유망한 이동에 집중시키며, 가치 신경망은 포지션을 더 정확히 평가하여 롤아웃의 필요성을 줄입니다. 이 조합은 알파고가 바둑의 방대한 상태 공간에서 효율적이고 효과적인 탐색을 수행할 수 있게 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-06-30-ACrashCourseofPlanningforPerceptionEngineersinAutonomousDriving_27.png)
 
@@ -417,7 +796,18 @@ What can we learn from AlphaGo for autonomous driving? AlphaGo demonstrates the 
 
 # MPDM (and successors) in autonomous driving
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 고의 게임에서는 모든 상태가 즉시 양쪽 플레이어에게 사용 가능하며, 관찰이 상태와 동일한 것으로 간주됩니다. 이는 게임이 MDP 프로세스에 의해 특징 지어질 수 있도록 합니다. 반면에 자율 주행은 관찰을 통해 상태를 추정할 수 있는 POMDP 프로세스입니다.
 
@@ -427,7 +817,18 @@ MPDM(및 두 가지 후속 조치, 그리고 화이트 페이퍼)는 이 방향�
 
 ![Image](/assets/img/2024-06-30-ACrashCourseofPlanningforPerceptionEngineersinAutonomousDriving_28.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 MPDM(Multi-Policy Decision-Making)의 가정은 두 가지로 이루어져 있어요. 첫째, 인간 운전자의 많은 의사 결정은 이산적이고 고수준의 의미 있는 행동(예: 감속, 가속, 차선 변경, 정지)이 포함돼 있어요. 이러한 행동들은 이 문맥에서 정책이라고 불려지죠. 두 번째 암시적인 가정은 다른 주체들에 대한 것인데요: 다른 차량들은 합리적으로 안전한 결정을 내릴 것이라고 가정돼요. 한 차량의 정책이 결정되면, 그의 행동(궤적)도 결정돼요.
 
@@ -437,7 +838,18 @@ MPDM은 먼저 여러 옵션 중에서 자아차량을 위한 한 가지 정책�
 
 MPDM은 밀집된 교통 흐름 속으로 끼어드는 등 지능적이고 인간적인 행동을 가능하게 해줘요. 이러한 것은 상호 작용을 명시적으로 고려하지 않는 예측 후 계획 파이프라인에서는 불가능해요. MPDM의 예측 모듈은 앞으로의 시뮬레이션을 통해 행동 계획 모델과 긴밀하게 통합돼 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 MPDM은 결정 기간(10초) 동안 하나의 정책을 가정합니다. 기본적으로, MPDM은 하나의 깊이를 가진 MCTS 방식을 채택하며, 모든 가능한 에이전트 예측을 고려합니다. 이로써 EUDM, EPSILON, MARC 등의 후속 연구 작업을 영감을 주는 여지가 남습니다. 예를 들어, EUDM은 더 유연한 자아 정책을 고려하고, 8초 동안의 결정 기간에 대해 2초씩 시간 간격을 갖는 네 계층의 정책 트리를 할당합니다. 증가된 트리 깊이에 따른 추가 계산을 보상하기 위해, EUDM은 전담 분기에 의한 더 효율적인 넓이 가지치기를 수행하며, 중요한 상황과 주요 차량을 식별합니다. 이 방식은 더 균형 잡힌 정책 트리를 탐색합니다.
 
@@ -447,7 +859,18 @@ MPDM과 EUDM의 전방 시뮬레이션에는 매우 간단한 운전자 모델(I
 
 자율 주행의 맥락에서의 비상 대책 수립은 다양한 가능한 미래 시나리오를 고려하여 여러 잠재적인 궤적을 생성하는 것을 포함합니다. 경험 많은 운전자가 많은 미래 시나리오를 예측하고 항상 안전한 예비 계획을 세우는 것이 주요 동기부여 예시입니다. 이 예상 방식은, 다른 차량이 자신의 차로로 갑자기 차로 변경하는 상황에서도 더 부드러운 운전 경험으로 이어집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 긴급 상황 대비 계획에서 중요한 측면 중 하나는 의사 결정 이분화 지점을 연기하는 것입니다. 이는 서로 다른 잠재적 궤적이 분기되는 지점을 지연시켜, 자아 차량이 정보를 수집하고 다양한 결과에 대응할 시간을 더 많이 확보하도록 하는 것을 의미합니다. 이를 통해 차량은 더 많은 정보를 바탕으로 한 결정을 내릴 수 있으며, 이는 숙련된 운전자와 유사한 부드럽고 자신감 있는 운전 행동을 낳을 수 있습니다.
 
@@ -457,7 +880,18 @@ MPDM 및 이에 따르는 모든 연구들의 한 가지 가능한 단점은 고
 
 # 의사 결정 산업 실천법
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Decision-making이 현재 연구에서 핫한 주제입니다. 심지어 고전적인 최적화 방법조차 완전히 탐구되지 않은 상태입니다. 머신러닝 방법들은 특히 대형 언어 모델 (LLMs)의 등장과 Chain of Thought (CoT) 또는 Monte Carlo Tree Search (MCTS)와 같은 기법으로 더욱 빛을 발할 수 있습니다.
 
@@ -467,7 +901,18 @@ Trees는 의사결정을 수행하는 체계적인 방법입니다. Tesla AI Day
 
 높은 수준에서 Tesla의 접근 방식은 행동 계획 (의사결정) 이후 모션 계획을 따릅니다. 먼저 볼록한 통로를 탐색하고 그 후 공간적-시간적 공동 계획을 사용하여 연속 최적화에 투입합니다. 이 방식은 좁은 통과와 같은 시나리오를 효과적으로 해결합니다. 해당 시나리오는 경로 속도 분리 계획의 전형적인 병목 현상입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지 태그를 Markdown 형식으로 변경해주세요.
 
@@ -477,7 +922,18 @@ Tesla의 기계 학습 사용 중 하나의 하이라이트는 경로 최적화�
 
 충돌 검사와 안락성 분석과 같은 고전적인 물리학 기반 검사를 신경망 평가자와 결합하여 진입 확률 및 인간과 유사한 정도를 예측하는 신경망 평가자를 만듭니다. 이 점수는 검색 공간을 가지치기하여 가장 유망한 결과에 계산을 집중함으로써 도와줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 많은 사람들이 기계 학습이 고수준 의사 결정에 적용되어야 한다고 주장하는 반면, 테슬라는 ML을 기본적으로 최적화를 가속화하고 결과적으로 트리 탐색을 진행하는 데에 활용합니다.
 
@@ -487,17 +943,39 @@ Tesla의 기계 학습 사용 중 하나의 하이라이트는 경로 최적화�
 
 # 나무 없어요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나무를 자라게 하는 암묵적 상호작용을 고려할 수 있습니다. 미리 예측하고 계획 수립 간에 일차 상호작용을 수행하기 위해 이삭 논리를 구현할 수 있습니다. 한 차수의 상호작용만으로도 이미 훌륭한 행동을 발생시킬 수 있음을 TuSimple의 시연에서 확인할 수 있습니다. MPDM은 본래 한 차수 상호작용이지만 더 원칙적이고 확장 가능한 방식으로 실행됩니다.
 
 ![Image](/assets/img/2024-06-30-ACrashCourseofPlanningforPerceptionEngineersinAutonomousDriving_33.png)
 
-TuSimple은 사고 대비 계획을 수행할 수 있는 능력을 시연했습니다. 이는 MARC에서 제안된 접근 방식과 유사하지만 (MARC는 사용자 정의 위험 선호도에 대응할 수도 있습니다). 
+TuSimple은 사고 대비 계획을 수행할 수 있는 능력을 시연했습니다. 이는 MARC에서 제안된 접근 방식과 유사하지만 (MARC는 사용자 정의 위험 선호도에 대응할 수도 있습니다).
 
 ![Image](/assets/img/2024-06-30-ACrashCourseofPlanningforPerceptionEngineersinAutonomousDriving_34.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 자기 성찰
 
@@ -507,7 +985,18 @@ TuSimple은 사고 대비 계획을 수행할 수 있는 능력을 시연했습�
 
 기존 모듈화된 파이프라인, e2e NN 계획자로서, 또는 e2e 자율 주행 시스템으로서 문제를 세 가지 다른 관점에서 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그림판으로 다시 돌아가 볼까요? 자율 주행 시스템의 계획 시스템의 문제 정의를 검토해 봅시다. 목표는 차량 내의 실시간 엔지니어링 제약 조건을 준수하면서 매우 불확실하고 상호 작용적인 환경에서 안전, 편안함 및 효율성을 보장하는 궤적을 얻는 것입니다. 이러한 요소들은 아래 차트에 목표, 환경 및 제약 조건으로 요약되어 있습니다.
 
@@ -517,7 +1006,18 @@ TuSimple은 사고 대비 계획을 수행할 수 있는 능력을 시연했습�
 
 게다가 일반적으로 간과되는 측면은 현재 시대의 시각 중심 및 HD지도 없이 운전하는 시대에 특히 불확실하고 불완전한 지각 결과를 견딜 수 있는 계획이어야 한다는 것입니다. SD 지도를 선행으로 가지고 있는 것은 이 불확실성을 완화해 주지만, 여전히 강하게 수작업된 계획 시스템에 상당한 어려움을 야기합니다. 이 지각 불확실성은 리다 및 HD지도의 적극적인 활용을 통해 레벨 4 (L4) 자율 주행 회사들에 의해 해결된 문제로 간주되었습니다. 그러나 이 두 지주 없이 대량 생산 자율 주행 솔루션으로 이동하는 산업은 이 문제가 재부각되고 있습니다. NN 계획자는 주로 불완전하고 불완전한 지각 결과를 처리할 수 있어 대량 생산을 위한 시각 중심 및 HD지도 없는 고급 운전자 지원 시스템 (ADAS)에 필수적인 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상호 작용은 몬테 카를로 트리 탐색(Monte Carlo Tree Search, MCTS)나 MPDM의 간소화된 버전과 같은 원칙적인 의사 결정 시스템으로 다뤄져야 합니다. 주요 도전 과제는 자율 주행의 도메인 지식을 통해 스마트한 제거를 통해 균형있게 정책 트리를 성장시켜 조합폭발의 문제(차원의 저주)를 처리하는 것입니다. MPDM 및 해당 변형은 학계와 산업(Tesla 등)에서 이러한 균형있게 트리를 성장시키는 방법의 좋은 예를 제공합니다.
 
@@ -527,7 +1027,18 @@ TuSimple은 사고 대비 계획을 수행할 수 있는 능력을 시연했습�
 
 ![image](/assets/img/2024-06-30-ACrashCourseofPlanningforPerceptionEngineersinAutonomousDriving_36.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 엔드 투 엔드(End-to-End) 신경망(Neural Network) 플래너는 어떤가요?
 
@@ -537,7 +1048,18 @@ TuSimple은 사고 대비 계획을 수행할 수 있는 능력을 시연했습�
 
 이 엔드 투 엔드 플래너는 더 나아가 인식과 계획을 모두 결합한 엔드 투 엔드 자율 주행 시스템으로 발전시킬 수 있습니다. Wayve의 LINGO-2(2024)와 Tesla의 FSDv12(2024)가 이를 성취한다고 주장하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 접근 방식의 이점은 두 가지로 나뉩니다. 첫째, 이는 인식 문제에 대처합니다. 주로 사용되는 인식 인터페이스로 명확하게 모델링하지 못하는 운전의 여러 측면이 있습니다. 예를 들어, 물 웅덩이를 피하기 위해 주행 시스템을 손수 조정하거나 웅덩이나 틈새에 대비해 속도를 줄이는 것은 매우 어렵습니다. 중간 인식 기능을 통과할 수 있지만, 이는 근본적인 문제를 해결하지 못할 수도 있습니다.
 
@@ -547,7 +1069,18 @@ TuSimple은 사고 대비 계획을 수행할 수 있는 능력을 시연했습�
 
 내 추측으로, 최종 형태의 엔드 투 엔드 (e2e) 운전자는 대규모 비전 및 액션-네이티브 멀티모달 모델이라고 생각됩니다. 계산 제약이 없다면 몬테 카를로 트리 탐색 (MCTS)로 강화할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자율 주행의 세계 모델은 2024년을 기준으로 주로 비전 및 행동 모드(또는 VA 모델)를 다루는 다중 모달 모델입니다. 언어는 훈련 가속화, 제어 가능성 추가, 설명 가능성 제공에 도움이 될 수 있지만 필수적이지는 않습니다. 세계 모델의 최종 형태는 VLA(비전-언어-행동) 모델이 될 것입니다.
 
@@ -558,7 +1091,18 @@ TuSimple은 사고 대비 계획을 수행할 수 있는 능력을 시연했습�
 
 세계 모델은 액션 출력을 통해 정책을 직접 생성하여 차량을 운전할 수 있게 합니다. 또는 MCTS는 세계 모델에 쿼리를 하고 해당 정책 출력을 사용하여 탐색을 안내할 수 있습니다. 이 세계 모델-MCTS 접근 방식은 계산이 많이 필요하지만 명시적 추론 논리로 인해 모서리 사례를 처리하는 능력이 높을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 예측 없이도 가능할까요?
 
@@ -568,7 +1112,18 @@ TuSimple은 사고 대비 계획을 수행할 수 있는 능력을 시연했습�
 
 예측의 다른 문제는 평균 이동 오차 (ADE) 및 최종 이동 오차 (FDE)와 같은 열린 루프 핵심 성과 지표(KPI)가 계획에 미치는 영향을 반영하지 못하는 비효과적인 측정 기준입니다. 대신 의도 수준에서의 재현율과 정밀도와 같은 지표를 고려해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 In an end-to-end system, having a separate prediction module may not always be required. However, incorporating implicit supervision, along with other domain knowledge from a traditional stack, can definitely enhance or improve the data efficiency of the learning system. It is also beneficial to evaluate the prediction behavior, whether it is explicit or implicit, to help debug such an end-to-end system.
 
@@ -578,7 +1133,18 @@ Let's start with the conclusions. Neural networks (nets) can achieve very high, 
 
 First and foremost, trees can complement neural networks. Trees can elevate the performance of a network, whether it is based on neural networks or not. In the case of AlphaGo, despite training a policy network through supervised and reinforcement learning, the overall performance was still outperformed by the Monte Carlo Tree Search (MCTS)-based AlphaGo, which integrates the policy network as one of its components.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 둘째로, 나무를 증류할 수 있는 네트워크가 있습니다. 알파고에서 MCTS는 트리에서 노드(상태 또는 보드 위치)를 평가하기 위해 가치 네트워크와 빠른 롤아웃 정책 네트워크로부터 보상을 사용했습니다. 알파고 논문에는 가치 함수만 사용할 수 있지만, 두 가지 결과를 결합하는 것이 최상의 결과를 얻는다고 언급되었습니다. 가치 네트워크는 정책 롤아웃으로부터 지식을 증류하며 상태-가치 쌍을 직접 배우는 역할을 합니다. 이는 인간이 느린 시스템 2의 논리적 사고를 빠른 직관적인 시스템 1의 반응으로 증류하는 방식과 유사합니다. 다니엘 칸만의 “사고, 빠르고 느린” 책에서는 체스 마스터가 연습을 통해 빠르게 패턴을 인식하고 신속한 결정을 내리는 능력을 키울 수 있다고 설명합니다. 반면 초보자는 유사한 결과를 얻으려면 상당한 노력이 필요합니다. 마찬가지로 알파고의 가치 네트워크는 주어진 보드 위치의 신속한 평가를 제공하기 위해 훈련되었습니다.
 
@@ -588,7 +1154,18 @@ First and foremost, trees can complement neural networks. Trees can elevate the 
 
 그래서 우리는 나무가 네트를 향상시키고, 네트가 나무를 증류한다는 강력한 조합을 가지고 있습니다. 이 긍정적 피드백 루프는 알파제로가 다중 게임에서 초인적인 성과에 이르기 위해 부스트하는 데 사용하는 핵심 요소입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대형 언어 모델(Large Language Models, LLM) 개발에도 동일한 원칙이 적용됩니다. 게임에서 우리는 승리 또는 패배와 같이 명확히 정의된 보상을 가지고 있기 때문에 특정 작업이나 상태의 가치를 결정하기 위해 전방 롤아웃을 사용할 수 있습니다. 그러나 LLM에서는 보상이 바둑 게임처럼 명확하게 정의되어 있지 않기 때문에 인간의 선호도를 통해 모델을 평가하기 위해 인간 피드백을 활용한 강화 학습(RLHF)을 의존합니다. 그러나 ChatGPT와 같이 이미 훈련된 모델을 사용할 경우 감독된 세밀 조정(Supervised Fine-tuning, SFT)을 사용하여 여전히 강력한 모델을 RLHF 없이도 축소할 수 있습니다.
 
@@ -598,7 +1175,18 @@ First and foremost, trees can complement neural networks. Trees can elevate the 
 
 # LLM을 사용하여 결정을 내릴 수 있을까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가장 뜨거운 인공 지능 시스템 대표들의 요약을 보면, LLMs는 의사 결정을 수행하도록 설계되지 않았다는 것을 알 수 있습니다. 본질적으로 LLMs는 문서 작성을 위해 훈련되었으며, 심지어 SFT와 일치시킨 LLM 보조 시스템은 대화를 특별한 종류의 문서로 취급합니다(대화 기록 완성).
 
@@ -608,7 +1196,18 @@ First and foremost, trees can complement neural networks. Trees can elevate the 
 
 LLMs에 완전한 MCTS를 통합하려는 많은 연구가 진행 중입니다. 구체적으로, LLM-MCTS(NeurIPS 2023)는 LLM을 상식적인 "세계 모델"로 취급하고, LLM으로 인한 정책 행동을 탐색을 안내하는 휴리스틱으로 사용합니다. LLM-MCTS는 복잡하고 새로운 작업에 대해 MCTS만큼이나 LLM에 의한 정책보다 훨씬 우월한 성능을 보입니다. OpenAI의 높은 관심을 받고 있는 Q-star도 LLMs를 MCTS로 강화하는 동일한 접근 방식을 따르는 것으로 보입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 진화의 흐름
 
@@ -618,13 +1217,24 @@ LLMs에 완전한 MCTS를 통합하려는 많은 연구가 진행 중입니다. 
 
 ![image](/assets/img/2024-06-30-ACrashCourseofPlanningforPerceptionEngineersinAutonomousDriving_41.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 핵심 포인트
 
 - ML은 도구로서의 역할: 머신 러닝은 독립적인 해결책이 아닌 도구로서의 역할을 합니다. 현재의 모듈식 설계에도 계획 수립에 도움을 줄 수 있습니다.
 - 완전한 문제 정식화: 문제의 완전한 정식화로 시작한 후 성능과 자원의 균형을 맞추기 위해 합리적인 가정을 하세요. 이는 미래 지향적인 시스템 설계를 만들어주고 자원이 증가함에 따라 개선되도록 합니다. POMDP의 정식화에서 AlphaGo의 MCTS 및 MPDM과 같은 엔지니어링 솔루션으로의 전환을 상기해 보세요.
-- 알고리즘 적응: 이론적으로 아름다운 알고리즘(Dijkstra 및 Value Iteration 등)들은 개념을 이해하는 데에 큰 도움이 되지만 실용적 엔지니어링에 적응이 필요합니다 (Value Iteration을 MCTS로, Dijkstra의 알고리즘을 Hybrid A-star로). 
+- 알고리즘 적응: 이론적으로 아름다운 알고리즘(Dijkstra 및 Value Iteration 등)들은 개념을 이해하는 데에 큰 도움이 되지만 실용적 엔지니어링에 적응이 필요합니다 (Value Iteration을 MCTS로, Dijkstra의 알고리즘을 Hybrid A-star로).
 - 결정론적 vs. 확률적: 계획은 결정론적(필연적으로 정적이지는 않음)인 상황을 해결하는 데 강점을 보입니다. 확률적 상황에서의 결정은 완전 자율주행으로 나아가는 데 가장 어려운 과제입니다.
 - 비상 대비 계획: 여러 가지 미래를 공통 조치로 병합하는 데 도움이 됩니다. 항상 대비 계획으로 되짚을 수 있도록 적극적으로 대응하는 것이 유익합니다.
 - End-to-end 모델: End-to-end 모델이 완전 자율주행을 해결할 수 있는지 여전히 불분명합니다. MCTS와 같은 고전적인 방법이 여전히 필요할 수 있습니다. 신경망은 보조 역할을 다룰 수 있으며, 트리는 에이전트를 관리할 수 있습니다.
@@ -634,7 +1244,18 @@ LLMs에 완전한 MCTS를 통합하려는 많은 연구가 진행 중입니다. 
 - 본 블로그 글은 Dr. Wenchao Ding의 Shenlan Xueyuan (深蓝学院)에서의 계획 강좌에 큰 영감을 받았습니다.
 - Naiyan Wang 및 Jingwei Zhao와의 적극적이고 영감을 주는 토론에 감사드립니다. 초기 초안에 중요한 피드백을 주신 论文推土机, Invictus, XXF, PYZ 및 JCL에게 감사드립니다. 학계의 동향에 관한 Insightful한 토론을 했던 버클리 대학의 Wei Zhan 교수에게도 감사드립니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 참고 자료
 

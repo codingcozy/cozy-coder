@@ -3,7 +3,7 @@ title: "지갑 추적기 프로 맥스를 소개합니다"
 description: ""
 coverImage: "/assets/img/2024-08-17-IntroducingWalletTrackerProMax_0.png"
 date: 2024-08-17 00:31
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-17-IntroducingWalletTrackerProMax_0.png
 tag: Tech
 originalTitle: "Introducing Wallet Tracker Pro Max"
@@ -11,7 +11,6 @@ link: "https://medium.com/@nikhilvemu/introducing-wallet-tracker-pro-max-7543cd7
 isUpdated: true
 updatedAt: 1723863735008
 ---
-
 
 ```js
 ![이미지](/assets/img/2024-08-17-IntroducingWalletTrackerProMax_0.png)
@@ -23,7 +22,18 @@ updatedAt: 1723863735008
 Gumroad에서 상당한 성공을 거두었는데, 1년 동안 110회 이상 다운로드되었습니다.
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 The shortcut uses iCloud Drive as its backend database. So, it requires you (and me) to carry your iPhone everywhere because iCloud Drive isn't supported on the Apple Watch yet.
 
@@ -33,10 +43,21 @@ This made me think that this could be a problem for all 110+ people. Why not cre
 
 And that's how the idea for Wallet Tracker Pro Max was born.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-"당신의 iPhone, iPad 및 Mac에서 'Pro'와 'Pro Max'를 사용하는 것에는 전혀 차이가 없을 거예요. 유일한 차이점은 'Pro Max'가 모든 기기에서 실시간 동기화되는 애플 워치에서 작동한다는 것뿐이에요. 어떻게냐구요? 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-Reminders 목록을 데이터베이스로 사용하기 때문이에요. 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+"당신의 iPhone, iPad 및 Mac에서 'Pro'와 'Pro Max'를 사용하는 것에는 전혀 차이가 없을 거예요. 유일한 차이점은 'Pro Max'가 모든 기기에서 실시간 동기화되는 애플 워치에서 작동한다는 것뿐이에요. 어떻게냐구요?
+
+Reminders 목록을 데이터베이스로 사용하기 때문이에요.
 
 iPhone을 집어들 필요 없이 (그리고 인스타그램에 산만해지지 않게) 외출 중 지갑을 추척하고 싶으시다구요? Wallet Tracker Pro Max를 구해보세요!"

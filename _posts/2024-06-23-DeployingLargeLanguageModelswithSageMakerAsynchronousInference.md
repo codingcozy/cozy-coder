@@ -3,17 +3,13 @@ title: "SageMaker 비동기 추론으로 대형 언어 모델 배포하는 방�
 description: ""
 coverImage: "/assets/img/2024-06-23-DeployingLargeLanguageModelswithSageMakerAsynchronousInference_0.png"
 date: 2024-06-23 19:59
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-DeployingLargeLanguageModelswithSageMakerAsynchronousInference_0.png
 tag: Tech
 originalTitle: "Deploying Large Language Models with SageMaker Asynchronous Inference"
 link: "https://medium.com/towards-data-science/deploying-large-language-models-with-sagemaker-asynchronous-inference-c00038b70b3e"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-23-DeployingLargeLanguageModelswithSageMakerAsynchronousInference_0.png" />
 
@@ -23,7 +19,18 @@ LLM(대규모 언어 모델)은 인기를 얻고 있으며 이를 추측하는 �
 
 이 예시에서는 HuggingFace 텍스트 생성 추론 서버를 SageMaker 비동기 엔드포인트와 함께 사용하여 Flan-T-5-XXL 모델을 호스팅하는 방법을 살펴볼 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 참고: 본 글은 Python, LLMs 및 Amazon SageMaker에 대한 기본적인 이해를 전제로 합니다. Amazon SageMaker 추론을 시작하려면 다음 가이드를 참조해주세요. SageMaker 비동기 추론의 기초를 다룰 것이지만 더 깊은 소개를 원하시면 다음에 나오는 스타터 예제를 참조해주세요.
 
@@ -33,28 +40,51 @@ LLM(대규모 언어 모델)은 인기를 얻고 있으며 이를 추측하는 �
 
 - SageMaker 비동기 추론을 사용하는 시점
 - TGI 비동기 추론 구현
-   a. 설정 및 엔드포인트 배포
-   b. 비동기 추론 호출
-   c. 자동 스케일링 설정
+  a. 설정 및 엔드포인트 배포
+  b. 비동기 추론 호출
+  c. 자동 스케일링 설정
 - 추가 자료 및 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 1. SageMaker 비동기 추론 사용 시점
 
 SageMaker 추론은 현재 사용 사례에 따라 활용할 수 있는 네 가지 옵션이 있습니다. 세 가지 엔드포인트 기반 옵션이 있고 완전 오프라인 추론을 위한 한 가지 옵션이 있습니다:
 
 - 엔드포인트 기반 옵션:
-    - SageMaker 실시간 추론: 서브초/밀리초 응답 시간과 고 처리량 워크로드를 위한 옵션입니다. 이 엔드포인트는 CPU, GPU 또는 Inferentia 칩을 활용하며 하드웨어 단계에서 AutoScaling을 적용하여 인프라를 확장할 수 있습니다. 일반적인 사용 사례로는 Ad-Tech 기반 예측, 실시간 챗봇 등이 있습니다.
-    - SageMaker 서버리스 추론: 갑작스럽고 간헐적인 워크로드에 최적화되어 있으며 cold-start를 허용할 수 있는 옵션입니다 (Provisioned Concurrency를 통해 완화할 수 있음). 여기서는 엔드포인트 뒤에 있는 모든 인프라를 관리하지 않으며 확장은 자동으로 처리됩니다.
-    - SageMaker 비동기 추론: 오늘 다룰 옵션으로, 비동기 추론을 통해 거의 실시간 기반의 응답 시간 요구 사항을 충족하고 여전히 엔드포인트를 위해 정의한 전용 하드웨어를 사용합니다. 그러나 비동기 추론의 경우 실시간 추론과 달리 0 개의 인스턴스로 축소할 수 있는 옵션이 있습니다. 비동기 추론을 통해 내장 큐를 사용하여 요청을 관리하고이 큐의 가득 찬 정도에 따라 확장할 수 있습니다.
+
+  - SageMaker 실시간 추론: 서브초/밀리초 응답 시간과 고 처리량 워크로드를 위한 옵션입니다. 이 엔드포인트는 CPU, GPU 또는 Inferentia 칩을 활용하며 하드웨어 단계에서 AutoScaling을 적용하여 인프라를 확장할 수 있습니다. 일반적인 사용 사례로는 Ad-Tech 기반 예측, 실시간 챗봇 등이 있습니다.
+  - SageMaker 서버리스 추론: 갑작스럽고 간헐적인 워크로드에 최적화되어 있으며 cold-start를 허용할 수 있는 옵션입니다 (Provisioned Concurrency를 통해 완화할 수 있음). 여기서는 엔드포인트 뒤에 있는 모든 인프라를 관리하지 않으며 확장은 자동으로 처리됩니다.
+  - SageMaker 비동기 추론: 오늘 다룰 옵션으로, 비동기 추론을 통해 거의 실시간 기반의 응답 시간 요구 사항을 충족하고 여전히 엔드포인트를 위해 정의한 전용 하드웨어를 사용합니다. 그러나 비동기 추론의 경우 실시간 추론과 달리 0 개의 인스턴스로 축소할 수 있는 옵션이 있습니다. 비동기 추론을 통해 내장 큐를 사용하여 요청을 관리하고이 큐의 가득 찬 정도에 따라 확장할 수 있습니다.
 
 - 오프라인 추론:
-    - SageMaker 배치 변환: 데이터셋이 있고 데이터셋으로 반환된 출력만 필요할 때 최적입니다. 영구적인 엔드포인트는 없으며 완전히 오프라인 추론입니다. 일반적인 사용 사례로는 특정 주기에 추론이 필요한 데이터셋이 있는 경우 일정 시간에 배치 변환 작업을 실행하는 것이 있습니다.
+  - SageMaker 배치 변환: 데이터셋이 있고 데이터셋으로 반환된 출력만 필요할 때 최적입니다. 영구적인 엔드포인트는 없으며 완전히 오프라인 추론입니다. 일반적인 사용 사례로는 특정 주기에 추론이 필요한 데이터셋이 있는 경우 일정 시간에 배치 변환 작업을 실행하는 것이 있습니다.
 
 이 사용 사례에서는 특히 비동기 추론에 초점을 맞추고 있습니다. 이 옵션은 거의 실시간 능력과 0 인스턴스로 축소할 수 있는 능력 때문에 Batch Transform과 Real-Time Inference 사이에서 결혼 생각할 수 있는 옵션입니다. 즉시 생성이 필요하지 않은 사용 사례를 위한 LLM을 호스팅하는 데 효율적인 방법으로 기능을 제공할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 사용 사례의 예시로는 요약, 콘텐츠 생성, 편집 등이 있습니다. 이러한 사용 사례는 모두 가변 시간에 activation이 필요할 수 있으므로 지속적인 엔드포인트가 필요하지만 실시간 추론의 응답 시간은 필요로 하지 않을 수도 있습니다. 비동기 추론을 통해 성능과 비용 측면에서 이러한 종류의 사용 사례들을 다룰 수 있습니다.
 
@@ -64,7 +94,18 @@ SageMaker 추론은 현재 사용 사례에 따라 활용할 수 있는 네 가�
 
 비동기 엔드포인트 내에는 내부 대기열도 있음을 유의해야 합니다. 모든 추론마다 SageMaker는 요청을 대기열에 넣고 결과 위치를 S3에 반환합니다. 비동기 엔드포인트에 대해 AutoScaling을 구성할 때 이 대기열 내의 요청 수에 따라 스케일을 조정할 수 있습니다. 또한 출력 S3 경로에서 직접 폴링하는 대신 성공 또는 오류 있는 추론 알림을 수신하기 위해 선택적으로 SNS 토픽을 통합할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 비동기 추론에 대한 이해가 조금 더 깊어졌으니 구현부로 넘어가 봅시다!
 
@@ -74,7 +115,18 @@ SageMaker 추론은 현재 사용 사례에 따라 활용할 수 있는 네 가�
 
 ## a. 설정 및 엔드포인트 배포
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비동기 추론을 사용하려면 먼저 데이터가 저장될 출력 S3 경로를 정의해야 합니다.
 
@@ -102,7 +154,18 @@ async_config = AsyncInferenceConfig(
 )
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 정의된 후에는 Flan T-5-XXL 모델을 위한 HuggingFace Hub 링크에서 SageMaker 코드를 직접 가져올 수 있습니다. 이 코드는 Text Generation Inference 모델 서버를 활용하며, Tensor Parallelism과 같은 내장 최적화가 포함되어 있습니다.
 
@@ -116,7 +179,7 @@ hub = {
 huggingface_model = HuggingFaceModel(
    image_uri=get_huggingface_llm_image_uri("huggingface",version="1.1.0"),
    env=hub,
-   role=role, 
+   role=role,
 )
 ```
 
@@ -132,7 +195,18 @@ predictor = huggingface_model.deploy(
 )
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 콘솔 또는 UI에서 엔드포인트가 비동기 타입으로 지정되었음을 확인할 수 있습니다.
 
@@ -142,7 +216,18 @@ predictor = huggingface_model.deploy(
 
 단일 페이로드로 엔드포인트를 호출하려면 실시간 추론과 같이 "predict" 내장 메소드를 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 단일 호출
@@ -183,7 +268,18 @@ for i in range(1, 20):
             input_file.write('\n')
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미 제공된 유틸리티 함수를 사용하여 로컬 파일을 S3에 업로드하여 추론할 수 있습니다.
 
@@ -218,7 +314,18 @@ output_location = response["OutputLocation"]
 print(f"출력 위치: {output_location}")
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 번 더 제공된 유틸리티 함수를 사용하여 출력 파일의 출력을 관찰합니다. LLM을 사용하여 실제 추론을 수행하고 S3 파일을 생성하는 데 시간이 걸릴 수 있습니다. 따라서 제공된 함수에서는 화면에 표시할 내용이 포함된 데이터 파일이 나타날 때까지 데이터 파일을 확인합니다.
 
@@ -264,7 +371,18 @@ for input_file, output_location in inferences:
     print(f"입력 파일: {input_file}, 출력: {output}")
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-23-DeployingLargeLanguageModelswithSageMakerAsynchronousInference_3.png" />
 
@@ -274,7 +392,18 @@ for input_file, output_location in inferences:
 
 비동기 추론 내에서 이미 구현된 내부 대기열이 있음을 이해했듯이, 자동 스케일링은 이 대기열에 있는 항목의 수에 따라 확장하거나 축소할 수 있습니다. 이는 CloudWatch 메트릭 "ApproximateBackLogSize"로 캡처됩니다. 이 요청은 이미 처리 중인 것이거나 아직 처리되지 않은 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Real-Time Inference와 비슷한 방식으로 Boto3 SDK를 사용하여 정책을 설정했습니다. 최소 인스턴스 수를 0으로 정의했는데, 이 기능은 Asynchronous Inference에서만 지원됩니다.
 
@@ -320,7 +449,18 @@ response = client.put_scaling_policy(
 )
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AutoScaling을 테스트하려면 일정 기간 동안 요청을 보낼 수 있습니다. 스케일링 정책에 따르면 대상 값은 엔드포인트 뒤에 있는 큐에서 아직 처리 중이거나 처리되지 않은 요청 또는 호출을 5회로 설정됩니다.
 
@@ -336,7 +476,18 @@ while time.time() < end_time:
 
 ![이미지](/assets/img/2024-06-23-DeployingLargeLanguageModelswithSageMakerAsynchronousInference_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3. 추가 자료 및 결론
 

@@ -3,18 +3,13 @@ title: "마라톤 결과의 연령 그레이딩을 위한 더 나은 시스템�
 description: ""
 coverImage: "/assets/img/2024-06-19-IsThereaBetterSystemforAgeGradingMarathonResults_0.png"
 date: 2024-06-19 01:33
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-IsThereaBetterSystemforAgeGradingMarathonResults_0.png
 tag: Tech
 originalTitle: "Is There a Better System for Age Grading Marathon Results?"
 link: "https://medium.com/runners-life/is-there-a-better-system-for-age-grading-marathon-results-71ffdc1fc138"
 isUpdated: true
 ---
-
-
-
-
-
 
 <img src="/assets/img/2024-06-19-IsThereaBetterSystemforAgeGradingMarathonResults_0.png" />
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 하지만 그 세 명의 러너가 25세 남성, 40세 여성, 60세 남성이라면 어떨까요? 그 시간은 각각의 러너에게 동일한 만큼 힘든 것이 아닙니다. 그렇다면 누가 가장 우수한 성적을 거뒀을까요?
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지난 몇 십 년 동안 연령 등급이 시도해 온 질문입니다. 최근 연재한 몇 개의 기사에서 이 문제를 탐구해 왔습니다.
 
@@ -35,7 +40,18 @@ isUpdated: true
 
 마라톤 성적의 비교적인 강도를 대략적으로 나타내기 위해 몇 가지 대규모 결과 데이터 세트를 수집해 분석한 결과, 성적을 연령별 백분위수로 비교하는 대안을 제시하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 시리즈를 따라오셨다면 다음 두 링크가 가장 흥미로울 것입니다:
 
@@ -46,7 +62,18 @@ isUpdated: true
 
 이 문제에 대해 처음 작업을 시작할 때, 2010년부터 2019년까지의 마라톤 샘플로 구성된 데이터셋으로 시작했습니다. 그 순간에는 명확한 결과를 고려하지 않고 데이터를 탐색했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 퍼센타일이 탐색할 수 있는 좋은 옵션이라고 결정한 후, 2023년 미국 내 모든 마라톤 대회를 포함한 새 데이터셋을 수집했어요.
 
@@ -56,7 +83,18 @@ isUpdated: true
 
 그러나 퍼센타일 테이블을 계산하는 데 사용한 데이터는 약간 더 작아요. 일부 결과에는 연령 데이터가 없어서 제외되었어요. 또한 LA 마라톤, CIM, 콜로라도와 같은 몇몇 레이스 데이터가 부족했고, 나중에 데이터셋에 추가되었어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 공유하는 분석은 대략 40만 건의 경주 결과를 기반으로 합니다. 추가 데이터를 수집한 후 90번째 백분위를 확인하여 유의미한 차이가 있는지 확인했고, 그 차이는 단 10초 정도였습니다.
 
@@ -66,17 +104,39 @@ isUpdated: true
 
 전통적인 연령 평가 방법론은 지난 몇 10년 동안 발전해 왔습니다. 하지만 핵심적으로 이것이 어떻게 작동하는지 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 신뢰도 있는 경험적 관찰과 통계 분석을 통해 세계 마스터스 애슬레틱스는 사람이 나이를 먹을수록 얼마나 느려지는지를 추정하는 표를 만들었습니다. 선수의 시간을 나이 계수로 곱하면 나이에 비해 얼마나 빠른지를 알 수 있는 나이 등급 시간이 나옵니다 - 더 어려운 선수일 때의 동등한 시간입니다.
 
-따라서, 60세 남성의 원래 예시에서 나이 계수는 0.8331입니다. 만약 그가 3시간(10,800초) 동안 경주를 한다면, 나이 등급 시간은 2:29:58이 될 것입니다 (0.8331 * 10,800).
+따라서, 60세 남성의 원래 예시에서 나이 계수는 0.8331입니다. 만약 그가 3시간(10,800초) 동안 경주를 한다면, 나이 등급 시간은 2:29:58이 될 것입니다 (0.8331 \* 10,800).
 
 25세 남성의 경우, 3시간 결과는 좋지만 놀라운 것은 아닙니다. 그러나 60세 남성의 경우, 이는 25세 남성에게 2:30 마라톤에 해당한다고 여겨집니다 - 정말 놀라운 것입니다.
 
 여기서 멈춰서 시간을 비교할 수도 있습니다. 또는 마지막 단계로 넘어가서 나이 등급 시간을 그 이벤트의 표준 시간으로 나눌 수도 있습니다 - 일반적으로 표가 작성된 당시 오픈 세계 기록입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 남자 마라톤의 이전 세계 신기록 2:01:39를 나누면 결과물인 2:29:58의 점수는 81.12%가 됩니다. 수여를 위해 나이 그레이딩 결과를 제공하는 경우 레이스 결과에서 일반적으로 볼 수 있는 것이죠. 이것은 성적 등급 퍼센트(PPL)라고도 불리워요.
 
@@ -86,7 +146,18 @@ isUpdated: true
 
 ## 교정에 대한 명확한 문제점들이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 두 문제 중에서 더 문제가 되는 것은 때로는 나이 등급 계산이 신뢰할 수 없다는 점이며, 일부 연령군이 다른 연령군보다 좋은 점수를 획들기 쉽다는 것입니다.
 
@@ -99,7 +170,18 @@ isUpdated: true
 
 나이 등급이 실제로 경기장을 평평하게 만들고 다른 연령군과 성별을 비교할 수 있는 신뢰할 수 있는 방법을 제공한다면, 상위 1,000명의 분포는 일반 러너들의 분포와 유사해야 합니다. 그러나 일부 뚜렷한 불일치가 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Boston Marathon 예선 시간 분석에서 나타난 이 문제의 또 다른 예는 남성의 경우입니다.
 
@@ -109,7 +191,18 @@ Boston Marathon 예선 시간 분석에서 나타난 이 문제의 또 다른 �
 
 그러나 실제로는, 그들이 더 높은 비율로 통과합니다. 45-49세 여성만 예외입니다. 60대 여성은 연령 등급으로 볼 때 비슷하게 엄격한 기준이 있으며, 그들은 더 높은 합격률을 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만일 연령 등급 시스템이 적절하게 보정되었다면, 자격 요건 시간의 상대적 연령 등급이 서로 다른 연령 그룹의 자격 달성률을 대략적으로 반영할 것으로 예상됩니다. 그러나 이 두 가지 사이에 일치하지 않는 것은 어떤 부분이 문제가 있다는 신호입니다.
 
@@ -119,7 +212,18 @@ Boston Marathon 예선 시간 분석에서 나타난 이 문제의 또 다른 �
 
 두 번째 문제는 — 여러분의 의견은 달라질 수 있습니다 — 연령 등급이 제공하는 정보가 얼마나 유용한지입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나이 그레이드의 특성은 100%에 가까워질수록 시간의 차이가 적어져도 나이 그레이드에 더 큰 차이가 난다는 것이죠.
 
@@ -129,11 +233,33 @@ Boston Marathon 예선 시간 분석에서 나타난 이 문제의 또 다른 �
 
 다섯 분을 줄이면, 3시간 55분은 약간 더 좋아집니다. 57.02%에 해당합니다. 그가 나이 그레이드를 3% 더 올리려면 거의 15분이 더 달려야 할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 경우 테이블 태그를 Markdown 형식으로 변경하십시오.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서 대중들과 비교하는 대신 나 자신을 그들과 비교하게 되는 이유가 뭘까요?
 
@@ -143,7 +269,18 @@ Boston Marathon 예선 시간 분석에서 나타난 이 문제의 또 다른 �
 
 러너들의 분포를 가지고 — 예를 들어 50-54세 남성 — 당신은 모든 결과를 정렬하여 90%의 다른 러너보다 빠른 시간이 얼마나 걸릴지, 또는 75%, 또는 50%, 등을 볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 연령 그룹에서의 시간 분포는 유사합니다. 탁월한 성적을 낸 소수의 러너들, 평균 주변에 처한 러너들이 점차 증가하며, 훨씬 더 느린 시간에 도달하는 소수의 러너들이 있습니다.
 
@@ -153,7 +290,18 @@ Boston Marathon 예선 시간 분석에서 나타난 이 문제의 또 다른 �
 
 따라서 50세의 남성이 50세의 다른 남성 중 90%보다 빠르게(3시간 18분 8초) 달리면, 90%의 동료들을 이기는 40세 여성(3시간 32분 22초)과 거의 동등한 성적을 거둡니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최적 시간에 의존하는 대신 나이 관련 감소가 그 시간의 감소로 나타나는 것을 기다릴 필요가 없습니다. 대신 백분율을 사용하면 전체 시간 분포를 기반으로 하여 모든 참가자와 비교할 수 있습니다.
 
@@ -163,7 +311,18 @@ Boston Marathon 예선 시간 분석에서 나타난 이 문제의 또 다른 �
 
 백분율이 전통적인 나이 측정보다 더 정확하게 보정되는가요? 대부분의 러너들에게 보다 유용한 정보를 제공하나요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 백분위수가 더 잘 보정되나요?
 
@@ -173,7 +332,18 @@ Boston Marathon 예선 시간 분석에서 나타난 이 문제의 또 다른 �
 
 위의 시각화는 세 가지를 보여줍니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 1,000명당 각 연령/성별 그룹의 완주자 수 (파란색)
 - 나이 등급에 따른 각 연령/성별 그룹의 상위 1,000명 완주자 수 (보라색)
@@ -185,7 +355,18 @@ Boston Marathon 예선 시간 분석에서 나타난 이 문제의 또 다른 �
 
 여성들 중에서, 나이가 어린 연령 그룹(35-49세)은 매우 소외되어 있고 노인 연령 그룹(60-79세)은 매우 과대표시되어 있습니다. 남성들 중에서는, 35세 미만 그룹이 지나치게 과대표시되어 있고, 35-49세 그룹은 약간 소외되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파란 막대와 분홍 막대가 항상 동일하지는 않지만, 그들 사이의 차이는 훨씬 적습니다.
 
@@ -195,7 +376,18 @@ Boston Marathon 예선 시간 분석에서 나타난 이 문제의 또 다른 �
 
 ## 백분위수는 더 유용한 정보를 제공할까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 의견은 각양각색일 수 있지만, 저는 이렇게 생각해요.
 
@@ -205,7 +397,18 @@ Boston Marathon 예선 시간 분석에서 나타난 이 문제의 또 다른 �
 
 나이 그레이딩으로 따지면, 제 진척은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 56.58% - 61.15% - 64.83% - 66.00% - 69.23%
 
@@ -215,7 +418,18 @@ Boston Marathon 예선 시간 분석에서 나타난 이 문제의 또 다른 �
 
 나이 그레이딩을 고려하면 이런 개선은 꽤 중요하지 않아 보일 수도 있어요. 56.58%는 꽤 평균적으로 들릴 수 있어요 — 하지만 37세 남성의 중간 완주시간(4:06)을 월등히 뛰어넘는 3:35에요. 그리고 69.23%는 그다지 더 인상적으로 들리진 않을 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 백분위수는 저와 동료들 간의 성과를 더 잘 이해할 수 있게 해주고, 시간이 지남에 따라 어떻게 변화하는지 보여줍니다. 제 초기 시간(3:35)은 평균보다 우수했지만 놀라울 정도는 아니었습니다. 한편, 10월의 목표 시간은 평균 마라톤러와 비교했을 때 상당히 좋지만(비켈레와의 격차가 많이 남은 것은 사실입니다).
 
@@ -225,7 +439,18 @@ Boston Marathon 예선 시간 분석에서 나타난 이 문제의 또 다른 �
 
 # 백분위수가 완벽한가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요!
 
@@ -233,7 +458,18 @@ Boston Marathon 예선 시간 분석에서 나타난 이 문제의 또 다른 �
 
 고맙습니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다른 문제는 연장된 연령 그룹에는 충분히 많은 러너가 없어 신뢰할 수 있는 분포를 만들어내기 어렵다는 것입니다. 70대 여성과 70대 후반 / 80대 남성을 대상으로 하면 문제가 발생하기 시작합니다.
 
@@ -243,7 +479,18 @@ Boston Marathon 예선 시간 분석에서 나타난 이 문제의 또 다른 �
 
 # 이 도구를 직접 활용하는 방법은 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전에 독자들이 마라톤 성적을 백분위로 계산하고 전통적인 연령 점수와 비교할 수 있는 계산기를 만들었습니다.
 
@@ -253,7 +500,18 @@ Boston Marathon 예선 시간 분석에서 나타난 이 문제의 또 다른 �
 
 또한 계산기를 개선했습니다. 빠르게 작동하고 오류가 발생하면 더 정확하게 실패합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금은 이것을 만들어서 내 웹사이트(Running with Rock)에 호스팅했어요. 당신이 러닝 웹사이트를 운영하고 계시고 본인만의 계산기 버전에 관심이 있다면 알려주세요. 실제로 관심이 있는 사람이 있다면 워드프레스 플러그인이나 유사한 것을 만들어볼 수 있을 거에요.
 
@@ -263,7 +521,18 @@ Boston Marathon 예선 시간 분석에서 나타난 이 문제의 또 다른 �
 
 나는 이것이 나이 등급과 개인 러닝 퍼포먼스 레벨(PLPs)을 대체할 것이라는 환상은 없어도, 이것이 가치 있는 관점을 제공한다고 생각해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제부터, 내가 고민 중인 몇 가지 다른 질문들이 있어요. 아마도 다음 몇 주 안에 그에 대해 글을 쓸 것 같아요:
 
@@ -275,7 +544,18 @@ Boston Marathon 예선 시간 분석에서 나타난 이 문제의 또 다른 �
 
 저는 열렬한 러너이자 데이터 열정가에요. 제가 무엇을 하고 있는지 따라가는 방법은 다음과 같아요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 나의 훈련에 대해 알고 싶다면 Running with Rock을 팔로우하세요.
 - 마라톤 훈련 계획 선택에 관한 팁을 읽어보세요.

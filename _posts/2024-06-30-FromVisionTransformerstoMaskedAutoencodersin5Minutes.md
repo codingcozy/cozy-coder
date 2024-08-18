@@ -3,17 +3,13 @@ title: "5분 안에 알아보는 비전 트랜스포머와 마스크드 오토�
 description: ""
 coverImage: "/assets/img/2024-06-30-FromVisionTransformerstoMaskedAutoencodersin5Minutes_0.png"
 date: 2024-06-30 19:07
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-30-FromVisionTransformerstoMaskedAutoencodersin5Minutes_0.png
 tag: Tech
 originalTitle: "From Vision Transformers to Masked Autoencoders in 5 Minutes"
 link: "https://medium.com/towards-data-science/from-vision-transformers-to-masked-autoencoders-in-5-minutes-cfd2fa1664ac"
 isUpdated: true
 ---
-
-
-
-
 
 ## 컴퓨터 비전으로 일반화된 NLP 작업을 안내하는 간단한 가이드
 
@@ -33,7 +29,18 @@ isUpdated: true
   - 아키텍처
   - 최종 결론 및 예제
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 비전 트랜스포머
 
@@ -43,7 +50,18 @@ isUpdated: true
 
 비전 트랜스포머는 단순히 표준 트랜스포머 구조를 이미지 입력을 처리하고 학습하기 위해 일반화하는 것을 의미합니다. 저자들이 강조한 아키텍처에 대한 중요한 아이디어가 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 동작
 
@@ -54,7 +72,18 @@ isUpdated: true
 
 특히, 입력 이미지의 차원이 (n, n, 3)이라고 가정할 때, 이를 transformer에 입력으로 전달하기 위해 vision transformer가 수행하는 작업은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 위의 그림과 같이 k (예: k=3)로 k² 패치로 나눕니다.
 - 이제 각 패치는 (n/k, n/k, 3)이고, 다음 단계는 각 패치를 벡터로 평평하게 만드는 것입니다.
@@ -68,7 +97,18 @@ isUpdated: true
 - 출력은 각 패치에 대한 인코더 표현 (패치 또는 이미지 수준의 분류에 사용 가능)이 될 수 있습니다.
 - 더 자주 (및 논문에서처럼), CLS 토큰이 전단에 추가되고 해당 표현을 사용하여 전체 이미지에 대한 예측을 수행합니다 (BERT와 유사).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Transformer Decoder에 대해 어떻게 생각하시나요?
 
@@ -78,7 +118,18 @@ Transformer Decoder에 대해 어떻게 생각하시나요?
 
 작가들은 또한 이미지 자체 대신 CNN feature map으로 시작하여 하이브리드 아키텍처를 형성하는 것이 가능하다고 언급합니다 (CNN이 비전 Transformer에 출력을 전달). 이 경우 입력을 일반적인 (n,n,p) feature map으로 생각하고 패치 벡터는 차원이 (n/k)*(n/k)*p로 생각합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 구조 손실
 
@@ -88,7 +139,18 @@ Transformer Decoder에 대해 어떻게 생각하시나요?
 
 ## 결과
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결과에서 주요 결론은 비전 트랜스포머가 작은 데이터셋에서 CNN 기반 모델보다 우월한 성능을 내지 않지만, 큰 데이터셋에서는 접근하거나 능가할 수 있으며 어느 쪽이든 상당히 적은 계산량이 필요하다는 것입니다:
 
@@ -98,7 +160,18 @@ Transformer Decoder에 대해 어떻게 생각하시나요?
 
 한편, ImageNet-1K(단 1.3M개의 이미지)에서 훈련된 경우 ResNet이 더 우수한 성과를 냈다는 결과도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 마스킹에 의한 자가-지도학습
 
@@ -108,7 +181,18 @@ Transformer Decoder에 대해 어떻게 생각하시나요?
 
 # 가리기된 오토인코더 비전 트랜스포머
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-30-FromVisionTransformerstoMaskedAutoencodersin5Minutes_2.png" />
 
@@ -118,8 +202,18 @@ Transformer Decoder에 대해 어떻게 생각하시나요?
 
 본 논문에서는 인코더와 디코더를 포함한 비전 트랜스포머 아키텍처를 제안하며, 이를 마스킹하여 사전 훈련하면 기본 비전 트랜스포머 모델 대비 상당한 개선이 나타납니다(기본 크기의 비전 트랜스포머를 지도 학습하는 것과 비교하여 최대 6%의 향상을 보임).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-30-FromVisionTransformerstoMaskedAutoencodersin5Minutes_3.png)
 
@@ -129,8 +223,18 @@ Transformer Decoder에 대해 어떻게 생각하시나요?
 
 그들의 인코더는 이전에 설명한 일반적인 비전 트랜스포머 인코더입니다. 교육 및 추론에서는 "관측된" 패치만 사용합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한편, 그들의 디코더는 보통 비전 트랜스포머 인코더와 동일하지만 다음을 사용합니다:
 
@@ -141,7 +245,18 @@ Transformer Decoder에 대해 어떻게 생각하시나요?
 
 디코더의 마지막 레이어는 비전 트랜스포머 인코더에서 생성된 문맥 임베딩을 패치 크기와 동일한 길이의 벡터로 매핑하는 선형 레이어입니다. 손실 함수는 오차 제곱을 사용하는 평균 제곱 오차입니다. 이 손실 함수에서 우리는 마스크된 토큰으로 인한 디코더 예측만 고려하며 현재 존재하는 토큰에 해당하는 예측은 무시합니다 (예: Dec(A), Dec(B), Dec(C) 등).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 최종 설명 및 예시
 
@@ -151,7 +266,18 @@ Transformer Decoder에 대해 어떻게 생각하시나요?
 
 여기까지 입니다. 우리는 컴퓨터 비전 세계로 일반화되는 기본 트랜스포머 모델을 이해하기 위한 여정을 함께해 왔습니다. 이 내용이 명확하고 통찰력 있으며 여러분의 시간을 가치 있게 보내게 되었기를 바랍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 참고 자료:
 

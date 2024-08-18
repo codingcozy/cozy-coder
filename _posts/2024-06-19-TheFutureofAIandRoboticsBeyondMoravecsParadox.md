@@ -3,17 +3,13 @@ title: "AI와 로봇의 미래 모라벡의 역설 너머"
 description: ""
 coverImage: "/assets/img/2024-06-19-TheFutureofAIandRoboticsBeyondMoravecsParadox_0.png"
 date: 2024-06-19 18:37
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-TheFutureofAIandRoboticsBeyondMoravecsParadox_0.png
 tag: Tech
 originalTitle: "The Future of AI and Robotics: Beyond Moravec’s Paradox"
 link: "https://medium.com/@flyingmum/the-future-of-ai-and-robotics-beyond-moravecs-paradox-3cc8157e39c4"
 isUpdated: true
 ---
-
-
-
-
 
 ## AI | 로봇 공학 | 모라벡의 역설 | 파트 8 | FLYINGMUM
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # AI와 로봇 공학의 새로운 트렌드
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AI와 로봇의 미래는 이러한 기술이 어디까지 이룰 수 있는지의 한계를 더욱 끌어올릴 것으로 약속되는 몇 가지 주요 트렌드에 의해 형성됩니다.
 
@@ -33,7 +40,18 @@ AI와 로봇의 미래는 이러한 기술이 어디까지 이룰 수 있는지�
 
 3. Edge AI: 컴퓨팅 파워가 데이터가 생성되는 곳에 가까워지면서 엣지 AI가 더욱 보편화될 것입니다. 이는 자율주행차, 스마트 시티, IoT 디바이스 등의 응용분야에서 실시간 데이터 처리와 의사결정을 가능하게 할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. AI 윤리 및 지배구조: 견고한 윤리적 틀과 지배구조의 개발은 AI 기술이 책임을 지고 개발 및 배포되는 것을 보장하는 데 중요합니다. 이는 편향, 투명성 및 책임 문제를 다루는 것을 포함합니다.
 
@@ -43,7 +61,18 @@ AI와 로봇의 미래는 이러한 기술이 어디까지 이룰 수 있는지�
 
 몇 가지 잠재적인 돌파구는 AI와 로봇 기술의 능력을 크게 향상시킬 수 있으며, Moravec의 역설에서 강조된 제한을 극복하는 데 한걸음 더 나아가게 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1. 일반 인공지능: 현재 AI 시스템은 특정 작업에 뛰어나지만, 인간과 유사한 이해력과 적응력으로 다양한 작업을 수행할 수 있는 일반 AI의 개발은 장기적인 목표로 남아 있습니다. 일반 AI를 달성하는 것은 이 분야에서 의미 있는 진전을 의미할 것입니다.
 
@@ -53,7 +82,18 @@ AI와 로봇의 미래는 이러한 기술이 어디까지 이룰 수 있는지�
 
 4. 무리 로봇공학: 사회적 곤충의 집단 행동에 영감을 받은 무리 로봇공학은 많은 수의 단순 로봇의 조정을 통해 복잡한 작업을 수행하는 것을 포함합니다. 이 접근법은 환경 모니터링, 재난 대응, 농업 등 다양한 분야에서 혁신적인 해결책을 이끌어 낼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-TheFutureofAIandRoboticsBeyondMoravecsParadox_1.png" />
 
@@ -63,7 +103,18 @@ AI와 로봇 기술의 지속적인 발전은 사회의 다양한 측면에 혁�
 
 1. 의료: AI를 활용한 진단, 맞춤 의학, 로봇 수술은 의료 혁신을 이끌어 더 나은 환자 결과와 효율적인 의료 서비스 제공으로 이어질 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 교육: AI 기술을 활용한 교육 도구와 맞춤 학습 플랫폼은 학습 경험을 향상시키며 교육을 더 접근 가능하고 개인의 필요에 맞게 맞춤화할 것입니다.
 
@@ -73,8 +124,18 @@ AI와 로봇 기술의 지속적인 발전은 사회의 다양한 측면에 혁�
 
 앞으로의 미래를 바라볼 때, AI와 로봇 기술이 우리의 세상을 변화시킬 잠재력은 엄청납니다. Moravec의 역설에서 강조된 과제에 대처하고 신흥 트렌드와 돌파구를 수용함으로써, 우리는 새로운 가능성을 창출하고 인간의 능력을 향상시키고 삶의 질을 향상시키는 기술을 만들어낼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-TheFutureofAIandRoboticsBeyondMoravecsParadox_2.png)
 

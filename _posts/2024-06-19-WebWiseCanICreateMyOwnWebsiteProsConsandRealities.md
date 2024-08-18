@@ -3,17 +3,13 @@ title: "Web Wise 내가 직접 웹사이트를 만들 수 있을까요 장단점
 description: ""
 coverImage: "/assets/img/2024-06-19-WebWiseCanICreateMyOwnWebsiteProsConsandRealities_0.png"
 date: 2024-06-19 06:01
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-WebWiseCanICreateMyOwnWebsiteProsConsandRealities_0.png
 tag: Tech
 originalTitle: "Web Wise: Can I Create My Own Website? Pros, Cons, and Realities"
 link: "https://medium.com/x-periment-asteroid/web-wise-can-i-create-my-own-website-pros-cons-and-realities-e38c7a348291"
 isUpdated: true
 ---
-
-
-
-
 
 ## 장 3: DIY 웹사이트 빌더 탐험
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # DIY 웹사이트 빌더의 매력
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 쉽게 설정하기
 
@@ -33,7 +40,18 @@ DIY 웹사이트 빌더는 간편하게 사용할 수 있도록 설계되었습�
 
 "웹사이트 개발 비용"이라는 구문이 당신을 두렵게 만든다면, DIY 웹사이트 빌더는 치료제가 될 수 있습니다. 이들은 종종 무료 또는 저렴한 요금제를 제공하며, 비즈니스가 성장함에 따라 업그레이드할 수 있습니다. 특히 스타트업 또는 자금을 지켜보는 소기업에게 매력적일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 사용자 정의 및 템플릿
 
@@ -43,7 +61,18 @@ DIY 웹사이트 빌더는 간편하게 사용할 수 있도록 설계되었습�
 
 # 현실 점검: 장단점
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 장점:
 
@@ -57,7 +86,18 @@ DIY 웹사이트 빌더는 간편하게 사용할 수 있도록 설계되었습�
 - 일반적인 템플릿: 템플릿은 정제되어 있지만, 조금 쿠키 자르듯 보일 수도 있어요. 독특하고 눈에 띄는 디자인을 원한다면 다소 제약을 느낄 수도 있어요.
 - 확장성 문제: 비즈니스가 성장함에 따라 웹사이트도 성장해야 해요. DIY 빌더는 확장성과 사용자 정의 측면에서 한계가 있어 비용이 많이 들어가는 더 강력한 플랫폼으로의 이주가 필요할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 기말고사 불러오는 시기: 웹 디자이너와 개발자
 
@@ -67,6 +107,17 @@ DIY 웹사이트 빌더는 간편하게 사용할 수 있도록 설계되었습�
 
 웹사이트를 DIY하거나 전문가를 고용할지 결정하는 것은 비즈니스의 독특한 요구 사항과 성장 계획에 달려 있습니다. DIY 빌더는 환상적인 시작점이지만 필요할 때 전문가 도움을 찾기를 두려워하지 마세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 장에서 비즈니스 웹사이트 디자인 세계로 깊이 들어가는 것을 기대해주세요!

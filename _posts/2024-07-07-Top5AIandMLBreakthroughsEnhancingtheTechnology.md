@@ -3,17 +3,13 @@ title: "기술을 혁신하는 AI 및 ML 5대 돌파구"
 description: ""
 coverImage: "/assets/img/2024-07-07-Top5AIandMLBreakthroughsEnhancingtheTechnology_0.png"
 date: 2024-07-07 20:28
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-Top5AIandMLBreakthroughsEnhancingtheTechnology_0.png
 tag: Tech
 originalTitle: "Top 5 AI and ML Breakthroughs Enhancing the Technology"
 link: "https://medium.com/@nazowaheed8/top-5-ai-and-ml-breakthroughs-enhancing-the-technology-41a51a8fccc2"
 isUpdated: true
 ---
-
-
-
-
 
 자율주행 테슬라만큼 원활한 삶을 만들어주는 인공지능(AI)과 기계학습(ML) 속으로 달려가 볼까요? 이 두뇌 과학자들은 그저 트렌디한 용어가 아니에요. 일하는 방식을 혁신하고 의료에 이르기까지 기술과의 상호작용을 변화시키고 있죠. 이 천재들은 멋진 알고리즘에 그치지 않아요. 문제 해결의 전문가입니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 [2024-07-07-Top5AIandMLBreakthroughsEnhancingtheTechnology_0.png](/assets/img/2024-07-07-Top5AIandMLBreakthroughsEnhancingtheTechnology_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신의 컴퓨터가 가장 친한 친구처럼 당신을 이해할 수 있었으면 좋겠다고 기대해 본 적이 있나요? 그런 현실이 바로 당신 근처에 있습니다! 인공지능의 트랜스포머들이 인간 언어를 이해하는 비밀을 풀기 시작했어요!
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 가장 멋진 부분은 무엇일까요? 이것은 단지 시작에 불과해요! 트랜스포머들은 계속해서 배우고 진화하며, 컴퓨터가 우리를 더 잘 이해하는 미래를 약속하고 있습니다. 그래서, 컴퓨터가 우리를 전보다 더 잘 이해하는 미래가 온다! 따라서, 트랜스포머의 힘으로 단어가 새로운 멋진 방식으로 생동하는 세계에 대비하세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2. 의료 분야의 AI
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 이제 초고속 컴퓨터를 사용하여 X-ray에서 숨겨진 보이지 않는 질병을 식별할 수 있습니다. 와우! 심지어 독수리와 같이 날카로운 눈도 이런 작업을 할 수 없습니다. 대단하죠! X-ray 사진 속에 숨어 있는 질병을 찾아내는 수퍼파워를 가진 컴퓨터가 있다고 상상해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기술의 가장 좋은 점은 번개 속도로 스캔을 분석할 수 있다는 것입니다. 이는 간발의 차이로 암, 심장 문제 및 뇌 문제를 발견하는 데 도움이 될 수 있습니다. 예를 들어, MDPI에서 발표된 연구에 따르면, 정규화 계층 없이 딥 러닝 모델을 사용하여 결핵 발견에서 96.1%의 정확도를 달성했다고 주장합니다.
 
@@ -53,7 +82,18 @@ AI는 눈에 띄지 않는 질병으로부터 사망할 확률을 줄입니다. 
 
 # 3. 강화 학습과 자율 시스템
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마법 같은 Reinforcement Learning (RL)을 경험하는 것! 교실도 교과서도 없이 세상을 경험하며 올바른 일을 하는 대가를 받는 거야. 이것이 AI 에이전트들(슈퍼 스마트 로봇들을 상상해봐!)에게 게임을 바꾸는 RL의 매력이야.
 
@@ -63,7 +103,18 @@ RL은 로봇들이 시행착오를 통해 배우는 것을 가능하게 해. 마
 
 # 4. GANs: 예술과 창의력을 재정의하는 중
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Top 5 AI and ML Breakthroughs Enhancing the Technology](/assets/img/2024-07-07-Top5AIandMLBreakthroughsEnhancingtheTechnology_2.png)
 
@@ -73,7 +124,18 @@ RL은 로봇들이 시행착오를 통해 배우는 것을 가능하게 해. 마
 
 하지만 GAN은 자랑용으로만 사용되는 것이 아닙니다. 인간 예술가들이 인간의 상상력을 기계 마법과 융합한 세계적인 걸작을 만들 수 있도록 돕습니다. 패션 디자이너들이 보이지 않던 것들을 만들어내는 데 GAN을 활용하고, 비디오 게임 제작자들은 GAN으로 만들어진 환경에 초현실적인 캐릭터를 구축하고 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 미래는 드디어 인간의 창조성과 AI 마법이 잘 어우러진 이 아름다운 예술에 이르렀습니다! 이제 이 예술적인 인공지능들이 만들어낼 놀라운 작품들을 기대해 보세요.
 
@@ -83,15 +145,37 @@ RL은 로봇들이 시행착오를 통해 배우는 것을 가능하게 해. 마
 
 이것은 마침내 진보의 태양을 향해 뻗어가는 기술 태양꽃입니다. 인공지능은 사람들이 더 현명하게 쇼핑하고, 질병과 싸우며, 더 용감해지고, 그리고 다른 멋진 일들을 할 수 있도록 도와줍니다. 그러나 한 가지 기억해야 할 점은, 위대한 힘은 위대한 책임을 수반한다는 것입니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-안녕하세요! 향후의 새로운 게임을 즐기는 방법을 안내하는 가이드를 고려해보세요. 이러한 규칙들은 AI가 정직하게 유지되고 모든 사람들이 그 놀라운 능력을 활용할 기회를 보장합니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+안녕하세요! 향후의 새로운 게임을 즐기는 방법을 안내하는 가이드를 고려해보세요. 이러한 규칙들은 AI가 정직하게 유지되고 모든 사람들이 그 놀라운 능력을 활용할 기회를 보장합니다.
 
 2021년에는 산업 제조업체의 89%가 AI 윤리 정책을 보고했습니다. 이러한 전문가들은 AI가 모든 사람에게 공정하고 친근하게 대우하는 데 고민을 하고 노력하고 있습니다.
 
 장기적인 목표는 이러한 AI 미래에 신뢰를 저리하고, 모든 사람에게 아낌없는 혜택을 주도록 하는 것입니다. 그러면 팝콘을 꺼내고, 앞으로 AI가 삶을 더 나아지고 공정하며 멋지게 만들어 줄 실제 미래에 대해 준비하세요! 🌟
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

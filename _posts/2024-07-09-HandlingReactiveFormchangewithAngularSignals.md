@@ -3,17 +3,13 @@ title: "Angular Signals로 Reactive Form 변경 사항 처리하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-HandlingReactiveFormchangewithAngularSignals_0.png"
 date: 2024-07-09 10:30
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-HandlingReactiveFormchangewithAngularSignals_0.png
 tag: Tech
 originalTitle: "Handling Reactive Form change with Angular Signals."
 link: "https://medium.com/stackademic/handling-reactive-form-change-with-angular-signals-69dae7cd3f78"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-07-09-HandlingReactiveFormchangewithAngularSignals_0.png" />
 
@@ -65,7 +61,18 @@ bootstrapApplication(App);
 
 # 문제 설명 및 전통적인 해결책
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만, 이 전통적인 방법에는 한 가지 큰 단점이 있습니다: 뷰에 0의 결과를 표시할 수 없습니다. area$observable이 숫자 0을 발행하면, 뷰의 조건 @if(area$ | async; as areaValue)는 false를 반환하여 `div`Area observable: 'areaValue'`/div` HTML 블록이 렌더링되지 않습니다.
 
@@ -75,7 +82,18 @@ bootstrapApplication(App);
 
 아래의 예제에서 두 가지 전통적인 해결책을 사용한 예제를 확인해보세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @Component({
@@ -142,8 +160,18 @@ bootstrapApplication(App);
 
 포장 메서드는 분명히 간단하며 스파게티 코드를 피할 수 있지만, Angular Signals를 사용하여 구현해 보겠습니다. 이를 위해 areaSignal이라는 새로운 프로퍼티를 추가하고 areaSignal = toSignal(this.area$);와 같이 초기화한 후 뷰에서 사용하면 됩니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @Component({
@@ -160,7 +188,7 @@ bootstrapApplication(App);
     @if(area$ | async; as area) {
       <div>Async 파이프로 연결된 넓이 observable: {area}</div>
     }
-    
+
     넓이 시그널: {areaSignal()} <br>
   `,
   imports: [FormsModule, ReactiveFormsModule, AsyncPipe],
@@ -203,8 +231,18 @@ bootstrapApplication(App, {
 
 https://stackblitz.com/edit/stackblitz-starters-ey39la?file=src%2Fmain.ts
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제가 이전 글을 썼어요: Angular에서 NgRx SignalStore 상태 관리와 zoneless 앱.
 
@@ -214,7 +252,18 @@ https://stackblitz.com/edit/stackblitz-starters-ey39la?file=src%2Fmain.ts
 
 Angular Signals: [링크](https://angular.dev/guide/signals)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Angular Zoneless: [https://angular.dev/guide/experimental/zoneless](https://angular.dev/guide/experimental/zoneless)
 
@@ -224,7 +273,18 @@ Angular Reactive Forms: [https://angular.dev/guide/forms/reactive-forms](https:/
 
 Thank you for reading until the end. Before you go:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 작가에게 박수를 보내고 팔로우도 해주세요! 👏
 - 우리를 팔로우해 주세요 X | LinkedIn | YouTube | Discord

@@ -3,17 +3,13 @@ title: "3D 프린팅 vs 적층 제조 쉽게 이해하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-13-3DPRINTINGVSADDITIVEMANUFACTURINGEASILYEXPLAINED_0.png"
 date: 2024-07-13 22:16
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-3DPRINTINGVSADDITIVEMANUFACTURINGEASILYEXPLAINED_0.png
 tag: Tech
 originalTitle: "3D PRINTING VS. ADDITIVE MANUFACTURING: EASILY EXPLAINED"
 link: "https://medium.com/technology-hits/3d-printing-vs-additive-manufacturing-easily-explained-5ce5a7f5688b"
 isUpdated: true
 ---
-
-
-
-
 
 창의적인 제조 분야에서, "3D 프린팅"과 "부가 제조"라는 용어들은 종종 같은 의미로 사용된다고 사람들은 말합니다. 밀접한 관계를 가졌지만, 분명히 인지해야 할 차이점이 있습니다. 기본적으로 "부가 제조"라는 용어를 "3D 프린팅" 대신 사용할 수 있지만, 그 반대는 불가능합니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![image](/assets/img/2024-07-13-3DPRINTINGVSADDITIVEMANUFACTURINGEASILYEXPLAINED_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 표를 보시다시피, 부가 제조 기술 (AM, Additive Manufacturing)은 3D 물체를 만드는 여러 가지 공정과 기술을 포함하고 있어요. 이 용어는 조각 제조와 달리 금속 층을 더하는 방식으로 항목을 만듭니다. 이것은 칼을 사용하여 단단한 조각에서 잘라내는 대신 층별로 재료를 추가하는 방식으로 이루어집니다. 이 사실로 인해 복잡한 모양, 비어 있는 물체, 그리고 더 전통적인 기술로는 할 수 없는 세밀한 디자인을 만들 수 있는 것이 가능해졌습니다.
 
@@ -36,7 +43,18 @@ isUpdated: true
 
 # 3D 프린팅은 AM의 한 특정 유형입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-13-3DPRINTINGVSADDITIVEMANUFACTURINGEASILYEXPLAINED_1.png" />
 
@@ -48,7 +66,18 @@ isUpdated: true
 • 재료 제한: 재료가 확장되고 있지만, 3D 프린팅은 주로 플라스틱이나 폴리머를 사용합니다. 반면 부가 제조는 금속, 세라믹, 심지어 생체 재료와 함께 작동할 수 있습니다.
 • 층이 보이는 현상: 층별 접근 방식으로 인해 3D 프린팅된 물체에는 가시적인 선이 보일 수 있거나 약간 질감있는 표면을 가질 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 올바른 기술 선택하기
 
@@ -61,7 +90,18 @@ isUpdated: true
 
 증가 제조 기술은 큰 잠재력을 지니고 빠르게 변화하고 있습니다. 재료가 더 나아지고 공정이 개선될수록, 이러한 기술을 활용하여 더 복잡하고 고품질의 물건을 만들어낼 수 있을 것으로 기대할 수 있습니다. 제조업의 미래는 아마도 전통적인 방식과 새로운 추가적 방법들이 더 긴밀하게 협력하여 작업하면서, 더 큰 디자인 자유도를 제공하고 생산을 더 유연하게 만들 것으로 예상됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 간단히 말해서...
 
@@ -71,10 +111,21 @@ isUpdated: true
 
 더 자세히 알아보고 싶다면 "Additive Manufacturing Technologies" 책을 추천합니다. 이 책은 아마존에서도 구매할 수 있으며 이 웹사이트에서도 자세한 지도를 다운로드할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 이 글을 좋아하셨다면, 제 최신 글을 정기적으로 받기 위해 구독하고 팔로우하는 것을 잊지 마세요. 또는 다른 플랫폼에서 연결해보죠: X, Linked-in, Instagram.
 
 당신의 디지털 마케팅 여정에 대한 내 지원
 
-*아마존 제휴사로서, 적격 구매로부터 수익을 얻습니다.
+\*아마존 제휴사로서, 적격 구매로부터 수익을 얻습니다.

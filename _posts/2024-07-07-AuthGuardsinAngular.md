@@ -3,17 +3,13 @@ title: "Angular에서 Auth Guards를 사용 하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-07-AuthGuardsinAngular_0.png"
 date: 2024-07-07 03:07
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-AuthGuardsinAngular_0.png
 tag: Tech
 originalTitle: "Auth Guards in Angular"
 link: "https://medium.com/@jaydeepvpatil225/auth-guards-in-angular-6960950b3c6c"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-07-07-AuthGuardsinAngular_0.png" />
 
@@ -23,14 +19,36 @@ isUpdated: true
 
 - Angular란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-* 앵귤러의 Auth Guards
-* 앵귤러의 Auth Guards 종류
-* Auth Guards의 장점
-* Auth Guards의 예시
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+- 앵귤러의 Auth Guards
+- 앵귤러의 Auth Guards 종류
+- Auth Guards의 장점
+- Auth Guards의 예시
+
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 준비물:
 
@@ -38,7 +56,18 @@ isUpdated: true
 - Angular CLI
 - NodeJS
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - TypeScript 및 Angular에 대한 기본적인 이해
 
@@ -48,24 +77,56 @@ Angular는 웹 애플리케이션을 구축하기 위한 인기있는 오픈 소
 
 ## Angular에서의 인증 가드(Auth Guards):
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Angular에서는 Auth Guards라는 기술이 사용되어 사용자의 인증 상태에 따라 라우트를 보호하는 기술입니다.
 - 인증된 사용자와 미인증 사용자 사이에 다른 액세스 레벨을 관리합니다.
 - 사용자가 응용 프로그램에서 특정 경로로 이동할 때, Auth Guard는 사용자가 해당 경로에 대해 인증되었고 허가되었는지 확인할 수 있습니다.
 - 사용자가 인증되면, Auth Guard는 네비게이션을 계속 진행하도록 허용합니다. 그렇지 않으면 사용자를 로그인 페이지나 다른 적절한 경로로 리디렉션하여 보호된 콘텐츠에 액세스하는 것을 방지합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Angular의 인증 가드 유형:
 
 Angular에서는 사용자의 인증 상태에 따라 라우트를 보호하는 데 사용할 수 있는 다양한 유형의 Auth Guards가 있습니다.
 
 - `CanActivate`
-   - 대부분 사용되는 Angular 애플리케이션에서 사용되는 일반적인 Auth Guard 유형입니다.
-  
+  - 대부분 사용되는 Angular 애플리케이션에서 사용되는 일반적인 Auth Guard 유형입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 특정 경로를 탐색할 수 있는 사용자를 결정하고 불리언 값 (참 또는 거짓) 또는 불리언으로 해결되는 observable/promise을 반환합니다.
 
@@ -75,7 +136,18 @@ Angular에서는 사용자의 인증 상태에 따라 라우트를 보호하는 
 
 - CanActivateChild Auth Guard는 CanActivate와 유사하지만 특정 경로의 자식 경로를 보호하는 데 특히 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 · 중첩 된 루트가있고 요구 사항에 따라 모든 하위 루트를 동일한 인증 기준으로 보호해야 할 때 사용됩니다.
 
@@ -85,8 +157,18 @@ Angular에서는 사용자의 인증 상태에 따라 라우트를 보호하는 
 
 · 사용자에게 확인을 요청하도록하는 또는 저장되지 않은 변경 사항이있는 경로를 떠날 때 다른 확인을 수행하거나 사용자가 떠나도록 허용하기 전에 다른 확인을 수행하도록 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CanLoad
 
@@ -96,7 +178,18 @@ CanLoad
 
 ### Auth Guards의 이점:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앵귤러의 Auth Guards는 안전한 웹 애플리케이션을 구축하기 위한 중요한 혜택을 제공합니다:
 
@@ -106,7 +199,18 @@ Auth Guards는 매우 사용자 정의가 가능합니다. 사용자 역할, 권
 
 유지보수 및 테스트:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인증 및 권한 부여 로직을 Auth Guards로 분리하면 이 기능을 독립적으로 유지하고 테스트하는 것이 더 쉬워집니다.
 
@@ -116,7 +220,18 @@ Auth Guards를 사용하면 애플리케이션에서 특정 라우트나 기능�
 
 사용자 경험:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인증 가드를 사용하면 사용자가 인증되지 않은 경우를 처리할 수 있습니다. 페이지 액세스를 거부하는 대신 사용자를 로그인 페이지나 다른 적절한 경로로 리디렉션하여 더 사용자 친화적인 경험을 제공할 수 있습니다.
 
@@ -126,7 +241,18 @@ Auth Guards를 사용하면 애플리케이션에서 특정 라우트나 기능�
 
 코드 재사용성:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인증 가드는 Angular 서비스로 구현되어 있어서 애플리케이션 전반에 걸쳐 재사용할 수 있습니다. 한 번 인증 가드를 정의하면 여러 경로에 쉽게 적용하여 코드를 더 깨끗하고 유지보수가 쉽도록 할 수 있습니다.
 
@@ -136,7 +262,18 @@ Auth Guards를 사용하면 애플리케이션에서 특정 라우트나 기능�
 
 권한 부여의 일관성:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인증 가드는 사용자 인가 로직을 중앙 집중식으로 처리하는 방법을 제공합니다. 이 일관성은 응용 프로그램 전반에 걸쳐 인가 확인이 일관되게 적용되어, 무단으로 사용자에게 액세스 권한을 부여하는 실수 가능성을 줄입니다.
 
@@ -146,7 +283,18 @@ Auth Guards를 사용하면 애플리케이션에서 특정 라우트나 기능�
 
 새로운 Angular 애플리케이션을 생성합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단계 2
 
@@ -164,7 +312,18 @@ Angular JSON 파일에서 부트스트랩을 구성하세요.
 ]
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 단계 3
 
@@ -192,7 +351,18 @@ login.component.html
   </div>
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 login.component.ts
 
@@ -250,7 +420,18 @@ Markdown 형식으로 변환하는 에박(Markdown) 테이블:
 {% endif %}
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 product-list.component.ts
 
@@ -298,7 +479,18 @@ proudct-details.component.html
 <router-outlet></router-outlet>
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프라우드덕츠 디테일 컴포넌트(proudct-details.component.ts)
 
@@ -337,22 +529,30 @@ export class ProudctDetailsComponent {
 <p>proudct-offers works!</p>
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 운ful_producto-offers.component.ts
 
 ```js
-import { Component  } from '@angular/core';
+import { Component } from "@angular/core";
 
 @Component({
-  selector: 'app-proudct-offers',
-  templateUrl: './proudct-offers.component.html',
-  styleUrls: ['./proudct-offers.component.css']
+  selector: "app-proudct-offers",
+  templateUrl: "./proudct-offers.component.html",
+  styleUrls: ["./proudct-offers.component.css"],
 })
-export class ProudctOffersComponent {
-
-}
+export class ProudctOffersComponent {}
 ```
 
 proudct-rating.component.html
@@ -372,7 +572,18 @@ proudct-rating.component.html
 </div>
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 proudct-rating.component.ts
 
@@ -385,7 +596,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./proudct-rating.component.css']
 })
 export class ProudctRatingComponent {
-  
+
   private unsavedChanges = false;
   selectedRating: number | null = null;
 
@@ -411,7 +622,18 @@ Step 4
 
 아래 명령어를 사용하여 auth 및 product 서비스를 생성하세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 product.service.ts
 
@@ -464,10 +686,10 @@ export class AuthService {
   private isAuthenticated = false;
   private authSecretKey = 'Bearer Token';
 
-  constructor() { 
+  constructor() {
     this.isAuthenticated = !!localStorage.getItem(this.authSecretKey);
   }
-  
+
   login(username: string, password: string): boolean {
     if (username === 'Jaydeep Patil' && password === 'Pass@123') {
       const authToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpheWRlZXAgUGF0aWwiLCJpYXQiOjE1MTYyMzkwMjJ9.yt3EOXf60R62Mef2oFpbFh2ihkP5qZ4fM8bjVnF8YhA'; // Generate or receive the token from your server
@@ -490,7 +712,18 @@ export class AuthService {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Step 5
 
@@ -499,37 +732,43 @@ Step 5
 product-service-routing.module.ts
 
 ```js
-import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
-import { ProductServiceComponent } from './product-service-component/product-service-component.component';
+import { NgModule } from "@angular/core";
+import { RouterModule, Routes } from "@angular/router";
+import { ProductServiceComponent } from "./product-service-component/product-service-component.component";
 
-const routes: Routes = [{ path: '', component: ProductServiceComponent }];
+const routes: Routes = [{ path: "", component: ProductServiceComponent }];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class ProductServiceRoutingModule { }
+export class ProductServiceRoutingModule {}
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 product-service.module.ts
 
 ```typescript
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { ProductServiceComponent } from './product-service-component/product-service-component.component';
-import { ProductServiceRoutingModule } from './product-service-routing.module';
+import { NgModule } from "@angular/core";
+import { CommonModule } from "@angular/common";
+import { ProductServiceComponent } from "./product-service-component/product-service-component.component";
+import { ProductServiceRoutingModule } from "./product-service-routing.module";
 
 @NgModule({
-  declarations: [
-    ProductServiceComponent
-  ],
-  imports: [
-    ProductServiceRoutingModule,
-    CommonModule
-  ]
+  declarations: [ProductServiceComponent],
+  imports: [ProductServiceRoutingModule, CommonModule],
 })
 export class ProductServiceModule {}
 ```
@@ -540,7 +779,18 @@ product-service-component.component.html
 <p>product-service-component works!</p>
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```typescript
 product-service-component.component.ts
@@ -561,7 +811,7 @@ export class ProductServiceComponent implements OnInit {
   ngOnInit(): void {
     console.log('service component')
   }
-  
+
 }
 
 Step 6
@@ -569,7 +819,18 @@ Step 6
 Add the following code related to navbar tabs inside the app component for navigation purposes:
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 app.component.html
 
@@ -616,7 +877,7 @@ import { Router } from '@angular/router';
 })
 export class AppComponent {
   title = 'angular-guards';
-  
+
   constructor(private authService: AuthService, private router : Router) {}
 
   logout(): void {
@@ -626,7 +887,18 @@ export class AppComponent {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 7단계
 
@@ -678,7 +950,18 @@ export class AuthGuard implements CanActivate, CanActivateChild, CanDeactivate<P
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 8단계
 
@@ -687,43 +970,56 @@ export class AuthGuard implements CanActivate, CanActivateChild, CanDeactivate<P
 app-routing.module.ts
 
 ```js
-import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
-import { LoginComponent } from './components/login/login.component';
-import { ProductListComponent } from './components/product-list/product-list.component';
-import { AuthGuard } from './guards/auth.guard';
-import { ProudctDetailsComponent } from './components/proudct-details/proudct-details.component';
-import { ProudctRatingComponent } from './components/proudct-rating/proudct-rating.component';
-import { ProudctOffersComponent } from './components/proudct-offers/proudct-offers.component';
+import { NgModule } from "@angular/core";
+import { RouterModule, Routes } from "@angular/router";
+import { LoginComponent } from "./components/login/login.component";
+import { ProductListComponent } from "./components/product-list/product-list.component";
+import { AuthGuard } from "./guards/auth.guard";
+import { ProudctDetailsComponent } from "./components/proudct-details/proudct-details.component";
+import { ProudctRatingComponent } from "./components/proudct-rating/proudct-rating.component";
+import { ProudctOffersComponent } from "./components/proudct-offers/proudct-offers.component";
 
 const routes: Routes = [
-  {path: '', component:ProductListComponent, pathMatch:'full', canActivate: [AuthGuard]},
-  {path: 'login', component:LoginComponent},
-  {path: 'products', component:ProductListComponent, canActivate: [AuthGuard]},
-  {path: 'products', component:ProductListComponent, canActivate: [AuthGuard]},
+  { path: "", component: ProductListComponent, pathMatch: "full", canActivate: [AuthGuard] },
+  { path: "login", component: LoginComponent },
+  { path: "products", component: ProductListComponent, canActivate: [AuthGuard] },
+  { path: "products", component: ProductListComponent, canActivate: [AuthGuard] },
   {
-    path: 'product/:id', component: ProudctDetailsComponent,canActivateChild: [AuthGuard],
+    path: "product/:id",
+    component: ProudctDetailsComponent,
+    canActivateChild: [AuthGuard],
     children: [
-      { path: 'rating', component: ProudctRatingComponent, canDeactivate: [AuthGuard] },
-      { path: 'offers', component: ProudctOffersComponent }
-    ]
+      { path: "rating", component: ProudctRatingComponent, canDeactivate: [AuthGuard] },
+      { path: "offers", component: ProudctOffersComponent },
+    ],
   },
   {
-    path: 'service',
-    loadChildren: () => import('./modules/product-service/product-service.module').then(m => m.ProductServiceModule),
-    canLoad: [AuthGuard]
+    path: "service",
+    loadChildren: () => import("./modules/product-service/product-service.module").then((m) => m.ProductServiceModule),
+    canLoad: [AuthGuard],
   },
-  {path: '**', component:ProductListComponent, pathMatch:'full', canActivate: [AuthGuard]}
+  { path: "**", component: ProductListComponent, pathMatch: "full", canActivate: [AuthGuard] },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 9단계
 
@@ -732,23 +1028,23 @@ export class AppRoutingModule { }
 app.module.ts
 
 ```js
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from "@angular/core";
+import { BrowserModule } from "@angular/platform-browser";
 
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { LoginComponent } from './components/login/login.component';
-import { ProductListComponent } from './components/product-list/product-list.component';
+import { AppRoutingModule } from "./app-routing.module";
+import { AppComponent } from "./app.component";
+import { LoginComponent } from "./components/login/login.component";
+import { ProductListComponent } from "./components/product-list/product-list.component";
 
-import { HttpClientModule } from '@angular/common/http';
-import { ReactiveFormsModule } from '@angular/forms';
-import { AuthGuard } from './guards/auth.guard';
-import { ProudctDetailsComponent } from './components/proudct-details/proudct-details.component';
-import { ProudctRatingComponent } from './components/proudct-rating/proudct-rating.component';
-import { ProudctOffersComponent } from './components/proudct-offers/proudct-offers.component';
+import { HttpClientModule } from "@angular/common/http";
+import { ReactiveFormsModule } from "@angular/forms";
+import { AuthGuard } from "./guards/auth.guard";
+import { ProudctDetailsComponent } from "./components/proudct-details/proudct-details.component";
+import { ProudctRatingComponent } from "./components/proudct-rating/proudct-rating.component";
+import { ProudctOffersComponent } from "./components/proudct-offers/proudct-offers.component";
 
-import { FormsModule } from '@angular/forms';
-import { ProductServiceModule } from './modules/product-service/product-service.module';
+import { FormsModule } from "@angular/forms";
+import { ProductServiceModule } from "./modules/product-service/product-service.module";
 
 @NgModule({
   declarations: [
@@ -757,23 +1053,27 @@ import { ProductServiceModule } from './modules/product-service/product-service.
     ProductListComponent,
     ProudctDetailsComponent,
     ProudctRatingComponent,
-    ProudctOffersComponent
+    ProudctOffersComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    HttpClientModule,
-    ReactiveFormsModule,
-    FormsModule,
-    ProductServiceModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, HttpClientModule, ReactiveFormsModule, FormsModule, ProductServiceModule],
   providers: [AuthGuard],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 10단계
 
@@ -783,7 +1083,18 @@ export class AppModule { }
 
 사용자 이름: Jaydeep Patil
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 패스워드: Pass@123
 
@@ -793,7 +1104,18 @@ export class AppModule { }
 
 ![이미지3](/assets/img/2024-07-07-AuthGuardsinAngular_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-07-AuthGuardsinAngular_4.png" />
 
@@ -803,12 +1125,23 @@ export class AppModule { }
 
 ## GitHub:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 https://github.com/Jaydeep-007/angular-auth-guards
 
-## 결론: 
+## 결론:
 
-이 글에서는 Auth Guards의 기본, 각종 가드의 종류, 다양한 예시를 통해 그들의 장점에 대해 논의했습니다. 
+이 글에서는 Auth Guards의 기본, 각종 가드의 종류, 다양한 예시를 통해 그들의 장점에 대해 논의했습니다.
 
 즐거운 코딩하세요!

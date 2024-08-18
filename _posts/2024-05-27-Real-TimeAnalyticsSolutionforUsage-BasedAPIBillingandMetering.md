@@ -3,17 +3,13 @@ title: "사용 기반 API 요금 청구 및 미터링을 위한 실시간 분석
 description: ""
 coverImage: "/assets/img/2024-05-27-Real-TimeAnalyticsSolutionforUsage-BasedAPIBillingandMetering_0.png"
 date: 2024-05-27 12:58
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-Real-TimeAnalyticsSolutionforUsage-BasedAPIBillingandMetering_0.png
 tag: Tech
 originalTitle: "Real-Time Analytics Solution for Usage-Based API Billing and Metering"
 link: "https://medium.com/towards-data-science/real-time-analytics-solution-for-usage-based-api-billing-and-metering-f9e7a350f707"
 isUpdated: true
 ---
-
-
-
-
 
 ![Real-Time Analytics Solution](/assets/img/2024-05-27-Real-TimeAnalyticsSolutionforUsage-BasedAPIBillingandMetering_0.png)
 
@@ -23,8 +19,18 @@ An API business refers to a company that packages its services or functionalitie
 
 A company operating an API business needs a data infrastructure component to track API call volume and bill consumers accordingly.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 게시물에서는 Apache APISIX, Redpanda 및 Apache Pinot를 사용하여 실시간 API 사용 추적 솔루션을 구축하기 위한 참조 아키텍처를 제시합니다. 이 게시물은 "어떻게"보다는 "왜"에 중점을 두었습니다. 이를 솔루션 설계 연습으로 간주하고 심층 튜토리얼이 아니라는 것을 고려해 주세요. 저는 솔루션 패턴을 청사진으로 추출하여 향후 프로젝트에서 재사용할 수 있도록 돕고자 합니다.
 
@@ -34,7 +40,18 @@ A company operating an API business needs a data infrastructure component to tra
 
 API 및 API 관리 개념에 대해 처음이라면, 먼저 간단히 소개해 드리겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 디지털 비즈니스에서 API는 비즈니스 작업에 프로그래밍 방식으로 액세스할 수 있도록 해줘서 인간을 제외할 수 있어요. 이러한 비즈니스 작업에는 주문 생성, 자금 이체, CRM에서 고객 주소 업데이트 등이 포함될 수 있어요.
 
@@ -46,7 +63,18 @@ API 및 API 관리 개념에 대해 처음이라면, 먼저 간단히 소개해 
 
 ![이미지](/assets/img/2024-05-27-Real-TimeAnalyticsSolutionforUsage-BasedAPIBillingandMetering_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 API의 역할은 내부 비즈니스 시스템을 소비자로부터 분리하여, 소비자가 백엔드 시스템의 복잡성을 처리할 필요 없이 이를 제공하는 것입니다. 이러한 방식으로, API는 추상화 계층 역할을 합니다. API는 HTTP를 포함한 다양한 통신 프로토콜을 통해 작동하며, RESTful 및 GraphQL API 스타일을 볼 수 있습니다.
 
@@ -58,7 +86,18 @@ API의 역할은 내부 비즈니스 시스템을 소비자로부터 분리하�
 
 번역 시 일부 용어는 컨텍스트에 맞게 번역되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # API를 활용하여 수익을 창출하는 방법
 
@@ -68,8 +107,18 @@ API의 역할은 내부 비즈니스 시스템을 소비자로부터 분리하�
 
 부동산 감정 회사를 고려해보세요. 이 회사는 주택 구매자와 판매자에게 즉각적인 부동산 평가를 제공합니다. 이 평가는 우편번호, 부동산 유형, 지역과 같은 간단한 요소를 기반으로 합니다. 현재, 이 회사는 웹 기반 사용자 인터페이스만 제공하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-05-27-Real-TimeAnalyticsSolutionforUsage-BasedAPIBillingandMetering_3.png)
 
@@ -79,8 +128,18 @@ API의 역할은 내부 비즈니스 시스템을 소비자로부터 분리하�
 
 ![image](/assets/img/2024-05-27-Real-TimeAnalyticsSolutionforUsage-BasedAPIBillingandMetering_4.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 평가 API는 부동산 회사, 은행, 보험사, 정부 등 다양한 분야의 잠재 고객들을 유치할 것입니다:
 
@@ -93,7 +152,18 @@ API의 역할은 내부 비즈니스 시스템을 소비자로부터 분리하�
 
 이 회사는 어떻게 수익을 창출할까요? 평가 API를 API 제품 세트로 포장하여 구독 계층과 함께 판매하세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가입 등급은 소비자가 매달 고정된 API 호출 횟수를 사용할 수 있는 할당량입니다. 그 할당량을 초과하면 사용자는 제한을 받거나 초과 사용량에 대해 요금을 지불해야 합니다.
 
@@ -105,7 +175,18 @@ API의 역할은 내부 비즈니스 시스템을 소비자로부터 분리하�
 
 ![이미지](/assets/img/2024-05-27-Real-TimeAnalyticsSolutionforUsage-BasedAPIBillingandMetering_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 고객은 예상 사용량에 따라 다양한 티어 중에서 선택하여 API에 가입할 수 있습니다. 한 달의 끝에 회사는 실제 사용량을 기반으로 고객에게 청구할 것입니다.
 
@@ -115,7 +196,18 @@ API의 역할은 내부 비즈니스 시스템을 소비자로부터 분리하�
 
 이제 우리가 해결하려는 문제를 이해했으니, 구현에 들어가기 전에 몇 가지 설계 결정사항을 설명해 드리겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## KPI 지표
 
@@ -129,10 +221,20 @@ API의 역할은 내부 비즈니스 시스템을 소비자로부터 분리하�
 
 이상적으로 이런 것들이 모두 이렇게 시각화된 대시보드에서 보고 싶습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 마크다운 형식으로 표시 변환한 코드입니다.
-
 
 ![이미지](/assets/img/2024-05-27-Real-TimeAnalyticsSolutionforUsage-BasedAPIBillingandMetering_6.png)
 
@@ -142,8 +244,18 @@ API의 역할은 내부 비즈니스 시스템을 소비자로부터 분리하�
 
 고객 및 협력사 - 소비자는 실시간 대시 보드에서 할당량 사용량과 청구 추정을 확인하는 것을 좋아합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 API 운영 팀 - 이 팀은 API 관리 인프라를 관리합니다. API의 건강 정보에 특히 관심이 있으며, 지연시간, 처리량, 오류 등을 주로 다룹니다.
 
@@ -153,7 +265,18 @@ API 제품 팀 - 이 팀은 API 제품을 소유하고 있습니다. 그들은 �
 
 ## 일괄 처리 또는 실시간 처리?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최종 디자인 결정으로, 실시간 및 일괄 메트릭 사이에 80:20의 분할을 설정하겠습니다.
 
@@ -163,7 +286,18 @@ API 제품 팀 - 이 팀은 API 제품을 소유하고 있습니다. 그들은 �
 
 그러나 모든 사용 사례가 실시간 처리를 필요로 하는 것은 아닙니다. 어떤 사용 사례는 자연스럽게 일괄 처리에 적합합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 고객을 위한 월별 사용량에 기반한 청구 보고서.
 - 업무팀을 위한 주간 API 건강 보고서.
@@ -175,7 +309,18 @@ API 제품 팀 - 이 팀은 API 제품을 소유하고 있습니다. 그들은 �
 
 ![이미지](/assets/img/2024-05-27-Real-TimeAnalyticsSolutionforUsage-BasedAPIBillingandMetering_8.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다이어그램이 복잡하고 많은 알 수없는 기술이 있어서 알겠습니다. 그래서, 세 개의 레이어로 나누어서 각각에 대해 자세히 설명하겠습니다.
 
@@ -185,7 +330,18 @@ API 제품 팀 - 이 팀은 API 제품을 소유하고 있습니다. 그들은 �
 
 ![image](/assets/img/2024-05-27-Real-TimeAnalyticsSolutionforUsage-BasedAPIBillingandMetering_9.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나, 우리가 가장 관심 있는 구성 요소는 API 게이트웨이입니다. 이 곳은 모든 API 트래픽이 백엔드로 흐르는 곳입니다.
 
@@ -193,7 +349,18 @@ API 제품 팀 - 이 팀은 API 제품을 소유하고 있습니다. 그들은 �
 
 그러나, 이 쓰기 경로를 구현할 때 직접 데이터를 기본 데이터 저장소에 쓰는 것은 여러 문제점을 야기할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 APIM 시스템과 분석 인프라 사이의 강한 결합 - 나중에 새 APIM 공급업체로 전환할 때 분석 인프라의 상당 부분을 다시 작성해야 할 수도 있습니다.
 
@@ -203,7 +370,18 @@ APIM 시스템과 분석 인프라 사이의 강한 결합 - 나중에 새 APIM 
 
 이로 인해 APIM과 분석 인프라를 분리하는 방법을 모색할 필요가 있습니다. Apache Kafka와 같은 스트리밍 데이터 플랫폼은 API 게이트웨이에서 높은 처리량 데이터 스트림을 낮은 지연 시간으로 수신할 수 있으므로 여기에 적합할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 솔루션에서는 성능과 간편함 측면에서 Kafka보다 우월한 Redpanda, Kafka API 호환 스트리밍 데이터 플랫폼을 사용할 것입니다. 하지만 만약 Kafka만 사용하길 원한다면 괜찮습니다. 해당 솔루션은 두 기술에 모두 매끄럽게 작동합니다.
 
@@ -213,7 +391,18 @@ Redpanda를 중심으로 한 데이터 파이프라인은 다음과 같이 구�
 
 Redpanda의 추가로 두 시스템이 분리되었고 쓰기 경로가 비동기로 동작합니다. 이는 분석 시스템이 유지 보수를 위해 오프라인 상태로 들어갈 수 있고, 중단된 지점부터 다시 재개할 수 있도록 합니다. 게다가 Redpanda는 갑작스러운 트래픽 급증을 흡수하여 분석 시스템이 과부하를 받거나 API 게이트웨이에 맞춰 스케일링할 필요가 없도록 해줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 APISIX와 Redpanda 사이의 연결을 어떻게 만들어야 할지 궁금할 것입니다. 다행히도, APISIX는 Kafka를 위한 내장 데이터 싱크를 제공합니다. 게이트웨이로 API 요청이 발생하고 응답이 반환될 때, 이 싱크는 실시간으로 Kafka 토픽에 레코드를 발행합니다. 우리는 Redpanda와 함께 이 싱크를 사용할 수 있습니다. 왜냐하면 Redpanda가 Kafka API와 호환되기 때문입니다.
 
@@ -223,7 +412,18 @@ APISIX는 개별 API 호출을 JSON 이벤트로 형식화하고 지연 시간, 
 
 ![이미지](/assets/img/2024-05-27-Real-TimeAnalyticsSolutionforUsage-BasedAPIBillingandMetering_13.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 API 관리 플랫폼에 Kafka 싱크가 없는 경우 어떻게 할까요? 그럼 대안으로 API 게이트웨이의 HTTP 액세스 로그를 Kafka로 스트림 처리할 수도 있습니다. 이를 위해 Filebeat나 유사한 도구를 사용할 수 있습니다.
 
@@ -233,7 +433,18 @@ API 관리 플랫폼에 Kafka 싱크가 없는 경우 어떻게 할까요? 그�
 
 OLTP 데이터베이스, 키-값 저장소 또는 데이터 웨어하우스가 될 수 있을까요? 다음 기대 기준에 따라 각각을 평가해 봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 스트리밍 데이터 수집 - 실시간 데이터 원본인 Kafka에서 가져와야 합니다. 여기서는 배치 데이터 로딩이 없어야 합니다. 스트리밍 수집은 더 높은 데이터 신선도를 보장합니다.
 - 낮은 지연 쿼리 - 쿼리 지연 시간은 하위 초 범위 내여야 하며 사용자를 위한 분석 대시보드를 만족시켜야 합니다.
@@ -245,7 +456,18 @@ Apache Pinot은 실시간 분산 OLAP 데이터베이스로, 스트리밍 데이
 
 아키텍처에서 Pinot을 사용하면 엔드 투 엔드 데이터 파이프라인은 다음과 같이 보입니다. Pinot은 Redpanda와 API 호환성으로 원활하게 통합됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-27-Real-TimeAnalyticsSolutionforUsage-BasedAPIBillingandMetering_14.png" />
 
@@ -256,7 +478,18 @@ Apache Pinot은 실시간 분산 OLAP 데이터베이스로, 스트리밍 데이
 - 실시간 결합 및 보강이 필요할 때 — 핀오토로 전달할 추가 차원이 필요하며, 이는 여러 스트림을 결합하여 파생할 수 있습니다. 예: IP 지오코딩.
 - 알림 — 사용량의 이상 현상을 기반으로 알림을 트리거하고 하류 이벤트 주도형 워크플로를 실행합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Serving layer
 
@@ -266,7 +499,18 @@ Apache Pinot은 실시간 분산 OLAP 데이터베이스로, 스트리밍 데이
 
 <img src="/assets/img/2024-05-27-Real-TimeAnalyticsSolutionforUsage-BasedAPIBillingandMetering_15.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리의 우선순위는 소비자들입니다. 그들은 사용량과 청구 예상을 시각화하는 실시간 대시보드가 필요합니다. 이를 위해 Streamlit과 같은 프레임워크를 활용하여 Python 기반 데이터 어플리케이션을 개발할 수 있습니다. Pinot Python 드라이버 pinotdb를 사용하면 애플리케이션과 Pinot 쿼리 환경을 연결할 수 있습니다.
 
@@ -276,7 +520,18 @@ BI 및 즉석 탐색이 필요한 사용자 그룹, 특히 API 제품 소유자�
 
 # 요약
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 파이프라인 구현 단계 순서를 나열하여 글을 마무리해 봅시다.
 

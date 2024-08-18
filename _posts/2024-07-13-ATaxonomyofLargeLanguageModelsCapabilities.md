@@ -3,17 +3,13 @@ title: "대형 언어 모델의 능력 분류 해부"
 description: ""
 coverImage: "/assets/img/2024-07-13-ATaxonomyofLargeLanguageModelsCapabilities_0.png"
 date: 2024-07-13 03:27
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-ATaxonomyofLargeLanguageModelsCapabilities_0.png
 tag: Tech
 originalTitle: "A Taxonomy of Large Language Models Capabilities"
 link: "https://medium.com/generative-ai/a-taxonomy-of-large-language-models-capabilities-b019d3d582b2"
 isUpdated: true
 ---
-
-
-
-
 
 ![image](/assets/img/2024-07-13-ATaxonomyofLargeLanguageModelsCapabilities_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 텍스트 분야에서는 대규모 언어 모델(Large Language Models, LLMs)이 일관된 콘텐츠 생성 능력을 증명했으며, 지도된 미세 조정 (Supervised Fine-Tuning, SFT)은 컨텍스트, 예시, 그리고 사용자 명령을 기반으로 텍스트 생성을 안내하는 지침을 활용합니다. 이것을 컨텍스트 창 또는 프롬프트라고 합니다. 이러한 학습 과정은 초기 조건을 넘어서 네트워크가 명시적으로 훈련받지 않은 능력들의 출현을 포함하고 있으며, 이는 이전의 더 작은 모델들로 수행된 실험에서 예측할 수 없었던 능력들입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 얼마나 큰 가치를 잠재우는지 제안하는 모든 분야에 적용되고 있는 생성적 AI는 새로운 성장을 가져오고 있습니다. 판매, 마케팅, 고객 서비스, 소프트웨어 개발 분야에서 그 사용이 특히 두드러지게 나타납니다. 혁명에 영향을 받지 않는 분야는 없습니다. 어떤 코멘테이터들은 진화에 대해서만 언급하지만, 그것은 우리가 이전에 보유한 기술과 오늘날 가지고 있는 기술 사이의 차이를 오해하는 것입니다. 이러한 모델이 다루는 활동이 광범위하고 다양하기 때문에 응용 가능성은 무한합니다. 우리가 예전에 명확한 작업에 특화된 단일 활동 모델을 가졌던 것과는 달리, 이제 그 모델을 변경하지 않고도 여러 기술을 가지고 있습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 넓은 범위의 언어 모델은 텍스트나 소스 코드 작성에 우수합니다. 반면에, 그 모델은 사고할 수 없고 사실적인 답변을 제공하거나 추론할 수 없으며 (특정 기교를 사용한다 해도), 작업을 계획하거나 수학적 작업을 수행하거나, 인터넷이나 데이터베이스에서 정보를 가져오는 등의 외부 도구를 직접 사용할 수 없습니다. 이러한 기능 중에 마지막 기능은 특정 인터페이스가 모델이 이러한 작업을 할 수 있다는 것을 보여주지만, 이러한 프로세스는 모델 외부의 프로그램에 의해 수행됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 제안된 분류 체계
 
@@ -48,7 +66,18 @@ isUpdated: true
 - 문제 해결(Problem-solving): 문제를 해결하는 능력, 그리고
 - 텍스트 이해(Text Comprehension): 주어진 텍스트 단락을 읽고 이해하며, 그 텍스트에 기반한 질문에 답하는 능력을 포함합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 넓은 범주를 살펴보겠습니다.
 
@@ -58,7 +87,18 @@ isUpdated: true
 
 자연어 처리(NLP)에서 이 기능을 자연어 생성(NLG)이라고 합니다. 이 주요 기능은 글의 시작을 완성하거나 소설 초고, 이메일, 아이디어 목록(ideation)을 이어가는 데 사용됩니다. 모델이 코드로도 훈련되기 때문에, 소스나 지시문에서 코드 입력을 완료하면 다양한 프로그래밍 언어의 코드 라인을 생성할 수 있습니다. 이를 통해 예를 들어 Java로 프로그램 테스트 함수를 작성할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 미래 토큰 예측 능력에는 다양한 활용 방안이 있습니다. 이는 텍스트 편집기에서 작성된 텍스트를 완성하는 데 도움을 주는 데 사용될 수 있으며, 휴대전화(SMS)나 검색 엔진에서도 활용될 수 있습니다. 음성 인식을 수정하거나 지식 테스트에서 사용되는 공백이 채워진 텍스트를 완성하는 데 사용될 수도 있습니다.
 
@@ -70,7 +110,18 @@ isUpdated: true
 - 텍스트에서 단어 완성: 텍스트 끝에 단어를 추가합니다.
 - 프롬프트를 기반으로 한 문장 생성: 지시에 따라 텍스트, 목록 또는 소스 코드를 생성합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2. 추출
 
@@ -80,7 +131,18 @@ isUpdated: true
 
 ![image](/assets/img/2024-07-13-ATaxonomyofLargeLanguageModelsCapabilities_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문장은 이해력에 많은 영향을 주지 않는 많은 단어들로 구성되어 있어, 정보를 희석시켜 내용 분석을 방해합니다. 이를 우리는 stop words 라고 부릅니다. 자동 키워드 추출은 문장에서 관련 표현이나 용어를 발견할 수 있도록 가능한 중요한 단어들을 식별하는데 도움을 줍니다. 이러한 단어는 웹 페이지 참조나 색인화에 사용될 수 있습니다. 한 가지 접근 방식으로 이러한 단어들을 주제로 그룹화하여 텍스트의 주요 주제를 식별함으로써 분류하는 데 도움을 줍니다. 이를 텍스트에서 개념을 추출하거나 주제를 추출한다고 합니다.
 
@@ -90,7 +152,18 @@ isUpdated: true
 
 마지막으로 가장 일반적인 추출 중에는 entity들을 연결하는 추출이 있습니다. 이것은 문장에서 두 entity 사이의 링크를 나타내는 의미적 관계 추출로, 주체-술어에 해당하는 링크를 가리키며 지식 그래프를 만드는 데 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![LLM extraction capabilities](/assets/img/2024-07-13-ATaxonomyofLargeLanguageModelsCapabilities_3.png)
 
@@ -104,7 +177,18 @@ In short, Large Language Models (LLMs) have various capabilities for extraction,
 
 ## 3. Classification
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 분류에는 텍스트 또는 텍스트 모음의 전체 또는 일부를 하나 이상의 클래스 또는 범주로 레이블링하는 것이 포함됩니다. 클래스는 텍스트의 언어, 문장의 의도, 문단에서 표현된 감정 또는 감정, 빈정거림, 비꼬음 또는 부정의 존재일 수 있습니다.
 
@@ -114,7 +198,18 @@ In short, Large Language Models (LLMs) have various capabilities for extraction,
 
 요청의 의도를 감지하는 것은 요청의 전체 의미를 이해하는 데 필수적인 기능입니다. 의도는 요청을 "전체적으로" 분류하여 해당 처리로 전달할 수 있도록 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "My bank card has been stolen. I need a new one"라는 문장은 renewal_cb로 분류되며 적절한 처리를 유발합니다. 특정 클래스를 결정하기 위해서는 결정의 예제와 클래스의 설명을 모델에 제시하는 것이 필요합니다. 가장 일반적인 사용 사례는 사용자의 의도를 결정하고, 그 후 필요한 모든 정보를 추출한 다음 사용자를 잠금 해제할 최종 작업을 수행하기 전의 시나리오를 유발하는 것입니다.
 
@@ -124,7 +219,18 @@ In short, Large Language Models (LLMs) have various capabilities for extraction,
 
 ![이미지](/assets/img/2024-07-13-ATaxonomyofLargeLanguageModelsCapabilities_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 긍정적이거나 부정적인 감정 이상으로 세련된 대응이 가능한 것이 중요합니다. 주요 목록에는 분노, 놀라움, 혐오, 기쁨, 두려움, 그리고 슬픔과 같은 여섯 가지 기본 감정이 포함됩니다. 그러나 인간의 복잡성을 반영하기 위해 훨씬 많은 감정들이 있습니다. 문장이 부정적인 방향으로 전환되었다는 것을 감지하는 것도 흥미로운 사용 사례이며, 일반적인 감지 시스템은 이러한 방향을 처리하는 데 어려움을 겪습니다.
 
@@ -134,7 +240,18 @@ In short, Large Language Models (LLMs) have various capabilities for extraction,
 
 요약하면, 대규모 언어 모델(LLM)의 분류 능력에는 다음이 포함됩니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 언어 식별: 텍스트의 언어를 판별합니다.
 - 의도 감지: 요청을 카테고리에 따라 분류합니다.
@@ -149,7 +266,18 @@ In short, Large Language Models (LLMs) have various capabilities for extraction,
 
 모델의 능력을 통해 단어 수준에서 작용하고 문맥을 고려하여 전체 문장을 수정하는 작업을 수행할 수 있습니다. 이러한 수정 작업을 통해 모델에게 철자, 문법 또는 구두점 오류를 수정하도록 요청할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Manipulation operations like standardization (normalization) change numbers, dates, acronyms, and abbreviations into plain text, making them more understandable for conventional extraction algorithms. Other manipulations involve modifying the content of texts by adding new elements, replacing certain parts of the text, or removing non-essential information for a specific purpose.
 
@@ -159,7 +287,18 @@ Text translation is the process of converting a text from one language (source l
 
 ![Image 2](/assets/img/2024-07-13-ATaxonomyofLargeLanguageModelsCapabilities_8.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 패러프레이징은 다른 단어를 사용하여 원래 의미를 유지하면서 텍스트를 다시 정리하는 행위입니다. 패러프레이징은 표절을 피하거나 텍스트를 간소화하거나 명확히 하는 것과 같은 여러 목적을 제공할 수 있습니다. 또한 텍스트를 특정 대상이나 맥락에 맞게 적응하거나 텍스트를 동의어나 비유로 풍부하게 만드는 데 도움이 됩니다.
 
@@ -169,7 +308,18 @@ Text translation is the process of converting a text from one language (source l
 
 요약하면, 대형 언어모델의 변환 능력에는 다음이 포함됩니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 5. 문제 해결
 
@@ -177,7 +327,18 @@ Text translation is the process of converting a text from one language (source l
 
 공시참조 해결은 텍스트에서 같은 개체를 가리키는 모든 표현을 찾는 것을 의미합니다. 예를 들어, "Mary bought a book and she read it"이라는 문장에서 "Mary"와 "she"라는 표현은 동일한 사람을 가리키므로 공시참조되었습니다. 마찬가지로 "a book"과 "it"이라는 표현도 동일한 객체를 가리키기 때문에 공시참조됩니다. 이 해결은 텍스트 전체에 분산된 정보를 연결하고 의미 있는 일관된 표현을 만들 수 있게 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Anaphora resolution in grammar is an interesting concept that falls under co-reference resolution. It involves linking an anaphora (a restatement of a previous segment with a similar meaning) to the word it refers to. On the other hand, a cataphor is a figure of speech where one word stands in for another that hasn't been mentioned yet, like in the sentence "He did it, Pierre did it." Then, there's exophora which refers to something not explicitly present in the text but can be inferred from the context or situation. For instance, in the sentence "Look at that!," the pronoun "that" refers to something visible to both the speaker and the listener. It can get quite complex, especially when it involves background knowledge or context not explicitly stated.
 
@@ -187,7 +348,18 @@ Word disambiguation is about determining the correct meaning of a word in a part
 
 Missing Elements analysis focuses on identifying elements that are not explicitly mentioned in a text. These missing elements are aspects that are implied but not directly stated. The goal is to recognize and fill in words or parts of words that may have been left out or shortened in the text. For instance, in the sentence, "I saw the film yesterday, it wasn't bad," the word "not" is missing after "wasn't." By addressing these missing elements, the text can be restored to its complete and accurate form, enhancing comprehension and translation.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LLM의 해결 능력은 다음과 같습니다:
 
@@ -199,7 +371,18 @@ LLM의 해결 능력은 다음과 같습니다:
 
 이해는 모델에게 제시된 텍스트를 이해하거나 소화하거나 이해하는 능력을 나타냅니다. 이것은 의심을 품게하는 모든 범주 가운데 의논의 여지가 있는 것입니다. 이 범주는 모델이 인간의 사고를 시뮬레이션할 수 있다고 제안하는 범주입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 질문에 답변하는 능력은 비즈니스 질문, 유지보수 질문, 특정 분야에서 도움이 필요한 사람들로부터 온 질문을 대답하는 시스템의 사용 사례를 다룹니다.
 
@@ -209,7 +392,18 @@ LLM의 해결 능력은 다음과 같습니다:
 
 질문 생성은 텍스트에서 중요한 요소를 추출하여 이를 이해했는지 확인하기 위해 질문으로 변환하는 것을 포함합니다. 교사들은 시험 준비에 도움을 받기 위해 이 기능을 활용할 수 있습니다. 어느 정도까지는 질문을 제공하여 확인할 수 있는 사실 확인을 가능하게 하며, 이를 통해 핵심을 추출합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-07-13-ATaxonomyofLargeLanguageModelsCapabilities_12](/assets/img/2024-07-13-ATaxonomyofLargeLanguageModelsCapabilities_12.png)
 
@@ -219,7 +413,18 @@ Machine Reading Comprehension (MRC)은 검색 증강 생성 (RAG)에 사용되�
 
 질문 품질 평가는 주관적 질문에 답변하기 위한 알고리즘을 개발함을 목표로 합니다. 질문이 우수한 품질인지 또는 수정이 필요한지 확인하는 것을 체크합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자연어 추론은 "가설"이 "전제"로부터 참인지(함의), 거짓인지(모순), 또는 결정할 수 없는지(중립)를 판단하는 것으로 구성되어 있습니다.
 
@@ -227,7 +432,18 @@ Machine Reading Comprehension (MRC)은 검색 증강 생성 (RAG)에 사용되�
 
 모델의 추론 능력 사용은 처방 개념과 관련이 있습니다. 즉, 초기 조건에 따라 최선의 선택을 조언하는 AI입니다. 처방 분석은 미래 이벤트의 예측뿐만 아니라 이를 영향을 미칠 것으로 예상되는 요소도 제공합니다. 이러한 데이터는 분석가와 의사 결정자가 전략적 결정의 결과를 평가하고, 의사 결정 프로세스를 최적화하는 데 도움을 줍니다. 이는 실시간 데이터를 기반으로 한 판단에 관한 문제, 의사 결정의 영향, 자원 선택의 계획 및 최적화, 그리고 고려해야 할 가장 복잡한 질문에 대한 대답을 포함합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모델의 추론 능력은 여러 하위 활동으로 세분화될 수 있습니다. 첫 번째는 상식적 추론입니다. 상식이 정확히 무엇인지에 대한 명확한 정의는 없지만, 모든 인간에게 공통적인 것이라고 말할 수 있습니다. 상식과 연관된 사용 사례는 없으며, 모델이 이 "상식"을 추론 능력에 내재적으로 통합할 수 있는 능력이 있다는 것이 기대됩니다.
 
@@ -237,7 +453,18 @@ Machine Reading Comprehension (MRC)은 검색 증강 생성 (RAG)에 사용되�
 
 ![image2](/assets/img/2024-07-13-ATaxonomyofLargeLanguageModelsCapabilities_15.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최근까지 모델 응답은 주로 모델에 한 번 호출하여 얻은 결과인데, 이는 결론에 이르는 과정의 이해를 도울 때에 항상 도움이 되지 않는다. Multi-hop reasoning을 통해 여러 단계의 추론을 수행할 수 있게 하여 문제의 논리적 구조를 반영한 프로세스를 통해, 회고적 분석이 가능하다. Chain of Thought (CoT)은 새로운 방법론으로, 단계별 응답 예시를 통해 복잡한 다단계 추론이 유도되게 한다.
 
@@ -247,7 +474,18 @@ Machine Reading Comprehension (MRC)은 검색 증강 생성 (RAG)에 사용되�
 
 하지만, Takeshi Kojima 등의 연구는 모델이 일반적으로 학습하는 데 있어서 우수한 학습자로 알려져있지만, 각 답변 앞에 "참조하고 단계별로 생각해보자"라고 간단히 추가함으로써 모델이 Zero-shot 이해자로서 우수한 예측 능력을 갖는 것을 보여주었다. 실험 결과는 그들의 Zero-shot-CoT가 다양한 추론 작업에서 Zero-shot LLM을 크게 앞서나감을 보여준다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-07-13-ATaxonomyofLargeLanguageModelsCapabilities_17.png)
 
@@ -262,7 +500,18 @@ In Korean:
 
 ## 조합의 예
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 의견 추출은 텍스트에서 표현된 의견, 감정, 감정 또는 판단을 식별, 추출 및 이해하는 데 집중합니다. 이는 특정 주제, 제품, 서비스 또는 사건에 대한 사람들의 태도와 감정을 이해하는 것을 포함합니다. 의견은 의견이 관련된 요소들에 의해 보완될 때 더 흥미롭습니다.
 
@@ -275,7 +524,18 @@ In Korean:
 
 ![이미지](/assets/img/2024-07-13-ATaxonomyofLargeLanguageModelsCapabilities_18.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 평가 방법
 
@@ -290,7 +550,18 @@ Mistral의 새로운 Mixtral 모델에 대한 연구 논문에서 그들은 다�
 - 코드 생성: HumanEval (0-shot) 및 MBPP (3-shot — 주로 기본 파이썬 문제).
 - 기타 평가: MMLU (5-shot — 대규모 다중 작업 언어 이해 측정), BBH (3-shot — BIG-Bench Hard) 및 AGIEval (3–5-shot, 영어로만 구성된 객관식 문제 — 인공 일반 지능 평가).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 In arithmetic reasoning evaluation, we find AddSub, AQuA, ASDiv, GSM8K, Lila, MAWPS, MultiArith, SVAMP, SingleEq, SingleOp; in common-sense: CODAH (COmmonsense Dataset Adversarially-authored by Humans), StrategyQA, ARC, BoolQ, HotpotQA, OpenBookQA, PIQ; in symbolic: CoinFlip and LastLetterConcatenation, ReverseList; in logic: ReClor, LogiQA, ProofWriter, FLD (Formal Logic Deduction), FOLIO (first-order logic). Not forgetting ALERT (Adapting Language Models to Reasoning Tasks), ARB (Advanced Reasoning Benchmark), BIG-bench (Beyond the Imitation Game benchmark), CONDAQA (COntrastively-annotated Negation DAtaset of QuestionAnswer pairs) and WikiWhy…
 
@@ -300,7 +571,18 @@ In arithmetic reasoning evaluation, we find AddSub, AQuA, ASDiv, GSM8K, Lila, MA
 
 본 기사에서는 주요 언어 모델의 능력에 대한 상세한 분류를 제시하며, 여섯 가지 주요 범주로 이루어진 분류 체계를 제공합니다. 이 분류는 연구가들이 특정 비즈니스 사례로 향하도록 도와줄 것입니다. 이 기여는 연구와 개발을 촉진하여 이러한 강력한 생성형 AI 도구들을 더 현명하게 활용하고자 하는 데 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 언어 모델은 다양한 언어 기능을 포괄하는 다양한 능력을 갖고 있습니다. 텍스트 생성, 정보 추출, 분류, 변환, 해결, 이해 등 다양한 영역에서 이러한 모델들은 그들의 다재다능함을 발휘합니다. 자연어 생성, 주요 개체 추출, 텍스트 분류, 문장 변환, 복잡한 문제 해결 또는 텍스트의 깊은 의미를 이해하는 데 사용되며, 언어 모델은 많은 응용 분야에서 강력한 도구로 자리 잡았습니다. 그들의 사용은 창의적 쓰기부터 의미 분석, 기계 번역, 복잡한 문제 해결까지 이어지며, 언어 인공지능 분야에서의 중요한 발전을 나타냅니다.
 
@@ -310,7 +592,18 @@ In arithmetic reasoning evaluation, we find AddSub, AQuA, ASDiv, GSM8K, Lila, MA
 
 ![A Taxonomy of Large Language Models Capabilities](/assets/img/2024-07-13-ATaxonomyofLargeLanguageModelsCapabilities_19.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 So, the question remains open…
 
@@ -320,6 +613,17 @@ So, the question remains open…
 
 This story is published on Generative AI. Connect with us on LinkedIn and Zeniteq to stay in the loop with the latest AI stories. Let’s shape the future of AI together!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-07-13-ATaxonomyofLargeLanguageModelsCapabilities_21.png)

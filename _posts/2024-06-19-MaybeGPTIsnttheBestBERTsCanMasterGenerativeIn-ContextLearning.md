@@ -3,17 +3,13 @@ title: "어쩌면 GPT가 최상이 아닐 수도 있습니다 BERT가 생성 기
 description: ""
 coverImage: "/assets/img/2024-06-19-MaybeGPTIsnttheBestBERTsCanMasterGenerativeIn-ContextLearning_0.png"
 date: 2024-06-19 03:50
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-MaybeGPTIsnttheBestBERTsCanMasterGenerativeIn-ContextLearning_0.png
 tag: Tech
 originalTitle: "Maybe GPT Isn’t the Best: BERTs Can Master Generative In-Context Learning"
 link: "https://medium.com/gitconnected/maybe-gpt-isnt-the-best-berts-can-master-generative-in-context-learning-2d95bc8c8507"
 isUpdated: true
 ---
-
-
-
-
 
 ## |LLM|GPT|컨텍스트 학습|
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이 기간 동안 트랜스포머를 위한 두 가지 특별한 학습 패러다임이 제시되었습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 인과언어 모델링. 모델은 시퀀스에서 다음 토큰을 예측함으로써 학습합니다.
 - 마스킹된 언어 모델. 모델은 가려진 토큰을 예측해야 합니다.
@@ -34,7 +41,18 @@ GPT3는 문맥 내 학습이라는 새로운 기능을 보여줬기 때문입니
 
 ![이미지](/assets/img/2024-06-19-MaybeGPTIsnttheBestBERTsCanMasterGenerativeIn-ContextLearning_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 In-context learning은 패러다임 변화와 커뮤니티 관심을 이끌었습니다. 이전에는 GPT-3 마스킹 모델이 가장 인기 있었지만, 이후 연구는 자기 회귀 모델로 전환되었습니다. 대부분의 연구가 이러한 유형의 모델에 집중되어 왔으며, 오늘날 대부분의 모델이 자기 회귀로 되어 있습니다.
 
@@ -44,7 +62,18 @@ In-context learning은 패러다임 변화와 커뮤니티 관심을 이끌었�
 
 최근에 발표된 기사에서 이 질문들에 정확하게 다루었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것이 MLM의 목적은 아니에요. 그러나 저자들은 별도의 훈련이나 세밀한 조정 없이 MLM을 사용하고 싶어해요. 그래서 그들은 두 가지 잠재적인 방법을 사용하기로 결정해요:
 
@@ -54,7 +83,18 @@ MLM은 조건부 로그 우도를 추정하지 않아요. 저자들은 추가적
 
 <img src="/assets/img/2024-06-19-MaybeGPTIsnttheBestBERTsCanMasterGenerativeIn-ContextLearning_2.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 이 두 가지 방법에는 특히 계산 비용 측면에서 제한 사항이 있지만, 저자들은 시스템 최적화에는 관심이 없다.
 
@@ -62,7 +102,18 @@ MLM은 조건부 로그 우도를 추정하지 않아요. 저자들은 추가적
 
 DeBERTa는 GPT3보다 훨씬 작고, 적은 토큰으로 훈련되었음에도 불구하고, 2020년에 출시되었습니다. 저자들은 두 모델을 생성 및 분류와 같은 동일 유형의 작업에서 비교하기로 결정했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가장 흥미로운 결과 중 하나는 두 모델 모두 성능이 모델 크기와 비례한다는 것입니다(더 많은 매개변수는 더 나은 성능을 보여줍니다).
 
@@ -72,7 +123,18 @@ DeBERTa는 GPT3보다 훨씬 작고, 적은 토큰으로 훈련되었음에도 �
 
 ![image](/assets/img/2024-06-19-MaybeGPTIsnttheBestBERTsCanMasterGenerativeIn-ContextLearning_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자세한 분석 결과, DeBERTa는 제로샷 및 퓨샷 설정 모두에서 언어 이해 작업에 대해 GPT3보다 우수한 것으로 보입니다 (저자들은 인기 있는 기준인 SuperGLUE를 사용했습니다). 저자들은 GPT3의 유사 크기 버전 (1.4 B)과 DeBERTa를 비교하며 뚜렷한 차이를 발견했습니다. 또한:
 
@@ -82,7 +144,18 @@ DeBERTa는 GPT3보다 훨씬 작고, 적은 토큰으로 훈련되었음에도 �
 
 저자들은 또한 두 모델을 번역 작업에 대해 테스트했습니다. 번역 작업은 모델이 다른 언어에 능숙해야 하며, 여전히 훈련 데이터의 구성에 의존합니다. 이 경우, GPT3가 명백하게 우승자로 나타났으며, DeBERTa는 성능이 떨어지는 것으로 보입니다. 그러나 DeBERTa는 단일 언어 말뭉치만으로 훈련되었으므로 명확하게 불리한 시작을 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-06-19-MaybeGPTIsnttheBestBERTsCanMasterGenerativeIn-ContextLearning_7](/assets/img/2024-06-19-MaybeGPTIsnttheBestBERTsCanMasterGenerativeIn-ContextLearning_7.png)
 
@@ -92,7 +165,18 @@ DeBERTa는 GPT3보다 훨씬 작고, 적은 토큰으로 훈련되었음에도 �
 
 DeBERTa의 답변은 GPT3보다 상당히 나쁩니다. 저자들은 이는 모델의 교육과 구조에서 비롯된 것이라고 생각합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모델은 지식 면에서 빛을 발하지는 않지만 상식적 추론 능력과 행동 척도에서는 GPT3와 비슷하게 잘 수행하는 것으로 보입니다.
 
@@ -102,7 +186,18 @@ DeBERTa의 답변은 GPT3보다 상당히 나쁩니다. 저자들은 이는 모�
 
 이 기사에서 저자들은 두 가지 핵심 포인트를 보여줍니다: MLMs도 콘텍스트 학습이 가능하며, 이러한 스킬들은 스케일을 키울수록 향상됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GPT3가 발표된 이후, 이러한 모델들이 오래되었고 인텍스트 학습이 불가능하다고 생각되었습니다. 이는 생성 작업에 사용할 수 없다는 것을 의미하며, 따라서 모든 현대적인 응용 프로그램에도 해당되지 않는다는 것을 의미합니다. 대신, 저자들은 BERT와 유사한 모델들이 비슷한 수준으로 능력을 갖추고 있음을 보여줍니다. 저자들의 데이터에 따르면, 동일한 규모의 DeBERTa가 언어 이해 작업에서 우월하다는 것을 나타낸다. 이는 상당히 강한 주장이며, 이것이 사실인지 아닌지 이해하기 위해 더 많은 실험이 필요합니다. 저자들이 원인 연구를 수행하지 않은 것은 유감스럽지만, 이러한 작업과 관련된 양방향 주의의 역할을 이해하는 것이 흥미로울 것입니다.
 
@@ -112,17 +207,39 @@ GPT3가 발표된 이후, 이러한 모델들이 오래되었고 인텍스트 �
 
 어쨌든, 이 작업은 매우 흥미로운데, 데이터가 BERT와 유사한 모델이 인텍스트 학습자일 수 있는 능력을 갖춘다는 것을 보여주고 있습니다. 우리는 어떤 학습 모드가 다른 것보다 어떤 이점을 가지는지 자세히 검토해야 합니다. 미래에는 새로운 모델이 혼합 모드로 훈련되거나 다른 방식을 찾아 그들의 이점을 결합하는 대안을 찾을 수 있을 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 이에 대해 어떻게 생각하십니까? GPT와 유사한 LLM 지배력을 다시 평가해야 할 필요가 있다고 생각하십니까? 댓글로 알려주세요!
 
 # 이 내용이 흥미로우셨다면:
 
-제 다른 기사들을 찾아보거나 LinkedIn에서 저와 연락하실 수도 있습니다. 주간 업데이트되는 머신러닝 및 인공지능 뉴스가 포함된 이 저장소를 확인해보세요. 저는 협업과 프로젝트에 열려 있으며 LinkedIn을 통해 저에게 연락하실 수 있습니다. 또한 새로운 이야기를 게시할 때 알림을 받으려면 무료로 구독할 수 있습니다. 
+제 다른 기사들을 찾아보거나 LinkedIn에서 저와 연락하실 수도 있습니다. 주간 업데이트되는 머신러닝 및 인공지능 뉴스가 포함된 이 저장소를 확인해보세요. 저는 협업과 프로젝트에 열려 있으며 LinkedIn을 통해 저에게 연락하실 수 있습니다. 또한 새로운 이야기를 게시할 때 알림을 받으려면 무료로 구독할 수 있습니다.
 
 제 GitHub 저장소 링크는 여기에서 확인하실 수 있습니다. 머신러닝, 인공지능 및 그 외 다른 자원과 관련된 코드 및 여러 자료를 수집하고 있는 곳입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 혹은 제 최근 글 중 하나에 관심 있을지도 모릅니다:
 

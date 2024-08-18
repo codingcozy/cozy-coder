@@ -3,17 +3,13 @@ title: "유튜브 학교를 통해 자동차 복원하는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-22-HowIRestoredMyCarUsingtheSchoolofYouTube_0.png"
 date: 2024-06-22 19:13
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-HowIRestoredMyCarUsingtheSchoolofYouTube_0.png
 tag: Tech
 originalTitle: "How I Restored My Car Using the School of YouTube"
 link: "https://medium.com/@reidbauer/how-i-restored-my-car-using-the-school-of-youtube-a89a54161996"
 isUpdated: true
 ---
-
-
-
-
 
 몇 달 전, 나는 내 차에 헌신하기로 결정했어.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 차에 정말로 붙어 있지 않은 센터 콘솔, 회전 중 앞부분에서 울리는 거슬리는 쿵쿵거리는 소리, 탁한 헤드라이트, 금이 간 윈드실드, 그리고 차 바닥에 호스 클램프로 연결된 의연한 배기 시스템.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 부모님은 정말 대단해서 이 모든 것을 기분 좋게 받아들였어요. 하지만 결국에는 논의가 생겼어요: "음, 새 차를 사려는 생각은 없나요?"
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ![차량 복원 과정을 유튜브 학교로 배우고 자기의 차를 복원하는 방법](/assets/img/2024-06-22-HowIRestoredMyCarUsingtheSchoolofYouTube_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작은 시작으로 시작했어요.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 자신감을 얻어, 계속 나아갔어요. 운전석에서 지난 1년 동안 무서운 소리를 내던 것이 있었는데, 큰 수리가 필요하다고 생각했어요. 다행히 빠른 유튜브 검색으로 이 비디오를 찾았는데, 이를 통해 문제가 아마도 느슨한 볼트 때문이었을 것이라는 것을 알게 되었어요. 지시에 따라 진행한 결과, 30분 후에는 소음이 없었어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 해 전에 배기 파이프와 배기 플랜지를 교체한 후에는 부식이 심한 배기 소음기와 소음기도 교체해야 한다는 것을 알았어요. 이 작업을 어떻게 하는지 보여주는 유튜브 튜토리얼을 발견했어요.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 [이미지](/assets/img/2024-06-22-HowIRestoredMyCarUsingtheSchoolofYouTube_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 10년 넘게 같은 여름 타이어를 사용 중이었는데, 교체해야할지 어떻게 알 수 있을까요? 유튜브에 물어보니 쿼터 테스트와 페니 테스트에 대해 배웠어요. 제 타이어는 둘 다 불합격이라 새로 사기로 결정했어요.
 
@@ -61,7 +101,18 @@ isUpdated: true
 
 저의 브레이크 작업은 몇몇 장면에서 에픽하게 끝났어요. 🚗
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한쪽의 캘리퍼 슬라이드 핀이 고장났다는 것을 발견했어요 (한 쪽을 과다하게 조임하다가 하나를 부수었다는 걸 깨달았습니다). 또한 동일한 쪽의 비상 제동장치를 손상시켰어요. 재미있는 사실: 후륜 브레이크 로터를 제거하려고 할 때에는 비상 제동장치를 먼저 해제하지 말아야 해요. 유튜브 덕분에 비상 제동장치를 수리하고 새 캘리퍼 브라켓과 슬라이드 핀을 설치할 수 있었어요. 그 과정에서 제동액도 교환했죠.
 
@@ -71,7 +122,18 @@ isUpdated: true
 
 작년과 같은 상황에 처해 있고, 자신의 차를 스스로 고치는 데 살짝 더 능숙해지고 싶다면 조언을 드릴게요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 정기 서비스 항목부터 시작해보세요
 
@@ -82,7 +144,18 @@ isUpdated: true
 
 6개월 전에 조여진 오일 배수 플러그를 풀어내는 것은 10년간 그 자리에 있던 제 차량에서 150파운드 피트로 조여진 녹이 든 축 너트를 푸는 것보다 훨씬 쉽고 자신감을 높이는 작업입니다. 유체 및 필터 교체와 같은 기본 사항에 익숙해지면 실제 수리로 넘어갈 자신감도 생길 겁니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 차 서비스 경험이 전혀 없는 분이시라면, 많은 차량에서 가장 쉬운 작업 중 하나는 캐빈 공기 필터를 교체하는 것입니다. 제 차에서는 이 작업이 5분 정도 소요되며 전혀 도구 없이도 할 수 있습니다. 물론 실제로는 상황이 다를 수 있으니 직접 정보를 수집해보세요. 그 말이죠...
 
@@ -92,7 +165,18 @@ YouTube는 자가 수리에 탁월한 자원입니다. 이미 알고 계셨죠. 
 
 당신의 특정 차량 수리에 특화된 YouTube 채널 하나 또는 두 개를 찾을 수 있다면 도움이 됩니다. 물론 YouTube 전역에서 수리 비디오들로 재생 목록을 만들어낼 수는 있지만, 당신의 차량에 대해 깊이 알고 있는 신뢰할 수 있는 소스 하나 또는 두 개를 먼저 찾는 것이 훨씬 쉽습니다. 저에겐 1A 오토와 Eric the Car Guy가 그런 소스였어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내가 작업을 하기 전에는 해당 작업의 다양한 영상을 최소 두 개는 보려고 노력해. 모든 유튜버가 필요한 도구 목록, 소켓 사이즈 또는 토크 스펙을 포함하지 않기 때문에 (1A Auto는 이를 포함하는 데 탁월해), 실제로 당신 앞에 있는 작업을 정확히 이해하려면 몇 개의 영상을 시청해야 할 수도 있어.
 
@@ -102,7 +186,18 @@ YouTube는 자가 수리에 탁월한 자원입니다. 이미 알고 계셨죠. 
 
 ...그리고 다른 한 명은 자신의 집 앞에서 작업하는 아마추어의 비디오를 찾아.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반적으로 상점 비디오는 생산 가치가 높아 더 밝게 조명이 되어 있어서 무슨 일이 벌어지고 있는지 더 명확하게 볼 수 있어요. 또한, 삼각대에 장착된 카메라를 더 많이 사용해서 운동병을 유발할 가능성이 적어요. 어떤 집단 수리 유튜버들은 정말 '본 슈프리머시'만 딱 한 가지 필요했다고 생각할 만큼 카메라 워크를 더 흔들림이 심한 것으로 남겨 놓은 것 같아요.
 
@@ -112,7 +207,18 @@ YouTube는 자가 수리에 탁월한 자원입니다. 이미 알고 계셨죠. 
 
 이 1인용 브레이크 유압 방출을 어떻게 하는지 설명한 이 설명은, 이 특정한 차량에 대해 브레이크를 출혈하는 방식을 정확히 반대로 설명해요. (다이어그램과 함께!)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다행히도, 여전히 이러한 부정확성을 쉽게 댓글을 스캔하여 발견할 수 있습니다. 위 언급된 브레이크 비디오에서 가장 좋아요를 받은 댓글이 오류를 지적했습니다:
 
@@ -120,9 +226,20 @@ YouTube는 자가 수리에 탁월한 자원입니다. 이미 알고 계셨죠. 
 
 마지막으로, YouTube는 차량 유지 보수 및 수리를 직접 배우는 데 훌륭한 자원이지만, YouTube만 있는 것은 아닙니다. 여러분과 비슷한 난제를 가진 다른 이웃들이 Reddit나 차량 전용 메시지 게시판에 게시하기를 고대하며 인터넷 전체에는 다양한 리소스들이 있습니다.
 
-# 마지막으로 
+# 마지막으로
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 독자가 앞으로 자동차 수리를 DIY로 해야 한다고 약속하고 마무리 짓는 척하지 않을 거에요. 그걸로 날 이해할 수 없어요.
 
@@ -134,6 +251,17 @@ YouTube는 자가 수리에 탁월한 자원입니다. 이미 알고 계셨죠. 
 
 예를 들어 볼 조인트 교체는 아마도 가게에 부탁할 거에요, 왜냐면 첫 두 기준에 부합하지 않기 때문이죠. 녹슨 서스펜션 부품들을 떼어내는 게 얼마나 고통스러운 일인지 배워서, 응, 그냥 하기 싫어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "그냥 하기 싫다"는 전문가에게 작업을 아웃소싱하는 합리적인 이유입니다. 전문가에게 부탁하기 전에 수리 작업이 얼마나 어려울지 적어도 조사하는 가치가 있다고 생각해요. 유튜브 학교는 이러한 수리 방법을 가르쳐주지만, 또한 이 결정을 내리는 데 도움이 됩니다: 나에게 이 작업을 직접 해보는 게 귀찮은 가치가 있는 일인가요?

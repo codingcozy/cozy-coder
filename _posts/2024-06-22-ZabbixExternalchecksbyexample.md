@@ -3,17 +3,13 @@ title: "예제와 함께 배우는 Zabbix 외부 검사 방법"
 description: ""
 coverImage: "/assets/img/2024-06-22-ZabbixExternalchecksbyexample_0.png"
 date: 2024-06-22 18:20
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-ZabbixExternalchecksbyexample_0.png
 tag: Tech
 originalTitle: "Zabbix External checks by example"
 link: "https://medium.com/@r.szulist/zabbix-external-checks-by-example-b9d8bd5ebaaf"
 isUpdated: true
 ---
-
-
-
-
 
 ## 샤오미 미지아 센서에서 데이터 가져오기
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## 외부 점검
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 외부 검사(가끔 "외부 스크립트"라고 함)는 에이전트 미리 설치 방식의 모니터링 방법으로, Zabbix 에이전트가 필요하지 않습니다. 대신에 특정 스크립트가 호스트 설정에 따라 서버나 프록시 수준에서 실행됩니다. Zabbix가 스크립트를 실행하고 표준 출력에 표시될 것들을 수집합니다. 종료 코드는 고려되지 않습니다. 이 말은 스크립트가 중요한 것만을 표준 출력에 작성해야 한다는 것을 의미합니다.
 
@@ -37,7 +44,18 @@ isUpdated: true
 # wget https://raw.githubusercontent.com/JsBergbau/MiTemperature2/master/LYWSD03MMC.py -O /tmp/LYWSD03MMC.py
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 단계를 완료한 후에는 스크립트를 적절한 디렉토리에 배치해야 합니다. 정확한 경로는 서버 및 프록시 구성 파일에서 찾을 수있는 ExternalScripts 설정에 따라 다릅니다 (기본적으로 /usr/local/share/zabbix/externalscripts이지만 저는 /usr/lib/zabbix/externalscripts/를 사용하는 경향이 있습니다). External checks는 Zabbix 설치 중에 생성 된 zabbix 사용자로 실행됩니다. 모두 함께 넣어 봅시다.
 
@@ -51,7 +69,18 @@ zabbix 사용자가 어떠한 문제없이 실행할 수 있는지 확인하는 
 
 장치의 실제 블루투스 주소로 `BT_MAC`을(를) 대체하는 것이 중요합니다. 찾는 가장 쉬운 방법은 Xiaomi Home 앱을 사용하는 것이며 센서를 등록하여 블루투스 연결을 활성화해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # cd /usr/lib/zabbix/externalscripts/
@@ -67,7 +96,7 @@ MiTemperature2 / ATC Thermometer version 3.1
 측정값이 1개 수집되었습니다. 잠시 후에 종료됩니다.
 ```
 
-위의 단편과 유사한 내용을 확인할 수 있어야 합니다. 만약 실패한다면 문제를 해결하고 나서 진행하십시오. 또 다른 고려해야 할 점은 스크립트가 실행되는 시간입니다. 스크립트 실행 시간을 측정하고 실행 시간보다 약간 더 긴 값으로 Timeout 매개변수를 설정해야 합니다. 기본적으로 Timeout 매개변수는 3초입니다. 
+위의 단편과 유사한 내용을 확인할 수 있어야 합니다. 만약 실패한다면 문제를 해결하고 나서 진행하십시오. 또 다른 고려해야 할 점은 스크립트가 실행되는 시간입니다. 스크립트 실행 시간을 측정하고 실행 시간보다 약간 더 긴 값으로 Timeout 매개변수를 설정해야 합니다. 기본적으로 Timeout 매개변수는 3초입니다.
 
 ```js
 # time ./LYWSD03MMC.py --device <BT_MAC> -c 1
@@ -87,8 +116,18 @@ MiTemperature2 / ATC Thermometer version 3.1
 
 15초가 걸렸다는 것을 알 수 있습니다. 스크립트가 fluke가 아니라 실행 시간이 실행마다 일관되게 나오는지 확인하기 위해 스크립트를 여러 번 실행하는 것이 좋습니다. 실행 시간이 30초를 넘어가면 최대 Timeout 값이 정확히 30초이므로 운이 좋지 못한 상황입니다. 사용자 정의 Zabbix 설치를 사용할 수 있지만, 스크립트를 최적화하거나 Zabbix 트랩을 사용하는 것이 좋은 해결책입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 항목 설정
 
@@ -98,7 +137,18 @@ MiTemperature2 / ATC Thermometer version 3.1
 
 위 그림에서 볼 수 있듯이, 항목 키는 스크립트의 이름과 확장자를 포함합니다. 그런 다음 대괄호 안에는 스크립트에 전달되는 모든 매개변수가 포함됩니다. 해당 데이터는 종속 항목에서 추출될 것이므로 이 항목에 대한 히스토리를 저장하지 않습니다. 예를 들어, 온도 측정 항목은 다음과 같이 구성됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `<img src="/assets/img/2024-06-22-ZabbixExternalchecksbyexample_1.png" />`
 
@@ -108,7 +158,18 @@ MiTemperature2 / ATC Thermometer version 3.1
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사에서는 Zabbix 기능 중 하나인 '외부 체크'에 대해 자세히 살펴보았습니다. 우리가 볼 수 있듯이, 이를 사용하여 다양한 소스에서 데이터를 수집할 수 있습니다. 그러나 지나치게 남용하지 않도록 주의하세요. 이는 Zabbix 성능에 상당한 감소를 일으킬 수 있습니다.
 

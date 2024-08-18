@@ -3,17 +3,13 @@ title: "NGINX LXC에 Proxy Manager 설치하기 - V2, Debian"
 description: ""
 coverImage: "/assets/img/2024-06-20-NGINXInstallingProxyManagerinLXCV2Debian_0.png"
 date: 2024-06-20 17:18
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-NGINXInstallingProxyManagerinLXCV2Debian_0.png
 tag: Tech
 originalTitle: "NGINX: Installing Proxy Manager in LXC — V2, Debian"
 link: "https://medium.com/@rar1871/nginx-installing-proxy-manager-in-lxc-v2-debian-d4d4c98109b1"
 isUpdated: true
 ---
-
-
-
-
 
 이 문서는 아래 링크에서 확인할 수 있는 이전 버전의 업데이트입니다. 작년에는 이전 가이드에서 사용했던 설치 스크립트가 Debian 및 Ubuntu를 지원하도록 업데이트되었습니다. Alpine Linux를 사용하려면 이전 가이드를 따르세요:
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Nginx Proxy Manager에 대한 자세한 정보나 역방향 프록시가 무엇인지 알고 싶다면 이전 가이드를 참조하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요구 사항:
 
@@ -36,11 +43,33 @@ Nginx Proxy Manager에 대한 자세한 정보나 역방향 프록시가 무엇�
 
 이 프로세스의 첫 번째 단계는 제가 이주하거나 새롭게 설치하는 경우와 상관없이 컨테이너를 만드는 것입니다. 이를 수행하는 방법은 가이드의 "컨테이너 생성" 섹션을 참조하면 됩니다. Debian 또는 Ubuntu 컨테이너를 생성할 수 있습니다. 사용자 편의를 위해 Debian을 사용하겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 Markdown 형식으로 변경해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 sh -c "$(wget --no-cache -qO- https://raw.githubusercontent.com/ej52/proxmox/main/install.sh)" -s --app nginx-proxy-manager
@@ -52,7 +81,18 @@ sh -c "$(wget --no-cache -qO- https://raw.githubusercontent.com/ej52/proxmox/mai
 
 설치 프로그램이 작업을 수행하도록 해주세요... 이 작업은 몇 분 정도 소요될 수 있으니 이 기회에 물 한 잔 마시는 것으로 하루를 시작하는 것을 상기해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 설치 프로그램이 완료되면 다음과 같은 화면이 나타날 것입니다:
 
@@ -62,7 +102,18 @@ sh -c "$(wget --no-cache -qO- https://raw.githubusercontent.com/ej52/proxmox/mai
 
 프록시 매니저 구성중:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프록시 관리자 설정은 이전 버전과 비슷합니다. 이전 버전의 프록시 관리자를 사용 중이라면, 모든 것을 옮기기 시작하려면 여기서 시작해야 합니다. 안타깝게도 이 과정을 간단하게 처리할 방법은 없습니다 (가져오기/내보내기 기능이 있으면 좋을텐데요). 따라서 물을 한 모금 마시고, 모두 수동으로 해야 합니다!
 
@@ -72,7 +123,18 @@ sh -c "$(wget --no-cache -qO- https://raw.githubusercontent.com/ej52/proxmox/mai
 
 프록시 관리자 업데이트 중:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프록시 관리자를 업데이트하려면 설치 스크립트를 실행하면 됩니다!
 
@@ -82,7 +144,18 @@ Tailscale로 전역 액세스를 어떻게 하나요?
 
 추가 고려 사항:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이번에도 반복되지만, 로컬 네트워크에서 세계로 노출하는 것은 매우 위험합니다. 반대 프록시 뒤에 있더라도 외부 트래픽을 내부 네트워크로 유입하는 것은 서버가 해킹되거나 더 나아가 개인 기기가 침해당할 수 있습니다. 경고드립니다.
 
@@ -92,7 +165,18 @@ Tailscale로 전역 액세스를 어떻게 하나요?
 
 본 가이드는 본격적인 또는 비즈니스 환경에서의 설정을 위한 것이 아닙니다. 공개 또는 본격적인 환경 설정에 대해 자체적인 연구를 먼저 진행해주시기 바랍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 IT 전문가가 아닙니다. 기술 지원은 제가 할 수 없어요. 대학생이고 서버를 가지고 있는데, 시스템에 실행하는 모든 명령에 대해서는 본인이 책임을 져야 합니다.
 

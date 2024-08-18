@@ -3,17 +3,13 @@ title: "논문 리뷰 Chronos - 시계열 데이터 언어 학습의 최신 연�
 description: ""
 coverImage: "/assets/img/2024-07-09-PaperReviewChronosLearningtheLanguageofTimeSeries_0.png"
 date: 2024-07-09 23:51
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-PaperReviewChronosLearningtheLanguageofTimeSeries_0.png
 tag: Tech
 originalTitle: "Paper Review: Chronos: Learning the Language of Time Series"
 link: "https://medium.com/@artgor/paper-review-chronos-learning-the-language-of-time-series-edd79dd4fc96"
 isUpdated: true
 ---
-
-
-
-
 
 ## 논문 리뷰
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Chronos는 시간 시리즈 데이터에 대해 확률적 모델을 사전학습하는 프레임워크로, 이 값을 토크나이징하여 T5와 같은 트랜스포머 기반 모델에 사용합니다. 이는 고정 어휘로 확장하고 양자화하여 이루어지며, 가우시안 프로세스를 통해 생성된 공개 및 합성 데이터셋에서 교육됩니다. 20M부터 710M 매개변수를 가지는 모델로, Chronos 모델은 보다 전통적이고 심층적 학습 모델보다 더 나은 성능을 보여주며, 기존 데이터셋에 대해 제로샷 성능이 경쟁력이 있거나 우수합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # The Approach
 
@@ -33,7 +40,18 @@ Chronos는 시간 시리즈 데이터에 대해 확률적 모델을 사전학습
 
 When preparing time series data for transformer-based language models, we follow two essential steps: scaling and quantizing. Scaling brings the data into a standard range through mean scaling, where each point is adjusted by the mean of the absolute values within the historical context. After scaling, quantization converts the real-valued series into discrete tokens by dividing the data range into bins, each bin represented by a token. The authors advocate for uniform binning over quantile binning to accommodate the variability seen across different datasets. One potential limitation is that the prediction range is confined by the predefined minimum and maximum values of the bins. Additionally, special tokens for padding and sequence ending are introduced.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 목적 함수
 
@@ -43,13 +61,35 @@ Chronos 모델은 미래 시간 단계에 대한 예측 토큰 분포에서 자�
 
 # 데이터 확대
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 TSMix: 시간 시리즈 믹스업. TSMix는 이미지 분류를 위해 개발된 Mixup 데이터 증가 개념을 시계열 데이터로 확장한 것으로, 학습 데이터셋에서 시간 길이가 다른 여러 데이터 포인트를 결합합니다. 무작위로 학습 데이터셋에서 다양한 길이의 시계열을 선택하고 이를 스케일링하여 볼록 조합을 생성합니다. 이 볼록 조합의 가중치는 대칭 디리클레 분포에서 무작위로 추출됩니다.
 
 KernelSynth: 가우시안 프로세스를 활용한 합성 데이터 생성. KernelSynth은 가우시안 프로세스를 사용하여 합성 시계열 데이터를 생성하는 방법입니다. KernelSynth은 GP 커널을 조합하여 새로운 시계열을 생성하며, 추세, 부드러운 변동, 계절성과 같은 일반적인 시계열 패턴을 위한 기본 커널 뱅크를 활용합니다. 이러한 커널을 무작위로 선택하고 덧셈 또는 곱셈을 통해 결합함으로써 다양한 시계열 데이터를 생성합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 실험 결과
 
@@ -59,7 +99,18 @@ KernelSynth: 가우시안 프로세스를 활용한 합성 데이터 생성. Ker
 
 ![이미지](/assets/img/2024-07-09-PaperReviewChronosLearningtheLanguageofTimeSeries_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 영점 결과. Chronos 모델은 지역 통계 모델과 대부분의 과제별 모델보다 확률적 예측에서 우수한 성과를 보였습니다. Chronos-T5 Large 모델은 점 예측에서 세 번째로 랭크되었습니다. 심지어 ForecastPFN (영점 예측기)와 GPT4TS (GPT2의 파인튜단 모델)보다도 뛰어나며, 종합적인 시계열 예측 모델로서 주목할만한 잠재력을 나타냈습니다.
 
@@ -69,7 +120,18 @@ KernelSynth: 가우시안 프로세스를 활용한 합성 데이터 생성. Ker
 
 ![Chronos Learning the Language of Time Series](/assets/img/2024-07-09-PaperReviewChronosLearningtheLanguageofTimeSeries_7.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **전문가 팁:**
 
@@ -82,12 +144,23 @@ KernelSynth: 가우시안 프로세스를 활용한 합성 데이터 생성. Ker
 
 이 연구는 다양한 데이터셋에서 Chronos의 제로샷 예측 능력을 입증하며, 저랭크 어댑터 또는 과제별 보정을 위한 형식 조정 기법과 같은 정밀 조정 기술을 통해 과제별 모델을 능가할 잠재력을 시사합니다. LightGBM과 같은 모델과 함께 태스크별 어댑터 또는 스태킹 앙상블을 사용하여 공변량을 추가하고 다변량 예측에 적용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Chronos Model](/assets/img/2024-07-09-PaperReviewChronosLearningtheLanguageofTimeSeries_8.png)
 
-안녕하세요! Chronos 모델의 성능을 높이려면 몇 가지 기술적인 접근 방식이 있습니다. 
+안녕하세요! Chronos 모델의 성능을 높이려면 몇 가지 기술적인 접근 방식이 있습니다.
 
-Chronos 모델의 종류 중 대형 모델은 특정 작업용 딥 러닝 모델보다 추론 속도가 느릴 수 있지만, 실제로는 실용적인 배포에 지장을 주는 정도는 아닙니다. Chronos 모델의 장점은 각각의 작업별 특정 훈련이 필요하지 않는 다양한 데이터셋 특성에서의 유연성에 있습니다. 또한 최적화된 컴퓨팅 커널, 양자화 및 더 빠른 디코딩 방법과 같은 기술은 Chronos에도 적용되어 추론 속도와 예측 품질을 향상시킬 수 있습니다. 
+Chronos 모델의 종류 중 대형 모델은 특정 작업용 딥 러닝 모델보다 추론 속도가 느릴 수 있지만, 실제로는 실용적인 배포에 지장을 주는 정도는 아닙니다. Chronos 모델의 장점은 각각의 작업별 특정 훈련이 필요하지 않는 다양한 데이터셋 특성에서의 유연성에 있습니다. 또한 최적화된 컴퓨팅 커널, 양자화 및 더 빠른 디코딩 방법과 같은 기술은 Chronos에도 적용되어 추론 속도와 예측 품질을 향상시킬 수 있습니다.
 
 긴 컨텍스트 데이터를 처리하는 방법은 Chronos의 성능을 향상시킬 수 있고, 높은 주파수 데이터셋에서는 NLP 기법을 적용하여 추정의 효율성과 정확도를 개선할 수 있습니다. 추가적인 실험과 탐구를 통해 Chronos 모델을 개선하는 방안을 고려해 보세요. 번창하세요! 🌟

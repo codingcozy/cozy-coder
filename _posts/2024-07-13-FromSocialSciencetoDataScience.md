@@ -3,17 +3,13 @@ title: "사회 과학에서 데이터 과학으로 최신 경향과 방법 2024"
 description: ""
 coverImage: "/assets/img/2024-07-13-FromSocialSciencetoDataScience_0.png"
 date: 2024-07-13 03:24
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-FromSocialSciencetoDataScience_0.png
 tag: Tech
 originalTitle: "From Social Science to Data Science"
 link: "https://medium.com/towards-data-science/from-social-science-to-data-science-9cc87c9df3c6"
 isUpdated: true
 ---
-
-
-
-
 
 ![FromSocialSciencetoDataScience_0.png](/assets/img/2024-07-13-FromSocialSciencetoDataScience_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이것이 반드시 나쁘거나 놀라운 것은 아닐 수 있어요. 데이터 과학이나 기술 과목을 좋아하는 사람들이 학교나 대학에서 STEM 과목을 선호하는 것은 자연스러운 일이거든요. 하지만 STEM이 이 분야로 진입하는 유일한 길은 아니며, 전통적인 수학/컴퓨터 과학 배경이 없어도 열정을 가진 데이터 과학가들이 분해되어 있지 않도록 하는 것이 중요하다고 생각해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사에서는 사회과학 배경에서 데이터 과학으로 전향한 내 이야기를 공유하겠습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 데이터 과학 분야에서 몇 년간 일하고 있습니다. 여기에 도달한 방법에 대한 간략한 개요를 공유하겠습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🌟 **타로 카드 전문가의 비밀 블로그 🌟**
 
@@ -53,7 +71,18 @@ isUpdated: true
 
 이렇게 여러분야를 경험했던 제 이야기가 도움이 되길 바라며, 저희 블로그에서 더 많은 이야기를 들려드릴게요! 🌟🔮✨
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 반대로, 사회과학 배경을 가지고 있는 것에 대한 장점
 
@@ -61,7 +90,18 @@ isUpdated: true
 
 심리학에 대한 이해
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터가 페타바이트로 넘쳐나는 상황에서는 자신이 관찰하는 패턴 뒤에 실제 인간들이 있다는 사실을 쉽게 잊어버릴 수 있어요.
 
@@ -71,7 +111,18 @@ isUpdated: true
 
 사회과학과 인문학의 큰 장점 중 하나는 데이터 세트에서 볼 수 있는 패턴을 움직이는 인간의 심리와 행동을 실제로 이해할 수 있게 한다는 거죠. 기술자들이 최종 사용자(사람)로부터 매우 멀리 떨어져 있는 기업 데이터 과학 분야에서는 이것이 정말 대단한 능력인 것 같아요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 사회 과학자들은 질적 및 복합적인 방법의 가치를 이해합니다.
 
@@ -81,7 +132,18 @@ isUpdated: true
 
 이것은 조직적인 업무 분장으로 인한 것이기도 합니다(대기업에서는 질적 조사가 DS 팀이 아닌 다른 팀에서 이루어질 가능성이 높습니다), 그리고 문화적인 이유도 있습니다(Data Scientists들은 주로 비인간적인 온라인 강좌, 컴퓨터 교실 및 강의실을 통해 기술을 익히며, 대인적인 현장조사와 인터뷰를 통해 배우지 않습니다). 우리는 양적 방법(우리의 편한 영역)을 디폴트로 삼고, 질적 방법이 제공할 수 있는 풍부한 통찰을 간과합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 몇 년 전에 콜센터에서 근무했을 때, '업셀 성향 모델'을 개발했습니다. 이 모델은 새 제품을 가장 많이 구매할 것으로 예상되는 고객을 식별하는 것을 목표로 했습니다. 이 모델을 만든 이유는 완전히 이기적이었습니다. 매일 최소 10건의 판매를 해야 했는데, 이를 위해서는 보통 200통의 아웃바운드 콜을 해야 했습니다. 만약 10건의 판매를 빨리 끝낼 수 있다면, 집에 더 빨리 갈 수 있었거든요!
 
@@ -89,7 +151,18 @@ isUpdated: true
 
 우리의 대화는 빨리 인터뷰로 변해버린 셈이었는데 (가는시간이 안타까웠죠), 그리고 그 대화로 인해 예측 모델을 개발하게 된 아이디어를 얻었습니다. 그 모델은 제 판매율을 50% 높였고, 결과적으로 오후 4시에 퇴근할 수 있게 해줬습니다 (당시 18살의 저에게는 큰 승리였습니다). 하지만, 이 원래의 불꽃은 '질적' 데이터 수집의 순간에서 비롯된 것이었고, 숫자들의 수량적 분석에 의한 것은 아니었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사회과학자들은 종종 이러한 유형의 데이터 수집과 분석에 뛰어나며, 이것은 데이터 과학 환경에서 진정한 차별화 요소이자 초능력이 될 수 있습니다.
 
@@ -99,7 +172,18 @@ isUpdated: true
 
 다른 학문에서도 비평적 사고를 배울 수 없다는 것은 아니지만, 푸코에서 배우는 비평적 사고 기술이 푸리에 변환을 하면서 얻는 기술과 같을 것이라고는 생각하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나의 낮은 일에 있어서, 이러한 기술들은 우리가 하는 일에 대해 "큰 질문"을 하고, 실행 세부사항에 이르기 전에 문제를 식별하는 데 도움이 됩니다.
 
@@ -109,7 +193,18 @@ isUpdated: true
 
 첫째, 당신이 끊임없이 따라잡고 있다는 느낌, 또는 너무 많이 놓쳤다는 느낌이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요즘 동료들이 푸리에 변환을 연습하는 동안, 저는 푸코의 책을 읽었어요. 다변량 미적분을 배우는 동료들과 달리, 저는 마르크스의 자본주의에 대해 공부했죠.
 
@@ -119,14 +214,36 @@ isUpdated: true
 
 STEM 분야에서 오지 않는다면 따라잡을 것들이 있는 것은 사실이지만, 당신이 생각하는 것보다 수학적 요구사항은 훨씬 적고 유튜브 무료 강좌를 통해 쉽게 배울 수 있다는 사실이 당신을 격려할 수도 있어요 (메타의 연구 과학자가 되고 싶다면, 그땐 수학에 뛰어난 분이어야 하고 진지하게 기초를 다져야 해요!).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 친구 에고르가 데이터 과학을 배울 때 필요한 수학을 익히는 방법에 대해 도움이 되는 기사를 썼어.
 수학을 배울 때 좀 지루할 수 있어.
 사회과학 배경에서 데이터 과학으로 전향하는 데 또 다른 큰 과제는 지루할 수 있다는 거야.
 그래, 내가 그렇게 말했어!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인문학과 사회과학에서는 당연한 것이 없고 모든 것이 논의 대상입니다. 그러나 데이터 과학에서는 모든 것이 당연시되며 아무 것도 논의되지 않습니다.
 
@@ -136,7 +253,18 @@ STEM 분야에서 오지 않는다면 따라잡을 것들이 있는 것은 사�
 
 이 글을 쓰는 것은 제 나름의 여정에 대한 회상뿐만이 아니라 사람들을 돕고자 하는 것입니다. 구체적으로 말하자면, 당신을 돕고 싶습니다 (만약 데이터 과학에 뛰어들 생각이 있다면).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요즘 가장 중요한 건 데이터과학 석사 과정에 대한 공부예요.
 
@@ -144,7 +272,18 @@ STEM 분야에서 오지 않는다면 따라잡을 것들이 있는 것은 사�
 
 만약 석사 학위 과정을 고려 중이시라면, 다른 선택지를 제대로 고려하기 전에 결정을 내리지 마세요. 대학원 학위는 비용이 많이 들기 때문에 많은 사람들에게는 꼭 필요하지 않을 수 있어요. 이 결정을 도와줄 Khouloud El Alami의 이 글을 읽어보는 걸 추천해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 개인 프로젝트 (너도 할 수 있어!)
 
@@ -152,7 +291,18 @@ STEM 분야에서 오지 않는다면 따라잡을 것들이 있는 것은 사�
 
 ## 나와 비슷한 사람 찾기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 모두는 존경할 사람들이 필요해요. 나는 일부 사회과학자 출신이 데이터 과학자로 전향한 이들을 발견하고 따르면서 큰 영감을 받았어요:
 
@@ -160,11 +310,22 @@ STEM 분야에서 오지 않는다면 따라잡을 것들이 있는 것은 사�
 - Carson Forter — 인문학 박사에서 트위치의 데이터 과학자로
 - Cassie Kozyrkov — 심리학과 통계학에서 구글의 수석 의사결정 과학자로
 
-주변을 둘러보면 더 많은 이들을 찾을 수 있어요. 나는 진짜로 어려운 직업 전환을 할 수 있다는 것을 믿게 해줄 것이에요. 
+주변을 둘러보면 더 많은 이들을 찾을 수 있어요. 나는 진짜로 어려운 직업 전환을 할 수 있다는 것을 믿게 해줄 것이에요.
 
 # 결론: 추천할 만한가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대학에서 무엇을 공부할지 결정할 때, 많은 사람들(저 포함)이 변화를 이룰 욕망에 격려받습니다. 우리는 열정적으로 흥미를 느끼는 주제를 선택하지만, 실제로 그 공부를 마친 후에 어떻게 그 변화를 이룰지에 대해서는 생각하지 않습니다.
 
@@ -174,7 +335,18 @@ STEM 분야에서 오지 않는다면 따라잡을 것들이 있는 것은 사�
 
 당신이 이에 해당된다면, 트위터나 링크드인에서 연락하길 바랍니다! 얘기를 나눠봐요 :-)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 웹사이트가 필요하세요?
 

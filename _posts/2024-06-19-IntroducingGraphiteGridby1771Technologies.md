@@ -3,17 +3,13 @@ title: "1771 Technologies가 선보이는 Graphite Grid 소개"
 description: ""
 coverImage: "/assets/img/2024-06-19-IntroducingGraphiteGridby1771Technologies_0.png"
 date: 2024-06-19 09:36
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-IntroducingGraphiteGridby1771Technologies_0.png
 tag: Tech
 originalTitle: "Introducing Graphite Grid by 1771 Technologies"
 link: "https://medium.com/@1771technologies/introducing-graphite-grid-by-1771-technologies-cfdb3cf2606d"
 isUpdated: true
 ---
-
-
-
-
 
 ![그래픽그리드 소개](/assets/img/2024-06-19-IntroducingGraphiteGridby1771Technologies_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 우리 회사는 ‘무결한 간단함’이라는 용어의 살아있는 구현입니다. 우리의 미션은 가장 요구가 많은 사용 환경에도 견디는 신뢰할 수 있고 기능적인 소프트웨어를 만들어 사용자에게 최고의 품질을 제공하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Graphite Grid의 탄생
 
@@ -33,7 +40,18 @@ Graphite Grid는 철저한 개발, 테스트 및 정제를 거쳐 귀하의 조�
 
 # 여정이 시작됩니다
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자바스크립트와 리액트 커뮤니티에서 소프트웨어 제품의 훌륭한 기능과 삶을 바꿀 기능에 대해 블로그 글을 쓰는 것은 새로운 일이 아닙니다. 그래서 우리는 소프트웨어가 설득하는 모든 작업을 하도록 선호합니다.
 

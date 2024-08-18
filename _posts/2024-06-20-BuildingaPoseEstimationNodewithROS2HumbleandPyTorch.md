@@ -3,17 +3,13 @@ title: "ROS 2 Humble과 PyTorch로 자세 추정 노드 만들기"
 description: ""
 coverImage: "/assets/img/2024-06-20-BuildingaPoseEstimationNodewithROS2HumbleandPyTorch_0.png"
 date: 2024-06-20 17:48
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-BuildingaPoseEstimationNodewithROS2HumbleandPyTorch_0.png
 tag: Tech
 originalTitle: "Building a Pose Estimation Node with ROS 2 Humble and PyTorch"
 link: "https://medium.com/@kabilankb2003/building-a-pose-estimation-node-with-ros-2-hu-and-pytorch-0d6a4b71f620"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-20-BuildingaPoseEstimationNodewithROS2HumbleandPyTorch_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 시작하기 전에 다음이 설치되어 있는지 확인하세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - ROS 2
 - Python 3
@@ -40,7 +47,18 @@ isUpdated: true
 - FPN (Feature Pyramid Network): FPN은 다중 스케일에서 특성 맵을 구축하여 감지 능력을 향상시킵니다.
 - Keypoint R-CNN: 이 Faster R-CNN의 변형은 바운딩 박스 외에도 키포인트를 감지하는 데 특화되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*LbBdaJJRpnNGRLdKExdzdw.gif" />
 
@@ -53,7 +71,18 @@ isUpdated: true
 - 제조 및 조립 라인
 - 내비게이션 및 장애물 회피
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단계별 실행
 
@@ -63,13 +92,24 @@ isUpdated: true
 
 2. 노드 클래스 생성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 PoseEstimationNode 클래스를 정의하고 Node를 상속합니다. 생성자에서는:
 
 - 노드를 pose_estimation_node으로 이름을 지정하여 초기화합니다.
 - 이미지를 수신하기 위해 /jetson_webcam 토픽에 구독합니다.
-- 이미지_pose 토픽에 주석 처리된 이미지를 게시할 발행자를 만듭니다.
+- 이미지\_pose 토픽에 주석 처리된 이미지를 게시할 발행자를 만듭니다.
 - ROS 및 OpenCV 이미지 간 변환을 위해 CvBridge를 초기화합니다.
 - torchvision에서 사전 학습된 자세 추정 모델 keypointrcnn_resnet50_fpn을 평가 모드로 설정하여 로드합니다.
 - 이미지를 텐서로 변환하기 위한 변환을 정의합니다.
@@ -78,7 +118,18 @@ PoseEstimationNode 클래스를 정의하고 Node를 상속합니다. 생성자�
 
 listener_callback 메서드에서 수신된 이미지를 처리합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 받은 이미지의 인코딩을 기록합니다.
 - CvBridge를 사용하여 이미지를 ROS 형식에서 OpenCV 형식으로 변환하고 다양한 이미지 인코딩을 처리합니다.
@@ -89,7 +140,18 @@ listener_callback 메서드에서 수신된 이미지를 처리합니다.
 
 5. 이미지 주석 및 게시
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그런 다음 이미지에서 주요 지점 위치에 원을 그립니다. 이러한 주요 지점은 모델의 예측에서 추출되어 OpenCV로 그리기 위해 numpy 배열로 변환됩니다. 마지막으로 주석이 달린 이미지를 ROS 메시지로 변환하여 발행합니다.
 
@@ -99,8 +161,18 @@ listener_callback 메서드에서 수신된 이미지를 처리합니다.
 
 main 함수는 ROS 2 Python 클라이언트 라이브러리를 초기화하고 노드의 인스턴스를 생성한 다음 종료될 때까지 작동하도록 유지하도록 되어 있습니다. 그 후에는 노드가 제거되고 ROS 2 컨텍스트가 종료됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Building a Pose Estimation Node with ROS 2](/assets/img/2024-06-20-BuildingaPoseEstimationNodewithROS2HumbleandPyTorch_2.png)
 
@@ -110,8 +182,18 @@ main 함수는 ROS 2 Python 클라이언트 라이브러리를 초기화하고 �
 
 실시간 포즈 추정은 AMR 및 로봇의 능력에 새로운 차원을 추가하여 인간의 동작 및 자세를 이해하고 반응할 수 있습니다. 이 기능은 인간-로봇 상호작용을 향상시키며 안전성을 향상시키고 로봇이 자율적으로 또는 협업적으로 수행할 수 있는 작업 범위를 확장시킵니다. 기술이 계속 발전함에 따라 로봇학의 다양한 분야에서 더 많은 혁신적인 응용 프로그램이 예상됩니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # NVIDIA Jetson 플랫폼에서 ROS 2 및 인공지능을 이용한 로봇 응용 프로그램 구현
 

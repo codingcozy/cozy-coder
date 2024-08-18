@@ -3,7 +3,7 @@ title: "CSS 두 줄로 라이트 및 다크 모드 적용하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-17-2024CSSHackAddLightandDarkModeInstantlywithJust2LinesofCode_0.png"
 date: 2024-08-17 00:00
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-17-2024CSSHackAddLightandDarkModeInstantlywithJust2LinesofCode_0.png
 tag: Tech
 originalTitle: "2024 CSS Hack Add Light and Dark Mode Instantly with Just 2 Lines of Code"
@@ -11,7 +11,6 @@ link: "https://medium.com/@akashblog/2024-css-hack-add-light-and-dark-mode-insta
 isUpdated: true
 updatedAt: 1723863508516
 ---
-
 
 <img src="/assets/img/2024-08-17-2024CSSHackAddLightandDarkModeInstantlywithJust2LinesofCode_0.png" />
 
@@ -21,7 +20,18 @@ updatedAt: 1723863508516
 
 # 예전 방식: 복잡하고 지루한 과정
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 개발자들은 과거에 라이트 모드와 다크 모드를 구현하기 위해 여러 단계를 거쳐야 했습니다:
 
@@ -33,7 +43,18 @@ updatedAt: 1723863508516
 
 # 새로운 방법: 라이트다크() 함수로 간편하게 처리하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 라이트-다크() 함수의 도입으로 그런 귀찮음은 먼 옛날 얘기가 되었습니다. 이 새로운 CSS 함수를 사용하면 한 줄에 라이트 및 다크 모드용 색상 값을 정의할 수 있습니다. 브라우저는 사용자의 시스템 설정에 따라 적절한 테마를 자동으로 적용합니다.
 
@@ -43,7 +64,18 @@ updatedAt: 1723863508516
 
 # HTML
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 간단한 HTML 구조로 시작해봅시다:
 
@@ -55,18 +87,27 @@ updatedAt: 1723863508516
 
 이제, 이 놀라운 효과는 단 두 줄의 CSS로 구현됩니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 :root {
-  color-scheme: light dark;
+color-scheme: light dark;
 }
 
 body {
-  background-color: light-dark(#fff, #444);
-  color: light-dark(#444, #fff);
+background-color: light-dark(#fff, #444);
+color: light-dark(#444, #fff);
 }
-
 
 # 코드 분석
 
@@ -75,7 +116,18 @@ body {
 - color-scheme 속성: 이 속성은 :root 요소(즉 HTML 문서 자체)에 설정됩니다. 브라우저에 light 및 dark 테마를 인식하도록 지시합니다. light dark를 지정함으로써 사용자의 시스템 설정에 기반하여 이 테마들 간을 전환할 수 있게 됩니다.
 - light-dark() 함수: 이 함수는 두 개의 인수를 사용합니다. 첫 번째는 라이트 모드를, 두 번째는 다크 모드를 나타냅니다. 예시에서는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 최소한의 설정은 사용자의 OS 설정에 반응하여 웹 사이트가 자동으로 테마를 조정하도록 보장합니다. 이에 추가적인 노력이 필요하지 않습니다.
 
@@ -85,7 +137,18 @@ light-dark() 함수의 놀라운 점은 그 유연성에 있습니다. body 요�
 
 다음은 이 기능을 확장하는 예시입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 헤더와 푸터는 밝은 모드에서는 더 밝은 배경과 더 어두운 텍스트가 적용됩니다. 어두운 모드에서는 그 반대가 적용됩니다.
@@ -95,7 +158,18 @@ light-dark() 함수의 놀라운 점은 그 유연성에 있습니다. body 요�
 # light-dark() 함수 사용의 장점
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 1. 효율성과 간결함
 
@@ -105,7 +179,18 @@ light-dark() 함수를 사용하는 가장 중요한 장점 중 하나는 그 �
 
 이 기능을 사용하면 웹 사이트가 사용자의 선호 테마와 자동으로 일치하여 연속적인 경험을 제공할 수 있습니다. 예를 들어 다크 모드를 선호하는 사용자는 밤에 사이트를 방문할 때 눈부시게 흰 화면을 바라볼 필요가 없습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3. 크로스 브라우저 호환성
 
@@ -115,7 +200,18 @@ color-scheme 속성과 light-dark() 함수는 모든 최신 브라우저에서 �
 
 웹 표준이 발전함에 따라 light-dark() 함수와 같은 기능이 더욱 중요해질 것입니다. 이러한 기능을 지금 채택함으로써 현재 사용자 경험을 향상시키는 것뿐만 아니라 웹사이트를 미래를 대비하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 전체 예시: 모두 결합해보기
 
@@ -214,7 +310,18 @@ color-scheme 속성과 light-dark() 함수는 모든 최신 브라우저에서 �
 
 # 개선 사항 설명:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 생동감 있는 색상: 라이트 모드는 밝은 사이언 라이트와 틸 다크를 사용하여 신선하고 공기가 새로운 느낌을 줍니다. 반면 다크 모드는 깊은 블루 그레이 다크 배경과 대조적인 앰버를 사용하여 화려한 효과를 연출합니다.
 - 테두리와 그림자: 두껍고 더 다채로운 테두리 및 섬세한 상자 그림자가 추가되어 섹션 정의를 높이고 내용을 빛나게 합니다.
@@ -226,7 +333,18 @@ color-scheme 속성과 light-dark() 함수는 모든 최신 브라우저에서 �
 
 # 결론: 현대 웹 개발에 반드시 필요한 도구
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 light-dark() 함수는 CSS에 혁명적인 기능으로, 웹 사이트의 라이트 모드와 다크 모드를 간편하게 구현할 수 있습니다. 이 함수는 코드의 복잡성을 줄이고 사용자 경험을 향상시키며, 웹 사이트를 미래에 대비할 수 있도록 도와줍니다. 작은 개인 프로젝트나 대규모 웹 애플리케이션을 개발하더라도, 이 기능은 개발 툴킷에서 가치 있는 도구입니다.
 

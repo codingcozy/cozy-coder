@@ -3,17 +3,13 @@ title: "검색 증강 생성RAG을 최적화하는 4가지 전략"
 description: ""
 coverImage: "/assets/img/2024-06-23-4StrategiestoOptimizeRetrieval-AugmentedGenerationRAG_0.png"
 date: 2024-06-23 19:38
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-4StrategiestoOptimizeRetrieval-AugmentedGenerationRAG_0.png
 tag: Tech
 originalTitle: "4 Strategies to Optimize Retrieval-Augmented Generation (RAG)"
 link: "https://medium.com/ai-advances/4-strategies-to-optimize-retrieval-augmented-generation-0ad902b5c3e2"
 isUpdated: true
 ---
-
-
-
-
 
 # 개인 데이터 및 개인 인프라를 활용한 고급 AI 솔루션
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이전 기사에서는 LLaMA 3 같은 공개 모델에 개인 지식을 포함시키기 위해 검색 증강 생성(RAG) 전략을 활용하는 방법을 설명했습니다. RAG를 사용하면 개인 데이터를 개인 인프라에 저장하면서도 민감한 정보를 다른 사람들과 공유하지 않고 사용할 수 있습니다. RAG를 활용하는 장점은 명백하지만, 구현에는 여러 부분에서 중요한 조정이 필요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## RAG Recap
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ![다이어그램](/assets/img/2024-06-23-4StrategiestoOptimizeRetrieval-AugmentedGenerationRAG_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지난 기사에서는 ColdF 라는 가상의 회사에서 데이터를 사용하여 "데이터 수집" 및 "추론" 프로세스를 생성했습니다. 이 기사에서는 이러한 프로세스의 결과를 평가하고 최적화하는 기본적인 방법을 설명하겠습니다.
 
@@ -46,7 +64,18 @@ isUpdated: true
 - 벡터 검색 방법: 효과적인 유사성 측정 및 검색 매개변수 선택합니다.
 - 모델에 피드할 최종 프롬프트: 효율적인 결과 품질을 개선하기 위해 효과적인 프롬프트를 작성합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## RAG 파이프라인에서의 A/B 테스팅
 
@@ -58,8 +87,18 @@ isUpdated: true
 
 이 논문은 또한 이러한 지표가 LLM을 통해 완전 자동화된 방식으로 측정될 수 있다는 방법에 대해 설명합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 평가에서 사용할 라이브러리인 Ragas는 이러한 주요 메트릭의 진화를 보여주며 새로운 메트릭을 추가했습니다:
 
@@ -69,7 +108,18 @@ Faithfulness와 Answer Relevance는 생성기 메트릭으로서, 각각 환영�
 
 Context Relevance와 Context Recall은 검색기 메트릭으로, 벡터 데이터베이스에서 올바른 데이터 청크를 검색하고 필요한 모든 정보를 얻는 능력을 측정합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전에 제시한 네 가지 메트릭을 평가하려면 질문, 생성된 답변, 맥락 및 실제 답변이 필요합니다.
 
@@ -84,7 +134,18 @@ LangChain을 사용하여 RAG 프로세스를 구현할 것입니다. 코드를 
 
 다음은 LangChain을 사용한 코드 스니펫입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 필요한 라이브러리 및 모듈 가져오기
@@ -104,17 +165,17 @@ from operator import itemgetter
 class DPRQuestionEncoderEmbeddings(Embeddings):
     show_progress: bool = False
     """tqdm을 설치해야 하는지 여부 표시합니다."""
-    
+
     def __init__(self, model_name: str = 'facebook/dpr-question_encoder-single-nq-base'):
         # 지정된 모델 이름으로 토크나이저와 모델 초기화
         self.tokenizer = DPRQuestionEncoderTokenizer.from_pretrained(model_name)
         self.model = DPRQuestionEncoder.from_pretrained(model_name)
-        
+
     def embed(self, texts):
         # texts가 리스트인지 확인
         if isinstance(texts, str):
             texts = [texts]
-        
+
         embeddings = []
         if self.show_progress:
             try:
@@ -137,12 +198,12 @@ class DPRQuestionEncoderEmbeddings(Embeddings):
             # 임베딩 추출하고 리스트로 변환
             embedding = outputs.pooler_output.detach().numpy()[0]
             embeddings.append(embedding.tolist())
-        
+
         return embeddings
-    
+
     def embed_documents(self, documents):
         return self.embed(documents)
-    
+
     def embed_query(self, query):
         return self.embed([query])[0]
 
@@ -202,7 +263,7 @@ def format_docs(docs):
 rag_chain = (
     {"context": retriever | format_docs, "question": RunnablePassthrough()}
     | RunnablePassthrough.assign(context=itemgetter("context"))
-    | {"answer": prompt | llm | StrOutputParser(), 
+    | {"answer": prompt | llm | StrOutputParser(),
        "context": itemgetter("context")}
 )
 
@@ -234,7 +295,7 @@ def get_questions_answers_contexts(rag_chain):
     # URL에서 파일 가져오기
     response = requests.get(url)
     data = response.text
-   
+
     # 데이터를 줄 단위로 분할
     lines = data.split('\n')
 
@@ -250,20 +311,20 @@ def get_questions_answers_contexts(rag_chain):
 
             rag_dataset.append({
                 "question": question,
-                "answer": generated_answer, 
-                "contexts": [contexts], 
+                "answer": generated_answer,
+                "contexts": [contexts],
                 "ground_truth": reference_answer
             })
 
-          
+
     rag_df = pd.DataFrame(rag_dataset)
     rag_eval_datset = Dataset.from_pandas(rag_df)
-    
+
     # ragas 데이터셋 반환
     return rag_eval_datset
 
 def get_metrics(rag_dataset):
-    """ RAG Dataset에 대해 신의성, 답변 관련성, 컨텍스트 정밀도, 
+    """ RAG Dataset에 대해 신의성, 답변 관련성, 컨텍스트 정밀도,
         컨텍스트 재현율 메트릭 계산 """
     # 계산할 메트릭 목록
     metrics = [
@@ -272,7 +333,7 @@ def get_metrics(rag_dataset):
         context_precision,
         context_recall
     ]
-        
+
     # LLaMA 3 모델을 사용할 지역 ChatOllama
     langchain_llm =  ChatOllama(model="llama3")
     langchain_embeddings = DPRQuestionEncoderEmbeddings('facebook/dpr-question_encoder-single-nq-base')
@@ -291,14 +352,25 @@ print(results)
 
 위 코드를 실행하여 결과를 살펴보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```json
 {
-  '신뢰성': 0.8611, 
-  '답변 관련성': 0.8653, 
-  '맥락 정밀도': 0.7778, 
-  '맥락 회수율': 0.8889
+  "신뢰성": 0.8611,
+  "답변 관련성": 0.8653,
+  "맥락 정밀도": 0.7778,
+  "맥락 회수율": 0.8889
 }
 ```
 
@@ -308,7 +380,18 @@ print(results)
 
 ## 청킹 접근 방식
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 청킹 접근 방식은 데이터가 검색을 위해 최적의 세그먼트로 분할되도록 보장합니다. 이 패러다임은 다양한 청크 크기를 실험하여 너무 작아서 문맥이 빠진다거나 너무 크면 (검색 시스템을 압도하는) 문제가 발생하지 않도록 균형을 찾는 것을 포함합니다. 베이스라인에서는 각 실험을 기준으로 문서를 청크로 분할합니다. 그렇기 때문에 실험의 일부가 희석되어 최종 임베딩에 포함되지 않을 수 있습니다. 이 상황을 해결하기 위한 한 가지 가능한 접근 방식은 부모 문서 검색기를 사용하는 것입니다. 이 방법은 특정 관련 문서 단편이나 문단뿐만 아니라 그들의 부모 문서도 검색합니다. 이 접근 방식은 관련 단편 주변의 문맥이 보존되도록 보장합니다. 아래 코드는 이 접근 방식을 테스트할 때 사용되었습니다:
 
@@ -321,7 +404,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 # 부모 문서 검색기 생성
 parent_document_retriever = ParentDocumentRetriever(
-    vectorstore = Chroma(collection_name="parents", 
+    vectorstore = Chroma(collection_name="parents",
                          embedding_function=DPRQuestionEncoderEmbeddings('facebook/dpr-question_encoder-single-nq-base')),
     docstore = InMemoryStore(),
     child_splitter = RecursiveCharacterTextSplitter(chunk_size=200),
@@ -335,7 +418,7 @@ parent_document_retriever.add_documents(docs_splits)
 rag_chain_pr = (
     {"context": parent_document_retriever | format_docs, "question": RunnablePassthrough()}
     | RunnablePassthrough.assign(context=itemgetter("context"))
-    | {"answer": prompt | llm | StrOutputParser(), 
+    | {"answer": prompt | llm | StrOutputParser(),
        "context": itemgetter("context")}
 )
 
@@ -351,14 +434,25 @@ print(results)
 
 ```js
 {
-  'faithfulness': 0.6667, 
-  'answer_relevancy': 0.4867, 
-  'context_precision': 0.7778, 
+  'faithfulness': 0.6667,
+  'answer_relevancy': 0.4867,
+  'context_precision': 0.7778,
   'context_recall': 0.6574
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 성능 향상에 기여하지 않는 것을 보여줍니다. 감소하는 컨텍스트 회상은 회수 과정이 제대로 작동하지 않고 컨텍스트에 완전한 정보가 없음을 나타냅니다. 충실성 및 답변 관련성 지표의 변화는 풍부하지 않은 컨텍스트에서 나옵니다. 이 경우, 청킹 및 회수를 위한 다른 방법을 평가해 볼 수 있습니다.
 
@@ -366,7 +460,18 @@ print(results)
 
 포함 모델은 텍스트 청크를 밀집 벡터 표현으로 변환합니다. 서로 다른 모델은 다양한 주제에서 훈련될 수 있으며 때로는 임베딩을 개선할 수 있습니다. 임베딩 방법의 선택은 계산 효율성과 임베딩 품질 사이의 균형을 고려해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 Dense Passage Retrieval (“facebook/dpr-question_encoder-single-nq-base”), Sentence-BERT (“paraphrase-MiniLM-L6-v2”), 또는 Chroma의 기본 모델 (“all-MiniLM-L6-v2”)과 같은 다양한 임베딩 모델을 비교합니다. 각 모델은 강점을 갖고 있으며 도메인 특정 데이터에서 평가하여 가장 정확한 의미 표현을 제공하는지를 결정하는 데 도움이 됩니다.
 
@@ -378,13 +483,24 @@ print(results)
 
 결과는 요렇습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 {
-  'faithfulness': 0.5278, 
-  'answer_relevancy': 0.5306, 
-  'context_precision': 0.5556, 
+  'faithfulness': 0.5278,
+  'answer_relevancy': 0.5306,
+  'context_precision': 0.5556,
   'context_recall': 0.7997
 }
 ```
@@ -395,8 +511,18 @@ print(results)
 
 ## 벡터 검색 방법
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 벡터 검색 방법은 유사성 측정을 기반으로 가장 관련성 높은 청크를 검색합니다. 흔한 방법으로는 유클리드 (L2) 거리, 코사인 유사도 등이 있습니다. 이 검색 방법을 변경하면 최종 출력 품질을 향상시킬 수 있습니다.
 
@@ -417,9 +543,9 @@ from langchain_community.chat_models import ChatOllama
 
 # 문서에서 Chroma 벡터 저장소 생성
 # 사용자 정의 임베딩을 사용하고 코사인 유사도 검색으로 변경
-vectorstore = Chroma.from_documents(collection_name="dist", 
-                                    documents=docs_splits, 
-                                    embedding=DPRQuestionEncoderEmbeddings(), 
+vectorstore = Chroma.from_documents(collection_name="dist",
+                                    documents=docs_splits,
+                                    embedding=DPRQuestionEncoderEmbeddings(),
                                     collection_metadata={"hnsw:space": "cosine"})
 
 # 벡터 저장소로부터 리트리버 생성
@@ -429,7 +555,7 @@ retriever = vectorstore.as_retriever()
 rag_chain_dist = (
     {"context": retriever | format_docs, "question": RunnablePassthrough()}
     | RunnablePassthrough.assign(context=itemgetter("context"))
-    | {"answer": prompt | llm | StrOutputParser(), 
+    | {"answer": prompt | llm | StrOutputParser(),
        "context": itemgetter("context")})
 
 # RAG 데이터 세트 가져오기
@@ -442,13 +568,24 @@ print(results)
 
 이것이 결과입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 {
-  'faithfulness': 0.9444, 
-  'answer_relevancy': 0.8504, 
-  'context_precision': 0.6667, 
+  'faithfulness': 0.9444,
+  'answer_relevancy': 0.8504,
+  'context_precision': 0.6667,
   'context_recall': 0.8889
 }
 ```
@@ -459,8 +596,18 @@ print(results)
 
 ## 모델에 피드 할 최종 프롬프트
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최종 프롬프트 구성은 검색된 데이터를 모델의 쿼리에 통합하는 것을 의미합니다. 프롬프트의 작은 변화는 결과에 큰 영향을 미칠 수 있어 시행 착오 과정이 될 수 있습니다. 프롬프트 내의 예시를 제공하면 모델이 더 정확하고 관련성 높은 결과물을 생성할 수 있습니다.
 
@@ -470,11 +617,22 @@ print(results)
 
 결과는 일반적인 해결책이 없음을 강조했습니다. 예를 들어, 우리의 맥락에서 Dense Passage Retrieval (DPR)은 Sentence-BERT보다 우수한 성과를 보였지만, 이는 다른 데이터셋이나 요구 사항에 따라 달라질 수 있습니다. 마찬가지로, 벡터 검색에서 코사인 유사도로 전환하면 더 나은 충실도와 콘텍스트 회수가 나타나는 것으로 나타났는데, 검색 과정의 미묘한 변경이 영향을 미치는 것을 보여주었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 RAG 파이프라인을 최적화하는 여정은 지속적인 테스트, 실패로부터 교훈을 얻고, 정보에 기반한 조정을 포함합니다. 이 반복적인 방식을 받아들이면, AI 솔루션을 더 효과적으로 사용자의 요구에 맞게 맞춤화할 수 있습니다. 성공의 열쇠는 데이터를 이해하고, 다양한 전략을 실험해보며, 끊임없이 프로세스를 개선하는 데 있습니다.
 
-내 프로필과 이메일 목록을 구독하여 최신 작업을 업데이트 받아보세요. 함께하면, AI 최적화의 복잡성을 탐험하고 데이터 기반 솔루션의 완전한 잠재력을 발휘할 수 있습니다. 
+내 프로필과 이메일 목록을 구독하여 최신 작업을 업데이트 받아보세요. 함께하면, AI 최적화의 복잡성을 탐험하고 데이터 기반 솔루션의 완전한 잠재력을 발휘할 수 있습니다.
 
 ## 참고 자료
 

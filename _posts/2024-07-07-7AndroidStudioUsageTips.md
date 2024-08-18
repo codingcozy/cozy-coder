@@ -3,17 +3,13 @@ title: "Android Studio 사용을 위한 7가지 팁"
 description: ""
 coverImage: "/assets/img/2024-07-07-7AndroidStudioUsageTips_0.png"
 date: 2024-07-07 23:20
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-7AndroidStudioUsageTips_0.png
 tag: Tech
 originalTitle: "7 Android Studio Usage Tips"
 link: "https://medium.com/@domen.lanisnik/android-studio-usage-tips-4c6c47b716e8"
 isUpdated: true
 ---
-
-
-
-
 
 안드로이드 스튜디오는 사용하기 쉬운 강력한 IDE입니다. 그러나 명확하지 않지만 개발자 생산성을 향상시키고 앱 개발을 더 쉽게 만들어 주는 기능도 지원합니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## 1. Logcat을 사용하여 스크린샷 찍기 및 화면 녹화하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로그캣 창 안에는 현재 연결된 장치의 화면을 쉽게 캡처하거나 녹화할 수 있는 버튼이 있습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 화면을 녹화하려면 스크린샷 아이콘 아래의 비디오 카메라 버튼을 클릭하십시오. 비트 속도와 해상도를 선택할 수 있는 다이얼로그가 나타납니다. 녹화 중에는 화면 미리보기가 표시되지 않습니다. 녹화를 중지하면 컴퓨터에 녹화한 파일을 저장할 위치를 선택하라는 메시지가 표시됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Screenshot of Android Studio Usage Tips](/assets/img/2024-07-07-7AndroidStudioUsageTips_2.png)
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 모든 단축키를 외우려고 하지 말고, Key Promoter X라는 IDE 플러그인을 설치할 수 있습니다. 이 플러그인은 IDE 내부 버튼에 마우스를 사용할 때 대신 사용해야 할 키보드 단축키를 보여줍니다. 그리고 자주 사용하는 동작에 대해 단축키가 없다면 해당 동작에 대한 단축키 생성을 제안해줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지 태그를 Markdown 형식으로 수정하세요.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 3. 실행 창 전환 비활성화
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최근의 안드로이드 스튜디오 버전은 앱을 배포한 후 자동으로 Logcat에서 Run 창으로 전환됩니다. 이것은 여러분이 앱을 실행하기 전 몇 초 전에 전환했더라도 수동으로 탭을 전환해야 해서 귀찮을 수 있습니다.
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 ## 4. 각 앱 실행 시 Logcat 자동으로 표시하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전 설정과 관련하여, 앱을 배포할 때 자동으로 Logcat 탭이 열리도록 설정할 수 있습니다. 또한 로그를 지우는 옵션도 설정할 수 있습니다.
 
@@ -73,7 +124,18 @@ isUpdated: true
 
 [Android Studio Usage Tips](/assets/img/2024-07-07-7AndroidStudioUsageTips_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 5. 내장 Git 클라이언트 사용하기
 
@@ -84,7 +146,18 @@ Android Studio에는 다양한 기능을 갖춘 내장 Git GUI 클라이언트�
 병합 충돌 해결
 양쪽 브랜치에서의 변경 사항과 최종 결과를 가운데에 표시해주는 훌륭한 대화식 병합 충돌 해결 도구도 제공됩니다. 수동 편집도 가능합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Shelving changes
 또한, 안드로이드 스튜디오는 변경 내용을 보관하거나 감추는 기능을 지원합니다. 이는 아직 커밋하지 않은 보류 중인 변경 사항을 저장하고 필요할 때 복원할 수 있는 것을 의미합니다. 예를 들어, 다른 작업으로 전환해야 하는 경우 변경 사항을 나중에 작업하기 위해 옆으로 옮겨놓고 싶을 때 유용합니다.
@@ -95,7 +168,18 @@ Shelving changes
 
 ## 6. ADB Idea 플러그인 설치하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Android Studio은 유용한 기능을 추가하는 서드파티 플러그인에 방대한 지원을 제공합니다. 그 중 하나는 ADB Idea 플러그인으로, 일반적인 수동 작업을 빠르게 실행할 수 있는 간편한 방법을 제공합니다.
 
@@ -105,7 +189,18 @@ Android Studio은 유용한 기능을 추가하는 서드파티 플러그인에 
 
 플러그인을 설치하려면 설정 - 플러그인으로 이동하여 마켓플레이스에서 ADB Idea를 검색하고 설치 버튼을 클릭하면 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Screenshot](/assets/img/2024-07-07-7AndroidStudioUsageTips_9.png)
 
@@ -116,7 +211,18 @@ Android Studio은 유용한 기능을 추가하는 서드파티 플러그인에 
 앱을 다시 실행하는 대신 디버거를 연결하세요
 디버깅을 시작하는 두 가지 방법이 있습니다. 하나는 실행 버튼 옆의 녹색 버그 버튼을 클릭하여 앱을 실행하는 것입니다. 기존에 실행 중인 경우 앱을 다시 시작하며 시간이 조금 더 소요될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 빠른 방법은 툴바에 있는 화살표가있는 버그 버튼을 클릭하여 이미 실행 중인 응용 프로그램에 디버거를 연결하는 것입니다. 이렇게 하면 새 창이 열리고 프로세스를 선택할 수 있습니다. 중단점 내에 체크 마크가 표시되면 디버깅을 시작할 수 있습니다.
 
@@ -127,7 +233,18 @@ Android Studio은 유용한 기능을 추가하는 서드파티 플러그인에 
 
 ![Android Studio Keyboard Shortcuts](/assets/img/2024-07-07-7AndroidStudioUsageTips_11.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 조건부 중단점
 조건부 중단점을 설정할 수 있습니다. 이는 지정한 조건이 참으로 평가될 때만 트리거되는 중단점을 설정하는 기능입니다. 이를 통해 디버깅을 가속화할 수 있으며 관심 없는 경우에는 중단점이 동작하지 않습니다.
@@ -138,7 +255,18 @@ Android Studio은 유용한 기능을 추가하는 서드파티 플러그인에 
 
 ![이미지](/assets/img/2024-07-07-7AndroidStudioUsageTips_12.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 범례브레이크포인트를 생성하는 또 다른 방법은 디버그 창에서 중단점 창을 열어서 기존의 중단점을 선택하고 조건을 추가하는 것입니다.
 
@@ -151,7 +279,18 @@ Android Studio은 유용한 기능을 추가하는 서드파티 플러그인에 
 - 표현식을 선택하고 디버깅 창으로 드래그하여 놓습니다.
 - 표현식을 수동으로 표현식 입력란에 작성합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막 옵션은 변수의 값뿐만 아니라 추가 속성도 볼 수 있게 합니다.
 
@@ -161,7 +300,18 @@ Android Studio은 유용한 기능을 추가하는 서드파티 플러그인에 
 
 ![android studio usage tips](/assets/img/2024-07-07-7AndroidStudioUsageTips_14.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

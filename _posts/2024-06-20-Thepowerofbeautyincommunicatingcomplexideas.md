@@ -3,17 +3,13 @@ title: "복잡한 아이디어를 전달하는 데 미의 힘"
 description: ""
 coverImage: "/assets/img/2024-06-20-Thepowerofbeautyincommunicatingcomplexideas_0.png"
 date: 2024-06-20 15:08
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-Thepowerofbeautyincommunicatingcomplexideas_0.png
 tag: Tech
 originalTitle: "The power of beauty in communicating complex ideas"
 link: "https://medium.com/user-experience-design-1/the-power-of-beauty-in-communicating-complex-ideas-774a6a7b843a"
 isUpdated: true
 ---
-
-
-
-
 
 ## 과학이나 혁신을 전달할 때 미를 추구할 수 있을까요?
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 그렇다면 과학이나 혁신을 전달할 때 미를 추구하는 것을 옹호할 수 있을까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 아름다움은 우리의 주목을 끕니다
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 이탈리아 데이터 시각화 전문 디자인 에이전시인 Accurat은 주요 디자인 원칙 중 하나로 아름다움을 추구합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그들의 시각화 시리즈는 La Lettura 신문을 위해 아주 구체적인 주제에 대해 사람들의 관심을 끌기 위해 아름다움을 활용합니다. 예를 들어 위의 시각화는 역사상 가장 중요한 80가지 수학적 문제를 탐구합니다. 그 시각화를 보면 더 알고 싶어지죠. Accurat의 공동 창업자인 조르지아 루피(Giorgia Lupi)의 말처럼: '사람들이 "오, 이건 아름답군요! 무엇인지 알고 싶어요!"라고 말하는 아이디어가 좋아요.'
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 감정 경험과 합리적 경험의 융합은 우리 뇌에게 매우 만족스러운 느낌이 있습니다. 감정적 경험과 합리적 경험이 모두 우리의 인식과 의사 결정 과정에서 근본적인 역할을 합니다. 신경과학자 안토니오 다마지오(Antonio Damasio)가 쓴 "감정은 추론 과정에 불가결하다"라고 합니다. 다시 말해: 감정을 통해 사실들이 우리 속에서 울립니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Fernanda Viégas와 Martin Wattenberg의 Wind Map은 아름다운 데이터 시각화의 훌륭한 예시입니다. 이는 미국 규모의 매우 큰 데이터 세트인 바람 패턴을 직관적으로 나타냅니다. 흑백만 사용하여 시각화는 우리에게 바람을 느끼게 합니다. 감정적으로 우리와 소통하면서 정확하고 복잡한 데이터를 전달합니다. 이 시각화에 관한 Eli Holder의 말이 정말 마음에 듭니다:
 
@@ -53,7 +82,18 @@ Fernanda Viégas와 Martin Wattenberg의 Wind Map은 아름다운 데이터 시�
 
 NASA의 유명한 지구 떠오르는 사진 뒤에 있는 이야기는 매우 흥미로운 것입니다. 이 사진은 아폴로 8 미션 중에 찍힌 것으로, 이는 달 주변을 최초로 여행한 미션입니다. 선원들은 달 표면을 사진으로 촬영하기 위해 카메라를 갖추고 있었습니다. 약 900장의 사진을 찍었는데, 그 대부분은 달의 회색 분화구를 자세히 보여줍니다. 네 번째 달의 궤도 중에 우주 비행사 빌 안더스는 안개 낀 창문을 통해 달 뒤에 떠오르는 지구를 발견했습니다. 그 풍경의 아름다움에 그는 감탄했습니다. 그는 카메라로 향해가서 컬러 필름을 요청했습니다. 그의 동료인 프랭크 보먼은 "이거 사진을 찍지 말라고"라고 대답했습니다. 이 사진은 계획에 없었습니다. 안더스의 직감과 사진술 능력이 없었다면 그 사진은 존재하지 않았을 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지구로 돌아와서, 이 사진은 널리 퍼져 다녔습니다. 달 표면의 900 장의 사진은 과학자들에게 확실히 가치 있었지만, 진정으로 아름다운 한 장의 이미지는 전 세계 대중에게 강한 감동을 주며 환경 보호의 세계적인 움직임을 촉발했습니다. 오늘 이 사진을 보면 우리는 지구, 우리의 고향, 우리 자신에 대해 다시 한 번 생각해보게 됩니다. 과학사 인 로레인 다스턴의 말처럼, "이는 불편한 감정이죠. 당신이 궁금해지는 것이 아니라, 궁금증이 당신을 잡아먹는 것이죠."
 
@@ -63,7 +103,18 @@ NASA의 유명한 지구 떠오르는 사진 뒤에 있는 이야기는 매우 �
 
 본 텍스트는 첨단 혁신과 과학을 전달하는 연구원들을 돕는 디자이너로서의 나의 실천에 말을 건네는 시도입니다. 더 많은 내 작업을 보실 수 있습니다: [https://www.louischarron.io/](https://www.louischarron.io/)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 소스
 
@@ -75,7 +126,18 @@ https://book.visualisingdata.com/
 
 과학 이야기에서 줄거리 찾기: 과학 커뮤니케이션 강화를 희망하며. Susana Martinez-Conde 및 Stephen L. Macknik (2017) https://www.pnas.org/doi/10.1073/pnas.1711790114
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 방 분위기를 읽어보세요. Effect & Affect, Eli Holder (2024)  
 [링크](https://www.effaff.com/read-the-room-ensemble-effect/)

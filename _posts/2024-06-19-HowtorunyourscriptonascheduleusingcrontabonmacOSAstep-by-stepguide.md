@@ -3,16 +3,13 @@ title: "맥OS에서 크론탭을 사용하여 스크립트를 정해진 시간�
 description: ""
 coverImage: "/assets/img/2024-06-19-HowtorunyourscriptonascheduleusingcrontabonmacOSAstep-by-stepguide_0.png"
 date: 2024-06-19 15:14
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-HowtorunyourscriptonascheduleusingcrontabonmacOSAstep-by-stepguide_0.png
 tag: Tech
 originalTitle: "How to run your script on a schedule using crontab on macOS: A step-by-step guide"
 link: "https://medium.com/@justin_ng/how-to-run-your-script-on-a-schedule-using-crontab-on-macos-a-step-by-step-guide-a7ba539acf76"
 isUpdated: true
 ---
-
-
-
 
 맥에서는 쉘(Shell), 노드(Node), 파이썬(Python) 및 데노(Deno) 스크립트를 쉽게 자동화할 수 있습니다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 Mac에서 파일 백업, 보고서 생성 또는 이메일 전송과 같은 작업을 자동화하고 싶은 적이 있나요? 이러한 작업은 반복적이고 시간이 많이 소비되지만 crontab을 사용하면 특정 시간에 실행되도록 예약하여 더 중요한 일에 집중할 수 있습니다. 이 기사에서는 crontab 도구를 탐색하고, 쉘, 노드, 파이썬 및 데노로 작성된 스크립트를 예약하는 방법을 보여드리겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 맥에서의 Crontab 작동 방식
 
@@ -41,11 +49,33 @@ Crontab은 macOS에서 작업을 관리하고 자동화하는 Unix 기반 도구
 0 16 * * 1 /usr/bin/python3 /경로/스크립트.py
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 표 태그를 마크다운 형식으로 변경해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 crontab - e;
@@ -57,7 +87,18 @@ crontab - e;
 
 Visual Studio Code, Sublime Text 또는 Atom과 같은 시각적 텍스트 편집기를 선호하는 경우 VISUAL 환경 변수를 설정하여 기본 편집기를 지정할 수 있습니다. 예를 들어 Visual Studio Code를 사용하려면 터미널에서 다음 명령을 실행하세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export VISUAL="code --wait"
@@ -69,7 +110,18 @@ export VISUAL="code --wait"
 
 # 크론 표현식 101
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 크론 표현식은 공백으로 구분된 다섯 필드의 문자열입니다. 각 필드는 시간 단위를 나타냅니다:
 
@@ -86,7 +138,18 @@ export VISUAL="code --wait"
 
 ## 여러 값 지정에 쉼표 사용하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1시 30분 오후와 6시 30분 오후에 작업을 실행하려면:
 
@@ -98,7 +161,18 @@ export VISUAL="code --wait"
 
 오전 9시부터 오후 5시까지 매 30분마다 작업을 실행하려면:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 간격 지정을 사용한 작업 실행
 
@@ -108,7 +182,18 @@ export VISUAL="code --wait"
 0 */2 * * * your-command
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # macOS에서 가장 일반적인 Cron 표현식
 
@@ -120,7 +205,18 @@ export VISUAL="code --wait"
 30 2 * * * 실행할-명령어
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 매 시간마다 작업 실행
 
@@ -132,7 +228,18 @@ export VISUAL="code --wait"
 
 ## 특정 요일과 시간마다 매주 작업 실행
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 매주 수요일 오후 3:45에 작업을 실행하려면:
 
@@ -144,7 +251,18 @@ export VISUAL="code --wait"
 
 매월 15일 오후 1시에 작업을 실행하려면:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 0 13 15 * * your-command
@@ -156,9 +274,18 @@ export VISUAL="code --wait"
 
 - "backup.sh" 라는 쉘 스크립트 파일을 만들고 실행 가능하게 만듭니다:
 
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 #!/bin/bash
@@ -173,7 +300,18 @@ export VISUAL="code --wait"
 
 ## Node.js 스크립트 예제
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - "email.js"라는 Node.js 스크립트 파일을 생성해보세요:
 
@@ -189,7 +327,18 @@ const nodemailer = require("nodemailer");
 0 * * * * /usr/local/bin/node /path/to/email.js
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 데모 스크립트 예시
 
@@ -203,7 +352,18 @@ import { generateReport } from "./reportGenerator.ts";
 
 2. 매주 화요일 오후 8시에 스크립트를 실행할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 0 20 * * 2 /usr/local/bin/deno run --allow-read --allow-write /path/to/report.ts
@@ -219,7 +379,18 @@ import pandas as pd
 # 데이터 분석 및 시각화 로직을 작성하세요
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 매주 금요일 오후 12시에 스크립트를 실행하도록 일정을 예약해주세요:
 
@@ -231,7 +402,18 @@ import pandas as pd
 
 macOS용 크론 표현식을 만들 수 있는 여러 웹사이트 및 앱이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Crontab Generator
 - CronTab.guru
@@ -243,7 +425,18 @@ macOS용 크론 표현식을 만들 수 있는 여러 웹사이트 및 앱이 �
 
 스케줄된 작업을 효과적으로 관리하기 위해서는 현재 예약된 작업을 확인하고 이전 실행 로그를 확인하는 방법을 알아야 합니다. 이 섹션에서는 이러한 중요한 모니터링 및 로깅 작업을 안내해 드립니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 예약된 작업 확인하기
 
@@ -255,7 +448,18 @@ crontab - l;
 
 이 명령은 현재의 crontab 파일을 표시하며, 모든 예약된 cron 작업을 보여줍니다. 각 줄은 하나의 cron 작업을 나타내며, cron 표현식 다음에 실행할 명령이 오게 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 이전 실행 로그 보기
 
@@ -267,7 +471,18 @@ crontab - l;
 0 3 * * * /path/to/backup.sh >> /path/to/backup.log 2>&1
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 
@@ -277,6 +492,16 @@ crontab - l;
 
 grep -i cron /var/log/system.log
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 명령은 크론 작업과 관련된 모든 로그 항목을 표시하여 예약된 작업의 실행에 관한 타임스탬프와 기본 정보를 제공합니다.
+```

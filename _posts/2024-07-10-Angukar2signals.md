@@ -3,17 +3,13 @@ title: "Angular 2 시그널 사용법"
 description: ""
 coverImage: "/assets/img/2024-07-10-Angukar2signals_0.png"
 date: 2024-07-10 00:59
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-10-Angukar2signals_0.png
 tag: Tech
 originalTitle: "Angukar 2 : signals"
 link: "https://medium.com/@ireneamedji/angukar-2-signals-7dbfae5ddd1b"
 isUpdated: true
 ---
-
-
-
-
 
 😪 네, 알아요. 마지막 게시물 이후에는 매주 일요일마다 올려서 앵귈러 학습을 더 진행해야 할 텐데 하지 못했어요. 그 이유는요? 집에서 인터넷 연결이 안 되고, 면허를 인증하기 위해 해야 할 학교 프로젝트가 너무 많았고, 몸이 지치면서 너무나도 피곤했으며... 그리고 너무 많은 디레스지가 있었어요.
 
@@ -24,7 +20,18 @@ isUpdated: true
 
 그럼, 출발합시다!!! 🚀
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-10-Angukar2signals_0.png)
 
@@ -34,7 +41,18 @@ isUpdated: true
 
 이렇게 생각해 봅시다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 표 태그를 Markdown 형식으로 변경합니다.
 
@@ -46,7 +64,18 @@ Angular 시그널은 건설 블록 세계에서 특별한 도우미 로봇이 �
 
 변경 감지는 두 가지 방법으로 수행됩니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본적으로, 애플리케이션 요소와 상호 작용할 때마다 Angular는 모든 구성 요소를 통과하고 각각의 구성 요소에 대해 수정 사항이 있는지 확인합니다. 수정 사항이 있으면 새 값으로 구성 요소를 업데이트하여 표시합니다.
 
@@ -56,11 +85,22 @@ OnPush 방식은 Angular에서 수행하는 확인 작업의 수를 제한합니
 
 여기 Angular 코드 예제가 있어요. 이 코드는 버튼 클릭 수를 관리하기 위해 신호(signal)를 사용합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // Angular 시그널 import 중
-import { Component, signal } from '@angular/core';
+import { Component, signal } from "@angular/core";
 ```
 
 ```js
@@ -88,6 +128,17 @@ export class SignalExampleComponent {
 
 여기까지입니다. 다음 주에는 Angular에서 새로운 엘리먼트를 만나러 와요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 이런 코드 # 개선

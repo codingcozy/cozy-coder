@@ -3,7 +3,7 @@ title: "영화 장르 스타일로 중간 과정을 안내해보세요"
 description: ""
 coverImage: "/assets/img/2024-05-27-GuideMidjourneywithFilmGenreStyles_0.png"
 date: 2024-05-27 15:26
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-GuideMidjourneywithFilmGenreStyles_0.png
 tag: Tech
 originalTitle: "Guide Midjourney with Film Genre Styles"
@@ -11,12 +11,20 @@ link: "https://medium.com/let-there-be-prompt/guide-midjourney-with-film-genre-s
 isUpdated: true
 ---
 
-
-
-
 테이블 태그를 마크다운 형식으로 변경해 주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 그 규칙들에 완전히 동의하고, 모두가 그런 행동을 피하도록 강력히 권장합니다. 유감스럽게도, 많은 사용자들이 사진작가, 감독, 영화 제작사, 브랜드 이름을 사용해서 이미지를 만들곤 합니다.
 
@@ -26,8 +34,18 @@ isUpdated: true
 
 최근에 저는 과학 극면을 소재로 한 이미지 세트를 만들어야 했고, 그 이미지들은 스타워즈 스타일을 연상시켜야 했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-27-GuideMidjourneywithFilmGenreStyles_0.png)
 
@@ -37,9 +55,18 @@ isUpdated: true
 
 "낡은," "무법자," "사막과 과학 소설적 건축물"과 같은 형용사를 선택하여 작업을 시작했습니다. 우주선과 풍경, 기복과 건물을 설명하려고 했으나 키워드가 쌓여서 제작 과정이 어려워졌습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![GuideMidjourneywithFilmGenreStyles_1](/assets/img/2024-05-27-GuideMidjourneywithFilmGenreStyles_1.png)
 
@@ -49,8 +76,18 @@ It turned out that there was a very simple solution without lengthy prompts or m
 
 Instead of trying to stuff my prompts with detailed definitions of things, I needed to think more about how Midjourney works.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Midjourney는 이미지를 기반으로 훈련되었습니다. 훈련을 위해 사진에 대한 정의로 인간들이 세심하게 라벨을 달았습니다.
 
@@ -60,8 +97,18 @@ Midjourney는 이미지를 기반으로 훈련되었습니다. 훈련을 위해 
 
 Midjourney의 창조자들은 그 부분에 대해 잘 해냈습니다. Midjourney는 다양한 유동적인 장르 및 스타일 개념들에 대해 잘 훈련받았으며, 각 개념과 관련된 정보를 알고 있으며, 프롬프트에서 빠진 부분을 채울 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-27-GuideMidjourneywithFilmGenreStyles_3.png)
 
@@ -71,8 +118,18 @@ Midjourney의 창조자들은 그 부분에 대해 잘 해냈습니다. Midjourn
 
 또한 이것은 서사시입니다. 서사시는 넓은 의미에서 거대한 풍경, 조망, 다층적인 심오함 등을 필요로 합니다. 제 프롬프트에 "서사시"라는 단어를 사용하면 많은 말들을 줄일 수 있어요.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 무언가가 아직 부족합니다. 여러 개의 스타워즈 영화 스크린샷을 살펴본 후 결론을 내렸어요: 무법자 배경과 서부 영화에 많은 시네마적 요소가 공유된다구요.
 
@@ -80,8 +137,18 @@ Midjourney의 창조자들은 그 부분에 대해 잘 해냈습니다. Midjourn
 
 그러면 "우주선"을 "로봇"이나 "무법자 마을"로 대체할 수 있고, Midjourney가 나머지를 처리해줄 거예요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![GuideMidjourneywithFilmGenreStyles_5](/assets/img/2024-05-27-GuideMidjourneywithFilmGenreStyles_5.png)
 
@@ -91,8 +158,18 @@ Midjourney는 카메라 각도, 조명, 구도 규칙 및 다른 장르와 관�
 
 ![GuideMidjourneywithFilmGenreStyles_6](/assets/img/2024-05-27-GuideMidjourneywithFilmGenreStyles_6.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 알겠어요! 모든 사람이 바로 원하는 이미지를 설명하는 특정 장르나 조합을 파악하는 전문가는 아니에요. 그렇다고 ChatGPT가 예시 이미지를 분석하고 정의를 제공하는 데 도움이 될 수 있어요.
 

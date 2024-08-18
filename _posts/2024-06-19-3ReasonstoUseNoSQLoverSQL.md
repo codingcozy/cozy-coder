@@ -3,17 +3,13 @@ title: "NoSQL을 사용하는 이유와 SQL을 선택하는 3가지 이유"
 description: ""
 coverImage: "/assets/img/2024-06-19-3ReasonstoUseNoSQLoverSQL_0.png"
 date: 2024-06-19 16:25
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-3ReasonstoUseNoSQLoverSQL_0.png
 tag: Tech
 originalTitle: "3 Reasons to Use NoSQL over SQL"
 link: "https://medium.com/gitconnected/3-reasons-to-use-nosql-over-sql-b3fe05b09325"
 isUpdated: true
 ---
-
-
-
-
 
 `<img src="/assets/img/2024-06-19-3ReasonstoUseNoSQLoverSQL_0.png" />`
 
@@ -23,7 +19,18 @@ NoSQL과 SQL 데이터베이스 중에서 결정하는 것은 매우 어려운 �
 
 DISCLAIMER ⚠️: SQL 데이터베이스에 대해 반대 의견을 제시하는 것이 아니며, 이 자리는 이러한 훌륭한 기술들에 대한 공식적인 토론을 촉발하는 것을 목표로 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러니 더 이상 망설일 필요 없어요... 바로 시작해 봅시다!
 
@@ -33,7 +40,18 @@ DISCLAIMER ⚠️: SQL 데이터베이스에 대해 반대 의견을 제시하�
 
 샤딩은 수평 확장으로도 알려져 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대안은 수직 스케일링이며, 이는 데이터베이스를 업그레이드하여 스케일을 조정하는 기술로 단일 서버를 업그레이드하는 것을 의미합니다(예: RAM 추가, CPU 업그레이드).
 
@@ -43,7 +61,18 @@ NoSQL이 샤딩에 더 적합한 이유는 데이터가 자체를 포함하고 �
 
 NoSQL에서 샤딩이 더 쉬운 이유를 이해하기 위해 다음 예제를 살펴보십시오:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마치 미디엄처럼 블로깅 플랫폼을 상상해보세요. 블로그 게시물 객체에는 댓글과 좋아요가 포함됩니다.
 
@@ -53,7 +82,18 @@ NoSQL에서는 이 객체가 다른 서버에 있는 다른 테이블에서 데�
 
 그러나 SQL 데이터베이스에서는 게시물, 댓글 및 좋아요를 조인해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SQL 데이터베이스가 샤드로 분할되면 어렵습니다. 서로 다른 서버에 위치한 코멘트와 조회수를 JOIN하는 것이 훨씬 어려워집니다.
 
@@ -63,7 +103,18 @@ SQL 데이터베이스가 샤드로 분할되면 어렵습니다. 서로 다른 
 
 이제 수십억 개의 복잡한 관계형 데이터로 확장해 봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 상황에서 NoSQL은 여러 서버에 걸쳐 행을 분할할 수 있기 때문에 성능이 유지됩니다.
 
@@ -73,7 +124,18 @@ SQL 데이터베이스가 샤드로 분할되면 어렵습니다. 서로 다른 
 
 더 나쁜 것은 SQL 스키마가 복잡해지면 여러 JOIN 쿼리가 쌓여 데이터베이스의 성능을 떨어뜨릴 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3. 간편함
 
@@ -83,7 +145,18 @@ NoSQL의 핵심 목적은 사전 정의된 구조를 준수하지 않고 대량�
 
 이는 프로젝트가 시작되기 전에 스키마를 계획하는 시간을 적게 소비하게 되어 빠른 개발을 이끌어낼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래도 이렇게 계획을 다 해놓았음에도 불구하고, 데이터베이스 스키마를 언젠가는 더 다듬어야 할 가능성이 높습니다.
 
@@ -93,7 +166,18 @@ NoSQL의 핵심 목적은 사전 정의된 구조를 준수하지 않고 대량�
 
 그러나 NoSQL을 사용하면 간단히 열을 제거하거나 수정할 수 있습니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 결론
 
@@ -103,7 +187,18 @@ NoSQL의 간결함과 성능 장점은 대부분의 애플리케이션에 대해
 
 이는 SQL 데이터베이스가 나쁘다는 것을 의미하는 것이 아니라, 데이터를 확장하는 방법을 다시 생각하고 작업에 적합한 도구를 선택하도록 고려해야 한다는 것을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 제휴사
 

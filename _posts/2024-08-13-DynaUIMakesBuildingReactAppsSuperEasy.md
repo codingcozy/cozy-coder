@@ -3,7 +3,7 @@ title: "React 에서 DynaUI 사용하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-13-DynaUIMakesBuildingReactAppsSuperEasy_0.png"
 date: 2024-08-13 11:15
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-13-DynaUIMakesBuildingReactAppsSuperEasy_0.png
 tag: Tech
 originalTitle: "DynaUI Makes Building React Apps Super Easy"
@@ -11,7 +11,6 @@ link: "https://medium.com/gitconnected/dynaui-makes-building-react-apps-super-ea
 isUpdated: true
 updatedAt: 1723863087390
 ---
-
 
 모두가 자신만의 웹사이트를 가지고 싶어합니다. 제가 얼마나 많은 것을 보유하지 않았더라도 저도 그랬어요. 이제는 아마도 각종 웹사이트 빌더에 계정을 만들었을 것입니다. 왜냐면 그냥 개인 웹사이트를 만들고 싶었으니까요 (아직은 만들지 못했지만요).
 
@@ -21,7 +20,18 @@ updatedAt: 1723863087390
 
 Tailwind를 제외하고, UI 라이브러리 중에서 확실히 최고의 GOAT인 것을 고려하더라도, 웹사이트를 위한 컴포넌트를 구축하는 데 일부 노력이 필요할 수 있습니다. 복잡한 컴포넌트 특히 그럴 때 DynaUI를 발견했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # DynaUI란 무엇인가요?
 
@@ -33,7 +43,18 @@ DynaUI는 웹사이트에 통합할 수 있는 50가지 이상의 미리 제작�
 - 평생 액세스 (한 번 지불로 가능)
 - TailwindCSS 사용
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 많은 라이브러리가 있을 수 있지만, 제가 가장 좋아하는 것은 DynaUI의 신속한 지원입니다. 어려움을 겪는다면 최대 12시간 내에 응답을 받을 수 있다고 확신합니다. 이것은 제 같은 초보 코더에게 정말 도움이 됩니다 :)
 
@@ -43,7 +64,18 @@ DynaUI Pro은 현재 가격 인하를 진행 중이며, 수명 동안 액세스�
 
 # DynaUI의 구성 요소
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3가지 주요 컴포넌트 카테고리가 있습니다:
 
@@ -55,8 +87,18 @@ DynaUI Pro은 현재 가격 인하를 진행 중이며, 수명 동안 액세스�
 
 농담은 놓고, 이 템플릿들의 사용 편리성은 정말 놀라웠어요. React 앱을 구축하는 것이 이렇게 간단할 줄은 상상도 못 했습니다. 유일한 단점은 현재 5개의 템플릿으로 제한되어 있지만, 새로운 템플릿을 정기적으로 출시 중이라고 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![DynaUI Image](/assets/img/2024-08-13-DynaUIMakesBuildingReactAppsSuperEasy_1.png)
 
@@ -66,8 +108,18 @@ Components, on the other hand, are for the more technical users. These are small
 
 ## How did I use DynaUI?
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 초기 계획은 처음부터 개인 웹사이트를 구축하는 것이었는데, 일부분은 완성했습니다. React는 제게 꽤 높은 학습 곡선을 보였지만, DynaUI는 이미 모든 것을 설정해 두어 많이 간단해졌어요. 이 시점에서 주말만으로는 모든 것을 구축하고 여러분께 제공하기에 충분하지 않아요.
 

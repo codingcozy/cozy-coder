@@ -3,17 +3,13 @@ title: "Coordinator 패턴을 사용한 네비게이션 방법"
 description: ""
 coverImage: "/assets/img/2024-07-01-NavigationviaCoordinatorPattern_0.png"
 date: 2024-07-01 20:53
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-01-NavigationviaCoordinatorPattern_0.png
 tag: Tech
 originalTitle: "Navigation via Coordinator Pattern"
 link: "https://medium.com/wereprotein/navigation-via-coordinator-pattern-dd559541be90"
 isUpdated: true
 ---
-
-
-
-
 
 각 화면을 포함하는 앱은 사용자가 인터페이스를 탐색하고 다른 기능에 액세스할 수 있는 시스템이 필요합니다. 내장된 네비게이션 컨트롤러와 같은 도구를 통해 또는 사용자 정의 솔루션을 통해 이러한 네비게이션을 구현하는 것은 복잡할 수 있습니다. 잘 설계된 네비게이션 구조는 앱의 다른 부분이 독립적이고 유지보수가 쉽도록 보장하여 뷰 컨트롤러 간에 강하게 결합되지 않고 널리 퍼져 있는 종속성을 피합니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 iOS 앱에서 네비게이션을 관리하는 일반적인 방법은 UINavigationController를 사용하는 것입니다. 이 컨트롤러는 뷰 컨트롤러를 푸시하고 팝하여 화면 간의 전환을 원활하고 쉽게 처리합니다. 예를 들어:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 접근 방식을 통해 한 뷰 컨트롤러가 다른 뷰 컨트롤러를 알고 만들고 구성하며 표시하는 역할을 맡게 됩니다. 이는 애플리케이션에서 뷰 컨트롤러 사이의 링크가 하드 코딩되므로 응집력이 높습니다. 결과적으로, 동일한 뷰 컨트롤러를 다른 위치에서 표시해야 한다면 구성 코드를 중복해서 작성해야 할 수도 있습니다.
 
@@ -31,7 +38,18 @@ Coordinator 패턴에서는 ViewController가 새로운 ViewController를 만들
 
 # Coordinator 만들기를 시작해봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 개의 프로토콜을 생성해야 합니다. 첫 번째 프로토콜은 모든 코디네이터가 따를 기본 구조를 포함할 것입니다. 두 번째 프로토콜은 메인 코디네이터에 특화됩니다. 이 두 번째 프로토콜은 코디네이터와 뷰 컨트롤러 간의 커뮤니케이션을 원활히 할 것입니다.
 
@@ -43,7 +61,18 @@ Markdown 형식으로 위 코드를 조금 수정해주시면 좋을 것 같네�
 - Navigation Controller 속성: 뷰 컨트롤러를 표시하는 데 사용될 네비게이션 컨트롤러를 보유하는 속성을 포함합니다.
 - Start 메서드: 코디네이터가 제어를 가져갈 수 있도록 start() 메서드를 정의합니다. 이렇게 하면 필요할 때만 코디네이터를 생성하고 활성화할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 ViewController를 만들 수 있는 확장 프로그램을 추가해서 조금 더 쉽게 작업할 수 있게 되었어요.
 
@@ -91,7 +120,18 @@ extension UIViewController {
 
 메인 스토리보드 참조를 제거했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 탐색 관리를 위한 MainCoordinator 작성하기
 
@@ -103,11 +143,11 @@ import UIKit
 class MainCoordinator: Coordinator {
     var childCoordinators = [Coordinator]()
     var navigationController: UINavigationController
-    
+
     init(navigationController: UINavigationController) {
         self.navigationController = navigationController
     }
-    
+
     func start() {
         let vc = InitialViewController.instantiate()
         vc.coordinator = self
@@ -116,7 +156,18 @@ class MainCoordinator: Coordinator {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 1. Properties:
 
@@ -127,7 +178,18 @@ class MainCoordinator: Coordinator {
 
 - It initializes the `MainCoordinator` with a navigation controller.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 시작 메서드:
 
@@ -140,17 +202,41 @@ SceneDelegate.swift에서 조정자 수동으로 초기화하기
 
 애플리케이션을 위해 조정자를 설정한 후에는 앱이 실행될 때 활성화해야 합니다. 일반적으로 이 초기화는 스토리보드에서 처리하지만, 해당 기능을 비활성화했다면, 이제 SceneDelegate.swift 파일 내에서 직접 시작 프로세스를 관리해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 메인 코디네이터 초기화:
+
 1. UINavigationController의 인스턴스를 생성합니다.
 2. 이 내비게이션 컨트롤러로 MainCoordinator를 초기화합니다.
 
 ### 코디네이터 시작:
+
 1. 내비게이션 컨트롤러를 윈도우의 루트 뷰 컨트롤러로 할당합니다.
 2. 플로우를 시작하려면 코디네이터의 start() 메서드를 호출합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 세련된 구현 방법이 있습니다:
 
@@ -158,17 +244,17 @@ SceneDelegate.swift에서 조정자 수동으로 초기화하기
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
-    
+
     var window: UIWindow?
     var mainCoordinator: MainCoordinator?
-    
+
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         guard let windowScene = (scene as? UIWindowScene) else { return }
-        
+
         let navController = UINavigationController()
         mainCoordinator = MainCoordinator(navigationController: navController)
         mainCoordinator?.start()
-        
+
         window = UIWindow(windowScene: windowScene)
         window?.rootViewController = navController
         window?.makeKeyAndVisible()
@@ -179,7 +265,18 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 이를 위해 애플리케이션의 시작점인 InitialViewController에서 이동할 다른 페이지가 필요합니다. 이 간단한 예제에서 RedViewController와 BlueViewController 두 개의 컨트롤러를 만들었습니다. InitialViewController의 두 버튼을 사용하여 이러한 페이지로 이동할 것입니다. 주의해야 할 점은, UIViewController에 대해 작성한 확장을 사용하려면 스토리보드 식별자를 올바르게 지정해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫째, 우리 각 뷰 컨트롤러는 그것의 코디네이터와 통신할 방법이 필요합니다. 따라서 ViewController 세 개 모두에 이 속성을 포함하세요.
 
@@ -189,29 +286,47 @@ weak var coordinator: MainCoordinator?
 
 메인 코디네이터에서 작성할 두 가지 메서드를 통해 페이지 간에 이동할 수 있을 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-Navigator.py파일에 `navigateToBlue()` 및 `navigateToRed()` 메서드가 정의되어 있습니다. 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+Navigator.py파일에 `navigateToBlue()` 및 `navigateToRed()` 메서드가 정의되어 있습니다.
 
 이 메서드들은 InitialViewController에서 정의한 액션에서 호출됩니다.
 
 InitialViewController에서는 다음과 같이 호출됩니다.
 
+@IBAction func navigateToBlueVC(\_ sender: Any) {
+coordinator?.navigateToBlue()
+}
 
-   @IBAction func navigateToBlueVC(_ sender: Any) {
-        coordinator?.navigateToBlue()
-    }
-    
     @IBAction func navigateToRedVC(_ sender: Any) {
         coordinator?.navigateToRed()
     }
 
-
 이제 코디네이터가 제어하는 각 뷰 컨트롤러 간에 탐색이 가능한 앱이 작동해야 합니다. 축하합니다!
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

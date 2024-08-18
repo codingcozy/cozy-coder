@@ -3,17 +3,13 @@ title: "Code Llama로 나만의 LLM 코딩 어시스턴트 만드는 방법 "
 description: ""
 coverImage: "/assets/img/2024-06-22-HowtoBuildYourOwnLLMCodingAssistantWithCodeLlama_0.png"
 date: 2024-06-22 21:36
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-HowtoBuildYourOwnLLMCodingAssistantWithCodeLlama_0.png
 tag: Tech
 originalTitle: "How to Build Your Own LLM Coding Assistant With Code Llama 🤖"
 link: "https://medium.com/towards-artificial-intelligence/how-to-build-your-own-llm-coding-assistant-with-code-llama-04d8340900a3"
 isUpdated: true
 ---
-
-
-
-
 
 이 실습에서는 무료로 사용할 수 있고 로컬 GPU에서 실행되는 AI 코드 어시스턴트를 구현할 예정입니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # LLM이 텍스트를 생성하는 방법은 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 디코더 전용 트랜스포머 모델인 GPT 계열은 주어진 입력 프롬프트에 대한 다음 단어를 예측하도록 훈련되었습니다. 이로 인해 텍스트 생성에 아주 능숙합니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 GitHub Copilot은 상용 예시로서 AI 페어 프로그래머의 한 예입니다. Meta AI의 Code Llama 모델은 유사한 능력을 갖추고 있지만 무료로 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 코드 람마란 무엇인가요?
 
@@ -43,7 +61,18 @@ GitHub Copilot은 상용 예시로서 AI 페어 프로그래머의 한 예입니
 
 Meta AI는 기본 모델 Llama 2(디코더 전용 Transformer 모델로 GPT-4와 유사함)을 시작으로, 대부분 코드로 이루어진 500B 토큰의 교육 데이터를 활용하여 추가 교육을 진행했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 이후로 Code Llama에 대한 세 가지 버전이 네 가지 다른 크기로 제공됩니다.
 
@@ -53,7 +82,18 @@ Code Llama 모델은 연구 및 상업적 사용을 위해 무료입니다.
 
 ## Code Llama
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드 Llama는 코드 생성을 위한 기반 모델입니다. 코드 Llama 모델은 infill 목적으로 훈련되어 IDE 내에서 코드 완성을 위해 설계되었습니다.
 
@@ -63,7 +103,18 @@ Instruct 버전은 인간의 질문에 답변하기 위해 지시 데이터셋�
 
 ## 코드 Llama — Python
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이썬 버전은 추가 데이터셋인 100B 토큰의 파이썬 코드로 훈련되었습니다. 이 모델들은 코드 생성을 위해 의도되었습니다.
 
@@ -73,7 +124,18 @@ Instruct 버전은 인간의 질문에 답변하기 위해 지시 데이터셋�
 
 가장 작은 모델조차도 여전히 7B 매개변수로 상당히 큽니다. 매개변수의 16비트 반정밀도를 사용하면, 모델은 약 14 GB의 GPU 메모리가 필요합니다. 4비트 양자화를 사용하면, 메모리 요구 사항을 약 3.5 GB 정도로 줄일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 모델 구현하기
 
@@ -103,20 +165,42 @@ class ChatModel:
         )
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한, 사용자의 이전 입력 프롬프트와 AI가 생성한 응답을 저장하는 고정 길이의 히스토리 목록을 만듭니다. 이는 대화의 기억을 제공하여 LLM에게 대화의 기억을 부여하는 데 유용합니다.
 
 ```js
-self.history = []
-self.history_length = 1
+self.history = [];
+self.history_length = 1;
 ```
 
 Code Llama은 사용자 프롬프트 앞에 시스템 프롬프트를 사용합니다.
 
 기본적으로, codellama-13b-chat 예제에서 시스템 프롬프트를 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 self.DEFAULT_SYSTEM_PROMPT = """\
@@ -126,7 +210,7 @@ self.DEFAULT_SYSTEM_PROMPT = """\
 
 이제 self.history에 현재 대화를 추가하는 함수를 구현해봅시다.
 
-LLM(어라운드  모델)은 한정된 문맥 길이를 가지고 있기 때문에 메모리에 정보를 한정적으로 보관할 수밖에 없습니다. 여기서는 self.history_length = 1 개의 질문과 대답만 최대한 보관합니다.
+LLM(어라운드 모델)은 한정된 문맥 길이를 가지고 있기 때문에 메모리에 정보를 한정적으로 보관할 수밖에 없습니다. 여기서는 self.history_length = 1 개의 질문과 대답만 최대한 보관합니다.
 
 ```js
     def append_to_history(self, user_prompt, response):
@@ -135,7 +219,18 @@ LLM(어라운드  모델)은 한정된 문맥 길이를 가지고 있기 때문�
             self.history.pop(0)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마침내 우리는 입력 프롬프트에 기반한 텍스트를 생성하는 generate 함수를 구현합니다.
 
@@ -178,7 +273,18 @@ LLM(어라운드  모델)은 한정된 문맥 길이를 가지고 있기 때문�
 
 응답은 시스템 프롬프트와 사용자 프롬프트를 기반으로 합니다. 답변의 창의성은 top_p 및 temperature와 같은 매개변수에 따라 달라집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 top_p를 사용하면 출력 토큰의 확률 값을 제한하여 너무 드물게 발생하는 토큰을 생성하는 것을 피할 수 있어요:
 
@@ -191,19 +297,41 @@ from ChatModel import *
 
 model = ChatModel()
 response = model.generate(
-    user_prompt="C++에서 hello world 프로그램을 작성해봐", 
+    user_prompt="C++에서 hello world 프로그램을 작성해봐",
     system_prompt=model.DEFAULT_SYSTEM_PROMPT
 )
 print(response)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 당신이 요청한 작업은 완료되었습니다. 이제 테이블 태그가 Markdown 형식으로 변경되었습니다.
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import streamlit as st
@@ -235,7 +363,18 @@ with st.sidebar:
 
 그리고 챗봇 메시지 인터페이스를 생성합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 채팅 기록 초기화
@@ -275,7 +414,18 @@ if prompt := st.chat_input("무엇이든 물어보세요!"):
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희는 Meta AI의 Code Llama LLM을 활용하여 AI 코딩 어시스턴트를 구현했어요. 그리고 Hugging Face의 transformer 라이브러리와 Streamlit을 사용해서 프론트엔드 애플리케이션을 만들었어요.
 
@@ -285,7 +435,18 @@ P.S. Code Llama로부터 제가 받은 농담보다 더 재미있는 농담들�
 
 더 많은 LLM에 관심이 있으시다면, 최근에 공개된 오픈소스 모델에 대한 개요를 확인해보세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 참고 자료
 

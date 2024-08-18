@@ -3,17 +3,13 @@ title: "인공지능의 마법 구슬 신경망이 인플레이션을 예측하�
 description: ""
 coverImage: "/assets/img/2024-06-20-AIsCrystalBallHowNeuralNetworksForecastInflation_0.png"
 date: 2024-06-20 18:18
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-AIsCrystalBallHowNeuralNetworksForecastInflation_0.png
 tag: Tech
 originalTitle: "AI’s Crystal Ball: How Neural Networks Forecast Inflation"
 link: "https://medium.com/@kaabar-sofien/ais-crystal-ball-how-neural-networks-forecast-inflation-e2c1704332fe"
 isUpdated: true
 ---
-
-
-
-
 
 `<img src="/assets/img/2024-06-20-AIsCrystalBallHowNeuralNetworksForecastInflation_0.png" />`
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # LSTM 부트캠프
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떤 것을 이해하는 가장 좋은 방법은 단순하게 생각하는 것입니다. 수학이나 복잡한 그래프가 필요하지 않고 순수한 직관과 논리만 있으면 돼요. 책을 읽고 있다고 상상해봐요. 한 장을 넘겨 다음 장으로 넘어갈 때, 이전 장의 중요한 내용을 기억해야 현재 장을 이해할 수 있어요. 이전 장에서의 정보를 상기시킬 수 있는 능력은 이야기를 따라가는 데 도움을 줍니다. 이제 컴퓨터가 이 책을 어떻게 읽을 수 있을지 생각해봐요.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 LSTMs는 역사를 공부하면서 중요한 사건을 메모할 수 있는 노트북을 가지고 있는 것과 같아요. 언제든 필요할 때 이러한 노트를 다시 참고하여 이전 정보를 상기시킬 수 있습니다. 이 노트북이 바로 LSTM의 기억입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `LSTM`의 기능에 대해 이해해야 할 내용이 대부분입니다. 재미있는 세부사항은 전문가들에게 맡기고, 우리의 목표인 기계 학습 알고리즘을 사용한 인플레이션 예측으로 넘어가 보겠습니다.
 
@@ -43,7 +61,18 @@ LSTMs는 역사를 공부하면서 중요한 사건을 메모할 수 있는 노�
 
 작업 계획은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 필요한 Python 라이브러리 및 미국 세인트루이스 연방준비은행에서 공개한 인플레이션(CPI) 데이터를 가져옵니다.
 - 데이터를 정리하고 훈련 세트와 테스트 세트로 분할합니다.
@@ -106,11 +135,22 @@ def data_preprocessing(data, num_lags, train_test_split):
 
 # 훈련 및 테스트 값을 그래프로 그리는 함수 정의
 # 나머지 코드는 생략합니다.
-``` 
+```
 
 이 코드는 제가 최신 딥러닝 도서에서 가져온 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 플로팅 함수는 다음 차트를 제공해야 합니다:
 
@@ -130,7 +170,18 @@ print('상관관게(예측/테스트) = ', round(np.corrcoef(np.reshape(y_predic
 print('---')
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전 코드의 출력은 다음과 같습니다:
 

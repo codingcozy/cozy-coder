@@ -3,17 +3,13 @@ title: "Mac 앱 창을 정리하는 키보드 단축키"
 description: ""
 coverImage: "/assets/img/2024-06-19-Mackeyboardshortcutsforarrangingappwindows_0.png"
 date: 2024-06-19 08:47
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-Mackeyboardshortcutsforarrangingappwindows_0.png
 tag: Tech
 originalTitle: "Mac keyboard shortcuts for arranging app windows"
 link: "https://medium.com/@mohsen-vaziri/mac-keyboard-shortcuts-for-moving-app-windows-bdff89e2d163"
 isUpdated: true
 ---
-
-
-
-
 
 (이 게시물에 업데이트가 있습니다. 이곳에서 확인할 수 있습니다: 최적의 워크플로우를 위한 Mac 창 단축키 전략 업데이트)
 
@@ -23,8 +19,18 @@ Microsoft Windows는 이동하는 단축키를 기본으로 제공하는 반면,
 
 - 또는 앱의 왼쪽 상단 모서리의 초록 버튼 위로 마우스를 가져 가거나 (추가 옵션을 보려면 ⎇ 키를 누른 채로 가져 가세요)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-19-Mackeyboardshortcutsforarrangingappwindows_0.png)
 
@@ -34,8 +40,18 @@ Microsoft Windows는 이동하는 단축키를 기본으로 제공하는 반면,
 
 and select the option you want, for example:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 화면 왼쪽/오른쪽으로 창 이동
 - 확대
@@ -47,7 +63,18 @@ and select the option you want, for example:
 
 우리는 위에서 언급된 명령어들에 시스템 전반적인 키보드 단축키를 할당할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 단계를 따라서 테이블 태그를 마크다운 형식으로 변경할 수 있어요:
 
@@ -57,26 +84,46 @@ and select the option you want, for example:
 
 3. "+" 버튼을 눌러 새로운 단축키를 만들어보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image1](/assets/img/2024-06-19-Mackeyboardshortcutsforarrangingappwindows_2.png)
 
 4. 대화 상자 안에 세 가지 입력 사항이 있습니다:
 
 - 어플리케이션:
-앱별 단축키 또는 모든 앱에서 사용 가능하도록 원하는 단축키를 추가할 수 있습니다.
+  앱별 단축키 또는 모든 앱에서 사용 가능하도록 원하는 단축키를 추가할 수 있습니다.
 - 메뉴 제목:
-초록색 버튼 위에 마우스를 올리면 나타나는 메뉴 명령의 제목을 입력하세요. 예: 화면 왼쪽으로 창 이동.
-글자 하나하나 정확히 일치해야 합니다.
+  초록색 버튼 위에 마우스를 올리면 나타나는 메뉴 명령의 제목을 입력하세요. 예: 화면 왼쪽으로 창 이동.
+  글자 하나하나 정확히 일치해야 합니다.
 - 키보드 단축키:
-키보드 단축키를 선택하세요. 예: ⌃⌥⌘←
-기존 단축키와 충돌하지 않도록 주의하세요.
+  키보드 단축키를 선택하세요. 예: ⌃⌥⌘←
+  기존 단축키와 충돌하지 않도록 주의하세요.
 
 ![image2](/assets/img/2024-06-19-Mackeyboardshortcutsforarrangingappwindows_3.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 제 바로 가기입니다:
 
@@ -88,10 +135,20 @@ and select the option you want, for example:
 
 - 내장 Retina 디스플레이로 이동: ⌃⌥⇧⌘←
 - C49RG9x로 이동: ⌃⌥⇧⌘→
-C49RG9x는 제 외부 모니터의 이름인데, 여러분의 것은 다를 수 있어요.
+  C49RG9x는 제 외부 모니터의 이름인데, 여러분의 것은 다를 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-06-19-Mackeyboardshortcutsforarrangingappwindows_4.png](/assets/img/2024-06-19-Mackeyboardshortcutsforarrangingappwindows_4.png)
 
@@ -101,7 +158,17 @@ C49RG9x는 제 외부 모니터의 이름인데, 여러분의 것은 다를 수 
 
 더 생산적으로 작업할 수 있기를 바라겠습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 게시물에 업데이트가 있습니다. 확인하시려면 여기를 참조하세요: 업데이트 된 Mac 창 단축키 전략으로 최적의 워크플로우를 설정하기.

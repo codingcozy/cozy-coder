@@ -3,7 +3,7 @@ title: "SwiftUI에서 모듈화된 네비게이션  Enum 기반 접근법"
 description: ""
 coverImage: "/assets/img/2024-07-14-ModularisedNavigationinSwiftUIAnEnum-basedApproach_0.png"
 date: 2024-07-14 00:21
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-14-ModularisedNavigationinSwiftUIAnEnum-basedApproach_0.png
 tag: Tech
 originalTitle: "Modularised Navigation in SwiftUI — An Enum-based Approach"
@@ -11,17 +11,24 @@ link: "https://medium.com/better-programming/modularised-navigation-in-swiftui-a
 isUpdated: true
 ---
 
-
-
-
-
 iOS 16에서, SwiftUI가 새롭게 나타났어! 이제 네비게이션을 완전히 캡슐화할 수 있게 되었어. 이제 더 이상 많은 바인딩을 전달하거나 UI에 직접 NavigationLink를 사용할 필요가 없어졌어.
 
 그러나 항상 새로운 도전이 되어버린 것 중 하나는 모듈화야.
 
 최상의 상황에서는 각 모듈이 독립적으로 기능하고 다른 모듈(동일한 레이어에 있는)에 의존성이 없는 게 최고야.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 가능성은 있지만 항상 한 모듈에서 다른 모듈로 이동해야 하는 필요성이 있습니다.
 
@@ -31,7 +38,18 @@ iOS 16에서, SwiftUI가 새롭게 나타났어! 이제 네비게이션을 완�
 
 앱 (또는 그 일부)은 하나의 라우터 내에 번들로 포장됩니다. 진입점 (App/Root View/TabViews)은 NavigationPathis를 생성하고 보유한 후 NavigationStack에 전달합니다. NavigationPathis는 참조 유형이므로 우리는 그와 동일한 경로를 가진 주 라우터를 만들고 전달할 수 있습니다. 이제 주 라우터가 필요로 하는 것은 몇 가지 뷰를 push하고 pop하는 작업일 뿐입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모듈에 관해서는 각 모듈이 내부 경로를 처리하는 사용자 정의 라우터를 포함하고 있습니다. 이러한 라우터들은 주 라우터에 대한 참조를 받아 초기 NavigationPath를 수정할 수 있도록 합니다.
 
@@ -41,7 +59,18 @@ iOS 16에서, SwiftUI가 새롭게 나타났어! 이제 네비게이션을 완�
 
 마지막으로 모듈 간에 내비게이션하는 방법은 좀 까다롭습니다. 실제로 모듈들이 그렇게 직접적으로 하는 것은 아닙니다. 대신, 내부적으로 이동하는 것처럼 주 라우터에서 동일한 메서드를 호출하지만, 이번에는 다른 enum 값을 전달합니다. 이 enum은 모듈의 종료 지점을 처리합니다. 기술적으로, 구별 및 모듈 간 데이터 전송을 쉽게 하기 위해 관련 값이 다른 여러 종료점이 있을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실제 앱은 모든 모듈에 대한 각 출구 Enum을 view.navigationDestination()를 통해 매핑하고 있습니다. 이번에는 네비게이션이 앱 레벨에서 발생하기 때문에 어떤 모듈이 어느 모듈로 이동하는지 알 수 없어 모듈들이 완전히 독립적입니다.
 
@@ -51,7 +80,18 @@ iOS 16에서, SwiftUI가 새롭게 나타났어! 이제 네비게이션을 완�
 
 ## 앱 레벨
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째로 해야 할 일은 모든 모듈이 상호 작용하는 전역 라우터입니다.
 
@@ -78,7 +118,18 @@ public class AppRouter: ObservableObject {
 
 ## 모듈 레벨
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 메인 라우터를 정의했으니, 이제 모듈로 넘어갈 수 있습니다. 각 모듈마다 자체 라우터가 있지만, 모듈 라우터에 대한 베이스 타입도 있으면 좋겠죠.
 
@@ -122,7 +173,18 @@ class DashboardRouter: ModuleRouter {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리의 주 앱이 모듈의 경로를 결정하는 어떤 결정도 내리지 않도록 하기 위해 view의 확장을 정의합니다. 이 확장은 모듈의 라우트 enum을 특정 대상 뷰로 매핑합니다.
 
@@ -146,8 +208,18 @@ public extension View {
 
 이제 모듈을 설정했으므로, 실제 앱에서 이들의 네비게이션을 바인딩할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 모듈 간 네비게이션
 
@@ -161,21 +233,21 @@ import EvenAnotherModule
 @main
 struct Application: App {
     @ObservedObject var router: AppRouter
-    
+
     init() {
         //실제 앱에서는 DI 컨테이너에서 가져와야 합니다.
         self.router = AppRouter()
     }
-    
+
     var body: some Scene {
         WindowGroup {
             NavigationStack(path: $router.path) {
                 // 다시 말하지만, 실제 앱에서는 DI 컨테이너에서 가져와야 합니다.
-                DashboardView(router: DashboardRouter(with: router)) 
+                DashboardView(router: DashboardRouter(with: router))
                     .withDashboardRoutes()
                     .withOtherModuleRoutes()
                     .withEvenAnotherModuleRoutes()
-                    .navigationDestination(for: DashboardExit.self) { destination in 
+                    .navigationDestination(for: DashboardExit.self) { destination in
                         switch destination {
                             case .logout:
                                 LoginView()
@@ -189,7 +261,18 @@ struct Application: App {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 생각
 
@@ -200,6 +283,17 @@ NavigationStack 및 NavigationPath 덕분에 SwiftUI 네비게이션이 훨씬 �
 - 모듈이 어떻게 `Routing entries that only return some View` - 앱의 뷰를 완전히 숨길 수 있을까요?
 - 이 아키텍처에 sheets 및 모듈을 어떻게 도입할 수 있을까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 읽어 주셔서 감사합니다!

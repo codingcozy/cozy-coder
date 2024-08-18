@@ -3,7 +3,7 @@ title: "차이인차이 101"
 description: ""
 coverImage: "/assets/img/2024-05-27-Difference-in-Difference101_0.png"
 date: 2024-05-27 14:54
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-Difference-in-Difference101_0.png
 tag: Tech
 originalTitle: "Difference-in-Difference 101"
@@ -11,16 +11,24 @@ link: "https://medium.com/towards-data-science/difference-in-difference-101-9424
 isUpdated: true
 ---
 
-
-
-
 차이인차이(DiD 또는 DD 또는 diff-in-diff)는 무엇인가요? 왜 차이인차이에 관심이 있나요? 오늘은 정책 효과를 연구하는 경제학에서 가장 인기 있는 방법 중 하나에 대한 모든 질문에 답할 거예요.
 
 DiD는 처리 그룹과 대조 그룹 간의 시간에 따른 결과 변화를 비교하여 인과 관계를 추정하는 널리 사용되는 경제학 기법입니다. 처리 그룹과 대조 그룹이 무엇인지에 대한 문제가 있어요. 처리는 정책 또는 변경로 인해 특정 그룹에 영향을 미치는 정책 개입을 말해요. 대조는 개입을 받지 않은 그룹을 말해요. 인과 관계란 원인과 결과의 관계를 의미해요.
 
 우리는 이 방법에 관심을 갖는 이유는 무작위 실험이 불가능한 경우에 정책 변경이나 개입의 효과를 평가하는 데 유용하기 때문이에요. 즉, 때때로 실험은 특정 그룹에 집중되므로 처리를 받은 사람들이 무작위가 아니라는 것을 의미해요. DiD는 무작위화 없이도 개입의 영향을 분리하는 데 도움이 될 거예요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사는 개념, 가정, 구현 및 예시 등에 대해 다룰 것입니다.
 
@@ -30,7 +38,18 @@ DiD는 처리 그룹과 대조 그룹 간의 시간에 따른 결과 변화를 �
 
 ![이미지](/assets/img/2024-05-27-Difference-in-Difference101_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 다이어그램을 예로 들어보면 샘플에서 인구 데이터가 있습니다. 여기서는 처리군과 대조군으로 데이터를 나누고 처리군은 개입을 받았습니다. 두 그룹 모두 후기와 전기 변수를 관찰할 수 있습니다.
 
@@ -40,7 +59,18 @@ DiD는 처리 그룹과 대조 그룹 간의 시간에 따른 결과 변화를 �
 
 ![DiD 다이어그램](/assets/img/2024-05-27-Difference-in-Difference101_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 방정식은 치료와 대조 그룹 간의 시간 경과에 따른 결과 변화를 비교하여 치료 효과를 계산할 것입니다.
 
@@ -50,7 +80,18 @@ DiD는 처리 그룹과 대조 그룹 간의 시간에 따른 결과 변화를 �
 
 위에서 언급한 공식을 사용하면 DiD 계수는 9가 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## DiD Estimator: 회귀분석을 사용한 계산
 
@@ -60,7 +101,18 @@ DiD는 처리 효과의 추정을 편향시킬 수 있는 시간 불변 특성�
 
 ![DiD equation](/assets/img/2024-05-27-Difference-in-Difference101_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서:
 
@@ -73,23 +125,43 @@ DiD는 처리 효과의 추정을 편향시킬 수 있는 시간 불변 특성�
 
 # 평행 추세 가정
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 DiD에 대한 주요 가정 중 하나입니다. 이것은 치료가 없을 때 치료 그룹과 대조 그룹 간의 차이가 시간이 지남에 따라 일정하게 유지될 것이라는 생각에 기반을 두고 있습니다. 다시 말해, 치료가 없을 때 β (DiD 추정치)=0입니다.
 
 형식적으로, 이는 다음을 의미합니다:
 
-
-| Time        | Treatment Group | Control Group  | Difference   |
-|-------------|-----------------|----------------|--------------|
-| Before      | Y1              | Y0             | Y1 - Y0      |
-| After       | Y3              | Y2             | Y3 - Y2      |
-| DiD Estimate| (Y1 - Y0) - (Y3 - Y2)                    |
-
+| Time         | Treatment Group       | Control Group | Difference |
+| ------------ | --------------------- | ------------- | ---------- |
+| Before       | Y1                    | Y0            | Y1 - Y0    |
+| After        | Y3                    | Y2            | Y3 - Y2    |
+| DiD Estimate | (Y1 - Y0) - (Y3 - Y2) |
 
 또 다른 관점은 정책 변경이 없었을 때 두 그룹 간의 차이가 정책 변경 없이도 시간이 지남에 따라 동일하게 유지되었을 것이라는 것입니다. 치료 전에 추세가 평행하지 않으면 DiD 추정치가 편향될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 이 가정을 확인하는 방법
 
@@ -99,7 +171,18 @@ DiD에 대한 주요 가정 중 하나입니다. 이것은 치료가 없을 때 
 
 이 가정은 치료가 적용되지 않은 경우 치료 그룹(주황색 선)과 대조 그룹(파란 점선)이 시간이 지남에 따라 평행한 경로를 따를 것이라는 것입니다. 치료(수직 선)는 치료가 적용되는 지점을 나타내며, 치료 전후에 두 그룹 간의 추세 차이를 비교하여 치료 효과를 추정할 수 있게 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 평행 추세 가정을 위반하는 예시
 
@@ -109,8 +192,18 @@ DiD에 대한 주요 가정 중 하나입니다. 이것은 치료가 없을 때 
 
 ![image](/assets/img/2024-05-27-Difference-in-Difference101_7.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-05-27-Difference-in-Difference101_8.png)
 
@@ -120,8 +213,18 @@ DiD = 실제 효과 + 차이 추세 (차이 추세는 0이어야 함)
 
 차이 추세는 양수 (part a) 또는 음수 (part b)일 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 DiD는 우리가 그것에 대한 차별적인 경향을 가지고 있기 때문에 개입의 영향을 분리할 수 없을 것입니다.
 
@@ -131,7 +234,18 @@ DiD는 우리가 그것에 대한 차별적인 경향을 가지고 있기 때문
 
 위의 이미지에서 처리 그룹의 경향이 통제 그룹의 경향과 다르게 변경되어, 개입 없이 일정하게 유지되어야 했던 것과 다릅니다. DiD 연구에서는 점프가 허용되지 않습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Placebo Tests
 
@@ -141,7 +255,18 @@ Placebo 테스트는 관측된 치료 효과가 실제로 치료로 인한 것�
 
 # Extensions and Variations of DiD
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이벤트 스터디 DiD: 연도별 처리 효과를 추정하여 처리 효과의 타이밍을 평가하고 사전 추세를 확인하는 데 유용합니다. 이 모델은 연도별 처리 효과를 다양하게 설정할 수 있습니다. 우리는 t+1, t+2, ..., t+n 시점에서 효과를 연구할 수 있습니다.
 - 합성 대조법(SCM): SCM은 여러 비치료 단위에 가중치를 부여하여 치료 전 특성을 근사하는 합성 대조 그룹을 구성합니다. 이 방법은 단일 처리 단위와 비치료 단위 집단을 비교할 때 특히 유용합니다. 여러 단위의 정보를 결합하여 믿을 수 있는 대조 사실을 제시합니다.
@@ -152,7 +277,18 @@ Placebo 테스트는 관측된 치료 효과가 실제로 치료로 인한 것�
 
 본 글에서는 평균 처리 효과를 추정하는 인기 있는 방법인 Difference-in-Differences (DiD) 추정기법을 분석했습니다. DiD는 처리 및 통제 그룹 간 시간 경과에 따른 변화를 비교함으로써 정책 효과를 연구하는 데 널리 사용됩니다. DiD의 주요 장점은 시간이 지남에 따라 일정하게 유지되는 관측되지 않은 혼입변수를 통제하여 개입의 실제 영향을 분리할 수 있는 능력입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 평행 추세 가정, 전처리 데이터의 중요성, 그리고 시각적 분석과 장소보 테스트를 사용하여 가정 위반을 확인하는 방법과 같은 주요 개념을 탐구했습니다. 게다가, 이원차 차이-DiD의 확장과 변형인 이벤트 스터디 DiD 및 합성 통제 방법에 대해 이야기했는데, 이는 다양한 시나리오에서 추가 통찰력과 견고성을 제공합니다.
 
@@ -162,7 +298,18 @@ Placebo 테스트는 관측된 치료 효과가 실제로 치료로 인한 것�
 
 [2] Callaway, B., & Sant’Anna, P. H. (2021). 다중 시간 기간을 갖는 차이-차이 방법. 계량경제학 잡지, 225(2), 200–230.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [3] Donald, S. G., & Lang, K. (2007). Inference with difference-in-differences and other panel data. The review of Economics and Statistics, 89(2), 221–233.
 

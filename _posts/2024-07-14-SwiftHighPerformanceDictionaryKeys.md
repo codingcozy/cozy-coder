@@ -3,17 +3,13 @@ title: "Swift 고성능 개발 딕셔너리 키 사용법"
 description: ""
 coverImage: "/assets/img/2024-07-14-SwiftHighPerformanceDictionaryKeys_0.png"
 date: 2024-07-14 00:09
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-14-SwiftHighPerformanceDictionaryKeys_0.png
 tag: Tech
 originalTitle: "Swift High Performance: Dictionary Keys"
 link: "https://medium.com/the-swift-cooperative/high-peformance-dictionary-keys-370dd0b525ac"
 isUpdated: true
 ---
-
-
-
-
 
 ![Swift High Performance Dictionary Keys](/assets/img/2024-07-14-SwiftHighPerformanceDictionaryKeys_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 준비되셨나요? 함께 알아보도록 하겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 캐싱
 
@@ -45,7 +52,18 @@ class ItemRepository {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 모두가 이것과 비슷한 변형을 본 적이나 해 본 적이 있습니다.
 
@@ -55,7 +73,18 @@ class ItemRepository {
 
 Swift String은 값 타입이며, 그것은 좋은 것입니다! 우리에게 그렇게 말해 왔으니까요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 In reality, a Swift String has value semantics. It behaves like a value type, but behind the scenes, it’s actually a reference type, with an associated string buffer allocated on the heap.
 
@@ -65,7 +94,18 @@ And it also means that it needs to be deallocated when it goes out of scope.
 
 But it gets worse.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 유니코드
 
@@ -75,8 +115,18 @@ But it gets worse.
 
 스위프트 문서는 문자열의 동일성을 비교하는 것은 항상 유니코드 표준 표현을 사용한다고 말합니다. 고려해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Unicode 스칼라 값 "\u301"은 앞의 문자에 강세를 포함하도록 수정합니다. 따라서 "e\u301"은 단일 Unicode 스칼라 값 "é"와 동일한 정규 형식을 갖습니다.
 
@@ -84,8 +134,18 @@ Unicode 스칼라 값 "\u301"은 앞의 문자에 강세를 포함하도록 수�
 
 간단히 말해서, 문자열 동등성 확인은 간단한 바이트 대 바이트 비교가 아닙니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 오늘은 해싱과 관련된 문제에 대해 알아보겠습니다. cafe1과 cafe2는 동일한 문자열 표현을 가지고 있기 때문에 두 값이 동일한 값으로 해싱됩니다. 문자열을 해싱할 때는 "문자" 단위로 진행되기 때문에 이런 문제가 발생합니다.
 
@@ -93,7 +153,18 @@ Unicode 스칼라 값 "\u301"은 앞의 문자에 강세를 포함하도록 수�
 
 # 딕셔너리 조회
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Tarot 이미지가 있는 모든 것은 사전이 어떻게 내부적으로 작동하는지에 달려 있습니다. 이것은 우리가 조회 속도를 향상시키고 싶다면 이해해야 하는 매우 중요한 사항입니다.
 
@@ -103,7 +174,18 @@ Tarot 이미지가 있는 모든 것은 사전이 어떻게 내부적으로 작�
 
 그러나 해당 위치의 테이블에 항목이 있는 경우 그곳에 저장된 키와 검색 키를 비교하여 일치하는지 확인해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 친구야, 기억해야 할 건, 동일한 키는 동일한 값으로 해싱되어야 하지만 다른 키가 동일한 값으로 해싱될 수도 있다는 거야.
 
@@ -113,7 +195,18 @@ Tarot 이미지가 있는 모든 것은 사전이 어떻게 내부적으로 작�
 
 어쨌든, 더 많은 키 비교가 필요하겠지.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Lessons
 
@@ -123,7 +216,18 @@ It's important to keep in mind that we aim for dictionary lookups in O(1) time. 
 
 In simpler terms, Swift Strings aren't ideal choices as dictionary keys.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그렇다면, 최상의 해시 키는 무엇이 될까요? 여기에는 정수가 떠오르네요. 이는 참조 부담이 없는 단일 값(단어)이며, 쉽고 빠르게 복사, 해싱 및 비교할 수 있습니다.
 
@@ -133,7 +237,18 @@ In simpler terms, Swift Strings aren't ideal choices as dictionary keys.
 
 여기에 Factory가 등장합니다. 이는 저의 GitHub에서 제공되는 컨테이너 기반 의존성 주입 라이브러리입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 팩토리는 각 팩토리 정의에서 계산된 키를 사용하여 팩토리 등록의 변경을 확인하고 사용자가 설정한 옵션을 확인하며 범위 지정/캐시된 인스턴스를 확인합니다.
 
@@ -143,18 +258,29 @@ In simpler terms, Swift Strings aren't ideal choices as dictionary keys.
 
 다음과 같은 팩토리 정의를 고려해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```swift
 extension Container {
-    var myService: Factory<MyServiceType> { 
-        Factory(self) { MyService() }.cached 
+    var myService: Factory<MyServiceType> {
+        Factory(self) { MyService() }.cached
     }
-    var anotherService: Factory<MyServiceType> { 
-        Factory(self) { MyService() }.cached 
+    var anotherService: Factory<MyServiceType> {
+        Factory(self) { MyService() }.cached
     }
-    var simpleService: Factory<SimpleService> { 
-        Factory(self) { SimpleService() } 
+    var simpleService: Factory<SimpleService> {
+        Factory(self) { SimpleService() }
     }
 }
 ```
@@ -165,8 +291,18 @@ extension Container {
 
 쉽습니다. 겉보기에 기본 팩토리의 공개 이니셜 라이저가 여기에 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 이 코드는 제가 보유한 Tarot 구조체를 설명하고 있습니다.
 
@@ -180,7 +316,18 @@ self.key = "\(key)<\(String(reflecting: T.self))>"
 
 저 같은 Tarot 전문가에게 있어서 여러분의 코드는 정말 흥미로워요! 계속하여 즐겁게 코딩해보세요! 이 코드가 여러분에게 행운을 가져다 줄 거라 믿어요. 😉🔮✨
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아무튼, 이 기능은 작동하지만 문자열 보간과 매번 타입 이름을 String 값으로 변환하는 비용이 비싼 String(reflecting:) 연산을 고려하면 속도가 느립니다.
 
@@ -190,7 +337,18 @@ self.key = "\(key)<\(String(reflecting: T.self))>"
 
 우리의 예제는 타입 정보와 키 정보를 모두 가진 단일 값 타입이 필요하며, 최상의 성능을 얻기 위해서 두 가지 모두 자체 값 타입이어야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Well, if we want to combine value types into a single value type we can use as a key, then we're going to need to combine them together in a struct. This means we need something that looks like…
 
@@ -205,9 +363,20 @@ Note the Hashable conformance, which is required for any value that aspires to b
 
 ### Type Information
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-간단한 값에 유형 정보를 저장하는 것은 상대적으로 간단한 작업인 것으로 나타납니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+간단한 값에 유형 정보를 저장하는 것은 상대적으로 간단한 작업인 것으로 나타납니다.
 
 ```swift
 public init(type: Any.Type, key: StaticString) {
@@ -216,11 +385,22 @@ public init(type: Any.Type, key: StaticString) {
 }
 ```
 
-여기서는 Swift의 `ObjectIdentifier`를 사용하여 전달된 유형에 대한 고유 식별자를 얻습니다. 코드를 살펴보면, `ObjectIdentifier`는 _value: Builtin.RawPointer라는 단일 값이 있는 구조체입니다.
+여기서는 Swift의 `ObjectIdentifier`를 사용하여 전달된 유형에 대한 고유 식별자를 얻습니다. 코드를 살펴보면, `ObjectIdentifier`는 \_value: Builtin.RawPointer라는 단일 값이 있는 구조체입니다.
 
 유형 포인터가 처리 포인터나 참조 유형이 아닌 원시 포인터인 경우, 값이 애플리케이션의 수명 동안 유효할 것으로 추론할 수 있습니다(그리고 설명서도 명시합니다).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에서 더 좋은 점은 ObjectIdentifier도 Hashable 및 Equatable을 따르며, 각각에 대한 간단한 구현이 있다.
 
@@ -230,7 +410,18 @@ public init(type: Any.Type, key: StaticString) {
 
 이제 당신이 무엇을 생각하고 있는지 알겠습니다. 우리는 문자열이 나쁘다고 말했는데, 왜 StaticString을 다루고 있을까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 이곳에서 뚜렷한 차이가 있습니다. StaticString은 Strings가 아닙니다. 사실, 다음 내부 구조를 갖는 순수 값 타입입니다.
 
@@ -257,7 +448,18 @@ public struct FactoryKey: Hashable {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 문제가 있어요. StaticString은 Sendable로 표시되어 있지만 Hashable이나 Equatable로 표시되어 있지 않아요. 그럼 우리는 어떻게 해야 할까요?
 
@@ -267,9 +469,20 @@ public struct FactoryKey: Hashable {
 
 내 원래 목표는 단순히 utf8Start를 추출하고 저장하며 비교하는 것이었는데, 몇몇 사람들과 Swift 포럼에서 여러 번 논의한 후에 그 아이디어에 반대하기로 결정했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-먼저, 원래 정의에서 _startPtrOrData를 주목해야 합니다. 그 값은 문자열을 가리킬 수도 있고, 단일 유니코드 스칼라 값일 수도 있습니다. 스칼라일 때 문자열 포인터를 가져오려고 시도하면 충돌이 발생할 수 있습니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+먼저, 원래 정의에서 \_startPtrOrData를 주목해야 합니다. 그 값은 문자열을 가리킬 수도 있고, 단일 유니코드 스칼라 값일 수도 있습니다. 스칼라일 때 문자열 포인터를 가져오려고 시도하면 충돌이 발생할 수 있습니다.
 
 이제, 나는 그것에 대해 너무 걱정하지 않았습니다. 왜냐하면 스칼라 값을 갖는 StaticString을 만들려면 많은 노력을 기울여야 하고, #function 메서드가 그렇게 할 가능성은 낮을 것이라고 생각했기 때문이었습니다. 하지만 그런 일이 일어날 수도 있습니다.
 
@@ -277,7 +490,18 @@ public struct FactoryKey: Hashable {
 
 요컨대 말하자면, Hashable 및 Equatable에 대해 다음과 같은 구현이 만들어졌습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 해시 가능
 
@@ -295,7 +519,18 @@ public struct FactoryKey: Hashable {
 
 제 해시 함수는 키를 해시하지 않고 타입만 해싱해요. 무수한 테스트와 성능 테스트를 거쳐서(나중에 자세히 설명할게요), 키를 해싱하지 않는 것이 더 좋은 성능을 내는 것으로 결정했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미 언급한 바와 같이, 사전 조회는 해시(hash)를 사용한 뒤 동등성(equality)을 확인하며, 비교 중에는 두 문자열을 비교하면서 이동할 것입니다.
 
@@ -305,7 +540,18 @@ public struct FactoryKey: Hashable {
 
 ## Equatable
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```swift
 public struct FactoryKey: Hashable {
@@ -329,8 +575,18 @@ Equal conformance는 약간 복잡하지만 여전히 비교적 간단합니다.
 
 마지막으로 두 문자열 또는 스칼라 값을 비교합니다. 일치하면 키가 일치합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단한 최적화 팁을 하나 드리겠습니다. lhs.key.utf8Start == rhs.key.utf8Start 에서 이미지 태그를 마크다운 형식으로 변경하면 더 효율적입니다.
 
@@ -349,7 +605,18 @@ public func hash(into hasher: inout Hasher) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 I've also experimented with precomputing and storing the hash value in a different version, but it unfortunately didn't improve performance as much as I had hoped.
 
@@ -366,7 +633,18 @@ public let key: KeyType
 
 ## Implementation
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 최종, 완벽한 구현은 이렇게 됩니다.
 
@@ -398,7 +676,18 @@ public struct FactoryKey: Hashable {
 
 성능 향상을 위해 모든 함수에는 @inlineable로 표시되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 정확히 얼마나 빠를까요?
 
@@ -408,19 +697,28 @@ public struct FactoryKey: Hashable {
 
 다음은 결과입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 FactoryKey9 = 0.5267935395240784s - scalar 테스트와 포인터 표현가드를 가진 staticstring
 
 FactoryKey6 = 0.5381311357021332s - scalar 테스트를 가진 staticstring
-FactoryKey5 = 0.559116518497467s  - enum keytype
+FactoryKey5 = 0.559116518497467s - enum keytype
 
 FactoryKey2 = 0.6407256484031677s - 해시 키 문자열을 가진 staticstring과 scalar 테스트
 FactoryKey3 = 0.7152477920055389s - 타입과 키에 대한 해시값 사전 계산을 가진 staticstring과 scalar 테스트
 
-StringKey   = 2.964924430847168s  - 문자열
-
+StringKey = 2.964924430847168s - 문자열
 
 FactoryKey9은 우리가 논의해 온 버전입니다. 버전 5와 6은 백만 개의 키 확인 및 해결 사이에 겨우 소수점 몇 초만 차이가 납니다.
 
@@ -428,8 +726,18 @@ FactoryKey9은 우리가 논의해 온 버전입니다. 버전 5와 6은 백만 
 
 그러나 모든 이러한 메커니즘은 원래 문자열 기반 접근 방식을 사용하는 것보다 4배에서 5배 빠릅니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 완료 블록
 
@@ -439,7 +747,18 @@ FactoryKey9은 우리가 논의해 온 버전입니다. 버전 5와 6은 백만 
 
 이 변경에 대한 많은 동기부여는 WWDC 2016의 'Understanding Swift Performance' 비디오를 다시 보고 난 후 나왔습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미 몇 년이 지났지만, Swift가 값 타입, 참조 타입, 존재론 및 메소드 호출 및 호출 방식을 관리하는 방식에 대해 설명하고 그 배후를 엿볼 수 있는 훌륭한 일을 합니다.
 
@@ -449,7 +768,18 @@ Factory에 대한 주요 변경 코드는 새롭고, 본 글 작성 시 Reposito
 
 정말로요. Medium은 프로모션과 지급 알고리즘을 변경했기 때문에, 좋아요 버튼을 누르고 댓글을 달면 엄청난 차이를 만들어냅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음에 뵙겠습니다.
 

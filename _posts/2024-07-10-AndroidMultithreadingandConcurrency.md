@@ -3,17 +3,13 @@ title: "안드로이드 멀티스레딩과 동시성 쉽게 이해하기"
 description: ""
 coverImage: "/assets/img/2024-07-10-AndroidMultithreadingandConcurrency_0.png"
 date: 2024-07-10 01:08
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-10-AndroidMultithreadingandConcurrency_0.png
 tag: Tech
 originalTitle: "Android Multithreading and Concurrency"
 link: "https://medium.com/@dilip2882/android-multithreading-and-concurrency-c50bd1a1b9e0"
 isUpdated: true
 ---
-
-
-
-
 
 # 소개
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 한 프로세서에서 실행되는 두 쓰레드의 프로세스
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 스레드는 프로세스 내에서 실행 단위의 가장 작은 단위입니다.
 - 안드로이드 애플리케이션은 기본적으로 하나의 프로세스에서 실행되지만 여러 스레드를 가질 수 있습니다.
@@ -37,7 +44,18 @@ isUpdated: true
 - UI 업데이트, 사용자 상호작용 및 뷰 그리기를 처리하는 역할
 - 시간이 많이 걸리는 작업을 수행하지 않아야 UI가 멈추는 것을 방지해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 2. Background Threads
 
@@ -51,7 +69,18 @@ isUpdated: true
 - Designed for executing independent tasks in parallel.
 - Perfect for tasks like image processing and data synchronization.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Handlers and Loopers
 
@@ -63,7 +92,18 @@ isUpdated: true
 - 한 번 실행되고 종료되는 단순한 스레드와 달리, 루퍼는 현재 스레드에서 메시지 루프를 생성합니다.
 - 루퍼는 명시적으로 중지될 때까지 큐에서 메시지를 계속 처리합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한들러(Handler)란 무엇인가?
 
@@ -75,7 +115,18 @@ isUpdated: true
 
 - 루퍼를 준비합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **1. Looper 준비하기:**
 
@@ -89,7 +140,18 @@ isUpdated: true
 
 **3. 루프 실행:**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 메시지 루프를 시작하려면 Looper.loop()을 호출하세요.
 - 루퍼는 순서대로 대기열에 있는 메시지를 처리하며 명시적으로 루프를 종료할 때까지 계속 실행됩니다.
@@ -129,7 +191,18 @@ fun main() {
 
 # AsyncTask
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 역사적으로 안드로이드 개발을 이해하는 데 여전히 유효한 내용이지만 사용은 권장되지 않습니다.
 - UI 스레드에서 백그라운드 작업을 관리하는 것을 간단화합니다.
@@ -144,7 +217,18 @@ fun main() {
 - 구성 변경: AsyncTask는 호출 구성요소(일반적으로 Activity)의 수명주기와 결합되어 있었습니다. 구성 변경(화면 회전과 같은)이 메모리 누수나 예기치 않은 동작을 일으킬 수 있었습니다.
 - 단일 실행: AsyncTask 인스턴스는 한 번만 실행할 수 있었습니다. 다시 실행하려고 하면 예외가 발생합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 에러가 발생된 것 같아요. 에러 해결을 위해 AsyncTask 클래스를 사용하는 방법을 알려드릴게요!
 
@@ -173,7 +257,18 @@ class FactorialAsyncTask(private val inputNumber: Int) : AsyncTask<Void, Void, I
 
 로더는 안드로이드 구성 요소 중 하나로, FragmentActivity 또는 Fragment에서 콘텐츠 제공자나 다른 데이터 원본에서 데이터를로드할 수 있게 해줍니다. 데이터 로드와 관련된 몇 가지 일반적인 문제를 해결해줘요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 또한 사용이 중단되었지만 언급할 가치가 있습니다.
 - 로더는 별도의 스레드에서 실행되어 느린 또는 응답하지 않는 UI를 방지합니다.
@@ -188,7 +283,18 @@ class FactorialAsyncTask(private val inputNumber: Int) : AsyncTask<Void, Void, I
 - LoaderManager: FragmentActivity 또는 Fragment와 관련된 추상 클래스로, 하나 이상의 로더 인스턴스를 관리합니다. 활동 또는 프래그먼트 당 하나의 LoaderManager만 있지만 여러 로더를 관리할 수 있습니다. LoaderManager를 가져오려면 활동 또는 프래그먼트에서 getSupportLoaderManager()을 호출하면 됩니다. 로더에서 데이터를로드 시작하려면 initLoader() 또는 restartLoader()를 사용하십시오. 시스템은 자동으로 동일한 정수 ID를 가진 로더가 이미 있는지 확인하고 새로운 로더를 만들거나 기존 로더를 재사용합니다.
 - LoaderManager.LoaderCallbacks: 활동 또는 프래그먼트에서 로더 이벤트에 관련된 콜백을 받기위해 구현해야 하는 인터페이스입니다. onCreateLoader(), onLoadFinished(), onLoaderReset()와 같은 메소드가 포함됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시:
 
@@ -225,10 +331,21 @@ class MyLoaderActivity : AppCompatActivity(), LoaderManager.LoaderCallbacks<Curs
 
 AsyncTaskLoader는 Loader의 하위 클래스로, 화면 회전과 같은 구성 변경을 처리하면서 백그라운드에서 데이터를 비동기적으로 로드할 수 있게 해줍니다. 특히 콘텐츠 제공자, 데이터베이스 또는 기타 데이터 소스에서 데이터를 로드해야 할 때 유용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-![Example:](https://example.com/image.jpg)  
-  
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+![Example:](https://example.com/image.jpg)
+
 - 커스텀 로더 클래스 작성:
 
 ```kotlin
@@ -238,12 +355,23 @@ class ContactsLoader(context: Context) : AsyncTaskLoader<List<String>>(context) 
         // 연락처 불러오기를 시뮬레이션합니다 (실제 데이터 검색으로 대체)
         return listOf("Alice", "Bob", "Charlie")
     }
-}  
+}
 ```
 
 2. 액티비티나 프래그먼트에서 로더를 초기화하세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 class MainActivity : AppCompatActivity() {
@@ -285,8 +413,18 @@ class MainActivity : AppCompatActivity() {
 
 **ThreadPoolExecutor**
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![ThreadPoolExecutor](/assets/img/2024-07-10-AndroidMultithreadingandConcurrency_1.png)
 
@@ -298,19 +436,28 @@ ThreadPoolExecutor은 Java 동시성 프레임워크의 클래스로, 일꾼 스
 
 전형적인 ThreadPoolExecutor에는 다음과 같은 여러 구성 요소가 포함되어 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작업자 풀 값: ExecutorService = ThreadPoolExecutor(
-    corePoolSize,
-    maximumPoolSize,
-    keepAliveTime,
-    TimeUnit.SECONDS,
-    workQueue,
-    threadFactory,
-    handler
+corePoolSize,
+maximumPoolSize,
+keepAliveTime,
+TimeUnit.SECONDS,
+workQueue,
+threadFactory,
+handler
 )
-
 
 - corePoolSize: 풀 내 스레드의 초기 수. 이러한 스레드는 작업 큐가 비어있지 않은 경우 즉시 생성됩니다.
 - maximumPoolSize: 풀 내 스레드의 최대 수. 이 한계에 도달할 때까지 스레드가 생성됩니다.
@@ -323,8 +470,18 @@ ThreadPoolExecutor은 Java 동시성 프레임워크의 클래스로, 일꾼 스
 
 - 고정 스레드 풀
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 고정 스레드 풀은 일정한 수의 스레드를 유지합니다. 작업이 일정하게 흐를 때 유용하며 대략적으로 동일한 수준에 있을 때 유용합니다.
 
@@ -336,7 +493,18 @@ val workerPool: ExecutorService = Executors.newFixedThreadPool(Runtime.getRuntim
 
 싱글 스레드 풀은 작업을 하나의 스레드에서 순차적으로 실행합니다. 드물거나 성능에 크게 영향을 주지 않는 작업을 병렬로 실행하기에 적합합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 val workerPool: ExecutorService = Executors.newSingleThreadExecutor()
@@ -369,11 +537,22 @@ workerPool.awaitTermination(1, TimeUnit.HOURS)
 println("이미지 다운로드 완료")
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 코루틴
 
-코루틴은 안드로이드에서 동시성 디자인 패턴을 간단하게 만든 코틀린 기능입니다. 
+코루틴은 안드로이드에서 동시성 디자인 패턴을 간단하게 만든 코틀린 기능입니다.
 
 - 안드로이드에서 동시성을 다루는 현대적인 방법
 - 코루틴은 가벼운 스레드로, 비동기 코드를 순차적이고 자연스럽게 작성할 수 있게 해줍니다.
@@ -384,7 +563,18 @@ println("이미지 다운로드 완료")
 
 ## 코루틴 범위
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CoroutineScope를 만드는 가장 간단한 방법은 runBlocking 함수를 사용하는 것입니다. 이 함수는 람다 본문 내의 모든 코루틴이 완료될 때까지 현재 스레드를 차단합니다. 여기 예시가 있습니다:
 
@@ -401,16 +591,25 @@ runBlocking {
 
 CoroutineScope 내에서 새로운 코루틴을 시작하기 위해 launch 함수를 사용합니다. 이 함수는 비동기적으로 실행할 코드가 포함된 람다를 인수로 취합니다. launch 함수는 코루틴의 상태(실행 중, 완료, 취소)에 대한 정보를 제공하고 관리 작업을 할 수 있도록 하는 Job 객체를 반환합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 runBlocking {
-  launch {
-    delay(1000) // Suspends the coroutine for 1 second
-    println("Coroutine finished!")
-  }
+launch {
+delay(1000) // Suspends the coroutine for 1 second
+println("Coroutine finished!")
 }
-
+}
 
 이 예에서 launch 함수는 람다 내부의 코드를 실행하는 새로운 코루틴을 생성합니다. delay 함수는 메시지를 인쇄하기 전에 코루틴을 1초간 일시 정지시킵니다. runBlocking이 사용되었기 때문에 메인 스레드는 코루틴이 완료될 때까지 대기합니다.
 
@@ -418,15 +617,25 @@ runBlocking {
 
 - 이것은 코루틴이 실행될 스레드를 지정합니다. UI 업데이트용 Dispatchers.Main 및 네트워크 호출용 Dispatchers.IO와 같은 내장 디스패처가 쉽게 사용할 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시:
 
 ```kotlin
 // CoroutineScope에 대해 지정하기
 runBlocking(Dispatchers.Default) {
-    
+
 }
 
 // 또는
@@ -438,6 +647,6 @@ runBlocking {
         }
         launch(Dispatchers.Default) {
                 // Default 스레드에서 실행됨
-        }       
+        }
 }
 ```

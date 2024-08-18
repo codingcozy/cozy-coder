@@ -3,17 +3,13 @@ title: "도커는 실제로 어떻게 작동하나요 하드웨이 포괄적인 
 description: ""
 coverImage: "/assets/img/2024-06-19-HowdoesDockerACTUALLYworkTheHardWayAComprehensiveTechnicalDeepDiving_0.png"
 date: 2024-06-19 00:52
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-HowdoesDockerACTUALLYworkTheHardWayAComprehensiveTechnicalDeepDiving_0.png
 tag: Tech
 originalTitle: "How does Docker ACTUALLY work? The Hard Way: A Comprehensive Technical Deep Diving"
 link: "https://medium.com/@furkan.turkal/how-does-docker-actually-work-the-hard-way-a-technical-deep-diving-c5b8ea2f0422"
 isUpdated: true
 ---
-
-
-
-
 
 도커. 컨테이너. 오케스트레이션의 혁명. 산업을 선도하는 PaaS 제품. 빌드, 공유 및 실행. 어떤 앱이든 어디에서든... 그냥 그렇게. “도커는 어떻게 작동할까?”라고 궁금해 해 본 적 있나요? 마법이 아니에요. 재능과 땀 머금은 기술이랍니다.
 
@@ -26,7 +22,18 @@ isUpdated: true
 - “컨테이너”가 정확히 무엇을 의미하는가?
 - “도커”는 실제로 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 본 기사의 목적은 "도커"에 대해 더 많이 배우고 이해하고 싶어하는 개발자들을 위해 고수 수준에서 초보 수준까지 포괄적인 학습 경로를 만드는 것입니다. 대상 독자는 다음을 원하는 분들입니다:
 
@@ -36,11 +43,22 @@ isUpdated: true
 - 전반적인 멘탈 모델 습득하기
 - 전체적인 그림을 보기
 
-4년 전에는 컨테이너에 대해 거의 아무것도 몰랐습니다. 요즘에는 컨테이너 세계에 푹 빠져 있습니다. 4년 간의 지식을 한 자리에 모아 도커에 관심이 있는 모든 분들이 정렬되어 있도록 도와주기로 결심했습니다. 저는 4년 이상 Trendyol에서 컨테이너에 청년했습니다. 
+4년 전에는 컨테이너에 대해 거의 아무것도 몰랐습니다. 요즘에는 컨테이너 세계에 푹 빠져 있습니다. 4년 간의 지식을 한 자리에 모아 도커에 관심이 있는 모든 분들이 정렬되어 있도록 도와주기로 결심했습니다. 저는 4년 이상 Trendyol에서 컨테이너에 청년했습니다.
 
 # 이 기사를 읽는 방법
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사는 조금 길 수 있습니다. 여기에서는 읽는 방법에 대한 안내가 있습니다:
 
@@ -56,7 +74,18 @@ isUpdated: true
 - No-AI: 이 문서에는 GPT 또는 AI로 생성된 내용이 포함되어 있지 않습니다! 커피를 한 잔 들고 즐겁게 읽으세요!
 - 그림: 모든 그림은 저가 Excalidraw에서 직접 그린 것이며, 모든 권리를 보유합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 개요
 
@@ -66,7 +95,18 @@ isUpdated: true
 
 객관적으로 양적으로 측정하기 어려우며 주관적 해석에 크게 개방되어 있지만, 원숭이처럼 문서를 뛰어넘는 것보다 더 유익한 것은 전체 코드베이스를 이해하는 것입니다. 우리가 엔지니어로써 미래를 구축하려는 길에 있다면, 우리가 사용하는 기술이 어떻게 만들어졌는지 알아야 한다고 생각합니다. 누가 만들었는지. 어디에서. 어떻게. 그래서 어떠한 것이든 깊게 파고들어야 하는데, 아무데서나 어디서든지요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컨테이너 세계에 심취해본 적이 없어요. 여기서 중요한 점은 교육적인 목적으로 무언가를 할 수 있는 능력을 갖추는 것이며, 전체 아키텍처를 이해하고 모든 다양한 맥락을 하나의 장소에 편하게 정리하는 것입니다! 함께, 우리는 이를 하는 법을 배우게 될 거예요. 게다가, 이 편지를 쓰며 가치 있는 정보를 배울 수 있을 거예요. 게다가, 이는 기여할 수 있는 좋은 기회가 될 수 있어요. 커뮤니티에서 새로운 사람들을 만나고, 뒷담화를 듣는 분들, 건축가들, 의사 결정을 내리는 사람들도 만날 수 있는 기회일 거예요!
 
@@ -76,7 +116,18 @@ isUpdated: true
 
 컨테이너는 오늘날 인프라에서 언어를 제공하는 정말 유용한 존재가 되었어요. 다양한 환경의 복잡성을 초월하며 매끄러운 배포와 확장성을 제공하는 보편적인 언어를 제공하죠. 가벼우면서도 모듈식 디자인 덕분에 컨테이너는 응용 프로그램과 그 의존성을 캡슐화하여 다양한 플랫폼 간의 일관성과 이식성을 보장합니다. 컨테이너의 채택은 계속해서 급격히 증가하며 오늘날의 동적이고 빠른 기술적 환경에서 응용 프로그램이 개발되고 배포되고 관리되는 방식을 재정의하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 애플리케이션을 개발, 배포 및 실행하는 방식을 혁신한 솔루션 중 하나가 Docker입니다. 소프트웨어를 컨테이너라고 불리는 자체 포함 단위로 패키징할 수 있는 능력으로, Docker는 소프트웨어 개발 및 배포의 세계를 변화시켰습니다.
 
@@ -86,7 +137,18 @@ Docker가 부상하는 원동력과 개발자, 운영팀 및 모든 크기의 �
 
 Docker는 컨테이너 내부에서 애플리케이션을 개발, 배포 및 실행하기 위한 오픈 플랫폼입니다. Docker는 컨테이너화 기술을 활용하여 애플리케이션을 생성, 배포 및 실행하는 프로세스를 간소화합니다. Docker를 사용하면 애플리케이션을 인프라에서 분리하여 소프트웨어를 신속하게 전달할 수 있습니다. Docker를 통해 인프라와 애플리케이션을 동일한 방식으로 관리할 수 있습니다. Docker는 기저 인프라를 추상화하고 소프트웨어를 패키징하고 배포하는 표준화된 방법을 제공합니다. Docker의 배포, 테스트 및 코드 신속 배포 방법을 활용하여 코드 작성과 프로덕션에서 실행 간의 지연을 크게 줄일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2.1. 컨테이너의 부상
 
@@ -96,7 +158,18 @@ Docker는 컨테이너 내부에서 애플리케이션을 개발, 배포 및 실
 
 마이크로서비스에는 긍정적인 측면이 있지만, 작은 서비스의 수가 더 많아지면서 업무량이 증가하고 이를 하나의 소프트웨어처럼 제어하고 병합하기가 어려워집니다. 이를 원활하게 운영하고 하드웨어 비용을 절감하는 것이 훨씬 어려워집니다. 그 때, 운영팀의 임무는 인간의 실수나 실패를 방지하고 확장 가능한 소프트웨어를 개발하기 위해 자동화를 극대화하는 것입니다. [17]
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2.2. 컨테이너 대 가상 머신
 
@@ -106,19 +179,39 @@ Docker는 컨테이너 내부에서 애플리케이션을 개발, 배포 및 실
 
 리눅스 컨테이너 기술은 각 서비스에 대해 별도의 환경을 준비하지 않고도 개발자들이 동일한 기계에서 여러 마이크로서비스를 실행할 수 있게 한다. 또한 컨테이너를 사용하여 서로를 격리시킬 수 있다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "Learning Containers From The Bottom Up" 기사를 읽어보세요. 그 기사는 컨테이너 학습 경로를 제시합니다.
 
-
 ![2024-06-19-HowdoesDockerACTUALLYworkTheHardWayAComprehensiveTechnicalDeepDiving_1](/assets/img/2024-06-19-HowdoesDockerACTUALLYworkTheHardWayAComprehensiveTechnicalDeepDiving_1.png)
-
 
 ## 3. Docker 아키텍처
 
 도커 아키텍처는 클라이언트-서버 모델로, 컨테이너화된 응용 프로그램의 생성, 배포, 및 배포를 가능하게 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3.1. 고수준 아키텍처
 
@@ -131,7 +224,18 @@ Docker는 컨테이너 내부에서 애플리케이션을 개발, 배포 및 실
 - 도커 데스크톱: 맥, 윈도우 또는 리눅스 환경에 쉽게 설치할 수 있는 응용 프로그램으로, 컨테이너화된 애플리케이션 및 마이크로서비스를 빌드하고 공유할 수 있습니다. Docker Extensions를 사용하면 제3자 도구를 Docker 데스크톱 내에서 확장하여 기능을 추가할 수 있습니다.
 - 도커 레지스트리: 컨테이너 이미지를 저장하는 레지스트리입니다. Docker Hub는 누구나 사용할 수 있는 공개 레지스트리이며, Docker는 기본적으로 Docker Hub에서 이미지를 찾도록 설정되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3.2. Low-level Architecture
 
@@ -146,7 +250,18 @@ Docker는 컨테이너 내부에서 애플리케이션을 개발, 배포 및 실
 - 컨테이너가 시작되면 containerd의 일부인 shim (runtime v2) API가 containerd와 OCI 런타임 사이에 중개자 역할을 합니다.
 - OCI 런타임은 컨테이너의 네임스페이스, 제어 그룹(cgroups), 기능 및 컨테이너화에 필요한 기타 설정을 설정하는 역할을 담당합니다. Linux 커널의 능력을 활용하여 리소스를 격리하고 제어하며 보안을 강화하고 컨테이너의 동작을 관리합니다. 프로세스에 대한 고도로 세분화된 리소스 할당 및 제어를 가능케 하는 Linux 커널 기능인 Cgroups은 컨테이너에 권한을 부여하여 권한과 시스템 자원에 대한 액세스를 정의하는 Linux 커널 내에서 권한을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Docker CLI
 
@@ -156,7 +271,18 @@ Docker CLI 도구는 dockerd 데몬과 상호 작용하는 데 사용되는 명�
 
 ![이미지](/assets/img/2024-06-19-HowdoesDockerACTUALLYworkTheHardWayAComprehensiveTechnicalDeepDiving_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 도커 레지스트리
 
@@ -166,7 +292,18 @@ OpenRegistry와 같이 분산된 레지스트리도 있습니다. 몇 달 전에
 
 레지스트리 API와 상호 작용할 수 있는 다양한 도구가 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 크레인: 원격 이미지 및 레지스트리와 상호 작용하는 도구입니다.
 - 스코페오: 컨테이너 이미지 및 이미지 저장소에서 다양한 작업을 수행하는 명령 줄 유틸리티입니다.
@@ -178,7 +315,18 @@ BuildKit은 동시성, 캐시 효율성, Dockerfile에 독립적인 빌더 툴�
 
 BuildKit을 통합함으로써 사용자는 성능, 저장 공간 관리, 기능 기능성 및 보안 측면에서 개선을 볼 수 있어야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 BuildKit 빌드를 활성화하려면 클라이언트 측에서 $ docker build를 호출할 때 DOCKER_BUILDKIT=1 환경 플래그를 전달하거나 /etc/docker/daemon.json 파일에서 '“features”: ' “buildkit”: true '를 설정한 후 데몬을 다시 시작하면 됩니다. 현재 리눅스 컨테이너 빌드만 지원됩니다.
 
@@ -188,7 +336,18 @@ BuildKit은 여러 플랫폼용 빌드에서 잘 작동하도록 설계되었으
 
 BuildKit은 실행하는 빌드에 대한 SLSA Provenance의 생성을 지원합니다. BuildKit이 생성하는 provenance 형식은 SLSA Provenance 형식에 의해 정의됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Buildx
 
@@ -200,7 +359,18 @@ BuildKit은 실행하는 빌드에 대한 SLSA Provenance의 생성을 지원합
 docker buildx build --platform <platform1>,<platform2>,... --tag <이미지_이름> --file <Dockerfile> .
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컨테이너 이미지를 만드는 대안 방법
 
@@ -210,7 +380,18 @@ docker buildx build --platform <platform1>,<platform2>,... --tag <이미지_이�
 
 GitLab CI/CD 파이프라인에서 ko를 사용하고 싶으신가요? 아주 간단합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 $ KO_DEFAULTBASEIMAGE: gcr.io/distroless/static:nonroot
@@ -240,7 +421,18 @@ $ ko apply -B --bare -f your_deployment.yaml
 - earthly
 - bazelbuild (rules_docker)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보너스: 도커를 사용하지 않고 go-containerregistry 모듈을 사용하여 레이어 및 이미지 매니페스트를 프로그래밍 방식으로 작성하여 OCI 컨테이너 이미지를 작성하는 데 관심이 있다면 @ahmetb의 블로그 포스트를 확인해보세요.
 
@@ -250,7 +442,18 @@ Kubernetes (K8s)에 대해 들어봤나요? 아니라면 괜찮아요. 이 기�
 
 Kubernetes에는 "kubelet"이라는 구성 요소가 있습니다. 이는 Kubernetes 클러스터의 모든 노드(물리적인 머신)에서 실행되는 에이전트입니다. 컨테이너 런타임은 현대적인 컨테이너화된 아키텍처의 기본 구성 요소입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컨테이너 런타임 인터페이스(CRI)를 통해 Kubernetes는 CRI 규격을 준수하는 런타임을 사용할 수 있습니다. 모든 도커 이미지는 모든 컨테이너 런타임에서 실행할 수 있습니다.
 
@@ -267,7 +470,18 @@ Kubernetes에는 "kubelet"이라는 구성 요소가 있습니다. 이는 Kubern
 
 dockershim
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도커셈은 도커를 위한 CRI 지원을 구현합니다. 과거에 쿠버네티스에는 도커셈이라 불리는 브릿지가 포함되어 있었는데, 이는 도커가 CRI와 함께 작동할 수 있도록 했습니다. v1.20부터 도커셈은 더 이상 유지되지 않을 것이며, 이는 쿠버네티스에서 도커가 더 이상 지원되지 않는다는 것을 의미합니다. 현재 쿠버네티스는 앞으로의 버전(아마도 v1.22)에서 도커에 대한 지원을 완전히 제거할 계획입니다.
 
@@ -277,7 +491,18 @@ dockershim
 
 컨테이너드는 개발자나 최종 사용자가 직접 사용하는 대신, 더 큰 시스템에 임베드된 형태로 설계되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 containerd는 Docker 데몬에서 사용하도록 설계되었으며, 컨테이너 런타임을 새 프로젝트로 분리했습니다.
 
@@ -287,15 +512,37 @@ containerd에 의해 컨테이너가 직접 스케줄링되므로 Docker에서 �
 
 crictl
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-컨테이너 런타임 명령줄 인터페이스(CLI)는 시스템 및 응용 프로그램 문제 해결에 유용한 도구입니다. 컨테이너드 및 모든 다른 CRI 호환 컨테이너 런타임을 위해, 예를 들어 dockershim인 경우, 도커 CLI 대신 사용할 수 있는 대체 CLI로 crictl을 권장합니다. crictl은 모든 CRI 호환 컨테이너 런타임에서 일관되게 작동합니다. crictl은 사용자에게 더 나은 전환 경험을 제공하기 위해 도커 CLI와 유사하게 디자인되었지만 정확히 동일하지는 않습니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+컨테이너 런타임 명령줄 인터페이스(CLI)는 시스템 및 응용 프로그램 문제 해결에 유용한 도구입니다. 컨테이너드 및 모든 다른 CRI 호환 컨테이너 런타임을 위해, 예를 들어 dockershim인 경우, 도커 CLI 대신 사용할 수 있는 대체 CLI로 crictl을 권장합니다. crictl은 모든 CRI 호환 컨테이너 런타임에서 일관되게 작동합니다. crictl은 사용자에게 더 나은 전환 경험을 제공하기 위해 도커 CLI와 유사하게 디자인되었지만 정확히 동일하지는 않습니다.
 
 많은 명령어는 이름까지 직접 매핑됩니다. 출력 형식도 유사합니다. 일부 실험적인 도커 명령어는 아직 매핑되지 않았습니다.
 
 crictl의 범위는 문제 해결에 제한되어 있으며, 도커 CLI를 대체하는 것은 아닙니다. 도커의 CLI는 다양한 명령어 세트를 제공하여 매우 유용한 개발 도구인 반면, crictl은 노드 문제 해결에 충분한 명령어만을 제공합니다. 이는 생산 노드에서 사용하기에 더 안전할 것으로 생각됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 nerdctl (contaiNERD CTL)는 containerd를 위한 Docker 호환 CLI로, compose, rootless, lazy pulling (eStargz), OCIcrypt, P2P 이미지 배포 (IPFS), 이미지 서명 및 검증 지원이 포함되어 있습니다...
 
@@ -305,22 +552,33 @@ ctr
 
 containerd 명령 줄 클라이언트는 ctr입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 컨테이너 이미지를 가져오기:
-`$ ctr images pull nginx:latest`
+  `$ ctr images pull nginx:latest`
 
 - 보유한 이미지 목록 표시:
-`$ ctr images list`
+  `$ ctr images list`
 
 - 이미지를 기반으로 컨테이너 실행:
-`$ ctr container create nginx:latest nginx`
+  `$ ctr container create nginx:latest nginx`
 
 - 실행 중인 컨테이너 목록 표시:
-`$ ctr container list`
+  `$ ctr container list`
 
 - 컨테이너를 중지:
-`$ ctr container delete nginx`
+  `$ ctr container delete nginx`
 
 hands-on 경험으로 ctr에 대해 더 알아보세요!
 
@@ -328,7 +586,18 @@ hands-on 경험으로 ctr에 대해 더 알아보세요!
 
 containerd에 대해 더 알고 싶다면, /docs 폴더로 이동하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ✨ 이미지 첨부:
 
@@ -340,7 +609,18 @@ containerd에 대해 더 알고 싶다면, /docs 폴더로 이동하세요.
 
 **플러그인**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 containerd는 사용자 지정 런타임, 스냅샷터, 콘텐츠 스토어 및 gRPC와 같이 정의된 인터페이스를 사용하여 기능을 확장할 수 있습니다.
 
@@ -361,7 +641,18 @@ io.containerd.differ.v1         walking           linux/amd64 ok
 
 위 출력에서 모든 플러그인과 로드하지 못한 플러그인을 확인할 수 있습니다. 특정 플러그인에 대한 자세한 정보를 얻으려면 다음 명령을 사용하십시오: $ ctr plugins ls -d id==aufs id==zfs
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 containerd는 서버에서 모든 플러그인을 가져오기 위해 Introspectation Service를 호출합니다. 서비스 서버의 초기화 중에 LoadPlugins() 함수를 통해 모든 플러그인이 설정됩니다. Overlayfs 플러그인 등록이 작동하는 예시를 찾을 수 있습니다.
 
@@ -371,7 +662,18 @@ ttrpc
 
 ttrpc 클라이언트를 초기화하고 싶으신가요? 이렇게 하면 됩니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 conn, err := dialer.ContextDialer(context.TODO(), timeout)
@@ -384,11 +686,22 @@ client := ttrpc.NewClient(conn)
 
 연속성을 사용하여 AtomicWriteFile()를 호출하는 간단한 예제가 여기 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // AtomicWriteFile은 먼저 임시 파일에 데이터를 쓰고 rename을 호출하여 파일에 원자적으로 쓰는 함수입니다.
-continuity.AtomicWriteFile(filename, bytes, 0666)
+continuity.AtomicWriteFile(filename, bytes, 0666);
 ```
 
 # 컴포넌트 깊은 탐구
@@ -397,7 +710,18 @@ continuity.AtomicWriteFile(filename, bytes, 0666)
 
 ## 컨테이너 이미지
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컨테이너 이미지가 무엇인지, Docker가 이미지를 빌드하고 저장하는 방식, 이러한 이미지가 컨테이너에서 어떻게 사용되는지를 알아야 합니다.
 
@@ -407,7 +731,18 @@ continuity.AtomicWriteFile(filename, bytes, 0666)
 
 컨테이너 이미지는 클래스/객체 개념과 약간 유사합니다. 이미지는 클래스 또는 템플릿과 같으며 해당 템플릿의 인스턴스를 여러 개 생성할 수 있으며 OCI Runtime Specification이 있습니다. 이는 표준 컨테이너의 정의입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컨테이너 이미지는 오픈 표준을 사용하며 태그가 지정될 수도 있고 되지 않을 수도 있어서 진정한 식별자를 통해서만 검색될 수 있습니다.
 
@@ -417,7 +752,18 @@ continuity.AtomicWriteFile(filename, bytes, 0666)
 
 저장소
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `containers/storage`는 Go 라이브러리로, 레이어, 이미지 및 컨테이너를 저장하고 관리하기 위한 메서드를 제공하는 것을 목표로 합니다.
 
@@ -427,7 +773,18 @@ Dockerfile
 
 기본적으로 텍스트 파일에서 환경을 나타냅니다. 우리는 FROM으로 구성하려는 원하는 것들을 실행할 수 있습니다. Dockerfile은 최종적으로 우리가 컨테이너를 생성하는 데 사용할 수 있는 컨테이너 이미지를 만듭니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도커 이니셜라이즈 명령어로 새로운 도커 파일을 쉽게 만들 수 있어요.
 
@@ -437,7 +794,18 @@ Dockerfile
 
 레이어는 Copy-on-Write(CoW) 파일 시스템입니다. 각 레이어는 이전 레이어와의 차이점 집합입니다. 어떤 레이어든 서로 쌓을 수 있어요. 파일을 추가하거나 제거하면 새로운 레이어가 생성돼요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지는 여러 개의 레이어로 구성됩니다. 각 레이어는 Dockerfile에서의 한 명령을 나타냅니다. 여러 이미지가 동일한 레이어를 참조할 수 있습니다. 매우 마지막 레이어를 제외한 각 레이어는 읽기 전용입니다. 이미지는 상태를 저장하지 않습니다.
 
@@ -447,7 +815,18 @@ Dockerfile
 
 레이어들은 내부적으로 이미지와 유사하게 저장됩니다. 각 레이어는 /var/lib/docker/`driver`/layerdb/`algorithm`에 별도의 디렉토리를 갖습니다. Docker는 모든 캐시를 /var/lib/docker/`driver`에 저장하며, 여기서 `driver`는 다시 저장 드라이버 overlay2를 가리킵니다. 자세한 내용은 여기를 참조하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 $ docker ps -s 명령을 사용하여 실행 중인 컨테이너의 크기를 확인할 수 있습니다.
 
@@ -463,7 +842,18 @@ func main() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 명령을 실행하여 이미지를 빌드하세요:
 
@@ -475,7 +865,18 @@ $ docker image build --tag minimal .
 
 도커 매니페스트
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도커 Manifest는 이미지를 설명하고 태그, 이미지의 원본을 확인하기 위한 디지턼 서명, 그리고 문서와 같은 메타데이터를 제공하는 JSON 형식의 파일입니다. Manifest는 컨테이너 런타임에서 사용하기 위해 만들어졌습니다.
 
@@ -485,13 +886,35 @@ Manifest Lists(또는 “fat manifest”)는 v2.2 이미지 명세서에서 정�
 
 더 깊이 이해하고 싶다면, dive 도구를 사용하여 컨테이너 이미지를 살펴볼 수 있습니다. $ dive minimal 명령을 실행하여 이미지에 대한 다음 정보를 얻을 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지의 총 크기가 316MB인 것은 golang:1.17.3-alpine3.14 이미지의 불필요한 종속성 때문입니다. 이미지를 최적화하기 위해 다중 단계 빌드를 사용할 수 있습니다.
 
 여기서 scratch를 사용하고 있음을 주목해 주세요. FROM scratch는 Dockerfile에서 no-op이며 이미지에 추가적인 레이어를 만들지 않습니다. Docker에서 가장 작은 가능한 이미지이며 비어 있습니다 (폴더나 파일이 포함되어 있지 않음) 이미지를 빌드하기 위한 시작점입니다. scratch 이미지를 가져오거나 실행하거나 이름을 달아 다른 이미지에 태그를 붙일 수 없습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다이브 도구를 다시 실행하여 새 이미지 크기를 확인해보세요. 이제 1.2MB입니다!
 
@@ -501,7 +924,18 @@ Drawbacks of Container Images
 
 Security
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컨테이너 보안은 컨테이너 세계에서 중요한 역할을 합니다. IT 조직들은 사기성 이미지를 모니터링하고, 개발자들에게 최상의 실행 방법을 가르쳐야 합니다. 이미지에 대한 엔터프라이즈 강화를 원하신다면 Docker CIS 보안 기준을 확인해보세요. 보안을 위해 컨테이너 이미지를 분석하고 최상의 실행 방법 이미지를 만들기 위해 dockle, hadolint 등과 같은 도구를 사용할 수 있습니다.
 
@@ -511,7 +945,18 @@ Security
 
 컨테이너 이미지의 보안 취약점을 찾기 위해서는 정의된 패키지와 의존성을 분석하고, 알려진 보안 취약점을 확인해야 합니다. Aqua Security의 Trivy와 Quay의 Clair과 같은 스캐너는 최신 vuln-list를 사용하고 적극적으로 개발 중이므로 훌륭한 선택입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도커 스카우트는 이미지 내용을 분석하고 감지된 패키지와 취약점에 대한 자세한 보고서를 생성합니다. 또한 이미지 분석에서 발견된 문제를 해결하는 방법에 대한 제안도 제공할 수 있습니다.
 
@@ -521,7 +966,18 @@ Security
 
 저장 요구량
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지는 컨테이너 레지스트리에 저장됩니다. 컨테이너 레지스트리는 Open Container Initiative (OCI) 규격을 준수하는 레지스트리입니다. 개발자로서 컨테이너 이미지를 저장, 공유 및 관리하기 쉽게 만들어줍니다. 컨테이너 레지스트리는 사실상 "Tarballs As A Service"입니다.
 
@@ -531,7 +987,18 @@ Security
 
 컨테이너 이미지를 다운로드 크기를 줄이고 속도를 높이기 위해 eStargz를 사용하여 게으른 다운로드를 할 수 있습니다. (여기에 깊이 파헤친 노트가 있습니다.)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가비지 수집은 컨테이너 자원을 효율적으로 관리하는 중요한 측면이며, containerd에는 사용되지 않는 리소스를 회수하기 위한 가비지 수집 메커니즘이 포함되어 있습니다.
 
@@ -539,7 +1006,18 @@ Security
 
 결국, 우리는 왜 컨테이너 레지스트리에서 레이어 암호화를 지원하지 않을까 생각했고, Harbor 레지스트리를 위한 제안서를 작성하기로 결정했습니다! SBOM 지원을 위해 다른 제안서를 제출했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 서명
 
@@ -549,7 +1027,18 @@ Linux Foundation, BastionZero 및 Docker가 최근 발표한 OpenPubkey 프로�
 
 cosign, rekor, fulcio 및 gitsign에 대해 더 알아보세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Software 구성품 목록
 
@@ -559,7 +1048,18 @@ Anchore의 syft 도구를 사용하여 컨테이너 이미지의 SBOM을 쉽게 
 
 실험적인 docker sbom 명령을 사용하여 컨테이너 이미지의 SBOM을 생성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 컨테이너
 
@@ -569,7 +1069,18 @@ Anchore의 syft 도구를 사용하여 컨테이너 이미지의 SBOM을 쉽게 
 
 컨테이너를 사용하면 모든 종속성이 포함됩니다. 커널 상위에 필요한 것들이 모두 컨테이너 내에 패키지화되어 있습니다. 컨테이너는 호스트의 커널을 공유합니다. 컨테이너 내에서는 호스트의 전체 파일 시스템을 볼 수 없으며, 대신 루트 디렉토리가 만들어진 컨테이너에 맞게 변경됩니다. 컨테이너를 OS에서 실행할 때, 실제로는 아무 것도 설치하지 않습니다. 컨테이너는 OS 위에 위치하고 자체의 세계에서 실행됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 멋진 참고 자료: 컨테이너는 리눅스 프로세스가 아닙니다!
 
@@ -579,7 +1090,18 @@ Anchore의 syft 도구를 사용하여 컨테이너 이미지의 SBOM을 쉽게 
 
 리눅스 네임스페이스는 파일 시스템, 사용자 관리, 마운트된 장치, 프로세스, 네트워크를 포함한 다양한 추상화를 위해 존재합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Namespace는 6 + 1단계에서 컨테이너가 격리를 가지도록 합니다. 각 네임스페이스의 목적은 특정 전역 시스템 자원을 추상화하여 네임스페이스 내 프로세스들이 전역 자원의 격리된 인스턴스를 갖는 것처럼 보이게 하는 것입니다.
 
@@ -589,7 +1111,18 @@ Namespace는 6 + 1단계에서 컨테이너가 격리를 가지도록 합니다.
 
 PID: (프로세스 ID): [CLONE_NEWPID]: 프로세스 ID를 격리하여 각 컨테이너가 자체 init을 갖도록 합니다. 프로세스는 네임스페이스 내부와 호스트 시스템 외부에서 두 개의 PID를 갖습니다. Docker 컨테이너 내에서 Init 시스템을 확인하세요. - @BeNitinAgarwal
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 UTS(UNIX 시간 공유 시스템): [CLONE_NEWUTS]: 호스트 이름 (uname() 시스템 콜)과 네트워크 정보 서비스 (NIS) 도메인 이름을 격리합니다.
 
@@ -599,7 +1132,18 @@ MNT(마운트): [CLONE_NEWNS]: 파일 시스템 마운트 지점을 격리합니
 
 IPC(프로세스 간 통신): [CLONE_NEWIPC]: 시스템 V IPC 객체 및 POSIX 메시지 큐를 격리합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시간 네임스페이스에 대해 논의가 있었습니다.
 
@@ -612,7 +1156,18 @@ IPC(프로세스 간 통신): [CLONE_NEWIPC]: 시스템 V IPC 객체 및 POSIX �
 
 프로세스를 네임스페이스에 넣음으로써 해당 프로세스에 표시되는 리소스를 제한할 수 있습니다. 네임스페이스의 기원은 Plan 9로 거슬러 올라갑니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 네임스페이스 개념은 리소스 관리와 우선 순위 설정을 적용하기 위해 cgroups의 도움으로 확장되었습니다: Linux 컨테이너는 제한된 리소스(예: 메모리, CPU, I/O, 네트워크 등)를 사용하도록 제어 그룹(cgroups)을 활용합니다. 이를 통해 컨테이너가 호스트 리소스를 모두 소비하는 것을 방지할 수 있습니다. 따라서 적절히 조정된 cgroups가 보안 관점에서 중요합니다.
 
@@ -622,7 +1177,18 @@ Cgroups를 사용하면 격리의 특정 정도를 적용하고 프로세스가 
 
 Cgroup은 CPU 및 메모리 사용량을 제한하는 것뿐만 아니라 /dev/sda1과 같은 장치 파일에 대한 액세스를 제한합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로세스 그룹 내에서 허용된 총 프로세스 수를 제한하려면 pid라는 제어 그룹이 있습니다. 이는 포크 폭탄의 효과를 방지할 수 있습니다.
 
@@ -633,7 +1199,18 @@ Cgroup은 CPU 및 메모리 사용량을 제한하는 것뿐만 아니라 /dev/s
 
 Linux 커널의 사용자 네임스페이스(UserNS)를 사용하여 가짜 권한을 에뮬레이션하는 루트리스 컨테이너가 생성됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Rootless containers는 권한이 없는 사용자가 컨테이너를 생성, 실행 및 관리할 수 있는 능력을 의미합니다. 권한이 없는 사용자는 관리자 권한이 없고 추가 권한을 요청할 수도 없습니다. 권한이 없는 사용자는 컨테이너가 실행될 사용자 및 그룹 범위를 관리합니다.
 
@@ -644,7 +1221,18 @@ Rootless containers는 권한이 없는 사용자가 컨테이너를 생성, 실
 - rootless-containers/slirp4netns: 루트리스 네트워크 네임스페이스에 대한 사용자 모드 네트워킹("slirp")을 제공하여 네트워크 생성/상호 작용을 제한합니다.
 - containers/fuse-overlayfs: rootless 컨테이너용 FUSE에서 overlay+shiftfs의 구현: 루트 파일 시스템 및 사용자 ID, 그룹 ID 처리를 상호 작용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도커와 다른 컨테이너 엔진은 가능한 컨테이너 탈출 공격으로부터 호스트의 실제 루트를 보호하기 위해 RootlessKit을 사용합니다.
 
@@ -654,7 +1242,18 @@ Rootless containers는 권한이 없는 사용자가 컨테이너를 생성, 실
 
 리눅스 네임스페이스는 2002년 2.4.19 커널에서 원본이 되었습니다! 2006년부터 시작되어 미래에 이르기까지 추가 네임스페이스가 계속해서 추가되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 적절한 컨테이너 지원 기능은 사용자 네임스페이스의 도입을 통해 커널 버전 3.8에서 완료되었습니다.
 
@@ -664,7 +1263,18 @@ Rootless containers는 권한이 없는 사용자가 컨테이너를 생성, 실
 
 커널의 인터페이스는 저수준 추상화 계층입니다. 프로세스가 커널에 서비스를 요청할 때는 일반적으로 래퍼 함수를 통해 시스템 호출을 호출해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도커 커널 모듈
 
@@ -674,7 +1284,18 @@ overlay2 스토리지 드라이버는 여러 레이어의 컨테이너 이미지
 
 모듈 overlay 경로를 확인하려면: $ modprobe overlay. 모듈 폴더는 /lib/modules/5.11.0–38-generic와 같은 위치에 저장됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 오픈 컨테이너 이니셔티브
 
@@ -684,7 +1305,18 @@ OCI는 현재 두 가지 명세를 포함하고 있습니다: 런타임 명세(r
 
 OCI Slack 채널에 가입하여 최신 정보를 받아보세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## OCI Runtime Spec
 
@@ -696,9 +1328,20 @@ OCI Slack 채널에 가입하여 최신 정보를 받아보세요!
 - state-schema.json — 상태 JSON 스키마의 주요 진입점
 - defs.json — 일반 유형에 대한 정의
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-실행 환경은 컨테이너 내에서 실행되는 응용 프로그램이 런타임 중에 일관된 환경을 갖도록 지정되었으며, 컨테이너의 라이프사이클을 정의하는 공통 작업이 포함되어 있습니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+실행 환경은 컨테이너 내에서 실행되는 응용 프로그램이 런타임 중에 일관된 환경을 갖도록 지정되었으며, 컨테이너의 라이프사이클을 정의하는 공통 작업이 포함되어 있습니다.
 
 런타임은 다음 작업을 반드시 지원해야 합니다:
 
@@ -710,7 +1353,18 @@ OCI Slack 채널에 가입하여 최신 정보를 받아보세요!
 
 runc
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 runc은 OCI 사양에 따라 Linux 컨테이너를 생성하고 실행하는 CLI 도구입니다. runc는 컨테이너 이미지에 포함된 파일을 사용하여 컨테이너를 시작하고, Linux 커널에게 적절한 네임스페이스, cgroups 컨텍스트 등에서 프로세스를 시작하도록 지시합니다.
 
@@ -720,7 +1374,18 @@ Go 자체의 런타임은 멀티 스레드입니다. setns(2)는 멀티 스레�
 
 runc은 컨테이너 프로세스가 시작되기 전에 환경 설정을 위해 C로 작성된 libcontainer 모듈을 사용하여 자체를 다시 실행합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## crun
 
@@ -730,8 +1395,18 @@ crun은 OCI 컨테이너를 관리하는 외부 프로세스를 필요로 하지
 
 crun은 /bin/true를 100번 실행하는 데 runc보다 49.4% 빠르며, 훨씬 낮은 메모리 풋프린트를 갖추고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 railcar (archieved)
 
@@ -741,8 +1416,18 @@ railcar은 OCI 런타임 사양의 Rust 구현입니다. 참조 구현인 runc�
 
 youki
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 youki는 Rust에서 OCI 런타임 사양을 구현한 프로젝트입니다! 프로젝트의 동기는 정말 멋집니다: 메모리 안정성, 더 빠르고 덜 메모리를 사용할 수 있는 가능성! 이 프로젝트는 railcar에서 영감을 받았습니다. 프로젝트의 설계 및 구현 세부 정보를 확인하는 것을 잊지 마세요.
 
@@ -750,11 +1435,22 @@ youki는 Rust에서 OCI 런타임 사양을 구현한 프로젝트입니다! 프
 
 runtime-tools는 OCI 런타임 사양과 함께 작업하는 도구 모음입니다:
 
--  $ oci-runtime-tool generate: OCI 번들을 위한 구성 JSON을 생성합니다. runc와 같은 OCI 호환 런타임은 구성을 config.json에서 읽을 것으로 예상합니다.
--  $ oci-runtime-tool validate: OCI 번들을 검증합니다. OCI 번들이 유효성 검사 과정에 실패하면 오류 메시지가 인쇄됩니다.
--  $ sudo RUNTIME=runc validation/default/default.t: 런타임 검증 스위트를 실행합니다. 예를 들어, youki의 integration_test.sh로 이동하여 테스트 케이스를 실행하는 방법을 확인할 수 있습니다. crun은 테스트를 실행하기 위해 oci-runtime-validation을 사용합니다. runc는 대부분 통합 테스트 케이스를 실행하기 위해 bats-core를 사용합니다.
+- $ oci-runtime-tool generate: OCI 번들을 위한 구성 JSON을 생성합니다. runc와 같은 OCI 호환 런타임은 구성을 config.json에서 읽을 것으로 예상합니다.
+- $ oci-runtime-tool validate: OCI 번들을 검증합니다. OCI 번들이 유효성 검사 과정에 실패하면 오류 메시지가 인쇄됩니다.
+- $ sudo RUNTIME=runc validation/default/default.t: 런타임 검증 스위트를 실행합니다. 예를 들어, youki의 integration_test.sh로 이동하여 테스트 케이스를 실행하는 방법을 확인할 수 있습니다. crun은 테스트를 실행하기 위해 oci-runtime-validation을 사용합니다. runc는 대부분 통합 테스트 케이스를 실행하기 위해 bats-core를 사용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -766,7 +1462,18 @@ runtime-tools는 OCI 런타임 사양과 함께 작업하는 도구 모음입니
 - 이 기술에 대한 이해력이 향상되었을 뿐만 아니라 끝에서 끝까지 프로세스를 원활하게 만드는 데 끊임없이 노력하는 무수히 많은 개인들의 협력을 강조했습니다.
 - 복잡성을 수용하고 지속적인 학습에 투자하는 것은 우리가 컨테이너의 힘을 이용하고 번성하는 컨테이너화 생태계에 기여하는 데 도움이 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 바투한 아페이딘과 야신 타하 에롤에게 기여해줘서 감사합니다!
 
@@ -776,7 +1483,18 @@ runtime-tools는 OCI 런타임 사양과 함께 작업하는 도구 모음입니
 
 뉴스를 따르고 Slack 및 메일 그룹에 참여하여 항상 최신 상태를 유지하세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Docker: [Blog](https://www.aquasec.com/cloud-native-academy/docker-container/docker-containers-vs-virtual-machines/) — [GitHub](https://www.tiejiang.org/23394.html) — [Twitter](https://www.pngegg.com/en/png-pbils) — [Slack](https://stackoverflow.com/a/47023753/5685796) — [HNRSS](https://ops.tips/blog/dockerfile-golang/) — [Reddit](https://blog.ramlot.eu/containers/)
 - OCI: [GitHub](https://github.com/opencontainers/runtime-spec/blob/main/spec.md) — [Twitter](https://iximiuz.com/en/posts/oci-containers/) — [Slack](https://www.oreilly.com/library/view/kubernetes-in-action/9781617293726/) — [Mail Group](https://www.oreilly.com/library/view/container-security/9781492056690/)
@@ -809,7 +1527,18 @@ runtime-tools는 OCI 런타임 사양과 함께 작업하는 도구 모음입니
 [20]: https://vitalflux.com/docker-images-containers-internals-for-beginners/
 [21]: https://www.oreilly.com/library/view/container-security/9781492056690/
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 게시물이 유익했고 도커의 내부 작업을 종합적으로 탐구하는 것을 즐겁게 경험하셨기를 바랍니다. 언제든지 트위터나 GitHub에서 연락주세요.
 

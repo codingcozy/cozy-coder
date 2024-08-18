@@ -3,17 +3,13 @@ title: "닉이 말하는데, 무료로 ChatGPT로 시간당 145를 벌 수 있�
 description: ""
 coverImage: "/assets/img/2024-06-19-NickSaysYouCanMake145PerHourWithChatGPTForFreeHereshow_0.png"
 date: 2024-06-19 03:20
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-NickSaysYouCanMake145PerHourWithChatGPTForFreeHereshow_0.png
 tag: Tech
 originalTitle: "Nick Says You Can Make $145 Per Hour With ChatGPT For Free. Here’s how."
 link: "https://medium.com/aimonks/nick-says-you-can-make-145-per-hour-with-chatgpt-for-free-heres-how-cef2cb424cc0"
 isUpdated: true
 ---
-
-
-
-
 
 ## 정말 해볼 가치가 있는 방법인가요?
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 하지만 대부분이 완전한 헛소리라는 걸 알게 되어서 오랜 시간을 멈추었어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어제는 Dave Nick이라는 유튜버의 영상을 보게 되었는데, 그 영상에서 "무료로 ChatGPT로 시간당 $145 벌 수 있다"고 말했어요.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ## 방법은 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 닉은 쓰여진 글 스레드를 통해 X에 대한 무료 책을 제공하여 온라인으로 돈을 벌 수 있는 방법을 제안합니다.
 
@@ -42,7 +60,18 @@ isUpdated: true
 1. "Audible"이라는 프로그램에 등록합니다.
 2. 이 프로그램은 창작자 프로그램을 제공하여 다른 사람들을 그들의 웹 사이트에서 무료 체험에 등록하도록 초대할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이번 시범을 신청하면 초대한 사람에게 5달러의 수수료를 받게 됩니다.
 
@@ -52,7 +81,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-19-NickSaysYouCanMake145PerHourWithChatGPTForFreeHereshow_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나는 솔직히 이것이 돈을 버는 똑똑하고 효과적인 방법이라고 생각해요,
 
@@ -62,17 +102,39 @@ isUpdated: true
 
 ## 링크로 트래픽을 어떻게 받을 것인가:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제, 큰 질문이 있어요:
 
 그 제휴 링크로 트래픽을 어떻게 유도할까요?
 
-음, 
+음,
 
 닉은 그것에 대한 전략을 갖고 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그는 ChatGPT와 얼티밋 X 트위터 콘텐츠 크리에이터를 사용하는 것을 제안합니다.
 
@@ -82,7 +144,18 @@ ChatGPT를 사용하면 인기 있는 책 카테고리를 파악하고 이러한
 
 이 스레드는 두 가지 목적을 제공합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그들은 귀하의 관객에 가치를 제공하고 그 안에 포함된 제휴 링크를 신속하게 홍보합니다.
 
@@ -92,7 +165,18 @@ Twitter`X`에서 큰 팔로워들을 구축하는 데는 시간과 노력이 필
 
 그러니까, 처음부터 시작한다면,
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결과를 실제로 보기까지는 시간이 걸릴 수 있어요.
 
@@ -102,7 +186,18 @@ Twitter`X`에서 큰 팔로워들을 구축하는 데는 시간과 노력이 필
 
 헌신성,
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Consistency,
 
@@ -112,7 +207,18 @@ Consistency,
 
 ## 대신 해야 할 일
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 트위터만 사용하는 것이 아닌 다른 방법들도 시도해보세요.
 
@@ -122,7 +228,18 @@ Consistency,
 
 또한 사이트를 방문한 사람들로부터 이메일 주소를 수집하고 유용한 콘텐츠와 특별 혜택을 보내줄 수도 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Audible 홍보만 하는 게 아니라, 더 좋은 혜택을 제공하는 다른 회사를 찾아보세요.
 
@@ -132,7 +249,18 @@ Audible 홍보만 하는 게 아니라, 더 좋은 혜택을 제공하는 다른
 
 ## 요약하여 말하자면
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 닉의 전략이 똑똑한 것은 사실이지만, 실제로 돈을 벌기 전에 트위터에서 이상적인 청중을 유치해야 합니다.
 
@@ -142,7 +270,18 @@ Audible 홍보만 하는 게 아니라, 더 좋은 혜택을 제공하는 다른
 
 내 의견으로는, 이미 청중이 없다면 이 방법을 시도하지 않는 것이 좋다고 생각해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 글을 읽어주셔서 감사합니다❤
 

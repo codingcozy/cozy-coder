@@ -3,7 +3,7 @@ title: "개발리더의 신뢰를 잃게 만드는 8가지 행동"
 description: ""
 coverImage: "/assets/img/2024-08-17-8BehaviorsThatLeadtoLossofTrustAsaManager_0.png"
 date: 2024-08-17 00:35
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-17-8BehaviorsThatLeadtoLossofTrustAsaManager_0.png
 tag: Tech
 originalTitle: "8 Behaviors That Lead to Loss of Trust As a Manager"
@@ -11,7 +11,6 @@ link: "https://medium.com/code-like-a-girl/8-behaviors-that-lead-to-loss-of-trus
 isUpdated: true
 updatedAt: 1723863908777
 ---
-
 
 ![Link to the image!](/assets/img/2024-08-17-8BehaviorsThatLeadtoLossofTrustAsaManager_0.png)
 
@@ -21,7 +20,18 @@ updatedAt: 1723863908777
 
 낮은 신뢰 수준은 반대로 작용하여 생산성과 성과에 부정적인 영향을 미칩니다. 그들은 지속적으로 경계를 경계하고, 자신의 행동이 어떻게 인식될지 주시합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일을 하는 데 더 나은 시간과 에너지를 낭비하는 쓸모없는 논쟁과 토론은 해로운 것입니다. 신뢰 부족은 사소한 실망을 큰 좌절로 만들어버립니다. 부정적인 태도는 의심, 좌절, 원한을 낳아서 질이 낮은 일을 일으킵니다.
 
@@ -31,7 +41,18 @@ updatedAt: 1723863908777
 
 질문을 하기 편안해 하는지, 아니면 답을 내리는 것을 방해하는지를 느낍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그들은 지지를 받고 관심을 받는다고 느끼나요, 아니면 방치당하고 버림받았다고 느낄까요?
 
@@ -41,7 +62,18 @@ updatedAt: 1723863908777
 
 만약 여러분이 자신과 다른 기준을 따른다면, 신뢰를 허락하는 것이 힘들어질 수 있어요. 우리는 우리 의도를 기준으로 자신을 판단하고, 다른 사람은 그들의 행동을 기준으로 판단해요. 일관되지 않고 예측할 수 없는 행동은 불신을 낳아요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 말만 하는 것이 아닌, 행동으로 옮기세요.
 
@@ -51,7 +83,18 @@ updatedAt: 1723863908777
 
 신뢰를 무너뜨리는 것은 약속을 지키지 않는 것입니다; 당신이 할 것이라고 말한 것을 실천하지 않는 것입니다. 말과 행동이 일치하지 않거나 약속을 하지만 그 약속을 지키지 않는 경우, 사람들은 당신의 의도를 의심하기 시작합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 약속만 하지 말고 그 약속을 이행해보세요.
 
@@ -61,7 +104,18 @@ updatedAt: 1723863908777
 
 피해자 마인드셋이 자리 잡으면 팀 내에서 무기력과 절망감을 전파하게 됩니다. 문제를 해결할 수 없는 상황에서도 팀이 신뢰할 수 없다면 팀원들은 당신을 믿을 수 없을 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 희생자처럼 행동하는 대신 창조자의 역할을 하세요. 문제에서 원하는 결과로 마음가짐을 바꾸어 방향을 변경해보세요. 팀이 어려운 상황을 극복하도록 도와주고, 성과를 소유하고 책임지는 힘을 보여주세요.
 
@@ -71,7 +125,18 @@ updatedAt: 1723863908777
 
 팀의 목표에 대해 망설이며 우선순위를 끊임없이 바꾸다 보면 팀 내에서 많은 스트레스, 좌절, 불안을 초래할 수 있습니다. 허사로 들어간 모든 노력은 고통으로 변할 수 있어요. 끊임없이 변하는 목표는 믿을 수 없어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 뒤척이지 마세요; 명확히 정의된 우선 순위와 기대를 갖으세요.
 
@@ -81,7 +146,18 @@ updatedAt: 1723863908777
 
 부정적인 것에 시간을 낭비하지 마세요. 일의 밝은 면을 찾으세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 알아보는 척 하지 마세요
 
@@ -89,7 +165,18 @@ updatedAt: 1723863908777
 
 ## 갈등을 피하세요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 충돌을 피하는 것은 관계를 구축하는 게 아니라 파괴하는 것입니다. 팀 내의 나쁜 행동을 다루지 않고 다른 사람들이 들어야 하는 말을 하지 않거나 어렵고 미뤄둔 대화를 열어두는 것은 다른 사람들을 기쁘게 하지 않고 오히려 짜증나게 합니다. 피드백 샌드위치를 사용하거나 메시지를 설탕 입히려고 하지 마세요. 망설임 없이 말해야 할 것을 말하세요.
 
@@ -99,7 +186,18 @@ updatedAt: 1723863908777
 
 의사 결정을 내리거나 정보를 공유하거나 다른 형태의 의사소통을 하던, 경계가 없는 자유는 오직 주의를 산란시키고 혼란을 초래합니다. 사람들이 잘하려면 필요한 맥락과 명확성을 얻지 못할 때 신뢰가 깨집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 극단에서 작업하지 마세요. 경계를 정의하고 그 안에서 작업하세요.
 

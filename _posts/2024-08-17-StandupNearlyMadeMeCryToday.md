@@ -3,7 +3,7 @@ title: "오늘 스탠드업 회의가 나를 울컥하게 만든 이유"
 description: ""
 coverImage: "/assets/img/2024-08-17-StandupNearlyMadeMeCryToday_0.png"
 date: 2024-08-17 00:39
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-17-StandupNearlyMadeMeCryToday_0.png
 tag: Tech
 originalTitle: "Standup Nearly Made Me Cry Today"
@@ -11,7 +11,6 @@ link: "https://medium.com/@tsecretdeveloper/standup-nearly-made-me-cry-today-558
 isUpdated: true
 updatedAt: 1723863803672
 ---
-
 
 ![StandupNearlyMadeMeCryToday](/assets/img/2024-08-17-StandupNearlyMadeMeCryToday_0.png)
 
@@ -21,7 +20,18 @@ updatedAt: 1723863803672
 
 # 회의는 쉬는 시간이 되어야 해요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 소프트웨어 개발에서 스탠드업 미팅을 그다지 선호하지는 않아요. 작업 중에 문제가 발생했다면 다음 애자일 미팅을 기다리기보다는 그 문제에 대처해야 한다고 생각하거든요.
 
@@ -31,7 +41,18 @@ updatedAt: 1723863803672
 
 # 나의 멘탈 헬스 월요일
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 회사 "멘탈 헬스 월요일"에서 발생한 일이었어요. 모두가 멘탈 건강에 대해 생각하고 모두의 마음을 우선시해야 한다고 생각했어요.
 
@@ -41,17 +62,39 @@ updatedAt: 1723863803672
 
 저는 끝자락에 밀려나가는 느낌을 받아요. 여러 회의. 의심. 질문하는 것들.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 할 일이 없어서 그런거야.
 
 맞아. 지난 달에 나는 1개의 PR을 만들었어. 딱 한 시간이 걸린 PR인데 매일 두 번씩 진행 상황을 업데이트해야 했어. 보통 별 것 아닌 일이지.
 
-난 쓸모 없는 사람이 되버린 것 같아. 사람들에게 *조사 중이다*라고 말하거나 *아무것도 없어* 라고 말할 때마다. 이것이 팀에 미치는 영향을 보여줄 뿐이야. 면접에서도 나의 성과에 악영향을 미치고, 어렵다고 느끼는 첫 번째 질문에 "최근 해결한 어려운 문제는 무엇입니까?"라는 질문에 자신이 없어져. 오직 거짓말만 준비되어 있는데도 기분이 나쁘지. 솔직히 말해서, 나는 지금 이 순간에 사기꾼 같아.
+난 쓸모 없는 사람이 되버린 것 같아. 사람들에게 *조사 중이다*라고 말하거나 _아무것도 없어_ 라고 말할 때마다. 이것이 팀에 미치는 영향을 보여줄 뿐이야. 면접에서도 나의 성과에 악영향을 미치고, 어렵다고 느끼는 첫 번째 질문에 "최근 해결한 어려운 문제는 무엇입니까?"라는 질문에 자신이 없어져. 오직 거짓말만 준비되어 있는데도 기분이 나쁘지. 솔직히 말해서, 나는 지금 이 순간에 사기꾼 같아.
 
 ## 했어야 했는데, 했으면 좋았을 텐데, 했을 수도 있었는데
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 팀에 도움이 되는 작업을 해야 한다는 걸 알아요.
 
@@ -61,7 +104,18 @@ updatedAt: 1723863803672
 
 리팩토링은 티켓이 필요해요. 프로덕션 버그와 똑같은 과정이고, 솔직히 에너지가 없어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 코드베이스를 개선하는 방법에 대해 생각해 볼 수 있었어요. 그래도 제가 문제를 일으키는 것 같다고 더 일을 하려고 애쓰면 통합되지 않을 거예요.
 
@@ -71,7 +125,18 @@ updatedAt: 1723863803672
 
 하지만 나를 향한 이 방법이 얼마나 잘 작동하는지 보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 발산하다!
 
@@ -81,7 +146,18 @@ updatedAt: 1723863803672
 
 그래서 감정을 표현할 수 있고, 일은 유지하면서 급여도 계속 받을 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 누군가에게 이 전략을 추천하지는 않겠어요.
 
@@ -91,7 +167,18 @@ updatedAt: 1723863803672
 
 # 저자 소개
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로 소프트웨어 개발자 "The Secret Developer"는 Twitter에서 @TheSDeveloper로 찾을 수 있으며 Medium.com을 통해 정기적으로 기사를 발행합니다.
 

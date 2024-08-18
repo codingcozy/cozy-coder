@@ -3,17 +3,13 @@ title: "지루한 피부를 위한 요거트, 꿀, 황색향으로 하는 허브
 description: ""
 coverImage: "/assets/img/2024-06-20-HerbalFaceMaskforOilySkinwithYogurtHoneyTurmeric_0.png"
 date: 2024-06-20 17:16
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-HerbalFaceMaskforOilySkinwithYogurtHoneyTurmeric_0.png
 tag: Tech
 originalTitle: "Herbal Face Mask for Oily Skin withYogurt, Honey , Turmeric"
 link: "https://medium.com/follower-booster-hub/herbal-face-mask-for-oily-skin-withyogurt-honey-turmeric-6e9f378dd72e"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-20-HerbalFaceMaskforOilySkinwithYogurtHoneyTurmeric_0.png" />
 
@@ -24,7 +20,18 @@ isUpdated: true
 
 요거트(1 ps):
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지나치게 많은 기름을 조절하는 천연 발효산의 원천.
 
@@ -34,11 +41,33 @@ isUpdated: true
 
 허브 분말 (1/2 tps):
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 발가락 사이의 모금 간격을 자유롭게 조절하거나, 필요에 따라 매개 변수를 추가하거나 제거하여 표를 Markdown 형식으로 변경할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "Mixture을 깨끗하고 건조한 피부에 고르게 발라주세요. 재료가 마법을 발휘할 수 있도록 10~15분간 그대로 두세요.
 
@@ -48,7 +77,18 @@ isUpdated: true
 
 우유색의 강한 염색 능력을 가진 황색 향료에 주의하세요. 옷에 닿지 않도록 주의하고 표면에 자국을 남기지 않도록 조심하세요. 필요하다면 옷을 입고 쉽게 닦을 수 있는 곳에 마스크를 사용하세요."
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 혜택
 
@@ -61,7 +101,18 @@ isUpdated: true
 우유 황금 가루:
 염증을 줄이고 광채를 더해줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 과학적인 통찰
 

@@ -3,17 +3,13 @@ title: "커버 포함된 북마크 상자 템플릿 SVG"
 description: ""
 coverImage: "/assets/img/2024-06-19-BookmarkBoxTemplatewithSleeveSVG_0.png"
 date: 2024-06-19 09:12
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-BookmarkBoxTemplatewithSleeveSVG_0.png
 tag: Tech
 originalTitle: "Bookmark Box Template with Sleeve SVG"
 link: "https://medium.com/@inkalchemist/bookmark-box-template-with-sleeve-svg-26a0820280cd"
 isUpdated: true
 ---
-
-
-
-
 
 🔍 지금 Bookmark Box Template with Sleeve SVG를 확인해보세요! 이 📁 독특한 프린트 모크업을 탐색하고 여기에서 무료 다운로드를 요청하세요. 함께 공작을 시작합시다! 🚀
 
@@ -23,6 +19,17 @@ isUpdated: true
 
 Aleksa Popovic의 사진은 Creative Fabrica에서 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 면책 조항: 이 기사에는 제휴 링크가 포함되어 있습니다. 이는 해당 링크를 통해 구매를 하시는 경우 별도 비용 없이 수수료를 지급받을 수 있다는 것을 의미합니다.

@@ -3,18 +3,13 @@ title: "12700162893 오류 설명 자주 발생하는 문제 해결 방법"
 description: ""
 coverImage: "/assets/img/2024-06-22-12700162893ExplainedTroubleshootingCommonErrors_0.png"
 date: 2024-06-22 16:30
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-12700162893ExplainedTroubleshootingCommonErrors_0.png
 tag: Tech
 originalTitle: "127.0.0.1:62893 Explained: Troubleshooting Common Errors"
 link: "https://medium.com/@emma-delaney/127-0-0-1-62893-explained-troubleshooting-common-errors-45e0dc6aabaa"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![ExplainedTroubleshootingCommonErrors](/assets/img/2024-06-22-12700162893ExplainedTroubleshootingCommonErrors_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 이는 서버를 가리키는 특수 주소로, 루프백 또는 로컬호스트로도 알려져 있습니다. 이는 사용 중인 컴퓨터에 특정한 IP 주소로서 사용됩니다. 이 호스트는 누군가가 서버에 연결하고 있는 로컬 컴퓨터의 IP 주소를 모르는 경우에 사용됩니다. 이를 통해 주소를 해결할 수 있도록 도와줍니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 IP 주소에는 소프트웨어 개발자들에게 다소 신비로운 추가 숫자가 포함될 수 있습니다. 추가 숫자는 다양한 종류의 통신을 수행하는 다른 컴퓨터 게이트웨이를 나타냅니다. 이러한 게이트는 포트라고 불리며, 컴퓨터 내에서 데이터를 송수신합니다. 예를 들어, IP 주소가 "127.0.0.1:62893"으로 표시된다면, 62893이 주소의 포트 부분입니다.
 
@@ -35,7 +40,18 @@ IP/localhost 주소는 여러 가지 방법으로 도움이 됩니다:
 
 1. 특정 장치에서 네트워크 트레이가 작동하는지 확인
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 로컬호스트에서 실행 중인 서비스에 네트워크 연결 여부에 관계없이 연결할 수 있도록 지원하며 연결을 로컬 컴퓨터로 보냄으로써 도와줍니다.
 
@@ -45,7 +61,18 @@ IP/localhost 주소는 여러 가지 방법으로 도움이 됩니다:
 
 이는 인터넷을 게이트웨이로 사용하려는 해커가 차단되도록 도와줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. 다른 서버에서 온 것처럼 들어오는 메시지가 직접 127.0.0.1:62893을 통해 전송된 경우에도 메시지를 대기열에 넣습니다.
 
@@ -55,7 +82,18 @@ IP/localhost 주소는 여러 가지 방법으로 도움이 됩니다:
 
 6. 이를 통해 소프트웨어 개발자는 실제로 실행하지 않고도 소프트웨어의 기능을 테스트할 수 있습니다. 소프트웨어를 인터넷에 배포하기 전에 기능을 테스트하는 것이 중요합니다. 사용하기 전에 실패할 수도 있기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 7. 이는 더 빠른 응용 프로그램 개발과 효율적인 응용 프로그램 응답 시간 측정을 보장합니다. 로컬 호스트로 핑을 보내기 때문에 인터넷 연결 속도에 의존하는 원격 서버에 연결하는 것보다 빠릅니다.
 
@@ -65,7 +103,18 @@ IP/localhost 주소는 여러 가지 방법으로 도움이 됩니다:
 
 ## 컴퓨터의 IP 주소를 어떻게 얻을 수 있을까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 단계를 따라해보세요:
 
@@ -78,7 +127,18 @@ IP 주소를 복사하고 브라우저 주소 표시줄에 붙여넣기합니다
 
 이 페이지가 표시되지 않는다면, 컴퓨터에서 Apache 서버가 작동하지 않는 것을 의미합니다. 이 문제를 해결하려면 서버를 다시 시작하고 위의 단계를 따르세요. 또한 온라인 상태이어야 하며 근처 컴퓨터에 액세스해야 서버에 연결할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 자주 묻는 질문
 
@@ -88,7 +148,18 @@ IP 주소를 복사하고 브라우저 주소 표시줄에 붙여넣기합니다
 
 ## 로컬호스트와 IPv6 주소 사이에 무엇이 다른가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로컬호스트(Localhost)는 주로 숫자로 지정된 기본 IPv4 주소로서 127.0.0.1이며, 포트 62893이며, 컴퓨터에 대한 주소로 작용합니다. 반면, IPv6 주소는 숫자 시퀀스 127.0.0.1과 함께 나타나는 인터넷 프로토콜 v6 시퀀스입니다. 이들은 IPv4 주소와 같이 여러 주소를 형성하지 않는 루프백 주소입니다.
 
@@ -98,17 +169,39 @@ IP 주소를 복사하고 브라우저 주소 표시줄에 붙여넣기합니다
 
 관리자 권한으로 메모장을 엽니다. 사용자 계정 컨트롤 프롬프트를 사용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파일을 클릭한 다음 열기를 선택하세요.
 
 호스트 파일 열기
 
-다음을 입력하세요: 
+다음을 입력하세요:
 
 0.1-와 주소 사이에 슬래시를 넣고 저장하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컴퓨터를 다시 시작해주세요.
 

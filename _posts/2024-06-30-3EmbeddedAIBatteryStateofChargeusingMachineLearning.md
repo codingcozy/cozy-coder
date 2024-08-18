@@ -3,17 +3,13 @@ title: "임베디드 AI  머신 러닝을 사용하여 배터리 충전 상태 �
 description: ""
 coverImage: "/assets/img/2024-06-30-3EmbeddedAIBatteryStateofChargeusingMachineLearning_0.png"
 date: 2024-06-30 23:36
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-30-3EmbeddedAIBatteryStateofChargeusingMachineLearning_0.png
 tag: Tech
 originalTitle: "3. Embedded AI — Battery State of Charge using Machine Learning"
 link: "https://medium.com/@reefwing/3-embedded-ai-battery-state-of-charge-using-machine-learning-62a181cac16b"
 isUpdated: true
 ---
-
-
-
-
 
 ## 배터리 충전 상태(SOC)는 배터리의 잔여 전하를 총 용량의 백분율로 표시합니다. 이 정보는 내장 장치의 에너지 관리에 매우 중요합니다. SOC를 정확하게 추정하는 것은 리튬이온 배터리의 복잡한 행동에 영향을 받아 어려운 작업입니다. 이는 온도, 배터리 건강 상태, 그리고 SOC 자체와 같은 요소들에 의해 영향을 받기 때문입니다. SOC를 추정하기 위한 전통적인 방법인 전기화학 모델은 정확한 매개변수와 배터리의 조성 및 물리적 특성에 대한 심층적인 이해를 요구합니다. 반면, 머신 러닝 모델은 데이터 기반 접근 방식을 제공하여 배터리의 행동에 대해 덜 자세한 지식만으로도 SOC 추정을 단순화시키므로 내장 시스템에 구현하기에 적합합니다.
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 내장형 AI 시리즈의 제1부에서, ML을 사용하여 값들을 예측하는 과정을 설명했습니다 (그림 1).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-30-3EmbeddedAIBatteryStateofChargeusingMachineLearning_1.png)
 
@@ -34,8 +40,18 @@ Part 2에서 설명한 것처럼, 배터리 방전 곡선은 대부분의 사용
 
 ## 단계 1 — 문제 정의
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 배터리의 SOC를 정확하게 예측하는 ML 모델을 개발하는 것이 목표입니다. 이 모델은 전압을 기반으로 배터리의 SOC를 예측하는 데 사용되며 전류, 온도, 그리고 시간과 같은 관련 특징도 함께 고려됩니다 (Figure 2). 모델은 다양한 작동 조건과 배터리 상태에 걸쳐 잘 일반화되어야 하며, 이는 실시간 응용 프로그램에서 신뢰할 수 있는 SOC 추정을 보장합니다.
 
@@ -46,7 +62,18 @@ Inputs and Features
 - Temperature (T): 주변 온도 또는 배터리의 온도로, 온도 변화가 배터리 성능에 영향을 줍니다.
 - Time (t): 전압이 측정된 시간으로, 배터리의 방전 또는 충전 주기를 이해하는 데 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 전하 상태 (SOC): 배터리의 예상 SOC로서 총 용량의 백분율로 표시됩니다.
 
@@ -56,7 +83,18 @@ Inputs and Features
 
 이 단계에서 가장 많은 작업을 수행하게 될 것입니다. 모델을 훈련시킬 데이터가 더 좋을수록 예측이 더 좋아질 것입니다. 우리는 맥마스터 대학교에서 발행한 LG 18650HG2 리튬이온 배터리에 대한 Digital Commons 데이터를 사용할 것입니다. 아래의 Python 스크립트를 사용하여 이 데이터셋을 다운로드할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import os
@@ -91,8 +129,18 @@ if not os.path.exists(train_folder) or not os.path.exists(test_folder):
 
 각 파일에는 다섯 가지 예측 변수(전압, 전류, 온도, 평균 전압 및 평균 전류)로 이루어진 시계열 X와 하나의 대상 SOC로 이루어진 시계열 Y가 포함되어 있습니다. 서로 다른 환경 온도에서 수집된 데이터를 나타내는 하나의 훈련 파일과 네 개의 테스트 파일이 있습니다. 유일한 문제는 데이터가 MATLAB 형식(.mat)으로 저장되어 있다는 것입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 .mat 파일은 MATLAB에서 변수를 저장하는 데 사용되는 이진 데이터 파일입니다. 배열, 행렬 및 기타 데이터 유형을 저장할 수 있습니다. 이진 파일이기 때문에 텍스트 편집기에서는 읽을 수 없지만, Python의 scipy.io 모듈을 사용하여 이러한 파일을 읽고 쓸 수 있습니다.
 
@@ -111,9 +159,9 @@ def read_and_print_mat_files(folder):
             for key in mat_data:
                 if not key.startswith("__"):
                     data = mat_data[key]
-                    if isinstance(data, np.ndarray) and data.ndim > 1:  
+                    if isinstance(data, np.ndarray) and data.ndim > 1:
                         print(f"{key}:")
-                        print(data[:10])  
+                        print(data[:10])
                     else:
                         print(f"{key}: {data}")
             print("\n")
@@ -143,7 +191,18 @@ Y:
 [[0.20641667 0.20641667 0.20641667 ... 0.28324333 0.28324333 0.28324333]]
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 X는 각 행이 다음 다섯 개의 예측변수 중 하나에 해당하는 2D 배열입니다:
 
@@ -157,7 +216,18 @@ X는 각 행이 다음 다섯 개의 예측변수 중 하나에 해당하는 2D 
 
 Y도 하나의 행으로 이루어진 2D 배열이지만, SOC가 단일 대상 변수임을 나타냅니다. 각 열은 해당 시간점에서의 SOC를 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 파일 내용을 이해했으므로 훈련 및 테스트를 위해 데이터 저장소를 로드할 수 있습니다.
 
@@ -198,7 +268,18 @@ test_data_full_n10deg['X']의 모양:  (5, 47517)
 test_data_full_n10deg['Y']의 모양:  (1, 47517)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 훈련 데이터 파일 내에서, 주변 온도 측정 값은 다음과 같이 분할되어 있습니다:
 
@@ -213,7 +294,18 @@ idxN10 = 510531 - 669956   # 온도 = -10°C
 
 훈련 온도 데이터 세트를 분리하려면, 아래 코드를 로딩 스크립트에 추가하십시오.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # train_data_full에서 X와 Y 추출하기
@@ -255,26 +347,37 @@ def resample_and_compute_moving_averages(X, Y, step=100):
     # 데이터 재샘플링 (매 `step`번째 포인트 가져오기)
     X_resampled = X[:, ::step]
     Y_resampled = Y[:, ::step]
-    
+
     # 새로운 이동 평균 계산
     n = X_resampled.shape[1]
     avg_voltage_idx = 3  # 4번째 열이 평균 전압이라고 가정
     avg_current_idx = 4  # 5번째 열이 평균 전류이라고 가정
-    
+
     new_avg_voltage = np.empty(n)
     new_avg_current = np.empty(n)
-    
+
     for i in range(n):
         new_avg_voltage[i] = np.mean(X_resampled[0, max(0, i-5):i+1])
         new_avg_current[i] = np.mean(X_resampled[1, max(0, i-5):i+1])
-    
+
     X_resampled[avg_voltage_idx, :n] = new_avg_voltage
     X_resampled[avg_current_idx, :n] = new_avg_current
-    
+
     return X_resampled, Y_resampled
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 학습 및 테스트 데이터 재샘플링은 이제 간단합니다.
 
@@ -317,7 +420,18 @@ n10degC 테스트 데이터 형태: X=(5, 476), Y=(1, 476)
 25degC 테스트 데이터 형태: X=(5, 393), Y=(1, 393)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희는 모든 전처리된 학습 및 테스트 데이터를 Preprocessed라는 새 하위 디렉토리에 저장할 거에요. 이 파일들은 CSV 형식으로 저장되며, 쉽게 읽고 쓸 수 있어서 사용자가 쉽게 확인할 수 있어요. 더 큰 데이터셋의 경우 HDF5 (계층적 데이터 형식)를 사용하면 효율적으로 대량의 데이터를 저장할 수 있고 복잡한 데이터 구조를 지원해요. 이는 과학 계산에서도 널리 사용되고 있어요. 관련 추가 코드는 아래에 나와 있어요.
 
@@ -353,7 +467,18 @@ for i, test_data_full in enumerate(fds_test):
 
 배터리 충전 상태 (SOC) 및 건강 상태 (SOH)를 추정하기 위해 여러 머신러닝 알고리즘이 광범위하게 연구되어 왔습니다. 네 가지 가장 탁월한 유형은 얕은 신경망 (NN), 딥러닝 (DL), 서포트 벡터 머신 (SVM), 그리고 가우시안 프로세스 회귀 (GPR)입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-30-3EmbeddedAIBatteryStateofChargeusingMachineLearning_4.png)
 
@@ -365,7 +490,18 @@ for i, test_data_full in enumerate(fds_test):
 딥 러닝(DL)
 딥 러닝 모델인 딥 신경망(DNNs — Figure 5) 및 합성곱 신경망(CNNs)과 같이 여러 층을 가지고 있어 데이터의 복잡한 패턴과 상호작용을 포착할 수 있습니다. DL 모델은 입력 특성과 SOC 또는 SOH 사이의 복잡한 관계를 학습하여 매우 정확한 추정을 제공할 수 있습니다. 그러나 그들의 복잡성은 더 많은 계산 자원과 메모리를 필요로 하며, 이는 일부 임베디드 시스템에 제약 요인이 될 수 있습니다. 그러나 임베디드 하드웨어의 발전으로 실시간 응용 프로그램에서 딥 러닝 모델을 배포하긴 점점 더 가능해지고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![SVM](/assets/img/2024-06-30-3EmbeddedAIBatteryStateofChargeusingMachineLearning_6.png)
 
@@ -377,7 +513,18 @@ for i, test_data_full in enumerate(fds_test):
 가우시안 프로세스 회귀(GPR)
 가우시안 프로세스 회귀(도표 7)는 예측 뿐만 아니라 불확실성 추정을 제공하는 비모수적인 확률적 접근 방식입니다. SOC 및 SOH 추정에 특히 유용한 GPR은 운영 조건 및 노화로 인한 배터리 행동의 기저 불확실성을 모델링할 수 있습니다. GPR 모델은 유연하며 새로운 데이터로 업데이트할 수 있어, 배터리 수명 주기 내의 변화에 적응할 수 있습니다. 이러한 이유로 GPR 모델을 채택하여 구현하기로 결정했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 GPR은 계산이 많이 필요하며, 실시간 임베디드 애플리케이션에 적합하게 만들기 위해 효율적인 구현이 필요합니다. 또는 장치 외부에서 처리를 수행하고 최적화된 후에 훈련된 모델을 배포할 수도 있습니다. 이것이 우리가 취할 접근 방식입니다.
 
@@ -387,7 +534,18 @@ for i, test_data_full in enumerate(fds_test):
 
 ## 참고문헌
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [1] Kollmeyer, Philip; Vidal, Carlos; Naguib, Mina; Skells, Michael (2020), “LG 18650HG2 Li-ion Battery Data and Example Deep Neural Network xEV SOC Estimator Script”, Mendeley Data, V3, doi: 10.17632/cp3473x7xv.3
 

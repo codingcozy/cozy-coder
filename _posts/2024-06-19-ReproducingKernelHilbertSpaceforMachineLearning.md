@@ -3,17 +3,13 @@ title: "기계 학습을 위한 재생 커널 힐버트 공간"
 description: ""
 coverImage: "/assets/img/2024-06-19-ReproducingKernelHilbertSpaceforMachineLearning_0.png"
 date: 2024-06-19 20:17
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-ReproducingKernelHilbertSpaceforMachineLearning_0.png
 tag: Tech
 originalTitle: "Reproducing Kernel Hilbert Space for Machine Learning"
 link: "https://medium.com/@jonathan-hui/reproducing-kernel-hilbert-space-for-machine-learning-c9a4228136b5"
 isUpdated: true
 ---
-
-
-
-
 
 # 커널
 
@@ -23,7 +19,18 @@ X를 비어 있지 않은 집합이라고 하고, 커널 k가 다음과 같이 �
 
 ![커널 함수](/assets/img/2024-06-19-ReproducingKernelHilbertSpaceforMachineLearning_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 정의에 따르면, 커널 함수 k: X x X → ℝ은 데이터 포인트 x와 x' 사이의 유사성을 측정합니다. k가 유효한 커널이 되려면, k(x, x') = ⟨φ(x), φ(x')⟩ 조건을 만족해야 합니다. 여기서 φ는 입력 공간 X에서 특징 공간 H로의 매핑이며, ⟨・ ,・⟩는 힐베르트 공간 H에서의 내적을 나타냅니다. 이는 커널 값이 특징 공간에서 데이터 포인트의 표현의 내적과 동일함을 의미합니다.
 
@@ -33,8 +40,18 @@ X를 비어 있지 않은 집합이라고 하고, 커널 k가 다음과 같이 �
 
 함수 분석에서, f (・)는 함수 자체를 나타내며, f(x)는 입력 x에서 함수가 취하는 특정 값을 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-ReproducingKernelHilbertSpaceforMachineLearning_1.png" />
 
@@ -44,9 +61,18 @@ X를 비어 있지 않은 집합이라고 하고, 커널 k가 다음과 같이 �
 
 함수 f(・)는 ℝ²를 ℝ에 매핑하는 함수 공간의 원소입니다. 이 예제에서는 이 함수 공간에서 f(・)를 ℝ³로 표현할 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-19-ReproducingKernelHilbertSpaceforMachineLearning_3.png)
 
@@ -56,9 +82,18 @@ Given the function
 
 The linear functional f can be represented as:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-ReproducingKernelHilbertSpaceforMachineLearning_5.png" />
 
@@ -68,9 +103,18 @@ The linear functional f can be represented as:
 
 예를 들어, x = (-1, 4)에서 평가된 f는
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-ReproducingKernelHilbertSpaceforMachineLearning_7.png)
 
@@ -80,8 +124,18 @@ The linear functional f can be represented as:
 
 ![이미지](/assets/img/2024-06-19-ReproducingKernelHilbertSpaceforMachineLearning_8.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 e³가 되면
 
@@ -91,7 +145,18 @@ The linear functional f can be represented as:
 
 ![Image 2](/assets/img/2024-06-19-ReproducingKernelHilbertSpaceforMachineLearning_10.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 평가 기능
 
@@ -99,11 +164,20 @@ The linear functional f can be represented as:
 
 X의 x에서의 평가 기능 L은 다음과 같이 정의됩니다.
 
-
 <img src="/assets/img/2024-06-19-ReproducingKernelHilbertSpaceforMachineLearning_11.png" />
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 정의는 𝐿이 x에 의해 매개변수화된 함수로, 입력으로 함수 f를 사용하고 실수 ℝ을 생성하는 기능입니다.
 
@@ -113,30 +187,60 @@ X의 x에서의 평가 기능 L은 다음과 같이 정의됩니다.
 
 # 이중 공간
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 벡터 공간 V의 쌍대 공간은 V 상의 모든 선형 함수인 집합입니다.
 
 ![image](/assets/img/2024-06-19-ReproducingKernelHilbertSpaceforMachineLearning_13.png)
 
-친숙한 3차원 공간을 고려해보겠어요. ℝ³로 표시되며, 각 점은 세 가지 구성 요소 (x, y, z)를 가진 벡터로 나타낼 수 있어요. 이것이 바로 우리의 원래 벡터 공간 V에요. ℝ³에서의 선형 함수는 3차원 벡터를 입력으로 받아 하나의 실수를 출력하는 선형 매핑입니다. 예를 들어, 선형 함수는 다음과 같이 정의될 수 있어요: f(x, y, z) = 2x + 3y + 4z. ℝ³의 쌍대 공간인 V*는 ℝ³에서의 모든 가능한 선형 함수의 집합이에요. 이 쌍대 공간의 각 함수는 3차원 벡터로 고유하게 표현될 수 있어요. 예를 들어, 함수 f(x, y, z) = 2x + 3y + 4z는 벡터 (2, 3, 4)로 나타낼 수 있어요.
+친숙한 3차원 공간을 고려해보겠어요. ℝ³로 표시되며, 각 점은 세 가지 구성 요소 (x, y, z)를 가진 벡터로 나타낼 수 있어요. 이것이 바로 우리의 원래 벡터 공간 V에요. ℝ³에서의 선형 함수는 3차원 벡터를 입력으로 받아 하나의 실수를 출력하는 선형 매핑입니다. 예를 들어, 선형 함수는 다음과 같이 정의될 수 있어요: f(x, y, z) = 2x + 3y + 4z. ℝ³의 쌍대 공간인 V\*는 ℝ³에서의 모든 가능한 선형 함수의 집합이에요. 이 쌍대 공간의 각 함수는 3차원 벡터로 고유하게 표현될 수 있어요. 예를 들어, 함수 f(x, y, z) = 2x + 3y + 4z는 벡터 (2, 3, 4)로 나타낼 수 있어요.
 
 # Riesz Representation Theorem
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리즈 표현 정리는 힐버트 공간에서의 모든 연속 선형 함수 L이 F의 고정된 요소와의 내적으로 표현될 수 있다는 것을 명시합니다. 공식적으로, 힐버트 공간 F에서 어떤 연속 선형 함수 𝐿에 대해,
 
-
 ![리즈 표현 정리](/assets/img/2024-06-19-ReproducingKernelHilbertSpaceforMachineLearning_14.png)
-
 
 리즈 표현 정리는 선형 함수의 추상적 세계를 보다 익숙한 내적 개념으로 이어주어, 선형 함수를 내적의 기하학적 직관을 사용해 이해하고 조작할 수 있게 합니다. 본질적으로, 리즈 표현 정리는 힐버트 공간 H의 모든 연속 선형 함수에 대해, 그 함수를 완전히 나타내는 동일한 H 내의 고유 요소가 존재함을 명시합니다. 이는 선형 함수를 고정된 "대표" 벡터와의 내적으로 생각할 수 있다는 것을 의미합니다. 이는 힐버트 공간에서 선형 함수와 내적 사이의 근본적인 연결을 확립합니다. 복제 커널 힐버트 공간(RKHS)의 맥락에서, 이 개념은 함수의 평가가 커널 함수와의 내적을 사용하여 계산될 수 있음을 보여주기 위해 확장됩니다.
 
 # 복제 커널
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 평가 기능과 Riesz 표현 정리를 결합하면 다음을 얻을 수 있습니다:
 
@@ -146,11 +250,33 @@ X의 x에서의 평가 기능 L은 다음과 같이 정의됩니다.
 
 ![식 16](/assets/img/2024-06-19-ReproducingKernelHilbertSpaceforMachineLearning_16.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 마크다운 형식으로 변경해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 결국 커널의 개념으로 돌아가게 됩니다.
 
@@ -160,7 +286,18 @@ X의 x에서의 평가 기능 L은 다음과 같이 정의됩니다.
 
 ![image](/assets/img/2024-06-19-ReproducingKernelHilbertSpaceforMachineLearning_20.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내부 곱으로 이를 계산할 수 있습니다. 이 함수는 Hilbert 공간 𝐻의 커널 함수와의 내적으로 계산됩니다. 함수 𝑘(⋅, 𝑥) 또는 kₓ는 재생 커널로 불립니다.
 
@@ -170,7 +307,18 @@ X의 x에서의 평가 기능 L은 다음과 같이 정의됩니다.
 
 여기에 사용된 표기법은 모두 동일한 객체를 가리킵니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-19-ReproducingKernelHilbertSpaceforMachineLearning_22.png)
 
@@ -180,7 +328,18 @@ X의 x에서의 평가 기능 L은 다음과 같이 정의됩니다.
 
 본질적으로, f(x)는 f와 복제 커널 함수 k(⋅, x)의 내적으로 나타낼 수 있습니다. 함수 k(⋅, x)는 복제 커널이라고 불립니다. 개념적으로, 평가 함수는 f와 x의 특징 공간 표현의 내적으로 계산할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 예시
 
@@ -190,8 +349,18 @@ X의 x에서의 평가 기능 L은 다음과 같이 정의됩니다.
 
 놀랍게도, 우리가 커널의 재현 특성을 논의할 때에도 똑같은 형태를 가지고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Reproducing Kernel Hilbert Space for Machine Learning](/assets/img/2024-06-19-ReproducingKernelHilbertSpaceforMachineLearning_24.png)
 
@@ -201,9 +370,18 @@ Functional analysis has traditionally been utilized to examine the characteristi
 
 The Fourier transform of the aperiodic pulse function 𝑓(𝑥) is:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-ReproducingKernelHilbertSpaceforMachineLearning_26.png)
 
@@ -213,8 +391,18 @@ The Fourier transform of the aperiodic pulse function 𝑓(𝑥) is:
 
 아래 예시에서 우리는 함수(1, cos(𝑥), cos(2𝑥), cos(3𝑥), ...)를 기저로 사용하여 계단 함수를 나타냅니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 코싸인 함수로 특징 공간에 나타낸 특징들을 보여줍니다. 이것이 우리가 왜 함수를 사용하여 특징 공간을 모델링할 수 있는지 효과적으로 보여줍니다.
 
@@ -222,8 +410,18 @@ The Fourier transform of the aperiodic pulse function 𝑓(𝑥) is:
 
 두 번째 예제에서는 가우시안 함수로 구성된 특징 공간을 설명하겠습니다. 아래 f(x)를 고려해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-ReproducingKernelHilbertSpaceforMachineLearning_29.png" />
 
@@ -233,8 +431,18 @@ The Fourier transform of the aperiodic pulse function 𝑓(𝑥) is:
 
 이를 위해 '𝑓(𝑥)'를 특정 포인트의 커널들의 선형 결합으로 표현합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-ReproducingKernelHilbertSpaceforMachineLearning_31.png" />
 
@@ -244,7 +452,18 @@ The Fourier transform of the aperiodic pulse function 𝑓(𝑥) is:
 
 우리는 𝑓(𝑥)를 k(・, xᵢ)의 선형 조합으로 표현할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-19-ReproducingKernelHilbertSpaceforMachineLearning_33.png)
 
@@ -254,6 +473,17 @@ The Fourier transform of the aperiodic pulse function 𝑓(𝑥) is:
 
 ![image](/assets/img/2024-06-19-ReproducingKernelHilbertSpaceforMachineLearning_35.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-06-19-ReproducingKernelHilbertSpaceforMachineLearning_36](/assets/img/2024-06-19-ReproducingKernelHilbertSpaceforMachineLearning_36.png)

@@ -3,17 +3,13 @@ title: "AI가 당신의 직장에서 변화를 일으킬 7가지 방법과 그 �
 description: ""
 coverImage: "/assets/img/2024-06-23-7WaysHowAIWillChangeYourWorkplaceandWhyShouldYouCare_0.png"
 date: 2024-06-23 17:01
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-7WaysHowAIWillChangeYourWorkplaceandWhyShouldYouCare_0.png
 tag: Tech
 originalTitle: "7 Ways How AI Will Change Your Workplace, and Why Should You Care"
 link: "https://medium.com/datadriveninvestor/7-ways-how-ai-will-change-your-workplace-12c6cdd332f7"
 isUpdated: true
 ---
-
-
-
-
 
 다음 5~10년 동안 귀하의 직장은 근본적으로 다른 모습으로 변할 것입니다. 인공 지능, 사물 인터넷 및 로봇 과 같은 기술 덕분에 기존의 업무 방식이 급격히 변화할 것입니다. 미래의 일에는 큰 기회뿐만 아니라 조직에 많은 과제를 안겨줄 것입니다. 직원들과 경영진은 적응하고 더 똑똑하게 일해야 할 것입니다. 인공 지능은 귀하의 직업을 보조하고, 사물 인터넷은 세밀한 통찰력을 제공하며, 로봇은 많은 일자리를 대체할 것입니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 귀하의 일을 데이터화하는 것은 귀하의 사무실, 직장, 프로세스 및 제품을 스마트하게 만드는 것으로 시작합니다. 이는 이전에는 '보이지 않았던' 프로세스를 추적할 수 있게 해서 모니터링, 분석 및 최적화할 수 있도록 하는 것이습니다. 센서의 가격 하락, 저비용 대역폭 증가, 클라우드 컴퓨팅 및 처리 능력의 저렴한 가용성, 그리고 다양한 연결된 장치들을 이용해 다양한 프로세스, 제품 및 직장 전반에 걸쳐 데이터를 일관되고 보편적으로 캡처하는 데 더 쉽고 저렴해졌습니다. 데이터화와 디지턀화는 미래 일의 촉매제입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 따라서 데이터가 없으면 미래의 일자리는 없습니다. 앞서 말씀드린 대로, 미래의 일자리를 정의하는 세 가지 개념은 데이터, 분산화 및 자동화입니다. 이러한 기술들이 함께 작용하여 귀하의 직장을 근본적으로 변화시킬 것입니다. 그래서 떠오르는 기술들이 어떻게 미래 직장에 영향을 미칠지 살펴보겠습니다:
 
@@ -33,7 +40,18 @@ AI는 채용 프로세스를 개선하는 데 이상적인 기술입니다. 이 
 
 후보자 파이프라인을 식별하거나 작업 신청에 응답하는 대규모의 후보자 그룹을 보유한 경우, AI를 사용하여 회사에 적합한 적절한 후보자를 선택하는 데 도움을 받을 수 있습니다. AI를 활용하여 (원격) 근로자들을 고용하는 데 도움이 되는 수십 개의 AI 기반 도구가 있습니다. AI를 사용하여 후보자의 기술, 성격 및 조직 적합성을 평가할 수 있습니다. 예를 들어, Filtered 회사는 데이터 과학자와 엔지니어를 위한 평가를 제공합니다. 각 평가는 AI를 사용하여 분석됩니다. 얼굴 인식을 통해 부정행위를 감지하고 결과는 이메일함에 들어가기 전에 걸러지므로, 최고의 엔지니어를 고용할 때 리쿠르터의 시간을 절약할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 얼굴 인식 기술은 채용 담당자들이 후보자를 평가하는 데 증가하는 기술 중 하나입니다. 보다시피, AI로 인간 채용 담당자를 대체함으로써 Vodafone, 싱가포르 항공, Unilever를 포함한 회사들은 매년 수백만 달러를 절약하고 있습니다. HireVue가 개발한 기술 덕분에 이러한 회사들은 더 적은 시간에 많은 후보자를 선정할 수 있어서 적합한 지원자를 쉽게 찾을 수 있게 되었습니다.
 
@@ -43,7 +61,18 @@ AI는 채용 프로세스를 개선하는 데 이상적인 기술입니다. 이 
 
 특히 대규모 조직들에게는 AI가 지리적으로 분산된 직원들 간의 지식을 캡처하고 찾고 공유하며 유지하는 것을 더 쉽게 만들 것입니다. 대부분의 기관들에게 지식을 캡처하고 공유하는 것은 문제가 되지 않았습니다. 위키와 내부망 같은 많은 도구들이 그 역할을 해왔습니다. 그러나 조직이 클수록, 올바른 직원을 위한 올바른 지식을 찾기가 더 어려워집니다. 바로 그런 상황에 AI가 필요한 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 의미 검색 및 자연 언어 처리 기술을 활용하면 적절한 지식을 더 쉽게 찾을 수 있어요. 최근에 자신들의 검색 알고리즘을 업데이트하여 더 복잡한 검색 쿼리를 더 잘 이해하기 위해 노력한 구글과 같이, 기업들도 AI를 활용하여 직관적으로 더 빨리 적절한 정보를 찾을 수 있어요.
 
@@ -53,7 +82,18 @@ AI는 또한 상이하지만 관련된 데이터 소스를 연결하는 데 도�
 
 # 3. 지능적인 원격 근무
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AI를 사용하면 원격 근무자 채용을 개선할 수 있을 뿐만 아니라 원격 근무 자체를 개선하는 데도 활용될 수 있습니다. 원격 AI는 원격 근무자들이 보통 수동적으로 처리해야 하는 관리 작업을 자동화하여 많은 시간을 절약할 수 있게 도와줍니다.
 
@@ -63,7 +103,18 @@ AI를 사용하면 원격 근무자 채용을 개선할 수 있을 뿐만 아니
 
 # 4. 직장 환경 최적화
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 프로세스, 장치, 인프라 또는 고객 접점은 인터넷에 연결된 센서를 포함하여 스마트하게 만들 수 있습니다. 연결된 기기 수가 기하급수적으로 증가하면서, 이제 이전보다 쉬워졌습니다. 가까운 미래에는 센서와 연결된 기기가 스마트 홈, 스마트 오피스 및 스마트 시티로 이어질 것입니다. 따라서 직원들은 인공 지능이 개인화된 직원 경험을 창출할 스마트 직장에 대비해야 합니다.
 
@@ -73,7 +124,18 @@ AI를 사용하면 원격 근무자 채용을 개선할 수 있을 뿐만 아니
 
 귀하의 기업 문화는 실시간으로 조치를 취할 수 있고, 결정을 자동화하며, 직원들을 권한을 부여하는 데이터 중심 문화로 변화해야 합니다. 인공 지능은 기업 전반에서 의사 결정을 개선하고, 어떤 기회를 잡아야 하는가를 이해하는 데 도움을 줍니다. 가까운 미래에는 인공 지능이 인간의 의사 결정을 자동화된 의사 결정으로 대체하는 고급 자동화 분석을 용이하게 할 것입니다. 이러한 분석을 통해 기업은 예를 들어 최상의 마케팅 메시지를 자동으로 선택할 수 있게 되어 마케팅 담당자가 이러한 결정을 내리지 않아도 되는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 따라서, 인공지능은 관리진과 직원들에게 서술적, 예측적, 그리고 처방적 분석을 활용한 고급 통찰을 제공할 것입니다. 이는 경험과 전문지식을 기반으로 하는 전통적인 의사 결정 방식이 데이터 기반의 의사 결정 방식으로 대체됨을 의미합니다. 조직이 더 많은 사람들에게 지식에 접근할 수 있게 되면 권력이 더 공정하게 분배되어 조직 내 직원들의 권한이 높아집니다. 이 권력의 이동은 빅데이터 분석의 모든 이점을 최대로 누리기 위해 필요하며, 당신의 문화를 크게 바꿀 것입니다.
 
@@ -83,7 +145,18 @@ AI를 사용하면 원격 근무자 채용을 개선할 수 있을 뿐만 아니
 
 예를 들어, AI 기반의 챗봇은 고객들에게 매끄러운 경험을 제공하고 가장 기본적인 질문에 즉각적으로 대답할 수 있습니다. 또는 인공지능은 예를 들어 판매 전화를 분석하고 실시간으로 판매 관리자에게 고객과의 커뮤니케이션을 개선할 수 있는 조언을 제공할 수도 있습니다. Chorus라는 회사는 대화로부터 숨은 통찰을 발굴하여 거래를 더 많이 성사할 수 있도록 도와줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 조직이 AI를 성공적으로 구현하면, 참여자(인간 및 인공물) 간의 새로운 협력 방식은 지속적인 생산성 성장을 보장할 것입니다.
 
@@ -93,7 +166,18 @@ AI를 사용하면 원격 근무자 채용을 개선할 수 있을 뿐만 아니
 
 챗봇은 올바른 시기에 올바른 고객에게 미세 교육 수업을 제공할 수 있습니다. Hodges-Mace의 교육 및 개발 부문 책임자 인 Miguel Caraballo가 얘기했듯이, “상상해보세요, 귀하의 신입 영업 사원이 고객을 방문하기로 합니다. 주차장에 입장하자마자 회사의 학습 봇이 그녀의 휴대폰을 향해 미세 교육 수업을 보여줄 것을 제안하며 긍정적인 첫인상에 대한 미세 교육 수업과 관련된 '회사 소개' 페이지 링크 및 그녀의 매니저 마지막 코칭 노트를 제공합니다. 이제 이것이 개인 맞춤형 학습 경험입니다".
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한, 채용 프로세스 중 평가를 분석하는 AI와 비슷하게, AI는 교육 결과를 분석하고 누락된 기술에 따라 맞춤형 교육 프로그램을 제공할 수 있습니다. Hive Learning 회사는 직원들이 더 잘, 빠르고 효율적으로 학습할 수 있도록 돕는 AI를 활용합니다. 이 회사는 AI가 행동 변경을 촉진하는 모바일 우선 및 동료 간 학습에 초점을 맞춥니다.
 
@@ -103,7 +187,18 @@ AI를 사용하면 원격 근무자 채용을 개선할 수 있을 뿐만 아니
 
 AI는 점점 더 많은 작업을 자동화할 것입니다. 기존의 작업 프로세스를 혼란스럽게 만들고, 보강하며 개선할 것입니다. 결과적으로 인간들은 조직 내 사람들 (귀하의 직원 및 고객)에 더 집중할 수 있어 조직을 더 인간적으로 만들 것입니다. 직원과 AI를 조화롭게 조화롭게 조화롭게 조화롭게 조화롭게 조화롭게 조화롭게 조화롭게 조화롭게 조화롭게 조화록 리고 하 구. 그러나 AI를 무시하는 조직은 빨리 불필요해질 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제까지 제 이야기를 주의 깊게 들어주셨다면, 더 많은 내용을 받고 싶으시다면 댓글을 남기거나 제 주간 뉴스레터를 구독해주세요:
 

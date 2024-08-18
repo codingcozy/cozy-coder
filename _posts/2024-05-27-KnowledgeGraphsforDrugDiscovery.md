@@ -3,17 +3,13 @@ title: "약물 발견을 위한 지식 그래프"
 description: ""
 coverImage: "/assets/img/2024-05-27-KnowledgeGraphsforDrugDiscovery_0.png"
 date: 2024-05-27 14:48
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-KnowledgeGraphsforDrugDiscovery_0.png
 tag: Tech
 originalTitle: "Knowledge Graphs for Drug Discovery"
 link: "https://medium.com/@DattarajR/knowledge-graphs-for-drug-discovery-e1485d368fbd"
 isUpdated: true
 ---
-
-
-
-
 
 ![Knowledge Graphs for Drug Discovery](/assets/img/2024-05-27-KnowledgeGraphsforDrugDiscovery_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 약물 발견 분야에서 지식 그래프의 주요 응용 중 하나는 타겟 우선 순위 지정입니다. 다양한 데이터셋을 통합함으로써, 지식 그래프는 연구자들이 약물 개발을 위해 생물학적 타겟을 식별하고 우선 순위를 지정할 수 있도록 합니다. 데이터의 상호 연결된 특성은 유전자, 단백질, 경로 및 질병 사이의 복잡한 관계를 이해하는 데 도움이 되어, 추구해야 할 타겟에 대해 보다 정보에 기초한 결정을 내릴 수 있게 합니다. [더 읽기]
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 약물 재포지셔닝
 
@@ -34,7 +40,18 @@ isUpdated: true
 
 지식 그래프와 인공지능(AI)의 통합은 그들의 능력을 더욱 향상시킵니다. AI 알고리즘은 지식 그래프 내 복잡한 관계를 분석하여 예측과 데이터 분석의 정확성을 향상시킵니다. AI와 지식 그래프 사이의 시너지는 연구자들이 새로운 통찰을 발견하고 약물 발견에서 더 나은 결정을 내릴 수 있도록 도와줍니다. [더 읽기]
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # TransR Model for Enhanced Link Prediction
 
@@ -44,7 +61,18 @@ TransR 모델은 지식 그래프에서의 사용으로 약물 발견 분야에�
 
 지식 그래프와 대형 언어 모델 (LLMs)의 결합이 다양한 약물 발견 작업에서 기존 방법을 능가하는 것으로 입증되었습니다. 지식 그래프의 구조화된 표현은 LLM의 고급 자연어 처리 기능과 결합되어 더 나은 데이터 통합, 패턴 인식 및 가설 생성이 가능하게 합니다. 이 통합은 복잡한 생물의학적 질문을 효과적으로 다루며, 약물 발견 파이프라인을 간소화합니다. [더 읽기]
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Drug Repurposing을 위한 설명 가능한 AI
 
@@ -54,7 +82,18 @@ TransR 모델은 지식 그래프에서의 사용으로 약물 발견 분야에�
 
 AIDTox 모델은 인간이 이해할 수 있는 딥러닝 모델로, 지식 그래프를 활용하여 약물 및 화학 물질의 독성에 대한 포괄적인 설명을 제공합니다. 화학물질-유전자 연결 및 유전자-경로 관계의 편집된 지식을 통합함으로써, AIDTox는 해석 가능한 예측을 생성하여 연구자들이 부작용 약물 반응과 화학물질의 독성을 이해하는 데 도움이 됩니다. [더 알아보기]
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 생체 의학 지식 그래프 학습
 
@@ -64,7 +103,18 @@ AIDTox 모델은 인간이 이해할 수 있는 딥러닝 모델로, 지식 그�
 
 교차적인 생체 의학 지식 그래프에 자연어 처리(NLP) 파이프라인을 통합함으로써 복잡한 생체 의학 데이터를 대표하고 분석하는 능력을 향상시킵니다. 이 통합은 구조화되지 않은 생체 의학 문헌으로부터 가치 있는 통찰을 추출하므로 지식 그래프의 정확성과 포괄성을 향상시키고, 이로써 더 효과적인 약물 발견과 재활용을 가능하게 합니다. [더 읽기]
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 의약품 발견 애플리케이션
 

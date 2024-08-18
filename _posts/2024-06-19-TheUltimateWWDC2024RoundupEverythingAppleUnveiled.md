@@ -3,17 +3,13 @@ title: "2024 WWDC 최종 요약 애플이 공개한 모든 것"
 description: ""
 coverImage: "/assets/img/2024-06-19-TheUltimateWWDC2024RoundupEverythingAppleUnveiled_0.png"
 date: 2024-06-19 01:12
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-TheUltimateWWDC2024RoundupEverythingAppleUnveiled_0.png
 tag: Tech
 originalTitle: "The Ultimate WWDC 2024 Roundup: Everything Apple Unveiled"
 link: "https://medium.com/@vizllx/the-ultimate-wwdc-2024-roundup-everything-apple-unveiled-78e36a5b5053"
 isUpdated: true
 ---
-
-
-
-
 
 애플의 WWDC 2024는 혁신적인 발표와 혁신적인 발전으로 기술 세계를 다시 한 번 들썩이게 만들었습니다. 하드웨어 업그레이드부터 소프트웨어 향상까지, 올해 개발자 컨퍼런스에서 발표된 모든 것을 종합적으로 살펴보세요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 가장 빛나는 스타는 의심의 여지 없이 iPad Pro M4였습니다. 애플의 최신 iPad Pro는 혁신적인 M4 칩을 장착하여 이제껏 없었던 성능과 효율성을 약속합니다. 창작가이든 강력한 사용자이든, iPad Pro M4는 당신의 작업 흐름을 높일 수 있도록 디자인되었습니다. 화려한 디스플레이, 향상된 그래픽, 그리고 원활한 멀티태스킹 능력을 기대해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - M4 칩으로 번개 같은 빠른 성능
 - 향상된 선명도와 색상 정확도를 갖춘 ProMotion 디스플레이
@@ -35,7 +42,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-19-TheUltimateWWDC2024RoundupEverythingAppleUnveiled_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 개인정보 보호 설정이 개선되었어요
 
@@ -45,7 +63,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-19-TheUltimateWWDC2024RoundupEverythingAppleUnveiled_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 새로운 위젯 및 사용자 정의 기능
 
@@ -55,8 +84,18 @@ isUpdated: true
 
 최신 macOS 15 업데이트는 강력한 새로운 도구와 모든 Apple 기기에서 완벽한 경험을 소개합니다. 다듬어진 미학과 개선된 통합으로 macOS 15는 맥이 디지털 생활의 중심에 남아있도록 보장합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image 1](/assets/img/2024-06-19-TheUltimateWWDC2024RoundupEverythingAppleUnveiled_5.png)
 
@@ -66,16 +105,35 @@ isUpdated: true
 
 - Redesigned Safari with new privacy features
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Enhanced productivity tools for professionals](/assets/img/2024-06-19-TheUltimateWWDC2024RoundupEverythingAppleUnveiled_7.png)
 
 ![⌚ WatchOS 11: Your Ultimate Health Companion](/assets/img/2024-06-19-TheUltimateWWDC2024RoundupEverythingAppleUnveiled_8.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 WatchOS 11는 애플 워치 경험을 더욱 발전시킬 예정입니다. 새로운 건강 추적 기능, 더 많은 운동 옵션, 그리고 신선한 인터페이스로, 건강을 유지하고 연결되는 것이 이제 더 쉬워졌어요.
 
@@ -85,7 +143,18 @@ WatchOS 11는 애플 워치 경험을 더욱 발전시킬 예정입니다. 새�
 
 ![이미지2](/assets/img/2024-06-19-TheUltimateWWDC2024RoundupEverythingAppleUnveiled_10.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 새로운 운동 모드와 피트니스 챌린지
 
@@ -95,14 +164,35 @@ WatchOS 11는 애플 워치 경험을 더욱 발전시킬 예정입니다. 새�
 
 # 💼 새로운 맥북 에어와 맥북 프로: 강력함과 휴대성의 만남
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 맥북 에어와 맥북 프로의 새로운 모델은 전례없는 파워와 효율을 제공하는 M4 칩을 탑재했습니다. 멋진 레티나 디스플레이, 긴 배터리 수명 및 최고 수준의 성능으로, 학생부터 프로페셔널까지 누구에게나 완벽한 노트북입니다.
 
 - 우수한 성능을 위한 M4 칩
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 오랜 배터리 수명
 
@@ -112,7 +202,18 @@ WatchOS 11는 애플 워치 경험을 더욱 발전시킬 예정입니다. 새�
 
 ![image2](/assets/img/2024-06-19-TheUltimateWWDC2024RoundupEverythingAppleUnveiled_15.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 🌐 증강 현실 및 가상 현실 혁신
 
@@ -124,7 +225,18 @@ WatchOS 11는 애플 워치 경험을 더욱 발전시킬 예정입니다. 새�
 
 # 🍻 읽어 주셔서 감사합니다, 떠나시기 전에:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Apple의 WWDC 2024는 개발자들에게 흥미로운 소식을 가져왔어요. 특히 Swift 및 SwiftUI의 최신 업데이트에 대한 소식이였죠. 이러한 개선 사항들은 코딩을 더 효율적이고 직관적이며 강력하게 만들기 위해 설계되었어요. 이에 대한 자세한 내용은 다음 기사에서 다룰 예정이에요.
 

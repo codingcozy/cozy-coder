@@ -3,16 +3,13 @@ title: "마이크로파이썬PyCharms로 시작하기 기본 설정"
 description: ""
 coverImage: "/assets/img/2024-05-27-MicroPythoninPyCharmsBasicSetup_0.png"
 date: 2024-05-27 13:41
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-MicroPythoninPyCharmsBasicSetup_0.png
 tag: Tech
 originalTitle: "MicroPython in PyCharms: Basic Setup"
 link: "https://medium.com/@andymule/micropython-in-pycharms-basic-setup-9169b497ec8a"
 isUpdated: true
 ---
-
-
-
 
 지난 기사에서는 ESP32에 Python을 설치하고 실행하는 방법을 안내했어요. 하지만 해당 기사는 Thonny를 Python 코드를 마이크로컨트롤러에 작성하는 데 사용할 수 있는 편집기로 소개하며 끝이 났죠. 이는 기초 학습 및 신속하게 시작하는 데에는 훌륭한 도구이지만, 진정한 현대 IDE의 모든 기능을 제공하지는 못합니다. 만약 "진짜" 작업을 수행하고 싶다면 가능한 모든 도움이 필요할 거예요. 이 기사에서는 PyCharm에 대해 알아보도록 할게요. 다음 기사에서는 프로세스를 완전히 자동화하여 놀라운 효율성으로 작업할 수 있도록 할 것이에요.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 JetBrains PyCharm을 소개합니다. 오늘날 파이썬 코딩을 위한 최고의 IDE입니다. 여러분이 전체 잠재력을 발휘할 수 있도록 도와주는 인상적인 기능 범위를 제공합니다. 설정에 큰 부담을 주지 않으면서 최대한의 도움을 받을 수 있어요. (Python 확장 프로그램이 있는 VSCode도 훌륭하지만, 개인적으로는 상당히 초보자 친화적이지 않다고 생각해요.) 여기서 Community 버전을 다운로드하세요. 지금 당장 해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 파이참에 MicroPython 플러그인 설치하기
 
@@ -32,7 +40,18 @@ JetBrains PyCharm을 소개합니다. 오늘날 파이썬 코딩을 위한 최�
 
 # 새로운 프로젝트 시작, Micro으로 설정
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![마이크로파이썬 프로젝트 설정](/assets/img/2024-05-27-MicroPythoninPyCharmsBasicSetup_2.png)
 
@@ -42,7 +61,18 @@ JetBrains PyCharm을 소개합니다. 오늘날 파이썬 코딩을 위한 최�
 
 ![장치 포트 찾기](/assets/img/2024-05-27-MicroPythoninPyCharmsBasicSetup_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아직 설정 창에 있습니다. Project: YourName`Project Structure`로 이동합니다. .idea를 마우스 오른쪽 버튼으로 클릭하고 "제외됨"으로 표시하세요. 이 .idea 폴더 안의 파일은 PyCharm을 위한 특정 설정 파일이므로 제외하면 이 파일이 ESP32로 복사되는 것을 방지하게 됩니다. 그렇게 하면 이 파일들이 무용한 공간을 차지하지 않게 됩니다. 그것들에 목적을 부여하고 그대로 두어보세요.
 
@@ -52,13 +82,35 @@ JetBrains PyCharm을 소개합니다. 오늘날 파이썬 코딩을 위한 최�
 
 # 프로젝트에 추가하세요, 미친놈 같은^^
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트 구조를 확인하고 싶다면, 파일 탐색기를 보려면, 아래쪽 왼쪽에 있는 1:Project 버튼을 클릭하거나, Alt + 1을 눌러서 마법 같이 나타나게 합니다. 프로젝트와 동일한 이름을 가진 폴더를 보세요. 제 경우에는 MicroTest입니다. 이 곳에 ESP32에 전송할 파일을 만들어야 합니다. 그러면 시작해보죠.
 
 폴더 이름을 마우스 오른쪽 버튼 클릭하여 New Python File로 이동하세요. 그리고 main.py로 이름 짓기.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특정 파일이 ESP가 시작될 때마다 자동으로 실행됩니다. 이것은 당신의 주요 큰 소년, 당신의 흔듬, 삼바 파트너, 그리고 2k30 스퀴즈 마스터입니다. 이제 그것을 만드세요. 에디터에서 열기
 
@@ -68,7 +120,18 @@ JetBrains PyCharm을 소개합니다. 오늘날 파이썬 코딩을 위한 최�
 
 ![이미지](/assets/img/2024-05-27-MicroPythoninPyCharmsBasicSetup_8.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 프로그램 업로드
 
@@ -78,7 +141,18 @@ JetBrains PyCharm을 소개합니다. 오늘날 파이썬 코딩을 위한 최�
 
 왼쪽의 프로젝트 브라우저(숨겨져 있으면 alt+1)에서 main.py 파일을 마우스 오른쪽 버튼으로 클릭하고 'Flash main.py'을 선택하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `<img src="/assets/img/2024-05-27-MicroPythoninPyCharmsBasicSetup_10.png" />`
 
@@ -88,8 +162,18 @@ JetBrains PyCharm을 소개합니다. 오늘날 파이썬 코딩을 위한 최�
 
 # 장치에 연결하여 프로그램이 컴퓨터 작업을 수행하는 것을 확인하세요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-05-27-MicroPythoninPyCharmsBasicSetup_12.png)
 
@@ -99,8 +183,18 @@ PyCharm에서 Tools -> MicroPython -> MicroPython REPL로 이동하십시오. �
 
 ![image](/assets/img/2024-05-27-MicroPythoninPyCharmsBasicSetup_14.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 연결된 상태라면 기기에 리셋 버튼이 있다면 지금 눌러보세요. 그러면 부팅 중인 다양한 "쓰레기"가 화면에 나타날 거에요. 이를 '하드 리부트'라고 해요, 잠깐 동안 전원을 끄고 다시 시작하는 것이거든요.
 
@@ -108,7 +202,18 @@ PyCharm에서 Tools -> MicroPython -> MicroPython REPL로 이동하십시오. �
 
 이 둘 다에서 화면에 놀라운 온전하게 찍힌 텍스트를 볼 수 있을 거예요. 여보세요, 매력적인 세상!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 시리얼 연결에 관한 몇 가지 매우 중요한 참고 사항
 
@@ -118,7 +223,18 @@ PyCharm에서 Tools -> MicroPython -> MicroPython REPL로 이동하십시오. �
 
 ![이미지](/assets/img/2024-05-27-MicroPythoninPyCharmsBasicSetup_16.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이는 거의 항상 다른 장치가 어딘가에 여전히 연결되어 있음을 의미합니다. PyCharm에는 이를 해결하는 훌륭한 기능이 있습니다. 간단히 마우스 오른쪽 버튼을 클릭하고 "모두 닫기"를 선택하면 됩니다. 다시 시도하면 성공적으로 연결될 것입니다. 간단죠!
 
@@ -128,7 +244,18 @@ PyCharm에서 Tools -> MicroPython -> MicroPython REPL로 이동하십시오. �
 
 ![이미지](/assets/img/2024-05-27-MicroPythoninPyCharmsBasicSetup_18.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아마 이미 보셨을 거에요. 백스페이스 처리를 정말 잘 못하죠. 사실 엄청 잘 처리하고 있긴 한데, 보여지는 건 우리가 이상한 쓰레기를 본답니다 ?[. 짜증나죠, 근데 우리는 여기서 타이핑을 할 기회가 많지 않을 거에요, 그래서 필요할 때 그냥 감수해야 해요.
 

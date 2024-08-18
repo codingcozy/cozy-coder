@@ -3,17 +3,13 @@ title: "시계열 예측에 딥러닝이 필요 없는 이유 현재 기준"
 description: ""
 coverImage: "/assets/img/2024-06-22-WhyYouCurrentlyDoNotNeedDeepLearningforTimeSeriesForecasting_0.png"
 date: 2024-06-22 20:17
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-WhyYouCurrentlyDoNotNeedDeepLearningforTimeSeriesForecasting_0.png
 tag: Tech
 originalTitle: "Why You (Currently) Do Not Need Deep Learning for Time Series Forecasting"
 link: "https://medium.com/towards-data-science/why-you-currently-do-not-need-deep-learning-for-time-series-forecasting-0de57f2bc0ed"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-22-WhyYouCurrentlyDoNotNeedDeepLearningforTimeSeriesForecasting_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 그래서 이 기사에서는 여러분에게 어떤 것이 작동하는지 보여드리고 싶습니다. 여러 가지 방법을 소개해 드릴 것이며 이들은 다양한 방법으로 검증되었습니다. Makridakis M5 대회 및 Kaggle AI 보고서 2023의 연구 결과를 활용해 제 경험과 비교해 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마크리다키스 대회는 실제 데이터 세트에서 예측 방법을 비교합니다. 실제로 어떤 것이 효과적인지를 보여줍니다. 거의 40년 전에 시작된 이 대회의 연구 결과는 변화했습니다. 처음 세 개의 대회(M1 ~ M3)에서는 통계 모델이 우세했습니다. M4 대회에서는 기계 학습 모델이 혼합 접근법의 형태로 잠재력을 드러냈는데, 해당 방법은 기계 학습 모델과 통계적 방법을 결합한 것입니다.
 
@@ -33,7 +40,18 @@ M5 대회에서는 참가자들이 월마트의 계층적 판매량을 예측해
 
 추신으로, 캐글이 M5 대회를 주최했습니다. 따라서 이 대회는 다른 캐글 대회에 참가한 많은 사람들의 관심을 끌었습니다. 결과적으로 캐글 AI 보고서와 M5 대회의 결과가 매우 유사한 이유가 될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 결과를 한 번 살펴볼까요?
 
@@ -43,7 +61,18 @@ M5 대회에서는 참가자들이 월마트의 계층적 판매량을 예측해
 
 특히 Gradient Boosting Machines (GBMs)는 M5와 캐글 대회에서 모두 우세합니다. 가장 성공적인 것들은 LightGBM, XGBoost 및 CatBoost입니다. 많은 피쳐의 효과적인 처리, 거의 또는 전혀 데이터 전처리와 변환이 필요하지 않은 점, 빠른 학습 속도 및 피쳐 중요성을 정량화하는 능력 등은 최근 몇 년간 최고의 공급 모델 중 하나로 만들어줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실험하기에 매우 편리하며 빠른 반복이 가능하여 최적의 특징을 식별하는 데 중요합니다. 또한 몇 가지 하이퍼파라미터만 최적화하면 됩니다. 종종 기본 설정만으로도 좋은 성능을 얻을 수 있습니다. 따라서 많은 시계열 문제에서 주로 사용되는 알고리즘이 되어갔습니다.
 
@@ -53,7 +82,18 @@ M5 대회에서는 참가자들이 월마트의 계층적 판매량을 예측해
 
 # 통계적 방법은 여전히 가치가 있습니다
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ML 방법은 종종 통계 모델보다 우수한 성능을 보이지만, 우리는 통계 모델을 잊어서는 안 됩니다. M5 정확도 대회에서 팀 중 92.5%가 기존의 예측 방법인 간단한 기준선 방법을 이기지 못했습니다. ML 모델을 사용한다고 해서 최상의 성능이 보장되는 것은 아닙니다. 더구나, 이러한 모델을 개발하는 데 더 많은 시간이 걸립니다.
 
@@ -63,7 +103,18 @@ ML 방법은 종종 통계 모델보다 우수한 성능을 보이지만, 우리
 
 저는 보통 기준선으로 가장 간단한 모델부터 시작합니다. 제 경험 상, 간단한 통계 기준선 모델은 종종 이길 수 없는 경우가 많습니다. 게다가, ML 모델을 개발하는 데 필요한 시간 대비 매우 짧은 시간이 걸립니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 앙상블은 성능을 향상시킵니다
 
@@ -73,7 +124,18 @@ M5와 카글 대회에서 다양한 모델을 결합하면 종종 더 나은 예
 
 앙상블은 모델 성능을 향상시키지만 실제 응용 프로그램에서는 단점이 있습니다. 복잡성이 늘어나면 설명 가능성이 감소하고 프로덕션 환경에서 유지하기가 더 어려워집니다. 그러므로 매우 복잡한 앙상블은 종종 사용되지 않습니다. 일반적으로 더 간단한 대안은 충분히 좋은 결과를 제공하면서 유지보수하기가 더 쉽습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실제 응용 프로그램에서 앙상블 사용의 이점을 보았어요. 저에게는 보통 두 가지 접근 방식이 가장 잘 작동했어요. 하나는 LightGBM과 같은 동일 유형의 모델을 결합하는 접근 방식이에요. 이 모델들은 서로 다른 손실 함수로 훈련되죠. 다른 하나는 서로 다른 특성으로 훈련된 모델을 사용하는 접근 방식이에요. 이 두 가지 접근 방식을 선호하는데, 구현하기 쉽고 빠르게 테스트할 수 있기 때문이죠. 손실 함수를 바꾸거나 모델 입력을 변경할 뿐 나머지 파이프라인은 동일한 채로 유지할 수 있어요.
 
@@ -83,7 +145,18 @@ M5와 카글 대회에서 다양한 모델을 결합하면 종종 더 나은 예
 
 과학 문헌과 적용된 기계 학습 시계열 예측 간에 간극이 보여요. 과학 문헌은 주로 딥러닝 모델에 초점을 맞추지만, 실무에서는 잘 사용되지 않아요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 왜 그런 큰 격차가 있는 걸까요? 논문들은 그들의 모델이 기계 학습 및 통계 모델들을 이기는 것을 보여줍니다. 그럼에도 불구하고 왜 아무도 그것들을 사용하지 않을까요? 왜냐하면 딥 러닝 접근법은 종종 현실 세계 응용에서 성공적이지 않을 수도 있기 때문입니다. 게다가, 그들을 훈련하는 데 매우 비용이 많이 들 수도 있습니다.
 
@@ -93,7 +166,18 @@ M5와 카글 대회에서 다양한 모델을 결합하면 종종 더 나은 예
 
 Transformer와 같은 딥 러닝 접근법은 NLP에 대해 잘 작동하지만 시계열에 대해서는 그렇지 않습니다. 두 작업 모두 값들의 순서로 보이기는 하지만, 실제로는 그렇지 않습니다. NLP에서는 맥락이 중요하지만, 시계열에서는 순서가 중요합니다. 이것은 잘 작동하는 접근법에 큰 영향을 미치는 작은 차이입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러므로 깊은 학습 모델을 훈련시키는 것이 가치가 있는지, 아마도 기계 학습 모델보다 더 낮은 성능을 낼 것이라는 생각을 할 수 있습니다. N-BEATS 및 N-HiTS와 같은 접근 방식을 시도해 보았지만, 이러한 모델들은 항상 성능이 떨어지고 ML 모델보다 훈련하는 데 훨씬 더 오랜 시간이 걸렸습니다. 그래서, 저는 이러한 모델들을 실제 예측 작업에 성공적으로 적용해 본 적이 없습니다.
 
@@ -103,7 +187,18 @@ Transformer와 같은 딥 러닝 접근법은 NLP에 대해 잘 작동하지만 
 
 실제 세계 데이터는 지저분하고 유용하게 사용하려면 많은 정리가 필요합니다. 그러므로, 좋은 피처를 찾기 위해 데이터를 정리하고 이해하는 데 많은 시간이 필요합니다. 이것이 저가 모델을 개발할 때 대부분의 시간을 보내는 곳입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Kaggle 대회에서는 특성 공학이 중요하다는 것이 반복적으로 증명되었습니다. 종종 특성의 품질이 해결 방법을 결정하는 중요한 요소가 됩니다. 데이터에서 가장 많은 정보를 추출하고 특성 간에 더 큰 차이를 만들어내는 팀들이 더 좋은 성능의 모델을 갖게 됩니다. 그러므로 특성을 만들고 선택하며 변형하는 데 시간을 소비하는 것은 중요합니다.
 
@@ -113,7 +208,18 @@ Kaggle 대회에서는 특성 공학이 중요하다는 것이 반복적으로 �
 
 때로는 다양한 특성을 생성하는 넓은 접근법이 도움이 될 수 있습니다. 예를 들어, 많은 외생 변수와 외부 데이터 소스가 제공되는 경우, 보통 변환 없이 그대로 사용하여 시작합니다. 여기서 변수 선택은 설명적 데이터 분석 결과와 그 안에서 찾은 내용에 따라 결정됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가끔 하나의 기능에 집중하고 여러 방법으로 확장하는 것이 더 나을 수 있어요. 예를 들어, 한정된 양의 데이터를 가지고 있다면요. 어떻게 하나의 기능을 확장할지는 해결하고자 하는 문제에 따라 다를 거에요. 평균, 표준편차, 최소값 및 최대값과 같은 창 기능을 사용하면 성능이 향상될 수 있어요. 때로는 다른 시차 기능만을 사용하는 것도 충분할 수 있어요.
 
@@ -123,7 +229,18 @@ M5 및 Kaggle 대회를 통해 도메인 지식이 좋은 기능을 찾는 데 �
 
 외부 데이터 사용은 예측 성능을 향상시키는 데 중요해요. 이들은 모델의 성능을 크게 향상시킬 수 있어요. M5 대회에서 외부 데이터를 사용한 모델이 오직 과거 데이터에만 의존한 모델보다 더 나은 성과를 거뒀어요. 이에 따라 이러한 설명 변수를 찾는 것이 현실 세계 응용 프로그램에서 중요해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가능한 한 많은 외부 요인을 식별하려고 노력합니다. 그런 다음 이러한 요인을 특성 엔지니어링 과정 중에 테스트합니다. 이는 공휴일과 같은 간단한 날짜 및 시간 관련 특성이나 다른 소스에서 가져온 데이터와 같이 될 수 있습니다. 제 선택은 추론 중에 데이터의 이용 가능성과 접근성에 따라 다릅니다.
 
@@ -133,7 +250,18 @@ M5 및 Kaggle 대회를 통해 도메인 지식이 좋은 기능을 찾는 데 �
 
 일반적으로 우리는 모델 개발 과정에서 많은 특성을 시도하므로 가능한 빨리 진행해야 합니다. 새로운 특성을 추가하는 것이 도움이 되는지 확인하기 위해 오래 기다리고 싶지 않습니다. 예를 들어, M5 정확도 대회에서 우승한 솔루션은 220개의 모델을 테스트했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 따라서, Kagglers는 모델 학습이 매우 빠르기 때문에 LightGBM을 주로 사용합니다. 따라서, 그들은 짧은 기간에 많은 실험을 실행할 수 있습니다.
 
@@ -143,7 +271,18 @@ M5 및 Kaggle 대회를 통해 도메인 지식이 좋은 기능을 찾는 데 �
 
 # 효과적인 교차 검증 전략이 중요합니다
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 효과적인 교차 검증 전략은 최상의 모델을 객관적으로 선택하는 데 중요합니다. 교차 검증을 활용한 로컬 검증 프로세스를 구축하여
 
@@ -159,7 +298,18 @@ M5와 캐글 경쟁은 이 중요성을 보여줍니다. M5 대회에서 많은 
 
 하지만 좋은 교차 검증 전략을 선택하는 것은 어려울 수 있습니다. 다양한 옵션이 있기 때문이죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 어떤 기간을 선택해야 하는가요?
 - 검증 창의 크기는 얼마인가요?
@@ -172,7 +322,18 @@ M5와 캐글 경쟁은 이 중요성을 보여줍니다. M5 대회에서 많은 
 
 Kaggle 및 M5 대회의 결과는 모든 데이터 세트와 문제에 대해 독특한 접근 방식이 필요하다는 것을 보여줍니다. 일반적인 해결책은 없습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떤 접근 방식이 동작하는지 결정하려면 우리의 지식과 경험이 필요합니다.
 
@@ -182,7 +343,18 @@ Kaggle 및 M5 대회의 결과는 모든 데이터 세트와 문제에 대해 �
 
 이로 인해 딥러닝 모델이 현재 실제 응용 프로그램에서 작동하지 않습니다. 그들은 상세한 특성 공학이 필요한 문제에 대해 일반적인 해결책을 제시하려고 시도합니다. 딥러닝 모델은 상세한 특성 공학이 필요한 필요성을 없애주어 우리 삶을 더 쉽게 만들어 줄 것을 약속합니다. 예를 들어, N-BEATS와 N-HiTS는 시계열에서 계절성 및 추세 구성 요소를 자동으로 찾는 것을 약속하지만, 시계열의 독특한 복잡성을 찾아내지는 못합니다. 반면, 우리의 지식으로는 이러한 복잡성을 찾아내어 ML 모델이 사용할 수 있는 특성으로 인코딩할 수 있으며, 이를 통해 딥러닝 모델을 이길 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -200,7 +372,18 @@ M5 대회와 2023 Kaggle AI 보고서는 시계열 예측에 중요한 것과 �
 - 효과적인 교차 검증 전략이 중요함
 - 각 문제마다 고유한 접근이 필요함
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 딥 러닝이 목록에 포함되어 있지 않다는 것을 확인할 수 있어요.
 
@@ -210,6 +393,17 @@ M5 대회와 2023 Kaggle AI 보고서는 시계열 예측에 중요한 것과 �
 
 이 글에서 유익한 정보를 많이 찾으셨으면 좋겠어요. 다음 시계열 예측 모델의 성능 향상에 도움이 되길 바랍니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 글에서 뵙겠습니다. 댓글도 남겨주세요!

@@ -3,17 +3,13 @@ title: "2023년 최신 Mac Mini M2 쇼핑 가이드 완벽한 구매 방법"
 description: ""
 coverImage: "/assets/img/2024-06-23-ThecompleteMacMiniM2shoppingguide2023_0.png"
 date: 2024-06-23 15:36
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-ThecompleteMacMiniM2shoppingguide2023_0.png
 tag: Tech
 originalTitle: "The complete Mac Mini M2 shopping guide (2023)"
 link: "https://medium.com/@darkghosthunter/the-complete-mac-mini-m2-shopping-guide-2023-2ead3f1547de"
 isUpdated: true
 ---
-
-
-
-
 
 ## 돈을 아끼고 싶은 분들을 위해
 
@@ -26,7 +22,18 @@ isUpdated: true
 - Mac Mini 24GB / 512GB (가격: $1,199, 교육용: $1,059)
 - Mac Mini 32GB / 512GB (가격: $1,699, 교육용: $1,559)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파고들기 전에 중요한 세 가지를 경고하고 싶어요:
 
@@ -36,7 +43,18 @@ isUpdated: true
 
 마지막으로 3D 렌더링이나 가상화를 위해 맥을 선택하지 마세요. PC가 더 저렴하고 성능면에서 더 우수할 것이고, 이러한 작업에 대해 완성도 있을 거에요. 이에 대한 노트는 이 글의 끝 부분에서 읽을 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에 언급한 모든 것을 고려할 때, 데스크톱 사용자들은 Mac Mini으로 빠져들어봅시다!
 
@@ -46,7 +64,18 @@ isUpdated: true
 
 기본 모델은 적당히 가벼운 머신이며, macOS에 익숙하지 않거나 컴퓨팅 세계에 낯선 사람들을 위한 것임이 명확합니다. 대형 문서 작성, 사진 정리, 프레젠테이션 제작, 포스터 또는 전단지 디자인 등 마우스, 키보드 및 큰 화면과 함께 하는 작업에 최적입니다. 여러 가족 구성원 간에 공유되더라도 문제없이 작동할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 함께 사는 룸메이트나 가족과 비용을 나눠 부담을 줄이면, 매일 오후에 사용하는 데 서로 싸우지 않는다면 좋은 결정이 될 수 있어요.
 
@@ -56,7 +85,18 @@ isUpdated: true
 
 저장 공간에 대해서는 일상적인 작업에는 빠르게 처리될 것이므로 일반 사용자는 전혀 차이를 느끼지 못할 것이에요. 다만 엄청난 운영에 대한 블레이징 속도나 지속적인 쓰기를 기대하지 마세요. 256GB 저장 버전은 최대 1,500 MB/s의 읽기와 쓰기를 지원하는 단일 NAND 플래시 칩을 사용해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기기는 RAM 및 저장 공간이 가장 필요한 무거운 전문 작업에는 적합하지 않습니다. 적어도 매일 그렇지는 않지만, 긴 여유로운 시간이 있다면 다른 컴퓨터와 마찬가지로 쓸모가 있을 것입니다.
 
@@ -66,9 +106,20 @@ isUpdated: true
 - 가벼운 비디오 게임
 - 가끔 또는 드물게 발생하는 과부하 작업 또는 다중 작업
 
-# Mac Mini 16GB / 256GB (￡799)
+# Mac Mini 16GB / 256GB (￡ 799)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 믿거나 말거나, 16GB RAM을 탑재한 맥 미니는 일부 엔트리 레벨 전문 업무에 대해 놀라운 성능을 발휘할 거예요. 예를 들어, 그래픽 디자인, 비디오 편집, 음악 제작 또는 소프트웨어 개발에 시작하는 사람들에게 유용할 거예요.
 
@@ -78,7 +129,18 @@ Max Tech의 형편없고 가장치는 RAM 비교 영상은 폐기하고 더 나�
 
 자, 공정한 점도 얘기해 볼게요. 그들은 최근에 다양한 벤치마크를 포함한 맥 미니 비교를 했다는 점을 부정하지 않겠어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 방안에 큰 코끼리는 포트의 수입니다. Mac Mini를 어디에 사용할 지에 따라 포트의 수를 확장하기 위해 허브를 구입해야 할 수도 있습니다. 이렇게 하면 Mac Mini를 M2 Pro 프로세서가 탑재된 Mac Mini로 업그레이드하거나 포트의 수만으로 Mac Studio로 업그레이드하는 것보다 훨씬 저렴합니다.
 
@@ -88,7 +150,18 @@ Mac Mini 허브 중 일부는 포트를 확장하고 NVMe나 SSD를 훌륭한 �
 
 어쨌든, 저장소와 허브에 대해 더 많은 세부 정보는 "컴퓨터의 나머지 부분" 섹션을 확인해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 좋은 점:
 
@@ -101,8 +174,18 @@ Mac Mini 허브 중 일부는 포트를 확장하고 NVMe나 SSD를 훌륭한 �
 
 이 모델의 사용 사례는 이전 Mac Mini 16GB / 256GB와 동일합니다. 정말 필요하다면 1TB를 추가 $200에 구입할 수 있지만, 더 싼 외부 저장 장치에 그 돈을 쓸 수 있는 경우에는 그것을 추천하지 않습니다. $999에 맞출 수 있도록 256GB로 줄이는 것이 더 좋습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Mac Mini M2 Shopping Guide](/assets/img/2024-06-23-ThecompleteMacMiniM2shoppingguide2023_1.png)
 
@@ -112,19 +195,39 @@ Mac Mini 허브 중 일부는 포트를 확장하고 NVMe나 SSD를 훌륭한 �
 
 기계를 낡을 때까지 사용하는 사람 중 한 명이라면, Mac Mini 업그레이드는 완전히 새로 사야하기 때문에 명백한 선택입니다. 그때 새 모델은 성능 면에서 훨씬 앞설 것입니다. 기계가 낡을 때까지 사용하지 않을 계획이라면 이것은 논외입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재인 2023년에는 16GB RAM이 장착된 기기가 대부분의 작업에 충분하며 요구되는 작업 및 멀티태스킹이 많이 필요한 소프트웨어에 여유를 남겨줍니다. 24GB RAM을 갖는 것은 기계를 몇 년 동안 관련성을 유지하는 데 도움이 될 수 있습니다. 심지어 CPU가 여전히 4×4 코어 구성 - 네 개의 "성능" 코어, 네 개의 "효율성" 코어인 경우에도요.
 
 전반적으로 볼 때, 이 모델은 M2 Pro 이전의 좋은 중간 지점입니다. 처리 성능이 부족한 상태가 아닌 한 - 그 때가 올 거에요. 이 모델은 RAM을 많이 가지고 있고, 가능하다면 더 큰 SSD를 장착하는 좋은 방법이며, 이로 인해 비용 면에서 40% 더 비싼 M2 Pro에 들어가기 전의 좋은 선택입니다. 이전 더 저렴한 모델에 따르면, 허브와 외부 저장소를 고려해보세요.
 
-
 좋은 점:
 
 - Mac Mini 16GB / 256GB와 같은 용법들.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Mac Mini (M2 Pro) 32GB / 512GB ($1,699)
 
@@ -134,7 +237,18 @@ Mac Mini 허브 중 일부는 포트를 확장하고 NVMe나 SSD를 훌륭한 �
 
 이전 문장으로 볼 때, Mac Mini 32GB / 512GB의 M2 Pro는 Mac Studio에 대비해서 가성비가 좋은 제안 같아 보이지만, 그렇지 않아요. 이것은 RAM이 32GB인 가장 저렴한 모델이며, 스토리지를 256GB로 다운그레이드하면 $200을 저장할 수 없어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어쨌든, 이 모델이 이전 저렴한 Mac Mini 모델보다 선택되어야 하는 세 가지 시나리오가 있습니다:
 
@@ -146,7 +260,18 @@ M2 Pro (6×4 CPU, 16코어 GPU, 200GB/s)는 처음에는 성능의 거대한 도
 
 성능의 도약에 대해 이야기할 때, 이 Mac Mini을 꼭 가져야 할 제품으로 생각하세요. 더 많은 포트와 M2 Max(8×4 CPU, 30코어 GPU, 400GB/s)가 있는 기본 Mac Studio ($1,999)을 선택하는 것이 더 나은 선택이라고 주장할지 모릅니다만, 300달러의 차이가 납니다. 저는 이에 반박하겠습니다: 그 금액으로는 64GB RAM이 탑재된 Mac Studio ($2,399)를 목표로 해야 합니다. 기본 모델보다 20% 더 비싸기 때문에 평생 사용할 수밖에 없습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 물론 16GB RAM이 장착된 M2 Pro를 목표로 삼지 마세요. 대신 저렴한 맥 미니를 구입하세요. RAM이 부족한 느낌은 무겁고 복잡한 소프트웨어를 한꺼번에 실행할 때 느껴질 거예요. 새벽 3시에 포토샵, 일러스트레이터, 인디자인, 피그마, 왓츠앱, 그리고 크롬을 함께 사용하는 모습을 봤어요.
 
@@ -159,7 +284,18 @@ M2 Pro (6×4 CPU, 16코어 GPU, 200GB/s)는 처음에는 성능의 거대한 도
 - 3D 디자인, 프로토타이핑, 모델링
 - 코드 작성, 미리보기, 소프트웨어 디버깅을 위해 3개의 모니터 사용
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 컴퓨터의 나머지는 어디에 있나요?
 
@@ -169,7 +305,18 @@ M2 Pro (6×4 CPU, 16코어 GPU, 200GB/s)는 처음에는 성능의 거대한 도
 
 ## 좋은 모니터, 잘못된 모니터
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래픽 작업을 하는 사용자들은 큰, 정확한 색상을 보여주는 모니터를 고려할 것입니다. 만약 macOS와 인증된 프로페셔널급 옵션을 이미 선택했거나 쇼핑카트에 넣었다면, 그만두시고 다음 단계로 넘어가세요.
 
@@ -182,8 +329,18 @@ M2 Pro (6×4 CPU, 16코어 GPU, 200GB/s)는 처음에는 성능의 거대한 도
 
 1080p 모니터는 Mac Mini에 매우 잘 작동할 것이지만, 더 큰 모니터를 원하거나 두 대를 사용하길 원할 수도 있습니다. 대부분의 1080p 모니터는 $100 정도에 구매할 수 있지만, ASUS VG246H ($150)를 강력히 추천합니다. 1080p 울트라 와이드 모니터인 LG 26WQ500 ($130)와 더 큰 LG 29WQ600 ($200)도 매력적이며, 가치 있는 선택이라고 생각합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![사진](/assets/img/2024-06-23-ThecompleteMacMiniM2shoppingguide2023_3.png)
 
@@ -193,8 +350,18 @@ M2 Pro (6×4 CPU, 16코어 GPU, 200GB/s)는 처음에는 성능의 거대한 도
 
 이게 쉬운 부분입니다. 여기서부터 모니터를 선택하는 것은 복잡해집니다. Mac을 위한 좋은 모니터를 선택하는 데 도움이 될 내 기사를 참고해주세요.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 좋은 케이블, 나쁜 포트
 
@@ -204,7 +371,18 @@ HDMI가 없는 모니터는 드물지만, 그런 경우에는 신뢰할 수 있�
 
 일부 모니터는 고급 기능을 사용하기 위해 Thunderbolt 4 연결을 요구할 수 있어요. 고주사율, 데이지 체인(MST) 또는 추가 USB 포트와 같은 기능이 그 중 하나에요. 의심이 들 경우 구입하기 전에 사용 설명서를 확인하세요. 대부분의 경우 제조사 사이트에서 항상 확인할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 애플 지원 페이지에는 모니터 구성에 관한 자세한 내용이 더 많이 있습니다. 몇 대의 모니터를 연결할 수 있는지, 그리고 어떤 해상도가 선택지 상단에 있는지 알고 싶다면 참조하십시오.
 
@@ -214,8 +392,18 @@ HDMI가 없는 모니터는 드물지만, 그런 경우에는 신뢰할 수 있�
 
 이 키보드 및 마우스 콤보 세트는 대략 $60에 판매되며, 때로는 인터넷을 깊게 찾아보고 쿠폰을 가져오면 더 싸게 구입할 수 있습니다. 품질을 고려하면 정말 좋은 가치라고 할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Mac Mini M2 shopping guide](/assets/img/2024-06-23-ThecompleteMacMiniM2shoppingguide2023_4.png)
 
@@ -225,8 +413,18 @@ Any other alternative should (hopefully) be Bluetooth, so that way you can keep 
 
 ## Fast storage, big storage
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인터넷에는 외부 저장소에 대한 많은 안내서가 있지만, 여러분의 이용 가능한 옵션을 두 가지 범주로 요약할 수 있어요:
 
@@ -237,7 +435,18 @@ WD Elements 2TB, Seagate Portable 2TB 그리고 Toshiba Canvio Basics 2TB와 같
 
 저장 용량 측면에서 성능 대비 가장 탁월한 선택은 120달러에 제공되는 WD_BLACK 5TB P10이지만, 이 제품을 구할 수 없다면 100달러에 WD Elements 5TB를 살펴보는 것도 좋아요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 단계는 SSD입니다. 저는 Samsung T7 Portable 1TB를 $80에 (1,000MB/s), Samsung T7 Portable 2TB를 $120에 (1,000MB/s), 그리고 Kingston XS200 4TB를 $240에 (2000MB/s) 구매할 수 있는 세 가지 옵션이 있습니다.
 
@@ -247,7 +456,18 @@ WD Elements 2TB, Seagate Portable 2TB 그리고 Toshiba Canvio Basics 2TB와 같
 
 저장 속도가 중요한 경우, 그것은 상황에 따라 다릅니다. 현재 3,000MB/s 이상의 전송 속도를 갖는 제품은 다른 Mac Mini 한 대의 가격을 넘거나 2TB 내부 저장 공간이 필요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최대 전송 속도를 달성하려면 Apple Tax를 지불하지 않고 NVMe 케이스를 사용해야 합니다. 이 문제에 대해 훌륭한 동영상을 소개해 드리겠습니다:
 
@@ -257,7 +477,18 @@ WD Elements 2TB, Seagate Portable 2TB 그리고 Toshiba Canvio Basics 2TB와 같
 
 내부 속도를 더 깊이 파헤쳐보면 몇 가지 유의해야 할 점이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 정말 7,000MB/s의 속도가 필요하다면, 최소 2TB의 M2 Pro가 필요합니다. 왜냐하면 기본 M2는 2TB에서 5,000MB/s로 제한되기 때문입니다. 이 속도는 1,500MB/s로 작동하는 4 × 512GB 칩을 사용하여 얻어지며, Max Tech 팀에서 제공한 iBoff 수리 비디오에서 확인할 수 있습니다.
 
@@ -267,7 +498,18 @@ WD Elements 2TB, Seagate Portable 2TB 그리고 Toshiba Canvio Basics 2TB와 같
 
 ## 간단한 허브, 스위스 아미 나이프 허브
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파티티에 USB 장치들이 없다니 정말 다행이네요! 제가 드릴 유일한 조언은 몇 개의 싼 USB-A에서 USB-C 어댑터와 그 반대를 구입해서 한 장치를 포기할 필요가 없도록 하는 것입니다. 커넥터 맞지 않아 일어나는 문제를 해결할 수 있어요.
 
@@ -279,7 +521,18 @@ WD Elements 2TB, Seagate Portable 2TB 그리고 Toshiba Canvio Basics 2TB와 같
 - Elecife 허브 ($70)
 - Satechi 스탠드 허브 ($100)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 중 모든 허브는 SATA 또는 M.2 드라이브를 부착할 수 있는 케이스를 가지고 있으며, 두 번째 Thunderbolt 4 포트 사용 대신 듀얼 모니터 설정을 위한 추가 HDMI 또는 DisplayPort를 가질 수 있습니다.
 
@@ -289,7 +542,18 @@ SATA 또는 M.2 드라이브 슬롯이 있는 허브를 찾고 있다면, 구매
 
 가격을 세 배로 높여 본다면 기억해야 할 점은 우리가 Mac Mini의 나라에 있다는 것입니다: $200은 영구적인 RAM 또는 저장소 업그레이드를 의미하므로 꾸준히 Mac Mini를 더 빠르게 만드는 것을 우선시해야 합니다. SSD/NVMe가 장착된 멋진 허브보다 다양한 크기의 포트가 12개가 있는 허브를 구하는 것보다요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 나를 위한 소리, 모두를 위한 소리
 
@@ -299,7 +563,18 @@ SATA 또는 M.2 드라이브 슬롯이 있는 허브를 찾고 있다면, 구매
 
 솔직히 말해서, 어떤 블루투스 스피커, 무선 헤드셋 또는 이어버드라도 대부분 문제없이 사용할 수 있을 것입니다. 블루투스 지연을 피하고 싶다면 유선 헤드셋을 사용해야 할 것입니다. 최신 Airpods Pro 2도 예외는 아니며, 가까운 경쟁을 보여주고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 RTINGS의 헤드폰 리뷰와 스피커 리뷰를 참고하시면, 저렴한 블루투스 스피커, 노이즈 캔슬링 기능이 있는 마이크가 달린 헤드셋, 또는 출퇴근용으로 오래가는 이어버드 중 어떤 것이 더 좋을지 선택할 수 있습니다.
 
@@ -309,7 +584,18 @@ RTINGS의 헤드폰 리뷰와 스피커 리뷰를 참고하시면, 저렴한 블
 
 만약 PC에서 할 수 있는 일에 대해 궁금해하신다면, 예산이 제한되어 있기 때문일 수 있어요. 직접 제작한 커스텀 PC는 동일 가격대의 맥 미니나 사전 구성된 PC보다 더 많은 RAM과 저장 공간을 제공할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 올바른 부품을 선택하고 Windows를 구축하고 설치하며 해당 드라이버를 설정하는 데는 시간과 인내가 필요합니다. 만약 무언가 잘못되었을 때 스스로 문제를 해결해야 할 수도 있습니다. 누군가가 어리석은 실수를 한 것이든 하드웨어 부품에 운이 나쁜 경우든 말이죠. LTT는 이 분야에서 최고의 비디오 튜토리얼을 제공하고 있으니 관심이 있다면 확인해보세요.
 
@@ -320,7 +606,18 @@ RTINGS의 헤드폰 리뷰와 스피커 리뷰를 참고하시면, 저렴한 블
 
 첫 번째 항목부터 시작해보죠: 맥 미니는 PC와 비교해 RAM 및 저장 공간이 달러 당 더욱 뛰어날 수 없습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작은 예시로, 비슷한 가격대의 PC와 비교할 수 있는 기본 맥 미니 8GB / 256GB를 사용해 보겠습니다. 가격은 $600입니다. 작은 케이스를 사용한 PCPartPicker 목록이 만들어졌고 다음과 같은 사양입니다:
 
@@ -335,7 +632,18 @@ RTINGS의 헤드폰 리뷰와 스피커 리뷰를 참고하시면, 저렴한 블
 
 이 PC에 대한 사소한 단점 몇 가지가 있습니다: CPU 및 GPU 성능이 논란이 될 수 있고, 에너지를 3배 더 소비할 수 있으며, iGPU는 메모리에서 2GB를 차지하며, 메모리 대역폭은 40% 입니다. 또한 해당 컴퓨터에는 단일 신경엔진이 없으며 썬더볼트 4 포트도 없습니다. 이는 일부 사용자에게 결정적인 문제가 될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 가상화 및 3D 렌더링에 관한 이야기
 
@@ -345,7 +653,18 @@ RTINGS의 헤드폰 리뷰와 스피커 리뷰를 참고하시면, 저렴한 블
 
 Apple Silicon이 까다롭지 않은 분야는 3D 모델링입니다. 사실, 거의 모든 M2 프로세서는 Blender, ZBrush, Unreal Engine, Cinema 4D, Fusion 360, SketchUp 또는 3D 개체를 만들기 위한 어떤 소프트웨어든 잘 다룰 수 있습니다. 문제는 렌더링입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 성능 대비 가격을 고려해보면, 렌더링을 위한 NVIDIA 카드 중 어떤 것이건 맥을 완벽히 제압할 것입니다. PC의 나머지 부분에 대한 비용을 고려하지 않아도 맥보다 좋은 성능을 얻을 수 있습니다.
 
@@ -355,7 +674,18 @@ Apple Silicon이 까다롭지 않은 분야는 3D 모델링입니다. 사실, �
 
 2023년 6월 26일 업데이트: 최근 Sandisk Extreme 모델의 개발을 고려하여 외장 SSD 추천을 변경하였습니다. - KudzuCastaway님 감사합니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2023년 06월 26일 업데이트: 제 의견을 명확히 나타내기 위해 기사의 여러 부분을 다시 작성했습니다. dclive1님 감사합니다!
 
@@ -365,7 +695,18 @@ Apple Silicon이 까다롭지 않은 분야는 3D 모델링입니다. 사실, �
 
 2023년 06월 28일 업데이트: 기술적 모니터 부분을 독립적인 기사로 옮겼습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2023년 06월 30일 업데이트: "빠르고 격렬한 저장" 섹션을 수정했습니다.
 

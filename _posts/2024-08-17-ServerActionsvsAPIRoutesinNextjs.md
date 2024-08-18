@@ -3,7 +3,7 @@ title: "Nextjs에서 Server Actions와 API Routes 비교 및 정리"
 description: ""
 coverImage: "/assets/img/2024-08-17-ServerActionsvsAPIRoutesinNextjs_0.png"
 date: 2024-08-17 00:49
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-17-ServerActionsvsAPIRoutesinNextjs_0.png
 tag: Tech
 originalTitle: "Server Actions vs API Routes in Nextjs"
@@ -11,7 +11,6 @@ link: "https://medium.com/gitconnected/server-actions-vs-api-routes-in-next-js-b
 isUpdated: true
 updatedAt: 1723863786082
 ---
-
 
 <img src="/assets/img/2024-08-17-ServerActionsvsAPIRoutesinNextjs_0.png" />
 
@@ -21,7 +20,18 @@ Next.js에서 Server Actions 및 API Routes는 데이터를 보내거나 변이�
 
 그럼 이제... 바로 시작해 봅시다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # API 라우트
 
@@ -31,19 +41,30 @@ API 라우트는 Next.js에서 데이터를 가져오고 보내는 전통적인 
 
 app/api/items/route.ts
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export async function GET() {
-  const res = await fetch('https://data.mongodb-api.com/...', {
+  const res = await fetch("https://data.mongodb-api.com/...", {
     headers: {
-      'Content-Type': 'application/json',
-      'API-Key': process.env.DATA_API_KEY,
+      "Content-Type": "application/json",
+      "API-Key": process.env.DATA_API_KEY,
     },
-  })
-  const data = await res.json()
+  });
+  const data = await res.json();
 
-  return Response.json({ data })
+  return Response.json({ data });
 }
 ```
 
@@ -55,7 +76,18 @@ export async function GET() {
 
 또 다른 중요한 점은 웹훅이 API 경로와 아주 잘 작동한다는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹훅은 특정 이벤트가 발생할 때 다른 앱으로 실시간 데이터를 전송할 수 있는 특별한 API 루트입니다 (스트라이프 웹훅과 같은 것을 생각해보세요).
 
@@ -111,7 +143,18 @@ export async function POST(req: Request) {
 
 API 루트가 웹훅에 사용되는 이유는 노출된 엔드포인트로 설정되어 쉽게 트리거할 수 있기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 서버 작업에는 미리 정의된 엔드포인트 URL이 없어서 이 방법으로 액세스할 수 없어요.
 
@@ -121,7 +164,18 @@ API 루트가 웹훅에 사용되는 이유는 노출된 엔드포인트로 설�
 
 서버 작업의 주요 목표는 데이터 변이를 쉽게 만들고 프론트엔드와 백엔드 개발 간의 갭을 줄이는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 Resend 마법 링크를 사용하여 사용자를 인증하는 서버 액션의 예시입니다:
 
@@ -175,7 +229,18 @@ export async function authenticateResend({
 - 서버 액션은 엔드 투 엔드 타입 안전성을 가지고 있습니다. 이는 서버 액션이 보내고 받는 데이터의 형태를 알 수 있어 개발자 경험에 큰 도움이 됩니다.
 - 서버 액션은 캐시되지 않습니다. 이는 서버 액션이 하단에 POST HTTP 엔드포인트를 만들기 때문에 Next.js에서 캐시되지 않습니다. 이는 서버 액션이 폼 제출에서 사용될 때 CSRF 공격을 방지하기 위한 조치입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 표 비교
 
@@ -185,7 +250,18 @@ export async function authenticateResend({
 
 ![표 비교](/assets/img/2024-08-17-ServerActionsvsAPIRoutesinNextjs_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 다크 모드 버전입니다 😉
 
@@ -195,7 +271,18 @@ export async function authenticateResend({
 
 Next.js에서 서버 액션과 API 라우트에 관한 이 기사를 즐겁게 읽어주셨기를 바랍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 개념들은 이미 오랫동안 존재해 왔지만, 두 가지 사이의 명확한 상세 비교를 찾을 수 없어서 데이터를 가져오는 두 가지 방법에 대해 설명하고 싶었습니다.
 

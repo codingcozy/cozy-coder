@@ -3,17 +3,13 @@ title: "기술 업계에서 성공하기 위한 가장 유용한 고급 SQL 기�
 description: ""
 coverImage: "/assets/img/2024-08-03-TheMostUsefulAdvancedSQLTechniquestoSucceedintheTechIndustry_0.png"
 date: 2024-08-03 20:25
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-03-TheMostUsefulAdvancedSQLTechniquestoSucceedintheTechIndustry_0.png
 tag: Tech
 originalTitle: "The Most Useful Advanced SQL Techniques to Succeed in the Tech Industry"
 link: "https://medium.com/towards-data-science/the-most-useful-advanced-sql-techniques-to-succeed-in-the-tech-industry-0f0690e8386c"
 isUpdated: true
 ---
-
-
-
-
 
 ## 고급 SQL 마스터하는 데 필요한 문법, 사용 사례 및 전문가 팁
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 윈도우 함수
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 윈도우 함수는 쿼리로부터 지정된 행 집합, 즉 "윈도우"를 통해 계산을 수행하고 현재 행과 관련된 단일 값이 반환됩니다.
 
@@ -31,7 +38,18 @@ isUpdated: true
 
 먼저, Database에 3개 열을 가진 promo_sales 테이블을 생성합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 CREATE TABLE promo_sales(
@@ -62,16 +80,27 @@ INSERT INTO promo_sales VALUES (015, 'Jewellery', 950);
 이 작업을 수행하기 위해 SUM() 함수를 사용할 수 있습니다.
 
 ```js
-SELECT 
-    Sale_Person_ID, 
-    Department, 
+SELECT
+    Sale_Person_ID,
+    Department,
     Sales_Amount,
     SUM(Sales_Amount) OVER (PARTITION BY Department) AS dept_total
-FROM 
+FROM
     promo_sales;
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그런 다음 테이블 promo_sales에 예상대로 dept_total이라는 하나의 추가 열이 있습니다.
 
@@ -81,15 +110,26 @@ FROM
 
 Star Department Store의 경영진은 각 부서 내 프로모션 기간 동안의 성과에 따라 영업 직원들을 순위 매기고 싶어 합니다. 이번에는 영업 직원들을 순위 매기기 위해 RANK() 함수를 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-SELECT 
-    Sale_Person_ID, 
-    Department, 
+SELECT
+    Sale_Person_ID,
+    Department,
     Sales_Amount,
     RANK() OVER (PARTITION BY Department ORDER BY Sales_Amount DESC) AS Rank_in_Dept
-FROM 
+FROM
     promo_sales;
 ```
 
@@ -99,8 +139,18 @@ FROM
 
 1. 순위 함수: 순위 함수는 결과 집합의 파티션 내 각 행에 순위 또는 행 번호를 할당합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - ROW_NUMBER(): 각 행에 고유한 연속 정수를 할당합니다.
 
@@ -110,7 +160,18 @@ FROM
 
 - NTILE(n): 행을 대략적으로 동일한 n 그룹으로 나눕니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 집계 함수: 집계 함수는 현재 행과 관련된 행 집합 전체에서 계산을 수행하거나 통계를 수행하는 데 사용됩니다.
 
@@ -120,7 +181,18 @@ FROM
 
 - COUNT (): 파티션 내 원소 수 얻기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - MAX(): 파티션 내에서 가장 큰 값 가져오기
 
@@ -130,7 +202,18 @@ FROM
 
 - LAG(): 이전 행에서 데이터에 액세스
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - LEAD(): 다음 행의 데이터에 액세스합니다.
 
@@ -140,7 +223,18 @@ FROM
 
 4. 분포 함수: 분포 함수는 값이 값 그룹 내의 상대적 위치를 계산하고 값의 분포를 이해하는 데 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - PERCENT_RANK(): 한 행의 백분위 순위를 계산합니다.
 
@@ -150,7 +244,18 @@ FROM
 
 - PERCENTILE_DISC(): 이산적인 백분위 값을 계산합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 서브쿼리
 
@@ -160,17 +265,28 @@ FROM
 
 - 새로운 열 생성을 위한 서브쿼리
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이번에는 각 세일즈 직원의 판매 금액과 부서 평균 간의 차이를 보여주는 새로운 열을 추가하고 싶습니다.
 
 ```js
-SELECT 
-    Sale_Person_ID, 
-    Department, 
+SELECT
+    Sale_Person_ID,
+    Department,
     Sales_Amount,
     Sales_Amount - (SELECT AVG(Sales_Amount) OVER (PARTITION BY Department) FROM promo_sales) AS sales_diff
-FROM 
+FROM
     promo_sales;
 ```
 
@@ -178,42 +294,64 @@ FROM
 
 마케팅 비용 테이블 mkt_cost에는이 프로모션 동안 모든 부서의 광고 비용이 포함되어 있습니다. 각 부서의 광고 비용 효율성이 가장 높은 부서를 결정하려면 각 부서의 광고 지출 대비 매출액을 계산해야 합니다. 우리는 서브쿼리를 사용하여 이러한 부서들을 위해 총 판매 금액과 마케팅 비용을 포함하는 새로운 테이블을 만들고, 이 새로운 테이블의 데이터를 분석할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-SELECT 
-    Department, 
+SELECT
+    Department,
     dept_ttl,
     Mkt_Cost,
     dept_ttl/Mkt_Cost AS ROAS
-FROM 
+FROM
     (SELECT
         s.Department,
         SUM(s.Sales_Amount) AS dept_ttl,
         c.Mkt_Cost
-     FROM 
+     FROM
         promo_sales s
-     LEFT JOIN 
+     LEFT JOIN
         mkt_cost c
      ON s.Department=c.Department
      GROUP BY s.Department
-     ) 
+     )
 ```
 
 3. 제한 조건을 만드는 서브쿼리
 
 서브쿼리를 사용하여 모든 판매 대행자의 평균 판매액을 초과한 판매 대행자를 선택할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```sql
-SELECT 
-    Sale_Person_ID, 
-    Department, 
+SELECT
+    Sale_Person_ID,
+    Department,
     Sales_Amount
-FROM 
+FROM
     promo_sales
-WHERE 
+WHERE
     Sales_Amount > (SELECT AVG(salary) FROM promo_sales);
 ```
 
@@ -222,21 +360,32 @@ WHERE
 상관 서브쿼리는 프로모션 기간 동안 부서 평균 이상의 매출 실적을 달성한 판매 담당자를 찾는 데 사용할 수 있습니다.
 
 ```sql
-SELECT 
-    ps_1.Sale_Person_ID, 
-    ps_1.Department, 
+SELECT
+    ps_1.Sale_Person_ID,
+    ps_1.Department,
     ps_1.Sales_Amount
-FROM 
+FROM
     promo_sales ps_1
-WHERE 
+WHERE
     ps_1.Sales_Amount > (
-          SELECT AVG(ps_2.Sales_Amount) 
-          FROM promo_sales ps_2 
+          SELECT AVG(ps_2.Sales_Amount)
+          FROM promo_sales ps_2
           WHERE ps_2.Department = ps_1.Department
 );
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 서브쿼리를 사용하면 데이터에 대해 복잡한 질문에 답할 수 있는 복잡한 쿼리를 작성할 수 있어요. 그러나 대규모 데이터셋의 경우 과도한 사용은 성능 문제로 이어질 수 있으니 신중히 사용하는 것이 중요해요.
 
@@ -246,7 +395,18 @@ WHERE
 
 SQL에서 주로 두 가지 유형의 CTE가 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Non-recursive CTE: 비재귀 CTE는 복잡한 쿼리를 간단한 부분으로 분해하여 단순화하는 데 사용됩니다. 자기 자신을 참조하지 않기 때문에 CTE의 가장 간단한 유형입니다.
 - Recursive CTE: 재귀 CTE는 정의 내에서 자기 자신을 참조하여 계층적 또는 트리 구조 데이터를 처리할 수 있습니다.
@@ -255,12 +415,12 @@ SQL에서 주로 두 가지 유형의 CTE가 있어요.
 
 ```js
 WITH dept_avg AS (
-    SELECT 
+    SELECT
         Department,
         AVG(Sales_Amount) AS dept_avg
-    FROM 
+    FROM
         promo_sales
-    GROUP BY 
+    GROUP BY
         Department
 ),
 
@@ -269,20 +429,31 @@ store_avg AS (
     FROM promo_sales
 )
 
-SELECT 
+SELECT
     d.Department,
     d.dept_avg,
     s.store_avg,
     d.dept_avg - s.store_avg AS diff
-FROM 
+FROM
     dept_avg d
-CROSS JOIN 
+CROSS JOIN
     store_avg s;
 ```
 
 재귀 CTE는 계층적 데이터를 처리할 수 있기 때문에 1에서 10까지 숫자 시퀀스를 생성하려고 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 WITH RECURSIVE sequence_by_10(n) AS (

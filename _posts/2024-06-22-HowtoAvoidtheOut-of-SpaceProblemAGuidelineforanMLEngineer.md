@@ -3,17 +3,13 @@ title: "ML 엔지니어를 위한 저장 공간 부족 문제 피하는 방법 �
 description: ""
 coverImage: "/assets/img/2024-06-22-HowtoAvoidtheOut-of-SpaceProblemAGuidelineforanMLEngineer_0.png"
 date: 2024-06-22 19:50
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-HowtoAvoidtheOut-of-SpaceProblemAGuidelineforanMLEngineer_0.png
 tag: Tech
 originalTitle: "How to Avoid the Out-of-Space Problem: A Guideline for an ML Engineer"
 link: "https://medium.com/codenlp/free-up-your-disk-space-regularly-guideline-for-an-ml-engineer-c1a9eb94439b"
 isUpdated: true
 ---
-
-
-
-
 
 체크포인트, 도커 이미지, Python 환경, HF 모델 및 pip 캐시는 귀하가 완전한 인식 없이 시간이 지남에 따라 성장하여 디스크 공간을 더 많이 차지할 수 있습니다. 공간 부족 문제에 빠지지 않도록 주의하십시오.
 
@@ -23,16 +19,25 @@ isUpdated: true
 
 아래는 여러 달 동안 큰 정기 청소 없이 작업한 후 공간 사용 현황을 이해하기 위해 위치별로 나눈 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 600G - 모델 체크포인트
 290G - Docker 이미지, 컨테이너 및 캐시
 231G - ~/miniconda3/envs
- 87G - ~/.cache/huggingface
- 41G - ~/miniconda3/pkgs
- 15G - ~/.cache/pip
-
+87G - ~/.cache/huggingface
+41G - ~/miniconda3/pkgs
+15G - ~/.cache/pip
 
 동일한 분할을 파이 차트로도 제시했습니다:
 
@@ -40,8 +45,18 @@ isUpdated: true
 
 # 모델 체크포인트
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 transformers 라이브러리를 사용하여 ML 모델을 매일 훈련한다면, 알지 못할 수도 있는 많은 체크포인트를 얻게 될 수 있습니다. 체크포인트는 훈련 과정 중에 모델의 중간 복사본으로 생성되어, 훈련 중단의 경우 모델을 백업하는 역할을 합니다. 훈련이 완료되면 체크포인트를 제거해야 합니다. 하지만 이러한 체크포인트는 종종 무심코 하드 드라이브에 남아 있는 경우가 있습니다.
 
@@ -53,7 +68,18 @@ find . -name "checkpoint-*" | wc -l
 
 제 경우에는 509개의 체크포인트가 있었습니다. 그들이 차지하는 용량을 확인해보겠습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 find . -name "checkpoint-*" | \
@@ -70,7 +96,18 @@ find . -name "checkpoint-*" | \
 - du — 바이트 단위로 폴더의 총 크기를 계산합니다.
 - awk — du에서 크기를 추출하여 합하여 단일 값으로 출력합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가장 큰 체크포인트부터 순서대로 나열하려면 다음 명령을 사용하면 됩니다:
 
@@ -98,7 +135,18 @@ find . -name "checkpoint-*" | \
 9.16682 GB (...)/checkpoint-42278
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 목록을 사용하여 각 체크포인트를 검토하고 유지 또는 제거할지 결정할 수 있습니다.
 
@@ -108,7 +156,18 @@ find . -name "checkpoint-*" | \
 
 도커가 사용한 공간을 확인하려면 다음 명령어를 실행하세요 [2]:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 도커 시스템 df
@@ -126,7 +185,18 @@ Build Cache 473 0 14.56GB 14.56GB
 
 여기서, 우리는 도커 이미지의 총 크기에만 초점을 맞출 것입니다. 제 경우에는 180GB가 넘습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도커 정리를 처리하는 한 가지 방법은 프룬 명령어를 사용하는 것입니다 [3]. 문서에 따르면:
 
@@ -140,7 +210,18 @@ docker image ls --format "{.Size} {.ID} {.Repository}:{.Tag}" | \
   column -t
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래와 같이 출력됩니다:
 
@@ -160,7 +241,18 @@ docker image ls --format "{.Size} {.ID} {.Repository}:{.Tag}" | \
 
 # Miniconda 환경
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 프로젝트마다 별도의 Python 환경을 실행하는 것은 좋은 습관입니다. 이렇게 하면 라이브러리 의존성 간 충돌을 피하거나 두 개 이상의 프로젝트가 동일한 환경을 공유하는 상황을 방지할 수 있습니다. 한 프로젝트를 업데이트하면 다른 프로젝트가 작동을 중지하는 일도 없어집니다.
 
@@ -170,7 +262,18 @@ Python 환경을 관리하는 인기 있는 솔루션 중 하나는 Miniconda입
 
 오래된, 사용하지 않는 환경은 신중히 제거해야 합니다. 일부 오래된 프로젝트는 문제없이 함께 작동하는 라이브러리 조합을 가질 수 있습니다. 대부분의 프로젝트들은 환경을 생성할 수 있는 필수 라이브러리 목록(requirements.txt 또는 pyproject.toml)을 갖고 있어야 합니다. 그러나 몇 가지 모듈은 요구사항 목록이나 사용하는 라이브러리 중 하나에 특정 버전이 누락될 수 있습니다. 이러한 경우 정확한 라이브러리 조합을 다시 만드는 것이 어려울 수 있습니다. 이에 대한 해결책으로 pip freeze 명령을 사용하여 라이브러리의 정확한 버전을 덤프하고 나중에 검증할 수 있습니다. 기억해야 할 점은, 심지어 작은 변경이나 패치라도 라이브러리 간의 호환성에 일부 문제를 초래할 수 있는 일반적인 문제입니다. 해서서는 안 되지만 그렇게 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Miniconda 패키지
 
@@ -180,7 +283,18 @@ Miniconda는 conda install 명령어로 설치된 패키지를 캐시합니다. 
 
 Huggingface는 transformers 라이브러리를 통해 사용하는 모델 및 데이터셋을 모두 캐시합니다. 제 캐시의 분석을 통해 알 수 있는 정보가 여기에 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 허깅페이스 캐시에서 모델을 제거하는 것이 이전 파이썬 환경을 제거하는 것보다 안전합니다. 모델은 리포지토리에서 다시 다운로드할 수 있습니다. (단, 리포지토리에서 제거되지 않은 경우) 그럼에도 불구하고 캐시에는 기억하지 못하는 모델이 많이 있음을 알게 될 것입니다.
 
@@ -198,7 +312,18 @@ HTTP 파일 수: 3025
 로컬 빌드된 휠 수: 5
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저의 경우에는 18 GB입니다. pip 캐시를 정리하기 위해 pip cache purge 명령을 사용할 수 있습니다.
 
@@ -208,7 +333,18 @@ HTTP 파일 수: 3025
 
 클라우드 서비스를 사용할 때는 디스크 사용량 관리가 특히 중요합니다. 원격 인스턴스나 SageMaker와 같은 ML 플랫폼을 사용할 때 공간을 사용하면 요금이 청구됩니다. 로컬 워크스테이션에서 공간이 부족한 메시지가 나타날 수 있습니다. 클라우드에서는 저장 용량이 거의 무한합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 참고 자료
 
@@ -216,7 +352,18 @@ HTTP 파일 수: 3025
 - [도커 CLI 시스템 리소스 확인](https://docs.docker.com/reference/cli/docker/system/df/)
 - [도커 자원 정리 설정](https://docs.docker.com/config/pruning/)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [4] https://docs.docker.com/reference/cli/docker/image/rm/
 
@@ -226,6 +373,17 @@ HTTP 파일 수: 3025
 
 [7] https://aws.amazon.com/pm/sagemaker
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [8] [https://medium.com/codenlp/6-things-about-sagemaker-i-wish-i-had-known-earlier-revision-2-e90511d58ca5#beed](https://medium.com/codenlp/6-things-about-sagemaker-i-wish-i-had-known-earlier-revision-2-e90511d58ca5#beed)

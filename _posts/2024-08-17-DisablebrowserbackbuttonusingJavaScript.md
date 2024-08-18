@@ -3,7 +3,7 @@ title: "JavaScript로 브라우저 뒤로 가기 버튼 비활성화하는 방�
 description: ""
 coverImage: "/assets/img/2024-08-17-DisablebrowserbackbuttonusingJavaScript_0.png"
 date: 2024-08-17 00:08
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-17-DisablebrowserbackbuttonusingJavaScript_0.png
 tag: Tech
 originalTitle: "Disable browser back button using JavaScript"
@@ -11,8 +11,6 @@ link: "https://medium.com/@frontendinterviewquestions/disable-browser-back-butto
 isUpdated: true
 updatedAt: 1723863598713
 ---
-
-
 
 <img src="/assets/img/2024-08-17-DisablebrowserbackbuttonusingJavaScript_0.png" />
 
@@ -22,8 +20,18 @@ updatedAt: 1723863598713
 
 브라우저 뒤로가기 버튼을 비활성화해야 하는 여러 시나리오가 있습니다:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 양식 다시 제출 방지: 양식이 실수로 다시 제출되지 않도록 합니다.
 - 세션 무결성 유지: 사용자가 다단계 프로세스의 이전 단계로 돌아갈 수 없도록 합니다.
@@ -36,7 +44,18 @@ updatedAt: 1723863598713
 
 ## 방법 1: history.pushState 및 popstate 이벤트 사용
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 history.pushState 메서드를 사용하면 페이지를 다시로드하지 않고 브라우저의 이력 스택을 수정할 수 있습니다. 이 방법을 popstate 이벤트와 함께 사용하여 사용자가 뒤로 이동하는 것을 효과적으로 방지할 수 있습니다.
 
@@ -67,7 +86,18 @@ history.pushState 메서드를 사용하면 페이지를 다시로드하지 않�
 
 이 예시에서는 pushState 메서드를 사용하여 새로운 이력 항목을 만들고, onpopstate 이벤트를 사용하여 사용자가 뒤로 이동하려고 할 때마다 새로운 상태를 추가합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 방법 2: location.hash 조작
 
@@ -99,7 +129,18 @@ history.pushState 메서드를 사용하면 페이지를 다시로드하지 않�
 </html>
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예시에서 location.hash가 처음에 특정 값으로 설정되고, onhashchange 이벤트가 사용되어 사용자가 뒤로 이동하려고 할 때 마다 해시를 재설정합니다.
 
@@ -111,7 +152,18 @@ history.pushState 메서드를 사용하면 페이지를 다시로드하지 않�
 
 ## 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JavaScript를 사용하여 브라우저 뒤로 가기 버튼을 비활성화하는 것은 history.pushState 및 popstate 이벤트와 위치.hash를 조작하는 등 다양한 방법을 통해 달성할 수 있습니다. 이러한 기술은 특정 시나리오에서 유용할 수 있지만 사용자 경험 및 접근성에 대한 영향을 고려하는 것이 중요합니다.
 

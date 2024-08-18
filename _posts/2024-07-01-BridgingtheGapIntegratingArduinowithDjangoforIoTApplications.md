@@ -3,17 +3,13 @@ title: "IoT 응용을 위한 Arduino와 Django 통합 방법 기술 격차 해�
 description: ""
 coverImage: "/assets/img/2024-07-01-BridgingtheGapIntegratingArduinowithDjangoforIoTApplications_0.png"
 date: 2024-07-01 17:42
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-01-BridgingtheGapIntegratingArduinowithDjangoforIoTApplications_0.png
 tag: Tech
 originalTitle: "Bridging the Gap: Integrating Arduino with Django for IoT Applications"
 link: "https://medium.com/@djangomaster/bridging-the-gap-integrating-arduino-with-django-for-iot-applications-da247c34d034"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-07-01-BridgingtheGapIntegratingArduinowithDjangoforIoTApplications_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 왜 아두이노와 장고를 결합해야 하는가?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 원격 제어 및 모니터링: 웹 브라우저를 사용하여 세계 어디에서나 Arduino 프로젝트를 제어하세요.
 - 데이터 기록 및 시각화: Django를 이용한 웹 앱에서 Arduino가 수집한 센서 데이터를 저장하고 시각화하세요.
@@ -39,7 +46,18 @@ isUpdated: true
 - Django 설치 (pip install django).
 - pyserial 라이브러리 설치 (pip install pyserial).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 1: Arduino 설정하기
 
@@ -68,7 +86,18 @@ void loop() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금 이 코드를 Arduino IDE를 사용하여 Arduino 보드에 업로드해 주세요.
 
@@ -78,7 +107,18 @@ void loop() {
 
 ## Django 프로젝트 생성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 장고-어드민 startproject arduino_control
@@ -91,13 +131,21 @@ cd arduino_control
 arduino_control/settings.py에서 INSTALLED_APPS에 control 앱을 추가합니다.
 
 ```js
-INSTALLED_APPS = [
-    ...
-    'control',
-]
+INSTALLED_APPS = [..."control"];
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 뷰 및 URL 만들기
 
@@ -148,7 +196,18 @@ def lightoff(request):
 
 time.sleep(2)은 모든 설정에 대해 동일하지 않으므로, 시스템에 맞는 적절한 지연 시간을 찾아야 합니다. 설정이 올바르지 않으면 웹 앱에 영향을 줄 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 control/urls.py에서 URL을 설정하세요.
 
@@ -175,7 +234,18 @@ urlpatterns = [
 ]
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 3: HTML 템플릿 생성하기
 
@@ -188,16 +258,16 @@ control/templates/index.html에 간단한 HTML 템플릿을 만드세요.
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arduino Control</title>
-    
+
     <!-- 부트스트랩 CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    
+
     <!-- HTMX -->
     <script src="https://unpkg.com/htmx.org@^1.5.0/dist/htmx.js"></script>
-    
+
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    
+
     <style>
         .center-container {
             display: flex;
@@ -218,7 +288,18 @@ control/templates/index.html에 간단한 HTML 템플릿을 만드세요.
 
 # 단계 4: Django 서버 실행하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Django 서버를 시작하세요.
 
@@ -230,15 +311,26 @@ python manage.py runserver
 
 # 다른 프로젝트 아이디어:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 랜덤 숫자 생성 API
-현재 혼돈 시스템을 감지하는 센서에서 읽는 값을 제공하는 API 엔드포인트를 만들어보세요.
+  현재 혼돈 시스템을 감지하는 센서에서 읽는 값을 제공하는 API 엔드포인트를 만들어보세요.
 - 홈 자동화 시스템
 - 보안 시스템
-Arduino에 연결된 모션 센서를 사용하여 기본 보안 시스템을 구축하세요. 움직임을 감지하면 알림이 Django 웹 서버로 전송되어 웹 인터페이스에 표시됩니다.
+  Arduino에 연결된 모션 센서를 사용하여 기본 보안 시스템을 구축하세요. 움직임을 감지하면 알림이 Django 웹 서버로 전송되어 웹 인터페이스에 표시됩니다.
 - IoT 건강 모니터링 시스템
-실시간 데이터(생체 신호에 관한)를 의사에게 인터넷을 통해 공유하는 원격 건강 모니터링 시스템입니다.
+  실시간 데이터(생체 신호에 관한)를 의사에게 인터넷을 통해 공유하는 원격 건강 모니터링 시스템입니다.
 
 # 결론
 

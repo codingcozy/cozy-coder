@@ -3,17 +3,13 @@ title: "맥에서 어떻게 앱을 강제 종료할 수 있을까요"
 description: ""
 coverImage: "/assets/img/2024-06-19-HowcanIforcecloseanapponmyMac_0.png"
 date: 2024-06-19 15:18
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-HowcanIforcecloseanapponmyMac_0.png
 tag: Tech
 originalTitle: "How can I force close an app on my Mac?"
 link: "https://medium.com/@best-software/how-can-i-force-close-an-app-on-my-mac-6b326680d7e2"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-06-19-HowcanIforcecloseanapponmyMac_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # Command-Option-Escape 단축키 사용하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어플리케이션을 강제 종료하는 가장 간단한 방법일 거예요!
 
@@ -36,7 +43,18 @@ isUpdated: true
 
 # 활동 모니터 사용하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가끔, 성가신 앱이 "강제 종료 응용 프로그램" 창에 나타나지 않을 수 있습니다. 이런 경우에는 활동 모니터가 도움이 될 수 있어요.
 
@@ -47,7 +65,18 @@ isUpdated: true
 
 활동 모니터는 모든 것을 볼 수 있기 때문에 이 기능이 정말 편리합니다. Mac에서 실행 중인 앱뿐만 아니라 모든 것을 볼 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 터미널을 사용하는 것에 익숙하시다면, 이 방법이 매우 효과적일 수 있어요!
 
@@ -60,7 +89,18 @@ isUpdated: true
 
 # 맥을 강제 재부팅하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최후의 수단으로, 정말로 최후의 수단으로 맥을 강제로 다시 시작할 수 있습니다. 이것은 분명히 약간 방해적이지만, 무반응 앱이 시스템을 완전히 멈추게 하는 경우 필요할 수 있습니다.
 
@@ -72,16 +112,38 @@ isUpdated: true
 
 # 애플 메뉴 사용하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 표 태그를 Markdown 형식으로 변경하세요.
 
-| 이름 | 나이 |
-|------|------|
-| 제인 | 30   |
-| 마이크 | 25  |
+| 이름   | 나이 |
+| ------ | ---- |
+| 제인   | 30   |
+| 마이크 | 25   |
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 때때로 독(Dock)에서 직접 접근하는 것이 도움이 될 수 있어요.
 
@@ -93,7 +155,18 @@ isUpdated: true
 
 # 앱의 메뉴 사용하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가끔은 앱의 고유한 메뉴를 사용하여 강제 종료할 수도 있어요.
 
@@ -105,7 +178,18 @@ isUpdated: true
 
 # 자주 묻는 질문
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 맥에서 응답하지 않는 애플리케이션을 어떻게 강제 종료할 수 있나요?
 
@@ -115,7 +199,18 @@ isUpdated: true
 
 Force Quit 창이 열리지 않으면 Activity Monitor를 사용할 수 있습니다. Command + Space로 Spotlight를 열어 Activity Monitor를 검색한 후 열고, 문제가 되는 앱을 찾아서 왼쪽 상단의 X 버튼을 클릭하여 강제 종료할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 독에서 앱을 강제 종료하는 또 다른 방법이 있나요?
 
@@ -125,7 +220,18 @@ Force Quit 창이 열리지 않으면 Activity Monitor를 사용할 수 있습�
 
 애플리케이션 > 유틸리티에서 터미널을 엽니다. 'top'을 입력하고 Return을 눌러 실행 중인 프로세스 목록을 확인하세요. 앱의 PID(프로세스 식별자)를 찾은 다음 'kill [PID]'를 입력하고 Return을 눌러주세요. [PID]는 실제 숫자로 대체하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Apple 메뉴를 이용해서 강제 종료할 수 있나요?
 
@@ -135,7 +241,18 @@ Force Quit 창이 열리지 않으면 Activity Monitor를 사용할 수 있습�
 
 맥이 완전히 멈추었을 때는 강제 재부팅을 수행해야 할 수도 있습니다. 전원 버튼을 약 10초 동안 길게 누른 후 맥이 꺼지는 것을 기다렸다가 몇 초 후에 전원 버튼을 다시 눌러 재부팅할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 앱을 끄기 위해 빨간 X 버튼을 클릭하는 것이 강제 종료인가요?
 
@@ -145,7 +262,18 @@ Force Quit 창이 열리지 않으면 Activity Monitor를 사용할 수 있습�
 
 터미널을 사용하는 것을 선호한다면, 또 다른 단축키는 Command + Space를 눌러 Spotlight을 열고, 그런 다음 Terminal이라고 입력한 후 Return을 누르는 것입니다. 터미널에서는 killall [app name] 명령어를 사용하여 애플리케이션을 강제 종료할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 강제 종료를 반복하면 문제가 발생할 수 있나요?
 

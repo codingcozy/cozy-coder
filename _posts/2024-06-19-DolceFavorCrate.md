@@ -3,17 +3,13 @@ title: "달콤한 증말 커뮤니티"
 description: ""
 coverImage: "/assets/img/2024-06-19-DolceFavorCrate_0.png"
 date: 2024-06-19 06:07
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-DolceFavorCrate_0.png
 tag: Tech
 originalTitle: "Dolce Favor Crate"
 link: "https://medium.com/@teachcraft99/dolce-favor-crate-293449754070"
 isUpdated: true
 ---
-
-
-
-
 
 🔍 지금 Dolce Favor Crate를 확인해보세요! 📁 생일 3D SVG 공예를 둘러보고 여기서 🆓 무료 다운로드를 받으세요. 함께 크래프팅을 시작해봐요! 🚀
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 ![Dolce Favor Crate 이미지 1](/assets/img/2024-06-19-DolceFavorCrate_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image 1](/assets/img/2024-06-19-DolceFavorCrate_2.png)
 
@@ -34,7 +40,17 @@ isUpdated: true
 
 Photo by 3D SVG Crafts on Creative Fabrica
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 면책 공지: 본 문서에는 제휴 링크가 포함되어 있습니다. 이는 해당 링크를 통해 구매를 하실 경우 추가 비용 없이 수수료를 받을 수 있음을 의미합니다.

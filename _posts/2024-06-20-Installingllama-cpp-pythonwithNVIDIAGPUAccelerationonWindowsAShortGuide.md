@@ -3,17 +3,13 @@ title: "윈도우에서 NVIDIA GPU 가속을 활용해 llama-cpp-python 설치�
 description: ""
 coverImage: "/assets/img/2024-06-20-Installingllama-cpp-pythonwithNVIDIAGPUAccelerationonWindowsAShortGuide_0.png"
 date: 2024-06-20 14:56
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-Installingllama-cpp-pythonwithNVIDIAGPUAccelerationonWindowsAShortGuide_0.png
 tag: Tech
 originalTitle: "Installing llama-cpp-python with NVIDIA GPU Acceleration on Windows: A Short Guide"
 link: "https://medium.com/@piyushbatra1999/installing-llama-cpp-python-with-nvidia-gpu-acceleration-on-windows-a-short-guide-0dfac475002d"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-20-Installingllama-cpp-pythonwithNVIDIAGPUAccelerationonWindowsAShortGuide_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 - Visual Studio 설치:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Windows용 C++ CMake 도구.
 - C++ 핵심 기능
@@ -36,7 +43,18 @@ isUpdated: true
 - NVIDIA 공식 웹사이트에서 CUDA Toolkit 12.2를 다운로드하고 설치합니다.
 - nvcc --version 및 nvidia-smi로 설치 여부 확인합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-Installingllama-cpp-pythonwithNVIDIAGPUAccelerationonWindowsAShortGuide_2.png" />
 
@@ -46,7 +64,18 @@ isUpdated: true
 
 새 명령 프롬프트를 열고 Python 환경을 활성화하세요 (예: conda 사용). 다음 명령을 실행하세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```shell
 CMAKE_ARGS=-DLLAMA_CUBLAS=on을 설정합니다.
@@ -62,14 +91,25 @@ pip install llama-cpp-python --force-reinstall --upgrade --no-cache-dir
 
 CUDA가 올바르게 구성되지 않았다면, llama-cpp-python은 하드웨어 가속을 사용하지 않고 설치됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 Cuda가 감지되지만 No CUDA toolset founderror가 발생한다면 다음을 수행하세요:
 
 - 파일을 복사합니다: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.2\extras\visual_studio_integration\MSBuildExtensions 에서 아래 경로로:
-(Enterprise 버전 인 경우) C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\BuildCustomizations
-또는
-(Community 버전인 경우) C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations
+  (Enterprise 버전 인 경우) C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\BuildCustomizations
+  또는
+  (Community 버전인 경우) C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations
 
 ```js
 copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.2\extras\visual_studio_integration\MSBuildExtensions" "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\BuildCustomizations"
@@ -77,7 +117,18 @@ copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.2\extras\visual_stu
 
 (설치에 기반하여 경로를 조정하세요)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 테스트
 
@@ -93,7 +144,18 @@ print(output)
 
 ![링크 텍스트](/assets/img/2024-06-20-Installingllama-cpp-pythonwithNVIDIAGPUAccelerationonWindowsAShortGuide_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 설치가 올바르게 되었다면, 모델 속성에서 BLAS = 1 지표가 표시될 것입니다.
 

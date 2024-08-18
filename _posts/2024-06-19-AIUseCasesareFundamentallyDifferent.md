@@ -3,17 +3,13 @@ title: "AI 사용 사례는 근본적으로 다릅니다"
 description: ""
 coverImage: "/assets/img/2024-06-19-AIUseCasesareFundamentallyDifferent_0.png"
 date: 2024-06-19 02:56
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-AIUseCasesareFundamentallyDifferent_0.png
 tag: Tech
 originalTitle: "AI Use Cases are Fundamentally Different"
 link: "https://medium.com/towards-data-science/ai-use-cases-are-fundamentally-different-3946f089c68e"
 isUpdated: true
 ---
-
-
-
-
 
 AI를 통합하는 성공은 적절한 AI 사용 사례를 선택하는 데 크게 의존합니다. 이것은 알고리즘, 데이터 및 엔지니어링에 집중하기 전 제품 중심의 기술 전문가들에게 제시되는 관점입니다.
 
@@ -23,11 +19,22 @@ AI는 소프트웨어 버전의 덕트 테이프와 같습니다. 여러 가지�
 
 AI가 특별히 잘 작동하는 사용 사례를 찾는 것은 효과적이지 않습니다. 이는 AI의 본성 상의 확률적 특성을 무시합니다. 대신, 중간 수준의 AI 성능을 갖는 사용 사례를 찾으면 더 낮은 리스크로 즉각적 가치를 제공할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전에 수행된 작업은 일반적인 컴퓨팅과 구글의 숙취 섬 비유를 통해 이 주제를 조사했습니다.
 
-중간 수준의 AI 성능을 효과적으로 활용하는 사용 사례들은 반복적인 성공 이력을 갖고 있습니다. 본문에서는 최종 사용자가 센서 퓨전, 생성형 AI, 자연어 처리, 컴퓨터 비전, 자율 로봇을 포함한 5가지 범주에서 제품 예시를 통해 AI를 경험하는 방법에 대해 설명합니다: 
+중간 수준의 AI 성능을 효과적으로 활용하는 사용 사례들은 반복적인 성공 이력을 갖고 있습니다. 본문에서는 최종 사용자가 센서 퓨전, 생성형 AI, 자연어 처리, 컴퓨터 비전, 자율 로봇을 포함한 5가지 범주에서 제품 예시를 통해 AI를 경험하는 방법에 대해 설명합니다:
 
 - 센서 퓨전
 - 생성형 AI
@@ -37,7 +44,18 @@ AI가 특별히 잘 작동하는 사용 사례를 찾는 것은 효과적이지 
 
 # 센서 퓨전
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여러 센서에서 수집한 데이터를 결합하면 더 정확하고 완전한 표현을 얻을 수 있어요. 이러한 형태의 인공 지능은 하드웨어와 소프트웨어 제품에서 가장 일반적으로 사용돼요.
 
@@ -47,7 +65,18 @@ AI가 특별히 잘 작동하는 사용 사례를 찾는 것은 효과적이지 
 
 기업들에게는 보행자 카운터가 특수 임상 연구와 같이 높은 정확도(95~99%)를 요구할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 둘 중 하나에 대한 경우에도 AI는 독특하게 가치가 있습니다. 왜냐하면 존재하는 것이 다른 대안들보다 낫기 때문입니다: (1) 자신의 걸음 수를 세는 사람 또는 (2) 아무 것도 아닌 것. 중간 AI 성능이 유용한 유사한 상황: 사진 태깅을 위한 얼굴 인식, 실시간 번역, 쇼핑 추천, 음성메시지 전사, 배터리 수명 최적화.
 
@@ -57,7 +86,18 @@ AI가 특별히 잘 작동하는 사용 사례를 찾는 것은 효과적이지 
 
 생성적 AI의 본질은 같은 결과를 두 번 제공하지 않을 것이라는 것입니다. 이것은 일반적으로 실수 및 일부 예측할 수 없는 상황이 받아들여지는 사용 사례에서 잘 작동합니다: 미술, 음악, 글쓰기, 영화 및 엔터테인먼트, 게임 등.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Krea.ai, Superside, 및 Microsoft cocreator 같은 제품들은 AI를 창의적인 협업자로 위치시켜, 스케치를 전문적인 구성물로 변환합니다. AI는 충분히 잘 작동하고 합리적으로 좋은 시각물을 생산하기만 하면 됩니다.
 
@@ -67,7 +107,18 @@ Krea.ai, Superside, 및 Microsoft cocreator 같은 제품들은 AI를 창의적�
 
 ## 다목적 AI & 윤리
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 생성 AI는 다목적입니다. 그러나 좁은 범위의 AI와 달리 사람들이 마음대로 조작할 수 없기 때문에 거의 아무도 상처받지 않도록 안전하게 설계된 다목적 AI는 드뭅니다.
 
@@ -77,7 +128,18 @@ Krea.ai, Superside, 및 Microsoft cocreator 같은 제품들은 AI를 창의적�
 
 # 자연어 처리
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금 가장 널리 사용되는 AI 형태입니다. 소비자 및 기업 사용 사례에서 언어는 만연하며, 텍스트 데이터는 디지턈 상호작용에서 가장 접근하기 쉽습니다.
 
@@ -88,21 +150,54 @@ NLP로 쉽게 달성할 수 있는 사용 사례들은 두 가지 시각에서 �
 - 전문가가 아닌 인턴을 위한 작업. Notion은 전체 작업 공간에서 관련 키워드를 찾아줍니다, Otter.ai는 말을 텍스트로 전사해줍니다, SummarizeBot은 문서를 요약으로 요약해줍니다, Paperpile은 연구자들이 논문을 찾고 인용하는 데 도움을 줍니다, iOS는 앱에서 텍스트를 번역하고 음성 메시지를 전사합니다. 모두 도메인 전문지식이 필요하지 않은 작업으로 워크플로우를 향상시키는 작업입니다.
 - AI가 선처리를 한 뒤 사람이 확인하는 방식. 스팸 필터는 이메일을 스팸 또는 비 스팸으로 분류하는 간단한 이진 분류기입니다. 뉴스 기사도 카테고리별로 레이블을 붙일 수 있습니다: 스포츠, 기술, 엔터테인먼트, 정치, 기타... 이러한 작업은 사람에게 시간과 오류가 많이 발생하는 간단한 작업이지만, AI에게는 비교적 빠르고 간단합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 렌즈는 AI가 대량의 반복 작업을 효과적으로 처리하여 인간의 실수가 발생하기 쉬운 작업에 집중할 수 있게 해줄 수 있는 상황을 설명합니다.
 
 # 컴퓨터 비전
 
-세상의 대부분 데이터는 시각적이고 공간적입니다. 언어가 가장 흔하지만 많은 데이터가 이미지나 공간으로 표현됩니다. 
+세상의 대부분 데이터는 시각적이고 공간적입니다. 언어가 가장 흔하지만 많은 데이터가 이미지나 공간으로 표현됩니다.
 
 세상을 모델링하는 것은 매우 어렵습니다. 자율 주행(포부)은 지속적으로 약속되지만 실현하기는 어렵습니다(상용화되지 않음):
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자율 주차는 구축하기 어려우며 도시 주차를 두려워하는 소수의 운전자들에게만 도움이 됩니다. 하지만 어떤 주차 공간이 충분히 큰지 예측하는 간단한 기능으로 시작할 수 있습니다. 자동화된 AI 유지보수 시스템을 만드는 것은 어려울 수 있습니다. 그러나 사용자는 장비 사용량을 감시하고 시각 검사를 통해 고장을 추적하는 단순한 AI 기능을 쉽게 활용할 수 있습니다. 간단한 피드백 루프에서 시작하여 점차 데이터가 허용하는 한 복잡성으로 나아갈 수 있습니다. AI 헤드라인들은 각자 비전을 가진 사용 사례들을 약속하는 경향이 있어서 역사적으로나 최근에도 혼합된 결과를 가져왔습니다. 하지만 점진적인 AI 솔루션은 아직도 즐거운 완성된 제품이 될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 자율 로봇
 
@@ -112,7 +207,18 @@ NLP로 쉽게 달성할 수 있는 사용 사례들은 두 가지 시각에서 �
 
 로봇 공학에서 정의된 6개의 자율 수준을 고려해보세요. 이 수준은 자율이 없는 수준 0(스팸 필터)에서 완전히 자율적인 수준 6(다양한 작업을 독립적으로 처리할 수 있는 개인 비서)까지 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금 대부분의 AI 시스템은 1~5단계 사이에 위치하며, 사용자 피드백이 있는 반자율적 AI 시스템이다. 이러한 시스템은 두 가지 상호적응 에이전트, 즉 사용 조건에 따라 정확도가 변하는 AI 시스템과 사용자의 작업 전문성 및 AI 정신 모델이 다양한 사용자로 인해 설계하기 어려운 과제입니다.
 
@@ -122,7 +228,18 @@ NLP로 쉽게 달성할 수 있는 사용 사례들은 두 가지 시각에서 �
 
 그러나 지금의 대다수 사용 사례는 반자율적 AI를 사용합니다. 이러한 시스템은 (1) 시스템 성능을 기반으로 사용자 기대치를 중재하고, (2) 시스템에 대한 사용자 신뢰에 따라 다양한 작업 흐름을 허용하는 디자인을 주로 의존합니다. 예를 들어, 사용자는 AI에 독립적으로 작동하도록 신뢰할 수도 있고, AI 시스템의 투명성을 원해 일부 감시를 통해 개입할 때가 있을 수도 있으며, 아예 AI 없이 작업을 완료할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 성공적인 예 중 하나는 로봇 청소기인 룸바(Roomba)입니다. 사람들은 룸바를 자유롭게 이동시킬 수 있습니다(완전 자율), 멈춰있을 때 개입할 수도 있습니다(반자율), 혹은 룸바의 일정을 일시 중지하고 수동으로 공간을 청소할 수도 있습니다(비자율).
 
@@ -132,7 +249,18 @@ NLP로 쉽게 달성할 수 있는 사용 사례들은 두 가지 시각에서 �
 
 # AI 사용 사례는 근본적으로 다릅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AI 성능이 빠르게 향상되고 있습니다. 하지만 전통적인 소프트웨어와는 달리, AI 결과는 본질적으로 결정론적이 아닙니다.
 
@@ -142,7 +270,18 @@ AI 프로젝트의 도전 과제는 이미 시사되어 있는 해결책이 있�
 
 AI가 탁월하게 수행해야 하는 사용 사례는 기대를 충족시키지 못할 수 있습니다. AI를 모든 상황, 모든 사용자에게 항상 합리적으로 구현할 수 없는 높은 기준을 설정합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 중간 수준의 AI 성능이 여전히 가치 있는 사용 사례를 찾는 것은 이미 사용자가 가치를 얻는 기본선 상에서 시작됩니다.
 
@@ -152,6 +291,17 @@ AI가 탁월하게 수행해야 하는 사용 사례는 기대를 충족시키�
 
 ## 읽어주셔서 감사합니다! 여러분의 생각을 알고 싶어요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Elaine 씨는 디자인, 인공 지능, 신흥 기술 등에 대해 글을 씁니다. 더 많은 소식을 받으려면 팔로우해 주세요. 또는 LinkedIn에서 연락을 주세요.

@@ -3,17 +3,13 @@ title: "효율적인 HNSW 인덱싱 대규모 병렬 처리를 통한 인덱스 
 description: ""
 coverImage: "/assets/img/2024-06-22-EfficientHNSWIndexingReducingIndexBuildTimeThroughMassiveParallelism_0.png"
 date: 2024-06-22 21:34
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-EfficientHNSWIndexingReducingIndexBuildTimeThroughMassiveParallelism_0.png
 tag: Tech
 originalTitle: "Efficient HNSW Indexing: Reducing Index Build Time Through Massive Parallelism"
 link: "https://medium.com/gsi-technology/efficient-hnsw-indexing-reducing-index-build-time-through-massive-parallelism-0fc848f68a17"
 isUpdated: true
 ---
-
-
-
-
 
 ## 소개
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 본 블로그 포스트에서는 HNSW 인덱스를 빌드하는 데 오랜 시간이 걸리는 이유를 설명하고, 고도의 병렬성을 활용하여 CPU를 기반으로 한 기존 솔루션과 비교하여 인덱스 빌드 시간을 대략 85% 줄일 수 있는 솔루션을 제시합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## HNSW 개요
 
@@ -33,8 +40,18 @@ HNSW는 쿼리의 근사 최근 이웃을 효율적으로 탐색하는 그래프
 
 그림 1은 HNSW 그래프 구조의 간단한 예를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-22-EfficientHNSWIndexingReducingIndexBuildTimeThroughMassiveParallelism_0.png)
 
@@ -44,8 +61,18 @@ HNSW는 쿼리의 근사 최근 이웃을 효율적으로 탐색하는 그래프
 
 더 큰 ef_construction은 더 많은 후보를 추적하고 평가하여 실제 최근 이웃을 찾을 가능성을 높이며, 정확도를 향상시키지만 더 많은 거리 계산이 필요하기 때문에 인덱스 구축 시간이 늘어납니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 느린 인덱스 빌드 시간의 결과
 
@@ -55,8 +82,18 @@ HNSW는 쿼리의 근사 최근 이웃을 효율적으로 탐색하는 그래프
 
 이는 수십억 개의 실시간 리스트가 있는 이러한 기업에게 문제가 될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-EfficientHNSWIndexingReducingIndexBuildTimeThroughMassiveParallelism_1.png" />
 
@@ -66,8 +103,18 @@ HNSW는 쿼리의 근사 최근 이웃을 효율적으로 탐색하는 그래프
 
 인덱스 빌드 시간이 느릴수록 전자 상거래 및 RAG와 같은 애플리케이션의 확장성이 제한됩니다. 전자 상거래의 경우, 고객 기반과 제품 카탈로그 확장으로 인덱스 빌드 시간이 증가하여 관련 제품 추천의 서비스가 지연됩니다. RAG의 경우, 더 큰 데이터 세트는 높은 품질의 응답을 제공하지만, 느린 인덱스 빌드로 효율적으로 관리할 수 있는 데이터 양이 제한됩니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 운영 비용 증가
 
@@ -77,7 +124,18 @@ HNSW는 쿼리의 근사 최근 이웃을 효율적으로 탐색하는 그래프
 
 개발자들은 모델을 세밀하게 조정하고 응용 프로그램 성능을 개선하기 위해 빠르게 실험해야 합니다. 인덱스 빌드 시간이 길면 실험 횟수를 제한하고 그 실험을 평가하는 데 필요한 시간이 증가합니다. 이는 혁신을 늦추고 개선을 미루게 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 동적 데이터셋의 느린 업데이트
 
@@ -87,7 +145,18 @@ HNSW는 쿼리의 근사 최근 이웃을 효율적으로 탐색하는 그래프
 
 인덱스 빌드 시간을 줄이는 두 가지 효과적인 방법은 병렬 처리와 벡터 양자화입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 병렬 처리
 
@@ -97,7 +166,18 @@ HNSW는 쿼리의 근사 최근 이웃을 효율적으로 탐색하는 그래프
 
 벡터 양자화
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 벡터 양자화는 벡터를 압축하여 데이터 전송 당 더 많은 벡터를 포장할 수 있게 하며, 더 적은 비트에서 최근접 이웃 거리 계산을 수행하여 단순화합니다. 이로써 외부 메모리에서의 느린 메모리 접근 수를 줄이고 거리 계산 속도를 높일 수 있습니다.
 
@@ -107,7 +187,18 @@ GSI Technology의 메모리 내 계산 연상 처리 장치 (APU)는 백만 개�
 
 APU를 사용하면 계산이 메모리 내에서 직접 수행되므로 프로세서와 메모리 간의 전통적인 병목 현상을 피할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 APU HNSW Index Build Process
 
@@ -117,7 +208,18 @@ APU HNSW Index Build Process
 
 3. 할당: 각 정점을 클러스터 중심까지의 거리를 기반으로 가장 가까운 클러스터에 할당합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. 데이터 불러오기: 여러 클러스터를 APU에 로드합니다.
 
@@ -127,7 +229,18 @@ APU HNSW Index Build Process
 
 7. 이웃들의 합집합: 각 정점에 대해 다수의 클러스터에서 가장 가까운 이웃들을 병합합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 8. 최적화: 연결 후, 간선을 양방향으로 만들고 각 정점이 중복된 간선을 제거하여 `= K`개의 이웃을 보유하도록 보장합니다.
 
@@ -137,8 +250,18 @@ APU는 수백만 비트 프로세서를 사용하여 5단계에서의 최근접 
 
 Nvidia의 Figure 3에 따르면, 인텔 Xeon Platinum 8480CL CPU는 1억 개의 벡터를 위한 HNSW 인덱스를 구축하는 데 약 5,636초(약 1.5시간)가 걸리는 것을 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Figure 4](/assets/img/2024-06-22-EfficientHNSWIndexingReducingIndexBuildTimeThroughMassiveParallelism_2.png)
 
@@ -148,8 +271,18 @@ Figure 4에 따르면 APU 시스템이 100 백만 벡터 HNSW 인덱스를 864�
 
 ![Figure 4](/assets/img/2024-06-22-EfficientHNSWIndexingReducingIndexBuildTimeThroughMassiveParallelism_3.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 결론
 
@@ -159,7 +292,18 @@ HNSW는 GenAI와 전자 상거래와 같은 애플리케이션에서 사용되�
 
 대량의 병렬 처리와 유연한 양자화를 통해 GSI Technology의 APU는 기존 CPU 기반 솔루션과 비교하여 색인 빌드 시간을 약 85% 줄일 수 있습니다. 이는 확장성을 향상시키고 운영 비용을 낮추며 빠른 개발자 애플리케이션 실험을 가능하게 하며, 동적 데이터 세트에 대한 적시적인 업데이트를 보장합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 APU의 유연한 비트 수준 처리가 대량 병렬 처리를 제공하여 인덱스 빌드 시간을 크게 줄이는 방법에 대한 자세한 내용은 화이트페이퍼 "효율적인 HNSW: 인덱스 빌드 시간을 85%로 단축"을 읽어보세요.
 

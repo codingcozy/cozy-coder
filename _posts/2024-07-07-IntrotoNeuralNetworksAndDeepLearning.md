@@ -3,17 +3,13 @@ title: "신경망 및 딥러닝 입문 지금 알아야 할 기본 개념"
 description: ""
 coverImage: "/assets/img/2024-07-07-IntrotoNeuralNetworksAndDeepLearning_0.png"
 date: 2024-07-07 22:47
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-IntrotoNeuralNetworksAndDeepLearning_0.png
 tag: Tech
 originalTitle: "Intro to Neural Networks And Deep Learning"
 link: "https://medium.com/@likhitha-guggilla/intro-to-neural-networks-and-deep-learning-2ee896db06ea"
 isUpdated: true
 ---
-
-
-
-
 
 **인공 신경망의 기본 개념을 일부간추려 보세요!**
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## 딥러닝이란 무엇인가?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 딥러닝은 머신 러닝과 인공 지능(AI)의 한 종류로, 인간이 특정 유형의 지식을 얻고 응답하는 방식을 모방하려고 합니다. 이는 인간 두뇌에서 영감을 받은 인공 신경망을 훈련시켜 대량의 데이터에서 학습하고 원하는 결과물을 생성하는 것을 포함합니다 (마치 사람들이 학습 기회를 얻은 것처럼!).
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ## 신경망: 건축 모듈
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어린이에게 고양이를 인식하는 법을 가르친다고 상상해 보세요. 고양이 사진을 보여주고, 콧수염, 뾰족한 귀, 그리고 털이 많은 꼬리 같은 특징들을 설명해 줍니다. 신경망도 비슷하게 작동하는데, 하지만 여러분이 특징을 가리키는 대신, 신경망은 스스로 학습하는 과정을 통해 그 특징들을 찾아냅니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 ## 신경망 층 해석하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 입력 계층: 네트워크가 데이터를 받는 곳입니다. 이미지를 입력하고 있다면, 이 계층은 픽셀로 이루어져 있을 것입니다.
 - 은닉 계층: 이 계층들은 입력과 출력 사이에 위치한 계층들입니다. "은닉"이라고 불리는 이유는 직접적으로 보이지 않기 때문입니다. 딥러닝의 마법이 일어나는 곳으로, 이러한 계층들은 입력을 출력 계층이 사용할 수 있는 형태로 변환합니다. 각 은닉 계층에서는 뉴런들이 이전 계층에서 입력을 처리하고 변환된 데이터를 다음 계층들로 전파합니다. 이렇게 은닉 계층들이 네트워크가 복잡한 특징과 패턴을 학습하고 표현할 수 있도록 합니다.
@@ -54,7 +83,18 @@ isUpdated: true
 
 ## 신경망 훈련
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 신경망을 훈련하는 것은 데이터를 공급하고 입력 데이터와 원하는 출력에 기반하여 신경망의 가중치를 조정하여 네트워크의 예측 정확도를 향상시키는 과정입니다. 이는 반복적인 과정이죠. 간단히 말하면 다음과 같습니다:
 
@@ -67,7 +107,18 @@ isUpdated: true
 
 ## 왜 딥러닝이 강력한 이유인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 딥 러닝의 진정한 강점은 방대한 양의 데이터를 처리하고 유용한 기능을 자동으로 추출하는 능력에 있습니다. 전통적인 모델은 데이터 과학자가 기능을 수동으로 설계해야 할 수도 있는 반면, 딥 러닝 모델은 데이터로부터 직접 학습합니다. 이 능력 덕분에 자연어 처리, 게임 플레이, 심지어 예술적 창작과 같이 복잡한 작업에서 뛰어난 성과를 거두게 됩니다.
 
@@ -79,7 +130,18 @@ isUpdated: true
 
 ## 딥 러닝에서의 어려움은 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 데이터 요구 사항: 주요 장애물 중 하나는 훈련을 위한 대량의 레이블이 지정된 데이터가 필요하다는 점입니다. 충분한 데이터가 없으면, 딥 러닝 모델은 효과적으로 학습하고 일반화하는 데 어려움을 겪을 수 있습니다.
 - 계산 리소스: 딥 러닝 모델을 훈련하는 것은 계산적으로 매우 소모적이며 강력한 GPU 또는 TPU가 필요할 수 있습니다. 이는 고성능 하드웨어에 액세스할 수 없는 사람들에게 상당한 장벽이 될 수 있습니다.
@@ -91,7 +153,18 @@ isUpdated: true
 
 이 블로그 글 전체를 차분히 읽어 주셔서 감사합니다!!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 내 컨텐츠가 마음에 들고 유용하다고 생각되면 팔로우 한 번 눌러주세요:) 흥미로운 블로그가 계속 업데이트 됩니다...
 

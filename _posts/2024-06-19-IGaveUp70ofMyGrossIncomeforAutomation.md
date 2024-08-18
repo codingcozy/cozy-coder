@@ -3,17 +3,13 @@ title: "나는 자동화를 위해 총 수입의 70를 포기했습니다"
 description: ""
 coverImage: "/assets/img/2024-06-19-IGaveUp70ofMyGrossIncomeforAutomation_0.png"
 date: 2024-06-19 05:48
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-IGaveUp70ofMyGrossIncomeforAutomation_0.png
 tag: Tech
 originalTitle: "I Gave Up 70% of My Gross Income for Automation"
 link: "https://medium.com/mr-plan-publication/i-gave-up-70-of-my-gross-income-for-automation-56201446a729"
 isUpdated: true
 ---
-
-
-
-
 
 그리고 나는 또 다시 그렇게 할 것이다!
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이것은 이전에 존재하지 않았던 완전히 새로운 시장이었기 때문에, 내 웹사이트를 시작했을 때 시장 포화가 전혀 없었으며, 제품 아이디어가 의도한 시장인 대마초 시장에서 막 시작하고 있었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그런 다음, 제가 브랜드명을 산업 표준 제품 이름으로 사용하는 바람에 처음 몇 년 동안 광고비 없이 검색 엔진과 유튜브가 지속적으로 나에게 고객을 보내 주었습니다.
 
@@ -33,17 +40,39 @@ isUpdated: true
 
 대마 싸고와 관련하여 이제는 전 세계적으로 표준이 된 이 단어가 나를 항상 검색 결과에서 도와주었기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특정한 성공 공식이 있었던 것 같지 않게 하고 싶어요. 온라인 비즈니스에서는 때로 성공에는 운이랑 타이밍이 약간 개입되기도 해요. "적절한 장소에서 적절한 시간에"와 같은 성공의 요소가 있어요.
 
 (처음의 좋은 운이 끝나면, 나머지는 효과적인 마케팅일 뿐이에요.)
 
-"나만의 상사가 되었다"와 "일과 시간에 구애받지 않는다"는 것에 대해 정말 행복했었지만... 원하는 것보다 조금 더 일을 많이 했어요. 첫 해에는 주당 약 50~60시간 정도 일한 거죠. 
+"나만의 상사가 되었다"와 "일과 시간에 구애받지 않는다"는 것에 대해 정말 행복했었지만... 원하는 것보다 조금 더 일을 많이 했어요. 첫 해에는 주당 약 50~60시간 정도 일한 거죠.
 
 <img src="/assets/img/2024-06-19-IGaveUp70ofMyGrossIncomeforAutomation_0.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결국 나는 20~25시간이 소요되는 아르바이트로 조정했어요.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 결국 나는 인쇄를 외주하기로 결정해서 더 적은 시간에 일할 수 있었어요. 특히, 내 제품의 경우에는 3D프린트 서비스보다 부분 당 가격을 낮게 받아들일 수 있는 파트너를 찾는 것을 의미해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 처음에는 총 수입을 50대 50으로 나눴어요.
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 그런데 제 파트너는 현재 속도로는 계속할 수 없다고 판단해서, 2022년에는 약 90,000달러 정도만 벌었기 때문에 나누는 비율을 재협상해야 했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요번에 두 번나나 일어났어요, 지금은 30/70 비율이에요.
 
@@ -73,7 +124,18 @@ isUpdated: true
 
 작년에는 대략 9만 5천 달러였고, 올해는 그걸 뛰어넘을 예정이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대부분의 사람들이 나 혼자 모든 주문을 처리하고 총액을 남겨야 한다고 생각해. 끝에는 집에서 부분 시간으로 운영 가능한 낮은 오버헤드 낮은 위험 사업이었으니까.
 
@@ -81,7 +143,18 @@ isUpdated: true
 
 맞아, 이제 30%만 벌고 있는데, 세금과 마케팅을 고려하면 현재는 좀 감소한 총 주문량 때문에 $20k 가량이야.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래도 집에서 맞춤 작업을 계속하고 있어요. 그것으로 연간 10,000달러에서 20,000달러를 더 벌어요. 그리고 그것은 저에게 시간을 많이 소비하지 않아요. 이 주에는 조금, 그 다음 주에는 좀 더 하면서 계속합니다.
 
@@ -91,7 +164,18 @@ isUpdated: true
 
 이미 이메일 마케팅을 자동화했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 올해 초에 이메일 마케팅 워크플로우를 약간 수정하는 것만으로도 가능해요.
 
@@ -101,7 +185,18 @@ isUpdated: true
 
 나의 모든 지식을 학습한 챗봇이 있어요. 제품을 판매하는 것뿐만 아니라 고객에게 제품 사용 방법을 가르쳐 줄 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Orimon AI를 사용하여 고객 서비스를 자동화하고 있어요.
 
@@ -111,7 +206,18 @@ Orimon AI를 사용하여 고객 서비스를 자동화하고 있어요.
 
 ![이미지](/assets/img/2024-06-19-IGaveUp70ofMyGrossIncomeforAutomation_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 주문이 오고 있고, 이제 Pirateship을 통한 배송 플러그인 덕분에 제 파트너는 그들의 pirateship 계정에서 주문을 볼 수 있어요. 그들은 처리해야 할 것을 알게 되고, 그런 다음 목요일에 나에게 송장을 보내 주고 금요일에 지불하게 돼요.
 
@@ -121,7 +227,18 @@ Cannagar Tools는 이제 이메일을 폭발시키거나 세일을 시작하거�
 
 내 생각엔 정말 괜찮은데, 물어보면.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여러 온라인 수입원을 가지고 있는데, 대부분은 이제 대부분 수동적이에요.
 
@@ -131,7 +248,18 @@ Cannagar Tools는 이제 이메일을 폭발시키거나 세일을 시작하거�
 
 Cannagar Tools은 앞으로도 부수 수입원이 될 가능성이 높은데, 왜 버려야 할까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 거의 시간이 걸리지 않는다면 인쇄 파트너에게 대부분의 수입을 내야 한다고 해도 전혀 문제가 없어요.
 
@@ -141,8 +269,18 @@ Cannagar Tools은 앞으로도 부수 수입원이 될 가능성이 높은데, �
 
 솔직히 말하자면, 저는 외딴 곳 워싱턴 주 태평양 인근에서 작고 아기자기한 집에 살고 있어요. 다른 곳과 비교할 때 제 빌은 매우 낮아요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-19-IGaveUp70ofMyGrossIncomeforAutomation_5.png)
 
@@ -152,8 +290,18 @@ Cannagar Tools은 앞으로도 부수 수입원이 될 가능성이 높은데, �
 
 그런데 지금은 수입을 발생시키고 일해야 하는 상황에 만족해요.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 많은 돈을 벌지는 않지만, 일하는 방식이 전통적이지 않아요.
 
@@ -163,7 +311,18 @@ Cannagar Tools은 앞으로도 부수 수입원이 될 가능성이 높은데, �
 
 ![Image](/assets/img/2024-06-19-IGaveUp70ofMyGrossIncomeforAutomation_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 함께해주세요!
 
@@ -175,7 +334,18 @@ Cannagar Tools은 앞으로도 부수 수입원이 될 가능성이 높은데, �
 - 만족하셨다면 감사의 표시와 댓글 남겨주세요
 - 제가 Medium에 포스트를 올릴 때마다 이메일 받기 → 여기를 클릭하세요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앞으로도 계속 봐요....
 

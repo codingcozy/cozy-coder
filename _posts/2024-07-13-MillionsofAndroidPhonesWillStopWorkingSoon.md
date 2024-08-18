@@ -3,7 +3,7 @@ title: "곧 작동을 멈출 수백만 대의 안드로이드 폰, 왜"
 description: ""
 coverImage: "/assets/img/2024-07-13-MillionsofAndroidPhonesWillStopWorkingSoon_0.png"
 date: 2024-07-13 00:38
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-MillionsofAndroidPhonesWillStopWorkingSoon_0.png
 tag: Tech
 originalTitle: "Millions of Android Phones Will Stop Working Soon"
@@ -11,17 +11,24 @@ link: "https://medium.com/ux-designers-club/millions-of-android-phones-will-stop
 isUpdated: true
 ---
 
-
-
-
-
 **10년 전**, 나의 첫 번째 안드로이드 폰을 샀다. 그때가 정말 오래된 것 같지 않아?
 
 터치 기능은 정말 뛰어나고, 그 기능들에 감탄했었다. 롤리팝이라는 유머러스한 이름의 안드로이드 버전을 장착한 디바이스였지.
 
-안타깝게도, 나는  오늘 구글이 롤리팝 시스템 버전을 사용하는 디바이스들을 위한 플레이 서비스 업데이트를 중단했다는 걸 알았어.
+안타깝게도, 나는 오늘 구글이 롤리팝 시스템 버전을 사용하는 디바이스들을 위한 플레이 서비스 업데이트를 중단했다는 걸 알았어.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 타로 전문가 여러분! 안드로이드 폴리스에 따르면 구글이 이 시스템에 대한 10년간의 지원을 중단했다고 하더라구요. 회사에서는 더 젊은 시스템 버전으로 업그레이드하거나 기기를 업그레이드할 것을 제안하고 있어요.
 
@@ -29,7 +36,18 @@ isUpdated: true
 
 저에게는 현대적인 옵션보다 더 좋은 기기를 찾을 수 없어요. 하지만 롤리팝 소유 기기들과 같은 상황을 피하기 위해 언젠가는 기기를 업그레이드해야 할 필요를 이해해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 기술이 빠르게 변화하는 산업이라는 좋은 상기일 뿐만 아니라, 우리는 변화에 신속하게 적응하여 발전하기 위해 노력해야 한다는 것을 상기시켜 줍니다.
 

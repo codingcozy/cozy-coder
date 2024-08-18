@@ -3,18 +3,13 @@ title: "Python과 SQL로 데이터 마스터하기 4가지 전략적 사용 사�
 description: ""
 coverImage: "/assets/img/2024-06-23-DataMasterywithPythonandSQLUnleashingEfficiencyandSecuritythrough4StrategicUseCases_0.png"
 date: 2024-06-23 16:46
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-DataMasterywithPythonandSQLUnleashingEfficiencyandSecuritythrough4StrategicUseCases_0.png
 tag: Tech
 originalTitle: "Data Mastery with Python and SQL: Unleashing Efficiency and Security through 4 Strategic Use Cases"
 link: "https://medium.com/towards-data-science/data-mastery-with-python-and-sql-unleashing-efficiency-and-security-through-4-strategic-use-cases-eb8afb5019a0"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![Data Mastery with Python and SQL: Unleashing Efficiency and Security through 4 Strategic Use Cases](/assets/img/2024-06-23-DataMasterywithPythonandSQLUnleashingEfficiencyandSecuritythrough4StrategicUseCases_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 Python은 다양한 데이터 관련 도전 과제에 대처하기 위한 다양한 라이브러리와 프레임워크를 제공한다는 사실은 널리 알려져 있습니다. Python과 SQL은 함께 강력한 조합을 이루어 데이터 전문가들이 데이터의 최대 잠재력을 발휘하고 데이터베이스를 보다 효과적으로 탐색할 수 있도록 지원합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사에서는 Python과 SQL의 효과와 시너지를 보여주는 네 가지 구별된 사용 사례를 살펴봅니다. 각 사용 사례는 Python의 유연성과 SQL의 질의 능력이 결합된 능력이 돋보이는 고유한 시나리오를 대표합니다.
 
@@ -35,7 +40,18 @@ Python은 다양한 데이터 관련 도전 과제에 대처하기 위한 다양
 
 사용 사례 1: Python으로 작성된 SQL 쿼리의 가독성 향상
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 API를 사용하여 GridDB와 같은 클라우드 데이터베이스에 연결하고 SQL 쿼리를 실행하여 데이터를 검색하는 상황을 상상해보세요. JSON 페이로드를 수용하는 API 엔드포인트를 위한 HTTP 요청 본문을 작성할 때 SQL 쿼리를 요청 본문에 포함해야 합니다. 그러나 실제로는 다양한 어려움이 있을 수 있습니다.
 
@@ -45,7 +61,18 @@ Python은 다양한 데이터 관련 도전 과제에 대처하기 위한 다양
 
 여기 Python에서 SQL 쿼리를 작성하는 더 좋은 방법이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 sql_query1 = (f"""
@@ -57,7 +84,7 @@ SELECT region,
          WHEN lower(category) LIKE 'c%' THEN 'Category C'
          ELSE '기타 카테고리'
     END AS category_classification,
-    CASE WHEN subquery.total_sales BETWEEN 1 AND 1000 THEN '낮은 판매량' 
+    CASE WHEN subquery.total_sales BETWEEN 1 AND 1000 THEN '낮은 판매량'
          WHEN subquery.total_sales BETWEEN 1001 AND 5000 THEN '중간 판매량'
          WHEN subquery.total_sales > 5000 THEN '높은 판매량'
     END AS sales_classification
@@ -91,22 +118,44 @@ print(request_body)
 
 JSON 물체를 생성하며, 해당 물체에는 작업 유형("sql-select")과 SQL 쿼리문(stmt)가 포함됩니다. json.dumps() 함수를 사용하여 파이썬 사전을 JSON 문자열 표현으로 변환합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로 requests 라이브러리를 사용하여 요청을 게시할 수 있습니다.
 
 ```js
-data_req1 = requests.post(url, data=request_body, headers=header_obj)
+data_req1 = requests.post(url, (data = request_body), (headers = header_obj));
 ```
 
 ## 사용 사례 2: 텍스트 열에서 해시태그 추출
 
 TikTok와 Instagram과 같은 플랫폼의 소셜 미디어 분석을 수행할 때, API를 통해 데이터를 추출하고 Azure나 Redshift와 같은 데이터베이스에 저장하는 것이 일반적입니다. 그러나 API 응답에는 종종 콘텐츠가 문자열로 제공되며, 해시태그가 비디오 제목 전체에 흩어져 있는 경우가 많습니다. 이를 해결하기 위해 다음 쿼리를 사용하여 비디오 제목과 같은 텍스트 열에서 해시태그를 추출할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```sql
-select * from 
+select * from
 (SELECT distinct TRIM(SPLIT_PART(title, '#', num)) AS hashtag
 FROM social_media_video_info
 CROSS JOIN (
@@ -123,7 +172,7 @@ CROSS JOIN (
 ) AS nums
 WHERE num <= LENGTH(title) - LENGTH(REPLACE(title, '#', '')) + 1
   AND TRIM(SPLIT_PART(title, '#', num)) <> ''
-) 
+)
 where hashtag not like '% %'
 ```
 
@@ -140,21 +189,43 @@ where hashtag not like '% %'
 
 ## Use Case 3: Python에서 미래 및 폐기 경고 억제하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 몇 줄의 코드는 프로그램 실행 중 미래 경고와 사용이 중단된 경고를 억제하는 데 목적이 있습니다.
 
 ```js
 import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
-warnings.simplefilter(action='ignore', category=DeprecationWarning) 
+warnings.simplefilter(action='ignore', category=DeprecationWarning)
 ```
 
 현재 라이브러리 버전과 호환되는 코드를 사용하고 있고 잠재적인 문제나 사용이 중단된 기능에 대해 알림을 받고 싶지 않은 경우 유용할 수 있습니다.
 
 경고는 종종 라이브러리의 미래 버전에서의 잠재적인 문제나 변경 사항에 대한 유용한 정보를 제공합니다. 경고가 발생하는 근본적인 문제를 완전히 무시하는 대신에 그에 대응하고 해결하는 것이 일반적으로 권장됩니다. 'warnings' 모듈은 파이썬 코드에서 어떻게 경고가 처리되는지 제어할 수 있는 simplefilter() 옵션도 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 사용 사례 4: 가능한 경우 매개변수화된 쿼리 사용
 
@@ -163,13 +234,24 @@ Python을 사용하여 SQL 쿼리를 실행할 때, SQL 문에 값을 직접 포
 만약 당신의 애플리케이션이나 스크립트가 아래의 select 쿼리를 사용한다고 가정해봅시다 -
 
 ```js
-SELECT * FROM 
-TABLE 
-WHERE 
+SELECT * FROM
+TABLE
+WHERE
 COLUMN1 IN ('abcd')
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 공격자가 데이터베이스에 악의적인 값을 삽입하려고 한다면, 그들은 다음 쿼리를 사용하여 이를 수행할 수 있는 구멍을 이용할 수 있습니다. 아래는 공격자가 '선택 쿼리'에 삽입 문을 추가하여 데이터베이스에 불필요한 값들을 주입하는 방법의 기본 예시입니다. 아래 회색 부분은 공격자가 제공한 악의적인 입력으로, 결과적으로 한 번에 2개의 쿼리가 실행되는 것입니다 - 1. 선택하고 2. 삽입하다.
 
@@ -179,7 +261,18 @@ COLUMN1 IN ('abcd')
 
 SQL 주입은 입력을 살균화하거나 매개변수화함으로써 방지할 수 있습니다. 각각에 대한 자세한 내용을 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 매개변수화
 
@@ -190,10 +283,21 @@ theVal2 = 설문 텍스트 상자 2에서 가져옴
 
 아래는 백그라운드에서 실행되는 응용 프로그램 코드입니다 -
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-  sql = "INSERT INTO TABLE VALUES ('" + theVal1 + "','" + theVal2 + "')"
+sql = "INSERT INTO TABLE VALUES ('" + theVal1 + "','" + theVal2 + "')";
 ```
 
 만약 1번 사용자가 텍스트 상자 1에 A3를 입력하고 텍스트 상자 2에 A4를 입력한다면, 백엔드에서 실행되는 쿼리는 다음과 같을 것입니다 -
@@ -204,7 +308,18 @@ INSERT INTO TABLE VALUES ('A3','A4')
 
 만약 두 번째 사용자가 해커라면 굉장히 교활한 사용자일 겁니다. 이 사용자는 테이블 구조와 백엔드 쿼리를 이해하고 있다면, 이를 악의적으로 이용하여 추가적인 레코드를 삽입할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자가 텍스트 상자 1에 값 A1을 입력하고 텍스트 상자 2에 다음 값을 입력한다고 가정해 봅시다.
 
@@ -218,7 +333,18 @@ A2 ');INSERT INTO TABLE VALUES ('B1','B2
 INSERT INTO TABLE VALUES ('A1','A2');INSERT INTO TABLE VALUES ('B1','B2')
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서, 이 해킹 사용자에 의해 2개의 레코드가 삽입될 것입니다.
 
@@ -228,7 +354,18 @@ INSERT INTO TABLE VALUES ('A1','A2');INSERT INTO TABLE VALUES ('B1','B2')
 
 ## 입력 살균 처리
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 산소화는 입력 값의 특수 문자를 이스케이핑하여 수행할 수 있습니다. 이 작업은 대상 컨텍스트(예: SQL 쿼리)에서 특별한 의미를 가지는 문자를 해당하는 이스케이프 표현으로 대체하거나 인코딩하는 것을 포함합니다. 예를 들어 SQL에서는 작은따옴표(') 문자가 흔히 두 번 반복하여 이스케이프됩니다(그것을 대체함으로써 문자열에서 작은따옴표를 2개로 대체). 다시 말해, 쿼리에 입력 값을 넣기 전에 값을 수동으로 이스케이프할 수 있습니다. 이를 위해 str.replace를 사용할 수 있습니다.
 
@@ -238,12 +375,23 @@ theVal1 = 설문조사 텍스트상자1에서 가져옴
 theVal2 = 설문조사 텍스트상자2에서 가져옴
 
 ```js
-escapedVal1 = theVal1.replace("'", "''")
-escapedVal2 = theVal2.replace("'", "''")
-sql = "INSERT INTO TABLE VALUES ('" + escapedVal1 + "','" + escapedVal2 + "')"
+escapedVal1 = theVal1.replace("'", "''");
+escapedVal2 = theVal2.replace("'", "''");
+sql = "INSERT INTO TABLE VALUES ('" + escapedVal1 + "','" + escapedVal2 + "')";
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해커가 악성 레코드를 삽입하려고 시도할 때 사용자의 삽입문과 함께 삽입이 됩니다. 아래와 같이 보일 거에요 -
 
@@ -255,7 +403,18 @@ INSERT INTO TABLE VALUES ('A1','A2'');INSERT INTO TABLE VALUES (''B1'',''B2')
 
 ![이미지](/assets/img/2024-06-23-DataMasterywithPythonandSQLUnleashingEfficiencyandSecuritythrough4StrategicUseCases_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 따라서 백엔드 테이블에서 사용자 중 한 명이 삽입문을 실행하려고 시도한 사실을 확인할 수 있을 것입니다. 입력 변수를 이스케이핑하는 것만으로 SQL 인젝션을 효과적으로 막았습니다.
 
@@ -265,7 +424,18 @@ INSERT INTO TABLE VALUES ('A1','A2'');INSERT INTO TABLE VALUES (''B1'',''B2')
 
 본 문서에서는 SQL 쿼리를 다룰 때 Python 프로그래밍 기술을 향상시키기 위한 네 가지 실용적인 사용 사례를 살펴보았습니다. Python으로 작성된 SQL 쿼리의 가독성을 향상시키기 위한 Use Case 1부터 시작하여 쿼리 포맷팅과 들여쓰기와 같은 기술을 활용함으로써 코드를 더 체계적이고 이해하기 쉽도록 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Use Case 2로 넘어가면서, 텍스트 열에서 해시태그를 추출하는 방법에 대해 살펴보았습니다. SQL 및 문자열 조작 함수를 활용하여 관련 해시태그를 효과적으로 추출하고 데이터 분석 프로세스를 강화하는 방법을 배웠습니다.
 

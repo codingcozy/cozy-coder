@@ -3,17 +3,13 @@ title: "아이폰 16 공개 고대 기술 소개와 애플의 빠른 충전 속�
 description: ""
 coverImage: "/assets/img/2024-07-21-iPhone16UnveilsAncientTechnologyAppleFastChargingAccelerates_0.png"
 date: 2024-07-21 11:25
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-21-iPhone16UnveilsAncientTechnologyAppleFastChargingAccelerates_0.png
 tag: Tech
 originalTitle: "iPhone 16 Unveils Ancient Technology,Apple Fast Charging Accelerates"
 link: "https://medium.com/macoclock/iphone-16-unveils-ancient-technology-apple-fast-charging-accelerates-bd5c5c565eef"
 isUpdated: true
 ---
-
-
-
-
 
 애플의 최신 iPhone 16이 안드로이드의 고속 충전 및 기타 혁신적인 기능과 경쟁하도록 설정되었습니다.
 
@@ -23,15 +19,37 @@ isUpdated: true
 
 전자는 디자인 제약 때문에 발생하는 것일 수 있지만, 후자는 이노베이션의 부족으로, 유선 충전 전력이 20W 이상 수준에서 수년 동안 멈춰있는 상황입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 최근 유출정보에 따르면 애플이 아이폰의 충전 속도를 향상시키는 혁신적인 변화를 이룰 수도 있다는 제안이 나왔습니다.
 
 7월 5일, Angry Miao의 창립자인 Li Nan은 아이폰 16 시리즈가 40W의 충전 속도를 지원한다고 밝혔습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-그는 또한 AM Emptiness Charger가 40W의 단일 USB-C 충전을 지원하는 것을 지난 세 달 전에 출시되었다고 주장하는 증거도 제공했습니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+그는 또한 AM Emptiness Charger가 40W의 단일 USB-C 충전을 지원하는 것을 지난 세 달 전에 출시되었다고 주장하는 증거도 제공했습니다.
 
 27W에서 40W로 늘어난 것은 중요한 개선이지만 안드로이드 진영과 비교하면 여전히 미미합니다.
 
@@ -39,7 +57,18 @@ isUpdated: true
 
 예를 들어, 최근 출시된 399달러에 가격이 책정된 안드로이드 폰은 120W의 초고속 충전을 제공하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 연구에 따르면, 전 세계적으로 최초로 40W 급속 충전을 지원하는 스마트폰은 2016년 12월에 출시된 Honor Magic이었습니다.
 
@@ -49,7 +78,18 @@ isUpdated: true
 
 기술 매체 MacRumors는 한때 트윗을 올려 전체 iPhone 16 시리즈가 최대 40W 유선 충전을 지원할 것이라고 밝혔습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 따라서 iPhone 16에서 충전 속도가 크게 향상될 가능성이 높습니다.
 
@@ -59,7 +99,18 @@ isUpdated: true
 
 1월에 Barclay가 애플에 대해 비관적으로 전망했었으며 iPhone 16 시리즈가 매력을 잃고 판매 촉진에 실패할 것이라 예측했다는 것을 언급할 가치가 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 중국 증권 타우러스에서 최근 보고서에 따르면 애플이 올해 iPhone 16 시리즈 주문을 증가시켰으며, 주식 목표를 약 9000만 대로 조정했다고 합니다.
 
@@ -69,7 +120,18 @@ isUpdated: true
 
 폭스콘 중국 공장의 시간당 임금은 3.5달러로 상승했습니다. 심각한 노동 인력 부족 시기에 볼 수 있었던 4.2달러 이상의 비율에는 미치지 못하지만, 현재 조립 라인 작업자 채용 시장에서는 상대적으로 높은 수준입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 두 가지 정보를 결합하면, Apple은 iPhone 16의 전망에 대해 상당히 낙관적인 것으로 보입니다.
 
@@ -79,7 +141,18 @@ isUpdated: true
 
 @Nicolás Alvarez에 따르면, Apple의 백엔드에 따르면 4가지 iPhone 16 모델이 모두 동일한 A시리즈 칩을 사용할 것으로 예상되는데, 해당 칩은 A18일 것으로 예상됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 칩의 표준 버전과 Pro 버전은 CPU/GPU 코어 수나 NPU 성능과 같은 측면에서 차이가 있을 수 있으며, A18과 A18 Pro라는 이름으로 구분될 수 있습니다.
 
@@ -89,7 +162,18 @@ isUpdated: true
 
 TSMC의 N3E 공정 업그레이드와 iOS 18에 "애플 인텔리전스"가 포함된 A18 칩은 특정 하드웨어 요구 사항을 갖추었으므로 기대할 만한 제품입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 출시일이 점점 다가오면서 여러 차례의 보고서가 발행되었고, 이제 iPhone 16 시리즈에 대한 대부분의 정보가 확인되었습니다. 애플 인텔리전스가 포함된다는 것 외에도 iPhone 16 시리즈 전체에서 두 가지 중요한 변화가 있습니다:
 
@@ -99,7 +183,18 @@ TSMC의 N3E 공정 업그레이드와 iOS 18에 "애플 인텔리전스"가 포�
 
 디자인 향상: 다른 변경 사항은 디자인과 관련이 있습니다. 여러 소스가 프레임의 오른쪽 가운데에 새로운 카메라 버튼이 추가될 것이 확인했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 새로운 버튼은 다양한 CAD 도면, 렌더링, 프로토타입 및 폰 케이스 사진으로 입증되었습니다.
 
@@ -109,7 +204,18 @@ TSMC의 N3E 공정 업그레이드와 iOS 18에 "애플 인텔리전스"가 포�
 
 표준 버전과 프로 버전을 자세히 살펴보면, 전자는 작은 업그레이드 속에서 몇 가지 주목할 만한 향상을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 표준 버전 업그레이드:
 
@@ -119,7 +225,18 @@ TSMC의 N3E 공정 업그레이드와 iOS 18에 "애플 인텔리전스"가 포�
 
 마이크는 신호 대 잡음 비율과 방수 기능을 향상시키기 위해 업그레이드될 예정입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 후면 카메라 모듈이 강조되며, 대각선에서 수직으로 변경되어 공간 비디오 녹화를 지원할 수 있을 것입니다.
 
@@ -129,7 +246,18 @@ TSMC의 N3E 공정 업그레이드와 iOS 18에 "애플 인텔리전스"가 포�
 
 Pro 버전 향상:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로 버전은 다르게도 크기, 화면, 카메라와 같은 핵심적인 측면에서 상당한 변화를 겪게 될 것입니다.
 
@@ -139,7 +267,18 @@ Pro 버전 향상:
 
 프로와 프로 맥스는 둘 다 그래핀 냉각을 사용한 향상된 냉각 능력과 퀄컴의 스냅드래곤 X75 5G 모뎀을 지원하는 Wi-Fi 7를 지원하는 향상된 네트워크 연결성을 갖게 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로 모델의 주요 카메라는 스택 디자인을 갖춘 1/1.14인치 IMX903 센서로 전환되며, iPhone 15 Pro Max에 탑재된 동일한 5배 광학 줌 페리스코프 렌즈가 포함될 것입니다.
 
@@ -149,7 +288,18 @@ Pro 버전 향상:
 
 점진적인 업그레이드와 혁신의 부족으로 인식되는 것에도 불구하고, iPhones는 여전히 많은 소비자들을 끌어들이고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 판매가 둔화되더라도 가격을 낮추면 문제가 쉽게 해결될 수 있습니다. 그래서 아이폰 16 시리즈의 판매 예측은 강력하게 유지되며, 특히 두 가지 중요한 요인이 영향을 미칩니다:
 

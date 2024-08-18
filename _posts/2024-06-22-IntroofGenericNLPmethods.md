@@ -3,17 +3,13 @@ title: "일반 NLP 방법론 소개 기초부터 고급까지"
 description: ""
 coverImage: "/assets/img/2024-06-22-IntroofGenericNLPmethods_0.png"
 date: 2024-06-22 21:31
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-IntroofGenericNLPmethods_0.png
 tag: Tech
 originalTitle: "Intro of Generic NLP methods"
 link: "https://medium.com/@henryhengluo/intro-of-nlp-methods-before-llm-077f664d5b53"
 isUpdated: true
 ---
-
-
-
-
 
 # NLP 배경 리뷰
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 아래는 사전 학습, 세밀 조정, 프롬프트와 관련된 고전적 방법들을 정리해 보았습니다. 그 중에 BERT, GPT, 적응형 세밀 조정, 행동 세밀 조정, 파라미터 효율적 세밀 조정, 프롬프트 엔지니어링이 포함되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 사전 훈련 소개
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-22-IntroofGenericNLPmethods_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Transformer 아키텍처는 NLP 작업을 다루는 강력한 성능을 나타내어, 최근 PLM에서 Transformer 아키텍처를 활용하고 있다 [17]. BERT는 Transformer Encoder 아키텍처를 활용하며, 마스크된 언어 모델링을 특징으로 하며, 양방향 자동 인코딩 언어 모델이다 [18]. GPT는 Transformer Decoder 아키텍처를 활용하며, 단방향 자동 회귀 언어 모델이다 [19].
 
@@ -43,13 +61,35 @@ Transformer 아키텍처는 NLP 작업을 다루는 강력한 성능을 나타�
 
 # 파인튜닝 소개
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사전 학습된 임베딩을 활용한 이전 특성 추출과 비교했을 때, 사전 학습된 언어 모델(PLM)의 파인 튜닝은 자연어 처리의 다양한 하향 작업으로의 전이 학습에 더 효과적이고 강력함이 입증되었습니다. 일반적으로 채택된 파인 튜닝 절차는 첫 번째 단계로 레이블이 지정되지 않은 대규모 데이터를 기반으로 모델을 사전 학습하는 것입니다. 그 과정에서 가장 보편적으로 사용되는 방법은 가려진 언어 모델링(MLM) 접근 방식입니다. 두 번째 단계는 다운스트림 작업이나 도메인에 특화된 레이블이 지정된 데이터에서 PLM을 파인 튜닝하는 것이며, 이때 교차 엔트로피 손실 함수와 같은 표준 손실 함수가 사용됩니다.
 
 PLM은 비교적 고정되어 있고 계산 리소스가 더 많이 필요하며, 더 많은 데이터셋, 효율적인 모델 업데이트가 필요하지만, 파인 튜닝은 다양한 실용적 용도에 중요한 빠른 적응형 모델을 제공할 수 있습니다. 따라서 파인 튜닝은 귀중하며 최근 고급 방법은 파인 튜닝 성능을 더욱 향상시킬 수 있습니다. 예를 들어 적응형 파인 튜닝, 행동적 파인 튜닝, 매개변수 효율적 파인 튜닝, 텍스트 대 텍스트 파인 튜닝, 파인 튜닝 불안정성 완화 등이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 적응형 미세 조정은 PLM을 대상 데이터 분포에 더 적응하도록 전이하는 것을 의미합니다. PLM은 MLM(Masked Language Model) 접근 방식을 사용하여 관련 없는 레이블이 붙지 않은 데이터에 대해 미세 조정을 한 다음, 특정 작업 레이블이 붙은 데이터에 대해 교차 엔트로피 손실을 사용하여 모델을 미세 조정합니다. 대상 데이터 도메인으로의 전이는 특히 전문적인 다른 대상 데이터 분포에 유용하며, 이로 인해 최종 모델의 일반화 능력이 제한되기도 합니다.
 
@@ -59,7 +99,18 @@ PLM은 비교적 고정되어 있고 계산 리소스가 더 많이 필요하며
 
 [이미지2]
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Parameter-efficient fine-tuning은 Downstream 작업의 계산 부담을 크게 줄이기 위해 대부분의 PLM을 고정시키고 소수의 매개변수만 미세 조정하는 것이다. 채택된 어댑터는 몇 개의 작은 레이어를 동결된 PLM에 삽입한다. 또는 PLM의 하위 매개변수를 미세 조정하고 나머지 큰 집합을 동결시킬 수도 있다.
 
@@ -69,19 +120,52 @@ Text-to-text fine-tuning은 가리거나 문맥연결 모델을 상위 자체 �
 
 # Prompting 소개
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 NLP 모델이 점점 더 정교해지면, 분명한 딜레마가 발생합니다. 한편에서는 수십억 개의 매개변수를 가진 보다 일반적이고 강력하지만 무거운 PLM이 존재하는 반면, 다른 한편에서 downstream 작업은 오직 독특하고 가벼우며 빠르게 적응하는 모델이 필요합니다. 한편에서는 많은 편향과 노이즈가 있는 주석이 되지 않은 원본 데이터가 많이 있지만, 다른 한편에서는 과연 소량이고 매우 비싼 과제별 주석 데이터만 사용할 수 있습니다. 한편에서는 대규모 데이터로 상당히 거대한 모델을 훈련시키는 것이 가능하며 고성능 컴퓨팅 센터를 통해 이것이 이루어집니다. 다른 한편에서는 downstream 작업이 한정된 계산 리소스를 제공할 수 있으며 스마트폰과 같은 엣지 컴퓨테이션만 가능합니다. 한편에서는 고전적인 PLM이 더 오랜 시간 동안 업데이트되며, 다른 한편에서는 downstream 작업이 요구 사항을 훨씬 더 빠르게 변경합니다. 요약하면, 이 중첩된 접근법은 방대한 범용 PLM과 유연한 가벼운 과제별 파인튜닝 모델로 이어지며 이러한 목표를 달성하는 데 점점 더 많은 비용이 듭니다. [40]은 이에 대처하기 위한 네 번째 패러다임, 즉 사전 훈련, 프롬프트, 예측을 요약했습니다. 회고적으로, 첫 번째 패러다임은 신경망 없이 특성 엔지니어링을 수동으로 해야 합니다. 두 번째 패러다임은 신경망을 활용하며 아키텍처 엔지니어링을 수동으로 해야 합니다. 세 번째 패러다임은 사전 훈련 및 파인튜닝 접근법을 활용하며 사전 훈련 및 파인튜닝을 위해 적절한 손실 함수를 찾기 위해 목적 함수 엔지니어링을 수동으로 해야 합니다. 네 번째 패러다임은 사전 훈련, 프롬프트, 예측 접근법을 활용하며 적절한 프롬프트를 찾기 위해 프롬프트 마이닝 엔지니어링을 필요로 합니다.
 
 프롬프팅 워크플로우는 4단계로 나눌 수 있습니다. 첫 번째는 프롬프트 구성으로, 필요한 작업을 템플릿에 매핑할 수 있으며, 채워진 템플릿은 PLM에 입력되어 빈 칸 프롬프트(템플릿 텍스트 문자열 중간의 미채워진 슬롯) 및 접두사 프롬프트(템플릿 텍스트 문자열 시작 부분의 미채워진 슬롯)을 포함한 답변을 생성합니다. 두 번째는 답변 구성으로, 생성된 답변을 필요한 레이블로 변환하는 맵 함수를 만들어낼 수 있습니다. 세 번째는 답변 예측으로, 실제로는 고유하게 채워진 템플릿이 PLM에 입력되어 해당하는 답변을 생성합니다. 네 번째는 답변 레이블 매핑으로, 해당하는 답변을 필요한 레이블에 매핑합니다. 요약하면, 원래 입력 x를 템플릿에 채워서 프롬프트 x'를 얻은 후, 일부 빈 칸 슬롯을 채워서 프롬프트 x'를 PLM에 입력하여 완전히 채워진 문자열 x''을 출력하며, 이것은 최종적으로 원하는 레이블 y로 매핑될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러므로 템플릿을 가져오는 것이 중요합니다. 즉, 프롬프트 엔지니어링으로 분류될 수 있는데, 이는 수동 템플릿 엔지니어링, 이산 프롬프트를 포함한 자동화된 템플릿 학습, 프롬프트 마이닝, 프롬프트 해석, 기울기 베이스 검색, 프롬프트 생성, 프롬프트 점수 및 접두사 튜닝, 이산 프롬프트로 초기화된 튜닝, 하드 소프트 프롬프트 혼합 튜닝이 추가로 포함됩니다. 더불어 다중 프롬프트는 프롬프트 성능을 향상시키고 결과를 확장할 수 있습니다. 프롬프트 앙상블, 프롬프트 증강, 프롬프트 구성, 프롬프트 분해를 포함합니다. 프롬프트를 생성하는 다양한 방법이 있지만, 최선의 방법을 결정하기 위한 직접 비교는 어렵습니다. 게다가 일부 실험에서는 템플릿의 약간의 변형이나 변경이 결과에 큰 차이를 일으킬 수 있습니다.
 
 프롬프트 [41-46]는 지식 탐색, 분류 기반 작업, 정보 추출, 자연어 처리에서의 추론, 질문에 대한 답변, 텍스트 생성, 텍스트 생성 자동 평가, 멀티모달 학습, 메타 응용 프로그램, 리소스 등과 같은 다양한 하류 작업에 널리 활용될 수 있습니다. 이러한 것들은 프롬프트의 일반화된 성능과 다양한 하류 작업에 대한 무감하임을 증명합니다. 이는 프롬프트 방법이 다양한 하류 작업을 완료할 수 있는 다양한 프롬프트 템플릿을 갖춘 효과적인 PLM을 실현할 수 있다는 것을 의미합니다. 흔히잘 알려진 피드백-"답변" 작업이 필요한 경우에, 일반적으로 고전적인 세밀한 튜닝 방법을 사용하여 PLM을 적응시키기 위해 특정 작업 영역 지식이 필요합니다. 반면 프롬프팅은 PLM이 학습한 지식을 활용합니다. 그렇기에 프롬프팅은 다양한 하류 작업의 모델 업데이트에 필요한 계산 부하를 줄이고, 모델 복사본을 저장할 필요가 없다는 것이고, 연습으로 특정 하류 작업에 대한 주석이 달린 데이터는 종종 매우 비싸며, 프롬프팅은 이 작업에 조금의 특정 데이터나 이전 지식으로 유익할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![IntroofGenericNLPmethods](/assets/img/2024-06-22-IntroofGenericNLPmethods_10.png)
 
@@ -91,7 +175,18 @@ NLP 모델이 점점 더 정교해지면, 분명한 딜레마가 발생합니다
 
 1. Edunov, S.; Baevski, A.; Auli, M., Pre-trained language model representations for language generation. arXiv preprint arXiv:1903.09722 2019.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. Dong, L.; Yang, N.; Wang, W.; Wei, F.; Liu, X.; Wang, Y.; Gao, J.; Zhou, M.; Hon, H.-W., 통합 언어 모델 사전 훈련을 통한 자연어 이해 및 생성. Advances in Neural Information Processing Systems 2019, 32.
 
@@ -101,7 +196,18 @@ NLP 모델이 점점 더 정교해지면, 분명한 딜레마가 발생합니다
 
 5. Gunel, B.; Du, J.; Conneau, A.; Stoyanov, V., 사전 훈련된 언어 모델 파인튜닝을 위한 지도 대조적 학습. arXiv preprint arXiv:2011.01403 2020.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 6. Qiu, X.; Sun, T.; Xu, Y.; Shao, Y.; Dai, N.; Huang, X., 자연어 처리를 위한 사전 학습 모델: 조사. Science China Technological Sciences 2020, 63 (10), 1872–1897.
 
@@ -111,14 +217,36 @@ NLP 모델이 점점 더 정교해지면, 분명한 딜레마가 발생합니다
 
 9. Rong, X., word2vec 매개변수 학습 해설. arXiv 사전 인쇄 arXiv:1411.2738 2014.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Ma, L.; Zhang, Y. (2015) Using Word2Vec to process big text data. 2015 IEEE International Conference on Big Data (Big Data), IEEE, pp. 2895–2897.
 - Pennington, J.; Socher, R.; Manning, C. D. (2014) Glove: Global vectors for word representation. Proceedings of the 2014 conference on empirical methods in natural language processing (EMNLP), pp. 1532–1543.
 - McCann, B.; Bradbury, J.; Xiong, C.; Socher, R. Learned in translation: Contextualized word vectors. Advances in neural information processing systems 2017, 30.
 - Peters, M. E.; Neumann, M.; Iyyer, M.; Gardner, M.; Clark, C.; Lee, K.; Zettlemoyer, L. (2018) Deep contextualized word representations. arXiv:1802.05365. [Link](https://ui.adsabs.harvard.edu/abs/2018arXiv180205365P) (accessed February 01, 2018).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 14. Floridi, L.; Chiriatti, M., GPT-3: 그 특성, 범위, 한계 및 결과. Minds and Machines 2020, 30 (4), 681–694.
 
@@ -128,7 +256,18 @@ NLP 모델이 점점 더 정교해지면, 분명한 딜레마가 발생합니다
 
 17. Vaswani, A.; Shazeer, N.; Parmar, N.; Uszkoreit, J.; Jones, L.; Gomez, A. N.; Kaiser, Ł.; Polosukhin, I., Attention is all you need. 신경 정보 처리 시스템의 진보 2017, 30.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 18. Devlin, J.; Chang, M.-W.; Lee, K.; Toutanova, K., BERT: Deep Bidirectional Transformers를 위한 사전 훈련. ArXiv 2019, abs/1810.04805.
 
@@ -138,17 +277,39 @@ NLP 모델이 점점 더 정교해지면, 분명한 딜레마가 발생합니다
 
 21. Clark, K.; Luong, M.-T.; Le, Q. V.; Manning, C. D., Electra: 텍스트 인코더를 생성자가 아닌 판별자로 사전 훈련하는 방법. arXiv 사전 인쇄 arXiv:2003.10555 2020.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-22. Lewis, M.; Liu, Y.; Goyal, N.; Ghazvininejad, M.; Mohamed, A.; Levy, O.; Stoyanov, V.; Zettlemoyer, L. 2019. "Bart: Denoising sequence-to-sequence pre-training for natural language generation, translation, and comprehension." arXiv preprint arXiv:1910.13461 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-23. Raffel, C.; Shazeer, N.; Roberts, A.; Lee, K.; Narang, S.; Matena, M.; Zhou, Y.; Li, W.; Liu, P. J. 2019. "Exploring the limits of transfer learning with a unified text-to-text transformer." arXiv preprint arXiv:1910.10683 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+22. Lewis, M.; Liu, Y.; Goyal, N.; Ghazvininejad, M.; Mohamed, A.; Levy, O.; Stoyanov, V.; Zettlemoyer, L. 2019. "Bart: Denoising sequence-to-sequence pre-training for natural language generation, translation, and comprehension." arXiv preprint arXiv:1910.13461
+
+23. Raffel, C.; Shazeer, N.; Roberts, A.; Lee, K.; Narang, S.; Matena, M.; Zhou, Y.; Li, W.; Liu, P. J. 2019. "Exploring the limits of transfer learning with a unified text-to-text transformer." arXiv preprint arXiv:1910.10683
 
 24. Song, K.; Tan, X.; Qin, T.; Lu, J.; Liu, T.-Y. 2020. "Mpnet: Masked and permuted pre-training for language understanding." Advances in Neural Information Processing Systems, 33, 16857–16867.
 
 25. Wei, J.; Ren, X.; Li, X.; Huang, W.; Liao, Y.; Wang, Y.; Lin, J.; Jiang, X.; Chen, X.; Liu, Q. 2019. "Nezha: Neural contextualized representation for Chinese language understanding." arXiv preprint arXiv:1909.00204
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 26. Dai, Z.; Yang, Z.; Yang, Y.; Carbonell, J.; Le, Q. V.; Salakhutdinov, R., Transformer-xl: Attentive language models beyond a fixed-length context. arXiv preprint arXiv:1901.02860 2019.
 
@@ -158,8 +319,18 @@ NLP 모델이 점점 더 정교해지면, 분명한 딜레마가 발생합니다
 
 29. Sun, Z.; Yu, H.; Song, X.; Liu, R.; Yang, Y.; Zhou, D., MobileBERT: 자원 제한 장치를 위한 콤팩트한 범용 BERT. arXiv preprint arXiv:2004.02984 2020.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 30. Jiang, Z.-H.; Yu, W.; Zhou, D.; Chen, Y.; Feng, J.; Yan, S., Convbert: Improving bert with span-based dynamic convolution. Advances in Neural Information Processing Systems 2020, 33, 12837–12848.
 
@@ -169,8 +340,18 @@ NLP 모델이 점점 더 정교해지면, 분명한 딜레마가 발생합니다
 
 33. Peters, M. E.; Neumann, M.; Iyyer, M.; Gardner, M.; Clark, C.; Lee, K.; Zettlemoyer, L. In Deep Contextualized Word Representations, NAACL, 2018.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 34. Howard, J.; Ruder, S. Universal Language Model Fine-tuning을 위한 텍스트 분류(ACL, 2018).
 
@@ -180,7 +361,18 @@ NLP 모델이 점점 더 정교해지면, 분명한 딜레마가 발생합니다
 
 37. Rebuffi, S.-A.; Bilen, H.; Vedaldi, A., 잔여 어댑터를 사용한 다중 시각 도메인 학습. 신경 정보 처리 시스템의 발전 2017, 30.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 38. 아가자니안, A.; 제틀모이어, L.; 구프타, S., 내재적 차원이 언어 모델 파인튜닝의 효과를 설명합니다. arXiv 사전 인쇄 arXiv:2012.13255 2020.
 
@@ -190,7 +382,18 @@ NLP 모델이 점점 더 정교해지면, 분명한 딜레마가 발생합니다
 
 41. 양, Y.; 황, P.; 차오, J.; 리, J.; 린, Y.; 동, J. S.; 마, F.; 장, J., 적대적 예제 생성 및 강화를 위한 프롬프트 기반 접근 방법. arXiv 사전 인쇄 arXiv:2203.10714 2022.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 42. Wei, J.; Wang, X.; Schuurmans, D.; Bosma, M.; Chi, E.; Le, Q.; Zhou, D., Chain of thought prompting elicits reasoning in large language models. arXiv preprint arXiv:2201.11903 2022.
 
@@ -200,7 +403,18 @@ NLP 모델이 점점 더 정교해지면, 분명한 딜레마가 발생합니다
 
 45. Abaho, M.; Bollegala, D.; Williamson, P.; Dodd, S., Position-based Prompting for Health Outcome Generation. arXiv preprint arXiv:2204.03489 2022.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 46. Wang, C.; Wang, J.; Qiu, M.; Huang, J.; Gao, M. In TransPrompt: Towards an Automatic Transferable Prompting Framework for Few-shot Text Classification, Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing, 2021; pp 2792–2802.
 

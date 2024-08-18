@@ -3,18 +3,13 @@ title: "PostgreSQL 테이블 파티셔닝 가이드 효율적인 데이터 관�
 description: ""
 coverImage: "/assets/img/2024-06-23-GuidetoPostgreSQLTablePartitioning_0.png"
 date: 2024-06-23 16:43
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-GuidetoPostgreSQLTablePartitioning_0.png
 tag: Tech
 originalTitle: "Guide to PostgreSQL Table Partitioning"
 link: "https://medium.com/@rasiksuhail/guide-to-postgresql-table-partitioning-c0814b0fbd9b"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![2024-06-23-GuidetoPostgreSQLTablePartitioning](/assets/img/2024-06-23-GuidetoPostgreSQLTablePartitioning_0.png)
 
@@ -24,8 +19,18 @@ PostgreSQL는 강력한 오픈 소스 관계형 데이터베이스 관리 시스
 
 테이블 파티셔닝은 대규모 테이블을 더 작고 관리하기 쉬운 청킹된 파티션으로 나누는 데이터베이스 디자인 기술입니다. 각 파티션은 본질적으로 원본 데이터의 하위 집합을 저장하는 별도의 테이블입니다. 이 기술을 사용하면 대규모 데이터 세트에 대한 쿼리 성능과 데이터 관리를 크게 향상시킬 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파티셔닝은 날짜 열이나 값 범위와 같은 하나 이상의 열을 기준으로 수행될 수 있습니다. 예를 들어, 레코드의 날짜를 기반으로 테이블을 파티션할 수 있으며, 각 파티션은 특정 날짜 범위의 데이터를 나타냅니다. 데이터를 쿼리할 때 PostgreSQL은 쿼리에 관련이 없는 파티션을 빠르게 제거하여 빠른 쿼리 실행을 가능하게 합니다.
 
@@ -38,7 +43,18 @@ PostgreSQL는 강력한 오픈 소스 관계형 데이터베이스 관리 시스
 
 # PostgreSQL에서의 파티셔닝 방법
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 PostgreSQL는 다음과 같은 다양한 분할 방법을 제공합니다:
 
@@ -50,25 +66,45 @@ PostgreSQL는 다음과 같은 다양한 분할 방법을 제공합니다:
 
 범위 분할은 특정 열의 지정된 값 범위를 기반으로 데이터를 분할하는 테이블 분할의 일종입니다. 이는 시계열 데이터나 자연적인 순서를 갖는 데이터를 다룰 때 유용합니다. 각 파티션은 고유한 값 범위를 나타내며, 그 범위 내에 속하는 데이터는 해당 파티션에 저장됩니다. 범위 분할을 사용하면 특정 범위 내의 데이터를 효율적으로 검색할 수 있어 쿼리 성능이 향상됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음과 같은 구조로 sales 테이블의 예제를 고려해 봅시다.
 
-
 CREATE TABLE sales (
-    sale_id SERIAL PRIMARY KEY,
-    sale_date DATE,
-    product_id INT,
-    quantity INT,
-    amount NUMERIC
+sale_id SERIAL PRIMARY KEY,
+sale_date DATE,
+product_id INT,
+quantity INT,
+amount NUMERIC
 ) partition by range (sale_date);
-
 
 sale_date 열을 기준으로 한 판매 데이터에 대한 범위 분할 테이블을 생성하기 위해서는 다음 단계를 따라해야 합니다:
 
 파티션 생성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 날짜 범위를 나타내는 개별 테이블을 만들 것입니다. 데모를 위해 "sales_january," "sales_february," 그리고 "sales_march" 세 개의 파티션을 만들 것입니다.
 
@@ -87,7 +123,18 @@ CREATE TABLE sales_march PARTITION OF sales
 
 각 파티션에 제약 조건을 정의하여 데이터가 올바른 파티션으로 라우팅되도록 보장해야 합니다. 이 예제에서는 각 파티션의 sale_date 열에 대해 CHECK 제약 조건을 사용할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ALTER TABLE sales_january ADD CONSTRAINT sales_january_check
@@ -115,7 +162,18 @@ INSERT INTO sales (sale_date, product_id, quantity, amount)
 VALUES ('2023-03-10', 103, 8, 150.00);
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파티션에서 데이터 조회하기
 
@@ -134,7 +192,18 @@ SELECT * FROM sales WHERE sale_date >= '2023-03-01' AND sale_date < '2023-04-01'
 
 이러한 쿼리는 적절한 파티션에만 액세스하므로 쿼리 성능이 향상됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # PostgreSQL에서의 List Partitioning
 
@@ -151,7 +220,18 @@ CREATE TABLE products (
 ) partition by list(category);
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제품 데이터를 카테고리 열을 기반으로 한 테이블 분할 테이블을 만들기 위해서는 다음 단계를 따라야합니다:
 
@@ -170,7 +250,18 @@ CREATE TABLE furniture PARTITION OF products
     FOR VALUES IN ('가구');
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제약 조건 설정
 
@@ -180,7 +271,18 @@ CREATE TABLE furniture PARTITION OF products
 
 이제 제품 테이블에 데이터를 삽입할 수 있으며, PostgreSQL은 카테고리에 따라 데이터를 자동으로 해당 파티션으로 라우팅합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 INSERT INTO products (category, product_name, price)
@@ -208,7 +310,18 @@ SELECT * FROM products WHERE category = 'Clothing';
 SELECT * FROM products WHERE category = 'Furniture';
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 포스트그리스큐엘에서는 목록 파티셔닝이란 열의 특정 값에 따라 데이터를 관리하고 쿼리하는 데 유용한 기술입니다. 카테고리나 기타 고유한 집합을 기준으로 데이터를 파티션으로 나누면, 목록 파티셔닝을 통해 빠른 데이터 검색과 효율적인 데이터 관리가 가능해집니다.
 
@@ -218,7 +331,18 @@ SELECT * FROM products WHERE category = 'Furniture';
 
 주문 테이블의 구조를 가진 예시를 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 CREATE TABLE orders (
@@ -235,7 +359,18 @@ CREATE TABLE orders (
 
 각 파티션을 나타내는 개별 테이블을 만들어야 합니다. 각 파티션은 특정 해시 값 범위를 나타냅니다. 예제로, 세 개의 파티션을 만들어 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 CREATE TABLE orders_1 PARTITION OF orders
@@ -254,17 +389,27 @@ CREATE TABLE orders_3 PARTITION OF orders
 
 이제 주문 테이블에 데이터를 삽입하면 PostgreSQL이 customer_id의 해시 값을 기반으로 적절한 분할로 데이터를 자동으로 라우팅합니다:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-INSERT INTO orders (order_date, customer_id, total_amount) 
+INSERT INTO orders (order_date, customer_id, total_amount)
 VALUES ('2023-01-15', 101, 500.00);
 
-INSERT INTO orders (order_date, customer_id, total_amount) 
+INSERT INTO orders (order_date, customer_id, total_amount)
 VALUES ('2023-02-20', 102, 600.00);
 
-INSERT INTO orders (order_date, customer_id, total_amount) 
+INSERT INTO orders (order_date, customer_id, total_amount)
 VALUES ('2023-03-10', 103, 700.00);
 ```
 
@@ -283,7 +428,18 @@ SELECT * FROM orders WHERE customer_id = 102;
 SELECT * FROM orders WHERE customer_id = 103;
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 PostgreSQL에서의 해시 파티셔닝은 지정한 열의 해시 값에 기반하여 데이터를 파티션 간에 고르게 분산시키는 유용한 기술입니다. 해시 함수를 활용하여 데이터를 균일하게 분산시키는 해시 파티셔닝은 부하 분산을 실현하고 쿼리 성능을 향상시킵니다.
 
@@ -293,7 +449,18 @@ PostgreSQL 테이블 파티셔닝은 대규모 데이터 집합의 성능 및 �
 
 다른 블로그도 살펴보세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 읽어주셔서 감사합니다!
 

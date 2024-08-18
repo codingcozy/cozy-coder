@@ -3,17 +3,13 @@ title: "클래스워드 - 데이터베이스 열 이름 짓는데 내가 가장 
 description: ""
 coverImage: "/assets/img/2024-06-19-ClasswordsMyFavoriteConventionforNamingDatabaseColumns_0.png"
 date: 2024-06-19 16:16
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-ClasswordsMyFavoriteConventionforNamingDatabaseColumns_0.png
 tag: Tech
 originalTitle: "Classwords — My Favorite Convention for Naming Database Columns"
 link: "https://medium.com/towards-data-science/classwords-my-favorite-convention-for-naming-database-columns-81cf3093c5a7"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-06-19-ClasswordsMyFavoriteConventionforNamingDatabaseColumns_0.png)
 
@@ -23,17 +19,39 @@ isUpdated: true
 
 좀 더 깊게 파고들어서, 클래스워드 적용 과정에 대해 공유하고 싶은 개인적인 감상이 있어요. 컬럼 이름에 클래스워드를 할당해야 할 때마다, 그 컬럼이 어떤 데이터를 보유하게 될지 심도 있게 생각하도록 강요받아요. 이 데이터가 정말로 무엇을 의미하는 걸까요? 데이터의 세부 사항을 충분히 이해했을까요? 이 내성적인 순간은 귀중해요. 네이밍만 하는 게 아니라, 이 데이터베이스를 사용하는 나와 다른 누군가가 해당 내용을 포괄적으로 이해할 수 있도록 하는 거예요. 클래스워드로 신중하게 네이밍하는 이 실천은, 내 경험 상으로 더 직관적이고 효율적인 데이터 관리 환경을 육성하는 데 중요한 역할을 해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 클래스워드란 무엇인가요?
 
 클래스워드는 본질적으로 데이터베이스 열의 이름 뒤에 추가하는 키워드, 즉 데이터 유형을 나타내는 접미사입니다. 이 관례는 데이터의 형태와 기능 사이에 다리 역할을 하며, 데이터베이스와 상호작용하는 사람들이 해당 열이 어떤 종류의 정보를 포함하는지 즉각 파악할 수 있도록 돕습니다. 클래스워드 사용은 본질적으로 데이터베이스 구조에 의미론적 명확성의 한 층을 포함시키는 데 관한 것입니다.
 
-클래스워드의 아름다움은 그들의 간단함과 의미 전달 능력에 있습니다. 예를 들어, 열 이름 뒤에 _id를 추가하는 것은 이 열이 엔티티의 고유 식별자로 기능함을 나타냅니다. 비슷하게, _size_kb와 같은 접미사는 데이터의 크기를 킬로바이트 단위로 표현한 정보를 저장하는 열임을 알려줍니다. 이 의미론적 풍부함은 단순히 명명 규칙을 준수하는 데 그치는 것이 아니라, 데이터베이스에 명확성을 주입함으로써 일당팀을 초월하여 미래의 데이터 엔지니어나 데이터 분석가에게 다가갑니다.
+클래스워드의 아름다움은 그들의 간단함과 의미 전달 능력에 있습니다. 예를 들어, 열 이름 뒤에 \_id를 추가하는 것은 이 열이 엔티티의 고유 식별자로 기능함을 나타냅니다. 비슷하게, \_size_kb와 같은 접미사는 데이터의 크기를 킬로바이트 단위로 표현한 정보를 저장하는 열임을 알려줍니다. 이 의미론적 풍부함은 단순히 명명 규칙을 준수하는 데 그치는 것이 아니라, 데이터베이스에 명확성을 주입함으로써 일당팀을 초월하여 미래의 데이터 엔지니어나 데이터 분석가에게 다가갑니다.
 
 예를 들어, 상태라는 이름으로만 된 열을 고려해 봅시다. 추가적인 맥락이나 데이터 탐색 없이는 해당 열이 어떤 상태를 나타내는지 알기 어려울 것입니다. 이 상태는 상태 코드인가요, 상태에 대한 텍스트 설명인가요, 아니면 활성/비활성 상태를 나타내는 불리언 플래그인가요? 이 모호함은 일상적인 작업뿐만 아니라 데이터 분석과 보고서 작성에서도 혼란을 야기할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 클래스와드를 적용하면 가독성을 크게 향상시킬 수 있습니다. 예를 들어:
 
@@ -44,7 +62,18 @@ isUpdated: true
 
 카테고리 별로 기본 클래스와드를 더 자세히 살펴봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 텍스트 클래스워드
 
@@ -60,23 +89,45 @@ isUpdated: true
 
 ## 캘린더 클래스워드
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 달력 클래스워드는 시간 데이터를 관리하고 해석하는 데 필수적이며, 다양한 차원에서 시간을 추적하는 데 프레임워크를 제공합니다.
 
 - date — 달력 날짜만 필요할 때, event_date는 어떤 일이 언제 일어나는지를 알려주며 정확한 시간에 대해 걱정할 필요가 없습니다.
-- datetime[_`timezone`] (또는 dt[_`timezone`])**— 보다 정확한 타이밍을 위해, meeting_start_datetime은 시간까지 포함한 날짜를 보여주어 초까지 표시할 수 있습니다. 시간대 정보가 전달되지 않는 데이터 유형을 사용하는 경우, column 이름에 적절한 접미사를 추가하여 명확하게 만들어 주세요. 예를 들어, scheduled_start_dt_utc.
-- timestamp[_`timezone`] (또는 ts[_`timezone`])**— 시스템에서 생성되며 종종 초 단위까지 포함하는 시간대 정보가 있는 경우, record_created_timestamp는 행동이나 이벤트의 정확한 순간을 제공합니다. 마찬가지로, 시간대 정보가 포함되지 않는 데이터 유형의 경우, 적절한 접미사를 추가하여 해당 시간대를 나타내세요. 예를 들어, actual_start_ts_utc.
+- datetime[_`timezone`] (또는 dt[_`timezone`])\*\*— 보다 정확한 타이밍을 위해, meeting_start_datetime은 시간까지 포함한 날짜를 보여주어 초까지 표시할 수 있습니다. 시간대 정보가 전달되지 않는 데이터 유형을 사용하는 경우, column 이름에 적절한 접미사를 추가하여 명확하게 만들어 주세요. 예를 들어, scheduled_start_dt_utc.
+- timestamp[_`timezone`] (또는 ts[_`timezone`])\*\*— 시스템에서 생성되며 종종 초 단위까지 포함하는 시간대 정보가 있는 경우, record_created_timestamp는 행동이나 이벤트의 정확한 순간을 제공합니다. 마찬가지로, 시간대 정보가 포함되지 않는 데이터 유형의 경우, 적절한 접미사를 추가하여 해당 시간대를 나타내세요. 예를 들어, actual_start_ts_utc.
 
 ## 숫자형 클래스워드
 
 숫자형 클래스워드는 양적 데이터에 순서와 명확성을 제공하여, 다양한 유형의 숫자 정보를 구별합니다. 아이템을 계산하거나 값, 비율을 측정하든, 이러한 클래스워드는 정확한 데이터 표현과 분석에 중요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - count — 방문자 수 등을 합산하는 데 사용하며, 참여도나 트래픽을 측정하는 데 유용합니다.
-- amount[_`화폐단위`] — 이 클래스워드는 재무 데이터에 필수적입니다. sale_amount_usd는 미국 달러로 거래 가치를 명확히 나타냅니다(화폐 표기는 조건적*).
-- `quantity_property`[_`측정단위`] — 측정 가능한 속성에 대해 사용되며, cable_length_meters는 단순히 길이뿐 아니라 단위까지 명시합니다(측정단위 표기는 조건적*). 길이, 무게, 부피, 크기, 거리, 지속 시간 등 측정 가능한 모든 속성에 사용할 수 있습니다. 다른 예시로는: file_size_kb, job_duration_seconds, package_weight_kg, avg_speed_mph
+- amount[_`화폐단위`] — 이 클래스워드는 재무 데이터에 필수적입니다. sale_amount_usd는 미국 달러로 거래 가치를 명확히 나타냅니다(화폐 표기는 조건적\*).
+- `quantity_property`[_`측정단위`] — 측정 가능한 속성에 대해 사용되며, cable_length_meters는 단순히 길이뿐 아니라 단위까지 명시합니다(측정단위 표기는 조건적\*). 길이, 무게, 부피, 크기, 거리, 지속 시간 등 측정 가능한 모든 속성에 사용할 수 있습니다. 다른 예시로는: file_size_kb, job_duration_seconds, package_weight_kg, avg_speed_mph
 - ratio — aspect_ratio와 같은 비율은 연결된 단위 없이 비교하는 데 필수적입니다.
 - factor — tax_rate_factor와 같은 요소는 계산에 유용한 곱셈 효과를 제공합니다.
 - percent (또는 pct) — 이익률을 나타내는 profit_margin_percent와 같은 백분율은 상대적인 측정을 제공하며 보통 이해하기 쉬운 형식으로 표시됩니다. 그러나 이 값이 1에 기반한 1%를 나타내는지 100에 기반한 1%를 나타내는지 명확히하면 좋습니다.
@@ -87,7 +138,18 @@ isUpdated: true
 
 도메인별 클래스워드를 네이밍 규칙에 통합하는 것은 유익할 뿐만 아니라 특정 분야의 세세한 점을 포착하는 데 필수적입니다. 이러한 전문화된 클래스워드는 이전에 논의한 더 일반적인 클래스워드에서 파생되며, 데이터 스키마에 추가적인 정확성, 네이밍 간소화 및 맥락을 추가합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시:
 
@@ -100,9 +162,20 @@ isUpdated: true
 
 # Context에 유의하세요
 
-테이블 스키마를 설계할 때 항상 해당 테이블이 제공하는 문맥을 고려해보세요. 예를 들어, product라는 이름의 테이블에서는 모든 열 이름에 product_를 접두어로 붙이는 것은 중복되고 불필요하게 장황합니다. product_name, product_description 또는 product_launch_date와 같은 이름 대신 테이블 내에서 name, description 및 launch_date와 같은 간결한 이름을 사용하는 것이 반복적인 꼬리표 없이 필요한 모든 문맥을 제공합니다. 아래 쿼리가 충분히 읽기 쉽지 않나요?
+테이블 스키마를 설계할 때 항상 해당 테이블이 제공하는 문맥을 고려해보세요. 예를 들어, product라는 이름의 테이블에서는 모든 열 이름에 product\_를 접두어로 붙이는 것은 중복되고 불필요하게 장황합니다. product_name, product_description 또는 product_launch_date와 같은 이름 대신 테이블 내에서 name, description 및 launch_date와 같은 간결한 이름을 사용하는 것이 반복적인 꼬리표 없이 필요한 모든 문맥을 제공합니다. 아래 쿼리가 충분히 읽기 쉽지 않나요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 SELECT name, description, launch_date
@@ -115,7 +188,18 @@ FROM product
 
 데이터베이스 열 네이밍 규칙으로 클래스워드를 포함하는 것은 데이터 관리 프로세스를 스트림라인하게 하고 데이터베이스 스키마의 명확성을 높일 수 있는 다양한 이점을 제공합니다. 이것은 왜 나는 클래스워드를 내 데이터베이스 디자인 도구에서 없어서는 안 되는 부분으로 여기게 되었는지에 대한 이유입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 향상된 가독성과 명확성 — Classwords는 데이터베이스 열 이름의 가독성과 이해도를 크게 향상시켜줍니다. 이는 팀 구성원들의 학습 곡선을 최소화하고 상세 문서에 대한 의존을 줄여줍니다. 이로써 각 열의 목적과 데이터 유형을 한눈에 파악하기가 더욱 쉬워집니다.
 - AI 기반 SQL 쿼리 생성의 향상 — Classwords는 자연어 프롬프트로부터 SQL 쿼리를 생성하는 GenAI 모델의 정확성을 향상시킵니다. 이들은 AI 시스템이 데이터베이스 구조를 더 잘 이해하도록 돕고, 대화 인터페이스를 통해 더 쉽게 데이터 추출을 용이하게 합니다. 이를 통해 데이터베이스가 AI 친화적으로 변화합니다.
@@ -127,7 +211,18 @@ FROM product
 
 # 🖐🤓👉 재미있는 사실
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 헝가리안 표기법의 원래 의도가 종종 오해를 받았다는 사실을 알고 계셨나요? 대중적인 믿음과는 달리, 헝가리안 표기법은 데이터 유형과 관련된 것이 아닌 의미론적 유형 접두사를 사용하도록 설계되었습니다. 변수의 유형이 아닌 목적에 대한 통찰력을 제공하기 위한 것이었습니다. 오늘날 일부에서는 안티 패턴으로 간주되지만, 헝가리안 표기법의 본질은 의미 있는 명명의 중요성을 강조하며, 이는 데이터베이스 관리에서의 클래스워드의 가치와 resonates 한 원칙입니다.
 

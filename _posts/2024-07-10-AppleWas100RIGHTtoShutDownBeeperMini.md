@@ -3,17 +3,13 @@ title: "애플이 Beeper Mini를 중단한 것은 100 옳았다"
 description: ""
 coverImage: "/assets/img/2024-07-10-AppleWas100RIGHTtoShutDownBeeperMini_0.png"
 date: 2024-07-10 01:33
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-10-AppleWas100RIGHTtoShutDownBeeperMini_0.png
 tag: Tech
 originalTitle: "Apple Was 100% RIGHT to Shut Down Beeper Mini"
 link: "https://medium.com/@michaelswengel/apple-was-100-right-to-shut-down-beeper-mini-9f3582667f39"
 isUpdated: true
 ---
-
-
-
-
 
 ![Link preview](/assets/img/2024-07-10-AppleWas100RIGHTtoShutDownBeeperMini_0.png)
 
@@ -23,7 +19,18 @@ Beeper의 블로그는 “Android와 iPhone 사용자들이 고화질 이미지/
 
 iMessage는 이러한 기능을 제공하지만 Android 폰으로는 그렇지 않아요. Beeper의 해결책은 무엇일까요? iMessage를 Android로 가져오는 겁니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제는 실행 방식에 있습니다.
 
@@ -33,7 +40,18 @@ iMessage는 Apple 기기인 iPhone, iPad, Mac 및 Apple Watch와 함께 사용�
 
 # Beeper Mini는 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Sure thing! Here is a Markdown version of the text you provided:
 

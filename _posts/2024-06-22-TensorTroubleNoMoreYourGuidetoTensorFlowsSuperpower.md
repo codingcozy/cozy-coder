@@ -3,17 +3,13 @@ title: "텐서플로우의 슈퍼파워 TensorFlow 사용 가이드"
 description: ""
 coverImage: "/assets/img/2024-06-22-TensorTroubleNoMoreYourGuidetoTensorFlowsSuperpower_0.png"
 date: 2024-06-22 21:12
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-TensorTroubleNoMoreYourGuidetoTensorFlowsSuperpower_0.png
 tag: Tech
 originalTitle: "Tensor Trouble No More: Your Guide to TensorFlow’s Superpower"
 link: "https://medium.com/@ujjwalprakash02/tensor-trouble-no-more-your-guide-to-tensorflows-superpower-c5de2241c3d2"
 isUpdated: true
 ---
-
-
-
-
 
 ![텐서 트러블 노 모어: 텐서플로우 슈퍼파워를 위한 당신의 가이드](/assets/img/2024-06-22-TensorTroubleNoMoreYourGuidetoTensorFlowsSuperpower_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 한 개의 레고 브릭을 상상해보세요. 기본적이죠? 그런데 그것들을 연결하면 어떻게 되나요? 갑자기 놀라운 구조물을 만들 수 있게 되죠! 텐서플로우에서 텐서는 머신 러닝을 위한 그런 레고 브릭과 비슷합니다. 텐서란 데이터의 다차원 배열을 말하는 고급 용어입니다. 이 데이터는 머신 러닝에서 발생하는 멋진 숫자 계산의 기초가 되는 거죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 텐서가 작동하는 방식을 간단히 설명해드릴게요:
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 - 데이터 유형: 텐서는 다재다능해요. 숫자부터 텍스트, 심지어 이미지까지 다양한 데이터 유형을 담을 수 있어요. 데이터 유형을 레고 블록의 맛으로 생각해보세요. 숫자는 빨강일 수도 있고, 텍스트는 파랑일 수도 있고, 이미지는 특별한 레고 조각과 비슷한 존재일 거예요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 텐서플로(TensorFlow)에서 텐서(Tensors)가 왜 중요한가요?
 
@@ -45,25 +63,47 @@ isUpdated: true
 
 텐서플로에서 텐서 사용하기 시작하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 TensorFlow은 텐서를 생성하고 작업하는 것이 매우 사용자 친화적입니다. 여기 어떻게 시작하는지 간략하게 살펴보겠어요:
 
 - TensorFlow에 오신 것을 환영합니다! 가장 먼저 TensorFlow를 가져와야 해요. 단지 코드의 처음에 `import tensorflow as tf`와 같은 한 줄을 넣어주시면 돼요.
 - 텐서 동물원 만들기: TensorFlow에서는 값을 직접 지정하거나 기존 데이터 구조를 변환하는 방법 등 여러 가지 방법으로 텐서를 만들 수 있어요. 여기 몇 가지 빠른 예시들이 있습니다:
 
+# 모두 1로 이루어진 텐서를 만들어볼까요!
 
-# 모두 1로 이루어진 텐서를 만들어볼까요! 
-my_tensor = tf.ones([2, 3])  # 이렇게 하면 모두 1로 이루어진 2x3 텐서가 생성돼요
+my_tensor = tf.ones([2, 3]) # 이렇게 하면 모두 1로 이루어진 2x3 텐서가 생성돼요
 
 # 리스트에서 텐서를 만들어볼까요?
-data_list = [1, 2, 3, 4]
-my_tensor = tf.convert_to_tensor(data_list)  # 리스트에서 1D 텐서를 만들어요
 
+data_list = [1, 2, 3, 4]
+my_tensor = tf.convert_to_tensor(data_list) # 리스트에서 1D 텐서를 만들어요
 
 3. 텐서 조작 시간! TensorFlow에는 텐서에 대해 연산을 수행하는 데 사용할 수 있는 다양한 연산 도구가 있어요. 텐서에 덧셈, 뺄셈, 곱셈을 할 수 있을 뿐만 아니라 보다 복잡한 수학 함수도 사용할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 TensorFlow: 머신 러닝을 위한 당신의 놀이터
 

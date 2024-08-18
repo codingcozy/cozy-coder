@@ -3,17 +3,13 @@ title: "10대 시절 웹마스터였던 나"
 description: ""
 coverImage: "/assets/img/2024-06-19-IWasaTeenageWebmaster_0.png"
 date: 2024-06-19 21:38
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-IWasaTeenageWebmaster_0.png
 tag: Tech
 originalTitle: "I Was a Teenage Webmaster"
 link: "https://medium.com/@mikegrindle/i-was-a-teenage-webmaster-d5619bf3323b"
 isUpdated: true
 ---
-
-
-
-
 
 ![img](/assets/img/2024-06-19-IWasaTeenageWebmaster_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 내 HTML, 적당치 않은 CSS, 그리고 훔친 코드로 만들어진 이 사이트는 청소년 소년의 마음만이 상상할 수 있는 형편없는 것이에요. 초록색 헤더 텍스트와 검은 배경, GIF 컬렉션, 그리고 청소년 유머로 가득한 페이지를 상상해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사이트 홈페이지 하단에는 메카니컬 카운터가 있어서 방문자의 수를 알려줍니다. 왼쪽 다섯 번째 숫자가 곧 '1'로 바뀔 것 같아서 자부심을 느낍니다. 하지만 손님들의 방명록에 있는 "사이트가 멋있어"라는 코멘트만큼은 자부심을 느끼는군요.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 하지만 한 가지로, 나에게는요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자그만하지만 재미있는 이 사이트를 통해 학교 IT 수업 전체보다 더 많은 것을 웹 디자인에 대해 배우고 있어요. 그리고 첫 번째로 독자들을 위해 글을 쓰는 경험도 얻게 되었어요.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 웹은 제 어린 시절의 일부가 아니었어요. 90년대와 00년대 초반에 영국의 근로 계급으로 성장했을 때, 제 기억과 통계가 나를 독특하게 만들었다는 걸 보여주세요. 하지만 설탕에 금기를 둔 아이가 초콜릿을 발견한 것처럼, 중학교 네트워크에 처음으로 로그인했을 때 제게 제공된 인터넷 기회에 탐식했던 기억이 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 갑작스럽게 수천 개가 넘는 도서관에 있는 컨텐츠가 손끝에서 이루어졌습니다. 더 중요한 것은 웹 공간 자체도 마찬가지였죠.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 분명히 말하자면, 이 옛날 웹, 나에게 소중히 기억되는 웹은 완벽하지 않았습니다. 팝업창이 곳곳에 있었고, 접근성 문제가 많았으며, 몇 번의 클릭만으로 컴퓨터를 악성 소프트웨어로 인해 사용 불가능하게 만드는 일도 피할 수 없었습니다. 그것은 상상력의 한계를 벗어난 어떤 사람들이 주도하는 기업 무료 유토피아도 아니었습니다. 그러나 그 단점들이 동시에 그 특이함이자 매력이었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 젊은이의 향수가 나를 멍하게 만들었을 수도 있음을 깨달았어요. 하지만 때로는 그 느낌이 "그것이 정말 어땠는지"만큼 중요할 때도 있어요. 그리고 저에게는 웹이 제어할 수 없고 무질서하며 민주적이고 흥미로웠던 곳처럼 느껴졌어요. 사람들은 느슨하고 진심 어린 언어로 말하고 쓰곤 했어요. 아직은 낯선 사람들, 고용주, 친구들에게 우리 자신을 완벽하게 보여줘야 하는 시장이 아니었어요. 오히려 마을 광장과 더 가까웠죠. 아무도 소유하지 않았기 때문에, 우리 모두에게 속해 있었어요.
 
@@ -63,11 +103,33 @@ isUpdated: true
 
 표면 상으로는 오늘날의 웹은 제가 알고 있던 그 시절과 조금도 닮아 보이지 않아요. 사라진 것 같은데, 웹 링크와 개인 홈페이지가 그것이구요. 그 자리에는 앱, 무한 스크롤, 자동 재생 비디오, 부풀어 오른 스크립트, 감시 인프라가 넘실거리는 Web 2.0의 장벽과 인공정보가 차지하고 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신이 개발자이신가요? 그럼 저는 Markdown 형식으로 표 태그를 변환해 보겣습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 소리가 어떻게 들리던지, 난 ‘지오시티스’ 웹이 그리워하지 않아. 모든 홈페이지에 건설 GIF가 있던 것을 염탐하진 않아. 언제 마지막으로 방명록을 남겼는지 기억이 안 나고, 오늘날에는 내 사이트에 방문자 카운터를 두려고 생각하지도 않아. 그렇지만 그 미학이 의미했던 것들은 그리워.
 
@@ -77,7 +139,18 @@ isUpdated: true
 
 하지만 오늘날 웹에서 가장 걱정되는 것은 변화한 정도가 아니라, 얼마나 우리를 바꿨는지이다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "이러한 새로운 기술들은 매력적일 뿐만 아니라 홀린 듯하고 중독성이 강해요. 이는 우리가 자산, 개인정보, 안전, 때로는 삶까지 잃을 위험에 처하도록 하는 큰 약점을 남기게 해요." - 컴퓨터 과학자 론 로스
 
@@ -87,7 +160,18 @@ isUpdated: true
 
 Parimal Satyal이 설명한대로, 이 시스템은"
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 페이스북-캠브리지 애널리티카 스캔들부터 에드워드 스노든의 폭로, 포플리스트들의 플랫폼화, 그리고 전염병 격리 기간 동안 번개처럼 퍼져나간 모든 끔찍한 음모 이론까지, 알고리즘 감시 웹의 경고 신호와 결과들은 점점 더 명백하고 걱정스러운 것으로 나타났어요. 하지만 편의의 약에 중독되어, 우리는 더 이상 스스로를 도울 수 없는 것 같아요.
 
@@ -97,7 +181,18 @@ Parimal Satyal이 설명한대로, 이 시스템은"
 
 하지만, 천천히, 사악하게, 사용자들이 잠긴 이후로, 대형 기술 플랫폼들은 점차적으로 더 도움이 안 되고 광고로 가득 찬, 신뢰할 수 없는 곳으로 쇠해갔어요. 작가이자 활동가인 코리 독터로가 'enshittification(악화)'라고 지칭하는 과정 덕분이죠:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 웹 2.0의 실패에서 우리는 다시 일어날 기회를 찾을 수 있다는 것을 알 수 있어요. "옛날 좋은 시절"로 돌아가기 보다는 포기한 아이디어를 다시 살펴볼 수 있는 기회일지도 몰라요.
 
@@ -107,7 +202,18 @@ Parimal Satyal이 설명한대로, 이 시스템은"
 
 인터넷에는 현재 10억 개 이상의 웹사이트가 있어요. 많은 사이트들이 여전히 개인 홈페이지에요. 그들은 재미있고 흥미진진하며 이상하며 경이로우며 도움이 되며 실제 사람들의 진정한 생각, 아이디어, 그리고 삶의 조각들로 가득 차 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 사이트들의 유일한 문제는 구글이 수십 페이지 이상 묻어버린 곳에서 발견해야 한다는 점입니다. 그곳은 아무도 가지 않는 곳이죠. 발견하는 일은 마치 대서양을 가로 질러 마른 땅을 찾을 것이라는 직감으로 배를 타고 출항하는 것과 같습니다. 이를 위해서는 일반적인 웹서핑 이상의 특별한 노력이 필요합니다.
 
@@ -117,7 +223,18 @@ Parimal Satyal이 설명한대로, 이 시스템은"
 
 어플리케이션 웹만 알고 있는 사람들도 개인적인 네트워크를 원한 것이 아닙니다. 그들은 오히려 그것을 적극적으로 구축하고 있는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최근 롤링 스톤에 실린 기사에서 기술 기업가인 Anil Dash는 웹 사용 방식에 관한 권력 이전이 예견되고 있다고 예언합니다. 규제 당국이 기술 거물들에 대해 마침내 개입하고 강력한 행동을 취한다고 언급하며, 회사들이 앱 스토어를 운영하는 방법부터 검색 엔진을 제어하는 사람, 그리고 데이터 수집 방식에 이르기까지 모든 것을 강제하고 있다고 주장합니다.
 
@@ -127,7 +244,18 @@ Parimal Satyal이 설명한대로, 이 시스템은"
 
 그러나 여기서 중요한 것은 웹 마스터십이 아니라 사람들이 만드는 웹사이트의 의미입니다. 정보의 민주화, 개인의 권리 강화, 디지털 시민권의 정신이 무엇을 나타내는지에 대한 것이라고 생각합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹은 도구나 애플리케이션 목록 이상의 것입니다. 네트워크 이상의 것입니다. 웹은 우리 자신이에요. 어떻게 사용하고 접근하며, 무엇을 말하고 웹에서 하는지가 우리를 점점 더 정의합니다.
 
@@ -137,7 +265,18 @@ Parimal Satyal이 설명한대로, 이 시스템은"
 
 저에게는 인터넷을 도서관에서 발견한 것이 적절해 보입니다. 항상 웹이 될 수 있는 것에 대한 가장 적합한 반영 같았습니다. 학습, 이해, 탈출, 반영을 위한 곳. 공공의 소유인 곳, 우리가 소비자가 아니라 시민으로 존재하는 곳입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금은 더 이상 그렇게 여겨지지 않는 것 같을 수 있어요. 인터넷은 소비하고, 고함을 지르고, 우월성을 주장하며, 강요하고, 누군가의 삶을 어떻게든 상업화하려는 곳으로 변모한 것 같아요. 하지만 이것이 정말 우리의 모습을 반영하는 것일까요, 아니면 소수의 목소리가 큰 영향력을 가진 것일까요?
 
@@ -147,7 +286,18 @@ Parimal Satyal이 설명한대로, 이 시스템은"
 
 그리고 예전에 웹은 제가 이렇게 느끼는 유일한 사람은 아니라고 보여줬기 때문에 이를 실천할 거예요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 더 많은 독서 자료:
 

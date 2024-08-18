@@ -3,17 +3,13 @@ title: "구글 매직 이레이저의 비밀 공개"
 description: ""
 coverImage: "/assets/img/2024-07-13-RevealingtheSecretsofGooglesMagicEraser_0.png"
 date: 2024-07-13 22:35
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-RevealingtheSecretsofGooglesMagicEraser_0.png
 tag: Tech
 originalTitle: "Revealing the Secrets of Google’s Magic Eraser!"
 link: "https://medium.com/gitconnected/revealing-the-secrets-of-googles-magic-eraser-fb232c83723b"
 isUpdated: true
 ---
-
-
-
-
 
 작년에 구글은 '매직 이레이서'를 모든 Google One 사용자에게 제공하기 시작했습니다 (이전에는 Pixel 폰에서만 사용 가능했습니다). 매직 이레이서를 사용하면 사진에서 원하지 않는 부분을 쉽게 제거할 수 있습니다. 주변 환경을 기반으로 적합한 객체로 공간을 채우는 AI를 사용하여 전체 이미지가 더 자연스럽게 보이게 됩니다!
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## 목차
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **조건부 이미지 생성**
 
@@ -31,7 +38,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-07-13-RevealingtheSecretsofGooglesMagicEraser_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지 인페인팅에서 우리의 목표는 이미지의 누락된 부분을 채우는 것입니다. 이것은 이미지에 '조건'을 도입하는 것으로 생각할 수 있으며, 우리 모델의 접근 방식을 일반 분포 Pmodel(x)에서 조건부인 Pmodel(x | 조건)로 변경합니다.
 
@@ -41,7 +59,18 @@ isUpdated: true
 
 ![Image Inpainting Step](/assets/img/2024-07-13-RevealingtheSecretsofGooglesMagicEraser_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 랜덤 가리개를 생성합니다.
 - 실제 이미지와 가리개를 결합하여 (가리개가 씌인 이미지) 생성합니다.
@@ -54,7 +83,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-07-13-RevealingtheSecretsofGooglesMagicEraser_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 모델은 GAN (Generative Adversarial Network) 형식의 모델이라는 것을 알 수 있어요. 이는 주로 두 부분으로 구성되어 있습니다: 이미지를 생성하는 Generator와 이러한 이미지를 평가하여 실제인지 아닌지를 결정하는 Discriminator가 그 주요 구성 요소입니다.
 
@@ -64,7 +104,18 @@ CoModGAN의 또 다른 중요한 측면에 집중해봅시다: 'co-modulation'. 
 
 ![image of modulation approaches](/assets/img/2024-07-13-RevealingtheSecretsofGooglesMagicEraser_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 모델 (a)은 이미지 생성을 위한 무조건적인 모델을 나타내며, 원래 StyleGAN에서 소개되었습니다. 주요 특징에는 수정 및 매핑 네트워크가 포함됩니다.
 - 모델 (b) 및 (c)는 인코더-디코더 구조의 전형적인 예시로, 인코더는 이미지를 잠재 공간으로 변환하고, 디코더는 원래 이미지를 재구성합니다. (예: Pix2Pix, CycleGAN...)
@@ -76,7 +127,18 @@ CoModGAN의 또 다른 중요한 측면에 집중해봅시다: 'co-modulation'. 
 
 머신 러닝에서 첫 번째이자 가장 중요한 단계는 데이터 전처리 단계입니다. 이 구현에서는 CelebA-HQ 데이터셋과 직사각형 마스크를 사용하여 모델을 훈련할 것입니다. 게다가, 자유 형식의 마스크를 사용하거나 직접 마스크를 만드는 것도 권장됩니다 ~~
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지 태그를 마크다운 형식으로 변경해주세요.
 
@@ -86,7 +148,18 @@ CoModGAN의 또 다른 중요한 측면에 집중해봅시다: 'co-modulation'. 
 
 위 다이어그램은 CoModGAN의 생성기 구조를 보여줍니다. 생성기는 인코더 네트워크와 디코더 네트워크로 구성됩니다. 인코더는 비교적 직관적이며, 입력을 인코딩하기 위해 VGG와 같은 심층 컨볼루션 네트워크를 쉽게 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 디코더 부분에 집중해봅시다. 코-모듈레이션은 인코더와 매핑 네트워크에서 가져온 두 개의 다른 잠재 벡터를 결합하여 스타일GAN의 합성 네트워크와 유사하게 디코더의 여러 레이어로 통합합니다.
 
@@ -96,14 +169,35 @@ CoModGAN의 또 다른 중요한 측면에 집중해봅시다: 'co-modulation'. 
 
 위의 이미지는 StyleGAN에 의해 생성되었습니다. 이미지의 모서리에 물방울이 있는 것을 볼 수 있습니다. 이 현상은 64x64 해상도에서 모든 특징 맵에서 시작되고 더 높은 해상도에서 점차적으로 강해집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 수정된 StyleGAN인 StyleGAN2(C 및 D)를 제안하여 물방울 문제를 해결합니다. 저자는 이 문제가 AdaIN 레이어로 인해 발생한다고 봅니다. AdaIN 레이어는 각 특징 맵의 평균과 분산을 별도로 정규화하여, 특징 간 상대적인 크기에 관련된 정보를 파괴할 수 있습니다.
 
 이에 따라 스타일 평균을 제거함으로써 물방울 아티팩트가 완전히 사라지는 것을 발견할 수 있습니다. (참고: 이제 AdaIN은 이미지 Xi 대신 CNN의 가중치(w2, ...)에 직접 작동합니다)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지 태그를 다음과 같이 변경해 보세요:
 
@@ -115,7 +209,18 @@ CoModGAN의 또 다른 중요한 측면에 집중해봅시다: 'co-modulation'. 
 
 매핑 네트워크에서 EqualLinear을 사용하여 레이어 출력을 학습 중 동적으로 재조정합니다. 제 실험에서 매핑 네트워크에서 EqualLinear을 사용하는 것은 일반적인 선형 레이어에 비해 결과에 큰 영향을 미치지 않았습니다. torch.nn.Linear을 직접 사용하는 것을 권장합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이런 다양한 선택사항들 중에서 tRGB와 fRGB 아키텍처를 비교해봤어. 내 실험에서는 (b)를 주 구조로 사용해.
 
@@ -123,7 +228,18 @@ CoModGAN의 또 다른 중요한 측면에 집중해봅시다: 'co-modulation'. 
 
 ![Generator](/assets/img/2024-07-13-RevealingtheSecretsofGooglesMagicEraser_12.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 판별자
 
@@ -133,7 +249,18 @@ CoModGAN의 또 다른 중요한 측면에 집중해봅시다: 'co-modulation'. 
 
 여기서는 VGG와 비슷한 구조를 사용하여 간단히 구현해 보겠습니다! 👍
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 손실 함수
 
@@ -147,7 +274,18 @@ CoModGAN의 또 다른 중요한 측면에 집중해봅시다: 'co-modulation'. 
 
 손실 함수는 클래식 GAN과 동일하며, 생성기와 판별자에 서로 다른 목표를 설정하여 그들 사이에 경쟁을 만들어냅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 디스크리미네이터는 진짜 이미지와 생성기가 만든 가짜 이미지를 잘 구별하도록 더 나아지려고 노력합니다. 생성기의 목표는 디스크리미네이터를 속이는 것이며, 디스크리미네이터가 하는 것과 정반대를 수행합니다.
 
@@ -157,7 +295,18 @@ CoModGAN의 또 다른 중요한 측면에 집중해봅시다: 'co-modulation'. 
 
 또한, 저자는 모든 가중치 업데이트마다 정규화를 적용할 필요가 없다는 것을 발견했습니다. 대신, 매 16번의 업데이트마다 디스크리미네이터에 대해 정규화를 적용하고, 매 8번의 업데이트마다 생성기에 대해 적용합니다. 이것을 "게으른 정규화"라고 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## R1 정규화
 
@@ -167,7 +316,18 @@ R1 정규화는 실제 데이터의 기울기만을 벌점을 주어 판별자�
 
 예를 들어, 생성자가 진짜 데이터 분포를 생성하고, 판별자의 출력이 데이터 매니폴드에서 0과 동일할 때(일반적으로 판별자가 진짜와 가짜 데이터를 구별할 수 없게 되는 것을 의미합니다), 기울기 벌점은 판별자가 비제로 기울기를 생성할 수 없도록 하여 손실 증가를 방지합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 경로 길이 규제
 
@@ -177,7 +337,18 @@ R1 정규화는 실제 데이터의 기울기만을 벌점을 주어 판별자�
 
 생성자 출력의 'w'에 대한 미분을 계산하고 이를 임의의 노이즈 'y'와 곱합니다. 이 결과에 L2 노름을 적용한 뒤 지수 이동 평균 'a'를 뺍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 오늘은 CoModGAN의 교육 루프에 대해 이야기해볼게요! 이 규칙화는 숨겨진 벡터 Z의 변화가 생성된 이미지에 급격한 변화를 유발하지 않도록 할 수 있습니다.
 
@@ -187,7 +358,18 @@ R1 정규화는 실제 데이터의 기울기만을 벌점을 주어 판별자�
 
 맨 위의 이미지는 CoModGAN에 의해 생성되었고, 맨 아래는 실제 이미지 데이터입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지 결과물과 실제 데이터 간에는 작은 차이가 있지만, 상당히 합리적인 이미지를 생성한다고 생각되어요! CoModGAN의 성능은 이미 충분히 수준에 도달한 것 같아요~ 🎊 🎊
 
@@ -197,7 +379,18 @@ R1 정규화는 실제 데이터의 기울기만을 벌점을 주어 판별자�
 
 ![image](/assets/img/2024-07-13-RevealingtheSecretsofGooglesMagicEraser_19.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마침내, 이 기사를 즐겁게 읽어 주셨기를 바랍니다. AI와 관련된 더 많은 기사를 작성할 예정이며, 그들의 기본 원리 설명과 구현 방법을 포함하고 있습니다.
 
@@ -207,7 +400,18 @@ R1 정규화는 실제 데이터의 기울기만을 벌점을 주어 판별자�
 
 나의 링크드인: [링크](LinkedIn 링크)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-07-13-RevealingtheSecretsofGooglesMagicEraser_20.png](/assets/img/2024-07-13-RevealingtheSecretsofGooglesMagicEraser_20.png)
 

@@ -3,17 +3,13 @@ title: "랭체인 대 람마 인덱스 여러분의 창조적 AI 프로젝트에
 description: ""
 coverImage: "/assets/img/2024-06-19-LangChainvsLlamaIndexFindingthePerfectFitforYourGenerativeAIProjects_0.png"
 date: 2024-06-19 19:43
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-LangChainvsLlamaIndexFindingthePerfectFitforYourGenerativeAIProjects_0.png
 tag: Tech
 originalTitle: "LangChain vs. LlamaIndex: Finding the Perfect Fit for Your Generative AI Projects"
 link: "https://medium.com/@aminajavaid30/langchain-vs-llamaindex-finding-the-perfect-fit-for-your-generative-ai-projects-497518a15067"
 isUpdated: true
 ---
-
-
-
-
 
 LangChain과 LlamaIndex는 최신 대형 언어 모델 (LLM) 애플리케이션을 구축하는 데 요즘 널리 사용되는 Python 프레임워크입니다. LangChain은 데이터와 LLM 간의 다리 역할을 합니다. 마찬가지로 LlamaIndex도 데이터를 대형 언어 모델에 연결하는 방법으로 LangChain과는 다른 방식으로 작동합니다. 이러한 프레임워크는 프로토타입부터 제품 생산까지 생성형 인공 지능 애플리케이션을 구축하는 데 필요한 도구를 제공합니다.
 
@@ -23,7 +19,18 @@ LangChain과 LlamaIndex는 최신 대형 언어 모델 (LLM) 애플리케이션�
 
 대형 언어 모델 (LLMs)은 요즘 AI 애플리케이션의 최전선에 있습니다. 이들은 방대한 텍스트 및 코드 데이터셋에서 훈련된 복잡한 생성형 AI 모델입니다. 주로 텍스트 생성, 텍스트 이해 및 언어 번역에 사용됩니다. 그들은 또한 코드를 이해하고 생성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인기 있는 LLM의 예시는 다음과 같습니다:
 
@@ -35,7 +42,18 @@ LangChain과 LlamaIndex는 최신 대형 언어 모델 (LLM) 애플리케이션�
 
 # LangChain이 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-LangChainvsLlamaIndexFindingthePerfectFitforYourGenerativeAIProjects_0.png" />
 
@@ -45,7 +63,18 @@ LangChain의 체인 개념은 LLM, 도구 또는 데이터 전처리 단계에 �
 
 LangChain을 사용하여 다음을 구축할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 질문 응답 챗봇
 - 가상 어시스턴트
@@ -61,7 +90,18 @@ LangChain을 사용하여 다음을 구축할 수 있습니다:
 
 람마인덱스는 개인 또는 도메인별 데이터 위에 LLM(Language Model)을 적용하는 컨텍스트 증강된 LLM 애플리케이션을 구축하기 위한 프레임워크입니다. 이는 분산 코퍼스로부터 정보의 효율적인 검색 및 검색을 가능하게 하는 대규모 언어 모델 인덱스입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LlamaIndex는 대규모 데이터셋에 빠른 액세스가 필요한 애플리케이션에 특히 적합하여, 검색 엔진, 추천 시스템 및 데이터 중심 애플리케이션에 가치 있는 도구입니다.
 
@@ -74,7 +114,18 @@ LlamaIndex를 사용하여 다음과 같은 것들을 구축할 수 있습니다
 
 # LangChain 대 LlamaIndex
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 LangChain과 LlamaIndex 간의 주요 차이점입니다:
 
@@ -90,7 +141,18 @@ LlamaIndex를 사용하여 다음과 같은 것들을 구축할 수 있습니다
 
 ## LangChain 장점:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - LangChain은 복잡하고 맥락에 맞는 애플리케이션 개발을 용이하게 합니다.
 - 프롬프트를 연결하고 상태를 관리하는 프로세스를 단순화합니다.
@@ -103,7 +165,18 @@ LlamaIndex를 사용하여 다음과 같은 것들을 구축할 수 있습니다
 
 ## LlamaIndex 장점:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - LlamaIndex는 빠르고 효율적인 데이터 검색을 위해 최적화되어 있습니다.
 - 대규모 데이터 세트와도 잘 호환되며 높은 성능을 유지합니다.
@@ -116,7 +189,18 @@ LlamaIndex를 사용하여 다음과 같은 것들을 구축할 수 있습니다
 
 # 프로젝트에 적합한 선택을 만드는 방법
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LangChain과 LlamaIndex 중 어느 것을 선택할지는 당신이 진행 중인 프로젝트의 요구 사항에 달려 있어요. 각 프레임워크는 고려해야 할 독특한 장단점을 가지고 있으므로 선택하기 전에 고려해야 해요.
 

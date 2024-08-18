@@ -3,17 +3,13 @@ title: "데이터에서의 마이크로서비스 대 모놀리식 접근 방식"
 description: ""
 coverImage: "/assets/img/2024-06-19-MicroservicesvsMonolithicApproachesinData_0.png"
 date: 2024-06-19 05:26
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-MicroservicesvsMonolithicApproachesinData_0.png
 tag: Tech
 originalTitle: "Microservices vs. Monolithic Approaches in Data"
 link: "https://medium.com/towards-data-science/microservices-vs-monolithic-approaches-in-data-8d9d9a064d06"
 isUpdated: true
 ---
-
-
-
-
 
 # 소개
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 약 20년 전에는 응용프로그램이 필요한 회사가 소유한 컴퓨터에 있었습니다 – 이를 "온프레미스"라고 합니다. 이 컴퓨터를 소유하는 것은 아키텍처적인 결정이었습니다. 그 결과, 그 시기의 아키텍처와 호환되지 않아 클라우드 소프트웨어에 대한 수요가 없었기 때문에 클라우드 소프트웨어 업체는 존재하지 않았습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2024년으로 빨리 이동하면 반대로 됩니다 - 대부분의 사람들이 완전히 클라우드로 이동했습니다. 그러나 우리 중 일부는 아직도 자체 서버를 운영하고 있습니다. 다른 사람들은 하이브리드 모델을 갖고 있습니다. 이는 아키텍처가 선택한 솔루션에 미치는 영향을 이해하는 것이 이전보다 더 중요하다는 것을 의미합니다. 이 글에서는 데이터 아키텍처에 대한 마이크로서비스 대 모놀리식 접근 방식이 도구 구매에 어떻게 영향을 미치는지 살펴보겠습니다.
 
@@ -33,17 +40,39 @@ isUpdated: true
 
 데이터 내에서 10년 전에는 모놀리식 응용프로그램이 꽤 흔했습니다. 이것의 예로는 대규모 Airflow 저장소가 있습니다. 이 저장소에는 데이터 수집 코드, 데이터 변환 코드 및 비즈니스 자동화가 포함되어 있을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비지니스 자동화에는 대시보드 새로 고침, 보고서 전송 또는 작업 실패 시 알림 전송과 같은 것이 포함될 수 있습니다.
 
-한편 클라우드의 폭발성 증가는 부분적으로 벤처 투자를 통해 주어진 것이며 (이 보고서 참조), 데이터 아키텍처의 등장을 불러왔습니다. 이러한 데이터 아키텍처는 마이크로서비스를 밀접하게 닮았습니다. 마이크로서비스에는 일괄 데이터 이동, 데이터 변환 및 데이터 웨어하우스 관리용 애플리케이션이나 스트리밍 데이터 관리용 애플리케이션이 포함됩니다. 
+한편 클라우드의 폭발성 증가는 부분적으로 벤처 투자를 통해 주어진 것이며 (이 보고서 참조), 데이터 아키텍처의 등장을 불러왔습니다. 이러한 데이터 아키텍처는 마이크로서비스를 밀접하게 닮았습니다. 마이크로서비스에는 일괄 데이터 이동, 데이터 변환 및 데이터 웨어하우스 관리용 애플리케이션이나 스트리밍 데이터 관리용 애플리케이션이 포함됩니다.
 
 데이터 스택을 단일체(monolith) 또는 마이크로서비스로 볼지 여부는 소프트웨어 선택에 영향을 미쳐야 합니다.
 
 <img src="/assets/img/2024-06-19-MicroservicesvsMonolithicApproachesinData_0.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 마이크로서비스 데이터 아키텍처: 가정
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 마이크로서비스를 사용하면 데이터 팀은 클라우드와 온프레미스 인프라의 다른 부분에 인프라를 분배할 수 있다. 이는 각 마이크로서비스가 자신의 일에 특화될 수 있음을 의미한다. 이에는 두 가지 이점이 있다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 전문화와 효율성
 
@@ -63,8 +103,18 @@ isUpdated: true
 
 일반적으로 워크로드를 다른 마이크로서비스로 분리하면, 메모리 및 저장 공간과 같은 컴퓨팅 성능이 다양한 위치로 분할됩니다. 이는 서비스를 확장하거나 축소하는 작업이 덜 복잡해집니다. 예를 들어, 쿠버네티스 클러스터를 유지하는 대신 기본 워크로드를 서버리스 기능(자동으로 확장)에서 실행할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-19-MicroservicesvsMonolithicApproachesinData_1.png)
 
@@ -74,8 +124,18 @@ isUpdated: true
 
 이를 데이터로 옮기는 것은 까다로울 수 있습니다. 데이터 수집 서비스, 데이터 웨어하우스에 위치한 데이터 변환 서비스 및 BI 도구(제3자 SAAS)가 있다면, 이들을 어떻게 연결하고 함께 거버넌스할 수 있을까요?
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전통적인 방법은 Airflow와 같은 도구를 사용하여 그들을 함께 엮는 것인데, 이 방법은 매번 점을 연결하려면 코드를 작성해야 한다는 것입니다. 이 비용은 높습니다. 이 때문에 상호 운용성이 줄어들어 가정을 위반합니다.
 
@@ -85,7 +145,18 @@ isUpdated: true
 
 데이터 아키텍처 내의 마이크로서비스에서 생성된 데이터와 메타데이터에는 많은 가치가 있습니다. 이는 여러 곳에 저장되지만 서비스 간에 공유됩니다. 이는 마이크로서비스 스타일 아키텍처에서 허용 가능하다고 가정되는 "데이터 이그레스" 비용을 필요로 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어 “ELT” 패턴을 채택하고 간단히 “Snowflake에 모든 데이터를 덤프” 한다면, 모든 데이터를 먼저 처리하는 것보다 입력 요금이 더 많이 발생할 수 있습니다. 일반적으로 아키텍처가 이벤트 주도 방식으로 통신하길 원한다면 먼저 "T"를 수행하는 것이 좋습니다. 예를 들어 Kafka는 이를 지원합니다.
 
@@ -95,9 +166,18 @@ isUpdated: true
 
 `/assets/img/2024-06-19-MicroservicesvsMonolithicApproachesinData_2.png`의 이미지를 확인해보세요.
 
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나는 거대한 건물에 대한 건축적 고려에 대해 다루지 않겠어요, 그것은 다음 포스트에서 다룰 주제일 거예요!
 
@@ -107,7 +187,18 @@ isUpdated: true
 
 이 "모듈식" 방법론은 최신 데이터 스택에 부합되어 있어요. 그러나 최신 데이터 스택은 가정 2와 3을 위반해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가정 2를 위반합니다. MDS가 상호 운용 가능하고 자체와 통신할 수 있는 정도가 매우 낮기 때문입니다. 실제로 작동시키기 위한 유일한 방법은 많은 코드가 포함된 거대한 Airflow 저장소가 있는 것입니다. 이는 단일체 아키텍처를 구축할 때 자연스러운 일입니다.
 
@@ -117,7 +208,18 @@ isUpdated: true
 
 대답은 항상 "[클라우드 제공자 이름을 여기에 삽입]"의 내부 개발 서비스입니다. 대부분의 데이터가 이미 클라우드에 있으므로 클라우드 제공업체가 원하는 서비스를 제공한다면, 데이터 전송 및 저장에 대해 두 번 지불할 필요가 없습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 카탈로그에 대해 생각해보세요. 아키텍처 측면에서 데이터 카탈로그는 데이터 웨어하우스(예: BigQuery)로부터 모든 메타데이터를 가져와 저장하고, 해당 데이터를 기반으로 일부 계산을 수행하고 UI를 제공합니다.
 
@@ -127,7 +229,18 @@ isUpdated: true
 
 하지만 기다려보세요 - GCP에 이와 비슷한 기능이 있지 않나요? 이름이 기억이 나지 않는데, 입에서 막 말하려 했는데... 아! 기억했어요! 바로 데이터 카탈로그입니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 BigQuery를 사용 중이라면, 이미 존재하는 데이터 카탈로그를 사용하는 것이 아키텍처적으로 훨씬 더 합리적일 것입니다. 데이터가 나가거나 중복 저장, 추가적인 보안 위험도 없으며, 아마도 동일한 용어를 사용하고 동일한 위치(Chrome 탭)에 있는 더 나은 UI를 제공할 것입니다.
 
@@ -137,7 +250,18 @@ isUpdated: true
 
 <img src="/assets/img/2024-06-19-MicroservicesvsMonolithicApproachesinData_3.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 장기적인 관점에서 GCP의 데이터 카탈로그는 항상 Collibra보다 저렴할 것입니다. 기억하세요, GCP는 중앙 비용을 고용하고 다른 회사를 설립할 필요가 없습니다. 단지 데이터 카탈로그를 제공하기 위해 100명의 개발자들을 고용합니다.
 
@@ -147,7 +271,18 @@ isUpdated: true
 
 이 기사에서는 데이터 구조가 데이터 엔지니어와 아키텍트가 응용 프로그램이 어떻게 실행되고 서로 작동하는지에 대한 가정을 만들도록 강제한다는 것을 보았습니다. 마이크로서비스 또는 "모듈식" 아키텍처를 채택하는 경우, 좋은 아키텍처는 몇 가지 가정을 해야 한다는 것을 보았습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 가정들은 Modern Data Stack을 통합하여 사용하고 마이크로서비스를 사용할 때도 깨져요. 또한 낮은 상호 운용성 및 높은 외부 통신/저장 비용 때문에 별도의 SAAS로도 사용됩니다.
 
@@ -157,7 +292,18 @@ isUpdated: true
 
 클라우드 인프라로 데이터를 가져오는 데 많은 컴퓨팅을 필요로 하는 도구들은 외부에 배치하는 것이 합리적해요. 예시로는 스트리밍 플랫폼이나 데이터 수집 도구 등이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가장 흥미로운 점은 Airflow와 Monte Carlo와 같은 Orchestration 및 Observability 도구가 모던 데이터 스택에서 사용되는 모듈식 아키텍처에 아키텍처적으로 매력적이지 않은 패턴을 부담한다는 것이죠.
 

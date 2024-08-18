@@ -3,17 +3,13 @@ title: "재밌는 이야기"
 description: ""
 coverImage: "/assets/img/2024-06-19-Interstingstory_0.png"
 date: 2024-06-19 02:04
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-Interstingstory_0.png
 tag: Tech
 originalTitle: "Intersting story"
 link: "https://medium.com/@Samahh/intersting-story-3329fadecef3"
 isUpdated: true
 ---
-
-
-
-
 
 유명한 갱단이 몇몇 착한 사람들의 동행과 설교 덕분에 강도와 절도를 멈췄어요... 하지만 일이 있는 가난과 빈곤 때문에 그의 집에 빈곤이 들어왔고, 그래서 어느 날 큰 신전으로 갔는데 천장에 매달려 있는 매우 귀중한 샹들리에를 몰래 떼어내 들고 돌아왔어요. 이미 신전에 앉아 있는 이웃들은 그를 매우 공격적이고 전쟁을 좋아하는 사람으로 알고 있어서 아무 말도 못했고 저항하지도 못했어요... 갱단은 그 샹들리에를 좋은 가격에 팔았어요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 판사가 물었습니다: 왜 떼어냈나요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그는 집으로 차례가 돌아왔다고 말했다. 나는 묘지(무덤 속에 묻힌 곳)에 도움을 주러 왔다. 사힙 마자르가 무덤 안에서 말했다. "이 초롱은 네 것이다. 팔고 필요를 충족해라."
 

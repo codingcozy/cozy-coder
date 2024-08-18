@@ -3,17 +3,13 @@ title: "불가피한 불평등 산업 혁명에서 경제 격차를 극복하는
 description: ""
 coverImage: "/assets/img/2024-06-30-TheInevitableInequalityNavigatingtheEconomicDisparitiesofIndustrialRevolutions_0.png"
 date: 2024-06-30 23:25
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-30-TheInevitableInequalityNavigatingtheEconomicDisparitiesofIndustrialRevolutions_0.png
 tag: Tech
 originalTitle: "The Inevitable Inequality: Navigating the Economic Disparities of Industrial Revolutions"
 link: "https://medium.com/@amandaiglesiasmoreno/the-inevitable-inequality-navigating-the-economic-disparities-of-industrial-revolutions-450b69ab19f2"
 isUpdated: true
 ---
-
-
-
-
 
 ![2024-06-30-TheInevitableInequalityNavigatingtheEconomicDisparitiesofIndustrialRevolutions](/assets/img/2024-06-30-TheInevitableInequalityNavigatingtheEconomicDisparitiesofIndustrialRevolutions_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 경제적 불평등에 대해 이야기하는 것은 우승자와 패자에 대해 이야기하는 것을 의미합니다. 새로운 산업 혁명의 맥락에서는 산업의 디지털화가 분명히 패자를 가질 것입니다: 숙련되지 않은 노동력입니다. 향후 몇 년 동안 새로운 기술이 기업에서 발전함에 따라 숙련되지 않은 노동자들 사이의 실업이 상당히 증가할 것입니다. 그러나 언급된 대로, 채용은 새로운 디지털 직업 및 프로필에서 증가할 것입니다. 이 맥락에서는 미래의 실업 문제에 대처하기 위해 교육 제도 내에 산업 4.0을 위해 필요한 새로운 전문 프로필을 촉진하는 것이 중요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Industry 4.0은 동일 지리적 틀 내에서 사회적 불평등이 더 심화되는 것뿐만 아니라 국가 간의 불평등도 증대시킬 것입니다. 냉전 종결 이후 글로벌화와 자유무역은 경제를 형성해 왔고, 숙련 노동자가 주로 개발된 국가에 있고 숙련 노동력이 필요하지 않은 생산은 가난한 국가로 옮겨진 생산 시스템을 만들어냈습니다. 이러한 전환은 이러한 국가로 기술 발전을 가져오겠다는 약속 하에 이루어지지만 실제 목적은 연말에 수익을 극대화하는 것입니다. 이러한 상황에서, 나의 시각에서는 숙련 노동력과 새로운 전문가를 양성할 견고한 학문적 구조가 없는 가난한 국가들이 산업의 증가하는 디지털화로 인한 사회적, 경제적 변화로부터 가장 많은 고통을 겪을 것입니다.
 

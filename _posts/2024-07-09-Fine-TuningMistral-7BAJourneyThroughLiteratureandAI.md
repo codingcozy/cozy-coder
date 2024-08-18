@@ -3,17 +3,13 @@ title: "Mistral-7B 미세 조정 문학과 AI의 여정 "
 description: ""
 coverImage: "/assets/img/2024-07-09-Fine-TuningMistral-7BAJourneyThroughLiteratureandAI_0.png"
 date: 2024-07-09 23:37
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-Fine-TuningMistral-7BAJourneyThroughLiteratureandAI_0.png
 tag: Tech
 originalTitle: "Fine-Tuning Mistral-7B: A Journey Through Literature and AI"
 link: "https://medium.com/data-bistrot/fine-tuning-mistral-7b-a-journey-through-literature-and-ai-3322e68b65c3"
 isUpdated: true
 ---
-
-
-
-
 
 ## 문장 데이터셋에서 Mistral 7B를 섬세하게 튜닝하기
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이 노력은 12,000개가 넘는 명언을 포함한 데이터셋을 바탕으로 이루어졌습니다. 이 데이터는 다양한 주제와 스타일에 걸쳐 현명함의 보물창고로, Mistral-7B에게 언어적, 주제적으로 풍부한 사상과 문학의 종합적인 시각을 제공합니다. 함께 즐겁게 여정을 떠나봐요! 🌟
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희의 여정은 Mistral-7B를 fine-tune 하는 과정에서 필수적인 단계들을 다룰 것입니다. 데이터 전처리부터 교육 파이프라인 설정, 마지막으로는 실제 교육 과정까지 진행할 예정입니다. 우리는 Mistral-7B의 능력을 높여 새로운 명언을 생성할 수 있도록 하고자 합니다. 이 명언들은 이전의 문학적 선배들의 지혜, 유머, 그리고 깊이를 반영할 것입니다.
 
@@ -33,7 +40,18 @@ Fine-tuning의 기술적 측면에 들어가기 전에, Mistral-7B LLM이 현대
 
 “Mistral 7B”는 70억 개의 파라미터로 이루어진 언어 모델로, 우수한 성능과 효율성을 위해 설계되었습니다. 이 모델은 모든 평가된 벤치마크에서 최고 수준의 13억 모델 (Llama 2)과 수학 및 코드 생성 분야에서 최고 수준의 34억 모델 (Llama 1)보다 뛰어난 성과를 보여줍니다. 주요 혁신 요소로는 빠른 추론을 위한 그룹화된 쿼리 어텐션 (GQA) 및 임의 길이의 순서를 효과적으로 관리하기 위한 슬라이딩 윈도우 어텐션 (SWA) 등이 있습니다. 이를 통해 추론 비용을 줄일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 유즈 케이스에서 사용할 모델은 지시 사항을 따르고 Llama 2를 능가하는 성능을 발휘할 만큼 미세 조정되었습니다. 이 모델은 Apache 2.0 라이선스 하에 공개되었습니다.
 
@@ -44,7 +62,18 @@ Fine-tuning의 기술적 측면에 들어가기 전에, Mistral-7B LLM이 현대
 - Mistral 7B는 시퀀스 데이터 처리에서 효과적인 것으로 널리 알려진 transformer 아키텍처에 기반을 두고 있습니다.
 - Mistral 7B는 32개의 레이어, 32 attention 헤드, 8 키-밸류 헤드를 가지고 있습니다. 숨겨진 크기는 4096이고, 중간 크기는 14336입니다. 모델의 최대 위치 임베딩은 32768이며 어휘 크기는 32000입니다. 이 모델은 silu 활성화 함수와 bfloat16 데이터 유형을 사용합니다. 슬라이딩 윈도우는 4096이고, 로프 세타는 10000입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 가치들은 신비로운 것이 아닌, 모두 논문에서 설명되어 있습니다.
 
@@ -54,7 +83,18 @@ SWA는 트랜스포머 모델에 전통적으로 연결된 계산 복잡성을 �
 
 ![이미지](/assets/img/2024-07-09-Fine-TuningMistral-7BAJourneyThroughLiteratureandAI_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### **타로 전문가의 시선**
 
@@ -66,7 +106,18 @@ SWA는 트랜스포머 모델에 전통적으로 연결된 계산 복잡성을 �
 
 메모리 사용량을 더욱 최적화하기 위해, Mistral 7B는 롤링 버퍼 캐시 전략을 채택합니다. 이 접근 방식은 창 크기와 동일한 고정 크기의 캐시를 사용하는 것을 포함합니다. 이 방법을 통해 시퀀스 길이가 증가하더라도 캐시 크기가 일정하게 유지됩니다. 이 방법은 모델 품질을 희생하지 않고 캐시 메모리 사용량을 8배로 줄이는 효과를 가져옵니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 사전 채우기 및 청킹:
 
@@ -74,7 +125,18 @@ SWA는 트랜스포머 모델에 전통적으로 연결된 계산 복잡성을 �
 
 ![이미지](/assets/img/2024-07-09-Fine-TuningMistral-7BAJourneyThroughLiteratureandAI_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 그룹화된 쿼리 어텐션 (GQA):
 
@@ -84,7 +146,18 @@ SWA는 트랜스포머 모델에 전통적으로 연결된 계산 복잡성을 �
 
 GQA는 쿼리를 그룹화하여 키와 값과 함께 어텐션 점수를 계산하기 전에 이 문제에 대처합니다. 이 접근 방식은 어텐션 메커니즘의 계산 복잡성을 시퀀스 길이에 대해 선형으로 줄여 제곱에서 선형으로 만들어줍니다. 특히 장기 시퀀스에 대해 훨씬 효율적으로 만들어주는데, 이는 효율적이고 효율적입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 These architectural advancements have positioned Mistral 7B as a highly efficient and effective model, capable of handling long sequences with reduced computational costs and improved inference speeds.
 
@@ -94,7 +167,18 @@ The Mistral 7B model has been further enhanced to better follow instructions, re
 
 ![Image](/assets/img/2024-07-09-Fine-TuningMistral-7BAJourneyThroughLiteratureandAI_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - **Mistral 7B에 대한 정밀 조정 과정** — 'Instruct'은 Hugging Face 레포지토리에서 공개된 지시 데이터셋을 활용했습니다. 이 방법은 Mistral 7B의 적응성을 강조하며, 전문 데이터나 복잡한 학습 기술 없이도 특화된 데이터셋에서의 정밀 조정을 통해 성능을 크게 향상시킬 수 있다는 가능성을 보여줍니다.
 - **결과적으로 나타난 Mistral 7B — Instruct 모델**은 지시 따르기 능력을 평가하는 MT-Bench에서 유사한 크기의 다른 모델들보다 뛰어난 성능을 보였습니다. 또한 더 큰 모델들과도 유사한 수준의 성과를 보여줌으로써, 지시 중심의 정밀 조정의 효과를 명확히 보여주었습니다.
@@ -107,7 +191,18 @@ The Mistral 7B model has been further enhanced to better follow instructions, re
 
 **결론적으로, 정밀 조정 과정은 Mistral 7B의 지침 따르기 능력을 정제하는데 그치지 않고, 실세계 응용 프로그램에서 세밀한 이해와 실행이 필요한 경우에 그 유용성을 크게 높여줍니다. 이는 Mistral 7B와 같은 기본 모델의 능력을 향상시키는 데 정밀 조정의 힘을 보여줍니다.**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 참고 및 추가 독해:
 
@@ -117,17 +212,39 @@ The Mistral 7B model has been further enhanced to better follow instructions, re
 
 인용문은 인간 경험의 본질을 나타내며 지혜, 유머 및 통찰력을 간결하고 기억하기 쉬운 방식으로 담고 있습니다. 스크랩된 인용문 데이터셋을 이용해 Mistral-7B를 미세 조정함으로써, 나의 목표는 이 모델에게 흥미로운 문장을 생성할 뿐만 아니라 독자들에게 영감을 줄 뿐만 아니라 동기부여를 하며 생각할 요소를 제공할 수 있는 능력을 부여하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 놀라운 여정에 함께해요. 우리는 어제의 통찰력과 오늘의 기술적 발전을 결합할 거예요. 나의 목표는 과거의 유산과 AI의 미래 잠재력을 혼합한 독특한 모델을 구축하는 예를 제시하는 거에요. 이 글을 통해, 문학의 심오함과 AI의 혁신적 재능이 결합된, 창의력과 지적 성장을 약속하는 통합을 목격하게 할 거에요.
 
 **My Fine-tuning of Mistral 7B**- Quotes Dataset에 대한 가르침
 
-파인튜닝 과정을 탐험해봐요. 이 코드는 구글 코랩에서 무료 GPU를 이용하면 실행할 수 있어요. 
+파인튜닝 과정을 탐험해봐요. 이 코드는 구글 코랩에서 무료 GPU를 이용하면 실행할 수 있어요.
 
 라이브러리를 설치하고 import하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 !pip install transformers accelerate scipy ipywidgets bitsandbytes peft datasets trl -qU
@@ -160,8 +277,18 @@ pd.set_option('display.max_colwidth', 1000)
 
 ## 데이터셋 불러오기
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드 스니펫은 CSV 파일을 pandas DataFrame으로 읽어들이고, 불필요한 열을 제거하고 결측치가 있는 행을 처리한 후에 DataFrame의 인덱스를 재설정합니다.
 
@@ -174,13 +301,24 @@ df.reset_index(inplace=True, drop=True)
 df.head(5)
 ```
 
-여기에서 인용구 파일의 버전을 다운로드할 수 있습니다: 
+여기에서 인용구 파일의 버전을 다운로드할 수 있습니다:
 
 [Kaggle Quote Files](https://www.kaggle.com/datasets/gianpieroandrenacci/best-quotes-dataset)
 
 ## 훈련 및 검증 데이터 분리
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드 스니펫은 DataFrame을 훈련 및 검증 세트로 분할하기 위해 지정된 훈련 세트 비율로 변수를 설정합니다.
 
@@ -204,7 +342,18 @@ print(f"검증 세트 크기: {val_len}")
 검증 세트 크기: 2468
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 데이터프레임을 Hugging Face 데이터셋으로 변환하기
 
@@ -237,7 +386,18 @@ print(dataset_val)
 
 아래 코드 조각은 다음 단계를 수행합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 데이터셋 클래스 불러오기: 먼저, 데이터셋 클래스는 Hugging Face의 데이터셋 라이브러리에 포함된 datasets 모듈에서 불러옵니다.
 - 데이터셋으로 변환: 판다스 DataFrame(df)를 사용하여 Dataset.from_pandas(df, preserve_index=False) 메서드를 이용해 Hugging Face Dataset 객체로 변환합니다. preserve_index=False 인자는 DataFrame의 인덱스가 결과 데이터셋의 별도 열로 포함되지 않도록 합니다. 이는 데이터셋을 깔끔하고 데이터 내용에만 집중할 수 있도록 돕습니다.
@@ -258,7 +418,7 @@ def create_prompt(row, output_format='string', bos_token="<s>", eos_token="</s>"
         output_format (str, optional): 출력 형식; 'string' 또는 'dict'. 'string'으로 기본 설정됨.
         bos_token (str, optional): 시작 시퀀스 토큰. "<s>"로 기본 설정됨.
         eos_token (str, optional): 종료 시퀀스 토큰. "</s>"로 기본 설정됨.
-        
+
     반환값:
         str 또는 dict: 지정된 형식으로 생성된 프롬프트.
     """
@@ -273,9 +433,20 @@ def create_prompt(row, output_format='string', bos_token="<s>", eos_token="</s>"
     return full_prompt
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-**창조_알림** 기능은 사용자의 입력 데이터의 내용과 맥락을 반영하여 언어 모델 생성 작업을 위한 프롬프트를 동적으로 구성합니다. 다양한 NLP 및 생성적 AI 응용 프로그램에 적합하도록 출력 형식을 유연하게 지원하며 사용자 정의 가능한 시퀀스 토큰을 통합합니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+**창조\_알림** 기능은 사용자의 입력 데이터의 내용과 맥락을 반영하여 언어 모델 생성 작업을 위한 프롬프트를 동적으로 구성합니다. 다양한 NLP 및 생성적 AI 응용 프로그램에 적합하도록 출력 형식을 유연하게 지원하며 사용자 정의 가능한 시퀀스 토큰을 통합합니다.
 
 ## 과정:
 
@@ -285,7 +456,18 @@ def create_prompt(row, output_format='string', bos_token="<s>", eos_token="</s>"
 
 ## 사용 시나리오:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 딥러닝 워크플로에서 이 함수는 언어 모델에 맥락적 프롬프트를 생성해야 하는 경우에 특히 유용합니다. 이는 창의적 글쓰기, 요약, 또는 특정 주제나 테마에 기반한 콘텐츠 생성과 관련된 작업에 활용됩니다.
 
@@ -303,7 +485,18 @@ instruct_tune_dataset_train = dataset_train.map(lambda row: create_prompt(row, o
 instruct_tune_dataset_val = dataset_val.map(lambda row: create_prompt(row, output_format='dict'))
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 기본 모델 불러오기
 
@@ -328,37 +521,60 @@ torch_dtype = torch.float16 if torch.cuda.is_available() else torch.float32
 - 장치 유형: GPU 또는 CPU를 사용할지 결정합니다.
 - 텐서 데이터 유형: 장치에 따라 텐서에 적절한 데이터 유형을 설정합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## BitsAndBytes를 활용한 양자화된 모델 설정 및 로드
 
 이 섹션에서는 양자화를 통해 향상된 효율성으로 대형 언어 모델을 설정하고 로드하는 과정을 소개합니다. BitsAndBytes 라이브러리를 사용하여 최적의 성능을 얻는 방법을 보여줍니다.
 
-
 # BitsAndBytes 구성을 특정 양자화 및 연산 설정과 함께 정의합니다
+
 nf4_config = BitsAndBytesConfig(
-   load_in_4bit=True,  # 모델을 4비트 정밀도로 로드하도록 설정
-   bnb_4bit_quant_type="nf4",  # "nf4" 양자화 유형 사용
-   bnb_4bit_use_double_quant=True,  # 향상된 정밀도를 위해 이중 양자화 활성화
-   bnb_4bit_compute_dtype= torch_dtype # 효율성을 위한 연산 데이터 유형 설정
+load_in_4bit=True, # 모델을 4비트 정밀도로 로드하도록 설정
+bnb_4bit_quant_type="nf4", # "nf4" 양자화 유형 사용
+bnb_4bit_use_double_quant=True, # 향상된 정밀도를 위해 이중 양자화 활성화
+bnb_4bit_compute_dtype= torch_dtype # 효율성을 위한 연산 데이터 유형 설정
 )
 
 # Mistral-7B-Instruct-v0.1 모델 ID 지정
+
 model_id = "mistralai/Mistral-7B-Instruct-v0.1"
 
 # 모델을 정의된 구성과 장치 할당 및 캐싱을 위한 추가 설정과 함께 로드합니다
-model = AutoModelForCausalLM.from_pretrained(
-    model_id,
-    device_map=device_type,  # 사용 가능한 장치에 모델을 자동으로 할당
-    quantization_config=nf4_config,  # 정의된 BitsAndBytes 구성을 적용
-    use_cache=False,  # 동적 연산을 위해 캐싱 비활성화
-    token=access_token,  # 허깅 페이스 액세스 토큰 안전하게 전달
-)
 
+model = AutoModelForCausalLM.from_pretrained(
+model_id,
+device_map=device_type, # 사용 가능한 장치에 모델을 자동으로 할당
+quantization_config=nf4_config, # 정의된 BitsAndBytes 구성을 적용
+use_cache=False, # 동적 연산을 위해 캐싱 비활성화
+token=access_token, # 허깅 페이스 액세스 토큰 안전하게 전달
+)
 
 ## BitsAndBytes로 구성하기:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 4비트 정밀도로 양자화: load_in_4bit=True로 설정하여 모델이 4비트 정밀도로 로드되도록 구성되어, 메모리 요구 사항이 크게 줄어듭니다.
 - 양자화 유형 (nf4): bnb_4bit_quant_type을 "nf4"로 설정하여 사용할 양자화 방법을 지정하며, 이 경우 신경망 계산에 특화된 방법입니다.
@@ -375,7 +591,18 @@ model = AutoModelForCausalLM.from_pretrained(
 
 이 접근 방식은 리소스가 제한되어 있는 환경이거나 매우 큰 모델을 처리할 때 모델 로딩과 작동을 최적화하기 위한 고급 구성 옵션을 어떻게 활용하는지를 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Mistral-7B-v0.1 토크나이저 설정하기
 
@@ -419,12 +646,58 @@ print(tokenizer)
 
 이러한 단계는 Mistral-7B-v0.1 모델로 텍스트 데이터를 처리하기 위한 준비작업으로, 모든 입력이 효율적이고 정확한 자연어 이해 작업을 위해 모델 요구 사항에 부합함을 보장합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 출력:
 
 ```js
-LlamaTokenizerFast(name_or_path='mistralai/Mistral-7B-v0.1', vocab_size=32000, model_max_length=512, is_fast=True, padding_side='right', truncation_side='right', special_tokens={'bos_token': '<s>', 'eos_token': '</s>', 'unk_token': '<unk>', 'pad_token': '<s>'}, clean_up_tokenization_spaces=False), added_tokens_decoder={ 0: AddedToken("<unk>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True), 1: AddedToken("<s>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True), 2: AddedToken("</s>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True), }
+LlamaTokenizerFast(
+  (name_or_path = "mistralai/Mistral-7B-v0.1"),
+  (vocab_size = 32000),
+  (model_max_length = 512),
+  (is_fast = True),
+  (padding_side = "right"),
+  (truncation_side = "right"),
+  (special_tokens = { bos_token: "<s>", eos_token: "</s>", unk_token: "<unk>", pad_token: "<s>" }),
+  (clean_up_tokenization_spaces = False)
+),
+  (added_tokens_decoder = {
+    0: AddedToken(
+      "<unk>",
+      (rstrip = False),
+      (lstrip = False),
+      (single_word = False),
+      (normalized = False),
+      (special = True)
+    ),
+    1: AddedToken(
+      "<s>",
+      (rstrip = False),
+      (lstrip = False),
+      (single_word = False),
+      (normalized = False),
+      (special = True)
+    ),
+    2: AddedToken(
+      "</s>",
+      (rstrip = False),
+      (lstrip = False),
+      (single_word = False),
+      (normalized = False),
+      (special = True)
+    ),
+  });
 ```
 
 ## 주요 설정 단계:
@@ -432,7 +705,18 @@ LlamaTokenizerFast(name_or_path='mistralai/Mistral-7B-v0.1', vocab_size=32000, m
 - 최대 시퀀스 길이: 모든 입력 시퀀스의 길이를 표준화하기 위해 제한이 설정됩니다 (max_length = 512). 이 한도는 토큰화 및 모델 추론 중에 메모리 사용량과 계산 부하를 관리하는 데 도움이 됩니다.
 - 토크나이저 로딩: transformers 라이브러리의 AutoTokenizer 클래스를 사용하여 특정 모델 식별자("mistralai/Mistral-7B-v0.1")로 토크나이저를 로드합니다. 이 단계를 통해 토크나이저가 모델의 예상 입력 형식과 완벽하게 일치하도록 보장합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 패딩과 자르기:
 
@@ -451,7 +735,7 @@ def plot_data_lengths(tokenized_train_dataset, tokenized_val_dataset):
     lengths = [len(x['input_ids']) for x in tokenized_train_dataset]
     # 검증 데이터 세트에서 각 데이터 샘플의 input_ids 길이 추가
     lengths += [len(x['input_ids']) for x in tokenized_val_dataset]
-    
+
     # 총 샘플 수 출력
     print(len(lengths))
 
@@ -467,7 +751,18 @@ def plot_data_lengths(tokenized_train_dataset, tokenized_val_dataset):
 plot_data_lengths(tokenized_train_dataset, tokenized_val_dataset)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기능은 토큰화된 입력 시퀀스의 길이 분포를 시각화하는 데 도움이 되며 데이터셋의 특성을 이해하고 적절한 모델 입력 처리를 보장하는 데 유용합니다.
 
@@ -477,7 +772,18 @@ plot_data_lengths(tokenized_train_dataset, tokenized_val_dataset)
 
 generate_and_tokenize_prompt 함수는 입력 데이터에서 프롬프트를 생성하고 이러한 프롬프트를 토큰화하여 모델에 대한 데이터 진입을 간소화합니다. 이 프로세스는 훈련 또는 추론을 위해 토큰화된 입력이 필요한 모델에 중요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 def generate_and_tokenize_prompt(row):
@@ -498,12 +804,24 @@ tokenized_val_dataset = dataset_val.map(generate_and_tokenize_prompt)
 ```
 
 ## 프로세스 개요:
+
 - 프롬프트 생성: 데이터 집합의 각 항목에 대해(딕셔너리 형식의 행으로 표시) create_prompt 함수를 사용하여 프롬프트가 생성됩니다. 이 함수는 행 내에 있는 데이터를 활용하여 텍스트 프롬프트를 구성합니다. 기본 출력 형식은 토큰화 요구 사항에 맞는 문자열입니다.
 - 프롬프트 토큰화: 생성된 문자열 프롬프트는 다음에 토크나이저(tokenizer(prompt))에 전달되어 텍스트를 기계 학습 모델이 이해할 수 있는 형식으로 변환됩니다. 일반적으로 토크나이저의 어휘 집합에서 토큰을 나타내는 정수 시퀀스로 표시됩니다.
 
 ## .map 메서드를 사용한 일괄 토큰화:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Tokenized Training Dataset: `dataset_train.map(generate_and_tokenize_prompt)` applies the `generate_and_tokenize_prompt` function to each entry in the `dataset_train`. This results in a new dataset where each original row is replaced with its tokenized prompt version.
 - Tokenized Validation Dataset: Similarly, `dataset_val.map(generate_and_tokenize_prompt)` transforms the validation dataset, ensuring that both training and validation datasets are in the correct format for model consumption.
@@ -514,7 +832,18 @@ By automating prompt generation and tokenization, this method significantly stre
 
 This approach is particularly valuable in NLP workflows for several reasons:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 일관성: 데이터 세트 항목 간에 균일한 처리 및 토큰화를 보장합니다.
 - 효율성: 일괄 처리를 위해 .map 메서드를 활용하여 대규모 데이터 세트의 준비를 가속화합니다.
@@ -558,7 +887,18 @@ def generate_response(prompt, model, tokenizer):
 
 여기에는 작동 워크플로우에 대한 간략한 설명이 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 입력 프롬프트 토큰화: 이 함수는 제공된 토크나이저를 사용하여 입력 프롬프트를 토큰화하는 것으로 시작합니다. 이 단계에서는 텍스트 문자열을 모델이 이해할 수 있는 형식(토큰 ID의 텐서)으로 변환하며, 시퀀스의 시작 및 끝을 나타내는 특수 토큰이 추가됩니다.
 - GPU 할당: 토큰화된 입력은 가속 컴퓨팅을 활용하기 위해 GPU로 이동됩니다. 특히 대규모 언어 모델을 다룰 때는 성능을 위해 이 단계가 중요하며, 추론에 소요되는 시간을 크게 줄여줍니다.
@@ -574,25 +914,47 @@ def generate_response(prompt, model, tokenizer):
 
 이 코드 줄은 텍스트 프롬프트를 트랜스포머 모델에 입력할 수 있는 형식으로 변환하기 위해 토크나이저를 사용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 모델이 응답하거나 분석하도록 원하는 텍스트 입력이에요.
 
 `return_tensors="pt"`: 출력 형식이 PyTorch 텐서 형식이어야 한다는 것을 지정해요. "pt"는 PyTorch를 의미해요. 만약 TensorFlow를 사용 중이라면 대신 "tf"를 사용할 수 있어요.
 
-`add_special_tokens=True`: 토크나이저에게 문장의 시작과 끝을 이해하기 위해 필요한 특별 토큰을 자동으로 삽입하도록 지시해요. 예를 들어, 많은 모델에서 [CLS] 토큰이 문장의 시작 부분에 사용됩니다. 
+`add_special_tokens=True`: 토크나이저에게 문장의 시작과 끝을 이해하기 위해 필요한 특별 토큰을 자동으로 삽입하도록 지시해요. 예를 들어, 많은 모델에서 [CLS] 토큰이 문장의 시작 부분에 사용됩니다.
 
 비조정 모델로 응답 예시입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 예제 프롬프트
 
 프롬프트 = "[INST]주어진 입력을 사용하여 주제 범주에 대한 새로운 원래 인용구를 작성하십시오[/INST] ### 입력:야망 ### 응답:"
-# 응답 생성
-응답_생성(프롬프트, 모델, 토크나이저)
 
+# 응답 생성
+
+응답\_생성(프롬프트, 모델, 토크나이저)
 
 출력: "야망은 우리를 인생에서 위대한 성취로 이끄는 궁극적인 연료입니다."
 
@@ -600,38 +962,57 @@ def generate_response(prompt, model, tokenizer):
 
 ## 학습 가능한 매개변수
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 print_trainable_parameters 함수는 주어진 신경망 모델의 매개변수에 대한 통계를 계산하고 출력하는 데 사용됩니다. 특히, 이 함수는 이러한 매개변수 중 몇 개가 학습 가능한지에 초점을 맞춥니다.
 
-
 # 추론을 위해 다시 활성화!
+
 model.config.use_cache = False
 
-
-
 # 학습 가능한 매개변수 출력
-def print_trainable_parameters(model):
-    """
-    모델 내의 학습 가능한 매개변수 수를 출력합니다.
-    """
-    trainable_params = 0
-    all_param = 0
-    for _, param in model.named_parameters():
-        all_param += param.numel()
-        if param.requires_grad:
-            trainable_params += param.numel()
-    print(
-        f"trainable params: {trainable_params} || all params: {all_param} || trainable%: {100 * trainable_params / all_param}"
-    )
 
+def print*trainable_parameters(model):
+"""
+모델 내의 학습 가능한 매개변수 수를 출력합니다.
+"""
+trainable_params = 0
+all_param = 0
+for *, param in model.named_parameters():
+all_param += param.numel()
+if param.requires_grad:
+trainable_params += param.numel()
+print(
+f"trainable params: {trainable_params} || all params: {all_param} || trainable%: {100 \* trainable_params / all_param}"
+)
 
 이것이 작동하는 방법에 대한 상세한 설명입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-**개요: 딥 러닝 모델에서, 매개변수(주로 가중치)는 훈련 데이터로부터 학습되는 모델의 구성 요소입니다. 매개변수는 훈련 가능한지 여부에 따라 구분됩니다. 훈련 가능한 매개변수는 역전파를 통해 훈련 중에 업데이트되며, 훈련 불가능한 매개변수는 정적이며 이 과정 동안 업데이트되지 않습니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+\*\*개요: 딥 러닝 모델에서, 매개변수(주로 가중치)는 훈련 데이터로부터 학습되는 모델의 구성 요소입니다. 매개변수는 훈련 가능한지 여부에 따라 구분됩니다. 훈련 가능한 매개변수는 역전파를 통해 훈련 중에 업데이트되며, 훈련 불가능한 매개변수는 정적이며 이 과정 동안 업데이트되지 않습니다.
 
 함수 과정:
 
@@ -642,9 +1023,20 @@ def print_trainable_parameters(model):
 - 모든 매개변수를 반복한 후, 함수는 trainable_params를 all_param으로 나누고 100을 곱하여 훈련 가능한 매개변수의 백분율을 계산합니다.
 - 마지막으로 함수는 훈련 가능한 총 매개변수 수, 총 매개변수 수 및 훈련 가능한 매개변수의 백분율을 출력합니다.
 
-이 함수는 모델의 복잡성과 용량, 그리고 훈련 중에 발생하는 학습 범위를 이해하는 데 유용합니다. 훈련 가능한 매개변수와 훈련 불가능한 매개변수를 구분함으로써, 모델의 다른 부분이 학습 과정에 어떻게 기여하는지에 대한 통찰을 얻을 수도 있습니다.**
+이 함수는 모델의 복잡성과 용량, 그리고 훈련 중에 발생하는 학습 범위를 이해하는 데 유용합니다. 훈련 가능한 매개변수와 훈련 불가능한 매개변수를 구분함으로써, 모델의 다른 부분이 학습 과정에 어떻게 기여하는지에 대한 통찰을 얻을 수도 있습니다.\*\*
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 파라미터 효율적 파인 튜닝(PEFT)
 
@@ -674,7 +1066,18 @@ peft_config = LoraConfig(
 
 제공된 코드 스니펫은 peft 라이브러리를 사용하여 파라미터 효율적 파인 튜닝(PeFT)을 위한 모델 구성과 관련이 있습니다. 구체적으로, 대규모 사전 훈련 모델을 최소한의 학습 가능한 파라미터 증가로 조정하는 기술인 LoRA(저랭크 적응) 설정에 초점을 맞추고 있습니다. 여기서 주요 구성 요소와 그 의미를 살펴보겠습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 수입 문: 이 코드는 PeFT 라이브러리에서 AutoPefModelForCausalLM, LoraConfig, get_peft_model 및 prepare_model_for_kbit_training을 가져옵니다. 이러한 유틸리티 및 클래스는 LoRA와 같은 PeFT 기술을 사용하는 데 도움이 되도록 설게되었습니다.
 - LoRA 구성 (LoraConfig): LoRA의 구성은 LoraConfig를 통해 정의되며 적응이 어떻게 적용될지를 지정합니다. LoraConfig 내의 매개변수는 특정한 역할을 가지고 있습니다:
@@ -688,41 +1091,73 @@ peft_config = LoraConfig(
 LoraConfig를 사용한 설정은 사전 훈련된 모델을 구체적 작업에 대해 미세 조정하기 위한 부분으로, 모델이 작업 관련 데이터와 최소한의 매개변수를 수정하도록 하는 것이 목표입니다. 이 접근법은 매우 큰 모델을 다룰 때 특히 유용할 수 있으며, 전통적인 미세 조정이 계산적으로 비용이 많이 드는 경우나 작업별 데이터 양이 제한적인 경우에 유용합니다.
 
 ```js
-model.gradient_checkpointing_enable()
-model = prepare_model_for_kbit_training(model)
-model = get_peft_model(model, peft_config)
-print_trainable_parameters(model)
+model.gradient_checkpointing_enable();
+model = prepare_model_for_kbit_training(model);
+model = get_peft_model(model, peft_config);
+print_trainable_parameters(model);
 ```
 
 1. model.gradient_checkpointing_enable():
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모델에 그래디언트 체크포인팅을 활성화하는 방법이에요. 그래디언트 체크포인팅은 훈련 중 메모리 사용량을 줄이는 기술이거든. 연산 시간과의 교환이라고 해도 돼. 모든 중간 활성화를 메모리에 저장하지 않고, 역전파를 위해 일부만 저장하고 필요할 때 나머지를 다시 계산해. 훈련 중 메모리가 부족한 대규모 모델이나 매우 깊은 네트워크를 훈련하는 데 특히 유용해.
 
-2. `model = prepare_model_for_kbit_training(model)`: 
+2. `model = prepare_model_for_kbit_training(model)`:
 
 모델을 'k-bit' 훈련을 위해 준비하는 거야. 이 과정은 모델을 수정하여 표준 32비트 부동 소수점 숫자보다 더 적은 비트를 사용하는 연산을 지원하도록 하는 걸 포함해. 이를 통해 메모리 사용량을 줄이고 계산 속도를 높일 수 있어. 하지만 이 준비의 구체적인 성격은 구현에 따라 다를 수 있고 양자화 기술이나 더 낮은 정밀도 산술을 지원하기 위해 모델 계층을 조정하는 것이 포함될 수도 있어.
 
 3. `model = get_peft_model(model, peft_config)`:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 함수는 위에서 본 것처럼 주어진 모델을 Parameter-Efficient Fine-Tuning (PeFT) 구성에 따라 적응시킵니다.
-
 
 4. print_trainable_parameters(model):
 
 해당 함수를 호출하여 모델 내 전체 파라미터 수, 훈련 가능한 파라미터 수, 그리고 훈련 가능한 파라미터의 백분율을 출력합니다. 위에서 본 것과 같습니다.
 
-
 출력:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **trainable params:** 21260288 || **all params:** 3773331456 || **trainable%:** 0.5634354746703705
 
 # Model Parameter Summary
+
 - **Trainable Parameters:** 21,260,288
 - These are the parameters that will be updated during the training process.
 
@@ -736,7 +1171,18 @@ Reference:
 
 Let’s continue; we are almost there to conclude our long explanation.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 코드는 대규모 모델의 학습 또는 추론을 최적화하기 위해 여러 GPU를 활용하여 계산 부하를 분산하는 데 유용합니다.
 
@@ -752,14 +1198,22 @@ if torch.cuda.device_count() > 1: // GPU가 1개 이상인 경우
 
 이 시점에서, 때때로 colab이 다음과 같은 오류로 작동하지 않을 수 있습니다: NotImplementedError: UTF-8 로케일이 필요합니다. Colab이 이러한 종류의 오류를 표시할 때 다음 코드를 사용했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 실험을 추적하고 싶다면 Weights and Biases를 사용해보세요. Weights and Biases를 활용하면 모델을 학습하고 세부 조정하며, 실험부터 제품 생산까지 모델을 관리하며, LLM 애플리케이션을 추적하고 평가할 수 있습니다.
 
 이 설정은 실험을 추적하고 시각화하는 데 꼭 필요하며, 재현성을 확보하고 다른 사람들과 협업할 수 있도록 도와줍니다.
-
-
 
 !pip install -q wandb -U
 
@@ -768,17 +1222,27 @@ wandb.login()
 
 wandb_project = "quotes-finetune"
 if len(wandb_project) > 0:
-    os.environ["WANDB_PROJECT"] = wandb_project
+os.environ["WANDB_PROJECT"] = wandb_project
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Weights & Biases 설치: 이 코드는 실험 추적을 위한 wandb 라이브러리를 설치합니다.
 - 인증하기: Weights & Biases 계정에 로그인합니다. wandb.login(): Weights & Biases에 대한 로그인 프로세스를 시작하여 사용자가 인증하고 Weights & Biases 계정에 연결할 수 있게 합니다.
 - 프로젝트 이름 설정: Weights & Biases에서 실험을 정리하기 위해 프로젝트 이름을 설정합니다.
 
 ```js
-run_name = "quotes-finetune"
+run_name = "quotes-finetune";
 ```
 
 ```js
@@ -789,7 +1253,18 @@ notebook_login()
 
 노트북 로그인: 이 코드는 노트북 환경에서 사용자를 직접 인증하기 위해 huggingface_hub의 notebook_login을 먼저 사용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Mistral 7-B 테스트 파인튜닝을 실행하세요
 
@@ -801,7 +1276,18 @@ notebook_login()
 - 오류 초기 감지: 긴 훈련 세션에 앞서 훈련 스크립트에서 발생하는 오류나 잘못된 설정을 식별합니다.
 - 성능 모니터링: 작은 규모로 모델 성능과 자원 사용량을 모니터링하며, 매개변수와 설정을 적절히 조정하는 데 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 짧은 테스트를 통해 몇 가지 학습 단계만 실행하여 설정을 세밀하게 조정하고 원활하고 효율적인 전체 훈련 과정을 보장할 수 있습니다.
 
@@ -841,7 +1327,18 @@ args = TrainingArguments(
 
 이 코드 스니펫은 허깅 페이스 트랜스포머 라이브러리를 사용하여 모델 파인튜닝을 위한 훈련 인자를 구성하는 것입니다. TrainingArguments 클래스는 훈련 과정에 대한 여러 설정과 하이퍼파라미터를 지정하는 데 사용됩니다. 위에서 제공된 주요 인자들에 대한 설명은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 설정은 특정 작업의 요구 사항에 맞게 조정된 상세한 훈련 규제를 설정합니다. 학습률, 배치 크기 및 평가 및 모델 체크포인트 저장을 위한 전략과 같은 하이퍼파라미터를 포함합니다. 또한 성능 및 리소스 활용을 최적화하기 위해 그래디언트 누적 및 혼합 정밀도 훈련과 같은 실천 방법을 통합합니다.
 
@@ -849,7 +1346,18 @@ NEFTune은 채팅 모델의 성능을 향상시키는 기술로, "NEFTune: Noisy
 
 Alpaca를 사용한 LLaMA-2-7B의 표준 미세 조정은 AlpacaEval에서 29.79%를 달성하며, 노이지 임베딩을 사용하면 64.69%로 상승합니다. NEFTune은 최신 지시어 데이터셋에서 강력한 베이스라인을 능가합니다. Evol-Instruct로 훈련된 모델은 10% 향상되었으며, ShareGPT는 8% 향상되었으며, OpenPlatypus는 8% 향상되었습니다. 심지어 NEFTune으로 추가 훈련을 한 LLaMA-2-Chat과 같은 RLHF로 계속 세분화된 강력한 모델도 이득을 볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **진짜 훈련 시나리오**
 
@@ -858,7 +1366,18 @@ Alpaca를 사용한 LLaMA-2-7B의 표준 미세 조정은 AlpacaEval에서 29.79
 - [huggingface.co(https://huggingface.co/docs/trl/sft_trainer)
 - [GitHub(neelsjain/NEFTune)](https://github.com/neelsjain/NEFTune)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - **max_steps = 250**: 훈련 단계의 총 횟수를 결정합니다. 이는 작업의 복잡성과 데이터셋 크기에 따라 최적인지 여부가 달라집니다. 많은 작업에는 수렴을 달성하기 위해 더 많은 단계가 필요할 수 있습니다.
 - **per_device_train_batch_size = 4**: 장치 당 배치 크기입니다. GPU의 사용 가능한 메모리에 대한 균형을 맞춰야 합니다. 더 큰 배치 크기는 빠른 수렴을 이끌지만 더 많은 메모리가 필요합니다.
@@ -878,7 +1397,18 @@ Alpaca를 사용한 LLaMA-2-7B의 표준 미세 조정은 AlpacaEval에서 29.79
 
 이 설정은 언어 모델을 세밀하게 조정하는 현대적인 방법을 포괄하며, 효율적인 매개변수와 고급 데이터 전처리 기술을 활용하여 모델을 특정 작업이나 데이터셋에 보다 효과적으로 맞출 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 from trl import SFTTrainer
@@ -916,8 +1446,18 @@ In this code snippet, we set up an instance of the SFTTrainer class from the trl
   - args: Holds the TrainingArguments object configuring the training process, encompassing optimization parameters, save intervals, evaluation strategies, and more.
   - train_dataset and eval_dataset: Represent the training and evaluation datasets, anticipated to be pre-tokenized and potentially pre-processed by the formatting_func.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Hugging Face Hub로 모델 푸시하기
 
@@ -941,9 +1481,21 @@ repo = Repository(local_dir=model_dir,
 repo.push_to_hub()
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 인퍼 및 퀄리티 테스트를 위해 튜닝된 미스트랄-7B 모델을 인용구에 적용해보세요
+
 ```python
 # 응답 생성하는 함수
 def generate_response(prompt, model):
@@ -971,8 +1523,18 @@ model = AutoModelForCausalLM.from_pretrained("mistralai/Mistral-7B-Instruct-v0.1
 ft_model = PeftModel.from_pretrained(model, "Gianpiero/afo-mistral-model-200")
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1. "꿈은 영혼의 물감이며, 그것으로 우리 마음의 깊은 욕망을 만들어냅니다."
 2. "내일의 실현에 대한 유일한 제한은 오늘의 의심일 것입니다."

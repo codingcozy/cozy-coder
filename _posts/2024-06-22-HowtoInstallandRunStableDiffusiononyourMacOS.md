@@ -3,17 +3,13 @@ title: "Stable Diffusion 설치 및 실행 방법 MacOS용"
 description: ""
 coverImage: "/assets/img/2024-06-22-HowtoInstallandRunStableDiffusiononyourMacOS_0.png"
 date: 2024-06-22 16:15
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-HowtoInstallandRunStableDiffusiononyourMacOS_0.png
 tag: Tech
 originalTitle: "How to Install and Run Stable Diffusion on your MacOS"
 link: "https://medium.com/generative-ai/how-to-install-and-run-stable-diffusion-on-your-macos-90eedfa62a48"
 isUpdated: true
 ---
-
-
-
-
 
 안녕하세요, 독자 여러분! 저는 AI 및 LLM(언어 모델) 기술의 흥미로운 세계를 안내해 드리는 탈립입니다. 이것은 흥미진진한 여정이며, 제가 여러분과 제 경험과 발견을 공유할 수 있어 정말 기쁩니다.
 
@@ -27,7 +23,18 @@ isUpdated: true
 
 # Stable Diffusion이란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안정적인 확산은 Stability AI에서 2022년에 출시된 텍스트-이미지 확산 모델입니다. 이 모델은 이미지에 점진적으로 잡음을 추가하여 완전히 무작위로 만들어지는 확산 과정에 기반을 두고 있습니다. 안정적인 확산은 반대 방향으로 작동하여, 잡음이 많이 섞인 이미지에서 시작하여 점진적으로 잡음을 제거하여 선명한 이미지를 생성합니다.
 
@@ -37,7 +44,18 @@ isUpdated: true
 
 # 맥에서 안정적인 확산 웹 UI 설치
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 1 — Homebrew 설치하기
 
@@ -52,7 +70,18 @@ isUpdated: true
 - 설치가 완료되면, Homebrew가 성공적으로 설치되었다는 메시지가 표시됩니다.
 - 터미널에서 어느 디렉토리에서든 Homebrew 명령어를 인식하고 사용할 수 있도록 하려면, PATH 환경 변수를 조정해야 합니다. 프롬프트에서 제공된 명령어를 복사하여 붙여넣고 Enter 키를 눌러 환경 변수를 설정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-HowtoInstallandRunStableDiffusiononyourMacOS_1.png" />
 
@@ -64,7 +93,18 @@ isUpdated: true
 brew install cmake protobuf rust python@3.10 git wget
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 홈브루가 Mac에 다운로드하고 설치할 패키지 목록입니다:
 
@@ -79,7 +119,18 @@ brew install cmake protobuf rust python@3.10 git wget
 
 Mac에서 GitHub 저장소 AUTOMATIC1111/stable-diffusion-webui에서 "Stable Diffusion Web UI"를 설치하려면 다음 단계를 따라주십시오:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1. 맥에서 터미널 애플리케이션을 엽니다.
 
@@ -91,7 +142,18 @@ cd Documents
 
 3. 이 명령을 실행하면 "문서" 디렉토리로 이동합니다. 그러나 리포지토리를 복제할 다른 디렉토리로 경로를 대체할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui
@@ -103,7 +165,18 @@ Git이 복제 작업을 시작하여 저장소를 가져와 현재 디렉토리�
 
 축하합니다! 이제 Mac에 "stable-diffusion-webui" 저장소를 복제하였습니다. 내용을 살펴보려면 `cd` 명령을 사용하여 복제된 저장소로 이동하여 필요한 파일 및 폴더에 액세스할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 모델 다운로드
 
@@ -111,12 +184,23 @@ Git이 복제 작업을 시작하여 저장소를 가져와 현재 디렉토리�
 - 다운로드한 파일을 클론한 GitHub 저장소의 다음 폴더에 넣어주세요.
 
 ```js
-stable-diffusion-webui/models/Stable-diffusion
+stable - diffusion - webui / models / Stable - diffusion;
 ```
 
 잘 했어요! 이제 Mac에 Stable Diffusion Web UI를 성공적으로 설치하였으며 이미지 생성을 시작할 준비가 되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Mac에서 Stable Diffusion Web UI 실행하기
 
@@ -129,7 +213,18 @@ cd stable-diffusion-webui
 
 3. 원하는 디렉토리에 들어간 후에는 다음 명령을 실행하여 Stable Diffusion Web UI를 시작합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ./webui.sh
@@ -141,8 +236,18 @@ cd stable-diffusion-webui
 
 ![이미지](/assets/img/2024-06-22-HowtoInstallandRunStableDiffusiononyourMacOS_2.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 맥에서 Stable Diffusion Web UI 종료
 
@@ -153,7 +258,18 @@ Stable Diffusion Web UI를 사용 중인 가상 환경은 단순히 브라우저
 
 # 맥에서 Stable Diffusion Web UI 업데이트하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Mac에서 Stable Diffusion 웹 UI를 업데이트하려면 GitHub 저장소 AUTOMATIC1111/stable-diffusion-webui에서 최신 변경 사항을 가져오는 다음 단계를 따르세요:
 
@@ -165,7 +281,18 @@ Mac에서 Stable Diffusion 웹 UI를 업데이트하려면 GitHub 저장소 AUTO
 cd stable-diffusion-webui
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 진행하기 전에 올바른 디렉토리에 있는지 확인해주세요.
 
@@ -177,7 +304,18 @@ git pull
 
 이 명령은 Stable Diffusion Web UI의 로컬 사본에 가장 최근 업데이트를 가져와 적용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 맥에서 Stable Diffusion Web UI를 성공적으로 업데이트했습니다. 로컬 사본이 GitHub 리포지토리의 최신 변경 사항과 동기화됩니다.
 
@@ -187,8 +325,18 @@ git pull
 
 LinkedIn에서 연락해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-HowtoInstallandRunStableDiffusiononyourMacOS_3.png" />
 
@@ -198,8 +346,17 @@ LinkedIn에서 연락해요.
 
 최신 뉴스 및 Generative AI 업데이트를 받으려면 뉴스레터를 구독해 주세요. 함께 AI의 미래를 함께 만들어 가요!
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![HowtoInstallandRunStableDiffusiononyourMacOS_5.png](/assets/img/2024-06-22-HowtoInstallandRunStableDiffusiononyourMacOS_5.png)

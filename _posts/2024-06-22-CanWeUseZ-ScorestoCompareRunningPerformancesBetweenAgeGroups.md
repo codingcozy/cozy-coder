@@ -3,17 +3,13 @@ title: "Z-점수를 이용해 연령대별 달리기 성능을 비교할 수 있
 description: ""
 coverImage: "/assets/img/2024-06-22-CanWeUseZ-ScorestoCompareRunningPerformancesBetweenAgeGroups_0.png"
 date: 2024-06-22 16:58
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-CanWeUseZ-ScorestoCompareRunningPerformancesBetweenAgeGroups_0.png
 tag: Tech
 originalTitle: "Can We Use Z-Scores to Compare Running Performances Between Age Groups?"
 link: "https://medium.com/runners-life/can-we-use-z-scores-to-compare-running-performances-between-age-groups-cd06268583d7"
 isUpdated: true
 ---
-
-
-
-
 
 ![image](/assets/img/2024-06-22-CanWeUseZ-ScorestoCompareRunningPerformancesBetweenAgeGroups_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 우리는 나이가 들수록 느리게 움직이게 됩니다. 어떤 사람들에게는 더 큰 영향을 미치지만 60세 남성이 25세 남성과 레벨한 경쟁을 할 수 없다는 것이 결론입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마스터 러너들을 위해 흥미로운 것을 유지하고 포용적인 러닝 커뮤니티를 유지하기 위해 많은 노력이 기울여졌습니다. 그것을 가능하게 하는 시스템인 연령 등급화라는 것을 개발하는 데 많은 노력이 기울여졌습니다. 최근 몇 주 동안, 몇 가지 대안을 탐색하기 위해 데이터를 사용해보았습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 그러나 오늘은 또 다른 비교 가능한 방법, 즉 Z-점수에 집중하고 싶습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 통계 도구가 다른 종류의 러너들의 경주 결과를 효과적으로 비교하는 데 도움이 될까요? 한번 살펴보고 알아봅시다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 샘플 경주 결과가 있다고 가정해 봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 런너를 '전형적'이거나 '평균적'이라고 표현하는 다양한 방법이 있습니다. 우리는 평균을 사용할 것입니다. 평균을 계산하려면 모든 결과를 더한 다음 결과의 개수로 나누면 됩니다.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 분산과 편차라는 다른 기본 개념이 있습니다. 개별 결과가 평균에서 얼마나 벗어나 있는가? 결과들은 밀접하게 뭉쳐 있거나 퍼져 있나요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 수학적인 내용에는 들어가지 않고, 우리는 판다스를 사용하여 이 샘플의 표준 편차를 계산할 수 있습니다: 54:07. 이는 주어진 경주 결과와 평균 완주 시간 사이의 평균 거리를 나타냅니다.
 
@@ -63,7 +103,18 @@ Z-점수는 특정 결과가 평균으로부터 얼마나 떨어져 있는지를
 
 위의 시각화는 이 개념을 설명해 줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 히스토그램은 360,075개의 개별 레이스 결과를 나타내며 각 5분 간격에 속하는 결과의 백분율을 보여줍니다 (즉, 3:55에서 4:00 사이).
 
@@ -73,7 +124,18 @@ Z-점수는 특정 결과가 평균으로부터 얼마나 떨어져 있는지를
 
 이 개념을 다른 샘플, 예를 들어 다른 연령대에 적용해보면 실제 평균 값과 표준 편차가 달라질 수 있지만, 일반적인 원칙은 유지될 것입니다. 평균 값에서 두 표준 편차 떨어진 곳에서 레이스를 마친 선수는 한 표준 편차 떨어진 곳에서 레이스를 마친 선수보다 훨씬 적을 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 잠재적으로 개별 결과가 평균 이하 얼마나 떨어져 있는지를 측정하여 "좋은" 결과를 비교하는 방법을 제공할 수 있습니다.
 
@@ -83,7 +145,18 @@ Z-점수는 특정 결과가 평균으로부터 얼마나 떨어져 있는지를
 
 이 분석을 용이하게 하기 위해, 샘플로 사용할 일련의 경주를 식별했습니다. 이는 2010년부터 2019년까지 미국에서 9월, 10월 또는 11월에 개최된 500명 이상의 완주자가 있는 모든 마라톤을 포함합니다. 그런 다음, 각 완주자의 성별, 연령 및 완주 시간을 수집했는데 — 총 2,017,493개의 결과가 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 몇 가지 정리와 준비 작업을 한 후, 이 결과를 Pandas 데이터프레임에 로드하여 쉬운 분석이 가능하게 했어요. 이 시리즈를 마치면 Kaggle에 완전한 데이터셋을 공유할 예정이에요. 만약 여러분이 자체적으로 분석을 하고 싶다면 이 데이터셋을 사용해보세요.
 
@@ -93,7 +166,18 @@ Pandas로 결과를 처리하면 성별 및 연령대로 결과를 그룹화하�
 
 여기서 놀라운 점은 없어요. 오른쪽으로 이동할수록 평균 완주 시간이 더 느려집니다. 어린 러너들 사이에는 큰 차이가 없지만, 50대와 60대로 갈수록 그 차이가 뚜렷해집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 평균적으로, 동일 연령대의 남성보다 여성이 느린 속도로 완주합니다. 그러나 연령에 따른 추세는 여성과 남성 모두 유사합니다.
 
@@ -103,7 +187,18 @@ Pandas로 결과를 처리하면 성별 및 연령대로 결과를 그룹화하�
 
 각 그룹 사이의 표준 편차는 거의 비슷합니다. 노인 남성을 제외하고, 모든 그룹의 표준 편차는 50분에서 55분 사이에 있습니다. 세 가지 노인 남성 연령대 중에서는 약간 더 높습니다(55분에서 60분까지).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 정확히 무엇을 기대했는지 확신할 수 없지만, 이것이 어떤 방식으로든 평균과 함께 조정될 것으로 생각했습니다. 아래에서 어떻게 진행되는지 확인해볼게요. 그러나 한 그룹이 다른 그룹보다 더 극단적인 z-점수를 가지거나 다른 그룹과 비교할 때 과대평가될 수도 있다는 느낌이 듭니다.
 
@@ -113,7 +208,18 @@ Pandas로 결과를 처리하면 성별 및 연령대로 결과를 그룹화하�
 
 실제 실습 중에 어떻게 작용하는지 몇 가지 레이스를 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 미네아폴리스의 트윈시티 마라톤을 시작으로 하겠습니다. 여기 주요 10명의 완주자들을 z-점수로 정리해 봤어요. 비교를 위해 2020년 연령 등급 표에 따른 연령 등급 점수도 포함했어요.
 
@@ -136,22 +242,31 @@ Pandas로 결과를 처리하면 성별 및 연령대로 결과를 그룹화하�
 
 두 번째 예로, 작은 규모의 대회인 뉴저지의 애틀랜틱 시티 마라톤을 살펴보겠습니다 (그리고 이 마라톤이 거친 첫 번째 마라톤입니다).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-| Gender | Age | Finish  | zScore | Age Grade |
-|--------|-----|---------|--------|-----------|
-| F      | 28  | 02:42:48| -2.32  | 82.35     |
-| M      | 35  | 02:19:15| -2.27  | 87.84     |
-| M      | 32  | 02:21:46| -2.13  | 85.83     |
-| M      | 61  | 03:00:04| -2.06  | 83.75     |
-| F      | 41  | 03:07:27| -1.92  | 73.72     |
-| M      | 34  | 02:33:10| -1.92  | 79.66     |
-| M      | 56  | 02:58:22| -1.91  | 80.66     |
-| M      | 56  | 03:01:43| -1.84  | 79.17     |
-| F      | 41  | 03:12:30| -1.83  | 71.79     |
-| F      | 24  | 03:11:47| -1.76  | 69.91     |
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
+| Gender | Age | Finish   | zScore | Age Grade |
+| ------ | --- | -------- | ------ | --------- |
+| F      | 28  | 02:42:48 | -2.32  | 82.35     |
+| M      | 35  | 02:19:15 | -2.27  | 87.84     |
+| M      | 32  | 02:21:46 | -2.13  | 85.83     |
+| M      | 61  | 03:00:04 | -2.06  | 83.75     |
+| F      | 41  | 03:07:27 | -1.92  | 73.72     |
+| M      | 34  | 02:33:10 | -1.92  | 79.66     |
+| M      | 56  | 02:58:22 | -1.91  | 80.66     |
+| M      | 56  | 03:01:43 | -1.84  | 79.17     |
+| F      | 41  | 03:12:30 | -1.83  | 71.79     |
+| F      | 24  | 03:11:47 | -1.76  | 69.91     |
 
 여기에는 결과에서 남성과 여성이 섞여 있습니다. 그러나 상위 두 결과를 살펴보세요.
 
@@ -159,23 +274,31 @@ Pandas로 결과를 처리하면 성별 및 연령대로 결과를 그룹화하�
 
 여기 마지막 예시 — 버지니아주 리치먼드 마라톤을 살펴보겠습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
-| Gender   |   Age | Finish   |   zScore |   Age Grade |
-|----------|-------|----------|----------|-------------|
-| F        |    23 | 02:36:19 |    -2.44 |       85.77 |
-| F        |    30 | 02:36:30 |    -2.44 |       85.67 |
-| F        |    28 | 02:40:08 |    -2.37 |       83.72 |
-| F        |    29 | 02:43:31 |    -2.3  |       81.99 |
-| F        |    23 | 02:47:03 |    -2.24 |       80.26 |
-| F        |    36 | 02:47:54 |    -2.23 |       80.38 |
-| F        |    35 | 02:48:45 |    -2.21 |       79.76 |
-| F        |    26 | 02:49:08 |    -2.2  |       79.27 |
-| F        |    28 | 02:49:29 |    -2.19 |       79.1  |
-| F        |    28 | 02:50:19 |    -2.17 |       78.72 |
-
+| Gender | Age | Finish   | zScore | Age Grade |
+| ------ | --- | -------- | ------ | --------- |
+| F      | 23  | 02:36:19 | -2.44  | 85.77     |
+| F      | 30  | 02:36:30 | -2.44  | 85.67     |
+| F      | 28  | 02:40:08 | -2.37  | 83.72     |
+| F      | 29  | 02:43:31 | -2.3   | 81.99     |
+| F      | 23  | 02:47:03 | -2.24  | 80.26     |
+| F      | 36  | 02:47:54 | -2.23  | 80.38     |
+| F      | 35  | 02:48:45 | -2.21  | 79.76     |
+| F      | 26  | 02:49:08 | -2.2   | 79.27     |
+| F      | 28  | 02:49:29 | -2.19  | 79.1      |
+| F      | 28  | 02:50:19 | -2.17  | 78.72     |
 
 여기서 다시 한번 말해요, 상위 10명의 완주자는 모두 여성입니다. 상위 두 명은 (2:36) 꽤 인상적하지만, 여전히 이 목록에 들어갈만한 남성이 없다는 것은 믿기 어렵습니다.
 
@@ -183,8 +306,18 @@ Pandas로 결과를 처리하면 성별 및 연령대로 결과를 그룹화하�
 
 조금 더 자세히 살펴보기 위해, 리치먼드 마라톤에서 z-점수로 상위 열 명의 남성입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 | 성별 | 나이 | 완주 시간 | z-점수 | 나이 등급 |
@@ -199,16 +332,26 @@ Pandas로 결과를 처리하면 성별 및 연령대로 결과를 그룹화하�
 | M    | 22   | 02:25:32  | -2.06  | 83.59     |
 | M    | 26   | 02:26:26  | -2.05  | 83.08     |
 | M    | 42   | 02:36:17  | -2.01  | 81.55     |
-``` 
+```
 
 그래서 몇몇 정말 우수한 남성분들이 있었어요. 그렇지만 31살 남성분이 2시간 19분만에 완주했는데도 z-점수가 -2.17밖에 되지 않았어요. 우연히도, 그게 2시간 50분에 완주한 여성 10위보다 뒤에 오네요.
 
-여기에는 조금 더 다양한 연령대가 있어요(55살과 42살), 하지만 이 완주자들의 대부분은 35세 미만의 남성분들이에요. 
+여기에는 조금 더 다양한 연령대가 있어요(55살과 42살), 하지만 이 완주자들의 대부분은 35세 미만의 남성분들이에요.
 
 # z-점수를 사용하는 데 문제점
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문제의 가장 분명한 문제는 이 측정 방법이 여성의 결과를 과대평가하기 쉽다는 것입니다 — 특히 젊은 여성의 결과를 말이죠. 큰 규모의 두 마라톤에서 전체 상위 열 명 리스트가 모두 여성으로 차지되는 경우가 있었습니다.
 
@@ -218,7 +361,18 @@ Pandas로 결과를 처리하면 성별 및 연령대로 결과를 그룹화하�
 
 35세 미만 여성의 평균 완주 시간은 4시간 43분 20초입니다. 이는 동일 연령대 남성보다 27분 늦고, 55-59세 이상의 모든 남성 연령 그룹보다도 느립니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 동시에, 그들의 표준 편차(51:59)는 가장 낮은 편 중 하나입니다. 동일 연령의 남성들보다 약 두 분 더 낮습니다.
 
@@ -228,7 +382,18 @@ Pandas로 결과를 처리하면 성별 및 연령대로 결과를 그룹화하�
 
 한편, 그때의 여성 세계 기록은 2:14:04로, (2019년 시카고에서 브리짓 코스게이가 달성했습니다). 이는 -2.86의 z-점수를 달성할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 시스템에서는 35세 미만의 여성에게 큰 내부적 이점이 있습니다. 2:30으로 달리는 여성이라도 Kipchoge의 세계 기록 아래에있는 z-점수(-2.55)를 달성할 수 있습니다.
 
@@ -238,7 +403,18 @@ Pandas로 결과를 처리하면 성별 및 연령대로 결과를 그룹화하�
 
 35~39세에는 -2 이하의 점수를 받은 여성(0.89%)이 남성(0.38%)보다 약 두 배 더 많습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그런 노릇하며 60대와 70대 러너 사이에서도 재밌는 일들이 벌어지고 있어요. 하지만 이 그룹들이 너무 작아서 개별 레이스 결과에 명확히 나타나지 않을 수도 있어요.
 
@@ -248,17 +424,39 @@ Pandas로 결과를 처리하면 성별 및 연령대로 결과를 그룹화하�
 
 이것은 불균형적이고, 일부 그룹이 다른 그룹보다 우위를 가지고 있다는 것이 분명해요. 젊은 여성들 사이에서 높은 평균 완주 시간은 그들이 그 평균 아래서 끝내고 낮은 Z-점수를 받을 공간이 훨씬 더 많다는 것을 명백히 보여줘요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 개념적으로, 일반적인 비교와 판단을 하려면 유용한 것 같아요. 어떤 러너가 평균값보다 표준 편차 하나나 둘 미만인지 아는 것은 그들이 얼마나 뛰어난지와 그 결과가 얼마나 어려운지에 대한 일반적인 감각을 제공해줍니다.
 
-하지만 이것을 극단적인 경우에 더 나은 비교를 하기 위해 보정하는 좋은 방법은 없다고 생각해요. 
+하지만 이것을 극단적인 경우에 더 나은 비교를 하기 위해 보정하는 좋은 방법은 없다고 생각해요.
 
 나이 등급은 보정에 문제가 있을 수 있지만, 이 시스템을 개선된 것으로 보지는 않아요.
 
 어쩌면 다른 사람이 이 데이터를 가지고 더 나은 결과를 얻을 수 있을지도 모르겠지만, 저는 일단 지금은 이걸 잠시 내려놓고 리스트에서 지우려고 해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 그럼 다음은 무엇인가요?
 
@@ -268,7 +466,18 @@ Pandas로 결과를 처리하면 성별 및 연령대로 결과를 그룹화하�
 
 그 다음으로, 2023년 데이터로 업데이트하고, 백분위수 시스템을 약간 수정하여 2023년 최신 나이 등급 테이블과 비교하고 싶어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 시리즈를 마무리 짓는 것이 좋을 것 같아요. 만약 여러분이 자신의 분석을 원하신다면, 전체 데이터셋을 Kaggle에 공유할 예정이니까 참고해주세요.
 
@@ -278,7 +487,18 @@ Pandas로 결과를 처리하면 성별 및 연령대로 결과를 그룹화하�
 
 저는 열정적인 달리기 사랑자이자 데이터 좋아하는 사람입니다. 이제 40살이 되었는데, 연령대별 결과를 비교하는 것이 특히 저에게 흥미로운 분야에요. 제 활동을 계속 지켜보려면 아래와 같이 따라갈 수 있어요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 제 훈련에 대해 알아보려면 Running with Rock을 팔로우하세요
 - 마라톤 훈련 계획을 선택하는 팁을 읽어보세요

@@ -3,17 +3,13 @@ title: "RAG vs Long-Context LLM 품질 평가 방법 및 결과 분석"
 description: ""
 coverImage: "/assets/img/2024-07-09-EvaluatingTheQualityOfRAGLong-ContextLLMOutput_0.png"
 date: 2024-07-09 11:33
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-EvaluatingTheQualityOfRAGLong-ContextLLMOutput_0.png
 tag: Tech
 originalTitle: "Evaluating The Quality Of RAG , Long-Context LLM Output"
 link: "https://medium.com/@cobusgreyling/evaluating-the-quality-of-rag-long-context-llm-output-89bc1a56a5d8"
 isUpdated: true
 ---
-
-
-
-
 
 ![img](/assets/img/2024-07-09-EvaluatingTheQualityOfRAGLong-ContextLLMOutput_0.png)
 
@@ -23,7 +19,18 @@ Long-Context LLM 출력물과 RAG 결과의 품질을 어떻게 측정할까요?
 
 SalesForce는 반복되는 통찰력이나 신호가 포함된 문서 "건초더미(Haystacks)"를 생성하는 절차를 설계했습니다. "건초더미 요약(SummHay)" 작업은 시스템이 관련 통찰력을 식별하고 소스 문서를 인용하는 요약을 생성하도록 요구합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 정확한 통찰과 인용에 대한 지식을 가지고, Salesforce는 Coverage와 Citation에 대한 자동 평가 점수 요약을 구현했습니다.
 
@@ -33,9 +40,20 @@ Salesforce는 대화와 뉴스 도메인에서 Haystacks를 만들었고, 10개�
 
 SummHay는 기업 RAG 시스템과 장기 문맥 모델의 위치 편향을 연구하는 데에도 사용될 수 있습니다. Salesforce는 미래에 시스템이 SummHay에서 인간의 성능을 맞고 능가할 것으로 기대하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-이미지 태그를 Markdown 형식으로 변경합니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+이미지 태그를 Markdown 형식으로 변경합니다.
 
 최근, RAG 및 긴 문맥 LLM은 대량의 텍스트 코퍼스에 대한 쿼리 응답 문제를 해결하려고 노력합니다. 그러나 공통 작업에 대한 직접적인 비교가 부족하여 평가가 어려운 상황입니다.
 
@@ -45,7 +63,18 @@ SummHay는 기업 RAG 시스템과 장기 문맥 모델의 위치 편향을 연�
 
 Salesforce는 요약 작업을 장문 맥락 모델 및 RAG 시스템을 평가하는 테스트베드로 활용하기를 제안합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요약은 긴 맥락을 이해하고 내용의 상대적 중요성을 신중히 이해해야 합니다.
 
@@ -55,7 +84,18 @@ Salesforce는 요약 작업을 장문 맥락 모델 및 RAG 시스템을 평가�
 
 하지만 대화식 대화와 다문서 뉴스 요약은 여전히 약 10,000 토큰 정도로 제한되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요약 평가에서의 주요 문제 중 하나는 저품질의 참조 요약과 인간 판단과 잘 관련되지 않는 자동 측정기에 의존한다는 점입니다.
 
@@ -65,7 +105,18 @@ Salesforce는 요약 작업을 장문 맥락 모델 및 RAG 시스템을 평가�
 
 아래 이미지를 고려해보면, Salesforce의 접근 방식은 특정 주제에 대한 대량의 문서('헤이스택')를 생성하고, 문서 전체에 일정 신호가 반복되도록 하는 것을 포함합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Salesforce는 어떤 통찰이 어떤 문서에 나타나는지를 제어하여 검색 쿼리에 관련 통찰을 자동으로 결정할 수 있습니다. SummHay 작업은 이러한 통찰을 요약하고 출처를 인용하는 시스템의 작업을 필요로 합니다. 요약은 예상된 통찰의 범위와 소스 문서를 인용한 정확성을 기반으로 평가됩니다.
 
@@ -75,7 +126,18 @@ Haystack는 대화와 뉴스 기사 두 가지 도메인에서 생성됩니다.
 
 일반적으로 Haystack는 약 100개의 문서를 포함하며, 총 약 10만 개의 토큰이 사용됩니다. Salesforce는 주제별로 총 10개의 Haystack을 생성하며, 각각 대략 10개의 쿼리가 함께 제공되어 총 92개의 SummHay 작업이 이뤄집니다. 이 파이프라인은 확장 가능하며 다른 도메인에도 적용될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 평가 방법
 
@@ -85,7 +147,18 @@ Salesforce는 이후 LLM 기반 평가를 실험하여 상관 관계 수준이 �
 
 # 인간의 성능 평가 추정
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Salesforce가 SummHay에서 인간의 성능 추정치를 수립하고 50개의 RAG 시스템 및 10개의 장기적 문맥 LLM을 대규모로 평가했습니다.
 
@@ -102,7 +175,18 @@ Salesforce가 SummHay에서 인간의 성능 추정치를 수립하고 50개의 
 
 ➡️ LinkedIn에서 언어 및 인공지능 교차점에 대한 업데이트를 받으려면 팔로우해 주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **이미지1**
 저는 현재 코레 AI의 최고 선구자입니다. AI와 언어가 교차하는 모든 것에 대해 탐구하고 쓰고 있습니다. LLM, 챗봇, 보이스봇, 개발 프레임워크, 데이터 중심의 잠재 공간 등 다양한 주제를 다룹니다.
@@ -111,6 +195,17 @@ Salesforce가 SummHay에서 인간의 성능 추정치를 수립하고 50개의 
 
 **이미지3**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Click Here](/assets/img/2024-07-09-EvaluatingTheQualityOfRAGLong-ContextLLMOutput_4.png)

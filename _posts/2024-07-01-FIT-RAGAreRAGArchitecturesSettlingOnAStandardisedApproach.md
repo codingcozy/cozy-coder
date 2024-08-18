@@ -3,17 +3,13 @@ title: "FIT-RAG RAG 아키텍처가 표준화된 접근 방식을 채택하고 �
 description: ""
 coverImage: "/assets/img/2024-07-01-FIT-RAGAreRAGArchitecturesSettlingOnAStandardisedApproach_0.png"
 date: 2024-07-01 00:01
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-01-FIT-RAGAreRAGArchitecturesSettlingOnAStandardisedApproach_0.png
 tag: Tech
 originalTitle: "FIT-RAG: Are RAG Architectures Settling On A Standardised Approach?"
 link: "https://medium.com/@cobusgreyling/fit-rag-are-rag-architectures-settling-on-a-standardised-approach-47775acab1b1"
 isUpdated: true
 ---
-
-
-
-
 
 이미지 경로: [2024-07-01-FIT-RAGAreRAGArchitecturesSettlingOnAStandardisedApproach_0.png](/assets/img/2024-07-01-FIT-RAGAreRAGArchitecturesSettlingOnAStandardisedApproach_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 예를 들어 프롬프트 엔지니어링의 경우, 프롬프트가 템플릿으로 진화되어 변수가 주입될 수 있는 자리 표시자가 있는 것을 볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 이것은 프롬프트 체이닝으로 진전되었고, 결국 여러 도구를 가진 자율 에이전트로 발전했습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 먼저, 아래 기사에서 보시는 대로 프롬프트 구조가 RAG 아키텍처에서 점점 더 중요해지고 있으며, 연상 기술로 Chain-of-Thought와 같은 프롬프팅 기술이 도입되고 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최근에는 단순히 상황 참조 데이터를 주입하는 것만으로는 충분하지 않습니다. 텍스트를 최적화하기 위해 문구가 활용되고 있습니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 네 번째로, 최적의 응답을 선택하기 위한 다단계 접근법과 분류기를 사용하거나 다수의 데이터 스토어를 활용하거나 단순히 사용자 요청을 분류하는 데 사용됩니다. 이러한 분류기는 주로 이 특수화된 작업을 위해 모델을 훈련하는 데 사용되는 주석이 달린 데이터에 의존합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 이전에 언급한 대로, RAG는 라마인덱스가 에이젼틱 RAG로 지칭하는 상태로 나아가고 있습니다. 여기서 RAG 기반 요소는 여러 하위 에이전트나 도구를 활용하여 데이터 검색을 관리하는 데 사용됩니다.
 
@@ -53,7 +82,18 @@ FIT-RAG 연구는 LLM과 사실 데이터를 고려할 때 두 가지 문제를 
 
 사실 데이터 부족: LLM의 원하는 문서에는 특정 쿼리에 필요한 사실 정보가 부족할 수 있으며, 이는 검색기를 오도하고 블랙박스 RAG의 효과를 약화시킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Token Overload: 모든 검색된 문서를 무차별적으로 병합하면 LLM에 사용된 토큰이 과도하게 많아져서 블랙박스 RAG의 효율성이 저하됩니다.
 
@@ -63,7 +103,18 @@ FIT-RAG는 사실적 정보를 고려하여 이중 레이블 문서 점수 판�
 
 # FIT-RAG의 구성요소
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 이미지를 고려하면 FIT-RAG는 다섯 가지의 핵심 요소로 구성되어 있습니다:
 
@@ -77,7 +128,18 @@ FIT-RAG는 사실적 정보를 고려하여 이중 레이블 문서 점수 판�
 
 또한, 이중 면 성 자기 인식기와 하위 문서 수준 토큰 축소기는 입력 토큰 최소화에 중요한 역할을 하여 토큰 낭비를 방지합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 The bi-label document scorer is trained using bi-label learning, which involves two labels:
 
@@ -88,7 +150,18 @@ The "Has_Answer" label tells us if the document contains the answer to the quest
 
 Yet, there's a noticeable disparity in data distribution between these labels, potentially affecting the efficiency of bi-label learning. To tackle this issue, the paper introduces a data-imbalance-aware bi-label learning technique.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 방법은 데이터에 서로 다른 가중치를 할당하며, 하이퍼 그레이디언트 디센트를 사용하여 자동으로 학습합니다. 이 접근 방식은 데이터 불균형 문제를 효과적으로 다루어서, 바이-라벨 문서 점수기가 검색된 문서를 종합적으로 평가할 수 있도록 합니다.
 
@@ -98,7 +171,18 @@ Yet, there's a noticeable disparity in data distribution between these labels, p
 
 # FIT-RAG 프롬프트하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 이미지는 프롬프트 문구가 최적화된 모습을 보여줍니다...
 
@@ -108,7 +192,18 @@ RAG(견주-리더-생성자) 파이프라인에 주체적 능력을 통합하면
 
 그러나 주체적 능력을 가진 에이전트가 직면하는 중요한 도전 과제 중 하나는 의사 결정 프로세스에서 조작성 및 투명성이 부족하다는 것입니다. 사용자 쿼리에 직면했을 때, 에이전트는 생각의 연쇄나 계획 접근을 채택할 수 있으며, 이는 문제 공간을 효과적으로 탐색하기 위해 대형 언어 모델(Large Language Models, LLMs)과 반복 상호 작용이 필요할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LLMs(대형 언어 모델)과의 반복 상호작용에 의존하는 것은 컴퓨팅 부담을 초래할 뿐만 아니라, 에이전트가 결정에 대해 명확한 설명을 제공하는 것을 방해합니다.
 
@@ -118,7 +213,18 @@ LLMs(대형 언어 모델)과의 반복 상호작용에 의존하는 것은 컴�
 
 ⭐️ LinkedIn에서 대형 언어 모델의 업데이트를 받아보세요! ⭐️
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **이미지1**:  
 ![Image 1](/assets/img/2024-07-01-FIT-RAGAreRAGArchitecturesSettlingOnAStandardisedApproach_1.png)
@@ -131,6 +237,17 @@ LLMs(대형 언어 모델)과의 반복 상호작용에 의존하는 것은 컴�
 **이미지3**:  
 ![Image 3](/assets/img/2024-07-01-FIT-RAGAreRAGArchitecturesSettlingOnAStandardisedApproach_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-07-01-FIT-RAGAreRAGArchitecturesSettlingOnAStandardisedApproach_4.png)

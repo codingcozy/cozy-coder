@@ -3,17 +3,13 @@ title: "기계 학습, 생성형 AI, 딥러닝을 사용한 시계열 데이터 
 description: ""
 coverImage: "/assets/img/2024-07-06-PredictingTimeSeriesDatawithMachineLearningGenerativeAIandDeepLearning_0.png"
 date: 2024-07-06 10:55
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-06-PredictingTimeSeriesDatawithMachineLearningGenerativeAIandDeepLearning_0.png
 tag: Tech
 originalTitle: "Predicting Time Series Data with Machine Learning, Generative AI, and Deep Learning"
 link: "https://medium.com/@palashm0002/predicting-time-series-data-with-machine-learning-generative-ai-and-deep-learning-36bf99ad6f5e"
 isUpdated: true
 ---
-
-
-
-
 
 ### Time Series Data Prediction
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 시계열 데이터는 특정 시간 간격에서 수집하거나 기록된 데이터 포인트의 일련이다. 주식 가격, 날씨 데이터, 판매 수치 및 센서 읽기가 그 예시로 들 수 있습니다. 시계열 예측의 목표는 과거 관측치를 사용하여 미래 값을 예측하는 것이며, 데이터 내에 내재된 복잡성과 패턴으로 인해 도전적일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 1. 머신 러닝 접근 방법
 
@@ -32,7 +39,18 @@ isUpdated: true
 - ARIMA은 시계열 예측을 위한 고전적인 통계적 방법입니다. 자기 회귀(AR) 모델,
   차분(데이터를 정상적으로 만들기 위한), 이동 평균(MA) 모델을 결합합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 예시 사용법입니다:
 
@@ -58,7 +76,18 @@ print(predictions)
 
 - SARIMA는 계절 패턴을 고려하여 ARIMA를 확장한 것입니다. 매월 매출 데이터와 같은 계절적 패턴이 있는 데이터에 유용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시 사용법:
 
@@ -85,7 +114,18 @@ print(predictions)
 
 - Facebook에서 개발된 Prophet은 시계열 데이터를 예측하기 위한 강력한 도구로, 누락된 데이터나 이상치를 처리하고 신뢰할 수 있는 불확실성 구간을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시 사용법:
 
@@ -112,7 +152,18 @@ print(forecast[['ds', 'yhat', 'yhat_lower', 'yhat_upper']])
 
 - XGBoost는 이전 시간 단계를 특성으로 취급하여 지도 학습 작업으로 문제를 변환하는 방식으로 시계열 예측에 사용할 수 있는 그래디언트 부스팅 프레임워크입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시 사용법:
 
@@ -156,7 +207,18 @@ print(f'Mean Squared Error: {mse}')
 Markdown 형식으로 이미지 첨부:
 ![Predicting Time Series Data with Machine Learning, Generative AI, and Deep Learning](/assets/img/2024-07-06-PredictingTimeSeriesDatawithMachineLearningGenerativeAIandDeepLearning_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - GAN은 생성기(generator)와 판별기(discriminator)로 구성되어 있습니다. 시계열 예측을 위해 GAN을 사용하면 기저 데이터 분포를 학습하여 가능성 있는 미래 시퀀스를 생성할 수 있습니다.
 
@@ -272,7 +334,18 @@ print(generated_prediction)
 
 ![Example Image](/assets/img/2024-07-06-PredictingTimeSeriesDatawithMachineLearningGenerativeAIandDeepLearning_7.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 딥마인드에서 개발한 WaveNet은 원래 오디오 생성을 위해 설계된 딥 생성 모델로, 시계열 예측을 위해 특히 오디오 및 음성 분야에서 적용되어 왔습니다.
 
@@ -344,8 +417,18 @@ print(predictions)
 
 #3. 딥러닝 접근법
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 /assets/img/2024-07-06-PredictingTimeSeriesDatawithMachineLearningGenerativeAIandDeepLearning_8.png
 
@@ -407,7 +490,18 @@ test_predict = scaler.inverse_transform(test_predict)
 print(test_predict)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GRU는 LSTM의 변형으로, 간단하면서도 종종 시계열 작업에 대해 동등한 성능을 발휘합니다. GRU는 순서를 모델링하고 시간 종속성을 포착하는 데 사용됩니다.
 
@@ -467,8 +561,18 @@ test_predict = scaler.inverse_transform(test_predict)
 print(test_predict)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 미래를 예측하는 것이 어려운 과제일 수 있지만, 신경망과 딥러닝을 활용한 시계열 데이터 예측은 가능합니다. 최근에는 자연어 처리에서 성공을 거둔 트랜스포머(Transformer)가 시계열 예측을 위해 적응되었습니다. Temporal Fusion Transformer (TFT)와 같은 모델은 주의 메커니즘(attention mechanism)을 활용하여 시간적 데이터를 효과적으로 처리합니다.
 
@@ -488,7 +592,18 @@ time_series_data = pd.read_csv('time_series_data.csv')
 
 혹시 이 코드가 도움이 되셨나요? 더 궁금한 점이 있거나 도움이 필요하시다면 언제든지 물어보세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하단은 Seq2Seq 모델을 이용하여 데이터 시퀀스를 예측하는 코드 예시입니다.
 
@@ -547,7 +662,18 @@ predictions = scaler.inverse_transform(predictions)
 print(predictions)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지 경로를 Markdown 형식으로 변경해주세요.
 
@@ -602,7 +728,18 @@ predictions = scaler.inverse_transform(predictions)
 print(predictions)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아마존에서 개발된 DeepAR은 시계열 예측을 위해 설계된 자기회귀 순환 신경망입니다. 여러 시계열을 처리하며 복잡한 패턴을 잡을 수 있습니다.
 
@@ -653,6 +790,17 @@ predictions = scaler.inverse_transform(predictions)
 print(predictions)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시계열 데이터 예측은 복잡하지만 매력적인 분야로, 기계 학습, 생성적 AI, 그리고 심층 학습의 발전에서 크게 이점을 얻고 있습니다. ARIMA, Prophet, LSTM, 그리고 Transformers와 같은 모델을 활용하여 실무자들은 데이터에서 숨겨진 패턴을 찾아 정확한 예측을 할 수 있습니다. 기술이 계속 발전함에 따라 시계열 예측을 위한 도구와 방법도 보다 정교해지며, 다양한 영역에서 혁신과 개선을 위한 새로운 기회를 제공하게 될 것입니다.

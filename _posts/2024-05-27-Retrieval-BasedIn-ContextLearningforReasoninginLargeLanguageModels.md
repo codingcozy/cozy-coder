@@ -3,17 +3,13 @@ title: "대규모 언어 모델에서 추론을 위한 인-컨텍스트 학습 �
 description: ""
 coverImage: "/assets/img/2024-05-27-Retrieval-BasedIn-ContextLearningforReasoninginLargeLanguageModels_0.png"
 date: 2024-05-27 14:17
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-Retrieval-BasedIn-ContextLearningforReasoninginLargeLanguageModels_0.png
 tag: Tech
 originalTitle: "Retrieval-Based In-Context Learning for Reasoning in LargeLanguage Models"
 link: "https://medium.com/@alcarazanthony1/retrieval-based-in-context-learning-for-reasoning-in-largelanguage-models-4e4296b75bce"
 isUpdated: true
 ---
-
-
-
-
 
 대규모 언어 모델(LLM)은 소수의 입력-출력 예제만 제공되어도 혁신적인 능력을 보여주는 것으로 입증되었습니다. 적은 양의 예제만 제공되어도 LLM은 새로운 작업에 빠르게 적응할 수 있으며 어떠한 기울기 업데이트나 파인튜닝도 필요하지 않습니다. 이로써 LLM은 전례 없는 유연성과 일반화 능력을 나타낼 수 있었습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 강력한 에이전트 응용 프로그램을 가능하도록 하는 열쇠가 될 데이터 엔지니어링 도전이 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Retrieval-Based ICL Overview](/assets/img/2024-05-27-Retrieval-BasedIn-ContextLearningforReasoninginLargeLanguageModels_0.png)
 
@@ -33,7 +40,18 @@ RetICL의 핵심 아이디어는 ICL에서 일반적으로 사용되는 고정�
 
 이 접근 방식은 표준 ICL에 비해 여러 잠재적인 장점을 제공합니다. 첫째, 쿼리별 데모 검색을 통해 RetICL은 각 새로운 작업에 적응할 수 있도록 LLM에 보다 관련성 높은 정보를 제공할 수 있습니다. 둘째, RetICL은 고정 예제 세트를 선별하는 데 관여되는 수동적 노력과 잠재적인 편견을 줄입니다. 마지막으로 대규모 지식 베이스의 활용을 통해 RetICL 시스템은 단일 프롬프트에 맞게 구현할 수 있는 정보 범위를 상당히 확장할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 혜택을 고려하면 RetICL은 빠르게 연구 분야의 핫한 주제가 되었으며, 다양한 평가에서 제안된 시스템과 격려하는 결과가 증가하고 있습니다. 동시에 RetICL은 아직 발전 중인 분야로, 검색 시스템의 최적 디자인과 그 효과적인 원인에 대한 여러 개방적인 질문이 많이 있습니다.
 
@@ -43,7 +61,18 @@ RetICL의 핵심 아이디어는 ICL에서 일반적으로 사용되는 고정�
 
 검색 모델: RetICL 시스템의 핵심 구성 요소는 주어진 쿼리에 대한 관련된 데모를 선택하는 데 사용되는 검색 모델입니다. 하나의 접근 방식은 "벼림되어있는" 검색기(예: 밀도가 높은 단락 검색)을 사용하는 것이며, 이들은 대규모 데이터세트에서 사전 훈련되어 텍스트를 임베딩으로 인코딩하고 유사한 예제를 효율적으로 찾습니다. 반대로, 일부 RetICL 시스템은 도메인별 데이터에서 검색기를 세밀하게 조정하여 대상 작업에 대한 검색 정밀도를 향상시킵니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 검색 목표: 데모를 선택할 때 중요한 질문 중 하나는 유사성 또는 다양성을 최적화할지 여부입니다. 유사성 기반 방법은 쿼리와 가장 의미론적으로 관련된 예제를 찾는 데, 다양성 기반 방법은 더 넓은 범위의 관련 정보를 포함하는 보완적인 데모 세트를 찾는 데 초점을 둡니다. 실제로 많은 RetICL 시스템은 두 가지 목표를 조합하여 사용합니다.
 
@@ -53,7 +82,18 @@ RetICL의 핵심 아이디어는 ICL에서 일반적으로 사용되는 고정�
 
 이러한 설계 선택의 많은 구성이 있지만 경험적 결과는 RetICL의 효과가 특정 도메인 및 모델링 목표에 크게 의존한다는 것을 시사합니다. 일반적인 해결책은 없을 것으로 보이며, 보다 체계적인 비교 및 제거 실험의 필요성을 도출합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 디자인 데모 전부터 학문위키
 
@@ -63,7 +103,18 @@ LM 기반 지도: 일반적인 전략 중 하나는 LLM이 금 예상을 생성�
 
 모델 없는 휴리스틱: 대안은 n-gram overlap 또는 entity matching과 같은 작업 무관한 휴리스틱을 사용하여 예시의 적절성을 추정하는 것입니다. LM 기반의 지도보다는 능력이 떨어지지만, 이러한 방법은 보다 효율적이고 검색 말뭉치에 적용 가능합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 훈련 데이터를 이러한 접근 방식 중 하나로 얻은 후, 리트리버는 일반적으로 대조적 학습이나 가르침과 같은 표준 순위 목표를 사용하여 최적화됩니다 [2]. 최근에는 점진적으로 더욱 어려운 부정적 예를 채굴하는 훈련 방법들이 리트리버의 견고성을 향상시키는 데 유망함을 보여주기도 했습니다 [2].
 
@@ -73,7 +124,18 @@ RetICL은 다양한 언어 작업에서 LLM 성능을 향상시키는 데 적용
 
 추론: RetICL은 복잡한 추론이 필요한 multi-hop 질문 응답 및 사실 검증 데이터셋에서 강력한 결과를 달성했습니다 [1,2]. 관련 사실과 설명을 검색함으로써 RetICL은 LLM이 더 정확하고 신뢰할 수 있는 추론 추적을 생성하도록 도울 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 질문 답변: 오픈 도메인 QA 벤치마크에서 RetICL은 대규모 지식 베이스에서 관련 문단을 동적으로 검색함으로써 표준 ICL을 능가했습니다. 이는 텍스트와 이미지에 대한 추론을 필요로 하는 멀티 모달 QA 작업을 포함합니다.
 
@@ -83,7 +145,18 @@ RetICL은 다양한 언어 작업에서 LLM 성능을 향상시키는 데 적용
 
 동시에 RetICL은 여전히 중요한 한계에 직면하고 있습니다. RetICL 시스템의 성능은 검색에 사용된 지식 베이스의 관련성과 품질에 따라 달라집니다. 이러한 지식 베이스의 노이즈나 빈 곳은 환각적이거나 편향된 출력으로 이어질 수 있습니다. RetICL은 검색 단계에서 추가적인 계산 오버헤드를 도입하지만, 효율적인 인덱스 구조로 이를 완화할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # RetICL의 기반 조사
 
@@ -93,7 +166,18 @@ RetICL은 흥미를 자아내지만, 최근의 연구에서는 이러한 시스�
 
 구체적으로, 이 연구에서는 ReAct의 성능이 주로 주장된 추론과 행동 교차능력이라는 것에 의해 나오는 것이 아니라 제공된 예제 프롬프트의 선택에 매우 민감하다는 것을 발견했습니다. 예제 프롬프트가 체계적으로 변화할 때, ReAct의 출력은 주로 얕은 검색과 패턴 매칭에 더 의존하는 것처럼 보였으며, 실제로 언어 모델의 추론 능력을 증진하는 것보다는 오히려 예제에 대한 검색과 비슷한 패턴 매칭에 더 의존하는 것으로 나타났습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 RetICL 방법이 언어 모델의 강력한 추론을 가능하게 하는지, 아니면 모델이 단순히 프롬프트 동안 제공된 특정 예제에 연결된 휴리스틱을 학습하는 것인지 의문이 제기됩니다.
 
@@ -103,7 +187,18 @@ RetICL 방법이 언어 모델의 강력한 추론을 가능하게 하는지, �
 
 LLM의 추론 및 일반화 능력을 얼마나 향상시키는지에 따라, 그들이 진정으로 휴리스틱을 배우는지 알아봐야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음에는 더 많은 프롬프트와 순열에 걸쳐 RetICL 시스템을 보다 철저히 테스트하고 생성된 추론 추적에 대해 미세하게 평가하는 것이 필요합니다 [3].
 
@@ -113,7 +208,18 @@ LLM의 추론 및 일반화 능력을 얼마나 향상시키는지에 따라, �
 
 오픈 도메인 지식: 현재 RetICL 시스템은 주로 특정 작업과 관련된 정리된 지식 베이스에 의존합니다. 중요한 새로운 과제는 웹과 같은 대규모, 완전하게 구조화되지 않은 소스에서 관련 정보를 신뢰할 수 있게 얻을 수 있는 리트리버를 개발하는 것입니다. 이는 규모에 걸친 잡음, 불일치, 검색 효율성 등의 문제를 처리하는 것을 필요로 합니다 [1].
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지식 퓨전: 다른 기회는 여러 가지 모달리티와 지식 소스를 효과적으로 통합하는 것입니다. 예를 들어, 과학 질문에 답변하기 위한 RetICL 시스템은 교과서, 방정식, 다이어그램, 실험 데이터에서 정보를 결합해야 할 수도 있습니다. 이러한 다양한 정보 원천을 효과적으로 조화시키는 리트리버를 설계하는 것은 중요한 도전 과제입니다.
 
@@ -123,7 +229,18 @@ LLM의 추론 및 일반화 능력을 얼마나 향상시키는지에 따라, �
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 RetICL은 각 작업에 대해 관련된 데모를 동적으로 선택하여 LLM의 추론 능력을 향상시키는 유망한 패러다임으로 등장했습니다. 대규모 말뭉치의 지식을 활용하여 RetICL은 LLM이 새로운 도메인에 유연하게 적응하고 더 근거 있는 정확한 작업 완료를 생성하는 데 도움을 줄 수 있습니다.
 
@@ -133,7 +250,18 @@ RetICL은 각 작업에 대해 관련된 데모를 동적으로 선택하여 LLM
 
 참고 문헌:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [1] Luo et al. (2023) “In-context Learning with Retrieved Demonstrations for Language Models: A Survey”
 

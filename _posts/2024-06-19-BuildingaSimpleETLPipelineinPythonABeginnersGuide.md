@@ -3,17 +3,13 @@ title: "파이썬으로 간단한 ETL 파이프라인 구축하기 초보자를 
 description: ""
 coverImage: "/assets/img/2024-06-19-BuildingaSimpleETLPipelineinPythonABeginnersGuide_0.png"
 date: 2024-06-19 16:10
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-BuildingaSimpleETLPipelineinPythonABeginnersGuide_0.png
 tag: Tech
 originalTitle: "Building a Simple ETL Pipeline in Python: A Beginner’s Guide"
 link: "https://medium.com/@sanjayramrajasrinivasan/building-a-simple-etl-pipeline-in-python-a-beginners-guide-d2ab9204e207"
 isUpdated: true
 ---
-
-
-
-
 
 소개:
 
@@ -23,7 +19,18 @@ ETL (추출, 변환, 로드)은 데이터 엔지니어링에서 필수적인 프
 
 시작하려면 Python 3.8 이상 버전 및 몇 가지 라이브러리가 설치되어 있어야 합니다. 터미널을 열고 다음 명령을 실행하세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 pip install requests pandas
@@ -35,8 +42,18 @@ pip install requests pandas
 
 1. API 키 등록하세요:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - OpenWeatherMap 웹사이트로 이동해 주세요.
 - 무료 계정을 등록하고 API 키를 획득해 주세요.
@@ -49,7 +66,18 @@ pip install requests pandas
 
 **단계 2: 함수 추출**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 API 키가 있으니, API에서 날씨 데이터를 가져오는 추출 함수를 작성해 봅시다.
 
@@ -78,7 +106,18 @@ print(weather_data)
 
 fetch_weather_data 함수는 도시 이름과 API 키를 사용하여 API 요청 URL을 작성하고, API로 GET 요청을 보내 성공적인 요청이면 JSON 형식의 응답 데이터를 반환합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 단계 3: 변환 함수
 
@@ -106,7 +145,18 @@ print(transformed_data)
 
 ### 단계 4: 모든 단계를 결합하는 함수
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로, 변환된 데이터를 CSV 파일로 로드하겠습니다:
 
@@ -123,7 +173,18 @@ print(f'{output_file}에 데이터 저장 완료')
 
 모든 단계를 통합한 완전한 스크립트입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 def fetch_weather_data(city: str, api_key: str):
@@ -174,7 +235,17 @@ if __name__ == '__main__':
 
 **추가 자료**
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - OpenWeatherMap API

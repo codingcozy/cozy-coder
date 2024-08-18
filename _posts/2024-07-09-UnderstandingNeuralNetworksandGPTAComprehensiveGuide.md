@@ -3,17 +3,13 @@ title: "신경망과 GPT 이해하기 종합 가이드"
 description: ""
 coverImage: "/assets/img/2024-07-09-UnderstandingNeuralNetworksandGPTAComprehensiveGuide_0.png"
 date: 2024-07-09 10:13
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-UnderstandingNeuralNetworksandGPTAComprehensiveGuide_0.png
 tag: Tech
 originalTitle: "Understanding Neural Networks and GPT: A Comprehensive Guide"
 link: "https://medium.com/@sergeahead29/understanding-neural-networks-and-gpt-a-comprehensive-guide-a309734d4409"
 isUpdated: true
 ---
-
-
-
-
 
 Neural Network란 무엇인가요?
 
@@ -24,7 +20,18 @@ Neural Network은 인간의 두뇌에서 영감을 받은 계산 모델입니다
 Neural Network의 변형
 Neural Network의 종류는 다양하며, 각각이 이미지 인식, 자연어 처리 등의 특정 작업을 위해 설계되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 숨겨진 층들
 신경망은 실제 연산이 이루어지는 숨겨진 층을 포함한 여러 층으로 구성됩니다. 예를 들어, 간단한 신경망은 각각 16개의 뉴런을 가진 두 개의 숨겨진 층을 가질 수 있습니다. 한 층의 뉴런 활성화는 다음 층의 뉴런 활성화를 결정하며, 이를 통해 네트워크가 복잡한 패턴을 학습할 수 있습니다.
@@ -36,7 +43,18 @@ Neural Network의 종류는 다양하며, 각각이 이미지 인식, 자연어 
 생성적
 GPT는 학습한 패턴을 기반으로 새로운 텍스트를 생성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 미리 훈련된 모델은 광범위한 데이터셋에서 훈련되었으며, "미리 훈련된"이란 특정 작업을 위해 추가로 훈련하거나 세밀하게 조정할 수 있다는 뜻입니다.
 
@@ -47,7 +65,18 @@ GPT와 같은 모델은 문장에서 다음 단어를 예측합니다. 단어의
 
 트랜스포머를 통한 데이터 흐름
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1. 암호 해독하기: 토큰화
 
@@ -57,7 +86,18 @@ GPT와 같은 모델은 문장에서 다음 단어를 예측합니다. 단어의
 
 안타깝게도, 컴퓨터는 단어나 그림을 직접 이해하지 못합니다. 그들은 수의 언어에 의존합니다. 여기서 숫자로 변환하는 작업이 필요합니다. 토큰화 후 각 토큰(단어, 픽셀 등)은 기계가 처리할 수 있는 고유 코드로 변환됩니다. 이를 새로운 언어를 위한 암호 해독책을 만든다고 생각해보세요. 각 단어는 특정 숫자로 할당되어 기계가 정보를 이해할 수 있게 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 실수로부터 배우기: 역전파
 
@@ -67,7 +107,18 @@ GPT와 같은 모델은 문장에서 다음 단어를 예측합니다. 단어의
 
 기계 학습 모델은 놀랍도록 복잡한 패턴을 배울 수 있는 수퍼 학생들과 같습니다. 이를 달성하기 위해 수학적 함수의 조합을 사용합니다. 이러한 함수는 데이터 내의 관계와 연결을 분석하는 데 도움이 되는 강력한 도구 역할을 합니다. 모델이 더 많은 정보를 처리함에 따라, 이러한 함수를 사용하여 패턴을 식별하고 정보를 이해하는 데 능숙해집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5. 데이터 테트리스: 성공을 위한 조직
 
@@ -78,7 +129,18 @@ GPT와 같은 모델은 문장에서 다음 단어를 예측합니다. 단어의
 
 ![이미지](/assets/img/2024-07-09-UnderstandingNeuralNetworksandGPTAComprehensiveGuide_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GPT 안의 가중치
 
@@ -88,7 +150,18 @@ GPT3는 1750억 개의 매개변수로 구성되어 있으며, 96개의 레이�
 
 모든 계산은 행렬 곱셈을 포함합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 돌아가서 모델로
 
@@ -113,7 +186,18 @@ E(초밥) + (E(독일) - E(일본)) ≈ E(브랏바르스트)
 
 ![](/assets/img/2024-07-09-UnderstandingNeuralNetworksandGPTAComprehensiveGuide_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주의 메커니즘
 
@@ -126,7 +210,18 @@ E(초밥) + (E(독일) - E(일본)) ≈ E(브랏바르스트)
 헤드와 멀티헤드 주의
 여러 개의 주의 헤드를 통해 모델은 동시에 입력의 다른 부분에 집중할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 쿼리, 키, 및 값
 쿼리 벡터: 관계에 관한 질문을 합니다 (예: 명사 앞에 형용사가 있는가?).
@@ -142,10 +237,22 @@ E(초밥) + (E(독일) - E(일본)) ≈ E(브랏바르스트)
 ![Understanding Neural Networks and GPT: A Comprehensive Guide](/assets/img/2024-07-09-UnderstandingNeuralNetworksandGPTAComprehensiveGuide_4.png)
 
 자기 주의와 교차 주의
+
 - 자기 주의: 모델이 동일한 입력의 다른 부분에 초점을 맞춥니다.
 - 교차 주의: 모델이 텍스트와 이미지 사이와 같이 서로 다른 입력에 초점을 맞춥니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 결론
 

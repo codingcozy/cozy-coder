@@ -3,17 +3,13 @@ title: "데이터 과학에서 통계학의 7가지 활용 방법"
 description: ""
 coverImage: "/assets/img/2024-07-08-ApplicationsofStatisticsinDataScience_0.png"
 date: 2024-07-08 00:06
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-08-ApplicationsofStatisticsinDataScience_0.png
 tag: Tech
 originalTitle: "Applications of Statistics in Data Science"
 link: "https://medium.com/@parpolkarashish/applications-of-statistics-in-data-science-aaf831a46578"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-07-08-ApplicationsofStatisticsinDataScience_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 데이터 시각화
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 통계 역시 데이터 시각화에서 중대한 역할을 합니다. 효과적인 시각화는 종종 통계 요약 및 기법에 의존하여 데이터를 표현하고 주요 통찰을 정확하게 강조합니다. 데이터에 대해 이해하는 가장 간단한 방법은 시각화하는 것입니다.
 
@@ -33,7 +40,18 @@ A/B 테스트는 제품이나 서비스의 두 가지 버전을 비교하는 데
 
 **통계적 사고의 중요성**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 중요 분석
 
@@ -43,7 +61,18 @@ A/B 테스트는 제품이나 서비스의 두 가지 버전을 비교하는 데
 
 비즈니스와 연구에서의 정보 기반 의사 결정은 통계적 증거에 의존합니다. 통계는 불확실성 하에서의 결정을 합리적인 근거로 제공하여 실수의 위험을 줄이고 결과를 향상시킵니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결과 전달
 

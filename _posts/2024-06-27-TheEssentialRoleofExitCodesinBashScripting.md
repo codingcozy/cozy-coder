@@ -3,17 +3,13 @@ title: "Bash 스크립트에서 Exit Code의 필수 역할"
 description: ""
 coverImage: "/assets/img/2024-06-27-TheEssentialRoleofExitCodesinBashScripting_0.png"
 date: 2024-06-27 18:35
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-27-TheEssentialRoleofExitCodesinBashScripting_0.png
 tag: Tech
 originalTitle: "The Essential Role of Exit Codes in Bash Scripting"
 link: "https://medium.com/devops-dev/the-essential-role-of-exit-codes-in-bash-scripting-ca87b03340b2"
 isUpdated: true
 ---
-
-
-
-
 
 ## 파트 4: if 문과 함께 종료 코드 사용하기, 종료 코드를 강제로 조작하기.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 리눅스 및 유닉스와 유사한 시스템에서는 종료 코드(exit code)란 명령어나 스크립트가 완료된 후에 반환되는 숫자 값입니다. 해당 코드는 명령어나 스크립트 실행의 성공 또는 실패를 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 몇 가지가 있습니다:
 
@@ -36,7 +43,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-27-TheEssentialRoleofExitCodesinBashScripting_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 #!/bin/bash
@@ -48,8 +66,18 @@ sudo apt install $app
 echo "The installation status for $app is: $?"
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-06-27-TheEssentialRoleofExitCodesinBashScripting_3.png)
 
@@ -76,9 +104,18 @@ else
 fi
 ```
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-27-TheEssentialRoleofExitCodesinBashScripting_4.png)
 
@@ -88,8 +125,18 @@ fi
 
 ![이미지](/assets/img/2024-06-27-TheEssentialRoleofExitCodesinBashScripting_5.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 스크립트는 일반적인 apt 오류가 해당 패키지를 찾을 수 없다고 말하더라도 "curly was installed"를 출력합니다.
 
@@ -99,7 +146,18 @@ fi
 
 "exit" 키워드를 사용하여 스크립트가 특정 종료 코드로 실행되도록 강제할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 #!/bin/bash
@@ -119,7 +177,18 @@ echo "Hi"
 
 exit 문은 설정한 값에 관계없이 스크립트 실행을 종료합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비슷하게, 종료 코드를 0으로 설정했을 경우에는 명령 실패에도 상태가 0이 됩니다.
 
@@ -139,7 +208,18 @@ echo "안녕"
 
 if 블록 내부에서의 종료도 블록만 종료하는 것이 아니라 전체 스크립트를 종료합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 a=5 # try 7
@@ -162,8 +242,18 @@ echo "the end"
 
 이상으로 모두 설명했습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 참고 자료: LearnLinuxTV
 

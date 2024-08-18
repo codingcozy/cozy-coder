@@ -3,17 +3,13 @@ title: "구글의 오픈 소스 모델 Gemma 2 출시"
 description: ""
 coverImage: "/assets/img/2024-06-30-TheOpenSourceModelGemma2byGoogleisHere_0.png"
 date: 2024-06-30 19:12
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-30-TheOpenSourceModelGemma2byGoogleisHere_0.png
 tag: Tech
 originalTitle: "The Open Source Model Gemma 2 by Google is Here!"
 link: "https://medium.com/ai-advances/the-open-source-model-gemma-2-by-google-is-here-b002389d65ef"
 isUpdated: true
 ---
-
-
-
-
 
 취약하지만 접근성이 높은 LLM입니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 인공 지능 분야는 대규모 언어 모델(LLM)의 능력이 폭발적으로 증가했습니다… 대규모 데이터셋으로 훈련된 이 복잡한 시스템들은 인간과 유사한 텍스트를 이해하고 생성하는 놀라운 능력을 보여주며, 한 때 인간 지능의 독점 영역으로 여겨졌던 경계를 넘어섰습니다. 그렇지만!!! 이러한 진전은 종종 엄청난 계산 리소스 비용을 지불해야 했기에 많은 연구원과 개발자에게는 액세스가 제한되는 문제가 있었습니다. 이 맥락에서 구글이 개발한 Gemma 2가 소개됩니다. Gemma 2는 경쟁력 있는 성능을 실용적인 크기 내에서 제공하기 위해 섬세하게 설계된 새로운 세대의 오픈 소스 LLM이며, 강력한 인공 지능 도구에 대한 접근성을 더 쉽게 만들어줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 알고 싶으신가요? 만약 그렇다면, 여기 있어요:
 
@@ -38,7 +45,18 @@ isUpdated: true
 
 Gemma 2는 단일 모델이 아니라 특정 계산 제약 조건에 맞게 맞춘 여러 모델로 이루어진 패밀리입니다. 현재 라인업에는 90억과 270억 개 파라미터 모델이 포함되어 있으며, 곧 20억 개 파라미터 모델이 출시될 예정입니다. 이 범위는 개발자들이 자원 및 애플리케이션 요구사항에 가장 적합한 모델을 선택할 수 있도록 유연성을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 건축 혁신: 효율의 기반 요소들
 
@@ -51,8 +69,18 @@ Gemma 2는 단일 모델이 아니라 특정 계산 제약 조건에 맞게 맞�
 
 "Gemma 2"의 모든 특징을 다시 한번 알아보겠습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-30-TheOpenSourceModelGemma2byGoogleisHere_1.png)
 
@@ -62,8 +90,18 @@ LLM 교육은 기본적으로 다음 토큰 예측에 의존하며, 모델은 �
 
 현명한 선생님으로부터 배우는 학생을 상상해보십시오. 학생이 선생님의 행동을 그대로 흉내 내는 대신, 학생은 선생님의 추론과 사고 과정을 이해함으로써 더 깊은 통찰을 얻게 됩니다. 비슷하게, 지식 증류에서는 더 큰 사전 훈련된 "선생님" 모델로부터 더 작은 "학생" 모델이 배우게 됩니다. 학생 모델은 다음 토큰을 예측하는 것뿐만 아니라 선생님이 예측한 모든 가능한 다음 토큰에 대한 확률 분포를 근사화하는 방식으로 교육됩니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 접근 방식은 중요한 장점을 제공합니다:
 
@@ -75,17 +113,39 @@ LLM 교육은 기본적으로 다음 토큰 예측에 의존하며, 모델은 �
 
 Gemma 2는 엄격한 기준에 따라 빛을 발하며, 유사한 크기의 다른 오픈 모델을 지속적으로 능가하고 규모가 훨씬 큰 모델에도 도전합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-30-TheOpenSourceModelGemma2byGoogleisHere_2.png)
 
-당연히 현재의 최첨단 모델인 GPT-4o와 Claude 3.5 Sonnet과는 비교할 수 없습니다. GPT-4o와 Claude 3.5 Sonnet은 각각 HumanEval인 python 코딩의 벤치마크에서 90.2% 및 92.0%와 같이 인상적인 값을 달성할 수 있습니다. 또한, 3.5 Sonnet은 학교 수학의 벤치마크인 GSM8K에서 0-shot 방식으로 96.4%의 성과를 보여줍니다. 
+당연히 현재의 최첨단 모델인 GPT-4o와 Claude 3.5 Sonnet과는 비교할 수 없습니다. GPT-4o와 Claude 3.5 Sonnet은 각각 HumanEval인 python 코딩의 벤치마크에서 90.2% 및 92.0%와 같이 인상적인 값을 달성할 수 있습니다. 또한, 3.5 Sonnet은 학교 수학의 벤치마크인 GSM8K에서 0-shot 방식으로 96.4%의 성과를 보여줍니다.
 
 그러나, Gemma 2의 강점은 접근성과 현실성에 있습니다. 더 작은 모델 크기로 인해 보다 넓은 하드웨어 범위에 배포할 수 있어, 자원이 제한된 개발자와 연구자들에게 혜택을 줄 수 있습니다.
 
 # 책임과 안전: 윤리적 필수성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LLM의 잠재적인 영향은 책임 있는 개발과 배포에 강한 헌신이 필요합니다. Gemma 2는 안전과 윤리 고려 사항을 핵심으로 구축되었습니다.
 
@@ -97,6 +157,17 @@ LLM의 잠재적인 영향은 책임 있는 개발과 배포에 강한 헌신이
 
 Gemma 2는 오픈 LLM 기술의 상쾌한 바람으로, 첨단 성능, 실용적 효율성, 책임 있는 인공지능에 대한 강력한 헌신의 조합을 제공합니다: 이 강력한 도구들에 대한 이용을 민주화함으로써, Gemma 2는 연구 및 교육부터 콘텐츠 제작에 이르기까지 다양한 분야에서 혁신의 새로운 물결을 촉진할 수 있습니다. 사용하려면, 모델의 가중치는 예상대로 Hugging Face에서 이용 가능합니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 멋진 마크다운 작성하셨네요! 부담 갖지 마시고 계속 찾아뵙세요.

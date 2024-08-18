@@ -3,18 +3,13 @@ title: "LLM 여행 개념 증명부터 제품화까지"
 description: ""
 coverImage: "/assets/img/2024-06-19-AnLLMJourneyFromPOCtoProduction_0.png"
 date: 2024-06-19 19:40
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-AnLLMJourneyFromPOCtoProduction_0.png
 tag: Tech
 originalTitle: "An LLM Journey: From POC to Production"
 link: "https://medium.com/cyberark-engineering/an-llm-journey-from-poc-to-production-6c5ec6a172fb"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![LLM Journey](/assets/img/2024-06-19-AnLLMJourneyFromPOCtoProduction_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 LLM을 사용할 때 POC를 작성하는 것은 쉽지만, 실제로 탄생 가능한 제품을 만드는 것은 어려운 작업임을 빨리 깨닫게 될 것이다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 이 상황에 공감한다면, 이 게시물이 흥미로울 수 있습니다.
 
@@ -35,7 +40,18 @@ LLM을 사용할 때 POC를 작성하는 것은 쉽지만, 실제로 탄생 가�
 
 ## 동기 부여 찾기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 복잡한 제품들과 방대한 양의 정보들이 있는 세상에서, 우리 고객들은 종종 길을 잃기도 합니다. 때로 제품에서 기본 작업을 수행하려면 많은 문서 페이지를 읽고, 제품의 UI 페이지를 탐색하거나 로그, 보고서 및 기타 원시 자료를 분석해야 하는 경우도 있습니다.
 
@@ -45,7 +61,18 @@ LLM을 사용할 때 POC를 작성하는 것은 쉽지만, 실제로 탄생 가�
 
 ## 목표 선언
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 경우 프로젝트 목표는 고객이 제공한 자연어 (NL)를 사용하여 제품에 대한 작업을 수행하는 것이었습니다.
 
@@ -55,7 +82,18 @@ LLM을 사용할 때 POC를 작성하는 것은 쉽지만, 실제로 탄생 가�
 
 프로젝트 목표를 선언한 후 POC 단계에 도달합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 POC(Port of Call)의 목적은 우리가 가진 아이디어를 실제로 실행할 수 있는지 확인하는 것입니다.
 
@@ -65,7 +103,18 @@ POC(Port of Call)의 목적은 우리가 가진 아이디어를 실제로 실행
 
 우리는 입력 데이터를 받아 논리적 그룹(서비스)으로 처리하고, 사용자의 요청과 수행 방법에 대한 몇 가지 지침이 포함된 프롬프트와 함께 LangChain 라이브러리로 로드하는 엔진을 작성했습니다. 우리는 LangChain 체인, 도구 및 에이전트를 사용하여 이 작업을 수행했으며, OpenAI의 기능 호출 기능도 사용했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LangChain 도구 및 에이전트에 대한 자세한 내용은 여기에서 확인할 수 있어요.
 
@@ -75,7 +124,18 @@ LangChain 도구 및 에이전트에 대한 자세한 내용은 여기에서 확
 
 # 먼저 해야 할 일: 정확성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최초의 POC 작업에 대한 설령 기대가 식어가기 시작했다 해도, LLM 결정 및 응답에서 일부 결함을 발견하기 시작했습니다.
 
@@ -85,7 +145,18 @@ LangChain 도구 및 에이전트에 대한 자세한 내용은 여기에서 확
 
 목표는 이 새로운 비결정론적 세계에서 어떻게 탐색할지를 배우는 것입니다. 다시 말해, 어떻게 더 예측 가능하게 만들고, 어떻게 다양한 응답을 처리할 수 있는지에 대해 알아보는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 팁 몇 가지 있어요:
 
@@ -95,7 +166,18 @@ LLM에게 해야 할 일을 단계별로 설명해야 해요. 입력 내용, 형
 
 아래 Few-Shots Learning 예제에서 프롬프트에 사용 사례를 추가하는 장점을 볼 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 요청을 받으셨군요: "사용자 'user1'의 사용자 세부 정보를 가져와 해당 세부 정보로 새 사용자를 생성하세요".
 
@@ -105,7 +187,18 @@ LLM에게 해야 할 일을 단계별로 설명해야 해요. 입력 내용, 형
 
 가끔은 LLM이 스스로 올바른 조치에 대한 도달 방법을 모를 때가 있습니다. 이런 경우 LLM에게 하나의 툴 세트를 제공하여 LLM이 무엇을 해야 하는지 확신이 없을 때 사용할 수 있습니다. 이런 것은 LangChain 도구나 OpenAI 함수 호출로 쉽게 처리할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여러분이 사용할 수 있는 다양한 도구 예시를 드리겠습니다:
 
@@ -116,7 +209,18 @@ LLM에게 해야 할 일을 단계별로 설명해야 해요. 입력 내용, 형
 
 다른 제안으로, LLM의 창의성을 제한하여 LLM이 모르는 것들을 추측하는 대신에 명확한 설명을 요청하도록 하는 것이 좋습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, "사용자 이름이 'user1'인 새 사용자를 생성하라"고 요청할 때, API의 매개변수 중 하나는 암호입니다.
 
@@ -126,7 +230,18 @@ LLM은 Password123이라는 생성된 비밀번호로 사용자를 만들려고 
 
 이제 우리의 모든 사용 사례를 지원하고 "happy path"에서 매우 잘 수행하는 엔진을 만들었습니다. 그런데 오류 흐름은 어떠한가요? 예외적인 경우는 어떠한가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 처리 방법에 대한 몇 가지 아이디어가 있습니다:
 
@@ -138,7 +253,18 @@ LLM은 Password123이라는 생성된 비밀번호로 사용자를 만들려고 
 
 “'user1'이라는 사용자를 생성하세요.”
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LLM(링크드리스트 매니저)는 이 사용자 생성을 요청할 수 있습니다. 사용자에 대한 자동 생성 설명은 "이는 관리자 사용자입니다!"와 같이 생성됩니다. 이 경우, 제품이 '!'의 사용이 불법적이라는 오류를 반환할 수 있습니다. 오직 알파벳과 숫자 값만 허용된다는 에러 메시지를 읽고, 유효하지 않은 문자를 포함하지 않는 설명을 사용하여 자동으로 수정하도록 LLM에 지시할 수 있습니다.
 
@@ -148,7 +274,18 @@ LLM(링크드리스트 매니저)는 이 사용자 생성을 요청할 수 있�
 
 제품 시스템에 인증하려는 우리가 사용하는 토큰이 만료되었을 수 있습니다. 이 경우, 제품이 "만료된 토큰"이라는 오류를 반환합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 LLM에게 인증 문제를 처리하고 특별한 메시지를 반환하도록 지시할 수 있어서 토큰을 자동으로 새로 고치고 요청을 다시 시도할 수 있습니다.
 
@@ -158,7 +295,18 @@ LLM(링크드리스트 매니저)는 이 사용자 생성을 요청할 수 있�
 
 ## 엔진을 호스팅하는 위치
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 우리에게 아주 쉬운 결정이었습니다. SaaS를 지원하고 있기 때문에 이것이 우리의 최상의 선택입니다.
 
@@ -168,7 +316,18 @@ LLM(링크드리스트 매니저)는 이 사용자 생성을 요청할 수 있�
 
 우리는 기능 호출 기능을 적극 활용하고 있는 OpenAI GPT 모델을 사용했는데, 이 모델이 최상의 결과를 제공했습니다. 일부 비교를 거친 후, 우리는 이 모델을 호스팅하는 가장 좋은 방법은 Azure OpenAI를 사용하는 것이라는 결론에 도달했습니다. 따라서 이 프로젝트는 두 개의 클라우드 제공업체를 기반으로 구축되었습니다 — 하지만 이는 전혀 문제가 되지 않습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 배포 전략 선택
 
@@ -178,7 +337,18 @@ LLM(링크드리스트 매니저)는 이 사용자 생성을 요청할 수 있�
 
 이것이 우리가 다음 도전에 직면하게 되는 이유입니다...
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## LLM 엔진을 무상태(Stateless) 및 서버리스(Serverless)로 만들기
 
@@ -188,7 +358,18 @@ LLM 엔진을 작성할 때, "세션" 또는 "대화"라는 개념에 마주치�
 
 Step 1) 세션 또는 대화 기록을 추출합니다. 과거 메시지를 고려하도록 LLM에게 전달하려면 대화 기록을 전달해야 합니다. 대화 기록은 별도의 위치에 유지되어 있어야 하며, 필요할 때 로드되어 프롬프트 내에 포함되어야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Step 2) LangChain 상태를 추출하세요. LangChain 라이브러리는 에이전트와 도구를 함께 사용하여 설계상 상태를 유지합니다. 메모리에 여러 가지를 보관하여 계속 진행하는 데 도움을 주거나, 현재까지 무슨 일이 있었는지 등의 힌트를 제공합니다. 우리가 마주한 실제 예시 중 하나는 "사용자 명확화 도구"를 사용하는 것입니다: LangChain이 이 도구를 사용하기로 결정하면 명확화를 위해 나가고, 그 후에 정확히 같은 위치에서 정확히 같은 상태로 계속해야 합니다.
 
@@ -198,7 +379,18 @@ Step 2) LangChain 상태를 추출하세요. LangChain 라이브러리는 에이
 
 Step 3) 프로젝트/어플리케이션의 비-LLM 상태를 추출하세요. LLM과 관련이 없는 상태가 있다면, 필요할 때 추출하고 로드해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 엔진 워커 플로우는 다음과 같습니다:
 
@@ -208,7 +400,18 @@ Step 3) 프로젝트/어플리케이션의 비-LLM 상태를 추출하세요. LL
 
 # 보안, 보안, 보안
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 알겠어요, 이제 무서운 부분에 도착했네요.
 
@@ -218,7 +421,18 @@ Step 3) 프로젝트/어플리케이션의 비-LLM 상태를 추출하세요. LL
 
 먼저, LLMs를 위한 OWASP Top 10에 익숙해지는 것이 항상 좋은 생각입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제 경험을 토대로 몇 가지 추가적인 팁을 전해드릴게요:
 
@@ -228,7 +442,18 @@ LLMs에서 탈옥 개념은 LLM 프로젝트의 기본 기능 및 안전장치�
 
 아래에 몇 가지 아이디어가 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시스템 프롬프트를 사용하여 감옥 탈출을 피하기 위한 규칙을 LLM에 제공해보세요. 시스템 프롬프트 규칙은 사용자 프롬프트 규칙보다 더 심각하게 취급되며, 그것들은 무시되는 경우가 적습니다. 이 방법으로도 100%의 보호는 제공되지는 않습니다.
 
@@ -236,7 +461,18 @@ LLM의 기능을 제한하기 위해 화이트리스트 테크닉을 사용해�
 
 LLM 기능이 LangChain 도구를 사용한다면, 각 요청에 대해 사용하는 도구 중 하나가 확실히 사용되도록 할 수 있습니다. 이렇게 하면 요청이 내장 기능과 관련이 있는지 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 두 가지 예시가 있어요:
 
@@ -246,7 +482,18 @@ LLM 기능이 LangChain 도구를 사용한다면, 각 요청에 대해 사용�
 
 이것은 사용자 기능 API를 사용하는 도구를 이용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 요청을 허용할 수 있어요.
 
@@ -256,7 +503,18 @@ LLM 기능이 LangChain 도구를 사용한다면, 각 요청에 대해 사용�
 
 이 질문에 대한 답변을 위해 프로젝트에서 어떤 도구도 사용할 수 없지만, LLM은 자체 지식으로 답변하는 방법을 알고 있어요. 이 요청은 차단해야 해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 팁 #2: 모델 접근을 보호하세요
 
@@ -266,7 +524,18 @@ LLM 서비스를 호스팅하고 제공하는 것은 비용이 많이 들 수 �
 
 ## 팁 #3: 모욕적인 응답 차단하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신의 LLM 프로젝트가 고객을 욕하고 모욕하는 것을 상상해 보세요. 악몽 같죠? 이러한 시나리오를 피하기 위해 우리는 최선을 다해야 합니다.
 
@@ -277,7 +546,18 @@ LLM 서비스를 호스팅하고 제공하는 것은 비용이 많이 들 수 �
 
 ## 팁 #4: LLM 엔진에 제어점/훅을 추가하세요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LLM이 여러 작업을 차례대로 실행해야 하는 상황이 있다고 가정해 봅시다. 작업이 의미 있는지 확인하기 위해 "점검 포인트"를 추가하면 좋을 것입니다.
 
@@ -287,7 +567,18 @@ LLM이 여러 작업을 차례대로 실행해야 하는 상황이 있다고 가
 
 이 경우, API를 생성한 후 실행하기 전에 주요 제어 포인트가 발생합니다. API, 매개변수를 검증하고 입력을 사용하여 즉시 주입을 방지하기 위해 내용을 정리할 수 있습니다. 다른 제어 포인트는 결과를 고객에게 반환하기 전에 발생할 수 있습니다. 응답의 내용과 형식을 검증할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 팁 #5: 평소 보안 가이드라인을 소홀히 하지 마세요
 
@@ -299,7 +590,18 @@ LLM이 여러 작업을 차례대로 실행해야 하는 상황이 있다고 가
 - 테넌트 격리. 항상 사용하던 것과 같은 테넌트 격리 보호를 유지하세요. 새로운 LLM 프로젝트가 중요 정보에 액세스할 수 있는 벽구멍이 되지 않도록 주의하세요.
 - 방화벽 및 쓰로틀링. 받는 요청의 수를 제어하세요. 프로젝트가 남용되지 않도록 주의하세요. LLM이 부담을 견딜 수 있는지 확인하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 고려해야 할 다른 사항
 
@@ -309,7 +611,18 @@ LLM이 여러 작업을 차례대로 실행해야 하는 상황이 있다고 가
 
 ## 피드백
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신이 LLM 프로젝트가 프로덕션 환경에서 잘 작동하는지 어떻게 알 수 있을까요? 고객이 결과에 만족했는지 어떻게 알 수 있을까요? 프로젝트를 계속 향상시키기 위해 결과를 따르고 평가할 수 있는 피드백 메커니즘을 고려하는 것이 현명할 수도 있겠죠.
 
@@ -319,7 +632,18 @@ LLM이 여러 작업을 차례대로 실행해야 하는 상황이 있다고 가
 
 다음 사항을 고려해 보시기 바랍니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - LLM 프로젝트의 기본 기능을 커버하는 테스트를 추가해보세요. 이번 테스트는 여태 익숙했던 것과는 다를 수 있어요 (새롭고 확정되지 않은 세상을 탐험한다고 언급한 적이 있죠?). 예를 들어, 정확한 단어 일치를 사용할 수 없을 수도 있어요. 대신에 중요한 기능을 테스트해보세요. 우리 프로젝트에서는 사용 사례를 제공한 다음 올바른 API가 선택되고 주요 매개변수가 올바르게 설정되었는지 확인해야 해요.
 - 자체 LLM 엔진을 평가하기 위해 LLM을 활용해보세요. LLM 평가자는 사용 사례를 생성하고 예측을 제공한 다음 실제 결과와 비교할 수 있어요. 참 멋지죠?
@@ -330,7 +654,18 @@ LLM이 여러 작업을 차례대로 실행해야 하는 상황이 있다고 가
 
 이에는, AI/Gen-AI를 사용하기 위해 고객으로부터 동의를 얻는 것, LLM을 훈련시키기 위해 고객 데이터를 사용하지 않는 것, 대화에 관한 정보를 유지하지 않도록 LLM 호스팅 플랫폼을 어떻게 시행할 것인지, 규정 준수 등이 포함돼요 (예: GDPR 등).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 여정의 끝
 
@@ -343,6 +678,17 @@ LLM이 여러 작업을 차례대로 실행해야 하는 상황이 있다고 가
 - 엔진 워커. AWS Lambda에 호스팅되어 있습니다. 처리된 데이터와 상태를 로드하고, 우리의 LLM을 사용하여 관련 API 요청을 생성하고 제품에서 작업을 수행합니다.
 - 피드백 워커. AWS Lambda에 호스팅되어 있습니다. 세션 피드백을 수집하고 저장하며, 세션 상태를 초기화합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 이것은 우리 여행의 끝입니다. 아니면 이제 막 시작인 걸까요? ☺

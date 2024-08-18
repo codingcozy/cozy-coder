@@ -3,17 +3,13 @@ title: "리눅스에서 CPU, 메모리, 스토리지 정보를 얻기 위한 기
 description: ""
 coverImage: "/assets/img/2024-06-23-BasicSystemCommandstogetCPUMemoryandStoragedetailsinLinux_0.png"
 date: 2024-06-23 15:21
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-BasicSystemCommandstogetCPUMemoryandStoragedetailsinLinux_0.png
 tag: Tech
 originalTitle: "Basic System Commands to get CPU, Memory, and Storage details in Linux"
 link: "https://medium.com/devops-engineering-on-cloud/basic-system-commands-to-get-cpu-memory-and-storage-details-in-linux-9ee7f2778749"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-06-23-BasicSystemCommandstogetCPUMemoryandStoragedetailsinLinux_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 시작해봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 컴퓨터의 핵심 구성 요소 개요
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-23-BasicSystemCommandstogetCPUMemoryandStoragedetailsinLinux_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Linux에서 lscpu 명령어를 사용하여 CPU 세부 정보 가져오기
 
@@ -43,7 +61,18 @@ lscpu는 Linux에서 CPU 구성에 대해 알아보는 데 필수적인 명령�
 
 Linux의 명령줄 유틸리티 "lscpu"는 시스템의 CPU 정보를 가져오는 데 사용됩니다. "lscpu" 명령어는 CPU 아키텍처 정보를 "sysfs" 및 /proc/cpuinfo 파일에서 가져와 터미널에 표시합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-23-BasicSystemCommandstogetCPUMemoryandStoragedetailsinLinux_3.png" />
 
@@ -53,8 +82,18 @@ Linux의 free 명령은 컴퓨터의 RAM 사용량을 전체적으로 확인하�
 
 아래 그림에서 제어 인수를 사용하여 free 명령을 사용할 수 있습니다.👇🏻
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Free Command Output 1](/assets/img/2024-06-23-BasicSystemCommandstogetCPUMemoryandStoragedetailsinLinux_4.png)
 
@@ -64,20 +103,41 @@ This is what the output to the free command looks like in the Linux terminal.
 
 If you want the human-readable output of the free command you can use the `-h` argument along with the `free` command.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-free -h
+free - h;
 ```
 
 ![Storage Details](/assets/img/2024-06-23-BasicSystemCommandstogetCPUMemoryandStoragedetailsinLinux_6.png)
 
 # Linux에서 df를 사용하여 저장소 세부 정보 가져오기
 
-Linux의 df 명령어는 각 파일이 존재하는 파일 시스템에 대한 정보나 기본적으로 모든 파일 시스템에 대한 정보를 표시하는 데 사용됩니다. 일반적인 용어로 표현하면, df 프로그램은 하드 디스크나 CD, DVD 및 플래시 드라이브를 포함한 모든 하드디스크 또는 마운트된 장치에서 데이터를 검색하는 데 도움이 됩니다.  
+Linux의 df 명령어는 각 파일이 존재하는 파일 시스템에 대한 정보나 기본적으로 모든 파일 시스템에 대한 정보를 표시하는 데 사용됩니다. 일반적인 용어로 표현하면, df 프로그램은 하드 디스크나 CD, DVD 및 플래시 드라이브를 포함한 모든 하드디스크 또는 마운트된 장치에서 데이터를 검색하는 데 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리눅스 터미널에서 다음 명령을 실행하여 df 명령의 전체 사용법을 확인할 수 있어요.
 
@@ -89,8 +149,18 @@ df --help
 
 만약 인간이 읽기 쉬운 형식으로 출력을 원하면 Linux에서 `df -h` 명령을 사용할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-23-BasicSystemCommandstogetCPUMemoryandStoragedetailsinLinux_8.png)
 
@@ -102,8 +172,18 @@ df -h .
 
 ![image](/assets/img/2024-06-23-BasicSystemCommandstogetCPUMemoryandStoragedetailsinLinux_9.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Linux에서 du를 사용하여 디스크 사용량 세부 정보 가져오기
 
@@ -113,7 +193,18 @@ Linux에서 du 명령어는 디스크 사용량을 가져오는 데 사용됩니
 
 ![이미지](/assets/img/2024-06-23-BasicSystemCommandstogetCPUMemoryandStoragedetailsinLinux_10.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 du 명령어의 출력 결과는 아래 이미지와 같을 것입니다.
 
@@ -127,7 +218,18 @@ du -sh *
 -h, --human-readable   사람이 읽을 수 있는 형식으로 크기 출력 (예: 1K 234M 2G)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래와 같은 결과가 출력됩니다👇🏻
 
@@ -137,7 +239,18 @@ du -sh *
 
 du 명령어와 sort 명령어를 사용하여 Linux 파일 시스템에서 저장 용량을 가장 많이 사용하는 파일을 해결할 수 있습니다. du 명령어의 출력을 sort 명령어로 연결하는 방식으로 이 작업을 수행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 du -s * | sort -n
@@ -149,7 +262,18 @@ du -s * | sort -n
 
 # Windows에서 du를 사용하여 디렉터리의 저장 세부 정보 이해하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 비디오 타임 스탬프에서 윈도우의 디렉토리 저장소 세부 정보에 대한 설명을 확인하실 수 있어요.
 
@@ -161,7 +285,18 @@ du -s * | sort -n
 du -sh .
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리눅스 터미널에서 위 명령을 실행할 때 권한 관련 문제가 발생하면 다음 명령을 사용하여 'Operation not permitted' 메시지를 무시할 수 있습니다.
 
@@ -173,7 +308,18 @@ du -sm * 2>/dev/null
 
 위 출력을 sort 명령에 파이핑하여 결과를 오름차순으로 정렬할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 du -sm * 2>/dev/null | sort -n
@@ -187,7 +333,18 @@ du -sm * 2>/dev/null | sort -n
 find [STRING] -type f -exec du -m {} +;
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 명령어에 | sort -n을 추가하여 출력을 정렬할 수도 있습니다.
 

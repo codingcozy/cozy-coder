@@ -3,17 +3,13 @@ title: "정적 SPA Leptos, Dioxus, Nextjs 비교 탐구"
 description: ""
 coverImage: "/assets/img/2024-07-30-StaticSPAsExplorationofLeptosDioxusandNextjs_0.png"
 date: 2024-07-30 17:21
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-30-StaticSPAsExplorationofLeptosDioxusandNextjs_0.png
 tag: Tech
 originalTitle: "Static SPAs Exploration of Leptos, Dioxus, and Nextjs"
 link: "https://medium.com/@codethoughts/static-spas-exploration-of-leptos-dioxus-and-next-js-da2f00ae8f61"
 isUpdated: true
 ---
-
-
-
-
 
 내가 좋아하는 프론트엔드 배포 방법 중 하나는 모든 경로를 정적으로 미리 생성한 다음 각 경로가 상호 작용에 필요로 하는 종속성을 로드하도록 하는 것입니다.
 
@@ -26,40 +22,73 @@ isUpdated: true
 
 이 게시물에서는 이 구성을 어떻게 설정하고 몇 가지 다른 프레임워크를 비교할 수 있는지 알아보겠습니다. 자세한 내용에 들어가기 전에 전반적인 결과부터 시작해 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-30-StaticSPAsExplorationofLeptosDioxusandNextjs_0.png" />
 
-*: WASM에서 청킹 지원은 일반적으로 부족하지만, 최근에 이에 대한 발전이 있었습니다 (wasm-bindgen#3939 참조)
+\*: WASM에서 청킹 지원은 일반적으로 부족하지만, 최근에 이에 대한 발전이 있었습니다 (wasm-bindgen#3939 참조)
 
-**: Dioxus 지원은 변동이 심해 정적 생성을 지원하는 방식이 계속 바뀌고 개선 중이며, 현재 문서와 예제가 작동하지 않는 상태입니다 (dioxus#2587로 추적됨)
+\*\*: Dioxus 지원은 변동이 심해 정적 생성을 지원하는 방식이 계속 바뀌고 개선 중이며, 현재 문서와 예제가 작동하지 않는 상태입니다 (dioxus#2587로 추적됨)
 
 아직 "정적 SPA"가 정확히 무엇인지 애매하다면, Next.js를 사용하여 예제를 설정해보겠습니다. 이는 Next.js에서 기본적으로 지원하는 기능입니다. 이 용어는 약간 복잡하며, React는 여전히 렌더링이 컴파일 시에만 발생하는 경우에도 여전히 SSR로 표시할 수 있다고 생각합니다. Next.js에서는 이를 페이지 라우터에서 SSG로 부르고 있으며, 최신 앱 라우터에서는 혼란스러운 역할을 하는 이를 정적 Export로 변경하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 프레임워크에서 이를 어떻게 달성하는지 비교해 보겠습니다:
 
 - Next.js SSG
-∘ 기본 Next.js 프로젝트 확장
-∘ SSG 구성
-∘ JavaScript 비활성화 상태에서 테스트
-∘ 선택적 구성
-∘ 추가 읽을거리
+  ∘ 기본 Next.js 프로젝트 확장
+  ∘ SSG 구성
+  ∘ JavaScript 비활성화 상태에서 테스트
+  ∘ 선택적 구성
+  ∘ 추가 읽을거리
 - Leptos SSG
-∘ 기본 Leptos 프로젝트 확장
-∘ SSG 구성
-∘ JavaScript 비활성화 상태에서 테스트
+  ∘ 기본 Leptos 프로젝트 확장
+  ∘ SSG 구성
+  ∘ JavaScript 비활성화 상태에서 테스트
 - Dioxus SSG
-∘ 기본 Dioxus 프로젝트 확장
-∘ SSG 구성
-∘ JavaScript 비활성화 상태에서 테스트 
+  ∘ 기본 Dioxus 프로젝트 확장
+  ∘ SSG 구성
+  ∘ JavaScript 비활성화 상태에서 테스트
 
 [¹]: 적어도 그것이 관심사일 때이고, 앱이 이미 인증 뒤에 있지 않은 경우이며, 이 경우에는 SEO 측면이 전혀 중요하지 않습니다.
 
 [²]: 자산을 생성하고 제공할 수있는 서버가 실행되어야 하는 SSR (서버 측 렌더링)와 달리
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Next.js SSG
 
@@ -80,7 +109,18 @@ $ bunx create-next-app@rc --turbo
 ./next-example에 새 Next.js 앱을 생성 중이에요.
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 next-example 폴더로 이동한 다음 bun run dev를 실행하면 귀여운 작은 시작 페이지를 얻을 수 있어요:
 
@@ -90,7 +130,18 @@ $ bunx create-next-app@rc --turbo
 
 나중에 생성된 것을 실제로 볼 수 있게 하려면, 단순한 시작 페이지 이상의 페이지가 필요해요. 몇 가지 테스트 콘텐츠가 있는 새 페이지를 추가해 보죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 개의 페이지를 설정할 거에요. 메인 페이지의 스타일을 재사용하여, 첫 번째 페이지는 next-example/app/sub-page/page.tsx에 설정할 거에요 (누락된 sub-page 디렉토리를 생성해주세요):
 
@@ -108,9 +159,7 @@ export default function SubPage() {
         {/* 제 컨텐츠 */}
         <h1>SubPage</h1>
         <p>이곳은 상호작용이 있는 서브페이지입니다: {counter}</p>
-        <button onClick={() => setCounter((prev) => prev + 1)}>
-          증가
-        </button>
+        <button onClick={() => setCounter((prev) => prev + 1)}>증가</button>
       </main>
     </div>
   );
@@ -125,9 +174,7 @@ export default function SubPage() {
 import { useState, useEffect } from "react";
 
 export default function AnotherPage() {
-  const [windowHeight, setWindowHeight] = useState<number | undefined>(
-    undefined
-  );
+  const [windowHeight, setWindowHeight] = (useState < number) | (undefined > undefined);
   // 브라우저 API를 호출하기 전에 window 객체가 사용 가능한지 확인해요.
   useEffect(() => {
     setWindowHeight(window.innerHeight);
@@ -149,7 +196,18 @@ export default function AnotherPage() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 두 예제 모두 클라이언트 측에서 발생하는 작업들을 하고 있기 때문에, 우리는 상단에 "use client" pragma를 추가해야 합니다.
 
@@ -178,7 +236,18 @@ export default function Home() {
 
 이제 개발 서버를 실행하여 모든 것이 잘 작동하는지 확인할 수 있습니다. 다음 예제 디렉토리에서 `npm run dev`를 실행하면 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 몇 페이지를 렌더링할 예정이니, 상호작용성과 브라우저 API를 사용해 어떻게 할 지 살펴봅시다.
 
@@ -188,7 +257,18 @@ export default function Home() {
 
 next-example/next.config.mjs 파일을 열고 다음 라인을 추가해주세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /** @type {import('next').NextConfig} */
@@ -219,7 +299,18 @@ Route (app)                              Size     First Load JS
   └ other shared chunks (total)          1.86 kB
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 out/ 폴더에 있는 Next.js에서 생성된 내용을 확인해보세요:
 
@@ -280,11 +371,22 @@ out
 
 - out/index.html: 초기 페이지에 대한 생성된 HTML
 - out/sub-page/index.html: 하위 페이지에 대한 생성된 HTML
-- out/_next/static/chunks/app/sub-page/page-b5ac62c0a67a677a.js: 하위 페이지에 특화된 JavaScript 파일이며 해당 페이지에서만 로드됩니다.
+- out/\_next/static/chunks/app/sub-page/page-b5ac62c0a67a677a.js: 하위 페이지에 특화된 JavaScript 파일이며 해당 페이지에서만 로드됩니다.
 - out/another-page/index.html: 다른 페이지에 대한 생성된 HTML
-- out/_next/static/chunks/app/another-page/page-aa4b7b15eb983969.js: 다른 페이지에 특화된 JavaScript 파일
+- out/\_next/static/chunks/app/another-page/page-aa4b7b15eb983969.js: 다른 페이지에 특화된 JavaScript 파일
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JavaScript를 더 작은 파일 로 나누면 좋아요. 일부는 공유되고 일부는 특정 페이지로, 그렇게 함으로써 사용자들에게 최소한으로 필요한 JavaScript 만로드하게 되어 페이지와 상호 작용할 수 있게 해줘요.
 
@@ -294,7 +396,18 @@ JavaScript를 더 작은 파일 로 나누면 좋아요. 일부는 공유되고 
 
 ![이미지](/assets/img/2024-07-30-StaticSPAsExplorationofLeptosDioxusandNextjs_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 그 다음에 cd next-example/out && bunx simplehttpserver로 정적 파일을 제공할 수 있습니다. 몇 가지 비교를 해보겠습니다. JavaScript를 실행했을 때와 JavaScript를 비활성화했을 때의 결과를 확인해 보겠습니다.
 
@@ -304,7 +417,18 @@ JavaScript를 더 작은 파일 로 나누면 좋아요. 일부는 공유되고 
 
 우리는 또 다른 곳에서 약간의 차이를 발견하는데, JavaScript를 비활성화했을 때 브라우저 높이를 가져 오는 useEffect가 호출되지 않습니다. 이것은 놀라운 것이 아닙니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 것은 정확히 이 방법의 혜택을 보여줍니다: 비용을 지불하지 않고도 SSR의 대부분의 이점을 누릴 수 있습니다. SEO 크롤러는 동적 부분을 제외하고 대부분의 콘텐츠를 읽을 수 있을 것입니다.
 
@@ -314,7 +438,18 @@ JavaScript를 더 작은 파일 로 나누면 좋아요. 일부는 공유되고 
 
 ## 선택 구성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Next.js 웹사이트를 사용자에게 더 나은 경험을 제공하기 위해 몇 가지 추천드리고 싶어요.
 
@@ -326,7 +461,18 @@ $ bun install --dev babel-plugin-react-compiler
 
 다음으로 next-example/next.config.mjs 파일을 업데이트해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /** @type {import('next').NextConfig} */
@@ -349,7 +495,18 @@ export default nextConfig;
 
 그리고:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Leptos SSG
 
@@ -357,7 +514,18 @@ export default nextConfig;
 
 그러나 제가 수정한 하위 경로를 올바르게 생성하는 문제(leptos#2667)가 통합될 때까지 해당 기능이 포함된 브랜치를 사용해야 합니다. 그것이 병합되고 새 릴리스가 이뤄질 때까지 기다리는 것을 추천합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미 cargo-leptos와 cargo-generate가 없는 경우, 먼저 설정해보겠습니다. 그렇게 해서 leptos-rs/start-axum 스타터 템플릿을 사용할 수 있게 됩니다:
 
@@ -374,7 +542,18 @@ $ cargo leptos new --git leptos-rs/start-axum
 🤷   Nightly 기능 사용? · 예
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "leptos-example" 폴더로 이동하여 러스트에서 런타임을 설치하는 것으로 프로젝트 설정을 마무리할 거에요. 컴파일러 타겟을 추가해봅시다:
 
@@ -394,7 +573,18 @@ $ rustup target add wasm32-unknown-unknown
 hash-files = true
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 cd leptos-example을 실행한 후 cargo leptos watch를 실행하면 귀여운 작은 시작 페이지를 볼 수 있어요:
 
@@ -411,7 +601,18 @@ body {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 기본 Leptos 프로젝트 확장
 
@@ -434,9 +635,20 @@ pub fn SubPage() -> impl IntoView {
         <button on:click=on_click>"증가"</button>
     }
 }
-```  
+```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비슷하게, Next.js 페이지와 유사한 leptos-example/src/anotherpage.rs에 설정할 겁니다:
 
@@ -478,7 +690,18 @@ pub mod anotherpage; // 이 줄 추가
 // ...파일의 나머지 부분은 그대로 유지됩니다
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 마지막으로, **leptos-example/src/app.rs** 파일을 편집하여 이러한 페이지들을 링크를 가진 Routes에 추가하십시오. 먼저 이러한 페이지를 가져와주세요.
 
@@ -504,7 +727,18 @@ use crate::anotherpage::AnotherPage; // 이 줄 추가
                 // ...
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로 HomePage 컴포넌트를 확장하여 다음 링크를 추가해 보겠습니다:
 
@@ -528,7 +762,18 @@ fn HomePage() -> impl IntoView {
 
 렌더링할 몇 페이지와 상호 작용 및 브라우저 API를 사용 중이므로 이를 어떻게 처리할지 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## SSG 설정하기
 
@@ -549,7 +794,18 @@ leptos_router = { git = "https://github.com/leptos-rs/leptos", rev = "refs/pull/
 # ...나머지 부분은 그대로 유지됩니다
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 변경 사항을 실제로 적용할 준비가 되었습니다. 첫 번째로 할 일은 Routes를 StaticRoutes로 변경하는 것입니다. leptos-example/src/app.rs 파일을 편집하여 Routes를 다음과 같이 바꿔주세요:
 
@@ -584,8 +840,18 @@ trailing_slash=TrailingSlash::Exact 및 라우트의 /는 Leptos가 파일을 �
 
 또한, 이러한 파일에 대한 출력을 생성하도록 Leptos에게 알려야 합니다. 이를 위해 leptos-example/src/main.rs에 일부 추가적인 import를 업데이트하여 build_static_routes 함수를 호출할 수 있도록 해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 #[cfg(feature = "ssr")]
@@ -614,8 +880,18 @@ building static route:
 # .. 라우트를 빌드하는 것을 본 후 프로세스를 종료하세요
 ```
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희가 생성한 Next.js의 결과물을 target/site/ 폴더에서 살펴보겠습니다:
 
@@ -638,8 +914,18 @@ target/site
 
 JavaScript를 비활성화하여 Chrome에서 사이트를 테스트할 때는 Chrome DevTools를 열고 CMD + Shift + P를 눌러 "Disable JavaScript"라고 입력합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-30-StaticSPAsExplorationofLeptosDioxusandNextjs_4.png" />
 
@@ -649,8 +935,18 @@ JavaScript를 비활성화하여 Chrome에서 사이트를 테스트할 때는 C
 
 저희 하위 페이지는 정확히 같이 보일 것이지만, 자바스크립트가 비활성화 상태일 때 증분 버튼과 상호 작용을 시도하면 당연히 작동하지 않을 것입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 또 하나의 차이를 발견했어요. 특히, JavaScript가 비활성화되면 브라우저 높이 값을 가져오기 위해 create_effect를 호출하지 않을 거예요. 여기서는 놀라울 게 없네요:
 
@@ -660,7 +956,18 @@ Next.js와 매우 유사한 결과!
 
 Rust 기반 프레임워크인 Dioxus를 살펴보며 SSG가 지원되고 어떻게 작동하는지 알아봐요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Dioxus CLI를 설정하는 방법부터 시작해보겠습니다:
 
@@ -678,7 +985,18 @@ $ dx new
 ✔ 🤷   어떻게 CSS를 생성하고 싶나요? · Tailwind
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 TailwindCSS를 선택했다면 기본 스타일이 없을 거에요. dioxus-example/input.css를 개선해보죠. 여기서 Tailwind 스타일이 선택될 거에요. 아래와 같이 보일 거에요:
 
@@ -702,7 +1020,18 @@ body {
 
 만약 TailwindCSS를 선택하지 않았다면 사용했을 대체 dioxus-example/assets/main.css 파일을 안전하게 삭제할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마침내, 나중에 필요한 웹-sys 패키지를 dioxus-example/Cargo.toml의 종속성에 추가할 것입니다:
 
@@ -720,7 +1049,18 @@ web-sys = { version = "0.3", features = ["Window"] }
 
 <img src="/assets/img/2024-07-30-StaticSPAsExplorationofLeptosDioxusandNextjs_5.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [⁴]: https://dioxuslabs.com/learn/0.5/getting_started#create-a-new-project
 
@@ -730,7 +1070,18 @@ web-sys = { version = "0.3", features = ["Window"] }
 
 두 페이지를 설정할 것이며, 첫 번째 페이지는 dioxus-example/src/subpage.rs에 설정됩니다. 이는 해당 Next.js 페이지와 유사합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```rust
 use dioxus::prelude::*;
@@ -779,8 +1130,18 @@ pub fn AnotherPage() -> Element {
 
 이제 dioxus-example/src/main.rs에서 이러한 페이지를 App에 통합 할 수 있습니다. 먼저, 새로운 페이지를 포함하도록 Route enum을 변경하고 기본 블로그 페이지를 삭제하겠습니다:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // ...
@@ -829,7 +1190,18 @@ fn Home() -> Element {
 
 우리는 dioxus-example 디렉토리에서 `dx serve --platform fullstack` 명령을 사용하여 개발 서버를 실행하여 모든 것이 제대로 작동하는지 확인할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 몇 개의 페이지를 렌더링할 예정이니, 상호 작용과 브라우저 API를 사용해서 어떻게 할 지 살펴보겠습니다.
 
@@ -839,7 +1211,18 @@ fn Home() -> Element {
 
 새로운 Dioxus 릴리스가 나올 때까지, 최신 기능을 얻으려면 git에서 CLI를 설치해야 합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 cargo install --git <https://github.com/DioxusLabs/dioxus> dioxus-cli
@@ -860,9 +1243,20 @@ dioxus = { git = "<https://github.com/DioxusLabs/dioxus>", rev = "245003a5d430ab
 # ...파일의 나머지 부분은 동일함
 ```
 
-이제 기본 main 함수를 매우 간단한 것으로 교체하고 default post_server_data 및 get_server_data 함수를 삭제할 수 있습니다. 이제 dioxus-example/src/main.rs 파일은 다음과 같아야합니다:  
+이제 기본 main 함수를 매우 간단한 것으로 교체하고 default post_server_data 및 get_server_data 함수를 삭제할 수 있습니다. 이제 dioxus-example/src/main.rs 파일은 다음과 같아야합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```rust
 #![allow(non_snake_case)]
@@ -920,7 +1314,18 @@ style = ["/tailwind.css"]
 # ...파일의 나머지 부분은 그대로 유지됩니다
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 dx build --platform fullstack --release를 실행하여 생성된 빌드 자산을 검사할 수 있습니다. 그런 다음 dioxus-example 디렉토리에서 바이너리를 실행해보세요:
 
@@ -969,7 +1374,18 @@ static
 └── tailwind.css
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 자바스크립트를 비활성화하여 테스트 중
 
@@ -979,7 +1395,18 @@ static
 
 그런 다음 cd dioxus-example/static으로 이동하여 bunx simplehttpserver를 통해 정적 파일을 제공할 수 있습니다. 자바스크립트 실행 여부에 따른 비교를 해보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 다음은 우리의 시작 페이지입니다. 모든 링크가 작동하고 다른 기능에 변경사항이 없어야 합니다. 인터랙티브한 기능이 없었기 때문에 완전히 동일하게 보여야 합니다.
 
@@ -989,7 +1416,18 @@ static
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Next.js는 확실히 가장 원활한 경로와 SSG에 대한 가장 좋은 지원을 제공했지만, Rust 기반의 프레임워크는 Rust 생태계에 남아있는 것에 헌신한다면 유효한 방법을 보여줍니다.
 
@@ -999,8 +1437,19 @@ Next.js는 확실히 가장 원활한 경로와 SSG에 대한 가장 좋은 지�
 
 ![이미지](/assets/img/2024-07-30-StaticSPAsExplorationofLeptosDioxusandNextjs_7.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-* : WASM에서 청킹 지원이 대체적으로 떨어지지만, 최근에는 그 방향으로 나아가고 있습니다 (wasm-bindgen#3939 참조)
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-** : Dioxus 지원은 현재 변화의 상태에 있으며, 정적 생성을 지원하는 방법이 계속 개선되고 있어서 현재 문서와 예제가 손상되었습니다 (dioxus#2587로 추적 중)
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+- : WASM에서 청킹 지원이 대체적으로 떨어지지만, 최근에는 그 방향으로 나아가고 있습니다 (wasm-bindgen#3939 참조)
+
+\*\* : Dioxus 지원은 현재 변화의 상태에 있으며, 정적 생성을 지원하는 방법이 계속 개선되고 있어서 현재 문서와 예제가 손상되었습니다 (dioxus#2587로 추적 중)

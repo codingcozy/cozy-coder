@@ -3,18 +3,13 @@ title: "제로 비용으로 모바일 배포 파이프라인 구축하기"
 description: ""
 coverImage: "/assets/img/2024-07-17-MobileDeploymentPipelinesfor0_0.png"
 date: 2024-07-17 23:56
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-17-MobileDeploymentPipelinesfor0_0.png
 tag: Tech
 originalTitle: "Mobile Deployment Pipelines for 0"
 link: "https://medium.com/gitconnected/mobile-deployment-pipelines-for-0-f0ec86b2269d"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![이미지](/assets/img/2024-07-17-MobileDeploymentPipelinesfor0_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 CI 파이프라인을 처음으로 구축하는 경우, 이는 새로운 프로젝트에 대한 필수 조건이 되어 당신이 엔지니어로서 불리함을 가져올 수 있어요. 오늘은 사이드 프로젝트에 CI를 설정하는 방법에 대해 보여 드릴게요. 무료로요!
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 부분 I: 패스트레인
 - 부분 II: 앱스토어 커넥트
@@ -37,7 +42,18 @@ CI 파이프라인을 처음으로 구축하는 경우, 이는 새로운 프로�
 
 패스트레인은 빌드 및 배포를 자동화하는 Ruby 스크립트 모음인 오픈소스입니다. 본질적으로 xcodebuild 또는 Gradle 명령어 위에 사용자 친화적인 래퍼로, 표준 워크플로우를 자동화하는 데 도움이 되는 기능입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Fastlane을 설정하려면 문서를 참조해주세요.
 
@@ -47,7 +63,18 @@ Fastlane을 설정하려면 문서를 참조해주세요.
 
 Fastfile에서 구성된 테스트 레인은 더 간단할 수 없습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 desc "각 PR에서 테스트 실행"
@@ -63,19 +90,29 @@ scan은 앱의 주어진 scheme에 대한 테스트를 실행합니다 — 우�
 
 ## fastlane deploy
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 배포 레인은 조금 더 복잡합니다. 인증서를 관리하고 앱을 아카이브하고 App Store Connect에 제출해야 합니다. 다음은 약간 간소화된 형식입니다.
 
 ```js
 desc  "App Store Connect로 앱 배포"
-lane :deploy do 
+lane :deploy do
     match
     gym
     api_key = app_store_connect_api_key()
     deliver(api_key: api_key)
-end 
+end
 ```
 
 거꾸로 진행하면...
@@ -85,8 +122,18 @@ end
 - gym은 앱의 릴리스 변형을 빌드하고 .ipa를 패키지화합니다.
 - match는 인증서와 프로비저닝 프로파일을 설치합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-17-MobileDeploymentPipelinesfor0_2.png)
 
@@ -96,8 +143,18 @@ match는 우리의 지속적 통합에서 첫 번째 주요 어려움을 겪은 
 
 ## fastlane match
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 match 명령어는 팀의 코드 서명 인증서와 프로필의 생성, 저장 및 관리를 자동화하고 통일하는 데 도움을 줍니다. 무엇보다 중요한 것은 CI 머신이 릴리스에 서명할 수 있는 능력을 제공하면서 Git에 자격 증명을 저장할 필요가 없게 합니다.
 
@@ -107,26 +164,46 @@ match 명령어는 팀의 코드 서명 인증서와 프로필의 생성, 저장
 
 <img src="/assets/img/2024-07-17-MobileDeploymentPipelinesfor0_3.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 개인적으로 Google Cloud 저장 모드를 선호합니다. 그 이유는 (1) 비밀을 관리하기 매우 간단하고, (2) 대규모 무료 티어가 제공되며, (3) 대부분의 모바일 개발자가 이미 Firebase를 통해 Google 클라우드 계정을 보유하고 있기 때문이며, (4) 프로젝트 설정이 매우 쉽기 때문입니다.
 
-
 ![이미지](/assets/img/2024-07-17-MobileDeploymentPipelinesfor0_4.png)
-
 
 fastlane match를 작동시키려면 gc_keys.json 파일을 프로젝트 폴더에 넣어두어야 합니다. 이 파일이 소스 관리에서 제외되도록 .gitignore 파일에 추가하는 것이 중요하니 즉시 처리해주세요. 곧이어 이러한 키들을 시스템 CI에 시크릿으로 추가할 것입니다.
 
 이제 fastlane match appstore를 실행하고 App Store Connect 자격 증명을 입력하고 키 저장소에 배포 프로필을 설정할 수 있습니다. fastlane match는 인증서 및 프로필을 생성하고 방금 설정한 Google 클라우드 키 저장소에 저장합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 전체 배포 파이프라인
 
 이제 코드 서명을 설정했으니, 나머지 배포 파이프라인을 작성할 수 있습니다:
 
 ```js
-lane :deploy do 
+lane :deploy do
   match(readonly: true)
   api_key = app_store_connect_api_key(
     key_id: "V4D62Q8UQB",
@@ -149,7 +226,18 @@ end
 
 이전 간소화된 버전에 몇 가지 개선 사항이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - match는 읽기 전용 모드에서 실행 중이며 새 인증서 및 프로필을 생성하지 않아도 되므로 CI 시스템에 권장됩니다.
 - api_key는 App Store Connect API 키를 가져와 배포 단계를 자동화할 수 있게 해줍니다. 다음 섹션에서 모든 것을 설명하겠습니다.
@@ -163,8 +251,18 @@ end
 
 앱을 실제로 배포할 수 있도록 보장하려면 App Store Connect로 이동해야 합니다. 이미 등록되지 않은 경우 지금 추가해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-07-17-MobileDeploymentPipelinesfor0_5.png)
 
@@ -174,8 +272,18 @@ end
 
 ![Image](/assets/img/2024-07-17-MobileDeploymentPipelinesfor0_6.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파일을 .p8 형식으로 다운로드하고 이 파일을 안전한 곳에 저장해주세요.
 
@@ -187,7 +295,18 @@ cat AuthKey_A4D72Q2UQC.p8 | base64
 
 이 인코딩된 API 키를 가져와 App Store Connect 사용자 및 액세스 페이지에 나열된 key_id 및 issuer_id와 함께 Fastlane 스크립트에 추가할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 api_key = app_store_connect_api_key(
@@ -204,7 +323,18 @@ key_content에 들어간 APP_STORE_CONNECT_API_KEY_KEY는 무엇일까요?
 
 이 API 키는 앱을 제출하는 데 사용되므로 보안을 위해 보관하고 소스 제어에서 멀리해야 합니다. 일단 안전한 장소에 base-64로 인코딩된 키를 저장해 두세요. GitHub Actions 설정 시에 비밀을 처리할 때에는 섹션 III에서 다룰 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로컬에서 테스트하려면, base-64로 인코딩된 API 키를 하드 코딩하여 fastlane deploy를 실행해 보세요. 이렇게 하면 레인을 올바르게 실행하고 App Store Connect에 업로드된 앱을 볼 수 있을 거에요. 다만 API 키를 포함한 fastfile을 커밋하지 않도록 주의하세요.
 
@@ -214,7 +344,18 @@ key_content에 들어간 APP_STORE_CONNECT_API_KEY_KEY는 무엇일까요?
 
 모든 가능성을 고려하기 위해 Fastlane 서비스용 앱별 비밀번호를 생성할 수도 있습니다. 이렇게 하면 자동화된 프로세스가 귀하의 App Store Connect 계정으로 인증되게 되죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 appleid.apple.com 에 가서 "로그인 및 보안"을 선택한 다음, "앱별 비밀번호"를 선택하여 하나를 추가하세요.
 
@@ -224,7 +365,18 @@ appleid.apple.com 에 가서 "로그인 및 보안"을 선택한 다음, "앱별
 
 이제 본격적으로 시작할 준비가 되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 파트 III: GitHub Actions
 
@@ -234,7 +386,18 @@ appleid.apple.com 에 가서 "로그인 및 보안"을 선택한 다음, "앱별
 
 우선 하드코딩된 비밀 값을 제거하고 GitHub Actions의 Settings → Secrets and variables → Actions → Repository Secrets에 base-64로 인코딩된 $APP_STORE_CONNECT_API_KEY_KEY를 저장해봐요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-17-MobileDeploymentPipelinesfor0_8.png" />
 
@@ -246,20 +409,42 @@ APP_STORE_CONNECT_API_KEY_KEY: ${secrets.APP_STORE_CONNECT_API_KEY_KEY}
 
 Google Cloud Storage 키에 대해 동일한 작업을 수행해 보죠 - gc_keys.json을 시크릿으로 추가하여 CI가 안전하게 소스 제어에서 사용하지 않으면서 액세스할 수 있도록 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 이것을 잃어버린다고 해도 걱정하지 마세요 — 다시 fastlane match를 실행하여 키, 인증서 및 프로필을 다시 생성할 수 있습니다.
 
 모두를 정리해보면 일반적으로 다음과 같은 4가지 비밀이 있을 것입니다:
+
 - Base-64로 인코딩된 App Store Connect API 키
 - Apple 앱별 비밀번호
 - Google Cloud Storage 버킷 액세스 키
-- Fastlane 세션 자격 증명*
+- Fastlane 세션 자격 증명\*
 
 이제 모든 비밀이 행복하게 저장되었으므로 시작할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-17-MobileDeploymentPipelinesfor0_9.png)
 
@@ -269,8 +454,18 @@ Google Cloud Storage 키에 대해 동일한 작업을 수행해 보죠 - gc_key
 
 하지만 저는 여러분에게 CI 비용이 $0임을 약속했으니 걱정하지 마세요.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로컬 머신을 설정할 수 있어요 — 심지어 표준 개발용 랩톱도 가능합니다! — 자체 호스팅 러너로 설정할 수 있어요. GitHub에서 잘 문서화된 간단한 프로세스에 따라 설정할 수 있어요. 참고로, 공개 repo에서 자체 호스팅 러너를 실행하는 것은 위험할 수 있어요.
 
@@ -280,13 +475,24 @@ Google Cloud Storage 키에 대해 동일한 작업을 수행해 보죠 - gc_key
 
 저희의 자동화 스크립트는 repo의 .github/workflows 폴더에 있어요. 형식은 기존의 .yaml로, 언제 어디서 무엇을 실행할지 정의하고 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```yaml
 name: Test
 on:
   pull_request:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
   test:
@@ -309,7 +515,18 @@ jobs:
 
 위에서 언급했듯이, **runs-on:** 매개변수는 pipeline을 실행할 기계(또는 기계)를 선택할 수 있도록 합니다. self-hosted는 지역 장치를 사용하도록 지정하지만 여기에 태그를 추가하거나 macos-13(또는 다른 버전 번호)를 입력하여 클라우드 호스팅 러너를 요청할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 우리는 언제(예: on: 트리거)와 어디서(runs-on:)를 알게 되었으니, 이제 마침내 무엇을 정의할 수 있습니다. 다음은 테스트 파이프라인에서 실행해야 할 작업을 정의합니다:
 
@@ -321,7 +538,18 @@ jobs:
 
 이 테스트 워크플로를 설정했으므로, 풀 리퀘스트를 생성할 때마다 테스트를 파괴하는 회귀를 만들었는지 여부를 알 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 더 나아가서 고려해볼 사항이 있습니다: 저장소 설정에서 Branches로 이동하여 Branch protection rule을 설정할 수 있습니다. main 브랜치에 병합하기 전에 테스트 동작이 통과되도록 하는 규칙을 강제할 수 있습니다.
 
@@ -331,7 +559,18 @@ jobs:
 
 테스트 워크플로우에서 단일 Fastlane 명령을 실행하는 것이 잘 작동했을 것입니다, 특히 자체 호스팅 러너를 사용했다면.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 배포 워크플로우는 전혀 다른 녀석이에요.
 
@@ -341,7 +580,18 @@ jobs:
 
 시니어들은 CI의 게이트를 막아둔 것이 아니랬어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 Markdown 형식으로 변경했습니다.
 
@@ -352,11 +602,11 @@ jobs:
 ```js
 name: Deploy
 env:
-  FASTLANE_SESSION: ${ secrets.FASTLANE_SESSION }  
+  FASTLANE_SESSION: ${ secrets.FASTLANE_SESSION }
   GOOGLE_CLOUD_KEYS: ${ secrets.GOOGLE_CLOUD_KEYS }
   APP_STORE_CONNECT_API_KEY_KEY: ${ secrets.APP_STORE_CONNECT_API_KEY_KEY }
   FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD: ${ secrets.FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD }
-  
+
 on:
   push:
     branches: [ main ]
@@ -365,7 +615,7 @@ jobs:
   deploy:
     runs-on: self-hosted
     timeout-minutes: 10
-    steps:    
+    steps:
       - uses: actions/checkout@v3
 
       - uses: maxim-lobanov/setup-xcode@v1
@@ -381,7 +631,18 @@ jobs:
 
 이 워크플로우는 매우 유사해 보이며, 많은 동일한 단계가 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 환경을 설정하고 모든 비밀을 가져와서 워크플로우에서 환경 변수로 접근할 수 있도록 했습니다. 이렇게 하면 Fastlane 스크립트에서 비밀을 볼 수 있습니다.
 - 트리거는 이제 push to main으로 설정되어 있어요. 이는 위 워크플로우에서 PR이 병합되면 실행됩니다.
@@ -395,7 +656,18 @@ jobs:
 
 하지만 앞서 말한대로, 이 튜토리얼은 CI 워크플로우를 $0으로 설정하는 데 중점을 두었고, 그 목표를 달성했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 수고가 많았어요! 자체 호스팅 러너에서 배포 워크플로우가 잘 작동 중이에요!
 
@@ -405,6 +677,17 @@ jobs:
 
 Fastlane 및 GitHub Actions를 사용하면 이러한 자동화 기술을 연습할 수 있는 모의실을 제로 달러의 비용으로 만들 수 있어요. 무언가를 배우셨으면 좋겠고, CI를 설정한 적이 없다면 새로운 프로젝트에 적용해보시기를 강력히 추천드려요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 마크다운 형식으로 변경해주세요.

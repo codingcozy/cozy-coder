@@ -3,17 +3,13 @@ title: "왜 매년 이 10일에 데이터 파이프라인이 실패할 것이며
 description: ""
 coverImage: "/assets/img/2024-06-20-WhyYourDataPipelinesWillFailOnThese10DaysEveryYearAndWhatToDoAboutIt_0.png"
 date: 2024-06-20 15:28
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-WhyYourDataPipelinesWillFailOnThese10DaysEveryYearAndWhatToDoAboutIt_0.png
 tag: Tech
 originalTitle: "Why Your Data Pipelines Will Fail On These 10 Days Every Year (And What To Do About It)"
 link: "https://medium.com/pipeline-a-data-engineering-resource/why-your-data-pipelines-will-fail-on-these-10-days-every-year-and-what-to-do-about-it-406a202e9053"
 isUpdated: true
 ---
-
-
-
-
 
 취업 준비 중이세요? 무료 5페이지 프로젝트 기획 안내서를 활용하여 개인 프로젝트를 개발하여 경쟁력을 확보하세요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이 프로그램의 주요 주장은, 인류 문명의 복잡성과 규모에도 불구하고, 대부분의 인프라가 방치되면 30일 이내에 실패할 것이라는 것이었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시간은 자동화된 코드 또는 데이터 엔지니어링 파이프라인에도 유사한 영향을 미칠 수 있어요. 상류 검사를 추가하거나 단위 테스트를 끝없이 견디더라도, 때로는 지구가 계속 회전하고 시간이 선형적으로 흘러가기로 결정했기 때문에 파이프라인이 실패할 수 있어요.
 
@@ -35,7 +42,18 @@ isUpdated: true
 
 ![파이프라인 실패 이유와 대처 방법](/assets/img/2024-06-20-WhyYourDataPipelinesWillFailOnThese10DaysEveryYearAndWhatToDoAboutIt_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # DST
 
@@ -45,7 +63,18 @@ isUpdated: true
 
 특히 어렵고 힘든 일광 절약 시간이 지난 후, 나는 이제 그런 끔찍한 날들 중 하나에도 데이터가 계속 흐를 수 있도록 견고한 파이프 라인을 구축하기 위해 취하는 조치에 대해 썼어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이번 과제를 해결하는 것은 코딩 조치와 설계적 사고의 결합이 필요합니다.
 
@@ -55,7 +84,18 @@ isUpdated: true
 
 특정 조건에 대한 안전장치가 없는 시나리오에 직면했을 때, 예를 들어 시간 변경과 같은 상황에는 프로세스 전반에 걸쳐 투명성을 높이는 것이 가장 좋은 대안입니다. 더 많은 로그, 더 많은 타임스탬프, 더 명확하고 더 자주 발생하는 경고가 필요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 조정이나 재구축이 필요하다면, 가능한 빨리 알아내는 것이 좋습니다. 이미 한 시간 늦거나 빠르기 때문에요.
 
@@ -65,7 +105,18 @@ isUpdated: true
 
 ## 또 다른 네 해
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 DST만큼 빈번하지는 않지만 동일하게 귀찮은 문제인 윤년도 있습니다. 일할 때 하류로부터 시간에 기반한 논리를 수정할 때 "4년 후에 나를 감사해줄 사람이 있을 거야"라고 말했습니다.
 
@@ -75,7 +126,18 @@ DST만큼 빈번하지는 않지만 동일하게 귀찮은 문제인 윤년도 �
 
 Python 스크립트에서 윤년을 고려하면 많은 번거로운 if/elif 논리가 포함된 이상한 과정으로 느껴질 것 같습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반적으로 사용 사례에 따라 그렇지 않습니다.
 
@@ -85,13 +147,24 @@ Python 스크립트에서 윤년을 고려하면 많은 번거로운 if/elif 논
 
 따라서 월/일 형식만 사용하는 파이프라인이 있다면:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 dt_var = date_var.strptime("%m/%d")
 
 if dt_var.day == datetime.now():
-  
+
   # 뭔가를 수행합니다
 ```
 
@@ -103,12 +176,22 @@ if dt_var.day == datetime.now():
 dt_var = date_var.strptime("%m/%d/%y")
 
 if dt_var.day == datetime.now():
-  
+
   # 뭔가를 수행합니다
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리프 데이 수정은 몇 분 동안 머리를 갈구었다가 과도하게 생각해서 자신을 탓한 일 중 하나입니다.
 
@@ -118,7 +201,18 @@ if dt_var.day == datetime.now():
 
 # 31 문제
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로 가장 흔하고 복잡한 날짜 문제를 남겼습니다.
 
@@ -128,7 +222,18 @@ if dt_var.day == datetime.now():
 
 이를 위해 이전 타임스탬프 변수를 기반으로 월을 추론했지만, 불행히도 그렇게 할 수밖에 없었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 from datetime import datetime
@@ -140,19 +245,29 @@ prev_day = prev.day
 prev_month = prev.month
 
 if f"{prev_month}/{prev_day}" in file_str:
-  
+
   # Proceed
 ```
 
-이 스크립트를 새로운 달인 4월의 첫째 날에 실행했을 때 출력이 "April 31"로 나왔던 이유는 datetime.now()이 추가 일이 있는 경우 prev에 제시될 때 현재 월을 검색하도록 알고 있는 게 아니기 때문입니다. 
+이 스크립트를 새로운 달인 4월의 첫째 날에 실행했을 때 출력이 "April 31"로 나왔던 이유는 datetime.now()이 추가 일이 있는 경우 prev에 제시될 때 현재 월을 검색하도록 알고 있는 게 아니기 때문입니다.
 
 이 문제를 해결하기 위한 두 단계가 필요합니다.
 
 - 스크립트에 31일이 있는 월을 알려주는 논리 작성
 - 이전 논리에 따라 이전 월 값 또는 현재 월 값을 반환할지 확인하는 논리 작성
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래와 같이 접근 방식을 취합니다:
 
@@ -172,13 +287,13 @@ def month_31(month: int):
     return day
 
 def return_prev_month(day: str):
-  
+
   if day in list(range(29, 32)):
-    
+
     month_days = month_31(month_int)
-  
+
     if month_days == 30 or month_days == 31:
-        
+
         month = prev.month
 
         return month
@@ -194,7 +309,18 @@ def return_prev_month(day: str):
 
 데이터 수집의 여러 측면과 마찬가지로 날짜는 민감한 구성 요소입니다. 파이프라인이 실행 중에 많은 단계에서 실패할 수 있을 때, 저에게는 시간의 경과와 특정 날짜의 도착을 예상하고 최적화하는 것이 합리적으로 보입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비록 날짜 논리가 ETL 또는 데이터 인프라의 가장 흥미로운 측면은 아니지만, 그것은 시간이 지남에 따라 악화될 수 있는 그런 섬세한 문제 중 하나에요.
 

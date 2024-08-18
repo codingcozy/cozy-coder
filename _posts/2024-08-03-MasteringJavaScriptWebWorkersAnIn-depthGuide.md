@@ -3,17 +3,13 @@ title: "자바스크립트 웹 워커 개념 정리"
 description: ""
 coverImage: "/assets/img/2024-08-03-MasteringJavaScriptWebWorkersAnIn-depthGuide_0.png"
 date: 2024-08-03 18:34
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-03-MasteringJavaScriptWebWorkersAnIn-depthGuide_0.png
 tag: Tech
 originalTitle: " Mastering JavaScript Web Workers An In-depth Guide"
 link: "https://medium.com/stackademic/javascript-web-workers-lightning-fast-performance-unleashed-2163f05dcf34"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-08-03-MasteringJavaScriptWebWorkersAnIn-depthGuide_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 웹 워커(Web Workers)를 여러분의 비밀 에이전트로 생각해 보세요. 이들은 복잡한 계산이나 데이터 처리와 같은 작업을 메인 스레드를 느리게 만들지 않고 백그라운드에서 처리해 주는 요원들입니다. 이는 여러분의 웹 앱이 무거운 작업을 다루더라도 부드럽고 빠른 상태를 유지할 수 있다는 것을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Web Workers](/assets/img/2024-08-03-MasteringJavaScriptWebWorkersAnIn-depthGuide_1.png)
 
@@ -34,8 +40,18 @@ isUpdated: true
 
 ## 약간 실용적으로 생각해 봅시다!
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 몇 가지 간단한 단계로 나눠보겠습니다. 그러면 어떻게 작동하는지 이해할 수 있을 거에요!
 
@@ -45,18 +61,29 @@ isUpdated: true
 
 worker.js:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 self.onmessage = function (e) {
- const number = e.data;
- const result = fibonacci(number);
- postMessage(result);
- };
+  const number = e.data;
+  const result = fibonacci(number);
+  postMessage(result);
+};
 
 function fibonacci(n) {
- if (n <= 1) return n;
- return fibonacci(n - 1) + fibonacci(n - 2);
+  if (n <= 1) return n;
+  return fibonacci(n - 1) + fibonacci(n - 2);
 }
 ```
 
@@ -66,7 +93,18 @@ self가 무엇인지 궁금할 수도 있고, postMessage와 onmessage가 무엇
 
 웹 워커는 익숙한 창(window)이 아닌 다른 글로벌 컨텍스트에서 작동합니다. 그 특별한 글로벌 컨텍스트를 self라고 부릅니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 워커는 이벤트를 사용하여 주 스레드와 통신합니다. 이벤트를 사용하면 메시지나 데이터를 보내고 받을 수 있습니다. 코드에서는 일반적으로 onmessage가 주 스레드로부터 메시지나 데이터를 받아오며, postMessage는 웹 워커에서 처리된 데이터를 주 스레드로 다시 보냅니다.
 
@@ -76,23 +114,34 @@ self가 무엇인지 궁금할 수도 있고, postMessage와 onmessage가 무엇
 
 main.js:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // Worker()를 사용하여 새로운 웹 워커를 만듭니다.
-const worker = new Worker('worker.js');
+const worker = new Worker("worker.js");
 
 // 워커에 데이터를 보냅니다.
 worker.postMessage(40); // 40번째 피보나치 수를 계산합니다.
 
 // 워커로부터 데이터를 받습니다.
-worker.onmessage = function(e) {
-  console.log('결과는:', e.data);
+worker.onmessage = function (e) {
+  console.log("결과는:", e.data);
 };
 
 // 워커 오류 처리
-worker.onerror = function(error) {
-  console.error('워커 오류:', error);
+worker.onerror = function (error) {
+  console.error("워커 오류:", error);
 };
 ```
 
@@ -102,7 +151,18 @@ postMessage: 워커로 데이터를 보냅니다.
 
 onmessage: 워커로부터 처리된 데이터를 받습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 onerror: 에러를 처리합니다
 
@@ -112,7 +172,18 @@ onerror: 에러를 처리합니다
 
 ## 예제 1: 대규모 배열 정렬
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 거대한 배열을 정렬하는 데는 많은 시간이 소요될 수 있어요. 웹 워커를 이용해서 그 작업을 처리해보는 건 어때요?
 
@@ -128,17 +199,28 @@ self.onmessage = function (e) {
 
 main.js:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-const worker = new Worker('worker.js');
+const worker = new Worker("worker.js");
 
 const largeArray = Array.from({ length: 1000000 }, () => Math.floor(Math.random() * 1000000)); // 데모 시나리오이므로 배열이 동적으로 생성되었습니다.
 
 worker.postMessage(largeArray);
 
 worker.onmessage = function (e) {
-  console.log('정렬된 배열:', e.data);
+  console.log("정렬된 배열:", e.data);
 };
 ```
 
@@ -148,40 +230,62 @@ worker.onmessage = function (e) {
 
 웹 워커는 주 스레드를 차단하지 않고 API 요청을 처리할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 worker.js:
 
 ```js
 self.onmessage = async function (e) {
- const url = e.data;
- try {
- const response = await fetch(url);
- const data = await response.json();
- postMessage(data);
- } catch (error) {
- postMessage({ error: '데이터를 가져오지 못했습니다' });
- }
- };
+  const url = e.data;
+  try {
+    const response = await fetch(url);
+    const data = await response.json();
+    postMessage(data);
+  } catch (error) {
+    postMessage({ error: "데이터를 가져오지 못했습니다" });
+  }
+};
 ```
 
 main.js:
 
 ```js
-const worker = new Worker('worker.js');
- 
-worker.postMessage('https://api.example.com/data');
- 
+const worker = new Worker("worker.js");
+
+worker.postMessage("https://api.example.com/data");
+
 worker.onmessage = function (e) {
-if (e.data.error) {
-console.error(e.data.error);
-} else {
-console.log('데이터를 가져왔습니다:', e.data);
-}
+  if (e.data.error) {
+    console.error(e.data.error);
+  } else {
+    console.log("데이터를 가져왔습니다:", e.data);
+  }
 };
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에 워커에게 URL을 보내고, 워커가 데이터를 가져와 다시 보내줍니다. 무언가 문제가 발생하면, 워커가 오류 메시지를 보냅니다.
 
@@ -192,7 +296,18 @@ console.log('데이터를 가져왔습니다:', e.data);
 
 # 웹 워커 시각화
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 워커를 공장에서 전문가 팀으로 상상해보세요. 메인 스레드는 매니저이고, 각 워커는 다른 작업을 처리합니다.
 
@@ -202,7 +317,18 @@ console.log('데이터를 가져왔습니다:', e.data);
 
 # 자원
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 자세한 내용을 알고 싶다면 Web Workers에 관한 다음 리소스를 확인해보세요:
 
@@ -214,7 +340,18 @@ console.log('데이터를 가져왔습니다:', e.data);
 
 Web Workers는 자바스크립트에서 슈퍼파워를 가지는 것과 같습니다. 무거운 작업을 백그라운드 스레드로 옮겨 웹 앱을 빠르고 반응적으로 유지할 수 있습니다. 다음에 앱이 느려지는 것 같다면, 당신의 슈퍼히어로 곁에 있는 Web Workers가 왔다는 것을 기억하세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 행복한 코딩하세요! 🌟
 

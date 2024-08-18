@@ -3,17 +3,13 @@ title: "애플의 향후 계획 아이폰 플러스 모델 단계적 폐지"
 description: ""
 coverImage: "/assets/img/2024-07-14-ApplesFuturePlansPhasingOuttheiPhonePlusModel_0.png"
 date: 2024-07-14 00:11
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-14-ApplesFuturePlansPhasingOuttheiPhonePlusModel_0.png
 tag: Tech
 originalTitle: "Apple’s Future Plans: Phasing Out the iPhone Plus Model"
 link: "https://medium.com/@manuel-wereb/apples-future-plans-phasing-out-the-iphone-plus-model-a67a7b8395bd"
 isUpdated: true
 ---
-
-
-
-
 
 2024년 4월, Apple이 다가오는 iPhone 17 Plus의 화면 크기를 줄일 것이라는 소문이 등장했습니다. 최근 보도에 따르면, 크기가 더 큰 베이스 모델 iPhone은 2025년에 완전히 중단될 예정이며, 따라서 iPhone 16 Plus가 이 모델의 최종 버전이 될 것입니다. 새로운 대체품이 다른 이름으로 소개될 예정입니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 아이폰 플러스의 종말: Apple의 새로운 전략
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 결정의 이유는 잘 알려진 업계 관계자 Jeff Pu의 통찰로 점차 명확해지고 있습니다. 그에 따르면, Apple은 iPhone 17 Plus를 "iPhone 17 Slim"이라는 새 모델로 대체할 계획을 세우고 있다고 합니다 (출처: MacRumors).
 
@@ -33,7 +40,18 @@ Pu는 "iPhone 17 Slim"의 바디가 Pro 모델에서 사용된 티타늄이 아�
 
 # iPhone 17 Slim의 디스플레이 크기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서 새로운 "iPhone 17 Slim"의 디스플레이 크기는 얼마나 될까요? Jeff Pu는 현재 6.6인치라고 언급하고 있습니다. 산업 전문가인 Ross Young은 6.55인치의 크기를 언급하여 이를 더욱 정제했습니다. 애플은 이전에 iPhone 14와 iPhone 15의 플러스 모델에서 6.69인치의 디스플레이를 탑재했었는데, 이는 6.7인치로 마케팅되었습니다. iPhone 16 Plus도 2024년 가을에 이 사이즈의 화면을 탑재할 예정입니다.
 
@@ -43,9 +61,20 @@ Pu는 "iPhone 17 Slim"의 바디가 Pro 모델에서 사용된 티타늄이 아�
 
 프로 모델의 경우, 애플은 다른 전략을 취하고 있습니다. 이번에는 이 모델들이 더 큰 화면을 갖게 될 것으로 예상됩니다. iPhone 16 Pro는 6.3인치 디스플레이(이전에는 6.1인치)를 가질 것으로 예상되며, iPhone 16 Pro Max는 6.9인치 디스플레이(이전에는 6.7인치)를 가질 것으로 예상됩니다. 이 변경사항은 내년에도 iPhone 17 Pro 및 iPhone 17 Pro Max에 이어 이어질 것입니다. 2025년까지 라인업에는 다음이 포함될 것으로 예상됩니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-Looks like Apple has some exciting plans with the iPhone lineup! Here's a sneak peek at what could be coming: 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+Looks like Apple has some exciting plans with the iPhone lineup! Here's a sneak peek at what could be coming:
 
 - **iPhone 17 (6.1 inches)**
 - **iPhone 17 Slim (6.55 inches or 6.6 inches)**

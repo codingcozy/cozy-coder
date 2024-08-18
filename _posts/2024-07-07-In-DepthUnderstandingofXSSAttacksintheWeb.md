@@ -3,17 +3,13 @@ title: "웹에서의 XSS 공격에 대한 심층 이해"
 description: ""
 coverImage: "/assets/img/2024-07-07-In-DepthUnderstandingofXSSAttacksintheWeb_0.png"
 date: 2024-07-07 13:39
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-In-DepthUnderstandingofXSSAttacksintheWeb_0.png
 tag: Tech
 originalTitle: "In-Depth Understanding of XSS Attacks in the Web"
 link: "https://medium.com/the-first-digit/in-depth-understanding-of-xss-attacks-in-the-web-a3aa91e1080a"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-07-07-In-DepthUnderstandingofXSSAttacksintheWeb_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # Reflective XSS
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 검색 페이지가 있습니다. 키워드를 입력하고 '검색' 버튼을 클릭하면 페이지에 '검색 결과: XXX'가 표시됩니다.
 
@@ -38,3 +45,4 @@ isUpdated: true
     <form role="search" action="" method="GET">
       <input type="text" name="search" placeholder="검색어를 입력하세요">
       <button type="submit">검색</button>...
+```

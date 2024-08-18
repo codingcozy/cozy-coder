@@ -3,17 +3,13 @@ title: "Proteus와 Arduino IDE를 사용하여 벽돌깨기 게임 만드는 방
 description: ""
 coverImage: "/assets/img/2024-06-23-CreatingaBrick-BreakingGameUsingProteusandArduinoIDE_0.png"
 date: 2024-06-23 17:33
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-CreatingaBrick-BreakingGameUsingProteusandArduinoIDE_0.png
 tag: Tech
 originalTitle: "Creating a Brick-Breaking Game Using Proteus and Arduino IDE"
 link: "https://medium.com/stackademic/creating-a-brick-breaking-game-using-proteus-and-arduino-ide-d343b975c767"
 isUpdated: true
 ---
-
-
-
-
 
 본문에서 프로테우스와 아두이노 IDE를 사용하여 벽돌 깨기 게임을 만들어 보겠습니다. 필요한 절차를 단계별로 공유할 예정이에요. 시뮬레이션에서의 게임 모습은 다음과 같을 거에요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## 시작 화면 및 메뉴 옵션:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 사용자에게 시작 화면이 표시됩니다. 이 화면에는 "시작" 및 "종료" 옵션이 포함되어 있습니다. 사용자는 버튼을 사용하여 이 옵션들 사이를 이동하고, "선택" 버튼으로 선택을 집니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ## 패들 조절:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 게임이 시작되면 사용자가 제어하는 패들이 포텐티오미터로 좌우로 움직입니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 **점수 계산 절차:**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 매 벽돌이 깨질 때마다 플레이어의 점수가 1점씩 올라갑니다. 이 점수는 플레이어의 성과를 추적하는 데 사용됩니다.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 ## 특별 아이템 및 체력 증가:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 매번 벽돌이 깨질 때마다 특별한 물건이 10%의 확률로 떨어집니다. 이 물건을 받은 플레이어는 체력이 1 증가합니다. 이 상태는 LED 표시기로 동시에 표시됩니다.
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 ## 레벨 변화와 속도 증가:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 매 레벨을 클리어할 때마다 벽돌 배치가 변경되고, 공의 속도도 이전 라운드 대비 20% 증가합니다.
 
@@ -73,7 +124,18 @@ isUpdated: true
 
 ## 시뮬레이션에 필요한 도구들:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 아두이노 Uno
 - Oled 스크린
@@ -89,7 +151,18 @@ isUpdated: true
 
 ## 라이브러리 및 정의:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 섹션에서는 사용할 라이브러리와 상수들이 정의되어 있습니다.
 
@@ -98,13 +171,13 @@ isUpdated: true
 ```js
 #include <Wire.h>
 #include <Adafruit_GFX.h>
-#include <Adafruit_SSD1306.h>     
+#include <Adafruit_SSD1306.h>
 #include <SPI.h>
 
 #define SCREEN_WIDTH 128
 #define SCREEN_HEIGHT 64
 #define SCREEN_ADDRESS 0x3D
-#define OLED_RESET 1 
+#define OLED_RESET 1
 
 #define BRICK_WIDTH 31
 #define BRICK_HEIGHT 10
@@ -113,13 +186,13 @@ isUpdated: true
 #define NUM_BRICKS_X 4
 #define NUM_BRICKS_Y 2
 
-#define PADDLE_WIDTH 40 
+#define PADDLE_WIDTH 40
 #define PADDLE_HEIGHT 3
-#define PADDLE_SPEED 5 
+#define PADDLE_SPEED 5
 
 #define BALL_SIZE 2
-#define BALL_SPEED_X 3 
-#define BALL_SPEED_Y 3 
+#define BALL_SPEED_X 3
+#define BALL_SPEED_Y 3
 
 #define OBJECT_SIZE 7
 #define OBJECT_SPEED 2
@@ -181,8 +254,8 @@ const int levelBricksLayouts[][NUM_BRICKS_Y][NUM_BRICKS_X] = {
   }
 };
 
-int lives = 3; 
-const int lifeLEDs[] = {13,A2,A3}; 
+int lives = 3;
+const int lifeLEDs[] = {13,A2,A3};
 
 bool objectActive = false;
 int objectX, objectY;
@@ -192,14 +265,25 @@ uint16_t backgroundColor, brickColor, paddleColor, ballColor, objectColor;
 
 ## 설정 함수:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 설정 함수는 초기 설정을 수행합니다. 화면 초기화, 입력/출력 핀 설정, 메뉴 표시 등의 작업이 여기서 수행됩니다.
 
 ```js
 void setup() {
   display.begin(SSD1306_SWITCHCAPVCC, SCREEN_ADDRESS);
-  
+
   display.clearDisplay();
   display.display();
   display.setTextColor(SSD1306_WHITE, SSD1306_BLACK);
@@ -242,8 +326,18 @@ void setup() {
 
 이 함수는 버튼 상태를 확인하고 필요한 기능을 제공합니다. 각 사이클마다 7세그먼트 디스플레이에 카운터의 값을 표시합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 숫자 표시 함수:
 
@@ -266,11 +360,22 @@ void displayNumber(int num) {
 
   for(int i = 0; i<8; i++) {
     digitalWrite(segmentPins[i], numbers[num][i]);
-  } 
+  }
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 메뉴 업데이트 기능:
 
@@ -307,7 +412,18 @@ void updateMenu() {
 
 ## 동작 실행 함수:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자가 선택한 작업을 수행하는 함수입니다. 시작 및 종료 옵션에 따라 서로 다른 작업을 수행합니다.
 
@@ -348,7 +464,18 @@ void action2() {
 
 게임 화면에 벽돌을 그리는 함수입니다. 특정 색상의 벽돌을 그립니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 void drawBricks(uint16_t color) {
@@ -387,7 +514,18 @@ void updatePaddle() {
 
 ## 공 그리기, 삭제 및 업데이트 기능:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 화면에 공을 그리는 함수
@@ -408,7 +546,7 @@ void updateBall() {
   // 왼쪽 가장자리 충돌 확인 및 방향 전환
   if(ballPositionX <= 0) {
     ballDirectionX *= -1;
-  } 
+  }
   // 오른쪽 가장자리 충돌 확인 및 방향 전환
   else if(ballPositionX >= display.width() - BALL_SIZE) {
     ballDirectionX *= -1;
@@ -417,7 +555,7 @@ void updateBall() {
   // 위쪽 가장자리 충돌 확인
   if(ballPositionY <= 0) {
     ballDirectionY *= -1;
-  } 
+  }
 
   checkPaddleCollision();
 
@@ -454,13 +592,24 @@ void loseLife() {
   displayLives();
   objectActive = false;
   display.fillRect(objectX, objectY, OBJECT_SIZE, OBJECT_SIZE, SSD1306_BLACK);
-  delay(100); 
+  delay(100);
 }
 ```
 
-## 패들과 공의 충돌 함수: 
+## 패들과 공의 충돌 함수:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 볼이 패들에 닿았는지 확인하는 함수입니다.
 
@@ -482,7 +631,7 @@ void checkPaddleCollision() {
         else {
             ballDirectionX = 1; // 오른쪽으로 볼 진행
             ballDirectionY = -1; // 볼의 방향을 위쪽으로 전환
-        }  
+        }
     }
 }
 ```
@@ -491,7 +640,18 @@ void checkPaddleCollision() {
 
 볼이 패들과 충돌하는지 확인하고 true 또는 false를 반환합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 bool ballHitsPaddle() {
@@ -544,7 +704,18 @@ void updateObject() {
 
 ## 벽돌 충돌 확인:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 볼이 벽돌에 충돌하는지 확인합니다.
 
@@ -557,11 +728,11 @@ void checkBrickCollision() {
         int brickY = i * (BRICK_HEIGHT + BRICK_GAP_Y);
 
         if (ballPositionX + BALL_SIZE >= brickX && ballPositionX <= brickX + BRICK_WIDTH && ballPositionY + BALL_SIZE >= brickY && ballPositionY <= brickY + BRICK_HEIGHT) {
-          ballDirectionY *= -1; 
+          ballDirectionY *= -1;
           bricks[i][j] = false; // Mark the brick as broken
           incrementCounter(); // Increase score
           display.fillRect(brickX + 1, brickY + 1, BRICK_WIDTH - 1, BRICK_HEIGHT - 1, SSD1306_BLACK);
-        
+
           // Creating an object every time a brick is broken
           if(random(100) < 10) { // 10 percent probability of creating an object
             objectActive = true;
@@ -569,7 +740,7 @@ void checkBrickCollision() {
             objectY = brickY + (BRICK_HEIGHT - OBJECT_SIZE) / 2;;
             drawObject(objectColor);
           }
-        
+
         }
       }
     }
@@ -581,12 +752,23 @@ void checkBrickCollision() {
 
 레벨의 모든 벽돌이 깨졌을 때 다음 레벨로 이동을 허용하는 함수입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 void nextLevel() {
   if(currentLevel < 5) {
-    currentLevel++;  
+    currentLevel++;
     // Increase your ball speed by 20% for the next level
     ballSpeedX += ballSpeedX * 0.2;
     ballSpeedY += ballSpeedY * 0.2;
@@ -637,7 +819,7 @@ void playGame() {
     }
   }
 
-  ballPositionX = paddlePosition + PADDLE_WIDTH / 2 - 6; 
+  ballPositionX = paddlePosition + PADDLE_WIDTH / 2 - 6;
   ballPositionY = display.height() - PADDLE_HEIGHT - BALL_SIZE - 3;
   ballDirectionX = 0;
   ballDirectionY = 0;
@@ -650,14 +832,14 @@ void playGame() {
       paddleColor = SSD1306_WHITE;
       ballColor = SSD1306_WHITE;
       objectColor = SSD1306_WHITE;
-    } else { 
+    } else {
       backgroundColor = SSD1306_WHITE;
       brickColor = SSD1306_BLACK;
       paddleColor = SSD1306_BLACK;
       ballColor = SSD1306_BLACK;
       objectColor = SSD1306_BLACK;
     }
-  
+
     display.fillScreen(backgroundColor);
 
     clearPaddle();
@@ -668,15 +850,15 @@ void playGame() {
     drawPaddle(paddleColor);
     drawBall(ballColor);
     checkBrickCollision();
-    updateObject(); 
+    updateObject();
     displayNumber(counter);
     displayLives();
     display.display();
-    
+
     // Reads the potentiometer value and controls the movement of the paddle
     int potValue = analogRead(A0);
     int newPaddlePosition = map(potValue, 0, 1023, 0, display.width() - PADDLE_WIDTH);
-    
+
     // If you move the paddle the ball starts to move
     if (newPaddlePosition != paddlePosition && ballHitsPaddle()) {
       // Determine the direction of movement of the paddle
@@ -724,7 +906,18 @@ void playGame() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 게임 종료 함수:
 
@@ -748,13 +941,35 @@ void gameOver() {
 
 프로젝트의 모든 코드를 포함한 소스 코드:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 절차 상 표를 마크다운 형식으로 변경하였습니다.
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 끝까지 읽어 주셔서 감사합니다. 떠나시기 전에 아래 사항을 고려해 주세요:
 

@@ -3,17 +3,13 @@ title: "파이썬 엔지니어를 위한 3D 가우시안 스플래팅 소개 파
 description: ""
 coverImage: "/assets/img/2024-06-20-APythonEngineersIntroductionto3DGaussianSplattingPart2_0.png"
 date: 2024-06-20 19:11
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-APythonEngineersIntroductionto3DGaussianSplattingPart2_0.png
 tag: Tech
 originalTitle: "A Python Engineer’s Introduction to 3D Gaussian Splatting (Part 2)"
 link: "https://medium.com/towards-data-science/a-python-engineers-introduction-to-3d-gaussian-splatting-part-2-7e45b270c1df"
 isUpdated: true
 ---
-
-
-
-
 
 ## 3D 가우시안 스플래팅 내에서 가우시안 함수가 어떻게 사용되는지 이해하고 코딩하기
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 <img src="/assets/img/2024-06-20-APythonEngineersIntroductionto3DGaussianSplattingPart2_0.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 호기심이 있는 분들을 위해 새로운 내부 매트릭스에 대해 알고 싶은 경우(그렇지 않으면 이 단락을 건너뛰어도 괜찮아요) r과 l은 오른쪽과 왼쪽 측면의 클리핑 평면이며, 사진의 너비에 관한 시야에 포함될 수 있는 지점을 기본적으로 나타내고 있습니다. t와 b는 상단과 하단 클리핑 평면이고, N은 가까운 클리핑 평면(투영될 점들이 있는 곳)이며, f는 먼 클리핑 평면입니다. 더 자세한 정보는 scratchapixel의 챕터들이 여기에서 매우 유익하다고 생각합니다(https://www.scratchapixel.com/lessons/3d-basic-rendering/perspective-and-orthographic-projection-matrix/opengl-perspective-projection-matrix.html). 이것은 또한 점들을 정규화된 장치 좌표( -1과 1 사이)로 반환하며, 이를 픽셀 좌표로 투영합니다. 이론에서 벗어나서 우리의 작업은 같습니다, 3D에서 점을 가져와 2D 이미지 평면으로 투영하는 것입니다. 그러나 이 튜토리얼의 이 부분에서는 이제 포인트 대신 가우시안 함수를 사용합니다.
 
@@ -38,7 +45,7 @@ def getIntinsicMatrix(
 ) -> torch.Tensor:
     """
     내부 퍼스펙티브 투영 매트릭스 가져오기
-    
+
     znear: 사용자가 지정한 가까운 평면
     zfar: 사용자가 지정한 먼 평면
     fovX: 초점 길이에서 계산된 x의 시야
@@ -46,7 +53,7 @@ def getIntinsicMatrix(
     """
     fovX = torch.Tensor([2 * math.atan(width / (2 * focal_x))])
     fovY = torch.Tensor([2 * math.atan(height / (2 * focal_y))])
-    
+
     tanHalfFovY = math.tan((fovY / 2))
     tanHalfFovX = math.tan((fovX / 2))
 
@@ -71,8 +78,18 @@ def getIntinsicMatrix(
 
 그래서 저자들은 항상 양의 준정부 공분산 행렬을 생성할 수 있는 공분산 행렬의 분해를 사용합니다. 특히, 3개의 "크기" 매개변수와 4개의 쿼터니언을 사용하여 3x3 회전 행렬(R)로 변환합니다. 그런 다음 공분산 행렬은 다음과 같이 주어집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-20-APythonEngineersIntroductionto3DGaussianSplattingPart2_1.png)
 
@@ -82,8 +99,18 @@ def getIntinsicMatrix(
 
 ![이미지](/assets/img/2024-06-20-APythonEngineersIntroductionto3DGaussianSplattingPart2_2.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만, 우리는 이미지 평면인 2D에서 3D 가우시안의 강도에 중점을 두고 있습니다. 하지만 여러분은 아마 "우리는 2D로 점을 투영하는 방법을 알고 있다고?" 할 수 있겠지만요! 그럼에도 불구하고, 아직 2D로 공분산 행렬을 투영하는 방법에 대해 다루지 않았기 때문에, 만약 우리가 2D 공분산 행렬의 역행렬을 찾지 않았다면 이 무슨 얘기인지 알 수 없겠죠.
 
@@ -129,7 +156,18 @@ def compute_2d_covariance(
 
 먼저, tan_fovY와 tan_fovX는 시야각의 반을 나타내는 tangent 값입니다. 이러한 값들을 사용하여 투영을 클램핑하여 화면 바깥으로 너무 많이 벗어났을 때 렌더에 영향을 미치지 않도록 합니다. 우리는 초기 순방향 변환으로부터 주어진 3D에서 2D로의 변환으로부터 야코비안을 유도할 수 있지만, 여러분이 귀찮을 일을 덜어드리기 위해 위에서 기대할 수 있는 유도를 보여드릴게요. 마지막으로, 우리가 회전 행렬을 변환하면서 처음에 전치했습니다만, 최종 공분산 계산을 반환하기 전에 다시 전치해야 합니다. EWA 스플래팅 논문에 따르면, 우리는 2D 이미지 평면에만 관심이 있으므로 세 번째 행과 열은 무시할 수 있습니다. 처음부터 그렇게 할 수 없었던 이유에 대해 궁금할 수도 있습니다. 대부분의 경우, 이는 완벽한 구로 표현되지 않을 것이기 때문에 각도에 따라 공분산 행렬 매개변수가 달라지기 때문입니다! 이제 올바른 관점으로 변환했으므로, 공분산 z축 정보는 쓸모없으며 버릴 수 있게 되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주어진 2D 공분산 행렬이 있으면 이미지의 임의의 픽셀에 각 가우시안이 미치는 영향을 계산할 수 있게 되었습니다. 이제 역 공분산 행렬을 찾아야 합니다. 선형 대수학에서 다시 상기해보면 2x2 행렬의 역행렬을 찾으려면 행렬식을 찾고 일부 용어를 재배열하면 됩니다. 이 코드를 통해 해당 프로세스를 안내해드릴게요.
 
@@ -182,7 +220,18 @@ def compute_extent_and_radius(covariance_2d: torch.Tensor):
     return max_radius
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 모든 단계를 거쳐 우리는 그것을 렌더 단계에서 사용할 수 있는 전처리된 장면을 얻습니다. 간단히 말해 이제 2D에서의 포인트, 해당 포인트와 관련된 색, 2D에서의 공분산, 2D에서의 역공분산, 정렬된 깊이 순서, 각 스플랫에 대한 최소 x, 최소 y, 최대 x, 최대 y 값, 그리고 관련 투명도를 가지게 되었어요. 이러한 모든 구성 요소를 갖고 이미지 렌더링으로 넘어 갈 수 있습니다!
 

@@ -3,17 +3,13 @@ title: "LIDA를 활용한 대규모 언어 및 이미지 생성 모델 사용 �
 description: ""
 coverImage: "/assets/img/2024-06-27-DataVisualizationGenerationUsingLargeLanguageandImageGenerationModelswithLIDA_0.png"
 date: 2024-06-27 19:07
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-27-DataVisualizationGenerationUsingLargeLanguageandImageGenerationModelswithLIDA_0.png
 tag: Tech
 originalTitle: "Data Visualization Generation Using Large Language and Image Generation Models with LIDA"
 link: "https://medium.com/towards-data-science/data-visualization-generation-using-large-language-and-image-generation-models-with-lida-69fcf95866ee"
 isUpdated: true
 ---
-
-
-
-
 
 ## LIDA 라이브러리 개요, 시작하는 방법, 예시 및 앞으로 고려 사항
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 개요¹
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 시각화를 만드는 것은 종종 복잡한 작업입니다. 데이터 조작, 코딩 및 디자인 기술이 필요한 작업이죠. LIDA는 개발 시간, 오류 발생 횟수, 그리고 전반적인 복잡성을 줄여주는 오픈 소스 라이브러리입니다.
 
@@ -36,7 +43,18 @@ LIDA는 다음 이미지에 표시된대로 4개의 모듈로 구성되어 있�
 - **VIZ GENERATOR**: 이 모듈은 3개의 하위 모듈(코드 프레임워크 생성기, 코드 생성기 및 코드 실행기)로 구성되어 있습니다. 이 모듈의 목표는 `GOAL EXPLORER` 모듈에서 나온 데이터 시각화 목표 또는 사용자가 생성한 새로운 시각화 목표에 따라 시각화 코드를 생성, 평가, 수리, 필터링 및 실행하는 것입니다.
 - **INFOGRAPHER**: 이 모듈은 `VIZ GENERATOR` 모듈의 출력 및 시각화, 스타일 프롬프트를 기반으로 IGM을 활용하여 스타일이 적용된 인포그래픽을 생성합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LIDA는 LLM(Large Language Model)의 두 가지 핵심 능력을 활용합니다:
 
@@ -47,7 +65,18 @@ LIDA는 LLM(Large Language Model)의 두 가지 핵심 능력을 활용합니다
 
 "프롬프트 엔지니어링은 AI 언어 모델과의 상호작용을 위해 설계, 최적화 및 개선된 프롬프트를 사용하는 프로세스입니다. 프롬프트란 AI 시스템에 입력되어 특정 응답이나 출력을 유발하기 위한 질문, 진술 또는 요청입니다."²
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LIDA에 프롬프트 엔지니어링 기능을 통합하는 몇 가지 방법 중 하나는 프롬프트를 사용하여 6 가지 평가 차원을 생성하고 정의하는 것이며, 사용자가 시각화를 포맷하는 스타일 프롬프트를 지정할 수 있는 능력을 가지고 있습니다.
 
@@ -57,7 +86,18 @@ LIDA에 프롬프트 엔지니어링 기능을 통합하는 몇 가지 방법 �
 
 LIDA를 시작하는 방법은 2가지가 있습니다. 파이썬 API를 통해 시작하거나 하이브리드 사용자 인터페이스를 통해 시작할 수 있습니다. 이 섹션에서는 LIDA 라이브러리의 선택적 번들 UI 및 웹 API를 사용하여 로컬 기기에서 사용자 인터페이스를 시작하는 방법을 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 참고: 이 예시에서는 OpenAI를 사용하고 있습니다. 다른 LLM 제공 업체를 사용하거나 Python API를 사용하려면 여기 있는 GitHub 문서를 확인해보세요.
 
@@ -69,7 +109,18 @@ LIDA를 시작하는 방법은 2가지가 있습니다. 파이썬 API를 통해 
 pip install lida
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 pip install -U llmx openai
@@ -81,8 +132,18 @@ OpenAI API 키를 만들려면 프로필로 이동하여 `사용자 API 키` 항
 
 ![이미지](/assets/img/2024-06-27-DataVisualizationGenerationUsingLargeLanguageandImageGenerationModelswithLIDA_2.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 API 키를 복사하세요. 새 터미널 창에서 다음과 같은 변수인 OPENAI_API_KEY에 API 키를 저장하세요.
 
@@ -94,7 +155,18 @@ export OPENAI_API_KEY=""
 
 터미널 창에서 다음 명령어로 LIDA UI 웹 앱을 시작하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 lida ui --port=8080 --docs
@@ -106,8 +178,18 @@ lida ui --port=8080 --docs
 
 # 웹 앱 예시
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 섹션에서는 Kaggle의 Top 10 Films US Box Office 데이터 세트³를 사용한 몇 가지 예제와 팁을 살펴봅니다.
 
@@ -117,7 +199,18 @@ lida ui --port=8080 --docs
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/1*6iWPYsaP7Cm-dkerFG_ooQ.gif)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 팁: 어떤 라이브러리부터 시작해야 할지 잘 모르겠으면 하나를 선택하고 나중에 바꿀 수 있어요! 데이터를 업로드한 후에도 시각화 라이브러리/문법을 나중에 바꿀 수 있어요. 데이터를 로드한 후에 바꾸려고 하면 오류가 발생할 수 있는데, 간단히 새로고침하면 문제가 해결될 거예요.
 
@@ -127,7 +220,18 @@ lida ui --port=8080 --docs
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/1*fJ8MRGf7ip2ATKfAKARs9A.gif)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 3: 데이터 업로드
 
@@ -137,7 +241,18 @@ lida ui --port=8080 --docs
 
 팁: 파일을 업로드하려고 할 때 오류가 발생하면 선택한 모델 공급 업체의 사용량 및 결제 액세스를 확인해보세요. 액세스 문제는 LIDA에서 데이터 파일 업로드 문제로 이어질 수 있습니다. 또한, 터미널 창에 에러 메시지가 표시됩니다. 문제 해결에 유용한 경우가 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주의: LIDA 홈페이지로 다시 전환하는 경우 현재 화면의 작업이 손실될 수 있으니 유의하시기 바랍니다!
 
@@ -147,7 +262,18 @@ lida ui --port=8080 --docs
 
 다음 이미지는 미국 박스 오피스 최상위 10개 영화 데이터 세트에 대한 데이터 요약을 보여줍니다. 데이터 세트 전체에 대한 설명과 데이터 세트의 9개 열에 대한 설명이 포함되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-06-27-DataVisualizationGenerationUsingLargeLanguageandImageGenerationModelswithLIDA_4](/assets/img/2024-06-27-DataVisualizationGenerationUsingLargeLanguageandImageGenerationModelswithLIDA_4.png)
 
@@ -157,7 +283,18 @@ JSON 딕셔너리 형식으로 데이터 요약을 보려면 View raw summary?�
 
 ## 단계 5: 목표 탐색 검토
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 섹션에는 업로드된 데이터셋을 기반으로 자동으로 생성된 목표 또는 가설 목록이 표시됩니다. 각 목표는 질문으로 제시되며, 시각화가 무엇을 표시할지 설명이 포함되어 있습니다. 이 출력물은 이전에 언급된 GOAL EXPLORER 모듈의 결과입니다.
 
@@ -167,7 +304,18 @@ JSON 딕셔너리 형식으로 데이터 요약을 보려면 View raw summary?�
 
 ## 단계 6: 시각화 생성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전 섹션에서 선택한 목표, Goal Exploration에 따라, 해당 목표를 시각화하는데 사용된 Python 코드와 함께 시각화를 볼 수 있습니다.
 
@@ -177,7 +325,18 @@ JSON 딕셔너리 형식으로 데이터 요약을 보려면 View raw summary?�
 
 또는 Goal Exploration 섹션에 나열된 목표 이외에도 새로운 시각화 목표를 입력할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 다음 이미지는 "가장 큰 평균 예산을 갖는 상위 5개 장르는 무엇인가요?"에 대한 결과를 보여줍니다.
 
@@ -187,7 +346,18 @@ JSON 딕셔너리 형식으로 데이터 요약을 보려면 View raw summary?�
 
 ## 단계 7: 시각화 수정 및 평가
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시각화가 생성되면 사용할 수 있는 4개의 탭이 있습니다: 개선(Refine), 설명(Explain), 평가(Evaluate) 및 추천(Recommend).
 
@@ -197,8 +367,18 @@ JSON 딕셔너리 형식으로 데이터 요약을 보려면 View raw summary?�
 
 다음 이미지는 "월별 영화 개봉 분포가 어떻게 되는가?"라는 차트를 개선 탭을 사용하여 수정한 내용을 보여줍니다. 차트는 월을 날짜 순서대로 정렬하고, 수평 막대 차트로 값을 표시하고, 각 막대에 계수 값을 추가하는 자연어 명령을 사용하여 수정되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Data Visualization Generation Using Large Language and Image Generation Models with LIDA](/assets/img/2024-06-27-DataVisualizationGenerationUsingLargeLanguageandImageGenerationModelswithLIDA_9.png)
 
@@ -208,7 +388,18 @@ JSON 딕셔너리 형식으로 데이터 요약을 보려면 View raw summary?�
 
 ![Data Visualization Generation Using Large Language and Image Generation Models with LIDA](/assets/img/2024-06-27-DataVisualizationGenerationUsingLargeLanguageandImageGenerationModelswithLIDA_10.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 번째 탭 '설명'은 시각화가 어떻게 만들어졌는지에 대한 텍스트 설명을 제공합니다. 데이터 변환, 차트 요소, 코드 등을 설명합니다.
 
@@ -218,7 +409,18 @@ JSON 딕셔너리 형식으로 데이터 요약을 보려면 View raw summary?�
 
 ![이미지](/assets/img/2024-06-27-DataVisualizationGenerationUsingLargeLanguageandImageGenerationModelswithLIDA_12.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 이미지에서 볼 수 있듯이, 차트를 자동으로 수정하는 옵션이 있습니다. 오른쪽 하단에 있는 버튼인 "차트 자동 수정"을 사용할 수 있습니다. 차트 평가에서 제공된 권장 사항에 동의한다면, 이것은 수정을 적용하는 좋고 빠른 방법입니다! 아래 이미지는 심미성 평가를 기반으로 차트를 자동으로 수정한 후 업데이트된 차트를 보여줍니다.
 
@@ -228,7 +430,18 @@ JSON 딕셔너리 형식으로 데이터 요약을 보려면 View raw summary?�
 
 ![image](/assets/img/2024-06-27-DataVisualizationGenerationUsingLargeLanguageandImageGenerationModelswithLIDA_14.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 생각과 고려사항
 
@@ -238,7 +451,18 @@ JSON 딕셔너리 형식으로 데이터 요약을 보려면 View raw summary?�
 
 LIDA는 2가지 지표를 사용합니다 — 시각화 오류율(VER)과 자가평가 시각화 품질(SEVQ).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 VER는 생성된 시각화 중 코드 컴파일 오류를 의미하는 백분율을 보여줍니다.
 
@@ -248,7 +472,18 @@ SEVQ는 GPT-4와 같은 LLMs를 사용하여 생성된 시각화의 품질을 �
 
 ## 배포 — 환경 설정 고려 사항
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 조직 내 데이터 시각화에 LLM 및 IGM을 활용할 때는 배포에 관련된 몇 가지 사항을 고려해야 합니다.
 
@@ -258,7 +493,18 @@ SEVQ는 GPT-4와 같은 LLMs를 사용하여 생성된 시각화의 품질을 �
 
 ## 차트 설명
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전 예제에서 보듯이, LIDA 내에서 생성된 차트 설명은 차트가 생성된 방식에 대한 세부 정보에 초점을 맞추고 있습니다. 데이터 변환, 차트 요소 및 생성된 코드에 대한 내용입니다. 이는 데이터 세트와 함께 차트를 만드는 개발자에게 도움이 됩니다. 그러나 비즈니스 사용자들에게는 이러한 유형의 문맥이 유익하지 않습니다. 비즈니스 사용자와 분석가는 시각화 내 데이터 포인트에 대한 통찰을 포함하는 차트 설명에서 혜택을 받을 것입니다. 그뿐만이 아니라 차트 요소와 구조뿐만 아니라 시각화 내 데이터 포인트에 대한 통찰을 제공하는 자연 언어 텍스트는 개인의 역할과 관계없이 데이터 시각화에서 중요한 통찰력을 제공하는 것에 도움이 될 수 있습니다.
 
@@ -268,7 +514,18 @@ BI와 NLG를 함께 본 적이 없나요? 간단한 소개를 보려면 이 GitH
 
 앞으로 나아가면서, 최종 사용자를 고려하고 그들의 목표와 관심사에 기반하여 해당 관객에게 적합한 LLM + IGM + 데이터 시각화 솔루션을 고려하는 것이 중요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 프롬프트를 사용한 차트 디자인
 
@@ -278,7 +535,18 @@ BI와 NLG를 함께 본 적이 없나요? 간단한 소개를 보려면 이 GitH
 
 이러한 스타일 프롬프트를 사용하면 차트를 개발하는 데 필요한 시간을 절약할 수 있습니다. 코드 작성 시간을 줄이고, 코드 디버그와 형식 지정 시간을 줄일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 데이터 시각화 생성 중 프롬프트가 소개되면, 좋은 프롬프트가 무엇인지 이해하는 것이 중요해집니다. 명확하고 간결하며 구체적인 프롬프트는 다른 것보다 더 나은 결과를 얻게 됩니다. 명확하지 않은 요청은 부적합한 시각화나 예기치 않은 결과를 초래할 수 있습니다.
 
@@ -288,7 +556,18 @@ BI와 NLG를 함께 본 적이 없나요? 간단한 소개를 보려면 이 GitH
 
 Payal은 데이터 및 인공 지능 전문가입니다. 여가 시간에는 읽기, 여행, Medium에 글 쓰기를 즐깁니다. 그녀의 작품을 좋아하신다면, 그녀의 목록을 팔로우하거나 구독하여 이야기를 놓치지 마세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상기 기사는 개인적인 의견이며 IBM의 입장, 전략 또는 의견을 반영하는 것은 아닙니다.
 
@@ -298,6 +577,17 @@ Payal은 데이터 및 인공 지능 전문가입니다. 여가 시간에는 읽
 
 [2]: Vagh, Avinash. “NLP and Prompt Engineering: Understanding the Basics.” DEV Community, DEV Community, 6 Apr. 2023, dev.to/avinashvagh/understanding-the-concept-of-natural-language-processing-nlp-and-prompt-engineering-35hg.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [3]: Films, Will’s. “Top 10 Films at the US Box Office 2000–2023.” Kaggle, 20 Mar. 2024, www.kaggle.com/datasets/willsfilms/top-10-films-at-the-us-box-office-2000-2023. (CC0)

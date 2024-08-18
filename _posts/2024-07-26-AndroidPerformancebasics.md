@@ -3,17 +3,13 @@ title: "안드로이드 성능 기본 원리"
 description: ""
 coverImage: "/assets/img/2024-07-26-AndroidPerformancebasics_0.png"
 date: 2024-07-26 11:51
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-26-AndroidPerformancebasics_0.png
 tag: Tech
 originalTitle: "Android Performance basics"
 link: "https://medium.com/@choijunseok1997/android-performance-basics-98c2a099b5e5"
 isUpdated: true
 ---
-
-
-
-
 
 에뮬레이터는 실제 기기를 대변하지 않습니다. 호스트 OS와 동일한 리소스를 공유합니다. 디버그 빌드는 다시 설치하지 않고 변경 사항을 적용하며 디버거와 함께 작동합니다. 성능 오버헤드로 앱이 불안정해지며 때로는 잘 실행되기도 합니다. 따라서 물리적 기기의 릴리스 버전과 테스트를 반드시 진행해야 합니다.
 
@@ -25,7 +21,18 @@ isUpdated: true
 
 # 📌 수동 검사를 할 수 있어요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로그캣을 확인해 보세요. 끊김이 있을 때.
 
@@ -35,8 +42,18 @@ isUpdated: true
 
 - ` package:mine tag:OpenGLRenderer
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-26-AndroidPerformancebasics_0.png)
 
@@ -46,7 +63,17 @@ isUpdated: true
 
 왜 그럴까요, Davey?
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안드로이드 시스템의 "Davey!" 알림이 Dave Burke 부사장을 찬양하는 것이라는 소문이 있어요!

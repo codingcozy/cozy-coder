@@ -3,17 +3,13 @@ title: "탐사 분류기를 사용하여 연락 센터 LLMs의 학습 내용을 
 description: ""
 coverImage: "/assets/img/2024-06-20-CanprobingclassifiersrevealthelearningbyContactCenterLLMsNoitdoesnt_0.png"
 date: 2024-06-20 18:44
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-CanprobingclassifiersrevealthelearningbyContactCenterLLMsNoitdoesnt_0.png
 tag: Tech
 originalTitle: "Can probing classifiers reveal the learning by Contact Center LLMs?: No, it doesn’t!"
 link: "https://medium.com/@digvijay.ingle16/can-probing-classifiers-reveal-the-learning-by-contact-center-llms-no-it-doesnt-d9124540e4d9"
 isUpdated: true
 ---
-
-
-
-
 
 이 블로그는 2024년 NAACL에서 수락된 기술 논문에 대한 참조입니다. 이 논문은 멕시코시티에서 개최된 5번째 맞춤형 결과로부터의 통찰력 워크샵(NLP@NAACL)에서 발표되었습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 고객 서비스의 빠른 세상에서, 연락 센터는 기술 지원부터 청구 문의까지 모든 분야의 고객 상호 작용의 최전선으로 기능합니다. 기술이 발전함에 따라 대규모 언어 모델(LLMs)이 연락 센터에 통합되면 고객 지원의 제공 방식을 혁신화할 수 있습니다. 다만, 이러한 모델의 효과는 연락 센터 상호 작용의 특정 세부 사항을 이해하고 처리할 수 있는 능력에 크게 의존합니다. 저희 논문인 "프로빙 분류기가 연락 센터 대규모 언어 모델의 학습을 밝혀 줄까요?: 아니요, 그렇지 않습니다!"에서는 연락 센터 도메인을 위해 특별히 선별된 LLMs의 학습을 프로빙 분류기가 밝혀낼 수 있는지 조사합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 동기
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 OpenAI 및 Google과 같은 대규모 언어 모델은 인간과 유사한 텍스트를 생성하는 놀라운 능력을 보여주고 있습니다. 이러한 모델의 성능을 재정 및 생명공학과 같은 특정 도메인에서 더욱 향상시키기 위해 이러한 모델은 종종 도메인별 데이터로 세밀하게 조정됩니다. 이 방법은 다양한 분야에서 성공적인 것으로 입증되었지만, 접촉 센터 도메인에는 소음이 많은 쿼리, 즉흥 대화 및 특정 용어와 같은 독특한 도전 요소가 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 방법론
 
@@ -46,7 +64,18 @@ OpenAI 및 Google과 같은 대규모 언어 모델은 인간과 유사한 텍�
 - 아키텍처와 크기의 중요성: 시험한 모델 중에서 T5 모델이 다양한 설정에서 일반적으로 Llama 모델보다 우수한 성능을 보였습니다. 흥미로운 점은 작은 CC-Flan-T5(110억) 모델이 종종 큰 CC-Llama(130억)보다 우수한 성능을 보인다는 것인데, 이는 모델 아키텍처가 모델 크기보다 더 중요할 수 있다는 것을 시사합니다.
 - 일반 언어 특성: 세밀 조정 이후, CC-Flan-T5와 CC-Llama 모델은 SentEval suite의 일반 언어 점검 작업에서 점수가 낮아졌으며, 일반 언어 특성에서 도메인 특화 능력으로의 초점 이동을 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 함의 및 향후 방향
 
@@ -56,6 +85,17 @@ OpenAI 및 Google과 같은 대규모 언어 모델은 인간과 유사한 텍�
 
 마무리로, 컨택 센터와 같은 특정 도메인에 LLMs를 세부 조정함으로써 실용적 작업에서 성능을 크게 향상시킬 수 있지만, 기존의 조사 분류기는 이러한 개선 사항을 밝히는 데 한계가 있습니다. 이 연구는 더 효과적인 조사 방법에 대한 연구를 위한 새로운 방향을 제시하며, 높은 성과를 내는 LLMs 개발 시 아키텍처와 세부 조정 전략을 모두 고려하는 중요성을 강조합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 세계 곳곳의 연락센터를 위해 대화 인텔리전스를 변화시키는 Observe.AI에서 더 많은 정보를 확인해보세요.

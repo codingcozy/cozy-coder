@@ -3,17 +3,13 @@ title: "SwiftUI로 Adobe AfterEffects 효과 재현하는 방법 SFX 추가하�
 description: ""
 coverImage: "/assets/img/2024-07-19-RecreateAdobeAfterEffectsWithSFXUsingSwiftUI_0.png"
 date: 2024-07-19 13:24
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-19-RecreateAdobeAfterEffectsWithSFXUsingSwiftUI_0.png
 tag: Tech
 originalTitle: "Recreate Adobe AfterEffects With SFX Using SwiftUI"
 link: "https://medium.com/better-programming/sfx-using-swiftui-2a3e4079f4f2"
 isUpdated: true
 ---
-
-
-
-
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*adaUpDI77HWM13BjZ0LjCA.gif)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 물론 오늘날에는 Adobe가 가장 다양한 크리에이티브 앱 포트폴리오를 보유하고 있으며 Adobe Illustrator 및 Adobe After Effects와 같은 다른 앱과 함께 시장을 조용히 장악했습니다. 후자 패키지는 우주적 비디오에 특수 효과를 생성하는 데 효과적입니다. SwiftUI를 사용하여 속성 문자열, 애니메이션 및 약간의 Swift 마법을 활용하여 일부 SFX를 재생성하는 방법을 보고 싶으시다면 여기서 저와 함께하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 연구
 
@@ -33,7 +40,18 @@ Adobe의 소속이거나 상당히 가까운 친척일 것입니다. "After Effe
 
 프로젝트를 시작할 때, 글자 간격을 다시 살펴보았습니다. 똑똑한 코드를 개발하여 캡처해야 할 것이라고 생각했지만, 다행히도 NSString이 그것을 대신해 줄 수 있다는 것을 발견하여 그럴 필요가 없었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 for w in 0..<words.count {
@@ -71,7 +89,18 @@ struct WordView: View {
 뷰 안에 다른 뷰를 포함하는 뷰입니다.
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```swift
 // 해당 코드에서 참조된 환경 객체는 매개 변수의 컬렉션입니다. 변경할 수 있는 값들은 표시된 문자열의 각 문자의 일부 측면에 영향을줍니다.
@@ -94,7 +123,18 @@ let screenHeight: CGFloat = UIScreen.main.bounds.height
 메뉴 버튼을 사용하여 표시된 문자열의 각 문자의 불투명도, 각도, 위치 및 크기를 개별적으로 변경하고 심지어 3D 변환을 적용할 수도 있습니다.
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 더 많은 정보
 
@@ -103,7 +143,7 @@ let screenHeight: CGFloat = UIScreen.main.bounds.height
 ```js
 struct AVPlayerControllerRepresented : UIViewControllerRepresentable {
     var player : AVPlayer
-    
+
     func makeUIViewController(context: Context) -> AVPlayerViewController {
         let controller = AVPlayerViewController()
         controller.player = player
@@ -114,29 +154,40 @@ struct AVPlayerControllerRepresented : UIViewControllerRepresentable {
         }
         return controller
     }
-    
+
     func updateUIViewController(_ uiViewController: AVPlayerViewController, context: Context) {
-        
+
     }
 }
 ```
 
 저는 이 비디오를 루프하는 유용한 팁을 스택 오버플로우에서 찾았습니다. 플레이어의 버전이 이 작성한 코드와는 다르게 작동할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 마지막으로, 모든 것을 함께 가져와서 여기에 메인 ContentView가 있습니다.
 
 ```js
 struct ContentView: View {
     @StateObject var paras = Paras()
-    
+
     @State var boxes:[CGSize] = []
     @State var bounding:[CGRect] = []
     @State var isReady = false
     @State var id = 0
     @State var bitPattern = "0"
-    
+
     let player = AVPlayer(url: URL(fileURLWithPath: Bundle.main.path(forResource: "fire", ofType: "mp4")!))
     var body: some View {
         ZStack {
@@ -178,7 +229,18 @@ Text("숨기기")
     }.padding()
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모두를 고려하면, 여기 이 설정으로 얻을 수 있는 두 번째 SFX 몽타주가 있습니다. 이 기사를 이끌기 위해 동일한 코드를 사용했지만 다른 비디오를 사용했습니다.
 
@@ -188,7 +250,18 @@ Text("숨기기")
 
 곧바로 떠오르시겠지만, 문자 간격 크기 코드는 무슨 일이 있었는지 묻습니다. 말 그대로, 의미가 무엇이었을까요? 결국 아직 사용하지 않았기 때문입니다. 플레이어 코드를 주석 처리하고 이 구조체를 추가하세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 struct BackView: View {
@@ -221,7 +294,7 @@ struct RecView: View {
     @State var letter2D:String
     @State var color2D:LinearGradient
     @Binding var boxes:[CGSize]
-   
+
     var body: some View {
         HStack(spacing: paras.spaces) {
                 Rectangle()
@@ -230,7 +303,7 @@ struct RecView: View {
                     .frame(width: boxes[index2D].width, height: boxes[index2D].height * 3)
                     .padding(.trailing,0)
                     .rotation3DEffect(.degrees(paras.angles[index2D]), axis: (x:paras.axis[index2D].x.cg, y: paras.axis[index2D].y.cg,z:paras.axis[index2D].z.cg), anchor: .center, anchorZ: 0, perspective: 2)
-   
+
                     .animation(.easeOut(duration: 4), value: paras.offsets)
                     .scaleEffect(paras.zoomer[index2D])
         }
@@ -240,8 +313,18 @@ struct RecView: View {
 
 마지막으로, ContentView 주석 처리 된 섹션에 BackView 코드를 추가해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-19-RecreateAdobeAfterEffectsWithSFXUsingSwiftUI_0.png" />
 
@@ -251,8 +334,18 @@ struct RecView: View {
 
 제가 글자에 색상을 입히기 위해 LinearGradient을 사용했습니다. 이 그라데이션을 흑백으로 변경하는 불 버튼을 이용했어요. 이 효과는 RecView()에 추가한 "combine publisher"를 사용해서 만들었습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```swift
 .onReceive(colorPublisher, perform: { message in
@@ -292,7 +385,18 @@ TimelineView(.periodic(from: .now, by: 0.010)) { timeline in
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 위 코드로 결과를 만들어냅니다. 단어를 읽을 수 있나요?
 
@@ -302,7 +406,18 @@ TimelineView(.periodic(from: .now, by: 0.010)) { timeline in
 
 마스크 뒤에 더 반응적인 환경이 있는 것이 더 의미가 있습니다. 이 코드로 배경을 바꿔보세요. 이렇게 하면 간단한 장면을 설정하고, 상자를 생성하는 subscriber를 만들어 땅으로 떨어뜨릴 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```swift
 let wedgePublisher = PassthroughSubject<Color, Never>()
@@ -311,7 +426,7 @@ var wedgeSubscriber: AnyCancellable!
 class GameScene: SKScene {
     override func didMove(to view: SKView) {
         physicsBody = SKPhysicsBody(edgeLoopFrom: frame)
-        
+
         wedgeSubscriber = wedgePublisher
             .sink(receiveValue: { [self] color in
                 let newCord = CGPoint(x: Double.random(in: 0..<screenWidth), y: screenHeight)
@@ -366,7 +481,18 @@ struct Actions3: View {
 
 마지막으로, 위의 코드로 새로운 뷰를 메인 ContentView에 추가하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-19-RecreateAdobeAfterEffectsWithSFXUsingSwiftUI_1.png)
 
@@ -378,34 +504,45 @@ struct Actions3: View {
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*gPnu41TzBgkxSEQpETw4yw.gif)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마침내, 저는 다루지 않은 또 다른 태그인 shadow입니다. 그러나 이것은 세 가지 기본 색상인 빨강, 녹색, 파랑으로 그림자를 분할하는 일반적인 효과가 아닙니다.
 
 ```js
 struct NewView: View {
-    
+
     @State private var timeRemaining = 0.0
-    
+
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
     let shadowRange: CGFloat = 4
-    
+
     @State var redShadow = Color.clear
     @State var greenShadow = Color.clear
     @State var blueShadow = Color.clear
-    
+
     @State var redSX: CGFloat = 8
     @State var redSY: CGFloat = 8
     @State var blueSX: CGFloat = 8
     @State var blueSY: CGFloat = -8
     @State var greenSX: CGFloat = -8
     @State var greenSY: CGFloat = -8
-    
+
     @State var offsets = CGSize.zero
     @State private var offset = CGSize.zero
-    
+
     var body: some View {
-        
+
         Text("shadows")
             .font(Fonts.neutonRegular(size: 128))
             .foregroundColor(Color.white)
@@ -458,8 +595,18 @@ struct NewView: View {
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*uIcWBVllxhskBGinI2Nayg.gif" />
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 조금 놀아보세요; 그림자의 시간과 오프셋을 변경해보세요.
 

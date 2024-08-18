@@ -3,17 +3,13 @@ title: "맥에서 GTA 5를 하는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-20-HowtoPlayGTA5onMac_0.png"
 date: 2024-06-20 14:32
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-HowtoPlayGTA5onMac_0.png
 tag: Tech
 originalTitle: "How to Play GTA 5 on Mac"
 link: "https://medium.com/@kukucourses/how-to-play-gta-5-on-mac-cef807cb2cdb"
 isUpdated: true
 ---
-
-
-
-
 
 ## GTA 5을 맥에서 하는 방법을 안내할게요
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 제 맥 구성이 높다고 해서 낮은 구성의 여러분이 맥에서 GTA 5를 즐기지 못하는 건 아니에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## macOS에서 게임을 플레이할 수 있는 세 가지 방법이 있어요.
 
@@ -35,7 +42,18 @@ isUpdated: true
 
 Crossover는 매우 저렴해요. 연간 20달러에 구매할 수 있어요. 저는 지난 2년 동안 사용해 왔는데, 1년이 지나도 갱신하지 않아도 계속 사용할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 갱신을 하지 않으면 지원을 받을 수 없습니다. 저는 2년 동안 사용했는데, 솔직히 지원이 필요한 적은 없었어요. 그러니 여기서 Crossover를 구매하고 즐기세요.
 
@@ -45,7 +63,18 @@ Crossover는 매우 저렴해요. 연간 20달러에 구매할 수 있어요. �
 
 아래에는 이를 도와줄 단계별 튜토리얼이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 비디오를 보시면 맥에서 GTA 5를 플레이하는 데 정말 도움이 될 거에요.
 

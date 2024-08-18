@@ -3,17 +3,13 @@ title: "LLM과 지식 그래프를 결합하여 AWS에서 금융 데이터 분�
 description: ""
 coverImage: "/assets/img/2024-07-09-ArtificalRelationalIntelligenceCombiningLLMsandKnowledgeGraphstoAugmentFinancialDataAnalysisusingAWS_0.png"
 date: 2024-07-09 23:13
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-ArtificalRelationalIntelligenceCombiningLLMsandKnowledgeGraphstoAugmentFinancialDataAnalysisusingAWS_0.png
 tag: Tech
 originalTitle: "Artifical Relational Intelligence : Combining LLMs and Knowledge Graphs to Augment Financial Data Analysis using AWS"
 link: "https://medium.com/@alcarazanthony1/relational-intelligence-combining-llms-and-knowledge-graphs-to-augment-financial-data-analysis-b67a772f3c4b"
 isUpdated: true
 ---
-
-
-
-
 
 재정 분야에서 연결을 이해하는 것은 권력입니다. 자산 관리자들은 어마어마한 과제에 직면합니다. 그들은 방대한 포트폴리오 내부의 숨겨진 연결을 발견해야 합니다. 이러한 통찰을 통해 투자가 성공할 수도 실패할 수도 있습니다.
 
@@ -23,7 +19,18 @@ Xan Huang에 의해 AWS에서 만들어졌습니다.
 
 이것이 허락하는 것은 무엇인가요? 자세히 살펴보겠습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 위험 대비: 잠재적인 위협을 발견합니다.
 - 기회 발견: 숨겨진 연결이 새로운 투자 가능성을 드러냅니다.
@@ -37,7 +44,18 @@ Xan Huang에 의해 AWS에서 만들어졌습니다.
 
 먼저, 회계 보고서가 S3 버킷에 착륙합니다. 이로 인해 람다 함수가 트리거됩니다. 해당 함수는 파일 세부 정보를 SQS 대기열로 보냅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 매 분마다, 이벤트 브릿지는 람다 함수를 계속 활성화합니다. 그리고 다음 대기열 메시지를 가져와 스텝 함수를 시작합니다.
 
@@ -47,7 +65,18 @@ Xan Huang에 의해 AWS에서 만들어졌습니다.
 
 그런 다음, 각 청크를 처리합니다. 엔티티, 관계 및 감정을 추출합니다. 🌟
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시스템은 이 정보를 통합합니다. 노이즈를 걸러내고, 개체의 의미를 명확히 합니다. 추출된 데이터를 넵튠 그래프와 비교합니다. 새로운 개체가 그래프에 추가되고, 기존의 것들은 업데이트를 받습니다.
 
@@ -57,17 +86,39 @@ Xan Huang에 의해 AWS에서 만들어졌습니다.
 
 이 혁신적인 시스템은 금융 업무를 변혁합니다. 데이터를 다르게 분석하며, 사람의 눈이 놓칠 수 있는 연결점을 찾습니다. 이는 전례 없는 명확성으로 세계 시장을 탐험합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Knowledge Graph](/assets/img/2024-07-09-ArtificalRelationalIntelligenceCombiningLLMsandKnowledgeGraphstoAugmentFinancialDataAnalysisusingAWS_0.png)
 
-여러분의 포트폴리오에서 중요한 기술 회사인 TechCorp가 중심에 있는 인공 관계 지능 시스템으로 구축된 지식 그래프를 상상해 보세요. 회사, 사람, 이벤트 및 관계가 그 밑바탕을 형성합니다.  
+여러분의 포트폴리오에서 중요한 기술 회사인 TechCorp가 중심에 있는 인공 관계 지능 시스템으로 구축된 지식 그래프를 상상해 보세요. 회사, 사람, 이벤트 및 관계가 그 밑바탕을 형성합니다.
 
-여러분의 TechCorp와 관련된 핵심 공급업체, 고객, 경쟁사와 연결된 여러 개의 선이 그려집니다. 각 선은 하나의 이야기를 담고 있습니다.  
+여러분의 TechCorp와 관련된 핵심 공급업체, 고객, 경쟁사와 연결된 여러 개의 선이 그려집니다. 각 선은 하나의 이야기를 담고 있습니다.
 
 한 선은 ChipCo로 이어집니다. 이것은 중요한 공급업체입니다. 이 관계는 강하고 필수적입니다. 또 다른 선은 RetailGiant에 연결됩니다. 이것은 TechCorp의 가장 큰 고객입니다. 이 선은 거래로 활기차게 움직입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 InnovateNow으로 이어지는 점선이 늘어나 있어요. 잠재적인 경쟁사입니다. 연결이 약하지만 주시하는게 좋아요. Jane Doe에게 이어지는 실선이 있어요. 그녀는 TechCorp의 CEO에요. 그녀의 노드는 다른 회사들과도 연결돼 있어요. 그녀는 여러 이사회에 참여하고 있어요.
 
@@ -77,9 +128,20 @@ InnovateNow으로 이어지는 점선이 늘어나 있어요. 잠재적인 경�
 
 ![Artifical Relational Intelligence](/assets/img/2024-07-09-ArtificalRelationalIntelligenceCombiningLLMsandKnowledgeGraphstoAugmentFinancialDataAnalysisusingAWS_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-한 가지씩 자세히 분석해 보겠습니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+한 가지씩 자세히 분석해 보겠습니다.
 
 감춰진 연결이 드러나게 될 거에요.
 
@@ -87,7 +149,18 @@ InnovateNow으로 이어지는 점선이 늘어나 있어요. 잠재적인 경�
 
 금융의 미래는 관계의 언어로 말합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 현대 포트폴리오 관리의 과제
 
@@ -97,17 +170,39 @@ InnovateNow으로 이어지는 점선이 늘어나 있어요. 잠재적인 경�
 
 전통적인 모니터링으로는 부족합니다. 키워드 기반의 뉴스 경보 시스템? 너무 단순합니다. 중요한 진행상황에서 발생하는 미묘하고 간접적인 영향을 놓치게 되는 것입니다. 다음 시나리오를 살펴보세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-**노동 파업이 벌어집니다. 투자 대상은 아니지만, 핵심 공급업체에 속합니다. 뉴스 제목에는 회사명이 나오지 않겠지만, 수익이 급락할 수도 있어요.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+\*\*노동 파업이 벌어집니다. 투자 대상은 아니지만, 핵심 공급업체에 속합니다. 뉴스 제목에는 회사명이 나오지 않겠지만, 수익이 급락할 수도 있어요.
 
 투자 대상의 주요 고객이 재정적으로 힘들어집니다. 처음에는 명백하지 않을지라도, 파급 효과는 상당할 수 있어요.
 
 새로운 규제가 관련 없어 보이는 산업에서 나타나요. 효과는 연속해서 발생합니다. 결국 당신의 투자 포트폴리오까지 영향을 미치겠지요.
 
-혁신이 인접한 분야를 격변시킵니다. 갑자기 새로운 경쟁 업체가 등장하기도 하고, 새로운 기회가 발생하기도 합니다.**
+혁신이 인접한 분야를 격변시킵니다. 갑자기 새로운 경쟁 업체가 등장하기도 하고, 새로운 기회가 발생하기도 합니다.\*\*
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것들은 2차 및 3차 영향입니다. 여기에는 도전과 기회가 실제로 존재합니다. 전통 시스템들은 이들을 포착하지 못합니다. 그들은 맥락이 부족하며 관계를 놓칩니다. 데이터에 물들어 버립니다.
 
@@ -117,7 +212,18 @@ LLM은 맥락과 뉘앙스를 이해합니다. KG는 복잡한 관계를 매핑�
 
 이 접근법은 숨어있는 연결을 발견합니다. 인간보다 빨리 잠재적인 영향을 감지합니다. 자산 관리자가 전략에 집중할 수 있도록 데이터 정제에 제한을 두었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 지식 그래프 기초 구축
 
@@ -127,7 +233,18 @@ LLM은 맥락과 뉘앙스를 이해합니다. KG는 복잡한 관계를 매핑�
 
 ## 금융 분석에서 지식 그래프의 역할
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 건설 프로세스에 들어가기 전에, 재무 분석에 특히 적합한 지식 그래프에 대해 이해하는 것이 중요합니다:
 
@@ -141,7 +258,18 @@ LLM은 맥락과 뉘앙스를 이해합니다. KG는 복잡한 관계를 매핑�
 
 우리 지식 그래프의 기초는 기업의 연례 보고서에 포함된 다양한 정보에 기반합니다. 이러한 문서는 기업의 운영, 관계 및 전략적 초점을 포괄적으로 보여줍니다. 그러나 이러한 비정형 텍스트 문서에서 구조화된 정보를 추출하는 것은 어려운 과제입니다. 이러한 작업은 대형 언어 모델의 능력에 완벽하게 부합하는 작업입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 과정이 어떻게 펼쳐지는지 알려드리겠어요:
 
@@ -156,7 +284,18 @@ LLM은 맥락과 뉘앙스를 이해합니다. KG는 복잡한 관계를 매핑�
 
 ## Amazon Bedrock를 활용한 엔티티 추출 및 관계 매핑
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아마존 베드락을 활용하는 것, 특히 Claude v3 Sonnet과 같은 모델은 이 프로세스에서 중요합니다. 이러한 대형 언어 모델은 몇 가지 핵심 능력을 제공합니다:
 
@@ -170,7 +309,18 @@ LLM은 맥락과 뉘앙스를 이해합니다. KG는 복잡한 관계를 매핑�
 
 정보가 추출되고 처리되면 효율적인 조회와 분석이 가능하도록 저장되어야 합니다. 이때 목적에 특화된 그래프 데이터베이스 서비스인 아마존 넵튠이 필요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지식 그래프를 채우는 과정은 몇 가지 주요 단계로 구성되어 있어요:
 
@@ -184,7 +334,18 @@ Amazon Neptune의 결과 지식 그래프는 금융 분석에 강력한 도구�
 
 예를 들어, 분석가는 이 그래프를 사용하여:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 회사의 전체 공급망을 추적하여 잠재적인 취약점이나 기회를 식별합니다.
 - 핵심 공급업체나 고객을 공유하는 기업을 식별함으로써 간접적인 경쟁 요인을 발견합니다.
@@ -197,7 +358,18 @@ Amazon Bedrock의 LLMs의 자연어 이해 능력과 Amazon Neptune에서 지식
 
 연례 보고서로부터 구축된 지식 그래프는 비즈니스 환경을 이해하는 견고한 기반을 제공합니다만, 금융 세계는 빠른 속도로 움직입니다. 실제로 선반이 되려면 자산 관리자는 분석에 실시간 정보를 통합해야 합니다. 여기서 뉴스 처리의 통합이 결정적인 역할을 하며, 시스템이 재빠르게 금융 생태계의 이해를 업데이트하고 떠오르는 트렌드와 위험을 발견할 수 있도록 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 실시간 뉴스 데이터 통합
 
@@ -209,7 +381,18 @@ Amazon Bedrock의 LLMs의 자연어 이해 능력과 Amazon Neptune에서 지식
 
 ## 엔티티 추출 및 감성 분석을 위한 Amazon Bedrock 활용
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한번 뉴스 기사가 처리 준비가 되면, Amazon Bedrock이 다시 등장하여 관련 정보를 추출하고 감성을 분석합니다:
 
@@ -224,7 +407,18 @@ Amazon Bedrock의 LLMs의 자연어 이해 능력과 Amazon Neptune에서 지식
 - 적응성: 뉴스 소스와 글쓰기 스타일이 변화해도 LLM은 지속적인 규칙 업데이트를 요구하지 않고 적응할 수 있습니다.
 - 다국어 지원: LLM은 다국어로 된 뉴스를 처리할 수 있어 금융 이벤트에 대한 세계적인 시각을 제공할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 기존 지식 그래프와 뉴스 이벤트 연결하기
 
@@ -237,7 +431,18 @@ Amazon Bedrock의 LLMs의 자연어 이해 능력과 Amazon Neptune에서 지식
 
 뉴스 이벤트를 기존 지식 그래프에 연결함으로써, 시스템은 금융 생태계의 동적이고 지속적으로 업데이트되는 표현을 만들어냅니다. 이를 통해 비즈니스 환경의 변화를 실시간으로 모니터링하고 신흥 트렌드나 리스크를 조기에 식별할 수 있도록 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 숨겨진 연결 찾기와 위험평가를 위한 그래프 알고리즘 적용
 
@@ -247,7 +452,18 @@ Amazon Bedrock의 LLMs의 자연어 이해 능력과 Amazon Neptune에서 지식
 
 ## 가장 짧은 경로 알고리즘
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최단 경로 알고리즘은 그래프 내 두 요소 사이의 가장 빠른 연결을 식별하는 데 도움을 줍니다. 금융 분석에서는 다음과 같이 활용될 수 있습니다:
 
@@ -259,7 +475,18 @@ Amazon Bedrock의 LLMs의 자연어 이해 능력과 Amazon Neptune에서 지식
 
 이 경로는 뉴스만으로는 즉시 명확하지 않은 잠재적 간접 영향을 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 페이지 랭크 알고리즘
 
@@ -271,7 +498,18 @@ Amazon Bedrock의 LLMs의 자연어 이해 능력과 Amazon Neptune에서 지식
 
 예를 들어, 알고리즘은 Company D가 Company A와의 다수의 연결 및 공동 CEO로 인해 높은 페이지 랭크를 가진 것으로 나타나며, 이는 포트폴리오에 미치는 중요한 영향 가능성을 보여줍니다[2].
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 커뮤니티 탐지
 
@@ -283,7 +521,18 @@ Amazon Bedrock의 LLMs의 자연어 이해 능력과 Amazon Neptune에서 지식
 
 예를 들어, 알고리즘은 회사 A, B, D, E 및 H가 밀접하게 연결된 커뮤니티를 형성한다는 것을 드러낼 수 있으며, 이는 이들이 유사한 위험 프로필을 갖거나 유사한 시장 요인에 영향을 받을 수 있음을 시사할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 중심성 측정 (예: 매개 중심성)
 
@@ -295,7 +544,18 @@ Amazon Bedrock의 LLMs의 자연어 이해 능력과 Amazon Neptune에서 지식
 
 예를 들어, 알고리즘이 회사 G가 높은 매개 중심성을 갖고 있어 경쟁사인 회사 D를 공유 시장에 연결하는 주요 사업체로 나타낼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Subgraph Isomorphism
 
@@ -305,9 +565,20 @@ Amazon Bedrock의 LLMs의 자연어 이해 능력과 Amazon Neptune에서 지식
 - 이해관계 또는 관련 구조에 대한 잠재적인 이해관계의 충돌 발견
 - 관계 구조가 유사한 기업을 비교 분석하기 위해 사용
 
-자산 관리자는 "공급자 - ` 원자재 공급자 - ` 광업 작업" 패턴의 모든 사례를 식별하여 포트폴리오 전체의 공급망 리스크를 평가할 수 있습니다.
+자산 관리자는 "공급자 - `원자재 공급자 -` 광업 작업" 패턴의 모든 사례를 식별하여 포트폴리오 전체의 공급망 리스크를 평가할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 시간별 그래프 분석
 
@@ -319,7 +590,18 @@ Amazon Bedrock의 LLMs의 자연어 이해 능력과 Amazon Neptune에서 지식
 
 예를 들어, 시스템은 뉴스 이벤트 2(신규 규제)의 추가가 시간이 지남에 따라 Company G의 중심성에 어떤 영향을 미치는지 추적하여 진화하는 규제 환경에 대한 통찰을 제공할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AWs는 알고리즘 구현에 파워를 제공해요. 아마존 넵튠의 확장 가능성이 빛을 발하는 순간이에요. 복잡한 그래프의 실시간 분석이 가능해져요. 자산 관리자들은 직관적 시각화를 통해 실행 가능한 통찰을 얻어요.
 
@@ -329,7 +611,18 @@ AWs는 알고리즘 구현에 파워를 제공해요. 아마존 넵튠의 확장
 
 다중 요인 위험 평가: 근접성이 영향력을 만나요. 최단 경로가 페이지랭크와 얽히게 되어 섬세한 위험 점수가 나타나요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **카스케이드 효과 예측:** 사건이 파급된다. 커뮤니티가 연결된다. 우리 시스템은 확산을 예견하여 적극적인 리스크 관리를 가능하게 합니다.
 
@@ -339,7 +632,18 @@ AWs는 알고리즘 구현에 파워를 제공해요. 아마존 넵튠의 확장
 
 **동적 리스크 지형:** 시간이 흐르면서, 리스크는 변화합니다. 우리 시스템은 적응합니다. 변화를 추적하고, 평가를 업데이트하며, 절대로 휴식하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 단순히 연결 추적만이 아닙니다. 자산 관리자들은 전례 없는 정밀도로 위험을 평가합니다. 그들은 연쇄적인 영향을 예측합니다. 그들은 주요 모니터링 영역을 정확하게 지정합니다. 거의 실시간으로 이 모든 것을 수행합니다.
 
@@ -349,19 +653,41 @@ AWs는 알고리즘 구현에 파워를 제공해요. 아마존 넵튠의 확장
 
 자산 관리자들은 보이지 않는 것을 본다. 예기치 못한 일을 예언합니다. 시장 움직임? 그들은 변곡점 앞에 서 있습니다. 위험과 기회, 모두 그들이 먼저 발견합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-# 금융 분석의 새로운 시대  
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-우리는 길목에 서 있습니다. 대형 언어 모델(LLM)과 지식 그래프(KG)의 융합이 금융을 변화시키고 있습니다. AWS의 역동적인 인텔리전스가 데이터 분석 방식을 형태를 바꾸고 있습니다.  
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
-주요 구성 요소를 다시 살펴보겠습니다:  
+# 금융 분석의 새로운 시대
 
-- 기반 구축: LLM은 연례 보고서를 분석합니다. 아마존 베드락이 선두를 달립니다. 지식 그래프는 아마존 넵튠에서 형성됩니다. 그 결과로, 다채로운 비즈니스 관계들이 풍부한 직조를 이룹니다.  
-- 실시간 풍부화: 뉴스는 절대 쉬지 않습니다. 우리의 시스템도 마찬가지입니다. 이는 지식 그래프를 지속적으로 업데이트합니다. 금융 생태계에 대한 우리의 시야는 신선하고 관련성 있습니다.  
+우리는 길목에 서 있습니다. 대형 언어 모델(LLM)과 지식 그래프(KG)의 융합이 금융을 변화시키고 있습니다. AWS의 역동적인 인텔리전스가 데이터 분석 방식을 형태를 바꾸고 있습니다.
+
+주요 구성 요소를 다시 살펴보겠습니다:
+
+- 기반 구축: LLM은 연례 보고서를 분석합니다. 아마존 베드락이 선두를 달립니다. 지식 그래프는 아마존 넵튠에서 형성됩니다. 그 결과로, 다채로운 비즈니스 관계들이 풍부한 직조를 이룹니다.
+- 실시간 풍부화: 뉴스는 절대 쉬지 않습니다. 우리의 시스템도 마찬가지입니다. 이는 지식 그래프를 지속적으로 업데이트합니다. 금융 생태계에 대한 우리의 시야는 신선하고 관련성 있습니다.
 - 고급 분석: 알고리즘들이 그래프를 횡단하며, 숨겨진 연결을 발견합니다. 그들은 다양한 각도에서 위험을 평가합니다. 한때 보이지 않았던 기회들이 빛을 발합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 The implications? Profound.
 
@@ -371,7 +697,18 @@ Opportunities are multiplying. Non-obvious relationships are emerging. Trends ar
 
 Efficiency is skyrocketing. Automation is handling the grunt work. Asset managers are focusing on strategy, not data processing. Their expertise is finding its highest use.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전략은 융통성을 갖게 됩니다. 새로운 정보가 지속적으로 유입됩니다. 투자 논문이 적응하고, 포트폴리오가 변화합니다. 유연성이 표준이 되어갑니다.
 
@@ -385,7 +722,18 @@ Efficiency is skyrocketing. Automation is handling the grunt work. Asset manager
 - 자산간 분석이 숨겨진 상관 관계를 드러낼 수 있습니다. 주식. 채권. 원자재. 모두 연결되어 있습니다.
 - 윤리적 고려사항이 중심에 서 있게 될 것입니다. 우리의 힘이 커짐에 따라, 책임도 커집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 The message is crystal clear, darling. Relational intelligence isn’t just a leg-up these days. It’s becoming an essential asset. The knack for revealing those subtle interconnections is what will set the trendsetters apart from the crowd.
 
@@ -395,6 +743,17 @@ The financial terrain is undergoing a radical shift. The burning question is: wi
 
 ## References:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [1] Amazon Bedrock 및 Amazon Neptune을 활용하여 비구조화된 금융 데이터의 숨겨진 연결을 발견하세요. GitHub 저장소. [링크](https://github.com/aws-samples/uncovering-hidden-connections-in-unstructured-financial-data)

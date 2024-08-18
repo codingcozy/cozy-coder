@@ -3,7 +3,7 @@ title: "SSH  비밀번호"
 description: ""
 coverImage: "/assets/img/2024-06-19-SSHPasswords_0.png"
 date: 2024-06-19 08:39
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-SSHPasswords_0.png
 tag: Tech
 originalTitle: "SSH > Passwords"
@@ -11,17 +11,24 @@ link: "https://medium.com/@mitchkodes/ssh-passwords-f43b9d027008"
 isUpdated: true
 ---
 
-
-
-
-
 아주 많은 사람들이 비밀번호와 그 작동 방식에 익숙합니다. 그래서 이 글에서는 SSH 키에 조금 더 초점을 맞추어 어떻게 작동하는지 살펴보겠습니다.
 
 SSH가 무엇인가요?
 
 SSH는 Secure Shell의 약자입니다. SSH는 컴퓨터가 리소스에 액세스하고 리눅스 서버에 변경을 가하는 데 사용되는 프로토콜입니다. 간단히 말해 SSH는 사용자가 파일과 같은 서버에 저장된 리소스를 볼 수 있고 변경할 수 있도록 해줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SSH 키
 
@@ -31,7 +38,18 @@ SSH 작동 방식
 
 SSH 키를 사용하여 서버에 연결하는 것이 아마도 더 안전하고 번거롭지 않을 것입니다. 사용자가 서버에 액세스하려면 간단한 bash 명령을 입력하면 되며, 원격 서버는 사용자의 공개 키가 원격 서버의 authorized_keys 파일에 저장된 공개 키와 일치하는지 확인합니다. 일치하는 경우, 원격 서버는 무작위 문자열을 생성한 후 이를 암호화하여 SSH 터널을 통해 사용자에게 보냅니다. 암호화된 문자열을 수신한 사용자 장치는 자체 개인 키를 사용하여 이를 복호화합니다. 복호화된 문자열은 이전에 합의된 세션 ID와 결합되어 MD5 해시를 생성하며, 이러한 MD5 해시는 해당 서버에서 무작위 문자열과 세션 ID로 생성한 MD5 해시와 비교하기 위해 서버로 다시 보내집니다. 두 MD5 해시가 일치하는 경우 사용자는 서버에 액세스할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 방법으로 서버에 접속하는 것은 암호보다 더 안전합니다. 보통 사람들이 봇을 사용하여 암호를 추측하고 서버에 액세스하는 경우가 적기 때문입니다.
 
@@ -43,7 +61,18 @@ SSH 키를 생성하기 전에 먼저 SSH 프로그램이 설치되어 있는지
 sudo apt-get install openssh-server
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그런 다음 SSH 키 쌍을 생성하기 위해 다음 명령을 실행합니다:
 
@@ -55,7 +84,18 @@ sudo ssh-keygen -t rsa
 
 위 명령을 실행한 후 우리는 키를 저장할 위치를 입력하라는 메시지를 받게 됩니다. 이 옵션을 비워두고 Enter를 누르면 키는 기본 위치인 /your_home/.ssh/id_rsa에 저장됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 RSA 키 쌍을 생성 중입니다.
@@ -70,7 +110,18 @@ RSA 키 쌍을 생성 중입니다.
 
 위 단계를 완료하면 특정 위치에 키 쌍이 생성되며, 이제 해당 키를 사용하여 서버에 액세스할 수 있게 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 당신의 식별 정보가 /your_home/.ssh/id_rsa에 저장되었습니다.
@@ -97,8 +148,18 @@ SHA256:/hk7MJ5n5aiqdfTVUZr+2Qt+qCiS7BIm5Iv0dxrc3ks user@host
 
 간단한 명령어로 우리의 공개 키 파일 내용에 접근할 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 cat ~/.ssh/id_rsa.pub
@@ -110,9 +171,20 @@ cat ~/.ssh/id_rsa.pub
 
 ```js
 ssh-copy-id user@remote_server
-```  
+```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 원격 서버에 사용자명을 본인의 사용자명으로 변경하고 원격 서버를 호스트 이름 또는 IP 주소로 바꿉니다.
 
@@ -122,7 +194,18 @@ SSH를 사용하여 원격 서버에 연결합니다.
 
 이제 간단한 명령을 사용하여 원격 서버에 연결할 수 있습니다. 이렇게 하면 로컬 머신에 쓴 명령이 암호화되어 SSH 터널을 통해 전송되고 원격 서버에서 해독되어 실행됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ssh user@remote_server
@@ -131,13 +214,23 @@ ssh user@remote_server
 지금부터 로컬 머신에서 입력하는 모든 명령이 원격 서버에서 실행됩니다. 세션을 종료하기 전까지는 보통 간단한 exit 명령으로 세션을 종료할 수 있습니다.
 
 ```js
-exit
+exit;
 ```
 
 맺음말
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로, 원격 서버에 액세스하는 경우 SSH 키가 더 안전한 옵션이며 표준이어야 한다고 생각합니다.
 

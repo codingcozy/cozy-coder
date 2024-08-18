@@ -3,17 +3,13 @@ title: "리눅스 디렉터리 구조"
 description: ""
 coverImage: "/assets/img/2024-06-19-LinuxDirectoryStructure_0.png"
 date: 2024-06-19 14:55
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-LinuxDirectoryStructure_0.png
 tag: Tech
 originalTitle: "Linux Directory Structure"
 link: "https://medium.com/@dheeruthedeployer/linux-directory-structure-03ab5c23e993"
 isUpdated: true
 ---
-
-
-
-
 
 # Linux 디렉토리 구조에 대한 자세한 설명
 
@@ -24,7 +20,18 @@ isUpdated: true
 - Linux 시스템이 시작되면 BIOS 또는 UEFI 펌웨어가 하드웨어를 초기화하고 부팅로더(예: GRUB)를 /boot 디렉토리에서 불러옵니다.
 - 부팅로더는 커널(/boot/vmlinuz)과 초기 RAM 디스크(/boot/initrd.img)를 메모리에 불러옵니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 커널 초기화 (/proc, /sys)
 
@@ -35,7 +42,18 @@ isUpdated: true
 
 시스템 및 서비스 초기화 (/etc, /lib, /sbin, /run)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 커널이 초기화된 후에는 부팅 프로세스를 담당하는 init 프로세스(또는 현대의 Linux 시스템에서는 systemd)가 시작됩니다.
 - systemd는 /etc/systemd 및 /etc의 다른 디렉토리에서 구성 파일을 읽어 필요한 시스템 서비스를 시작합니다.
@@ -52,7 +70,18 @@ isUpdated: true
 - 사용자 응용 프로그램 및 도구는 일반적으로 /usr/bin 및 /usr/local/bin에 저장됩니다.
 - 선택적 및 제3자 응용 프로그램은 /opt에 설치됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 시스템 작동
 
@@ -63,7 +92,18 @@ isUpdated: true
 
 구성 및 관리 (/etc)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - /etc에 있는 설정 파일들은 시스템 동작, 네트워크 설정, 사용자 계정 정보, 서비스 구성을 정의합니다.
 - 관리자들은 이러한 파일을 편집하여 시스템 설정을 관리합니다.
@@ -76,7 +116,18 @@ isUpdated: true
 
 임시 파일 (/tmp, /var/tmp)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 애플리케이션이 /tmp 및 /var/tmp에 임시 파일을 저장합니다.
 - /tmp에있는 파일은 일반적으로 재부팅 시 삭제되지만, /var/tmp에있는 파일은 다시 부팅해도 유지됩니다.
@@ -88,7 +139,18 @@ isUpdated: true
 - 사용자는 /usr/bin이나 /usr/local/bin에서 애플리케이션을 실행합니다.
 - 해당 애플리케이션은 /lib이나 /usr/lib에서 공유 라이브러리를 로드할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하드웨어와 상호 작용하기
 
@@ -98,7 +160,18 @@ isUpdated: true
 
 - 사용자별 데이터 및 구성은 사용자의 홈 디렉토리 (/home/사용자이름)의 파일에서 읽거나 쓰여집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로그 및 임시 데이터
 
@@ -109,7 +182,18 @@ isUpdated: true
 
 소프트웨어 업데이트
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 시스템 및 응용 프로그램 업데이트는 /bin, /sbin, /lib, /usr/bin, /usr/sbin 또는 /opt에 새 파일을 설치할 수 있습니다.
 
@@ -119,7 +203,18 @@ isUpdated: true
 
 모니터링 및 문제 해결
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `/var/log`에 있는 로그는 시스템 상태를 모니터링하고 문제를 해결하기 위해 검토됩니다.
 
@@ -129,8 +224,18 @@ isUpdated: true
 
 디렉토리 구조 개요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 /
 ├── bin
@@ -156,18 +261,14 @@ isUpdated: true
 │ ├── local
 │ └── sbin
 └── var
- ├── log
- ├── spool
- └── tmp
-
-
+├── log
+├── spool
+└── tmp
 
 |- / (Root)
 
 설명: 모든 다른 디렉토리가 뻗어나온 최상위 디렉토리입니다.
 예시: /bin, /etc, /home은 모두 /의 하위 디렉토리입니다.
-
-
 
 |- /bin
 
@@ -177,8 +278,6 @@ isUpdated: true
 /bin/bash (Bourne Again Shell)
 /bin/cp (파일과 디렉토리 복사)
 
-
-
 |- /boot
 
 설명: 부트로더 파일과 커널 이미지가 들어 있습니다.
@@ -187,11 +286,21 @@ isUpdated: true
 /boot/initrd.img (초기 RAM 디스크 이미지)
 /boot/grub/grub.cfg (GRUB 부트로더 구성 파일)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-| - /dev 
+| - /dev
 
 설명: 하드웨어 장치를 나타내는 장치 파일이 포함되어 있습니다.
 예시:
@@ -202,7 +311,7 @@ isUpdated: true
 ```
 
 ```js
-| - /etc 
+| - /etc
 
 설명: 시스템 전체의 구성 파일 및 초기화를 위한 쉘 스크립트가 포함되어 있습니다.
 예시:
@@ -213,7 +322,7 @@ isUpdated: true
 ```
 
 ```js
-| - /home 
+| - /home
 
 설명: 시스템에 존재하는 각 사용자의 개인 디렉토리가 포함되어 있습니다. (사용자별 데이터)
 예시:
@@ -223,17 +332,27 @@ isUpdated: true
 ```
 
 ```js
-| - /lib 
+| - /lib
 
 설명: 시스템 이진 파일이 필요로 하는 공유 라이브러리가 포함되어 있습니다.
 예시:
 /lib/libc.so.6 (C 표준 라이브러리)
 /lib/modules (커널 모듈)
 
-```  
+```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 |- /media
 
@@ -242,8 +361,6 @@ Description: USB 드라이브, CD 및 DVD와 같은 탈착식 미디어를 연�
 /media/cdrom (CD-ROM을 연결하는 마운트 포인트)
 /media/usb (USB 드라이브를 연결하는 마운트 포인트)
 
-
-
 |- /mnt
 
 Description: 임시로 파일 시스템을 마운트하는 일반적인 마운트 포인트입니다.
@@ -251,16 +368,12 @@ Description: 임시로 파일 시스템을 마운트하는 일반적인 마운�
 관리자는 다음과 같이 파일 시스템을 임시로 마운트할 수 있습니다:
 sudo mount /dev/sdb1 /mnt
 
-
-
 |- /opt
 
 Description: 선택적 소프트웨어 패키지 및 타사 응용 프로그램이 포함됩니다.
 예시:
 /opt/google (Google 애플리케이션의 설치 디렉토리)
 /opt/vmware (VMware 애플리케이션의 설치 디렉토리)
-
-
 
 |- /proc
 
@@ -270,8 +383,18 @@ Description: 프로세스 및 시스템에 대한 정보를 제공하는 가상 
 /proc/meminfo (메모리 사용량 정보)
 /proc/1234 (PID가 1234인 프로세스에 대한 정보를 포함하는 디렉토리)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 |- /root
@@ -310,7 +433,18 @@ Description: 프로세스 및 시스템에 대한 정보를 제공하는 가상 
 /srv/www (웹 서버 데이터)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 |- /sys
@@ -350,7 +484,18 @@ Description: 프로세스 및 시스템에 대한 정보를 제공하는 가상 
 /usr/lib/libssl.so (OpenSSL 라이브러리)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 |- /usr/local
@@ -373,21 +518,32 @@ Description: 로그, 데이터베이스 및 스풀 파일과 같은 변수 데�
 ```
 
 ```js
-|- /var/spool 
+|- /var/spool
 Description: 메일 및 인쇄와 같은 작업을 위한 스풀 디렉토리입니다.
 예시:
 /var/spool/mail (사용자 메일함)
 ```
 
 ```js
-|- /var/tmp: 
+|- /var/tmp:
 
 Description: 재부팅 간에 유지되는 임시 파일입니다.
 예시:
 세션 당보다 오래 지속되어야 하는 응용 프로그램이 생성하는 임시 파일.
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 요약
 

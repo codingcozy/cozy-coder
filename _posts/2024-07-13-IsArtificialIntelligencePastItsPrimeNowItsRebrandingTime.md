@@ -3,7 +3,7 @@ title: "인공지능의 전성기는 끝난 걸까 이제 리브랜딩의 시간
 description: ""
 coverImage: "/assets/img/2024-07-13-IsArtificialIntelligencePastItsPrimeNowItsRebrandingTime_0.png"
 date: 2024-07-13 22:23
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-IsArtificialIntelligencePastItsPrimeNowItsRebrandingTime_0.png
 tag: Tech
 originalTitle: "Is ‘Artificial Intelligence’ Past Its Prime? Now It’s Rebranding Time"
@@ -11,17 +11,24 @@ link: "https://medium.com/humanai/is-artificial-intelligence-past-its-prime-now-
 isUpdated: true
 ---
 
-
-
-
-
 최근 몇 년간 '인공 지능' (AI)이라는 용어는 실제 컴퓨터 과학자보다는 마케팅 전문가, 비관론자 및 유니콘 억만장자에 더 매력적인 오래된, 논란이 많은 마케팅 용어로 변해왔습니다.
 
 ## AI의 뿌리 넘어서
 
 최근 인공 지능에 대해 많이 쓰고 있는데, 이것이 매우 논란이 많은 주제인 것은 분명합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 신라이신해도 정성스러움과 열정으로 인공지능이 그저 뱀유전이 홍보물일 뿐이라고 주장하는 사람들이 있더라도, 이 문제에 대해 더 많은 정보를 알고 있는 사람들은 더 나은 용어를 찾으려 애쓰고 있습니다.
 
@@ -32,7 +39,18 @@ isUpdated: true
 
 모로조프가 언급한 대로, 요즘의 AI는 인간 예술품에 더 의존적이라는 점에 완전히 동의합니다. 두 번째 용어 '지능'에 대해서, 저자는 현대 AI의 강점이 패턴 매칭에 있다고 설명하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나 또한 지성이 무작위 추측 이상의 것이라고 생각합니다. 심지어 알고리즘 기반 신경망도 인간 뇌 일부가 하는 작업을 모방할 수 있지만, 그들이 할 수 없는 것은 뇌처럼 전체적인 체계적인 방식으로 기능하는 것입니다.
 
@@ -42,7 +60,18 @@ isUpdated: true
 
 뇌과학자 사비네 레닝어와 스콧 레니가 주최한 이 토론은 인공지능의 미래를 중심으로 진행되었으며, 활기찬 토론은 인간/동물 지성의 본질을 “인공지능”과 비교했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제게 중요한 것은 이 기술이 어떤 모습으로 발전할지는 우리 인간들이 결정해야 한다는 점이라는 것입니다. 우리 혼자가 그것을 암울한 쪽에 넘기거나 혹은 공공의 이익을 위해 활용할 것인지 선택할 권한이 있습니다.
 
@@ -52,7 +81,18 @@ isUpdated: true
 
 **AI의 새로운 브랜딩**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 그 회의에서 더 많은 질문을 가지고 나왔어요. 그렇게 될 수 있죠. 며칠 동안 나는 "우리가 AI라고 부르는 것의 한계에 대해 들었던 것"에 대해 생각해 오기를 멈출 수 없었어요.
 
@@ -62,17 +102,39 @@ isUpdated: true
 
 하지만, MTI라는 용어가 더 정확하고 포괄적인 용어로 작용할 수 있지만, 여전히 모든 측면을 다루지 못했어요. 보다시피, 빠져나가기 가장 쉬운 길은 일반적인 용어인 AI를 포기하고 각 특정 영역을 독립적으로 참조하는 것으로 시작하는 것이겠어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-**Roots of AI Conference의 Professor Correia가 공유한 최종 메시지를 고려할 때:
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+\*\*Roots of AI Conference의 Professor Correia가 공유한 최종 메시지를 고려할 때:
 
 당분간은 내가 80년대 내가 가장 좋아하는 TV 캐릭터에서 따와서 ALF(Algorithmic Learning Frame)로 부를거에요. 미래에는 "Algorithmic Learning Form"이라고 부를지도 몰라요.
 
 소중한 시간을 공유해줘서 고마워요. 이 주제에 대해 더 읽고 싶다면 새로운 글을 확인해보세요:
 
-## 왜 AI가 역사상 가장 큰 거짓이며 우리가 믿는 이유를 밝혀요**
+## 왜 AI가 역사상 가장 큰 거짓이며 우리가 믿는 이유를 밝혀요\*\*
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 황금 열풍이 불 때는 삽을 판다.
 

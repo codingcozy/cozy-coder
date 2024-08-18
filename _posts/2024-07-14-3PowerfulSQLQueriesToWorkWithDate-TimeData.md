@@ -3,17 +3,13 @@ title: "날짜 및 시간 데이터를 다루는 3가지 강력한 SQL 쿼리 �
 description: ""
 coverImage: "/assets/img/2024-07-14-3PowerfulSQLQueriesToWorkWithDate-TimeData_0.png"
 date: 2024-07-14 01:42
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-14-3PowerfulSQLQueriesToWorkWithDate-TimeData_0.png
 tag: Tech
 originalTitle: "3 Powerful SQL Queries To Work With Date-Time Data"
 link: "https://medium.com/towards-data-science/3-powerful-sql-queries-to-work-with-date-time-data-41681fea7c89"
 isUpdated: true
 ---
-
-
-
-
 
 ## 데이터 과학
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 데이터에서 날짜 및 시간 값을 보게 되면, 정보가 가득 담긴 보물로 보세요. 적어도 제가는 그렇게 생각해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보물 가운데 유용한 부분을 얻는 것은 쉽지 않죠. 이 글의 영감이 여기서 나왔어요.
 
@@ -34,7 +41,18 @@ isUpdated: true
 - 파이썬에서 날짜 - 시간 데이터 다루기를 위한 3가지 강력한 요령
 - 날짜시간 데이터 다루기 위한 3가지 유용한 판다스 팁
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 To get the most out of your date-time data in SQL, we'll share some insights on how you can maximize your results. Here's a sneak peek at what you'll discover:
 
@@ -45,13 +63,35 @@ To get the most out of your date-time data in SQL, we'll share some insights on 
 
 Excited to dive in? Let's begin our journey into the world of SQL date-time analysis! 🌟
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 가지 기본적인 것부터 시작해봅시다. 날짜-시간 값으로 작업할 때 알아야 할 키워드인 BETWEEN에 대해 알아보겠습니다.
 
 # SQL에서의 BETWEEN 키워드
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 BETWEEN 키워드는 WHERE 절에서 자주 사용되어 특정 범위 내에서 결과를 필터링하는 데 도움이 됩니다.
 
@@ -66,7 +106,18 @@ WHERE 1=1
 AND order_date BETWEEN '2021-08-01' AND '2021-08-31';
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Markdown format](/assets/img/2024-07-14-3PowerfulSQLQueriesToWorkWithDate-TimeData_2.png)
 
@@ -78,11 +129,22 @@ If you prefer not to use BETWEEN, you can achieve the same results with the quer
 SELECT *
 FROM alldata.salesdata
 WHERE 1=1
-AND order_date >= '2021-08-01' 
+AND order_date >= '2021-08-01'
 AND order_date <= '2021-08-31';
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 두 번째 쿼리를 추천하지 않습니다. WHERE 절에서 언급된 조건을 모든 레코드에서 확인하고 평가하기 때문입니다.
 
@@ -92,7 +154,18 @@ BETWEEN 키워드를 사용하는 것은 날짜 값을 기준으로 레코드를
 
 내가 언급했듯이, 데이터의 날짜-시간 값은 보물로 여겨지며 유용한 통찰력을 얻기 위해서는 더 심층적으로 파고들고 돌을 깨야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # SQL에서 날짜로부터 연도 및 월 추출하기
 
@@ -102,7 +175,18 @@ SQL 방언에 따라 날짜-시간 값에서 일, 월, 연도를 추출하는 �
 
 이제 그 방법을 보여드릴게요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 년, 월, 일, 분기와 같은 일부를 선택해서 어떤 정보를 원하는지 알려주세요. 그리고 날짜 및 시간 값을 포함하는 열의 이름도 알려주셔야 도와드릴 수 있어요.
 
@@ -118,7 +202,18 @@ FROM alldata.salesdata;
 
 ![Link to the Image](/assets/img/2024-07-14-3PowerfulSQLQueriesToWorkWithDate-TimeData_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단하죠?
 
@@ -139,7 +234,18 @@ FROM alldata.salesdata;
 
 ![작업 날짜 데이터를 처리하기 위한 3가지 강력한 SQL 쿼리](/assets/img/2024-07-14-3PowerfulSQLQueriesToWorkWithDate-TimeData_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 SQL 서버를 사용 중이라면 DATEPART 함수를 사용할 수 있습니다. AWS Redshift를 사용 중이라면 EXTRACT 함수를 계속 사용할 수 있습니다.
 
@@ -149,7 +255,18 @@ FROM alldata.salesdata;
 
 날짜 부분별로 데이터 집계를 수행하면 데이터에 숨겨진 패턴과 트렌드를 식별할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특정 기간에 대한 트렌드를 식별하거나 월별, 연도별로 데이터를 분석하면 데이터셋을 더 잘 이해하고 비즈니스 인사이트를 얻을 수 있어요.
 
@@ -159,7 +276,18 @@ FROM alldata.salesdata;
 
 이러한 유형의 데이터 집계에 대한 전형적인 사용 사례에는 전자 상거래 회사의 매출, 재고 및 고객 가입/로그인 분석이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 예를 들어보겠습니다.
 
@@ -175,7 +303,18 @@ GROUP BY EXTRACT(MONTH FROM order_date)
        , EXTRACT(YEAR FROM order_date);
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이는 월별 및 연도별 집계 된 데이터 통찰력을 제공합니다. 예를 들어 여기서 다음과 같이 말할 수 있습니다 — 평균 배송 비용은 올해 내내 거의 동일했습니다.
 
@@ -185,7 +324,18 @@ GROUP BY EXTRACT(MONTH FROM order_date)
 
 여기 마법 키워드를 알려드릴게요 — ROLLUP.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 쿼리를 살펴보세요. 어느 순간에도 귀하의 질문을 해결해 주며 추가적인 노력도 필요하지 않습니다.
 
@@ -203,7 +353,18 @@ GROUP BY EXTRACT(MONTH FROM order_date)
 
 상기 결과에서 마지막 행에서 월과 연도 열이 모두 NULL로 표시된 것은 모든 연도의 모든 월에 대한 결과를 보여준다는 것을 의미합니다. 즉, 2021년의 총 주문 수와 평균 배송 비용을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SQL 쿼리의 GROUP BY 절 끝에 키워드 WITH ROLLUP을 추가하면 됩니다.
 
@@ -213,7 +374,18 @@ SQL 쿼리의 GROUP BY 절 끝에 키워드 WITH ROLLUP을 추가하면 됩니�
 
 읽어보시고 유용한 정보를 얻으셨으면 좋겠네요. 🌟
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이트의 다양한 부분을 추출하는 것만큼 중요한 데이터 조작 방법이 또 있습니다. 때로는 데이터셋에 있는 날짜-시간 값이 최종 분석이나 보고서에서 원하는 형식과 다른 경우가 있습니다.
 
@@ -221,7 +393,18 @@ SQL 쿼리의 GROUP BY 절 끝에 키워드 WITH ROLLUP을 추가하면 됩니�
 
 # SQL에서 날짜 값 포맷팅하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터셋의 날짜 및 시간 값이 사용하기 어려운 형식에 있다면, 새로운 보다 가독성 좋은 형식으로 변환해야 합니다.
 
@@ -231,7 +414,18 @@ SQL 쿼리의 GROUP BY 절 끝에 키워드 WITH ROLLUP을 추가하면 됩니�
 
 하지만, 날짜 값의 형식을 변경하는 것은 일반적이거나 내장 함수를 사용하여 수행하는 방법을 모른다면 꽤 시간이 많이 소요될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다시 한번, SQL의 서로 다른 방언은 다양한 함수를 사용합니다. 이번 파트의 끝에 그것들을 나열하겠습니다.
 
@@ -251,7 +445,18 @@ AND order_date BETWEEN '2021-08-01' AND '2021-08-15';
 
 ![SQL Date Time](/assets/img/2024-07-14-3PowerfulSQLQueriesToWorkWithDate-TimeData_7.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신이 해야 할 일은 날짜 및 시간 값을 포함하는 열 이름을 제공하고 출력에서 보고 싶은 날짜 형식을 지정하는 것뿐입니다.
 
@@ -269,17 +474,39 @@ AND order_date BETWEEN '2021-08-01' AND '2021-08-15';
 
 SQL Server를 사용하고 있다면 FORMAT 함수를 사용할 수 있으며, AWS Redshift를 사용하고 있다면 TO_DATE 또는 TO_CHAR 함수를 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 That’s all for this article!
 
 If you enjoyed this content, make sure to explore my other articles as well. They will definitely enhance your SQL knowledge.
 
-I trust you found this article insightful, practical, and easy to follow. 
+I trust you found this article insightful, practical, and easy to follow.
 
 Extracting information such as month or year from your data can provide you with detailed insights and allow you to uncover hidden trends and patterns. These insights will ultimately support you in making well-informed decisions.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 내용 중 유용한 부분에 강조를 표시하고 생각을 댓글로 남겨보세요.
 

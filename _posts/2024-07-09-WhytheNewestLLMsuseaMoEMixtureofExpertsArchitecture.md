@@ -3,17 +3,13 @@ title: "최신 언어 모델들이 Mixture of Experts MoE 아키텍처를 사용
 description: ""
 coverImage: "/assets/img/2024-07-09-WhytheNewestLLMsuseaMoEMixtureofExpertsArchitecture_0.png"
 date: 2024-07-09 10:23
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-WhytheNewestLLMsuseaMoEMixtureofExpertsArchitecture_0.png
 tag: Tech
 originalTitle: "Why the Newest LLMs use a MoE (Mixture of Experts) Architecture"
 link: "https://medium.com/datadriveninvestor/why-the-newest-llms-use-a-moe-mixture-of-experts-architecture-1023238ea145"
 isUpdated: true
 ---
-
-
-
-
 
 ![Specialization Made Necessary](/assets/img/2024-07-09-WhytheNewestLLMsuseaMoEMixtureofExpertsArchitecture_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 인공지능의 MoE(전문가의 혼합) 구조는 서로 협력하여 복잡한 데이터 입력에 대응하기 위해 다양한 "전문가" 모델을 혼합하거나 섞은 것으로 정의됩니다. 인공지능에서 MoE 모델의 각 전문가는 그들의 의료 분야별 전문 지식처럼 훨씬 더 큰 문제에 전문화되어 있습니다. 이는 효율성을 향상시키고 시스템 효과성과 정확성을 높입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Mistral AI는 오픈 소스의 기반이 되는 LLM을 제공하는데, 이는 OpenAI의 것과 견줄 만합니다. 그들은 Mixtral 8x7B 모델에서 MoE 아키텍처의 사용에 대해 형식적으로 논의했습니다. 이 혁신적인 대형 언어 모델 (LLM) 형태의 획기적인 발전에 대해 알아보겠습니다. 또한 Mistral AI의 Mixtral이 다른 기본 LLM들 중에서 빛을 발하며, 현재 LLM들이 속도, 크기 및 정확도를 강조하기 위해 MoE 아키텍처를 채택하는 이유에 대해 깊이 파고들 것입니다.
 
@@ -35,7 +42,18 @@ MoE 아키텍처가 어떻게 LLM을 개선하는지 더 잘 이해하기 위해
 - 아키텍처 조정: 새로운 레이어나 모듈을 도입함으로써 매개 변수 수를 늘릴 수 있으며, 특정 작업에 대한 성능을 향상시킬 수 있습니다. 그러나 기본 아키텍처를 변경하는 것은 구현하기 어려울 수 있습니다.
 - 세밀 조정: 사전 훈련된 모델을 특정 데이터나 전이 학습을 통해 세밀하게 조정하면, 기존 LLM이 새로운 작업이나 도메인을 처리할 수 있게 되며, 처음부터 다시 시작할 필요가 없습니다. 이것은 가장 쉬운 방법이며, 모델에 상당한 변경이 필요하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # MoE 아키텍처란 무엇인가요?
 
@@ -48,7 +66,18 @@ MoE 아키텍처는 핵심적으로 효율적인 교통 시스템처럼 작동�
 - MoE는 지정된 작업에 사용될 전문가를 결정하기 위한 게이트된 네트워크를 통합하는 고전적인 신경망 아키텍처를 변경합니다.
 - 모든 AI 모델은 어느 정도의 세밀한 조정을 갖고 있으며, MoE의 모든 전문가는 추가로 의도대로 작동하도록 조정되어 전통적인 모델이 활용하지 못하는 조정의 추가층을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # MoE 게이팅 네트워크
 
@@ -58,17 +87,39 @@ MoE 아키텍처는 핵심적으로 효율적인 교통 시스템처럼 작동�
 
 MoE 모델 내의 각 전문가는 특정 문제 도메인 하위 집합에 최적화된 작은 신경망, 기계 학습 모델 또는 LLM을 대표합니다. 예를 들어, Mistral에서 다양한 전문가들은 특정 언어, 방언 또는 쿼리 유형을 이해하는 데 특화될 수 있습니다. 이러한 전문화는 각 전문가가 자신의 전문 분야에 능통함을 보장하며, 다른 전문가들의 기여와 결합되었을 때 다양한 작업에 뛰어난 성능을 나타낼 수 있도록 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # MoE 손실 함수
 
 MoE 아키텍처의 주요 구성 요소로 간주되지는 않지만, 손실 함수는 모델의 미래 성능에 중추적인 역할을 합니다. 개별 전문가 및 게이팅 네트워크를 최적화하기 위해 설계되었기 때문에 중요합니다.
 
-일반적으로 손실 함수는 각 전문가에 대해 계산된 손실을 게이팅 네트워크에 의해 할당된 확률 또는 중요성에 의해 가중치가 부여됩니다. 이를 통해 각 전문가를 특정 작업에 맞게 세밀하게 조정하면서 게이팅 네트워크를 조정하여 경로 지정 정확도를 향상할 수 있습니다. 
+일반적으로 손실 함수는 각 전문가에 대해 계산된 손실을 게이팅 네트워크에 의해 할당된 확률 또는 중요성에 의해 가중치가 부여됩니다. 이를 통해 각 전문가를 특정 작업에 맞게 세밀하게 조정하면서 게이팅 네트워크를 조정하여 경로 지정 정확도를 향상할 수 있습니다.
 
 ![Image](/assets/img/2024-07-09-WhytheNewestLLMsuseaMoEMixtureofExpertsArchitecture_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # MoE 프로세스 전반적으로
 
@@ -85,7 +136,18 @@ MoE 아키텍처의 주요 구성 요소로 간주되지는 않지만, 손실 �
 - 피드백 및 적응: 성능 피드백을 사용하여 모델을 개선합니다.
 - 반복적 최적화: 라우팅 및 모델 매개변수의 계속적인 개선입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # **MoE 구조를 활용한 인기 있는 모델들**
 
@@ -96,11 +158,33 @@ MoE 아키텍처의 주요 구성 요소로 간주되지는 않지만, 손실 �
 
 최종적으로, MoE 구조의 주요 목표는 복잡한 기계 학습 작업에 접근하는 방법에 혁명을 가져다주는 것입니다. 이는 전통적인 모델보다 독특한 이점을 제공하며 여러 가지 방법으로 전통적인 모델에 우월성을 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 에러 없이 잘 작동했습니다. 감사합니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Specialization and Accuracy:
 
@@ -112,7 +196,18 @@ Specialization and Accuracy:
 
 ## Challenges of the MoE Architecture
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 MoE 구조는 많은 이점을 제공하지만 도입과 효과에 영향을 줄 수 있는 도전 과제들도 가지고 있어요.
 
@@ -124,7 +219,18 @@ MoE 구조는 많은 이점을 제공하지만 도입과 효과에 영향을 줄
 
 # 전문화에 의해 모양잡히는 미래
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 MoE 방법론을 고찰해보면 인간과의 유사성을 발견할 수 있습니다. 전문화된 팀이 일반화된 직장보다 더 많은 성과를 거둬내는 것처럼, 전문화된 모델은 AI 모델 중에선 단일체 모델들을 능가합니다. 다양성과 전문성을 우선시하는 것은 대규모 문제의 복잡성을 전문가들이 효과적으로 다룰 수 있는 관리 가능한 세그먼트로 바꿀 수 있습니다.
 

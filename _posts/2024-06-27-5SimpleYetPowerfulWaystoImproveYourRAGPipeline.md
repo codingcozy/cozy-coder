@@ -3,17 +3,13 @@ title: "RAG 파이프라인을 개선하는 5가지 간단하면서도 강력한
 description: ""
 coverImage: "/assets/img/2024-06-27-5SimpleYetPowerfulWaystoImproveYourRAGPipeline_0.png"
 date: 2024-06-27 19:12
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-27-5SimpleYetPowerfulWaystoImproveYourRAGPipeline_0.png
 tag: Tech
 originalTitle: "5 Simple Yet Powerful Ways to Improve Your RAG Pipeline"
 link: "https://medium.com/ai-advances/5-simple-yet-powerful-ways-to-improve-your-rag-pipeline-2579b8ad1444"
 isUpdated: true
 ---
-
-
-
-
 
 검색 증강 생성(Retrieval-Augmented Generation, RAG)은 대규모 언어 모델과 외부 소스에서 관련 정보를 검색할 수 있는 능력을 결합함으로써 자연어 처리 작업을 혁신적으로 향상시켰어요. 이 방식을 통해 보다 정확하고 최신 정보를 고려한 응답이 가능해지죠. 하지만 복잡한 시스템과 마찬가지로, RAG 파이프라인은 더 나은 성능을 위해 추가 최적화가 가능합니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # (1) 시맨틱 청킹 도입
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 의미 청크 분할은 문서를 의미 있는 문맥을 유지하는 청크로 나누는 것을 의미하며 임의의 고정 길이 구분을 사용하는 것이 아닙니다. 이 방법은 정보의 의미 무결성을 유지하여 검색기가 쿼리를 관련 콘텐츠에 더 정확하게 매핑할 수 있도록합니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 기후 변화에 관한 연구 논문을 고려해보겠습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 의미있는 단위를 유지함으로써 수집기는 질문을 텍스트의 관련 섹션에 더 효과적으로 매핑하여 검색된 정보의 전체 품질을 향상시킬 수 있습니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 밀도 검색기는 신경망을 사용하여 질문과 문서를 공유 벡터 공간으로 인코딩하여 의미 관계를 포착합니다. 반면에 희박 검색기는 TF-IDF 또는 BM25와 같은 전통적인 정보 검색 기술에 의존하여 정확한 키워드 매칭에 효과적입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 예시
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 쿼리 확장은 관련 용어나 개념으로 원래 쿼리를 보강하여 검색 범위를 확장하고 더 많은 관련 정보를 포함하도록 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기술은 쿼리와 문서 모음 사이의 어휘 불일치를 극복하는 데 도움이 되며, 특히 짧거나 모호한 쿼리에 유용합니다.
 
@@ -66,7 +106,18 @@ isUpdated: true
 
 ## 예시
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 확장된 쿼리는 사용자가 원래 쿼리에서 명시적으로 언급하지 않았더라도 관심이 있을 수 있는 전기 자동차 배터리 수명의 다양한 측면을 다루는 다양한 관련 문서 집합을 검색할 가능성이 높습니다.
 
@@ -76,17 +127,28 @@ isUpdated: true
 
 초기 검색은 검색 속도와 회수에 중점을 두지만, 재랭킹을 통해 쿼리-문서 유사성, 문서 품질, 맥락적 중요성과 같은 요인들을 고려한 미묘한 관련성 평가가 가능합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전형적인 재랭킹 프로세스는 다음과 같을 수 있어요:
 
 - 초기 검색: 빠른 검색 방법을 사용하여 상위 N개(예: 100)의 문서를 검색합니다.
 - 특성 추출: 각 문서에 대해 다음과 같은 특성을 추출합니다:
-    — BM25 점수
-    — 의미론적 유사성 점수
-    — 문서 신선도(게시 날짜를 기반으로 함)
-    — 출처 신뢰도
-    — 길이 및 가독성 지표
+  — BM25 점수
+  — 의미론적 유사성 점수
+  — 문서 신선도(게시 날짜를 기반으로 함)
+  — 출처 신뢰도
+  — 길이 및 가독성 지표
 - 재랭킹 모델: 이러한 특성을 기반으로 각 문서에 점수를 매기기 위해 학습된 모델(예: LambdaMART, BERT 기반 랭커)을 적용합니다.
 - 최종 랭킹: 새로운 점수에 따라 문서를 정렬합니다.
 
@@ -94,7 +156,18 @@ isUpdated: true
 
 재랭킹 프로세스는 양자 컴퓨팅 분야의 최근 진전과 더 밀접한 관련이 있는 문서를 우선적으로 선택하여 상위 결과물의 적합성을 향상시켰습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 (5) 반복적 검색 구현하기
 
@@ -104,7 +177,18 @@ isUpdated: true
 
 각 스테이지에서 시스템은 이해를 정제하고 새로운 탐험 대상을 식별하여 전기 자동차와 가솔린 자동차의 환경 영향을 포괄적이고 균형 잡힌 비교를 제시합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -118,6 +202,17 @@ RAG 파이프라인을 향상시키는 것은 완전한 개편이 필요한 것�
 
 은 시스템 성능을 크게 향상시킬 수 있습니다. 이러한 방법들은 정보 검색의 정확성을 높이고 관련성을 강화하며 사용자 쿼리에 대한 정보를 더 많이 제공하고 일관된 응답을 전달하는 데 협력하여 작동합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 RAG 파이프라인을 개선하면서, 성공은 지속적인 실험과 세밀한 조정으로 당신의 사용 사례의 특정 요구를 충족시키는 데 있습니다. 각 기술은 시스템의 능력을 향상시키는 독특한 방법을 제공합니다. 의미론적인 맥락을 보존하고 다단계 정보 검색을 활성화하는 것까지, 이러한 전략들을 통합함으로써 더 효율적이고 정확하며 맥락에 민감한 RAG 시스템을 개발하고 있습니다.

@@ -3,18 +3,13 @@ title: "실감 터치 디지털 세상에서도 물리적 버튼이 중요한 �
 description: ""
 coverImage: "/assets/img/2024-06-19-TheTangibleTouchWhyPhysicalButtonsStillMatterinaDigitalWorld_0.png"
 date: 2024-06-19 02:10
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-TheTangibleTouchWhyPhysicalButtonsStillMatterinaDigitalWorld_0.png
 tag: Tech
 originalTitle: "The Tangible Touch: Why Physical Buttons Still Matter in a Digital World"
 link: "https://medium.com/cantata/the-tangible-touch-why-physical-buttons-still-matter-in-a-digital-world-f51b46ba26cd"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![image](/assets/img/2024-06-19-TheTangibleTouchWhyPhysicalButtonsStillMatterinaDigitalWorld_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 과거의 유물일 뿐인 것처럼 보이지만, 이들 겸손한 버튼이 현대화되고 디지털화된 삶에서 여전히 상당한 가치를 지니는 이유를 알아봅시다. 촉감 요인: 왜 우리는 물리적 상호작용을 원하는가
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 1. 클릭의 즐거움
 
@@ -35,7 +40,18 @@ isUpdated: true
 
 TV 리모컨을 생각해보세요. 얼마 지나지 않아서 볼륨이나 전원 버튼을 보지 않고도 어디에 있는지 알게 됩니다. 그것이 바로 근육 기억이 작용하는 것이고, 이것은 물리적인 버튼이 뛌어난 점입니다. 두 번째 생각할 필요 없이 행동을 수행할 수 있게 해주어 다중 작업이나 이상적이지 않은 조건에서 장치를 사용할 때 큰 장점이 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3. 모두를 위한 도와주는 손길
 
@@ -45,7 +61,18 @@ TV 리모컨을 생각해보세요. 얼마 지나지 않아서 볼륨이나 전�
 
 # 1. 자동차 제어: 안전과 정밀성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 핸들을 잡고 운전할 때 가장 필요한 것은 터치스크린을 만지작거리는 것이 아닙니다. 하지만 테슬라는 터치스크린을 너무 많이 사용하고 있어요. 차의 핸들이나 계기판에 있는 물리적 버튼은 도로를 응시하며 무난하게 설정을 조절할 수 있도록 도와 줍니다. 이러한 버튼들은 직관적이며 찾기 쉽고 즉각적인 피드백을 제공하여 집중을 유지하고 산만함을 피하는 데 필수적입니다.
 
@@ -55,7 +82,18 @@ TV 리모컨을 생각해보세요. 얼마 지나지 않아서 볼륨이나 전�
 
 우리 집에서 물리적 버튼은 일상 생활에서의 무명영웅이에요. 오래된 세탁기의 신뢰성이나 커피 메이커의 직관성을 생각해보세요. 이러한 기기들은 내구성이 뛰어나 이해하기 쉽고, 번거로움 없이 일을 처리하도록 물리적 버튼을 사용해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 번은 멋진 터치스크린 전자레인지가 있었는데, 남은 음식을 데우려고 할 때마다 재부팅을 결정했어요. 그 후로는 옛날 방식의 다이얼로 돌아왔어요. 놀람 없이 따뜻한 음식만 있으면 되니까요!
 
@@ -65,7 +103,18 @@ TV 리모컨을 생각해보세요. 얼마 지나지 않아서 볼륨이나 전�
 
 리모컨의 물리적 버튼은 의도치 않은 입력을 줄여주어, 터치스크린에서 흔히 발생하는 실수를 줄입니다. 리모컨의 디자인은 사용 편의성과 즉각적인 피드백을 우선시하여 전체 사용자 경험을 향상시킵니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 물리 버튼의 미래: 균형있는 접근
 
@@ -75,7 +124,18 @@ TV 리모컨을 생각해보세요. 얼마 지나지 않아서 볼륨이나 전�
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 세련되고 미래 지향적인 디자인을 추구하는 동안, 겸손한 버튼을 잊지 말아야 합니다. 버튼은 우리의 기기와 촉감적인 연결을 제공하여 매우 만족스럽고 기능적인 요소를 제공합니다. 안전, 접근성 또는 좋은 클릭의 쾌감 때문이든, 물리적 버튼은 여전히 필요한 요소입니다.
 

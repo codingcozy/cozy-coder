@@ -3,17 +3,13 @@ title: "성의 기초"
 description: ""
 coverImage: "/assets/img/2024-05-27-TheVeryFoundationofSex_0.png"
 date: 2024-05-27 15:07
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-TheVeryFoundationofSex_0.png
 tag: Tech
 originalTitle: "The Very Foundation of Sex"
 link: "https://medium.com/@kalidubois/the-very-f-886cfb110e61"
 isUpdated: true
 ---
-
-
-
-
 
 ![image](/assets/img/2024-05-27-TheVeryFoundationofSex_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 특히 격렬한 세션 끝에 하룻밤, 그의 품에서 잠이 들었다. 그가 부드럽게 내 등을 쓸어 주며, 나는 몸을 돌리고 그가 속삭였다. "너는 완전 훌륭한 사람이 됐어." 그 말에 오싹함이 느껴졌다. 왜냐하면 그가 몇 년 동안 내 블로그를 열심히 읽고 있었다는 것을 알고 있었기 때문이다. 몇 년 동안! 그리고 나는 보통 그저 내 이중 인생에 관해 아무것도 모르는 무술에서 만나는 바보들의 성적 유혹과 데이트 제의를 무시하곤 했다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제가 여기 있을 때 그는 내 마음을 자극하고, 왜 그가 일찍이 연락을 한 때 나에게 더 빨리 손을 내밀지 않았는지 궁금하게 만들고 있습니다. 몇 년 전에 그가 처음 연락했을 때 응답했다면 어떠했을까요? 그러나 그 시절에는 준비가 되지 않았습니다. 제가 박사과정 첫 해에 있었고, 뇌졸중 회복 중이었으며, Peter가 남긴 상처를 극복하고 있었습니다. 그것은 복합적인 외상의 시기였습니다.
 
@@ -34,7 +40,18 @@ isUpdated: true
 
 NLP(신경 언어 프로그래밍)를 사용하여 이러한 감정적 강도를 만들려면, 이 단계를 따르세요 (기본으로 돌아가 보겠습니다):
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 소통을 조절해요
 
@@ -44,7 +61,18 @@ NLP(신경 언어 프로그래밍)를 사용하여 이러한 감정적 강도를
 
 일부 접촉, 말, 또는 제스처를 긍정적인 감정과 흥분과 연관짓습니다. 예를 들어, 센슈얼한 말을 속삭이는 동안 부드럽게 그녀의 손목에 손을 대어 접촉과 그녀의 흥분 사이에 강한 연결을 만들어 보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 감각을 자극하는 표현 사용
 
@@ -54,7 +82,18 @@ NLP(신경 언어 프로그래밍)를 사용하여 이러한 감정적 강도를
 
 그녀의 감정 상태에 맞추어 시작한 후 서서히 그녀를 흥분하고 강렬한 상태로 이끌어보세요. 스토리텔링, 판타지 묘사 또는 자신의 욕망을 공유하는 것으로도 가능합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5. 언어 패턴 활용하기
 
@@ -64,7 +103,18 @@ NLP(신경 언어 프로그래밍)를 사용하여 이러한 감정적 강도를
 
 조금씩 강도를 높이며 만지작거리고 긴장감을 쌓아가며 기대감을 조성하세요. 그녀가 더 바라게 만들어 강력한 감정적, 신체적 반응을 일으키게 하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 기술을 숙달함으로써 여러분은 그녀를 매혹시키고 격렬한 감정의 매듭을 만들어 흥분시키며, 잊지 못할 만족스러운 경험을 창출할 수 있습니다.
 

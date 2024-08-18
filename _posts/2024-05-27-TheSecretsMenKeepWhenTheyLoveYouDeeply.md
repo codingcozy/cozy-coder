@@ -3,17 +3,13 @@ title: "그들이 진심으로 사랑할 때 남자들이 숨기는 비밀"
 description: ""
 coverImage: "/assets/img/2024-05-27-TheSecretsMenKeepWhenTheyLoveYouDeeply_0.png"
 date: 2024-05-27 15:38
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-TheSecretsMenKeepWhenTheyLoveYouDeeply_0.png
 tag: Tech
 originalTitle: "The Secrets Men Keep When They Love You Deeply"
 link: "https://medium.com/@GanyWegner/the-secrets-men-keep-when-they-love-you-deeply-238aaf38ecf0"
 isUpdated: true
 ---
-
-
-
-
 
 # 남자가 여러분을 더 사랑할수록 “공유”하기를 덜할 수도 있습니다. 잘못된 사람 찾지 않도록 주의하세요
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 남자 주인공이 여자 주인공에게 우연히 사랑에 빠지게 되었습니다. 사랑에 빠졌을 때 남자 주인공은 몇 가지를 숨겼습니다. 여자 주인공은 남자 주인공이 항상 존경했던 군인이라고 잘못 생각하여 함께 하게 되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 그들이 관계를 가진 후 여주가 남주가 그 사람이 아니라는 것을 발견했습니다. 이전에 남주는 히어로의 역할을 맡았었습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 사실 남자가 여자를 더욱 깊게 사랑할수록, 그는 여자와 일부 비밀을 공유하지 않을 수도 있습니다. 때로는 그녀를 잃을까봐 무서워해서 아예 숨길 수도 있죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결국, 관계에서 지나치게 솔직한 것은 상대방의 진심뿐만 아니라 비난과 이별을 불러올 수도 있습니다.
 
@@ -43,17 +61,39 @@ isUpdated: true
 
 # 가정에서의 어려움
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "모든 가족은 자신만의 어려움이 있어요.”
- 
+
 모든 가족은 자신만의 도전이 있어요. 가족이 매우 부유해 보이더라도, 그들의 관계가 행복하지 않을 수 있어요.
 
 가끔은 훌륭한 관계를 가진 가족을 보아도 조용한 순간에는 여전히 몇 가지 문제로 논쟁할 수 있어요.
 
 남자가 여자를 정말 좋아한다면 그가 집에서 겪는 어려움 중 일부를 전혀 공유하지 않을 거예요. 이 어려움을 그녀와 공유한다면 그녀를 상처받게 할 수 있어요. 남자가 여자를 진심으로 사랑한다면 그녀에게 그렇게 많은 부담을 지우지 않을 거예요."
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한편, 두 사람이 함께 있지 않거나 아직 결혼하지 않았다면, 대부분의 경우 남성은 집에서의 어려움을 상대방과 공유하는 것을 꺼려합니다. 상대방을 놀래킬까봐 두려워하기 때문입니다.
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 # 전 여자친구에게 준 사랑
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여성들은 보통 예민할 때가 많아요. 그들이 자신의 남자가 이전에 누군가에게 많은 사랑을 줬다는 것을 알게 되면, 그들은 불안해하고 전 여자친구와 자신을 비교할 수 있어요.
 
@@ -73,7 +124,18 @@ isUpdated: true
 
 여성으로서는, 항상 남자의 과거 연애에 대해 꺼내지 말아주세요. 그것은 쉽게 그를 전 여자친구에 대해 생각하게 만들 수 있고, 당신끼리의 관계에 손상을 줄 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 직업 걱정
 
@@ -83,6 +145,17 @@ isUpdated: true
 
 가끔은 집 밖에서 문제가 생겼을 때 집에 있는 가족들에게 알리지 않아 걱정하지 않도록 하는 경우도 있습니다. 비슷하게, 남자가 여자를 깊이 사랑할 때도 그녀를 걱정시키기를 두려워하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 남성이 직업적으로 어려움을 겪을 때, 항상 여성에게 말하는 것이 도움이 되지 않을 수 있습니다. 최대한으로, 그녀는 감정적 안정을 제공할 수 있을 뿐입니다. 그래도 그녀도 당황할 수 있고, 무엇을 해야 할지 모를지도 모릅니다.

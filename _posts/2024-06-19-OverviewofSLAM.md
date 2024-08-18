@@ -3,18 +3,13 @@ title: "SLAM 개요"
 description: ""
 coverImage: "/assets/img/2024-06-19-OverviewofSLAM_0.png"
 date: 2024-06-19 18:36
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-OverviewofSLAM_0.png
 tag: Tech
 originalTitle: "Overview of SLAM"
 link: "https://medium.com/machinevision/overview-of-slam-50b7f49903b7"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![SLAM](/assets/img/2024-06-19-OverviewofSLAM_0.png)
 
@@ -24,8 +19,18 @@ SLAM의 주요 목표는 로봇이 알 수 없는 환경을 탐색하고 탐색�
 
 SLAM은 로봇 공학에서 중요한 문제입니다. 이로써 로봇은 알려지지 않거나 동적인 환경에서 자율적으로 작동할 수 있습니다. SLAM을 사용하여 로봇은 사전에 작성된 지도를 사용할 수 없거나 오래되었을 수 있는 환경에서 탐색, 탐험 및 작업을 수행할 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SLAM은 자율 주행 차량, 드론, 이동 로봇, 심지어 증강 현실 시스템을 포함한 다양한 응용에서 사용됩니다. 예를 들어, 자율 주행 차량에서 SLAM은 차량이 주변 환경의 지도를 작성하고 안전하고 효율적인 경로를 계획할 수 있도록 돕습니다. 드론에서는 SLAM이 환경을 매핑하고 안정적인 비행을 유지하는 데 도움을 줍니다. 증강 현실 시스템에서는 SLAM이 가상 객체를 현실 세계에 정확하게 오버레이하는 데 사용됩니다.
 
@@ -35,7 +40,18 @@ SLAM을 달성하기 위해 로봇은 일반적으로 카메라, 라이다 또�
 
 ## SLAM을 이해하기 위해 필요한 어휘는 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SLAM (Simultaneous Localization and Mapping)의 맥락에서는 이해해야 할 중요한 여러 용어와 개념이 있습니다. 함께 알아보겠습니다:
 
@@ -50,7 +66,18 @@ SLAM (Simultaneous Localization and Mapping)의 맥락에서는 이해해야 할
 - **오도메트리**: 휠 엔코더, 가속도계 또는 자이로스코프와 같은 내부 센서를 기반으로 로봇의 움직임을 추정합니다. 로봇의 속도, 회전 및 변위에 대한 정보를 제공합니다.
 - **루프 클로저**: 로봇의 궤적에서 루프를 감지하고 수정하는 프로세스입니다. 로봇이 이전에 관측한 랜드마크나 위치를 재방문할 때 발생합니다. 루프 클로저는 누적된 오차를 수정하고 SLAM 솔루션의 정확도를 향상시키는 데 중요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SLAM에 사용되는 주요 용어 및 용어 중 일부입니다. 이러한 개념을 이해하면 SLAM 알고리즘 및 기술을 효과적으로 활용할 수 있습니다.
 
@@ -60,7 +87,18 @@ SLAM에 사용되는 주요 용어 및 용어 중 일부입니다. 이러한 개
 
 SLAM 기술은 우리의 일상생활에서 점차 더 흔해지고 있지만 우리는 항상 그것을 인식하지 못할 수도 있습니다. 우리 일상생활에서 만나게 되는 SLAM 응용 분야의 몇 가지 예시는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - GPS 내비게이션 시스템: 많은 야외 GPS 내비게이션 시스템은 SLAM 기술을 활용하여 정확하고 실시간의 위치 정보를 제공합니다. 이러한 시스템은 GPS 데이터를 가속도계 및 자이로스코프와 같은 다른 센서 입력과 결합하여 차량의 위치와 방향을 추정합니다. 구글 지도, Waze, Apple 지도가 예시입니다.
 - 모바일 증강 현실 (AR) 앱: 스마트폰 및 태블릿용 AR 앱은 주로 SLAM 알고리즘을 활용하여 장치의 위치를 추적하고 가상 객체를 현실 세계 위에 오버레이합니다. SLAM을 사용하면 사용자 주변과 가상 콘텐츠를 정확하게 정렬하여 몰입형 AR 경험을 제공합니다. 포켓몬 GO, 스냅챗, 인스타그램이 예시입니다.
@@ -74,6 +112,17 @@ SLAM 기술은 우리의 일상생활에서 점차 더 흔해지고 있지만 �
 
 구현을 찾고 계십니까? 이것이 가장 간단한 SLAM 알고리즘입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글이 마음에 드셨다면 ❤를 눌러 다른 사람들이 찾을 수 있도록 도와주세요!

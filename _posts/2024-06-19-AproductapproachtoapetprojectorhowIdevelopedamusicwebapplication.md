@@ -3,17 +3,13 @@ title: "애완동물 프로젝트에 적용한 제품 접근 방식, 또는 음�
 description: ""
 coverImage: "/assets/img/2024-06-19-AproductapproachtoapetprojectorhowIdevelopedamusicwebapplication_0.png"
 date: 2024-06-19 02:36
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-AproductapproachtoapetprojectorhowIdevelopedamusicwebapplication_0.png
 tag: Tech
 originalTitle: "A product approach to a pet project, or how I developed a music web application"
 link: "https://medium.com/@iamandreyburov/a-product-approach-to-a-pet-project-or-how-i-developed-a-music-web-application-2565cc64d8d6"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-19-AproductapproachtoapetprojectorhowIdevelopedamusicwebapplication_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 펫 프로젝트를 실험실 연습이 아닌 미래 제품으로 본다면, 전체 개발 주기를 더 잘 이해할 수 있습니다. 이 접근 방식으로 먼저 고객의 역할을 맡아 문제를 해결하는 방법과 가장 좋은 방법을 결정하고, 원하는 기술을 구현하는 데 가장 용이한 기술을 선택하는 방법을 생각할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제품 접근 방식은 개발 프로세스를 작은 단위로 바라볼 수 있게 해줍니다. 직접 우선 순위를 정하고 작업이 어디에서 비롯되었는지 이해하는 데 도움이 됩니다. 아키텍처를 어떻게 구축할지와 새로운 기능을 추가하기 쉽게 만들기 위해 어떤 기술 스택을 선택할지에 대해 질문을 시작합니다 (응용 프로그램이 성장할수록 새로운 기능을 추가하려는 욕구도 커진다고 고려합니다).
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 저는 Spotify, Apple Music 등 음악 스트리밍 애플리케이션에서 영감을 받아 이 프로젝트를 시작하기로 결심했습니다. 브라우저의 기능을 활용하여 음악 파일을 사용하기를 원했기 때문에 음악 주제가 가까웠고 zaycev.net의 나만의 버전을 만들고 싶었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 시점에서는 고객이 있는 것처럼 프로젝트 요구 사항을 구체화하는 것이 중요합니다 (실제로는 본인이어도 좋습니다). 요구 사항은 업무 계획을 작성하고 자신이 관심 있는 기능을 구현하는 데 집중할 수 있도록 도와줍니다. 이렇게 하면 프로젝트를 완료하기 위한 자신에 대한 약속을 만들 수 있습니다.
 
@@ -41,7 +59,18 @@ isUpdated: true
 
 아래에는 프로젝트에 대해 개요를 작성한 요구 사항들이 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 친화적인 톤으로 번역해보겠습니다.
 
@@ -57,7 +86,18 @@ isUpdated: true
 - 사용자가 등록할 때 "인간"임을 확인하기 위해 확인 코드가 포함된 이메일을 보내는 방식으로 등록을 검증하십시오.
 - CI/CD를 설정하여 초기 사용자가 기능이 추가될 때 즉시 새로운 기능을 볼 수 있도록 하십시오.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자 중심:
 
@@ -73,8 +113,18 @@ isUpdated: true
 
 컨셉을 설명하고 요구 사항을 수집한 후, 미래 응용 프로그램의 아키텍처를 설명합니다. 제 경우에는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Web Application](/assets/img/2024-06-19-AproductapproachtoapetprojectorhowIdevelopedamusicwebapplication_2.png)
 
@@ -84,8 +134,18 @@ isUpdated: true
 
 그 후에는 실험을 하기로 결정하고 Webpack 대신 Vite를 사용하기로 했습니다. HMR을 통해 개발 속도가 향상되고, 빌드 구성을 몇 분 안에 작성할 수 있다는 점이 이유입니다. 다국어 처리를 위해 i18next를 사용했고, 스타일 작업에는 SCSS를 선택했습니다. Tailwind도 고려했지만, 어플리케이션의 일반 디자인 시스템을 설명하고자 했기 때문에 전역 변수와 중첩 작업이 편리했기 때문에 SCSS를 선택했습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 UI 킷: 컴포넌트 라이브러리의 경우, 나는 Storybook, React, Typescript, SCSS, Webpack까지만 진행하기로 결정했습니다. 라이브러리를 개발해본 경험이 없었기 때문에 빌더의 선택이 중요했는데, Webpack에서 많은 자료와 코드 예제를 찾을 수 있었습니다.
 
@@ -95,7 +155,18 @@ UI 킷: 컴포넌트 라이브러리의 경우, 나는 Storybook, React, Typescr
 
 인터페이스 컴포넌트와 데이터베이스 테이블의 상호 작용을 설명합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-AproductapproachtoapetprojectorhowIdevelopedamusicwebapplication_3.png)
 
@@ -105,7 +176,18 @@ UI 킷: 컴포넌트 라이브러리의 경우, 나는 Storybook, React, Typescr
 
 안타깝게도 UX/UI 디자인에 대해 얕은 지식만 가지고 있어서 처음부터 사용자 인터페이스를 만들 수 없었습니다. 그래서 인터넷에서 적절한 준비된 디자인을 찾아 구현했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기능 구현
 
@@ -115,135 +197,157 @@ UI 킷: 컴포넌트 라이브러리의 경우, 나는 Storybook, React, Typescr
 
 ```js
 tracksController.post(
-   '/uploadTrack',
-   authChecker,
-   upload.fields([
-       { name: 'cover', maxCount: 1 },
-       { name: 'track', maxCount: 1 }
-   ]),
-   async (req, res, next) => {
-       const t = await sequelize.transaction()
-       try {
-           const { trackName, artist } = req.body
+  "/uploadTrack",
+  authChecker,
+  upload.fields([
+    { name: "cover", maxCount: 1 },
+    { name: "track", maxCount: 1 },
+  ]),
+  async (req, res, next) => {
+    const t = await sequelize.transaction();
+    try {
+      const { trackName, artist } = req.body;
 
-           const cover = req.files?.cover[0]?.buffer
-           const track = req.files?.track[0]?.buffer
+      const cover = req.files?.cover[0]?.buffer;
+      const track = req.files?.track[0]?.buffer;
 
-           const { img, mp3 } = await cloudService.upload({
-               track,
-               cover
-           })
-           await tracksService.addTrack({
-               artist,
-               trackName,
-               img,
-               mp3,
-               moderated: false
-           })
-           await t.commit()
-           res.sendStatus(200)
-       } catch (e) {
-           await t.rollback()
-           next(e)
-       }
-   }
-)
+      const { img, mp3 } = await cloudService.upload({
+        track,
+        cover,
+      });
+      await tracksService.addTrack({
+        artist,
+        trackName,
+        img,
+        mp3,
+        moderated: false,
+      });
+      await t.commit();
+      res.sendStatus(200);
+    } catch (e) {
+      await t.rollback();
+      next(e);
+    }
+  }
+);
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const s3 = new S3({
-   auth: {
-       accessKeyId: process.env.ACCESS_KEY_ID,
-       secretAccessKey: process.env.SECRET_ACCESS_KEY
-   },
-   Bucket: 'nirvana-tracks',
-   debug: false
-})
+  auth: {
+    accessKeyId: process.env.ACCESS_KEY_ID,
+    secretAccessKey: process.env.SECRET_ACCESS_KEY,
+  },
+  Bucket: "nirvana-tracks",
+  debug: false,
+});
 
 async function upload({ track, cover }) {
-   try {
-       let mp3 = await s3.Upload(
-           {
-               buffer: track
-           },
-           '/mp3/'
-       )
-       let img = await s3.Upload(
-           {
-               buffer: cover
-           },
-           '/img/'
-       )
-       if (mp3 && track) {
-           return { img: img.Location, mp3: mp3.Location }
-       } else {
-           throw new Error('업로드할 수 없습니다.')
-       }
-   } catch (e) {
-       console.error(e)
-       throw e
-   }
+  try {
+    let mp3 = await s3.Upload(
+      {
+        buffer: track,
+      },
+      "/mp3/"
+    );
+    let img = await s3.Upload(
+      {
+        buffer: cover,
+      },
+      "/img/"
+    );
+    if (mp3 && track) {
+      return { img: img.Location, mp3: mp3.Location };
+    } else {
+      throw new Error("업로드할 수 없습니다.");
+    }
+  } catch (e) {
+    console.error(e);
+    throw e;
+  }
 }
 
 module.exports = {
-   upload
-}
+  upload,
+};
 ```
 
 라디오 브라우저 라이브러리를 외부 API로부터 더 독립적으로 만들기 위해 집합 요청을 수행하여 라이브러리의 모든 라디오 스테이션에 대한 단일 요청을 만들어 데이터베이스를 시드로 채웠습니다. 여기에서도 커버 링크가 유효한지 확인했습니다.
 
 ```js
-const RadioBrowser = require('radio-browser')
-const { v4: uuidv4 } = require('uuid')
-const checkImage = require('../../web/utils/checkImage')
+const RadioBrowser = require("radio-browser");
+const { v4: uuidv4 } = require("uuid");
+const checkImage = require("../../web/utils/checkImage");
 
 module.exports = {
-   async up(queryInterface, Sequelize) {
-       const radios = await RadioBrowser.getStations({ limit: 100 })
-       const radiosWithUsefulFields = await Promise.all(
-           radios.map(async el => {
-               return {
-                   id: uuidv4(),
-                   name: el.name,
-                   url: el.url,
-                   votes: el.votes,
-                   country: el.country,
-                   favicon: (await checkImage(el.favicon)) ? el.favicon : '',
-                   tags: el.tags,
-                   lastcheckoktime: el.lastcheckoktime
-               }
-           })
-       )
-       await queryInterface.bulkInsert('Radios', radiosWithUsefulFields, {})
-   },
+  async up(queryInterface, Sequelize) {
+    const radios = await RadioBrowser.getStations({ limit: 100 });
+    const radiosWithUsefulFields = await Promise.all(
+      radios.map(async (el) => {
+        return {
+          id: uuidv4(),
+          name: el.name,
+          url: el.url,
+          votes: el.votes,
+          country: el.country,
+          favicon: (await checkImage(el.favicon)) ? el.favicon : "",
+          tags: el.tags,
+          lastcheckoktime: el.lastcheckoktime,
+        };
+      })
+    );
+    await queryInterface.bulkInsert("Radios", radiosWithUsefulFields, {});
+  },
 
-   async down(queryInterface, Sequelize) {
-       await queryInterface.bulkDelete('Radios', null, {})
-   }
-}
+  async down(queryInterface, Sequelize) {
+    await queryInterface.bulkDelete("Radios", null, {});
+  },
+};
 ```
 
 ```js
 async function checkImage(url) {
-   return fetch(url)
-       .then(response => {
-           if (response.ok) {
-               return true
-           } else {
-               return false
-           }
-       })
-       .catch(error => {
-           return false
-       })
+  return fetch(url)
+    .then((response) => {
+      if (response.ok) {
+        return true;
+      } else {
+        return false;
+      }
+    })
+    .catch((error) => {
+      return false;
+    });
 }
 
-module.exports = checkImage
+module.exports = checkImage;
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내가 커스텀 플레이어의 구현 방법을 설명해 줄게. 기본적으로 useRef를 사용해서 오디오 요소에 대한 참조를 가져와 웹 오디오 API에 액세스했어. 그런 다음 오디오 API에서 가져온 데이터를 React 상태와 연결해서 리렌더링을 트리거하도록 했어. 이 접근법으로 기능을 확장하기 시작했고, 트랙 전환, 드래그 앤 드롭 되감기, 볼륨 제어, 일시 정지 등을 구현했어.
 
@@ -267,33 +371,36 @@ return (
 트랙 선택 시 자동으로 트랙을 시작하는 커스텀 훅 구현 예제야.
 
 ```js
-import { useLayoutEffect } from 'react'
+import { useLayoutEffect } from "react";
 
+import { usePlayOnMountArgs } from "./types";
 
-import { usePlayOnMountArgs } from './types'
-
-
-export function usePlayOnMount({
-   tracks,
-   setCurrentTrack,
-   position,
-   audioElem,
-   setIsPlaying
-}: usePlayOnMountArgs) {
-   useLayoutEffect(() => {
-       setCurrentTrack(tracks[position])
-       const timeoutId = setTimeout(() => {
-           audioElem?.current?.play()
-           setIsPlaying(true)
-       }, 500)
-       return () => {
-           clearTimeout(timeoutId)
-       }
-   }, [tracks, position])
+export function usePlayOnMount({ tracks, setCurrentTrack, position, audioElem, setIsPlaying }: usePlayOnMountArgs) {
+  useLayoutEffect(() => {
+    setCurrentTrack(tracks[position]);
+    const timeoutId = setTimeout(() => {
+      audioElem?.current?.play();
+      setIsPlaying(true);
+    }, 500);
+    return () => {
+      clearTimeout(timeoutId);
+    };
+  }, [tracks, position]);
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자가 노래를 들으며 더 몰입할 수 있도록 레이아웃을 약간 보완하기로 했어요. 그리고 어플리케이션의 이름(Nirvana)이 정당하다는 느낌을 주도록 했어요.
 
@@ -301,11 +408,10 @@ export function usePlayOnMount({
 
 ```js
 <div
-	className={styles.playerBg}
-	style={{
-		backgroundImage:
-			currentTrack.img && `url(${currentTrack.img})`
-	}}
+  className={styles.playerBg}
+  style={{
+    backgroundImage: currentTrack.img && `url(${currentTrack.img})`,
+  }}
 ></div>
 ```
 
@@ -347,7 +453,18 @@ export function usePlayOnMount({
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-AproductapproachtoapetprojectorhowIdevelopedamusicwebapplication_5.png" />
 
@@ -381,7 +498,18 @@ jobs:
              run: npm run build
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Render에 배포하기로 결정했어요. 거기서 데이터베이스, 백엔드, 그리고 클라이언트를 쉽게 배포할 수 있고 Render가 GitHub 저장소에서 변경 사항도 가져온다는 점이 마음에 들었어요.
 
@@ -391,29 +519,36 @@ Render에 배포하기로 결정했어요. 거기서 데이터베이스, 백엔�
 
 가끔씩 재생과 일시정지를 자주 바꿀 때 브라우저 API가 "play() 요청이 pause() 호출에 의해 중단되었습니다"라는 오류를 던지는 이유도 완전히 명확하지는 않았어요. 그러나 나는 커스텀 debounce 훅과 lodash의 해당 함수를 사용하여 이 문제를 해결할 수 있었어요. 아래는 이 문제에 대한 내 해결책이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import { useEffect } from 'react'
-import { useDebounceOnPlayPauseArgs } from './types'
+import { useEffect } from "react";
+import { useDebounceOnPlayPauseArgs } from "./types";
 
-
-export function useDebounceOnPlayPause({
-   audioElem,
-   isPlaying
-}: useDebounceOnPlayPauseArgs) {
-   useEffect(() => {
-       const timeoutId = setTimeout(() => {
-           if (isPlaying) {
-               audioElem?.current?.play()
-           } else {
-               audioElem?.current?.pause()
-           }
-       }, 500)
-       return () => {
-           clearTimeout(timeoutId)
-       }
-   }, [isPlaying])
+export function useDebounceOnPlayPause({ audioElem, isPlaying }: useDebounceOnPlayPauseArgs) {
+  useEffect(() => {
+    const timeoutId = setTimeout(() => {
+      if (isPlaying) {
+        audioElem?.current?.play();
+      } else {
+        audioElem?.current?.pause();
+      }
+    }, 500);
+    return () => {
+      clearTimeout(timeoutId);
+    };
+  }, [isPlaying]);
 }
 ```
 
@@ -423,8 +558,18 @@ export function useDebounceOnPlayPause({
 
 이 프로젝트는 Lighthouse에 따르면 꽤 양호한 성능 지표를 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-AproductapproachtoapetprojectorhowIdevelopedamusicwebapplication_6.png" />
 
@@ -436,8 +581,18 @@ https://github.com/ABurov30/nirvana-server
 
 UI 킷은 npm에 발행되었습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 https://www.npmjs.com/package/nirvana-uikit
 
@@ -447,7 +602,18 @@ https://www.npmjs.com/package/nirvana-uikit
 
 앞으로는 이 프로젝트를 기반으로 새로운 기술을 도입하여 애플리케이션에 기능을 추가해 보려고 합니다. 예를 들어, 세 가지 프로젝트로 마이크로 프론트엔드를 만들어 보려고 합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트, Vite, Redux로 만든 주요 Nirvana 음악 애플리케이션
 

@@ -3,17 +3,13 @@ title: "N-HiTS  시계열 예측을 위한 딥 러닝을 더 효율적으로 만
 description: ""
 coverImage: "/assets/img/2024-06-19-N-HiTSMakingDeepLearningforTimeSeriesForecastingMoreEfficient_0.png"
 date: 2024-06-19 18:57
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-N-HiTSMakingDeepLearningforTimeSeriesForecastingMoreEfficient_0.png
 tag: Tech
 originalTitle: "N-HiTS — Making Deep Learning for Time Series Forecasting More Efficient"
 link: "https://medium.com/towards-data-science/n-hits-making-deep-learning-for-time-series-forecasting-more-efficient-d00956fc3e93"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-19-N-HiTSMakingDeepLearningforTimeSeriesForecastingMoreEfficient_0.png" />
 
@@ -24,7 +20,18 @@ isUpdated: true
 - 정확도의 감소 및
 - 계산량의 증가.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 N-HiTS는 시계열 예측을 위한 Neural Hierarchical Interpolation의 약자입니다.
 
@@ -34,7 +41,18 @@ N-HiTS는 시계열 예측을 위한 Neural Hierarchical Interpolation의 약자
 
 # 핵심 아이디어가 같다면, N-BEATS와 N-HiTS의 차이는 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 모델이 각 스택의 입력과 출력을 처리하는 방식에 차이가 있습니다. N-HiTS의 주요 아이디어는 서로 다른 시간 스케일의 예측을 결합하는 것입니다.
 
@@ -47,7 +65,18 @@ N-HiTS는 시계열 예측을 위한 Neural Hierarchical Interpolation의 약자
 
 이 방법으로 N-HiTS는 더 긴 시계열에 대해 더 나은 정확도와 낮은 계산 비용을 달성합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다중 비율 데이터 샘플링은 스택이 단기 또는 장기적 영향에 특화되도록 만듭니다. 이러한 스택이 각각의 구성 요소를 학습하기 쉬워집니다. 장기적 행동에 중점을 둔 것은 N-BEATS에 비해 향상된 장기적 시계열 예측을 이끌어냅니다.
 
@@ -57,7 +86,18 @@ N-HiTS는 시계열 예측을 위한 Neural Hierarchical Interpolation의 약자
 
 # N-HiTS는 자세히 어떻게 작동하나요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 N-HiTS 모델은 다음과 같은 아키텍처를 가지고 있어요:
 
@@ -67,7 +107,18 @@ N-HiTS 모델은 다음과 같은 아키텍처를 가지고 있어요:
 
 첫째, N-HiTS는 시계열을 lookback 및 forecast 기간으로 분리해요. 둘째, 해당 모델은 다층 스택과 블록으로 구성되어 있어요, backcast와 forecast를 생성해요. 각 블록에서 다층 퍼셉트론은 backcast와 forecast를 위한 기저 확장 계수를 생성해요. backcast는 블록이 포착한 시계열의 일부를 보여줘요. 우리는 이전 블록의 backcast를 제거하고 시계열을 블록에 전달하기 전에요. 이를 통해 각 블록은 서로 다른 패턴을 학습하게 되어요, 블록 간에 잔차만 전달하기 때문이에요. 해당 모델은 모든 블록의 forecast를 합하여 최종 예측을 생성해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 유사한 부분에 대해서는 이 정도로 설명을 유지하겠습니다. 더 자세한 정보는 제 N-BEATS 글을 참조하시기 바랍니다.
 
@@ -77,7 +128,18 @@ N-HiTS 모델은 다음과 같은 아키텍처를 가지고 있어요:
 
 N-HiTS는 MaxPool 레이어를 통해 블록 수준에서 다중 속도 샘플링을 수행합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 MaxPool 레이어는 선택된 커널 크기 내에서 가장 큰 값을 취함으로써 입력을 평활화합니다. 따라서 커널 크기가 샘플링 속도를 결정합니다. 커널 크기가 클수록 평활화가 더 강해집니다.
 
@@ -87,7 +149,18 @@ MaxPool 레이어의 커널 크기는 스택 레벨에서 정의합니다. 따�
 
 N-HiTS는 리샘플링을 위해 위에서 아래로 접근하는 방식을 사용합니다. 첫 번째 스택은 큰 커널 크기를 통해 장기적인 효과에 초점을 맞춥니다. 후속 스택은 작은 커널 크기를 통해 단기적인 효과에 초점을 맞춥니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 출력의 계층 적 보간
 
@@ -95,9 +168,20 @@ N-HiTS는 각 스택의 예측 수, 즉 기수를 줄이기 위해 계층 적 �
 
 이게 무슨 말인가요?
 
-시계열의 다음 24시간을 예측하려고 한다고 가정해 봅시다. 우리는 우리 모델이 24개의 예측을 출력할 것을 기대합니다(각 시간당 하나). 시간당 데이터의 다음 두 주를 예측하려면 336개의 예측이 필요합니다(14 * 24). 그게 맞죠?
+시계열의 다음 24시간을 예측하려고 한다고 가정해 봅시다. 우리는 우리 모델이 24개의 예측을 출력할 것을 기대합니다(각 시간당 하나). 시간당 데이터의 다음 두 주를 예측하려면 336개의 예측이 필요합니다(14 \* 24). 그게 맞죠?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 이것이 문제가 되는 곳입니다. N-BEATS 모델을 예를 들어봅시다. 최종 예측은 각 스택의 부분 예측을 결합한 것입니다. 따라서 각 스택은 336개의 값을 예측해야 하며, 이는 계산 비용이 많이 듭니다. N-BEATS는 더 긴 예측 범위에서 같은 문제를 겪는 모델 중 하나에 불과합니다. 다른 딥러닝 접근 방식인 트랜스포머나 순환 신경망과 같은 모델들도 같은 문제에 직면하게 됩니다.
 
@@ -107,7 +191,18 @@ N-HiTS는 각 스택이 서로 다른 시간 스케일에서 예측하도록하�
 
 표현 간격 비율은 출력을 입력의 재샘플링과 관련시킵니다. 입력의 재샘플링과 결합되어, 각 스택은 서로 다른 주파수에서 작동합니다. 따라서 각 스택은 서로 다른 속도로 시계열을 처리하는 데 전문화될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 N-HiTS의 저자들은 입력에 가까운 스택은 장기적 효과에 초점을 맞춰야 한다고 제안합니다. 따라서 이러한 스택은 표현 비율이 작아야 합니다. 예를 들어, 세 개의 스택을 가질 수 있습니다. 첫 번째 스택은 주간 행동에 특화되어 있고, 두 번째는 일일 행동에 특화되어 있으며, 세 번째는 시간당 행동에 특화되어 있습니다.
 
@@ -117,7 +212,18 @@ N-HiTS의 저자들은 입력에 가까운 스택은 장기적 효과에 초점�
 
 그것은 시계열에 따라 다릅니다. 저자들은 두 가지 옵션을 권장합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 다양한 주파수 범위를 다룰 때 매개변수의 수를 줄이기 위해 스택 간 지수적으로 증가하는 표현 비율을 사용합니다.
 - 일간, 주간 등의 시계열 주기를 활용합니다.
@@ -128,7 +234,18 @@ N-HiTS가 어떻게 작동하는지 알게 되었으니, 모델을 예측 작업
 
 N-BEATS 글에서와 마찬가지로, 우리는 독일의 도매 전기 가격을 다음 두 주 예측할 것입니다. 우리는 CC-BY-4.0 라이선스로 제공되는 "유럽 도매 전기 가격" 데이터를 사용할 것입니다. Nixtla의 neuralforecast 라이브러리에서 N-HiTS 구현을 사용할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-N-HiTSMakingDeepLearningforTimeSeriesForecastingMoreEfficient_4.png)
 
@@ -139,7 +256,18 @@ N-BEATS 글에서와 마찬가지로, 우리는 독일의 도매 전기 가격�
 
 N-BEATS 논문에서 동일한 데이터 집합을 사용했기 때문에 데이터 준비, 훈련-테스트 분할, 결과 시각화 및 기준 모델에 대한 모든 코드를 재사용할 수 있습니다. 따라서 이곳에 코드 조각을 표시하지 않겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드 작성에 들어가기 전에 가능한 정확한 예측을 얻으려는 것이 아니라 어떻게 N-HiTS를 적용할 수 있는지를 보여주는 것입니다.
 
@@ -149,7 +277,18 @@ N-BEATS 논문에서 동일한 데이터 집합을 사용했기 때문에 데이
 
 이곳에서는 이전에 N-BEATS 기사에서 사용한 계절성이 있는 단순 모델을 사용할 것입니다. 따라서 자세한 내용은 다루지 않고 결과만 보여드리겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 훈련 세트의 마지막 주 데이터를 사용하여 예측하면 MAE가 17.84로 나옵니다. 이미 상당히 좋은 성적입니다.
 
@@ -159,7 +298,18 @@ N-BEATS 논문에서 동일한 데이터 집합을 사용했기 때문에 데이
 
 첫 번째 N-HiTS 모델을 훈련해 봅시다. Nixtla의 neuralforecast 라이브러리를 사용하므로 구현은 간단합니다. 예측과 과거 기간을 정의하는 N-HiTS 모델을 초기화합니다. 이 경우, 과거 기간을 1주로 설정했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러면 몇 가지 사용자 정의 옵션이 있습니다.
 
@@ -171,7 +321,18 @@ Nixtla의 문서 전체 설명을 보십시오.
 
 N-BEATS 모델과 대조적으로 몇 가지 차이점을 볼 수 있습니다. 우리는 모델을 사용자 정의하기 위해 더 많은 매개변수를 가지고 있습니다. 커널 크기 및 풀링 유형을 선택하여 다중 속도 데이터 샘플링을 사용자 정의할 수 있습니다. 계층적 보간은 보간 유형 및 표현성 비율을 통해 사용자 정의할 수 있습니다. 코드 스니펫에서 이미 일부 하이퍼파라미터를 조정해 보았습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모델을 초기화한 후에는 neuralforecast 클래스로 래핑하고 모델을 적합시킵니다. N-BEATS 기사를 읽으셨다면 이 단계에 익숙할 것입니다.
 
@@ -181,7 +342,18 @@ N-BEATS 모델과 대조적으로 몇 가지 차이점을 볼 수 있습니다. 
 
 ## N-HiTS 모델의 하이퍼파라미터 튜닝
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 좋은 하이퍼파라미터를 찾기 위해 시간을 쓰지 말고 최적화를 실행할 수 있어요.
 
@@ -191,7 +363,18 @@ N-BEATS 모델과 대조적으로 몇 가지 차이점을 볼 수 있습니다. 
 
 Optuna를 선택하고 사용자 정의 구성 파일을 사용해 시작해봐요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "우리는 '최적화된' N-HiTS 모델이 베이스라인과 N-HiTS 모델에 비해 정확도가 더 낮다는 것을 알 수 있습니다 (MAE는 22.63입니다).
 
@@ -201,7 +384,18 @@ Optuna를 선택하고 사용자 정의 구성 파일을 사용해 시작해봐�
 
 ## 외생 변수가 포함된 N-HiTS"
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사를 마치기 전에 마지막으로 보여드릴것이 있습니다. N-HiTS 모델에서 외생 변수를 사용할 수도 있습니다. 이를 위해 초기화 동안 futr_exog_list로 외생 변수를 NHITS 모델에 전달하기만 하면 됩니다. 예를 들어, 주간 계절성이 있는 경우 모델에 요일을 전달할 수 있습니다.
 
@@ -211,7 +405,18 @@ Optuna를 선택하고 사용자 정의 구성 파일을 사용해 시작해봐�
 
 # N-HiTS에 대한 마지막 메모
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 N-HiTS는 논문에서 다양한 데이터 세트에서 매우 좋은 성능을 보였습니다. 그러나 이것은 모든 문제와 데이터 세트에 대해 N-HiTS가 최적의 해결책이 될 것을 의미하지는 않습니다. 특히 당신의 경우에는요.
 
@@ -221,7 +426,18 @@ N-HiTS는 논문에서 다양한 데이터 세트에서 매우 좋은 성능을 
 
 따라서, N-HiTS가 사용하기 쉽고 유망한 모델처럼 보여도, 해당 모델로 프로젝트를 시작하지 마십시오. 간단한 기준 모델로 시작하십시오. 기준을 토대로하여, N-HiTS가 문제에 대한 좋은 선택인지를 결정할 수 있습니다. 예를 들어, N-HiTS가 추가된 복잡성에 비해 얼마나 가치를 더하는지를 고려할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

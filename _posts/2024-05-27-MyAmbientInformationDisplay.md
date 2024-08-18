@@ -3,16 +3,13 @@ title: "내 앰비언트 정보 디스플레이"
 description: ""
 coverImage: "/assets/img/2024-05-27-MyAmbientInformationDisplay_0.png"
 date: 2024-05-27 13:55
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-MyAmbientInformationDisplay_0.png
 tag: Tech
 originalTitle: "My Ambient Information Display"
 link: "https://medium.com/@nextjeff/my-ambient-information-display-e3c026a2d325"
 isUpdated: true
 ---
-
-
-
 
 유용한 정보에 몰두하는 것을 좋아하고 종종 상상하여 새롭고 흥미로운 것을 보고 싶을 때 상층에 떠다니는 정보를 바라보고 싶다고 꿈꿔 왔어요.
 
@@ -22,7 +19,18 @@ MagicMirror는 매우 활발한 커뮤니티를 가진 성숙한 오픈 소스 �
 
 원래의 MagicMirror 개념은 반반 반사 유리 뒤에 모니터를 부착하여 전반적인 프로젝트가 거울처럼 보이도록 하는 것이었어요. 이렇게 MagicMirror를 사용하는 방법도 있지만, 표준 모니터에 표시할 수도 있어요. 제 것은 이렇게 생겼어요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![My Ambient Information Display](/assets/img/2024-05-27-MyAmbientInformationDisplay_0.png)
 
@@ -32,7 +40,18 @@ MagicMirror는 매우 활발한 커뮤니티를 가진 성숙한 오픈 소스 �
 
 이 프로젝트에서 특히 좋아했던 점은 (결과물 외에) TV를 안전하게 부착하기 위해 스터드 파인더 사용법, 리눅스 명령 줄 사용법(새로운 기술은 아니지만 항상 연습해야 하는 기술 중 하나), 효과적인 소스 코드 제어 시스템 설정, JavaScript 및 Node 디버깅 등 다양한 기술을 사용할 수 있었다는 것입니다. 이러한 기술이 전혀 없어도 시작할 수 있도록 하는 데 마음을 멈추지 마세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 들어가기 전에, 몇 달 동안 내 MagicMirror를 점진적으로 발전시켜 현재의 형태로 만들었다는 점을 강조하고 싶어요. 모듈을 추가하고, 설정하고, 재설정하고, 제거하고, 업데이트하고, 심지어 필요에 맞게 수정하면서 요구 사항에 맞게 맞춰 왔어요. 당신에게 제안드리는 것은 간단히 시작하고, 압도되지 않도록 천천히 진행하면서 자신의 속도로 움직이는 것이 좋다는 거에요. 이 곳에는 많은 기능과 유연성이 있지만, 한 걸음씩 가십시오.
 
@@ -42,7 +61,18 @@ MagicMirror는 매우 활발한 커뮤니티를 가진 성숙한 오픈 소스 �
 
 이를 위해 Amazon CodeCommit을 사용하여 내 Git 리포지토리를 설정했죠. 이것은 AWS Free Tier의 일부로 제공되며, AWS 직원이 아니더라도 사용했을 것 같아요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 Git 전문가는 아니지만 상대적으로 간단한 명령어로 대부분의 작업을 수행할 수 있습니다: git checkout, git add, git commit 및 git push.
 
@@ -52,7 +82,18 @@ MagicMirror는 매우 활발한 커뮤니티를 가진 성숙한 오픈 소스 �
 
 다시 읽어보니, 초기 설정을 Amazon EC2 인스턴스에서 했다는 것을 상기했습니다. 이는 중요한 사항입니다: MagicMirror는 단순히 리눅스 서버에서 실행되는 프로그램이며, 라즈베리 파이에서 실행할 필요가 없습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 반복 가능한 시스템 설정
 
@@ -62,7 +103,18 @@ MagicMirror는 매우 활발한 커뮤니티를 가진 성숙한 오픈 소스 �
 
 # MagicMirror 구성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마법 거울의 설정 프로세스는 긴 시리즈의 git clone 및 npm install 명령으로 구성되어 있습니다. 프로세스를 완전히 반복 가능하고 완전히 자동화하는 것이 제 목표이기 때문에 Bash 스크립트를 만들어 모든 설정 단계를 수행하도록 하고 있습니다. 이 스크립트는 디렉토리를 생성하고 모든 준비 작업을 마무리합니다 (이 작업에는 20~40분 정도 소요됩니다):
 
@@ -72,7 +124,18 @@ MagicMirror는 매우 활발한 커뮤니티를 가진 성숙한 오픈 소스 �
 
 제 디렉토리 구성은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Source/MagicMirror — 이건 내 Git 저장소에서 체크아웃한 내용이야.
 
@@ -82,7 +145,18 @@ Source/MagicMirror/config.js — 설정 파일이야.
 
 Source/MagicMirror/custom.css — 사용자 정의 CSS 파일이야.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Source/MagicMirror/MagicMirror — 이는 github.com에서 가져온 sub-repo입니다. MagicMirror 코드가 실제로 포함되어 있습니다.
 
@@ -94,7 +168,18 @@ MagicMirror를 실행하려면 로그인한 후에 다음 명령을 실행합니
 cd ~/Source/MagicMirror/MagicMirror/ ; cp ../config.js config ; cp ../custom.css css ; npm run start
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 모듈별 리뷰
 
@@ -104,8 +189,18 @@ cd ~/Source/MagicMirror/MagicMirror/ ; cp ../config.js config ; cp ../custom.css
 
 여기가 제 첫 번째 페이지입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![My Ambient Information Display](/assets/img/2024-05-27-MyAmbientInformationDisplay_4.png)
 
@@ -120,8 +215,18 @@ The left column uses the following modules:
 
 The center column uses the newsfeed module to display the latest AWS news via an RSS feed.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 및 오른쪽 열에는 다음 모듈이 사용됩니다:
 
@@ -134,7 +239,18 @@ The center column uses the newsfeed module to display the latest AWS news via an
 
 ![이미지](/assets/img/2024-05-27-MyAmbientInformationDisplay_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 페이지는 여러 실험의 결과입니다. MMM-Webview를 사용하여 PiAware를 실행 중인 Pi에 있는 HTML 페이지를 열고 있습니다. 페이지는 워싱턴 주 페리 카메라에서 이미지를 왼쪽에 로드하고 Pi에서 FlightAware 지도를 오른쪽에 로드합니다. 내 집은 시애틀-타코마 국제공항에 접근하는 길 가에 있습니다. 때때로 밖에서 비행기 소리가 들리고 지도 상에서 움직이는 비행기를 볼 수 있습니다. 이 페이지를 동작하고 멋지게 보이도록 만드는 데 시간이 걸렸지만 정말 좋아합니다!
 
@@ -159,8 +275,18 @@ The center column uses the newsfeed module to display the latest AWS news via an
 
 세 번째 페이지는 여기 있습니다. 이 페이지는 새롭게 만들었고 설정하는 데 많은 재미를 느끼고 있습니다. 목표는 다양한 교육적이고 유익한 인포그래픽을 표시하여 새로운 정보를 찾고 배울 수 있는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-05-27-MyAmbientInformationDisplay_6.png](/assets/img/2024-05-27-MyAmbientInformationDisplay_6.png)
 
@@ -170,8 +296,18 @@ This page uses MMM-WebView. This infographic is from the brand new AWS Fundament
 
 I am still building up my collection of infographics; here’s what I have so far, and your suggestions are welcome:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 물리 포스터
 - 이진 포스터
@@ -185,8 +321,18 @@ I am still building up my collection of infographics; here’s what I have so fa
 
 그리고 여기가 네 번째 페이지입니다 (이미지는 ezgif.com을 사용하여 만들어졌습니다):
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*mnHtyQjE8smDHDM7eLXwYQ.gif)
 
@@ -196,8 +342,18 @@ I am still building up my collection of infographics; here’s what I have so fa
 
 그리고 다섯 번째 페이지가 더 있지만, 시간당 회전에는 없습니다. Stream Deck에서 키를 누르면 MMM-MonthlyCalendar의 도움으로 전체 화면 형식으로 캘린더를 볼 수 있습니다(개인 항목은 파란 막대로 가려졌습니다):
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-27-MyAmbientInformationDisplay_8.png" />
 
@@ -207,7 +363,18 @@ I am still building up my collection of infographics; here’s what I have so fa
 
 몇 년이 지나면 모듈이 더 이상 유지되지 않을 수도 있고, 다른 유지자가 나타날 수도 있습니다. 모듈이 고장나 있고 더 이상 관리되지 않는다면 분기점을 확인하고 문제를 해결하는 분기점을 찾아볼 수 있습니다. 혹은, 더 나아가서 버그를 수정하고 풀 요청을 제출해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용 사례 및 원하는 반복 가능성에 따라 각 모듈의 개인 포크를 만들고 해당 포크를 프로젝트에 복제하는 것이 좋을 수 있습니다. 이렇게하면 필요할 때마다 사본을 업데이트해야 합니다.
 
@@ -222,7 +389,18 @@ fixed:
 ],
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 MMM-RemoteControl은 REST API를 구현하여 Stream Deck에서 MagicMirror를 제어할 수 있게 합니다. config 파일에는 (로컬) 장난으로부터 보호하기 위한 apiKey가 포함되어 있습니다:
 
@@ -245,8 +423,18 @@ MMM-RemoteControl은 REST API를 구현하여 Stream Deck에서 MagicMirror를 �
 
 Stream Deck은 키를 누를 때 비동기 HTTP GET 요청을 수행하도록 구성되어 있습니다; 하단 왼쪽의 6개 키가 이와 같이 설정되어 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-27-MyAmbientInformationDisplay_9.png)
 
@@ -258,9 +446,18 @@ http://192.168.7.217:8080/api/notification/HOME_PAGE?apiKey=XYZ
 
 각 모듈은 특정 종류의 알림에 응답합니다. 이들은 일반적으로 문서화되어 있지만 가끔 소스 코드를 살펴봐야 할 수도 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 전반적인 정보 흐름
 
@@ -270,7 +467,18 @@ http://192.168.7.217:8080/api/notification/HOME_PAGE?apiKey=XYZ
 
 # 다음은 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서 여기에요! 현재 구성에 매우 만족하고 있지만 계속해서 새로운 모듈을 찾아 시도해 볼 예정입니다.
 
@@ -279,4 +487,3 @@ http://192.168.7.217:8080/api/notification/HOME_PAGE?apiKey=XYZ
 앞서 말했듯이, MagicMirror를 설정하는 과정에서 다양한 기술을 활용하게 되어 매우 만족스러웠습니다. 이러한 프로젝트에서는 새로운 기술을 습득하고 현재 기술을 향상시키는 것이 불가피하게 발생하는 긍정적인 부작용입니다.
 
 여러분도 직접 만들어 보고 제게 소식 주세요!
-

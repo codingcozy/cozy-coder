@@ -3,17 +3,13 @@ title: "BioASQ 팩토이드 질문을 SQuAD 형식으로 변환하는 사전 처
 description: ""
 coverImage: "/assets/img/2024-07-07-TransformingBioASQFactoidQuestionsintoSQuADFormatAPreprocessingApproach_0.png"
 date: 2024-07-07 03:32
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-TransformingBioASQFactoidQuestionsintoSQuADFormatAPreprocessingApproach_0.png
 tag: Tech
 originalTitle: "Transforming BioASQ Factoid Questions into SQuAD Format: A Preprocessing Approach"
 link: "https://medium.com/@ahmedajminenehal/transforming-bioasq-factoid-questions-into-squad-format-a-preprocessing-approach-a43a884eeb98"
 isUpdated: true
 ---
-
-
-
-
 
 ![TransformingBioASQFactoidQuestionsintoSQuADFormatAPreprocessingApproach](/assets/img/2024-07-07-TransformingBioASQFactoidQuestionsintoSQuADFormatAPreprocessingApproach_0.png)
 
@@ -23,7 +19,18 @@ BioASQ는 생물 의학 질문에 대한 기계 학습 모델을 교육하고평
 
 제공된 Python 스크립트는 JSON 파일에서 BioASQ 데이터를 읽고 PubMed ID(PMID)를 사용하여 PubMed에서 초록과 제목을 가져와 "context" 필드를 구성하고 데이터를 SQuAD 형식으로 구조화합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 코드의 자세한 분석
 
@@ -39,7 +46,18 @@ import time
 import os
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **json**은 JSON 파일을 읽고 쓰는 데 사용됩니다. **requests**는 PubMed API에 HTTP 요청을 보내는 데 사용됩니다. **xml.etree.ElementTree**는 XML 응답을 구문 분석하는 데 사용됩니다. **time**은 서버를 과부하시키지 않도록 API 요청 사이에 지연을 추가하는 데 사용됩니다. **os**는 파일 경로 조작에 사용됩니다.
 
@@ -53,7 +71,7 @@ def fetch_pubmed_abstract_and_title(pmid):
     try:
         response = requests.get(url)
         response.raise_for_status()  # 잘못된 상태 코드에 대해 예외를 던집니다.
-        
+
         try:
             root = ET.fromstring(response.content)
             abstract_text = root.find(".//AbstractText")
@@ -73,7 +91,18 @@ def fetch_pubmed_abstract_and_title(pmid):
         return ""
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - PubMed API URL을 제공된 PMID를 사용하여 생성합니다.
 - PubMed API로 HTTP GET 요청을 보내고 오류를 확인합니다.
@@ -160,7 +189,18 @@ def preprocess_bioasq_to_squad(input_json):
     return json.dumps(squad_format, indent=2)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - BioASQ JSON 데이터를 읽는 기능입니다.
 - SQuAD 형식 데이터를 보유할 사전을 초기화합니다.
@@ -196,7 +236,18 @@ with open(output_file_path, 'w') as file:
 print(f"전처리 완료. 출력은 '{output_file_path}'에 저장되었습니다.")
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 입력 JSON 파일에는 BioASQ 데이터가 포함되어 있습니다.
 - 데이터를 SQuAD 형식으로 변환하기 위해 preprocess_bioasq_to_squad 함수를 호출합니다.
@@ -212,7 +263,18 @@ print(f"전처리 완료. 출력은 '{output_file_path}'에 저장되었습니�
 - preprocess_bioasq_to_squad 함수에서 질문과 답변이 처리되는 방식을 조정하여 다양한 유형의 질문이나 추가 답변 형식을 처리하도록 조정합니다.
 - 파일 경로 및 입력/출력 처리를 환경이나 작업 흐름에 맞게 변경합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 결론
 

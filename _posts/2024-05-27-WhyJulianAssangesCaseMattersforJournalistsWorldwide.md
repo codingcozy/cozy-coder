@@ -3,17 +3,13 @@ title: "주리안 어쌘지 사건이 전 세계 언론인들에게 왜 중요�
 description: ""
 coverImage: "/assets/img/2024-05-27-WhyJulianAssangesCaseMattersforJournalistsWorldwide_0.png"
 date: 2024-05-27 15:41
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-WhyJulianAssangesCaseMattersforJournalistsWorldwide_0.png
 tag: Tech
 originalTitle: "Why Julian Assange’s Case Matters for Journalists Worldwide"
 link: "https://medium.com/@georgejziogas/why-julian-assanges-case-matters-for-journalists-worldwide-0e343fb19d7a"
 isUpdated: true
 ---
-
-
-
-
 
 ![Why Julian Assange's Case Matters for Journalists Worldwide](/assets/img/2024-05-27-WhyJulianAssangesCaseMattersforJournalistsWorldwide_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이번 주에 어샌지스와 그의 변호팀은 중요한 승리를 거뒀습니다: 그는 미국으로의 인도를 항소할 권리를 부여받았습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 승리일지 모르지만, 어쌍지는 여전히 감옥에 수감 중이며, 그의 사건은 언론인과 언론 자유 옹호자들이 알아야 할 중요한 사안입니다. 그가 미국으로 송환돼 재판을 받게 된다면, "대중의 이익을 위한 정보"를 공유한 것으로 처음으로 감옥에 가게 될 수도 있습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 위키리크스는 2010년에 악명을 얻게 되었는데, 미국군이 2007년 배그다드에서 미군에 의해 11명의 민간인이 살해당한 사건을 보여주는 분류된 미국 군사 비디오를 온라인으로 공유했습니다. 이 비디오와 수천 건의 다른 문서는 군 정보 분석관인 첼시 매닝에 의해 어쌍지와 위키리크스에 제공되었습니다. 매닝 자신도 기밀 정보를 공개한 혐의로 스파이법에 따라 기소되어 여러 해 동안 감옥에 있게 되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어느 날 어쌍지는 1917년 스파이기법에 따른 17개 혐의와 "컴퓨터 침입 공모" 1개 혐의로 기소될 것이며, 매닝의 폭로를 발표한 것이 이로 이어질 것입니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 어쌍지는 영국이 미국으로의 이송을 승인한 결정에 대한 항소 소송을 계속할 것입니다. 그의 변호인팀은 어쌍지는 미국 시민이 아닌 호주 시민이기 때문에 언론의 자유를 보호받지 못할 것이라는 점에 중점을 둘 것으로 예상됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 방에 있는 코끼리는, Assange가 미국 시민이었다고 해도 스파이법에 따른 기소로 인해 제1 수정안의 보호를 받기 어렵다는 것입니다. 이 법은 1917년부터 시행되어 왔으며, 비밀 및 기밀 정부 정보를 누설한 사람들에게 심각한 처벌을 부과합니다.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 ## 안보의 나무들을 위해 언론의 숲을 잊지 마세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Espionage Act를 사용하여 국가 및 기밀 비밀 정보의 유출자를 기소하는 주장자들은 국가 안보를 보호하기 위해 해당 법률을 사용한다고 시민들에게 종종 말합니다.
 

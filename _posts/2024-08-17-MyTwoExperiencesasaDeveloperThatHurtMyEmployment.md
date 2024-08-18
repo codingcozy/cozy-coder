@@ -3,7 +3,7 @@ title: "시니어 개발자가 알려주는 반드시 하면 안되는 개발 �
 description: ""
 coverImage: "/assets/img/2024-08-17-MyTwoExperiencesasaDeveloperThatHurtMyEmployment_0.png"
 date: 2024-08-17 00:47
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-17-MyTwoExperiencesasaDeveloperThatHurtMyEmployment_0.png
 tag: Tech
 originalTitle: "My Two Experiences as a Developer That Hurt My Employment"
@@ -11,7 +11,6 @@ link: "https://medium.com/javascript-in-plain-english/my-two-experiences-as-a-de
 isUpdated: true
 updatedAt: 1723863765931
 ---
-
 
 ## 작업
 
@@ -21,7 +20,18 @@ updatedAt: 1723863765931
 
 당시에는 미디어/인터넷 기관에서 학생 조교 및 코더로 일했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 회사 소개:
 
@@ -31,7 +41,18 @@ updatedAt: 1723863765931
 
 저는 이전에 공부했던 것들은 주로 자바에서의 객체 지향 프로그래밍(자바스크립트는 아님), 다양한 알고리즘들, 수학 그리고 약간의 소프트웨어 아키텍처와 그와 관련된 것들이었습니다. HTML, PHP, CSS에 대한 기본 지식이 있습니다. 많은 것들을 스스로 배웠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 3개월 동안 모든 것이 순조롭게 진행되었어요. 작업은 기존 HTML 기반 정적 웹사이트를 Contao로 이전하고, PHP로 내 백엔드 모듈을 만들고, CMS를 통해 프론트엔드를 편집 가능하게 하는 것이었어요.
 
@@ -41,7 +62,18 @@ updatedAt: 1723863765931
 
 그리고 꼼수가 나왔어요: 기존 웹사이트의 양식을 Javascript로 "빠르게" 수정해야 했는데, 여기에서 특정 필드는 이전에 선택된 다른 필드에 의해만 표시되는 조건이 있었어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 처음에는 쉬워 보였지만, 실제로는 기존 코드를 조금 수정하고 조금의 논리를 적용하여 간단히 필드를 숨기고 표시하는 방식으로 만들 수 있겠다고 생각했어요. 사실 막연하지 않은 작업이었죠.
 
@@ -51,7 +83,18 @@ updatedAt: 1723863765931
 
 그것을 파악하는 데는 시간이 꽤 걸렸어요. 뿐만 아니라, 양식은 주로 PHP로 만들어졌지만, 분명히 복사하여 붙여넣기되었고 인터페이스 구현이 정확하게 이루어지지 않았어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 서버 어딘가에 있는 .php 파일에서 폼의 내용이 나왔다고 들었어요 (먼저 스스로 찾아야 했죠). 물론 폼 파일 자체에 직접 src로 명시되지 않았지만 페이지가 생성될 때 어딘가에 숨겨져 있었어요. 그것 때문에 미치겠더라구요.
 
@@ -61,7 +104,18 @@ updatedAt: 1723863765931
 
 사장이 이미 송장을 발행했기 때문에 크리스마스 휴가 중에 끝내달라는 업무를 맡겨줬어요. 결국 해년 전에 그것을 회계에 포함시키고 싶었던 겁니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 불행하게도 마감일을 맞추지 못했고, 1월 2일에 작업을 마무리했어요. 멍청하고 어리석은 양식이었음에도 불구하고 두 주 이상이나 고생했어요.
 
@@ -71,7 +125,18 @@ updatedAt: 1723863765931
 
 ## Case #2:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 워드프레스만 다루는 회사에서 일해보는 시도를 했어요. 면접에서는 CMS에 대한 경험이 있지만 워드프레스는 처음이라고 말했어요.
 
@@ -81,7 +146,18 @@ updatedAt: 1723863765931
 
 내 업무는 스마트폰 버전에서 제대로 표시되지 않는 완전히 망가진 메뉴를 수리하는 것이었어요. 또한 프론트엔드의 버그를 수정해야 했어요. 그러나 전혀 모르는 워드프레스의 특정 사항으로 인해 즉시 제약을 받았고, 기본적으로 “X 라인에서 Y 오류가 발생했으니 그것을 수정하라”고 했지만 오류는 완전히 다른 곳에 있었어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그런 다음 "가만히 있는" X 라인의 오류를 수정하고 싶었지만, 원래의 오류를 바로 잡고 싶었어요. 그러나 모를 바에 나가 문제에 빠졌어요. 왜 명령대로 하지 않았는지 물었어요. 그래서 전 어떻게든 X 지점에서 프론트엔드에서 올바르게 만들기 위한 해결책을 고안해냈어요.
 
@@ -91,7 +167,18 @@ updatedAt: 1723863765931
 
 오류의 원인이 많기 때문에 작업에 대해 자세한 설명 없이는 일반화할 수 없어요. 당신이 묻는 질문은 여러분의 의견을 형성하기 위한 전문 지식이나 기술 지식이 부족하다는 것을 시사해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 IT 배경이 없는 기업가들에게는 왜 일부 작업이 놀라울 만큼 오랜 시간이 걸리는지, 반면 거의 동일한 작업이 훨씬 많은 시간이나 전문 지식이 필요한 작업을 왜 정확히 하지는 않는지 이해하는 것이 특히 어렵습니다.
 
@@ -101,7 +188,18 @@ IT 배경이 없는 기업가들에게는 왜 일부 작업이 놀라울 만큼 
 
 In Plain English 커뮤니티의 일원이 되어 주셔서 감사합니다! 떠나시기 전에:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 작가를 박수 치고 팔로우해 주세요! 👏️️
 - 팔로우하기: X | LinkedIn | YouTube | Discord | 뉴스레터

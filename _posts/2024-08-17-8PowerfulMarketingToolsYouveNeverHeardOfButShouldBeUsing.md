@@ -3,7 +3,7 @@ title: "마케팅 종사자라면 알아둬야할  강력한 마케팅 도구 
 description: ""
 coverImage: "/assets/img/2024-08-17-8PowerfulMarketingToolsYouveNeverHeardOfButShouldBeUsing_0.png"
 date: 2024-08-17 00:23
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-17-8PowerfulMarketingToolsYouveNeverHeardOfButShouldBeUsing_0.png
 tag: Tech
 originalTitle: "8 Powerful Marketing Tools Youve Never Heard Of But Should Be Using"
@@ -11,7 +11,6 @@ link: "https://medium.com/swlh/8-powerful-marketing-tools-youve-never-heard-of-b
 isUpdated: true
 updatedAt: 1723863929314
 ---
-
 
 마케터들은 완벽한 도구를 찾느라 잠을 잃곤 해요.
 
@@ -23,7 +22,18 @@ updatedAt: 1723863929314
 
 이 목록도 마찬가지예요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 8가지 잘 알려지지 않은 도구들은 당신과 같은 브랜드에 대한 거대한 결과를 조용히 이끌어내고 있어요.
 
@@ -33,7 +43,18 @@ Likeflare에서 우리는 Webflow가 랜딩 페이지를 만드는 방식을 혁
 
 ![image](/assets/img/2024-08-17-8PowerfulMarketingToolsYouveNeverHeardOfButShouldBeUsing_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Eyesurf의 새로운 사이트는 주목을 끌 뿐 아니라, 다른 요소들 가운데 투자자들을 감명시켜서 회사가 곧 인수되었습니다.
 
@@ -43,7 +64,18 @@ Webflow를 사용하면 가장 까다로운 개발자도 칭찬할 정도로 깔
 
 ![이미지](/assets/img/2024-08-17-8PowerfulMarketingToolsYouveNeverHeardOfButShouldBeUsing_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 번개처럼 빠른 페이지 속도는 더 많은 클릭, 더 적은 이탈 및 더 높은 ROI를 의미합니다. Webflow로 디자인을 완료한 후에는 이것 없이는 어떻게 관리했는지 궁금해할 것입니다.
 
@@ -54,7 +86,18 @@ Webflow를 사용하면 가장 까다로운 개발자도 칭찬할 정도로 깔
 
 ![이미지](/assets/img/2024-08-17-8PowerfulMarketingToolsYouveNeverHeardOfButShouldBeUsing_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Flodesk는 Likeflare에서 이메일 마케팅을 위한 선택 사항이며, 리드 생성에 대한 우리의 미니멀리스트 접근법에서 필수적인 도구입니다. 필수 MBA 지식을 가르치는 MBA ASAP을 위해 우리는 아름다운 이메일을 만들 뿐만 아니라 강력한 리드 자석으로 작용할 수 있는 도구가 필요했습니다. Flodesk는 두 가지 측면에서 모두 성공적으로 제공했습니다. 우리는 Flodesk를 사용하여 62%의 전환율을 가진 이메일 옵트인 페이지를 디자인하고 실행하여 MBA ASAP의 구독자 기반을 크게 성장시켰습니다.
 
@@ -64,7 +107,18 @@ Flodesk는 Likeflare에서 이메일 마케팅을 위한 선택 사항이며, �
 
 Flodesk는 이메일 마케팅의 Canva와 같습니다. 쉽게 아름다운 이메일을 만들 수 있습니다. 인터페이스는 깨끗하고 직관적이어서 경험이 풍부한 전문가든 초보자든 즐겁게 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 가장 좋은 부분은 무제한 이메일, 무제한 목록, 일정 가격이에요. 이제 이메일 수를 예매 중수처럼 지켜볼 필요가 없어요. 순수한 이메일 블리스죠.
 
@@ -74,7 +128,18 @@ Xano는 Likeflare에서 우리의 미니멀리스트 마인드셋과 완벽하�
 
 이런 것을 상상해보세요: 코드 한 줄을 작성하지 않고 즉시 구축할 수 있는 확장 가능한 백엔드 설정. 너무 좋아서 실제로 이루어질 수 없는 것 같나요? 아니에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로 팁: 백엔드 개발 세계에서는 복잡성이 적대적입니다. 설정이 간단할수록 확장할 수 있는 속도가 빨라집니다 — Xano가 딱입니다.
 
@@ -85,7 +150,18 @@ Xano는 Likeflare에서 우리의 미니멀리스트 마인드셋과 완벽하�
 
 # CrazyEgg: 사용자 고민을 파악하기 위한 맞춤형 방문자 히트맵
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CrazyEgg은 강력한 미니멀한 도구의 상징입니다. 방문자가 웹 사이트에서 무엇에 막히고 있는지 정확히 볼 수 있는 간단하면서도 강력한 방법입니다.
 
@@ -95,7 +171,18 @@ Shopify가 CrazyEgg를 사용하고 있다는 것을 접했을 때, 그들의 �
 
 전문가 팁: 보지 못하면 고칠 수 없습니다. CrazyEgg를 통해 모든 것을 볼 수 있습니다. 히트맵을 사용하지 않는다면 맹목적으로 움직이고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CrazyEgg을 사용하면 드디어 무엇이 작동하고 무엇이 그렇지 않은지 이해할 수 있습니다. 높은 전환율로 바로 이어지는 보물 지도를 받은 것 같은 느낌이죠.
 
@@ -106,7 +193,18 @@ CrazyEgg을 사용하지 않는다면, 귀중한 통찰과 돈을 놓치고 계�
 
 # Thanks.io: 현대적인 변화를 가미한 올드 스쿨 마케팅
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 개발자로 일하고 있습니다. 위의 텍스트를 친근한 톤으로 한국어로 번역해 드리겠습니다.
 
@@ -118,7 +216,18 @@ CrazyEgg을 사용하지 않는다면, 귀중한 통찰과 돈을 놓치고 계�
 
 전문 팁: 가끔 올드스쿨 방법이 가장 잘 작동합니다 — 특히 다른 사람들이 그것을 사용하지 않을 때죠. 돋보이고 싶다면, 현대적인 변주를 가미한 과거로 돌아가 보세요."
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Personal touch: Send beautiful handwritten-lookalike postcards that stand out in a digital world.
 - API-driven personalization: Get a user’s location (with their permission) and send them a postcard or letter.
@@ -129,7 +238,18 @@ CrazyEgg을 사용하지 않는다면, 귀중한 통찰과 돈을 놓치고 계�
 
 저에게 가장 중요한 것 중 하나는 빠르고 효율적인 서비스에요. Stripe Payment Links는 둘 다 탁월하게 제공하며, 제 심플한 접근 방식과 완벽하게 일치하는 단순함으로 그려져 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 글로시에가 제품 런칭 이메일 중 하나를 받았을 때 스트라이프 결제 링크의 활용을 직접 보았어요. 이메일에서 직접 구매하는 것이 너무 쉬워서 스트라이프가 이끌고 있다고 깨달았어요. 간단한 조사를 통해 확인했고, 그들의 원활한 통합으로 인해 매출이 40% 증가한 것을 확인했어요. 간단함이 결과를 이끌어내는 전형적인 사례였어요.
 
@@ -140,7 +260,18 @@ CrazyEgg을 사용하지 않는다면, 귀중한 통찰과 돈을 놓치고 계�
 - 신속한 설정: 결제 처리가 가능한 랜딩 페이지를 몇 분 안에 구축하세요.
 - 신뢰할 수 있는 디자인: 신뢰를 줄 수 있는 잘 디자인된 인터페이스로 전환을 용이하게 해줘요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 도구는 모든 사람이 이렇게 하는 이유를 궁금해하게 만드는 유형입니다. 빠르고 안전하며 매우 간단합니다. 다른 Stripe 제품과 완벽하게 통합되는 사실은 그야말로 선물 위에 덧씌운 크림과 같습니다.
 
@@ -150,7 +281,18 @@ CrazyEgg을 사용하지 않는다면, 귀중한 통찰과 돈을 놓치고 계�
 
 이 도구는 그 매혼한, 삶이 없는 양식들을 실제로 사용하고 싶어하는 매력적이고 대화형 비디오 채팅으로 변환합니다. 채용을 하는지 또는 피드백을 받으려는지에 상관없이, VideoAsk는 이길 만한 개인적인 감성을 추가합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로 팁: 폼은 지루할 필요가 없어요! 대화처럼 만들어보세요. VideoAsk는 디지털 상호작용에 인간적인 접촉을 더해줘요, 그렇게 해서 마법이 일어나요.
 
@@ -161,7 +303,18 @@ CrazyEgg을 사용하지 않는다면, 귀중한 통찰과 돈을 놓치고 계�
 
 # Apollo.io: 최고의 콜드 아웃리치 도구
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Cold outreach를 하는 것은 어렵겠지만, Apollo.io를 사용하면 간편해집니다. 이는 제 미니멀리즘 철학과 완벽하게 맞는 또 다른 도구입니다. 강력하면서 직관적이며, 노력을 줄이고 더 많은 성과를 이룰 수 있도록 설계되었습니다.
 
@@ -171,7 +324,18 @@ Gong이 Apollo.io를 사용하는 것을 본 적이 있는데, 그들의 개인�
 
 Apollo.io의 고급 검색 기능과 견고한 데이터는 품질 높은 잠재고객을 식별하고 실제로 응답을 얻는 개인화된 메시지를 작성하는 것을 쉽게 만들어줍니다. 그리고 이러한 모든 것을 불필요한 기능으로 여러분을 압도시키지 않고 수행합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 개인적인 손길과 함께 자동화: 개인적인 접촉을 유지하면서 아웃리치 자동화하기.
 - 효율성: 우수한 결과를 얻으면서 시간과 노력을 절약하세요.
@@ -182,6 +346,17 @@ Apollo.io의 고급 검색 기능과 견고한 데이터는 품질 높은 잠재
 
 웹사이트를 개선하고, 백엔드를 간소화하거나 마케팅을 강화하려면, 이 8가지 도구를 실전에서 경험했고, 그들로부터 최대 이익을 얻는 방법을 알고 있어요. 이 도구들을 어떻게 활용하여 비즈니스의 실질적인 성장을 이끌 수 있는지 논의하고 싶어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신의 마케팅을 다음 단계로 이끌어보세요! 오늘 나와 무료 상담 일정을 잡아보세요. 함께 시작해 봐요.

@@ -3,17 +3,13 @@ title: "LLamaIndex와 Gemini를 사용하여 고급 검색 엔진 만들기"
 description: ""
 coverImage: "/assets/img/2024-06-19-BuildingAdvancedSearchEngineswithLLamaIndexandGemini_0.png"
 date: 2024-06-19 19:24
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-BuildingAdvancedSearchEngineswithLLamaIndexandGemini_0.png
 tag: Tech
 originalTitle: "Building Advanced Search Engines with LLamaIndex and Gemini"
 link: "https://medium.com/@erkajalkumari/building-advanced-search-engines-with-llamaindex-and-gemini-9593105dc08c"
 isUpdated: true
 ---
-
-
-
-
 
 # 소개
 
@@ -29,7 +25,18 @@ isUpdated: true
 - Gemini LLM 및 LlamaIndex 내에서 임베딩을 통합하여 응답 생성 및 데이터 저장을 개선하여 RAG 기능을 향상합니다.
 - 맞춤형 리트리버 설정에 대한 의사 결정 능력을 발전시켜 검색 결과 최적화를 위해 AND 및 OR 연산 중 선택하는 방법을 배웁니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # LlamaIndex이 무엇인가요?
 
@@ -39,7 +46,18 @@ isUpdated: true
 
 # RAG가 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 RAG(축약어인 Retrieval Augmented Generation)에는 Retriever와 Generator 두 가지 주요 구성 요소가 있습니다.
 
@@ -50,8 +68,18 @@ RAG(축약어인 Retrieval Augmented Generation)에는 Retriever와 Generator �
 
 # Retriever의 중요성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Retriever Component](/assets/img/2024-06-19-BuildingAdvancedSearchEngineswithLLamaIndexandGemini_0.png)
 
@@ -61,8 +89,18 @@ RAG 파이프라인에서 Retriever 구성 요소의 중요성을 이해해봅�
 
 Vector Search는 유사성 또는 의미 검색을 기반으로 사용자 쿼리에 대한 관련 문서를 식별하며, Keyword Search는 용어 발생 빈도에 기반하여 문서를 찾습니다. 이 통합은 LlamaIndex를 사용하여 두 가지 방법으로 달성할 수 있습니다. Hybrid Search의 사용자 정의 검색기를 구축할 때, 중요한 결정 사항은 AND 또는 OR 연산자 중 어느 것을 사용할지 선택하는 것입니다:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - AND 연산: 이 방법은 모든 지정된 용어를 포함하는 문서를 검색하여 더 제한적이지만 높은 관련성을 보장합니다. 이를 키워드 검색과 벡터 검색 결과 간의 교집합으로 생각할 수 있습니다.
 
@@ -74,7 +112,18 @@ Vector Search는 유사성 또는 의미 검색을 기반으로 사용자 쿼리
 
 # 단계 1: 설치
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Google Colab이나 Jupyter Notebook에서 코드 구현을 시작하려면 주로 필요한 라이브러리를 설치해야 합니다. 이 경우에는 사용자 지정 검색기 생성을 위해 LlamaIndex, 임베딩 모델 및 LLM 추론을 위한 Gemini, 데이터 커넥터로 PyPDF를 사용할 것입니다.
 
@@ -88,7 +137,18 @@ Google Colab이나 Jupyter Notebook에서 코드 구현을 시작하려면 주�
 
 이 프로젝트에서는 Google Gemini를 사용하여 대규모 언어 모델로 응답을 생성하고, LlamaIndex를 사용하여 데이터를 벡터-DB나 메모리 저장 공간에 변환 및 저장하는 임베딩 모델로 사용할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 API 키를 얻으세요.
 
@@ -97,12 +157,23 @@ from getpass import getpass
 ```
 
 ```js
-GOOGLE_API_KEY = getpass("Google API 키를 입력하세요:")
+GOOGLE_API_KEY = getpass("Google API 키를 입력하세요:");
 ```
 
 # 단계 3: 데이터 로드 및 문서 노드 생성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LlamaIndex에서는 SimpleDirectoryLoader를 사용하여 데이터를 로드합니다. 먼저 폴더를 만들고 이 데이터 폴더에 데이터를 어떤 형식으로든 업로드해야 합니다. 저희 예시에서는 PDF 파일을 데이터 폴더에 업로드할 것입니다. 문서가 로드된 후, 문서를 더 작은 세그먼트로 분할하기 위해 노드로 파싱됩니다. 노드는 LlamaIndex 프레임워크 내에서 정의된 데이터 스키마입니다.
 
@@ -114,11 +185,22 @@ from llama_index.core import Settings
 ```
 
 ```js
-documents = SimpleDirectoryReader('data').load_data()
-nodes = Settings.node_parser.get_nodes_from_documents(documents)
+documents = SimpleDirectoryReader("data").load_data();
+nodes = Settings.node_parser.get_nodes_from_documents(documents);
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 4: 임베딩 모델 및 큰 언어 모델 설정하기
 
@@ -130,13 +212,22 @@ from llama_index.llms.gemini import Gemini
 ```
 
 ```js
-Settings.embed_model = GeminiEmbedding(
-    model_name="models/embedding-001", api_key=GOOGLE_API_KEY
-)
-Settings.llm = Gemini(api_key=GOOGLE_API_KEY)
+Settings.embed_model = GeminiEmbedding((model_name = "models/embedding-001"), (api_key = GOOGLE_API_KEY));
+Settings.llm = Gemini((api_key = GOOGLE_API_KEY));
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계5: 저장 문맥 정의 및 데이터 저장
 
@@ -147,11 +238,22 @@ from llama_index.core import StorageContext
 ```
 
 ```js
-storage_context = StorageContext.from_defaults()
-storage_context.docstore.add_documents(nodes)
+storage_context = StorageContext.from_defaults();
+storage_context.docstore.add_documents(nodes);
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인덱스-키워드 및 인덱스 생성
 
@@ -163,11 +265,22 @@ storage_context.docstore.add_documents(nodes)
 from llama_index.core import SimpleKeywordTableIndex, VectorStoreIndex
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-vector_index = VectorStoreIndex(nodes, storage_context=storage_context)
-keyword_index = SimpleKeywordTableIndex(nodes, storage_context=storage_context)
+vector_index = VectorStoreIndex(nodes, (storage_context = storage_context));
+keyword_index = SimpleKeywordTableIndex(nodes, (storage_context = storage_context));
 ```
 
 # 단계6: 사용자 지정 검색기 만들기
@@ -176,8 +289,18 @@ LlamaIndex를 사용하여 하이브리드 검색을 위한 사용자 지정 검
 
 노드가 구성되면 각 노드 ID에 대해 번들을 조회하고 벡터 및 키워드 검색기를 사용합니다. 선택한 모드에 따라 사용자 지정 검색기를 정의하고 완성합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 from llama_index.core import QueryBundle
@@ -198,7 +321,7 @@ class CustomRetriever(BaseRetriever):
         vector_retriever: VectorIndexRetriever,
         keyword_retriever: KeywordTableSimpleRetriever,
         mode: str = "AND") -> None:
-       
+
         self._vector_retriever = vector_retriever
         self._keyword_retriever = keyword_retriever
         if mode not in ("AND", "OR"):
@@ -224,7 +347,18 @@ class CustomRetriever(BaseRetriever):
 
 이제 사용자 정의 검색기 클래스가 정의되었으므로, 검색기를 인스턴스화하고 쿼리 엔진을 합성해야 합니다. 응답 씨네사이저는 사용자 쿼리와 주어진 텍스트 청크 세트를 기반으로 LLM에서 응답을 생성하는 데 사용됩니다. 응답 씨네사이저에서 출력은 응답 객체이며, 이 객체는 사용자 정의 검색기를 하나의 매개 변수로 취합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 from llama_index.core import get_response_synthesizer
@@ -248,7 +382,18 @@ custom_query_engine = RetrieverQueryEngine(
 
 마침내, 현저하게 환각을 줄이는 사용자 정의 검색기를 개발했습니다. 그 효과를 테스트하기 위해, 우리는 컨텍스트 내부와 외부에서 한 가지 프롬프트를 포함한 사용자 쿼리를 실행하고 생성된 답변을 평가했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 query = "데이터 컨텍스트에는 무엇이 포함되어 있나요?"
@@ -262,7 +407,18 @@ print(custom_query_engine.query("과학이란 무엇인가요?")
 
 우리는 LlamaIndex를 사용하여 벡터와 키워드 검색기를 결합하여 Gemini LLM 및 임베딩의 지원을 받아 하이브리드 검색을 수행하는 맞춤형 리트리버를 성공적으로 구현했습니다. 이 접근은 전형적인 RAG 파이프라인에서 LLM 환각을 어느 정도 감소시킴으로써 효과적입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 중요 사항
 

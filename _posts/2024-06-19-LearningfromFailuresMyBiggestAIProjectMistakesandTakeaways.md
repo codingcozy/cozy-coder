@@ -3,7 +3,7 @@ title: "실패로부터 배운 것 내 가장 큰 AI 프로젝트 실수와 교�
 description: ""
 coverImage: "/assets/img/2024-06-19-LearningfromFailuresMyBiggestAIProjectMistakesandTakeaways_0.png"
 date: 2024-06-19 18:40
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-LearningfromFailuresMyBiggestAIProjectMistakesandTakeaways_0.png
 tag: Tech
 originalTitle: "Learning from Failures: My Biggest AI Project Mistakes and Takeaways"
@@ -11,17 +11,24 @@ link: "https://medium.com/@april.st.scott/learning-from-failures-my-biggest-ai-p
 isUpdated: true
 ---
 
-
-
-
-
 ![Learning from Failures](/assets/img/2024-06-19-LearningfromFailuresMyBiggestAIProjectMistakesandTakeaways_0.png)
 
 옛날 어느 날, 저는 챗봇을 만들기로 결심했습니다. 그냥 챗봇이 아니라, 한마디로 아재토론가와 노자처럼 똑똑한 챗봇을 만들기로 한 거예요. 야심 차게 정말 대단한 계획이었어요, 그렇죠? 하지만 야심은 때로 우스꽝스런 실수들이 나오게 할 수 있어요. 제가 만든 캐릭터, 그를 "똑똑이"라고 이름 짓기로 했어요, 대화에서 배우고 적응하는 챗봇이었는데요. 그러나 열정에 휩싸인 나머지, 적절한 학습 경계 설정의 중요성을 간과한 모양이었습니다.
 
 결과는? 기상천외한 질문에 심오한 조언을 하는 챗봇이 되었어요. "오늘 날씨가 어때?" 라는 간단한 질문에 존재주의적인 답변이 돌아오는 상황을 상상해보세요. 날씨 예보를 요청했는데 "근본적인 삶 속에서 날씨란 무엇일까요?" 라는 답이 받아쳐진다고 생각해보세요. 제가 최고인 순간은 아니었습니다. 이곳에서 얻은 교훈은 분명해요: 야망은 실용성을 가져야 하며, AI 프로젝트에는 철저한 지침이 필요해요. 챔피언이자 위인단에 속한 다음 이야기는 지역 기술 워크샵을 위해 디자인한 로봇 로버 이야기죠. 계획은 간단했습니다: 로봇 공학에 대해 가르치기 위해 장애물을 피해 이동할 수 있는 로버와 상호작용할 수 있도록 하는 거였어요. 쉬운 일이었죠, 맞죠? 아니요. 인상을 주려는 나의 노력으로, 디자인을 너무 복잡하게 만들어서 부드럽고 기민한 로버 대신, 사실상 바퀴 달린 리모컨 커피 테이블을 얻게 되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 차고에서 처음으로 출항한 로버는 프로젝트 디스플레이를 넘어뜨리고, 차 고양이를 겁나게 만들었으며, 마침내 의자 다리를 "통해" 이동하려는 루프에 갇혔습니다. 하지만 어린이들의 웃음소리는 전염성 있었고, 상황은 디자인에서의 단순함의 중요성에 대한 귀중한 가르침의 순간으로 변했습니다. 때로는, 로버가 작은 자동차처럼 작은 회전 반경을 가지고 있을 때, 더 적은 것이 정말 더 많은 것일 수 있습니다.
 
@@ -31,6 +38,17 @@ isUpdated: true
 
 소프트웨어 엔지니어링에서, 특히 인공지능과 로봇공학에 대해서는, 성공으로 통하는 길은 언제나 실패한 실험들로 가득합니다 — 제 개인적인 챗봇들이나 정체를 앓는 로버와 같이 말이에요. 하지만, 이러한 실패들 속에서 우리는 더 나은 모습으로 형성되며, 이러한 경험들을 통해 더 능숙하고 창의적인 창조자가 되는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 확실히, 유머, 겸손함, 그리고 실수를 받아들일 용의가 나를 진정한 지침으로 이끌어 왔어요.

@@ -3,17 +3,13 @@ title: "단계별 안내 라즈베리 파이 4 클러스터에 K3s 설치하기"
 description: ""
 coverImage: "/assets/img/2024-06-19-Step-By-StepGuideInstallingK3sonaRaspberryPi4Cluster_0.png"
 date: 2024-06-19 18:27
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-Step-By-StepGuideInstallingK3sonaRaspberryPi4Cluster_0.png
 tag: Tech
 originalTitle: "Step-By-Step Guide: Installing K3s on a Raspberry Pi 4 Cluster"
 link: "https://medium.com/@stevenhoang/step-by-step-guide-installing-k3s-on-a-raspberry-pi-4-cluster-8c12243800b9"
 isUpdated: true
 ---
-
-
-
-
 
 이 게시물을 읽는 데 어려움이 있으면 여기를 확인하십시오.
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 설치 프로세스를 시작하기 전에 라즈베리 파이 4 클러스터에서 각 노드에 할당된 대응하는 IP 주소와 클러스터 설정을 검토해 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![](/assets/img/2024-06-19-Step-By-StepGuideInstallingK3sonaRaspberryPi4Cluster_0.png)
 
@@ -34,9 +40,18 @@ isUpdated: true
 
 제가 192.168.1.85에서 실행 중인 Pi를 마스터 모드로 선택하여 아래 지침에 따라 설치를 시작하겠습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Step-By-Step Guide Installing K3s on a Raspberry Pi 4 Cluster](/assets/img/2024-06-19-Step-By-StepGuideInstallingK3sonaRaspberryPi4Cluster_1.png)
 
@@ -46,9 +61,18 @@ isUpdated: true
 
 프로젝트에서 K3s 클러스터가 필요하다고 생각하여 Raspberry Pi OS Lite 64비트를 선택했습니다. 이 OS 변형은 데스크톱 환경이 포함되어 있지 않기 때문에 노드 설치에는 SSH가 주요 방법이 될 것입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-Step-By-StepGuideInstallingK3sonaRaspberryPi4Cluster_2.png" />
 
@@ -58,8 +82,18 @@ SD 카드에 OS를 플래시하기 전에 각 노드의 노드 이름과 로그�
 
 각 노드의 OS 준비가 완료되면 다음 클러스터를 설정했습니다:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - pi-master: 192.168.1.85 (Pi OS Lite 64비트 실행 중)
 - pi-node-1: 192.168.1.86 (Pi OS Lite 64비트 실행 중)
@@ -71,7 +105,18 @@ SD 카드에 OS를 플래시하기 전에 각 노드의 노드 이름과 로그�
 
 기본적으로 Pi OS는 라우터로부터 무작위 IP를 받기 위해 DHCP를 사용하므로 노드 간 안정적인 연결을 보장하려면 각 노드에 대한 정적 IP를 설정해야 해요. 아래 단계를 따라 정적 IP를 구성할 거에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 1. dhcpcd.conf 파일 열기
@@ -94,7 +139,18 @@ static routers=192.168.1.254
 - Kubernetes 설계: Kubernetes는 스왑 활동 없이 작동하도록 설계되었습니다. Kubernetes는 애플리케이션이 메모리에 상주하는 것을 가정하며, 애플리케이션이 항상 메모리에 머물러 있다고 예상합니다.
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리눅스에서 스왑을 비활성화하려면 다음 명령을 사용할 수 있어요:
 
@@ -115,7 +171,18 @@ sudo nano /etc/dphys-swapfile
 
 만약 k3s 설치 중 FATA[0000] 메모리 cgroup (v2)를 찾지 못해 실패하는 오류가 발생한다면, Raspberry Pi OS에 필요한 cgroup 구성이 부족할 수 있어요. 이 문제를 해결하기 위해 필요한 단계는 아래와 같아요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 1. cmdline.txt 파일을 엽니다
@@ -136,7 +203,18 @@ sudo reboot
 curl -sfL https://get.k3s.io | INSTALL_K3S_EXEC="server --disable=traefik --flannel-backend=host-gw --tls-san=192.168.1.85 --bind-address=192.168.1.85 --advertise-address=192.168.1.85 --node-ip=192.168.1.85 --cluster-init" sh -s -
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 K3s 매개변수 검토:
 
@@ -153,7 +231,18 @@ K3s 매개변수 검토:
 
 아래는 예상되는 모습입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-Step-By-StepGuideInstallingK3sonaRaspberryPi4Cluster_4.png" />
 
@@ -169,7 +258,18 @@ sudo cat /var/lib/rancher/k3s/server/node-token
   `THIS19937008cbde678aeaf200517f07c0ccd67dc80bdf4df6f746IS4780e15ebcd::server:40fc2cc2fnode81cdacc0b9bb1231token
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 노드 토큰을 검색한 후, 아래에 표시된 스크립트에 삽입해야 합니다. 이 스크립트를 이전에 지정한 모든 Pi 노드에서 실행해야 합니다. 필요에 따라 K3S_URL과 관련된 IP 주소를 업데이트해 주세요.
 
@@ -183,7 +283,18 @@ curl -sfL https://get.k3s.io | K3S_URL=https://192.168.1.85:6443 \
 
 <img src="/assets/img/2024-06-19-Step-By-StepGuideInstallingK3sonaRaspberryPi4Cluster_5.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시간 내어 주셔서 정말 감사합니다! 감사합니다!
 

@@ -3,17 +3,13 @@ title: "단일 이미지 깊이 추정의 기초 모델, Depth Anything 사용�
 description: ""
 coverImage: "/assets/img/2024-07-10-DepthAnythingAFoundationModelforMonocularDepthEstimation_0.png"
 date: 2024-07-10 00:23
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-10-DepthAnythingAFoundationModelforMonocularDepthEstimation_0.png
 tag: Tech
 originalTitle: "Depth Anything —A Foundation Model for Monocular Depth Estimation"
 link: "https://medium.com/towards-data-science/depth-anything-a-foundation-model-for-monocular-depth-estimation-8a7920b5c9cc"
 isUpdated: true
 ---
-
-
-
-
 
 ## 🚀SASCHA’S PAPER CLUB
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 개요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 맥락과 배경
 
@@ -31,7 +38,18 @@ isUpdated: true
 
 ![2024-07-10-DepthAnythingAFoundationModelforMonocularDepthEstimation_0.png](/assets/img/2024-07-10-DepthAnythingAFoundationModelforMonocularDepthEstimation_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단히 말해서, 3D 공간을 탐색하기 위해서는 모든 물건의 위치와 거리를 알아야 합니다. 고전적인 응용 사례로는 충돌 회피, 주행 가능한 공간 감지, 가상 혹은 증강 현실에서 물체 배치, 3D 물체 생성, 로봇을 조종하여 물체를 집는 것 등이 있습니다.
 
@@ -41,7 +59,18 @@ isUpdated: true
 
 이 문제는 이전에 어떻게 다루어졌을까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 수년 동안 많은 딥러닝 방법이 단일 이미지로부터 깊이를 추정하기 위해 조사되어 왔어요. 어떤 사람들은 깊이 값을 직접 예측하기 위해 회귀 기반 방법을 시도했고, 다른 사람들은 깊이를 이산화시키고 어느 깊이 구간에 픽셀이 속해야 하는지 예측하기 위해 분류를 수행했어요.
 
@@ -51,7 +80,18 @@ isUpdated: true
 
 사전 훈련된 기본 모델은 훌륭한 0-샷 성능을 보여주었고, 상대적으로 적은 데이터 샘플로 새로운 응용 분야에 쉽게 미세 조정될 수 있어요. 데이터에 굉장히 의존적이기 때문에, 기본 모델은 보통 인터넷에서 사용 가능한 모달리티 - 이미지와 텍스트를 포함하지만 깊이 데이터를 위한 것은 아니었어요. 그런데 이제는!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 방법
 
@@ -61,7 +101,18 @@ isUpdated: true
 
 Depth Anything는 이미지를 입력하고 깊이 맵을 예측하는 오토인코더 모델입니다. 이 모델은 라벨이 달린 이미지와 라벨이 없는 이미지의 조합을 훈련합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 훈련 과정에는 최대 3 단계가 포함되어 있습니다:
 
@@ -73,7 +124,18 @@ Depth Anything는 이미지를 입력하고 깊이 맵을 예측하는 오토인
 
 레이블이 달린 대량의 데이터 수집은 비용이 많이 들고 시간이 많이 소요됩니다. 반면 레이블이 없는 이미지는 대량으로 존재하며 수집하기 쉽습니다. 그러므로 우리는 이 데이터를 심층 학습 모델 훈련에 활용하고자 합니다. 이전 연구에서 일부는 동일한 아이디어를 가지고 레이블이 없는 데이터를 사용하며 고전적인 컴퓨터 비전 알고리즘(예: 스테레오 보정 또는 구조로부터의 움직임)과 결합하여 깊이 레이블을 얻었지만, 이는 상당히 시간이 많이 걸립니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Depth Anything의 저자들은 1,500,000개의 라벨이 지정된 데이터셋을 사용해 강력한 사전 훈련된 DINOv2 인코더(의미론적으로 풍부한 표현으로 유명한 기본 모델)를 사용해 강력한 교사 모델을 훈련시켰습니다. 그리고 62,000,000개의 라벨이 지정되지 않은 샘플들에 대한 의사 라벨을 생성하고, 이를 사용해 학생을 훈련했습니다.
 
@@ -83,7 +145,18 @@ Depth Anything의 저자들은 1,500,000개의 라벨이 지정된 데이터셋�
 
 이전 연구에서는 모델을 추가적인 의미 분할 작업으로 훈련시킬 때 깊이 추정을 향상시킬 수 있다는 것이 밝혀졌습니다. 이에 대한 직관은, 세계에 대해 더 나은 이해(더 의미 있는 특징 임베딩)를 가지면 깊이 추정 작업에서 모호성을 더 잘 해결할 수 있다는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실패한 시도 속에서 'Depth Anything'의 저자들은 레이블이 지정되어 있지 않은 데이터에 대한 깊이 추정 작업과 의미 분할 작업을 위해 개별 디코더와 함께 공유 인코더를 교육하려고 시도했습니다. 그 미할당 이미지는 Foundation 모델의 조합을 사용하여 레이블이 지정되었습니다.
 
@@ -93,7 +166,18 @@ Depth Anything의 저자들은 1,500,000개의 라벨이 지정된 데이터셋�
 
 그리고 변조에 대해서는 어떻게 생각하십니까?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Adding only unlabeled data to the training pipeline is not enough to significantly boost performance beyond what is achieved with labeled data alone.
 
@@ -103,7 +187,18 @@ These perturbations involve various augmentation techniques such as color jitter
 
 The underlying idea remains consistent: encourage the models to recognize similar features regardless of variations in image appearance. In essence, a car should be identified as a car irrespective of whether the image is blurry or horizontally flipped.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 모델 훈련에 사용된 데이터
 
@@ -113,7 +208,18 @@ The underlying idea remains consistent: encourage the models to recognize simila
 
 ![link](https://miro.medium.com/v2/resize:fit:1400/1*BUXPekBp_YUhrqxDR9c-Jg.gif)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전에 언급했듯이 표시된 데이터는 교사 모델 및 학생 모델을 교육하는 데 사용됩니다. 표시되지 않은 데이터는 학생 모델을 교육하는 데만 사용됩니다.
 
@@ -125,7 +231,18 @@ The underlying idea remains consistent: encourage the models to recognize simila
 - 학생 인코더와 DINOv2 간의 특징 정렬 손실.
 - 교사가 표시되지 않은 데이터에서 생성한 가짜 라벨과 학생 예측 간의 라벨링되지 않은 이미지 손실.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 라벨이 붙은 이미지부터 시작해보겠습니다. 여기서는 학생의 예측과 라벨된 데이터셋의 라벨 간의 간단한 평균 절대 오차, 즉 MAE를 의미합니다.
 
@@ -135,7 +252,18 @@ The underlying idea remains consistent: encourage the models to recognize simila
 
 ![Feature Alignment Loss](https://miro.medium.com/v2/resize:fit:1400/1*1cfgk5PpXPXfRq_gHnJuTw.gif)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마침내 라벨이 붙어 있지 않은 데이터를 살펴보겠습니다. 단일 이미지에 강한 변형을 가했음에도, 저자들은 샘플의 50%에 대해 CutMix 증가를 구현합니다. 이는 결국 마스크를 사용하여 2개의 이미지를 결합하는 것을 의미합니다.
 
@@ -145,7 +273,18 @@ The underlying idea remains consistent: encourage the models to recognize simila
 
 [이미지](https://miro.medium.com/v2/resize:fit:1400/1*Qg-BpVfdYuwGyo6H66pZDQ.gif)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마침내 개별 용어가 추가되고 모든 픽셀의 평균을 구합니다. 이미 위의 방정식에서 마스크로 곱셈을 다시 할 필요가 없는 것 같네요.
 
@@ -155,8 +294,18 @@ The underlying idea remains consistent: encourage the models to recognize simila
 
 실험과 감소에 뛰어들기 전에 논문의 순서를 변경하고 먼저 일부 질적 결과를 검토해보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째 테스트에서는 모델이 실내와 실외 장면을 포함한 다양한 도메인의 보이지 않는 이미지로 추론되었습니다. 이 때서는 다양한 조명 조건이 포함되었습니다.
 
@@ -166,7 +315,18 @@ The underlying idea remains consistent: encourage the models to recognize simila
 
 ![Image 2](/assets/img/2024-07-10-DepthAnythingAFoundationModelforMonocularDepthEstimation_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최종 질적 테스트에서 ControlNet이라는 확산 기반 생성 모델을 사용하여 예측된 깊이 맵과 입력 프롬프트에 의해 조건화된 새 이미지를 생성했습니다.
 
@@ -176,7 +336,18 @@ The underlying idea remains consistent: encourage the models to recognize simila
 
 이제 우리는 그들의 방법의 효과를 평가하기 위해 수행된 실험과 미차제에 더 자세히 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 실험
 
@@ -187,7 +358,18 @@ The underlying idea remains consistent: encourage the models to recognize simila
 
 제로-샷, 상대적 깊이 추정
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 실험에서는 Depth Anything 모델이 저자들이 구성한 데이터셋에서 사전 훈련을 받고, 다른 데이터셋에서도 샘플을 보지 않고(0-shot) 평가됩니다. MiDaS v3.1의 최고 체크포인트와 비교됩니다.
 
@@ -197,7 +379,18 @@ The underlying idea remains consistent: encourage the models to recognize simila
 
 이 실험에서는 상대적 깊이 추정에 대해 사전 훈련 된 Depth Anything 모델이 측정 깊이 추정을 위해 미세 조정됩니다. 인코더-디코더 모델은 사전 훈련 된 Depth Anything 인코더 및 무작위로 초기화 된 디코더로 초기화됩니다. 그런 다음 주어진 데이터셋의 훈련 세트에서 ZoeDepth 프레임 워크를 사용하여 미세 조정되어 마지막으로 해당 데이터셋에서 평가되고 다른 모델과 비교됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*azaq7HPhwbHd4VIVUHWf5A.gif)
 
@@ -207,7 +400,18 @@ The underlying idea remains consistent: encourage the models to recognize simila
 
 ZoeDepth 프레임워크는 두 개의 메트릭 깊이 추정 모델을 파인튜닝하는 데 사용됩니다. 첫 번째 모델은 엔코더로 MiDaS v3.1(표에 ZoeDepth로 표시됨)를 사용하고, 두 번째 모델은 Depth Anything 엔코더를 사용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*mlQrGfPDKbONdAQk-TEEVQ.gif)
 
@@ -217,7 +421,18 @@ ZoeDepth 프레임워크는 두 개의 메트릭 깊이 추정 모델을 파인�
 
 ![image](/assets/img/2024-07-10-DepthAnythingAFoundationModelforMonocularDepthEstimation_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Ablations
 
@@ -227,7 +442,18 @@ ZoeDepth 프레임워크는 두 개의 메트릭 깊이 추정 모델을 파인�
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*tM87O5U5nYEu5rNXFJmkoQ.gif)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다운스트림 작업을 위한 다른 인코더
 
@@ -237,7 +463,18 @@ ZoeDepth 프레임워크는 두 개의 메트릭 깊이 추정 모델을 파인�
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **깊이 어떤 것(Depth Anything)**은 이미지나 텍스트 이외의 도메인에서의 기반 모델로 나아가는 좋은 한 걸음입니다. 그들은 강력하고 의미론적으로 풍부한 인코더 모델을 성공적으로 훈련시켜 0-샷 모드로 사용하거나 사용자 지정 데이터셋에 대해 더 세밀하게 조정할 수 있습니다.
 
@@ -247,7 +484,18 @@ ZoeDepth 프레임워크는 두 개의 메트릭 깊이 추정 모델을 파인�
 
 Hugging Face 데모로 깊이 어떤 것(Depth Anything)를 직접 사용해보세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 종이로 만든 워크스루
 

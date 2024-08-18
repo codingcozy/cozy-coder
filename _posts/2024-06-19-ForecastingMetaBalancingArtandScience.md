@@ -3,7 +3,7 @@ title: "Forecasting  Meta 예술과 과학의 균형 유지하기"
 description: ""
 coverImage: "/assets/img/2024-06-19-ForecastingMetaBalancingArtandScience_0.png"
 date: 2024-06-19 05:19
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-ForecastingMetaBalancingArtandScience_0.png
 tag: Tech
 originalTitle: "Forecasting@Meta: Balancing Art and Science"
@@ -11,11 +11,7 @@ link: "https://medium.com/@AnalyticsAtMeta/forecasting-meta-balancing-art-and-sc
 isUpdated: true
 ---
 
-
-
-
-
-![image](/assets/img/2024-06-19-ForecastingMetaBalancingArtandScience_0.png) 
+![image](/assets/img/2024-06-19-ForecastingMetaBalancingArtandScience_0.png)
 
 스티븐 진과 케빈 번바움
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 예측가로서, 우리는 종종 이 두 가지 사고 방식이 대립하는 것을 발견합니다. 어떤 사람들은 블랙 박스 알고리즘이 상식을 버리는 것으로 생각하지만, 다른 사람들은 수학적 결과를 무시하는 것은 편견에 굴복하는 것이라고 생각합니다. 우리는 일관된 높은 품질의 예측을 생성하는 열쇠가 이 이분법의 교차점에 있다고 믿습니다. 이 기사에서, 저희는 Meta에서 예측의 예술과 과학을 균형있게 다루는 방법에 대해 논의할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 철학을 통해 다음을 채널하는 방법을 살펴볼 거에요:
 
@@ -33,7 +40,18 @@ B. 제품 영향의 통합
 
 ## 확인
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 검증은 예측의 품질을 평가하는 것입니다. 종종 우리는 현실이 우리의 예측에 따라 잡히는 순간에 오류를 측정하는 것 이상의 용량에서 이를 수행해야 합니다. 우리는 종종 현실이 펼쳐지기를 기다리지 않고도 예측의 품질을 평가해야 합니다. 게다가, 현실이 펼쳐지더라도 예측의 정확성을 평가할 샘플의 양은 제한됩니다. 현실은 한 가지 방향으로만 펼쳐지며, 그 안의 데이터 포인트는 상관 관계가 있습니다.
 
@@ -43,7 +61,18 @@ B. 제품 영향의 통합
 
 방금 언급한 대로, 품질을 평가할 수 있는 가장 명백한 방법은 현실과 예측 사이의 차이를 측정하는 것입니다. 과거 데이터와 비교하기 위해 백테스팅을 활용할 수도 있습니다. 이는 예측 방법이 합리적인지 확인하는 데 유용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 두 가지 사용 사례를 고려할 때, 이를 시행하는 데 많은 주의 사항이 있습니다:
 
@@ -56,7 +85,18 @@ B. 제품 영향의 통합
 
 시계열 모델링에서 선택할 수 있는 다양한 에러 메트릭이 있습니다. 각각 장단점이 있습니다. 여기 몇 가지가 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-ForecastingMetaBalancingArtandScience_1.png" />
 
@@ -66,7 +106,18 @@ B. 제품 영향의 통합
 
 - 변동이 심한 또는 대표성이 없는 기간을 선택하는 것
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 표는 결과를 왜곡하고 부정확한 예측을 만들 수 있습니다. Meta에서는 2020년과 전염병 확산이 한 가지 독특한 시기였다는 것을 알아서, 이 기간을 일반적으로 우리의 백테스팅 세트와 함께 훈련 데이터에서도 제외합니다.
 
@@ -76,7 +127,18 @@ B. 제품 영향의 통합
 
 - 적절한 집계로 테스트하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또 다른 중요한 요소는 오차를 측정하는 집계 방식입니다. 예를 들어, 우리는 인도의 사용자 수를 예측할 수 있습니다. 이 예측은 그나라보다 훨씬 작은 규모의 국가와 동일한 가중치로 취급될 수 있습니다. 지리적으로 유사한 국가들을 함께 묶어 더 균형있는 오차 지표를 만들 수 있는 가능한 대응책 중 하나입니다. 다른 가능한 대응책은 전체 사용자수 예측의 오차율과 국가수준에서의 오차율을 측정하는 것일 수 있습니다.
 
@@ -86,22 +148,44 @@ B. 제품 영향의 통합
 
 도메인 전문가들과 예측 이해관계자들의 의견을 수집하는 것도 매우 중요합니다. 최종적으로 당신의 예측은 이해 관계자들에 의해 사용되고 검토되므로, 그들의 관심사와 사용 사례를 이해하여 가장 중요한 예측 부분에 최적화하는 데 도움이 될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보통 도메인 전문가/이해 관계자로부터 3가지를 찾고 있습니다:
 
 - 사용 사례 이해하기
-이해 관계자들은 예보를 사용, 해석하고 다르게 활용합니다. 예보가 잠재적 이상 현상을 모니터링하는 데 사용된다면, 세부 정밀도가 최적화되어야 할 것입니다. 이해 관계자들이 장기 계획을 수립하는 경우, 예보는 추세의 신뢰성에 더욱 신경을 쓸 것입니다. 이러한 인간적인 요소가 구상적 방법론 선택을 결정합니다.
+  이해 관계자들은 예보를 사용, 해석하고 다르게 활용합니다. 예보가 잠재적 이상 현상을 모니터링하는 데 사용된다면, 세부 정밀도가 최적화되어야 할 것입니다. 이해 관계자들이 장기 계획을 수립하는 경우, 예보는 추세의 신뢰성에 더욱 신경을 쓸 것입니다. 이러한 인간적인 요소가 구상적 방법론 선택을 결정합니다.
 - 올바른 요소/가정이 있는가?
-예보에서 고려해야 할 요소들(출시, 이벤트, 장애 등)은 우리가 하는 중요한 선택입니다. 우리는 모든 것을 고려할 수 없기 때문에 포함해야 할 핵심 요소를 선택하는 것은 보통 도메인 전문가로부터 옵니다. 이러한 정보의 일부는 예보에 중요할 수 있지만 역사적 데이터 자체에만 포함되지 않을 수 있습니다.
+  예보에서 고려해야 할 요소들(출시, 이벤트, 장애 등)은 우리가 하는 중요한 선택입니다. 우리는 모든 것을 고려할 수 없기 때문에 포함해야 할 핵심 요소를 선택하는 것은 보통 도메인 전문가로부터 옵니다. 이러한 정보의 일부는 예보에 중요할 수 있지만 역사적 데이터 자체에만 포함되지 않을 수 있습니다.
 - 예보가 합리적한가요?
-일반적으로, 예보의 합리성은 예보에 대한 합리성에 대한 의견이나 질문으로 나타납니다. 예를 들어, 예보가 성장의 이전 해와 유사한지 여부 등이 있습니다.
+  일반적으로, 예보의 합리성은 예보에 대한 합리성에 대한 의견이나 질문으로 나타납니다. 예를 들어, 예보가 성장의 이전 해와 유사한지 여부 등이 있습니다.
 
 이러한 유형의 질문은 인간 판단을 계산된 프로세스로 전환하는 데 도움이 되는 자동화를 통해 유효성 검사 프로세스에 포함될 수 있습니다.
 
 Facebook DAU의 예를 다시 살펴보면, 이러한 고려 사항이 어떻게 결정에 영향을 미치는지 생각해 봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 예측 모델을 일정량 초과 또는 미달하여 동일하게 처벌하는 오류 측정 항목이 필요합니다. 따라서 SMAPE(위 참조)는 합리적인 옵션입니다.
 - 게다가 2020년에는 팬데믹으로 인해 사람들이 인터넷에 더 많은 시간을 보냈다는 점을 알고 있습니다. 따라서 이는 미래를 대표하는 것이 아니기 때문에 합리적인 테스트 기간이 아닙니다.
@@ -114,7 +198,18 @@ Facebook DAU의 예를 다시 살펴보면, 이러한 고려 사항이 어떻게
 포함 기준
 제품 영향과 같은 새로운 요소를 예측 모형에 포함할 때에는 체계적인 포함 기준이 필요합니다. 추가 요인을 고려함으로써 도입할 가능성이 있는 노이즈/불확실성과 균형을 맞추는 것 사이에는 본질적인 상충 관계가 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 명확한 기준이 있으면 예측을 어떻게 진행할지에 대한 체계적인 논리를 얻을 수 있을 뿐 아니라 해당 예측이 어떤 가정들에 기반을 두고 구축되었는지에 대한 투명성도 확보할 수 있습니다. 예를 들어, Meta는 각 예측에 어떤 영향을 포함해야 하는지 엄격한 기준이 있습니다. 추정치의 불확실성이 높은 경우 일반적으로 예측에서 제외됩니다. 이러한 추정치는 다른 잘 알려진 이벤트의 정밀도를 떨어뜨려 예측의 유용성을 감소시킵니다. 반면, 매우 정확한 추정치(크기, 시기 및 모양)는 직접 반영됩니다.
 
@@ -124,7 +219,18 @@ Facebook DAU의 예를 다시 살펴보면, 이러한 고려 사항이 어떻게
 
 모델이 예측한 추세와 제품 영향을 어떻게 예측할지에 대한 상당한 복잡성이 있습니다. 이러한 경우에는 측정에 대한 우리의 확신을 평가하여 영향을 중복 계산하지 않도록 해야 합니다. 어떤 경우에는 이전 제품 영향을 기존 훈련 데이터에서 제거하고, 다른 경우에는 대강 증분을 측정하여 모델의 신뢰도를 해치지 않도록 이를 추가할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가상의 제품 기능을 출시하고자 하는 경우를 생각해 봅시다. 이 기능은 생일에 로그인할 때 작은 축하 애니메이션을 표시합니다. 현재, 일부 국가에만이 기능이 활성화되어 있습니다. 이러한 국가들 내에서는 일부 사용자가 홀드아웃 상태에 있습니다. 즉, 일부 사용자는 이 기능을 볼 수 없습니다. 이 두 그룹 간의 차이를 활용하여 이 기능이 어떤 영향을 미치는지 측정할 수 있습니다.
 
@@ -134,7 +240,18 @@ Facebook DAU의 예를 다시 살펴보면, 이러한 고려 사항이 어떻게
 
 신뢰도가 높은 경우
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신이 예상 제품의 영향에 대해 확신을 가지고 있다면(크기, 시기, 형태 등을 포함하여) 해당 예상 제품을 예측에 통합하는 여러 가지 방법이 있습니다.
 
@@ -145,7 +262,18 @@ Facebook DAU의 예를 다시 살펴보면, 이러한 고려 사항이 어떻게
 
 상기 내용을 감안하여, 우리의 시계열 데이터에서 과거 제품의 영향을 제거해야 하는지 여부를 결정하기 위해 간단한 테스트를 실시합니다. 과거의 영향을 제거하고 남은 시계열의 신뢰도를 측정해보는 테스트입니다(추세/계절성 제거가 필요할 수 있으며, 예측 방법 및 시계열에 따라 차이가 있을 수 있습니다).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 만일 우리의 시계열 데이터의 분산이 크게 감소하지 않으면, 첫 번째 방법을 선택하여 제품 영향이 원래 시계열 데이터에 내재적으로 포함되어 있다고 가정하고 점증 제품 영향을 최상위에 추가할 것입니다. (예: 알림이 하루 평균 사용자수(DAU)를 +10만 명 증가시키지만, 이번에는 사용자수를 +12만 명 증가시키기를 기대할 때, 추가 +2만 명이 최상위에 추가됨).
 - 우리의 시계열 데이터의 분산이 크게 감소하는 것을 확인하면 영향을 제거하고 조정된 시계열 데이터를 사용하여 예측하겠습니다.
@@ -158,7 +286,18 @@ Facebook DAU의 예를 다시 살펴보면, 이러한 고려 사항이 어떻게
 - 중요한 출시의 타이밍에 대해 확신이 없을 수 있습니다.
 - 특정 이벤트가 예정되어 있지만 영향의 규모에 대해 불확실할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 경우들은 특히 까다로운데, 이러한 요소들을 포함하려고 시도하면 나머지 예측의 유용성이 위험에 처할 수 있습니다. 우리가 평가하는 사건이 우리의 포함 기준에서 포착된 것인지를 기대합니다. 그러나 이와 같은 사건들은 종종 독특하며 독특하게 평가되어야 합니다.
 

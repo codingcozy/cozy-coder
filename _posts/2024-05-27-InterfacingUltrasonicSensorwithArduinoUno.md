@@ -3,16 +3,13 @@ title: "아두이노 우노와 초음파 센서를 연결하기"
 description: ""
 coverImage: "/assets/img/2024-05-27-InterfacingUltrasonicSensorwithArduinoUno_0.png"
 date: 2024-05-27 13:36
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-InterfacingUltrasonicSensorwithArduinoUno_0.png
 tag: Tech
 originalTitle: "Interfacing Ultrasonic Sensor with Arduino Uno"
 link: "https://medium.com/@nprajwal40/interfacing-ultrasonic-sensor-with-arduino-uno-522eccc3c930"
 isUpdated: true
 ---
-
-
-
 
 # 소개
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 # 초음파 센서란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 초음파 센서는 거리 측정과 장애물 감지에 사용되는 장치입니다. 초음파 센서는 소리 파장을 사용하여 센서와 물체 사이의 거리를 확인합니다. 이들은 전기 신호를 고주파 초음파로 변환합니다. 초음파의 주파수는 인간의 청각 범위를 넘어갑니다. 그들은 고주파수 소리 펄스를 방출하고 소리 파장이 튕겨 돌아오는 데 걸리는 시간을 측정하여 소리의 속도를 기반으로 거리를 계산합니다.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 센서는 송신기와 수신기로 구성되어 있습니다. 송신기는 초음파를 발사하고, 해당 파장이 물체에서 반사된 후 수신기에 의해 감지됩니다. 발사와 수신 사이의 시간을 측정함으로써 센서는 정확하게 거리를 결정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 트리거 핀에 10us의 짧은 펄스가 주어지면 거리 측정을 시작합니다. 그런 다음 송신기가 40KHz 펄스의 8주기를 보내고 수신기를 사용하여 반사된 펄스(Echo 신호)를 청취하기 시작합니다. 트리거 신호를 보내고 에코 신호를 수신하는 시간 간격을 측정하여 거리를 계산합니다.
 
@@ -42,8 +61,18 @@ HC-SR04 초음파 센서는 2cm에서 400cm까지의 거리를 측정할 수 있
 
 기술 사양:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Arduino Uno Overview](/assets/img/2024-05-27-InterfacingUltrasonicSensorwithArduinoUno_2.png)
 
@@ -53,8 +82,18 @@ HC-SR04 초음파 센서는 2cm에서 400cm까지의 거리를 측정할 수 있
 
 Arduino Uno는 디지털 및 아날로그 입출력 핀이 장착된 인기 있는 마이크로컨트롤러 보드입니다. 간편함과 다양성으로 인해 프로토타입 및 DIY 프로젝트에 널리 사용됩니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 1단계: 배선 설정 ... (초음파 센서 핀에 해당하는 아두이노 핀 연결)
 
@@ -63,7 +102,18 @@ Arduino Uno는 디지털 및 아날로그 입출력 핀이 장착된 인기 있�
 1. VCC를 아두이노 우노의 5V에 연결합니다.
 2. GND를 아두이노 우노의 GND에 연결합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 아두이노 우노에 트리그 핀을 디지털 핀 7에 연결하세요.
 
@@ -77,7 +127,18 @@ Arduino Uno는 디지털 및 아날로그 입출력 핀이 장착된 인기 있�
 - `도구` 포트 `` 적절한 포트를 선택.
 - 왼쪽 상단의 " -` " 버튼을 클릭하거나 코드를 업로드하려면 "Ctrl + U""를 누르세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Step 3: 테스팅 및 유효성 검사:
 
@@ -88,7 +149,18 @@ Step 3: 테스팅 및 유효성 검사:
 - `도구` 및 `시리얼 모니터`를 클릭하여 Baud rate를 9600으로 설정합니다.
 - 이제 PC에서 읽기를 모니터링할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Step 4: 시리얼 모니터에서 출력하세요.
 
@@ -129,7 +201,18 @@ void loop()
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 코드 설명:
 
@@ -153,7 +236,18 @@ void setup();
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 'Void Setup' 함수 안의 코드는 한 번만 실행됩니다.
 - pinMode(trigPin, OUTPUT)은 초음파 펄스를 보내기 위해 트리거 핀을 출력으로 설정합니다.
@@ -177,7 +271,18 @@ duration = pulseIn(echoPin, HIGH);
 distance = (duration * 0.0343) / 2;
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - duration = pulseIn(echoPin, HIGH) 함수는 에코 핀이 고조파로 유지되는 시간(마이크로초)을 측정하여, 초음파 펄스가 물체까지 이동한 시간을 의미합니다.
 - 소리의 속도는 대략 1초에 343미터, 즉 1마이크로초당 0.0343센티미터입니다. 물체까지의 거리는 펄스의 총 이동 거리의 절반이므로, 2로 나누어야 합니다.
@@ -193,7 +298,18 @@ delay(500);
 
 # 실용적 응용분야
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **초음파 센서를 사용한 거리 측정:**
 초음파 센서는 주차 센서, 수위 모니터링 및 로봇 과 같은 자동화 시스템에서 널리 사용되며 정밀한 거리 측정 요구 사항을 충족합니다.
@@ -206,7 +322,18 @@ delay(500);
 
 # 자주 묻는 질문 (FAQs)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **질문: 다른 Arduino 보드와 함께 어떤 종류의 초음파 센서를 사용할 수 있나요?**
 
@@ -216,7 +343,18 @@ delay(500);
 
 - 일반적인 실수에는 부정확한 배선 연결, Arduino Uno의 잘못된 핀 사용 및 코딩 오류가 포함됩니다. 모든 연결 및 코드를 두 번 확인하면 이러한 문제를 방지할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 초음파 센서로 탐색할 수 있는 고급 기능이 있나요?
 

@@ -3,17 +3,13 @@ title: "CSB 모바일 리디자인 더 사용자 친화적으로 만드는 방�
 description: ""
 coverImage: "/assets/img/2024-07-07-RedesigningCSBmobiletobemoreuserfriendly_0.png"
 date: 2024-07-07 13:42
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-RedesigningCSBmobiletobemoreuserfriendly_0.png
 tag: Tech
 originalTitle: "R edesigning CSB mobile+ to be more user friendly"
 link: "https://medium.com/@edwinkavalakat47/redesigning-csb-mobile-to-be-more-user-friendly-d977732eb711"
 isUpdated: true
 ---
-
-
-
-
 
 # Context
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # CSB 모바일 앱의 구식 디자인 선택은 사용자 경험을 방해하고, 탐색 및 주요 기능 사용이 어렵게 만듭니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Redesigning CSB Mobile](/assets/img/2024-07-07-RedesigningCSBmobiletobemoreuserfriendly_0.png)
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 **시각 디자인이 구식화되었습니다**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앱의 디자인이 구식으로 느껴집니다. 전체적으로 아름다운 느낌이 떨어지죠.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 ## 정보 과부하를 초래합니다
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 인터페이스를 너무 복잡하고 시각적으로 압도되는 것으로 느끼는 사용자들이 많습니다.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 ## 불필요한 개인 정보 접근 요청들
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자들이 종종 불필요한 개인 정보를 제공해야 해서 불편함과 개인 정보 보호에 대한 우려가 늘어날 수 있어요.
 
@@ -63,19 +103,41 @@ isUpdated: true
 
 **다른 경쟁사 대부분이 사용자 경험을 개선하고 인지 부담을 줄이는 면에서 훨씬 앞서 나갔어요.**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-오호! 나는 고품질의 이미지를 통해 직관적인 정보 전달을 선호해. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+오호! 나는 고품질의 이미지를 통해 직관적인 정보 전달을 선호해.
 
 ![Image 1](/assets/img/2024-07-07-RedesigningCSBmobiletobemoreuserfriendly_1.png)
 
-그리고 Gpay나 Slice와 같은 UPI 결제 앱에서 영감을 얻었다고 해. 
+그리고 Gpay나 Slice와 같은 UPI 결제 앱에서 영감을 얻었다고 해.
 
 ![Image 2](/assets/img/2024-07-07-RedesigningCSBmobiletobemoreuserfriendly_2.png)
 
-인터뷰 대상자들이 인지 부담을 줄이는 데 초점을 맞춘 디자인일 때 훨씬 편안하고 만족스러워했대. #ombres와 함께한 인터뷰에서 그럴 수 있다고 말했다고 해. 
+인터뷰 대상자들이 인지 부담을 줄이는 데 초점을 맞춘 디자인일 때 훨씬 편안하고 만족스러워했대. #ombres와 함께한 인터뷰에서 그럴 수 있다고 말했다고 해.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 I conducted an interview with 4 participants: 2 in their 40s to 50s, and 2 teenagers.
 
@@ -88,7 +150,18 @@ I conducted an interview with 4 participants: 2 in their 40s to 50s, and 2 teena
 - Did you feel comfortable while going through the new UI?
 - Did you feel comfortable using the old UI?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 이전 디자인은 UI가 지나치게 혼잡해서 사용자들이 압도된 느낌을 받았기 때문에 작동하지 않았어요.
 
@@ -99,7 +172,18 @@ I conducted an interview with 4 participants: 2 in their 40s to 50s, and 2 teena
 
 ![Redesigned CSB Mobile](/assets/img/2024-07-07-RedesigningCSBmobiletobemoreuserfriendly_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지를 Markdown 형식으로 변경해주세요.
 
@@ -111,7 +195,18 @@ I conducted an interview with 4 participants: 2 in their 40s to 50s, and 2 teena
 
 그리고 이 프로젝트는 여기서 마무리입니다 (😄). 이 프로젝트를 통해 디자이너로서 더 많이 배우고成長해야 할 점을 깨달을 수 있었던 소중한 경험이었습니다. 디자인과 개인적 성장 측면에서 많은 도전을 안겨주었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 다음에 바꾸고 싶은 것들
 
@@ -121,7 +216,18 @@ I conducted an interview with 4 participants: 2 in their 40s to 50s, and 2 teena
 
 초창기에 나는 은행 업계가 뒷닥뒷닥 어떻게 운영되고 경쟁업체들이 내린 디자인 결정들의 심오함을 이해하는 데 어려움을 겪었어요. 보다 깊이 있는 연구를 통해 더 넓은 시야를 가질 수 있었던 거예요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 계속해서 반복해 보세요
 
@@ -131,7 +237,18 @@ I conducted an interview with 4 participants: 2 in their 40s to 50s, and 2 teena
 
 토론을 원하시나요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이메일 주소: edwinties47@gmail.com
 

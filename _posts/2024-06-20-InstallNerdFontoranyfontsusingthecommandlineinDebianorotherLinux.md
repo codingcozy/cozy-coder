@@ -3,18 +3,13 @@ title: "리눅스의 Debian 또는 다른 리눅스에서 명령 줄을 사용�
 description: ""
 coverImage: "/assets/img/2024-06-20-InstallNerdFontoranyfontsusingthecommandlineinDebianorotherLinux_0.png"
 date: 2024-06-20 14:23
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-InstallNerdFontoranyfontsusingthecommandlineinDebianorotherLinux_0.png
 tag: Tech
 originalTitle: "Install NerdFont (or any fonts) using the command line in Debian (or other Linux)."
 link: "https://medium.com/@almatins/install-nerdfont-or-any-fonts-using-the-command-line-in-debian-or-other-linux-f3067918a88c"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![이미지](/assets/img/2024-06-20-InstallNerdFontoranyfontsusingthecommandlineinDebianorotherLinux_0.png)
 
@@ -33,7 +28,18 @@ wget -P ~/.local/share/fonts https://github.com/ryanoasis/nerd-fonts/releases/do
 && fc-cache -fv
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그것이에요. 그것은 글꼴을 다운로드하고 설치할 것입니다.
 

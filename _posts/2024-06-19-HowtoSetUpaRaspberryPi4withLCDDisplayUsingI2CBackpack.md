@@ -3,17 +3,13 @@ title: "라즈베리 파이 4와 I2C 백팩을 사용한 LCD 디스플레이 설
 description: ""
 coverImage: "/assets/img/2024-06-19-HowtoSetUpaRaspberryPi4withLCDDisplayUsingI2CBackpack_0.png"
 date: 2024-06-19 18:24
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-HowtoSetUpaRaspberryPi4withLCDDisplayUsingI2CBackpack_0.png
 tag: Tech
 originalTitle: "How to Set Up a Raspberry Pi 4 with LCD Display Using I2C Backpack"
 link: "https://medium.com/@thedyslexiccoder/how-to-set-up-a-raspberry-pi-4-with-lcd-display-using-i2c-backpack-189a0760ae15"
 isUpdated: true
 ---
-
-
-
-
 
 이 튜토리얼에서는 Raspberry Pi 4에 I2C 백팩을 사용하여 LCD 디스플레이를 설정하는 방법을 배우게 됩니다. 16x2 및 20x4 디스플레이 양쪽을 지원합니다. 초보자이든 경험이 풍부한 메이커이든 이 튜토리얼을 통해 프로젝트를 간소화하고 Raspberry Pi 프로젝트에 사용하기 쉬운 LCD로 빠르게 시작할 수 있습니다!
 
@@ -25,7 +21,18 @@ isUpdated: true
 
 시작해봅시다! 🚀
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 과정:
 
@@ -40,13 +47,35 @@ I2C 백팩과 라즈베리 파이 사이에 안전한 연결을 하려면 다음
 - SCL (클럭)을 GPIO 3에 연결하세요 (핀 5)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LCD를 연결한 후 라즈베리 파이를 켜서 밝기와 대조를 미세 조정할 수 있습니다. 이를 위해 디스플레이 뒷면에 위치한 포텐셔미터를 사용하여 파란 상자를 조정하여 원하는 설정을 얻을 때까지 조절하십시오.
 
-이제 터미널에서 다음 명령을 실행하여 라즈베리 파이를 업데이트하세요: 
+이제 터미널에서 다음 명령을 실행하여 라즈베리 파이를 업데이트하세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 sudo apt-get update
@@ -60,7 +89,18 @@ sudo apt-get update
 Application Menu > Preferences > Raspberry Pi Configuration
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-HowtoSetUpaRaspberryPi4withLCDDisplayUsingI2CBackpack_2.png" />
 
@@ -70,7 +110,18 @@ Application Menu > Preferences > Raspberry Pi Configuration
 
 I2C를 활성화하는 두 번째 방법은 라즈베리 파이 터미널을 열고 다음 명령을 입력하는 것입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 sudo raspi-config
@@ -82,21 +133,39 @@ sudo raspi-config
 
 I2C 인터페이스를 활성화한 후에는 변경 사항이 적용되도록 라즈베리 파이를 다시 부팅해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 sudo reboot
-
 
 라즈베리 파이가 재부팅되면 I2C 인터페이스가 활성화되어 사용 가능해집니다.
 
 다음으로, I2C 작업에 필요한 두 가지 도구를 설치해야 합니다. 먼저, 다음 명령어를 라즈베리 파이 터미널에서 실행해 주세요:
 
-
 sudo apt-get install -y i2c-tools python3-smbus
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 Markdown 형식으로 표시된 표입니다.
 
@@ -110,7 +179,18 @@ lsmod | grep i2c_
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/1*qDrlq9AL9S2deU_wOcETYQ.gif)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 출력이 i2c_bcm2835 또는 i2c_bcm2708 그리고 i2c_dev 모듈을 보여주면 다음 단계로 건너뛸 수 있어요. 하지만 아니라면, 계속 진행해 볼까요?
 
@@ -126,8 +206,18 @@ i2c-dev
 
 그리고, Control+X (종료)를 눌러 나가고 파일 이름을 덮어쓰기 위해 Enter 키를 누르세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*aSoaYOvlXfjAdWZAuO4LqQ.gif)
 
@@ -139,8 +229,18 @@ sudo reboot
 
 ![image](/assets/img/2024-06-19-HowtoSetUpaRaspberryPi4withLCDDisplayUsingI2CBackpack_4.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 기본 작업이 완료되었으니, I2C 장치 테스트로 넘어가 보세요!
 
@@ -152,7 +252,18 @@ sudo i2cdetect -y 1
 
 결과는 I2C 배선의 주소를 표시해줄 것입니다 (보통 0x27이나 0x3F입니다). 이 주소를 기록해두세요. 이후에 필요할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-HowtoSetUpaRaspberryPi4withLCDDisplayUsingI2CBackpack_5.png" />
 
@@ -162,7 +273,18 @@ sudo i2cdetect -y 1
 
 아래 명령을 실행하여 LCD 디스플레이용 Python 라이브러리를 설치해주세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 sudo pip3 install RPLCD smbus2
@@ -176,7 +298,18 @@ sudo pip3 install RPLCD smbus2
 nano lcd_display.py
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전에 메모한 I2C 백팩 주소로 '0x27'을 대체하여 아래 코드를 입력해주세요:
 
@@ -193,7 +326,18 @@ lcd.write_string('Hello, World!')
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*Wri-174OJp9pD5r45bNCog.gif" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스크립트를 실행하고 LCD 디스플레이를 테스트해보세요!
 
@@ -205,7 +349,18 @@ python3 lcd_display.py
 
 ![LCD Display](/assets/img/2024-06-19-HowtoSetUpaRaspberryPi4withLCDDisplayUsingI2CBackpack_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LCD 디스플레이는 이제 "Hello, World!" 텍스트를 표시해야 합니다!
 
@@ -215,7 +370,18 @@ LCD 디스플레이는 이제 "Hello, World!" 텍스트를 표시해야 합니�
 
 그러나 텍스트가 표시되지 않거나 문제가 발생하는 경우, 배선, I2C 주소, Python 스크립트를 다시 확인하여 모든 것이 정확한지 확인해보세요. 이렇게 하면 어떠한 문제도 빠르게 해결하고 LCD 디스플레이를 신속하게 구동시킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🎉 축하합니다! 🎉 라즈베리 파이 4를 I2C 백팩을 사용하여 LCD 디스플레이와 성공적으로 설정했네요. Python 스크립트를 수정하여 다양한 메시지를 표시하거나 LCD를 다양한 센서 및 구성 요소와 통합하여 더 고급 애플리케이션을 만들 수 있습니다.
 

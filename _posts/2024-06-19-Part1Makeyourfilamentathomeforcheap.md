@@ -3,17 +3,13 @@ title: "제1부 저렴하게 집에서 필라멘트 제작하기"
 description: ""
 coverImage: "/assets/img/2024-06-19-Part1Makeyourfilamentathomeforcheap_0.png"
 date: 2024-06-19 05:50
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-Part1Makeyourfilamentathomeforcheap_0.png
 tag: Tech
 originalTitle: "Part 1: Make your filament at home for cheap"
 link: "https://medium.com/endless-filament/make-your-filament-at-home-for-cheap-6c908bb09922"
 isUpdated: true
 ---
-
-
-
-
 
 플라스틱은 어디에나 있고 저렴한데도 우리는 1kg 필라멘트 스풀에 $20을 지불하고 있습니다. 하지만 이 스풀에는 750그램의 필라멘트만 들어있고 나머지는 빈 스풀의 무게입니다. 제 차고에서 싼 필라멘트를 만드는 방법을 찾기 시작했지만 최근 코로나바이러스로 인해 제 도시의 모든 지역 상점이 필라멘트를 다 팔아치웠고, 아마존과 같은 전자 상거래 웹 사이트들은 정부의 제한으로 인해 필라멘트 스풀을 포함하지 않는 중요한 상품만 배송할 수 있어 필라멘트를 배달해주지 않았습니다. 그래서 저는 생각하기 시작했습니다...
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 조립하는 것은 3D 프린터보다 쉽습니다. 왜냐하면 정밀 조정 및 정렬이 필요한 이동 축이 없기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3D 프린터는 균일한 폭/높이의 필라멘트를 누르기 위해 필라멘트를 사용합니다. 반면, 익스트루더는 플라스틱 펠렛을 사용하여 필라멘트를 압출합니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 대부분의 사람들은 필라멘트 익스트루더의 투자 수익률을 계산할 때 실수를 저지르므로, 필라멘트 익스트루더의 투자 수익률을 계산한다면 다음을 염두에 두세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 대부분의 사람들은 3D 프린터나 필라멘트 구입에 대한 긍정적인 투자 수익을 보지 못할 것입니다.
 - 1kg 스풀은 실제 필라멘트 750그램만 포함하고 있습니다.
@@ -47,7 +65,18 @@ isUpdated: true
 
 이해를 돕기 위해 위에 링크된 동영상을 시청하는 것이 매우 중요합니다. 만약 나사 상단에서 일정한 물 흐름을 유지하고 싶다면, 어떻게 이를 달성할 수 있을까요? 당연히 나사의 회전 속도를 일정하게 유지합니다. 예를 들어, 만약 나사가 정확히 5RPM으로 회전한다면, 시간당 정확히 5리터의 물을 얻을 것입니다. 그러나 RPM이 5RPM에서 6RPM으로 변경된 다음 다시 5RPM으로 변경된다면, 시간당 다른 5리터의 물, 그리고 6리터의 물, 그리고 다시 5리터의 물이 흐를 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 필라멘트에 대해서도 마찬가지에요! 스크류가 플라스틱을 노즐을 통해 밀어내는 동안 필라멘트가 일정한 양으로 나와야 한다면, 스크류 회전 속도도 일정해야 합니다.
 
@@ -57,7 +86,18 @@ isUpdated: true
 
 상용 필라멘트를 사용하려고 하시지만 1.75mm와 정확히 일치하는 필라멘트는 없다는 걸 명심하세요. 이베이나 아마존에 올라온 대부분의 필라멘트는 ± 0.02mm 허용치가 표기돼 있습니다. 즉, 지름은 (-0.02mm) 1.73mm부터 (+0.02mm) 1.77mm까지 변동할 수 있다는 뜻이죠. 하지만 이게 필라멘트 라벨이나 상품 설명에 표기된 내용이며, 실제로는 허용치가 훨씬 나쁠 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 PID(Proportional Integral Derivative) 직경 제어 없이도 제작한 ekstruder로 ±0.03mm의 정밀도를 얻었습니다. 이로 인해 완벽한 출력물을 얻으면서 뚜렷한 결함은 거의 발견되지 않았습니다.
 
@@ -67,7 +107,18 @@ PID(Proportional Integral Derivative) 직경 제어 없이도 제작한 ekstrude
 
 그러한 ekstruder의 일반적인 문제는 충분한 역동력(마력/토크)이 부족하다는 점입니다. 따라서 움직임이 불규칙해지면 모터가 부분적으로나 완전히 멈추게 되어 역동력이 일정하지 않아 용융 플라스틱이 다른 속도로 나오게 되어 직경의 불일치가 발생합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 왜 그들은 기계에 강력한 모터를 포함시키지 않는 걸까요?
 
@@ -77,7 +128,18 @@ PID(Proportional Integral Derivative) 직경 제어 없이도 제작한 ekstrude
 
 만약 나와 똑같은 압출기를 $600에 만드는 회사가 있다고 해봅시다. 이에 $300의 배송료를 더해도 가격은 이미 $900이 되어 버립니다 — 이렇게 하면 얼마나 많은 취미로 개인이 그걸 사겠어요? 또한 새로운 압출기에 사용된 모터/기어박스/교류 드라이브를 넣을 수 없습니다 — 얼마나 많은 사람이 그것을 사겠어요? $900은 회사 이윤 마진과 노동비를 포함하기 전 가격입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 모든 것을 추가하면 동일한 압출기의 최종 비용이 $1500 이 넘어가서 더 이상 경제적이지 않아집니다.
 
@@ -87,7 +149,18 @@ PID(Proportional Integral Derivative) 직경 제어 없이도 제작한 ekstrude
 
 # 플라스틱 조달
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 필라멘트가 더 이상 구할 수 없어지기 전에, 저는 얼굴 방호대를 출력하고 기부했어요.
 
@@ -97,8 +170,18 @@ PID(Proportional Integral Derivative) 직경 제어 없이도 제작한 ekstrude
 
 이러한 펠렛은 보통 추출 공정을 통해 파이프, 막대, 시트를 제조하는 데 사용됩니다. 어떤 플라스틱 공급업체에서나 구할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-19-Part1Makeyourfilamentathomeforcheap_0.png)
 
@@ -108,8 +191,18 @@ PID(Proportional Integral Derivative) 직경 제어 없이도 제작한 ekstrude
 
 ## 왜 ABS인가요?
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아마도 추출하기 가장 쉬운 플라스틱 중 하나일 것이며 어디에서나 구할 수 있습니다. 이 플라스틱으로 필라멘트 추출 방법을 익힌 후에 PLA로 넘어갈 거예요.
 
@@ -119,7 +212,18 @@ PID(Proportional Integral Derivative) 직경 제어 없이도 제작한 ekstrude
 
 드디어 성공했어요. 현지 공급 업체는 PLA 펠릿을 판매하지 않았지만 대부분 PLA 필라멘트는 NatureWorks Ingeo를 사용하여 만들어진다는 사실을 알게 되었어요. 그들은 제게 Ingeo 3D870 등급을 25kg당 $2.75에 판매하기로 했고, 최소 구매량은 25kg입니다. 저희가 해야 할 일은 이 양식을 완성하는 것뿐이에요: [양식 링크](https://natureworks.wufoo.com/forms/zzcwkzh1m84da3/). 근처를 둘러보면 NatureWorks의 현지 유통업체를 찾을 수도 있습니다. 그러면 교육용 샘플을 요청하는 것이 아니라 문제없이 구매할 수 있어요. 그래도 저는 아직 대학생이라 샘플을 얻는 것이 쉬웠어요. 물건은 네브래스카주 Blair에서 배송되며 배송비는 별도로 청구됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Extruder
 
@@ -129,7 +233,18 @@ PID(Proportional Integral Derivative) 직경 제어 없이도 제작한 ekstrude
 
 이 작업은 Extrusion이라는 과정을 통해 이루어집니다. 펠렛을 entee funnel이라고도 하는 hopper에 넣습니다. 거기서 펠렛은 나사에 의해 밀려 들어가 밀립니다. 그러면 열매 운동에 의한 나사 이동과 barrel 벽에 가해지는 열에 의해 압축되어 녹습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마침내, 노즐을 통해 강제로 밀어 넣고 차가운 물에 두 개의 롤러에 의해 끌려갑니다. 지름을 제어하는 것은 끌어당기는 속도이므로, 제조된 필라멘트의 지름을 공급하고 끌어당기는 모터 속도를 제어하는 PID 컨트롤러가 필요합니다. 풀러에는 NEMA 23 모터가 필요합니다.
 
@@ -139,7 +254,18 @@ PID(Proportional Integral Derivative) 직경 제어 없이도 제작한 ekstrude
 
 나사 공급업체에게 이 과정에 `100 rpm만 필요하다고 말을 듣고, 가공된 플라스틱 5kg 당 1마력의 모터가 있어야 한다고 알려받았습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시스템이 소비하는 총 전력은 얼마인가요? 나는 히터와 모터가 소비하는 전력만 측정했는데, 3킬로와트를 소비하고 있는 것 같아요. 5kg 필라멘트를 생산하기 위해 전기를 사용하면 대략 50센트 정도 드는 것 같아요. 만약 PLA를 만든다면, 전환할 때 동일한 전력을 사용하여 2.5kg PLA 필라멘트만 생산할 수 있으므로 두배로 비용이 들어요.
 
@@ -149,7 +275,18 @@ PID(Proportional Integral Derivative) 직경 제어 없이도 제작한 ekstrude
 
 # 필라멘트 허용도
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 좋은 냉각(냉수), 나사의 일정한 속도, 일정한 용융 온도, 그리고 풀러 롤러용 좋은 PID 컨트롤러 튜닝이라면 직경에서 최상의 일관성을 달성할 수 있습니다. 충분한 모터 토크나 열 처리가 없다면 모터가 멈출 수 있고 나사 속도가 변할 수 있습니다. 온도를 일정하게 유지하면 점도 일관성을 유지할 수 있습니다. 압력/온도의 소량의 변동은 풀러 롤러가 통제하여 목표 직경 달성을 돕습니다.
 
@@ -159,6 +296,17 @@ PID(Proportional Integral Derivative) 직경 제어 없이도 제작한 ekstrude
 
 업데이트: 순수 이익으로 140,000달러를 달성했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Part 2

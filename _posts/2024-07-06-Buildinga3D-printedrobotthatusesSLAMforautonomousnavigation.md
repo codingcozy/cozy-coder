@@ -3,17 +3,13 @@ title: "SLAM을 활용한 자율 주행 3D 프린팅 로봇 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-06-Buildinga3D-printedrobotthatusesSLAMforautonomousnavigation_0.png"
 date: 2024-07-06 10:51
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-06-Buildinga3D-printedrobotthatusesSLAMforautonomousnavigation_0.png
 tag: Tech
 originalTitle: "Building a 3D-printed robot that uses SLAM for autonomous navigation"
 link: "https://medium.com/@pliam1105/building-a-3d-printed-robot-that-uses-slam-for-autonomous-navigation-cd83473dac7c"
 isUpdated: true
 ---
-
-
-
-
 
 ## Jetson Nano, Arduino 및 ROS 2의 Nav2 라이브러리를 사용하는 자율 로봇
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 프로젝트의 완전한 기술 사양 및 코드를 GitHub에서 확인할 수 있습니다: [GitHub 링크](https://github.com/pliam1105/3D-Printed-ROS-SLAM-Robot)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 로봇 만들기
 
@@ -31,7 +38,18 @@ isUpdated: true
 
 전자 부품에 대한 계획은 다음과 같아요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - ​NVIDIA Jetson Nano를 주요 마이크로컨트롤러 보드로 사용하여 그래픽 카드를 비롯한 높은 성능 덕분에 카메라를 통합하고 나중에 AI 기능을 추가하고 싶어서 선택했어요.
 - ​Arduino Mega는 모터 제어와 인코더 속도 측정을 담당하며, Jetson Nano와 빈번히 통신해야 하는데, 이를 위해 시리얼 USB로 연결했어요.
@@ -46,7 +64,18 @@ isUpdated: true
 
 그동안 Fusion 360을 사용하여 구성 요소 설계에 착수했어요. 인터페이스와 워크플로우 (스케치, 구성 요소 및 다양한 도구)에 익숙해지고, 온라인 자습서의 유익한 팁을 통해 빠르게 적응했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 '''
 /assets/img/2024-07-06-Buildinga3D-printedrobotthatusesSLAMforautonomousnavigation_1.png
@@ -58,7 +87,18 @@ isUpdated: true
 디자인을 마친 후에는, 3D 프린터가 유용하게 사용될 때가 드디어 왔어. 나는 약 5일(아니면 일주일)이 걸려서 모든 부품들을 인쇄했어. PETG 필라멘트를 1kg 미만 사용했고 (퓨전에서 정렬 오류를 범해 다시 프린트해야 했던 바퀴들도 추가로 인쇄). 그 당시에는 모터가 아직 도착하지 않았기 때문에, 조립에 필요한 나사, 너트, 막대, 축, 스페이서를 구입 중이었고 (생각보다 필요한 양이 더 많다는 것을 깨달아서 여러 차례 주문을 했었어). 마침내, 모터가 도착하여 조립이 시작되었어.
 '''
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 /assets/img/2024-07-06-Buildinga3D-printedrobotthatusesSLAMforautonomousnavigation_2.png
 
@@ -68,7 +108,18 @@ isUpdated: true
 
 먼저, 아두이노가 엔코더 속도를 측정하고 런타임에서 지정된 속도로 모터를 이동시키도록 하기 위해 필요했어요. 먼저, 모터 드라이버에 일정한 PWM (펄스 폭 변조, 디지털 장치에서 아날로그 신호를 모방하는 방법) 펄스를 제공하여 모터 속도를 제어하는 방법을 알아냈어요 (기본적으로 현재는 전압에 해당하고, 나중에 정확한 속도로 이어질 거예요).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](https://miro.medium.com/v2/resize:fit:800/0*GRzvHgMFb158MtSZ.gif)
 
@@ -78,7 +129,18 @@ isUpdated: true
 
 속도를 측정하기 위해 일정 시간 간격 동안의 펄스 수를 해당 간격으로 나누고, 펄스/밀리초에서 미터/초로 변환합니다. 이 마지막 부분에서 미터를 펄스로 변환하는 것이 필요했는데, 이를 위해 측정 테이프를 사용해 로봇을 이동시키고 기록된 펄스 수를 확인했습니다(이후 측정된 속도가 PID 컨트롤러의 목표 속도와 일치하지 않아 펄스 수를 수정했습니다).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 /assets/img/2024-07-06-Buildinga3D-printedrobotthatusesSLAMforautonomousnavigation_3.png
 
@@ -88,19 +150,39 @@ isUpdated: true
 
 이를 위해 PID_v1 Arduino 라이브러리를 사용했고, KP, KI, 그리고 KD 매개변수를 조정하여 원하는 속도로 부드럽게, 짧은 시간 내에 이동하고 그것에서 벗어나지 않도록 이루어졌습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 ROS에서 오는 속도 명령은 그 형식(왼쪽 바퀴 속도 및 오른쪽 바퀴 속도)으로 오지 않습니다. 대신에 선형 및 각도 구성 요소로 제공되는데, 이를 계산해야 합니다. 아래에 표시된 대로요.
 
-
 /assets/img/2024-07-06-Buildinga3D-printedrobotthatusesSLAMforautonomousnavigation_5.png
-
 
 # Arduino와 ROS 연결하기
 
 이 프로젝트는 주로 ROS(로봇 운영 시스템)에 의존하여 여러 부분을 연결합니다. ROS는 서로 다른 구성 요소(노드)가 함께 작동할 수 있는 프레임워크로, 각 구성 요소가 다른 기능을 달성합니다. 실제로 운영 체제는 아니지만 Ubuntu에서 실행됩니다(저는 Jetson Nano와 PC에 모두 ROS 2 Foxy와 Ubuntu 20.04를 설치했습니다).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 아두이노와 젯슨 나노 간의 통신
 
@@ -110,7 +192,18 @@ isUpdated: true
 
 그러나 서로 다른 주기로 동작하는 두 장치 간의 데이터 전송을 동기화하는 것은 조금 문제가 있었습니다. 이를 비동기적으로 수행할 수는 없으므로 (만약 두 개의 시리얼이 있지 않다면), 다양한 방법을 시도한 끝에 다음과 같이 동작하는 방법을 결론 내렸습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 아두이노와 제트슨 나노 프로그램의 시작 시점에서 핸드셰이크를 성취하고 싶어요. 즉, 제트슨 나노에서 메시지를 시도하고 아두이노로부터 응답을 받는 메세지 시퀀스를 말해요. <br>
 - 제트슨 나노 각 사이클마다, 먼저 속도 명령을 보내고, 그 후 아두이노로부터 엔코더 속도를 받기를 기다립니다. <br>
@@ -122,7 +215,18 @@ isUpdated: true
 
 제트슨 나노에서 실행되는 아두이노 시리얼 노드는 아두이노와 대화하며 시스템의 나머지 부분과 통신해야 해요. 이는 ROS를 사용하여 주제를 통해 수행됩니다. 노드는 주제를 게시하거나 구독하여 데이터를 보내거나 받을 수 있어요. 이 경우, 노드는 cmd_vel 주제를 구독하여 속도 명령을 받고(odometry topic으로 옳바른 형식을 사용하여) odom 주제를 게시하여 오도메트리 데이터(예상 속도와 위치/방향)를 전달해야 해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 /assets/img/2024-07-06-Buildinga3D-printedrobotthatusesSLAMforautonomousnavigation_6.png
 
@@ -134,7 +238,18 @@ isUpdated: true
 
 map에서 odom 변환은 저는 나중에 설명할 Localization 노드에 의해 계산됩니다만, 이 변환은 오차(드리프트)가 있는 오도메트리 데이터와 센서 데이터 간의 시간에 따른 정렬을 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내가 직접 구현해야 하는 것은 추정된 현재 위치와 방향과 초기 위치와 방향의 차이를 나타내는 odom to base_link 변환입니다.
 
@@ -144,7 +259,18 @@ map에서 odom 변환은 저는 나중에 설명할 Localization 노드에 의�
 
 나는 다음의 공식을 사용하여 (선속도, 각속도) 성분을 계산합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 /assets/img/2024-07-06-Buildinga3D-printedrobotthatusesSLAMforautonomousnavigation_8.png
 
@@ -154,7 +280,18 @@ map에서 odom 변환은 저는 나중에 설명할 Localization 노드에 의�
 
 저는 로봇을 teleop_twist_keyboard를 사용하여 방 안을 움직이면서 속도 명령 전송 및 오도메트리 자세 추정을 테스트했고, LiDAR 데이터의 드리프트(아래에서 설명할 것)를 고정 좌표 프레임(odom)에 대해 시각화하여 RViz 2(ROS 2에서 제 PC에)를 통해 확인했어요. 이를 통해 Jetson Nano와 아두이노 간의 통신 및 올바른 데이터 전송이 작동하고 SLAM을 사용하여 로봇이 작동하는 것을 확인할 수 있었어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 /assets/img/2024-07-06-Buildinga3D-printedrobotthatusesSLAMforautonomousnavigation_10.png
 
@@ -164,13 +301,35 @@ map에서 odom 변환은 저는 나중에 설명할 Localization 노드에 의�
 
 /assets/img/2024-07-06-Buildinga3D-printedrobotthatusesSLAMforautonomousnavigation_11.png
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 SLAM에 대해 논의하기 전에 몇 가지 더 설정해야 할 사항이 있습니다. 앞서 언급했듯이, ROS는 변환을 사용하여 작업 좌표를 조정하며, 이를 통해 한 프레임에서 다른 프레임으로 좌표를 변환할 수 있습니다. 이것은 로봇 구성 요소 간이나 로봇 상태 게시자 및 조인트 게시자 노드 사이에서도 수행할 수 있습니다. 로봇 상태 게시자는 서로 다른 로봇 구성 요소 간의 관계를 나타내기 위해 조인트를 사용합니다. 예를 들어, base_link 프레임(로봇 중심)에서 LiDAR 데이터가 사용하는 레이저 프레임으로 이동하는 데 필요한 변환 및 회전과 같은 것입니다. 이러한 조인트를 URDF(Unified Robot Description Format) 파일(기본적으로는 확장된 XML 파일)에 저장하고 로봇 상태 게시자 노드를 사용하여 게시합니다. 또한 조인트 상태(예: 바퀴의 방향)를 joint_state_publisher 노드를 사용하여 게시하며(그리고 GUI를 사용하여 변경할 수도 있습니다).
 
 로봇에서 마침내 SLAM을 구현할 수 있습니다. 이를 위해 slam_toolbox를 사용하며, 해당 주제 및 변환을 구독하고 오도메트리 및 센서 데이터를 결합하여 지역의 지도를 생성하면서 로봇의 위치를 추정합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 프로젝트에 추가 기능으로, 로봇이 자율적으로 특정 목표/지점으로 이동하도록 할 것입니다. 이는 다양한 회전 및 이동 기능에 필요한 다양한 노드를 포함하는 navigation2 패키지를 사용하여 구현됩니다.
 
@@ -178,7 +337,18 @@ map에서 odom 변환은 저는 나중에 설명할 Localization 노드에 의�
 
 # 로봇 동작 중
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 제 PC에서 보낸 목표지점으로 로봇이 제 방 안을 맵핑하고 탐색하는 GIF가 있어요:
 
@@ -188,7 +358,18 @@ map에서 odom 변환은 저는 나중에 설명할 Localization 노드에 의�
 
 이 프로젝트를 실행하는 동안 달성한 목표를 요약해보겠습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 로봇 샤시를 처음부터 디자인하고 제작하였으며 모든 전자 기기를 배선했습니다.
 - 모터 제어 방법 및 인코더 속도 측정 방법을 파악하고, 인코더를 펄스에서 미터로 교정하였으며, PID 컨트롤러를 조정하여 필요에 따라 일정한 속도를 유지했습니다.

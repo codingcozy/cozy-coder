@@ -3,17 +3,13 @@ title: "맥OS 공격 매트릭스 IOPlatformExpertDevice를 사용하여 시스�
 description: ""
 coverImage: "/assets/img/2024-05-27-MacOSAttackMatrixGatheringSystemInformationusingIOPlatformExpertDevicePart2_0.png"
 date: 2024-05-27 12:24
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-MacOSAttackMatrixGatheringSystemInformationusingIOPlatformExpertDevicePart2_0.png
 tag: Tech
 originalTitle: "MacOS Attack Matrix: Gathering System Information using IOPlatformExpertDevice (Part — 2)"
 link: "https://medium.com/@utkarshcodes/macos-attack-matrix-gathering-system-information-using-ioplatformexpertdevice-part-2-8162f3b83415"
 isUpdated: true
 ---
-
-
-
-
 
 ![Screenshot](/assets/img/2024-05-27-MacOSAttackMatrixGatheringSystemInformationusingIOPlatformExpertDevicePart2_0.png)
 
@@ -23,8 +19,18 @@ macOS 시스템의 복잡한 미로를 헤쳐 나가는 레드팀 오퍼레이�
 
 macOS 시스템 진단의 핵심에는 ioreg 명령어가 있습니다. 이 명령어는 I/O Kit 레지스트리의 광대하고 상세한 세계를 해제하는 열쇠 역할을 합니다. 이 레지스트리는 macOS 시스템에 연결된 모든 장치의 정보를 카탈로그화한 대규모 도서관 역할을 합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `ioreg` 명령을 효과적으로 다루는 방법을 이해하는 것은 고고학자가 발굴 작업을 위해 적절한 도구를 선택하는 것과 유사합니다. 가장 자세한 통찰을 끄집어내기 위해 설정하는 방법은 다음과 같습니다:
 
@@ -40,7 +46,18 @@ ioreg -c IOPlatformExpertDevice -d 2
 - `-l`: 장치의 모든 가능한 세부 정보를 펼쳐서 속성의 매우 상세한 내러티브를 제공합니다.
 - `-r`: 하드웨어 트리의 관련 가지에 대해 검색을 집중시켜 불필요한 혼란을 피합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 예시 및 샘플 출력 설명
 
@@ -60,7 +77,18 @@ registered, matched, active, busy 0 (0 ms), retain 10>
 
 이 명령어를 실행하면 IOPlatformExpertDevice에 대한 자세한 정보가 나타나며, 중요하고 종종 숨겨진 속성을 강조해 줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - IOPlatformUUID: 시스템을 고유하게 식별하는 디지털 지문 역할을 합니다.
 - Model: Mac의 청사진을 공개하여 특정 취약점을 정확히 파악하는 데 중요합니다.
@@ -76,8 +104,18 @@ ioreg 명령어를 이용해 레드 팀은 디지털 자물쇠 제작자로 변�
 - 자산 무결성 확인: 하드웨어가 변조되지 않았는지 확인하는 것은 금고 속 금의 순도를 확인하는 것과 유사합니다.
 - 사용자 정의 악용 개발: 일부 악용은 시스템 하드웨어의 정확한 형태가 필요한데, 이는 자물쇠 디자인을 기반으로 열쇠를 만들어내는 것과 유사합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-05-27-MacOSAttackMatrixGatheringSystemInformationusingIOPlatformExpertDevicePart2_1.png)
 
@@ -98,11 +136,19 @@ ioreg 명령어를 이용해 레드 팀은 디지털 자물쇠 제작자로 변�
 
 # 결론
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-05-27-MacOSAttackMatrixGatheringSystemInformationusingIOPlatformExpertDevicePart2_2.png)
 
 The `ioreg` command is not just a tool; it's a gateway to the hidden chambers of macOS hardware information. For security professionals, mastering this command is akin to mastering the art of map-making, charting unknown territories, and uncovering secrets that lie beneath the surface of every macOS device.
-

@@ -3,7 +3,7 @@ title: "상태 관찰 MutableState와 MutableStateFlow 비교"
 description: ""
 coverImage: "/assets/img/2024-07-09-ObservingStateMutableStatevsMutableStateFlow_0.png"
 date: 2024-07-09 10:39
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-ObservingStateMutableStatevsMutableStateFlow_0.png
 tag: Tech
 originalTitle: "Observing State: MutableState vs MutableStateFlow"
@@ -11,17 +11,24 @@ link: "https://medium.com/@gtxtreme/observing-state-mutablestate-vs-mutablestate
 isUpdated: true
 ---
 
-
-
-
-
 이 기사에서는 가볍고 간결하게 읽고 배운 내용을 전해 드리겠습니다.
 
 우리가 사용할 수 있는 많은 observable 패러다임을 지원하는 클래스와 라이브러리들 때문에 때로는 어떤 무기가 전쟁에서 우리를 승리로 이끌어 줄지 혼란스러울 수 있습니다.
 
 MutableState
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 신중히 살펴보면, 이름이 시사하는 대로, 이는 변경 가능한 상태를 나타냅니다. 여기서 상태는 Compose에서 데이터의 기본 단위로 이해될 수 있습니다. 그렇다면, Compose와 매우 밀접한 연관이 있는 클래스이고, ViewModel에서 사용하기 시작하면, 내일 새로운 프레임워크가 나와도 이를 이동하기가 어려워질 것입니다. 많은 사람들이 종종 도메인과 같은 다른 레이어에서도 사용합니다. Kotlin Multiplatform과 같은 도구들의 출현으로 안드로이드 특정 또는 Compose 특정 종속성을 제거하기가 어려워질 것입니다. 그렇다면 어떻게 해야 할까요?
 
@@ -31,7 +38,18 @@ MutableStateFlow는 flow 패키지의 일부로 제공되며 Kotlin 언어의 �
 
 그래서 이 기사를 정리해 드리겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - MutableStateFlow은 라이프사이클을 고려해 만들어져 있어서, ViewModel에서 UI로 전송되는 데이터에 좋은 선택지가 될 수 있어요. MutableState는 다소 사용자 친화적이지 않아요.
 - MutableStateFlow는 순수한 코틀린 Flow 기반 API로, 모든 레이어에서 안전하게 사용할 수 있어요. MutableState를 사용하려면 UI 레이어가 항상 Compose여야 함을 보장해야 해요.
@@ -44,7 +62,18 @@ LiveData는 훌륭한 API였지만, 앱이 순수하게 코틀린으로 작성�
 
 ![image](/assets/img/2024-07-09-ObservingStateMutableStatevsMutableStateFlow_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그게 다야, 친구들.
 새로운 것을 배웠으면 좋겣다. 🌟

@@ -3,7 +3,7 @@ title: "구조 인식 AI로 문서의 힘을 해제하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-12-UnlockingthePowerofDocumentswithStructure-AwareAI_0.png"
 date: 2024-07-12 23:32
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-UnlockingthePowerofDocumentswithStructure-AwareAI_0.png
 tag: Tech
 originalTitle: "Unlocking the Power of Documents with Structure-Aware AI"
@@ -11,17 +11,24 @@ link: "https://medium.com/the-modern-scientist/unlocking-the-power-of-documents-
 isUpdated: true
 ---
 
-
-
-
-
 기업 조직은 매일 스캔된 양식, 이메일, 법적 계약, 의료 기록, 재무 보고서 등을 포함한 방대한 양의 비구조적 비즈니스 문서를 처리합니다. 이러한 텍스트 중심의 입력에서 잠재적으로 활용 가능한 데이터의 80% 이상이 손대지 않은 채 머물고 있다고 추정됩니다.
 
 이는 PDF, 스캔된 이미지, 일반 워드 파일과 같은 형식에 갇힌 중요한 운영 지능의 엄청난 양을 의미합니다. 거래 일자, 고객 세부 정보, 제품 출하 등과 같은 소중한 통찰력은 이 지식을 체계적으로 추출하고 연결하기 어려워서 휴면 상태에 놓여 있습니다.
 
 그럼에도 문서를 효율적으로 활용하는 것은 의사 결정 가속화, 프로세스 효율성 향상, 규정 준수 보장, 경쟁 우위 확보에 중요합니다. 따라서 거대한 필요성과 엄청난 기회가 존재합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 최근 발전으로 무대를 세워두었습니다
 
@@ -33,7 +40,18 @@ isUpdated: true
 - 제약 조건: 신뢰성을 보장하기 위해 모델이 준수해야 하는 구성 가능한 규칙.
 - 구조화된 출력값: 통합된 분석을 가능케 하기 위해 JSON과 같은 표준 형식으로 모델 결과 제시.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 도구들을 사용하면 언어 모델이 텍스트를 생성하는 것 이상의 작업을 수행할 수 있습니다. 구조적 방법으로 복잡한 문서 처리 워크플로우를 실행할 수 있습니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 구조 인식 인공지능 시스템은 비구조적 문서 입력에서 정보를 추출하고 정형화된 표현을 통해 대량의 말뭉치 사이에서 통찰을 연결하는 것을 목적으로 설계되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 시스템들은 인간 수준의 이해력을 모방하여 문서 이해를 자동화하고, 격리된 데이터를 연결하여 통합된 분석을 제공하며, 맥락 자동화를 통해 수작업 비즈니스 프로세스를 최적화하고, 생산성을 기하급수적으로 향상시키겠다고 약속합니다.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 # 문서용 기반 모델 강화
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Both DocLLM and DocGraphLM are based on powerful neural language models such as BERT and GPT-3 to make use of their extensive linguistic knowledge and text analysis abilities.
 
@@ -63,7 +103,18 @@ However, what sets them apart is that they enhance the foundational architecture
 
 DocLLM introduces a distinct spatial attention mechanism on top of the conventional transformer self-attention layers found in language models.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 병렬 스트림은 모델이 텍스트 블록과 테이블 또는 그림과 같은 시각적 요소 간의 위치 및 근접 관계를 분석할 수 있도록 합니다.
 
@@ -73,7 +124,18 @@ DocLLM introduces a distinct spatial attention mechanism on top of the conventio
 
 ## DocGraphLM — 그래픽 구조
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 DocGraphLM은 문서를 모델링하기 위해 그래프 신경망을 사용합니다.
 
@@ -83,7 +145,18 @@ DocGraphLM은 문서를 모델링하기 위해 그래프 신경망을 사용합�
 
 그런 다음 모델은 그래픽 시맨틱과 미리 학습된 언어 모델 노드 임베딩을 결합하여 텍스트와 구조적 이해를 통합합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 So in summary, DocLLM focuses on spatial augmentations, while DocGraphLM utilizes graphical networks. Both provide foundation models with document layout comprehension capabilities effectively.
 
@@ -93,7 +166,18 @@ Documents pose unique challenges to AI systems compared to plain text or structu
 
 For efficient intelligence extraction, systems must manage complex tasks such as deciphering table structures, linking entities across sources, or converting unstructured text into standardized formats reliably.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 커스텀 모듈로서의 조합 가능한 함수
 
@@ -106,7 +190,18 @@ For efficient intelligence extraction, systems must manage complex tasks such as
 
 ## 함수 실행에 관한 프롬프팅
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 '워크플로우를 하드 코딩하는 대신, 프롬프트는 특정 문서 이해 프로세스에 필요한 기능 시퀀스를 활성화합니다:
 
@@ -117,21 +212,43 @@ For efficient intelligence extraction, systems must manage complex tasks such as
 
 함수는 구조화된 출력물을 생성합니다 - 하향식 함수가 추가로 처리할 수 있는 일관된 데이터 스키마를 생산합니다:'
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-**JSON 객체로 구성된 엔티티는 라벨과 텍스트 단편으로 표현돼요.**  
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+**JSON 객체로 구성된 엔티티는 라벨과 텍스트 단편으로 표현돼요.**
 
 **테이블은 행/열 레코드로 나타나요.**
 
 **이는 조각난 텍스트와 달리 하위 작업 사이에서 데이터를 효과적으로 전송해요.**
 
-**구성 가능한 함수를 사용하면 정교한 문서 처리 로직을 맞춤화할 수 있어요.**  
+**구성 가능한 함수를 사용하면 정교한 문서 처리 로직을 맞춤화할 수 있어요.**
 
-**이를 통해 비구조적 소스에서의 강력한 정보 추출, 관련성 감지, 지식 통합이 용이해져요.**  
+**이를 통해 비구조적 소스에서의 강력한 정보 추출, 관련성 감지, 지식 통합이 용이해져요.**
 
 **# 제약 사항과 규칙이 올바른 출력을 안내해요.**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 DSPy Assertions와 같은 기술을 활용하면 모델 출력이 준수해야 하는 유효성 규칙, 데이터 제약 조건, 신뢰 조건을 부과할 수 있습니다. 이러한 계산 제약 조건은 데이터베이스의 무결성 검사와 같이 작용하여 신뢰할 수 있는 하류 소비를 보장합니다.
 
@@ -141,7 +258,18 @@ DSPy Assertions와 같은 기술을 활용하면 모델 출력이 준수해야 �
 
 견고한 기업급 시스템은 운영에 앞서 모델 출력이 특정 품질과 무결성 기준을 충족하는지에 대한 보장을 필요로 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 규모에 따라 다루는 문서들은 언어 모호성, 복잡한 레이아웃, 그리고 다양한 주제로 인해 불안정성을 초래합니다. 따라서 언어 모델의 자연적인 강점에만 의존하는 것은 부족합니다.
 
@@ -151,7 +279,18 @@ DSPy Assertions와 같은 기술을 활용하면 모델 출력이 준수해야 �
 
 제약 규칙은 모델 출력물을 예상한 형식으로 제한함으로써 신뢰성 요구사항을 충족시키고 가드레일 역할을 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - MM/DD/YYYY 형식에 맞춰진 날짜 값
 - 주소가 완전히 파싱되어 필드로 나뉨
@@ -163,7 +302,18 @@ DSPy Assertions와 같은 기술을 활용하면 모델 출력이 준수해야 �
 
 제약 조건 위반 시, 실행이 반복되어 피드백을 제공하고 결과가 일치하도록하거나 예외가 트리거 될 때까지 반복됩니다. 이는 암묵적 학습을 통해 자가 수정됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 뒤죽박죽인 문서 정리하기
 
@@ -173,7 +323,18 @@ DSPy Assertions와 같은 기술을 활용하면 모델 출력이 준수해야 �
 
 # 체계적인 표현이 통찰력을 연결합니다
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 통합된 분석 활용 방법
 
@@ -183,7 +344,18 @@ DSPy Assertions와 같은 기술을 활용하면 모델 출력이 준수해야 �
 
 ## 표준화된 구조 문서 간의 연결을 이어줍니다
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이는 표준화된 구조로 추출물을 내놓도록 동기부여하며, JSON과 같은 일관된 스키마를 사용하여 유형화된 필드, 분류 및 관계를 정의합니다.
 
@@ -195,7 +367,18 @@ DSPy Assertions와 같은 기술을 활용하면 모델 출력이 준수해야 �
 
 출력의 일관성은 통합의 확장성을 촉진합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 지식 그래프는 연결을 명백히 표현합니다
 
@@ -207,7 +390,18 @@ DSPy Assertions와 같은 기술을 활용하면 모델 출력이 준수해야 �
 - 사기 연결을 나타내는 하위 그래프
 - 준수 위험을 드러내는 중심성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 연결된 지능으로 인간을 증강하기
 
@@ -217,7 +411,18 @@ DSPy Assertions와 같은 기술을 활용하면 모델 출력이 준수해야 �
 
 # 형식적 LLM으로 LLM 계획의 유효성 강화
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대형 언어 모델(LLMs)은 복잡한 작업에 대한 자동 다단계 계획을 생성하는 능력을 놀라운 수준으로 보여 주었습니다. 그러나 이러한 모델은 때로는 그들의 블랙박스 특성으로 인해 유효하지 않거나 실행할 수 없는 작업 순서를 생성하기도 합니다.
 
@@ -227,7 +432,18 @@ Formal-LLM 프레임워크는 이러한 문제를 해결하기 위해 공식 언
 
 중요한 아이디어는 사용자가 계획 요구 사항과 제약 조건을 푸시다운 오토마타(PDA)로 표현할 수 있도록 하는 것입니다. 이는 언어에 적합한 컴퓨팅 모델인 오토마타로 계획 요구 사항을 형식화하는 것을 허용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 PDA 구성 요소는 다음과 같습니다:
 
@@ -239,7 +455,18 @@ PDA에서 허용되는 전이만 수용하도록 LLM을 제한하면 계획 생�
 
 ## PDA 안내 아래 프롬프트하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 단계에서, 프레임워크는 LLM에게 다음을 기반으로 한 작업을 선택하도록 유도합니다:
 
@@ -251,7 +478,18 @@ PDA에서 허용되는 전이만 수용하도록 LLM을 제한하면 계획 생�
 
 ## 강화학습을 통한 최적화
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 유효한 계획이라고 해도 여전히 최적이 아닐 수 있습니다. 작업 피드백에서 강화 학습을 사용하여 계획 품질을 향상시키는 것이 가능합니다.
 
@@ -263,7 +501,18 @@ PDA에서 허용되는 전이만 수용하도록 LLM을 제한하면 계획 생�
 - 실행 가능한 계획 생성 속도를 상당히 증가시킴
 - LLM 기반 계획을 더욱 조절 가능하게 만듦
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이중적 표현과 정확성을 고려함으로써, 이 프레임워크는 다단계 추론 작업에 대한 LLM 에이전트의 신뢰성을 크게 향상시킵니다.
 
@@ -273,7 +522,18 @@ PDA에서 허용되는 전이만 수용하도록 LLM을 제한하면 계획 생�
 
 기능, 제약 조건 및 구조를 조율함으로써, 견고한 시스템은 계약을 수용하고 정보를 추출하며 패턴을 감지하고 하류 의사결정을 유발하는 등 엔드 투 엔드 워크플로우를 자동화할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 섭취 및 추출
 
@@ -283,7 +543,18 @@ PDA에서 허용되는 전이만 수용하도록 LLM을 제한하면 계획 생�
 
 ## 지식 통합
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 정형화된 구조화된 출력물이 통합된 지식 그래프에 로드됩니다. 이 그래프는 사람, 위치, 거래, 기간 및 소스 간의 계층 구조를 인코딩합니다. 이는 다른 곳에 갇혀있던 맥락적 연결을 나타냅니다.
 
@@ -291,7 +562,18 @@ PDA에서 허용되는 전이만 수용하도록 LLM을 제한하면 계획 생�
 
 통합된 통합 데이터로 그래프 알고리즘을 활용하면 네트워크 패턴, 클러스터 및 이상 현상이 드러납니다. 이는 복잡한 비즈니스 질의에 대한 해답을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전문 요원들은 지속적으로 문서를 채굴하여 시스템 지능을 확장하고 정제합니다.
 
@@ -301,7 +583,18 @@ PDA에서 허용되는 전이만 수용하도록 LLM을 제한하면 계획 생�
 
 계약 개발에 따라 재무 공지, 공급 업체 경보, 고객 타깃팅 등과 같은 다운스트림 프로세스를 자동화합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전체적으로, 강력한 수집, 신뢰할 수 있는 추출, 연결된 분석 및 자동 결정을 조율함으로써 기업 규모에서 엄청난 잠재력을 풀어낼 수 있습니다.
 

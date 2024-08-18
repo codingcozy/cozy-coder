@@ -3,17 +3,13 @@ title: "AWS Lambda, SQS, Nodejs, MongoDB로 자동화 워크플로우 만들기"
 description: ""
 coverImage: "/assets/img/2024-08-04-HowtoBuildScalableAutomatedWorkflowslikeHubSpotusingAWSLambdaSQSNodejsandMongoDB_0.png"
 date: 2024-08-04 18:30
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-04-HowtoBuildScalableAutomatedWorkflowslikeHubSpotusingAWSLambdaSQSNodejsandMongoDB_0.png
 tag: Tech
 originalTitle: "How to Build Scalable Automated Workflows like HubSpot using AWS Lambda, SQS, Nodejs, and MongoDB"
 link: "https://medium.com/@bhaskar.csawant417/how-to-build-scalable-automated-workflows-like-hubspot-using-aws-lambda-sqs-node-js-and-mongodb-1ac28dd4b26e"
 isUpdated: true
 ---
-
-
-
-
 
 HubSpot의 강력한 시스템과 유사한 자동화된 워크플로우를 만드는 데에는 고급 클라우드 기술을 활용해야 합니다. 이 안내서는 AWS Lambda, Amazon SQS, Node.js, 그리고 MongoDB를 사용하여 이러한 워크플로우를 개발하는 과정을 안내해 드릴 것입니다.
 
@@ -23,7 +19,18 @@ HubSpot의 강력한 시스템과 유사한 자동화된 워크플로우를 만�
 
 ## 배울 내용
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 자동화된 Workflow 아키텍처: 자동화된 Workflows의 내부 작동 방식에 대한 통찰력을 얻어보세요.
 - API Server 이해: 코드 예제와 설명을 통해 Workflow가 어떻게 동작하는지 배웁니다.
@@ -41,8 +48,18 @@ HubSpot의 강력한 시스템과 유사한 자동화된 워크플로우를 만�
 
 # 자동화된 Workflow 아키텍처.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-08-04-HowtoBuildScalableAutomatedWorkflowslikeHubSpotusingAWSLambdaSQSNodejsandMongoDB_0.png" />
 
@@ -59,8 +76,18 @@ HubSpot의 강력한 시스템과 유사한 자동화된 워크플로우를 만�
 
 이 설정을 통해 워크플로우가 신뢰할 수 있고 다양한 작업을 효율적으로 처리할 수 있음을 보장합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-08-04-HowtoBuildScalableAutomatedWorkflowslikeHubSpotusingAWSLambdaSQSNodejsandMongoDB_1.png" />
 
@@ -70,7 +97,18 @@ HubSpot의 강력한 시스템과 유사한 자동화된 워크플로우를 만�
 
 이제 Model 및 Controller에 대해 자세히 살펴보고 API 서버가 어떻게 작동하는지 이해해 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 워크플로우 모델
 
@@ -79,30 +117,47 @@ HubSpot의 강력한 시스템과 유사한 자동화된 워크플로우를 만�
 ```js
 // models/workflow.ts
 
-const triggerSchema = new Schema<Trigger>({
-  type: { type: String, required: true },
-  app: { type: String, required: true },
-  metaData: { type: String, required: false },
-  data: { type: Schema.Types.Mixed, required: false } // 동적 데이터에 대한 혼합 형식
-});
+const triggerSchema =
+  new Schema() <
+  Trigger >
+  {
+    type: { type: String, required: true },
+    app: { type: String, required: true },
+    metaData: { type: String, required: false },
+    data: { type: Schema.Types.Mixed, required: false }, // 동적 데이터에 대한 혼합 형식
+  };
 
-const workflowSchema = new Schema<Workflow>({
-  workflowName: { type: String, required: true },
-  trigger: { type: triggerSchema, required: true },
-  actions: { type: [triggerSchema], required: true },
-  created_at: { type: Date, default: Date.now },
-  updated_at: { type: Date, default: Date.now },
-});
+const workflowSchema =
+  new Schema() <
+  Workflow >
+  {
+    workflowName: { type: String, required: true },
+    trigger: { type: triggerSchema, required: true },
+    actions: { type: [triggerSchema], required: true },
+    created_at: { type: Date, default: Date.now },
+    updated_at: { type: Date, default: Date.now },
+  };
 
 // 모델 생성 및 내보내기
-const WorkflowModel = mongoose.model<Workflow>('Workflow', workflowSchema);
+const WorkflowModel = mongoose.model < Workflow > ("Workflow", workflowSchema);
 
 export default WorkflowModel;
 ```
 
 이 모델에서:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Trigger: type, app, optional metaData, 및 data 속성을 포함합니다.
 - Workflow: workflowName, trigger, actions, created_at, 및 updated_at과 같은 속성이 포함된 Mongoose Document 인터페이스를 확장합니다.
@@ -119,7 +174,18 @@ export default WorkflowModel;
 
 ## 폼 제출 생성하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 양식 제출을 처리하고 워크플로를 트리거하는 방법입니다:
 
@@ -137,7 +203,7 @@ export const createFormSubmission = async (req: Request<{}, {}, FormSubmissionBo
       metaData: JSON.stringify({ _id: formId }),
       data: newForm,
     }
-    
+
     let params: params = {
       MessageBody: JSON.stringify(workflowData),
       QueueUrl: process.env.AWS_SQS_URL as string,
@@ -163,10 +229,20 @@ export const createFormSubmission = async (req: Request<{}, {}, FormSubmissionBo
 - 새 양식 제출이 생성되고 데이터베이스에 저장됩니다.
 - 양식 제출 세부 정보를 포함한 워크플로 데이터가 준비됩니다.
 - 워크플로 데이터가 AWS SQS 대기열로 전송됩니다.
-- 트리거 구성과 일치하는 워크플로(예: 앱: 'forms', 유형: 'new_submission', metaData: ' _id: someUniqueId')가 식별되며 해당 작업은 실행을 위해 다른 대기열로 전송됩니다.
+- 트리거 구성과 일치하는 워크플로(예: 앱: 'forms', 유형: 'new_submission', metaData: ' \_id: someUniqueId')가 식별되며 해당 작업은 실행을 위해 다른 대기열로 전송됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-08-04-HowtoBuildScalableAutomatedWorkflowslikeHubSpotusingAWSLambdaSQSNodejsandMongoDB_2.png)
 
@@ -176,17 +252,27 @@ Serverless Framework을 사용하려면 먼저 AWS CLI를 구성해야 합니다
 
 ## IAM 사용자 생성
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - AWS 콘솔에 로그인하세요: AWS 관리 콘솔에 로그인합니다.
 - IAM 찾기: 검색창에 "IAM"을 입력하고 결과에서 IAM 서비스를 선택합니다.
 - 사용자로 이동: IAM 대시보드에서 "사용자" 옵션을 클릭합니다.
 - 새 사용자 만들기:
 
-   - "사용자 추가"를 클릭합니다.
-   - 사용자 이름을 입력합니다.
-   - "다음"을 클릭합니다.
+  - "사용자 추가"를 클릭합니다.
+  - 사용자 이름을 입력합니다.
+  - "다음"을 클릭합니다.
 
 5. 권한 설정:
 
@@ -194,7 +280,18 @@ Serverless Framework을 사용하려면 먼저 AWS CLI를 구성해야 합니다
    - "권한 정책" 섹션에서 "관리자 액세스"를 선택합니다.
    - "다음"을 클릭한 후 "사용자 만들기"를 클릭합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 6. 액세스 키 생성 방법:
 
@@ -210,7 +307,18 @@ Serverless Framework을 사용하려면 먼저 AWS CLI를 구성해야 합니다
 - 원하는 경우 설명을 추가합니다.
 - "액세스 키 생성"을 클릭합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 8. 액세스 키 저장:
 
@@ -223,7 +331,18 @@ Serverless Framework을 사용하려면 먼저 AWS CLI를 구성해야 합니다
 - 터미널/명령 프롬프트 열기: 터미널(Linux/Mac) 또는 명령 프롬프트(Windows)를 엽니다.
 - AWS 구성 명령 실행:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 aws configure
@@ -236,9 +355,20 @@ aws configure
 - 기본 지역 이름: 선호하는 AWS 지역을 입력하세요 (예: us-east-1).
 - 기본 출력 형식: 선호하는 출력 형식을 입력하세요 (예: json).
 
-5. 구성 확인:  
+5. 구성 확인:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 명령을 실행하여 구성을 확인하세요:
 
@@ -248,7 +378,18 @@ aws sts get-caller-identity
 
 이 명령을 실행하면 IAM 사용자에 대한 세부 정보가 반환되며, AWS CLI가 올바르게 구성되었음을 확인할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Serverless Framework으로 배포하기.
 
@@ -258,7 +399,18 @@ aws sts get-caller-identity
 
 Serverless Framework는 서버리스 애플리케이션을 구축하고 배포하는 프로세스를 간단하게 만들어주는 오픈 소스 도구입니다. 이 도구는 클라우드 인프라의 복잡성을 추상화하여 개발자가 애플리케이션 코드 작성에 집중할 수 있도록 도와줍니다. AWS, Azure, Google Cloud와 같은 다양한 클라우드 제공 업체를 지원하며, Serverless Framework는 함수를 배포하고 리소스를 관리하며 애플리케이션을 신속하게 확장하는 일관된 경험을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 가이드에서는 람다 함수를 개발하고 Serverless Framework를 사용하여 리소스를 배포하는 방법을 알아볼 것입니다. 람다에서 데이터베이스를 사용하는 방법, MongoDB 사용, 및 한 람다 큐 워커에서 다른 큐로 메시지를 보내는 등의 주제를 다룰 것입니다.
 
@@ -270,7 +422,18 @@ npm install -g serverless
 
 2. Serverless 서비스 생성: 프로젝트 디렉토리로 이동하여 새로운 Serverless 서비스를 생성하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 터미널에 서버리스 명령을 입력하고 AWS / Node.js / Simple Function 옵션을 선택하세요.
 - 이제 프로젝트 이름을 지정하고 새 앱 만들기 옵션을 선택하여 앱 이름을 지정하면 서버리스 서비스가 생성됩니다.
@@ -280,10 +443,10 @@ npm install -g serverless
 - TriggerQueue 핸들러: 이 핸들러는 트리거 큐에서 메시지를 가져와 메시지에 제공된 트리거 구성과 동일한 워크플로를 찾아 해당하는 작업 집합을 작업 큐에 트리거 데이터와 함께 푸시합니다.
 
 ```js
-'use strict';
+"use strict";
 
-const { MongoClient } = require('mongodb');
-const AWS = require('aws-sdk');
+const { MongoClient } = require("mongodb");
+const AWS = require("aws-sdk");
 const sqs = new AWS.SQS();
 
 const MONGODB_URI = process.env.MONGODB_URI;
@@ -303,19 +466,19 @@ async function connectToDatabase(uri) {
   });
 
   const db = client.db(MONGODB_DB);
-  console.log('Connected to MongoDB');
+  console.log("Connected to MongoDB");
 
   cachedDb = db;
   return db;
 }
 
 const buildQuery = (type, app, metaData) => {
-  const query = { 'trigger.type': type };
+  const query = { "trigger.type": type };
   if (app) {
-    query['trigger.app'] = app;
+    query["trigger.app"] = app;
   }
   if (metaData) {
-    query['trigger.metaData'] = metaData;
+    query["trigger.metaData"] = metaData;
   }
   return query;
 };
@@ -323,11 +486,11 @@ const buildQuery = (type, app, metaData) => {
 module.exports.triggerHandler = async (event) => {
   // 환경 변수 확인
   if (!MONGODB_URI || !MONGODB_DB || !OUTPUT_QUEUE_URL) {
-    console.error('환경 변수가 누락되었습니다');
+    console.error("환경 변수가 누락되었습니다");
     return {
       statusCode: 500,
       body: JSON.stringify({
-        message: '내부 서버 오류',
+        message: "내부 서버 오류",
       }),
     };
   }
@@ -336,11 +499,11 @@ module.exports.triggerHandler = async (event) => {
   try {
     db = await connectToDatabase(MONGODB_URI);
   } catch (error) {
-    console.error('MongoDB에 연결하는 중 오류 발생:', error);
+    console.error("MongoDB에 연결하는 중 오류 발생:", error);
     return {
       statusCode: 500,
       body: JSON.stringify({
-        message: 'MongoDB에 연결하는 중 오류 발생',
+        message: "MongoDB에 연결하는 중 오류 발생",
       }),
     };
   }
@@ -353,7 +516,7 @@ module.exports.triggerHandler = async (event) => {
     try {
       parsedBody = JSON.parse(body);
     } catch (error) {
-      console.error('메시지 본문 구문 분석 오류:', error);
+      console.error("메시지 본문 구문 분석 오류:", error);
       continue; // 다음 메시지로 건너뛰기
     }
 
@@ -361,11 +524,11 @@ module.exports.triggerHandler = async (event) => {
 
     let result;
     try {
-      const collection = db.collection('workflows');
+      const collection = db.collection("workflows");
       const query = buildQuery(type, app, metaData);
       result = await collection.find(query).toArray();
     } catch (error) {
-      console.error('MongoDB 쿼리 중 오류 발생:', error);
+      console.error("MongoDB 쿼리 중 오류 발생:", error);
       continue; // 다음 메시지로 건너뛰기
     }
 
@@ -374,7 +537,7 @@ module.exports.triggerHandler = async (event) => {
         actions: workflow.actions,
         data: data,
       };
-      console.log('전송할 메시지:', MessageBody);
+      console.log("전송할 메시지:", MessageBody);
 
       const params = {
         QueueUrl: OUTPUT_QUEUE_URL,
@@ -383,9 +546,9 @@ module.exports.triggerHandler = async (event) => {
 
       try {
         await sqs.sendMessage(params).promise();
-        console.log('출력 큐로 메시지 전송 완료');
+        console.log("출력 큐로 메시지 전송 완료");
       } catch (error) {
-        console.error('출력 큐로 메시지 보내는 중 오류 발생:', error);
+        console.error("출력 큐로 메시지 보내는 중 오류 발생:", error);
       }
     }
   }
@@ -393,49 +556,60 @@ module.exports.triggerHandler = async (event) => {
   return {
     statusCode: 200,
     body: JSON.stringify({
-      message: '메시지 처리 및 성공적으로 전송됨',
+      message: "메시지 처리 및 성공적으로 전송됨",
     }),
   };
 };
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - ActionsQueue Handler: 이 핸들러는 작업 대기열에서 메시지를 가져와 해당 API를 호출하여 워크플로 작업을 수행합니다.
 
 ```js
-'use strict';
-const axios = require('axios');
+"use strict";
+const axios = require("axios");
 
 const API_SERVER_URL = process.env.API_SERVER_URL;
 
 const handleMessage = async (type, data) => {
   try {
     switch (type) {
-      case 'send_message':
+      case "send_message":
         const messageBody = {
-          from: 'workflow',
+          from: "workflow",
           message: JSON.stringify(data),
         };
         await axios.post(`${API_SERVER_URL}/api/v1/send_message`, messageBody);
-        console.log('메시지 전송 성공');
+        console.log("메시지 전송 성공");
         break;
       default:
-        console.log('알 수 없는 유형:', type);
+        console.log("알 수 없는 유형:", type);
     }
   } catch (error) {
-    console.error('메시지 처리 중 오류:', error);
+    console.error("메시지 처리 중 오류:", error);
   }
 };
 
 const performAction = async (action, data) => {
   const { type, app } = action;
   switch (app) {
-    case 'messaging':
+    case "messaging":
       await handleMessage(type, data);
       break;
     default:
-      console.log('알 수 없는 앱:', app);
+      console.log("알 수 없는 앱:", app);
   }
 };
 
@@ -447,18 +621,18 @@ module.exports.actionsHandler = async (event) => {
     try {
       parsedBody = JSON.parse(body);
     } catch (error) {
-      console.error('메시지 본문 파싱 오류:', error);
+      console.error("메시지 본문 파싱 오류:", error);
       continue; // 다음 레코드로 이동
     }
 
     const { actions, data } = parsedBody;
     for (const action of actions) {
-      console.log('작업 수행 중:', action, data);
+      console.log("작업 수행 중:", action, data);
       try {
         await performAction(action, data);
-        console.log('작업 성공적으로 수행');
+        console.log("작업 성공적으로 수행");
       } catch (error) {
-        console.error('작업 수행 중 오류:', error);
+        console.error("작업 수행 중 오류:", error);
       }
     }
   }
@@ -466,7 +640,7 @@ module.exports.actionsHandler = async (event) => {
   return {
     statusCode: 200,
     body: JSON.stringify({
-      message: '메시지 처리 및 전송 성공',
+      message: "메시지 처리 및 전송 성공",
     }),
   };
 };
@@ -476,7 +650,18 @@ module.exports.actionsHandler = async (event) => {
 
 간단한 용어로 설명하자면:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 기본 정보:
 
@@ -488,7 +673,18 @@ module.exports.actionsHandler = async (event) => {
 
 - serverless-offline: 개발 및 테스트를 위해 서비스를 로컬에서 실행할 수 있도록 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 공급자 구성:
 
@@ -504,7 +700,18 @@ module.exports.actionsHandler = async (event) => {
 - SQS 큐 속성 가져오기
 - SQS로 메시지 전송
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5. 자원:
 
@@ -518,27 +725,49 @@ module.exports.actionsHandler = async (event) => {
 - MONGODB_DB: 환경 변수로부터 가져온 MongoDB 데이터베이스 이름
 - API_SERVER_URL: 환경 변수로부터 가져온 API 서버 URL
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 7. 기능:
 
 - sqsHandler:
-   - Handler: handler.triggerHandler
-   - 트리거: 1개의 배치 크기를 가진 SQS 큐 TriggerQueue
+  - Handler: handler.triggerHandler
+  - 트리거: 1개의 배치 크기를 가진 SQS 큐 TriggerQueue
 - actionsHandler:
-   - Handler: actionsHandler.actionsHandler
-   - 트리거: 1개의 배치 크기를 가진 SQS 큐 ActionsQueue
+  - Handler: actionsHandler.actionsHandler
+  - 트리거: 1개의 배치 크기를 가진 SQS 큐 ActionsQueue
 
 8. 리소스
 
 - TriggerQueue:
-   - 유형: AWS SQS 큐
-   - 이름: trigger_queue
+  - 유형: AWS SQS 큐
+  - 이름: trigger_queue
 - ActionsQueue:
-   - 유형: AWS SQS 큐
-   - 이름: actions_queue
+  - 유형: AWS SQS 큐
+  - 이름: actions_queue
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 org: bhaskarsawant
@@ -609,8 +838,18 @@ resources:
 serverless deploy --region ap-south-1
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![How to Build Scalable Automated Workflows like HubSpot using AWS Lambda SQS Node.js and MongoDB](/assets/img/2024-08-04-HowtoBuildScalableAutomatedWorkflowslikeHubSpotusingAWSLambdaSQSNodejsandMongoDB_4.png)
 
@@ -620,8 +859,18 @@ serverless deploy --region ap-south-1
 
 이 섹션에서는 API를 AWS SQS와 통합하는 방법에 대해 알아보겠습니다. AWS 구성을 위한 헬퍼 파일을 생성하여 AWS SQS에 연결하는 설정을 처리할 것입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## AWS SQS란 무엇인가요?
 
@@ -631,7 +880,18 @@ AWS Simple Queue Service(SQS)는 완전히 관리되는 메시지 대기열 서�
 
 ## AWS Helper 파일 만들기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AWS 구성을 위한 새 파일을 만들어야 합니다. 이 도우미 파일에는 AWS SQS의 구성이 포함될 것입니다.
 
@@ -640,7 +900,7 @@ AWS 구성을 위한 새 파일을 만들어야 합니다. 이 도우미 파일�
 
 ```js
 // AWS SDK 가져오기
-import AWS from 'aws-sdk';
+import AWS from "aws-sdk";
 
 // AWS SQS 구성
 export const sqs = new AWS.SQS({
@@ -653,7 +913,18 @@ export const sqs = new AWS.SQS({
 
 이러한 자격 증명은 AWS CLI 구성 섹션에서 찾을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 핸들러에서 AWS Helper 사용하기
 
@@ -681,7 +952,18 @@ sqs.sendMessage(params, (err, data) => {
 
 서버리스 프레임워크를 사용하여 배포하고 AWS 리소스를 생성한 후,
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AWS 관리 콘솔에 로그인해주세요.
 
@@ -693,18 +975,40 @@ AWS 관리 콘솔에 로그인해주세요.
 - TriggerQueue를 클릭하여 세부 정보를 확인합니다.
 - TriggerQueue의 URL을 찾아 복사해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. 환경 설정 업데이트:
 
-  - 방금 복사한 TriggerQueue의 URL을 AWS_SQS_URL로 환경 설정을 업데이트하세요.
-  - 이 URL은 애플리케이션에서 큐로 메시지를 보내는 데 사용됩니다.
+- 방금 복사한 TriggerQueue의 URL을 AWS_SQS_URL로 환경 설정을 업데이트하세요.
+- 이 URL은 애플리케이션에서 큐로 메시지를 보내는 데 사용됩니다.
 
 5. 통합 테스트:
 
-  - Postman을 사용하여 API 엔드포인트를 호출하여 큐로 메시지를 보내는 것을 시도하여 테스트하세요.
+- Postman을 사용하여 API 엔드포인트를 호출하여 큐로 메시지를 보내는 것을 시도하여 테스트하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-08-04-HowtoBuildScalableAutomatedWorkflowslikeHubSpotusingAWSLambdaSQSNodejsandMongoDB_5.png)
 
@@ -714,7 +1018,18 @@ AWS 관리 콘솔에 로그인해주세요.
 
 API 서버와 람다 함수를 철저히 테스트한 후, 다음 단계는 AWS EC2 인스턴스에 API 서버를 배포하는 것입니다. 원활한 배포 프로세스를 위해 다음 단계를 따라 주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - EC2 인스턴스 시작하기
 
@@ -731,7 +1046,18 @@ API 서버와 람다 함수를 철저히 테스트한 후, 다음 단계는 AWS 
 - EC2 대시보드에서 인스턴스를 선택합니다.
 - 보안 그룹을 클릭하고 인바운드 규칙을 편집하여 포트 8080에서 트래픽을 허용하는 규칙을 추가합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지1](/assets/img/2024-08-04-HowtoBuildScalableAutomatedWorkflowslikeHubSpotusingAWSLambdaSQSNodejsandMongoDB_6.png)
 
@@ -741,7 +1067,18 @@ API 서버와 람다 함수를 철저히 테스트한 후, 다음 단계는 AWS 
 
 - 터미널을 열고 SSH 키에 올바른 권한을 설정하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 chmod 700 Your_SSH_Key.pem
@@ -755,8 +1092,18 @@ ssh -i Your_SSH_Key.pem ubuntu@your-ec2-instance-url
 
 4. 프로젝트 설정하기
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Git 저장소를 복제해 주세요:
 
@@ -777,7 +1124,18 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.0/install.sh | b
 nvm install 20
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 프로젝트 종속성 설치:
 
@@ -791,18 +1149,29 @@ npm install
 
 ```js
 // .env 파일 생성
-vim .env
+vim.env;
 
 // 다음 변수들을 .env 파일에 추가하고 저장한 후 나가기
-MONGODB_URI=your_mongodb_uri
-AWS_SQS_URL=your_trigger_sqs_queue_url
-AWS_ACCESS_KEY_ID=your_aws_access_key_id
-AWS_SECRET_ACCESS_KEY=your_aws_secret_access_key
-AWS_REGION=your_aws_region
-AWS_API_VERSION=latest
+MONGODB_URI = your_mongodb_uri;
+AWS_SQS_URL = your_trigger_sqs_queue_url;
+AWS_ACCESS_KEY_ID = your_aws_access_key_id;
+AWS_SECRET_ACCESS_KEY = your_aws_secret_access_key;
+AWS_REGION = your_aws_region;
+AWS_API_VERSION = latest;
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 서버를 시작하세요:
 
@@ -813,12 +1182,23 @@ npm start
 - 브라우저에서 서버를 방문해보세요:
 
 ```js
-http://your_ec2_domain:8080 
+http://your_ec2_domain:8080
 
 // 예: http://ec2-54-81-243-55.compute-1.amazonaws.com:8080/
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 서버를 성공적으로 설정한 후 람다 함수의 환경 변수에 API URL을 업데이트하고 다음 명령을 사용하여 업데이트된 서버리스 서비스를 배포하세요.
 
@@ -831,7 +1211,18 @@ serverless deploy --region ap-south-1
 - Postman을 사용하여 양식을 제출하세요.
 - 제출한 양식이 메시지 MongoDB 컬렉션 내에 생성되는지 확인하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이를 실제로 확인해 봅시다. 😄
 
@@ -841,7 +1232,18 @@ serverless deploy --region ap-south-1
 
 # 확장성.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주어진 아키텍처가 확장 가능하다면, 몇 가지 개선 사항과 추가 사항을 통해 효율성과 성능을 향상시킬 수 있습니다. 이러한 개선 사항을 탐색하고 효과적으로 구현하는 방법에 대해 알아봅시다.
 
@@ -854,7 +1256,18 @@ serverless deploy --region ap-south-1
 
 ## 오토스케일링 그룹
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 문제: 부하가 증가함에 따라 수동으로 스케일링하는 것은 비효율적일 수 있고 다운타임을 초래할 수 있습니다.
 - 해결책: 수요에 따라 EC2 인스턴스 수를 자동으로 조정하는 오토스케일링 그룹을 구현하세요. 이를 통해 응용 프로그램이 변화하는 부하를 효율적으로 처리할 수 있습니다.
@@ -868,7 +1281,18 @@ serverless deploy --region ap-south-1
 
 추가로 확장성을 향상시키는 다른 방법을 찾거나 구현 중 문제가 발생하면 언제든지 의견을 남기거나 저에게 연락해 주세요. 여러분의 피드백은 모두에게 도움이 되며 매우 감사히 받겠습니다. 저는 항상 제안에 열려 있고 도와드릴 준비가 되어 있습니다! 추가로 코드베이스에 개선 사항을 기여해 주세요. 여러분의 기여는 가치 있고 환영받습니다! 😊
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 더 많은 통찰력을 위해 팔로우하세요
 
@@ -880,7 +1304,18 @@ serverless deploy --region ap-south-1
 - LinkedIn: https://www.linkedin.com/in/bhaskar-sawant/
 - GitHub: https://github.com/bhaskarcsawant
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 많은 기사를 기대해주세요. 궁금한 점이 있거나 추후 주제에 대한 제안이 있다면 언제든지 연락해 주세요.
 

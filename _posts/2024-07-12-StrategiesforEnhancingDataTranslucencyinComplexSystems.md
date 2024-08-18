@@ -3,17 +3,13 @@ title: "복잡한 시스템에서 데이터 투명성을 향상시키는 전략 
 description: ""
 coverImage: "/assets/img/2024-07-12-StrategiesforEnhancingDataTranslucencyinComplexSystems_0.png"
 date: 2024-07-12 23:25
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-StrategiesforEnhancingDataTranslucencyinComplexSystems_0.png
 tag: Tech
 originalTitle: "Strategies for Enhancing Data Translucency in Complex Systems"
 link: "https://medium.com/ai-mind-labs/strategies-for-enhancing-data-translucency-in-complex-systems-c9286ad2ff99"
 isUpdated: true
 ---
-
-
-
-
 
 ## 소개
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## 시스템에서 투명성의 중요성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시스템 내의 투명성은 사용자가 내부 프로세스의 일부 관찰을 토대로 시스템의 행동과 결과를 얼마나 이해하고 예측할 수 있는지를 나타냅니다. 모든 내부 작동 과정을 모두 드러내는 투명한 시스템과는 달리, 투명성 있는 시스템은 이해당사자들이 신뢰성, 효과성 및 공정성을 평가할 수 있을 만큼의 운영 과정을 선별적으로 제공하여 정보를 지나치게 제공하거나 독점적이거나 민감한 데이터를 침해하지 않으면서 운영됩니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ## 데이터 투명성 달성 전략
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 투명성 확보를 위해서는 통찰력의 필요성과 정보 과부하 및 노출의 위험을 균형 있게 고려해야 합니다. 다음은 적용할 수 있는 몇 가지 전략입니다:
 
@@ -47,7 +65,18 @@ isUpdated: true
 
 ## 코드
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 투명한 시스템을 만들기 위한 개념을 설명하는 완전한 Python 코드 예제를 만드는 것에는 몇 가지 단계가 필요합니다. 우리는 합성 데이터 집합을 생성하고, 간단한 예측 모델을 개발할 것입니다 (투명하지 않은 시스템의 예로), 시스템의 작동을 보다 투명하게 만드는 파이프라인을 구현하고, 그리고 시스템의 행동과 성능을 평가하고 설명하기 위해 지표와 플롯을 사용할 것입니다. 이 예제는 합성 데이터를 사용한 분류 문제에 초점을 맞출 것입니다.
 
@@ -70,7 +99,18 @@ df['target'] = y
 df.head()
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Step 2: 예언 모델 구축하기
 
@@ -92,7 +132,18 @@ pipeline.fit(X_train, y_train)
 
 Step 3: 시스템을 반투명하게 만드는 것
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 모델을 더 투명하게 만들기 위해, 모델의 의사 결정 프로세스에 통찰력을 제공하는 기능을 구현할 것입니다. 이를 달성하기 위해 특성 중요도를 활용할 것입니다.
 
@@ -113,7 +164,18 @@ print(feature_importance)
 
 마지막으로, 정확도를 사용하여 모델의 성능을 평가하고, 플롯을 통해 어떤 특성이 모델의 예측에 가장 영향을 주는지 시각화할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 from sklearn.metrics import accuracy_score, confusion_matrix, ConfusionMatrixDisplay
@@ -165,7 +227,18 @@ Accuracy: 0.88
 
 ![StrategiesforEnhancingDataTranslucencyinComplexSystems](/assets/img/2024-07-12-StrategiesforEnhancingDataTranslucencyinComplexSystems_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째 이미지는 혼동 행렬(Confusion Matrix)입니다. 이는 분류 알고리즘의 성능을 나타내는 표로, 실제 값이 알려진 테스트 데이터에 대한 성능을 설명하는 데 사용됩니다.
 
@@ -178,7 +251,18 @@ Accuracy: 0.88
 
 ![이미지](/assets/img/2024-07-12-StrategiesforEnhancingDataTranslucencyinComplexSystems_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 번째 이미지는 피처 중요도 플롯입니다. 모델의 입력인 피처들이 목표 변수를 예측하는 데 중요도에 따라 순위가 매겨진다. 이 막대 차트에서:
 
@@ -192,7 +276,18 @@ Accuracy: 0.88
 
 ## 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **AI Mind로부터의 메시지**
 
@@ -200,7 +295,18 @@ Accuracy: 0.88
 
 우리 커뮤니티에 참여해 주셔서 감사합니다! 떠나시기 전에:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 👏 스토리에 박수를 치며 작가를 팔로우하기 👉
 - 📰 AI Mind Publication에서 더 많은 콘텐츠 보기

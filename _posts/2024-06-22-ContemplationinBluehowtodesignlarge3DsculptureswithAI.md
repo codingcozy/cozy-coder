@@ -3,17 +3,13 @@ title: "파란색의 사색 AI로 대형 3D 조각 설계하는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-22-ContemplationinBluehowtodesignlarge3DsculptureswithAI_0.png"
 date: 2024-06-22 18:27
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-ContemplationinBluehowtodesignlarge3DsculptureswithAI_0.png
 tag: Tech
 originalTitle: "Contemplation in Blue: how to design large 3D sculptures with AI"
 link: "https://medium.com/user-experience-design-1/contemplation-in-blue-how-to-design-large-3d-sculptures-with-ai-92e50a923c3a"
 isUpdated: true
 ---
-
-
-
-
 
 몇 달 전에 AI를 사용하여 3D로 출력할 수 있는 물건을 만드는 방법에 대해 Medium 기사를 작성했어요. 사용한 프린터의 제약으로 인해, 그 프로젝트에서 출력한 가장 큰 조각은 7인치 높이였어요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # AI로 조각 디자인하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시작하려면 OpenAI의 DALL·E 3 이미지 생성기와 통합된 ChatGPT Plus 계정에 로그인했어요. 서비스의 플러스 버전은 매달 20달러에요.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 내가 만든 첫 번째 이미지는 멋있게 나왔어요! 시스템은 내가 요청한 대로 정확히 처리했어요. 심지어 조각상 앞에 작은 설명 태그까지 달았는데 읽기 어려워요. 여기 응답 내용이에요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도움이 되었군요. 이미지를 클릭하면 작은 정보 상자가 나타나는 것 같아요.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 # 2D 이미지를 3D 모델로 변환
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 다음 단계는 이미지를 3D 모델로 변환하는 것이었습니다. '3dmaker.ai'라는 사이트를 사용하여 DALL·E 3 이미지를 3D 모델로 변환했어요. '업데이트: 사이트가 다운된 것으로 보입니다. 사이트가 온라인으로 돌아오면 알려드릴게요.' 간단한 그림을 변환하는 데 25달러가 드는데, 이번에는 복잡성 때문에 40달러가 들었습니다. 사용자 인터페이스, 입력 이미지, 그리고 결과물 3D 모델이 여기 있어요.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 # Blender에서 모델 조정하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Blender은 자유롭고 오픈 소스인 3D 모델링 애플리케이션으로, 다양한 플랫폼을 제공하여 3D 모델을 디자인하고 조정할 수 있는 다재다능한 환경을 제공합니다. Blender의 다양한 도구들은 단순한 편집부터 복잡한 변환까지 세밀한 수정이 가능하도록 해줍니다. Blender를 사용하면 사용자들은 효과적으로 모델을 조각, 질감을 입히고 렌더링할 수 있어 3D 아티스트와 디자이너들에게 귀중한 도구가 됩니다. Blender의 사용자 인터페이스는 조금 복잡해서 때로는 적절한 작업을 찾는 데 어려움을 겪을 수 있습니다. 그러나 웹 상에는 많은 자습서가 있어 안내를 제공합니다.
 
@@ -63,7 +103,18 @@ Blender은 자유롭고 오픈 소스인 3D 모델링 애플리케이션으로, 
 
 ![이미지](/assets/img/2024-06-22-ContemplationinBluehowtodesignlarge3DsculptureswithAI_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특정 얼굴 부위에 감소 변형기를 사용한 결과입니다.
 
@@ -73,7 +124,18 @@ Blender은 자유롭고 오픈 소스인 3D 모델링 애플리케이션으로, 
 
 제가 언급한 대로, 생성된 3D 모델의 귀는 다소 이상했어요. 그래서 TurboSquid.com에서 무료 모델을 사용하여 교체했어요. TurboSquid.com은 상업적 및 오픈 소스 모델을 제공하는 온라인 시장이에요. 여기 무료 인간 귀 모델 검색 결과가 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![ContemplationinBluehowtodesignlarge3DsculptureswithAI_1](/assets/img/2024-06-22-ContemplationinBluehowtodesignlarge3DsculptureswithAI_1.png)
 
@@ -83,15 +145,37 @@ Blender은 자유롭고 오픈 소스인 3D 모델링 애플리케이션으로, 
 
 ## 블렌더에서 플러그인 가능한 부품 디자인하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-내 3D 프린터의 빌드 영역이 7x7x7 인치 또는 180x180x180 밀리미터이기 때문에 작은 부품을 인쇄하고 연결하는 방법을 고안해야 했습니다. 이에 대해 조사해본 결과 돗재일과 기타 인터락킹 접합 기술이 존재한다는 것을 알게 되었습니다. 그리고 항상 접착제를 사용할 수도 있었지만, 이런 방법들은 너무 "영구적"으로 느껴졌습니다. 저는 조금 더 직관적인 "막대와 구멍" 방식을 실험해본 결과, 부품들을 밀어 넣고 빼는 것이 너무 느슨하지도 너무 꽉 막히지도 않게 되었습니다. 인쇄된 연결 부분들의 허용치를 이해하기 위해 작은 부분들로 실험해보았습니다. 여기에는 Blender에서 제작된 시험용 출력물과 인쇄된 부품이 포함되어 있습니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-PLA를 사용할 때 수직 플러그에 대한 적절한 허용치는 0.3mm이고, 수평 플러그에 대한 허용치는 0.4mm입니다. 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+내 3D 프린터의 빌드 영역이 7x7x7 인치 또는 180x180x180 밀리미터이기 때문에 작은 부품을 인쇄하고 연결하는 방법을 고안해야 했습니다. 이에 대해 조사해본 결과 돗재일과 기타 인터락킹 접합 기술이 존재한다는 것을 알게 되었습니다. 그리고 항상 접착제를 사용할 수도 있었지만, 이런 방법들은 너무 "영구적"으로 느껴졌습니다. 저는 조금 더 직관적인 "막대와 구멍" 방식을 실험해본 결과, 부품들을 밀어 넣고 빼는 것이 너무 느슨하지도 너무 꽉 막히지도 않게 되었습니다. 인쇄된 연결 부분들의 허용치를 이해하기 위해 작은 부분들로 실험해보았습니다. 여기에는 Blender에서 제작된 시험용 출력물과 인쇄된 부품이 포함되어 있습니다.
+
+PLA를 사용할 때 수직 플러그에 대한 적절한 허용치는 0.3mm이고, 수평 플러그에 대한 허용치는 0.4mm입니다.
 
 수평 플러그에 대한 더 큰 0.4mm 허용치는 3D 프린터의 Z축이 X축과 Y축보다 정확도가 낮기 때문입니다. 층 적재로 인해 높이에 약간의 불일치가 발생하면서 정밀도가 낮아지기 때문입니다. 수평 플러그에 대한 더 큰 0.4mm 허용치는 이러한 정확성 부족을 보상하며, 너무 꽉 막히거나 너무 느슨하지 않게 매끄럽게 맞게 해줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 0.3mm의 허용치를 갖는 인쇄물 세트입니다. 핀의 지름은 10.0mm이고 구멍의 지름은 10.3mm입니다.
 
@@ -101,7 +185,18 @@ PLA를 사용할 때 수직 플러그에 대한 적절한 허용치는 0.3mm이�
 
 ## Blender를 사용하여 모델을 작은 부분으로 분해하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 원래 모델은 별도의 객체로 생성되어 있어 조각을 중간 크기로 나누는 것이 꽤 쉬웠어요. Blender에는 물체의 높이, 너비 및 길이를 밀리미터로 보여주는 기능이 있어서 인쇄를 위해 180 x 180 x 180 큐브 안에 들어맞는 인접한 물체를 결합했어요. 하나의 물체 크기를 가져오는 내장 함수는 작동하지 않았기 때문에 여러 개의 물체 크기 범위를 출력하기 위해 작은 Python 코드를 작성했어요. 이것이 코드에요.
 
@@ -111,7 +206,18 @@ PLA를 사용할 때 수직 플러그에 대한 적절한 허용치는 0.3mm이�
 
 <img src="/assets/img/2024-06-22-ContemplationinBluehowtodesignlarge3DsculptureswithAI_3.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 부품 출력하기
 
@@ -121,7 +227,18 @@ Bambu 프린터는 성능이 훌륭해요! 어떤 중요한 문제도 발생하�
 
 ## 슬라이서 소프트웨어
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내가 사용한 슬라이서 소프트웨어는 Bambu Studio라고 불리며 PrusaResearch의 PrusaSlicer를 기반으로 합니다. Blender에서 STL 파일 형식을 사용하여 부품들을 내보냈습니다. Bambu Studio에서는 "슬라이싱"하기 전에 조각을 보고 다양한 옵션을 조정할 수 있었습니다.
 
@@ -131,7 +248,18 @@ Bambu 프린터는 성능이 훌륭해요! 어떤 중요한 문제도 발생하�
 
 일반적인 서포트는 상자 모양이며 지그재그 패턴으로 구성되어 있습니다. 트리 서포트는 더 간소하고 유기적이며 멋져 보입니다! 😀
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나무 지지대를 사용하는 것이 일반적으로 더 좋습니다. 왜냐하면 더 적은 재료를 사용하여 더 빨리 인쇄할 수 있고 더 쉽게 분리할 수 있으며 작품에 더 적은 흔적을 남기기 때문입니다. 위 이미지에서 보이듯이 일반 지지대는 아래의 외부 표면에 부착되었지만, 나무 지지대는 빌드 플레이트에만 부착되었습니다. 나무 지지대를 사용하여 인쇄한 후에는 이 얼굴 부분이 어떻게 보였는지 아래에 나와 있습니다.
 
@@ -141,7 +269,18 @@ Bambu 프린터는 성능이 훌륭해요! 어떤 중요한 문제도 발생하�
 
 출력 과정 중 두 가지 작은 문제가 있었습니다. 일부 큰 정사각형 조각에는 바닥 모서리에 약간의 결함이 있었습니다. 이 "모서리 말림"은 기본 부위에 부착이 부족하여 발생합니다. 인쇄하기 전 빌드 플레이트에 롤온 접착제를 바르고 사용함으로써 이 문제를 최소화했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 왼쪽 조각은 접착제를 사용하지 않고 인쇄되어, 왼쪽 아래 모서리가 말린 문제가 나타났어요. 제가 빌드 플레이트에 프린터 접착제를 바르고 두 번째로 조각을 인쇄했더니, 모서리에는 약간의 문제가 있었지만 훨씬 나아 보입니다.
 
@@ -151,7 +290,18 @@ Bambu 프린터는 성능이 훌륭해요! 어떤 중요한 문제도 발생하�
 
 총 22개의 조각을 인쇄하는 데 약 두 주가 걸렸어요. 각 조각은 3에서 10시간이 걸렸고, 총 7개의 필라멘트 릴을 사용했어요. 머리 부분의 두 개의 내부 조각에는 검은색 PLA 필라멘트를 사용하기로 선택했어요. 이들은 외부에서는 보이지 않아요. 이것이 조립되지 않은 최종 조각들이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 부품들은 모두 쉽게 맞물려져서 끝에 만족스러운 찰칵 소리가 납니다. 분해하는 것도 쉬운데, 하나씩 한 번에 슬라이드하여 살짝 힘을 주면 됩니다. 여기 조각이 어떻게 조립되는지 보여주는 GIF 애니메이션이 있어요.
 
@@ -161,7 +311,18 @@ Bambu 프린터는 성능이 훌륭해요! 어떤 중요한 문제도 발생하�
 
 난 기구 예술 자료인 Blick Art Materials에서 흰색 화가 패널을 샀어. 이 피닉스의 바닥에 있는 네 개의 파란 블록을 고정하기 위해 패널에 네 개의 나사를 부착했어.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 파란색 사색
 
@@ -171,7 +332,18 @@ Bambu 프린터는 성능이 훌륭해요! 어떤 중요한 문제도 발생하�
 
 # 최종 생각들
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 프로젝트는 AI 지원 디자인 및 3D 프린팅의 실용적인 응용을 보여 주었습니다. "블루 컨템플레이션"은 현대 기술이 복잡하고 정확한 구성을 가능하게 하는 것을 보여 줍니다. 앞으로는 다른 소재와 규모를 실험하고 더 복잡한 조립 기술을 탐구할 계획입니다. 창의적인 과정에 AI를 계속 통합하는 것은 미래 프로젝트에 대한 다양한 가능성을 제공합니다.
 
@@ -181,7 +353,18 @@ Bambu 프린터는 성능이 훌륭해요! 어떤 중요한 문제도 발생하�
 
 ![이미지](/assets/img/2024-06-22-ContemplationinBluehowtodesignlarge3DsculptureswithAI_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 감사의 말씀
 

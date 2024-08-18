@@ -3,17 +3,13 @@ title: "LeetCode 1460 서브배열을 뒤집어 두 배열을 동일하게 만�
 description: ""
 coverImage: "/assets/img/2024-08-04-LeetCode1460MakeTwoArraysEqualbyReversingSubarraysEasyMetaInterviewQuestion_0.png"
 date: 2024-08-04 18:33
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-04-LeetCode1460MakeTwoArraysEqualbyReversingSubarraysEasyMetaInterviewQuestion_0.png
 tag: Tech
 originalTitle: "LeetCode 1460 Make Two Arrays Equal by Reversing SubarraysEasy Meta Interview Question"
 link: "https://medium.com/@fatmaerturk/leetcode-1460-make-two-arrays-equal-by-reversing-subarrays-easy-meta-interview-question-7dbf3d211419"
 isUpdated: true
 ---
-
-
-
-
 
 두 개의 정수 배열인 target과 arr가 주어졌습니다. 두 배열의 길이는 같습니다. 한 번에 arr의 비어있지 않은 하위 배열을 선택하여 뒤집을 수 있습니다. 원하는 만큼 많은 단계를 수행할 수 있습니다.
 
@@ -31,7 +27,18 @@ Explanation: arr을 target으로 변환하기 위해 다음 단계를 수행할 
 arr을 target으로 변환할 수 있는 여러 방법이 있습니다. 이것이 유일한 방법은 아닙니다.
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시 2:
 
@@ -49,7 +56,18 @@ arr을 target으로 변환할 수 있는 여러 방법이 있습니다. 이것�
 설명: arr에는 값 9가 없고, target으로 변환할 수 없다.
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제약 조건:
 
@@ -73,17 +91,28 @@ class Solution {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 function canBeEqual(target: number[], arr: number[]): boolean {
-    target.sort((a, b) => a - b);
-    arr.sort((a, b) => a - b);
-    for(let i=0; i<target.length; i++){
-        if(target[i] != arr[i]) return false;
-    }
-    return true;
-};
+  target.sort((a, b) => a - b);
+  arr.sort((a, b) => a - b);
+  for (let i = 0; i < target.length; i++) {
+    if (target[i] != arr[i]) return false;
+  }
+  return true;
+}
 ```
 
 배열 target 및 arr의 크기를 N이라고 합시다.
@@ -92,7 +121,17 @@ function canBeEqual(target: number[], arr: number[]): boolean {
 
 공간 복잡도: O(logN)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-08-04-LeetCode1460MakeTwoArraysEqualbyReversingSubarraysEasyMetaInterviewQuestion_0.png)

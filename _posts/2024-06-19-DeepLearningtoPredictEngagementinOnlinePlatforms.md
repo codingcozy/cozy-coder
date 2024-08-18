@@ -3,18 +3,13 @@ title: "온라인 플랫폼에서 참여 예측을 위한 딥 러닝"
 description: ""
 coverImage: "/assets/img/2024-06-19-DeepLearningtoPredictEngagementinOnlinePlatforms_0.png"
 date: 2024-06-19 06:44
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-DeepLearningtoPredictEngagementinOnlinePlatforms_0.png
 tag: Tech
 originalTitle: "Deep Learning to Predict Engagement in Online Platforms"
 link: "https://medium.com/towards-data-science/deep-learning-to-predict-engagement-in-online-platforms-dfd79515b85e"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![image](/assets/img/2024-06-19-DeepLearningtoPredictEngagementinOnlinePlatforms_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 이 문맥에서 참여는 이전 행동을 고려할 때 플랫폼의 미래 사용을 예측할 수 있는지 여부입니다. 이는 여러 형태로 나타날 수 있습니다, 예를 들면:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 시간 기준 내에서 완료할 작업의 예상 수
 - 현재 작업 세션에서 머무를 시간의 양
@@ -36,7 +41,18 @@ isUpdated: true
 
 이 정의는 유연성과 Zooniverse, StackOverflow 및 Coursera에서의 이전 사용을 위해 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 접근 방식의 주의 사항 중 하나는 생산적인 온라인 시스템의 한 속성인 플랫폼 시간만을 예측한다는 것입니다. 예를 들어, 올바른 기여를 하는 동기부여된 참여자들을 갖는 것은 고려되지 않습니다. 온라인 시스템에 참여하는 동기를 측정하는 것은 활발한 연구 분야입니다. 심리적 상태인 좌절감과 이해도와 같은 것들이 학습되어 맞춤형 교육 개입에 활용될 수 있는 잠재적인 작업이 있습니다.
 
@@ -46,21 +62,30 @@ Zooniverse는 친철하게 2021년 10월 19일에서 2022년 8월 14일까지 �
 
 원시 데이터 세트에는 다음과 같은 열이 포함되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-| Column Name |               Column Desc               | Column Type |
-|-------------|-----------------------------------------|-------------|
-| id          | 클릭스트림 항목을 식별하는 고유 식별자  | bigint      |
-| user_id     | 사용자를 식별하는 고유 식별자           | bigint      |
-| project_id  | 프로젝트를 식별하는 고유 식별자         | bigint      |
-| workflow_id | 워크플로우를 식별하는 고유 식별자       | bigint      |
-| subject_ids | 고유한 작업 식별자                      | bigint      |
-| country     | 국가 이름                               | str         |
-| latitude    | 국가 위도                               | float       |
-| longitude   | 국가 경도                               | float       |
-| timestamp   | 클릭스트림 타임스탬프                   | bigint      |
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
+| Column Name | Column Desc                            | Column Type |
+| ----------- | -------------------------------------- | ----------- |
+| id          | 클릭스트림 항목을 식별하는 고유 식별자 | bigint      |
+| user_id     | 사용자를 식별하는 고유 식별자          | bigint      |
+| project_id  | 프로젝트를 식별하는 고유 식별자        | bigint      |
+| workflow_id | 워크플로우를 식별하는 고유 식별자      | bigint      |
+| subject_ids | 고유한 작업 식별자                     | bigint      |
+| country     | 국가 이름                              | str         |
+| latitude    | 국가 위도                              | float       |
+| longitude   | 국가 경도                              | float       |
+| timestamp   | 클릭스트림 타임스탬프                  | bigint      |
 
 Zooniverse의 계층 구조에서 각 행은 다음 거래를 나타냅니다.
 
@@ -70,25 +95,44 @@ Zooniverse의 계층 구조에서 각 행은 다음 거래를 나타냅니다.
 
 <img src="/assets/img/2024-06-19-DeepLearningtoPredictEngagementinOnlinePlatforms_2.png" />
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 특성 선택
 
 데이터에는 약 38,500,990개의 고유 이벤트가 포함되어 있습니다. 서로 다른 지역별 이벤트 분포는 다음과 같습니다:
 
-
-| 국가명        | 백분율     |
-|---------------|------------|
-| 핀란드         | 59.4       |
-| 미국           | 25.5       |
-| 싱가포르       | 10.8       |
-| 중국           | 4.3        |
-
+| 국가명   | 백분율 |
+| -------- | ------ |
+| 핀란드   | 59.4   |
+| 미국     | 25.5   |
+| 싱가포르 | 10.8   |
+| 중국     | 4.3    |
 
 위도와 경도는 국가 정보를 중복해서 나타내므로 제거되었습니다. 주제 ID 및 작업 ID도 제거되었는데, 이 정보의 세분화가 참여 패턴 학습에 기여하지 않았기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 연구에서는 이전 연구에서 강조된 주요 변수가 부족했습니다. 예를 들어, Semenov et al.은 로그인한 사용자들이 더 오랜 시간 동안 작업하고 작업 세션에 대해 더 높은 투자 수준을 나타내는 것으로 발견했습니다. 또한, Mao et al.은 투표 엔트로피가 감소하는 경우, 사용자가 목록에서 반복해서 동일한 옵션을 선택하는 것이 지루함과 참여하지 않음의 유용한 대리자로 작용할 수 있다고 밝혀냈습니다. 이러한 연구 결과는 사용자 참여도를 효과적으로 측정할 수 있는데 사용자 로그인 상태와 투표 패턴을 통해 이를 할 수 있음을 시사했으며, 이러한 측면들이 우리의 현재 분석에는 고려되지 않았습니다.
 
@@ -102,7 +146,18 @@ Zooniverse의 계층 구조에서 각 행은 다음 거래를 나타냅니다.
 
 ![image](/assets/img/2024-06-19-DeepLearningtoPredictEngagementinOnlinePlatforms_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # **The Feature Long Tail**
 
@@ -112,8 +167,18 @@ Zooniverse 및 Coursera, StackOverflow, Snap과 같은 다른 온라인 플랫�
 
 많은 사용자에게 시간 순서 채널은 중복될 수 있습니다. 사용자가 단 한 번의 세션만 완료하는 경우, 과거 세션 계산은 일정한 0으로 유지됩니다. 마찬가지로 세션 간 시간과 같은 채널의 경우, 사용자가 두 번의 세션만 완료하는 경우, 과거 세션 채널은 첫 번째 세션에 대해서는 0으로 일정하게 유지되거나 이전 세션 통계의 일정한 값이 될 것입니다. 이 중복성은 드물게 사용하는 사용자에게는 이러한 메트릭이 의미 있는 통찰력을 제공하지 않을 수 있으며, 참여를 효과적으로 평가하기 위해 대안적인 측정 방법이 필요할 수 있다는 것을 시사합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-19-DeepLearningtoPredictEngagementinOnlinePlatforms_4.png)
 
@@ -123,8 +188,18 @@ Therefore, it was important to design experiments that enabled differentiation b
 
 # Experiments
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실험 결과 다음 질문에 대한 대답을 제공했습니다. 사용자의 클릭 스트림에 기록된 항목이 주어졌을 때 사용자가 10, 20 또는 30분 동안 계속 작업을 할 것인가?
 
@@ -134,7 +209,18 @@ Therefore, it was important to design experiments that enabled differentiation b
 
 사용자 세션 창을 통해 이러한 함수를 쌓는 과정에서, 모델이 세션 통계, 사용자 동작 변화 및 예상된 참여 사이의 관계를 학습할 수 있을 것으로 기대했습니다¹.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 질문에 대답하려고 실험을 진행했습니다:
 
@@ -145,7 +231,18 @@ Therefore, it was important to design experiments that enabled differentiation b
 
 사용자가 현재 세션에서 계속 작업하는지 여부는 이진적입니다. 따라서 RandomForest를 구성하고 LSTM 매개변수 최적화를 위해 유전 알고리즘과 경사 하강법을 적용할 수 있었고, 바이너리 크로스 엔트로피를 사용하여 꼭 맞추었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일괄 처리된 N개의 관측치에 대한 손실 함수는 다음과 같습니다:
 
@@ -155,7 +252,18 @@ Therefore, it was important to design experiments that enabled differentiation b
 
 # 구현
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터는 타임스탬프에 따라 정렬되고 훈련, 테스트 및 평가 파티션으로 분할되었습니다. 이미지 분류 실험과는 달리 시계열 관측 사이의 관계가 중요하기 때문에 데이터를 섞으면 시퀀스의 일관성이 깨질 수 있습니다. 따라서 데이터를 섞으면 훈련에 후속 관측사항이 포함될 수 있습니다. 예를 들어, 모델이 작업 세션이 10분만 계속된다는 정보를 받기 전에 작업 세션의 1분과 2분의 관측을 받는다면 결과적으로 선견지명을 얻을 수 있습니다.
 
@@ -163,7 +271,18 @@ Therefore, it was important to design experiments that enabled differentiation b
 
 첫 번째의 출력이 두 번째로 전파되는 두 개의 LSTM 네트워크를 쌓는 것이 가장 성능이 좋았습니다. 두 번째 레이어는 선형 레이어를 따라, 기능을 하나의 대상 변수로 변환하여 사용자의 세션 지속 확률을 정의했습니다. 최종 선형 레이어 다음의 엔트로피에서 역전파가 계산되었고, 이를 통해 네트워크 전체의 가중치가 업데이트되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결과
 
@@ -173,7 +292,18 @@ Therefore, it was important to design experiments that enabled differentiation b
 
 결과는 장기적 예측에서 일반적으로 더 일관성있게 나타납니다. 정밀도는 검증 데이터셋에서 68%에서 70%로, 테스트 데이터셋에서 71%에서 74%로 범위가 확장됩니다. 모든 창에서 재현율은 57%에서 59%까지 범위가 확장됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단기 행동을 예측하는 실험들은 데이터 윈도우의 크기에 민감합니다. 10분 동안의 실험에서, 검증 데이터셋의 정밀도는 64%에서 80%로 범위가 나타나며, 테스트 데이터셋의 경우 66%에서 89%까지 변동합니다. 재현율은 89%에서 30%까지 범위가 나타나며, 최적의 균형을 얻으려면 20개에서 30개의 이벤트 윈도우를 사용하는 것이 좋습니다.
 
@@ -183,7 +313,18 @@ Therefore, it was important to design experiments that enabled differentiation b
 
 ![Image 9](/assets/img/2024-06-19-DeepLearningtoPredictEngagementinOnlinePlatforms_9.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모델의 다양한 행동 양상은 짧은, 중간, 그리고 장기적인 참여를 예측하는 것이 서로 다른 접근 방식이 필요한 다른 도전이라는 것을 보여줍니다. 더 높은 정밀도는 단기적으로 참여하는 사용자를 놓치지 않을 가능성을 보여줍니다. 그러나 장기간의 참여가 떨어질 것으로 예측하는 것은 더 어려운 과제입니다.
 
@@ -195,7 +336,18 @@ Therefore, it was important to design experiments that enabled differentiation b
 - 플랫폼과 세션 전체 이벤트 수.
 - 이전 세션 통계.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **사용자 세그먼트별 평가**
 
@@ -205,7 +357,18 @@ Therefore, it was important to design experiments that enabled differentiation b
 
 ![이미지](/assets/img/2024-06-19-DeepLearningtoPredictEngagementinOnlinePlatforms_10.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기존 온라인 플랫폼 연구와 일관성 있는 결과를 보여주었으며, 최소한의 히스토리로 사용자에 대한 추론의 어려움을 보여줍니다. 이는 사용자 행동에 대한 우리 이전 분석을 뒷받침합니다.
 
@@ -213,7 +376,18 @@ Therefore, it was important to design experiments that enabled differentiation b
 
 사용자의 역사가 거의 없는 사용자 행동을 예측하는 어려움이 분명합니다. 사용자가 5회 세션을 완료하거나 세션이 40분을 초과하면 성능이 일반적으로 향상되며, 가장 안정적인 결과는 20~30 이벤트의 데이터 창을 포함합니다. 이 정보는 Zooniverse 및 다른 온라인 플랫폼의 행동 예측 모델을 개선하는 데 도움이 될 수 있습니다. 모델이 빈번한 기여자에게는 효과적이지 않으므로, 이 그룹의 참여 증가를 위한 개입 시기를 결정하는 데 사용해서는 안 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -223,7 +397,18 @@ Therefore, it was important to design experiments that enabled differentiation b
 
 두 번째 제한은 극복하기 어렵습니다. 최소한의 데이터로 사용자에 대해 일반화하는 것은 어렵습니다. 대부분의 Zooniverse 사용자가 단기적이거나 "관심을 끄는 사람"이기 때문에 Zooniverse에서 행동을 모델링하는 것은 도전적입니다. 최소한의 경험이있는 사용자에 대한 모델의 한계를 밝히고 설명하는 것은 이전 데이터 분석과 플랫폼 사용 방법 조사만이 가능합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-DeepLearningtoPredictEngagementinOnlinePlatforms_12.png" />
 
@@ -233,6 +418,17 @@ Therefore, it was important to design experiments that enabled differentiation b
 
 # 각주
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - LSTMs가 어떻게 작동하는지 멋진 설명을 찾으려면 Colah의 LSTMs에 대한 블로그 포스트를 확인하시기를 추천합니다. LSTMs의 역전파 알고리즘을 이해하고 싶다면 Goodfellow Et Al의 "Deep Learning"의 10장을 살펴보시는 걸 추천드립니다.

@@ -3,17 +3,13 @@ title: "애플 팬도 관심 가질 만한 처음으로 진짜 흥미로운 안�
 description: ""
 coverImage: "/assets/img/2024-07-13-TheFirstTrulyExcitingAndroidPhoneThatEvenAppleFansShouldConsider_0.png"
 date: 2024-07-13 00:29
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-TheFirstTrulyExcitingAndroidPhoneThatEvenAppleFansShouldConsider_0.png
 tag: Tech
 originalTitle: "The First Truly Exciting Android Phone That Even Apple Fans Should Consider"
 link: "https://medium.com/@attilavago/the-first-truly-exciting-android-phone-that-even-apple-fans-should-consider-9ef205d678ae"
 isUpdated: true
 ---
-
-
-
-
 
 Foldables나 폴더형 휴대전화는 잊어버리세요. 플라스틱 화면을 접거나 중간에 주름이 생기는 것을 좋아한다면 멋지겠죠. 그러나 한국에 계신다면, 이들이 요즘 사람들이 소유하는 전화 중 거의 유일한 종류인 것 같습니다. 넷플릭스에 따르면요. 이들이 얼마나 "혁신적"으로 보일지 모르지만, 저처럼 애플 팬임에도 불구하고, 다른 것에 흥분했어요. 그것은 다른 표준 스마트폰들처럼 보이고 작동하지만, 믿을 수 없을 정도로 다른 폰입니다. 지난 10년 동안 애플 비전 프로를 제외하고 다른 기술에 흥분된 적이 없었는데, 제 마음을 설레게 한 첫 번째 안드로이드 폰은 바로 Fairphone 5입니다.
 
@@ -23,7 +19,18 @@ Foldables나 폴더형 휴대전화는 잊어버리세요. 플라스틱 화면�
 
 Fairphone 1은 개념으로 소개되었습니다. 분명히 새로운 개념이었죠. 매일매일 누군가가 기술 분야에서 역주류를 결정한다는 것은 없는 일이 아닙니다. 2013년의 트렌드와 오늘날까지의 트렌드는 중·고가 스마트폰을 가지면서도 옛날 벽돌 전화의 두꺼운 기억이 되지 않도록 해야 한다는 것을 의무적으로 대량의 접착제와 융합 부품으로 제공해야 한다는 것을 시사하는 반면, Fairphone은 그것을 부정하고자 했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특별한 덱을 가져왔어요! 오늘은 개연성을 찾는 것보다는 약간 짜릿한 걸 찾는 게 소비자들에게 더 마음에 들어해요. 사실, 대부분의 사용자들은 좋은 프리미엄 스마트폰을 상대적으로 저렴하거나 매우 비싼 가격에 구매하길 원해요. 그것이 어떻게 만들어졌는지, 수리 가능성은 누구에게나 중요한 문제는 아니에요. 미디어에서 크게 소동을 일으키거나 디바이스가 고장나서 화면이나 USB 포트 교체를 위해 폰 가치의 절반을 지불해야 할 때까지는 말이죠.
 
@@ -33,7 +40,18 @@ Fairphone 1은 개념으로 소개되었습니다. 분명히 새로운 개념이
 
 ## Fairphone 5가 특별한 이유는 무엇일까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 마디로: 모든 것. 만약 페어폰에 뛰어들어 가장 흥미진진한 안드로이드 스마트폰 선발대에 올라타야 한다는 것만으로 충분하다면, 더 읽을 필요 없이 여기서 멈출 수 있어요. 웹사이트로 가서 주문/예약 버튼을 눌러보세요. 699유로라는 합리적인 가격에 산업에서 가장 앞선 스마트폰을 얻을 수 있어요. 부디.
 
@@ -47,7 +65,18 @@ Fairphone 1은 개념으로 소개되었습니다. 분명히 새로운 개념이
 - 예를 들어, 아이폰 14와 조금 더 두껍고 무거운 페어폰 5. 이 폰이 사용자가 서비스하고 수리하기 쉬운 점을 고려한다면, 40그램 추가 무게는 마지막으로 걱정할 일이겠죠.
 - 후면에는 50MP 듀얼 카메라가 있어요. 주요 카메라로는 F1.88 소니 IMX 800이 있고, F2.2 소니 IMX 858에 의해 구동되는 초광각 렌즈가 있어요. 이들 카메라는 엘리트 샤오미, 레드미, 오너 폰들에서 특징 있는 카메라들이지만, 이제는 유럽 브랜드 안에 들어 있어요. 중국 폰 사용에 조금 걱정되는 사람들에게 도움이 될 거라고 생각해요. IMX 800을 처음으로 갖춘 폰은 오너 70이었고, 리뷰어들은 감명을 받았어요. 페어폰 5도 그만한 결과를 낼 것으로 예상해요, 아니면 더 좋을지도 모르겠네요! 이건 엘리트 애플이나 삼성 카메라 콤보인가요? 아닙니다. 하지만 90%의 사람들에게는 원하고 필요한 모든 것을 제공할 겁니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 2023년에 상위 중급이라고 할 수 있는 CPU인 Qualcomm QCM 6490을 사용하고 있어요. 벤치마크만 보면 (실제로는 항상 더 좋아요) Apple의 A12와 A13 바이오닉 사이에 위치하고 있어요. 하지만 해당 칩은 7 nm 칩이었는데, 페어폰 5의 경우 6 nm 칩을 사용해 에너지를 더 효율적으로 사용하고 있어요.
 - 내장 256 GB에 외부 저장소도 지원해요. 요즘에는 이 기능이 거의 없답니다. microSD 카드로 최대 2 TB까지 추가할 수 있어요. 많은 사진을 찍거나 동영상을 많이 촬영하는 경우, 클라우드 저장소에 의존하지 않고 이 일을 할 수 있는 핸드폰이 될 거예요.
@@ -58,7 +87,18 @@ Fairphone 1은 개념으로 소개되었습니다. 분명히 새로운 개념이
 
 저는 안드로이드와 애플 스마트폰을 많이 소유했어요. 예전에 HTC에서 3년이라는 가장 긴 보증 기간을 받아본 적이 있어요. 요즘엔 1년의 보증 기간이 일반적이지만, 운이 좋으면 권한을 가진 파트너, 재판매 업체에서 2년 보증을 받을 수 있어요. 그들은 당신을 고객으로 유지하기 위해 추가 보증 기간을 제공해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스마트폰, 전자제품, 그리고 가전제품의 세계에서는 거의 들어본 적이 없죠. 하지만 Fairphone에게는 이치에 맞는 결정입니다. 주로 고장나는 주요 부품을 교체하는 것이 간단한 모듈식 기기를 만들어냄으로써, 그들의 위험과 비용은 거의 없습니다. USB-C 포트가 고장났나요? 괜찮아요, 그저 다른 것을 보내주고, 잠시 후에는 당신의 기기가 새 것처럼 좋아지죠. 배터리, 화면, 스피커, 카메라 등도 마찬가지입니다.
 
@@ -68,7 +108,18 @@ Fairphone 1은 개념으로 소개되었습니다. 분명히 새로운 개념이
 
 일반적인 2~3년 보장을 넘어주는 안드로이드 폰 제조업체는 OnePlus가 유일하다고 알고 있습니다. 최근에 4년의 소프트웨어 지원을 제공하기 시작한 것입니다. 구글 자체의 픽셀 폰은 세 년의 버전 업데이트를 보장합니다. 자신들이 소프트웨어와 하드웨어를 모두 만들어냈는데도 웃음거리같은 지원입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Fairphone이 10년 동안 등장했지만, 기술 전문가이자 일반 소비자로서 Fairphone 5가 최초로 완전히 성숙해진 것으로 느껴집니다. 이전 버전이 모두 나쁘다는 의미는 아닙니다. 2022년 2월 기준으로, 네덜란드의 전자제품 제조업체는 40만 대의 핸드폰을 판매했습니다. 그럼에도 Fairphone 4까지는 한 가지만 선택한다는 느낌이 들었어요. 브랜드나 환경, 더 수리 가능하고 지속 가능한 미래에 대한 지원의 표시로 구매하는 것처럼 말이죠. 모든 것이 활동가적인 발언으로 느껴졌어요. 그러나 Fairphone 5는 그렇지 않아요.
 

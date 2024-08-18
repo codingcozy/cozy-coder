@@ -3,17 +3,13 @@ title: "비판적 사고 AI를 뛰어넘는 보이지 않는 위협"
 description: ""
 coverImage: "/assets/img/2024-06-22-CriticalThinkingTheUnseenThreatOutpacingAI_0.png"
 date: 2024-06-22 19:45
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-CriticalThinkingTheUnseenThreatOutpacingAI_0.png
 tag: Tech
 originalTitle: "Critical Thinking: The Unseen Threat Outpacing AI"
 link: "https://medium.com/follower-booster-hub/critical-thinking-the-unseen-threat-outpacing-ai-6be4374ed8b7"
 isUpdated: true
 ---
-
-
-
-
 
 ## 뉴스
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 우리는 부분적으로 만들어진 제품들의 시대를 경험하고 있으며, 매체에 담긴 바이트들의 시대이기도 합니다. 그 결과, 우리의 주의력과 본질이 커다란 복잡한 텍스트를 이해하는 능력은 줄어들거나 사라지고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 전부 소장하던 것을 한눈에 다시 살펴봅니다. 이제 몇 초 동안만 지속되는 것을 보려고 합니다.
 
@@ -33,8 +40,18 @@ isUpdated: true
 
 관련성, 일화, 세부 사항에 대한 열등 의식은 더 이상 옹호되지 않습니다. 관련 요인은 사실적인 것에서 감정적이고 원시적 충동으로 전환되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Critical Thinking](/assets/img/2024-06-22-CriticalThinkingTheUnseenThreatOutpacingAI_0.png)
 
@@ -44,8 +61,18 @@ isUpdated: true
 
 이는 정보화된 국민의 기반이 되는 데 도움이 되지 않습니다 - 이는 건강한 민주주의의 기능에 핵심적입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러므로 '당신과 나 같은 사람들은 독해 방법을 전혀 모르는 것 같다'는 주장은 과장일 수 있습니다. 사실, 우리는 독해를 통해 전통적으로 정의된 인쇄 매체를 더 깊이 분석하는 방법을 기억하지 못하는 것으로 보입니다.
 
@@ -55,8 +82,18 @@ YouTube에서 정치 콘텐츠를 공부하고 분석할 때 상당히 도움이
 
 다른 세계의 의견을 가중치를 두거나 우리의 의견과 일치하지 않는 정보를 찾는 대신, 우리는 우리의 사고와 일치하는 게시물과 기사를 찾는 데 시간을 보냅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Critical Thinking](/assets/img/2024-06-22-CriticalThinkingTheUnseenThreatOutpacingAI_1.png)
 
@@ -66,8 +103,18 @@ YouTube에서 정치 콘텐츠를 공부하고 분석할 때 상당히 도움이
 
 교육은 새로운 지식과 다른 사람들의 문화를 풍부하게 해주며 우리가 성장하도록 돕습니다. 책을 읽음으로써 사람들은 새로운 지평을 열 수 있고 이를 통해 다른 삶에 대해 배울 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 따라서, 의미 있는 읽기 연습은 정신적 성장을 촉진하고 주의력, 분석력, 추상적 사고 능력과 같은 더 나은 기능을 제공하는 것으로 이어집니다.
 
@@ -77,7 +124,18 @@ YouTube에서 정치 콘텐츠를 공부하고 분석할 때 상당히 도움이
 
 그러나 AI 시스템은 여전히 사람들에 의해 프로그래밍되고 프로그래머가 제공한 능력을 활용하기 때문에 그러한 시스템으로 남게 됩니다. 현재의 AI는 목표를 갖고 위험할 수 있지만, 능동적이지 않으며 생각하거나 느끼는 능력이 없다는 점을 강조해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-CriticalThinkingTheUnseenThreatOutpacingAI_2.png" />
 
@@ -87,9 +145,20 @@ YouTube에서 정치 콘텐츠를 공부하고 분석할 때 상당히 도움이
 
 또한, 인간적인 접근은 현재 알고리즘으로 대체될 수 없습니다. 그러나 우리는 천년 동안 연마된 비판적 독해와 사고 기술에 대한 현재 지식을 포기해야 할까요? 그렇다면 이에 대응할 알고리즘도 필요하지 않을 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-개인마다 그 정보를 전파하기 전에 심사숙고하는 비평적 사고 독자가 되기를 염원할 수 있습니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+개인마다 그 정보를 전파하기 전에 심사숙고하는 비평적 사고 독자가 되기를 염원할 수 있습니다.
 
 우리는 현대 미디어 뿐만 아니라 다른 형태의 미디어에서도 의도적인 비평적 독해 능력을 발휘할 수 있습니다. 그러나 개인 요인과 그들의 결정의 역할을 강조하지 않는 것은 심각한 분석을 만들어내지 않습니다.
 
@@ -97,8 +166,18 @@ YouTube에서 정치 콘텐츠를 공부하고 분석할 때 상당히 도움이
 
 이것을 다음과 같은 용어로 설명할 수 없습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Critical Thinking: The Unseen Threat Outpacing AI](/assets/img/2024-06-22-CriticalThinkingTheUnseenThreatOutpacingAI_3.png)
 
@@ -108,8 +187,18 @@ YouTube에서 정치 콘텐츠를 공부하고 분석할 때 상당히 도움이
 
 이러한 기술을 통해 정보 재앙이 발생하며, 구체적 자료가 집중적으로 공유되는 동안 주의력이 분산되고 소비를 위해 최적화된 간결한 정보의 전달을 편향시키는 바이어스가 포함됩니다. 자동화 결정 과정은 충격적인 제목이 인사이트 있는 토론보다 더 많이 공유되게 합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 소셜 네트워크는 특히 강한 거짓 정보가 올라오는 완벽한 장소입니다. 단순한 접근법과 현실적이고 복잡한 아이디어를 둘러싼 과대포장으로 인해 발생하는 소음으로 인해 이러한 아이디어들은 듣기 어렵게 되어 있습니다.
 
@@ -119,7 +208,18 @@ YouTube에서 정치 콘텐츠를 공부하고 분석할 때 상당히 도움이
 
 우리는 앱과 사이트를 전환하며 여러 가지 개념을 알아가기 힘들고, 결국 거의 아무것도 이해하지 못합니다. 이는 우리의 중점이 다른 기사로 넘어가기만 하는 데 집중되어 특정 주제에 집중하지 않는다는 것을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앱과 사이트의 디자인은 우리의 심리적 취약점을 의도적으로 이용합니다. 업데이트를 위해 새로 고치고, 자동 재생을 통해 새로움에 노출시키면서 뇌는 실제로는 새로운 컨텐츠가 없는데도 새로운 것을 생각하게 속입니다.
 
@@ -129,7 +229,18 @@ YouTube에서 정치 콘텐츠를 공부하고 분석할 때 상당히 도움이
 
 더 나쁜 것은, 이 환경이 사용자가 가능한 한 오랫동안 사이트에 집중하도록 설계된 매혹적인 그래픽 인터페이스 내에 허위 콘텐츠를 감추고 있다는 겁니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 매일 사람들은 초기에는 지루하고 흥미롭지 않아 보이는 비디오를 관찰하기 위해 시청합니다. 사람들은 얕은 콘텐츠를 듣기 위해 자신들의 반죽되지 않은 속보를 밀어주는 아름다운 사람들을 위해 기꺼이 시간을 할애합니다.
 
@@ -139,7 +250,18 @@ YouTube에서 정치 콘텐츠를 공부하고 분석할 때 상당히 도움이
 
 ![크리티컬 씽킹과 보이지 않는 위협, AI를 앞서나가는](/assets/img/2024-06-22-CriticalThinkingTheUnseenThreatOutpacingAI_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사람들을 중독성 있는 인터페이스로 유인하려는 계획은 없지만, 교육적인 토론에 도움이 되는 것들을 만들겠다고 합니다. 알고리즘들이 하는 것처럼 독자들의 기권을 무시하지 않으려고 합니다.
 
@@ -149,7 +271,18 @@ YouTube에서 정치 콘텐츠를 공부하고 분석할 때 상당히 도움이
 
 앱 및 웹사이트의 디자인은 우리의 심리적 약점을 의도적으로 이용합니다. 새롭게 즐거워지고 업데이트되는 느낌이 들고, 자동 재생은 끊임없이 화면을 바꾸어 우리의 뇌가 완전히 새로운 것으로 생각하게 만듭니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 알림은 외부 신호를 통해 내부 사고과정에 집중을 방해합니다. 사람들은 종종 실제 관심보다는 감정에 기반한 헤드라인에 반응하며, 클릭베이트는 호기심을 유혹하기 위해 감정을 겨냥합니다.
 
@@ -159,7 +292,18 @@ YouTube에서 정치 콘텐츠를 공부하고 분석할 때 상당히 도움이
 
 이러한 것들은 다시 익숙해지는 과정으로 살아나게 할 수 있습니다. 이에 따라 깊은 개인 독서와 의미 있는 분석에 대한 욕망은 우리 안의 가장 좋은 부분 - 인간의 마음과 영혼을 보호합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 나를 팔로우해주시는 이 모든 멋진 분들께 감사드립니다!!!
 

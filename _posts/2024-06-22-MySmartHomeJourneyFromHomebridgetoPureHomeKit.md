@@ -3,18 +3,13 @@ title: "나의 스마트 홈 여정 Homebridge에서 Pure HomeKit까지"
 description: ""
 coverImage: "/assets/img/2024-06-22-MySmartHomeJourneyFromHomebridgetoPureHomeKit_0.png"
 date: 2024-06-22 18:19
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-MySmartHomeJourneyFromHomebridgetoPureHomeKit_0.png
 tag: Tech
 originalTitle: "My Smart Home Journey From Homebridge to Pure HomeKit"
 link: "https://medium.com/@bhoven/my-smart-home-journey-from-homebridge-to-pure-homekit-ba7c84e7f6b8"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![Smart Home Journey](/assets/img/2024-06-22-MySmartHomeJourneyFromHomebridgetoPureHomeKit_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 ## 온도 조절기
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저의 아내는 저희가 함께 살기 전에 이미 Nest Thermostat을 사용하고 계셨는데, 이 장치를 Homebridge와 연결하기가 가장 어려웠어요. Google Home 웹사이트에 가서 로그인한 다음 브라우저의 개발자 도구를 사용하여 플러그인이 Google의 API에 연결하는 데 사용할 수 있는 쿠키에서 토큰 값을 복사해야 했어요. 이 토큰은 약 6개월 후에 만료되었는데, 그때부터는 경고 없이 열쇠 조절 장치가 작동을 중지했고, 제가 이 과정을 반복할 때까지 계속 작동하지 않았어요.
 
@@ -35,7 +40,18 @@ isUpdated: true
 
 저희 집은 저가 이사 올 때도 도어벨이 없었어요. 특히 지하실에 계시는 경우에는 위층에서 노크 소리를 듣기 어려운 경우가 있었어요. 저는 Ring을 설치하고 Homebridge에 연결하여 Home 앱에서 비디오를 볼 수 있도록 했고, HomePod를 통해 도어벨 소리를 울릴 수 있었어요. 불행히도 비디오가 끊겼을 때와 도어벨 소리가 울릴 때 모두 지연이 있었어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 둥근 비디오 도어벨로 교체했어요. 이제 훨씬 빨라졌어요. 홈킷 기반으로 인터페이스가 다른 것인지, 이 제품이 별도의 전원 연결을 갖고 있어서일지(리그는 배터리를 사용했음), 그 차이에 대해 정확히는 모르겠지만, 큰 향상이 있어요.
 
@@ -45,7 +61,18 @@ isUpdated: true
 
 방금 Meross MSG200HK를 설치했어요. 이제 차고 문들이 다시 홈 앱에 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 안녕하세요 Homebridge
 

@@ -3,18 +3,13 @@ title: "M4 iPad  새로운 작업 방식  David Lewis"
 description: ""
 coverImage: "/assets/img/2024-07-21-M4iPadadifferentwaytoworkDavidLewis_0.png"
 date: 2024-07-21 11:24
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-21-M4iPadadifferentwaytoworkDavidLewis_0.png
 tag: Tech
 originalTitle: "M4 iPad  a different way to work  David Lewis"
 link: "https://medium.com/macoclock/m4-ipad-a-different-way-to-work-david-lewis-70404e69abca"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![image](/assets/img/2024-07-21-M4iPadadifferentwaytoworkDavidLewis_0.png)
 
@@ -24,8 +19,18 @@ M4 iPad가 나타나며 좋은 변화가 있었어요. 적어도 저에게는요
 
 사용하기 시작할 때는 무엇을 하는지 또는 어떻게 가장 잘 사용할 수 있는지 모르겠었어요. 결국 Mac 사용자가 iPad에서 작업하는 방법을 익히는 건 사고가 날 것 같았죠...
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 더 많은 시간을 사용할수록 더 많은 것을 느끼게 되고, 무엇보다도 저를 자유롭게 해 주고 거의 해방시켜 준다고 느낍니다. 이제 더 이상 책상, 사무실 또는 스튜디오에 구속되어 있지 않습니다. iPad에서 작업하는 새로운 방법을 계속 발견하고 제게 가장 적합한 최상의 작업 흐름을 찾아나가고 있습니다.
 
@@ -35,7 +40,18 @@ iPad에 대해 많이 알지 못한 채로 시작했습니다. iPad의 멀티태
 
 그것들은 iPad에서 일하는 새로운 차원을 열어 주었거나, 제게 멀티태스킹을 제공해 주었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작업하는 방법이 더 깔끔해요 — 특히 슬라이드 오버가 그렇죠. 작업할 때 정말 산만함 없는 방식으로 할 수 있어요. 예를 들면 참고용으로 YouTube나 Safari 페이지를 열어놓고 Ulysses에 글을 쓸 수 있어요. 그리고 볼 필요가 없을 때는 그걸 한쪽에 떨어뜨려두고 한 가지에만 집중할 수 있어요.
 
@@ -45,7 +61,18 @@ iPad에 대해 많이 알지 못한 채로 시작했습니다. iPad의 멀티태
 
 다음에는 두 번째 디스플레이에서 작업할 것을 고려해보려고 해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 당신이 이 이야기를 즐기고 있다면, 사랑을 표현하고 박수를 보내주세요 — 정말로 즐기셨다면 50번을 박수를 쏘아주세요. 또한 계속해서 비슷한 이야기를 받아보기 위해 저를 팔로우하기를 잊지 말아주세요!
 
@@ -55,17 +82,39 @@ iPad에 대해 많이 알지 못한 채로 시작했습니다. iPad의 멀티태
 
 조금씩 변화를 주는 것뿐이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 집 밖에서 일하는 것에 관해서 말씀드리자면… 저는 맥북을 가져갈 수는 있지만, 아이패드의 형태가 원격으로 일하는 것을 훨씬 더 즐겁고 실용적이며 재미있게 만든다는 느낌을 받았어요. 그렇게 느껴보셨나요?
 
-이전에는 카페나 호텔에서 일하는 타입은 아니었지만, 이제는 아이패드를 가지고 있어서 하루를 분할해서 보다 행복하고 더 편안하게 느껴져요. 이렇게 하면 더 맑고 상쾌함을 유지할 수 있죠. 
+이전에는 카페나 호텔에서 일하는 타입은 아니었지만, 이제는 아이패드를 가지고 있어서 하루를 분할해서 보다 행복하고 더 편안하게 느껴져요. 이렇게 하면 더 맑고 상쾌함을 유지할 수 있죠.
 
 # M4에서 더 많은 정보!
 
 이것은 애플의 첫 번째 M4 장치이며 전망은 밝습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 모든 것이 아주 빠르게 열리고 모든 것이 정말 민첩하게 느껴집니다. 우리는 올해 맥과 심지어 아이맥에 M4이 나올 것으로 예상하고 있습니다 — 그리고 iPad에서 보이는 것을 보면 성능이 크게 향상될 것으로 예상됩니다.
 
@@ -75,7 +124,18 @@ iPad를 처음 사용하는 분들은 제가 사용하는 것과 같이 Files �
 
 iPad의 썬더볼트 USB-C 포트에 대해 충분히 강조되지 않습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 삼성 S9 탭과 달리 iPad는 Thunderbolt 4 전송 속도로 최대 40Gbps를 지원하여 많은 가능성을 열어줍니다.
 
@@ -85,7 +145,18 @@ iPad의 썬더볼트 USB-C 포트에 대해 충분히 강조되지 않습니다.
 
 iPad는 여전히 새롭고 흥미로운 작업 방법을 찾아주며 진정으로 중요한 새로운 자극을 제공해줍니다. 한 곳에서 너무 오래 머물러 있었던 습관을 버리고, 이제는 iPad를 집어들고 잠시 멀어져 다른 장소에서 작업하는 핑계를 대는 나 자신을 발견하게 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! iPad가 여러분과 여러분의 작업 방식에 어떤 변화를 가져다주었는지 궁금합니다. 최근 iPad에 관한 내용을 많이 다루는 이유가 궁금하다면 — 그 이유는 간단합니다.
 

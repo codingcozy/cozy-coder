@@ -3,17 +3,13 @@ title: "잘 몰랐지만 큰 차이를 만드는 iOS 소소한 기능 11가지"
 description: ""
 coverImage: "/assets/img/2024-07-13-11SmalliOSFeaturesThatYouDidntKnowWouldMakeABigDifference_0.png"
 date: 2024-07-13 01:17
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-11SmalliOSFeaturesThatYouDidntKnowWouldMakeABigDifference_0.png
 tag: Tech
 originalTitle: "11 Small iOS Features That You Didn’t Know Would Make A Big Difference"
 link: "https://medium.com/macoclock/11-small-ios-features-that-you-didnt-know-would-make-a-big-difference-3452454987ea"
 isUpdated: true
 ---
-
-
-
-
 
 아이폰에 가장 매력을 느끼는 점은 매일 사용해도 숨겨진 기능을 계속 발견할 수 있어서, 갑자기 전체적인 경험을 크게 향상시킬 수 있다는 것이에요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## AI-Generated Summaries for Your Podcast
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 애플이 왜 애플 팟캐스트 앱에 이 기능을 네이티브로 제공하지 않았는지 여전히 확신할 수는 없어요. 그들은 AI 채용에서 꽤 느리게 움직이고 있어서, 이해하기는 하지만요.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 아이폰에 ChatGPT 앱을 설치하고, 어떤 팟캐스트의 대본을 복사하여 붙여넣으면 AI가 생성한 요약을 즉시 얻을 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이렇게 하면 시간을 아낄 뿐만 아니라 메모 작성이 훨씬 쉬워지고 가치가 없는 팟캐스트를 건너뛸 수도 있어요.
 
@@ -49,7 +67,18 @@ isUpdated: true
 - 텍스트를 선택하고 복사한 후 ChatGPT 앱을 열어 붙여넣기 할 수도 있고, 텍스트를 앱으로 끌어다 놓을 수도 있어요.
 - ChatGPT에 Transcript를 추가한 후 간단한 요약 및 주요 포인트를 생성하도록 요청하면 몇 초 내에 팟캐스트 에피소드의 자세한 요약을 얻을 수 있어요. 이를 통해 에피소드를 듣기 전에 빠르게 내용을 파악할 수 있죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 레미더를 관련 섹션으로 분류하기
 
@@ -57,17 +86,39 @@ Reminders 앱은 내 iPhone에서 가장 많이 사용되는 앱 중 하나야.
 
 대부분의 사람들과는 다르게, 나는 이 앱을 할 일 목록을 추적하는 데만 사용하는 것이 아니라, 내가 만들 수 있는 모든 목록을 추적하는 데 사용해.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Oh, 그럼 영화와 TV 시리즈의 시청 목록, 사고 싶은 물건의 위시리스트, 하고 싶은 것들의 버킷리스트, 그리고 가보고 싶은 장소들의 여행 목록까지 모두 포함되어 있죠.
 
 그래서 당연히 이 모든 목록을 유지하고 추적하는 것은 매우 복잡해집니다. 그런 이유로 애플이 당신의 목록 내에 섹션을 만들 수 있는 옵션을 추가해줘서 정말 고맙습니다. 이를 통해 비슷한 항목들을 함께 그룹화할 수 있게 되죠.
 
-이 기능을 자주 사용하고, 정말 많은 머리아픔을 덜어줬어요. 
+이 기능을 자주 사용하고, 정말 많은 머리아픔을 덜어줬어요.
 
 내부 체계적인 것에 관심이 많다면, 이것을 활용하는 방법을 알려드릴게요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-13-11SmalliOSFeaturesThatYouDidntKnowWouldMakeABigDifference_1.png" />
 
@@ -82,7 +133,18 @@ Oh, 그럼 영화와 TV 시리즈의 시청 목록, 사고 싶은 물건의 위�
 
 그럼 즐겁게 이용해 보세요! 🌟
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이거 한 번 확인해보세요! 이 기능은 정말 멋진데, AI의 창의성을 경험할 수 있는데요. 일종의 딥페이크 같은 거죠, 오디오용으로 말이죠.
 
@@ -92,7 +154,18 @@ iPhone에서 제공하는 몇 가지 문장을 읽어가며 오디오를 녹음�
 
 아래는 iPhone에서 '개인 음성' 기능을 설정하는 방법입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시작하기 전에 20분 정도의 시간이 필요하고, iOS 17을 사용하는 iPhone 12 이상 기기에서만 작동한다는 점을 알아두세요.
 
@@ -109,7 +182,18 @@ iPhone에서 제공하는 몇 가지 문장을 읽어가며 오디오를 녹음�
 
 이제 여러분의 iPhone이 정확히 여러분과 같이 말할 수 있게 되었습니다. 특히 영어로 말하기가 불편한 분들이 자신의 목소리로 완벽하게 다른 사람들과 소통하고 싶을 때 유용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 나만의 음성 오버로 iPhone 화면 녹화하기
 
@@ -120,7 +204,18 @@ iPhone에서 제공하는 몇 가지 문장을 읽어가며 오디오를 녹음�
 - 설정 → 컨트롤 센터로 이동하여, 더 많은 컨트롤 섹션에서 화면 녹화 옵션 옆의 녹화 버튼을 클릭하십시오.
 - 이제 화면을 녹화하고 싶을 때마다, 단순히 컨트롤 센터를 열고 화면 녹화 버튼을 클릭하면 3초 후 녹화가 시작됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 한 가지 재미있는 사실은 몇 사람이 모를 수도 있는데, 실제로 화면 녹화 중에 음성을 추가하여 녹화하면 비디오를 조용히 공유하는 것 대신에 무엇이 일어나고 있는지 설명할 수 있다는 점입니다.
 
@@ -130,7 +225,18 @@ iPhone에서 제공하는 몇 가지 문장을 읽어가며 오디오를 녹음�
 
 이제 원하는 대로 이야기할 수 있고, 녹화된 비디오와 함께 음성이 함께될 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 음성 녹음의 필기본
 
@@ -140,7 +246,18 @@ iPhone에서 제공하는 몇 가지 문장을 읽어가며 오디오를 녹음�
 
 이와 비교하여 iPhone의 음성 메모 앱은 90년대 기자들이 사용하는 테이프 녹음기 같아 보입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 음성 녹음의 전사를 Voice Memos 앱에서 곧바로 받을 수 있는지 확실하지는 않지만, 현재 시도해볼 수 있는 빠른 해결책이 실제로 있습니다. 여러분의 음성 노트들에 대한 전사본을 생성하려면 다음과 같이 해보세요.
 
@@ -150,7 +267,18 @@ iPhone에서 제공하는 몇 가지 문장을 읽어가며 오디오를 녹음�
 - 이제 오디오를 녹음하고 전송 버튼을 클릭하세요. 그게 다 입니다. 음성 녹음의 즉각적인 전사본이 생성되며 보고 복사할 수 있게 됩니다.
 - 이전 글에서 언급한 요령을 사용하여 ChatGPT에 추가해 전사본을 요약할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **웹사이트 이름 또는 제목으로 사파리 탭 정리하기**
 
@@ -160,7 +288,18 @@ iPhone에서 제공하는 몇 가지 문장을 읽어가며 오디오를 녹음�
 
 하지만 시간이 흐른 후에 사파리로 돌아오면, 수많은 각기 다른 웹사이트에서 열린 수백 개의 탭으로 가득 찬 혼돈 속에 빠지곤 해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문제를 해결하는 한 가지 방법을 찾은 건, 모든 열려 있는 탭을 그들의 웹사이트를 기준으로 깔끔하게 정리하는 것이었어요. 이렇게 하면 동일한 블로그나 뉴스레터에서 빠르게 컨텐츠를 살펴볼 수 있고, 제가 가장 좋아하는 것을 우선순위로 둘 수 있어요.
 
@@ -170,7 +309,18 @@ iPhone에서 제공하는 몇 가지 문장을 읽어가며 오디오를 녹음�
 
 Safari에서 탭 보기를 열고, 열린 탭 중 하나를 누르고 꾹 누르면, Arrange Tabs By → Arrange Tabs By Website를 클릭하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 모든 탭 링크 복사하기
 
@@ -178,7 +328,18 @@ Safari에서 탭 보기를 열고, 열린 탭 중 하나를 누르고 꾹 누르
 
 ![Link Sharing](/assets/img/2024-07-13-11SmalliOSFeaturesThatYouDidntKnowWouldMakeABigDifference_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Safari 탭 선택 여러 개 공유하기
 
@@ -188,7 +349,18 @@ Safari에서 탭 보기를 열고, 열린 탭 중 하나를 누르고 꾹 누르
 
 어떻게 하는지 보여주는 영상을 확인해보세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 사파리에서 닫은 탭 다시 열기
 
@@ -199,7 +371,18 @@ Safari에서 탭 보기를 열고, 열린 탭 중 하나를 누르고 꾹 누르
 
 ## 아이폰을 이용하여 어떤 종류의 소리든 인식하세요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아이폰의 소리 인식 기능은 정말 멋지죠. 이 기능은 주변 소리를 지속적으로 듣고 있으며 문이나 경보음, 아기 울음소리 등을 인식하면 알림을 보내는 기능입니다.
 
@@ -209,7 +392,18 @@ Safari에서 탭 보기를 열고, 열린 탭 중 하나를 누르고 꾹 누르
 
 이렇게 설정하는 방법은 아래와 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-13-11SmalliOSFeaturesThatYouDidntKnowWouldMakeABigDifference_7.png)
 
@@ -225,7 +419,18 @@ Safari에서 탭 보기를 열고, 열린 탭 중 하나를 누르고 꾹 누르
 
 간단하지만 유용한 iOS 기능을 소개해 드려서 기쁩니다. 이제 여러분의 iPhone을 더욱 스마트하게 활용해보세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 폰 앱에 굴러다니는 살아있는 사진 모두를 iMessage에서 애니메이션 스티커로 사용할 수 있어요.
 
@@ -235,7 +440,18 @@ Safari에서 탭 보기를 열고, 열린 탭 중 하나를 누르고 꾹 누르
 - 그 다음 페이지에서 ‘새로운 스티커’ 버튼을 클릭하세요. 앨범에서 살아있는 사진을 선택하고, 오른쪽 하단의 ‘스티커 추가’ 버튼을 클릭하세요.
 - 이게 전부예요. 이제 살아있는 비디오 스티커가 추가되었고, iMessage의 어떤 채팅에서든 사용할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 멋진 슬라이드쇼 즉시 만들기
 
@@ -245,7 +461,18 @@ iPhone의 사진 앱을 열고, 전시하고 싶은 사진과 동영상을 선�
 
 ![iOS 슬라이드쇼 옵션](/assets/img/2024-07-13-11SmalliOSFeaturesThatYouDidntKnowWouldMakeABigDifference_9.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 바로 그거야; 당신의 슬라이드쇼가 즉시 제공되며 아름답게 배치된 사진, 멋진 애니메이션, 그리고 어울리는 배경 음악이 함께 제공됩니다.
 
@@ -255,7 +482,18 @@ iPhone의 사진 앱을 열고, 전시하고 싶은 사진과 동영상을 선�
 
 이 기능들을 시도해보고 무엇이 가장 유용했는지 댓글란에서 제게 알려주세요. 그리고 다른 작은 iOS 기능들을 알고 계시면서 큰 영향을 줄 수 있는 것이 있다면 자유롭게 공유해 주세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 발견하고 워크플로에 유용한 새 앱을 추가하는 것을 좋아한다면, Setapp을 확실히 좋아하실 것입니다. Setapp은 Mac 및 iPhone용 앱 스토어로, 월 $9.99의 단일 요금으로 사용할 수 있는 200개 이상의 프리미엄 앱을 제공합니다.
 

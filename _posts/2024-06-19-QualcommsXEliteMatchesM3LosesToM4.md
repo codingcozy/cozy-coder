@@ -3,17 +3,13 @@ title: "Qualcomm의 X Elite이 M3에 일치하지만 M4에는 미치지 못한�
 description: ""
 coverImage: "/assets/img/2024-06-19-QualcommsXEliteMatchesM3LosesToM4_0.png"
 date: 2024-06-19 09:14
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-QualcommsXEliteMatchesM3LosesToM4_0.png
 tag: Tech
 originalTitle: "Qualcomm’s X Elite Matches M3, Loses To M4"
 link: "https://medium.com/@impure/qualcomms-x-elite-matches-m3-loses-to-m4-b15b03f33f67"
 isUpdated: true
 ---
-
-
-
-
 
 저는 Qualcomm의 X Elite 칩에 대해 매우 회의적이었습니다. 왜냐하면 노트북에 Qualcomm 칩이 포함된 것은 처음이 아니기 때문입니다. 그들은 8cx 칩도 만들었는데 그것은 재앙이었습니다. 이전 게시물에서 말했듯이:
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Apple은 최근 iPad 이벤트에서 NPU에 대해 많이 이야기했기 때문에 뉴럴 프로세싱 유닛을 비교한 것이 흥미로웠습니다. Qualcomm의 주장은 매우 의문스럽다고 생각합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컴퓨터 칩에서 비교적 새로운 구성 요소 인 NPU는 아직 표준화되어 있지 않을 수 있습니다. 그들이 그들의 성능을 다른 방식으로 측정하는 것일 수도 있습니다. 혹은 그들의 NPU가 실행 중인 특정 벤치마크에 최적화되어 있을 수도 있습니다.
 
@@ -33,7 +40,18 @@ Apple은 최근 iPad 이벤트에서 NPU에 대해 많이 이야기했기 때문
 
 하지만 그들은 또한 X 엘리트를 퀄컴의 8cx와 비교했는데, 8cx는 엄청난 차이를 보입니다. Cinebench를 살펴보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-19-QualcommsXEliteMatchesM3LosesToM4_0.png)
 
@@ -43,7 +61,18 @@ X Elite가 싱글 코어 점수가 두 배 이상이고 멀티코어 점수가 5
 
 적어도 하나의 X Elite 칩이 TDP가 거의 4배나 높지만 성능은 거의 동일하다는 것을 보는 것도 놀랍군요. 왜 그런 제품을 판매하는 걸까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 다른 벤치마크를 보자면 Laptop Mag은 다음과 같이 말합니다:
 
@@ -53,7 +82,18 @@ X Elite은 멀티코어에서 M3를 이기긴 하지만, 조금밖에 차이 나
 
 실제로 다른 포스트에서 쓴 것을 떠올리게 해줘요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서 2010년대는 스마트폰에서의 Qualcomm 대 Apple이 주를 이었죠. 아마 2020년대는 노트북에서의 Qualcomm 대 Apple이 주를 이겠죠. 😆 변하는 것이 많아져도, 노출하는 것은 그대로인 경우가 많죠.
 
@@ -63,7 +103,18 @@ Notebook Check에서 좀 더 흥미로운 결과가 있더라구요. 그들은 M
 
 M4가 얼마나 개선될지 의문을 가졌었는데, 특히 iPads에 먼저 출시되었기 때문이었어요. M4가 단지 열 및 전력 효율성에 관한 것이라고 생각했었죠. 여전히 3나노미터로 만들어졌답니다. TSMC의 더 효율적인 n3e 공정에 기반하고 있고, n3b가 아닌 것이죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 노트북 체크가 다르게 말하고 있어요. 그들에 따르면, 싱글코어 속도가 최대 20% 개선되었다고 합니다. 다만 멀티코어 속도는 10% 정도만 향상되었다고 하네요. GPU 속도도 최대 10% 상승했다고 합니다. 저는 이 정도면 상당히 기대 이상이었어요. GPU 개선이 좀 아쉬웠지만, 싱글코어의 향상은 매우 인상적이에요.
 
@@ -73,7 +124,18 @@ M4가 얼마나 개선될지 의문을 가졌었는데, 특히 iPads에 먼저 �
 
 M2 칩이 극단적으로 제한되었고 겨우 M1을 앞질렀다는 내용의 게시물을 작성했는데, 발행하지 않을 것 같아요. 다시 그런 상황이 반복될 것으로 예상했는데, 아닌가봐요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어쨌든 Qualcomm은 내 기대치를 능가했습니다. 하지만 그렇게 크게 변하지는 않았어요. 여전히 윈도우는 좋아하지 않아요. 하지만 윈도우를 좋아한다면, 이 제품은 매우 유용할 거예요.
 
@@ -83,7 +145,18 @@ M2 칩이 극단적으로 제한되었고 겨우 M1을 앞질렀다는 내용의
 
 윈도우에게는 큰 문제가 있습니다. 윈도우에는 많은 게임이 있지만, 그 중 많은 게임들이 Arm으로 업데이트되지 않을 것 같아요. 사람들이 자랑스럽게 소개하는 게임인 'Shadow Of The Tomb Raider'도 여전히 Rosetta 2로 실행 중이에요. 그리고 그게 곧 바뀔 것 같지는 않아요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비록 이것도 크게 걱정하지는 않아요. 저는 Steam Deck에서 많은 게임을 플레이하고 있는데, 그 기기는 대부분의 게임을 호환성 레이어를 통해 실행합니다. 소프트웨어 문제는 대부분 괜찮을 것 같아요. 특히 많은 앱이 웹 버전을 가지고 있기 때문에요.
 

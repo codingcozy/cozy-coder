@@ -3,17 +3,13 @@ title: "GPT-4 - 우리는 속고 있는 걸까요"
 description: ""
 coverImage: "/assets/img/2024-06-20-GPT-4oAreWebeingLIEDto_0.png"
 date: 2024-06-20 18:41
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-GPT-4oAreWebeingLIEDto_0.png
 tag: Tech
 originalTitle: "GPT-4o — Are We being LIED to?"
 link: "https://medium.com/ai-in-plain-english/gpt-4o-are-we-being-lied-to-878a19867d9f"
 isUpdated: true
 ---
-
-
-
-
 
 오늘날 열풍을 일으키는 인공지능(AI) 기술이 얼마나 빠르게 발전하고 있는지에 대해 Open AI 및 기타 기업들로부터 거짓 정보를 받고 있는 걸까요?
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 그런데 제 생각에 이번에는 그렇게 되지 않을 것 같아요. 저는 NFT 열풍 주기에는 믿음을 안 했지만, 인스턴스적으로는 인공지능 열풍에는 믿음이 많이 드네요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제가 매일 인공지능(AI)의 최신 정보를 읽어요.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 양쪽에 대한 좋은 주장들이 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사에서는 AI가 지나치게 과대포장되고 있는 가능성을 살펴보고 싶습니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 내 동생이자 비즈니스 파트너 인 Addison Best와 저는 GPT-4o의 역량이 감소하고 있다는 점에 주목하고 있어요. 네, 이것은 주관적인 견해이지만 감소가 상당히 명백해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 내가 GPT-4o에게 기사의 특정 부분에 제 제휴 링크를 넣도록 요청하면, 이런 간단한 작업에 엉망징창으로 처리할 수도 있어요.
 
@@ -53,7 +82,18 @@ GPT-4o는 정말 빠르긴 하지만, 제가 무엇을 요청했는지에 대한
 
 그들이 얼마나 빠르고 능숙한지 알려줄 수 있다면, 아마 우리는 '빠른' 부분에 만족하고 '능숙한' 부분은 신경도 쓰지 않을 지 모를 거에요. (또는 '능숙한' 부분으로 인해 플러스 멤버십을 해지할 정도로 신경 쓰지도 않을 거에요.)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 왜 내가 AI가 과대포장되었다고 생각하는지
 
@@ -67,7 +107,18 @@ GPT-4o는 정말 빠르긴 하지만, 제가 무엇을 요청했는지에 대한
 
 그래서 그들은 모델의 능력을 계속해서 억제하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 의견을 궁금해요.
 
@@ -81,7 +132,18 @@ GPT-4o는 정말 빠르긴 하지만, 제가 무엇을 요청했는지에 대한
 
 In Plain English 커뮤니티의 일원이 되어 주셔서 감사합니다! 떠나시기 전에:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 작가를 박수 치고 팔로우하기 잊지 마세요! 👏️️
 - 팔로우하기: X | LinkedIn | YouTube | Discord | Newsletter

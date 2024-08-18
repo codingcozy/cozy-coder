@@ -3,17 +3,13 @@ title: "AVP의 GrayMatter Robotics 투자에 대해 알아야 할 5가지 사항
 description: ""
 coverImage: "/assets/img/2024-06-23-AVPsInvestmentinGrayMatterRobotics_0.png"
 date: 2024-06-23 18:38
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-AVPsInvestmentinGrayMatterRobotics_0.png
 tag: Tech
 originalTitle: "AVP’s Investment in GrayMatter Robotics"
 link: "https://medium.com/advance-venture-partners/avps-investment-in-graymatter-robotics-f571bb9e502e"
 isUpdated: true
 ---
-
-
-
-
 
 ![AVP's Investment in Gray Matter Robotics](/assets/img/2024-06-23-AVPsInvestmentinGrayMatterRobotics_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Ariyan, Brual 및 SK와 처음 만나보았을 때, 그들은 혁신적인 로봇 기업을 설립할 수 있는 고급 기술 지식을 보유할 뿐만 아니라 고객 요구에 부합하는 플랫폼을 설계하고 GrayMatter를 포함한 모든 이해 관계자에게 매력적인 경제를 창출하는 비즈니스 마인드를 지닌 것을 즉시 알아챘습니다. USC 고급 제조업 센터에서 활동했을 때, Ariyan과 Brual은 제조 업계를 기반으로 한 AI 기반 로봇 플랫폼을 구축하여 생산 과정에서 가장 흔한 표면 마감 및 처리 작업을 시작점으로 삼을 수 있는 기회를 발견했습니다. 표면 마무리 및 처리는 기타 것들로 기타 제품까지 $2.5조 규모의 미국 제조 산업에서 중요한 단계로, 이 업무는 유해하고 힘든 성격 및 필요로 하는 방대한 훈련 때문에 심각한 인력 부족을 겪는 여러 작업 중 하나이며, 이것들은 특히 청년 세대들이 매력적인 직업 기회로 보지 않는 무거운 일과 위험한 역할입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 거대한 산업에 중립적인 문제를 염두에 두고 GrayMatter 팀은 샌딩, 버핑, 그라인딩, 폴리싱과 같은 표면 마무리 및 처리를 자동화하는 전체 스택 AI 솔루션을 구축했습니다. 기업 플랫폼은 현재까지의 로봇 플랫폼의 주요 문제를 극복했습니다 - 동적이고 변화가 빈번한 환경에서 사람들과 마찬가지로 복잡한 작업을 동일한 처리량과 품질로 수행하지 못하는 점입니다. GrayMatter의 로봇들은 심지어 시스템이 아직 보지 못한 물체에 대해서도 본 시간에 복잡한 작업을 자율적으로 처리할 수 있습니다. 결과적으로 고객들은 GrayMatter를 활용함으로써 다면적인 투자수익을 누릴 수 있습니다. 로봇들은 수동 작업보다 2~4배 빠르게 작업할 뿐만 아니라 사람이 6개월이 걸릴 작업을 머신러능이 1일 이내에 훈련받을 수 있어서 인건비(임금, 고용, 훈련, 노동자 보상)의 직간접 비용을 줄이며, 고객의 매출을 증가시킴으로써 공정 처리량을 개선하고 백로그를 감소시키며, 재작업과 폐기물이 줄어드는 고품질 결과물을 만듭니다. 로봇들은 또한 소비하는 소모품 비용(샌드페이퍼, 페인트 등)을 수동작업보다 30% 이상 절약할 수 있어서 고객이 지속가능성 목표를 달성하는데 도움이 됩니다. 많은 산업에서 심각한 노동력 부족 문제에 추가되어, 고객이 인식한 구체적인 투자수익은 GrayMatter를 선택해야 하는 단계로 만듭니다.
 

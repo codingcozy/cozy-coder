@@ -3,17 +3,13 @@ title: "웹 스크래핑으로 데이터 파이프라인 구축하기 단계별 
 description: ""
 coverImage: "/assets/img/2024-06-23-BuildingDataPipelineswithWebScrapingAStep-by-StepGuide_0.png"
 date: 2024-06-23 20:10
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-BuildingDataPipelineswithWebScrapingAStep-by-StepGuide_0.png
 tag: Tech
 originalTitle: "Building Data Pipelines with Web Scraping: A Step-by-Step Guide"
 link: "https://medium.com/@pillaigreesh16/building-data-pipelines-with-web-scraping-a-step-by-step-guide-3ab712f1412b"
 isUpdated: true
 ---
-
-
-
-
 
 웹 스크레이핑은 웹을 거대한 데이터 광산으로 변신시키는 기술이에요. 여기에는 모든 정보가 발굴되기를 기다리는 잠재적 보석이 숨어 있답니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 단계 1: 서버로 HTTP 요청을 보내는 것부터 시작돼요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단계 2: 그런 다음, 웹 사이트의 코드를 추출하고 분해합니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 스크레이퍼는 그런 다음 코드를 구문 분석합니다. 이는 기본적으로 코드를 부분으로 나누어 특정 요소나 객체를 식별하고 원하는 특정 요소나 정보를 가져올 수 있도록 하는 것을 의미합니다. 이것은 특정 텍스트, 평점, 클래스, 태그, ID 또는 필요한 다른 정보와 같은 것들일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 크롤러가 HTML 또는 XML에 접근하여 데이터를 가져오고 구문 분석한 후, 해당 데이터를 로컬로 저장합니다. 이미 봇에게 수집하길 원하는 내용을 알려줬으니, 무엇을 찾아야 하는지 알고 있어요. 이 데이터는 주로 구조화된 형식으로 저장되며, .csv 또는 .xls과 같은 Excel 파일 형식으로 저장합니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 이러한 태그들을 식별했다면, 이를 선호하는 스크래핑 소프트웨어에 입력해야 합니다. 이렇게 하면 봇이 정확히 어디를 봐야 하는지와 무엇을 추출해야 하는지 알게 됩니다. 다음 단계는 스크래핑 프로세스를 실행하는 것이죠. 여기서 스크래퍼는 사이트에 액세스 권한을 요청하고, 데이터를 추출하며, 구문 분석합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터를 추출하고 구문 분석하고 수집한 후에는 저장해야합니다. 이제 필요한 데이터를 가지고 있으므로 자유롭게 다루고 원하는 대로 사용할 수 있습니다.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 HTML 및 XML 문서를 구문 분석하는 파이썬 라이브러리입니다. HTML 페이지를 구문 분석하고 데이터를 추출하기 위한 파싱 트리를 생성합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용 사례: 간단한 스크래핑 작업 및 데이터 추출.
 
@@ -63,7 +103,18 @@ HTML 및 XML 문서를 구문 분석하는 파이썬 라이브러리입니다. H
 
 사용 사례: 대규모 스크래핑 프로젝트 및 데이터 추출 워크플로우.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Selenium:
 
@@ -73,7 +124,18 @@ HTML 및 XML 문서를 구문 분석하는 파이썬 라이브러리입니다. H
 
 - Puppeteer:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Node.js 라이브러리인 Puppeteer는 Chrome 또는 Chromium을 DevTools 프로토콜을 통해 제어하기 위한 고수준 API를 제공합니다. Selenium과 유사하지만 특히 Chrome을 위한 것입니다.
 
@@ -83,7 +145,18 @@ Beautiful Soup와 Scrapy는 Python 사용자에게 훌륭한 도구입니다.
 
 아래는 웹 스크래핑에 관한 프로젝트이며, 아래 웹사이트는 저에게 기초 학습을 도와주었습니다: Web Scraping & NLP in Python | DataCamp
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 Project Gutenberg 웹사이트에서 책 정보를 가져올 것입니다.
 
@@ -93,7 +166,18 @@ Project Gutenberg는 60,000권 이상의 무료 eBook을 제공하는 자원 봉
 
 아래는 'Dead Men Tell No Tales'라는 epub을 스크랩하는 예시입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1. 라이브러리 설치
 
@@ -108,7 +192,18 @@ html5lib은 HTML 및 XHTML 문서를 구문 분석하기 위한 순수한 Python
 
 contractions은 텍스트에서 축약어를 확장하는 데 사용됩니다 (예: "don`t"를 "do not"로 바꿉니다).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스파시는 파이썬에서 고급 자연어 처리(NLP)를 위한 오픈 소스 라이브러리입니다.
 
@@ -140,14 +235,25 @@ nltk.download('averaged_perceptron_tagger')
 
 NLTK 자원 다운로드하기:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 그런 다음 코드는 여러 필수 NLTK 자원을 다운로드합니다:
-    - punkt: 텍스트를 문장이나 단어 목록으로 분할하는 토크나이저입니다.
-    - words: 영어 단어 목록입니다.
-    - stopwords: 영어에서 흔히 사용되는 불용어 목록입니다.
-    - maxent_ne_chunker: 미리 훈련된 개체명 청커입니다.
-    - averaged_perceptron_tagger: 품사 태거입니다.
+  - punkt: 텍스트를 문장이나 단어 목록으로 분할하는 토크나이저입니다.
+  - words: 영어 단어 목록입니다.
+  - stopwords: 영어에서 흔히 사용되는 불용어 목록입니다.
+  - maxent_ne_chunker: 미리 훈련된 개체명 청커입니다.
+  - averaged_perceptron_tagger: 품사 태거입니다.
 
 이 설정을 통해 다양한 NLP 및 텍스트 처리 작업을 수행하기 위해 필요한 모든 라이브러리와 자원이 제공됩니다.
 
@@ -163,7 +269,18 @@ html = r.text
 print(html)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 출력 예시:
@@ -201,7 +318,18 @@ requests.get 메서드는 지정한 URL로 HTTP GET 요청을 보냅니다.
 
 verify=False는 SSL 인증서 확인을 비활성화하는 데 사용됩니다(운영 환경에서 사용하지 않는 것이 좋음).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 응답의 HTML 콘텐츠는 r.text를 사용하여 추출됩니다.
 
@@ -221,7 +349,18 @@ soup.title
 
 이 코드는 "html.parser"를 사용하여 HTML 콘텐츠를 구문 분석하는 BeautifulSoup 객체를 초기화합니다. 그런 다음 이 웹 페이지의 제목인 "Dead Men Tell No Tales, by E. W. Hornung"을 추출하고 출력합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 문자열로 된 스프 타이틀 가져오기
@@ -250,7 +389,18 @@ soup.findAll('a')[:8]
  <a class="pginternal" href="#link2HCH0007"> CHAPTER VII. </a>]
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드는 HTML에서 모든 앵커(`a`) 태그를 찾아 처음 여덟 개를 출력합니다. 각 앵커 태그에는 하이퍼링크(href 속성)와 관련된 텍스트가 포함되어 있습니다.
 
@@ -290,7 +440,18 @@ Credits: Produced by An Anonymous Project Gutenberg Volunteer, and David Widger
       By E. W. Hornung
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드는 파싱된 HTML 문서에서 모든 텍스트 콘텐츠를 추출하기 위해 get_text() 메서드를 사용합니다. 그런 다음 print 문은 이 텍스트 콘텐츠를 콘솔에 출력하여 HTML 태그없이 웹페이지의 전체 텍스트 콘텐츠를 표시합니다.
 
@@ -316,7 +477,18 @@ text_c
 
 이 코드는 다음과 같은 정리 단계를 수행합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 알파벳 숫자만 남기기: 문자, 숫자, 공백, 마침표 및 쉼표만 유지합니다.
 - 공백 정규화: 여러 개의 공백을 단일 공백으로 대체합니다.
@@ -335,7 +507,18 @@ text_c
 
 ## 8. 정제된 텍스트 토큰화
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 토크나이저 생성
@@ -352,7 +535,18 @@ tokens[:8]
 
 - 알파벳 및 숫자(문자와 숫자) 시퀀스를 캡처하는 정규 표현식 \w+를 사용하여 단어와 일치하는 RegexpTokenizer를 초기화합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 토크나이저를 사용하여 정제된 텍스트(text_c)를 토큰(개별 단어)으로 분할합니다.
 
@@ -360,7 +554,18 @@ tokens[:8]
 
 토큰화된 출력물을 간략히 보기 위해 처음 여덟 개의 토큰을 표시합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 과정은 텍스트를 단어 목록으로 변환하여 추가 텍스트 분석 및 처리에 사용할 수 있습니다.
 
@@ -389,7 +594,18 @@ for word in tokens:
 words_ns[:5]
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Stopwords 불러오기:
 
@@ -399,7 +615,18 @@ Stopwords 불러오기:
 
 - 컨텍스트에 특정한 추가적인 stopwords를 포함하는 additional_stopwords 집합을 정의합니다. 이러한 단어들은 update()를 사용하여 sw 집합에 추가됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비어 있는 리스트 초기화:
 
@@ -411,7 +638,18 @@ Stopwords 불러오기:
 - 단어가 불용어 세트(sw set)에 없는지 확인합니다(즉, 불용어가 아닌지 확인합니다).
 - 만약 단어가 불용어가 아니라면, words_ns 목록에 추가됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 정신을 차리세요:
 
@@ -424,7 +662,18 @@ Stopwords 불러오기:
 ['dead', 'men', 'tell', 'tales', 'e']
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 10. 단어 빈도 시각화
 
@@ -442,17 +691,41 @@ freqdist1.plot(20)
 
 - %matplotlib inline은 주피터 노트북에서 사용되는 매직 커맨드로, 플롯이 노트북 내에서 인라인으로 나타날 수 있게 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 표 태그를 마크다운 형식으로 바꿔주세요.
 
 | 설정 시각화 스타일:
+
 - sns.set()은 plot에 대한 Seaborn의 기본 미학 매개변수를 설정합니다.
 
 | 빈도 분포 생성:
+
 - nltk.FreqDist(words_ns)는 words_ns 리스트의 단어들을 빈도 분포로 생성합니다. 각 단어의 빈도수가 계산됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 Frequency Distribution을 시각화합니다:
 
@@ -462,7 +735,18 @@ freqdist1.plot(20)
 
 ![Frequency Distribution Plot](/assets/img/2024-06-23-BuildingDataPipelineswithWebScrapingAStep-by-StepGuide_0.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 추가적인 불용어를 추가하지 않는다면 어떻게 되는지 예시가 아래에 나와 있어요.
 
@@ -472,7 +756,18 @@ freqdist1.plot(20)
 
 ## 11. 바이그램(bigrams)과 트라이그램(trigrams) 추출
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 빅램과 트리그램은 주어진 텍스트나 음성 샘플에서 n개의 항목으로 이루어진 연속적인 시퀀스인 n-그램의 한 유형입니다. 자연어 처리(NLP)에서 이러한 항목은 일반적으로 단어입니다.
 
@@ -485,7 +780,18 @@ freqdist1.plot(20)
 
 트리그램:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Trigrams은 연이은 세 개의 단어 시퀀스입니다.
 - 예를 들어, "I love programming"이라는 문장에서 trigrams는 다음과 같습니다:
@@ -517,7 +823,18 @@ for trigram, freq in trigram_freq.most_common(10):
     print(trigram, freq)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Bigrams과 Trigrams을 사용하면 개별 단어(일그램)를 사용하는 것보다 텍스트에서 더 많은 맥락과 의미를 포착할 수 있어요.
 
@@ -556,17 +873,17 @@ Bigrams과 Trigrams을 사용하면 개별 단어(일그램)를 사용하는 것
 def plot_ngrams(ngram_freq, title, xlabel, ylabel):
     ngrams, freqs = zip(*ngram_freq.most_common(10))
     ngrams = [' '.join(ngram) for ngram in ngrams]
-    
+
     # 리스트로 변환
     ngrams = list(ngrams)
     freqs = list(freqs)
-    
+
     # 디버깅: 타입 및 내용 출력
     print("freqs의 타입:", type(freqs))
     print("ngrams의 타입:", type(ngrams))
     print("freqs의 내용:", freqs)
     print("ngrams의 내용:", ngrams)
-    
+
     plt.figure(figsize=(10, 6))
     sns.barplot(x=freqs, y=ngrams)
     plt.title(title)
@@ -582,15 +899,26 @@ plot_ngrams(bigram_freq, '상위 10개의 Bigrams', '빈도수', 'Bigrams')
 plot_ngrams(trigram_freq, '상위 10개의 Trigrams', '빈도수', 'Trigrams')
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 13. POS 태그 생성
 
 ```js
-def preprocess_text(text): 
-    sentences = sent_tokenize(text) 
+def preprocess_text(text):
+    sentences = sent_tokenize(text)
     sentences = [nltk.pos_tag(word_tokenize(sent)) for sent in sentences]
-    
+
     return sentences
 
 sent_text = preprocess_text(text)
@@ -606,7 +934,18 @@ for sent in sent_text:
 
 텍스트 입력에 대한 출력은 각 문장을 (단어, POS 태그) 튜플의 리스트로 나타낸 문장의 리스트가 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 #출력
@@ -643,7 +982,18 @@ for entity in named_entities:
     print(entity)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드 블록은 NLTK를 사용하여 토큰화 및 POS 태깅된 문장에 대해 Named Entity Recognition(NER)을 수행하고 명명된 엔티티를 추출하여 출력하는 함수를 정의합니다.
 
@@ -726,10 +1076,21 @@ and so on...
 
 이 과정은 텍스트 내의 인물, 조직 및 위치와 같은 명명된 엔티티를 식별하고 분류하여 다양한 NLP 애플리케이션에 유용한 정보를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-print(named_entities)
+print(named_entities);
 ```
 
 ```js
@@ -788,7 +1149,18 @@ ORGANIZATION 257
 GPE 254
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 # 엔티티 빈도수를 그리는 함수
@@ -797,13 +1169,13 @@ def plot_entity_frequency(entity_freq, title, xlabel, ylabel):
     # seaborn과 호환성을 보장하기 위해 리스트로 변환
     entities = list(entities)
     freqs = list(freqs)
-    
+
     # 디버깅: 타입과 내용 출력
     print("freqs의 타입:", type(freqs))
     print("entities의 타입:", type(entities))
     print("freqs의 내용:", freqs)
     print("entities의 내용:", entities)
-    
+
     plt.figure(figsize=(10, 6))
     sns.barplot(x=freqs, y=entities)
     plt.title(title)
@@ -821,8 +1193,18 @@ plot_entity_frequency(entity_freq, '상위 10개 명명된 엔티티', '빈도�
 
 NLTK 기반의 명명된 엔티티 인식 (NER) 방법은 일반적으로 잘 작동하지만 가끔 일반 단어를 엔티티로 잘못 분류할 수 있습니다. 예를 들어, "Contents," "Love," "Ocean," 그리고 "Friend"와 같은 단어들이 기관으로 잘못 식별되었는데, 이는 분명히 정확하지 않습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 정확한 결과를 얻기 위해 spaCy 라이브러리를 사용하도록 변경하겠습니다. spaCy는 강력하고 현대적인 NLP 라이브러리로, NER을 더 정확하게 처리하기 위해 설계되었습니다. SpaCy의 미리 훈련된 모델은 텍스트의 명명된 엔티티를 인식하는 데 매우 효과적으로 작용하여 이러한 잘못된 분류를 최소화합니다.
 
@@ -893,7 +1275,18 @@ second ORDINAL
 eva denison PERSON
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Plotting Spacy 파생 엔티티
 
@@ -917,7 +1310,18 @@ plt.show()
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 연습에서는 온라인 소스에서 텍스트 데이터를 추출하고 분석하는 과정을 탐색했습니다. 우리는 먼저 웹페이지의 HTML 내용을 가져와 BeautifulSoup로 구문 분석하고 추출된 텍스트를 정리하여 원치 않는 문자와 불용어를 제거했습니다. 그런 다음 텍스트를 토큰화하고 NLTK를 사용하여 초기 Named Entity Recognition(NER)을 수행했습니다.
 
@@ -927,7 +1331,18 @@ spaCy를 사용하여 우리는 더 나은 결과를 얻을 수 있었고, 자�
 
 이 단계를 따라가면 큰 양의 텍스트를 효율적으로 처리하고 분석하여 의미 있는 정보를 추출하고 내용에 대한 깊은 통찰을 얻을 수 있습니다. 이 접근 방식은 데이터 과학, 연구 및 비즈니스 인텔리전스의 다양한 응용 분야에 중요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 참고 자료
 

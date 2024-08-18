@@ -3,17 +3,13 @@ title: "Android 13에서 onBackPressed 폐지 - 기존 앱에 필요한 주요 �
 description: ""
 coverImage: "/assets/img/2024-07-13-TheonBackPressedIsNowDeprecatedinAndroid13andMightNeedMajorChangesinExistingApps_0.png"
 date: 2024-07-13 00:33
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-TheonBackPressedIsNowDeprecatedinAndroid13andMightNeedMajorChangesinExistingApps_0.png
 tag: Tech
 originalTitle: "The onBackPressed Is Now Deprecated in Android 13 and Might Need Major Changes in Existing Apps"
 link: "https://medium.com/mobile-app-development-publication/migrate-to-android-13-predictive-back-soon-before-its-too-late-e1e1723f392"
 isUpdated: true
 ---
-
-
-
-
 
 ## 안드로이드 개발 배우기
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Google은 경고를 발표했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 우리 앱의 백 버튼 동작을 사용자 정의한다면, Activitity의 onBackPressed를 재정의하는 방식으로, 이 변경 사항을 주의 깊게 살펴야 합니다. 최신 동작으로 업그레이드하는 것은 안드로이드에서 뒤로 가기를 사용자 정의하는 방식에 꽤 많은 패러다임 전환을 요구하며, 이는 상당히 많은 코드 변경으로 이어질 수 있습니다.
 
@@ -33,7 +40,18 @@ Google은 경고를 발표했습니다.
 
 Google은 이 변경 사항에 대해 문서와 YouTube를 공유했지만, 널리 발표되지는 않았습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이건 우연히 onBackPressed가 더 이상 사용되지 않는다는 것을 알게 되었어요.
 
@@ -43,7 +61,18 @@ Google은 이 변경 사항에 대해 문서와 YouTube를 공유했지만, 널�
 
 현재 동작을 변경하는 것은 단지 몇 가지 매개변수를 변경하거나 API 호출만 하는 것이 아닙니다. 예측된 뒤로가기를 가능하게 하려면 돌연변이적인 전환을 필요로 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 따라서 예기치 않은 상황에 대비하기 위해 'Predictive back'을 이해하고 빨리 적용하는 방법을 알아보는 것이 중요합니다.
 
@@ -53,7 +82,18 @@ Google은 이 변경 사항에 대해 문서와 YouTube를 공유했지만, 널�
 
 안드로이드 기기들은 초기에 주로 홈, 최근, 그리고 뒤로 버튼이 3개 있는 것이 일반적이었습니다. 아래 예시는 삼성 S2의 이 버튼들을 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여러 해 동안 하드웨어 버튼은 이제 아래의 Nexus 5 장치에 표시된 것처럼 소프트웨어 버튼으로 진화했습니다. 이로 인해 버튼이 전체 화면에 통합되어 더욱 조화롭게 보입니다.
 
@@ -63,7 +103,18 @@ Google은 이 변경 사항에 대해 문서와 YouTube를 공유했지만, 널�
 
 뒤로 가기용 제스처는 단순히 기기에서 더 많은 화면 공간을 제공하는 것뿐만 아니라 사용자가 실제로 뒤로 이동하고 싶은지를 고려할 수 있도록 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Tarot Image](https://miro.medium.com/v2/resize:fit:640/1*oUQs4mqkLjmWz2GZe6GNrA.gif)
 
@@ -73,7 +124,18 @@ This will help one distinguish if the back button is really just an app internal
 
 In Android 13, this is made possible, if
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 앱은 Predictive Back을 채택했습니다 (코드에서만 사용하고 더 이상 onBackPressed()를 사용하지 않음)
 - AndroidManifest.xml에서 애플리케이션 섹션에 android:enableOnBackInvokedCallback="true"을 선언하여 Predictive Back에 동의합니다.
@@ -85,7 +147,18 @@ In Android 13, this is made possible, if
 
 ![Deprecated in Android 13](/assets/img/2024-07-13-TheonBackPressedIsNowDeprecatedinAndroid13andMightNeedMajorChangesinExistingApps_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 그림처럼, 나는 onBackPressed 커스터마이징을 3단계로 분할하고 있어.
 
@@ -95,7 +168,18 @@ In Android 13, this is made possible, if
 
 이것의 전형적인 사용 사례는 중첩된 fragment가 있는 activity에서 사용자가 뒤로 가기를 클릭할 때, activity를 종료하는 대신에 먼저 중첩된 fragments를 팝하고 싶은 경우야.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래와 같이 Fragment에 onBackPressed()가 없으므로 activity의 onBackPressed()에서 완전히 처리합니다.
 
@@ -117,7 +201,18 @@ override fun onBackPressed() {
 
 ## 2. Android T (이후) onBackPressed 이전 버전으로 이동하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 In Android T today, we can still use onBackPressed() just like before, and it will work the same way as it did in the past.
 
@@ -127,7 +222,18 @@ But it's a good idea to start thinking about using the onBackPressedDispatcher c
 
 For better backward compatibility, make sure to add the latest version of AndroidX activity (1.6 or newer) to the dependencies section of your app’s build.gradle.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그건 어렵지 않게 들릴 수 있지만, onBackPressed() 코드를 onBackPressedDispatcher 콜백으로 이동하면 되겠지 않을까요? 아래와 같이 활동 onCreate()에서 보여주는 것처럼요
 
@@ -158,7 +264,18 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
 우리의 경우에는 이로 인해 다른 동작이 나타날 거예요. 이에 대해 자세히 설명한 부분이 있어요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3. 안드로이드 T(이후 버전)에서 android:enableOnBackInvokedCallback를 켠 경우
 
@@ -168,7 +285,18 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
 ![이미지](/assets/img/2024-07-13-TheonBackPressedIsNowDeprecatedinAndroid13andMightNeedMajorChangesinExistingApps_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 따라서, 새로운 onBackPressed Dispatcher 콜백 플로우로 조속히 이동하는 것이 중요합니다.
 
@@ -178,7 +306,18 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
 매개변수는 다음과 같습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 fun OnBackPressedDispatcher.addCallback(
@@ -196,7 +335,18 @@ fun OnBackPressedDispatcher.addCallback(
 
 뒤로 가기 콜백이 작동하는 방식을 이해하기 위해, 한 가지 디자인을 사용하여 설명해보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-07-13-TheonBackPressedIsNowDeprecatedinAndroid13andMightNeedMajorChangesinExistingApps_6.png)
 
@@ -209,9 +359,20 @@ fun OnBackPressedDispatcher.addCallback(
 
 1, 2, 3, 4에서보다 상세히 설명된 것처럼 onBackPressed 콜백이 추가됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-**Back 동작에 대한 내용입니다. 각 백 제스처는 해당 콜백(반대로 실행되는 형태)을 실행하고, 이전 콜백이 실행되기 전에 제거되어야 합니다(다음 백 제스처가 트리거되었을 때).
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+\*\*Back 동작에 대한 내용입니다. 각 백 제스처는 해당 콜백(반대로 실행되는 형태)을 실행하고, 이전 콜백이 실행되기 전에 제거되어야 합니다(다음 백 제스처가 트리거되었을 때).
 
 - 5. 첫 번째 백 제스쳐가 트리거 되면, Fragment에 추가된 사용자 지정 백이 호출되어 Fragment가 팝됩니다. Fragment가 팝되고 나면 해당 콜백이 스택에서 제거됩니다.
 - 6. 다음 백 제스쳐가 트리거되면, 시스템에서 추가된 백 액션이 Home 탭으로 돌아가는 트리거입니다.
@@ -220,9 +381,20 @@ fun OnBackPressedDispatcher.addCallback(
 
 **콜백 사용 활성화**
 
-onBackPressedDispatcher 스택에 콜백을 추가하면 활성화될 때까지 트리거되지 않습니다.**
+onBackPressedDispatcher 스택에 콜백을 추가하면 활성화될 때까지 트리거되지 않습니다.\*\*
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문구는 사용자의 상태에 따라 앱을 나가거나 (예: 사용자에게 정말로 앱을 나가겠냐고 묻는 대화 상자를 표시하는) 사용자 지정 작업을 수행할 수 있도록 하는 경우에 매우 편리합니다.
 
@@ -232,7 +404,18 @@ onBackPressedDispatcher 스택에 콜백을 추가하면 활성화될 때까지 
 
 # 이주 예시 디자인
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에서 공유된 onBackPressedDispatcher 콜백 스택 작동 방식에 대해 공유했었는데, 코드 관점에서 백(뒤로) 사용자 정의를 어떻게 이동할 수 있는지 살펴보는 것이 좋을 수도 있겠죠.
 
@@ -242,8 +425,18 @@ onBackPressedDispatcher 스택에 콜백을 추가하면 활성화될 때까지 
 
 이 디자인에서, 마이그레이션을 설명하기 위해 4가지 샘플이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](https://miro.medium.com/v2/resize:fit:640/1*FYreUmTcDWhbx3V6pK5dEA.gif)
 
@@ -251,8 +444,18 @@ onBackPressedDispatcher 스택에 콜백을 추가하면 활성화될 때까지 
 
 앱 플로우의 원래 동작에서는 뒤로 가기 제스처 동작을 설명하겠습니다. 마이그레이션을 테스트하기 위해 사용할 수 있는 내용입니다. 뒤로 가기 제스처를 통해 탭 전환, Fragment 및 ChildFragment가 팝될 때의 동작을 보여드리겠습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 자세한 설명을 위해 아래의 플로우를 보여드립니다.
 
@@ -276,7 +479,18 @@ override fun onBackPressed() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## onBackPressed() 함수와 enableOnBackInvokedCallback을 사용한 활동
 
@@ -286,7 +500,18 @@ override fun onBackPressed() {
 
 이상한 동작은 아래에서 확인할 수 있습니다. 백이 2개 빠져버린 상황이 나타납니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이를 더 잘 설명하기 위해 사용자 정의 제스처 back 콜백이 추가되지 않은 경우 시스템에서 추가한 두 가지 케이스가 있습니다:
 
@@ -295,7 +520,18 @@ override fun onBackPressed() {
 
 ![image](/assets/img/2024-07-13-TheonBackPressedIsNowDeprecatedinAndroid13andMightNeedMajorChangesinExistingApps_12.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 따라서 뒷닫힘 동작 시에는 그 두 개의 뒤에만 작동되도록 트리거되었습니다.
 
@@ -305,7 +541,18 @@ override fun onBackPressed() {
 
 onBackPressed() 함수가 더 이상 작동하지 않는다는 점을 감안해, activity onCreate()에서 onBackPressedDispatcher를 사용하도록 마이그레이션할 수 있을 것으로 생각되어 콜백을 추가했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 override fun onCreate(savedInstanceState: Bundle?) {
@@ -342,8 +589,18 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
 이 코드가 없으면 모든 프래그먼트가 팝됐어도 계속해서 모든 백키 제스처를 가로채는 콜백이 영원히 남아있어서, 메인 액티비티에서 벗어날 수 없고 애플리케이션을 종료할 수 없게 됩니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문제를 해결하려면
 
@@ -354,7 +611,18 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
 ![이미지 설명](/assets/img/2024-07-13-TheonBackPressedIsNowDeprecatedinAndroid13andMightNeedMajorChangesinExistingApps_14.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이를 더 잘 설명하기 위해 사용자 정의한 제스처 백 콜백이 액티비티의 onCreate()에 추가되었기 때문에 후에 삽입되는 탭 변경 콜백보다 앞에 삽입됩니다. 따라서 콜백들(추가된 순서대로)은 아래와 같습니다.
 
@@ -366,15 +634,24 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
 이러한 콜백이 설정된 상태에서 제스처 백을 하면 먼저 홈 탭으로의 네비게이션 백이 트리거됩니다. 홈 탭 네비게이션 이후의 하위 프래그먼트들은 팝될 기회조차 없게 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 🌟
 
 위 이미지 태그를 아래 Markdown 형식에 맞게 바꿔보세요.
 
-
 ![이미지 설명](/assets/img/2024-07-13-TheonBackPressedIsNowDeprecatedinAndroid13andMightNeedMajorChangesinExistingApps_16.png)
-
 
 그리고 사용자의 경우, 맞춤 백이 마지막으로 트리거될 때 다음 백 액션을 수동으로 트리거해야 합니다. 이 자체가 코드 스멜이 되는군요.
 
@@ -382,7 +659,18 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
 액티비티 onCreate()에 onBackPressedDispatcher를 추가하는 것이 우리 상황에서 도움이 되지 않는다면, 아마도 컨테이너 프래그먼트의 onViewCreated()에 onBackPressedDispatcher 콜백을 추가할 수 있을 것 같아요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -421,7 +709,18 @@ this@addCallback.remove()
 requireActivity().onBackPressedDispatcher.onBackPressed()
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만, 이 방식에서는 이주 이전의 원래 설계 동작을 나타내는 것처럼 행동하는 것을 볼 수 있어요.
 
@@ -434,7 +733,18 @@ requireActivity().onBackPressedDispatcher.onBackPressed()
 - 모든 Fragment를 팝하는 Container Fragment에 추가된 사용자 지정 콜백
 - 애플리케이션을 종료하는 back
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image 1](/assets/img/2024-07-13-TheonBackPressedIsNowDeprecatedinAndroid13andMightNeedMajorChangesinExistingApps_18.png)
 
@@ -444,7 +754,18 @@ With these callbacks in place, when we gesture back, it first triggers the poppi
 
 From a normal behavior point of view, this already reflects the original design that utilizes the onBackPressed() function.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이에 대한 문제는 다음과 같습니다:
 
@@ -455,7 +776,18 @@ From a normal behavior point of view, this already reflects the original design 
 
 최종 백 동작은 다음과 같이 나타납니다. 앱을 나가는 예측적인 백이 표시되지 않음 (최종 제스처 백에 2개의 콜백이 있기 때문입니다).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Child Fragment onBackPressedDispatcher Callback Setup](https://miro.medium.com/v2/resize:fit:640/1*oUQs4mqkLjmWz2GZe6GNrA.gif)
 
@@ -465,7 +797,18 @@ From a normal behavior point of view, this already reflects the original design 
 
 이것이 가장 합리적인 것으로 보이며, 각 백 제스처는 자식 프래그먼트 자체를 제거하는 것을 의도하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -488,8 +831,18 @@ override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
 
 행동 흐름은 원래 디자인과 동일하며, 올바른 동작입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내부적으로는, 콜백(callback)이 구성되는 방식이 이전 방식과 다릅니다.
 
@@ -498,7 +851,18 @@ override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
 
 ![이미지](/assets/img/2024-07-13-TheonBackPressedIsNowDeprecatedinAndroid13andMightNeedMajorChangesinExistingApps_21.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 백 행동을 수행할 때마다 해당 백 동작은 자체 콜백을 호출하고 하위 프래그먼트를 팝합니다. 팝될 때마다 해당 콜백은 자동으로 제거됩니다. 따라서 시스템 콜백을 수동으로 호출하는 것은 더 이상 필요하지 않습니다.
 
@@ -508,7 +872,18 @@ override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
 
 ![image](https://miro.medium.com/v2/resize:fit:640/1*pLjip7gaacZwFy0sSfmLaA.gif)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 이는 onBackPressed()에서 onBackPressedDispatcher로의 완전한 동작 이동을 충족합니다.
 
@@ -516,7 +891,18 @@ override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
 
 디자인에서 공유된 대로 onBackPressed()에서 onBackPressedDispatcher로의 이주는 단순한 매개변수 변경 뿐만 아니라 API 호출 변경뿐만 아니라 코드가 이동해야하는 전반적인 흐름 역시 포함됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오리지널 맞춤화된 백 버튼 동작이 얼마나 복잡한지에 따라, 백 버튼 동작을 이해하고 변경해야 할 수도 있습니다. 따라서 이전 이관 작업은 적기에 올바르게 수행되도록 시작돼야 합니다.
 
@@ -528,7 +914,18 @@ override fun onBackPressed() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -550,8 +947,18 @@ override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
 
 # 참고자료
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Systems Back에 대한 기본 사항 - Google의 YouTube 채널에서 확인하세요
 - 사용자 정의 백 네비게이션을 제공하는 방법 - Google 문서에서 찾아보세요

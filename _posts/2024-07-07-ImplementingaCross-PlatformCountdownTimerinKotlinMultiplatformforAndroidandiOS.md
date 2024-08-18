@@ -3,17 +3,13 @@ title: "Kotlin 멀티플랫폼으로 Android와 iOS에서 동작하는 카운트
 description: ""
 coverImage: "/assets/img/2024-07-07-ImplementingaCross-PlatformCountdownTimerinKotlinMultiplatformforAndroidandiOS_0.png"
 date: 2024-07-07 13:41
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-ImplementingaCross-PlatformCountdownTimerinKotlinMultiplatformforAndroidandiOS_0.png
 tag: Tech
 originalTitle: "Implementing a Cross-Platform Countdown Timer in Kotlin Multiplatform for Android and iOS"
 link: "https://medium.com/@adman.shadman/implementing-a-cross-platform-countdown-timer-in-kotlin-multiplatform-for-android-and-ios-6f3f41695607"
 isUpdated: true
 ---
-
-
-
-
 
 ![Image](/assets/img/2024-07-07-ImplementingaCross-PlatformCountdownTimerinKotlinMultiplatformforAndroidandiOS_0.png)
 
@@ -25,7 +21,18 @@ isUpdated: true
 
 Kotlin Multiplatform을 사용하면 여러 플랫폼에서 실행할 수 있는 코드를 작성하여 중복을 줄이고 일관성을 유지할 수 있습니다. 이 예제에서는 지정된 간격으로 사용자에게 남은 날, 시간, 분과 초를 업데이트하는 카운트다운 타이머를 구현할 것입니다. 안드로이드와 iOS에 대해 플랫폼별 구현을 제공할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 공통 코드
 
@@ -45,7 +52,18 @@ expect class CountDownTimer(
 
 # 안드로이드 구현
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 안드로이드 구현부분에 대해서 이야기를 해보도록 할게요.
 
@@ -82,7 +100,18 @@ actual class CountDownTimer actual constructor(
 
 iOS 구현부분은 NSTimer를 사용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 class CountDownTimer constructor(
@@ -151,7 +180,18 @@ val countDownTimer = CountDownTimer(
 countDownTimer.start()
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

@@ -3,17 +3,13 @@ title: "에어쿨드 폭스바겐 엔진 이해하기 쉽게 배우는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-22-UnderstandingyouraircooledVolkswagenengine_0.png"
 date: 2024-06-22 19:08
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-UnderstandingyouraircooledVolkswagenengine_0.png
 tag: Tech
 originalTitle: "Understanding your aircooled Volkswagen engine"
 link: "https://medium.com/@iknowdavehouse/understanding-your-aircooled-volkswagen-engine-7d01688e799e"
 isUpdated: true
 ---
-
-
-
-
 
 오래된 비틀, 스플릿, 베이, 카만 기아 또는 심지어 공조식 포르쉐를 구입했다면, 스스로 약간의 유지보수를 해야 할 가능성이 높습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 엔진 배치
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여러분이 후드를 열면 상태가 비교적 특별하지 않은 1형 엔진이 어떻게 보이는지 아래 이미지를 확인해보세요. 비틀, 버스 또는 기아 모두 거의 비슷한 것이 보일 것입니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 엔진이 약간 다르게 보인다면 걱정하지 마세요. 아래에서 일반적인 변경 사항을 다루겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 엔진 기본 사항
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 ![엔진 작동 애니메이션](https://miro.medium.com/v2/resize:fit:1200/1*iJx0nTync7gRIdY8ckjVCg.gif)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 흡입
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 실린더 안에 딱 맞게 들어가는 피스톤이 공기와 연료 혼합물을 강하게 압축합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 불꽃
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 엔진 외부에서 무언가를 발화시키는 것이 연기를 일으키듯이, 연소된 공기와 연료 혼합물이 실린더를 뜨겁게 가스로 채웁니다. 실린더에서의 피스톤의 다음 주기에서, 이 가스들은 배기 시스템으로 밸브를 통해 밖으로 배출되어 자동차의 배기관으로 이어집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 협동 작업
 
@@ -73,8 +124,18 @@ isUpdated: true
 
 이 기사의 대다수에서는 주석이 달린 이미지를 참조하게 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![UnderstandingyouraircooledVolkswagenengine](/assets/img/2024-06-22-UnderstandingyouraircooledVolkswagenengine_1.png)
 
@@ -84,8 +145,18 @@ The crank shaft pulley is our main visible link to engine turning on the inside.
 
 Whether you have a stock pulley or an aftermarket one you will see a few marks on it. The main mark, shown below as a dent (bit will be marked TDC or 0 on an after market pulley) tells us where the engine is in its cycle. It’s almost like being able to see through the engine case to find out what position the pistons are in. Top Dead Centre (TDC) is the furthest point in the piston’s travel for cyclinders 1 and 3, Bottom Dead Centre (BDC) is the same for cyclinders 2 and 4 and is 180 degrees opposite of TDC on the pulley.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 풀리에 있는 다른 표식은 타이밍 표식입니다. 일반 풀리의 경우, 이 표식은 뒷면에 잘린 홈으로 표시됩니다. 이 표식들은 풀리 주변의 특정 각도 간격을 나타내며, TDC 오른쪽 첫 번째 표식은 7.5 BTDC입니다. 이는 탑데드센터의 7.5도 앞을 의미합니다.
 
@@ -95,7 +166,18 @@ Whether you have a stock pulley or an aftermarket one you will see a few marks o
 
 ![이미지](/assets/img/2024-06-22-UnderstandingyouraircooledVolkswagenengine_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2. 점화 코일
 
@@ -105,7 +187,18 @@ Whether you have a stock pulley or an aftermarket one you will see a few marks o
 
 코일의 출력은 디스트리뷰터(3)에 연결되는 작은 HT(고 전압) 리드입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3. 유통자
 
@@ -115,8 +208,18 @@ Whether you have a stock pulley or an aftermarket one you will see a few marks o
 
 SVDA는 진공 전진이라는 것을 사용하며, 유통자 측면에 브라스 포크 파이 모자와 비슷한 부품이 있으면 진공 전진이 있는 것입니다. 이 부품은 당신의 기화기(9)로 이어지는 호스에 연결됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Understanding your air-cooled Volkswagen engine](/assets/img/2024-06-22-UnderstandingyouraircooledVolkswagenengine_5.png)
 
@@ -126,8 +229,18 @@ The distributor cap has 5 plugs to attach HT leads to. The plug in the center wi
 
 The firing order of a VW type 1 engine is 1–4–3–2. This means the engine cycle (Suck, squeeze, bang, blow) will start on cylinder 1, then move to cylinder 4, then 3, then 2.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SVDA 디스트리뷰터를 사용할 경우, 실린더 1의 HT 리드는 디스트리뷰터 캡의 1시 위치에 연결되어야 하고, 실린더 4는 4시 위치, 실린더 3은 7시 위치, 실린더 2는 11시 위치에 연결되어야 합니다.
 
@@ -137,8 +250,18 @@ SVDA 디스트리뷰터를 사용할 경우, 실린더 1의 HT 리드는 디스�
 
 만약 009 디스트리뷰터를 사용한다면, 약간 다른 방향을 가지고 있습니다. 모든 것은 같은 순서로 되어 있지만, 시계 반대 방향으로 한 단계 이동하여 실린더 1을 4시 위치에 두게 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![UnderstandingyouraircooledVolkswagenengine](/assets/img/2024-06-22-UnderstandingyouraircooledVolkswagenengine_7.png)
 
@@ -148,9 +271,18 @@ I have written a separate article about this [here](https://iknowdavehouse.mediu
 
 Inside the distributor, there are a few important parts. The first thing you’ll see under the cap is the rotor. The rotor spins in a clockwise direction as the engine turns over. As it spins, it distributes the power to each HT lead in turn.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Understanding Your Air Cooled Volkswagen Engine Image 8](/assets/img/2024-06-22-UnderstandingyouraircooledVolkswagenengine_8.png)
 
@@ -160,8 +292,18 @@ A distributor with points will look like the image below inside. Points manually
 
 ![Understanding Your Air Cooled Volkswagen Engine Image 9](/assets/img/2024-06-22-UnderstandingyouraircooledVolkswagenengine_9.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전자 점화 장치를 장착한 유통업체는 다음과 같이 보이는 것으로 점프를 교환할 것입니다.
 
@@ -171,7 +313,18 @@ A distributor with points will look like the image below inside. Points manually
 
 하지만, 전자 점화 부품이 가끔 고장 나기도 합니다. 길에서 고립될 경우를 대비하여 기존의 점프와 콘덴서를 차량에 보관하는 것이 좋습니다. 저는 개인적으로 비상용 분배기를 내 버스에 보관해 두고 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4. 스파크 플러그
 
@@ -181,9 +334,20 @@ A distributor with points will look like the image below inside. Points manually
 
 매년 스파크 플러그를 점검해야 합니다. 스파크 플러그의 상태는 엔진 작동 방식에 대해 많은 정보를 제공할 뿐만 아니라 엔진의 성능에 상당한 영향을 미칠 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-잘못 점화, 엔진 타이밍 또는 가속에 문제가 있는 경우, 다른 작업을 하기 전에 먼저 점화 플러그를 청소하거나 교체하세요. 전체 세트의 가격은 ￡10-15 정도로 저렴하기 때문에, 불문하고 교체하고 이전 세트를 백업용으로 보관하는 것이 좋습니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+잘못 점화, 엔진 타이밍 또는 가속에 문제가 있는 경우, 다른 작업을 하기 전에 먼저 점화 플러그를 청소하거나 교체하세요. 전체 세트의 가격은 ￡ 10-15 정도로 저렴하기 때문에, 불문하고 교체하고 이전 세트를 백업용으로 보관하는 것이 좋습니다.
 
 점화 플러그를 교체하거나 새로 살 때는 전극 갭이라고 불리는 크기를 확인해야 합니다. 실린더 내의 공기와 연료 혼합물을 불태우기 위해서 플러그 내부의 전기는 우리에게 유용하지 않습니다.
 
@@ -191,7 +355,18 @@ A distributor with points will look like the image below inside. Points manually
 
 갭이 너무 커지면 전기가 아크할 수 없어 연료 혼합물을 불태울 스파크가 발생하지 않을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일부 특수하지만 저렴한 도구를 사용하여 간격을 확인하고 조정할 수 있습니다. 타입 1 엔진의 경우 0.6mm로 설정하십시오.
 
@@ -203,7 +378,18 @@ A distributor with points will look like the image below inside. Points manually
 
 배터리에서 당신의 점화 코일 (2)에 전원을 공급하는 것은 실제로 어떠한 전기도 전부 배터리에서 옵니다. 자동차 배터리는 집에 있는 배터리와 마찬가지로 제한된 양의 전력만을 담아냅니다. 충전되지 않으면 매우 빨리 방전된 상태로 발견하게 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 발전기 또는 더 현대적인 교류발전기는 엔진의 에너지를 사용하여 배터리를 충전합니다. 크랭크 축 풀리(1)에 팬 벨트(7)로 연결되어 있어 엔진이 회전함에 따라 발전기도 회전합니다.
 
@@ -213,7 +399,18 @@ A distributor with points will look like the image below inside. Points manually
 
 ![이미지](/assets/img/2024-06-22-UnderstandingyouraircooledVolkswagenengine_14.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대체 발전기 업그레이드를 하면 더 많은 전력이 생성되어, 배터리를 더 빨리 충전할 수 있게 됩니다. 그리고 차량이 더 많은 전기를 사용할 수 있게 되어, 헤드라이트가 약간 밝게 빛날 것입니다.
 
@@ -223,7 +420,18 @@ A distributor with points will look like the image below inside. Points manually
 
 회전하는 발전기나 대체 발전기는 공기가 통하지 않는 엔진에서 또 다른 일을 해야 합니다. 그 뒷면에는 엔진 내부를 냉각하는 팬에 붙어 있습니다. 팬 벨트가 고장나면 발전기가 동작을 멈출 것이고, 무엇보다도 팬이 회전을 멈출 것을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 빨간 발전기 경고등(G)이 속도계에 나타나면 즉시 길 가에 세우셔야 합니다. 발전기가 작동하지 않아도 집에 갈 수는 있지만 팬벨트 없이는 못 갈 것 같아요.
 
@@ -233,7 +441,18 @@ A distributor with points will look like the image below inside. Points manually
 
 ![이미지](/assets/img/2024-06-22-UnderstandingyouraircooledVolkswagenengine_15.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![UnderstandingyouraircooledVolkswagenengine](/assets/img/2024-06-22-UnderstandingyouraircooledVolkswagenengine_16.png)
 
@@ -243,7 +462,18 @@ A distributor with points will look like the image below inside. Points manually
 
 # 7. 팬벨트
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **팬벨트**는 크랭크 샤프트 풀리(1)와 발전기(5)를 연결합니다. 이로써 발전기가 회전하게 되고, 이에 따라 발전기의 반대편에 있는 팬이 회전합니다.
 
@@ -253,7 +483,18 @@ A distributor with points will look like the image below inside. Points manually
 
 팬벨트를 조여야 하거나 풀어야 하는 경우, 쉼(Shims)을 이동하여 발전기 풀리의 내부 또는 외부로 이동시켜야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비록 이것이 이상하게 보일 수 있지만, 이것은 그저 풀리 상에서 벨트의 위치를 조절하는 간단한 문제일 뿐입니다. 밖쪽에 셈이 더 많을수록, 풀리의 중간이 더 가깝게 맞붙게 됩니다. 이는 벨트가 풀리 위쪽에 더 높게 위치하고 있어서 더 타이트하게 되는 것을 의미합니다.
 
@@ -263,7 +504,18 @@ A distributor with points will look like the image below inside. Points manually
 
 저스트 캠퍼스(Just Kampers)에는 팬벨트를 교체하는 방법에 대한 유용한 비디오가 있습니다. 함께 확인해보세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 8. Karburetor
 
@@ -273,7 +525,18 @@ A distributor with points will look like the image below inside. Points manually
 
 공기와 연료의 혼합 비율은 카브레이터 자체의 혼합 스크루로 조절됩니다. 이를 통해 더 가난한(더 적은 연료) 또는 더 풍부한(더 많은 연료) 혼합을 엔진에 제공할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 탈수 없는 심한 문제가 발생하지 않는 한, 예를 들어 차량을 전혀 운전할 수 없는 상황이 아니라면, 프로페셔널에 의해 서비스 중에 설정되도록 하고, 가능한 한 손 대지 않는 것이 좋을 것 같습니다.
 
@@ -283,7 +546,18 @@ A distributor with points will look like the image below inside. Points manually
 
 발을 밟으면 케이블이 스로틀을 엽니다. 발을 더 밟을수록 더 많은 연료가 캐버레터로 공급됩니다. 페달에서 발을 떼면 스로틀이 열린 상태로 고정되는 것을 피하기 위해 리턴 스프링이 스로틀을 시작 위치로 재설정합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 엑셀러레이터를 밟은 후에도 엔진이 계속해서 속도를 높인다면, 스로틀이 반환되지 못했다는 것을 의미할 수 있습니다. 이는 스로틀이 잠겨 열려 있을 수 있음을 암시합니다. 이는 페달과 캐브레이터 사이 어딘가에 걸린 파손된 케이블, 캐브레이터의 통이 막힌 스로틀 링크 또는 텐션이 사라진 반환 스프링으로 인한 경우일 수 있습니다.
 
@@ -293,7 +567,18 @@ A distributor with points will look like the image below inside. Points manually
 
 ## 초크와 고속 아이들
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 엔진이 차가울 때에는 일시적으로 더 풍부한 연료 혼합물이 필요할 수 있습니다. 이것은 '쵹크(choke)'라 불리는 것으로 처리됩니다.
 
@@ -303,11 +588,33 @@ A distributor with points will look like the image below inside. Points manually
 
 ## 단일, 점진적 또는 이중 기화기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 부위의 태그를 마크다운 형식으로 변경했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![엔진 이미지](/assets/img/2024-06-22-UnderstandingyouraircooledVolkswagenengine_20.png)
 
@@ -317,7 +624,18 @@ A distributor with points will look like the image below inside. Points manually
 
 아래 엔진 애니메이션을 보면, 디스트리뷰터(3)의 줄기를 따라 가다보면 크랭크 샤프트 풀리(1)까지 이어지는 작은 막대기인 푸시 로드가 위아래로 튕기는 것을 볼 수 있습니다. 이 엔진 회전과의 관계는 중요합니다. 엔진이 빠를수록 캐브레이터로 펌핑해야 하는 연료 양도 많아집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![UnderstandingyouraircooledVolkswagenengine](/assets/img/2024-06-22-UnderstandingyouraircooledVolkswagenengine_21.png)
 
@@ -327,7 +645,18 @@ A distributor with points will look like the image below inside. Points manually
 
 흡기 매니폴드는 엔진 중앙의 파이프 구조물입니다. 단일 캐브 아래 중앙 파이프를 따라 공기와 연료 혼합물을 가져와 왼쪽과 오른쪽 엔진 쪽으로 나누어 두꺼운 파이프를 통해 각 실린더로 연료를 전달합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-22-UnderstandingyouraircooledVolkswagenengine_22.png)
 
@@ -337,7 +666,18 @@ A distributor with points will look like the image below inside. Points manually
 
 열 상승 파이프는 실제로 인렛 매니폴드의 주 파이프에 연결되지 않고 배기 시스템에 연결됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단 하나의 탄화물 엔진에서 흡기 매니폴드를 통해 흡입된 공기와 연료 혼합물로 인해 연료가 얼어 얼음이 될 수 있습니다. 이를 '탄화물 동결'이라고 합니다. 이로 인해 연료가 부족하여 엔진이 간혹 작동 중단될 수 있습니다. 진단하기 쉽습니다. 만약 탄화물 동결 문제가 있다면 얼음이 형성되는 것을 실제로 볼 수 있거나 탄화물 아래의 매니폴드가 흰색 / 파란색으로 변하는 것을 볼 수 있습니다.
 
@@ -347,7 +687,18 @@ A distributor with points will look like the image below inside. Points manually
 
 열 상승 파이프는 배기 열의 지속적인 유동으로 인해 연로로 막힐 수 있으며 몇 년 동안 정기적으로 청소해야 합니다. 막힌 열 상승 파이프는 당연히 탄화물 동결의 주요 원인 중 하나입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 듀얼 캐브레이터가 장착된 인테이크 매니폴드
 
@@ -357,8 +708,18 @@ A distributor with points will look like the image below inside. Points manually
 
 발전기(5) 섹션에서 언급된대로, 발전기 뒷부분은 팬에 연결되어 있습니다. 이 팬은 엔진 뒷부분에 위치한 철 패널 위에 볼트로 고정됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지1](/assets/img/2024-06-22-UnderstandingyouraircooledVolkswagenengine_24.png)
 
@@ -368,8 +729,18 @@ A distributor with points will look like the image below inside. Points manually
 
 ![이미지2](/assets/img/2024-06-22-UnderstandingyouraircooledVolkswagenengine_25.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 12. 오일 충전구
 
@@ -379,7 +750,18 @@ A distributor with points will look like the image below inside. Points manually
 
 # 13. 공기 필터
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주식 버스 엔진의 공기 필터는 엔진의 오른쪽 페더스털에 위치하며 큰 플라스틱 파이프를 통해 연료분사기 상단에 연결됩니다. 다양한 차량들과 연도에 따라 공기 필터에는 몇 가지 변형이 있지만, 검은 플라스틱으로 만들어진 것이라면 아마 주식품일 것입니다.
 
@@ -389,7 +771,18 @@ A distributor with points will look like the image below inside. Points manually
 
 공기 필터의 종류에 상관 없이, 매년 한 번은 필터를 점검하고 청소해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 오일 바스
 
@@ -399,7 +792,18 @@ A distributor with points will look like the image below inside. Points manually
 
 ## 팬케이크 필터
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 오일 배스가 없다면 놀라지 마세요. 내가 본 대부분의 엔진은 오일 배스 설정대인 공기 필터를 팬케이크 필터로 교체했습니다.
 
@@ -409,7 +813,18 @@ A distributor with points will look like the image below inside. Points manually
 
 # 할 수 있어요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 엔진이 어떻게 작동하는지와 각 구성 요소가 무엇을 하는지에 대해 더 잘 이해하셨으니, 엔진을 유지 보수하거나 필요할 때 까다로운 상황을 해결하는 데 필요한 많은 작업을 수행할 수 있게 되었습니다.
 

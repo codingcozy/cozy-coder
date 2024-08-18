@@ -3,17 +3,13 @@ title: "블루투스를 사용하여 헤드리스 라즈베리 파이에 연결�
 description: ""
 coverImage: "/assets/img/2024-06-23-ConnecttoaheadlessRaspberryPiusingBluetooth_0.png"
 date: 2024-06-23 18:13
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-ConnecttoaheadlessRaspberryPiusingBluetooth_0.png
 tag: Tech
 originalTitle: "Connect to a headless Raspberry Pi using Bluetooth"
 link: "https://medium.com/@tomw3115/connect-to-a-headless-raspberry-pi-using-bluetooth-0e61c05e1b68"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-23-ConnecttoaheadlessRaspberryPiusingBluetooth_0.png" />
 
@@ -26,10 +22,20 @@ isUpdated: true
 sudo nano /etc/systemd/system/rfcomm.service
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 내용을 입력해주세요:
-
 
 [Unit]
 Description=RFCOMM 서비스
@@ -40,12 +46,22 @@ ExecStart=/usr/bin/rfcomm watch hci0 1 getty rfcomm0 115200 xterm -a <로그인�
 [Install]
 WantedBy=multi-user.target
 
-
 `<로그인이름>` 자리에 기기에 로그인하려는 사용자 이름을 입력해주세요. 만약 자동 로그인을 원치 않는다면, `ExecStart` 줄의 `xterm` 이후에 있는 모든 내용을 제거해주세요.
 
 3. 다음 명령어를 사용하여 재부팅 시 실행되도록 이 서비스를 설치해주세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 sudo systemctl enable rfcomm
@@ -54,13 +70,24 @@ sudo systemctl enable rfcomm
 4. 다음과 같이 맨 위에 "DisbablePlugins = pnat" 문을 추가하여 파일 /etc/bluetooth/main.conf를 수정하십시오:
 
 ```js
-[General]
-DisablePlugins = pnat
+[General];
+DisablePlugins = pnat;
 ```
 
 5. 사용하고 싶은 Bluetooth 이름을 가진 파일 /etc/machine-info를 추가하거나 수정하십시오.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 PRETTY_HOSTNAME=<블루투스이름>
@@ -74,7 +101,18 @@ PRETTY_HOSTNAME=<블루투스이름>
 sudo nano /etc/systemd/system/bluetooth.target.wants/bluetooth.service
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 두 줄로 대체해주세요:
 
@@ -83,7 +121,18 @@ ExecStart=/usr/libexec/bluetooth/bluetoothd -C
 ExecStartPost=/usr/bin/sdptool add SP
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 7. 이제 구성이 완료되어 장치를 다시 부팅하여 서비스를 다시 시작하세요.
 
@@ -99,7 +148,18 @@ scan on
 
 이제 아래와 같이 Bluetooth 장치 ID가 표시됩니다. 통신하는 기기의 16진수 값을 찾아 작동 중인지 확인하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-23-ConnecttoaheadlessRaspberryPiusingBluetooth_1.png" />
 
@@ -112,8 +172,18 @@ exit
 
 10. 올바른 연결을 확인하려면 PC로 돌아가주세요. "Bluetooth 및 기타 장치" 창에서 아래로 스크롤하여 "장치 및 프린터"를 찾아 선택해주세요. 여기에 따라 "Unspecified" 항목 하위에 장치 목록이 표시됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-23-ConnecttoaheadlessRaspberryPiusingBluetooth_2.png" />
 
@@ -123,8 +193,18 @@ exit
 
 시리얼 포트 항목이 여러분의 디바이스에 연결해야 하는 포트입니다. 다음 단계에서 사용할 COM 포트 번호를 기록해주세요.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 11. 이제 PC에서 새 PuTTY 창을 열고 표시된대로 연결 매개변수를 입력하세요. "Serial" 연결 유형을 선택하고 COM 포트 및 속도 값을 입력하세요.
 
@@ -134,7 +214,18 @@ exit
 
 ![이미지](/assets/img/2024-06-23-ConnecttoaheadlessRaspberryPiusingBluetooth_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신이 있네요!
 

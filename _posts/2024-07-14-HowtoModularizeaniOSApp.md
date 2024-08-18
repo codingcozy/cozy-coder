@@ -3,17 +3,13 @@ title: "iOS 앱 모듈화 하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-14-HowtoModularizeaniOSApp_0.png"
 date: 2024-07-14 00:05
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-14-HowtoModularizeaniOSApp_0.png
 tag: Tech
 originalTitle: "How to Modularize an iOS App"
 link: "https://medium.com/gitconnected/how-to-modularize-an-ios-app-a8d5bdab8398"
 isUpdated: true
 ---
-
-
-
-
 
 이 글에서는 iOS 애플리케이션을 더 작은 모듈로 분할하는 방법에 대해 깊이 알아보겠습니다. XcodeGen, Clean Architecture 원칙, Xcode 템플릿 등을 활용할 것입니다. 사용자 인터페이스에는 SwiftUI를 사용하고, 네비게이션에는 UIKit를 사용할 것입니다.
 
@@ -26,7 +22,18 @@ isUpdated: true
 - GraphViz를 사용하여 간단한 명령줄 호출로 의존성 다이어그램을 생성하는 방법.
 - 기타 iOS 모듈화 도구들의 사용 가능 여부.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **데모 앱**
 
@@ -34,7 +41,18 @@ isUpdated: true
 
 ![Demo App](/assets/img/2024-07-14-HowtoModularizeaniOSApp_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 이 프로젝트에서는 Sign In, Quotes, Quote Detail 및 Settings의 네 개의 화면을 갖고 있습니다. 각각을 별도의 기능으로 만들 계획입니다.
 
@@ -49,7 +67,18 @@ isUpdated: true
 
 우리는 "The Simpsons"에서 명언, 인물 및 이미지 URL을 불러올 The Simpsons Quote API를 사용할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 > 참고: The Simpsons Quote API는 무료 플랫폼에 공개되어 있어, 네트워크 요청을 너무 자주 사용하면 400 에러를 받을 수 있습니다. 요청을 스팸으로 사용하지 않도록 주의해주세요. 그렇지 않으면 잠시 기다려야 할 수도 있습니다. API가 다시 이용 가능해질 때까지:
 
@@ -59,7 +88,18 @@ isUpdated: true
 
 # 모듈화의 이점
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 큰 Xcode 프로젝트를 다룰 때 한 파일을 조금 수정하면 긴 빌드 시간이 걸리는 것을 자주 느낍니다. 이는 모든 .swift 파일을 포함하는 하나의 타겟이 있기 때문에 발생합니다. 어떤 것을 변경할 때마다 Xcode가 전체 타겟을 다시 빌드하기 때문입니다. 프로젝트가 클수록 컴파일하고 처리할 코드와 자원이 많아져 전체 빌드 시간이 늘어납니다.
 
@@ -72,7 +112,18 @@ isUpdated: true
 - 캡슐화. 모듈화를 통해 원하지 않는 의존성을 도입하기가 어려워지며, 구성 파일에서 명시적으로 정의해야 합니다.
 - 재사용성. 특정 모듈은 다른 프로젝트에서 재사용할 수 있어 중복을 제거할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 모듈화의 단점
 
@@ -84,7 +135,18 @@ isUpdated: true
 
 # 시작합시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Let's start creating an Xcode project named SimpsonsQuotes. Opt for Storyboard for Interface now; however, we'll eventually switch to SwiftUI for the user interface:
 
@@ -94,7 +156,18 @@ Afterward, remove the Main.storyboard file, as well as ViewController.swift and 
 
 Now, the project's layout appears as follows:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 AppDelegate.swift로 이동하여 다음과 같이 수정해봅시다:
 
@@ -102,7 +175,18 @@ configurationForConnecting 메서드를 수정하여 AppDelegate에 SceneDelegat
 
 게다가, 이 튜토리얼에서 필요 없는 메서드를 제거하여 SceneDelegate를 리팩토링해봅시다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 To finish the project setup, let’s create a `.gitignore` file which we will fill as follows:
 
@@ -112,7 +196,18 @@ With that being done, we can start working with XcodeGen.
 
 # XcodeGen Setup
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 XcodeGen을 설치하지 않았다면 Homebrew를 통해 설치할 수 있어요:
 
@@ -126,9 +221,20 @@ brew install xcodegen
 brew info xcodegen
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-이 글은 Xcode 14.3.1을 사용하고 있으며, 해당 버전은 XcodeGen 2.36.1부터 지원합니다. 그러나 최신 버전을 설치할 수도 있습니다. 저의 경우, 2.37.0 버전을 사용 중입니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+이 글은 Xcode 14.3.1을 사용하고 있으며, 해당 버전은 XcodeGen 2.36.1부터 지원합니다. 그러나 최신 버전을 설치할 수도 있습니다. 저의 경우, 2.37.0 버전을 사용 중입니다.
 
 ![How to Modularize an iOS App](/assets/img/2024-07-14-HowtoModularizeaniOSApp_5.png)
 
@@ -138,7 +244,18 @@ brew info xcodegen
 brew upgrade xcodegen
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 XcodeGen을 마쳤으니 모듈 구조를 만드는 데 사용해봅시다.
 
@@ -148,7 +265,18 @@ brew upgrade xcodegen
 
 ![How to Modularize an iOS App](/assets/img/2024-07-14-HowtoModularizeaniOSApp_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 .xcodeproj 파일을 삭제하고 생성된 project.yml 파일을 열어봅시다:
 
@@ -161,7 +289,18 @@ brew upgrade xcodegen
 - 이후에 필요한 createIntermediateGroups 옵션을 추가합니다. true로 설정된 이 옵션은 생성된 Xcode 프로젝트가 Finder에 표시된 폴더 구조와 동일하게 포함되도록 합니다. 예를 들어 Application/Presentation/MyModule에 모듈이 있을 경우, Xcode 프로젝트에도 동일한 계층 구조가 포함됩니다. 이 속성을 true로 설정하지 않으면 생성된 프로젝트에는 MyModule 폴더만 표시됩니다.
 - iOS 15를 타겟팅하므로 deploymentTarget을 해당 버전에 맞게 설정합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금은 앱을 실행하는 데 사용될 메인 Application target을 생성할 것입니다 (이전에 추가한 코드를 반복하지 않고 "..." 표기법을 사용했습니다):
 
@@ -177,7 +316,18 @@ brew upgrade xcodegen
 
 먼저, AppDelegate.swift 및 기타 파일이 있는 폴더로 이동해 주세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **안녕하세요!**
 
@@ -191,7 +341,18 @@ brew upgrade xcodegen
 
 이제 모든 파일을 어플리케이션 폴더로 옮겨주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 우리는 다음 모듈을 위한 기초가 될 기본 구조로 프로젝트를 생성할 수 있습니다. project.yml이 있는 폴더로 이동하여 xcodegen을 실행하세요:
 
@@ -199,7 +360,18 @@ brew upgrade xcodegen
 
 프로젝트가 생성되었음을 확인할 수 있으며, 열어보면 다음과 같은 구조를 볼 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-14-HowtoModularizeaniOSApp_12.png)
 
@@ -209,7 +381,18 @@ brew upgrade xcodegen
 
 # 앱 모듈화하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희는 Clean Architecture 접근 방식에 따라 애플리케이션을 구조화하고 전체 앱을 다음과 같은 계층으로 나눌 것입니다:
 
@@ -222,7 +405,18 @@ Presentation 레이어로 Assets를 옮길 것이므로 다음과 같이 Present
 
 ![이미지](/assets/img/2024-07-14-HowtoModularizeaniOSApp_13.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 The -p flag is like magic; it will conjure up parent directories if they're missing.
 
@@ -232,7 +426,18 @@ Now, let's transport the Assets.xcassets to the Assets folder:
 
 Before we can mention the Assets module within the project.yml file, let's craft a standard template for modules:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - targetTemplates 키를 사용하여 새 템플릿을 만듭니다.
 - 템플릿 이름은 Module로 지정합니다.
@@ -248,7 +453,18 @@ Assets.xcassets에 AppIcon이 포함되어 있고 Xcode가 앱 아이콘이 애�
 - SimpsonsQuotes/Presentation/Assets/Assets.xcassets 경로를 Application의 소스에 추가했습니다.
 - 애플리케이션은 이제 Assets 모듈에 의존합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금 xcodegen을 실행하고 프로젝트를 열면 생성된 Assets 모듈을 볼 수 있을 거에요.
 
@@ -261,7 +477,18 @@ Assets.xcassets에 AppIcon이 포함되어 있고 Xcode가 앱 아이콘이 애�
 - Networker (Domain)
 - Entities (Domain)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그들 간의 관계는 다음과 같습니다:
 
@@ -271,7 +498,18 @@ Domain 레이어부터 시작하여 Networker와 Entities를 위한 모듈을 �
 
 # Domain Layer 모듈화
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 First, let's create Domain and Networker folders like this:
 
@@ -281,9 +519,20 @@ Next, move to the project.yml and define the Networker module:
 
 Now, follow the same steps for Entities:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-이미지를 확인해 주세요: 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+이미지를 확인해 주세요:
 
 ![How to Modularize an iOS App - Step 17](/assets/img/2024-07-14-HowtoModularizeaniOSApp_17.png)
 
@@ -293,7 +542,18 @@ Now, follow the same steps for Entities:
 
 이제 Networker.swift 파일을 생성해 보겠습니다. (대상을 Application이 아닌 Networker로 설정했음에 주의하세요)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Networker implementation](/assets/img/2024-07-14-HowtoModularizeaniOSApp_19.png)
 
@@ -303,7 +563,18 @@ Now, follow the same steps for Entities:
 
 다음으로 Quote 엔티티를 생성해 봅시다 (대상이 Entities로 설정되어 있음을 유의하세요):
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-14-HowtoModularizeaniOSApp_20.png)
 
@@ -313,7 +584,18 @@ Now, follow the same steps for Entities:
 
 우리는 데이터 및 엔드포인트 폴더를 만들고 project.yml 파일을 수정하는 것으로 시작합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **이제, 서비스 모듈에 대해 동일한 작업을 수행합니다:**
 
@@ -321,7 +603,18 @@ Now, follow the same steps for Entities:
 
 이번에는 서비스가 엔드포인트, 엔티티 및 네트워커에 의존한다는 점을 명심하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마찬가지로 도메인 레이어와 같이, xcodegen을 실행하고 변경 사항을 검토해 봅시다:
 
@@ -331,7 +624,18 @@ Now, follow the same steps for Entities:
 
 다음으로, Endpoints 타겟을 위한 Endpoint.swift 파일을 생성하면서 계속 진행합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 간단한 구조는 특정 REST API 엔드포인트를 나타낼 것입니다.
 
@@ -341,7 +645,18 @@ Now, follow the same steps for Entities:
 
 이제 Quotes 엔드포인트를 만들어봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 본문을 보면 우리는 카운트 매개변수가 있는 두 개의 엔드포인트를 가지고 있다는 것을 알 수 있습니다. 우리 프로젝트에는 전자를 사용할 것입니다.
 
@@ -351,7 +666,18 @@ Now, follow the same steps for Entities:
 
 AuthService는 다음과 같이 구현되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단히 말씀드리면, 인증 상태를 처리하기 위해 내부적으로 UserDefaults를 사용할 것입니다. 요청은 결과를 반환하기 전에 2초간 대기하도록 모의로 구현되어 있습니다.
 
@@ -361,7 +687,18 @@ AuthService는 다음과 같이 구현되어 있습니다.
 
 이제 최종 레이어, 즉 Presentation을 모듈화할 차례입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 프레젠테이션 계층 모듈화
 
@@ -371,7 +708,18 @@ AuthService는 다음과 같이 구현되어 있습니다.
 
 ![image](/assets/img/2024-07-14-HowtoModularizeaniOSApp_24.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 뷰(View) — ViewModel에 종속성을 가진 기본 SwiftUI 뷰입니다.
 - ViewModel — 특정 뷰(View)의 상태를 나타내는 ObservableObject 클래스입니다.
@@ -386,7 +734,18 @@ Quotes와 Settings 화면이 있다고 가정해봅시다. Quotes에서 Settings
 
 그렇다면 남아있는 질문은, 다른 기능으로 이동하는 방법이지만 실제로 그것에 종속성이 없는 방법은 무엇인가? 인터페이스 모듈 접근 방식을 따르거나, 기능 자체보다 한 수준 위로 내비게이션 로직을 올리는 것이 답입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인터페이스 모듈 접근 방식은 각 피처 모듈에 대해 해당 피처를 설명하는 간단한 프로토콜 모듈을 하나 더 생성하는 것을 의미합니다. 따라서 하나의 구체적인 피처 A는 피처 B 인터페이스 모듈에 의존하며, 피처 B는 피처 B 인터페이스를 구현할 것입니다.
 
@@ -396,7 +755,18 @@ Quotes와 Settings 화면이 있다고 가정해봅시다. Quotes에서 Settings
 
 그러나 이 방식은 생성되는 모듈의 수가 두 배로 되고, 대부분의 대규모 응용 프로그램에는 과도한 것으로 여겨집니다. 저희의 경우, 대신 네비게이션 부분을 기능보다 한 단계 위로 올릴 것입니다. 위의 MVVM 다이어그램에서는 Navigation 프로토콜이 보입니다. 이 프로토콜을 각 ViewModel 파일에 정의하고 ViewModel이 이에 의존하도록 할 것입니다. 어셈블리를 통해 기능을 생성할 때 그 네비게이션은 매개변수로 전달될 것입니다. 따라서 본질적으로 우리는 피처 위에 네비게이터 구성 요소를 두게 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![How to Modularize an iOS App](/assets/img/2024-07-14-HowtoModularizeaniOSApp_26.png)
 
@@ -406,17 +776,39 @@ Quotes와 Settings 화면이 있다고 가정해봅시다. Quotes에서 Settings
 
 ![How to Modularize an iOS App](/assets/img/2024-07-14-HowtoModularizeaniOSApp_27.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 And now, let's dive into creating a module for it:
 
-After running `xcodegen` again, you can confirm that the Navigator target has been effectively created. 
+After running `xcodegen` again, you can confirm that the Navigator target has been effectively created.
 
 Next, we'll include a NavigatorProtocol file that will be utilized by specific Navigators in the future:
 
 This file consists of a `start()` method designed for navigating to the feature. For instance, with the StartNavigator, the `start()` method will guide you from the current view to the StartView.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 기능 구현하기
 
@@ -431,7 +823,18 @@ This file consists of a `start()` method designed for navigating to the feature.
 - 심슨 캐릭터, 명언 및 "명언 삭제" 버튼을 표시하는 Quote Detail 기능. 이 버튼을 통해 분리된 기능끼리 어떻게 대화를 나눌 수 있는지 보여줍니다. "명언 삭제" 버튼을 탭하면 Quotes 기능에서 더 이상 해당 명언을 표시하지 않습니다.
 - "로그아웃" 버튼을 표시하는 Settings 기능. 이 버튼을 탭하면 인증 상태가 재설정되고 사용자는 Start 기능으로 이동합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 UI 및 비즈니스 로직 유당를 만드는 방법에 대해 심층적으로 다루지는 않을 거에요. 이 글의 초점은 아니니까요. Start 기능이 어떻게 구현되었는지 자세히 살펴보고, Main 모듈이 컨테이너로 사용되며, 마지막으로 Quote Detail이 Quotes 기능과 어떻게 소통하는지 확인해볼 거예요.
 
@@ -441,7 +844,18 @@ UI 및 비즈니스 로직 유당를 만드는 방법에 대해 심층적으로 
 
 ![HowtoModularizeaniOSApp_28](/assets/img/2024-07-14-HowtoModularizeaniOSApp_28.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로 `project.yml` 파일을 생성합니다 (서비스를 종속성으로 지정한다는 점을 주의하세요):
 
@@ -451,7 +865,18 @@ UI 및 비즈니스 로직 유당를 만드는 방법에 대해 심층적으로 
 
 ![이미지](/assets/img/2024-07-14-HowtoModularizeaniOSApp_29.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **스타트** 모듈을 **시작**이라고 명명하고:
 
@@ -461,7 +886,18 @@ UI 및 비즈니스 로직 유당를 만드는 방법에 대해 심층적으로 
 
 ![스타트 타겟](/assets/img/2024-07-14-HowtoModularizeaniOSApp_31.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결과적으로, 생성된 네 개의 파일을 확인할 수 있습니다:
 
@@ -471,11 +907,22 @@ UI 및 비즈니스 로직 유당를 만드는 방법에 대해 심층적으로 
 
 인증된 사용자인지를 결정하는 프록시로 작동하는 것을 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로 ViewModel을 다룹니다:
 
-- 우리는 나중에 Navigator에 의해 구현될 performRoute(_route:) 메서드가 포함 된 StartNavigation 프로토콜이 있습니다.
+- 우리는 나중에 Navigator에 의해 구현될 performRoute(\_route:) 메서드가 포함 된 StartNavigation 프로토콜이 있습니다.
 - 우리는 signIn과 main 두 개의 라우트를 정의했습니다.
 - ViewModel은 Worker 및 Navigation에 종속됩니다.
 - Input 표시는 View에서 호출되는 메서드를 포함합니다. onViewAppear()는 인증 확인을 트리거하고 그에 따라 내비게이션이 수행됩니다.
@@ -486,7 +933,18 @@ UI 및 비즈니스 로직 유당를 만드는 방법에 대해 심층적으로 
 - .onAppear 클로저 내에서 해당 ViewModel 메서드를 호출합니다.
 - 미리보기를 위해 우리는 내비게이션 매개 변수를 null로 조립합니다, 왜냐하면 우리는 여기서 내비게이션을 테스트하지 않기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어셈블리를 가져왔습니다.
 
@@ -497,9 +955,20 @@ UI 및 비즈니스 로직 유당를 만드는 방법에 대해 심층적으로 
 - 우리는 start() 메서드를 제공하는 기본 NavigatorProtocol을 준수하며, StartView에서 라우트를 처리하기 위해 StartNavigation을 사용합니다.
 - Start가 초기 기능이므로 UIWindow에 의존합니다. startViewController는 StartViewModel이 StartNavigator를 강하게 참조하기 때문에 약한 변수로 정의됩니다.
 - start() 메서드 내에서 StartAssembly를 사용하여 SwiftUI View를 생성하고, 그 후 UIHostingController로 감싸서 UIWindow의 rootViewController로 설정합니다.
-- performRoute(_ route:) 메서드는 SignIn 기능 또는 Main 기능으로 이동합니다.
+- performRoute(\_ route:) 메서드는 SignIn 기능 또는 Main 기능으로 이동합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자, 이제는 StartNavigator를 SceneDelegate와 연결해야 할 시간이에요. SceneDelegate를 다음과 같이 수정해봐요:
 
@@ -511,9 +980,20 @@ UI 및 비즈니스 로직 유당를 만드는 방법에 대해 심층적으로 
 
 현재 Main과 SignIn과 그 구성요소들이 존재하지 않아서 컴파일 타임 에러가 발생하고 있는 건 아시죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-우리는 관심이 없는 Sign In 기능 생성을 다루지 않을 거예요. 하지만 여기서 코드를 확인하실 수 있어요. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+우리는 관심이 없는 Sign In 기능 생성을 다루지 않을 거예요. 하지만 여기서 코드를 확인하실 수 있어요.
 
 # 컨테이너로 동작하는 주요 기능
 
@@ -521,12 +1001,23 @@ Start와 유사하게 Main 모듈을 생성한 후, 두 개 파일로 채워넣�
 
 먼저 MainTabBarController를 생성해요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - "Start(시작)"와 같이 MainNavigation 프로토콜을 선언합니다.
 - 두 개의 탭을 가지고 있으므로 Routes enum에는 quotes와 settings 경우가 포함되어 있습니다.
 - MainNavigation에 의존성을 선언합니다.
-- viewWillAppear(_animated:)에서 setupRoutes(_routes:) 메서드를 호출하여 탭을 설정합니다.
+- viewWillAppear(\_animated:)에서 setupRoutes(\_routes:) 메서드를 호출하여 탭을 설정합니다.
 
 이제 MainAssembly를 생성해 봅시다:
 
@@ -534,12 +1025,23 @@ Start와 유사하게 Main 모듈을 생성한 후, 두 개 파일로 채워넣�
 
 기능을 위한 MainNavigator는 아래와 같이 생성됩니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Main 기능을 표시할 때 sourceViewController가 필요합니다.
 - 순환 참조를 피하기 위해 view controllers을 unowned 및 weak으로 표시했습니다. sourceViewController는 MainNavigator보다 오래 살아남기 때문에 unowned로 표시할 수 있습니다.
 - start() 메소드 내에서 MainTabBarController를 초기화하고 표시합니다.
-- setupRoutes(_routes:) 메소드에서 QuotesNavigator 및 SettingsNavigator를 사용하여 MainTabBarController의 탭으로 두 기능을 만듭니다.
+- setupRoutes(\_routes:) 메소드에서 QuotesNavigator 및 SettingsNavigator를 사용하여 MainTabBarController의 탭으로 두 기능을 만듭니다.
 
 메인 컨테이너가 완료되었으니 이제 두 기능이 서로 대화하는 방법을 알아보겠습니다.
 
@@ -547,9 +1049,20 @@ Start와 유사하게 Main 모듈을 생성한 후, 두 개 파일로 채워넣�
 
 기능간의 상호작용을 위해 Navigators에 의존할 것입니다. 예를 들어, 인용구 삭제를 처리하기 위해 QuoteDetailNavigator에 QuoteDetailNavigatorDelegate 프로토콜을 정의합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-- 프로토콜에는 didDeleteQuote(_quote:) 메서드가 있습니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+- 프로토콜에는 didDeleteQuote(\_quote:) 메서드가 있습니다.
 - QuoteDetailNavigator를 초기화할 때 델리게이트를 제공합니다. 우리의 경우에는 델리게이트가 QuotesNavigator가 될 것입니다.
 - public didDeleteQuote 메서드는 QuoteDetailNavigation에서 나온 것으로, 여기서는 단순히 델리게이트의 메서드를 호출합니다.
 
@@ -560,7 +1073,18 @@ Navigator의 메서드를 어떻게 호출하는지 알아보기 위해 QuoteDet
 
 QuoteDetail을 명확하게 한 후에는 이제 Quotes가 변경에 응답하는 방법을 살펴봅시다. QuotesViewModel은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이니셜 라이저 내부에서는 bindQuoteDeletion() 메서드를 호출하는데, 이는 3단계에서 생성될 것입니다.
 - 우리는 QuoteModel을 삭제할 onQuoteDeletion subject를 정의합니다.
@@ -569,14 +1093,25 @@ QuoteDetail을 명확하게 한 후에는 이제 Quotes가 변경에 응답하�
 
 마지막으로, QuotesNavigator가 모든 것을 다루는 방법을 살펴봅시다:
 
-- 우리는 QuoteDetailNavigatorDelegate를 준수하며, didDeleteQuote(_quote:) 메서드를 QuotesNavigator에 제공합니다.
+- 우리는 QuoteDetailNavigatorDelegate를 준수하며, didDeleteQuote(\_quote:) 메서드를 QuotesNavigator에 제공합니다.
 - QuotesViewModel은 약한 종속성으로 정의됩니다.
 - QuoteDetail로 이동할 때, QuoteDetailNavigator의 대리인으로서 자신을 전달합니다.
-- 마지막으로 didDeleteQuote(_quote:) 메서드에서 뷰 모델의 onQuoteDeleteSubject에 이벤트를 보내어 뷰에서 사용되는 항목 목록을 업데이트합니다.
+- 마지막으로 didDeleteQuote(\_quote:) 메서드에서 뷰 모델의 onQuoteDeleteSubject에 이벤트를 보내어 뷰에서 사용되는 항목 목록을 업데이트합니다.
 
 # 최종 기술
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 Xcode 프로젝트를 확인하면 폴더들이 무작위로 나열되어 있습니다. 특정한 순서를 유지하기 위해 project.yml 파일을 수정합니다:
 
@@ -589,7 +1124,18 @@ options 키 아래에서 groupOrdering 키를 추가하여 해당 패턴에 대�
 - Data
 - Domain
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프레젠테이션 폴더:
 
@@ -602,7 +1148,18 @@ options 키 아래에서 groupOrdering 키를 추가하여 해당 패턴에 대�
 
 xcodegen을 실행한 후, Xcode가 폴더를 올바르게 정렬해 줄 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전 글에서 프로젝트를 위해 자동으로 생성할 수 있는 의존성 다이어그램을 보여드렸습니다:
 
@@ -614,7 +1171,18 @@ xcodegen을 실행한 후, Xcode가 폴더를 올바르게 정렬해 줄 것입�
 brew install graphviz
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 성공적으로 설치한 후에는 project.yml 파일이 있는 루트 폴더로 이동하여 다음 명령을 실행합니다:
 
@@ -628,7 +1196,18 @@ xcodegen dump --type graphviz --file Graph.viz
 dot -Tpng Graph.viz -o graph.png
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 따라서 서로 의존하는 관계들을 나타내는 다이어그램을 얻게 될 것입니다.
 
@@ -640,7 +1219,18 @@ dot -Tpng Graph.viz -o graph.png
 - 프레젠테이션 레이어는 데이터 레이어에 의존하며, 데이터 레이어는 프레젠테이션 레이어를 인지하고 있지 않습니다.
 - 도메인 레이어는 가장 낮은 레이어로 다른 레이어와 독립적이며 데이터 레이어에서 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비록 이 기사는 XcodeGen에 초점을 맞췄지만, 앱을 구조화하는 접근법은 사용하는 도구와는 독립적입니다. 다른 대안에 관심이 있다면 아래를 확인해보세요:
 

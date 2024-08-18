@@ -3,17 +3,13 @@ title: "챗GPT 디자인 해킹 - 사용자의 99가 이것을 모른다"
 description: ""
 coverImage: "/assets/img/2024-06-19-ChatGPTDesignHack99ofUsersDontKnowThis_0.png"
 date: 2024-06-19 03:21
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-ChatGPTDesignHack99ofUsersDontKnowThis_0.png
 tag: Tech
 originalTitle: "ChatGPT Design Hack — 99% of Users Don’t Know This"
 link: "https://medium.com/@addison-best/chatgpt-design-hack-99-of-users-dont-know-this-313626f58696"
 isUpdated: true
 ---
-
-
-
-
 
 ## 챗GPT를 5성급 그래픽 디자이너로 변신시키기
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 챗GPT를 그래픽 디자이너로 활용하는 방법에 대해 YouTube 동영상을 만들었어요. 프롬프트만으로 YouTube 섬네일, 소셜 미디어 그래픽 등을 만들어보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 튜토리얼에서는 ChatGPT를 Photoshop이나 Canva와 유사한 디자인 도구로 변환하는 방법을 보여 드리겠습니다. ChatGPT만을 이용하여 아래에서 보는 배경 이미지와 같은 멋진 디자인을 만드는 방법을 배울 수 있습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 이 디자인 핵은 무한한 가능성을 여는 방법입니다. 오랜 시간 동안 시도해 왔습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이번 업데이트는 엄청 커요.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 이것들이 없으면 굉장히 제한되어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 YouTube 썸네일은 여러 디자인 자산을 사용하여 레이어와 오버레이를 만들기 위해 프롬프트를 사용해 완전히 생성되었습니다.
 
@@ -53,14 +82,25 @@ isUpdated: true
 
 # 전체 YouTube 썸네일 만드는 방법입니다
 
-제목 | 설명
-----|----
-Step 1 | 배경과 로고 추가
-Step 2 | 자신의 cutout 이미지 추가
-Step 3 | 폰트(Open Sans) 적용
-Step 4 | 마진과 패딩 CSS 규칙 적용
+| 제목   | 설명                      |
+| ------ | ------------------------- |
+| Step 1 | 배경과 로고 추가          |
+| Step 2 | 자신의 cutout 이미지 추가 |
+| Step 3 | 폰트(Open Sans) 적용      |
+| Step 4 | 마진과 패딩 CSS 규칙 적용 |
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시작하기 전에 몇 가지 에셋이 필요합니다:
 
@@ -72,7 +112,18 @@ Step 4 | 마진과 패딩 CSS 규칙 적용
 - 투명 배경을 가진 내 사진
 - AI Growth Guys 로고 (여러분의 로고 선택)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 전적으로 프롬프트에 의해 생성되었습니다. 프롬프트를 사용하여 원하는 레이어나 에셋을 추가할 수 있습니다.
 
@@ -84,7 +135,18 @@ Step 4 | 마진과 패딩 CSS 규칙 적용
 
 ## 로고 배치하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 초기 배치: 먼저 ChatGPT에게 로고를 왼쪽 하단에 배치하도록 지시하세요. 너무 크게 나오거나 원하는 위치에 없다면 크기와 위치를 조정해보세요.
 - 크기 조정: 로고가 너무 크다면 ChatGPT에게 원하는 크기로 조절하도록 요청하세요. 저는 원본 크기의 25%로 조정했고, 왼쪽 하단에 배치했습니다.
@@ -97,7 +159,18 @@ ChatGPT는 지침과 HTML을 이해합니다. 그래서 간격과 크기에 관�
 - 필요한 경우 재배치: 요소들이 예기치 않게 움직일 때, ChatGPT에게 재배치하도록 요청하세요. 예를 들어, 'Photoshop' 단어는 원래 위치에 유지하고 색상만 변경하도록 ChatGPT에게 지시했어요.
 - 또한 ChatGPT에게 텍스트를 여러 줄로 배치하도록 지시해야 했어요. 처음에는 전체 텍스트가 한 줄에 있었는데, 맞지 않았어요. 한 번의 지시만으로 두 줄로 변경하도록 지시했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 최종 조정 및 내보내기
 
@@ -107,7 +180,18 @@ ChatGPT는 지침과 HTML을 이해합니다. 그래서 간격과 크기에 관�
 
 하지만 멋지게 작동했어요. 더 나아질 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 ChatGPT의 사용 방법, AI를 활용한 디자인, 그리고 온라인 비즈니스 성장에 대해 가르치고 있어요.
 
@@ -117,6 +201,17 @@ ChatGPT는 지침과 HTML을 이해합니다. 그래서 간격과 크기에 관�
 
 우리 YouTube 채널도 확인해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당사 웹사이트에서 저희를 팔로우해주세요: AI Growth Guys

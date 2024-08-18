@@ -3,18 +3,13 @@ title: "라즈베리파이 5와 Pi-hole로 네트워크 최적화하는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-22-OptimizeYourNetworkwithRaspberryPi5andPi-hole_0.png"
 date: 2024-06-22 19:19
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-OptimizeYourNetworkwithRaspberryPi5andPi-hole_0.png
 tag: Tech
 originalTitle: "Optimize Your Network with Raspberry Pi 5 and Pi-hole"
 link: "https://medium.com/@toniflorithomar/optimize-your-network-with-raspberry-pi-5-and-pi-hole-11cd6729e67c"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![이미지](/assets/img/2024-06-22-OptimizeYourNetworkwithRaspberryPi5andPi-hole_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 라즈베리 파이 5는 인기 있는 라즈베리 파이 시리즈의 최신 버전입니다. 성능, 연결성 및 확장성에 대한 중요한 개선으로, 라즈베리 파이 5는 가정 컴퓨팅 프로젝트에 이상적인 선택지입니다. 여러 가지 뛰어난 기능 중 일부는 다음과 같습니다:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 2.4 GHz 주파수에서 작동하는 Quad-Core ARM Cortex-A76 프로세서: CPU 성능을 크게 향상시켜 줍니다.
 - 최대 8GB의 RAM: 더 요구되는 응용 프로그램을 위한 충분한 공간을 제공합니다.
@@ -40,7 +45,18 @@ Pi-hole은 DNS 서버로 작동하여 광고를 제공하고 악성 소프트웨
 - 개인 정보 보호: 추적기가 브라우징 습관에 대한 데이터 수집을 방지합니다.
 - 사용 편의성: 사용자 친화적인 웹 인터페이스 및 자세한 DNS 트래픽 통계.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 파이홀이 어떻게 작동하는가요?
 
@@ -54,7 +70,18 @@ Pi-hole은 DNS 서버로 작동하여 광고를 제공하고 악성 소프트웨
 
 # 라즈베리 파이 5에 파이홀 설정하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 1: 라즈베리 파이 5 준비하기
 
@@ -65,7 +92,18 @@ Pi-hole은 DNS 서버로 작동하여 광고를 제공하고 악성 소프트웨
 
 ## 단계 2: 운영 체제 설치하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 라즈베리 파이 5에 microSD 카드를 넣어서 모니터, 키보드, 마우스에 연결하고 전원을 켜세요. 화면 안내에 따라 운영 체제를 설정하십시오.
 
@@ -75,9 +113,20 @@ Pi-hole은 DNS 서버로 작동하여 광고를 제공하고 악성 소프트웨
 
 ```js
 curl -sSL https://install.pi-hole.net | bash
-```  
+```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 설치 프로그램 지침에 따라 진행하시면 됩니다. 설정 중에 DNS 서버를 선택하고 Raspberry Pi의 정적 IP 주소를 구성하라는 메시지가 표시될 것입니다. Cloudflare 또는 Google DNS와 같이 신뢰할 수 있는 DNS 서버를 사용하는 것이 좋습니다.
 
@@ -87,7 +136,18 @@ Pi-hole을 네트워크 전반에 사용하려면 라우터를 구성하여 Rasp
 
 ## 단계 5: Pi-hole 웹 인터페이스 접속
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 설정을 완료한 후에는 Pi-hole의 웹 인터페이스에 액세스하여 네트워크 트래픽을 관리하고 모니터할 수 있습니다. 웹 브라우저를 열고 라즈베리 파이의 IP 주소로 이동하면 됩니다 (예: http://192.168.1.100/admin).
 
@@ -97,7 +157,18 @@ Pi-hole을 네트워크 전반에 사용하려면 라우터를 구성하여 Rasp
 
 라즈베리 파이 5의 능력 덕분에, Pi-hole은 문제없이 더 많은 양의 트래픽을 처리할 수 있어 광고 차단 및 DNS 해결이 빠르고 효율적으로 이루어집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 더 안전하고 개인 정보 보호된 네트워크
 

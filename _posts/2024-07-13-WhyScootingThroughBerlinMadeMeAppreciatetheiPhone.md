@@ -3,17 +3,13 @@ title: "베를린에서 스쿠터를 타며 아이폰의 가치를 새롭게 느
 description: ""
 coverImage: "/assets/img/2024-07-13-WhyScootingThroughBerlinMadeMeAppreciatetheiPhone_0.png"
 date: 2024-07-13 23:43
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-WhyScootingThroughBerlinMadeMeAppreciatetheiPhone_0.png
 tag: Tech
 originalTitle: "Why Scooting Through Berlin Made Me Appreciate the iPhone"
 link: "https://medium.com/macoclock/why-scooting-through-berlin-made-me-appreciate-the-iphone-afbb7dc9ed7c"
 isUpdated: true
 ---
-
-
-
-
 
 **이미지 없음**
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 항상 전 그런 걸 싫어하는 사람이었음을 밝히고 싶어요. 대도시를 방문하면 정말 어디에나 있습니다. 만약 킥보드가 보행자 곁을 지나가지 않고 있다면, 예전 밤 즐기는 사람과 부딪혔을 때 나온 것 중 하나만 아닐 뿐입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 베를린에서는, 예상할 수 있듯이, 이러한 사례들은 드물고 희소합니다. 독일 수도 베를린의 전기 전동 통행 장면은 효율적이고 신뢰할 뿐만 아니라 매끄럽게 작동합니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 나는 iPhone에 대한 나의 의견을 숨기지 않는 편은 아닙니다. 의심의 여지 없이, 내가 매일 사용하고 의지하는 가장 인상적인 기술 중 하나입니다. 비즈니스 운영을 용이하게하고, 어떤 것이든 즐거움으로 사진을 찍게하며, 그것이 나를 실망시키는 경우가 너무 드물해 실제로 마지막으로 다시 시작해야 했던 마지막 시간을 기억할 수가 없습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼에도 불구하고 최근 몇 년간 iPhone의 혁신 부족에 대해 지나치게 지적한 수많은 기술 코멘테이터 중 한 명이죠.
 
@@ -43,7 +61,18 @@ iPhone 15가 다음 주에 공개될 예정이며, 소문에는 더 작은 베�
 
 그래서 내 전동 스쿠터 모험은 왜 나에게 이것을 상기시켰을까요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 전기 스쿠터 변신
 
@@ -53,7 +82,18 @@ IFA 전자 제품 전시회에 참석 중이에요. 전시장과 호텔 사이 �
 
 대중 교통에 의존하는 것은 어려웠어요. 걷기도 마찬가지었어요. IFA는 엄청난 규모의 전시회니까요. 운동을 사랑해도 발에 귀중하니까 말이죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 IFA를 위해 베를린을 여행 중이던 동료 콘텐츠 크리에이터 중 한 명이 전기 킥보드를 타고 이동하고 있다는 것을 알아챘어요. 그에게는 이런 종류의 여행을 이동하는 가장 좋은 방법이라고 생각했습니다.
 
@@ -63,11 +103,33 @@ IFA 전자 제품 전시회에 참석 중이에요. 전시장과 호텔 사이 �
 
 그 분과 대화해 정말 다행이었어요. 외국 도시를 이동하는 가장 흥미롭고 편리하며 귀찮음이 없는 방법 중 하나라는 것을 지금 확신할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내가 홍보하고자 하는 것은 아니지만, 한국 전통 추종자에게 비해 이 문화의 대부분의 사람이 단순히 풍습만 따르는 것이 아니라는 점에서 일본 문화를 보는 것은 참신한 경험이 될 수 있습니다. 그들(일본인)은 방식과 규칙을 따르지만 또한 매우 현대적이고 창의적입니다. 새로운 시각에서 일본을 경험하는 것은 정말 재미있을 것입니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 문제가 있었어요...
 
@@ -77,17 +139,39 @@ IFA 전자 제품 전시회에 참석 중이에요. 전시장과 호텔 사이 �
 
 또, 안장에 올라탈 때 페달이 떨어진 자전거를 발견했어요. 다행히 Lime 앱을 통해 빠른 결함 신고 후 즉시 사과와 계정에 크레딧이 들어왔어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-**그리 싸다고 할 수 없어요. 벌써 지불한 라임 패스로 베를린을 돌아다니는 것은 우버 여행에 비해 절약을 제공하지만, 아마도 버스 패스가 더 경제적일 것이라고 생각해요.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+\*\*그리 싸다고 할 수 없어요. 벌써 지불한 라임 패스로 베를린을 돌아다니는 것은 우버 여행에 비해 절약을 제공하지만, 아마도 버스 패스가 더 경제적일 것이라고 생각해요.
 
 하지만, 이런 불만들은 사소해요. 이미 방문한 것도 많은 발을 위한 버스나 지하철을 피하기 위해 지불한 프리미엄은 그만한 가치가 있었죠.
 
 다시 한번, 그것이 무엇을 상기시켜요.
 
-## "그저 작동해"**
+## "그저 작동해"\*\*
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요즘 안드로이드 기기와 많은 시간을 보내고 있어요. iOS의 안전한 완벽한 정원에서 벗어나서 즐기는데에 큰 즐거움을 느껴요. 삼성 Z 플립5, 온라 90, 그리고 픽셀 폴드 같은 기기들은 아이폰 사용자들이 종종 놓치는 것들을 보여줘요.
 
@@ -97,7 +181,18 @@ IFA 전자 제품 전시회에 참석 중이에요. 전시장과 호텔 사이 �
 
 그냥 작동돼요. 그리고 제 전기 스쿠터 모험과 같이, 그건 아주 중요한 거예요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 떠나가시기 전에
 

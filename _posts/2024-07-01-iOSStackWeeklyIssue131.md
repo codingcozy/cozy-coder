@@ -3,17 +3,13 @@ title: "iOS 기술 스택 주간 업데이트  제131호"
 description: ""
 coverImage: "/assets/img/2024-07-01-iOSStackWeeklyIssue131_0.png"
 date: 2024-07-01 20:51
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-01-iOSStackWeeklyIssue131_0.png
 tag: Tech
 originalTitle: "iOS Stack Weekly — Issue#131"
 link: "https://medium.com/canopas/ios-stack-weekly-issue-131-a5df1381b165"
 isUpdated: true
 ---
-
-
-
-
 
 마크다운 형식으로 이미지를 수정해보겠어요.
 
@@ -25,7 +21,18 @@ isUpdated: true
 
 2024년은 Swift의 10주년이며, 이 중 5년은 주요 버전의 Swift 업데이트가 없었습니다. Swift의 수명의 절반을 5.0 이상의 버전으로 보낸 셈이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 스위프트 테스팅 시작하기
 
@@ -35,7 +42,18 @@ isUpdated: true
 
 이 글은 제공된 코드를 기반으로 Swift를 사용하여 강력한 네트워크 레이어를 만드는 방법을 안내합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 서로 다른 스택에 있는 뷰들을 SwiftUI에서 정렬하는 방법
 
@@ -45,7 +63,18 @@ SwiftUI 뷰를 작업할 때, 서로 다른 스택에 있는 뷰들을 가운데
 
 이 기사에서는 ScrollView 내에서 항목 가시성을 확인하고 맨 위 또는 맨 아래에 있을 때 더 많은 항목을 로드하는 방법을 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## SwiftUI Hero Animations with NavigationTransition
 
@@ -55,7 +84,18 @@ SwiftUI 뷰를 작업할 때, 서로 다른 스택에 있는 뷰들을 가운데
 
 Apple은 프로그래밍 언어의 주요 릴리스로 Swift 6을 WWDC 2024에서 발표했습니다. 이 글에서는 Xcode 프로젝트 및 패키지를 Swift 6로 점진적으로 이식하는 방법을 배우겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Sponsored
 
@@ -65,7 +105,18 @@ Apple은 프로그래밍 언어의 주요 릴리스로 Swift 6을 WWDC 2024에�
 
 Genmoji를 사용하여 앱에서 어떻게 표현력을 더할 수 있는지 알아보세요. Genmoji를 포함한 텍스트를 렌더링, 저장 및 통신하는 방법을 살펴보겠습니다. 앱에 사용자 지정 텍스트 엔진이 있는 경우, Genmoji를 지원하는 기술도 다룰 예정입니다. 🌟
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 다가오는 주간을 위한 링크 건의
 

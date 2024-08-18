@@ -3,17 +3,13 @@ title: "SQLAlchemy MissingGreenletError"
 description: ""
 coverImage: "/assets/img/2024-06-20-SQLAlchemyMissingGreenletError_0.png"
 date: 2024-06-20 15:44
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-SQLAlchemyMissingGreenletError_0.png
 tag: Tech
 originalTitle: "SQLAlchemy: MissingGreenletError"
 link: "https://medium.com/@vickypalaniappan12/sqlalchemy-missinggreenleterror-656825b3ce13"
 isUpdated: true
 ---
-
-
-
-
 
 SQLAlchemy은 Python을 위한 강력한 라이브러리로, Python 프로그램과 데이터베이스 간의 통신을 용이하게 해줍니다. 이는 고수준 ORM (객체-관계 매핑)과 저수준 SQL 표현 언어를 제공합니다. asyncio의 등장으로 SQLAlchemy는 비동기 작업을 지원하도록 도입되었는데, 이는 비동기 IO가 성능을 향상시킬 수 있는 웹 애플리케이션에 특히 유용합니다. SQLAlchemy에서의 MissingGreenletError는 SQLAlchemy가 asyncio나 다른 비동기 프레임워크와 함께 사용될 때 발생하는 일반적인 문제입니다. 이 오류는 SQLAlchemy의 기본 동작이 동기적이기 때문에 발생하며, 이는 데이터베이스 작업이 결과를 기다리는 동안 이벤트 루프를 차단한다는 것을 의미합니다.
 
@@ -23,7 +19,18 @@ MissingGreenletError: 이 오류는 보통 비동기 컨텍스트 (예: async �
 
 다음은 MissingGreenletError를 설명하는 예시입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 엔진: AsyncEngine = create_async_engine(DB_ENGINE, echo=True)
@@ -116,7 +123,18 @@ async def missing_greenlet_error():
         print(members)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 함수를 실행하면 콘솔에서 다음과 같은 오류가 발생합니다.
 
@@ -128,7 +146,18 @@ sqlalchemy.exc.MissingGreenlet: greenlet_spawn has not been called; can't call a
 
 이와 같은 상황에서 MissingGreenletError를 피하려면 두 가지 옵션이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 관련 객체를 초기 쿼리에서 함께 로드하려면
 - AsyncAttrs
@@ -151,7 +180,18 @@ async def loading_techniques로 수정해주세요():
         print(members)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 selectinload() 로더 전략을 사용하여 관련된 객체를 즉시 로드했습니다. 더 자세한 설명은 이전 게시물을 참고해주세요,
 
@@ -171,7 +211,18 @@ async def fix_with_async_attrs():
         print(members)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 우리는 AsyncAttrs를 Base 클래스에 추가했습니다. 이제 awaitable_attrs 액세서를 사용하여 관련 객체에 액세스할 수 있습니다. AsyncAttrs를 추가함으로써 이제 pirate_crew.members에 직접 액세스하는 대신 pirate_crew.awaitable_attrs.members를 사용할 수 있습니다. awaitable_attrs 부분은 SQLAlchemy에게 관련 Pirate 객체를 블로킹하지 않고 비동기적으로 로드하도록 지시합니다.
 
@@ -181,6 +232,17 @@ async def fix_with_async_attrs():
 
 코드 참조:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 https://github.com/vickypalani/sqlalchemy_missing_greenlet_error

@@ -3,17 +3,13 @@ title: "직접 해보는 학습의 힘 DIY 교육의 효과"
 description: ""
 coverImage: "/assets/img/2024-06-30-Hands-OnLearningThePowerofDIYinEducation_0.png"
 date: 2024-06-30 19:05
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-30-Hands-OnLearningThePowerofDIYinEducation_0.png
 tag: Tech
 originalTitle: "Hands-On Learning: The Power of DIY in Education"
 link: "https://medium.com/@tinq/hands-on-learning-the-power-of-diy-in-education-5f9945ab313a"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-30-Hands-OnLearningThePowerofDIYinEducation_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 연구 결과에 따르면, 손으로 배우는 경험은 여러 뇌 영역을 활성화시켜 신경 연결을 강화하고 학습 능력을 향상시킵니다. 학생들이 DIY 프로젝트에 참여하면 문제 해결 능력, 비판적 사고, 창의력을 발전시키는데, 이는 21세기 성공에 필수적인 능력들입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-30-Hands-OnLearningThePowerofDIYinEducation_1.png" />
 
@@ -35,7 +42,18 @@ isUpdated: true
 
 "왜" : 교육에서 DIY의 혜택
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 교육과정에 DIY 프로젝트를 통합함으로써 학생들은 교실 밖으로 계속 이어지는 다양한 혜택을 누릴 수 있습니다. 학업 성취도 향상부터 창의력과 비판적 사고 능력 향상까지, 교육 분야에서 DIY의 장점은 다양하고 유효합니다. 학생들이 실습 학습을 채택함으로써, 학업, 직업, 그리고 삶에서 성공을 위해 준비가 되는 중요한 기술을 개발할 수 있습니다.
 
@@ -49,7 +67,18 @@ isUpdated: true
 
 ![Hands-On Learning: The Power of DIY in Education](/assets/img/2024-06-30-Hands-OnLearningThePowerofDIYinEducation_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오오... 증거들! 성공 스토리
 

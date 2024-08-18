@@ -3,17 +3,13 @@ title: "행렬 곱셈 없이 초고속으로 작동하는 새로운 언어 모�
 description: ""
 coverImage: "/code-tower.github.io/assets/no-image.jpg"
 date: 2024-07-07 20:30
-ogImage: 
+ogImage:
   url: /code-tower.github.io/assets/no-image.jpg
 tag: Tech
 originalTitle: "Superfast Matrix-Multiplication-Free LLMs Are Finally Here"
 link: "https://medium.com/gitconnected/superfast-matrix-multiplication-free-llms-are-finally-here-cac5b78a4fa7"
 isUpdated: true
 ---
-
-
-
-
 
 최근 ArXiv에 게시된 연구 논문에 따르면, 우리가 오늘날 알고 있는 LLMs에 대한 대규모 변경이 제안되었습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이는 한 번의 최적화만으로 가능해진 거대한 변화입니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 LLM(Large Language Models)에 매우 중요하지만 계산 비용이 매우 큰 MatMul 작업 때문입니다. 오늘날의 LLM은 그들의 훈련과 추론을 위해 Graphics Processing Units (GPUs)에 매우 의존하게 됩니다.
 

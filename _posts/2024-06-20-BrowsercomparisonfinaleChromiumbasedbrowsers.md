@@ -3,17 +3,13 @@ title: "브라우저 비교 결말 크로미움 기반 브라우저"
 description: ""
 coverImage: "/assets/img/2024-06-20-BrowsercomparisonfinaleChromiumbasedbrowsers_0.png"
 date: 2024-06-20 14:42
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-BrowsercomparisonfinaleChromiumbasedbrowsers_0.png
 tag: Tech
 originalTitle: "Browser comparison finale : Chromium based browsers"
 link: "https://medium.com/@mihirgrand/browser-comparison-finale-chromium-based-browsers-2b6063e74165"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-06-20-BrowsercomparisonfinaleChromiumbasedbrowsers_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-20-BrowsercomparisonfinaleChromiumbasedbrowsers_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오페라 및 오페라 GX의 UI/UX가 최고인데, 각기 다른 대상을 위해 매력적인 독특한 외모를 가지고 있습니다. 그러나 불필요한 기능의 과도한 양과 특정 측면에서의 불안정성은 경험을 악화시킵니다.
 
@@ -36,7 +43,18 @@ isUpdated: true
 
 성능 점수 : 오페라 GX - 977.09 | 오페라 - 957.24
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 디자인: 5/5
 성능: 2/5
@@ -49,7 +67,18 @@ isUpdated: true
 
 토륨은 멋진 프로젝트입니다. 개발자에게 큰 박수를 보냅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ✅ 장점: 정말 빠르며, 이 목록에서 성능 2위를 기록하고 있어요. 최근 논란이 있었지만, Mercury와 Thorium 브라우저는 개발자인 그들의 브라우저로서 객관적으로 매우 뛰어난 성능을 자랑해요.
 
@@ -62,7 +91,18 @@ isUpdated: true
 안정성: 2/5
 무난한 경험: 5/5
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 5. 크로미움 및 비구글 크로미움
 
@@ -72,7 +112,18 @@ isUpdated: true
 
 ✅ 장점: 두 브라우저 모두 성능이 매우 우수하지만 크로미움이 일반적으로 벤치마크에서 더 높은 점수를 받았습니다. Google 통합이 거슬리지 않는다면 크로미움을 사용해도 좋습니다. 트래킹을 완전히 떨어져 나가고 싶은 사용자를 위해 비구글 크로미움이 좋은 선택일 것입니다. 두 브라우저는 동일한 기능을 갖추고 있으며, 비구글 크로미움은 Google의 간섭 없이 제공되므로 이것이 좋을지 나쁠지는 당신에게 달렸습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ❌ 단점: 이 두 프로젝트는 Windows용으로 개발자들이 공식 빌드를 제공하지 않습니다. 그러므로 코드를 직접 컴파일해야 하며, 이는 보통 사용자를 위한 것이 아니거나 프로젝트 자체만큼 안전하지 않은 커뮤니티 빌드에 의존해야 할 수도 있습니다. 업데이트가 문제가 될 수 있습니다.
 
@@ -85,7 +136,18 @@ Ungoogled Chromium에서 벤치마크를 실행하는 동안, 브라우저를 �
 안정성: 3/5
 무거운 경험 없음: 5/5
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 4. Microsoft Edge
 
@@ -95,7 +157,18 @@ Ungoogled Chromium에서 벤치마크를 실행하는 동안, 브라우저를 �
 
 ❌ 단점: 기능이 많아서 때로는 디자인이 혼잡해 보일 수 있습니다. 때때로 브라우저가 느린 느낌을 줄 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Edge는 여러 가지를 시도하려고 노력하지만, 그 중 많은 부분에서 꽤 괜찮습니다. 하지만, 원시적이고 깔끔한 브라우징 경험을 제공하는 데는 부족합니다. 다른 것들과 비교해 뛰어나다거나 특별한 것은 없지만 그저 그런 선행자입니다. 전반적으로, Edge는 꽤 괜찮은 브라우저입니다.
 
@@ -108,7 +181,18 @@ Edge는 여러 가지를 시도하려고 노력하지만, 그 중 많은 부분�
 
 얻는 점수에 따르면 5위에 속해야 하지만, 일부 기능들 때문에 4위에 속해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3. 비발디
 
@@ -118,7 +202,18 @@ Edge는 여러 가지를 시도하려고 노력하지만, 그 중 많은 부분�
 
 ✅ 장점: 비발디는 맞춤 설정에 대한 탁월한 성능을 보여줍니다. 브라우저를 사용자 취향에 맞게 조정하는 데 도움이 되는 다양한 설정이 있어요. 아마도 현재까지 가장 맞춤화된 Chromium 기반 브라우저일 거에요. 기본 UI의 일부 요소는 굉장히 오래된 느낌을 주고, 일부 요소는 굉장히 현대적으로 보입니다. 또한 메일 클라이언트, 캘린더 및 RSS 피드 리더가 기본으로 제공되어요. 공간 탭 탐색과 탭 쌓기 같은 독특한 기능도 있어요. 또한 매우 안정적인 브라우저입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ❌ 단점: 성능 면에서는 더 나은 것을 얻을 수 있습니다. 비발디는 웹글을 사용하는 그래픽 집중 작업에 특히 적합하지 않습니다. 또한 초기화되고 깨끗한 브라우징 경험을 제공하지 않습니다.
 
@@ -131,7 +226,18 @@ Edge는 여러 가지를 시도하려고 노력하지만, 그 중 많은 부분�
 안정성: 5/5
 무거운 경험 없음: 3/5
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2. 크롬
 
@@ -141,7 +247,18 @@ Edge는 여러 가지를 시도하려고 노력하지만, 그 중 많은 부분�
 
 ❌ 단점: 장점은 사용자에 따라 단점이 될 수도 있습니다. 구글 통합 기능이 이 브라우저에 깊게 내재화되어 있습니다. 크롬을 좋아하지만 구글의 통합 기능은 별로라고 느끼는 경우, 최신 빌드를 찾아 다운로드하기 위해 조금만 노력하여 크로미움을 검토해 볼 수 있습니다. 그 외에는 크롬이 충분히 좋습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 성능 평가
 
@@ -155,7 +272,18 @@ Edge는 여러 가지를 시도하려고 노력하지만, 그 중 많은 부분�
 
 ![이미지](/assets/img/2024-06-20-BrowsercomparisonfinaleChromiumbasedbrowsers_7.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 장점: Brave는 이 목록 중에 아무것도 아닌 것처럼 벤치마킹 테스트를 훌륭하게 통과합니다, 특히 webgl 및 캔버스 렌더링에 관한 부분에서. 이 브라우저는 일상적인 사용에서 매우 빠르게 느껴지며 오픈 소스입니다. 처음에 출시됐을 때는 거들 먹거리는 것이라 여겼지만, 예상보다 훨씬 오래 지속되었고 어떠한 주요 기술 기업도 후원하지 않음에도 매우 안정적이었습니다. 선택 사항으로 세로 탭이 함께 제공됩니다.
 
@@ -169,7 +297,18 @@ Edge는 여러 가지를 시도하려고 노력하지만, 그 중 많은 부분�
 안정성: 5/5
 무거운 경험: 4/5
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 각 브라우저의 성능을 비교한 간략한 내용입니다 -
 
@@ -179,7 +318,18 @@ Edge는 여러 가지를 시도하려고 노력하지만, 그 중 많은 부분�
 
 벤치마킹 테스트는 AMD Ryzen 5 7535HS 및 8GB DDR4 RAM, 512GB M.2 SSD를 탑재한 Windows 11 기기에서 UBlock Origin이 모든 브라우저에 설치된 상태로 Basemark에서 수행되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금은 브라우저 비교 시리즈를 마칩니다. 다음 글은 Windows에서의 초보자를 위한 라이싱 가이드가 될 예정이에요. 기대해 주세요!
 

@@ -3,17 +3,13 @@ title: "언어 모델 확장 법칙 이해하기 2024 최신 분석"
 description: ""
 coverImage: "/assets/img/2024-07-12-ScalingLawOfLanguageModels_0.png"
 date: 2024-07-12 23:12
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-ScalingLawOfLanguageModels_0.png
 tag: Tech
 originalTitle: "Scaling Law Of Language Models"
 link: "https://medium.com/towards-data-science/scaling-law-of-language-models-5759de7f830c"
 isUpdated: true
 ---
-
-
-
-
 
 ![ScalingLawOfLanguageModels_0](/assets/img/2024-07-12-ScalingLawOfLanguageModels_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 그러니 함께 뛰어 들어가서, 언어 모델을 새로운 성능과 능력의 높은 곳으로 추진하는 스케일링 법칙을 이해해 보도록 하겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 게시물은 다음 섹션으로 구성되어 있어요:
 
@@ -35,9 +42,21 @@ isUpdated: true
 
 2. 거듭제곱 분포: 간단한 복습
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### - 파워 법칙 관계 이해하기
+
 ### - 파워 법칙 시각화하기
 
 ### 3. 언어 모델에서의 스케일링 법칙 행동
@@ -48,7 +67,18 @@ isUpdated: true
 
 ### 4. 스케일링 요인들 사이의 상호작용
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 6 FLOP Rules
 
@@ -59,7 +89,18 @@ isUpdated: true
 
 # Final Reflections
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **- 스케일링 법칙을 이해하는 중요성**
 
@@ -69,7 +110,18 @@ isUpdated: true
 
 요즘 몇 년간 언어 모델 개발에서 급속한 스케일링이 일어나고 있다는 것을 이미 알고 있을 것입니다. 아래 이미지에서 볼 수 있듯이, 언어 모델은 2018년 BERT-base의 1억 90백만 개의 파라미터에서 2022년 PaLM의 5400억 개의 파라미터로 스케일이 조정되었습니다. 각 모델은 크기뿐만 아니라 (즉, 파라미터 수), 훈련 토큰 수와 훈련 연산량 (부동 소수점 연산 또는 FLOPs로 표시됨)도 증가했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Scaling Law of Language Models](/assets/img/2024-07-12-ScalingLawOfLanguageModels_1.png)
 
@@ -79,8 +131,18 @@ isUpdated: true
 
 # 거듭된 법칙 분포: 간단한 리뷰
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-07-12-ScalingLawOfLanguageModels_2.png](/assets/img/2024-07-12-ScalingLawOfLanguageModels_2.png)
 
@@ -95,7 +157,7 @@ import matplotlib.pyplot as plt
 def plot_power_law(k, x_range=(0.1, 100), num_points=10000):
     """
     Plot the power law function y = x^k for any non-zero k.
-    
+
     Parameters:
     k (float): The exponent for the power law (can be positive or negative, but not zero).
     x_range (tuple): The range of x values to plot (default is 0.1 to 10).
@@ -103,13 +165,13 @@ def plot_power_law(k, x_range=(0.1, 100), num_points=10000):
     """
     if k == 0:
         raise ValueError("k cannot be zero")
-    
+
     # Generate x values
     x = np.linspace(x_range[0], x_range[1], num_points)
-    
+
     # Calculate y values
     y = x**k
-    
+
     # Create the plot
     plt.figure(figsize=(10, 6))
     plt.plot(x, y, 'b-', label=f'y = x^{k}')
@@ -118,12 +180,22 @@ def plot_power_law(k, x_range=(0.1, 100), num_points=10000):
     plt.ylabel('y')
     plt.grid(True)
     plt.legend()
-    
+
     plt.show()
 ```
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 긍정적인 k 값을 가지고 아래와 같이 plot 해보세요:
 
@@ -135,7 +207,18 @@ plot_power_law(2)  # 이 코드는 y = x^2를 plot합니다
 
 음수 지수를 선택하면 관계가 감소할 것입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 plot_power_law(-0.5)  # This will plot y = x^(-0.5)
@@ -147,8 +230,18 @@ Above plots are in linear scales on both x-axis and y-axis. If we plot them in l
 
 # Scaling Law Behavior in Language Models
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 언어 모델의 스케일링 법칙 행동은 모델 성능과 모델 크기, 데이터셋 크기, 계산 자원과 같은 다양한 요소들 간의 관찰된 관계를 의미합니다. 이러한 관계는 모델이 확장됨에 따라 예측 가능한 패턴을 따릅니다. 스케일링 법칙 행동에서 주요한 요인들은 다음과 같습니다:
 
@@ -160,7 +253,18 @@ Above plots are in linear scales on both x-axis and y-axis. If we plot them in l
 
 ![Scaling Law of Language Models](/assets/img/2024-07-12-ScalingLawOfLanguageModels_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 세 개의 그래프 모두 로그-로그 공간에 있으며 선형이므로 테스트 손실이 컴퓨팅, 데이터셋 크기 및 모델 매개변수 각각과의 멱법칙 관계를 보여줍니다. 또한 이러한 그래프들은 언어 모델링 성능이 모델 크기, 데이터셋 크기, 그리고 훈련에 사용된 컴퓨팅 양을 증가시킬수록 개선된다는 것을 보여줍니다.
 
@@ -170,7 +274,18 @@ Above plots are in linear scales on both x-axis and y-axis. If we plot them in l
 
 간단히 말해, 모델의 매개변수와 각 훈련 예제마다 약 6개의 부동 소수점 연산이 필요합니다. 따라서 세 가지 요소 간의 관계는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-07-12-ScalingLawOfLanguageModels_7.png)
 
@@ -182,7 +297,18 @@ Hey there! Let's dive into the reason why we need approximately 6 flops for each
 
 Isn't it fascinating how these operations come together during the training process? 🌟
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 이 문제에 대해 더 자세한 설명을 원한다면, 이 게시물을 확인해보세요.
 
@@ -192,7 +318,18 @@ Isn't it fascinating how these operations come together during the training proc
 
 # The Chinchilla Paper: A Game-Changer
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2022년에 DeepMind에서 발표된 논문인 Chinchilla에 대해 이야기해볼게요. 이 논문에서 저자들은 현재의 대형 언어 모델이 모델 크기를 확장하면서 훈련 데이터를 일정하게 유지하는 데 주안점을 두어 충분히 훈련되지 않았다는 사실을 발견했습니다!
 
@@ -202,9 +339,20 @@ Isn't it fascinating how these operations come together during the training proc
 
 \[ N은 매개변수 수(즉, 모델 크기)를 의미하고, D는 훈련 토큰을 나타냅니다. \( L(N,D)는 N개의 매개변수를 가진 모델 및 D 토큰에 대해 훈련된 모델 성능이나 테스트 손실을 가리킵니다. E은 모델이 완벽하게 훈련을 받았을 때 달성할 수 있는 최소 손실인 불가피한 손실을 나타내는 상수로, 모델이 훈련받는 작업의 본질적 난이도와 데이터의 잡음을 설명합니다. \]
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-상수 A와 B 및 지수 α와 β는 실험을 통해 경험적으로 결정되며 데이터를 맞추기 위해 사용됩니다. 구체적으로, α≈0.50이고 β≈0.50임을 발견했습니다. 이는 논문의 주요 발견을 강화하며 모델 크기가 두 배로 증가할 때마다 훈련 토큰 수도 두 배로 증가해야 컴퓨팅 최적의 훈련을 달성함을 나타냅니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+상수 A와 B 및 지수 α와 β는 실험을 통해 경험적으로 결정되며 데이터를 맞추기 위해 사용됩니다. 구체적으로, α≈0.50이고 β≈0.50임을 발견했습니다. 이는 논문의 주요 발견을 강화하며 모델 크기가 두 배로 증가할 때마다 훈련 토큰 수도 두 배로 증가해야 컴퓨팅 최적의 훈련을 달성함을 나타냅니다.
 
 # 마무리
 
@@ -214,7 +362,18 @@ Isn't it fascinating how these operations come together during the training proc
 - 자원 할당: 이러한 관계를 이해하면 계산 리소스의 효율적인 할당이 가능해져 더 비용 효율적이고 환경 친화적인 AI 개발을 이끌 수 있습니다.
 - 성능 예측: 이러한 법칙은 연구자들이 사용 가능한 리소스를 기반으로 모델의 성능에 대한 교육된 예측을 할 수 있게 해줍니다. 이는 현실적인 목표와 기대치를 설정하는 데 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AI 분야의 급속한 진보 속에서 이러한 확장 법칙을 염두에 두는 것이 모델 개발, 자원 할당 및 연구 방향에 대한 신중한 결정을 내리는 데 중요할 것입니다. 이러한 관계를 이해하고 활용함으로써, 우리는 미래에 더 효율적이고 강력하며 책임감 있는 언어 모델 개발을 위해 노력할 수 있습니다.
 

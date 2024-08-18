@@ -3,17 +3,13 @@ title: "파이썬 데이터 분석 현대 예술가에 대해 알고 있는 것�
 description: ""
 coverImage: "/assets/img/2024-06-19-PythonDataAnalysisWhatDoWeKnowAboutModernArtists_0.png"
 date: 2024-06-19 15:43
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-PythonDataAnalysisWhatDoWeKnowAboutModernArtists_0.png
 tag: Tech
 originalTitle: "Python Data Analysis: What Do We Know About Modern Artists?"
 link: "https://medium.com/towards-data-science/python-data-analysis-what-do-we-know-about-modern-artists-40f8a66f7235"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-19-PythonDataAnalysisWhatDoWeKnowAboutModernArtists_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## 방법론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 분석을 수행하기 위해 몇 가지 단계를 구현할 것입니다:
 
@@ -36,7 +43,18 @@ isUpdated: true
 
 ## 1. 데이터 수집
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문서는 예술가에 관한 정보에 초점을 맞추고 있습니다. 시작 지점으로 위키백과 음악가 목록을 활용했습니다. 이 페이지에는 많은 추가 정보가 있어서 필요한 부분만 텍스트 파일로 저장했습니다:
 
@@ -61,7 +79,18 @@ def load_links_file(filename: str) -> List:
     return root_list
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위키피디아 페이지를 읽기 위해 (당연한) 이름을 가진 오픈 소스 Python 라이브러리를 사용할 거에요. 동일한 링크가 다른 페이지에 들어 있을 수 있기 때문에 Python lru_cache를 사용하여 로딩을 더 빠르게 만드는 것이 좋아요:
 
@@ -113,7 +142,18 @@ for artist_name in root_list:
 nx.write_gml(G, "graph.gml")
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드의 간단함에도 불구하고 프로세스가 오래 걸립니다. 페이지 수가 많고, Wikipedia API도 세계에서 가장 빠른 것은 아닙니다. 실제로, 데이터 수집에 약 하루가 걸렸고 (그 작업에는 라즈베리 파이를 사용했습니다), 출력 GML 파일의 크기는 약 200MB였습니다.
 
@@ -128,7 +168,18 @@ display(df_nodes.sort_values(by=["에지 수"], ascending=False))
 
 여기서 그래프 노드를 모두 에지 수별로 정렬했습니다. 모든 것을 올바르게 수행했다면, 출력은 다음과 같아야 합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-PythonDataAnalysisWhatDoWeKnowAboutModernArtists_1.png" />
 
@@ -137,14 +188,21 @@ display(df_nodes.sort_values(by=["에지 수"], ascending=False))
 첫 번째 단계에서는 다양한 아티스트에 관한 데이터를 수집하여 그래프를 만들었지만, 실제로는 아직 그렇게 유용하지는 않습니다. 예를 들어, 스크린샷에서 "힙합 음악," "올뮤직," "미국"과 같은 노드들을 볼 수 있습니다. 이 모든 용어들은 분명히 다른 주제에 속해 있으며, 이를 개별적으로 분석하는 것이 좋을 것입니다. 이 문서는 아티스트에 중점을 두고 있으며, 보다 자세한 분석을 위해 모든 노드를 7가지 카테고리로 나누기로 결정했습니다:
 
 ```js
-categories = [
-    "person", "place", "country",
-    "music style", "music instrument", "music band",
-    "other"
-]
+categories = ["person", "place", "country", "music style", "music instrument", "music band", "other"];
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 각 그래프 노드에 적합한 카테고리를 찾아야 합니다. 하지만 말하기보다는 행동하기가 훨씬 어렵습니다. 모든 위키피디아 아티스트 페이지에서 "링크" 객체는 음악 악기부터 LGBT 권리까지 모든 것을 포함할 수 있는 평평한 파이썬 리스트입니다. 한 하위 그룹의 링크를 다른 하위 그룹과 구별하는 쉬운 방법이 없습니다. "힙합"이나 "런던" 같은 단어에 대한 카테고리를 찾는 것은 자연 언어 처리(NLP) 문제이므로, 각 단어에 대한 카테고리를 찾기 위해 대형 언어 모델(LLM)을 사용하기로 결정했습니다.
 
@@ -182,7 +240,18 @@ _ITEMS_
 
 저는 이미 LLM을 사용하여 판다스 데이터프레임을 처리하는 방법에 대해 기사를 작성했습니다. 독자들은 여기서 더 많은 세부 정보를 찾을 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 기사에서 제공하는 코드를 사용하여 몇 줄의 코드로 데이터프레임을 처리할 수 있었어요:
 
@@ -207,16 +276,25 @@ df_top_nodes["유형"] = llm_map(df_top_nodes["이름"], batch_size=10)
 - 먼저, 많은 엣지를 가진 그래프 노드만 처리했어요. 이유는 단순합니다 — 그래프에서 가장 중요한 노드를 찾고 싶기 때문이에요. 엣지 수가 적은 노드는 어차피 상위 목록에서 제외될 거예요. 모든 노드를 처리해도 괜찮지만, 900,783개의 노드를 LLM으로 처리하려면 시간이나 돈이 너무 많이 들어요.
 - 처리 시 작은 배치 크기 10을 사용했어요. 프롬프트에서 볼 수 있듯이, 모델에 JSON을 응답으로 생성하라고 요청했는데, 8B Llama-3 모델이 그렇게 좋지 않다는 것을 알게 됐어요. Llama-3는 8,192 토큰의 컨텍스트 길이를 갖고 있어 이론상으로 아주 긴 프롬프트를 처리할 수 있어야 하지만, 실제로는 잘 작동하지 않아요. 텍스트 크기가 증가하면 모델이 실수하기 시작해요. 예를 들어, 일반적인 JSON처럼 보이지만, 중간에 콜론이 빠져 파이썬 파서가 더 이상 디코딩할 수 없는 이러한 형태의 JSON을 생성할 수도 있어요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [
-  {"Rap": "음악 장르"},
-  {"John": "사람"},
-  {"Billboard Top 100": "기타"},
-  ...
+{"Rap": "음악 장르"},
+{"John": "사람"},
+{"Billboard Top 100": "기타"},
+...
 ]
-
 
 일반적으로 Google Colab에서 GPU 유형 및 항목 수에 따라 처리 시간은 30~60분이 소요됩니다. 8B 모델의 RAM 요구 사항이 낮고 무료 Colab 계정으로도 작업을 수행할 수 있습니다. OpenAI 키를 가지고 있는 독자는 더 정확한 결과를 얻을 수 있지만 처리는 무료가 아닙니다.
 
@@ -231,7 +309,18 @@ for index, row in df_top_nodes.iterrows():
 nx.write_gml(G, "graph_updated.gml")
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2.2 평가
 
@@ -248,8 +337,18 @@ display(df_nodes.sort_values(by=["Edges"], ascending=False)[:20])
 
 여기서 Type 열에는 LLM에서 얻은 결과가 포함되어 있습니다. 또한 엣지 수에 따라 노드를 정렬하고 처음 20개 항목을 표시했습니다. 결과는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Python Data Analysis](/assets/img/2024-06-19-PythonDataAnalysisWhatDoWeKnowAboutModernArtists_2.png)
 
@@ -266,8 +365,18 @@ nx.set_node_attributes(G, fix_nodes, "type")
 
 어쨌든, 8B Llama-3 모델이 대부분의 작업을 수행했고, 제 코드에서 작은 수의 노드(약 30개)만 수동으로 수정해야 했습니다. 이전에 언급했듯이 독자들은 OpenAI나 다른 공개 API를 사용할 수도 있습니다. 결과는 더 정확할 수 있지만 처리는 더 이상 무료가 아닐 것입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3.1 분석
 
@@ -279,11 +388,22 @@ nx.set_node_attributes(G, fix_nodes, "type")
 degree_centrality = nx.degree_centrality(G)
 display(degree_centrality)
 
-#> {'Rapping': 0.00138, '106 and Park': 3.3304, ... 
+#> {'Rapping': 0.00138, '106 and Park': 3.3304, ...
 #   '2013 Billboard Music Awards': 1.22116e-05}
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 데이터를 사용하여 가장 인기 있는 상위 20개 음악 스타일을 찾아보겠습니다:
 
@@ -305,7 +425,18 @@ display(df_중심성.sort_values(by=["중심성"], ascending=False)[:20])
 
 <img src="/assets/img/2024-06-19-PythonDataAnalysisWhatDoWeKnowAboutModernArtists_3.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 그래프 형태로도 확인할 수 있어요:
 
@@ -315,7 +446,18 @@ display(df_중심성.sort_values(by=["중심성"], ascending=False)[:20])
 
 이제 위키백과에서 가장 인기 있는 20명의 아티스트를 표시해볼까요? 코드는 동일하며, 카테고리 필터만 "인물"로 변경했어요. 결과는 다음과 같이 나와요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-PythonDataAnalysisWhatDoWeKnowAboutModernArtists_5.png" />
 
@@ -326,7 +468,18 @@ display(df_중심성.sort_values(by=["중심성"], ascending=False)[:20])
 - 스트리밍 서비스에서 음악을 듣는 건 대부분 "수동적"이에요. 청취자들은 아티스트에 대해 알아가거나 정보를 읽거나 추가하는 데 적극적으로 참여하지 않아요. 그냥 배경에서 흘러나오는 라디오처럼, 사람들은 실제로 현재 어떤 트랙이 재생되고 있는지 그다지 중요하게 생각하지 않아요. 게다가, 현재 재생 목록은 Spotify 추천 시스템에 의해 생성될 수도 있어요.
 - 아티스트의 "위키백과 평가"는 듣는 사람의 수보다는 그 아티스트가 음악 및 사회에 기여한 정도와 관련이 더 크다고 생각해요. 예를 들어, 프랭크 신트라나를 요즘 사람들이 적극적으로 듣고 있다고 생각하지 않지만, 그가 문화, 음악 산업, 그리고 다른 아티스트들의 작품에 한 몫을 한 것은 분명해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어쨌든, 결과가 흥미로워요. 보다 자세한 연구를 할 수 있을 거에요.
 
@@ -346,7 +499,18 @@ Gf = nx.subgraph_view(G, filter_node=filter_node)
 betweenness_centrality = nx.betweenness_centrality(Gf)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결과적으로 안타깝게도, 적어도 내 PC에서는 작동하지 않았습니다. 가장 짧은 경로를 찾으려면 많은 계산이 필요하며, 수천 개의 노드에 대해서도 너무 오랜 시간이 걸리고 마지막 결과를 얻을만큼 인내심이 부족했어요. 더 최적화된 라이브러리가 있는지 모르겠는데, 혹시 CUDA 지원이 있는 것 같아요; 답을 아시는 분은 댓글에 자유롭게 적어주세요.
 
@@ -356,7 +520,18 @@ betweenness_centrality = nx.betweenness_centrality(Gf)
 
 먼저 그래프를 필터링해봅시다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 node_types = nx.get_node_attributes(Gf, "type")
@@ -382,7 +557,18 @@ print(communities_list)
 #   {'Cheyenne', 'Jesse James'}, ... }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 수백 개의 항목의 분리 품질을 수동으로 추정하는 것은 어렵지만 시각적 형태로 완료할 수 있습니다. 제 경우, 결과가 완벽하지는 않았어요:
 
@@ -392,10 +578,21 @@ print(communities_list)
 
 다른 접근 방식을 시도해 보죠. 탐욕적 모듈성 최대화 알고리즘은 Clauset-Newman-Moore 탐욕적 모듈성 최대화를 사용하여 커뮤니티를 찾아요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-communities_list = nx.community.greedy_modularity_communities(Gf,cutoff=10)
+communities_list = nx.community.greedy_modularity_communities(Gf, (cutoff = 10));
 ```
 
 결과는 다음과 같이 나옵니다:
@@ -404,8 +601,18 @@ communities_list = nx.community.greedy_modularity_communities(Gf,cutoff=10)
 
 D3.JS를 사용하여 수동 검증 결과가 더 흥미로운 것으로 나타났습니다. 예를 들어, 그래프의 왼쪽에 K-pop(한국 팝) 스타일로 활동하는 음악가들의 별도 그룹이 쉽게 보입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-19-PythonDataAnalysisWhatDoWeKnowAboutModernArtists_8.png)
 
@@ -415,8 +622,18 @@ D3.JS를 사용하여 수동 검증 결과가 더 흥미로운 것으로 나타�
 
 물론, 도시, 국가 또는 연주하는 악기 등의 다른 유형의 커뮤니티도 발견할 수 있습니다. 가능한 범주 목록도 확장될 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 결론
 
@@ -426,7 +643,18 @@ D3.JS를 사용하여 수동 검증 결과가 더 흥미로운 것으로 나타�
 
 물론, 같은 분석은 예술가 뿐만 아니라 정치, 스포츠 및 다른 분야에서도 수행될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 소셜 데이터 분석에 관심이 있는 분들은 다른 아티클도 읽어보세요:
 

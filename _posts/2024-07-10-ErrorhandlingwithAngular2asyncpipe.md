@@ -3,17 +3,13 @@ title: "Angular2 async pipe를 사용하여 에러 처리하는 방법"
 description: ""
 coverImage: "/issue-truck.github.io/assets/no-image.jpg"
 date: 2024-07-10 00:57
-ogImage: 
+ogImage:
   url: /issue-truck.github.io/assets/no-image.jpg
 tag: Tech
 originalTitle: "Error handling with Angular2 async pipe"
 link: "https://medium.com/@fixitblog/solved-error-handling-with-angular2-async-pipe-bc48e674272a"
 isUpdated: true
 ---
-
-
-
-
 
 저는 Angular2의 async 파이프를 사용하여 값을 DOM에 스트리밍하는 중입니다. 여기에 간단한 예제가 있습니다:
 
@@ -33,7 +29,18 @@ const stream = Observable.interval(1000)
 
 이를 위해서 두 가지가 필요한 것 같습니다: 첫째, Angular async 파이프가 에러를 처리할 수 있는 기능이 필요합니다. 그러나 이를 수행하는 기능을 찾을 수 없습니다. 소스 코드를 살펴본 결과, 이 파이프는 JS 예외를 throw 하는 것으로 보여 친근하지 않아 보입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 번째로 에러가 발생한 후 일련의 순서를 다시 시작하거나 계속할 수 있는 능력이 있습니다. catch와 onErrorResumeNext 등에 대해 읽어봤는데, 모두 에러가 발생할 경우에 다른 시퀀스로 전환됩니다. 이렇게 하면 단순히 일련의 숫자를 넣고 싶은 스트림 생성 로직이 복잡해집니다. 한 번 에러가 발생하면 게임이 끝나고 observable은 완료되어 다른 observable로만 "재시작"될 수 있다는 느낌을 받습니다. 아직 옵저버블을 배우고 있지만, 실제로 그런가요?
 
@@ -42,7 +49,18 @@ const stream = Observable.interval(1000)
 - Angular2의 async 파이프가 에러를 적절하게 처리할 수 있을까요?
 - 옵저버블은 에러 발생 후 간단히 계속할 수 있는 방법이 있나요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 네, 오류 처리 연산자와 오류 발생 후에 작업을 수행할 수 있는 능력에 대해 올바르게 이야기하셨어요...
 
@@ -65,7 +83,18 @@ const stream = Observable.interval(1000)
 
 그리고 템플릿에서:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <div>{error}</div>
@@ -81,10 +110,20 @@ createObservable(i) {
 }
 ```
 
-그리고 catch 콜백에서 이용하세요: 
+그리고 catch 콜백에서 이용하세요:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .catch(err => {
@@ -100,7 +139,18 @@ createObservable(i) {
 
 Thierry Templier의 답변입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 답변 확인자: Clifford M. (수정 도와주는 자원봉사자)
 

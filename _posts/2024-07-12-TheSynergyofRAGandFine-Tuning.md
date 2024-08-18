@@ -3,17 +3,13 @@ title: "RAG와 파인튜닝의 시너지 효과 최신 방법 알아보기"
 description: ""
 coverImage: "/assets/img/2024-07-12-TheSynergyofRAGandFine-Tuning_0.png"
 date: 2024-07-12 23:14
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-TheSynergyofRAGandFine-Tuning_0.png
 tag: Tech
 originalTitle: "The Synergy of RAG and Fine-Tuning"
 link: "https://medium.com/ai-in-plain-english/the-synergy-of-rag-and-fine-tuning-ff24701d9dcc"
 isUpdated: true
 ---
-
-
-
-
 
 인공 지능 소프트웨어를 사용하여이 기사 텍스트의 문법, 흐름 및 가독성을 향상시키는 데 성공했습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 그러나 놀랍도록 성능이 좋은에도 불구하고, LLMs는 여전히 일부 주요 제한 사항에 직면하고 있습니다. 그들의 지식은 종종 얕으며 특정 영역에서 깊이 있는 전문 지식이 부족합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한, LLM(언어모델)은 다양한 웹 데이터로 훈련되어 있기 때문에 그들의 지식은 일관성이 없거나 권위 있는 사실에 기반하지 않을 수 있습니다. 이는 특히 지식 밀집적 분야에서 환각이나 잘못된 주장으로 이어질 수 있습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 반면, 도메인 적응 세밀 조정은 일반적인 LLM을 특정 관심 분야의 데이터로 세밀하게 조정하여 전문화하는 작업을 목표로 합니다. 도메인 특정 텍스트로 훈련함으로써 LLM은 해당 분야에 맞춤화된 지식과 언어 패턴을 습득하여 관련 작업에서 성능을 크게 향상시킵니다. 이 방법은 생명 과학, 컴퓨터 과학, 금융 및 법률과 같은 분야에서 효과적임이 입증되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 RAG은 추론 중에 외부 지식을 사용하여 LLM을 강화하고, 파인 튜닝은 훈련 중에 도메인 특화 지식을 전달합니다. 이 두 가지 방법은 대부분 별개로 탐구되어 왔습니다. 그러나 최근 연구에서는 RAG와 파인 튜닝 기술을 결합하여, 지식을 보유하고 도메인에 특화된 LLM을 만들 수 있는 잠재력을 강조했습니다.
 
@@ -43,7 +61,18 @@ RAG 능력을 파인 튜닝 과정에 통합하는 것은 LLM이 검색된 지�
 
 이 기술들이 어떻게 작동하며, 주요 이점과 가능한 적용 분야에 대해 알아보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 외부 지식 액세스와 도메인 특화를 결합함으로써, 여러 분야의 실제 응용 프로그램을 위한 더 많은 지식이 풍부하고 근거가 있으며 믿을 만한 LLM을 만드는 길을 열어놓습니다.
 
@@ -53,11 +82,22 @@ RAG 능력을 파인 튜닝 과정에 통합하는 것은 LLM이 검색된 지�
 
 Retrieval-Augmented Generation (RAG)은 추론 중에 언어 모델이 외부 지식 원본에 액세스하고 논리를 추론할 수 있도록 하는 방법론입니다. RAG의 핵심 아이디어는 사전에 훈련된 언어 모델과 정보 검색 시스템을 결합하여 두 구성 요소의 강점을 결합한 모듈식 아키텍처를 만드는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 The RAG framework involves a series of crucial steps:
 
-- **Input Processing**: The user inputs a query or prompt, which the system then analyzes using the language model to understand the intent and information required. 
+- **Input Processing**: The user inputs a query or prompt, which the system then analyzes using the language model to understand the intent and information required.
 - **Retrieval**: The retrieval module scans an external knowledge source, like a document corpus or knowledge base, to fetch information that might be relevant, such as passages, documents, or knowledge snippets.
 - **Context Integration**: The retrieved context is merged with the original input to create an enriched prompt containing both the query and additional knowledge.
 - **Language Model Generation**: The language model evaluates the augmented prompt and generates a response, using the context provided to ensure the response is based on factual information from the external source.
@@ -66,7 +106,18 @@ RAG has demonstrated positive outcomes in tasks such as open-domain question ans
 
 However, a notable limitation of conventional RAG frameworks is that the retrieval component is usually kept static during training. This implies that the language model does not learn to effectively utilize the retrieved information or adapt its reasoning across various knowledge domains. The retrieval module functions independently, and its performance relies heavily on the quality and relevance of the information it retrieves.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 도메인별 세밀 조정
 
@@ -76,7 +127,18 @@ However, a notable limitation of conventional RAG frameworks is that the retriev
 
 도메인별 세밀 조정은 일반적이고 조정되지 않은 LLM보다 다양한 도메인에서 상당한 개선을 보여주었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 생명 과학: 과학 문헌과 의료 데이터의 세밀한 조정을 통해 LLM(언어 모델)은 문제 해결, 문헌 분석, 심지어 의료 코딩과 같은 작업을 지원할 수 있습니다.
 - 컴퓨터 과학: 코드 저장소와 문서에서의 세밀한 조정은 LLM이 코드 생성, 문서 이해, 개발자 지원 도구 강화하는 데 도움을 줍니다.
@@ -89,7 +151,18 @@ However, a notable limitation of conventional RAG frameworks is that the retriev
 
 도메인 특화 세밀한 조정이 LLM의 성능을 향상시키는 데 효과적임이 입증되었지만, 전통적 세밀한 조정 방법에는 중요한 제한 사항이 있습니다: 외부 지식 검색 능력을 명시적으로 통합하지 않습니다. 세밀한 조정 과정에서 LLM의 지식 습득은 제공된 세밀한 조정 데이터셋에서만 배울 수 있는 것으로 한정됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 제한은 지식이 지속적으로 발전하거나 세부 튜닝 데이터가 작업에 필요한 정보의 전체 범위를 다루지 못할 수 있는 도메인에서 문제가 될 수 있습니다. 게다가, 세부 조정 데이터는 미세 조정된 LLM에 전파될 수 있는 일관성, 편향 또는 지식의 공백을 포함할 수 있습니다.
 
@@ -99,7 +172,18 @@ RAG와 도메인별 세부 튜닝은 개별적으로 유망한 결과를 보여�
 
 ## 검색 증강 세부 튜닝 (RAFT)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하나의 접근 방식인 리트리벌 보강 파인 튜닝(RAFT)은 "도메인 특화 RAG에 어댑팅된 언어 모델" 논문에서 소개되었습니다. RAFT는 도메인 특화 리트리벌 보강 생성(RAG)을 수행하는 언어 모델의 능력을 향상시키기 위해 설계된 파인 튜닝 방법입니다.
 
@@ -113,7 +197,18 @@ RAFT 훈련 과정은 다음 단계를 포함합니다:
 - 제공된 문서와 질문에서 답변을 생성하기 위해 지도 학습을 사용하여 언어 모델을 파인 튜닝합니다.
 - 모델은 오라클 문서에서 관련 단락을 명확하게 인용하는 "사고의 연쇄" 스타일 답변을 생성하도록 유도됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 RAFT은 모델이 관련 및 관련 없는 문서를 미세 조정하는 과정을 통해 가르치는데, 이를 통해 모델은 주요한 정보를 식별하고 활용하면서 방해요소를 무시하는 방법을 배웁니다. 이 과정을 통해 모델은 도메인별 RAG를 수행할 수 있는 능력을 향상시키며, 관련 도메인 지식을 검색하고 추론하는 것을 통해 질문에 답하는 능력이 향상됩니다.
 
@@ -123,7 +218,18 @@ RAFT은 모델이 관련 및 관련 없는 문서를 미세 조정하는 과정�
 
 RoG 프레임워크는 세 가지 주요 구성 요소로 구성됩니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 계획 모듈: 이 모듈은 언어 모델에게 주어진 질문에 대한 답변을 위해 지식 그래프를 기반으로 생성된 관계 시퀀스로 나타낸 고수준 계획을 생성하도록 유도합니다.
 - 검색 모듈: 생성된 관계 시퀀스를 가이드로 사용하여, 이 모듈은 지식 그래프에서 특정 경로를 검색하여 답변이 포함될 수 있는 경로를 검색합니다.
@@ -135,7 +241,18 @@ RoG의 핵심은 언어 모델이 지식 그래프 데이터 세트에서 질문
 
 # 상호 협력적 접근법의 혜택
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **지식 기반 확립:**
 
@@ -147,7 +264,18 @@ RoG의 핵심은 언어 모델이 지식 그래프 데이터 세트에서 질문
 
 이렇게 융합적인 접근 방식의 또 다른 중요한 장점은 세밀 조정을 통해 언어 모델을 특정 도메인에 맞게 조정할 수 있는 능력입니다. 도메인별 데이터에 대해 세밀 조정함으로써, 언어 모델은 해당 도메인에 관련된 지식, 용어, 스타일적 패턴 및 추론 방법론을 습득할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 도메인 적응은 언어 모델이 해당 도메인 내의 하위 작업과 응용 프로그램을 더 잘 수행하도록 합니다. 예를 들어, 생물 의학 문헌에 대해 세밀하게 조정된 언어 모델은 의료 질문 응답, 문헌 분석 또는 진단 지원과 같은 작업을 수행하는 데 일반적이고 조정되지 않은 모델보다 능숙할 수 있습니다.
 
@@ -157,7 +285,18 @@ RoG (Reasoning on Graphs)와 같은 특정한 상호 작용 방법은 추론 가
 
 해석 가능성은 언어 모델에 대한 신뢰를 구축하는 데 중요합니다, 특히 설명 가능성과 책임성이 중요한 고위험 도메인에서는 더욱 그렇습니다. 추론 과정을 이해함으로써 사용자는 모델의 출력의 타당성과 정확성을 평가할 수 있으며, 신뢰를 형성하고 보다 정보에 기반한 의사 결정을 내릴 수 있게 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 유연성:
 
@@ -167,7 +306,18 @@ RoG (Reasoning on Graphs)와 같은 특정한 상호 작용 방법은 추론 가
 
 ## 확장성:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시너지 메서드의 주요 장점 중 하나는 대형 언어 모델의 자가 감독 사전 훈련 능력을 활용할 수 있다는 것입니다. 이들 사전 훈련 모델은 이미 방대한 일반 지식을 보유하고 있어, 새로운 도메인이나 지식 소스에 효율적으로 적응시킬 수 있습니다.
 
@@ -177,7 +327,18 @@ RoG (Reasoning on Graphs)와 같은 특정한 상호 작용 방법은 추론 가
 
 # 잠재적 응용 분야
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 전문 분야를 위한 질문 응답 시스템:
 
@@ -185,7 +346,18 @@ RoG (Reasoning on Graphs)와 같은 특정한 상호 작용 방법은 추론 가
 
 RAG 기능을 도메인별 세부 조정과 통합하면, 언어 모델을 훈련시켜 관련 문서, 사례 법률, 연구 논문 또는 도메인별 지식 베이스를 검색하고 추론할 수 있습니다. 이를 통해 해당 분야의 권위 있는 출처에 근거한 정확하고 신뢰할 수 있는 응답을 제공할 수 있는 지능형 질문 응답 보조 도구를 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시너지적 접근은 특정 프로그래밍 언어, 프레임워크 또는 코드베이스에 대한 코드 생성 및 문서 이해를 혁신할 수 있습니다. 언어 모델은 코드 저장소, API 문서 및 코드 예제에서 세밀하게 조정될 수 있어서 도메인별 프로그래밍 구조, 규칙 및 모범 사례에 대한 지식을 습득할 수 있습니다.
 
@@ -195,7 +367,18 @@ RAG 기능을 이용하면 이러한 세밀하게 조정된 모델이 관련 코
 
 추천 시스템은 RAG 및 세밀한 조정 기술을 통합하는 데 큰 이점을 얻을 수 있습니다, 특히 구조화된 지식 그래프를 활용할 때. 언어 모델은 제품 카탈로그, 사용자 선호도 또는 엔터테인먼트 온톨로지와 같은 도메인별 지식 그래프에서 세밀하게 조정될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 도메인 지식을 RAG 기능과 결합하면, 추천 시스템이 구조화된 지식 그래프에 기반한 맞춤형 추천을 생성할 수 있습니다. 언어 모델은 사용자의 선호도, 제품 속성 및 그래프 내에서의 관계에 대해 추론하여 더 정확하고 설명 가능한 추천을 제공할 수 있습니다.
 
@@ -205,7 +388,18 @@ RAG 기능을 이용하면 이러한 세밀하게 조정된 모델이 관련 코
 
 RAG 기능을 통해 이러한 세밀하게 조정된 모델은 관련 연구 논문, 약물 화합물 데이터베이스 및 생물학적 경로 정보를 검색하고 추론하여 약물 발견, 약물 재활용, 개인 맞춤 의학 및 문헌 기반 발견과 같은 다양한 작업을 지원할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 특정 응용 분야를 넘어서, RAG와 세밀한 조정의 시너지는 금융, 교육, 고객 지원 및 결정 지원 시스템을 포함한 다양한 지식 집약적 도메인에 대한 약속을 가지고 있습니다. 이 분야에서의 연구가 진전됨에 따라, 외부 지식을 언어 모델에 원활하게 통합하여 이해가 더 많이 되고 근거 있는 그리고 신뢰할 만한 AI 시스템을 가능케 하는 더 정교한 기술들을 기대할 수 있을 것입니다.
 
@@ -215,9 +409,20 @@ RAG 기능을 통해 이러한 세밀하게 조정된 모델은 관련 연구 �
 
 검색 증강 생성(RAG)과 도메인별 세부 조정의 결합은 외부 지식과 도메인 전문 지식으로 대규모 언어 모델을 강화하는 강력한 솔루션을 제공합니다. 두 가지 접근 방식의 장점을 활용하여 연구자들은 LLMs를 이해가능한 정보에 근거를 두고, 전문화 된 도메인에 적응하며, 보다 해석 가능하고 신뢰할 수 있는 결과물을 생성할 수 있는 방법을 개발했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-RAG와 섬세한 조정 사이의 시너지가 계속해서 탐구되는 가운데, 우리는 넓은 지식뿐만 아니라 심도 있는 도메인 전문 지식, 추론 능력 및 사실적인 정보에 기반을 둔 언어 모델을 기대할 수 있습니다. 이는 보다 지식이 풍부하고 신뢰할 만한 AI 시스템으로의 중요한 한 걸음입니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+RAG와 섬세한 조정 사이의 시너지가 계속해서 탐구되는 가운데, 우리는 넓은 지식뿐만 아니라 심도 있는 도메인 전문 지식, 추론 능력 및 사실적인 정보에 기반을 둔 언어 모델을 기대할 수 있습니다. 이는 보다 지식이 풍부하고 신뢰할 만한 AI 시스템으로의 중요한 한 걸음입니다.
 
 # 간단히 이야기하는 🚀
 

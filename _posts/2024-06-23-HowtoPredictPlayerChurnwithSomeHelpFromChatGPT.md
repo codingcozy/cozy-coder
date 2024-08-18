@@ -3,17 +3,13 @@ title: "ChatGPT를 이용한 플레이어 이탈 예측 방법"
 description: ""
 coverImage: "/assets/img/2024-06-23-HowtoPredictPlayerChurnwithSomeHelpFromChatGPT_0.png"
 date: 2024-06-23 16:39
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-HowtoPredictPlayerChurnwithSomeHelpFromChatGPT_0.png
 tag: Tech
 originalTitle: "How to Predict Player Churn, with Some Help From ChatGPT"
 link: "https://medium.com/towards-data-science/player-churn-rate-prediction-data-analysis-and-visualisation-part-1-12a9fdff9c10"
 isUpdated: true
 ---
-
-
-
-
 
 ## 저 코드 머신 러닝 플랫폼을 활용한 데이터 과학 | ACTABLE AI
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 게임 산업에서 기업들은 플레이어를 유치하는 것 뿐만 아니라 특히 인게임 마이크로 트랜잭션에 의존하는 프리투플레이 게임에서 가능한 한 오랫동안 유지시키려고 노력합니다. 이러한 마이크로 트랜잭션은 종종 인게임 화폐 구매를 포함하며, 플레이어가 진행 또는 사용자 정의를 위한 아이템을 획득하고 게임 개발을 지원합니다. 중단하는 플레이어 수를 나타내는 이탈률을 모니터링하는 것이 중요합니다. 이는 높은 이탈율은 수입 손실을 의미하며, 이는 개발자와 관리자의 스트레스 수준이 증가하게 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사는 특정 모바일 앱에서 획득한 데이터를 기반으로 한 실제 데이터셋의 사용을 탐색하며, 사용자들이 플레이한 레벨에 중점을 둡니다. 기계 학습을 활용하여 기술 현장에서 중요한 역할을 하며 인공 지능(AI)의 기초를 형성한 이후, 기업들은 자신들의 데이터에서 가치 있는 통찰을 얻을 수 있습니다.
 
@@ -31,7 +38,18 @@ isUpdated: true
 
 이 기사에서는 하나의 로우코드 기계 학습 플랫폼을 사용하여 사용자가 게임을 중단할지 예측할 수 있는 모델을 훈련하는 방법을 다룹니다. 뿐만 아니라 결과 해석 및 모델 성능을 향상시키는 데 사용할 수 있는 기술에 대해 탐구합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사의 나머지 부분은 다음과 같이 구성되어 있습니다:
 
@@ -49,7 +67,18 @@ isUpdated: true
 
 전체 공개 - 이 기사 작성 시점에 제가 Actable AI의 데이터 과학자인 사실을 알려드립니다. 따라서 이 기사에서는 해당 플랫폼을 사용할 예정입니다. 또한, 저는 ML 라이브러리에 새로운 기능을 구현하고 유지보수하는 일에 관여하고 있어서, 이 플랫폼이 실제 문제에 대해 어떻게 대응하는지 궁금했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 플랫폼은 전통적인 분류, 회귀 및 세분화 애플리케이션을 위한 여러 인기있는 머신 러닝 방법을 제공합니다. 시계열 예측, 감성 분석 및 인과 추론과 같은 일부 일반적이지 않은 도구도 이용할 수 있습니다. 또한, 결측 데이터를 보완할 수 있으며 데이터 세트의 통계를 계산하고(특성 간 상관 관계, 분산 분석(ANOVA) 등), 막대 차트, 히스토그램, 워드 클라우드와 같은 도구를 사용하여 데이터를 시각화할 수 있습니다.
 
@@ -59,17 +88,39 @@ Google Sheets 애드온도 제공되어 스프레드시트 내에서 직접 분�
 
 핵심 라이브러리는 GitHub에서 오픈 소스로 제공되며 AutoGluon 및 scikit-learn과 같은 잘 알려진 신뢰할 수 있는 프레임워크로 구성되어 있습니다. 이는 기존의 오픈 소스 솔루션을 활용하는 다른 관련 플랫폼과 유사합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나, 이에 대한 질문이 생깁니다: 대부분의 도구들이 이미 사용 가능하고 무료로 제공되는데, 왜 이러한 플랫폼을 사용해야 하는지요?
 
 가장 중요한 이유는 이러한 도구들이 Python과 같은 프로그래밍 언어에 대한 지식이 필요하다는 것입니다. 일반적으로 코딩에 익숙하지 않은 사람은 사용하기 어렵거나 불가능할 수 있습니다. 따라서 이러한 플랫폼은 프로그래밍 명령어의 형태로가 아닌 GUI(그래픽 사용자 인터페이스) 형식으로 모든 기능을 제공하려고 합니다.
 
-더 경험이 많은 전문가들은 또한 시간을 절약할 수 있을 뿐만 아니라 쉽게 사용할 수 있는 그래픽 인터페이스를 통해 지원 도구와 기법의 정보를 제공할 수도 있습니다. 일부 플랫폼은 익숙하지 않았던 도구들을 제공하거나 데이터 작업 시 유용한 경고(예: 데이터 누출의 존재 - 모델이 볼 수 없는 데이터의 생산 환경에 배포될 때 사용할 수 없는 특징에 액세스할 수 있는 경우)를 제공할 수도 있습니다.  
+더 경험이 많은 전문가들은 또한 시간을 절약할 수 있을 뿐만 아니라 쉽게 사용할 수 있는 그래픽 인터페이스를 통해 지원 도구와 기법의 정보를 제공할 수도 있습니다. 일부 플랫폼은 익숙하지 않았던 도구들을 제공하거나 데이터 작업 시 유용한 경고(예: 데이터 누출의 존재 - 모델이 볼 수 없는 데이터의 생산 환경에 배포될 때 사용할 수 없는 특징에 액세스할 수 있는 경우)를 제공할 수도 있습니다.
 
 이러한 종류의 플랫폼을 사용하는 또 다른 이유는 모델을 실행할 하드웨어도 제공하기 때문입니다. 따라서 자신의 컴퓨터나 GPU(Graphical Processing Units)와 같은 구성 요소를 구매하고 유지 관리할 필요가 없습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 데이터셋
 
@@ -79,7 +130,18 @@ Google Sheets 애드온도 제공되어 스프레드시트 내에서 직접 분�
 
 사용자 ID도 포함되어 있지만 원래 플레이어의 신원을 드러내지 않도록 익명화되었습니다. 일부 필드도 제거되었지만, 이 데이터셋은 이 기사에서 고려된 ML 플랫폼에서 제공된 도구가 플레이어의 이탈을 예측하는 데 유용할 수 있는지 확인하는 견고한 기초를 제공할 것으로 예상됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 기능의 의미는 다음과 같습니다:
 
@@ -112,7 +174,18 @@ Google Sheets 애드온도 제공되어 스프레드시트 내에서 직접 분�
 
 학습 전 첫 번째 단계는 탐색적 데이터 분석(EDA)을 통해 데이터를 이해하는 것입니다. EDA는 데이터를 요약, 시각화하고 주요 특성을 이해하는 데이터 분석 방법론입니다. 목표는 데이터로부터 통찰력을 얻고, 어떠한 패턴, 추세, 이상 현상 또는 존재할 수 있는 이슈(예: 결측값)를 식별하여 사용될 특성 및 모델을 확인하는 데 도움이 되는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주요 이유들을 확인해 보면서 레벨이 종료된 이유에 대해 살펴보겠습니다:
 
@@ -122,7 +195,18 @@ Google Sheets 애드온도 제공되어 스프레드시트 내에서 직접 분�
 
 매우 중요한 점은 우리의 대상값이 매우 불균형하다는 것입니다. 처음 10,000행 중에서 63개의 샘플만이 (데이터의 0.6%) Churn 값이 1(즉, 플레이어가 이탈함)을 가지고 있다는 것입니다. 이것은 염두에 둘 필요가 있습니다. 왜냐하면 우리의 모델이 Churn에 대해 0의 값을 예측하는 데 매우 편향될 수 있기 때문입니다. 모델이 정확도와 같은 몇 가지 지표에 대해 매우 좋은 값을 얻을 수 있기 때문에, 이 경우에는 가장 일반적인 클래스를 선택하는 더미 모델이 99.4%의 정확도로 정답을 맞출 것입니다! 이에 대해 Baptiste Rocca와 Jason Brownlee의 두 훌륭한 기사에서 더 읽어보시기를 권합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아쉽게도 Actable AI는 SMOTE(합성 소수 샘플링 기법)를 통해 불균형 데이터를 처리하거나 클래스 가중치 또는 다른 샘플링 전략을 사용하는 방법을 아직 제공하지 않습니다. 이는 최적화를 위해 선택된 지표에 주의를 기울여야 한다는 것을 의미합니다. 위에서 언급한 대로, 정확도는 한 클래스의 샘플이 올바르게 레이블링되지 않아도 높은 비율을 달성할 수 있는 경우라면 최선의 선택이 아닐 것입니다.
 
@@ -132,7 +216,18 @@ Google Sheets 애드온도 제공되어 스프레드시트 내에서 직접 분�
 
 위 차트에서 파란 막대는 특징이 Churn과 양의 상관 관계가 있는 경우를 나타내며 값이 1인 경우이고, 주황색 막대는 음의 특징 상관 관계를 나타냅니다. 상관 관계는 -1에서 1 사이에 있음을 주의해야 합니다. 양의 값은 두 특징이 함께 변화하는 경향이 있다는 것을 나타내며(예: 둘 다 증가하거나 감소), 음의 상관 관계는 한 특징이 증가하거나 감소할 때 다른 특징이 반대로 변화한다는 것을 나타냅니다. 따라서 상관 관계의 크기(음의 부호를 무시한)가 아마도 가장 중요한 사항일 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특정 수준을 잃은 플레이어들이 (가장 위쪽의 파란 막대) 막적회전에 민감하다는 것이나, 반대로 특정 수준을 이긴 플레이어들은 계속해서 플레이하는 경향이 있다는 등 여러 가지 교훈이 있습니다 (세 번째 오렌지 막대). 그러나 값이 상당히 낮다는 것도 주목해야 합니다. 이는 이러한 특징이 목표와 상관 관계가 약한 것을 의미합니다. 이는 모델이 더 정확한 예측을 수행하기 위해 더 중요한 정보를 포착하는 새로운 기능을 만들어 사용하는 특성 엔지니어링을 수행해야 할 것으로 예상됩니다. 특성 엔지니어링은 이 글의 뒷부분에서 자세히 다룰 것입니다.
 
@@ -142,7 +237,18 @@ Google Sheets 애드온도 제공되어 스프레드시트 내에서 직접 분�
 
 사용자가 플레이를 중단할지 여부를 예측하고 싶기 때문에, 이는 여러 레이블 중 하나를 선택해야 하는 분류 문제입니다. 우리의 경우, 문제는 두 가지 레이블 중 하나('1'은 '이탈', '0'은 '이탈하지 않음'에 해당)를 할당하는 것을 포함하므로, 이는 이진 분류 문제로 만듭니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 프로세스는 주로 AutoGluon 라이브러리를 통해 수행되며, 이 라이브러리는 자동으로 여러 모델을 학습한 다음 가장 우수한 성능을 달성한 모델을 선택합니다. 이렇게 하면 각각의 모델을 수동으로 학습하고 그 성능을 비교할 필요가 없어집니다.
 
@@ -152,7 +258,18 @@ Actable AI 플랫폼에서 설정해야 할 여러 매개변수가 있으며, �
 
 모델의 최적화를 위해 사용할 메트릭도 선택할 수 있습니다. 저는 수신자 조작 특성 (ROC) 아래 영역 (AUC ROC) 곡선을 사용했습니다. 이는 이전에 논의된 클래스 불균형 문제에 대해 훨씬 민감하지 않기 때문입니다. 값은 0부터 1까지의 범위를 가지며 (1일수록 완벽한 점수입니다).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일정 시간이 지난 후에는 결과가 생성되어 표시되며, 여기서도 볼 수 있습니다. 여러 가지 다른 측정 항목이 계산되며, 이는 좋은 실천 방식일 뿐만 아니라 각 측정 항목이 모델 성능의 특정 측면에 집중하기 때문에 우리가 모델을 실제로 이해하려면 거의 필수적입니다.
 
@@ -162,7 +279,18 @@ Actable AI 플랫폼에서 설정해야 할 여러 매개변수가 있으며, �
 
 이것은 크게 좋지는 않지만, EDA 중에 특성이 대상과 상관성이 약한 것을 상기하면, 성능이 별로 두드러지지 않는 것은 놀라운 일이 아닙니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 결과는 결과를 이해하는 중요성을 강조합니다. 보통 0.997 (즉, 99.7%) 정확도에 대해 매우 만족스러워할 것입니다. 그러나 이는 앞서 언급한 것처럼 데이터 세트의 심각한 불균형 때문이 대부분이므로 그다지 중요하지 않습니다. 한편, 정밀도와 재현율과 같은 점수는 기본적으로 임계값 0.5를 기반으로 하며, 이는 우리의 응용 프로그램에 가장 적합하지 않을 수 있습니다.
 
@@ -172,7 +300,18 @@ ROC 및 정밀도-재현율 곡선도 표시되는데, 이것들 또한 성능�
 
 얻은 최상의 모델에서 각 피처의 중요성을 확인할 수도 있습니다. 이는 AutoGluon을 통해 순열 중요성을 사용하여 계산됩니다. 결과의 신뢰성을 결정하기 위해 P-값도 표시됩니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-23-HowtoPredictPlayerChurnwithSomeHelpFromChatGPT_6.png" />
 
@@ -182,7 +321,18 @@ ROC 및 정밀도-재현율 곡선도 표시되는데, 이것들 또한 성능�
 
 또한 각 클래스(이 경우 1 또는 0)의 추정 확률을 살펴볼 수 있습니다. 이 확률은 예측된 클래스를 도출하기 위해 사용되며(기본적으로 가장 높은 확률을 가진 클래스가 예측된 클래스로 할당됩니다):
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-23-HowtoPredictPlayerChurnwithSomeHelpFromChatGPT_7.png" />
 
@@ -192,7 +342,18 @@ AI의 설명 가능성은 모델 동작을 이해하는 데 더 중요해지고 
 
 언급한 바와 같이 여러 모델이 훈련되고 평가된 후, 그 중에서 최적의 모델이 선택됩니다. 흥미로운 점은 이 경우 최고의 모델이 LightGBM임과 동시에 가장 빠른 모델 중 하나인 것입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마크다운 형식으로 테이블 태그를 변경해보세요.
 
@@ -202,7 +363,18 @@ AI의 설명 가능성은 모델 동작을 이해하는 데 더 중요해지고 
 
 <img src="/assets/img/2024-06-23-HowtoPredictPlayerChurnwithSomeHelpFromChatGPT_9.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다시 ROC AUC 지표에 초점을 맞추면, 성능이 0.675에서 0.709로 향상되었습니다. 이렇게 간단한 변경으로 성능이 상당히 향상된 것입니다. 하지만 여전히 이상적인 수준에서는 멀리 떨어져 있습니다. 더 나은 성능을 위해 우리가 할 수 있는 다른 방법이 있을까요?
 
@@ -212,7 +384,18 @@ AI의 설명 가능성은 모델 동작을 이해하는 데 더 중요해지고 
 
 우리의 경우, 데이터 세트의 기능은 사용자가 플레이한 레벨에 관한 정보에 대한 값만을 갖기 때문에 범위가 상당히 좁습니다. 따라서, 시간을 거쳐 레코드를 요약함으로써 더 전반적인 전망을 얻는 것이 매우 유용할 수 있습니다. 이렇게 함으로써 모델은 사용자의 역사적인 추세에 대한 지식을 가질 수 있을 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 플레이어가 사용한 추가 움직임의 수를 확인하여 경험한 난이도를 측정할 수 있습니다. 추가 움직임이 거의 필요하지 않았다면, 레벨이 너무 쉬웠을 수도 있습니다. 반대로 많은 숫자는 레벨이 너무 어려웠을 수도 있습니다.
 
@@ -222,7 +405,18 @@ AI의 설명 가능성은 모델 동작을 이해하는 데 더 중요해지고 
 
 최근 대규모 언어 모델(LLMs)의 발전과 (예: ChatGPT를 들어본 적이 있을지도 모르죠...), 그리고 특징 엔지니어링 프로세스가 경험 부족한 사용자에게는 다소 어려울 수 있기 때문에, LLMs가 어떤 특징을 생성할 수 있는 아이디어를 제공하는 데 어떤 지원이 될 수 있는지 궁금했습니다. 저는 이를 테스트해보았고, 다음 결과가 나왔습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-23-HowtoPredictPlayerChurnwithSomeHelpFromChatGPT_10.png" />
 
@@ -232,14 +426,25 @@ ChatGPT로부터 더 관련성 높은 응답을 받으려면 사용 중인 특�
 
 Actable AI 플랫폼에서는 상당히 잘 알려진 SQL 프로그래밍 언어를 사용하여 새로운 기능을 만들 수 있습니다. SQL에 익숙하지 않은 사용자를 위해 ChatGPT를 활용하여 쿼리를 자동으로 생성하는 방법이 유용할 수 있습니다. 그러나 내가 제한된 실험을 통해 이 방법의 신뢰성은 다소 일관되지 않을 수 있다는 것을 발견했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 원하는 결과를 정확하게 계산하기 위해 의도한 출력물을 수동으로 확인하여 검증하는 것이 좋습니다. SQL Lab에서 쿼리를 실행한 후에 나타나는 테이블을 확인하여 이를 확인할 수 있습니다. Actable AI는 SQL 코드를 작성하고 실행하는 인터페이스입니다.
 
 다음은 새로운 열을 생성하는 데 사용한 SQL 코드입니다. 다른 기능을 만들고 싶다면 이것을 참고하여 시작할 수 있을 것입니다.
 
 ```js
-SELECT 
+SELECT
     *,
     SUM("PlayTime") OVER UserLevelWindow AS "time_spent_on_level",
     (a."Max_Level" - a."Min_Level") AS "levels_completed_in_last_7_days",
@@ -291,8 +496,8 @@ WINDOW
         ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW
     ),
     User1DayWindow AS (
-        PARTITION BY "UserID" 
-        ORDER BY "ServerTime" 
+        PARTITION BY "UserID"
+        ORDER BY "ServerTime"
         RANGE BETWEEN INTERVAL '1' DAY PRECEDING AND CURRENT ROW
     ),
     User7DayWindow AS (
@@ -310,7 +515,18 @@ ORDER BY "ServerTime";
 
 이 코드에서 '윈도우'는 고려할 시간 범위를 정의하기 위해 생성되어 마지막 날, 지난 주 또는 지난 2주와 같은 것을 나타냅니다. 해당 범위 내에 속한 레코드가 기능 계산 중에 사용되며, 이는 주로 게임에서 플레이어의 여정에 대한 일부 역사적 맥락을 제공하기 위해 의도되었습니다. 전체 기능 목록은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - level_time_spend: 사용자가 레벨을 플레이하는 데 소요된 시간을 나타냅니다. 레벨의 난이도를 나타냅니다.
 - levels_completed_last_7_days: 사용자가 지난 7일 동안(1주일) 완료한 레벨 수를 나타냅니다. 난이도, 인내력 및 게임에 대한 몰입도를 보여줍니다.
@@ -337,7 +553,18 @@ ORDER BY "ServerTime";
 
 # 새로운 (희망적으로 향상된) 분류 모델 훈련
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로운 열이 유용한지 확인할 시간이에요. 이전과 동일한 단계를 반복할 수 있어요. 유일한 차이점은 이제 추가 기능을 포함하는 새 데이터 세트를 사용한다는 것이에요. 기존 모델과 공정한 비교를 위해 동일한 설정을 사용하여 원본 모델과 다음 결과와 함께 최적화합니다(여기서도 확인할 수 있습니다):
 
@@ -347,7 +574,18 @@ ORDER BY "ServerTime";
 
 이제 어떤 새로운 기능이 실제로 가장 유용했는지 확인하는 것이 흥미롭겠죠. 다시 한번 특징 중요도 표를 확인할 수 있어요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![그림](/assets/img/2024-06-23-HowtoPredictPlayerChurnwithSomeHelpFromChatGPT_12.png)
 
@@ -357,7 +595,18 @@ ORDER BY "ServerTime";
 
 이것들은 우리가 만들었을 수 있는 몇 가지 간단한 기능에 불과합니다. 성능을 더 향상시킬 수 있는 다른 기능들이 있을 수 있습니다. 독자에게 어떤 다른 기능들이 만들어질 수 있는지 확인해 보도록 남겨두겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지난과 동일한 시간 제한으로 품질에 최적화된 모델을 훈련시키는 것은 성능을 향상시키지 않았습니다. 그러나 더 많은 피처를 사용하고 있기 때문에 최적화에 더 많은 시간이 필요할 수 있기 때문에 이해할 만한 일입니다. 여기서 시간 제한을 6시간으로 늘리면 성능이 실제로 0.923(AUC 기준)로 향상된 것을 확인할 수 있습니다:
 
@@ -367,16 +616,25 @@ ORDER BY "ServerTime";
 
 훈련된 모델의 AUC 성능은 다음과 같이 요약할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-|                         Model                           | AUC (ROC) |
-|--------------------------------------------------------|-----------|
-| Original features                                      |     0.675 |
-| Original features + optim. for quality                 |     0.709 |
-| Engineered features                                    |     0.918 |
-| Engineered features + optim. for quality + longer time |     0.923 |
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
+| Model                                                  | AUC (ROC) |
+| ------------------------------------------------------ | --------- |
+| Original features                                      | 0.675     |
+| Original features + optim. for quality                 | 0.709     |
+| Engineered features                                    | 0.918     |
+| Engineered features + optim. for quality + longer time | 0.923     |
 
 # 프로덕션 환경에 모델 배포하기
 
@@ -384,8 +642,18 @@ ORDER BY "ServerTime";
 
 그러나 모델을 주기적으로 미래 데이터에 테스트하는 것은 매우 중요합니다. 모델이 여전히 예상대로 작동하는지 확인하기 위해 필요합니다. 실제로 더 최신 데이터로 모델을 다시 훈련해야 할 수도 있습니다. 이는 특징(예: 피처 분포)이 시간이 지남에 따라 변경될 수 있어 모델의 정확도에 영향을 미칠 수 있기 때문입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 회사에서 새로운 정책을 도입할 수 있으며 이는 고객 행동에 영향을 미칠 수 있습니다(긍정적 또는 부정적). 그러나 새로운 변화를 반영하는 기능이 없는 경우 모델은 새로운 정책을 고려하지 못할 수 있습니다. 만일 그런 심각한 변화가 있지만 모델에 정보를 제공할 수 있는 기능이 없다면, 고려해볼 가치가 있는 것은 두 모델을 사용하는 것입니다: 하나는 이전 데이터를 훈련시키고 사용하는 데에 특화되고, 다른 하나는 최신 데이터를 훈련시키고 사용하는 데에 특화하는 것입니다. 이렇게 함으로써 모델이 단일 모델로 잡기 어려운 서로 다른 특성을 가진 데이터에서 작동할 수 있도록 보장할 수 있습니다.
 
@@ -395,7 +663,18 @@ ORDER BY "ServerTime";
 
 데이터 탐색부터 모델 훈련, 피처 엔지니어링까지 전반적인 처리 파이프라인을 고려했습니다. 결과의 해석에 대한 토론과 어떻게 향상시킬 수 있는지가 제공되었으며, 0.675에서 0.923으로 가치를 향상시키는 방법을 탐색했습니다(1.0이 최대값입니다).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로 만들어진 기능들은 비교적 간단합니다. 더 많은 기능들이 있을 수 있지만, Feature Normalisation과 Standardisation 같은 기술들 역시 고려해볼 만 합니다. 여기와 여기에서 유용한 자료들을 찾을 수 있습니다.
 
@@ -409,7 +688,18 @@ Actable AI 플랫폼에 관해서, 제가 조금 편협한 의견을 가지고 �
 
 그럼에도 불구하고, 개선할 부분들이 몇 가지 존재하며, 몇 가지 측면들이 개선되어야 할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 무료 티어는 개인 데이터에서 ML 모델을 실행할 수 없습니다.
 - 사용자 인터페이스가 다소 오래된 느낌이 있습니다.
@@ -424,7 +714,18 @@ Actable AI 플랫폼에 관해서, 제가 조금 편협한 의견을 가지고 �
 
 이 기사에 대한 생각이 있으신가요? LinkedIn에서 메시지를 보내거나 직접 연락 주십시오!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저를 팔로우해주세요! 이렇게 하면 미래의 기사 발행 알림을 받을 수 있습니다.
 

@@ -3,17 +3,13 @@ title: "구글의 최신 알고리즘으로 벡터 데이터베이스 검색 속
 description: ""
 coverImage: "/assets/img/2024-06-22-GooglesNewAlgorithmsJustMadeSearchingVectorDatabasesFasterThanEver_0.png"
 date: 2024-06-22 21:10
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-GooglesNewAlgorithmsJustMadeSearchingVectorDatabasesFasterThanEver_0.png
 tag: Tech
 originalTitle: "Google’s New Algorithms Just Made Searching Vector Databases Faster Than Ever"
 link: "https://medium.com/gitconnected/googles-new-algorithms-just-made-searching-vector-databases-faster-than-ever-36073618d078"
 isUpdated: true
 ---
-
-
-
-
 
 벡터 데이터베이스는 LLM의 인기가 높아지면서 점점 더 인기를 얻고 있어요.
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 이 벡터들은 다양한 머신러닝 작업을 위한 추가 처리 및 애플리케이션에 사용될 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Vector Databases](/assets/img/2024-06-22-GooglesNewAlgorithmsJustMadeSearchingVectorDatabasesFasterThanEver_0.png)
 
@@ -34,8 +40,18 @@ Vector databases work by storing vector data so that it can be queried and worke
 
 Real-world entities/data points are first converted into embeddings.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼, 효율적인 쿼리를 위해 특수화된 인덱싱 구조를 사용하여 그들을 조직화합니다.
 
@@ -45,7 +61,18 @@ Real-world entities/data points are first converted into embeddings.
 
 예를 통해 이를 더 잘 이해해봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여러 요리 레시피의 임베딩을 포함하는 벡터 데이터베이스를 고려해보세요.
 
@@ -55,7 +82,18 @@ Real-world entities/data points are first converted into embeddings.
 
 ![이미지](/assets/img/2024-06-22-GooglesNewAlgorithmsJustMadeSearchingVectorDatabasesFasterThanEver_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 유사성 검색은 쿼리 벡터에 가장 가까운 임베딩을 찾는 Inner/ Dot product 작업을 통해 일반적으로 수행되며 이를 Maximum Inner-Product Search 또는 MIPS라고 합니다.
 
@@ -65,7 +103,18 @@ MIPS를 통해 데이터베이스에서 쿼리 벡터와 가장 큰 내적을 �
 
 데이터 세트가 너무 커지면 데이터베이스의 각각의 임베딩과 쿼리 임베딩을 비교하는 무차별 대우 방식은 비효율적일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러므로 스케일이 커지면 더 나은 유사성 검색 방법이 필요합니다.
 
@@ -75,7 +124,18 @@ MIPS를 통해 데이터베이스에서 쿼리 벡터와 가장 큰 내적을 �
 
 이 기술은 비슷한 기능을 가진 모든 라이브러리보다 성능이 두 배 우수하다고 발견되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 어떻게 작동하는지 배워봅시다.
 
@@ -85,7 +145,18 @@ MIPS를 가속화하는 다양한 기술은 데이터베이스에서 벡터를 �
 
 이 압축은 학습된 양자화 과정을 사용하여 수행됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 프로세스의 아이디어는 데이터베이스 내의 벡터 세트와 대략 관련된 대표 벡터 세트를 생성하는 것입니다.
 
@@ -95,8 +166,18 @@ MIPS를 가속화하는 다양한 기술은 데이터베이스에서 벡터를 �
 
 ScaNN에서는 K-Means 클러스터링 알고리즘이 이러한 목적으로 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-06-22-GooglesNewAlgorithmsJustMadeSearchingVectorDatabasesFasterThanEver_2.png)
 
@@ -106,8 +187,18 @@ Google 연구자들은 이 접근 방식에서 중요한 통찰을 발견했습�
 
 따라서, 이전 접근 방식처럼 이 차이/오차의 크기만을 고려하는 것이 아니라, 이 차이/오차의 방향 또한 고려하는 것이 중요합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그들은 병렬 양자화 오차(직교와 비교했을 때)가 원본 벡터의 더 나쁜 근사값으로 이어지는 것을 발견했습니다. 심지어 오차 크기가 낮을 때에도 마찬가지로 그렇습니다.
 
@@ -117,7 +208,18 @@ Google 연구자들은 이 접근 방식에서 중요한 통찰을 발견했습�
 
 예제에서 데이터베이스 임베딩 x1과 x2는 클러스터 센터 c1 또는 c2로 양자화됩니다. 그들의 양자화된 버전은 각각 x̃ 1과 x̃ 2라고 하며 q가 쿼리 벡터입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 목표는 쿼리와 임베딩 `q, x̃ i`의 내적을 원래의 내적` q, xi`와 가능한 한 유사하게 만드는 것입니다.
 
@@ -127,7 +229,18 @@ Google 연구자들은 이 접근 방식에서 중요한 통찰을 발견했습�
 
 다음 그림에서는 방향이 양자화에 반영됩니다. 즉, x1 및 x2는 그들의 방향이 q와 평행이 아닌 직교임에도 불구하고 더 멀리 떨어져 있는 경우(더 큰 크기)에도 c1 및 c2 센터를 선택합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 고려 사항은 알고리즘의 정확도가 높아지도록 `q, x1`, `q, x̃ 1` 및 `q, x2`, `q, x̃ 2` 간의 낮은 내적 오류를 유발합니다.
 
@@ -137,7 +250,18 @@ Google 연구자들은 이 접근 방식에서 중요한 통찰을 발견했습�
 
 2024년에 Google 연구원들은 SOAR: 직교성이 증폭된 잔차와 함께 넘치게 하는 새로운 접근 방식을 통해 ScaNN을 더 개선했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ScaNN의 초기 버전에서는 각 벡터가 상기 설명된 양자화 접근 방식을 사용하여 정확히 한 개의 K-means 클러스터로 근사화되었습니다.
 
@@ -147,7 +271,18 @@ ScaNN의 초기 버전에서는 각 벡터가 상기 설명된 양자화 접근 
 
 이것은 ScaNN의 양자화 방법에서의 직관과 유사할 수 있지만, SOAR는 대신 검색 단계에서 이를 사용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-22-GooglesNewAlgorithmsJustMadeSearchingVectorDatabasesFasterThanEver_5.png)
 
@@ -157,8 +292,18 @@ SOAR은 Redundancy 전략을 사용하여이 문제를 해결합니다.
 
 이로 인해 주요 클러스터에 문제가 발생할 경우 검색 프로세스 중에 백업으로 작용하는 보조 클러스터가 생성됩니다. (따라서 SOAR에서 "Spilling"이라는 용어가 사용됩니다.)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-22-GooglesNewAlgorithmsJustMadeSearchingVectorDatabasesFasterThanEver_6.png)
 
@@ -168,8 +313,18 @@ SOAR는 중복 벡터를 보유하는 이러한 보조 클러스터 센터를 �
 
 이는 쿼리 q가 r(원본 벡터와 클러스터 센터 사이의 차이)와 평행일 때 검색을 실패하는 것을 피합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 예시에서 c가 기본 클러스터 센터인 경우를 보여줍니다.
 
@@ -177,7 +332,18 @@ c'가 보조 클러스터 센터로 선택되면(r'(원래 벡터와 보조 클�
 
 그러나 c"가 보조 클러스터 센터로 선택되면 r"이 쿼리 q와 거의 직교하기 때문에 검색 단계 중에 더 낮은 실패율을 보입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이는 SOAR 뒤에 있는 기본 원칙인 효과적인 중복성에 이르게 됩니다.
 
@@ -187,7 +353,18 @@ c'가 보조 클러스터 센터로 선택되면(r'(원래 벡터와 보조 클�
 
 ScaNN에 도입되었을 때, SOAR는 다른 유사한 라이브러리와 비교할 때 가장 작은 메모리 풋프린트를 가지면서도 극도로 빠른 성능을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ScaNN의 성능을 맞추기 위해 유사한 라이브러리들이 10배 이상의 메모리와 50배 이상의 인덱싱 시간을 요구하는 것이 잘되어 좋네요!
 
@@ -197,7 +374,18 @@ ScaNN의 성능을 맞추기 위해 유사한 라이브러리들이 10배 이상
 
 현재 ScaNN은 오픈 소스 라이브러리로, 파이썬 프로젝트에서 pip를 사용하여 설치할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 pip install scann
@@ -213,7 +401,18 @@ Vertex AI 벡터 검색의 일환으로 사용할 수도 있으며, AlloyDB(Allo
 - Google Research 블로그 글 '효율적인 벡터 유사성 검색 ScaNN 공개'
 - Google Research 블로그 글 'ScaNN으로 더 빠른 벡터 검색을 위한 새로운 알고리즘 SOAR 공개'
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 벡터 데이터베이스 작업 경험은 어떠셨나요? 즐겨 사용하는 것이 있나요? 아래 댓글로 알려주세요!
 

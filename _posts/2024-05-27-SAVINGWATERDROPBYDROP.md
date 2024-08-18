@@ -3,17 +3,13 @@ title: "물 한 방울씩 절약하기"
 description: ""
 coverImage: "/assets/img/2024-05-27-SAVINGWATERDROPBYDROP_0.png"
 date: 2024-05-27 13:48
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-SAVINGWATERDROPBYDROP_0.png
 tag: Tech
 originalTitle: "SAVING WATER DROP BY DROP"
 link: "https://medium.com/@rgblack/saving-water-drop-by-drop-ab3ec048246c"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-05-27-SAVINGWATERDROPBYDROP_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 그런 다음 "fuga"를 확인하는 방법에 대해 안내합니다. 이는 누출을 의미합니다. 이전에도 여러 번 있었던 문제에 대한 것으로 누출이 아니라 고장이었습니다. 저희 물은 칼슘 악화가 심하게 발생하여 시스템의 여러 부분에 축적됩니다. 아내가 화장실 중 하나가 계속 작동 중이라고 이미 말해 주었었어요. 변기 물조절 장치의 분리 핀을 빼고 고무 밀봉판에 어떤 결정이 달라붙어 있는 것을 발견했습니다. 10분 정도 소요되는 남은 작업을 했더니 고쳐졌어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스페인에 대해 생각하는 많은 사람들이 프랑코 시대에 뒤쳐졌다고 생각합니다. 하지만 그것은 사실과는 거리가 멉니다. 우리는 하이테크 생산 분야에서 세계 리더는 아니지만 응용 분야에서는 세계 리더입니다. 우리 나라의 모든 집은 유틸리티 공급 업체에 연결된 디지털 미터를 통해 전력 공급 및 상수도 공급에 연결되어 있습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 한편, 물 누수 문제가 해결되었다는 자동 통지를 받았어요. 따라서 변기 탱크 밸브 청소가 작용한 것 같아요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 DIY를 즐기는 것을 좋아해요. 하지만 배관 공사는 정말로 싫어해요.
 이제는 조금의 그림 그리기를 할 예정이에요. 제 이야기가 즐거웠으면 좋겠어요. 현재 Medium에서 여러 주제에 관한 이야기가 거의 70편 있어요. 모두 무료로 읽을 수 있어요.

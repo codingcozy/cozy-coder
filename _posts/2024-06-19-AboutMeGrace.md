@@ -3,17 +3,13 @@ title: "내 소개  Grace"
 description: ""
 coverImage: "/assets/img/2024-06-19-AboutMeGrace_0.png"
 date: 2024-06-19 16:45
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-AboutMeGrace_0.png
 tag: Tech
 originalTitle: "About Me — Grace"
 link: "https://medium.com/about-me-stories/about-me-grace-c9d9fb1d93ce"
 isUpdated: true
 ---
-
-
-
-
 
 ![Grace's profile picture](/assets/img/2024-06-19-AboutMeGrace_0.png)
 
@@ -23,7 +19,18 @@ Grace는 군인 가족에서 자란 경험으로 인해 다양성에 대한 깊�
 
 앨리드 헬스 사이언스 학사와 데브리 대학교에서 기술 경영학 학사 학위를 취득한 Grace는 다양한 분야에서 독특한 시각을 제공합니다. 그녀의 글은 자기계발, 정신 건강, 비즈니스, 경영 및 기술이 기업 환경에서 통합되는 주제를 포함하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 날카로운 지성과 꾸준한 탐구 정신에 이끌리는 그레이스는 새로운 주제와 떠오르는 기술에 몰두하는 열정적인 연구자입니다. 역사적 사건의 복잡성을 파헤치거나 최신 기술의 발전을 탐구할 때도, 그녀는 각 주제에 열정적인 역량으로 다가가며 스스로의 이해력을 넓히고 개인 성장과 전문적 노력을 풍성하게 만듭니다.
 

@@ -3,17 +3,13 @@ title: "Active Directory 비밀 필수 FSMO 역할 및 전송 가이드"
 description: ""
 coverImage: "/assets/img/2024-06-22-ActiveDirectorySecretsTheEssentialGuidetoFSMORolesandTransfers_0.png"
 date: 2024-06-22 16:26
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-ActiveDirectorySecretsTheEssentialGuidetoFSMORolesandTransfers_0.png
 tag: Tech
 originalTitle: "Active Directory Secrets: The Essential Guide to FSMO Roles and Transfers"
 link: "https://medium.com/system-weakness/active-directory-secrets-the-essential-guide-to-fsmo-roles-and-transfers-24be3cc1b6c1"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-06-22-ActiveDirectorySecretsTheEssentialGuidetoFSMORolesandTransfers_0.png)
 
@@ -23,7 +19,18 @@ IT 인프라 영역에서 Active Directory (AD)는 조직 내 네트워크, 사�
 
 ## FSMO 역할이란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Active Directory은 멀티 마스터 데이터베이스 모델을 사용하여 도메인의 모든 쓰기 가능한 도메인 컨트롤러가 Active Directory 구성을 수정하고 이러한 변경 사항을 모든 다른 도메인 컨트롤러로 복제할 수 있도록 합니다. 그러나 일부 작업은 Active Directory 도메인 서비스(AD DS)의 무결성을 유지하기 위해 중앙 집중 제어가 필요합니다. 이러한 작업은 멀티 마스터 모드보다 단일 마스터 모드에서 더 잘 관리됩니다. 이러한 작업을 관리하는 특수 역할을 유연한 단일 마스터 운영(FSMO) 역할이라고 합니다.
 
@@ -33,7 +40,18 @@ FSMO 역할은 권장된 지침에 따라 하나의 도메인 컨트롤러에 �
 
 FSMO 역할은 여러 도메인 컨트롤러에서 동시에 실행할 경우 Active Directory 데이터베이스 내의 불일치와 훼손으로 이어질 수 있는 특정 작업을 처리하도록 설계되었습니다. 예를 들어, 스키마 수정이나 RID 할당 처리와 같은 작업은 순서를 유지하기 위해 단일 권한 있는 소스가 필요합니다. 지정된 FSMO 역할 보유자는 이러한 작업이 충돌 없이 수행되도록 보장하여 디렉터리 서비스의 안정성과 신뢰성을 유지합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 활성 디렉터리 및 그 구성 요소 개요
 
@@ -46,7 +64,18 @@ FSMO 역할은 여러 도메인 컨트롤러에서 동시에 실행할 경우 Ac
 
 이 프레임워크 내에서 FSMO 역할은 핵심 디렉터리 작업이 원활하게 수행되고 충돌이 없도록 보장하는 데 중요한 역할을 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 FSMO 역할을 이해하는 것의 중요성
 
@@ -56,7 +85,18 @@ IT 전문가와 시스템 관리자들에게는 FSMO 역할을 완전히 이해�
 
 # FSMO 역할의 종류:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Active Directory의 FSMO 역할은 고유한 책임과 범위를 갖는 다섯 가지 역할로 분류됩니다. 이러한 역할은 Active Directory 환경 내에서의 영향 범위를 기반으로 추가적으로 분류됩니다: Forest-Wide 역할과 Domain-Wide 역할.
 
@@ -66,7 +106,18 @@ Active Directory의 FSMO 역할은 고유한 책임과 범위를 갖는 다섯 �
 
 Forest-Wide 역할은 전체 Active Directory Forest를 걸친 범위를 가지고 있습니다. 이러한 역할은 Forest 내의 모든 도메인에 일관성을 유지해야 하는 작업에 필수적입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 스키마 작업 마스터:
 
@@ -79,7 +130,18 @@ Active Directory 숲에서 스키마 마스터 역할을 소유한 사용자는 
 Get-ADForest | select SchemaMaster
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 도메인 네이밍 마스터:
 
@@ -92,7 +154,18 @@ Active Directory 숲에서 도메인 네이밍 마스터 역할 소유자를 다
 Get-ADForest | select DomainNamingMaster
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 도메인 전체 FSMO 역할
 
@@ -103,7 +176,18 @@ Get-ADForest | select DomainNamingMaster
 - 역할: PDC 에뮬레이터는 도메인 내에서 시간 동기화를 위한 중심지로 작용하며, 비밀번호 변경을 관리하고 다른 도메인 컨트롤러들이 사용 불가능할 때 인증 요청에 대한 대체 역할을 합니다. 서버와 클라이언트 간에 5분 이내의 시차를 유지하여 성공적인 인증을 유지합니다. 5분 이상이 되면 장치가 도메인에 추가되지 않으며, 사용자는 인증할 수 없으며, Active Directory 통합 애플리케이션은 인증 관련 오류를 표시합니다. 또한, 이전 Windows NT 환경의 PDC 존재에 의존하는 응용 프로그램들을 위한 레가시 지원을 처리합니다. PDC는 또한 그룹 정책 개체 (GPO) 편집을 관리합니다. GPO가 보거나 업데이트될 때마다, PDC의 SYSVOL 폴더에 저장된 사본에서 수행됩니다. 이 역할의 중요성으로 인해, 가장 신뢰할 수 있는 도메인 컨트롤러를 PDC 역할을 보유할 수 있도록 선택하는 것이 좋습니다.
 - 범위: 도메인 전체. 각 도메인에는 고유한 PDC 에뮬레이터가 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Active Directory 도메인에서 PDC 역할 소유자를 찾는 방법은 다음과 같습니다:
 
@@ -116,7 +200,18 @@ Get-ADDomain | select PDCEmulator
 - 역할: 도메인에서 개체를 생성할 때 사용되는 RID 풀을 유지하는 역할을 합니다. 도메인의 각 개체는 고유한 보안 식별자(SID)를 가지고 있으며, RID 값은 SID 생성 프로세스의 일부입니다. SID는 Active Directory에서 개체를 고유하게 식별하며, RID는 SID 값의 증가하는 부분입니다. RID 값이 SID를 생성하는 데 사용되면 재사용할 수 없습니다. Active Directory에서 개체가 삭제된 후에도 RID 값을 회수할 수 없으므로 SID의 고유성이 유지됩니다. RID 역할 소유자는 RID 풀을 유지하며, 도메인에 여러 도메인 컨트롤러가 있는 경우 각 도메인 컨트롤러에 500개의 RID 값을 할당합니다. 도메인 컨트롤러의 RID 풀 사용량이 50%를 초과하면 연속적으로 고유 식별자의 공급을 보장하기 위해 RID 역할 소유자에게 다른 RID 블록을 요청합니다.
 - 범위: 도메인 전체적으로, 각 도메인에는 고유한 RID 마스터가 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Active Directory 도메인에서 RID 역할 소유자는 다음 PowerShell 명령을 사용하여 찾을 수 있습니다:
 
@@ -125,11 +220,22 @@ Get-ADDomain | select RIDMaster
 ```
 
 3. 인프라운영 마스터:
-   
+
 - 책임: 이는 도메인 간에 SID 및 식별 이름(DN) 값을 복제하는 역할을 담당합니다. SID 및 DN 값은 포리스트 내에서 위치에 따라 변경됩니다. 객체가 도메인 간으로 이동될 때, 그들의 새로운 값은 그룹 및 액세스 제어 목록(ACLs)에서 업데이트 되어야 합니다. 인프라운영 마스터는 이 작업을 처리하여 이동된 객체가 서비스에 중단 없이 자원에 액세스할 수 있도록 보장합니다.
 - 범위: 도메인 전반적으로 적용됩니다. 각 도메인은 자체 인프라운영 마스터를 보유합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Active Directory 도메인에서, 인프라스트럭처 운영 마스터 역할 소유자를 다음 PowerShell 명령을 사용하여 찾을 수 있습니다.
 
@@ -141,7 +247,18 @@ Get-ADDomain | select InfrastructureMaster
 
 ![이미지](/assets/img/2024-06-22-ActiveDirectorySecretsTheEssentialGuidetoFSMORolesandTransfers_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 시나리오를 고려해보세요: 다중 도메인 구조를 갖춘 회사인 Ecorp은 하나의 도메인에서 세 개의 도메인을 갖고 있습니다. 포리스트 루트 도메인은 Ecorp.com이며, Ecorp.net은 미국 본사에서 사용되고, Ecorp.in은 인도 지사에서 사용됩니다. 이러한 도메인들은 공통된 포리스트를 공유하며, 최적의 성능과 신뢰성을 유지하기 위해 FSMO 역할을 신중히 할당해야 합니다.
 
@@ -151,7 +268,18 @@ Ecorp.com이 포리스트 루트 도메인인 만큼, 스키마 마스터와 도
 
 ## 도메인 전체 역할 고려 사항
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 PDC 에뮬레이터는 비밀번호 변경, 시간 동기화 및 그룹 정책 개체 (GPO) 편집을 관리하기 때문에 가장 리소스를 많이 사용하는 FSMO 역할입니다. 따라서 이 역할은 처리 능력이 가장 높은 도메인 컨트롤러에서 실행되어야 합니다. 이 경우에 해당하는 것은 PDC01 입니다. SID 생성 및 할당에 중요한 RID 마스터 역할 역시 신뢰할 수 있는 도메인 컨트롤러에 있어야만 네트워크 지연 문제가 발생하지 않습니다. 따라서 PDC01은 RID 마스터 역할 또한 보유하고 있어서 최적의 성능을 보장하고 잠재적인 지연을 최소화합니다.
 
@@ -161,7 +289,18 @@ PDC 에뮬레이터는 비밀번호 변경, 시간 동기화 및 그룹 정책 �
 
 ## 백업 및 재해 복구
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SDC02은 백업 도메인 컨트롤러 역할을 합니다. 만약 FSMO 역할 보유자 중 하나에 장애가 발생할 경우 SDC02는 필요한 역할을 대신 수행하여 운영의 연속성을 보장합니다. 어떤 인프라에서는 숲 루트 도메인이 활발하게 사용되지 않을 수도 있지만, 이러한 경우에도 여러 도메인 컨트롤러를 유지하는 것은 불필요한 관리 부담으로 여겨질 수 있습니다.
 
@@ -171,7 +310,18 @@ Ecorp.in 도메인은 대부분 영업 직원으로 구성된 25명 미만의 �
 
 # PowerShell을 사용한 FSMO 역할 이동:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 FSMO 역할을 PowerShell을 사용하여 전송하는 것은 귀하의 Active Directory 환경에 최소한의 방해를 준다는 간단한 과정입니다. 이 섹션에서는 전송을 위한 사전 준비 조건, 각 FSMO 역할을 전송하는 단계별 절차 및 전송을 확인하는 방법을 안내해 드리겠습니다.
 
@@ -183,7 +333,18 @@ FSMO 역할을 PowerShell을 사용하여 전송하는 것은 귀하의 Active D
 
 시작하기 전에 현재 FSMO 역할 보유자를 확인해야 합니다. 다음 명령을 실행하여 확인할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 netdom query fsmo
@@ -197,7 +358,18 @@ Move-ADDirectoryServerOperationMasterRole -Identity ECORP-SDC02 -OperationMaster
 
 이동이 완료되면 역할 소유자를 다시 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 모든 다섯 FSMO 역할을 새 호스트로 이전해야 한다면 다음 명령어를 사용할 수 있어요:
 
@@ -209,7 +381,18 @@ Move-ADDirectoryServerOperationMasterRole -Identity ECORP-SDC02 -OperationMaster
 
 # 재해 발생 시 FSMO 역할 탈취하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 불행하게도 FSMO 역할을 보유한 도메인 컨트롤러가 고장나서 회복할 수 없는 경우(하드웨어 고장, 시스템 작동 문제, 강제로 복구된 도메인 컨트롤러), 다른 도메인 컨트롤러로 FSMO 역할을 취득해야 할 필요가 있습니다. FSMO 역할을 취득하는 것은 중요한 절차이며, 원래 역할 보유자가 영구적으로 오프라인 상태에 있거나 합리적인 시간 내에 복원할 수 없을 때에만 수행해야 합니다.
 
@@ -220,7 +403,18 @@ FSMO 역할 취득을 진행하기 전에 다음 사항을 확인하세요:
 
 역할을 취득하려면 다음 명령어를 사용할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 Move-ADDirectoryServerOperationMasterRole -Identity "TargetDC" -OperationMasterRole SchemaMaster, DomainNamingMaster, PDCEmulator, RIDMaster, InfrastructureMaster -Force
@@ -233,7 +427,18 @@ FSMO 역할 이전 명령에서 변경된 것은 끝에 있는 -Force 매개변�
 
 이전 섹션에서 FSMO 역할 배치에 대한 다양한 고려 사항을 논의했습니다. 여기서 최적의 성능과 신뢰성을 보장하기 위한 주요 사항을 요약하겠습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 네트워크 연결성
 
@@ -243,7 +448,18 @@ FSMO 역할 이전 명령에서 변경된 것은 끝에 있는 -Force 매개변�
 
 - 필요에 따라 FSMO 역할을 여러 서버에 분배하되, 더 많은 서버는 관리 부담을 증가시킵니다. 특별한 요구 사항이 없는 경우에는 FSMO 역할을 더 적은 수의 컴퓨터에 유지하려고 노력하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## PDC 역할
 
@@ -253,7 +469,18 @@ FSMO 역할 이전 명령에서 변경된 것은 끝에 있는 -Force 매개변�
 
 - RID 마스터 및 PDC 역할을 동일 도메인 내 동일 도메인 컨트롤러에 유지하세요. 이렇게 함으로써 이러한 역할 간 신뢰할 수 있는 통신이 보장되며, 해당 운영에 중요합니다. RID 마스터 역할은 리소스 풋프린트가 작기 때문에 도메인 컨트롤러의 성능에 중대한 영향을 미치지 않습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 스키마 마스터 및 도메인 네이밍 마스터
 
@@ -263,7 +490,18 @@ FSMO 역할 이전 명령에서 변경된 것은 끝에 있는 -Force 매개변�
 
 - 가능하다면 인프라스트럭처 마스터 역할을 글로벌 카탈로그 서버가 아닌 다른 서버에 할당하세요. 글로벌 카탈로그 서버는 포레스트의 모든 Active Directory 개체의 부분 복사본을 갖고 있어 인프라스트럭처 마스터 역할이 갖고 있지 않은 개체를 업데이트하는 데 방해가 될 수 있습니다. 그러나 Active Directory 재활용 통의 기능이 사용 중이라면 모든 도메인 컨트롤러가 교차 도메인 개체 참조를 업데이트하는 책임이 있기 때문에 인프라스트럭처 마스터 역할의 배치가 덜 중요해집니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 모범 사례를 준수함으로써 FSMO 역할을 최적으로 배치하여 견고하고 효율적인 Active Directory 환경을 유지할 수 있습니다.
 

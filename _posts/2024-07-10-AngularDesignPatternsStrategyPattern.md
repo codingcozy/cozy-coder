@@ -3,18 +3,13 @@ title: "Angular 디자인 패턴 전략 패턴 사용하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-10-AngularDesignPatternsStrategyPattern_0.png"
 date: 2024-07-10 00:54
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-10-AngularDesignPatternsStrategyPattern_0.png
 tag: Tech
 originalTitle: "Angular Design Patterns: Strategy Pattern"
 link: "https://medium.com/@vugar-005/angular-design-patterns-strategy-pattern-ace359ae77b3"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![Image](/assets/img/2024-07-10-AngularDesignPatternsStrategyPattern_0.png)
 
@@ -24,8 +19,18 @@ The Strategy pattern is a behavioral design pattern that provides a mechanism to
 
 🗎 Source Code
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ➡️ 권장 사전 요구 사항
 
@@ -37,7 +42,18 @@ The Strategy pattern is a behavioral design pattern that provides a mechanism to
 - 캡슐화: 각 전략은 별도의 클래스로 캡슐화되어 있어 코드를 깨끗하고 조직화된 상태로 유지하는 데 도움이 됩니다. 클라이언트 코드는 각 전략이 어떻게 구현되었는지의 세부 사항을 알지 못하며, 공통 인터페이스와만 상호 작용합니다.
 - 상속보다 합성: 전략 패턴은 상속을 의존하는 대신에 행위 재사용을 달성하기 위해 합성에 기반을 둔 것입니다. 이는 유연한 디자인을 이끌어 냅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 유용한 시나리오 💎
 
@@ -47,7 +63,18 @@ The Strategy pattern is a behavioral design pattern that provides a mechanism to
 
 내비게이션 앱: 내비게이션은 차량, 보행자 또는 자전거 탑승자를 위해 다른 경로 지정 전략을 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 정렬 알고리즘: 다양한 정렬 알고리즘(퀵 정렬, 버블 정렬, 병합 정렬)은 전략으로 구현될 수 있어서 실행 중에 가장 적합한 것을 선택할 수 있게 해줍니다.
 
@@ -57,7 +84,18 @@ The Strategy pattern is a behavioral design pattern that provides a mechanism to
 
 컨텍스트는 구체적인 전략 중 하나에 대한 참조를 가지고 있으며 이는 다른 메서드에서 사용됩니다. 이를 달성하기 위해 컨텍스트 클래스에 일반적으로 클라이언트가 설정하는 setStategy(stategy)라는 공개 메서드가 있습니다. 이 참조는 전략 인터페이스 유형입니다. 컨텍스트는 사용하는 전략을 알지 못합니다. 중요한 점은 전략이 전략 인터페이스를 구현해야 한다는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 전략 인터페이스:
 
@@ -67,7 +105,18 @@ The Strategy pattern is a behavioral design pattern that provides a mechanism to
 
 구체적인 전략은 클라이언트가 사용하고 컨텍스트에서 사용하는 알고리즘의 구현입니다. 전략 인터페이스를 구현합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. 클라이언트: 특정 전략 객체를 초기화하고 setStategy(stategy)를 통해 컨텍스트에 전달합니다.
 
@@ -77,7 +126,18 @@ The Strategy pattern is a behavioral design pattern that provides a mechanism to
 
 전자 상거래 애플리케이션을 가정해보세요. 클라이언트의 선호에 따라 배송 정보를 제공하고 싶습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 게시물의 맥락에서는 선택할 수 있는 교환 가능한 전략을 제공하고 싶습니다.
 
@@ -87,7 +147,18 @@ The Strategy pattern is a behavioral design pattern that provides a mechanism to
 
 먼저 무식/나이브한 접근 방식을 살펴보겠습니다: ⬇️
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 소스 코드 v1
 
@@ -127,7 +198,18 @@ getData 메서드에서 이미 불필요한 조건을 볼 수 있습니다. 이�
 
 ## 해결책: 🛠
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 다이어그램은 최종 구현 결과물이어야 하는 모습을 보여줍니다:
 
@@ -137,13 +219,24 @@ getData 메서드에서 이미 불필요한 조건을 볼 수 있습니다. 이�
 
 배송 전략 인터페이스는 모든 전략의 변형에 공통적입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export interface IShippingStrategy {
-    getType: () => string;
-    getCost: () => string;
-    getEstimatedTime: () => string;
+  getType: () => string;
+  getCost: () => string;
+  getEstimatedTime: () => string;
 }
 ```
 
@@ -170,7 +263,18 @@ export class EconomyShippingService implements IShippingStrategy {
 
 그리고
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @Injectable({
@@ -224,7 +328,18 @@ export class ShippingContextService implements IShippingStrategy {
 
 클라이언트에서 setStrategy 메서드를 호출합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Step 4: 클라이언트가 선호하는 전략을 선택할 수 있도록 합니다.
 
@@ -275,7 +390,18 @@ export class ShippingV2Component {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 알아차리셨겠지만, 저희는 조건문을 한 번만 사용합니다. 그것은 고객이 배송 옵션을 선택할 때 onStrategyChange에서 발생합니다.
 
@@ -285,7 +411,18 @@ export class ShippingV2Component {
 
 이 예제에 대해서는 이전 팩토리 패턴 게시물을 읽어주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제가 팩토리 패턴 게시물에 이 경고를 작성했어요:
 
@@ -295,7 +432,18 @@ export class ShippingV2Component {
 
 참고문헌:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 https://refactoring.guru/design-patterns/strategy
 

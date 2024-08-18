@@ -3,17 +3,13 @@ title: "아파치 드루이드 아키텍처"
 description: ""
 coverImage: "/assets/img/2024-06-20-TheArchitectureofApacheDruid_0.png"
 date: 2024-06-20 15:36
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-TheArchitectureofApacheDruid_0.png
 tag: Tech
 originalTitle: "The Architecture of Apache Druid"
 link: "https://medium.com/data-engineer-things/the-architecture-of-apache-druid-e92d64ba4360"
 isUpdated: true
 ---
-
-
-
-
 
 ## 하둡이 모든 문제를 해결할 수 있는 때
 
@@ -28,7 +24,18 @@ isUpdated: true
 
 # 소개
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이번 주에는 가장 유명한 실시간 OLAP 시스템 중 하나인 Apache Druid에 대해 자세히 살펴볼 예정이에요. 어떻게 작동하는지 궁금했던 적이 있나요? 이 블로그 글은 'Druid — A Real-time Analytical Data Store' 논문을 읽은 후에 작성되었어요.
 
@@ -38,7 +45,18 @@ isUpdated: true
 
 2004년, 구글이 산업에서 가장 영향력 있는 논문 중 하나인 'MapReduce: Simplified Data Processing on Large Clusters'를 발표했어요. 구글은 MapReduce를 도입하여 상용 컴퓨터를 사용하여 대규모 데이터 처리를 달성했어요. 그 뒤로 Hadoop 프로젝트가 짧은 시간 내에 나왔고, HDFS와 MapReduce 프레임워크는 많은 기업에 대한 대용량 데이터 분석의 기반을 마련했어요. 대용량 데이터의 저장 및 처리를 가능케 한 Hadoop 시스템이 있지만, 일부 단점이 있고 모든 요구 사항을 충족시키지 못할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 메타마켓(지금은 Rill이라 불림)은 마케터들이 마케팅 인사이트에 더 쉽게 접근하고 상호 작용하며 시각화하는 데 도움을 주는 회사입니다. 메타마켓 제품은 고도로 병행적인 환경에서 쿼리 성능과 데이터 가용성에 대한 보장이 필요합니다. 그들은 곧 하둡이 필요한 것을 지원할 수 없다는 것을 깨달았습니다. 오픈 소스 솔루션을 많이 연구한 후, 그들은 사용 가능한 솔루션 이상이 필요하다는 것을 깨달았습니다. 그래서 대용량 데이터에 대한 실시간 분석을 제공하는 데이터 저장소인 Druid를 만들었습니다.
 
@@ -48,7 +66,18 @@ isUpdated: true
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/0*LEShd3zbfB-0RWim.gif)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Druid은 공유하지 않는 아키텍처를 갖고 있어요. Druid 클러스터에는 다양한 종류의 노드가 있어요. 각 노드 유형은 일련의 책임을 맡고 있어요. 아래 섹션에서는 Druid의 노드 유형에 대한 자세한 내용을 다룰 거예요.
 
@@ -58,8 +87,18 @@ Druid은 공유하지 않는 아키텍처를 갖고 있어요. Druid 클러스�
 
 메모리 제한 때문에 실시간 노드는 인메모리 인덱스를 디스크에 두 가지 방식으로 유지해요: 주기적으로 또는 최대 행 임계값을 초과했을 때. 이 프로세스는 로우 저장 형식을 메모리에서 열 기반 저장 형식으로 변환해요. 그런 다음, 디스크의 데이터는 변경 불가능하게 저장돼요. 실시간 노드는 로컬로 유지되는 모든 데이터를 찾는 백그라운드 작업을 예약할 거예요. 이 작업은 이 인덱스를 병합하고 특정 시간 범위의 모든 수신된 이벤트를 포함하는 변경 불가능한 데이터 블록을 빌드해요. 논문에서 이 병합된 데이터를 "세그먼트"라고 부르고 있어요. 나중에, 실시간 노드는 이 세그먼트를 원격 저장소(드루이드에서 딥 스토리지라고 불리는)에 업로드할 거예요. S3나 HDFS와 같은 원격 저장소가 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Real-time nodes](https://miro.medium.com/v2/resize:fit:1400/0*kVg94BJBzWdZYS96.gif)
 
@@ -70,8 +109,18 @@ Druid은 공유하지 않는 아키텍처를 갖고 있어요. Druid 클러스�
 
 ![Apache Druid Architecture](/assets/img/2024-06-20-TheArchitectureofApacheDruid_0.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 중복된 소비자: 여러 실시간 노드가 카프카 토픽으로부터 동일한 이벤트 세트를 수신하여 중복된 이벤트 스트림을 생성할 수 있습니다. 실시간 노드 1개가 실패할 경우, 다른 노드가 데이터가 수신되도록 보장합니다.
 - 부하분산된 소비자: 여러 실시간 노드가 각각 스트림 파티션을 수신합니다. 따라서 시스템은 수신 처리량을 확장할 수 있습니다.
@@ -82,7 +131,18 @@ Druid은 공유하지 않는 아키텍처를 갖고 있어요. Druid 클러스�
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/1*YonIcYDmR1RAZM9XQ31Slg.gif)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 역사 노드는 데이터 서빙을 위해 깊은 저장소에서 특정 세그먼트를 다운로드합니다. 다운로드하기 전에 먼저 로컬 캐시를 확인합니다. 필요한 세그먼트가 캐시에 없는 경우 깊은 저장소에서 다운로드합니다. 다운로드 후에는 해당 상태를 Zookeeper에 알립니다. 역사 노드는 변경 불가능한 데이터만 처리하므로 세그먼트에서 읽기를 실행할 때 일관성을 보장할 수 있습니다. 변경 불가능성은 또한 Druid가 데이터 수정 여부에 신경 쓰지 않고 병렬화를 효율적으로 달성할 수 있도록 합니다.
 
@@ -92,7 +152,18 @@ Druid은 공유하지 않는 아키텍처를 갖고 있어요. Druid 클러스�
 
 # 브로커 노드
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*75f72U25fy68ZFcgnVHLxg.gif)
 
@@ -103,7 +174,18 @@ Druid은 공유하지 않는 아키텍처를 갖고 있어요. Druid 클러스�
 - 히스토리컬 노드의 결과의 경우, 브로커는 미래 사용을 위해 세그먼트 단위로 이러한 결과를 캐싱합니다.
 - 리얼타임 노드의 결과는 브로커가 캐싱하지 않습니다. 이렇게 함으로써 쿼리가 항상 결과의 신선도를 보장하는 리얼타임 노드에 의해 처리되도록 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 브로커 노드는 쿼리를 처리 노드로 라우팅하기에 중요합니다. 이를 위해 세그먼트 노드 매핑을 위해 Zookeeper와 통신해야 합니다. Zookeeper 장애가 발생한 경우, 브로커 노드는 클러스터의 최신 상태를 사용합니다 (이전 성공적인 Zookeeper 통신에서의 마지막 메타데이터). 브로커 노드는 클러스터 상태가 장애 전과 동일하다고 가정할 것입니다.
 
@@ -113,7 +195,18 @@ Druid은 공유하지 않는 아키텍처를 갖고 있어요. Druid 클러스�
 
 코디네이터 노드는 주기적으로 실행되어 클러스터의 현재 상태를 결정합니다. 그런 다음 예상 상태와 실제 상태를 비교하여 결정을 내립니다. (Kubernetes와 유사하죠?). 앞에서 언급한 노드 유형과 마찬가지로, 코디네이터 노드는 현재 클러스터 정보를 얻기 위해 Zookeeper와 통신합니다. 또한 이러한 노드는 추가 운영 매개변수 및 구성을 저장하는 MySQL 데이터베이스와 연결되어 있습니다. MySQL 데이터베이스에는 세그먼트가 클러스터에서 생성되고 삭제되며 복제되는 방식을 제어하는 규칙 테이블이 저장됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 룰 테이블에는 규칙이 포함되어 있습니다. 이 규칙은 역사적 세그먼트가 클러스터에서로드되고 삭제되는 방식을 제어합니다. 이러한 규칙을 통해 코디네이터가 다음을 알 수 있습니다:
 
@@ -125,7 +218,18 @@ Druid은 공유하지 않는 아키텍처를 갖고 있어요. Druid 클러스�
 
 # 저장 형식
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 드루이드(Druid)의 테이블은 타임스탬프가 찍힌 이벤트의 컬렉션으로, 일반적으로 각 세그먼트는 5~10백만 행 정도로 파티셔닝되어 있어요. 세그먼트는 기본 저장 단위이며, 복제 및 분배는 세그먼트 수준에서 수행됩니다. 모든 테이블에는 Druid가 필요로 하는 타임스탬프 열이 항상 있어요. Druid는 이 열을 데이터 분배 및 유지 정책에 사용하기 때문이에요. 세그먼트는 데이터 소스 식별자, 데이터 간격 및 버전에 의해 식별됩니다. 더 늦은 버전의 세그먼트에는 더 최신 데이터가 있어요. Druid에서 읽기 작업은 항상 최신 버전의 세그먼트에서 특정 시간 범위의 데이터를 읽어와요. 세그먼트는 컬럼 형식으로 원격 저장소에 저장되며, 이를 통해 더 효율적인 CPU 사용이 가능합니다. 필요한 데이터만 로드되기 때문이죠. Druid에는 다양한 데이터 형식을 지원하기 위한 여러 가지 컬럼 타입이 있어요. Druid는 디스크나 메모리에서 데이터를 더 효율적으로 압축하기 위해 다른 데이터 형식에 다양한 압축 방식을 적용할 거에요.
 
@@ -135,7 +239,18 @@ Druid은 공유하지 않는 아키텍처를 갖고 있어요. Druid 클러스�
 
 다음 블로그에서 만나요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 참고 자료
 

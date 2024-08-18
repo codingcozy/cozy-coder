@@ -3,17 +3,13 @@ title: "당신이 괜찮지 않다는 걸 알아요, 괜찮은 척하는 당신�
 description: ""
 coverImage: "/assets/img/2024-07-09-iknowyourenotokayandithurtsmetoseeyouactlikeyouare_0.png"
 date: 2024-07-09 23:25
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-iknowyourenotokayandithurtsmetoseeyouactlikeyouare_0.png
 tag: Tech
 originalTitle: "i know you’re not okay, and it hurts me to see you act like you are"
 link: "https://medium.com/@andengxzs_/i-know-youre-not-okay-and-it-hurts-me-to-see-you-act-like-you-are-38080c9b9e77"
 isUpdated: true
 ---
-
-
-
-
 
 ![Click here to view the post](/assets/img/2024-07-09-iknowyourenotokayandithurtsmetoseeyouactlikeyouare_0.png)
 
@@ -23,17 +19,39 @@ isUpdated: true
 
 모든 것을 털어놓을 때 편안하다고 하죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-하지만 나에게는 그렇지 않아. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+하지만 나에게는 그렇지 않아.
 
 나는 그들이 이미 다루고 있는 문제에 더해 버릴까봐 걱정돼. 그들에게 눈치채지 못하고 내가 그저 그들에게 눈거리일지도 모른다는 생각이 들어. 내 안에 간직하고 있어야 할 문제를 이야기하며 그들의 시간을 낭비하고 있는 건 아닐까 하는 걱정이 들어.
 
-만난 대부분의 사람들이 나에게 강한 성격을 갖고 있다고 말해. 내가 문제가 없는 것처럼 보이고 항상 긍정적으로 생각하는 것 같다고. 
+만난 대부분의 사람들이 나에게 강한 성격을 갖고 있다고 말해. 내가 문제가 없는 것처럼 보이고 항상 긍정적으로 생각하는 것 같다고.
 
 그래, 그게 나의 모습이지. 그들과 함께 있을 때 그렇게 하는 거야. 그들이 나를 그 모습으로 알기 때문에 내가 앞에서 강해야 돼. 그러나 방 안의 네 모퉁이에 혼자 남게 되면 나는 약해지는 거야. 눈물이 뺨을 타고 흘러내리면서 천천히 사그러드는 솜사탕 같은 기분이 들어. 내가 언제든지 기절할 것처럼 정말 텅 빈 느낌이 들어.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 약한 성격은 나만의 것이야. 다른 사람들은 나를 그렇게 보지 않아.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 "너가 괜찮지 않다는 거 알아. 괜찮다고 행동하는 걸 보는 게 너무 아파."
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 말들이 나를 완전히 다스렸어. 그 소식을 듣고 어떤 감정을 느껴야 할지 몰라. 아마도 난 익숙하지 않아서 그런 걸지도 몰라. 나는 나만의 벽을 쌓아왔어, 아무도 들어올 수 없게 해서, 쌓은 벽 너머로 내게 접근하지 못하게 했지. 그냥 내게 곁에 머물고 싶은 이들을 제한했고, 나를 동반하고 싶어하는 이들을 거부했고, 모든 것으로부터 스스로를 제한해왔어.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 그곳에서 일어섰어. 나 자신 안에 힘을 찾았어.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "오늘, 나는 두렵지 않다. 나는 나를 위해 쌓아 올린 모든 벽을 깼다. 그 벽이 무너지자, 그들 뒤에 익숙한 얼굴들을 보았다. 각각의 얼굴에 섞인 감정들 - 웃고 있는 사람들도 있고, 울 것 같은 사람들도 있고, 이미 울고 있는 사람들도 있고, 슬픈 사람들도 있다.
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 내 두 눈이 내 귀환을 기다리는 사람들을 볼 때, 큰 실수를 저질렀음을 깨달았다."
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아직 늦지 않았어요. 시간이 빨리 가고 있을지라도, 싸움은 아직 끝나지 않았습니다. 이 싸움을 계속 이어나갈 거에요, 더 이상 혼자가 아닌 거죠. 왜냐면 이제부터 나와 함께 하고 있는 건, 그 벽 뒤에 있는 사람들이기 때문이에요.
 
@@ -73,7 +124,18 @@ isUpdated: true
 
 내 이야기는 아직 끝나지 않았어요. 내 속에 아직 많은 전투가 남아있죠.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만, 적어도,
 
@@ -83,6 +145,17 @@ isUpdated: true
 
 나는 빛과 꽃으로 둘러싸인 아름다운 흰 침대 위에 누워 있는 내 모습을 보았어.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "당신에게 말했잖아요, 아무것도 않고 죽지 않을 거라고."

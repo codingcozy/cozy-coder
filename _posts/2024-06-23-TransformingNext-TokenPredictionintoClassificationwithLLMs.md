@@ -3,17 +3,13 @@ title: "대형 언어 모델LLMs로 Next-Token 예측을 분류로 전환하는 
 description: ""
 coverImage: "/assets/img/2024-06-23-TransformingNext-TokenPredictionintoClassificationwithLLMs_0.png"
 date: 2024-06-23 19:36
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-TransformingNext-TokenPredictionintoClassificationwithLLMs_0.png
 tag: Tech
 originalTitle: "Transforming Next-Token Prediction into Classification with LLMs"
 link: "https://medium.com/towards-data-science/transforming-next-token-prediction-into-classification-with-llms-fb4f33a02637"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-06-23-TransformingNext-TokenPredictionintoClassificationwithLLMs_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 가이드 미세 조정을 위한 일반적인 방법은 질문-답변 쌍으로 구성된 데이터셋을 작성하는 것입니다. 사전 훈련된 LLMs는 이러한 쌍을 사용하여 지도 학습 방식으로 추가로 미세 조정됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신은 지난 포스트에서 이 접근법을 확인할 수 있어요.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 직관적으로, 이러한 방법은 LLMs가 토큰을 기반으로 하는 아키텍처를 사용한다는 사실을 활용해요. 지시된 데이터와 선호도 데이터셋 모두에서 텍스트 쌍이 토큰으로 변환됩니다. 교차 엔트로피 손실과 디코더만을 사용하는 오토레그레시브 속성을 이용하여, LLMs의 가중치가 업데이트되는데, 레이블 토큰은 입력 토큰으로부터 복사되지만 하나씩 밀려서 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주어진 것을 감안하면 우리는 어휘를 분류 라벨로 교체할 수 있습니다! 다음 토큰을 어휘에서 예측하는 대신, 앞선 문맥 토큰에서 분류 작업의 범주를 예측하는 데 관심이 있습니다. 이것은 일반적으로 lm_head로 구현되는 LLMs의 헤드를 변경함으로써 가능합니다. 텍스트 생성에서, lm_head는 (임베딩 차원, 어휘 크기)의 모양을 가지고 있습니다. 분류를 위해 우리는 이것을 (임베딩 차원, 분류 수)로 수정합니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 이 접근 방식이 작동하는지 확인하기 위한 실험을 수행해 봅시다. 먼저, HuggingFace에서 사전 훈련된 LLM 및 해당 토크나이저를 사용하여 시작하겠습니다. 본 연구에서는 경량화된 38억 개의 파라미터 모델 microsoft/Phi-3-mini-4k-instruct를 선택했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 from transformers import AutoModelForCausalLM, AutoTokenizer
@@ -71,7 +100,18 @@ hidden_size = 3072
 model.lm_head = torch.nn.Linear(hidden_size, 2).to("cuda:3")
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또 다른 흥미로운 실험은 fe-fine-tuning을 위해 필요한 레이어를 결정하는 것입니다. 이 게시물에서는 모델이 모든 다른 레이어에서 토큰의 문맥적 의미를 학습했다는 가정에 기반하여, 마지막 블록의 마지막 정규화 레이어에 초점을 맞출 것입니다. 이 레이어는 lm_head 이전의 끝에서 두 번째 레이어입니다.
 
@@ -92,7 +132,18 @@ for param in final_norm.parameters():
 
 ## Cross Entropy Loss 정의
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전 게시물에서 lm_head의 가장 중요한 로짓이 문장의 마지막 토큰과 관련이 있다고 설명했습니다. 이는 self-attention 메커니즘에서 기인하는데, 마지막 토큰은 이전 모든 문맥 토큰들로부터의 주의 점수를 가지고 있습니다. 따라서 우리는 logits[:, -1, :]를 사용합니다.
 
@@ -110,17 +161,28 @@ def calculate_loss_batch(input_batch, target_batch, model):
 
 데이터셋은 텍스트와 레이블 두 개의 리스트로 구성되어 있습니다. 먼저, 토크나이저를 사용하여 텍스트 문자열을 토큰화된 ID로 변환합니다. 토크나이저는 정의된 최대 길이보다 긴 토큰을 자르거나 최대 길이보다 짧은 경우 패딩합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ecoding = tokenizer(
-            text,
-            add_special_tokens=True,
-            max_length=self.max_length,
-            padding='max_length',
-            truncation=True,
-            return_tensors='pt'
-)
+  text,
+  (add_special_tokens = True),
+  (max_length = self.max_length),
+  (padding = "max_length"),
+  (truncation = True),
+  (return_tensors = "pt")
+);
 ```
 
 그 다음으로, torch에서 DataLoader 객체를 사용하여 데이터를 모델 튜닝을 위해 반복적으로 공급합니다. BinaryClassification Dataset 객체는 torch의 Dataset 객체를 상속하며, 이 데이터셋을 DataLoader 객체로 로드합니다.
@@ -137,7 +199,18 @@ dataloader = DataLoader(dataset, batch_size=2, shuffle=True)
 
 1단계와 2단계를 합쳐서, 이것이 완전한 구현입니다. 메인 함수에 예제를 제공하여 BinaryClassificationDataset 객체를 인스턴스화하고 DataLoader 객체를 만들어 데이터를 생성하는 방법을 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 import torch
@@ -184,7 +257,7 @@ if __name__ == "__main__":
 
     # Load tokenizer
     tokenizer = AutoTokenizer.from_pretrained(model_name)
-    
+
     # Define dataset
     max_length = 128
     dataset = BinaryClassificationDataset(texts, labels, tokenizer, max_length)
@@ -201,7 +274,7 @@ if __name__ == "__main__":
         print("Input IDs:", input_ids)
         print("Attention Mask:", attention_mask)
         print("Labels:", labels)
-      
+
 ```
 
 ## 모델 훈련
@@ -233,7 +306,18 @@ with torch.no_grad():
     train_loss = calculate_loss_loader(dataloader, model, num_batches=2)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 트레이드오프
 

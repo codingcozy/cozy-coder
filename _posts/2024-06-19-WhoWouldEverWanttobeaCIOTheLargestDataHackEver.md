@@ -3,7 +3,7 @@ title: "누가 최고 정보 책임자가 되고 싶을까요 사상 최대의 �
 description: ""
 coverImage: "/assets/img/2024-06-19-WhoWouldEverWanttobeaCIOTheLargestDataHackEver_0.png"
 date: 2024-06-19 21:15
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-WhoWouldEverWanttobeaCIOTheLargestDataHackEver_0.png
 tag: Tech
 originalTitle: "Who Would Ever Want to be a CIO: The Largest Data Hack Ever?"
@@ -11,19 +11,24 @@ link: "https://medium.com/@billatnapier/who-would-ever-want-to-be-a-cio-the-larg
 isUpdated: true
 ---
 
-
-
-
-
-
 ![이미지](/assets/img/2024-06-19-WhoWouldEverWanttobeaCIOTheLargestDataHackEver_0.png)
 
 외주 업체에 데이터와 처리를 맡기면 자신의 데이터 보호를 다른 사람에게 의지하게 됩니다. 그렇다면, 왜 2020년대에도 우리는 아직도 고객 데이터를 제대로 암호화하고 보호하지 않는 걸까요? 따라서 침입자가 접근 통제를 우회하더라도 암호화된 데이터와 여러 겹의 암호화층을 마주해야 합니다. 데이터베이스의 경우 안전한 격리 내에서 처리하고 열 암호화를 사용해야 합니다.
 
 그리고, 무언가 잘못되면 누가 책임을 져야할까요? 아마도 CIO(최고 정보 책임자)일 것입니다. 사실, 사이버 보안 분야에서 이는 가장 스트레스 받는 일 중 하나일 겁니다. CIO들에게는 가장 많은 기업이 사이버 보안 예산을 위험에 대비해서 균형을 맞추어야 한다는 부담이 있습니다. 또한, CIO는 개발자와 관리자의 실수에 대한 책임을 져야 할 수도 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이번 주에는 Snowflake와 관련된 역사상 가장 대형의 데이터 해킹이 있었어요. Snowflake는 클라우드 스토리지 및 분석 회사입니다. 이에는 Ticketmaster와 Santander에 대한 침해도 포함되어 있어요. 핵심은 Shiny Hunters 그룹이며 이들은 악성 소프트웨어를 만드는 것으로 알려졌어요.
 
@@ -31,7 +36,18 @@ isUpdated: true
 
 Snowflake는 다른 회사를 위해 클라우드 시스템을 운영하므로 이러한 해킹은 빙산의 일각에 불과할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 400개 이상의 기업이 데이터 스크래핑을 당한 증거가 있습니다. 스노우플레이크의 CIO인 브래드 존스는 잠재적인 침해를 인정하고 고객들에게 계정을 어떻게 보호해야 하는지 설명했습니다:
 
@@ -41,8 +57,18 @@ Snowflake는 다른 회사를 위해 클라우드 시스템을 운영하므로 �
 
 결론적으로, Snowflake는 "rapeflake"로부터 악성 트래픽을 감지했습니다. 또 다른 클라이언트인 "DBeaver_DBeaverUltimate"로부터 악의적일 수 있는 IP 주소 범위가 확인되었습니다: [링크]
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-WhoWouldEverWanttobeaCIOTheLargestDataHackEver_3.png)
 
@@ -66,8 +92,18 @@ ORDER BY CREATED_ON;
 
 이 규칙을 감지하는 Python 프로그램은 여기에서 제공됩니다. 해킹으로부터의 가능성은 [이 기사]에 개요가 되어 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-WhoWouldEverWanttobeaCIOTheLargestDataHackEver_4.png" />
 
@@ -79,7 +115,18 @@ Snowflake의 권장사항은 계정에 멀티팩터 인증(MFA)을 시행하고 
 
 개발자들이 일반적으로 테스트를 위해 높은 권한을 가진 계정을 유지하는 데 데모 계정이 사용되었다는 증거가 있습니다. 현재 회사는 데이터 유출이 Snowflake의 제품의 취약성, 잘못된 구성 또는 침해로 인해 발생한 것이 아닌 것으로 생각하고 있습니다. 그러나 주요 질문들이 아직 해결되지 않은 상태이며, 레코드에 암호화가 적용되어야 했고 각 레코드에 강력한 액세스 제어가 있어야했던 곳에 관한 문제가 남아 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 SnowFlake는 Crowdstrike가 시스템을 조사하였고 문제가 그들의 사이트에 없다고 말했으며, 그들은 이후 고객들이 권장하는 보안 지침을 따르지 않았다고 지적했습니다.
 
@@ -89,7 +136,18 @@ Snowflake의 권장사항은 계정에 멀티팩터 인증(MFA)을 시행하고 
 
 그리고 Sandandar의 발표문은 [여기](해당 링크를 삽입해주세요)에 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-WhoWouldEverWanttobeaCIOTheLargestDataHackEver_6.png" />
 
@@ -99,6 +157,17 @@ Snowflake의 권장사항은 계정에 멀티팩터 인증(MFA)을 시행하고 
 
 그래서, 데이터 유출 사고를 누구에게 돌려야 할까요? 클라우드 제공 업체(AWS 등), 클라우드 플랫폼(SnowFlake 등) 또는 플랫폼 사용자? 전반적으로, 신뢰도가 높은 환경이기 때문에 클라우드 제공 업체를 비난할 필요는 없습니다. 그래서, 이번 주에는 누가 실제로 이 데이터 유출 사고의 책임을 져야 하는지, 그리고 사고의 범위가 어떤지 알게 될 거예요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그게 정말 궁금하죠. 왜 2020년대에도 시민 데이터를 암호화하지 않는 걸까요?

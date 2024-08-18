@@ -3,17 +3,13 @@ title: "리눅스 자가 삭제 파일 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-03-LinuxHowtocreateselfdeletingfiles_0.png"
 date: 2024-08-03 20:14
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-03-LinuxHowtocreateselfdeletingfiles_0.png
 tag: Tech
 originalTitle: "Linux How to create self deleting files"
 link: "https://medium.com/@kpatronas/linux-how-to-create-self-deleting-files-ab0b07396cce"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-08-03-LinuxHowtocreateselfdeletingfiles_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Linux에는 자가 삭제 파일을 만드는 데 사용되는 내장 명령이 없기 때문에 우리가 직접 만들어야 합니다! 생각보다 훨씬 쉽습니다 :)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 스크립트를 작성한 후 sdelete.sh로 저장하세요.
 
@@ -73,7 +80,18 @@ chmod 명령어로 실행 가능하도록 설정하세요.
 chmod +x sdelete.sh
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 테스트
 
@@ -92,7 +110,18 @@ $ ls -l | grep -i hello
 -rw-rw-r-- 1 administrator administrator          0 Jul 25 17:17 hello.txt
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일 분 후에 확인하면 hello.txt 파일이 존재하지 않는 것을 확인할 수 있습니다.
 
@@ -108,7 +137,18 @@ File '/home/administrator/hello.txt'가 생성되었습니다.
 '/home/administrator/hello.txt' 파일이 17:50에 삭제되도록 예정되었습니다.
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 어떻게 작동하나요?
 
@@ -118,7 +158,18 @@ File '/home/administrator/hello.txt'가 생성되었습니다.
 
 미래에 작업 예약하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 echo "ls -l /tmp" | at now + 1 minute
@@ -132,7 +183,18 @@ echo "echo 'Hello, World!'" | at 10:30 AM
 
 특정 날짜와 시간에 명령 스케줄링하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 echo "shutdown -h now" | at 11:59 PM 12/31/2024

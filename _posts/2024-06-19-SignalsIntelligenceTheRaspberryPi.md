@@ -3,18 +3,13 @@ title: "시그널 인텔리전스, 라즈베리 파이"
 description: ""
 coverImage: "/assets/img/2024-06-19-SignalsIntelligenceTheRaspberryPi_0.png"
 date: 2024-06-19 02:43
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-SignalsIntelligenceTheRaspberryPi_0.png
 tag: Tech
 originalTitle: "Signals Intelligence , The Raspberry Pi"
 link: "https://medium.com/@investigator515/signals-intelligence-the-raspberry-pi-d191d968a425"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![이미지](/assets/img/2024-06-19-SignalsIntelligenceTheRaspberryPi_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 신호 분석을 초보자의 관점에서 시작할 때, 시작하기가 어렵고 다루어야 할 정보가 많을 수 있습니다. 하드웨어 기반 시스템, 웹 기반 시스템이 있으며 무엇이라도 라디오 스펙트럼에서 보고 있는 것이죠?! 이렇게 하면 새로운 프로젝트가 재미있고 흥미로운 것으로 변할 수 있는데, 여기에 참여하는 동안 인내력과 동기부여를 빼앗기기도 합니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-SignalsIntelligenceTheRaspberryPi_1.png" />
 
@@ -35,7 +40,18 @@ isUpdated: true
 
 이 프로젝트를 완료하려면 SD 카드에 플래싱하는 경험과 기본적인 Linux 경험이 필요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 드래곤 소개
 
@@ -45,7 +61,18 @@ isUpdated: true
 
 # 요구 사항
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 라즈베리 파이 보드
 
@@ -55,7 +82,18 @@ RTL-SDR 동글
 
 모니터 모드 Wi-Fi 카드
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 운영 체제
 
@@ -65,7 +103,18 @@ RTL-SDR 동글
 
 또한 다양한 소프트웨어 정의 라디오를 위한 사전 구성된 드라이버가 많이 제공됩니다. 이에는 RTL-SDR, bladeRF, hackRF 등이 포함되어 있습니다. 이는 대부분의 장치가 일반적으로 플러그 앤 플레이가 가능하다는 것을 의미합니다. 초보자에게 이는 이상적입니다. 대부분의 프로젝트를 쉽게 구성하도록 만들어주어 작업에 집중할 수 있게 해주며, 필요한 드라이버를 찾느라 고생할 필요가 없습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 설정하기
 
@@ -75,7 +124,18 @@ RTL-SDR 동글
 
 ![Image](/assets/img/2024-06-19-SignalsIntelligenceTheRaspberryPi_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 번 Sourceforge 페이지에 접속하면, 가장 최근 업데이트 날짜를 확인하여 최신 버전을 받고 있는지 확인할 수 있습니다. 우리가 사용하는 Raspberry Pi 모델의 올바른 이미지를 받는지도 확인해야 합니다. 다양한 모델 간에 소량의 차이가 있기 때문입니다. 그런 다음, 확인이 완료되면 다운로드 탭을 눌러 로컬에서 이용 가능하게 대기하면 됩니다.
 
@@ -84,10 +144,21 @@ RTL-SDR 동글
 로컬 머신에 설치되면, SD 카드에 플래시가 필요합니다. 이를 위해 다른 프로젝트에서와 같이 Balena Etcher를 사용할 수 있습니다. 하지만 먼저 다운로드의 무결성을 확인하기 위해 MD5 합을 비교해야 합니다. Linux 사용자라면 다음 명령어로 터미널에서 이를 할 수 있습니다.
 
 ```js
-md5sum /다운로드한/파일의/경로
+md5sum / 다운로드한 / 파일의 / 경로;
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 무결성을 확인하려면 표시된 출력물을 Sourceforge 웹사이트에 저장된 출력물과 비교해야 합니다. 일치하면 파일이 정상이며 준비된 상태입니다.
 
@@ -95,19 +166,41 @@ md5sum /다운로드한/파일의/경로
 
 플래시가 완료되면 SD 카드를 Pi에 넣고 전원을 공급하고 부팅이 완료될 때까지 기다리면 됩니다. 설치가 올바르게 되었다면 데스크톱으로 부팅할 수 있어야 합니다. 이 시점에서 기본 사용자/비밀번호 조합을 변경했는지 확인해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 터미널에 들어가서 ls 명령어를 사용하여 사용 가능한 파일/프로그램을 검색해볼 수 있어요.
 
 ```js
-ls -la
+ls - la;
 ```
 
 <img src="/assets/img/2024-06-19-SignalsIntelligenceTheRaspberryPi_7.png" />
 
 # 마지막으로 함께 하고 싶은 말씀
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 요즘 만들어놓은 Raspberry Pi 보드를 활용해 기본적이면서도 광대한 신호 분석 스테이션으로 변신시켰습니다. 이제 여러분의 라디오 수신기 및 기본 센서 패키지의 범위에만 한정되어 있는 프로젝트입니다.
 
@@ -117,7 +210,18 @@ Raspberry Pi를 홈 빌트 프로젝트에 사용한 적이 있나요? 프로젝
 
 Medium은 최근 일부 알고리즘 변경을 도입하여 이와 같은 기사의 발견 가능성을 개선했습니다. 이 변경 사항은 높은 품질의 콘텐츠가 보다 넓은 관객에게 도달하도록 하는 데 중요한 역할을 합니다. 여러분의 참여가 이를 실현하는 데 결정적인 역할을 하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 이 기사가 유익하고 정보가 많거나 재미있었다면, 우리는 친절히 당신의 지원을 보여주시도록 권장합니다. 이 기사에 박수를 보내면 작가에게 그들의 작품이 감사히 받아들여지고, 또한 그것을 이용할 수 있는 다른 사람들에게 그 가시성을 높이는 데 도움이 됩니다.
 
@@ -127,7 +231,18 @@ Medium은 최근 일부 알고리즘 변경을 도입하여 이와 같은 기사
 
 📢 독점 업데이트를 위해 OSINT 텔레그램 채널에 참여하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 📢 최신 이벤트 정보를 받으시려면 우리의 크립토 텔레그램을 팔로우해주세요
 
@@ -137,7 +252,18 @@ Medium은 최근 일부 알고리즘 변경을 도입하여 이와 같은 기사
 
 🔗 추천하는 기사들:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 뭐야 이건?! 로켓 엔진
 - OSINT 수사관을 위한 셀프 케어 & 회복 가이드

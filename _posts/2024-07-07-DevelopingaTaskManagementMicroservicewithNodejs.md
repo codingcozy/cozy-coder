@@ -3,17 +3,13 @@ title: "Nodejs를 사용한 과제 관리 마이크로서비스 개발 방법"
 description: ""
 coverImage: "/assets/img/2024-07-07-DevelopingaTaskManagementMicroservicewithNodejs_0.png"
 date: 2024-07-07 23:13
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-DevelopingaTaskManagementMicroservicewithNodejs_0.png
 tag: Tech
 originalTitle: "Developing a Task Management Microservice with Node.js"
 link: "https://medium.com/@sameemabbas/developing-a-task-management-microservice-with-node-js-f51bfdc24626"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-07-07-DevelopingaTaskManagementMicroservicewithNodejs_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 우리의 Task Management API는 다음 작업을 지원할 것입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 작업 생성: 이름과 설명을 가진 작업을 생성하고 상태를 'new'로 설정할 수 있습니다.
 - 작업 가져오기: 작업을 식별자로 가져옵니다.
@@ -41,7 +48,18 @@ isUpdated: true
 
 ## 기능적 요구 사항
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 확장성: 증가하는 요청을 효율적으로 처리합니다.
 - 탄력성: 트래픽 증가에도 원활하게 대응합니다.
@@ -58,7 +76,18 @@ isUpdated: true
 
 Node.js는 속도, 큰 커뮤니티 및 프론트엔드 및 백엔드 개발에 적합한 점으로 선택되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 데이터베이스
 
@@ -70,7 +99,18 @@ MongoDB: 스키마가 없는 저장공간을 제공하는 문서 중심 NoSQL �
 
 ## 웹 프레임워크
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 친구 같이 해석해드릴게요:
 
@@ -80,7 +120,18 @@ Joi: 강력한 스키마 설명 및 데이터 유효성 검사 라이브러리�
 
 ## 설정
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Dotenv: .env 파일에서 환경 변수를 로드하는 모듈이에요.
 
@@ -90,7 +141,18 @@ ESLint: ECMAScript/JavaScript 코드에서 발견된 패턴을 식별하고 보�
 
 ## 테스트
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Jest: 코드의 정확성을 단위 및 통합 테스트를 통해 보증하는 JavaScript 테스트 프레임워크입니다.
 
@@ -100,7 +162,18 @@ Winston: 다양한 전송을 지원하는 유연한 로깅 라이브러리입니
 
 ## 메트릭스
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로메테우스 미들웨어: 표준 웹 애플리케이션 메트릭 수집용.
 
@@ -113,7 +186,18 @@ Winston: 다양한 전송을 지원하는 유연한 로깅 라이브러리입니
 
 ## 로컬 인프라estructure
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Docker: 프로덕션과 비슷한 로컬 환경을 만들기 위해 사용합니다. Docker Compose: 멀티 컨테이너 Docker 애플리케이션을 정의하고 관리하기 위해 사용합니다.
 
@@ -123,7 +207,18 @@ GitHub Actions: CI/CD를 위해 사용되며, 새로운 커밋이 빌드를 망�
 
 # 애플리케이션 개발
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 스택을 사용하여 MongoDB 백엔드를 가진 Node.js 애플리케이션을 생성할 예정입니다.
 
@@ -168,7 +263,18 @@ GitHub Actions: CI/CD를 위해 사용되며, 새로운 커밋이 빌드를 망�
 └── package.json
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 샘플 코드 스니펫
 
@@ -177,7 +283,7 @@ GitHub Actions: CI/CD를 위해 사용되며, 새로운 커밋이 빌드를 망�
 Mongoose를 사용하여 작업 스키마를 정의합니다:
 
 ```js
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 const { Schema } = mongoose;
 
 const TaskSchema = new Schema(
@@ -192,8 +298,8 @@ const TaskSchema = new Schema(
     },
     status: {
       type: String,
-      enum: ['new', 'active', 'completed', 'cancelled'],
-      default: 'new',
+      enum: ["new", "active", "completed", "cancelled"],
+      default: "new",
     },
     createdAt: {
       type: Date,
@@ -204,10 +310,21 @@ const TaskSchema = new Schema(
   { optimisticConcurrency: true }
 );
 
-module.exports = mongoose.model('task', TaskSchema);
+module.exports = mongoose.model("task", TaskSchema);
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 작업 컨트롤러
 
@@ -219,22 +336,22 @@ const updateTaskById = catchAsync(async (req, res) => {
   if (result.error) {
     switch (result.code) {
       case taskService.errorCodes.AT_LEAST_ONE_UPDATE_REQUIRED_CODE:
-        res.status(400).json({ success: false, message: '최소한 하나의 업데이트가 필요합니다' });
+        res.status(400).json({ success: false, message: "최소한 하나의 업데이트가 필요합니다" });
         return;
       case taskService.errorCodes.INVALID_STATUS_CODE:
-        res.status(400).json({ success: false, message: '유효하지 않은 상태' });
+        res.status(400).json({ success: false, message: "유효하지 않은 상태" });
         return;
       case taskService.errorCodes.INVALID_STATUS_TRANSITION_CODE:
-        res.status(404).json({ success: false, message: '작업을 찾을 수 없습니다' });
+        res.status(404).json({ success: false, message: "작업을 찾을 수 없습니다" });
         return;
       case taskService.errorCodes.TASK_NOT_FOUND_CODE:
         res.status(400).json({ success: false, message: result.error });
         return;
       case taskService.errorCodes.CONCURRENCY_ERROR_CODE:
-        res.status(500).json({ success: false, message: '동시성 오류' });
+        res.status(500).json({ success: false, message: "동시성 오류" });
         return;
       default:
-        res.status(500).json({ success: false, message: '내부 서버 오류' });
+        res.status(500).json({ success: false, message: "내부 서버 오류" });
         return;
     }
   }
@@ -248,24 +365,35 @@ const updateTaskById = catchAsync(async (req, res) => {
 
 ## Task 서비스
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비즈니스 규칙 및 데이터 지속성을 처리하는 서비스 로직을 구현하였습니다:
 
 ```js
 async function updateTaskById(id, { name, description, status }) {
   if (!name && !description && !status) {
-    return { error: '적어도 하나의 업데이트가 필요합니다', code: AT_LEAST_ONE_UPDATE_REQUIRED_CODE };
+    return { error: "적어도 하나의 업데이트가 필요합니다", code: AT_LEAST_ONE_UPDATE_REQUIRED_CODE };
   }
 
   if (status && !(status in availableUpdates)) {
-    return { error: '유효하지 않은 상태입니다', code: INVALID_STATUS_CODE };
+    return { error: "유효하지 않은 상태입니다", code: INVALID_STATUS_CODE };
   }
-  
+
   for (let retry = 0; retry < 3; retry += 1) {
     const task = await Task.findById(id);
     if (!task) {
-      return { error: '작업을 찾을 수 없습니다', code: TASK_NOT_FOUND_CODE };
+      return { error: "작업을 찾을 수 없습니다", code: TASK_NOT_FOUND_CODE };
     }
     if (status) {
       const allowedStatuses = availableUpdates[task.status];
@@ -283,13 +411,13 @@ async function updateTaskById(id, { name, description, status }) {
     try {
       await task.save();
     } catch (error) {
-      if (error.name === 'VersionError') {
+      if (error.name === "VersionError") {
         continue;
       }
     }
     return task;
   }
-  return { error: '동시성 오류', code: CONCURRENCY_ERROR_CODE };
+  return { error: "동시성 오류", code: CONCURRENCY_ERROR_CODE };
 }
 ```
 
@@ -297,21 +425,31 @@ async function updateTaskById(id, { name, description, status }) {
 
 라우트를 등록하고 유효성 검사 미들웨어를 적용하세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 테이블 태그를 전환하세요.
 
 ```js
-const { Router } = require('express');
-const taskController = require('../../../controllers/task');
-const taskValidation = require('../../../validation/task');
-const validate = require('../../../middlewares/validate');
+const { Router } = require("express");
+const taskController = require("../../../controllers/task");
+const taskValidation = require("../../../validation/task");
+const validate = require("../../../middlewares/validate");
 
 const router = Router();
-router.get('/:id', validate(taskValidation.getTaskById), taskController.getTaskById);
-router.put('/', validate(taskValidation.createTask), taskController.createTask);
-router.post('/:id', validate(taskValidation.updateTaskById), taskController.updateTaskById);
+router.get("/:id", validate(taskValidation.getTaskById), taskController.getTaskById);
+router.put("/", validate(taskValidation.createTask), taskController.createTask);
+router.post("/:id", validate(taskValidation.updateTaskById), taskController.updateTaskById);
 
 module.exports = router;
 ```
@@ -321,17 +459,17 @@ module.exports = router;
 API 기능을 확인하기 위해 통합 테스트를 구현하세요.
 
 ```js
-describe('Task API', () => {
+describe("Task API", () => {
   setupServer();
 
-  it('할 일 생성 및 업데이트해야 함', async () => {
-    let response = await fetch('/v1/tasks', {
-      method: 'put',
+  it("할 일 생성 및 업데이트해야 함", async () => {
+    let response = await fetch("/v1/tasks", {
+      method: "put",
       body: JSON.stringify({
-        name: 'Test Task',
-        description: 'Task description',
+        name: "Test Task",
+        description: "Task description",
       }),
-      headers: { 'Content-Type': 'application/json' },
+      headers: { "Content-Type": "application/json" },
     });
     expect(response.status).toEqual(201);
     const result = await response.json();
@@ -339,19 +477,30 @@ describe('Task API', () => {
     const taskId = result.task.id;
 
     response = await fetch(`/v1/tasks/${taskId}`, {
-      method: 'post',
-      body: JSON.stringify({ status: 'active' }),
-      headers: { 'Content-Type': 'application/json' },
+      method: "post",
+      body: JSON.stringify({ status: "active" }),
+      headers: { "Content-Type": "application/json" },
     });
     expect(response.status).toEqual(200);
     const updateResult = await response.json();
     expect(updateResult.success).toBe(true);
-    expect(updateResult.task.status).toBe('active');
+    expect(updateResult.task.status).toBe("active");
   });
 });
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 배포
 
@@ -386,6 +535,17 @@ volumes:
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 가이드를 따라하면 업무를 관리하는 강력하고 확장 가능하며 신뢰할 수 있는 마이크로서비스를 만들 수 있습니다. 이 아키텍처는 마이크로서비스가 문제 없이 동시 업데이트를 처리할 수 있고, 원활한 배포를 지원하며 쉬운 확장성과 모니터링을 제공합니다.

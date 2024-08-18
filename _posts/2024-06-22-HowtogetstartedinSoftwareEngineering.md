@@ -3,17 +3,13 @@ title: "2024년에 소프트웨어 엔지니어링 시작하는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-22-HowtogetstartedinSoftwareEngineering_0.png"
 date: 2024-06-22 19:24
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-HowtogetstartedinSoftwareEngineering_0.png
 tag: Tech
 originalTitle: "How to get started in Software Engineering"
 link: "https://medium.com/@kfcdev12345/how-to-get-started-in-software-engineering-53134573901e"
 isUpdated: true
 ---
-
-
-
-
 
 2022년 말, 다양한 개인적, 전문적 변화로 인해 나는 경력 교체를 결정했습니다. 목적지? 컴퓨터 과학, 드디어 모든 컴퓨팅에 대한 사랑을 실현하고 싶었습니다. 또한 앱을 만들고 마이크로전자 및 싱글 보드 컴퓨터와 놀고 싶었습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 목표 설정하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시작하기 전에 무엇을 달성하고 싶은지 파악하는 것이 중요해요. 저에게는 다음과 같았어요:
 
@@ -35,7 +42,18 @@ isUpdated: true
 
 그리고 이 모든 것을 지속 가능한 커리어 옵션으로 이끌어내는 걸 어떻게든 해야 했어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 온라인 강좌 발견하기
 
@@ -46,7 +64,18 @@ isUpdated: true
 - 설명: 이 프로그램은 알고리즘, 데이터 구조 등 컴퓨터 과학의 포괄적인 소개를 제공합니다.
 - 배운 내용: 프로그래밍 기초, 문제 해결 기술, 그리고 알고리즘의 중요성을 배웠습니다. 또한 최종 프로젝트로 멋진 레트로 게임을 제작하는 경험을 했습니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 하버드의 CS50
 
@@ -57,7 +86,18 @@ isUpdated: true
 
 ## Coursera, edX 및 Udemy 강의
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 설명: 컴퓨터 과학과 소프트웨어 엔지니어링의 다양한 측면을 다루는 다양한 플랫폼.
 - Coursera의 Python for Everybody: Python 프로그래밍에 대한 좋은 입문 코스입니다.
@@ -73,7 +113,18 @@ isUpdated: true
 
 책:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 파이썬으로 지루한 작업 자동화하기 - Al Sweigart
 
@@ -85,7 +136,18 @@ isUpdated: true
 - 설명: 깔끔하고 유지보수 가능한 코드를 작성하는 원칙을 이해하기 위한 필독서입니다.
 - 배운 점: 소프트웨어 개발의 최고의 실천 방법과 코딩 표준에 대한 교훈을 얻었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 더 많은 것들이 있어요... 마지막으로, 당신에게 맞는 스타일을 선택하고 심층적으로 파보라고 말하고 싶습니다! 알고리즘에 대한 기본 원리 또는 디자인에 대한 안내서 모두를 동등하게 추구할 수 있지만, 먼저 기본에 집중하세요.
 
@@ -96,7 +158,18 @@ isUpdated: true
 
 # 마이크로전자 및 싱글보드 컴퓨터 탐험
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마이크로전자 공학에 특히 관심을 가지고 있었기 때문에 다음과 같은 것을 탐험해보았어요:
 
@@ -106,7 +179,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-22-HowtogetstartedinSoftwareEngineering_2.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아두이노 프로젝트: 아두이노 보드는 전자 제품 및 프로그래밍을 배우는 데 좋습니다.
 
@@ -116,7 +200,18 @@ isUpdated: true
 
 커뮤니티에 가입하면 지원을 받거나 질문에 답변을 얻고 영감을 얻을 수 있습니다. 도움이 될 수 있는 몇 가지를 소개합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 스택 오버플로우: 개발자들이 서로 코딩 질문에 답변하는 커뮤니티입니다.
 - 레딧: r/learnprogramming이나 r/raspberry_pi와 같은 서브레딧이 있습니다.
@@ -130,7 +225,18 @@ isUpdated: true
 - 학위 프로그램: 많은 대학들이 온라인 컴퓨터 과학 학위를 제공하고 있습니다. 제가 대학 프로그램을 대충 따르고 있지만, 형식적인 학술적 여정이 나에게 적절한 접근 방법인지 확신이 안 서네요.
 - 자격증: CompTIA, Cisco, AWS와 같은 기관에서 인정하는 산업 인증서가 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컴퓨터 과학의 세계로 여행을 떠나면 처음에는 압도될 수 있지만, 적절한 자료와 명확한 계획이 있다면 완전히 성취할 수 있어요. 앱을 만들거나 마이크로 전자기기를 다루고 이해력이 있는 컴퓨팅 이론을 이해하고 싶다면, 여러 자료들이 여러분의 발전을 도울 수 있어요. 호기심을 가지고 있고 계속해서 배우며, 가장 중요한 것은 과정을 즐기는 것이에요.
 

@@ -3,18 +3,13 @@ title: "조쉬ai - 팀원을 만나보세요 Monika "
 description: ""
 coverImage: "/assets/img/2024-06-20-JoshaiMeetTheTeamMonika_0.png"
 date: 2024-06-20 16:27
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-JoshaiMeetTheTeamMonika_0.png
 tag: Tech
 originalTitle: "Josh.ai — Meet The Team: Monika 🆕"
 link: "https://medium.com/@joshdotai/josh-ai-meet-the-team-monika-368c305c4105"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![Monika](/assets/img/2024-06-20-JoshaiMeetTheTeamMonika_0.png)
 
@@ -24,8 +19,18 @@ What do you do at Josh? Graphic Design Intern
 
 Where are you from originally? Rockwall, TX
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떤 사무실에서 일하시나요? Denver
 
@@ -35,7 +40,18 @@ Where are you from originally? Rockwall, TX
 
 앞으로 몇 년 동안 기대되는 점이 있나요? 그래픽 디자인과 일러스트 작업에 열중하고 시장에 내 작품을 선보이는 것에 대해 기대돼요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아이폰이냐 안드로이드냐? - **아이폰**
 
@@ -45,7 +61,18 @@ Where are you from originally? Rockwall, TX
 
 만약 어디든 갈 수 있다면 어디에 가고 싶으신가요? - 일본! 미주/유럽 외에는 한 번도 가본 적이 없는데, 일본 여행이 멋지다고 들었거든요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 세상에서 가장 좋아하는 레스토랑은? 오로라에 있는 스시 가쓰! 아마도 주변에서 최고의 올 유 캔 잇 스시 레스토랑일 거예요.
 
@@ -55,7 +82,18 @@ Where are you from originally? Rockwall, TX
 
 조시에서 가장 좋아하는 기능은 무엇인가요? 다양한 상황에 맞게 조명, 사운드, 엔터테인먼트를 사용하여 장면을 만들 수 있는 것이 정말 멋지다고 생각해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 좋아하는 책/독서 자료/웹사이트는 무엇인가요? 제 현재 좋아하는 책은 'Poor Things'인데, 읽고 있는 것에 따라 계속 바뀌곤 해요. 웹사이트로는 Pinterest에 자주 접속해요.
 

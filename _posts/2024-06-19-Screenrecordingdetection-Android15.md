@@ -3,17 +3,13 @@ title: "화면 녹화 감지 - 안드로이드 15"
 description: ""
 coverImage: "/assets/img/2024-06-19-Screenrecordingdetection-Android15_0.png"
 date: 2024-06-19 21:34
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-Screenrecordingdetection-Android15_0.png
 tag: Tech
 originalTitle: "Screen recording detection-Android 15"
 link: "https://medium.com/@navczydev/screen-recording-detection-android-15-26ee709b66b4"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-06-19-Screenrecordingdetection-Android15_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 1️⃣. — install-time 권한을 앱의 AndroidManifest.xml 파일에 추가하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 <uses-permission android:name="android.permission.DETECT_SCREEN_RECORDING" />
@@ -37,7 +44,7 @@ private val screenRecordingCallback = { state: Int ->
 
         SCREEN_RECORDING_STATE_VISIBLE -> {
             // 녹화 중이에요 - 사용자에게 알림
-           
+
         }
 
         else -> {
@@ -49,8 +56,18 @@ private val screenRecordingCallback = { state: Int ->
 
 # 3️⃣. — 콜백 추가 — WindowManager
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - WindowManager.addScreenRecordingCallback()을 사용할 것입니다. 이 함수는 2개의 필수 매개변수를 필요로합니다:
 
@@ -63,12 +80,12 @@ override fun onStart() {
     //...
     val initialState =
         windowManager.addScreenRecordingCallback(
-            mainExecutor, 
+            mainExecutor,
             screenRecordingCallback
         )
-    
+
     Log.d("MainActivity", "onStart: Initial state: $initialState")
-    
+
     // 초기 상태로 콜백을 트리거합니다
     screenRecordingCallback.invoke(initialState)
 }
@@ -76,7 +93,18 @@ override fun onStart() {
 
 # 4️⃣. — 콜백 제거 — WindowManager
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 활동이 활성 상태일 때만 콜백을 수신하도록 활동의 onStop 메서드가 호출될 때 콜백을 제거해야 합니다.
 - WindowManager.removeScreenRecordingCallback() 메서드를 사용하여 콜백을 제거합니다. 이 메서드는 단일 비널 매개변수 `Consumer<Integer>`를 사용합니다.
@@ -94,7 +122,18 @@ override fun onStop() {
 
 # 연락을 유지해주세요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-Screenrecordingdetection-Android15_1.png" />
 

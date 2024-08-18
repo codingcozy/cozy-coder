@@ -3,17 +3,13 @@ title: "뇌리에서 떠나지 않을 ChatGPT 탑재 iOS 단축어, 사용 방�
 description: ""
 coverImage: "/assets/img/2024-07-19-ThisChatGPT-PowerediOSShortcutWillBlowYourMind_0.png"
 date: 2024-07-19 13:27
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-19-ThisChatGPT-PowerediOSShortcutWillBlowYourMind_0.png
 tag: Tech
 originalTitle: "This ChatGPT-Powered iOS Shortcut Will Blow Your Mind"
 link: "https://medium.com/macoclock/heres-a-chatgpt-powered-shortcut-for-ios-that-will-blow-your-mind-c6aeebb77e00"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-07-19-ThisChatGPT-PowerediOSShortcutWillBlowYourMind_0.png" />
 
@@ -25,7 +21,18 @@ isUpdated: true
 
 ChatGPT를 기반으로 한 Apple 단축키에 대한 기사를 이미 작성했습니다 →
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나, 이 기능은 매우 간단해요.
 
@@ -37,7 +44,18 @@ ChatGPT를 기반으로 한 Apple 단축키에 대한 기사를 이미 작성했
 
 그래도 마음에 드셨겠죠? 하지만, 이제 보여드릴 것은 더 복잡할 거에요. 확실해요. 기대해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 그러나 바로 단축키를 제공하기 전에 몇 가지 준비 사항이 있습니다.
 
@@ -48,7 +66,18 @@ ChatGPT를 기반으로 한 Apple 단축키에 대한 기사를 이미 작성했
 
 유료 계정을 등록하려면 OpenAI의 결제 개요 페이지로 이동하여 '유료 계정 설정'을 클릭하여 요금제를 활성화하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 완료? 이제 API 키 페이지로 이동하여 키를 만들고 복사하세요.
 
@@ -58,7 +87,18 @@ ChatGPT를 기반으로 한 Apple 단축키에 대한 기사를 이미 작성했
 
 먼저, Federico Viticci에게 MacStories에서 'S-GPT' 이라는 이 바로 가기를 제시해 주셔서 감사합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 메인 바로 가기인 S-GPT를 여기서 받아보세요.
 - 헬퍼 바로 가기인 S-GPT 인코더는 여기에서 받아보세요 (필수).
@@ -69,7 +109,18 @@ S-GPT를 당신의 바로 가기에 설치하는 동안, API 키가 필요합니
 
 S-GPT는 gpt-3.5-turbo를 사용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 gpt-4에 접근할 수 있다면, 약간 더 강력한 모델로 전환할 수 있습니다. 이는 단축키를 수정하여 변경할 수 있습니다.
 
@@ -79,7 +130,18 @@ S-GPT는 gpt-3.5-turbo를 사용합니다.
 
 두 가지 방법이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Siri를 발동시킨 후 "SGPT"라고 말하면 됩니다. 그러면 음성으로 프롬프트를 작동시킬 수 있어요.
 
@@ -89,7 +151,18 @@ S-GPT는 gpt-3.5-turbo를 사용합니다.
 
 ![이미지](/assets/img/2024-07-19-ThisChatGPT-PowerediOSShortcutWillBlowYourMind_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나는 두 번째 방식을 선호해요.
 
@@ -101,7 +174,18 @@ S-GPT는 gpt-3.5-turbo를 사용합니다.
 - 각 세션 끝에 채팅 내용을 다운로드할 수 있어요. (번역도 가능해요!)
 - 더 개인화된 경험을 제공하기 위해 음악, 클립보드 및 캘린더와 같은 Apple 서비스에 액세스 권한을 요청해요 (허용해야 해요).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 다음은 이것과 관련하여 시도해볼만한 것들입니다.
 
@@ -111,7 +195,18 @@ S-GPT는 gpt-3.5-turbo를 사용합니다.
 
 시도해보세요 →
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 트위터 스레드를 통해 UI 디자인에 관해 작성해보세요.
 - 꼬질꼬질한 전환점이 많은 범죄 스릴러 소설을 써보세요.
@@ -132,8 +227,18 @@ S-GPT는 gpt-3.5-turbo를 사용합니다.
 
 (1) "요약하기: "라고 입력한 후 텍스트를 붙여넣어주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![img1](/assets/img/2024-07-19-ThisChatGPT-PowerediOSShortcutWillBlowYourMind_5.png)
 
@@ -143,8 +248,18 @@ Click Done, and you got the summary.
 
 You can also ask it to summarise under 100 or 200 words.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 (2) 기사 링크를 입력하세요
 
@@ -155,8 +270,18 @@ S-GPT는 자동으로 기사를 크롤링하여 해당 요약을 제공합니다
 
 ![S-GPT](/assets/img/2024-07-19-ThisChatGPT-PowerediOSShortcutWillBlowYourMind_7.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-19-ThisChatGPT-PowerediOSShortcutWillBlowYourMind_8.png)
 
@@ -166,9 +291,18 @@ S-GPT는 자동으로 기사를 크롤링하여 해당 요약을 제공합니다
 
 그냥 말해주세요
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-07-19-ThisChatGPT-PowerediOSShortcutWillBlowYourMind_9.png](/assets/img/2024-07-19-ThisChatGPT-PowerediOSShortcutWillBlowYourMind_9.png)
 
@@ -178,8 +312,18 @@ S-GPT는 자동으로 기사를 크롤링하여 해당 요약을 제공합니다
 
 따라서 "... 내가 복사한 것"이 아니라 "... 클립보드에서"라고 말해 주세요.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 (4). 이미지에서 텍스트를 요약하려면,
 
@@ -191,7 +335,18 @@ S-GPT는 자동으로 기사를 크롤링하여 해당 요약을 제공합니다
 - 해당 이미지에서 텍스트를 추출하여 로컬로 전송하고 ChatGPT로 전송되지 않습니다.
 - 검색된 요약이 표시됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-19-ThisChatGPT-PowerediOSShortcutWillBlowYourMind_11.png" />
 
@@ -201,19 +356,41 @@ S-GPT는 자동으로 기사를 크롤링하여 해당 요약을 제공합니다
 
 - S-GPT에게 선호하는 곡을 요청하세요. (장르, 년도, 아티스트 등)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ---
+
 ![이미지1](/assets/img/2024-07-19-ThisChatGPT-PowerediOSShortcutWillBlowYourMind_12.png)
 
 ![이미지2](/assets/img/2024-07-19-ThisChatGPT-PowerediOSShortcutWillBlowYourMind_13.png)
 
 이제 이어서, 노래 목록을 변경하실 부분이 있으면 자유롭게 변경해보세요.
 
-또는 노래에 대해 문제가 없다면 S-GPT에게 플레이리스트를 생성하도록 요청해보세요. (트리거 워드)
----
+## 또는 노래에 대해 문제가 없다면 S-GPT에게 플레이리스트를 생성하도록 요청해보세요. (트리거 워드)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-19-ThisChatGPT-PowerediOSShortcutWillBlowYourMind_14.png" />
 
@@ -223,7 +400,18 @@ S-GPT는 자동으로 기사를 크롤링하여 해당 요약을 제공합니다
 
 잠시 기다려주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한번 확인을 받으셨다면 →
 
@@ -233,7 +421,18 @@ S-GPT는 자동으로 기사를 크롤링하여 해당 요약을 제공합니다
 
 ![Image 2](/assets/img/2024-07-19-ThisChatGPT-PowerediOSShortcutWillBlowYourMind_17.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 엄청난 정보야!
 
@@ -241,13 +440,25 @@ S-GPT는 자동으로 기사를 크롤링하여 해당 요약을 제공합니다
 프로모션을 요청할 때 "X곡으로 이루어진 플레이리스트를 만들어주세요"라고 직접 물어서 한 단계를 건너뛸 수 있어요.
 
 더 많은 관련된 프롬프트 →
+
 - 이모 음악이 듣고 싶어. 2000년 이후 발매된 이모 음악들을 나열해주세요. 년도별로 그룹화하고 각 그룹을 노래 제목순으로 정렬해주세요.
 - 길 여행에 관한 상위 15곡의 노래로 플레이리스트를 만들어주세요.
 - Oasis와 Blue의 인기있는 20곡으로 플레이리스트를 만들어주세요.
 - boygenius 멤버들의 상위 15곡으로 플레이리스트를 만들어주세요.
 - 2000년부터 2010년 사이에 발매된 감성 인디 록 노래 25곡으로 플레이리스트를 만들어주세요. 발매 년도순으로 오래된 순부터 최신 순으로 정렬해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## #4. 일정에 도움을 받아 보세요
 
@@ -257,7 +468,18 @@ S-GPT는 자동으로 기사를 크롤링하여 해당 요약을 제공합니다
 
 ![image](/assets/img/2024-07-19-ThisChatGPT-PowerediOSShortcutWillBlowYourMind_18.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 참고: 내 일정은 트리거 구문입니다.
 
@@ -267,20 +489,41 @@ S-GPT는 자동으로 기사를 크롤링하여 해당 요약을 제공합니다
 
 ## #5. 모든 대화 내보내기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 S-GPT은 현재 세션에서 대화를 모두 기억합니다. 앞으로 이어지는 대화가 끝날 때 "대화 내보내기" (트리거 문구)라고 말하면 액세스할 수 있습니다.
 
-다음은 선택할 수 있는 옵션입니다 → 
+다음은 선택할 수 있는 옵션입니다 →
 
 ![Options](/assets/img/2024-07-19-ThisChatGPT-PowerediOSShortcutWillBlowYourMind_20.png)
 
 알아보셨나요? 대화 전체를 번역할 수도 있습니다!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 표 태그를 Markdown 형식으로 변경해 볼게요.
-
 
 Let me try ‘Preview’ with a joke.
 
@@ -290,8 +533,18 @@ Isn’t it fantastic? (No not the joke, the feature)
 
 # Finally
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그게 너의 새로운 초능력이야.
 
@@ -301,7 +554,18 @@ S-GPT는 macOS에서도 잘 작동해. 또한 watchOS와 호환되지만, 클립
 
 그리고 네가 발견하면 댓글로 알려줘!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 만약 이 이야기를 즐겼다면, 더 유용한 애플 단축키를 받아보세요.
 

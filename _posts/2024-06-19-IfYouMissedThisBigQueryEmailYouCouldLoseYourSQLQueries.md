@@ -3,17 +3,13 @@ title: "만일 당신이 이 BigQuery 이메일을 놓쳤다면 SQL 쿼리를 �
 description: ""
 coverImage: "/assets/img/2024-06-19-IfYouMissedThisBigQueryEmailYouCouldLoseYourSQLQueries_0.png"
 date: 2024-06-19 05:23
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-IfYouMissedThisBigQueryEmailYouCouldLoseYourSQLQueries_0.png
 tag: Tech
 originalTitle: "If You Missed This BigQuery Email You Could Lose Your SQL Queries"
 link: "https://medium.com/pipeline-a-data-engineering-resource/if-you-missed-this-bigquery-email-you-could-lose-your-sql-queries-30f7a0ee1ca7"
 isUpdated: true
 ---
-
-
-
-
 
 클라우드 및 데이터 엔지니어링의 세계를 처음 접하고 계신가요? 전문가로서의 여정을 시작할 때 포트폴리오로 시작해보세요. 무료 5페이지 프로젝트 아이데이션 가이드를 받아보세요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 그래서 “조치 권장”이라는 자격요건이 담긴 이메일을 개인 인박스로 받았을 때 나는 내 조직의 보안팀이 초과 근무 중이라고 생각했다. 블록 버튼 위에 손가락을 두며 이메시지를 훑어보니 보통의 "여기를 클릭하세요" 함정이 있는지 확인했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다행히도, 이것은 Google Cloud로부터 온 메시지로, BigQuery에 중요하면서도 섬세한 변경 사항에 관한 내용이었습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 따라서 이는 BigQuery 쿼리가 갑자기 양자 컴퓨트 리소스상에서 실행된다는 뉴스와 같이 혁신적인 발표는 아니지만, 나와 같이 BigQuery 쿼리를 만들고는 잊어버리는 경향이 있는 전문가들에게 영향을 미칠 것으로 생각되는 바입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-IfYouMissedThisBigQueryEmailYouCouldLoseYourSQLQueries_1.png" />
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 이 변경의 일환으로, 현재 고객들을 위해(저와 같은 경우 — 저는 엔터프라이즈 계정을 사용하며 개인 이메일과 연결된 계정을 유지합니다) 마이그레이션 날짜에 GCP가 이 새로운 "협업 분석 공간"을 지원하는 6개의 새로운 API를 자동으로 활성화할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Dataform
 - Dataplex
@@ -58,7 +87,18 @@ API 변경은 확실하게 흥미로운 일이지만, 여러분(또는 어떤 �
 
 저는 개인적으로 몇 가지 이유로 쿼리를 저장합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 제가 큰 쿼리나 뷰에 열을 추가하는 것과 같은 빠른 업데이트를 작업 중이라면,
 
@@ -66,7 +106,7 @@ API 변경은 확실하게 흥미로운 일이지만, 여러분(또는 어떤 �
 
 ```js
 SELECT column_name AS name,
-CASE WHEN data_type = "FLOAT64" THEN "FLOAT" 
+CASE WHEN data_type = "FLOAT64" THEN "FLOAT"
 WHEN data_type = "INT64" THEN "INTEGER"
 WHEN data_type = "BOOLEAN" THEN "BOOL"
 ELSE END AS type,
@@ -77,7 +117,18 @@ WHERE table_name = "target_table"
 
 제가 데이터를 검증하는 QA를 수행할 때 쿼리를 저장하는 것도 자주 하죠. 위 예시처럼, 데이터 유효성을 검증하기 위해 사용하는 몇 가지 프로세스가 있는데, 제 분석 팀원들이 자신들만의 QA를 수행하기 전에도 이미 사용해요. 여러 테이블에서 특정 필드를 비교할 때, 수익 지표와 같은, 이러한 열, CTE 및 JOIN을 가능한 한 한 번만 작성하고 싶어해요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 수익과 같은 특정 민감한 데이터에 액세스할 수 있지만, BigQuery 액세스를 가진 모든 사람이 그러한 정보를 볼 수 있는 것은 아닙니다. 여기서 접근 제어와 권한이 매우 중요한 역할을 합니다.
 
@@ -87,7 +138,18 @@ WHERE table_name = "target_table"
 
 저와 같은 BigQuery 관리자들은 더 넓은 범위에서 프로젝트 수준의 자원을 관리할 수 있도록 데이터폼 관리자 역할이 부여될 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 제품 이관처럼, 플랫폼과 최종 사용자는 원활한 전환과 자산 보존을 위해 특정 역할을 수행해야 합니다.
 
@@ -98,7 +160,18 @@ WHERE table_name = "target_table"
 
 ### 사용자
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 자동 API 활성화에서 선택하여 탈락하기 (2024년 3월 3일까지)
 - 계정 권한을 기존 액세스 제어 정책과 일치하도록 조정하기
@@ -111,6 +184,17 @@ WHERE table_name = "target_table"
 
 나는 데이터를 잃는 것보다 더 나쁜 것은 접근 권한을 잃는 것이기 때문에 내 개인 인스턴스에 저장된 쿼리를 매우 가까운 시일 내에 이전할 계획입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도와드릴게요. 이 블로그 외에 어떻게 도와드릴 수 있는지 알려주실 겸 3가지 질문 설문에 응답해주세요. 모든 응답자에게 무료 선물을 제공해드립니다.

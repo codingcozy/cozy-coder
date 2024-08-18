@@ -3,17 +3,13 @@ title: "안녕하세요, 지그비 월드 25화  OTA 펌웨어 업데이트"
 description: ""
 coverImage: "/assets/img/2024-06-19-HelloZigbeeWorldPart25OTAFirmwareUpdates_0.png"
 date: 2024-06-19 17:13
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-HelloZigbeeWorldPart25OTAFirmwareUpdates_0.png
 tag: Tech
 originalTitle: "Hello Zigbee World, Part 25 — OTA Firmware Updates"
 link: "https://medium.com/@omaslyuchenko/hello-zigbee-world-part-25-ota-firmware-updates-20b154b4a23b"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-19-HelloZigbeeWorldPart25OTAFirmwareUpdates_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이 글은 Hello Zigbee 시리즈를 계속해서, 바닥부터 Zigbee 장치 펌웨어를 개발하는 데 초점을 맞춘 내용입니다. 저는 NXP JN5169 마이크로컨트롤러가 장착된 EBYTE E75-2G4M10S 모듈을 활용하여, 이 시리즈 이전 글에서 구축된 코드를 기반으로 구축할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자 이제 함께 알아봅시다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 OTA 클러스터는 꽤 복잡합니다. 메인 펌웨어와 다중 마이크로컨트롤러를 가진 장치의 보조 프로세서 펌웨어를 업데이트하기 위한 상세한 설정을 제공합니다. 프로세스에는 네트워크 혼잡을 피하기 위해 다운로드 속도를 관리하는 방법이 포함되어 있습니다. 또한 업데이트 절차는 다른 타임아웃 및 오류 코드에 의해 원활한 운영이 보장됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 복잡해 보이지만 펌웨어 업데이트 프로세스는 더 높은 수준에서는 간단합니다. 다음 다이어그램으로 요약할 수 있습니다.
 
@@ -43,7 +61,18 @@ OTA 클러스터는 꽤 복잡합니다. 메인 펌웨어와 다중 마이크로
 
 클라이언트가 펌웨어 업데이트 프로세스를 관리합니다. 새로운 정보를 받을 준비가 되면서 서버는 수동적인 역할을 합니다. 서버는 중간 업데이트 상태를 유지하지 않으며 모든 정보는 클라이언트에 저장됩니다. 그러나 펌웨어 업데이트 프로세스를 시작하는 것은 서버의 책임에 속할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 펌웨어 업데이트 프로세스 단계는 다음과 같습니다:
 
@@ -60,7 +89,18 @@ Zigbee2mqtt는 일반적으로 이 프로세스를 따르며, 사용 가능한 �
 
 사용 가능한 업데이트를 확인하는 방법에 대해 이야기해 봅시다. 나는 zigbee2mqtt가 외부 서버에서만 펌웨어 업데이트를 찾는 줄 알았고, 기기 자체가 이 프로세스에 참여해야 하는 이유를 이해하지 못했습니다. 작동 방식은 다음과 같습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본적으로 Zigbee2mqtt(Z2M)는 장치의 현재 펌웨어 버전이나 하드웨어 버전을 알지 못합니다(다른 하드웨어 버전은 다른 펌웨어가 필요할 수 있습니다). 게다가 펌웨어 파일은 외부 서버에 위치해 있으며, Z2M은 언제든 사용 가능한 펌웨어 버전을 미리 알지 못합니다. 모든 필요한 정보를 알아내기 위해 다음과 같은 과정이 진행됩니다:
 
@@ -74,7 +114,18 @@ Zigbee2mqtt는 일반적으로 이 프로세스를 따르며, 사용 가능한 �
 
 일반적인 OTA 펌웨어 업데이트 체계에 대한 설명을 마치며, 몇 가지 Wireshark 스크린샷을 보여드리겠습니다. 여기에는 현재 펌웨어 버전을 확인하는 부분이 포함되어 있습니다(나중에 업데이트가 있는지 확인하기 위해).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 펌웨어 업데이트 과정에 대한 몇 개의 스크린샷이 있습니다.
 
@@ -82,7 +133,18 @@ Zigbee2mqtt는 일반적으로 이 프로세스를 따르며, 사용 가능한 �
 
 ![image2](/assets/img/2024-06-19-HelloZigbeeWorldPart25OTAFirmwareUpdates_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 업데이트 전체 구조는 명확해 보입니다. 그러나 사실은 그렇게 간단하지 않아요. 이제 세부 사항에 대해 자세히 살펴보려고 해요.
 
@@ -92,7 +154,18 @@ Zigbee2mqtt는 일반적으로 이 프로세스를 따르며, 사용 가능한 �
 
 항상 절전 모드인 최종 장치에 대한 펌웨어 업데이트도 작동해요. 장치는 다음 메시지를 받기 위해 부모 라우터를 계속 폴링해야 해요. 이 과정은 매우 활동적이며 에너지를 많이 소비해요. 그래서 배터리 구동 장치의 경우 배터리 수준을 지속적으로 확인하고 충전량이 충분하지 않은 경우 업데이트를 시작하지 않아야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한, Zigbee 네트워크의 대역폭이 매우 높지 않다는 것을 기억해주세요. 이 네트워크는 250 kBaud 속도로 작동하지만 실제로는 실제 처리량이 낮습니다:
 
@@ -104,7 +177,18 @@ Zigbee2mqtt는 일반적으로 이 프로세스를 따르며, 사용 가능한 �
 
 여기 작동 방식입니다. 장치는 Image Block Request 메시지로 다음 데이터 블록을 요청합니다. 네트워크가 비교적 자유로울 때, 서버는 SUCCESS 상태와 데이터 바이트를 포함한 Image Block Response를 보냅니다. 그러나 네트워크가 현재 바쁜 상태인 경우, 서버는 기다려야 하는 시간을 나타내며 Image Block Response 메시지를 WAIT_FOR_DATA 상태로 보냅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한 빈 메시지를 주고 받지 않도록 하기 위해, 서버는 OTA 클러스터에서 클라이언트에게 MinBlockRequestDelay 속성을 설정할 수 있습니다. 이는 디바이스가 요청 간에 기다려야 하는 최소 시간을 지정합니다. 이를 위해 OTA 클러스터는 밀리초 타이머 메시지를 구독해야 하며, 클러스터는 필요한 시간 간격을 측정할 것입니다.
 
@@ -114,7 +198,18 @@ Zigbee2mqtt는 일반적으로 이 프로세스를 따르며, 사용 가능한 �
 
 패킷 간에 일시 중지를 포함한 작은 청크로 데이터를 전송하기 때문에, 펌웨어 업데이트는 수십 분 단위로 측정될 수 있는 상당한 시간이 소요될 수 있습니다. 이 기간 동안 다양한 문제가 발생할 수 있습니다 — 배터리가 소진될 수 있고, 전기가 차단될 수 있으며, 네트워크가 사라질 수도 있고, 서버가 고장날 수도 있습니다. 이러한 경우에는 마이크로컨트롤러의 EEPROM에 중간 상태를 저장하여 사용합니다. 따라서 이 상태를 복원하고 펌웨어 다운로드를 계속할 수 있어야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다행히도 대부분의 이 기능은 SDK에서 구현이 되어 있습니다. 우리는 상태를 저장하고 복원하기 위한 함수만 제공하면 됩니다.
 
@@ -124,7 +219,18 @@ Zigbee2mqtt는 일반적으로 이 프로세스를 따르며, 사용 가능한 �
 
 일반적으로 OTA 업데이트 서버와 코디네이터는 같은 디바이스일 필요는 없습니다. 업데이트 서버는 다른 주소에 있을 수도 있습니다. 디바이스는 보통 업데이트 서버가 어디에 있는지 알지 못하기 때문에 클라이언트 디바이스를 구성하기 위해 몇 가지 예비 단계가 필요합니다. 이것이 업데이트 서버 발견 절차가 필요한 이유입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반적인 개발 과정에요. 클라이언트 기기는 OTA 서버 클러스터를 지원하는지 묻는 방송 Match Descriptor Request를 보냅니다. 서버는 Match Descriptor Response를 보내 응답합니다.
 
@@ -134,7 +240,18 @@ Zigbee2mqtt는 일반적으로 이 프로세스를 따르며, 사용 가능한 �
 
 하지만 좋은 소식도 있습니다. 디바이스가 업데이트를 시작하는 기능을 포기하고 zigbee2mqtt가 코디네이터 및 업데이트 서버로 동작한다고 가정하면 Update Server Discovery 절차를 생략할 수 있습니다. 서버가 이미지 알림 메시지로 디바이스에 접근할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## OTA 파일 형식
 
@@ -144,7 +261,18 @@ Zigbee2mqtt는 일반적으로 이 프로세스를 따르며, 사용 가능한 �
 
 ![이미지](/assets/img/2024-06-19-HelloZigbeeWorldPart25OTAFirmwareUpdates_5.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 형식은 컴파일러 및 링커가 생성하는 것과 다릅니다. 게다가 OTA 펌웨어 파일을 생성할 수 있는데, 예를 들어, 장치에 여러 개의 마이크로컨트롤러가 있는 경우 해당 펌웨어를 업데이트해야 합니다.
 
@@ -154,7 +282,18 @@ Zigbee2mqtt는 일반적으로 이 프로세스를 따르며, 사용 가능한 �
 
 Zigbee 프로토콜 측면을 더 잘 이해하려면 JN-AN-1003: JN51xx 부트로더 동작 문서를 참조하시기 바랍니다. 이 문서는 실제로 펌웨어를 마이크로컨트롤러로 로드하는 방법과 해당 펌웨어의 형식, 그리고 UART 펌웨어 업로드 작업에 대해 설명합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마이크로컨트롤러에는 32KB씩 16개의 섹터로 나누어진 512KB의 플래시 메모리가 포함되어 있습니다. 이 섹터 중 일부는 현재 마이크로컨트롤러의 펌웨어를 호스팅합니다. 나머지 블록은 다운로드한 펌웨어를 저장하는 데 사용될 수 있습니다. 그러나 마이크로컨트롤러를 새 펌웨어로 전환하는 방법은 무엇일까요?
 
@@ -164,7 +303,18 @@ JN5169 마이크로컨트롤러에는 섹터 리매핑 기능이 있습니다. �
 
 ![이미지](/assets/img/2024-06-19-HelloZigbeeWorldPart25OTAFirmwareUpdates_6.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새 firmware이 물리적 섹터 0x8부터 0xF까지 다운로드되면, 마이크로컨트롤러는 섹터 리매핑 프로시저를 수행할 수 있습니다 — 논리적 섹터 0은 그 후 물리적 섹터 8을 가리킬 것이고, 섹터 1은 섹터 9를, 이와 같이 계속됩니다 (그 반대도 마찬가지). Firmware은 논리적 주소에서 작동하기 때문에 새 firmware은 재부팅 후에 로드될 것입니다.
 
@@ -174,7 +324,18 @@ JN5169 마이크로컨트롤러에는 섹터 리매핑 기능이 있습니다. �
 
 ![이미지](/assets/img/2024-06-19-HelloZigbeeWorldPart25OTAFirmwareUpdates_8.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 재부팅 중에 부트로더는 섹터를 다시 매핑하지만 다운로드한 펌웨어 데이터를 포함하는 섹터에 대해서만 수행합니다 (0x8부터 0xD까지의 섹터). 이것은 섹터 0xE와 0xF에 일부 데이터를 보존하고 싶을 때 유용할 수 있습니다.
 
@@ -184,7 +345,18 @@ JN5169 마이크로컨트롤러에는 섹터 리매핑 기능이 있습니다. �
 
 저희 예제에서는 어떠한 데이터도 저장하기 위해 플래시 섹터를 사용하지 않을 것입니다 — 마이크로컨트롤러에는 PDM으로 지속되는 값들에 충분한 4k 이프롬이 있습니다. 우리 모델에서는 펌웨어 업데이트를 수행할 때 항상 섹터 0부터 7을 섹터 8부터 0xF로 교체할 예정입니다. 이렇게 함으로써 섹터 번호의 단편화를 피하고 펌웨어 코드를 간단하게 만들 수 있을 것입니다. 따라서 현재 펌웨어는 항상 물리적인 섹터 0부터 7까지 차지하고 있으며, 새로운 펌웨어는 섹터 8부터 0xF에 다운로드된 후 역할이 변경될 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단연코, 펌웨어는 플래시 메모리의 절반인 256 KB보다 커서는 안 됩니다. 그러나 마이크로컨트롤러(그리고 OTA 구현)는 보드에 외부 SPI 플래시 메모리가 있다면 해당 플래시 메모리로 펌웨어를 로드할 수 있습니다. 그래서 256 KB보다 많은 공간이 필요한 사람들은 이 옵션을 탐색하는 것이 유용할 수 있습니다.
 
@@ -194,7 +366,18 @@ JN5169 마이크로컨트롤러에는 섹터 리매핑 기능이 있습니다. �
 
 그래서 코드 작업을 진행해 봅시다. OTA 클러스터 자체를 추가하는 방법은 다른 클러스터를 추가하는 것과 크게 다르지 않습니다. 먼저, Zigbee 구성 편집기에 OTA 클러스터를 추가합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 GUI에서 변경된 사항은 빌드 프로세스의 일부로 실행되는 ZPSConfig 도구를 사용하여 zps_gen.c/h 파일로 변환됩니다.
 
@@ -213,13 +396,24 @@ JN5169 마이크로컨트롤러에는 섹터 리매핑 기능이 있습니다. �
 #define OTA_UPGRADE_VOLTAGE_CHECK
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 재미있는 부분이 시작됩니다. 이러한 설정들은 몇 가지 설명이 필요합니다. 그렇지 않으면 OTA 클러스터가 컴파일되지 않습니다:
 
 - CLD_OTA 및 OTA_CLIENT는 OTA 클러스터를 클라이언트 모드로 구현하는 기능을 활성화합니다.
 - OTA_NO_CERTIFICATE — 암호화 인증서를 사용하지 않을 것입니다. 이러한 인증서가 없으며 디지털 서명 검증에 사용되는 라이브러리가 없습니다.
-- OTA_CLD_ATTR_*는 여러 OTA 클러스터 속성을 활성화합니다. zigbee2mqtt에서 사용되지 않을 수 있지만 일부 속성을 포함하겠습니다. 흥미로운 것으로 간주되는 일부 속성을 활성화했습니다.
+- OTA*CLD_ATTR*\*는 여러 OTA 클러스터 속성을 활성화합니다. zigbee2mqtt에서 사용되지 않을 수 있지만 일부 속성을 포함하겠습니다. 흥미로운 것으로 간주되는 일부 속성을 활성화했습니다.
 - OTA_MAX_BLOCK_SIZE는 다운로드 블록 크기를 48바이트로 설정합니다. 이 매개변수는 데이터를 플래시 메모리에 쓰기 위해 16의 배수여야 합니다. 또한 최대 Zigbee 패킷 크기를 초과하지 않도록 너무 크지 않아야 합니다.
 - OTA_TIME_INTERVAL_BETWEEN_RETRIES — 서버 요청 재시도 간의 간격(예: 서버와의 연결이 끊어졌을 때). 클라이언트가 너무 자주 서버에 요청을 보내지 않도록 간격을 설정합니다.
 - OTA_STRING_COMPARE는 특히 OTA 펌웨어 헤더의 32바이트 문자열 식별자를 통한 펌웨어 유효성 검사를 활성화합니다. 기대하는 값과 일치하지 않으면 펌웨어 업데이트가 오류와 함께 중지됩니다. 또한 이 검사는 펌웨어 다운로드의 맨 처음에 수행됩니다: 헤더와 함께 작은 부분이 다운로드되며 문자열 식별자가 체크되며, 일치하지 않으면 펌웨어가 심지어 다운로드되지 않습니다.
@@ -233,7 +427,18 @@ ADD_DEFINITIONS(
         -DOTA_INTERNAL_STORAGE
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## OTA 클러스터 초기화
 
@@ -243,7 +448,18 @@ ADD_DEFINITIONS(
 
 ![2024-06-19-HelloZigbeeWorldPart25OTAFirmwareUpdates_11.png](/assets/img/2024-06-19-HelloZigbeeWorldPart25OTAFirmwareUpdates_11.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1~3단계에 문제가 없어요. 이미 Main.cpp에서 우리의 펌웨어를 처리했어요. 하지만 4번째 단계의 설명이 약간 부정확해 보여요. 문서에는 eOTA_Create()를 호출한 후에 즉시 eOTA_UpdateClientAttributes()를 호출하라고 합니다. 하지만 이 방법은 작동하지 않아요. 왜냐하면 eOTA_UpdateClientAttributes()를 호출하려면 OTA 엔드포인트가 먼저 등록되어 있어야 해요. 즉, 6단계(엔드포인트 등록)를 eOTA_Create()와 eOTA_UpdateClientAttributes() 사이에 완료해야 해요.
 
@@ -264,7 +480,18 @@ void BasicClusterEndpoint::init()
 
 OTA 클러스터는 eOTA_Create() 함수로 등록되어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```cpp
 void BasicClusterEndpoint::registerOtaCluster()
@@ -296,7 +523,18 @@ class OTAHandlers
 
 지침의 4단계에서 제안한 대로, OTA 클러스터 속성을 초기화해야 합니다. 언급했듯이 OTA 구현은 펌웨어 업데이트 상태가 EEPROM에 저장되고 재부팅 후에 복원될 것을 가정합니다. 저는 이를 다음과 같이 구현했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```cpp
 void resetPersistedOTAData(tsOTA_PersistedData * persistedData)
@@ -325,7 +563,18 @@ eOTA_UpdateClientAttributes() 함수는 클러스터 속성을 일부 초기값�
 
 두 번째 코드 블록은 플래시 메모리에서 상태를 읽고 이 정보를 OTA 클러스터 내부 구조에 복원합니다. 첫 번째 장치 시작이며 EEPROM에 상태 레코드가 없는 경우, resetPersistedOTAData() 함수가 호출되어 구조체를 제로값으로 초기화합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 플래시 메모리 초기화
 
@@ -345,7 +594,18 @@ void OTAHandlers::initFlash()
 
 이 코드는 논리적인 섹터 0–7 및 8–0xF가 연속적인 물리적 섹터를 사용하도록 섹터 매핑을 준비합니다. 리매핑 과정은 위의 전용 섹션에 설명되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로, 새 펌웨어가 쓰여질 플래시 메모리 공간을 초기화하는 시간입니다. 말씀드렸듯이, 마이크로컨트롤러는 펌웨어용 외부 메모리를 지원합니다. 그러나 현재는 내부 메모리만으로도 충분합니다. (네, 이미 OTA_INTERNAL_STORAGE를 정의했지만, NXP 개발자들에게는 그게 충분하지 않은 것 같습니다).
 
@@ -376,7 +636,18 @@ Markdown 형식으로 표를 변경합니다.
         DBG_vPrintf(TRUE, "OTAHandlers::initFlash(): 엔드포인트 OTA 공간 할당 실패 (OTA 빌드가 아닌 경우 무시할 수 있습니다). status=%d\n", status);
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드는 새 펌웨어를 다운로드할 위치(논리 섹터 8부터 시작) 및 최대 펌웨어 크기(8개 섹터, 즉 256k)를 지정합니다.
 
@@ -386,7 +657,18 @@ Markdown 형식으로 표를 변경합니다.
 
 지금까지 사용한 대부분의 클러스터는 시간과 독립적으로 작동합니다. 그들은 들어오는 요청을 처리하거나 내부 이벤트가 발생하면 상태 알림을 보냅니다. 그러나 OTA 클러스터는 타임아웃을 세어내려가기 위해 시간을 알아야 합니다. 이를 위해 OTA 클러스터는 한 번에 한 번씩 틱하는 ZCL 타이머를 사용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 전에 다음과 같이 ZCLTimer 클래스를 추가했습니다. 그래서 새로운 코드가 필요하지 않습니다. 내용은 다음과 같습니다.
 
@@ -440,7 +722,18 @@ void ZCLTimer::timerCallback()
 
 ## OTA 이벤트 처리
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 OTA 클러스터는 펌웨어 업데이트 프로세스를 완전히 구현합니다. 때때로 ZCL은 업데이트 진행 상황에 관한 알림을 보냅니다. OTA 관련 작업은 별도의 클래스에서 처리되므로 이벤트 리다이렉션을 OTAHandlers 클래스로 설정했습니다.
 
@@ -476,7 +769,18 @@ void OTAHandlers::handleOTAMessage(tsOTA_CallBackMessage * pMsg)
 
 그러나 이러한 이벤트는 사용자 정의 가능한 가능성을 제공합니다. 예를 들어, NXP의 예시는 OTA 이벤트를 사용하여 장치의 업데이트 필요 여부, 다운로드된 펌웨어의 무결성, 추가적인 타임아웃, 다운로드 상태 모니터링을 확인하는 데 사용합니다(표준 구현 위에 많이 구축하였습니다).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## [Optional] 컨텍스트 저장 및 복원
 
@@ -510,7 +814,18 @@ void OTAHandlers::handleOTAMessage(tsOTA_CallBackMessage * pMsg)
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로딩 및 복원 상태도 일부 개선이 필요합니다 (NXP의 예시에서 영감을 받았어요).
 
@@ -542,7 +857,18 @@ u32RequestBlockRequestTime 변수를 조정하는 코드가 추가되었습니�
 
 솔직히 말해서, 이 코드에 대해 자신감이 많이 없어요. 한 번 이 설정 전체가 일관성 없는 상태에 갇혔던 적이 있어요. 이게 어떻게 발생했는지 알려드릴게요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테스트 목적으로 펌웨어 업데이트 중에 디바이스를 끄고 zigbee2mqtt에서 타임아웃이 발생할 때 어떤 일이 일어날지 확인해봤어요. 다시 켜니까, 디바이스가 이전 상태를 복원했어요. 디바이스는 다음 블록을 요청하려고 시도했지만 물론 받지 못했죠. 여러 차례 시도한 후, 디바이스는 포기하고 정상 작동으로 돌아갔어요.
 
@@ -552,7 +878,18 @@ NXP 사에서는 이 문제를 해결하기 위해 예제에 추가적인 타임
 
 아직 이 행동을 처리하거나 컨텍스트 저장을 완전히 비활성화할지 결정하지 않았어요. 디바이스가 리부팅 후 깨끗한 상태로 시작하고, 단순히 펌웨어 업데이트 프로세스를 다시 시작하는게 나을지도 모르겠네요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 펌웨어 바이너리 크기 수정
 
@@ -562,7 +899,18 @@ NXP 사에서는 이 문제를 해결하기 위해 예제에 추가적인 타임
 
 OTA 코드에서 이 버그를 수정하는 것이 가능하지만, SDK 코드를 수정하는 것은 제 선택이 아니었습니다. 대신, 이진 크기를 16바이트의 배수로 반올림하는 방법을 찾았으나, 이를 달성하는 방법을 모르겠습니다 (파이썬 스크립트를 사용하여 바이트를 추가하는 방법 뿐일지도 모릅니다).
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결국 특정 스크립트를 사용하여 링커를 조정하는 데 성공했습니다.
 
@@ -590,7 +938,18 @@ SECTIONS
 
 핵심은 16개의 0으로 구성된 "pad" 섹션을 추가하는 것입니다. 이 섹션은 .text 및 .data 섹션 다음에 16바이트로 정렬됩니다. 이 정렬로 링커는 .pad 섹션 앞에 충분한 바이트를 추가하여 펌웨어의 총 크기가 16바이트의 배수가 되도록합니다. OTA 업데이트용으로 파일 서명이 시작할 때 추가 4바이트도 있지만 이것은 펌웨어의 일부로 간주되지 않습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 링커 스크립트는 다음과 같이 CMakeList.txt에 포함되어 있습니다:
 
@@ -602,7 +961,18 @@ SET(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -T${HelloZigbee_SOURCE_DIR
 
 ## OTA 헤더 추가하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모두 해결되었다고 생각했을 때, 그 이상이 있습니다! 이 코드가 작동하려면 또 다른 링커 매직이 필요합니다.
 
@@ -612,7 +982,18 @@ OTA 업데이트 서버는 마이크로컨트롤러에 로드된 펌웨어를 �
 
 그 외에도 이 섹션 앞에 다른 섹션이 필요합니다. 즉, .ro_mac_address가 있어야 합니다. 각 칩은 공장에서 고유한 MAC 주소가 할당되지만 때로는 JET 도구를 사용하여 이 주소를 재정의해야 할 수도 있습니다. 재정의 MAC 주소 기능을 사용하지는 않지만, .ro_mac_address 섹션이 펌웨어에 있어야 합니다. 그렇지 않으면 JET이 .ro_ota_header를 놓칠 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용되지 않더라도 파일에 모든 섹션이 유지되도록 하려면 다른 링커 기술을 사용할 수 있습니다. 링커 스크립트의 KEEP 키워드는 모든 필요한 섹션을 보존하여 이를 달성하는 데 도움을 줍니다.
 
@@ -628,7 +1009,7 @@ SECTIONS
         {
             KEEP(*(.ro_ota_header));
         } > flash
-        
+
         .ro_se_lnkKey :
         {
             KEEP(*(.ro_se_lnkKey));
@@ -640,11 +1021,20 @@ SECTIONS
 
 SDK에 포함된 JET 유틸리티에 대해 이해해야 합니다. 해당 작업은 JN-UG-3081 문서에 자세히 설명되어 있습니다. 불행히도 이 문서는 내재적인 프로세스를 충분히 명확히 하지 않습니다. 기존 지식을 전제로 한 세부 정보를 생략합니다. 그래서 올바른 설정을 찾기 위해 시행착오 방법을 사용해야 했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-C:\NXP\bstudio_nxp\sdk\JN-SW-4170\Tools\OTAUtils\JET.exe -m otamerge --embed_hdr -c HelloZigbee.bin -o HelloZigbee.ota.bin -v JN516x -n 1 -t 1 -u 0x1037 -j "HelloZigbee2021                 "
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
+C:\NXP\bstudio_nxp\sdk\JN-SW-4170\Tools\OTAUtils\JET.exe -m otamerge --embed_hdr -c HelloZigbee.bin -o HelloZigbee.ota.bin -v JN516x -n 1 -t 1 -u 0x1037 -j "HelloZigbee2021 "
 
 위 명령어에서 각 옵션의 의미는 다음과 같습니다:
 
@@ -660,8 +1050,18 @@ C:\NXP\bstudio_nxp\sdk\JN-SW-4170\Tools\OTAUtils\JET.exe -m otamerge --embed_hdr
 
 참고로, OTA 헤더에 포함된 펌웨어 버전은 기본 클러스터에서 보고되고 Z2M 장치 정보 페이지에 표시되는 펌웨어 버전 문자열과 동일하지 않습니다. 이는 단순히 업데이트 프로세스에 참여하지 않는 문자열일 뿐입니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## OTAP 펌웨어
 
@@ -671,7 +1071,18 @@ C:\NXP\bstudio_nxp\sdk\JN-SW-4170\Tools\OTAUtils\JET.exe -m otamerge --embed_hdr
 
 이러한 유형의 파일을 준비하기 위해 JET 유틸리티를 다시 사용하지만 다른 설정으로 사용합니다. 이전에 사용한 -- embed_hdr 대신 -- ota 옵션을 사용합니다. 이 방법을 통해 펌웨어가 OTAP 배포를 위한 올바른 형식으로 되어 있음을 보장합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 JET.exe -m otamerge --ota -v JN516x -n 2 -t 1 -u 0x1037 -p 1 -c HelloZigbee.bin -o HelloZigbee.ota
@@ -691,7 +1102,18 @@ JET.exe -m otamerge --ota -v JN516x -n 2 -t 1 -u 0x1037 -p 1 -c HelloZigbee.bin 
 
 이상적으로는 빌드마다 증가하는 버전 번호를 자동으로 생성하는 CI를 설정하는 것이 좋습니다. 하지만 현재 CI를 설정하기 귀찮아서 다음과 같은 해킹을 사용합니다. 플래시 도구를 통해 플래시될 펌웨어를 빌드할 때는 버전 #1을 지정하고, 서버에 배치할 펌웨어를 컴파일할 때는 #2를 포함합니다 (-n 2 키를 보십시오). 이렇게 하면 서버의 버전이 마이크로컨트롤러의 버전보다 항상 최신 상태가 됩니다. 물론 실제 장치에 대해서는 더 전문적으로 처리해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 상기 설명된 모든 마법같은 기능들을 여러 개의 CMake 함수로 캡슐화했습니다.
 
@@ -732,7 +1154,18 @@ ENDFUNCTION()
 - 첫 번째는 Zigbee 표준을 준수하는 펌웨어를 보장하는 외부 래퍼입니다. 이 헤더는 zigbee2mqtt에게 펌웨어 파일의 특성에 대한 정보를 제공합니다.
 - 두 번째는 펌웨어 자체에 내장된 헤더입니다. OTA 업데이트 과정에서 외부 래퍼는 삭제되고, 내장 OTA 헤더가 펌웨어가 자체 세부 사항을 이해하는 소스로 남게 됩니다. 버전, 이름 문자열, 제조업체 코드 등에 대한 정보가 포함됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## OTA 펌웨어 업데이트 with zigbee2mqtt
 
@@ -749,7 +1182,18 @@ const device = {
 
 OTA 펌웨어 업데이트는 z2m 대시보드의 OTA 탭에서 수행됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-HelloZigbeeWorldPart25OTAFirmwareUpdates_12.png" />
 
@@ -757,29 +1201,51 @@ OTA 펌웨어 업데이트는 z2m 대시보드의 OTA 탭에서 수행됩니다.
 
 ```js
 [
-    {
-        "url": "HelloZigbee.ota",
-        "force": true
-    }
-]
+  {
+    url: "HelloZigbee.ota",
+    force: true,
+  },
+];
 ```
 
 지그비2mqtt는 서버에 있는 펌웨어 버전을 기기에 현재 있는 버전과 비교하여 업그레이드가 제안되는지 확인하고, 서버 버전이 더 최신일 때에만 업그레이드 제안을 합니다. 개발 중에는 버전 비교와 관계없이 특정 펌웨어로 업그레이드를 강제로 실행하는 것이 유용할 수 있습니다. 이를 위해, 인덱스 파일에 "force": true 옵션을 포함합니다. 이 설정은 기기에 있는 버전이 서버에 있는 버전과 동일하거나 더 최신해도 zigbee2mqtt가 업데이트를 계속 진행하도록 지시합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 이 인덱스가 configuration.yaml에서 활성화되어야 합니다.
 
 ```yaml
 ota:
-    zigbee_ota_override_index_location: index.json
+  zigbee_ota_override_index_location: index.json
 ```
 
 HelloZigbee.ota 펌웨어 파일과 index.json 파일은 데이터 디렉토리 안에 configuration.yaml 파일과 함께 위치해야 합니다. 다시 시작한 후, zigbee2mqtt는 인덱스 파일을 인식하고 사용 가능한 업데이트 목록에 펌웨어를 포함시킵니다.
 
 '새 업데이트 확인' 버튼을 클릭하면 zigbee2mqtt가 디바이스의 현재 펌웨어 버전을 문의합니다. 서버의 펌웨어가 디바이스의 것보다 최신이거나 "force" 옵션이 활성화된 경우, zigbee2mqtt는 펌웨어 업데이트를 제안할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 요약
 
@@ -789,7 +1255,18 @@ HelloZigbee.ota 펌웨어 파일과 index.json 파일은 데이터 디렉토리 
 
 # 링크
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 깃허브 프로젝트
 - JN-UG-3115 지그비 클러스터 라이브러리 (지그비 3.0용) 사용자 가이드

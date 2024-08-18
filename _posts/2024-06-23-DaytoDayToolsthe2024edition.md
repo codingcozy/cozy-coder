@@ -3,17 +3,13 @@ title: "하루하루 유용한 도구들, 2024 최신판"
 description: ""
 coverImage: "/assets/img/2024-06-23-DaytoDayToolsthe2024edition_0.png"
 date: 2024-06-23 15:39
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-DaytoDayToolsthe2024edition_0.png
 tag: Tech
 originalTitle: "Day to Day Tools, the 2024 edition"
 link: "https://medium.com/@russmckendrick/day-to-day-tools-the-2024-edition-7651c0d5b664"
 isUpdated: true
 ---
-
-
-
-
 
 2017년부터 내가 매일 사용하는 도구에 대해 쓴 것 같아; 얼마나 많이 변했는지 궁금하네. 🤔
 
@@ -30,7 +26,18 @@ isUpdated: true
 - Ivory : 이 앱은 강력하고 기능이 풍부하며 Tweetbot처럼 Mastodon 클라이언트를 필요로 하는 사람들에게 완벽해. Ivory는 부드럽고 사용자 정의 가능한 사용자 경험을 제공해, 소셜 미디어에서 연결되어 있고 참여하는 게 쉽게 해줘. 🐘💬
 - iTerm2 : iTerm이 내 최선의 터미널 에뮬레이터야. 기본 터미널 앱보다 더 많은 기능과 사용자 정의 옵션을 제공해, 분할 창, 사용자 정의 색 구성표, 그리고 포괄적인 키보드 바로 가기를 포함해. 💻
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 터미널 앱 ⌨️
 
@@ -49,7 +56,18 @@ isUpdated: true
 - **Kagi**는 빠르고 광고 없는 개인 정보 중심 검색 엔진으로, 광고나 추적 없이 정확한 정보를 제공하여 웹 브라우징 경험을 향상시켜줍니다. 🔍🕵️
 - **Cloudflare Pages**는 빠르고 안전한 정적 웹 사이트를 배포하는 플랫폼입니다. 개발 흐름에 완벽히 통합되어 편리하게 웹 프로젝트를 신속하게 발행하고 관리할 수 있습니다. 이 블로그와 레코드 수집 페이지를 포함하여 내 웹 프로젝트를 쉽게 관리하고 게시할 수 있도록 해줍니다. 🌩️🕸️
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 AI 기술의 발전을 감안하면, 이 목록이 앞으로 12개월 동안 얼마나 변할지 궁금하네요!!!! 🤯🔮
 
